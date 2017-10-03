@@ -1,0 +1,33 @@
+---
+title: "錯誤-指令碼處理運算質沒有方法 |Microsoft 文件"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+f1_keywords: bts10.map.error.noMethodForScriptingFunctiod
+ms.assetid: 8e844626-2878-4ac2-9e8e-240bd32921ac
+caps.latest.revision: "7"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: e7b053d58de52a52903eef587bff4e76610c984a
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/20/2017
+---
+# <a name="error---no-method-for-scripting-functoid"></a><span data-ttu-id="48c54-102">錯誤-指令碼處理運算質沒有方法</span><span class="sxs-lookup"><span data-stu-id="48c54-102">Error - No Method for Scripting Functoid</span></span>
+<span data-ttu-id="48c54-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="48c54-103">**Error Code**</span></span>  
+  
+ <span data-ttu-id="48c54-104">btm1009</span><span class="sxs-lookup"><span data-stu-id="48c54-104">btm1009</span></span>  
+  
+ <span data-ttu-id="48c54-105">**說明**</span><span class="sxs-lookup"><span data-stu-id="48c54-105">**Explanation**</span></span>  
+  
+ <span data-ttu-id="48c54-106">**指令碼方法**屬性所指定**指令碼處理**即使尚未設定運算質**指令碼類型**屬性指示外部組件包含這個指令碼**指令碼處理**運算質。</span><span class="sxs-lookup"><span data-stu-id="48c54-106">The **Script Method** property of the indicated **Scripting** functoid has not been set even though the **Script Type** property indicates that an external assembly contains the script for this **Scripting** functoid.</span></span>  
+  
+ <span data-ttu-id="48c54-107">**使用者動作**</span><span class="sxs-lookup"><span data-stu-id="48c54-107">**User Action**</span></span>  
+  
+ <span data-ttu-id="48c54-108">選取指定**指令碼處理**運算質，按一下省略符號 (**...**) 相關聯的按鈕**指令碼**屬性在 microsoft[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]屬性 視窗中，然後在中設定適當的值**設定運算質指令碼**對話方塊中，包括**指令碼方法**屬性。</span><span class="sxs-lookup"><span data-stu-id="48c54-108">Select the indicated **Scripting** functoid, click the ellipsis (**...**) button associated with the **Script** property in the Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Properties window, and then set the appropriate values in the **Configure Functoid Script** dialog box, including the **Script Method** property.</span></span>

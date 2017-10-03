@@ -1,0 +1,60 @@
+---
+title: "關於 BizTalk 專案系統 |Microsoft 文件"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- projects, about projects
+- applications, creating
+- creating, applications
+- creating, business solutions
+- business solutions, creating
+ms.assetid: 69807e57-356e-451d-b803-4253b891b617
+caps.latest.revision: "16"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: ddff6ff13611ee404a5517384455b0c59f968ee0
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/20/2017
+---
+# <a name="about-the-biztalk-project-system"></a><span data-ttu-id="fc59b-102">關於 BizTalk 專案系統</span><span class="sxs-lookup"><span data-stu-id="fc59b-102">About the BizTalk Project System</span></span>
+<span data-ttu-id="fc59b-103">您可以使用 BizTalk 專案系統以建立部分或所有的 Microsoft[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]應用程式或商務方案。</span><span class="sxs-lookup"><span data-stu-id="fc59b-103">You use the BizTalk project system to create part or all of a Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application or business solution.</span></span> <span data-ttu-id="fc59b-104">任何這類方案的核心項目為 BizTalk 專案—為部署之前建置和產生至組件的結構描述、協調流程、Web 訊息類型、類別、管線、對應和參考等項目的集合。</span><span class="sxs-lookup"><span data-stu-id="fc59b-104">The core element of any such solution is a BizTalk project—a collection of items, such as schemas, orchestrations, Web message types, classes, pipelines, maps, and references that you can build and generate into an assembly before deploying it.</span></span>  
+  
+ <span data-ttu-id="fc59b-105">較簡單的商務方案可包含產生至單一組件的單一 BizTalk 專案。</span><span class="sxs-lookup"><span data-stu-id="fc59b-105">A relatively simple business solution might consist of a single BizTalk project generated into a single assembly.</span></span> <span data-ttu-id="fc59b-106">如果是更複雜的商務方案 — 比方說，您有整合許多不同系統和程序的方案，可能的 BizTalk 方案或許具有許多組件產生從許多 BizTalk 專案並部署至數個[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]電腦。</span><span class="sxs-lookup"><span data-stu-id="fc59b-106">If your business solution is more complex—for example, you have a solution that integrates many diverse systems and processes—a possible BizTalk solution might have many assemblies generated from many BizTalk projects and deployed to several [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computers.</span></span>  
+  
+> [!IMPORTANT]
+>  <span data-ttu-id="fc59b-107">您無法在組件名稱中使用逗號。</span><span class="sxs-lookup"><span data-stu-id="fc59b-107">You cannot use commas in assembly names.</span></span>  
+  
+ <span data-ttu-id="fc59b-108">當您建立 BizTalk 專案時，一般會包含下列清單中的一或多個檔案類型。</span><span class="sxs-lookup"><span data-stu-id="fc59b-108">When you create a BizTalk project, you generally include one or more of the file types in the following list.</span></span> <span data-ttu-id="fc59b-109">這些檔案類型在建立方案時扮演特定角色，而 BizTalk 專案系統會為每一種檔案類型提供對應的圖形化設計工具。</span><span class="sxs-lookup"><span data-stu-id="fc59b-109">These file types play specific roles in creating your solution, and the BizTalk project system provides you with a corresponding graphical design tool for each of them.</span></span>  
+  
+-   <span data-ttu-id="fc59b-110">**協調流程。**</span><span class="sxs-lookup"><span data-stu-id="fc59b-110">**Orchestrations.**</span></span> <span data-ttu-id="fc59b-111">協調流程代表商務程序的工作流程。</span><span class="sxs-lookup"><span data-stu-id="fc59b-111">An orchestration represents the workflow of a business process.</span></span> <span data-ttu-id="fc59b-112">您可以使用「協調流程設計師」設計協調流程。</span><span class="sxs-lookup"><span data-stu-id="fc59b-112">You use the Orchestration Designer for designing orchestrations.</span></span> <span data-ttu-id="fc59b-113">如需協調流程設計師 」 的詳細資訊，請參閱[協調流程使用協調流程設計師建立](../core/creating-orchestrations-using-orchestration-designer.md)。</span><span class="sxs-lookup"><span data-stu-id="fc59b-113">For more information about Orchestration Designer, see [Creating Orchestrations Using Orchestration Designer](../core/creating-orchestrations-using-orchestration-designer.md).</span></span>  
+  
+-   <span data-ttu-id="fc59b-114">**結構描述。**</span><span class="sxs-lookup"><span data-stu-id="fc59b-114">**Schemas.**</span></span> <span data-ttu-id="fc59b-115">結構描述描述 XML 文件的結構。</span><span class="sxs-lookup"><span data-stu-id="fc59b-115">A schema describes the structure of an XML document.</span></span> <span data-ttu-id="fc59b-116">結構描述會在組織中的應用程式之間或交易夥伴之間交換資訊。</span><span class="sxs-lookup"><span data-stu-id="fc59b-116">Schemas exchange information among applications within an organization or among trading partners.</span></span> <span data-ttu-id="fc59b-117">BizTalk 編輯器可簡化定義結構描述的程序。</span><span class="sxs-lookup"><span data-stu-id="fc59b-117">BizTalk Editor simplifies the process of defining schemas.</span></span> <span data-ttu-id="fc59b-118">如需 BizTalk 編輯器的詳細資訊，請參閱[建立結構描述使用 BizTalk 編輯器](../core/creating-schemas-using-biztalk-editor.md)。</span><span class="sxs-lookup"><span data-stu-id="fc59b-118">For more information about BizTalk Editor, see [Creating Schemas Using BizTalk Editor](../core/creating-schemas-using-biztalk-editor.md).</span></span>  
+  
+-   <span data-ttu-id="fc59b-119">**將對應。**</span><span class="sxs-lookup"><span data-stu-id="fc59b-119">**Maps.**</span></span> <span data-ttu-id="fc59b-120">對應會將資料從一種格式轉換為另一種格式。</span><span class="sxs-lookup"><span data-stu-id="fc59b-120">A map transforms data from one format to another.</span></span> <span data-ttu-id="fc59b-121">BizTalk 對應工具會以並排方式呈現來源結構描述和目的結構描述，讓您定義不同訊息的資料項目之間的轉換。</span><span class="sxs-lookup"><span data-stu-id="fc59b-121">BizTalk Mapper presents source schemas and destination schemas side-by-side and enables you to define transformations between data elements of different messages.</span></span> <span data-ttu-id="fc59b-122">如需 BizTalk 對應工具的詳細資訊，請參閱[建立對應使用 BizTalk 對應工具](../core/creating-maps-using-biztalk-mapper.md)。</span><span class="sxs-lookup"><span data-stu-id="fc59b-122">For more information about BizTalk Mapper, see [Creating Maps Using BizTalk Mapper](../core/creating-maps-using-biztalk-mapper.md).</span></span>  
+  
+-   <span data-ttu-id="fc59b-123">**管線。**</span><span class="sxs-lookup"><span data-stu-id="fc59b-123">**Pipelines.**</span></span> <span data-ttu-id="fc59b-124">管線會執行各種作業，為進一步處理內送或外寄訊息做準備。</span><span class="sxs-lookup"><span data-stu-id="fc59b-124">A pipeline performs a variety of operations to prepare incoming or outgoing messages for further processing.</span></span> <span data-ttu-id="fc59b-125">「管線設計師」可讓您實作如加密與解密、壓縮、重新格式化以及驗證等作業。</span><span class="sxs-lookup"><span data-stu-id="fc59b-125">Pipeline Designer enables you to implement such operations as encryption and decryption, compression, reformatting, and validation.</span></span> <span data-ttu-id="fc59b-126">如需管線設計師 」 的詳細資訊，請參閱[管線使用管線設計師建立](../core/creating-pipelines-using-pipeline-designer.md)。</span><span class="sxs-lookup"><span data-stu-id="fc59b-126">For more information about Pipeline Designer, see [Creating Pipelines Using Pipeline Designer](../core/creating-pipelines-using-pipeline-designer.md).</span></span>  
+  
+ <span data-ttu-id="fc59b-127">BizTalk 專案與 Team Foundation Server (TFS) 相容。</span><span class="sxs-lookup"><span data-stu-id="fc59b-127">BizTalk projects are compatible with Team Foundation Server (TFS).</span></span> <span data-ttu-id="fc59b-128">如需有關設計的詳細資訊，請開發和部署解決方案內 BizTalk Server 內搭配 TFS，請參閱[開發整合解決方案使用 BizTalk Server 和 Team Foundation Server](http://www.microsoft.com/downloads/details.aspx?FamilyID=ed7bd0ee-1385-4041-8f2a-354594ee88f3&DisplayLang=en)。</span><span class="sxs-lookup"><span data-stu-id="fc59b-128">For more information about designing, developing, and deploying solutions within BizTalk Server in conjunction with TFS, see [Developing Integration Solutions using BizTalk Server and Team Foundation Server](http://www.microsoft.com/downloads/details.aspx?FamilyID=ed7bd0ee-1385-4041-8f2a-354594ee88f3&DisplayLang=en).</span></span>  
+  
+> [!IMPORTANT]
+>  <span data-ttu-id="fc59b-129">TFS 建置會顯示一個名稱為「MSBuild 平台」的屬性，其中可以有 3 個值：「自動」、「x86」及「x64」。</span><span class="sxs-lookup"><span data-stu-id="fc59b-129">TFS Build exposes a property called “MSBuild Platform” that can have 3 values – “Auto”, “x86” and “x64”.</span></span> <span data-ttu-id="fc59b-130">為確保建置成功完成，以上屬性的值必須設定為 x86。</span><span class="sxs-lookup"><span data-stu-id="fc59b-130">To ensure successful build, the value of the above property must be set to x86.</span></span>  
+  
+ <span data-ttu-id="fc59b-131">BizTalk 專案可與 Visual Studio 中的其他專案並存。</span><span class="sxs-lookup"><span data-stu-id="fc59b-131">BizTalk projects can coexist with other projects in Visual Studio.</span></span> <span data-ttu-id="fc59b-132">如同 Visual Studio 中的所有專案系統，BizTalk 專案可包含其他檔案，例如 ASP.NET 頁面，而且可以參考您已建立的其他專案和組件。</span><span class="sxs-lookup"><span data-stu-id="fc59b-132">As with all project systems in Visual Studio, BizTalk projects can include other files, such as ASP.NET pages, and can refer to other projects and assemblies that you have created.</span></span> <span data-ttu-id="fc59b-133">如需 BizTalk 專案範本的詳細資訊，請參閱[BizTalk Server 專案範本](../core/biztalk-server-project-templates.md)。</span><span class="sxs-lookup"><span data-stu-id="fc59b-133">For more information about the BizTalk project template, see [BizTalk Server Project Templates](../core/biztalk-server-project-templates.md).</span></span> <span data-ttu-id="fc59b-134">如需有關如何建立 BizTalk 專案的詳細資訊，請參閱[如何建立 BizTalk 專案](../core/how-to-create-biztalk-projects.md)。</span><span class="sxs-lookup"><span data-stu-id="fc59b-134">For more information about creating BizTalk projects, see [How to Create BizTalk Projects](../core/how-to-create-biztalk-projects.md).</span></span>  
+  
+> [!WARNING]
+>  <span data-ttu-id="fc59b-135">雖然您可以從可在 Visual Studio 中使用的其他專案系統來存取 BizTalk 設計工具，不過它們的行為無法預測。</span><span class="sxs-lookup"><span data-stu-id="fc59b-135">You might be able to access BizTalk design tools from other project systems that you can use in Visual Studio, but their behavior is unpredictable.</span></span> <span data-ttu-id="fc59b-136">請只在 BizTalk 專案的環境中使用「協調流程設計師」、「管線設計師」、「BizTalk 編輯器」和「BizTalk 對應工具」。</span><span class="sxs-lookup"><span data-stu-id="fc59b-136">Use Orchestration Designer, Pipeline Designer, BizTalk Editor, and BizTalk Mapper only within the context of a BizTalk project.</span></span>  
+  
+## <a name="see-also"></a><span data-ttu-id="fc59b-137">另請參閱</span><span class="sxs-lookup"><span data-stu-id="fc59b-137">See Also</span></span>  
+ <span data-ttu-id="fc59b-138">[建立協調流程使用協調流程設計師](../core/creating-orchestrations-using-orchestration-designer.md) </span><span class="sxs-lookup"><span data-stu-id="fc59b-138">[Creating Orchestrations Using Orchestration Designer](../core/creating-orchestrations-using-orchestration-designer.md) </span></span>  
+ <span data-ttu-id="fc59b-139">[使用 BizTalk 編輯器建立結構描述](../core/creating-schemas-using-biztalk-editor.md) </span><span class="sxs-lookup"><span data-stu-id="fc59b-139">[Creating Schemas Using BizTalk Editor](../core/creating-schemas-using-biztalk-editor.md) </span></span>  
+ <span data-ttu-id="fc59b-140">[使用 BizTalk 對應工具建立對應](../core/creating-maps-using-biztalk-mapper.md) </span><span class="sxs-lookup"><span data-stu-id="fc59b-140">[Creating Maps Using BizTalk Mapper](../core/creating-maps-using-biztalk-mapper.md) </span></span>  
+ <span data-ttu-id="fc59b-141">[建立管線使用管線設計師](../core/creating-pipelines-using-pipeline-designer.md) </span><span class="sxs-lookup"><span data-stu-id="fc59b-141">[Creating Pipelines Using Pipeline Designer](../core/creating-pipelines-using-pipeline-designer.md) </span></span>  
+ [<span data-ttu-id="fc59b-142">開發人員工具</span><span class="sxs-lookup"><span data-stu-id="fc59b-142">Developer Tools</span></span>](../core/developer-tools.md)

@@ -1,0 +1,63 @@
+---
+title: "設定後援本機主機設定 （EDIFACT-交換設定） |Microsoft 文件"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: eecf5abb-9c12-44b0-bc58-94cb138515c3
+caps.latest.revision: "4"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 6dc98c62870632501c5b5330ed72ad5aee971fdd
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/20/2017
+---
+# <a name="configuring-fallback-local-host-settings-edifact-interchange-settings"></a><span data-ttu-id="baef7-102">設定後援本機主機設定 (EDIFACT 交換設定)</span><span class="sxs-lookup"><span data-stu-id="baef7-102">Configuring Fallback Local Host Settings (EDIFACT-Interchange Settings)</span></span>
+<span data-ttu-id="baef7-103">本機主機設定控制了處理 EDI 交換的方式。</span><span class="sxs-lookup"><span data-stu-id="baef7-103">The local host settings govern how the EDI interchanges are processed.</span></span> <span data-ttu-id="baef7-104">此頁面上的設定可分成兩個類別 - 接收者的設定 (用於內送交換) 與傳送者的設定 (用於外寄交換)。</span><span class="sxs-lookup"><span data-stu-id="baef7-104">The settings on this page can be divided into two categories – receiver’s settings (for incoming interchanges) and sender’s settings (for outgoing interchanges).</span></span> <span data-ttu-id="baef7-105">在接收者的設定中，您可以指定通知控制編號的產生方式。</span><span class="sxs-lookup"><span data-stu-id="baef7-105">As part of the receiver’s settings, you can specify how the acknowledgement control number will be generated.</span></span> <span data-ttu-id="baef7-106">在傳送者的設定中，您可以指定為外寄訊息產生控制編號的方式。</span><span class="sxs-lookup"><span data-stu-id="baef7-106">As part of the sender’s settings, you can specify how the control numbers are generated for outgoing messages.</span></span>  
+  
+## <a name="prerequisites"></a><span data-ttu-id="baef7-107">必要條件</span><span class="sxs-lookup"><span data-stu-id="baef7-107">Prerequisites</span></span>  
+ <span data-ttu-id="baef7-108">您必須以「[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 系統管理員」或「[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] B2B 操作員」群組成員的身分來登入。</span><span class="sxs-lookup"><span data-stu-id="baef7-108">You must be logged on as a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators or [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] B2B Operators group.</span></span>  
+  
+### <a name="to-configure-local-host--receivers-settings"></a><span data-ttu-id="baef7-109">若要設定本機主機 - 接收者的設定</span><span class="sxs-lookup"><span data-stu-id="baef7-109">To configure local host – receiver’s settings</span></span>  
+  
+1.  <span data-ttu-id="baef7-110">在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，以滑鼠右鍵按一下**合作對象**節點，然後再按一下**EDIFACT 後援設定**。</span><span class="sxs-lookup"><span data-stu-id="baef7-110">In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, right-click the **Parties** node, and then click **EDIFACT Fallback Settings**.</span></span>  
+  
+2.  <span data-ttu-id="baef7-111">在**EDIFACT 後援設定**對話方塊中，於**EDIFACT 協議頁面**索引標籤，下方**交換設定**區段中，按一下**本機主機設定**。</span><span class="sxs-lookup"><span data-stu-id="baef7-111">In the **EDIFACT Fallback Settings** dialog box, in the **EDIFACT Agreement Pages** tab, under the **Interchange Settings** section, click **Local Host Settings**.</span></span>  
+  
+3.  <span data-ttu-id="baef7-112">在**EDIFACT 通知**區段中，指定要用於通知，交易集參考編號的前置詞、 參考編號和後置詞範圍輸入的值。</span><span class="sxs-lookup"><span data-stu-id="baef7-112">In the **EDIFACT ACK** section, to designate the transaction set reference numbers to be used in an acknowledgment, enter a value for the prefix, a range of reference numbers, and suffix.</span></span>  
+  
+     <span data-ttu-id="baef7-113">按一下**重設**重設目前的交易集參考編號為下限。</span><span class="sxs-lookup"><span data-stu-id="baef7-113">Click **Reset** to reset the current transaction set reference number to the lower limit.</span></span> <span data-ttu-id="baef7-114">選取**重設為下限超出範圍時**有[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]參考編號重設的範圍值下限，如果超過最大限制。</span><span class="sxs-lookup"><span data-stu-id="baef7-114">Select **Reset to lower limit when out of bound** to have [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] reset the reference number to the lower range value limit if the maximum limit is exceeded.</span></span>  
+  
+### <a name="to-configure-local-host--senders-settings"></a><span data-ttu-id="baef7-115">若要設定本機主機 - 傳送者的設定</span><span class="sxs-lookup"><span data-stu-id="baef7-115">To configure local host – sender’s settings</span></span>  
+  
+1.  <span data-ttu-id="baef7-116">如**交換控制編號 (UNB5)**，輸入要由 BizTalk Server 產生外寄交換時使用的交換控制編號值範圍。</span><span class="sxs-lookup"><span data-stu-id="baef7-116">For **Interchange control number (UNB5)**, enter a range of values for the interchange control number to be used by BizTalk Server in generating an outgoing interchange.</span></span> <span data-ttu-id="baef7-117">輸入最小為 1，最大為 999999999 的數值。</span><span class="sxs-lookup"><span data-stu-id="baef7-117">Enter a numeric value with a minimum of 1 and a maximum of 999999999.</span></span> <span data-ttu-id="baef7-118">這是必要的欄位。</span><span class="sxs-lookup"><span data-stu-id="baef7-118">This is a mandatory field.</span></span>  
+  
+    > [!NOTE]
+    >  <span data-ttu-id="baef7-119">第一個欄位 (**UNB5.1**) 是前置詞; 第二個和第三個欄位 (**UNB5.2**) 包含要做為交換控制編號; 和第四個欄位的數字範圍 (**UNB5.3**)是後置詞。</span><span class="sxs-lookup"><span data-stu-id="baef7-119">The first field (**UNB5.1**) is the prefix; the second and third fields (**UNB5.2**) contain the range of numbers to use as the interchange control number; and the fourth field (**UNB5.3**) is the suffix.</span></span> <span data-ttu-id="baef7-120">前置詞和後置詞是選擇性的；控制編號是必要的。</span><span class="sxs-lookup"><span data-stu-id="baef7-120">The prefix and suffix are optional; the control number is required.</span></span> <span data-ttu-id="baef7-121">控制編號會隨著每一個新訊息而遞增；前置詞和後置詞則保持不變。</span><span class="sxs-lookup"><span data-stu-id="baef7-121">The control number is incremented for each new message; the prefix and suffix remain the same.</span></span> <span data-ttu-id="baef7-122">控制編號的字元數上限為 14 個字元，前置詞和後置詞上限為 13 個字元，而三個欄位總共不得超過 14 個字元。</span><span class="sxs-lookup"><span data-stu-id="baef7-122">The maximum number of characters is 14 for the control number, 13 for the prefix and suffix, and 14 for all three fields combined.</span></span>  
+    >   
+    >  <span data-ttu-id="baef7-123">若要控制編號重設指定的最小值，請按一下**重設** 按鈕。</span><span class="sxs-lookup"><span data-stu-id="baef7-123">To reset the control number to the minimum value specified, click the **Reset** button.</span></span> <span data-ttu-id="baef7-124">請檢查**重設為下限超出範圍時**自動重設的最小值為 如果超出最大值。</span><span class="sxs-lookup"><span data-stu-id="baef7-124">Check **Reset to lower limit when out of bound** to automatically reset to the minimum value if the maximum value is exceeded.</span></span>  
+  
+2.  <span data-ttu-id="baef7-125">如**群組控制編號 (UNG5)**、 輸入前置詞、 參考編號範圍和 BizTalk Server 應該使用它所傳送之第一個交換的群組控制編號的尾碼。</span><span class="sxs-lookup"><span data-stu-id="baef7-125">For **Group control number (UNG5)**, enter the prefix, reference number range, and suffix that BizTalk Server should use for the group control number of the first interchange that it sends.</span></span>  
+  
+    > [!NOTE]
+    >  <span data-ttu-id="baef7-126">第一個欄位 (**UNG5.1**) 是前置詞; 第二個和第三個欄位 (**UNG5.2**) 包含要用於群組控制編號; 和第四個欄位的數字的範圍 (**UNG5.3**) 是後置詞。</span><span class="sxs-lookup"><span data-stu-id="baef7-126">The first field (**UNG5.1**) is the prefix; the second and third fields (**UNG5.2**) contain the range of numbers to use for the group control number; and the fourth field (**UNG5.3**) is the suffix.</span></span> <span data-ttu-id="baef7-127">前置詞和後置詞是選擇性的；控制編號是必要的。</span><span class="sxs-lookup"><span data-stu-id="baef7-127">The prefix and suffix are optional; the control number is required.</span></span> <span data-ttu-id="baef7-128">控制編號會隨著每一個新訊息而遞增，直到達到最大值；前置詞和後置詞則保持不變。</span><span class="sxs-lookup"><span data-stu-id="baef7-128">The control number is incremented for each new message until the maximum value is reached; the prefix and suffix remain the same.</span></span> <span data-ttu-id="baef7-129">數字中允許**UNG5.2**。</span><span class="sxs-lookup"><span data-stu-id="baef7-129">Only numbers are allowed in **UNG5.2**.</span></span> <span data-ttu-id="baef7-130">控制編號的字元數上限為 14 個字元，前置詞和後置詞上限為 13 個字元，而三個欄位總共不得超過 14 個字元。</span><span class="sxs-lookup"><span data-stu-id="baef7-130">The maximum number of characters is 14 for the control number, 13 for the prefix and suffix, and 14 for all three fields combined.</span></span>  
+    >   
+    >  <span data-ttu-id="baef7-131">若要重設的群組控制編號，指定的最小值，請按一下**重設** 按鈕。</span><span class="sxs-lookup"><span data-stu-id="baef7-131">To reset the group control number to the minimum value specified, click the **Reset** button.</span></span> <span data-ttu-id="baef7-132">請檢查**重設為下限超出範圍時**自動重設的最小值為 如果超出最大值。</span><span class="sxs-lookup"><span data-stu-id="baef7-132">Check **Reset to lower limit when out of bound** to automatically reset to the minimum value if the maximum value is exceeded.</span></span>  
+  
+3.  <span data-ttu-id="baef7-133">如**訊息標頭 (UNH)**，按一下 **套用新識別碼**、 輸入前置詞、 輸入參考編號範圍，然後輸入 BizTalk Server 應用於交易集參考編號的尾碼。</span><span class="sxs-lookup"><span data-stu-id="baef7-133">For **Message Header (UNH)**, click **Apply new ID**, enter the prefix, enter the reference number range, and enter the suffix that BizTalk Server should use for the transaction set reference number.</span></span>  
+  
+    > [!NOTE]
+    >  <span data-ttu-id="baef7-134">第一個欄位 (**UNH1.1**) 是前置詞; 第二個和第三個欄位 (**UNH1.2**) 是參考編號範圍，而第四個欄位 (**UNH1.3**) 是後置詞。</span><span class="sxs-lookup"><span data-stu-id="baef7-134">The first field (**UNH1.1**) is the prefix; the second and third fields (**UNH1.2**) are the reference number range; and the fourth field (**UNH1.3**) is the suffix.</span></span> <span data-ttu-id="baef7-135">前置詞和後置詞是選擇性的；參考編號則是必要的。</span><span class="sxs-lookup"><span data-stu-id="baef7-135">The prefix and suffix are optional; the reference number is required.</span></span> <span data-ttu-id="baef7-136">參考編號會隨著每一個新訊息而遞增；前置詞和後置詞則保持不變。</span><span class="sxs-lookup"><span data-stu-id="baef7-136">The reference number is incremented for each new message; the prefix and suffix remain the same.</span></span> <span data-ttu-id="baef7-137">參考編號的預設值範圍是 1 到 99999999999999。</span><span class="sxs-lookup"><span data-stu-id="baef7-137">The default value range for the reference number is 1 to 99999999999999.</span></span> <span data-ttu-id="baef7-138">數字中允許**UNH1.2**。</span><span class="sxs-lookup"><span data-stu-id="baef7-138">Only numbers are allowed in **UNH1.2**.</span></span> <span data-ttu-id="baef7-139">控制編號的字元數上限為 14 個字元，前置詞和後置詞上限為 13 個字元，而三個欄位總共不得超過 14 個字元。</span><span class="sxs-lookup"><span data-stu-id="baef7-139">The maximum number of characters is 14 for the control number, 13 for the prefix and suffix, and 14 for all three fields combined.</span></span>  
+    >   
+    >  <span data-ttu-id="baef7-140">若要重設目前的交易集控制編號的最小值，請按一下**重設**。</span><span class="sxs-lookup"><span data-stu-id="baef7-140">To reset the current transaction set control number to the minimum value, click **Reset**.</span></span> <span data-ttu-id="baef7-141">選取**重設為下限超出範圍時**控制編號重設的最小值，如果尚未超過最大值。</span><span class="sxs-lookup"><span data-stu-id="baef7-141">Select **Reset to lower limit when out of bound** to reset the control number to the minimum value if the maximum value has been exceeded.</span></span>  
+  
+4.  <span data-ttu-id="baef7-142">按一下**套用**繼續進行組態之前接受變更，或按一下**確定**來驗證變更，然後關閉對話方塊。</span><span class="sxs-lookup"><span data-stu-id="baef7-142">Click **Apply** to accept the changes before continuing with the configuration, or click **OK** to validate the changes and then close the dialog box.</span></span>  
+  
+## <a name="see-also"></a><span data-ttu-id="baef7-143">另請參閱</span><span class="sxs-lookup"><span data-stu-id="baef7-143">See Also</span></span>  
+ [<span data-ttu-id="baef7-144">設定 EDIFACT 後援協議屬性的交換處理</span><span class="sxs-lookup"><span data-stu-id="baef7-144">Configuring EDIFACT Fallback Agreement Properties for Interchange Processing</span></span>](../core/configuring-edifact-fallback-agreement-properties-for-interchange-processing.md)

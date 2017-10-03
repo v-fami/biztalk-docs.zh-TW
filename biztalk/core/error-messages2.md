@@ -1,0 +1,39 @@
+---
+title: "錯誤 Messages2 |Microsoft 文件"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- error messages, JD Edwards OneWorld adapters
+- adapters [JD Edwards OneWorld adapters], error messages
+- JD Edwards OneWorld adapters, error messages
+ms.assetid: 9fb65d50-83c6-426e-a0d6-674800ecf70f
+caps.latest.revision: "7"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 84b26891592162c553fb270d2d8c9482f1c2b4d9
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/20/2017
+---
+# <a name="error-messages"></a><span data-ttu-id="f6f6b-102">錯誤訊息</span><span class="sxs-lookup"><span data-stu-id="f6f6b-102">Error Messages</span></span>
+<span data-ttu-id="f6f6b-103">下表說明 JD Edwards OneWorld 系統中的錯誤訊息，並提供可能的更正方式。</span><span class="sxs-lookup"><span data-stu-id="f6f6b-103">The following table describes error messages in the JD Edwards OneWorld system, and provides possible corrections for them.</span></span>  
+  
+|<span data-ttu-id="f6f6b-104">錯誤識別碼</span><span class="sxs-lookup"><span data-stu-id="f6f6b-104">Error ID</span></span>|<span data-ttu-id="f6f6b-105">可能的原因 / 錯誤描述</span><span class="sxs-lookup"><span data-stu-id="f6f6b-105">Possible Cause / Error Description</span></span>|<span data-ttu-id="f6f6b-106">可能的更正方式</span><span class="sxs-lookup"><span data-stu-id="f6f6b-106">Possible Correction</span></span>|  
+|--------------|-----------------------------------------|-------------------------|  
+|<span data-ttu-id="f6f6b-107">**E JDE0002**</span><span class="sxs-lookup"><span data-stu-id="f6f6b-107">**E-JDE0002**</span></span>|<span data-ttu-id="f6f6b-108">遺失 JD Edwards OneWorld JAR 檔案。</span><span class="sxs-lookup"><span data-stu-id="f6f6b-108">JD Edwards OneWorld JAR files missing.</span></span><br /><br /> <span data-ttu-id="f6f6b-109">無法為 JD Edwards OneWorld Java Data Bean 產生類別物件。</span><span class="sxs-lookup"><span data-stu-id="f6f6b-109">Failed to instantiate class object for JD Edwards OneWorld Java Data Bean.</span></span>|<span data-ttu-id="f6f6b-110">確認儲存機制的路徑。</span><span class="sxs-lookup"><span data-stu-id="f6f6b-110">Verify path for repository.</span></span><br /><br /> <span data-ttu-id="f6f6b-111">如需詳細資訊，請參閱[基本型別](../core/basic-types1.md)。</span><span class="sxs-lookup"><span data-stu-id="f6f6b-111">For more information, see [Basic Types](../core/basic-types1.md).</span></span>|  
+|<span data-ttu-id="f6f6b-112">**E JDE0027**</span><span class="sxs-lookup"><span data-stu-id="f6f6b-112">**E-JDE0027**</span></span>|<span data-ttu-id="f6f6b-113">遺失 JD Edwards OneWorld JAR 檔案。</span><span class="sxs-lookup"><span data-stu-id="f6f6b-113">JD Edwards OneWorld JAR files missing.</span></span> <span data-ttu-id="f6f6b-114">無法取得 JD Edwards OneWorld 連線物件。</span><span class="sxs-lookup"><span data-stu-id="f6f6b-114">Unable to acquire JD Edwards OneWorld connection object.</span></span>|<span data-ttu-id="f6f6b-115">確認您的 CLASSPATH 環境變數。</span><span class="sxs-lookup"><span data-stu-id="f6f6b-115">Verify your CLASSPATH environment variable.</span></span><br /><br /> <span data-ttu-id="f6f6b-116">請參閱「更新 CLASSPATH」。</span><span class="sxs-lookup"><span data-stu-id="f6f6b-116">See Updating the CLASSPATH.</span></span><br /><br /> <span data-ttu-id="f6f6b-117">確認您的認證。</span><span class="sxs-lookup"><span data-stu-id="f6f6b-117">Verify your credentials.</span></span><br /><br /> <span data-ttu-id="f6f6b-118">如需詳細資訊，請參閱[基本型別](../core/basic-types1.md)。</span><span class="sxs-lookup"><span data-stu-id="f6f6b-118">For more information, see [Basic Types](../core/basic-types1.md).</span></span>|  
+||<span data-ttu-id="f6f6b-119">遺失 JD Edwards OneWorld JAR 檔案。</span><span class="sxs-lookup"><span data-stu-id="f6f6b-119">JD Edwards OneWorld JAR files missing.</span></span><br /><br /> <span data-ttu-id="f6f6b-120">儲存機制的路徑錯誤。</span><span class="sxs-lookup"><span data-stu-id="f6f6b-120">Wrong path for repository.</span></span>|<span data-ttu-id="f6f6b-121">確認 jdeinterop.ini 的位置。</span><span class="sxs-lookup"><span data-stu-id="f6f6b-121">Verify location of jdeinterop.ini.</span></span> <span data-ttu-id="f6f6b-122">確認 jdeinterop.ini 檔中設定的儲存機制的路徑。</span><span class="sxs-lookup"><span data-stu-id="f6f6b-122">Verify path for repository set in the jdeinterop.ini file.</span></span><br /><br /> <span data-ttu-id="f6f6b-123">將 JD Edwards OneWorld 商務程序匯入其他電腦時，您必須手動複製 jdeinterop.ini。</span><span class="sxs-lookup"><span data-stu-id="f6f6b-123">You must copy jdeinterop.ini manually when importing a JD Edwards OneWorld  business process to another computer.</span></span>|  
+||<span data-ttu-id="f6f6b-124">無法取得 JD Edwards OneWorld 連線物件。</span><span class="sxs-lookup"><span data-stu-id="f6f6b-124">Unable to acquire JD Edwards OneWorld connection object.</span></span>|<span data-ttu-id="f6f6b-125">確認您的 CLASSPATH 設定和登入認證。</span><span class="sxs-lookup"><span data-stu-id="f6f6b-125">Verify your CLASSPATH settings and logon credentials..</span></span>|  
+|<span data-ttu-id="f6f6b-126">**我-JDE0043**</span><span class="sxs-lookup"><span data-stu-id="f6f6b-126">**I-JDE0043**</span></span>|<span data-ttu-id="f6f6b-127">錯誤的應用程式伺服器、連接埠、環境、組態檔路徑、使用者、密碼。</span><span class="sxs-lookup"><span data-stu-id="f6f6b-127">Wrong App Server, Port, Environment, Path for Configuration File, User, Password.</span></span><br /><br /> <span data-ttu-id="f6f6b-128">登入失敗。</span><span class="sxs-lookup"><span data-stu-id="f6f6b-128">Logon failed.</span></span>|<span data-ttu-id="f6f6b-129">確認您的登入認證。</span><span class="sxs-lookup"><span data-stu-id="f6f6b-129">Verify your logon credentials.</span></span><br /><br /> <span data-ttu-id="f6f6b-130">如需詳細資訊，請參閱[基本型別](../core/basic-types1.md)。</span><span class="sxs-lookup"><span data-stu-id="f6f6b-130">For more information, see [Basic Types](../core/basic-types1.md).</span></span>|  
+|<span data-ttu-id="f6f6b-131">**我-JDE0048**</span><span class="sxs-lookup"><span data-stu-id="f6f6b-131">**I-JDE0048**</span></span>|<span data-ttu-id="f6f6b-132">如果 jdearglist.txt 檔案不存在或內容空白，記錄檔中就會在 Microsoft BizTalk Adapter for JD Edwards OneWorld 開啟時出現一則資訊訊息。</span><span class="sxs-lookup"><span data-stu-id="f6f6b-132">If the jdearglist.txt file does not exist or is empty, an informational message appears in the log when Microsoft BizTalk Adapter for JD Edwards OneWorld opens.</span></span>|<span data-ttu-id="f6f6b-133">更新 jdearglist.txt 檔案以輸入參數的清單，使參數自動靠右對齊並在左側填滿空格。</span><span class="sxs-lookup"><span data-stu-id="f6f6b-133">Update the jdearglist.txt file to enter a list of parameters so that they are automatically right justified and padded on the left with blanks.</span></span><br /><br /> <span data-ttu-id="f6f6b-134">請參閱[處理字串值](../core/handling-string-values1.md)。</span><span class="sxs-lookup"><span data-stu-id="f6f6b-134">See [Handling String Values](../core/handling-string-values1.md).</span></span><br /><br /> <span data-ttu-id="f6f6b-135">您每次變更 jdearglist，就必須重新產生該商務物件的結構描述。</span><span class="sxs-lookup"><span data-stu-id="f6f6b-135">Every time you change the jdearglist, you must regenerate the schemas for that business object.</span></span>|  
+  
+## <a name="see-also"></a><span data-ttu-id="f6f6b-136">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f6f6b-136">See Also</span></span>  
+ <span data-ttu-id="f6f6b-137">[附錄 a： 資料類型](../core/appendix-a-data-types.md) </span><span class="sxs-lookup"><span data-stu-id="f6f6b-137">[Appendix A: Data Types](../core/appendix-a-data-types.md) </span></span>  
+ [<span data-ttu-id="f6f6b-138">疑難排解 JD Edwards OneWorld</span><span class="sxs-lookup"><span data-stu-id="f6f6b-138">Troubleshooting JD Edwards OneWorld</span></span>](../core/troubleshooting-jd-edwards-oneworld.md)

@@ -1,0 +1,75 @@
+---
+title: "訊息的程序和函數的結構描述 |Microsoft 文件"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: 4acfb29e-8774-4eb7-ba10-2dcb93d2b41a
+caps.latest.revision: "11"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 374b4d3365ec3aaac86fb5004969cd4cc189271d
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/20/2017
+---
+# <a name="message-schemas-for-procedures-and-functions"></a><span data-ttu-id="db982-102">訊息結構描述的程序和函式</span><span class="sxs-lookup"><span data-stu-id="db982-102">Message Schemas for Procedures and Functions</span></span>
+<span data-ttu-id="db982-103">[!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]介面 SQL Server 資料庫預存程序和純量和資料表值函式做為作業。</span><span class="sxs-lookup"><span data-stu-id="db982-103">The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] surfaces SQL Server database stored procedures and scalar and table valued functions as operations.</span></span> <span data-ttu-id="db982-104">本章節描述的訊息結構及用來叫用程序和函數的動作。</span><span class="sxs-lookup"><span data-stu-id="db982-104">This section describes the message structure and actions used to invoke procedures and functions.</span></span>  
+  
+## <a name="message-structure-of-procedures-and-functions"></a><span data-ttu-id="db982-105">訊息結構的程序和函數</span><span class="sxs-lookup"><span data-stu-id="db982-105">Message Structure of Procedures and Functions</span></span>  
+ <span data-ttu-id="db982-106">作業中顯示程序和函式會遵循要求-回應訊息交換模式。</span><span class="sxs-lookup"><span data-stu-id="db982-106">The operations surfaced for procedures and functions follow a request-response message exchange pattern.</span></span> <span data-ttu-id="db982-107">下表顯示這些要求和回應訊息的結構。</span><span class="sxs-lookup"><span data-stu-id="db982-107">The following table shows the structure of these request and response messages.</span></span>  
+  
+|<span data-ttu-id="db982-108">作業</span><span class="sxs-lookup"><span data-stu-id="db982-108">Operation</span></span>|<span data-ttu-id="db982-109">XML 訊息</span><span class="sxs-lookup"><span data-stu-id="db982-109">XML Message</span></span>|<span data-ttu-id="db982-110">Description</span><span class="sxs-lookup"><span data-stu-id="db982-110">Description</span></span>|  
+|---------------|-----------------|-----------------|  
+|<span data-ttu-id="db982-111">預存程序要求</span><span class="sxs-lookup"><span data-stu-id="db982-111">Stored Procedure Request</span></span>|`<[SP_NAME] xmlns="http://schemas.microsoft.com/Sql/2008/05/Procedures/[SCHEMA]">   <[PRM1_NAME]>value1</[PRM1_NAME]>   <[PRM2_NAME]>value2</[PRM2_NAME]>   … </[SP_NAME]>`|-|  
+|<span data-ttu-id="db982-112">預存程序的回應</span><span class="sxs-lookup"><span data-stu-id="db982-112">Stored Procedure Response</span></span>|`<[SP_NAME]Response xmlns="http://schemas.microsoft.com/Sql/2008/05/Procedures/[SCHEMA]">   <[SP_NAME]Result>      <DataSet>        <any>[Value]</any>       <any>[Value]</any>       …     </DataSet>   </[SP_NAME]Result>   <ReturnValue>[Value]</ReturnValue> </[SP_NAME]Response>`|<span data-ttu-id="db982-113">預存程序的傳回值是資料集的陣列。</span><span class="sxs-lookup"><span data-stu-id="db982-113">The return value of a stored procedure is an array of DataSet.</span></span>|  
+|<span data-ttu-id="db982-114">強型別的預存程序要求</span><span class="sxs-lookup"><span data-stu-id="db982-114">Strongly-Typed Stored Procedure Request</span></span>|`<[STRNG_SP_NAME] xmlns="http://schemas.microsoft.com/Sql/2008/05/TypedProcedures/[SCHEMA]">   <[PRM1_NAME]>value1<[PRM1_NAME]>   <[PRM2_NAME]>value2</[PRM2_NAME]>   … </[STRNG_SP_NAME]>`|-|  
+|<span data-ttu-id="db982-115">強型別的預存程序的回應</span><span class="sxs-lookup"><span data-stu-id="db982-115">Strongly-Typed Stored Procedure Response</span></span>|`<[STRNG_SP_NAME]Response xmlns="http://schemas.microsoft.com/Sql/2008/05/TypedProcedures/[SCHEMA]">     <StoredProcedureResultSet0>          <StoredProcedureResultSet0 xmlns:ns1="http://schemas.microsoft.com/Sql/2008/05/ProcedureResultSets/[SCHEMA]/[STRNG_SP_NAME]">               <[PRM1_NAME]>value1<[PRM1_NAME]>               <[PRM2_NAME]>value2</[PRM2_NAME]>               …         </StoredProcedureResultSet0>     </StoredProcedureResultSet0>    <ReturnValue>[Value]</ReturnValue> </[STRNG_SP_NAME]Response>`|<span data-ttu-id="db982-116">強類型的預存程序的傳回值是強型別資料的陣列。</span><span class="sxs-lookup"><span data-stu-id="db982-116">The return value of a strongly-typed stored procedure is an array of strongly-typed data.</span></span>|  
+|<span data-ttu-id="db982-117">純量函式要求</span><span class="sxs-lookup"><span data-stu-id="db982-117">Scalar Function Request</span></span>|`<[SCLR_FN_NAME] xmlns="http://schemas.microsoft.com/Sql/2008/05/ScalarFunctions/[SCHEMA]">   <[PRM_NAME]>value</[PRM_NAME]> </[SCLR_FN_NAME]>`|-|  
+|<span data-ttu-id="db982-118">純量函數回應</span><span class="sxs-lookup"><span data-stu-id="db982-118">Scalar Function Response</span></span>|`<[SCLR_FN_NAME]Response xmlns="http://schemas.microsoft.com/Sql/2008/05/ScalarFunctions/[SCHEMA]">   <[SCLR_FN_NAME]Result>return_value</[SCLR_FN_NAME]Result>   <[PRM_NAME]>value</[PRM_NAME]>   </[SCLR_FN_NAME]Response>`|-|  
+|<span data-ttu-id="db982-119">資料表值函式要求</span><span class="sxs-lookup"><span data-stu-id="db982-119">Table Valued Function Request</span></span>|`<[TBL_FN_NAME] xmlns="http://schemas.microsoft.com/Sql/2008/05/TableValuedFunctions/[SCHEMA]">   <[PRM1_NAME]>value1</[PRM1_NAME]>   <[PRM2_NAME]>value2</[PRM2_NAME]>   … </[TBL_FN_NAME]>`|-|  
+|<span data-ttu-id="db982-120">資料表值函式的回應</span><span class="sxs-lookup"><span data-stu-id="db982-120">Table Valued Function Response</span></span>|`<[TBL_FN_NAME]Response xmlns="http://schemas.microsoft.com/Sql/2008/05/TableValuedFunctions/[SCHEMA]">   <[TBL_FN_NAME]Result>      <[TBL_FN_NAME] xmlns="http://schemas.microsoft.com/Sql/2008/05/TableValuedFunctions/[SCHEMA]">         <[PRM1_NAME]>value1</[PRM1_NAME]>         <[PRM2_NAME]>value2</[PRM2_NAME]>         ...      </[TBL_FN_NAME]">        ...      </[TBL_FN_NAME]Result> </[TBL_FN_NAME]Response>`||  
+  
+ <span data-ttu-id="db982-121">[SCHEMA] = 集合 SQL Server 成品。例如，dbo。</span><span class="sxs-lookup"><span data-stu-id="db982-121">[SCHEMA] = Collection of SQL Server artifacts; for example, dbo.</span></span>  
+  
+ <span data-ttu-id="db982-122">[SP_NAME] = 預存程序的執行。例如，ADD_EMP_DETAILS。</span><span class="sxs-lookup"><span data-stu-id="db982-122">[SP_NAME] = The stored procedure to be executed; for example, ADD_EMP_DETAILS.</span></span>  
+  
+ <span data-ttu-id="db982-123">[STRNG_SP_NAME] = 強型別的預存程序的執行。例如，GET_EMP_DETAILS。</span><span class="sxs-lookup"><span data-stu-id="db982-123">[STRNG_SP_NAME] = The strongly-typed stored procedure to be executed; for example, GET_EMP_DETAILS.</span></span>  
+  
+ <span data-ttu-id="db982-124">[SCLR_FN_NAME] = 要執行的純量函式例如，GET_EMP_ID。</span><span class="sxs-lookup"><span data-stu-id="db982-124">[SCLR_FN_NAME] = The scalar function to be executed; for example, GET_EMP_ID.</span></span>  
+  
+ <span data-ttu-id="db982-125">[TBL_FN_NAME] = 要執行; 資料表值函式例如，TVF_EMPLOYEE。</span><span class="sxs-lookup"><span data-stu-id="db982-125">[TBL_FN_NAME] = The table valued function to be executed; for example, TVF_EMPLOYEE.</span></span>  
+  
+ <span data-ttu-id="db982-126">[PRM_NAME] = SQL Server 參數的名稱。</span><span class="sxs-lookup"><span data-stu-id="db982-126">[PRM_NAME] = The name of the SQL Server parameter.</span></span>  
+  
+## <a name="message-actions-of-functions-and-procedures"></a><span data-ttu-id="db982-127">函數和程序的訊息動作</span><span class="sxs-lookup"><span data-stu-id="db982-127">Message Actions of Functions and Procedures</span></span>  
+ <span data-ttu-id="db982-128">[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]預存程序和函式的作業會使用下列的訊息動作。</span><span class="sxs-lookup"><span data-stu-id="db982-128">The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] uses the following message actions for stored procedure and function operations.</span></span>  
+  
+|<span data-ttu-id="db982-129">訊息</span><span class="sxs-lookup"><span data-stu-id="db982-129">Message</span></span>|<span data-ttu-id="db982-130">動作</span><span class="sxs-lookup"><span data-stu-id="db982-130">Action</span></span>|<span data-ttu-id="db982-131">範例</span><span class="sxs-lookup"><span data-stu-id="db982-131">Example</span></span>|  
+|-------------|------------|-------------|  
+|<span data-ttu-id="db982-132">預存程序要求</span><span class="sxs-lookup"><span data-stu-id="db982-132">Stored Procedure Request</span></span>|<span data-ttu-id="db982-133">程序 / [SCHEMA] / [SP_NAME]</span><span class="sxs-lookup"><span data-stu-id="db982-133">Procedure/[SCHEMA]/[SP_NAME]</span></span>|<span data-ttu-id="db982-134">程序/dbo/ADD_EMP_DETAILS</span><span class="sxs-lookup"><span data-stu-id="db982-134">Procedure/dbo/ADD_EMP_DETAILS</span></span>|  
+|<span data-ttu-id="db982-135">預存程序的回應</span><span class="sxs-lookup"><span data-stu-id="db982-135">Stored Procedure Response</span></span>|<span data-ttu-id="db982-136">程序 / [SCHEMA] / [SP_NAME] / 回應</span><span class="sxs-lookup"><span data-stu-id="db982-136">Procedure/[SCHEMA]/[SP_NAME]/response</span></span>|<span data-ttu-id="db982-137">程序/dbo/ADD_EMP_DETAILS/回應</span><span class="sxs-lookup"><span data-stu-id="db982-137">Procedure/dbo/ADD_EMP_DETAILS/response</span></span>|  
+|<span data-ttu-id="db982-138">強型別的預存程序要求</span><span class="sxs-lookup"><span data-stu-id="db982-138">Strongly-Typed Stored Procedure Request</span></span>|<span data-ttu-id="db982-139">TypedProcedure / [SCHEMA] / [STRNG_SP_NAME]</span><span class="sxs-lookup"><span data-stu-id="db982-139">TypedProcedure/[SCHEMA]/[STRNG_SP_NAME]</span></span>|<span data-ttu-id="db982-140">TypedProcedure/dbo/GET_EMP_DETAILS</span><span class="sxs-lookup"><span data-stu-id="db982-140">TypedProcedure/dbo/GET_EMP_DETAILS</span></span>|  
+|<span data-ttu-id="db982-141">強型別的預存程序的回應</span><span class="sxs-lookup"><span data-stu-id="db982-141">Strongly-Typed Stored Procedure Response</span></span>|<span data-ttu-id="db982-142">TypedProcedure / [SCHEMA] / [STRNG_SP_NAME] / 回應</span><span class="sxs-lookup"><span data-stu-id="db982-142">TypedProcedure/[SCHEMA]/[STRNG_SP_NAME]/response</span></span>|<span data-ttu-id="db982-143">TypedProcedure/dbo/GET_EMP_DETAILS/回應</span><span class="sxs-lookup"><span data-stu-id="db982-143">TypedProcedure/dbo/GET_EMP_DETAILS/response</span></span>|  
+|<span data-ttu-id="db982-144">XML 預存程序要求</span><span class="sxs-lookup"><span data-stu-id="db982-144">FOR XML Stored Procedure Request</span></span>|<span data-ttu-id="db982-145">XmlProcedure / [SCHEMA] / [SP_NAME]</span><span class="sxs-lookup"><span data-stu-id="db982-145">XmlProcedure/[SCHEMA]/[SP_NAME]</span></span>|<span data-ttu-id="db982-146">XmlProcedure/dbo/GET_EMP_DETAILS_FOR_XML</span><span class="sxs-lookup"><span data-stu-id="db982-146">XmlProcedure/dbo/GET_EMP_DETAILS_FOR_XML</span></span>|  
+|<span data-ttu-id="db982-147">XML 預存程序的回應</span><span class="sxs-lookup"><span data-stu-id="db982-147">FOR XML Stored Procedure Response</span></span>|<span data-ttu-id="db982-148">XmlProcedure / [SCHEMA] / [SP_NAME] / 回應</span><span class="sxs-lookup"><span data-stu-id="db982-148">XmlProcedure/[SCHEMA]/[SP_NAME]/resp</span></span>|<span data-ttu-id="db982-149">XmlProcedure/dbo/GET_EMP_DETAILS_FOR_XML/回應</span><span class="sxs-lookup"><span data-stu-id="db982-149">XmlProcedure/dbo/GET_EMP_DETAILS_FOR_XML/response</span></span>|  
+|<span data-ttu-id="db982-150">純量函式要求</span><span class="sxs-lookup"><span data-stu-id="db982-150">Scalar Function Request</span></span>|<span data-ttu-id="db982-151">ScalarFunction / [SCHEMA] / [SCLR_FN_NAME]</span><span class="sxs-lookup"><span data-stu-id="db982-151">ScalarFunction/[SCHEMA]/[SCLR_FN_NAME]</span></span>|<span data-ttu-id="db982-152">ScalarFunction/dbo/GET_EMP_ID</span><span class="sxs-lookup"><span data-stu-id="db982-152">ScalarFunction/dbo/GET_EMP_ID</span></span>|  
+|<span data-ttu-id="db982-153">純量函數回應</span><span class="sxs-lookup"><span data-stu-id="db982-153">Scalar Function Response</span></span>|<span data-ttu-id="db982-154">ScalarFunction / [SCHEMA] / [SCLR_FN_NAME] / 回應</span><span class="sxs-lookup"><span data-stu-id="db982-154">ScalarFunction/[SCHEMA]/[SCLR_FN_NAME]/response</span></span>|<span data-ttu-id="db982-155">ScalarFunction/dbo/GET_EMP_ID/回應</span><span class="sxs-lookup"><span data-stu-id="db982-155">ScalarFunction/dbo/GET_EMP_ID/response</span></span>|  
+|<span data-ttu-id="db982-156">資料表值函式要求</span><span class="sxs-lookup"><span data-stu-id="db982-156">Table Valued Function Request</span></span>|<span data-ttu-id="db982-157">Tablefunction 之 Argument / [SCHEMA] / [TBL_FN_NAME]</span><span class="sxs-lookup"><span data-stu-id="db982-157">TableFunction/[SCHEMA]/[TBL_FN_NAME]</span></span>|<span data-ttu-id="db982-158">Tablefunction 之 Argument/dbo/TVF_EMPLOYEE</span><span class="sxs-lookup"><span data-stu-id="db982-158">TableFunction/dbo/TVF_EMPLOYEE</span></span>|  
+|<span data-ttu-id="db982-159">資料表值函式的回應</span><span class="sxs-lookup"><span data-stu-id="db982-159">Table Valued Function Response</span></span>|<span data-ttu-id="db982-160">Tablefunction 之 Argument / [SCHEMA] / [TBL_FN_NAME] / 回應</span><span class="sxs-lookup"><span data-stu-id="db982-160">TableFunction/[SCHEMA]/[TBL_FN_NAME]/response</span></span>|<span data-ttu-id="db982-161">Tablefunction 之 Argument/dbo/TVF_EMPLOYEE/回應</span><span class="sxs-lookup"><span data-stu-id="db982-161">TableFunction/dbo/TVF_EMPLOYEE/response</span></span>|  
+  
+ <span data-ttu-id="db982-162">[SP_NAME] = 預存程序的執行。例如，ADD_EMP_DETAILS。</span><span class="sxs-lookup"><span data-stu-id="db982-162">[SP_NAME] = The stored procedure to be executed; for example, ADD_EMP_DETAILS.</span></span>  
+  
+ <span data-ttu-id="db982-163">[STRNG_SP_NAME] = 強型別的預存程序的執行。例如，GET_EMP_DETAILS。</span><span class="sxs-lookup"><span data-stu-id="db982-163">[STRNG_SP_NAME] = The strongly-typed stored procedure to be executed; for example, GET_EMP_DETAILS.</span></span>  
+  
+ <span data-ttu-id="db982-164">[SCLR_FN_NAME] = 要執行的純量函式例如，GET_EMP_ID。</span><span class="sxs-lookup"><span data-stu-id="db982-164">[SCLR_FN_NAME] = The scalar function to be executed; for example, GET_EMP_ID.</span></span>  
+  
+ <span data-ttu-id="db982-165">[TBL_FN_NAME] = 要執行; 資料表值函式的名稱例如，TVF_EMPLOYEE。</span><span class="sxs-lookup"><span data-stu-id="db982-165">[TBL_FN_NAME] = The name of the table valued function to be executed; for example, TVF_EMPLOYEE.</span></span>  
+  
+## <a name="see-also"></a><span data-ttu-id="db982-166">另請參閱</span><span class="sxs-lookup"><span data-stu-id="db982-166">See Also</span></span>  
+ [<span data-ttu-id="db982-167">訊息與 BizTalk adapter for SQL Server 的訊息結構描述</span><span class="sxs-lookup"><span data-stu-id="db982-167">Messages and Message Schemas for BizTalk Adapter for SQL Server</span></span>](../../adapters-and-accelerators/adapter-sql/messages-and-message-schemas-for-biztalk-adapter-for-sql-server.md)
