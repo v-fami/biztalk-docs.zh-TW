@@ -1,0 +1,1 @@
+<span data-ttu-id="f1a66-101">Operations Manager 2007</span><span class="sxs-lookup"><span data-stu-id="f1a66-101">Operations Manager 2007</span></span>

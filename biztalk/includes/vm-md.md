@@ -1,0 +1,1 @@
+<span data-ttu-id="05fc7-101">虛擬機器</span><span class="sxs-lookup"><span data-stu-id="05fc7-101">virtual machine</span></span>

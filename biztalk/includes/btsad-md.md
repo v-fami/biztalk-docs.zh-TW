@@ -1,0 +1,1 @@
+<span data-ttu-id="69523-101">Active Directory</span><span class="sxs-lookup"><span data-stu-id="69523-101">Active Directory</span></span>
