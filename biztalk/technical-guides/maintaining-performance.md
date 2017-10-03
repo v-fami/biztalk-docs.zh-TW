@@ -1,0 +1,64 @@
+---
+title: "維護效能 |Microsoft 文件"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: ae7e63ed-4e28-45b1-ab00-be9f9488a2e6
+caps.latest.revision: "3"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: da10987a6532987ff7a2ed925e717a0a713cac6e
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/20/2017
+---
+# <a name="maintaining-performance"></a><span data-ttu-id="31ccb-102">維護效能</span><span class="sxs-lookup"><span data-stu-id="31ccb-102">Maintaining Performance</span></span>
+<span data-ttu-id="31ccb-103">本節旨在協助您解決例行維護檢查期間所發現的效能問題的資訊。</span><span class="sxs-lookup"><span data-stu-id="31ccb-103">This section provides information that is intended to help you resolve performance issues discovered during your routine maintenance checks.</span></span> <span data-ttu-id="31ccb-104">您也可以使用的工具和技術此處所述主動，嚴重的問題之前就識別潛在問題。</span><span class="sxs-lookup"><span data-stu-id="31ccb-104">You can also use the tools and techniques described here proactively, to identify potential problems before they become critical issues.</span></span>  
+  
+ <span data-ttu-id="31ccb-105">您通常必須先建立效能基準線的標準，據以評估目前的系統效能。</span><span class="sxs-lookup"><span data-stu-id="31ccb-105">You will generally need to establish a performance baseline as a standard against which to assess current system performance.</span></span>  
+  
+ <span data-ttu-id="31ccb-106">除了本節中的主題，這份文件中的其他主題會解決效能問題。</span><span class="sxs-lookup"><span data-stu-id="31ccb-106">In addition to the topics in this section, other topics in this document address performance issues.</span></span> <span data-ttu-id="31ccb-107">這些主題會列出相關的下列章節中。</span><span class="sxs-lookup"><span data-stu-id="31ccb-107">These topics are listed in Related Sections below.</span></span>  
+  
+## <a name="in-this-section"></a><span data-ttu-id="31ccb-108">本節內容</span><span class="sxs-lookup"><span data-stu-id="31ccb-108">In This Section</span></span>  
+  
+-   [<span data-ttu-id="31ccb-109">維護效能的最佳作法</span><span class="sxs-lookup"><span data-stu-id="31ccb-109">Best Practices for Maintaining Performance</span></span>](../technical-guides/best-practices-for-maintaining-performance.md)  
+  
+-   [<span data-ttu-id="31ccb-110">設定批次處理來改善配接器效能</span><span class="sxs-lookup"><span data-stu-id="31ccb-110">Configuring Batching to Improve Adapter Performance</span></span>](../technical-guides/configuring-batching-to-improve-adapter-performance.md)  
+  
+-   [<span data-ttu-id="31ccb-111">如何調整組態快取重新整理間隔</span><span class="sxs-lookup"><span data-stu-id="31ccb-111">How to Adjust the Configuration Cache Refresh Interval</span></span>](../technical-guides/how-to-adjust-the-configuration-cache-refresh-interval.md)  
+  
+-   [<span data-ttu-id="31ccb-112">如何停用追蹤</span><span class="sxs-lookup"><span data-stu-id="31ccb-112">How to Disable Tracking</span></span>](../technical-guides/how-to-disable-tracking.md)  
+  
+-   [<span data-ttu-id="31ccb-113">疑難排解效能 Issues3</span><span class="sxs-lookup"><span data-stu-id="31ccb-113">Troubleshooting Performance Issues3</span></span>](../technical-guides/troubleshooting-performance-issues3.md)  
+  
+## <a name="related-sections"></a><span data-ttu-id="31ccb-114">相關章節</span><span class="sxs-lookup"><span data-stu-id="31ccb-114">Related Sections</span></span>  
+  
+-   <span data-ttu-id="31ccb-115">如需有關效能的問題一般情況下，請參閱[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]效能最佳化指南 》，網址[http://go.microsoft.com/fwlink/?LinkID=150492](http://go.microsoft.com/fwlink/?LinkID=150492)。</span><span class="sxs-lookup"><span data-stu-id="31ccb-115">For more information about performance issues in general, see [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Performance Optimization Guide at [http://go.microsoft.com/fwlink/?LinkID=150492](http://go.microsoft.com/fwlink/?LinkID=150492).</span></span>  
+  
+-   <span data-ttu-id="31ccb-116">分析每週的效能監視器記錄檔基準和臨界值的相關資訊，請參閱[使用效能分析的記錄檔 (PAL) 工具](../technical-guides/using-the-performance-analysis-of-logs-pal-tool.md)，「 尋找並消除中的瓶頸"[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]效能最佳化指南[http://go.microsoft.com/fwlink/?LinkId=154675](http://go.microsoft.com/fwlink/?LinkId=154675)，和[疑難排解效能 Issues3](../technical-guides/troubleshooting-performance-issues3.md)。</span><span class="sxs-lookup"><span data-stu-id="31ccb-116">For information about analyzing weekly performance monitor logs against baseline and thresholds, see [Using the Performance Analysis of Logs (PAL) Tool](../technical-guides/using-the-performance-analysis-of-logs-pal-tool.md), "Finding and Eliminating Bottlenecks" in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Performance Optimization Guide at [http://go.microsoft.com/fwlink/?LinkId=154675](http://go.microsoft.com/fwlink/?LinkId=154675), and [Troubleshooting Performance Issues3](../technical-guides/troubleshooting-performance-issues3.md).</span></span>  
+  
+-   <span data-ttu-id="31ccb-117">如需確保系統不會遇到經常自動成長[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]資料庫，請參閱[定義資料庫的自動成長設定](../technical-guides/defining-auto-growth-settings-for-databases.md)，< 追蹤資料庫大小調整指導方針 > 中[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]協助在[http://go.microsoft.com/fwlink/?LinkId=154677](http://go.microsoft.com/fwlink/?LinkId=154677)、 和中的 「 識別資料庫層中的瓶頸"[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]協助在[http://go.microsoft.com/fwlink/?LinkId=154678](http://go.microsoft.com/fwlink/?LinkId=154678)。</span><span class="sxs-lookup"><span data-stu-id="31ccb-117">For information about ensuring that the system is not experiencing frequent auto-growth of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases, see [Defining Auto-Growth Settings for Databases](../technical-guides/defining-auto-growth-settings-for-databases.md), "Tracking Database Sizing Guidelines" in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help at [http://go.microsoft.com/fwlink/?LinkId=154677](http://go.microsoft.com/fwlink/?LinkId=154677), and "Identifying Bottlenecks in the Database Tier" in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help at [http://go.microsoft.com/fwlink/?LinkId=154678](http://go.microsoft.com/fwlink/?LinkId=154678).</span></span>  
+  
+-   <span data-ttu-id="31ccb-118">如需維護 SQL Server 資訊[執行的 SQL Server 維護程序](~/technical-guides/checklist-configuring-sql-server.md)。</span><span class="sxs-lookup"><span data-stu-id="31ccb-118">For information about maintaining SQL Server, [Performing SQL Server Maintenance Procedures](~/technical-guides/checklist-configuring-sql-server.md).</span></span>  
+  
+-   <span data-ttu-id="31ccb-119">執行 SQL Server Profiler 來檢查長回應時間及高資源使用量的高負載期間的相關資訊，請參閱 「 使用 SQL Server Profiler"在 SQL Server 說明中在[http://go.microsoft.com/fwlink/?LinkID=106720](http://go.microsoft.com/fwlink/?LinkID=106720)。</span><span class="sxs-lookup"><span data-stu-id="31ccb-119">For information about running SQL Server Profiler during high load to check for long response times and high resource usage, see "Using SQL Server Profiler" in SQL Server Help at [http://go.microsoft.com/fwlink/?LinkID=106720](http://go.microsoft.com/fwlink/?LinkID=106720).</span></span>  
+  
+-   <span data-ttu-id="31ccb-120">確保所有配接器的訊息批次處理適當的資源耗用量或延遲的相關資訊，請參閱[設定批次處理，以改善配接器效能](../technical-guides/configuring-batching-to-improve-adapter-performance.md)。</span><span class="sxs-lookup"><span data-stu-id="31ccb-120">For information about ensuring that message batching for all adapters is appropriate for resource consumption or latency, see [Configuring Batching to Improve Adapter Performance](../technical-guides/configuring-batching-to-improve-adapter-performance.md).</span></span>  
+  
+-   <span data-ttu-id="31ccb-121">如需增加 BizTalk Server 快取重新整理間隔的詳細資訊，請參閱[如何調整設定快取重新整理間隔](../technical-guides/how-to-adjust-the-configuration-cache-refresh-interval.md)。</span><span class="sxs-lookup"><span data-stu-id="31ccb-121">For information about increasing the BizTalk Server cache refresh interval, see [How to Adjust the Configuration Cache Refresh Interval](../technical-guides/how-to-adjust-the-configuration-cache-refresh-interval.md).</span></span>  
+  
+-   <span data-ttu-id="31ccb-122">輸入和輸出主控件節流的相關資訊，請參閱 「 什麼是主控件節流？ 」</span><span class="sxs-lookup"><span data-stu-id="31ccb-122">For information about inbound and outbound host throttling, see "What is Host Throttling?"</span></span> <span data-ttu-id="31ccb-123">在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]協助在[http://go.microsoft.com/fwlink/?LinkId=154694](http://go.microsoft.com/fwlink/?LinkId=154694)。</span><span class="sxs-lookup"><span data-stu-id="31ccb-123">in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help at [http://go.microsoft.com/fwlink/?LinkId=154694](http://go.microsoft.com/fwlink/?LinkId=154694).</span></span> <span data-ttu-id="31ccb-124">如需觸發程序、 動作，以及移轉策略輸入和輸出節流的資訊，請參閱"節流狀況觸發程序、 動作和緩和策略"中[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]協助在[http://go.microsoft.com/fwlink/?LinkId = 154695](http://go.microsoft.com/fwlink/?LinkId=154695)。</span><span class="sxs-lookup"><span data-stu-id="31ccb-124">For information about triggers, actions, and mitigation strategies for inbound and outbound throttling, see "Throttling condition triggers, actions, and mitigation strategies" in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help at [http://go.microsoft.com/fwlink/?LinkId=154695](http://go.microsoft.com/fwlink/?LinkId=154695).</span></span>  
+  
+-   <span data-ttu-id="31ccb-125">若要使用通過傳送管線，而不是預設的 XML 傳送管線，請參閱 「 管理傳送埠使用 BizTalk 總管 」 中的[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]協助在[http://go.microsoft.com/fwlink/?LinkID=154696](http://go.microsoft.com/fwlink/?LinkID=154696)。</span><span class="sxs-lookup"><span data-stu-id="31ccb-125">To use a PassThrough send pipeline instead of the default XML send pipeline, see "Managing Send Ports Using BizTalk Explorer" in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help at [http://go.microsoft.com/fwlink/?LinkID=154696](http://go.microsoft.com/fwlink/?LinkID=154696).</span></span>  
+  
+-   <span data-ttu-id="31ccb-126">調整追蹤資料庫大小的相關資訊，請參閱 < 追蹤資料庫大小指導方針 >，在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]協助在[http://go.microsoft.com/fwlink/?LinkId=154677](http://go.microsoft.com/fwlink/?LinkId=154677)。</span><span class="sxs-lookup"><span data-stu-id="31ccb-126">For information about sizing the tracking database, see "Tracking Database Sizing Guidelines" in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help at [http://go.microsoft.com/fwlink/?LinkId=154677](http://go.microsoft.com/fwlink/?LinkId=154677).</span></span>  
+  
+-   <span data-ttu-id="31ccb-127">調整大小的 MessageBox，BizTalkDTADb、 BAMPrimaryImport 資料庫的相關資訊，請參閱 「 識別瓶頸在資料庫層 」，在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]協助在[http://go.microsoft.com/fwlink/?LinkId=154678](http://go.microsoft.com/fwlink/?LinkId=154678)。</span><span class="sxs-lookup"><span data-stu-id="31ccb-127">For information about sizing the MessageBox, BizTalkDTADb, and BAMPrimaryImport databases, see "Identifying Bottlenecks in the Database Tier" in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help at [http://go.microsoft.com/fwlink/?LinkId=154678](http://go.microsoft.com/fwlink/?LinkId=154678).</span></span>  
+  
+-   <span data-ttu-id="31ccb-128">如需避免競爭 MessageBox 資料庫中的資訊，請參閱[如何避免磁碟爭用](http://go.microsoft.com/fwlink/?LinkId=158809)([http://go.microsoft.com/fwlink/?LinkId=158809](http://go.microsoft.com/fwlink/?LinkId=158809)) 中[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]效能最佳化指南。</span><span class="sxs-lookup"><span data-stu-id="31ccb-128">For information about avoiding contention in the MessageBox database, see [How to Avoid Disk Contention](http://go.microsoft.com/fwlink/?LinkId=158809) ([http://go.microsoft.com/fwlink/?LinkId=158809](http://go.microsoft.com/fwlink/?LinkId=158809)) in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Performance Optimization Guide.</span></span>

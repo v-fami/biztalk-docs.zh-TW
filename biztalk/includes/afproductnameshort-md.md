@@ -1,0 +1,1 @@
+<span data-ttu-id="ca6fe-101">WCF LOB 配接器 SDK</span><span class="sxs-lookup"><span data-stu-id="ca6fe-101">WCF LOB Adapter SDK</span></span>

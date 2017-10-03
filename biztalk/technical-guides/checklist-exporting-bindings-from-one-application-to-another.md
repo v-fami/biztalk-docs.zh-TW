@@ -1,0 +1,29 @@
+---
+title: "檢查清單： 匯出繫結到另一個應用程式從 |Microsoft 文件"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: 152924e6-da64-4db9-a852-bdb4e79687fb
+caps.latest.revision: "2"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: df60a6fd1b266403a5c43b5f76bf7594cad4f41a
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/20/2017
+---
+# <a name="checklist-exporting-bindings-from-one-application-to-another"></a><span data-ttu-id="ce6ac-102">檢查清單： 從另一個應用程式匯出繫結</span><span class="sxs-lookup"><span data-stu-id="ce6ac-102">Checklist: Exporting Bindings from One Application to Another</span></span>
+<span data-ttu-id="ce6ac-103">本主題描述傳送至另一個應用程式開發或實際執行環境中的一個應用程式的繫結所需的步驟。</span><span class="sxs-lookup"><span data-stu-id="ce6ac-103">This topic describes the steps involved in transferring the bindings of one application to another application in either a development or production environment.</span></span> <span data-ttu-id="ce6ac-104">此程序會使用.msi 檔案將應用程式部署程序類似。</span><span class="sxs-lookup"><span data-stu-id="ce6ac-104">This process is similar to the process of deploying an application using an .msi file.</span></span> <span data-ttu-id="ce6ac-105">不過，當您部署使用的.msi 檔案的應用程式時，處理程序會自動建立應用程式。</span><span class="sxs-lookup"><span data-stu-id="ce6ac-105">However, when you deploy an application using an .msi file, the process will automatically create the application.</span></span> <span data-ttu-id="ce6ac-106">當您從應用程式之間傳輸的繫結時，相反地，必須已存在目的端應用程式。</span><span class="sxs-lookup"><span data-stu-id="ce6ac-106">When you transfer the bindings from one application to another, on the other hand, the destination application must already exist.</span></span>  
+  
+|<span data-ttu-id="ce6ac-107">步驟</span><span class="sxs-lookup"><span data-stu-id="ce6ac-107">Steps</span></span>|<span data-ttu-id="ce6ac-108">參考</span><span class="sxs-lookup"><span data-stu-id="ce6ac-108">Reference</span></span>|  
+|-----------|---------------|  
+|<span data-ttu-id="ce6ac-109">確定您有適當的權限來執行匯出作業。</span><span class="sxs-lookup"><span data-stu-id="ce6ac-109">Ensure that you have the appropriate permissions to perform the export operation.</span></span>|[<span data-ttu-id="ce6ac-110">管理應用程式的權限</span><span class="sxs-lookup"><span data-stu-id="ce6ac-110">Permissions for Managing an Application</span></span>](../technical-guides/permissions-for-managing-an-application.md)|  
+|<span data-ttu-id="ce6ac-111">建立匯入應用程式繫結到目的地應用程式。</span><span class="sxs-lookup"><span data-stu-id="ce6ac-111">Create a destination application to import the application bindings into.</span></span>|<span data-ttu-id="ce6ac-112">-   [建立應用程式](../technical-guides/creating-an-application.md)</span><span class="sxs-lookup"><span data-stu-id="ce6ac-112">-   [Creating an Application](../technical-guides/creating-an-application.md)</span></span><br /><span data-ttu-id="ce6ac-113">-< 建立 BizTalk 應用程式 > 一節[部署應用程式的最佳作法](../technical-guides/best-practices-for-deploying-an-application.md)</span><span class="sxs-lookup"><span data-stu-id="ce6ac-113">-   "Creating a BizTalk Application" section of [Best Practices for Deploying an Application](../technical-guides/best-practices-for-deploying-an-application.md)</span></span>|  
+|<span data-ttu-id="ce6ac-114">匯出到繫結檔案的來源應用程式的繫結。</span><span class="sxs-lookup"><span data-stu-id="ce6ac-114">Export the bindings of a source application into a binding file.</span></span>|<span data-ttu-id="ce6ac-115">-   [如何匯出繫結至繫結檔案](../technical-guides/how-to-export-bindings-to-a-binding-file.md)</span><span class="sxs-lookup"><span data-stu-id="ce6ac-115">-   [How to Export Bindings to a Binding File](../technical-guides/how-to-export-bindings-to-a-binding-file.md)</span></span><br /><span data-ttu-id="ce6ac-116">-「 匯出 BizTalk 應用程式 」 一節[部署應用程式的最佳作法](../technical-guides/best-practices-for-deploying-an-application.md)</span><span class="sxs-lookup"><span data-stu-id="ce6ac-116">-   "Exporting a BizTalk Application" section of [Best Practices for Deploying an Application](../technical-guides/best-practices-for-deploying-an-application.md)</span></span><br /><span data-ttu-id="ce6ac-117">-「 匯出 BizTalk 應用程式 」 一節[與部署應用程式的已知問題](../technical-guides/known-issues-with-deploying-an-application.md)。</span><span class="sxs-lookup"><span data-stu-id="ce6ac-117">-   "Exporting a BizTalk Application" section of [Known Issues with Deploying an Application](../technical-guides/known-issues-with-deploying-an-application.md).</span></span>|  
+|<span data-ttu-id="ce6ac-118">繫結檔案中的將繫結匯入到目的地應用程式。</span><span class="sxs-lookup"><span data-stu-id="ce6ac-118">Import the bindings in a binding file to the destination application.</span></span>|<span data-ttu-id="ce6ac-119">-   [如何從繫結檔案匯入繫結](../technical-guides/how-to-import-bindings-from-a-binding-file.md)</span><span class="sxs-lookup"><span data-stu-id="ce6ac-119">-   [How to Import Bindings from a Binding File](../technical-guides/how-to-import-bindings-from-a-binding-file.md)</span></span><br /><span data-ttu-id="ce6ac-120">-「 匯入 BizTalk 應用程式 」 一節[部署應用程式的最佳作法](../technical-guides/best-practices-for-deploying-an-application.md)</span><span class="sxs-lookup"><span data-stu-id="ce6ac-120">-   "Importing a BizTalk Application" section of [Best Practices for Deploying an Application](../technical-guides/best-practices-for-deploying-an-application.md)</span></span><br /><span data-ttu-id="ce6ac-121">-「 匯入 BizTalk 應用程式 」 一節[與部署應用程式的已知問題](../technical-guides/known-issues-with-deploying-an-application.md)。</span><span class="sxs-lookup"><span data-stu-id="ce6ac-121">-   "Importing a BizTalk Application" section of [Known Issues with Deploying an Application](../technical-guides/known-issues-with-deploying-an-application.md).</span></span>|

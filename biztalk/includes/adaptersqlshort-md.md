@@ -1,0 +1,1 @@
+<span data-ttu-id="68bcd-101">SQL adapter (SQL 配接器)</span><span class="sxs-lookup"><span data-stu-id="68bcd-101">SQL adapter</span></span>

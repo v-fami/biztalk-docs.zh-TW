@@ -1,0 +1,84 @@
+---
+title: "HL7 訊息結構 |Microsoft 文件"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- messages, segments
+- messages, fields
+- trigger events
+- messages, trigger events
+- segments, messages
+- messages, message structure
+ms.assetid: 4dbef56d-97ae-466d-bc8a-dc96c40896f6
+caps.latest.revision: "5"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: d3e705d3c8a72b5ca1072157a227bf6f218035d5
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/20/2017
+---
+# <a name="hl7-message-structure"></a><span data-ttu-id="64f25-102">HL7 訊息結構</span><span class="sxs-lookup"><span data-stu-id="64f25-102">HL7 Message Structure</span></span>
+<span data-ttu-id="64f25-103">HL7 訊息是觸發程序事件相關聯的階層式結構。</span><span class="sxs-lookup"><span data-stu-id="64f25-103">An HL7 message is a hierarchical structure associated with a trigger event.</span></span> <span data-ttu-id="64f25-104">標準 HL7 「 健康照護 （，），建立資料流系統之間需要真實世界中的事件 」 定義觸發程序事件。</span><span class="sxs-lookup"><span data-stu-id="64f25-104">The HL7 standard defines trigger event as "an event in the real world of health care (that) creates the need for data to flow among systems".</span></span> <span data-ttu-id="64f25-105">每個觸發程序事件是與定義的訊息需要支援觸發程序事件的資料類型的抽象訊息相關聯。</span><span class="sxs-lookup"><span data-stu-id="64f25-105">Each trigger event is associated with an abstract message that defines the type of data that the message needs to support the trigger event.</span></span> <span data-ttu-id="64f25-106">抽象的訊息片段的集合，而且包含重複和這些區段包含的規則。</span><span class="sxs-lookup"><span data-stu-id="64f25-106">The abstract message is a collection of segments, and includes the rules of repetition and inclusion for those segments.</span></span> <span data-ttu-id="64f25-107">下表顯示與觸發程序事件 A04 – 註冊病患相關聯的抽象訊息的範例。</span><span class="sxs-lookup"><span data-stu-id="64f25-107">The following table shows an example of an abstract message associated with the trigger event A04 – Register Patient.</span></span>  
+  
+|<span data-ttu-id="64f25-108">觸發程序事件</span><span class="sxs-lookup"><span data-stu-id="64f25-108">Trigger event</span></span>|<span data-ttu-id="64f25-109">抽象的訊息</span><span class="sxs-lookup"><span data-stu-id="64f25-109">Abstract message</span></span>|  
+|-------------------|----------------------|  
+|<span data-ttu-id="64f25-110">ADT ^ A04 ^ ADT_A01</span><span class="sxs-lookup"><span data-stu-id="64f25-110">ADT^A04^ADT_A01</span></span>|<span data-ttu-id="64f25-111">許可、 放電，以及傳輸</span><span class="sxs-lookup"><span data-stu-id="64f25-111">Admissions, Discharge, and Transfer</span></span>|  
+|<span data-ttu-id="64f25-112">MSH</span><span class="sxs-lookup"><span data-stu-id="64f25-112">MSH</span></span>|<span data-ttu-id="64f25-113">訊息標頭</span><span class="sxs-lookup"><span data-stu-id="64f25-113">Message Header</span></span>|  
+|<span data-ttu-id="64f25-114">EVN</span><span class="sxs-lookup"><span data-stu-id="64f25-114">EVN</span></span>|<span data-ttu-id="64f25-115">事件類型</span><span class="sxs-lookup"><span data-stu-id="64f25-115">Event Type</span></span>|  
+|<span data-ttu-id="64f25-116">PID</span><span class="sxs-lookup"><span data-stu-id="64f25-116">PID</span></span>|<span data-ttu-id="64f25-117">病患識別碼</span><span class="sxs-lookup"><span data-stu-id="64f25-117">Patient Identification</span></span>|  
+|<span data-ttu-id="64f25-118">[PD1]</span><span class="sxs-lookup"><span data-stu-id="64f25-118">[  PD1  ]</span></span>|<span data-ttu-id="64f25-119">其他的人口統計資料</span><span class="sxs-lookup"><span data-stu-id="64f25-119">Additional Demographics</span></span>|  
+|<span data-ttu-id="64f25-120">[{ROL}]</span><span class="sxs-lookup"><span data-stu-id="64f25-120">[{ ROL }]</span></span>|<span data-ttu-id="64f25-121">角色</span><span class="sxs-lookup"><span data-stu-id="64f25-121">Role</span></span>|  
+|<span data-ttu-id="64f25-122">[{NK1}]</span><span class="sxs-lookup"><span data-stu-id="64f25-122">[{ NK1 }]</span></span>|<span data-ttu-id="64f25-123">你 / 相關聯的合作對象的下一步</span><span class="sxs-lookup"><span data-stu-id="64f25-123">Next of Kin / Associated Parties</span></span>|  
+|<span data-ttu-id="64f25-124">PV1</span><span class="sxs-lookup"><span data-stu-id="64f25-124">PV1</span></span>|<span data-ttu-id="64f25-125">瀏覽病患</span><span class="sxs-lookup"><span data-stu-id="64f25-125">Patient Visit</span></span>|  
+|<span data-ttu-id="64f25-126">[PV2]</span><span class="sxs-lookup"><span data-stu-id="64f25-126">[  PV2  ]</span></span>|<span data-ttu-id="64f25-127">病患造訪-其他資訊</span><span class="sxs-lookup"><span data-stu-id="64f25-127">Patient Visit - Additional Information</span></span>|  
+|<span data-ttu-id="64f25-128">[{ROL}]</span><span class="sxs-lookup"><span data-stu-id="64f25-128">[{ ROL }]</span></span>|<span data-ttu-id="64f25-129">角色</span><span class="sxs-lookup"><span data-stu-id="64f25-129">Role</span></span>|  
+|<span data-ttu-id="64f25-130">[{DB1}]</span><span class="sxs-lookup"><span data-stu-id="64f25-130">[{ DB1 }]</span></span>|<span data-ttu-id="64f25-131">行動不便資訊</span><span class="sxs-lookup"><span data-stu-id="64f25-131">Disability Information</span></span>|  
+|<span data-ttu-id="64f25-132">[{OBX}]</span><span class="sxs-lookup"><span data-stu-id="64f25-132">[{ OBX }]</span></span>|<span data-ttu-id="64f25-133">觀察/結果</span><span class="sxs-lookup"><span data-stu-id="64f25-133">Observation/Result</span></span>|  
+|<span data-ttu-id="64f25-134">[{AL1}]</span><span class="sxs-lookup"><span data-stu-id="64f25-134">[{ AL1 }]</span></span>|<span data-ttu-id="64f25-135">Allergy 資訊</span><span class="sxs-lookup"><span data-stu-id="64f25-135">Allergy Information</span></span>|  
+|<span data-ttu-id="64f25-136">[{DG1}]</span><span class="sxs-lookup"><span data-stu-id="64f25-136">[{ DG1 }]</span></span>|<span data-ttu-id="64f25-137">診斷資訊</span><span class="sxs-lookup"><span data-stu-id="64f25-137">Diagnosis Information</span></span>|  
+|<span data-ttu-id="64f25-138">[DRG]</span><span class="sxs-lookup"><span data-stu-id="64f25-138">[  DRG  ]</span></span>|<span data-ttu-id="64f25-139">診斷相關的群組</span><span class="sxs-lookup"><span data-stu-id="64f25-139">Diagnosis Related Group</span></span>|  
+|<span data-ttu-id="64f25-140">[{</span><span class="sxs-lookup"><span data-stu-id="64f25-140">[{</span></span>||  
+|<span data-ttu-id="64f25-141">PR1</span><span class="sxs-lookup"><span data-stu-id="64f25-141">PR1</span></span>|<span data-ttu-id="64f25-142">程序</span><span class="sxs-lookup"><span data-stu-id="64f25-142">Procedures</span></span>|  
+|<span data-ttu-id="64f25-143">[{ROL}]</span><span class="sxs-lookup"><span data-stu-id="64f25-143">[{ ROL }]</span></span>|<span data-ttu-id="64f25-144">角色</span><span class="sxs-lookup"><span data-stu-id="64f25-144">Role</span></span>|  
+|<span data-ttu-id="64f25-145">}]</span><span class="sxs-lookup"><span data-stu-id="64f25-145">}]</span></span>||  
+|<span data-ttu-id="64f25-146">[{GT1}]</span><span class="sxs-lookup"><span data-stu-id="64f25-146">[{ GT1 } ]</span></span>|<span data-ttu-id="64f25-147">保證人角色</span><span class="sxs-lookup"><span data-stu-id="64f25-147">Guarantor</span></span>|  
+|<span data-ttu-id="64f25-148">[{</span><span class="sxs-lookup"><span data-stu-id="64f25-148">[{</span></span>||  
+|<span data-ttu-id="64f25-149">入 1</span><span class="sxs-lookup"><span data-stu-id="64f25-149">IN1</span></span>|<span data-ttu-id="64f25-150">Insurance</span><span class="sxs-lookup"><span data-stu-id="64f25-150">Insurance</span></span>|  
+|<span data-ttu-id="64f25-151">入 [2]</span><span class="sxs-lookup"><span data-stu-id="64f25-151">[  IN2 ]</span></span>|<span data-ttu-id="64f25-152">保險的其他資訊</span><span class="sxs-lookup"><span data-stu-id="64f25-152">Insurance Additional Information</span></span>|  
+|<span data-ttu-id="64f25-153">[{入 3}]</span><span class="sxs-lookup"><span data-stu-id="64f25-153">[{ IN3 }]</span></span>|<span data-ttu-id="64f25-154">保險的其他資訊的憑證。</span><span class="sxs-lookup"><span data-stu-id="64f25-154">Insurance Additional Information - Cert.</span></span>|  
+|<span data-ttu-id="64f25-155">[{ROL}]</span><span class="sxs-lookup"><span data-stu-id="64f25-155">[{ ROL }]</span></span>|<span data-ttu-id="64f25-156">角色</span><span class="sxs-lookup"><span data-stu-id="64f25-156">Role</span></span>|  
+|<span data-ttu-id="64f25-157">}]</span><span class="sxs-lookup"><span data-stu-id="64f25-157">}]</span></span>||  
+|<span data-ttu-id="64f25-158">[帳戶]</span><span class="sxs-lookup"><span data-stu-id="64f25-158">[  ACC  ]</span></span>|<span data-ttu-id="64f25-159">意外的資訊</span><span class="sxs-lookup"><span data-stu-id="64f25-159">Accident Information</span></span>|  
+|<span data-ttu-id="64f25-160">[UB1]</span><span class="sxs-lookup"><span data-stu-id="64f25-160">[  UB1  ]</span></span>|<span data-ttu-id="64f25-161">通用的帳單資訊</span><span class="sxs-lookup"><span data-stu-id="64f25-161">Universal Bill Information</span></span>|  
+|<span data-ttu-id="64f25-162">[UB2]</span><span class="sxs-lookup"><span data-stu-id="64f25-162">[  UB2  ]</span></span>|<span data-ttu-id="64f25-163">通用帳單 92年資訊</span><span class="sxs-lookup"><span data-stu-id="64f25-163">Universal Bill 92 Information</span></span>|  
+|<span data-ttu-id="64f25-164">[PDA]</span><span class="sxs-lookup"><span data-stu-id="64f25-164">[  PDA  ]</span></span>|<span data-ttu-id="64f25-165">病患死亡和 Autopsy</span><span class="sxs-lookup"><span data-stu-id="64f25-165">Patient Death and Autopsy</span></span>|  
+  
+ <span data-ttu-id="64f25-166">上述的括號"["，"]"表示區段或群組的區段是選擇性的在大括號時"{"，"}"表示的區段或區段重複群組。</span><span class="sxs-lookup"><span data-stu-id="64f25-166">The brackets above "[", "]" indicate that a segment or group of segments is optional, while braces "{", "}" indicate the segment or group of segments repeat.</span></span>  
+  
+ <span data-ttu-id="64f25-167">區段是一組欄位每個符合特定的資料類型。</span><span class="sxs-lookup"><span data-stu-id="64f25-167">A segment is a group of fields each of which conforms to a particular data type.</span></span> <span data-ttu-id="64f25-168">欄位可以有一個簡單或複雜的結構。</span><span class="sxs-lookup"><span data-stu-id="64f25-168">Fields can have a simple or complex structure.</span></span> <span data-ttu-id="64f25-169">根據其資料型別定義中定義的規則的元件所組成。</span><span class="sxs-lookup"><span data-stu-id="64f25-169">They consist of components according to the rules defined in their data-type definition.</span></span> <span data-ttu-id="64f25-170">為了支援更複雜的資料類型，某些元件可能包含子元件。</span><span class="sxs-lookup"><span data-stu-id="64f25-170">In order to support the more complex data types, some components may consist of subcomponents.</span></span>  
+  
+> [!NOTE]
+>  <span data-ttu-id="64f25-171">HL7 訊息編碼使用指定的分隔符號的事實限制導入新的方法進一步分割資料的開發人員的能力。</span><span class="sxs-lookup"><span data-stu-id="64f25-171">The fact that HL7 message encoding uses specified delimiters limits the ability of a developer to introduce new ways of subdividing the data.</span></span> <span data-ttu-id="64f25-172">可以有任何子子元件，因為這項作業需要發明，新的分隔符號類型。</span><span class="sxs-lookup"><span data-stu-id="64f25-172">There can be no sub-subcomponent, since this would require invention of a new delimiter type.</span></span>  
+  
+ <span data-ttu-id="64f25-173">第一個 HL7 規格中未定義抽象的訊息。</span><span class="sxs-lookup"><span data-stu-id="64f25-173">The first HL7 specifications did not define the abstract message.</span></span> <span data-ttu-id="64f25-174">模式與觸發程序事件相關聯之區段的抽象的訊息。</span><span class="sxs-lookup"><span data-stu-id="64f25-174">The abstract message is the pattern of segments associated with a trigger event.</span></span> <span data-ttu-id="64f25-175">同樣地，HL7 訊息包含區段的重複在一起，或區段群組的集合。</span><span class="sxs-lookup"><span data-stu-id="64f25-175">Similarly, HL7 messages contain collections of segments that repeat together, or segment groups.</span></span> <span data-ttu-id="64f25-176">第一個 HL7 規格中未定義區段群組。</span><span class="sxs-lookup"><span data-stu-id="64f25-176">The first HL7 specifications did not define segment groups.</span></span> <span data-ttu-id="64f25-177">V2.3.1，開始，並在後續版本中繼續執行，此變更的原因需要支援 XML 編碼方式。</span><span class="sxs-lookup"><span data-stu-id="64f25-177">Starting with V2.3.1, and continuing in the subsequent versions, this changed due to the need to support XML encoding.</span></span> <span data-ttu-id="64f25-178">例如，在事件觸發程序表，訊息結構的名稱是"ADT_A01"。</span><span class="sxs-lookup"><span data-stu-id="64f25-178">For example, in the Trigger Event table above, the name of the message structure is "ADT_A01".</span></span> <span data-ttu-id="64f25-179">這是用來支援 A01 – 承認病患區段的相同的模式。</span><span class="sxs-lookup"><span data-stu-id="64f25-179">This is the same pattern of segments used to support A01 – Admit Patient.</span></span> <span data-ttu-id="64f25-180">為了方便起見，訊息結構的名稱會對應至 （依據 HL7 文件中的位置） 的第一個觸發程序會使用它們的事件。</span><span class="sxs-lookup"><span data-stu-id="64f25-180">For convenience, the names of message structures correspond to the first (in terms of placement within the HL7 document) trigger event that uses them.</span></span> <span data-ttu-id="64f25-181">同樣地，觸發程序事件上表開頭入 1，包括入 2、 入 3，以及 ROL 中的區段群組重複一次為群組。</span><span class="sxs-lookup"><span data-stu-id="64f25-181">Similarly, the group of segments in the Trigger Event table above that starts with IN1, including IN2, IN3, and ROL, repeats as a group.</span></span> <span data-ttu-id="64f25-182">它的名稱，開頭為 2.5 版是 「 保險 」 群組。</span><span class="sxs-lookup"><span data-stu-id="64f25-182">Its name—starting with Version 2.5 is "Insurance" group.</span></span>  
+  
+ <span data-ttu-id="64f25-183">在第 2 版間的版本相容性規則支援介面的演進需要標準的後續版本不包含使先前版本的結構。</span><span class="sxs-lookup"><span data-stu-id="64f25-183">In Version 2, the inter-version compatibility rules support evolution of interfaces by requiring that subsequent versions of the standard not include structures that invalidate prior versions.</span></span> <span data-ttu-id="64f25-184">這需要您沒有移除觸發程序事件，而您執行觸發程序事件適用於不同的用途，或不同的抽象訊息比原本預期。</span><span class="sxs-lookup"><span data-stu-id="64f25-184">This requires that you do not remove a trigger event and that you do not use a trigger event for a different purpose or with a different abstract message than originally intended.</span></span> <span data-ttu-id="64f25-185">抽象訊息，這表示您無法從訊息中，移除區段，也可以您讓選擇性的必要區段或重複區段非重複。</span><span class="sxs-lookup"><span data-stu-id="64f25-185">For abstract messages, this implies that you cannot remove a segment from a message, nor can you make a mandatory segment optional or a repeating segment non-repeating.</span></span> <span data-ttu-id="64f25-186">如果您加入一個區段，您必須執行結尾的訊息或訊息中重複群組結尾處。</span><span class="sxs-lookup"><span data-stu-id="64f25-186">If you add a segment, you must do so at the end of a message or at the end of a repeating group within a message.</span></span>  
+  
+ <span data-ttu-id="64f25-187">下列函式的[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 支援這些需求：</span><span class="sxs-lookup"><span data-stu-id="64f25-187">The following functions of [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) support these requirements:</span></span>  
+  
+-   <span data-ttu-id="64f25-188">支援的所有觸發程序事件與訊息結構 V2.1 開始，並延續到 2.5 版。</span><span class="sxs-lookup"><span data-stu-id="64f25-188">Support of all trigger events and message structures starting with V2.1 and continuing through V2.5.</span></span>  
+  
+-   <span data-ttu-id="64f25-189">透過新增區段以及選擇性地調整區段及重複當地語系化的支援。</span><span class="sxs-lookup"><span data-stu-id="64f25-189">Support of localization through adding segments and tailoring segment optionally and repetition.</span></span>  
+  
+## <a name="see-also"></a><span data-ttu-id="64f25-190">另請參閱</span><span class="sxs-lookup"><span data-stu-id="64f25-190">See Also</span></span>  
+ <span data-ttu-id="64f25-191">[處理 HL7 訊息](../../adapters-and-accelerators/accelerator-hl7/processing-hl7-messages.md) </span><span class="sxs-lookup"><span data-stu-id="64f25-191">[Processing HL7 Messages](../../adapters-and-accelerators/accelerator-hl7/processing-hl7-messages.md) </span></span>  
+ <span data-ttu-id="64f25-192">[訊息處理](../../adapters-and-accelerators/accelerator-hl7/message-processing.md) </span><span class="sxs-lookup"><span data-stu-id="64f25-192">[Message Processing](../../adapters-and-accelerators/accelerator-hl7/message-processing.md) </span></span>  
+ [<span data-ttu-id="64f25-193">使用 HL7 2.X 結構描述</span><span class="sxs-lookup"><span data-stu-id="64f25-193">Using HL7 2.X Schemas</span></span>](../../adapters-and-accelerators/accelerator-hl7/using-hl7-2-x-schemas.md)

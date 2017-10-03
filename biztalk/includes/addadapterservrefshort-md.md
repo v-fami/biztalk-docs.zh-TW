@@ -1,0 +1,1 @@
+<span data-ttu-id="28afd-101">新增配接器服務參考外掛程式</span><span class="sxs-lookup"><span data-stu-id="28afd-101">Add Adapter Service Reference Plug-in</span></span>

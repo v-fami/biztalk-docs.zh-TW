@@ -1,0 +1,94 @@
+---
+title: "訊息函式和程序的結構描述 |Microsoft 文件"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- functions and procedures, message structure of
+- functions and procedures, message actions of
+ms.assetid: 90b77b15-a4c6-487d-a09e-a078ceddfd1e
+caps.latest.revision: "4"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 85585945ae6376e11ddc39e7a1280f69d024c439
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/20/2017
+---
+# <a name="message-schemas-for-functions-and-procedures"></a><span data-ttu-id="b3bad-102">函數和程序的訊息結構描述</span><span class="sxs-lookup"><span data-stu-id="b3bad-102">Message Schemas for Functions and Procedures</span></span>
+<span data-ttu-id="b3bad-103">[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]介面 Oracle 資料庫函式和預存程序做為作業。</span><span class="sxs-lookup"><span data-stu-id="b3bad-103">The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] surfaces Oracle database functions and stored procedures as operations.</span></span> <span data-ttu-id="b3bad-104">本章節描述的訊息結構及用來叫用函數和程序的動作。</span><span class="sxs-lookup"><span data-stu-id="b3bad-104">This section describes the message structure and actions used to invoke functions and procedures.</span></span>  
+  
+## <a name="message-structure-of-functions-and-procedures"></a><span data-ttu-id="b3bad-105">函數和程序的訊息結構</span><span class="sxs-lookup"><span data-stu-id="b3bad-105">Message Structure of Functions and Procedures</span></span>  
+ <span data-ttu-id="b3bad-106">作業中顯示函式和預存程序會遵循要求-回應訊息交換模式。</span><span class="sxs-lookup"><span data-stu-id="b3bad-106">The operations surfaced for functions and stored procedures follow a request-response message exchange pattern.</span></span> <span data-ttu-id="b3bad-107">下表顯示這些要求和回應訊息的結構。</span><span class="sxs-lookup"><span data-stu-id="b3bad-107">The following table shows the structure of these request and response messages.</span></span>  
+  
+|<span data-ttu-id="b3bad-108">作業</span><span class="sxs-lookup"><span data-stu-id="b3bad-108">Operation</span></span>|<span data-ttu-id="b3bad-109">XML 訊息</span><span class="sxs-lookup"><span data-stu-id="b3bad-109">XML Message</span></span>|<span data-ttu-id="b3bad-110">Description</span><span class="sxs-lookup"><span data-stu-id="b3bad-110">Description</span></span>|  
+|---------------|-----------------|-----------------|  
+|<span data-ttu-id="b3bad-111">預存程序要求</span><span class="sxs-lookup"><span data-stu-id="b3bad-111">Stored Procedure Request</span></span>|`<[SP_NAME] xmlns="http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Procedure">   <[PRM1_NAME]>value1</[PRM1_NAME]>   <[PRM2_NAME]>value2</[PRM2_NAME]>   … </[SP_NAME]>`|<span data-ttu-id="b3bad-112">訊息本文中支援 Oracle IN 和 OUT IN 參數</span><span class="sxs-lookup"><span data-stu-id="b3bad-112">Supports Oracle IN and IN OUT parameters in the message body</span></span>|  
+|<span data-ttu-id="b3bad-113">預存程序的回應</span><span class="sxs-lookup"><span data-stu-id="b3bad-113">Stored Procedure Response</span></span>|`<[SP_NAME]Response xmlns="http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Procedure">   <[PRM1_NAME]>value1<[PRM1_NAME]>   <[PRM2_NAME]>value2</[PRM2_NAME]>   … </[SP_NAME]Response>`|<span data-ttu-id="b3bad-114">支援訊息內文中的 Oracle 出和 IN OUT 參數</span><span class="sxs-lookup"><span data-stu-id="b3bad-114">Supports Oracle OUT and IN OUT parameters in the message body</span></span>|  
+|<span data-ttu-id="b3bad-115">函式要求</span><span class="sxs-lookup"><span data-stu-id="b3bad-115">Function Request</span></span>|`<[FN_NAME] xmlns="http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Function">   <[PRM1_NAME]>value1</[PRM1_NAME]>   <[PRM2_NAME]>value2</[PRM2_NAME]>   … </[FN_NAME]>`|<span data-ttu-id="b3bad-116">訊息本文中支援 Oracle IN 和 OUT IN 參數</span><span class="sxs-lookup"><span data-stu-id="b3bad-116">Supports Oracle IN and IN OUT parameters in the message body</span></span>|  
+|<span data-ttu-id="b3bad-117">函式的回應</span><span class="sxs-lookup"><span data-stu-id="b3bad-117">Function Response</span></span>|`<[FN_NAME]Response xmlns="http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Function">   <[FN_NAME]Result>return_value</[FN_NAME]Result>   <[PRM1_NAME]>value1</[PRM1_NAME]>   <[PRM2_NAME]>value2</[PRM2_NAME]>   …    </[FN_NAME]Response>`|<span data-ttu-id="b3bad-118">支援訊息內文中的 Oracle 出和 IN OUT 參數</span><span class="sxs-lookup"><span data-stu-id="b3bad-118">Supports Oracle OUT and IN OUT parameters in the message body</span></span><br /><br /> <span data-ttu-id="b3bad-119">-函式的傳回值會傳回在\<[FN_NAME] 結果 > 項目。</span><span class="sxs-lookup"><span data-stu-id="b3bad-119">- The function return value is returned in the \<[FN_NAME]Result> element.</span></span> <span data-ttu-id="b3bad-120">這是在回應訊息中的第一個項目。</span><span class="sxs-lookup"><span data-stu-id="b3bad-120">This is the first element in the response message.</span></span> <span data-ttu-id="b3bad-121">它前面的任何參數。</span><span class="sxs-lookup"><span data-stu-id="b3bad-121">It comes before any parameters.</span></span>|  
+|<span data-ttu-id="b3bad-122">封裝的程序或函式要求</span><span class="sxs-lookup"><span data-stu-id="b3bad-122">Packaged Procedure or Function Request</span></span>|`<[SP_NAME] xmlns="http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Package/[PACKAGE_NAME]">   <[PRM1_NAME]>value1</[PRM1_NAME]>   <[PRM2_NAME]>value2</[PRM2_NAME]>   … </[SP_NAME]>`|<span data-ttu-id="b3bad-123">函式或預存程序相同</span><span class="sxs-lookup"><span data-stu-id="b3bad-123">Same as Function or Stored Procedure</span></span>|  
+|<span data-ttu-id="b3bad-124">封裝的程序或函式的回應</span><span class="sxs-lookup"><span data-stu-id="b3bad-124">Packaged Procedure or Function Response</span></span>|`<[SP_NAME]Response xmlns="http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Package/[PACKAGE_NAME]">   <[PRM1_NAME]>value1</[PRM1_NAME]>   <[PRM2_NAME]>value2</[PRM2_NAME]>   … </[SP_NAME]Response>`|<span data-ttu-id="b3bad-125">函式或預存程序相同</span><span class="sxs-lookup"><span data-stu-id="b3bad-125">Same as Function or Stored Procedure</span></span>|  
+  
+ <span data-ttu-id="b3bad-126">[SCHEMA] = 集合的 Oracle 成品。例如，SCOTT。</span><span class="sxs-lookup"><span data-stu-id="b3bad-126">[SCHEMA] = Collection of Oracle artifacts; for example, SCOTT.</span></span>  
+  
+ <span data-ttu-id="b3bad-127">[SP_NAME] = 預存程序的執行。例如，SP_INSERT。</span><span class="sxs-lookup"><span data-stu-id="b3bad-127">[SP_NAME] = The stored procedure to be executed; for example, SP_INSERT.</span></span>  
+  
+ <span data-ttu-id="b3bad-128">[FN_NAME] = 要執行的函式例如，FN_GETID。</span><span class="sxs-lookup"><span data-stu-id="b3bad-128">[FN_NAME] = The function to be executed; for example, FN_GETID.</span></span>  
+  
+ <span data-ttu-id="b3bad-129">[PRM1_NAME] = Oracle 參數的名稱。</span><span class="sxs-lookup"><span data-stu-id="b3bad-129">[PRM1_NAME] = The name of the Oracle parameter.</span></span> <span data-ttu-id="b3bad-130">請參閱支援的參數方向的每個訊息的描述資料行。</span><span class="sxs-lookup"><span data-stu-id="b3bad-130">See the Description column for supported parameter directions for each message.</span></span>  
+  
+ <span data-ttu-id="b3bad-131">[PACKAGE_NAME] = 套件，其中包含目標的程序或函式的名稱。</span><span class="sxs-lookup"><span data-stu-id="b3bad-131">[PACKAGE_NAME] = The name of the package that contains the targeted procedure or function.</span></span>  
+  
+ <span data-ttu-id="b3bad-132">Oracle 資料庫支援預存程序和函式多載。</span><span class="sxs-lookup"><span data-stu-id="b3bad-132">The Oracle database supports overloading for stored procedures and functions.</span></span> <span data-ttu-id="b3bad-133">[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]支援這項功能將多載字串附加至每個多載的成品的目標命名空間。</span><span class="sxs-lookup"><span data-stu-id="b3bad-133">The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] supports this capability by appending an overload string to the target namespace for each overloaded artifact.</span></span> <span data-ttu-id="b3bad-134">這個字串的值為"overload1 」 的第一個多載中，「 overload2"第二個多載，依此類推。</span><span class="sxs-lookup"><span data-stu-id="b3bad-134">The value of this string is "overload1" for the first overload, "overload2" for the second overload, and so on.</span></span> <span data-ttu-id="b3bad-135">下列範例顯示兩個多載的預存程序的訊息結構。</span><span class="sxs-lookup"><span data-stu-id="b3bad-135">The following example shows the message structure for two overloaded stored procedures.</span></span>  
+  
+```  
+Stored Procedure Overload 1:  
+<[SP_NAME] xmlns="http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Package/[PACKAGE_NAME]/[SP_NAME]/overload1">    
+  <[PRM1_NAME]>value1</[PRM1_NAME]>  
+  <[PRM2_NAME]>value1</[PRM2_NAME]>  
+  …  
+</[SP_NAME]>  
+  
+Stored Procedure Overload 2:  
+<[SP_NAME] xmlns="http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Package/[PACKAGE_NAME]/[SP_NAME]/overload2">    
+  <[PRM1_NAME]>value1</I_[PRM1_NAME]>  
+  <[PRM2_NAME]>value1</I_[PRM2_NAME]>  
+  …  
+</[SP_NAME]>  
+```  
+  
+## <a name="message-actions-of-functions-and-procedures"></a><span data-ttu-id="b3bad-136">函數和程序的訊息動作</span><span class="sxs-lookup"><span data-stu-id="b3bad-136">Message Actions of Functions and Procedures</span></span>  
+ <span data-ttu-id="b3bad-137">[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]預存程序和函式的作業會使用下列的訊息動作。</span><span class="sxs-lookup"><span data-stu-id="b3bad-137">The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] uses the following message actions for stored procedure and function operations.</span></span>  
+  
+|<span data-ttu-id="b3bad-138">訊息</span><span class="sxs-lookup"><span data-stu-id="b3bad-138">Message</span></span>|<span data-ttu-id="b3bad-139">動作</span><span class="sxs-lookup"><span data-stu-id="b3bad-139">Action</span></span>|<span data-ttu-id="b3bad-140">範例</span><span class="sxs-lookup"><span data-stu-id="b3bad-140">Example</span></span>|  
+|-------------|------------|-------------|  
+|<span data-ttu-id="b3bad-141">預存程序要求</span><span class="sxs-lookup"><span data-stu-id="b3bad-141">Stored Procedure Request</span></span>|<span data-ttu-id="b3bad-142">http://Microsoft.LobServices.OracleDB/2007/03/ [SCHEMA] /Procedure/ [SP_NAME]</span><span class="sxs-lookup"><span data-stu-id="b3bad-142">http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Procedure/[SP_NAME]</span></span>|<span data-ttu-id="b3bad-143">http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Procedure/SP_INSERT</span><span class="sxs-lookup"><span data-stu-id="b3bad-143">http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Procedure/SP_INSERT</span></span>|  
+|<span data-ttu-id="b3bad-144">預存程序的回應</span><span class="sxs-lookup"><span data-stu-id="b3bad-144">Stored Procedure Response</span></span>|<span data-ttu-id="b3bad-145">http://Microsoft.LobServices.OracleDB/2007/03/ [SCHEMA] /Procedure/ [SP_NAME] / 回應</span><span class="sxs-lookup"><span data-stu-id="b3bad-145">http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Procedure/[SP_NAME]/response</span></span>|<span data-ttu-id="b3bad-146">http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Procedure/SP_INSERT/response</span><span class="sxs-lookup"><span data-stu-id="b3bad-146">http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Procedure/SP_INSERT/response</span></span>|  
+|<span data-ttu-id="b3bad-147">函式要求</span><span class="sxs-lookup"><span data-stu-id="b3bad-147">Function Request</span></span>|<span data-ttu-id="b3bad-148">http://Microsoft.LobServices.OracleDB/2007/03/ [SCHEMA] /Function/ [FN_NAME]</span><span class="sxs-lookup"><span data-stu-id="b3bad-148">http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Function/[FN_NAME]</span></span>|<span data-ttu-id="b3bad-149">http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Function/FN_GETID</span><span class="sxs-lookup"><span data-stu-id="b3bad-149">http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Function/FN_GETID</span></span>|  
+|<span data-ttu-id="b3bad-150">函式的回應</span><span class="sxs-lookup"><span data-stu-id="b3bad-150">Function Response</span></span>|<span data-ttu-id="b3bad-151">http://Microsoft.LobServices.OracleDB/2007/03/ [SCHEMA] /Function/ [FN_NAME] / 回應</span><span class="sxs-lookup"><span data-stu-id="b3bad-151">http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Function/[FN_NAME]/response</span></span>|<span data-ttu-id="b3bad-152">http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Function/FN_GETID/response</span><span class="sxs-lookup"><span data-stu-id="b3bad-152">http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Function/FN_GETID/response</span></span>|  
+|<span data-ttu-id="b3bad-153">封裝的預存程序要求</span><span class="sxs-lookup"><span data-stu-id="b3bad-153">Packaged Stored Procedure Request</span></span>|<span data-ttu-id="b3bad-154">http://Microsoft.LobServices.OracleDB/2007/03/ [SCHEMA] /Package/ [PACKAGE_NAME] / [SP_NAME]</span><span class="sxs-lookup"><span data-stu-id="b3bad-154">http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Package/[PACKAGE_NAME]/[SP_NAME]</span></span>|<span data-ttu-id="b3bad-155">http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/CUSTOMER/SP_INSERT</span><span class="sxs-lookup"><span data-stu-id="b3bad-155">http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/CUSTOMER/SP_INSERT</span></span>|  
+|<span data-ttu-id="b3bad-156">封裝預存程序的回應</span><span class="sxs-lookup"><span data-stu-id="b3bad-156">Packaged Stored Procedure Response</span></span>|<span data-ttu-id="b3bad-157">http://Microsoft.LobServices.OracleDB/2007/03/ [SCHEMA] /Package/ [PACKAGE_NAME] / [SP_NAME] / 回應</span><span class="sxs-lookup"><span data-stu-id="b3bad-157">http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Package/[PACKAGE_NAME]/[SP_NAME]/response</span></span>|<span data-ttu-id="b3bad-158">http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/CUSTOMER/SP_INSERT/response</span><span class="sxs-lookup"><span data-stu-id="b3bad-158">http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/CUSTOMER/SP_INSERT/response</span></span>|  
+|<span data-ttu-id="b3bad-159">包裝函式要求</span><span class="sxs-lookup"><span data-stu-id="b3bad-159">Packaged Function Request</span></span>|<span data-ttu-id="b3bad-160">http://Microsoft.LobServices.OracleDB/2007/03/ [SCHEMA] /Package/ [PACKAGE_NAME] / [FN_NAME]</span><span class="sxs-lookup"><span data-stu-id="b3bad-160">http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Package/[PACKAGE_NAME]/[FN_NAME]</span></span>|<span data-ttu-id="b3bad-161">http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/CUSTOMER/FN_GETID</span><span class="sxs-lookup"><span data-stu-id="b3bad-161">http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/CUSTOMER/FN_GETID</span></span>|  
+|<span data-ttu-id="b3bad-162">回應封裝函式</span><span class="sxs-lookup"><span data-stu-id="b3bad-162">Packaged Function Response</span></span>|<span data-ttu-id="b3bad-163">http://Microsoft.LobServices.OracleDB/2007/03/ [SCHEMA] /Package/ [PACKAGE_NAME] / [FN_NAME] / 回應</span><span class="sxs-lookup"><span data-stu-id="b3bad-163">http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Package/[PACKAGE_NAME]/[FN_NAME]/response</span></span>|<span data-ttu-id="b3bad-164">http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/CUSTOMER/FN_GETID/response</span><span class="sxs-lookup"><span data-stu-id="b3bad-164">http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/CUSTOMER/FN_GETID/response</span></span>|  
+|<span data-ttu-id="b3bad-165">多載的預存程序要求</span><span class="sxs-lookup"><span data-stu-id="b3bad-165">Overloaded Stored Procedure Request</span></span>|<span data-ttu-id="b3bad-166">http://Microsoft.LobServices.OracleDB/2007/03/ [SCHEMA] /Procedure/ [SP_NAME] / [多載]</span><span class="sxs-lookup"><span data-stu-id="b3bad-166">http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Procedure/[SP_NAME]/[OVERLOAD]</span></span>|<span data-ttu-id="b3bad-167">http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Procedure/SP_INSERT/overload1</span><span class="sxs-lookup"><span data-stu-id="b3bad-167">http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Procedure/SP_INSERT/overload1</span></span>|  
+|<span data-ttu-id="b3bad-168">預存程序回應的多載</span><span class="sxs-lookup"><span data-stu-id="b3bad-168">Overloaded Stored Procedure Response</span></span>|<span data-ttu-id="b3bad-169">http://Microsoft.LobServices.OracleDB/2007/03/ [SCHEMA] /Procedure/ [SP_NAME] / [多載] / 回應</span><span class="sxs-lookup"><span data-stu-id="b3bad-169">http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Procedure/[SP_NAME]/[OVERLOAD]/response</span></span>|<span data-ttu-id="b3bad-170">http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Procedure/SP_INSERT/overload1/response</span><span class="sxs-lookup"><span data-stu-id="b3bad-170">http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Procedure/SP_INSERT/overload1/response</span></span>|  
+  
+ <span data-ttu-id="b3bad-171">[SCHEMA] = 集合的 Oracle 成品。例如，SCOTT。</span><span class="sxs-lookup"><span data-stu-id="b3bad-171">[SCHEMA] = Collection of Oracle artifacts; for example, SCOTT.</span></span>  
+  
+ <span data-ttu-id="b3bad-172">[SP_NAME] = 預存程序的執行。例如，SP_INSERT。</span><span class="sxs-lookup"><span data-stu-id="b3bad-172">[SP_NAME] = The stored procedure to be executed; for example, SP_INSERT.</span></span>  
+  
+ <span data-ttu-id="b3bad-173">[FN_NAME] = 要執行的函式例如，FN_GETID。</span><span class="sxs-lookup"><span data-stu-id="b3bad-173">[FN_NAME] = The function to be executed; for example, FN_GETID.</span></span>  
+  
+ <span data-ttu-id="b3bad-174">[PACKAGE_NAME] = 套件，其中包含目標的程序或函式的名稱。</span><span class="sxs-lookup"><span data-stu-id="b3bad-174">[PACKAGE_NAME] = The name of the package that contains the targeted procedure or function.</span></span>  
+  
+ <span data-ttu-id="b3bad-175">[多載] = 多載的參數。</span><span class="sxs-lookup"><span data-stu-id="b3bad-175">[OVERLOAD] = The Overload parameter.</span></span> <span data-ttu-id="b3bad-176">可能的值為 overload1、 overload2，等等。</span><span class="sxs-lookup"><span data-stu-id="b3bad-176">The possible values are overload1, overload2, and so on.</span></span>  
+  
+## <a name="see-also"></a><span data-ttu-id="b3bad-177">另請參閱</span><span class="sxs-lookup"><span data-stu-id="b3bad-177">See Also</span></span>  
+ [<span data-ttu-id="b3bad-178">訊息和訊息結構描述，BizTalk adapter for Oracle 資料庫</span><span class="sxs-lookup"><span data-stu-id="b3bad-178">Messages and Message Schemas for BizTalk Adapter for Oracle Database</span></span>](../../adapters-and-accelerators/adapter-oracle-database/messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md)

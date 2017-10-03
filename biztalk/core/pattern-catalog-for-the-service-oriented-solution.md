@@ -1,0 +1,73 @@
+---
+title: "模式目錄服務導向解決方案 |Microsoft 文件"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- Calling Pipelines from Code pattern [service solutions]
+- Recipient List pattern [service solutions]
+- filters, design patterns
+- Filter pattern [service solutions]
+- caching, patterns [service solutions]
+- Service Interface pattern [service solutions]
+- Content-Based Routing pattern [service solutions]
+- Inline Invocation of Back-End Processes pattern [service solutions]
+- content-based routing, patterns [service solutions]
+- messages, Translator pattern [service solutions]
+- aggregations, patterns [service solutions]
+- Translator pattern, service solutions
+- Caching pattern [service solutions]
+- Aggregation pattern [service solutions]
+- patterns [service solutions], pattern types
+- back-end processes
+- services, interface pattern [service solutions]
+ms.assetid: 5d8135c5-d5de-4e61-b3e8-2aa7f6de98c8
+caps.latest.revision: "12"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 9441ead974cdcaba66dd9d038e786a5a8c7b156e
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/20/2017
+---
+# <a name="pattern-catalog-for-the-service-oriented-solution"></a><span data-ttu-id="b123f-102">模式目錄服務導向解決方案</span><span class="sxs-lookup"><span data-stu-id="b123f-102">Pattern Catalog for the Service Oriented Solution</span></span>
+<span data-ttu-id="b123f-103">服務導向解決方案中的模式包括 BizTalk Server 特定的程式設計慣例，以及前幾節中的企業整合模式。</span><span class="sxs-lookup"><span data-stu-id="b123f-103">The patterns in the service oriented solution include patterns of BizTalk Server-specific programming practices, as well as the enterprise integration patterns in preceding sections.</span></span> <span data-ttu-id="b123f-104">本節中的清單包括這兩種模式。</span><span class="sxs-lookup"><span data-stu-id="b123f-104">The list in this section includes both kinds of patterns.</span></span>  
+  
+## <a name="pattern-types"></a><span data-ttu-id="b123f-105">模式類型</span><span class="sxs-lookup"><span data-stu-id="b123f-105">Pattern Types</span></span>  
+ <span data-ttu-id="b123f-106">下列主題所描述的項目簡短地描述模式，並指向其他描述解決方案如何使用模式的主題。</span><span class="sxs-lookup"><span data-stu-id="b123f-106">Entries described in the following topics briefly describe the pattern and point to other topics that describe how the solution uses the pattern.</span></span> <span data-ttu-id="b123f-107">如為一般模式 (例如篩選)，項目會指出更為一般的主題。</span><span class="sxs-lookup"><span data-stu-id="b123f-107">In the case of general patterns, such as a filter, entries point to more general topics.</span></span>  
+  
+### <a name="aggregation-pattern"></a><span data-ttu-id="b123f-108">彙總模式</span><span class="sxs-lookup"><span data-stu-id="b123f-108">Aggregation Pattern</span></span>  
+ <span data-ttu-id="b123f-109">彙總是從多個來源接收資訊，並將它併入單一訊息的模式。</span><span class="sxs-lookup"><span data-stu-id="b123f-109">Aggregation is the pattern of receiving information from multiple sources and consolidating it into a single message.</span></span> <span data-ttu-id="b123f-110">服務導向解決方案會將三個不同來源的信用資訊結合成單一回應。</span><span class="sxs-lookup"><span data-stu-id="b123f-110">The service oriented solution combines credit information from three different sources into a single response.</span></span> <span data-ttu-id="b123f-111">視您撰寫之解決方案的本質而定，可以用數種方式來進行彙總。</span><span class="sxs-lookup"><span data-stu-id="b123f-111">You can do aggregation several different ways, depending on the nature of the solution you're writing.</span></span> <span data-ttu-id="b123f-112">在某些情況下，您可能需要等待所有的回應。</span><span class="sxs-lookup"><span data-stu-id="b123f-112">In some cases, you may need to wait for all responses.</span></span> <span data-ttu-id="b123f-113">在其他情況下 (例如貸款報價)，只要您有某個最小數目，那麼您可能會想先獲得回應。</span><span class="sxs-lookup"><span data-stu-id="b123f-113">In other cases, such as in loan quotes, you may be willing to forego getting a response so long as you have some minimum number.</span></span> <span data-ttu-id="b123f-114">服務導向解決方案會等到它有全部的三個回應，因為它需要全部三個才能傳回完整的信用報告。</span><span class="sxs-lookup"><span data-stu-id="b123f-114">The service oriented solution waits until it has all three responses because it requires all three in order to have a complete credit report to return.</span></span> <span data-ttu-id="b123f-115">如需詳細資訊，請參閱[轉譯服務導向解決方案的模式](../core/translating-the-patterns-of-the-service-oriented-solution.md)。</span><span class="sxs-lookup"><span data-stu-id="b123f-115">For more information, see [Translating the Patterns of the Service Oriented Solution](../core/translating-the-patterns-of-the-service-oriented-solution.md).</span></span>  
+  
+### <a name="calling-pipelines-from-code-pattern"></a><span data-ttu-id="b123f-116">從程式碼模式呼叫管線</span><span class="sxs-lookup"><span data-stu-id="b123f-116">Calling Pipelines from Code Pattern</span></span>  
+ <span data-ttu-id="b123f-117">您現在可以從程式碼和協調流程呼叫管線。</span><span class="sxs-lookup"><span data-stu-id="b123f-117">You can now call pipelines from your code and orchestrations.</span></span> <span data-ttu-id="b123f-118">這允許重複使用管線並協助維護管線階段的協調流程解離。</span><span class="sxs-lookup"><span data-stu-id="b123f-118">This allows the re-use of pipelines and helps maintain the decoupling of an orchestration from the pipeline stages.</span></span> <span data-ttu-id="b123f-119">如需詳細資訊，請參閱[從服務導向解決方案使用的管線](../core/using-pipelines-from-the-service-oriented-solution.md)。</span><span class="sxs-lookup"><span data-stu-id="b123f-119">For more information, see [Using Pipelines from the Service Oriented Solution](../core/using-pipelines-from-the-service-oriented-solution.md).</span></span>  
+  
+### <a name="caching-pattern"></a><span data-ttu-id="b123f-120">快取模式</span><span class="sxs-lookup"><span data-stu-id="b123f-120">Caching Pattern</span></span>  
+ <span data-ttu-id="b123f-121">快取是儲存資訊而不需每次要求時都要從資料存放區擷取它的一般策略。</span><span class="sxs-lookup"><span data-stu-id="b123f-121">Caching is a general strategy of storing information rather than retrieving it from a data store every time it is requested.</span></span> <span data-ttu-id="b123f-122">從「企業單一登入」系統擷取參考或組態資料已證明是解決方案的限制因素。</span><span class="sxs-lookup"><span data-stu-id="b123f-122">Retrieving reference or configuration data from the Enterprise Single Sign-On system proved to be a limiting factor in the solution.</span></span> <span data-ttu-id="b123f-123">解決方案會快取資訊並定期重新整理快取。</span><span class="sxs-lookup"><span data-stu-id="b123f-123">The solution caches the information and periodically refreshes the cache.</span></span> <span data-ttu-id="b123f-124">如需詳細資訊，請參閱[使用 SSO 有效率地在服務導向解決方案](../core/using-sso-efficiently-in-the-service-oriented-solution.md)。</span><span class="sxs-lookup"><span data-stu-id="b123f-124">For more information, see [Using SSO Efficiently in the Service Oriented Solution](../core/using-sso-efficiently-in-the-service-oriented-solution.md).</span></span> <span data-ttu-id="b123f-125">商務程序管理解決方案也會快取 SSO 資訊，雖然它會使用稍微不同的程序。</span><span class="sxs-lookup"><span data-stu-id="b123f-125">The Business Process Management solution also caches the SSO information, though it uses a slightly different process.</span></span> <span data-ttu-id="b123f-126">如需詳細資訊，請參閱[使用 SSO 有效率地在商務程序管理解決方案中](../core/using-sso-efficiently-in-the-business-process-management-solution.md)。</span><span class="sxs-lookup"><span data-stu-id="b123f-126">For more information, see [Using SSO Efficiently in the Business Process Management Solution](../core/using-sso-efficiently-in-the-business-process-management-solution.md).</span></span>  
+  
+### <a name="content-based-routing-pattern"></a><span data-ttu-id="b123f-127">以內容為基礎的路由模式</span><span class="sxs-lookup"><span data-stu-id="b123f-127">Content-Based Routing Pattern</span></span>  
+ <span data-ttu-id="b123f-128">在企業整合模式中，以內容為基礎的路由在 BizTalk 中較廣為接受。</span><span class="sxs-lookup"><span data-stu-id="b123f-128">In enterprise integration patterns, content-based routing is more broadly conceived than in BizTalk.</span></span> <span data-ttu-id="b123f-129">在企業整合模式中，以內容為基礎的路由會根據訊息內容的某些部分來決定訊息的收件者。</span><span class="sxs-lookup"><span data-stu-id="b123f-129">In enterprise integration patterns, content-based routing is determining the recipient of a message based on the some part of the content of the message.</span></span> <span data-ttu-id="b123f-130">服務導向解決方案會使用非常簡單之以內容為基礎的路由形式，即協調流程中的單一決策圖形會將訊息傳送至兩個地方的其中之一。</span><span class="sxs-lookup"><span data-stu-id="b123f-130">The service oriented solution uses a very simple form of content-based routing—a single decision shape in an orchestration sends the message one of two places.</span></span> <span data-ttu-id="b123f-131">如需詳細資訊，請參閱 「 轉譯元件到協調流程圖形 > 中的[轉譯服務導向解決方案的模式](../core/translating-the-patterns-of-the-service-oriented-solution.md)。</span><span class="sxs-lookup"><span data-stu-id="b123f-131">For more information, see "Translating the Components into Orchestration Shapes" in [Translating the Patterns of the Service Oriented Solution](../core/translating-the-patterns-of-the-service-oriented-solution.md).</span></span>  
+  
+### <a name="filter-pattern"></a><span data-ttu-id="b123f-132">篩選模式</span><span class="sxs-lookup"><span data-stu-id="b123f-132">Filter Pattern</span></span>  
+ <span data-ttu-id="b123f-133">篩選模式會選取符合特殊準則的訊息，以進行處理。</span><span class="sxs-lookup"><span data-stu-id="b123f-133">The filter pattern selects messages meeting particular criteria for processing.</span></span> <span data-ttu-id="b123f-134">在 BizTalk Server 中，篩選模式幾乎一定會成為連接埠上的篩選條件運算式。</span><span class="sxs-lookup"><span data-stu-id="b123f-134">In BizTalk Server, the filter pattern almost always becomes a filter expression on a port.</span></span> <span data-ttu-id="b123f-135">如需連接埠篩選器的詳細資訊，請參閱[使用篩選器與接收訊息 」 圖形](../core/using-filters-with-the-receive-message-shape.md)。</span><span class="sxs-lookup"><span data-stu-id="b123f-135">For more information about filters on ports, see [Using Filters With the Receive Message Shape](../core/using-filters-with-the-receive-message-shape.md).</span></span>  
+  
+### <a name="inline-invocation-of-back-end-processes-pattern"></a><span data-ttu-id="b123f-136">後端程序模式的內嵌叫用</span><span class="sxs-lookup"><span data-stu-id="b123f-136">Inline Invocation of Back-end Processes Pattern</span></span>  
+ <span data-ttu-id="b123f-137">解決方案的內嵌版本會透過自訂組件來使用後端程序的內嵌叫用。</span><span class="sxs-lookup"><span data-stu-id="b123f-137">The inline version of the solution uses inline invocation of the back-end processes through custom assemblies.</span></span> <span data-ttu-id="b123f-138">它具有可大幅改善效能的優點。</span><span class="sxs-lookup"><span data-stu-id="b123f-138">This has the benefit of greatly improved performance.</span></span> <span data-ttu-id="b123f-139">不過，它也具有將協調流程與傳輸通訊協定緊密耦合的缺點。</span><span class="sxs-lookup"><span data-stu-id="b123f-139">It comes at the cost, however, of tightly coupling the orchestration to the transport protocol.</span></span> <span data-ttu-id="b123f-140">如需詳細資訊，請參閱[內嵌後端叫用](../core/inlining-back-end-invocation.md)。</span><span class="sxs-lookup"><span data-stu-id="b123f-140">For more information, see [Inlining Back-end Invocation](../core/inlining-back-end-invocation.md).</span></span>  
+  
+### <a name="recipient-list-pattern"></a><span data-ttu-id="b123f-141">收件者清單模式</span><span class="sxs-lookup"><span data-stu-id="b123f-141">Recipient List Pattern</span></span>  
+ <span data-ttu-id="b123f-142">就抽象意義而言，服務導向解決方案會實作收件者清單，因為它會傳送訊息給三個不同的系統。</span><span class="sxs-lookup"><span data-stu-id="b123f-142">In an abstract sense, the service oriented solution implements a recipient list in that it sends messages to three different systems.</span></span> <span data-ttu-id="b123f-143">就實際層面而言，已部署的應用程式會將邏輯連接埠對應到特定位置，以決定收件者。</span><span class="sxs-lookup"><span data-stu-id="b123f-143">In practical terms, the deployed application determines the recipients by mapping the logical ports to specific locations.</span></span> <span data-ttu-id="b123f-144">在應用程式內嵌版本的例子中，連線會透過 SSO 中的組態資訊來進行連線。</span><span class="sxs-lookup"><span data-stu-id="b123f-144">In the case of the inline version of the application, the connections are made through the configuration information in SSO.</span></span> <span data-ttu-id="b123f-145">如需詳細資訊，請參閱[轉譯服務導向解決方案的模式](../core/translating-the-patterns-of-the-service-oriented-solution.md)。</span><span class="sxs-lookup"><span data-stu-id="b123f-145">For more information, see [Translating the Patterns of the Service Oriented Solution](../core/translating-the-patterns-of-the-service-oriented-solution.md).</span></span>  
+  
+### <a name="service-interface-pattern"></a><span data-ttu-id="b123f-146">服務介面模式</span><span class="sxs-lookup"><span data-stu-id="b123f-146">Service Interface Pattern</span></span>  
+ <span data-ttu-id="b123f-147">服務導向解決方案會以 Web 服務的方式來呈現自己，在許多方法中只有以服務來執行的方式是可行的。</span><span class="sxs-lookup"><span data-stu-id="b123f-147">The service oriented solution presents itself as a Web service, only one of many ways a service may be done.</span></span> <span data-ttu-id="b123f-148">如需使用協調流程做為 Web 服務的詳細資訊，請參閱[使用 Web Services](../core/using-web-services.md)。</span><span class="sxs-lookup"><span data-stu-id="b123f-148">For more information about using orchestrations as Web services, see [Using Web Services](../core/using-web-services.md).</span></span>  
+  
+### <a name="translator-pattern"></a><span data-ttu-id="b123f-149">轉譯程式模式</span><span class="sxs-lookup"><span data-stu-id="b123f-149">Translator Pattern</span></span>  
+ <span data-ttu-id="b123f-150">轉譯器的企業模式 (亦即將訊息從一個形式轉換為另一個形式) 最常轉譯為 BizTalk Server 對應。</span><span class="sxs-lookup"><span data-stu-id="b123f-150">The enterprise pattern of a translator—that is, the conversion of a message from one form to another form—most often translates into a BizTalk Server map.</span></span> <span data-ttu-id="b123f-151">如需 BizTalk Server 對應的一般資訊，請參閱[建立對應使用 BizTalk 對應工具](../core/creating-maps-using-biztalk-mapper.md)。</span><span class="sxs-lookup"><span data-stu-id="b123f-151">For general information about BizTalk Server maps, see [Creating Maps Using BizTalk Mapper](../core/creating-maps-using-biztalk-mapper.md).</span></span>  
+  
+## <a name="see-also"></a><span data-ttu-id="b123f-152">另請參閱</span><span class="sxs-lookup"><span data-stu-id="b123f-152">See Also</span></span>  
+ [<span data-ttu-id="b123f-153">模式在服務導向解決方案</span><span class="sxs-lookup"><span data-stu-id="b123f-153">Patterns in the Service Oriented Solution</span></span>](../core/patterns-in-the-service-oriented-solution.md)
