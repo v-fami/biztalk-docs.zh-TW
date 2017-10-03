@@ -1,0 +1,1 @@
+SAP adapter (SAP 配接器)

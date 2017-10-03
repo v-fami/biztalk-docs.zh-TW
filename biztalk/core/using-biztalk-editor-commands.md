@@ -1,0 +1,67 @@
+---
+title: "使用 BizTalk 編輯器命令 |Microsoft 文件"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: e216ae5d-5bad-48ef-87d1-8aa8ee20179b
+caps.latest.revision: "12"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: d1ae30305f5e23e99b5a0bc76cba9bfc7f451b03
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/20/2017
+---
+# <a name="use-biztalk-editor-commands"></a>使用 BizTalk 編輯器命令
+
+## <a name="overview"></a>概觀
+當 BizTalk 編輯器變成作用中時，它會加入稱為功能表**BizTalk**至[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]殼層。 此功能表提供對 BizTalk 編輯器命令及其功能的存取。 當 BizTalk 編輯器在作用中、 **BizTalk**功能表可以提供編輯 BizTalk 結構描述特定的命令。  
+  
+ 除此之外，功能可用時，BizTalk 編輯器會使用明顯具有相同於標準應用程式功能的現有 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 功能表項目來執行命令。 例如，當 BizTalk 編輯器在作用中、**儲存**命令**檔案**功能表將變更儲存到目前正在編輯的結構描述。  
+  
+## <a name="commands-list"></a>命令清單
+ 下表描述可在開發結構描述中使用的 BizTalk 編輯器命令。  
+  
+|Command<br /><br /> (功能表位置)|Description|  
+|------------------------------------|-----------------|  
+|**開啟結構描述**<br /><br /> (檔案 &#124;開啟 &#124;檔案...）|開啟 BizTalk 結構描述以在 BizTalk 編輯器中編輯。<br /><br /> 結構描述選取時，您也可以從「方案總管」的捷徑功能表使用，只要在「方案總管」中按兩下結構描述即可。|  
+|**關閉結構描述**<br /><br /> (檔案 &#124;關閉）|關閉 BizTalk 編輯器中的目前結構描述，並提示儲存任何尚未儲存的變更。<br /><br /> 使用 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 主要編輯視窗右上角的標準「關閉」按鈕，也可以執行這個命令。|  
+|**新的結構描述**<br /><br /> (專案 &#124;加入新項目 &#124;結構描述）|建立要編輯的新 BizTalk 結構描述，並開啟 BizTalk 編輯器。<br /><br /> 您也可以使用方案總管 中的 BizTalk 專案的捷徑功能表 (新增 &#124;新的項目）。|  
+|**儲存結構描述**<br /><br /> (檔案 &#124;另存 schema.xsd）<br /><br /> (檔案 &#124;另存 schema.xsd 為存。..)<br /><br /> (檔案 &#124;全部儲存）|可將目前正在編輯的 BizTalk 結構描述分別依所屬名稱、新名稱儲存，或是將所有尚未儲存的變更另存新檔。|  
+|**剪下、 複製、 貼上節點**<br /><br /> (編輯 &#124;剪下、 編輯 &#124;複製、 編輯 &#124;貼上）|可讓**結構描述**節點，以移動和複製結構描述樹狀檢視。<br /><br /> 可用時，您也可以從選取的節點之快速鍵功能表執行這個命令，並可使用標準的剪下、複製及貼上快速鍵：CTRL+X、CTRL+C 以及 CTRL+V。|  
+|**刪除節點**<br /><br /> (編輯 &#124;刪除）<br /><br /> (BizTalk &#124;刪除）|在確認提示之後，刪除目前在結構描述樹狀結構檢視中選取的節點。<br /><br /> 情況適用時，您也可以從所選節點的捷徑功能表執行這個命令。|  
+|**找不到節點**<br /><br /> (編輯 &#124;尋找和取代 &#124;快速尋找）|提供在結構描述樹狀結構檢視中搜尋節點名稱的功能，這項功能對於大型結構描述相當有用。|  
+|**屬性**<br /><br /> (檢視 &#124;屬性視窗）<br /><br /> (BizTalk &#124;屬性）|提供對結構描述樹狀結構檢視節點以及較高層級物件 (例如結構描述本身) 的存取。<br /><br /> 您也可以從選取的節點之快速鍵功能表執行這項命令。|  
+|**插入結構描述節點**<br /><br /> (BizTalk &#124;插入結構描述節點 &#124;*)|提供一個將各種不同類型的節點插入結構描述樹狀結構檢視的方法。 如需可加入的節點類型的詳細資訊，請參閱[BizTalk 結構描述的表示法](../core/biztalk-representation-of-schemas.md)。<br /><br /> 可用時，您也可以從選取的節點之快速鍵功能表執行這些命令。|  
+|**升級**<br /><br /> (BizTalk &#124;升級 &#124;*)|提供不同的升級屬性方法。<br /><br /> 您也可以從選取的節點之快速鍵功能表執行這項命令。|  
+|**展開結構描述節點**<br /><br /> (BizTalk &#124;展開結構描述節點）|在結構描述樹狀結構檢視中完全展開目前選取 (以及至少部分摺疊) 的節點。<br /><br /> 情況適用時，您也可以從所選節點的捷徑功能表執行這個命令。|  
+|**摺疊結構描述節點**<br /><br /> (BizTalk &#124;摺疊結構描述節點）|在結構描述樹狀結構檢視中摺疊目前選取 (以及至少部分展開) 的節點。<br /><br /> 情況適用時，您也可以從所選節點的捷徑功能表執行這個命令。|  
+|**重新整理 XSD**<br /><br /> (BizTalk &#124;重新整理 XSD）|重新整理 XSD 檢視中，可能會設定為自動重新整理選取**開啟自動重新整理**XSD 檢視下方的核取方塊。<br /><br /> 此命令也會提供選取的節點，然後按一下捷徑功能表上**重新整理**XSD 檢視下方。|  
+|**重新命名**<br /><br /> (BizTalk &#124;重新命名）|可讓**記錄**，**欄位屬性**，和**欄位項目**節點中重新命名，在結構描述樹狀檢視中的位置。<br /><br /> 此命令等同於變更**節點名稱**選取之節點的屬性。<br /><br /> 情況適用時，您也可以從所選節點的捷徑功能表執行這個命令。|  
+|**BizTalk 編輯器選項**<br /><br /> (工具 &#124;選項 &#124;BizTalk 編輯器）|允許設定確認對話方塊 (開或關)，以及字型及背景色彩的調整。|  
+  
+ 下表描述「方案總管」中選取的結構描述之快速鍵功能表所提供的其他結構描述命令。  
+  
+|結構描述命令|Description|  
+|--------------------|-----------------|  
+|**開啟**|會在 BizTalk 編輯器中開啟選取的結構描述。|  
+|**開啟檔案**|允許在各種 XSD 編輯器中開啟選取的結構描述，包括 BizTalk 編輯器。|  
+|**驗證結構描述**|驗證選取的結構描述。|  
+|**驗證執行個體**|驗證執行個體所指定**輸入執行個體檔案名稱**Visual Studio 中的屬性**屬性**針對選取的結構描述的視窗。|  
+|**產生執行個體**|會產生選取的結構描述使用所指定的檔案名稱的執行個體**輸出執行個體檔案名稱**Visual Studio 中的屬性**屬性**視窗。<br /><br /> 若沒有為產生的輸出執行個體指定名稱，則會使用預設檔案名稱。 預設檔案名稱為附加到 "_output.xml" 字串前面的結構描述檔案名稱，這個檔案位於 Documents and Settings 資料夾中 Temp 資料夾的 _SchemaData 資料夾內。|  
+|**檢視程式碼**|顯示基礎 XSD。|  
+|**檢視表設計工具**|在 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] XML 結構描述設計工具中開啟結構描述。|  
+|**從專案中排除**|從目前的 BizTalk 專案移除目前選取的結構描述。<br /><br /> 使用**加入現有項目**命令，重新加入之前從目前 BizTalk 專案移除結構描述。|  
+|**剪下、 複製、 貼上**|使用這些命令可在 BizTalk 專案中執行剪下、複製和貼上整個結構描述等標準 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 行為。|  
+|**Delete**|在確認提示之後，永久刪除目前選取的結構描述。|  
+|**重新命名**|允許就地重新命名目前選取的結構描述。|  
+|**屬性**|開啟 Visual Studio**屬性**視窗對於目前所選取的結構描述，在其中部分的結構描述屬性可以檢查和設定。 <br/><br/>**注意：**檢查及設定結構描述的其他屬性[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]屬性 視窗選取結構描述時。 屬性中設定的**屬性**視窗是這些屬性，其不同的值可能相同的結構描述，用來使用一個以上的 BizTalk 專案中。 <br /><br /> 如需有關設定結構描述屬性和結構描述屬性的詳細資訊，請參閱[設定結構描述檔案和結構描述項目屬性](../core/how-to-set-schema-file-and-schema-item-properties.md)和**結構描述檔案屬性** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。|  
+  
+## <a name="see-also"></a>另請參閱  
+ [使用 BizTalk 編輯器](../core/using-biztalk-editor.md)

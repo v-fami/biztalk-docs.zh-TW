@@ -1,0 +1,1 @@
+SQL adapter (SQL 配接器)
