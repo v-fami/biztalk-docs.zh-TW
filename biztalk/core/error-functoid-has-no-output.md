@@ -19,15 +19,15 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---functoid-has-no-output"></a>錯誤-運算質有沒有輸出
-**錯誤碼**  
+# <a name="error---functoid-has-no-output"></a><span data-ttu-id="9b50a-102">錯誤-運算質有沒有輸出</span><span class="sxs-lookup"><span data-stu-id="9b50a-102">Error - Functoid Has No Output</span></span>
+<span data-ttu-id="9b50a-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="9b50a-103">**Error Code**</span></span>  
   
- btm1013  
+ <span data-ttu-id="9b50a-104">btm1013</span><span class="sxs-lookup"><span data-stu-id="9b50a-104">btm1013</span></span>  
   
- **說明**  
+ <span data-ttu-id="9b50a-105">**說明**</span><span class="sxs-lookup"><span data-stu-id="9b50a-105">**Explanation**</span></span>  
   
- 所指定的運算質沒有輸出連結，因此無作用。  
+ <span data-ttu-id="9b50a-106">所指定的運算質沒有輸出連結，因此無作用。</span><span class="sxs-lookup"><span data-stu-id="9b50a-106">There is no output link for the indicated functoid, rendering it useless.</span></span>  
   
- **使用者動作**  
+ <span data-ttu-id="9b50a-107">**使用者動作**</span><span class="sxs-lookup"><span data-stu-id="9b50a-107">**User Action**</span></span>  
   
- 針對指定的運算質建立適當的輸出連結。
+ <span data-ttu-id="9b50a-108">針對指定的運算質建立適當的輸出連結。</span><span class="sxs-lookup"><span data-stu-id="9b50a-108">Create an appropriate output link for the indicated functoid.</span></span>

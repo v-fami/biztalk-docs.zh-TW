@@ -21,10 +21,10 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="customizing-parsing-engine-errors"></a>自訂剖析引擎錯誤
-您可以使用剖析引擎註冊自己的錯誤處理回呼以處理錯誤。  
+# <a name="customizing-parsing-engine-errors"></a><span data-ttu-id="4d0f3-102">自訂剖析引擎錯誤</span><span class="sxs-lookup"><span data-stu-id="4d0f3-102">Customizing Parsing Engine Errors</span></span>
+<span data-ttu-id="4d0f3-103">您可以使用剖析引擎註冊自己的錯誤處理回呼以處理錯誤。</span><span class="sxs-lookup"><span data-stu-id="4d0f3-103">You can register your own error-handling callback with the parsing engine to handle errors.</span></span>  
   
-## <a name="example"></a>範例  
+## <a name="example"></a><span data-ttu-id="4d0f3-104">範例</span><span class="sxs-lookup"><span data-stu-id="4d0f3-104">Example</span></span>  
   
 ```  
 bool MyErrorHandler(ErrorContext ctx)  
@@ -38,5 +38,5 @@ FFReader ffr = (FFReader)docspec.Parse(new DataReader());
 ffr.OnErrorEvent += MyErrorHandler;  
 ```  
   
-## <a name="see-also"></a>另請參閱  
- [使用一般檔案剖析引擎](../core/using-the-flat-file-parsing-engine.md)
+## <a name="see-also"></a><span data-ttu-id="4d0f3-105">另請參閱</span><span class="sxs-lookup"><span data-stu-id="4d0f3-105">See Also</span></span>  
+ [<span data-ttu-id="4d0f3-106">使用一般檔案剖析引擎</span><span class="sxs-lookup"><span data-stu-id="4d0f3-106">Using the Flat File Parsing Engine</span></span>](../core/using-the-flat-file-parsing-engine.md)

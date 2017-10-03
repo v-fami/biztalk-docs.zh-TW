@@ -22,10 +22,10 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="extending-the-flat-file-disassembler-pipeline-component"></a>延伸一般檔案解譯器管線元件
-下列範例說明如何建立自訂解譯器，以剖析使用 UTF-7 編碼的一般檔案文件。 為了處理 utf-7 文件，該元件繼承自**FFDasmComp**類別，然後再覆寫其**GetDataReader**方法。  
+# <a name="extending-the-flat-file-disassembler-pipeline-component"></a><span data-ttu-id="37c8c-102">延伸一般檔案解譯器管線元件</span><span class="sxs-lookup"><span data-stu-id="37c8c-102">Extending the Flat File Disassembler Pipeline Component</span></span>
+<span data-ttu-id="37c8c-103">下列範例說明如何建立自訂解譯器，以剖析使用 UTF-7 編碼的一般檔案文件。</span><span class="sxs-lookup"><span data-stu-id="37c8c-103">The following sample illustrates how to create a custom disassembler to parse flat file documents that are UTF-7 encoded.</span></span> <span data-ttu-id="37c8c-104">為了處理 utf-7 文件，該元件繼承自**FFDasmComp**類別，然後再覆寫其**GetDataReader**方法。</span><span class="sxs-lookup"><span data-stu-id="37c8c-104">To process UTF-7 documents, the component inherits from the **FFDasmComp** class and then overrides its **GetDataReader** method.</span></span>  
   
-## <a name="example"></a>範例  
+## <a name="example"></a><span data-ttu-id="37c8c-105">範例</span><span class="sxs-lookup"><span data-stu-id="37c8c-105">Example</span></span>  
   
 ```  
 using System;  
@@ -106,11 +106,11 @@ namespace Microsoft.BizTalk.Test
 }  
 ```  
   
-## <a name="example"></a>範例  
- 下列範例說明如何建立自訂解譯器，以進行一般檔案交換的交易處理。 不同於標準的「一般檔案解譯器」，在完全處理過整個輸入交換之前，該解譯器不會產生任何解譯的文件。 此元件實作繼承自**FFDasmComp**類別並覆寫**GetNext**方法。 在第一個呼叫**GetNext**方法，它會處理交換中的所有訊息、 將其儲存在**ArrayList**，並且傳回從第一個訊息**ArrayList**。 在後續呼叫，它會傳回從下一個訊息**ArrayList**。  
+## <a name="example"></a><span data-ttu-id="37c8c-106">範例</span><span class="sxs-lookup"><span data-stu-id="37c8c-106">Example</span></span>  
+ <span data-ttu-id="37c8c-107">下列範例說明如何建立自訂解譯器，以進行一般檔案交換的交易處理。</span><span class="sxs-lookup"><span data-stu-id="37c8c-107">The following example illustrates how to create a custom disassembler for transactional processing of flat file interchanges.</span></span> <span data-ttu-id="37c8c-108">不同於標準的「一般檔案解譯器」，在完全處理過整個輸入交換之前，該解譯器不會產生任何解譯的文件。</span><span class="sxs-lookup"><span data-stu-id="37c8c-108">It differs from the standard Flat File Disassembler in that it does not produce any disassembled documents until the entire input interchange is completely processed.</span></span> <span data-ttu-id="37c8c-109">此元件實作繼承自**FFDasmComp**類別並覆寫**GetNext**方法。</span><span class="sxs-lookup"><span data-stu-id="37c8c-109">This component implementation inherits from the **FFDasmComp** class and overrides the **GetNext** method.</span></span> <span data-ttu-id="37c8c-110">在第一個呼叫**GetNext**方法，它會處理交換中的所有訊息、 將其儲存在**ArrayList**，並且傳回從第一個訊息**ArrayList**。</span><span class="sxs-lookup"><span data-stu-id="37c8c-110">On the first call to the **GetNext** method, it processes all messages in the interchange, stores them in an **ArrayList**, and returns the first message from the **ArrayList**.</span></span> <span data-ttu-id="37c8c-111">在後續呼叫，它會傳回從下一個訊息**ArrayList**。</span><span class="sxs-lookup"><span data-stu-id="37c8c-111">On subsequent calls, it returns the next message from the **ArrayList**.</span></span>  
   
 > [!NOTE]
->  以下程式碼範例中，GetNext() 方法的實作應該不適合處理大型文件，因為此實作會傳回記憶體中的整個交換。  對於大型文件使用這項技巧便可能會耗盡記憶體資源，而且會造成效能降低或行為不穩定。  
+>  <span data-ttu-id="37c8c-112">以下程式碼範例中，GetNext() 方法的實作應該不適合處理大型文件，因為此實作會傳回記憶體中的整個交換。</span><span class="sxs-lookup"><span data-stu-id="37c8c-112">The implementation of the GetNext() method in the code sample below would not be suitable for the processing of large documents because it retains the entire interchange in memory.</span></span>  <span data-ttu-id="37c8c-113">對於大型文件使用這項技巧便可能會耗盡記憶體資源，而且會造成效能降低或行為不穩定。</span><span class="sxs-lookup"><span data-stu-id="37c8c-113">Using this technique for large documents could exhaust memory resources and cause degraded performance or unstable behavior.</span></span>  
   
 ```  
 using System;  
@@ -231,5 +231,5 @@ namespace Microsoft.BizTalk.Component
   
 ```  
   
-## <a name="see-also"></a>另請參閱  
- [開發解譯管線元件](../core/developing-a-disassembling-pipeline-component.md)
+## <a name="see-also"></a><span data-ttu-id="37c8c-114">另請參閱</span><span class="sxs-lookup"><span data-stu-id="37c8c-114">See Also</span></span>  
+ [<span data-ttu-id="37c8c-115">開發解譯管線元件</span><span class="sxs-lookup"><span data-stu-id="37c8c-115">Developing a Disassembling Pipeline Component</span></span>](../core/developing-a-disassembling-pipeline-component.md)

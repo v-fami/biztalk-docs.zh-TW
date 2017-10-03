@@ -19,11 +19,11 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---schema-file-format-not-valid"></a>錯誤-無效的結構描述檔案格式
-**說明**  
+# <a name="error---schema-file-format-not-valid"></a><span data-ttu-id="35fd3-102">錯誤-無效的結構描述檔案格式</span><span class="sxs-lookup"><span data-stu-id="35fd3-102">Error - Schema File Format Not Valid</span></span>
+<span data-ttu-id="35fd3-103">**說明**</span><span class="sxs-lookup"><span data-stu-id="35fd3-103">**Explanation**</span></span>  
   
- 結構描述檔案不包含有效的 XML 結構描述定義語言 (XSD) 語法。  
+ <span data-ttu-id="35fd3-104">結構描述檔案不包含有效的 XML 結構描述定義語言 (XSD) 語法。</span><span class="sxs-lookup"><span data-stu-id="35fd3-104">The schema file does not contain valid XML Schema Definition language (XSD) syntax.</span></span>  
   
- **使用者動作**  
+ <span data-ttu-id="35fd3-105">**使用者動作**</span><span class="sxs-lookup"><span data-stu-id="35fd3-105">**User Action**</span></span>  
   
- 驗證結構描述檔案的來源，以判斷該問題的原因。
+ <span data-ttu-id="35fd3-106">驗證結構描述檔案的來源，以判斷該問題的原因。</span><span class="sxs-lookup"><span data-stu-id="35fd3-106">Verify the origin of the schema file to determine the cause of the problem.</span></span>

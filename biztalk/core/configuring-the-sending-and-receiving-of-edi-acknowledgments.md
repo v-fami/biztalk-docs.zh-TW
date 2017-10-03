@@ -18,82 +18,82 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="configuring-the-sending-and-receiving-of-edi-acknowledgments"></a>設定傳送及接收 EDI 通知
-如果要設定傳送 EDI 通知來回應收到的交換，您必須執行下列工作：  
+# <a name="configuring-the-sending-and-receiving-of-edi-acknowledgments"></a><span data-ttu-id="c3d44-102">設定傳送及接收 EDI 通知</span><span class="sxs-lookup"><span data-stu-id="c3d44-102">Configuring the Sending and Receiving of EDI Acknowledgments</span></span>
+<span data-ttu-id="c3d44-103">如果要設定傳送 EDI 通知來回應收到的交換，您必須執行下列工作：</span><span class="sxs-lookup"><span data-stu-id="c3d44-103">To configure the sending of an EDI acknowledgment in response to a received interchange, you need to do the following:</span></span>  
   
--   在由收到的交換解析成的協議中啟用通知。 這樣是宣告傳送交換的合作對象預期收到通知。  
+-   <span data-ttu-id="c3d44-104">在由收到的交換解析成的協議中啟用通知。</span><span class="sxs-lookup"><span data-stu-id="c3d44-104">Enable the acknowledgment in the agreement that the received interchange resolved to.</span></span> <span data-ttu-id="c3d44-105">這樣是宣告傳送交換的合作對象預期收到通知。</span><span class="sxs-lookup"><span data-stu-id="c3d44-105">By doing this, you declare that the party that sent the interchange expects an acknowledgement.</span></span>  
   
--   如果通知必須設定特定屬性 (例如啟用 CR LF、分隔符號字元應不同等) 再傳回，請在其他單向協議索引標籤中設定那些屬性。這樣做可以設定合作對象傳回通知的方式。  
+-   <span data-ttu-id="c3d44-106">如果通知必須設定特定屬性 (例如啟用 CR LF、分隔符號字元應不同等) 再傳回，請在其他單向協議索引標籤中設定那些屬性。這樣做可以設定合作對象傳回通知的方式。</span><span class="sxs-lookup"><span data-stu-id="c3d44-106">If the acknowledgement needs to be send back with specific properties set, such as CR LF enabled, separator characters to be different, etc., set those properties in the other one-way agreement tab. By doing this, you configure how the party sends back the acknowledgement.</span></span>  
   
     > [!NOTE]
-    >  如果交換解析協議中定義**party a-> partyb**  索引標籤中設定與應如何產生通知有關的屬性**partyb-> party a**  索引標籤。這是必要的因為通知內容屬性為傳送者和接收者辨識符號都會設定為您在指定的值相反**party a-> partyb**  索引標籤。例如，如果在交換訊息所解析成的協議中，傳送者與接收者識別碼是設為 THEM 與 US，則通知裡的傳送者與接收者內容屬性將設為 US 與 THEM。 一般而言，其他單向協議索引標籤也會分別將傳送者與接收者識別項設定為 US 與 THEM。 因此，通知訊息會解析成該協議，並將挑選屬性設定。 因此，如果您想要讓通知使用不同的項目分隔符號，或是如果您想要讓通知使用 CR LF 中, 指定內容**partyb-> party a**  索引標籤。  
+    >  <span data-ttu-id="c3d44-107">如果交換解析協議中定義**party a-> partyb**  索引標籤中設定與應如何產生通知有關的屬性**partyb-> party a**  索引標籤。這是必要的因為通知內容屬性為傳送者和接收者辨識符號都會設定為您在指定的值相反**party a-> partyb**  索引標籤。例如，如果在交換訊息所解析成的協議中，傳送者與接收者識別碼是設為 THEM 與 US，則通知裡的傳送者與接收者內容屬性將設為 US 與 THEM。</span><span class="sxs-lookup"><span data-stu-id="c3d44-107">If an interchange resolved to an agreement defined in the **PartyA->PartyB** tab, the properties related to how the acknowledgement should be generated are configured in the **PartyB->PartyA** tab. This is required because the acknowledgement context properties for the sender and receiver qualifiers are set to the opposite of the values you specified in the **PartyA->PartyB** tab. For example, if sender and receiver identifiers are set to THEM and US in the agreement to which the interchange message resolved to, the sender and receiver context properties will be set to US and THEM in the acknowledgement.</span></span> <span data-ttu-id="c3d44-108">一般而言，其他單向協議索引標籤也會分別將傳送者與接收者識別項設定為 US 與 THEM。</span><span class="sxs-lookup"><span data-stu-id="c3d44-108">Typically, the other one-way agreement tab would also have the sender and receiver identifiers set to US and THEM respectively.</span></span> <span data-ttu-id="c3d44-109">因此，通知訊息會解析成該協議，並將挑選屬性設定。</span><span class="sxs-lookup"><span data-stu-id="c3d44-109">Hence, the acknowledgement message would resolve to that agreement and the properties setting will be picked.</span></span> <span data-ttu-id="c3d44-110">因此，如果您想要讓通知使用不同的項目分隔符號，或是如果您想要讓通知使用 CR LF 中, 指定內容**partyb-> party a**  索引標籤。</span><span class="sxs-lookup"><span data-stu-id="c3d44-110">So, if you want to have the acknowledgement to use different element separators or if you want to have the acknowledgement to use CR LF, specify the properties in the **PartyB->PartyA** tab.</span></span>  
   
-     在概念上，將會從傳送者與接收者辨識符號與在通知的內容屬性中所設定值相同的任一個單向協議索引標籤中挑選通知的屬性。 但為便於實際應用，通常會在您所建立由交換解析而成之協議的其他單向協議索引標籤中設定此屬性。  
+     <span data-ttu-id="c3d44-111">在概念上，將會從傳送者與接收者辨識符號與在通知的內容屬性中所設定值相同的任一個單向協議索引標籤中挑選通知的屬性。</span><span class="sxs-lookup"><span data-stu-id="c3d44-111">Conceptually, the properties for the acknowledgement will be picked from any one-way agreement tab that has the same sender and receiver qualifiers as set in the acknowledgement’s context properties.</span></span> <span data-ttu-id="c3d44-112">但為便於實際應用，通常會在您所建立由交換解析而成之協議的其他單向協議索引標籤中設定此屬性。</span><span class="sxs-lookup"><span data-stu-id="c3d44-112">However, for ease of practical use, you would typically set this in the other one-way agreement tab of the agreement that you created to which the interchange would have resolved.</span></span>  
   
--   如果您是 EDI 通知傳送至傳送原始交換的合作對象的合作對象，設定單向傳送埠以收取通知並傳送或雙向接收埠以傳送通知。 如需詳細資訊，請參閱[設定靜態傳送埠以傳送 EDI 交換和通知](../core/configuring-a-static-send-port-to-send-edi-interchanges-and-acknowledgments.md)。  
+-   <span data-ttu-id="c3d44-113">如果您是 EDI 通知傳送至傳送原始交換的合作對象的合作對象，設定單向傳送埠以收取通知並傳送或雙向接收埠以傳送通知。</span><span class="sxs-lookup"><span data-stu-id="c3d44-113">If you are a party that is sending an EDI acknowledgement back to the party that sent the original interchange, set up a one-way send port to pick up the acknowledgment and send or a two-way receive port to send the acknowledgment.</span></span> <span data-ttu-id="c3d44-114">如需詳細資訊，請參閱[設定靜態傳送埠以傳送 EDI 交換和通知](../core/configuring-a-static-send-port-to-send-edi-interchanges-and-acknowledgments.md)。</span><span class="sxs-lookup"><span data-stu-id="c3d44-114">For more information, see [Configuring a Static Send Port to Send EDI Interchanges and Acknowledgments](../core/configuring-a-static-send-port-to-send-edi-interchanges-and-acknowledgments.md).</span></span>  
   
--   如果您是預期收到 EDI 通知的合作對象，請設定雙向傳送埠或單向接收埠以接收通知。 如需詳細資訊，請參閱[設定連接埠來接收 EDI 訊息和通知](../core/configuring-a-port-to-receive-edi-messages-and-acknowledgments.md)。  
+-   <span data-ttu-id="c3d44-115">如果您是預期收到 EDI 通知的合作對象，請設定雙向傳送埠或單向接收埠以接收通知。</span><span class="sxs-lookup"><span data-stu-id="c3d44-115">If you are a party that is expecting an EDI acknowledgement, set up a two-way send port or a one-way receive port to receive the acknowledgment.</span></span> <span data-ttu-id="c3d44-116">如需詳細資訊，請參閱[設定連接埠來接收 EDI 訊息和通知](../core/configuring-a-port-to-receive-edi-messages-and-acknowledgments.md)。</span><span class="sxs-lookup"><span data-stu-id="c3d44-116">For more information, see [Configuring a Port to Receive EDI Messages and Acknowledgments](../core/configuring-a-port-to-receive-edi-messages-and-acknowledgments.md).</span></span>  
   
--   BizTalk EDI 應用程式包含控制結構描述。 因此，包含 EDI 解決方案的應用程式必須包含 BizTalk EDI 應用程式的參考。 如需詳細資訊，請參閱[如何將參考加入至 BizTalk Server EDI 應用程式](http://msdn.microsoft.com/library/7af066fb-372f-4709-b566-c8d6b4a9d782)。  
+-   <span data-ttu-id="c3d44-117">BizTalk EDI 應用程式包含控制結構描述。</span><span class="sxs-lookup"><span data-stu-id="c3d44-117">The BizTalk EDI Application contains the control schemas.</span></span> <span data-ttu-id="c3d44-118">因此，包含 EDI 解決方案的應用程式必須包含 BizTalk EDI 應用程式的參考。</span><span class="sxs-lookup"><span data-stu-id="c3d44-118">As a result, the application containing your EDI solution must contain a reference to BizTalk EDI Application.</span></span> <span data-ttu-id="c3d44-119">如需詳細資訊，請參閱[如何將參考加入至 BizTalk Server EDI 應用程式](http://msdn.microsoft.com/library/7af066fb-372f-4709-b566-c8d6b4a9d782)。</span><span class="sxs-lookup"><span data-stu-id="c3d44-119">For more information, see [How to Add a Reference to the BizTalk Server EDI Application](http://msdn.microsoft.com/library/7af066fb-372f-4709-b566-c8d6b4a9d782).</span></span>  
   
-## <a name="prerequisites"></a>必要條件  
- 您必須以「[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 系統管理員」或「[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] B2B 操作員」群組成員的身分來登入。  
+## <a name="prerequisites"></a><span data-ttu-id="c3d44-120">必要條件</span><span class="sxs-lookup"><span data-stu-id="c3d44-120">Prerequisites</span></span>  
+ <span data-ttu-id="c3d44-121">您必須以「[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 系統管理員」或「[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] B2B 操作員」群組成員的身分來登入。</span><span class="sxs-lookup"><span data-stu-id="c3d44-121">You must be logged on as a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators or [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] B2B Operators group.</span></span>  
   
-### <a name="to-request-an-acknowledgment-for-the-party-that-sent-the-original-interchange"></a>為傳送原始交換的合作對象要求通知回覆  
-  
-1.  > [!NOTE]
-    >  透過執行此程序中的步驟，您可以設定傳送交換的合作對象預期收到通知回覆。  
-  
-     在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，按一下 **合作對象**節點。 在**合作對象與商務設定檔**頁面上，按一下您要啟用通知的協議的合作對象。 在**協議**區段頁面上，以滑鼠右鍵按一下 在協議，按一下**屬性**。 在**協議屬性** 對話方塊中單向協議索引標籤上 （要輸入的交換將解析），執行下列動作：  
-  
-    1.  在**識別碼**頁面上，輸入的值傳送者和接收者辨識符號。  
-  
-         對於 X12 編碼的通知，輸入 ISA5、ISA6、ISA7 與 ISA8 的值。 對於 ISA5 與 ISA6，輸入將傳送交換之合作對象的值。 對於 ISA7 與 ISA8，輸入將接收交換之合作對象的值。  
-  
-         對於 EDIFACT 編碼的通知，輸入 UNB2.1、UNB2.2、UNB3.1 與 UNB3.2 的值。 對於 UNB2.1 與 UNB2.2，輸入將傳送交換之合作對象的值。 對於 UNB3.1 與 UNB3.2，輸入將接收交換之合作對象的值。  
-  
-    2.  在**通知**頁面上，選取 屬性定義的傳送者合作對象預期之通知種類：  
-  
-         對於 X12 通知，選取**預期 TA1**及/或**預期 997**應根據哪一個通知。 每個通知類型 選取**不要批次處理\<通知類型 >**如果您想要當做個別的交換傳送通知的每個執行個體。  
-  
-         對於 EDIFACT 通知選取**訊息回條 (CONTRL 必須是)**及/或**通知 (CONTRL) 必須是**應根據哪一個通知。 每個通知類型 選取**不要批次處理\<通知類型 >**如果您想要當做個別的交換傳送通知的每個執行個體。  
-  
-    3.  在**本機主機設定**頁面**交換設定**區段中，清除**通知的路由設定為傳送管線在要求-回應接收埠**傳回以非同步方式透過單向傳送埠的通知。 讓此屬性維持選取狀態，則會透過雙向接收埠同步傳回通知。  
-  
-    4.  在**傳送埠**頁面上，於**名稱**資料行**傳送埠**方格中，選取您已設定來傳送通知的傳送埠。  
-  
-        > [!NOTE]
-        >  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會使用此傳送埠設定判斷處理訊息時要使用的合作對象。 如需詳細資訊，請參閱[協議解析和外寄 EDI 訊息的結構描述判斷](../core/agreement-resolution-and-schema-determination-for-outgoing-edi-messages.md)。  
-  
-        > [!NOTE]
-        >  如果您尚未設定傳送埠，則稍後再執行此步驟。  
-  
-### <a name="to-configure-how-the-party-sends-the-acknowledgement-back"></a>設定合作對象傳回通知的方式  
+### <a name="to-request-an-acknowledgment-for-the-party-that-sent-the-original-interchange"></a><span data-ttu-id="c3d44-122">為傳送原始交換的合作對象要求通知回覆</span><span class="sxs-lookup"><span data-stu-id="c3d44-122">To request an acknowledgment for the party that sent the original interchange</span></span>  
   
 1.  > [!NOTE]
-    >  透過執行此程序中的步驟，您可以設定收到交換的合作對象傳送通知回覆的方式。  
+    >  <span data-ttu-id="c3d44-123">透過執行此程序中的步驟，您可以設定傳送交換的合作對象預期收到通知回覆。</span><span class="sxs-lookup"><span data-stu-id="c3d44-123">By performing the steps in this procedure, you configure that the party that sends the interchange expects an acknowledgement back.</span></span>  
   
-     在同一個**協議屬性**對話方塊中的，在其他單向協議索引標籤上，執行下列動作：  
+     <span data-ttu-id="c3d44-124">在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，按一下 **合作對象**節點。</span><span class="sxs-lookup"><span data-stu-id="c3d44-124">In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, click the **Parties** node.</span></span> <span data-ttu-id="c3d44-125">在**合作對象與商務設定檔**頁面上，按一下您要啟用通知的協議的合作對象。</span><span class="sxs-lookup"><span data-stu-id="c3d44-125">In the **Parties and Business Profiles** page, click the party that has the agreement for which you need to enable acknowledgement.</span></span> <span data-ttu-id="c3d44-126">在**協議**區段頁面上，以滑鼠右鍵按一下 在協議，按一下**屬性**。</span><span class="sxs-lookup"><span data-stu-id="c3d44-126">In the **Agreement** section of the page, right-click the agreement and click **Properties**.</span></span> <span data-ttu-id="c3d44-127">在**協議屬性** 對話方塊中單向協議索引標籤上 （要輸入的交換將解析），執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="c3d44-127">In the **Agreement Properties** dialog box, in the one-way agreement tab (to which the inbound interchange will resolve), do the following:</span></span>  
   
-    1.  在**識別碼**頁面上，輸入的值傳送者和接收者辨識符號。  
+    1.  <span data-ttu-id="c3d44-128">在**識別碼**頁面上，輸入的值傳送者和接收者辨識符號。</span><span class="sxs-lookup"><span data-stu-id="c3d44-128">In the **Identifiers** page, enter the values for the sender and receiver qualifiers.</span></span>  
+  
+         <span data-ttu-id="c3d44-129">對於 X12 編碼的通知，輸入 ISA5、ISA6、ISA7 與 ISA8 的值。</span><span class="sxs-lookup"><span data-stu-id="c3d44-129">For an X12-encoded acknowledgment, enter values for ISA5, ISA6, ISA7, and ISA8.</span></span> <span data-ttu-id="c3d44-130">對於 ISA5 與 ISA6，輸入將傳送交換之合作對象的值。</span><span class="sxs-lookup"><span data-stu-id="c3d44-130">For ISA5 and ISA6, enter the values for the party that will send the interchange.</span></span> <span data-ttu-id="c3d44-131">對於 ISA7 與 ISA8，輸入將接收交換之合作對象的值。</span><span class="sxs-lookup"><span data-stu-id="c3d44-131">For ISA7 and ISA8, enter the values for the party that will receive the interchange.</span></span>  
+  
+         <span data-ttu-id="c3d44-132">對於 EDIFACT 編碼的通知，輸入 UNB2.1、UNB2.2、UNB3.1 與 UNB3.2 的值。</span><span class="sxs-lookup"><span data-stu-id="c3d44-132">For an EDIFACT-encoded acknowledgment, enter values for UNB2.1, UNB2.2, UNB3.1, and UNB3.2.</span></span> <span data-ttu-id="c3d44-133">對於 UNB2.1 與 UNB2.2，輸入將傳送交換之合作對象的值。</span><span class="sxs-lookup"><span data-stu-id="c3d44-133">For UNB2.1 and UNB2.2, enter the values for the party that will send the interchange.</span></span> <span data-ttu-id="c3d44-134">對於 UNB3.1 與 UNB3.2，輸入將接收交換之合作對象的值。</span><span class="sxs-lookup"><span data-stu-id="c3d44-134">For UNB3.1 and UNB3.2, enter the values for the party that will receive the interchange.</span></span>  
+  
+    2.  <span data-ttu-id="c3d44-135">在**通知**頁面上，選取 屬性定義的傳送者合作對象預期之通知種類：</span><span class="sxs-lookup"><span data-stu-id="c3d44-135">In the **Acknowledgements** page, select properties defining the kind of acknowledgement that the sender party expects:</span></span>  
+  
+         <span data-ttu-id="c3d44-136">對於 X12 通知，選取**預期 TA1**及/或**預期 997**應根據哪一個通知。</span><span class="sxs-lookup"><span data-stu-id="c3d44-136">For X12 acknowledgements, select **TA1 Expected** and/or **997 Expected** depending on which acknowledgements are expected.</span></span> <span data-ttu-id="c3d44-137">每個通知類型 選取**不要批次處理\<通知類型 >**如果您想要當做個別的交換傳送通知的每個執行個體。</span><span class="sxs-lookup"><span data-stu-id="c3d44-137">For each acknowledgement type, select **Do not batch \<ACK type>** if you want each instance of an acknowledgment to be sent as a separate interchange.</span></span>  
+  
+         <span data-ttu-id="c3d44-138">對於 EDIFACT 通知選取**訊息回條 (CONTRL 必須是)**及/或**通知 (CONTRL) 必須是**應根據哪一個通知。</span><span class="sxs-lookup"><span data-stu-id="c3d44-138">For EDIFACT acknowledgements, select **Receipt of message (CONTRL) expected** and/or **Acknowledgement (CONTRL) expected** depending on which acknowledgements are expected.</span></span> <span data-ttu-id="c3d44-139">每個通知類型 選取**不要批次處理\<通知類型 >**如果您想要當做個別的交換傳送通知的每個執行個體。</span><span class="sxs-lookup"><span data-stu-id="c3d44-139">For each acknowledgement type, select **Do not batch \<ACK type>** if you want each instance of an acknowledgment to be sent as a separate interchange.</span></span>  
+  
+    3.  <span data-ttu-id="c3d44-140">在**本機主機設定**頁面**交換設定**區段中，清除**通知的路由設定為傳送管線在要求-回應接收埠**傳回以非同步方式透過單向傳送埠的通知。</span><span class="sxs-lookup"><span data-stu-id="c3d44-140">In the **Local Host Settings** page under the **Interchange Settings** section, clear the **Route ACK to send pipeline on request-response receive port** to return the acknowledgment asynchronously over a one-way send port.</span></span> <span data-ttu-id="c3d44-141">讓此屬性維持選取狀態，則會透過雙向接收埠同步傳回通知。</span><span class="sxs-lookup"><span data-stu-id="c3d44-141">Keep this property as selected to return the acknowledgment synchronously over a two-way receive port.</span></span>  
+  
+    4.  <span data-ttu-id="c3d44-142">在**傳送埠**頁面上，於**名稱**資料行**傳送埠**方格中，選取您已設定來傳送通知的傳送埠。</span><span class="sxs-lookup"><span data-stu-id="c3d44-142">In the **Send Ports** page, in the **Name** column of the **Send ports** grid, select the send port that you have set up to send the acknowledgment.</span></span>  
   
         > [!NOTE]
-        >  傳送通知時，收到原始交換的合作對象會變成傳送者，而傳送原始交換的合作對象則會變成接收者。 因此，您現在於 [識別碼] 頁面所輸入的值，會與您在上一個步驟的單向協議索引標籤中輸入的值相反。 這有兩個目的：  
+        >  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="c3d44-143"> 會使用此傳送埠設定判斷處理訊息時要使用的合作對象。</span><span class="sxs-lookup"><span data-stu-id="c3d44-143"> uses this send port setting to determine the party to use when processing the message.</span></span> <span data-ttu-id="c3d44-144">如需詳細資訊，請參閱[協議解析和外寄 EDI 訊息的結構描述判斷](../core/agreement-resolution-and-schema-determination-for-outgoing-edi-messages.md)。</span><span class="sxs-lookup"><span data-stu-id="c3d44-144">For more information, see [Agreement Resolution and Schema Determination for Outgoing EDI Messages](../core/agreement-resolution-and-schema-determination-for-outgoing-edi-messages.md).</span></span>  
+  
+        > [!NOTE]
+        >  <span data-ttu-id="c3d44-145">如果您尚未設定傳送埠，則稍後再執行此步驟。</span><span class="sxs-lookup"><span data-stu-id="c3d44-145">If you have not set up the send port, you may have to perform this step later.</span></span>  
+  
+### <a name="to-configure-how-the-party-sends-the-acknowledgement-back"></a><span data-ttu-id="c3d44-146">設定合作對象傳回通知的方式</span><span class="sxs-lookup"><span data-stu-id="c3d44-146">To configure how the party sends the acknowledgement back</span></span>  
+  
+1.  > [!NOTE]
+    >  <span data-ttu-id="c3d44-147">透過執行此程序中的步驟，您可以設定收到交換的合作對象傳送通知回覆的方式。</span><span class="sxs-lookup"><span data-stu-id="c3d44-147">By performing the steps in this procedure, you configure how the party that received the interchange sends an acknowledgement back.</span></span>  
+  
+     <span data-ttu-id="c3d44-148">在同一個**協議屬性**對話方塊中的，在其他單向協議索引標籤上，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="c3d44-148">In the same **Agreement Properties** dialog box, in the other one-way agreement tab, do the following:</span></span>  
+  
+    1.  <span data-ttu-id="c3d44-149">在**識別碼**頁面上，輸入的值傳送者和接收者辨識符號。</span><span class="sxs-lookup"><span data-stu-id="c3d44-149">In the **Identifiers** page, enter the values for the sender and receiver qualifiers.</span></span>  
+  
+        > [!NOTE]
+        >  <span data-ttu-id="c3d44-150">傳送通知時，收到原始交換的合作對象會變成傳送者，而傳送原始交換的合作對象則會變成接收者。</span><span class="sxs-lookup"><span data-stu-id="c3d44-150">While sending the acknowledgement, the party that received the original interchange becomes the sender and the party that sent the original interchange becomes the receiver.</span></span> <span data-ttu-id="c3d44-151">因此，您現在於 [識別碼] 頁面所輸入的值，會與您在上一個步驟的單向協議索引標籤中輸入的值相反。</span><span class="sxs-lookup"><span data-stu-id="c3d44-151">Hence, the values that you enter in the Identifiers page now are opposite of the values that you entered in the one-way agreement tab in the previous step.</span></span> <span data-ttu-id="c3d44-152">這有兩個目的：</span><span class="sxs-lookup"><span data-stu-id="c3d44-152">This serves two purposes:</span></span>  
         >   
-        >  -   目前所傳回的通知將解析成您正在建立的這個單向協議，因為通知的傳送者與接收者內容屬性，將與您現在於 [識別碼] 頁面中輸入的傳送者與接受者值相符。  
-        > -   您可以在此協議索引標籤中設定要在通知中包含的自訂屬性。例如，您可以使用其他分隔符號，或是選擇啟用 CR LF 等。  
+        >  -   <span data-ttu-id="c3d44-153">目前所傳回的通知將解析成您正在建立的這個單向協議，因為通知的傳送者與接收者內容屬性，將與您現在於 [識別碼] 頁面中輸入的傳送者與接受者值相符。</span><span class="sxs-lookup"><span data-stu-id="c3d44-153">The acknowledgement being sent back will resolve to this one-way agreement that you are creating because the sender and receiver context properties on the acknowledgement will match the sender and receiver values you enter on the Identifiers page now.</span></span>  
+        > -   <span data-ttu-id="c3d44-154">您可以在此協議索引標籤中設定要在通知中包含的自訂屬性。例如，您可以使用其他分隔符號，或是選擇啟用 CR LF 等。</span><span class="sxs-lookup"><span data-stu-id="c3d44-154">Any customization you want to include in the acknowledgement can be configured on this agreement tab. For example, you can use other separators, you can choose to have CR LF enabled, etc.</span></span>  
   
-         對於 X12 編碼的通知，輸入 ISA5、ISA6、ISA7 與 ISA8 的值。 對於 ISA5 與 ISA6，輸入將傳送通知之合作對象的值 (與收到原始交換的合作對象相同)。 對於 ISA7 與 ISA8，輸入將接收通知之合作對象的值 (與傳送原始交換的合作對象相同)。  
+         <span data-ttu-id="c3d44-155">對於 X12 編碼的通知，輸入 ISA5、ISA6、ISA7 與 ISA8 的值。</span><span class="sxs-lookup"><span data-stu-id="c3d44-155">For an X12-encoded acknowledgment, enter values for ISA5, ISA6, ISA7, and ISA8.</span></span> <span data-ttu-id="c3d44-156">對於 ISA5 與 ISA6，輸入將傳送通知之合作對象的值 (與收到原始交換的合作對象相同)。</span><span class="sxs-lookup"><span data-stu-id="c3d44-156">For ISA5 and ISA6, enter the values for the party that will send the acknowledgement (this will be same as the party that received the original interchange).</span></span> <span data-ttu-id="c3d44-157">對於 ISA7 與 ISA8，輸入將接收通知之合作對象的值 (與傳送原始交換的合作對象相同)。</span><span class="sxs-lookup"><span data-stu-id="c3d44-157">For ISA7 and ISA8, enter the values for the party that will receive the acknowledgement (this will be same as the party that sent the original interchange).</span></span>  
   
-         對於 EDIFACT 編碼的通知，輸入 UNB2.1、UNB2.2、UNB3.1 與 UNB3.2 的值。 對於 UNB2.1 與 UNB2.2，輸入將傳送的通知 （這會與收到原始交換的合作對象相同） 的合作對象的值。 對於 UNB3.1 與 UNB3.2，輸入將接收通知之合作對象的值 (與傳送原始交換的合作對象相同)。  
+         <span data-ttu-id="c3d44-158">對於 EDIFACT 編碼的通知，輸入 UNB2.1、UNB2.2、UNB3.1 與 UNB3.2 的值。</span><span class="sxs-lookup"><span data-stu-id="c3d44-158">For an EDIFACT-encoded acknowledgment, enter values for UNB2.1, UNB2.2, UNB3.1, and UNB3.2.</span></span> <span data-ttu-id="c3d44-159">對於 UNB2.1 與 UNB2.2，輸入將傳送的通知 （這會與收到原始交換的合作對象相同） 的合作對象的值。</span><span class="sxs-lookup"><span data-stu-id="c3d44-159">For UNB2.1 and UNB2.2, enter the values for the party that will send the acknowledgement (this will be same as the party that received the original interchange).</span></span> <span data-ttu-id="c3d44-160">對於 UNB3.1 與 UNB3.2，輸入將接收通知之合作對象的值 (與傳送原始交換的合作對象相同)。</span><span class="sxs-lookup"><span data-stu-id="c3d44-160">For UNB3.1 and UNB3.2, enter the values for the party that will receive the acknowledgement (this will be same as the party that sent the original interchange).</span></span>  
   
-    2.  對於 X12 或 EDIFACT 通知，如有需要，在**字元集和分隔符號** 頁面上，指定您想要在通知中使用的分隔符號。 您也可以指定通知是否需使用 CR LF 尾碼。  
+    2.  <span data-ttu-id="c3d44-161">對於 X12 或 EDIFACT 通知，如有需要，在**字元集和分隔符號** 頁面上，指定您想要在通知中使用的分隔符號。</span><span class="sxs-lookup"><span data-stu-id="c3d44-161">For an X12 or EDIFACT acknowledgment, if required, on the **Charset and Separators** page, specify separators that you want to use in the acknowledgement.</span></span> <span data-ttu-id="c3d44-162">您也可以指定通知是否需使用 CR LF 尾碼。</span><span class="sxs-lookup"><span data-stu-id="c3d44-162">You can also specify if the acknowledgement must use a CR LF suffix.</span></span>  
   
-    3.  對於 EDIFACT 通知，如有需要，在**信封**頁面**交換設定**區段中，指定通知是否會包含 UNA 或 UNG 區段，選取適當的選項。  
+    3.  <span data-ttu-id="c3d44-163">對於 EDIFACT 通知，如有需要，在**信封**頁面**交換設定**區段中，指定通知是否會包含 UNA 或 UNG 區段，選取適當的選項。</span><span class="sxs-lookup"><span data-stu-id="c3d44-163">For an EDIFACT acknowledgment, if required, on the **Envelopes** page under the **Interchange Settings** section, specify whether the acknowledgement would include a UNA or a UNG segment by selecting the appropriate options.</span></span>  
   
-## <a name="see-also"></a>另請參閱  
- [設定 EDI 通知](../core/configuring-edi-acknowledgments.md)   
- [EDI 服務和控制結構描述](../core/edi-service-and-control-schemas.md)   
- [傳送 EDI 通知](../core/sending-an-edi-acknowledgment.md)   
- [如何建立接收埠](../core/how-to-create-a-receive-port.md)   
- [如何建立傳送埠](../core/how-to-create-a-send-port2.md)
+## <a name="see-also"></a><span data-ttu-id="c3d44-164">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c3d44-164">See Also</span></span>  
+ <span data-ttu-id="c3d44-165">[設定 EDI 通知](../core/configuring-edi-acknowledgments.md) </span><span class="sxs-lookup"><span data-stu-id="c3d44-165">[Configuring EDI Acknowledgments](../core/configuring-edi-acknowledgments.md) </span></span>  
+ <span data-ttu-id="c3d44-166">[EDI 服務和控制結構描述](../core/edi-service-and-control-schemas.md) </span><span class="sxs-lookup"><span data-stu-id="c3d44-166">[EDI Service and Control Schemas](../core/edi-service-and-control-schemas.md) </span></span>  
+ <span data-ttu-id="c3d44-167">[傳送 EDI 通知](../core/sending-an-edi-acknowledgment.md) </span><span class="sxs-lookup"><span data-stu-id="c3d44-167">[Sending an EDI Acknowledgment](../core/sending-an-edi-acknowledgment.md) </span></span>  
+ <span data-ttu-id="c3d44-168">[如何建立接收埠](../core/how-to-create-a-receive-port.md) </span><span class="sxs-lookup"><span data-stu-id="c3d44-168">[How to Create a Receive Port](../core/how-to-create-a-receive-port.md) </span></span>  
+ [<span data-ttu-id="c3d44-169">如何建立傳送埠</span><span class="sxs-lookup"><span data-stu-id="c3d44-169">How to Create a Send Port</span></span>](../core/how-to-create-a-send-port2.md)

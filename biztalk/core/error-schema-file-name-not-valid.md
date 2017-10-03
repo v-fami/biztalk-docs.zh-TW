@@ -19,11 +19,11 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---schema-file-name-not-valid"></a>錯誤-無效的結構描述檔案名稱
-**說明**  
+# <a name="error---schema-file-name-not-valid"></a><span data-ttu-id="7855a-102">錯誤-無效的結構描述檔案名稱</span><span class="sxs-lookup"><span data-stu-id="7855a-102">Error - Schema File Name Not Valid</span></span>
+<span data-ttu-id="7855a-103">**說明**</span><span class="sxs-lookup"><span data-stu-id="7855a-103">**Explanation**</span></span>  
   
- 指定的結構描述檔案名稱是無效的。  
+ <span data-ttu-id="7855a-104">指定的結構描述檔案名稱是無效的。</span><span class="sxs-lookup"><span data-stu-id="7855a-104">The indicated schema file name is not valid.</span></span>  
   
- **使用者動作**  
+ <span data-ttu-id="7855a-105">**使用者動作**</span><span class="sxs-lookup"><span data-stu-id="7855a-105">**User Action**</span></span>  
   
- 確認結構描述檔案位於指定的位置，且可供存取。
+ <span data-ttu-id="7855a-106">確認結構描述檔案位於指定的位置，且可供存取。</span><span class="sxs-lookup"><span data-stu-id="7855a-106">Verify that the schema file exists and is accessible at the specified location.</span></span>

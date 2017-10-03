@@ -21,14 +21,14 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="policy-test-trace-output"></a>原則測試追蹤輸出
-當您測試原則時，原則測試程式會在版本資訊視窗中顯示輸出。 本節描述追蹤內所包含的活動。  
+# <a name="policy-test-trace-output"></a><span data-ttu-id="59768-102">原則測試追蹤輸出</span><span class="sxs-lookup"><span data-stu-id="59768-102">Policy Test Trace Output</span></span>
+<span data-ttu-id="59768-103">當您測試原則時，原則測試程式會在版本資訊視窗中顯示輸出。</span><span class="sxs-lookup"><span data-stu-id="59768-103">When you test your policy, the policy tester displays the output in the version information window.</span></span> <span data-ttu-id="59768-104">本節描述追蹤內所包含的活動。</span><span class="sxs-lookup"><span data-stu-id="59768-104">This section describes the activities included within the trace.</span></span>  
   
 > [!NOTE]
->  若已經判斷提示衍生的類別，但直接針對基底類別的成員撰寫規則，則會判斷提示基底類別的執行個體，而且針對該執行個體評估其條件。  
+>  <span data-ttu-id="59768-105">若已經判斷提示衍生的類別，但直接針對基底類別的成員撰寫規則，則會判斷提示基底類別的執行個體，而且針對該執行個體評估其條件。</span><span class="sxs-lookup"><span data-stu-id="59768-105">If a derived class is asserted but rules are written directly against members of the base class, an instance of the base class is asserted and conditions are evaluated against that instance.</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="59768-106">本節內容</span><span class="sxs-lookup"><span data-stu-id="59768-106">In This Section</span></span>  
   
--   [商務規則的原則測試追蹤輸出資訊](../core/policy-test-trace-output-information-for-business-rules.md)  
+-   [<span data-ttu-id="59768-107">商務規則的原則測試追蹤輸出資訊</span><span class="sxs-lookup"><span data-stu-id="59768-107">Policy Test Trace Output Information for Business Rules</span></span>](../core/policy-test-trace-output-information-for-business-rules.md)  
   
--   [原則測試追蹤輸出範例](../core/policy-test-trace-output-examples.md)
+-   [<span data-ttu-id="59768-108">原則測試追蹤輸出範例</span><span class="sxs-lookup"><span data-stu-id="59768-108">Policy Test Trace Output Examples</span></span>](../core/policy-test-trace-output-examples.md)

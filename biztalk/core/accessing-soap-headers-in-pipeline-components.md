@@ -22,10 +22,10 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="accessing-soap-headers-in-pipeline-components"></a>存取管線元件中的 SOAP 標頭
-您可以存取管線元件中的 SOAP 標頭內容屬性。 您可以使用內容屬性名稱和目標命名空間的組合**http://schemas.microsoft.com/BizTalk/2003/SOAPHeader**。  
+# <a name="accessing-soap-headers-in-pipeline-components"></a><span data-ttu-id="13e2c-102">存取管線元件中的 SOAP 標頭</span><span class="sxs-lookup"><span data-stu-id="13e2c-102">Accessing SOAP Headers in Pipeline Components</span></span>
+<span data-ttu-id="13e2c-103">您可以存取管線元件中的 SOAP 標頭內容屬性。</span><span class="sxs-lookup"><span data-stu-id="13e2c-103">You can access SOAP header context properties in pipeline components.</span></span> <span data-ttu-id="13e2c-104">您可以使用內容屬性名稱和目標命名空間的組合**http://schemas.microsoft.com/BizTalk/2003/SOAPHeader**。</span><span class="sxs-lookup"><span data-stu-id="13e2c-104">You use a combination of the context property name and the target namespace **http://schemas.microsoft.com/BizTalk/2003/SOAPHeader**.</span></span>  
   
- 下列程式碼範例的接收管線元件中取得要求 SOAP 標頭屬性**OrigDest**:  
+ <span data-ttu-id="13e2c-105">下列程式碼範例的接收管線元件中取得要求 SOAP 標頭屬性**OrigDest**:</span><span class="sxs-lookup"><span data-stu-id="13e2c-105">The following code example gets the request SOAP header in a receive pipeline component for the property **OrigDest**:</span></span>  
   
 ```  
 public IBaseMessage Execute(IPipelineContext pc, IBaseMessage inmsg)  
@@ -42,7 +42,7 @@ return inmsg;
 }  
 ```  
   
- 如需管線元件的詳細資訊，請參閱[開發自訂管線元件](../core/developing-custom-pipeline-components.md)。  
+ <span data-ttu-id="13e2c-106">如需管線元件的詳細資訊，請參閱[開發自訂管線元件](../core/developing-custom-pipeline-components.md)。</span><span class="sxs-lookup"><span data-stu-id="13e2c-106">For more information about pipeline components, see [Developing Custom Pipeline Components](../core/developing-custom-pipeline-components.md).</span></span>  
   
-## <a name="see-also"></a>另請參閱  
- [SOAP 標頭與已發佈的 Web 服務](../core/soap-headers-with-published-web-services.md)
+## <a name="see-also"></a><span data-ttu-id="13e2c-107">另請參閱</span><span class="sxs-lookup"><span data-stu-id="13e2c-107">See Also</span></span>  
+ [<span data-ttu-id="13e2c-108">SOAP 標頭與已發佈的 Web 服務</span><span class="sxs-lookup"><span data-stu-id="13e2c-108">SOAP Headers with Published Web Services</span></span>](../core/soap-headers-with-published-web-services.md)

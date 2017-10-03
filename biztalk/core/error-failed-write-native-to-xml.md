@@ -19,15 +19,15 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---failed-write-native-to-xml"></a>錯誤-無法寫入原生至 XML
-**錯誤碼**  
+# <a name="error---failed-write-native-to-xml"></a><span data-ttu-id="eda70-102">錯誤-無法寫入原生至 XML</span><span class="sxs-lookup"><span data-stu-id="eda70-102">Error - Failed Write Native to XML</span></span>
+<span data-ttu-id="eda70-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="eda70-103">**Error Code**</span></span>  
   
- btm1043  
+ <span data-ttu-id="eda70-104">btm1043</span><span class="sxs-lookup"><span data-stu-id="eda70-104">btm1043</span></span>  
   
- **說明**  
+ <span data-ttu-id="eda70-105">**說明**</span><span class="sxs-lookup"><span data-stu-id="eda70-105">**Explanation**</span></span>  
   
- 寫入指定的 XML 檔案時發生檔案寫入錯誤。  
+ <span data-ttu-id="eda70-106">寫入指定的 XML 檔案時發生檔案寫入錯誤。</span><span class="sxs-lookup"><span data-stu-id="eda70-106">A file write error was encountered while writing the indicated XML file.</span></span>  
   
- **使用者動作**  
+ <span data-ttu-id="eda70-107">**使用者動作**</span><span class="sxs-lookup"><span data-stu-id="eda70-107">**User Action**</span></span>  
   
- 確認您有足夠的磁碟空間與權限可建立指定的檔案。
+ <span data-ttu-id="eda70-108">確認您有足夠的磁碟空間與權限可建立指定的檔案。</span><span class="sxs-lookup"><span data-stu-id="eda70-108">Verify that you have sufficient disk space and permissions to create the indicated file.</span></span>

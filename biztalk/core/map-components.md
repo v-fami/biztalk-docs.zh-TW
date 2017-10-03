@@ -25,19 +25,19 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="map-components"></a>對應元件
-對應檔 (具有 .btm 副檔名) 會儲存對應的大部分元件。 檔案中儲存的項目包含：  
+# <a name="map-components"></a><span data-ttu-id="77104-102">對應元件</span><span class="sxs-lookup"><span data-stu-id="77104-102">Map Components</span></span>
+<span data-ttu-id="77104-103">對應檔 (具有 .btm 副檔名) 會儲存對應的大部分元件。</span><span class="sxs-lookup"><span data-stu-id="77104-103">Map files (having a .btm extension) store most of the components of a map.</span></span> <span data-ttu-id="77104-104">檔案中儲存的項目包含：</span><span class="sxs-lookup"><span data-stu-id="77104-104">Items stored in the file include:</span></span>  
   
--   來源與目的結構描述的參考  
+-   <span data-ttu-id="77104-105">來源與目的結構描述的參考</span><span class="sxs-lookup"><span data-stu-id="77104-105">References to source and destination schemas</span></span>  
   
--   連結，包括連結屬性  
+-   <span data-ttu-id="77104-106">連結，包括連結屬性</span><span class="sxs-lookup"><span data-stu-id="77104-106">Links, including the link properties</span></span>  
   
--   運算質及其屬性，例如輸入參數  
+-   <span data-ttu-id="77104-107">運算質及其屬性，例如輸入參數</span><span class="sxs-lookup"><span data-stu-id="77104-107">Functoids with their properties such as input parameters</span></span>  
   
--   其他屬性，例如與格線和對應本身相關聯的屬性。  
+-   <span data-ttu-id="77104-108">其他屬性，例如與格線和對應本身相關聯的屬性。</span><span class="sxs-lookup"><span data-stu-id="77104-108">Other miscellaneous properties such as those associated with the grid and the map itself.</span></span>  
   
- 雖然 BizTalk 對應工具可將 .btm 檔案中的對應編譯至可延伸樣式表轉換 (XSLT) 檔案中，但 XSLT 並不是檔案的一部分。 只有當您在編譯專案或在驗證對應時，BizTalk 對應工具才能為對應產生 XSLT。 BizTalk 對應工具會將 XSLT 封裝為專案組件的一部分。  
+ <span data-ttu-id="77104-109">雖然 BizTalk 對應工具可將 .btm 檔案中的對應編譯至可延伸樣式表轉換 (XSLT) 檔案中，但 XSLT 並不是檔案的一部分。</span><span class="sxs-lookup"><span data-stu-id="77104-109">Although BizTalk Mapper compiles the map in the .btm file into an Extensible Stylesheet Transformations (XSLT) file, the XSLT is not part of the file.</span></span> <span data-ttu-id="77104-110">只有當您在編譯專案或在驗證對應時，BizTalk 對應工具才能為對應產生 XSLT。</span><span class="sxs-lookup"><span data-stu-id="77104-110">BizTalk Mapper produces the XSLT for the map only when you compile the project or when you validate the map.</span></span> <span data-ttu-id="77104-111">BizTalk 對應工具會將 XSLT 封裝為專案組件的一部分。</span><span class="sxs-lookup"><span data-stu-id="77104-111">BizTalk Mapper packages the XSLT as part of the project assembly.</span></span>  
   
-## <a name="see-also"></a>另請參閱  
- [對應](../core/maps.md)   
- [使用 BizTalk 對應工具建立對應](../core/creating-maps-using-biztalk-mapper.md)
+## <a name="see-also"></a><span data-ttu-id="77104-112">另請參閱</span><span class="sxs-lookup"><span data-stu-id="77104-112">See Also</span></span>  
+ <span data-ttu-id="77104-113">[對應](../core/maps.md) </span><span class="sxs-lookup"><span data-stu-id="77104-113">[Maps](../core/maps.md) </span></span>  
+ [<span data-ttu-id="77104-114">使用 BizTalk 對應工具建立對應</span><span class="sxs-lookup"><span data-stu-id="77104-114">Creating Maps Using BizTalk Mapper</span></span>](../core/creating-maps-using-biztalk-mapper.md)

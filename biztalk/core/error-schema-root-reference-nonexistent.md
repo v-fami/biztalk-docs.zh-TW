@@ -19,15 +19,15 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---schema-root-reference-nonexistent"></a>錯誤-結構描述根參考不存在
-**錯誤碼**  
+# <a name="error---schema-root-reference-nonexistent"></a><span data-ttu-id="da198-102">錯誤-結構描述根參考不存在</span><span class="sxs-lookup"><span data-stu-id="da198-102">Error - Schema Root Reference Nonexistent</span></span>
+<span data-ttu-id="da198-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="da198-103">**Error Code**</span></span>  
   
- BEC2006  
+ <span data-ttu-id="da198-104">BEC2006</span><span class="sxs-lookup"><span data-stu-id="da198-104">BEC2006</span></span>  
   
- **說明**  
+ <span data-ttu-id="da198-105">**說明**</span><span class="sxs-lookup"><span data-stu-id="da198-105">**Explanation**</span></span>  
   
- **根參考**屬性**結構描述**節點參考不存在的根節點。 參考的根節點可能已刪除或重新命名之後已被設定為**根參考**屬性值。  
+ <span data-ttu-id="da198-106">**根參考**屬性**結構描述**節點參考不存在的根節點。</span><span class="sxs-lookup"><span data-stu-id="da198-106">The **Root Reference** property of the **Schema** node is referencing a nonexistent root node.</span></span> <span data-ttu-id="da198-107">參考的根節點可能已刪除或重新命名之後已被設定為**根參考**屬性值。</span><span class="sxs-lookup"><span data-stu-id="da198-107">The referenced root node may have been deleted or renamed after it was set as the **Root Reference** property value.</span></span>  
   
- **使用者動作**  
+ <span data-ttu-id="da198-108">**使用者動作**</span><span class="sxs-lookup"><span data-stu-id="da198-108">**User Action**</span></span>  
   
- 設定**根參考**屬性**結構描述**節點一次。 屬性的下拉式清單包括目前適用於根節點的所有有效值。
+ <span data-ttu-id="da198-109">設定**根參考**屬性**結構描述**節點一次。</span><span class="sxs-lookup"><span data-stu-id="da198-109">Set the **Root Reference** property of the **Schema** node again.</span></span> <span data-ttu-id="da198-110">屬性的下拉式清單包括目前適用於根節點的所有有效值。</span><span class="sxs-lookup"><span data-stu-id="da198-110">The drop-down list for that property includes all currently valid choices for root nodes.</span></span>

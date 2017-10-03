@@ -23,19 +23,19 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="how-to-configure-the-decide-shape"></a>如何設定決定圖形
+# <a name="how-to-configure-the-decide-shape"></a><span data-ttu-id="a912d-102">如何設定決定圖形</span><span class="sxs-lookup"><span data-stu-id="a912d-102">How to Configure the Decide Shape</span></span>
 ![](../core/media/ebiz-orch-decide.gif "ebiz_orch_decide")  
-決定圖形  
+<span data-ttu-id="a912d-103">決定圖形</span><span class="sxs-lookup"><span data-stu-id="a912d-103">Decide shape</span></span>  
   
- 每個分支**決定**圖形，除了**else**分支，與它有關聯的規則。 您可以使用「BizTalk 運算式編輯器」，在規則中建立布林值運算式，針對該分支執行進行評估。 因為**else**分支表示否定上一個分支的布林值運算式，它沒有與它相關聯的運算式。  
+ <span data-ttu-id="a912d-104">每個分支**決定**圖形，除了**else**分支，與它有關聯的規則。</span><span class="sxs-lookup"><span data-stu-id="a912d-104">Each branch of a **Decide** shape, except the **else** branch, has a rule associated with it.</span></span> <span data-ttu-id="a912d-105">您可以使用「BizTalk 運算式編輯器」，在規則中建立布林值運算式，針對該分支執行進行評估。</span><span class="sxs-lookup"><span data-stu-id="a912d-105">You can use BizTalk Expression Editor to create a Boolean expression in the rule that is evaluated for the execution of that branch.</span></span> <span data-ttu-id="a912d-106">因為**else**分支表示否定上一個分支的布林值運算式，它沒有與它相關聯的運算式。</span><span class="sxs-lookup"><span data-stu-id="a912d-106">Because the **else** branch implies the negation of the Boolean expression in the previous branch, it does not have an expression associated with it.</span></span>  
   
- 在規則或**else**子句中，分支**決定**圖形可以包含額外圖形，就像協調流程的任何其他部分一樣。  
+ <span data-ttu-id="a912d-107">在規則或**else**子句中，分支**決定**圖形可以包含額外圖形，就像協調流程的任何其他部分一樣。</span><span class="sxs-lookup"><span data-stu-id="a912d-107">Below the rule or **else** clause, a branch of a **Decide** shape can contain additional shapes, just like any other part of the orchestration.</span></span>  
   
-### <a name="to-configure-a-decide-shape"></a>若要設定決定圖形  
+### <a name="to-configure-a-decide-shape"></a><span data-ttu-id="a912d-108">若要設定決定圖形</span><span class="sxs-lookup"><span data-stu-id="a912d-108">To configure a Decide shape</span></span>  
   
-1.  如果看不到 BizTalk 運算式編輯器，以滑鼠右鍵按一下規則，然後按一下**編輯布林值運算式**，或在 屬性 視窗中，按一下**省略**(**...**) 按鈕**運算式**屬性。  
+1.  <span data-ttu-id="a912d-109">如果看不到 BizTalk 運算式編輯器，以滑鼠右鍵按一下規則，然後按一下**編輯布林值運算式**，或在 屬性 視窗中，按一下**省略**(**...**) 按鈕**運算式**屬性。</span><span class="sxs-lookup"><span data-stu-id="a912d-109">If BizTalk Expression Editor is not visible, right-click the rule and click **Edit Boolean Expression**, or in the Properties window, click the **Ellipsis** (**...**) button for the **Expression** property.</span></span>  
   
-2.  在 BizTalk 運算式編輯器，建立除了每個分支的布林值運算式**Else**分支。 例如，  
+2.  <span data-ttu-id="a912d-110">在 BizTalk 運算式編輯器，建立除了每個分支的布林值運算式**Else**分支。</span><span class="sxs-lookup"><span data-stu-id="a912d-110">In BizTalk Expression Editor, create a Boolean expression for each branch except the **Else** branch.</span></span> <span data-ttu-id="a912d-111">例如，</span><span class="sxs-lookup"><span data-stu-id="a912d-111">For example,</span></span>  
   
     ```  
     myMessage.Total > 1000  
@@ -43,13 +43,13 @@ ms.lasthandoff: 09/20/2017
     myMessage.VIP == true  
     ```  
   
-### <a name="to-add-a-branch-to-a-decide-shape"></a>若要將分支加入至決定圖形  
+### <a name="to-add-a-branch-to-a-decide-shape"></a><span data-ttu-id="a912d-112">若要將分支加入至決定圖形</span><span class="sxs-lookup"><span data-stu-id="a912d-112">To add a branch to a Decide shape</span></span>  
   
-1.  以滑鼠右鍵按一下**決定**圖形，，然後按一下**新規則分支**。  
+1.  <span data-ttu-id="a912d-113">以滑鼠右鍵按一下**決定**圖形，，然後按一下**新規則分支**。</span><span class="sxs-lookup"><span data-stu-id="a912d-113">Right-click the **Decide** shape, and then click **New Rule Branch**.</span></span>  
   
-     -或者-  
+     <span data-ttu-id="a912d-114">-或者-</span><span class="sxs-lookup"><span data-stu-id="a912d-114">—Or—</span></span>  
   
-2.  在兩個現有的分支之間拖曳新的圖形。  
+2.  <span data-ttu-id="a912d-115">在兩個現有的分支之間拖曳新的圖形。</span><span class="sxs-lookup"><span data-stu-id="a912d-115">Drag a new shape between two existing branches.</span></span>  
   
     > [!NOTE]
-    >  若要移除的分支**決定**圖形中，以滑鼠右鍵按一下您想要移除，然後按一下的分支**刪除**，或選取規則分支，然後按**刪除**索引鍵。
+    >  <span data-ttu-id="a912d-116">若要移除的分支**決定**圖形中，以滑鼠右鍵按一下您想要移除，然後按一下的分支**刪除**，或選取規則分支，然後按**刪除**索引鍵。</span><span class="sxs-lookup"><span data-stu-id="a912d-116">To remove a branch from a **Decide** shape, right-click the branch you want to remove, and then click **Delete**, or select the rule branch and press the **DELETE** key.</span></span>

@@ -22,16 +22,16 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="messages-represented-as-xsd-schemas"></a>表示為 XSD 結構描述的訊息
-XSD 訊息的範本 XML 執行個體是在設計階段定義，接著儲存在磁碟上。 在執行階段，.NET 元件會從磁碟收取 XML，並將它當做 XmlDocument 傳回。 協調流程程式碼可將此 XmlDocument 結果指定至協調流程中宣告的訊息執行個體。  
+# <a name="messages-represented-as-xsd-schemas"></a><span data-ttu-id="75ba2-102">表示為 XSD 結構描述的訊息</span><span class="sxs-lookup"><span data-stu-id="75ba2-102">Messages Represented as XSD Schemas</span></span>
+<span data-ttu-id="75ba2-103">XSD 訊息的範本 XML 執行個體是在設計階段定義，接著儲存在磁碟上。</span><span class="sxs-lookup"><span data-stu-id="75ba2-103">A template XML instance of the XSD message type is defined at design time and then stored on disk.</span></span> <span data-ttu-id="75ba2-104">在執行階段，.NET 元件會從磁碟收取 XML，並將它當做 XmlDocument 傳回。</span><span class="sxs-lookup"><span data-stu-id="75ba2-104">At run time, a .NET component picks up the XML from disk and returns it as an XmlDocument.</span></span> <span data-ttu-id="75ba2-105">協調流程程式碼可將此 XmlDocument 結果指定至協調流程中宣告的訊息執行個體。</span><span class="sxs-lookup"><span data-stu-id="75ba2-105">The orchestration code can assign this XmlDocument result to the message instance declared in the orchestration.</span></span>  
   
- **訊息指派**圖形只有一行的程式碼：  
+ <span data-ttu-id="75ba2-106">**訊息指派**圖形只有一行的程式碼：</span><span class="sxs-lookup"><span data-stu-id="75ba2-106">The **Message Assignment** shape has a single line of code:</span></span>  
   
 ```  
 MsgOut = CreateMsgHelper.Helper.GetXmlDocumentTemplate();  
 ```  
   
- 建立 XmlDocument 的「協助程式元件」具有一個靜態方法：  
+ <span data-ttu-id="75ba2-107">建立 XmlDocument 的「協助程式元件」具有一個靜態方法：</span><span class="sxs-lookup"><span data-stu-id="75ba2-107">The Helper Component that creates the XmlDocument has a single static method:</span></span>  
   
 ```  
 private static XmlDocument _template = null;  
@@ -71,7 +71,7 @@ public static XmlDocument GetXmlDocumentTemplate()
 }  
 ```  
   
-## <a name="see-also"></a>另請參閱  
- [訊息會表示為.NET 類別](../core/messages-represented-as-net-classes.md)   
- [表示為 XLANGMessage 的訊息](../core/messages-represented-as-xlangmessage.md)   
- [使用者程式碼中建構的訊息](../core/constructing-messages-in-user-code.md)
+## <a name="see-also"></a><span data-ttu-id="75ba2-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="75ba2-108">See Also</span></span>  
+ <span data-ttu-id="75ba2-109">[訊息會表示為.NET 類別](../core/messages-represented-as-net-classes.md) </span><span class="sxs-lookup"><span data-stu-id="75ba2-109">[Messages Represented as .NET Classes](../core/messages-represented-as-net-classes.md) </span></span>  
+ <span data-ttu-id="75ba2-110">[表示為 XLANGMessage 的訊息](../core/messages-represented-as-xlangmessage.md) </span><span class="sxs-lookup"><span data-stu-id="75ba2-110">[Messages Represented as XLANGMessage](../core/messages-represented-as-xlangmessage.md) </span></span>  
+ [<span data-ttu-id="75ba2-111">使用者程式碼中建構的訊息</span><span class="sxs-lookup"><span data-stu-id="75ba2-111">Constructing Messages in User Code</span></span>](../core/constructing-messages-in-user-code.md)

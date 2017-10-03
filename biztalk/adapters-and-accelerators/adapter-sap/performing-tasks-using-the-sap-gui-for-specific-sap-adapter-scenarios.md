@@ -19,19 +19,19 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="sap-gui-tasks-for-the-sap-adapter-scenarios"></a>SAP 配接器實例的 SAP GUI 工作
+# <a name="sap-gui-tasks-for-the-sap-adapter-scenarios"></a><span data-ttu-id="b2550-103">SAP 配接器實例的 SAP GUI 工作</span><span class="sxs-lookup"><span data-stu-id="b2550-103">SAP GUI tasks for the SAP adapter scenarios</span></span>
 
-## <a name="overview"></a>概觀
-許多案例涉及[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]和 SAP 系統中，您需要在 SAP 系統上執行某些作業。 例如，若要接收到的 RFC 呼叫[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]，您必須先從 SAP 系統傳送的 RFC。 本節列出的高階步驟來完成這些工作，在 SAP 系統上。  
+## <a name="overview"></a><span data-ttu-id="b2550-104">概觀</span><span class="sxs-lookup"><span data-stu-id="b2550-104">Overview</span></span>
+<span data-ttu-id="b2550-105">許多案例涉及[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]和 SAP 系統中，您需要在 SAP 系統上執行某些作業。</span><span class="sxs-lookup"><span data-stu-id="b2550-105">For many scenarios involving the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] and the SAP system, you need to perform certain operations on the SAP system.</span></span> <span data-ttu-id="b2550-106">例如，若要接收到的 RFC 呼叫[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]，您必須先從 SAP 系統傳送的 RFC。</span><span class="sxs-lookup"><span data-stu-id="b2550-106">For example, to receive an RFC call into the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)], you first send an RFC from the SAP system.</span></span> <span data-ttu-id="b2550-107">本節列出的高階步驟來完成這些工作，在 SAP 系統上。</span><span class="sxs-lookup"><span data-stu-id="b2550-107">This section lists the high-level steps to complete these tasks on the SAP system.</span></span>  
   
 > [!IMPORTANT]
->  若要執行這些工作，我們建議連絡您的 SAP 系統管理員，或參閱 SAP 指引。  
+>  <span data-ttu-id="b2550-108">若要執行這些工作，我們建議連絡您的 SAP 系統管理員，或參閱 SAP 指引。</span><span class="sxs-lookup"><span data-stu-id="b2550-108">To do these tasks, we suggest contacting your SAP administrator, or refer to the SAP guidance.</span></span>  
   
-## <a name="next-steps"></a>後續的步驟  
+## <a name="next-steps"></a><span data-ttu-id="b2550-109">後續的步驟</span><span class="sxs-lookup"><span data-stu-id="b2550-109">Next steps</span></span>  
   
--   [建立 RFC，RFC 目的地，或是傳送從 SAP RFC](creating-an-rfc-in-an-sap-system.md)  
+-   [<span data-ttu-id="b2550-110">建立 RFC，RFC 目的地，或是傳送從 SAP RFC</span><span class="sxs-lookup"><span data-stu-id="b2550-110">Create an RFC, RFC destination, or send an RFC from SAP</span></span>](creating-an-rfc-in-an-sap-system.md)  
   
--   [從 SAP 系統傳送 Idoc](sending-idocs-from-an-sap-system.md)  
+-   [<span data-ttu-id="b2550-111">從 SAP 系統傳送 Idoc</span><span class="sxs-lookup"><span data-stu-id="b2550-111">Sending IDOCs from an SAP System</span></span>](sending-idocs-from-an-sap-system.md)  
   
--   [決定是否以值的資料行存放區大寫或小寫](determining-whether-a-column-stores-lowercase-or-uppercase-values.md)  
+-   [<span data-ttu-id="b2550-112">決定是否以值的資料行存放區大寫或小寫</span><span class="sxs-lookup"><span data-stu-id="b2550-112">Determining Whether a Column Stores Lowercase or Uppercase Values</span></span>](determining-whether-a-column-stores-lowercase-or-uppercase-values.md)  
   

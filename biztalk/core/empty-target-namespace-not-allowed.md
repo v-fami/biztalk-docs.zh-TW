@@ -18,21 +18,21 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="empty-target-namespace-not-allowed"></a>不允許空的目標命名空間
-## <a name="details"></a>詳細資料  
+# <a name="empty-target-namespace-not-allowed"></a><span data-ttu-id="d1edb-102">不允許空的目標命名空間</span><span class="sxs-lookup"><span data-stu-id="d1edb-102">Empty target namespace not allowed</span></span>
+## <a name="details"></a><span data-ttu-id="d1edb-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="d1edb-103">Details</span></span>  
   
 |||  
 |-|-|  
-|產品名稱|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|產品版本|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|事件識別碼|0|  
-|事件來源|0|  
-|元件|0|  
-|符號名稱|0|  
-|訊息文字|不允許空的目標命名空間|  
+|<span data-ttu-id="d1edb-104">產品名稱</span><span class="sxs-lookup"><span data-stu-id="d1edb-104">Product Name</span></span>|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
+|<span data-ttu-id="d1edb-105">產品版本</span><span class="sxs-lookup"><span data-stu-id="d1edb-105">Product Version</span></span>|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
+|<span data-ttu-id="d1edb-106">事件識別碼</span><span class="sxs-lookup"><span data-stu-id="d1edb-106">Event ID</span></span>|<span data-ttu-id="d1edb-107">0</span><span class="sxs-lookup"><span data-stu-id="d1edb-107">0</span></span>|  
+|<span data-ttu-id="d1edb-108">事件來源</span><span class="sxs-lookup"><span data-stu-id="d1edb-108">Event Source</span></span>|<span data-ttu-id="d1edb-109">0</span><span class="sxs-lookup"><span data-stu-id="d1edb-109">0</span></span>|  
+|<span data-ttu-id="d1edb-110">元件</span><span class="sxs-lookup"><span data-stu-id="d1edb-110">Component</span></span>|<span data-ttu-id="d1edb-111">0</span><span class="sxs-lookup"><span data-stu-id="d1edb-111">0</span></span>|  
+|<span data-ttu-id="d1edb-112">符號名稱</span><span class="sxs-lookup"><span data-stu-id="d1edb-112">Symbolic Name</span></span>|<span data-ttu-id="d1edb-113">0</span><span class="sxs-lookup"><span data-stu-id="d1edb-113">0</span></span>|  
+|<span data-ttu-id="d1edb-114">訊息文字</span><span class="sxs-lookup"><span data-stu-id="d1edb-114">Message Text</span></span>|<span data-ttu-id="d1edb-115">不允許空的目標命名空間</span><span class="sxs-lookup"><span data-stu-id="d1edb-115">Empty target namespace not allowed</span></span>|  
   
-## <a name="explanation"></a>說明  
- 此錯誤表示指定的目標命名空間是空的。  
+## <a name="explanation"></a><span data-ttu-id="d1edb-116">說明</span><span class="sxs-lookup"><span data-stu-id="d1edb-116">Explanation</span></span>  
+ <span data-ttu-id="d1edb-117">此錯誤表示指定的目標命名空間是空的。</span><span class="sxs-lookup"><span data-stu-id="d1edb-117">This error indicates the target namespace specified is empty.</span></span>  
   
-## <a name="user-action"></a>使用者動作  
- 提供目標命名空間。
+## <a name="user-action"></a><span data-ttu-id="d1edb-118">使用者動作</span><span class="sxs-lookup"><span data-stu-id="d1edb-118">User Action</span></span>  
+ <span data-ttu-id="d1edb-119">提供目標命名空間。</span><span class="sxs-lookup"><span data-stu-id="d1edb-119">Provide a target namespace.</span></span>

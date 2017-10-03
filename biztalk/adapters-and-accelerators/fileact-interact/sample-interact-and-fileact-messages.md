@@ -18,10 +18,10 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="sample-interact-and-fileact-messages"></a>範例互動和 FileAct 訊息
-互動和 FileAct 即時訊息的範例如下。  
+# <a name="sample-interact-and-fileact-messages"></a><span data-ttu-id="e63bc-102">範例互動和 FileAct 訊息</span><span class="sxs-lookup"><span data-stu-id="e63bc-102">Sample InterAct and FileAct Messages</span></span>
+<span data-ttu-id="e63bc-103">互動和 FileAct 即時訊息的範例如下。</span><span class="sxs-lookup"><span data-stu-id="e63bc-103">Samples of InterAct and FileAct real-time messages are given below.</span></span>  
   
- **範例互動即時訊息**  
+ <span data-ttu-id="e63bc-104">**範例互動即時訊息**</span><span class="sxs-lookup"><span data-stu-id="e63bc-104">**Sample InterAct real-time message**</span></span>  
   
 ```  
 <SwInt-ExchangeRequest>  
@@ -33,7 +33,7 @@ TestPayloadRequestSnF
 </SwInt-ExchangeRequest>  
 ```  
   
- **範例 FileAct 即時訊息 （put 要求）**  
+ <span data-ttu-id="e63bc-105">**範例 FileAct 即時訊息 （put 要求）**</span><span class="sxs-lookup"><span data-stu-id="e63bc-105">**Sample FileAct real-time message (put request)**</span></span>  
   
 ```  
 <?xml version="1.0" encoding="utf-8"?>  
@@ -48,7 +48,7 @@ TestPayloadRequestSnF
 </Sw-ExchangeFileRequest>  
 ```  
   
- **範例 FileAct 即時訊息 （get 要求）**  
+ <span data-ttu-id="e63bc-106">**範例 FileAct 即時訊息 （get 要求）**</span><span class="sxs-lookup"><span data-stu-id="e63bc-106">**Sample FileAct real-time message (get request)**</span></span>  
   
 ```  
 <?xml version="1.0" encoding="utf-8"?>  

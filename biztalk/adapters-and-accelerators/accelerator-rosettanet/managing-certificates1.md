@@ -21,19 +21,19 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="managing-certificates"></a>管理憑證
-RosettaNet 中的安全通訊需要用到憑證。 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 使用憑證來加密外寄訊息、簽署外寄訊息、解密內送訊息，以及驗證內送訊息中的簽章。  
+# <a name="managing-certificates"></a><span data-ttu-id="eae96-102">管理憑證</span><span class="sxs-lookup"><span data-stu-id="eae96-102">Managing Certificates</span></span>
+<span data-ttu-id="eae96-103">RosettaNet 中的安全通訊需要用到憑證。</span><span class="sxs-lookup"><span data-stu-id="eae96-103">Secure communications in RosettaNet require using certificates.</span></span> [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="eae96-104">® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 使用憑證來加密外寄訊息、簽署外寄訊息、解密內送訊息，以及驗證內送訊息中的簽章。</span><span class="sxs-lookup"><span data-stu-id="eae96-104">® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] uses certificates to encrypt outgoing messages, sign outgoing messages, decrypt incoming messages, and verify the signature in incoming messages.</span></span>  
   
- 若要使用憑證，您必須執行下列部分或全部步驟：  
+ <span data-ttu-id="eae96-105">若要使用憑證，您必須執行下列部分或全部步驟：</span><span class="sxs-lookup"><span data-stu-id="eae96-105">To use certificates, you must perform some or all of the following steps:</span></span>  
   
--   將伺服器的憑證匯入憑證存放區  
+-   <span data-ttu-id="eae96-106">將伺服器的憑證匯入憑證存放區</span><span class="sxs-lookup"><span data-stu-id="eae96-106">Import certificates into the certificates store for the server</span></span>  
   
--   設定憑證在訊息中的使用方式  
+-   <span data-ttu-id="eae96-107">設定憑證在訊息中的使用方式</span><span class="sxs-lookup"><span data-stu-id="eae96-107">Configure the use of certificates in messages</span></span>  
   
--   將憑證匯出給交易夥伴  
+-   <span data-ttu-id="eae96-108">將憑證匯出給交易夥伴</span><span class="sxs-lookup"><span data-stu-id="eae96-108">Export certificates to partners</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="eae96-109">本節內容</span><span class="sxs-lookup"><span data-stu-id="eae96-109">In This Section</span></span>  
   
--   [匯入憑證](../../adapters-and-accelerators/accelerator-rosettanet/importing-certificates.md)  
+-   [<span data-ttu-id="eae96-110">匯入憑證</span><span class="sxs-lookup"><span data-stu-id="eae96-110">Importing Certificates</span></span>](../../adapters-and-accelerators/accelerator-rosettanet/importing-certificates.md)  
   
--   [匯出憑證](../../adapters-and-accelerators/accelerator-rosettanet/exporting-certificates.md)
+-   [<span data-ttu-id="eae96-111">匯出憑證</span><span class="sxs-lookup"><span data-stu-id="eae96-111">Exporting Certificates</span></span>](../../adapters-and-accelerators/accelerator-rosettanet/exporting-certificates.md)

@@ -21,15 +21,15 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="configuring-the-wcf-nettcp-adapter"></a>設定 WCF-NetTcp 配接器
-本節說明如何設定 WCF-NetTcp 配接器。  
+# <a name="configuring-the-wcf-nettcp-adapter"></a><span data-ttu-id="e2ee9-102">設定 WCF-NetTcp 配接器</span><span class="sxs-lookup"><span data-stu-id="e2ee9-102">Configuring the WCF-NetTcp Adapter</span></span>
+<span data-ttu-id="e2ee9-103">本節說明如何設定 WCF-NetTcp 配接器。</span><span class="sxs-lookup"><span data-stu-id="e2ee9-103">This section describes how to configure a WCF-NetTcp adapter.</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="e2ee9-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="e2ee9-104">In This Section</span></span>  
   
--   [如何設定 Wcf-nettcp 傳送埠](../core/how-to-configure-a-wcf-nettcp-send-port.md)  
+-   [<span data-ttu-id="e2ee9-105">如何設定 Wcf-nettcp 傳送埠</span><span class="sxs-lookup"><span data-stu-id="e2ee9-105">How to Configure a WCF-NetTcp Send Port</span></span>](../core/how-to-configure-a-wcf-nettcp-send-port.md)  
   
--   [如何設定 Wcf-nettcp 接收位置](../core/how-to-configure-a-wcf-nettcp-receive-location.md)  
+-   [<span data-ttu-id="e2ee9-106">如何設定 Wcf-nettcp 接收位置</span><span class="sxs-lookup"><span data-stu-id="e2ee9-106">How to Configure a WCF-NetTcp Receive Location</span></span>](../core/how-to-configure-a-wcf-nettcp-receive-location.md)  
   
--   [如何設定 Wcf-nettcp 傳送處理常式](../core/how-to-configure-a-wcf-nettcp-send-handler.md)  
+-   [<span data-ttu-id="e2ee9-107">如何設定 Wcf-nettcp 傳送處理常式</span><span class="sxs-lookup"><span data-stu-id="e2ee9-107">How to Configure a WCF-NetTcp Send Handler</span></span>](../core/how-to-configure-a-wcf-nettcp-send-handler.md)  
   
--   [如何設定 Wcf-nettcp 接收處理常式](../core/how-to-configure-a-wcf-nettcp-receive-handler.md)
+-   [<span data-ttu-id="e2ee9-108">如何設定 Wcf-nettcp 接收處理常式</span><span class="sxs-lookup"><span data-stu-id="e2ee9-108">How to Configure a WCF-NetTcp Receive Handler</span></span>](../core/how-to-configure-a-wcf-nettcp-receive-handler.md)

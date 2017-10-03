@@ -22,5 +22,5 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="modifying-a-workflow"></a>修改工作流程
-請參閱\<磁碟機： > \Program Files\Microsoft BizTalk Accelerator For SWIFT\SDK\Samples\ CustomMrsrModel\ ProfileWebClientUserManual.doc 如需詳細資訊。
+# <a name="modifying-a-workflow"></a><span data-ttu-id="69c5f-102">修改工作流程</span><span class="sxs-lookup"><span data-stu-id="69c5f-102">Modifying a Workflow</span></span>
+<span data-ttu-id="69c5f-103">請參閱\<磁碟機： > \Program Files\Microsoft BizTalk Accelerator For SWIFT\SDK\Samples\ CustomMrsrModel\ ProfileWebClientUserManual.doc 如需詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="69c5f-103">Please refer to \<Drive:>\Program Files\Microsoft BizTalk Accelerator For SWIFT\SDK\Samples\ CustomMrsrModel\ ProfileWebClientUserManual.doc for more information.</span></span>

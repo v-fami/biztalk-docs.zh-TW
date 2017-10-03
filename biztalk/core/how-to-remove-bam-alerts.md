@@ -22,20 +22,20 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="how-to-remove-bam-alerts"></a>如何移除 BAM 警示
-系統管理員使用**移除警示**命令，從指定的檢視中移除所有警示。  
+# <a name="how-to-remove-bam-alerts"></a><span data-ttu-id="b13ad-102">如何移除 BAM 警示</span><span class="sxs-lookup"><span data-stu-id="b13ad-102">How to Remove BAM Alerts</span></span>
+<span data-ttu-id="b13ad-103">系統管理員使用**移除警示**命令，從指定的檢視中移除所有警示。</span><span class="sxs-lookup"><span data-stu-id="b13ad-103">Administrators use the **remove-alerts** command to remove all the alerts from a specified view.</span></span>  
   
-### <a name="to-remove-bam-alerts"></a>移除 BAM 警示  
+### <a name="to-remove-bam-alerts"></a><span data-ttu-id="b13ad-104">移除 BAM 警示</span><span class="sxs-lookup"><span data-stu-id="b13ad-104">To remove BAM alerts</span></span>  
   
-1.  開啟命令提示字元，如下所示： 按一下**啟動**，按一下**執行**，型別**cmd**，然後按一下 **確定**。  
+1.  <span data-ttu-id="b13ad-105">開啟命令提示字元，如下所示： 按一下**啟動**，按一下**執行**，型別**cmd**，然後按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="b13ad-105">Open a command prompt as follows: Click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
   
-2.  瀏覽到 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking。  
+2.  <span data-ttu-id="b13ad-106">瀏覽到 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking。</span><span class="sxs-lookup"><span data-stu-id="b13ad-106">Navigate to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.</span></span>  
   
-3.  型別**bm 移除警示的檢視：\<檢視名稱 >**。  
+3.  <span data-ttu-id="b13ad-107">型別**bm 移除警示的檢視：\<檢視名稱 >**。</span><span class="sxs-lookup"><span data-stu-id="b13ad-107">Type **bm remove-alerts -View:\<view name>**.</span></span>  
   
-4.  按 ENTER 鍵。  
+4.  <span data-ttu-id="b13ad-108">按 ENTER 鍵。</span><span class="sxs-lookup"><span data-stu-id="b13ad-108">Press **ENTER**.</span></span>  
   
-## <a name="see-also"></a>另請參閱  
- [管理 BAM 動態基礎結構](../core/managing-the-bam-dynamic-infrastructure.md)   
- [BAM 安全性建議](../core/bam-security-recommendations.md)   
- [BAM 管理公用程式](../core/bam-management-utility.md)
+## <a name="see-also"></a><span data-ttu-id="b13ad-109">另請參閱</span><span class="sxs-lookup"><span data-stu-id="b13ad-109">See Also</span></span>  
+ <span data-ttu-id="b13ad-110">[管理 BAM 動態基礎結構](../core/managing-the-bam-dynamic-infrastructure.md) </span><span class="sxs-lookup"><span data-stu-id="b13ad-110">[Managing the BAM Dynamic Infrastructure](../core/managing-the-bam-dynamic-infrastructure.md) </span></span>  
+ <span data-ttu-id="b13ad-111">[BAM 安全性建議](../core/bam-security-recommendations.md) </span><span class="sxs-lookup"><span data-stu-id="b13ad-111">[BAM Security Recommendations](../core/bam-security-recommendations.md) </span></span>  
+ [<span data-ttu-id="b13ad-112">BAM 管理公用程式</span><span class="sxs-lookup"><span data-stu-id="b13ad-112">BAM Management Utility</span></span>](../core/bam-management-utility.md)

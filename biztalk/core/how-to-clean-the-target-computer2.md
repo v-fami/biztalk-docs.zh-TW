@@ -19,22 +19,22 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="how-to-clean-the-target-computer"></a>如何清除目標電腦
-部署會覆寫接收位置組態。 當您在目標電腦上部署繫結檔案 (和組件)，在匯入 XML 繫結檔案時，傳送埠和接收位置會被 XML 繫結檔案中的傳送埠和接收位置所取代。  
+# <a name="how-to-clean-the-target-computer"></a><span data-ttu-id="e69f3-102">如何清除目標電腦</span><span class="sxs-lookup"><span data-stu-id="e69f3-102">How to Clean the Target Computer</span></span>
+<span data-ttu-id="e69f3-103">部署會覆寫接收位置組態。</span><span class="sxs-lookup"><span data-stu-id="e69f3-103">Deployment overwrites the receive location configuration.</span></span> <span data-ttu-id="e69f3-104">當您在目標電腦上部署繫結檔案 (和組件)，在匯入 XML 繫結檔案時，傳送埠和接收位置會被 XML 繫結檔案中的傳送埠和接收位置所取代。</span><span class="sxs-lookup"><span data-stu-id="e69f3-104">When you deploy a binding file (and assembly) on a target computer, the send ports and receive locations are replaced with those in the XML binding file when they are imported.</span></span>  
   
-### <a name="to-clean-the-target-computer"></a>若要清除目標電腦  
+### <a name="to-clean-the-target-computer"></a><span data-ttu-id="e69f3-105">若要清除目標電腦</span><span class="sxs-lookup"><span data-stu-id="e69f3-105">To clean the target computer</span></span>  
   
--   移除協調流程所繫結的所有傳送埠和接收位置。  
+-   <span data-ttu-id="e69f3-106">移除協調流程所繫結的所有傳送埠和接收位置。</span><span class="sxs-lookup"><span data-stu-id="e69f3-106">Remove any send ports and receive locations bound to the orchestration.</span></span>  
   
-     如果目標電腦上尚未安裝 Microsoft Visual Studio，您可以執行下列指令碼來移除連接埠：  
+     <span data-ttu-id="e69f3-107">如果目標電腦上尚未安裝 Microsoft Visual Studio，您可以執行下列指令碼來移除連接埠：</span><span class="sxs-lookup"><span data-stu-id="e69f3-107">If you do not have Microsoft Visual Studio installed on the target computer, you can remove the ports by running these scripts:</span></span>  
   
-     \<Microsoft BizTalk Server > \SDK\Samples\Admin\WMI\Remove 傳送 Port\VBScript\RemoveSendPort.vbs  
+     <span data-ttu-id="e69f3-108">\<Microsoft BizTalk Server > \SDK\Samples\Admin\WMI\Remove 傳送 Port\VBScript\RemoveSendPort.vbs</span><span class="sxs-lookup"><span data-stu-id="e69f3-108">\<Microsoft BizTalk Server>\SDK\Samples\Admin\WMI\Remove Send Port\VBScript\RemoveSendPort.vbs</span></span>  
   
-     \<Microsoft BizTalk Server > \SDK\Samples\Admin\WMI\Remove 接收 Port\VBScript\RemoveReceivePort.vbs  
+     <span data-ttu-id="e69f3-109">\<Microsoft BizTalk Server > \SDK\Samples\Admin\WMI\Remove 接收 Port\VBScript\RemoveReceivePort.vbs</span><span class="sxs-lookup"><span data-stu-id="e69f3-109">\<Microsoft BizTalk Server>\SDK\Samples\Admin\WMI\Remove Receive Port\VBScript\RemoveReceivePort.vbs</span></span>  
   
-     例如，在命令提示字元下執行：  
+     <span data-ttu-id="e69f3-110">例如，在命令提示字元下執行：</span><span class="sxs-lookup"><span data-stu-id="e69f3-110">For example, at a command prompt, run:</span></span>  
   
-     **cscript RemoveSendPort.vbs\<傳送埠名稱 >**  
+     <span data-ttu-id="e69f3-111">**cscript RemoveSendPort.vbs\<傳送埠名稱 >**</span><span class="sxs-lookup"><span data-stu-id="e69f3-111">**cscript RemoveSendPort.vbs \<Send port name>**</span></span>  
   
-## <a name="see-also"></a>另請參閱  
- [部署連接埠和組件](../core/deploying-ports-and-assemblies2.md)
+## <a name="see-also"></a><span data-ttu-id="e69f3-112">另請參閱</span><span class="sxs-lookup"><span data-stu-id="e69f3-112">See Also</span></span>  
+ [<span data-ttu-id="e69f3-113">部署連接埠和組件</span><span class="sxs-lookup"><span data-stu-id="e69f3-113">Deploying Ports and Assemblies</span></span>](../core/deploying-ports-and-assemblies2.md)

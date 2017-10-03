@@ -36,107 +36,107 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="http-receive-adapter"></a>HTTP 接收配接器
-HTTP 接收配接器的接收位置是透過 BizTalk Server 管理主控台設定的不同 URL。  
+# <a name="http-receive-adapter"></a><span data-ttu-id="26ee3-102">HTTP 接收配接器</span><span class="sxs-lookup"><span data-stu-id="26ee3-102">HTTP Receive Adapter</span></span>
+<span data-ttu-id="26ee3-103">HTTP 接收配接器的接收位置是透過 BizTalk Server 管理主控台設定的不同 URL。</span><span class="sxs-lookup"><span data-stu-id="26ee3-103">The receive location for the HTTP receive adapter is a distinct URL configured through the BizTalk Server Administration console.</span></span>  
   
- 您可以為從用戶端執行的非同步提交或同步提交設定 HTTP 接收配接器。 非同步提交是單向提交，而同步提交則是雙向或要求-回應提交。  
+ <span data-ttu-id="26ee3-104">您可以為從用戶端執行的非同步提交或同步提交設定 HTTP 接收配接器。</span><span class="sxs-lookup"><span data-stu-id="26ee3-104">You can configure the HTTP receive adapter for either asynchronous submission or synchronous submission from the client.</span></span> <span data-ttu-id="26ee3-105">非同步提交是單向提交，而同步提交則是雙向或要求-回應提交。</span><span class="sxs-lookup"><span data-stu-id="26ee3-105">Asynchronous submissions are one-way submissions and synchronous submissions are two way or request-response submissions.</span></span>  
   
- 您會使用 IIS 安全性來驗證和授權內送要求。  
+ <span data-ttu-id="26ee3-106">您會使用 IIS 安全性來驗證和授權內送要求。</span><span class="sxs-lookup"><span data-stu-id="26ee3-106">You use IIS security for authentication and authorization of incoming requests.</span></span>  
   
-## <a name="http-get-and-http-post-requests"></a>HTTP GET 與 HTTP POST 要求  
- HTTP 接收配接器可以接收訊息以兩個不同的方式，透過 HTTP POST 要求或 HTTP GET 要求。  
+## <a name="http-get-and-http-post-requests"></a><span data-ttu-id="26ee3-107">HTTP GET 與 HTTP POST 要求</span><span class="sxs-lookup"><span data-stu-id="26ee3-107">HTTP GET and HTTP POST Requests</span></span>  
+ <span data-ttu-id="26ee3-108">HTTP 接收配接器可以接收訊息以兩個不同的方式，透過 HTTP POST 要求或 HTTP GET 要求。</span><span class="sxs-lookup"><span data-stu-id="26ee3-108">The HTTP receive adapter can receive messages in two different ways—by an HTTP POST request or an HTTP GET request.</span></span>  
   
- 當 HTTP 接收配接器以 HTTP POST 要求接收訊息時，會發生以下一連串的事件：  
+ <span data-ttu-id="26ee3-109">當 HTTP 接收配接器以 HTTP POST 要求接收訊息時，會發生以下一連串的事件：</span><span class="sxs-lookup"><span data-stu-id="26ee3-109">When an HTTP receive adapter gets messages on an HTTP POST request, the following sequence of events occurs:</span></span>  
   
-1.  在 BizTalk Server 中設定的 URL 會在接收位置收到新訊息。  
+1.  <span data-ttu-id="26ee3-110">在 BizTalk Server 中設定的 URL 會在接收位置收到新訊息。</span><span class="sxs-lookup"><span data-stu-id="26ee3-110">The URL configured in BizTalk Server receives a new message on the receive location.</span></span>  
   
-2.  接收配接器會建立「BizTalk 訊息」物件，以便將訊息提交至伺服器。  
+2.  <span data-ttu-id="26ee3-111">接收配接器會建立「BizTalk 訊息」物件，以便將訊息提交至伺服器。</span><span class="sxs-lookup"><span data-stu-id="26ee3-111">The receive adapter creates a BizTalk Message object so that the message can be submitted to the server.</span></span>  
   
-3.  接收配接器建立 BizTalk 訊息物件只能有一個組件且 — 內文部分。  
+3.  <span data-ttu-id="26ee3-112">接收配接器建立 BizTalk 訊息物件只能有一個組件且 — 內文部分。</span><span class="sxs-lookup"><span data-stu-id="26ee3-112">The receive adapter creates the BizTalk Message object with only one part—the body part.</span></span>  
   
-4.  在已讀取訊息並成功提交至伺服器之後，HTTP 接收配接器會將 HTTP 代碼 202 傳回表示已接收要求的用戶端。  
+4.  <span data-ttu-id="26ee3-113">在已讀取訊息並成功提交至伺服器之後，HTTP 接收配接器會將 HTTP 代碼 202 傳回表示已接收要求的用戶端。</span><span class="sxs-lookup"><span data-stu-id="26ee3-113">After the message has been read and successfully submitted to the server, the HTTP receive adapter sends an HTTP code 202 back to the client indicating that the request was accepted.</span></span>  
   
-     此外，HTTP 接收配接器可以在 HTTP 回應時傳送訊息相互關聯 Token。 這個相互關聯 Token 代表 BizTalk Server 中的訊息。 若 HTTP 接收位置是在要求-回應連接埠中，配接器會傳回成功碼 200 及回應訊息。  
+     <span data-ttu-id="26ee3-114">此外，HTTP 接收配接器可以在 HTTP 回應時傳送訊息相互關聯 Token。</span><span class="sxs-lookup"><span data-stu-id="26ee3-114">Optionally, the HTTP receive adapter can send a message correlation token on the HTTP response.</span></span> <span data-ttu-id="26ee3-115">這個相互關聯 Token 代表 BizTalk Server 中的訊息。</span><span class="sxs-lookup"><span data-stu-id="26ee3-115">This correlation token represents the message within BizTalk Server.</span></span> <span data-ttu-id="26ee3-116">若 HTTP 接收位置是在要求-回應連接埠中，配接器會傳回成功碼 200 及回應訊息。</span><span class="sxs-lookup"><span data-stu-id="26ee3-116">If the HTTP receive location is in a request-response port, the adapter returns success code 200 along with the response message.</span></span>  
   
- 當 HTTP 接收配接器處理來自 HTTP GET 要求的訊息時，接收配接器會建立「BizTalk 訊息」物件，並將 HTTP GET 要求的解譯查詢字串放入 BizTalk 訊息內文部分。 HTTP 配接器會使用下列演算法，來選取要放入 BizTalk 訊息內文部分的查詢字串：  
+ <span data-ttu-id="26ee3-117">當 HTTP 接收配接器處理來自 HTTP GET 要求的訊息時，接收配接器會建立「BizTalk 訊息」物件，並將 HTTP GET 要求的解譯查詢字串放入 BizTalk 訊息內文部分。</span><span class="sxs-lookup"><span data-stu-id="26ee3-117">When an HTTP receive adapter processes messages from an HTTP GET request, the receive adapter creates a BizTalk Message object and puts the decoded query string of the HTTP GET request into the BizTalk message body part.</span></span> <span data-ttu-id="26ee3-118">HTTP 配接器會使用下列演算法，來選取要放入 BizTalk 訊息內文部分的查詢字串：</span><span class="sxs-lookup"><span data-stu-id="26ee3-118">The HTTP adapter selects the query string that is placed into the BizTalk message body part using the following algorithm:</span></span>  
   
--   若 HTTP 接收配接器收到 HTTP GET 要求時，它會將分割內送 URI 字串分成兩個部分，做為分隔符號使用問號 （？） 符號。  
+-   <span data-ttu-id="26ee3-119">若 HTTP 接收配接器收到 HTTP GET 要求時，它會將分割內送 URI 字串分成兩個部分，做為分隔符號使用問號 （？） 符號。</span><span class="sxs-lookup"><span data-stu-id="26ee3-119">If the HTTP receive adapter receives an HTTP GET request, it splits the incoming URI string into two parts, using the question mark (?) symbol as a delimiter.</span></span>  
   
--   URI 字串中，問號分隔符號之前, 的部分的第一個部分會複製到**InboundTransportLocation**在訊息內容屬性。 **InboundTransportLocation**屬性可唯一識別 BizTalk Server 接收訊息的位置。 引擎會使用此屬性，來決定要為訊息執行哪一個接收位置。  
+-   <span data-ttu-id="26ee3-120">URI 字串中，問號分隔符號之前, 的部分的第一個部分會複製到**InboundTransportLocation**在訊息內容屬性。</span><span class="sxs-lookup"><span data-stu-id="26ee3-120">The first part of the URI string, the part before the question mark delimiter, is copied into the **InboundTransportLocation** property on the message context.</span></span> <span data-ttu-id="26ee3-121">**InboundTransportLocation**屬性可唯一識別 BizTalk Server 接收訊息的位置。</span><span class="sxs-lookup"><span data-stu-id="26ee3-121">The **InboundTransportLocation** property uniquely identifies the location where BizTalk Server received the message.</span></span> <span data-ttu-id="26ee3-122">引擎會使用此屬性，來決定要為訊息執行哪一個接收位置。</span><span class="sxs-lookup"><span data-stu-id="26ee3-122">The engine uses this property to determine which receive location to run for the message.</span></span>  
   
--   HTTP 配接器接受其餘的 URI 字串中，問號分隔符號，後面的部分和解碼，並將其複製到 BizTalk 訊息內文部分。  
+-   <span data-ttu-id="26ee3-123">HTTP 配接器接受其餘的 URI 字串中，問號分隔符號，後面的部分和解碼，並將其複製到 BizTalk 訊息內文部分。</span><span class="sxs-lookup"><span data-stu-id="26ee3-123">The HTTP adapter takes the rest of the URI string, the part after the question mark delimiter, and decodes and copies it into the BizTalk message body part.</span></span>  
   
--   若 HTTP 接收配接器收到空的 HTTP GET 或 HTTP POST 作業，就會拒絕它。  
+-   <span data-ttu-id="26ee3-124">若 HTTP 接收配接器收到空的 HTTP GET 或 HTTP POST 作業，就會拒絕它。</span><span class="sxs-lookup"><span data-stu-id="26ee3-124">If an empty HTTP GET or HTTP POST operation is received by the HTTP receive adapter, it is rejected.</span></span>  
   
-## <a name="http-receive-adapter-processing-of-a-get-request"></a>GET 要求的 HTTP 接收配接器處理  
- 以下範例將顯示 HTTP 接收配接器如何處理 HTTP GET 要求收到的訊息。 這些範例假設 HTTP 接收配接器是使用下列兩個接收位置來設定：  
+## <a name="http-receive-adapter-processing-of-a-get-request"></a><span data-ttu-id="26ee3-125">GET 要求的 HTTP 接收配接器處理</span><span class="sxs-lookup"><span data-stu-id="26ee3-125">HTTP Receive Adapter Processing of a GET Request</span></span>  
+ <span data-ttu-id="26ee3-126">以下範例將顯示 HTTP 接收配接器如何處理 HTTP GET 要求收到的訊息。</span><span class="sxs-lookup"><span data-stu-id="26ee3-126">The following are examples of how the HTTP receive adapter processes messages received by HTTP GET requests.</span></span> <span data-ttu-id="26ee3-127">這些範例假設 HTTP 接收配接器是使用下列兩個接收位置來設定：</span><span class="sxs-lookup"><span data-stu-id="26ee3-127">These examples assume that the HTTP receive adapter is configured with the following two receive locations:</span></span>  
   
 ```  
 /vroot/BTSHTTPReceive.dll  
 /vroot/BTSHTTPReceive.dll?LocationID=1  
 ```  
   
-1.  假設用戶端的 HTTP GET 要求如下：  
+1.  <span data-ttu-id="26ee3-128">假設用戶端的 HTTP GET 要求如下：</span><span class="sxs-lookup"><span data-stu-id="26ee3-128">Given the following HTTP GET request for the client:</span></span>  
   
     ```  
     http://servername/vroot/BTSHTTPReceive.dll?LocationID=1  
     ```  
   
-     HTTP 接收配接器採取的動作如下：  
+     <span data-ttu-id="26ee3-129">HTTP 接收配接器採取的動作如下：</span><span class="sxs-lookup"><span data-stu-id="26ee3-129">The action taken by the HTTP receive adapter is as follows:</span></span>  
   
-     設定**InboundTransportLocation**屬性在訊息內容等於 /vroot/BTSHTTPReceive.dll，以及 BizTalk 訊息物件內文部分為 LocationID = 1。  
+     <span data-ttu-id="26ee3-130">設定**InboundTransportLocation**屬性在訊息內容等於 /vroot/BTSHTTPReceive.dll，以及 BizTalk 訊息物件內文部分為 LocationID = 1。</span><span class="sxs-lookup"><span data-stu-id="26ee3-130">Set the **InboundTransportLocation** property on the message context equal to /vroot/BTSHTTPReceive.dll, and the BizTalk Message object body part equal to LocationID=1.</span></span>  
   
-2.  假設用戶端的 HTTP GET 要求如下：  
+2.  <span data-ttu-id="26ee3-131">假設用戶端的 HTTP GET 要求如下：</span><span class="sxs-lookup"><span data-stu-id="26ee3-131">Given the following HTTP GET request for the client:</span></span>  
   
     ```  
     http://servername/vroot/BTSHTTPReceive.dll?LocationID=1&MyParam=My%20Value  
     ```  
   
-     HTTP 接收配接器採取的動作如下：  
+     <span data-ttu-id="26ee3-132">HTTP 接收配接器採取的動作如下：</span><span class="sxs-lookup"><span data-stu-id="26ee3-132">The action taken by the HTTP receive adapter is as follows:</span></span>  
   
-     設定**InboundTransportLocation**屬性等於 /vroot/BTSHTTPReceive.dll 和 BizTalk Message 物件內文部分設為 LocationID = 1&myparam = My Value。  
+     <span data-ttu-id="26ee3-133">設定**InboundTransportLocation**屬性等於 /vroot/BTSHTTPReceive.dll 和 BizTalk Message 物件內文部分設為 LocationID = 1&myparam = My Value。</span><span class="sxs-lookup"><span data-stu-id="26ee3-133">Set the **InboundTransportLocation** property equal to /vroot/BTSHTTPReceive.dll, and the BizTalk Message object body part equal to LocationID=1&MyParam=My Value.</span></span>  
   
-3.  假設用戶端的 HTTP GET 要求如下：  
+3.  <span data-ttu-id="26ee3-134">假設用戶端的 HTTP GET 要求如下：</span><span class="sxs-lookup"><span data-stu-id="26ee3-134">Given the following HTTP GET request for the client:</span></span>  
   
     ```  
     http://servername/vroot/BTSHTTPReceive.dll  
     ```  
   
-     HTTP 接收配接器採取的動作如下：  
+     <span data-ttu-id="26ee3-135">HTTP 接收配接器採取的動作如下：</span><span class="sxs-lookup"><span data-stu-id="26ee3-135">The action taken by the HTTP receive adapter is+ as follows:</span></span>  
   
-     拒絕由於 HTTP GET 要求格式不正確而發出的要求。  
+     <span data-ttu-id="26ee3-136">拒絕由於 HTTP GET 要求格式不正確而發出的要求。</span><span class="sxs-lookup"><span data-stu-id="26ee3-136">Reject the request due to incorrect formatting of the HTTP GET request.</span></span>  
   
-## <a name="batching-support-for-the-http-receive-adapter"></a>HTTP 接收配接器的批次支援  
- HTTP 接收配接器會將訊息以批次方式提交至伺服器。 用以提交訊息至伺服器的批次大小，可在 HTTP 配接器接收處理常式上設定。  
+## <a name="batching-support-for-the-http-receive-adapter"></a><span data-ttu-id="26ee3-137">HTTP 接收配接器的批次支援</span><span class="sxs-lookup"><span data-stu-id="26ee3-137">Batching Support for the HTTP Receive Adapter</span></span>  
+ <span data-ttu-id="26ee3-138">HTTP 接收配接器會將訊息以批次方式提交至伺服器。</span><span class="sxs-lookup"><span data-stu-id="26ee3-138">The HTTP receive adapter submits messages to the server in batches.</span></span> <span data-ttu-id="26ee3-139">用以提交訊息至伺服器的批次大小，可在 HTTP 配接器接收處理常式上設定。</span><span class="sxs-lookup"><span data-stu-id="26ee3-139">The size of the batch used to submit messages to the server can be configured on the HTTP adapter receive handler.</span></span>  
   
-## <a name="http-receive-adapter-support-for-suspending-failed-requests"></a>HTTP 接收配接器支援擱置失敗的要求  
- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] HTTP 接收配接器的組態設定值，**擱置失敗的要求**，以控制發生什麼情況的 HTTP 要求與接收管線失敗、 對應失敗，因為輸入的處理失敗或路由失敗。 此設定有兩個可能的值：  
+## <a name="http-receive-adapter-support-for-suspending-failed-requests"></a><span data-ttu-id="26ee3-140">HTTP 接收配接器支援擱置失敗的要求</span><span class="sxs-lookup"><span data-stu-id="26ee3-140">HTTP Receive Adapter Support for Suspending Failed Requests</span></span>  
+ <span data-ttu-id="26ee3-141">[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] HTTP 接收配接器的組態設定值，**擱置失敗的要求**，以控制發生什麼情況的 HTTP 要求與接收管線失敗、 對應失敗，因為輸入的處理失敗或路由失敗。</span><span class="sxs-lookup"><span data-stu-id="26ee3-141">The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] HTTP receive adapter has a configuration setting, **Suspend Failed Requests**, to control what happens with an HTTP request if it fails inbound processing due to a receive pipeline failure, a mapping failure, or a routing failure.</span></span> <span data-ttu-id="26ee3-142">此設定有兩個可能的值：</span><span class="sxs-lookup"><span data-stu-id="26ee3-142">The setting has two possible values:</span></span>  
   
--   **為 false。** 這是預設值。 HTTP 接收配接器會捨棄因接收管線失敗、對應失敗或路由傳送失敗，而造成輸入處理失敗的訊息。 此外，會傳送錯誤狀態碼 401 或 500 至用戶端。 這與 [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)] 中之 HTTP 接收配接器的行為相同。  
+-   <span data-ttu-id="26ee3-143">**為 false。**</span><span class="sxs-lookup"><span data-stu-id="26ee3-143">**False.**</span></span> <span data-ttu-id="26ee3-144">這是預設值。</span><span class="sxs-lookup"><span data-stu-id="26ee3-144">This is the default setting.</span></span> <span data-ttu-id="26ee3-145">HTTP 接收配接器會捨棄因接收管線失敗、對應失敗或路由傳送失敗，而造成輸入處理失敗的訊息。</span><span class="sxs-lookup"><span data-stu-id="26ee3-145">The HTTP receive adapter discards messages that fail inbound processing due to a receive pipeline failure, a mapping failure, or a routing failure.</span></span> <span data-ttu-id="26ee3-146">此外，會傳送錯誤狀態碼 401 或 500 至用戶端。</span><span class="sxs-lookup"><span data-stu-id="26ee3-146">Additionally, an error status code 401 or 500 is sent to the client.</span></span> <span data-ttu-id="26ee3-147">這與 [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)] 中之 HTTP 接收配接器的行為相同。</span><span class="sxs-lookup"><span data-stu-id="26ee3-147">This is the same behavior as the HTTP receive adapter in [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)].</span></span>  
   
--   **則為 true。** HTTP 接收配接器會擱置因接收管線失敗、對應失敗或路由傳送失敗，而造成輸入處理失敗的訊息。 針對單向接收埠**接受**狀態碼 202 傳送至用戶端。 針對雙向接收埠**錯誤**狀態碼 500 傳送至用戶端。  
+-   <span data-ttu-id="26ee3-148">**則為 true。**</span><span class="sxs-lookup"><span data-stu-id="26ee3-148">**True.**</span></span> <span data-ttu-id="26ee3-149">HTTP 接收配接器會擱置因接收管線失敗、對應失敗或路由傳送失敗，而造成輸入處理失敗的訊息。</span><span class="sxs-lookup"><span data-stu-id="26ee3-149">The HTTP receive adapter suspends messages that fail inbound processing due to a receive pipeline failure, a mapping failure, or a routing failure.</span></span> <span data-ttu-id="26ee3-150">針對單向接收埠**接受**狀態碼 202 傳送至用戶端。</span><span class="sxs-lookup"><span data-stu-id="26ee3-150">For one-way receive ports an **Accepted** status code 202 is sent to the client.</span></span> <span data-ttu-id="26ee3-151">針對雙向接收埠**錯誤**狀態碼 500 傳送至用戶端。</span><span class="sxs-lookup"><span data-stu-id="26ee3-151">For two-way receive ports an **Error** status code 500 is sent to the client.</span></span>  
   
-## <a name="chunked-encoding-support-for-the-http-receive-adapter"></a>HTTP 接收配接器的區塊編碼支援  
- HTTP 接收配接器會接受含有區塊編碼內文訊息的 HTTP 要求。 接收配接器會使用區塊編碼，來傳送內文大小大於 4 KB 的回應訊息。 區塊編碼可以關閉藉由設定中所述的 DWORD 登錄項目[HTTP 配接器組態和調整參數](../core/http-adapter-configuration-and-tuning-parameters.md)  
+## <a name="chunked-encoding-support-for-the-http-receive-adapter"></a><span data-ttu-id="26ee3-152">HTTP 接收配接器的區塊編碼支援</span><span class="sxs-lookup"><span data-stu-id="26ee3-152">Chunked Encoding Support for the HTTP Receive Adapter</span></span>  
+ <span data-ttu-id="26ee3-153">HTTP 接收配接器會接受含有區塊編碼內文訊息的 HTTP 要求。</span><span class="sxs-lookup"><span data-stu-id="26ee3-153">The HTTP receive adapter accepts HTTP requests with chunked encoded body messages.</span></span> <span data-ttu-id="26ee3-154">接收配接器會使用區塊編碼，來傳送內文大小大於 4 KB 的回應訊息。</span><span class="sxs-lookup"><span data-stu-id="26ee3-154">The receive adapter uses chunked encoding to send response messages when the body size is larger than 4 KB.</span></span> <span data-ttu-id="26ee3-155">區塊編碼可以關閉藉由設定中所述的 DWORD 登錄項目[HTTP 配接器組態和調整參數](../core/http-adapter-configuration-and-tuning-parameters.md)</span><span class="sxs-lookup"><span data-stu-id="26ee3-155">Chunked encoding can be turned off by setting the DWORD registry entry described in [HTTP Adapter Configuration and Tuning Parameters](../core/http-adapter-configuration-and-tuning-parameters.md)</span></span>  
   
-## <a name="client-certificates-for-the-http-receive-adapter"></a>HTTP 接收配接器的用戶端憑證  
- 只要為 HTTP 接收位置使用具有用戶端憑證的安全連線，HTTP 接收配接器就會從 Microsoft Internet Information Services (IIS) 取得用戶端憑證指紋，並將它新增至該位置上透過 HTTP 接收之所有訊息的訊息內容中。 HTTP 接收配接器會設定下列的系統屬性：  
+## <a name="client-certificates-for-the-http-receive-adapter"></a><span data-ttu-id="26ee3-156">HTTP 接收配接器的用戶端憑證</span><span class="sxs-lookup"><span data-stu-id="26ee3-156">Client Certificates for the HTTP Receive Adapter</span></span>  
+ <span data-ttu-id="26ee3-157">只要為 HTTP 接收位置使用具有用戶端憑證的安全連線，HTTP 接收配接器就會從 Microsoft Internet Information Services (IIS) 取得用戶端憑證指紋，並將它新增至該位置上透過 HTTP 接收之所有訊息的訊息內容中。</span><span class="sxs-lookup"><span data-stu-id="26ee3-157">Whenever a secure connection with a client certificate is used for the HTTP receive location, the HTTP receive adapter obtains the client certificate thumbprint from Microsoft Internet Information Services (IIS) and adds it to the message context of all messages that were received over HTTPS on that location.</span></span> <span data-ttu-id="26ee3-158">HTTP 接收配接器會設定下列的系統屬性：</span><span class="sxs-lookup"><span data-stu-id="26ee3-158">The HTTP receive adapter sets the following system properties:</span></span>  
   
 ```  
 SourcePartyEvidenceQualifier = "Certificate"  
 SourcePartyEvidence = <certificate thumbprint>  
 ```  
   
-## <a name="status-codes-returned-by-the-http-receive-adapter"></a>HTTP 接收配接器傳回的狀態碼  
- 下列清單包含 HTTP 接收配接器所傳回的狀態碼。  
+## <a name="status-codes-returned-by-the-http-receive-adapter"></a><span data-ttu-id="26ee3-159">HTTP 接收配接器傳回的狀態碼</span><span class="sxs-lookup"><span data-stu-id="26ee3-159">Status Codes Returned by the HTTP Receive Adapter</span></span>  
+ <span data-ttu-id="26ee3-160">下列清單包含 HTTP 接收配接器所傳回的狀態碼。</span><span class="sxs-lookup"><span data-stu-id="26ee3-160">The following list contains status codes returned by the HTTP receive adapter.</span></span>  
   
--   **200 [確定]。** 配接器已成功處理要求訊息並產生回應。 配接器會從 HTTP 要求-回應連接埠傳回 HTTP 回應的狀態碼。  
+-   <span data-ttu-id="26ee3-161">**200 [確定]。**</span><span class="sxs-lookup"><span data-stu-id="26ee3-161">**200 OK.**</span></span> <span data-ttu-id="26ee3-162">配接器已成功處理要求訊息並產生回應。</span><span class="sxs-lookup"><span data-stu-id="26ee3-162">The adapter successfully processed the request message and generated a response.</span></span> <span data-ttu-id="26ee3-163">配接器會從 HTTP 要求-回應連接埠傳回 HTTP 回應的狀態碼。</span><span class="sxs-lookup"><span data-stu-id="26ee3-163">The adapter returns this status code on the HTTP response from the HTTP request-response port.</span></span>  
   
--   **202 已接受訊息。** 配接器已成功將訊息提交至伺服器，或是已擱置單向要求。 配接器會從單向 HTTP 接收埠傳回 HTTP 回應的此狀態碼。  
+-   <span data-ttu-id="26ee3-164">**202 已接受訊息。**</span><span class="sxs-lookup"><span data-stu-id="26ee3-164">**202 Message Accepted.**</span></span> <span data-ttu-id="26ee3-165">配接器已成功將訊息提交至伺服器，或是已擱置單向要求。</span><span class="sxs-lookup"><span data-stu-id="26ee3-165">The adapter successfully submitted the message into the server or a one-way request is suspended.</span></span> <span data-ttu-id="26ee3-166">配接器會從單向 HTTP 接收埠傳回 HTTP 回應的此狀態碼。</span><span class="sxs-lookup"><span data-stu-id="26ee3-166">The adapter returns this status code on the HTTP response from a one way HTTP receive port.</span></span>  
   
--   **401 拒絕存取。** 在需要驗證的接收埠上接收了 HTTP 要求，但該訊息的安全性檢查失敗。 例如，無法解析合作對象或是未解密訊息。  
+-   <span data-ttu-id="26ee3-167">**401 拒絕存取。**</span><span class="sxs-lookup"><span data-stu-id="26ee3-167">**401 Access Denied.**</span></span> <span data-ttu-id="26ee3-168">在需要驗證的接收埠上接收了 HTTP 要求，但該訊息的安全性檢查失敗。</span><span class="sxs-lookup"><span data-stu-id="26ee3-168">The HTTP request is received on an authentication-required receive port and the security check for that message failed.</span></span> <span data-ttu-id="26ee3-169">例如，無法解析合作對象或是未解密訊息。</span><span class="sxs-lookup"><span data-stu-id="26ee3-169">For example, the party was not resolved or the message was not decrypted.</span></span>  
   
--   **500 內部伺服器錯誤。** 處理 HTTP 要求的一般失敗。 除非訊息不由 BizTalk Server 擱置的組態設定**擱置失敗的要求**設**True**的雙向接收埠。  
+-   <span data-ttu-id="26ee3-170">**500 內部伺服器錯誤。**</span><span class="sxs-lookup"><span data-stu-id="26ee3-170">**500 Internal Server Error.**</span></span> <span data-ttu-id="26ee3-171">處理 HTTP 要求的一般失敗。</span><span class="sxs-lookup"><span data-stu-id="26ee3-171">A general failure to process the HTTP request.</span></span> <span data-ttu-id="26ee3-172">除非訊息不由 BizTalk Server 擱置的組態設定**擱置失敗的要求**設**True**的雙向接收埠。</span><span class="sxs-lookup"><span data-stu-id="26ee3-172">The message is not suspended by BizTalk Server unless the configuration setting **Suspend Failed Requests** is set to **True** for a two-way receive port.</span></span>  
   
-## <a name="see-also"></a>另請參閱  
- [HTTP 配接器](../core/http-adapter.md)
+## <a name="see-also"></a><span data-ttu-id="26ee3-173">另請參閱</span><span class="sxs-lookup"><span data-stu-id="26ee3-173">See Also</span></span>  
+ [<span data-ttu-id="26ee3-174">HTTP 配接器</span><span class="sxs-lookup"><span data-stu-id="26ee3-174">HTTP Adapter</span></span>](../core/http-adapter.md)

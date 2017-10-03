@@ -19,27 +19,27 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="processing-hl7-messages"></a>處理 HL7 訊息
-本章節提供的具體說明 HL7 訊息，包括訊息模式、 情節、 訊息類型和訊息格式。  
+# <a name="processing-hl7-messages"></a><span data-ttu-id="14f39-102">處理 HL7 訊息</span><span class="sxs-lookup"><span data-stu-id="14f39-102">Processing HL7 Messages</span></span>
+<span data-ttu-id="14f39-103">本章節提供的具體說明 HL7 訊息，包括訊息模式、 情節、 訊息類型和訊息格式。</span><span class="sxs-lookup"><span data-stu-id="14f39-103">This section provides specifics about HL7 messages, including message modes, scenarios, message types, and message formatting.</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="14f39-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="14f39-104">In This Section</span></span>  
   
--   [HL7 訊息結構](../../adapters-and-accelerators/accelerator-hl7/hl7-message-structure.md)  
+-   [<span data-ttu-id="14f39-105">HL7 訊息結構</span><span class="sxs-lookup"><span data-stu-id="14f39-105">HL7 Message Structure</span></span>](../../adapters-and-accelerators/accelerator-hl7/hl7-message-structure.md)  
   
--   [訊息部分](../../adapters-and-accelerators/accelerator-hl7/message-parts.md)  
+-   [<span data-ttu-id="14f39-106">訊息部分</span><span class="sxs-lookup"><span data-stu-id="14f39-106">Message Parts</span></span>](../../adapters-and-accelerators/accelerator-hl7/message-parts.md)  
   
--   [區段和欄位](../../adapters-and-accelerators/accelerator-hl7/segment-and-field.md)  
+-   [<span data-ttu-id="14f39-107">區段和欄位</span><span class="sxs-lookup"><span data-stu-id="14f39-107">Segment and Field</span></span>](../../adapters-and-accelerators/accelerator-hl7/segment-and-field.md)  
   
--   [訊息的分隔符號](../../adapters-and-accelerators/accelerator-hl7/message-delimiters.md)  
+-   [<span data-ttu-id="14f39-108">訊息的分隔符號</span><span class="sxs-lookup"><span data-stu-id="14f39-108">Message Delimiters</span></span>](../../adapters-and-accelerators/accelerator-hl7/message-delimiters.md)  
   
--   [資料類型](../../adapters-and-accelerators/accelerator-hl7/data-types.md)  
+-   [<span data-ttu-id="14f39-109">資料類型</span><span class="sxs-lookup"><span data-stu-id="14f39-109">Data Types</span></span>](../../adapters-and-accelerators/accelerator-hl7/data-types.md)  
   
--   [詞彙](../../adapters-and-accelerators/accelerator-hl7/vocabulary.md)  
+-   [<span data-ttu-id="14f39-110">詞彙</span><span class="sxs-lookup"><span data-stu-id="14f39-110">Vocabulary</span></span>](../../adapters-and-accelerators/accelerator-hl7/vocabulary.md)  
   
--   [自訂訊息透過 Z 物件](../../adapters-and-accelerators/accelerator-hl7/customizing-messages-through-z-objects.md)  
+-   [<span data-ttu-id="14f39-111">自訂訊息透過 Z 物件</span><span class="sxs-lookup"><span data-stu-id="14f39-111">Customizing Messages through Z Objects</span></span>](../../adapters-and-accelerators/accelerator-hl7/customizing-messages-through-z-objects.md)  
   
--   [訊息編碼](../../adapters-and-accelerators/accelerator-hl7/message-encodings.md)  
+-   [<span data-ttu-id="14f39-112">訊息編碼</span><span class="sxs-lookup"><span data-stu-id="14f39-112">Message Encodings</span></span>](../../adapters-and-accelerators/accelerator-hl7/message-encodings.md)  
   
--   [使用內容屬性](../../adapters-and-accelerators/accelerator-hl7/using-context-properties.md)  
+-   [<span data-ttu-id="14f39-113">使用內容屬性</span><span class="sxs-lookup"><span data-stu-id="14f39-113">Using Context Properties</span></span>](../../adapters-and-accelerators/accelerator-hl7/using-context-properties.md)  
   
--   [使用任意文字的字元編碼](../../adapters-and-accelerators/accelerator-hl7/encoding-characters-using-free-text.md)
+-   [<span data-ttu-id="14f39-114">使用任意文字的字元編碼</span><span class="sxs-lookup"><span data-stu-id="14f39-114">Encoding Characters using Free Text</span></span>](../../adapters-and-accelerators/accelerator-hl7/encoding-characters-using-free-text.md)

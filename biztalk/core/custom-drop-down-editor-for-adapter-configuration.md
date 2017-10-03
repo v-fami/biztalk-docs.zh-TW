@@ -18,10 +18,10 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="custom-drop-down-editor-for-adapter-configuration"></a>配接器組態的自訂下拉式編輯器
-自訂編輯器的程式碼會示範衍生自編輯器**System.Drawing.Design.UITypeEditor**類別，可顯示下拉式文字方塊中，供您輸入密碼。 **GetEditStyle**覆寫會傳回**UIEditorEditStyle.DropDown**表示下拉式子控制項。 服務方法**DropDownControl**和**CloseDropDown**管理與建立控制項**CreatePassword**。  
+# <a name="custom-drop-down-editor-for-adapter-configuration"></a><span data-ttu-id="4bdf6-102">配接器組態的自訂下拉式編輯器</span><span class="sxs-lookup"><span data-stu-id="4bdf6-102">Custom Drop-Down Editor for Adapter Configuration</span></span>
+<span data-ttu-id="4bdf6-103">自訂編輯器的程式碼會示範衍生自編輯器**System.Drawing.Design.UITypeEditor**類別，可顯示下拉式文字方塊中，供您輸入密碼。</span><span class="sxs-lookup"><span data-stu-id="4bdf6-103">The code for the custom editor shows an editor derived from the **System.Drawing.Design.UITypeEditor** class that displays a drop-down text box for entering a password.</span></span> <span data-ttu-id="4bdf6-104">**GetEditStyle**覆寫會傳回**UIEditorEditStyle.DropDown**表示下拉式子控制項。</span><span class="sxs-lookup"><span data-stu-id="4bdf6-104">The **GetEditStyle** override returns **UIEditorEditStyle.DropDown** to indicate a drop-down subcontrol.</span></span> <span data-ttu-id="4bdf6-105">服務方法**DropDownControl**和**CloseDropDown**管理與建立控制項**CreatePassword**。</span><span class="sxs-lookup"><span data-stu-id="4bdf6-105">The service methods **DropDownControl** and **CloseDropDown** manage the control created with **CreatePassword**.</span></span>  
   
- 下列程式碼為此自訂下拉式編輯器的類別定義：  
+ <span data-ttu-id="4bdf6-106">下列程式碼為此自訂下拉式編輯器的類別定義：</span><span class="sxs-lookup"><span data-stu-id="4bdf6-106">The following code is the class definition for the custom drop-down editor:</span></span>  
   
 ```  
 /*************************************************************************  
@@ -93,8 +93,8 @@ namespace AdapterManagement.ComponentModel {
 } // Microsoft.BizTalk.Adapter.Framework.ComponentModel  
 ```  
   
-## <a name="see-also"></a>另請參閱  
- [自訂配接器組態設計工具](../core/custom-adapter-configuration-designer.md)   
- [配接器組態的自訂強制回應對話方塊編輯器](../core/custom-modal-dialog-editor-for-adapter-configuration.md)   
- [配接器組態的自訂類型轉換器](../core/custom-type-converter-for-adapter-configuration.md)   
- [配接器的進階的組態元件](../core/advanced-configuration-components-for-adapters.md)
+## <a name="see-also"></a><span data-ttu-id="4bdf6-107">另請參閱</span><span class="sxs-lookup"><span data-stu-id="4bdf6-107">See Also</span></span>  
+ <span data-ttu-id="4bdf6-108">[自訂配接器組態設計工具](../core/custom-adapter-configuration-designer.md) </span><span class="sxs-lookup"><span data-stu-id="4bdf6-108">[Custom Adapter Configuration Designer](../core/custom-adapter-configuration-designer.md) </span></span>  
+ <span data-ttu-id="4bdf6-109">[配接器組態的自訂強制回應對話方塊編輯器](../core/custom-modal-dialog-editor-for-adapter-configuration.md) </span><span class="sxs-lookup"><span data-stu-id="4bdf6-109">[Custom Modal Dialog Editor for Adapter Configuration](../core/custom-modal-dialog-editor-for-adapter-configuration.md) </span></span>  
+ <span data-ttu-id="4bdf6-110">[配接器組態的自訂類型轉換器](../core/custom-type-converter-for-adapter-configuration.md) </span><span class="sxs-lookup"><span data-stu-id="4bdf6-110">[Custom Type Converter for Adapter Configuration](../core/custom-type-converter-for-adapter-configuration.md) </span></span>  
+ [<span data-ttu-id="4bdf6-111">配接器的進階的組態元件</span><span class="sxs-lookup"><span data-stu-id="4bdf6-111">Advanced Configuration Components for Adapters</span></span>](../core/advanced-configuration-components-for-adapters.md)

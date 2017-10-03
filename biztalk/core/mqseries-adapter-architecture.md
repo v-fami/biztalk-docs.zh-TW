@@ -21,13 +21,13 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="mqseries-adapter-architecture"></a>MQSeries 配接器架構
-本節介紹 MQSeries 配接器的組件與它們的互動方式。 並簡單描述 MQSeries 佇列的一些項目。  
+# <a name="mqseries-adapter-architecture"></a><span data-ttu-id="8516e-102">MQSeries 配接器架構</span><span class="sxs-lookup"><span data-stu-id="8516e-102">MQSeries Adapter Architecture</span></span>
+<span data-ttu-id="8516e-103">本節介紹 MQSeries 配接器的組件與它們的互動方式。</span><span class="sxs-lookup"><span data-stu-id="8516e-103">This section introduces the parts of the MQSeries adapter and the ways in which they interact.</span></span> <span data-ttu-id="8516e-104">並簡單描述 MQSeries 佇列的一些項目。</span><span class="sxs-lookup"><span data-stu-id="8516e-104">It also briefly describes some elements of MQSeries queues.</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="8516e-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="8516e-105">In This Section</span></span>  
   
--   [MQSeries 配接器的結構](../core/structure-of-the-mqseries-adapter.md)  
+-   [<span data-ttu-id="8516e-106">MQSeries 配接器的結構</span><span class="sxs-lookup"><span data-stu-id="8516e-106">Structure of the MQSeries Adapter</span></span>](../core/structure-of-the-mqseries-adapter.md)  
   
--   [MQSeries 佇列](../core/mqseries-queues.md)  
+-   [<span data-ttu-id="8516e-107">MQSeries 佇列</span><span class="sxs-lookup"><span data-stu-id="8516e-107">MQSeries Queues</span></span>](../core/mqseries-queues.md)  
   
--   [佇列管理支援](../core/support-for-queue-management.md)
+-   [<span data-ttu-id="8516e-108">佇列管理支援</span><span class="sxs-lookup"><span data-stu-id="8516e-108">Support for Queue Management</span></span>](../core/support-for-queue-management.md)

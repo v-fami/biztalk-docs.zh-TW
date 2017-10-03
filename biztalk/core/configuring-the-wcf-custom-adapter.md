@@ -21,15 +21,15 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="configuring-the-wcf-custom-adapter"></a>設定 WCF-Custom 配接器
-本節會說明如何設定 WCF-Custom 配接器。  
+# <a name="configuring-the-wcf-custom-adapter"></a><span data-ttu-id="0e381-102">設定 WCF-Custom 配接器</span><span class="sxs-lookup"><span data-stu-id="0e381-102">Configuring the WCF-Custom Adapter</span></span>
+<span data-ttu-id="0e381-103">本節會說明如何設定 WCF-Custom 配接器。</span><span class="sxs-lookup"><span data-stu-id="0e381-103">This section describes how to configure a WCF-Custom adapter.</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="0e381-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="0e381-104">In This Section</span></span>  
   
--   [如何設定 Wcf-custom 傳送埠](../core/how-to-configure-a-wcf-custom-send-port.md)  
+-   [<span data-ttu-id="0e381-105">如何設定 Wcf-custom 傳送埠</span><span class="sxs-lookup"><span data-stu-id="0e381-105">How to Configure a WCF-Custom Send Port</span></span>](../core/how-to-configure-a-wcf-custom-send-port.md)  
   
--   [如何設定 Wcf-custom 接收位置](../core/how-to-configure-a-wcf-custom-receive-location.md)  
+-   [<span data-ttu-id="0e381-106">如何設定 Wcf-custom 接收位置</span><span class="sxs-lookup"><span data-stu-id="0e381-106">How to Configure a WCF-Custom Receive Location</span></span>](../core/how-to-configure-a-wcf-custom-receive-location.md)  
   
--   [如何設定 Wcf-custom 傳送處理常式](../core/how-to-configure-a-wcf-custom-send-handler.md)  
+-   [<span data-ttu-id="0e381-107">如何設定 Wcf-custom 傳送處理常式</span><span class="sxs-lookup"><span data-stu-id="0e381-107">How to Configure a WCF-Custom Send Handler</span></span>](../core/how-to-configure-a-wcf-custom-send-handler.md)  
   
--   [如何設定 Wcf-custom 接收處理常式](../core/how-to-configure-a-wcf-custom-receive-handler.md)
+-   [<span data-ttu-id="0e381-108">如何設定 Wcf-custom 接收處理常式</span><span class="sxs-lookup"><span data-stu-id="0e381-108">How to Configure a WCF-Custom Receive Handler</span></span>](../core/how-to-configure-a-wcf-custom-receive-handler.md)

@@ -19,8 +19,8 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="invoke-overloaded-functions-and-procedures-in-oracle-database-using-biztalk-server"></a>叫用多載函式，並使用 BizTalk Server 的 Oracle 資料庫中的程序
-預存程序和函式可以多載 Oracle 資料庫中。 [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]支援由多載函式和程序變更作業的目標命名空間。 例如，兩個多載程序的訊息結構看起來像：  
+# <a name="invoke-overloaded-functions-and-procedures-in-oracle-database-using-biztalk-server"></a><span data-ttu-id="6ec6e-102">叫用多載函式，並使用 BizTalk Server 的 Oracle 資料庫中的程序</span><span class="sxs-lookup"><span data-stu-id="6ec6e-102">Invoke Overloaded Functions and Procedures in Oracle Database using BizTalk Server</span></span>
+<span data-ttu-id="6ec6e-103">預存程序和函式可以多載 Oracle 資料庫中。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-103">Stored procedures and functions can be overloaded in an Oracle database.</span></span> <span data-ttu-id="6ec6e-104">[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]支援由多載函式和程序變更作業的目標命名空間。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-104">The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] supports overloaded functions and procedures by changing the target namespace of the operation.</span></span> <span data-ttu-id="6ec6e-105">例如，兩個多載程序的訊息結構看起來像：</span><span class="sxs-lookup"><span data-stu-id="6ec6e-105">For example, the message structure for two overloaded procedures looks like:</span></span>  
   
 ```  
 Stored Procedure Overload 1:  
@@ -38,185 +38,185 @@ Stored Procedure Overload 2:
 \</[SP_NAME]>  
 ```  
   
- SOAP 訊息結構和 SOAP 動作叫用所需的多載函式或程序是用來叫用函式和程序，類似，如底下所述[函數和程序的訊息結構描述](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-functions-and-procedures.md)。  
+ <span data-ttu-id="6ec6e-106">SOAP 訊息結構和 SOAP 動作叫用所需的多載函式或程序是用來叫用函式和程序，類似，如底下所述[函數和程序的訊息結構描述](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-functions-and-procedures.md)。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-106">The SOAP message structure and the SOAP action required to invoke an overloaded function or procedure is similar to invoking a function and procedure, as described under [Message Schemas for Functions and Procedures](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-functions-and-procedures.md).</span></span>  
   
- 叫用多載的程序是類似於叫用任何其他函式中所述[叫用函式和 Oracle 資料庫使用 BizTalk Server 中的程序](../../adapters-and-accelerators/adapter-oracle-database/invoke-functions-and-procedures-in-oracle-database-using-biztalk-server.md)。 若要在區別多載函式，不過[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]將唯一的字串附加至的節點識別碼，它會呈現為多載的成品的命名空間。 此字串是下一個多載，等第一個多載中，「 overload2""overload1"。  
+ <span data-ttu-id="6ec6e-107">叫用多載的程序是類似於叫用任何其他函式中所述[叫用函式和 Oracle 資料庫使用 BizTalk Server 中的程序](../../adapters-and-accelerators/adapter-oracle-database/invoke-functions-and-procedures-in-oracle-database-using-biztalk-server.md)。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-107">Invoking an overloaded procedure is similar to invoking any other function as described in [Invoking Functions and Procedures in Oracle Database Using BizTalk Server](../../adapters-and-accelerators/adapter-oracle-database/invoke-functions-and-procedures-in-oracle-database-using-biztalk-server.md).</span></span> <span data-ttu-id="6ec6e-108">若要在區別多載函式，不過[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]將唯一的字串附加至的節點識別碼，它會呈現為多載的成品的命名空間。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-108">However to differentiate overloaded functions, the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] appends a unique string to the node ID and the namespace that it surfaces for overloaded artifact.</span></span> <span data-ttu-id="6ec6e-109">此字串是下一個多載，等第一個多載中，「 overload2""overload1"。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-109">This string is "overload1" for the first overload, "overload2" for the next overload, and so on.</span></span>  
   
-## <a name="how-to-invoke-overloaded-functions-and-procedures"></a>如何叫用多載函式和程序？  
- 針對 Oracle 資料庫使用執行運算[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]與[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]牽涉到程序中所述的工作[開發 BizTalk 應用程式與 Oracle 資料庫的建置組塊](../../adapters-and-accelerators/adapter-oracle-database/building-blocks-to-develop-biztalk-applications-with-oracle-database.md)。 要叫用 Oracle 資料庫中的函式，這些工作包括：  
+## <a name="how-to-invoke-overloaded-functions-and-procedures"></a><span data-ttu-id="6ec6e-110">如何叫用多載函式和程序？</span><span class="sxs-lookup"><span data-stu-id="6ec6e-110">How to Invoke Overloaded Functions and Procedures?</span></span>  
+ <span data-ttu-id="6ec6e-111">針對 Oracle 資料庫使用執行運算[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]與[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]牽涉到程序中所述的工作[開發 BizTalk 應用程式與 Oracle 資料庫的建置組塊](../../adapters-and-accelerators/adapter-oracle-database/building-blocks-to-develop-biztalk-applications-with-oracle-database.md)。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-111">Performing an operation on an Oracle database using [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] involves procedural tasks described in [Building blocks to develop BizTalk Applications with Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/building-blocks-to-develop-biztalk-applications-with-oracle-database.md).</span></span> <span data-ttu-id="6ec6e-112">要叫用 Oracle 資料庫中的函式，這些工作包括：</span><span class="sxs-lookup"><span data-stu-id="6ec6e-112">To invoke a function in an Oracle database, these tasks are:</span></span>  
   
-1.  建立 BizTalk 專案，並產生您想要叫用 Oracle 資料庫中的多載函式的結構描述。  
+1.  <span data-ttu-id="6ec6e-113">建立 BizTalk 專案，並產生您想要叫用 Oracle 資料庫中的多載函式的結構描述。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-113">Create a BizTalk project and generate schema for the overloaded function you want to invoke in an Oracle database.</span></span>  
   
-2.  建立傳送和從 Oracle 資料庫接收訊息的 BizTalk 專案中的訊息。 您必須建立每個多載的訊息。  
+2.  <span data-ttu-id="6ec6e-114">建立傳送和從 Oracle 資料庫接收訊息的 BizTalk 專案中的訊息。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-114">Create messages in the BizTalk project for sending and receiving messages from the Oracle database.</span></span> <span data-ttu-id="6ec6e-115">您必須建立每個多載的訊息。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-115">You must create messages for each overload.</span></span>  
   
-3.  建立協調流程叫用 Oracle 資料庫中的多載函式。  
+3.  <span data-ttu-id="6ec6e-116">建立協調流程叫用 Oracle 資料庫中的多載函式。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-116">Create an orchestration to invoke the overloaded function in the Oracle database.</span></span>  
   
-4.  建置和部署 BizTalk 專案。  
+4.  <span data-ttu-id="6ec6e-117">建置和部署 BizTalk 專案。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-117">Build and deploy the BizTalk project.</span></span>  
   
-5.  設定的 BizTalk 應用程式藉由建立實體傳送和接收埠。  
+5.  <span data-ttu-id="6ec6e-118">設定的 BizTalk 應用程式藉由建立實體傳送和接收埠。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-118">Configure the BizTalk application by creating physical send and receive ports.</span></span>  
   
-6.  啟動 BizTalk 應用程式。  
+6.  <span data-ttu-id="6ec6e-119">啟動 BizTalk 應用程式。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-119">Start the BizTalk application.</span></span>  
   
- 本主題提供執行這些工作的指示。  
+ <span data-ttu-id="6ec6e-120">本主題提供執行這些工作的指示。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-120">This topic provides instructions to perform these tasks.</span></span>  
   
-## <a name="sample-based-on-this-topic"></a>根據本主題的範例  
- 基礎的範例，InvokeOverloadedProc，本主題也會提供[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]。 如需詳細資訊，請參閱[配接器範例](../../adapters-and-accelerators/accelerator-rosettanet/adapter-samples.md)。  
+## <a name="sample-based-on-this-topic"></a><span data-ttu-id="6ec6e-121">根據本主題的範例</span><span class="sxs-lookup"><span data-stu-id="6ec6e-121">Sample Based On This Topic</span></span>  
+ <span data-ttu-id="6ec6e-122">基礎的範例，InvokeOverloadedProc，本主題也會提供[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-122">A sample, InvokeOverloadedProc, based on this topic is also provided with the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)].</span></span> <span data-ttu-id="6ec6e-123">如需詳細資訊，請參閱[配接器範例](../../adapters-and-accelerators/accelerator-rosettanet/adapter-samples.md)。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-123">For more information, see [Adapter Samples](../../adapters-and-accelerators/accelerator-rosettanet/adapter-samples.md).</span></span>  
   
-## <a name="generating-schema"></a>產生結構描述  
- 本主題中，以示範如何叫用的多載函式或程序，我們會叫用 SCOTT\Package\ACCOUNT_PKG 結構描述在 GET_ACCOUNT 程序。 此套件會建立下 SCOTT 結構描述，執行下列 SQL 指令碼提供範例。 這是多載的程序位置：  
+## <a name="generating-schema"></a><span data-ttu-id="6ec6e-124">產生結構描述</span><span class="sxs-lookup"><span data-stu-id="6ec6e-124">Generating Schema</span></span>  
+ <span data-ttu-id="6ec6e-125">本主題中，以示範如何叫用的多載函式或程序，我們會叫用 SCOTT\Package\ACCOUNT_PKG 結構描述在 GET_ACCOUNT 程序。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-125">In this topic, to demonstrate how to invoke an overloaded function or procedure, we will invoke the GET_ACCOUNT procedure under the SCOTT\Package\ACCOUNT_PKG schema.</span></span> <span data-ttu-id="6ec6e-126">此套件會建立下 SCOTT 結構描述，執行下列 SQL 指令碼提供範例。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-126">This package is created under the SCOTT schema by running the SQL scripts provided with the samples.</span></span> <span data-ttu-id="6ec6e-127">這是多載的程序位置：</span><span class="sxs-lookup"><span data-stu-id="6ec6e-127">This is an overloaded procedure where:</span></span>  
   
--   一個多載會接受做為 IN 參數的帳戶識別碼，並做為 OUT 參數傳回帳戶 %rowtype。  
+-   <span data-ttu-id="6ec6e-128">一個多載會接受做為 IN 參數的帳戶識別碼，並做為 OUT 參數傳回帳戶 %rowtype。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-128">One overload takes the account ID as the IN parameter and returns an ACCOUNT%ROWTYPE as OUT parameter.</span></span>  
   
--   第二個多載會採用做為 IN 參數的帳戶名稱，然後做為 OUT 參數，則會傳回帳戶 %rowtype。  
+-   <span data-ttu-id="6ec6e-129">第二個多載會採用做為 IN 參數的帳戶名稱，然後做為 OUT 參數，則會傳回帳戶 %rowtype。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-129">Second overload takes the account name as the IN parameter and returns an ACCOUNT%ROWTYPE as OUT parameter.</span></span>  
   
- 若要深入了解範例和 SQL 指令碼，請參閱[結構描述範例](../../adapters-and-accelerators/accelerator-rosettanet/schema-samples.md)。  
+ <span data-ttu-id="6ec6e-130">若要深入了解範例和 SQL 指令碼，請參閱[結構描述範例](../../adapters-and-accelerators/accelerator-rosettanet/schema-samples.md)。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-130">To know more about the samples and the SQL scripts, see [Schema Samples](../../adapters-and-accelerators/accelerator-rosettanet/schema-samples.md).</span></span>  
   
- 要叫用多載的函式，我們會產生兩個多載程序，GET_ACCOUNT.1 和 GET_ACCOUNT.2 的結構描述。 請參閱[擷取 Visual Studio 中的 Oracle 資料庫作業的中繼資料](../../adapters-and-accelerators/adapter-oracle-database/get-metadata-for-oracle-database-operations-in-visual-studio.md)如需有關如何產生結構描述。  
+ <span data-ttu-id="6ec6e-131">要叫用多載的函式，我們會產生兩個多載程序，GET_ACCOUNT.1 和 GET_ACCOUNT.2 的結構描述。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-131">To invoke an overloaded function, we generate schema for both the overloaded procedures, GET_ACCOUNT.1 and GET_ACCOUNT.2.</span></span> <span data-ttu-id="6ec6e-132">請參閱[擷取 Visual Studio 中的 Oracle 資料庫作業的中繼資料](../../adapters-and-accelerators/adapter-oracle-database/get-metadata-for-oracle-database-operations-in-visual-studio.md)如需有關如何產生結構描述。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-132">See [Retrieve metadata for Oracle Database operations in Visual Studio](../../adapters-and-accelerators/adapter-oracle-database/get-metadata-for-oracle-database-operations-in-visual-studio.md) for more information about how to generate schema.</span></span>  
   
-## <a name="defining-messages-and-message-types"></a>定義訊息和訊息類型  
- 您先前產生的結構描述會描述 「 類型 」 所需的協調流程中的訊息。 訊息通常是為其型別由對應的結構描述所定義的變數。 您必須連結產生的結構描述您在第一個步驟中的訊息從 BizTalk 專案的 [協調流程檢視] 視窗。  
+## <a name="defining-messages-and-message-types"></a><span data-ttu-id="6ec6e-133">定義訊息和訊息類型</span><span class="sxs-lookup"><span data-stu-id="6ec6e-133">Defining Messages and Message Types</span></span>  
+ <span data-ttu-id="6ec6e-134">您先前產生的結構描述會描述 「 類型 」 所需的協調流程中的訊息。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-134">The schema that you generated earlier describes the "types" required for the messages in the orchestration.</span></span> <span data-ttu-id="6ec6e-135">訊息通常是為其型別由對應的結構描述所定義的變數。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-135">A message is typically a variable, the type for which is defined by the corresponding schema.</span></span> <span data-ttu-id="6ec6e-136">您必須連結產生的結構描述您在第一個步驟中的訊息從 BizTalk 專案的 [協調流程檢視] 視窗。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-136">You must link the schema you generated in the first step to the messages from the Orchestration View window of the BizTalk project.</span></span>  
   
- 本主題中，您必須建立兩個要求-回應訊息集 — 一個要求-回應來設定的第一個多載程序與第二個要求-回應設定的第二個多載程序。  
+ <span data-ttu-id="6ec6e-137">本主題中，您必須建立兩個要求-回應訊息集 — 一個要求-回應來設定的第一個多載程序與第二個要求-回應設定的第二個多載程序。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-137">For this topic, you must create two request-response message sets—one request-response set for the first overloaded procedure and the second request-response set for the second overloaded procedure.</span></span>  
   
- 執行下列步驟來建立訊息，並將其連結至結構描述。  
+ <span data-ttu-id="6ec6e-138">執行下列步驟來建立訊息，並將其連結至結構描述。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-138">Perform the following steps to create messages and link them to the schema.</span></span>  
   
-#### <a name="to-create-messages-and-link-to-schema"></a>建立訊息，以及連結至結構描述  
+#### <a name="to-create-messages-and-link-to-schema"></a><span data-ttu-id="6ec6e-139">建立訊息，以及連結至結構描述</span><span class="sxs-lookup"><span data-stu-id="6ec6e-139">To create messages and link to schema</span></span>  
   
-1.  如果它尚未開啟，請開啟 BizTalk 專案中，[協調流程檢視] 視窗。 若要這樣做，請按一下**檢視**，指向 **其他視窗**，然後按一下 **協調流程檢視**。  
+1.  <span data-ttu-id="6ec6e-140">如果它尚未開啟，請開啟 BizTalk 專案中，[協調流程檢視] 視窗。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-140">Open the Orchestration View window of the BizTalk project, if it is not already open.</span></span> <span data-ttu-id="6ec6e-141">若要這樣做，請按一下**檢視**，指向 **其他視窗**，然後按一下 **協調流程檢視**。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-141">To do so, click **View**, point to **Other Windows**, and then click **Orchestration View**.</span></span>  
   
-2.  在協調流程檢視中，以滑鼠右鍵按一下**訊息**，然後按一下 **新訊息**。  
+2.  <span data-ttu-id="6ec6e-142">在協調流程檢視中，以滑鼠右鍵按一下**訊息**，然後按一下 **新訊息**。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-142">In Orchestration View, right-click **Messages**, and then click **New Message**.</span></span>  
   
-3.  以滑鼠右鍵按一下新建立的訊息，然後選取**屬性 視窗**。  
+3.  <span data-ttu-id="6ec6e-143">以滑鼠右鍵按一下新建立的訊息，然後選取**屬性 視窗**。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-143">Right-click the newly created message, and then select **Properties Window**.</span></span>  
   
-4.  在**屬性**窗格**Message_1**，執行下列動作：  
+4.  <span data-ttu-id="6ec6e-144">在**屬性**窗格**Message_1**，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="6ec6e-144">In the **Properties** pane for **Message_1**, do the following:</span></span>  
   
-    |使用|動作|  
+    |<span data-ttu-id="6ec6e-145">使用</span><span class="sxs-lookup"><span data-stu-id="6ec6e-145">Use this</span></span>|<span data-ttu-id="6ec6e-146">動作</span><span class="sxs-lookup"><span data-stu-id="6ec6e-146">To do this</span></span>|  
     |--------------|----------------|  
-    |識別碼|型別**要求**。|  
-    |訊息類型|從下拉式清單中，展開 **結構描述**，然後選取*InvokeOverloadedProc.OracleDBBindingSchema.GET_ACCOUNT*，其中*InvokeOverloadedProc*的名稱您的 BizTalk 專案。 *OracleDBBindingSchema*是 GET_ACCOUNT 程序產生的結構描述。|  
+    |<span data-ttu-id="6ec6e-147">識別碼</span><span class="sxs-lookup"><span data-stu-id="6ec6e-147">Identifier</span></span>|<span data-ttu-id="6ec6e-148">型別**要求**。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-148">Type **Request**.</span></span>|  
+    |<span data-ttu-id="6ec6e-149">訊息類型</span><span class="sxs-lookup"><span data-stu-id="6ec6e-149">Message Type</span></span>|<span data-ttu-id="6ec6e-150">從下拉式清單中，展開 **結構描述**，然後選取*InvokeOverloadedProc.OracleDBBindingSchema.GET_ACCOUNT*，其中*InvokeOverloadedProc*的名稱您的 BizTalk 專案。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-150">From the drop-down list, expand **Schemas**, and select *InvokeOverloadedProc.OracleDBBindingSchema.GET_ACCOUNT*, where *InvokeOverloadedProc* is the name of your BizTalk project.</span></span> <span data-ttu-id="6ec6e-151">*OracleDBBindingSchema*是 GET_ACCOUNT 程序產生的結構描述。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-151">*OracleDBBindingSchema* is the schema generated for the GET_ACCOUNT procedure.</span></span>|  
   
-5.  重複上述步驟，建立三個的多個訊息。 在**屬性**窗格，以新的訊息，執行下列動作：  
+5.  <span data-ttu-id="6ec6e-152">重複上述步驟，建立三個的多個訊息。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-152">Repeat the previous step to create three more messages.</span></span> <span data-ttu-id="6ec6e-153">在**屬性**窗格，以新的訊息，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="6ec6e-153">In the **Properties** pane for the new messages, do the following:</span></span>  
   
-    |若要設定識別項|若要設定訊息類型|  
+    |<span data-ttu-id="6ec6e-154">若要設定識別項</span><span class="sxs-lookup"><span data-stu-id="6ec6e-154">Set Identifier to</span></span>|<span data-ttu-id="6ec6e-155">若要設定訊息類型</span><span class="sxs-lookup"><span data-stu-id="6ec6e-155">Set Message Type to</span></span>|  
     |-----------------------|-------------------------|  
-    |回應|*InvokeOverloadedProc.OracleDBBindingSchema.GET_ACCOUNTResponse*|  
-    |Request2|*InvokeOverloadedProc.OracleDBBindingSchema1.GET_ACCOUNT*|  
-    |Response2|*InvokeOverloadedProc.OracleDBBindingSchema1.GET_ACCOUNTResponse*|  
+    |<span data-ttu-id="6ec6e-156">回應</span><span class="sxs-lookup"><span data-stu-id="6ec6e-156">Response</span></span>|<span data-ttu-id="6ec6e-157">*InvokeOverloadedProc.OracleDBBindingSchema.GET_ACCOUNTResponse*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-157">*InvokeOverloadedProc.OracleDBBindingSchema.GET_ACCOUNTResponse*</span></span>|  
+    |<span data-ttu-id="6ec6e-158">Request2</span><span class="sxs-lookup"><span data-stu-id="6ec6e-158">Request2</span></span>|<span data-ttu-id="6ec6e-159">*InvokeOverloadedProc.OracleDBBindingSchema1.GET_ACCOUNT*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-159">*InvokeOverloadedProc.OracleDBBindingSchema1.GET_ACCOUNT*</span></span>|  
+    |<span data-ttu-id="6ec6e-160">Response2</span><span class="sxs-lookup"><span data-stu-id="6ec6e-160">Response2</span></span>|<span data-ttu-id="6ec6e-161">*InvokeOverloadedProc.OracleDBBindingSchema1.GET_ACCOUNTResponse*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-161">*InvokeOverloadedProc.OracleDBBindingSchema1.GET_ACCOUNTResponse*</span></span>|  
   
-## <a name="setting-up-the-orchestration"></a>設定協調流程  
- 您必須建立 BizTalk 協調流程使用[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]叫用 Oracle 資料庫中的多載程序。 在此協調流程，您卸除兩個要求訊息，各自對應到每個多載的程序，在定義接收位置。 [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]取用訊息，並將其傳遞到 Oracle 資料庫中，透過 ODP。 從 Oracle 資料庫的回應會儲存到另一個位置。  
+## <a name="setting-up-the-orchestration"></a><span data-ttu-id="6ec6e-162">設定協調流程</span><span class="sxs-lookup"><span data-stu-id="6ec6e-162">Setting up the Orchestration</span></span>  
+ <span data-ttu-id="6ec6e-163">您必須建立 BizTalk 協調流程使用[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]叫用 Oracle 資料庫中的多載程序。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-163">You must create a BizTalk orchestration to use [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] for invoking an overloaded procedure in an Oracle database.</span></span> <span data-ttu-id="6ec6e-164">在此協調流程，您卸除兩個要求訊息，各自對應到每個多載的程序，在定義接收位置。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-164">In this orchestration, you drop two request messages, one corresponding to each overloaded procedure, at the defined receive location.</span></span> <span data-ttu-id="6ec6e-165">[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]取用訊息，並將其傳遞到 Oracle 資料庫中，透過 ODP。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-165">The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] consumes the messages and passes them on to the Oracle database via ODP.</span></span> <span data-ttu-id="6ec6e-166">從 Oracle 資料庫的回應會儲存到另一個位置。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-166">The response from the Oracle database is saved to another location.</span></span>  
   
- 因為協調流程會挑選兩個要求同時，您需要在協調流程中包含平行動作圖形。 針對每個平行的動作，您必須包含傳送和接收圖形以將訊息傳送至 Oracle 資料庫，並接收回應。 不過，您可以使用相同的連接埠來傳送和接收訊息，這兩個作業。 典型的協調流程，同時叫用多載程序就會包含：  
+ <span data-ttu-id="6ec6e-167">因為協調流程會挑選兩個要求同時，您需要在協調流程中包含平行動作圖形。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-167">Because the orchestration picks two requests simultaneously, you need to include a Parallel Actions shape in the orchestration.</span></span> <span data-ttu-id="6ec6e-168">針對每個平行的動作，您必須包含傳送和接收圖形以將訊息傳送至 Oracle 資料庫，並接收回應。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-168">For each parallel action, you must include Send and Receive shapes to send messages to the Oracle database and receive responses.</span></span> <span data-ttu-id="6ec6e-169">不過，您可以使用相同的連接埠來傳送和接收訊息，這兩個作業。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-169">However, you could use the same ports for sending and receiving messages for both operations.</span></span> <span data-ttu-id="6ec6e-170">典型的協調流程，同時叫用多載程序就會包含：</span><span class="sxs-lookup"><span data-stu-id="6ec6e-170">A typical orchestration for invoking the overloaded procedures simultaneously would contain:</span></span>  
   
--   傳送和接收圖形以將訊息傳送至 Oracle 資料庫，並接收回應。  
+-   <span data-ttu-id="6ec6e-171">傳送和接收圖形以將訊息傳送至 Oracle 資料庫，並接收回應。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-171">Send and Receive shapes to send messages to Oracle database and receive responses.</span></span>  
   
--   單向接收埠以接收要求訊息傳送到 Oracle 資料庫。  
+-   <span data-ttu-id="6ec6e-172">單向接收埠以接收要求訊息傳送到 Oracle 資料庫。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-172">A one-way receive port to receive request messages to send to the Oracle database.</span></span>  
   
--   雙向傳送埠以傳送要求訊息到 Oracle 資料庫，並接收回應。  
+-   <span data-ttu-id="6ec6e-173">雙向傳送埠以傳送要求訊息到 Oracle 資料庫，並接收回應。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-173">A two-way send port to send request messages to Oracle database and receive responses.</span></span>  
   
--   單向傳送埠，以便從 Oracle 資料庫的回應傳送到資料夾。  
+-   <span data-ttu-id="6ec6e-174">單向傳送埠，以便從 Oracle 資料庫的回應傳送到資料夾。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-174">A one-way send port to send the responses from Oracle database to a folder.</span></span>  
   
- 範例協調流程叫用 GET_ACCOUNT 程序的第一個和第二個多載，如下所示：  
+ <span data-ttu-id="6ec6e-175">範例協調流程叫用 GET_ACCOUNT 程序的第一個和第二個多載，如下所示：</span><span class="sxs-lookup"><span data-stu-id="6ec6e-175">A sample orchestration to invoke the first and second overloads for GET_ACCOUNT procedure resembles the following:</span></span>  
   
- ![協調流程叫用的多載套件](../../adapters-and-accelerators/adapter-oracle-database/media/f8e4ad6f-9140-43b1-b931-28c9ba11cc8e.gif "f8e4ad6f-9140-43b1-b931-28c9ba11cc8e")  
+ <span data-ttu-id="6ec6e-176">![協調流程叫用的多載套件](../../adapters-and-accelerators/adapter-oracle-database/media/f8e4ad6f-9140-43b1-b931-28c9ba11cc8e.gif "f8e4ad6f-9140-43b1-b931-28c9ba11cc8e")</span><span class="sxs-lookup"><span data-stu-id="6ec6e-176">![Orchestration for invoking overloaded packages](../../adapters-and-accelerators/adapter-oracle-database/media/f8e4ad6f-9140-43b1-b931-28c9ba11cc8e.gif "f8e4ad6f-9140-43b1-b931-28c9ba11cc8e")</span></span>  
   
-### <a name="adding-message-shapes"></a>新增訊息圖形  
- 請確定您針對每個訊息圖形指定下列屬性。 圖形資料行中所列的名稱是訊息 圖形的名稱，為顯示在剛才提及的協調流程中。 下表列出您必須將包含在其中一個平行動作圖形。  
+### <a name="adding-message-shapes"></a><span data-ttu-id="6ec6e-177">新增訊息圖形</span><span class="sxs-lookup"><span data-stu-id="6ec6e-177">Adding Message Shapes</span></span>  
+ <span data-ttu-id="6ec6e-178">請確定您針對每個訊息圖形指定下列屬性。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-178">Make sure you specify the following properties for each of the message shapes.</span></span> <span data-ttu-id="6ec6e-179">圖形資料行中所列的名稱是訊息 圖形的名稱，為顯示在剛才提及的協調流程中。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-179">The names listed in the Shape column are the names of the message shapes as displayed in the just-mentioned orchestration.</span></span> <span data-ttu-id="6ec6e-180">下表列出您必須將包含在其中一個平行動作圖形。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-180">The following table lists the shapes you must include for one of the parallel actions.</span></span>  
   
-|形狀圖|圖形類型|屬性|  
+|<span data-ttu-id="6ec6e-181">形狀圖</span><span class="sxs-lookup"><span data-stu-id="6ec6e-181">Shape</span></span>|<span data-ttu-id="6ec6e-182">圖形類型</span><span class="sxs-lookup"><span data-stu-id="6ec6e-182">Shape Type</span></span>|<span data-ttu-id="6ec6e-183">屬性</span><span class="sxs-lookup"><span data-stu-id="6ec6e-183">Properties</span></span>|  
 |-----------|----------------|----------------|  
-|ReceiveMessage|Receive|-設定**名稱**至*ReceiveMessage*<br />-設定**啟動**至*，則為 True*|  
-|SendMessage|Send|-設定**名稱**至*SendMessage*|  
-|ReceiveResponse|Receive|-設定**名稱**至*ReceiveResponse*<br />-設定**啟動**至*False*|  
-|SendResponse|Send|-設定**名稱**至*SendResponse*|  
+|<span data-ttu-id="6ec6e-184">ReceiveMessage</span><span class="sxs-lookup"><span data-stu-id="6ec6e-184">ReceiveMessage</span></span>|<span data-ttu-id="6ec6e-185">Receive</span><span class="sxs-lookup"><span data-stu-id="6ec6e-185">Receive</span></span>|<span data-ttu-id="6ec6e-186">-設定**名稱**至*ReceiveMessage*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-186">-   Set **Name** to *ReceiveMessage*</span></span><br /><span data-ttu-id="6ec6e-187">-設定**啟動**至*，則為 True*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-187">-   Set **Activate** to *True*</span></span>|  
+|<span data-ttu-id="6ec6e-188">SendMessage</span><span class="sxs-lookup"><span data-stu-id="6ec6e-188">SendMessage</span></span>|<span data-ttu-id="6ec6e-189">Send</span><span class="sxs-lookup"><span data-stu-id="6ec6e-189">Send</span></span>|<span data-ttu-id="6ec6e-190">-設定**名稱**至*SendMessage*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-190">-   Set **Name** to *SendMessage*</span></span>|  
+|<span data-ttu-id="6ec6e-191">ReceiveResponse</span><span class="sxs-lookup"><span data-stu-id="6ec6e-191">ReceiveResponse</span></span>|<span data-ttu-id="6ec6e-192">Receive</span><span class="sxs-lookup"><span data-stu-id="6ec6e-192">Receive</span></span>|<span data-ttu-id="6ec6e-193">-設定**名稱**至*ReceiveResponse*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-193">-   Set **Name** to *ReceiveResponse*</span></span><br /><span data-ttu-id="6ec6e-194">-設定**啟動**至*False*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-194">-   Set **Activate** to *False*</span></span>|  
+|<span data-ttu-id="6ec6e-195">SendResponse</span><span class="sxs-lookup"><span data-stu-id="6ec6e-195">SendResponse</span></span>|<span data-ttu-id="6ec6e-196">Send</span><span class="sxs-lookup"><span data-stu-id="6ec6e-196">Send</span></span>|<span data-ttu-id="6ec6e-197">-設定**名稱**至*SendResponse*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-197">-   Set **Name** to *SendResponse*</span></span>|  
   
- 下表列出您必須包含平行動作圖形。  
+ <span data-ttu-id="6ec6e-198">下表列出您必須包含平行動作圖形。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-198">The following table lists the shapes that you must include for the other parallel action.</span></span>  
   
-|形狀圖|圖形類型|屬性|  
+|<span data-ttu-id="6ec6e-199">形狀圖</span><span class="sxs-lookup"><span data-stu-id="6ec6e-199">Shape</span></span>|<span data-ttu-id="6ec6e-200">圖形類型</span><span class="sxs-lookup"><span data-stu-id="6ec6e-200">Shape Type</span></span>|<span data-ttu-id="6ec6e-201">屬性</span><span class="sxs-lookup"><span data-stu-id="6ec6e-201">Properties</span></span>|  
 |-----------|----------------|----------------|  
-|ReceiveMessage2|Receive|-設定**名稱**至*ReceiveMessage2*<br />-設定**啟動**至*，則為 True*|  
-|SendMessage2|Send|-設定**名稱**至*SendMessage2*|  
-|ReceiveResponse2|Receive|-設定**名稱**至*ReceiveResponse2*<br />-設定**啟動**至*False*|  
-|SendResponse2|Send|-設定**名稱**至*SendResponse2*|  
+|<span data-ttu-id="6ec6e-202">ReceiveMessage2</span><span class="sxs-lookup"><span data-stu-id="6ec6e-202">ReceiveMessage2</span></span>|<span data-ttu-id="6ec6e-203">Receive</span><span class="sxs-lookup"><span data-stu-id="6ec6e-203">Receive</span></span>|<span data-ttu-id="6ec6e-204">-設定**名稱**至*ReceiveMessage2*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-204">-   Set **Name** to *ReceiveMessage2*</span></span><br /><span data-ttu-id="6ec6e-205">-設定**啟動**至*，則為 True*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-205">-   Set **Activate** to *True*</span></span>|  
+|<span data-ttu-id="6ec6e-206">SendMessage2</span><span class="sxs-lookup"><span data-stu-id="6ec6e-206">SendMessage2</span></span>|<span data-ttu-id="6ec6e-207">Send</span><span class="sxs-lookup"><span data-stu-id="6ec6e-207">Send</span></span>|<span data-ttu-id="6ec6e-208">-設定**名稱**至*SendMessage2*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-208">-   Set **Name** to *SendMessage2*</span></span>|  
+|<span data-ttu-id="6ec6e-209">ReceiveResponse2</span><span class="sxs-lookup"><span data-stu-id="6ec6e-209">ReceiveResponse2</span></span>|<span data-ttu-id="6ec6e-210">Receive</span><span class="sxs-lookup"><span data-stu-id="6ec6e-210">Receive</span></span>|<span data-ttu-id="6ec6e-211">-設定**名稱**至*ReceiveResponse2*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-211">-   Set **Name** to *ReceiveResponse2*</span></span><br /><span data-ttu-id="6ec6e-212">-設定**啟動**至*False*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-212">-   Set **Activate** to *False*</span></span>|  
+|<span data-ttu-id="6ec6e-213">SendResponse2</span><span class="sxs-lookup"><span data-stu-id="6ec6e-213">SendResponse2</span></span>|<span data-ttu-id="6ec6e-214">Send</span><span class="sxs-lookup"><span data-stu-id="6ec6e-214">Send</span></span>|<span data-ttu-id="6ec6e-215">-設定**名稱**至*SendResponse2*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-215">-   Set **Name** to *SendResponse2*</span></span>|  
   
-### <a name="adding-ports"></a>新增連接埠  
- 請確定您針對每個邏輯連接埠，指定下列屬性。 連接埠資料行中所列的名稱是連接埠的名稱，為顯示協調流程中。  
+### <a name="adding-ports"></a><span data-ttu-id="6ec6e-216">新增連接埠</span><span class="sxs-lookup"><span data-stu-id="6ec6e-216">Adding Ports</span></span>  
+ <span data-ttu-id="6ec6e-217">請確定您針對每個邏輯連接埠，指定下列屬性。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-217">Make sure that you specify the following properties for each of the logical ports.</span></span> <span data-ttu-id="6ec6e-218">連接埠資料行中所列的名稱是連接埠的名稱，為顯示協調流程中。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-218">The names listed in the Port column are the names of the ports as displayed in the orchestration.</span></span>  
   
-|通訊埠|屬性|  
+|<span data-ttu-id="6ec6e-219">通訊埠</span><span class="sxs-lookup"><span data-stu-id="6ec6e-219">Port</span></span>|<span data-ttu-id="6ec6e-220">屬性</span><span class="sxs-lookup"><span data-stu-id="6ec6e-220">Properties</span></span>|  
 |----------|----------------|  
-|FileIn|-設定**識別碼**至*FileIn*<br />-設定**類型**至*FileInType*<br />-設定**通訊模式**至*單向*<br />-設定**通訊方向**至*接收*|  
-|LOBPort|-設定**識別碼**至*LOBPort*<br />-設定**類型**至*LOBPortType*<br />-設定**通訊模式**至*要求-回應*<br />-設定**通訊方向**至*傳送接收*|  
-|SaveResponse|-設定**識別碼**至*SaveResponse*<br />-設定**類型**至*SaveResponseType*<br />-設定**通訊模式**至*單向*<br />-設定**通訊方向**至*傳送*|  
+|<span data-ttu-id="6ec6e-221">FileIn</span><span class="sxs-lookup"><span data-stu-id="6ec6e-221">FileIn</span></span>|<span data-ttu-id="6ec6e-222">-設定**識別碼**至*FileIn*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-222">-   Set **Identifier** to *FileIn*</span></span><br /><span data-ttu-id="6ec6e-223">-設定**類型**至*FileInType*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-223">-   Set **Type** to *FileInType*</span></span><br /><span data-ttu-id="6ec6e-224">-設定**通訊模式**至*單向*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-224">-   Set **Communication Pattern** to *One-Way*</span></span><br /><span data-ttu-id="6ec6e-225">-設定**通訊方向**至*接收*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-225">-   Set **Communication Direction** to *Receive*</span></span>|  
+|<span data-ttu-id="6ec6e-226">LOBPort</span><span class="sxs-lookup"><span data-stu-id="6ec6e-226">LOBPort</span></span>|<span data-ttu-id="6ec6e-227">-設定**識別碼**至*LOBPort*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-227">-   Set **Identifier** to *LOBPort*</span></span><br /><span data-ttu-id="6ec6e-228">-設定**類型**至*LOBPortType*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-228">-   Set **Type** to *LOBPortType*</span></span><br /><span data-ttu-id="6ec6e-229">-設定**通訊模式**至*要求-回應*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-229">-   Set **Communication Pattern** to *Request-Response*</span></span><br /><span data-ttu-id="6ec6e-230">-設定**通訊方向**至*傳送接收*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-230">-   Set **Communication Direction** to *Send-Receive*</span></span>|  
+|<span data-ttu-id="6ec6e-231">SaveResponse</span><span class="sxs-lookup"><span data-stu-id="6ec6e-231">SaveResponse</span></span>|<span data-ttu-id="6ec6e-232">-設定**識別碼**至*SaveResponse*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-232">-   Set **Identifier** to *SaveResponse*</span></span><br /><span data-ttu-id="6ec6e-233">-設定**類型**至*SaveResponseType*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-233">-   Set **Type** to *SaveResponseType*</span></span><br /><span data-ttu-id="6ec6e-234">-設定**通訊模式**至*單向*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-234">-   Set **Communication Pattern** to *One-Way*</span></span><br /><span data-ttu-id="6ec6e-235">-設定**通訊方向**至*傳送*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-235">-   Set **Communication Direction** to *Send*</span></span>|  
   
- 因為您要處理兩個要求和回應訊息使用這些連接埠，您必須建立兩個作業，每個連接埠，其中每個作業都會對應到一種訊息類型。 若要建立作業，以滑鼠右鍵按一下連接埠圖形，，然後選取**新作業**。 名稱為每個連接埠的第一個作業**Overload1**和每個連接埠做為第二項作業**Overload2**。  
+ <span data-ttu-id="6ec6e-236">因為您要處理兩個要求和回應訊息使用這些連接埠，您必須建立兩個作業，每個連接埠，其中每個作業都會對應到一種訊息類型。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-236">Because you will be processing two request and response messages using these ports, you must create two operations for each port, where each operation corresponds to one message type.</span></span> <span data-ttu-id="6ec6e-237">若要建立作業，以滑鼠右鍵按一下連接埠圖形，，然後選取**新作業**。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-237">To create an operation, right-click the port shape, and then select **New Operation**.</span></span> <span data-ttu-id="6ec6e-238">名稱為每個連接埠的第一個作業**Overload1**和每個連接埠做為第二項作業**Overload2**。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-238">Name the first operation for each port as **Overload1** and the second operation for each port as **Overload2**.</span></span>  
   
-### <a name="using-correlation"></a>使用相互關聯  
- 相互關聯是將內送訊息與適當協調流程執行個體相比對的程序。 在協調流程中您將會卸除這兩個要求訊息，一個用於每個多載。 您可使用相互關聯，以正確的協調流程關聯的要求訊息。 如需有關相互關聯的詳細資訊，請參閱[使用協調流程中的相互關聯](../../core/using-correlations-in-orchestrations.md)。  
+### <a name="using-correlation"></a><span data-ttu-id="6ec6e-239">使用相互關聯</span><span class="sxs-lookup"><span data-stu-id="6ec6e-239">Using Correlation</span></span>  
+ <span data-ttu-id="6ec6e-240">相互關聯是將內送訊息與適當協調流程執行個體相比對的程序。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-240">Correlation is the process of matching an incoming message with the appropriate instance of an orchestration.</span></span> <span data-ttu-id="6ec6e-241">在協調流程中您將會卸除這兩個要求訊息，一個用於每個多載。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-241">In the orchestration you will be dropping two request messages, one for each overload.</span></span> <span data-ttu-id="6ec6e-242">您可使用相互關聯，以正確的協調流程關聯的要求訊息。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-242">Using correlation, you associate a request message with the right orchestration.</span></span> <span data-ttu-id="6ec6e-243">如需有關相互關聯的詳細資訊，請參閱[使用協調流程中的相互關聯](../../core/using-correlations-in-orchestrations.md)。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-243">For more information about correlation, see [Using Correlations in Orchestrations](../../core/using-correlations-in-orchestrations.md).</span></span>  
   
-##### <a name="to-use-correlations"></a>若要使用的相互關聯  
+##### <a name="to-use-correlations"></a><span data-ttu-id="6ec6e-244">若要使用的相互關聯</span><span class="sxs-lookup"><span data-stu-id="6ec6e-244">To use correlations</span></span>  
   
-1.  從每個多載函式所產生的結構描述升級屬性。 例如，從第一個多載; 結構描述中升級輔助工具屬性第二個多載的結構描述升級 ANAME 屬性。 若要升級的屬性，以滑鼠右鍵按一下結構描述檢視中的屬性，指向**升階**，然後選取**快速升級**。 這會加入您的 BizTalk 專案的 propertyschema.xsd 結構描述檔案。  
+1.  <span data-ttu-id="6ec6e-245">從每個多載函式所產生的結構描述升級屬性。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-245">Promote a property from the schema generated for each overloaded function.</span></span> <span data-ttu-id="6ec6e-246">例如，從第一個多載; 結構描述中升級輔助工具屬性第二個多載的結構描述升級 ANAME 屬性。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-246">For example, promote the AID property from the schema for the first overload; promote the ANAME property from the schema of the second overload.</span></span> <span data-ttu-id="6ec6e-247">若要升級的屬性，以滑鼠右鍵按一下結構描述檢視中的屬性，指向**升階**，然後選取**快速升級**。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-247">To promote a property, right-click the property in the schema view, point to **Promote**, and then select **Quick Promotion**.</span></span> <span data-ttu-id="6ec6e-248">這會加入您的 BizTalk 專案的 propertyschema.xsd 結構描述檔案。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-248">This adds a PropertySchema.xsd file to your BizTalk project.</span></span>  
   
-     如需升級屬性的資訊，請參閱[升級屬性](../../core/promoting-properties.md)。  
+     <span data-ttu-id="6ec6e-249">如需升級屬性的資訊，請參閱[升級屬性](../../core/promoting-properties.md)。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-249">For information about promoting a property, see [Promoting Properties](../../core/promoting-properties.md).</span></span>  
   
-2.  從協調流程 檢視中，以滑鼠右鍵按一下**相互關聯類型**，然後選取**新相互關聯類型**。  
+2.  <span data-ttu-id="6ec6e-250">從協調流程 檢視中，以滑鼠右鍵按一下**相互關聯類型**，然後選取**新相互關聯類型**。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-250">From Orchestration View, right-click **Correlation Types**, and then select **New Correlation Type**.</span></span>  
   
-3.  **相互關聯屬性**對話方塊會列出您在步驟 1 中已升級的屬性。 選取屬性，然後按一下**新增**。  
+3.  <span data-ttu-id="6ec6e-251">**相互關聯屬性**對話方塊會列出您在步驟 1 中已升級的屬性。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-251">The **Correlation Properties** dialog box lists the properties that you promoted in step 1.</span></span> <span data-ttu-id="6ec6e-252">選取屬性，然後按一下**新增**。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-252">Select a property, and then click **Add**.</span></span>  
   
-4.  按一下 **[確定]**。  
+4.  <span data-ttu-id="6ec6e-253">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-253">Click **OK**.</span></span>  
   
-5.  若要建立其他升級屬性的相互關聯類型，重複這些步驟。  
+5.  <span data-ttu-id="6ec6e-254">若要建立其他升級屬性的相互關聯類型，重複這些步驟。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-254">To create correlation types for the other promoted property, repeat these steps.</span></span>  
   
-6.  重新命名與其相關聯的屬性為基礎的相互關聯類型。 您無法重新命名的相互關聯類型*CorrelationType_AID* （對於輔助屬性） 和*CorrelationType_ANAME* （對於 ANAME 屬性）。  
+6.  <span data-ttu-id="6ec6e-255">重新命名與其相關聯的屬性為基礎的相互關聯類型。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-255">Rename the correlation types based on the property to which they are associated.</span></span> <span data-ttu-id="6ec6e-256">您無法重新命名的相互關聯類型*CorrelationType_AID* （對於輔助屬性） 和*CorrelationType_ANAME* （對於 ANAME 屬性）。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-256">You could rename the correlation types to *CorrelationType_AID* (for the AID property) and *CorrelationType_ANAME* (for the ANAME property).</span></span>  
   
-7.  從協調流程 檢視中，以滑鼠右鍵按一下**相互關聯集**，然後選取**新相互關聯集**。  
+7.  <span data-ttu-id="6ec6e-257">從協調流程 檢視中，以滑鼠右鍵按一下**相互關聯集**，然後選取**新相互關聯集**。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-257">From Orchestration View, right-click **Correlation Sets**, and then select **New Correlation Set**.</span></span>  
   
-8.  以滑鼠右鍵按一下新加入的相互關聯集，然後按一下**屬性**。 在 [屬性] 窗格中執行下列動作：  
+8.  <span data-ttu-id="6ec6e-258">以滑鼠右鍵按一下新加入的相互關聯集，然後按一下**屬性**。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-258">Right-click the newly added correlation set, and then click **Properties**.</span></span> <span data-ttu-id="6ec6e-259">在 [屬性] 窗格中執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="6ec6e-259">In the Properties pane, do the following:</span></span>  
   
-    |使用|動作|  
+    |<span data-ttu-id="6ec6e-260">使用</span><span class="sxs-lookup"><span data-stu-id="6ec6e-260">Use this</span></span>|<span data-ttu-id="6ec6e-261">動作</span><span class="sxs-lookup"><span data-stu-id="6ec6e-261">To do this</span></span>|  
     |--------------|----------------|  
-    |相互關聯類型|*InvokeOverloadedProc.CorrelationType_AID*|  
-    |識別碼|*Correlation_AID*|  
+    |<span data-ttu-id="6ec6e-262">相互關聯類型</span><span class="sxs-lookup"><span data-stu-id="6ec6e-262">Correlation Type</span></span>|<span data-ttu-id="6ec6e-263">*InvokeOverloadedProc.CorrelationType_AID*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-263">*InvokeOverloadedProc.CorrelationType_AID*</span></span>|  
+    |<span data-ttu-id="6ec6e-264">識別碼</span><span class="sxs-lookup"><span data-stu-id="6ec6e-264">Identifier</span></span>|<span data-ttu-id="6ec6e-265">*Correlation_AID*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-265">*Correlation_AID*</span></span>|  
   
-9. 加入另一個相互關聯集，並指定 [屬性] 窗格的下列屬性。  
+9. <span data-ttu-id="6ec6e-266">加入另一個相互關聯集，並指定 [屬性] 窗格的下列屬性。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-266">Add another correlation set, and specify the following properties from the Properties pane.</span></span>  
   
-    |使用|動作|  
+    |<span data-ttu-id="6ec6e-267">使用</span><span class="sxs-lookup"><span data-stu-id="6ec6e-267">Use this</span></span>|<span data-ttu-id="6ec6e-268">動作</span><span class="sxs-lookup"><span data-stu-id="6ec6e-268">To do this</span></span>|  
     |--------------|----------------|  
-    |相互關聯類型|*InvokeOverloadedProc.CorrelationType_ANAME*|  
-    |識別碼|*Correlation_ANAME*|  
+    |<span data-ttu-id="6ec6e-269">相互關聯類型</span><span class="sxs-lookup"><span data-stu-id="6ec6e-269">Correlation Type</span></span>|<span data-ttu-id="6ec6e-270">*InvokeOverloadedProc.CorrelationType_ANAME*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-270">*InvokeOverloadedProc.CorrelationType_ANAME*</span></span>|  
+    |<span data-ttu-id="6ec6e-271">識別碼</span><span class="sxs-lookup"><span data-stu-id="6ec6e-271">Identifier</span></span>|<span data-ttu-id="6ec6e-272">*Correlation_ANAME*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-272">*Correlation_ANAME*</span></span>|  
   
-## <a name="specify-messages-for-action-shapes-and-connect-them-to-ports"></a>指定訊息的動作圖形，並將它們連接至連接埠  
- 下表指定屬性和其值，您應該設定來指定動作圖形的訊息，以及連結至連接埠的訊息。 圖形資料行中所列的名稱是 「 訊息 」 圖形的名稱，為顯示在協調流程中先前所述。  
+## <a name="specify-messages-for-action-shapes-and-connect-them-to-ports"></a><span data-ttu-id="6ec6e-273">指定訊息的動作圖形，並將它們連接至連接埠</span><span class="sxs-lookup"><span data-stu-id="6ec6e-273">Specify Messages for Action Shapes, and Connect Them to Ports</span></span>  
+ <span data-ttu-id="6ec6e-274">下表指定屬性和其值，您應該設定來指定動作圖形的訊息，以及連結至連接埠的訊息。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-274">The following table specifies the properties and their values that you should set to specify messages for action shapes and to link the messages to the ports.</span></span> <span data-ttu-id="6ec6e-275">圖形資料行中所列的名稱是 「 訊息 」 圖形的名稱，為顯示在協調流程中先前所述。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-275">The names listed in the Shape column are the names of the message shapes as displayed in the orchestration mentioned earlier.</span></span>  
   
-|形狀圖|屬性|  
+|<span data-ttu-id="6ec6e-276">形狀圖</span><span class="sxs-lookup"><span data-stu-id="6ec6e-276">Shape</span></span>|<span data-ttu-id="6ec6e-277">屬性</span><span class="sxs-lookup"><span data-stu-id="6ec6e-277">Properties</span></span>|  
 |-----------|----------------|  
-|ReceiveMessage|-設定**初始化相互關聯集**至*Correlation_AID*<br />-設定**訊息**至*要求*<br />-設定**作業**至*FileIn.Overload1.Request*|  
-|SendMessage|-設定**訊息**至*要求*<br />-設定**作業**至*LOBPort.Overload1.Request*|  
-|ReceiveResponse|-設定**訊息**至*回應*<br />-設定**作業**至*LOBPort.Overload1.Response*|  
-|SendResponse|-設定**訊息**至*回應*<br />-設定**作業**至*SaveResponse.Overload1.Request*|  
-|ReceiveMessage2|-設定**初始化相互關聯集**至*Correlation_ANAME*<br />-設定**訊息**至*Request2*<br />-設定**作業**至*FileIn.Overload2.Request*|  
-|SendMessage2|-設定**訊息**至*Request2*<br />-設定**作業**至*LOBPort.Overload2.Request*|  
-|ReceiveResponse2|-設定**訊息**至*Response2*<br />-設定**作業**至*LOBPort.Overload2.Response*|  
-|SendResponse2|-設定**訊息**至*Response2*<br />-設定**作業**至*SaveResponse.Overload2.Request*|  
+|<span data-ttu-id="6ec6e-278">ReceiveMessage</span><span class="sxs-lookup"><span data-stu-id="6ec6e-278">ReceiveMessage</span></span>|<span data-ttu-id="6ec6e-279">-設定**初始化相互關聯集**至*Correlation_AID*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-279">-   Set **Initializing Correlation Sets** to *Correlation_AID*</span></span><br /><span data-ttu-id="6ec6e-280">-設定**訊息**至*要求*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-280">-   Set **Message** to *Request*</span></span><br /><span data-ttu-id="6ec6e-281">-設定**作業**至*FileIn.Overload1.Request*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-281">-   Set **Operation** to *FileIn.Overload1.Request*</span></span>|  
+|<span data-ttu-id="6ec6e-282">SendMessage</span><span class="sxs-lookup"><span data-stu-id="6ec6e-282">SendMessage</span></span>|<span data-ttu-id="6ec6e-283">-設定**訊息**至*要求*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-283">-   Set **Message** to *Request*</span></span><br /><span data-ttu-id="6ec6e-284">-設定**作業**至*LOBPort.Overload1.Request*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-284">-   Set **Operation** to *LOBPort.Overload1.Request*</span></span>|  
+|<span data-ttu-id="6ec6e-285">ReceiveResponse</span><span class="sxs-lookup"><span data-stu-id="6ec6e-285">ReceiveResponse</span></span>|<span data-ttu-id="6ec6e-286">-設定**訊息**至*回應*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-286">-   Set **Message** to *Response*</span></span><br /><span data-ttu-id="6ec6e-287">-設定**作業**至*LOBPort.Overload1.Response*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-287">-   Set **Operation** to *LOBPort.Overload1.Response*</span></span>|  
+|<span data-ttu-id="6ec6e-288">SendResponse</span><span class="sxs-lookup"><span data-stu-id="6ec6e-288">SendResponse</span></span>|<span data-ttu-id="6ec6e-289">-設定**訊息**至*回應*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-289">-   Set **Message** to *Response*</span></span><br /><span data-ttu-id="6ec6e-290">-設定**作業**至*SaveResponse.Overload1.Request*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-290">-   Set **Operation** to *SaveResponse.Overload1.Request*</span></span>|  
+|<span data-ttu-id="6ec6e-291">ReceiveMessage2</span><span class="sxs-lookup"><span data-stu-id="6ec6e-291">ReceiveMessage2</span></span>|<span data-ttu-id="6ec6e-292">-設定**初始化相互關聯集**至*Correlation_ANAME*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-292">-   Set **Initializing Correlation Sets** to *Correlation_ANAME*</span></span><br /><span data-ttu-id="6ec6e-293">-設定**訊息**至*Request2*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-293">-   Set **Message** to *Request2*</span></span><br /><span data-ttu-id="6ec6e-294">-設定**作業**至*FileIn.Overload2.Request*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-294">-   Set **Operation** to *FileIn.Overload2.Request*</span></span>|  
+|<span data-ttu-id="6ec6e-295">SendMessage2</span><span class="sxs-lookup"><span data-stu-id="6ec6e-295">SendMessage2</span></span>|<span data-ttu-id="6ec6e-296">-設定**訊息**至*Request2*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-296">-   Set **Message** to *Request2*</span></span><br /><span data-ttu-id="6ec6e-297">-設定**作業**至*LOBPort.Overload2.Request*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-297">-   Set **Operation** to *LOBPort.Overload2.Request*</span></span>|  
+|<span data-ttu-id="6ec6e-298">ReceiveResponse2</span><span class="sxs-lookup"><span data-stu-id="6ec6e-298">ReceiveResponse2</span></span>|<span data-ttu-id="6ec6e-299">-設定**訊息**至*Response2*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-299">-   Set **Message** to *Response2*</span></span><br /><span data-ttu-id="6ec6e-300">-設定**作業**至*LOBPort.Overload2.Response*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-300">-   Set **Operation** to *LOBPort.Overload2.Response*</span></span>|  
+|<span data-ttu-id="6ec6e-301">SendResponse2</span><span class="sxs-lookup"><span data-stu-id="6ec6e-301">SendResponse2</span></span>|<span data-ttu-id="6ec6e-302">-設定**訊息**至*Response2*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-302">-   Set **Message** to *Response2*</span></span><br /><span data-ttu-id="6ec6e-303">-設定**作業**至*SaveResponse.Overload2.Request*</span><span class="sxs-lookup"><span data-stu-id="6ec6e-303">-   Set **Operation** to *SaveResponse.Overload2.Request*</span></span>|  
   
- 您指定這些屬性之後，連接的訊息 圖形和連接埠，而且您的協調流程已完成。  
+ <span data-ttu-id="6ec6e-304">您指定這些屬性之後，連接的訊息 圖形和連接埠，而且您的協調流程已完成。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-304">After you have specified these properties, the message shapes and ports are connected and your orchestration is complete.</span></span>  
   
- 您現在必須建置 BizTalk 方案，並部署到[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]。 如需詳細資訊，請參閱[建置和執行協調流程](../../core/building-and-running-orchestrations.md)。  
+ <span data-ttu-id="6ec6e-305">您現在必須建置 BizTalk 方案，並部署到[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-305">You must now build the BizTalk solution and deploy it to a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="6ec6e-306">如需詳細資訊，請參閱[建置和執行協調流程](../../core/building-and-running-orchestrations.md)。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-306">For more information, see [Building and Running Orchestrations](../../core/building-and-running-orchestrations.md).</span></span>  
   
-## <a name="configuring-the-biztalk-application"></a>設定 BizTalk 應用程式  
- 部署 BizTalk 專案之後，您稍早建立的協調流程會列在**協調流程**BizTalk Server 管理主控台 窗格。 您必須使用 BizTalk Server 管理主控台來設定應用程式。 如需逐步解說，請參閱[逐步解說： 部署基本 BizTalk 應用程式](Walkthrough:%20Deploying%20a%20Basic%20BizTalk%20Application.md)。
+## <a name="configuring-the-biztalk-application"></a><span data-ttu-id="6ec6e-307">設定 BizTalk 應用程式</span><span class="sxs-lookup"><span data-stu-id="6ec6e-307">Configuring the BizTalk Application</span></span>  
+ <span data-ttu-id="6ec6e-308">部署 BizTalk 專案之後，您稍早建立的協調流程會列在**協調流程**BizTalk Server 管理主控台 窗格。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-308">After you have deployed the BizTalk project, the orchestration you created earlier is listed under the **Orchestrations** pane in the BizTalk Server Administration console.</span></span> <span data-ttu-id="6ec6e-309">您必須使用 BizTalk Server 管理主控台來設定應用程式。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-309">You must use the BizTalk Server Administration console to configure the application.</span></span> <span data-ttu-id="6ec6e-310">如需逐步解說，請參閱[逐步解說： 部署基本 BizTalk 應用程式](Walkthrough:%20Deploying%20a%20Basic%20BizTalk%20Application.md)。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-310">For a walkthrough, see [Walkthrough: Deploying a Basic BizTalk Application](Walkthrough:%20Deploying%20a%20Basic%20BizTalk%20Application.md).</span></span>
   
- 設定應用程式包括：  
+ <span data-ttu-id="6ec6e-311">設定應用程式包括：</span><span class="sxs-lookup"><span data-stu-id="6ec6e-311">Configuring an application involves:</span></span>  
   
--   選取應用程式的主機。  
+-   <span data-ttu-id="6ec6e-312">選取應用程式的主機。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-312">Selecting a host for the application.</span></span>  
   
--   對應至 BizTalk Server 管理主控台中的實體連接埠在協調流程中建立的連接埠。 此協調流程中，您必須：  
+-   <span data-ttu-id="6ec6e-313">對應至 BizTalk Server 管理主控台中的實體連接埠在協調流程中建立的連接埠。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-313">Mapping the ports that you created in your orchestration to physical ports in the BizTalk Server Administration console.</span></span> <span data-ttu-id="6ec6e-314">此協調流程中，您必須：</span><span class="sxs-lookup"><span data-stu-id="6ec6e-314">For this orchestration you must:</span></span>  
   
-    -   定義位置上的硬碟和對應的檔案連接埠，您將在此置放要求訊息，其中每個多載程序。 BizTalk 協調流程會使用要求訊息，並將它傳送到 Oracle 資料庫。  
+    -   <span data-ttu-id="6ec6e-315">定義位置上的硬碟和對應的檔案連接埠，您將在此置放要求訊息，其中每個多載程序。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-315">Define a location on the hard disk and a corresponding file port where you will drop the request messages, one for each overloaded procedure.</span></span> <span data-ttu-id="6ec6e-316">BizTalk 協調流程會使用要求訊息，並將它傳送到 Oracle 資料庫。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-316">The BizTalk orchestration will consume the request messages and send it to the Oracle database.</span></span>  
   
-    -   定義位置上的硬碟和對應的檔案連接埠，BizTalk 協調流程將會卸除的回應訊息，其中每個多載程序，其中包含來自 Oracle 資料庫的回應。  
+    -   <span data-ttu-id="6ec6e-317">定義位置上的硬碟和對應的檔案連接埠，BizTalk 協調流程將會卸除的回應訊息，其中每個多載程序，其中包含來自 Oracle 資料庫的回應。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-317">Define a location on the hard disk and a corresponding file port where the BizTalk orchestration will drop the response messages, one for each overloaded procedure, containing the response from the Oracle database.</span></span>  
   
-    -   定義實體 Wcf-custom 或 Wcf-oracledb 傳送埠將訊息傳送至 Oracle 資料庫。 您也必須在傳送埠中指定的動作。 如需如何建立 Wcf-custom 或 Wcf-oracledb 連接埠相關資訊，請參閱[手動設定 Oracle 資料庫配接器的實體連接埠繫結](../../adapters-and-accelerators/adapter-oracle-database/manually-configure-a-physical-port-binding-to-the-oracle-database-adapter.md)。 因為 Wcf-oracledb 的 Wcf-custom 傳送埠將接收符合一個以上的結構描述的訊息及執行兩項作業，您必須設定這兩個作業的動態動作。 如需動作的詳細資訊，請參閱[設定 Oracle 資料庫的 SOAP 動作](../../adapters-and-accelerators/adapter-oracle-database/configure-the-soap-action-for-oracle-database.md)。 此協調流程，此動作應該如下所示設定：  
+    -   <span data-ttu-id="6ec6e-318">定義實體 Wcf-custom 或 Wcf-oracledb 傳送埠將訊息傳送至 Oracle 資料庫。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-318">Define a physical WCF-Custom or WCF-OracleDB send port to send messages to the Oracle database.</span></span> <span data-ttu-id="6ec6e-319">您也必須在傳送埠中指定的動作。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-319">You must also specify the action in the send port.</span></span> <span data-ttu-id="6ec6e-320">如需如何建立 Wcf-custom 或 Wcf-oracledb 連接埠相關資訊，請參閱[手動設定 Oracle 資料庫配接器的實體連接埠繫結](../../adapters-and-accelerators/adapter-oracle-database/manually-configure-a-physical-port-binding-to-the-oracle-database-adapter.md)。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-320">For information about how to create WCF-Custom or WCF-OracleDB ports, see [Manually configure a physical port binding to the Oracle Database Adapter](../../adapters-and-accelerators/adapter-oracle-database/manually-configure-a-physical-port-binding-to-the-oracle-database-adapter.md).</span></span> <span data-ttu-id="6ec6e-321">因為 Wcf-oracledb 的 Wcf-custom 傳送埠將接收符合一個以上的結構描述的訊息及執行兩項作業，您必須設定這兩個作業的動態動作。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-321">Because the WCF-Custom or WCF-OracleDB send port sends and receive messages conforming to more than one schema and performs two operations, you must set dynamic action for both the operations.</span></span> <span data-ttu-id="6ec6e-322">如需動作的詳細資訊，請參閱[設定 Oracle 資料庫的 SOAP 動作](../../adapters-and-accelerators/adapter-oracle-database/configure-the-soap-action-for-oracle-database.md)。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-322">For more information about actions, see [Configure the SOAP action for Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/configure-the-soap-action-for-oracle-database.md).</span></span> <span data-ttu-id="6ec6e-323">此協調流程，此動作應該如下所示設定：</span><span class="sxs-lookup"><span data-stu-id="6ec6e-323">For this orchestration, the action should be set as follows:</span></span>  
   
         ```  
         <BtsActionMapping>  
@@ -226,25 +226,25 @@ Stored Procedure Overload 2:
         ```  
   
         > [!NOTE]
-        >  產生結構描述使用[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]也會建立包含連接埠與那些連接埠的設定動作的相關資訊的繫結檔案。 您可以從 BizTalk Server 管理主控台來建立 （適用於傳出呼叫） 的傳送埠或接收埠 （適用於進行傳入呼叫時），以匯入此繫結檔案。 如需詳細資訊，請參閱[設定使用 Oracle 資料庫的連接埠繫結檔案的實體連接埠繫結](../../adapters-and-accelerators/adapter-oracle-database/configure-a-physical-port-binding-using-a-port-binding-file-to-oracle-database.md)。  
+        >  <span data-ttu-id="6ec6e-324">產生結構描述使用[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]也會建立包含連接埠與那些連接埠的設定動作的相關資訊的繫結檔案。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-324">Generating the schema using the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] also creates a binding file containing information about the ports and the actions to be set for those ports.</span></span> <span data-ttu-id="6ec6e-325">您可以從 BizTalk Server 管理主控台來建立 （適用於傳出呼叫） 的傳送埠或接收埠 （適用於進行傳入呼叫時），以匯入此繫結檔案。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-325">You can import this binding file from the BizTalk Server Administration console to create send ports (for outbound calls) or receive ports (for inbound calls).</span></span> <span data-ttu-id="6ec6e-326">如需詳細資訊，請參閱[設定使用 Oracle 資料庫的連接埠繫結檔案的實體連接埠繫結](../../adapters-and-accelerators/adapter-oracle-database/configure-a-physical-port-binding-using-a-port-binding-file-to-oracle-database.md)。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-326">For more information, see [Configure a physical port binding using a port binding file to Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/configure-a-physical-port-binding-using-a-port-binding-file-to-oracle-database.md).</span></span>  
   
-## <a name="starting-the-application"></a>啟動應用程式  
- 您必須啟動 BizTalk 應用程式叫用 Oracle 資料庫資料表中的函式。 如需啟動 BizTalk 應用程式的指示，請參閱[如何啟動協調流程](../../core/how-to-start-an-orchestration.md)。  
+## <a name="starting-the-application"></a><span data-ttu-id="6ec6e-327">啟動應用程式</span><span class="sxs-lookup"><span data-stu-id="6ec6e-327">Starting the Application</span></span>  
+ <span data-ttu-id="6ec6e-328">您必須啟動 BizTalk 應用程式叫用 Oracle 資料庫資料表中的函式。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-328">You must start the BizTalk application for invoking a function in an Oracle database table.</span></span> <span data-ttu-id="6ec6e-329">如需啟動 BizTalk 應用程式的指示，請參閱[如何啟動協調流程](../../core/how-to-start-an-orchestration.md)。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-329">For instructions on starting a BizTalk application, see [How to Start an Orchestration](../../core/how-to-start-an-orchestration.md).</span></span>  
   
- 在這個階段，請確定：  
+ <span data-ttu-id="6ec6e-330">在這個階段，請確定：</span><span class="sxs-lookup"><span data-stu-id="6ec6e-330">At this stage, make sure:</span></span>  
   
--   FILE 接收埠以接收要求訊息的協調流程執行。  
+-   <span data-ttu-id="6ec6e-331">FILE 接收埠以接收要求訊息的協調流程執行。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-331">The FILE receive port to receive request messages for the orchestration is running.</span></span>  
   
--   FILE 傳送埠，以接收回應訊息從協調流程正在執行。  
+-   <span data-ttu-id="6ec6e-332">FILE 傳送埠，以接收回應訊息從協調流程正在執行。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-332">The FILE send port to receive the response messages from the orchestration is running.</span></span>  
   
--   Wcf-custom 或 Wcf-oracledb 傳送埠將訊息傳送至 Oracle 資料庫正在執行。  
+-   <span data-ttu-id="6ec6e-333">Wcf-custom 或 Wcf-oracledb 傳送埠將訊息傳送至 Oracle 資料庫正在執行。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-333">The WCF-Custom or WCF-OracleDB send port to send messages to the Oracle database is running.</span></span>  
   
--   BizTalk 協調流程的作業正在執行。  
+-   <span data-ttu-id="6ec6e-334">BizTalk 協調流程的作業正在執行。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-334">The BizTalk orchestration for the operation is running.</span></span>  
   
-## <a name="executing-the-operation"></a>執行作業  
- 執行應用程式之後，您必須卸除兩個檔案 （一個用於每個多載程序） 訊息接收位置的要求。 要求訊息的結構描述必須符合您先前產生的程序的結構描述。 請參閱[函數和程序的訊息結構描述](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-functions-and-procedures.md)的詳細資訊的要求訊息結構描述叫用函式使用[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]。  
+## <a name="executing-the-operation"></a><span data-ttu-id="6ec6e-335">執行作業</span><span class="sxs-lookup"><span data-stu-id="6ec6e-335">Executing the Operation</span></span>  
+ <span data-ttu-id="6ec6e-336">執行應用程式之後，您必須卸除兩個檔案 （一個用於每個多載程序） 訊息接收位置的要求。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-336">After you run the application, you must drop two request messages (one for each overloaded procedure) to the FILE receive location.</span></span> <span data-ttu-id="6ec6e-337">要求訊息的結構描述必須符合您先前產生的程序的結構描述。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-337">The schema for the request messages must conform to the schema for the procedure you generated earlier.</span></span> <span data-ttu-id="6ec6e-338">請參閱[函數和程序的訊息結構描述](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-functions-and-procedures.md)的詳細資訊的要求訊息結構描述叫用函式使用[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-338">See [Message Schemas for Functions and Procedures](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-functions-and-procedures.md) for more information about the request message schema for invoking functions using the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)].</span></span>  
   
- 例如，要叫用 GET_ACCOUNT 程序的第一個多載的要求訊息是：  
+ <span data-ttu-id="6ec6e-339">例如，要叫用 GET_ACCOUNT 程序的第一個多載的要求訊息是：</span><span class="sxs-lookup"><span data-stu-id="6ec6e-339">For example, the request message to invoke the first overload of the GET_ACCOUNT procedure is:</span></span>  
   
 ```  
 <GET_ACCOUNT xmlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG/GET_ACCOUNT/overload1">  
@@ -252,7 +252,7 @@ Stored Procedure Overload 2:
 </GET_ACCOUNT>  
 ```  
   
- 同樣地，要叫用 GET_ACCOUNT 程序的第二個多載的要求訊息是：  
+ <span data-ttu-id="6ec6e-340">同樣地，要叫用 GET_ACCOUNT 程序的第二個多載的要求訊息是：</span><span class="sxs-lookup"><span data-stu-id="6ec6e-340">Similarly, the request message to invoke the second overload of the GET_ACCOUNT procedure is:</span></span>  
   
 ```  
 <GET_ACCOUNT xmlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG/GET_ACCOUNT/overload2">  
@@ -260,9 +260,9 @@ Stored Procedure Overload 2:
 </GET_ACCOUNT>  
 ```  
   
- 第一個要求訊息會叫用擷取的記錄包含帳戶識別碼等於 100020 GET_ACCOUNT 程序。 第二個要求訊息會叫用 GET_ACCOUNT 程序來擷取帳戶名稱與"John Smith"的記錄。  
+ <span data-ttu-id="6ec6e-341">第一個要求訊息會叫用擷取的記錄包含帳戶識別碼等於 100020 GET_ACCOUNT 程序。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-341">The first request message invokes the GET_ACCOUNT procedure to retrieve record with account ID equal to 100020.</span></span> <span data-ttu-id="6ec6e-342">第二個要求訊息會叫用 GET_ACCOUNT 程序來擷取帳戶名稱與"John Smith"的記錄。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-342">The second request message invokes the GET_ACCOUNT procedure to retrieve records having the account name as "John Smith".</span></span>  
   
- 協調流程會使用要求訊息，並將它們傳送到 Oracle 資料庫。 從 Oracle 資料庫的回應會儲存在其他的協調流程中定義的檔案位置。 例如，叫用第一個多載程序的回應是：  
+ <span data-ttu-id="6ec6e-343">協調流程會使用要求訊息，並將它們傳送到 Oracle 資料庫。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-343">The orchestration consumes the request messages and sends them to the Oracle database.</span></span> <span data-ttu-id="6ec6e-344">從 Oracle 資料庫的回應會儲存在其他的協調流程中定義的檔案位置。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-344">The response from the Oracle database is saved at other FILE location defined as part of the orchestration.</span></span> <span data-ttu-id="6ec6e-345">例如，叫用第一個多載程序的回應是：</span><span class="sxs-lookup"><span data-stu-id="6ec6e-345">For example, the response for invoking the first overloaded procedure is:</span></span>  
   
 ```  
 \<?xml version="1.0" encoding="utf-8"?>  
@@ -275,11 +275,11 @@ Stored Procedure Overload 2:
 </GET_ACCOUNTResponse>  
 ```  
   
-## <a name="possible-exceptions"></a>可能的例外狀況  
- 如需有關例外狀況資訊可能會遇到時叫用負載的封裝使用[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]，請參閱[例外狀況和錯誤處理](../../adapters-and-accelerators/adapter-oracle-database/exceptions-and-error-handling-with-the-oracle-database-adapter.md)。  
+## <a name="possible-exceptions"></a><span data-ttu-id="6ec6e-346">可能的例外狀況</span><span class="sxs-lookup"><span data-stu-id="6ec6e-346">Possible Exceptions</span></span>  
+ <span data-ttu-id="6ec6e-347">如需有關例外狀況資訊可能會遇到時叫用負載的封裝使用[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]，請參閱[例外狀況和錯誤處理](../../adapters-and-accelerators/adapter-oracle-database/exceptions-and-error-handling-with-the-oracle-database-adapter.md)。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-347">For information about the exceptions you might encounter while invoking overloaded packages using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], see [Exceptions and error handling](../../adapters-and-accelerators/adapter-oracle-database/exceptions-and-error-handling-with-the-oracle-database-adapter.md).</span></span>  
   
-## <a name="best-practices"></a>最佳作法  
- 您部署和設定 BizTalk 專案之後，您可以為 XML 檔案，稱為繫結檔案匯出組態設定。 一旦產生繫結檔案時，您可以匯入組態設定從檔案，因此您不需要建立傳送埠、 接收埠，等。 針對相同的協調流程。 如需繫結檔案的詳細資訊，請參閱[重複使用的 Oracle 資料庫配接器繫結](../../adapters-and-accelerators/adapter-oracle-database/reuse-oracle-database-adapter-bindings.md)。  
+## <a name="best-practices"></a><span data-ttu-id="6ec6e-348">最佳作法</span><span class="sxs-lookup"><span data-stu-id="6ec6e-348">Best Practices</span></span>  
+ <span data-ttu-id="6ec6e-349">您部署和設定 BizTalk 專案之後，您可以為 XML 檔案，稱為繫結檔案匯出組態設定。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-349">After you have deployed and configured the BizTalk project, you can export configuration settings to an XML file called the bindings file.</span></span> <span data-ttu-id="6ec6e-350">一旦產生繫結檔案時，您可以匯入組態設定從檔案，因此您不需要建立傳送埠、 接收埠，等。 針對相同的協調流程。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-350">Once you generate a bindings file, you can import the configuration settings from the file so that you do not need to create the send ports, receive ports, etc. for the same orchestration.</span></span> <span data-ttu-id="6ec6e-351">如需繫結檔案的詳細資訊，請參閱[重複使用的 Oracle 資料庫配接器繫結](../../adapters-and-accelerators/adapter-oracle-database/reuse-oracle-database-adapter-bindings.md)。</span><span class="sxs-lookup"><span data-stu-id="6ec6e-351">For more information about binding files, see [Reuse Oracle Database Adapter bindings](../../adapters-and-accelerators/adapter-oracle-database/reuse-oracle-database-adapter-bindings.md).</span></span>  
   
-## <a name="see-also"></a>另請參閱  
-[開發 BizTalk 應用程式的建置組塊，與 Oracle 資料庫](../../adapters-and-accelerators/adapter-oracle-database/building-blocks-to-develop-biztalk-applications-with-oracle-database.md)
+## <a name="see-also"></a><span data-ttu-id="6ec6e-352">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6ec6e-352">See Also</span></span>  
+[<span data-ttu-id="6ec6e-353">開發 BizTalk 應用程式的建置組塊，與 Oracle 資料庫</span><span class="sxs-lookup"><span data-stu-id="6ec6e-353">Building Blocks to Develop BizTalk applications with the Oracle Database</span></span>](../../adapters-and-accelerators/adapter-oracle-database/building-blocks-to-develop-biztalk-applications-with-oracle-database.md)

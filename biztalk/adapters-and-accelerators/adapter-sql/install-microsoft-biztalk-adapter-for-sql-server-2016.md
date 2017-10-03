@@ -18,189 +18,189 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="install-microsoft-biztalk-adapter-for-sql-server---2016"></a>安裝 Microsoft BizTalk Adapter for SQL Server-2016
-安裝[!INCLUDE[adaptersql_md](../../includes/adaptersql-md.md)]隨附[!INCLUDE[bts2016_md](../../includes/bts2016-md.md)]。
+# <a name="install-microsoft-biztalk-adapter-for-sql-server---2016"></a><span data-ttu-id="d530d-102">安裝 Microsoft BizTalk Adapter for SQL Server-2016</span><span class="sxs-lookup"><span data-stu-id="d530d-102">Install Microsoft BizTalk Adapter for SQL Server - 2016</span></span>
+<span data-ttu-id="d530d-103">安裝[!INCLUDE[adaptersql_md](../../includes/adaptersql-md.md)]隨附[!INCLUDE[bts2016_md](../../includes/bts2016-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-103">Install the [!INCLUDE[adaptersql_md](../../includes/adaptersql-md.md)] included with [!INCLUDE[bts2016_md](../../includes/bts2016-md.md)].</span></span>
 
- [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]可以搭配使用：  
+ <span data-ttu-id="d530d-104">[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]可以搭配使用：</span><span class="sxs-lookup"><span data-stu-id="d530d-104">The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] can be used with:</span></span>  
   
--   .NET 應用程式  
+-   <span data-ttu-id="d530d-105">.NET 應用程式</span><span class="sxs-lookup"><span data-stu-id="d530d-105">A .NET application</span></span>  
   
--   Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]  
+-   <span data-ttu-id="d530d-106">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]</span><span class="sxs-lookup"><span data-stu-id="d530d-106">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]</span></span>  
   
- 根據您如何使用配接器，所需的軟體而異。  
+ <span data-ttu-id="d530d-107">根據您如何使用配接器，所需的軟體而異。</span><span class="sxs-lookup"><span data-stu-id="d530d-107">Based on how you use the adapters, the required software varies.</span></span>  
  
   
 <a name="BKMK_prereq_NET"></a>   
-## <a name="prerequisites-when-using-the-adapter-with-a-net-application"></a>當配接器使用.NET 應用程式的必要條件  
-您要在其中撰寫可取用的.NET 應用程式的電腦上安裝下列軟體[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。 安裝軟體的順序，如下所列。  
+## <a name="prerequisites-when-using-the-adapter-with-a-net-application"></a><span data-ttu-id="d530d-108">當配接器使用.NET 應用程式的必要條件</span><span class="sxs-lookup"><span data-stu-id="d530d-108">Prerequisites when using the adapter with a .NET Application</span></span>  
+<span data-ttu-id="d530d-109">您要在其中撰寫可取用的.NET 應用程式的電腦上安裝下列軟體[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-109">Install the following software on the computer where you are writing .NET applications that consume the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].</span></span> <span data-ttu-id="d530d-110">安裝軟體的順序，如下所列。</span><span class="sxs-lookup"><span data-stu-id="d530d-110">Install the software in the order as listed.</span></span>  
 
 ||
 |---|
-|Windows Server 2016 <br />Windows Server 2012 R2 <br />Windows 10 <br />-Windows 8.1    |
-|.NET Framework 4.6.*x*|
-|Visual Studio 2015|
+|<span data-ttu-id="d530d-111">Windows Server 2016</span><span class="sxs-lookup"><span data-stu-id="d530d-111">- Windows Server 2016</span></span> <br /><span data-ttu-id="d530d-112">Windows Server 2012 R2</span><span class="sxs-lookup"><span data-stu-id="d530d-112">- Windows Server 2012 R2</span></span> <br /><span data-ttu-id="d530d-113">Windows 10</span><span class="sxs-lookup"><span data-stu-id="d530d-113">- Windows 10</span></span> <br /><span data-ttu-id="d530d-114">-Windows 8.1</span><span class="sxs-lookup"><span data-stu-id="d530d-114">- Windows 8.1</span></span>    |
+|<span data-ttu-id="d530d-115">.NET Framework 4.6.*x*</span><span class="sxs-lookup"><span data-stu-id="d530d-115">.NET Framework 4.6.*x*</span></span>|
+|<span data-ttu-id="d530d-116">Visual Studio 2015</span><span class="sxs-lookup"><span data-stu-id="d530d-116">Visual Studio 2015</span></span>|
 |[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]|
-|SQL Server 用戶端程式庫。 請參閱[支援的版本，](#BKMK_SuppLOB) （在本主題中）。|
+|<span data-ttu-id="d530d-117">SQL Server 用戶端程式庫。</span><span class="sxs-lookup"><span data-stu-id="d530d-117">SQL Server client libraries.</span></span> <span data-ttu-id="d530d-118">請參閱[支援的版本，](#BKMK_SuppLOB) （在本主題中）。</span><span class="sxs-lookup"><span data-stu-id="d530d-118">See the [supported versions](#BKMK_SuppLOB) (in this topic).</span></span>|
 
 <a name="BKMK_prereq_BTS"></a>     
-## <a name="prerequisites-when-using-the-adapter-with-biztalk-server"></a>搭配 BizTalk Server 使用配接器時的必要條件  
-如果您使用的電腦上安裝下列軟體[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]與[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]。 列出的順序安裝軟體。  
+## <a name="prerequisites-when-using-the-adapter-with-biztalk-server"></a><span data-ttu-id="d530d-119">搭配 BizTalk Server 使用配接器時的必要條件</span><span class="sxs-lookup"><span data-stu-id="d530d-119">Prerequisites when using the adapter with BizTalk Server</span></span>  
+<span data-ttu-id="d530d-120">如果您使用的電腦上安裝下列軟體[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]與[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-120">Install the following software on the computer where you are using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="d530d-121">列出的順序安裝軟體。</span><span class="sxs-lookup"><span data-stu-id="d530d-121">Install the software in the order listed.</span></span>  
 
 ||
 |---|
-|Windows Server 2016 <br />Windows Server 2012 R2 <br />Windows 10 <br />-Windows 8.1    |
-|.NET Framework 4.6.*x*|
-|Visual Studio 2015|
-|[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]<br /><br /> 安裝[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]如[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]隨附[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。 若要安裝，請執行**自訂**(選取**BizTalk Server 增益集**) 或**完成**安裝[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。|
+|<span data-ttu-id="d530d-122">Windows Server 2016</span><span class="sxs-lookup"><span data-stu-id="d530d-122">- Windows Server 2016</span></span> <br /><span data-ttu-id="d530d-123">Windows Server 2012 R2</span><span class="sxs-lookup"><span data-stu-id="d530d-123">- Windows Server 2012 R2</span></span> <br /><span data-ttu-id="d530d-124">Windows 10</span><span class="sxs-lookup"><span data-stu-id="d530d-124">- Windows 10</span></span> <br /><span data-ttu-id="d530d-125">-Windows 8.1</span><span class="sxs-lookup"><span data-stu-id="d530d-125">- Windows 8.1</span></span>    |
+|<span data-ttu-id="d530d-126">.NET Framework 4.6.*x*</span><span class="sxs-lookup"><span data-stu-id="d530d-126">.NET Framework 4.6.*x*</span></span>|
+|<span data-ttu-id="d530d-127">Visual Studio 2015</span><span class="sxs-lookup"><span data-stu-id="d530d-127">Visual Studio 2015</span></span>|
+|[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]<br /><br /> <span data-ttu-id="d530d-128">安裝[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]如[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]隨附[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-128">Install the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] for [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] included with the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)].</span></span> <span data-ttu-id="d530d-129">若要安裝，請執行**自訂**(選取**BizTalk Server 增益集**) 或**完成**安裝[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-129">To install, do a **Custom** (select **BizTalk Server Addin**) or **Complete** installation of the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)].</span></span>|
 |[!INCLUDE[bts2016_md](../../includes/bts2016-md.md)]|
-|SQL Server 用戶端程式庫。 請參閱[支援的版本，](#BKMK_SuppLOB) （在本主題中）。|
+|<span data-ttu-id="d530d-130">SQL Server 用戶端程式庫。</span><span class="sxs-lookup"><span data-stu-id="d530d-130">SQL Server client libraries.</span></span> <span data-ttu-id="d530d-131">請參閱[支援的版本，](#BKMK_SuppLOB) （在本主題中）。</span><span class="sxs-lookup"><span data-stu-id="d530d-131">See the [supported versions](#BKMK_SuppLOB) (in this topic).</span></span>|
 
 <a name="BKMK_SuppLOB"></a>   
-## <a name="supported-sql-server-versions-and-client-libraries"></a>支援的 SQL Server 版本與用戶端程式庫  
- 下列章節提供支援的 SQL Server 版本與用戶端所需的程式庫[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。  
+## <a name="supported-sql-server-versions-and-client-libraries"></a><span data-ttu-id="d530d-132">支援的 SQL Server 版本與用戶端程式庫</span><span class="sxs-lookup"><span data-stu-id="d530d-132">Supported SQL Server versions and client libraries</span></span>  
+ <span data-ttu-id="d530d-133">下列章節提供支援的 SQL Server 版本與用戶端所需的程式庫[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-133">The following section presents the supported SQL Server versions and the client libraries required by the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].</span></span>  
   
--   **支援的伺服器版本**: SQL Server 2016、 SQL Server 2014
+-   <span data-ttu-id="d530d-134">**支援的伺服器版本**: SQL Server 2016、 SQL Server 2014</span><span class="sxs-lookup"><span data-stu-id="d530d-134">**Supported server versions**: SQL Server 2016, SQL Server 2014</span></span>
   
--   **支援的用戶端版本**: Microsoft[!INCLUDE[btsDotNetFramework_md](../../includes/btsdotnetframework-md.md)]連接到 SQL Server 所需的用戶端 Dll 的組合。 您不需要明確安裝在電腦上的任何用戶端 Dll。  
+-   <span data-ttu-id="d530d-135">**支援的用戶端版本**: Microsoft[!INCLUDE[btsDotNetFramework_md](../../includes/btsdotnetframework-md.md)]連接到 SQL Server 所需的用戶端 Dll 的組合。</span><span class="sxs-lookup"><span data-stu-id="d530d-135">**Supported client versions**: Microsoft [!INCLUDE[btsDotNetFramework_md](../../includes/btsdotnetframework-md.md)] bundles the client DLLs required to connect to SQL Server.</span></span> <span data-ttu-id="d530d-136">您不需要明確安裝在電腦上的任何用戶端 Dll。</span><span class="sxs-lookup"><span data-stu-id="d530d-136">You do not need to explicitly install any client DLLs on your computer.</span></span>  
   
--   **必要驅動程式**:  
+-   <span data-ttu-id="d530d-137">**必要驅動程式**:</span><span class="sxs-lookup"><span data-stu-id="d530d-137">**Required drivers**:</span></span>  
   
-    -   如果您使用 Udt 隨附於 SQL Server 版本，例如地理位置，請確定下列 Dll 會出現在 SQL Server 上執行作業使用配接器的電腦上。 例如，如果您建立 BizTalk 專案，在 SQL Server 上執行作業，這些 Dll 必須存在於執行 BizTalk Server 電腦上。  
+    -   <span data-ttu-id="d530d-138">如果您使用 Udt 隨附於 SQL Server 版本，例如地理位置，請確定下列 Dll 會出現在 SQL Server 上執行作業使用配接器的電腦上。</span><span class="sxs-lookup"><span data-stu-id="d530d-138">If you use the UDTs shipped with the SQL Server versions, for example, Geography, make sure the following DLLs are present on the computer where you use the adapter to perform operations on SQL Server.</span></span> <span data-ttu-id="d530d-139">例如，如果您建立 BizTalk 專案，在 SQL Server 上執行作業，這些 Dll 必須存在於執行 BizTalk Server 電腦上。</span><span class="sxs-lookup"><span data-stu-id="d530d-139">For example, if you create BizTalk projects to perform operations on SQL Server, these DLLs must be present on the computer where BizTalk Server is running.</span></span>  
   
-        -   請確定 Microsoft.SqlServer.Types.dll 加入至 GAC。  
+        -   <span data-ttu-id="d530d-140">請確定 Microsoft.SqlServer.Types.dll 加入至 GAC。</span><span class="sxs-lookup"><span data-stu-id="d530d-140">Make sure Microsoft.SqlServer.Types.dll is added to the GAC.</span></span>  
   
-        -   請確定 SqlServerSpatial.dll System32 資料夾中。  
+        -   <span data-ttu-id="d530d-141">請確定 SqlServerSpatial.dll System32 資料夾中。</span><span class="sxs-lookup"><span data-stu-id="d530d-141">Make sure SqlServerSpatial.dll is available in the System32 folder.</span></span>  
   
-         您可以在電腦上安裝這些 Dll，以執行 SQL Server 安裝程式，並選取**管理工具 – 基本**和**管理工具-完整**中**特徵選取**精靈頁面。  
+         <span data-ttu-id="d530d-142">您可以在電腦上安裝這些 Dll，以執行 SQL Server 安裝程式，並選取**管理工具 – 基本**和**管理工具-完整**中**特徵選取**精靈頁面。</span><span class="sxs-lookup"><span data-stu-id="d530d-142">You can install these DLLs on the computer by running the SQL Server setup and selecting **Management Tools – Basic** and **Management Tools – Complete** in the **Feature Selection** page of the wizard.</span></span>  
   
-    -   如果您使用配接器在 FILESTREAM 資料類型的資料行上執行作業時，請確定已安裝 SQL 用戶端連接性 SDK。 您可以在執行 SQL Server 安裝程式並選取安裝 SQL 用戶端連接性 SDK **SQL 用戶端連接性 SDK**中**特徵選取**精靈頁面。 配接器使用 sqlncli10.dll，安裝 SQL 用戶端連接性 SDK，與用於執行 FILESTREAM 操作。  
+    -   <span data-ttu-id="d530d-143">如果您使用配接器在 FILESTREAM 資料類型的資料行上執行作業時，請確定已安裝 SQL 用戶端連接性 SDK。</span><span class="sxs-lookup"><span data-stu-id="d530d-143">If you use the adapter to perform operations on columns of FILESTREAM data types, make sure you have SQL Client Connectivity SDK installed.</span></span> <span data-ttu-id="d530d-144">您可以在執行 SQL Server 安裝程式並選取安裝 SQL 用戶端連接性 SDK **SQL 用戶端連接性 SDK**中**特徵選取**精靈頁面。</span><span class="sxs-lookup"><span data-stu-id="d530d-144">You can install the SQL Client Connectivity SDK by running the SQL Server setup and selecting **SQL Client Connectivity SDK** in the **Feature Selection** page of the wizard.</span></span> <span data-ttu-id="d530d-145">配接器使用 sqlncli10.dll，安裝 SQL 用戶端連接性 SDK，與用於執行 FILESTREAM 操作。</span><span class="sxs-lookup"><span data-stu-id="d530d-145">The adapter uses the sqlncli10.dll, installed with the SQL Client Connectivity SDK, to perform FILESTREAM operations.</span></span>  
   
-    -   如果您在 SQL Server 中建立您自己的 Udt，請確定 Udt 的個別的組件加入 GAC。  
+    -   <span data-ttu-id="d530d-146">如果您在 SQL Server 中建立您自己的 Udt，請確定 Udt 的個別的組件加入 GAC。</span><span class="sxs-lookup"><span data-stu-id="d530d-146">If you create your own UDTs in SQL Server, make sure the respective assemblies for the UDTs are added to the GAC.</span></span>  
   
 <a name="BKMK_Compat"></a>   
-## <a name="64-bit-support"></a>64 位元支援 
+## <a name="64-bit-support"></a><span data-ttu-id="d530d-147">64 位元支援</span><span class="sxs-lookup"><span data-stu-id="d530d-147">64-bit support</span></span> 
 
-[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]可以在 32 位元或 64 位元的主控件執行個體中執行。
+<span data-ttu-id="d530d-148">[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]可以在 32 位元或 64 位元的主控件執行個體中執行。</span><span class="sxs-lookup"><span data-stu-id="d530d-148">The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] can run in a 32-bit or 64-bit host instance.</span></span>
 
- 如需支援的安裝案例，32 位元和 64 位元[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]，請參閱[32 位元和 64 位元安裝案例](#BKMK_Install_Scenarios)（在本主題中）。
+ <span data-ttu-id="d530d-149">如需支援的安裝案例，32 位元和 64 位元[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]，請參閱[32 位元和 64 位元安裝案例](#BKMK_Install_Scenarios)（在本主題中）。</span><span class="sxs-lookup"><span data-stu-id="d530d-149">For information about the supported installation scenarios for the 32-bit and 64-bit [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)], see  [32-bit and 64-bit install scenarios](#BKMK_Install_Scenarios) (in this topic).</span></span>
   
 <a name="BKMK_Install_Adap"></a>   
-## <a name="install-the-sql-adapter"></a>安裝 SQL 配接器  
- 請確定您已安裝之前安裝的必要條件[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。 請參閱[.NET 必要條件](#BKMK_prereq_NET)（本主題中），或[BizTalk Server 必要條件](#BKMK_prereq_BTS)（在本主題中）。
+## <a name="install-the-sql-adapter"></a><span data-ttu-id="d530d-150">安裝 SQL 配接器</span><span class="sxs-lookup"><span data-stu-id="d530d-150">Install the SQL adapter</span></span>  
+ <span data-ttu-id="d530d-151">請確定您已安裝之前安裝的必要條件[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-151">Make sure you have the prerequisites installed before installing the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].</span></span> <span data-ttu-id="d530d-152">請參閱[.NET 必要條件](#BKMK_prereq_NET)（本主題中），或[BizTalk Server 必要條件](#BKMK_prereq_BTS)（在本主題中）。</span><span class="sxs-lookup"><span data-stu-id="d530d-152">See [.NET prerequisites](#BKMK_prereq_NET) (in this topic), or [BizTalk Server prerequisites](#BKMK_prereq_BTS) (in this topic).</span></span>
   
- 您可以安裝[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]下列兩種方式：  
+ <span data-ttu-id="d530d-153">您可以安裝[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]下列兩種方式：</span><span class="sxs-lookup"><span data-stu-id="d530d-153">You can install the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] in the following two ways:</span></span>  
   
--   **以互動模式**使用安裝精靈
+-   <span data-ttu-id="d530d-154">**以互動模式**使用安裝精靈</span><span class="sxs-lookup"><span data-stu-id="d530d-154">**In interactive mode** using the setup wizard</span></span>
   
--   **以無訊息模式**使用 msiexec 命令列中  
+-   <span data-ttu-id="d530d-155">**以無訊息模式**使用 msiexec 命令列中</span><span class="sxs-lookup"><span data-stu-id="d530d-155">**In silent mode** using msiexec in the command line</span></span>  
   
     > [!IMPORTANT]
-    >  您必須在您安裝的電腦上系統管理權限[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]，不論是否使用精靈或命令列安裝。    
+    >  <span data-ttu-id="d530d-156">您必須在您安裝的電腦上系統管理權限[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]，不論是否使用精靈或命令列安裝。</span><span class="sxs-lookup"><span data-stu-id="d530d-156">You must have administrative privileges on the computer where you install the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)], irrespective of whether you are installing by using the wizard or the command line.</span></span>    
 
-### <a name="BKMK_Install_Scenarios"></a>32 位元和 64 位元安裝案例
- 與[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]、[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]適用於：  
+### <span data-ttu-id="d530d-157"><a name="BKMK_Install_Scenarios"></a>32 位元和 64 位元安裝案例</span><span class="sxs-lookup"><span data-stu-id="d530d-157"><a name="BKMK_Install_Scenarios"></a> 32-bit and 64-bit install scenarios</span></span>
+ <span data-ttu-id="d530d-158">與[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]、[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]適用於：</span><span class="sxs-lookup"><span data-stu-id="d530d-158">With [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] can be used for:</span></span>  
   
--   [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]設計階段 （當產生作業的中繼資料）。  
+-   [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]<span data-ttu-id="d530d-159">設計階段 （當產生作業的中繼資料）。</span><span class="sxs-lookup"><span data-stu-id="d530d-159"> design time (when generating metadata for operations).</span></span>  
   
--   BizTalk Server 管理主控台 （用於建立實體連接埠） 的設計階段。  
+-   <span data-ttu-id="d530d-160">BizTalk Server 管理主控台 （用於建立實體連接埠） 的設計階段。</span><span class="sxs-lookup"><span data-stu-id="d530d-160">BizTalk Server Administration console design time (for creating physical ports).</span></span>  
   
     > [!NOTE]
-    >  BizTalk Server 管理主控台會以 32 位元 Microsoft Management Console (MMC) 應用程式執行。  
+    >  <span data-ttu-id="d530d-161">BizTalk Server 管理主控台會以 32 位元 Microsoft Management Console (MMC) 應用程式執行。</span><span class="sxs-lookup"><span data-stu-id="d530d-161">BizTalk Server Administration console runs as a 32-bit Microsoft Management Console (MMC) application.</span></span>  
   
--   BizTalk 執行階段 （傳送和接收訊息時從 LOB 應用程式）。  
+-   <span data-ttu-id="d530d-162">BizTalk 執行階段 （傳送和接收訊息時從 LOB 應用程式）。</span><span class="sxs-lookup"><span data-stu-id="d530d-162">BizTalk run time (when sending and receiving messages from LOB applications).</span></span>  
   
- 您可以安裝在同一部電腦或不同的電腦執行所有這些工作地方。 因為同時[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]和 BizTalk MMC 是 32 位元處理程序，您必須安裝 32 位元[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]您要執行設計階段工作的電腦上。 支援下列案例安裝[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]32 位元和 64 位元平台上。  
+ <span data-ttu-id="d530d-163">您可以安裝在同一部電腦或不同的電腦執行所有這些工作地方。</span><span class="sxs-lookup"><span data-stu-id="d530d-163">You can have an installation where you perform all these tasks on the same computer or different computers.</span></span> <span data-ttu-id="d530d-164">因為同時[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]和 BizTalk MMC 是 32 位元處理程序，您必須安裝 32 位元[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]您要執行設計階段工作的電腦上。</span><span class="sxs-lookup"><span data-stu-id="d530d-164">Because both [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] and BizTalk MMC are 32-bit processes, you must install the 32-bit [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] on the computer where you want to perform the design-time tasks.</span></span> <span data-ttu-id="d530d-165">支援下列案例安裝[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]32 位元和 64 位元平台上。</span><span class="sxs-lookup"><span data-stu-id="d530d-165">The following scenarios are supported for installing the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] on 32-bit and 64-bit platforms.</span></span>  
   
-#### <a name="32-bit-install-scenarios"></a>32 位元的安裝案例  
- 當安裝支援下列案例[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]32 位元平台上。  
+#### <a name="32-bit-install-scenarios"></a><span data-ttu-id="d530d-166">32 位元的安裝案例</span><span class="sxs-lookup"><span data-stu-id="d530d-166">32-bit install scenarios</span></span>  
+ <span data-ttu-id="d530d-167">當安裝支援下列案例[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]32 位元平台上。</span><span class="sxs-lookup"><span data-stu-id="d530d-167">The following scenarios are supported when installing the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] on a 32-bit platform.</span></span>  
   
-|Visual Studio 設計階段|BizTalk MMC 設計階段|BizTalk 執行階段|Visual Studio 設計階段及/或 MMC BizTalk 設計階段 + BizTalk 執行階段|  
+|<span data-ttu-id="d530d-168">Visual Studio 設計階段</span><span class="sxs-lookup"><span data-stu-id="d530d-168">Visual Studio design time</span></span>|<span data-ttu-id="d530d-169">BizTalk MMC 設計階段</span><span class="sxs-lookup"><span data-stu-id="d530d-169">BizTalk MMC design time</span></span>|<span data-ttu-id="d530d-170">BizTalk 執行階段</span><span class="sxs-lookup"><span data-stu-id="d530d-170">BizTalk run time</span></span>|<span data-ttu-id="d530d-171">Visual Studio 設計階段及/或 MMC BizTalk 設計階段 + BizTalk 執行階段</span><span class="sxs-lookup"><span data-stu-id="d530d-171">Visual Studio design time and/or  BizTalk MMC design time + BizTalk run time</span></span>|  
 |---|---|---|---|  
-|安裝 32 位元[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。<br /><br /> 安裝 32 位元[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。<br /><br /> -安裝 32 位元用戶端和其他必要的 Dll。|安裝 32 位元[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。<br /><br /> 安裝 32 位元[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。<br /><br /> -安裝 32 位元用戶端和其他必要的 Dll。|安裝 32 位元[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。<br /><br /> 安裝 32 位元[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。<br /><br /> -安裝 32 位元用戶端和其他必要的 Dll。|安裝 32 位元[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。<br /><br /> 安裝 32 位元[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。<br /><br /> -安裝 32 位元用戶端和其他必要的 Dll。|  
+|<span data-ttu-id="d530d-172">安裝 32 位元[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-172">- Install 32-bit [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)].</span></span><br /><br /> <span data-ttu-id="d530d-173">安裝 32 位元[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-173">- Install 32-bit [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].</span></span><br /><br /> <span data-ttu-id="d530d-174">-安裝 32 位元用戶端和其他必要的 Dll。</span><span class="sxs-lookup"><span data-stu-id="d530d-174">- Install 32-bit client and other required DLLs.</span></span>|<span data-ttu-id="d530d-175">安裝 32 位元[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-175">- Install 32-bit [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)].</span></span><br /><br /> <span data-ttu-id="d530d-176">安裝 32 位元[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-176">- Install 32-bit [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].</span></span><br /><br /> <span data-ttu-id="d530d-177">-安裝 32 位元用戶端和其他必要的 Dll。</span><span class="sxs-lookup"><span data-stu-id="d530d-177">- Install 32-bit client and other required DLLs.</span></span>|<span data-ttu-id="d530d-178">安裝 32 位元[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-178">- Install 32-bit [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)].</span></span><br /><br /> <span data-ttu-id="d530d-179">安裝 32 位元[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-179">- Install 32-bit [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].</span></span><br /><br /> <span data-ttu-id="d530d-180">-安裝 32 位元用戶端和其他必要的 Dll。</span><span class="sxs-lookup"><span data-stu-id="d530d-180">- Install 32-bit client and other required DLLs.</span></span>|<span data-ttu-id="d530d-181">安裝 32 位元[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-181">- Install 32-bit [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)].</span></span><br /><br /> <span data-ttu-id="d530d-182">安裝 32 位元[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-182">- Install 32-bit [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].</span></span><br /><br /> <span data-ttu-id="d530d-183">-安裝 32 位元用戶端和其他必要的 Dll。</span><span class="sxs-lookup"><span data-stu-id="d530d-183">- Install 32-bit client and other required DLLs.</span></span>|  
   
-#### <a name="64-bit-install-scenarios"></a>64 位元的安裝案例  
- 當安裝支援下列案例[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]64 位元平台上。  
+#### <a name="64-bit-install-scenarios"></a><span data-ttu-id="d530d-184">64 位元的安裝案例</span><span class="sxs-lookup"><span data-stu-id="d530d-184">64-bit install scenarios</span></span>  
+ <span data-ttu-id="d530d-185">當安裝支援下列案例[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]64 位元平台上。</span><span class="sxs-lookup"><span data-stu-id="d530d-185">The following scenarios are supported when installing the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] on a 64-bit platform.</span></span>  
   
 > [!NOTE]
->  在您要執行設計階段工作使用的任何電腦上[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]BizTalk MMC 中，您必須安裝 32 位元或[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。  
+>  <span data-ttu-id="d530d-186">在您要執行設計階段工作使用的任何電腦上[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]BizTalk MMC 中，您必須安裝 32 位元或[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-186">On any computer where you want to perform design-time tasks using either [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] or BizTalk MMC, you must install the 32-bit [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].</span></span>  
   
-|Visual Studio 設計階段|BizTalk MMC 設計階段|BizTalk 執行階段|Visual Studio 設計階段及/或 MMC BizTalk 設計階段 + BizTalk 執行階段|  
+|<span data-ttu-id="d530d-187">Visual Studio 設計階段</span><span class="sxs-lookup"><span data-stu-id="d530d-187">Visual Studio design time</span></span>|<span data-ttu-id="d530d-188">BizTalk MMC 設計階段</span><span class="sxs-lookup"><span data-stu-id="d530d-188">BizTalk MMC design time</span></span>|<span data-ttu-id="d530d-189">BizTalk 執行階段</span><span class="sxs-lookup"><span data-stu-id="d530d-189">BizTalk run time</span></span>|<span data-ttu-id="d530d-190">Visual Studio 設計階段及/或 MMC BizTalk 設計階段 + BizTalk 執行階段</span><span class="sxs-lookup"><span data-stu-id="d530d-190">Visual Studio design time and/or BizTalk MMC design time + BizTalk run time</span></span>|  
 |---|---|---|---|  
-|安裝 64 位元[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。<br /><br /> 安裝 32 位元[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。<br /><br /> -安裝 32 位元用戶端和其他必要的 Dll。|安裝 64 位元[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。<br /><br /> 安裝 32 位元[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。<br /><br /> -安裝 32 位元用戶端和其他必要的 Dll。|**32 位元 BizTalk 處理序**:<br /><br /> 安裝 64 位元[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。<br /><br /> 安裝 32 位元[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。<br /><br /> -安裝 32 位元用戶端和其他必要的 Dll。<br /><br /> **64 位元 BizTalk 處理序**:<br /><br /> 安裝 64 位元[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。<br /><br /> 安裝 64 位元[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。<br /><br /> -安裝 64 位元用戶端和其他必要的 Dll。|**32 位元 BizTalk 處理序**:<br /><br /> 安裝 64 位元[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。<br /><br /> 安裝 32 位元[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。<br /><br /> -安裝 32 位元用戶端和其他必要的 Dll。<br /><br /> **64 位元 BizTalk 處理序**:<br /><br /> 安裝 64 位元[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。<br /><br /> 安裝 64 位元[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。<br /><br /> -安裝 64 位元用戶端和其他必要的 Dll。<br /><br /> 安裝 32 位元[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。<br /><br /> -安裝 32 位元用戶端和其他必要的 Dll。|  
+|<span data-ttu-id="d530d-191">安裝 64 位元[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-191">- Install 64-bit [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)].</span></span><br /><br /> <span data-ttu-id="d530d-192">安裝 32 位元[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-192">- Install 32-bit [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].</span></span><br /><br /> <span data-ttu-id="d530d-193">-安裝 32 位元用戶端和其他必要的 Dll。</span><span class="sxs-lookup"><span data-stu-id="d530d-193">- Install 32-bit client and other required DLLs.</span></span>|<span data-ttu-id="d530d-194">安裝 64 位元[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-194">- Install 64-bit [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)].</span></span><br /><br /> <span data-ttu-id="d530d-195">安裝 32 位元[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-195">- Install 32-bit [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].</span></span><br /><br /> <span data-ttu-id="d530d-196">-安裝 32 位元用戶端和其他必要的 Dll。</span><span class="sxs-lookup"><span data-stu-id="d530d-196">- Install 32-bit client and other required DLLs.</span></span>|<span data-ttu-id="d530d-197">**32 位元 BizTalk 處理序**:</span><span class="sxs-lookup"><span data-stu-id="d530d-197">**For a 32-bit BizTalk process**:</span></span><br /><br /> <span data-ttu-id="d530d-198">安裝 64 位元[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-198">- Install 64-bit [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)].</span></span><br /><br /> <span data-ttu-id="d530d-199">安裝 32 位元[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-199">- Install 32-bit [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].</span></span><br /><br /> <span data-ttu-id="d530d-200">-安裝 32 位元用戶端和其他必要的 Dll。</span><span class="sxs-lookup"><span data-stu-id="d530d-200">- Install 32-bit client and other required DLLs.</span></span><br /><br /> <span data-ttu-id="d530d-201">**64 位元 BizTalk 處理序**:</span><span class="sxs-lookup"><span data-stu-id="d530d-201">**For a 64-bit BizTalk process**:</span></span><br /><br /> <span data-ttu-id="d530d-202">安裝 64 位元[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-202">- Install 64-bit [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)].</span></span><br /><br /> <span data-ttu-id="d530d-203">安裝 64 位元[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-203">- Install 64-bit [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].</span></span><br /><br /> <span data-ttu-id="d530d-204">-安裝 64 位元用戶端和其他必要的 Dll。</span><span class="sxs-lookup"><span data-stu-id="d530d-204">- Install 64-bit client and other required DLLs.</span></span>|<span data-ttu-id="d530d-205">**32 位元 BizTalk 處理序**:</span><span class="sxs-lookup"><span data-stu-id="d530d-205">**For a 32-bit BizTalk process**:</span></span><br /><br /> <span data-ttu-id="d530d-206">安裝 64 位元[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-206">- Install 64-bit [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)].</span></span><br /><br /> <span data-ttu-id="d530d-207">安裝 32 位元[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-207">- Install 32-bit [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].</span></span><br /><br /> <span data-ttu-id="d530d-208">-安裝 32 位元用戶端和其他必要的 Dll。</span><span class="sxs-lookup"><span data-stu-id="d530d-208">- Install 32-bit client and other required DLLs.</span></span><br /><br /> <span data-ttu-id="d530d-209">**64 位元 BizTalk 處理序**:</span><span class="sxs-lookup"><span data-stu-id="d530d-209">**For a 64-bit BizTalk process**:</span></span><br /><br /> <span data-ttu-id="d530d-210">安裝 64 位元[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-210">- Install 64-bit [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)].</span></span><br /><br /> <span data-ttu-id="d530d-211">安裝 64 位元[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-211">- Install 64-bit [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].</span></span><br /><br /> <span data-ttu-id="d530d-212">-安裝 64 位元用戶端和其他必要的 Dll。</span><span class="sxs-lookup"><span data-stu-id="d530d-212">- Install 64-bit client and other required DLLs.</span></span><br /><br /> <span data-ttu-id="d530d-213">安裝 32 位元[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-213">- Install 32-bit [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].</span></span><br /><br /> <span data-ttu-id="d530d-214">-安裝 32 位元用戶端和其他必要的 Dll。</span><span class="sxs-lookup"><span data-stu-id="d530d-214">- Install 32-bit client and other required DLLs.</span></span>|  
   
 <a name="BKMK_Install_wizard"></a>   
-### <a name="install-the-adapter-in-interactive-mode"></a>在互動模式中安裝配接器  
-完成下列步驟來安裝[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]使用安裝精靈。  
+### <a name="install-the-adapter-in-interactive-mode"></a><span data-ttu-id="d530d-215">在互動模式中安裝配接器</span><span class="sxs-lookup"><span data-stu-id="d530d-215">Install the adapter in interactive mode</span></span>  
+<span data-ttu-id="d530d-216">完成下列步驟來安裝[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]使用安裝精靈。</span><span class="sxs-lookup"><span data-stu-id="d530d-216">Complete the following steps to install the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] using the setup wizard.</span></span>  
   
-1.  執行安裝程式。  
-  
-    > [!NOTE]
-    >  如果您要安裝[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]上為虛擬機器，安裝精靈可能會繼續進行通知的安裝程式正在檢查可用磁碟空間的對話方塊。 在這種情況下，我們建議您使用無訊息安裝選項。 如需詳細資訊，請參閱[以無訊息模式安裝 SQL 配接器](#BKMK_SilentInst)（在本主題中）。
-  
-2.  閱讀 [歡迎] 畫面上的資訊，然後按**下一步**。  
-  
-3.  閱讀並接受使用者授權合約 (EULA)，，然後按一下**下一步**。  
-  
-4.  在**目的地資料夾**對話方塊方塊中，指定您要安裝的位置[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]，按一下 **下一步**，然後按一下 **安裝**。  
-  
-5.  在**客戶經驗改進計畫**對話方塊方塊中，指定您想要註冊的客戶經驗改進計畫 (CEIP)。 一部分的 CEIP [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]，將會與 Microsoft 共用的下列資料：  
-  
-    -   您要安裝的電腦硬體的相關資料[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。  
-  
-    -   您用來連接使用的 SQL Server 版本的相關資料[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。  
-  
-     指定您的選擇，然後按一下**確定**。  
+1.  <span data-ttu-id="d530d-217">執行安裝程式。</span><span class="sxs-lookup"><span data-stu-id="d530d-217">Run the installer.</span></span>  
   
     > [!NOTE]
-    >  您可以隨時變更您的喜好設定有關在修復模式中執行安裝程式，從 控制台註冊 CEIP。  
+    >  <span data-ttu-id="d530d-218">如果您要安裝[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]上為虛擬機器，安裝精靈可能會繼續進行通知的安裝程式正在檢查可用磁碟空間的對話方塊。</span><span class="sxs-lookup"><span data-stu-id="d530d-218">If you are installing the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] on a virtual machine, the setup wizard might not proceed beyond a dialog box informing that the setup is checking for available disk space.</span></span> <span data-ttu-id="d530d-219">在這種情況下，我們建議您使用無訊息安裝選項。</span><span class="sxs-lookup"><span data-stu-id="d530d-219">In such cases, we recommend that you use the silent installation option.</span></span> <span data-ttu-id="d530d-220">如需詳細資訊，請參閱[以無訊息模式安裝 SQL 配接器](#BKMK_SilentInst)（在本主題中）。</span><span class="sxs-lookup"><span data-stu-id="d530d-220">For more information, see [Install the SQL adapter in silent mode](#BKMK_SilentInst) (in this topic).</span></span>
   
-6.  按一下 **[完成]**。  
+2.  <span data-ttu-id="d530d-221">閱讀 [歡迎] 畫面上的資訊，然後按**下一步**。</span><span class="sxs-lookup"><span data-stu-id="d530d-221">Read the information on the Welcome screen, and then click **Next**.</span></span>  
+  
+3.  <span data-ttu-id="d530d-222">閱讀並接受使用者授權合約 (EULA)，，然後按一下**下一步**。</span><span class="sxs-lookup"><span data-stu-id="d530d-222">Read and accept the end-user license agreement (EULA), and then click **Next**.</span></span>  
+  
+4.  <span data-ttu-id="d530d-223">在**目的地資料夾**對話方塊方塊中，指定您要安裝的位置[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]，按一下 **下一步**，然後按一下 **安裝**。</span><span class="sxs-lookup"><span data-stu-id="d530d-223">In the **Destination Folder** dialog box, specify the location where you want to install the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)], click **Next**, and then click **Install**.</span></span>  
+  
+5.  <span data-ttu-id="d530d-224">在**客戶經驗改進計畫**對話方塊方塊中，指定您想要註冊的客戶經驗改進計畫 (CEIP)。</span><span class="sxs-lookup"><span data-stu-id="d530d-224">In the **Customer Experience Improvement Program** dialog box, specify whether you would like to enroll for the Customer Experience Improvement Program (CEIP).</span></span> <span data-ttu-id="d530d-225">一部分的 CEIP [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]，將會與 Microsoft 共用的下列資料：</span><span class="sxs-lookup"><span data-stu-id="d530d-225">As part of CEIP for [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)], you will share the following data with Microsoft:</span></span>  
+  
+    -   <span data-ttu-id="d530d-226">您要安裝的電腦硬體的相關資料[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-226">Data related to the computer hardware on which you are installing the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].</span></span>  
+  
+    -   <span data-ttu-id="d530d-227">您用來連接使用的 SQL Server 版本的相關資料[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-227">Data related to the SQL Server versions you are using to connect using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].</span></span>  
+  
+     <span data-ttu-id="d530d-228">指定您的選擇，然後按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="d530d-228">Specify your choice and click **OK**.</span></span>  
+  
+    > [!NOTE]
+    >  <span data-ttu-id="d530d-229">您可以隨時變更您的喜好設定有關在修復模式中執行安裝程式，從 控制台註冊 CEIP。</span><span class="sxs-lookup"><span data-stu-id="d530d-229">You can always change your preference regarding enrolling for CEIP by running the Setup in Repair mode from the Control Panel.</span></span>  
+  
+6.  <span data-ttu-id="d530d-230">按一下 **[完成]**。</span><span class="sxs-lookup"><span data-stu-id="d530d-230">Click **Finish**.</span></span>  
   
 <a name="BKMK_SilentInst"></a>   
-### <a name="install-the-sql-adapter-in-silent-mode"></a>以無訊息模式安裝 SQL 配接器 
-完成下列步驟來執行的無訊息安裝[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]使用`msiexec`命令。  
+### <a name="install-the-sql-adapter-in-silent-mode"></a><span data-ttu-id="d530d-231">以無訊息模式安裝 SQL 配接器</span><span class="sxs-lookup"><span data-stu-id="d530d-231">Install the SQL adapter in silent mode</span></span> 
+<span data-ttu-id="d530d-232">完成下列步驟來執行的無訊息安裝[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]使用`msiexec`命令。</span><span class="sxs-lookup"><span data-stu-id="d530d-232">Complete the following steps to do a silent installation of [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] using the `msiexec` command.</span></span>  
   
-1.  開啟命令提示字元並瀏覽至您用來讓安裝程式的資料夾。  
+1.  <span data-ttu-id="d530d-233">開啟命令提示字元並瀏覽至您用來讓安裝程式的資料夾。</span><span class="sxs-lookup"><span data-stu-id="d530d-233">Open a command prompt, and navigate to the folder where you have the installer.</span></span>  
   
-2.  執行下列命令以安裝[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]:  
+2.  <span data-ttu-id="d530d-234">執行下列命令以安裝[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]:</span><span class="sxs-lookup"><span data-stu-id="d530d-234">Run the following command to install the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]:</span></span>  
   
     > [!NOTE]
-    >  若要執行無訊息安裝在 x64 架構的平台，在下列命令，取代 SqlAdapterSetup64.msi 為 SqlAdapterSetup.msi。  
+    >  <span data-ttu-id="d530d-235">若要執行無訊息安裝在 x64 架構的平台，在下列命令，取代 SqlAdapterSetup64.msi 為 SqlAdapterSetup.msi。</span><span class="sxs-lookup"><span data-stu-id="d530d-235">To perform silent installation on an x64-based platform, in the following commands, replace SqlAdapterSetup.msi with SqlAdapterSetup64.msi.</span></span>  
   
     ```  
     msiexec /i SqlAdapterSetup.msi /qn  
     ```  
   
-     您也可以選擇的 CEIP 註冊為無訊息安裝的一部分。 一部分的 CEIP [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]，將會與 Microsoft 共用的下列資料：  
+     <span data-ttu-id="d530d-236">您也可以選擇的 CEIP 註冊為無訊息安裝的一部分。</span><span class="sxs-lookup"><span data-stu-id="d530d-236">You can also choose to enroll for CEIP as part of the silent installation.</span></span> <span data-ttu-id="d530d-237">一部分的 CEIP [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]，將會與 Microsoft 共用的下列資料：</span><span class="sxs-lookup"><span data-stu-id="d530d-237">As part of CEIP for [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)], you will share the following data with Microsoft:</span></span>  
   
-    -   您要安裝的電腦硬體[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。  
+    -   <span data-ttu-id="d530d-238">您要安裝的電腦硬體[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-238">The computer hardware on which you are installing the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].</span></span>  
   
-    -   您用來連接使用的 SQL Server 版本[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。  
+    -   <span data-ttu-id="d530d-239">您用來連接使用的 SQL Server 版本[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-239">The SQL Server versions you are using to connect using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].</span></span>  
   
-     若要註冊 ceip，執行下列命令：  
+     <span data-ttu-id="d530d-240">若要註冊 ceip，執行下列命令：</span><span class="sxs-lookup"><span data-stu-id="d530d-240">To enroll for CEIP, run the following command:</span></span>  
   
     ```  
     msiexec /i SqlAdapterSetup.msi /qn CEIP_OPTIN=true  
     ```  
   
-     根據預設，此選項為 false。  
+     <span data-ttu-id="d530d-241">根據預設，此選項為 false。</span><span class="sxs-lookup"><span data-stu-id="d530d-241">By default, the option is false.</span></span>  
   
-     如需有關`msiexec`命令中，輸入`msiexec`命令列，然後按上`ENTER`，或參閱[https://support.microsoft.com/kb/230781](https://support.microsoft.com/kb/230781)。  
+     <span data-ttu-id="d530d-242">如需有關`msiexec`命令中，輸入`msiexec`命令列，然後按上`ENTER`，或參閱[https://support.microsoft.com/kb/230781](https://support.microsoft.com/kb/230781)。</span><span class="sxs-lookup"><span data-stu-id="d530d-242">For more information about the `msiexec` command, type `msiexec` on the command line and press `ENTER`, or see [https://support.microsoft.com/kb/230781](https://support.microsoft.com/kb/230781).</span></span>  
   
 <a name="BKMK_PostInst"></a>   
-## <a name="post-installation-tasks"></a>後續安裝工作  
+## <a name="post-installation-tasks"></a><span data-ttu-id="d530d-243">後續安裝工作</span><span class="sxs-lookup"><span data-stu-id="d530d-243">Post-installation tasks</span></span>  
   
 <a name="BKMK_Register_Bindings"></a>   
-#### <a name="register-the-bindings"></a>註冊繫結  
-完成這些步驟*只*如果安裝精靈無法註冊在 machine.config 檔案中的配接器繫結。  
+#### <a name="register-the-bindings"></a><span data-ttu-id="d530d-244">註冊繫結</span><span class="sxs-lookup"><span data-stu-id="d530d-244">Register the bindings</span></span>  
+<span data-ttu-id="d530d-245">完成這些步驟*只*如果安裝精靈無法註冊在 machine.config 檔案中的配接器繫結。</span><span class="sxs-lookup"><span data-stu-id="d530d-245">Complete these steps *only* if the setup wizard fails to register the adapter bindings in the machine.config file.</span></span>  
   
-1.  瀏覽至電腦上的 machine.config 檔案。 例如，32 位元平台上，machine.config 位在\<系統磁碟機 >: \WINDOWS\Microsoft.NET\Framework\\< 版本\>\CONFIG。  
+1.  <span data-ttu-id="d530d-246">瀏覽至電腦上的 machine.config 檔案。</span><span class="sxs-lookup"><span data-stu-id="d530d-246">Navigate to the machine.config file on the computer.</span></span> <span data-ttu-id="d530d-247">例如，32 位元平台上，machine.config 位在\<系統磁碟機 >: \WINDOWS\Microsoft.NET\Framework\\< 版本\>\CONFIG。</span><span class="sxs-lookup"><span data-stu-id="d530d-247">For example, on a 32-bit platform, the machine.config is available under \<system drive>:\WINDOWS\Microsoft.NET\Framework\\<version\>\CONFIG.</span></span>  
   
-2.  開啟檔案，使用文字編輯器。  
+2.  <span data-ttu-id="d530d-248">開啟檔案，使用文字編輯器。</span><span class="sxs-lookup"><span data-stu-id="d530d-248">Open the file using a text editor.</span></span>  
   
-3.  若要註冊配接器繫結：  
+3.  <span data-ttu-id="d530d-249">若要註冊配接器繫結：</span><span class="sxs-lookup"><span data-stu-id="d530d-249">To register the adapter bindings:</span></span>  
   
-    1.  搜尋 「 system.serviceModel 的項目，並將其下的面一行加入：  
+    1.  <span data-ttu-id="d530d-250">搜尋 「 system.serviceModel 的項目，並將其下的面一行加入：</span><span class="sxs-lookup"><span data-stu-id="d530d-250">Search for the element "system.serviceModel" and add the following under it:</span></span>  
   
         ```  
         <client>  
@@ -208,147 +208,147 @@ ms.lasthandoff: 09/20/2017
         </client>  
         ```  
   
-    2.  搜尋"bindingElementExtensions"system.serviceModel\extensions 底下的項目。  
+    2.  <span data-ttu-id="d530d-251">搜尋"bindingElementExtensions"system.serviceModel\extensions 底下的項目。</span><span class="sxs-lookup"><span data-stu-id="d530d-251">Search for the element "bindingElementExtensions" under system.serviceModel\extensions.</span></span>  
   
-    3.  新增下列區段，"bindingElementExtensions 」 節點下。  
+    3.  <span data-ttu-id="d530d-252">新增下列區段，"bindingElementExtensions 」 節點下。</span><span class="sxs-lookup"><span data-stu-id="d530d-252">Add the following section under the "bindingElementExtensions" node.</span></span>  
   
-         如[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]，加入：  
+         <span data-ttu-id="d530d-253">如[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]，加入：</span><span class="sxs-lookup"><span data-stu-id="d530d-253">For the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)], add:</span></span>  
   
         ```  
         <add name="sqlAdapter" type="Microsoft.Adapters.Sql.SqlAdapterBindingElementExtensionElement,Microsoft.Adapters.Sql, Version=<version>, Culture=neutral, PublicKeyToken=<public key>" />  
         ```  
   
-    4.  搜尋"bindingExtensions"system.serviceModel\extensions 底下的項目。  
+    4.  <span data-ttu-id="d530d-254">搜尋"bindingExtensions"system.serviceModel\extensions 底下的項目。</span><span class="sxs-lookup"><span data-stu-id="d530d-254">Search for the element "bindingExtensions" under system.serviceModel\extensions.</span></span>  
   
-    5.  新增下列區段，"bindingExtensions 」 節點下。  
+    5.  <span data-ttu-id="d530d-255">新增下列區段，"bindingExtensions 」 節點下。</span><span class="sxs-lookup"><span data-stu-id="d530d-255">Add the following section under the "bindingExtensions" node.</span></span>  
   
-         如[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]，加入：  
+         <span data-ttu-id="d530d-256">如[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]，加入：</span><span class="sxs-lookup"><span data-stu-id="d530d-256">For [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)], add:</span></span>  
   
         ```  
         <add name="sqlBinding" type="Microsoft.Adapters.Sql.SqlAdapterBindingCollectionElement,Microsoft.Adapters.Sql, Version=<version>, Culture=neutral, PublicKeyToken=<public key>" />  
         ```  
   
     > [!NOTE]
-    >  如需如何判斷公開金鑰資訊，請參閱[公開金鑰和版本判斷](#BKMK_PubKey)。  
+    >  <span data-ttu-id="d530d-257">如需如何判斷公開金鑰資訊，請參閱[公開金鑰和版本判斷](#BKMK_PubKey)。</span><span class="sxs-lookup"><span data-stu-id="d530d-257">For information about how to determine the public key, see [Determining the Public Key and Version](#BKMK_PubKey).</span></span>  
   
-4.  關閉並儲存 machine.config 檔。  
+4.  <span data-ttu-id="d530d-258">關閉並儲存 machine.config 檔。</span><span class="sxs-lookup"><span data-stu-id="d530d-258">Save and close the machine.config file.</span></span>  
   
 <a name="BKMK_PubKey"></a>   
-#### <a name="determining-the-public-key-and-version"></a>判斷公開金鑰和版本  
-完成下列步驟來判斷公開金鑰和版本[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。  
+#### <a name="determining-the-public-key-and-version"></a><span data-ttu-id="d530d-259">判斷公開金鑰和版本</span><span class="sxs-lookup"><span data-stu-id="d530d-259">Determining the Public Key and Version</span></span>  
+<span data-ttu-id="d530d-260">完成下列步驟來判斷公開金鑰和版本[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-260">Complete the following steps to determine the public key and version for the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].</span></span>  
   
-1.  瀏覽至 Windows 目錄，通常 C:\WINDOWS\assembly。  
+1.  <span data-ttu-id="d530d-261">瀏覽至 Windows 目錄，通常 C:\WINDOWS\assembly。</span><span class="sxs-lookup"><span data-stu-id="d530d-261">Navigate to the Windows directory, typically C:\WINDOWS\assembly.</span></span>  
   
-2.  以滑鼠右鍵按一下，您想要的公開金鑰，然後選取 DLL**屬性**。 下表列出的 Dll 名稱[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。  
+2.  <span data-ttu-id="d530d-262">以滑鼠右鍵按一下，您想要的公開金鑰，然後選取 DLL**屬性**。</span><span class="sxs-lookup"><span data-stu-id="d530d-262">Right-click the DLL for which you want the public key, and then select **Properties**.</span></span> <span data-ttu-id="d530d-263">下表列出的 Dll 名稱[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-263">The following table lists the name of the DLLs for the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].</span></span>  
   
-    |配接器|DLL 的名稱|  
+    |<span data-ttu-id="d530d-264">配接器</span><span class="sxs-lookup"><span data-stu-id="d530d-264">Adapter</span></span>|<span data-ttu-id="d530d-265">DLL 的名稱</span><span class="sxs-lookup"><span data-stu-id="d530d-265">Name of the DLL</span></span>|  
     |---|---|  
-    |[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]|Microsoft.Adapters.Sql.dll|  
+    |[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]|<span data-ttu-id="d530d-266">Microsoft.Adapters.Sql.dll</span><span class="sxs-lookup"><span data-stu-id="d530d-266">Microsoft.Adapters.Sql.dll</span></span>|  
   
-3.  在**一般**索引標籤上，根據值**公開金鑰語彙基元**標籤指定 dll 的公開金鑰。 同樣地，根據值**版本**標籤指定 dll 的版本號碼。  
+3.  <span data-ttu-id="d530d-267">在**一般**索引標籤上，根據值**公開金鑰語彙基元**標籤指定 dll 的公開金鑰。</span><span class="sxs-lookup"><span data-stu-id="d530d-267">On the **General** tab, the value against the **Public Key Token** label specifies the public key for the DLL.</span></span> <span data-ttu-id="d530d-268">同樣地，根據值**版本**標籤指定 dll 的版本號碼。</span><span class="sxs-lookup"><span data-stu-id="d530d-268">Similarly, the value against the **Version** label specifies the version number for the DLL.</span></span>  
   
-4.  複製的公開金鑰，然後按一下**取消**。  
+4.  <span data-ttu-id="d530d-269">複製的公開金鑰，然後按一下**取消**。</span><span class="sxs-lookup"><span data-stu-id="d530d-269">Copy the public key, and then click **Cancel**.</span></span>  
   
 <a name="BKMK_Modify_Adap"></a>   
-## <a name="update-or-change-the-sql-adapter-installation"></a>更新或變更 SQL 配接器安裝  
- 執行下列步驟來修改[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]安裝。 請確定您有[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]安裝您執行安裝精靈來修改[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]安裝。  
+## <a name="update-or-change-the-sql-adapter-installation"></a><span data-ttu-id="d530d-270">更新或變更 SQL 配接器安裝</span><span class="sxs-lookup"><span data-stu-id="d530d-270">Update or change the SQL adapter installation</span></span>  
+ <span data-ttu-id="d530d-271">執行下列步驟來修改[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]安裝。</span><span class="sxs-lookup"><span data-stu-id="d530d-271">Perform the following steps to modify the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] installation.</span></span> <span data-ttu-id="d530d-272">請確定您有[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]安裝您執行安裝精靈來修改[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]安裝。</span><span class="sxs-lookup"><span data-stu-id="d530d-272">Make sure you have the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] installed before you run the setup wizard to modify the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] installation.</span></span>  
   
- 您可以修改[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]下列兩種方式安裝：  
+ <span data-ttu-id="d530d-273">您可以修改[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]下列兩種方式安裝：</span><span class="sxs-lookup"><span data-stu-id="d530d-273">You can modify the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] installation in the following two ways:</span></span>  
   
--   **以互動模式**執行安裝精靈。  
+-   <span data-ttu-id="d530d-274">**以互動模式**執行安裝精靈。</span><span class="sxs-lookup"><span data-stu-id="d530d-274">**In interactive mode** by running the setup wizard.</span></span>  
   
--   **以無訊息模式**使用命令列。  
+-   <span data-ttu-id="d530d-275">**以無訊息模式**使用命令列。</span><span class="sxs-lookup"><span data-stu-id="d530d-275">**In silent mode** by using the command line.</span></span>  
   
-#### <a name="update-the-sql-adapter-installation-in-interactive-mode"></a>更新 SQL 配接器安裝在互動模式中  
+#### <a name="update-the-sql-adapter-installation-in-interactive-mode"></a><span data-ttu-id="d530d-276">更新 SQL 配接器安裝在互動模式中</span><span class="sxs-lookup"><span data-stu-id="d530d-276">Update the SQL Adapter installation in interactive mode</span></span>  
   
-1.  按一下**啟動**，然後按一下 **控制台**。  
+1.  <span data-ttu-id="d530d-277">按一下**啟動**，然後按一下 **控制台**。</span><span class="sxs-lookup"><span data-stu-id="d530d-277">Click **Start**, and then click **Control Panel**.</span></span>  
   
-2.  在控制台中，按兩下**程式和功能**。  
+2.  <span data-ttu-id="d530d-278">在控制台中，按兩下**程式和功能**。</span><span class="sxs-lookup"><span data-stu-id="d530d-278">In Control Panel, double-click **Programs and Features**.</span></span>  
   
-3.  在**程式和功能**視窗中，選取**Microsoft BizTalk Adapter for SQL Server**，然後按一下 **變更**。  
+3.  <span data-ttu-id="d530d-279">在**程式和功能**視窗中，選取**Microsoft BizTalk Adapter for SQL Server**，然後按一下 **變更**。</span><span class="sxs-lookup"><span data-stu-id="d530d-279">In the **Programs and Features** window, select **Microsoft BizTalk Adapter for SQL Server**, and then click **Change**.</span></span>  
   
-4.  閱讀 [歡迎] 畫面上的資訊，然後按**下一步**。  
+4.  <span data-ttu-id="d530d-280">閱讀 [歡迎] 畫面上的資訊，然後按**下一步**。</span><span class="sxs-lookup"><span data-stu-id="d530d-280">Read the information on the Welcome screen, and then click **Next**.</span></span>  
   
-5.  在**變更、 修復或移除安裝**對話方塊中，按一下 **修復**。  
+5.  <span data-ttu-id="d530d-281">在**變更、 修復或移除安裝**對話方塊中，按一下 **修復**。</span><span class="sxs-lookup"><span data-stu-id="d530d-281">In the **Change, repair, or remove installation** dialog box, click **Repair**.</span></span>  
   
-6.  在**準備好修復 Microsoft BizTalk Adapter for SQL Server**對話方塊中，按一下 **修復**。  
+6.  <span data-ttu-id="d530d-282">在**準備好修復 Microsoft BizTalk Adapter for SQL Server**對話方塊中，按一下 **修復**。</span><span class="sxs-lookup"><span data-stu-id="d530d-282">In the **Ready to repair Microsoft BizTalk Adapter for SQL Server** dialog box, click **Repair**.</span></span>  
   
-7.  若有需要，變更您的喜好設定有關選擇加入 ceip，，然後按一下 **確定**。  
+7.  <span data-ttu-id="d530d-283">若有需要，變更您的喜好設定有關選擇加入 ceip，，然後按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="d530d-283">If required, change your preferences regarding opting for CEIP, and then click **OK**.</span></span>  
   
-8.  按一下 **[完成]**。  
+8.  <span data-ttu-id="d530d-284">按一下 **[完成]**。</span><span class="sxs-lookup"><span data-stu-id="d530d-284">Click **Finish**.</span></span>  
   
-#### <a name="update-the-sql-adapter-installation-in-silent-mode"></a>SQL 配接器安裝，以無訊息模式更新  
+#### <a name="update-the-sql-adapter-installation-in-silent-mode"></a><span data-ttu-id="d530d-285">SQL 配接器安裝，以無訊息模式更新</span><span class="sxs-lookup"><span data-stu-id="d530d-285">Update the SQL Adapter installation in silent mode</span></span>  
   
-1.  開啟命令提示字元，並瀏覽至根目錄的[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]安裝程式。  
+1.  <span data-ttu-id="d530d-286">開啟命令提示字元，並瀏覽至根目錄的[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]安裝程式。</span><span class="sxs-lookup"><span data-stu-id="d530d-286">Open a command prompt, and navigate to the root directory of the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] installer.</span></span>  
   
-2.  執行下列命令：  
+2.  <span data-ttu-id="d530d-287">執行下列命令：</span><span class="sxs-lookup"><span data-stu-id="d530d-287">Run the following command:</span></span>  
   
     > [!NOTE]
-    >  若要修改[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]x64 平台上，下列命令，在無訊息模式中的安裝取代 SqlAdapterSetup64.msi SqlAdapterSetup.msi。  
+    >  <span data-ttu-id="d530d-288">若要修改[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]x64 平台上，下列命令，在無訊息模式中的安裝取代 SqlAdapterSetup64.msi SqlAdapterSetup.msi。</span><span class="sxs-lookup"><span data-stu-id="d530d-288">To modify the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] installation in silent mode on an x64-based platform, in the following commands, replace SqlAdapterSetup.msi with SqlAdapterSetup64.msi.</span></span>  
   
     ```  
     msiexec /i SqlAdapterSetup.msi /qn /f  
     ```  
   
     > [!IMPORTANT]
-    >  修改時[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]以無訊息模式安裝，您無法變更您的喜好設定選擇加入或退出 CEIP。 喜好設定會維持您指定在安裝時，即使您明確地設定 CEIP_OPTIN 為 true 或 false。  
+    >  <span data-ttu-id="d530d-289">修改時[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]以無訊息模式安裝，您無法變更您的喜好設定選擇加入或退出 CEIP。</span><span class="sxs-lookup"><span data-stu-id="d530d-289">While modifying the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] installation in the silent mode, you cannot change your preferences for opting in or out of CEIP.</span></span> <span data-ttu-id="d530d-290">喜好設定會維持您指定在安裝時，即使您明確地設定 CEIP_OPTIN 為 true 或 false。</span><span class="sxs-lookup"><span data-stu-id="d530d-290">The preferences will remain the same as you specified during the installation, even if you explicitly set the CEIP_OPTIN to true or false.</span></span>  
   
-     如需有關`msiexec`命令類型`msiexec`命令列，然後按上`ENTER`，或參閱[https://support.microsoft.com/kb/230781](https://support.microsoft.com/kb/230781)。  
+     <span data-ttu-id="d530d-291">如需有關`msiexec`命令類型`msiexec`命令列，然後按上`ENTER`，或參閱[https://support.microsoft.com/kb/230781](https://support.microsoft.com/kb/230781)。</span><span class="sxs-lookup"><span data-stu-id="d530d-291">For more information about the `msiexec` command type `msiexec` on the command line and press `ENTER`, or see [https://support.microsoft.com/kb/230781](https://support.microsoft.com/kb/230781).</span></span>  
   
 <a name="BKMK_Remove_Adap"></a>   
-## <a name="uninstall-or-remove-the-sql-adapter"></a>解除安裝或移除 SQL 配接器  
- 執行下列步驟來移除[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]從您的電腦。 請確定您有[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]安裝在執行安裝程式精靈，以移除之前[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。  
+## <a name="uninstall-or-remove-the-sql-adapter"></a><span data-ttu-id="d530d-292">解除安裝或移除 SQL 配接器</span><span class="sxs-lookup"><span data-stu-id="d530d-292">Uninstall or remove the SQL Adapter</span></span>  
+ <span data-ttu-id="d530d-293">執行下列步驟來移除[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]從您的電腦。</span><span class="sxs-lookup"><span data-stu-id="d530d-293">Perform the following steps to remove the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] from your computer.</span></span> <span data-ttu-id="d530d-294">請確定您有[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]安裝在執行安裝程式精靈，以移除之前[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-294">Make sure you have the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] installed before you run the setup wizard to remove the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].</span></span>  
   
- 您可以移除[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]下列兩種方式：  
+ <span data-ttu-id="d530d-295">您可以移除[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]下列兩種方式：</span><span class="sxs-lookup"><span data-stu-id="d530d-295">You can remove the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] in the following two ways:</span></span>  
   
--   **以互動模式**執行安裝精靈。  
+-   <span data-ttu-id="d530d-296">**以互動模式**執行安裝精靈。</span><span class="sxs-lookup"><span data-stu-id="d530d-296">**In interactive mode** by running the setup wizard.</span></span>  
   
--   **以無訊息模式**使用命令列。  
+-   <span data-ttu-id="d530d-297">**以無訊息模式**使用命令列。</span><span class="sxs-lookup"><span data-stu-id="d530d-297">**In silent mode** by using the command line.</span></span>  
   
-#### <a name="uninstall-the-sql-adapter-in-interactive-mode"></a>解除安裝 SQL 配接器以互動模式  
+#### <a name="uninstall-the-sql-adapter-in-interactive-mode"></a><span data-ttu-id="d530d-298">解除安裝 SQL 配接器以互動模式</span><span class="sxs-lookup"><span data-stu-id="d530d-298">Uninstall the SQL Adapter in interactive mode</span></span>  
   
-1.  按一下**啟動**，然後按一下 **控制台**。  
+1.  <span data-ttu-id="d530d-299">按一下**啟動**，然後按一下 **控制台**。</span><span class="sxs-lookup"><span data-stu-id="d530d-299">Click **Start**, and then click **Control Panel**.</span></span>  
   
-2.  在控制台中，按兩下**程式和功能**。  
+2.  <span data-ttu-id="d530d-300">在控制台中，按兩下**程式和功能**。</span><span class="sxs-lookup"><span data-stu-id="d530d-300">In Control Panel, double-click  **Programs and Features**.</span></span>  
   
-3.  在**新增或移除程式**視窗中，選取**Microsoft BizTalk Adapter for SQL Server**，然後按一下 **移除**。  
+3.  <span data-ttu-id="d530d-301">在**新增或移除程式**視窗中，選取**Microsoft BizTalk Adapter for SQL Server**，然後按一下 **移除**。</span><span class="sxs-lookup"><span data-stu-id="d530d-301">In the **Add or Remove Programs** window, select **Microsoft BizTalk Adapter for SQL Server**, and then click **Remove**.</span></span>  
   
-4.  在對話方塊中，按一下 **是**。  
+4.  <span data-ttu-id="d530d-302">在對話方塊中，按一下 **是**。</span><span class="sxs-lookup"><span data-stu-id="d530d-302">In the dialog box, click **Yes**.</span></span>  
   
-#### <a name="uninstall-the-sql-adapter-in-silent-mode"></a>解除安裝 SQL 配接器，以無訊息模式  
+#### <a name="uninstall-the-sql-adapter-in-silent-mode"></a><span data-ttu-id="d530d-303">解除安裝 SQL 配接器，以無訊息模式</span><span class="sxs-lookup"><span data-stu-id="d530d-303">Uninstall the SQL Adapter in silent mode</span></span>  
   
-1.  開啟命令提示字元，並瀏覽至根目錄的[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]安裝程式。  
+1.  <span data-ttu-id="d530d-304">開啟命令提示字元，並瀏覽至根目錄的[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]安裝程式。</span><span class="sxs-lookup"><span data-stu-id="d530d-304">Open a command prompt, and navigate to the root directory of the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] installer.</span></span>  
   
-2.  執行下列命令：  
+2.  <span data-ttu-id="d530d-305">執行下列命令：</span><span class="sxs-lookup"><span data-stu-id="d530d-305">Run the following command:</span></span>  
   
     > [!NOTE]
-    >  若要移除[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]在 x64 平台上，下列命令，在無訊息模式取代 SqlAdapterSetup.msi SqlAdapterSetup64.msi。  
+    >  <span data-ttu-id="d530d-306">若要移除[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]在 x64 平台上，下列命令，在無訊息模式取代 SqlAdapterSetup.msi SqlAdapterSetup64.msi。</span><span class="sxs-lookup"><span data-stu-id="d530d-306">To remove the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] in silent mode on an x64-based platform, in the following commands, replace SqlAdapterSetup.msi with SqlAdapterSetup64.msi.</span></span>  
   
     ```  
     msiexec /x SqlAdapterSetup.msi /qn  
     ```  
   
-     此命令會移除[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]從電腦。  
+     <span data-ttu-id="d530d-307">此命令會移除[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]從電腦。</span><span class="sxs-lookup"><span data-stu-id="d530d-307">This command removes the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] from the computer.</span></span>  
   
-     如需有關`msiexec`命令中，輸入`msiexec`命令列，然後按上`ENTER`，或參閱[https://support.microsoft.com/kb/230781](https://support.microsoft.com/kb/230781)。  
+     <span data-ttu-id="d530d-308">如需有關`msiexec`命令中，輸入`msiexec`命令列，然後按上`ENTER`，或參閱[https://support.microsoft.com/kb/230781](https://support.microsoft.com/kb/230781)。</span><span class="sxs-lookup"><span data-stu-id="d530d-308">For more information about the `msiexec` command, type `msiexec` on the command line and press `ENTER`, or see [https://support.microsoft.com/kb/230781](https://support.microsoft.com/kb/230781).</span></span>  
   
 <a name="BKMK_PostRemove"></a>   
-### <a name="post-uninstall-task"></a>解除安裝後工作  
- 如果[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]安裝程式無法移除配接器繫結同時移除[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]，您必須手動移除它們。 下列章節描述如何手動移除的繫結[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。  
+### <a name="post-uninstall-task"></a><span data-ttu-id="d530d-309">解除安裝後工作</span><span class="sxs-lookup"><span data-stu-id="d530d-309">Post-uninstall task</span></span>  
+ <span data-ttu-id="d530d-310">如果[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]安裝程式無法移除配接器繫結同時移除[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]，您必須手動移除它們。</span><span class="sxs-lookup"><span data-stu-id="d530d-310">If the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] setup fails to remove the adapter bindings while removing the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)], you must remove them manually.</span></span> <span data-ttu-id="d530d-311">下列章節描述如何手動移除的繫結[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d530d-311">The following section describes how to manually remove the bindings for the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].</span></span>  
   
-完成這些步驟*只*如果安裝精靈無法移除 machine.config 檔案中的配接器繫結。  
+<span data-ttu-id="d530d-312">完成這些步驟*只*如果安裝精靈無法移除 machine.config 檔案中的配接器繫結。</span><span class="sxs-lookup"><span data-stu-id="d530d-312">Complete these steps *only* if the setup wizard fails to remove the adapter bindings from the machine.config file.</span></span>  
   
-1.  瀏覽至電腦上的 machine.config 檔案。 例如，32 位元平台上，machine.config 位在\<系統磁碟機 >: \WINDOWS\Microsoft.NET\Framework\\< 版本\>\CONFIG。  
+1.  <span data-ttu-id="d530d-313">瀏覽至電腦上的 machine.config 檔案。</span><span class="sxs-lookup"><span data-stu-id="d530d-313">Navigate to the machine.config file on the computer.</span></span> <span data-ttu-id="d530d-314">例如，32 位元平台上，machine.config 位在\<系統磁碟機 >: \WINDOWS\Microsoft.NET\Framework\\< 版本\>\CONFIG。</span><span class="sxs-lookup"><span data-stu-id="d530d-314">For example, on a 32-bit platform, the machine.config is available under \<system drive>:\WINDOWS\Microsoft.NET\Framework\\<version\>\CONFIG.</span></span>  
   
-    -   Microsoft.NET framework 3.5 SP1、 \<*版本*> 是.NET framework 版本 v2.0.50727。  
+    -   <span data-ttu-id="d530d-315">Microsoft.NET framework 3.5 SP1、 \<*版本*> 是.NET framework 版本 v2.0.50727。</span><span class="sxs-lookup"><span data-stu-id="d530d-315">For Microsoft .NET Framework 3.5 SP1, \<*version*> is the version v2.0.50727 of the .NET Framework.</span></span>  
   
-    -   Microsoft [!INCLUDE[netfx40_short](../../includes/netfx40-short-md.md)]， \<*版本*> 是.NET framework 版本 v4.0.30319。  
+    -   <span data-ttu-id="d530d-316">Microsoft [!INCLUDE[netfx40_short](../../includes/netfx40-short-md.md)]， \<*版本*> 是.NET framework 版本 v4.0.30319。</span><span class="sxs-lookup"><span data-stu-id="d530d-316">For Microsoft [!INCLUDE[netfx40_short](../../includes/netfx40-short-md.md)], \<*version*> is the version v4.0.30319 of the .NET Framework.</span></span>  
   
-2.  開啟檔案，使用文字編輯器。  
+2.  <span data-ttu-id="d530d-317">開啟檔案，使用文字編輯器。</span><span class="sxs-lookup"><span data-stu-id="d530d-317">Open the file using a text editor.</span></span>  
   
-3.  若要移除介面卡繫結註冊：  
+3.  <span data-ttu-id="d530d-318">若要移除介面卡繫結註冊：</span><span class="sxs-lookup"><span data-stu-id="d530d-318">To remove the adapter binding registration:</span></span>  
   
-    1.  搜尋 「 system.serviceModel 的項目，並移除下列項目底下：  
+    1.  <span data-ttu-id="d530d-319">搜尋 「 system.serviceModel 的項目，並移除下列項目底下：</span><span class="sxs-lookup"><span data-stu-id="d530d-319">Search for the element "system.serviceModel" and remove the following from under the element:</span></span>  
   
         ```  
         <client>  
@@ -357,28 +357,28 @@ ms.lasthandoff: 09/20/2017
   
         ```  
   
-    2.  搜尋"bindingElementExtensions"system.serviceModel\extensions 底下的項目。  
+    2.  <span data-ttu-id="d530d-320">搜尋"bindingElementExtensions"system.serviceModel\extensions 底下的項目。</span><span class="sxs-lookup"><span data-stu-id="d530d-320">Search for the element "bindingElementExtensions" under system.serviceModel\extensions.</span></span>  
   
-    3.  移除 「 bindingElementExtensions 」 節點下的下一節。  
+    3.  <span data-ttu-id="d530d-321">移除 「 bindingElementExtensions 」 節點下的下一節。</span><span class="sxs-lookup"><span data-stu-id="d530d-321">Remove the following section under the "bindingElementExtensions" node.</span></span>  
   
-         如[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]，移除：  
+         <span data-ttu-id="d530d-322">如[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]，移除：</span><span class="sxs-lookup"><span data-stu-id="d530d-322">For [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)], remove:</span></span>  
   
         ```  
         <add name="sqlAdapter" type="Microsoft.Adapters.Sql.SqlAdapterBindingElementExtensionElement,Microsoft.Adapters.Sql, Version=<version>, Culture=neutral, PublicKeyToken=<public key>" />  
         ```  
   
-    4.  搜尋"bindingExtensions"system.serviceModel\extensions 底下的項目。  
+    4.  <span data-ttu-id="d530d-323">搜尋"bindingExtensions"system.serviceModel\extensions 底下的項目。</span><span class="sxs-lookup"><span data-stu-id="d530d-323">Search for the element "bindingExtensions" under system.serviceModel\extensions.</span></span>  
   
-    5.  移除 「 bindingExtensions 」 節點下的下一節。  
+    5.  <span data-ttu-id="d530d-324">移除 「 bindingExtensions 」 節點下的下一節。</span><span class="sxs-lookup"><span data-stu-id="d530d-324">Remove the following section under the "bindingExtensions" node.</span></span>  
   
-         如[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]，移除：  
+         <span data-ttu-id="d530d-325">如[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]，移除：</span><span class="sxs-lookup"><span data-stu-id="d530d-325">For [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)], remove:</span></span>  
   
         ```  
         <add name="sqlBinding" type="Microsoft.Adapters.Sql.SqlAdapterBindingCollectionElement,Microsoft.Adapters.Sql, Version=<version>, Culture=neutral, PublicKeyToken=<public key>" />  
         ```  
   
-4.  關閉並儲存 machine.config 檔。  
+4.  <span data-ttu-id="d530d-326">關閉並儲存 machine.config 檔。</span><span class="sxs-lookup"><span data-stu-id="d530d-326">Save and close the machine.config file.</span></span>  
   
-## <a name="see-also"></a>另請參閱
-[安裝 SQL 配接器](../../adapters-and-accelerators/adapter-sql/install-the-sql-adapter.md)  
-[瞭解 BizTalk Adapter for SQL Server](../../adapters-and-accelerators/adapter-sql/understand-biztalk-adapter-for-sql-server.md)
+## <a name="see-also"></a><span data-ttu-id="d530d-327">另請參閱</span><span class="sxs-lookup"><span data-stu-id="d530d-327">See also</span></span>
+[<span data-ttu-id="d530d-328">安裝 SQL 配接器</span><span class="sxs-lookup"><span data-stu-id="d530d-328">Install the SQL adapter</span></span>](../../adapters-and-accelerators/adapter-sql/install-the-sql-adapter.md)  
+[<span data-ttu-id="d530d-329">瞭解 BizTalk Adapter for SQL Server</span><span class="sxs-lookup"><span data-stu-id="d530d-329">Understand BizTalk Adapter for SQL Server</span></span>](../../adapters-and-accelerators/adapter-sql/understand-biztalk-adapter-for-sql-server.md)

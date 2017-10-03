@@ -22,337 +22,337 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="step-2-create-an-application-definition-file-for-the-sap-artifacts"></a>步驟 2： 建立應用程式定義檔 SAP 成品
-![步驟 4 之 2](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")  
+# <a name="step-2-create-an-application-definition-file-for-the-sap-artifacts"></a><span data-ttu-id="5d95c-102">步驟 2： 建立應用程式定義檔 SAP 成品</span><span class="sxs-lookup"><span data-stu-id="5d95c-102">Step 2: Create an Application Definition File for the SAP Artifacts</span></span>
+<span data-ttu-id="5d95c-103">![步驟 4 之 2](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")</span><span class="sxs-lookup"><span data-stu-id="5d95c-103">![Step 2 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")</span></span>  
   
- **若要完成的時間：** 15 分鐘  
+ <span data-ttu-id="5d95c-104">**若要完成的時間：** 15 分鐘</span><span class="sxs-lookup"><span data-stu-id="5d95c-104">**Time to complete:** 15 minutes</span></span>  
   
- **目標：** Microsoft SharePoint Server 中的商務資料目錄功能會公開，並從的特定業務 (LOB) 應用程式的資料合併至入口網站。 將此資料合併到您的入口網站，您必須建立 Microsoft Office SharePoint Server 可以使用應用程式定義檔。  
+ <span data-ttu-id="5d95c-105">**目標：** Microsoft SharePoint Server 中的商務資料目錄功能會公開，並從的特定業務 (LOB) 應用程式的資料合併至入口網站。</span><span class="sxs-lookup"><span data-stu-id="5d95c-105">**Objective:** The Business Data Catalog feature in Microsoft SharePoint Server exposes and incorporates data from line-of-business (LOB) applications into portals.</span></span> <span data-ttu-id="5d95c-106">將此資料合併到您的入口網站，您必須建立 Microsoft Office SharePoint Server 可以使用應用程式定義檔。</span><span class="sxs-lookup"><span data-stu-id="5d95c-106">To incorporate this data into your portal site, you must build an application definition file that Microsoft Office SharePoint Server can consume.</span></span>  
   
- 商務資料目錄定義編輯器工具，適用於 Microsoft Office SharePoint Server 2007 SDK，可讓您建立的商務資料目錄的應用程式定義檔。 此工具會自動產生定義檔的 XML 檔案，因此您不需要手動將檔案在編輯器中建立 XML。  
+ <span data-ttu-id="5d95c-107">商務資料目錄定義編輯器工具，適用於 Microsoft Office SharePoint Server 2007 SDK，可讓您建立的商務資料目錄的應用程式定義檔。</span><span class="sxs-lookup"><span data-stu-id="5d95c-107">The Business Data Catalog Definition Editor tool, available with Microsoft Office SharePoint Server 2007 SDK,enables you to create an application definition file for the Business Data Catalog.</span></span> <span data-ttu-id="5d95c-108">此工具會自動產生定義檔的 XML 檔案，因此您不需要手動將檔案在編輯器中建立 XML。</span><span class="sxs-lookup"><span data-stu-id="5d95c-108">This tool automatically generates an XML file for the definition file, so you do not need to manually create the file in an XML editor.</span></span>  
   
- 您正在建立 Microsoft Office SharePoint Server 應用程式的用途是：  
+ <span data-ttu-id="5d95c-109">您正在建立 Microsoft Office SharePoint Server 應用程式的用途是：</span><span class="sxs-lookup"><span data-stu-id="5d95c-109">The purpose of the Microsoft Office SharePoint Server application that you are creating is to:</span></span>  
   
--   搜尋以客戶名稱為主的 SAP 系統中的客戶。  
+-   <span data-ttu-id="5d95c-110">搜尋以客戶名稱為主的 SAP 系統中的客戶。</span><span class="sxs-lookup"><span data-stu-id="5d95c-110">Search for a customer in the SAP system based on a customer name.</span></span>  
   
--   從擷取的客戶清單中選取客戶並擷取客戶的詳細資料。  
+-   <span data-ttu-id="5d95c-111">從擷取的客戶清單中選取客戶並擷取客戶的詳細資料。</span><span class="sxs-lookup"><span data-stu-id="5d95c-111">Select a customer from the list of fetched customers and retrieve the details for the customer.</span></span>  
   
--   從擷取的客戶清單中選取客戶，並擷取客戶的銷售訂單。  
+-   <span data-ttu-id="5d95c-112">從擷取的客戶清單中選取客戶，並擷取客戶的銷售訂單。</span><span class="sxs-lookup"><span data-stu-id="5d95c-112">Select a customer from the list of fetched customers and retrieve the sales orders for the customer.</span></span>  
   
- 針對每個這些需求，您必須完成一的組商務資料目錄定義編輯器工具中的工作。 本主題提供有關如何執行這些工作的指示。  
+ <span data-ttu-id="5d95c-113">針對每個這些需求，您必須完成一的組商務資料目錄定義編輯器工具中的工作。</span><span class="sxs-lookup"><span data-stu-id="5d95c-113">For each of these requirements, you must complete a set of tasks in the Business Data Catalog Definition Editor tool.</span></span> <span data-ttu-id="5d95c-114">本主題提供有關如何執行這些工作的指示。</span><span class="sxs-lookup"><span data-stu-id="5d95c-114">This topic provides instructions on how to perform these tasks.</span></span>  
   
-## <a name="prerequisites"></a>必要條件  
+## <a name="prerequisites"></a><span data-ttu-id="5d95c-115">必要條件</span><span class="sxs-lookup"><span data-stu-id="5d95c-115">Prerequisites</span></span>  
   
--   請確定您有商務資料目錄定義編輯器安裝 Microsoft Office SharePoint Server 2007 SDK 的一部分。 您可以下載從 SDK [http://go.microsoft.com/fwlink/?LinkId=104130](http://go.microsoft.com/fwlink/?LinkId=104130)。  
+-   <span data-ttu-id="5d95c-116">請確定您有商務資料目錄定義編輯器安裝 Microsoft Office SharePoint Server 2007 SDK 的一部分。</span><span class="sxs-lookup"><span data-stu-id="5d95c-116">Be sure that you have the Business Data Catalog Definition Editor installed as part of the Microsoft Office SharePoint Server 2007 SDK.</span></span> <span data-ttu-id="5d95c-117">您可以下載從 SDK [http://go.microsoft.com/fwlink/?LinkId=104130](http://go.microsoft.com/fwlink/?LinkId=104130)。</span><span class="sxs-lookup"><span data-stu-id="5d95c-117">You can download the SDK from [http://go.microsoft.com/fwlink/?LinkId=104130](http://go.microsoft.com/fwlink/?LinkId=104130).</span></span>  
   
--   發佈 WCF 服務中所述[步驟 1： 發佈為 WCF 服務將 SAP 成品](../../adapters-and-accelerators/adapter-sap/step-1-publish-the-sap-artifacts-as-a-wcf-service.md)。  
+-   <span data-ttu-id="5d95c-118">發佈 WCF 服務中所述[步驟 1： 發佈為 WCF 服務將 SAP 成品](../../adapters-and-accelerators/adapter-sap/step-1-publish-the-sap-artifacts-as-a-wcf-service.md)。</span><span class="sxs-lookup"><span data-stu-id="5d95c-118">Publish the WCF service as described in [Step 1: Publish the SAP Artifacts as a WCF Service](../../adapters-and-accelerators/adapter-sap/step-1-publish-the-sap-artifacts-as-a-wcf-service.md).</span></span>  
   
-## <a name="creating-an-application-definition-file"></a>建立應用程式定義檔  
- 本主題提供逐步指示來建立 WCF 服務的應用程式定義檔。  
+## <a name="creating-an-application-definition-file"></a><span data-ttu-id="5d95c-119">建立應用程式定義檔</span><span class="sxs-lookup"><span data-stu-id="5d95c-119">Creating an Application Definition File</span></span>  
+ <span data-ttu-id="5d95c-120">本主題提供逐步指示來建立 WCF 服務的應用程式定義檔。</span><span class="sxs-lookup"><span data-stu-id="5d95c-120">This topic provides step-by-step instructions to create an application definition file for the WCF service.</span></span>  
   
-### <a name="connect-to-the-wcf-lob-service-and-create-entities"></a>連接到 WCF LOB 服務，並建立實體  
- 您必須連接至 WCF 服務，以擷取 Web 服務描述語言 (WSDL) 服務。 從 WSDL，商務資料目錄定義編輯器中擷取的方法。 這些方法可以用來建立實體。 此範例中，兩個實體所建立，每個客戶和銷售訂單。  
+### <a name="connect-to-the-wcf-lob-service-and-create-entities"></a><span data-ttu-id="5d95c-121">連接到 WCF LOB 服務，並建立實體</span><span class="sxs-lookup"><span data-stu-id="5d95c-121">Connect to the WCF LOB Service, and Create Entities</span></span>  
+ <span data-ttu-id="5d95c-122">您必須連接至 WCF 服務，以擷取 Web 服務描述語言 (WSDL) 服務。</span><span class="sxs-lookup"><span data-stu-id="5d95c-122">You must connect to the WCF service to extract the Web Services Description Language (WSDL) for the service.</span></span> <span data-ttu-id="5d95c-123">從 WSDL，商務資料目錄定義編輯器中擷取的方法。</span><span class="sxs-lookup"><span data-stu-id="5d95c-123">From the WSDL, the Business Data Catalog Definition Editor extracts the methods.</span></span> <span data-ttu-id="5d95c-124">這些方法可以用來建立實體。</span><span class="sxs-lookup"><span data-stu-id="5d95c-124">These methods can be used to create entities.</span></span> <span data-ttu-id="5d95c-125">此範例中，兩個實體所建立，每個客戶和銷售訂單。</span><span class="sxs-lookup"><span data-stu-id="5d95c-125">For this example, two entities are created, one each for the customer and sales orders.</span></span>  
   
-##### <a name="to-connect-to-the-wcf-service-and-create-entities"></a>連接到 WCF 服務，並建立實體  
+##### <a name="to-connect-to-the-wcf-service-and-create-entities"></a><span data-ttu-id="5d95c-126">連接到 WCF 服務，並建立實體</span><span class="sxs-lookup"><span data-stu-id="5d95c-126">To connect to the WCF service and create entities</span></span>  
   
-1.  啟動商務資料目錄定義編輯器。 在**啟動**功能表上，按一下  **Microsoft 商務資料目錄定義編輯器**。  
+1.  <span data-ttu-id="5d95c-127">啟動商務資料目錄定義編輯器。</span><span class="sxs-lookup"><span data-stu-id="5d95c-127">Start the Business Data Catalog Definition Editor.</span></span> <span data-ttu-id="5d95c-128">在**啟動**功能表上，按一下  **Microsoft 商務資料目錄定義編輯器**。</span><span class="sxs-lookup"><span data-stu-id="5d95c-128">On the **Start** menu, click **Microsoft Business Data Catalog Definition Editor**.</span></span>  
   
-2.  在工具列上，按一下  **LOB 系統**。  
+2.  <span data-ttu-id="5d95c-129">在工具列上，按一下  **LOB 系統**。</span><span class="sxs-lookup"><span data-stu-id="5d95c-129">On the toolbar, click **Add LOB System**.</span></span>  
   
-3.  在 [新增 LOB 系統] 視窗中，按一下**連接到 Webservice**。  
+3.  <span data-ttu-id="5d95c-130">在 [新增 LOB 系統] 視窗中，按一下**連接到 Webservice**。</span><span class="sxs-lookup"><span data-stu-id="5d95c-130">In the Add LOB System window, click **Connect to Webservice**.</span></span>  
   
-4.  在**URL**方塊中，輸入 WCF 服務的 URL。 這個 URL 必須以下列格式：  
+4.  <span data-ttu-id="5d95c-131">在**URL**方塊中，輸入 WCF 服務的 URL。</span><span class="sxs-lookup"><span data-stu-id="5d95c-131">In the **URL** box, type the URL for the WCF service.</span></span> <span data-ttu-id="5d95c-132">這個 URL 必須以下列格式：</span><span class="sxs-lookup"><span data-stu-id="5d95c-132">The URL must be in the following format:</span></span>  
   
     ```  
     https://<computer_name>/Customer_Order/Rfc.svc?wsdl  
     ```  
   
-     其中 Rfc.svc 是 Rfc 合約所建立的檔案。  
+     <span data-ttu-id="5d95c-133">其中 Rfc.svc 是 Rfc 合約所建立的檔案。</span><span class="sxs-lookup"><span data-stu-id="5d95c-133">where Rfc.svc is the file created for the Rfc contract.</span></span>  
   
-     URL 在您測試是否成功，本主題中所述發行 WCF 服務時使用[步驟 1： 發佈為 WCF 服務將 SAP 成品](../../adapters-and-accelerators/adapter-sap/step-1-publish-the-sap-artifacts-as-a-wcf-service.md)。  
+     <span data-ttu-id="5d95c-134">URL 在您測試是否成功，本主題中所述發行 WCF 服務時使用[步驟 1： 發佈為 WCF 服務將 SAP 成品](../../adapters-and-accelerators/adapter-sap/step-1-publish-the-sap-artifacts-as-a-wcf-service.md)。</span><span class="sxs-lookup"><span data-stu-id="5d95c-134">The URL is available when you test whether the WCF service is published successfully, as described in the topic [Step 1: Publish the SAP Artifacts as a WCF Service](../../adapters-and-accelerators/adapter-sap/step-1-publish-the-sap-artifacts-as-a-wcf-service.md).</span></span>  
   
-5.  按一下 **[連接]**。  
+5.  <span data-ttu-id="5d95c-135">按一下 **[連接]**。</span><span class="sxs-lookup"><span data-stu-id="5d95c-135">Click **Connect**.</span></span>  
   
-6.  若要查看您在 WCF 配接器服務開發精靈中選取的作業，請按一下**新增 Web 方法** 索引標籤。您會看到下列方法：  
+6.  <span data-ttu-id="5d95c-136">若要查看您在 WCF 配接器服務開發精靈中選取的作業，請按一下**新增 Web 方法** 索引標籤。您會看到下列方法：</span><span class="sxs-lookup"><span data-stu-id="5d95c-136">To see the operations you selected in the WCF Adapter Service Development Wizard, click the **Add Web Method** tab. You will see the following methods:</span></span>  
   
-    -   SD_RFC_CUSTOMER_GET  
+    -   <span data-ttu-id="5d95c-137">SD_RFC_CUSTOMER_GET</span><span class="sxs-lookup"><span data-stu-id="5d95c-137">SD_RFC_CUSTOMER_GET</span></span>  
   
-    -   BAPI_SALESORDER_GETLIST  
+    -   <span data-ttu-id="5d95c-138">BAPI_SALESORDER_GETLIST</span><span class="sxs-lookup"><span data-stu-id="5d95c-138">BAPI_SALESORDER_GETLIST</span></span>  
   
-         ![新增 web 方法至 BDC 應用程式](../../adapters-and-accelerators/adapter-sap/media/ea411db2-5cf4-4486-83da-57d3fc332448.gif "ea411db2-5cf4-4486-83da-57d3fc332448")  
+         <span data-ttu-id="5d95c-139">![新增 web 方法至 BDC 應用程式](../../adapters-and-accelerators/adapter-sap/media/ea411db2-5cf4-4486-83da-57d3fc332448.gif "ea411db2-5cf4-4486-83da-57d3fc332448")</span><span class="sxs-lookup"><span data-stu-id="5d95c-139">![Add web methods to the BDC application](../../adapters-and-accelerators/adapter-sap/media/ea411db2-5cf4-4486-83da-57d3fc332448.gif "ea411db2-5cf4-4486-83da-57d3fc332448")</span></span>  
   
-     將方法拖曳至設計介面。 請確定您將這兩種作業拖曳到不同的實體。  
+     <span data-ttu-id="5d95c-140">將方法拖曳至設計介面。</span><span class="sxs-lookup"><span data-stu-id="5d95c-140">Drag the methods to the Design Surface.</span></span> <span data-ttu-id="5d95c-141">請確定您將這兩種作業拖曳到不同的實體。</span><span class="sxs-lookup"><span data-stu-id="5d95c-141">Make sure you drag both operations to the different entities.</span></span>  
   
-     ![建立 web 方法的實體](../../adapters-and-accelerators/adapter-sap/media/ce4e9bc3-1eae-43ae-8375-e44cf19aaffc.gif "ce4e9bc3-1eae-43ae-8375-e44cf19aaffc")  
+     <span data-ttu-id="5d95c-142">![建立 web 方法的實體](../../adapters-and-accelerators/adapter-sap/media/ce4e9bc3-1eae-43ae-8375-e44cf19aaffc.gif "ce4e9bc3-1eae-43ae-8375-e44cf19aaffc")</span><span class="sxs-lookup"><span data-stu-id="5d95c-142">![Create entities for the web methods](../../adapters-and-accelerators/adapter-sap/media/ce4e9bc3-1eae-43ae-8375-e44cf19aaffc.gif "ce4e9bc3-1eae-43ae-8375-e44cf19aaffc")</span></span>  
   
-7.  按一下 **[確定]**。  
+7.  <span data-ttu-id="5d95c-143">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="5d95c-143">Click **OK**.</span></span>  
   
-8.  在**輸入 LOB 系統的名稱**對話方塊內輸入名稱**LOB 系統名稱**方塊。 針對此範例中，呼叫它**Customer_Order**，然後按一下 **確定**。  
+8.  <span data-ttu-id="5d95c-144">在**輸入 LOB 系統的名稱**對話方塊內輸入名稱**LOB 系統名稱**方塊。</span><span class="sxs-lookup"><span data-stu-id="5d95c-144">In the **Enter the name for the LOB System** dialog box, type a name in the **LOB System Name** box.</span></span> <span data-ttu-id="5d95c-145">針對此範例中，呼叫它**Customer_Order**，然後按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="5d95c-145">For this example, call it **Customer_Order**, and then click **OK**.</span></span>  
   
-9. 在商務資料目錄定義編輯器中，兩個實體會列為**Entity0**和**Entity1**。 指定易記名稱，這些實體。 如 SD_RFC_CUSTOMER_GET 來重新命名實體**客戶**，並將實體重新命名為 BAPI_SALESORDER_GETLIST 來**SalesOrder**。 執行下列步驟來重新命名實體：  
+9. <span data-ttu-id="5d95c-146">在商務資料目錄定義編輯器中，兩個實體會列為**Entity0**和**Entity1**。</span><span class="sxs-lookup"><span data-stu-id="5d95c-146">In the Business Data Catalog Definition Editor, the two entities are listed as **Entity0** and **Entity1**.</span></span> <span data-ttu-id="5d95c-147">指定易記名稱，這些實體。</span><span class="sxs-lookup"><span data-stu-id="5d95c-147">Give these entities friendly names.</span></span> <span data-ttu-id="5d95c-148">如 SD_RFC_CUSTOMER_GET 來重新命名實體**客戶**，並將實體重新命名為 BAPI_SALESORDER_GETLIST 來**SalesOrder**。</span><span class="sxs-lookup"><span data-stu-id="5d95c-148">Rename the entity for SD_RFC_CUSTOMER_GET to **Customer**, and rename the entity for BAPI_SALESORDER_GETLIST to **SalesOrder**.</span></span> <span data-ttu-id="5d95c-149">執行下列步驟來重新命名實體：</span><span class="sxs-lookup"><span data-stu-id="5d95c-149">Perform the following steps to rename the entities:</span></span>  
   
-    1.  展開**Customer_Order**  節點，然後展開**實體**節點。  
+    1.  <span data-ttu-id="5d95c-150">展開**Customer_Order**  節點，然後展開**實體**節點。</span><span class="sxs-lookup"><span data-stu-id="5d95c-150">Expand the **Customer_Order** node, and then expand the **Entities** node.</span></span>  
   
-    2.  選取**Entity0**節點。  
+    2.  <span data-ttu-id="5d95c-151">選取**Entity0**節點。</span><span class="sxs-lookup"><span data-stu-id="5d95c-151">Select the **Entity0** node.</span></span>  
   
-    3.  在 [屬性] 窗格中，輸入**客戶**中**名稱**方塊。  
+    3.  <span data-ttu-id="5d95c-152">在 [屬性] 窗格中，輸入**客戶**中**名稱**方塊。</span><span class="sxs-lookup"><span data-stu-id="5d95c-152">In the Properties pane, type **Customer** in the **Name** box.</span></span>  
   
-         ![重新命名實體](../../adapters-and-accelerators/adapter-sap/media/4e83a036-3ab7-4f74-9f67-420574219d3d.gif "4e83a036-3ab7-4f74-9f67-420574219d3d")  
+         <span data-ttu-id="5d95c-153">![重新命名實體](../../adapters-and-accelerators/adapter-sap/media/4e83a036-3ab7-4f74-9f67-420574219d3d.gif "4e83a036-3ab7-4f74-9f67-420574219d3d")</span><span class="sxs-lookup"><span data-stu-id="5d95c-153">![Rename the entity](../../adapters-and-accelerators/adapter-sap/media/4e83a036-3ab7-4f74-9f67-420574219d3d.gif "4e83a036-3ab7-4f74-9f67-420574219d3d")</span></span>  
   
-    4.  選取**Entity1**節點。  
+    4.  <span data-ttu-id="5d95c-154">選取**Entity1**節點。</span><span class="sxs-lookup"><span data-stu-id="5d95c-154">Select the **Entity1** node.</span></span>  
   
-    5.  在 [屬性] 窗格中，輸入**SalesOrder**中**名稱**方塊。  
+    5.  <span data-ttu-id="5d95c-155">在 [屬性] 窗格中，輸入**SalesOrder**中**名稱**方塊。</span><span class="sxs-lookup"><span data-stu-id="5d95c-155">In the Properties pane, type **SalesOrder** in the **Name** box.</span></span>  
   
-### <a name="specify-user-name-and-password-headers-for-the-methods"></a>指定使用者名稱和密碼標頭方法  
- 建立 WCF 服務時選取的 rfc SAP 系統中，您可以指定使用者名稱和密碼標頭做為端點行為組態的一部分。 請參閱[步驟 1： 將 SAP 成品發佈為 WCF 服務](../../adapters-and-accelerators/adapter-sap/step-1-publish-the-sap-artifacts-as-a-wcf-service.md)。 您必須指定方法屬性的相同值。  
+### <a name="specify-user-name-and-password-headers-for-the-methods"></a><span data-ttu-id="5d95c-156">指定使用者名稱和密碼標頭方法</span><span class="sxs-lookup"><span data-stu-id="5d95c-156">Specify User Name and Password Headers for the Methods</span></span>  
+ <span data-ttu-id="5d95c-157">建立 WCF 服務時選取的 rfc SAP 系統中，您可以指定使用者名稱和密碼標頭做為端點行為組態的一部分。</span><span class="sxs-lookup"><span data-stu-id="5d95c-157">When creating a WCF service for the selected RFCs in the SAP system, you specified user name and password headers as part of the endpoint behavior configuration.</span></span> <span data-ttu-id="5d95c-158">請參閱[步驟 1： 將 SAP 成品發佈為 WCF 服務](../../adapters-and-accelerators/adapter-sap/step-1-publish-the-sap-artifacts-as-a-wcf-service.md)。</span><span class="sxs-lookup"><span data-stu-id="5d95c-158">See [Step 1: Publish the SAP Artifacts as a WCF Service](../../adapters-and-accelerators/adapter-sap/step-1-publish-the-sap-artifacts-as-a-wcf-service.md).</span></span> <span data-ttu-id="5d95c-159">您必須指定方法屬性的相同值。</span><span class="sxs-lookup"><span data-stu-id="5d95c-159">You must specify the same values for the method properties.</span></span>  
   
-##### <a name="to-specify-user-name-and-password-headers"></a>若要指定使用者名稱和密碼標頭  
+##### <a name="to-specify-user-name-and-password-headers"></a><span data-ttu-id="5d95c-160">若要指定使用者名稱和密碼標頭</span><span class="sxs-lookup"><span data-stu-id="5d95c-160">To specify user name and password headers</span></span>  
   
-1.  新增 SD_RFC_CUSTOMER_GET 方法的使用者名稱和密碼標頭。  
+1.  <span data-ttu-id="5d95c-161">新增 SD_RFC_CUSTOMER_GET 方法的使用者名稱和密碼標頭。</span><span class="sxs-lookup"><span data-stu-id="5d95c-161">Add the user name and password headers for the SD_RFC_CUSTOMER_GET method.</span></span>  
   
-    1.  在 中繼資料物件 窗格中，依序展開**客戶** 節點，然後展開**方法**節點。  
+    1.  <span data-ttu-id="5d95c-162">在 中繼資料物件 窗格中，依序展開**客戶** 節點，然後展開**方法**節點。</span><span class="sxs-lookup"><span data-stu-id="5d95c-162">In the Metadata Objects pane, expand the **Customer** node, and then expand the **Methods** node.</span></span>  
   
-    2.  按一下 SD_RFC_CUSTOMER_GET 節點，然後在 屬性 窗格中按一下 省略符號 （...） 按鈕，針對**屬性**方塊。  
+    2.  <span data-ttu-id="5d95c-163">按一下 SD_RFC_CUSTOMER_GET 節點，然後在 屬性 窗格中按一下 省略符號 （...） 按鈕，針對**屬性**方塊。</span><span class="sxs-lookup"><span data-stu-id="5d95c-163">Click the SD_RFC_CUSTOMER_GET node, and in the Properties pane click the ellipsis (…) button against the **Properties** box.</span></span>  
   
-    3.  在 PropertyView 集合編輯器 視窗中，按一下**新增**，然後在 屬性 窗格中，輸入**HttpHeaderUserName**如**名稱**方塊。 同樣地，輸入**MyUserHeader**如**PropertyValue**方塊。 選取**System.String**如**類型**方塊。  
+    3.  <span data-ttu-id="5d95c-164">在 PropertyView 集合編輯器 視窗中，按一下**新增**，然後在 屬性 窗格中，輸入**HttpHeaderUserName**如**名稱**方塊。</span><span class="sxs-lookup"><span data-stu-id="5d95c-164">In the PropertyView Collection Editor window, click **Add**, and in the Property pane, type **HttpHeaderUserName** for the **Name** box.</span></span> <span data-ttu-id="5d95c-165">同樣地，輸入**MyUserHeader**如**PropertyValue**方塊。</span><span class="sxs-lookup"><span data-stu-id="5d95c-165">Similarly, type **MyUserHeader** for the **PropertyValue** box.</span></span> <span data-ttu-id="5d95c-166">選取**System.String**如**類型**方塊。</span><span class="sxs-lookup"><span data-stu-id="5d95c-166">Select **System.String** for the **Type** box.</span></span>  
   
-         ![將屬性加入](../../adapters-and-accelerators/adapter-sap/media/9eef32ac-8a93-45dc-8d07-12b7dbf961ba.gif "9eef32ac-8a93-45dc-8d07-12b7dbf961ba")  
+         <span data-ttu-id="5d95c-167">![將屬性加入](../../adapters-and-accelerators/adapter-sap/media/9eef32ac-8a93-45dc-8d07-12b7dbf961ba.gif "9eef32ac-8a93-45dc-8d07-12b7dbf961ba")</span><span class="sxs-lookup"><span data-stu-id="5d95c-167">![Add a property](../../adapters-and-accelerators/adapter-sap/media/9eef32ac-8a93-45dc-8d07-12b7dbf961ba.gif "9eef32ac-8a93-45dc-8d07-12b7dbf961ba")</span></span>  
   
-    4.  在 PropertyView 集合編輯器 視窗中，按一下**新增**，然後在 屬性 窗格中，輸入**HttpHeaderPassword**如**名稱**方塊。 同樣地，輸入**MyPassHeader**如**PropertyValue**方塊。 選取**System.String**如**類型**方塊。  
+    4.  <span data-ttu-id="5d95c-168">在 PropertyView 集合編輯器 視窗中，按一下**新增**，然後在 屬性 窗格中，輸入**HttpHeaderPassword**如**名稱**方塊。</span><span class="sxs-lookup"><span data-stu-id="5d95c-168">In the PropertyView Collection Editor window, click **Add**, and in the Property pane, type **HttpHeaderPassword** for the **Name** box.</span></span> <span data-ttu-id="5d95c-169">同樣地，輸入**MyPassHeader**如**PropertyValue**方塊。</span><span class="sxs-lookup"><span data-stu-id="5d95c-169">Similarly, type **MyPassHeader** for the **PropertyValue** box.</span></span> <span data-ttu-id="5d95c-170">選取**System.String**如**類型**方塊。</span><span class="sxs-lookup"><span data-stu-id="5d95c-170">Select **System.String** for the **Type** box.</span></span>  
   
-    5.  按一下 **[確定]**。  
+    5.  <span data-ttu-id="5d95c-171">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="5d95c-171">Click **OK**.</span></span>  
   
-2.  新增 BAPI_SALESORDER_GETLIST 方法的使用者名稱和密碼標頭。  
+2.  <span data-ttu-id="5d95c-172">新增 BAPI_SALESORDER_GETLIST 方法的使用者名稱和密碼標頭。</span><span class="sxs-lookup"><span data-stu-id="5d95c-172">Add the user name and password headers for the BAPI_SALESORDER_GETLIST method.</span></span>  
   
-    1.  在 中繼資料物件 窗格中，依序展開**SalesOrder**  節點，然後展開**方法**節點。  
+    1.  <span data-ttu-id="5d95c-173">在 中繼資料物件 窗格中，依序展開**SalesOrder**  節點，然後展開**方法**節點。</span><span class="sxs-lookup"><span data-stu-id="5d95c-173">In the Metadata Objects pane, expand the **SalesOrder** node, and then expand the **Methods** node.</span></span>  
   
-    2.  按一下 BAPI_SALESORDER_GETLIST 節點，然後在 屬性 窗格中按一下 省略符號 （...） 按鈕，針對**屬性**方塊。  
+    2.  <span data-ttu-id="5d95c-174">按一下 BAPI_SALESORDER_GETLIST 節點，然後在 屬性 窗格中按一下 省略符號 （...） 按鈕，針對**屬性**方塊。</span><span class="sxs-lookup"><span data-stu-id="5d95c-174">Click the BAPI_SALESORDER_GETLIST node, and in the Properties pane click the ellipsis (…) button against the **Properties** box.</span></span>  
   
-    3.  在 PropertyView 集合編輯器 視窗中，按一下**新增**，然後在 屬性 窗格中，輸入**HttpHeaderUserName**如**名稱**方塊。 同樣地，輸入**MyUserHeader**如**PropertyValue**方塊。 選取**System.String**如**類型**方塊。  
+    3.  <span data-ttu-id="5d95c-175">在 PropertyView 集合編輯器 視窗中，按一下**新增**，然後在 屬性 窗格中，輸入**HttpHeaderUserName**如**名稱**方塊。</span><span class="sxs-lookup"><span data-stu-id="5d95c-175">In the PropertyView Collection Editor window, click **Add**, and in the Property pane, type **HttpHeaderUserName** for the **Name** box.</span></span> <span data-ttu-id="5d95c-176">同樣地，輸入**MyUserHeader**如**PropertyValue**方塊。</span><span class="sxs-lookup"><span data-stu-id="5d95c-176">Similarly, type **MyUserHeader** for the **PropertyValue** box.</span></span> <span data-ttu-id="5d95c-177">選取**System.String**如**類型**方塊。</span><span class="sxs-lookup"><span data-stu-id="5d95c-177">Select **System.String** for the **Type** box.</span></span>  
   
-    4.  在 PropertyView 集合編輯器 視窗中，按一下**新增**，然後在 屬性 窗格中，輸入**HttpHeaderPassword**如**名稱**方塊。 同樣地，輸入**MyPassHeader**如**PropertyValue**方塊。 選取**System.String**如**類型**方塊。  
+    4.  <span data-ttu-id="5d95c-178">在 PropertyView 集合編輯器 視窗中，按一下**新增**，然後在 屬性 窗格中，輸入**HttpHeaderPassword**如**名稱**方塊。</span><span class="sxs-lookup"><span data-stu-id="5d95c-178">In the PropertyView Collection Editor window, click **Add**, and in the Property pane, type **HttpHeaderPassword** for the **Name** box.</span></span> <span data-ttu-id="5d95c-179">同樣地，輸入**MyPassHeader**如**PropertyValue**方塊。</span><span class="sxs-lookup"><span data-stu-id="5d95c-179">Similarly, type **MyPassHeader** for the **PropertyValue** box.</span></span> <span data-ttu-id="5d95c-180">選取**System.String**如**類型**方塊。</span><span class="sxs-lookup"><span data-stu-id="5d95c-180">Select **System.String** for the **Type** box.</span></span>  
   
-    5.  按一下 **[確定]**。  
+    5.  <span data-ttu-id="5d95c-181">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="5d95c-181">Click **OK**.</span></span>  
   
-### <a name="set-up-single-sign-on-for-connecting-to-the-sap-system"></a>設定單一登入連接到 SAP 系統設定  
- 執行本主題中的所有程序完成之後，您將建立可匯入 SharePoint 應用程式的應用程式定義檔。 從應用程式，您叫用的 SAP 方法來擷取 SAP 系統的相關資料。 若要啟用此功能，您必須建立 SharePoint 應用程式中的 SAP 系統中的使用者與使用者之間的對應。 您已匯入應用程式定義檔之後，您可以建立在 SharePoint 管理中心主控台中的此對應。  
+### <a name="set-up-single-sign-on-for-connecting-to-the-sap-system"></a><span data-ttu-id="5d95c-182">設定單一登入連接到 SAP 系統設定</span><span class="sxs-lookup"><span data-stu-id="5d95c-182">Set up Single Sign-On for Connecting to the SAP System</span></span>  
+ <span data-ttu-id="5d95c-183">執行本主題中的所有程序完成之後，您將建立可匯入 SharePoint 應用程式的應用程式定義檔。</span><span class="sxs-lookup"><span data-stu-id="5d95c-183">After you have finished performing all the procedures in this topic, you will have created an application definition file that can be imported into a SharePoint application.</span></span> <span data-ttu-id="5d95c-184">從應用程式，您叫用的 SAP 方法來擷取 SAP 系統的相關資料。</span><span class="sxs-lookup"><span data-stu-id="5d95c-184">From the application, you invoke the SAP methods to retrieve relevant data from the SAP system.</span></span> <span data-ttu-id="5d95c-185">若要啟用此功能，您必須建立 SharePoint 應用程式中的 SAP 系統中的使用者與使用者之間的對應。</span><span class="sxs-lookup"><span data-stu-id="5d95c-185">To enable this, you must create a mapping between a user in the SAP system and the user in the SharePoint application.</span></span> <span data-ttu-id="5d95c-186">您已匯入應用程式定義檔之後，您可以建立在 SharePoint 管理中心主控台中的此對應。</span><span class="sxs-lookup"><span data-stu-id="5d95c-186">You create this mapping in SharePoint Central Administration console after you have imported the application definition file.</span></span>  
   
- 不過，若要建立對應您必須設定屬性**SecondarySsoApplicationId**中商務資料目錄定義編輯器。  
+ <span data-ttu-id="5d95c-187">不過，若要建立對應您必須設定屬性**SecondarySsoApplicationId**中商務資料目錄定義編輯器。</span><span class="sxs-lookup"><span data-stu-id="5d95c-187">However, to create the mapping you must set a property **SecondarySsoApplicationId** in the Business Data Catalog Definition Editor.</span></span>  
   
-##### <a name="to-set-the-secondaryssoapplicationid-property"></a>若要設定 SecondarySsoApplicationId 屬性  
+##### <a name="to-set-the-secondaryssoapplicationid-property"></a><span data-ttu-id="5d95c-188">若要設定 SecondarySsoApplicationId 屬性</span><span class="sxs-lookup"><span data-stu-id="5d95c-188">To set the SecondarySsoApplicationId property</span></span>  
   
-1.  在 中繼資料物件 窗格中，依序展開**Customer_Order**  節點，然後展開**執行個體**節點。  
+1.  <span data-ttu-id="5d95c-189">在 中繼資料物件 窗格中，依序展開**Customer_Order**  節點，然後展開**執行個體**節點。</span><span class="sxs-lookup"><span data-stu-id="5d95c-189">In the Metadata Objects pane, expand the **Customer_Order** node, and then expand the **Instances** node.</span></span>  
   
-2.  按一下**Customer_Order_Instance**，在 屬性 窗格中，按一下 省略符號 （...） 按鈕，針對**屬性**方塊。  
+2.  <span data-ttu-id="5d95c-190">按一下**Customer_Order_Instance**，在 屬性 窗格中，按一下 省略符號 （...） 按鈕，針對**屬性**方塊。</span><span class="sxs-lookup"><span data-stu-id="5d95c-190">Click **Customer_Order_Instance**, and in the Properties pane, click the ellipsis (…) button against the **Properties** box.</span></span>  
   
-3.  在 PropertyView 集合編輯器 視窗中，按一下**新增**，然後在 屬性 窗格中，輸入**SecondarySsoApplicationId**如**名稱**方塊。 同樣地，輸入**SAPSSO**如**PropertyValue**方塊。 選取**System.String**如**類型**方塊。  
+3.  <span data-ttu-id="5d95c-191">在 PropertyView 集合編輯器 視窗中，按一下**新增**，然後在 屬性 窗格中，輸入**SecondarySsoApplicationId**如**名稱**方塊。</span><span class="sxs-lookup"><span data-stu-id="5d95c-191">In the PropertyView Collection Editor window, click **Add**, and in the Property pane, type **SecondarySsoApplicationId** for the **Name** box.</span></span> <span data-ttu-id="5d95c-192">同樣地，輸入**SAPSSO**如**PropertyValue**方塊。</span><span class="sxs-lookup"><span data-stu-id="5d95c-192">Similarly, type **SAPSSO** for the **PropertyValue** box.</span></span> <span data-ttu-id="5d95c-193">選取**System.String**如**類型**方塊。</span><span class="sxs-lookup"><span data-stu-id="5d95c-193">Select **System.String** for the **Type** box.</span></span>  
   
-     ![新增 SSO 屬性](../../adapters-and-accelerators/adapter-sap/media/1eb813e4-fed2-45c2-8902-9af5dd3369bf.gif "1eb813e4-fed2-45c2-8902-9af5dd3369bf")  
+     <span data-ttu-id="5d95c-194">![新增 SSO 屬性](../../adapters-and-accelerators/adapter-sap/media/1eb813e4-fed2-45c2-8902-9af5dd3369bf.gif "1eb813e4-fed2-45c2-8902-9af5dd3369bf")</span><span class="sxs-lookup"><span data-stu-id="5d95c-194">![Add the SSO property](../../adapters-and-accelerators/adapter-sap/media/1eb813e4-fed2-45c2-8902-9af5dd3369bf.gif "1eb813e4-fed2-45c2-8902-9af5dd3369bf")</span></span>  
   
-4.  按一下 **[確定]**。  
+4.  <span data-ttu-id="5d95c-195">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="5d95c-195">Click **OK**.</span></span>  
   
-### <a name="requirement-1-search-for-customers-based-on-customer-name"></a>需求 1： 客戶根據客戶名稱搜尋  
- 若要建立可以用來搜尋客戶以客戶名稱為主的應用程式定義檔，您必須執行下列工作集合。  
+### <a name="requirement-1-search-for-customers-based-on-customer-name"></a><span data-ttu-id="5d95c-196">需求 1： 客戶根據客戶名稱搜尋</span><span class="sxs-lookup"><span data-stu-id="5d95c-196">Requirement 1: Search for Customers Based on Customer Name</span></span>  
+ <span data-ttu-id="5d95c-197">若要建立可以用來搜尋客戶以客戶名稱為主的應用程式定義檔，您必須執行下列工作集合。</span><span class="sxs-lookup"><span data-stu-id="5d95c-197">To create an application definition file that can be used to search for customers based on customer name, you must perform the following set of tasks.</span></span>  
   
--   在 SD_RFC_CUSTOMER_GET 方法中，建立篩選器，並將它對應到參數，其中儲存客戶的名稱。  
+-   <span data-ttu-id="5d95c-198">在 SD_RFC_CUSTOMER_GET 方法中，建立篩選器，並將它對應到參數，其中儲存客戶的名稱。</span><span class="sxs-lookup"><span data-stu-id="5d95c-198">In the SD_RFC_CUSTOMER_GET method, create a filter and map it to the parameter that stores the customer name.</span></span>  
   
--   建立**Finder** SD_RFC_CUSTOMER_GET 方法的方法執行個體。 A **Finder**方法會擷取篩選條件的所有記錄的清單。  
+-   <span data-ttu-id="5d95c-199">建立**Finder** SD_RFC_CUSTOMER_GET 方法的方法執行個體。</span><span class="sxs-lookup"><span data-stu-id="5d95c-199">Create a **Finder** method instance for the SD_RFC_CUSTOMER_GET method.</span></span> <span data-ttu-id="5d95c-200">A **Finder**方法會擷取篩選條件的所有記錄的清單。</span><span class="sxs-lookup"><span data-stu-id="5d95c-200">A **Finder** method retrieves a list of records based on a filter.</span></span>  
   
-##### <a name="to-create-a-filter-and-map-it-to-the-customer-name-parameter"></a>若要建立篩選器，並將它對應至客戶名稱參數  
+##### <a name="to-create-a-filter-and-map-it-to-the-customer-name-parameter"></a><span data-ttu-id="5d95c-201">若要建立篩選器，並將它對應至客戶名稱參數</span><span class="sxs-lookup"><span data-stu-id="5d95c-201">To create a filter, and map it to the customer name parameter</span></span>  
   
-1.  建立篩選。  
+1.  <span data-ttu-id="5d95c-202">建立篩選。</span><span class="sxs-lookup"><span data-stu-id="5d95c-202">Create a filter.</span></span>  
   
-    1.  在 中繼資料物件 窗格中，依序展開**客戶** 節點，然後展開**方法**節點。  
+    1.  <span data-ttu-id="5d95c-203">在 中繼資料物件 窗格中，依序展開**客戶** 節點，然後展開**方法**節點。</span><span class="sxs-lookup"><span data-stu-id="5d95c-203">In the Metadata Objects pane, expand the **Customer** node, and then expand the **Methods** node.</span></span>  
   
-    2.  展開 SD_RFC_CUSTOMER_GET 方法，以滑鼠右鍵按一下**篩選**，然後按一下 **加入篩選條件**。  
+    2.  <span data-ttu-id="5d95c-204">展開 SD_RFC_CUSTOMER_GET 方法，以滑鼠右鍵按一下**篩選**，然後按一下 **加入篩選條件**。</span><span class="sxs-lookup"><span data-stu-id="5d95c-204">Expand the SD_RFC_CUSTOMER_GET method, right-click **Filters**, and then click **Add Filter**.</span></span>  
   
-         ![將篩選加入至方法](../../adapters-and-accelerators/adapter-sap/media/23eaab24-66e4-486f-8f99-02a5e0fef984.gif "23eaab24-66e4-486f-8f99-02a5e0fef984")  
+         <span data-ttu-id="5d95c-205">![將篩選加入至方法](../../adapters-and-accelerators/adapter-sap/media/23eaab24-66e4-486f-8f99-02a5e0fef984.gif "23eaab24-66e4-486f-8f99-02a5e0fef984")</span><span class="sxs-lookup"><span data-stu-id="5d95c-205">![Add filter to a method](../../adapters-and-accelerators/adapter-sap/media/23eaab24-66e4-486f-8f99-02a5e0fef984.gif "23eaab24-66e4-486f-8f99-02a5e0fef984")</span></span>  
   
-    3.  在 [屬性] 窗格中，輸入**CustomerName**中**名稱**方塊。  
+    3.  <span data-ttu-id="5d95c-206">在 [屬性] 窗格中，輸入**CustomerName**中**名稱**方塊。</span><span class="sxs-lookup"><span data-stu-id="5d95c-206">In the Properties pane, type **CustomerName** in the **Name** box.</span></span>  
   
-         ![指定的篩選器名稱](../../adapters-and-accelerators/adapter-sap/media/0a0d0f85-a16a-4969-a122-097355141c27.gif "0a0d0f85-a16a-4969-a122-097355141c27")  
+         <span data-ttu-id="5d95c-207">![指定的篩選器名稱](../../adapters-and-accelerators/adapter-sap/media/0a0d0f85-a16a-4969-a122-097355141c27.gif "0a0d0f85-a16a-4969-a122-097355141c27")</span><span class="sxs-lookup"><span data-stu-id="5d95c-207">![Specify a name for the filter](../../adapters-and-accelerators/adapter-sap/media/0a0d0f85-a16a-4969-a122-097355141c27.gif "0a0d0f85-a16a-4969-a122-097355141c27")</span></span>  
   
-    4.  如**FilterType**屬性選取**WildcardFilter**。  
+    4.  <span data-ttu-id="5d95c-208">如**FilterType**屬性選取**WildcardFilter**。</span><span class="sxs-lookup"><span data-stu-id="5d95c-208">For the **FilterType** property, select **WildcardFilter**.</span></span>  
   
-2.  對應至篩選器**NAME1** SD_RFC_CUSTOMER_GET 方法中的參數。  
+2.  <span data-ttu-id="5d95c-209">對應至篩選器**NAME1** SD_RFC_CUSTOMER_GET 方法中的參數。</span><span class="sxs-lookup"><span data-stu-id="5d95c-209">Map the filter to the **NAME1** parameter in the SD_RFC_CUSTOMER_GET method.</span></span>  
   
-    1.  在 中繼資料物件 窗格中，依序展開**客戶** 節點，然後展開**方法**節點。  
+    1.  <span data-ttu-id="5d95c-210">在 中繼資料物件 窗格中，依序展開**客戶** 節點，然後展開**方法**節點。</span><span class="sxs-lookup"><span data-stu-id="5d95c-210">In the Metadata Objects pane, expand the **Customer** node, and then expand the **Methods** node.</span></span>  
   
-    2.  依序展開 SD_RFC_CUSTOMER_GET、 方法和**參數**節點。  
+    2.  <span data-ttu-id="5d95c-211">依序展開 SD_RFC_CUSTOMER_GET、 方法和**參數**節點。</span><span class="sxs-lookup"><span data-stu-id="5d95c-211">Expand the SD_RFC_CUSTOMER_GET method, and then expand the **Parameters** node.</span></span>  
   
-    3.  展開**NAME1**  節點，然後按一下第二個**NAME1**節點。 **NAME1**參數則包含客戶的名稱。  
+    3.  <span data-ttu-id="5d95c-212">展開**NAME1**  節點，然後按一下第二個**NAME1**節點。</span><span class="sxs-lookup"><span data-stu-id="5d95c-212">Expand the **NAME1** node, and click the second **NAME1** node.</span></span> <span data-ttu-id="5d95c-213">**NAME1**參數則包含客戶的名稱。</span><span class="sxs-lookup"><span data-stu-id="5d95c-213">The **NAME1** parameter contains the name of the customer.</span></span>  
   
-    4.  在 [屬性] 窗格中，選取**CustomerName**從**FilterDescriptor**清單。  
+    4.  <span data-ttu-id="5d95c-214">在 [屬性] 窗格中，選取**CustomerName**從**FilterDescriptor**清單。</span><span class="sxs-lookup"><span data-stu-id="5d95c-214">In the Properties pane, select **CustomerName** from the **FilterDescriptor** list.</span></span>  
   
-         ![對應至方法參數的篩選器](../../adapters-and-accelerators/adapter-sap/media/6cc4ef85-503c-4847-95cb-633b902a715d.gif "6cc4ef85-503c-4847-95cb-633b902a715d")  
+         <span data-ttu-id="5d95c-215">![對應至方法參數的篩選器](../../adapters-and-accelerators/adapter-sap/media/6cc4ef85-503c-4847-95cb-633b902a715d.gif "6cc4ef85-503c-4847-95cb-633b902a715d")</span><span class="sxs-lookup"><span data-stu-id="5d95c-215">![Map the filter to a method parameter](../../adapters-and-accelerators/adapter-sap/media/6cc4ef85-503c-4847-95cb-633b902a715d.gif "6cc4ef85-503c-4847-95cb-633b902a715d")</span></span>  
   
-##### <a name="to-create-a-finder-method-instance-for-the-sdrfccustomerget-method"></a>若要建立 Finder 方法執行個體 SD_RFC_CUSTOMER_GET 方法  
+##### <a name="to-create-a-finder-method-instance-for-the-sdrfccustomerget-method"></a><span data-ttu-id="5d95c-216">若要建立 Finder 方法執行個體 SD_RFC_CUSTOMER_GET 方法</span><span class="sxs-lookup"><span data-stu-id="5d95c-216">To create a Finder method instance for the SD_RFC_CUSTOMER_GET method</span></span>  
   
-1.  在 中繼資料物件 窗格中，依序展開**客戶** 節點，然後展開**方法**節點。  
+1.  <span data-ttu-id="5d95c-217">在 中繼資料物件 窗格中，依序展開**客戶** 節點，然後展開**方法**節點。</span><span class="sxs-lookup"><span data-stu-id="5d95c-217">In the Metadata Objects pane, expand the **Customer** node, and then expand the **Methods** node.</span></span>  
   
-2.  展開**SD_RFC_CUSTOMER_GET** ] 節點，以滑鼠右鍵按一下**執行個體**，然後按一下 [**新增方法執行個體**開啟 [建立方法執行個體] 視窗。  
+2.  <span data-ttu-id="5d95c-218">展開**SD_RFC_CUSTOMER_GET** ] 節點，以滑鼠右鍵按一下**執行個體**，然後按一下 [**新增方法執行個體**開啟 [建立方法執行個體] 視窗。</span><span class="sxs-lookup"><span data-stu-id="5d95c-218">Expand the **SD_RFC_CUSTOMER_GET** node, right-click **Instances**, and then click **Add Method Instance** to open the Create Method Instance window.</span></span>  
   
-     ![新增方法執行個體](../../adapters-and-accelerators/adapter-sap/media/f583f8ef-e364-4665-8514-db033219ba0b.gif "f583f8ef-e364-4665-8514-db033219ba0b")  
+     <span data-ttu-id="5d95c-219">![新增方法執行個體](../../adapters-and-accelerators/adapter-sap/media/f583f8ef-e364-4665-8514-db033219ba0b.gif "f583f8ef-e364-4665-8514-db033219ba0b")</span><span class="sxs-lookup"><span data-stu-id="5d95c-219">![Add a method instance](../../adapters-and-accelerators/adapter-sap/media/f583f8ef-e364-4665-8514-db033219ba0b.gif "f583f8ef-e364-4665-8514-db033219ba0b")</span></span>  
   
-3.  在 [建立方法執行個體] 視窗中，按一下**Finder**如**方法執行個體類型**。 選取**CUSTOMER_T**如**傳回 TypeDescriptor**。  
+3.  <span data-ttu-id="5d95c-220">在 [建立方法執行個體] 視窗中，按一下**Finder**如**方法執行個體類型**。</span><span class="sxs-lookup"><span data-stu-id="5d95c-220">In the Create Method Instance window, click **Finder** for **Method Instance Type**.</span></span> <span data-ttu-id="5d95c-221">選取**CUSTOMER_T**如**傳回 TypeDescriptor**。</span><span class="sxs-lookup"><span data-stu-id="5d95c-221">Select **CUSTOMER_T** for **Return TypeDescriptor**.</span></span>  
   
-     ![新增 Finder 方法執行個體](../../adapters-and-accelerators/adapter-sap/media/e9ae47f2-32f5-4586-8467-94e3713d2a06.gif "e9ae47f2-32f5-4586-8467-94e3713d2a06")  
+     <span data-ttu-id="5d95c-222">![新增 Finder 方法執行個體](../../adapters-and-accelerators/adapter-sap/media/e9ae47f2-32f5-4586-8467-94e3713d2a06.gif "e9ae47f2-32f5-4586-8467-94e3713d2a06")</span><span class="sxs-lookup"><span data-stu-id="5d95c-222">![Add a Finder method instance](../../adapters-and-accelerators/adapter-sap/media/e9ae47f2-32f5-4586-8467-94e3713d2a06.gif "e9ae47f2-32f5-4586-8467-94e3713d2a06")</span></span>  
   
-4.  按一下 **[確定]**。  
+4.  <span data-ttu-id="5d95c-223">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="5d95c-223">Click **OK**.</span></span>  
   
-5.  在 [屬性] 窗格中，輸入**GetCustomerByName_Instance**中**名稱**方塊。  
+5.  <span data-ttu-id="5d95c-224">在 [屬性] 窗格中，輸入**GetCustomerByName_Instance**中**名稱**方塊。</span><span class="sxs-lookup"><span data-stu-id="5d95c-224">In the Properties pane, type **GetCustomerByName_Instance** in the **Name** box.</span></span>  
   
-     ![指定方法執行個體的名稱](../../adapters-and-accelerators/adapter-sap/media/e44e02e8-b9fb-40ca-a55d-8bdc7ace02b5.gif "e44e02e8-b9fb-40ca-a55d-8bdc7ace02b5")  
+     <span data-ttu-id="5d95c-225">![指定方法執行個體的名稱](../../adapters-and-accelerators/adapter-sap/media/e44e02e8-b9fb-40ca-a55d-8bdc7ace02b5.gif "e44e02e8-b9fb-40ca-a55d-8bdc7ace02b5")</span><span class="sxs-lookup"><span data-stu-id="5d95c-225">![Specify a name for the method instance](../../adapters-and-accelerators/adapter-sap/media/e44e02e8-b9fb-40ca-a55d-8bdc7ace02b5.gif "e44e02e8-b9fb-40ca-a55d-8bdc7ace02b5")</span></span>  
   
-### <a name="requirement-2-retrieve-details-for-a-specific-customer-from-the-list-of-customers"></a>需求 2： 擷取特定客戶的客戶清單的詳細資料  
- 若要建立可以用來搜尋客戶以客戶名稱為主的應用程式定義檔，您必須執行下列工作集合。  
+### <a name="requirement-2-retrieve-details-for-a-specific-customer-from-the-list-of-customers"></a><span data-ttu-id="5d95c-226">需求 2： 擷取特定客戶的客戶清單的詳細資料</span><span class="sxs-lookup"><span data-stu-id="5d95c-226">Requirement 2: Retrieve Details for a Specific Customer from the List of Customers</span></span>  
+ <span data-ttu-id="5d95c-227">若要建立可以用來搜尋客戶以客戶名稱為主的應用程式定義檔，您必須執行下列工作集合。</span><span class="sxs-lookup"><span data-stu-id="5d95c-227">To create an application definition file that can be used to search for customers based on customer name, you must perform the following set of tasks.</span></span>  
   
--   在 SD_RFC_CUSTOMER_GET 方法中，建立識別項，並將它對應到參數，其中儲存的客戶編號。  
+-   <span data-ttu-id="5d95c-228">在 SD_RFC_CUSTOMER_GET 方法中，建立識別項，並將它對應到參數，其中儲存的客戶編號。</span><span class="sxs-lookup"><span data-stu-id="5d95c-228">In the SD_RFC_CUSTOMER_GET method, create an identifier, and map it to the parameter that stores the customer number.</span></span>  
   
--   建立**特定搜尋工具**SD_RFC_CUSTOMER_GET 方法的方法執行個體。 A**特定搜尋工具**方法會尋找特定的記錄識別碼為基礎。  
+-   <span data-ttu-id="5d95c-229">建立**特定搜尋工具**SD_RFC_CUSTOMER_GET 方法的方法執行個體。</span><span class="sxs-lookup"><span data-stu-id="5d95c-229">Create a **Specific Finder** method instance for the SD_RFC_CUSTOMER_GET method.</span></span> <span data-ttu-id="5d95c-230">A**特定搜尋工具**方法會尋找特定的記錄識別碼為基礎。</span><span class="sxs-lookup"><span data-stu-id="5d95c-230">A **Specific Finder** method finds a specific record based on an identifier.</span></span>  
   
-##### <a name="to-create-an-identifier-and-map-it-to-the-customer-number-parameter"></a>建立識別項，並將其對應至客戶數字參數  
+##### <a name="to-create-an-identifier-and-map-it-to-the-customer-number-parameter"></a><span data-ttu-id="5d95c-231">建立識別項，並將其對應至客戶數字參數</span><span class="sxs-lookup"><span data-stu-id="5d95c-231">To create an identifier, and map it to the customer number parameter</span></span>  
   
-1.  建立識別碼**客戶**實體。  
+1.  <span data-ttu-id="5d95c-232">建立識別碼**客戶**實體。</span><span class="sxs-lookup"><span data-stu-id="5d95c-232">Create an identifier for the **Customer** entity.</span></span>  
   
-    1.  在 [中繼資料物件] 窗格中，依序展開**客戶**節點。  
+    1.  <span data-ttu-id="5d95c-233">在 [中繼資料物件] 窗格中，依序展開**客戶**節點。</span><span class="sxs-lookup"><span data-stu-id="5d95c-233">In the Metadata Objects pane, expand the **Customer** node.</span></span>  
   
-    2.  以滑鼠右鍵按一下**識別碼**節點，然後再選取**新增識別項**。  
+    2.  <span data-ttu-id="5d95c-234">以滑鼠右鍵按一下**識別碼**節點，然後再選取**新增識別項**。</span><span class="sxs-lookup"><span data-stu-id="5d95c-234">Right-click the **Identifiers** node, and then select **Add Identifier**.</span></span>  
   
-         ![新增識別碼至方法](../../adapters-and-accelerators/adapter-sap/media/3adeeda3-426c-41fe-8d5c-5ca5863fb430.gif "3adeeda3-426c-41fe-8d5c-5ca5863fb430")  
+         <span data-ttu-id="5d95c-235">![新增識別碼至方法](../../adapters-and-accelerators/adapter-sap/media/3adeeda3-426c-41fe-8d5c-5ca5863fb430.gif "3adeeda3-426c-41fe-8d5c-5ca5863fb430")</span><span class="sxs-lookup"><span data-stu-id="5d95c-235">![Add an identifier to a method](../../adapters-and-accelerators/adapter-sap/media/3adeeda3-426c-41fe-8d5c-5ca5863fb430.gif "3adeeda3-426c-41fe-8d5c-5ca5863fb430")</span></span>  
   
-    3.  在 [屬性] 窗格中，輸入**CustomerID**中**名稱**方塊。  
+    3.  <span data-ttu-id="5d95c-236">在 [屬性] 窗格中，輸入**CustomerID**中**名稱**方塊。</span><span class="sxs-lookup"><span data-stu-id="5d95c-236">In the Properties pane, type **CustomerID** in the **Name** box.</span></span>  
   
-    4.  選取**System.String**如**類型**方塊。  
+    4.  <span data-ttu-id="5d95c-237">選取**System.String**如**類型**方塊。</span><span class="sxs-lookup"><span data-stu-id="5d95c-237">Select **System.String** for the **Type** box.</span></span>  
   
-         ![指定的識別項名稱](../../adapters-and-accelerators/adapter-sap/media/a2304bca-9a54-4d2b-ba9f-461cfaafccb0.gif "a2304bca-9a54-4d2b-ba9f-461cfaafccb0")  
+         <span data-ttu-id="5d95c-238">![指定的識別項名稱](../../adapters-and-accelerators/adapter-sap/media/a2304bca-9a54-4d2b-ba9f-461cfaafccb0.gif "a2304bca-9a54-4d2b-ba9f-461cfaafccb0")</span><span class="sxs-lookup"><span data-stu-id="5d95c-238">![Specify a name for the identifier](../../adapters-and-accelerators/adapter-sap/media/a2304bca-9a54-4d2b-ba9f-461cfaafccb0.gif "a2304bca-9a54-4d2b-ba9f-461cfaafccb0")</span></span>  
   
-2.  將識別碼對應至金鑰 SD_RFC_CUSTOMER_GET 方法的參數。  
+2.  <span data-ttu-id="5d95c-239">將識別碼對應至金鑰 SD_RFC_CUSTOMER_GET 方法的參數。</span><span class="sxs-lookup"><span data-stu-id="5d95c-239">Map the identifier to the key parameter for the SD_RFC_CUSTOMER_GET method.</span></span>  
   
-    1.  在 中繼資料物件 窗格中，依序展開**客戶** 節點，然後展開**方法**節點。  
+    1.  <span data-ttu-id="5d95c-240">在 中繼資料物件 窗格中，依序展開**客戶** 節點，然後展開**方法**節點。</span><span class="sxs-lookup"><span data-stu-id="5d95c-240">In the Metadata Objects pane, expand the **Customer** node, and then expand the **Methods** node.</span></span>  
   
-    2.  依序展開 SD_RFC_CUSTOMER_GET、 方法和**參數**節點。  
+    2.  <span data-ttu-id="5d95c-241">依序展開 SD_RFC_CUSTOMER_GET、 方法和**參數**節點。</span><span class="sxs-lookup"><span data-stu-id="5d95c-241">Expand the SD_RFC_CUSTOMER_GET method, and then expand the **Parameters** node.</span></span>  
   
-    3.  展開**KUNNR**參數，然後按一下第二個**KUNNR**節點。  
+    3.  <span data-ttu-id="5d95c-242">展開**KUNNR**參數，然後按一下第二個**KUNNR**節點。</span><span class="sxs-lookup"><span data-stu-id="5d95c-242">Expand the **KUNNR** parameter, and then click the second **KUNNR** node.</span></span>  
   
-    4.  在 [屬性] 窗格中，選取**CustomerID [Customer]**從**識別碼**清單。  
+    4.  <span data-ttu-id="5d95c-243">在 [屬性] 窗格中，選取**CustomerID [Customer]**從**識別碼**清單。</span><span class="sxs-lookup"><span data-stu-id="5d95c-243">In the Properties pane, select **CustomerID[Customer]** from the **Identifier** list.</span></span>  
   
-         ![將識別碼對應至參數](../../adapters-and-accelerators/adapter-sap/media/04ff6496-34a7-421b-ae9e-f9263895c153.gif "04ff6496-34a7-421b-ae9e-f9263895c153")  
+         <span data-ttu-id="5d95c-244">![將識別碼對應至參數](../../adapters-and-accelerators/adapter-sap/media/04ff6496-34a7-421b-ae9e-f9263895c153.gif "04ff6496-34a7-421b-ae9e-f9263895c153")</span><span class="sxs-lookup"><span data-stu-id="5d95c-244">![Map the identifier to a parameter](../../adapters-and-accelerators/adapter-sap/media/04ff6496-34a7-421b-ae9e-f9263895c153.gif "04ff6496-34a7-421b-ae9e-f9263895c153")</span></span>  
   
-3.  設定輸入和傳回參數之間的關聯。  
+3.  <span data-ttu-id="5d95c-245">設定輸入和傳回參數之間的關聯。</span><span class="sxs-lookup"><span data-stu-id="5d95c-245">Set up an association between input and return parameters.</span></span>  
   
-    1.  在 中繼資料物件 窗格中，依序展開**客戶** 節點，然後展開**方法**節點。  
+    1.  <span data-ttu-id="5d95c-246">在 中繼資料物件 窗格中，依序展開**客戶** 節點，然後展開**方法**節點。</span><span class="sxs-lookup"><span data-stu-id="5d95c-246">In the Metadata Objects pane, expand the **Customer** node, and then expand the **Methods** node.</span></span>  
   
-    2.  依序展開 SD_RFC_CUSTOMER_GET、 方法和**參數**節點。  
+    2.  <span data-ttu-id="5d95c-247">依序展開 SD_RFC_CUSTOMER_GET、 方法和**參數**節點。</span><span class="sxs-lookup"><span data-stu-id="5d95c-247">Expand the SD_RFC_CUSTOMER_GET method, and then expand the **Parameters** node.</span></span>  
   
-    3.  展開**CUSTOMER_T**節點，然後第二個**CUSTOMER_T**  節點，然後在**項目**節點，然後再按一下**KUNNR**節點。  
+    3.  <span data-ttu-id="5d95c-248">展開**CUSTOMER_T**節點，然後第二個**CUSTOMER_T**  節點，然後在**項目**節點，然後再按一下**KUNNR**節點。</span><span class="sxs-lookup"><span data-stu-id="5d95c-248">Expand the **CUSTOMER_T** node, then the second **CUSTOMER_T** node, then the **Item** node, and then click the **KUNNR** node.</span></span>  
   
-    4.  在 [屬性] 窗格中，選取**CustomerID [Customer]**從**識別碼**清單。  
+    4.  <span data-ttu-id="5d95c-249">在 [屬性] 窗格中，選取**CustomerID [Customer]**從**識別碼**清單。</span><span class="sxs-lookup"><span data-stu-id="5d95c-249">In the Properties pane, select **CustomerID[Customer]** from the **Identifier** list.</span></span>  
   
-##### <a name="to-create-a-specific-finder-method-instance-for-the-sdrfccustomerget-method"></a>若要建立特定的 Finder 方法執行個體 SD_RFC_CUSTOMER_GET 方法  
+##### <a name="to-create-a-specific-finder-method-instance-for-the-sdrfccustomerget-method"></a><span data-ttu-id="5d95c-250">若要建立特定的 Finder 方法執行個體 SD_RFC_CUSTOMER_GET 方法</span><span class="sxs-lookup"><span data-stu-id="5d95c-250">To create a Specific Finder method instance for the SD_RFC_CUSTOMER_GET method</span></span>  
   
-1.  在 中繼資料物件 窗格中，依序展開**客戶** 節點，然後**方法**節點。  
+1.  <span data-ttu-id="5d95c-251">在 中繼資料物件 窗格中，依序展開**客戶** 節點，然後**方法**節點。</span><span class="sxs-lookup"><span data-stu-id="5d95c-251">In the Metadata Objects pane, expand the **Customer** node, and then the **Methods** node.</span></span>  
   
-2.  展開**SD_RFC_CUSTOMER_GET**  節點，以滑鼠右鍵按一下**執行個體**，然後選取**新增方法執行個體**開啟 建立方法執行個體 視窗。  
+2.  <span data-ttu-id="5d95c-252">展開**SD_RFC_CUSTOMER_GET**  節點，以滑鼠右鍵按一下**執行個體**，然後選取**新增方法執行個體**開啟 建立方法執行個體 視窗。</span><span class="sxs-lookup"><span data-stu-id="5d95c-252">Expand the **SD_RFC_CUSTOMER_GET** node, right-click **Instances**, and then select **Add Method Instance** to open the Create Method Instance window.</span></span>  
   
-     ![新增方法執行個體](../../adapters-and-accelerators/adapter-sap/media/f583f8ef-e364-4665-8514-db033219ba0b.gif "f583f8ef-e364-4665-8514-db033219ba0b")  
+     <span data-ttu-id="5d95c-253">![新增方法執行個體](../../adapters-and-accelerators/adapter-sap/media/f583f8ef-e364-4665-8514-db033219ba0b.gif "f583f8ef-e364-4665-8514-db033219ba0b")</span><span class="sxs-lookup"><span data-stu-id="5d95c-253">![Add a method instance](../../adapters-and-accelerators/adapter-sap/media/f583f8ef-e364-4665-8514-db033219ba0b.gif "f583f8ef-e364-4665-8514-db033219ba0b")</span></span>  
   
-3.  在 [建立方法執行個體] 視窗中，選取**特定搜尋工具**如**方法執行個體類型**。 同樣地，選取**CUSTOMER_T**如**傳回 TypeDescriptor**。  
+3.  <span data-ttu-id="5d95c-254">在 [建立方法執行個體] 視窗中，選取**特定搜尋工具**如**方法執行個體類型**。</span><span class="sxs-lookup"><span data-stu-id="5d95c-254">In the Create Method Instance window, select **Specific Finder** for **Method Instance Type**.</span></span> <span data-ttu-id="5d95c-255">同樣地，選取**CUSTOMER_T**如**傳回 TypeDescriptor**。</span><span class="sxs-lookup"><span data-stu-id="5d95c-255">Similarly, select **CUSTOMER_T** for **Return TypeDescriptor**.</span></span>  
   
-     ![新增 Specific Finder 方法執行個體](../../adapters-and-accelerators/adapter-sap/media/838eb512-b967-46e7-a865-0bf3651b02a1.gif "838eb512-b967-46e7-a865-0bf3651b02a1")  
+     <span data-ttu-id="5d95c-256">![新增 Specific Finder 方法執行個體](../../adapters-and-accelerators/adapter-sap/media/838eb512-b967-46e7-a865-0bf3651b02a1.gif "838eb512-b967-46e7-a865-0bf3651b02a1")</span><span class="sxs-lookup"><span data-stu-id="5d95c-256">![Add a Specific Finder Method Instance](../../adapters-and-accelerators/adapter-sap/media/838eb512-b967-46e7-a865-0bf3651b02a1.gif "838eb512-b967-46e7-a865-0bf3651b02a1")</span></span>  
   
-4.  按一下 **[確定]**。  
+4.  <span data-ttu-id="5d95c-257">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="5d95c-257">Click **OK**.</span></span>  
   
-5.  在 [屬性] 窗格中，輸入**GetCustomerByNumber_Instance**如**名稱**方塊。  
+5.  <span data-ttu-id="5d95c-258">在 [屬性] 窗格中，輸入**GetCustomerByNumber_Instance**如**名稱**方塊。</span><span class="sxs-lookup"><span data-stu-id="5d95c-258">In the Properties pane, type **GetCustomerByNumber_Instance** for the **Name** box.</span></span>  
   
-     ![指定方法執行個體的名稱](../../adapters-and-accelerators/adapter-sap/media/970f543c-cd06-4921-86c9-c110abdc7994.gif "970f543c-cd06-4921-86c9-c110abdc7994")  
+     <span data-ttu-id="5d95c-259">![指定方法執行個體的名稱](../../adapters-and-accelerators/adapter-sap/media/970f543c-cd06-4921-86c9-c110abdc7994.gif "970f543c-cd06-4921-86c9-c110abdc7994")</span><span class="sxs-lookup"><span data-stu-id="5d95c-259">![Specify a name for the method instance](../../adapters-and-accelerators/adapter-sap/media/970f543c-cd06-4921-86c9-c110abdc7994.gif "970f543c-cd06-4921-86c9-c110abdc7994")</span></span>  
   
-### <a name="requirement-3-retrieve-sales-order-details-for-a-specific-customer-from-the-list-of-customers"></a>需求 3： 擷取客戶的清單中的特定客戶的銷售訂單詳細資料  
- 若要建立可用來擷取特定客戶的銷售訂單詳細資料的應用程式定義檔，您必須執行下列工作集合。  
+### <a name="requirement-3-retrieve-sales-order-details-for-a-specific-customer-from-the-list-of-customers"></a><span data-ttu-id="5d95c-260">需求 3： 擷取客戶的清單中的特定客戶的銷售訂單詳細資料</span><span class="sxs-lookup"><span data-stu-id="5d95c-260">Requirement 3: Retrieve Sales Order Details for a Specific Customer from the List of Customers</span></span>  
+ <span data-ttu-id="5d95c-261">若要建立可用來擷取特定客戶的銷售訂單詳細資料的應用程式定義檔，您必須執行下列工作集合。</span><span class="sxs-lookup"><span data-stu-id="5d95c-261">To create an application definition file that can be used to retrieve sales order details for a specific customer, you must perform the following set of tasks.</span></span>  
   
--   設定之間的關聯**客戶**和**SalesOrder**實體。  
+-   <span data-ttu-id="5d95c-262">設定之間的關聯**客戶**和**SalesOrder**實體。</span><span class="sxs-lookup"><span data-stu-id="5d95c-262">Set up an association between the **Customer** and **SalesOrder** entities.</span></span>  
   
--   建立**關聯**BAPI_SALESORDER_GETLIST 方法的方法。  
+-   <span data-ttu-id="5d95c-263">建立**關聯**BAPI_SALESORDER_GETLIST 方法的方法。</span><span class="sxs-lookup"><span data-stu-id="5d95c-263">Create an **Association** method for the BAPI_SALESORDER_GETLIST method.</span></span>  
   
-##### <a name="to-create-an-association-between-the-customer-and-salesorder-entities"></a>若要建立客戶與 SalesOrder 實體之間的關聯  
+##### <a name="to-create-an-association-between-the-customer-and-salesorder-entities"></a><span data-ttu-id="5d95c-264">若要建立客戶與 SalesOrder 實體之間的關聯</span><span class="sxs-lookup"><span data-stu-id="5d95c-264">To create an association between the Customer and SalesOrder entities</span></span>  
   
-1.  在 中繼資料物件 窗格中，依序展開**SalesOrder**  節點，然後展開**方法**節點。  
+1.  <span data-ttu-id="5d95c-265">在 中繼資料物件 窗格中，依序展開**SalesOrder**  節點，然後展開**方法**節點。</span><span class="sxs-lookup"><span data-stu-id="5d95c-265">In the Metadata Objects pane, expand the **SalesOrder** node, and then expand the **Methods** node.</span></span>  
   
-2.  依序展開 BAPI_SALESORDER_GETLIST、 方法和**參數**節點。  
+2.  <span data-ttu-id="5d95c-266">依序展開 BAPI_SALESORDER_GETLIST、 方法和**參數**節點。</span><span class="sxs-lookup"><span data-stu-id="5d95c-266">Expand the BAPI_SALESORDER_GETLIST method, and then expand the **Parameters** node.</span></span>  
   
-3.  展開**CUSTOMER_NUMBER**  節點，然後按一下第二個**CUSTOMER_NUMBER**節點。  
+3.  <span data-ttu-id="5d95c-267">展開**CUSTOMER_NUMBER**  節點，然後按一下第二個**CUSTOMER_NUMBER**節點。</span><span class="sxs-lookup"><span data-stu-id="5d95c-267">Expand the **CUSTOMER_NUMBER** node, and then click the second **CUSTOMER_NUMBER** node.</span></span>  
   
-4.  在 [屬性] 窗格中，選取**CustomerID [Customer]**從**識別碼**清單。  
+4.  <span data-ttu-id="5d95c-268">在 [屬性] 窗格中，選取**CustomerID [Customer]**從**識別碼**清單。</span><span class="sxs-lookup"><span data-stu-id="5d95c-268">In the Properties pane, select **CustomerID[Customer]** from the **Identifier** list.</span></span>  
   
-     ![建立兩個實體之間的關聯](../../adapters-and-accelerators/adapter-sap/media/ae7e1e7a-a12b-4905-b002-2a04c7050848.gif "ae7e1e7a-a12b-4905-b002-2a04c7050848")  
+     <span data-ttu-id="5d95c-269">![建立兩個實體之間的關聯](../../adapters-and-accelerators/adapter-sap/media/ae7e1e7a-a12b-4905-b002-2a04c7050848.gif "ae7e1e7a-a12b-4905-b002-2a04c7050848")</span><span class="sxs-lookup"><span data-stu-id="5d95c-269">![Create association between the two entities](../../adapters-and-accelerators/adapter-sap/media/ae7e1e7a-a12b-4905-b002-2a04c7050848.gif "ae7e1e7a-a12b-4905-b002-2a04c7050848")</span></span>  
   
-##### <a name="to-create-an-association-method-instance-for-the-bapisalesordergetlist-method"></a>若要建立 Association 方法執行個體 BAPI_SALESORDER_GETLIST 方法  
+##### <a name="to-create-an-association-method-instance-for-the-bapisalesordergetlist-method"></a><span data-ttu-id="5d95c-270">若要建立 Association 方法執行個體 BAPI_SALESORDER_GETLIST 方法</span><span class="sxs-lookup"><span data-stu-id="5d95c-270">To create an Association method instance for the BAPI_SALESORDER_GETLIST method</span></span>  
   
-1.  在 中繼資料物件 窗格中，依序展開**SalesOrder**  節點，然後展開**方法**節點。  
+1.  <span data-ttu-id="5d95c-271">在 中繼資料物件 窗格中，依序展開**SalesOrder**  節點，然後展開**方法**節點。</span><span class="sxs-lookup"><span data-stu-id="5d95c-271">In the Metadata Objects pane, expand the **SalesOrder** node, and then expand the **Methods** node.</span></span>  
   
-2.  展開**BAPI_SALESORDER_GETLIST**  節點，以滑鼠右鍵按一下**執行個體**，然後選取**新增方法執行個體**開啟 建立方法執行個體 視窗。  
+2.  <span data-ttu-id="5d95c-272">展開**BAPI_SALESORDER_GETLIST**  節點，以滑鼠右鍵按一下**執行個體**，然後選取**新增方法執行個體**開啟 建立方法執行個體 視窗。</span><span class="sxs-lookup"><span data-stu-id="5d95c-272">Expand the **BAPI_SALESORDER_GETLIST** node, right-click **Instances**, and then select **Add Method Instance** to open the Create Method Instance window.</span></span>  
   
-     ![新增 Association 方法執行個體](../../adapters-and-accelerators/adapter-sap/media/c62a0d01-d4f3-470e-92f1-8a5cf666f8da.gif "c62a0d01-d4f3-470e-92f1-8a5cf666f8da")  
+     <span data-ttu-id="5d95c-273">![新增 Association 方法執行個體](../../adapters-and-accelerators/adapter-sap/media/c62a0d01-d4f3-470e-92f1-8a5cf666f8da.gif "c62a0d01-d4f3-470e-92f1-8a5cf666f8da")</span><span class="sxs-lookup"><span data-stu-id="5d95c-273">![Add an Association Method Instance](../../adapters-and-accelerators/adapter-sap/media/c62a0d01-d4f3-470e-92f1-8a5cf666f8da.gif "c62a0d01-d4f3-470e-92f1-8a5cf666f8da")</span></span>  
   
-3.  在 [建立方法執行個體] 視窗中，選取**關聯**如**方法執行個體類型**。  
+3.  <span data-ttu-id="5d95c-274">在 [建立方法執行個體] 視窗中，選取**關聯**如**方法執行個體類型**。</span><span class="sxs-lookup"><span data-stu-id="5d95c-274">In the Create Method Instance window, select **Association** for **Method Instance Type**.</span></span>  
   
-4.  在**來源實體**清單中，選取**客戶**。  
+4.  <span data-ttu-id="5d95c-275">在**來源實體**清單中，選取**客戶**。</span><span class="sxs-lookup"><span data-stu-id="5d95c-275">In the **Source Entities** list, select **Customer**.</span></span>  
   
-5.  在**傳回 TypeDescriptor**清單中，選取**SALES_ORDERS**...  
+5.  <span data-ttu-id="5d95c-276">在**傳回 TypeDescriptor**清單中，選取**SALES_ORDERS**...</span><span class="sxs-lookup"><span data-stu-id="5d95c-276">In the **Return TypeDescriptor** list, select **SALES_ORDERS**..</span></span>  
   
-     ![建立 Association 方法執行個體](../../adapters-and-accelerators/adapter-sap/media/15975b78-8932-41ce-8c10-41891fc1fb22.gif "15975b78-8932-41ce-8c10-41891fc1fb22")  
+     <span data-ttu-id="5d95c-277">![建立 Association 方法執行個體](../../adapters-and-accelerators/adapter-sap/media/15975b78-8932-41ce-8c10-41891fc1fb22.gif "15975b78-8932-41ce-8c10-41891fc1fb22")</span><span class="sxs-lookup"><span data-stu-id="5d95c-277">![Create an Association Method Instance](../../adapters-and-accelerators/adapter-sap/media/15975b78-8932-41ce-8c10-41891fc1fb22.gif "15975b78-8932-41ce-8c10-41891fc1fb22")</span></span>  
   
-6.  按一下 **[確定]**。  
+6.  <span data-ttu-id="5d95c-278">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="5d95c-278">Click **OK**.</span></span>  
   
-7.  在 [屬性] 窗格中，輸入**SalesOrderForCustomer_Instance**如**名稱**方塊。  
+7.  <span data-ttu-id="5d95c-279">在 [屬性] 窗格中，輸入**SalesOrderForCustomer_Instance**如**名稱**方塊。</span><span class="sxs-lookup"><span data-stu-id="5d95c-279">In the Properties pane, type **SalesOrderForCustomer_Instance** for the **Name** box.</span></span>  
   
-     ![指定 Association 方法的名稱](../../adapters-and-accelerators/adapter-sap/media/0f1d13e4-e5a3-49ec-92a7-6329c6db1eb0.gif "0f1d13e4-e5a3-49ec-92a7-6329c6db1eb0")  
+     <span data-ttu-id="5d95c-280">![指定 Association 方法的名稱](../../adapters-and-accelerators/adapter-sap/media/0f1d13e4-e5a3-49ec-92a7-6329c6db1eb0.gif "0f1d13e4-e5a3-49ec-92a7-6329c6db1eb0")</span><span class="sxs-lookup"><span data-stu-id="5d95c-280">![Specify a name for the Association Method](../../adapters-and-accelerators/adapter-sap/media/0f1d13e4-e5a3-49ec-92a7-6329c6db1eb0.gif "0f1d13e4-e5a3-49ec-92a7-6329c6db1eb0")</span></span>  
   
-### <a name="remove-parameters-of-systemnullable-type"></a>移除 System.Nullable 類型參數  
- 在建立時**關聯**方法執行個體 BAPI_SALESORDER_GETLIST 方法，您必須選取的傳回型別為 SALES_ORDERS。 如果您展開 SALES_ORDER 參數時，您會發現某些參數屬於 System.Nullable 類型。 您可以看到在商務資料目錄定義編輯器中，選取參數，並查看的值輸入參數**TypeName**屬性。  
+### <a name="remove-parameters-of-systemnullable-type"></a><span data-ttu-id="5d95c-281">移除 System.Nullable 類型參數</span><span class="sxs-lookup"><span data-stu-id="5d95c-281">Remove Parameters of System.Nullable Type</span></span>  
+ <span data-ttu-id="5d95c-282">在建立時**關聯**方法執行個體 BAPI_SALESORDER_GETLIST 方法，您必須選取的傳回型別為 SALES_ORDERS。</span><span class="sxs-lookup"><span data-stu-id="5d95c-282">While creating the **Association** method instance for the BAPI_SALESORDER_GETLIST method, you selected the return type as SALES_ORDERS.</span></span> <span data-ttu-id="5d95c-283">如果您展開 SALES_ORDER 參數時，您會發現某些參數屬於 System.Nullable 類型。</span><span class="sxs-lookup"><span data-stu-id="5d95c-283">If you expand the SALES_ORDER parameter, you will notice some parameters are of System.Nullable type.</span></span> <span data-ttu-id="5d95c-284">您可以看到在商務資料目錄定義編輯器中，選取參數，並查看的值輸入參數**TypeName**屬性。</span><span class="sxs-lookup"><span data-stu-id="5d95c-284">You can see the parameter type by selecting the parameter in the Business Data Catalog Definition Editor, and looking at the value for the **TypeName** property.</span></span>  
   
- 這類參數，如商務資料目錄定義編輯器建立另一個參數具有相同名稱，但使用"了 Specified"後置字元。 例如，查看參數*ITM_NUMBER*和*ITM_NUMBERSpecified*。 Microsoft Office SharePoint Server 不支援 System.Nullable 參數。 因此，當您嘗試包含 System.Nullable 參數類型的記錄，就會擲回例外狀況。 因此，您必須先移除兩個參數 （含與不含"Specified"後置字元和具有相同名稱） 從商務資料目錄定義編輯器  
+ <span data-ttu-id="5d95c-285">這類參數，如商務資料目錄定義編輯器建立另一個參數具有相同名稱，但使用"了 Specified"後置字元。</span><span class="sxs-lookup"><span data-stu-id="5d95c-285">For such parameters, the Business Data Catalog Definition Editor creates another parameter with the same name but with a “Specified” suffix.</span></span> <span data-ttu-id="5d95c-286">例如，查看參數*ITM_NUMBER*和*ITM_NUMBERSpecified*。</span><span class="sxs-lookup"><span data-stu-id="5d95c-286">For example, look at parameters *ITM_NUMBER* and *ITM_NUMBERSpecified*.</span></span> <span data-ttu-id="5d95c-287">Microsoft Office SharePoint Server 不支援 System.Nullable 參數。</span><span class="sxs-lookup"><span data-stu-id="5d95c-287">Microsoft Office SharePoint Server does not support System.Nullable parameters.</span></span> <span data-ttu-id="5d95c-288">因此，當您嘗試包含 System.Nullable 參數類型的記錄，就會擲回例外狀況。</span><span class="sxs-lookup"><span data-stu-id="5d95c-288">So, when you try records that contain the System.Nullable parameter type, it throws an exception.</span></span> <span data-ttu-id="5d95c-289">因此，您必須先移除兩個參數 （含與不含"Specified"後置字元和具有相同名稱） 從商務資料目錄定義編輯器</span><span class="sxs-lookup"><span data-stu-id="5d95c-289">Therefore, you must remove both the parameters (with and without the “Specified” suffix and having the same name) from the Business Data Catalog Definition Editor</span></span>  
   
-##### <a name="to-remove-the-parameters-of-systemnullable-type"></a>若要移除 System.Nullable 類型的參數  
+##### <a name="to-remove-the-parameters-of-systemnullable-type"></a><span data-ttu-id="5d95c-290">若要移除 System.Nullable 類型的參數</span><span class="sxs-lookup"><span data-stu-id="5d95c-290">To remove the parameters of System.Nullable type</span></span>  
   
-1.  在 中繼資料物件 窗格中，依序展開**SalesOrder**  節點，然後展開**方法**節點。  
+1.  <span data-ttu-id="5d95c-291">在 中繼資料物件 窗格中，依序展開**SalesOrder**  節點，然後展開**方法**節點。</span><span class="sxs-lookup"><span data-stu-id="5d95c-291">In the Metadata Objects pane, expand the **SalesOrder** node, and then expand the **Methods** node.</span></span>  
   
-2.  展開**BAPI_SALESORDER_GETLIST**  節點，然後展開**參數**節點。  
+2.  <span data-ttu-id="5d95c-292">展開**BAPI_SALESORDER_GETLIST**  節點，然後展開**參數**節點。</span><span class="sxs-lookup"><span data-stu-id="5d95c-292">Expand the **BAPI_SALESORDER_GETLIST** node, and then expand the **Parameters** node.</span></span>  
   
-3.  展開**SALES_ORDERS**，依序展開 第二個**SALES_ORDERS**，然後展開**項目**。  
+3.  <span data-ttu-id="5d95c-293">展開**SALES_ORDERS**，依序展開 第二個**SALES_ORDERS**，然後展開**項目**。</span><span class="sxs-lookup"><span data-stu-id="5d95c-293">Expand **SALES_ORDERS**, expand the second **SALES_ORDERS**, and then expand **Item**.</span></span>  
   
-4.  以滑鼠右鍵按一下參數，其中包含"了 Specified"後的置詞，在 [名稱]，然後選取**刪除**。  
+4.  <span data-ttu-id="5d95c-294">以滑鼠右鍵按一下參數，其中包含"了 Specified"後的置詞，在 [名稱]，然後選取**刪除**。</span><span class="sxs-lookup"><span data-stu-id="5d95c-294">Right-click the parameter that contains the "Specified" suffix in the name, and then select **Delete**.</span></span>  
   
-5.  以滑鼠右鍵按一下 已刪除，而 後置詞，不用參數同名的參數，然後選取**刪除**。 一般而言，這是參數前面有"了 Specified"後置詞的參數。  
+5.  <span data-ttu-id="5d95c-295">以滑鼠右鍵按一下 已刪除，而 後置詞，不用參數同名的參數，然後選取**刪除**。</span><span class="sxs-lookup"><span data-stu-id="5d95c-295">Right-click the parameter that has the same name as the parameter you deleted, without the suffix, and then select **Delete**.</span></span> <span data-ttu-id="5d95c-296">一般而言，這是參數前面有"了 Specified"後置詞的參數。</span><span class="sxs-lookup"><span data-stu-id="5d95c-296">Typically, this parameter is right before the parameter that has the "Specified" suffix.</span></span>  
   
-### <a name="set-default-parameters"></a>設定預設參數  
- BAPI_SALESORDER_GETLIST 接受兩個參數。 其中一個參數，TRANSACTION_GROUP，是預設參數。 因此，您必須設定此參數的預設值。  
+### <a name="set-default-parameters"></a><span data-ttu-id="5d95c-297">設定預設參數</span><span class="sxs-lookup"><span data-stu-id="5d95c-297">Set Default Parameters</span></span>  
+ <span data-ttu-id="5d95c-298">BAPI_SALESORDER_GETLIST 接受兩個參數。</span><span class="sxs-lookup"><span data-stu-id="5d95c-298">The BAPI_SALESORDER_GETLIST takes two parameters.</span></span> <span data-ttu-id="5d95c-299">其中一個參數，TRANSACTION_GROUP，是預設參數。</span><span class="sxs-lookup"><span data-stu-id="5d95c-299">One of these parameters, TRANSACTION_GROUP, is the default parameter.</span></span> <span data-ttu-id="5d95c-300">因此，您必須設定此參數的預設值。</span><span class="sxs-lookup"><span data-stu-id="5d95c-300">So, you must set the default value for this parameter.</span></span>  
   
-##### <a name="to-set-the-default-value-for-transactiongroup"></a>若要設定的預設值為 TRANSACTION_GROUP  
+##### <a name="to-set-the-default-value-for-transactiongroup"></a><span data-ttu-id="5d95c-301">若要設定的預設值為 TRANSACTION_GROUP</span><span class="sxs-lookup"><span data-stu-id="5d95c-301">To set the default value for TRANSACTION_GROUP</span></span>  
   
-1.  在 中繼資料物件 窗格中，依序展開**SalesOrder**  節點，然後展開**方法**節點。  
+1.  <span data-ttu-id="5d95c-302">在 中繼資料物件 窗格中，依序展開**SalesOrder**  節點，然後展開**方法**節點。</span><span class="sxs-lookup"><span data-stu-id="5d95c-302">In the Metadata Objects pane, expand the **SalesOrder** node, and then expand the **Methods** node.</span></span>  
   
-2.  展開**BAPI_SALESORDER_GETLIST**  節點，然後展開**執行個體**節點。  
+2.  <span data-ttu-id="5d95c-303">展開**BAPI_SALESORDER_GETLIST**  節點，然後展開**執行個體**節點。</span><span class="sxs-lookup"><span data-stu-id="5d95c-303">Expand the **BAPI_SALESORDER_GETLIST** node, and then expand the **Instances** node.</span></span>  
   
-3.  選取**SalesOrderForCustomer_Instance**方法執行個體，並在 屬性 窗格中，按一下 省略符號按鈕 （...），以針對**DefaultValues**方塊。  
+3.  <span data-ttu-id="5d95c-304">選取**SalesOrderForCustomer_Instance**方法執行個體，並在 屬性 窗格中，按一下 省略符號按鈕 （...），以針對**DefaultValues**方塊。</span><span class="sxs-lookup"><span data-stu-id="5d95c-304">Select the **SalesOrderForCustomer_Instance** method instance, and in the Properties pane, click the ellipsis button (…) against the **DefaultValues** box.</span></span>  
   
-4.  在 編輯 視窗中，依序展開**TRANSACTION_GROUP**  節點，以及**TRANSACTION_GROUP**方塊中，指定預設值 0。  
+4.  <span data-ttu-id="5d95c-305">在 編輯 視窗中，依序展開**TRANSACTION_GROUP**  節點，以及**TRANSACTION_GROUP**方塊中，指定預設值 0。</span><span class="sxs-lookup"><span data-stu-id="5d95c-305">In the Edit window, expand **TRANSACTION_GROUP** node, and for the **TRANSACTION_GROUP** box, specify the default value 0.</span></span>  
   
-     ![指定方法執行個體的預設值](../../adapters-and-accelerators/adapter-sap/media/86e0a42d-61c0-4d5d-ba3f-55b328f79576.gif "86e0a42d-61c0-4d5d-ba3f-55b328f79576")  
+     <span data-ttu-id="5d95c-306">![指定方法執行個體的預設值](../../adapters-and-accelerators/adapter-sap/media/86e0a42d-61c0-4d5d-ba3f-55b328f79576.gif "86e0a42d-61c0-4d5d-ba3f-55b328f79576")</span><span class="sxs-lookup"><span data-stu-id="5d95c-306">![Specify a default value for the method instance](../../adapters-and-accelerators/adapter-sap/media/86e0a42d-61c0-4d5d-ba3f-55b328f79576.gif "86e0a42d-61c0-4d5d-ba3f-55b328f79576")</span></span>  
   
-5.  按一下 [ **關閉**]。  
+5.  <span data-ttu-id="5d95c-307">按一下 [ **關閉**]。</span><span class="sxs-lookup"><span data-stu-id="5d95c-307">Click **Close**.</span></span>  
   
-### <a name="export-the-application-definition-to-a-file"></a>應用程式定義匯出至檔案  
- 您現在已建立應用程式定義包含 SAP 系統的執行個體中繼資料。 您必須將此定義匯出至 XML 檔案，可以匯入 Microsoft Office SharePoint Server。  
+### <a name="export-the-application-definition-to-a-file"></a><span data-ttu-id="5d95c-308">應用程式定義匯出至檔案</span><span class="sxs-lookup"><span data-stu-id="5d95c-308">Export the Application Definition to a File</span></span>  
+ <span data-ttu-id="5d95c-309">您現在已建立應用程式定義包含 SAP 系統的執行個體中繼資料。</span><span class="sxs-lookup"><span data-stu-id="5d95c-309">You have now created an application definition that contains the SAP system instance metadata.</span></span> <span data-ttu-id="5d95c-310">您必須將此定義匯出至 XML 檔案，可以匯入 Microsoft Office SharePoint Server。</span><span class="sxs-lookup"><span data-stu-id="5d95c-310">You must export this definition to an XML file, which can be imported into Microsoft Office SharePoint Server.</span></span>  
   
-##### <a name="to-export-the-application-definition-to-a-file"></a>若要將應用程式定義匯出至檔案  
+##### <a name="to-export-the-application-definition-to-a-file"></a><span data-ttu-id="5d95c-311">若要將應用程式定義匯出至檔案</span><span class="sxs-lookup"><span data-stu-id="5d95c-311">To export the application definition to a file</span></span>  
   
-1.  在 [中繼資料物件] 窗格中，以滑鼠右鍵按一下**Customer_Order**節點，然後再按一下**匯出**。  
+1.  <span data-ttu-id="5d95c-312">在 [中繼資料物件] 窗格中，以滑鼠右鍵按一下**Customer_Order**節點，然後再按一下**匯出**。</span><span class="sxs-lookup"><span data-stu-id="5d95c-312">In the Metadata Objects pane, right-click the **Customer_Order** node, and then click **Export**.</span></span>  
   
-2.  將檔案儲存為 Customer_Order.xml。  
+2.  <span data-ttu-id="5d95c-313">將檔案儲存為 Customer_Order.xml。</span><span class="sxs-lookup"><span data-stu-id="5d95c-313">Save the file as Customer_Order.xml.</span></span>  
   
-## <a name="next-steps"></a>後續步驟  
- 您現在必須建立 SharePoint 應用程式從 SAP 系統擷取資料。 請參閱[步驟 3： 建立 SharePoint 應用程式以擷取資料從 SAP](../../adapters-and-accelerators/adapter-sap/step-3-create-a-sharepoint-application-to-retrieve-data-from-sap.md)如需相關指示。  
+## <a name="next-steps"></a><span data-ttu-id="5d95c-314">後續步驟</span><span class="sxs-lookup"><span data-stu-id="5d95c-314">Next Steps</span></span>  
+ <span data-ttu-id="5d95c-315">您現在必須建立 SharePoint 應用程式從 SAP 系統擷取資料。</span><span class="sxs-lookup"><span data-stu-id="5d95c-315">You must now create a SharePoint application to retrieve data from an SAP system.</span></span> <span data-ttu-id="5d95c-316">請參閱[步驟 3： 建立 SharePoint 應用程式以擷取資料從 SAP](../../adapters-and-accelerators/adapter-sap/step-3-create-a-sharepoint-application-to-retrieve-data-from-sap.md)如需相關指示。</span><span class="sxs-lookup"><span data-stu-id="5d95c-316">See [Step 3: Create a SharePoint Application to Retrieve Data from SAP](../../adapters-and-accelerators/adapter-sap/step-3-create-a-sharepoint-application-to-retrieve-data-from-sap.md) for instructions.</span></span>  
   
-## <a name="see-also"></a>另請參閱  
- [教學課程 1： 從 SharePoint 網站上的 SAP 系統中呈現資料](../../adapters-and-accelerators/adapter-sap/tutorial-1-presenting-data-from-an-sap-system-on-a-sharepoint-site.md)
+## <a name="see-also"></a><span data-ttu-id="5d95c-317">另請參閱</span><span class="sxs-lookup"><span data-stu-id="5d95c-317">See Also</span></span>  
+ [<span data-ttu-id="5d95c-318">教學課程 1： 從 SharePoint 網站上的 SAP 系統中呈現資料</span><span class="sxs-lookup"><span data-stu-id="5d95c-318">Tutorial 1: Presenting Data from an SAP System on a SharePoint Site</span></span>](../../adapters-and-accelerators/adapter-sap/tutorial-1-presenting-data-from-an-sap-system-on-a-sharepoint-site.md)

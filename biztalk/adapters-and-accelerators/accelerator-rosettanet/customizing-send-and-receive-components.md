@@ -24,15 +24,15 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="customizing-send-and-receive-components"></a>自訂傳送和接收元件
-本章節的主題說明如何建立、自訂或設定 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 傳送和接收元件的屬性。 這些元件包括 ASPX 頁面、傳送埠和接收埠以及配接器。  
+# <a name="customizing-send-and-receive-components"></a><span data-ttu-id="80f55-103">自訂傳送和接收元件</span><span class="sxs-lookup"><span data-stu-id="80f55-103">Customizing Send and Receive Components</span></span>
+<span data-ttu-id="80f55-104">本章節的主題說明如何建立、自訂或設定 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 傳送和接收元件的屬性。</span><span class="sxs-lookup"><span data-stu-id="80f55-104">The topics in this section describe how to create, customize, or set the properties of [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] send and receive components.</span></span> <span data-ttu-id="80f55-105">這些元件包括 ASPX 頁面、傳送埠和接收埠以及配接器。</span><span class="sxs-lookup"><span data-stu-id="80f55-105">These components include ASPX pages, send and receive ports, and adapters.</span></span>  
   
- 如需有關[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]，然後[閱讀 RosettaNet 加速器](learn-the-rosettanet-accelerator-and-the-biztalk-tools-available.md)。  
+ <span data-ttu-id="80f55-106">如需有關[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]，然後[閱讀 RosettaNet 加速器](learn-the-rosettanet-accelerator-and-the-biztalk-tools-available.md)。</span><span class="sxs-lookup"><span data-stu-id="80f55-106">For more information about [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)], then [read about the RosettaNet accelerator](learn-the-rosettanet-accelerator-and-the-biztalk-tools-available.md).</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="80f55-107">本節內容</span><span class="sxs-lookup"><span data-stu-id="80f55-107">In This Section</span></span>  
   
--   [設定 ASPX 頁面的連線逾時](../../adapters-and-accelerators/accelerator-rosettanet/setting-the-connection-time-out-for-an-aspx-page.md)  
+-   [<span data-ttu-id="80f55-108">設定 ASPX 頁面的連線逾時</span><span class="sxs-lookup"><span data-stu-id="80f55-108">Setting the Connection Time-Out for an ASPX Page</span></span>](../../adapters-and-accelerators/accelerator-rosettanet/setting-the-connection-time-out-for-an-aspx-page.md)  
   
--   [建立傳送埠，以便處理遭遺棄或重複的訊息](../../adapters-and-accelerators/accelerator-rosettanet/creating-a-send-port-to-handle-orphan-or-duplicate-messages.md)  
+-   [<span data-ttu-id="80f55-109">建立傳送埠，以便處理遭遺棄或重複的訊息</span><span class="sxs-lookup"><span data-stu-id="80f55-109">Creating a Send Port to Handle Orphan or Duplicate Messages</span></span>](../../adapters-and-accelerators/accelerator-rosettanet/creating-a-send-port-to-handle-orphan-or-duplicate-messages.md)  
   
--   [設定逾時設定公開程序協調流程和 HTTP 配接器](../../adapters-and-accelerators/accelerator-rosettanet/setting-time-outs-for-a-public-process-orchestration-and-an-http-adapter.md)
+-   [<span data-ttu-id="80f55-110">設定逾時設定公開程序協調流程和 HTTP 配接器</span><span class="sxs-lookup"><span data-stu-id="80f55-110">Setting Time-Outs for a Public-Process Orchestration and an HTTP Adapter</span></span>](../../adapters-and-accelerators/accelerator-rosettanet/setting-time-outs-for-a-public-process-orchestration-and-an-http-adapter.md)

@@ -18,10 +18,10 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="custom-modal-dialog-editor-for-adapter-configuration"></a>配接器組態的自訂強制回應對話方塊編輯器
-自訂編輯器的程式碼會示範衍生自編輯器**System.Drawing.Design.UITypeEditor**類別，可顯示強制回應的快顯對話方塊方塊中，供您輸入密碼。 **GetEditStyle**方法覆寫會傳回**UIEditorEditStyle.Modal**表示強制回應表單子控制項。 此服務方法**ShowDialog**管理與建立控制項**CreatePassword**。 **ShowDialog**傳回**DialogResult**負責以一般方式 （例如，switch 陳述式） 與**DialogResult.OK**值只變更。  
+# <a name="custom-modal-dialog-editor-for-adapter-configuration"></a><span data-ttu-id="ac5c9-102">配接器組態的自訂強制回應對話方塊編輯器</span><span class="sxs-lookup"><span data-stu-id="ac5c9-102">Custom Modal Dialog Editor for Adapter Configuration</span></span>
+<span data-ttu-id="ac5c9-103">自訂編輯器的程式碼會示範衍生自編輯器**System.Drawing.Design.UITypeEditor**類別，可顯示強制回應的快顯對話方塊方塊中，供您輸入密碼。</span><span class="sxs-lookup"><span data-stu-id="ac5c9-103">The code for the custom editor shows an editor derived from the **System.Drawing.Design.UITypeEditor** class that displays a modal pop-up dialog box for entering a password.</span></span> <span data-ttu-id="ac5c9-104">**GetEditStyle**方法覆寫會傳回**UIEditorEditStyle.Modal**表示強制回應表單子控制項。</span><span class="sxs-lookup"><span data-stu-id="ac5c9-104">The **GetEditStyle** method override returns **UIEditorEditStyle.Modal** to indicate a modal form subcontrol.</span></span> <span data-ttu-id="ac5c9-105">此服務方法**ShowDialog**管理與建立控制項**CreatePassword**。</span><span class="sxs-lookup"><span data-stu-id="ac5c9-105">The service method **ShowDialog** manages the control created with **CreatePassword**.</span></span> <span data-ttu-id="ac5c9-106">**ShowDialog**傳回**DialogResult**負責以一般方式 （例如，switch 陳述式） 與**DialogResult.OK**值只變更。</span><span class="sxs-lookup"><span data-stu-id="ac5c9-106">**ShowDialog** returns a **DialogResult** that is handled in the usual way (for example, a switch statement) with the **DialogResult.OK** case changing value only.</span></span>  
   
- 下列程式碼為自訂強制回應編輯器的類別定義：  
+ <span data-ttu-id="ac5c9-107">下列程式碼為自訂強制回應編輯器的類別定義：</span><span class="sxs-lookup"><span data-stu-id="ac5c9-107">The following code is the class definition for the custom modal editor:</span></span>  
   
 ```  
 /*************************************************************************  
@@ -99,7 +99,7 @@ namespace AdapterManagement.ComponentModel
             return new PasswordForm(PasswordUITypeEditor.PasswordChar);  
 ```  
   
- 下列程式碼為自訂對話方塊的類別定義：  
+ <span data-ttu-id="ac5c9-108">下列程式碼為自訂對話方塊的類別定義：</span><span class="sxs-lookup"><span data-stu-id="ac5c9-108">The following code is the class definition for the custom dialog box:</span></span>  
   
 ```  
 /*************************************************************************  
@@ -306,8 +306,8 @@ namespace Microsoft.BizTalk.Samples.CustomUITypeEditors
 }  
 ```  
   
-## <a name="see-also"></a>另請參閱  
- [自訂配接器組態設計工具](../core/custom-adapter-configuration-designer.md)   
- [配接器組態的自訂下拉式編輯器](../core/custom-drop-down-editor-for-adapter-configuration.md)   
- [配接器組態的自訂類型轉換器](../core/custom-type-converter-for-adapter-configuration.md)   
- [配接器的進階的組態元件](../core/advanced-configuration-components-for-adapters.md)
+## <a name="see-also"></a><span data-ttu-id="ac5c9-109">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ac5c9-109">See Also</span></span>  
+ <span data-ttu-id="ac5c9-110">[自訂配接器組態設計工具](../core/custom-adapter-configuration-designer.md) </span><span class="sxs-lookup"><span data-stu-id="ac5c9-110">[Custom Adapter Configuration Designer](../core/custom-adapter-configuration-designer.md) </span></span>  
+ <span data-ttu-id="ac5c9-111">[配接器組態的自訂下拉式編輯器](../core/custom-drop-down-editor-for-adapter-configuration.md) </span><span class="sxs-lookup"><span data-stu-id="ac5c9-111">[Custom Drop-Down Editor for Adapter Configuration](../core/custom-drop-down-editor-for-adapter-configuration.md) </span></span>  
+ <span data-ttu-id="ac5c9-112">[配接器組態的自訂類型轉換器](../core/custom-type-converter-for-adapter-configuration.md) </span><span class="sxs-lookup"><span data-stu-id="ac5c9-112">[Custom Type Converter for Adapter Configuration](../core/custom-type-converter-for-adapter-configuration.md) </span></span>  
+ [<span data-ttu-id="ac5c9-113">配接器的進階的組態元件</span><span class="sxs-lookup"><span data-stu-id="ac5c9-113">Advanced Configuration Components for Adapters</span></span>](../core/advanced-configuration-components-for-adapters.md)

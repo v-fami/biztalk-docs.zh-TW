@@ -22,13 +22,13 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="appendix-a-data-types"></a>附錄 a： 資料類型
-本節提供關於在 Microsoft BizTalk Server 中使用產生的結構描述的 JD Edwards OneWorld 特定資訊。  
+# <a name="appendix-a-data-types"></a><span data-ttu-id="6a19d-102">附錄 a： 資料類型</span><span class="sxs-lookup"><span data-stu-id="6a19d-102">Appendix A: Data Types</span></span>
+<span data-ttu-id="6a19d-103">本節提供關於在 Microsoft BizTalk Server 中使用產生的結構描述的 JD Edwards OneWorld 特定資訊。</span><span class="sxs-lookup"><span data-stu-id="6a19d-103">This section provides JD Edwards OneWorld-specific information about using generated schemas in Microsoft BizTalk Server.</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="6a19d-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="6a19d-104">In This Section</span></span>  
   
--   [基本類型](../core/basic-types1.md)  
+-   [<span data-ttu-id="6a19d-105">基本類型</span><span class="sxs-lookup"><span data-stu-id="6a19d-105">Basic Types</span></span>](../core/basic-types1.md)  
   
--   [處理字串值](../core/handling-string-values1.md)  
+-   [<span data-ttu-id="6a19d-106">處理字串值</span><span class="sxs-lookup"><span data-stu-id="6a19d-106">Handling String Values</span></span>](../core/handling-string-values1.md)  
   
--   [使用 MATH_NUMERIC 類型](../core/using-the-math-numeric-type2.md)
+-   [<span data-ttu-id="6a19d-107">使用 MATH_NUMERIC 類型</span><span class="sxs-lookup"><span data-stu-id="6a19d-107">Using the MATH_NUMERIC Type</span></span>](../core/using-the-math-numeric-type2.md)

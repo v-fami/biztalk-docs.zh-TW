@@ -19,15 +19,15 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---output-validation"></a>錯誤-輸出驗證
-**錯誤碼**  
+# <a name="error---output-validation"></a><span data-ttu-id="0a921-102">錯誤-輸出驗證</span><span class="sxs-lookup"><span data-stu-id="0a921-102">Error - Output Validation</span></span>
+<span data-ttu-id="0a921-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="0a921-103">**Error Code**</span></span>  
   
- btm1046  
+ <span data-ttu-id="0a921-104">btm1046</span><span class="sxs-lookup"><span data-stu-id="0a921-104">btm1046</span></span>  
   
- **說明**  
+ <span data-ttu-id="0a921-105">**說明**</span><span class="sxs-lookup"><span data-stu-id="0a921-105">**Explanation**</span></span>  
   
- 由於指出的原因，無法驗證「測試對應」作業所產生的輸出執行個體訊息檔案是否符合目的結構描述。  
+ <span data-ttu-id="0a921-106">由於指出的原因，無法驗證「測試對應」作業所產生的輸出執行個體訊息檔案是否符合目的結構描述。</span><span class="sxs-lookup"><span data-stu-id="0a921-106">The output instance message file created by the Test Map operation could not be validated against the destination schema for the indicated reason.</span></span>  
   
- **使用者動作**  
+ <span data-ttu-id="0a921-107">**使用者動作**</span><span class="sxs-lookup"><span data-stu-id="0a921-107">**User Action**</span></span>  
   
- 根據指出的原因，適當更正在對應中指定的轉換，或更正目的結構描述，或兩者。 可能會很有幫助，BizTalk 編輯器中開啟目的結構描述，並使用**驗證結構描述**，**驗證執行個體**，和**產生執行個體**可用的命令時以滑鼠右鍵按一下方案總管 中的結構描述。
+ <span data-ttu-id="0a921-108">根據指出的原因，適當更正在對應中指定的轉換，或更正目的結構描述，或兩者。</span><span class="sxs-lookup"><span data-stu-id="0a921-108">Based on the indicated reason, make the appropriate corrections to either the transformations specified in the map, or to the destination schema, or to both.</span></span> <span data-ttu-id="0a921-109">可能會很有幫助，BizTalk 編輯器中開啟目的結構描述，並使用**驗證結構描述**，**驗證執行個體**，和**產生執行個體**可用的命令時以滑鼠右鍵按一下方案總管 中的結構描述。</span><span class="sxs-lookup"><span data-stu-id="0a921-109">It may be helpful to open the destination schema in BizTalk Editor and use the **Validate Schema**, **Validate Instance**, and **Generate Instance** commands available when you right-click a schema in Solution Explorer.</span></span>

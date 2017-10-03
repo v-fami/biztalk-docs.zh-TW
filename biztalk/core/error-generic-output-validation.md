@@ -19,15 +19,15 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---generic-output-validation"></a>錯誤-一般輸出驗證
-**錯誤碼**  
+# <a name="error---generic-output-validation"></a><span data-ttu-id="99c85-102">錯誤-一般輸出驗證</span><span class="sxs-lookup"><span data-stu-id="99c85-102">Error - Generic Output Validation</span></span>
+<span data-ttu-id="99c85-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="99c85-103">**Error Code**</span></span>  
   
- btm1047  
+ <span data-ttu-id="99c85-104">btm1047</span><span class="sxs-lookup"><span data-stu-id="99c85-104">btm1047</span></span>  
   
- **說明**  
+ <span data-ttu-id="99c85-105">**說明**</span><span class="sxs-lookup"><span data-stu-id="99c85-105">**Explanation**</span></span>  
   
- 由於未指定的原因，無法驗證「測試對應」作業所產生的輸出執行個體訊息檔案是否符合目的結構描述。  
+ <span data-ttu-id="99c85-106">由於未指定的原因，無法驗證「測試對應」作業所產生的輸出執行個體訊息檔案是否符合目的結構描述。</span><span class="sxs-lookup"><span data-stu-id="99c85-106">The output instance message file created by the Test Map operation could not be validated against the destination schema for an unspecified reason.</span></span>  
   
- **使用者動作**  
+ <span data-ttu-id="99c85-107">**使用者動作**</span><span class="sxs-lookup"><span data-stu-id="99c85-107">**User Action**</span></span>  
   
- 在 [BizTalk 編輯器] 中開啟目的結構描述，並使用**驗證結構描述**，**驗證執行個體**，和**產生執行個體**可用的命令，當您以滑鼠右鍵按一下在 [方案總管] 中，以隔離問題的結構描述。
+ <span data-ttu-id="99c85-108">在 [BizTalk 編輯器] 中開啟目的結構描述，並使用**驗證結構描述**，**驗證執行個體**，和**產生執行個體**可用的命令，當您以滑鼠右鍵按一下在 [方案總管] 中，以隔離問題的結構描述。</span><span class="sxs-lookup"><span data-stu-id="99c85-108">Open the destination schema in BizTalk Editor and use the **Validate Schema**, **Validate Instance**, and **Generate Instance** commands, available when you right-click a schema in Solution Explorer, to isolate the problem.</span></span>

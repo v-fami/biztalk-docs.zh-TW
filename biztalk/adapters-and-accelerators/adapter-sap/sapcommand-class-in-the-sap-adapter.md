@@ -19,41 +19,41 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="sapcommand-class-in-the-sap-adapter"></a>SAP 配接器在 SAPCommand 類別
-此命令會表示 SQL 查詢，以在 SAP 後端上執行。 [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)]目前支援 SELECT 和 EXEC 陳述式只。 SELECT 陳述式啟用從單一的 SAP 資料表擷取資料和 EXEC 陳述式可讓使用者在 SAP 伺服器上執行 Rfc。  
+# <a name="sapcommand-class-in-the-sap-adapter"></a><span data-ttu-id="22568-102">SAP 配接器在 SAPCommand 類別</span><span class="sxs-lookup"><span data-stu-id="22568-102">SAPCommand class in the SAP adapter</span></span>
+<span data-ttu-id="22568-103">此命令會表示 SQL 查詢，以在 SAP 後端上執行。</span><span class="sxs-lookup"><span data-stu-id="22568-103">This command represents a SQL query to be executed on the SAP backend.</span></span> <span data-ttu-id="22568-104">[!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)]目前支援 SELECT 和 EXEC 陳述式只。</span><span class="sxs-lookup"><span data-stu-id="22568-104">The [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] currently supports SELECT and EXEC statements only.</span></span> <span data-ttu-id="22568-105">SELECT 陳述式啟用從單一的 SAP 資料表擷取資料和 EXEC 陳述式可讓使用者在 SAP 伺服器上執行 Rfc。</span><span class="sxs-lookup"><span data-stu-id="22568-105">SELECT statements enable extraction of data from a single SAP table, and EXEC statements enable users to execute RFCs on the SAP server.</span></span>  
   
- 這衍生自**System.Data.Common.DbCommand**。  
+ <span data-ttu-id="22568-106">這衍生自**System.Data.Common.DbCommand**。</span><span class="sxs-lookup"><span data-stu-id="22568-106">This is derived from **System.Data.Common.DbCommand**.</span></span>  
   
-## <a name="supported-properties"></a>支援的屬性  
+## <a name="supported-properties"></a><span data-ttu-id="22568-107">支援的屬性</span><span class="sxs-lookup"><span data-stu-id="22568-107">Supported Properties</span></span>  
   
-|名稱|Get/Set|Description|  
+|<span data-ttu-id="22568-108">名稱</span><span class="sxs-lookup"><span data-stu-id="22568-108">Name</span></span>|<span data-ttu-id="22568-109">Get/Set</span><span class="sxs-lookup"><span data-stu-id="22568-109">Get/Set</span></span>|<span data-ttu-id="22568-110">Description</span><span class="sxs-lookup"><span data-stu-id="22568-110">Description</span></span>|  
 |----------|--------------|-----------------|  
-|**CommandText**|取得和設定|支援 SELECT 和 EXEC 陳述式。 如需 SELECT 陳述式的詳細資訊，請參閱[SAP 中的 SELECT 陳述式的語法](../../adapters-and-accelerators/adapter-sap/syntax-for-a-select-statement-in-sap.md)。 如需在 EXEC 陳述式的詳細資訊，請參閱[sap EXEC 陳述式的語法](../../adapters-and-accelerators/adapter-sap/syntax-for-an-exec-statement-in-sap.md)。|  
-|**CommandTimeout**|取得和設定|不支援。|  
-|**CommandType**|取得和設定|支援 CommandType.Text。|  
-|**連接**|取得和設定|此命令將執行基礎 SAP 連接。|  
-|**DesignTimeVisible**|Get|不支援。 傳回 false。|  
-|**參數**|Get|此命令使用的參數集合。|  
-|**UpdatedRowSource**|-|不支援。|  
+|<span data-ttu-id="22568-111">**CommandText**</span><span class="sxs-lookup"><span data-stu-id="22568-111">**CommandText**</span></span>|<span data-ttu-id="22568-112">取得和設定</span><span class="sxs-lookup"><span data-stu-id="22568-112">Get and Set</span></span>|<span data-ttu-id="22568-113">支援 SELECT 和 EXEC 陳述式。</span><span class="sxs-lookup"><span data-stu-id="22568-113">Supports SELECT and EXEC statements.</span></span> <span data-ttu-id="22568-114">如需 SELECT 陳述式的詳細資訊，請參閱[SAP 中的 SELECT 陳述式的語法](../../adapters-and-accelerators/adapter-sap/syntax-for-a-select-statement-in-sap.md)。</span><span class="sxs-lookup"><span data-stu-id="22568-114">For more information about the SELECT statement, see [Syntax for a SELECT Statement in SAP](../../adapters-and-accelerators/adapter-sap/syntax-for-a-select-statement-in-sap.md).</span></span> <span data-ttu-id="22568-115">如需在 EXEC 陳述式的詳細資訊，請參閱[sap EXEC 陳述式的語法](../../adapters-and-accelerators/adapter-sap/syntax-for-an-exec-statement-in-sap.md)。</span><span class="sxs-lookup"><span data-stu-id="22568-115">For more information about the EXEC statement, see [Syntax for an EXEC Statement in SAP](../../adapters-and-accelerators/adapter-sap/syntax-for-an-exec-statement-in-sap.md).</span></span>|  
+|<span data-ttu-id="22568-116">**CommandTimeout**</span><span class="sxs-lookup"><span data-stu-id="22568-116">**CommandTimeout**</span></span>|<span data-ttu-id="22568-117">取得和設定</span><span class="sxs-lookup"><span data-stu-id="22568-117">Get and Set</span></span>|<span data-ttu-id="22568-118">不支援。</span><span class="sxs-lookup"><span data-stu-id="22568-118">Not supported.</span></span>|  
+|<span data-ttu-id="22568-119">**CommandType**</span><span class="sxs-lookup"><span data-stu-id="22568-119">**CommandType**</span></span>|<span data-ttu-id="22568-120">取得和設定</span><span class="sxs-lookup"><span data-stu-id="22568-120">Get and Set</span></span>|<span data-ttu-id="22568-121">支援 CommandType.Text。</span><span class="sxs-lookup"><span data-stu-id="22568-121">CommandType.Text supported.</span></span>|  
+|<span data-ttu-id="22568-122">**連接**</span><span class="sxs-lookup"><span data-stu-id="22568-122">**Connection**</span></span>|<span data-ttu-id="22568-123">取得和設定</span><span class="sxs-lookup"><span data-stu-id="22568-123">Get and Set</span></span>|<span data-ttu-id="22568-124">此命令將執行基礎 SAP 連接。</span><span class="sxs-lookup"><span data-stu-id="22568-124">The underlying SAP connection on which the command will be executed.</span></span>|  
+|<span data-ttu-id="22568-125">**DesignTimeVisible**</span><span class="sxs-lookup"><span data-stu-id="22568-125">**DesignTimeVisible**</span></span>|<span data-ttu-id="22568-126">Get</span><span class="sxs-lookup"><span data-stu-id="22568-126">Get</span></span>|<span data-ttu-id="22568-127">不支援。</span><span class="sxs-lookup"><span data-stu-id="22568-127">Not supported.</span></span> <span data-ttu-id="22568-128">傳回 false。</span><span class="sxs-lookup"><span data-stu-id="22568-128">Returns false.</span></span>|  
+|<span data-ttu-id="22568-129">**參數**</span><span class="sxs-lookup"><span data-stu-id="22568-129">**Parameters**</span></span>|<span data-ttu-id="22568-130">Get</span><span class="sxs-lookup"><span data-stu-id="22568-130">Get</span></span>|<span data-ttu-id="22568-131">此命令使用的參數集合。</span><span class="sxs-lookup"><span data-stu-id="22568-131">Parameter collection used for this command.</span></span>|  
+|<span data-ttu-id="22568-132">**UpdatedRowSource**</span><span class="sxs-lookup"><span data-stu-id="22568-132">**UpdatedRowSource**</span></span>|-|<span data-ttu-id="22568-133">不支援。</span><span class="sxs-lookup"><span data-stu-id="22568-133">Not supported.</span></span>|  
   
-## <a name="supported-methods"></a>支援的方法  
+## <a name="supported-methods"></a><span data-ttu-id="22568-134">支援的方法</span><span class="sxs-lookup"><span data-stu-id="22568-134">Supported Methods</span></span>  
   
-|名稱|Description|  
+|<span data-ttu-id="22568-135">名稱</span><span class="sxs-lookup"><span data-stu-id="22568-135">Name</span></span>|<span data-ttu-id="22568-136">Description</span><span class="sxs-lookup"><span data-stu-id="22568-136">Description</span></span>|  
 |----------|-----------------|  
-|**Cancel （)**|擷取批次中的資料時，取消命令。 擷取批次後，會發生取消。|  
-|**Executenonquery （)**|不會輸出所有的 DataReader。 不過，值將可透過繫結參數。|  
-|**Executereader （)**|輸出與所有匯出的複雜型別和參數資料表的 DataReader 為結果集。 您也可以透過繫結參數取得的值。|  
-|**ExecuteReader(CommandBehavior)**|CommandBehaviors 支援如下：<br /><br /> 預設<br />-SingleResult<br />-SingleRow<br />-SchemaOnly|  
-|**Executescalar （)**|對應至：<br /><br /> -CommandBehaviour.SingleRow SELECT 陳述式。<br />-CommandBehaviour.SingleResult EXEC 陳述式。|  
-|**Prepare()**|-EXEC 支援繫結參數。<br />-選取支援繫結參數。|  
+|<span data-ttu-id="22568-137">**Cancel （)**</span><span class="sxs-lookup"><span data-stu-id="22568-137">**Cancel()**</span></span>|<span data-ttu-id="22568-138">擷取批次中的資料時，取消命令。</span><span class="sxs-lookup"><span data-stu-id="22568-138">Cancels the command while retrieving data in batches.</span></span> <span data-ttu-id="22568-139">擷取批次後，會發生取消。</span><span class="sxs-lookup"><span data-stu-id="22568-139">Cancellation happens after a batch is retrieved.</span></span>|  
+|<span data-ttu-id="22568-140">**Executenonquery （)**</span><span class="sxs-lookup"><span data-stu-id="22568-140">**ExecuteNonQuery()**</span></span>|<span data-ttu-id="22568-141">不會輸出所有的 DataReader。</span><span class="sxs-lookup"><span data-stu-id="22568-141">Does not output any DataReader.</span></span> <span data-ttu-id="22568-142">不過，值將可透過繫結參數。</span><span class="sxs-lookup"><span data-stu-id="22568-142">However, values will be available via bound parameters.</span></span>|  
+|<span data-ttu-id="22568-143">**Executereader （)**</span><span class="sxs-lookup"><span data-stu-id="22568-143">**ExecuteReader()**</span></span>|<span data-ttu-id="22568-144">輸出與所有匯出的複雜型別和參數資料表的 DataReader 為結果集。</span><span class="sxs-lookup"><span data-stu-id="22568-144">Outputs a DataReader with all complex type Export and Table parameters as resultsets.</span></span> <span data-ttu-id="22568-145">您也可以透過繫結參數取得的值。</span><span class="sxs-lookup"><span data-stu-id="22568-145">The values can also be obtained via bound parameters.</span></span>|  
+|<span data-ttu-id="22568-146">**ExecuteReader(CommandBehavior)**</span><span class="sxs-lookup"><span data-stu-id="22568-146">**ExecuteReader(CommandBehavior)**</span></span>|<span data-ttu-id="22568-147">CommandBehaviors 支援如下：</span><span class="sxs-lookup"><span data-stu-id="22568-147">CommandBehaviors supported are:</span></span><br /><br /> <span data-ttu-id="22568-148">預設</span><span class="sxs-lookup"><span data-stu-id="22568-148">-   Default</span></span><br /><span data-ttu-id="22568-149">-SingleResult</span><span class="sxs-lookup"><span data-stu-id="22568-149">-   SingleResult</span></span><br /><span data-ttu-id="22568-150">-SingleRow</span><span class="sxs-lookup"><span data-stu-id="22568-150">-   SingleRow</span></span><br /><span data-ttu-id="22568-151">-SchemaOnly</span><span class="sxs-lookup"><span data-stu-id="22568-151">-   SchemaOnly</span></span>|  
+|<span data-ttu-id="22568-152">**Executescalar （)**</span><span class="sxs-lookup"><span data-stu-id="22568-152">**ExecuteScalar()**</span></span>|<span data-ttu-id="22568-153">對應至：</span><span class="sxs-lookup"><span data-stu-id="22568-153">Maps to:</span></span><br /><br /> <span data-ttu-id="22568-154">-CommandBehaviour.SingleRow SELECT 陳述式。</span><span class="sxs-lookup"><span data-stu-id="22568-154">-   CommandBehaviour.SingleRow for SELECT statements.</span></span><br /><span data-ttu-id="22568-155">-CommandBehaviour.SingleResult EXEC 陳述式。</span><span class="sxs-lookup"><span data-stu-id="22568-155">-   CommandBehaviour.SingleResult for EXEC statements.</span></span>|  
+|<span data-ttu-id="22568-156">**Prepare()**</span><span class="sxs-lookup"><span data-stu-id="22568-156">**Prepare()**</span></span>|<span data-ttu-id="22568-157">-EXEC 支援繫結參數。</span><span class="sxs-lookup"><span data-stu-id="22568-157">-   EXEC supports bind parameters.</span></span><br /><span data-ttu-id="22568-158">-選取支援繫結參數。</span><span class="sxs-lookup"><span data-stu-id="22568-158">-   SELECT supports bind parameters.</span></span>|  
   
-## <a name="supported-constructors"></a>支援的建構函式  
+## <a name="supported-constructors"></a><span data-ttu-id="22568-159">支援的建構函式</span><span class="sxs-lookup"><span data-stu-id="22568-159">Supported Constructors</span></span>  
   
-|名稱|Description|  
+|<span data-ttu-id="22568-160">名稱</span><span class="sxs-lookup"><span data-stu-id="22568-160">Name</span></span>|<span data-ttu-id="22568-161">Description</span><span class="sxs-lookup"><span data-stu-id="22568-161">Description</span></span>|  
 |----------|-----------------|  
-|**SAPCommand()**|建立 SAPCommand 的新執行個體。|  
-|**SAPCommand(string)**|SAPCommand 與命令文字。|  
-|**SAPCommand （字串、 SAPConnection）**|此命令將執行的命令文字與 SAPConnection 物件使用 SAPCommand|  
+|<span data-ttu-id="22568-162">**SAPCommand()**</span><span class="sxs-lookup"><span data-stu-id="22568-162">**SAPCommand()**</span></span>|<span data-ttu-id="22568-163">建立 SAPCommand 的新執行個體。</span><span class="sxs-lookup"><span data-stu-id="22568-163">Create a new instance of SAPCommand.</span></span>|  
+|<span data-ttu-id="22568-164">**SAPCommand(string)**</span><span class="sxs-lookup"><span data-stu-id="22568-164">**SAPCommand(string)**</span></span>|<span data-ttu-id="22568-165">SAPCommand 與命令文字。</span><span class="sxs-lookup"><span data-stu-id="22568-165">SAPCommand with command text.</span></span>|  
+|<span data-ttu-id="22568-166">**SAPCommand （字串、 SAPConnection）**</span><span class="sxs-lookup"><span data-stu-id="22568-166">**SAPCommand(string, SAPConnection)**</span></span>|<span data-ttu-id="22568-167">此命令將執行的命令文字與 SAPConnection 物件使用 SAPCommand</span><span class="sxs-lookup"><span data-stu-id="22568-167">SAPCommand with command text and the SAPConnection object using which the command will be executed</span></span>|  
   
-## <a name="see-also"></a>另請參閱  
- [SAP 配接器以延伸的 ADO.NET 介面](../../adapters-and-accelerators/adapter-sap/extend-ado-net-interfaces-with-the-sap-adapter.md)
+## <a name="see-also"></a><span data-ttu-id="22568-168">另請參閱</span><span class="sxs-lookup"><span data-stu-id="22568-168">See Also</span></span>  
+ [<span data-ttu-id="22568-169">SAP 配接器以延伸的 ADO.NET 介面</span><span class="sxs-lookup"><span data-stu-id="22568-169">Extend ADO.NET Interfaces with the SAP adapter</span></span>](../../adapters-and-accelerators/adapter-sap/extend-ado-net-interfaces-with-the-sap-adapter.md)

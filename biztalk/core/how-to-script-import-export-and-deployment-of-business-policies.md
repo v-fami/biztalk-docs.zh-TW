@@ -30,10 +30,10 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="how-to-script-import-export-and-deployment-of-business-policies"></a>如何編寫指令碼匯入匯出和部署商務原則
-本章節描述如何以程式設計方式匯入/匯出以及部署原則使用**RuleSetDeploymentDriver**。  
+# <a name="how-to-script-import-export-and-deployment-of-business-policies"></a><span data-ttu-id="cf0ca-102">如何編寫指令碼匯入匯出和部署商務原則</span><span class="sxs-lookup"><span data-stu-id="cf0ca-102">How to Script Import-Export and Deployment of Business Policies</span></span>
+<span data-ttu-id="cf0ca-103">本章節描述如何以程式設計方式匯入/匯出以及部署原則使用**RuleSetDeploymentDriver**。</span><span class="sxs-lookup"><span data-stu-id="cf0ca-103">This section describes how to programmatically import/export and deploy policies using **RuleSetDeploymentDriver**.</span></span>  
   
- 下面範例將顯示如何將原則匯出到檔案。  
+ <span data-ttu-id="cf0ca-104">下面範例將顯示如何將原則匯出到檔案。</span><span class="sxs-lookup"><span data-stu-id="cf0ca-104">The following example shows how to export a policy to a file.</span></span>  
   
 ```  
 using System;  
@@ -64,7 +64,7 @@ namespace SimpleExport
 }  
 ```  
   
- 下面範例將顯示如何從檔案匯入和部署原則。  
+ <span data-ttu-id="cf0ca-105">下面範例將顯示如何從檔案匯入和部署原則。</span><span class="sxs-lookup"><span data-stu-id="cf0ca-105">The following example shows how you can import and deploy a policy from a file.</span></span>  
   
 ```  
 using System;  
@@ -96,4 +96,4 @@ namespace SimpleImport
 ```  
   
 > [!NOTE]
->  此程式碼假設詞彙之間沒有相依性；若原則使用詞彙，必須先匯入這些詞彙。
+>  <span data-ttu-id="cf0ca-106">此程式碼假設詞彙之間沒有相依性；若原則使用詞彙，必須先匯入這些詞彙。</span><span class="sxs-lookup"><span data-stu-id="cf0ca-106">The code assumes no dependencies on vocabularies; if the policy uses vocabularies they must be imported first.</span></span>

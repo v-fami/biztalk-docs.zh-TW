@@ -18,19 +18,19 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="address-errors"></a>解決錯誤
-本節包含診斷及解決 WCF 解決錯誤的詳細的資訊。  
+# <a name="address-errors"></a><span data-ttu-id="c8605-102">解決錯誤</span><span class="sxs-lookup"><span data-stu-id="c8605-102">Address Errors</span></span>
+<span data-ttu-id="c8605-103">本節包含診斷及解決 WCF 解決錯誤的詳細的資訊。</span><span class="sxs-lookup"><span data-stu-id="c8605-103">This section contains detailed information for diagnosing and resolving WCF Address errors.</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="c8605-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="c8605-104">In This Section</span></span>  
   
--   [無效的位址 (也就是絕對 uri)](../core/invalid-address-absolute-uri.md)  
+-   [<span data-ttu-id="c8605-105">無效的位址 (也就是絕對 uri)</span><span class="sxs-lookup"><span data-stu-id="c8605-105">Invalid address (absolute uri)</span></span>](../core/invalid-address-absolute-uri.md)  
   
--   [無效的位址 (相對 uri 需要斜線 （"/"）)](../core/invalid-address-relative-uri-needs-slash.md)  
+-   [<span data-ttu-id="c8605-106">無效的位址 (相對 uri 需要斜線 （"/"）)</span><span class="sxs-lookup"><span data-stu-id="c8605-106">Invalid address (relative uri needs slash ("/"))</span></span>](../core/invalid-address-relative-uri-needs-slash.md)  
   
--   [無效的位址 (相對 uri)](../core/invalid-address-relative-uri.md)  
+-   [<span data-ttu-id="c8605-107">無效的位址 (相對 uri)</span><span class="sxs-lookup"><span data-stu-id="c8605-107">Invalid address (relative uri)</span></span>](../core/invalid-address-relative-uri.md)  
   
--   [無效的位址長度](../core/invalid-address-length.md)  
+-   [<span data-ttu-id="c8605-108">無效的位址長度</span><span class="sxs-lookup"><span data-stu-id="c8605-108">Invalid address length</span></span>](../core/invalid-address-length.md)  
   
--   [無效的位址配置](../core/invalid-address-scheme.md)  
+-   [<span data-ttu-id="c8605-109">無效的位址配置</span><span class="sxs-lookup"><span data-stu-id="c8605-109">Invalid address scheme</span></span>](../core/invalid-address-scheme.md)  
   
--   [無效的 proxy 位址](../core/invalid-proxy-address-for-send-handler-and-send-port.md)
+-   [<span data-ttu-id="c8605-110">無效的 proxy 位址</span><span class="sxs-lookup"><span data-stu-id="c8605-110">Invalid proxy address</span></span>](../core/invalid-proxy-address-for-send-handler-and-send-port.md)

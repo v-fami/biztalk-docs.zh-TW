@@ -24,19 +24,19 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="how-to-construct-a-web-message-with-no-message-parts"></a>如何建構不含訊息部分的 Web 訊息
-不含訊息部分的 Web 訊息是沒有輸入參數的方法。  
+# <a name="how-to-construct-a-web-message-with-no-message-parts"></a><span data-ttu-id="4f25b-102">如何建構不含訊息部分的 Web 訊息</span><span class="sxs-lookup"><span data-stu-id="4f25b-102">How to Construct a Web Message with No Message Parts</span></span>
+<span data-ttu-id="4f25b-103">不含訊息部分的 Web 訊息是沒有輸入參數的方法。</span><span class="sxs-lookup"><span data-stu-id="4f25b-103">A Web message that does not have message parts is a method that does not have input parameters.</span></span>  
   
-### <a name="to-construct-a-web-message-that-does-not-have-message-parts"></a>若要建構不含訊息部分的 Web 訊息  
+### <a name="to-construct-a-web-message-that-does-not-have-message-parts"></a><span data-ttu-id="4f25b-104">若要建構不含訊息部分的 Web 訊息</span><span class="sxs-lookup"><span data-stu-id="4f25b-104">To construct a Web message that does not have message parts</span></span>  
   
-1.  開啟協調流程，開啟**工具箱**按一下**BizTalk 協調流程** 索引標籤。  
+1.  <span data-ttu-id="4f25b-105">開啟協調流程，開啟**工具箱**按一下**BizTalk 協調流程** 索引標籤。</span><span class="sxs-lookup"><span data-stu-id="4f25b-105">With an orchestration open, open the **Toolbox** and click the **BizTalk Orchestrations** tab.</span></span>  
   
-2.  新增**建構訊息**圖形。  
+2.  <span data-ttu-id="4f25b-106">新增**建構訊息**圖形。</span><span class="sxs-lookup"><span data-stu-id="4f25b-106">Add a **Construct Message** shape.</span></span>  
   
-3.  選取訊息**建構訊息**圖形。  
+3.  <span data-ttu-id="4f25b-107">選取訊息**建構訊息**圖形。</span><span class="sxs-lookup"><span data-stu-id="4f25b-107">Select the message for the **Construct Message** shape.</span></span>  
   
 > [!NOTE]
->  您不需要有**訊息指派**圖形放**建構訊息**圖形。  
+>  <span data-ttu-id="4f25b-108">您不需要有**訊息指派**圖形放**建構訊息**圖形。</span><span class="sxs-lookup"><span data-stu-id="4f25b-108">You are not required to have the **Message Assignment** shape inside the **Construct Message** shape.</span></span>  
   
-## <a name="see-also"></a>另請參閱  
- [建構 Web 訊息](../core/constructing-web-messages.md)
+## <a name="see-also"></a><span data-ttu-id="4f25b-109">另請參閱</span><span class="sxs-lookup"><span data-stu-id="4f25b-109">See Also</span></span>  
+ [<span data-ttu-id="4f25b-110">建構 Web 訊息</span><span class="sxs-lookup"><span data-stu-id="4f25b-110">Constructing Web Messages</span></span>](../core/constructing-web-messages.md)

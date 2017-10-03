@@ -19,15 +19,15 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---property-schema-field-data-type-not-valid"></a>錯誤-無效的屬性結構描述欄位資料型別
-**錯誤碼**  
+# <a name="error---property-schema-field-data-type-not-valid"></a><span data-ttu-id="7c505-102">錯誤-無效的屬性結構描述欄位資料型別</span><span class="sxs-lookup"><span data-stu-id="7c505-102">Error - Property Schema Field Data Type Not Valid</span></span>
+<span data-ttu-id="7c505-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="7c505-103">**Error Code**</span></span>  
   
- BEC2010  
+ <span data-ttu-id="7c505-104">BEC2010</span><span class="sxs-lookup"><span data-stu-id="7c505-104">BEC2010</span></span>  
   
- **說明**  
+ <span data-ttu-id="7c505-105">**說明**</span><span class="sxs-lookup"><span data-stu-id="7c505-105">**Explanation**</span></span>  
   
- **資料型別**屬性**欄位項目**屬性結構描述中的節點必須設定為其中一種指定的資料類型。 因為屬性升級僅限於這些型別的資料，您無法在屬性結構描述中使用其他資料型別。  
+ <span data-ttu-id="7c505-106">**資料型別**屬性**欄位項目**屬性結構描述中的節點必須設定為其中一種指定的資料類型。</span><span class="sxs-lookup"><span data-stu-id="7c505-106">The **Data Type** property of **Field Element** nodes in property schemas must be set to one of the indicated data types.</span></span> <span data-ttu-id="7c505-107">因為屬性升級僅限於這些型別的資料，您無法在屬性結構描述中使用其他資料型別。</span><span class="sxs-lookup"><span data-stu-id="7c505-107">Because property promotion is limited to data of these types only, you cannot use other data types in property schemas.</span></span>  
   
- **使用者動作**  
+ <span data-ttu-id="7c505-108">**使用者動作**</span><span class="sxs-lookup"><span data-stu-id="7c505-108">**User Action**</span></span>  
   
- 選取指定**欄位項目** 節點，然後在 Microsoft[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]屬性視窗中，變更**資料型別**其中一種指定的資料類型的屬性。
+ <span data-ttu-id="7c505-109">選取指定**欄位項目** 節點，然後在 Microsoft[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]屬性視窗中，變更**資料型別**其中一種指定的資料類型的屬性。</span><span class="sxs-lookup"><span data-stu-id="7c505-109">Select the indicated **Field Element** node, and then in the Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Properties window, change the **Data Type** property to one of the indicated data types.</span></span>

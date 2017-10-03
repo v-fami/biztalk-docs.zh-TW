@@ -18,23 +18,23 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="fileact-adapter-architecture"></a>FileAct 配接器架構
-本節包含有關架構 FileAct 配接器的資訊。  
+# <a name="fileact-adapter-architecture"></a><span data-ttu-id="f9a7a-102">FileAct 配接器架構</span><span class="sxs-lookup"><span data-stu-id="f9a7a-102">FileAct Adapter Architecture</span></span>
+<span data-ttu-id="f9a7a-103">本節包含有關架構 FileAct 配接器的資訊。</span><span class="sxs-lookup"><span data-stu-id="f9a7a-103">This section contains information about the architecture of the FileAct adapter.</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="f9a7a-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="f9a7a-104">In This Section</span></span>  
   
--   [FileAct 配接器即時的端對端原型](../../adapters-and-accelerators/fileact-interact/fileact-adapter-real-time-end-to-end-primitives.md)  
+-   [<span data-ttu-id="f9a7a-105">FileAct 配接器即時的端對端原型</span><span class="sxs-lookup"><span data-stu-id="f9a7a-105">FileAct Adapter Real-Time End-to-End Primitives</span></span>](../../adapters-and-accelerators/fileact-interact/fileact-adapter-real-time-end-to-end-primitives.md)  
   
--   [FileAct 配接器即時區域基本型別](../../adapters-and-accelerators/fileact-interact/fileact-adapter-real-time-local-primitives.md)  
+-   [<span data-ttu-id="f9a7a-106">FileAct 配接器即時區域基本型別</span><span class="sxs-lookup"><span data-stu-id="f9a7a-106">FileAct Adapter Real-Time Local Primitives</span></span>](../../adapters-and-accelerators/fileact-interact/fileact-adapter-real-time-local-primitives.md)  
   
--   [FileAct 配接器儲存與轉送](../../adapters-and-accelerators/fileact-interact/fileact-adapter-store-and-forward.md)  
+-   [<span data-ttu-id="f9a7a-107">FileAct 配接器儲存與轉送</span><span class="sxs-lookup"><span data-stu-id="f9a7a-107">FileAct Adapter Store and Forward</span></span>](../../adapters-and-accelerators/fileact-interact/fileact-adapter-store-and-forward.md)  
   
--   [FileAct 配接器安全性架構](../../adapters-and-accelerators/fileact-interact/fileact-adapter-security-architecture.md)  
+-   [<span data-ttu-id="f9a7a-108">FileAct 配接器安全性架構</span><span class="sxs-lookup"><span data-stu-id="f9a7a-108">FileAct Adapter Security Architecture</span></span>](../../adapters-and-accelerators/fileact-interact/fileact-adapter-security-architecture.md)  
   
--   [FileAct 配接器檔案和傳輸識別碼](../../adapters-and-accelerators/fileact-interact/fileact-adapter-file-and-transfer-identification.md)  
+-   [<span data-ttu-id="f9a7a-109">FileAct 配接器檔案和傳輸識別碼</span><span class="sxs-lookup"><span data-stu-id="f9a7a-109">FileAct Adapter File and Transfer Identification</span></span>](../../adapters-and-accelerators/fileact-interact/fileact-adapter-file-and-transfer-identification.md)  
   
--   [FileAct 配接器支援資訊傳輸](../../adapters-and-accelerators/fileact-interact/fileact-adapter-supporting-information-transfer.md)  
+-   [<span data-ttu-id="f9a7a-110">FileAct 配接器支援資訊傳輸</span><span class="sxs-lookup"><span data-stu-id="f9a7a-110">FileAct Adapter Supporting Information Transfer</span></span>](../../adapters-and-accelerators/fileact-interact/fileact-adapter-supporting-information-transfer.md)  
   
--   [FileAct 配接器傳遞通知](../../adapters-and-accelerators/fileact-interact/fileact-adapter-delivery-notification.md)  
+-   [<span data-ttu-id="f9a7a-111">FileAct 配接器傳遞通知</span><span class="sxs-lookup"><span data-stu-id="f9a7a-111">FileAct Adapter Delivery Notification</span></span>](../../adapters-and-accelerators/fileact-interact/fileact-adapter-delivery-notification.md)  
   
--   [FileAct 配接器狀態監視](../../adapters-and-accelerators/fileact-interact/fileact-adapter-status-monitoring.md)
+-   [<span data-ttu-id="f9a7a-112">FileAct 配接器狀態監視</span><span class="sxs-lookup"><span data-stu-id="f9a7a-112">FileAct Adapter Status Monitoring</span></span>](../../adapters-and-accelerators/fileact-interact/fileact-adapter-status-monitoring.md)

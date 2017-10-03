@@ -19,15 +19,15 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---input-validation"></a>錯誤-輸入驗證
-**錯誤碼**  
+# <a name="error---input-validation"></a><span data-ttu-id="6ac6e-102">錯誤-輸入驗證</span><span class="sxs-lookup"><span data-stu-id="6ac6e-102">Error - Input Validation</span></span>
+<span data-ttu-id="6ac6e-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="6ac6e-103">**Error Code**</span></span>  
   
- btm1044  
+ <span data-ttu-id="6ac6e-104">btm1044</span><span class="sxs-lookup"><span data-stu-id="6ac6e-104">btm1044</span></span>  
   
- **說明**  
+ <span data-ttu-id="6ac6e-105">**說明**</span><span class="sxs-lookup"><span data-stu-id="6ac6e-105">**Explanation**</span></span>  
   
- 由於指出的原因，無法驗證「測試對應」作業指定的輸入執行個體訊息檔案是否符合來源結構描述。  
+ <span data-ttu-id="6ac6e-106">由於指出的原因，無法驗證「測試對應」作業指定的輸入執行個體訊息檔案是否符合來源結構描述。</span><span class="sxs-lookup"><span data-stu-id="6ac6e-106">The input instance message file specified for the Test Map operation could not be validated against the source schema for the indicated reason.</span></span>  
   
- **使用者動作**  
+ <span data-ttu-id="6ac6e-107">**使用者動作**</span><span class="sxs-lookup"><span data-stu-id="6ac6e-107">**User Action**</span></span>  
   
- 根據指出的原因，適當更正輸入執行個體訊息檔案或來源結構描述，或兩者。 可能會很有幫助，BizTalk 編輯器中開啟來源結構描述，並使用**驗證結構描述**和**產生執行個體**可用，當您以滑鼠右鍵按一下 [方案總管] 中的結構描述的命令。
+ <span data-ttu-id="6ac6e-108">根據指出的原因，適當更正輸入執行個體訊息檔案或來源結構描述，或兩者。</span><span class="sxs-lookup"><span data-stu-id="6ac6e-108">Based on the indicated reason, make the appropriate corrections to either the input instance message file or to the source schema, or to both.</span></span> <span data-ttu-id="6ac6e-109">可能會很有幫助，BizTalk 編輯器中開啟來源結構描述，並使用**驗證結構描述**和**產生執行個體**可用，當您以滑鼠右鍵按一下 [方案總管] 中的結構描述的命令。</span><span class="sxs-lookup"><span data-stu-id="6ac6e-109">It may be helpful to open the source schema in BizTalk Editor and use the **Validate Schema** and **Generate Instance** commands available when you right-click a schema in Solution Explorer.</span></span>

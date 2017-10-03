@@ -21,13 +21,13 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="utilities"></a>公用程式
-本節提供使用數種有用的公用程式中包含的指示[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]軟體開發套件 (SDK)。  
+# <a name="utilities"></a><span data-ttu-id="8c19b-102">公用程式</span><span class="sxs-lookup"><span data-stu-id="8c19b-102">Utilities</span></span>
+<span data-ttu-id="8c19b-103">本節提供使用數種有用的公用程式中包含的指示[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]軟體開發套件 (SDK)。</span><span class="sxs-lookup"><span data-stu-id="8c19b-103">This section provides instructions for using several useful utilities included in the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] Software Development Kit (SDK).</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="8c19b-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="8c19b-104">In This Section</span></span>  
   
--   [MllpSend 工具](../../adapters-and-accelerators/accelerator-hl7/mllpsend-tool.md)  
+-   [<span data-ttu-id="8c19b-105">MllpSend 工具</span><span class="sxs-lookup"><span data-stu-id="8c19b-105">MllpSend Tool</span></span>](../../adapters-and-accelerators/accelerator-hl7/mllpsend-tool.md)  
   
--   [MllpReceive 工具](../../adapters-and-accelerators/accelerator-hl7/mllpreceive-tool.md)  
+-   [<span data-ttu-id="8c19b-106">MllpReceive 工具</span><span class="sxs-lookup"><span data-stu-id="8c19b-106">MllpReceive Tool</span></span>](../../adapters-and-accelerators/accelerator-hl7/mllpreceive-tool.md)  
   
--   [Update2XMLSchema 工具](../../adapters-and-accelerators/accelerator-hl7/update2xmlschema-tool.md)
+-   [<span data-ttu-id="8c19b-107">Update2XMLSchema 工具</span><span class="sxs-lookup"><span data-stu-id="8c19b-107">Update2XMLSchema Tool</span></span>](../../adapters-and-accelerators/accelerator-hl7/update2xmlschema-tool.md)

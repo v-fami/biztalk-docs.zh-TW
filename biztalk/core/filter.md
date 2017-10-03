@@ -18,20 +18,20 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="filter"></a>篩選
-`Filter` 項目包含會評估為 `Expression` 或 `true` 的 `false`，並決定何時應該處理事件或略過事件。  
+# <a name="filter"></a><span data-ttu-id="0e936-102">篩選</span><span class="sxs-lookup"><span data-stu-id="0e936-102">Filter</span></span>
+<span data-ttu-id="0e936-103">`Filter` 項目包含會評估為 `Expression` 或 `true` 的 `false`，並決定何時應該處理事件或略過事件。</span><span class="sxs-lookup"><span data-stu-id="0e936-103">The `Filter` element contains an `Expression` that evaluates to `true` or `false` and determines when an event should be processed or skipped.</span></span>  
   
-## <a name="format"></a>格式  
+## <a name="format"></a><span data-ttu-id="0e936-104">格式</span><span class="sxs-lookup"><span data-stu-id="0e936-104">Format</span></span>  
   
 ```  
 <ic:Filter>  
 </ic:Filter>  
 ```  
   
-## <a name="remarks"></a>備註  
+## <a name="remarks"></a><span data-ttu-id="0e936-105">備註</span><span class="sxs-lookup"><span data-stu-id="0e936-105">Remarks</span></span>  
   
-## <a name="example"></a>範例  
- 下列範例會定義篩選，這個篩選會在與事件相關聯之工作流程的使用者金鑰等於 "DocumentUrl" 時評估為 `true`：  
+## <a name="example"></a><span data-ttu-id="0e936-106">範例</span><span class="sxs-lookup"><span data-stu-id="0e936-106">Example</span></span>  
+ <span data-ttu-id="0e936-107">下列範例會定義篩選，這個篩選會在與事件相關聯之工作流程的使用者金鑰等於 "DocumentUrl" 時評估為 `true`：</span><span class="sxs-lookup"><span data-stu-id="0e936-107">The following example defines a filter that evaluates to `true` when the user key for the workflow associated with the event equals "DocumentUrl":</span></span>  
   
 ```  
 <ic:Filter>  
@@ -45,5 +45,5 @@ ms.lasthandoff: 09/20/2017
 </ic:Filter>  
 ```  
   
-## <a name="see-also"></a>另請參閱  
- [攔截器 OnEvent 項目](../core/interceptor-onevent-element.md)
+## <a name="see-also"></a><span data-ttu-id="0e936-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="0e936-108">See Also</span></span>  
+ [<span data-ttu-id="0e936-109">攔截器 OnEvent 項目</span><span class="sxs-lookup"><span data-stu-id="0e936-109">Interceptor OnEvent Element</span></span>](../core/interceptor-onevent-element.md)

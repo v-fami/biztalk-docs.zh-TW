@@ -18,11 +18,11 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="create-the-tutorial-folder"></a>建立的教學課程的資料夾
-建立下列資料夾，請使用[!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)]總管：  
+# <a name="create-the-tutorial-folder"></a><span data-ttu-id="d1ee4-102">建立的教學課程的資料夾</span><span class="sxs-lookup"><span data-stu-id="d1ee4-102">Create the Tutorial Folder</span></span>
+<span data-ttu-id="d1ee4-103">建立下列資料夾，請使用[!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)]總管：</span><span class="sxs-lookup"><span data-stu-id="d1ee4-103">Create the following folder using [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer:</span></span>  
   
--   \<*磁碟機*: > \Program Files\Microsoft BizTalk\<版本 > Accelerator for HL7\SDK\Interrogative 教學課程  
+-   <span data-ttu-id="d1ee4-104">\<*磁碟機*: > \Program Files\Microsoft BizTalk\<版本 > Accelerator for HL7\SDK\Interrogative 教學課程</span><span class="sxs-lookup"><span data-stu-id="d1ee4-104">\<*drive*:>\Program Files\Microsoft BizTalk \<version> Accelerator for HL7\SDK\Interrogative Tutorial</span></span>  
   
-     您可以使用此資料夾來儲存在此案例中的機碼、 查詢、 回應和您使用的通知檔案。  
+     <span data-ttu-id="d1ee4-105">您可以使用此資料夾來儲存在此案例中的機碼、 查詢、 回應和您使用的通知檔案。</span><span class="sxs-lookup"><span data-stu-id="d1ee4-105">You use this folder to store the key, query, response, and acknowledgment files that you use in this scenario.</span></span>  
   
- 若要繼續[建立 QRY^Q01.txt 檔案](../../adapters-and-accelerators/accelerator-hl7/create-the-qry-q01-txt-file.md)。
+ <span data-ttu-id="d1ee4-106">若要繼續[建立 QRY^Q01.txt 檔案](../../adapters-and-accelerators/accelerator-hl7/create-the-qry-q01-txt-file.md)。</span><span class="sxs-lookup"><span data-stu-id="d1ee4-106">Proceed to [Create the QRY^Q01.txt File](../../adapters-and-accelerators/accelerator-hl7/create-the-qry-q01-txt-file.md).</span></span>

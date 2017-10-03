@@ -18,25 +18,25 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="outboundcustomheaders-does-not-have-correct-format"></a>OutboundCustomHeaders 沒有正確的格式
-## <a name="details"></a>詳細資料  
+# <a name="outboundcustomheaders-does-not-have-correct-format"></a><span data-ttu-id="40974-102">OutboundCustomHeaders 沒有正確的格式</span><span class="sxs-lookup"><span data-stu-id="40974-102">OutboundCustomHeaders does not have correct format</span></span>
+## <a name="details"></a><span data-ttu-id="40974-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="40974-103">Details</span></span>  
   
 |||  
 |-|-|  
-|產品名稱|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|產品版本|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|事件識別碼|0|  
-|事件來源|0|  
-|元件|0|  
-|符號名稱|0|  
-|訊息文字|OutboundCustomHeaders 沒有正確的格式|  
+|<span data-ttu-id="40974-104">產品名稱</span><span class="sxs-lookup"><span data-stu-id="40974-104">Product Name</span></span>|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
+|<span data-ttu-id="40974-105">產品版本</span><span class="sxs-lookup"><span data-stu-id="40974-105">Product Version</span></span>|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
+|<span data-ttu-id="40974-106">事件識別碼</span><span class="sxs-lookup"><span data-stu-id="40974-106">Event ID</span></span>|<span data-ttu-id="40974-107">0</span><span class="sxs-lookup"><span data-stu-id="40974-107">0</span></span>|  
+|<span data-ttu-id="40974-108">事件來源</span><span class="sxs-lookup"><span data-stu-id="40974-108">Event Source</span></span>|<span data-ttu-id="40974-109">0</span><span class="sxs-lookup"><span data-stu-id="40974-109">0</span></span>|  
+|<span data-ttu-id="40974-110">元件</span><span class="sxs-lookup"><span data-stu-id="40974-110">Component</span></span>|<span data-ttu-id="40974-111">0</span><span class="sxs-lookup"><span data-stu-id="40974-111">0</span></span>|  
+|<span data-ttu-id="40974-112">符號名稱</span><span class="sxs-lookup"><span data-stu-id="40974-112">Symbolic Name</span></span>|<span data-ttu-id="40974-113">0</span><span class="sxs-lookup"><span data-stu-id="40974-113">0</span></span>|  
+|<span data-ttu-id="40974-114">訊息文字</span><span class="sxs-lookup"><span data-stu-id="40974-114">Message Text</span></span>|<span data-ttu-id="40974-115">OutboundCustomHeaders 沒有正確的格式</span><span class="sxs-lookup"><span data-stu-id="40974-115">OutboundCustomHeaders does not have a correct format</span></span>|  
   
-## <a name="explanation"></a>說明  
- WCF 的值。InboundHeaders 或 WCF。OutboundCustomHeaders 不是以下列格式：\<標頭 >...\</headers >。  
+## <a name="explanation"></a><span data-ttu-id="40974-116">說明</span><span class="sxs-lookup"><span data-stu-id="40974-116">Explanation</span></span>  
+ <span data-ttu-id="40974-117">WCF 的值。InboundHeaders 或 WCF。OutboundCustomHeaders 不是以下列格式：\<標頭 >...\</headers >。</span><span class="sxs-lookup"><span data-stu-id="40974-117">The value of WCF.InboundHeaders or WCF.OutboundCustomHeaders  is not in the following format: \<headers>….\</headers>.</span></span>  
   
-## <a name="user-action"></a>使用者動作  
- 自動換行的屬性值與\<標頭 > 項目。  
+## <a name="user-action"></a><span data-ttu-id="40974-118">使用者動作</span><span class="sxs-lookup"><span data-stu-id="40974-118">User Action</span></span>  
+ <span data-ttu-id="40974-119">自動換行的屬性值與\<標頭 > 項目。</span><span class="sxs-lookup"><span data-stu-id="40974-119">Wrap the property values with \<headers> element.</span></span>  
   
- 如需詳細資訊，請參閱下列資源中的[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]協助：  
+ <span data-ttu-id="40974-120">如需詳細資訊，請參閱下列資源中的[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]協助：</span><span class="sxs-lookup"><span data-stu-id="40974-120">For further information, see the following resource in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help:</span></span>  
   
--   [WCF 訊息的管線元件中使用 SOAP 標頭](../core/using-soap-headers-in-wcf-messages-with-pipeline-components.md)
+-   [<span data-ttu-id="40974-121">WCF 訊息的管線元件中使用 SOAP 標頭</span><span class="sxs-lookup"><span data-stu-id="40974-121">Using SOAP Headers in WCF Messages with Pipeline Components</span></span>](../core/using-soap-headers-in-wcf-messages-with-pipeline-components.md)

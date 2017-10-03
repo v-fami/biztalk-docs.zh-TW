@@ -19,8 +19,8 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="installing-biztalk-adapter-for-tibco-rendezvous"></a>安裝 BizTalk Adapter for TIBCO Rendezvous
-如需如何安裝 Microsoft BizTalk Adapter for TIBCO Rendezvous 的相關資訊，請參閱 Microsoft BizTalk Adapters for Enterprise Applications 安裝指南。 若要確定您正在閱讀最新的資訊，請下載最新版本的指南：[超連結"http://go.microsoft.com/fwlink/?LinkId=196039"\t"_blank"http://go.microsoft.com/fwlink/?LinkId=196039](http://go.microsoft.com/fwlink/?LinkId=196039)。  
+# <a name="installing-biztalk-adapter-for-tibco-rendezvous"></a><span data-ttu-id="7358e-102">安裝 BizTalk Adapter for TIBCO Rendezvous</span><span class="sxs-lookup"><span data-stu-id="7358e-102">Installing BizTalk Adapter for TIBCO Rendezvous</span></span>
+<span data-ttu-id="7358e-103">如需如何安裝 Microsoft BizTalk Adapter for TIBCO Rendezvous 的相關資訊，請參閱 Microsoft BizTalk Adapters for Enterprise Applications 安裝指南。</span><span class="sxs-lookup"><span data-stu-id="7358e-103">For information about how to install Microsoft BizTalk Adapter for TIBCO Rendezvous, see the Microsoft BizTalk Adapters for Enterprise Applications installation guide.</span></span> <span data-ttu-id="7358e-104">若要確定您正在閱讀最新的資訊，請下載最新版本的指南：[超連結"http://go.microsoft.com/fwlink/?LinkId=196039"\t"_blank"http://go.microsoft.com/fwlink/?LinkId=196039](http://go.microsoft.com/fwlink/?LinkId=196039)。</span><span class="sxs-lookup"><span data-stu-id="7358e-104">To make sure that you are reading the most up-to-date information, download the latest version of the guide at [HYPERLINK "http://go.microsoft.com/fwlink/?LinkId=196039" \t "_blank" http://go.microsoft.com/fwlink/?LinkId=196039](http://go.microsoft.com/fwlink/?LinkId=196039).</span></span>  
   
-## <a name="see-also"></a>另請參閱  
- [快速入門](../core/getting-started-with-biztalk-adapter-for-tibco-rendezvous.md)
+## <a name="see-also"></a><span data-ttu-id="7358e-105">另請參閱</span><span class="sxs-lookup"><span data-stu-id="7358e-105">See Also</span></span>  
+ [<span data-ttu-id="7358e-106">快速入門</span><span class="sxs-lookup"><span data-stu-id="7358e-106">Getting Started</span></span>](../core/getting-started-with-biztalk-adapter-for-tibco-rendezvous.md)

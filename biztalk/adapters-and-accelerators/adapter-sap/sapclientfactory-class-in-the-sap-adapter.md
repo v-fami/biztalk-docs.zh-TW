@@ -19,23 +19,23 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="sapclientfactory-class-in-the-sap-adapter"></a>SAP 配接器在 SAPClientFactory 類別
-下節列出方法和屬性的**SAPClientFactory**類別。 這衍生自**System.Data.Common.DbProviderFactory**。  
+# <a name="sapclientfactory-class-in-the-sap-adapter"></a><span data-ttu-id="5f261-102">SAP 配接器在 SAPClientFactory 類別</span><span class="sxs-lookup"><span data-stu-id="5f261-102">SAPClientFactory class in the SAP adapter</span></span>
+<span data-ttu-id="5f261-103">下節列出方法和屬性的**SAPClientFactory**類別。</span><span class="sxs-lookup"><span data-stu-id="5f261-103">The following section lists the methods and properties for the **SAPClientFactory** class.</span></span> <span data-ttu-id="5f261-104">這衍生自**System.Data.Common.DbProviderFactory**。</span><span class="sxs-lookup"><span data-stu-id="5f261-104">This is derived from **System.Data.Common.DbProviderFactory**.</span></span>  
   
-## <a name="supported-properties"></a>支援的屬性  
+## <a name="supported-properties"></a><span data-ttu-id="5f261-105">支援的屬性</span><span class="sxs-lookup"><span data-stu-id="5f261-105">Supported Properties</span></span>  
   
-|名稱|Get/Set|Description|  
+|<span data-ttu-id="5f261-106">名稱</span><span class="sxs-lookup"><span data-stu-id="5f261-106">Name</span></span>|<span data-ttu-id="5f261-107">Get/Set</span><span class="sxs-lookup"><span data-stu-id="5f261-107">Get/Set</span></span>|<span data-ttu-id="5f261-108">Description</span><span class="sxs-lookup"><span data-stu-id="5f261-108">Description</span></span>|  
 |----------|--------------|-----------------|  
-|**執行個體**|-|SAPClientFactory 單一執行個體|  
+|<span data-ttu-id="5f261-109">**執行個體**</span><span class="sxs-lookup"><span data-stu-id="5f261-109">**Instance**</span></span>|-|<span data-ttu-id="5f261-110">SAPClientFactory 單一執行個體</span><span class="sxs-lookup"><span data-stu-id="5f261-110">Singleton instance of SAPClientFactory</span></span>|  
   
-## <a name="supported-methods"></a>支援的方法  
+## <a name="supported-methods"></a><span data-ttu-id="5f261-111">支援的方法</span><span class="sxs-lookup"><span data-stu-id="5f261-111">Supported Methods</span></span>  
   
-|名稱|Description|  
+|<span data-ttu-id="5f261-112">名稱</span><span class="sxs-lookup"><span data-stu-id="5f261-112">Name</span></span>|<span data-ttu-id="5f261-113">Description</span><span class="sxs-lookup"><span data-stu-id="5f261-113">Description</span></span>|  
 |----------|-----------------|  
-|**CreateCommand()**|建立 SAPCommand 的執行個體|  
-|**CreateConnection()**|建立 SAPConnection 的執行個體|  
-|**CreateConnectionStringBuilder()**|建立 SAPConnectionStringBuilder 的執行個體|  
-|**Createparameter （)**|建立 SAPParameter 的執行個體|  
+|<span data-ttu-id="5f261-114">**CreateCommand()**</span><span class="sxs-lookup"><span data-stu-id="5f261-114">**CreateCommand()**</span></span>|<span data-ttu-id="5f261-115">建立 SAPCommand 的執行個體</span><span class="sxs-lookup"><span data-stu-id="5f261-115">Creates an instance of SAPCommand</span></span>|  
+|<span data-ttu-id="5f261-116">**CreateConnection()**</span><span class="sxs-lookup"><span data-stu-id="5f261-116">**CreateConnection()**</span></span>|<span data-ttu-id="5f261-117">建立 SAPConnection 的執行個體</span><span class="sxs-lookup"><span data-stu-id="5f261-117">Creates an instance of SAPConnection</span></span>|  
+|<span data-ttu-id="5f261-118">**CreateConnectionStringBuilder()**</span><span class="sxs-lookup"><span data-stu-id="5f261-118">**CreateConnectionStringBuilder()**</span></span>|<span data-ttu-id="5f261-119">建立 SAPConnectionStringBuilder 的執行個體</span><span class="sxs-lookup"><span data-stu-id="5f261-119">Creates an instance of SAPConnectionStringBuilder</span></span>|  
+|<span data-ttu-id="5f261-120">**Createparameter （)**</span><span class="sxs-lookup"><span data-stu-id="5f261-120">**CreateParameter()**</span></span>|<span data-ttu-id="5f261-121">建立 SAPParameter 的執行個體</span><span class="sxs-lookup"><span data-stu-id="5f261-121">Creates an instance of SAPParameter</span></span>|  
   
-## <a name="see-also"></a>另請參閱  
- [SAP 配接器以延伸的 ADO.NET 介面](../../adapters-and-accelerators/adapter-sap/extend-ado-net-interfaces-with-the-sap-adapter.md)
+## <a name="see-also"></a><span data-ttu-id="5f261-122">另請參閱</span><span class="sxs-lookup"><span data-stu-id="5f261-122">See Also</span></span>  
+ [<span data-ttu-id="5f261-123">SAP 配接器以延伸的 ADO.NET 介面</span><span class="sxs-lookup"><span data-stu-id="5f261-123">Extend ADO.NET Interfaces with the SAP adapter</span></span>](../../adapters-and-accelerators/adapter-sap/extend-ado-net-interfaces-with-the-sap-adapter.md)

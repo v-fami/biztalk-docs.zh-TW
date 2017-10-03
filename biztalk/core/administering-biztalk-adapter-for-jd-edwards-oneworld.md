@@ -22,11 +22,11 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="administering-biztalk-adapter-for-jd-edwards-oneworld"></a>管理 BizTalk Adapter for JD Edwards OneWorld
-本節提供管理 BizTalk Adapter for JD Edwards OneWorld 的相關資訊。  
+# <a name="administering-biztalk-adapter-for-jd-edwards-oneworld"></a><span data-ttu-id="ac940-102">管理 BizTalk Adapter for JD Edwards OneWorld</span><span class="sxs-lookup"><span data-stu-id="ac940-102">Administering BizTalk Adapter for JD Edwards OneWorld</span></span>
+<span data-ttu-id="ac940-103">本節提供管理 BizTalk Adapter for JD Edwards OneWorld 的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="ac940-103">This section provides information about administering BizTalk Adapter for JD Edwards OneWorld.</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="ac940-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="ac940-104">In This Section</span></span>  
   
--   [使用 BizTalk Server 例外狀況處理](../core/using-biztalk-server-exception-handling1.md)  
+-   [<span data-ttu-id="ac940-105">使用 BizTalk Server 例外狀況處理</span><span class="sxs-lookup"><span data-stu-id="ac940-105">Using BizTalk Server Exception Handling</span></span>](../core/using-biztalk-server-exception-handling1.md)  
   
--   [在 Jdearglist 中設定字串左右對齊](../core/setting-string-justification-in-jdearglist.md)
+-   [<span data-ttu-id="ac940-106">在 Jdearglist 中設定字串左右對齊</span><span class="sxs-lookup"><span data-stu-id="ac940-106">Setting String Justification in Jdearglist</span></span>](../core/setting-string-justification-in-jdearglist.md)

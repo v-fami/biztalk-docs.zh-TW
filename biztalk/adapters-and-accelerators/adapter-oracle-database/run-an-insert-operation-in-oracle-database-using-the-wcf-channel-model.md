@@ -24,11 +24,11 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="run-an-insert-operation-in-oracle-database-using-the-wcf-channel-model"></a>在使用 WCF 通道模型的 Oracle 資料庫執行插入作業
-本節說明如何使用通道，Oracle 資料庫中插入一筆記錄。 當您傳送訊息時，您必須指定訊息本文和訊息動作。  
+# <a name="run-an-insert-operation-in-oracle-database-using-the-wcf-channel-model"></a><span data-ttu-id="419ac-102">在使用 WCF 通道模型的 Oracle 資料庫執行插入作業</span><span class="sxs-lookup"><span data-stu-id="419ac-102">Run an Insert Operation in Oracle Database using the WCF Channel Model</span></span>
+<span data-ttu-id="419ac-103">本節說明如何使用通道，Oracle 資料庫中插入一筆記錄。</span><span class="sxs-lookup"><span data-stu-id="419ac-103">This section shows how to insert a record into an Oracle database by using a channel.</span></span> <span data-ttu-id="419ac-104">當您傳送訊息時，您必須指定訊息本文和訊息動作。</span><span class="sxs-lookup"><span data-stu-id="419ac-104">You must specify both a message body and a message action when you send a message.</span></span>  
   
-## <a name="the-insert-message"></a>插入訊息  
- 下列 XML 顯示 HR Insert 作業的訊息主體。EMPLOYEES 資料表。 記錄組包含單一位員工的記錄。 插入訊息的結構描述的相關資訊，請參閱[基本 Insert、 Update、 Delete 和資料表和檢視表的選取作業的訊息結構描述](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-insert-update-delete-and-select-on-tables-and-views.md)。 這是範例中使用 Employee_Insert.xml 檔案的內容。  
+## <a name="the-insert-message"></a><span data-ttu-id="419ac-105">插入訊息</span><span class="sxs-lookup"><span data-stu-id="419ac-105">The Insert Message</span></span>  
+ <span data-ttu-id="419ac-106">下列 XML 顯示 HR Insert 作業的訊息主體。EMPLOYEES 資料表。</span><span class="sxs-lookup"><span data-stu-id="419ac-106">The following XML shows a message body for an Insert operation on the HR.EMPLOYEES table.</span></span> <span data-ttu-id="419ac-107">記錄組包含單一位員工的記錄。</span><span class="sxs-lookup"><span data-stu-id="419ac-107">The record set consists of a single employee record.</span></span> <span data-ttu-id="419ac-108">插入訊息的結構描述的相關資訊，請參閱[基本 Insert、 Update、 Delete 和資料表和檢視表的選取作業的訊息結構描述](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-insert-update-delete-and-select-on-tables-and-views.md)。</span><span class="sxs-lookup"><span data-stu-id="419ac-108">For more information about the schema of an Insert message, see [Message Schemas for the Basic Insert, Update, Delete, and Select Operations on Tables and Views](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-insert-update-delete-and-select-on-tables-and-views.md).</span></span> <span data-ttu-id="419ac-109">這是範例中使用 Employee_Insert.xml 檔案的內容。</span><span class="sxs-lookup"><span data-stu-id="419ac-109">This is the contents of the Employee_Insert.xml file used in the example.</span></span>  
   
 ```  
 \<!-- New namespace: http://Microsoft.LobServices.OracleDB/2007/03/HR/Table/EMPLOYEES -->  
@@ -51,17 +51,17 @@ ms.lasthandoff: 09/20/2017
 </Insert>  
 ```  
   
-## <a name="specifying-the-message-action"></a>指定的訊息動作  
- 當您傳送 SOAP 訊息時，您必須指定的訊息動作[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]。 當您建立的訊息，如下列範例所示，您可以指定的訊息動作。  
+## <a name="specifying-the-message-action"></a><span data-ttu-id="419ac-110">指定的訊息動作</span><span class="sxs-lookup"><span data-stu-id="419ac-110">Specifying the Message Action</span></span>  
+ <span data-ttu-id="419ac-111">當您傳送 SOAP 訊息時，您必須指定的訊息動作[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="419ac-111">You must specify a message action when you send a SOAP message to the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)].</span></span> <span data-ttu-id="419ac-112">當您建立的訊息，如下列範例所示，您可以指定的訊息動作。</span><span class="sxs-lookup"><span data-stu-id="419ac-112">You can specify the message action when you create the message as in the following example.</span></span>  
   
 ```  
 Message messageIn2 = Message.CreateMessage(MessageVersion.Default, "http://Microsoft.LobServices.OracleDB/2007/03/HR/Table/EMPLOYEES/Insert", readerIn2);  
 ```  
   
- 指定的訊息動作，在此範例中，「 / 小時/資料表/員工/插入 」，HR Insert 作業。是要執行的 EMPLOYEES 資料表  
+ <span data-ttu-id="419ac-113">指定的訊息動作，在此範例中，「 / 小時/資料表/員工/插入 」，HR Insert 作業。是要執行的 EMPLOYEES 資料表</span><span class="sxs-lookup"><span data-stu-id="419ac-113">The message action in this example, "/HR/Table/EMPLOYEES/Insert", specifies that an Insert operation on the HR.EMPLOYEES table is to be performed</span></span>  
   
-## <a name="sending-the-insert-message"></a>將插入的訊息傳送  
- 這個範例示範如何透過通道執行 Oracle 資料表插入作業。 程式碼會使用所公開的 SQLEXECUTE 操作[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]傳回 Oracle 序列的下一個值。 然後，此值會寫至 EMPLOYEE_ID 欄位中插入記錄。 此模式可讓您將資料列插入具有自動產生主索引鍵值的資料庫。 如需有關如何在通道上叫用 SQLEXECUTE 操作的詳細資訊，請參閱[使用 WCF 通道模型執行 SQLEXECUTE 操作](../../adapters-and-accelerators/adapter-oracle-database/run-a-sqlexecute-operation-in-oracle-database-using-the-wcf-channel-model.md)。  
+## <a name="sending-the-insert-message"></a><span data-ttu-id="419ac-114">將插入的訊息傳送</span><span class="sxs-lookup"><span data-stu-id="419ac-114">Sending the Insert Message</span></span>  
+ <span data-ttu-id="419ac-115">這個範例示範如何透過通道執行 Oracle 資料表插入作業。</span><span class="sxs-lookup"><span data-stu-id="419ac-115">This example shows how to perform an Insert operation on an Oracle table over a channel.</span></span> <span data-ttu-id="419ac-116">程式碼會使用所公開的 SQLEXECUTE 操作[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]傳回 Oracle 序列的下一個值。</span><span class="sxs-lookup"><span data-stu-id="419ac-116">The code uses the SQLEXECUTE operation exposed by the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] to return the next value of an Oracle SEQUENCE.</span></span> <span data-ttu-id="419ac-117">然後，此值會寫至 EMPLOYEE_ID 欄位中插入記錄。</span><span class="sxs-lookup"><span data-stu-id="419ac-117">This value is then written to the EMPLOYEE_ID field in the Insert record.</span></span> <span data-ttu-id="419ac-118">此模式可讓您將資料列插入具有自動產生主索引鍵值的資料庫。</span><span class="sxs-lookup"><span data-stu-id="419ac-118">This pattern enables you to insert rows into databases that have an auto-generated primary key value.</span></span> <span data-ttu-id="419ac-119">如需有關如何在通道上叫用 SQLEXECUTE 操作的詳細資訊，請參閱[使用 WCF 通道模型執行 SQLEXECUTE 操作](../../adapters-and-accelerators/adapter-oracle-database/run-a-sqlexecute-operation-in-oracle-database-using-the-wcf-channel-model.md)。</span><span class="sxs-lookup"><span data-stu-id="419ac-119">For more information about invoking the SQLEXECUTE operation over a channel, see [Run a SQLEXECUTE Operation by Using the WCF Channel Model](../../adapters-and-accelerators/adapter-oracle-database/run-a-sqlexecute-operation-in-oracle-database-using-the-wcf-channel-model.md).</span></span>  
   
 ```  
 using System;  
@@ -150,8 +150,8 @@ namespace OracleDMLChannel
 }  
 ```  
   
-## <a name="see-also"></a>另請參閱  
- [開發 Oracle 資料庫應用程式使用 WCF 通道模型](../../adapters-and-accelerators/adapter-oracle-database/develop-oracle-database-applications-using-the-wcf-channel-model.md)   
- [建立通道使用 Oracle 資料庫](../../adapters-and-accelerators/adapter-oracle-database/create-a-channel-using-oracle-database.md)   
- [使用 WCF 通道模型執行 SQLEXECUTE 操作](../../adapters-and-accelerators/adapter-oracle-database/run-a-sqlexecute-operation-in-oracle-database-using-the-wcf-channel-model.md)   
- [叫用使用 WCF 通道模型的 Oracle 資料庫中的函式](../../adapters-and-accelerators/adapter-oracle-database/invoke-a-function-in-oracle-database-using-the-wcf-channel-model.md)
+## <a name="see-also"></a><span data-ttu-id="419ac-120">另請參閱</span><span class="sxs-lookup"><span data-stu-id="419ac-120">See Also</span></span>  
+ <span data-ttu-id="419ac-121">[開發 Oracle 資料庫應用程式使用 WCF 通道模型](../../adapters-and-accelerators/adapter-oracle-database/develop-oracle-database-applications-using-the-wcf-channel-model.md) </span><span class="sxs-lookup"><span data-stu-id="419ac-121">[Develop Oracle Database applications Using the WCF Channel Model](../../adapters-and-accelerators/adapter-oracle-database/develop-oracle-database-applications-using-the-wcf-channel-model.md) </span></span>  
+ <span data-ttu-id="419ac-122">[建立通道使用 Oracle 資料庫](../../adapters-and-accelerators/adapter-oracle-database/create-a-channel-using-oracle-database.md) </span><span class="sxs-lookup"><span data-stu-id="419ac-122">[Create a channel using Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/create-a-channel-using-oracle-database.md) </span></span>  
+ <span data-ttu-id="419ac-123">[使用 WCF 通道模型執行 SQLEXECUTE 操作](../../adapters-and-accelerators/adapter-oracle-database/run-a-sqlexecute-operation-in-oracle-database-using-the-wcf-channel-model.md) </span><span class="sxs-lookup"><span data-stu-id="419ac-123">[Run a SQLEXECUTE Operation by Using the WCF Channel Model](../../adapters-and-accelerators/adapter-oracle-database/run-a-sqlexecute-operation-in-oracle-database-using-the-wcf-channel-model.md) </span></span>  
+ [<span data-ttu-id="419ac-124">叫用使用 WCF 通道模型的 Oracle 資料庫中的函式</span><span class="sxs-lookup"><span data-stu-id="419ac-124">Invoke a Function in Oracle Database Using the WCF Channel Model</span></span>](../../adapters-and-accelerators/adapter-oracle-database/invoke-a-function-in-oracle-database-using-the-wcf-channel-model.md)

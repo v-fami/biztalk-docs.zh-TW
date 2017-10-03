@@ -23,16 +23,16 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="implementing-a-seek-method-in-a-managed-streaming-pipeline-component"></a>實作搜尋方法的 Managed 資料流管線元件中
-原生**IStream**介面不會提供方法來檢查目前的資料流位置，因此傳訊引擎會使用下列**搜尋**方法。  
+# <a name="implementing-a-seek-method-in-a-managed-streaming-pipeline-component"></a><span data-ttu-id="0b302-102">實作搜尋方法的 Managed 資料流管線元件中</span><span class="sxs-lookup"><span data-stu-id="0b302-102">Implementing a Seek Method in a Managed Streaming Pipeline Component</span></span>
+<span data-ttu-id="0b302-103">原生**IStream**介面不會提供方法來檢查目前的資料流位置，因此傳訊引擎會使用下列**搜尋**方法。</span><span class="sxs-lookup"><span data-stu-id="0b302-103">The native **IStream** interface does not provide a method to check the current stream position, so the messaging engine uses the following **Seek** method.</span></span>  
   
 ```  
 pStream->Seek(0, STREAM_SEEK_CUR, &pNewPosition);  
 ```  
   
- 這個方法不會移動資料流指標，而是會查詢目前的位置。 因此如果您實作搭配不可搜尋資料流的管線元件，您可以使用**Stream.Seek**方法，如下列範例所示。  
+ <span data-ttu-id="0b302-104">這個方法不會移動資料流指標，而是會查詢目前的位置。</span><span class="sxs-lookup"><span data-stu-id="0b302-104">This method does not move the stream pointer; instead it queries the current position.</span></span> <span data-ttu-id="0b302-105">因此如果您實作搭配不可搜尋資料流的管線元件，您可以使用**Stream.Seek**方法，如下列範例所示。</span><span class="sxs-lookup"><span data-stu-id="0b302-105">So if you implement a pipeline component that works with a nonseekable stream, you can use the **Stream.Seek** method as in the following example.</span></span>  
   
-## <a name="example"></a>範例  
+## <a name="example"></a><span data-ttu-id="0b302-106">範例</span><span class="sxs-lookup"><span data-stu-id="0b302-106">Example</span></span>  
   
 ```csharp  
 override public long Seek(long offset, SeekOrigin origin)  
@@ -66,5 +66,5 @@ override public long Seek(long offset, SeekOrigin origin)
 }  
 ```  
   
-## <a name="see-also"></a>另請參閱  
- [開發自訂管線元件](../core/developing-custom-pipeline-components.md)
+## <a name="see-also"></a><span data-ttu-id="0b302-107">另請參閱</span><span class="sxs-lookup"><span data-stu-id="0b302-107">See Also</span></span>  
+ [<span data-ttu-id="0b302-108">開發自訂管線元件</span><span class="sxs-lookup"><span data-stu-id="0b302-108">Developing Custom Pipeline Components</span></span>](../core/developing-custom-pipeline-components.md)

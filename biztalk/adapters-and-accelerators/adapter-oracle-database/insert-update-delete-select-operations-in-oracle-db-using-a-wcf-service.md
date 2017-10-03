@@ -23,51 +23,51 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="insert-update-delete-or-select-operations-in-oracle-database-using-the-wcf-service-model"></a>插入、 更新、 刪除或 Oracle 資料庫使用 WCF 服務模型中選取作業
-[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]呈現一組基本的 Insert、 Update、 Delete 和 Oracle 資料庫資料表和檢視表上的 Select 作業。 藉由使用這些作業，您可以執行簡單的 SQL INSERT、 UPDATE、 SELECT、 及 DELETE 陳述式 WHERE 子句的目標資料表或檢視上所限定。 若要執行更複雜的作業，例如 SQL SELECT 查詢，會使用聯結運算子，您可以使用 SQLEXECUTE 操作。 如需 SQLEXECUTE 操作的詳細資訊，請參閱[在 Oracle 資料庫使用 WCF 服務模型執行 SQLEXECUTE 運算](../../adapters-and-accelerators/adapter-oracle-database/run-sqlexecute-operation-in-oracle-database-using-the-wcf-service-model.md)。  
+# <a name="insert-update-delete-or-select-operations-in-oracle-database-using-the-wcf-service-model"></a><span data-ttu-id="b0a26-102">插入、 更新、 刪除或 Oracle 資料庫使用 WCF 服務模型中選取作業</span><span class="sxs-lookup"><span data-stu-id="b0a26-102">Insert, update, delete, or select operations in Oracle Database using the WCF Service Model</span></span>
+<span data-ttu-id="b0a26-103">[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]呈現一組基本的 Insert、 Update、 Delete 和 Oracle 資料庫資料表和檢視表上的 Select 作業。</span><span class="sxs-lookup"><span data-stu-id="b0a26-103">The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] surfaces a set of basic Insert, Update, Delete, and Select operations on Oracle database tables and views.</span></span> <span data-ttu-id="b0a26-104">藉由使用這些作業，您可以執行簡單的 SQL INSERT、 UPDATE、 SELECT、 及 DELETE 陳述式 WHERE 子句的目標資料表或檢視上所限定。</span><span class="sxs-lookup"><span data-stu-id="b0a26-104">By using these operations, you can perform simple SQL INSERT, UPDATE, SELECT, and DELETE statements qualified by a WHERE clause on a target table or view.</span></span> <span data-ttu-id="b0a26-105">若要執行更複雜的作業，例如 SQL SELECT 查詢，會使用聯結運算子，您可以使用 SQLEXECUTE 操作。</span><span class="sxs-lookup"><span data-stu-id="b0a26-105">To perform more complex operations, for example a SQL SELECT query that uses the JOIN operator, you can use the SQLEXECUTE operation.</span></span> <span data-ttu-id="b0a26-106">如需 SQLEXECUTE 操作的詳細資訊，請參閱[在 Oracle 資料庫使用 WCF 服務模型執行 SQLEXECUTE 運算](../../adapters-and-accelerators/adapter-oracle-database/run-sqlexecute-operation-in-oracle-database-using-the-wcf-service-model.md)。</span><span class="sxs-lookup"><span data-stu-id="b0a26-106">For more information about the SQLEXECUTE operation, see [Performing a SQLEXECUTE Operation in Oracle Database Using the WCF Service Model](../../adapters-and-accelerators/adapter-oracle-database/run-sqlexecute-operation-in-oracle-database-using-the-wcf-service-model.md).</span></span>  
   
- 下表摘要說明基本的 SQL 作業，[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]資料表和檢視表的介面。 如需這些作業的完整說明，請參閱[基本 Insert、 Update、 Delete 和資料表和檢視表的選取作業的訊息結構描述](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-insert-update-delete-and-select-on-tables-and-views.md)。  
+ <span data-ttu-id="b0a26-107">下表摘要說明基本的 SQL 作業，[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]資料表和檢視表的介面。</span><span class="sxs-lookup"><span data-stu-id="b0a26-107">The following table summarizes the basic SQL operations that the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] surfaces on tables and views.</span></span> <span data-ttu-id="b0a26-108">如需這些作業的完整說明，請參閱[基本 Insert、 Update、 Delete 和資料表和檢視表的選取作業的訊息結構描述](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-insert-update-delete-and-select-on-tables-and-views.md)。</span><span class="sxs-lookup"><span data-stu-id="b0a26-108">For a complete description of these operations, see [Message Schemas for the Basic Insert, Update, Delete, and Select Operations on Tables and Views](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-insert-update-delete-and-select-on-tables-and-views.md).</span></span>  
   
-|作業|Description|  
+|<span data-ttu-id="b0a26-109">作業</span><span class="sxs-lookup"><span data-stu-id="b0a26-109">Operation</span></span>|<span data-ttu-id="b0a26-110">Description</span><span class="sxs-lookup"><span data-stu-id="b0a26-110">Description</span></span>|  
 |---------------|-----------------|  
-|Insert|插入作業支援多個記錄或大量插入到目標資料表或檢視表：<br /><br /> -多個記錄插入作業會將資料列插入資料表或檢視根據提供的資料錄集。<br />-在大量插入作業會將資料列插入資料表或檢視根據提供 SQL SELECT 查詢和資料行的清單。 此查詢會傳回記錄插入目標資料表資料行清單為基礎。|  
-|Select|根據提供的資料行名稱和指定 SQL WHERE 子句的篩選條件字串清單的目標資料表上執行 SQL SELECT 查詢。|  
-|Update|目標資料表上執行更新。 指定 SQL WHERE 子句的篩選字串會指定要更新的記錄。 更新的值會指定範本記錄。|  
-|DELETE|根據 SQL WHERE 子句的篩選條件字串中指定的目標資料表上執行 DELETE。|  
+|<span data-ttu-id="b0a26-111">Insert</span><span class="sxs-lookup"><span data-stu-id="b0a26-111">Insert</span></span>|<span data-ttu-id="b0a26-112">插入作業支援多個記錄或大量插入到目標資料表或檢視表：</span><span class="sxs-lookup"><span data-stu-id="b0a26-112">The Insert operation supports multiple record or bulk inserts into the target table or view:</span></span><br /><br /> <span data-ttu-id="b0a26-113">-多個記錄插入作業會將資料列插入資料表或檢視根據提供的資料錄集。</span><span class="sxs-lookup"><span data-stu-id="b0a26-113">-   A multiple record Insert operation inserts rows into a table or view based on a supplied record set.</span></span><br /><span data-ttu-id="b0a26-114">-在大量插入作業會將資料列插入資料表或檢視根據提供 SQL SELECT 查詢和資料行的清單。</span><span class="sxs-lookup"><span data-stu-id="b0a26-114">-   A bulk Insert operation inserts rows into a table or view based on a supplied SQL SELECT query and column list.</span></span> <span data-ttu-id="b0a26-115">此查詢會傳回記錄插入目標資料表資料行清單為基礎。</span><span class="sxs-lookup"><span data-stu-id="b0a26-115">The records that the query returns are inserted into the target table based on the column list.</span></span>|  
+|<span data-ttu-id="b0a26-116">Select</span><span class="sxs-lookup"><span data-stu-id="b0a26-116">Select</span></span>|<span data-ttu-id="b0a26-117">根據提供的資料行名稱和指定 SQL WHERE 子句的篩選條件字串清單的目標資料表上執行 SQL SELECT 查詢。</span><span class="sxs-lookup"><span data-stu-id="b0a26-117">Performs a SQL SELECT query on the target table based on a supplied list of column names and a filter string that specifies a SQL WHERE clause.</span></span>|  
+|<span data-ttu-id="b0a26-118">Update</span><span class="sxs-lookup"><span data-stu-id="b0a26-118">Update</span></span>|<span data-ttu-id="b0a26-119">目標資料表上執行更新。</span><span class="sxs-lookup"><span data-stu-id="b0a26-119">Performs an UPDATE on the target table.</span></span> <span data-ttu-id="b0a26-120">指定 SQL WHERE 子句的篩選字串會指定要更新的記錄。</span><span class="sxs-lookup"><span data-stu-id="b0a26-120">The records to be updated are specified by a filter string that specifies a SQL WHERE clause.</span></span> <span data-ttu-id="b0a26-121">更新的值會指定範本記錄。</span><span class="sxs-lookup"><span data-stu-id="b0a26-121">The values for the update are specified in a template record.</span></span>|  
+|<span data-ttu-id="b0a26-122">DELETE</span><span class="sxs-lookup"><span data-stu-id="b0a26-122">Delete</span></span>|<span data-ttu-id="b0a26-123">根據 SQL WHERE 子句的篩選條件字串中指定的目標資料表上執行 DELETE。</span><span class="sxs-lookup"><span data-stu-id="b0a26-123">Performs a DELETE on the target table based on a SQL WHERE clause that is specified in a filter string.</span></span>|  
   
-## <a name="about-the-examples-used-in-this-topic"></a>關於本主題中使用的範例  
- 本主題中的範例使用 /SCOTT/ACCOUNTACTIVITY 資料表。 指令碼來產生這個資料表所提供的 SDK 範例。 如需 SDK 範例的詳細資訊，請參閱[SDK 中的範例](../../core/samples-in-the-sdk.md)。  
+## <a name="about-the-examples-used-in-this-topic"></a><span data-ttu-id="b0a26-124">關於本主題中使用的範例</span><span class="sxs-lookup"><span data-stu-id="b0a26-124">About the Examples Used in this Topic</span></span>  
+ <span data-ttu-id="b0a26-125">本主題中的範例使用 /SCOTT/ACCOUNTACTIVITY 資料表。</span><span class="sxs-lookup"><span data-stu-id="b0a26-125">The examples in this topic use the /SCOTT/ACCOUNTACTIVITY table.</span></span> <span data-ttu-id="b0a26-126">指令碼來產生這個資料表所提供的 SDK 範例。</span><span class="sxs-lookup"><span data-stu-id="b0a26-126">A script to generate this table is supplied with the SDK samples.</span></span> <span data-ttu-id="b0a26-127">如需 SDK 範例的詳細資訊，請參閱[SDK 中的範例](../../core/samples-in-the-sdk.md)。</span><span class="sxs-lookup"><span data-stu-id="b0a26-127">For more information about the SDK samples, see [Samples in the SDK](../../core/samples-in-the-sdk.md).</span></span>  
   
-## <a name="the-wcf-client-class"></a>WCF 用戶端類別  
- 為基本的 SQL 作業產生 WCF 用戶端的名稱，[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]介面為基礎的資料表或檢視中的，如同下表的名稱。  
+## <a name="the-wcf-client-class"></a><span data-ttu-id="b0a26-128">WCF 用戶端類別</span><span class="sxs-lookup"><span data-stu-id="b0a26-128">The WCF Client Class</span></span>  
+ <span data-ttu-id="b0a26-129">為基本的 SQL 作業產生 WCF 用戶端的名稱，[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]介面為基礎的資料表或檢視中的，如同下表的名稱。</span><span class="sxs-lookup"><span data-stu-id="b0a26-129">The name of the WCF client generated for the basic SQL operations that the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] surfaces is based on the name of the table or view, as in the following table.</span></span>  
   
-|Oracle 資料庫成品|WCF 用戶端名稱|  
+|<span data-ttu-id="b0a26-130">Oracle 資料庫成品</span><span class="sxs-lookup"><span data-stu-id="b0a26-130">Oracle Database Artifact</span></span>|<span data-ttu-id="b0a26-131">WCF 用戶端名稱</span><span class="sxs-lookup"><span data-stu-id="b0a26-131">WCF Client Name</span></span>|  
 |------------------------------|---------------------|  
-|Table|[結構描述]表格 [TABLE_NAME] 用戶端|  
-|檢視|[結構描述]檢視 [VIEW_NAME] 用戶端|  
+|<span data-ttu-id="b0a26-132">Table</span><span class="sxs-lookup"><span data-stu-id="b0a26-132">Table</span></span>|<span data-ttu-id="b0a26-133">[結構描述]表格 [TABLE_NAME] 用戶端</span><span class="sxs-lookup"><span data-stu-id="b0a26-133">[SCHEMA]Table[TABLE_NAME]Client</span></span>|  
+|<span data-ttu-id="b0a26-134">檢視</span><span class="sxs-lookup"><span data-stu-id="b0a26-134">View</span></span>|<span data-ttu-id="b0a26-135">[結構描述]檢視 [VIEW_NAME] 用戶端</span><span class="sxs-lookup"><span data-stu-id="b0a26-135">[SCHEMA]View[VIEW_NAME]Client</span></span>|  
   
- [SCHEMA] = 集合的 Oracle 成品。例如，SCOTT。  
+ <span data-ttu-id="b0a26-136">[SCHEMA] = 集合的 Oracle 成品。例如，SCOTT。</span><span class="sxs-lookup"><span data-stu-id="b0a26-136">[SCHEMA] = Collection of Oracle artifacts; for example, SCOTT.</span></span>  
   
- [TABLE_NAME] = 表格的名稱例如，ACCOUNTACTIVITY。  
+ <span data-ttu-id="b0a26-137">[TABLE_NAME] = 表格的名稱例如，ACCOUNTACTIVITY。</span><span class="sxs-lookup"><span data-stu-id="b0a26-137">[TABLE_NAME] = The name of the table; for example, ACCOUNTACTIVITY.</span></span>  
   
- [VIEW_NAME] = 檢視的名稱。  
+ <span data-ttu-id="b0a26-138">[VIEW_NAME] = 檢視的名稱。</span><span class="sxs-lookup"><span data-stu-id="b0a26-138">[VIEW_NAME] = The name of the view.</span></span>  
   
- 下表顯示在資料表上的基本 SQL 作業的方法簽章。 簽章是資料表的不相同的檢視，不同之處在於檢視命名空間和名稱取代。  
+ <span data-ttu-id="b0a26-139">下表顯示在資料表上的基本 SQL 作業的方法簽章。</span><span class="sxs-lookup"><span data-stu-id="b0a26-139">The following table shows the method signatures for the basic SQL operations on a table.</span></span> <span data-ttu-id="b0a26-140">簽章是資料表的不相同的檢視，不同之處在於檢視命名空間和名稱取代。</span><span class="sxs-lookup"><span data-stu-id="b0a26-140">The signatures are the same for a view, except that the view namespace and name replace those of the table.</span></span>  
   
-|作業|方法簽章|  
+|<span data-ttu-id="b0a26-141">作業</span><span class="sxs-lookup"><span data-stu-id="b0a26-141">Operation</span></span>|<span data-ttu-id="b0a26-142">方法簽章</span><span class="sxs-lookup"><span data-stu-id="b0a26-142">Method Signature</span></span>|  
 |---------------|----------------------|  
-|Insert|長時間插入 ([TABLE_NS]。 [RECORDINSERT TABLE_NAME] [資料錄集，字串 COLUMN_NAMES，查詢字串);|  
-|Select|[TABLE_NS]。[名稱]RECORDSELECT [] 選取 （字串 COLUMN_NAMES，字串篩選條件）。|  
-|Update|完整更新 ([TABLE_NS]。 [TABLE_NAME] RECORDUPDATE 資料錄集，篩選條件字串）;|  
-|DELETE|長 Delete （字串篩選條件）。|  
+|<span data-ttu-id="b0a26-143">Insert</span><span class="sxs-lookup"><span data-stu-id="b0a26-143">Insert</span></span>|<span data-ttu-id="b0a26-144">長時間插入 ([TABLE_NS]。 [RECORDINSERT TABLE_NAME] [資料錄集，字串 COLUMN_NAMES，查詢字串);</span><span class="sxs-lookup"><span data-stu-id="b0a26-144">long Insert([TABLE_NS].[TABLE_NAME]RECORDINSERT[] RECORDSET, string COLUMN_NAMES, string QUERY);</span></span>|  
+|<span data-ttu-id="b0a26-145">Select</span><span class="sxs-lookup"><span data-stu-id="b0a26-145">Select</span></span>|<span data-ttu-id="b0a26-146">[TABLE_NS]。[名稱]RECORDSELECT [] 選取 （字串 COLUMN_NAMES，字串篩選條件）。</span><span class="sxs-lookup"><span data-stu-id="b0a26-146">[TABLE_NS].[TABLE_NAME]RECORDSELECT[] Select(string COLUMN_NAMES, string FILTER);</span></span>|  
+|<span data-ttu-id="b0a26-147">Update</span><span class="sxs-lookup"><span data-stu-id="b0a26-147">Update</span></span>|<span data-ttu-id="b0a26-148">完整更新 ([TABLE_NS]。 [TABLE_NAME] RECORDUPDATE 資料錄集，篩選條件字串）;</span><span class="sxs-lookup"><span data-stu-id="b0a26-148">long Update([TABLE_NS].[TABLE_NAME]RECORDUPDATE RECORDSET, string FILTER);</span></span>|  
+|<span data-ttu-id="b0a26-149">DELETE</span><span class="sxs-lookup"><span data-stu-id="b0a26-149">Delete</span></span>|<span data-ttu-id="b0a26-150">長 Delete （字串篩選條件）。</span><span class="sxs-lookup"><span data-stu-id="b0a26-150">Long Delete(string FILTER);</span></span>|  
   
- [TABLE_NS] = 名稱的資料表命名空間中。例如，microsoft.lobservices.oracledb._2007._03.SCOTT。Table.ACCOUNTACTIVITY。  
+ <span data-ttu-id="b0a26-151">[TABLE_NS] = 名稱的資料表命名空間中。例如，microsoft.lobservices.oracledb._2007._03.SCOTT。Table.ACCOUNTACTIVITY。</span><span class="sxs-lookup"><span data-stu-id="b0a26-151">[TABLE_NS] = The name of the table namespace; for example, microsoft.lobservices.oracledb._2007._03.SCOTT.Table.ACCOUNTACTIVITY.</span></span>  
   
- [TABLE_NAME] = 表格的名稱例如，ACCOUNTACTIVITY。  
+ <span data-ttu-id="b0a26-152">[TABLE_NAME] = 表格的名稱例如，ACCOUNTACTIVITY。</span><span class="sxs-lookup"><span data-stu-id="b0a26-152">[TABLE_NAME] = The name of the table; for example, ACCOUNTACTIVITY.</span></span>  
   
- Insert、 Update 和 Select 作業所使用的記錄類型都定義在資料表或檢視命名空間。  
+ <span data-ttu-id="b0a26-153">Insert、 Update 和 Select 作業所使用的記錄類型都定義在資料表或檢視命名空間。</span><span class="sxs-lookup"><span data-stu-id="b0a26-153">The record types used by the Insert, Update, and Select operations are all defined in the table or view namespace.</span></span>  
   
- 下列程式碼所示的 WCF 用戶端類別的方法簽章的 Delete、 Insert、 Select 和 Update 產生/SCOTT/ACCOUNTACTIVITY 資料表上的作業。  
+ <span data-ttu-id="b0a26-154">下列程式碼所示的 WCF 用戶端類別的方法簽章的 Delete、 Insert、 Select 和 Update 產生/SCOTT/ACCOUNTACTIVITY 資料表上的作業。</span><span class="sxs-lookup"><span data-stu-id="b0a26-154">The following code shows the method signatures for a WCF client class generated for the Delete, Insert, Select and Update operations on the /SCOTT/ACCOUNTACTIVITY table.</span></span>  
   
 ```  
 public partial class SCOTTTableACCOUNTACTIVITYClient : System.ServiceModel.ClientBase<SCOTTTableACCOUNTACTIVITY>, SCOTTTableACCOUNTACTIVITY {  
@@ -82,33 +82,33 @@ public partial class SCOTTTableACCOUNTACTIVITYClient : System.ServiceModel.Clien
 }  
 ```  
   
-## <a name="invoking-the-basic-sql-operations"></a>叫用基本的 SQL 作業  
- 若要使用 WCF 用戶端叫用資料表或檢視上的基本 SQL 作業，執行下列步驟。  
+## <a name="invoking-the-basic-sql-operations"></a><span data-ttu-id="b0a26-155">叫用基本的 SQL 作業</span><span class="sxs-lookup"><span data-stu-id="b0a26-155">Invoking the Basic SQL Operations</span></span>  
+ <span data-ttu-id="b0a26-156">若要使用 WCF 用戶端叫用資料表或檢視上的基本 SQL 作業，執行下列步驟。</span><span class="sxs-lookup"><span data-stu-id="b0a26-156">To invoke the basic SQL operations on a table or view by using a WCF client, perform the following steps.</span></span>  
   
-1.  產生 WCF 用戶端類別，目標資料表或檢視表。 這個類別應該包含您將目標成品叫用作業的方法。  
+1.  <span data-ttu-id="b0a26-157">產生 WCF 用戶端類別，目標資料表或檢視表。</span><span class="sxs-lookup"><span data-stu-id="b0a26-157">Generate a WCF client class for the target table or view.</span></span> <span data-ttu-id="b0a26-158">這個類別應該包含您將目標成品叫用作業的方法。</span><span class="sxs-lookup"><span data-stu-id="b0a26-158">This class should contain methods for the operations that you will invoke on the target artifact.</span></span>  
   
-2.  建立 WCF 用戶端類別的執行個體，並叫用其方法來執行資料表或檢視表上的作業。  
+2.  <span data-ttu-id="b0a26-159">建立 WCF 用戶端類別的執行個體，並叫用其方法來執行資料表或檢視表上的作業。</span><span class="sxs-lookup"><span data-stu-id="b0a26-159">Create an instance of the WCF client class and invoke its methods to perform operations on the table or view.</span></span>  
   
- 如需詳細資訊，有關如何建立 WCF 用戶端類別，並在叫用作業[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]，請參閱[與 Oracle 資料庫配接器的 WCF 服務模型概觀](../../adapters-and-accelerators/adapter-oracle-database/overview-of-the-wcf-service-model-with-the-oracle-database-adapter.md)。  
+ <span data-ttu-id="b0a26-160">如需詳細資訊，有關如何建立 WCF 用戶端類別，並在叫用作業[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]，請參閱[與 Oracle 資料庫配接器的 WCF 服務模型概觀](../../adapters-and-accelerators/adapter-oracle-database/overview-of-the-wcf-service-model-with-the-oracle-database-adapter.md)。</span><span class="sxs-lookup"><span data-stu-id="b0a26-160">For more detailed information about how to create a WCF client class and invoke operations on the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], see [Overview of the WCF Service Model with the Oracle Database Adapter](../../adapters-and-accelerators/adapter-oracle-database/overview-of-the-wcf-service-model-with-the-oracle-database-adapter.md).</span></span>  
   
- [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]的 Oracle 資料庫上執行交易內的每一項作業。 您可以設定來控制此交易的隔離等級**TransactionIsolationLevel**繫結屬性。 如需有關[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]繫結屬性，請參閱[使用 BizTalk Adapter for Oracle 資料庫繫結屬性](https://msdn.microsoft.com/library/dd788467.aspx)。  
+ <span data-ttu-id="b0a26-161">[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]的 Oracle 資料庫上執行交易內的每一項作業。</span><span class="sxs-lookup"><span data-stu-id="b0a26-161">The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] executes each operation inside of a transaction on the Oracle database.</span></span> <span data-ttu-id="b0a26-162">您可以設定來控制此交易的隔離等級**TransactionIsolationLevel**繫結屬性。</span><span class="sxs-lookup"><span data-stu-id="b0a26-162">You can control the isolation level of this transaction by setting the **TransactionIsolationLevel** binding property.</span></span> <span data-ttu-id="b0a26-163">如需有關[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]繫結屬性，請參閱[使用 BizTalk Adapter for Oracle 資料庫繫結屬性](https://msdn.microsoft.com/library/dd788467.aspx)。</span><span class="sxs-lookup"><span data-stu-id="b0a26-163">For more information about the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] binding properties, see [Working with BizTalk Adapter for Oracle Database Binding Properties](https://msdn.microsoft.com/library/dd788467.aspx).</span></span>  
   
- 下列各節提供有關如何叫用每個程式碼中的基本 SQL 作業的詳細資料。  
+ <span data-ttu-id="b0a26-164">下列各節提供有關如何叫用每個程式碼中的基本 SQL 作業的詳細資料。</span><span class="sxs-lookup"><span data-stu-id="b0a26-164">The following sections provide details about how to invoke each basic SQL operation in your code.</span></span>  
   
-###  <a name="BKMK_InsertOperation"></a>插入作業  
- 下表顯示如何設定參數的多個記錄插入以及大量插入作業。  
+###  <span data-ttu-id="b0a26-165"><a name="BKMK_InsertOperation"></a>插入作業</span><span class="sxs-lookup"><span data-stu-id="b0a26-165"><a name="BKMK_InsertOperation"></a> Insert Operation</span></span>  
+ <span data-ttu-id="b0a26-166">下表顯示如何設定參數的多個記錄插入以及大量插入作業。</span><span class="sxs-lookup"><span data-stu-id="b0a26-166">The following table shows how to set parameters for multiple record Insert and bulk Insert operations.</span></span>  
   
-|插入作業類型|資料錄集|COLUMN_NAMES|QUERY|  
+|<span data-ttu-id="b0a26-167">插入作業類型</span><span class="sxs-lookup"><span data-stu-id="b0a26-167">Insert operation type</span></span>|<span data-ttu-id="b0a26-168">資料錄集</span><span class="sxs-lookup"><span data-stu-id="b0a26-168">RECORDSET</span></span>|<span data-ttu-id="b0a26-169">COLUMN_NAMES</span><span class="sxs-lookup"><span data-stu-id="b0a26-169">COLUMN_NAMES</span></span>|<span data-ttu-id="b0a26-170">QUERY</span><span class="sxs-lookup"><span data-stu-id="b0a26-170">QUERY</span></span>|  
 |---------------------------|---------------|-------------------|-----------|  
-|多個記錄|應插入至目標的 INSERTRECORDS 的集合。|null|null|  
-|大量|null|目標; 中的資料行名稱以逗號分隔清單例如，"TID，帳戶 」。 資料行清單指定查詢結果應該放置在每個插入資料列中的資料行。 此查詢必須傳回符合指定數目和類型的資料行清單中的資料行的結果集。|資料庫資料表或檢視，傳回的結果集插入目標; 上的 SQL SELECT 查詢例如，"SELECT （TID、 帳戶） 從 NEW_TRANSACTIONS WHERE 帳戶 = 100001"。 結果集必須符合在數量與類型的資料行清單。|  
+|<span data-ttu-id="b0a26-171">多個記錄</span><span class="sxs-lookup"><span data-stu-id="b0a26-171">Multiple record</span></span>|<span data-ttu-id="b0a26-172">應插入至目標的 INSERTRECORDS 的集合。</span><span class="sxs-lookup"><span data-stu-id="b0a26-172">A collection of INSERTRECORDS that should be inserted into the target.</span></span>|<span data-ttu-id="b0a26-173">null</span><span class="sxs-lookup"><span data-stu-id="b0a26-173">null</span></span>|<span data-ttu-id="b0a26-174">null</span><span class="sxs-lookup"><span data-stu-id="b0a26-174">null</span></span>|  
+|<span data-ttu-id="b0a26-175">大量</span><span class="sxs-lookup"><span data-stu-id="b0a26-175">Bulk</span></span>|<span data-ttu-id="b0a26-176">null</span><span class="sxs-lookup"><span data-stu-id="b0a26-176">null</span></span>|<span data-ttu-id="b0a26-177">目標; 中的資料行名稱以逗號分隔清單例如，"TID，帳戶 」。</span><span class="sxs-lookup"><span data-stu-id="b0a26-177">A comma-delimited list of column names in the target; for example, "TID, ACCOUNT".</span></span> <span data-ttu-id="b0a26-178">資料行清單指定查詢結果應該放置在每個插入資料列中的資料行。</span><span class="sxs-lookup"><span data-stu-id="b0a26-178">The column list specifies the columns into which the query results should be placed in each inserted row.</span></span> <span data-ttu-id="b0a26-179">此查詢必須傳回符合指定數目和類型的資料行清單中的資料行的結果集。</span><span class="sxs-lookup"><span data-stu-id="b0a26-179">The query must return a result set that matches the columns specified in the column list in both number and type.</span></span>|<span data-ttu-id="b0a26-180">資料庫資料表或檢視，傳回的結果集插入目標; 上的 SQL SELECT 查詢例如，"SELECT （TID、 帳戶） 從 NEW_TRANSACTIONS WHERE 帳戶 = 100001"。</span><span class="sxs-lookup"><span data-stu-id="b0a26-180">A SQL SELECT query on a database table or view that returns a result set to insert into the target; for example, "SELECT (TID, ACCOUNT) FROM NEW_TRANSACTIONS WHERE ACCOUNT = 100001".</span></span> <span data-ttu-id="b0a26-181">結果集必須符合在數量與類型的資料行清單。</span><span class="sxs-lookup"><span data-stu-id="b0a26-181">The result set must match the column list in both number and type.</span></span>|  
   
- 插入作業會傳回插入目標的記錄數目。  
+ <span data-ttu-id="b0a26-182">插入作業會傳回插入目標的記錄數目。</span><span class="sxs-lookup"><span data-stu-id="b0a26-182">The Insert operation returns the number of records inserted into the target.</span></span>  
   
 > [!IMPORTANT]
->  在 WCF 服務模型中，插入作業中使用資料錄集是強型別。 您可以設定要 nillable 的資料行值**null**記錄插入作業; 從排除該資料行中不過，您無法設定非 nillable 資料行的值**null**。 這表示在多個記錄插入作業中，您必須提供每個記錄中的所有非 nillable 資料行的值。 此外，支援資料流的基本 SQL 作業時使用 WCF 服務模型。 如果多個記錄的插入作業牽涉到大型的資料錄集，這可能是一項重要的考量。 如需詳細資訊，請參閱[叫用使用 WCF 服務模型的基本 SQL 作業的限制](#BKMK_LimitationsInvoking)。  
+>  <span data-ttu-id="b0a26-183">在 WCF 服務模型中，插入作業中使用資料錄集是強型別。</span><span class="sxs-lookup"><span data-stu-id="b0a26-183">In the WCF service model, the record set used in the Insert operation is strongly-typed.</span></span> <span data-ttu-id="b0a26-184">您可以設定要 nillable 的資料行值**null**記錄插入作業; 從排除該資料行中不過，您無法設定非 nillable 資料行的值**null**。</span><span class="sxs-lookup"><span data-stu-id="b0a26-184">You can set the value of a nillable column to **null** in a record to exclude that column from the Insert operation; however, you cannot set the value of a non-nillable column to **null**.</span></span> <span data-ttu-id="b0a26-185">這表示在多個記錄插入作業中，您必須提供每個記錄中的所有非 nillable 資料行的值。</span><span class="sxs-lookup"><span data-stu-id="b0a26-185">This means that in a multiple record Insert operation, you must supply values for all non-nillable columns in each record.</span></span> <span data-ttu-id="b0a26-186">此外，支援資料流的基本 SQL 作業時使用 WCF 服務模型。</span><span class="sxs-lookup"><span data-stu-id="b0a26-186">In addition, there is no streaming support for the basic SQL operations when you use the WCF service model.</span></span> <span data-ttu-id="b0a26-187">如果多個記錄的插入作業牽涉到大型的資料錄集，這可能是一項重要的考量。</span><span class="sxs-lookup"><span data-stu-id="b0a26-187">If your multiple record Insert operation involves a large record set, this may be an important consideration.</span></span> <span data-ttu-id="b0a26-188">如需詳細資訊，請參閱[叫用使用 WCF 服務模型的基本 SQL 作業的限制](#BKMK_LimitationsInvoking)。</span><span class="sxs-lookup"><span data-stu-id="b0a26-188">For more information, see [Limitations of Invoking the Basic SQL Operations by Using the WCF Service Model](#BKMK_LimitationsInvoking).</span></span>  
   
- 下列程式碼顯示的多個記錄插入作業 （兩筆記錄） 為目標 ACCOUNTACTIVITY 資料表。  
+ <span data-ttu-id="b0a26-189">下列程式碼顯示的多個記錄插入作業 （兩筆記錄） 為目標 ACCOUNTACTIVITY 資料表。</span><span class="sxs-lookup"><span data-stu-id="b0a26-189">The following code shows a multiple record Insert operation (two records) that targets the ACCOUNTACTIVITY table.</span></span>  
   
 ```  
 // Insert records  
@@ -189,19 +189,19 @@ public partial class SCOTTTableACCOUNTACTIVITYClient : System.ServiceModel.Clien
                     Console.WriteLine("Insert Done: {0} records inserted", recsInserted);  
 ```  
   
-### <a name="select-operation"></a>選取作業  
- 下表顯示所選取的作業參數。  
+### <a name="select-operation"></a><span data-ttu-id="b0a26-190">選取作業</span><span class="sxs-lookup"><span data-stu-id="b0a26-190">Select Operation</span></span>  
+ <span data-ttu-id="b0a26-191">下表顯示所選取的作業參數。</span><span class="sxs-lookup"><span data-stu-id="b0a26-191">The following table shows the parameters for the Select operation.</span></span>  
   
-|COLUMN_NAMES|FILTER|  
+|<span data-ttu-id="b0a26-192">COLUMN_NAMES</span><span class="sxs-lookup"><span data-stu-id="b0a26-192">COLUMN_NAMES</span></span>|<span data-ttu-id="b0a26-193">FILTER</span><span class="sxs-lookup"><span data-stu-id="b0a26-193">FILTER</span></span>|  
 |-------------------|------------|  
-|目標; 中的資料行名稱以逗號分隔清單例如，"TID，帳戶 」。 資料行清單中指定的目標所應傳回結果集中的資料行。 未指定資料行清單中的資料行會設定為其傳回的記錄組中的.NET 預設值。 Nillable 資料行，這個值是**null**。|SQL WHERE 子句會指定查詢; 的目標資料列的內容例如，「 說明 = '插入記錄 #1' 」。 您可以將此參數設定為**null**傳回目標的所有資料列。|  
+|<span data-ttu-id="b0a26-194">目標; 中的資料行名稱以逗號分隔清單例如，"TID，帳戶 」。</span><span class="sxs-lookup"><span data-stu-id="b0a26-194">A comma-delimited list of column names in the target; for example, "TID, ACCOUNT".</span></span> <span data-ttu-id="b0a26-195">資料行清單中指定的目標所應傳回結果集中的資料行。</span><span class="sxs-lookup"><span data-stu-id="b0a26-195">The column list specifies the columns of the target that should be returned in the result set.</span></span> <span data-ttu-id="b0a26-196">未指定資料行清單中的資料行會設定為其傳回的記錄組中的.NET 預設值。</span><span class="sxs-lookup"><span data-stu-id="b0a26-196">Columns not specified in the column list will be set to their .NET default values in the returned record set.</span></span> <span data-ttu-id="b0a26-197">Nillable 資料行，這個值是**null**。</span><span class="sxs-lookup"><span data-stu-id="b0a26-197">For nillable columns, this value is **null**.</span></span>|<span data-ttu-id="b0a26-198">SQL WHERE 子句會指定查詢; 的目標資料列的內容例如，「 說明 = '插入記錄 #1' 」。</span><span class="sxs-lookup"><span data-stu-id="b0a26-198">The contents of a SQL WHERE clause that specifies the target rows of the query; for example, "DESCRIPTION = 'Insert Record #1'".</span></span> <span data-ttu-id="b0a26-199">您可以將此參數設定為**null**傳回目標的所有資料列。</span><span class="sxs-lookup"><span data-stu-id="b0a26-199">You can set this parameter to **null** to return all rows of the target.</span></span>|  
   
- 選取的作業會傳回強型別資料錄集資料列的目標類型為基礎。  
+ <span data-ttu-id="b0a26-200">選取的作業會傳回強型別資料錄集資料列的目標類型為基礎。</span><span class="sxs-lookup"><span data-stu-id="b0a26-200">The Select operation returns a strongly-typed record set based on the row type of the target.</span></span>  
   
 > [!IMPORTANT]
->  當您使用 WCF 服務模型時，沒有資料流支援基本的 SQL 作業。 如果查詢傳回大量的記錄集，您可以使用 WCF 通道模型改善效能。 如需詳細資訊，請參閱[叫用使用 WCF 服務模型的基本 SQL 作業的限制](#BKMK_LimitationsInvoking)。  
+>  <span data-ttu-id="b0a26-201">當您使用 WCF 服務模型時，沒有資料流支援基本的 SQL 作業。</span><span class="sxs-lookup"><span data-stu-id="b0a26-201">There is no streaming support for the basic SQL operations when you use the WCF service model.</span></span> <span data-ttu-id="b0a26-202">如果查詢傳回大量的記錄集，您可以使用 WCF 通道模型改善效能。</span><span class="sxs-lookup"><span data-stu-id="b0a26-202">If your query returns a large record set, you might be able to improve performance by using the WCF channel model.</span></span> <span data-ttu-id="b0a26-203">如需詳細資訊，請參閱[叫用使用 WCF 服務模型的基本 SQL 作業的限制](#BKMK_LimitationsInvoking)。</span><span class="sxs-lookup"><span data-stu-id="b0a26-203">For more information, see [Limitations of Invoking the Basic SQL Operations by Using the WCF Service Model](#BKMK_LimitationsInvoking).</span></span>  
   
- 下列程式碼會顯示目標 ACCOUNTACTIVITY 資料表的選取作業。 傳回的記錄會寫入至主控台。  
+ <span data-ttu-id="b0a26-204">下列程式碼會顯示目標 ACCOUNTACTIVITY 資料表的選取作業。</span><span class="sxs-lookup"><span data-stu-id="b0a26-204">The following code shows a Select operation that targets the ACCOUNTACTIVITY table.</span></span> <span data-ttu-id="b0a26-205">傳回的記錄會寫入至主控台。</span><span class="sxs-lookup"><span data-stu-id="b0a26-205">The returned records are written to the console.</span></span>  
   
 ```  
 // Declare a variable to hold the result set  
@@ -229,21 +229,21 @@ for (int i = 0; i \< selectRecords.Length; i++)
 ```  
   
 > [!NOTE]
->  此程式碼會省略步驟來建立、 設定及開啟 WCF 用戶端執行個體。 如需範例，其中包含下列步驟，請參閱[插入作業](#BKMK_InsertOperation)。  
+>  <span data-ttu-id="b0a26-206">此程式碼會省略步驟來建立、 設定及開啟 WCF 用戶端執行個體。</span><span class="sxs-lookup"><span data-stu-id="b0a26-206">This code omits steps to create, configure, and open the WCF client instance.</span></span> <span data-ttu-id="b0a26-207">如需範例，其中包含下列步驟，請參閱[插入作業](#BKMK_InsertOperation)。</span><span class="sxs-lookup"><span data-stu-id="b0a26-207">For an example that includes these steps, see [Insert Operation](#BKMK_InsertOperation).</span></span>  
   
-### <a name="update-operation"></a>更新作業  
- 下表顯示更新作業的參數。  
+### <a name="update-operation"></a><span data-ttu-id="b0a26-208">更新作業</span><span class="sxs-lookup"><span data-stu-id="b0a26-208">Update Operation</span></span>  
+ <span data-ttu-id="b0a26-209">下表顯示更新作業的參數。</span><span class="sxs-lookup"><span data-stu-id="b0a26-209">The following table shows the parameters for the Update operation.</span></span>  
   
-|資料錄集|FILTER|  
+|<span data-ttu-id="b0a26-210">資料錄集</span><span class="sxs-lookup"><span data-stu-id="b0a26-210">RECORDSET</span></span>|<span data-ttu-id="b0a26-211">FILTER</span><span class="sxs-lookup"><span data-stu-id="b0a26-211">FILTER</span></span>|  
 |---------------|------------|  
-|根據資料列的目標類型的強型別範本記錄。 範本記錄指定的目標資料列的更新值。 Nillable 資料列的資料行，您可以指定 null 值，指出資料行不應該更新目標資料列中。|SQL WHERE 子句，指定要更新的資料列在目標中的內容。 例如，「 說明 = 'Inserted Record #1' 」。|  
+|<span data-ttu-id="b0a26-212">根據資料列的目標類型的強型別範本記錄。</span><span class="sxs-lookup"><span data-stu-id="b0a26-212">A strongly-typed template record based on the row type of the target.</span></span> <span data-ttu-id="b0a26-213">範本記錄指定的目標資料列的更新值。</span><span class="sxs-lookup"><span data-stu-id="b0a26-213">The template record specifies the update values for the target rows.</span></span> <span data-ttu-id="b0a26-214">Nillable 資料列的資料行，您可以指定 null 值，指出資料行不應該更新目標資料列中。</span><span class="sxs-lookup"><span data-stu-id="b0a26-214">For nillable row columns, you can specify a null value to indicate that the column should not be updated in the target rows.</span></span>|<span data-ttu-id="b0a26-215">SQL WHERE 子句，指定要更新的資料列在目標中的內容。</span><span class="sxs-lookup"><span data-stu-id="b0a26-215">The contents of a SQL WHERE clause that specifies the rows to be updated in the target.</span></span> <span data-ttu-id="b0a26-216">例如，「 說明 = 'Inserted Record #1' 」。</span><span class="sxs-lookup"><span data-stu-id="b0a26-216">For example, "DESCRIPTION= 'Inserted Record #1'".</span></span>|  
   
- 更新作業傳回目標已刪除的資料列的數目。  
+ <span data-ttu-id="b0a26-217">更新作業傳回目標已刪除的資料列的數目。</span><span class="sxs-lookup"><span data-stu-id="b0a26-217">The Update operation returns the number of rows deleted from the target.</span></span>  
   
 > [!IMPORTANT]
->  在 WCF 服務模型中，更新作業中使用的範本記錄是強型別。 如果資料行是 nillable，您可以省略更新作業中的資料行，其值設定為**null**範本記錄; 不過，如果資料行不是 nillable，然後您必須將其值設定範本記錄中。 例如，如果資料行是主索引鍵，它必須包含值。 如需詳細資訊，請參閱[叫用使用 WCF 服務模型的基本 SQL 作業的限制](#BKMK_LimitationsInvoking)。  
+>  <span data-ttu-id="b0a26-218">在 WCF 服務模型中，更新作業中使用的範本記錄是強型別。</span><span class="sxs-lookup"><span data-stu-id="b0a26-218">In the WCF service model, the template record used in the Update operation is strongly-typed.</span></span> <span data-ttu-id="b0a26-219">如果資料行是 nillable，您可以省略更新作業中的資料行，其值設定為**null**範本記錄; 不過，如果資料行不是 nillable，然後您必須將其值設定範本記錄中。</span><span class="sxs-lookup"><span data-stu-id="b0a26-219">If a column is nillable, you can omit the column from the Update operation by setting its value to **null** in the template record; however, if a column is not nillable, then you must set its value in the template record.</span></span> <span data-ttu-id="b0a26-220">例如，如果資料行是主索引鍵，它必須包含值。</span><span class="sxs-lookup"><span data-stu-id="b0a26-220">For example, if a column is a primary key, it must contain a value.</span></span> <span data-ttu-id="b0a26-221">如需詳細資訊，請參閱[叫用使用 WCF 服務模型的基本 SQL 作業的限制](#BKMK_LimitationsInvoking)。</span><span class="sxs-lookup"><span data-stu-id="b0a26-221">For more information, see [Limitations of Invoking the Basic SQL Operations by Using the WCF Service Model](#BKMK_LimitationsInvoking).</span></span>  
   
- 下列程式碼會示範 ACCOUNTACTIVITY 資料表為目標的更新作業。  
+ <span data-ttu-id="b0a26-222">下列程式碼會示範 ACCOUNTACTIVITY 資料表為目標的更新作業。</span><span class="sxs-lookup"><span data-stu-id="b0a26-222">The following code shows an Update operation that targets the ACCOUNTACTIVITY table.</span></span>  
   
 ```  
 long recsUpdated;  
@@ -277,16 +277,16 @@ Console.WriteLine("{0} records updated", recsUpdated);
 ```  
   
 > [!NOTE]
->  此程式碼會省略步驟來建立、 設定及開啟 WCF 用戶端執行個體。 如需範例，其中包含下列步驟，請參閱[插入作業](#BKMK_InsertOperation)。  
+>  <span data-ttu-id="b0a26-223">此程式碼會省略步驟來建立、 設定及開啟 WCF 用戶端執行個體。</span><span class="sxs-lookup"><span data-stu-id="b0a26-223">This code omits steps to create, configure, and open the WCF client instance.</span></span> <span data-ttu-id="b0a26-224">如需範例，其中包含下列步驟，請參閱[插入作業](#BKMK_InsertOperation)。</span><span class="sxs-lookup"><span data-stu-id="b0a26-224">For an example that includes these steps, see [Insert Operation](#BKMK_InsertOperation).</span></span>  
   
-### <a name="delete-operation"></a>刪除動作  
- 下表顯示刪除作業的參數。  
+### <a name="delete-operation"></a><span data-ttu-id="b0a26-225">刪除動作</span><span class="sxs-lookup"><span data-stu-id="b0a26-225">Delete Operation</span></span>  
+ <span data-ttu-id="b0a26-226">下表顯示刪除作業的參數。</span><span class="sxs-lookup"><span data-stu-id="b0a26-226">The following table shows the parameters for the Delete operation.</span></span>  
   
-|FILTER|  
+|<span data-ttu-id="b0a26-227">FILTER</span><span class="sxs-lookup"><span data-stu-id="b0a26-227">FILTER</span></span>|  
 |------------|  
-|SQL WHERE 子句，指定要從目標中刪除的資料列的內容。 例如，「 說明 = 'Inserted Record #1' 」。|  
+|<span data-ttu-id="b0a26-228">SQL WHERE 子句，指定要從目標中刪除的資料列的內容。</span><span class="sxs-lookup"><span data-stu-id="b0a26-228">The contents of a SQL WHERE clause that specifies the rows to be deleted from the target.</span></span> <span data-ttu-id="b0a26-229">例如，「 說明 = 'Inserted Record #1' 」。</span><span class="sxs-lookup"><span data-stu-id="b0a26-229">For example, "DESCRIPTION= 'Inserted Record #1'".</span></span>|  
   
- 刪除作業會傳回從目標已刪除的資料列數目。 下列程式碼會顯示目標 ACCOUNTACTIVITY 資料表的刪除作業。  
+ <span data-ttu-id="b0a26-230">刪除作業會傳回從目標已刪除的資料列數目。</span><span class="sxs-lookup"><span data-stu-id="b0a26-230">The Delete operation returns the number of rows deleted from the target.</span></span> <span data-ttu-id="b0a26-231">下列程式碼會顯示目標 ACCOUNTACTIVITY 資料表的刪除作業。</span><span class="sxs-lookup"><span data-stu-id="b0a26-231">The following code shows a Delete operation that targets the ACCOUNTACTIVITY table.</span></span>  
   
 ```  
 // Set filter string equal to the DESCRIPTION field of the target record  
@@ -306,30 +306,30 @@ Console.WriteLine("{0} records deleted", recsDeleted);
 ```  
   
 > [!NOTE]
->  此程式碼會省略步驟來建立、 設定及開啟 WCF 用戶端執行個體。 如需範例，其中包含下列步驟，請參閱[插入作業](#BKMK_InsertOperation)。  
+>  <span data-ttu-id="b0a26-232">此程式碼會省略步驟來建立、 設定及開啟 WCF 用戶端執行個體。</span><span class="sxs-lookup"><span data-stu-id="b0a26-232">This code omits steps to create, configure, and open the WCF client instance.</span></span> <span data-ttu-id="b0a26-233">如需範例，其中包含下列步驟，請參閱[插入作業](#BKMK_InsertOperation)。</span><span class="sxs-lookup"><span data-stu-id="b0a26-233">For an example that includes these steps, see the [Insert Operation](#BKMK_InsertOperation).</span></span>  
   
-##  <a name="BKMK_LimitationsInvoking"></a>叫用使用 WCF 服務模型的基本 SQL 作業的限制  
- 當您使用 WCF 用戶端叫用的基本 SQL 作業時，就會有下列限制：  
+##  <span data-ttu-id="b0a26-234"><a name="BKMK_LimitationsInvoking"></a>叫用使用 WCF 服務模型的基本 SQL 作業的限制</span><span class="sxs-lookup"><span data-stu-id="b0a26-234"><a name="BKMK_LimitationsInvoking"></a> Limitations of Invoking the Basic SQL Operations by Using the WCF Service Model</span></span>  
+ <span data-ttu-id="b0a26-235">當您使用 WCF 用戶端叫用的基本 SQL 作業時，就會有下列限制：</span><span class="sxs-lookup"><span data-stu-id="b0a26-235">The following limitations exist when you invoke the basic SQL operations by using a WCF client:</span></span>  
   
--   **插入作業。** 在多個記錄插入作業中使用資料錄集是強型別，因此包含所有資料列資料行。 [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]會解譯為記錄，以表示中的 null 值的資料行應該排除插入作業; 不過，非 nillable 資料行無法排除，因為您不能設為 null 的值。 因此，您必須指定非 nillable 資料行的值，當您執行多個記錄插入作業。  
+-   <span data-ttu-id="b0a26-236">**插入作業。**</span><span class="sxs-lookup"><span data-stu-id="b0a26-236">**Insert operation.**</span></span> <span data-ttu-id="b0a26-237">在多個記錄插入作業中使用資料錄集是強型別，因此包含所有資料列資料行。</span><span class="sxs-lookup"><span data-stu-id="b0a26-237">The record set used in a multiple record Insert operation is strongly-typed and therefore includes all row columns.</span></span> <span data-ttu-id="b0a26-238">[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]會解譯為記錄，以表示中的 null 值的資料行應該排除插入作業; 不過，非 nillable 資料行無法排除，因為您不能設為 null 的值。</span><span class="sxs-lookup"><span data-stu-id="b0a26-238">The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] interprets a null value in a record to mean that the column should be excluded from the Insert operation; however, non-nillable columns cannot be excluded because you cannot set them to a null value.</span></span> <span data-ttu-id="b0a26-239">因此，您必須指定非 nillable 資料行的值，當您執行多個記錄插入作業。</span><span class="sxs-lookup"><span data-stu-id="b0a26-239">Therefore, you must specify values for non-nillable columns when you perform a multiple record Insert operation.</span></span>  
   
--   **插入作業。** [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]解譯**DbNull** nillable 資料行的資料表示應該從多個記錄插入作業中排除資料行的值。 這表示您無法將 nillable 資料行設定為**DbNull** Oracle 資料庫中的多個記錄插入作業。  
+-   <span data-ttu-id="b0a26-240">**插入作業。**</span><span class="sxs-lookup"><span data-stu-id="b0a26-240">**Insert operation.**</span></span> <span data-ttu-id="b0a26-241">[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]解譯**DbNull** nillable 資料行的資料表示應該從多個記錄插入作業中排除資料行的值。</span><span class="sxs-lookup"><span data-stu-id="b0a26-241">The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] interprets a **DbNull** value in a nillable data column to mean that the column should be excluded from a multiple record Insert operation.</span></span> <span data-ttu-id="b0a26-242">這表示您無法將 nillable 資料行設定為**DbNull** Oracle 資料庫中的多個記錄插入作業。</span><span class="sxs-lookup"><span data-stu-id="b0a26-242">This means that you cannot set a nillable column to **DbNull** on the Oracle database in a multiple record Insert operation.</span></span>  
   
--   **插入作業。** 沒有資料流支援多個記錄插入作業，涉及大型的資料錄集。  
+-   <span data-ttu-id="b0a26-243">**插入作業。**</span><span class="sxs-lookup"><span data-stu-id="b0a26-243">**Insert operation.**</span></span> <span data-ttu-id="b0a26-244">沒有資料流支援多個記錄插入作業，涉及大型的資料錄集。</span><span class="sxs-lookup"><span data-stu-id="b0a26-244">There is no streaming support for multiple record insert operations that involve a large record set.</span></span>  
   
--   **更新作業。** 在更新作業中使用的範本記錄是強型別，並因此包括所有資料列資料行。 [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]解譯來表示此記錄中的 null 值，應該從更新作業中排除資料行; 不過，非 nillable 資料行無法排除，因為無法 null 值。 因此，您必須指定非 nillable 資料行的值，當您執行更新作業。  
+-   <span data-ttu-id="b0a26-245">**更新作業。**</span><span class="sxs-lookup"><span data-stu-id="b0a26-245">**Update operation.**</span></span> <span data-ttu-id="b0a26-246">在更新作業中使用的範本記錄是強型別，並因此包括所有資料列資料行。</span><span class="sxs-lookup"><span data-stu-id="b0a26-246">The template record used in an Update operation is strongly-typed and therefore includes all row columns.</span></span> <span data-ttu-id="b0a26-247">[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]解譯來表示此記錄中的 null 值，應該從更新作業中排除資料行; 不過，非 nillable 資料行無法排除，因為無法 null 值。</span><span class="sxs-lookup"><span data-stu-id="b0a26-247">The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] interprets a null value in this record to mean that the column should be excluded from the Update operation; however, non-nillable columns cannot be excluded because you cannot them to a null value.</span></span> <span data-ttu-id="b0a26-248">因此，您必須指定非 nillable 資料行的值，當您執行更新作業。</span><span class="sxs-lookup"><span data-stu-id="b0a26-248">Therefore, you must specify values for non-nillable columns when you perform an Update operation.</span></span>  
   
--   **更新作業。** [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]解譯**DbNull** nillable 資料行範本記錄来表示應該從作業中排除資料行中的值。 這表示您無法將 nillable 資料行設定為**DbNull**使用更新作業的 Oracle 資料庫上。  
+-   <span data-ttu-id="b0a26-249">**更新作業。**</span><span class="sxs-lookup"><span data-stu-id="b0a26-249">**Update operation.**</span></span> <span data-ttu-id="b0a26-250">[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]解譯**DbNull** nillable 資料行範本記錄来表示應該從作業中排除資料行中的值。</span><span class="sxs-lookup"><span data-stu-id="b0a26-250">The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] interprets a **DbNull** value in a nillable data column in the template record to mean that the column should be excluded from the operation.</span></span> <span data-ttu-id="b0a26-251">這表示您無法將 nillable 資料行設定為**DbNull**使用更新作業的 Oracle 資料庫上。</span><span class="sxs-lookup"><span data-stu-id="b0a26-251">This means that you cannot set a nillable column to **DbNull** on the Oracle database by using the Update operation.</span></span>  
   
--   **選取作業。** 沒有資料流傳回大型的資料錄集的 SELECT 查詢支援。  
+-   <span data-ttu-id="b0a26-252">**選取作業。**</span><span class="sxs-lookup"><span data-stu-id="b0a26-252">**Select operation.**</span></span> <span data-ttu-id="b0a26-253">沒有資料流傳回大型的資料錄集的 SELECT 查詢支援。</span><span class="sxs-lookup"><span data-stu-id="b0a26-253">There is no streaming support for SELECT queries that return a large record set.</span></span>  
   
- 其中這些限制會呈現挑戰的情況下，您可以使用 WCF 通道模型，因為叫用作業：  
+ <span data-ttu-id="b0a26-254">其中這些限制會呈現挑戰的情況下，您可以使用 WCF 通道模型，因為叫用作業：</span><span class="sxs-lookup"><span data-stu-id="b0a26-254">For scenarios where these limitations present challenges, you can invoke the operation by using the WCF channel model because:</span></span>  
   
--   藉由使用 WCF 通道模型，您可以排除特定的資料行 Update 和 Insert 作業。  
+-   <span data-ttu-id="b0a26-255">藉由使用 WCF 通道模型，您可以排除特定的資料行 Update 和 Insert 作業。</span><span class="sxs-lookup"><span data-stu-id="b0a26-255">By using the WCF channel model, you can exclude specific data columns from Update and Insert operations.</span></span>  
   
--   WCF 通道模型提供節點層級的資料流支援基本的 SQL 作業，[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]公開。  
+-   <span data-ttu-id="b0a26-256">WCF 通道模型提供節點層級的資料流支援基本的 SQL 作業，[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]公開。</span><span class="sxs-lookup"><span data-stu-id="b0a26-256">The WCF channel model provides node-level streaming support for the basic SQL operations that the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] exposes.</span></span>  
   
- 如需有關使用 WCF 通道模型與[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]，請參閱[開發 Oracle 資料庫應用程式使用 WCF 通道模型](../../adapters-and-accelerators/adapter-oracle-database/develop-oracle-database-applications-using-the-wcf-channel-model.md)。  
+ <span data-ttu-id="b0a26-257">如需有關使用 WCF 通道模型與[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]，請參閱[開發 Oracle 資料庫應用程式使用 WCF 通道模型](../../adapters-and-accelerators/adapter-oracle-database/develop-oracle-database-applications-using-the-wcf-channel-model.md)。</span><span class="sxs-lookup"><span data-stu-id="b0a26-257">For more information about using the WCF channel model with the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], see [Develop Oracle Database Applications Using the WCF Channel Model](../../adapters-and-accelerators/adapter-oracle-database/develop-oracle-database-applications-using-the-wcf-channel-model.md).</span></span>  
   
-## <a name="see-also"></a>另請參閱  
- [Oracle 資料庫使用開發應用程式的 WCF 通道模型](../../adapters-and-accelerators/adapter-oracle-database/develop-oracle-database-applications-using-the-wcf-channel-model.md)
+## <a name="see-also"></a><span data-ttu-id="b0a26-258">另請參閱</span><span class="sxs-lookup"><span data-stu-id="b0a26-258">See Also</span></span>  
+ [<span data-ttu-id="b0a26-259">Oracle 資料庫使用開發應用程式的 WCF 通道模型</span><span class="sxs-lookup"><span data-stu-id="b0a26-259">Develop Oracle Database Applications Using the WCF Channel Model</span></span>](../../adapters-and-accelerators/adapter-oracle-database/develop-oracle-database-applications-using-the-wcf-channel-model.md)

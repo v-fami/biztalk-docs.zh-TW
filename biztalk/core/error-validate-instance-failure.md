@@ -19,11 +19,11 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---validate-instance-failure"></a>錯誤-驗證執行個體失敗
-**說明**  
+# <a name="error---validate-instance-failure"></a><span data-ttu-id="fcd2e-102">錯誤-驗證執行個體失敗</span><span class="sxs-lookup"><span data-stu-id="fcd2e-102">Error - Validate Instance Failure</span></span>
+<span data-ttu-id="fcd2e-103">**說明**</span><span class="sxs-lookup"><span data-stu-id="fcd2e-103">**Explanation**</span></span>  
   
- **驗證執行個體**命令無法驗證指定的執行個體訊息檔案是否符合指定的結構描述。  
+ <span data-ttu-id="fcd2e-104">**驗證執行個體**命令無法驗證指定的執行個體訊息檔案是否符合指定的結構描述。</span><span class="sxs-lookup"><span data-stu-id="fcd2e-104">The **Validate Instance** command failed to validate that the indicated instance message file conforms to the indicated schema.</span></span>  
   
- **使用者動作**  
+ <span data-ttu-id="fcd2e-105">**使用者動作**</span><span class="sxs-lookup"><span data-stu-id="fcd2e-105">**User Action**</span></span>  
   
- 檢視伴隨的錯誤訊息，以判斷執行個體驗證失敗的原因。
+ <span data-ttu-id="fcd2e-106">檢視伴隨的錯誤訊息，以判斷執行個體驗證失敗的原因。</span><span class="sxs-lookup"><span data-stu-id="fcd2e-106">Examine the accompanying error messages to determine the cause of the instance validation failure.</span></span>

@@ -18,13 +18,13 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="edi-acknowledgment-structure"></a>EDI 通知結構
-本節包含的主題說明 X12 和 EDIFACT 編碼通知訊息的結構。  
+# <a name="edi-acknowledgment-structure"></a><span data-ttu-id="0184d-102">EDI 通知結構</span><span class="sxs-lookup"><span data-stu-id="0184d-102">EDI Acknowledgment Structure</span></span>
+<span data-ttu-id="0184d-103">本節包含的主題說明 X12 和 EDIFACT 編碼通知訊息的結構。</span><span class="sxs-lookup"><span data-stu-id="0184d-103">This section contains topics describing the structure of X12- and EDIFACT-encoded acknowledgment messages.</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="0184d-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="0184d-104">In This Section</span></span>  
   
--   [X12 TA1 通知](../core/x12-ta1-acknowledgment.md)  
+-   [<span data-ttu-id="0184d-105">X12 TA1 通知</span><span class="sxs-lookup"><span data-stu-id="0184d-105">X12 TA1 Acknowledgment</span></span>](../core/x12-ta1-acknowledgment.md)  
   
--   [X12 997 通知](../core/x12-997-acknowledgment.md)  
+-   [<span data-ttu-id="0184d-106">X12 997 通知</span><span class="sxs-lookup"><span data-stu-id="0184d-106">X12 997 Acknowledgment</span></span>](../core/x12-997-acknowledgment.md)  
   
--   [EDIFACT CONTRL 通知](../core/edifact-contrl-acknowledgment.md)
+-   [<span data-ttu-id="0184d-107">EDIFACT CONTRL 通知</span><span class="sxs-lookup"><span data-stu-id="0184d-107">EDIFACT CONTRL Acknowledgment</span></span>](../core/edifact-contrl-acknowledgment.md)

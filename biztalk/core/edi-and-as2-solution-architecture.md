@@ -18,13 +18,13 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="edi-and-as2-solution-architecture"></a>EDI 和 AS2 方案架構
-本節提供 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI 和 AS2 方案的相關資訊，以協助您規劃環境。  
+# <a name="edi-and-as2-solution-architecture"></a><span data-ttu-id="2201f-102">EDI 和 AS2 方案架構</span><span class="sxs-lookup"><span data-stu-id="2201f-102">EDI and AS2 solution architecture</span></span>
+<span data-ttu-id="2201f-103">本節提供 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI 和 AS2 方案的相關資訊，以協助您規劃環境。</span><span class="sxs-lookup"><span data-stu-id="2201f-103">This section provides information about [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI and AS2 solutions to help you plan your environment.</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="2201f-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="2201f-104">In This Section</span></span>  
   
--   [EDI 解決方案架構](../core/edi-solution-architecture.md)  
+-   [<span data-ttu-id="2201f-105">EDI 解決方案架構</span><span class="sxs-lookup"><span data-stu-id="2201f-105">EDI Solution Architecture</span></span>](../core/edi-solution-architecture.md)  
   
--   [AS2 方案架構](../core/as2-solution-architecture.md)  
+-   [<span data-ttu-id="2201f-106">AS2 方案架構</span><span class="sxs-lookup"><span data-stu-id="2201f-106">AS2 Solution Architecture</span></span>](../core/as2-solution-architecture.md)  
   
--   [EDI 和 AS2 狀態報告](../core/edi-and-as2-status-reporting.md)
+-   [<span data-ttu-id="2201f-107">EDI 和 AS2 狀態報告</span><span class="sxs-lookup"><span data-stu-id="2201f-107">EDI and AS2 Status Reporting</span></span>](../core/edi-and-as2-status-reporting.md)

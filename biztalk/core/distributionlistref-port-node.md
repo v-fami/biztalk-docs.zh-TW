@@ -19,15 +19,15 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="distributionlistref-port-node"></a>DistributionListRef (連接埠節點)
-繫結檔案之 [連接埠] 節點的 [DistributionListRef] 節點包含由服務所參考之通訊群組清單的相關資訊。  
+# <a name="distributionlistref-port-node"></a><span data-ttu-id="20db9-102">DistributionListRef (連接埠節點)</span><span class="sxs-lookup"><span data-stu-id="20db9-102">DistributionListRef (Port Node)</span></span>
+<span data-ttu-id="20db9-103">繫結檔案之 [連接埠] 節點的 [DistributionListRef] 節點包含由服務所參考之通訊群組清單的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="20db9-103">The DistributionListRef node of the Port node of a binding file contains information about a distribution list that is referenced by a service.</span></span>  
   
 > [!NOTE]
->  通訊群組清單在 BizTalk Server「管理主控台」中也稱為傳送埠群組。  
+>  <span data-ttu-id="20db9-104">通訊群組清單在 BizTalk Server「管理主控台」中也稱為傳送埠群組。</span><span class="sxs-lookup"><span data-stu-id="20db9-104">Distribution lists are referred to as send port groups in the BizTalk Server Administration Console.</span></span>  
   
-## <a name="nodes-in-the-distributionlistref-node"></a>DistributionListRef 節點中的節點  
- 下表列出可以為繫結檔案中的這個節點設定的屬性：  
+## <a name="nodes-in-the-distributionlistref-node"></a><span data-ttu-id="20db9-105">DistributionListRef 節點中的節點</span><span class="sxs-lookup"><span data-stu-id="20db9-105">Nodes in the DistributionListRef node</span></span>  
+ <span data-ttu-id="20db9-106">下表列出可以為繫結檔案中的這個節點設定的屬性：</span><span class="sxs-lookup"><span data-stu-id="20db9-106">The following table lists the properties that can be set for this node of a binding file:</span></span>  
   
-|**名稱**|**節點類型**|**資料類型**|**說明**|**限制**|**註解**|  
+|<span data-ttu-id="20db9-107">**名稱**</span><span class="sxs-lookup"><span data-stu-id="20db9-107">**Name**</span></span>|<span data-ttu-id="20db9-108">**節點類型**</span><span class="sxs-lookup"><span data-stu-id="20db9-108">**Node Type**</span></span>|<span data-ttu-id="20db9-109">**資料類型**</span><span class="sxs-lookup"><span data-stu-id="20db9-109">**Data Type**</span></span>|<span data-ttu-id="20db9-110">**說明**</span><span class="sxs-lookup"><span data-stu-id="20db9-110">**Description**</span></span>|<span data-ttu-id="20db9-111">**限制**</span><span class="sxs-lookup"><span data-stu-id="20db9-111">**Restrictions**</span></span>|<span data-ttu-id="20db9-112">**註解**</span><span class="sxs-lookup"><span data-stu-id="20db9-112">**Comments**</span></span>|  
 |--------------|-------------------|-------------------|---------------------|----------------------|------------------|  
-|名稱|Attribute|xs:string|指定由服務所參考的通訊群組清單名稱。|不需要|預設值：空白|
+|<span data-ttu-id="20db9-113">名稱</span><span class="sxs-lookup"><span data-stu-id="20db9-113">Name</span></span>|<span data-ttu-id="20db9-114">Attribute</span><span class="sxs-lookup"><span data-stu-id="20db9-114">Attribute</span></span>|<span data-ttu-id="20db9-115">xs:string</span><span class="sxs-lookup"><span data-stu-id="20db9-115">xs:string</span></span>|<span data-ttu-id="20db9-116">指定由服務所參考的通訊群組清單名稱。</span><span class="sxs-lookup"><span data-stu-id="20db9-116">Specifies the name of a distribution list that is referenced by a service.</span></span>|<span data-ttu-id="20db9-117">不需要</span><span class="sxs-lookup"><span data-stu-id="20db9-117">Not required</span></span>|<span data-ttu-id="20db9-118">預設值：空白</span><span class="sxs-lookup"><span data-stu-id="20db9-118">Default value: empty</span></span>|

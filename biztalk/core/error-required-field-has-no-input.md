@@ -19,15 +19,15 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---required-field-has-no-input"></a>錯誤-必要的欄位有沒有輸入
-**錯誤碼**  
+# <a name="error---required-field-has-no-input"></a><span data-ttu-id="e9ec0-102">錯誤-必要的欄位有沒有輸入</span><span class="sxs-lookup"><span data-stu-id="e9ec0-102">Error - Required Field Has No Input</span></span>
+<span data-ttu-id="e9ec0-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="e9ec0-103">**Error Code**</span></span>  
   
- btm1028  
+ <span data-ttu-id="e9ec0-104">btm1028</span><span class="sxs-lookup"><span data-stu-id="e9ec0-104">btm1028</span></span>  
   
- **說明**  
+ <span data-ttu-id="e9ec0-105">**說明**</span><span class="sxs-lookup"><span data-stu-id="e9ec0-105">**Explanation**</span></span>  
   
- 目的結構描述中的指定節點已指定為必要，但沒有連入連結、常數值或預設值，因此將不會包含在此對應所提供的輸出執行個體訊息中。  
+ <span data-ttu-id="e9ec0-106">目的結構描述中的指定節點已指定為必要，但沒有連入連結、常數值或預設值，因此將不會包含在此對應所提供的輸出執行個體訊息中。</span><span class="sxs-lookup"><span data-stu-id="e9ec0-106">The indicated node in the destination schema is specified as required, yet has no incoming link, constant value, or default value, and thus will not be included in output instance messages provided by this map.</span></span>  
   
- **使用者動作**  
+ <span data-ttu-id="e9ec0-107">**使用者動作**</span><span class="sxs-lookup"><span data-stu-id="e9ec0-107">**User Action**</span></span>  
   
- 視需要而定，將目的結構描述中的指定節點變更為選擇性，或為它提供連入連結、常數值或預設值。
+ <span data-ttu-id="e9ec0-108">視需要而定，將目的結構描述中的指定節點變更為選擇性，或為它提供連入連結、常數值或預設值。</span><span class="sxs-lookup"><span data-stu-id="e9ec0-108">As appropriate, either change the indicated node in the destination schema to optional, or provide an incoming link, constant value, or default value for it.</span></span>

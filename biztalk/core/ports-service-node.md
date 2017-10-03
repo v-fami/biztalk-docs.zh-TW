@@ -19,12 +19,12 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="ports-service-node"></a>連接埠 (服務節點)
-繫結檔案的 [連接埠] 節點是所有 [連接埠] 節點的父節點，這些 [連接埠] 節點包含隨同繫結檔案一起匯出之繫結至服務的連接埠的特定相關資訊。  
+# <a name="ports-service-node"></a><span data-ttu-id="ca239-102">連接埠 (服務節點)</span><span class="sxs-lookup"><span data-stu-id="ca239-102">Ports (Service Node)</span></span>
+<span data-ttu-id="ca239-103">繫結檔案的 [連接埠] 節點是所有 [連接埠] 節點的父節點，這些 [連接埠] 節點包含隨同繫結檔案一起匯出之繫結至服務的連接埠的特定相關資訊。</span><span class="sxs-lookup"><span data-stu-id="ca239-103">The Ports node of a binding file is the parent node for all of the Port nodes which contain specific information about ports bound to a service that is exported with the binding file.</span></span>  
   
-## <a name="node-in-the-ports-node"></a>連接埠節點中的節點  
- 下表列出可以為繫結檔案中的這個節點設定的屬性：  
+## <a name="node-in-the-ports-node"></a><span data-ttu-id="ca239-104">連接埠節點中的節點</span><span class="sxs-lookup"><span data-stu-id="ca239-104">Node in the Ports node</span></span>  
+ <span data-ttu-id="ca239-105">下表列出可以為繫結檔案中的這個節點設定的屬性：</span><span class="sxs-lookup"><span data-stu-id="ca239-105">The following table lists the properties that can be set for this node of a binding file:</span></span>  
   
-|**名稱**|**節點類型**|**資料類型**|**說明**|**限制**|**註解**|  
+|<span data-ttu-id="ca239-106">**名稱**</span><span class="sxs-lookup"><span data-stu-id="ca239-106">**Name**</span></span>|<span data-ttu-id="ca239-107">**節點類型**</span><span class="sxs-lookup"><span data-stu-id="ca239-107">**Node Type**</span></span>|<span data-ttu-id="ca239-108">**資料類型**</span><span class="sxs-lookup"><span data-stu-id="ca239-108">**Data Type**</span></span>|<span data-ttu-id="ca239-109">**說明**</span><span class="sxs-lookup"><span data-stu-id="ca239-109">**Description**</span></span>|<span data-ttu-id="ca239-110">**限制**</span><span class="sxs-lookup"><span data-stu-id="ca239-110">**Restrictions**</span></span>|<span data-ttu-id="ca239-111">**註解**</span><span class="sxs-lookup"><span data-stu-id="ca239-111">**Comments**</span></span>|  
 |--------------|-------------------|-------------------|---------------------|----------------------|------------------|  
-|[[通訊埠]](../core/port-ports-node.md)|記錄|ServicePortRef (ComplexType)|指定繫結至隨同繫結檔案匯出之服務的連接埠特定資訊。|不需要|預設值：無|
+|<span data-ttu-id="ca239-112">[[通訊埠]](../core/port-ports-node.md)</span><span class="sxs-lookup"><span data-stu-id="ca239-112">[Port](../core/port-ports-node.md)</span></span>|<span data-ttu-id="ca239-113">記錄</span><span class="sxs-lookup"><span data-stu-id="ca239-113">Record</span></span>|<span data-ttu-id="ca239-114">ServicePortRef (ComplexType)</span><span class="sxs-lookup"><span data-stu-id="ca239-114">ServicePortRef (ComplexType)</span></span>|<span data-ttu-id="ca239-115">指定繫結至隨同繫結檔案匯出之服務的連接埠特定資訊。</span><span class="sxs-lookup"><span data-stu-id="ca239-115">Specifies information about a port that is bound to a service that is exported with the binding file.</span></span>|<span data-ttu-id="ca239-116">不需要</span><span class="sxs-lookup"><span data-stu-id="ca239-116">Not required</span></span>|<span data-ttu-id="ca239-117">預設值：無</span><span class="sxs-lookup"><span data-stu-id="ca239-117">Default value: none</span></span>|

@@ -21,10 +21,10 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="sample-schema-presentation"></a>範例結構描述簡報
-下圖顯示範例 XSD 結構描述 SWIFT 交換。  
+# <a name="sample-schema-presentation"></a><span data-ttu-id="eaf40-102">範例結構描述簡報</span><span class="sxs-lookup"><span data-stu-id="eaf40-102">Sample Schema Presentation</span></span>
+<span data-ttu-id="eaf40-103">下圖顯示範例 XSD 結構描述 SWIFT 交換。</span><span class="sxs-lookup"><span data-stu-id="eaf40-103">The following figure shows a sample XSD schema for a SWIFT Interchange.</span></span>  
   
  ![](../../adapters-and-accelerators/accelerator-swift/media/intro-sampleschema.gif "Intro_SampleSchema")  
   
-## <a name="see-also"></a>另請參閱  
- [SWIFT 的結構描述](../../adapters-and-accelerators/accelerator-swift/swift-schemas.md)
+## <a name="see-also"></a><span data-ttu-id="eaf40-104">另請參閱</span><span class="sxs-lookup"><span data-stu-id="eaf40-104">See Also</span></span>  
+ [<span data-ttu-id="eaf40-105">SWIFT 的結構描述</span><span class="sxs-lookup"><span data-stu-id="eaf40-105">SWIFT Schemas</span></span>](../../adapters-and-accelerators/accelerator-swift/swift-schemas.md)

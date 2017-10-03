@@ -21,10 +21,10 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="completing-the-exception-message"></a>完成例外狀況訊息
-若要完成例外狀況流程，請新增「傳送」圖形以便將錯誤 Message_3 加入監控的資料夾。  
+# <a name="completing-the-exception-message"></a><span data-ttu-id="0f21a-102">完成例外狀況訊息</span><span class="sxs-lookup"><span data-stu-id="0f21a-102">Completing the Exception Message</span></span>
+<span data-ttu-id="0f21a-103">若要完成例外狀況流程，請新增「傳送」圖形以便將錯誤 Message_3 加入監控的資料夾。</span><span class="sxs-lookup"><span data-stu-id="0f21a-103">To complete the flow of the exception, add a Send shape to add the fault Message_3 to a monitored folder.</span></span>  
   
  ![](../core/media/siebeladapter-15-exceptionhandling-start.gif "SiebelAdapter_15_ExceptionHandling_Start")  
   
-## <a name="see-also"></a>另請參閱  
- [使用 BizTalk Server 例外狀況處理](../core/using-biztalk-server-exception-handling2.md)
+## <a name="see-also"></a><span data-ttu-id="0f21a-104">另請參閱</span><span class="sxs-lookup"><span data-stu-id="0f21a-104">See Also</span></span>  
+ [<span data-ttu-id="0f21a-105">使用 BizTalk Server 例外狀況處理</span><span class="sxs-lookup"><span data-stu-id="0f21a-105">Using BizTalk Server Exception Handling</span></span>](../core/using-biztalk-server-exception-handling2.md)

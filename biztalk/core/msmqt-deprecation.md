@@ -18,18 +18,18 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="msmqt-deprecation"></a>MSMQT 過時
-MSMQT 功能已經自 BizTalk Server 移除。 在協調流程設計師中，MSMQT 傳輸選項仍然可在設計階段連接埠組態精靈中下當您選擇的映像中所示**現在指定**選項**連接埠繫結**.  
+# <a name="msmqt-deprecation"></a><span data-ttu-id="04abd-102">MSMQT 過時</span><span class="sxs-lookup"><span data-stu-id="04abd-102">MSMQT Deprecation</span></span>
+<span data-ttu-id="04abd-103">MSMQT 功能已經自 BizTalk Server 移除。</span><span class="sxs-lookup"><span data-stu-id="04abd-103">The MSMQT feature has been removed from BizTalk Server.</span></span> <span data-ttu-id="04abd-104">在協調流程設計師中，MSMQT 傳輸選項仍然可在設計階段連接埠組態精靈中下當您選擇的映像中所示**現在指定**選項**連接埠繫結**.</span><span class="sxs-lookup"><span data-stu-id="04abd-104">In Orchestration Designer, the MSMQT transport option remains available in the design-time Port Configuration Wizard as shown in the image below when you choose the **Specify now** option for **Port binding**.</span></span>  
   
- **顯示 MSMQT 傳輸的連接埠組態精靈**  
+ <span data-ttu-id="04abd-105">**顯示 MSMQT 傳輸的連接埠組態精靈**</span><span class="sxs-lookup"><span data-stu-id="04abd-105">**Port Configuration Wizard showing MSMQT transport**</span></span>  
   
  ![](../core/media/portconfigurationwizard-msmqt-transport.gif "PortConfigurationWizard_MSMQT_Transport")  
   
-## <a name="biztalk-server-projects"></a>BizTalk Server 專案  
- 新的 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 專案不應該使用 MSMQT 傳輸選項。 應用程式部署至[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]將會失敗並出現錯誤**通訊協定類型"MSMQT"找不到**。  
+## <a name="biztalk-server-projects"></a><span data-ttu-id="04abd-106">BizTalk Server 專案</span><span class="sxs-lookup"><span data-stu-id="04abd-106">BizTalk Server Projects</span></span>  
+ <span data-ttu-id="04abd-107">新的 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 專案不應該使用 MSMQT 傳輸選項。</span><span class="sxs-lookup"><span data-stu-id="04abd-107">New [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] projects should not use the MSMQT transport option.</span></span> <span data-ttu-id="04abd-108">應用程式部署至[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]將會失敗並出現錯誤**通訊協定類型"MSMQT"找不到**。</span><span class="sxs-lookup"><span data-stu-id="04abd-108">Application deployment to [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] will fail with the error **Protocol type “MSMQT” not found**.</span></span>  
   
-## <a name="migrated-biztalk-server-projects"></a>移轉的 BizTalk Server 專案  
- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]專案可以移轉到[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]使用[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]如中所述的轉換精靈[移轉 BizTalk Server 專案](../core/migrating-a-biztalk-server-project.md)。 如果專案所含的連接埠已設為搭配 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 使用 MSMQT 傳輸，則您必須先手動設定這些專案，才能將這些專案部署至 。 建議的重新設定是使用 MSMQ 配接器。  如需 MSMQ 配接器的詳細資訊，請參閱[什麼是 MSMQ 配接器？](../core/what-is-the-msmq-adapter.md)。  
+## <a name="migrated-biztalk-server-projects"></a><span data-ttu-id="04abd-109">移轉的 BizTalk Server 專案</span><span class="sxs-lookup"><span data-stu-id="04abd-109">Migrated BizTalk Server Projects</span></span>  
+ [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="04abd-110">專案可以移轉到[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]使用[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]如中所述的轉換精靈[移轉 BizTalk Server 專案](../core/migrating-a-biztalk-server-project.md)。</span><span class="sxs-lookup"><span data-stu-id="04abd-110"> projects can be migrated to [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] by using the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Conversion Wizard as documented in [Migrating a BizTalk Server Project](../core/migrating-a-biztalk-server-project.md).</span></span> <span data-ttu-id="04abd-111">如果專案所含的連接埠已設為搭配 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 使用 MSMQT 傳輸，則您必須先手動設定這些專案，才能將這些專案部署至 。</span><span class="sxs-lookup"><span data-stu-id="04abd-111">Projects containing ports configured to use the MSMQT transport must be manually reconfigured before deployment to [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)].</span></span> <span data-ttu-id="04abd-112">建議的重新設定是使用 MSMQ 配接器。</span><span class="sxs-lookup"><span data-stu-id="04abd-112">The recommended reconfiguration is to use the MSMQ adapter.</span></span>  <span data-ttu-id="04abd-113">如需 MSMQ 配接器的詳細資訊，請參閱[什麼是 MSMQ 配接器？](../core/what-is-the-msmq-adapter.md)。</span><span class="sxs-lookup"><span data-stu-id="04abd-113">For more information about the MSMQ adapter see [What Is the MSMQ Adapter?](../core/what-is-the-msmq-adapter.md).</span></span>  
   
-## <a name="see-also"></a>另請參閱  
- [從 MSMQT 配接器移轉至 MSMQ 配接器](../core/migrating-from-the-msmqt-adapter-to-the-msmq-adapter.md)
+## <a name="see-also"></a><span data-ttu-id="04abd-114">另請參閱</span><span class="sxs-lookup"><span data-stu-id="04abd-114">See Also</span></span>  
+ [<span data-ttu-id="04abd-115">從 MSMQT 配接器移轉至 MSMQ 配接器</span><span class="sxs-lookup"><span data-stu-id="04abd-115">Migrating from the MSMQT Adapter to the MSMQ Adapter</span></span>](../core/migrating-from-the-msmqt-adapter-to-the-msmq-adapter.md)

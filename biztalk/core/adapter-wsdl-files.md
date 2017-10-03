@@ -18,12 +18,12 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="adapter-wsdl-files"></a>配接器 WSDL 檔案
-在 新增配接器中繼資料精靈 Web 服務描述語言 (WSDL) 檔案會選取並將其輸入**選取要匯入服務**頁面。 該精靈會讀取由服務公開並由使用者選取的 WSDL 檔案。 然後便會在 BizTalk 專案中建立並新增一個 XSD 檔案，以及一個協調流程。  
+# <a name="adapter-wsdl-files"></a><span data-ttu-id="5a612-102">配接器 WSDL 檔案</span><span class="sxs-lookup"><span data-stu-id="5a612-102">Adapter WSDL Files</span></span>
+<span data-ttu-id="5a612-103">在 新增配接器中繼資料精靈 Web 服務描述語言 (WSDL) 檔案會選取並將其輸入**選取要匯入服務**頁面。</span><span class="sxs-lookup"><span data-stu-id="5a612-103">In the Add Adapter Metadata Wizard the Web Services Description Language (WSDL) file is selected and input on the **Select Services to Import** page.</span></span> <span data-ttu-id="5a612-104">該精靈會讀取由服務公開並由使用者選取的 WSDL 檔案。</span><span class="sxs-lookup"><span data-stu-id="5a612-104">The wizard reads the WSDL files exposed by the service and selected by the user.</span></span> <span data-ttu-id="5a612-105">然後便會在 BizTalk 專案中建立並新增一個 XSD 檔案，以及一個協調流程。</span><span class="sxs-lookup"><span data-stu-id="5a612-105">It then creates and adds an XSD file and an orchestration in the BizTalk project.</span></span>  
   
- 在範例 FILE 配接器中，Service1.wsdl 檔案包含 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 新增至專案的 XSD 定義。 您可以選擇修改 Service1.wsdl 檔案，或是建立您自己的 WSDL 檔案 (其中包含新增至 BizTalk 專案的 XSD 定義)。  
+ <span data-ttu-id="5a612-106">在範例 FILE 配接器中，Service1.wsdl 檔案包含 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 新增至專案的 XSD 定義。</span><span class="sxs-lookup"><span data-stu-id="5a612-106">In the sample file adapter, the Service1.wsdl file contains the XSD definitions that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adds to the project.</span></span> <span data-ttu-id="5a612-107">您可以選擇修改 Service1.wsdl 檔案，或是建立您自己的 WSDL 檔案 (其中包含新增至 BizTalk 專案的 XSD 定義)。</span><span class="sxs-lookup"><span data-stu-id="5a612-107">You may choose to modify the Service1.wsdl file or create your own WSDL file that contains the XSD definitions to add to your BizTalk project.</span></span>  
   
- 下列程式碼來自於 Service1.wsdl 檔案：  
+ <span data-ttu-id="5a612-108">下列程式碼來自於 Service1.wsdl 檔案：</span><span class="sxs-lookup"><span data-stu-id="5a612-108">The following code is from the Service1.wsdl file:</span></span>  
   
 ```  
 <?xml version="1.0" encoding="utf-8"?>  

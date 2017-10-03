@@ -21,13 +21,13 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="administrative-operations"></a>管理作業
-本節說明 IT 專業人員用來維護電腦系統的程序，[!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]上已安裝。  
+# <a name="administrative-operations"></a><span data-ttu-id="d87df-102">管理作業</span><span class="sxs-lookup"><span data-stu-id="d87df-102">Administrative Operations</span></span>
+<span data-ttu-id="d87df-103">本節說明 IT 專業人員用來維護電腦系統的程序，[!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]上已安裝。</span><span class="sxs-lookup"><span data-stu-id="d87df-103">This section documents procedures used by IT Professionals to maintain computer systems that [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] is installed on.</span></span>  
   
- 此部分包含：  
+ <span data-ttu-id="d87df-104">此部分包含：</span><span class="sxs-lookup"><span data-stu-id="d87df-104">This section contains:</span></span>  
   
--   [使用 BRE 原則](../../adapters-and-accelerators/accelerator-swift/working-with-bre-policies.md)  
+-   [<span data-ttu-id="d87df-105">使用 BRE 原則</span><span class="sxs-lookup"><span data-stu-id="d87df-105">Working with BRE Policies</span></span>](../../adapters-and-accelerators/accelerator-swift/working-with-bre-policies.md)  
   
--   [自訂訊息修復和新送出](../../adapters-and-accelerators/accelerator-swift/customizing-message-repair-and-new-submission.md)  
+-   [<span data-ttu-id="d87df-106">自訂訊息修復和新送出</span><span class="sxs-lookup"><span data-stu-id="d87df-106">Customizing Message Repair and New Submission</span></span>](../../adapters-and-accelerators/accelerator-swift/customizing-message-repair-and-new-submission.md)  
   
--   [管理 FIN 回應對帳](../../adapters-and-accelerators/accelerator-swift/administering-fin-response-reconciliation.md)
+-   [<span data-ttu-id="d87df-107">管理 FIN 回應對帳</span><span class="sxs-lookup"><span data-stu-id="d87df-107">Administering FIN Response Reconciliation</span></span>](../../adapters-and-accelerators/accelerator-swift/administering-fin-response-reconciliation.md)

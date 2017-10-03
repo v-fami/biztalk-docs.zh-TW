@@ -22,39 +22,39 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="creating-pipelines-with-pipeline-designer"></a>使用管線設計師建立管線
-本節說明如何：  
+# <a name="creating-pipelines-with-pipeline-designer"></a><span data-ttu-id="2af0b-102">使用管線設計師建立管線</span><span class="sxs-lookup"><span data-stu-id="2af0b-102">Creating Pipelines with Pipeline Designer</span></span>
+<span data-ttu-id="2af0b-103">本節說明如何：</span><span class="sxs-lookup"><span data-stu-id="2af0b-103">This section describes how to:</span></span>  
   
--   建立、開啟和儲存管線  
+-   <span data-ttu-id="2af0b-104">建立、開啟和儲存管線</span><span class="sxs-lookup"><span data-stu-id="2af0b-104">Create, open, and save pipelines</span></span>  
   
--   新增元件至管線  
+-   <span data-ttu-id="2af0b-105">新增元件至管線</span><span class="sxs-lookup"><span data-stu-id="2af0b-105">Add components to a pipeline</span></span>  
   
--   使用結構描述集合屬性編輯器  
+-   <span data-ttu-id="2af0b-106">使用結構描述集合屬性編輯器</span><span class="sxs-lookup"><span data-stu-id="2af0b-106">Use the Schema Collection Property Editor</span></span>  
   
--   使用工具箱  
+-   <span data-ttu-id="2af0b-107">使用工具箱</span><span class="sxs-lookup"><span data-stu-id="2af0b-107">Use the Toolbox</span></span>  
   
--   使用鍵盤巡覽  
+-   <span data-ttu-id="2af0b-108">使用鍵盤巡覽</span><span class="sxs-lookup"><span data-stu-id="2af0b-108">Navigate with the keyboard</span></span>  
   
--   搭配使用唯讀管線元件屬性。  
+-   <span data-ttu-id="2af0b-109">搭配使用唯讀管線元件屬性。</span><span class="sxs-lookup"><span data-stu-id="2af0b-109">Work with read-only pipeline component properties.</span></span>  
   
- 如需使用管線設計師 」 的資訊，請參閱[使用管線設計師](../core/using-pipeline-designer.md)。  
+ <span data-ttu-id="2af0b-110">如需使用管線設計師 」 的資訊，請參閱[使用管線設計師](../core/using-pipeline-designer.md)。</span><span class="sxs-lookup"><span data-stu-id="2af0b-110">For information about using Pipeline Designer, see [Using Pipeline Designer](../core/using-pipeline-designer.md).</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="2af0b-111">本節內容</span><span class="sxs-lookup"><span data-stu-id="2af0b-111">In This Section</span></span>  
   
--   [如何建立新的管線](../core/how-to-create-a-new-pipeline.md)  
+-   [<span data-ttu-id="2af0b-112">如何建立新的管線</span><span class="sxs-lookup"><span data-stu-id="2af0b-112">How to Create a New Pipeline</span></span>](../core/how-to-create-a-new-pipeline.md)  
   
--   [如何開啟管線](../core/how-to-open-a-pipeline.md)  
+-   [<span data-ttu-id="2af0b-113">如何開啟管線</span><span class="sxs-lookup"><span data-stu-id="2af0b-113">How to Open a Pipeline</span></span>](../core/how-to-open-a-pipeline.md)  
   
--   [如何新增元件至管線](../core/how-to-add-a-component-to-a-pipeline.md)  
+-   [<span data-ttu-id="2af0b-114">如何新增元件至管線</span><span class="sxs-lookup"><span data-stu-id="2af0b-114">How to Add a Component to a Pipeline</span></span>](../core/how-to-add-a-component-to-a-pipeline.md)  
   
--   [如何設定管線元件屬性](../core/how-to-set-pipeline-component-properties.md)  
+-   [<span data-ttu-id="2af0b-115">如何設定管線元件屬性</span><span class="sxs-lookup"><span data-stu-id="2af0b-115">How to Set Pipeline Component Properties</span></span>](../core/how-to-set-pipeline-component-properties.md)  
   
--   [如何使用結構描述集合屬性編輯器](../core/how-to-use-the-schema-collection-property-editor.md)  
+-   [<span data-ttu-id="2af0b-116">如何使用結構描述集合屬性編輯器</span><span class="sxs-lookup"><span data-stu-id="2af0b-116">How to Use the Schema Collection Property Editor</span></span>](../core/how-to-use-the-schema-collection-property-editor.md)  
   
--   [如何儲存管線](../core/how-to-save-a-pipeline.md)  
+-   [<span data-ttu-id="2af0b-117">如何儲存管線</span><span class="sxs-lookup"><span data-stu-id="2af0b-117">How to Save a Pipeline</span></span>](../core/how-to-save-a-pipeline.md)  
   
--   [如何使用 [工具箱]](../core/how-to-use-the-toolbox.md)  
+-   <span data-ttu-id="2af0b-118">[如何使用 [工具箱]](../core/how-to-use-the-toolbox.md)</span><span class="sxs-lookup"><span data-stu-id="2af0b-118">[How to Use the Toolbox](../core/how-to-use-the-toolbox.md)</span></span>  
   
--   [如何使用鍵盤巡覽](../core/how-to-navigate-with-the-keyboard.md)  
+-   [<span data-ttu-id="2af0b-119">如何使用鍵盤巡覽</span><span class="sxs-lookup"><span data-stu-id="2af0b-119">How to Navigate with the Keyboard</span></span>](../core/how-to-navigate-with-the-keyboard.md)  
   
--   [如何讀取管線元件屬性](../core/how-to-read-pipeline-component-properties.md)
+-   [<span data-ttu-id="2af0b-120">如何讀取管線元件屬性</span><span class="sxs-lookup"><span data-stu-id="2af0b-120">How to Read Pipeline Component Properties</span></span>](../core/how-to-read-pipeline-component-properties.md)

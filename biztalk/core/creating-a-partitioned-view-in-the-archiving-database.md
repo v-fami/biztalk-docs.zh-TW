@@ -22,25 +22,25 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="creating-a-partitioned-view-in-the-archiving-database"></a>在封存資料庫中建立分割檢視
-當您執行 BAM 資料維護封裝 (BAM_DM_`<activity name>`) 時，BAM 會將 BAM 主要匯入資料庫中的每個資料分割各複製到 BAM 封存資料庫的不同資料表中。 如果您中斷封存資料庫的連線，然後重新連線以便進行查詢，將會發現很難找到您查詢的資料。  
+# <a name="creating-a-partitioned-view-in-the-archiving-database"></a><span data-ttu-id="02ad6-102">在封存資料庫中建立分割檢視</span><span class="sxs-lookup"><span data-stu-id="02ad6-102">Creating a Partitioned View in the Archiving Database</span></span>
+<span data-ttu-id="02ad6-103">當您執行 BAM 資料維護封裝 (BAM_DM_`<activity name>`) 時，BAM 會將 BAM 主要匯入資料庫中的每個資料分割各複製到 BAM 封存資料庫的不同資料表中。</span><span class="sxs-lookup"><span data-stu-id="02ad6-103">When you run the BAM data maintenance package (BAM_DM_`<activity name>`) BAM copies each partition in the BAM Primary Import database to a separate table in the BAM Archive database.</span></span> <span data-ttu-id="02ad6-104">如果您中斷封存資料庫的連線，然後重新連線以便進行查詢，將會發現很難找到您查詢的資料。</span><span class="sxs-lookup"><span data-stu-id="02ad6-104">If you detach the archive database and reattach it for querying, it will be difficult to locate the data for your query.</span></span>  
   
- 您可以在 BAM 封存資料庫中建立資料分割檢視，以便尋找資料。 BAM 支援最多 253 個資料分割。 BAM 會為每個活動各產生一個 BAM 資料維護 DTS 封裝，此封裝會將活動資料複製到 BAM 封存資料庫，再從 BAM 主要匯入資料庫移除該資料。 如果封存資料庫在複製資料後失敗，但是還沒到下一次備份，資料就會遺失。  
+ <span data-ttu-id="02ad6-105">您可以在 BAM 封存資料庫中建立資料分割檢視，以便尋找資料。</span><span class="sxs-lookup"><span data-stu-id="02ad6-105">You can create partitioned views in the BAM Archive database to facilitate locating the data.</span></span> <span data-ttu-id="02ad6-106">BAM 支援最多 253 個資料分割。</span><span class="sxs-lookup"><span data-stu-id="02ad6-106">BAM supports up to 253 partitions.</span></span> <span data-ttu-id="02ad6-107">BAM 會為每個活動各產生一個 BAM 資料維護 DTS 封裝，此封裝會將活動資料複製到 BAM 封存資料庫，再從 BAM 主要匯入資料庫移除該資料。</span><span class="sxs-lookup"><span data-stu-id="02ad6-107">For each activity, BAM generates one BAM data maintenance DTS package, which copies the activity data to the BAM Archive database and then removes it from the BAM Primary Import database.</span></span> <span data-ttu-id="02ad6-108">如果封存資料庫在複製資料後失敗，但是還沒到下一次備份，資料就會遺失。</span><span class="sxs-lookup"><span data-stu-id="02ad6-108">If the archive database fails after the data is copied but before the next backup, data is lost.</span></span>  
   
- 預防資料遺失的解決方法是使用單一封存封裝，此封裝會先從所有活動中複製舊資料，再備份 BAM 封存資料庫，最後從主要匯入資料庫刪除先前複製的資料分割。  
+ <span data-ttu-id="02ad6-109">預防資料遺失的解決方法是使用單一封存封裝，此封裝會先從所有活動中複製舊資料，再備份 BAM 封存資料庫，最後從主要匯入資料庫刪除先前複製的資料分割。</span><span class="sxs-lookup"><span data-stu-id="02ad6-109">The solution to prevent lost data is to have a single archiving package, which first copies the old data from all activities, then backs up the BAM Archive database, and finally drops the partitions that were copied from the BAM Primary Import database.</span></span>  
   
-## <a name="prerequisites"></a>必要條件  
- 您必須以 BizTalk Server 系統管理員群組的成員身分登入，才能執行這個程序。  
+## <a name="prerequisites"></a><span data-ttu-id="02ad6-110">必要條件</span><span class="sxs-lookup"><span data-stu-id="02ad6-110">Prerequisites</span></span>  
+ <span data-ttu-id="02ad6-111">您必須以 BizTalk Server 系統管理員群組的成員身分登入，才能執行這個程序。</span><span class="sxs-lookup"><span data-stu-id="02ad6-111">You must be logged on as a member of the BizTalk Server Administrators group to perform this procedure.</span></span>  
   
-### <a name="to-create-a-partitioned-view-in-the-bam-archive-database-in-sql-server-2008-sp1-or-sql-server-2008-r2"></a>若要使用 SQL Server 2008 SP1 或 SQL Server 2008 R2 在 BAM 封存資料庫中建立資料分割檢視  
+### <a name="to-create-a-partitioned-view-in-the-bam-archive-database-in-sql-server-2008-sp1-or-sql-server-2008-r2"></a><span data-ttu-id="02ad6-112">若要使用 SQL Server 2008 SP1 或 SQL Server 2008 R2 在 BAM 封存資料庫中建立資料分割檢視</span><span class="sxs-lookup"><span data-stu-id="02ad6-112">To create a partitioned view in the BAM Archive database in SQL Server 2008 SP1 or SQL Server 2008 R2</span></span>  
   
-1.  開啟 SQL Server Management Studio。  
+1.  <span data-ttu-id="02ad6-113">開啟 SQL Server Management Studio。</span><span class="sxs-lookup"><span data-stu-id="02ad6-113">Open SQL Server Management Studio.</span></span>  
   
-2.  選取 BAM 封存資料庫，然後按一下**新查詢**。  
+2.  <span data-ttu-id="02ad6-114">選取 BAM 封存資料庫，然後按一下**新查詢**。</span><span class="sxs-lookup"><span data-stu-id="02ad6-114">Select the BAM Archive database, and then click **New Query**.</span></span>  
   
-3.  在**查詢**功能表上，指向**結果至**，然後按一下 **以文字顯示結果**。  
+3.  <span data-ttu-id="02ad6-115">在**查詢**功能表上，指向**結果至**，然後按一下 **以文字顯示結果**。</span><span class="sxs-lookup"><span data-stu-id="02ad6-115">On the **Query** menu, point to **Results To** and then click **Results to Text**.</span></span>  
   
-4.  將下列 SQL 指令碼複製到查詢窗格中。 取代\<活動名稱 > 與您的活動名稱取代`<view type>`其中一種**執行個體**執行個體檢視的或**關聯性**關聯性檢視。  
+4.  <span data-ttu-id="02ad6-116">將下列 SQL 指令碼複製到查詢窗格中。</span><span class="sxs-lookup"><span data-stu-id="02ad6-116">Copy the following SQL script into the query pane.</span></span> <span data-ttu-id="02ad6-117">取代\<活動名稱 > 與您的活動名稱取代`<view type>`其中一種**執行個體**執行個體檢視的或**關聯性**關聯性檢視。</span><span class="sxs-lookup"><span data-stu-id="02ad6-117">Replace \<activity name> with your activity name, and replace `<view type>` with either **Instances** for instance view or **Relationships** for relationship view.</span></span>  
   
     ```  
     set nocount on  
@@ -92,8 +92,8 @@ ms.lasthandoff: 09/20/2017
     set nocount off  
     ```  
   
-5.  執行查詢。  
+5.  <span data-ttu-id="02ad6-118">執行查詢。</span><span class="sxs-lookup"><span data-stu-id="02ad6-118">Execute the query.</span></span>  
   
-## <a name="see-also"></a>另請參閱  
- [BAM DTS 封裝](../core/bam-dts-packages.md)   
- [如何備份 BAM 分析和追蹤 Analysis Server 資料庫](../core/how-to-back-up-the-bam-analysis-and-tracking-analysis-server-databases.md)
+## <a name="see-also"></a><span data-ttu-id="02ad6-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="02ad6-119">See Also</span></span>  
+ <span data-ttu-id="02ad6-120">[BAM DTS 封裝](../core/bam-dts-packages.md) </span><span class="sxs-lookup"><span data-stu-id="02ad6-120">[BAM DTS Packages](../core/bam-dts-packages.md) </span></span>  
+ [<span data-ttu-id="02ad6-121">如何備份 BAM 分析和追蹤 Analysis Server 資料庫</span><span class="sxs-lookup"><span data-stu-id="02ad6-121">How to Back Up the BAM Analysis and Tracking Analysis Server Databases</span></span>](../core/how-to-back-up-the-bam-analysis-and-tracking-analysis-server-databases.md)

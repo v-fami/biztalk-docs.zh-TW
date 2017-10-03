@@ -19,15 +19,15 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---could-generate-multiple-choice-children"></a>錯誤-可能產生多個 Choice 子系
-**錯誤碼**  
+# <a name="error---could-generate-multiple-choice-children"></a><span data-ttu-id="cc0cb-102">錯誤-可能產生多個 Choice 子系</span><span class="sxs-lookup"><span data-stu-id="cc0cb-102">Error - Could Generate Multiple Choice Children</span></span>
+<span data-ttu-id="cc0cb-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="cc0cb-103">**Error Code**</span></span>  
   
- btm1027  
+ <span data-ttu-id="cc0cb-104">btm1027</span><span class="sxs-lookup"><span data-stu-id="cc0cb-104">btm1027</span></span>  
   
- **說明**  
+ <span data-ttu-id="cc0cb-105">**說明**</span><span class="sxs-lookup"><span data-stu-id="cc0cb-105">**Explanation**</span></span>  
   
- 目的結構描述的連結，不適當地啟用多個節點**選擇**要產生的群組節點。  
+ <span data-ttu-id="cc0cb-106">目的結構描述的連結，不適當地啟用多個節點**選擇**要產生的群組節點。</span><span class="sxs-lookup"><span data-stu-id="cc0cb-106">Links to the destination schema inappropriately enable multiple nodes within a **Choice** group node to be generated.</span></span>  
   
- **使用者動作**  
+ <span data-ttu-id="cc0cb-107">**使用者動作**</span><span class="sxs-lookup"><span data-stu-id="cc0cb-107">**User Action**</span></span>  
   
- 重新設定連結至目的結構描述，因此，只有單一節點內**選擇**產生群組節點。
+ <span data-ttu-id="cc0cb-108">重新設定連結至目的結構描述，因此，只有單一節點內**選擇**產生群組節點。</span><span class="sxs-lookup"><span data-stu-id="cc0cb-108">Rework the links into the destination schema so that only a single node within the **Choice** group node can be generated.</span></span>

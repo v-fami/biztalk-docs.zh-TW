@@ -18,21 +18,21 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="invalid-scheme"></a>無效的結構描述
-## <a name="details"></a>詳細資料  
+# <a name="invalid-scheme"></a><span data-ttu-id="210f8-102">無效的結構描述</span><span class="sxs-lookup"><span data-stu-id="210f8-102">Invalid scheme</span></span>
+## <a name="details"></a><span data-ttu-id="210f8-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="210f8-103">Details</span></span>  
   
 |||  
 |-|-|  
-|產品名稱|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|產品版本|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|事件識別碼|0|  
-|事件來源|0|  
-|元件|0|  
-|符號名稱|0|  
-|訊息文字|無效的結構描述。必須是配置"{0}"或"{1}"|  
+|<span data-ttu-id="210f8-104">產品名稱</span><span class="sxs-lookup"><span data-stu-id="210f8-104">Product Name</span></span>|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
+|<span data-ttu-id="210f8-105">產品版本</span><span class="sxs-lookup"><span data-stu-id="210f8-105">Product Version</span></span>|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
+|<span data-ttu-id="210f8-106">事件識別碼</span><span class="sxs-lookup"><span data-stu-id="210f8-106">Event ID</span></span>|<span data-ttu-id="210f8-107">0</span><span class="sxs-lookup"><span data-stu-id="210f8-107">0</span></span>|  
+|<span data-ttu-id="210f8-108">事件來源</span><span class="sxs-lookup"><span data-stu-id="210f8-108">Event Source</span></span>|<span data-ttu-id="210f8-109">0</span><span class="sxs-lookup"><span data-stu-id="210f8-109">0</span></span>|  
+|<span data-ttu-id="210f8-110">元件</span><span class="sxs-lookup"><span data-stu-id="210f8-110">Component</span></span>|<span data-ttu-id="210f8-111">0</span><span class="sxs-lookup"><span data-stu-id="210f8-111">0</span></span>|  
+|<span data-ttu-id="210f8-112">符號名稱</span><span class="sxs-lookup"><span data-stu-id="210f8-112">Symbolic Name</span></span>|<span data-ttu-id="210f8-113">0</span><span class="sxs-lookup"><span data-stu-id="210f8-113">0</span></span>|  
+|<span data-ttu-id="210f8-114">訊息文字</span><span class="sxs-lookup"><span data-stu-id="210f8-114">Message Text</span></span>|<span data-ttu-id="210f8-115">無效的結構描述。必須是配置"{0}"或"{1}"</span><span class="sxs-lookup"><span data-stu-id="210f8-115">Invalid scheme; expecting scheme "{0}" or "{1}"</span></span>|  
   
-## <a name="explanation"></a>說明  
- 發生下列情況下其中一項： 指定的 URI （統一資源識別項） 欄位中的位址必須以 http:// 或 https:// 開頭。 或者配置不符合傳輸繫結元素的實作中指定的規格。  
+## <a name="explanation"></a><span data-ttu-id="210f8-116">說明</span><span class="sxs-lookup"><span data-stu-id="210f8-116">Explanation</span></span>  
+ <span data-ttu-id="210f8-117">發生下列情況下其中一項： 指定的 URI （統一資源識別項） 欄位中的位址必須以 http:// 或 https:// 開頭。</span><span class="sxs-lookup"><span data-stu-id="210f8-117">One of the following situations has occurred: the address that is specified in the URI (uniform resource identifier) field must start with either http:// or https://.</span></span> <span data-ttu-id="210f8-118">或者配置不符合傳輸繫結元素的實作中指定的規格。</span><span class="sxs-lookup"><span data-stu-id="210f8-118">Or the scheme does not match what is specified in the implementation of the transport binding element.</span></span>  
   
-## <a name="user-action"></a>使用者動作  
- 輸入有效的 proxy 位址以 http:// 或 https:// 開頭的 URI
+## <a name="user-action"></a><span data-ttu-id="210f8-119">使用者動作</span><span class="sxs-lookup"><span data-stu-id="210f8-119">User Action</span></span>  
+ <span data-ttu-id="210f8-120">輸入有效的 proxy 位址以 http:// 或 https:// 開頭的 URI</span><span class="sxs-lookup"><span data-stu-id="210f8-120">Enter a valid proxy address URI that starts with http:// or https://</span></span>

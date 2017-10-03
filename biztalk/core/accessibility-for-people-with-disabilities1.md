@@ -19,14 +19,14 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="accessibility-for-people-with-disabilities"></a>行動不便人士的協助工具
+# <a name="accessibility-for-people-with-disabilities"></a><span data-ttu-id="bf79c-103">行動不便人士的協助工具</span><span class="sxs-lookup"><span data-stu-id="bf79c-103">Accessibility for People with Disabilities</span></span>
 
-## <a name="overview"></a>概觀
-Microsoft 致力於讓每一個人輕鬆使用它的產品和服務。 Microsoft[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]包含這些功能可讓它們更方便殘障人士使用。  
+## <a name="overview"></a><span data-ttu-id="bf79c-104">概觀</span><span class="sxs-lookup"><span data-stu-id="bf79c-104">Overview</span></span>
+<span data-ttu-id="bf79c-105">Microsoft 致力於讓每一個人輕鬆使用它的產品和服務。</span><span class="sxs-lookup"><span data-stu-id="bf79c-105">Microsoft is committed to making its products and services easier for everyone to use.</span></span> <span data-ttu-id="bf79c-106">Microsoft[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]包含這些功能可讓它們更方便殘障人士使用。</span><span class="sxs-lookup"><span data-stu-id="bf79c-106">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] contains features that make them more accessible for people with disabilities.</span></span>  
   
 > [!NOTE]
->  如需協助工具功能和 Microsoft 服務的一般資訊，請參閱 Microsoft 協助工具網站，網址[http://go.microsoft.com/fwlink/?LinkId=56272](http://go.microsoft.com/fwlink/?LinkId=56272)。  
+>  <span data-ttu-id="bf79c-107">如需協助工具功能和 Microsoft 服務的一般資訊，請參閱 Microsoft 協助工具網站，網址[http://go.microsoft.com/fwlink/?LinkId=56272](http://go.microsoft.com/fwlink/?LinkId=56272)。</span><span class="sxs-lookup"><span data-stu-id="bf79c-107">For general information about accessibility features and services from Microsoft, see the Microsoft Accessibility Web site at [http://go.microsoft.com/fwlink/?LinkId=56272](http://go.microsoft.com/fwlink/?LinkId=56272).</span></span>  
   
-## <a name="see-also"></a>另請參閱
--   [鍵盤快速鍵](../core/keyboard-shortcuts.md)  
+## <a name="see-also"></a><span data-ttu-id="bf79c-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="bf79c-108">See also</span></span>
+-   [<span data-ttu-id="bf79c-109">鍵盤快速鍵</span><span class="sxs-lookup"><span data-stu-id="bf79c-109">Keyboard Shortcuts</span></span>](../core/keyboard-shortcuts.md)  
   

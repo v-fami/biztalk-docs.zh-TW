@@ -23,180 +23,180 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="step-1-publish-the-sap-artifacts-as-a-wcf-service"></a>步驟 1： 將 SAP 成品發佈為 WCF 服務
-![步驟 4 之 1](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-1of4.gif "Step_1of4")  
+# <a name="step-1-publish-the-sap-artifacts-as-a-wcf-service"></a><span data-ttu-id="063c2-102">步驟 1： 將 SAP 成品發佈為 WCF 服務</span><span class="sxs-lookup"><span data-stu-id="063c2-102">Step 1: Publish the SAP Artifacts as a WCF Service</span></span>
+<span data-ttu-id="063c2-103">![步驟 4 之 1](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-1of4.gif "Step_1of4")</span><span class="sxs-lookup"><span data-stu-id="063c2-103">![Step 1 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-1of4.gif "Step_1of4")</span></span>  
   
- **若要完成的時間：** 10 分鐘  
+ <span data-ttu-id="063c2-104">**若要完成的時間：** 10 分鐘</span><span class="sxs-lookup"><span data-stu-id="063c2-104">**Time to complete:** 10 minutes</span></span>  
   
- **目標：**您可以使用 WCF 配接器服務開發精靈來產生可裝載的 WCF 服務，例如網際網路資訊服務 (IIS) 或 Windows Process Activation Service (WAS) 裝載環境中。 本主題示範如何使用精靈來產生 WCF 服務檔案。  
+ <span data-ttu-id="063c2-105">**目標：**您可以使用 WCF 配接器服務開發精靈來產生可裝載的 WCF 服務，例如網際網路資訊服務 (IIS) 或 Windows Process Activation Service (WAS) 裝載環境中。</span><span class="sxs-lookup"><span data-stu-id="063c2-105">**Objective:** You can use the WCF Adapter Service Development Wizard to generate a WCF service that can be hosted in a hosting environment such as Internet Information Services (IIS) or Windows Process Activation Service (WAS).</span></span> <span data-ttu-id="063c2-106">本主題示範如何使用精靈來產生 WCF 服務檔案。</span><span class="sxs-lookup"><span data-stu-id="063c2-106">This topic demonstrates how to use the wizard to generate a WCF service file.</span></span>  
   
-## <a name="prerequisites"></a>必要條件  
- 執行精靈之前，安裝下列項目：  
+## <a name="prerequisites"></a><span data-ttu-id="063c2-107">必要條件</span><span class="sxs-lookup"><span data-stu-id="063c2-107">Prerequisites</span></span>  
+ <span data-ttu-id="063c2-108">執行精靈之前，安裝下列項目：</span><span class="sxs-lookup"><span data-stu-id="063c2-108">Before running the wizard, install the following:</span></span>  
   
--   [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)]不論是透過**完成**選項或**自訂**選項 (並選擇**工具**內此選項)。 這會安裝[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]WCF 配接器服務開發精靈的範本。  
+-   [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)]<span data-ttu-id="063c2-109">不論是透過**完成**選項或**自訂**選項 (並選擇**工具**內此選項)。</span><span class="sxs-lookup"><span data-stu-id="063c2-109"> either with the **Complete** option or the **Custom** option (and choosing **Tools** within this option).</span></span> <span data-ttu-id="063c2-110">這會安裝[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]WCF 配接器服務開發精靈的範本。</span><span class="sxs-lookup"><span data-stu-id="063c2-110">This installs the [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] template for the WCF Adapter Service Development Wizard.</span></span>  
   
--   [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]從[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]。  
+-   [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]<span data-ttu-id="063c2-111">從[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="063c2-111"> from the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)].</span></span>  
   
--   所需的 SAP 用戶端程式庫。  
+-   <span data-ttu-id="063c2-112">所需的 SAP 用戶端程式庫。</span><span class="sxs-lookup"><span data-stu-id="063c2-112">The required SAP client libraries.</span></span>  
   
- 如需有關這些必要條件的詳細資訊，請參閱[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]安裝指南。 在一般安裝安裝指南 》\<安裝磁碟機 >: \Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Documents。  
+ <span data-ttu-id="063c2-113">如需有關這些必要條件的詳細資訊，請參閱[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]安裝指南。</span><span class="sxs-lookup"><span data-stu-id="063c2-113">For more information about these prerequisites, see the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] installation guide.</span></span> <span data-ttu-id="063c2-114">在一般安裝安裝指南 》\<安裝磁碟機 >: \Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Documents。</span><span class="sxs-lookup"><span data-stu-id="063c2-114">The installation guide is typically installed at \<installation drive>:\Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Documents.</span></span>  
   
-### <a name="to-publish-the-sap-artifacts-as-a-wcf-service"></a>若要將 SAP 成品發佈為 WCF 服務  
+### <a name="to-publish-the-sap-artifacts-as-a-wcf-service"></a><span data-ttu-id="063c2-115">若要將 SAP 成品發佈為 WCF 服務</span><span class="sxs-lookup"><span data-stu-id="063c2-115">To publish the SAP artifacts as a WCF service</span></span>  
   
-1.  啟動[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]，然後建立專案。  
+1.  <span data-ttu-id="063c2-116">啟動[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]，然後建立專案。</span><span class="sxs-lookup"><span data-stu-id="063c2-116">Start [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], and then create a project.</span></span>  
   
-2.  在**新專案**對話方塊中，從**專案類型**窗格中，選取**Visual C#**。 從**範本**窗格中，選取**WCF 配接器服務**。  
+2.  <span data-ttu-id="063c2-117">在**新專案**對話方塊中，從**專案類型**窗格中，選取**Visual C#**。</span><span class="sxs-lookup"><span data-stu-id="063c2-117">In the **New Project** dialog box, from the **Project types** pane, select **Visual C#**.</span></span> <span data-ttu-id="063c2-118">從**範本**窗格中，選取**WCF 配接器服務**。</span><span class="sxs-lookup"><span data-stu-id="063c2-118">From the **Templates** pane, select **WCF Adapter Service**.</span></span>  
   
-     或者，從**專案類型**] 窗格中，展開 [ **Visual C#**，然後選取**Web**。 從**範本**窗格中，選取**WCF 配接器服務**。  
+     <span data-ttu-id="063c2-119">或者，從**專案類型**] 窗格中，展開 [ **Visual C#**，然後選取**Web**。</span><span class="sxs-lookup"><span data-stu-id="063c2-119">Alternatively, from the **Project types** pane, expand **Visual C#**, and then select **Web**.</span></span> <span data-ttu-id="063c2-120">從**範本**窗格中，選取**WCF 配接器服務**。</span><span class="sxs-lookup"><span data-stu-id="063c2-120">From the **Templates** pane, select **WCF Adapter Service**.</span></span>  
   
     > [!NOTE]
-    >  如果您已安裝[!INCLUDE[btsVStudio2008](../../includes/btsvstudio2008-md.md)]與 Web 程式開發的元件， **WCF 配接器服務**範本也會提供**新增網站**選項。  
+    >  <span data-ttu-id="063c2-121">如果您已安裝[!INCLUDE[btsVStudio2008](../../includes/btsvstudio2008-md.md)]與 Web 程式開發的元件， **WCF 配接器服務**範本也會提供**新增網站**選項。</span><span class="sxs-lookup"><span data-stu-id="063c2-121">If you installed [!INCLUDE[btsVStudio2008](../../includes/btsvstudio2008-md.md)] with the Web Development component, the **WCF Adapter Service** template is also available from the **New Website** option.</span></span>  
   
-3.  指定的名稱和位置的方案，然後再按一下**確定**。 WCF 配接器服務開發精靈隨即啟動。  
+3.  <span data-ttu-id="063c2-122">指定的名稱和位置的方案，然後再按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="063c2-122">Specify a name and location for the solution, and then click **OK**.</span></span> <span data-ttu-id="063c2-123">WCF 配接器服務開發精靈隨即啟動。</span><span class="sxs-lookup"><span data-stu-id="063c2-123">The WCF Adapter Service Development Wizard starts.</span></span>  
   
-4.  在 歡迎使用 頁面上，按一下 **下一步**。  
+4.  <span data-ttu-id="063c2-124">在 歡迎使用 頁面上，按一下 **下一步**。</span><span class="sxs-lookup"><span data-stu-id="063c2-124">On the Welcome page, click **Next**.</span></span>  
   
-5.  選擇 [作業] 頁面上指定的連接字串連接至 SAP 系統。 若要這樣做：  
+5.  <span data-ttu-id="063c2-125">選擇 [作業] 頁面上指定的連接字串連接至 SAP 系統。</span><span class="sxs-lookup"><span data-stu-id="063c2-125">On the Choose Operations page, specify a connection string to connect to the SAP system.</span></span> <span data-ttu-id="063c2-126">若要這樣做：</span><span class="sxs-lookup"><span data-stu-id="063c2-126">To do so:</span></span>  
   
-    1.  在**選取繫結**清單中，按一下**sapBinding**，然後按一下 **設定**。  
+    1.  <span data-ttu-id="063c2-127">在**選取繫結**清單中，按一下**sapBinding**，然後按一下 **設定**。</span><span class="sxs-lookup"><span data-stu-id="063c2-127">In the **Select a binding** list, click **sapBinding**, and then click **Configure**.</span></span>  
   
-    2.  在**設定配接器**對話方塊中，按一下 [**安全性**] 索引標籤。  
+    2.  <span data-ttu-id="063c2-128">在**設定配接器**對話方塊中，按一下 [**安全性**] 索引標籤。</span><span class="sxs-lookup"><span data-stu-id="063c2-128">In the **Configure Adapter** dialog box, click the **Security** tab.</span></span>  
   
-    3.  在**用戶端認證類型**清單中，選取**Username**，然後指定有效的 SAP 使用者名稱和密碼以連接到 SAP 系統。  
+    3.  <span data-ttu-id="063c2-129">在**用戶端認證類型**清單中，選取**Username**，然後指定有效的 SAP 使用者名稱和密碼以連接到 SAP 系統。</span><span class="sxs-lookup"><span data-stu-id="063c2-129">In the **Client credential type** list, select **Username**, and then specify a valid SAP user name and password to connect to the SAP system.</span></span>  
   
-    4.  按一下**URI 屬性**索引標籤，然後再指定連線參數的值。 如需有關連線 URI 的[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]，請參閱[建立 SAP 系統連接 URI](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md)。  
+    4.  <span data-ttu-id="063c2-130">按一下**URI 屬性**索引標籤，然後再指定連線參數的值。</span><span class="sxs-lookup"><span data-stu-id="063c2-130">Click the **URI Properties** tab, and then specify values for the connection parameters.</span></span> <span data-ttu-id="063c2-131">如需有關連線 URI 的[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]，請參閱[建立 SAP 系統連接 URI](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md)。</span><span class="sxs-lookup"><span data-stu-id="063c2-131">For more information about the connection URI for the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)], see [Create the SAP system connection URI](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md).</span></span>  
   
         > [!NOTE]
-        >  如果連接參數包含任何保留的字元 （例如 XML 特殊字元），您必須指定以-處於**URI 屬性**索引標籤上，也就是不使用任何逸出字元。 不過，如果您指定的 URI 中直接**設定 URI**方塊和連接參數可以包含保留的字元，您必須指定連接參數使用適當的逸出字元。  
+        >  <span data-ttu-id="063c2-132">如果連接參數包含任何保留的字元 （例如 XML 特殊字元），您必須指定以-處於**URI 屬性**索引標籤上，也就是不使用任何逸出字元。</span><span class="sxs-lookup"><span data-stu-id="063c2-132">If the connection parameters contain any reserved characters (such as XML special characters), you must specify them as-is in the **URI Properties** tab, that is, without using any escape characters.</span></span> <span data-ttu-id="063c2-133">不過，如果您指定的 URI 中直接**設定 URI**方塊和連接參數可以包含保留的字元，您必須指定連接參數使用適當的逸出字元。</span><span class="sxs-lookup"><span data-stu-id="063c2-133">However, if you specify the URI directly in the **Configure a URI** box and the connection parameters contain reserved characters, you must specify the connection parameters using proper escape characters.</span></span>  
   
-    5.  按一下**繫結屬性**索引標籤，然後再指定繫結屬性值，如果任何項目，做為目標的作業所需。 在本教學課程，BAPI_SALESORDER_GETLIST RFC 會叫用來取得特定客戶的銷售訂單的清單。 銷售訂單資訊也可能包含日期資料行。 在擷取日期資料行的值時，我們建議您將設定**EnableSafeTyping**內容繫結至**True**產生中繼資料時。 如果設定這個屬性，SAP DATS 資料型別會呈現為字串。  
+    5.  <span data-ttu-id="063c2-134">按一下**繫結屬性**索引標籤，然後再指定繫結屬性值，如果任何項目，做為目標的作業所需。</span><span class="sxs-lookup"><span data-stu-id="063c2-134">Click the **Binding Properties** tab, and then specify values for the binding properties, if any, required for the operations you want to target.</span></span> <span data-ttu-id="063c2-135">在本教學課程，BAPI_SALESORDER_GETLIST RFC 會叫用來取得特定客戶的銷售訂單的清單。</span><span class="sxs-lookup"><span data-stu-id="063c2-135">In this tutorial, the BAPI_SALESORDER_GETLIST RFC is invoked to get the list of sales orders for a specific customer.</span></span> <span data-ttu-id="063c2-136">銷售訂單資訊也可能包含日期資料行。</span><span class="sxs-lookup"><span data-stu-id="063c2-136">The sales order information might also contain date columns.</span></span> <span data-ttu-id="063c2-137">在擷取日期資料行的值時，我們建議您將設定**EnableSafeTyping**內容繫結至**True**產生中繼資料時。</span><span class="sxs-lookup"><span data-stu-id="063c2-137">When retrieving values for the date column, we recommend that you set the **EnableSafeTyping** binding property to **True** when generating the metadata.</span></span> <span data-ttu-id="063c2-138">如果設定這個屬性，SAP DATS 資料型別會呈現為字串。</span><span class="sxs-lookup"><span data-stu-id="063c2-138">If this property is set, the SAP DATS data type is surfaced as strings.</span></span>  
   
-         如需有關如何將 SAP 資料類型對應至對等的.NET 類型的詳細資訊，請參閱[基本的 SAP 資料型別](../../adapters-and-accelerators/adapter-sap/basic-sap-data-types.md)。  
+         <span data-ttu-id="063c2-139">如需有關如何將 SAP 資料類型對應至對等的.NET 類型的詳細資訊，請參閱[基本的 SAP 資料型別](../../adapters-and-accelerators/adapter-sap/basic-sap-data-types.md)。</span><span class="sxs-lookup"><span data-stu-id="063c2-139">For more information about how the SAP data types are mapped to equivalent .NET types, see [Basic SAP Data Types](../../adapters-and-accelerators/adapter-sap/basic-sap-data-types.md).</span></span>  
   
-         如需繫結屬性的詳細資訊，請參閱[閱讀 BizTalk Adapter for mySAP Business Suite 繫結屬性](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md)。  
+         <span data-ttu-id="063c2-140">如需繫結屬性的詳細資訊，請參閱[閱讀 BizTalk Adapter for mySAP Business Suite 繫結屬性](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md)。</span><span class="sxs-lookup"><span data-stu-id="063c2-140">For more information about binding properties, see [Read about BizTalk Adapter for mySAP Business Suite binding properties](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md).</span></span>  
   
-    6.  按一下**確定**，然後按一下 **連接**。 建立連接之後，連線狀態會顯示為**Connected**。  
+    6.  <span data-ttu-id="063c2-141">按一下**確定**，然後按一下 **連接**。</span><span class="sxs-lookup"><span data-stu-id="063c2-141">Click **OK**, and then click **Connect**.</span></span> <span data-ttu-id="063c2-142">建立連接之後，連線狀態會顯示為**Connected**。</span><span class="sxs-lookup"><span data-stu-id="063c2-142">After the connection is established, the connection status is shown as **Connected**.</span></span>  
   
-6.  在選擇 [作業] 頁面中**選取的合約型別**清單中，按一下**用戶端 （輸出作業）**。  
+6.  <span data-ttu-id="063c2-143">在選擇 [作業] 頁面中**選取的合約型別**清單中，按一下**用戶端 （輸出作業）**。</span><span class="sxs-lookup"><span data-stu-id="063c2-143">On the Choose Operations page, in the **Select contract type** list, click **Client (Outbound operations)**.</span></span>  
   
-7.  在**選取類別目錄**方塊中，展開將 SAP 成品類型。 例如，展開  **RFC**節點，查看包含您要產生 WCF 服務的 RFC 功能群組。  
+7.  <span data-ttu-id="063c2-144">在**選取類別目錄**方塊中，展開將 SAP 成品類型。</span><span class="sxs-lookup"><span data-stu-id="063c2-144">In the **Select a category** box, expand an SAP artifact type.</span></span> <span data-ttu-id="063c2-145">例如，展開  **RFC**節點，查看包含您要產生 WCF 服務的 RFC 功能群組。</span><span class="sxs-lookup"><span data-stu-id="063c2-145">For example, expand the **RFC** node to see the functional group containing the RFC for which you want to generate a WCF service.</span></span>  
   
-8.  在**可用的類別和作業**方塊中，選取您想要產生 WCF 服務，然後按一下的操作**新增**。 選取的作業中所列**加入的類別和作業**方塊。  
-  
-    > [!NOTE]
-    >  您可以加入多個作業的每個成品。 您也可以加入不同 SAP 成品的作業。 例如，您可以加入一項作業，如 RFC，另一個用於 IDOC。 此外，您可以藉由搜尋運算式中指定萬用字元搜尋針對特定作業。 如需支援的特殊字元和節點層級，您可以搜尋作業的詳細資訊，請參閱[連接到 Visual Studio 使用新增配接器中繼資料精靈 」 中的 SAP](../../adapters-and-accelerators/adapter-sap/connecting-to-sap-in-visual-studio-using-add-adapter-metadata-wizard.md)  
-  
-     此範例中，會新增 SD_RFC_CUSTOMER_GET 和 BAPI_SALESORDER_GETLIST Rfc。  
+8.  <span data-ttu-id="063c2-146">在**可用的類別和作業**方塊中，選取您想要產生 WCF 服務，然後按一下的操作**新增**。</span><span class="sxs-lookup"><span data-stu-id="063c2-146">In the **Available categories and operations** box, select the operations for which you want to generate a WCF service, and then click **Add**.</span></span> <span data-ttu-id="063c2-147">選取的作業中所列**加入的類別和作業**方塊。</span><span class="sxs-lookup"><span data-stu-id="063c2-147">The selected operations are listed in the **Added categories and operations** box.</span></span>  
   
     > [!NOTE]
-    >  某些版本的 SAP 系統公開 （expose) 而不是 SD_RFC_CUSTOMER_GET RFC_CUSTOMER_GET RFC。  
+    >  <span data-ttu-id="063c2-148">您可以加入多個作業的每個成品。</span><span class="sxs-lookup"><span data-stu-id="063c2-148">You can add more than one operation for each artifact.</span></span> <span data-ttu-id="063c2-149">您也可以加入不同 SAP 成品的作業。</span><span class="sxs-lookup"><span data-stu-id="063c2-149">You can also add operations for different SAP artifacts.</span></span> <span data-ttu-id="063c2-150">例如，您可以加入一項作業，如 RFC，另一個用於 IDOC。</span><span class="sxs-lookup"><span data-stu-id="063c2-150">For example, you can add one operation for RFC and another for IDOC.</span></span> <span data-ttu-id="063c2-151">此外，您可以藉由搜尋運算式中指定萬用字元搜尋針對特定作業。</span><span class="sxs-lookup"><span data-stu-id="063c2-151">In addition, you can search for specific operations by specifying wildcard characters in search expressions.</span></span> <span data-ttu-id="063c2-152">如需支援的特殊字元和節點層級，您可以搜尋作業的詳細資訊，請參閱[連接到 Visual Studio 使用新增配接器中繼資料精靈 」 中的 SAP](../../adapters-and-accelerators/adapter-sap/connecting-to-sap-in-visual-studio-using-add-adapter-metadata-wizard.md)</span><span class="sxs-lookup"><span data-stu-id="063c2-152">For more information about the supported special characters and the node levels at which you can search for the operations, see [Connecting to SAP in Visual Studio Using Add Adapter Metadata Wizard](../../adapters-and-accelerators/adapter-sap/connecting-to-sap-in-visual-studio-using-add-adapter-metadata-wizard.md)</span></span>  
   
-     ![選取 SAP 成品](../../adapters-and-accelerators/adapter-sap/media/f944f9a0-7387-46cb-8eb6-337344d01d29.gif "f944f9a0-7387-46cb-8eb6-337344d01d29")  
+     <span data-ttu-id="063c2-153">此範例中，會新增 SD_RFC_CUSTOMER_GET 和 BAPI_SALESORDER_GETLIST Rfc。</span><span class="sxs-lookup"><span data-stu-id="063c2-153">For this example, the SD_RFC_CUSTOMER_GET and BAPI_SALESORDER_GETLIST RFCs are added.</span></span>  
   
-9. 在 [選擇作業] 頁面上按一下**下一步**。  
+    > [!NOTE]
+    >  <span data-ttu-id="063c2-154">某些版本的 SAP 系統公開 （expose) 而不是 SD_RFC_CUSTOMER_GET RFC_CUSTOMER_GET RFC。</span><span class="sxs-lookup"><span data-stu-id="063c2-154">Some versions of the SAP system expose an RFC_CUSTOMER_GET RFC instead of SD_RFC_CUSTOMER_GET.</span></span>  
   
-10. 在設定服務與端點行為 頁面上，指定值來設定服務與端點行為。  
+     <span data-ttu-id="063c2-155">![選取 SAP 成品](../../adapters-and-accelerators/adapter-sap/media/f944f9a0-7387-46cb-8eb6-337344d01d29.gif "f944f9a0-7387-46cb-8eb6-337344d01d29")</span><span class="sxs-lookup"><span data-stu-id="063c2-155">![Select SAP artifacts](../../adapters-and-accelerators/adapter-sap/media/f944f9a0-7387-46cb-8eb6-337344d01d29.gif "f944f9a0-7387-46cb-8eb6-337344d01d29")</span></span>  
   
-    1.  在**服務行為組態**方塊中，指定下列值：  
+9. <span data-ttu-id="063c2-156">在 [選擇作業] 頁面上按一下**下一步**。</span><span class="sxs-lookup"><span data-stu-id="063c2-156">On the Choose Operations page, click **Next**.</span></span>  
   
-        |屬性|指定的值|  
+10. <span data-ttu-id="063c2-157">在設定服務與端點行為 頁面上，指定值來設定服務與端點行為。</span><span class="sxs-lookup"><span data-stu-id="063c2-157">On the Configure Service and Endpoint Behaviors page, specify values to configure the service and endpoint behavior.</span></span>  
+  
+    1.  <span data-ttu-id="063c2-158">在**服務行為組態**方塊中，指定下列值：</span><span class="sxs-lookup"><span data-stu-id="063c2-158">In the **Service Behavior Configuration** box, specify values for the following:</span></span>  
+  
+        |<span data-ttu-id="063c2-159">屬性</span><span class="sxs-lookup"><span data-stu-id="063c2-159">For the property</span></span>|<span data-ttu-id="063c2-160">指定的值</span><span class="sxs-lookup"><span data-stu-id="063c2-160">Specify the value</span></span>|  
         |----------------------|-----------------------|  
-        |EnableMetadataExchange|將此設**True**建立中繼資料交換端點。 由這個設定設為**True**，您會讓服務中繼資料可供使用標準化的通訊協定，例如 WS 中繼資料交換 (MEX) 和 HTTP/GET 要求。<br /><br /> 預設值是**False**。|  
-        |IncludeExceptionDetailsinFault|將此設**True**在傳回至用戶端以進行偵錯的 SOAP 錯誤的詳細資料中包含 managed 例外狀況資訊。 預設值是**False**。|  
-        |名稱|服務行為組態名稱。|  
-        |UseServiceCertificate|指定您是否想要使用 WCF 的訊息層級的安全性模式。 預設值是**True**。<br /><br /> 此教學課程中，您必須設定為**False**。|  
-        |FindValue|字串，指定要在 X.509 憑證存放區中搜尋的值。<br /><br /> **注意：**指定的值為這個屬性才**UseServiceCertificate**設**True**。|  
-        |StoreLocation|值，指定服務可用來驗證用戶端憑證的憑證存放區位置。<br /><br /> **注意：**指定的值為這個屬性才**UseServiceCertificate**設**True**。|  
-        |StoreName|若要開啟的 X.509 憑證存放區的名稱。<br /><br /> **注意：**指定的值為這個屬性才**UseServiceCertificate**設**True**。|  
-        |X509FindType|要執行 X.509 搜尋類型。<br /><br /> **注意：**指定的值為這個屬性才**UseServiceCertificate**設**True**。|  
+        |<span data-ttu-id="063c2-161">EnableMetadataExchange</span><span class="sxs-lookup"><span data-stu-id="063c2-161">EnableMetadataExchange</span></span>|<span data-ttu-id="063c2-162">將此設**True**建立中繼資料交換端點。</span><span class="sxs-lookup"><span data-stu-id="063c2-162">Set this to **True** to create a metadata exchange endpoint.</span></span> <span data-ttu-id="063c2-163">由這個設定設為**True**，您會讓服務中繼資料可供使用標準化的通訊協定，例如 WS 中繼資料交換 (MEX) 和 HTTP/GET 要求。</span><span class="sxs-lookup"><span data-stu-id="063c2-163">By setting this to **True**, you make the service metadata available using standardized protocols, such as WS-Metadata Exchange (MEX) and HTTP/GET requests.</span></span><br /><br /> <span data-ttu-id="063c2-164">預設值是**False**。</span><span class="sxs-lookup"><span data-stu-id="063c2-164">Default is **False**.</span></span>|  
+        |<span data-ttu-id="063c2-165">IncludeExceptionDetailsinFault</span><span class="sxs-lookup"><span data-stu-id="063c2-165">IncludeExceptionDetailsinFault</span></span>|<span data-ttu-id="063c2-166">將此設**True**在傳回至用戶端以進行偵錯的 SOAP 錯誤的詳細資料中包含 managed 例外狀況資訊。</span><span class="sxs-lookup"><span data-stu-id="063c2-166">Set this to **True** to include managed exception information in detail of SOAP faults returned to the client for debugging purposes.</span></span> <span data-ttu-id="063c2-167">預設值是**False**。</span><span class="sxs-lookup"><span data-stu-id="063c2-167">Default is **False**.</span></span>|  
+        |<span data-ttu-id="063c2-168">名稱</span><span class="sxs-lookup"><span data-stu-id="063c2-168">Name</span></span>|<span data-ttu-id="063c2-169">服務行為組態名稱。</span><span class="sxs-lookup"><span data-stu-id="063c2-169">Name for the service behavior configuration.</span></span>|  
+        |<span data-ttu-id="063c2-170">UseServiceCertificate</span><span class="sxs-lookup"><span data-stu-id="063c2-170">UseServiceCertificate</span></span>|<span data-ttu-id="063c2-171">指定您是否想要使用 WCF 的訊息層級的安全性模式。</span><span class="sxs-lookup"><span data-stu-id="063c2-171">Specifies whether you want to use the message level security mode of WCF.</span></span> <span data-ttu-id="063c2-172">預設值是**True**。</span><span class="sxs-lookup"><span data-stu-id="063c2-172">Default is **True**.</span></span><br /><br /> <span data-ttu-id="063c2-173">此教學課程中，您必須設定為**False**。</span><span class="sxs-lookup"><span data-stu-id="063c2-173">For this tutorial, you must set this to **False**.</span></span>|  
+        |<span data-ttu-id="063c2-174">FindValue</span><span class="sxs-lookup"><span data-stu-id="063c2-174">FindValue</span></span>|<span data-ttu-id="063c2-175">字串，指定要在 X.509 憑證存放區中搜尋的值。</span><span class="sxs-lookup"><span data-stu-id="063c2-175">A string that specifies the value to search for in the X.509 certificate store.</span></span><br /><br /> <span data-ttu-id="063c2-176">**注意：**指定的值為這個屬性才**UseServiceCertificate**設**True**。</span><span class="sxs-lookup"><span data-stu-id="063c2-176">**Note:** Specify a value for this property only if **UseServiceCertificate** is set to **True**.</span></span>|  
+        |<span data-ttu-id="063c2-177">StoreLocation</span><span class="sxs-lookup"><span data-stu-id="063c2-177">StoreLocation</span></span>|<span data-ttu-id="063c2-178">值，指定服務可用來驗證用戶端憑證的憑證存放區位置。</span><span class="sxs-lookup"><span data-stu-id="063c2-178">A value that specifies the location of the certificate store that the service can use to validate the client's certificate.</span></span><br /><br /> <span data-ttu-id="063c2-179">**注意：**指定的值為這個屬性才**UseServiceCertificate**設**True**。</span><span class="sxs-lookup"><span data-stu-id="063c2-179">**Note:** Specify a value for this property only if **UseServiceCertificate** is set to **True**.</span></span>|  
+        |<span data-ttu-id="063c2-180">StoreName</span><span class="sxs-lookup"><span data-stu-id="063c2-180">StoreName</span></span>|<span data-ttu-id="063c2-181">若要開啟的 X.509 憑證存放區的名稱。</span><span class="sxs-lookup"><span data-stu-id="063c2-181">Name of the X.509 certificate store to open.</span></span><br /><br /> <span data-ttu-id="063c2-182">**注意：**指定的值為這個屬性才**UseServiceCertificate**設**True**。</span><span class="sxs-lookup"><span data-stu-id="063c2-182">**Note:** Specify a value for this property only if **UseServiceCertificate** is set to **True**.</span></span>|  
+        |<span data-ttu-id="063c2-183">X509FindType</span><span class="sxs-lookup"><span data-stu-id="063c2-183">X509FindType</span></span>|<span data-ttu-id="063c2-184">要執行 X.509 搜尋類型。</span><span class="sxs-lookup"><span data-stu-id="063c2-184">The type of X.509 search to be executed.</span></span><br /><br /> <span data-ttu-id="063c2-185">**注意：**指定的值為這個屬性才**UseServiceCertificate**設**True**。</span><span class="sxs-lookup"><span data-stu-id="063c2-185">**Note:** Specify a value for this property only if **UseServiceCertificate** is set to **True**.</span></span>|  
   
         > [!NOTE]
-        >  有關憑證和相關聯的屬性的詳細資訊，請參閱 < X509ClientCertificateCredentialsElement 屬性 >，網址[http://go.microsoft.com/fwlink/?LinkId=103771](http://go.microsoft.com/fwlink/?LinkId=103771)。  
+        >  <span data-ttu-id="063c2-186">有關憑證和相關聯的屬性的詳細資訊，請參閱 < X509ClientCertificateCredentialsElement 屬性 >，網址[http://go.microsoft.com/fwlink/?LinkId=103771](http://go.microsoft.com/fwlink/?LinkId=103771)。</span><span class="sxs-lookup"><span data-stu-id="063c2-186">For more information about the certificates and the associated properties, see "X509ClientCertificateCredentialsElement Properties" at [http://go.microsoft.com/fwlink/?LinkId=103771](http://go.microsoft.com/fwlink/?LinkId=103771).</span></span>  
   
-    2.  在**端點行為組態**方塊中，指定下列值：  
+    2.  <span data-ttu-id="063c2-187">在**端點行為組態**方塊中，指定下列值：</span><span class="sxs-lookup"><span data-stu-id="063c2-187">In the **Endpoint Behavior Configuration** box, specify values for the following:</span></span>  
   
-        |屬性|指定的值|  
+        |<span data-ttu-id="063c2-188">屬性</span><span class="sxs-lookup"><span data-stu-id="063c2-188">For the property</span></span>|<span data-ttu-id="063c2-189">指定的值</span><span class="sxs-lookup"><span data-stu-id="063c2-189">Specify the value</span></span>|  
         |----------------------|-----------------------|  
-        |驗證類型|-將此設**ClientCredentialUserNamePassword**讓用戶端可以使用 WCF 服務時，指定使用者名稱和密碼。<br /><br /> -將此設**HTTPUserNamePassword**可讓用戶端的 HTTP 標頭中指定使用者名稱和密碼。<br /><br /> -將此設**自動**先啟用 用戶端指定認證，透過**ClientCredential**介面。 如果失敗，用戶端才能將認證傳遞做為 HTTP 標頭的一部分。<br /><br /> 預設值是**自動**。Microsoft Office SharePoint Server 來取用 WCF 服務，您應該設定為**HTTPUserNamePassword**。|  
-        |名稱|指定端點行為組態名稱。|  
-        |UsernameHeader|使用者名稱標頭的名稱。 此範例中，指定**MyUserHeader**。 HTTP 標頭的詳細資訊，請參閱 < 支援的自訂 HTTP 和 SOAP 標頭 >，網址[http://go.microsoft.com/fwlink/?LinkId=106692](http://go.microsoft.com/fwlink/?LinkId=106692)。<br /><br /> **注意：**您必須指定此屬性的值，如果**驗證類型**設**HTTPUserNamePassword**。 如果**驗證類型**設**自動**，這是選擇性屬性。|  
-        |PasswordHeader|密碼標頭的名稱。 此範例中，指定**MyPassHeader**。 HTTP 標頭的詳細資訊，請參閱 < 支援的自訂 HTTP 和 SOAP 標頭 >，網址[http://go.microsoft.com/fwlink/?LinkId=106692](http://go.microsoft.com/fwlink/?LinkId=106692)。<br /><br /> **注意：**您必須指定此屬性的值，如果**驗證類型**設**HTTPUserNamePassword**。 如果**驗證類型**設**自動**，這是選擇性屬性。|  
+        |<span data-ttu-id="063c2-190">驗證類型</span><span class="sxs-lookup"><span data-stu-id="063c2-190">Authentication Type</span></span>|<span data-ttu-id="063c2-191">-將此設**ClientCredentialUserNamePassword**讓用戶端可以使用 WCF 服務時，指定使用者名稱和密碼。</span><span class="sxs-lookup"><span data-stu-id="063c2-191">- Set this to **ClientCredentialUserNamePassword** to enable the clients to specify the user name and password when consuming the WCF service.</span></span><br /><br /> <span data-ttu-id="063c2-192">-將此設**HTTPUserNamePassword**可讓用戶端的 HTTP 標頭中指定使用者名稱和密碼。</span><span class="sxs-lookup"><span data-stu-id="063c2-192">- Set this to **HTTPUserNamePassword** to enable clients to specify user name and password as part of the HTTP header.</span></span><br /><br /> <span data-ttu-id="063c2-193">-將此設**自動**先啟用 用戶端指定認證，透過**ClientCredential**介面。</span><span class="sxs-lookup"><span data-stu-id="063c2-193">- Set this to **Auto** to first enable clients to specify credentials through the **ClientCredential** interface.</span></span> <span data-ttu-id="063c2-194">如果失敗，用戶端才能將認證傳遞做為 HTTP 標頭的一部分。</span><span class="sxs-lookup"><span data-stu-id="063c2-194">If this fails, clients can pass credentials as part of the HTTP header.</span></span><br /><br /> <span data-ttu-id="063c2-195">預設值是**自動**。Microsoft Office SharePoint Server 來取用 WCF 服務，您應該設定為**HTTPUserNamePassword**。</span><span class="sxs-lookup"><span data-stu-id="063c2-195">Default is **Auto**. For Microsoft Office SharePoint Server to consume the WCF service, you should set this as **HTTPUserNamePassword**.</span></span>|  
+        |<span data-ttu-id="063c2-196">名稱</span><span class="sxs-lookup"><span data-stu-id="063c2-196">Name</span></span>|<span data-ttu-id="063c2-197">指定端點行為組態名稱。</span><span class="sxs-lookup"><span data-stu-id="063c2-197">Specify a name for the endpoint behavior configuration.</span></span>|  
+        |<span data-ttu-id="063c2-198">UsernameHeader</span><span class="sxs-lookup"><span data-stu-id="063c2-198">UsernameHeader</span></span>|<span data-ttu-id="063c2-199">使用者名稱標頭的名稱。</span><span class="sxs-lookup"><span data-stu-id="063c2-199">Name for the user name header.</span></span> <span data-ttu-id="063c2-200">此範例中，指定**MyUserHeader**。</span><span class="sxs-lookup"><span data-stu-id="063c2-200">For this example, specify **MyUserHeader**.</span></span> <span data-ttu-id="063c2-201">HTTP 標頭的詳細資訊，請參閱 < 支援的自訂 HTTP 和 SOAP 標頭 >，網址[http://go.microsoft.com/fwlink/?LinkId=106692](http://go.microsoft.com/fwlink/?LinkId=106692)。</span><span class="sxs-lookup"><span data-stu-id="063c2-201">For more information about HTTP headers, see "Support for Custom HTTP and SOAP Headers" at [http://go.microsoft.com/fwlink/?LinkId=106692](http://go.microsoft.com/fwlink/?LinkId=106692).</span></span><br /><br /> <span data-ttu-id="063c2-202">**注意：**您必須指定此屬性的值，如果**驗證類型**設**HTTPUserNamePassword**。</span><span class="sxs-lookup"><span data-stu-id="063c2-202">**Note:** You must specify a value for this property if the **Authentication Type** is set to **HTTPUserNamePassword**.</span></span> <span data-ttu-id="063c2-203">如果**驗證類型**設**自動**，這是選擇性屬性。</span><span class="sxs-lookup"><span data-stu-id="063c2-203">If **Authentication Type** is set to **Auto**, this property is optional.</span></span>|  
+        |<span data-ttu-id="063c2-204">PasswordHeader</span><span class="sxs-lookup"><span data-stu-id="063c2-204">PasswordHeader</span></span>|<span data-ttu-id="063c2-205">密碼標頭的名稱。</span><span class="sxs-lookup"><span data-stu-id="063c2-205">Name for the password header.</span></span> <span data-ttu-id="063c2-206">此範例中，指定**MyPassHeader**。</span><span class="sxs-lookup"><span data-stu-id="063c2-206">For this example, specify **MyPassHeader**.</span></span> <span data-ttu-id="063c2-207">HTTP 標頭的詳細資訊，請參閱 < 支援的自訂 HTTP 和 SOAP 標頭 >，網址[http://go.microsoft.com/fwlink/?LinkId=106692](http://go.microsoft.com/fwlink/?LinkId=106692)。</span><span class="sxs-lookup"><span data-stu-id="063c2-207">For more information about HTTP headers, see "Support for Custom HTTP and SOAP Headers" at [http://go.microsoft.com/fwlink/?LinkId=106692](http://go.microsoft.com/fwlink/?LinkId=106692).</span></span><br /><br /> <span data-ttu-id="063c2-208">**注意：**您必須指定此屬性的值，如果**驗證類型**設**HTTPUserNamePassword**。</span><span class="sxs-lookup"><span data-stu-id="063c2-208">**Note:** You must specify a value for this property if the **Authentication Type** is set to **HTTPUserNamePassword**.</span></span> <span data-ttu-id="063c2-209">如果**驗證類型**設**自動**，這是選擇性屬性。</span><span class="sxs-lookup"><span data-stu-id="063c2-209">If **Authentication Type** is set to **Auto**, this property is optional.</span></span>|  
   
-     下圖顯示 [設定服務與端點行為] 頁面，以指定的值。  
+     <span data-ttu-id="063c2-210">下圖顯示 [設定服務與端點行為] 頁面，以指定的值。</span><span class="sxs-lookup"><span data-stu-id="063c2-210">The following figure shows the Configure Service and Endpoint Behaviors page with the specified values.</span></span>  
   
-     ![設定服務與端點行為 頁面](../../adapters-and-accelerators/adapter-sap/media/0a286b0c-7f0d-46c5-9b56-29bef3a1deea.gif "0a286b0c-7f0d-46c5-9b56-29bef3a1deea")  
+     <span data-ttu-id="063c2-211">![設定服務與端點行為 頁面](../../adapters-and-accelerators/adapter-sap/media/0a286b0c-7f0d-46c5-9b56-29bef3a1deea.gif "0a286b0c-7f0d-46c5-9b56-29bef3a1deea")</span><span class="sxs-lookup"><span data-stu-id="063c2-211">![Configure Service and Endpoint Behaviors page](../../adapters-and-accelerators/adapter-sap/media/0a286b0c-7f0d-46c5-9b56-29bef3a1deea.gif "0a286b0c-7f0d-46c5-9b56-29bef3a1deea")</span></span>  
   
-11. 在 設定服務與端點行為 頁面上，按一下 **下一步**。  
+11. <span data-ttu-id="063c2-212">在 設定服務與端點行為 頁面上，按一下 **下一步**。</span><span class="sxs-lookup"><span data-stu-id="063c2-212">On the Configure Service and Endpoint Behaviors page, click **Next**.</span></span>  
   
-12. 在 設定服務端點繫結和位址的頁面上，**選取要設定的合約**方塊會列出您選取 選擇作業 頁面上的作業將 SAP 成品。  
+12. <span data-ttu-id="063c2-213">在 設定服務端點繫結和位址的頁面上，**選取要設定的合約**方塊會列出您選取 選擇作業 頁面上的作業將 SAP 成品。</span><span class="sxs-lookup"><span data-stu-id="063c2-213">On the Configure Service Endpoint Binding and Address page, the **Select a contract to configure** box lists the SAP artifacts for which you selected the operations on the Choose Operations page.</span></span>  
   
-     例如，如果您選取 RFC 和 IDOC，底下的成品**選取要設定的合約**列出 IDOC 和 RFC。 如果您選取只 RFC，方塊只會列出 RFC。  
+     <span data-ttu-id="063c2-214">例如，如果您選取 RFC 和 IDOC，底下的成品**選取要設定的合約**列出 IDOC 和 RFC。</span><span class="sxs-lookup"><span data-stu-id="063c2-214">For example, if you selected artifacts under RFC and IDOC, the **Select a Contract to configure** lists both RFC and IDOC.</span></span> <span data-ttu-id="063c2-215">如果您選取只 RFC，方塊只會列出 RFC。</span><span class="sxs-lookup"><span data-stu-id="063c2-215">If you selected only an RFC, the box will only list RFC.</span></span>  
   
-13. **選取合約之作業**方塊會顯示您選取的每個成品，選擇 [作業] 頁面上的作業。  
+13. <span data-ttu-id="063c2-216">**選取合約之作業**方塊會顯示您選取的每個成品，選擇 [作業] 頁面上的作業。</span><span class="sxs-lookup"><span data-stu-id="063c2-216">The **Operations under the selected contract** box displays the operations you selected for each artifact on the Choose Operations page.</span></span>  
   
-14. 在**設定的位址和合約繫結**方塊中，指定下列值：  
+14. <span data-ttu-id="063c2-217">在**設定的位址和合約繫結**方塊中，指定下列值：</span><span class="sxs-lookup"><span data-stu-id="063c2-217">In the **Configure the address and binding for the contract** box, specify values for the following:</span></span>  
   
-    |屬性|指定的值|  
+    |<span data-ttu-id="063c2-218">屬性</span><span class="sxs-lookup"><span data-stu-id="063c2-218">For the property</span></span>|<span data-ttu-id="063c2-219">指定的值</span><span class="sxs-lookup"><span data-stu-id="063c2-219">Specify the value</span></span>|  
     |----------------------|-----------------------|  
-    |繫結組態|此精靈只支援基本 HTTP 繫結。 因此，繫結設定欄位所自動填入*System.ServiceModel.Configuration.BasicHttpBindingElement*。<br /><br /> 按一下省略符號按鈕**（...）**變更 HTTP 繫結的屬性。 若要使用安全通訊通道，您都必須設定**模式**屬性**傳輸**。 精靈會設定的預設值為**模式**屬性做為**傳輸**。<br /><br /> 公開的其他繫結的詳細資訊，請參閱 < BasicHttpBindingElement 成員 >，網址[http://go.microsoft.com/fwlink/?LinkId=103773](http://go.microsoft.com/fwlink/?LinkId=103773)。|  
-    |端點名稱|指定合約的端點名稱。|  
+    |<span data-ttu-id="063c2-220">繫結組態</span><span class="sxs-lookup"><span data-stu-id="063c2-220">Binding Configuration</span></span>|<span data-ttu-id="063c2-221">此精靈只支援基本 HTTP 繫結。</span><span class="sxs-lookup"><span data-stu-id="063c2-221">The wizard only supports basic HTTP binding.</span></span> <span data-ttu-id="063c2-222">因此，繫結設定欄位所自動填入*System.ServiceModel.Configuration.BasicHttpBindingElement*。</span><span class="sxs-lookup"><span data-stu-id="063c2-222">So, the binding configuration field is automatically populated to *System.ServiceModel.Configuration.BasicHttpBindingElement*.</span></span><br /><br /> <span data-ttu-id="063c2-223">按一下省略符號按鈕**（...）**變更 HTTP 繫結的屬性。</span><span class="sxs-lookup"><span data-stu-id="063c2-223">Click the ellipsis button **(…)** to change the properties for HTTP binding.</span></span> <span data-ttu-id="063c2-224">若要使用安全通訊通道，您都必須設定**模式**屬性**傳輸**。</span><span class="sxs-lookup"><span data-stu-id="063c2-224">To use a secure communication channel, you must always set the **Mode** property to **Transport**.</span></span> <span data-ttu-id="063c2-225">精靈會設定的預設值為**模式**屬性做為**傳輸**。</span><span class="sxs-lookup"><span data-stu-id="063c2-225">The wizard sets the default value for the **Mode** property as **Transport**.</span></span><br /><br /> <span data-ttu-id="063c2-226">公開的其他繫結的詳細資訊，請參閱 < BasicHttpBindingElement 成員 >，網址[http://go.microsoft.com/fwlink/?LinkId=103773](http://go.microsoft.com/fwlink/?LinkId=103773)。</span><span class="sxs-lookup"><span data-stu-id="063c2-226">For more information about the other bindings exposed, see "BasicHttpBindingElement Members" at [http://go.microsoft.com/fwlink/?LinkId=103773](http://go.microsoft.com/fwlink/?LinkId=103773).</span></span>|  
+    |<span data-ttu-id="063c2-227">端點名稱</span><span class="sxs-lookup"><span data-stu-id="063c2-227">Endpoint Name</span></span>|<span data-ttu-id="063c2-228">指定合約的端點名稱。</span><span class="sxs-lookup"><span data-stu-id="063c2-228">Specify an endpoint name for the contract.</span></span>|  
   
-     此頁面上的其他欄位會自動填入您在先前頁面中指定的值。  
+     <span data-ttu-id="063c2-229">此頁面上的其他欄位會自動填入您在先前頁面中指定的值。</span><span class="sxs-lookup"><span data-stu-id="063c2-229">The other fields on this page are automatically populated based on the values you specified in the earlier pages.</span></span>  
   
-     按一下 **[套用]**。 執行這個步驟底下顯示的所有合約**選取要設定的合約**方塊。  
+     <span data-ttu-id="063c2-230">按一下 **[套用]**。</span><span class="sxs-lookup"><span data-stu-id="063c2-230">Click **Apply**.</span></span> <span data-ttu-id="063c2-231">執行這個步驟底下顯示的所有合約**選取要設定的合約**方塊。</span><span class="sxs-lookup"><span data-stu-id="063c2-231">Perform this step for all the contracts displayed under the **Select a contract to configure** box.</span></span>  
   
     > [!NOTE]
-    >  如果您未指定任何值在此頁面上，預設值會接受所有合約。  
+    >  <span data-ttu-id="063c2-232">如果您未指定任何值在此頁面上，預設值會接受所有合約。</span><span class="sxs-lookup"><span data-stu-id="063c2-232">If you do not specify any values on this page, the default values are accepted for all the contracts.</span></span>  
   
-     下圖顯示的設定服務端點繫結和位址 頁面上以指定的值。  
+     <span data-ttu-id="063c2-233">下圖顯示的設定服務端點繫結和位址 頁面上以指定的值。</span><span class="sxs-lookup"><span data-stu-id="063c2-233">The following figure shows the Configure Service Endpoint Binding and Address page with the specified values.</span></span>  
   
-     ![設定服務端點繫結與位址](../../adapters-and-accelerators/adapter-sap/media/356e297c-9893-494c-a834-9d0b8b42da2e.gif "356e297c-9893-494c-a834-9d0b8b42da2e")  
+     <span data-ttu-id="063c2-234">![設定服務端點繫結與位址](../../adapters-and-accelerators/adapter-sap/media/356e297c-9893-494c-a834-9d0b8b42da2e.gif "356e297c-9893-494c-a834-9d0b8b42da2e")</span><span class="sxs-lookup"><span data-stu-id="063c2-234">![Configure Service Endpoint Binding and Address](../../adapters-and-accelerators/adapter-sap/media/356e297c-9893-494c-a834-9d0b8b42da2e.gif "356e297c-9893-494c-a834-9d0b8b42da2e")</span></span>  
   
-15. 在 設定服務端點繫結和位址的頁面上，按一下 **下一步**。  [摘要] 頁面會列出樹狀結構中的 SAP 成品，並且在所選取的每個成品的作業。  
+15. <span data-ttu-id="063c2-235">在 設定服務端點繫結和位址的頁面上，按一下 **下一步**。</span><span class="sxs-lookup"><span data-stu-id="063c2-235">On the Configure Service Endpoint Binding and Address page, click **Next**.</span></span>  <span data-ttu-id="063c2-236">[摘要] 頁面會列出樹狀結構中的 SAP 成品，並且在所選取的每個成品的作業。</span><span class="sxs-lookup"><span data-stu-id="063c2-236">The Summary page lists a tree structure of the SAP artifacts and, under that, the operations selected for each artifact.</span></span>  
   
-16. 檢閱 [摘要]，然後按一下**完成**。  
+16. <span data-ttu-id="063c2-237">檢閱 [摘要]，然後按一下**完成**。</span><span class="sxs-lookup"><span data-stu-id="063c2-237">Review the summary, and then click **Finish**.</span></span>  
   
-17. 精靈會建立 WCF 服務，並加入下列檔案[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]專案：  
+17. <span data-ttu-id="063c2-238">精靈會建立 WCF 服務，並加入下列檔案[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]專案：</span><span class="sxs-lookup"><span data-stu-id="063c2-238">The wizard creates a WCF service and adds the following files to the [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] project:</span></span>  
   
-    1.  .svc 檔案。 這是 WCF 服務檔案。 精靈會產生一個檔案，針對每個合約。  
+    1.  <span data-ttu-id="063c2-239">.svc 檔案。</span><span class="sxs-lookup"><span data-stu-id="063c2-239">.svc file.</span></span> <span data-ttu-id="063c2-240">這是 WCF 服務檔案。</span><span class="sxs-lookup"><span data-stu-id="063c2-240">This is the WCF service file.</span></span> <span data-ttu-id="063c2-241">精靈會產生一個檔案，針對每個合約。</span><span class="sxs-lookup"><span data-stu-id="063c2-241">The wizard generates one file for each contract.</span></span>  
   
-    2.  Web.config 檔案。  
+    2.  <span data-ttu-id="063c2-242">Web.config 檔案。</span><span class="sxs-lookup"><span data-stu-id="063c2-242">Web.config file.</span></span>  
   
-    3.  服務程式碼 （.cs 檔案）  
+    3.  <span data-ttu-id="063c2-243">服務程式碼 （.cs 檔案）</span><span class="sxs-lookup"><span data-stu-id="063c2-243">Service code (.cs file)</span></span>  
   
-18. 發佈 WCF 服務。  
+18. <span data-ttu-id="063c2-244">發佈 WCF 服務。</span><span class="sxs-lookup"><span data-stu-id="063c2-244">Publish the WCF service.</span></span>  
   
-    1.  請確定 SSL 已啟用網際網路資訊服務 (IIS)。 如需有關如何啟用 iis 的 SSL 的指示，請參閱[http://go.microsoft.com/fwlink/?LinkId=197170](http://go.microsoft.com/fwlink/?LinkId=197170)。  
+    1.  <span data-ttu-id="063c2-245">請確定 SSL 已啟用網際網路資訊服務 (IIS)。</span><span class="sxs-lookup"><span data-stu-id="063c2-245">Make sure SSL is enabled for Internet Information Services (IIS).</span></span> <span data-ttu-id="063c2-246">如需有關如何啟用 iis 的 SSL 的指示，請參閱[http://go.microsoft.com/fwlink/?LinkId=197170](http://go.microsoft.com/fwlink/?LinkId=197170)。</span><span class="sxs-lookup"><span data-stu-id="063c2-246">For instructions on how to enable SSL for IIS, see [http://go.microsoft.com/fwlink/?LinkId=197170](http://go.microsoft.com/fwlink/?LinkId=197170).</span></span>  
   
-    2.  以滑鼠右鍵按一下方案總管 中的專案，然後按一下**發行**。  
+    2.  <span data-ttu-id="063c2-247">以滑鼠右鍵按一下方案總管 中的專案，然後按一下**發行**。</span><span class="sxs-lookup"><span data-stu-id="063c2-247">Right-click the project in Solution Explorer, and then click **Publish**.</span></span>  
   
-    3.  在**發行 Web**對話方塊方塊中，指定 WCF 服務的 URL。 例如：  
+    3.  <span data-ttu-id="063c2-248">在**發行 Web**對話方塊方塊中，指定 WCF 服務的 URL。</span><span class="sxs-lookup"><span data-stu-id="063c2-248">In the **Publish Web** dialog box, specify a URL for the WCF service.</span></span> <span data-ttu-id="063c2-249">例如：</span><span class="sxs-lookup"><span data-stu-id="063c2-249">For example:</span></span>  
   
         ```  
         https://<computer_name>/Customer_Order/  
         ```  
   
-    4.  從**複製**方塊中，按一下**所有專案檔**。  
+    4.  <span data-ttu-id="063c2-250">從**複製**方塊中，按一下**所有專案檔**。</span><span class="sxs-lookup"><span data-stu-id="063c2-250">From the **Copy** box, click **All project files**.</span></span>  
   
-    5.  按一下 [發行]。  
+    5.  <span data-ttu-id="063c2-251">按一下 [發行]。</span><span class="sxs-lookup"><span data-stu-id="063c2-251">Click **Publish**.</span></span>  
   
-19. 請確認已成功發行 WCF 服務。  
+19. <span data-ttu-id="063c2-252">請確認已成功發行 WCF 服務。</span><span class="sxs-lookup"><span data-stu-id="063c2-252">Verify that the WCF service is published successfully.</span></span>  
   
-    1.  啟動 IIS Microsoft Management Console。 按一下**啟動**，指向 **系統管理工具**，然後按一下 **網際網路資訊服務 (IIS) 管理員**。  
+    1.  <span data-ttu-id="063c2-253">啟動 IIS Microsoft Management Console。</span><span class="sxs-lookup"><span data-stu-id="063c2-253">Start the IIS Microsoft Management Console.</span></span> <span data-ttu-id="063c2-254">按一下**啟動**，指向 **系統管理工具**，然後按一下 **網際網路資訊服務 (IIS) 管理員**。</span><span class="sxs-lookup"><span data-stu-id="063c2-254">Click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.</span></span>  
   
-    2.  瀏覽至您用來發行服務的節點。 如**Customer_Order**服務，請瀏覽至**Internet Information Services** > **\<電腦名稱 >**  >  **Web Sites** > **Default Web Site** > **Customer_Order**。  
+    2.  <span data-ttu-id="063c2-255">瀏覽至您用來發行服務的節點。</span><span class="sxs-lookup"><span data-stu-id="063c2-255">Navigate to the node where you published the service.</span></span> <span data-ttu-id="063c2-256">如**Customer_Order**服務，請瀏覽至**Internet Information Services** > **\<電腦名稱 >**  >  **Web Sites** > **Default Web Site** > **Customer_Order**。</span><span class="sxs-lookup"><span data-stu-id="063c2-256">For the **Customer_Order** service, navigate to **Internet Information Services** > **\<Computer Name>** > **Web Sites** > **Default Web Site** > **Customer_Order**.</span></span>  
   
-    3.  在右窗格中，Rfc.svc 檔案，以滑鼠右鍵按一下，然後按一下 **瀏覽**。  
+    3.  <span data-ttu-id="063c2-257">在右窗格中，Rfc.svc 檔案，以滑鼠右鍵按一下，然後按一下 **瀏覽**。</span><span class="sxs-lookup"><span data-stu-id="063c2-257">On the right pane, right-click the Rfc.svc file, and then click **Browse**.</span></span>  
   
-    4.  擷取 WSDL 的 URL 和一同顯示網頁。 您可能想要測試中繼資料擷取使用**svcutil**命令。 比方說，是擷取 Customer_Order 服務中繼資料的命令：  
+    4.  <span data-ttu-id="063c2-258">擷取 WSDL 的 URL 和一同顯示網頁。</span><span class="sxs-lookup"><span data-stu-id="063c2-258">The Web page shows up with the URL for retrieving the WSDL.</span></span> <span data-ttu-id="063c2-259">您可能想要測試中繼資料擷取使用**svcutil**命令。</span><span class="sxs-lookup"><span data-stu-id="063c2-259">You may want to test metadata retrieval using the **svcutil** command.</span></span> <span data-ttu-id="063c2-260">比方說，是擷取 Customer_Order 服務中繼資料的命令：</span><span class="sxs-lookup"><span data-stu-id="063c2-260">For example, the command to retrieve metadata for the Customer_Order service is:</span></span>  
   
         ```  
         svcutil.exe https://<computer_name>/Customer_Order/Rfc.svc?wsdl  
   
         ```  
   
-## <a name="next-step"></a>下一個步驟  
- 若要建立 SAP 成品的應用程式定義檔，請使用商務資料目錄定義編輯器。 請參閱[步驟 2： 建立應用程式定義檔 SAP 成品](../../adapters-and-accelerators/adapter-sap/step-2-create-an-application-definition-file-for-the-sap-artifacts.md)如需相關指示。 應用程式定義檔識別 LOB 資料的儲存位置，以及儲存它的格式。  
+## <a name="next-step"></a><span data-ttu-id="063c2-261">下一個步驟</span><span class="sxs-lookup"><span data-stu-id="063c2-261">Next Step</span></span>  
+ <span data-ttu-id="063c2-262">若要建立 SAP 成品的應用程式定義檔，請使用商務資料目錄定義編輯器。</span><span class="sxs-lookup"><span data-stu-id="063c2-262">To create an application definition file for the SAP artifacts, use the Business Data Catalog Definition Editor.</span></span> <span data-ttu-id="063c2-263">請參閱[步驟 2： 建立應用程式定義檔 SAP 成品](../../adapters-and-accelerators/adapter-sap/step-2-create-an-application-definition-file-for-the-sap-artifacts.md)如需相關指示。</span><span class="sxs-lookup"><span data-stu-id="063c2-263">See [Step 2: Create an Application Definition File for the SAP Artifacts](../../adapters-and-accelerators/adapter-sap/step-2-create-an-application-definition-file-for-the-sap-artifacts.md) for instructions.</span></span> <span data-ttu-id="063c2-264">應用程式定義檔識別 LOB 資料的儲存位置，以及儲存它的格式。</span><span class="sxs-lookup"><span data-stu-id="063c2-264">The application definition file identifies where the LOB data is stored and the format in which it is stored.</span></span>  
   
-## <a name="see-also"></a>另請參閱  
- [教學課程 1： 從 SharePoint 網站上的 SAP 系統中呈現資料](../../adapters-and-accelerators/adapter-sap/tutorial-1-presenting-data-from-an-sap-system-on-a-sharepoint-site.md)
+## <a name="see-also"></a><span data-ttu-id="063c2-265">另請參閱</span><span class="sxs-lookup"><span data-stu-id="063c2-265">See Also</span></span>  
+ [<span data-ttu-id="063c2-266">教學課程 1： 從 SharePoint 網站上的 SAP 系統中呈現資料</span><span class="sxs-lookup"><span data-stu-id="063c2-266">Tutorial 1: Presenting Data from an SAP System on a SharePoint Site</span></span>](../../adapters-and-accelerators/adapter-sap/tutorial-1-presenting-data-from-an-sap-system-on-a-sharepoint-site.md)

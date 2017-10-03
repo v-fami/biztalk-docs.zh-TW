@@ -21,13 +21,13 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="pipelines-assemblerdisassembler-biztalk-server-samples-folder"></a>管線 AssemblerDisassembler （BizTalk Server 範例資料夾）
-Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的軟體開發套件 (SDK) 中包含三個組合器/解譯器管線範例。 本節提供每個組合器/解譯器範例所展示功能的詳細資訊、用來建置和執行範例的指示，以及您可以預期的結果。  
+# <a name="pipelines-assemblerdisassembler-biztalk-server-samples-folder"></a><span data-ttu-id="03822-102">管線 AssemblerDisassembler （BizTalk Server 範例資料夾）</span><span class="sxs-lookup"><span data-stu-id="03822-102">Pipelines-AssemblerDisassembler (BizTalk Server Samples Folder)</span></span>
+<span data-ttu-id="03822-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的軟體開發套件 (SDK) 中包含三個組合器/解譯器管線範例。</span><span class="sxs-lookup"><span data-stu-id="03822-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes three assembler/disassembler pipeline samples in its software development kit (SDK).</span></span> <span data-ttu-id="03822-104">本節提供每個組合器/解譯器範例所展示功能的詳細資訊、用來建置和執行範例的指示，以及您可以預期的結果。</span><span class="sxs-lookup"><span data-stu-id="03822-104">This section provides detailed information about the functionality that each assembler/disassembler sample demonstrates, instructions for building and running the samples, and the results you can expect.</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="03822-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="03822-105">In This Section</span></span>  
   
--   [FlatFileReceive （BizTalk Server 範例）](../core/flatfilereceive-biztalk-server-sample.md)。 示範如何使用 BizTalk Server 管線將分隔一般檔案訊息處理成相等的 XML 訊息。  
+-   <span data-ttu-id="03822-106">[FlatFileReceive （BizTalk Server 範例）](../core/flatfilereceive-biztalk-server-sample.md)。</span><span class="sxs-lookup"><span data-stu-id="03822-106">[FlatFileReceive (BizTalk Server Sample)](../core/flatfilereceive-biztalk-server-sample.md).</span></span> <span data-ttu-id="03822-107">示範如何使用 BizTalk Server 管線將分隔一般檔案訊息處理成相等的 XML 訊息。</span><span class="sxs-lookup"><span data-stu-id="03822-107">Demonstrates how to process delimited flat file messages into the equivalent XML messages using BizTalk Server pipelines.</span></span>  
   
--   [EnvelopeProcessing （BizTalk Server 範例）](../core/envelopeprocessing-biztalk-server-sample.md)。 示範如何使用 BizTalk Server 管線將一般檔案訊息處理成含有信封的 XML 訊息。  
+-   <span data-ttu-id="03822-108">[EnvelopeProcessing （BizTalk Server 範例）](../core/envelopeprocessing-biztalk-server-sample.md)。</span><span class="sxs-lookup"><span data-stu-id="03822-108">[EnvelopeProcessing (BizTalk Server Sample)](../core/envelopeprocessing-biztalk-server-sample.md).</span></span> <span data-ttu-id="03822-109">示範如何使用 BizTalk Server 管線將一般檔案訊息處理成含有信封的 XML 訊息。</span><span class="sxs-lookup"><span data-stu-id="03822-109">Demonstrates how to process flat file messages into XML messages with envelopes using BizTalk Server pipelines.</span></span>  
   
--   [FlatFileSend （BizTalk Server 範例）](../core/flatfilesend-biztalk-server-sample.md)。 示範如何使用 BizTalk Server 管線將 XML 訊息處理成相等的位置一般檔案訊息。
+-   <span data-ttu-id="03822-110">[FlatFileSend （BizTalk Server 範例）](../core/flatfilesend-biztalk-server-sample.md)。</span><span class="sxs-lookup"><span data-stu-id="03822-110">[FlatFileSend (BizTalk Server Sample)](../core/flatfilesend-biztalk-server-sample.md).</span></span> <span data-ttu-id="03822-111">示範如何使用 BizTalk Server 管線將 XML 訊息處理成相等的位置一般檔案訊息。</span><span class="sxs-lookup"><span data-stu-id="03822-111">Demonstrates how to process XML messages into the equivalent positional flat file messages using BizTalk Server pipelines.</span></span>

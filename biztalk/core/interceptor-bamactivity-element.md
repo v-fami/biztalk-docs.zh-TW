@@ -18,11 +18,11 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="interceptor-bamactivity-element"></a>攔截器 BamActivity 項目
-**BamActivity**項目會定義單一 BAM 活動。  
+# <a name="interceptor-bamactivity-element"></a><span data-ttu-id="90917-102">攔截器 BamActivity 項目</span><span class="sxs-lookup"><span data-stu-id="90917-102">Interceptor BamActivity Element</span></span>
+<span data-ttu-id="90917-103">**BamActivity**項目會定義單一 BAM 活動。</span><span class="sxs-lookup"><span data-stu-id="90917-103">The **BamActivity** element defines a single BAM activity.</span></span>  
   
-## <a name="format"></a>格式  
- `BamActivity`元素包含**名稱**屬性，而且包含一或多個`OnEvent`項目。  
+## <a name="format"></a><span data-ttu-id="90917-104">格式</span><span class="sxs-lookup"><span data-stu-id="90917-104">Format</span></span>  
+ <span data-ttu-id="90917-105">`BamActivity`元素包含**名稱**屬性，而且包含一或多個`OnEvent`項目。</span><span class="sxs-lookup"><span data-stu-id="90917-105">The `BamActivity` element includes a **Name** attribute and contains one or more `OnEvent` elements.</span></span>  
   
 ```  
 <ic:BamActivity Name="PurchaseOrder">  
@@ -30,14 +30,14 @@ ms.lasthandoff: 09/20/2017
 </ic:BamActivity>   
 ```  
   
-### <a name="attributes"></a>屬性  
+### <a name="attributes"></a><span data-ttu-id="90917-106">屬性</span><span class="sxs-lookup"><span data-stu-id="90917-106">Attributes</span></span>  
   
-|屬性名稱|Description|  
+|<span data-ttu-id="90917-107">屬性名稱</span><span class="sxs-lookup"><span data-stu-id="90917-107">Attribute name</span></span>|<span data-ttu-id="90917-108">Description</span><span class="sxs-lookup"><span data-stu-id="90917-108">Description</span></span>|  
 |--------------------|-----------------|  
-|名稱|BAM 活動的使用者定義名稱。|  
+|<span data-ttu-id="90917-109">名稱</span><span class="sxs-lookup"><span data-stu-id="90917-109">Name</span></span>|<span data-ttu-id="90917-110">BAM 活動的使用者定義名稱。</span><span class="sxs-lookup"><span data-stu-id="90917-110">User-defined name of the BAM activity.</span></span>|  
   
-## <a name="example"></a>範例  
- 下面例子包含的是具有單一 OnEvent 之 "MyOrderWorkflow" 的示範 BamActivity。  
+## <a name="example"></a><span data-ttu-id="90917-111">範例</span><span class="sxs-lookup"><span data-stu-id="90917-111">Example</span></span>  
+ <span data-ttu-id="90917-112">下面例子包含的是具有單一 OnEvent 之 "MyOrderWorkflow" 的示範 BamActivity。</span><span class="sxs-lookup"><span data-stu-id="90917-112">The following example contains a sample BamActivity for "MyOrderWorkflow" with a single OnEvent.</span></span>  
   
 ```  
 <ic:BamActivity Name="MyOrderWorkflow">  
@@ -47,6 +47,6 @@ ms.lasthandoff: 09/20/2017
 </ic:BamActivity>  
 ```  
   
-## <a name="see-also"></a>另請參閱  
- [攔截器 EventSource 項目](../core/interceptor-eventsource-element.md)   
- [攔截器 OnEvent 項目](../core/interceptor-onevent-element.md)
+## <a name="see-also"></a><span data-ttu-id="90917-113">另請參閱</span><span class="sxs-lookup"><span data-stu-id="90917-113">See Also</span></span>  
+ <span data-ttu-id="90917-114">[攔截器 EventSource 項目](../core/interceptor-eventsource-element.md) </span><span class="sxs-lookup"><span data-stu-id="90917-114">[Interceptor EventSource Element](../core/interceptor-eventsource-element.md) </span></span>  
+ [<span data-ttu-id="90917-115">攔截器 OnEvent 項目</span><span class="sxs-lookup"><span data-stu-id="90917-115">Interceptor OnEvent Element</span></span>](../core/interceptor-onevent-element.md)

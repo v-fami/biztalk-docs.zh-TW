@@ -18,55 +18,55 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="interfaces-for-a-batch-supported-receive-adapter"></a>批次支援接收配接器介面
-接收介面永遠會批次提交訊息。 批次指的是內含許多資料庫作業的一個單位，您可以用來執行許多動作，而不只是提交。 例如，接收配接器可以在相同的批次作業中提交一組訊息、暫停一組不同的訊息，並刪除另一組訊息。 我們非常鼓勵您使用批次作業，因為將這些分開的作業群組至相同的批次中可以降低所需的資料庫往返並最佳化效能。  
+# <a name="interfaces-for-a-batch-supported-receive-adapter"></a><span data-ttu-id="a2f33-102">批次支援接收配接器介面</span><span class="sxs-lookup"><span data-stu-id="a2f33-102">Interfaces for a Batch-Supported Receive Adapter</span></span>
+<span data-ttu-id="a2f33-103">接收介面永遠會批次提交訊息。</span><span class="sxs-lookup"><span data-stu-id="a2f33-103">A receive adapter always submits messages in a batch.</span></span> <span data-ttu-id="a2f33-104">批次指的是內含許多資料庫作業的一個單位，您可以用來執行許多動作，而不只是提交。</span><span class="sxs-lookup"><span data-stu-id="a2f33-104">A batch is a unit of database operations that you can use for actions other than submission.</span></span> <span data-ttu-id="a2f33-105">例如，接收配接器可以在相同的批次作業中提交一組訊息、暫停一組不同的訊息，並刪除另一組訊息。</span><span class="sxs-lookup"><span data-stu-id="a2f33-105">For example, a receive adapter can submit one set of messages, suspend a different set of messages, and delete another set of messages in the same batch.</span></span> <span data-ttu-id="a2f33-106">我們非常鼓勵您使用批次作業，因為將這些分開的作業群組至相同的批次中可以降低所需的資料庫往返並最佳化效能。</span><span class="sxs-lookup"><span data-stu-id="a2f33-106">Grouping these separate operations in the same batch optimizes performance by minimizing the number of database round trips required and is strongly encouraged.</span></span>  
   
- 內含式與外掛式接收配接器需要實作下列介面，將一批批的訊息提交至伺服器中：  
+ <span data-ttu-id="a2f33-107">內含式與外掛式接收配接器需要實作下列介面，將一批批的訊息提交至伺服器中：</span><span class="sxs-lookup"><span data-stu-id="a2f33-107">In-process and isolated receive adapters need to implement the following interfaces to submit batches of messages into the server:</span></span>  
   
--   **IBTTransport**  
+-   <span data-ttu-id="a2f33-108">**IBTTransport**</span><span class="sxs-lookup"><span data-stu-id="a2f33-108">**IBTTransport**</span></span>  
   
--   **IBTTransportControl** （只有內含式配接器）  
+-   <span data-ttu-id="a2f33-109">**IBTTransportControl** （只有內含式配接器）</span><span class="sxs-lookup"><span data-stu-id="a2f33-109">**IBTTransportControl** (in-process adapters only)</span></span>  
   
--   **IBTTransportConfig**  
+-   <span data-ttu-id="a2f33-110">**IBTTransportConfig**</span><span class="sxs-lookup"><span data-stu-id="a2f33-110">**IBTTransportConfig**</span></span>  
   
--   **IBaseComponent**  
+-   <span data-ttu-id="a2f33-111">**IBaseComponent**</span><span class="sxs-lookup"><span data-stu-id="a2f33-111">**IBaseComponent**</span></span>  
   
--   **IPersistPropertyBag**  
+-   <span data-ttu-id="a2f33-112">**IPersistPropertyBag**</span><span class="sxs-lookup"><span data-stu-id="a2f33-112">**IPersistPropertyBag**</span></span>  
   
--   **IBTBatchCallBack**  
+-   <span data-ttu-id="a2f33-113">**IBTBatchCallBack**</span><span class="sxs-lookup"><span data-stu-id="a2f33-113">**IBTBatchCallBack**</span></span>  
   
- 下列步驟說明接收配接器為了將訊息提交至伺服器中，所執行的動作順序。  
+ <span data-ttu-id="a2f33-114">下列步驟說明接收配接器為了將訊息提交至伺服器中，所執行的動作順序。</span><span class="sxs-lookup"><span data-stu-id="a2f33-114">The following steps describe the sequence of actions that a receive adapter performs to submit messages into the server.</span></span>  
   
-1.  接收配接器從傳輸 proxy 取得批次，藉由呼叫**Ibttransportproxy**方法**IBTTransportProxy**介面。 呼叫中**Ibttransportproxy**配接器傳遞指標，其**IBTBatchCallback**介面實作。  
+1.  <span data-ttu-id="a2f33-115">接收配接器從傳輸 proxy 取得批次，藉由呼叫**Ibttransportproxy**方法**IBTTransportProxy**介面。</span><span class="sxs-lookup"><span data-stu-id="a2f33-115">A receive adapter obtains the batch from the transport proxy by calling the **GetBatch** method of the **IBTTransportProxy** interface.</span></span> <span data-ttu-id="a2f33-116">呼叫中**Ibttransportproxy**配接器傳遞指標，其**IBTBatchCallback**介面實作。</span><span class="sxs-lookup"><span data-stu-id="a2f33-116">In its call to **GetBatch** the adapter passes in a pointer to its **IBTBatchCallback** interface implementation.</span></span>  
   
-2.  配接器將一個訊息一次加入批次呼叫**SubmitMessage**方法**IBTTransportBatch**介面。 如果這是雙向作業，例如請求-回應傳訊， **SubmitResponseMessage**呼叫此相同介面的方法來提交回應訊息。  
+2.  <span data-ttu-id="a2f33-117">配接器將一個訊息一次加入批次呼叫**SubmitMessage**方法**IBTTransportBatch**介面。</span><span class="sxs-lookup"><span data-stu-id="a2f33-117">An adapter adds the messages one at a time into the batch by calling the **SubmitMessage** method of the **IBTTransportBatch** interface.</span></span> <span data-ttu-id="a2f33-118">如果這是雙向作業，例如請求-回應傳訊， **SubmitResponseMessage**呼叫此相同介面的方法來提交回應訊息。</span><span class="sxs-lookup"><span data-stu-id="a2f33-118">If this is a two-way operation such as solicit-response messaging, the **SubmitResponseMessage** method of this same interface is called to submit the response message.</span></span>  
   
-3.  當所有訊息都已加入至批次時，配接器會呼叫**完成**方法**IBTTransportBatch**提交給傳輸 proxy 批次的介面。 因為接收配接器是非同步的本質，配接器可以立即取得新批次開始提交其他訊息之後，它會呼叫**完成**。  
+3.  <span data-ttu-id="a2f33-119">當所有訊息都已加入至批次時，配接器會呼叫**完成**方法**IBTTransportBatch**提交給傳輸 proxy 批次的介面。</span><span class="sxs-lookup"><span data-stu-id="a2f33-119">When all the messages have been added to the batch, the adapter calls the **Done** method of the **IBTTransportBatch** interface to submit the batch to the transport proxy.</span></span> <span data-ttu-id="a2f33-120">因為接收配接器是非同步的本質，配接器可以立即取得新批次開始提交其他訊息之後，它會呼叫**完成**。</span><span class="sxs-lookup"><span data-stu-id="a2f33-120">Because receive adapters are asynchronous in nature, the adapter can immediately obtain a new batch and start submitting other messages after it calls **Done**.</span></span>  
   
-4.  處理批次之後，傳訊引擎會叫用配接器的**BatchComplete**使用傳輸 proxy 來進行實際呼叫的回呼方法。 陣列**BTBatchOperationStatus**物件包含了提交的狀態傳遞至配接器。 每個物件都對應到一個作業類型，且包含作業的整體狀態以及每個要求執行作業的訊息狀態。 下列順序說明為了分析處理中的批次狀態，配接器需要執行的動作：  
+4.  <span data-ttu-id="a2f33-121">處理批次之後，傳訊引擎會叫用配接器的**BatchComplete**使用傳輸 proxy 來進行實際呼叫的回呼方法。</span><span class="sxs-lookup"><span data-stu-id="a2f33-121">After the batch has been processed, the Messaging Engine invokes the adapter's **BatchComplete** callback method using the transport proxy to make the actual call.</span></span> <span data-ttu-id="a2f33-122">陣列**BTBatchOperationStatus**物件包含了提交的狀態傳遞至配接器。</span><span class="sxs-lookup"><span data-stu-id="a2f33-122">An array of **BTBatchOperationStatus** objects containing the status of the submission is passed to the adapter.</span></span> <span data-ttu-id="a2f33-123">每個物件都對應到一個作業類型，且包含作業的整體狀態以及每個要求執行作業的訊息狀態。</span><span class="sxs-lookup"><span data-stu-id="a2f33-123">Each object corresponds to an operation type and contains the overall status of the operation as well as the status for each message for which the operation was performed.</span></span> <span data-ttu-id="a2f33-124">下列順序說明為了分析處理中的批次狀態，配接器需要執行的動作：</span><span class="sxs-lookup"><span data-stu-id="a2f33-124">The following sequence describes the actions the adapter needs to perform to analyze the status of batch processing:</span></span>  
   
-    1.  當做參數傳遞的整體批次狀態 HRESULT 值的核取**BatchComplete**方法。 如果呈現失敗狀態，代表批次中至少有一個作業沒有成功。 因此，以一個實體單位來提交整個批次的作業失敗。 這時候配接器應該要試著探索作業失敗的訊息，並將那些一開始就成功的訊息整合為一個批次重新提交。  
+    1.  <span data-ttu-id="a2f33-125">當做參數傳遞的整體批次狀態 HRESULT 值的核取**BatchComplete**方法。</span><span class="sxs-lookup"><span data-stu-id="a2f33-125">Check the overall batch status HRESULT value passed as a parameter to the **BatchComplete** method.</span></span> <span data-ttu-id="a2f33-126">如果呈現失敗狀態，代表批次中至少有一個作業沒有成功。</span><span class="sxs-lookup"><span data-stu-id="a2f33-126">If it is a failure, it means that at least one of the operations in the batch was unsuccessful.</span></span> <span data-ttu-id="a2f33-127">因此，以一個實體單位來提交整個批次的作業失敗。</span><span class="sxs-lookup"><span data-stu-id="a2f33-127">Therefore the submission of the entire batch as one entity failed.</span></span> <span data-ttu-id="a2f33-128">這時候配接器應該要試著探索作業失敗的訊息，並將那些一開始就成功的訊息整合為一個批次重新提交。</span><span class="sxs-lookup"><span data-stu-id="a2f33-128">The adapter should then try to discover the offending message(s) and resubmit as a batch only the ones that did not initially cause a failure.</span></span>  
   
-         如果整體批次狀態成功，代表所有傳遞至傳輸 Proxy 的訊息都已保存至磁碟中。 然而，這不代表管線已成功處理所有的訊息， 而是代表管線中失敗的訊息可能已被擱置。 針對在管線中失敗的訊息，傳回的整體批次狀態還是成功的，因為資料已經寫入磁碟。  
+         <span data-ttu-id="a2f33-129">如果整體批次狀態成功，代表所有傳遞至傳輸 Proxy 的訊息都已保存至磁碟中。</span><span class="sxs-lookup"><span data-stu-id="a2f33-129">If the overall batch status succeeded, it means that all the messages that were given to the transport proxy were persisted to disk.</span></span> <span data-ttu-id="a2f33-130">然而，這不代表管線已成功處理所有的訊息，</span><span class="sxs-lookup"><span data-stu-id="a2f33-130">However, it does not mean that the pipeline successfully processed all the messages.</span></span> <span data-ttu-id="a2f33-131">而是代表管線中失敗的訊息可能已被擱置。</span><span class="sxs-lookup"><span data-stu-id="a2f33-131">It is possible that messages that failed in the pipeline were suspended.</span></span> <span data-ttu-id="a2f33-132">針對在管線中失敗的訊息，傳回的整體批次狀態還是成功的，因為資料已經寫入磁碟。</span><span class="sxs-lookup"><span data-stu-id="a2f33-132">For messages that fail in the pipeline, the overall batch status returned is successful because the data was written to disk.</span></span>  
   
-    2.  在 `operationStatus` 參數中檢查每個作業類型的狀態。 如果狀態為**S_OK**，提交此作業成功，且您不需要進一步任何檢查的狀態。 如果狀態設為**BTS_S_EPM_MESSAGE_SUSPENDED**某些訊息已被擱置。 **BTS_S_EPM_SECURITY_CHECK_FAILED**表示某些訊息無法在驗證需要驗證的接收埠。 如果**E_FAIL**傳回，或者任何帶有小於零，此作業失敗的訊息送出的值 HRESULT。  
+    2.  <span data-ttu-id="a2f33-133">在 `operationStatus` 參數中檢查每個作業類型的狀態。</span><span class="sxs-lookup"><span data-stu-id="a2f33-133">Check the status for each operation type in the `operationStatus` parameter.</span></span> <span data-ttu-id="a2f33-134">如果狀態為**S_OK**，提交此作業成功，且您不需要進一步任何檢查的狀態。</span><span class="sxs-lookup"><span data-stu-id="a2f33-134">If the status is **S_OK**, the submission for this operation succeeded and you do not need to check the status any further.</span></span> <span data-ttu-id="a2f33-135">如果狀態設為**BTS_S_EPM_MESSAGE_SUSPENDED**某些訊息已被擱置。</span><span class="sxs-lookup"><span data-stu-id="a2f33-135">If the status is set to **BTS_S_EPM_MESSAGE_SUSPENDED** some of the messages were suspended.</span></span> <span data-ttu-id="a2f33-136">**BTS_S_EPM_SECURITY_CHECK_FAILED**表示某些訊息無法在驗證需要驗證的接收埠。</span><span class="sxs-lookup"><span data-stu-id="a2f33-136">**BTS_S_EPM_SECURITY_CHECK_FAILED** signifies that some messages failed authentication in an authentication-required receive port.</span></span> <span data-ttu-id="a2f33-137">如果**E_FAIL**傳回，或者任何帶有小於零，此作業失敗的訊息送出的值 HRESULT。</span><span class="sxs-lookup"><span data-stu-id="a2f33-137">If **E_FAIL** is returned, or any HRESULT with a value that is less than zero, the message submission for this operation failed.</span></span>  
   
-    3.  針對作業類型檢查每個訊息的狀態。 針對提交作業類型，每個訊息的狀態設定為**S_OK**如果提交成功。 **BTS_S_EPM_MESSAGE_SUSPENDED**如果暫止訊息傳回。 **BTS_S_EPM_SECURITY_CHECK_FAILED**會傳回訊息失敗時需要驗證的接收埠上的驗證。 **E_BTS_NO_SUBSCRIPTION**恢復時沒有任何訂閱者的已發佈的訊息。 如果**E_FAIL**傳回，或者任何帶有值小於零，此訊息提交失敗，HRESULT。  
+    3.  <span data-ttu-id="a2f33-138">針對作業類型檢查每個訊息的狀態。</span><span class="sxs-lookup"><span data-stu-id="a2f33-138">Check the status of individual messages for the operation type.</span></span> <span data-ttu-id="a2f33-139">針對提交作業類型，每個訊息的狀態設定為**S_OK**如果提交成功。</span><span class="sxs-lookup"><span data-stu-id="a2f33-139">For the submit operation type, the status of each message is set to **S_OK** if the submission succeeded.</span></span> <span data-ttu-id="a2f33-140">**BTS_S_EPM_MESSAGE_SUSPENDED**如果暫止訊息傳回。</span><span class="sxs-lookup"><span data-stu-id="a2f33-140">**BTS_S_EPM_MESSAGE_SUSPENDED** is returned if the message was suspended.</span></span> <span data-ttu-id="a2f33-141">**BTS_S_EPM_SECURITY_CHECK_FAILED**會傳回訊息失敗時需要驗證的接收埠上的驗證。</span><span class="sxs-lookup"><span data-stu-id="a2f33-141">**BTS_S_EPM_SECURITY_CHECK_FAILED** is returned if the message failed authentication on a receive port that requires authentication.</span></span> <span data-ttu-id="a2f33-142">**E_BTS_NO_SUBSCRIPTION**恢復時沒有任何訂閱者的已發佈的訊息。</span><span class="sxs-lookup"><span data-stu-id="a2f33-142">**E_BTS_NO_SUBSCRIPTION** comes back if there were no subscribers for the published message.</span></span> <span data-ttu-id="a2f33-143">如果**E_FAIL**傳回，或者任何帶有值小於零，此訊息提交失敗，HRESULT。</span><span class="sxs-lookup"><span data-stu-id="a2f33-143">If **E_FAIL** is returned, or any HRESULT with a value that is less than zero, the message submission failed.</span></span>  
   
-    4.  根據您的配接器，您可能要擱置訊息傳回**E_FAIL**或任何失敗的 HRESULT。  
+    4.  <span data-ttu-id="a2f33-144">根據您的配接器，您可能要擱置訊息傳回**E_FAIL**或任何失敗的 HRESULT。</span><span class="sxs-lookup"><span data-stu-id="a2f33-144">Depending on your adapter, you may want to suspend messages that return **E_FAIL** or any failing HRESULT.</span></span>  
   
-5.  **BatchComplete**方法需要傳回**S_OK**或**E_FAIL**以表示執行結果。 如果**BatchComplete**方法會傳回**E_FAIL**或任何負數 HRESULT，傳輸 proxy 來記錄錯誤。  
+5.  <span data-ttu-id="a2f33-145">**BatchComplete**方法需要傳回**S_OK**或**E_FAIL**以表示執行結果。</span><span class="sxs-lookup"><span data-stu-id="a2f33-145">The **BatchComplete** method needs to return either **S_OK** or **E_FAIL** to indicate the result of execution.</span></span> <span data-ttu-id="a2f33-146">如果**BatchComplete**方法會傳回**E_FAIL**或任何負數 HRESULT，傳輸 proxy 來記錄錯誤。</span><span class="sxs-lookup"><span data-stu-id="a2f33-146">If the **BatchComplete** method returns **E_FAIL** or any negative HRESULT, the transport proxy logs an error.</span></span>  
   
- 下圖顯示在建立支援批次處理的接收配接器時所牽涉的物件互動。  
+ <span data-ttu-id="a2f33-147">下圖顯示在建立支援批次處理的接收配接器時所牽涉的物件互動。</span><span class="sxs-lookup"><span data-stu-id="a2f33-147">The following figure shows the object interactions involved in creating a batch-supported receive adapter.</span></span>  
   
  ![](../core/media/ebiz-sdk-devadapter1.gif "ebiz_sdk_devadapter1")  
-接收配接器提交訊息批次的工作流程  
+<span data-ttu-id="a2f33-148">接收配接器提交訊息批次的工作流程</span><span class="sxs-lookup"><span data-stu-id="a2f33-148">Workflow for a receive adapter submitting a batch of messages</span></span>  
   
-## <a name="see-also"></a>另請參閱  
- [配接器變數](../core/adapter-variables.md)   
- [開發接收配接器](../core/developing-a-receive-adapter.md)   
- [具現化，並初始化接收配接器](../core/instantiating-and-initializing-a-receive-adapter.md)   
- [介面的內含式接收配接器](../core/interfaces-for-an-in-process-receive-adapter.md)   
- [介面的外掛式接收配接器](../core/interfaces-for-an-isolated-receive-adapter.md)   
- [交易式批次支援接收配接器介面](../core/interfaces-for-a-transactional-batch-supported-receive-adapter.md)   
- [接收配接器同步要求-回應的介面](../core/interfaces-for-a-synchronous-request-response-receive-adapter.md)
+## <a name="see-also"></a><span data-ttu-id="a2f33-149">另請參閱</span><span class="sxs-lookup"><span data-stu-id="a2f33-149">See Also</span></span>  
+ <span data-ttu-id="a2f33-150">[配接器變數](../core/adapter-variables.md) </span><span class="sxs-lookup"><span data-stu-id="a2f33-150">[Adapter Variables](../core/adapter-variables.md) </span></span>  
+ <span data-ttu-id="a2f33-151">[開發接收配接器](../core/developing-a-receive-adapter.md) </span><span class="sxs-lookup"><span data-stu-id="a2f33-151">[Developing a Receive Adapter](../core/developing-a-receive-adapter.md) </span></span>  
+ <span data-ttu-id="a2f33-152">[具現化，並初始化接收配接器](../core/instantiating-and-initializing-a-receive-adapter.md) </span><span class="sxs-lookup"><span data-stu-id="a2f33-152">[Instantiating and Initializing a Receive Adapter](../core/instantiating-and-initializing-a-receive-adapter.md) </span></span>  
+ <span data-ttu-id="a2f33-153">[介面的內含式接收配接器](../core/interfaces-for-an-in-process-receive-adapter.md) </span><span class="sxs-lookup"><span data-stu-id="a2f33-153">[Interfaces for an In-Process Receive Adapter](../core/interfaces-for-an-in-process-receive-adapter.md) </span></span>  
+ <span data-ttu-id="a2f33-154">[介面的外掛式接收配接器](../core/interfaces-for-an-isolated-receive-adapter.md) </span><span class="sxs-lookup"><span data-stu-id="a2f33-154">[Interfaces for an Isolated Receive Adapter](../core/interfaces-for-an-isolated-receive-adapter.md) </span></span>  
+ <span data-ttu-id="a2f33-155">[交易式批次支援接收配接器介面](../core/interfaces-for-a-transactional-batch-supported-receive-adapter.md) </span><span class="sxs-lookup"><span data-stu-id="a2f33-155">[Interfaces for a Transactional Batch-Supported Receive Adapter](../core/interfaces-for-a-transactional-batch-supported-receive-adapter.md) </span></span>  
+ [<span data-ttu-id="a2f33-156">接收配接器同步要求-回應的介面</span><span class="sxs-lookup"><span data-stu-id="a2f33-156">Interfaces for a Synchronous Request-Response Receive Adapter</span></span>](../core/interfaces-for-a-synchronous-request-response-receive-adapter.md)

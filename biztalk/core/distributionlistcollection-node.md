@@ -19,12 +19,12 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="distributionlistcollection-node"></a>DistributionListCollection 節點
-繫結檔案的 [DistributionListCollection] 節點是所有 DistributionList 節點的父節點，這些節點包含隨同繫結檔案一起匯出之通訊群組清單的特定相關資訊。  
+# <a name="distributionlistcollection-node"></a><span data-ttu-id="c063f-102">DistributionListCollection 節點</span><span class="sxs-lookup"><span data-stu-id="c063f-102">DistributionListCollection Node</span></span>
+<span data-ttu-id="c063f-103">繫結檔案的 [DistributionListCollection] 節點是所有 DistributionList 節點的父節點，這些節點包含隨同繫結檔案一起匯出之通訊群組清單的特定相關資訊。</span><span class="sxs-lookup"><span data-stu-id="c063f-103">The DistributionListCollection node of a binding file is the parent node for all of the DistributionList nodes which contain specific information about distribution lists that are exported with the binding file.</span></span>  
   
-## <a name="nodes-in-the-distributionlistcollection-node"></a>DistributionListCollection 節點中的節點  
- 下表列出可以為繫結檔案中的這個節點設定的屬性：  
+## <a name="nodes-in-the-distributionlistcollection-node"></a><span data-ttu-id="c063f-104">DistributionListCollection 節點中的節點</span><span class="sxs-lookup"><span data-stu-id="c063f-104">Nodes in the DistributionListCollection node</span></span>  
+ <span data-ttu-id="c063f-105">下表列出可以為繫結檔案中的這個節點設定的屬性：</span><span class="sxs-lookup"><span data-stu-id="c063f-105">The following table lists the properties that can be set for this node of a binding file:</span></span>  
   
-|**名稱**|**節點類型**|**資料類型**|**說明**|**限制**|**註解**|  
+|<span data-ttu-id="c063f-106">**名稱**</span><span class="sxs-lookup"><span data-stu-id="c063f-106">**Name**</span></span>|<span data-ttu-id="c063f-107">**節點類型**</span><span class="sxs-lookup"><span data-stu-id="c063f-107">**Node Type**</span></span>|<span data-ttu-id="c063f-108">**資料類型**</span><span class="sxs-lookup"><span data-stu-id="c063f-108">**Data Type**</span></span>|<span data-ttu-id="c063f-109">**說明**</span><span class="sxs-lookup"><span data-stu-id="c063f-109">**Description**</span></span>|<span data-ttu-id="c063f-110">**限制**</span><span class="sxs-lookup"><span data-stu-id="c063f-110">**Restrictions**</span></span>|<span data-ttu-id="c063f-111">**註解**</span><span class="sxs-lookup"><span data-stu-id="c063f-111">**Comments**</span></span>|  
 |--------------|-------------------|-------------------|---------------------|----------------------|------------------|  
-|[DistributionList](../core/distributionlist-distributionlistcollection-node.md)|記錄|DistributionList (ComplexType)|指定隨同繫結檔案匯出之通訊群組清單的相關資訊。|不需要|預設值：無|
+|[<span data-ttu-id="c063f-112">DistributionList</span><span class="sxs-lookup"><span data-stu-id="c063f-112">DistributionList</span></span>](../core/distributionlist-distributionlistcollection-node.md)|<span data-ttu-id="c063f-113">記錄</span><span class="sxs-lookup"><span data-stu-id="c063f-113">Record</span></span>|<span data-ttu-id="c063f-114">DistributionList (ComplexType)</span><span class="sxs-lookup"><span data-stu-id="c063f-114">DistributionList (ComplexType)</span></span>|<span data-ttu-id="c063f-115">指定隨同繫結檔案匯出之通訊群組清單的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="c063f-115">Specifies information about a distribution list that is exported with the binding file.</span></span>|<span data-ttu-id="c063f-116">不需要</span><span class="sxs-lookup"><span data-stu-id="c063f-116">Not required</span></span>|<span data-ttu-id="c063f-117">預設值：無</span><span class="sxs-lookup"><span data-stu-id="c063f-117">Default value: none</span></span>|

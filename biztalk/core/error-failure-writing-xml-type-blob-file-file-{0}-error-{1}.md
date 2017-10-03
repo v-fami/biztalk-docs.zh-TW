@@ -18,15 +18,15 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---failure-writing-xml-type-blob-file-ltfile---0gt-error-1"></a>錯誤-無法寫入 XML 類型 Blob 檔案 (&lt;file:---{0}&gt;)。 錯誤： {1}
-**錯誤碼**  
+# <a name="error---failure-writing-xml-type-blob-file-ltfile---0gt-error-1"></a><span data-ttu-id="c341c-103">錯誤-無法寫入 XML 類型 Blob 檔案 (&lt;file:---{0}&gt;)。</span><span class="sxs-lookup"><span data-stu-id="c341c-103">Error - Failure writing XML Type Blob file (&lt;file:---{0}&gt;).</span></span> <span data-ttu-id="c341c-104">錯誤： {1}</span><span class="sxs-lookup"><span data-stu-id="c341c-104">Error: {1}</span></span>
+<span data-ttu-id="c341c-105">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="c341c-105">**Error Code**</span></span>  
   
- btm1062  
+ <span data-ttu-id="c341c-106">btm1062</span><span class="sxs-lookup"><span data-stu-id="c341c-106">btm1062</span></span>  
   
- **說明**  
+ <span data-ttu-id="c341c-107">**說明**</span><span class="sxs-lookup"><span data-stu-id="c341c-107">**Explanation**</span></span>  
   
- 發生這種情況的對應工具編譯器無法在建置工作所指定的位置中建立的 xml blob 檔案時。  
+ <span data-ttu-id="c341c-108">發生這種情況的對應工具編譯器無法在建置工作所指定的位置中建立的 xml blob 檔案時。</span><span class="sxs-lookup"><span data-stu-id="c341c-108">This occurs when mapper compiler is not able to create the xml blob file in the location specified by the build task.</span></span>  
   
- **使用者動作**  
+ <span data-ttu-id="c341c-109">**使用者動作**</span><span class="sxs-lookup"><span data-stu-id="c341c-109">**User Action**</span></span>  
   
- 請查看錯誤訊息，包含在訊息 （錯誤 {1})i。 如果是獲例外狀況，您可能不會有的專案輸出資料夾的寫入權限。
+ <span data-ttu-id="c341c-110">請查看錯誤訊息，包含在訊息 （錯誤 {1})i。</span><span class="sxs-lookup"><span data-stu-id="c341c-110">Check the error message included in the message (Error {1})i.</span></span> <span data-ttu-id="c341c-111">如果是獲例外狀況，您可能不會有的專案輸出資料夾的寫入權限。</span><span class="sxs-lookup"><span data-stu-id="c341c-111">If it is an UnAuthorised exception, then you may not have write permission for the project output folder.</span></span>

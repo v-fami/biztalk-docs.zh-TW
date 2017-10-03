@@ -19,9 +19,9 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="deploying-biztalk-adapter-for-jd-edwards-enterpriseone"></a>部署 BizTalk Adapter for JD Edwards EnterpriseOne
-本節提供有關部署 Microsoft BizTalk Adapter for JD Edwards EnterpriseOne 的資訊。  
+# <a name="deploying-biztalk-adapter-for-jd-edwards-enterpriseone"></a><span data-ttu-id="41fb1-102">部署 BizTalk Adapter for JD Edwards EnterpriseOne</span><span class="sxs-lookup"><span data-stu-id="41fb1-102">Deploying BizTalk Adapter for JD Edwards EnterpriseOne</span></span>
+<span data-ttu-id="41fb1-103">本節提供有關部署 Microsoft BizTalk Adapter for JD Edwards EnterpriseOne 的資訊。</span><span class="sxs-lookup"><span data-stu-id="41fb1-103">This section provides information about deploying Microsoft BizTalk Adapter for JD Edwards EnterpriseOne.</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="41fb1-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="41fb1-104">In This Section</span></span>  
   
--   [部署連接埠和組件](../core/deploying-ports-and-assemblies3.md)
+-   [<span data-ttu-id="41fb1-105">部署連接埠和組件</span><span class="sxs-lookup"><span data-stu-id="41fb1-105">Deploying Ports and Assemblies</span></span>](../core/deploying-ports-and-assemblies3.md)

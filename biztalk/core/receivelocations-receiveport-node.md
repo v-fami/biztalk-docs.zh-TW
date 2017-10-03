@@ -19,12 +19,12 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="receivelocations-receiveport-node"></a>ReceiveLocations (ReceivePort 節點)
-繫結檔案之 [ReceivePort] 節點的 [ ReceiveLocations] 節點是所有 [ReceiveLocation] 節點的父節點，這些節點包含隨同繫結檔案一起匯出之接收位置的特定相關資訊。  
+# <a name="receivelocations-receiveport-node"></a><span data-ttu-id="663c7-102">ReceiveLocations (ReceivePort 節點)</span><span class="sxs-lookup"><span data-stu-id="663c7-102">ReceiveLocations (ReceivePort Node)</span></span>
+<span data-ttu-id="663c7-103">繫結檔案之 [ReceivePort] 節點的 [ ReceiveLocations] 節點是所有 [ReceiveLocation] 節點的父節點，這些節點包含隨同繫結檔案一起匯出之接收位置的特定相關資訊。</span><span class="sxs-lookup"><span data-stu-id="663c7-103">The ReceiveLocations node of the ReceivePort node of a binding file is the parent node for all of the ReceiveLocation nodes which contain specific information about the receive locations that are exported with the binding file.</span></span>  
   
-## <a name="nodes-in-the-receivelocations-node"></a>ReceiveLocations 節點中的節點  
- 下表列出可以為繫結檔案中的這個節點設定的屬性：  
+## <a name="nodes-in-the-receivelocations-node"></a><span data-ttu-id="663c7-104">ReceiveLocations 節點中的節點</span><span class="sxs-lookup"><span data-stu-id="663c7-104">Nodes in the ReceiveLocations node</span></span>  
+ <span data-ttu-id="663c7-105">下表列出可以為繫結檔案中的這個節點設定的屬性：</span><span class="sxs-lookup"><span data-stu-id="663c7-105">The following table lists the properties that can be set for this node of a binding file:</span></span>  
   
-|**名稱**|**節點類型**|**資料類型**|**說明**|**限制**|**註解**|  
+|<span data-ttu-id="663c7-106">**名稱**</span><span class="sxs-lookup"><span data-stu-id="663c7-106">**Name**</span></span>|<span data-ttu-id="663c7-107">**節點類型**</span><span class="sxs-lookup"><span data-stu-id="663c7-107">**Node Type**</span></span>|<span data-ttu-id="663c7-108">**資料類型**</span><span class="sxs-lookup"><span data-stu-id="663c7-108">**Data Type**</span></span>|<span data-ttu-id="663c7-109">**說明**</span><span class="sxs-lookup"><span data-stu-id="663c7-109">**Description**</span></span>|<span data-ttu-id="663c7-110">**限制**</span><span class="sxs-lookup"><span data-stu-id="663c7-110">**Restrictions**</span></span>|<span data-ttu-id="663c7-111">**註解**</span><span class="sxs-lookup"><span data-stu-id="663c7-111">**Comments**</span></span>|  
 |--------------|-------------------|-------------------|---------------------|----------------------|------------------|  
-|[ReceiveLocation](../core/receivelocation-receivelocations-node.md)|記錄|ReceiveLocation (ComplexType)|指定隨同繫結檔案一起匯出之接收位置的相關資訊。|不需要|預設值：無|
+|[<span data-ttu-id="663c7-112">ReceiveLocation</span><span class="sxs-lookup"><span data-stu-id="663c7-112">ReceiveLocation</span></span>](../core/receivelocation-receivelocations-node.md)|<span data-ttu-id="663c7-113">記錄</span><span class="sxs-lookup"><span data-stu-id="663c7-113">Record</span></span>|<span data-ttu-id="663c7-114">ReceiveLocation (ComplexType)</span><span class="sxs-lookup"><span data-stu-id="663c7-114">ReceiveLocation (ComplexType)</span></span>|<span data-ttu-id="663c7-115">指定隨同繫結檔案一起匯出之接收位置的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="663c7-115">Specifies information about a receive location that is exported with the binding file.</span></span>|<span data-ttu-id="663c7-116">不需要</span><span class="sxs-lookup"><span data-stu-id="663c7-116">Not required</span></span>|<span data-ttu-id="663c7-117">預設值：無</span><span class="sxs-lookup"><span data-stu-id="663c7-117">Default value: none</span></span>|

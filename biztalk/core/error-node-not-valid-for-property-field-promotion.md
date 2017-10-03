@@ -19,15 +19,15 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---node-not-valid-for-property-field-promotion"></a>錯誤-節點不適用於屬性欄位升級
-**錯誤碼**  
+# <a name="error---node-not-valid-for-property-field-promotion"></a><span data-ttu-id="378a0-102">錯誤-節點不適用於屬性欄位升級</span><span class="sxs-lookup"><span data-stu-id="378a0-102">Error - Node Not Valid For Property Field Promotion</span></span>
+<span data-ttu-id="378a0-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="378a0-103">**Error Code**</span></span>  
   
- BEC2001  
+ <span data-ttu-id="378a0-104">BEC2001</span><span class="sxs-lookup"><span data-stu-id="378a0-104">BEC2001</span></span>  
   
- **說明**  
+ <span data-ttu-id="378a0-105">**說明**</span><span class="sxs-lookup"><span data-stu-id="378a0-105">**Explanation**</span></span>  
   
- 指定的節點無法升級為「屬性欄位」，因為它無法包含必要的文字內容。 只有**欄位項目**節點**欄位屬性**節點，或**記錄**帶有混合或簡單內容的節點，請升級為屬性欄位。  
+ <span data-ttu-id="378a0-106">指定的節點無法升級為「屬性欄位」，因為它無法包含必要的文字內容。</span><span class="sxs-lookup"><span data-stu-id="378a0-106">The indicated node cannot be promoted as a Property Field because it cannot contain the required text content.</span></span> <span data-ttu-id="378a0-107">只有**欄位項目**節點**欄位屬性**節點，或**記錄**帶有混合或簡單內容的節點，請升級為屬性欄位。</span><span class="sxs-lookup"><span data-stu-id="378a0-107">Only **Field Element** nodes, **Field Attribute** nodes, or **Record** nodes with mixed or simple content can be promoted as Property Fields.</span></span>  
   
- **使用者動作**  
+ <span data-ttu-id="378a0-108">**使用者動作**</span><span class="sxs-lookup"><span data-stu-id="378a0-108">**User Action**</span></span>  
   
- 使用**屬性欄位**索引標籤中**升級屬性**對話方塊來移除不允許的屬性升級。
+ <span data-ttu-id="378a0-109">使用**屬性欄位**索引標籤中**升級屬性**對話方塊來移除不允許的屬性升級。</span><span class="sxs-lookup"><span data-stu-id="378a0-109">Use the **Property Fields** tab in the **Promote Properties** dialog box to remove the disallowed property promotion.</span></span>

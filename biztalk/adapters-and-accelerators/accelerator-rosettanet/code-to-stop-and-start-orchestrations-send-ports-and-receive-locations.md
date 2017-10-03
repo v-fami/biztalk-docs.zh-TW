@@ -28,33 +28,33 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="stopping-and-starting-orchestrations-send-ports-and-receive-locations-programmatically"></a>停止和啟動協調流程、 傳送埠和接收位置，以程式設計的方式
-本主題提供以程式控制方式停止及啟動協調流程、傳送埠和接收位置的範例程式碼。 您可以將所有的協調流程、傳送埠和接收位置當做群組或個別地執行這些動作。 只要將這個程式碼包含在程式中，即可動態地執行這些動作。 在圖形化使用者介面中執行這些動作在設計階段於[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]，或在執行階段在 BizTalk 管理主控台。  
+# <a name="stopping-and-starting-orchestrations-send-ports-and-receive-locations-programmatically"></a><span data-ttu-id="d4cdf-102">停止和啟動協調流程、 傳送埠和接收位置，以程式設計的方式</span><span class="sxs-lookup"><span data-stu-id="d4cdf-102">Stopping and Starting Orchestrations, Send Ports, and Receive Locations Programmatically</span></span>
+<span data-ttu-id="d4cdf-103">本主題提供以程式控制方式停止及啟動協調流程、傳送埠和接收位置的範例程式碼。</span><span class="sxs-lookup"><span data-stu-id="d4cdf-103">This topic provides sample code for programmatically stopping and starting orchestrations, send ports, and receive locations.</span></span> <span data-ttu-id="d4cdf-104">您可以將所有的協調流程、傳送埠和接收位置當做群組或個別地執行這些動作。</span><span class="sxs-lookup"><span data-stu-id="d4cdf-104">You can perform these actions on all orchestrations, send ports, and receive locations as a group or individually.</span></span> <span data-ttu-id="d4cdf-105">只要將這個程式碼包含在程式中，即可動態地執行這些動作。</span><span class="sxs-lookup"><span data-stu-id="d4cdf-105">You can include this code in a program to perform these actions dynamically.</span></span> <span data-ttu-id="d4cdf-106">在圖形化使用者介面中執行這些動作在設計階段於[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]，或在執行階段在 BizTalk 管理主控台。</span><span class="sxs-lookup"><span data-stu-id="d4cdf-106">You perform these actions in the graphical user interface at design time in [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)], or at run time in the BizTalk Administration console.</span></span>  
   
 > [!NOTE]
->  對於用來啟動和停止協調流程的程式碼，您不必指定協調流程、傳送埠或接收位置。 範例程式碼會執行動作的所有協調流程、 傳送埠和接收位置的[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]當初安裝時。 對於在單一協調流程、傳送埠或接收位置執行動作的程式碼，則請新增指示程式碼執行所在之協調流程、傳送埠或接收位置的參數。  
+>  <span data-ttu-id="d4cdf-107">對於用來啟動和停止協調流程的程式碼，您不必指定協調流程、傳送埠或接收位置。</span><span class="sxs-lookup"><span data-stu-id="d4cdf-107">For the code to start and stop orchestrations, you do not have to designate the orchestrations, send ports, or receive locations.</span></span> <span data-ttu-id="d4cdf-108">範例程式碼會執行動作的所有協調流程、 傳送埠和接收位置的[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]當初安裝時。</span><span class="sxs-lookup"><span data-stu-id="d4cdf-108">The sample code performs the action on all orchestrations, send ports, and receive locations that [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] installed at set up.</span></span> <span data-ttu-id="d4cdf-109">對於在單一協調流程、傳送埠或接收位置執行動作的程式碼，則請新增指示程式碼執行所在之協調流程、傳送埠或接收位置的參數。</span><span class="sxs-lookup"><span data-stu-id="d4cdf-109">For the code that acts on a single orchestration, send port, or receive location, add a parameter indicating on which orchestration, send port, or receive location you want the code to run.</span></span>  
   
-## <a name="demonstrates"></a>示範  
- 本主題中的範例程式碼包含不同的程式碼區段，可以執行下列動作：  
+## <a name="demonstrates"></a><span data-ttu-id="d4cdf-110">示範</span><span class="sxs-lookup"><span data-stu-id="d4cdf-110">Demonstrates</span></span>  
+ <span data-ttu-id="d4cdf-111">本主題中的範例程式碼包含不同的程式碼區段，可以執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="d4cdf-111">The sample code in this topic includes separate code sections to do the following:</span></span>  
   
--   啟動協調流程：啟動所有傳送埠和接收位置，並登錄及啟動所有協調流程  
+-   <span data-ttu-id="d4cdf-112">啟動協調流程：啟動所有傳送埠和接收位置，並登錄及啟動所有協調流程</span><span class="sxs-lookup"><span data-stu-id="d4cdf-112">Start orchestrations—start all the send ports and receive locations, and enlist and start all orchestrations</span></span>  
   
--   停止協調流程：取消登錄所有協調流程和傳送埠，並停用所有接收位置  
+-   <span data-ttu-id="d4cdf-113">停止協調流程：取消登錄所有協調流程和傳送埠，並停用所有接收位置</span><span class="sxs-lookup"><span data-stu-id="d4cdf-113">Stop orchestrations—unenlist all orchestrations, unenlist all send ports, and disable all receive locations</span></span>  
   
--   啟動單一傳送埠  
+-   <span data-ttu-id="d4cdf-114">啟動單一傳送埠</span><span class="sxs-lookup"><span data-stu-id="d4cdf-114">Start a single send port</span></span>  
   
--   啟用單一接收位置  
+-   <span data-ttu-id="d4cdf-115">啟用單一接收位置</span><span class="sxs-lookup"><span data-stu-id="d4cdf-115">Enable a single receive location</span></span>  
   
--   取消登錄單一傳送埠  
+-   <span data-ttu-id="d4cdf-116">取消登錄單一傳送埠</span><span class="sxs-lookup"><span data-stu-id="d4cdf-116">Unenlist a single send port</span></span>  
   
--   停用單一接收位置  
+-   <span data-ttu-id="d4cdf-117">停用單一接收位置</span><span class="sxs-lookup"><span data-stu-id="d4cdf-117">Disable a single receive location</span></span>  
   
--   啟動單一協調流程  
+-   <span data-ttu-id="d4cdf-118">啟動單一協調流程</span><span class="sxs-lookup"><span data-stu-id="d4cdf-118">Start a single orchestration</span></span>  
   
--   取消登錄單一協調流程  
+-   <span data-ttu-id="d4cdf-119">取消登錄單一協調流程</span><span class="sxs-lookup"><span data-stu-id="d4cdf-119">Unenlist a single orchestration</span></span>  
   
-## <a name="example"></a>範例  
- 本主題中的範例程式碼包含不同的程式碼區段，可以執行＜展示＞一節所列的功能。  
+## <a name="example"></a><span data-ttu-id="d4cdf-120">範例</span><span class="sxs-lookup"><span data-stu-id="d4cdf-120">Example</span></span>  
+ <span data-ttu-id="d4cdf-121">本主題中的範例程式碼包含不同的程式碼區段，可以執行＜展示＞一節所列的功能。</span><span class="sxs-lookup"><span data-stu-id="d4cdf-121">The sample code in this topic includes separate code sections to do the functions listed in the "Demonstrates" section.</span></span>  
   
 ```  
 using System;  
@@ -315,5 +315,5 @@ return false;
 }  
 ```  
   
-## <a name="see-also"></a>另請參閱  
- [範例](../../adapters-and-accelerators/accelerator-rosettanet/samples3.md)
+## <a name="see-also"></a><span data-ttu-id="d4cdf-122">另請參閱</span><span class="sxs-lookup"><span data-stu-id="d4cdf-122">See Also</span></span>  
+ [<span data-ttu-id="d4cdf-123">範例</span><span class="sxs-lookup"><span data-stu-id="d4cdf-123">Samples</span></span>](../../adapters-and-accelerators/accelerator-rosettanet/samples3.md)

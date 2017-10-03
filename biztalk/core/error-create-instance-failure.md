@@ -19,11 +19,11 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---create-instance-failure"></a>錯誤-建立執行個體失敗
-**說明**  
+# <a name="error---create-instance-failure"></a><span data-ttu-id="d3d97-102">錯誤-建立執行個體失敗</span><span class="sxs-lookup"><span data-stu-id="d3d97-102">Error - Create Instance Failure</span></span>
+<span data-ttu-id="d3d97-103">**說明**</span><span class="sxs-lookup"><span data-stu-id="d3d97-103">**Explanation**</span></span>  
   
- **產生執行個體**指定結構描述的命令失敗。  
+ <span data-ttu-id="d3d97-104">**產生執行個體**指定結構描述的命令失敗。</span><span class="sxs-lookup"><span data-stu-id="d3d97-104">The **Generate Instance** command for the indicated schema failed.</span></span>  
   
- **使用者動作**  
+ <span data-ttu-id="d3d97-105">**使用者動作**</span><span class="sxs-lookup"><span data-stu-id="d3d97-105">**User Action**</span></span>  
   
- 檢視伴隨的錯誤訊息，以判斷執行個體產生失敗的原因。
+ <span data-ttu-id="d3d97-106">檢視伴隨的錯誤訊息，以判斷執行個體產生失敗的原因。</span><span class="sxs-lookup"><span data-stu-id="d3d97-106">Examine the accompanying error messages to determine the cause of the instance generation failure.</span></span>

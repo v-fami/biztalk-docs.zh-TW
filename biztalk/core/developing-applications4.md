@@ -21,11 +21,11 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="developing-applications"></a>開發應用程式
-本節包含專供想要建立 BizTalk Server 應用程式的開發人員使用的資訊。 這些應用程式建立時，它們通常由系統管理員中的資訊[管理 BizTalk Adapter for PeopleSoft Enterprise](../core/administering-biztalk-adapter-for-peoplesoft-enterprise.md) > 一節。  
+# <a name="developing-applications"></a><span data-ttu-id="975b8-102">開發應用程式</span><span class="sxs-lookup"><span data-stu-id="975b8-102">Developing Applications</span></span>
+<span data-ttu-id="975b8-103">本節包含專供想要建立 BizTalk Server 應用程式的開發人員使用的資訊。</span><span class="sxs-lookup"><span data-stu-id="975b8-103">This section contains information for developers who want to create BizTalk Server applications.</span></span> <span data-ttu-id="975b8-104">這些應用程式建立時，它們通常由系統管理員中的資訊[管理 BizTalk Adapter for PeopleSoft Enterprise](../core/administering-biztalk-adapter-for-peoplesoft-enterprise.md) > 一節。</span><span class="sxs-lookup"><span data-stu-id="975b8-104">When these applications are created, they are usually managed by an administrator who uses information found in the [Administering BizTalk Adapter for PeopleSoft Enterprise](../core/administering-biztalk-adapter-for-peoplesoft-enterprise.md) section.</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="975b8-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="975b8-105">In This Section</span></span>  
   
--   [建立 PeopleSoft 傳送處理常式](../core/creating-peoplesoft-send-handlers.md)  
+-   [<span data-ttu-id="975b8-106">建立 PeopleSoft 傳送處理常式</span><span class="sxs-lookup"><span data-stu-id="975b8-106">Creating PeopleSoft Send Handlers</span></span>](../core/creating-peoplesoft-send-handlers.md)  
   
--   [從 PeopleSoft 接收](../core/receiving-from-peoplesoft.md)
+-   [<span data-ttu-id="975b8-107">從 PeopleSoft 接收</span><span class="sxs-lookup"><span data-stu-id="975b8-107">Receiving from PeopleSoft</span></span>](../core/receiving-from-peoplesoft.md)

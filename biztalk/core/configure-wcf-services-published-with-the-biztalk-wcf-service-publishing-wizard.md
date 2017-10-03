@@ -23,85 +23,85 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="how-to-configure-wcf-services-published-with-the-biztalk-wcf-service-publishing-wizard"></a>如何用 BizTalk WCF 服務發佈精靈來設定已發佈 WCF 服務。
-在使用 [BizTalk WCF 服務發佈精靈] 發佈 WCF 服務之後，您還必須適當設定這些服務。 本主題會說明如何設定已發佈的 WCF 服務。  
+# <a name="how-to-configure-wcf-services-published-with-the-biztalk-wcf-service-publishing-wizard"></a><span data-ttu-id="c992b-102">如何用 BizTalk WCF 服務發佈精靈來設定已發佈 WCF 服務。</span><span class="sxs-lookup"><span data-stu-id="c992b-102">How to Configure WCF Services Published with the BizTalk WCF Service Publishing Wizard</span></span>
+<span data-ttu-id="c992b-103">在使用 [BizTalk WCF 服務發佈精靈] 發佈 WCF 服務之後，您還必須適當設定這些服務。</span><span class="sxs-lookup"><span data-stu-id="c992b-103">After publishing WCF services with the BizTalk WCF Service Publishing Wizard, you must configure them properly.</span></span> <span data-ttu-id="c992b-104">本主題會說明如何設定已發佈的 WCF 服務。</span><span class="sxs-lookup"><span data-stu-id="c992b-104">This topic describes how to configure the published WCF services.</span></span>  
   
 > [!NOTE]
->  您必須先建置 BizTalk 專案，然後再執行 [BizTalk WCF 服務發佈精靈] 發佈它們。 如需如何使用 BizTalk WCF 服務發佈精靈的詳細資訊，請參閱[如何為 WCF 服務使用 BizTalk WCF 服務發佈精靈發佈的協調流程](../core/publish-orchestrations-as-wcf-services--biztalk-wcf-service-publishing-wizard.md)和[如何使用 BizTalk WCF 服務發行精靈，以結構描述發佈為 WCF 服務](../core/publish-schemas-as-wcf-services--use-the-biztalk-wcf-service-publishing-wizard.md)。  
+>  <span data-ttu-id="c992b-105">您必須先建置 BizTalk 專案，然後再執行 [BizTalk WCF 服務發佈精靈] 發佈它們。</span><span class="sxs-lookup"><span data-stu-id="c992b-105">You must build your BizTalk projects and publish them by running the BizTalk WCF Service Publishing Wizard.</span></span> <span data-ttu-id="c992b-106">如需如何使用 BizTalk WCF 服務發佈精靈的詳細資訊，請參閱[如何為 WCF 服務使用 BizTalk WCF 服務發佈精靈發佈的協調流程](../core/publish-orchestrations-as-wcf-services--biztalk-wcf-service-publishing-wizard.md)和[如何使用 BizTalk WCF 服務發行精靈，以結構描述發佈為 WCF 服務](../core/publish-schemas-as-wcf-services--use-the-biztalk-wcf-service-publishing-wizard.md)。</span><span class="sxs-lookup"><span data-stu-id="c992b-106">For more information about how to use the BizTalk WCF Service Publishing Wizard, see [How to Use the BizTalk WCF Service Publishing Wizard to Publish Orchestrations as WCF Services](../core/publish-orchestrations-as-wcf-services--biztalk-wcf-service-publishing-wizard.md) and [How to Use the BizTalk WCF Service Publishing Wizard to Publish Schemas as WCF Services](../core/publish-schemas-as-wcf-services--use-the-biztalk-wcf-service-publishing-wizard.md).</span></span>  
   
-### <a name="to-configure-the-receive-locations-for-a-published-wcf-service"></a>若要為已發佈 WCF 服務設定接收位置  
+### <a name="to-configure-the-receive-locations-for-a-published-wcf-service"></a><span data-ttu-id="c992b-107">若要為已發佈 WCF 服務設定接收位置</span><span class="sxs-lookup"><span data-stu-id="c992b-107">To configure the receive locations for a published WCF service</span></span>  
   
-1.  執行 [BizTalk WCF 服務發佈精靈] 以發佈 BizTalk 專案。  
+1.  <span data-ttu-id="c992b-108">執行 [BizTalk WCF 服務發佈精靈] 以發佈 BizTalk 專案。</span><span class="sxs-lookup"><span data-stu-id="c992b-108">Publish the BizTalk project by running the BizTalk WCF Service Publishing Wizard.</span></span>  
   
-2.  如果您未選取**建立 BizTalk 接收位置**選項在下圖中，建立 WCF 服務時，請建立新接收埠和接收位置所發佈的 WCF 服務，然後選取 WCF 配接器接收位置將使用的傳輸類型。 在選取時，您必須選取相同的 WCF 配接器**WCF 服務類型**頁面如下圖所示。 如需有關如何建立接收位置的詳細資訊，請參閱[如何建立接收位置](../core/how-to-create-a-receive-location.md)。  
-  
-    > [!NOTE]
-    >  [BizTalk WCF 服務發佈精靈] 會在已發佈 WCF 服務 (.svc 檔案) 之 Web 目錄的 \App_Data\Temp 資料夾中，建立繫結檔 BindingInfo.xml。 如果您選取**建立 BizTalk 接收位置**選項，精靈會使用繫結檔案建立接收位置。 您可以在 [BizTalk Server 管理] 主控台中手動匯入此繫結檔來建立接收位置。 如需匯入繫結檔案的詳細資訊，請參閱[匯入繫結](../core/importing-bindings2.md)。  
-  
-     ![WCF 服務類型 頁面上](../core/media/959900fd-44c9-4f3a-8836-9786a2f5e707.gif "959900fd-44c9-4f3a-8836-9786a2f5e707")  
-  
-3.  如果有必要，請開啟 BizTalk Server 管理主控台，如下所示： 按一下**啟動**，指向 **程式**，指向  **Microsoft BizTalk Server**，然後按一下  **BizTalk Server 管理**。  
-  
-4.  在主控台樹狀目錄中，依序展開**BizTalk Server 管理**，展開**BizTalk 群組**，展開**應用程式**，依序展開 應用程式位置所產生的 WCF 服務應該用來放置，依序展開**接收位置**，然後按兩下 WCF 服務的接收位置。  
-  
-5.  在**接收位置屬性**對話方塊中，按一下 **設定**。  
-  
-6.  如果接收位置是裝載 Wcf-basichttp 或 Wcf-wshttp 配接器在**傳輸屬性**對話方塊中，按一下 **安全性**索引標籤，然後再設定安全性內容 索引標籤上。如果接收位置是裝載 Wcf-customisolated 配接器在**傳輸屬性**對話方塊中，按一下 **繫結**索引標籤，然後再設定 索引標籤上的 繫結資訊。  
-  
-     ![WCF &#45; 的 [安全性] 索引標籤BasicHttp 配接器](../core/media/585ecdad-bdee-40c0-b2f1-7ace74d503e5.gif "585ecdad-bdee-40c0-b2f1-7ace74d503e5")  
+2.  <span data-ttu-id="c992b-109">如果您未選取**建立 BizTalk 接收位置**選項在下圖中，建立 WCF 服務時，請建立新接收埠和接收位置所發佈的 WCF 服務，然後選取 WCF 配接器接收位置將使用的傳輸類型。</span><span class="sxs-lookup"><span data-stu-id="c992b-109">If you did not select the **Create BizTalk receive locations** option in the following figure when creating the WCF service, create a new receive port and receive location for the published WCF service, and then select the WCF adapter for the transport type that the receive location will use.</span></span> <span data-ttu-id="c992b-110">在選取時，您必須選取相同的 WCF 配接器**WCF 服務類型**頁面如下圖所示。</span><span class="sxs-lookup"><span data-stu-id="c992b-110">You must select the same WCF adapter as is selected on the **WCF Service Type** page shown in the following figure.</span></span> <span data-ttu-id="c992b-111">如需有關如何建立接收位置的詳細資訊，請參閱[如何建立接收位置](../core/how-to-create-a-receive-location.md)。</span><span class="sxs-lookup"><span data-stu-id="c992b-111">For more information about creating a receive location, see [How to Create a Receive Location](../core/how-to-create-a-receive-location.md).</span></span>  
   
     > [!NOTE]
-    >  外掛式 WCF 配接器的傳輸用戶端認證類型屬性，必須符合裝載此接收位置之 Internet Information Services (IIS) 虛擬目錄的驗證配置。 例如，如果屬性設定為**Windows**，您也必須啟用**整合式 Windows 驗證**針對裝載此虛擬目錄接收位置。 同樣地，如果您將此屬性設為 **[無]**，您必須允許針對裝載此接收位置的虛擬目錄進行匿名存取。 如需如何設定 Wcf-basichttp 和 Wcf-wshttp 配接器的安全性內容的詳細資訊，請參閱[如何設定 Wcf-basichttp 接收位置](http://msdn.microsoft.com/library/43f18e5d-ba28-453c-b8ce-5bcdc6f27fdd)，和[如何設定 Wcf-wshttp 接收位置](../core/how-to-configure-a-wcf-wshttp-receive-location.md)。 如需如何設定繫結資訊的詳細資訊，請參閱[如何設定 Wcf-customisolated 接收位置](../core/how-to-configure-a-wcf-customisolated-receive-location.md)。  
+    >  <span data-ttu-id="c992b-112">[BizTalk WCF 服務發佈精靈] 會在已發佈 WCF 服務 (.svc 檔案) 之 Web 目錄的 \App_Data\Temp 資料夾中，建立繫結檔 BindingInfo.xml。</span><span class="sxs-lookup"><span data-stu-id="c992b-112">The BizTalk WCF Service Publishing Wizard creates a binding file, BindingInfo.xml, in the \App_Data\Temp folder in the Web directory for the published WCF service (.svc file).</span></span> <span data-ttu-id="c992b-113">如果您選取**建立 BizTalk 接收位置**選項，精靈會使用繫結檔案建立接收位置。</span><span class="sxs-lookup"><span data-stu-id="c992b-113">If you select the **Create BizTalk receive locations** option, the wizard uses the binding file to create the receive location.</span></span> <span data-ttu-id="c992b-114">您可以在 [BizTalk Server 管理] 主控台中手動匯入此繫結檔來建立接收位置。</span><span class="sxs-lookup"><span data-stu-id="c992b-114">In the BizTalk Server Administration console, you can import this binding file to create the receive location manually.</span></span> <span data-ttu-id="c992b-115">如需匯入繫結檔案的詳細資訊，請參閱[匯入繫結](../core/importing-bindings2.md)。</span><span class="sxs-lookup"><span data-stu-id="c992b-115">For more information about importing a binding file, see [Importing Bindings](../core/importing-bindings2.md).</span></span>  
   
-7.  如果您未選取**建立 BizTalk 接收位置**選項建立 WCF 服務時，在**傳輸屬性**對話方塊中，按一下 [**一般**] 索引標籤。在**一般**索引標籤上，針對這個接收位置中的，輸入 URI**位址**文字方塊。 指定虛擬目錄加上.svc 檔案名稱 BizTalk WCF 服務發佈精靈產生之前程序中 — 例如，/path/service.svc。  
+     <span data-ttu-id="c992b-116">![WCF 服務類型 頁面上](../core/media/959900fd-44c9-4f3a-8836-9786a2f5e707.gif "959900fd-44c9-4f3a-8836-9786a2f5e707")</span><span class="sxs-lookup"><span data-stu-id="c992b-116">![WCF Service Type page](../core/media/959900fd-44c9-4f3a-8836-9786a2f5e707.gif "959900fd-44c9-4f3a-8836-9786a2f5e707")</span></span>  
+  
+3.  <span data-ttu-id="c992b-117">如果有必要，請開啟 BizTalk Server 管理主控台，如下所示： 按一下**啟動**，指向 **程式**，指向  **Microsoft BizTalk Server**，然後按一下  **BizTalk Server 管理**。</span><span class="sxs-lookup"><span data-stu-id="c992b-117">If necessary, open the BizTalk Server Administration console as follows: Click **Start**, point to **Programs**, point to **Microsoft BizTalk Server**, and then click **BizTalk Server Administration**.</span></span>  
+  
+4.  <span data-ttu-id="c992b-118">在主控台樹狀目錄中，依序展開**BizTalk Server 管理**，展開**BizTalk 群組**，展開**應用程式**，依序展開 應用程式位置所產生的 WCF 服務應該用來放置，依序展開**接收位置**，然後按兩下 WCF 服務的接收位置。</span><span class="sxs-lookup"><span data-stu-id="c992b-118">In the console tree, expand **BizTalk Server Administration**, expand **BizTalk Group**, expand **Applications**, expand the application where the generated WCF service should be placed, expand **Receive Locations**, and then double-click the receive location for the WCF service.</span></span>  
+  
+5.  <span data-ttu-id="c992b-119">在**接收位置屬性**對話方塊中，按一下 **設定**。</span><span class="sxs-lookup"><span data-stu-id="c992b-119">In the **Receive Location Properties** dialog box, click **Configure**.</span></span>  
+  
+6.  <span data-ttu-id="c992b-120">如果接收位置是裝載 Wcf-basichttp 或 Wcf-wshttp 配接器在**傳輸屬性**對話方塊中，按一下 **安全性**索引標籤，然後再設定安全性內容 索引標籤上。如果接收位置是裝載 Wcf-customisolated 配接器在**傳輸屬性**對話方塊中，按一下 **繫結**索引標籤，然後再設定 索引標籤上的 繫結資訊。</span><span class="sxs-lookup"><span data-stu-id="c992b-120">If the receive location hosts the WCF-BasicHttp or WCF-WSHttp adapter, in the **Transport Properties** dialog box, click the **Security** tab, and then configure the security properties on the tab. If the receive location hosts the WCF-CustomIsolated adapter, in the **Transport Properties** dialog box, click the **Binding** tab, and then configure the binding information on the tab.</span></span>  
+  
+     <span data-ttu-id="c992b-121">![WCF &#45; 的 [安全性] 索引標籤BasicHttp 配接器](../core/media/585ecdad-bdee-40c0-b2f1-7ace74d503e5.gif "585ecdad-bdee-40c0-b2f1-7ace74d503e5")</span><span class="sxs-lookup"><span data-stu-id="c992b-121">![The Security tab of the WCF&#45;BasicHttp adapter](../core/media/585ecdad-bdee-40c0-b2f1-7ace74d503e5.gif "585ecdad-bdee-40c0-b2f1-7ace74d503e5")</span></span>  
   
     > [!NOTE]
-    >  **位址**屬性應該啟動以正斜線 （"/"），並以".svc"結束。 **位址**屬性不能包含通訊協定配置、 電腦名稱或連接埠號碼，例如 http://host:port。 這個屬性只能使用虛擬目錄路徑。 WCF 服務標記檔案必須具有 .svc 副檔名。  
+    >  <span data-ttu-id="c992b-122">外掛式 WCF 配接器的傳輸用戶端認證類型屬性，必須符合裝載此接收位置之 Internet Information Services (IIS) 虛擬目錄的驗證配置。</span><span class="sxs-lookup"><span data-stu-id="c992b-122">The transport client credential type property for the isolated WCF adapter must match the authentication scheme of the Internet Information Services (IIS) virtual directory hosting this receive location.</span></span> <span data-ttu-id="c992b-123">例如，如果屬性設定為**Windows**，您也必須啟用**整合式 Windows 驗證**針對裝載此虛擬目錄接收位置。</span><span class="sxs-lookup"><span data-stu-id="c992b-123">For example, if the property is set to **Windows**, you also need to enable **Integrated Windows authentication** for the virtual directory that hosts this receive location.</span></span> <span data-ttu-id="c992b-124">同樣地，如果您將此屬性設為 **[無]**，您必須允許針對裝載此接收位置的虛擬目錄進行匿名存取。</span><span class="sxs-lookup"><span data-stu-id="c992b-124">Similarly if the property is set to **None**, you must allow anonymous access to the virtual directory that hosts this receive location.</span></span> <span data-ttu-id="c992b-125">如需如何設定 Wcf-basichttp 和 Wcf-wshttp 配接器的安全性內容的詳細資訊，請參閱[如何設定 Wcf-basichttp 接收位置](http://msdn.microsoft.com/library/43f18e5d-ba28-453c-b8ce-5bcdc6f27fdd)，和[如何設定 Wcf-wshttp 接收位置](../core/how-to-configure-a-wcf-wshttp-receive-location.md)。</span><span class="sxs-lookup"><span data-stu-id="c992b-125">For more information about how to configure the security properties for the WCF-BasicHttp and WCF-WSHttp adapters, see [How to Configure a WCF-BasicHttp Receive Location](http://msdn.microsoft.com/library/43f18e5d-ba28-453c-b8ce-5bcdc6f27fdd), and [How to Configure a WCF-WSHttp Receive Location](../core/how-to-configure-a-wcf-wshttp-receive-location.md).</span></span> <span data-ttu-id="c992b-126">如需如何設定繫結資訊的詳細資訊，請參閱[如何設定 Wcf-customisolated 接收位置](../core/how-to-configure-a-wcf-customisolated-receive-location.md)。</span><span class="sxs-lookup"><span data-stu-id="c992b-126">For more information about how to configure the binding information, see [How to Configure a WCF-CustomIsolated Receive Location](../core/how-to-configure-a-wcf-customisolated-receive-location.md).</span></span>  
   
-     ![WCF &#45; 的 [一般] 索引標籤BasicHttp 配接器](../core/media/1126fa6a-e3e9-44ad-aeb0-90c78226aeeb.gif "1126fa6a-e3e9-44ad-aeb0-90c78226aeeb")  
-  
-8.  如果您選取**傳輸**或**TransportWithMessageCredential**中**安全性模式**下拉式清單上的**安全性** 索引標籤Wcf-basichttp 和 Wcf-wshttp 配接器，您必須設定設定安全通訊端層 (SSL) 在 IIS 中。 如果您設定**傳輸**或**TransportWithMessageCredential** Wcf-customisolated 配接器的繫結資訊中的安全性模式，您也必須設定在 IIS 中的 SSL。  
-  
-9. 如果接收位置是裝載 Wcf-basichttp 或 Wcf-wshttp 配接器在**傳輸屬性**對話方塊方塊中，設定**一般**，**繫結**，和**訊息**如有必要的索引標籤。 如果接收位置是裝載 Wcf-customisolated 配接器，設定**一般**，**行為**，**其他**，和**訊息**索引標籤您的需求。 Wcf-customisolated 配接器，您可以匯入**位址 (URI)**和**端點身分識別**屬性**一般**索引標籤上，繫結資訊**繫結**索引標籤，然後行為會在**行為** 索引標籤，這個接收位置從組態檔。  
-  
-10. 使用 [BizTalk Server 管理] 主控台來啟用已發佈 WCF 服務的接收位置。 如需如何啟用接收位置的詳細資訊，請參閱[如何啟用接收位置](../core/how-to-enable-a-receive-location.md)。  
+7.  <span data-ttu-id="c992b-127">如果您未選取**建立 BizTalk 接收位置**選項建立 WCF 服務時，在**傳輸屬性**對話方塊中，按一下 [**一般**] 索引標籤。在**一般**索引標籤上，針對這個接收位置中的，輸入 URI**位址**文字方塊。</span><span class="sxs-lookup"><span data-stu-id="c992b-127">If you did not select the **Create BizTalk receive locations** option when creating the WCF services, in the **Transport Properties** dialog box, click the **General** tab. On the **General** tab, type the URI for this receive location in the **Address** text box.</span></span> <span data-ttu-id="c992b-128">指定虛擬目錄加上.svc 檔案名稱 BizTalk WCF 服務發佈精靈產生之前程序中 — 例如，/path/service.svc。</span><span class="sxs-lookup"><span data-stu-id="c992b-128">Specify the virtual directory plus the .svc file name that the BizTalk WCF Service Publishing Wizard generated in the previous procedure—for example, /path/service.svc.</span></span>  
   
     > [!NOTE]
-    >  接收位置在建立時是停用狀態。 因此在用 [BizTalk Server WCF 服務精靈] 建立接收位置之後，您必須啟用這些接收位置。  
+    >  <span data-ttu-id="c992b-129">**位址**屬性應該啟動以正斜線 （"/"），並以".svc"結束。</span><span class="sxs-lookup"><span data-stu-id="c992b-129">The **Address** property should start with a forward slash ("/") and end in ".svc".</span></span> <span data-ttu-id="c992b-130">**位址**屬性不能包含通訊協定配置、 電腦名稱或連接埠號碼，例如 http://host:port。</span><span class="sxs-lookup"><span data-stu-id="c992b-130">The **Address** property must not contain a protocol scheme, computer name, or port number such as http://host:port.</span></span> <span data-ttu-id="c992b-131">這個屬性只能使用虛擬目錄路徑。</span><span class="sxs-lookup"><span data-stu-id="c992b-131">Only the virtual directory path can be used for the property.</span></span> <span data-ttu-id="c992b-132">WCF 服務標記檔案必須具有 .svc 副檔名。</span><span class="sxs-lookup"><span data-stu-id="c992b-132">The WCF service markup file must have an .svc extension.</span></span>  
   
-11. 使用 [IIS 管理] 主控台，設定 IIS 應用程式集區來裝載已發佈 WCF 服務的接收位置。 如需如何設定外掛式 WCF 配接器的應用程式集區的詳細資訊，請參閱[外掛式 WCF 接收配接器設定的 IIS](../core/configuring-iis-for-the-isolated-wcf-receive-adapters.md)。  
+     <span data-ttu-id="c992b-133">![WCF &#45; 的 [一般] 索引標籤BasicHttp 配接器](../core/media/1126fa6a-e3e9-44ad-aeb0-90c78226aeeb.gif "1126fa6a-e3e9-44ad-aeb0-90c78226aeeb")</span><span class="sxs-lookup"><span data-stu-id="c992b-133">![The General tab of the WCF&#45;BasicHttp adapter](../core/media/1126fa6a-e3e9-44ad-aeb0-90c78226aeeb.gif "1126fa6a-e3e9-44ad-aeb0-90c78226aeeb")</span></span>  
   
-12. 開啟命令提示字元，請移至 BizTalk Server WCF 服務發佈精靈建立 WCF 服務中 %SystemDrive%\InetPub 資料夾\\，然後開啟 Web.config 檔案，使用 [記事本]。  
+8.  <span data-ttu-id="c992b-134">如果您選取**傳輸**或**TransportWithMessageCredential**中**安全性模式**下拉式清單上的**安全性** 索引標籤Wcf-basichttp 和 Wcf-wshttp 配接器，您必須設定設定安全通訊端層 (SSL) 在 IIS 中。</span><span class="sxs-lookup"><span data-stu-id="c992b-134">If you selected **Transport** or **TransportWithMessageCredential** in the **Security mode** drop-down list on the **Security** tab for the WCF-BasicHttp and WCF-WSHttp adapters, you must set up Secure Sockets Layer (SSL) in IIS.</span></span> <span data-ttu-id="c992b-135">如果您設定**傳輸**或**TransportWithMessageCredential** Wcf-customisolated 配接器的繫結資訊中的安全性模式，您也必須設定在 IIS 中的 SSL。</span><span class="sxs-lookup"><span data-stu-id="c992b-135">If you set the **Transport** or **TransportWithMessageCredential** security mode in the binding information for the WCF-CustomIsolated adapter, you must also set up SSL in IIS.</span></span>  
   
-13. 在記事本中，加入下列一行 **\<system.web >**項目：  
+9. <span data-ttu-id="c992b-136">如果接收位置是裝載 Wcf-basichttp 或 Wcf-wshttp 配接器在**傳輸屬性**對話方塊方塊中，設定**一般**，**繫結**，和**訊息**如有必要的索引標籤。</span><span class="sxs-lookup"><span data-stu-id="c992b-136">If the receive location hosts the WCF-BasicHttp or WCF-WSHttp adapter, in the **Transport Properties** dialog box, configure the **General**, **Binding**, and **Messages** tabs if necessary.</span></span> <span data-ttu-id="c992b-137">如果接收位置是裝載 Wcf-customisolated 配接器，設定**一般**，**行為**，**其他**，和**訊息**索引標籤您的需求。</span><span class="sxs-lookup"><span data-stu-id="c992b-137">If the receive location hosts the WCF-CustomIsolated adapter, configure the **General**, **Behavior**, **Other**, and **Messages** tabs for your purpose.</span></span> <span data-ttu-id="c992b-138">Wcf-customisolated 配接器，您可以匯入**位址 (URI)**和**端點身分識別**屬性**一般**索引標籤上，繫結資訊**繫結**索引標籤，然後行為會在**行為** 索引標籤，這個接收位置從組態檔。</span><span class="sxs-lookup"><span data-stu-id="c992b-138">For the WCF-CustomIsolated adapter, you can import the **Address (URI)** and **Endpoint Identity** properties on the **General** tab, binding information on the **Binding** tab, and behaviors on the **Behavior** tab for this receive location from a configuration file.</span></span>  
+  
+10. <span data-ttu-id="c992b-139">使用 [BizTalk Server 管理] 主控台來啟用已發佈 WCF 服務的接收位置。</span><span class="sxs-lookup"><span data-stu-id="c992b-139">Enable the receive location for the published WCF service by using the BizTalk Server Administration console.</span></span> <span data-ttu-id="c992b-140">如需如何啟用接收位置的詳細資訊，請參閱[如何啟用接收位置](../core/how-to-enable-a-receive-location.md)。</span><span class="sxs-lookup"><span data-stu-id="c992b-140">For more information about how to enable the receive location, see [How to Enable a Receive Location](../core/how-to-enable-a-receive-location.md).</span></span>  
+  
+    > [!NOTE]
+    >  <span data-ttu-id="c992b-141">接收位置在建立時是停用狀態。</span><span class="sxs-lookup"><span data-stu-id="c992b-141">The receive locations are disabled when they are created.</span></span> <span data-ttu-id="c992b-142">因此在用 [BizTalk Server WCF 服務精靈] 建立接收位置之後，您必須啟用這些接收位置。</span><span class="sxs-lookup"><span data-stu-id="c992b-142">After creating receive locations with the BizTalk Server WCF Service Wizard, you must enable the receive locations.</span></span>  
+  
+11. <span data-ttu-id="c992b-143">使用 [IIS 管理] 主控台，設定 IIS 應用程式集區來裝載已發佈 WCF 服務的接收位置。</span><span class="sxs-lookup"><span data-stu-id="c992b-143">Configure the IIS application pool to host the receive location for the published WCF service by using the IIS Management console.</span></span> <span data-ttu-id="c992b-144">如需如何設定外掛式 WCF 配接器的應用程式集區的詳細資訊，請參閱[外掛式 WCF 接收配接器設定的 IIS](../core/configuring-iis-for-the-isolated-wcf-receive-adapters.md)。</span><span class="sxs-lookup"><span data-stu-id="c992b-144">For more information about how to configure the application pool for the isolated WCF adapters, see [Configuring IIS for the Isolated WCF Receive Adapters](../core/configuring-iis-for-the-isolated-wcf-receive-adapters.md).</span></span>  
+  
+12. <span data-ttu-id="c992b-145">開啟命令提示字元，請移至 BizTalk Server WCF 服務發佈精靈建立 WCF 服務中 %SystemDrive%\InetPub 資料夾\\，然後開啟 Web.config 檔案，使用 [記事本]。</span><span class="sxs-lookup"><span data-stu-id="c992b-145">Open a command prompt, go to the folder where the BizTalk Server WCF Service Publishing Wizard created the WCF service in %SystemDrive%\InetPub\\, and then open the Web.config file using Notepad.</span></span>  
+  
+13. <span data-ttu-id="c992b-146">在記事本中，加入下列一行 **\<system.web >**項目：</span><span class="sxs-lookup"><span data-stu-id="c992b-146">In Notepad, add the following line inside the **\<system.web>** element:</span></span>  
   
     ```  
     <trust level="Full" originUrl="" />  
     ```  
   
     > [!NOTE]
-    >  這項設定是選擇性的，而且它會將受限於作業系統安全性之任何資源的存取權授與主控已發佈之 WCF 服務的 ASP.NET 應用程式。 當您在同一部電腦上安裝和執行 Windows SharePoint Services 以及已發佈的 WCF 服務時，這就是 WCF 所需的信任層級。  
+    >  <span data-ttu-id="c992b-147">這項設定是選擇性的，而且它會將受限於作業系統安全性之任何資源的存取權授與主控已發佈之 WCF 服務的 ASP.NET 應用程式。</span><span class="sxs-lookup"><span data-stu-id="c992b-147">This setting is optional and it grants the ASP.NET application hosting the published WCF service access to any resource that is subject to operating system security.</span></span> <span data-ttu-id="c992b-148">當您在同一部電腦上安裝和執行 Windows SharePoint Services 以及已發佈的 WCF 服務時，這就是 WCF 所需的信任層級。</span><span class="sxs-lookup"><span data-stu-id="c992b-148">This is the trust level that WCF requires when you have Windows SharePoint Services installed and running on the same machine with the published WCF services.</span></span>  
   
-14. 在 Internet Explorer 中**位址**方塊中，輸入使用 http:// 的格式為 WCF 服務的 URL*主機 [: 連接埠]*/*apppath* /*wcfservicename.svc*來測試已發佈的 WCF 服務。 下表將描述這些參數。  
+14. <span data-ttu-id="c992b-149">在 Internet Explorer 中**位址**方塊中，輸入使用 http:// 的格式為 WCF 服務的 URL*主機 [: 連接埠]*/*apppath* /*wcfservicename.svc*來測試已發佈的 WCF 服務。</span><span class="sxs-lookup"><span data-stu-id="c992b-149">In Internet Explorer, in the **Address** box, type the URL for the WCF service using the format http://*host[:port]*/*apppath*/*wcfservicename.svc* to test the published WCF service.</span></span> <span data-ttu-id="c992b-150">下表將描述這些參數。</span><span class="sxs-lookup"><span data-stu-id="c992b-150">The parameters are described in the following table.</span></span>  
   
-    |參數|值|  
+    |<span data-ttu-id="c992b-151">參數</span><span class="sxs-lookup"><span data-stu-id="c992b-151">Parameter</span></span>|<span data-ttu-id="c992b-152">值</span><span class="sxs-lookup"><span data-stu-id="c992b-152">Value</span></span>|  
     |---------------|-----------|  
-    |*主機 [: 連接埠]*|您已部署 WCF 服務之電腦的名稱。 冒號和連接埠編號可以接在這個伺服器名稱後面。|  
-    |*apppath*|虛擬目錄的名稱和 Web 應用程式路徑。|  
-    |*wcfservicename.svc*|WCF 服務 .svc 檔案的名稱。|  
+    |<span data-ttu-id="c992b-153">*主機 [: 連接埠]*</span><span class="sxs-lookup"><span data-stu-id="c992b-153">*host[:port]*</span></span>|<span data-ttu-id="c992b-154">您已部署 WCF 服務之電腦的名稱。</span><span class="sxs-lookup"><span data-stu-id="c992b-154">The name of the computer where you have deployed your WCF service.</span></span> <span data-ttu-id="c992b-155">冒號和連接埠編號可以接在這個伺服器名稱後面。</span><span class="sxs-lookup"><span data-stu-id="c992b-155">A colon and the port number can follow this server name.</span></span>|  
+    |<span data-ttu-id="c992b-156">*apppath*</span><span class="sxs-lookup"><span data-stu-id="c992b-156">*apppath*</span></span>|<span data-ttu-id="c992b-157">虛擬目錄的名稱和 Web 應用程式路徑。</span><span class="sxs-lookup"><span data-stu-id="c992b-157">The name of your virtual directory and the Web application path.</span></span>|  
+    |<span data-ttu-id="c992b-158">*wcfservicename.svc*</span><span class="sxs-lookup"><span data-stu-id="c992b-158">*wcfservicename.svc*</span></span>|<span data-ttu-id="c992b-159">WCF 服務 .svc 檔案的名稱。</span><span class="sxs-lookup"><span data-stu-id="c992b-159">The name of the WCF service .svc file.</span></span>|  
   
-15. 為了避免不小心洩露可能含有機密的服務中繼資料，我們建議您透過執行下列工作，在實際執行環境中停用這種行為：  
+15. <span data-ttu-id="c992b-160">為了避免不小心洩露可能含有機密的服務中繼資料，我們建議您透過執行下列工作，在實際執行環境中停用這種行為：</span><span class="sxs-lookup"><span data-stu-id="c992b-160">To prevent unintentional disclosure of potentially sensitive service metadata, it is recommended to disable this behavior on the production environment by performing the following tasks:</span></span>  
   
-    1.  在 記事本 開啟 BizTalk Server WCF 服務發佈精靈建立 WCF 服務中 %SystemDrive%\InetPub 資料夾中的 Web.config\\。  
+    1.  <span data-ttu-id="c992b-161">在 記事本 開啟 BizTalk Server WCF 服務發佈精靈建立 WCF 服務中 %SystemDrive%\InetPub 資料夾中的 Web.config\\。</span><span class="sxs-lookup"><span data-stu-id="c992b-161">In Notepad, open Web.config in the folder where the BizTalk Server WCF Service Publishing Wizard created the WCF service in %SystemDrive%\InetPub\\.</span></span>  
   
-    2.  在 [記事本]，設定**httpGetEnabled**屬性 **\<serviceMetadata >**為 false，如下列的行項目：  
+    2.  <span data-ttu-id="c992b-162">在 [記事本]，設定**httpGetEnabled**屬性 **\<serviceMetadata >**為 false，如下列的行項目：</span><span class="sxs-lookup"><span data-stu-id="c992b-162">In Notepad, set the  the **httpGetEnabled** attribute in the  **\<serviceMetadata>** element to false as following line:</span></span>  
   
         ```  
         <serviceMetadata httpGetEnabled="false" httpsGetEnabled="false" />  
         ```  
   
-## <a name="see-also"></a>另請參閱  
- [設定 Wcf-basichttp 配接器](http://msdn.microsoft.com/library/5929a338-46e0-4fc4-8837-792d7f7ae0fe)   
- [設定 Wcf-wshttp 配接器](../core/configuring-the-wcf-wshttp-adapter.md)   
- [設定 Wcf-customisolated 配接器](../core/configuring-the-wcf-customisolated-adapter.md)   
- [如何在 Windows Server 2003 中設定 IIS 網站驗證](http://go.microsoft.com/fwlink/?LinkID=75699)
+## <a name="see-also"></a><span data-ttu-id="c992b-163">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c992b-163">See Also</span></span>  
+ <span data-ttu-id="c992b-164">[設定 Wcf-basichttp 配接器](http://msdn.microsoft.com/library/5929a338-46e0-4fc4-8837-792d7f7ae0fe) </span><span class="sxs-lookup"><span data-stu-id="c992b-164">[Configuring the WCF-BasicHttp Adapter](http://msdn.microsoft.com/library/5929a338-46e0-4fc4-8837-792d7f7ae0fe) </span></span>  
+ <span data-ttu-id="c992b-165">[設定 Wcf-wshttp 配接器](../core/configuring-the-wcf-wshttp-adapter.md) </span><span class="sxs-lookup"><span data-stu-id="c992b-165">[Configuring the WCF-WSHttp Adapter](../core/configuring-the-wcf-wshttp-adapter.md) </span></span>  
+ <span data-ttu-id="c992b-166">[設定 Wcf-customisolated 配接器](../core/configuring-the-wcf-customisolated-adapter.md) </span><span class="sxs-lookup"><span data-stu-id="c992b-166">[Configuring the WCF-CustomIsolated Adapter](../core/configuring-the-wcf-customisolated-adapter.md) </span></span>  
+ [<span data-ttu-id="c992b-167">如何在 Windows Server 2003 中設定 IIS 網站驗證</span><span class="sxs-lookup"><span data-stu-id="c992b-167">How To Configure IIS Web Site Authentication in Windows Server 2003</span></span>](http://go.microsoft.com/fwlink/?LinkID=75699)

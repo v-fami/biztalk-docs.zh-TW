@@ -19,15 +19,15 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---required-target-with-optional-source"></a>錯誤-必要的目標具有選擇性來源
-**錯誤碼**  
+# <a name="error---required-target-with-optional-source"></a><span data-ttu-id="4bcde-102">錯誤-必要的目標具有選擇性來源</span><span class="sxs-lookup"><span data-stu-id="4bcde-102">Error - Required Target with Optional Source</span></span>
+<span data-ttu-id="4bcde-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="4bcde-103">**Error Code**</span></span>  
   
- btm1001  
+ <span data-ttu-id="4bcde-104">btm1001</span><span class="sxs-lookup"><span data-stu-id="4bcde-104">btm1001</span></span>  
   
- **說明**  
+ <span data-ttu-id="4bcde-105">**說明**</span><span class="sxs-lookup"><span data-stu-id="4bcde-105">**Explanation**</span></span>  
   
- 目的結構描述中指定必要節點的資料，是來自於來源結構描述中的選擇性節點。 因此，有效的執行個體訊息可能會導致對應失敗。  
+ <span data-ttu-id="4bcde-106">目的結構描述中指定必要節點的資料，是來自於來源結構描述中的選擇性節點。</span><span class="sxs-lookup"><span data-stu-id="4bcde-106">The data for the indicated required node in the destination schema comes from an optional node in the source schema.</span></span> <span data-ttu-id="4bcde-107">因此，有效的執行個體訊息可能會導致對應失敗。</span><span class="sxs-lookup"><span data-stu-id="4bcde-107">Therefore, there may be valid instance messages for which mapping will fail.</span></span>  
   
- **使用者動作**  
+ <span data-ttu-id="4bcde-108">**使用者動作**</span><span class="sxs-lookup"><span data-stu-id="4bcde-108">**User Action**</span></span>  
   
- 分別確認所指定來源與目的結構描述的選擇性與必要特性，並考慮使這些特性一致。
+ <span data-ttu-id="4bcde-109">分別確認所指定來源與目的結構描述的選擇性與必要特性，並考慮使這些特性一致。</span><span class="sxs-lookup"><span data-stu-id="4bcde-109">Confirm the optional and required characteristics of the specified source and destination nodes, respectively, and consider making these characteristics match.</span></span>

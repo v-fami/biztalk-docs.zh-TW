@@ -19,15 +19,15 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="components-of-the-tpe"></a>TPE 的元件
-本節包含有關 TPE 使用者介面及其執行功能的詳細資訊。  
+# <a name="components-of-the-tpe"></a><span data-ttu-id="a7680-102">TPE 的元件</span><span class="sxs-lookup"><span data-stu-id="a7680-102">Components of the TPE</span></span>
+<span data-ttu-id="a7680-103">本節包含有關 TPE 使用者介面及其執行功能的詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="a7680-103">This section contains information about the TPE user interface and the functions it performs.</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="a7680-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="a7680-104">In This Section</span></span>  
   
--   [TPE 功能表選項](../core/tpe-menu-options.md)  
+-   [<span data-ttu-id="a7680-105">TPE 功能表選項</span><span class="sxs-lookup"><span data-stu-id="a7680-105">TPE Menu Options</span></span>](../core/tpe-menu-options.md)  
   
--   [何謂活動檢視？](../core/what-is-an-activity-view.md)  
+-   [<span data-ttu-id="a7680-106">何謂活動檢視？</span><span class="sxs-lookup"><span data-stu-id="a7680-106">What Is an Activity View?</span></span>](../core/what-is-an-activity-view.md)  
   
--   [什麼是事件來源檢視時？](../core/what-is-the-source-event-view.md)  
+-   [<span data-ttu-id="a7680-107">什麼是事件來源檢視時？</span><span class="sxs-lookup"><span data-stu-id="a7680-107">What Is the Source Event View?</span></span>](../core/what-is-the-source-event-view.md)  
   
--   [TPE 活動檢視節點](../core/tpe-activity-view-nodes.md)
+-   [<span data-ttu-id="a7680-108">TPE 活動檢視節點</span><span class="sxs-lookup"><span data-stu-id="a7680-108">TPE Activity View Nodes</span></span>](../core/tpe-activity-view-nodes.md)

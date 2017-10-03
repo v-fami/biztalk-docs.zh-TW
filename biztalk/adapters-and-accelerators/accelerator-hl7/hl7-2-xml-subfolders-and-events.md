@@ -23,11 +23,11 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="hl7-2xml-subfolders-and-events"></a>HL7 2.XML 子資料夾和事件
-下列各小節列出 HL7 的每個版本的安裝精靈所建立的子資料夾 2.X，以及每個子資料夾內的事件。  
+# <a name="hl7-2xml-subfolders-and-events"></a><span data-ttu-id="e48f7-102">HL7 2.XML 子資料夾和事件</span><span class="sxs-lookup"><span data-stu-id="e48f7-102">HL7 2.XML Subfolders and Events</span></span>
+<span data-ttu-id="e48f7-103">下列各小節列出 HL7 的每個版本的安裝精靈所建立的子資料夾 2.X，以及每個子資料夾內的事件。</span><span class="sxs-lookup"><span data-stu-id="e48f7-103">The following subsections list the subfolders created by the setup wizard for each version of HL7 2.X, and the events within each subfolder.</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="e48f7-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="e48f7-104">In This Section</span></span>  
   
--   [HL7 2.3.1 XML 資料夾和事件](../../adapters-and-accelerators/accelerator-hl7/hl7-2-3-1-xml-folders-and-events.md)  
+-   [<span data-ttu-id="e48f7-105">HL7 2.3.1 XML 資料夾和事件</span><span class="sxs-lookup"><span data-stu-id="e48f7-105">HL7 2.3.1 XML Folders and Events</span></span>](../../adapters-and-accelerators/accelerator-hl7/hl7-2-3-1-xml-folders-and-events.md)  
   
--   [HL7 2.4 XML 資料夾和事件](../../adapters-and-accelerators/accelerator-hl7/hl7-2-4-xml-folders-and-events.md)
+-   [<span data-ttu-id="e48f7-106">HL7 2.4 XML 資料夾和事件</span><span class="sxs-lookup"><span data-stu-id="e48f7-106">HL7 2.4 XML Folders and Events</span></span>](../../adapters-and-accelerators/accelerator-hl7/hl7-2-4-xml-folders-and-events.md)

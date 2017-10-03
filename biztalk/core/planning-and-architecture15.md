@@ -19,9 +19,9 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="planning-and-architecture"></a>規劃和架構
-本節討論當您設定 TIBCO Rendezvous 以和 Microsoft BizTalk Adapter for TIBCO Rendezvous 搭配使用時，可能會遇到的規劃與架構問題。  
+# <a name="planning-and-architecture"></a><span data-ttu-id="5fa87-102">規劃和架構</span><span class="sxs-lookup"><span data-stu-id="5fa87-102">Planning and Architecture</span></span>
+<span data-ttu-id="5fa87-103">本節討論當您設定 TIBCO Rendezvous 以和 Microsoft BizTalk Adapter for TIBCO Rendezvous 搭配使用時，可能會遇到的規劃與架構問題。</span><span class="sxs-lookup"><span data-stu-id="5fa87-103">This section discusses planning and architecture issues you might experience while you are setting up TIBCO Rendezvous for use with Microsoft BizTalk Adapter for TIBCO Rendezvous.</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="5fa87-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="5fa87-104">In This Section</span></span>  
   
--   [架構](../core/architecture-of-biztalk-adapter-for-tibco-rendezvous.md)
+-   [<span data-ttu-id="5fa87-105">架構</span><span class="sxs-lookup"><span data-stu-id="5fa87-105">Architecture</span></span>](../core/architecture-of-biztalk-adapter-for-tibco-rendezvous.md)

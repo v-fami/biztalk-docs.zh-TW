@@ -19,11 +19,11 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="troubleshooting-and-known-issues"></a>疑難排解和已知問題
-本章節包含了 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 中的疑難排解問題、解決方法和已知問題。  
+# <a name="troubleshooting-and-known-issues"></a><span data-ttu-id="c8f28-103">疑難排解和已知問題</span><span class="sxs-lookup"><span data-stu-id="c8f28-103">Troubleshooting and known issues</span></span>
+<span data-ttu-id="c8f28-104">本章節包含了 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 中的疑難排解問題、解決方法和已知問題。</span><span class="sxs-lookup"><span data-stu-id="c8f28-104">This section is made up of troubleshooting issues, resolutions, and known issues in [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)].</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="c8f28-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="c8f28-105">In This Section</span></span>  
   
--   [疑難排解： 問題與解決方式](../../adapters-and-accelerators/accelerator-rosettanet/troubleshooting-issues-and-resolutions3.md)  
+-   [<span data-ttu-id="c8f28-106">疑難排解： 問題與解決方式</span><span class="sxs-lookup"><span data-stu-id="c8f28-106">Troubleshooting: Issues and Resolutions</span></span>](../../adapters-and-accelerators/accelerator-rosettanet/troubleshooting-issues-and-resolutions3.md)  
   
--   [已知問題](../../adapters-and-accelerators/accelerator-rosettanet/known-issues3.md)
+-   [<span data-ttu-id="c8f28-107">已知問題</span><span class="sxs-lookup"><span data-stu-id="c8f28-107">Known Issues</span></span>](../../adapters-and-accelerators/accelerator-rosettanet/known-issues3.md)

@@ -21,152 +21,152 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="run-operations-on-business-components-using-biztalk-server-and-the-siebel-adapter"></a>在商務元件使用 BizTalk Server 和 Siebel 配接器上執行作業
-[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]商務元件會呈現可叫用的作業。 商務元件上的作業可分類為：  
+# <a name="run-operations-on-business-components-using-biztalk-server-and-the-siebel-adapter"></a><span data-ttu-id="3853e-102">在商務元件使用 BizTalk Server 和 Siebel 配接器上執行作業</span><span class="sxs-lookup"><span data-stu-id="3853e-102">Run Operations on Business Components Using BizTalk Server and the Siebel adapter</span></span>
+<span data-ttu-id="3853e-103">[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]商務元件會呈現可叫用的作業。</span><span class="sxs-lookup"><span data-stu-id="3853e-103">The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] surfaces operations that can be invoked on a business component.</span></span> <span data-ttu-id="3853e-104">商務元件上的作業可分類為：</span><span class="sxs-lookup"><span data-stu-id="3853e-104">The operations on business components can be categorized as:</span></span>  
   
--   在商務元件上的標準作業。 這些包括 Insert、 查詢、 更新和刪除。 本主題討論如何執行這些作業使用[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]。  
+-   <span data-ttu-id="3853e-105">在商務元件上的標準作業。</span><span class="sxs-lookup"><span data-stu-id="3853e-105">Standard operations on business components.</span></span> <span data-ttu-id="3853e-106">這些包括 Insert、 查詢、 更新和刪除。</span><span class="sxs-lookup"><span data-stu-id="3853e-106">These include Insert, Query, Update, and Delete.</span></span> <span data-ttu-id="3853e-107">本主題討論如何執行這些作業使用[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="3853e-107">This topic discusses how to perform these operations using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].</span></span>  
   
--   包含多重值的群組欄位的商務元件上的作業。 其中包括標準作業以及相關聯，Disassociate，Query_ [MVG_Child_Bussiness_Comp]。 如需有關如何執行這些作業的詳細資訊，請參閱[商務元件中以 MVG 欄位使用 BizTalk Server 和 Siebel 配接器上執行的作業](../../adapters-and-accelerators/adapter-siebel/run-operations-on-business-components-with-mvg-fields-using-the-siebel-adapter.md)  
+-   <span data-ttu-id="3853e-108">包含多重值的群組欄位的商務元件上的作業。</span><span class="sxs-lookup"><span data-stu-id="3853e-108">Operations on business components containing multivalued group fields.</span></span> <span data-ttu-id="3853e-109">其中包括標準作業以及相關聯，Disassociate，Query_ [MVG_Child_Bussiness_Comp]。</span><span class="sxs-lookup"><span data-stu-id="3853e-109">These include the standard operations as well as Associate, Disassociate, Query_[MVG_Child_Bussiness_Comp].</span></span> <span data-ttu-id="3853e-110">如需有關如何執行這些作業的詳細資訊，請參閱[商務元件中以 MVG 欄位使用 BizTalk Server 和 Siebel 配接器上執行的作業](../../adapters-and-accelerators/adapter-siebel/run-operations-on-business-components-with-mvg-fields-using-the-siebel-adapter.md)</span><span class="sxs-lookup"><span data-stu-id="3853e-110">For more information about performing these operations, see [Run Operations on Business Components with MVG Fields Using BizTalk Server and the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/run-operations-on-business-components-with-mvg-fields-using-the-siebel-adapter.md)</span></span>  
   
--   在包含挑選清單欄位的商務元件上的作業。 如需有關如何執行這些作業的詳細資訊，請參閱[商務元件中以挑選清單欄位使用 BizTalk Server 和 Siebel 配接器上執行的作業](../../adapters-and-accelerators/adapter-siebel/run-tasks-on-business-components-with-picklist-fields-using-the-siebel-adapter.md)。  
+-   <span data-ttu-id="3853e-111">在包含挑選清單欄位的商務元件上的作業。</span><span class="sxs-lookup"><span data-stu-id="3853e-111">Operations on business components containing picklist fields.</span></span> <span data-ttu-id="3853e-112">如需有關如何執行這些作業的詳細資訊，請參閱[商務元件中以挑選清單欄位使用 BizTalk Server 和 Siebel 配接器上執行的作業](../../adapters-and-accelerators/adapter-siebel/run-tasks-on-business-components-with-picklist-fields-using-the-siebel-adapter.md)。</span><span class="sxs-lookup"><span data-stu-id="3853e-112">For more information about performing these operations, see [Run Operations on Business Components with Picklist Fields Using BizTalk Server and the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/run-tasks-on-business-components-with-picklist-fields-using-the-siebel-adapter.md).</span></span>  
   
- 如需有關如何[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]支援作業在商務元件，請參閱[在 Siebel 商務元件上的作業](../../adapters-and-accelerators/adapter-siebel/operations-on-business-components-in-siebel.md)。 執行這些作業，訊息的 SOAP 結構的詳細資訊，請參閱[商務元件操作的訊息結構描述](../../adapters-and-accelerators/adapter-siebel/message-schemas-for-business-component-operations.md)。  
+ <span data-ttu-id="3853e-113">如需有關如何[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]支援作業在商務元件，請參閱[在 Siebel 商務元件上的作業](../../adapters-and-accelerators/adapter-siebel/operations-on-business-components-in-siebel.md)。</span><span class="sxs-lookup"><span data-stu-id="3853e-113">For more information about how the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] supports operations on business components, see [Operations on Business Components in Siebel](../../adapters-and-accelerators/adapter-siebel/operations-on-business-components-in-siebel.md).</span></span> <span data-ttu-id="3853e-114">執行這些作業，訊息的 SOAP 結構的詳細資訊，請參閱[商務元件操作的訊息結構描述](../../adapters-and-accelerators/adapter-siebel/message-schemas-for-business-component-operations.md)。</span><span class="sxs-lookup"><span data-stu-id="3853e-114">For more information about the structure of SOAP messages for performing these operations, see [Message Schemas for Business Component Operations](../../adapters-and-accelerators/adapter-siebel/message-schemas-for-business-component-operations.md).</span></span>  
   
-## <a name="how-to-perform-operations-on-a-business-component"></a>如何在商務元件上執行作業  
- 使用 Siebel 系統上執行操作[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]與[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]牽涉到程序中所述的工作[Siebel 配接器建立 BizTalk 應用程式的建置組塊](../../adapters-and-accelerators/adapter-siebel/building-blocks-to-create-biztalk-applications-with-the-siebel-adapter.md)。 
+## <a name="how-to-perform-operations-on-a-business-component"></a><span data-ttu-id="3853e-115">如何在商務元件上執行作業</span><span class="sxs-lookup"><span data-stu-id="3853e-115">How to Perform Operations on a Business Component</span></span>  
+ <span data-ttu-id="3853e-116">使用 Siebel 系統上執行操作[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]與[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]牽涉到程序中所述的工作[Siebel 配接器建立 BizTalk 應用程式的建置組塊](../../adapters-and-accelerators/adapter-siebel/building-blocks-to-create-biztalk-applications-with-the-siebel-adapter.md)。</span><span class="sxs-lookup"><span data-stu-id="3853e-116">Performing an operation on a Siebel system using the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] involves procedural tasks described in [Building blocks to create BizTalk applications with the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/building-blocks-to-create-biztalk-applications-with-the-siebel-adapter.md).</span></span> 
  
- 若要完成商務元件上的作業，這些工作包括：  
+ <span data-ttu-id="3853e-117">若要完成商務元件上的作業，這些工作包括：</span><span class="sxs-lookup"><span data-stu-id="3853e-117">To complete an operation on a business component, these tasks are:</span></span>  
   
-1.  建立 BizTalk 專案，您想要叫用商務元件上的作業產生結構描述。  
+1.  <span data-ttu-id="3853e-118">建立 BizTalk 專案，您想要叫用商務元件上的作業產生結構描述。</span><span class="sxs-lookup"><span data-stu-id="3853e-118">Create a BizTalk project and generate schema for operation you want to invoke on the business component.</span></span>  
   
-2.  建立傳送和接收來自 Siebel 系統訊息的 BizTalk 專案中的訊息。  
+2.  <span data-ttu-id="3853e-119">建立傳送和接收來自 Siebel 系統訊息的 BizTalk 專案中的訊息。</span><span class="sxs-lookup"><span data-stu-id="3853e-119">Create messages in the BizTalk project for sending and receiving messages from the Siebel system.</span></span>  
   
-3.  建立協調流程叫用 Siebel 系統中的作業。  
+3.  <span data-ttu-id="3853e-120">建立協調流程叫用 Siebel 系統中的作業。</span><span class="sxs-lookup"><span data-stu-id="3853e-120">Create an orchestration to invoke an operation in the Siebel system.</span></span>  
   
-4.  建置和部署 BizTalk 專案。  
+4.  <span data-ttu-id="3853e-121">建置和部署 BizTalk 專案。</span><span class="sxs-lookup"><span data-stu-id="3853e-121">Build and deploy the BizTalk project.</span></span>  
   
-5.  設定的 BizTalk 應用程式藉由建立實體傳送和接收埠。  
+5.  <span data-ttu-id="3853e-122">設定的 BizTalk 應用程式藉由建立實體傳送和接收埠。</span><span class="sxs-lookup"><span data-stu-id="3853e-122">Configure the BizTalk application by creating physical send and receive ports.</span></span>  
   
-6.  啟動 BizTalk 應用程式。  
+6.  <span data-ttu-id="3853e-123">啟動 BizTalk 應用程式。</span><span class="sxs-lookup"><span data-stu-id="3853e-123">Start the BizTalk application.</span></span>  
   
- 本主題提供執行這些工作的指示。  
+ <span data-ttu-id="3853e-124">本主題提供執行這些工作的指示。</span><span class="sxs-lookup"><span data-stu-id="3853e-124">This topic provides instructions to perform these tasks.</span></span>  
   
-## <a name="sample-based-on-this-topic"></a>根據本主題的範例  
- 基礎的範例，SiebelAccount，本主題也會提供[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]。 如需詳細資訊，請參閱[Siebel 配接器的範例](../../adapters-and-accelerators/adapter-siebel/samples-for-the-siebel-adapter.md)。  
+## <a name="sample-based-on-this-topic"></a><span data-ttu-id="3853e-125">根據本主題的範例</span><span class="sxs-lookup"><span data-stu-id="3853e-125">Sample Based On This Topic</span></span>  
+ <span data-ttu-id="3853e-126">基礎的範例，SiebelAccount，本主題也會提供[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="3853e-126">A sample, SiebelAccount, based on this topic is also provided with the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)].</span></span> <span data-ttu-id="3853e-127">如需詳細資訊，請參閱[Siebel 配接器的範例](../../adapters-and-accelerators/adapter-siebel/samples-for-the-siebel-adapter.md)。</span><span class="sxs-lookup"><span data-stu-id="3853e-127">For more information, see [Samples for the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/samples-for-the-siebel-adapter.md).</span></span>  
   
-## <a name="generating-schema"></a>產生結構描述  
- 本主題中，以示範如何叫用商務元件上的作業產生結構描述會帳戶業務元件中的插入作業。 請參閱[擷取 Siebel 作業在 Visual Studio 中的中繼資料](../../adapters-and-accelerators/adapter-siebel/get-metadata-for-siebel-operations-in-visual-studio.md)如需有關如何產生結構描述。  
+## <a name="generating-schema"></a><span data-ttu-id="3853e-128">產生結構描述</span><span class="sxs-lookup"><span data-stu-id="3853e-128">Generating Schema</span></span>  
+ <span data-ttu-id="3853e-129">本主題中，以示範如何叫用商務元件上的作業產生結構描述會帳戶業務元件中的插入作業。</span><span class="sxs-lookup"><span data-stu-id="3853e-129">In this topic, to demonstrate how to invoke operations on a business component, schema are generated for the Insert operation in the Account business component.</span></span> <span data-ttu-id="3853e-130">請參閱[擷取 Siebel 作業在 Visual Studio 中的中繼資料](../../adapters-and-accelerators/adapter-siebel/get-metadata-for-siebel-operations-in-visual-studio.md)如需有關如何產生結構描述。</span><span class="sxs-lookup"><span data-stu-id="3853e-130">See [Retrieving Metadata for Siebel Operations in Visual Studio](../../adapters-and-accelerators/adapter-siebel/get-metadata-for-siebel-operations-in-visual-studio.md) for more information about how to generate schema.</span></span>  
   
-## <a name="defining-messages-and-message-types"></a>定義訊息和訊息類型  
- 您先前產生的結構描述會描述 「 類型 」 所需的協調流程中的訊息。 訊息通常是為其型別由對應的結構描述所定義的變數。 您必須連結產生的結構描述您在第一個步驟中的訊息從 BizTalk 專案的協調流程檢視。  
+## <a name="defining-messages-and-message-types"></a><span data-ttu-id="3853e-131">定義訊息和訊息類型</span><span class="sxs-lookup"><span data-stu-id="3853e-131">Defining Messages and Message Types</span></span>  
+ <span data-ttu-id="3853e-132">您先前產生的結構描述會描述 「 類型 」 所需的協調流程中的訊息。</span><span class="sxs-lookup"><span data-stu-id="3853e-132">The schema that you generated earlier describes the "types" required for the messages in the orchestration.</span></span> <span data-ttu-id="3853e-133">訊息通常是為其型別由對應的結構描述所定義的變數。</span><span class="sxs-lookup"><span data-stu-id="3853e-133">A message is typically a variable, the type for which is defined by the corresponding schema.</span></span> <span data-ttu-id="3853e-134">您必須連結產生的結構描述您在第一個步驟中的訊息從 BizTalk 專案的協調流程檢視。</span><span class="sxs-lookup"><span data-stu-id="3853e-134">You must link the schema you generated in the first step to the messages from the Orchestration view of the BizTalk project.</span></span>  
   
- 本主題中，您必須建立兩個訊息，其中將要求傳送至 Siebel 系統，而另一個則接收回應。  
+ <span data-ttu-id="3853e-135">本主題中，您必須建立兩個訊息，其中將要求傳送至 Siebel 系統，而另一個則接收回應。</span><span class="sxs-lookup"><span data-stu-id="3853e-135">For this topic, you must create two messages—one to send a request to the Siebel system and the other to receive a response.</span></span>  
   
- 執行下列步驟來建立訊息，並將其連結至結構描述：  
+ <span data-ttu-id="3853e-136">執行下列步驟來建立訊息，並將其連結至結構描述：</span><span class="sxs-lookup"><span data-stu-id="3853e-136">Perform the following steps to create messages and link them to the schema:</span></span>  
   
-#### <a name="to-create-messages-and-link-to-schema"></a>建立訊息，以及連結至結構描述  
+#### <a name="to-create-messages-and-link-to-schema"></a><span data-ttu-id="3853e-137">建立訊息，以及連結至結構描述</span><span class="sxs-lookup"><span data-stu-id="3853e-137">To create messages and link to schema</span></span>  
   
-1.  開啟協調流程檢視 BizTalk 專案中，如果未開啟。 按一下**檢視**，指向 **其他視窗**，然後按一下**協調流程檢視**。  
+1.  <span data-ttu-id="3853e-138">開啟協調流程檢視 BizTalk 專案中，如果未開啟。</span><span class="sxs-lookup"><span data-stu-id="3853e-138">Open the orchestration view the BizTalk project, if not already open.</span></span> <span data-ttu-id="3853e-139">按一下**檢視**，指向 **其他視窗**，然後按一下**協調流程檢視**。</span><span class="sxs-lookup"><span data-stu-id="3853e-139">Click **View**, point to **Other Windows**, and click **Orchestration View**.</span></span>  
   
-2.  在**協調流程檢視**，以滑鼠右鍵按一下**訊息**，然後按一下 **新訊息**。  
+2.  <span data-ttu-id="3853e-140">在**協調流程檢視**，以滑鼠右鍵按一下**訊息**，然後按一下 **新訊息**。</span><span class="sxs-lookup"><span data-stu-id="3853e-140">In the **Orchestration View**, right-click **Messages**, and then click **New Message**.</span></span>  
   
-3.  以滑鼠右鍵按一下新建立的訊息，然後選取**屬性 視窗**。  
+3.  <span data-ttu-id="3853e-141">以滑鼠右鍵按一下新建立的訊息，然後選取**屬性 視窗**。</span><span class="sxs-lookup"><span data-stu-id="3853e-141">Right-click the newly create message and select **Properties Window**.</span></span>  
   
-4.  在**屬性**窗格**Message_1**，執行下列動作：  
+4.  <span data-ttu-id="3853e-142">在**屬性**窗格**Message_1**，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="3853e-142">In the **Properties** pane for **Message_1**, do the following:</span></span>  
   
-    |使用|動作|  
+    |<span data-ttu-id="3853e-143">使用</span><span class="sxs-lookup"><span data-stu-id="3853e-143">Use this</span></span>|<span data-ttu-id="3853e-144">動作</span><span class="sxs-lookup"><span data-stu-id="3853e-144">To do this</span></span>|  
     |--------------|----------------|  
-    |識別碼|型別**要求**。|  
-    |訊息類型|從下拉式清單中，展開 **結構描述**，然後選取*SiebelAccount.SiebelBindingSchema.Insert*，其中*SiebelAccount*是您的 BizTalk 專案的名稱。 *SiebelBindingSchema*是叫用所產生的結構描述*插入*作業*帳戶*商務元件。|  
+    |<span data-ttu-id="3853e-145">識別碼</span><span class="sxs-lookup"><span data-stu-id="3853e-145">Identifier</span></span>|<span data-ttu-id="3853e-146">型別**要求**。</span><span class="sxs-lookup"><span data-stu-id="3853e-146">Type **Request**.</span></span>|  
+    |<span data-ttu-id="3853e-147">訊息類型</span><span class="sxs-lookup"><span data-stu-id="3853e-147">Message Type</span></span>|<span data-ttu-id="3853e-148">從下拉式清單中，展開 **結構描述**，然後選取*SiebelAccount.SiebelBindingSchema.Insert*，其中*SiebelAccount*是您的 BizTalk 專案的名稱。</span><span class="sxs-lookup"><span data-stu-id="3853e-148">From the drop-down list, expand **Schemas**, and select *SiebelAccount.SiebelBindingSchema.Insert*, where *SiebelAccount* is the name of your BizTalk project.</span></span> <span data-ttu-id="3853e-149">*SiebelBindingSchema*是叫用所產生的結構描述*插入*作業*帳戶*商務元件。</span><span class="sxs-lookup"><span data-stu-id="3853e-149">*SiebelBindingSchema* is the schema generated for invoking the *Insert* operation on *Account* business component.</span></span>|  
   
-5.  重複上述步驟，建立新的訊息。 在**屬性**窗格新訊息中，執行下列動作：  
+5.  <span data-ttu-id="3853e-150">重複上述步驟，建立新的訊息。</span><span class="sxs-lookup"><span data-stu-id="3853e-150">Repeat the previous step to create a new message.</span></span> <span data-ttu-id="3853e-151">在**屬性**窗格新訊息中，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="3853e-151">In the **Properties** pane for the new message, do the following:</span></span>  
   
-    |使用|動作|  
+    |<span data-ttu-id="3853e-152">使用</span><span class="sxs-lookup"><span data-stu-id="3853e-152">Use this</span></span>|<span data-ttu-id="3853e-153">動作</span><span class="sxs-lookup"><span data-stu-id="3853e-153">To do this</span></span>|  
     |--------------|----------------|  
-    |識別碼|型別**回應**。|  
-    |訊息類型|從下拉式清單中，展開 **結構描述**，然後選取*SiebelAccount.SiebelBindingSchema.InsertResponse*。|  
+    |<span data-ttu-id="3853e-154">識別碼</span><span class="sxs-lookup"><span data-stu-id="3853e-154">Identifier</span></span>|<span data-ttu-id="3853e-155">型別**回應**。</span><span class="sxs-lookup"><span data-stu-id="3853e-155">Type **Response**.</span></span>|  
+    |<span data-ttu-id="3853e-156">訊息類型</span><span class="sxs-lookup"><span data-stu-id="3853e-156">Message Type</span></span>|<span data-ttu-id="3853e-157">從下拉式清單中，展開 **結構描述**，然後選取*SiebelAccount.SiebelBindingSchema.InsertResponse*。</span><span class="sxs-lookup"><span data-stu-id="3853e-157">From the drop-down list, expand **Schemas**, and select *SiebelAccount.SiebelBindingSchema.InsertResponse*.</span></span>|  
   
-## <a name="setting-up-the-orchestration"></a>設定協調流程  
- 您必須建立 BizTalk 協調流程使用[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]的 Siebel 商務元件上執行操作。 在此協調流程中，卸除要求訊息已定義的接收位置。 [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]會取用這個訊息，並將它傳遞到 Siebel 系統。 來自 Siebel 系統的回應會儲存到另一個位置。 用於在 Siebel 商務元件上執行作業的一般協調流程就會包含：  
+## <a name="setting-up-the-orchestration"></a><span data-ttu-id="3853e-158">設定協調流程</span><span class="sxs-lookup"><span data-stu-id="3853e-158">Setting up the Orchestration</span></span>  
+ <span data-ttu-id="3853e-159">您必須建立 BizTalk 協調流程使用[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]的 Siebel 商務元件上執行操作。</span><span class="sxs-lookup"><span data-stu-id="3853e-159">You must create a BizTalk orchestration to use [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] for performing an operation on a Siebel business component.</span></span> <span data-ttu-id="3853e-160">在此協調流程中，卸除要求訊息已定義的接收位置。</span><span class="sxs-lookup"><span data-stu-id="3853e-160">In this orchestration, you drop a request message at a defined receive location.</span></span> <span data-ttu-id="3853e-161">[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]會取用這個訊息，並將它傳遞到 Siebel 系統。</span><span class="sxs-lookup"><span data-stu-id="3853e-161">The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] consumes this message and passes it on to the Siebel system.</span></span> <span data-ttu-id="3853e-162">來自 Siebel 系統的回應會儲存到另一個位置。</span><span class="sxs-lookup"><span data-stu-id="3853e-162">The response from the Siebel system is saved to another location.</span></span> <span data-ttu-id="3853e-163">用於在 Siebel 商務元件上執行作業的一般協調流程就會包含：</span><span class="sxs-lookup"><span data-stu-id="3853e-163">A typical orchestration for performing operations on Siebel business components would contain:</span></span>  
   
--   傳送和接收圖形以將訊息傳送到 Siebel 並接收回應。  
+-   <span data-ttu-id="3853e-164">傳送和接收圖形以將訊息傳送到 Siebel 並接收回應。</span><span class="sxs-lookup"><span data-stu-id="3853e-164">Send and receive shapes to send messages to Siebel and receive responses.</span></span>  
   
--   單向接收埠以接收要求訊息傳送到 Siebel。  
+-   <span data-ttu-id="3853e-165">單向接收埠以接收要求訊息傳送到 Siebel。</span><span class="sxs-lookup"><span data-stu-id="3853e-165">A one-way receive port to receive request messages to send to Siebel.</span></span>  
   
--   雙向傳送埠以將要求訊息傳送到 Siebel 並接收回應。  
+-   <span data-ttu-id="3853e-166">雙向傳送埠以將要求訊息傳送到 Siebel 並接收回應。</span><span class="sxs-lookup"><span data-stu-id="3853e-166">A two-way send port to send request messages to Siebel and receive responses.</span></span>  
   
--   單向傳送埠，以便從 Siebel 傳送回應到資料夾。  
+-   <span data-ttu-id="3853e-167">單向傳送埠，以便從 Siebel 傳送回應到資料夾。</span><span class="sxs-lookup"><span data-stu-id="3853e-167">A one-way send port to send the responses from Siebel to a folder.</span></span>  
   
- 範例協調流程*插入*作業*帳戶*商務元件如下所示：  
+ <span data-ttu-id="3853e-168">範例協調流程*插入*作業*帳戶*商務元件如下所示：</span><span class="sxs-lookup"><span data-stu-id="3853e-168">A sample orchestration for the *Insert* operation on an *Account* business component resembles the following:</span></span>  
   
- ![若要在 Siebel BC 中插入資料的協調流程](../../adapters-and-accelerators/adapter-siebel/media/f005df04-dfbf-4c75-8f9b-2bc3a357d52b.gif "f005df04-dfbf-4c75-8f9b-2bc3a357d52b")  
+ <span data-ttu-id="3853e-169">![若要在 Siebel BC 中插入資料的協調流程](../../adapters-and-accelerators/adapter-siebel/media/f005df04-dfbf-4c75-8f9b-2bc3a357d52b.gif "f005df04-dfbf-4c75-8f9b-2bc3a357d52b")</span><span class="sxs-lookup"><span data-stu-id="3853e-169">![Orchestration to insert data in Siebel BC](../../adapters-and-accelerators/adapter-siebel/media/f005df04-dfbf-4c75-8f9b-2bc3a357d52b.gif "f005df04-dfbf-4c75-8f9b-2bc3a357d52b")</span></span>  
   
-### <a name="adding-message-shapes"></a>新增訊息圖形  
- 請確定您針對每個訊息圖形指定下列屬性。 所列的名稱*圖形*資料行名稱就是訊息圖形上述協調流程中所示。  
+### <a name="adding-message-shapes"></a><span data-ttu-id="3853e-170">新增訊息圖形</span><span class="sxs-lookup"><span data-stu-id="3853e-170">Adding Message Shapes</span></span>  
+ <span data-ttu-id="3853e-171">請確定您針對每個訊息圖形指定下列屬性。</span><span class="sxs-lookup"><span data-stu-id="3853e-171">Make sure you specify the following properties for each of the message shapes.</span></span> <span data-ttu-id="3853e-172">所列的名稱*圖形*資料行名稱就是訊息圖形上述協調流程中所示。</span><span class="sxs-lookup"><span data-stu-id="3853e-172">The names listed in the *Shape* column are the names of the message shapes as displayed in the orchestration above.</span></span>  
   
-|形狀圖|圖形類型|屬性|  
+|<span data-ttu-id="3853e-173">形狀圖</span><span class="sxs-lookup"><span data-stu-id="3853e-173">Shape</span></span>|<span data-ttu-id="3853e-174">圖形類型</span><span class="sxs-lookup"><span data-stu-id="3853e-174">Shape Type</span></span>|<span data-ttu-id="3853e-175">屬性</span><span class="sxs-lookup"><span data-stu-id="3853e-175">Properties</span></span>|  
 |-----------|----------------|----------------|  
-|ReceiveXML|Receive|-設定**名稱**至*ReceiveXML*<br />-設定**啟動**至*，則為 True*|  
-|SendToLOB|Send|-設定**名稱**至*SendToLOB*|  
-|ReceiveResponse|Receive|-設定**名稱**至*ReceiveResponse*<br />-設定**啟動**至*False*|  
-|SendResponse|Send|-設定**名稱**至*SendResponse*|  
+|<span data-ttu-id="3853e-176">ReceiveXML</span><span class="sxs-lookup"><span data-stu-id="3853e-176">ReceiveXML</span></span>|<span data-ttu-id="3853e-177">Receive</span><span class="sxs-lookup"><span data-stu-id="3853e-177">Receive</span></span>|<span data-ttu-id="3853e-178">-設定**名稱**至*ReceiveXML*</span><span class="sxs-lookup"><span data-stu-id="3853e-178">-   Set **Name** to *ReceiveXML*</span></span><br /><span data-ttu-id="3853e-179">-設定**啟動**至*，則為 True*</span><span class="sxs-lookup"><span data-stu-id="3853e-179">-   Set **Activate** to *True*</span></span>|  
+|<span data-ttu-id="3853e-180">SendToLOB</span><span class="sxs-lookup"><span data-stu-id="3853e-180">SendToLOB</span></span>|<span data-ttu-id="3853e-181">Send</span><span class="sxs-lookup"><span data-stu-id="3853e-181">Send</span></span>|<span data-ttu-id="3853e-182">-設定**名稱**至*SendToLOB*</span><span class="sxs-lookup"><span data-stu-id="3853e-182">-   Set **Name** to *SendToLOB*</span></span>|  
+|<span data-ttu-id="3853e-183">ReceiveResponse</span><span class="sxs-lookup"><span data-stu-id="3853e-183">ReceiveResponse</span></span>|<span data-ttu-id="3853e-184">Receive</span><span class="sxs-lookup"><span data-stu-id="3853e-184">Receive</span></span>|<span data-ttu-id="3853e-185">-設定**名稱**至*ReceiveResponse*</span><span class="sxs-lookup"><span data-stu-id="3853e-185">-   Set **Name** to *ReceiveResponse*</span></span><br /><span data-ttu-id="3853e-186">-設定**啟動**至*False*</span><span class="sxs-lookup"><span data-stu-id="3853e-186">-   Set **Activate** to *False*</span></span>|  
+|<span data-ttu-id="3853e-187">SendResponse</span><span class="sxs-lookup"><span data-stu-id="3853e-187">SendResponse</span></span>|<span data-ttu-id="3853e-188">Send</span><span class="sxs-lookup"><span data-stu-id="3853e-188">Send</span></span>|<span data-ttu-id="3853e-189">-設定**名稱**至*SendResponse*</span><span class="sxs-lookup"><span data-stu-id="3853e-189">-   Set **Name** to *SendResponse*</span></span>|  
   
-### <a name="adding-ports"></a>新增連接埠  
- 請確定您針對每個邏輯連接埠指定下列屬性。 所列的名稱*連接埠*資料行是連接埠的名稱，顯示在 協調流程中。  
+### <a name="adding-ports"></a><span data-ttu-id="3853e-190">新增連接埠</span><span class="sxs-lookup"><span data-stu-id="3853e-190">Adding Ports</span></span>  
+ <span data-ttu-id="3853e-191">請確定您針對每個邏輯連接埠指定下列屬性。</span><span class="sxs-lookup"><span data-stu-id="3853e-191">Make sure you specify the following properties for each of the logical ports.</span></span> <span data-ttu-id="3853e-192">所列的名稱*連接埠*資料行是連接埠的名稱，顯示在 協調流程中。</span><span class="sxs-lookup"><span data-stu-id="3853e-192">The names listed in the *Port* column are the names of the ports as displayed in the orchestration.</span></span>  
   
-|通訊埠|屬性|  
+|<span data-ttu-id="3853e-193">通訊埠</span><span class="sxs-lookup"><span data-stu-id="3853e-193">Port</span></span>|<span data-ttu-id="3853e-194">屬性</span><span class="sxs-lookup"><span data-stu-id="3853e-194">Properties</span></span>|  
 |----------|----------------|  
-|FileIn|-設定**識別碼**至*FileIn*<br />-設定**類型**至*FileInType*<br />-設定**通訊模式**至*單向*<br />-設定**通訊方向**至*接收*|  
-|LOBPort|-設定**識別碼**至*LOBPort*<br />-設定**類型**至*LOBPortType*<br />-設定**通訊模式**至*要求-回應*<br />-設定**通訊方向**至*傳送接收*|  
-|SaveResponse|-設定**識別碼**至*SaveResponse*<br />-設定**類型**至*SaveResponseType*<br />-設定**通訊模式**至*單向*<br />-設定**通訊方向**至*傳送*|  
+|<span data-ttu-id="3853e-195">FileIn</span><span class="sxs-lookup"><span data-stu-id="3853e-195">FileIn</span></span>|<span data-ttu-id="3853e-196">-設定**識別碼**至*FileIn*</span><span class="sxs-lookup"><span data-stu-id="3853e-196">-   Set **Identifier** to *FileIn*</span></span><br /><span data-ttu-id="3853e-197">-設定**類型**至*FileInType*</span><span class="sxs-lookup"><span data-stu-id="3853e-197">-   Set **Type** to *FileInType*</span></span><br /><span data-ttu-id="3853e-198">-設定**通訊模式**至*單向*</span><span class="sxs-lookup"><span data-stu-id="3853e-198">-   Set **Communication Pattern** to *One-Way*</span></span><br /><span data-ttu-id="3853e-199">-設定**通訊方向**至*接收*</span><span class="sxs-lookup"><span data-stu-id="3853e-199">-   Set **Communication Direction** to *Receive*</span></span>|  
+|<span data-ttu-id="3853e-200">LOBPort</span><span class="sxs-lookup"><span data-stu-id="3853e-200">LOBPort</span></span>|<span data-ttu-id="3853e-201">-設定**識別碼**至*LOBPort*</span><span class="sxs-lookup"><span data-stu-id="3853e-201">-   Set **Identifier** to *LOBPort*</span></span><br /><span data-ttu-id="3853e-202">-設定**類型**至*LOBPortType*</span><span class="sxs-lookup"><span data-stu-id="3853e-202">-   Set **Type** to *LOBPortType*</span></span><br /><span data-ttu-id="3853e-203">-設定**通訊模式**至*要求-回應*</span><span class="sxs-lookup"><span data-stu-id="3853e-203">-   Set **Communication Pattern** to *Request-Response*</span></span><br /><span data-ttu-id="3853e-204">-設定**通訊方向**至*傳送接收*</span><span class="sxs-lookup"><span data-stu-id="3853e-204">-   Set **Communication Direction** to *Send-Receive*</span></span>|  
+|<span data-ttu-id="3853e-205">SaveResponse</span><span class="sxs-lookup"><span data-stu-id="3853e-205">SaveResponse</span></span>|<span data-ttu-id="3853e-206">-設定**識別碼**至*SaveResponse*</span><span class="sxs-lookup"><span data-stu-id="3853e-206">-   Set **Identifier** to *SaveResponse*</span></span><br /><span data-ttu-id="3853e-207">-設定**類型**至*SaveResponseType*</span><span class="sxs-lookup"><span data-stu-id="3853e-207">-   Set **Type** to *SaveResponseType*</span></span><br /><span data-ttu-id="3853e-208">-設定**通訊模式**至*單向*</span><span class="sxs-lookup"><span data-stu-id="3853e-208">-   Set **Communication Pattern** to *One-Way*</span></span><br /><span data-ttu-id="3853e-209">-設定**通訊方向**至*傳送*</span><span class="sxs-lookup"><span data-stu-id="3853e-209">-   Set **Communication Direction** to *Send*</span></span>|  
   
-## <a name="specify-messages-for-action-shapes-and-connect-to-ports"></a>指定動作圖形訊息並連接至連接埠  
- 下表指定屬性和其值設為指定的動作圖形，並將它們連結至連接埠的訊息。 所列的名稱*圖形*資料行名稱就是訊息圖形上述協調流程中所示。  
+## <a name="specify-messages-for-action-shapes-and-connect-to-ports"></a><span data-ttu-id="3853e-210">指定動作圖形訊息並連接至連接埠</span><span class="sxs-lookup"><span data-stu-id="3853e-210">Specify Messages for Action Shapes and Connect to Ports</span></span>  
+ <span data-ttu-id="3853e-211">下表指定屬性和其值設為指定的動作圖形，並將它們連結至連接埠的訊息。</span><span class="sxs-lookup"><span data-stu-id="3853e-211">The following table specifies the properties and their values to be set to specify messages for action shapes and linking them to the ports.</span></span> <span data-ttu-id="3853e-212">所列的名稱*圖形*資料行名稱就是訊息圖形上述協調流程中所示。</span><span class="sxs-lookup"><span data-stu-id="3853e-212">The names listed in the *Shape* column are the names of the message shapes as displayed in the orchestration above.</span></span>  
   
-|形狀圖|屬性|  
+|<span data-ttu-id="3853e-213">形狀圖</span><span class="sxs-lookup"><span data-stu-id="3853e-213">Shape</span></span>|<span data-ttu-id="3853e-214">屬性</span><span class="sxs-lookup"><span data-stu-id="3853e-214">Properties</span></span>|  
 |-----------|----------------|  
-|ReceiveXML|-設定**訊息**至*要求*<br />-設定**作業**至*FileIn.Insert.Request*|  
-|SendToLOB|-設定**訊息**至*要求*<br />-設定**作業**至*LOBPort.Insert.Request*|  
-|ReceiveResponse|-設定**訊息**至*回應*<br />-設定**作業**至*LOBPort.Insert.Response*|  
-|SendResponse|-設定**訊息**至*回應*<br />-設定**作業**至*SaveResponse.Insert.Request*|  
+|<span data-ttu-id="3853e-215">ReceiveXML</span><span class="sxs-lookup"><span data-stu-id="3853e-215">ReceiveXML</span></span>|<span data-ttu-id="3853e-216">-設定**訊息**至*要求*</span><span class="sxs-lookup"><span data-stu-id="3853e-216">-   Set **Message** to *Request*</span></span><br /><span data-ttu-id="3853e-217">-設定**作業**至*FileIn.Insert.Request*</span><span class="sxs-lookup"><span data-stu-id="3853e-217">-   Set **Operation** to *FileIn.Insert.Request*</span></span>|  
+|<span data-ttu-id="3853e-218">SendToLOB</span><span class="sxs-lookup"><span data-stu-id="3853e-218">SendToLOB</span></span>|<span data-ttu-id="3853e-219">-設定**訊息**至*要求*</span><span class="sxs-lookup"><span data-stu-id="3853e-219">-   Set **Message** to *Request*</span></span><br /><span data-ttu-id="3853e-220">-設定**作業**至*LOBPort.Insert.Request*</span><span class="sxs-lookup"><span data-stu-id="3853e-220">-   Set **Operation** to *LOBPort.Insert.Request*</span></span>|  
+|<span data-ttu-id="3853e-221">ReceiveResponse</span><span class="sxs-lookup"><span data-stu-id="3853e-221">ReceiveResponse</span></span>|<span data-ttu-id="3853e-222">-設定**訊息**至*回應*</span><span class="sxs-lookup"><span data-stu-id="3853e-222">-   Set **Message** to *Response*</span></span><br /><span data-ttu-id="3853e-223">-設定**作業**至*LOBPort.Insert.Response*</span><span class="sxs-lookup"><span data-stu-id="3853e-223">-   Set **Operation** to *LOBPort.Insert.Response*</span></span>|  
+|<span data-ttu-id="3853e-224">SendResponse</span><span class="sxs-lookup"><span data-stu-id="3853e-224">SendResponse</span></span>|<span data-ttu-id="3853e-225">-設定**訊息**至*回應*</span><span class="sxs-lookup"><span data-stu-id="3853e-225">-   Set **Message** to *Response*</span></span><br /><span data-ttu-id="3853e-226">-設定**作業**至*SaveResponse.Insert.Request*</span><span class="sxs-lookup"><span data-stu-id="3853e-226">-   Set **Operation** to *SaveResponse.Insert.Request*</span></span>|  
   
- 您指定這些屬性之後，連接的訊息 圖形和連接埠，而且您的協調流程已完成。  
+ <span data-ttu-id="3853e-227">您指定這些屬性之後，連接的訊息 圖形和連接埠，而且您的協調流程已完成。</span><span class="sxs-lookup"><span data-stu-id="3853e-227">After you have specified these properties, the message shapes and ports are connected and your orchestration is complete.</span></span>  
   
- 您現在必須建置 BizTalk 方案，並部署到[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]。 如需詳細資訊，請參閱[如何建置協調流程](../../core/how-to-build-orchestrations.md)和[從到 BizTalk 應用程式的 Visual Studio 部署 BizTalk 組件](../../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md)。
+ <span data-ttu-id="3853e-228">您現在必須建置 BizTalk 方案，並部署到[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="3853e-228">You must now build the BizTalk solution and deploy it to a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="3853e-229">如需詳細資訊，請參閱[如何建置協調流程](../../core/how-to-build-orchestrations.md)和[從到 BizTalk 應用程式的 Visual Studio 部署 BizTalk 組件](../../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md)。</span><span class="sxs-lookup"><span data-stu-id="3853e-229">For more information, see [How to Build Orchestrations](../../core/how-to-build-orchestrations.md) and [Deploying BizTalk Assemblies from Visual Studio into a BizTalk Application](../../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md).</span></span>
   
-## <a name="configuring-the-biztalk-application"></a>設定 BizTalk 應用程式  
- 部署 BizTalk 專案之後，您稍早建立的協調流程會列在**協調流程**BizTalk Server 管理主控台 窗格。 您必須使用 BizTalk Server 管理主控台來設定應用程式。 [如何建立應用程式](../../core/how-to-create-an-application.md)列出的步驟。
+## <a name="configuring-the-biztalk-application"></a><span data-ttu-id="3853e-230">設定 BizTalk 應用程式</span><span class="sxs-lookup"><span data-stu-id="3853e-230">Configuring the BizTalk Application</span></span>  
+ <span data-ttu-id="3853e-231">部署 BizTalk 專案之後，您稍早建立的協調流程會列在**協調流程**BizTalk Server 管理主控台 窗格。</span><span class="sxs-lookup"><span data-stu-id="3853e-231">After you have deployed the BizTalk project, the orchestration you created earlier is listed under the **Orchestrations** pane in the BizTalk Server Administration console.</span></span> <span data-ttu-id="3853e-232">您必須使用 BizTalk Server 管理主控台來設定應用程式。</span><span class="sxs-lookup"><span data-stu-id="3853e-232">You must use the BizTalk Server Administration console to configure the application.</span></span> <span data-ttu-id="3853e-233">[如何建立應用程式](../../core/how-to-create-an-application.md)列出的步驟。</span><span class="sxs-lookup"><span data-stu-id="3853e-233">[How to Create an Application](../../core/how-to-create-an-application.md) lists the steps.</span></span>
   
- 設定應用程式包括：  
+ <span data-ttu-id="3853e-234">設定應用程式包括：</span><span class="sxs-lookup"><span data-stu-id="3853e-234">Configuring an application involves:</span></span>  
   
--   選取應用程式的主機。  
+-   <span data-ttu-id="3853e-235">選取應用程式的主機。</span><span class="sxs-lookup"><span data-stu-id="3853e-235">Selecting a host for the application.</span></span>  
   
--   對應至 BizTalk Server 管理主控台中的實體連接埠在協調流程中建立的連接埠。 此協調流程中，您必須：  
+-   <span data-ttu-id="3853e-236">對應至 BizTalk Server 管理主控台中的實體連接埠在協調流程中建立的連接埠。</span><span class="sxs-lookup"><span data-stu-id="3853e-236">Mapping the ports that you created in your orchestration to physical ports in the BizTalk Server Administration console.</span></span> <span data-ttu-id="3853e-237">此協調流程中，您必須：</span><span class="sxs-lookup"><span data-stu-id="3853e-237">For this orchestration you must:</span></span>  
   
-    -   定義位置上的硬碟和對應的檔案連接埠，您將在此置放要求訊息。 BizTalk 協調流程會使用要求訊息，並將它傳送至 Siebel 系統。  
+    -   <span data-ttu-id="3853e-238">定義位置上的硬碟和對應的檔案連接埠，您將在此置放要求訊息。</span><span class="sxs-lookup"><span data-stu-id="3853e-238">Define a location on the hard disk and a corresponding file port where you will drop a request message.</span></span> <span data-ttu-id="3853e-239">BizTalk 協調流程會使用要求訊息，並將它傳送至 Siebel 系統。</span><span class="sxs-lookup"><span data-stu-id="3853e-239">The BizTalk orchestration will consume the request message and send it to the Siebel system.</span></span>  
   
-    -   定義位置上的硬碟和對應的檔案連接埠，BizTalk 協調流程將會卸除包含來自 Siebel 系統的回應的回應訊息。  
+    -   <span data-ttu-id="3853e-240">定義位置上的硬碟和對應的檔案連接埠，BizTalk 協調流程將會卸除包含來自 Siebel 系統的回應的回應訊息。</span><span class="sxs-lookup"><span data-stu-id="3853e-240">Define a location on the hard disk and a corresponding file port where the BizTalk orchestration will drop the response message containing the response from the Siebel system.</span></span>  
   
-    -   定義將訊息傳送至 Siebel 系統實體 Wcf-custom 或 Wcf-siebel 傳送埠。 您也必須在傳送埠中指定的動作。 如需如何建立連接埠相關資訊，請參閱[手動設定在 Siebel 介面卡的實體連接埠繫結](../../adapters-and-accelerators/adapter-siebel/manually-configure-a-physical-port-binding-to-the-siebel-adapter.md)。
+    -   <span data-ttu-id="3853e-241">定義將訊息傳送至 Siebel 系統實體 Wcf-custom 或 Wcf-siebel 傳送埠。</span><span class="sxs-lookup"><span data-stu-id="3853e-241">Define a physical WCF-Custom or WCF-Siebel send port to send messages to the Siebel system.</span></span> <span data-ttu-id="3853e-242">您也必須在傳送埠中指定的動作。</span><span class="sxs-lookup"><span data-stu-id="3853e-242">You must also specify the action in the send port.</span></span> <span data-ttu-id="3853e-243">如需如何建立連接埠相關資訊，請參閱[手動設定在 Siebel 介面卡的實體連接埠繫結](../../adapters-and-accelerators/adapter-siebel/manually-configure-a-physical-port-binding-to-the-siebel-adapter.md)。</span><span class="sxs-lookup"><span data-stu-id="3853e-243">For information about how to create ports, see [Manually configure a physical port binding to the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/manually-configure-a-physical-port-binding-to-the-siebel-adapter.md).</span></span>
   
         > [!NOTE]
-        >  產生結構描述使用[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]也會建立包含連接埠與那些連接埠的設定動作的相關資訊的繫結檔案。 您可以從 BizTalk 管理主控台建立傳送埠 （適用於傳出呼叫） 來匯入此繫結檔案。 如需詳細資訊，請參閱[設定實體連接埠繫結使用連接埠繫結檔案至 Siebel](../../adapters-and-accelerators/adapter-siebel/configure-a-physical-port-binding-using-a-port-binding-file-to-siebel.md)。
+        >  <span data-ttu-id="3853e-244">產生結構描述使用[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]也會建立包含連接埠與那些連接埠的設定動作的相關資訊的繫結檔案。</span><span class="sxs-lookup"><span data-stu-id="3853e-244">Generating the schema using the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] also creates a binding file containing information about the ports and the actions to be set for those ports.</span></span> <span data-ttu-id="3853e-245">您可以從 BizTalk 管理主控台建立傳送埠 （適用於傳出呼叫） 來匯入此繫結檔案。</span><span class="sxs-lookup"><span data-stu-id="3853e-245">You can import this binding file from the BizTalk Administration Console to create send ports (for outbound calls).</span></span> <span data-ttu-id="3853e-246">如需詳細資訊，請參閱[設定實體連接埠繫結使用連接埠繫結檔案至 Siebel](../../adapters-and-accelerators/adapter-siebel/configure-a-physical-port-binding-using-a-port-binding-file-to-siebel.md)。</span><span class="sxs-lookup"><span data-stu-id="3853e-246">For more information, see [Configure a physical port binding using a port binding file to Siebel](../../adapters-and-accelerators/adapter-siebel/configure-a-physical-port-binding-using-a-port-binding-file-to-siebel.md).</span></span>
   
-## <a name="starting-the-application"></a>啟動應用程式  
- 您必須啟動 BizTalk 應用程式執行*插入*作業*帳戶*在 Siebel 商務元件。 如需啟動 BizTalk 應用程式的指示，請參閱[啟動 BizTalk 應用程式](../../core/how-to-start-and-stop-a-biztalk-application.md)或[啟動協調流程](../../core/how-to-start-an-orchestration.md)。
+## <a name="starting-the-application"></a><span data-ttu-id="3853e-247">啟動應用程式</span><span class="sxs-lookup"><span data-stu-id="3853e-247">Starting the Application</span></span>  
+ <span data-ttu-id="3853e-248">您必須啟動 BizTalk 應用程式執行*插入*作業*帳戶*在 Siebel 商務元件。</span><span class="sxs-lookup"><span data-stu-id="3853e-248">You must start the BizTalk application for performing an *Insert* operation on the *Account* business component in Siebel.</span></span> <span data-ttu-id="3853e-249">如需啟動 BizTalk 應用程式的指示，請參閱[啟動 BizTalk 應用程式](../../core/how-to-start-and-stop-a-biztalk-application.md)或[啟動協調流程](../../core/how-to-start-an-orchestration.md)。</span><span class="sxs-lookup"><span data-stu-id="3853e-249">For instructions on starting a BizTalk application, see [Start a BizTalk Application](../../core/how-to-start-and-stop-a-biztalk-application.md) or [Start an Orchestration](../../core/how-to-start-an-orchestration.md).</span></span>
   
- 在這個階段，請確定：  
+ <span data-ttu-id="3853e-250">在這個階段，請確定：</span><span class="sxs-lookup"><span data-stu-id="3853e-250">At this stage, make sure:</span></span>  
   
--   FILE 接收埠以接收要求訊息的協調流程執行。  
+-   <span data-ttu-id="3853e-251">FILE 接收埠以接收要求訊息的協調流程執行。</span><span class="sxs-lookup"><span data-stu-id="3853e-251">The FILE receive port to receive request messages for the orchestration is running.</span></span>  
   
--   FILE 傳送埠，以接收回應訊息從協調流程正在執行。  
+-   <span data-ttu-id="3853e-252">FILE 傳送埠，以接收回應訊息從協調流程正在執行。</span><span class="sxs-lookup"><span data-stu-id="3853e-252">The FILE send port to receive the response messages from the orchestration is running.</span></span>  
   
--   Wcf-custom 或 Wcf-siebel 傳送埠將訊息傳送至 Siebel 系統正在執行。  
+-   <span data-ttu-id="3853e-253">Wcf-custom 或 Wcf-siebel 傳送埠將訊息傳送至 Siebel 系統正在執行。</span><span class="sxs-lookup"><span data-stu-id="3853e-253">The WCF-Custom or WCF-Siebel send port to send messages to the Siebel system is running.</span></span>  
   
--   BizTalk 協調流程的作業正在執行。  
+-   <span data-ttu-id="3853e-254">BizTalk 協調流程的作業正在執行。</span><span class="sxs-lookup"><span data-stu-id="3853e-254">The BizTalk orchestration for the operation is running.</span></span>  
   
-## <a name="executing-the-operation"></a>執行作業  
- 執行應用程式之後，您必須先卸除要求訊息到檔案接收位置。 要求訊息的結構描述必須符合之結構描述的 Insert 作業 （帳戶商務元件） 的先前產生。 例如，要在帳戶商務元件中插入一筆記錄的要求訊息是：  
+## <a name="executing-the-operation"></a><span data-ttu-id="3853e-255">執行作業</span><span class="sxs-lookup"><span data-stu-id="3853e-255">Executing the Operation</span></span>  
+ <span data-ttu-id="3853e-256">執行應用程式之後，您必須先卸除要求訊息到檔案接收位置。</span><span class="sxs-lookup"><span data-stu-id="3853e-256">After you run the application, you must drop the request message to the FILE receive location.</span></span> <span data-ttu-id="3853e-257">要求訊息的結構描述必須符合之結構描述的 Insert 作業 （帳戶商務元件） 的先前產生。</span><span class="sxs-lookup"><span data-stu-id="3853e-257">The schema of the request message must conform to the schema of the Insert operation (on Account business component) you generated earlier.</span></span> <span data-ttu-id="3853e-258">例如，要在帳戶商務元件中插入一筆記錄的要求訊息是：</span><span class="sxs-lookup"><span data-stu-id="3853e-258">For example, the request message to insert a record in the Account business component is:</span></span>  
   
 ```  
 <Insert xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Operation">  
@@ -185,9 +185,9 @@ ms.lasthandoff: 09/20/2017
 </Insert>  
 ```  
   
- 請參閱[商務元件操作的訊息結構描述](../../adapters-and-accelerators/adapter-siebel/message-schemas-for-business-component-operations.md)如需有關要求訊息的結構描述。  
+ <span data-ttu-id="3853e-259">請參閱[商務元件操作的訊息結構描述](../../adapters-and-accelerators/adapter-siebel/message-schemas-for-business-component-operations.md)如需有關要求訊息的結構描述。</span><span class="sxs-lookup"><span data-stu-id="3853e-259">See [Message Schemas for Business Component Operations](../../adapters-and-accelerators/adapter-siebel/message-schemas-for-business-component-operations.md) for more information about the schema for the request message.</span></span>  
   
- 協調流程會使用要求訊息，並將其傳遞至 Siebel 系統。 來自 Siebel 系統的回應會儲存在其他的協調流程中定義的檔案位置。 比方說，是來自上述的要求訊息的 Siebel 系統的回應：  
+ <span data-ttu-id="3853e-260">協調流程會使用要求訊息，並將其傳遞至 Siebel 系統。</span><span class="sxs-lookup"><span data-stu-id="3853e-260">The orchestration consumes the request message and passes it to the Siebel system.</span></span> <span data-ttu-id="3853e-261">來自 Siebel 系統的回應會儲存在其他的協調流程中定義的檔案位置。</span><span class="sxs-lookup"><span data-stu-id="3853e-261">The response from the Siebel system is saved at the other FILE location defined as part of the orchestration.</span></span> <span data-ttu-id="3853e-262">比方說，是來自上述的要求訊息的 Siebel 系統的回應：</span><span class="sxs-lookup"><span data-stu-id="3853e-262">For example, the response from Siebel system for the above request message is:</span></span>  
   
 ```  
 \<?xml version="1.0" encoding="utf-8"?>  
@@ -198,11 +198,11 @@ ms.lasthandoff: 09/20/2017
 </InsertResponse>  
 ```  
   
-## <a name="possible-exceptions"></a>可能的例外狀況  
- 例外狀況的資訊可能會遇到執行商務元件使用作業時發生[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]，請參閱[例外狀況和錯誤處理 Siebel 配接器](../../adapters-and-accelerators/adapter-siebel/exceptions-and-error-handling-with-the-siebel-adapter.md)。  
+## <a name="possible-exceptions"></a><span data-ttu-id="3853e-263">可能的例外狀況</span><span class="sxs-lookup"><span data-stu-id="3853e-263">Possible Exceptions</span></span>  
+ <span data-ttu-id="3853e-264">例外狀況的資訊可能會遇到執行商務元件使用作業時發生[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]，請參閱[例外狀況和錯誤處理 Siebel 配接器](../../adapters-and-accelerators/adapter-siebel/exceptions-and-error-handling-with-the-siebel-adapter.md)。</span><span class="sxs-lookup"><span data-stu-id="3853e-264">For information about the exceptions you might encounter while performing an operation on business component using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], see [Exceptions and Error Handling with the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/exceptions-and-error-handling-with-the-siebel-adapter.md).</span></span>  
   
-## <a name="best-practices"></a>最佳作法  
- 您部署和設定 BizTalk 專案之後，您可以為 XML 檔案，稱為繫結檔案匯出組態設定。 一旦產生繫結檔案時，您可以匯入組態設定從檔案，因此您不需要建立傳送埠、 接收埠，等。 針對相同的協調流程。 如需繫結檔案的詳細資訊，請參閱[重複使用 Siebel 配接器中的配接器繫結](../../adapters-and-accelerators/adapter-siebel/reuse-adapter-bindings-in-the-siebel-adapter.md)。
+## <a name="best-practices"></a><span data-ttu-id="3853e-265">最佳作法</span><span class="sxs-lookup"><span data-stu-id="3853e-265">Best Practices</span></span>  
+ <span data-ttu-id="3853e-266">您部署和設定 BizTalk 專案之後，您可以為 XML 檔案，稱為繫結檔案匯出組態設定。</span><span class="sxs-lookup"><span data-stu-id="3853e-266">After you have deployed and configured the BizTalk project, you can export configuration settings to an XML file called the binding file.</span></span> <span data-ttu-id="3853e-267">一旦產生繫結檔案時，您可以匯入組態設定從檔案，因此您不需要建立傳送埠、 接收埠，等。 針對相同的協調流程。</span><span class="sxs-lookup"><span data-stu-id="3853e-267">Once you generate a bindings file, you can import the configuration settings from the file so that you do not need to create the send ports, receive ports, etc. for the same orchestration.</span></span> <span data-ttu-id="3853e-268">如需繫結檔案的詳細資訊，請參閱[重複使用 Siebel 配接器中的配接器繫結](../../adapters-and-accelerators/adapter-siebel/reuse-adapter-bindings-in-the-siebel-adapter.md)。</span><span class="sxs-lookup"><span data-stu-id="3853e-268">For more information about binding files, see [Reuse adapter bindings in the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/reuse-adapter-bindings-in-the-siebel-adapter.md).</span></span>
   
-## <a name="see-also"></a>另請參閱  
-[開發 BizTalk 應用程式使用 Siebel 配接器](../../adapters-and-accelerators/adapter-siebel/develop-biztalk-applications-using-the-siebel-adapter.md)
+## <a name="see-also"></a><span data-ttu-id="3853e-269">另請參閱</span><span class="sxs-lookup"><span data-stu-id="3853e-269">See Also</span></span>  
+[<span data-ttu-id="3853e-270">開發 BizTalk 應用程式使用 Siebel 配接器</span><span class="sxs-lookup"><span data-stu-id="3853e-270">Develop BizTalk Applications using the Siebel adapter</span></span>](../../adapters-and-accelerators/adapter-siebel/develop-biztalk-applications-using-the-siebel-adapter.md)

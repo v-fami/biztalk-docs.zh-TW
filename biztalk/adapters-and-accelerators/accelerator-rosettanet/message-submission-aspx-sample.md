@@ -18,24 +18,24 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="message-submission-aspx-sample"></a>訊息提交 ASPX 範例
-本主題提供範例 .aspx 程式碼，讓您可以用來提交服務內容至私用程序。 您可以使用這個 .aspx 程式碼來代替商務營運系統 (LOB) 應用程式。  
+# <a name="message-submission-aspx-sample"></a><span data-ttu-id="6865a-102">訊息提交 ASPX 範例</span><span class="sxs-lookup"><span data-stu-id="6865a-102">Message Submission ASPX Sample</span></span>
+<span data-ttu-id="6865a-103">本主題提供範例 .aspx 程式碼，讓您可以用來提交服務內容至私用程序。</span><span class="sxs-lookup"><span data-stu-id="6865a-103">This topic provides sample .aspx code that you can use to submit service content to a private process.</span></span> <span data-ttu-id="6865a-104">您可以使用這個 .aspx 程式碼來代替商務營運系統 (LOB) 應用程式。</span><span class="sxs-lookup"><span data-stu-id="6865a-104">You can use this .aspx code instead of a line-of-business (LOB) application.</span></span>  
   
-## <a name="demonstrates"></a>示範  
- 這段程式碼會示範如何呼叫 `SubmitRNIF` 方法來提交訊息，其中包含下列步驟：  
+## <a name="demonstrates"></a><span data-ttu-id="6865a-105">示範</span><span class="sxs-lookup"><span data-stu-id="6865a-105">Demonstrates</span></span>  
+ <span data-ttu-id="6865a-106">這段程式碼會示範如何呼叫 `SubmitRNIF` 方法來提交訊息，其中包含下列步驟：</span><span class="sxs-lookup"><span data-stu-id="6865a-106">This code demonstrates how to call the `SubmitRNIF` method to submit a message, including the following:</span></span>  
   
--   設定由應用程式輸入的訊息參數  
+-   <span data-ttu-id="6865a-107">設定由應用程式輸入的訊息參數</span><span class="sxs-lookup"><span data-stu-id="6865a-107">Setting message parameters input from an application</span></span>  
   
--   設定訊息類別  
+-   <span data-ttu-id="6865a-108">設定訊息類別</span><span class="sxs-lookup"><span data-stu-id="6865a-108">Setting the message category</span></span>  
   
--   如果提交的值為空值或空白，則產生該訊息的「交易夥伴介面程序 (PIP)」執行個體。  
+-   <span data-ttu-id="6865a-109">如果提交的值為空值或空白，則產生該訊息的「交易夥伴介面程序 (PIP)」執行個體。</span><span class="sxs-lookup"><span data-stu-id="6865a-109">Generating a Partner Interface Process (PIP) instance for the message if the submitted value is null or empty</span></span>  
   
--   產生輸入附件檔案陣列和註解  
+-   <span data-ttu-id="6865a-110">產生輸入附件檔案陣列和註解</span><span class="sxs-lookup"><span data-stu-id="6865a-110">Generating the input attachment files array and remarks</span></span>  
   
-## <a name="example"></a>範例  
- 這段程式碼會接受來自前端應用程式 (例如瀏覽器、[!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]® 或 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® Word) 的輸入，並產生啟動者私用程序可以使用的 XML 文件。  
+## <a name="example"></a><span data-ttu-id="6865a-111">範例</span><span class="sxs-lookup"><span data-stu-id="6865a-111">Example</span></span>  
+ <span data-ttu-id="6865a-112">這段程式碼會接受來自前端應用程式 (例如瀏覽器、[!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]® 或 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® Word) 的輸入，並產生啟動者私用程序可以使用的 XML 文件。</span><span class="sxs-lookup"><span data-stu-id="6865a-112">This code accepts input from a front-end application, such as a browser, [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]®, or [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® Word, and generates the XML document that the initiator private process can consume.</span></span>  
   
- LOBWebApplication 公用程式包含下列程式碼。 如需詳細資訊，請參閱[LOBWebApplication](../../adapters-and-accelerators/accelerator-rosettanet/lobwebapplication.md)。  
+ <span data-ttu-id="6865a-113">LOBWebApplication 公用程式包含下列程式碼。</span><span class="sxs-lookup"><span data-stu-id="6865a-113">The LOBWebApplication utility includes the following code.</span></span> <span data-ttu-id="6865a-114">如需詳細資訊，請參閱[LOBWebApplication](../../adapters-and-accelerators/accelerator-rosettanet/lobwebapplication.md)。</span><span class="sxs-lookup"><span data-stu-id="6865a-114">For more information, see [LOBWebApplication](../../adapters-and-accelerators/accelerator-rosettanet/lobwebapplication.md).</span></span>  
   
 ```  
 using System;  
@@ -108,6 +108,6 @@ namespace Microsoft.Solutions.BTARN.SDK
 }  
 ```  
   
-## <a name="see-also"></a>另請參閱  
- [LOBWebApplication](../../adapters-and-accelerators/accelerator-rosettanet/lobwebapplication.md)   
- [傳訊範例](../../adapters-and-accelerators/accelerator-rosettanet/messaging-samples.md)
+## <a name="see-also"></a><span data-ttu-id="6865a-115">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6865a-115">See Also</span></span>  
+ <span data-ttu-id="6865a-116">[LOBWebApplication](../../adapters-and-accelerators/accelerator-rosettanet/lobwebapplication.md) </span><span class="sxs-lookup"><span data-stu-id="6865a-116">[LOBWebApplication](../../adapters-and-accelerators/accelerator-rosettanet/lobwebapplication.md) </span></span>  
+ [<span data-ttu-id="6865a-117">傳訊範例</span><span class="sxs-lookup"><span data-stu-id="6865a-117">Messaging Samples</span></span>](../../adapters-and-accelerators/accelerator-rosettanet/messaging-samples.md)

@@ -23,14 +23,14 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="validation-tab"></a>驗證索引標籤
-您使用**驗證**索引標籤，選取 輸入及產生訊息的訊息驗證選項。  
+# <a name="validation-tab"></a><span data-ttu-id="38731-102">驗證索引標籤</span><span class="sxs-lookup"><span data-stu-id="38731-102">Validation Tab</span></span>
+<span data-ttu-id="38731-103">您使用**驗證**索引標籤，選取 輸入及產生訊息的訊息驗證選項。</span><span class="sxs-lookup"><span data-stu-id="38731-103">You use the **Validation** tab to select the message validation options for inbound and generated messages.</span></span>  
   
- 在**BTAHL7 Configuration 總管**對話方塊**驗證**索引標籤上，執行下列動作：  
+ <span data-ttu-id="38731-104">在**BTAHL7 Configuration 總管**對話方塊**驗證**索引標籤上，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="38731-104">In the **BTAHL7 Configuration Explorer** dialog box, on the **Validation** tab, do the following:</span></span>  
   
-|使用|動作|  
+|<span data-ttu-id="38731-105">使用</span><span class="sxs-lookup"><span data-stu-id="38731-105">Use this</span></span>|<span data-ttu-id="38731-106">動作</span><span class="sxs-lookup"><span data-stu-id="38731-106">To do this</span></span>|  
 |--------------|----------------|  
-|**驗證主體區段**|選取此選項以執行語法、 結構和結構描述驗證。|  
-|**驗證的自訂資料類型**|選取此選項以執行 DT、 TS、 TM 和 TN.HL7 標準驗證|  
-|**允許尾端分隔符號 （分隔符號）**|選取此選項可啟用訊息執行個體中的尾端欄位分隔符號。|  
-|**結構描述命名空間**|輸入結構描述命名空間位置。 預設值是 http://microsoft.com/HealthCare/HL7/2X。|
+|<span data-ttu-id="38731-107">**驗證主體區段**</span><span class="sxs-lookup"><span data-stu-id="38731-107">**Validate body segments**</span></span>|<span data-ttu-id="38731-108">選取此選項以執行語法、 結構和結構描述驗證。</span><span class="sxs-lookup"><span data-stu-id="38731-108">Select this option to perform syntax, structure, and schema validation.</span></span>|  
+|<span data-ttu-id="38731-109">**驗證的自訂資料類型**</span><span class="sxs-lookup"><span data-stu-id="38731-109">**Validate custom data type**</span></span>|<span data-ttu-id="38731-110">選取此選項以執行 DT、 TS、 TM 和 TN.HL7 標準驗證</span><span class="sxs-lookup"><span data-stu-id="38731-110">Select this option to perform HL7 standard validation on DT, TS, TM, and TN.</span></span>|  
+|<span data-ttu-id="38731-111">**允許尾端分隔符號 （分隔符號）**</span><span class="sxs-lookup"><span data-stu-id="38731-111">**Allow trailing delimiters (separators)**</span></span>|<span data-ttu-id="38731-112">選取此選項可啟用訊息執行個體中的尾端欄位分隔符號。</span><span class="sxs-lookup"><span data-stu-id="38731-112">Select this option to enable trailing field delimiters in message instances.</span></span>|  
+|<span data-ttu-id="38731-113">**結構描述命名空間**</span><span class="sxs-lookup"><span data-stu-id="38731-113">**Schema Namespace**</span></span>|<span data-ttu-id="38731-114">輸入結構描述命名空間位置。</span><span class="sxs-lookup"><span data-stu-id="38731-114">Type the schema namespace location.</span></span> <span data-ttu-id="38731-115">預設值是 http://microsoft.com/HealthCare/HL7/2X。</span><span class="sxs-lookup"><span data-stu-id="38731-115">The default value is http://microsoft.com/HealthCare/HL7/2X.</span></span>|

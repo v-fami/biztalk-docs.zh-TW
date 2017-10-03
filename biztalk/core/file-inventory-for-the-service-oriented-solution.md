@@ -19,483 +19,483 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="file-inventory-for-the-service-oriented-solution"></a>檔案庫存服務導向解決方案
-本節列出服務導向解決方案的子目錄與原始程式檔。 Service Oriented 方案原始程式檔的預設安裝目錄是 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Scenarios\SO。 下表會取代此路徑與之前的描述\<安裝目錄 >。  
+# <a name="file-inventory-for-the-service-oriented-solution"></a><span data-ttu-id="85eca-102">檔案庫存服務導向解決方案</span><span class="sxs-lookup"><span data-stu-id="85eca-102">File Inventory for the Service Oriented Solution</span></span>
+<span data-ttu-id="85eca-103">本節列出服務導向解決方案的子目錄與原始程式檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-103">This section lists subdirectories and source files for the Service Oriented solution.</span></span> <span data-ttu-id="85eca-104">Service Oriented 方案原始程式檔的預設安裝目錄是 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Scenarios\SO。</span><span class="sxs-lookup"><span data-stu-id="85eca-104">The default installation directory for the Service Oriented solution source files is [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Scenarios\SO.</span></span> <span data-ttu-id="85eca-105">下表會取代此路徑與之前的描述\<安裝目錄 >。</span><span class="sxs-lookup"><span data-stu-id="85eca-105">Descriptions before the following tables replace this path with \<Install Directory>.</span></span>  
   
- 中的檔案\<安裝目錄 > \BTSSoln  
+ <span data-ttu-id="85eca-106">中的檔案\<安裝目錄 > \BTSSoln</span><span class="sxs-lookup"><span data-stu-id="85eca-106">Files in \<Install Directory>\BTSSoln</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-107">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-107">File</span></span>|<span data-ttu-id="85eca-108">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-108">Description</span></span>|  
 |----------|-----------------|  
-|Microsoft.Samples.BizTalk.WoodgroveBank.sln|Visual Studio 方案檔。|  
-|ReplacePKToken.vbs|在建立解決方案時，會修正解決方案檔案中公開金鑰 Token 的 VBScript。|  
-|ReplacePKToken.wsf|用於 ReplacePKToken VBScript 的 Windows 指令碼檔案。|  
-|SetupBTSSoln.bat|建立公開金鑰、更新公開金鑰的參考，以及編譯解決方案。 如需部署解決方案的資訊，請參閱[部署服務導向解決方案](../core/deploying-the-service-oriented-solution.md)。|  
+|<span data-ttu-id="85eca-109">Microsoft.Samples.BizTalk.WoodgroveBank.sln</span><span class="sxs-lookup"><span data-stu-id="85eca-109">Microsoft.Samples.BizTalk.WoodgroveBank.sln</span></span>|<span data-ttu-id="85eca-110">Visual Studio 方案檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-110">Visual Studio solution file.</span></span>|  
+|<span data-ttu-id="85eca-111">ReplacePKToken.vbs</span><span class="sxs-lookup"><span data-stu-id="85eca-111">ReplacePKToken.vbs</span></span>|<span data-ttu-id="85eca-112">在建立解決方案時，會修正解決方案檔案中公開金鑰 Token 的 VBScript。</span><span class="sxs-lookup"><span data-stu-id="85eca-112">VBScript to fix public key tokens in solution files when solution is built.</span></span>|  
+|<span data-ttu-id="85eca-113">ReplacePKToken.wsf</span><span class="sxs-lookup"><span data-stu-id="85eca-113">ReplacePKToken.wsf</span></span>|<span data-ttu-id="85eca-114">用於 ReplacePKToken VBScript 的 Windows 指令碼檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-114">Windows Script File for the ReplacePKToken VBScript.</span></span>|  
+|<span data-ttu-id="85eca-115">SetupBTSSoln.bat</span><span class="sxs-lookup"><span data-stu-id="85eca-115">SetupBTSSoln.bat</span></span>|<span data-ttu-id="85eca-116">建立公開金鑰、更新公開金鑰的參考，以及編譯解決方案。</span><span class="sxs-lookup"><span data-stu-id="85eca-116">Creates a public key, updates references to the public key, and compiles the solution.</span></span> <span data-ttu-id="85eca-117">如需部署解決方案的資訊，請參閱[部署服務導向解決方案](../core/deploying-the-service-oriented-solution.md)。</span><span class="sxs-lookup"><span data-stu-id="85eca-117">For information about deploying the solution, see [Deploying the Service Oriented Solution](../core/deploying-the-service-oriented-solution.md).</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\BAM  
+ <span data-ttu-id="85eca-118">中的檔案\<安裝目錄 > \BTSSoln\BAM</span><span class="sxs-lookup"><span data-stu-id="85eca-118">Files in \<Install Directory>\BTSSoln\BAM</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-119">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-119">File</span></span>|<span data-ttu-id="85eca-120">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-120">Description</span></span>|  
 |----------|-----------------|  
-|ServiceLevelTracking.xls|用於 BAM 資料的 Excel 試算表。|  
-|ServiceLevelTracking.xml|定義 BAM 資料項目類型的結構描述。|  
+|<span data-ttu-id="85eca-121">ServiceLevelTracking.xls</span><span class="sxs-lookup"><span data-stu-id="85eca-121">ServiceLevelTracking.xls</span></span>|<span data-ttu-id="85eca-122">用於 BAM 資料的 Excel 試算表。</span><span class="sxs-lookup"><span data-stu-id="85eca-122">Excel spreadsheet for the BAM data.</span></span>|  
+|<span data-ttu-id="85eca-123">ServiceLevelTracking.xml</span><span class="sxs-lookup"><span data-stu-id="85eca-123">ServiceLevelTracking.xml</span></span>|<span data-ttu-id="85eca-124">定義 BAM 資料項目類型的結構描述。</span><span class="sxs-lookup"><span data-stu-id="85eca-124">Schema defining the types of the BAM data items.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\Bindings  
+ <span data-ttu-id="85eca-125">中的檔案\<安裝目錄 > \BTSSoln\Bindings</span><span class="sxs-lookup"><span data-stu-id="85eca-125">Files in \<Install Directory>\BTSSoln\Bindings</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-126">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-126">File</span></span>|<span data-ttu-id="85eca-127">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-127">Description</span></span>|  
 |----------|-----------------|  
-|AdapterSOAOrchBindings.xml|解決方案之配接器版本的繫結檔案。|  
-|InlineSOAOrchBindings.xml|解決方案之內嵌版本的繫結檔案。|  
-|StubSOAOrchBindings.xml|解決方案之虛設常式版本的繫結檔案。|  
+|<span data-ttu-id="85eca-128">AdapterSOAOrchBindings.xml</span><span class="sxs-lookup"><span data-stu-id="85eca-128">AdapterSOAOrchBindings.xml</span></span>|<span data-ttu-id="85eca-129">解決方案之配接器版本的繫結檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-129">Binding files for the adapter version of the solution.</span></span>|  
+|<span data-ttu-id="85eca-130">InlineSOAOrchBindings.xml</span><span class="sxs-lookup"><span data-stu-id="85eca-130">InlineSOAOrchBindings.xml</span></span>|<span data-ttu-id="85eca-131">解決方案之內嵌版本的繫結檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-131">Binding files for the inline version of the solution.</span></span>|  
+|<span data-ttu-id="85eca-132">StubSOAOrchBindings.xml</span><span class="sxs-lookup"><span data-stu-id="85eca-132">StubSOAOrchBindings.xml</span></span>|<span data-ttu-id="85eca-133">解決方案之虛設常式版本的繫結檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-133">Binding files for the stub version of the solution.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\ConfigHelper  
+ <span data-ttu-id="85eca-134">中的檔案\<安裝目錄 > \BTSSoln\ConfigHelper</span><span class="sxs-lookup"><span data-stu-id="85eca-134">Files in \<Install Directory>\BTSSoln\ConfigHelper</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-135">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-135">File</span></span>|<span data-ttu-id="85eca-136">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-136">Description</span></span>|  
 |----------|-----------------|  
-|AssemblyInfo.cs|組件資訊檔。|  
-|ConfigHelper.csproj|C# 專案檔。|  
-|ConfigParameters.cs|用於 SSO 組態協助程式方法的 C# 程式碼檔案。|  
-|ConfigPropertyBag.cs|用於 SSO 組態協助程式方法所使用之屬性包的 C# 程式碼檔案。|  
+|<span data-ttu-id="85eca-137">AssemblyInfo.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-137">AssemblyInfo.cs</span></span>|<span data-ttu-id="85eca-138">組件資訊檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-138">Assembly information file.</span></span>|  
+|<span data-ttu-id="85eca-139">ConfigHelper.csproj</span><span class="sxs-lookup"><span data-stu-id="85eca-139">ConfigHelper.csproj</span></span>|<span data-ttu-id="85eca-140">C# 專案檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-140">C# project file.</span></span>|  
+|<span data-ttu-id="85eca-141">ConfigParameters.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-141">ConfigParameters.cs</span></span>|<span data-ttu-id="85eca-142">用於 SSO 組態協助程式方法的 C# 程式碼檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-142">C# code file for the SSO configuration helper methods.</span></span>|  
+|<span data-ttu-id="85eca-143">ConfigPropertyBag.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-143">ConfigPropertyBag.cs</span></span>|<span data-ttu-id="85eca-144">用於 SSO 組態協助程式方法所使用之屬性包的 C# 程式碼檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-144">C# code file for the property bag used by the SSO configuration helper methods.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\ErrorHelper  
+ <span data-ttu-id="85eca-145">中的檔案\<安裝目錄 > \BTSSoln\ErrorHelper</span><span class="sxs-lookup"><span data-stu-id="85eca-145">Files in \<Install Directory>\BTSSoln\ErrorHelper</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-146">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-146">File</span></span>|<span data-ttu-id="85eca-147">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-147">Description</span></span>|  
 |----------|-----------------|  
-|CustomerServiceErrors.cs|用於客戶服務錯誤的 C# 程式碼檔案。|  
-|ErrorHelper.csproj|C# 專案檔。|  
+|<span data-ttu-id="85eca-148">CustomerServiceErrors.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-148">CustomerServiceErrors.cs</span></span>|<span data-ttu-id="85eca-149">用於客戶服務錯誤的 C# 程式碼檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-149">C# code file for the customer service errors.</span></span>|  
+|<span data-ttu-id="85eca-150">ErrorHelper.csproj</span><span class="sxs-lookup"><span data-stu-id="85eca-150">ErrorHelper.csproj</span></span>|<span data-ttu-id="85eca-151">C# 專案檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-151">C# project file.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\InPipeline  
+ <span data-ttu-id="85eca-152">中的檔案\<安裝目錄 > \BTSSoln\InPipeline</span><span class="sxs-lookup"><span data-stu-id="85eca-152">Files in \<Install Directory>\BTSSoln\InPipeline</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-153">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-153">File</span></span>|<span data-ttu-id="85eca-154">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-154">Description</span></span>|  
 |----------|-----------------|  
-|InPipeline.btp|將 SSO 票證新增至訊息的接收管線。|  
-|InPipeline.btproj|BizTalk 專案檔。|  
+|<span data-ttu-id="85eca-155">InPipeline.btp</span><span class="sxs-lookup"><span data-stu-id="85eca-155">InPipeline.btp</span></span>|<span data-ttu-id="85eca-156">將 SSO 票證新增至訊息的接收管線。</span><span class="sxs-lookup"><span data-stu-id="85eca-156">Receive pipeline that adds an SSO ticket to the message.</span></span>|  
+|<span data-ttu-id="85eca-157">InPipeline.btproj</span><span class="sxs-lookup"><span data-stu-id="85eca-157">InPipeline.btproj</span></span>|<span data-ttu-id="85eca-158">BizTalk 專案檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-158">BizTalk project file.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\InPipelineComp  
+ <span data-ttu-id="85eca-159">中的檔案\<安裝目錄 > \BTSSoln\InPipelineComp</span><span class="sxs-lookup"><span data-stu-id="85eca-159">Files in \<Install Directory>\BTSSoln\InPipelineComp</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-160">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-160">File</span></span>|<span data-ttu-id="85eca-161">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-161">Description</span></span>|  
 |----------|-----------------|  
-|AssemblyInfo.cs|組件資訊檔。|  
-|InPipelineComp.csproj|C# 專案檔。|  
-|SSOTicketIssuer.cs|用於發行 SSO 票證之管線元件的 C# 程式碼檔案。|  
-|SSOTicketIssuer.resx|資源檔。|  
-|SSOTicketIssuerIcon.bmp|用於管線元件的圖示檔案。|  
+|<span data-ttu-id="85eca-162">AssemblyInfo.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-162">AssemblyInfo.cs</span></span>|<span data-ttu-id="85eca-163">組件資訊檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-163">Assembly information file.</span></span>|  
+|<span data-ttu-id="85eca-164">InPipelineComp.csproj</span><span class="sxs-lookup"><span data-stu-id="85eca-164">InPipelineComp.csproj</span></span>|<span data-ttu-id="85eca-165">C# 專案檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-165">C# project file.</span></span>|  
+|<span data-ttu-id="85eca-166">SSOTicketIssuer.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-166">SSOTicketIssuer.cs</span></span>|<span data-ttu-id="85eca-167">用於發行 SSO 票證之管線元件的 C# 程式碼檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-167">C# code file for the pipeline component that issues SSO tickets.</span></span>|  
+|<span data-ttu-id="85eca-168">SSOTicketIssuer.resx</span><span class="sxs-lookup"><span data-stu-id="85eca-168">SSOTicketIssuer.resx</span></span>|<span data-ttu-id="85eca-169">資源檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-169">Resource file.</span></span>|  
+|<span data-ttu-id="85eca-170">SSOTicketIssuerIcon.bmp</span><span class="sxs-lookup"><span data-stu-id="85eca-170">SSOTicketIssuerIcon.bmp</span></span>|<span data-ttu-id="85eca-171">用於管線元件的圖示檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-171">Icon file for pipeline component.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\Maps  
+ <span data-ttu-id="85eca-172">中的檔案\<安裝目錄 > \BTSSoln\Maps</span><span class="sxs-lookup"><span data-stu-id="85eca-172">Files in \<Install Directory>\BTSSoln\Maps</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-173">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-173">File</span></span>|<span data-ttu-id="85eca-174">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-174">Description</span></span>|  
 |----------|-----------------|  
-|Aggregate_To_CustomerServiceResponse.btm|用來將這三個來自後端系統的回應之彙總轉換為單一回應訊息的對應。|  
-|Aggregate_To_ErrorResponse.btm|在錯誤發生時，用來將這三個回應的彙總轉換為單一錯誤回應的對應。|  
-|CustomerServiceRequest_To_CreditLimiRequest.btm|用來將客戶服務要求轉換為訊息以要求信用限制的對應。|  
-|CustomerServiceRequest_To_CreditLimitResponse.btm|用來將客戶服務要求轉換為訊息，以信用限制來回應的對應。|  
-|CustomerServiceRequest_To_CustomerServiceResponseDenied.btm|用來將客戶服務要求轉換為拒絕要求訊息的對應。|  
-|CustomerServiceRequest_To_LastPaymentRequest.btm|用來將客戶服務要求轉換為訊息，以要求上次付款資訊的對應。|  
-|CustomerServiceRequest_To_LastPaymentResponseTimeout.btm|用來將客戶服務要求轉換為上次付款回應訊息的對應。|  
-|CustomerServiceRequest_To_PendingTransactionResponse.btm|用來將客戶服務要求轉換為擱置交易回應訊息的對應。|  
-|CustomerServiceRequest_To_PendingTransactionsRequest.btm|用來將客戶服務要求轉換為訊息，以要求擱置交易資訊的對應。|  
-|Maps.btproj|BizTalk 專案檔。|  
+|<span data-ttu-id="85eca-175">Aggregate_To_CustomerServiceResponse.btm</span><span class="sxs-lookup"><span data-stu-id="85eca-175">Aggregate_To_CustomerServiceResponse.btm</span></span>|<span data-ttu-id="85eca-176">用來將這三個來自後端系統的回應之彙總轉換為單一回應訊息的對應。</span><span class="sxs-lookup"><span data-stu-id="85eca-176">Map to convert the aggregation of the three responses from the back-end systems into a single response message.</span></span>|  
+|<span data-ttu-id="85eca-177">Aggregate_To_ErrorResponse.btm</span><span class="sxs-lookup"><span data-stu-id="85eca-177">Aggregate_To_ErrorResponse.btm</span></span>|<span data-ttu-id="85eca-178">在錯誤發生時，用來將這三個回應的彙總轉換為單一錯誤回應的對應。</span><span class="sxs-lookup"><span data-stu-id="85eca-178">Map to convert aggregation of the three responses into a single error response when an error occurs.</span></span>|  
+|<span data-ttu-id="85eca-179">CustomerServiceRequest_To_CreditLimiRequest.btm</span><span class="sxs-lookup"><span data-stu-id="85eca-179">CustomerServiceRequest_To_CreditLimiRequest.btm</span></span>|<span data-ttu-id="85eca-180">用來將客戶服務要求轉換為訊息以要求信用限制的對應。</span><span class="sxs-lookup"><span data-stu-id="85eca-180">Map to convert customer service request to a message to request the credit limit.</span></span>|  
+|<span data-ttu-id="85eca-181">CustomerServiceRequest_To_CreditLimitResponse.btm</span><span class="sxs-lookup"><span data-stu-id="85eca-181">CustomerServiceRequest_To_CreditLimitResponse.btm</span></span>|<span data-ttu-id="85eca-182">用來將客戶服務要求轉換為訊息，以信用限制來回應的對應。</span><span class="sxs-lookup"><span data-stu-id="85eca-182">Map to convert customer service request to a message to respond with the credit limit.</span></span>|  
+|<span data-ttu-id="85eca-183">CustomerServiceRequest_To_CustomerServiceResponseDenied.btm</span><span class="sxs-lookup"><span data-stu-id="85eca-183">CustomerServiceRequest_To_CustomerServiceResponseDenied.btm</span></span>|<span data-ttu-id="85eca-184">用來將客戶服務要求轉換為拒絕要求訊息的對應。</span><span class="sxs-lookup"><span data-stu-id="85eca-184">Map to convert a customer service request to a request denied message.</span></span>|  
+|<span data-ttu-id="85eca-185">CustomerServiceRequest_To_LastPaymentRequest.btm</span><span class="sxs-lookup"><span data-stu-id="85eca-185">CustomerServiceRequest_To_LastPaymentRequest.btm</span></span>|<span data-ttu-id="85eca-186">用來將客戶服務要求轉換為訊息，以要求上次付款資訊的對應。</span><span class="sxs-lookup"><span data-stu-id="85eca-186">Map to convert customer service request to a message to request the last payment information.</span></span>|  
+|<span data-ttu-id="85eca-187">CustomerServiceRequest_To_LastPaymentResponseTimeout.btm</span><span class="sxs-lookup"><span data-stu-id="85eca-187">CustomerServiceRequest_To_LastPaymentResponseTimeout.btm</span></span>|<span data-ttu-id="85eca-188">用來將客戶服務要求轉換為上次付款回應訊息的對應。</span><span class="sxs-lookup"><span data-stu-id="85eca-188">Map to convert a customer service request to a last payment response message.</span></span>|  
+|<span data-ttu-id="85eca-189">CustomerServiceRequest_To_PendingTransactionResponse.btm</span><span class="sxs-lookup"><span data-stu-id="85eca-189">CustomerServiceRequest_To_PendingTransactionResponse.btm</span></span>|<span data-ttu-id="85eca-190">用來將客戶服務要求轉換為擱置交易回應訊息的對應。</span><span class="sxs-lookup"><span data-stu-id="85eca-190">Map to convert a customer service request to a pending transaction response message.</span></span>|  
+|<span data-ttu-id="85eca-191">CustomerServiceRequest_To_PendingTransactionsRequest.btm</span><span class="sxs-lookup"><span data-stu-id="85eca-191">CustomerServiceRequest_To_PendingTransactionsRequest.btm</span></span>|<span data-ttu-id="85eca-192">用來將客戶服務要求轉換為訊息，以要求擱置交易資訊的對應。</span><span class="sxs-lookup"><span data-stu-id="85eca-192">Map to convert customer service request to a message to request the pending transaction information.</span></span>|  
+|<span data-ttu-id="85eca-193">Maps.btproj</span><span class="sxs-lookup"><span data-stu-id="85eca-193">Maps.btproj</span></span>|<span data-ttu-id="85eca-194">BizTalk 專案檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-194">BizTalk project file.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\Orchestrations\Adapter  
+ <span data-ttu-id="85eca-195">中的檔案\<安裝目錄 > \BTSSoln\Orchestrations\Adapter</span><span class="sxs-lookup"><span data-stu-id="85eca-195">Files in \<Install Directory>\BTSSoln\Orchestrations\Adapter</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-196">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-196">File</span></span>|<span data-ttu-id="85eca-197">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-197">Description</span></span>|  
 |----------|-----------------|  
-|CustomerService.odx|配接器版本**CustomerService**協調流程。|  
-|CustomerServiceNativeRequestResponse.odx|服務的前端協調流程的配接器版本**CustomerService**協調流程。|  
-|CustomerServiceReceiveSend.odx|服務的前端協調流程的配接器版本**CustomerService**協調流程。|  
-|Orchestrations.Adapter.btproj|BizTalk 專案檔。|  
+|<span data-ttu-id="85eca-198">CustomerService.odx</span><span class="sxs-lookup"><span data-stu-id="85eca-198">CustomerService.odx</span></span>|<span data-ttu-id="85eca-199">配接器版本**CustomerService**協調流程。</span><span class="sxs-lookup"><span data-stu-id="85eca-199">Adapter version of the **CustomerService** orchestration.</span></span>|  
+|<span data-ttu-id="85eca-200">CustomerServiceNativeRequestResponse.odx</span><span class="sxs-lookup"><span data-stu-id="85eca-200">CustomerServiceNativeRequestResponse.odx</span></span>|<span data-ttu-id="85eca-201">服務的前端協調流程的配接器版本**CustomerService**協調流程。</span><span class="sxs-lookup"><span data-stu-id="85eca-201">Adapter version of orchestration serving as front-end to the **CustomerService** orchestration.</span></span>|  
+|<span data-ttu-id="85eca-202">CustomerServiceReceiveSend.odx</span><span class="sxs-lookup"><span data-stu-id="85eca-202">CustomerServiceReceiveSend.odx</span></span>|<span data-ttu-id="85eca-203">服務的前端協調流程的配接器版本**CustomerService**協調流程。</span><span class="sxs-lookup"><span data-stu-id="85eca-203">Adapter version of orchestration serving as front-end to the **CustomerService** orchestration.</span></span>|  
+|<span data-ttu-id="85eca-204">Orchestrations.Adapter.btproj</span><span class="sxs-lookup"><span data-stu-id="85eca-204">Orchestrations.Adapter.btproj</span></span>|<span data-ttu-id="85eca-205">BizTalk 專案檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-205">BizTalk project file.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\Orchestrations\Adapter\Web References\PendTransWS  
+ <span data-ttu-id="85eca-206">中的檔案\<安裝目錄 > \BTSSoln\Orchestrations\Adapter\Web References\PendTransWS</span><span class="sxs-lookup"><span data-stu-id="85eca-206">Files in \<Install Directory>\BTSSoln\Orchestrations\Adapter\Web References\PendTransWS</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-207">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-207">File</span></span>|<span data-ttu-id="85eca-208">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-208">Description</span></span>|  
 |----------|-----------------|  
-|PendTransWS.disco|產生的檔案。|  
-|PendTransWS.wsdl|產生的檔案。|  
-|Reference.map|產生的檔案。|  
-|Reference.map.cs|產生的檔案|  
-|Reference.odx|產生的檔案。|  
-|Reference.xsd|產生的檔案。|  
-|Reference1.xsd|產生的檔案。|  
+|<span data-ttu-id="85eca-209">PendTransWS.disco</span><span class="sxs-lookup"><span data-stu-id="85eca-209">PendTransWS.disco</span></span>|<span data-ttu-id="85eca-210">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-210">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-211">PendTransWS.wsdl</span><span class="sxs-lookup"><span data-stu-id="85eca-211">PendTransWS.wsdl</span></span>|<span data-ttu-id="85eca-212">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-212">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-213">Reference.map</span><span class="sxs-lookup"><span data-stu-id="85eca-213">Reference.map</span></span>|<span data-ttu-id="85eca-214">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-214">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-215">Reference.map.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-215">Reference.map.cs</span></span>|<span data-ttu-id="85eca-216">產生的檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-216">Generated file</span></span>|  
+|<span data-ttu-id="85eca-217">Reference.odx</span><span class="sxs-lookup"><span data-stu-id="85eca-217">Reference.odx</span></span>|<span data-ttu-id="85eca-218">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-218">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-219">Reference.xsd</span><span class="sxs-lookup"><span data-stu-id="85eca-219">Reference.xsd</span></span>|<span data-ttu-id="85eca-220">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-220">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-221">Reference1.xsd</span><span class="sxs-lookup"><span data-stu-id="85eca-221">Reference1.xsd</span></span>|<span data-ttu-id="85eca-222">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-222">Generated file.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\Orchestrations\Adapter\Web References\StubSAPWS  
+ <span data-ttu-id="85eca-223">中的檔案\<安裝目錄 > \BTSSoln\Orchestrations\Adapter\Web References\StubSAPWS</span><span class="sxs-lookup"><span data-stu-id="85eca-223">Files in \<Install Directory>\BTSSoln\Orchestrations\Adapter\Web References\StubSAPWS</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-224">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-224">File</span></span>|<span data-ttu-id="85eca-225">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-225">Description</span></span>|  
 |----------|-----------------|  
-|Reference.map|產生的檔案。|  
-|Reference.map.cs|產生的檔案。|  
-|Reference.odx|產生的檔案。|  
-|Reference.xsd|產生的檔案。|  
-|StubSAPWS.disco|產生的檔案。|  
-|StubSAPWS.wsdl|產生的檔案。|  
+|<span data-ttu-id="85eca-226">Reference.map</span><span class="sxs-lookup"><span data-stu-id="85eca-226">Reference.map</span></span>|<span data-ttu-id="85eca-227">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-227">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-228">Reference.map.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-228">Reference.map.cs</span></span>|<span data-ttu-id="85eca-229">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-229">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-230">Reference.odx</span><span class="sxs-lookup"><span data-stu-id="85eca-230">Reference.odx</span></span>|<span data-ttu-id="85eca-231">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-231">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-232">Reference.xsd</span><span class="sxs-lookup"><span data-stu-id="85eca-232">Reference.xsd</span></span>|<span data-ttu-id="85eca-233">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-233">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-234">StubSAPWS.disco</span><span class="sxs-lookup"><span data-stu-id="85eca-234">StubSAPWS.disco</span></span>|<span data-ttu-id="85eca-235">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-235">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-236">StubSAPWS.wsdl</span><span class="sxs-lookup"><span data-stu-id="85eca-236">StubSAPWS.wsdl</span></span>|<span data-ttu-id="85eca-237">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-237">Generated file.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\Orchestrations\Inline  
+ <span data-ttu-id="85eca-238">中的檔案\<安裝目錄 > \BTSSoln\Orchestrations\Inline</span><span class="sxs-lookup"><span data-stu-id="85eca-238">Files in \<Install Directory>\BTSSoln\Orchestrations\Inline</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-239">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-239">File</span></span>|<span data-ttu-id="85eca-240">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-240">Description</span></span>|  
 |----------|-----------------|  
-|CustomerService.odx|內嵌版本**CustomerService**協調流程。|  
-|CustomerServiceNativeRequestResponse.odx|服務的前端協調流程的內嵌版本**CustomerService**協調流程。|  
-|CustomerServiceReceiveSend.odx|服務的前端協調流程的內嵌版本**CustomerService**協調流程。|  
-|Orchestrations.Inline.btproj|BizTalk 專案檔。|  
+|<span data-ttu-id="85eca-241">CustomerService.odx</span><span class="sxs-lookup"><span data-stu-id="85eca-241">CustomerService.odx</span></span>|<span data-ttu-id="85eca-242">內嵌版本**CustomerService**協調流程。</span><span class="sxs-lookup"><span data-stu-id="85eca-242">Inline version of the **CustomerService** orchestration.</span></span>|  
+|<span data-ttu-id="85eca-243">CustomerServiceNativeRequestResponse.odx</span><span class="sxs-lookup"><span data-stu-id="85eca-243">CustomerServiceNativeRequestResponse.odx</span></span>|<span data-ttu-id="85eca-244">服務的前端協調流程的內嵌版本**CustomerService**協調流程。</span><span class="sxs-lookup"><span data-stu-id="85eca-244">Inline version of orchestration serving as front-end to the **CustomerService** orchestration.</span></span>|  
+|<span data-ttu-id="85eca-245">CustomerServiceReceiveSend.odx</span><span class="sxs-lookup"><span data-stu-id="85eca-245">CustomerServiceReceiveSend.odx</span></span>|<span data-ttu-id="85eca-246">服務的前端協調流程的內嵌版本**CustomerService**協調流程。</span><span class="sxs-lookup"><span data-stu-id="85eca-246">Inline version of orchestration serving as front-end to the **CustomerService** orchestration.</span></span>|  
+|<span data-ttu-id="85eca-247">Orchestrations.Inline.btproj</span><span class="sxs-lookup"><span data-stu-id="85eca-247">Orchestrations.Inline.btproj</span></span>|<span data-ttu-id="85eca-248">BizTalk 專案檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-248">BizTalk project file.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\Orchestrations\Stub  
+ <span data-ttu-id="85eca-249">中的檔案\<安裝目錄 > \BTSSoln\Orchestrations\Stub</span><span class="sxs-lookup"><span data-stu-id="85eca-249">Files in \<Install Directory>\BTSSoln\Orchestrations\Stub</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-250">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-250">File</span></span>|<span data-ttu-id="85eca-251">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-251">Description</span></span>|  
 |----------|-----------------|  
-|CustomerService.odx|虛設常式版本**CustomerService**協調流程。|  
-|CustomerServiceNativeRequestResponse.odx|服務的前端協調流程的虛設常式版本**CustomerService**協調流程。|  
-|Orchestrations.Stub.btproj|BizTalk 專案檔。|  
+|<span data-ttu-id="85eca-252">CustomerService.odx</span><span class="sxs-lookup"><span data-stu-id="85eca-252">CustomerService.odx</span></span>|<span data-ttu-id="85eca-253">虛設常式版本**CustomerService**協調流程。</span><span class="sxs-lookup"><span data-stu-id="85eca-253">Stub version of the **CustomerService** orchestration.</span></span>|  
+|<span data-ttu-id="85eca-254">CustomerServiceNativeRequestResponse.odx</span><span class="sxs-lookup"><span data-stu-id="85eca-254">CustomerServiceNativeRequestResponse.odx</span></span>|<span data-ttu-id="85eca-255">服務的前端協調流程的虛設常式版本**CustomerService**協調流程。</span><span class="sxs-lookup"><span data-stu-id="85eca-255">Stub version of orchestration serving as front-end to the **CustomerService** orchestration.</span></span>|  
+|<span data-ttu-id="85eca-256">Orchestrations.Stub.btproj</span><span class="sxs-lookup"><span data-stu-id="85eca-256">Orchestrations.Stub.btproj</span></span>|<span data-ttu-id="85eca-257">BizTalk 專案檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-257">BizTalk project file.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\Orchestrations\Stub\Web References\StubPendTransWS  
+ <span data-ttu-id="85eca-258">中的檔案\<安裝目錄 > \BTSSoln\Orchestrations\Stub\Web References\StubPendTransWS</span><span class="sxs-lookup"><span data-stu-id="85eca-258">Files in \<Install Directory>\BTSSoln\Orchestrations\Stub\Web References\StubPendTransWS</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-259">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-259">File</span></span>|<span data-ttu-id="85eca-260">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-260">Description</span></span>|  
 |----------|-----------------|  
-|Reference.map|產生的檔案。|  
-|Reference.map.cs|產生的檔案。|  
-|Reference.odx|產生的檔案。|  
-|Reference.xsd|產生的檔案。|  
-|Reference1.xsd|產生的檔案。|  
-|StubPendTransWS.disco|產生的檔案。|  
-|StubPendTransWS.wsdl|產生的檔案。|  
+|<span data-ttu-id="85eca-261">Reference.map</span><span class="sxs-lookup"><span data-stu-id="85eca-261">Reference.map</span></span>|<span data-ttu-id="85eca-262">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-262">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-263">Reference.map.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-263">Reference.map.cs</span></span>|<span data-ttu-id="85eca-264">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-264">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-265">Reference.odx</span><span class="sxs-lookup"><span data-stu-id="85eca-265">Reference.odx</span></span>|<span data-ttu-id="85eca-266">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-266">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-267">Reference.xsd</span><span class="sxs-lookup"><span data-stu-id="85eca-267">Reference.xsd</span></span>|<span data-ttu-id="85eca-268">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-268">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-269">Reference1.xsd</span><span class="sxs-lookup"><span data-stu-id="85eca-269">Reference1.xsd</span></span>|<span data-ttu-id="85eca-270">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-270">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-271">StubPendTransWS.disco</span><span class="sxs-lookup"><span data-stu-id="85eca-271">StubPendTransWS.disco</span></span>|<span data-ttu-id="85eca-272">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-272">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-273">StubPendTransWS.wsdl</span><span class="sxs-lookup"><span data-stu-id="85eca-273">StubPendTransWS.wsdl</span></span>|<span data-ttu-id="85eca-274">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-274">Generated file.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\Orchestrations\Stub\Web References\StubPmntTrckWS  
+ <span data-ttu-id="85eca-275">中的檔案\<安裝目錄 > \BTSSoln\Orchestrations\Stub\Web References\StubPmntTrckWS</span><span class="sxs-lookup"><span data-stu-id="85eca-275">Files in \<Install Directory>\BTSSoln\Orchestrations\Stub\Web References\StubPmntTrckWS</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-276">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-276">File</span></span>|<span data-ttu-id="85eca-277">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-277">Description</span></span>|  
 |----------|-----------------|  
-|Reference.map|產生的檔案。|  
-|Reference.map.cs|產生的檔案。|  
-|Reference.odx|產生的檔案。|  
-|Reference.xsd|產生的檔案。|  
-|Reference1.xsd|產生的檔案。|  
-|StubPmntTrckWS.disco|產生的檔案。|  
-|StubPmntTrckWS.wsdl|產生的檔案。|  
+|<span data-ttu-id="85eca-278">Reference.map</span><span class="sxs-lookup"><span data-stu-id="85eca-278">Reference.map</span></span>|<span data-ttu-id="85eca-279">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-279">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-280">Reference.map.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-280">Reference.map.cs</span></span>|<span data-ttu-id="85eca-281">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-281">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-282">Reference.odx</span><span class="sxs-lookup"><span data-stu-id="85eca-282">Reference.odx</span></span>|<span data-ttu-id="85eca-283">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-283">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-284">Reference.xsd</span><span class="sxs-lookup"><span data-stu-id="85eca-284">Reference.xsd</span></span>|<span data-ttu-id="85eca-285">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-285">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-286">Reference1.xsd</span><span class="sxs-lookup"><span data-stu-id="85eca-286">Reference1.xsd</span></span>|<span data-ttu-id="85eca-287">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-287">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-288">StubPmntTrckWS.disco</span><span class="sxs-lookup"><span data-stu-id="85eca-288">StubPmntTrckWS.disco</span></span>|<span data-ttu-id="85eca-289">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-289">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-290">StubPmntTrckWS.wsdl</span><span class="sxs-lookup"><span data-stu-id="85eca-290">StubPmntTrckWS.wsdl</span></span>|<span data-ttu-id="85eca-291">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-291">Generated file.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\Orchestrations\Stub\Web References\StubSAPWS  
+ <span data-ttu-id="85eca-292">中的檔案\<安裝目錄 > \BTSSoln\Orchestrations\Stub\Web References\StubSAPWS</span><span class="sxs-lookup"><span data-stu-id="85eca-292">Files in \<Install Directory>\BTSSoln\Orchestrations\Stub\Web References\StubSAPWS</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-293">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-293">File</span></span>|<span data-ttu-id="85eca-294">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-294">Description</span></span>|  
 |----------|-----------------|  
-|Reference.map|產生的檔案。|  
-|Reference.map.cs|產生的檔案。|  
-|Reference.odx|產生的檔案。|  
-|Reference.xsd|產生的檔案。|  
-|StubSAPWS.disco|產生的檔案。|  
-|StubSAPWS.wsdl|產生的檔案。|  
+|<span data-ttu-id="85eca-295">Reference.map</span><span class="sxs-lookup"><span data-stu-id="85eca-295">Reference.map</span></span>|<span data-ttu-id="85eca-296">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-296">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-297">Reference.map.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-297">Reference.map.cs</span></span>|<span data-ttu-id="85eca-298">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-298">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-299">Reference.odx</span><span class="sxs-lookup"><span data-stu-id="85eca-299">Reference.odx</span></span>|<span data-ttu-id="85eca-300">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-300">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-301">Reference.xsd</span><span class="sxs-lookup"><span data-stu-id="85eca-301">Reference.xsd</span></span>|<span data-ttu-id="85eca-302">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-302">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-303">StubSAPWS.disco</span><span class="sxs-lookup"><span data-stu-id="85eca-303">StubSAPWS.disco</span></span>|<span data-ttu-id="85eca-304">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-304">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-305">StubSAPWS.wsdl</span><span class="sxs-lookup"><span data-stu-id="85eca-305">StubSAPWS.wsdl</span></span>|<span data-ttu-id="85eca-306">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-306">Generated file.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\OrchProxy\Adapter  
+ <span data-ttu-id="85eca-307">中的檔案\<安裝目錄 > \BTSSoln\OrchProxy\Adapter</span><span class="sxs-lookup"><span data-stu-id="85eca-307">Files in \<Install Directory>\BTSSoln\OrchProxy\Adapter</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-308">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-308">File</span></span>|<span data-ttu-id="85eca-309">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-309">Description</span></span>|  
 |----------|-----------------|  
-|CustomerServicePort.asmx|產生的檔案。|  
-|Global.asax|產生的檔案。|  
-|Global.asax.resx|產生的檔案。|  
-|OrchProxy.Adapter.csproj.webinfo|產生的檔案。|  
-|TraceExtension.cs|產生的檔案。|  
-|Web.config|產生的檔案。|  
-|WsdlExtension.cs|產生的檔案。|  
+|<span data-ttu-id="85eca-310">CustomerServicePort.asmx</span><span class="sxs-lookup"><span data-stu-id="85eca-310">CustomerServicePort.asmx</span></span>|<span data-ttu-id="85eca-311">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-311">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-312">Global.asax</span><span class="sxs-lookup"><span data-stu-id="85eca-312">Global.asax</span></span>|<span data-ttu-id="85eca-313">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-313">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-314">Global.asax.resx</span><span class="sxs-lookup"><span data-stu-id="85eca-314">Global.asax.resx</span></span>|<span data-ttu-id="85eca-315">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-315">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-316">OrchProxy.Adapter.csproj.webinfo</span><span class="sxs-lookup"><span data-stu-id="85eca-316">OrchProxy.Adapter.csproj.webinfo</span></span>|<span data-ttu-id="85eca-317">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-317">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-318">TraceExtension.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-318">TraceExtension.cs</span></span>|<span data-ttu-id="85eca-319">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-319">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-320">Web.config</span><span class="sxs-lookup"><span data-stu-id="85eca-320">Web.config</span></span>|<span data-ttu-id="85eca-321">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-321">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-322">WsdlExtension.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-322">WsdlExtension.cs</span></span>|<span data-ttu-id="85eca-323">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-323">Generated file.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\OrchProxy\Adapter\app_code  
+ <span data-ttu-id="85eca-324">中的檔案\<安裝目錄 > \BTSSoln\OrchProxy\Adapter\app_code</span><span class="sxs-lookup"><span data-stu-id="85eca-324">Files in \<Install Directory>\BTSSoln\OrchProxy\Adapter\app_code</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-325">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-325">File</span></span>|<span data-ttu-id="85eca-326">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-326">Description</span></span>|  
 |----------|-----------------|  
-|assemblyinfo.cs|產生的檔案。|  
-|customerserviceport.asmx.cs|產生的檔案。|  
-|datatypes.cs|產生的檔案。|  
-|global.asax.cs|產生的檔案。|  
+|<span data-ttu-id="85eca-327">assemblyinfo.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-327">assemblyinfo.cs</span></span>|<span data-ttu-id="85eca-328">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-328">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-329">customerserviceport.asmx.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-329">customerserviceport.asmx.cs</span></span>|<span data-ttu-id="85eca-330">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-330">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-331">datatypes.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-331">datatypes.cs</span></span>|<span data-ttu-id="85eca-332">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-332">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-333">global.asax.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-333">global.asax.cs</span></span>|<span data-ttu-id="85eca-334">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-334">Generated file.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\OrchProxy\Inline  
+ <span data-ttu-id="85eca-335">中的檔案\<安裝目錄 > \BTSSoln\OrchProxy\Inline</span><span class="sxs-lookup"><span data-stu-id="85eca-335">Files in \<Install Directory>\BTSSoln\OrchProxy\Inline</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-336">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-336">File</span></span>|<span data-ttu-id="85eca-337">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-337">Description</span></span>|  
 |----------|-----------------|  
-|CustomerServicePort.asmx|產生的檔案。|  
-|Global.asax|產生的檔案。|  
-|Global.asax.resx|產生的檔案。|  
-|OrchProxy.Inline.csproj.webinfo|產生的檔案。|  
-|TraceExtension.cs|產生的檔案。|  
-|Web.config|產生的檔案。|  
-|WsdlExtension.cs|產生的檔案。|  
+|<span data-ttu-id="85eca-338">CustomerServicePort.asmx</span><span class="sxs-lookup"><span data-stu-id="85eca-338">CustomerServicePort.asmx</span></span>|<span data-ttu-id="85eca-339">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-339">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-340">Global.asax</span><span class="sxs-lookup"><span data-stu-id="85eca-340">Global.asax</span></span>|<span data-ttu-id="85eca-341">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-341">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-342">Global.asax.resx</span><span class="sxs-lookup"><span data-stu-id="85eca-342">Global.asax.resx</span></span>|<span data-ttu-id="85eca-343">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-343">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-344">OrchProxy.Inline.csproj.webinfo</span><span class="sxs-lookup"><span data-stu-id="85eca-344">OrchProxy.Inline.csproj.webinfo</span></span>|<span data-ttu-id="85eca-345">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-345">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-346">TraceExtension.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-346">TraceExtension.cs</span></span>|<span data-ttu-id="85eca-347">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-347">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-348">Web.config</span><span class="sxs-lookup"><span data-stu-id="85eca-348">Web.config</span></span>|<span data-ttu-id="85eca-349">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-349">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-350">WsdlExtension.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-350">WsdlExtension.cs</span></span>|<span data-ttu-id="85eca-351">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-351">Generated file.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\OrchProxy\Inline\app_code  
+ <span data-ttu-id="85eca-352">中的檔案\<安裝目錄 > \BTSSoln\OrchProxy\Inline\app_code</span><span class="sxs-lookup"><span data-stu-id="85eca-352">Files in \<Install Directory>\BTSSoln\OrchProxy\Inline\app_code</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-353">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-353">File</span></span>|<span data-ttu-id="85eca-354">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-354">Description</span></span>|  
 |----------|-----------------|  
-|assemblyinfo.cs|產生的檔案。|  
-|customerserviceport.asmx.cs|產生的檔案。|  
-|datatypes.cs|產生的檔案。|  
-|global.asax.cs|產生的檔案。|  
+|<span data-ttu-id="85eca-355">assemblyinfo.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-355">assemblyinfo.cs</span></span>|<span data-ttu-id="85eca-356">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-356">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-357">customerserviceport.asmx.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-357">customerserviceport.asmx.cs</span></span>|<span data-ttu-id="85eca-358">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-358">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-359">datatypes.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-359">datatypes.cs</span></span>|<span data-ttu-id="85eca-360">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-360">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-361">global.asax.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-361">global.asax.cs</span></span>|<span data-ttu-id="85eca-362">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-362">Generated file.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\OrchProxy\Stub  
+ <span data-ttu-id="85eca-363">中的檔案\<安裝目錄 > \BTSSoln\OrchProxy\Stub</span><span class="sxs-lookup"><span data-stu-id="85eca-363">Files in \<Install Directory>\BTSSoln\OrchProxy\Stub</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-364">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-364">File</span></span>|<span data-ttu-id="85eca-365">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-365">Description</span></span>|  
 |----------|-----------------|  
-|CustomerServicePort.asmx|產生的檔案。|  
-|Global.asax|產生的檔案。|  
-|Global.asax.resx|產生的檔案。|  
-|OrchProxy.Stub.csproj.webinfo|產生的檔案。|  
-|TraceExtension.cs|產生的檔案。|  
-|Web.config|產生的檔案。|  
-|WsdlExtension.cs|產生的檔案。|  
+|<span data-ttu-id="85eca-366">CustomerServicePort.asmx</span><span class="sxs-lookup"><span data-stu-id="85eca-366">CustomerServicePort.asmx</span></span>|<span data-ttu-id="85eca-367">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-367">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-368">Global.asax</span><span class="sxs-lookup"><span data-stu-id="85eca-368">Global.asax</span></span>|<span data-ttu-id="85eca-369">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-369">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-370">Global.asax.resx</span><span class="sxs-lookup"><span data-stu-id="85eca-370">Global.asax.resx</span></span>|<span data-ttu-id="85eca-371">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-371">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-372">OrchProxy.Stub.csproj.webinfo</span><span class="sxs-lookup"><span data-stu-id="85eca-372">OrchProxy.Stub.csproj.webinfo</span></span>|<span data-ttu-id="85eca-373">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-373">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-374">TraceExtension.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-374">TraceExtension.cs</span></span>|<span data-ttu-id="85eca-375">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-375">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-376">Web.config</span><span class="sxs-lookup"><span data-stu-id="85eca-376">Web.config</span></span>|<span data-ttu-id="85eca-377">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-377">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-378">WsdlExtension.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-378">WsdlExtension.cs</span></span>|<span data-ttu-id="85eca-379">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-379">Generated file.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\OrchProxy\Stub\app_code  
+ <span data-ttu-id="85eca-380">中的檔案\<安裝目錄 > \BTSSoln\OrchProxy\Stub\app_code</span><span class="sxs-lookup"><span data-stu-id="85eca-380">Files in \<Install Directory>\BTSSoln\OrchProxy\Stub\app_code</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-381">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-381">File</span></span>|<span data-ttu-id="85eca-382">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-382">Description</span></span>|  
 |----------|-----------------|  
-|assemblyinfo.cs|產生的檔案。|  
-|customerserviceport.asmx.cs|產生的檔案。|  
-|datatypes.cs|產生的檔案。|  
-|global.asax.cs|產生的檔案。|  
+|<span data-ttu-id="85eca-383">assemblyinfo.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-383">assemblyinfo.cs</span></span>|<span data-ttu-id="85eca-384">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-384">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-385">customerserviceport.asmx.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-385">customerserviceport.asmx.cs</span></span>|<span data-ttu-id="85eca-386">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-386">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-387">datatypes.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-387">datatypes.cs</span></span>|<span data-ttu-id="85eca-388">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-388">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-389">global.asax.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-389">global.asax.cs</span></span>|<span data-ttu-id="85eca-390">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-390">Generated file.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\PaymentTracker  
+ <span data-ttu-id="85eca-391">中的檔案\<安裝目錄 > \BTSSoln\PaymentTracker</span><span class="sxs-lookup"><span data-stu-id="85eca-391">Files in \<Install Directory>\BTSSoln\PaymentTracker</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-392">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-392">File</span></span>|<span data-ttu-id="85eca-393">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-393">Description</span></span>|  
 |----------|-----------------|  
-|App.ico|用於付款追蹤程式模擬器的圖示檔案。|  
-|AssemblyInfo.cs|組件資訊檔。|  
-|MessageProcessor.cs|用於處理付款追蹤程式訊息並傳回適當回應之類別的 C# 程式碼。|  
-|PaymentTracker.cs|用於模擬付款追蹤程式系統之類別的 C# 程式碼。|  
-|PaymentTracker.csproj|C# 專案檔。|  
-|PaymentTrackerSimulator.cs|用於付款追蹤程式模擬器之伺服器的 C# 程式碼。|  
-|runit.cmd|可啟動付款追蹤程式模擬器的命令檔。|  
+|<span data-ttu-id="85eca-394">App.ico</span><span class="sxs-lookup"><span data-stu-id="85eca-394">App.ico</span></span>|<span data-ttu-id="85eca-395">用於付款追蹤程式模擬器的圖示檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-395">Icon file for the payment tracker simulator.</span></span>|  
+|<span data-ttu-id="85eca-396">AssemblyInfo.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-396">AssemblyInfo.cs</span></span>|<span data-ttu-id="85eca-397">組件資訊檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-397">Assembly information file.</span></span>|  
+|<span data-ttu-id="85eca-398">MessageProcessor.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-398">MessageProcessor.cs</span></span>|<span data-ttu-id="85eca-399">用於處理付款追蹤程式訊息並傳回適當回應之類別的 C# 程式碼。</span><span class="sxs-lookup"><span data-stu-id="85eca-399">C# code for a class to process payment tracker messages and return appropriate responses.</span></span>|  
+|<span data-ttu-id="85eca-400">PaymentTracker.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-400">PaymentTracker.cs</span></span>|<span data-ttu-id="85eca-401">用於模擬付款追蹤程式系統之類別的 C# 程式碼。</span><span class="sxs-lookup"><span data-stu-id="85eca-401">C# code for the class simulating the payment tracker system.</span></span>|  
+|<span data-ttu-id="85eca-402">PaymentTracker.csproj</span><span class="sxs-lookup"><span data-stu-id="85eca-402">PaymentTracker.csproj</span></span>|<span data-ttu-id="85eca-403">C# 專案檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-403">C# project file.</span></span>|  
+|<span data-ttu-id="85eca-404">PaymentTrackerSimulator.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-404">PaymentTrackerSimulator.cs</span></span>|<span data-ttu-id="85eca-405">用於付款追蹤程式模擬器之伺服器的 C# 程式碼。</span><span class="sxs-lookup"><span data-stu-id="85eca-405">C# code for the server for the payment tracker simulator.</span></span>|  
+|<span data-ttu-id="85eca-406">runit.cmd</span><span class="sxs-lookup"><span data-stu-id="85eca-406">runit.cmd</span></span>|<span data-ttu-id="85eca-407">可啟動付款追蹤程式模擬器的命令檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-407">Command file to start the payment tracker simulator.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\PaymentTrackerCall  
+ <span data-ttu-id="85eca-408">中的檔案\<安裝目錄 > \BTSSoln\PaymentTrackerCall</span><span class="sxs-lookup"><span data-stu-id="85eca-408">Files in \<Install Directory>\BTSSoln\PaymentTrackerCall</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-409">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-409">File</span></span>|<span data-ttu-id="85eca-410">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-410">Description</span></span>|  
 |----------|-----------------|  
-|AssemblyInfo.cs|組件資訊檔。|  
-|Exceptions.cs|定義付款追蹤系統例外狀況的 C# 程式碼。|  
-|PaymentTrackerCall.csproj|C# 專案檔。|  
-|PaymentTrackerCaller.cs|用於從協調流程內呼叫付款追蹤系統的 C# 程式碼。|  
+|<span data-ttu-id="85eca-411">AssemblyInfo.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-411">AssemblyInfo.cs</span></span>|<span data-ttu-id="85eca-412">組件資訊檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-412">Assembly information file.</span></span>|  
+|<span data-ttu-id="85eca-413">Exceptions.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-413">Exceptions.cs</span></span>|<span data-ttu-id="85eca-414">定義付款追蹤系統例外狀況的 C# 程式碼。</span><span class="sxs-lookup"><span data-stu-id="85eca-414">C# code defining exceptions for the payment tracking system.</span></span>|  
+|<span data-ttu-id="85eca-415">PaymentTrackerCall.csproj</span><span class="sxs-lookup"><span data-stu-id="85eca-415">PaymentTrackerCall.csproj</span></span>|<span data-ttu-id="85eca-416">C# 專案檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-416">C# project file.</span></span>|  
+|<span data-ttu-id="85eca-417">PaymentTrackerCaller.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-417">PaymentTrackerCaller.cs</span></span>|<span data-ttu-id="85eca-418">用於從協調流程內呼叫付款追蹤系統的 C# 程式碼。</span><span class="sxs-lookup"><span data-stu-id="85eca-418">C# code to call the payment tracking system inline from orchestrations.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\PendTransCall  
+ <span data-ttu-id="85eca-419">中的檔案\<安裝目錄 > \BTSSoln\PendTransCall</span><span class="sxs-lookup"><span data-stu-id="85eca-419">Files in \<Install Directory>\BTSSoln\PendTransCall</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-420">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-420">File</span></span>|<span data-ttu-id="85eca-421">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-421">Description</span></span>|  
 |----------|-----------------|  
-|AssemblyInfo.cs|組件資訊檔。|  
-|Exceptions.cs|定義擱置交易系統例外狀況的 C# 程式碼。|  
-|PendingTransactionsCaller.cs|用於從協調流程內呼叫擱置交易系統的 C# 程式碼。|  
-|PendingTransactionsWebService.disco|產生的檔案。|  
-|PendingTransactionsWebService.wsdl|產生的檔案。|  
-|PendTransCall.csproj|C# 專案檔。|  
-|WebServiceReference.cs|產生的檔案。|  
+|<span data-ttu-id="85eca-422">AssemblyInfo.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-422">AssemblyInfo.cs</span></span>|<span data-ttu-id="85eca-423">組件資訊檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-423">Assembly information file.</span></span>|  
+|<span data-ttu-id="85eca-424">Exceptions.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-424">Exceptions.cs</span></span>|<span data-ttu-id="85eca-425">定義擱置交易系統例外狀況的 C# 程式碼。</span><span class="sxs-lookup"><span data-stu-id="85eca-425">C# code defining exceptions for the pending transactions system.</span></span>|  
+|<span data-ttu-id="85eca-426">PendingTransactionsCaller.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-426">PendingTransactionsCaller.cs</span></span>|<span data-ttu-id="85eca-427">用於從協調流程內呼叫擱置交易系統的 C# 程式碼。</span><span class="sxs-lookup"><span data-stu-id="85eca-427">C# code to call the pending transactions system inline from orchestrations.</span></span>|  
+|<span data-ttu-id="85eca-428">PendingTransactionsWebService.disco</span><span class="sxs-lookup"><span data-stu-id="85eca-428">PendingTransactionsWebService.disco</span></span>|<span data-ttu-id="85eca-429">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-429">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-430">PendingTransactionsWebService.wsdl</span><span class="sxs-lookup"><span data-stu-id="85eca-430">PendingTransactionsWebService.wsdl</span></span>|<span data-ttu-id="85eca-431">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-431">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-432">PendTransCall.csproj</span><span class="sxs-lookup"><span data-stu-id="85eca-432">PendTransCall.csproj</span></span>|<span data-ttu-id="85eca-433">C# 專案檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-433">C# project file.</span></span>|  
+|<span data-ttu-id="85eca-434">WebServiceReference.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-434">WebServiceReference.cs</span></span>|<span data-ttu-id="85eca-435">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-435">Generated file.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\PmTrkPipeline  
+ <span data-ttu-id="85eca-436">中的檔案\<安裝目錄 > \BTSSoln\PmTrkPipeline</span><span class="sxs-lookup"><span data-stu-id="85eca-436">Files in \<Install Directory>\BTSSoln\PmTrkPipeline</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-437">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-437">File</span></span>|<span data-ttu-id="85eca-438">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-438">Description</span></span>|  
 |----------|-----------------|  
-|PaymentTrackerReceivePipeline.btp|用於付款追蹤系統的接收管線。|  
-|PaymentTrackerSendPipeline.btp|用於付款追蹤系統的傳送管線。|  
-|PmTrkPipeline.btproj|BizTalk 專案檔。|  
+|<span data-ttu-id="85eca-439">PaymentTrackerReceivePipeline.btp</span><span class="sxs-lookup"><span data-stu-id="85eca-439">PaymentTrackerReceivePipeline.btp</span></span>|<span data-ttu-id="85eca-440">用於付款追蹤系統的接收管線。</span><span class="sxs-lookup"><span data-stu-id="85eca-440">Receive pipeline for the payment tracking system.</span></span>|  
+|<span data-ttu-id="85eca-441">PaymentTrackerSendPipeline.btp</span><span class="sxs-lookup"><span data-stu-id="85eca-441">PaymentTrackerSendPipeline.btp</span></span>|<span data-ttu-id="85eca-442">用於付款追蹤系統的傳送管線。</span><span class="sxs-lookup"><span data-stu-id="85eca-442">Send pipeline for the payment tracking system.</span></span>|  
+|<span data-ttu-id="85eca-443">PmTrkPipeline.btproj</span><span class="sxs-lookup"><span data-stu-id="85eca-443">PmTrkPipeline.btproj</span></span>|<span data-ttu-id="85eca-444">BizTalk 專案檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-444">BizTalk project file.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\PmTrkPipelineComp  
+ <span data-ttu-id="85eca-445">中的檔案\<安裝目錄 > \BTSSoln\PmTrkPipelineComp</span><span class="sxs-lookup"><span data-stu-id="85eca-445">Files in \<Install Directory>\BTSSoln\PmTrkPipelineComp</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-446">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-446">File</span></span>|<span data-ttu-id="85eca-447">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-447">Description</span></span>|  
 |----------|-----------------|  
-|AssemblyInfo.cs|組件資訊檔。|  
-|MQSeriesHeaderSetter.cs|C# 程式碼來處理前往或來自付款追蹤系統的訊息部分 MQSeries 訊息標頭設定的管線元件...|  
-|MQSeriesHeaderSetter.resx|資源檔。|  
-|PmTrkPipelineComp.csproj|C# 專案檔。|  
+|<span data-ttu-id="85eca-448">AssemblyInfo.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-448">AssemblyInfo.cs</span></span>|<span data-ttu-id="85eca-449">組件資訊檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-449">Assembly information file.</span></span>|  
+|<span data-ttu-id="85eca-450">MQSeriesHeaderSetter.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-450">MQSeriesHeaderSetter.cs</span></span>|<span data-ttu-id="85eca-451">C# 程式碼來處理前往或來自付款追蹤系統的訊息部分 MQSeries 訊息標頭設定的管線元件...</span><span class="sxs-lookup"><span data-stu-id="85eca-451">C# code for a pipeline component to handle some MQSeries message header settings for messages going to or coming from the payment tracking system..</span></span>|  
+|<span data-ttu-id="85eca-452">MQSeriesHeaderSetter.resx</span><span class="sxs-lookup"><span data-stu-id="85eca-452">MQSeriesHeaderSetter.resx</span></span>|<span data-ttu-id="85eca-453">資源檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-453">Resource file.</span></span>|  
+|<span data-ttu-id="85eca-454">PmTrkPipelineComp.csproj</span><span class="sxs-lookup"><span data-stu-id="85eca-454">PmTrkPipelineComp.csproj</span></span>|<span data-ttu-id="85eca-455">C# 專案檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-455">C# project file.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\SchemaClasses  
+ <span data-ttu-id="85eca-456">中的檔案\<安裝目錄 > \BTSSoln\SchemaClasses</span><span class="sxs-lookup"><span data-stu-id="85eca-456">Files in \<Install Directory>\BTSSoln\SchemaClasses</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-457">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-457">File</span></span>|<span data-ttu-id="85eca-458">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-458">Description</span></span>|  
 |----------|-----------------|  
-|AssemblyInfo.cs|組件資訊檔。|  
-|BAPI_BANKACCT_GET_DETAIL.cs|從對應的結構描述 (.xsd) 檔案產生。|  
-|CustomerServiceRequest.cs|從對應的結構描述 (.xsd) 檔案產生。|  
-|CustomerServiceResponse.cs|從對應的結構描述 (.xsd) 檔案產生。|  
-|LastPaymentRequest.cs|從對應的結構描述 (.xsd) 檔案產生。|  
-|LastPaymentResponse.cs|從對應的結構描述 (.xsd) 檔案產生。|  
-|PendingTransactionsRequest.cs|從對應的結構描述 (.xsd) 檔案產生。|  
-|PendingTransactionsResponse.cs|從對應的結構描述 (.xsd) 檔案產生。|  
-|SchemaClasses.csproj|C# 專案檔。|  
+|<span data-ttu-id="85eca-459">AssemblyInfo.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-459">AssemblyInfo.cs</span></span>|<span data-ttu-id="85eca-460">組件資訊檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-460">Assembly information file.</span></span>|  
+|<span data-ttu-id="85eca-461">BAPI_BANKACCT_GET_DETAIL.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-461">BAPI_BANKACCT_GET_DETAIL.cs</span></span>|<span data-ttu-id="85eca-462">從對應的結構描述 (.xsd) 檔案產生。</span><span class="sxs-lookup"><span data-stu-id="85eca-462">Generated from the corresponding schema (.xsd) file.</span></span>|  
+|<span data-ttu-id="85eca-463">CustomerServiceRequest.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-463">CustomerServiceRequest.cs</span></span>|<span data-ttu-id="85eca-464">從對應的結構描述 (.xsd) 檔案產生。</span><span class="sxs-lookup"><span data-stu-id="85eca-464">Generated from the corresponding schema (.xsd) file.</span></span>|  
+|<span data-ttu-id="85eca-465">CustomerServiceResponse.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-465">CustomerServiceResponse.cs</span></span>|<span data-ttu-id="85eca-466">從對應的結構描述 (.xsd) 檔案產生。</span><span class="sxs-lookup"><span data-stu-id="85eca-466">Generated from the corresponding schema (.xsd) file.</span></span>|  
+|<span data-ttu-id="85eca-467">LastPaymentRequest.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-467">LastPaymentRequest.cs</span></span>|<span data-ttu-id="85eca-468">從對應的結構描述 (.xsd) 檔案產生。</span><span class="sxs-lookup"><span data-stu-id="85eca-468">Generated from the corresponding schema (.xsd) file.</span></span>|  
+|<span data-ttu-id="85eca-469">LastPaymentResponse.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-469">LastPaymentResponse.cs</span></span>|<span data-ttu-id="85eca-470">從對應的結構描述 (.xsd) 檔案產生。</span><span class="sxs-lookup"><span data-stu-id="85eca-470">Generated from the corresponding schema (.xsd) file.</span></span>|  
+|<span data-ttu-id="85eca-471">PendingTransactionsRequest.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-471">PendingTransactionsRequest.cs</span></span>|<span data-ttu-id="85eca-472">從對應的結構描述 (.xsd) 檔案產生。</span><span class="sxs-lookup"><span data-stu-id="85eca-472">Generated from the corresponding schema (.xsd) file.</span></span>|  
+|<span data-ttu-id="85eca-473">PendingTransactionsResponse.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-473">PendingTransactionsResponse.cs</span></span>|<span data-ttu-id="85eca-474">從對應的結構描述 (.xsd) 檔案產生。</span><span class="sxs-lookup"><span data-stu-id="85eca-474">Generated from the corresponding schema (.xsd) file.</span></span>|  
+|<span data-ttu-id="85eca-475">SchemaClasses.csproj</span><span class="sxs-lookup"><span data-stu-id="85eca-475">SchemaClasses.csproj</span></span>|<span data-ttu-id="85eca-476">C# 專案檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-476">C# project file.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\Schemas  
+ <span data-ttu-id="85eca-477">中的檔案\<安裝目錄 > \BTSSoln\Schemas</span><span class="sxs-lookup"><span data-stu-id="85eca-477">Files in \<Install Directory>\BTSSoln\Schemas</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-478">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-478">File</span></span>|<span data-ttu-id="85eca-479">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-479">Description</span></span>|  
 |----------|-----------------|  
-|BAPI_BANKACCT_GET_DETAIL.xsd|用於 SAP 要求與回應訊息的結構描述。|  
-|CustomerServiceRequest.xsd|用於客戶服務要求訊息的結構描述。|  
-|CustomerServiceResponse.xsd|用於客戶服務回應訊息的結構描述。|  
-|genClasses.cmd|從結構描述產生 C# 類別的命令檔。|  
-|LastPaymentRequest.xsd|用於上次付款要求訊息的結構描述。|  
-|LastPaymentResponse.xsd|用於上次付款回應訊息的結構描述。|  
-|PendingTransactionsRequest.xsd|暫止的交易要求訊息的結構描述。|  
-|PendingTransactionsResponse.xsd|用於擱置交易回應訊息的結構描述。|  
-|Schemas.btproj|BizTalk 專案檔。|  
+|<span data-ttu-id="85eca-480">BAPI_BANKACCT_GET_DETAIL.xsd</span><span class="sxs-lookup"><span data-stu-id="85eca-480">BAPI_BANKACCT_GET_DETAIL.xsd</span></span>|<span data-ttu-id="85eca-481">用於 SAP 要求與回應訊息的結構描述。</span><span class="sxs-lookup"><span data-stu-id="85eca-481">Schema for the SAP request and response message.</span></span>|  
+|<span data-ttu-id="85eca-482">CustomerServiceRequest.xsd</span><span class="sxs-lookup"><span data-stu-id="85eca-482">CustomerServiceRequest.xsd</span></span>|<span data-ttu-id="85eca-483">用於客戶服務要求訊息的結構描述。</span><span class="sxs-lookup"><span data-stu-id="85eca-483">Schema for the customer service request message.</span></span>|  
+|<span data-ttu-id="85eca-484">CustomerServiceResponse.xsd</span><span class="sxs-lookup"><span data-stu-id="85eca-484">CustomerServiceResponse.xsd</span></span>|<span data-ttu-id="85eca-485">用於客戶服務回應訊息的結構描述。</span><span class="sxs-lookup"><span data-stu-id="85eca-485">Schema for the customer service response message.</span></span>|  
+|<span data-ttu-id="85eca-486">genClasses.cmd</span><span class="sxs-lookup"><span data-stu-id="85eca-486">genClasses.cmd</span></span>|<span data-ttu-id="85eca-487">從結構描述產生 C# 類別的命令檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-487">Command file to generate C# class files from schemas.</span></span>|  
+|<span data-ttu-id="85eca-488">LastPaymentRequest.xsd</span><span class="sxs-lookup"><span data-stu-id="85eca-488">LastPaymentRequest.xsd</span></span>|<span data-ttu-id="85eca-489">用於上次付款要求訊息的結構描述。</span><span class="sxs-lookup"><span data-stu-id="85eca-489">Schema for the last payment request message.</span></span>|  
+|<span data-ttu-id="85eca-490">LastPaymentResponse.xsd</span><span class="sxs-lookup"><span data-stu-id="85eca-490">LastPaymentResponse.xsd</span></span>|<span data-ttu-id="85eca-491">用於上次付款回應訊息的結構描述。</span><span class="sxs-lookup"><span data-stu-id="85eca-491">Schema for the last payment response message.</span></span>|  
+|<span data-ttu-id="85eca-492">PendingTransactionsRequest.xsd</span><span class="sxs-lookup"><span data-stu-id="85eca-492">PendingTransactionsRequest.xsd</span></span>|<span data-ttu-id="85eca-493">暫止的交易要求訊息的結構描述。</span><span class="sxs-lookup"><span data-stu-id="85eca-493">Schema for the pending transaction request message.</span></span>|  
+|<span data-ttu-id="85eca-494">PendingTransactionsResponse.xsd</span><span class="sxs-lookup"><span data-stu-id="85eca-494">PendingTransactionsResponse.xsd</span></span>|<span data-ttu-id="85eca-495">用於擱置交易回應訊息的結構描述。</span><span class="sxs-lookup"><span data-stu-id="85eca-495">Schema for the pending transaction response message.</span></span>|  
+|<span data-ttu-id="85eca-496">Schemas.btproj</span><span class="sxs-lookup"><span data-stu-id="85eca-496">Schemas.btproj</span></span>|<span data-ttu-id="85eca-497">BizTalk 專案檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-497">BizTalk project file.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\Scripts  
+ <span data-ttu-id="85eca-498">中的檔案\<安裝目錄 > \BTSSoln\Scripts</span><span class="sxs-lookup"><span data-stu-id="85eca-498">Files in \<Install Directory>\BTSSoln\Scripts</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-499">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-499">File</span></span>|<span data-ttu-id="85eca-500">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-500">Description</span></span>|  
 |----------|-----------------|  
-|ConfigStoreApp.xml|定義 SSO 組態值的 XML 檔案。|  
-|CreateInitialConfigInSSO.cmd|建立初始 SSO 組態值的命令檔。|  
-|DeployAllBinding.cmd|部署所有組件的命令檔。|  
-|DeployStubBinding.cmd|部署組件之虛設常式版本的命令檔。|  
-|PendTransAffApp.xml|定義擱置交易分支機構應用程式之值的 XML 檔案。|  
-|PendTransUserMap.xml|為擱置交易分支機構應用程式的使用者，定義認證對應的 XML 檔案。|  
-|PmntTrckAffApp.xml|定義擱置交易分支機構應用程式之值的 XML 檔案。|  
-|PmntTrckUserMap.xml|為付款追蹤分支機構應用程式的使用者，定義認證對應的 XML 檔案。|  
-|RemoveReceivePort.vbs|移除接收埠的一般 VBScript。|  
-|RemoveSendPort.vbs|移除傳送埠的一般 VBScript。|  
-|SetConfigValuesInSSO.cmd|在 SSO 中設定組態值的命令檔。|  
-|StartAll.vbs|登錄並啟動所有協調流程的命令檔。|  
-|StartStub.vbs|登錄並啟動協調流程之虛設常式版本的命令檔。|  
-|UndeployAll.cmd|取消部署所有組件的命令檔。|  
-|UndeployStub.cmd|取消部署組件之虛設常式版本的命令檔。|  
-|UnEnlistAll.vbs|取消登錄所有協調流程的命令檔。|  
-|UnEnlistStub.vbs|取消登錄協調流程之虛設常式版本的命令檔。|  
+|<span data-ttu-id="85eca-501">ConfigStoreApp.xml</span><span class="sxs-lookup"><span data-stu-id="85eca-501">ConfigStoreApp.xml</span></span>|<span data-ttu-id="85eca-502">定義 SSO 組態值的 XML 檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-502">XML file defining the SSO configuration values.</span></span>|  
+|<span data-ttu-id="85eca-503">CreateInitialConfigInSSO.cmd</span><span class="sxs-lookup"><span data-stu-id="85eca-503">CreateInitialConfigInSSO.cmd</span></span>|<span data-ttu-id="85eca-504">建立初始 SSO 組態值的命令檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-504">Command file to create the initial SSO configuration values.</span></span>|  
+|<span data-ttu-id="85eca-505">DeployAllBinding.cmd</span><span class="sxs-lookup"><span data-stu-id="85eca-505">DeployAllBinding.cmd</span></span>|<span data-ttu-id="85eca-506">部署所有組件的命令檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-506">Command file to deploy all of the assemblies.</span></span>|  
+|<span data-ttu-id="85eca-507">DeployStubBinding.cmd</span><span class="sxs-lookup"><span data-stu-id="85eca-507">DeployStubBinding.cmd</span></span>|<span data-ttu-id="85eca-508">部署組件之虛設常式版本的命令檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-508">Command file to deploy the stub version of the assemblies.</span></span>|  
+|<span data-ttu-id="85eca-509">PendTransAffApp.xml</span><span class="sxs-lookup"><span data-stu-id="85eca-509">PendTransAffApp.xml</span></span>|<span data-ttu-id="85eca-510">定義擱置交易分支機構應用程式之值的 XML 檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-510">XML file defining the values for the pending transaction affiliate application.</span></span>|  
+|<span data-ttu-id="85eca-511">PendTransUserMap.xml</span><span class="sxs-lookup"><span data-stu-id="85eca-511">PendTransUserMap.xml</span></span>|<span data-ttu-id="85eca-512">為擱置交易分支機構應用程式的使用者，定義認證對應的 XML 檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-512">XML file defining credential mapping for users for the pending transaction affiliate application.</span></span>|  
+|<span data-ttu-id="85eca-513">PmntTrckAffApp.xml</span><span class="sxs-lookup"><span data-stu-id="85eca-513">PmntTrckAffApp.xml</span></span>|<span data-ttu-id="85eca-514">定義擱置交易分支機構應用程式之值的 XML 檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-514">XML file defining the values for the pending transaction affiliate application.</span></span>|  
+|<span data-ttu-id="85eca-515">PmntTrckUserMap.xml</span><span class="sxs-lookup"><span data-stu-id="85eca-515">PmntTrckUserMap.xml</span></span>|<span data-ttu-id="85eca-516">為付款追蹤分支機構應用程式的使用者，定義認證對應的 XML 檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-516">XML file defining credential mapping for users for the payment tracking affiliate application.</span></span>|  
+|<span data-ttu-id="85eca-517">RemoveReceivePort.vbs</span><span class="sxs-lookup"><span data-stu-id="85eca-517">RemoveReceivePort.vbs</span></span>|<span data-ttu-id="85eca-518">移除接收埠的一般 VBScript。</span><span class="sxs-lookup"><span data-stu-id="85eca-518">General VBScript to remove a receive port.</span></span>|  
+|<span data-ttu-id="85eca-519">RemoveSendPort.vbs</span><span class="sxs-lookup"><span data-stu-id="85eca-519">RemoveSendPort.vbs</span></span>|<span data-ttu-id="85eca-520">移除傳送埠的一般 VBScript。</span><span class="sxs-lookup"><span data-stu-id="85eca-520">General VBScript to remove a send port.</span></span>|  
+|<span data-ttu-id="85eca-521">SetConfigValuesInSSO.cmd</span><span class="sxs-lookup"><span data-stu-id="85eca-521">SetConfigValuesInSSO.cmd</span></span>|<span data-ttu-id="85eca-522">在 SSO 中設定組態值的命令檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-522">Command file to set the configuration values in SSO.</span></span>|  
+|<span data-ttu-id="85eca-523">StartAll.vbs</span><span class="sxs-lookup"><span data-stu-id="85eca-523">StartAll.vbs</span></span>|<span data-ttu-id="85eca-524">登錄並啟動所有協調流程的命令檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-524">Command file to enlist and start all orchestrations.</span></span>|  
+|<span data-ttu-id="85eca-525">StartStub.vbs</span><span class="sxs-lookup"><span data-stu-id="85eca-525">StartStub.vbs</span></span>|<span data-ttu-id="85eca-526">登錄並啟動協調流程之虛設常式版本的命令檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-526">Command file to enlist and start the stub versions of orchestrations.</span></span>|  
+|<span data-ttu-id="85eca-527">UndeployAll.cmd</span><span class="sxs-lookup"><span data-stu-id="85eca-527">UndeployAll.cmd</span></span>|<span data-ttu-id="85eca-528">取消部署所有組件的命令檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-528">Command file to undeploy all of the assemblies.</span></span>|  
+|<span data-ttu-id="85eca-529">UndeployStub.cmd</span><span class="sxs-lookup"><span data-stu-id="85eca-529">UndeployStub.cmd</span></span>|<span data-ttu-id="85eca-530">取消部署組件之虛設常式版本的命令檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-530">Command file to undeploy the stub versions of assemblies.</span></span>|  
+|<span data-ttu-id="85eca-531">UnEnlistAll.vbs</span><span class="sxs-lookup"><span data-stu-id="85eca-531">UnEnlistAll.vbs</span></span>|<span data-ttu-id="85eca-532">取消登錄所有協調流程的命令檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-532">Command file to unenlist all orcehstrations.</span></span>|  
+|<span data-ttu-id="85eca-533">UnEnlistStub.vbs</span><span class="sxs-lookup"><span data-stu-id="85eca-533">UnEnlistStub.vbs</span></span>|<span data-ttu-id="85eca-534">取消登錄協調流程之虛設常式版本的命令檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-534">Command file to unenlist stub versions of orcehstrations.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\ServiceLevelTracking  
+ <span data-ttu-id="85eca-535">中的檔案\<安裝目錄 > \BTSSoln\ServiceLevelTracking</span><span class="sxs-lookup"><span data-stu-id="85eca-535">Files in \<Install Directory>\BTSSoln\ServiceLevelTracking</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-536">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-536">File</span></span>|<span data-ttu-id="85eca-537">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-537">Description</span></span>|  
 |----------|-----------------|  
-|AssemblyInfo.cs|組件資訊檔。|  
-|ServiceLevelTracking.cs|用於服務層級 BAM 追蹤的 C# 協助程式函式。|  
-|ServiceLevelTracking.csproj|C# 專案檔。|  
+|<span data-ttu-id="85eca-538">AssemblyInfo.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-538">AssemblyInfo.cs</span></span>|<span data-ttu-id="85eca-539">組件資訊檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-539">Assembly information file.</span></span>|  
+|<span data-ttu-id="85eca-540">ServiceLevelTracking.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-540">ServiceLevelTracking.cs</span></span>|<span data-ttu-id="85eca-541">用於服務層級 BAM 追蹤的 C# 協助程式函式。</span><span class="sxs-lookup"><span data-stu-id="85eca-541">C# helper functions for service level BAM tracking.</span></span>|  
+|<span data-ttu-id="85eca-542">ServiceLevelTracking.csproj</span><span class="sxs-lookup"><span data-stu-id="85eca-542">ServiceLevelTracking.csproj</span></span>|<span data-ttu-id="85eca-543">C# 專案檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-543">C# project file.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\SimpleClient  
+ <span data-ttu-id="85eca-544">中的檔案\<安裝目錄 > \BTSSoln\SimpleClient</span><span class="sxs-lookup"><span data-stu-id="85eca-544">Files in \<Install Directory>\BTSSoln\SimpleClient</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-545">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-545">File</span></span>|<span data-ttu-id="85eca-546">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-546">Description</span></span>|  
 |----------|-----------------|  
-|AdapterCustomerServicePort.disco|產生的檔案。|  
-|AdapterCustomerServicePort.wsdl|產生的檔案。|  
-|App.ico|用於簡單用戶端應用程式的圖示檔案。|  
-|AssemblyInfo.cs|組件資訊檔。|  
-|InlineCustomerServicePort.disco|產生的檔案。|  
-|InlineCustomerServicePort.wsdl|產生的檔案。|  
-|SimpleClient.cs|用於產生要求的簡單 Windows Forms 應用程式。|  
-|SimpleClient.csproj|C# 專案檔。|  
-|SimpleClient.resx|資源檔。|  
-|WebServiceReferences.cs|產生的檔案。|  
+|<span data-ttu-id="85eca-547">AdapterCustomerServicePort.disco</span><span class="sxs-lookup"><span data-stu-id="85eca-547">AdapterCustomerServicePort.disco</span></span>|<span data-ttu-id="85eca-548">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-548">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-549">AdapterCustomerServicePort.wsdl</span><span class="sxs-lookup"><span data-stu-id="85eca-549">AdapterCustomerServicePort.wsdl</span></span>|<span data-ttu-id="85eca-550">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-550">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-551">App.ico</span><span class="sxs-lookup"><span data-stu-id="85eca-551">App.ico</span></span>|<span data-ttu-id="85eca-552">用於簡單用戶端應用程式的圖示檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-552">Icon file for simple client application.</span></span>|  
+|<span data-ttu-id="85eca-553">AssemblyInfo.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-553">AssemblyInfo.cs</span></span>|<span data-ttu-id="85eca-554">組件資訊檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-554">Assembly information file.</span></span>|  
+|<span data-ttu-id="85eca-555">InlineCustomerServicePort.disco</span><span class="sxs-lookup"><span data-stu-id="85eca-555">InlineCustomerServicePort.disco</span></span>|<span data-ttu-id="85eca-556">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-556">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-557">InlineCustomerServicePort.wsdl</span><span class="sxs-lookup"><span data-stu-id="85eca-557">InlineCustomerServicePort.wsdl</span></span>|<span data-ttu-id="85eca-558">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-558">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-559">SimpleClient.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-559">SimpleClient.cs</span></span>|<span data-ttu-id="85eca-560">用於產生要求的簡單 Windows Forms 應用程式。</span><span class="sxs-lookup"><span data-stu-id="85eca-560">Simple Windows Forms application for making requests.</span></span>|  
+|<span data-ttu-id="85eca-561">SimpleClient.csproj</span><span class="sxs-lookup"><span data-stu-id="85eca-561">SimpleClient.csproj</span></span>|<span data-ttu-id="85eca-562">C# 專案檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-562">C# project file.</span></span>|  
+|<span data-ttu-id="85eca-563">SimpleClient.resx</span><span class="sxs-lookup"><span data-stu-id="85eca-563">SimpleClient.resx</span></span>|<span data-ttu-id="85eca-564">資源檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-564">Resource file.</span></span>|  
+|<span data-ttu-id="85eca-565">WebServiceReferences.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-565">WebServiceReferences.cs</span></span>|<span data-ttu-id="85eca-566">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-566">Generated file.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\StubWebServices\PaymentTrack  
+ <span data-ttu-id="85eca-567">中的檔案\<安裝目錄 > \BTSSoln\StubWebServices\PaymentTrack</span><span class="sxs-lookup"><span data-stu-id="85eca-567">Files in \<Install Directory>\BTSSoln\StubWebServices\PaymentTrack</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-568">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-568">File</span></span>|<span data-ttu-id="85eca-569">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-569">Description</span></span>|  
 |----------|-----------------|  
-|Global.asax|產生的檔案。|  
-|Global.asax.resx|產生的檔案。|  
-|StubPmntTrck.csproj.webinfo|產生的檔案。|  
-|StubPmntTrckWS.asmx|產生的檔案。|  
-|StubPmntTrckWS.asmx.resx|產生的檔案。|  
-|Web.config|產生的檔案。|  
+|<span data-ttu-id="85eca-570">Global.asax</span><span class="sxs-lookup"><span data-stu-id="85eca-570">Global.asax</span></span>|<span data-ttu-id="85eca-571">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-571">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-572">Global.asax.resx</span><span class="sxs-lookup"><span data-stu-id="85eca-572">Global.asax.resx</span></span>|<span data-ttu-id="85eca-573">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-573">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-574">StubPmntTrck.csproj.webinfo</span><span class="sxs-lookup"><span data-stu-id="85eca-574">StubPmntTrck.csproj.webinfo</span></span>|<span data-ttu-id="85eca-575">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-575">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-576">StubPmntTrckWS.asmx</span><span class="sxs-lookup"><span data-stu-id="85eca-576">StubPmntTrckWS.asmx</span></span>|<span data-ttu-id="85eca-577">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-577">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-578">StubPmntTrckWS.asmx.resx</span><span class="sxs-lookup"><span data-stu-id="85eca-578">StubPmntTrckWS.asmx.resx</span></span>|<span data-ttu-id="85eca-579">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-579">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-580">Web.config</span><span class="sxs-lookup"><span data-stu-id="85eca-580">Web.config</span></span>|<span data-ttu-id="85eca-581">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-581">Generated file.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\StubWebServices\PaymentTrack\app_code  
+ <span data-ttu-id="85eca-582">中的檔案\<安裝目錄 > \BTSSoln\StubWebServices\PaymentTrack\app_code</span><span class="sxs-lookup"><span data-stu-id="85eca-582">Files in \<Install Directory>\BTSSoln\StubWebServices\PaymentTrack\app_code</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-583">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-583">File</span></span>|<span data-ttu-id="85eca-584">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-584">Description</span></span>|  
 |----------|-----------------|  
-|assemblyinfo.cs|組件資訊檔。|  
-|global.asax.cs|產生的檔案。|  
-|StubPmntTrckWS.asmx.cs|產生的檔案。|  
+|<span data-ttu-id="85eca-585">assemblyinfo.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-585">assemblyinfo.cs</span></span>|<span data-ttu-id="85eca-586">組件資訊檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-586">Assembly information file.</span></span>|  
+|<span data-ttu-id="85eca-587">global.asax.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-587">global.asax.cs</span></span>|<span data-ttu-id="85eca-588">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-588">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-589">StubPmntTrckWS.asmx.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-589">StubPmntTrckWS.asmx.cs</span></span>|<span data-ttu-id="85eca-590">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-590">Generated file.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\StubWebServices\PendingTrans  
+ <span data-ttu-id="85eca-591">中的檔案\<安裝目錄 > \BTSSoln\StubWebServices\PendingTrans</span><span class="sxs-lookup"><span data-stu-id="85eca-591">Files in \<Install Directory>\BTSSoln\StubWebServices\PendingTrans</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-592">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-592">File</span></span>|<span data-ttu-id="85eca-593">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-593">Description</span></span>|  
 |----------|-----------------|  
-|Global.asax|產生的檔案。|  
-|Global.asax.resx|產生的檔案。|  
-|StubPendTransWS.asmx|產生的檔案。|  
-|StubPendTransWS.asmx.resx|產生的檔案。|  
-|StubPendTransWS.csproj.webinfo|產生的檔案。|  
-|Web.config|產生的檔案。|  
+|<span data-ttu-id="85eca-594">Global.asax</span><span class="sxs-lookup"><span data-stu-id="85eca-594">Global.asax</span></span>|<span data-ttu-id="85eca-595">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-595">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-596">Global.asax.resx</span><span class="sxs-lookup"><span data-stu-id="85eca-596">Global.asax.resx</span></span>|<span data-ttu-id="85eca-597">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-597">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-598">StubPendTransWS.asmx</span><span class="sxs-lookup"><span data-stu-id="85eca-598">StubPendTransWS.asmx</span></span>|<span data-ttu-id="85eca-599">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-599">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-600">StubPendTransWS.asmx.resx</span><span class="sxs-lookup"><span data-stu-id="85eca-600">StubPendTransWS.asmx.resx</span></span>|<span data-ttu-id="85eca-601">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-601">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-602">StubPendTransWS.csproj.webinfo</span><span class="sxs-lookup"><span data-stu-id="85eca-602">StubPendTransWS.csproj.webinfo</span></span>|<span data-ttu-id="85eca-603">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-603">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-604">Web.config</span><span class="sxs-lookup"><span data-stu-id="85eca-604">Web.config</span></span>|<span data-ttu-id="85eca-605">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-605">Generated file.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\StubWebServices\PendingTrans\app_code  
+ <span data-ttu-id="85eca-606">中的檔案\<安裝目錄 > \BTSSoln\StubWebServices\PendingTrans\app_code</span><span class="sxs-lookup"><span data-stu-id="85eca-606">Files in \<Install Directory>\BTSSoln\StubWebServices\PendingTrans\app_code</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-607">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-607">File</span></span>|<span data-ttu-id="85eca-608">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-608">Description</span></span>|  
 |----------|-----------------|  
-|assemblyinfo.cs|產生的檔案。|  
-|global.asax.cs|產生的檔案。|  
-|StubPendTransWS.asmx.cs|產生的檔案。|  
+|<span data-ttu-id="85eca-609">assemblyinfo.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-609">assemblyinfo.cs</span></span>|<span data-ttu-id="85eca-610">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-610">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-611">global.asax.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-611">global.asax.cs</span></span>|<span data-ttu-id="85eca-612">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-612">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-613">StubPendTransWS.asmx.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-613">StubPendTransWS.asmx.cs</span></span>|<span data-ttu-id="85eca-614">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-614">Generated file.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\StubWebServices\SAP  
+ <span data-ttu-id="85eca-615">中的檔案\<安裝目錄 > \BTSSoln\StubWebServices\SAP</span><span class="sxs-lookup"><span data-stu-id="85eca-615">Files in \<Install Directory>\BTSSoln\StubWebServices\SAP</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-616">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-616">File</span></span>|<span data-ttu-id="85eca-617">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-617">Description</span></span>|  
 |----------|-----------------|  
-|Global.asax|產生的檔案。|  
-|Global.asax.resx|產生的檔案。|  
-|StubSAP.csproj.webinfo|產生的檔案。|  
-|StubSAPWS.asmx|產生的檔案。|  
-|StubSAPWS.asmx.resx|產生的檔案。|  
-|Web.config|產生的檔案。|  
+|<span data-ttu-id="85eca-618">Global.asax</span><span class="sxs-lookup"><span data-stu-id="85eca-618">Global.asax</span></span>|<span data-ttu-id="85eca-619">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-619">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-620">Global.asax.resx</span><span class="sxs-lookup"><span data-stu-id="85eca-620">Global.asax.resx</span></span>|<span data-ttu-id="85eca-621">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-621">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-622">StubSAP.csproj.webinfo</span><span class="sxs-lookup"><span data-stu-id="85eca-622">StubSAP.csproj.webinfo</span></span>|<span data-ttu-id="85eca-623">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-623">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-624">StubSAPWS.asmx</span><span class="sxs-lookup"><span data-stu-id="85eca-624">StubSAPWS.asmx</span></span>|<span data-ttu-id="85eca-625">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-625">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-626">StubSAPWS.asmx.resx</span><span class="sxs-lookup"><span data-stu-id="85eca-626">StubSAPWS.asmx.resx</span></span>|<span data-ttu-id="85eca-627">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-627">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-628">Web.config</span><span class="sxs-lookup"><span data-stu-id="85eca-628">Web.config</span></span>|<span data-ttu-id="85eca-629">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-629">Generated file.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\StubWebServices\SAP\app_code  
+ <span data-ttu-id="85eca-630">中的檔案\<安裝目錄 > \BTSSoln\StubWebServices\SAP\app_code</span><span class="sxs-lookup"><span data-stu-id="85eca-630">Files in \<Install Directory>\BTSSoln\StubWebServices\SAP\app_code</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-631">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-631">File</span></span>|<span data-ttu-id="85eca-632">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-632">Description</span></span>|  
 |----------|-----------------|  
-|assemblyinfo.cs|組件資訊檔。|  
-|global.asax.cs|產生的檔案。|  
-|stubsapws.asmx.cs|產生的檔案。|  
+|<span data-ttu-id="85eca-633">assemblyinfo.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-633">assemblyinfo.cs</span></span>|<span data-ttu-id="85eca-634">組件資訊檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-634">Assembly information file.</span></span>|  
+|<span data-ttu-id="85eca-635">global.asax.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-635">global.asax.cs</span></span>|<span data-ttu-id="85eca-636">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-636">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-637">stubsapws.asmx.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-637">stubsapws.asmx.cs</span></span>|<span data-ttu-id="85eca-638">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-638">Generated file.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\StubWebServices\StubSAPCall  
+ <span data-ttu-id="85eca-639">中的檔案\<安裝目錄 > \BTSSoln\StubWebServices\StubSAPCall</span><span class="sxs-lookup"><span data-stu-id="85eca-639">Files in \<Install Directory>\BTSSoln\StubWebServices\StubSAPCall</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-640">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-640">File</span></span>|<span data-ttu-id="85eca-641">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-641">Description</span></span>|  
 |----------|-----------------|  
-|AssemblyInfo.cs|組件資訊檔。|  
-|Exceptions.cs|定義虛設常式 SAP 呼叫逾時例外狀況的 C# 程式碼。|  
-|StubSAPCall.csproj|C# 專案檔。|  
-|StubSAPCallHelper.cs|用於呼叫虛設常式 SAP Web 服務之協助程式組件的 C# 程式碼。|  
-|StubSAPWSProxy.cs|用於呼叫虛設常式 SAP Web 服務之協助程式組件的 C# 程式碼。|  
+|<span data-ttu-id="85eca-642">AssemblyInfo.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-642">AssemblyInfo.cs</span></span>|<span data-ttu-id="85eca-643">組件資訊檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-643">Assembly information file.</span></span>|  
+|<span data-ttu-id="85eca-644">Exceptions.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-644">Exceptions.cs</span></span>|<span data-ttu-id="85eca-645">定義虛設常式 SAP 呼叫逾時例外狀況的 C# 程式碼。</span><span class="sxs-lookup"><span data-stu-id="85eca-645">C# code defining the stub SAP call timeout exception.</span></span>|  
+|<span data-ttu-id="85eca-646">StubSAPCall.csproj</span><span class="sxs-lookup"><span data-stu-id="85eca-646">StubSAPCall.csproj</span></span>|<span data-ttu-id="85eca-647">C# 專案檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-647">C# project file.</span></span>|  
+|<span data-ttu-id="85eca-648">StubSAPCallHelper.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-648">StubSAPCallHelper.cs</span></span>|<span data-ttu-id="85eca-649">用於呼叫虛設常式 SAP Web 服務之協助程式組件的 C# 程式碼。</span><span class="sxs-lookup"><span data-stu-id="85eca-649">C# code for a helper assembly to call the stub SAP web service.</span></span>|  
+|<span data-ttu-id="85eca-650">StubSAPWSProxy.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-650">StubSAPWSProxy.cs</span></span>|<span data-ttu-id="85eca-651">用於呼叫虛設常式 SAP Web 服務之協助程式組件的 C# 程式碼。</span><span class="sxs-lookup"><span data-stu-id="85eca-651">C# code for a helper assembly to call the stub SAP web service.</span></span>|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\Utilities  
+ <span data-ttu-id="85eca-652">中的檔案\<安裝目錄 > \BTSSoln\Utilities</span><span class="sxs-lookup"><span data-stu-id="85eca-652">Files in \<Install Directory>\BTSSoln\Utilities</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-653">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-653">File</span></span>|<span data-ttu-id="85eca-654">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-654">Description</span></span>|  
 |----------|-----------------|  
-|AssemblyInfo.cs|組件資訊檔。|  
-|CustomerServiceHelper.cs|用於協助程式方法與類別的 C# 程式碼。|  
-|ReceivePipelineHelper.cs|用於呼叫來自協調流程之管線的協助程式組件的 C# 程式碼。|  
-|Utilities.csproj|C# 專案檔。|  
+|<span data-ttu-id="85eca-655">AssemblyInfo.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-655">AssemblyInfo.cs</span></span>|<span data-ttu-id="85eca-656">組件資訊檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-656">Assembly information file.</span></span>|  
+|<span data-ttu-id="85eca-657">CustomerServiceHelper.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-657">CustomerServiceHelper.cs</span></span>|<span data-ttu-id="85eca-658">用於協助程式方法與類別的 C# 程式碼。</span><span class="sxs-lookup"><span data-stu-id="85eca-658">C# code for helper methods and classes.</span></span>|  
+|<span data-ttu-id="85eca-659">ReceivePipelineHelper.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-659">ReceivePipelineHelper.cs</span></span>|<span data-ttu-id="85eca-660">用於呼叫來自協調流程之管線的協助程式組件的 C# 程式碼。</span><span class="sxs-lookup"><span data-stu-id="85eca-660">C# code for helper assembly for calling pipelines from orchestratoins.</span></span>|  
+|<span data-ttu-id="85eca-661">Utilities.csproj</span><span class="sxs-lookup"><span data-stu-id="85eca-661">Utilities.csproj</span></span>|<span data-ttu-id="85eca-662">C# 專案檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-662">C# project file.</span></span>|  
   
- 中的檔案\<安裝目錄 > \MFAccess  
+ <span data-ttu-id="85eca-663">中的檔案\<安裝目錄 > \MFAccess</span><span class="sxs-lookup"><span data-stu-id="85eca-663">Files in \<Install Directory>\MFAccess</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-664">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-664">File</span></span>|<span data-ttu-id="85eca-665">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-665">Description</span></span>|  
 |----------|-----------------|  
-|Microsoft.Samples.BizTalk.WoodgroveBank.MainframeAccess.sln|Visual Studio 方案檔。|  
-|SetupMFAccess.bat|建立解決方案之大型主機存取元件的批次檔。|  
+|<span data-ttu-id="85eca-666">Microsoft.Samples.BizTalk.WoodgroveBank.MainframeAccess.sln</span><span class="sxs-lookup"><span data-stu-id="85eca-666">Microsoft.Samples.BizTalk.WoodgroveBank.MainframeAccess.sln</span></span>|<span data-ttu-id="85eca-667">Visual Studio 方案檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-667">Visual Studio solution file.</span></span>|  
+|<span data-ttu-id="85eca-668">SetupMFAccess.bat</span><span class="sxs-lookup"><span data-stu-id="85eca-668">SetupMFAccess.bat</span></span>|<span data-ttu-id="85eca-669">建立解決方案之大型主機存取元件的批次檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-669">Batch file to build the mainframe access components of the solution.</span></span>|  
   
- 中的檔案\<安裝目錄 > \MFAccess\HISTIComponent  
+ <span data-ttu-id="85eca-670">中的檔案\<安裝目錄 > \MFAccess\HISTIComponent</span><span class="sxs-lookup"><span data-stu-id="85eca-670">Files in \<Install Directory>\MFAccess\HISTIComponent</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-671">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-671">File</span></span>|<span data-ttu-id="85eca-672">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-672">Description</span></span>|  
 |----------|-----------------|  
-|bizcbl.txt|在大型主機上執行的 COBOL 程式。|  
-|HISTIComponent.tiproj|交易整合器專案檔。|  
-|MainFrameProgramVTCS2Description.txt|交易整合器匯出檔案。|  
-|SOHISTIUsingCOM.TLB|型別程式庫。|  
+|<span data-ttu-id="85eca-673">bizcbl.txt</span><span class="sxs-lookup"><span data-stu-id="85eca-673">bizcbl.txt</span></span>|<span data-ttu-id="85eca-674">在大型主機上執行的 COBOL 程式。</span><span class="sxs-lookup"><span data-stu-id="85eca-674">COBOL program to run on the mainframe.</span></span>|  
+|<span data-ttu-id="85eca-675">HISTIComponent.tiproj</span><span class="sxs-lookup"><span data-stu-id="85eca-675">HISTIComponent.tiproj</span></span>|<span data-ttu-id="85eca-676">交易整合器專案檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-676">Transaction Integrator project file.</span></span>|  
+|<span data-ttu-id="85eca-677">MainFrameProgramVTCS2Description.txt</span><span class="sxs-lookup"><span data-stu-id="85eca-677">MainFrameProgramVTCS2Description.txt</span></span>|<span data-ttu-id="85eca-678">交易整合器匯出檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-678">Transaction Integrator export file.</span></span>|  
+|<span data-ttu-id="85eca-679">SOHISTIUsingCOM.TLB</span><span class="sxs-lookup"><span data-stu-id="85eca-679">SOHISTIUsingCOM.TLB</span></span>|<span data-ttu-id="85eca-680">型別程式庫。</span><span class="sxs-lookup"><span data-stu-id="85eca-680">Type library.</span></span>|  
   
- 中的檔案\<安裝目錄 > \MFAccess\HISTISimpleTester  
+ <span data-ttu-id="85eca-681">中的檔案\<安裝目錄 > \MFAccess\HISTISimpleTester</span><span class="sxs-lookup"><span data-stu-id="85eca-681">Files in \<Install Directory>\MFAccess\HISTISimpleTester</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-682">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-682">File</span></span>|<span data-ttu-id="85eca-683">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-683">Description</span></span>|  
 |----------|-----------------|  
-|App.ico|圖示檔案|  
-|AssemblyInfo.cs|組件資訊檔。|  
-|Form1.cs|測試大型主機連線的 Windows Forms 程式。|  
-|Form1.resx|資源檔|  
-|HISTISimpleTester.csproj|C# 專案檔。|  
-|Interop.SOHISTIUsingCOM.dll.reg|DLL 登錄檔案。|  
+|<span data-ttu-id="85eca-684">App.ico</span><span class="sxs-lookup"><span data-stu-id="85eca-684">App.ico</span></span>|<span data-ttu-id="85eca-685">圖示檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-685">Icon file</span></span>|  
+|<span data-ttu-id="85eca-686">AssemblyInfo.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-686">AssemblyInfo.cs</span></span>|<span data-ttu-id="85eca-687">組件資訊檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-687">Assembly information file.</span></span>|  
+|<span data-ttu-id="85eca-688">Form1.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-688">Form1.cs</span></span>|<span data-ttu-id="85eca-689">測試大型主機連線的 Windows Forms 程式。</span><span class="sxs-lookup"><span data-stu-id="85eca-689">Windows Forms program to test connection to the mainframe.</span></span>|  
+|<span data-ttu-id="85eca-690">Form1.resx</span><span class="sxs-lookup"><span data-stu-id="85eca-690">Form1.resx</span></span>|<span data-ttu-id="85eca-691">資源檔</span><span class="sxs-lookup"><span data-stu-id="85eca-691">Resource file</span></span>|  
+|<span data-ttu-id="85eca-692">HISTISimpleTester.csproj</span><span class="sxs-lookup"><span data-stu-id="85eca-692">HISTISimpleTester.csproj</span></span>|<span data-ttu-id="85eca-693">C# 專案檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-693">C# project file.</span></span>|  
+|<span data-ttu-id="85eca-694">Interop.SOHISTIUsingCOM.dll.reg</span><span class="sxs-lookup"><span data-stu-id="85eca-694">Interop.SOHISTIUsingCOM.dll.reg</span></span>|<span data-ttu-id="85eca-695">DLL 登錄檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-695">DLL registration file.</span></span>|  
   
- 中的檔案\<安裝目錄 > \MFAccess\PendingTransactions  
+ <span data-ttu-id="85eca-696">中的檔案\<安裝目錄 > \MFAccess\PendingTransactions</span><span class="sxs-lookup"><span data-stu-id="85eca-696">Files in \<Install Directory>\MFAccess\PendingTransactions</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-697">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-697">File</span></span>|<span data-ttu-id="85eca-698">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-698">Description</span></span>|  
 |----------|-----------------|  
-|AssemblyInfo.cs|組件資訊檔。|  
-|Global.asax|產生的檔案。|  
-|Global.asax.cs|產生的檔案。|  
-|Global.asax.resx|產生的檔案。|  
-|PendingTransactions.csproj|C# 專案檔。|  
-|PendingTransactions.csproj.webinfo|產生的檔案。|  
-|PendTransWS.asmx|產生的檔案。|  
-|PendTransWS.asmx.cs|產生的檔案。|  
-|PendTransWS.asmx.resx|產生的檔案。|  
-|Web.config|產生的檔案。|  
+|<span data-ttu-id="85eca-699">AssemblyInfo.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-699">AssemblyInfo.cs</span></span>|<span data-ttu-id="85eca-700">組件資訊檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-700">Assembly information file.</span></span>|  
+|<span data-ttu-id="85eca-701">Global.asax</span><span class="sxs-lookup"><span data-stu-id="85eca-701">Global.asax</span></span>|<span data-ttu-id="85eca-702">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-702">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-703">Global.asax.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-703">Global.asax.cs</span></span>|<span data-ttu-id="85eca-704">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-704">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-705">Global.asax.resx</span><span class="sxs-lookup"><span data-stu-id="85eca-705">Global.asax.resx</span></span>|<span data-ttu-id="85eca-706">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-706">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-707">PendingTransactions.csproj</span><span class="sxs-lookup"><span data-stu-id="85eca-707">PendingTransactions.csproj</span></span>|<span data-ttu-id="85eca-708">C# 專案檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-708">C# project file.</span></span>|  
+|<span data-ttu-id="85eca-709">PendingTransactions.csproj.webinfo</span><span class="sxs-lookup"><span data-stu-id="85eca-709">PendingTransactions.csproj.webinfo</span></span>|<span data-ttu-id="85eca-710">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-710">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-711">PendTransWS.asmx</span><span class="sxs-lookup"><span data-stu-id="85eca-711">PendTransWS.asmx</span></span>|<span data-ttu-id="85eca-712">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-712">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-713">PendTransWS.asmx.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-713">PendTransWS.asmx.cs</span></span>|<span data-ttu-id="85eca-714">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-714">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-715">PendTransWS.asmx.resx</span><span class="sxs-lookup"><span data-stu-id="85eca-715">PendTransWS.asmx.resx</span></span>|<span data-ttu-id="85eca-716">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-716">Generated file.</span></span>|  
+|<span data-ttu-id="85eca-717">Web.config</span><span class="sxs-lookup"><span data-stu-id="85eca-717">Web.config</span></span>|<span data-ttu-id="85eca-718">產生的檔案。</span><span class="sxs-lookup"><span data-stu-id="85eca-718">Generated file.</span></span>|  
   
- 中的檔案\<安裝目錄 > \MFAccess\SchemaClasses  
+ <span data-ttu-id="85eca-719">中的檔案\<安裝目錄 > \MFAccess\SchemaClasses</span><span class="sxs-lookup"><span data-stu-id="85eca-719">Files in \<Install Directory>\MFAccess\SchemaClasses</span></span>  
   
-|檔案|Description|  
+|<span data-ttu-id="85eca-720">檔案</span><span class="sxs-lookup"><span data-stu-id="85eca-720">File</span></span>|<span data-ttu-id="85eca-721">Description</span><span class="sxs-lookup"><span data-stu-id="85eca-721">Description</span></span>|  
 |----------|-----------------|  
-|AssemblyInfo.cs|組件資訊檔。|  
-|BAPI_BANKACCT_GET_DETAIL.cs|從對應的結構描述 (.xsd) 檔案產生的 C# 類別。|  
-|CustomerServiceRequest.cs|從對應的結構描述 (.xsd) 檔案產生的 C# 類別。|  
-|CustomerServiceResponse.cs|從對應的結構描述 (.xsd) 檔案產生的 C# 類別。|  
-|LastPaymentRequest.cs|從對應的結構描述 (.xsd) 檔案產生的 C# 類別。|  
-|LastPaymentResponse.cs|從對應的結構描述 (.xsd) 檔案產生的 C# 類別。|  
-|PendingTransactionsRequest.cs|從對應的結構描述 (.xsd) 檔案產生的 C# 類別。|  
-|PendingTransactionsResponse.cs|從對應的結構描述 (.xsd) 檔案產生的 C# 類別。|  
-|SchemaClasses.csproj|C# 專案檔。|  
+|<span data-ttu-id="85eca-722">AssemblyInfo.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-722">AssemblyInfo.cs</span></span>|<span data-ttu-id="85eca-723">組件資訊檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-723">Assembly information file.</span></span>|  
+|<span data-ttu-id="85eca-724">BAPI_BANKACCT_GET_DETAIL.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-724">BAPI_BANKACCT_GET_DETAIL.cs</span></span>|<span data-ttu-id="85eca-725">從對應的結構描述 (.xsd) 檔案產生的 C# 類別。</span><span class="sxs-lookup"><span data-stu-id="85eca-725">C# class generated from the corresponding schema (.xsd) file.</span></span>|  
+|<span data-ttu-id="85eca-726">CustomerServiceRequest.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-726">CustomerServiceRequest.cs</span></span>|<span data-ttu-id="85eca-727">從對應的結構描述 (.xsd) 檔案產生的 C# 類別。</span><span class="sxs-lookup"><span data-stu-id="85eca-727">C# class generated from the corresponding schema (.xsd) file.</span></span>|  
+|<span data-ttu-id="85eca-728">CustomerServiceResponse.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-728">CustomerServiceResponse.cs</span></span>|<span data-ttu-id="85eca-729">從對應的結構描述 (.xsd) 檔案產生的 C# 類別。</span><span class="sxs-lookup"><span data-stu-id="85eca-729">C# class generated from the corresponding schema (.xsd) file.</span></span>|  
+|<span data-ttu-id="85eca-730">LastPaymentRequest.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-730">LastPaymentRequest.cs</span></span>|<span data-ttu-id="85eca-731">從對應的結構描述 (.xsd) 檔案產生的 C# 類別。</span><span class="sxs-lookup"><span data-stu-id="85eca-731">C# class generated from the corresponding schema (.xsd) file.</span></span>|  
+|<span data-ttu-id="85eca-732">LastPaymentResponse.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-732">LastPaymentResponse.cs</span></span>|<span data-ttu-id="85eca-733">從對應的結構描述 (.xsd) 檔案產生的 C# 類別。</span><span class="sxs-lookup"><span data-stu-id="85eca-733">C# class generated from the corresponding schema (.xsd) file.</span></span>|  
+|<span data-ttu-id="85eca-734">PendingTransactionsRequest.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-734">PendingTransactionsRequest.cs</span></span>|<span data-ttu-id="85eca-735">從對應的結構描述 (.xsd) 檔案產生的 C# 類別。</span><span class="sxs-lookup"><span data-stu-id="85eca-735">C# class generated from the corresponding schema (.xsd) file.</span></span>|  
+|<span data-ttu-id="85eca-736">PendingTransactionsResponse.cs</span><span class="sxs-lookup"><span data-stu-id="85eca-736">PendingTransactionsResponse.cs</span></span>|<span data-ttu-id="85eca-737">從對應的結構描述 (.xsd) 檔案產生的 C# 類別。</span><span class="sxs-lookup"><span data-stu-id="85eca-737">C# class generated from the corresponding schema (.xsd) file.</span></span>|  
+|<span data-ttu-id="85eca-738">SchemaClasses.csproj</span><span class="sxs-lookup"><span data-stu-id="85eca-738">SchemaClasses.csproj</span></span>|<span data-ttu-id="85eca-739">C# 專案檔。</span><span class="sxs-lookup"><span data-stu-id="85eca-739">C# project file.</span></span>|  
   
-## <a name="see-also"></a>另請參閱  
- [元件的服務導向解決方案](../core/components-of-the-service-oriented-solution.md)   
- [服務導向解決方案參考](../core/service-oriented-solution-reference.md)
+## <a name="see-also"></a><span data-ttu-id="85eca-740">另請參閱</span><span class="sxs-lookup"><span data-stu-id="85eca-740">See Also</span></span>  
+ <span data-ttu-id="85eca-741">[元件的服務導向解決方案](../core/components-of-the-service-oriented-solution.md) </span><span class="sxs-lookup"><span data-stu-id="85eca-741">[Components of the Service Oriented Solution](../core/components-of-the-service-oriented-solution.md) </span></span>  
+ [<span data-ttu-id="85eca-742">服務導向解決方案參考</span><span class="sxs-lookup"><span data-stu-id="85eca-742">Service Oriented Solution Reference</span></span>](../core/service-oriented-solution-reference.md)

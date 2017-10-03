@@ -19,427 +19,427 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="supported-messages"></a>支援的訊息
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]提供一份[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]和 SWIFT 的訊息。 訊息都會歸類為下列幾種財務類型。  
+# <a name="supported-messages"></a><span data-ttu-id="10cea-102">支援的訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-102">Supported Messages</span></span>
+[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="10cea-103">[!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]提供一份[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]和 SWIFT 的訊息。</span><span class="sxs-lookup"><span data-stu-id="10cea-103"> [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] provides a list of [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] and SWIFT messages.</span></span> <span data-ttu-id="10cea-104">訊息都會歸類為下列幾種財務類型。</span><span class="sxs-lookup"><span data-stu-id="10cea-104">The messages fall into several financial categories which are listed below.</span></span>  
   
- 此部分包含：  
+ <span data-ttu-id="10cea-105">此部分包含：</span><span class="sxs-lookup"><span data-stu-id="10cea-105">This section contains:</span></span>  
   
--   [SWIFT 訊息-Microsoft](#fsa_intro_xtkj)  
+-   [<span data-ttu-id="10cea-106">SWIFT 訊息-Microsoft</span><span class="sxs-lookup"><span data-stu-id="10cea-106">SWIFT Messages - Microsoft</span></span>](#fsa_intro_xtkj)  
   
--   [類別 0: FIN 系統訊息](#fsa_intro_xcpk)  
+-   [<span data-ttu-id="10cea-107">類別 0: FIN 系統訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-107">Category 0: FIN System Messages</span></span>](#fsa_intro_xcpk)  
   
--   [類別目錄 1： 客戶付款作業並檢查](#fsa_intro_lxnf)  
+-   [<span data-ttu-id="10cea-108">類別目錄 1： 客戶付款作業並檢查</span><span class="sxs-lookup"><span data-stu-id="10cea-108">Category 1: Customer Payments and Checks</span></span>](#fsa_intro_lxnf)  
   
--   [類別目錄 2： 金融機構傳輸](#fsa_intro_fywg)  
+-   [<span data-ttu-id="10cea-109">類別目錄 2： 金融機構傳輸</span><span class="sxs-lookup"><span data-stu-id="10cea-109">Category 2: Financial Institution Transfers</span></span>](#fsa_intro_fywg)  
   
--   [外部 Exchange、 Money 市場和衍生的類別目錄 3： 庫房市場](#fsa_intro_qipa)  
+-   [<span data-ttu-id="10cea-110">外部 Exchange、 Money 市場和衍生的類別目錄 3： 庫房市場</span><span class="sxs-lookup"><span data-stu-id="10cea-110">Category 3: Treasury Markets Foreign Exchange, Money Markets and Derivatives</span></span>](#fsa_intro_qipa)  
   
--   [類別 4： 集合和現金字母](#fsa_intro_ruuc)  
+-   [<span data-ttu-id="10cea-111">類別 4： 集合和現金字母</span><span class="sxs-lookup"><span data-stu-id="10cea-111">Category 4: Collections and Cash Letters</span></span>](#fsa_intro_ruuc)  
   
--   [類別 5： 股票所分配到市場](#fsa_intro_iitn)  
+-   [<span data-ttu-id="10cea-112">類別 5： 股票所分配到市場</span><span class="sxs-lookup"><span data-stu-id="10cea-112">Category 5: Securities Markets</span></span>](#fsa_intro_iitn)  
   
--   [類別 6： 庫房市場珍貴金屬等](#fsa_intro_bjez)  
+-   [<span data-ttu-id="10cea-113">類別 6： 庫房市場珍貴金屬等</span><span class="sxs-lookup"><span data-stu-id="10cea-113">Category 6: Treasury Markets Precious Metals</span></span>](#fsa_intro_bjez)  
   
--   [類別目錄 7： 記錄信用額度和保證](#fsa_intro_vhkw)  
+-   [<span data-ttu-id="10cea-114">類別目錄 7： 記錄信用額度和保證</span><span class="sxs-lookup"><span data-stu-id="10cea-114">Category 7: Documentary Credits and Guarantees</span></span>](#fsa_intro_vhkw)  
   
--   [類別 8： 旅行者改走在](#fsa_intro_qlwo)  
+-   [<span data-ttu-id="10cea-115">類別 8： 旅行者改走在</span><span class="sxs-lookup"><span data-stu-id="10cea-115">Category 8: Travellers Cheques</span></span>](#fsa_intro_qlwo)  
   
--   [類別 9： 現金管理和客戶狀態](#fsa_intro_sptj)  
+-   [<span data-ttu-id="10cea-116">類別 9： 現金管理和客戶狀態</span><span class="sxs-lookup"><span data-stu-id="10cea-116">Category 9: Cash Management and Customer Status</span></span>](#fsa_intro_sptj)  
   
-##  <a name="fsa_intro_xtkj"></a>SWIFT 訊息-Microsoft  
- 下表描述[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]SWIFT 訊息之服務類型 GPA 和 FIN 控制項。  
+##  <span data-ttu-id="10cea-117"><a name="fsa_intro_xtkj"></a>SWIFT 訊息-Microsoft</span><span class="sxs-lookup"><span data-stu-id="10cea-117"><a name="fsa_intro_xtkj"></a> SWIFT Messages - Microsoft</span></span>  
+ <span data-ttu-id="10cea-118">下表描述[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]SWIFT 訊息之服務類型 GPA 和 FIN 控制項。</span><span class="sxs-lookup"><span data-stu-id="10cea-118">The following table describes the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] SWIFT messages for service types GPA and FIN Control.</span></span>  
   
-|訊息類型|Description|  
+|<span data-ttu-id="10cea-119">訊息類型</span><span class="sxs-lookup"><span data-stu-id="10cea-119">Message type</span></span>|<span data-ttu-id="10cea-120">Description</span><span class="sxs-lookup"><span data-stu-id="10cea-120">Description</span></span>|  
 |------------------|-----------------|  
-|**02**|登入要求訊息|  
-|**03**|選取命令|  
-|**05**|Quit 的命令|  
-|**06**|登出命令|  
-|**12**|系統移除應用程式要求|  
-|**13**|系統中止 AP 確認|  
-|**14**|若要移除 LT 系統要求|  
-|**15**|使用者起始 LT 中止的系統確認|  
-|**21**|LT (ACK/NAK) 所傳送的 GPA 訊息的認可|  
-|**21**|LT (ACK/NAK) 所接收的 GPA 訊息的認可|  
-|**21**|LT (ACK/NAK) 所傳送的 FIN 訊息的認可|  
-|**21**|LT (UAK/UNK) 所接收的 FIN 訊息的認可|  
-|**22**|登入正值通知 (LAK)|  
-|**23**|選取的要求 (SAK) 的認可|  
-|**25**|結束通知|  
-|**26**|登出通知|  
-|**33**|使用者中止 AP 要求|  
-|**35**|使用者要求以中止 LT (中止 LT)|  
-|**42**|登入負值通知 (LNK)|  
-|**43**|選取負值通知 (SNK)|  
+|<span data-ttu-id="10cea-121">**02**</span><span class="sxs-lookup"><span data-stu-id="10cea-121">**02**</span></span>|<span data-ttu-id="10cea-122">登入要求訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-122">Login Request Message</span></span>|  
+|<span data-ttu-id="10cea-123">**03**</span><span class="sxs-lookup"><span data-stu-id="10cea-123">**03**</span></span>|<span data-ttu-id="10cea-124">選取命令</span><span class="sxs-lookup"><span data-stu-id="10cea-124">Select Command</span></span>|  
+|<span data-ttu-id="10cea-125">**05**</span><span class="sxs-lookup"><span data-stu-id="10cea-125">**05**</span></span>|<span data-ttu-id="10cea-126">Quit 的命令</span><span class="sxs-lookup"><span data-stu-id="10cea-126">Quit Command</span></span>|  
+|<span data-ttu-id="10cea-127">**06**</span><span class="sxs-lookup"><span data-stu-id="10cea-127">**06**</span></span>|<span data-ttu-id="10cea-128">登出命令</span><span class="sxs-lookup"><span data-stu-id="10cea-128">Logout Command</span></span>|  
+|<span data-ttu-id="10cea-129">**12**</span><span class="sxs-lookup"><span data-stu-id="10cea-129">**12**</span></span>|<span data-ttu-id="10cea-130">系統移除應用程式要求</span><span class="sxs-lookup"><span data-stu-id="10cea-130">System Remove AP Request</span></span>|  
+|<span data-ttu-id="10cea-131">**13**</span><span class="sxs-lookup"><span data-stu-id="10cea-131">**13**</span></span>|<span data-ttu-id="10cea-132">系統中止 AP 確認</span><span class="sxs-lookup"><span data-stu-id="10cea-132">System Abort AP Confirmation</span></span>|  
+|<span data-ttu-id="10cea-133">**14**</span><span class="sxs-lookup"><span data-stu-id="10cea-133">**14**</span></span>|<span data-ttu-id="10cea-134">若要移除 LT 系統要求</span><span class="sxs-lookup"><span data-stu-id="10cea-134">System Request to Remove LT</span></span>|  
+|<span data-ttu-id="10cea-135">**15**</span><span class="sxs-lookup"><span data-stu-id="10cea-135">**15**</span></span>|<span data-ttu-id="10cea-136">使用者起始 LT 中止的系統確認</span><span class="sxs-lookup"><span data-stu-id="10cea-136">System Confirmation of User-initiated LT Abort</span></span>|  
+|<span data-ttu-id="10cea-137">**21**</span><span class="sxs-lookup"><span data-stu-id="10cea-137">**21**</span></span>|<span data-ttu-id="10cea-138">LT (ACK/NAK) 所傳送的 GPA 訊息的認可</span><span class="sxs-lookup"><span data-stu-id="10cea-138">Acknowledgement of a GPA Message Sent by an LT (ACK/NAK)</span></span>|  
+|<span data-ttu-id="10cea-139">**21**</span><span class="sxs-lookup"><span data-stu-id="10cea-139">**21**</span></span>|<span data-ttu-id="10cea-140">LT (ACK/NAK) 所接收的 GPA 訊息的認可</span><span class="sxs-lookup"><span data-stu-id="10cea-140">Acknowledgement of a GPA Message Received by an LT (ACK/NAK)</span></span>|  
+|<span data-ttu-id="10cea-141">**21**</span><span class="sxs-lookup"><span data-stu-id="10cea-141">**21**</span></span>|<span data-ttu-id="10cea-142">LT (ACK/NAK) 所傳送的 FIN 訊息的認可</span><span class="sxs-lookup"><span data-stu-id="10cea-142">Acknowledgement of a FIN Message Sent by an LT (ACK/NAK)</span></span>|  
+|<span data-ttu-id="10cea-143">**21**</span><span class="sxs-lookup"><span data-stu-id="10cea-143">**21**</span></span>|<span data-ttu-id="10cea-144">LT (UAK/UNK) 所接收的 FIN 訊息的認可</span><span class="sxs-lookup"><span data-stu-id="10cea-144">Acknowledgement of a FIN Message Received by an LT (UAK/UNK)</span></span>|  
+|<span data-ttu-id="10cea-145">**22**</span><span class="sxs-lookup"><span data-stu-id="10cea-145">**22**</span></span>|<span data-ttu-id="10cea-146">登入正值通知 (LAK)</span><span class="sxs-lookup"><span data-stu-id="10cea-146">Login Positive Acknowledgement (LAK)</span></span>|  
+|<span data-ttu-id="10cea-147">**23**</span><span class="sxs-lookup"><span data-stu-id="10cea-147">**23**</span></span>|<span data-ttu-id="10cea-148">選取的要求 (SAK) 的認可</span><span class="sxs-lookup"><span data-stu-id="10cea-148">Acknowledgement of a Select Request (SAK)</span></span>|  
+|<span data-ttu-id="10cea-149">**25**</span><span class="sxs-lookup"><span data-stu-id="10cea-149">**25**</span></span>|<span data-ttu-id="10cea-150">結束通知</span><span class="sxs-lookup"><span data-stu-id="10cea-150">Quit Acknowledgement</span></span>|  
+|<span data-ttu-id="10cea-151">**26**</span><span class="sxs-lookup"><span data-stu-id="10cea-151">**26**</span></span>|<span data-ttu-id="10cea-152">登出通知</span><span class="sxs-lookup"><span data-stu-id="10cea-152">Logout Acknowledgement</span></span>|  
+|<span data-ttu-id="10cea-153">**33**</span><span class="sxs-lookup"><span data-stu-id="10cea-153">**33**</span></span>|<span data-ttu-id="10cea-154">使用者中止 AP 要求</span><span class="sxs-lookup"><span data-stu-id="10cea-154">User Abort AP Request</span></span>|  
+|<span data-ttu-id="10cea-155">**35**</span><span class="sxs-lookup"><span data-stu-id="10cea-155">**35**</span></span>|<span data-ttu-id="10cea-156">使用者要求以中止 LT (中止 LT)</span><span class="sxs-lookup"><span data-stu-id="10cea-156">User Request to Abort LT (ABORT LT)</span></span>|  
+|<span data-ttu-id="10cea-157">**42**</span><span class="sxs-lookup"><span data-stu-id="10cea-157">**42**</span></span>|<span data-ttu-id="10cea-158">登入負值通知 (LNK)</span><span class="sxs-lookup"><span data-stu-id="10cea-158">Login Negative Acknowledgement (LNK)</span></span>|  
+|<span data-ttu-id="10cea-159">**43**</span><span class="sxs-lookup"><span data-stu-id="10cea-159">**43**</span></span>|<span data-ttu-id="10cea-160">選取負值通知 (SNK)</span><span class="sxs-lookup"><span data-stu-id="10cea-160">Select Negative Acknowledgement (SNK)</span></span>|  
   
-##  <a name="fsa_intro_xcpk"></a>類別 0: FIN 系統訊息  
- 下表描述訊息表單類別 0： 財務系統訊息，包括使用者 SWIFT 和 SWIFT 給使用者。  
+##  <span data-ttu-id="10cea-161"><a name="fsa_intro_xcpk"></a>類別 0: FIN 系統訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-161"><a name="fsa_intro_xcpk"></a> Category 0: FIN System Messages</span></span>  
+ <span data-ttu-id="10cea-162">下表描述訊息表單類別 0： 財務系統訊息，包括使用者 SWIFT 和 SWIFT 給使用者。</span><span class="sxs-lookup"><span data-stu-id="10cea-162">The following table describes messages form Category 0: Financial System Messages, including User to SWIFT and SWIFT to User.</span></span>  
   
-|訊息類型|Description|  
+|<span data-ttu-id="10cea-163">訊息類型</span><span class="sxs-lookup"><span data-stu-id="10cea-163">Message type</span></span>|<span data-ttu-id="10cea-164">Description</span><span class="sxs-lookup"><span data-stu-id="10cea-164">Description</span></span>|  
 |------------------|-----------------|  
-|**MT 008**|若要結束的系統要求|  
-|**MT 009**|登出系統要求|  
-|**MT 010**|未傳遞警告|  
-|**MT 011**|傳遞通知|  
-|**MT 012**|寄件者通知|  
-|**MT 015**|延遲的 NAK|  
-|**MT 019**|中止通知|  
-|**MT 020**|擷取要求 （文字和歷程記錄）|  
-|**MT 021**|擷取的訊息 （文字和歷程記錄）|  
-|**MT 022**|擷取要求 （記錄）|  
-|**MT 023**|擷取的訊息 （記錄）|  
-|**MT 028**|FIN 複製訊息狀態要求|  
-|**MT 029**|FIN 複製訊息狀態報告|  
-|**MT 031**|工作階段歷程記錄的要求|  
-|**MT 032**|傳遞子集狀態要求|  
-|**MT 035**|傳遞指令要求|  
-|**MT 036**|LT 記錄要求|  
-|**MT 037**|時區狀態要求|  
-|**MT 041**|選取 FIN 的狀態要求|  
-|**MT 042**|清單要求時間的截止|  
-|**MT 043**|非銀行天列出要求|  
-|**MT 044**|未傳遞的報告規則重複定義|  
-|**MT 045**|每日檢查時間變更要求|  
-|**MT 046**|未傳遞的訊息報表的要求|  
-|**MT 047**|傳遞指示重複要求|  
-|**MT 048**|未傳遞的報告規則要求|  
-|**MT 049**|每日檢查報表時間查詢|  
-|**MT 051**|工作階段歷程記錄報告|  
-|**MT 052**|傳遞子集狀態報告|  
-|**MT 055**|指示未傳遞報告|  
-|**MT 056**|LT 歷程記錄報表|  
-|**MT 057**|時區 [狀態] 報告|  
-|**MT 061**|選取 FIN 的狀態報表|  
-|**MT 062**|截止時間清單報告|  
-|**MT 063**|非銀行天清單報告|  
-|**MT 064**|未傳遞的報告規則變更報表|  
-|**MT 065**|時間變更報表中的每日檢查報告|  
-|**MT 066**|請求訊息未傳遞的報告|  
-|**MT 067**|指示重新定義未傳遞報告|  
-|**MT 068**|未傳遞的報告規則|  
-|**MT 069**|每日檢查的狀態報告的時間|  
-|**MT 072**|測試模式選取項目|  
-|**MT 073**|訊息範例要求|  
-|**MT 074**|廣播的要求|  
-|**MT 075**|憑證要求|  
-|**MT 076**|憑證錯誤|  
-|**MT 077**|其他的選取準則，以便尋找|  
-|**MT 081**|每日檢查報告|  
-|**MT 082**|未傳遞的訊息報表以固定的時間|  
-|**MT 083**|無法傳遞之訊息的報表在截止時間|  
-|**MT 085**|ICC 傳遞資訊|  
-|**MT 087**|憑證回應|  
-|**MT 090**|使用者-SWIFT 訊息|  
-|**MT 092**|SWIFT-使用者訊息|  
-|**MT 094**|廣播|  
-|**MT 096**|FIN 複製至中央機構訊息|  
-|**MT 097**|FIN 複製訊息的授權/拒絕通知|  
+|<span data-ttu-id="10cea-165">**MT 008**</span><span class="sxs-lookup"><span data-stu-id="10cea-165">**MT 008**</span></span>|<span data-ttu-id="10cea-166">若要結束的系統要求</span><span class="sxs-lookup"><span data-stu-id="10cea-166">System Request to Quit</span></span>|  
+|<span data-ttu-id="10cea-167">**MT 009**</span><span class="sxs-lookup"><span data-stu-id="10cea-167">**MT 009**</span></span>|<span data-ttu-id="10cea-168">登出系統要求</span><span class="sxs-lookup"><span data-stu-id="10cea-168">System Request to Logout</span></span>|  
+|<span data-ttu-id="10cea-169">**MT 010**</span><span class="sxs-lookup"><span data-stu-id="10cea-169">**MT 010**</span></span>|<span data-ttu-id="10cea-170">未傳遞警告</span><span class="sxs-lookup"><span data-stu-id="10cea-170">Non-Delivery Warning</span></span>|  
+|<span data-ttu-id="10cea-171">**MT 011**</span><span class="sxs-lookup"><span data-stu-id="10cea-171">**MT 011**</span></span>|<span data-ttu-id="10cea-172">傳遞通知</span><span class="sxs-lookup"><span data-stu-id="10cea-172">Delivery Notification</span></span>|  
+|<span data-ttu-id="10cea-173">**MT 012**</span><span class="sxs-lookup"><span data-stu-id="10cea-173">**MT 012**</span></span>|<span data-ttu-id="10cea-174">寄件者通知</span><span class="sxs-lookup"><span data-stu-id="10cea-174">Sender Notification</span></span>|  
+|<span data-ttu-id="10cea-175">**MT 015**</span><span class="sxs-lookup"><span data-stu-id="10cea-175">**MT 015**</span></span>|<span data-ttu-id="10cea-176">延遲的 NAK</span><span class="sxs-lookup"><span data-stu-id="10cea-176">Delayed NAK</span></span>|  
+|<span data-ttu-id="10cea-177">**MT 019**</span><span class="sxs-lookup"><span data-stu-id="10cea-177">**MT 019**</span></span>|<span data-ttu-id="10cea-178">中止通知</span><span class="sxs-lookup"><span data-stu-id="10cea-178">Abort Notification</span></span>|  
+|<span data-ttu-id="10cea-179">**MT 020**</span><span class="sxs-lookup"><span data-stu-id="10cea-179">**MT 020**</span></span>|<span data-ttu-id="10cea-180">擷取要求 （文字和歷程記錄）</span><span class="sxs-lookup"><span data-stu-id="10cea-180">Retrieval Request (Text and History)</span></span>|  
+|<span data-ttu-id="10cea-181">**MT 021**</span><span class="sxs-lookup"><span data-stu-id="10cea-181">**MT 021**</span></span>|<span data-ttu-id="10cea-182">擷取的訊息 （文字和歷程記錄）</span><span class="sxs-lookup"><span data-stu-id="10cea-182">Retrieved Message (Text and History)</span></span>|  
+|<span data-ttu-id="10cea-183">**MT 022**</span><span class="sxs-lookup"><span data-stu-id="10cea-183">**MT 022**</span></span>|<span data-ttu-id="10cea-184">擷取要求 （記錄）</span><span class="sxs-lookup"><span data-stu-id="10cea-184">Retrieval Request (History)</span></span>|  
+|<span data-ttu-id="10cea-185">**MT 023**</span><span class="sxs-lookup"><span data-stu-id="10cea-185">**MT 023**</span></span>|<span data-ttu-id="10cea-186">擷取的訊息 （記錄）</span><span class="sxs-lookup"><span data-stu-id="10cea-186">Retrieved Message (History)</span></span>|  
+|<span data-ttu-id="10cea-187">**MT 028**</span><span class="sxs-lookup"><span data-stu-id="10cea-187">**MT 028**</span></span>|<span data-ttu-id="10cea-188">FIN 複製訊息狀態要求</span><span class="sxs-lookup"><span data-stu-id="10cea-188">FIN Copy Message Status Request</span></span>|  
+|<span data-ttu-id="10cea-189">**MT 029**</span><span class="sxs-lookup"><span data-stu-id="10cea-189">**MT 029**</span></span>|<span data-ttu-id="10cea-190">FIN 複製訊息狀態報告</span><span class="sxs-lookup"><span data-stu-id="10cea-190">FIN Copy Message Status Report</span></span>|  
+|<span data-ttu-id="10cea-191">**MT 031**</span><span class="sxs-lookup"><span data-stu-id="10cea-191">**MT 031**</span></span>|<span data-ttu-id="10cea-192">工作階段歷程記錄的要求</span><span class="sxs-lookup"><span data-stu-id="10cea-192">Session History Request</span></span>|  
+|<span data-ttu-id="10cea-193">**MT 032**</span><span class="sxs-lookup"><span data-stu-id="10cea-193">**MT 032**</span></span>|<span data-ttu-id="10cea-194">傳遞子集狀態要求</span><span class="sxs-lookup"><span data-stu-id="10cea-194">Delivery Subset Status Request</span></span>|  
+|<span data-ttu-id="10cea-195">**MT 035**</span><span class="sxs-lookup"><span data-stu-id="10cea-195">**MT 035**</span></span>|<span data-ttu-id="10cea-196">傳遞指令要求</span><span class="sxs-lookup"><span data-stu-id="10cea-196">Delivery Instruction Request</span></span>|  
+|<span data-ttu-id="10cea-197">**MT 036**</span><span class="sxs-lookup"><span data-stu-id="10cea-197">**MT 036**</span></span>|<span data-ttu-id="10cea-198">LT 記錄要求</span><span class="sxs-lookup"><span data-stu-id="10cea-198">LT History Request</span></span>|  
+|<span data-ttu-id="10cea-199">**MT 037**</span><span class="sxs-lookup"><span data-stu-id="10cea-199">**MT 037**</span></span>|<span data-ttu-id="10cea-200">時區狀態要求</span><span class="sxs-lookup"><span data-stu-id="10cea-200">Time Zone Status Request</span></span>|  
+|<span data-ttu-id="10cea-201">**MT 041**</span><span class="sxs-lookup"><span data-stu-id="10cea-201">**MT 041**</span></span>|<span data-ttu-id="10cea-202">選取 FIN 的狀態要求</span><span class="sxs-lookup"><span data-stu-id="10cea-202">Select Status Request for FIN</span></span>|  
+|<span data-ttu-id="10cea-203">**MT 042**</span><span class="sxs-lookup"><span data-stu-id="10cea-203">**MT 042**</span></span>|<span data-ttu-id="10cea-204">清單要求時間的截止</span><span class="sxs-lookup"><span data-stu-id="10cea-204">Cut-off Times List Request</span></span>|  
+|<span data-ttu-id="10cea-205">**MT 043**</span><span class="sxs-lookup"><span data-stu-id="10cea-205">**MT 043**</span></span>|<span data-ttu-id="10cea-206">非銀行天列出要求</span><span class="sxs-lookup"><span data-stu-id="10cea-206">Non-Banking Days List Request</span></span>|  
+|<span data-ttu-id="10cea-207">**MT 044**</span><span class="sxs-lookup"><span data-stu-id="10cea-207">**MT 044**</span></span>|<span data-ttu-id="10cea-208">未傳遞的報告規則重複定義</span><span class="sxs-lookup"><span data-stu-id="10cea-208">Undelivered Report Rules Redefinition</span></span>|  
+|<span data-ttu-id="10cea-209">**MT 045**</span><span class="sxs-lookup"><span data-stu-id="10cea-209">**MT 045**</span></span>|<span data-ttu-id="10cea-210">每日檢查時間變更要求</span><span class="sxs-lookup"><span data-stu-id="10cea-210">Daily Check Time Change Request</span></span>|  
+|<span data-ttu-id="10cea-211">**MT 046**</span><span class="sxs-lookup"><span data-stu-id="10cea-211">**MT 046**</span></span>|<span data-ttu-id="10cea-212">未傳遞的訊息報表的要求</span><span class="sxs-lookup"><span data-stu-id="10cea-212">Undelivered Message Report Request</span></span>|  
+|<span data-ttu-id="10cea-213">**MT 047**</span><span class="sxs-lookup"><span data-stu-id="10cea-213">**MT 047**</span></span>|<span data-ttu-id="10cea-214">傳遞指示重複要求</span><span class="sxs-lookup"><span data-stu-id="10cea-214">Delivery Instructions Redefinition Request</span></span>|  
+|<span data-ttu-id="10cea-215">**MT 048**</span><span class="sxs-lookup"><span data-stu-id="10cea-215">**MT 048**</span></span>|<span data-ttu-id="10cea-216">未傳遞的報告規則要求</span><span class="sxs-lookup"><span data-stu-id="10cea-216">Undelivered Report Rules Request</span></span>|  
+|<span data-ttu-id="10cea-217">**MT 049**</span><span class="sxs-lookup"><span data-stu-id="10cea-217">**MT 049**</span></span>|<span data-ttu-id="10cea-218">每日檢查報表時間查詢</span><span class="sxs-lookup"><span data-stu-id="10cea-218">Daily Check Report Time Query</span></span>|  
+|<span data-ttu-id="10cea-219">**MT 051**</span><span class="sxs-lookup"><span data-stu-id="10cea-219">**MT 051**</span></span>|<span data-ttu-id="10cea-220">工作階段歷程記錄報告</span><span class="sxs-lookup"><span data-stu-id="10cea-220">Session History Report</span></span>|  
+|<span data-ttu-id="10cea-221">**MT 052**</span><span class="sxs-lookup"><span data-stu-id="10cea-221">**MT 052**</span></span>|<span data-ttu-id="10cea-222">傳遞子集狀態報告</span><span class="sxs-lookup"><span data-stu-id="10cea-222">Delivery Subset Status Report</span></span>|  
+|<span data-ttu-id="10cea-223">**MT 055**</span><span class="sxs-lookup"><span data-stu-id="10cea-223">**MT 055**</span></span>|<span data-ttu-id="10cea-224">指示未傳遞報告</span><span class="sxs-lookup"><span data-stu-id="10cea-224">Delivery Instructions Report</span></span>|  
+|<span data-ttu-id="10cea-225">**MT 056**</span><span class="sxs-lookup"><span data-stu-id="10cea-225">**MT 056**</span></span>|<span data-ttu-id="10cea-226">LT 歷程記錄報表</span><span class="sxs-lookup"><span data-stu-id="10cea-226">LT History Report</span></span>|  
+|<span data-ttu-id="10cea-227">**MT 057**</span><span class="sxs-lookup"><span data-stu-id="10cea-227">**MT 057**</span></span>|<span data-ttu-id="10cea-228">時區 [狀態] 報告</span><span class="sxs-lookup"><span data-stu-id="10cea-228">Time Zone Status Report</span></span>|  
+|<span data-ttu-id="10cea-229">**MT 061**</span><span class="sxs-lookup"><span data-stu-id="10cea-229">**MT 061**</span></span>|<span data-ttu-id="10cea-230">選取 FIN 的狀態報表</span><span class="sxs-lookup"><span data-stu-id="10cea-230">Select Status Report for FIN</span></span>|  
+|<span data-ttu-id="10cea-231">**MT 062**</span><span class="sxs-lookup"><span data-stu-id="10cea-231">**MT 062**</span></span>|<span data-ttu-id="10cea-232">截止時間清單報告</span><span class="sxs-lookup"><span data-stu-id="10cea-232">Cut-off Time List Report</span></span>|  
+|<span data-ttu-id="10cea-233">**MT 063**</span><span class="sxs-lookup"><span data-stu-id="10cea-233">**MT 063**</span></span>|<span data-ttu-id="10cea-234">非銀行天清單報告</span><span class="sxs-lookup"><span data-stu-id="10cea-234">Non-Banking Days List Report</span></span>|  
+|<span data-ttu-id="10cea-235">**MT 064**</span><span class="sxs-lookup"><span data-stu-id="10cea-235">**MT 064**</span></span>|<span data-ttu-id="10cea-236">未傳遞的報告規則變更報表</span><span class="sxs-lookup"><span data-stu-id="10cea-236">Undelivered Report Rules Change Report</span></span>|  
+|<span data-ttu-id="10cea-237">**MT 065**</span><span class="sxs-lookup"><span data-stu-id="10cea-237">**MT 065**</span></span>|<span data-ttu-id="10cea-238">時間變更報表中的每日檢查報告</span><span class="sxs-lookup"><span data-stu-id="10cea-238">Time Change Report for Daily Check Report</span></span>|  
+|<span data-ttu-id="10cea-239">**MT 066**</span><span class="sxs-lookup"><span data-stu-id="10cea-239">**MT 066**</span></span>|<span data-ttu-id="10cea-240">請求訊息未傳遞的報告</span><span class="sxs-lookup"><span data-stu-id="10cea-240">Solicited Undelivered Message Report</span></span>|  
+|<span data-ttu-id="10cea-241">**MT 067**</span><span class="sxs-lookup"><span data-stu-id="10cea-241">**MT 067**</span></span>|<span data-ttu-id="10cea-242">指示重新定義未傳遞報告</span><span class="sxs-lookup"><span data-stu-id="10cea-242">Delivery Instructions Redefinition Report</span></span>|  
+|<span data-ttu-id="10cea-243">**MT 068**</span><span class="sxs-lookup"><span data-stu-id="10cea-243">**MT 068**</span></span>|<span data-ttu-id="10cea-244">未傳遞的報告規則</span><span class="sxs-lookup"><span data-stu-id="10cea-244">Undelivered Report Rules</span></span>|  
+|<span data-ttu-id="10cea-245">**MT 069**</span><span class="sxs-lookup"><span data-stu-id="10cea-245">**MT 069**</span></span>|<span data-ttu-id="10cea-246">每日檢查的狀態報告的時間</span><span class="sxs-lookup"><span data-stu-id="10cea-246">Daily Check Report Time Status</span></span>|  
+|<span data-ttu-id="10cea-247">**MT 072**</span><span class="sxs-lookup"><span data-stu-id="10cea-247">**MT 072**</span></span>|<span data-ttu-id="10cea-248">測試模式選取項目</span><span class="sxs-lookup"><span data-stu-id="10cea-248">Test Mode Selection</span></span>|  
+|<span data-ttu-id="10cea-249">**MT 073**</span><span class="sxs-lookup"><span data-stu-id="10cea-249">**MT 073**</span></span>|<span data-ttu-id="10cea-250">訊息範例要求</span><span class="sxs-lookup"><span data-stu-id="10cea-250">Message Sample Request</span></span>|  
+|<span data-ttu-id="10cea-251">**MT 074**</span><span class="sxs-lookup"><span data-stu-id="10cea-251">**MT 074**</span></span>|<span data-ttu-id="10cea-252">廣播的要求</span><span class="sxs-lookup"><span data-stu-id="10cea-252">Broadcast Request</span></span>|  
+|<span data-ttu-id="10cea-253">**MT 075**</span><span class="sxs-lookup"><span data-stu-id="10cea-253">**MT 075**</span></span>|<span data-ttu-id="10cea-254">憑證要求</span><span class="sxs-lookup"><span data-stu-id="10cea-254">Certification Request</span></span>|  
+|<span data-ttu-id="10cea-255">**MT 076**</span><span class="sxs-lookup"><span data-stu-id="10cea-255">**MT 076**</span></span>|<span data-ttu-id="10cea-256">憑證錯誤</span><span class="sxs-lookup"><span data-stu-id="10cea-256">Certification Error</span></span>|  
+|<span data-ttu-id="10cea-257">**MT 077**</span><span class="sxs-lookup"><span data-stu-id="10cea-257">**MT 077**</span></span>|<span data-ttu-id="10cea-258">其他的選取準則，以便尋找</span><span class="sxs-lookup"><span data-stu-id="10cea-258">Additional Selection Criteria for FIN</span></span>|  
+|<span data-ttu-id="10cea-259">**MT 081**</span><span class="sxs-lookup"><span data-stu-id="10cea-259">**MT 081**</span></span>|<span data-ttu-id="10cea-260">每日檢查報告</span><span class="sxs-lookup"><span data-stu-id="10cea-260">Daily Check Report</span></span>|  
+|<span data-ttu-id="10cea-261">**MT 082**</span><span class="sxs-lookup"><span data-stu-id="10cea-261">**MT 082**</span></span>|<span data-ttu-id="10cea-262">未傳遞的訊息報表以固定的時間</span><span class="sxs-lookup"><span data-stu-id="10cea-262">Undelivered Message Report at a Fixed Hour</span></span>|  
+|<span data-ttu-id="10cea-263">**MT 083**</span><span class="sxs-lookup"><span data-stu-id="10cea-263">**MT 083**</span></span>|<span data-ttu-id="10cea-264">無法傳遞之訊息的報表在截止時間</span><span class="sxs-lookup"><span data-stu-id="10cea-264">Undelivered Message Report at Cut-off Time</span></span>|  
+|<span data-ttu-id="10cea-265">**MT 085**</span><span class="sxs-lookup"><span data-stu-id="10cea-265">**MT 085**</span></span>|<span data-ttu-id="10cea-266">ICC 傳遞資訊</span><span class="sxs-lookup"><span data-stu-id="10cea-266">ICC Delivery Information</span></span>|  
+|<span data-ttu-id="10cea-267">**MT 087**</span><span class="sxs-lookup"><span data-stu-id="10cea-267">**MT 087**</span></span>|<span data-ttu-id="10cea-268">憑證回應</span><span class="sxs-lookup"><span data-stu-id="10cea-268">Certification Response</span></span>|  
+|<span data-ttu-id="10cea-269">**MT 090**</span><span class="sxs-lookup"><span data-stu-id="10cea-269">**MT 090**</span></span>|<span data-ttu-id="10cea-270">使用者-SWIFT 訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-270">User-to-SWIFT Message</span></span>|  
+|<span data-ttu-id="10cea-271">**MT 092**</span><span class="sxs-lookup"><span data-stu-id="10cea-271">**MT 092**</span></span>|<span data-ttu-id="10cea-272">SWIFT-使用者訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-272">SWIFT-to-User Message</span></span>|  
+|<span data-ttu-id="10cea-273">**MT 094**</span><span class="sxs-lookup"><span data-stu-id="10cea-273">**MT 094**</span></span>|<span data-ttu-id="10cea-274">廣播</span><span class="sxs-lookup"><span data-stu-id="10cea-274">Broadcast</span></span>|  
+|<span data-ttu-id="10cea-275">**MT 096**</span><span class="sxs-lookup"><span data-stu-id="10cea-275">**MT 096**</span></span>|<span data-ttu-id="10cea-276">FIN 複製至中央機構訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-276">FIN Copy to Central Institution Message</span></span>|  
+|<span data-ttu-id="10cea-277">**MT 097**</span><span class="sxs-lookup"><span data-stu-id="10cea-277">**MT 097**</span></span>|<span data-ttu-id="10cea-278">FIN 複製訊息的授權/拒絕通知</span><span class="sxs-lookup"><span data-stu-id="10cea-278">FIN Copy Message Authorization/Refusal Notification</span></span>|  
   
-##  <a name="fsa_intro_lxnf"></a>類別目錄 1： 客戶付款作業並檢查  
- 下表描述從類別 1 訊息： 付款及檢查。  
+##  <span data-ttu-id="10cea-279"><a name="fsa_intro_lxnf"></a>類別目錄 1： 客戶付款作業並檢查</span><span class="sxs-lookup"><span data-stu-id="10cea-279"><a name="fsa_intro_lxnf"></a> Category 1: Customer Payments and Checks</span></span>  
+ <span data-ttu-id="10cea-280">下表描述從類別 1 訊息： 付款及檢查。</span><span class="sxs-lookup"><span data-stu-id="10cea-280">The following table describes messages from Category 1: Payments and Checks.</span></span>  
   
-|訊息類型|Description|  
+|<span data-ttu-id="10cea-281">訊息類型</span><span class="sxs-lookup"><span data-stu-id="10cea-281">Message type</span></span>|<span data-ttu-id="10cea-282">Description</span><span class="sxs-lookup"><span data-stu-id="10cea-282">Description</span></span>|  
 |------------------|-----------------|  
-|**MT 101**|傳輸的要求|  
-|**MT 102**|多個客戶傳輸|  
-|**MT 102 +**|多個客戶傳輸 (STP)|  
-|**MT 103**|單一客戶的信用額度傳輸|  
-|**MT 103 +**|單一客戶的信用額度傳輸 (STP)|  
-|**MT 104**|直接扣款和付款傳輸訊息的要求|  
-|**MT 105**|EDIFACT 信封|  
-|**MT 106**|EDIFACT 信封|  
-|**MT 107**|一般直接付款訊息|  
-|**MT 110**|Cheque(s) 的建議|  
-|**MT 111**|要求停止支付支票|  
-|**MT 112**|停止支付支票要求的狀態|  
-|**MT 121**|多個 Interbank 資金傳輸 (EDIFACT FINPAY)|  
-|**MT 190**|費用、 感興趣，而其他調整的建議|  
-|**MT 191**|支付費用、 感興趣，而其他費用的要求|  
-|**MT 192**|取消要求|  
-|**MT 195**|查詢|  
-|**MT 196**|答案|  
-|**MT 198**|專屬的訊息|  
-|**MT 199**|可用的格式訊息|  
+|<span data-ttu-id="10cea-283">**MT 101**</span><span class="sxs-lookup"><span data-stu-id="10cea-283">**MT 101**</span></span>|<span data-ttu-id="10cea-284">傳輸的要求</span><span class="sxs-lookup"><span data-stu-id="10cea-284">Request for Transfer</span></span>|  
+|<span data-ttu-id="10cea-285">**MT 102**</span><span class="sxs-lookup"><span data-stu-id="10cea-285">**MT 102**</span></span>|<span data-ttu-id="10cea-286">多個客戶傳輸</span><span class="sxs-lookup"><span data-stu-id="10cea-286">Multiple Customer Transfer</span></span>|  
+|<span data-ttu-id="10cea-287">**MT 102 +**</span><span class="sxs-lookup"><span data-stu-id="10cea-287">**MT 102+**</span></span>|<span data-ttu-id="10cea-288">多個客戶傳輸 (STP)</span><span class="sxs-lookup"><span data-stu-id="10cea-288">Multiple Customer Transfer (STP)</span></span>|  
+|<span data-ttu-id="10cea-289">**MT 103**</span><span class="sxs-lookup"><span data-stu-id="10cea-289">**MT 103**</span></span>|<span data-ttu-id="10cea-290">單一客戶的信用額度傳輸</span><span class="sxs-lookup"><span data-stu-id="10cea-290">Single Customer Credit Transfer</span></span>|  
+|<span data-ttu-id="10cea-291">**MT 103 +**</span><span class="sxs-lookup"><span data-stu-id="10cea-291">**MT 103+**</span></span>|<span data-ttu-id="10cea-292">單一客戶的信用額度傳輸 (STP)</span><span class="sxs-lookup"><span data-stu-id="10cea-292">Single Customer Credit Transfer (STP)</span></span>|  
+|<span data-ttu-id="10cea-293">**MT 104**</span><span class="sxs-lookup"><span data-stu-id="10cea-293">**MT 104**</span></span>|<span data-ttu-id="10cea-294">直接扣款和付款傳輸訊息的要求</span><span class="sxs-lookup"><span data-stu-id="10cea-294">Direct Debit and Request for Debit Transfer Message</span></span>|  
+|<span data-ttu-id="10cea-295">**MT 105**</span><span class="sxs-lookup"><span data-stu-id="10cea-295">**MT 105**</span></span>|<span data-ttu-id="10cea-296">EDIFACT 信封</span><span class="sxs-lookup"><span data-stu-id="10cea-296">EDIFACT Envelope</span></span>|  
+|<span data-ttu-id="10cea-297">**MT 106**</span><span class="sxs-lookup"><span data-stu-id="10cea-297">**MT 106**</span></span>|<span data-ttu-id="10cea-298">EDIFACT 信封</span><span class="sxs-lookup"><span data-stu-id="10cea-298">EDIFACT Envelope</span></span>|  
+|<span data-ttu-id="10cea-299">**MT 107**</span><span class="sxs-lookup"><span data-stu-id="10cea-299">**MT 107**</span></span>|<span data-ttu-id="10cea-300">一般直接付款訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-300">General Direct Debit Message</span></span>|  
+|<span data-ttu-id="10cea-301">**MT 110**</span><span class="sxs-lookup"><span data-stu-id="10cea-301">**MT 110**</span></span>|<span data-ttu-id="10cea-302">Cheque(s) 的建議</span><span class="sxs-lookup"><span data-stu-id="10cea-302">Advice of Cheque(s)</span></span>|  
+|<span data-ttu-id="10cea-303">**MT 111**</span><span class="sxs-lookup"><span data-stu-id="10cea-303">**MT 111**</span></span>|<span data-ttu-id="10cea-304">要求停止支付支票</span><span class="sxs-lookup"><span data-stu-id="10cea-304">Request for Stop Payment of a Cheque</span></span>|  
+|<span data-ttu-id="10cea-305">**MT 112**</span><span class="sxs-lookup"><span data-stu-id="10cea-305">**MT 112**</span></span>|<span data-ttu-id="10cea-306">停止支付支票要求的狀態</span><span class="sxs-lookup"><span data-stu-id="10cea-306">Status of a Request for Stop Payment of a Cheque</span></span>|  
+|<span data-ttu-id="10cea-307">**MT 121**</span><span class="sxs-lookup"><span data-stu-id="10cea-307">**MT 121**</span></span>|<span data-ttu-id="10cea-308">多個 Interbank 資金傳輸 (EDIFACT FINPAY)</span><span class="sxs-lookup"><span data-stu-id="10cea-308">Multiple Interbank Funds Transfer (EDIFACT FINPAY)</span></span>|  
+|<span data-ttu-id="10cea-309">**MT 190**</span><span class="sxs-lookup"><span data-stu-id="10cea-309">**MT 190**</span></span>|<span data-ttu-id="10cea-310">費用、 感興趣，而其他調整的建議</span><span class="sxs-lookup"><span data-stu-id="10cea-310">Advice of Charges, Interest and Other Adjustments</span></span>|  
+|<span data-ttu-id="10cea-311">**MT 191**</span><span class="sxs-lookup"><span data-stu-id="10cea-311">**MT 191**</span></span>|<span data-ttu-id="10cea-312">支付費用、 感興趣，而其他費用的要求</span><span class="sxs-lookup"><span data-stu-id="10cea-312">Request for Payment of Charges, Interest and Other Expenses</span></span>|  
+|<span data-ttu-id="10cea-313">**MT 192**</span><span class="sxs-lookup"><span data-stu-id="10cea-313">**MT 192**</span></span>|<span data-ttu-id="10cea-314">取消要求</span><span class="sxs-lookup"><span data-stu-id="10cea-314">Request for Cancellation</span></span>|  
+|<span data-ttu-id="10cea-315">**MT 195**</span><span class="sxs-lookup"><span data-stu-id="10cea-315">**MT 195**</span></span>|<span data-ttu-id="10cea-316">查詢</span><span class="sxs-lookup"><span data-stu-id="10cea-316">Queries</span></span>|  
+|<span data-ttu-id="10cea-317">**MT 196**</span><span class="sxs-lookup"><span data-stu-id="10cea-317">**MT 196**</span></span>|<span data-ttu-id="10cea-318">答案</span><span class="sxs-lookup"><span data-stu-id="10cea-318">Answers</span></span>|  
+|<span data-ttu-id="10cea-319">**MT 198**</span><span class="sxs-lookup"><span data-stu-id="10cea-319">**MT 198**</span></span>|<span data-ttu-id="10cea-320">專屬的訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-320">Proprietary Message</span></span>|  
+|<span data-ttu-id="10cea-321">**MT 199**</span><span class="sxs-lookup"><span data-stu-id="10cea-321">**MT 199**</span></span>|<span data-ttu-id="10cea-322">可用的格式訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-322">Free Format Message</span></span>|  
   
-##  <a name="fsa_intro_fywg"></a>類別目錄 2： 金融機構傳輸  
- 下表描述從類別目錄 2 訊息： 金融機構傳輸。  
+##  <span data-ttu-id="10cea-323"><a name="fsa_intro_fywg"></a>類別目錄 2： 金融機構傳輸</span><span class="sxs-lookup"><span data-stu-id="10cea-323"><a name="fsa_intro_fywg"></a> Category 2: Financial Institution Transfers</span></span>  
+ <span data-ttu-id="10cea-324">下表描述從類別目錄 2 訊息： 金融機構傳輸。</span><span class="sxs-lookup"><span data-stu-id="10cea-324">The following table describes messages from Category 2: Financial Institution Transfers.</span></span>  
   
-|訊息類型|Description|  
+|<span data-ttu-id="10cea-325">訊息類型</span><span class="sxs-lookup"><span data-stu-id="10cea-325">Message type</span></span>|<span data-ttu-id="10cea-326">Description</span><span class="sxs-lookup"><span data-stu-id="10cea-326">Description</span></span>|  
 |------------------|-----------------|  
-|**MT 200**|金融機構傳送它自己的帳戶|  
-|**MT 201**|多個金融機構傳送它自己的帳戶|  
-|**MT 202**|一般的金融機構傳輸|  
-|**MT 203**|多個一般的金融機構傳輸|  
-|**MT 204**|金融市場現金訊息|  
-|**MT 205**|金融機構傳輸執行|  
-|**MT 206**|支票截斷訊息|  
-|**MT 207**|金融機構傳輸的要求|  
-|**MT 210**|若要接收通知|  
-|**MT 256**|非付款的在的建議|  
-|**MT 290**|費用、 感興趣，而其他調整的建議|  
-|**MT 291**|支付費用、 感興趣，而其他費用的要求|  
-|**MT 292**|取消要求|  
-|**MT 293**|資訊服務的訊息|  
-|**MT 295**|查詢|  
-|**MT 296**|答案|  
-|**MT 298**|專屬的訊息|  
-|**MT 299**|可用的格式訊息|  
+|<span data-ttu-id="10cea-327">**MT 200**</span><span class="sxs-lookup"><span data-stu-id="10cea-327">**MT 200**</span></span>|<span data-ttu-id="10cea-328">金融機構傳送它自己的帳戶</span><span class="sxs-lookup"><span data-stu-id="10cea-328">Financial Institution Transfer for its Own Account</span></span>|  
+|<span data-ttu-id="10cea-329">**MT 201**</span><span class="sxs-lookup"><span data-stu-id="10cea-329">**MT 201**</span></span>|<span data-ttu-id="10cea-330">多個金融機構傳送它自己的帳戶</span><span class="sxs-lookup"><span data-stu-id="10cea-330">Multiple Financial Institution Transfer for its Own Account</span></span>|  
+|<span data-ttu-id="10cea-331">**MT 202**</span><span class="sxs-lookup"><span data-stu-id="10cea-331">**MT 202**</span></span>|<span data-ttu-id="10cea-332">一般的金融機構傳輸</span><span class="sxs-lookup"><span data-stu-id="10cea-332">General Financial Institution Transfer</span></span>|  
+|<span data-ttu-id="10cea-333">**MT 203**</span><span class="sxs-lookup"><span data-stu-id="10cea-333">**MT 203**</span></span>|<span data-ttu-id="10cea-334">多個一般的金融機構傳輸</span><span class="sxs-lookup"><span data-stu-id="10cea-334">Multiple General Financial Institution Transfer</span></span>|  
+|<span data-ttu-id="10cea-335">**MT 204**</span><span class="sxs-lookup"><span data-stu-id="10cea-335">**MT 204**</span></span>|<span data-ttu-id="10cea-336">金融市場現金訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-336">Financial Markets Direct Debit Message</span></span>|  
+|<span data-ttu-id="10cea-337">**MT 205**</span><span class="sxs-lookup"><span data-stu-id="10cea-337">**MT 205**</span></span>|<span data-ttu-id="10cea-338">金融機構傳輸執行</span><span class="sxs-lookup"><span data-stu-id="10cea-338">Financial Institution Transfer Execution</span></span>|  
+|<span data-ttu-id="10cea-339">**MT 206**</span><span class="sxs-lookup"><span data-stu-id="10cea-339">**MT 206**</span></span>|<span data-ttu-id="10cea-340">支票截斷訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-340">Cheque Truncation Message</span></span>|  
+|<span data-ttu-id="10cea-341">**MT 207**</span><span class="sxs-lookup"><span data-stu-id="10cea-341">**MT 207**</span></span>|<span data-ttu-id="10cea-342">金融機構傳輸的要求</span><span class="sxs-lookup"><span data-stu-id="10cea-342">Request for Financial Institution Transfer</span></span>|  
+|<span data-ttu-id="10cea-343">**MT 210**</span><span class="sxs-lookup"><span data-stu-id="10cea-343">**MT 210**</span></span>|<span data-ttu-id="10cea-344">若要接收通知</span><span class="sxs-lookup"><span data-stu-id="10cea-344">Notice to Receive</span></span>|  
+|<span data-ttu-id="10cea-345">**MT 256**</span><span class="sxs-lookup"><span data-stu-id="10cea-345">**MT 256**</span></span>|<span data-ttu-id="10cea-346">非付款的在的建議</span><span class="sxs-lookup"><span data-stu-id="10cea-346">Advice of Non-Payment of Cheques</span></span>|  
+|<span data-ttu-id="10cea-347">**MT 290**</span><span class="sxs-lookup"><span data-stu-id="10cea-347">**MT 290**</span></span>|<span data-ttu-id="10cea-348">費用、 感興趣，而其他調整的建議</span><span class="sxs-lookup"><span data-stu-id="10cea-348">Advice of Charges, Interest and Other Adjustments</span></span>|  
+|<span data-ttu-id="10cea-349">**MT 291**</span><span class="sxs-lookup"><span data-stu-id="10cea-349">**MT 291**</span></span>|<span data-ttu-id="10cea-350">支付費用、 感興趣，而其他費用的要求</span><span class="sxs-lookup"><span data-stu-id="10cea-350">Request for Payment of Charges, Interest and Other Expenses</span></span>|  
+|<span data-ttu-id="10cea-351">**MT 292**</span><span class="sxs-lookup"><span data-stu-id="10cea-351">**MT 292**</span></span>|<span data-ttu-id="10cea-352">取消要求</span><span class="sxs-lookup"><span data-stu-id="10cea-352">Request for Cancellation</span></span>|  
+|<span data-ttu-id="10cea-353">**MT 293**</span><span class="sxs-lookup"><span data-stu-id="10cea-353">**MT 293**</span></span>|<span data-ttu-id="10cea-354">資訊服務的訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-354">Information Service Message</span></span>|  
+|<span data-ttu-id="10cea-355">**MT 295**</span><span class="sxs-lookup"><span data-stu-id="10cea-355">**MT 295**</span></span>|<span data-ttu-id="10cea-356">查詢</span><span class="sxs-lookup"><span data-stu-id="10cea-356">Queries</span></span>|  
+|<span data-ttu-id="10cea-357">**MT 296**</span><span class="sxs-lookup"><span data-stu-id="10cea-357">**MT 296**</span></span>|<span data-ttu-id="10cea-358">答案</span><span class="sxs-lookup"><span data-stu-id="10cea-358">Answers</span></span>|  
+|<span data-ttu-id="10cea-359">**MT 298**</span><span class="sxs-lookup"><span data-stu-id="10cea-359">**MT 298**</span></span>|<span data-ttu-id="10cea-360">專屬的訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-360">Proprietary Message</span></span>|  
+|<span data-ttu-id="10cea-361">**MT 299**</span><span class="sxs-lookup"><span data-stu-id="10cea-361">**MT 299**</span></span>|<span data-ttu-id="10cea-362">可用的格式訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-362">Free Format Message</span></span>|  
   
-##  <a name="fsa_intro_qipa"></a>外部 Exchange、 Money 市場和衍生的類別目錄 3： 庫房市場  
- 下表描述訊息從類別目錄 3： 庫房市場外幣匯率、 貨幣市場和衍生項目。  
+##  <span data-ttu-id="10cea-363"><a name="fsa_intro_qipa"></a>外部 Exchange、 Money 市場和衍生的類別目錄 3： 庫房市場</span><span class="sxs-lookup"><span data-stu-id="10cea-363"><a name="fsa_intro_qipa"></a> Category 3: Treasury Markets Foreign Exchange, Money Markets and Derivatives</span></span>  
+ <span data-ttu-id="10cea-364">下表描述訊息從類別目錄 3： 庫房市場外幣匯率、 貨幣市場和衍生項目。</span><span class="sxs-lookup"><span data-stu-id="10cea-364">The following table describes messages from Category 3: Treasury Markets Foreign Exchange, Money Markets, and Derivatives.</span></span>  
   
-|訊息類型|Description|  
+|<span data-ttu-id="10cea-365">訊息類型</span><span class="sxs-lookup"><span data-stu-id="10cea-365">Message type</span></span>|<span data-ttu-id="10cea-366">Description</span><span class="sxs-lookup"><span data-stu-id="10cea-366">Description</span></span>|  
 |------------------|-----------------|  
-|**MT 300**|外幣匯率確認|  
-|**MT 303**|Forex/貨幣選項配置指令|  
-|**MT 304**|第三方大的建議/指令|  
-|**MT 305**|外幣選項確認|  
-|**MT 306**|外幣選項確認|  
-|**MT 307**|第三方 FX 大的建議/指令|  
-|**MT 308**|指示 Gross/Net 結算的第三方 FX 成交率|  
-|**MT 320**|固定的貸款存款確認|  
-|**MT 321**|解決第三方貸款存款指令|  
-|**MT 330**|呼叫通知貸款/存款確認|  
-|**MT 340**|轉送速率協議確認|  
-|**MT 341**|轉送速率協議結算確認|  
-|**MT 350**|貸款/存款的利息的建議|  
-|**MT 360**|單一貨幣利率衍生確認|  
-|**MT 361**|跨貨幣利率交換確認|  
-|**MT 362**|利率重設/付款的建議|  
-|**MT 364**|單一貨幣利率交換終止/Recouponing 確認|  
-|**MT 365**|跨貨幣利率交換終止/Recouponing 確認|  
-|**MT 380**|外幣匯率順序|  
-|**MT 381**|外幣匯率的訂單確認|  
-|**MT 390**|費用、 感興趣，而其他調整的建議|  
-|**MT 391**|支付費用、 感興趣，而其他費用的要求|  
-|**MT 392**|取消要求|  
-|**MT 395**|查詢|  
-|**MT 396**|答案|  
-|**MT 398**|專屬的訊息|  
-|**MT 399**|可用的格式訊息|  
+|<span data-ttu-id="10cea-367">**MT 300**</span><span class="sxs-lookup"><span data-stu-id="10cea-367">**MT 300**</span></span>|<span data-ttu-id="10cea-368">外幣匯率確認</span><span class="sxs-lookup"><span data-stu-id="10cea-368">Foreign Exchange Confirmation</span></span>|  
+|<span data-ttu-id="10cea-369">**MT 303**</span><span class="sxs-lookup"><span data-stu-id="10cea-369">**MT 303**</span></span>|<span data-ttu-id="10cea-370">Forex/貨幣選項配置指令</span><span class="sxs-lookup"><span data-stu-id="10cea-370">Forex/Currency Option Allocation Instruction</span></span>|  
+|<span data-ttu-id="10cea-371">**MT 304**</span><span class="sxs-lookup"><span data-stu-id="10cea-371">**MT 304**</span></span>|<span data-ttu-id="10cea-372">第三方大的建議/指令</span><span class="sxs-lookup"><span data-stu-id="10cea-372">Advice/Instruction of a Third Party Deal</span></span>|  
+|<span data-ttu-id="10cea-373">**MT 305**</span><span class="sxs-lookup"><span data-stu-id="10cea-373">**MT 305**</span></span>|<span data-ttu-id="10cea-374">外幣選項確認</span><span class="sxs-lookup"><span data-stu-id="10cea-374">Foreign Currency Option Confirmation</span></span>|  
+|<span data-ttu-id="10cea-375">**MT 306**</span><span class="sxs-lookup"><span data-stu-id="10cea-375">**MT 306**</span></span>|<span data-ttu-id="10cea-376">外幣選項確認</span><span class="sxs-lookup"><span data-stu-id="10cea-376">Foreign Currency Option Confirmation</span></span>|  
+|<span data-ttu-id="10cea-377">**MT 307**</span><span class="sxs-lookup"><span data-stu-id="10cea-377">**MT 307**</span></span>|<span data-ttu-id="10cea-378">第三方 FX 大的建議/指令</span><span class="sxs-lookup"><span data-stu-id="10cea-378">Advice/Instruction of a Third Party FX Deal</span></span>|  
+|<span data-ttu-id="10cea-379">**MT 308**</span><span class="sxs-lookup"><span data-stu-id="10cea-379">**MT 308**</span></span>|<span data-ttu-id="10cea-380">指示 Gross/Net 結算的第三方 FX 成交率</span><span class="sxs-lookup"><span data-stu-id="10cea-380">Instruction for Gross/Net Settlement of Third Party FX Deals</span></span>|  
+|<span data-ttu-id="10cea-381">**MT 320**</span><span class="sxs-lookup"><span data-stu-id="10cea-381">**MT 320**</span></span>|<span data-ttu-id="10cea-382">固定的貸款存款確認</span><span class="sxs-lookup"><span data-stu-id="10cea-382">Fixed Loan/Deposit Confirmation</span></span>|  
+|<span data-ttu-id="10cea-383">**MT 321**</span><span class="sxs-lookup"><span data-stu-id="10cea-383">**MT 321**</span></span>|<span data-ttu-id="10cea-384">解決第三方貸款存款指令</span><span class="sxs-lookup"><span data-stu-id="10cea-384">Instruction to Settle a Third Party Loan/Deposit</span></span>|  
+|<span data-ttu-id="10cea-385">**MT 330**</span><span class="sxs-lookup"><span data-stu-id="10cea-385">**MT 330**</span></span>|<span data-ttu-id="10cea-386">呼叫通知貸款/存款確認</span><span class="sxs-lookup"><span data-stu-id="10cea-386">Call/Notice Loan/Deposit Confirmation</span></span>|  
+|<span data-ttu-id="10cea-387">**MT 340**</span><span class="sxs-lookup"><span data-stu-id="10cea-387">**MT 340**</span></span>|<span data-ttu-id="10cea-388">轉送速率協議確認</span><span class="sxs-lookup"><span data-stu-id="10cea-388">Forward Rate Agreement Confirmation</span></span>|  
+|<span data-ttu-id="10cea-389">**MT 341**</span><span class="sxs-lookup"><span data-stu-id="10cea-389">**MT 341**</span></span>|<span data-ttu-id="10cea-390">轉送速率協議結算確認</span><span class="sxs-lookup"><span data-stu-id="10cea-390">Forward Rate Agreement Settlement Confirmation</span></span>|  
+|<span data-ttu-id="10cea-391">**MT 350**</span><span class="sxs-lookup"><span data-stu-id="10cea-391">**MT 350**</span></span>|<span data-ttu-id="10cea-392">貸款/存款的利息的建議</span><span class="sxs-lookup"><span data-stu-id="10cea-392">Advice of Loan/Deposit Interest Payment</span></span>|  
+|<span data-ttu-id="10cea-393">**MT 360**</span><span class="sxs-lookup"><span data-stu-id="10cea-393">**MT 360**</span></span>|<span data-ttu-id="10cea-394">單一貨幣利率衍生確認</span><span class="sxs-lookup"><span data-stu-id="10cea-394">Single Currency Interest Rate Derivative Confirmation</span></span>|  
+|<span data-ttu-id="10cea-395">**MT 361**</span><span class="sxs-lookup"><span data-stu-id="10cea-395">**MT 361**</span></span>|<span data-ttu-id="10cea-396">跨貨幣利率交換確認</span><span class="sxs-lookup"><span data-stu-id="10cea-396">Cross Currency Interest Rate Swap Confirmation</span></span>|  
+|<span data-ttu-id="10cea-397">**MT 362**</span><span class="sxs-lookup"><span data-stu-id="10cea-397">**MT 362**</span></span>|<span data-ttu-id="10cea-398">利率重設/付款的建議</span><span class="sxs-lookup"><span data-stu-id="10cea-398">Interest Rate Reset/Advice of Payment</span></span>|  
+|<span data-ttu-id="10cea-399">**MT 364**</span><span class="sxs-lookup"><span data-stu-id="10cea-399">**MT 364**</span></span>|<span data-ttu-id="10cea-400">單一貨幣利率交換終止/Recouponing 確認</span><span class="sxs-lookup"><span data-stu-id="10cea-400">Single Currency Interest Rate Swap Termination/Recouponing Confirmation</span></span>|  
+|<span data-ttu-id="10cea-401">**MT 365**</span><span class="sxs-lookup"><span data-stu-id="10cea-401">**MT 365**</span></span>|<span data-ttu-id="10cea-402">跨貨幣利率交換終止/Recouponing 確認</span><span class="sxs-lookup"><span data-stu-id="10cea-402">Cross Currency Interest Rate Swap Termination/Recouponing Confirmation</span></span>|  
+|<span data-ttu-id="10cea-403">**MT 380**</span><span class="sxs-lookup"><span data-stu-id="10cea-403">**MT 380**</span></span>|<span data-ttu-id="10cea-404">外幣匯率順序</span><span class="sxs-lookup"><span data-stu-id="10cea-404">Foreign Exchange Order</span></span>|  
+|<span data-ttu-id="10cea-405">**MT 381**</span><span class="sxs-lookup"><span data-stu-id="10cea-405">**MT 381**</span></span>|<span data-ttu-id="10cea-406">外幣匯率的訂單確認</span><span class="sxs-lookup"><span data-stu-id="10cea-406">Foreign Exchange Order Confirmation</span></span>|  
+|<span data-ttu-id="10cea-407">**MT 390**</span><span class="sxs-lookup"><span data-stu-id="10cea-407">**MT 390**</span></span>|<span data-ttu-id="10cea-408">費用、 感興趣，而其他調整的建議</span><span class="sxs-lookup"><span data-stu-id="10cea-408">Advice of Charges, Interest and Other Adjustments</span></span>|  
+|<span data-ttu-id="10cea-409">**MT 391**</span><span class="sxs-lookup"><span data-stu-id="10cea-409">**MT 391**</span></span>|<span data-ttu-id="10cea-410">支付費用、 感興趣，而其他費用的要求</span><span class="sxs-lookup"><span data-stu-id="10cea-410">Request for Payment of Charges, Interest and Other Expenses</span></span>|  
+|<span data-ttu-id="10cea-411">**MT 392**</span><span class="sxs-lookup"><span data-stu-id="10cea-411">**MT 392**</span></span>|<span data-ttu-id="10cea-412">取消要求</span><span class="sxs-lookup"><span data-stu-id="10cea-412">Request for Cancellation</span></span>|  
+|<span data-ttu-id="10cea-413">**MT 395**</span><span class="sxs-lookup"><span data-stu-id="10cea-413">**MT 395**</span></span>|<span data-ttu-id="10cea-414">查詢</span><span class="sxs-lookup"><span data-stu-id="10cea-414">Queries</span></span>|  
+|<span data-ttu-id="10cea-415">**MT 396**</span><span class="sxs-lookup"><span data-stu-id="10cea-415">**MT 396**</span></span>|<span data-ttu-id="10cea-416">答案</span><span class="sxs-lookup"><span data-stu-id="10cea-416">Answers</span></span>|  
+|<span data-ttu-id="10cea-417">**MT 398**</span><span class="sxs-lookup"><span data-stu-id="10cea-417">**MT 398**</span></span>|<span data-ttu-id="10cea-418">專屬的訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-418">Proprietary Message</span></span>|  
+|<span data-ttu-id="10cea-419">**MT 399**</span><span class="sxs-lookup"><span data-stu-id="10cea-419">**MT 399**</span></span>|<span data-ttu-id="10cea-420">可用的格式訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-420">Free Format Message</span></span>|  
   
-##  <a name="fsa_intro_ruuc"></a>類別 4： 集合和現金字母  
- 下表描述訊息分類-4： 集合和現金字母。  
+##  <span data-ttu-id="10cea-421"><a name="fsa_intro_ruuc"></a>類別 4： 集合和現金字母</span><span class="sxs-lookup"><span data-stu-id="10cea-421"><a name="fsa_intro_ruuc"></a> Category 4: Collections and Cash Letters</span></span>  
+ <span data-ttu-id="10cea-422">下表描述訊息分類-4： 集合和現金字母。</span><span class="sxs-lookup"><span data-stu-id="10cea-422">The following table describes messages from Category 4: Collections and Cash Letters.</span></span>  
   
-|訊息類型|Description|  
+|<span data-ttu-id="10cea-423">訊息類型</span><span class="sxs-lookup"><span data-stu-id="10cea-423">Message type</span></span>|<span data-ttu-id="10cea-424">Description</span><span class="sxs-lookup"><span data-stu-id="10cea-424">Description</span></span>|  
 |------------------|-----------------|  
-|**MT 400**|付款的建議|  
-|**MT 405**|清除集合|  
-|**MT 410**|通知|  
-|**MT 412**|接受的建議|  
-|**MT 416**|非-付款/非-接受的建議|  
-|**MT 420**|Tracer|  
-|**MT 422**|命運和要求指示的建議|  
-|**MT 430**|「 增補契約的指示|  
-|**MT 450**|現金字母信用建議|  
-|**MT 455**|現金字母信用調整建議|  
-|**MT 456**|Dishonour 的建議|  
-|**MT 490**|費用、 感興趣，而其他調整的建議|  
-|**MT 491**|支付費用、 感興趣，而其他費用的要求|  
-|**MT 492**|取消要求|  
-|**MT 495**|查詢|  
-|**MT 496**|答案|  
-|**MT 498**|專屬的訊息|  
-|**MT 499**|可用的格式訊息|  
+|<span data-ttu-id="10cea-425">**MT 400**</span><span class="sxs-lookup"><span data-stu-id="10cea-425">**MT 400**</span></span>|<span data-ttu-id="10cea-426">付款的建議</span><span class="sxs-lookup"><span data-stu-id="10cea-426">Advice of Payment</span></span>|  
+|<span data-ttu-id="10cea-427">**MT 405**</span><span class="sxs-lookup"><span data-stu-id="10cea-427">**MT 405**</span></span>|<span data-ttu-id="10cea-428">清除集合</span><span class="sxs-lookup"><span data-stu-id="10cea-428">Clean Collection</span></span>|  
+|<span data-ttu-id="10cea-429">**MT 410**</span><span class="sxs-lookup"><span data-stu-id="10cea-429">**MT 410**</span></span>|<span data-ttu-id="10cea-430">通知</span><span class="sxs-lookup"><span data-stu-id="10cea-430">Acknowledgement</span></span>|  
+|<span data-ttu-id="10cea-431">**MT 412**</span><span class="sxs-lookup"><span data-stu-id="10cea-431">**MT 412**</span></span>|<span data-ttu-id="10cea-432">接受的建議</span><span class="sxs-lookup"><span data-stu-id="10cea-432">Advice of Acceptance</span></span>|  
+|<span data-ttu-id="10cea-433">**MT 416**</span><span class="sxs-lookup"><span data-stu-id="10cea-433">**MT 416**</span></span>|<span data-ttu-id="10cea-434">非-付款/非-接受的建議</span><span class="sxs-lookup"><span data-stu-id="10cea-434">Advice of Non-Payment/Non-Acceptance</span></span>|  
+|<span data-ttu-id="10cea-435">**MT 420**</span><span class="sxs-lookup"><span data-stu-id="10cea-435">**MT 420**</span></span>|<span data-ttu-id="10cea-436">Tracer</span><span class="sxs-lookup"><span data-stu-id="10cea-436">Tracer</span></span>|  
+|<span data-ttu-id="10cea-437">**MT 422**</span><span class="sxs-lookup"><span data-stu-id="10cea-437">**MT 422**</span></span>|<span data-ttu-id="10cea-438">命運和要求指示的建議</span><span class="sxs-lookup"><span data-stu-id="10cea-438">Advice of Fate and Request for Instructions</span></span>|  
+|<span data-ttu-id="10cea-439">**MT 430**</span><span class="sxs-lookup"><span data-stu-id="10cea-439">**MT 430**</span></span>|<span data-ttu-id="10cea-440">「 增補契約的指示</span><span class="sxs-lookup"><span data-stu-id="10cea-440">Amendment of Instructions</span></span>|  
+|<span data-ttu-id="10cea-441">**MT 450**</span><span class="sxs-lookup"><span data-stu-id="10cea-441">**MT 450**</span></span>|<span data-ttu-id="10cea-442">現金字母信用建議</span><span class="sxs-lookup"><span data-stu-id="10cea-442">Cash Letter Credit Advice</span></span>|  
+|<span data-ttu-id="10cea-443">**MT 455**</span><span class="sxs-lookup"><span data-stu-id="10cea-443">**MT 455**</span></span>|<span data-ttu-id="10cea-444">現金字母信用調整建議</span><span class="sxs-lookup"><span data-stu-id="10cea-444">Cash Letter Credit Adjustment Advice</span></span>|  
+|<span data-ttu-id="10cea-445">**MT 456**</span><span class="sxs-lookup"><span data-stu-id="10cea-445">**MT 456**</span></span>|<span data-ttu-id="10cea-446">Dishonour 的建議</span><span class="sxs-lookup"><span data-stu-id="10cea-446">Advice of Dishonour</span></span>|  
+|<span data-ttu-id="10cea-447">**MT 490**</span><span class="sxs-lookup"><span data-stu-id="10cea-447">**MT 490**</span></span>|<span data-ttu-id="10cea-448">費用、 感興趣，而其他調整的建議</span><span class="sxs-lookup"><span data-stu-id="10cea-448">Advice of Charges, Interest and Other Adjustments</span></span>|  
+|<span data-ttu-id="10cea-449">**MT 491**</span><span class="sxs-lookup"><span data-stu-id="10cea-449">**MT 491**</span></span>|<span data-ttu-id="10cea-450">支付費用、 感興趣，而其他費用的要求</span><span class="sxs-lookup"><span data-stu-id="10cea-450">Request for Payment of Charges, Interest and Other Expenses</span></span>|  
+|<span data-ttu-id="10cea-451">**MT 492**</span><span class="sxs-lookup"><span data-stu-id="10cea-451">**MT 492**</span></span>|<span data-ttu-id="10cea-452">取消要求</span><span class="sxs-lookup"><span data-stu-id="10cea-452">Request for Cancellation</span></span>|  
+|<span data-ttu-id="10cea-453">**MT 495**</span><span class="sxs-lookup"><span data-stu-id="10cea-453">**MT 495**</span></span>|<span data-ttu-id="10cea-454">查詢</span><span class="sxs-lookup"><span data-stu-id="10cea-454">Queries</span></span>|  
+|<span data-ttu-id="10cea-455">**MT 496**</span><span class="sxs-lookup"><span data-stu-id="10cea-455">**MT 496**</span></span>|<span data-ttu-id="10cea-456">答案</span><span class="sxs-lookup"><span data-stu-id="10cea-456">Answers</span></span>|  
+|<span data-ttu-id="10cea-457">**MT 498**</span><span class="sxs-lookup"><span data-stu-id="10cea-457">**MT 498**</span></span>|<span data-ttu-id="10cea-458">專屬的訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-458">Proprietary Message</span></span>|  
+|<span data-ttu-id="10cea-459">**MT 499**</span><span class="sxs-lookup"><span data-stu-id="10cea-459">**MT 499**</span></span>|<span data-ttu-id="10cea-460">可用的格式訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-460">Free Format Message</span></span>|  
   
-##  <a name="fsa_intro_iitn"></a>類別 5： 股票所分配到市場  
- 下表描述的訊息類別 5： 股票所分配到市場。  
+##  <span data-ttu-id="10cea-461"><a name="fsa_intro_iitn"></a>類別 5： 股票所分配到市場</span><span class="sxs-lookup"><span data-stu-id="10cea-461"><a name="fsa_intro_iitn"></a> Category 5: Securities Markets</span></span>  
+ <span data-ttu-id="10cea-462">下表描述的訊息類別 5： 股票所分配到市場。</span><span class="sxs-lookup"><span data-stu-id="10cea-462">The following table describes messages from Category 5: Securities Markets.</span></span>  
   
-|訊息類型|Description|  
+|<span data-ttu-id="10cea-463">訊息類型</span><span class="sxs-lookup"><span data-stu-id="10cea-463">Message type</span></span>|<span data-ttu-id="10cea-464">Description</span><span class="sxs-lookup"><span data-stu-id="10cea-464">Description</span></span>|  
 |------------------|-----------------|  
-|**MT 500**|註冊指示|  
-|**MT 501**|註冊或修改的確認|  
-|**MT 502**|若要購買或銷售訂單|  
-|**MT 503**|附屬的宣告|  
-|**MT 504**|附屬提案|  
-|**MT 505**|附屬的替代|  
-|**MT 506**|資料和曝光陳述式|  
-|**MT 507**|附屬的狀態和處理建議|  
-|**MT 508**|內部位置的建議|  
-|**MT 509**|交易的狀態訊息|  
-|**MT 510**|登錄狀態和處理建議|  
-|**MT 513**|執行的用戶端的建議|  
-|**MT 514**|Trade 配置指令|  
-|**MT 515**|用戶端確認的採購單或銷售|  
-|**MT 516**|證券貸款確認|  
-|**MT 517**|交易確認感受|  
-|**MT 518**|市場端股票所分配到交易確認|  
-|**MT 519**|修改的用戶端詳細資料|  
-|**MT 524**|內部位置指令|  
-|**MT 526**|一般股票所分配到厚實/需靠借貸訊息|  
-|**MT 527**|三種合作對象附屬指令|  
-|**MT 528**|等用戶端結算指令|  
-|**MT 529**|等市場端結算指令|  
-|**MT 530**|交易處理命令|  
-|**MT 535**|持有資產的陳述式|  
-|**MT 536**|陳述式的交易|  
-|**MT 537**|暫止的交易的陳述式|  
-|**MT 538**|內部位置 Advices 陳述式|  
-|**MT 540**|免費|  
-|**MT 541**|針對付款接收|  
-|**MT 542**|免費提供|  
-|**MT 543**|針對付款傳遞|  
-|**MT 544**|收到免費確認|  
-|**MT 545**|針對付款確認接收|  
-|**MT 546**|提供可用的確認|  
-|**MT 547**|針對付款確認傳遞|  
-|**MT 548**|結算狀態和處理建議|  
-|**MT 549**|陳述式/處理建議的要求|  
-|**MT 558**|三種合作對象附屬狀態和處理建議|  
-|**MT 559**|付費代理程式的宣告|  
-|**MT 564**|公司動作通知|  
-|**MT 565**|公司的動作指令|  
-|**MT 566**|確認公司的動作|  
-|**MT 567**|公司動作狀態和處理建議|  
-|**MT 568**|公司動作 Narrative|  
-|**MT 569**|三方廠商擔保和曝光陳述式|  
-|**MT 574**|(IRSLST)IRS 1441 NRA|  
-|**MT 574**|(W8BENO)IRS 1441 NRA|  
-|**MT 575**|組合活動的報表|  
-|**MT 576**|開啟訂單的陳述式|  
-|**MT 577**|陳述式的數字|  
-|**MT 578**|結算 Allegement|  
-|**MT 579**|憑證數字|  
-|**MT 581**|附屬調整訊息|  
-|**MT 582**|補償宣告或建議|  
-|**MT 584**|暫止的交易等的陳述式|  
-|**MT 586**|結算 Allegements 陳述式|  
-|**MT 587**|Depositary 回條指示|  
-|**MT 588**|Depositary 回條確認|  
-|**MT 589**|Depositary 回條狀態和處理建議|  
-|**MT 590**|費用、 感興趣，而其他調整的建議|  
-|**MT 591**|支付費用、 感興趣，而其他費用的要求|  
-|**MT 592**|SWIFT-使用者訊息|  
-|**MT 595**|問題|  
-|**MT 596**|答案|  
-|**MT 598**|專屬的訊息|  
-|**MT 599**|可用的格式訊息|  
+|<span data-ttu-id="10cea-465">**MT 500**</span><span class="sxs-lookup"><span data-stu-id="10cea-465">**MT 500**</span></span>|<span data-ttu-id="10cea-466">註冊指示</span><span class="sxs-lookup"><span data-stu-id="10cea-466">Instruction to Register</span></span>|  
+|<span data-ttu-id="10cea-467">**MT 501**</span><span class="sxs-lookup"><span data-stu-id="10cea-467">**MT 501**</span></span>|<span data-ttu-id="10cea-468">註冊或修改的確認</span><span class="sxs-lookup"><span data-stu-id="10cea-468">Confirmation of Registration or Modification</span></span>|  
+|<span data-ttu-id="10cea-469">**MT 502**</span><span class="sxs-lookup"><span data-stu-id="10cea-469">**MT 502**</span></span>|<span data-ttu-id="10cea-470">若要購買或銷售訂單</span><span class="sxs-lookup"><span data-stu-id="10cea-470">Order to Buy or Sell</span></span>|  
+|<span data-ttu-id="10cea-471">**MT 503**</span><span class="sxs-lookup"><span data-stu-id="10cea-471">**MT 503**</span></span>|<span data-ttu-id="10cea-472">附屬的宣告</span><span class="sxs-lookup"><span data-stu-id="10cea-472">Collateral Claim</span></span>|  
+|<span data-ttu-id="10cea-473">**MT 504**</span><span class="sxs-lookup"><span data-stu-id="10cea-473">**MT 504**</span></span>|<span data-ttu-id="10cea-474">附屬提案</span><span class="sxs-lookup"><span data-stu-id="10cea-474">Collateral Proposal</span></span>|  
+|<span data-ttu-id="10cea-475">**MT 505**</span><span class="sxs-lookup"><span data-stu-id="10cea-475">**MT 505**</span></span>|<span data-ttu-id="10cea-476">附屬的替代</span><span class="sxs-lookup"><span data-stu-id="10cea-476">Collateral Substitution</span></span>|  
+|<span data-ttu-id="10cea-477">**MT 506**</span><span class="sxs-lookup"><span data-stu-id="10cea-477">**MT 506**</span></span>|<span data-ttu-id="10cea-478">資料和曝光陳述式</span><span class="sxs-lookup"><span data-stu-id="10cea-478">Collateral and Exposure Statement</span></span>|  
+|<span data-ttu-id="10cea-479">**MT 507**</span><span class="sxs-lookup"><span data-stu-id="10cea-479">**MT 507**</span></span>|<span data-ttu-id="10cea-480">附屬的狀態和處理建議</span><span class="sxs-lookup"><span data-stu-id="10cea-480">Collateral Status and Processing Advice</span></span>|  
+|<span data-ttu-id="10cea-481">**MT 508**</span><span class="sxs-lookup"><span data-stu-id="10cea-481">**MT 508**</span></span>|<span data-ttu-id="10cea-482">內部位置的建議</span><span class="sxs-lookup"><span data-stu-id="10cea-482">Intra-Position Advice</span></span>|  
+|<span data-ttu-id="10cea-483">**MT 509**</span><span class="sxs-lookup"><span data-stu-id="10cea-483">**MT 509**</span></span>|<span data-ttu-id="10cea-484">交易的狀態訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-484">Trade Status Message</span></span>|  
+|<span data-ttu-id="10cea-485">**MT 510**</span><span class="sxs-lookup"><span data-stu-id="10cea-485">**MT 510**</span></span>|<span data-ttu-id="10cea-486">登錄狀態和處理建議</span><span class="sxs-lookup"><span data-stu-id="10cea-486">Registration Status and Processing Advice</span></span>|  
+|<span data-ttu-id="10cea-487">**MT 513**</span><span class="sxs-lookup"><span data-stu-id="10cea-487">**MT 513**</span></span>|<span data-ttu-id="10cea-488">執行的用戶端的建議</span><span class="sxs-lookup"><span data-stu-id="10cea-488">Client Advice Of Execution</span></span>|  
+|<span data-ttu-id="10cea-489">**MT 514**</span><span class="sxs-lookup"><span data-stu-id="10cea-489">**MT 514**</span></span>|<span data-ttu-id="10cea-490">Trade 配置指令</span><span class="sxs-lookup"><span data-stu-id="10cea-490">Trade Allocation Instruction</span></span>|  
+|<span data-ttu-id="10cea-491">**MT 515**</span><span class="sxs-lookup"><span data-stu-id="10cea-491">**MT 515**</span></span>|<span data-ttu-id="10cea-492">用戶端確認的採購單或銷售</span><span class="sxs-lookup"><span data-stu-id="10cea-492">Client Confirmation of Purchase or Sale</span></span>|  
+|<span data-ttu-id="10cea-493">**MT 516**</span><span class="sxs-lookup"><span data-stu-id="10cea-493">**MT 516**</span></span>|<span data-ttu-id="10cea-494">證券貸款確認</span><span class="sxs-lookup"><span data-stu-id="10cea-494">Securities Loan Confirmation</span></span>|  
+|<span data-ttu-id="10cea-495">**MT 517**</span><span class="sxs-lookup"><span data-stu-id="10cea-495">**MT 517**</span></span>|<span data-ttu-id="10cea-496">交易確認感受</span><span class="sxs-lookup"><span data-stu-id="10cea-496">Trade Confirmation Affirmation</span></span>|  
+|<span data-ttu-id="10cea-497">**MT 518**</span><span class="sxs-lookup"><span data-stu-id="10cea-497">**MT 518**</span></span>|<span data-ttu-id="10cea-498">市場端股票所分配到交易確認</span><span class="sxs-lookup"><span data-stu-id="10cea-498">Market-Side Securities Trade Confirmation</span></span>|  
+|<span data-ttu-id="10cea-499">**MT 519**</span><span class="sxs-lookup"><span data-stu-id="10cea-499">**MT 519**</span></span>|<span data-ttu-id="10cea-500">修改的用戶端詳細資料</span><span class="sxs-lookup"><span data-stu-id="10cea-500">Modification of Client Details</span></span>|  
+|<span data-ttu-id="10cea-501">**MT 524**</span><span class="sxs-lookup"><span data-stu-id="10cea-501">**MT 524**</span></span>|<span data-ttu-id="10cea-502">內部位置指令</span><span class="sxs-lookup"><span data-stu-id="10cea-502">Intra-Position Instruction</span></span>|  
+|<span data-ttu-id="10cea-503">**MT 526**</span><span class="sxs-lookup"><span data-stu-id="10cea-503">**MT 526**</span></span>|<span data-ttu-id="10cea-504">一般股票所分配到厚實/需靠借貸訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-504">General Securities Lending/Borrowing Message</span></span>|  
+|<span data-ttu-id="10cea-505">**MT 527**</span><span class="sxs-lookup"><span data-stu-id="10cea-505">**MT 527**</span></span>|<span data-ttu-id="10cea-506">三種合作對象附屬指令</span><span class="sxs-lookup"><span data-stu-id="10cea-506">Tri-party Collateral Instruction</span></span>|  
+|<span data-ttu-id="10cea-507">**MT 528**</span><span class="sxs-lookup"><span data-stu-id="10cea-507">**MT 528**</span></span>|<span data-ttu-id="10cea-508">等用戶端結算指令</span><span class="sxs-lookup"><span data-stu-id="10cea-508">ETC Client-Side Settlement Instruction</span></span>|  
+|<span data-ttu-id="10cea-509">**MT 529**</span><span class="sxs-lookup"><span data-stu-id="10cea-509">**MT 529**</span></span>|<span data-ttu-id="10cea-510">等市場端結算指令</span><span class="sxs-lookup"><span data-stu-id="10cea-510">ETC Market-Side Settlement Instruction</span></span>|  
+|<span data-ttu-id="10cea-511">**MT 530**</span><span class="sxs-lookup"><span data-stu-id="10cea-511">**MT 530**</span></span>|<span data-ttu-id="10cea-512">交易處理命令</span><span class="sxs-lookup"><span data-stu-id="10cea-512">Transaction Processing Command</span></span>|  
+|<span data-ttu-id="10cea-513">**MT 535**</span><span class="sxs-lookup"><span data-stu-id="10cea-513">**MT 535**</span></span>|<span data-ttu-id="10cea-514">持有資產的陳述式</span><span class="sxs-lookup"><span data-stu-id="10cea-514">Statement of Holdings</span></span>|  
+|<span data-ttu-id="10cea-515">**MT 536**</span><span class="sxs-lookup"><span data-stu-id="10cea-515">**MT 536**</span></span>|<span data-ttu-id="10cea-516">陳述式的交易</span><span class="sxs-lookup"><span data-stu-id="10cea-516">Statement of Transactions</span></span>|  
+|<span data-ttu-id="10cea-517">**MT 537**</span><span class="sxs-lookup"><span data-stu-id="10cea-517">**MT 537**</span></span>|<span data-ttu-id="10cea-518">暫止的交易的陳述式</span><span class="sxs-lookup"><span data-stu-id="10cea-518">Statement of Pending Transactions</span></span>|  
+|<span data-ttu-id="10cea-519">**MT 538**</span><span class="sxs-lookup"><span data-stu-id="10cea-519">**MT 538**</span></span>|<span data-ttu-id="10cea-520">內部位置 Advices 陳述式</span><span class="sxs-lookup"><span data-stu-id="10cea-520">Statement of Intra-Position Advices</span></span>|  
+|<span data-ttu-id="10cea-521">**MT 540**</span><span class="sxs-lookup"><span data-stu-id="10cea-521">**MT 540**</span></span>|<span data-ttu-id="10cea-522">免費</span><span class="sxs-lookup"><span data-stu-id="10cea-522">Receive Free</span></span>|  
+|<span data-ttu-id="10cea-523">**MT 541**</span><span class="sxs-lookup"><span data-stu-id="10cea-523">**MT 541**</span></span>|<span data-ttu-id="10cea-524">針對付款接收</span><span class="sxs-lookup"><span data-stu-id="10cea-524">Receive Against Payment</span></span>|  
+|<span data-ttu-id="10cea-525">**MT 542**</span><span class="sxs-lookup"><span data-stu-id="10cea-525">**MT 542**</span></span>|<span data-ttu-id="10cea-526">免費提供</span><span class="sxs-lookup"><span data-stu-id="10cea-526">Deliver Free</span></span>|  
+|<span data-ttu-id="10cea-527">**MT 543**</span><span class="sxs-lookup"><span data-stu-id="10cea-527">**MT 543**</span></span>|<span data-ttu-id="10cea-528">針對付款傳遞</span><span class="sxs-lookup"><span data-stu-id="10cea-528">Deliver Against Payment</span></span>|  
+|<span data-ttu-id="10cea-529">**MT 544**</span><span class="sxs-lookup"><span data-stu-id="10cea-529">**MT 544**</span></span>|<span data-ttu-id="10cea-530">收到免費確認</span><span class="sxs-lookup"><span data-stu-id="10cea-530">Receive Free Confirmation</span></span>|  
+|<span data-ttu-id="10cea-531">**MT 545**</span><span class="sxs-lookup"><span data-stu-id="10cea-531">**MT 545**</span></span>|<span data-ttu-id="10cea-532">針對付款確認接收</span><span class="sxs-lookup"><span data-stu-id="10cea-532">Receive Against Payment Confirmation</span></span>|  
+|<span data-ttu-id="10cea-533">**MT 546**</span><span class="sxs-lookup"><span data-stu-id="10cea-533">**MT 546**</span></span>|<span data-ttu-id="10cea-534">提供可用的確認</span><span class="sxs-lookup"><span data-stu-id="10cea-534">Deliver Free Confirmation</span></span>|  
+|<span data-ttu-id="10cea-535">**MT 547**</span><span class="sxs-lookup"><span data-stu-id="10cea-535">**MT 547**</span></span>|<span data-ttu-id="10cea-536">針對付款確認傳遞</span><span class="sxs-lookup"><span data-stu-id="10cea-536">Deliver Against Payment Confirmation</span></span>|  
+|<span data-ttu-id="10cea-537">**MT 548**</span><span class="sxs-lookup"><span data-stu-id="10cea-537">**MT 548**</span></span>|<span data-ttu-id="10cea-538">結算狀態和處理建議</span><span class="sxs-lookup"><span data-stu-id="10cea-538">Settlement Status and Processing Advice</span></span>|  
+|<span data-ttu-id="10cea-539">**MT 549**</span><span class="sxs-lookup"><span data-stu-id="10cea-539">**MT 549**</span></span>|<span data-ttu-id="10cea-540">陳述式/處理建議的要求</span><span class="sxs-lookup"><span data-stu-id="10cea-540">Request for Statement/Processing Advice</span></span>|  
+|<span data-ttu-id="10cea-541">**MT 558**</span><span class="sxs-lookup"><span data-stu-id="10cea-541">**MT 558**</span></span>|<span data-ttu-id="10cea-542">三種合作對象附屬狀態和處理建議</span><span class="sxs-lookup"><span data-stu-id="10cea-542">Tri-party Collateral Status and Processing Advice</span></span>|  
+|<span data-ttu-id="10cea-543">**MT 559**</span><span class="sxs-lookup"><span data-stu-id="10cea-543">**MT 559**</span></span>|<span data-ttu-id="10cea-544">付費代理程式的宣告</span><span class="sxs-lookup"><span data-stu-id="10cea-544">Paying Agents Claim</span></span>|  
+|<span data-ttu-id="10cea-545">**MT 564**</span><span class="sxs-lookup"><span data-stu-id="10cea-545">**MT 564**</span></span>|<span data-ttu-id="10cea-546">公司動作通知</span><span class="sxs-lookup"><span data-stu-id="10cea-546">Corporate Action Notification</span></span>|  
+|<span data-ttu-id="10cea-547">**MT 565**</span><span class="sxs-lookup"><span data-stu-id="10cea-547">**MT 565**</span></span>|<span data-ttu-id="10cea-548">公司的動作指令</span><span class="sxs-lookup"><span data-stu-id="10cea-548">Corporate Action Instruction</span></span>|  
+|<span data-ttu-id="10cea-549">**MT 566**</span><span class="sxs-lookup"><span data-stu-id="10cea-549">**MT 566**</span></span>|<span data-ttu-id="10cea-550">確認公司的動作</span><span class="sxs-lookup"><span data-stu-id="10cea-550">Corporate Action Confirmation</span></span>|  
+|<span data-ttu-id="10cea-551">**MT 567**</span><span class="sxs-lookup"><span data-stu-id="10cea-551">**MT 567**</span></span>|<span data-ttu-id="10cea-552">公司動作狀態和處理建議</span><span class="sxs-lookup"><span data-stu-id="10cea-552">Corporate Action Status and Processing Advice</span></span>|  
+|<span data-ttu-id="10cea-553">**MT 568**</span><span class="sxs-lookup"><span data-stu-id="10cea-553">**MT 568**</span></span>|<span data-ttu-id="10cea-554">公司動作 Narrative</span><span class="sxs-lookup"><span data-stu-id="10cea-554">Corporate Action Narrative</span></span>|  
+|<span data-ttu-id="10cea-555">**MT 569**</span><span class="sxs-lookup"><span data-stu-id="10cea-555">**MT 569**</span></span>|<span data-ttu-id="10cea-556">三方廠商擔保和曝光陳述式</span><span class="sxs-lookup"><span data-stu-id="10cea-556">Tri-party Collateral and Exposure Statement</span></span>|  
+|<span data-ttu-id="10cea-557">**MT 574**</span><span class="sxs-lookup"><span data-stu-id="10cea-557">**MT 574**</span></span>|<span data-ttu-id="10cea-558">(IRSLST)IRS 1441 NRA</span><span class="sxs-lookup"><span data-stu-id="10cea-558">(IRSLST) IRS 1441 NRA</span></span>|  
+|<span data-ttu-id="10cea-559">**MT 574**</span><span class="sxs-lookup"><span data-stu-id="10cea-559">**MT 574**</span></span>|<span data-ttu-id="10cea-560">(W8BENO)IRS 1441 NRA</span><span class="sxs-lookup"><span data-stu-id="10cea-560">(W8BENO) IRS 1441 NRA</span></span>|  
+|<span data-ttu-id="10cea-561">**MT 575**</span><span class="sxs-lookup"><span data-stu-id="10cea-561">**MT 575**</span></span>|<span data-ttu-id="10cea-562">組合活動的報表</span><span class="sxs-lookup"><span data-stu-id="10cea-562">Report of Combined Activity</span></span>|  
+|<span data-ttu-id="10cea-563">**MT 576**</span><span class="sxs-lookup"><span data-stu-id="10cea-563">**MT 576**</span></span>|<span data-ttu-id="10cea-564">開啟訂單的陳述式</span><span class="sxs-lookup"><span data-stu-id="10cea-564">Statement of Open Orders</span></span>|  
+|<span data-ttu-id="10cea-565">**MT 577**</span><span class="sxs-lookup"><span data-stu-id="10cea-565">**MT 577**</span></span>|<span data-ttu-id="10cea-566">陳述式的數字</span><span class="sxs-lookup"><span data-stu-id="10cea-566">Statement of Numbers</span></span>|  
+|<span data-ttu-id="10cea-567">**MT 578**</span><span class="sxs-lookup"><span data-stu-id="10cea-567">**MT 578**</span></span>|<span data-ttu-id="10cea-568">結算 Allegement</span><span class="sxs-lookup"><span data-stu-id="10cea-568">Settlement Allegement</span></span>|  
+|<span data-ttu-id="10cea-569">**MT 579**</span><span class="sxs-lookup"><span data-stu-id="10cea-569">**MT 579**</span></span>|<span data-ttu-id="10cea-570">憑證數字</span><span class="sxs-lookup"><span data-stu-id="10cea-570">Certificate Numbers</span></span>|  
+|<span data-ttu-id="10cea-571">**MT 581**</span><span class="sxs-lookup"><span data-stu-id="10cea-571">**MT 581**</span></span>|<span data-ttu-id="10cea-572">附屬調整訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-572">Collateral Adjustment Message</span></span>|  
+|<span data-ttu-id="10cea-573">**MT 582**</span><span class="sxs-lookup"><span data-stu-id="10cea-573">**MT 582**</span></span>|<span data-ttu-id="10cea-574">補償宣告或建議</span><span class="sxs-lookup"><span data-stu-id="10cea-574">Reimbursement Claim Or Advice</span></span>|  
+|<span data-ttu-id="10cea-575">**MT 584**</span><span class="sxs-lookup"><span data-stu-id="10cea-575">**MT 584**</span></span>|<span data-ttu-id="10cea-576">暫止的交易等的陳述式</span><span class="sxs-lookup"><span data-stu-id="10cea-576">Statement of ETC Pending Trades</span></span>|  
+|<span data-ttu-id="10cea-577">**MT 586**</span><span class="sxs-lookup"><span data-stu-id="10cea-577">**MT 586**</span></span>|<span data-ttu-id="10cea-578">結算 Allegements 陳述式</span><span class="sxs-lookup"><span data-stu-id="10cea-578">Statement of Settlement Allegements</span></span>|  
+|<span data-ttu-id="10cea-579">**MT 587**</span><span class="sxs-lookup"><span data-stu-id="10cea-579">**MT 587**</span></span>|<span data-ttu-id="10cea-580">Depositary 回條指示</span><span class="sxs-lookup"><span data-stu-id="10cea-580">Depositary Receipt Instruction</span></span>|  
+|<span data-ttu-id="10cea-581">**MT 588**</span><span class="sxs-lookup"><span data-stu-id="10cea-581">**MT 588**</span></span>|<span data-ttu-id="10cea-582">Depositary 回條確認</span><span class="sxs-lookup"><span data-stu-id="10cea-582">Depositary Receipt Confirmation</span></span>|  
+|<span data-ttu-id="10cea-583">**MT 589**</span><span class="sxs-lookup"><span data-stu-id="10cea-583">**MT 589**</span></span>|<span data-ttu-id="10cea-584">Depositary 回條狀態和處理建議</span><span class="sxs-lookup"><span data-stu-id="10cea-584">Depositary Receipt Status and Processing Advice</span></span>|  
+|<span data-ttu-id="10cea-585">**MT 590**</span><span class="sxs-lookup"><span data-stu-id="10cea-585">**MT 590**</span></span>|<span data-ttu-id="10cea-586">費用、 感興趣，而其他調整的建議</span><span class="sxs-lookup"><span data-stu-id="10cea-586">Advice of Charges, Interest and Other Adjustments</span></span>|  
+|<span data-ttu-id="10cea-587">**MT 591**</span><span class="sxs-lookup"><span data-stu-id="10cea-587">**MT 591**</span></span>|<span data-ttu-id="10cea-588">支付費用、 感興趣，而其他費用的要求</span><span class="sxs-lookup"><span data-stu-id="10cea-588">Request for Payment of Charges, Interest and Other Expenses</span></span>|  
+|<span data-ttu-id="10cea-589">**MT 592**</span><span class="sxs-lookup"><span data-stu-id="10cea-589">**MT 592**</span></span>|<span data-ttu-id="10cea-590">SWIFT-使用者訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-590">SWIFT-to-User Message</span></span>|  
+|<span data-ttu-id="10cea-591">**MT 595**</span><span class="sxs-lookup"><span data-stu-id="10cea-591">**MT 595**</span></span>|<span data-ttu-id="10cea-592">問題</span><span class="sxs-lookup"><span data-stu-id="10cea-592">Questions</span></span>|  
+|<span data-ttu-id="10cea-593">**MT 596**</span><span class="sxs-lookup"><span data-stu-id="10cea-593">**MT 596**</span></span>|<span data-ttu-id="10cea-594">答案</span><span class="sxs-lookup"><span data-stu-id="10cea-594">Answers</span></span>|  
+|<span data-ttu-id="10cea-595">**MT 598**</span><span class="sxs-lookup"><span data-stu-id="10cea-595">**MT 598**</span></span>|<span data-ttu-id="10cea-596">專屬的訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-596">Proprietary Message</span></span>|  
+|<span data-ttu-id="10cea-597">**MT 599**</span><span class="sxs-lookup"><span data-stu-id="10cea-597">**MT 599**</span></span>|<span data-ttu-id="10cea-598">可用的格式訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-598">Free Format Message</span></span>|  
   
-##  <a name="fsa_intro_bjez"></a>類別 6： 庫房市場珍貴金屬等  
- 下表描述的訊息類別 6： 庫房市場珍貴金屬、 珍貴市場 Syndications 和庫房市場常見的訊息。  
+##  <span data-ttu-id="10cea-599"><a name="fsa_intro_bjez"></a>類別 6： 庫房市場珍貴金屬等</span><span class="sxs-lookup"><span data-stu-id="10cea-599"><a name="fsa_intro_bjez"></a> Category 6: Treasury Markets Precious Metals</span></span>  
+ <span data-ttu-id="10cea-600">下表描述的訊息類別 6： 庫房市場珍貴金屬、 珍貴市場 Syndications 和庫房市場常見的訊息。</span><span class="sxs-lookup"><span data-stu-id="10cea-600">The following table describes messages from Category 6: Treasury Markets Precious Metals, Treasure Markets Syndications, and Treasury Markets Common Messages.</span></span>  
   
-|訊息類型|Description|  
+|<span data-ttu-id="10cea-601">訊息類型</span><span class="sxs-lookup"><span data-stu-id="10cea-601">Message type</span></span>|<span data-ttu-id="10cea-602">Description</span><span class="sxs-lookup"><span data-stu-id="10cea-602">Description</span></span>|  
 |------------------|-----------------|  
-||**庫房市場珍貴金屬等**|  
-|**MT 600**|裸機 Trade 確認|  
-|**MT 601**|珍貴金屬選項確認|  
-|**MT 604**|珍貴金屬傳輸/傳遞順序|  
-|**MT 605**|接收的珍貴金屬注意事項|  
-|**MT 606**|珍貴金屬 Debit 建議|  
-|**MT 607**|珍貴金屬信用額度的建議|  
-|**MT 608**|陳述式的金屬帳戶|  
-|**MT 609**|陳述式的金屬合約|  
-|**MT 620**|貸款存款金屬固定的確認|  
-||**庫房市場 Syndications**|  
-|**MT 643**|請注意一個 Drawdown/更新|  
-|**MT 644**|速率與數量修正的建議|  
-|**MT 645**|請注意，由於費用的|  
-|**MT 646**|主體和 （或） 感興趣的付款|  
-|**MT 649**|一般的聯合的設備訊息|  
-||**庫房市場-常見的訊息**|  
-|**MT 690**|費用、 感興趣，而其他調整的建議|  
-|**MT 691**|支付費用、 感興趣，而其他費用的要求|  
-|**MT 692**|取消要求|  
-|**MT 695**|查詢|  
-|**MT 696**|答案|  
-|**MT 698**|專屬的訊息|  
-|**MT 699**|可用的格式訊息|  
+||<span data-ttu-id="10cea-603">**庫房市場珍貴金屬等**</span><span class="sxs-lookup"><span data-stu-id="10cea-603">**Treasury Markets Precious Metals**</span></span>|  
+|<span data-ttu-id="10cea-604">**MT 600**</span><span class="sxs-lookup"><span data-stu-id="10cea-604">**MT 600**</span></span>|<span data-ttu-id="10cea-605">裸機 Trade 確認</span><span class="sxs-lookup"><span data-stu-id="10cea-605">Metal Trade Confirmation</span></span>|  
+|<span data-ttu-id="10cea-606">**MT 601**</span><span class="sxs-lookup"><span data-stu-id="10cea-606">**MT 601**</span></span>|<span data-ttu-id="10cea-607">珍貴金屬選項確認</span><span class="sxs-lookup"><span data-stu-id="10cea-607">Precious Metal Option Confirmation</span></span>|  
+|<span data-ttu-id="10cea-608">**MT 604**</span><span class="sxs-lookup"><span data-stu-id="10cea-608">**MT 604**</span></span>|<span data-ttu-id="10cea-609">珍貴金屬傳輸/傳遞順序</span><span class="sxs-lookup"><span data-stu-id="10cea-609">Precious Metal Transfer/Delivery Order</span></span>|  
+|<span data-ttu-id="10cea-610">**MT 605**</span><span class="sxs-lookup"><span data-stu-id="10cea-610">**MT 605**</span></span>|<span data-ttu-id="10cea-611">接收的珍貴金屬注意事項</span><span class="sxs-lookup"><span data-stu-id="10cea-611">Precious Metal Notice to Receive</span></span>|  
+|<span data-ttu-id="10cea-612">**MT 606**</span><span class="sxs-lookup"><span data-stu-id="10cea-612">**MT 606**</span></span>|<span data-ttu-id="10cea-613">珍貴金屬 Debit 建議</span><span class="sxs-lookup"><span data-stu-id="10cea-613">Precious Metal Debit Advice</span></span>|  
+|<span data-ttu-id="10cea-614">**MT 607**</span><span class="sxs-lookup"><span data-stu-id="10cea-614">**MT 607**</span></span>|<span data-ttu-id="10cea-615">珍貴金屬信用額度的建議</span><span class="sxs-lookup"><span data-stu-id="10cea-615">Precious Metal Credit Advice</span></span>|  
+|<span data-ttu-id="10cea-616">**MT 608**</span><span class="sxs-lookup"><span data-stu-id="10cea-616">**MT 608**</span></span>|<span data-ttu-id="10cea-617">陳述式的金屬帳戶</span><span class="sxs-lookup"><span data-stu-id="10cea-617">Statement of a Metal Account</span></span>|  
+|<span data-ttu-id="10cea-618">**MT 609**</span><span class="sxs-lookup"><span data-stu-id="10cea-618">**MT 609**</span></span>|<span data-ttu-id="10cea-619">陳述式的金屬合約</span><span class="sxs-lookup"><span data-stu-id="10cea-619">Statement of Metal Contracts</span></span>|  
+|<span data-ttu-id="10cea-620">**MT 620**</span><span class="sxs-lookup"><span data-stu-id="10cea-620">**MT 620**</span></span>|<span data-ttu-id="10cea-621">貸款存款金屬固定的確認</span><span class="sxs-lookup"><span data-stu-id="10cea-621">Metal Fixed Loan/Deposit Confirmation</span></span>|  
+||<span data-ttu-id="10cea-622">**庫房市場 Syndications**</span><span class="sxs-lookup"><span data-stu-id="10cea-622">**Treasury Markets Syndications**</span></span>|  
+|<span data-ttu-id="10cea-623">**MT 643**</span><span class="sxs-lookup"><span data-stu-id="10cea-623">**MT 643**</span></span>|<span data-ttu-id="10cea-624">請注意一個 Drawdown/更新</span><span class="sxs-lookup"><span data-stu-id="10cea-624">Notice of Drawdown/Renewal</span></span>|  
+|<span data-ttu-id="10cea-625">**MT 644**</span><span class="sxs-lookup"><span data-stu-id="10cea-625">**MT 644**</span></span>|<span data-ttu-id="10cea-626">速率與數量修正的建議</span><span class="sxs-lookup"><span data-stu-id="10cea-626">Advice of Rate and Amount Fixing</span></span>|  
+|<span data-ttu-id="10cea-627">**MT 645**</span><span class="sxs-lookup"><span data-stu-id="10cea-627">**MT 645**</span></span>|<span data-ttu-id="10cea-628">請注意，由於費用的</span><span class="sxs-lookup"><span data-stu-id="10cea-628">Notice of Fee Due</span></span>|  
+|<span data-ttu-id="10cea-629">**MT 646**</span><span class="sxs-lookup"><span data-stu-id="10cea-629">**MT 646**</span></span>|<span data-ttu-id="10cea-630">主體和 （或） 感興趣的付款</span><span class="sxs-lookup"><span data-stu-id="10cea-630">Payment of Principal and/or of Interest</span></span>|  
+|<span data-ttu-id="10cea-631">**MT 649**</span><span class="sxs-lookup"><span data-stu-id="10cea-631">**MT 649**</span></span>|<span data-ttu-id="10cea-632">一般的聯合的設備訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-632">General Syndicated Facility Message</span></span>|  
+||<span data-ttu-id="10cea-633">**庫房市場-常見的訊息**</span><span class="sxs-lookup"><span data-stu-id="10cea-633">**Treasury Markets - Common Messages**</span></span>|  
+|<span data-ttu-id="10cea-634">**MT 690**</span><span class="sxs-lookup"><span data-stu-id="10cea-634">**MT 690**</span></span>|<span data-ttu-id="10cea-635">費用、 感興趣，而其他調整的建議</span><span class="sxs-lookup"><span data-stu-id="10cea-635">Advice of Charges, Interest and Other Adjustments</span></span>|  
+|<span data-ttu-id="10cea-636">**MT 691**</span><span class="sxs-lookup"><span data-stu-id="10cea-636">**MT 691**</span></span>|<span data-ttu-id="10cea-637">支付費用、 感興趣，而其他費用的要求</span><span class="sxs-lookup"><span data-stu-id="10cea-637">Request for Payment of Charges, Interest and Other Expenses</span></span>|  
+|<span data-ttu-id="10cea-638">**MT 692**</span><span class="sxs-lookup"><span data-stu-id="10cea-638">**MT 692**</span></span>|<span data-ttu-id="10cea-639">取消要求</span><span class="sxs-lookup"><span data-stu-id="10cea-639">Request for Cancellation</span></span>|  
+|<span data-ttu-id="10cea-640">**MT 695**</span><span class="sxs-lookup"><span data-stu-id="10cea-640">**MT 695**</span></span>|<span data-ttu-id="10cea-641">查詢</span><span class="sxs-lookup"><span data-stu-id="10cea-641">Queries</span></span>|  
+|<span data-ttu-id="10cea-642">**MT 696**</span><span class="sxs-lookup"><span data-stu-id="10cea-642">**MT 696**</span></span>|<span data-ttu-id="10cea-643">答案</span><span class="sxs-lookup"><span data-stu-id="10cea-643">Answers</span></span>|  
+|<span data-ttu-id="10cea-644">**MT 698**</span><span class="sxs-lookup"><span data-stu-id="10cea-644">**MT 698**</span></span>|<span data-ttu-id="10cea-645">專屬的訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-645">Proprietary Message</span></span>|  
+|<span data-ttu-id="10cea-646">**MT 699**</span><span class="sxs-lookup"><span data-stu-id="10cea-646">**MT 699**</span></span>|<span data-ttu-id="10cea-647">可用的格式訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-647">Free Format Message</span></span>|  
   
-##  <a name="fsa_intro_vhkw"></a>類別目錄 7： 記錄信用額度和保證  
- 下表描述訊息從類別目錄 7： 紀實信用額度與保證。  
+##  <span data-ttu-id="10cea-648"><a name="fsa_intro_vhkw"></a>類別目錄 7： 記錄信用額度和保證</span><span class="sxs-lookup"><span data-stu-id="10cea-648"><a name="fsa_intro_vhkw"></a> Category 7: Documentary Credits and Guarantees</span></span>  
+ <span data-ttu-id="10cea-649">下表描述訊息從類別目錄 7： 紀實信用額度與保證。</span><span class="sxs-lookup"><span data-stu-id="10cea-649">The following table describes messages from Category 7: Documentary Credits and Guarantees.</span></span>  
   
-|訊息類型|Description|  
+|<span data-ttu-id="10cea-650">訊息類型</span><span class="sxs-lookup"><span data-stu-id="10cea-650">Message type</span></span>|<span data-ttu-id="10cea-651">Description</span><span class="sxs-lookup"><span data-stu-id="10cea-651">Description</span></span>|  
 |------------------|-----------------|  
-|**MT 700**|記錄的信用額度的問題|  
-|**MT 701**|記錄的信用額度的問題|  
-|**MT 705**|記錄的信用額度的前的建議|  
-|**MT 707**|記錄的信用額度的修正|  
-|**MT 710**|第三個銀行記錄信用額度的建議|  
-|**MT 711**|第三個銀行記錄信用額度的建議|  
-|**MT 720**|記錄的信用額度的傳輸|  
-|**MT 721**|記錄的信用額度的傳輸|  
-|**MT 730**|通知|  
-|**MT 732**|放電的建議|  
-|**MT 734**|拒絕的建議|  
-|**MT 740**|Reimburse 的授權|  
-|**MT 742**|補償宣告|  
-|**MT 747**|以 Reimburse 授權的修正|  
-|**MT 750**|不一致的建議|  
-|**MT 752**|支付、 接受或交涉的授權|  
-|**MT 754**|付款/接受/交涉的建議|  
-|**MT 756**|補償或付款的建議|  
-|**MT 760**|保證|  
-|**MT 767**|保證修正|  
-|**MT 768**|保證訊息的認可|  
-|**MT 769**|縮小或發行的建議|  
-|**MT 790**|費用、 感興趣，而其他調整的建議|  
-|**MT 791**|支付費用、 感興趣，而其他費用的要求|  
-|**MT 792**|取消要求|  
-|**MT 795**|查詢|  
-|**MT 796**|答案|  
-|**MT 798**|專屬的訊息|  
-|**MT 799**|可用的格式訊息|  
+|<span data-ttu-id="10cea-652">**MT 700**</span><span class="sxs-lookup"><span data-stu-id="10cea-652">**MT 700**</span></span>|<span data-ttu-id="10cea-653">記錄的信用額度的問題</span><span class="sxs-lookup"><span data-stu-id="10cea-653">Issue of a Documentary Credit</span></span>|  
+|<span data-ttu-id="10cea-654">**MT 701**</span><span class="sxs-lookup"><span data-stu-id="10cea-654">**MT 701**</span></span>|<span data-ttu-id="10cea-655">記錄的信用額度的問題</span><span class="sxs-lookup"><span data-stu-id="10cea-655">Issue of a Documentary Credit</span></span>|  
+|<span data-ttu-id="10cea-656">**MT 705**</span><span class="sxs-lookup"><span data-stu-id="10cea-656">**MT 705**</span></span>|<span data-ttu-id="10cea-657">記錄的信用額度的前的建議</span><span class="sxs-lookup"><span data-stu-id="10cea-657">Pre-Advice of a Documentary Credit</span></span>|  
+|<span data-ttu-id="10cea-658">**MT 707**</span><span class="sxs-lookup"><span data-stu-id="10cea-658">**MT 707**</span></span>|<span data-ttu-id="10cea-659">記錄的信用額度的修正</span><span class="sxs-lookup"><span data-stu-id="10cea-659">Amendment to a Documentary Credit</span></span>|  
+|<span data-ttu-id="10cea-660">**MT 710**</span><span class="sxs-lookup"><span data-stu-id="10cea-660">**MT 710**</span></span>|<span data-ttu-id="10cea-661">第三個銀行記錄信用額度的建議</span><span class="sxs-lookup"><span data-stu-id="10cea-661">Advice of a Third Banks Documentary Credit</span></span>|  
+|<span data-ttu-id="10cea-662">**MT 711**</span><span class="sxs-lookup"><span data-stu-id="10cea-662">**MT 711**</span></span>|<span data-ttu-id="10cea-663">第三個銀行記錄信用額度的建議</span><span class="sxs-lookup"><span data-stu-id="10cea-663">Advice of a Third Banks Documentary Credit</span></span>|  
+|<span data-ttu-id="10cea-664">**MT 720**</span><span class="sxs-lookup"><span data-stu-id="10cea-664">**MT 720**</span></span>|<span data-ttu-id="10cea-665">記錄的信用額度的傳輸</span><span class="sxs-lookup"><span data-stu-id="10cea-665">Transfer of a Documentary Credit</span></span>|  
+|<span data-ttu-id="10cea-666">**MT 721**</span><span class="sxs-lookup"><span data-stu-id="10cea-666">**MT 721**</span></span>|<span data-ttu-id="10cea-667">記錄的信用額度的傳輸</span><span class="sxs-lookup"><span data-stu-id="10cea-667">Transfer of a Documentary Credit</span></span>|  
+|<span data-ttu-id="10cea-668">**MT 730**</span><span class="sxs-lookup"><span data-stu-id="10cea-668">**MT 730**</span></span>|<span data-ttu-id="10cea-669">通知</span><span class="sxs-lookup"><span data-stu-id="10cea-669">Acknowledgement</span></span>|  
+|<span data-ttu-id="10cea-670">**MT 732**</span><span class="sxs-lookup"><span data-stu-id="10cea-670">**MT 732**</span></span>|<span data-ttu-id="10cea-671">放電的建議</span><span class="sxs-lookup"><span data-stu-id="10cea-671">Advice of Discharge</span></span>|  
+|<span data-ttu-id="10cea-672">**MT 734**</span><span class="sxs-lookup"><span data-stu-id="10cea-672">**MT 734**</span></span>|<span data-ttu-id="10cea-673">拒絕的建議</span><span class="sxs-lookup"><span data-stu-id="10cea-673">Advice of a Refusal</span></span>|  
+|<span data-ttu-id="10cea-674">**MT 740**</span><span class="sxs-lookup"><span data-stu-id="10cea-674">**MT 740**</span></span>|<span data-ttu-id="10cea-675">Reimburse 的授權</span><span class="sxs-lookup"><span data-stu-id="10cea-675">Authorization to Reimburse</span></span>|  
+|<span data-ttu-id="10cea-676">**MT 742**</span><span class="sxs-lookup"><span data-stu-id="10cea-676">**MT 742**</span></span>|<span data-ttu-id="10cea-677">補償宣告</span><span class="sxs-lookup"><span data-stu-id="10cea-677">Reimbursement Claim</span></span>|  
+|<span data-ttu-id="10cea-678">**MT 747**</span><span class="sxs-lookup"><span data-stu-id="10cea-678">**MT 747**</span></span>|<span data-ttu-id="10cea-679">以 Reimburse 授權的修正</span><span class="sxs-lookup"><span data-stu-id="10cea-679">Amendment to an Authorisation to Reimburse</span></span>|  
+|<span data-ttu-id="10cea-680">**MT 750**</span><span class="sxs-lookup"><span data-stu-id="10cea-680">**MT 750**</span></span>|<span data-ttu-id="10cea-681">不一致的建議</span><span class="sxs-lookup"><span data-stu-id="10cea-681">Advice of Discrepancy</span></span>|  
+|<span data-ttu-id="10cea-682">**MT 752**</span><span class="sxs-lookup"><span data-stu-id="10cea-682">**MT 752**</span></span>|<span data-ttu-id="10cea-683">支付、 接受或交涉的授權</span><span class="sxs-lookup"><span data-stu-id="10cea-683">Authorisation to Pay, Accept or Negotiate</span></span>|  
+|<span data-ttu-id="10cea-684">**MT 754**</span><span class="sxs-lookup"><span data-stu-id="10cea-684">**MT 754**</span></span>|<span data-ttu-id="10cea-685">付款/接受/交涉的建議</span><span class="sxs-lookup"><span data-stu-id="10cea-685">Advice of Payment/Acceptance/Negotiation</span></span>|  
+|<span data-ttu-id="10cea-686">**MT 756**</span><span class="sxs-lookup"><span data-stu-id="10cea-686">**MT 756**</span></span>|<span data-ttu-id="10cea-687">補償或付款的建議</span><span class="sxs-lookup"><span data-stu-id="10cea-687">Advice of Reimbursement or Payment</span></span>|  
+|<span data-ttu-id="10cea-688">**MT 760**</span><span class="sxs-lookup"><span data-stu-id="10cea-688">**MT 760**</span></span>|<span data-ttu-id="10cea-689">保證</span><span class="sxs-lookup"><span data-stu-id="10cea-689">Guarantee</span></span>|  
+|<span data-ttu-id="10cea-690">**MT 767**</span><span class="sxs-lookup"><span data-stu-id="10cea-690">**MT 767**</span></span>|<span data-ttu-id="10cea-691">保證修正</span><span class="sxs-lookup"><span data-stu-id="10cea-691">Guarantee Amendment</span></span>|  
+|<span data-ttu-id="10cea-692">**MT 768**</span><span class="sxs-lookup"><span data-stu-id="10cea-692">**MT 768**</span></span>|<span data-ttu-id="10cea-693">保證訊息的認可</span><span class="sxs-lookup"><span data-stu-id="10cea-693">Acknowledgement of a Guarantee Message</span></span>|  
+|<span data-ttu-id="10cea-694">**MT 769**</span><span class="sxs-lookup"><span data-stu-id="10cea-694">**MT 769**</span></span>|<span data-ttu-id="10cea-695">縮小或發行的建議</span><span class="sxs-lookup"><span data-stu-id="10cea-695">Advice of Reduction or Release</span></span>|  
+|<span data-ttu-id="10cea-696">**MT 790**</span><span class="sxs-lookup"><span data-stu-id="10cea-696">**MT 790**</span></span>|<span data-ttu-id="10cea-697">費用、 感興趣，而其他調整的建議</span><span class="sxs-lookup"><span data-stu-id="10cea-697">Advice of Charges, Interest and Other Adjustments</span></span>|  
+|<span data-ttu-id="10cea-698">**MT 791**</span><span class="sxs-lookup"><span data-stu-id="10cea-698">**MT 791**</span></span>|<span data-ttu-id="10cea-699">支付費用、 感興趣，而其他費用的要求</span><span class="sxs-lookup"><span data-stu-id="10cea-699">Request for Payment of Charges, Interest and Other Expenses</span></span>|  
+|<span data-ttu-id="10cea-700">**MT 792**</span><span class="sxs-lookup"><span data-stu-id="10cea-700">**MT 792**</span></span>|<span data-ttu-id="10cea-701">取消要求</span><span class="sxs-lookup"><span data-stu-id="10cea-701">Request for Cancellation</span></span>|  
+|<span data-ttu-id="10cea-702">**MT 795**</span><span class="sxs-lookup"><span data-stu-id="10cea-702">**MT 795**</span></span>|<span data-ttu-id="10cea-703">查詢</span><span class="sxs-lookup"><span data-stu-id="10cea-703">Queries</span></span>|  
+|<span data-ttu-id="10cea-704">**MT 796**</span><span class="sxs-lookup"><span data-stu-id="10cea-704">**MT 796**</span></span>|<span data-ttu-id="10cea-705">答案</span><span class="sxs-lookup"><span data-stu-id="10cea-705">Answers</span></span>|  
+|<span data-ttu-id="10cea-706">**MT 798**</span><span class="sxs-lookup"><span data-stu-id="10cea-706">**MT 798**</span></span>|<span data-ttu-id="10cea-707">專屬的訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-707">Proprietary Message</span></span>|  
+|<span data-ttu-id="10cea-708">**MT 799**</span><span class="sxs-lookup"><span data-stu-id="10cea-708">**MT 799**</span></span>|<span data-ttu-id="10cea-709">可用的格式訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-709">Free Format Message</span></span>|  
   
-##  <a name="fsa_intro_qlwo"></a>類別 8： 旅行者改走在  
- 下表描述的訊息類別 8： 在旅行者改走。  
+##  <span data-ttu-id="10cea-710"><a name="fsa_intro_qlwo"></a>類別 8： 旅行者改走在</span><span class="sxs-lookup"><span data-stu-id="10cea-710"><a name="fsa_intro_qlwo"></a> Category 8: Travellers Cheques</span></span>  
+ <span data-ttu-id="10cea-711">下表描述的訊息類別 8： 在旅行者改走。</span><span class="sxs-lookup"><span data-stu-id="10cea-711">The following table describes messages from Category 8: Travellers Cheques.</span></span>  
   
-|訊息類型|Description|  
+|<span data-ttu-id="10cea-712">訊息類型</span><span class="sxs-lookup"><span data-stu-id="10cea-712">Message type</span></span>|<span data-ttu-id="10cea-713">Description</span><span class="sxs-lookup"><span data-stu-id="10cea-713">Description</span></span>|  
 |------------------|-----------------|  
-|**MT 800**|MT 800/C T Sales 和結算建議 [單一]|  
-|**MT 801**|MT 801 T/C 多個銷售的建議|  
-|**MT 802**|MT 802 T/C 結算建議|  
-|**MT 810**|MT 810 T/C 退款要求|  
-|**MT 812**|MT 812 T/C 退款授權|  
-|**MT 813**|MT 813 T/C 退款確認|  
-|**MT 820**|MT 820 要求 T/C 內建|  
-|**MT 821**|MT 821 T/C 清查加法|  
-|**MT 822**|MT 822 信任接收通知|  
-|**MT 823**|MT 823 T/C 清查傳輸|  
-|**MT 824**|MT 824 T/C 清查解構/取消通知|  
-|**MT 890**|MT 890 費用及其他調整感興趣的建議|  
-|**MT 891**|MT 891 要求支付費用、 感興趣，而其他費用|  
-|**MT 892**|MT 892 要求取消|  
-|**MT 895**|MT 895 查詢|  
-|**MT 896**|MT 896 答案|  
-|**MT 898**|MT 898 專屬的訊息|  
-|**MT 899**|MT 899 任意格式訊息|  
+|<span data-ttu-id="10cea-714">**MT 800**</span><span class="sxs-lookup"><span data-stu-id="10cea-714">**MT 800**</span></span>|<span data-ttu-id="10cea-715">MT 800/C T Sales 和結算建議 [單一]</span><span class="sxs-lookup"><span data-stu-id="10cea-715">MT 800 T/C Sales and Settlement Advice [Single]</span></span>|  
+|<span data-ttu-id="10cea-716">**MT 801**</span><span class="sxs-lookup"><span data-stu-id="10cea-716">**MT 801**</span></span>|<span data-ttu-id="10cea-717">MT 801 T/C 多個銷售的建議</span><span class="sxs-lookup"><span data-stu-id="10cea-717">MT 801 T/C Multiple Sales Advice</span></span>|  
+|<span data-ttu-id="10cea-718">**MT 802**</span><span class="sxs-lookup"><span data-stu-id="10cea-718">**MT 802**</span></span>|<span data-ttu-id="10cea-719">MT 802 T/C 結算建議</span><span class="sxs-lookup"><span data-stu-id="10cea-719">MT 802 T/C Settlement Advice</span></span>|  
+|<span data-ttu-id="10cea-720">**MT 810**</span><span class="sxs-lookup"><span data-stu-id="10cea-720">**MT 810**</span></span>|<span data-ttu-id="10cea-721">MT 810 T/C 退款要求</span><span class="sxs-lookup"><span data-stu-id="10cea-721">MT 810 T/C Refund Request</span></span>|  
+|<span data-ttu-id="10cea-722">**MT 812**</span><span class="sxs-lookup"><span data-stu-id="10cea-722">**MT 812**</span></span>|<span data-ttu-id="10cea-723">MT 812 T/C 退款授權</span><span class="sxs-lookup"><span data-stu-id="10cea-723">MT 812 T/C Refund Authorisation</span></span>|  
+|<span data-ttu-id="10cea-724">**MT 813**</span><span class="sxs-lookup"><span data-stu-id="10cea-724">**MT 813**</span></span>|<span data-ttu-id="10cea-725">MT 813 T/C 退款確認</span><span class="sxs-lookup"><span data-stu-id="10cea-725">MT 813 T/C Refund Confirmation</span></span>|  
+|<span data-ttu-id="10cea-726">**MT 820**</span><span class="sxs-lookup"><span data-stu-id="10cea-726">**MT 820**</span></span>|<span data-ttu-id="10cea-727">MT 820 要求 T/C 內建</span><span class="sxs-lookup"><span data-stu-id="10cea-727">MT 820 Request for T/C Stock</span></span>|  
+|<span data-ttu-id="10cea-728">**MT 821**</span><span class="sxs-lookup"><span data-stu-id="10cea-728">**MT 821**</span></span>|<span data-ttu-id="10cea-729">MT 821 T/C 清查加法</span><span class="sxs-lookup"><span data-stu-id="10cea-729">MT 821 T/C Inventory Addition</span></span>|  
+|<span data-ttu-id="10cea-730">**MT 822**</span><span class="sxs-lookup"><span data-stu-id="10cea-730">**MT 822**</span></span>|<span data-ttu-id="10cea-731">MT 822 信任接收通知</span><span class="sxs-lookup"><span data-stu-id="10cea-731">MT 822 Trust Receipt Acknowledgement</span></span>|  
+|<span data-ttu-id="10cea-732">**MT 823**</span><span class="sxs-lookup"><span data-stu-id="10cea-732">**MT 823**</span></span>|<span data-ttu-id="10cea-733">MT 823 T/C 清查傳輸</span><span class="sxs-lookup"><span data-stu-id="10cea-733">MT 823 T/C Inventory Transfer</span></span>|  
+|<span data-ttu-id="10cea-734">**MT 824**</span><span class="sxs-lookup"><span data-stu-id="10cea-734">**MT 824**</span></span>|<span data-ttu-id="10cea-735">MT 824 T/C 清查解構/取消通知</span><span class="sxs-lookup"><span data-stu-id="10cea-735">MT 824 T/C Inventory Destruction/Cancellation Notice</span></span>|  
+|<span data-ttu-id="10cea-736">**MT 890**</span><span class="sxs-lookup"><span data-stu-id="10cea-736">**MT 890**</span></span>|<span data-ttu-id="10cea-737">MT 890 費用及其他調整感興趣的建議</span><span class="sxs-lookup"><span data-stu-id="10cea-737">MT 890 Advice of Charges, Interest and Other Adjustments</span></span>|  
+|<span data-ttu-id="10cea-738">**MT 891**</span><span class="sxs-lookup"><span data-stu-id="10cea-738">**MT 891**</span></span>|<span data-ttu-id="10cea-739">MT 891 要求支付費用、 感興趣，而其他費用</span><span class="sxs-lookup"><span data-stu-id="10cea-739">MT 891 Request for Payment of Charges, Interest and Other Expenses</span></span>|  
+|<span data-ttu-id="10cea-740">**MT 892**</span><span class="sxs-lookup"><span data-stu-id="10cea-740">**MT 892**</span></span>|<span data-ttu-id="10cea-741">MT 892 要求取消</span><span class="sxs-lookup"><span data-stu-id="10cea-741">MT 892 Request for Cancellation</span></span>|  
+|<span data-ttu-id="10cea-742">**MT 895**</span><span class="sxs-lookup"><span data-stu-id="10cea-742">**MT 895**</span></span>|<span data-ttu-id="10cea-743">MT 895 查詢</span><span class="sxs-lookup"><span data-stu-id="10cea-743">MT 895 Queries</span></span>|  
+|<span data-ttu-id="10cea-744">**MT 896**</span><span class="sxs-lookup"><span data-stu-id="10cea-744">**MT 896**</span></span>|<span data-ttu-id="10cea-745">MT 896 答案</span><span class="sxs-lookup"><span data-stu-id="10cea-745">MT 896 Answers</span></span>|  
+|<span data-ttu-id="10cea-746">**MT 898**</span><span class="sxs-lookup"><span data-stu-id="10cea-746">**MT 898**</span></span>|<span data-ttu-id="10cea-747">MT 898 專屬的訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-747">MT 898 Proprietary Message</span></span>|  
+|<span data-ttu-id="10cea-748">**MT 899**</span><span class="sxs-lookup"><span data-stu-id="10cea-748">**MT 899**</span></span>|<span data-ttu-id="10cea-749">MT 899 任意格式訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-749">MT 899 Free Format Message</span></span>|  
   
-##  <a name="fsa_intro_sptj"></a>類別 9： 現金管理和客戶狀態  
- 下表描述的訊息類別 9： 現金管理和客戶狀態。  
+##  <span data-ttu-id="10cea-750"><a name="fsa_intro_sptj"></a>類別 9： 現金管理和客戶狀態</span><span class="sxs-lookup"><span data-stu-id="10cea-750"><a name="fsa_intro_sptj"></a> Category 9: Cash Management and Customer Status</span></span>  
+ <span data-ttu-id="10cea-751">下表描述的訊息類別 9： 現金管理和客戶狀態。</span><span class="sxs-lookup"><span data-stu-id="10cea-751">The following table describes messages from Category 9: Cash Management and Customer Status.</span></span>  
   
-|訊息類型|Description|  
+|<span data-ttu-id="10cea-752">訊息類型</span><span class="sxs-lookup"><span data-stu-id="10cea-752">Message type</span></span>|<span data-ttu-id="10cea-753">Description</span><span class="sxs-lookup"><span data-stu-id="10cea-753">Description</span></span>|  
 |------------------|-----------------|  
-|**MT 900**|付款的確認|  
-|**MT 910**|信用額度的確認|  
-|**MT 920**|要求訊息|  
-|**MT 935**|速率變更建議|  
-|**MT 940**|客戶陳述式的訊息|  
-|**MT 941**|平衡報表|  
-|**MT 942**|暫時的交易報告|  
-|**MT 950**|陳述式的訊息|  
-|**MT 960**|針對服務起始訊息的要求|  
-|**MT 961**|初始回應訊息|  
-|**MT 962**|金鑰服務訊息|  
-|**MT 963**|索引鍵的通知訊息|  
-|**MT 964**|錯誤訊息|  
-|**MT 965**|金鑰服務訊息中的錯誤|  
-|**MT 966**|停止服務的訊息|  
-|**MT 967**|中止認可訊息|  
-|**MT 970**|網陳述式|  
-|**MT 971**|網平衡報表|  
-|**MT 972**|網暫時陳述式|  
-|**MT 973**|網要求訊息|  
-|**MT 985**|狀態查詢|  
-|**MT 986**|狀態報告|  
-|**MT 990**|費用、 感興趣，而其他調整的建議|  
-|**MT 991**|支付費用、 感興趣，而其他費用的要求|  
-|**MT 992**|取消要求|  
-|**MT 995**|查詢|  
-|**MT 996**|答案|  
-|**MT 998**|專屬的訊息|  
-|**MT 999**|可用的格式訊息|  
+|<span data-ttu-id="10cea-754">**MT 900**</span><span class="sxs-lookup"><span data-stu-id="10cea-754">**MT 900**</span></span>|<span data-ttu-id="10cea-755">付款的確認</span><span class="sxs-lookup"><span data-stu-id="10cea-755">Confirmation of Debit</span></span>|  
+|<span data-ttu-id="10cea-756">**MT 910**</span><span class="sxs-lookup"><span data-stu-id="10cea-756">**MT 910**</span></span>|<span data-ttu-id="10cea-757">信用額度的確認</span><span class="sxs-lookup"><span data-stu-id="10cea-757">Confirmation of Credit</span></span>|  
+|<span data-ttu-id="10cea-758">**MT 920**</span><span class="sxs-lookup"><span data-stu-id="10cea-758">**MT 920**</span></span>|<span data-ttu-id="10cea-759">要求訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-759">Request Message</span></span>|  
+|<span data-ttu-id="10cea-760">**MT 935**</span><span class="sxs-lookup"><span data-stu-id="10cea-760">**MT 935**</span></span>|<span data-ttu-id="10cea-761">速率變更建議</span><span class="sxs-lookup"><span data-stu-id="10cea-761">Rate Change Advice</span></span>|  
+|<span data-ttu-id="10cea-762">**MT 940**</span><span class="sxs-lookup"><span data-stu-id="10cea-762">**MT 940**</span></span>|<span data-ttu-id="10cea-763">客戶陳述式的訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-763">Customer Statement Message</span></span>|  
+|<span data-ttu-id="10cea-764">**MT 941**</span><span class="sxs-lookup"><span data-stu-id="10cea-764">**MT 941**</span></span>|<span data-ttu-id="10cea-765">平衡報表</span><span class="sxs-lookup"><span data-stu-id="10cea-765">Balance Report</span></span>|  
+|<span data-ttu-id="10cea-766">**MT 942**</span><span class="sxs-lookup"><span data-stu-id="10cea-766">**MT 942**</span></span>|<span data-ttu-id="10cea-767">暫時的交易報告</span><span class="sxs-lookup"><span data-stu-id="10cea-767">Interim Transaction Report</span></span>|  
+|<span data-ttu-id="10cea-768">**MT 950**</span><span class="sxs-lookup"><span data-stu-id="10cea-768">**MT 950**</span></span>|<span data-ttu-id="10cea-769">陳述式的訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-769">Statement Message</span></span>|  
+|<span data-ttu-id="10cea-770">**MT 960**</span><span class="sxs-lookup"><span data-stu-id="10cea-770">**MT 960**</span></span>|<span data-ttu-id="10cea-771">針對服務起始訊息的要求</span><span class="sxs-lookup"><span data-stu-id="10cea-771">Request for Service Initiation Message</span></span>|  
+|<span data-ttu-id="10cea-772">**MT 961**</span><span class="sxs-lookup"><span data-stu-id="10cea-772">**MT 961**</span></span>|<span data-ttu-id="10cea-773">初始回應訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-773">Initiation Response Message</span></span>|  
+|<span data-ttu-id="10cea-774">**MT 962**</span><span class="sxs-lookup"><span data-stu-id="10cea-774">**MT 962**</span></span>|<span data-ttu-id="10cea-775">金鑰服務訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-775">Key Service Message</span></span>|  
+|<span data-ttu-id="10cea-776">**MT 963**</span><span class="sxs-lookup"><span data-stu-id="10cea-776">**MT 963**</span></span>|<span data-ttu-id="10cea-777">索引鍵的通知訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-777">Key Acknowledgement Message</span></span>|  
+|<span data-ttu-id="10cea-778">**MT 964**</span><span class="sxs-lookup"><span data-stu-id="10cea-778">**MT 964**</span></span>|<span data-ttu-id="10cea-779">錯誤訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-779">Error Message</span></span>|  
+|<span data-ttu-id="10cea-780">**MT 965**</span><span class="sxs-lookup"><span data-stu-id="10cea-780">**MT 965**</span></span>|<span data-ttu-id="10cea-781">金鑰服務訊息中的錯誤</span><span class="sxs-lookup"><span data-stu-id="10cea-781">Error in Key Service Message</span></span>|  
+|<span data-ttu-id="10cea-782">**MT 966**</span><span class="sxs-lookup"><span data-stu-id="10cea-782">**MT 966**</span></span>|<span data-ttu-id="10cea-783">停止服務的訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-783">Discontinue Service Message</span></span>|  
+|<span data-ttu-id="10cea-784">**MT 967**</span><span class="sxs-lookup"><span data-stu-id="10cea-784">**MT 967**</span></span>|<span data-ttu-id="10cea-785">中止認可訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-785">Discontinuation Acknowledgement Message</span></span>|  
+|<span data-ttu-id="10cea-786">**MT 970**</span><span class="sxs-lookup"><span data-stu-id="10cea-786">**MT 970**</span></span>|<span data-ttu-id="10cea-787">網陳述式</span><span class="sxs-lookup"><span data-stu-id="10cea-787">Netting Statement</span></span>|  
+|<span data-ttu-id="10cea-788">**MT 971**</span><span class="sxs-lookup"><span data-stu-id="10cea-788">**MT 971**</span></span>|<span data-ttu-id="10cea-789">網平衡報表</span><span class="sxs-lookup"><span data-stu-id="10cea-789">Netting Balance Report</span></span>|  
+|<span data-ttu-id="10cea-790">**MT 972**</span><span class="sxs-lookup"><span data-stu-id="10cea-790">**MT 972**</span></span>|<span data-ttu-id="10cea-791">網暫時陳述式</span><span class="sxs-lookup"><span data-stu-id="10cea-791">Netting Interim Statement</span></span>|  
+|<span data-ttu-id="10cea-792">**MT 973**</span><span class="sxs-lookup"><span data-stu-id="10cea-792">**MT 973**</span></span>|<span data-ttu-id="10cea-793">網要求訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-793">Netting Request Message</span></span>|  
+|<span data-ttu-id="10cea-794">**MT 985**</span><span class="sxs-lookup"><span data-stu-id="10cea-794">**MT 985**</span></span>|<span data-ttu-id="10cea-795">狀態查詢</span><span class="sxs-lookup"><span data-stu-id="10cea-795">Status Enquiry</span></span>|  
+|<span data-ttu-id="10cea-796">**MT 986**</span><span class="sxs-lookup"><span data-stu-id="10cea-796">**MT 986**</span></span>|<span data-ttu-id="10cea-797">狀態報告</span><span class="sxs-lookup"><span data-stu-id="10cea-797">Status Report</span></span>|  
+|<span data-ttu-id="10cea-798">**MT 990**</span><span class="sxs-lookup"><span data-stu-id="10cea-798">**MT 990**</span></span>|<span data-ttu-id="10cea-799">費用、 感興趣，而其他調整的建議</span><span class="sxs-lookup"><span data-stu-id="10cea-799">Advice of Charges, Interest and Other Adjustments</span></span>|  
+|<span data-ttu-id="10cea-800">**MT 991**</span><span class="sxs-lookup"><span data-stu-id="10cea-800">**MT 991**</span></span>|<span data-ttu-id="10cea-801">支付費用、 感興趣，而其他費用的要求</span><span class="sxs-lookup"><span data-stu-id="10cea-801">Request for Payment of Charges, Interest and Other Expenses</span></span>|  
+|<span data-ttu-id="10cea-802">**MT 992**</span><span class="sxs-lookup"><span data-stu-id="10cea-802">**MT 992**</span></span>|<span data-ttu-id="10cea-803">取消要求</span><span class="sxs-lookup"><span data-stu-id="10cea-803">Request for Cancellation</span></span>|  
+|<span data-ttu-id="10cea-804">**MT 995**</span><span class="sxs-lookup"><span data-stu-id="10cea-804">**MT 995**</span></span>|<span data-ttu-id="10cea-805">查詢</span><span class="sxs-lookup"><span data-stu-id="10cea-805">Queries</span></span>|  
+|<span data-ttu-id="10cea-806">**MT 996**</span><span class="sxs-lookup"><span data-stu-id="10cea-806">**MT 996**</span></span>|<span data-ttu-id="10cea-807">答案</span><span class="sxs-lookup"><span data-stu-id="10cea-807">Answers</span></span>|  
+|<span data-ttu-id="10cea-808">**MT 998**</span><span class="sxs-lookup"><span data-stu-id="10cea-808">**MT 998**</span></span>|<span data-ttu-id="10cea-809">專屬的訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-809">Proprietary Message</span></span>|  
+|<span data-ttu-id="10cea-810">**MT 999**</span><span class="sxs-lookup"><span data-stu-id="10cea-810">**MT 999**</span></span>|<span data-ttu-id="10cea-811">可用的格式訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-811">Free Format Message</span></span>|  
   
- 所有的訊息會遵循*SWIFT 標準版指南 2008年*規格。 如需有關*SWIFT 標準版指南*，請參閱 SWIFT 網站[http://go.microsoft.com/fwlink/?LinkId=27885](http://go.microsoft.com/fwlink/?LinkId=27885)。  
+ <span data-ttu-id="10cea-812">所有的訊息會遵循*SWIFT 標準版指南 2008年*規格。</span><span class="sxs-lookup"><span data-stu-id="10cea-812">All messages follow the *SWIFT Standards Release Guide 2008* specifications.</span></span> <span data-ttu-id="10cea-813">如需有關*SWIFT 標準版指南*，請參閱 SWIFT 網站[http://go.microsoft.com/fwlink/?LinkId=27885](http://go.microsoft.com/fwlink/?LinkId=27885)。</span><span class="sxs-lookup"><span data-stu-id="10cea-813">For more information about the *SWIFT Standards Release Guide*, see the SWIFT Web site at [http://go.microsoft.com/fwlink/?LinkId=27885](http://go.microsoft.com/fwlink/?LinkId=27885).</span></span>  
   
-## <a name="see-also"></a>另請參閱  
- [SWIFT 訊息](../../adapters-and-accelerators/accelerator-swift/swift-messages.md)
+## <a name="see-also"></a><span data-ttu-id="10cea-814">另請參閱</span><span class="sxs-lookup"><span data-stu-id="10cea-814">See Also</span></span>  
+ [<span data-ttu-id="10cea-815">SWIFT 訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-815">SWIFT Messages</span></span>](../../adapters-and-accelerators/accelerator-swift/swift-messages.md)

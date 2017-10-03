@@ -18,13 +18,13 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="0c2-request-to-0c2-response-map-sample"></a>0c2 要求至 0 C 的 2 的回應對應範例
-_0C2RequestMessageTo0C2ResponseMessage.btm 範例會展示您可以將 0C2 要求訊息對應至 0C2 回應訊息的方式。  
+# <a name="0c2-request-to-0c2-response-map-sample"></a><span data-ttu-id="c1eff-102">0c2 要求至 0 C 的 2 的回應對應範例</span><span class="sxs-lookup"><span data-stu-id="c1eff-102">0C2 Request to 0C2 Response Map Sample</span></span>
+<span data-ttu-id="c1eff-103">_0C2RequestMessageTo0C2ResponseMessage.btm 範例會展示您可以將 0C2 要求訊息對應至 0C2 回應訊息的方式。</span><span class="sxs-lookup"><span data-stu-id="c1eff-103">The _0C2RequestMessageTo0C2ResponseMessage.btm sample demonstrates how you can map a 0C2 request message to a 0C2 response message.</span></span>  
   
- 根據預設， [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]®[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]安裝程式安裝中的範例\<*磁碟機*>: \Program Files\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Microsoft BizTalk\<版本 >Accelerator for rosettanet\sdk\pipautomation\doubleaction。  
+ <span data-ttu-id="c1eff-104">根據預設， [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]®[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]安裝程式安裝中的範例\<*磁碟機*>: \Program Files\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Microsoft BizTalk\<版本 >Accelerator for rosettanet\sdk\pipautomation\doubleaction。</span><span class="sxs-lookup"><span data-stu-id="c1eff-104">By default, the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] Setup program installs the sample in \<*drive*>:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Microsoft BizTalk \<version> Accelerator for RosettaNet\SDK\PIPAutomation\DoubleAction.</span></span>  
   
-## <a name="sample-contents"></a>範例內容  
- 這個範例會展示如何將 0C2 要求訊息的欄位對應至 0C2 回應訊息。 您可以將這個範例與「雙向動作 PIPAutomation 協調流程」範例一起使用。 「雙向動作 PIPAutomation 協調流程」範例示範如何實作協調流程，以自動產生雙向動作 0C2、0C4、3A2 和 3A4 PIP 的回應。  
+## <a name="sample-contents"></a><span data-ttu-id="c1eff-105">範例內容</span><span class="sxs-lookup"><span data-stu-id="c1eff-105">Sample Contents</span></span>  
+ <span data-ttu-id="c1eff-106">這個範例會展示如何將 0C2 要求訊息的欄位對應至 0C2 回應訊息。</span><span class="sxs-lookup"><span data-stu-id="c1eff-106">This sample demonstrates how to map the fields of a 0C2 request message to a 0C2 response message.</span></span> <span data-ttu-id="c1eff-107">您可以將這個範例與「雙向動作 PIPAutomation 協調流程」範例一起使用。</span><span class="sxs-lookup"><span data-stu-id="c1eff-107">You can use this sample with the Double Action PIPAutomation Orchestration sample.</span></span> <span data-ttu-id="c1eff-108">「雙向動作 PIPAutomation 協調流程」範例示範如何實作協調流程，以自動產生雙向動作 0C2、0C4、3A2 和 3A4 PIP 的回應。</span><span class="sxs-lookup"><span data-stu-id="c1eff-108">The Double Action PIPAutomation Orchestration sample demonstrates how to implement an orchestration to automatically generate responses for double action 0C2, 0C4, 3A2, and 3A4 PIPs.</span></span>  
   
-## <a name="see-also"></a>另請參閱  
- [範例](../../adapters-and-accelerators/accelerator-rosettanet/samples3.md)
+## <a name="see-also"></a><span data-ttu-id="c1eff-109">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c1eff-109">See Also</span></span>  
+ [<span data-ttu-id="c1eff-110">範例</span><span class="sxs-lookup"><span data-stu-id="c1eff-110">Samples</span></span>](../../adapters-and-accelerators/accelerator-rosettanet/samples3.md)

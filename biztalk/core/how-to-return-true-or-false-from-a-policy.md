@@ -18,11 +18,11 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="how-to-return-true-or-false-from-a-policy"></a>如何從原則傳回 True 或 False
-您不能為原則直接指定傳回類型。 不過，您可以將下列其中一個事實類型傳送給原則，讓原則將事實的值變更為 `true` 或 `false`，然後在執行原則後檢查屬性/項目/欄的值：  
+# <a name="how-to-return-true-or-false-from-a-policy"></a><span data-ttu-id="5d024-102">如何從原則傳回 True 或 False</span><span class="sxs-lookup"><span data-stu-id="5d024-102">How to Return True or False from a Policy</span></span>
+<span data-ttu-id="5d024-103">您不能為原則直接指定傳回類型。</span><span class="sxs-lookup"><span data-stu-id="5d024-103">You cannot specify a return type for a policy directly.</span></span> <span data-ttu-id="5d024-104">不過，您可以將下列其中一個事實類型傳送給原則，讓原則將事實的值變更為 `true` 或 `false`，然後在執行原則後檢查屬性/項目/欄的值：</span><span class="sxs-lookup"><span data-stu-id="5d024-104">However, you can pass one of the following types of facts to the policy, have the policy change the value of the fact to `true` or `false`, and then check the value of the property/element/column after the policy is executed:</span></span>  
   
--   具有 `Boolean` 類型之屬性的 .NET 物件  
+-   <span data-ttu-id="5d024-105">具有 `Boolean` 類型之屬性的 .NET 物件</span><span class="sxs-lookup"><span data-stu-id="5d024-105">A .NET object with a property of type `Boolean`</span></span>  
   
--   具有 `Boolean` 類型之項目的 XML 文件  
+-   <span data-ttu-id="5d024-106">具有 `Boolean` 類型之項目的 XML 文件</span><span class="sxs-lookup"><span data-stu-id="5d024-106">An XML document with an element of type `Boolean`</span></span>  
   
--   具有 `Boolean` 類型之欄的資料庫資料表
+-   <span data-ttu-id="5d024-107">具有 `Boolean` 類型之欄的資料庫資料表</span><span class="sxs-lookup"><span data-stu-id="5d024-107">A database table with a column of type `Boolean`</span></span>

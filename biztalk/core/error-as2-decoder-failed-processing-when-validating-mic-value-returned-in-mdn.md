@@ -18,21 +18,21 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="the-as2-decoder-failed-processing-when-validating-the-mic-value-returned-in-the-mdn"></a>驗證 MDN 中傳回的 MIC 值時，AS2 解碼器處理失敗
-## <a name="details"></a>詳細資料  
+# <a name="the-as2-decoder-failed-processing-when-validating-the-mic-value-returned-in-the-mdn"></a><span data-ttu-id="20f3c-102">驗證 MDN 中傳回的 MIC 值時，AS2 解碼器處理失敗</span><span class="sxs-lookup"><span data-stu-id="20f3c-102">The AS2 Decoder failed processing when validating the MIC value returned in the MDN</span></span>
+## <a name="details"></a><span data-ttu-id="20f3c-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="20f3c-103">Details</span></span>  
   
 |||  
 |-|-|  
-|產品名稱|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|產品版本|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|事件識別碼|-|  
-|事件來源|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]EDI|  
-|元件|AS2 引擎|  
-|符號名稱|AS2DecoderMdnMicFailureDuringProcessing|  
-|訊息文字|驗證 MDN 中傳回的 MIC 值時，AS2 解碼器處理失敗。  MDN 訊息的詳細資料如下： AS2-從:"{0}"AS2-到:"\ {1 \}"MessageID:"\ {2 \}"OriginalMessageID:"\ {3\}"|  
+|<span data-ttu-id="20f3c-104">產品名稱</span><span class="sxs-lookup"><span data-stu-id="20f3c-104">Product Name</span></span>|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
+|<span data-ttu-id="20f3c-105">產品版本</span><span class="sxs-lookup"><span data-stu-id="20f3c-105">Product Version</span></span>|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
+|<span data-ttu-id="20f3c-106">事件識別碼</span><span class="sxs-lookup"><span data-stu-id="20f3c-106">Event ID</span></span>|-|  
+|<span data-ttu-id="20f3c-107">事件來源</span><span class="sxs-lookup"><span data-stu-id="20f3c-107">Event Source</span></span>|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="20f3c-108">EDI</span><span class="sxs-lookup"><span data-stu-id="20f3c-108"> EDI</span></span>|  
+|<span data-ttu-id="20f3c-109">元件</span><span class="sxs-lookup"><span data-stu-id="20f3c-109">Component</span></span>|<span data-ttu-id="20f3c-110">AS2 引擎</span><span class="sxs-lookup"><span data-stu-id="20f3c-110">AS2 Engine</span></span>|  
+|<span data-ttu-id="20f3c-111">符號名稱</span><span class="sxs-lookup"><span data-stu-id="20f3c-111">Symbolic Name</span></span>|<span data-ttu-id="20f3c-112">AS2DecoderMdnMicFailureDuringProcessing</span><span class="sxs-lookup"><span data-stu-id="20f3c-112">AS2DecoderMdnMicFailureDuringProcessing</span></span>|  
+|<span data-ttu-id="20f3c-113">訊息文字</span><span class="sxs-lookup"><span data-stu-id="20f3c-113">Message Text</span></span>|<span data-ttu-id="20f3c-114">驗證 MDN 中傳回的 MIC 值時，AS2 解碼器處理失敗。</span><span class="sxs-lookup"><span data-stu-id="20f3c-114">The AS2 Decoder failed processing when validating the MIC value returned in the MDN.</span></span>  <span data-ttu-id="20f3c-115">MDN 訊息的詳細資料如下： AS2-從:"{0}"AS2-到:"\ {1 \}"MessageID:"\ {2 \}"OriginalMessageID:"\ {3\}"</span><span class="sxs-lookup"><span data-stu-id="20f3c-115">Details of the MDN message are as follows:  AS2-From:"{0}" AS2-To:"{1}" MessageID:"{2}" OriginalMessageID:"{3}"</span></span>|  
   
-## <a name="explanation"></a>說明  
- 這個錯誤/警告/資訊事件表示，接收管線無法處理內送 MDN 的 MIC （訊息完整性檢查） 驗證失敗。  
+## <a name="explanation"></a><span data-ttu-id="20f3c-116">說明</span><span class="sxs-lookup"><span data-stu-id="20f3c-116">Explanation</span></span>  
+ <span data-ttu-id="20f3c-117">這個錯誤/警告/資訊事件表示，接收管線無法處理內送 MDN 的 MIC （訊息完整性檢查） 驗證失敗。</span><span class="sxs-lookup"><span data-stu-id="20f3c-117">This Error/Warning/Information event indicates that the receive pipeline could not process the incoming MDN because the MIC (Message Integrity Check) failed validation.</span></span>  
   
-## <a name="user-action"></a>使用者動作  
- 若要解決這個錯誤，請確認用來產生 MDN （在原始訊息的簽章-回條-MICalg 標頭） 的演算法是做為 AS2 訊息接收者的簽章-回條-MICalg 屬性中指定的演算法相同。 兩者都應該是 SHA1 或 MD5。 如果指定的演算法都相同，請確認已接收的內容-MIC 延伸模組欄位中的多部分簽署的 MDN 訊息的第二個部分包含有效的 MIC 摘要。 如果是的話，判斷為何 MDN 沒有對應到已傳送交換。
+## <a name="user-action"></a><span data-ttu-id="20f3c-118">使用者動作</span><span class="sxs-lookup"><span data-stu-id="20f3c-118">User Action</span></span>  
+ <span data-ttu-id="20f3c-119">若要解決這個錯誤，請確認用來產生 MDN （在原始訊息的簽章-回條-MICalg 標頭） 的演算法是做為 AS2 訊息接收者的簽章-回條-MICalg 屬性中指定的演算法相同。</span><span class="sxs-lookup"><span data-stu-id="20f3c-119">To resolve this error, verify that the algorithm used for generating the MDN (in the Signed-Receipt-MICalg header of the original message) is the same as the algorithm specified in the Signed-Receipt-MICalg property for the AS2 Message Receiver.</span></span> <span data-ttu-id="20f3c-120">兩者都應該是 SHA1 或 MD5。</span><span class="sxs-lookup"><span data-stu-id="20f3c-120">Both should be either SHA1 or MD5.</span></span> <span data-ttu-id="20f3c-121">如果指定的演算法都相同，請確認已接收的內容-MIC 延伸模組欄位中的多部分簽署的 MDN 訊息的第二個部分包含有效的 MIC 摘要。</span><span class="sxs-lookup"><span data-stu-id="20f3c-121">If the algorithm specified is the same, verify that Received-Content-MIC extension field in the second part of the multipart signed MDN message includes a valid MIC digest.</span></span> <span data-ttu-id="20f3c-122">如果是的話，判斷為何 MDN 沒有對應到已傳送交換。</span><span class="sxs-lookup"><span data-stu-id="20f3c-122">If it does, determine why the MDN does not correspond to the interchange that was sent.</span></span>

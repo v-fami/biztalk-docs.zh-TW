@@ -18,23 +18,23 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="an-empty-as2-message-was-received-and-suspended"></a>空白的 AS2 訊息已接收並暫停
-## <a name="details"></a>詳細資料  
+# <a name="an-empty-as2-message-was-received-and-suspended"></a><span data-ttu-id="945fe-102">空白的 AS2 訊息已接收並暫停</span><span class="sxs-lookup"><span data-stu-id="945fe-102">An empty AS2 message was received and suspended</span></span>
+## <a name="details"></a><span data-ttu-id="945fe-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="945fe-103">Details</span></span>  
   
 |||  
 |-|-|  
-|產品名稱|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|產品版本|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|事件識別碼|-|  
-|事件來源|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]EDI|  
-|元件|AS2 引擎|  
-|符號名稱|-|  
-|訊息文字|收到空白的 AS2 訊息。  將擱置此訊息。|  
+|<span data-ttu-id="945fe-104">產品名稱</span><span class="sxs-lookup"><span data-stu-id="945fe-104">Product Name</span></span>|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
+|<span data-ttu-id="945fe-105">產品版本</span><span class="sxs-lookup"><span data-stu-id="945fe-105">Product Version</span></span>|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
+|<span data-ttu-id="945fe-106">事件識別碼</span><span class="sxs-lookup"><span data-stu-id="945fe-106">Event ID</span></span>|-|  
+|<span data-ttu-id="945fe-107">事件來源</span><span class="sxs-lookup"><span data-stu-id="945fe-107">Event Source</span></span>|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="945fe-108">EDI</span><span class="sxs-lookup"><span data-stu-id="945fe-108"> EDI</span></span>|  
+|<span data-ttu-id="945fe-109">元件</span><span class="sxs-lookup"><span data-stu-id="945fe-109">Component</span></span>|<span data-ttu-id="945fe-110">AS2 引擎</span><span class="sxs-lookup"><span data-stu-id="945fe-110">AS2 Engine</span></span>|  
+|<span data-ttu-id="945fe-111">符號名稱</span><span class="sxs-lookup"><span data-stu-id="945fe-111">Symbolic Name</span></span>|-|  
+|<span data-ttu-id="945fe-112">訊息文字</span><span class="sxs-lookup"><span data-stu-id="945fe-112">Message Text</span></span>|<span data-ttu-id="945fe-113">收到空白的 AS2 訊息。</span><span class="sxs-lookup"><span data-stu-id="945fe-113">An empty AS2 message was received.</span></span>  <span data-ttu-id="945fe-114">將擱置此訊息。</span><span class="sxs-lookup"><span data-stu-id="945fe-114">The message will be suspended.</span></span>|  
   
-## <a name="explanation"></a>說明  
- 這個錯誤/警告/資訊事件表示 BizTalk Server 無法處理內送 AS2 訊息，因為訊息不包含主體。 主體必須以兩個歸位字元 / 摘要分隔標頭。  
+## <a name="explanation"></a><span data-ttu-id="945fe-115">說明</span><span class="sxs-lookup"><span data-stu-id="945fe-115">Explanation</span></span>  
+ <span data-ttu-id="945fe-116">這個錯誤/警告/資訊事件表示 BizTalk Server 無法處理內送 AS2 訊息，因為訊息不包含主體。</span><span class="sxs-lookup"><span data-stu-id="945fe-116">This Error/Warning/Information event indicates BizTalk Server could not process the incoming AS2 message because the message does not contain a body.</span></span> <span data-ttu-id="945fe-117">主體必須以兩個歸位字元 / 摘要分隔標頭。</span><span class="sxs-lookup"><span data-stu-id="945fe-117">The body must be separated from the headers by two carriage return/line feeds.</span></span>  
   
-## <a name="user-action"></a>使用者動作  
- 若要解決這個錯誤，執行下列作業：  
+## <a name="user-action"></a><span data-ttu-id="945fe-118">使用者動作</span><span class="sxs-lookup"><span data-stu-id="945fe-118">User Action</span></span>  
+ <span data-ttu-id="945fe-119">若要解決這個錯誤，執行下列作業：</span><span class="sxs-lookup"><span data-stu-id="945fe-119">To resolve this error, do the following:</span></span>  
   
--   請確定傳送合作對象將 AS2 訊息內文 （從標頭以兩個歸位字元 / 摘要分隔），再將它傳送。
+-   <span data-ttu-id="945fe-120">請確定傳送合作對象將 AS2 訊息內文 （從標頭以兩個歸位字元 / 摘要分隔），再將它傳送。</span><span class="sxs-lookup"><span data-stu-id="945fe-120">Ensure the sending party adds a body (separated from the headers by two carriage return/line feeds) to the AS2 message before sending it.</span></span>

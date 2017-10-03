@@ -21,11 +21,11 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="develop-siebel-applications-using-the-wcf-channel-model3"></a>開發使用 WCF 通道 Model3 Siebel 應用程式
-本節提供有關建立通道，您可以在 Siebel 執行的作業使用的通道。  
+# <a name="develop-siebel-applications-using-the-wcf-channel-model3"></a><span data-ttu-id="488f6-102">開發使用 WCF 通道 Model3 Siebel 應用程式</span><span class="sxs-lookup"><span data-stu-id="488f6-102">Develop Siebel Applications Using the WCF Channel Model3</span></span>
+<span data-ttu-id="488f6-103">本節提供有關建立通道，您可以在 Siebel 執行的作業使用的通道。</span><span class="sxs-lookup"><span data-stu-id="488f6-103">This section provides information about creating a channel and the operations that you can perform on Siebel using the channel.</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="488f6-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="488f6-104">In This Section</span></span>  
   
--   [建立使用 Siebel 的通道](../../adapters-and-accelerators/adapter-siebel/create-a-channel-using-siebel.md)  
+-   [<span data-ttu-id="488f6-105">建立使用 Siebel 的通道</span><span class="sxs-lookup"><span data-stu-id="488f6-105">Create a Channel using Siebel</span></span>](../../adapters-and-accelerators/adapter-siebel/create-a-channel-using-siebel.md)  
   
--   [使用 Siebel 配接器使用 WCF 通道模型執行商務元件上的作業](../../adapters-and-accelerators/adapter-siebel/run-tasks-on-business-components-with-the-siebel-adapter-using-a-wcf-channel.md)
+-   [<span data-ttu-id="488f6-106">使用 Siebel 配接器使用 WCF 通道模型執行商務元件上的作業</span><span class="sxs-lookup"><span data-stu-id="488f6-106">Run Operations on Business Components with the Siebel adapter using the WCF Channel Model</span></span>](../../adapters-and-accelerators/adapter-siebel/run-tasks-on-business-components-with-the-siebel-adapter-using-a-wcf-channel.md)

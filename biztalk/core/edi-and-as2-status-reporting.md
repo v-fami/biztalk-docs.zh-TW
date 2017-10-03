@@ -18,51 +18,51 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="edi-and-as2-status-reporting"></a>EDI 和 AS2 狀態報告
-EDI 狀態報告可以讓作業人員追蹤 EDI 和 AS2 傳輸的狀態。 如果啟用，狀態報告會提供文件交換交易的完整狀態，包括交換以及與交換相互關聯的任何通知。 這些報告提供 EDI 和 AS2 訊息處理的接收、驗證、批次處理和通知相關資料。  
+# <a name="edi-and-as2-status-reporting"></a><span data-ttu-id="4377e-102">EDI 和 AS2 狀態報告</span><span class="sxs-lookup"><span data-stu-id="4377e-102">EDI and AS2 Status Reporting</span></span>
+<span data-ttu-id="4377e-103">EDI 狀態報告可以讓作業人員追蹤 EDI 和 AS2 傳輸的狀態。</span><span class="sxs-lookup"><span data-stu-id="4377e-103">EDI status reporting enables operations personnel to track the status of EDI and AS2 transmissions.</span></span> <span data-ttu-id="4377e-104">如果啟用，狀態報告會提供文件交換交易的完整狀態，包括交換以及與交換相互關聯的任何通知。</span><span class="sxs-lookup"><span data-stu-id="4377e-104">If enabled, status reports provide comprehensive status of a document exchange transaction, including an interchange and any acknowledgments correlated to the interchange.</span></span> <span data-ttu-id="4377e-105">這些報告提供 EDI 和 AS2 訊息處理的接收、驗證、批次處理和通知相關資料。</span><span class="sxs-lookup"><span data-stu-id="4377e-105">These reports provide data on receipt, validation, batching, and acknowledgment processing of EDI and AS2 messages.</span></span>  
   
- 您可以使用這些報告取得擱置中和未通知的交換、完整交換、錯誤實例或商務實例等項目的狀態。 使用這些報告，您可以執行下列動作：  
+ <span data-ttu-id="4377e-106">您可以使用這些報告取得擱置中和未通知的交換、完整交換、錯誤實例或商務實例等項目的狀態。</span><span class="sxs-lookup"><span data-stu-id="4377e-106">You can use these reports to get the status of pending and unacknowledged interchanges, complete interchanges, error scenarios, or business scenarios.</span></span> <span data-ttu-id="4377e-107">使用這些報告，您可以執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="4377e-107">With these reports, you can do the following:</span></span>  
   
--   確認接收交換  
+-   <span data-ttu-id="4377e-108">確認接收交換</span><span class="sxs-lookup"><span data-stu-id="4377e-108">Confirm the receipt of interchanges</span></span>  
   
--   列出等待通知的外寄交換  
+-   <span data-ttu-id="4377e-109">列出等待通知的外寄交換</span><span class="sxs-lookup"><span data-stu-id="4377e-109">List outgoing interchanges awaiting acknowledgment</span></span>  
   
--   列出所有已拒絕的已接收交換  
+-   <span data-ttu-id="4377e-110">列出所有已拒絕的已接收交換</span><span class="sxs-lookup"><span data-stu-id="4377e-110">List all rejected interchanges received</span></span>  
   
--   列出報告為已拒絕或已部分接受的外寄交換。  
+-   <span data-ttu-id="4377e-111">列出報告為已拒絕或已部分接受的外寄交換。</span><span class="sxs-lookup"><span data-stu-id="4377e-111">List outgoing interchanges that are reported as rejected or partially accepted.</span></span>  
   
- 狀態報告中所包含的資料取自交換控制區段，例如 ISA、TA1、GS、UNB 和 UNG (功能通知狀態除外)。  
+ <span data-ttu-id="4377e-112">狀態報告中所包含的資料取自交換控制區段，例如 ISA、TA1、GS、UNB 和 UNG (功能通知狀態除外)。</span><span class="sxs-lookup"><span data-stu-id="4377e-112">Data included in the status reports is obtained from interchange control segments, such as ISA, TA1, GS, UNB, and UNG (with the exception of the Functional ACK status).</span></span>  
   
- **狀態報告 UI**  
+ <span data-ttu-id="4377e-113">**狀態報告 UI**</span><span class="sxs-lookup"><span data-stu-id="4377e-113">**Status Reporting UI**</span></span>  
   
- EDI 和 AS2 狀態報告可從 [[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台] 取得。 從**群組中樞**頁面**BizTalk 群組** 節點，您已連結至 EDI 交換和相互關聯的通知狀態、 批次狀態，以及 AS2 訊息和相互關聯的 MDN 狀態。 這些報告會提供您可以從查詢運算式包含或排除的狀態參數範圍，讓您建置所需的狀態報告。  
+ <span data-ttu-id="4377e-114">EDI 和 AS2 狀態報告可從 [[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台] 取得。</span><span class="sxs-lookup"><span data-stu-id="4377e-114">EDI and AS2 status reports are available from the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console.</span></span> <span data-ttu-id="4377e-115">從**群組中樞**頁面**BizTalk 群組** 節點，您已連結至 EDI 交換和相互關聯的通知狀態、 批次狀態，以及 AS2 訊息和相互關聯的 MDN 狀態。</span><span class="sxs-lookup"><span data-stu-id="4377e-115">From the **Group Hub** page of the **BizTalk Group** node, you have links to EDI interchange and correlated acknowledgment status, batch status, and AS2 message and correlated MDN status.</span></span> <span data-ttu-id="4377e-116">這些報告會提供您可以從查詢運算式包含或排除的狀態參數範圍，讓您建置所需的狀態報告。</span><span class="sxs-lookup"><span data-stu-id="4377e-116">Each of these reports provides a range of status parameters that you can include or exclude from a query expression, enabling you to build the status report that they need.</span></span>  
   
- 除了能看到 EDI 交換的狀態，還可以檢視交換中的交易集。 只要啟用追蹤 (BizTalkDTADb) 資料庫 EDI 資料表中的訊息內容儲存區，就能達到此目的。 使用狀態報告 UI 中的檢視詳細資料命令，即可檢視交易集。  
+ <span data-ttu-id="4377e-117">除了能看到 EDI 交換的狀態，還可以檢視交換中的交易集。</span><span class="sxs-lookup"><span data-stu-id="4377e-117">In addition to seeing the status of an EDI interchange, you can also view the transaction sets in an interchange.</span></span> <span data-ttu-id="4377e-118">只要啟用追蹤 (BizTalkDTADb) 資料庫 EDI 資料表中的訊息內容儲存區，就能達到此目的。</span><span class="sxs-lookup"><span data-stu-id="4377e-118">You do so by enabling the storage of message payloads in the EDI tables of the tracking (BizTalkDTADb) database.</span></span> <span data-ttu-id="4377e-119">使用狀態報告 UI 中的檢視詳細資料命令，即可檢視交易集。</span><span class="sxs-lookup"><span data-stu-id="4377e-119">You can view the transaction sets by using the view details command in the status reporting UI.</span></span>  
   
- 您也可以將輸入或輸出 AS2 訊息或 MDN 儲存在不可否認性的資料庫中。 以滑鼠右鍵按一下狀態報告中的訊息並選取適當的命令，即可檢視交易集或 AS2 訊息。  
+ <span data-ttu-id="4377e-120">您也可以將輸入或輸出 AS2 訊息或 MDN 儲存在不可否認性的資料庫中。</span><span class="sxs-lookup"><span data-stu-id="4377e-120">You can also store inbound or outbound AS2 messages or MDNs in the non-repudiation database.</span></span> <span data-ttu-id="4377e-121">以滑鼠右鍵按一下狀態報告中的訊息並選取適當的命令，即可檢視交易集或 AS2 訊息。</span><span class="sxs-lookup"><span data-stu-id="4377e-121">You can view the transaction sets or AS2 messages by right-clicking the message in the status report and selecting the appropriate command.</span></span>  
   
- **狀態報告元件**  
+ <span data-ttu-id="4377e-122">**狀態報告元件**</span><span class="sxs-lookup"><span data-stu-id="4377e-122">**Status Report Components**</span></span>  
   
- 狀態報告的相關 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 元件如下：  
+ <span data-ttu-id="4377e-123">狀態報告的相關 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 元件如下：</span><span class="sxs-lookup"><span data-stu-id="4377e-123">The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] components involved in status reporting are the following:</span></span>  
   
--   EDI 接收管線中的 EDI 解譯器，會在內送交換的資料存放區中建立並更新狀態項目  
+-   <span data-ttu-id="4377e-124">EDI 接收管線中的 EDI 解譯器，會在內送交換的資料存放區中建立並更新狀態項目</span><span class="sxs-lookup"><span data-stu-id="4377e-124">The EDI Disassembler in the EDI receive pipeline that creates and updates status entries in the data store for an incoming interchange</span></span>  
   
--   EDI 傳送管線中的 EDI 組合器，會在外送交換的資料存放區中建立並更新狀態項目  
+-   <span data-ttu-id="4377e-125">EDI 傳送管線中的 EDI 組合器，會在外送交換的資料存放區中建立並更新狀態項目</span><span class="sxs-lookup"><span data-stu-id="4377e-125">The EDI Assembler in the EDI send pipeline that creates and updates status entries in the data store for an outgoing interchange</span></span>  
   
--   存放狀態報告項目的資料存放區。 包括用來追蹤資料的 BAM 主要匯入資料庫，以及 EDI 交易集和 (或) AS2 訊息內容專用之 BizTalk 追蹤資料庫 (BizTalkDTADb) 的 EDI Message Content 資料表  
+-   <span data-ttu-id="4377e-126">存放狀態報告項目的資料存放區。</span><span class="sxs-lookup"><span data-stu-id="4377e-126">The data stores that store the status report entries.</span></span> <span data-ttu-id="4377e-127">包括用來追蹤資料的 BAM 主要匯入資料庫，以及 EDI 交易集和 (或) AS2 訊息內容專用之 BizTalk 追蹤資料庫 (BizTalkDTADb) 的 EDI Message Content 資料表</span><span class="sxs-lookup"><span data-stu-id="4377e-127">These are the BAM Primary Import database for tracking data and the EDI Message Content table of the BizTalk tracking database (BizTalkDTADb) for EDI transaction sets and/or AS2 message contents</span></span>  
   
--   狀態報告 UI 上**群組中樞**頁面[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，用來顯示狀態報告資料  
+-   <span data-ttu-id="4377e-128">狀態報告 UI 上**群組中樞**頁面[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，用來顯示狀態報告資料</span><span class="sxs-lookup"><span data-stu-id="4377e-128">Status reporting UI on the **Group Hub** page of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, which is used to display status reporting data</span></span>  
   
--   [[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台] 中的協議屬性和後援協議屬性選項，可用來啟用及設定狀態報告  
+-   <span data-ttu-id="4377e-129">[[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台] 中的協議屬性和後援協議屬性選項，可用來啟用及設定狀態報告</span><span class="sxs-lookup"><span data-stu-id="4377e-129">Agreement property and fallback agreement property options in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, which is used to enable and configure status reporting</span></span>  
   
--   運用 BAM 基礎結構的 DTA 和 SQL 分析伺服器。  
+-   <span data-ttu-id="4377e-130">運用 BAM 基礎結構的 DTA 和 SQL 分析伺服器。</span><span class="sxs-lookup"><span data-stu-id="4377e-130">DTA and SQL Analysis Server that leverage the BAM infrastructure.</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="4377e-131">本節內容</span><span class="sxs-lookup"><span data-stu-id="4377e-131">In This Section</span></span>  
   
--   [設定 EDI 和 AS2 狀態報告](../core/configuration-of-edi-and-as2-status-reporting.md)  
+-   [<span data-ttu-id="4377e-132">設定 EDI 和 AS2 狀態報告</span><span class="sxs-lookup"><span data-stu-id="4377e-132">Configuration of EDI and AS2 Status Reporting</span></span>](../core/configuration-of-edi-and-as2-status-reporting.md)  
   
--   [類型的 EDI 和 AS2 狀態報告](../core/types-of-edi-and-as2-status-reports.md)  
+-   [<span data-ttu-id="4377e-133">類型的 EDI 和 AS2 狀態報告</span><span class="sxs-lookup"><span data-stu-id="4377e-133">Types of EDI and AS2 Status Reports</span></span>](../core/types-of-edi-and-as2-status-reports.md)  
   
--   [EDI 和 AS2 狀態報告的儲存資料](../core/data-stored-for-edi-and-as2-status-reports.md)  
+-   [<span data-ttu-id="4377e-134">EDI 和 AS2 狀態報告的儲存資料</span><span class="sxs-lookup"><span data-stu-id="4377e-134">Data Stored for EDI and AS2 Status Reports</span></span>](../core/data-stored-for-edi-and-as2-status-reports.md)  
   
--   [資料如何儲存 EDI 和 AS2 狀態報告](../core/how-data-is-stored-for-edi-and-as2-status-reports.md)
+-   [<span data-ttu-id="4377e-135">資料如何儲存 EDI 和 AS2 狀態報告</span><span class="sxs-lookup"><span data-stu-id="4377e-135">How Data Is Stored for EDI and AS2 Status Reports</span></span>](../core/how-data-is-stored-for-edi-and-as2-status-reports.md)

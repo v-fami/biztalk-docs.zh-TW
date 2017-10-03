@@ -18,21 +18,21 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="looping-functoid"></a>迴圈運算質
+# <a name="looping-functoid"></a><span data-ttu-id="7ed9e-102">迴圈運算質</span><span class="sxs-lookup"><span data-stu-id="7ed9e-102">Looping Functoid</span></span>
 
-## <a name="overview--example"></a>概觀 （& s) 範例
-**迴圈**運算質結合多個記錄或欄位在來源結構描述至目的結構描述中的單一記錄。  
+## <a name="overview--example"></a><span data-ttu-id="7ed9e-103">概觀 （& s) 範例</span><span class="sxs-lookup"><span data-stu-id="7ed9e-103">Overview & example</span></span>
+<span data-ttu-id="7ed9e-104">**迴圈**運算質結合多個記錄或欄位在來源結構描述至目的結構描述中的單一記錄。</span><span class="sxs-lookup"><span data-stu-id="7ed9e-104">The **Looping** functoid combines multiple records or fields in the source schema into a single record in the destination schema.</span></span>  
   
- 下圖顯示**迴圈**運算質在對應中用來結合位址從兩個不同調查收集到單一主要地址清單。  
+ <span data-ttu-id="7ed9e-105">下圖顯示**迴圈**運算質在對應中用來結合位址從兩個不同調查收集到單一主要地址清單。</span><span class="sxs-lookup"><span data-stu-id="7ed9e-105">The following figure shows a **Looping**functoid used in a map to combine addresses collected from two different surveys into a single master address list.</span></span>  
   
 > [!NOTE]
->  **迴圈**和**值對應 （簡維）**運算質不應在一起。 如果一起使用，就會產生編譯的對應，假設沒有來源迴圈相依性下面的目標節點**迴圈**運算質。  
+>  <span data-ttu-id="7ed9e-106">**迴圈**和**值對應 （簡維）**運算質不應在一起。</span><span class="sxs-lookup"><span data-stu-id="7ed9e-106">The **Looping** and **Value Mapping (Flattening)** functoids should not be used together.</span></span> <span data-ttu-id="7ed9e-107">如果一起使用，就會產生編譯的對應，假設沒有來源迴圈相依性下面的目標節點**迴圈**運算質。</span><span class="sxs-lookup"><span data-stu-id="7ed9e-107">If both are used together, it results in a compiled map that assumed there is no source looping dependency for the target nodes that are below the **Looping** functoid.</span></span>  
   
- ![迴圈運算質用法的對應。] (../core/media/loopingfunctoid.gif "loopingfunctoid")  
+ <span data-ttu-id="7ed9e-108">![迴圈運算質用法的對應。] (../core/media/loopingfunctoid.gif "loopingfunctoid")</span><span class="sxs-lookup"><span data-stu-id="7ed9e-108">![Map illustrating the use of the looping functoid.](../core/media/loopingfunctoid.gif "loopingfunctoid")</span></span>  
   
- **[Foodsurvey]**和**[flowersurvey]**來源結構描述的迴圈記錄對應到迴圈**位址**記錄目的結構描述。 如果輸入執行個體訊息有三個**[foodsurvey]**記錄和兩個**[flowersurvey]**記錄**迴圈**運算質會結合這些建立五個**位址**輸出執行個體訊息中的記錄。  
+ <span data-ttu-id="7ed9e-109">**[Foodsurvey]**和**[flowersurvey]**來源結構描述的迴圈記錄對應到迴圈**位址**記錄目的結構描述。</span><span class="sxs-lookup"><span data-stu-id="7ed9e-109">The **FoodSurvey** and **FlowerSurvey** looping records of the source schema are mapped to the looping **Address** record of the destination schema.</span></span> <span data-ttu-id="7ed9e-110">如果輸入執行個體訊息有三個**[foodsurvey]**記錄和兩個**[flowersurvey]**記錄**迴圈**運算質會結合這些建立五個**位址**輸出執行個體訊息中的記錄。</span><span class="sxs-lookup"><span data-stu-id="7ed9e-110">If an input instance message has three **FoodSurvey** records and two **FlowerSurvey** records, the **Looping**functoid combines these to create five **Address** records in the output instance message.</span></span>  
   
- 以下程式碼為範例輸入執行個體訊息。  
+ <span data-ttu-id="7ed9e-111">以下程式碼為範例輸入執行個體訊息。</span><span class="sxs-lookup"><span data-stu-id="7ed9e-111">The following code is a sample input instance message.</span></span>  
   
 ```  
 <ns0:Surveys xmlns:ns0="http://LoopingFunctoid.Surveys">  
@@ -44,7 +44,7 @@ ms.lasthandoff: 09/20/2017
 </ns0:Surveys>  
 ```  
   
- 此輸入執行個體訊息會產生下列輸出執行個體訊息時處理的上圖中的對應。  
+ <span data-ttu-id="7ed9e-112">此輸入執行個體訊息會產生下列輸出執行個體訊息時處理的上圖中的對應。</span><span class="sxs-lookup"><span data-stu-id="7ed9e-112">This input instance message produces the following output instance message when processed by the map in the preceding figure.</span></span>  
   
 ```  
 <ns0:MasterAddresses xmlns:ns0="http://LoopingFunctoid.MasterAddresses">  
@@ -56,7 +56,7 @@ ms.lasthandoff: 09/20/2017
 </ns0:MasterAddresses>  
 ```  
   
- **[Foodsurvey]**和**[flowersurvey]**訊息位址已結合。 結合的訊息不會指出每個位址的來源。 如果您想要追蹤來源，新增**來源**屬性**位址**記錄**MasterAddress**結構描述和對應的常數值。 若要設定此值，連線**[foodsurvey]**欄位設為新**來源**欄位。 在連接器行，修改**連結屬性**&#124;**編譯器**&#124;**來源連結**"Copy name"屬性。 重複這個程序所**[flowersurvey]**欄位。 從上述程序重新處理輸入訊息會產生下列輸出：  
+ <span data-ttu-id="7ed9e-113">**[Foodsurvey]**和**[flowersurvey]**訊息位址已結合。</span><span class="sxs-lookup"><span data-stu-id="7ed9e-113">The **FoodSurvey** and **FlowerSurvey** message addresses have been combined.</span></span> <span data-ttu-id="7ed9e-114">結合的訊息不會指出每個位址的來源。</span><span class="sxs-lookup"><span data-stu-id="7ed9e-114">The combined message does not indicate the source of each address.</span></span> <span data-ttu-id="7ed9e-115">如果您想要追蹤來源，新增**來源**屬性**位址**記錄**MasterAddress**結構描述和對應的常數值。</span><span class="sxs-lookup"><span data-stu-id="7ed9e-115">If you want to track the source, add a **Source** attribute to the **Address** record of the **MasterAddress** schema and map a constant value.</span></span> <span data-ttu-id="7ed9e-116">若要設定此值，連線**[foodsurvey]**欄位設為新**來源**欄位。</span><span class="sxs-lookup"><span data-stu-id="7ed9e-116">To set this value, connect the **FoodSurvey** field to the new **Source** field.</span></span> <span data-ttu-id="7ed9e-117">在連接器行，修改**連結屬性**&#124;**編譯器**&#124;**來源連結**"Copy name"屬性。</span><span class="sxs-lookup"><span data-stu-id="7ed9e-117">On the connector line, modify the **Link Properties** &#124; **Compiler** &#124; **Source Links** property to "Copy name".</span></span> <span data-ttu-id="7ed9e-118">重複這個程序所**[flowersurvey]**欄位。</span><span class="sxs-lookup"><span data-stu-id="7ed9e-118">Repeat this process for the **FlowerSurvey** field.</span></span> <span data-ttu-id="7ed9e-119">從上述程序重新處理輸入訊息會產生下列輸出：</span><span class="sxs-lookup"><span data-stu-id="7ed9e-119">Reprocessing the input message from above yields the following output:</span></span>  
   
 ```  
 <ns0:MasterAddresses xmlns:ns0="http://LoopingFunctoid.MasterAddresses">  
@@ -68,11 +68,11 @@ ms.lasthandoff: 09/20/2017
 </ns0:MasterAddresses>  
 ```  
 
-## <a name="relationships-with-nodes"></a>與節點關聯性
+## <a name="relationships-with-nodes"></a><span data-ttu-id="7ed9e-120">與節點關聯性</span><span class="sxs-lookup"><span data-stu-id="7ed9e-120">Relationships with nodes</span></span>
 
- 在節點之間的關聯性影響行為的**迴圈**運算質。 例如，連結的子節點和其來源結構描述中的父代**迴圈**運算質可防止目的地節點建立。  
+ <span data-ttu-id="7ed9e-121">在節點之間的關聯性影響行為的**迴圈**運算質。</span><span class="sxs-lookup"><span data-stu-id="7ed9e-121">Relationships among nodes affect the behavior of the **Looping** functoid.</span></span> <span data-ttu-id="7ed9e-122">例如，連結的子節點和其來源結構描述中的父代**迴圈**運算質可防止目的地節點建立。</span><span class="sxs-lookup"><span data-stu-id="7ed9e-122">For example, linking both a child node and its parent in the source schema to the **Looping** functoid prevents the destination node from being created.</span></span>  
   
- 運算質也會受來源節點間的關係影響。 將運算質連接到來源節點的非同層級子欄位**迴圈**運算質可能會產生非預期的結果。 例如，使用**字串串連**運算質結合**foodsurvey**名稱 欄位和**flowersurvey** 中的位址名稱欄位的位址欄位**MasterAddress**會產生下列輸出執行個體訊息：  
+ <span data-ttu-id="7ed9e-123">運算質也會受來源節點間的關係影響。</span><span class="sxs-lookup"><span data-stu-id="7ed9e-123">Functoids are also affected by the relationships among source nodes.</span></span> <span data-ttu-id="7ed9e-124">將運算質連接到來源節點的非同層級子欄位**迴圈**運算質可能會產生非預期的結果。</span><span class="sxs-lookup"><span data-stu-id="7ed9e-124">Connecting a functoid to non-sibling child fields of source nodes of the **Looping** functoid may produce unexpected results.</span></span> <span data-ttu-id="7ed9e-125">例如，使用**字串串連**運算質結合**foodsurvey**名稱 欄位和**flowersurvey** 中的位址名稱欄位的位址欄位**MasterAddress**會產生下列輸出執行個體訊息：</span><span class="sxs-lookup"><span data-stu-id="7ed9e-125">For example, using the **String Concatenate** functoid to combine the **FoodSurvey** Name field and **FlowerSurvey** Address field into the Address Name field in **MasterAddress** would produce the following output instance message:</span></span>  
   
 ```  
 <ns0:MasterAddresses xmlns:ns0="http://LoopingFunctoid.MasterAddresses">  
@@ -84,20 +84,20 @@ ms.lasthandoff: 09/20/2017
 </ns0:MasterAddresses>  
 ```  
   
- 請注意如何**名稱**欄位遺漏**[foodsurvey]**來源訊息卻存在**[flowersurvey]**來源訊息。  
+ <span data-ttu-id="7ed9e-126">請注意如何**名稱**欄位遺漏**[foodsurvey]**來源訊息卻存在**[flowersurvey]**來源訊息。</span><span class="sxs-lookup"><span data-stu-id="7ed9e-126">Notice how the **Name** field is missing for **FoodSurvey** source messages but is present for **FlowerSurvey** source messages.</span></span>  
   
 > [!IMPORTANT]
->  將運算質連接到來源節點的子欄位**迴圈**運算質可能會產生非預期的結果，如果來源節點不是同層級。  
+>  <span data-ttu-id="7ed9e-127">將運算質連接到來源節點的子欄位**迴圈**運算質可能會產生非預期的結果，如果來源節點不是同層級。</span><span class="sxs-lookup"><span data-stu-id="7ed9e-127">Connecting a functoid to child fields of source nodes of the **Looping** functoid may produce unexpected results if the source nodes are not siblings.</span></span>  
   
- **迴圈**運算質是功能強大的建構可讓您建立條件式迴圈，並將結構描述對應至目錄。 也有一些重疊的效果**迴圈**運算質路徑必須納入考量。  
+ <span data-ttu-id="7ed9e-128">**迴圈**運算質是功能強大的建構可讓您建立條件式迴圈，並將結構描述對應至目錄。</span><span class="sxs-lookup"><span data-stu-id="7ed9e-128">The **Looping** functoid is a powerful construct that you can use to create conditional loops and to map schemas to catalogs.</span></span> <span data-ttu-id="7ed9e-129">也有一些重疊的效果**迴圈**運算質路徑必須納入考量。</span><span class="sxs-lookup"><span data-stu-id="7ed9e-129">There are also some effects of overlapping **Looping** functoid paths you need to take into account.</span></span>  
   
-## <a name="next-steps"></a>後續的步驟
+## <a name="next-steps"></a><span data-ttu-id="7ed9e-130">後續的步驟</span><span class="sxs-lookup"><span data-stu-id="7ed9e-130">Next steps</span></span>
   
--   [條件式迴圈](../core/conditional-looping.md)  
+-   [<span data-ttu-id="7ed9e-131">條件式迴圈</span><span class="sxs-lookup"><span data-stu-id="7ed9e-131">Conditional Looping</span></span>](../core/conditional-looping.md)  
   
--   [類別目錄的一般結構描述](../core/flat-schema-to-catalog.md)  
+-   [<span data-ttu-id="7ed9e-132">類別目錄的一般結構描述</span><span class="sxs-lookup"><span data-stu-id="7ed9e-132">Flat Schema to Catalog</span></span>](../core/flat-schema-to-catalog.md)  
   
--   [迴圈路徑](../core/loop-paths.md)  
+-   [<span data-ttu-id="7ed9e-133">迴圈路徑</span><span class="sxs-lookup"><span data-stu-id="7ed9e-133">Loop Paths</span></span>](../core/loop-paths.md)  
   
-## <a name="see-also"></a>另請參閱  
- **表格迴圈運算質參考**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]
+## <a name="see-also"></a><span data-ttu-id="7ed9e-134">另請參閱</span><span class="sxs-lookup"><span data-stu-id="7ed9e-134">See Also</span></span>  
+ <span data-ttu-id="7ed9e-135">**表格迴圈運算質參考**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]</span><span class="sxs-lookup"><span data-stu-id="7ed9e-135">**Table Looping Functoid Reference** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]</span></span>

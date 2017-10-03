@@ -18,11 +18,11 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="step3-create-an-orchestration-with--dynamic-send-port-for-the-interact-store-and-forward-pull-scenario"></a>步驟 3： 建立協調流程互動的存放區和轉送 （提取） 案例的動態傳送埠
-開始本節中的步驟之前，您必須完成的步驟[步驟 2c： 加入互動的傳送埠的互動存放區和轉送 （提取） 案例](../../adapters-and-accelerators/fileact-interact/step-2c-add-interact-send-port-for-interact-store-and-forward-pull-scenario.md)> 一節。  
+# <a name="step3-create-an-orchestration-with--dynamic-send-port-for-the-interact-store-and-forward-pull-scenario"></a><span data-ttu-id="95537-102">步驟 3： 建立協調流程互動的存放區和轉送 （提取） 案例的動態傳送埠</span><span class="sxs-lookup"><span data-stu-id="95537-102">Step3: Create an orchestration with  dynamic send port for the InterAct Store and Forward (Pull) Scenario</span></span>
+<span data-ttu-id="95537-103">開始本節中的步驟之前，您必須完成的步驟[步驟 2c： 加入互動的傳送埠的互動存放區和轉送 （提取） 案例](../../adapters-and-accelerators/fileact-interact/step-2c-add-interact-send-port-for-interact-store-and-forward-pull-scenario.md)> 一節。</span><span class="sxs-lookup"><span data-stu-id="95537-103">Before you begin the steps in this section, you must complete the steps in the [Step 2C: Add an INTERACT Send Port for the InterAct Store and Forward (Pull) Scenario](../../adapters-and-accelerators/fileact-interact/step-2c-add-interact-send-port-for-interact-store-and-forward-pull-scenario.md) section.</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="95537-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="95537-104">In This Section</span></span>  
   
--   [步驟 3A： 建立協調流程互動的存放區和轉送 （提取） 案例的動態傳送埠](../../adapters-and-accelerators/fileact-interact/step-3a-create-orchestration-for-dynamic-send-port-interact-store-and-forward.md)  
+-   [<span data-ttu-id="95537-105">步驟 3A： 建立協調流程互動的存放區和轉送 （提取） 案例的動態傳送埠</span><span class="sxs-lookup"><span data-stu-id="95537-105">Step 3A: Create an orchestration for dynamic send port for InterAct Store and Forward (Pull) Scenario</span></span>](../../adapters-and-accelerators/fileact-interact/step-3a-create-orchestration-for-dynamic-send-port-interact-store-and-forward.md)  
   
--   [步驟 3B： 互動存放區和轉送 （提取） 案例的動態傳送埠與協調流程繫結](../../adapters-and-accelerators/fileact-interact/step-3b-bind-orchestration-with-dynamic-send-port-for-interact-scenario.md)
+-   [<span data-ttu-id="95537-106">步驟 3B： 互動存放區和轉送 （提取） 案例的動態傳送埠與協調流程繫結</span><span class="sxs-lookup"><span data-stu-id="95537-106">Step 3B: Bind the orchestration with dynamic send port for InterAct Store and Forward (Pull) Scenario</span></span>](../../adapters-and-accelerators/fileact-interact/step-3b-bind-orchestration-with-dynamic-send-port-for-interact-scenario.md)

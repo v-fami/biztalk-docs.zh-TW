@@ -18,14 +18,14 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="plan-and-design-an-adapter-using-the-wcf-lob-adapter-sdk"></a>計劃和設計配接器使用 WCF LOB 配接器 SDK
-此章節包含的資訊可協助您規劃您的配接器，並了解[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。  
+# <a name="plan-and-design-an-adapter-using-the-wcf-lob-adapter-sdk"></a><span data-ttu-id="89429-102">計劃和設計配接器使用 WCF LOB 配接器 SDK</span><span class="sxs-lookup"><span data-stu-id="89429-102">Plan and design an adapter using the WCF LOB Adapter SDK</span></span>
+<span data-ttu-id="89429-103">此章節包含的資訊可協助您規劃您的配接器，並了解[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="89429-103">This section contains information to help you plan your adapter and understand the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)].</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="89429-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="89429-104">In This Section</span></span>  
   
--   [選取適當的架構](https://msdn.microsoft.com/library/bb798089.aspx)  
+-   [<span data-ttu-id="89429-105">選取適當的架構</span><span class="sxs-lookup"><span data-stu-id="89429-105">Selecting the Appropriate Framework</span></span>](https://msdn.microsoft.com/library/bb798089.aspx)  
   
--   [計劃和設計您的配接器使用 WCF LOB 配接器 SDK](../../adapters-and-accelerators/wcf-lob-adapter-sdk/plan-and-design-your-adapter-using-the-wcf-lob-adapter-sdk.md)  
+-   [<span data-ttu-id="89429-106">計劃和設計您的配接器使用 WCF LOB 配接器 SDK</span><span class="sxs-lookup"><span data-stu-id="89429-106">Plan and design your Adapter using the WCF LOB Adapter SDK</span></span>](../../adapters-and-accelerators/wcf-lob-adapter-sdk/plan-and-design-your-adapter-using-the-wcf-lob-adapter-sdk.md)  
   
-## <a name="see-also"></a>另請參閱  
- [商務配接器 SDK 文件的 Microsoft Windows Communication Foundation 列](../../adapters-and-accelerators/wcf-lob-adapter-sdk/microsoft-wcf-line-of-business-adapter-sdk-documentation.md)
+## <a name="see-also"></a><span data-ttu-id="89429-107">另請參閱</span><span class="sxs-lookup"><span data-stu-id="89429-107">See Also</span></span>  
+ [<span data-ttu-id="89429-108">商務配接器 SDK 文件的 Microsoft Windows Communication Foundation 列</span><span class="sxs-lookup"><span data-stu-id="89429-108">Microsoft Windows Communication Foundation Line of Business Adapter SDK Documentation</span></span>](../../adapters-and-accelerators/wcf-lob-adapter-sdk/microsoft-wcf-line-of-business-adapter-sdk-documentation.md)

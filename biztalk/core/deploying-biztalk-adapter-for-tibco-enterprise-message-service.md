@@ -19,9 +19,9 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="deploying-biztalk-adapter-for-tibco-enterprise-message-service"></a>部署 BizTalk Adapter for TIBCO Enterprise Message Service
-本節提供關於部署 Microsoft BizTalk Adapter for TIBCO Enterprise Message Service 的資訊。  
+# <a name="deploying-biztalk-adapter-for-tibco-enterprise-message-service"></a><span data-ttu-id="a4d28-102">部署 BizTalk Adapter for TIBCO Enterprise Message Service</span><span class="sxs-lookup"><span data-stu-id="a4d28-102">Deploying BizTalk Adapter for TIBCO Enterprise Message Service</span></span>
+<span data-ttu-id="a4d28-103">本節提供關於部署 Microsoft BizTalk Adapter for TIBCO Enterprise Message Service 的資訊。</span><span class="sxs-lookup"><span data-stu-id="a4d28-103">This section provides information about deploying Microsoft BizTalk Adapter for TIBCO Enterprise Message Service.</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="a4d28-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="a4d28-104">In This Section</span></span>  
   
--   [部署連接埠和組件](../core/deploying-ports-and-assemblies2.md)
+-   [<span data-ttu-id="a4d28-105">部署連接埠和組件</span><span class="sxs-lookup"><span data-stu-id="a4d28-105">Deploying Ports and Assemblies</span></span>](../core/deploying-ports-and-assemblies2.md)

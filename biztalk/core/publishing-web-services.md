@@ -21,30 +21,30 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="publishing-web-services"></a>發佈 Web 服務
-發佈 Web 服務可讓您建立 Web 服務，而這種服務可以將訊息提交給 Microsoft BizTalk Server，以供協調流程和其他傳送配接器使用。 您可以使用 [BizTalk Web 服務發佈精靈] 來建立已發佈的 Web 服務。 如需設定 SOAP 傳送處理常式的資訊，請參閱[如何設定 SOAP 傳送處理常式](../core/how-to-configure-a-soap-send-handler.md)。 如需設定 SOAP 傳送埠的資訊，請參閱[如何設定 SOAP 傳送埠](../core/how-to-configure-a-soap-send-port.md)。  
+# <a name="publishing-web-services"></a><span data-ttu-id="d52d3-102">發佈 Web 服務</span><span class="sxs-lookup"><span data-stu-id="d52d3-102">Publishing Web Services</span></span>
+<span data-ttu-id="d52d3-103">發佈 Web 服務可讓您建立 Web 服務，而這種服務可以將訊息提交給 Microsoft BizTalk Server，以供協調流程和其他傳送配接器使用。</span><span class="sxs-lookup"><span data-stu-id="d52d3-103">Publishing Web services enables you to create a Web service that can submit messages to Microsoft BizTalk Server for use by orchestrations and other send adapters.</span></span> <span data-ttu-id="d52d3-104">您可以使用 [BizTalk Web 服務發佈精靈] 來建立已發佈的 Web 服務。</span><span class="sxs-lookup"><span data-stu-id="d52d3-104">You create published Web services using the BizTalk Web Services Publishing Wizard.</span></span> <span data-ttu-id="d52d3-105">如需設定 SOAP 傳送處理常式的資訊，請參閱[如何設定 SOAP 傳送處理常式](../core/how-to-configure-a-soap-send-handler.md)。</span><span class="sxs-lookup"><span data-stu-id="d52d3-105">For information about configuring a SOAP send handler, see [How to Configure a SOAP Send Handler](../core/how-to-configure-a-soap-send-handler.md).</span></span> <span data-ttu-id="d52d3-106">如需設定 SOAP 傳送埠的資訊，請參閱[如何設定 SOAP 傳送埠](../core/how-to-configure-a-soap-send-port.md)。</span><span class="sxs-lookup"><span data-stu-id="d52d3-106">For information about configuring a SOAP send port, see [How to Configure a SOAP Send Port](../core/how-to-configure-a-soap-send-port.md).</span></span>  
   
- BizTalk Web 服務發佈精靈為您提供兩種方法可以將 Web 服務發佈： 發佈為 Web 服務的協調流程和結構描述發佈為 Web 服務。  
+ <span data-ttu-id="d52d3-107">BizTalk Web 服務發佈精靈為您提供兩種方法可以將 Web 服務發佈： 發佈為 Web 服務的協調流程和結構描述發佈為 Web 服務。</span><span class="sxs-lookup"><span data-stu-id="d52d3-107">The BizTalk Web Services Publishing Wizard provides you with two methods to publish Web services: publishing an orchestration as a Web service and publishing schemas as a Web service.</span></span>  
   
- 您必須先安裝及啟用 Microsoft Internet Information Services (IIS) 和 ASP.NET，才能將 Microsoft BizTalk Server 協調流程和結構描述發佈為 Web 服務。 安裝 IIS 和 ASP.NET 的相關資訊，請參閱安裝網際網路資訊服務 (IIS) 中 BizTalk Server 安裝指南位於[超連結"http://go.microsoft.com/fwlink/?LinkID = 191321"http://go.microsoft.com/fwlink/?LinkID = 191321](http://go.microsoft.com/fwlink/?LinkID=191321)。  
+ <span data-ttu-id="d52d3-108">您必須先安裝及啟用 Microsoft Internet Information Services (IIS) 和 ASP.NET，才能將 Microsoft BizTalk Server 協調流程和結構描述發佈為 Web 服務。</span><span class="sxs-lookup"><span data-stu-id="d52d3-108">You must install and enable Microsoft Internet Information Services (IIS) and ASP.NET before you can publish Microsoft BizTalk Server orchestrations and schemas as Web services.</span></span> <span data-ttu-id="d52d3-109">安裝 IIS 和 ASP.NET 的相關資訊，請參閱安裝網際網路資訊服務 (IIS) 中 BizTalk Server 安裝指南位於[超連結"http://go.microsoft.com/fwlink/?LinkID = 191321"http://go.microsoft.com/fwlink/?LinkID = 191321](http://go.microsoft.com/fwlink/?LinkID=191321)。</span><span class="sxs-lookup"><span data-stu-id="d52d3-109">For information about installing IIS and ASP.NET, see Installing Internet Information Services (IIS) in the BizTalk Server Installation Guide located at [HYPERLINK "http://go.microsoft.com/fwlink/?LinkID=191321" http://go.microsoft.com/fwlink/?LinkID=191321](http://go.microsoft.com/fwlink/?LinkID=191321).</span></span>  
   
 > [!IMPORTANT]
->  您必須先啟用 Web 服務，才能執行 [BizTalk Web 服務發佈精靈]。 如需有關啟用 Web 服務系統的詳細資訊，請參閱[啟用 Web 服務](../core/enabling-web-services.md)。  
+>  <span data-ttu-id="d52d3-110">您必須先啟用 Web 服務，才能執行 [BizTalk Web 服務發佈精靈]。</span><span class="sxs-lookup"><span data-stu-id="d52d3-110">Before running the BizTalk Web Services Publishing Wizard, you must enable Web services.</span></span> <span data-ttu-id="d52d3-111">如需有關啟用 Web 服務系統的詳細資訊，請參閱[啟用 Web 服務](../core/enabling-web-services.md)。</span><span class="sxs-lookup"><span data-stu-id="d52d3-111">For more information about enabling Web services for your system, see [Enabling Web Services](../core/enabling-web-services.md).</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="d52d3-112">本節內容</span><span class="sxs-lookup"><span data-stu-id="d52d3-112">In This Section</span></span>  
   
--   [規劃發佈 Web 服務](../core/planning-for-publishing-web-services2.md)  
+-   [<span data-ttu-id="d52d3-113">規劃發佈 Web 服務</span><span class="sxs-lookup"><span data-stu-id="d52d3-113">Planning for Publishing Web Services</span></span>](../core/planning-for-publishing-web-services2.md)  
   
--   [啟用 Web 服務](../core/enabling-web-services.md)  
+-   [<span data-ttu-id="d52d3-114">啟用 Web 服務</span><span class="sxs-lookup"><span data-stu-id="d52d3-114">Enabling Web Services</span></span>](../core/enabling-web-services.md)  
   
--   [協調流程發佈為 Web 服務](../core/publishing-an-orchestration-as-a-web-service.md)  
+-   [<span data-ttu-id="d52d3-115">協調流程發佈為 Web 服務</span><span class="sxs-lookup"><span data-stu-id="d52d3-115">Publishing an Orchestration as a Web Service</span></span>](../core/publishing-an-orchestration-as-a-web-service.md)  
   
--   [結構描述發佈為 Web 服務](../core/publishing-schemas-as-a-web-service.md)  
+-   [<span data-ttu-id="d52d3-116">結構描述發佈為 Web 服務</span><span class="sxs-lookup"><span data-stu-id="d52d3-116">Publishing Schemas as a Web Service</span></span>](../core/publishing-schemas-as-a-web-service.md)  
   
--   [發佈 Web 服務時的考量](../core/considerations-when-publishing-web-services.md)  
+-   [<span data-ttu-id="d52d3-117">發佈 Web 服務時的考量</span><span class="sxs-lookup"><span data-stu-id="d52d3-117">Considerations When Publishing Web Services</span></span>](../core/considerations-when-publishing-web-services.md)  
   
--   [偵錯已發佈的 Web 服務](../core/debugging-published-web-services.md)  
+-   [<span data-ttu-id="d52d3-118">偵錯已發佈的 Web 服務</span><span class="sxs-lookup"><span data-stu-id="d52d3-118">Debugging Published Web Services</span></span>](../core/debugging-published-web-services.md)  
   
--   [測試已發佈 Web 服務](../core/testing-published-web-services.md)  
+-   [<span data-ttu-id="d52d3-119">測試已發佈 Web 服務</span><span class="sxs-lookup"><span data-stu-id="d52d3-119">Testing Published Web Services</span></span>](../core/testing-published-web-services.md)  
   
--   [部署在非 Visual Studio 電腦上的已發佈的 Web 服務](../core/deploying-published-web-services-on-a-non-visual-studio-computer.md)
+-   [<span data-ttu-id="d52d3-120">部署在非 Visual Studio 電腦上的已發佈的 Web 服務</span><span class="sxs-lookup"><span data-stu-id="d52d3-120">Deploying Published Web Services on a Non-Visual Studio Computer</span></span>](../core/deploying-published-web-services-on-a-non-visual-studio-computer.md)

@@ -27,19 +27,19 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="configuration-properties-for-integrated-biztalk-adapters"></a>整合式 BizTalk 配接器的組態屬性
-「 BizTalk 總管物件模型公開**IReceiveLocation.CustomData**和**ISendPort.CustomData**包含配接器組態屬性包形式的名稱/值的屬性組 XML 字串。 此名稱/值組 XML 字串會儲存在\<CustomProps > 內的項目\<TransportTypeData > 繫結檔案中的項目。 中的資訊，大部分\<CustomProps > 項目對應到配接器可以設定 BizTalk Server 使用者介面 （例如 BizTalk 管理主控台或 BizTalk 總管 中） 中的資訊。 如果這些值存在於繫結檔案中，當匯入繫結檔案時，它們便會套用至指定之接收位置和傳送埠的配接器組態。 所有配接器的組態資訊都會儲存在「單一登入」資料庫中。  
+# <a name="configuration-properties-for-integrated-biztalk-adapters"></a><span data-ttu-id="c1636-102">整合式 BizTalk 配接器的組態屬性</span><span class="sxs-lookup"><span data-stu-id="c1636-102">Configuration Properties for Integrated BizTalk Adapters</span></span>
+<span data-ttu-id="c1636-103">「 BizTalk 總管物件模型公開**IReceiveLocation.CustomData**和**ISendPort.CustomData**包含配接器組態屬性包形式的名稱/值的屬性組 XML 字串。</span><span class="sxs-lookup"><span data-stu-id="c1636-103">The BizTalk Explorer object model exposes the **IReceiveLocation.CustomData** and **ISendPort.CustomData** properties that contain the adapter configuration property bag in the form of a name/value pair XML string.</span></span> <span data-ttu-id="c1636-104">此名稱/值組 XML 字串會儲存在\<CustomProps > 內的項目\<TransportTypeData > 繫結檔案中的項目。</span><span class="sxs-lookup"><span data-stu-id="c1636-104">This name/value pair XML string is stored in a \<CustomProps> element within a \<TransportTypeData> element in a binding file.</span></span> <span data-ttu-id="c1636-105">中的資訊，大部分\<CustomProps > 項目對應到配接器可以設定 BizTalk Server 使用者介面 （例如 BizTalk 管理主控台或 BizTalk 總管 中） 中的資訊。</span><span class="sxs-lookup"><span data-stu-id="c1636-105">Most of the information in the \<CustomProps> element corresponds to information that can be set for an adapter in the BizTalk Server user interface (such as the BizTalk Administration Console or BizTalk Explorer).</span></span> <span data-ttu-id="c1636-106">如果這些值存在於繫結檔案中，當匯入繫結檔案時，它們便會套用至指定之接收位置和傳送埠的配接器組態。</span><span class="sxs-lookup"><span data-stu-id="c1636-106">If these values are present in a binding file then they are applied to the adapter configuration for the specified receive locations and send ports when the binding file is imported.</span></span> <span data-ttu-id="c1636-107">所有配接器的組態資訊都會儲存在「單一登入」資料庫中。</span><span class="sxs-lookup"><span data-stu-id="c1636-107">Configuration information for all adapters is stored in the Single Sign-On database.</span></span>  
   
- 本節描述可為每個整合式 BizTalk 配接器設定的組態屬性。  
+ <span data-ttu-id="c1636-108">本節描述可為每個整合式 BizTalk 配接器設定的組態屬性。</span><span class="sxs-lookup"><span data-stu-id="c1636-108">This section describes the configuration properties that can be set for each integrated BizTalk adapter.</span></span>  
   
 > [!NOTE]
->  密碼資訊儲存在\<TransportTypeData > 項目繫結檔案遮罩，如此敏感性資料不會儲存在純文字。 取決於傳輸方式，密碼資訊若非以 NULL 取代，就會以星號取代。 將繫結檔案匯入到目標 BizTalk Server 組態之前，您必須以手動方式將此資訊輸入繫結檔案以更新配接器組態。  
+>  <span data-ttu-id="c1636-109">密碼資訊儲存在\<TransportTypeData > 項目繫結檔案遮罩，如此敏感性資料不會儲存在純文字。</span><span class="sxs-lookup"><span data-stu-id="c1636-109">Password information that is stored in the \<TransportTypeData> element of a binding file is masked so that sensitive data is not saved in clear text.</span></span> <span data-ttu-id="c1636-110">取決於傳輸方式，密碼資訊若非以 NULL 取代，就會以星號取代。</span><span class="sxs-lookup"><span data-stu-id="c1636-110">Depending on the transport, password information is either replaced with NULL or is replaced with asterisks.</span></span> <span data-ttu-id="c1636-111">將繫結檔案匯入到目標 BizTalk Server 組態之前，您必須以手動方式將此資訊輸入繫結檔案以更新配接器組態。</span><span class="sxs-lookup"><span data-stu-id="c1636-111">You must manually enter this information in the binding file to update the adapter configuration before importing the binding file into the target BizTalk Server configuration.</span></span>  
   
- 使用配接器架構所建置的配接器的組態資料儲存在\<AdapterConfig > 項目。 因為\<AdapterConfig > 項目會指定 VT_BSTR (vt ="8") 資料型別，  **\<  >** 必須逸出此項目中包含的字元，或當您嘗試時，會發生錯誤匯入繫結檔案。 這樣會使組態資料的文字，比沒有逸出字元時更加難以閱讀。 下列範例說明從繫結至 POP3 配接器之傳送埠的範例組態資料，逸出這些字元的效果。  
+ <span data-ttu-id="c1636-112">使用配接器架構所建置的配接器的組態資料儲存在\<AdapterConfig > 項目。</span><span class="sxs-lookup"><span data-stu-id="c1636-112">The configuration data for adapters built using the Adapter Framework is stored in an \<AdapterConfig> element.</span></span> <span data-ttu-id="c1636-113">因為\<AdapterConfig > 項目會指定 VT_BSTR (vt ="8") 資料型別，  **\<  >** 必須逸出此項目中包含的字元，或當您嘗試時，會發生錯誤匯入繫結檔案。</span><span class="sxs-lookup"><span data-stu-id="c1636-113">Since the \<AdapterConfig> element specifies the VT_BSTR (vt="8") data type, the **\< >** characters contained in this element must be escaped or an error will occur when you attempt to import the binding file.</span></span> <span data-ttu-id="c1636-114">這樣會使組態資料的文字，比沒有逸出字元時更加難以閱讀。</span><span class="sxs-lookup"><span data-stu-id="c1636-114">This causes the text for the configuration data to be less human readable than if these characters were not escaped.</span></span> <span data-ttu-id="c1636-115">下列範例說明從繫結至 POP3 配接器之傳送埠的範例組態資料，逸出這些字元的效果。</span><span class="sxs-lookup"><span data-stu-id="c1636-115">The following example illustrates the effect of escaping these characters from sample configuration data for a send port bound to the POP3 adapter.</span></span>  
   
- **不逸出 <> 中使用的字元的 TransportTypeData 組態資料\<AdapterConfig > 項目**  
+ <span data-ttu-id="c1636-116">**不逸出 <> 中使用的字元的 TransportTypeData 組態資料\<AdapterConfig > 項目**</span><span class="sxs-lookup"><span data-stu-id="c1636-116">**TransportTypeData configuration data that does not escape the <> characters used in the \<AdapterConfig> element**</span></span>  
   
- 此設定資料無效因為\<AdapterConfig > 項目會指定 VT_BSTR (vt ="8") 資料類型和\<> 中包含的字元\<AdapterConfig > 項目不會逸出：  
+ <span data-ttu-id="c1636-117">此設定資料無效因為\<AdapterConfig > 項目會指定 VT_BSTR (vt ="8") 資料類型和\<> 中包含的字元\<AdapterConfig > 項目不會逸出：</span><span class="sxs-lookup"><span data-stu-id="c1636-117">This configuration data is invalid because the \<AdapterConfig> element specifies the VT_BSTR (vt="8") data type and the \< > characters contained in the \<AdapterConfig> element are not escaped:</span></span>  
   
 ```  
 <TransportTypeData>  
@@ -65,9 +65,9 @@ ms.lasthandoff: 09/20/2017
 </TransportTypeData>  
 ```  
   
- **會在 <> 中使用的字元逸出的 TransportTypeData 組態資料\<AdapterConfig > 項目**  
+ <span data-ttu-id="c1636-118">**會在 <> 中使用的字元逸出的 TransportTypeData 組態資料\<AdapterConfig > 項目**</span><span class="sxs-lookup"><span data-stu-id="c1636-118">**TransportTypeData configuration data that does escape the <> characters used in the \<AdapterConfig> element**</span></span>  
   
- 因為\<AdapterConfig > 項目會指定 VT_BSTR (vt ="8") 資料型別， \< > 必須從逸出字元\<AdapterConfig > 項目，如下所示：  
+ <span data-ttu-id="c1636-119">因為\<AdapterConfig > 項目會指定 VT_BSTR (vt ="8") 資料型別， \< > 必須從逸出字元\<AdapterConfig > 項目，如下所示：</span><span class="sxs-lookup"><span data-stu-id="c1636-119">Since the \<AdapterConfig> element specifies the VT_BSTR (vt="8") data type, the \< > characters must be escaped from the \<AdapterConfig> element as seen below:</span></span>  
   
 ```  
 <TransportTypeData>  
@@ -89,37 +89,37 @@ gt;<bodyPartIndex>1</bodyPartIndex><errorThreshold>10
 </TransportTypeData>  
 ```  
   
- 以「配接器架構」建立的整合式配接器包括下列各項：  
+ <span data-ttu-id="c1636-120">以「配接器架構」建立的整合式配接器包括下列各項：</span><span class="sxs-lookup"><span data-stu-id="c1636-120">The integrated adapters that were created with the Adapter Framework include the following:</span></span>  
   
--   FTP 配接器  
+-   <span data-ttu-id="c1636-121">FTP 配接器</span><span class="sxs-lookup"><span data-stu-id="c1636-121">FTP Adapter</span></span>  
   
--   MQSeries 配接器  
+-   <span data-ttu-id="c1636-122">MQSeries 配接器</span><span class="sxs-lookup"><span data-stu-id="c1636-122">MQSeries Adapter</span></span>  
   
--   MSMQ 配接器  
+-   <span data-ttu-id="c1636-123">MSMQ 配接器</span><span class="sxs-lookup"><span data-stu-id="c1636-123">MSMQ Adapter</span></span>  
   
--   POP3 配接器  
+-   <span data-ttu-id="c1636-124">POP3 配接器</span><span class="sxs-lookup"><span data-stu-id="c1636-124">POP3 Adapter</span></span>  
   
--   Windows Sharepoint Services 配接器  
+-   <span data-ttu-id="c1636-125">Windows Sharepoint Services 配接器</span><span class="sxs-lookup"><span data-stu-id="c1636-125">Windows Sharepoint Services Adapter</span></span>  
   
- 若要檢視對每個整合式配接器用來做為 TransportTypeData 組態資料的範例字串，請參閱與此節中的配接器關聯的組態屬性主題。  
+ <span data-ttu-id="c1636-126">若要檢視對每個整合式配接器用來做為 TransportTypeData 組態資料的範例字串，請參閱與此節中的配接器關聯的組態屬性主題。</span><span class="sxs-lookup"><span data-stu-id="c1636-126">To view a sample string used as the TransportTypeData configuration data for each integrated adapter, please see the configuration properties topic that is associated with the adapter in this section.</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
- [組態屬性變數型別](../core/configuration-property-variable-types.md)  
+## <a name="in-this-section"></a><span data-ttu-id="c1636-127">本節內容</span><span class="sxs-lookup"><span data-stu-id="c1636-127">In This Section</span></span>  
+ [<span data-ttu-id="c1636-128">組態屬性變數型別</span><span class="sxs-lookup"><span data-stu-id="c1636-128">Configuration Property Variable Types</span></span>](../core/configuration-property-variable-types.md)  
   
- [File 配接器組態屬性](../core/file-adapter-configuration-properties.md)  
+ [<span data-ttu-id="c1636-129">File 配接器組態屬性</span><span class="sxs-lookup"><span data-stu-id="c1636-129">File Adapter Configuration Properties</span></span>](../core/file-adapter-configuration-properties.md)  
   
- [FTP 配接器組態屬性](../core/ftp-adapter-configuration-properties.md)  
+ [<span data-ttu-id="c1636-130">FTP 配接器組態屬性</span><span class="sxs-lookup"><span data-stu-id="c1636-130">FTP Adapter Configuration Properties</span></span>](../core/ftp-adapter-configuration-properties.md)  
   
- [HTTP 配接器組態屬性](../core/http-adapter-configuration-properties.md)  
+ [<span data-ttu-id="c1636-131">HTTP 配接器組態屬性</span><span class="sxs-lookup"><span data-stu-id="c1636-131">HTTP Adapter Configuration Properties</span></span>](../core/http-adapter-configuration-properties.md)  
   
- [MQSeries 配接器組態屬性](../core/mqseries-adapter-configuration-properties.md)  
+ [<span data-ttu-id="c1636-132">MQSeries 配接器組態屬性</span><span class="sxs-lookup"><span data-stu-id="c1636-132">MQSeries Adapter Configuration Properties</span></span>](../core/mqseries-adapter-configuration-properties.md)  
   
- [MSMQ 配接器組態屬性](../core/msmq-adapter-configuration-properties.md)  
+ [<span data-ttu-id="c1636-133">MSMQ 配接器組態屬性</span><span class="sxs-lookup"><span data-stu-id="c1636-133">MSMQ Adapter Configuration Properties</span></span>](../core/msmq-adapter-configuration-properties.md)  
   
- [POP3 配接器組態屬性](../core/pop3-adapter-configuration-properties.md)  
+ [<span data-ttu-id="c1636-134">POP3 配接器組態屬性</span><span class="sxs-lookup"><span data-stu-id="c1636-134">POP3 Adapter Configuration Properties</span></span>](../core/pop3-adapter-configuration-properties.md)  
   
- [SMTP 配接器組態屬性](../core/smtp-adapter-configuration-properties.md)  
+ [<span data-ttu-id="c1636-135">SMTP 配接器組態屬性</span><span class="sxs-lookup"><span data-stu-id="c1636-135">SMTP Adapter Configuration Properties</span></span>](../core/smtp-adapter-configuration-properties.md)  
   
- [SOAP 配接器組態屬性](../core/soap-adapter-configuration-properties.md)  
+ [<span data-ttu-id="c1636-136">SOAP 配接器組態屬性</span><span class="sxs-lookup"><span data-stu-id="c1636-136">SOAP Adapter Configuration Properties</span></span>](../core/soap-adapter-configuration-properties.md)  
   
- [Windows Sharepoint Services 配接器組態屬性](../core/windows-sharepoint-services-adapter-configuration-properties.md)
+ [<span data-ttu-id="c1636-137">Windows Sharepoint Services 配接器組態屬性</span><span class="sxs-lookup"><span data-stu-id="c1636-137">Windows Sharepoint Services Adapter Configuration Properties</span></span>](../core/windows-sharepoint-services-adapter-configuration-properties.md)

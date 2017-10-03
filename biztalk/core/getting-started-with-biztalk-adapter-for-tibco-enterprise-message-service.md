@@ -19,19 +19,19 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="getting-started-with-biztalk-adapter-for-tibco-enterprise-message-service"></a>BizTalk Adapter for TIBCO Enterprise Message Service 使用者入門
-本節說明如何設定和使用 Microsoft BizTalk Adapter for TIBCO Enterprise Message Service，來存取 TIBCO Enterprise Message Service 訊息。  
+# <a name="getting-started-with-biztalk-adapter-for-tibco-enterprise-message-service"></a><span data-ttu-id="19fe3-102">BizTalk Adapter for TIBCO Enterprise Message Service 使用者入門</span><span class="sxs-lookup"><span data-stu-id="19fe3-102">Getting Started with BizTalk Adapter for TIBCO Enterprise Message Service</span></span>
+<span data-ttu-id="19fe3-103">本節說明如何設定和使用 Microsoft BizTalk Adapter for TIBCO Enterprise Message Service，來存取 TIBCO Enterprise Message Service 訊息。</span><span class="sxs-lookup"><span data-stu-id="19fe3-103">This section describes how to configure and use Microsoft BizTalk Adapter for TIBCO Enterprise Message Service to access TIBCO Enterprise Message Service messages.</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="19fe3-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="19fe3-104">In This Section</span></span>  
   
--   [準備 TIBCO Enterprise Message Service](../core/preparing-tibco-enterprise-message-service.md)  
+-   [<span data-ttu-id="19fe3-105">準備 TIBCO Enterprise Message Service</span><span class="sxs-lookup"><span data-stu-id="19fe3-105">Preparing TIBCO Enterprise Message Service</span></span>](../core/preparing-tibco-enterprise-message-service.md)  
   
--   [配接器功能](../core/adapter-features.md)  
+-   [<span data-ttu-id="19fe3-106">配接器功能</span><span class="sxs-lookup"><span data-stu-id="19fe3-106">Adapter Features</span></span>](../core/adapter-features.md)  
   
--   [字元編碼](../core/character-encoding.md)  
+-   [<span data-ttu-id="19fe3-107">字元編碼</span><span class="sxs-lookup"><span data-stu-id="19fe3-107">Character Encoding</span></span>](../core/character-encoding.md)  
   
--   [訊息](../core/messages.md)  
+-   [<span data-ttu-id="19fe3-108">訊息</span><span class="sxs-lookup"><span data-stu-id="19fe3-108">Messages</span></span>](../core/messages.md)  
   
--   [安裝 BizTalk Adapter for TIBCO Enterprise Message Service](../core/installing-biztalk-adapter-for-tibco-enterprise-message-service.md)  
+-   [<span data-ttu-id="19fe3-109">安裝 BizTalk Adapter for TIBCO Enterprise Message Service</span><span class="sxs-lookup"><span data-stu-id="19fe3-109">Installing BizTalk Adapter for TIBCO Enterprise Message Service</span></span>](../core/installing-biztalk-adapter-for-tibco-enterprise-message-service.md)  
   
--   [教學課程： 使用 Microsoft BizTalk Adapter for TIBCO Enterprise Message Service](../core/tutorials-use-the-microsoft-biztalk-adapter-for-tibco-message-service.md)
+-   [<span data-ttu-id="19fe3-110">教學課程： 使用 Microsoft BizTalk Adapter for TIBCO Enterprise Message Service</span><span class="sxs-lookup"><span data-stu-id="19fe3-110">Tutorials: Using the Microsoft BizTalk Adapter for TIBCO Enterprise Message Service</span></span>](../core/tutorials-use-the-microsoft-biztalk-adapter-for-tibco-message-service.md)

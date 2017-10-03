@@ -18,15 +18,15 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="entities"></a>實體
-本主題討論組成 BizTalk Server 解決方案的實體。  
+# <a name="entities"></a><span data-ttu-id="58713-102">實體</span><span class="sxs-lookup"><span data-stu-id="58713-102">Entities</span></span>
+<span data-ttu-id="58713-103">本主題討論組成 BizTalk Server 解決方案的實體。</span><span class="sxs-lookup"><span data-stu-id="58713-103">This topic discusses the entities that comprise a BizTalk Server solution.</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="58713-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="58713-104">In This Section</span></span>  
   
--   [BizTalk 群組](../core/biztalk-groups.md)  
+-   [<span data-ttu-id="58713-105">BizTalk 群組</span><span class="sxs-lookup"><span data-stu-id="58713-105">BizTalk Groups</span></span>](../core/biztalk-groups.md)  
   
--   [主機](../core/hosts.md)  
+-   [<span data-ttu-id="58713-106">主機</span><span class="sxs-lookup"><span data-stu-id="58713-106">Hosts</span></span>](../core/hosts.md)  
   
--   [主控件執行個體](../core/host-instances.md)  
+-   [<span data-ttu-id="58713-107">主控件執行個體</span><span class="sxs-lookup"><span data-stu-id="58713-107">Host Instances</span></span>](../core/host-instances.md)  
   
--   [主機群組](../core/host-groups.md)
+-   [<span data-ttu-id="58713-108">主機群組</span><span class="sxs-lookup"><span data-stu-id="58713-108">Host Groups</span></span>](../core/host-groups.md)

@@ -28,73 +28,73 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="how-to-configure-mqseries-adapter-receive-locations-and-send-ports"></a>如何設定 MQSeries 配接器接收位置和傳送埠
-您可以同時為接收位置和傳送埠設定 MQSeries 配接器。  
+# <a name="how-to-configure-mqseries-adapter-receive-locations-and-send-ports"></a><span data-ttu-id="36e0a-102">如何設定 MQSeries 配接器接收位置和傳送埠</span><span class="sxs-lookup"><span data-stu-id="36e0a-102">How to Configure MQSeries Adapter Receive Locations and Send Ports</span></span>
+<span data-ttu-id="36e0a-103">您可以同時為接收位置和傳送埠設定 MQSeries 配接器。</span><span class="sxs-lookup"><span data-stu-id="36e0a-103">You can configure the MQSeries adapter for both receive locations and send ports.</span></span>  
   
-## <a name="to-configure-receive-locations-and-send-ports"></a>設定接收位置和傳送埠  
- **若要建立接收埠和接收位置：**  
+## <a name="to-configure-receive-locations-and-send-ports"></a><span data-ttu-id="36e0a-104">設定接收位置和傳送埠</span><span class="sxs-lookup"><span data-stu-id="36e0a-104">To configure receive locations and send ports</span></span>  
+ <span data-ttu-id="36e0a-105">**若要建立接收埠和接收位置：**</span><span class="sxs-lookup"><span data-stu-id="36e0a-105">**To create the receive port and receive location:**</span></span>  
   
-1.  在 BizTalk Server 管理主控台中，展開  **BizTalk Server 管理**，依序展開**BizTalk 群組**，依序展開**應用程式**，然後展開您要建立接收位置的應用程式。  
+1.  <span data-ttu-id="36e0a-106">在 BizTalk Server 管理主控台中，展開  **BizTalk Server 管理**，依序展開**BizTalk 群組**，依序展開**應用程式**，然後展開您要建立接收位置的應用程式。</span><span class="sxs-lookup"><span data-stu-id="36e0a-106">In the BizTalk Server Administration console, expand **BizTalk Server Administration**, expand **BizTalk Group**, expand **Applications**, and then expand the application in which you want to create a receive location.</span></span>  
   
-2.  以滑鼠右鍵按一下**接收埠**] 節點，按一下 [**新增**指向**單向接收埠**。  
+2.  <span data-ttu-id="36e0a-107">以滑鼠右鍵按一下**接收埠**] 節點，按一下 [**新增**指向**單向接收埠**。</span><span class="sxs-lookup"><span data-stu-id="36e0a-107">Right-click the **Receive Ports** node, click **New,** and point to **One-Way Receive Port**.</span></span>  
   
-3.  輸入適當的值在**連接埠內容** 對話方塊。 如需有關資訊**連接埠內容**對話方塊中，請參閱[如何建立接收埠](../core/how-to-create-a-receive-port.md)。  
+3.  <span data-ttu-id="36e0a-108">輸入適當的值在**連接埠內容** 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="36e0a-108">Enter the appropriate values in the **Port Properties** dialog box.</span></span> <span data-ttu-id="36e0a-109">如需有關資訊**連接埠內容**對話方塊中，請參閱[如何建立接收埠](../core/how-to-create-a-receive-port.md)。</span><span class="sxs-lookup"><span data-stu-id="36e0a-109">For information about the **Port Properties** dialog box, see [How to Create a Receive Port](../core/how-to-create-a-receive-port.md).</span></span>  
   
-4.  在 BizTalk Server 管理主控台中，以滑鼠右鍵按一下**接收埠**節點，您所建立，然後按一下**屬性**。  
+4.  <span data-ttu-id="36e0a-110">在 BizTalk Server 管理主控台中，以滑鼠右鍵按一下**接收埠**節點，您所建立，然後按一下**屬性**。</span><span class="sxs-lookup"><span data-stu-id="36e0a-110">In the BizTalk Server Administration console, right-click the **Receive Port** node you created and then click **Properties**.</span></span>  
   
-5.  在**接收埠屬性**對話方塊的左窗格中，選取**接收位置**，然後按一下 **新增**右窗格中。  
+5.  <span data-ttu-id="36e0a-111">在**接收埠屬性**對話方塊的左窗格中，選取**接收位置**，然後按一下 **新增**右窗格中。</span><span class="sxs-lookup"><span data-stu-id="36e0a-111">In the **Receive Port Properties** dialog box, in the left pane, select **Receive Locations**, and then click **New** in the right pane.</span></span>  
   
-6.  在**接收位置屬性**對話方塊中，於**傳輸**區段旁邊**類型**，選取**MQSeries**從下拉式清單清單，然後再按**設定**。  
+6.  <span data-ttu-id="36e0a-112">在**接收位置屬性**對話方塊中，於**傳輸**區段旁邊**類型**，選取**MQSeries**從下拉式清單清單，然後再按**設定**。</span><span class="sxs-lookup"><span data-stu-id="36e0a-112">In the **Receive Location Properties** dialog box, in the **Transport** section next to **Type**, select **MQSeries** from the drop-down list, and then click **Configure**.</span></span>  
   
-7.  在**MQSeries 傳輸屬性**對話方塊方塊中，執行下列動作：  
+7.  <span data-ttu-id="36e0a-113">在**MQSeries 傳輸屬性**對話方塊方塊中，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="36e0a-113">In the **MQSeries Transport Properties** dialog box, do the following:</span></span>  
   
-    |使用|動作|  
+    |<span data-ttu-id="36e0a-114">使用</span><span class="sxs-lookup"><span data-stu-id="36e0a-114">Use this</span></span>|<span data-ttu-id="36e0a-115">動作</span><span class="sxs-lookup"><span data-stu-id="36e0a-115">To do this</span></span>|  
     |--------------|----------------|  
-    |**批次大小**|決定一個訊息批次的大小上限 (以 KB 為單位)。 **注意：**如果**交易支援**接收位置的屬性設定為**是**; 每個訊息批次提交給 Microsoft 的內容下的 MessageBox 資料庫分散式的交易協調器 (MSDTC) 交易。 在批次中的每個訊息都保存至 MessageBox 中，並置於適當的訂閱者佇列之前，為訊息批次建立的 MSDTC 交易仍會處於開啟狀態。 因此，此 MSDTC 交易的持續時間會增加為**批次大小上限**參數會增加。 同時有大量的 MSDTC 交易開啟對造成負面影響整體效能，因為**批次大小上限**啟用交易支援時，參數應該設定為非常大的值。|  
-    |**排序的處理**|設定 MQSeries 在接收到 MQSeries 佇列的訊息時維護訊息順序。 **注意：**為了維護特定佇列的訊息排序，只有一個 BizTalk 主控件執行個體可接收的訊息從 MQSeries 佇列。 <br /><br /> **預設值：** False|  
-    |**佇列**|從資訊填入**佇列定義** 對話方塊。 **注意：** URI 傳送埠或接收位置不能超過 256 個字元。|  
-    |**異動**|配接器會開始 BizTalk Server 與 MQSeries Server 之間的 Microsoft Distributed Transaction Coordinator (DTC) 交易。 當設定為**否**，不保證訊息傳遞。<br /><br /> **預設值：** False|  
+    |<span data-ttu-id="36e0a-116">**批次大小**</span><span class="sxs-lookup"><span data-stu-id="36e0a-116">**Batch Size**</span></span>|<span data-ttu-id="36e0a-117">決定一個訊息批次的大小上限 (以 KB 為單位)。</span><span class="sxs-lookup"><span data-stu-id="36e0a-117">Determine the maximum size of a batch of messages in KB.</span></span> <span data-ttu-id="36e0a-118">**注意：**如果**交易支援**接收位置的屬性設定為**是**; 每個訊息批次提交給 Microsoft 的內容下的 MessageBox 資料庫分散式的交易協調器 (MSDTC) 交易。</span><span class="sxs-lookup"><span data-stu-id="36e0a-118">**Note:**  If the **Transaction Supported** property for the receive location is set to **Yes**; each message batch is submitted to the MessageBox database under the context of a Microsoft Distributed Transaction Coordinator (MSDTC) transaction.</span></span> <span data-ttu-id="36e0a-119">在批次中的每個訊息都保存至 MessageBox 中，並置於適當的訂閱者佇列之前，為訊息批次建立的 MSDTC 交易仍會處於開啟狀態。</span><span class="sxs-lookup"><span data-stu-id="36e0a-119">The MSDTC transaction that is created for a message batch remains open until every message in the batch has been persisted to the MessageBox and placed in the appropriate subscriber queue.</span></span> <span data-ttu-id="36e0a-120">因此，此 MSDTC 交易的持續時間會增加為**批次大小上限**參數會增加。</span><span class="sxs-lookup"><span data-stu-id="36e0a-120">Therefore the duration of this MSDTC transaction is increased as the **Maximum Batch Size** parameter is increased.</span></span> <span data-ttu-id="36e0a-121">同時有大量的 MSDTC 交易開啟對造成負面影響整體效能，因為**批次大小上限**啟用交易支援時，參數應該設定為非常大的值。</span><span class="sxs-lookup"><span data-stu-id="36e0a-121">Since having a large number of MSDTC transactions open simultaneously can negatively impact overall performance, the **Maximum Batch Size** parameter should not be set to a very large value when transaction support is enabled.</span></span>|  
+    |<span data-ttu-id="36e0a-122">**排序的處理**</span><span class="sxs-lookup"><span data-stu-id="36e0a-122">**Ordered Processing**</span></span>|<span data-ttu-id="36e0a-123">設定 MQSeries 在接收到 MQSeries 佇列的訊息時維護訊息順序。</span><span class="sxs-lookup"><span data-stu-id="36e0a-123">Set MQSeries to maintain the order of the messages as they are received from the MQSeries queue.</span></span> <span data-ttu-id="36e0a-124">**注意：**為了維護特定佇列的訊息排序，只有一個 BizTalk 主控件執行個體可接收的訊息從 MQSeries 佇列。</span><span class="sxs-lookup"><span data-stu-id="36e0a-124">**Note:**  To maintain message ordering for a specific queue, only one BizTalk Host instance may be receiving messages from that MQSeries queue.</span></span> <br /><br /> <span data-ttu-id="36e0a-125">**預設值：** False</span><span class="sxs-lookup"><span data-stu-id="36e0a-125">**Default:** False</span></span>|  
+    |<span data-ttu-id="36e0a-126">**佇列**</span><span class="sxs-lookup"><span data-stu-id="36e0a-126">**Queue**</span></span>|<span data-ttu-id="36e0a-127">從資訊填入**佇列定義** 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="36e0a-127">Filled in with information from the **Queue Definition** dialog box.</span></span> <span data-ttu-id="36e0a-128">**注意：** URI 傳送埠或接收位置不能超過 256 個字元。</span><span class="sxs-lookup"><span data-stu-id="36e0a-128">**Note:**  The URI for a send port or receive location cannot exceed 256 characters.</span></span>|  
+    |<span data-ttu-id="36e0a-129">**異動**</span><span class="sxs-lookup"><span data-stu-id="36e0a-129">**Transactional**</span></span>|<span data-ttu-id="36e0a-130">配接器會開始 BizTalk Server 與 MQSeries Server 之間的 Microsoft Distributed Transaction Coordinator (DTC) 交易。</span><span class="sxs-lookup"><span data-stu-id="36e0a-130">The adapter begins a Microsoft Distributed Transaction Coordinator (DTC) transaction between BizTalk Server and MQSeries Server.</span></span> <span data-ttu-id="36e0a-131">當設定為**否**，不保證訊息傳遞。</span><span class="sxs-lookup"><span data-stu-id="36e0a-131">When set to **No**, there is no guarantee of message delivery.</span></span><br /><br /> <span data-ttu-id="36e0a-132">**預設值：** False</span><span class="sxs-lookup"><span data-stu-id="36e0a-132">**Default:** False</span></span>|  
   
-8.  在**MQSeries 傳輸屬性**對話方塊中，按一下 [**確定**填入**位址 (URI)**方塊中**接收位置屬性**] 對話方塊。  
+8.  <span data-ttu-id="36e0a-133">在**MQSeries 傳輸屬性**對話方塊中，按一下 [**確定**填入**位址 (URI)**方塊中**接收位置屬性**] 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="36e0a-133">In the **MQSeries Transport Properties** dialog box, click **OK** to populate the **Address (URI)** box in the **Receive Location Properties** dialog box.</span></span>  
   
-9. 在**接收位置屬性**對話方塊方塊中，輸入適當的值，以完成接收位置組態，然後按一下**確定**儲存設定。 如需有關資訊**接收位置屬性**對話方塊中，請參閱[如何建立接收位置](../core/how-to-create-a-receive-location.md)。  
+9. <span data-ttu-id="36e0a-134">在**接收位置屬性**對話方塊方塊中，輸入適當的值，以完成接收位置組態，然後按一下**確定**儲存設定。</span><span class="sxs-lookup"><span data-stu-id="36e0a-134">In the **Receive Location Properties** dialog box, enter the appropriate values to complete the configuration of the receive location, and click **OK** to save settings.</span></span> <span data-ttu-id="36e0a-135">如需有關資訊**接收位置屬性**對話方塊中，請參閱[如何建立接收位置](../core/how-to-create-a-receive-location.md)。</span><span class="sxs-lookup"><span data-stu-id="36e0a-135">For information about the **Receive Locations Properties** dialog box, see [How to Create a Receive Location](../core/how-to-create-a-receive-location.md).</span></span>  
   
- **若要建立傳送埠：**  
+ <span data-ttu-id="36e0a-136">**若要建立傳送埠：**</span><span class="sxs-lookup"><span data-stu-id="36e0a-136">**To create the send port:**</span></span>  
   
-1.  在 [BizTalk Server 管理] 主控台中，建立新的靜態傳送埠。 請參閱[如何建立傳送埠](../core/how-to-create-a-send-port2.md)如需詳細資訊。 設定所有傳送埠選項，並指定**MQSeries**如**類型**選項**傳輸**區段**一般** 索引標籤。  
+1.  <span data-ttu-id="36e0a-137">在 [BizTalk Server 管理] 主控台中，建立新的靜態傳送埠。</span><span class="sxs-lookup"><span data-stu-id="36e0a-137">In the BizTalk Server Administration console, create a new static send port.</span></span> <span data-ttu-id="36e0a-138">請參閱[如何建立傳送埠](../core/how-to-create-a-send-port2.md)如需詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="36e0a-138">See [How to Create a Send Port](../core/how-to-create-a-send-port2.md) for more information.</span></span> <span data-ttu-id="36e0a-139">設定所有傳送埠選項，並指定**MQSeries**如**類型**選項**傳輸**區段**一般** 索引標籤。</span><span class="sxs-lookup"><span data-stu-id="36e0a-139">Configure all of the send port options and specify **MQSeries** for the **Type** option in the **Transport** section of the **General** tab.</span></span>  
   
-2.  在**一般**索引標籤的**傳輸**區段中，按一下**設定**旁邊**類型**。  
+2.  <span data-ttu-id="36e0a-140">在**一般**索引標籤的**傳輸**區段中，按一下**設定**旁邊**類型**。</span><span class="sxs-lookup"><span data-stu-id="36e0a-140">On the **General** tab, in the **Transport** section, click the **Configure** button next to **Type**.</span></span>  
   
-3.  在**MQSeries 傳輸屬性**對話方塊方塊中，執行下列動作：  
+3.  <span data-ttu-id="36e0a-141">在**MQSeries 傳輸屬性**對話方塊方塊中，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="36e0a-141">In the **MQSeries Transport Properties** dialog box, do the following:</span></span>  
   
-    |屬性|Description|  
+    |<span data-ttu-id="36e0a-142">屬性</span><span class="sxs-lookup"><span data-stu-id="36e0a-142">Property</span></span>|<span data-ttu-id="36e0a-143">Description</span><span class="sxs-lookup"><span data-stu-id="36e0a-143">Description</span></span>|  
     |--------------|-----------------|  
-    |**分割大小**|設定在配接器與 MQSAgent 之間傳送的訊息之訊息區塊大小 (以 KB 為單位)|  
-    |**SSO 分支機構應用程式**|設定單一登入 (SSO) 分支機構應用程式。 使用者識別碼和密碼，從 SSO 會用於**MQMD_UserIdentifier**，而**MQIIH_Authenticator** (或**MQCIH_Authenticator**) 屬性分別。<br /><br /> **預設值：**空白|  
-    |**資料轉換**|將訊息轉換為 MQSeries for Windows Server 的 ANSI 字碼頁。<br /><br /> 選取**是**執行從 Unicode 轉換成 ANSI。<br /><br /> **預設值：**否|  
-    |**排序**|設定 MQSeries 在訊息傳送到 MQSeries 佇列時保持訊息的順序。<br /><br /> 選取**是**以保持訊息順序。 **注意：**必須設定**傳遞通知**在協調流程中的屬性**Transmitted**傳送埠。 <br /><br /> **預設值：**否|  
-    |**佇列定義**|填入資訊從**佇列定義**對話方塊或是直接在欄位中。 **注意：** URI 傳送埠或接收位置不能超過 256 個字元。|  
-    |**允許的分割**|若個別訊息超過 MQSeries 佇列的訊息最大長度，則使用「MQSeries 佇列管理員」分割。 如果您選取**是**，MQSeries 會將分割的訊息放入佇列。<br /><br /> **預設值：**否|  
-    |**支援的交易**|配接器會開始 BizTalk Server 與 MQSeries Server 之間的 DTC (分散式交易協調器) 交易。 當設定為**否**，不保證訊息傳遞。<br /><br /> **預設值：**是**附註：**並未使用不同設定傳送埠**交易支援**將訊息傳送至相同的 MQSeries 佇列的設定。 **注意：**除了測試案例中，這個屬性應該一律設定為預設值**是**。 將此屬性的值設**否**在實際執行環境可能會導致無法預期的問題。|  
+    |<span data-ttu-id="36e0a-144">**分割大小**</span><span class="sxs-lookup"><span data-stu-id="36e0a-144">**Fragmentation Size**</span></span>|<span data-ttu-id="36e0a-145">設定在配接器與 MQSAgent 之間傳送的訊息之訊息區塊大小 (以 KB 為單位)</span><span class="sxs-lookup"><span data-stu-id="36e0a-145">Sets the message chunk size in KB for messages as they are sent between the adapter and MQSAgent</span></span>|  
+    |<span data-ttu-id="36e0a-146">**SSO 分支機構應用程式**</span><span class="sxs-lookup"><span data-stu-id="36e0a-146">**SSO Affiliate Application**</span></span>|<span data-ttu-id="36e0a-147">設定單一登入 (SSO) 分支機構應用程式。</span><span class="sxs-lookup"><span data-stu-id="36e0a-147">Sets the Single Sign-On (SSO) affiliate application.</span></span> <span data-ttu-id="36e0a-148">使用者識別碼和密碼，從 SSO 會用於**MQMD_UserIdentifier**，而**MQIIH_Authenticator** (或**MQCIH_Authenticator**) 屬性分別。</span><span class="sxs-lookup"><span data-stu-id="36e0a-148">The user ID and password from SSO are used for the **MQMD_UserIdentifier**, and the **MQIIH_Authenticator** (or **MQCIH_Authenticator**) property respectively.</span></span><br /><br /> <span data-ttu-id="36e0a-149">**預設值：**空白</span><span class="sxs-lookup"><span data-stu-id="36e0a-149">**Default:** Blank</span></span>|  
+    |<span data-ttu-id="36e0a-150">**資料轉換**</span><span class="sxs-lookup"><span data-stu-id="36e0a-150">**Data Conversion**</span></span>|<span data-ttu-id="36e0a-151">將訊息轉換為 MQSeries for Windows Server 的 ANSI 字碼頁。</span><span class="sxs-lookup"><span data-stu-id="36e0a-151">Converts the message to the ANSI code page of MQSeries for Windows server.</span></span><br /><br /> <span data-ttu-id="36e0a-152">選取**是**執行從 Unicode 轉換成 ANSI。</span><span class="sxs-lookup"><span data-stu-id="36e0a-152">Select **Yes** to perform this conversion from Unicode to ANSI.</span></span><br /><br /> <span data-ttu-id="36e0a-153">**預設值：**否</span><span class="sxs-lookup"><span data-stu-id="36e0a-153">**Default:** No</span></span>|  
+    |<span data-ttu-id="36e0a-154">**排序**</span><span class="sxs-lookup"><span data-stu-id="36e0a-154">**Ordered**</span></span>|<span data-ttu-id="36e0a-155">設定 MQSeries 在訊息傳送到 MQSeries 佇列時保持訊息的順序。</span><span class="sxs-lookup"><span data-stu-id="36e0a-155">Sets MQSeries to maintain the order of messages as they are sent to the MQSeries queue.</span></span><br /><br /> <span data-ttu-id="36e0a-156">選取**是**以保持訊息順序。</span><span class="sxs-lookup"><span data-stu-id="36e0a-156">Select **Yes** to maintain message order.</span></span> <span data-ttu-id="36e0a-157">**注意：**必須設定**傳遞通知**在協調流程中的屬性**Transmitted**傳送埠。</span><span class="sxs-lookup"><span data-stu-id="36e0a-157">**Note:**  You must set the **Delivery Notification** property in your orchestration to **Transmitted** for the send port.</span></span> <br /><br /> <span data-ttu-id="36e0a-158">**預設值：**否</span><span class="sxs-lookup"><span data-stu-id="36e0a-158">**Default:** No</span></span>|  
+    |<span data-ttu-id="36e0a-159">**佇列定義**</span><span class="sxs-lookup"><span data-stu-id="36e0a-159">**Queue Definition**</span></span>|<span data-ttu-id="36e0a-160">填入資訊從**佇列定義**對話方塊或是直接在欄位中。</span><span class="sxs-lookup"><span data-stu-id="36e0a-160">Populated with information from the **Queue Definition** dialog box or directly in the field.</span></span> <span data-ttu-id="36e0a-161">**注意：** URI 傳送埠或接收位置不能超過 256 個字元。</span><span class="sxs-lookup"><span data-stu-id="36e0a-161">**Note:**  The URI for a send port or receive location cannot exceed 256 characters.</span></span>|  
+    |<span data-ttu-id="36e0a-162">**允許的分割**</span><span class="sxs-lookup"><span data-stu-id="36e0a-162">**Segmentation Allowed**</span></span>|<span data-ttu-id="36e0a-163">若個別訊息超過 MQSeries 佇列的訊息最大長度，則使用「MQSeries 佇列管理員」分割。</span><span class="sxs-lookup"><span data-stu-id="36e0a-163">Uses MQSeries Queue Manager segmentation if an individual message exceeds the MQSeries queue maximum message length.</span></span> <span data-ttu-id="36e0a-164">如果您選取**是**，MQSeries 會將分割的訊息放入佇列。</span><span class="sxs-lookup"><span data-stu-id="36e0a-164">If you select **Yes**, MQSeries puts segmented messages into the queue.</span></span><br /><br /> <span data-ttu-id="36e0a-165">**預設值：**否</span><span class="sxs-lookup"><span data-stu-id="36e0a-165">**Default:** No</span></span>|  
+    |<span data-ttu-id="36e0a-166">**支援的交易**</span><span class="sxs-lookup"><span data-stu-id="36e0a-166">**Transaction Supported**</span></span>|<span data-ttu-id="36e0a-167">配接器會開始 BizTalk Server 與 MQSeries Server 之間的 DTC (分散式交易協調器) 交易。</span><span class="sxs-lookup"><span data-stu-id="36e0a-167">The adapter begins a DTC transaction between BizTalk Server and MQSeries Server.</span></span> <span data-ttu-id="36e0a-168">當設定為**否**，不保證訊息傳遞。</span><span class="sxs-lookup"><span data-stu-id="36e0a-168">When set to **No**, there is no guarantee of message delivery.</span></span><br /><br /> <span data-ttu-id="36e0a-169">**預設值：**是**附註：**並未使用不同設定傳送埠**交易支援**將訊息傳送至相同的 MQSeries 佇列的設定。</span><span class="sxs-lookup"><span data-stu-id="36e0a-169">**Default:** Yes **Note:**  Do not configure send ports with different **Transaction Supported** settings to send messages to the same MQSeries queue.</span></span> <span data-ttu-id="36e0a-170">**注意：**除了測試案例中，這個屬性應該一律設定為預設值**是**。</span><span class="sxs-lookup"><span data-stu-id="36e0a-170">**Note:**  With the exception of test scenarios, this property should always be set to the default value of **Yes**.</span></span> <span data-ttu-id="36e0a-171">將此屬性的值設**否**在實際執行環境可能會導致無法預期的問題。</span><span class="sxs-lookup"><span data-stu-id="36e0a-171">Setting this property to a value of **No** in a production environment may cause unexpected problems.</span></span>|  
   
-     下表顯示如何設定這些屬性。  
+     <span data-ttu-id="36e0a-172">下表顯示如何設定這些屬性。</span><span class="sxs-lookup"><span data-stu-id="36e0a-172">The following figure shows how you might configure these properties.</span></span>  
   
-     ![MQSeries 傳輸屬性對話方塊](../core/media/bts-dev-mqsendtransportprops.gif "BTS_Dev_MQSendTransportProps")  
+     <span data-ttu-id="36e0a-173">![MQSeries 傳輸屬性對話方塊](../core/media/bts-dev-mqsendtransportprops.gif "BTS_Dev_MQSendTransportProps")</span><span class="sxs-lookup"><span data-stu-id="36e0a-173">![MQSeries Transport Properties dialog box](../core/media/bts-dev-mqsendtransportprops.gif "BTS_Dev_MQSendTransportProps")</span></span>  
   
-4.  按一下省略符號 (**...**) 右邊的按鈕**佇列定義**方塊以定義佇列。 您可以使用**匯出**對話方塊中，就像您可能與接收位置，立即建立佇列或匯出定義佇列的指令碼。  
+4.  <span data-ttu-id="36e0a-174">按一下省略符號 (**...**) 右邊的按鈕**佇列定義**方塊以定義佇列。</span><span class="sxs-lookup"><span data-stu-id="36e0a-174">Click the ellipsis (**...**) button to the right of the **Queue Definition** box to define the queue.</span></span> <span data-ttu-id="36e0a-175">您可以使用**匯出**對話方塊中，就像您可能與接收位置，立即建立佇列或匯出定義佇列的指令碼。</span><span class="sxs-lookup"><span data-stu-id="36e0a-175">You can use the **Export** dialog box, just as you may have with the receive location, to create the queue immediately or to export a script defining the queue.</span></span>  
   
-5.  按一下**確定**中每個對話方塊，以關閉對話方塊並儲存設定。  
+5.  <span data-ttu-id="36e0a-176">按一下**確定**中每個對話方塊，以關閉對話方塊並儲存設定。</span><span class="sxs-lookup"><span data-stu-id="36e0a-176">Click **OK** in each dialog box to close it and save the settings.</span></span>  
   
- **若要登錄的傳送埠、 啟動傳送埠，並啟用接收位置：**  
+ <span data-ttu-id="36e0a-177">**若要登錄的傳送埠、 啟動傳送埠，並啟用接收位置：**</span><span class="sxs-lookup"><span data-stu-id="36e0a-177">**To enlist the send port, start the send port, and enable the receive location:**</span></span>  
   
-1.  以滑鼠右鍵按一下傳送埠，然後按一下**登錄**登錄傳送埠。  
+1.  <span data-ttu-id="36e0a-178">以滑鼠右鍵按一下傳送埠，然後按一下**登錄**登錄傳送埠。</span><span class="sxs-lookup"><span data-stu-id="36e0a-178">Right-click the send port and click **Enlist** to enlist the send port.</span></span>  
   
-2.  以滑鼠右鍵按一下傳送埠，然後按一下**啟動**啟動傳送埠。  
+2.  <span data-ttu-id="36e0a-179">以滑鼠右鍵按一下傳送埠，然後按一下**啟動**啟動傳送埠。</span><span class="sxs-lookup"><span data-stu-id="36e0a-179">Right-click the send port and click **Start** to start the send port.</span></span>  
   
-3.  以滑鼠右鍵按一下接收位置，然後按一下**啟用**啟用接收位置。  
+3.  <span data-ttu-id="36e0a-180">以滑鼠右鍵按一下接收位置，然後按一下**啟用**啟用接收位置。</span><span class="sxs-lookup"><span data-stu-id="36e0a-180">Right-click the receive location and click **Enable** to enable the receive location.</span></span>  
   
-4.  檢視事件記錄檔，以確認沒有 BizTalk Server 錯誤。  
+4.  <span data-ttu-id="36e0a-181">檢視事件記錄檔，以確認沒有 BizTalk Server 錯誤。</span><span class="sxs-lookup"><span data-stu-id="36e0a-181">Review the event log to verify that there are no BizTalk Server errors.</span></span>  
   
-## <a name="see-also"></a>另請參閱  
- [如何設定 MQSeries 配接器傳送和接收處理常式](../core/how-to-configure-mqseries-adapter-send-and-receive-handlers.md)   
- [設定 MQSeries 配接器](../core/configuring-the-mqseries-adapter.md)
+## <a name="see-also"></a><span data-ttu-id="36e0a-182">另請參閱</span><span class="sxs-lookup"><span data-stu-id="36e0a-182">See Also</span></span>  
+ <span data-ttu-id="36e0a-183">[如何設定 MQSeries 配接器傳送和接收處理常式](../core/how-to-configure-mqseries-adapter-send-and-receive-handlers.md) </span><span class="sxs-lookup"><span data-stu-id="36e0a-183">[How to Configure MQSeries Adapter Send and Receive Handlers](../core/how-to-configure-mqseries-adapter-send-and-receive-handlers.md) </span></span>  
+ [<span data-ttu-id="36e0a-184">設定 MQSeries 配接器</span><span class="sxs-lookup"><span data-stu-id="36e0a-184">Configuring the MQSeries Adapter</span></span>](../core/configuring-the-mqseries-adapter.md)

@@ -18,11 +18,11 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="developing-a-custom-referenced-functoid"></a>開發自訂參考運算質
-自訂參考運算質不會複製實作程式碼內嵌到對應中。 相反地，組件、類別和方法的參考會放入與產生之樣式表相關聯的延伸模組物件檔案，且在執行階段呼叫這些參考。  
+# <a name="developing-a-custom-referenced-functoid"></a><span data-ttu-id="18597-102">開發自訂參考運算質</span><span class="sxs-lookup"><span data-stu-id="18597-102">Developing a Custom Referenced Functoid</span></span>
+<span data-ttu-id="18597-103">自訂參考運算質不會複製實作程式碼內嵌到對應中。</span><span class="sxs-lookup"><span data-stu-id="18597-103">Custom referenced functoids do not copy implementation code inline into the map.</span></span> <span data-ttu-id="18597-104">相反地，組件、類別和方法的參考會放入與產生之樣式表相關聯的延伸模組物件檔案，且在執行階段呼叫這些參考。</span><span class="sxs-lookup"><span data-stu-id="18597-104">Instead, a reference to the assembly, class, and method is placed in the extension object file associated with the generated style sheet and called at run time.</span></span>  
   
-## <a name="example"></a>範例  
- 下列範例會示範如何建立自訂參考運算質來串連兩個字串。 它依賴包含三個字串資源以及一個 16x16 像素點陣圖資源的資源檔案。  
+## <a name="example"></a><span data-ttu-id="18597-105">範例</span><span class="sxs-lookup"><span data-stu-id="18597-105">Example</span></span>  
+ <span data-ttu-id="18597-106">下列範例會示範如何建立自訂參考運算質來串連兩個字串。</span><span class="sxs-lookup"><span data-stu-id="18597-106">The following example illustrates how to create a custom referenced functoid for concatenating two strings.</span></span> <span data-ttu-id="18597-107">它依賴包含三個字串資源以及一個 16x16 像素點陣圖資源的資源檔案。</span><span class="sxs-lookup"><span data-stu-id="18597-107">It relies on a resource file containing three string resources and a 16x16-pixel bitmap resource.</span></span>  
   
 ```  
 using System;  
@@ -83,8 +83,8 @@ namespace Microsoft.Samples.BizTalk.CustomFunctoid
 }  
 ```  
   
-## <a name="see-also"></a>另請參閱  
- [使用 BaseFunctoid](../core/using-basefunctoid.md)   
- [開發自訂內嵌運算質](../core/developing-a-custom-inline-functoid.md)   
- [開發自訂累計運算質](../core/developing-a-custom-cumulative-functoid.md)   
- [自訂運算質 （BizTalk Server 範例）](../core/custom-functoid-biztalk-server-sample.md)
+## <a name="see-also"></a><span data-ttu-id="18597-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="18597-108">See Also</span></span>  
+ <span data-ttu-id="18597-109">[使用 BaseFunctoid](../core/using-basefunctoid.md) </span><span class="sxs-lookup"><span data-stu-id="18597-109">[Using BaseFunctoid](../core/using-basefunctoid.md) </span></span>  
+ <span data-ttu-id="18597-110">[開發自訂內嵌運算質](../core/developing-a-custom-inline-functoid.md) </span><span class="sxs-lookup"><span data-stu-id="18597-110">[Developing a Custom Inline Functoid](../core/developing-a-custom-inline-functoid.md) </span></span>  
+ <span data-ttu-id="18597-111">[開發自訂累計運算質](../core/developing-a-custom-cumulative-functoid.md) </span><span class="sxs-lookup"><span data-stu-id="18597-111">[Developing a Custom Cumulative Functoid](../core/developing-a-custom-cumulative-functoid.md) </span></span>  
+ [<span data-ttu-id="18597-112">自訂運算質 （BizTalk Server 範例）</span><span class="sxs-lookup"><span data-stu-id="18597-112">Custom Functoid (BizTalk Server Sample)</span></span>](../core/custom-functoid-biztalk-server-sample.md)

@@ -18,19 +18,19 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="install-and-configure-fileact-and-interact-adapter-in-biztalk-server"></a>安裝並設定 FileAct 配接器在 BizTalk Server 中的互動
-安裝和設定[!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)]for SWIFT。  另請參閱一些範例訊息和安裝的已知的問題。
+# <a name="install-and-configure-fileact-and-interact-adapter-in-biztalk-server"></a><span data-ttu-id="99d3c-102">安裝並設定 FileAct 配接器在 BizTalk Server 中的互動</span><span class="sxs-lookup"><span data-stu-id="99d3c-102">Install and configure FileAct and InterAct adapter in BizTalk Server</span></span>
+<span data-ttu-id="99d3c-103">安裝和設定[!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)]for SWIFT。</span><span class="sxs-lookup"><span data-stu-id="99d3c-103">Install and configure the [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)] for SWIFT.</span></span>  <span data-ttu-id="99d3c-104">另請參閱一些範例訊息和安裝的已知的問題。</span><span class="sxs-lookup"><span data-stu-id="99d3c-104">Also see some samples messages, and known issues with the installation.</span></span>
   
-## <a name="topics-in-this-section"></a>本節主題：
+## <a name="topics-in-this-section"></a><span data-ttu-id="99d3c-105">本節主題：</span><span class="sxs-lookup"><span data-stu-id="99d3c-105">Topics in this section</span></span>
 
-- [FileAct 和 InterAct 配接器安裝](../../adapters-and-accelerators/fileact-interact/install-the-fileact-and-interact-adapter.md)  
+- [<span data-ttu-id="99d3c-106">FileAct 和 InterAct 配接器安裝</span><span class="sxs-lookup"><span data-stu-id="99d3c-106">Install the FileAct and InterAct adapter</span></span>](../../adapters-and-accelerators/fileact-interact/install-the-fileact-and-interact-adapter.md)  
 
-- [設定 FileAct 和 InterAct 配接器](../../adapters-and-accelerators/fileact-interact/configure-the-fileact-and-interact-adapter.md)
+- [<span data-ttu-id="99d3c-107">設定 FileAct 和 InterAct 配接器</span><span class="sxs-lookup"><span data-stu-id="99d3c-107">Configure the FileAct and InterAct adapter</span></span>](../../adapters-and-accelerators/fileact-interact/configure-the-fileact-and-interact-adapter.md)
 
-- [範例互動和 FileAct 訊息](../../adapters-and-accelerators/fileact-interact/sample-interact-and-fileact-messages.md)
+- [<span data-ttu-id="99d3c-108">範例互動和 FileAct 訊息</span><span class="sxs-lookup"><span data-stu-id="99d3c-108">Sample InterAct and FileAct messages</span></span>](../../adapters-and-accelerators/fileact-interact/sample-interact-and-fileact-messages.md)
 
-- [解除安裝或修復 FileAct 和 InterAct 配接器](../../adapters-and-accelerators/fileact-interact/uninstall-or-repair-the-fileact-and-interact-adapter.md)
+- [<span data-ttu-id="99d3c-109">解除安裝或修復 FileAct 和 InterAct 配接器</span><span class="sxs-lookup"><span data-stu-id="99d3c-109">Uninstall or repair the FileAct and InterAct adapter</span></span>](../../adapters-and-accelerators/fileact-interact/uninstall-or-repair-the-fileact-and-interact-adapter.md)
 
-- [請閱讀的已知問題的安裝](../../adapters-and-accelerators/fileact-interact/read-the-installation-known-issues.md)
+- [<span data-ttu-id="99d3c-110">請閱讀的已知問題的安裝</span><span class="sxs-lookup"><span data-stu-id="99d3c-110">Read the installation known issues</span></span>](../../adapters-and-accelerators/fileact-interact/read-the-installation-known-issues.md)
 
   

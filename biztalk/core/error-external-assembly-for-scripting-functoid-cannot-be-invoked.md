@@ -19,15 +19,15 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---external-assembly-for-scripting-functoid-cannot-be-invoked"></a>錯誤-指令碼處理運算質的外部組件無法叫用
-**錯誤碼**  
+# <a name="error---external-assembly-for-scripting-functoid-cannot-be-invoked"></a><span data-ttu-id="309fb-102">錯誤-指令碼處理運算質的外部組件無法叫用</span><span class="sxs-lookup"><span data-stu-id="309fb-102">Error - External Assembly for Scripting Functoid Cannot Be Invoked</span></span>
+<span data-ttu-id="309fb-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="309fb-103">**Error Code**</span></span>  
   
- btm1067  
+ <span data-ttu-id="309fb-104">btm1067</span><span class="sxs-lookup"><span data-stu-id="309fb-104">btm1067</span></span>  
   
- **說明**  
+ <span data-ttu-id="309fb-105">**說明**</span><span class="sxs-lookup"><span data-stu-id="309fb-105">**Explanation**</span></span>  
   
- 與相關聯的外部組件方法**指令碼處理**運算質無法叫用。 雖然對於對應編譯而言並非必要，「測試對應」作業要求「全域組件快取」(GAC) 中必須有該類外部組件存在。 一般而言，執行工作階段也要求 GAC 中必須有外部組件存在。  
+ <span data-ttu-id="309fb-106">與相關聯的外部組件方法**指令碼處理**運算質無法叫用。</span><span class="sxs-lookup"><span data-stu-id="309fb-106">The external assembly method that is associated with the relevant **Scripting** functoid cannot be invoked.</span></span> <span data-ttu-id="309fb-107">雖然對於對應編譯而言並非必要，「測試對應」作業要求「全域組件快取」(GAC) 中必須有該類外部組件存在。</span><span class="sxs-lookup"><span data-stu-id="309fb-107">Although not required for map compilation, the Test Map operation requires that such external assemblies be present in the global assembly cache (GAC).</span></span> <span data-ttu-id="309fb-108">一般而言，執行工作階段也要求 GAC 中必須有外部組件存在。</span><span class="sxs-lookup"><span data-stu-id="309fb-108">Normal, run time operation also requires that external assemblies be present in the GAC.</span></span>  
   
- **使用者動作**  
+ <span data-ttu-id="309fb-109">**使用者動作**</span><span class="sxs-lookup"><span data-stu-id="309fb-109">**User Action**</span></span>  
   
- 請確認參考相關的外部組件**指令碼處理**運算質是在 GAC 中。
+ <span data-ttu-id="309fb-110">請確認參考相關的外部組件**指令碼處理**運算質是在 GAC 中。</span><span class="sxs-lookup"><span data-stu-id="309fb-110">Ensure that the external assembly referenced by the relevant **Scripting** functoid is in the GAC.</span></span>

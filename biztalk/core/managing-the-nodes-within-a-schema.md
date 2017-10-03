@@ -18,13 +18,13 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="managing-the-nodes-within-a-schema"></a>管理結構描述中的節點
-在「BizTalk 編輯器」開啟結構描述進行編輯後，您將會執行數個工作，例如新增節點至結構描述樹狀結構、設定這些節點的屬性、檢查和變更現有節點的屬性等等。 本節提供執行各種這類工作的逐步說明。  
+# <a name="managing-the-nodes-within-a-schema"></a><span data-ttu-id="ece11-102">管理結構描述中的節點</span><span class="sxs-lookup"><span data-stu-id="ece11-102">Managing the Nodes Within a Schema</span></span>
+<span data-ttu-id="ece11-103">在「BizTalk 編輯器」開啟結構描述進行編輯後，您將會執行數個工作，例如新增節點至結構描述樹狀結構、設定這些節點的屬性、檢查和變更現有節點的屬性等等。</span><span class="sxs-lookup"><span data-stu-id="ece11-103">After you have a schema open for editing within BizTalk Editor, you will perform tasks like adding new nodes to the schema tree, setting properties on those nodes, examining and changing the properties of existing nodes, and so on.</span></span> <span data-ttu-id="ece11-104">本節提供執行各種這類工作的逐步說明。</span><span class="sxs-lookup"><span data-stu-id="ece11-104">This section provides step-by-step instructions for performing a variety of such tasks.</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="ece11-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="ece11-105">In This Section</span></span>  
   
--   [將節點插入結構描述](../core/inserting-nodes-into-a-schema.md)  
+-   [<span data-ttu-id="ece11-106">將節點插入結構描述</span><span class="sxs-lookup"><span data-stu-id="ece11-106">Inserting Nodes into a Schema</span></span>](../core/inserting-nodes-into-a-schema.md)  
   
--   [建立另一個節點或類型的參考](../core/how-to-create-references-to-another-node-or-type.md)  
+-   [<span data-ttu-id="ece11-107">建立另一個節點或類型的參考</span><span class="sxs-lookup"><span data-stu-id="ece11-107">Creating References to Another Node or Type</span></span>](../core/how-to-create-references-to-another-node-or-type.md)  
   
--   [使用現有的節點](../core/working-with-existing-nodes.md)
+-   [<span data-ttu-id="ece11-108">使用現有的節點</span><span class="sxs-lookup"><span data-stu-id="ece11-108">Working with Existing Nodes</span></span>](../core/working-with-existing-nodes.md)

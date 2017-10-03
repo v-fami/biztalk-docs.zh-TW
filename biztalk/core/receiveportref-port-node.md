@@ -19,12 +19,12 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="receiveportref-port-node"></a>ReceivePortRef (連接埠節點)
-繫結檔案連接埠節點的 ReceivePortRef 節點包含與服務所參考之接收埠有關的資訊。  
+# <a name="receiveportref-port-node"></a><span data-ttu-id="bd842-102">ReceivePortRef (連接埠節點)</span><span class="sxs-lookup"><span data-stu-id="bd842-102">ReceivePortRef (Port Node)</span></span>
+<span data-ttu-id="bd842-103">繫結檔案連接埠節點的 ReceivePortRef 節點包含與服務所參考之接收埠有關的資訊。</span><span class="sxs-lookup"><span data-stu-id="bd842-103">The ReceivePortRef node of the Port node of a binding file contains information about a receive port that is referenced by a service.</span></span>  
   
-## <a name="nodes-in-the-receiveportref-node"></a>ReceivePortRef 節點中的節點  
- 下表列出可以為繫結檔案中的這個節點設定的屬性：  
+## <a name="nodes-in-the-receiveportref-node"></a><span data-ttu-id="bd842-104">ReceivePortRef 節點中的節點</span><span class="sxs-lookup"><span data-stu-id="bd842-104">Nodes in the ReceivePortRef node</span></span>  
+ <span data-ttu-id="bd842-105">下表列出可以為繫結檔案中的這個節點設定的屬性：</span><span class="sxs-lookup"><span data-stu-id="bd842-105">The following table lists the properties that can be set for this node of a binding file:</span></span>  
   
-|**名稱**|**節點類型**|**資料類型**|**說明**|**限制**|**註解**|  
+|<span data-ttu-id="bd842-106">**名稱**</span><span class="sxs-lookup"><span data-stu-id="bd842-106">**Name**</span></span>|<span data-ttu-id="bd842-107">**節點類型**</span><span class="sxs-lookup"><span data-stu-id="bd842-107">**Node Type**</span></span>|<span data-ttu-id="bd842-108">**資料類型**</span><span class="sxs-lookup"><span data-stu-id="bd842-108">**Data Type**</span></span>|<span data-ttu-id="bd842-109">**說明**</span><span class="sxs-lookup"><span data-stu-id="bd842-109">**Description**</span></span>|<span data-ttu-id="bd842-110">**限制**</span><span class="sxs-lookup"><span data-stu-id="bd842-110">**Restrictions**</span></span>|<span data-ttu-id="bd842-111">**註解**</span><span class="sxs-lookup"><span data-stu-id="bd842-111">**Comments**</span></span>|  
 |--------------|-------------------|-------------------|---------------------|----------------------|------------------|  
-|名稱|Attribute|xs:string|指定服務所參考之接收埠的名稱。|不需要|預設值：空白|
+|<span data-ttu-id="bd842-112">名稱</span><span class="sxs-lookup"><span data-stu-id="bd842-112">Name</span></span>|<span data-ttu-id="bd842-113">Attribute</span><span class="sxs-lookup"><span data-stu-id="bd842-113">Attribute</span></span>|<span data-ttu-id="bd842-114">xs:string</span><span class="sxs-lookup"><span data-stu-id="bd842-114">xs:string</span></span>|<span data-ttu-id="bd842-115">指定服務所參考之接收埠的名稱。</span><span class="sxs-lookup"><span data-stu-id="bd842-115">Specifies the name of a receive port that is referenced by a service.</span></span>|<span data-ttu-id="bd842-116">不需要</span><span class="sxs-lookup"><span data-stu-id="bd842-116">Not required</span></span>|<span data-ttu-id="bd842-117">預設值：空白</span><span class="sxs-lookup"><span data-stu-id="bd842-117">Default value: empty</span></span>|

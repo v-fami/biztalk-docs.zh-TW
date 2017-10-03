@@ -19,12 +19,12 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="preparing-to-use-the-tutorial"></a>準備使用本教學課程
-使用本教學課程之前，您需要建立 ADT^A03.txt 檔案。  
+# <a name="preparing-to-use-the-tutorial"></a><span data-ttu-id="c0791-102">準備使用本教學課程</span><span class="sxs-lookup"><span data-stu-id="c0791-102">Preparing to Use the Tutorial</span></span>
+<span data-ttu-id="c0791-103">使用本教學課程之前，您需要建立 ADT^A03.txt 檔案。</span><span class="sxs-lookup"><span data-stu-id="c0791-103">Before you use the tutorial, you need to create an ADT^A03.txt file.</span></span>  
   
-### <a name="to-create-the-adta03txt-file"></a>若要建立 ADT^A03.txt 檔案  
+### <a name="to-create-the-adta03txt-file"></a><span data-ttu-id="c0791-104">若要建立 ADT^A03.txt 檔案</span><span class="sxs-lookup"><span data-stu-id="c0791-104">To create the ADT^A03.txt file</span></span>  
   
-1.  開啟編輯器，例如 [記事本]，並將下列文字複製到編輯器：  
+1.  <span data-ttu-id="c0791-105">開啟編輯器，例如 [記事本]，並將下列文字複製到編輯器：</span><span class="sxs-lookup"><span data-stu-id="c0791-105">Open an editor such as Notepad and copy the following text into the editor:</span></span>  
   
     ```  
     MSH|^~\&|Tutorial_ADTSystem|MCM|BTAHL7InterfaceEngine||199601121005||ADT^A03|000001|P|2.3.1  
@@ -40,8 +40,8 @@ ms.lasthandoff: 09/20/2017
     ```  
   
     > [!NOTE]
-    >  應該要有五行在.txt 檔案，其中每一個開頭為"MSH"、"EVN"、"PID"、"PD1 」 和 「 PV1"。 您必須移除"PID"線條與 「 PD1 」 內的空格。 如果有必要，請關閉 [記事本] 中的自動換行。  
+    >  <span data-ttu-id="c0791-106">應該要有五行在.txt 檔案，其中每一個開頭為"MSH"、"EVN"、"PID"、"PD1 」 和 「 PV1"。</span><span class="sxs-lookup"><span data-stu-id="c0791-106">There should be five lines in the .txt file, one each starting with "MSH", "EVN", "PID", "PD1", and "PV1".</span></span> <span data-ttu-id="c0791-107">您必須移除"PID"線條與 「 PD1 」 內的空格。</span><span class="sxs-lookup"><span data-stu-id="c0791-107">You will need to remove the spaces within the "PID" line and the "PD1" line.</span></span> <span data-ttu-id="c0791-108">如果有必要，請關閉 [記事本] 中的自動換行。</span><span class="sxs-lookup"><span data-stu-id="c0791-108">If necessary, turn off word wrap in Notepad.</span></span>  
   
-2.  將檔案儲存為**ADT^A03.txt**中\<*磁碟機*>: \Program Files\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk\<版本 > Accelerator for HL7\SDK\End 端對端教學課程的資料夾，然後關閉 [記事本]。  
+2.  <span data-ttu-id="c0791-109">將檔案儲存為**ADT^A03.txt**中\<*磁碟機*>: \Program Files\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk\<版本 > Accelerator for HL7\SDK\End 端對端教學課程的資料夾，然後關閉 [記事本]。</span><span class="sxs-lookup"><span data-stu-id="c0791-109">Save the file as **ADT^A03.txt** in the \<*drive*>:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<version> Accelerator for HL7\SDK\End-to-End Tutorial folder, and then close Notepad.</span></span>  
   
- 若要繼續[步驟 1： 建立及部署標頭和通知結構描述](../../adapters-and-accelerators/accelerator-hl7/step-1-create-and-deploy-header-and-acknowledgment-schemas.md)。
+ <span data-ttu-id="c0791-110">若要繼續[步驟 1： 建立及部署標頭和通知結構描述](../../adapters-and-accelerators/accelerator-hl7/step-1-create-and-deploy-header-and-acknowledgment-schemas.md)。</span><span class="sxs-lookup"><span data-stu-id="c0791-110">Proceed to [Step 1: Create and Deploy Header and Acknowledgment Schemas](../../adapters-and-accelerators/accelerator-hl7/step-1-create-and-deploy-header-and-acknowledgment-schemas.md).</span></span>

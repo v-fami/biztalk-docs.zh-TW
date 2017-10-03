@@ -18,8 +18,8 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="get-more-samples"></a>取得其他範例
-新的範例可在 MSDN 開發人員中心[http://go.microsoft.com/fwlink/?LinkId=65185](http://go.microsoft.com/fwlink/?LinkId=65185)。  
+# <a name="get-more-samples"></a><span data-ttu-id="344d2-102">取得其他範例</span><span class="sxs-lookup"><span data-stu-id="344d2-102">Get More Samples</span></span>
+<span data-ttu-id="344d2-103">新的範例可在 MSDN 開發人員中心[http://go.microsoft.com/fwlink/?LinkId=65185](http://go.microsoft.com/fwlink/?LinkId=65185)。</span><span class="sxs-lookup"><span data-stu-id="344d2-103">New samples are available at the MSDN Developer Center at [http://go.microsoft.com/fwlink/?LinkId=65185](http://go.microsoft.com/fwlink/?LinkId=65185).</span></span>  
   
-## <a name="see-also"></a>另請參閱  
- [SDK 中的範例](../core/samples-in-the-sdk.md)
+## <a name="see-also"></a><span data-ttu-id="344d2-104">另請參閱</span><span class="sxs-lookup"><span data-stu-id="344d2-104">See Also</span></span>  
+ [<span data-ttu-id="344d2-105">SDK 中的範例</span><span class="sxs-lookup"><span data-stu-id="344d2-105">Samples in the SDK</span></span>](../core/samples-in-the-sdk.md)

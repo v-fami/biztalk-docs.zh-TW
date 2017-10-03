@@ -21,16 +21,16 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="biztalk-server-architecture"></a>BizTalk Server 架構
-本節提供有關 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 架構與內部運作的詳細資訊。  
+# <a name="biztalk-server-architecture"></a><span data-ttu-id="9d552-102">BizTalk Server 架構</span><span class="sxs-lookup"><span data-stu-id="9d552-102">BizTalk Server Architecture</span></span>
+<span data-ttu-id="9d552-103">本節提供有關 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 架構與內部運作的詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="9d552-103">This section provides detailed information on the architecture and internal workings of Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="9d552-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="9d552-104">In This Section</span></span>  
   
--   [執行階段架構](../core/runtime-architecture.md)  
+-   [<span data-ttu-id="9d552-105">執行階段架構</span><span class="sxs-lookup"><span data-stu-id="9d552-105">Runtime Architecture</span></span>](../core/runtime-architecture.md)  
   
--   [管理與追蹤架構](../core/management-and-tracking-architecture.md)  
+-   [<span data-ttu-id="9d552-106">管理與追蹤架構</span><span class="sxs-lookup"><span data-stu-id="9d552-106">Management and Tracking Architecture</span></span>](../core/management-and-tracking-architecture.md)  
   
--   [EDI 和 AS2 方案架構](../core/edi-and-as2-solution-architecture.md)  
+-   [<span data-ttu-id="9d552-107">EDI 和 AS2 方案架構</span><span class="sxs-lookup"><span data-stu-id="9d552-107">EDI and AS2 Solution Architecture</span></span>](../core/edi-and-as2-solution-architecture.md)  
   
 
    

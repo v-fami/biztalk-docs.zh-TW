@@ -19,15 +19,15 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---native-parsing"></a>錯誤-原生剖析
-**錯誤碼**  
+# <a name="error---native-parsing"></a><span data-ttu-id="51f35-102">錯誤-原生剖析</span><span class="sxs-lookup"><span data-stu-id="51f35-102">Error - Native Parsing</span></span>
+<span data-ttu-id="51f35-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="51f35-103">**Error Code**</span></span>  
   
- btm1041  
+ <span data-ttu-id="51f35-104">btm1041</span><span class="sxs-lookup"><span data-stu-id="51f35-104">btm1041</span></span>  
   
- **說明**  
+ <span data-ttu-id="51f35-105">**說明**</span><span class="sxs-lookup"><span data-stu-id="51f35-105">**Explanation**</span></span>  
   
- 無法剖析針對「測試對應」作業指定的原生輸入執行個體訊息檔案，且發生指出的剖析錯誤。  
+ <span data-ttu-id="51f35-106">無法剖析針對「測試對應」作業指定的原生輸入執行個體訊息檔案，且發生指出的剖析錯誤。</span><span class="sxs-lookup"><span data-stu-id="51f35-106">The native input instance message file specified for the Test Map operation could not be parsed, and generated the indicated parsing error.</span></span>  
   
- **使用者動作**  
+ <span data-ttu-id="51f35-107">**使用者動作**</span><span class="sxs-lookup"><span data-stu-id="51f35-107">**User Action**</span></span>  
   
- 視需要使用指出的剖析錯誤，更正指定檔案中，與對應關聯的來源結構描述或原生輸入執行個體訊息，或兩者。
+ <span data-ttu-id="51f35-108">視需要使用指出的剖析錯誤，更正指定檔案中，與對應關聯的來源結構描述或原生輸入執行個體訊息，或兩者。</span><span class="sxs-lookup"><span data-stu-id="51f35-108">As appropriate, and using the indicated parsing error, correct either the source schema associated with the map or the native input instance message in the specified file, or both.</span></span>

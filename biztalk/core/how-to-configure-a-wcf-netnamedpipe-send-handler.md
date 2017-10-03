@@ -23,25 +23,25 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="how-to-configure-a-wcf-netnamedpipe-send-handler"></a>如何設定 WCF-NetNamedPipe 傳送處理常式
-請使用下列程序設定 WCF-NetNamedPipe 傳送處理常式。  
+# <a name="how-to-configure-a-wcf-netnamedpipe-send-handler"></a><span data-ttu-id="2b484-102">如何設定 WCF-NetNamedPipe 傳送處理常式</span><span class="sxs-lookup"><span data-stu-id="2b484-102">How to Configure a WCF-NetNamedPipe Send Handler</span></span>
+<span data-ttu-id="2b484-103">請使用下列程序設定 WCF-NetNamedPipe 傳送處理常式。</span><span class="sxs-lookup"><span data-stu-id="2b484-103">Use the following procedure to configure a WCF-NetNamedPipe send handler.</span></span>  
   
-### <a name="to-change-global-variables-for-a-wcf-netnamedpipe-send-handler"></a>若要變更 WCF-NetNamedPipe 傳送處理常式的全域變數  
+### <a name="to-change-global-variables-for-a-wcf-netnamedpipe-send-handler"></a><span data-ttu-id="2b484-104">若要變更 WCF-NetNamedPipe 傳送處理常式的全域變數</span><span class="sxs-lookup"><span data-stu-id="2b484-104">To change global variables for a WCF-NetNamedPipe send handler</span></span>  
   
-1.  在 BizTalk Server 管理主控台中，展開  [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **管理**，依序展開**BizTalk 群組**，依序展開**平台設定**，然後展開  **配接器**。  
+1.  <span data-ttu-id="2b484-105">在 BizTalk Server 管理主控台中，展開  [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **管理**，依序展開**BizTalk 群組**，依序展開**平台設定**，然後展開  **配接器**。</span><span class="sxs-lookup"><span data-stu-id="2b484-105">In the BizTalk Server Administration console, expand [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **Administration**, expand **BizTalk Group**, expand **Platform Settings**, and then expand **Adapters**.</span></span>  
   
-2.  在展開的配接器清單中，按一下  **Wcf-netnamedpipe**，在右窗格，以滑鼠右鍵按一下您想要設定的傳送處理常式，然後按一下**屬性**。  
+2.  <span data-ttu-id="2b484-106">在展開的配接器清單中，按一下  **Wcf-netnamedpipe**，在右窗格，以滑鼠右鍵按一下您想要設定的傳送處理常式，然後按一下**屬性**。</span><span class="sxs-lookup"><span data-stu-id="2b484-106">In the expanded adapter list, click **WCF-NetNamedPipe**, in the right pane, right-click the send handler that you want to configure, and then click **Properties**.</span></span>  
   
-3.  在**配接器處理常式屬性**對話方塊**一般**索引標籤的**主機名稱**清單中，選取與其相關聯的傳送處理常式的主機。  
+3.  <span data-ttu-id="2b484-107">在**配接器處理常式屬性**對話方塊**一般**索引標籤的**主機名稱**清單中，選取與其相關聯的傳送處理常式的主機。</span><span class="sxs-lookup"><span data-stu-id="2b484-107">In the **Adapter Handler Properties** dialog box, on the **General** tab, in the **Host Name** list, select the host with which the send handler will be associated.</span></span>  
   
-4.  在**一般**索引標籤上，按一下 **屬性**。 在**傳送處理常式**索引標籤上，執行下列動作：  
+4.  <span data-ttu-id="2b484-108">在**一般**索引標籤上，按一下 **屬性**。</span><span class="sxs-lookup"><span data-stu-id="2b484-108">In the **General** tab, click **Properties**.</span></span> <span data-ttu-id="2b484-109">在**傳送處理常式**索引標籤上，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="2b484-109">On the **Send handler** tab, do the following:</span></span>  
   
-    |使用|動作|  
+    |<span data-ttu-id="2b484-110">使用</span><span class="sxs-lookup"><span data-stu-id="2b484-110">Use this</span></span>|<span data-ttu-id="2b484-111">動作</span><span class="sxs-lookup"><span data-stu-id="2b484-111">To do this</span></span>|  
     |--------------|----------------|  
-    |**連線數目上限**|指定快取在連接集區中的每個端點之輸出連線最大數目。 這會限制每個唯一遠端端點快取中的連線數目。 您應該將這個值設定為大於您預計要為任何特定遠端端點快取存放的最大連線數。 如果作用中輸出連線數目超過這個最大值，則對於在此傳送處理常式下執行的 WCF-NetNamedPipe 傳送埠，服務可能會顯得反應遲緩。<br /><br /> 預設值是 10。|  
+    |<span data-ttu-id="2b484-112">**連線數目上限**</span><span class="sxs-lookup"><span data-stu-id="2b484-112">**Maximum connections**</span></span>|<span data-ttu-id="2b484-113">指定快取在連接集區中的每個端點之輸出連線最大數目。</span><span class="sxs-lookup"><span data-stu-id="2b484-113">Specify the maximum number of outbound connections for each endpoint that is cached in the connection pool.</span></span> <span data-ttu-id="2b484-114">這會限制每個唯一遠端端點快取中的連線數目。</span><span class="sxs-lookup"><span data-stu-id="2b484-114">This limits the number of connections that are cached for each unique remote endpoint.</span></span> <span data-ttu-id="2b484-115">您應該將這個值設定為大於您預計要為任何特定遠端端點快取存放的最大連線數。</span><span class="sxs-lookup"><span data-stu-id="2b484-115">You should set this value to be greater than the maximum number of connections that you expect to be cached for any unique remote endpoint.</span></span> <span data-ttu-id="2b484-116">如果作用中輸出連線數目超過這個最大值，則對於在此傳送處理常式下執行的 WCF-NetNamedPipe 傳送埠，服務可能會顯得反應遲緩。</span><span class="sxs-lookup"><span data-stu-id="2b484-116">If the number of active outbound connections exceeds this maximum value, then the service may appear unresponsive to the WCF-NetNamedPipe send ports running under this send hander.</span></span><br /><br /> <span data-ttu-id="2b484-117">預設值是 10。</span><span class="sxs-lookup"><span data-stu-id="2b484-117">The default is 10.</span></span>|  
   
-5.  按一下 **[確定]**。  
+5.  <span data-ttu-id="2b484-118">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="2b484-118">Click **OK**.</span></span>  
   
-## <a name="see-also"></a>另請參閱  
- [使用 WCF 服務](../core/consuming-wcf-services.md)   
- [設定 Wcf-netnamedpipe 配接器](../core/configuring-the-wcf-netnamedpipe-adapter.md)
+## <a name="see-also"></a><span data-ttu-id="2b484-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="2b484-119">See Also</span></span>  
+ <span data-ttu-id="2b484-120">[使用 WCF 服務](../core/consuming-wcf-services.md) </span><span class="sxs-lookup"><span data-stu-id="2b484-120">[Consuming WCF Services](../core/consuming-wcf-services.md) </span></span>  
+ [<span data-ttu-id="2b484-121">設定 Wcf-netnamedpipe 配接器</span><span class="sxs-lookup"><span data-stu-id="2b484-121">Configuring the WCF-NetNamedPipe Adapter</span></span>](../core/configuring-the-wcf-netnamedpipe-adapter.md)

@@ -19,17 +19,17 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="message-versioning-support"></a>訊息版本控制支援
-[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]訊息動作、 命名空間和節點識別碼中包含的版本字串元件的支援版本控制作業中顯示。 目前的版本是 http://Microsoft.LobServices.Sap/2007/03。 這表示名為"RFC_SAMPLE"rfc，配接器所顯示的 RFC 作業具有下列：  
+# <a name="message-versioning-support"></a><span data-ttu-id="49954-102">訊息版本控制支援</span><span class="sxs-lookup"><span data-stu-id="49954-102">Message Versioning Support</span></span>
+<span data-ttu-id="49954-103">[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]訊息動作、 命名空間和節點識別碼中包含的版本字串元件的支援版本控制作業中顯示。</span><span class="sxs-lookup"><span data-stu-id="49954-103">The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] supports versioning by including a version string component in the message actions, namespaces, and node IDs surfaced for operations.</span></span> <span data-ttu-id="49954-104">目前的版本是 http://Microsoft.LobServices.Sap/2007/03。</span><span class="sxs-lookup"><span data-stu-id="49954-104">The current version is http://Microsoft.LobServices.Sap/2007/03.</span></span> <span data-ttu-id="49954-105">這表示名為"RFC_SAMPLE"rfc，配接器所顯示的 RFC 作業具有下列：</span><span class="sxs-lookup"><span data-stu-id="49954-105">This means that for an RFC named "RFC_SAMPLE", the RFC operation surfaced by the adapter has the following:</span></span>  
   
--   節點 ID: http://Microsoft.LobServices.Sap/2007/03/Rfc/RFC_SAMPLE  
+-   <span data-ttu-id="49954-106">節點 ID: http://Microsoft.LobServices.Sap/2007/03/Rfc/RFC_SAMPLE</span><span class="sxs-lookup"><span data-stu-id="49954-106">Node ID: http://Microsoft.LobServices.Sap/2007/03/Rfc/RFC_SAMPLE</span></span>  
   
--   訊息的動作： http://Microsoft.LobServices.Sap/2007/03/Rfc/RFC_SAMPLE  
+-   <span data-ttu-id="49954-107">訊息的動作： http://Microsoft.LobServices.Sap/2007/03/Rfc/RFC_SAMPLE</span><span class="sxs-lookup"><span data-stu-id="49954-107">Message action: http://Microsoft.LobServices.Sap/2007/03/Rfc/RFC_SAMPLE</span></span>  
   
--   命名空間： http://Microsoft.LobServices.Sap/2007/03/Rfc  
+-   <span data-ttu-id="49954-108">命名空間： http://Microsoft.LobServices.Sap/2007/03/Rfc</span><span class="sxs-lookup"><span data-stu-id="49954-108">Namespace: http://Microsoft.LobServices.Sap/2007/03/Rfc</span></span>  
   
 > [!NOTE]
->  這項功能不提供與舊版配接器的回溯相容性。  
+>  <span data-ttu-id="49954-109">這項功能不提供與舊版配接器的回溯相容性。</span><span class="sxs-lookup"><span data-stu-id="49954-109">This feature does not provide backward compatibility with the earlier versions of the adapter.</span></span>  
   
-## <a name="see-also"></a>另請參閱  
- [訊息和訊息結構描述，BizTalk adapter for mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/messages-and-message-schemas-for-biztalk-adapter-for-mysap-business-suite.md)
+## <a name="see-also"></a><span data-ttu-id="49954-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="49954-110">See Also</span></span>  
+ [<span data-ttu-id="49954-111">訊息和訊息結構描述，BizTalk adapter for mySAP Business Suite</span><span class="sxs-lookup"><span data-stu-id="49954-111">Messages and Message Schemas for BizTalk Adapter for mySAP Business Suite</span></span>](../../adapters-and-accelerators/adapter-sap/messages-and-message-schemas-for-biztalk-adapter-for-mysap-business-suite.md)

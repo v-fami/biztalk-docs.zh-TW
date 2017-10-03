@@ -19,9 +19,9 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="planning-and-architecture"></a>規劃和架構
-本節討論您在設定 JD Edwards EnterpriseOne 以便搭配 Microsoft BizTalk Adapter for JD Edwards EnterpriseOne 使用時可能會遇到的規劃與架構問題。  
+# <a name="planning-and-architecture"></a><span data-ttu-id="e4489-102">規劃和架構</span><span class="sxs-lookup"><span data-stu-id="e4489-102">Planning and Architecture</span></span>
+<span data-ttu-id="e4489-103">本節討論您在設定 JD Edwards EnterpriseOne 以便搭配 Microsoft BizTalk Adapter for JD Edwards EnterpriseOne 使用時可能會遇到的規劃與架構問題。</span><span class="sxs-lookup"><span data-stu-id="e4489-103">This section discusses planning and architecture issues you might encounter while setting up JD Edwards EnterpriseOne for use with Microsoft BizTalk Adapter for JD Edwards EnterpriseOne.</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="e4489-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="e4489-104">In This Section</span></span>  
   
--   [架構](../core/architecture-of-biztalk-adapter-for-jd-edwards-enterpriseone.md)
+-   [<span data-ttu-id="e4489-105">架構</span><span class="sxs-lookup"><span data-stu-id="e4489-105">Architecture</span></span>](../core/architecture-of-biztalk-adapter-for-jd-edwards-enterpriseone.md)

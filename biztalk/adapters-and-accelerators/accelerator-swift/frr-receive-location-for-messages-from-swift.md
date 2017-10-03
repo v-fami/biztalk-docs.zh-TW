@@ -21,15 +21,15 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="frr-receive-location-for-messages-from-swift"></a>FRR 來自 SWIFT 接收訊息的位置
-若要啟用 FIN 回應對帳 (FRR)，您必須設定 FRR 接收管線元件從 SAA 接收訊息，並準備處理[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]。 接收管線包含下列元件：  
+# <a name="frr-receive-location-for-messages-from-swift"></a><span data-ttu-id="5ee50-102">FRR 來自 SWIFT 接收訊息的位置</span><span class="sxs-lookup"><span data-stu-id="5ee50-102">FRR Receive Location for Messages from SWIFT</span></span>
+<span data-ttu-id="5ee50-103">若要啟用 FIN 回應對帳 (FRR)，您必須設定 FRR 接收管線元件從 SAA 接收訊息，並準備處理[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="5ee50-103">To enable FIN response reconciliation (FRR), you must set up an FRR receive pipeline component to receive a message from SAA and prepare it for processing by [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)].</span></span> <span data-ttu-id="5ee50-104">接收管線包含下列元件：</span><span class="sxs-lookup"><span data-stu-id="5ee50-104">The receive pipeline contains the following components:</span></span>  
   
--   「 解譯 」 階段中的 SWIFT 解譯器  
+-   <span data-ttu-id="5ee50-105">「 解譯 」 階段中的 SWIFT 解譯器</span><span class="sxs-lookup"><span data-stu-id="5ee50-105">The SWIFT disassembler in the Disassemble stage</span></span>  
   
--   SWIFT FRR 解碼器管線元件中的解碼器階段  
+-   <span data-ttu-id="5ee50-106">SWIFT FRR 解碼器管線元件中的解碼器階段</span><span class="sxs-lookup"><span data-stu-id="5ee50-106">The SWIFT FRR Decoder pipeline component in the Decoder stage</span></span>  
   
--   SWIFT FRR CorrelationSet 解決器管線元件中的合作對象解析階段  
+-   <span data-ttu-id="5ee50-107">SWIFT FRR CorrelationSet 解決器管線元件中的合作對象解析階段</span><span class="sxs-lookup"><span data-stu-id="5ee50-107">The SWIFT FRR CorrelationSet Resolver pipeline component in the Party Resolution stage</span></span>  
   
- 當[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]接收取景位置調整/NAN、 SWIFT FRR 解碼器讀取 MQ 意見反應內容屬性來判斷回應是 PAN 或 NAN。 它會設定傳輸無從驗證[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]_FRRTransportLevelAck 布林值的移動瀏覽或 false 的 NAN 值為 true。  
+ <span data-ttu-id="5ee50-108">當[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]接收取景位置調整/NAN、 SWIFT FRR 解碼器讀取 MQ 意見反應內容屬性來判斷回應是 PAN 或 NAN。</span><span class="sxs-lookup"><span data-stu-id="5ee50-108">When [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] receives a PAN/NAN, SWIFT FRR Decoder reads the MQ Feedback context property to determine whether the response is a PAN or a NAN.</span></span> <span data-ttu-id="5ee50-109">它會設定傳輸無從驗證[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]_FRRTransportLevelAck 布林值的移動瀏覽或 false 的 NAN 值為 true。</span><span class="sxs-lookup"><span data-stu-id="5ee50-109">It sets the transport-agnostic [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]_FRRTransportLevelAck Boolean values to true for a PAN or false for a NAN.</span></span>  
   
- SWIFT FRR CorrelationSet 解決器管線元件會覆寫回應訊息的 FRRCorrelationToken 屬性 FRR 協調流程使用，MQMD 中的值。CorrelId 屬性。
+ <span data-ttu-id="5ee50-110">SWIFT FRR CorrelationSet 解決器管線元件會覆寫回應訊息的 FRRCorrelationToken 屬性 FRR 協調流程使用，MQMD 中的值。CorrelId 屬性。</span><span class="sxs-lookup"><span data-stu-id="5ee50-110">The SWIFT FRR CorrelationSet Resolver pipeline component overwrites the response message's FRRCorrelationToken property, which the FRR orchestration uses, with the value in the MQMD.CorrelId property.</span></span>

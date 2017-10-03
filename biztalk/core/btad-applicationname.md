@@ -19,9 +19,9 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="btadapplicationname"></a>BTAD_ApplicationName
-BTAD_ApplicationName 包含 BizTalk 應用程式的名稱。  
+# <a name="btadapplicationname"></a><span data-ttu-id="eef4d-102">BTAD_ApplicationName</span><span class="sxs-lookup"><span data-stu-id="eef4d-102">BTAD_ApplicationName</span></span>
+<span data-ttu-id="eef4d-103">BTAD_ApplicationName 包含 BizTalk 應用程式的名稱。</span><span class="sxs-lookup"><span data-stu-id="eef4d-103">BTAD_ApplicationName contains the name of the BizTalk application.</span></span>  
   
-## <a name="see-also"></a>另請參閱  
- [前置和後置處理指令碼環境變數](../core/pre-and-post-processing-script-environment-variables.md)   
- [環境變數如何指示部署狀態](../core/how-environment-variables-indicate-deployment-state.md)
+## <a name="see-also"></a><span data-ttu-id="eef4d-104">另請參閱</span><span class="sxs-lookup"><span data-stu-id="eef4d-104">See Also</span></span>  
+ <span data-ttu-id="eef4d-105">[前置和後置處理指令碼環境變數](../core/pre-and-post-processing-script-environment-variables.md) </span><span class="sxs-lookup"><span data-stu-id="eef4d-105">[Pre- and Post-processing Script Environment Variables](../core/pre-and-post-processing-script-environment-variables.md) </span></span>  
+ [<span data-ttu-id="eef4d-106">環境變數如何指示部署狀態</span><span class="sxs-lookup"><span data-stu-id="eef4d-106">How Environment Variables Indicate Deployment State</span></span>](../core/how-environment-variables-indicate-deployment-state.md)
