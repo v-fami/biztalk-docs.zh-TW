@@ -18,21 +18,21 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="single-sign-on-event-10613"></a>單一登入： 事件 10613
-## <a name="details"></a>詳細資料  
+# <a name="single-sign-on-event-10613"></a><span data-ttu-id="89d19-102">單一登入： 事件 10613</span><span class="sxs-lookup"><span data-stu-id="89d19-102">Single Sign-On: Event 10613</span></span>
+## <a name="details"></a><span data-ttu-id="89d19-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="89d19-103">Details</span></span>  
   
 |||  
 |-|-|  
-|產品名稱|企業單一登入|  
-|產品版本|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|事件識別碼|10613|  
-|事件來源|ENTSSO|  
-|元件|不適用|  
-|符號名稱|SSO_ERROR_RPC_CALLBACK|  
-|訊息文字|SSO 伺服器存取遭拒。%r<br /><br /> 用戶端使用者: %1 %r<br /><br /> RPC 呼叫資訊: %2: %3 %r<br /><br /> 錯誤碼： %4|  
+|<span data-ttu-id="89d19-104">產品名稱</span><span class="sxs-lookup"><span data-stu-id="89d19-104">Product Name</span></span>|<span data-ttu-id="89d19-105">企業單一登入</span><span class="sxs-lookup"><span data-stu-id="89d19-105">Enterprise Single Sign-On</span></span>|  
+|<span data-ttu-id="89d19-106">產品版本</span><span class="sxs-lookup"><span data-stu-id="89d19-106">Product Version</span></span>|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
+|<span data-ttu-id="89d19-107">事件識別碼</span><span class="sxs-lookup"><span data-stu-id="89d19-107">Event ID</span></span>|<span data-ttu-id="89d19-108">10613</span><span class="sxs-lookup"><span data-stu-id="89d19-108">10613</span></span>|  
+|<span data-ttu-id="89d19-109">事件來源</span><span class="sxs-lookup"><span data-stu-id="89d19-109">Event Source</span></span>|<span data-ttu-id="89d19-110">ENTSSO</span><span class="sxs-lookup"><span data-stu-id="89d19-110">ENTSSO</span></span>|  
+|<span data-ttu-id="89d19-111">元件</span><span class="sxs-lookup"><span data-stu-id="89d19-111">Component</span></span>|<span data-ttu-id="89d19-112">不適用</span><span class="sxs-lookup"><span data-stu-id="89d19-112">N/A</span></span>|  
+|<span data-ttu-id="89d19-113">符號名稱</span><span class="sxs-lookup"><span data-stu-id="89d19-113">Symbolic Name</span></span>|<span data-ttu-id="89d19-114">SSO_ERROR_RPC_CALLBACK</span><span class="sxs-lookup"><span data-stu-id="89d19-114">SSO_ERROR_RPC_CALLBACK</span></span>|  
+|<span data-ttu-id="89d19-115">訊息文字</span><span class="sxs-lookup"><span data-stu-id="89d19-115">Message Text</span></span>|<span data-ttu-id="89d19-116">SSO 伺服器存取遭拒。%r</span><span class="sxs-lookup"><span data-stu-id="89d19-116">SSO server access denied.%r</span></span><br /><br /> <span data-ttu-id="89d19-117">用戶端使用者: %1 %r</span><span class="sxs-lookup"><span data-stu-id="89d19-117">Client User: %1%r</span></span><br /><br /> <span data-ttu-id="89d19-118">RPC 呼叫資訊: %2: %3 %r</span><span class="sxs-lookup"><span data-stu-id="89d19-118">RPC call information: %2:%3%r</span></span><br /><br /> <span data-ttu-id="89d19-119">錯誤碼： %4</span><span class="sxs-lookup"><span data-stu-id="89d19-119">Error Code: %4</span></span>|  
   
-## <a name="explanation"></a>說明  
- 呼叫已從用戶端對 SSO 伺服器，但不是被接受。 原因可能是由數種不同原因，例如不正確的通訊協定或用戶端上沒有足夠的安全性權限。  
+## <a name="explanation"></a><span data-ttu-id="89d19-120">說明</span><span class="sxs-lookup"><span data-stu-id="89d19-120">Explanation</span></span>  
+ <span data-ttu-id="89d19-121">呼叫已從用戶端對 SSO 伺服器，但不是被接受。</span><span class="sxs-lookup"><span data-stu-id="89d19-121">A call was made from a client to the SSO Server but was not accepted.</span></span> <span data-ttu-id="89d19-122">原因可能是由數種不同原因，例如不正確的通訊協定或用戶端上沒有足夠的安全性權限。</span><span class="sxs-lookup"><span data-stu-id="89d19-122">This can be caused by a number of different reasons, such as incorrect protocol or insufficient security permissions on the client.</span></span>  
   
-## <a name="user-action"></a>使用者動作  
- 請注意，此訊息中的資訊和事件記錄檔中的任何相關資訊，請連絡 Microsoft 產品支援服務。
+## <a name="user-action"></a><span data-ttu-id="89d19-123">使用者動作</span><span class="sxs-lookup"><span data-stu-id="89d19-123">User Action</span></span>  
+ <span data-ttu-id="89d19-124">請注意，此訊息中的資訊和事件記錄檔中的任何相關資訊，請連絡 Microsoft 產品支援服務。</span><span class="sxs-lookup"><span data-stu-id="89d19-124">Note the information in this message, and any relevant information in the event log, and contact Microsoft Product Support Services.</span></span>

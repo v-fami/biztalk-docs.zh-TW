@@ -18,11 +18,11 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="step-4-create-a-sample-xml-begindoc"></a>步驟 4： 建立範例 XML BeginDoc
-將下列程式碼儲存到 XML 檔案中。 如果您的測試會使用此範例中的步驟，並使用範例的 J.D. Edwards OneWorld 物件選項，[//csales/b4200310]，您可以將這放入 Input 資料夾並將其指定的 Out 資料夾 （繫結至 EndDocOut 連接埠的資料夾）。  
+# <a name="step-4-create-a-sample-xml-begindoc"></a><span data-ttu-id="9fdf2-102">步驟 4： 建立範例 XML BeginDoc</span><span class="sxs-lookup"><span data-stu-id="9fdf2-102">Step 4: Create a Sample XML BeginDoc</span></span>
+<span data-ttu-id="9fdf2-103">將下列程式碼儲存到 XML 檔案中。</span><span class="sxs-lookup"><span data-stu-id="9fdf2-103">Save the following into an XML file.</span></span> <span data-ttu-id="9fdf2-104">如果您的測試會使用此範例中的步驟，並使用範例的 J.D.</span><span class="sxs-lookup"><span data-stu-id="9fdf2-104">If your test uses the steps in this example, and uses the example's J.D.</span></span> <span data-ttu-id="9fdf2-105">Edwards OneWorld 物件選項，[//csales/b4200310]，您可以將這放入 Input 資料夾並將其指定的 Out 資料夾 （繫結至 EndDocOut 連接埠的資料夾）。</span><span class="sxs-lookup"><span data-stu-id="9fdf2-105">Edwards OneWorld object selection, [JDE://CSALES/B4200310], you can drop this into the Input folder and what it come out the designated Out folder (the folder bound to the EndDocOut port).</span></span>  
   
 > [!NOTE]
->  您必須修改某些值，以指向您 J.D. Edwards OneWorld 伺服器，例如，此值設定 szCMComputerID 中。  
+>  <span data-ttu-id="9fdf2-106">您必須修改某些值，以指向您 J.D.</span><span class="sxs-lookup"><span data-stu-id="9fdf2-106">You will have to modify some of the values to point to your J.D.</span></span> <span data-ttu-id="9fdf2-107">Edwards OneWorld 伺服器，例如，此值設定 szCMComputerID 中。</span><span class="sxs-lookup"><span data-stu-id="9fdf2-107">Edwards OneWorld server, for example, the value set in szCMComputerID.</span></span>  
   
 ```  
 <ns0:F4211FSBeginDoc xmlns:ns0="http://schemas.microsoft.com/  
@@ -52,7 +52,7 @@ ms.lasthandoff: 09/20/2017
 </ns0:F4211FSBeginDoc>  
 ```  
   
-## <a name="see-also"></a>另請參閱  
- [步驟 1： 參考結構描述 DLL](../core/step-1-reference-the-schema-dll2.md)   
- [步驟 2： 建立協調流程](../core/step-2-create-the-orchestration1.md)   
- [步驟 3： 完成及執行專案](../core/step-3-complete-and-run-the-project2.md)
+## <a name="see-also"></a><span data-ttu-id="9fdf2-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="9fdf2-108">See Also</span></span>  
+ <span data-ttu-id="9fdf2-109">[步驟 1： 參考結構描述 DLL](../core/step-1-reference-the-schema-dll2.md) </span><span class="sxs-lookup"><span data-stu-id="9fdf2-109">[Step 1: Reference the Schema DLL](../core/step-1-reference-the-schema-dll2.md) </span></span>  
+ <span data-ttu-id="9fdf2-110">[步驟 2： 建立協調流程](../core/step-2-create-the-orchestration1.md) </span><span class="sxs-lookup"><span data-stu-id="9fdf2-110">[Step 2: Create the Orchestration](../core/step-2-create-the-orchestration1.md) </span></span>  
+ [<span data-ttu-id="9fdf2-111">步驟 3： 完成及執行專案</span><span class="sxs-lookup"><span data-stu-id="9fdf2-111">Step 3: Complete and Run the Project</span></span>](../core/step-3-complete-and-run-the-project2.md)

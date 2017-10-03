@@ -18,26 +18,26 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="single-sign-on-event-10675"></a>單一登入： 事件 10675
-## <a name="details"></a>詳細資料  
+# <a name="single-sign-on-event-10675"></a><span data-ttu-id="2d4d1-102">單一登入： 事件 10675</span><span class="sxs-lookup"><span data-stu-id="2d4d1-102">Single Sign-On: Event 10675</span></span>
+## <a name="details"></a><span data-ttu-id="2d4d1-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="2d4d1-103">Details</span></span>  
   
 |||  
 |-|-|  
-|產品名稱|企業單一登入|  
-|產品版本|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|事件識別碼|10675|  
-|事件來源|ENTSSO|  
-|元件|N\A|  
-|符號名稱|SSO_INFO_WINDOWS_PASSWORD_SET|  
-|訊息文字|Windows 密碼已成功更新 SSO database.%r 中<br /><br /> 追蹤識別碼: %1 %r<br /><br /> Windows 帳戶: %2 %r<br /><br /> 應用程式名稱: %3 %r<br /><br /> 外部帳戶： %4|  
+|<span data-ttu-id="2d4d1-104">產品名稱</span><span class="sxs-lookup"><span data-stu-id="2d4d1-104">Product Name</span></span>|<span data-ttu-id="2d4d1-105">企業單一登入</span><span class="sxs-lookup"><span data-stu-id="2d4d1-105">Enterprise Single Sign-On</span></span>|  
+|<span data-ttu-id="2d4d1-106">產品版本</span><span class="sxs-lookup"><span data-stu-id="2d4d1-106">Product Version</span></span>|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
+|<span data-ttu-id="2d4d1-107">事件識別碼</span><span class="sxs-lookup"><span data-stu-id="2d4d1-107">Event ID</span></span>|<span data-ttu-id="2d4d1-108">10675</span><span class="sxs-lookup"><span data-stu-id="2d4d1-108">10675</span></span>|  
+|<span data-ttu-id="2d4d1-109">事件來源</span><span class="sxs-lookup"><span data-stu-id="2d4d1-109">Event Source</span></span>|<span data-ttu-id="2d4d1-110">ENTSSO</span><span class="sxs-lookup"><span data-stu-id="2d4d1-110">ENTSSO</span></span>|  
+|<span data-ttu-id="2d4d1-111">元件</span><span class="sxs-lookup"><span data-stu-id="2d4d1-111">Component</span></span>|<span data-ttu-id="2d4d1-112">N\A</span><span class="sxs-lookup"><span data-stu-id="2d4d1-112">N\A</span></span>|  
+|<span data-ttu-id="2d4d1-113">符號名稱</span><span class="sxs-lookup"><span data-stu-id="2d4d1-113">Symbolic Name</span></span>|<span data-ttu-id="2d4d1-114">SSO_INFO_WINDOWS_PASSWORD_SET</span><span class="sxs-lookup"><span data-stu-id="2d4d1-114">SSO_INFO_WINDOWS_PASSWORD_SET</span></span>|  
+|<span data-ttu-id="2d4d1-115">訊息文字</span><span class="sxs-lookup"><span data-stu-id="2d4d1-115">Message Text</span></span>|<span data-ttu-id="2d4d1-116">Windows 密碼已成功更新 SSO database.%r 中</span><span class="sxs-lookup"><span data-stu-id="2d4d1-116">The Windows password was successfully updated in the SSO database.%r</span></span><br /><br /> <span data-ttu-id="2d4d1-117">追蹤識別碼: %1 %r</span><span class="sxs-lookup"><span data-stu-id="2d4d1-117">Tracking ID: %1%r</span></span><br /><br /> <span data-ttu-id="2d4d1-118">Windows 帳戶: %2 %r</span><span class="sxs-lookup"><span data-stu-id="2d4d1-118">Windows Account: %2%r</span></span><br /><br /> <span data-ttu-id="2d4d1-119">應用程式名稱: %3 %r</span><span class="sxs-lookup"><span data-stu-id="2d4d1-119">Application Name: %3%r</span></span><br /><br /> <span data-ttu-id="2d4d1-120">外部帳戶： %4</span><span class="sxs-lookup"><span data-stu-id="2d4d1-120">External Account: %4</span></span>|  
   
-## <a name="explanation"></a>說明  
- 這個資訊事件表示 Windows 密碼已成功更新 SSO 資料庫中。  
+## <a name="explanation"></a><span data-ttu-id="2d4d1-121">說明</span><span class="sxs-lookup"><span data-stu-id="2d4d1-121">Explanation</span></span>  
+ <span data-ttu-id="2d4d1-122">這個資訊事件表示 Windows 密碼已成功更新 SSO 資料庫中。</span><span class="sxs-lookup"><span data-stu-id="2d4d1-122">This Information event indicates that the Windows password was successfully updated in the SSO database.</span></span>  
   
-## <a name="user-action"></a>使用者動作  
+## <a name="user-action"></a><span data-ttu-id="2d4d1-123">使用者動作</span><span class="sxs-lookup"><span data-stu-id="2d4d1-123">User Action</span></span>  
   
--   使用者不必採取任何動作。  
+-   <span data-ttu-id="2d4d1-124">使用者不必採取任何動作。</span><span class="sxs-lookup"><span data-stu-id="2d4d1-124">No user action is necessary.</span></span>  
   
- 如需詳細資訊，請參閱中的下列資源[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]協助：  
+ <span data-ttu-id="2d4d1-125">如需詳細資訊，請參閱中的下列資源[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]協助：</span><span class="sxs-lookup"><span data-stu-id="2d4d1-125">For more information, see the following resources in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help:</span></span>  
   
--   [密碼同步處理](../core/password-synchronization2.md)
+-   [<span data-ttu-id="2d4d1-126">密碼同步處理</span><span class="sxs-lookup"><span data-stu-id="2d4d1-126">Password Synchronization</span></span>](../core/password-synchronization2.md)

@@ -21,22 +21,22 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="restrictions-on-the-destination-url-property"></a>目的地 URL 屬性的限制
-目的地 URL 是指定 HTTP 伺服器位址的字串，您在這裡使用 HTTP 通訊協定來傳送訊息。  
+# <a name="restrictions-on-the-destination-url-property"></a><span data-ttu-id="4fa78-102">目的地 URL 屬性的限制</span><span class="sxs-lookup"><span data-stu-id="4fa78-102">Restrictions on the Destination URL Property</span></span>
+<span data-ttu-id="4fa78-103">目的地 URL 是指定 HTTP 伺服器位址的字串，您在這裡使用 HTTP 通訊協定來傳送訊息。</span><span class="sxs-lookup"><span data-stu-id="4fa78-103">The destination URL is a string that specifies the address of the HTTP server where you want to send messages using the HTTP protocol.</span></span>  
   
- 下列規則與限制適用於目的地 URL 屬性：  
+ <span data-ttu-id="4fa78-104">下列規則與限制適用於目的地 URL 屬性：</span><span class="sxs-lookup"><span data-stu-id="4fa78-104">The following rules and restrictions apply to the destination URL property:</span></span>  
   
--   您必須永遠以下列格式指定目的地 URL 屬性：  
+-   <span data-ttu-id="4fa78-105">您必須永遠以下列格式指定目的地 URL 屬性：</span><span class="sxs-lookup"><span data-stu-id="4fa78-105">You must always specify the destination URL property in the following format:</span></span>  
   
-     http [s]://\<主機 > [:\<連接埠 >] [/\<路徑 > [/\<檔案 > [？\<查詢字串 >]]]  
+     <span data-ttu-id="4fa78-106">http [s]://\<主機 > [:\<連接埠 >] [/\<路徑 > [/\<檔案 > [？\<查詢字串 >]]]</span><span class="sxs-lookup"><span data-stu-id="4fa78-106">http[s]://\<host>[:\<port>][/\<path>[/\<file>[?\<query-string>]]]</span></span>  
   
--   整個字串不一定是 URI 編碼。  
+-   <span data-ttu-id="4fa78-107">整個字串不一定是 URI 編碼。</span><span class="sxs-lookup"><span data-stu-id="4fa78-107">The whole string may or may not be URI encoded.</span></span>  
   
--   整個字串，除了查詢字串中，不能包含任何下列字元： \< >: \ &#124;" ? *.  
+-   <span data-ttu-id="4fa78-108">整個字串，除了查詢字串中，不能包含任何下列字元： \< >: \ &#124;" ?</span><span class="sxs-lookup"><span data-stu-id="4fa78-108">The whole string, except the query string, cannot contain any of the following characters: \< > : \ &#124; " ?</span></span> <span data-ttu-id="4fa78-109">*.</span><span class="sxs-lookup"><span data-stu-id="4fa78-109">*.</span></span>  
   
--   屬性不區分大小寫。  
+-   <span data-ttu-id="4fa78-110">屬性不區分大小寫。</span><span class="sxs-lookup"><span data-stu-id="4fa78-110">The property is not case-sensitive.</span></span>  
   
--   字串長度不能超過 256 個字元。  
+-   <span data-ttu-id="4fa78-111">字串長度不能超過 256 個字元。</span><span class="sxs-lookup"><span data-stu-id="4fa78-111">The length of the string must not exceed 256 characters.</span></span>  
   
-## <a name="see-also"></a>另請參閱  
- [設定 HTTP 傳送埠](../core/configuring-an-http-send-port.md)
+## <a name="see-also"></a><span data-ttu-id="4fa78-112">另請參閱</span><span class="sxs-lookup"><span data-stu-id="4fa78-112">See Also</span></span>  
+ [<span data-ttu-id="4fa78-113">設定 HTTP 傳送埠</span><span class="sxs-lookup"><span data-stu-id="4fa78-113">Configuring an HTTP Send Port</span></span>](../core/configuring-an-http-send-port.md)

@@ -19,14 +19,14 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="component-interface-for-peoplesoft-enterprise"></a>PeopleSoft Enterprise 的元件介面
+# <a name="component-interface-for-peoplesoft-enterprise"></a><span data-ttu-id="3666d-103">PeopleSoft Enterprise 的元件介面</span><span class="sxs-lookup"><span data-stu-id="3666d-103">Component interface for PeopleSoft Enterprise</span></span>
 
-## <a name="summary"></a>摘要
-Microsoft BizTalk adapter for PeopleSoft Enterprise 的元件詳細資料：  
+## <a name="summary"></a><span data-ttu-id="3666d-104">摘要</span><span class="sxs-lookup"><span data-stu-id="3666d-104">Summary</span></span>
+<span data-ttu-id="3666d-105">Microsoft BizTalk adapter for PeopleSoft Enterprise 的元件詳細資料：</span><span class="sxs-lookup"><span data-stu-id="3666d-105">Component details for the Microsoft BizTalk Adapter for PeopleSoft Enterprise:</span></span>  
   
  
--   [附錄 a： 元件介面方法](../core/appendix-a-component-interface-methods.md)  
+-   [<span data-ttu-id="3666d-106">附錄 a： 元件介面方法</span><span class="sxs-lookup"><span data-stu-id="3666d-106">Appendix A: Component Interface Methods</span></span>](../core/appendix-a-component-interface-methods.md)  
   
--   [附錄 b： 使用 PeopleSoft 應用程式](../core/appendix-b-using-the-peoplesoft-application.md)  
+-   [<span data-ttu-id="3666d-107">附錄 b： 使用 PeopleSoft 應用程式</span><span class="sxs-lookup"><span data-stu-id="3666d-107">Appendix B: Using the PeopleSoft Application</span></span>](../core/appendix-b-using-the-peoplesoft-application.md)  
   
--   [附錄 c： 使用元件介面](../core/appendix-c-using-component-interfaces.md)
+-   [<span data-ttu-id="3666d-108">附錄 c： 使用元件介面</span><span class="sxs-lookup"><span data-stu-id="3666d-108">Appendix C: Using Component Interfaces</span></span>](../core/appendix-c-using-component-interfaces.md)

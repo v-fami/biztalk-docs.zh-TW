@@ -18,13 +18,13 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="template-errors"></a>範本錯誤
-本節包含診斷及解決 WCF 範本錯誤的詳細的資訊。  
+# <a name="template-errors"></a><span data-ttu-id="bcd8b-102">範本錯誤</span><span class="sxs-lookup"><span data-stu-id="bcd8b-102">Template Errors</span></span>
+<span data-ttu-id="bcd8b-103">本節包含診斷及解決 WCF 範本錯誤的詳細的資訊。</span><span class="sxs-lookup"><span data-stu-id="bcd8b-103">This section contains detailed information for diagnosing and resolving WCF Template errors.</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="bcd8b-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="bcd8b-104">In This Section</span></span>  
   
--   [BizTalk 訊息內文項目編碼不正確](../core/biztalk-message-body-element-encoding-is-invalid.md)  
+-   [<span data-ttu-id="bcd8b-105">BizTalk 訊息內文項目編碼不正確</span><span class="sxs-lookup"><span data-stu-id="bcd8b-105">BizTalk message body element encoding is invalid</span></span>](../core/biztalk-message-body-element-encoding-is-invalid.md)  
   
--   [未指定的 BizTalk 訊息內文元素](../core/biztalk-message-body-element-not-specified.md)  
+-   [<span data-ttu-id="bcd8b-106">未指定的 BizTalk 訊息內文元素</span><span class="sxs-lookup"><span data-stu-id="bcd8b-106">BizTalk message body element not specified</span></span>](../core/biztalk-message-body-element-not-specified.md)  
   
--   [無效的輸出 XML 範本](../core/invalid-outbound-xml-template.md)
+-   [<span data-ttu-id="bcd8b-107">無效的輸出 XML 範本</span><span class="sxs-lookup"><span data-stu-id="bcd8b-107">Invalid outbound XML template</span></span>](../core/invalid-outbound-xml-template.md)

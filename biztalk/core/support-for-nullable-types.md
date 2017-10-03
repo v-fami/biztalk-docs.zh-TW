@@ -18,11 +18,11 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="support-for-nullable-types"></a>可為 Null 型別的支援
-此規則引擎支援在商務規則中使用可為 Null 的型別。 您可以在 .NET 類別繫結、XML 繫結和資料庫繫結中使用可為 Null 的型別。 目前，商務規則編輯器工具不支援在商務規則中使用可為 Null 的型別。 當您以程式設計方式建立規則時，可以使用可為 Null 的型別。  
+# <a name="support-for-nullable-types"></a><span data-ttu-id="40974-102">可為 Null 型別的支援</span><span class="sxs-lookup"><span data-stu-id="40974-102">Support for Nullable Types</span></span>
+<span data-ttu-id="40974-103">此規則引擎支援在商務規則中使用可為 Null 的型別。</span><span class="sxs-lookup"><span data-stu-id="40974-103">The rule engine supports using nullable types in a business rule.</span></span> <span data-ttu-id="40974-104">您可以在 .NET 類別繫結、XML 繫結和資料庫繫結中使用可為 Null 的型別。</span><span class="sxs-lookup"><span data-stu-id="40974-104">You can use nullable types in .NET class bindings, XML bindings, and database bindings.</span></span> <span data-ttu-id="40974-105">目前，商務規則編輯器工具不支援在商務規則中使用可為 Null 的型別。</span><span class="sxs-lookup"><span data-stu-id="40974-105">Currently, the Business Rule Composer tool does not support using nullable types in a business rule.</span></span> <span data-ttu-id="40974-106">當您以程式設計方式建立規則時，可以使用可為 Null 的型別。</span><span class="sxs-lookup"><span data-stu-id="40974-106">You can use the nullable types when creating rules programmatically.</span></span>  
   
-## <a name="using-nullable-types-in-net-class-bindings"></a>在 .NET 類別繫結中使用可為 Null 的型別  
- 當屬性或欄位的型別是可為 Null 的型別時，您可以建立該屬性或欄位的類別成員繫結。 當方法使用可為 Null 型別的參數及/或傳回可為 Null 型別的值時，您也可以建立該方法的類別成員繫結。 下列範例程式碼示範如何存取可為 Null 的欄位，以及如何從商務規則中的方法存取可為 Null 型別的傳回值。 如果您執行主控台應用程式以下列程式碼，因為它是，您會看到的值**prop**欄位設定為 5。 如果您未初始化**prop**類別中的欄位，或將它設為 null，執行程式碼，初始化，您會看到的值**prop**欄位設為 1。  
+## <a name="using-nullable-types-in-net-class-bindings"></a><span data-ttu-id="40974-107">在 .NET 類別繫結中使用可為 Null 的型別</span><span class="sxs-lookup"><span data-stu-id="40974-107">Using Nullable Types in .NET Class Bindings</span></span>  
+ <span data-ttu-id="40974-108">當屬性或欄位的型別是可為 Null 的型別時，您可以建立該屬性或欄位的類別成員繫結。</span><span class="sxs-lookup"><span data-stu-id="40974-108">You can create a class member binding to a property or a field whose type is a nullable type.</span></span> <span data-ttu-id="40974-109">當方法使用可為 Null 型別的參數及/或傳回可為 Null 型別的值時，您也可以建立該方法的類別成員繫結。</span><span class="sxs-lookup"><span data-stu-id="40974-109">You can also create a class member binding to a method that takes a parameter of nullable type and/or returns a value of nullable type.</span></span> <span data-ttu-id="40974-110">下列範例程式碼示範如何存取可為 Null 的欄位，以及如何從商務規則中的方法存取可為 Null 型別的傳回值。</span><span class="sxs-lookup"><span data-stu-id="40974-110">The following sample code demonstrates how to access a nullable field, and how to access a return value of nullable type from a method in a business rule.</span></span> <span data-ttu-id="40974-111">如果您執行主控台應用程式以下列程式碼，因為它是，您會看到的值**prop**欄位設定為 5。</span><span class="sxs-lookup"><span data-stu-id="40974-111">If you execute a console application with the following code as it is, you will see that the value of the **prop** field is set to 5.</span></span> <span data-ttu-id="40974-112">如果您未初始化**prop**類別中的欄位，或將它設為 null，執行程式碼，初始化，您會看到的值**prop**欄位設為 1。</span><span class="sxs-lookup"><span data-stu-id="40974-112">If you do not initialize the **prop** field in the class or initialize it to null and run the code, you will see that the value of the **prop** field is set to 1.</span></span>  
   
 ```  
 using Microsoft.RuleEngine;  
@@ -116,17 +116,17 @@ namespace UseNullableAsm
 }  
 ```  
   
-## <a name="using-nullable-types-in-database-bindings"></a>在資料庫繫結中使用可為 Null 的型別  
- 您也可以在資料庫繫結中使用可為 Null 的型別。 下列範例程式碼片段會示範如何在資料庫繫結中使用可為 Null 的型別。  
+## <a name="using-nullable-types-in-database-bindings"></a><span data-ttu-id="40974-113">在資料庫繫結中使用可為 Null 的型別</span><span class="sxs-lookup"><span data-stu-id="40974-113">Using Nullable Types in Database Bindings</span></span>  
+ <span data-ttu-id="40974-114">您也可以在資料庫繫結中使用可為 Null 的型別。</span><span class="sxs-lookup"><span data-stu-id="40974-114">You can also use nullable types in database bindings.</span></span> <span data-ttu-id="40974-115">下列範例程式碼片段會示範如何在資料庫繫結中使用可為 Null 的型別。</span><span class="sxs-lookup"><span data-stu-id="40974-115">The following sample code fragment shows you how to use a nullable type in database bindings.</span></span>  
   
 ```  
 DataColumnBinding dcBinding = new DataColumnBinding(“col”, typeof(int?), dbBinding);  
 ```  
   
- 假設您有一項規則的條件來檢查值的資料庫資料行等於 3。 如果資料行的值為 null，運算式會評估為 false。 它不會造成例外狀況。  
+ <span data-ttu-id="40974-116">假設您有一項規則的條件來檢查值的資料庫資料行等於 3。</span><span class="sxs-lookup"><span data-stu-id="40974-116">Suppose you have a rule with a condition that checks the value of a database column to see if equals 3.</span></span> <span data-ttu-id="40974-117">如果資料行的值為 null，運算式會評估為 false。</span><span class="sxs-lookup"><span data-stu-id="40974-117">If the value of the column is null, the expression evaluates to false.</span></span> <span data-ttu-id="40974-118">它不會造成例外狀況。</span><span class="sxs-lookup"><span data-stu-id="40974-118">It does not cause an exception.</span></span>  
   
-## <a name="using-nullable-types-in-xml-bindings"></a>在 XML 繫結中使用可為 Null 的型別  
- 同樣地，您也可以在 XML 繫結中使用可為 Null 的型別。 下列範例程式碼片段示範如何在 XML 繫結中使用可為 Null 的型別。  
+## <a name="using-nullable-types-in-xml-bindings"></a><span data-ttu-id="40974-119">在 XML 繫結中使用可為 Null 的型別</span><span class="sxs-lookup"><span data-stu-id="40974-119">Using Nullable Types in XML Bindings</span></span>  
+ <span data-ttu-id="40974-120">同樣地，您也可以在 XML 繫結中使用可為 Null 的型別。</span><span class="sxs-lookup"><span data-stu-id="40974-120">Similarly, you can use nullable types in XML bindings.</span></span> <span data-ttu-id="40974-121">下列範例程式碼片段示範如何在 XML 繫結中使用可為 Null 的型別。</span><span class="sxs-lookup"><span data-stu-id="40974-121">The following sample code fragment shows how to use a nullable type in XML bindings.</span></span>  
   
 ```  
 XMLDocumentFieldBinding xfb1 = new XMLDocumentFieldBinding(typeof(int?),"ID",xdb);  

@@ -19,11 +19,11 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="success---validate-instance"></a>成功-驗證執行個體
-**說明**  
+# <a name="success---validate-instance"></a><span data-ttu-id="b204e-102">成功-驗證執行個體</span><span class="sxs-lookup"><span data-stu-id="b204e-102">Success - Validate Instance</span></span>
+<span data-ttu-id="b204e-103">**說明**</span><span class="sxs-lookup"><span data-stu-id="b204e-103">**Explanation**</span></span>  
   
- **驗證執行個體**命令成功驗證指定的執行個體訊息檔案是否符合指定的結構描述。  
+ <span data-ttu-id="b204e-104">**驗證執行個體**命令成功驗證指定的執行個體訊息檔案是否符合指定的結構描述。</span><span class="sxs-lookup"><span data-stu-id="b204e-104">The **Validate Instance** command succeeded in validating that the indicated instance message file conforms to the indicated schema.</span></span>  
   
- **使用者動作**  
+ <span data-ttu-id="b204e-105">**使用者動作**</span><span class="sxs-lookup"><span data-stu-id="b204e-105">**User Action**</span></span>  
   
- 不需要。
+ <span data-ttu-id="b204e-106">不需要。</span><span class="sxs-lookup"><span data-stu-id="b204e-106">None required.</span></span>

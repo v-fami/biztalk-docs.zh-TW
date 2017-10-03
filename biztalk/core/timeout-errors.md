@@ -18,17 +18,17 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="timeout-errors"></a>逾時錯誤
-本節包含診斷及解決 WCF 逾時錯誤的詳細資訊。  
+# <a name="timeout-errors"></a><span data-ttu-id="4a5b3-102">逾時錯誤</span><span class="sxs-lookup"><span data-stu-id="4a5b3-102">Timeout Errors</span></span>
+<span data-ttu-id="4a5b3-103">本節包含診斷及解決 WCF 逾時錯誤的詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="4a5b3-103">This section contains detailed information for diagnosing and resolving WCF Timeout errors.</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="4a5b3-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="4a5b3-104">In This Section</span></span>  
   
--   [無效的關閉等候逾時](../core/invalid-close-timeout.md)  
+-   [<span data-ttu-id="4a5b3-105">無效的關閉等候逾時</span><span class="sxs-lookup"><span data-stu-id="4a5b3-105">Invalid close timeout</span></span>](../core/invalid-close-timeout.md)  
   
--   [無效的租用逾時](../core/invalid-lease-timeout.md)  
+-   [<span data-ttu-id="4a5b3-106">無效的租用逾時</span><span class="sxs-lookup"><span data-stu-id="4a5b3-106">Invalid lease timeout</span></span>](../core/invalid-lease-timeout.md)  
   
--   [無效的開啟逾時](../core/invalid-open-timeout.md)  
+-   [<span data-ttu-id="4a5b3-107">無效的開啟逾時</span><span class="sxs-lookup"><span data-stu-id="4a5b3-107">Invalid open timeout</span></span>](../core/invalid-open-timeout.md)  
   
--   [無效的傳送逾時](../core/invalid-send-timeout.md)  
+-   [<span data-ttu-id="4a5b3-108">無效的傳送逾時</span><span class="sxs-lookup"><span data-stu-id="4a5b3-108">Invalid send timeout</span></span>](../core/invalid-send-timeout.md)  
   
--   [即時逾時的時間無效](../core/invalid-time-to-live-timeout.md)
+-   [<span data-ttu-id="4a5b3-109">即時逾時的時間無效</span><span class="sxs-lookup"><span data-stu-id="4a5b3-109">Invalid time to live timeout</span></span>](../core/invalid-time-to-live-timeout.md)

@@ -24,80 +24,80 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="sample-tma-ftp-adapter"></a>範例 TMA: FTP 配接器
-本主題呈現範例架構的 FTP 配接器實例之威脅模型分析 (TMA)。  
+# <a name="sample-tma-ftp-adapter"></a><span data-ttu-id="c0d60-102">範例 TMA: FTP 配接器</span><span class="sxs-lookup"><span data-stu-id="c0d60-102">Sample TMA: FTP Adapter</span></span>
+<span data-ttu-id="c0d60-103">本主題呈現範例架構的 FTP 配接器實例之威脅模型分析 (TMA)。</span><span class="sxs-lookup"><span data-stu-id="c0d60-103">This topic presents the threat model analysis (TMA) for the FTP adapter scenario for the sample architecture.</span></span>  
   
- 下圖顯示 FTP 配接器實例的範例架構。  
+ <span data-ttu-id="c0d60-104">下圖顯示 FTP 配接器實例的範例架構。</span><span class="sxs-lookup"><span data-stu-id="c0d60-104">The following figure shows the sample architecture for the FTP adapter scenario.</span></span>  
   
- **圖 1 FTP 配接器實例的範例架構**  
+ <span data-ttu-id="c0d60-105">**圖 1 FTP 配接器實例的範例架構**</span><span class="sxs-lookup"><span data-stu-id="c0d60-105">**Figure 1 Sample architecture for the FTP adapter scenario**</span></span>  
   
- ![範例架構的 FTP 配接器](../core/media/tdi-sec-refarch-ftp.gif "TDI_Sec_RefArch_FTP")  
+ <span data-ttu-id="c0d60-106">![範例架構的 FTP 配接器](../core/media/tdi-sec-refarch-ftp.gif "TDI_Sec_RefArch_FTP")</span><span class="sxs-lookup"><span data-stu-id="c0d60-106">![Sample architecture for FTP adapter](../core/media/tdi-sec-refarch-ftp.gif "TDI_Sec_RefArch_FTP")</span></span>  
   
-## <a name="step-1-collect-background-information-ftp-adapter-scenario"></a>步驟 1： 收集背景資訊 （FTP 配接器實例）  
- 本節提供範例架構的 FTP 配接器實例之資料流程圖 (DFD)。  
+## <a name="step-1-collect-background-information-ftp-adapter-scenario"></a><span data-ttu-id="c0d60-107">步驟 1：</span><span class="sxs-lookup"><span data-stu-id="c0d60-107">Step 1.</span></span> <span data-ttu-id="c0d60-108">收集背景資訊 （FTP 配接器實例）</span><span class="sxs-lookup"><span data-stu-id="c0d60-108">Collect Background Information (FTP Adapter Scenario)</span></span>  
+ <span data-ttu-id="c0d60-109">本節提供範例架構的 FTP 配接器實例之資料流程圖 (DFD)。</span><span class="sxs-lookup"><span data-stu-id="c0d60-109">This section provides the data flow diagram (DFD) for the FTP adapter scenario for the sample architecture.</span></span>  
   
- 所有其他背景資訊也適用於所有使用實例，並為先前所述[範例實例的背景資訊](../core/background-information-for-sample-scenarios.md)。  
+ <span data-ttu-id="c0d60-110">所有其他背景資訊也適用於所有使用實例，並為先前所述[範例實例的背景資訊](../core/background-information-for-sample-scenarios.md)。</span><span class="sxs-lookup"><span data-stu-id="c0d60-110">All the other background information is the same for all our usage scenarios, and is described previously in [Background Information for Sample Scenarios](../core/background-information-for-sample-scenarios.md).</span></span>  
   
-### <a name="data-flow-diagram"></a>資料流程圖  
- 下圖顯示使用 FTP 配接器時範例架構的 DFD。  
+### <a name="data-flow-diagram"></a><span data-ttu-id="c0d60-111">資料流程圖</span><span class="sxs-lookup"><span data-stu-id="c0d60-111">Data Flow Diagram</span></span>  
+ <span data-ttu-id="c0d60-112">下圖顯示使用 FTP 配接器時範例架構的 DFD。</span><span class="sxs-lookup"><span data-stu-id="c0d60-112">The following figure shows the DFD for the sample architecture when you use the FTP adapter.</span></span>  
   
- **圖 2 FTP 配接器實例的範例架構 DFD**  
+ <span data-ttu-id="c0d60-113">**圖 2 FTP 配接器實例的範例架構 DFD**</span><span class="sxs-lookup"><span data-stu-id="c0d60-113">**Figure 2 DFD for the sample architecture of the FTP adapter scenario**</span></span>  
   
- ![FTP 配接器的 DFD](../core/media/tdi-sec-refarch-dfd-ftp.gif "TDI_Sec_RefArch_DFD_FTP")  
+ <span data-ttu-id="c0d60-114">![FTP 配接器的 DFD](../core/media/tdi-sec-refarch-dfd-ftp.gif "TDI_Sec_RefArch_DFD_FTP")</span><span class="sxs-lookup"><span data-stu-id="c0d60-114">![DFD for FTP Adapter](../core/media/tdi-sec-refarch-dfd-ftp.gif "TDI_Sec_RefArch_DFD_FTP")</span></span>  
   
- 資料流程如下所示：  
+ <span data-ttu-id="c0d60-115">資料流程如下所示：</span><span class="sxs-lookup"><span data-stu-id="c0d60-115">The data flow is as follows:</span></span>  
   
-1.  夥伴或客戶傳送一個訊息給 FTP 伺服器。 此訊息會傳遞到防火牆 1 的 IP 位址。  
+1.  <span data-ttu-id="c0d60-116">夥伴或客戶傳送一個訊息給 FTP 伺服器。</span><span class="sxs-lookup"><span data-stu-id="c0d60-116">A partner or customer sends a message to the FTP server.</span></span> <span data-ttu-id="c0d60-117">此訊息會傳遞到防火牆 1 的 IP 位址。</span><span class="sxs-lookup"><span data-stu-id="c0d60-117">The message is routed to the IP address of Firewall 1.</span></span>  
   
-2.  防火牆 1 接收訊息，再將它傳遞到位於網際網路周邊網路的 FTP 伺服器中。  
+2.  <span data-ttu-id="c0d60-118">防火牆 1 接收訊息，再將它傳遞到位於網際網路周邊網路的 FTP 伺服器中。</span><span class="sxs-lookup"><span data-stu-id="c0d60-118">Firewall 1 receives the message, and routes it to the FTP server located in the Internet perimeter network.</span></span>  
   
-3.  FTP 接收配接器的內含式主控件的執行個體，定期輪詢 FTP 伺服器的新訊息 (透過防火牆 2)。 在它發現新訊息之後，它會擷取訊息，執行任何初始處理，然後將訊息放入 MessageBox 資料庫中。  
+3.  <span data-ttu-id="c0d60-119">FTP 接收配接器的內含式主控件的執行個體，定期輪詢 FTP 伺服器的新訊息 (透過防火牆 2)。</span><span class="sxs-lookup"><span data-stu-id="c0d60-119">An instance of an in-process host for the FTP receive adapter regularly polls the FTP server for new messages (through Firewall 2).</span></span> <span data-ttu-id="c0d60-120">在它發現新訊息之後，它會擷取訊息，執行任何初始處理，然後將訊息放入 MessageBox 資料庫中。</span><span class="sxs-lookup"><span data-stu-id="c0d60-120">After it finds a new message, it retrieves the message, does any initial processing, and puts the message in the MessageBox database.</span></span>  
   
-4.  訂閱該訊息的處理主控件執行個體會從 MessageBox 資料庫拾取此訊息、執行任何進一步的處理，然後將訊息放回 MessageBox 資料庫。  
+4.  <span data-ttu-id="c0d60-121">訂閱該訊息的處理主控件執行個體會從 MessageBox 資料庫拾取此訊息、執行任何進一步的處理，然後將訊息放回 MessageBox 資料庫。</span><span class="sxs-lookup"><span data-stu-id="c0d60-121">An instance of the processing host that has a subscription to the message picks it up from the MessageBox database, does any additional processing, and puts the message back in the MessageBox database.</span></span>  
   
-5.  而擁有 FTP 傳送配接器的內含式主控件的執行個體則會從 MessageBox 資料庫拾取訊息。 此訊息在傳送管線中經過任何最終處理，然後透過防火牆 2 傳送到 FTP 伺服器。  
+5.  <span data-ttu-id="c0d60-122">而擁有 FTP 傳送配接器的內含式主控件的執行個體則會從 MessageBox 資料庫拾取訊息。</span><span class="sxs-lookup"><span data-stu-id="c0d60-122">An instance of the in-process host that has an FTP send adapter picks up the message from the MessageBox database.</span></span> <span data-ttu-id="c0d60-123">此訊息在傳送管線中經過任何最終處理，然後透過防火牆 2 傳送到 FTP 伺服器。</span><span class="sxs-lookup"><span data-stu-id="c0d60-123">The message goes through any final processing in the send pipeline, and is then sent through Firewall 2 to the FTP server.</span></span>  
   
-6.  然後 FTP 伺服器透過防火牆 1 將訊息送回給夥伴或客戶。  
+6.  <span data-ttu-id="c0d60-124">然後 FTP 伺服器透過防火牆 1 將訊息送回給夥伴或客戶。</span><span class="sxs-lookup"><span data-stu-id="c0d60-124">The FTP server then routes the message through Firewall 1 back to the partner or customer.</span></span>  
   
-## <a name="step-2-create-and-analyze-the-threat-model-ftp-adapter-scenario"></a>步驟 2： 建立和分析威脅模型 （FTP 配接器實例）  
- 本節提供我們為範例架構的 FTP 配接器實例所做的 TMA 結果。  
+## <a name="step-2-create-and-analyze-the-threat-model-ftp-adapter-scenario"></a><span data-ttu-id="c0d60-125">步驟 2：</span><span class="sxs-lookup"><span data-stu-id="c0d60-125">Step 2.</span></span> <span data-ttu-id="c0d60-126">建立和分析威脅模型 （FTP 配接器實例）</span><span class="sxs-lookup"><span data-stu-id="c0d60-126">Create and Analyze the Threat Model (FTP Adapter Scenario)</span></span>  
+ <span data-ttu-id="c0d60-127">本節提供我們為範例架構的 FTP 配接器實例所做的 TMA 結果。</span><span class="sxs-lookup"><span data-stu-id="c0d60-127">This section provides the results of the TMA we did for the FTP adapter scenario for the sample architecture.</span></span>  
   
--   **識別進入點、 信任界限以及的資料流-**請參閱稍早在步驟 1 中及中所述的背景資訊[範例實例的背景資訊](../core/background-information-for-sample-scenarios.md)。  
+-   <span data-ttu-id="c0d60-128">**識別進入點、 信任界限以及的資料流-**請參閱稍早在步驟 1 中及中所述的背景資訊[範例實例的背景資訊](../core/background-information-for-sample-scenarios.md)。</span><span class="sxs-lookup"><span data-stu-id="c0d60-128">**Identify Entry Points, Trust Boundaries, and Flow of Data -** See background information described earlier in step 1 and in [Background Information for Sample Scenarios](../core/background-information-for-sample-scenarios.md).</span></span>  
   
--   **建立一份識別的威脅-**我們針對 dfd 的所有項目使用下列分類來識別潛在的威脅： **S**假冒識別， **T**ampering 取代資料， **R**epudiation，**我**若資訊洩漏、 **D**拒絕服務，以及**E**身分權限。 下表列出當您使用 FTP 配接器從 BizTalk Server 傳送和接收訊息時，我們所識別的威脅。  
+-   <span data-ttu-id="c0d60-129">**建立一份識別的威脅-**我們針對 dfd 的所有項目使用下列分類來識別潛在的威脅： **S**假冒識別， **T**ampering 取代資料， **R**epudiation，**我**若資訊洩漏、 **D**拒絕服務，以及**E**身分權限。</span><span class="sxs-lookup"><span data-stu-id="c0d60-129">**Create a List of the Identified Threats -** We used the following categorization for all entries in the DFD to identify potential threats to the scenario: **S**poofing identify, **T**ampering with data, **R**epudiation, **I**nformation disclosure, **D**enial of service, and **E**levation of privileges.</span></span> <span data-ttu-id="c0d60-130">下表列出當您使用 FTP 配接器從 BizTalk Server 傳送和接收訊息時，我們所識別的威脅。</span><span class="sxs-lookup"><span data-stu-id="c0d60-130">The following table lists the threats we identified when you use the FTP adapter to send and receive messages to and from BizTalk Server.</span></span>  
   
- **表 1 已識別的威脅的清單**  
+ <span data-ttu-id="c0d60-131">**表 1 已識別的威脅的清單**</span><span class="sxs-lookup"><span data-stu-id="c0d60-131">**Table 1 List of identified threats**</span></span>  
   
-|威脅|Description|資產|影響|  
+|<span data-ttu-id="c0d60-132">威脅</span><span class="sxs-lookup"><span data-stu-id="c0d60-132">Threat</span></span>|<span data-ttu-id="c0d60-133">Description</span><span class="sxs-lookup"><span data-stu-id="c0d60-133">Description</span></span>|<span data-ttu-id="c0d60-134">資產</span><span class="sxs-lookup"><span data-stu-id="c0d60-134">Asset</span></span>|<span data-ttu-id="c0d60-135">影響</span><span class="sxs-lookup"><span data-stu-id="c0d60-135">Impact</span></span>|  
 |------------|-----------------|-----------|------------|  
-|FTP 通訊協定並不安全|FTP 通訊協定使用者識別碼與密碼會以純文字傳送。 而惡意使用者可以監控網路以存取認證。 資料會被洩露。|使用者認證|偽造識別<br /><br /> 竄改資料<br /><br /> 資訊洩露|  
-|FTP 伺服器容易受到未經授權的 DHCP 伺服器攻擊|若 URI 不包含使用者的密碼，而是指定於處理常式上，則在執行階段才會從處理常式將密碼傳送到 FTP 伺服器。 若是有欺詐的 FTP 伺服器監聽驗證呼叫，它就可能以此方式偷取密碼。 其中一個解決方案是在處理常式層級啟用/停用使用密碼。|FTP 伺服器|偽造識別<br /><br /> 竄改資料<br /><br /> 資訊洩露|  
+|<span data-ttu-id="c0d60-136">FTP 通訊協定並不安全</span><span class="sxs-lookup"><span data-stu-id="c0d60-136">FTP protocol is not secure</span></span>|<span data-ttu-id="c0d60-137">FTP 通訊協定使用者識別碼與密碼會以純文字傳送。</span><span class="sxs-lookup"><span data-stu-id="c0d60-137">FTP protocol user ID and password are sent as clear text.</span></span> <span data-ttu-id="c0d60-138">而惡意使用者可以監控網路以存取認證。</span><span class="sxs-lookup"><span data-stu-id="c0d60-138">A malicious user can monitor the network to access credentials.</span></span> <span data-ttu-id="c0d60-139">資料會被洩露。</span><span class="sxs-lookup"><span data-stu-id="c0d60-139">Data is exposed.</span></span>|<span data-ttu-id="c0d60-140">使用者認證</span><span class="sxs-lookup"><span data-stu-id="c0d60-140">User credentials</span></span>|<span data-ttu-id="c0d60-141">偽造識別</span><span class="sxs-lookup"><span data-stu-id="c0d60-141">Spoofing identity</span></span><br /><br /> <span data-ttu-id="c0d60-142">竄改資料</span><span class="sxs-lookup"><span data-stu-id="c0d60-142">Tampering with data</span></span><br /><br /> <span data-ttu-id="c0d60-143">資訊洩露</span><span class="sxs-lookup"><span data-stu-id="c0d60-143">Information disclosure</span></span>|  
+|<span data-ttu-id="c0d60-144">FTP 伺服器容易受到未經授權的 DHCP 伺服器攻擊</span><span class="sxs-lookup"><span data-stu-id="c0d60-144">FTP server is vulnerable to unauthorized DHCP server attacks</span></span>|<span data-ttu-id="c0d60-145">若 URI 不包含使用者的密碼，而是指定於處理常式上，則在執行階段才會從處理常式將密碼傳送到 FTP 伺服器。</span><span class="sxs-lookup"><span data-stu-id="c0d60-145">If the URI does not contain the password of the user but it is specified on the handler, at run time the password from the handler is currently sent to the FTP server.</span></span> <span data-ttu-id="c0d60-146">若是有欺詐的 FTP 伺服器監聽驗證呼叫，它就可能以此方式偷取密碼。</span><span class="sxs-lookup"><span data-stu-id="c0d60-146">If there is a rogue FTP server listening for authentication calls, it might steal passwords in this way.</span></span> <span data-ttu-id="c0d60-147">其中一個解決方案是在處理常式層級啟用/停用使用密碼。</span><span class="sxs-lookup"><span data-stu-id="c0d60-147">One solution is to enable/disable using the password at the handler level.</span></span>|<span data-ttu-id="c0d60-148">FTP 伺服器</span><span class="sxs-lookup"><span data-stu-id="c0d60-148">FTP server</span></span>|<span data-ttu-id="c0d60-149">偽造識別</span><span class="sxs-lookup"><span data-stu-id="c0d60-149">Spoofing identity</span></span><br /><br /> <span data-ttu-id="c0d60-150">竄改資料</span><span class="sxs-lookup"><span data-stu-id="c0d60-150">Tampering with data</span></span><br /><br /> <span data-ttu-id="c0d60-151">資訊洩露</span><span class="sxs-lookup"><span data-stu-id="c0d60-151">Information disclosure</span></span>|  
   
-## <a name="step-3-review-threats-ftp-adapter-scenario"></a>步驟 3： 檢視威脅 （FTP 配接器實例）  
- 本節提供針對範例架構的 FTP 配接器實例已識別出的威脅，我們所執行的風險分析結果。 主要威脅模型會議之後，我們已複查威脅，並使用下列影響類別來識別每個威脅的風險： **D**損害潛在， **R**eproducibility， **E**xploitability， **A**受使用者和**D**iscoverability。  
+## <a name="step-3-review-threats-ftp-adapter-scenario"></a><span data-ttu-id="c0d60-152">步驟 3：</span><span class="sxs-lookup"><span data-stu-id="c0d60-152">Step 3.</span></span> <span data-ttu-id="c0d60-153">檢視威脅 （FTP 配接器實例）</span><span class="sxs-lookup"><span data-stu-id="c0d60-153">Review Threats (FTP Adapter Scenario)</span></span>  
+ <span data-ttu-id="c0d60-154">本節提供針對範例架構的 FTP 配接器實例已識別出的威脅，我們所執行的風險分析結果。</span><span class="sxs-lookup"><span data-stu-id="c0d60-154">This section provides the results of the risk analysis we did for threats we identified for the FTP adapter scenario for the sample architecture.</span></span> <span data-ttu-id="c0d60-155">主要威脅模型會議之後，我們已複查威脅，並使用下列影響類別來識別每個威脅的風險： **D**損害潛在， **R**eproducibility， **E**xploitability， **A**受使用者和**D**iscoverability。</span><span class="sxs-lookup"><span data-stu-id="c0d60-155">After the main threat model meeting, we reviewed the threats and used the used the following impact categories to identify the risk for each threat: **D**amage potential, **R**eproducibility, **E**xploitability, **A**ffected users, and **D**iscoverability.</span></span>  
   
- 下表列出當您使用 FTP 配接器從 BizTalk Server 傳送和接收訊息時，我們所識別的威脅之風險等級。  
+ <span data-ttu-id="c0d60-156">下表列出當您使用 FTP 配接器從 BizTalk Server 傳送和接收訊息時，我們所識別的威脅之風險等級。</span><span class="sxs-lookup"><span data-stu-id="c0d60-156">The following table lists the risk ratings for the threats we identified when you use the FTP adapter to send and receive messages to and from BizTalk Server.</span></span>  
   
- **表 2 已識別的威脅的風險等級**  
+ <span data-ttu-id="c0d60-157">**表 2 已識別的威脅的風險等級**</span><span class="sxs-lookup"><span data-stu-id="c0d60-157">**Table 2 Risk ratings for identified threats**</span></span>  
   
-|威脅|影響|可能的損害|可複製性|利用性|受影響的使用者|發現性|風險暴露程度|  
+|<span data-ttu-id="c0d60-158">威脅</span><span class="sxs-lookup"><span data-stu-id="c0d60-158">Threat</span></span>|<span data-ttu-id="c0d60-159">影響</span><span class="sxs-lookup"><span data-stu-id="c0d60-159">Impact</span></span>|<span data-ttu-id="c0d60-160">可能的損害</span><span class="sxs-lookup"><span data-stu-id="c0d60-160">Damage potential</span></span>|<span data-ttu-id="c0d60-161">可複製性</span><span class="sxs-lookup"><span data-stu-id="c0d60-161">Reproducibility</span></span>|<span data-ttu-id="c0d60-162">利用性</span><span class="sxs-lookup"><span data-stu-id="c0d60-162">Exploitability</span></span>|<span data-ttu-id="c0d60-163">受影響的使用者</span><span class="sxs-lookup"><span data-stu-id="c0d60-163">Affected users</span></span>|<span data-ttu-id="c0d60-164">發現性</span><span class="sxs-lookup"><span data-stu-id="c0d60-164">Discoverability</span></span>|<span data-ttu-id="c0d60-165">風險暴露程度</span><span class="sxs-lookup"><span data-stu-id="c0d60-165">Risk exposure</span></span>|  
 |------------|------------|----------------------|---------------------|--------------------|--------------------|---------------------|-------------------|  
-|FTP 通訊協定並不安全|偽造識別<br /><br /> 竄改資料<br /><br /> 資訊洩露|9|9|2|10|5|7|  
-|FTP 伺服器容易受到未經授權的 DHCP 伺服器攻擊|偽造識別<br /><br /> 竄改資料<br /><br /> 資訊洩露|5|5|2|10|5|5.4|  
+|<span data-ttu-id="c0d60-166">FTP 通訊協定並不安全</span><span class="sxs-lookup"><span data-stu-id="c0d60-166">FTP protocol is not secure</span></span>|<span data-ttu-id="c0d60-167">偽造識別</span><span class="sxs-lookup"><span data-stu-id="c0d60-167">Spoofing identity</span></span><br /><br /> <span data-ttu-id="c0d60-168">竄改資料</span><span class="sxs-lookup"><span data-stu-id="c0d60-168">Tampering with data</span></span><br /><br /> <span data-ttu-id="c0d60-169">資訊洩露</span><span class="sxs-lookup"><span data-stu-id="c0d60-169">Information disclosure</span></span>|<span data-ttu-id="c0d60-170">9</span><span class="sxs-lookup"><span data-stu-id="c0d60-170">9</span></span>|<span data-ttu-id="c0d60-171">9</span><span class="sxs-lookup"><span data-stu-id="c0d60-171">9</span></span>|<span data-ttu-id="c0d60-172">2</span><span class="sxs-lookup"><span data-stu-id="c0d60-172">2</span></span>|<span data-ttu-id="c0d60-173">10</span><span class="sxs-lookup"><span data-stu-id="c0d60-173">10</span></span>|<span data-ttu-id="c0d60-174">5</span><span class="sxs-lookup"><span data-stu-id="c0d60-174">5</span></span>|<span data-ttu-id="c0d60-175">7</span><span class="sxs-lookup"><span data-stu-id="c0d60-175">7</span></span>|  
+|<span data-ttu-id="c0d60-176">FTP 伺服器容易受到未經授權的 DHCP 伺服器攻擊</span><span class="sxs-lookup"><span data-stu-id="c0d60-176">FTP server is vulnerable to unauthorized DHCP server attacks</span></span>|<span data-ttu-id="c0d60-177">偽造識別</span><span class="sxs-lookup"><span data-stu-id="c0d60-177">Spoofing identity</span></span><br /><br /> <span data-ttu-id="c0d60-178">竄改資料</span><span class="sxs-lookup"><span data-stu-id="c0d60-178">Tampering with data</span></span><br /><br /> <span data-ttu-id="c0d60-179">資訊洩露</span><span class="sxs-lookup"><span data-stu-id="c0d60-179">Information disclosure</span></span>|<span data-ttu-id="c0d60-180">5</span><span class="sxs-lookup"><span data-stu-id="c0d60-180">5</span></span>|<span data-ttu-id="c0d60-181">5</span><span class="sxs-lookup"><span data-stu-id="c0d60-181">5</span></span>|<span data-ttu-id="c0d60-182">2</span><span class="sxs-lookup"><span data-stu-id="c0d60-182">2</span></span>|<span data-ttu-id="c0d60-183">10</span><span class="sxs-lookup"><span data-stu-id="c0d60-183">10</span></span>|<span data-ttu-id="c0d60-184">5</span><span class="sxs-lookup"><span data-stu-id="c0d60-184">5</span></span>|<span data-ttu-id="c0d60-185">5.4</span><span class="sxs-lookup"><span data-stu-id="c0d60-185">5.4</span></span>|  
   
-## <a name="step-4-identify-mitigation-techniques-ftp-adapter-scenario"></a>步驟 4： 識別防護技術 （FTP 配接器實例）  
- 本節呈現我們在範例架構的 FTP 配接器實例所識別的威脅之一些防護技術。  
+## <a name="step-4-identify-mitigation-techniques-ftp-adapter-scenario"></a><span data-ttu-id="c0d60-186">步驟 4：</span><span class="sxs-lookup"><span data-stu-id="c0d60-186">Step 4.</span></span> <span data-ttu-id="c0d60-187">識別防護技術 （FTP 配接器實例）</span><span class="sxs-lookup"><span data-stu-id="c0d60-187">Identify Mitigation Techniques (FTP Adapter Scenario)</span></span>  
+ <span data-ttu-id="c0d60-188">本節呈現我們在範例架構的 FTP 配接器實例所識別的威脅之一些防護技術。</span><span class="sxs-lookup"><span data-stu-id="c0d60-188">This section presents some mitigation techniques for the threats we identified for the FTP adapter scenario for the sample architecture.</span></span>  
   
- 下表列出當您使用 FTP 配接器從 BizTalk Server 傳送和接收訊息時，我們所識別的威脅之防護技術。  
+ <span data-ttu-id="c0d60-189">下表列出當您使用 FTP 配接器從 BizTalk Server 傳送和接收訊息時，我們所識別的威脅之防護技術。</span><span class="sxs-lookup"><span data-stu-id="c0d60-189">The following table lists mitigation techniques and technologies for the threats we identified when you use the FTP adapter to send and receive messages to and from BizTalk Server.</span></span>  
   
- **表 3 防護技術和技術**  
+ <span data-ttu-id="c0d60-190">**表 3 防護技術和技術**</span><span class="sxs-lookup"><span data-stu-id="c0d60-190">**Table 3 Mitigation techniques and technologies**</span></span>  
   
-|威脅|影響|風險暴露程度|防護技術|  
+|<span data-ttu-id="c0d60-191">威脅</span><span class="sxs-lookup"><span data-stu-id="c0d60-191">Threat</span></span>|<span data-ttu-id="c0d60-192">影響</span><span class="sxs-lookup"><span data-stu-id="c0d60-192">Impact</span></span>|<span data-ttu-id="c0d60-193">風險暴露程度</span><span class="sxs-lookup"><span data-stu-id="c0d60-193">Risk exposure</span></span>|<span data-ttu-id="c0d60-194">防護技術</span><span class="sxs-lookup"><span data-stu-id="c0d60-194">Mitigation techniques and technologies</span></span>|  
 |------------|------------|-------------------|--------------------------------------------|  
-|FTP 通訊協定並不安全|偽造識別<br /><br /> 竄改資料<br /><br /> 資訊洩露|7|FTP 配接器必須用於安全的環境中，而且要透過安全線路使用。|  
-|FTP 伺服器容易受到未經授權的 DHCP 伺服器攻擊|偽造識別<br /><br /> 竄改資料<br /><br /> 資訊洩露|5.4|建議您將遠端 FTP 伺服器放在安全的位置。 您必須確定此伺服器的實體和網路安全性，讓未經授權 DHCP 伺服器的攻擊降至最低。|  
+|<span data-ttu-id="c0d60-195">FTP 通訊協定並不安全</span><span class="sxs-lookup"><span data-stu-id="c0d60-195">FTP protocol is not secure</span></span>|<span data-ttu-id="c0d60-196">偽造識別</span><span class="sxs-lookup"><span data-stu-id="c0d60-196">Spoofing identity</span></span><br /><br /> <span data-ttu-id="c0d60-197">竄改資料</span><span class="sxs-lookup"><span data-stu-id="c0d60-197">Tampering with data</span></span><br /><br /> <span data-ttu-id="c0d60-198">資訊洩露</span><span class="sxs-lookup"><span data-stu-id="c0d60-198">Information disclosure</span></span>|<span data-ttu-id="c0d60-199">7</span><span class="sxs-lookup"><span data-stu-id="c0d60-199">7</span></span>|<span data-ttu-id="c0d60-200">FTP 配接器必須用於安全的環境中，而且要透過安全線路使用。</span><span class="sxs-lookup"><span data-stu-id="c0d60-200">The FTP adapter must be used within a secure environment and over a secure line.</span></span>|  
+|<span data-ttu-id="c0d60-201">FTP 伺服器容易受到未經授權的 DHCP 伺服器攻擊</span><span class="sxs-lookup"><span data-stu-id="c0d60-201">FTP server is vulnerable to unauthorized DHCP server attacks</span></span>|<span data-ttu-id="c0d60-202">偽造識別</span><span class="sxs-lookup"><span data-stu-id="c0d60-202">Spoofing identity</span></span><br /><br /> <span data-ttu-id="c0d60-203">竄改資料</span><span class="sxs-lookup"><span data-stu-id="c0d60-203">Tampering with data</span></span><br /><br /> <span data-ttu-id="c0d60-204">資訊洩露</span><span class="sxs-lookup"><span data-stu-id="c0d60-204">Information disclosure</span></span>|<span data-ttu-id="c0d60-205">5.4</span><span class="sxs-lookup"><span data-stu-id="c0d60-205">5.4</span></span>|<span data-ttu-id="c0d60-206">建議您將遠端 FTP 伺服器放在安全的位置。</span><span class="sxs-lookup"><span data-stu-id="c0d60-206">We recommend that you put the remote FTP server in a secure location.</span></span> <span data-ttu-id="c0d60-207">您必須確定此伺服器的實體和網路安全性，讓未經授權 DHCP 伺服器的攻擊降至最低。</span><span class="sxs-lookup"><span data-stu-id="c0d60-207">You must ensure the physical and network security of this server to minimize unauthorized DHCP server attacks.</span></span>|  
   
-## <a name="see-also"></a>另請參閱  
- [威脅模型分析](../core/threat-model-analysis.md)   
- [威脅模型分析的範例案例](../core/sample-scenarios-for-threat-model-analysis.md)   
- [小型與中型公司的範例架構](../core/sample-architectures-for-small-medium-sized-companies.md)
+## <a name="see-also"></a><span data-ttu-id="c0d60-208">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c0d60-208">See Also</span></span>  
+ <span data-ttu-id="c0d60-209">[威脅模型分析](../core/threat-model-analysis.md) </span><span class="sxs-lookup"><span data-stu-id="c0d60-209">[Threat Model Analysis](../core/threat-model-analysis.md) </span></span>  
+ <span data-ttu-id="c0d60-210">[威脅模型分析的範例案例](../core/sample-scenarios-for-threat-model-analysis.md) </span><span class="sxs-lookup"><span data-stu-id="c0d60-210">[Sample Scenarios for Threat Model Analysis](../core/sample-scenarios-for-threat-model-analysis.md) </span></span>  
+ [<span data-ttu-id="c0d60-211">小型與中型公司的範例架構</span><span class="sxs-lookup"><span data-stu-id="c0d60-211">Sample Architectures for Small & Medium-Sized Companies</span></span>](../core/sample-architectures-for-small-medium-sized-companies.md)

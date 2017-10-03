@@ -18,21 +18,21 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="single-sign-on-event-10758"></a>單一登入： 事件 10758
-## <a name="details"></a>詳細資料  
+# <a name="single-sign-on-event-10758"></a><span data-ttu-id="98d90-102">單一登入： 事件 10758</span><span class="sxs-lookup"><span data-stu-id="98d90-102">Single Sign-On: Event 10758</span></span>
+## <a name="details"></a><span data-ttu-id="98d90-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="98d90-103">Details</span></span>  
   
 |||  
 |-|-|  
-|產品名稱|企業單一登入|  
-|產品版本|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|事件識別碼|10758|  
-|事件來源|ENTSSO|  
-|元件|不適用|  
-|符號名稱|ENTSSO_E_FIELD_EXISTS|  
-|訊息文字|欄位已存在。|  
+|<span data-ttu-id="98d90-104">產品名稱</span><span class="sxs-lookup"><span data-stu-id="98d90-104">Product Name</span></span>|<span data-ttu-id="98d90-105">企業單一登入</span><span class="sxs-lookup"><span data-stu-id="98d90-105">Enterprise Single Sign-On</span></span>|  
+|<span data-ttu-id="98d90-106">產品版本</span><span class="sxs-lookup"><span data-stu-id="98d90-106">Product Version</span></span>|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
+|<span data-ttu-id="98d90-107">事件識別碼</span><span class="sxs-lookup"><span data-stu-id="98d90-107">Event ID</span></span>|<span data-ttu-id="98d90-108">10758</span><span class="sxs-lookup"><span data-stu-id="98d90-108">10758</span></span>|  
+|<span data-ttu-id="98d90-109">事件來源</span><span class="sxs-lookup"><span data-stu-id="98d90-109">Event Source</span></span>|<span data-ttu-id="98d90-110">ENTSSO</span><span class="sxs-lookup"><span data-stu-id="98d90-110">ENTSSO</span></span>|  
+|<span data-ttu-id="98d90-111">元件</span><span class="sxs-lookup"><span data-stu-id="98d90-111">Component</span></span>|<span data-ttu-id="98d90-112">不適用</span><span class="sxs-lookup"><span data-stu-id="98d90-112">N/A</span></span>|  
+|<span data-ttu-id="98d90-113">符號名稱</span><span class="sxs-lookup"><span data-stu-id="98d90-113">Symbolic Name</span></span>|<span data-ttu-id="98d90-114">ENTSSO_E_FIELD_EXISTS</span><span class="sxs-lookup"><span data-stu-id="98d90-114">ENTSSO_E_FIELD_EXISTS</span></span>|  
+|<span data-ttu-id="98d90-115">訊息文字</span><span class="sxs-lookup"><span data-stu-id="98d90-115">Message Text</span></span>|<span data-ttu-id="98d90-116">欄位已存在。</span><span class="sxs-lookup"><span data-stu-id="98d90-116">The field already exists.</span></span>|  
   
-## <a name="explanation"></a>說明  
- 欄位已存在。  
+## <a name="explanation"></a><span data-ttu-id="98d90-117">說明</span><span class="sxs-lookup"><span data-stu-id="98d90-117">Explanation</span></span>  
+ <span data-ttu-id="98d90-118">欄位已存在。</span><span class="sxs-lookup"><span data-stu-id="98d90-118">The field already exists.</span></span>  
   
-## <a name="user-action"></a>使用者動作  
- 使用者不必採取任何動作。
+## <a name="user-action"></a><span data-ttu-id="98d90-119">使用者動作</span><span class="sxs-lookup"><span data-stu-id="98d90-119">User Action</span></span>  
+ <span data-ttu-id="98d90-120">使用者不必採取任何動作。</span><span class="sxs-lookup"><span data-stu-id="98d90-120">No user action is necessary.</span></span>

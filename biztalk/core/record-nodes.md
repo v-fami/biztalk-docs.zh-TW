@@ -18,21 +18,21 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="record-nodes"></a>記錄節點
-在 「 BizTalk 編輯器 」 中，使用**記錄**節點表示資訊的集合，其中個別的項目可以是：  
+# <a name="record-nodes"></a><span data-ttu-id="ceab4-102">記錄節點</span><span class="sxs-lookup"><span data-stu-id="ceab4-102">Record Nodes</span></span>
+<span data-ttu-id="ceab4-103">在 「 BizTalk 編輯器 」 中，使用**記錄**節點表示資訊的集合，其中個別的項目可以是：</span><span class="sxs-lookup"><span data-stu-id="ceab4-103">In BizTalk Editor, you use a **Record** node to represent a collection of information, the individual items of which can be:</span></span>  
   
--   簡單資訊類型，像是字串和數字，以子欄位節點表示。 這些子欄位節點可以是**欄位項目**節點或**欄位屬性**節點。 如需這兩種類型的欄位節點的詳細資訊，請參閱[欄位項目節點](../core/field-element-nodes.md)和[欄位屬性節點](../core/field-attribute-nodes.md)。  
+-   <span data-ttu-id="ceab4-104">簡單資訊類型，像是字串和數字，以子欄位節點表示。</span><span class="sxs-lookup"><span data-stu-id="ceab4-104">Simple types of information, such as strings and numbers, represented as child field nodes.</span></span> <span data-ttu-id="ceab4-105">這些子欄位節點可以是**欄位項目**節點或**欄位屬性**節點。</span><span class="sxs-lookup"><span data-stu-id="ceab4-105">These child field nodes can be either **Field Element** nodes or **Field Attribute** nodes.</span></span> <span data-ttu-id="ceab4-106">如需這兩種類型的欄位節點的詳細資訊，請參閱[欄位項目節點](../core/field-element-nodes.md)和[欄位屬性節點](../core/field-attribute-nodes.md)。</span><span class="sxs-lookup"><span data-stu-id="ceab4-106">For additional information about these two types of field nodes, see [Field Element Nodes](../core/field-element-nodes.md) and [Field Attribute Nodes](../core/field-attribute-nodes.md).</span></span>  
   
--   複雜類型的資訊，表示為子系**記錄**節點或群組節點 (**Sequence 群組** 節點， **Choice 群組** 節點，或**All 群組**節點)。  
+-   <span data-ttu-id="ceab4-107">複雜類型的資訊，表示為子系**記錄**節點或群組節點 (**Sequence 群組** 節點， **Choice 群組** 節點，或**All 群組**節點)。</span><span class="sxs-lookup"><span data-stu-id="ceab4-107">Complex types of information, represented as child **Record** nodes or as a group node (**Sequence Group** node, **Choice Group** node, or **All Group** node).</span></span>  
   
--   任何未經檢查的資訊類型，表示為子系**Any 項目**或**Any 屬性**節點。  
+-   <span data-ttu-id="ceab4-108">任何未經檢查的資訊類型，表示為子系**Any 項目**或**Any 屬性**節點。</span><span class="sxs-lookup"><span data-stu-id="ceab4-108">Any unexamined type of information, represented as child **Any Element** or **Any Attribute** nodes.</span></span>  
   
--   所代表的屬性群組的**屬性群組**節點。  
+-   <span data-ttu-id="ceab4-109">所代表的屬性群組的**屬性群組**節點。</span><span class="sxs-lookup"><span data-stu-id="ceab4-109">Groups of attributes represented by an **Attribute Group** node.</span></span>  
   
- 當您插入新的子節點至**記錄**節點、 子節點一律已插入目前的子節點結尾處。 中的 XML 結構描述定義 (XSD) 語言表示法中，其對應的區域，這表示這個項目會加入至結尾中的項目結尾加入新項目**順序**， **選擇**，**所有**，或**群組**項目和屬性項目會加入至任何其他的屬性項目，全部都是發生後端**順序**，**選擇**，**所有**，或**群組**項目。  
+ <span data-ttu-id="ceab4-110">當您插入新的子節點至**記錄**節點、 子節點一律已插入目前的子節點結尾處。</span><span class="sxs-lookup"><span data-stu-id="ceab4-110">When you insert a new child node into a **Record** node, the child node is always inserted at the end of the current child nodes.</span></span> <span data-ttu-id="ceab4-111">中的 XML 結構描述定義 (XSD) 語言表示法中，其對應的區域，這表示這個項目會加入至結尾中的項目結尾加入新項目**順序**， **選擇**，**所有**，或**群組**項目和屬性項目會加入至任何其他的屬性項目，全部都是發生後端**順序**，**選擇**，**所有**，或**群組**項目。</span><span class="sxs-lookup"><span data-stu-id="ceab4-111">Within the XML Schema definition (XSD) language representation, new elements are added to the end of their corresponding areas, meaning that nonattribute elements are added to the end of the elements within the **sequence**, **choice**, **all**, or **group** element, and attribute elements are added to the end of any other attribute elements, all of which occur after the **sequence**, **choice**, **all**, or **group** element.</span></span>  
   
-## <a name="xsd-representation"></a>XSD 表示法  
- 當第一次插入新的 XSD 表示法**記錄**節點包含只有三行，如下列範例所示。  
+## <a name="xsd-representation"></a><span data-ttu-id="ceab4-112">XSD 表示法</span><span class="sxs-lookup"><span data-stu-id="ceab4-112">XSD representation</span></span>  
+ <span data-ttu-id="ceab4-113">當第一次插入新的 XSD 表示法**記錄**節點包含只有三行，如下列範例所示。</span><span class="sxs-lookup"><span data-stu-id="ceab4-113">When first inserted, the XSD representation of a new **Record** node consists of only three lines, as shown in the following example.</span></span>  
   
 ```  
 <xs:element name="Record">  
@@ -40,11 +40,11 @@ ms.lasthandoff: 09/20/2017
 </xs:element>  
 ```  
   
- 當其中三個屬性節點以外的任何子節點 (**欄位屬性**，**屬性群組**，和**Any 屬性**) 加入至**記錄**節點，根據預設，它會放在**順序**內的項目**complexType**項目。 **順序**時加入，並移除所有非屬性子節點已刪除，如果第一個非屬性子節點，就會加入項目。 新增的所有三種類型的屬性節點**complexType**項目，但之外和之後任何**順序**項目。  
+ <span data-ttu-id="ceab4-114">當其中三個屬性節點以外的任何子節點 (**欄位屬性**，**屬性群組**，和**Any 屬性**) 加入至**記錄**節點，根據預設，它會放在**順序**內的項目**complexType**項目。</span><span class="sxs-lookup"><span data-stu-id="ceab4-114">When any child node other than one of the three attribute nodes (**Field Attribute**, **Attribute Group**, and **Any Attribute**) is added to a **Record** node, by default it is placed within a **sequence** element within the **complexType** element.</span></span> <span data-ttu-id="ceab4-115">**順序**時加入，並移除所有非屬性子節點已刪除，如果第一個非屬性子節點，就會加入項目。</span><span class="sxs-lookup"><span data-stu-id="ceab4-115">The **sequence** element is added when the first nonattribute child node is added, and removed if all the nonattribute child nodes are deleted.</span></span> <span data-ttu-id="ceab4-116">新增的所有三種類型的屬性節點**complexType**項目，但之外和之後任何**順序**項目。</span><span class="sxs-lookup"><span data-stu-id="ceab4-116">All three types of attribute nodes are added within the **complexType** element, but outside and after any **sequence** element.</span></span>  
   
- **順序**內的非屬性子節點會加入項目也可以**選擇**或**所有**項目，如果您變更**群組順序類型 （節點所有結構描述的屬性）**對應結構描述樹狀結構中節點的屬性**選擇**或**所有**分別。  
+ <span data-ttu-id="ceab4-117">**順序**內的非屬性子節點會加入項目也可以**選擇**或**所有**項目，如果您變更**群組順序類型 （節點所有結構描述的屬性）**對應結構描述樹狀結構中節點的屬性**選擇**或**所有**分別。</span><span class="sxs-lookup"><span data-stu-id="ceab4-117">The **sequence** element within which nonattribute child nodes are added can also be a **choice** or **all** element if you change the **Group Order Type (Node Property of All Schemas)** property of the corresponding node in the schema tree to **Choice** or **All**, respectively.</span></span>  
   
- 在下列範例中，**記錄**節點已重新命名的 shipTo。 內的位置**記錄**其中加入屬性和非屬性節點的節點會顯示在括號中。  
+ <span data-ttu-id="ceab4-118">在下列範例中，**記錄**節點已重新命名的 shipTo。</span><span class="sxs-lookup"><span data-stu-id="ceab4-118">In the following example, the **Record** node has been renamed shipTo.</span></span> <span data-ttu-id="ceab4-119">內的位置**記錄**其中加入屬性和非屬性節點的節點會顯示在括號中。</span><span class="sxs-lookup"><span data-stu-id="ceab4-119">The locations within the **Record** node where attribute and nonattribute nodes are added are shown in brackets.</span></span>  
   
 ```  
 <xs:element name="">  
@@ -60,8 +60,8 @@ ms.lasthandoff: 09/20/2017
   
 ```  
   
-## <a name="see-also"></a>另請參閱  
--  [BizTalk 結構描述表示法](../core/biztalk-representation-of-schemas.md)   
--  [節點屬性](../core/node-properties.md)   
--  **記錄節點屬性**和**群組順序類型 （所有結構描述的節點屬性）**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]
--  [如何設定節點屬性](../core/how-to-set-node-properties.md)
+## <a name="see-also"></a><span data-ttu-id="ceab4-120">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ceab4-120">See Also</span></span>  
+-  [<span data-ttu-id="ceab4-121">BizTalk 結構描述表示法</span><span class="sxs-lookup"><span data-stu-id="ceab4-121">BizTalk Representation of Schemas</span></span>](../core/biztalk-representation-of-schemas.md)   
+-  [<span data-ttu-id="ceab4-122">節點屬性</span><span class="sxs-lookup"><span data-stu-id="ceab4-122">Node Properties</span></span>](../core/node-properties.md)   
+-  <span data-ttu-id="ceab4-123">**記錄節點屬性**和**群組順序類型 （所有結構描述的節點屬性）**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]</span><span class="sxs-lookup"><span data-stu-id="ceab4-123">**Record Node Properties** and **Group Order Type (Node Property of All Schemas)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]</span></span>
+-  [<span data-ttu-id="ceab4-124">如何設定節點屬性</span><span class="sxs-lookup"><span data-stu-id="ceab4-124">How to Set Node Properties</span></span>](../core/how-to-set-node-properties.md)

@@ -18,21 +18,21 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="single-sign-on-event-11024"></a>單一登入： 事件 11024
-## <a name="details"></a>詳細資料  
+# <a name="single-sign-on-event-11024"></a><span data-ttu-id="d597a-102">單一登入： 事件 11024</span><span class="sxs-lookup"><span data-stu-id="d597a-102">Single Sign-On: Event 11024</span></span>
+## <a name="details"></a><span data-ttu-id="d597a-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="d597a-103">Details</span></span>  
   
 |||  
 |-|-|  
-|產品名稱|企業單一登入|  
-|產品版本|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|事件識別碼|11024|  
-|事件來源|ENTSSO|  
-|元件|不適用|  
-|符號名稱|SSO_ERROR_PS_ADMIN_CALLBACK_ACCESS_DENIED|  
-|訊息文字|密碼同步伺服器 (針對管理) 存取遭拒。%r<br /><br /> 用戶端使用者： %1|  
+|<span data-ttu-id="d597a-104">產品名稱</span><span class="sxs-lookup"><span data-stu-id="d597a-104">Product Name</span></span>|<span data-ttu-id="d597a-105">企業單一登入</span><span class="sxs-lookup"><span data-stu-id="d597a-105">Enterprise Single Sign-On</span></span>|  
+|<span data-ttu-id="d597a-106">產品版本</span><span class="sxs-lookup"><span data-stu-id="d597a-106">Product Version</span></span>|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
+|<span data-ttu-id="d597a-107">事件識別碼</span><span class="sxs-lookup"><span data-stu-id="d597a-107">Event ID</span></span>|<span data-ttu-id="d597a-108">11024</span><span class="sxs-lookup"><span data-stu-id="d597a-108">11024</span></span>|  
+|<span data-ttu-id="d597a-109">事件來源</span><span class="sxs-lookup"><span data-stu-id="d597a-109">Event Source</span></span>|<span data-ttu-id="d597a-110">ENTSSO</span><span class="sxs-lookup"><span data-stu-id="d597a-110">ENTSSO</span></span>|  
+|<span data-ttu-id="d597a-111">元件</span><span class="sxs-lookup"><span data-stu-id="d597a-111">Component</span></span>|<span data-ttu-id="d597a-112">不適用</span><span class="sxs-lookup"><span data-stu-id="d597a-112">N/A</span></span>|  
+|<span data-ttu-id="d597a-113">符號名稱</span><span class="sxs-lookup"><span data-stu-id="d597a-113">Symbolic Name</span></span>|<span data-ttu-id="d597a-114">SSO_ERROR_PS_ADMIN_CALLBACK_ACCESS_DENIED</span><span class="sxs-lookup"><span data-stu-id="d597a-114">SSO_ERROR_PS_ADMIN_CALLBACK_ACCESS_DENIED</span></span>|  
+|<span data-ttu-id="d597a-115">訊息文字</span><span class="sxs-lookup"><span data-stu-id="d597a-115">Message Text</span></span>|<span data-ttu-id="d597a-116">密碼同步伺服器 (針對管理) 存取遭拒。%r</span><span class="sxs-lookup"><span data-stu-id="d597a-116">Password sync server (for admin) access denied.%r</span></span><br /><br /> <span data-ttu-id="d597a-117">用戶端使用者： %1</span><span class="sxs-lookup"><span data-stu-id="d597a-117">Client User: %1</span></span>|  
   
-## <a name="explanation"></a>說明  
- RPC 失敗。  
+## <a name="explanation"></a><span data-ttu-id="d597a-118">說明</span><span class="sxs-lookup"><span data-stu-id="d597a-118">Explanation</span></span>  
+ <span data-ttu-id="d597a-119">RPC 失敗。</span><span class="sxs-lookup"><span data-stu-id="d597a-119">RPC failure.</span></span>  
   
-## <a name="user-action"></a>使用者動作  
- 請檢查您的網路設定。
+## <a name="user-action"></a><span data-ttu-id="d597a-120">使用者動作</span><span class="sxs-lookup"><span data-stu-id="d597a-120">User Action</span></span>  
+ <span data-ttu-id="d597a-121">請檢查您的網路設定。</span><span class="sxs-lookup"><span data-stu-id="d597a-121">Check your network configuration.</span></span>

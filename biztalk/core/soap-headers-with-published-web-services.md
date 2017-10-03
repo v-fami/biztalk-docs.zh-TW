@@ -23,13 +23,13 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="soap-headers-with-published-web-services"></a>SOAP 標頭與已發佈的 Web 服務
-您可以將 SOAP 標頭加入至已發佈的 Web 服務。 在 BizTalk Web 服務發佈精靈上**Web 服務屬性**頁面上，您可以檢查**加入 SOAP 標頭**方塊將 SOAP 標頭新增至已發行的 Web 服務。  
+# <a name="soap-headers-with-published-web-services"></a><span data-ttu-id="d99f1-102">SOAP 標頭與已發佈的 Web 服務</span><span class="sxs-lookup"><span data-stu-id="d99f1-102">SOAP Headers with Published Web Services</span></span>
+<span data-ttu-id="d99f1-103">您可以將 SOAP 標頭加入至已發佈的 Web 服務。</span><span class="sxs-lookup"><span data-stu-id="d99f1-103">You can add SOAP headers to your published Web services.</span></span> <span data-ttu-id="d99f1-104">在 BizTalk Web 服務發佈精靈上**Web 服務屬性**頁面上，您可以檢查**加入 SOAP 標頭**方塊將 SOAP 標頭新增至已發行的 Web 服務。</span><span class="sxs-lookup"><span data-stu-id="d99f1-104">In the BizTalk Web Services Publishing Wizard on the **Web Services Properties** page, you can check the **Add SOAP headers** box to add SOAP headers to your published Web services.</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="d99f1-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="d99f1-105">In This Section</span></span>  
   
--   [發佈具有 SOAP 標頭的 Web 服務](../core/publishing-web-services-with-soap-headers.md)  
+-   [<span data-ttu-id="d99f1-106">發佈具有 SOAP 標頭的 Web 服務</span><span class="sxs-lookup"><span data-stu-id="d99f1-106">Publishing Web Services with SOAP Headers</span></span>](../core/publishing-web-services-with-soap-headers.md)  
   
--   [在協調流程中存取 SOAP 標頭](../core/accessing-soap-headers-in-orchestrations.md)  
+-   [<span data-ttu-id="d99f1-107">在協調流程中存取 SOAP 標頭</span><span class="sxs-lookup"><span data-stu-id="d99f1-107">Accessing SOAP Headers in Orchestrations</span></span>](../core/accessing-soap-headers-in-orchestrations.md)  
   
--   [存取管線元件中的 SOAP 標頭](../core/accessing-soap-headers-in-pipeline-components.md)
+-   [<span data-ttu-id="d99f1-108">存取管線元件中的 SOAP 標頭</span><span class="sxs-lookup"><span data-stu-id="d99f1-108">Accessing SOAP Headers in Pipeline Components</span></span>](../core/accessing-soap-headers-in-pipeline-components.md)

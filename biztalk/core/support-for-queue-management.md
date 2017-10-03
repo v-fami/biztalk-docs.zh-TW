@@ -18,13 +18,13 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="support-for-queue-management"></a>佇列管理支援
-有了 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] MQSeries 配接器，現在您可以使用 MQSeries 佇列管理員，在遠端建立與刪除佇列。 這是因為 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 使用遠端 MQSAgent COM+ 物件直接與 MQSeries 佇列管理員通訊所致。 通常此 MQSAgent 是在執行階段用來讀取與寫入遠端 MQSeries Server 佇列的訊息。 此遠端服務同時可支援一個以上的 BizTalk Server 作為其用戶端。 此外，佇列的建立與刪除功能都是由此 MQSAgent 提供，可以從協調流程或配接器中直接呼叫。 這樣一來，協調流程或配接器可以建立臨時佇列，然後用它來傳送訊息、接收另一個佇列的回應，並最終刪除臨時佇列，形成一個高度動態的實例。  
+# <a name="support-for-queue-management"></a><span data-ttu-id="de12c-102">佇列管理支援</span><span class="sxs-lookup"><span data-stu-id="de12c-102">Support for Queue Management</span></span>
+<span data-ttu-id="de12c-103">有了 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] MQSeries 配接器，現在您可以使用 MQSeries 佇列管理員，在遠端建立與刪除佇列。</span><span class="sxs-lookup"><span data-stu-id="de12c-103">With the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] MQSeries adapter you can now create and delete queues remotely on the MQSeries Queue Manager.</span></span> <span data-ttu-id="de12c-104">這是因為 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 使用遠端 MQSAgent COM+ 物件直接與 MQSeries 佇列管理員通訊所致。</span><span class="sxs-lookup"><span data-stu-id="de12c-104">This is supported because [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses a remote MQSAgent COM+ object that communicates directly with the MQSeries Queue Manager.</span></span> <span data-ttu-id="de12c-105">通常此 MQSAgent 是在執行階段用來讀取與寫入遠端 MQSeries Server 佇列的訊息。</span><span class="sxs-lookup"><span data-stu-id="de12c-105">Typically this MQSAgent is used at run time to read and write messages to the remote MQSeries Server queues.</span></span> <span data-ttu-id="de12c-106">此遠端服務同時可支援一個以上的 BizTalk Server 作為其用戶端。</span><span class="sxs-lookup"><span data-stu-id="de12c-106">More than one BizTalk server can be a client of this remote service.</span></span> <span data-ttu-id="de12c-107">此外，佇列的建立與刪除功能都是由此 MQSAgent 提供，可以從協調流程或配接器中直接呼叫。</span><span class="sxs-lookup"><span data-stu-id="de12c-107">Additionally, queue creation and deletion functions are provided by this MQSAgent and can be called directly from within an orchestration or adapter.</span></span> <span data-ttu-id="de12c-108">這樣一來，協調流程或配接器可以建立臨時佇列，然後用它來傳送訊息、接收另一個佇列的回應，並最終刪除臨時佇列，形成一個高度動態的實例。</span><span class="sxs-lookup"><span data-stu-id="de12c-108">This allows for highly dynamic scenarios whereby the orchestration or adapter can create a temporary queue and then send a message on it, receive a reply on another queue, and finally delete the temporary queue.</span></span>  
   
-## <a name="createqueue-and-deletequeue-apis"></a>CreateQueue 與 DeleteQueue 等 API  
- CreateQueue 與 DeleteQueue 等 API 的定義如下所示：  
+## <a name="createqueue-and-deletequeue-apis"></a><span data-ttu-id="de12c-109">CreateQueue 與 DeleteQueue 等 API</span><span class="sxs-lookup"><span data-stu-id="de12c-109">CreateQueue and DeleteQueue APIs</span></span>  
+ <span data-ttu-id="de12c-110">CreateQueue 與 DeleteQueue 等 API 的定義如下所示：</span><span class="sxs-lookup"><span data-stu-id="de12c-110">The CreateQueue and DeleteQueue APIs are defined as follows.</span></span>  
   
-### <a name="structure-definition"></a>結構定義  
+### <a name="structure-definition"></a><span data-ttu-id="de12c-111">結構定義</span><span class="sxs-lookup"><span data-stu-id="de12c-111">Structure Definition</span></span>  
   
 ```  
 typedef enum QueueUsage {  
@@ -42,7 +42,7 @@ typedef enum ResultCode {
 } ResultCode;  
 ```  
   
-### <a name="interface-definition"></a>介面定義  
+### <a name="interface-definition"></a><span data-ttu-id="de12c-112">介面定義</span><span class="sxs-lookup"><span data-stu-id="de12c-112">Interface Definition</span></span>  
   
 ```  
 [  
@@ -82,16 +82,16 @@ HRESULT DeleteQueue (
   
 ```  
   
-## <a name="examples"></a>範例  
- 完成範例 1 的步驟，建立可用來建立或刪除 MQSeries Server 佇列的 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] C# 主控台應用程式。  
+## <a name="examples"></a><span data-ttu-id="de12c-113">範例</span><span class="sxs-lookup"><span data-stu-id="de12c-113">Examples</span></span>  
+ <span data-ttu-id="de12c-114">完成範例 1 的步驟，建立可用來建立或刪除 MQSeries Server 佇列的 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] C# 主控台應用程式。</span><span class="sxs-lookup"><span data-stu-id="de12c-114">Complete the steps in Example 1 to create a [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] C# console application which can be used to create or delete MQSeries Server queues.</span></span>  
   
-### <a name="example-1"></a>範例 1  
+### <a name="example-1"></a><span data-ttu-id="de12c-115">範例 1</span><span class="sxs-lookup"><span data-stu-id="de12c-115">Example 1</span></span>  
   
-##### <a name="create-a-c-console-application-to-manage-mqseries-server-queues"></a>建立 C# 主控台應用程式以管理 MQSeries Server 佇列  
+##### <a name="create-a-c-console-application-to-manage-mqseries-server-queues"></a><span data-ttu-id="de12c-116">建立 C# 主控台應用程式以管理 MQSeries Server 佇列</span><span class="sxs-lookup"><span data-stu-id="de12c-116">Create a C# console application to manage MQSeries Server queues</span></span>  
   
-1.  建立新 Visual C# 主控台應用程式中[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]名稱**MQSeriesQueues**。  
+1.  <span data-ttu-id="de12c-117">建立新 Visual C# 主控台應用程式中[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]名稱**MQSeriesQueues**。</span><span class="sxs-lookup"><span data-stu-id="de12c-117">Create a new Visual C# Console Application in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] with the name **MQSeriesQueues**.</span></span>  
   
-2.  以下列程式碼取代所產生 Program.cs 檔案中的任何現有程式碼：  
+2.  <span data-ttu-id="de12c-118">以下列程式碼取代所產生 Program.cs 檔案中的任何現有程式碼：</span><span class="sxs-lookup"><span data-stu-id="de12c-118">Replace any existing code in the Program.cs file that is generated with the code below:</span></span>  
   
     ```  
     using System;  
@@ -164,22 +164,22 @@ HRESULT DeleteQueue (
     }  
     ```  
   
-3.  將參考加入至這個專案**MQSAgent 1.0 型別程式庫**。 **MQSAgent 1.0 型別程式庫**位於**COM**  索引標籤**將參考加入** 對話方塊。  
+3.  <span data-ttu-id="de12c-119">將參考加入至這個專案**MQSAgent 1.0 型別程式庫**。</span><span class="sxs-lookup"><span data-stu-id="de12c-119">Add a reference to this project to the **MQSAgent 1.0 Type Library**.</span></span> <span data-ttu-id="de12c-120">**MQSAgent 1.0 型別程式庫**位於**COM**  索引標籤**將參考加入** 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="de12c-120">The **MQSAgent 1.0 Type Library** is available on the **COM** tab of the **Add reference** dialog box.</span></span>  
   
     > [!NOTE]
-    >  其中正在執行此主控台應用程式的電腦，必須安裝 MQSAgent COM+ 元件。 如需安裝 MQSAgent COM + 元件的詳細資訊，請參閱[使用 MQSAgent COM + 組態精靈](../core/using-the-mqsagent-com-configuration-wizard.md)。  
+    >  <span data-ttu-id="de12c-121">其中正在執行此主控台應用程式的電腦，必須安裝 MQSAgent COM+ 元件。</span><span class="sxs-lookup"><span data-stu-id="de12c-121">The MQSAgent COM+ component must be installed on the computer that you are running this console application from.</span></span> <span data-ttu-id="de12c-122">如需安裝 MQSAgent COM + 元件的詳細資訊，請參閱[使用 MQSAgent COM + 組態精靈](../core/using-the-mqsagent-com-configuration-wizard.md)。</span><span class="sxs-lookup"><span data-stu-id="de12c-122">For more information about installing the MQSAgent COM+ component see [Using the MQSAgent COM+ Configuration Wizard](../core/using-the-mqsagent-com-configuration-wizard.md).</span></span>  
   
-4.  建置主控台應用程式。  
+4.  <span data-ttu-id="de12c-123">建置主控台應用程式。</span><span class="sxs-lookup"><span data-stu-id="de12c-123">Build the console application.</span></span>  
   
-5.  開啟命令提示字元，移至已編譯主控台應用程式的相同目錄。  
+5.  <span data-ttu-id="de12c-124">開啟命令提示字元，移至已編譯主控台應用程式的相同目錄。</span><span class="sxs-lookup"><span data-stu-id="de12c-124">Open a command prompt in the same directory as the compiled console application.</span></span>  
   
-6.  輸入已編譯主控台應用程式的名稱加上適當的參數，然後按 ENTER。 例如，若要刪除佇列**qm_test**佇列管理員**testq**在命令提示字元中輸入下列文字，然後按 ENTER 鍵：  
+6.  <span data-ttu-id="de12c-125">輸入已編譯主控台應用程式的名稱加上適當的參數，然後按 ENTER。</span><span class="sxs-lookup"><span data-stu-id="de12c-125">Type the name of the compiled console application with the appropriate arguments and press ENTER.</span></span> <span data-ttu-id="de12c-126">例如，若要刪除佇列**qm_test**佇列管理員**testq**在命令提示字元中輸入下列文字，然後按 ENTER 鍵：</span><span class="sxs-lookup"><span data-stu-id="de12c-126">For example, to delete the queue **testq** for the Queue Manager **QM_Test** you would type the following text at the command prompt and press ENTER:</span></span>  
   
     ```  
     MQSeriesQueues d QM_Test testq  
     ```  
   
-7.  若要建立佇列**qm_test**佇列管理員**testq**在命令提示字元中輸入下列文字，然後按 ENTER 鍵：  
+7.  <span data-ttu-id="de12c-127">若要建立佇列**qm_test**佇列管理員**testq**在命令提示字元中輸入下列文字，然後按 ENTER 鍵：</span><span class="sxs-lookup"><span data-stu-id="de12c-127">To create the queue **testq** for the Queue Manager **QM_Test** you would type the following text at the command prompt and press ENTER:</span></span>  
   
     ```  
     MQSeriesQueues c QM_Test testq  

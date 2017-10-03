@@ -19,13 +19,13 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="soap-adapter"></a>SOAP 配接器
-Microsoft BizTalk Server Web 服務在接收和傳送 Web 服務要求時會使用 SOAP 配接器。 SOAP 配接器可以讓您發佈協調流程做為 Web 服務與取用外部 Web 服務。  
+# <a name="soap-adapter"></a><span data-ttu-id="83699-102">SOAP 配接器</span><span class="sxs-lookup"><span data-stu-id="83699-102">SOAP Adapter</span></span>
+<span data-ttu-id="83699-103">Microsoft BizTalk Server Web 服務在接收和傳送 Web 服務要求時會使用 SOAP 配接器。</span><span class="sxs-lookup"><span data-stu-id="83699-103">Microsoft BizTalk Server Web services use the SOAP adapter when receiving and sending Web service requests.</span></span> <span data-ttu-id="83699-104">SOAP 配接器可以讓您發佈協調流程做為 Web 服務與取用外部 Web 服務。</span><span class="sxs-lookup"><span data-stu-id="83699-104">The SOAP adapter enables you to publish orchestrations as Web services and consume external Web services.</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="83699-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="83699-105">In This Section</span></span>  
   
--   [什麼是 SOAP 配接器？](../core/what-is-the-soap-adapter.md)  
+-   [<span data-ttu-id="83699-106">什麼是 SOAP 配接器？</span><span class="sxs-lookup"><span data-stu-id="83699-106">What Is the SOAP Adapter?</span></span>](../core/what-is-the-soap-adapter.md)  
   
--   [設定 SOAP 配接器](../core/configuring-the-soap-adapter.md)  
+-   [<span data-ttu-id="83699-107">設定 SOAP 配接器</span><span class="sxs-lookup"><span data-stu-id="83699-107">Configuring the SOAP Adapter</span></span>](../core/configuring-the-soap-adapter.md)  
   
--   [SOAP 配接器安全性建議](../core/soap-adapter-security-recommendations.md)
+-   [<span data-ttu-id="83699-108">SOAP 配接器安全性建議</span><span class="sxs-lookup"><span data-stu-id="83699-108">SOAP Adapter Security Recommendations</span></span>](../core/soap-adapter-security-recommendations.md)

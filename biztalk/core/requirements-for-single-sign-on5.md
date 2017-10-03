@@ -23,29 +23,29 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="requirements-for-single-sign-on"></a>單一登入的需求
-若要使用單一登入 (SSO)，您必須有：  
+# <a name="requirements-for-single-sign-on"></a><span data-ttu-id="d9c24-102">單一登入的需求</span><span class="sxs-lookup"><span data-stu-id="d9c24-102">Requirements for Single Sign-On</span></span>
+<span data-ttu-id="d9c24-103">若要使用單一登入 (SSO)，您必須有：</span><span class="sxs-lookup"><span data-stu-id="d9c24-103">To use Single Sign-On (SSO), you must have:</span></span>  
   
--   Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]  
+-   <span data-ttu-id="d9c24-104">Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]</span><span class="sxs-lookup"><span data-stu-id="d9c24-104">Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]</span></span>  
   
 -   [!INCLUDE[vs2010](../includes/vs2010-md.md)]  
   
--   企業單一登入  
+-   <span data-ttu-id="d9c24-105">企業單一登入</span><span class="sxs-lookup"><span data-stu-id="d9c24-105">Enterprise Single Sign-On</span></span>  
   
--   支援 SSO 的伺服器系統  
+-   <span data-ttu-id="d9c24-106">支援 SSO 的伺服器系統</span><span class="sxs-lookup"><span data-stu-id="d9c24-106">A Server System that supports SSO</span></span>  
   
- 外掛式主控件應設定為信任的驗證  
+ <span data-ttu-id="d9c24-107">外掛式主控件應設定為信任的驗證</span><span class="sxs-lookup"><span data-stu-id="d9c24-107">The isolated host should be configured as authentication trusted.</span></span>  
   
-### <a name="to-enable-sso"></a>啟用 SSO  
+### <a name="to-enable-sso"></a><span data-ttu-id="d9c24-108">啟用 SSO</span><span class="sxs-lookup"><span data-stu-id="d9c24-108">To enable SSO</span></span>  
   
-1.  在**傳輸屬性**視窗中，選取**是**如**使用 SSO**。  
+1.  <span data-ttu-id="d9c24-109">在**傳輸屬性**視窗中，選取**是**如**使用 SSO**。</span><span class="sxs-lookup"><span data-stu-id="d9c24-109">In the **Transport Properties** window, select **Yes** for **Use SSO**.</span></span>  
   
-2.  指定傳輸屬性時，選取適當的分支機構應用程式。  
+2.  <span data-ttu-id="d9c24-110">指定傳輸屬性時，選取適當的分支機構應用程式。</span><span class="sxs-lookup"><span data-stu-id="d9c24-110">Select an appropriate affiliate application when specifying transport properties.</span></span>  
   
-     如需建立分支機構應用程式的資訊，請參閱[建立分支機構應用程式](../core/creating-affiliate-applications3.md)。  
+     <span data-ttu-id="d9c24-111">如需建立分支機構應用程式的資訊，請參閱[建立分支機構應用程式](../core/creating-affiliate-applications3.md)。</span><span class="sxs-lookup"><span data-stu-id="d9c24-111">For information about creating affiliate applications, see [Creating Affiliate Applications](../core/creating-affiliate-applications3.md).</span></span>  
   
     > [!NOTE]
-    >  執行工作之後使用 SSO，請記得要重設任何**Web 共用**資料夾**不會共用**。 如果資料夾是共用的，使用該資料夾的應用程式將不會正確更新或解除安裝，因為它會被視為使用中。  
+    >  <span data-ttu-id="d9c24-112">執行工作之後使用 SSO，請記得要重設任何**Web 共用**資料夾**不會共用**。</span><span class="sxs-lookup"><span data-stu-id="d9c24-112">After performing work using SSO, remember to reset any **Web-Sharing** folder to **Do not share**.</span></span> <span data-ttu-id="d9c24-113">如果資料夾是共用的，使用該資料夾的應用程式將不會正確更新或解除安裝，因為它會被視為使用中。</span><span class="sxs-lookup"><span data-stu-id="d9c24-113">Applications using that folder will not update or uninstall correctly if the folder is shared because it is considered to be in use.</span></span>  
   
-## <a name="see-also"></a>另請參閱  
- [使用單一登入](../core/using-single-sign-on3.md)
+## <a name="see-also"></a><span data-ttu-id="d9c24-114">另請參閱</span><span class="sxs-lookup"><span data-stu-id="d9c24-114">See Also</span></span>  
+ [<span data-ttu-id="d9c24-115">使用單一登入</span><span class="sxs-lookup"><span data-stu-id="d9c24-115">Using Single Sign-On</span></span>](../core/using-single-sign-on3.md)

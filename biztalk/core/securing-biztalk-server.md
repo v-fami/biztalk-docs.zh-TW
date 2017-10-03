@@ -23,15 +23,15 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="securing-biztalk-server"></a>保護 BizTalk Server 安全
-本節提供有關在 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中管理安全性、設定使用者權限和實作「企業單一登入」的資訊。  
+# <a name="securing-biztalk-server"></a><span data-ttu-id="a56b8-102">保護 BizTalk Server 安全</span><span class="sxs-lookup"><span data-stu-id="a56b8-102">Securing BizTalk Server</span></span>
+<span data-ttu-id="a56b8-103">本節提供有關在 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中管理安全性、設定使用者權限和實作「企業單一登入」的資訊。</span><span class="sxs-lookup"><span data-stu-id="a56b8-103">This section provides information about managing security, configuring user rights, and implementing Enterprise Single Sign-On in Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  
   
- 如需有關的 BizTalk Server 安全部署的詳細資訊，請參閱[保護您的 BizTalk Server 部署](../install-and-config-guides/securing-your-biztalk-server-deployment.md)。  
+ <span data-ttu-id="a56b8-104">如需有關的 BizTalk Server 安全部署的詳細資訊，請參閱[保護您的 BizTalk Server 部署](../install-and-config-guides/securing-your-biztalk-server-deployment.md)。</span><span class="sxs-lookup"><span data-stu-id="a56b8-104">Fore more information about secure deployment of BizTalk Server, see [Securing Your BizTalk Server Deployment](../install-and-config-guides/securing-your-biztalk-server-deployment.md).</span></span>  
   
- 如需詳細的 BizTalk Server 安全性功能的相關資訊，請參閱[安全性和 Protection1](https://msdn.microsoft.com/library/dn149557.aspx)。  
+ <span data-ttu-id="a56b8-105">如需詳細的 BizTalk Server 安全性功能的相關資訊，請參閱[安全性和 Protection1](https://msdn.microsoft.com/library/dn149557.aspx)。</span><span class="sxs-lookup"><span data-stu-id="a56b8-105">Fore more information about security features of BizTalk Server, see [Security and Protection1](https://msdn.microsoft.com/library/dn149557.aspx).</span></span>  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="in-this-section"></a><span data-ttu-id="a56b8-106">本節內容</span><span class="sxs-lookup"><span data-stu-id="a56b8-106">In This Section</span></span>  
   
--   [管理 BizTalk Server 安全性](../core/managing-biztalk-server-security.md)  
+-   [<span data-ttu-id="a56b8-107">管理 BizTalk Server 安全性</span><span class="sxs-lookup"><span data-stu-id="a56b8-107">Managing BizTalk Server Security</span></span>](../core/managing-biztalk-server-security.md)  
   
--   [實作企業單一登入](../core/implementing-enterprise-single-sign-on.md)
+-   [<span data-ttu-id="a56b8-108">實作企業單一登入</span><span class="sxs-lookup"><span data-stu-id="a56b8-108">Implementing Enterprise Single Sign-On</span></span>](../core/implementing-enterprise-single-sign-on.md)
