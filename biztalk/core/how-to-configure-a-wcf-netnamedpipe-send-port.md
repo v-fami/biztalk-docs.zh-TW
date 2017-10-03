@@ -1,0 +1,130 @@
+---
+title: "如何設定 Wcf-netnamedpipe 傳送埠 |Microsoft 文件"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: 57684e09-1f72-4bde-976c-3fcec65dc182
+caps.latest.revision: "13"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 297c962294042589ce3b9e7bc3303bcd9a55296e
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/20/2017
+---
+# <a name="how-to-configure-a-wcf-netnamedpipe-send-port"></a>如何設定 WCF-NetNamedPipe 傳送埠
+您可以透過程式設計方式或使用「BizTalk 管理主控台」來設定 WCF-NetNamedPipe 傳送埠。  
+  
+## <a name="configuration-properties"></a>組態屬性
+  
+ BizTalk 總管物件模型公開 （expose) 名為傳送埠的配接器特定介面**ITransportInfo**具有**TransportTypeData**讀/寫屬性。 這個屬性會以名稱-值配對的 XML 字串格式接受 WCF-NetNamedPipe 傳送埠組態屬性包。  
+  
+ **TransportTypeData**屬性**ITransportInfo**介面並非必要。 如果沒有設定此屬性，配接器就會針對 WCF-NetNamedPipe 傳送埠組態使用如下表所示的預設值。  
+  
+ 下表列出您可以在「BizTalk 總管物件模型」中針對 WCF-NetNamedPipe 傳送埠設定的組態屬性。  
+  
+|屬性名稱|類型|Description|  
+|-------------------|----------|-----------------|  
+|**識別**|XML BLOB<br /><br /> 範例：<br /><br /> &lt;身分識別&gt;<br /><br /> &lt;userPrincipalName 值 ="username@contoso.com"/&gt;<br /><br /> &lt;/identity&gt;|指定此傳送埠所預期服務的識別。 這些設定可讓此傳送埠驗證服務。 在用戶端與服務之間的交握程序中，Windows Communication Foundation (WCF) 基礎結構可確保預期之服務的識別能夠與這個項目的值相符。<br /><br /> 預設為空字串。|  
+|**StaticAction**|字串|指定**SOAPAction**外寄訊息的標頭欄位。 這個屬性也可以透過訊息內容屬性設定**WCF。動作**管線或協調流程中。 您可以將這個值指定兩個不同的方式： 單一動作格式和動作對應格式。 如果您設定這個屬性中的單一動作格式-例如，http://contoso.com/Svc/Op1- **SOAPAction**標頭外寄訊息一定會設定這個屬性中指定的值。<br /><br /> 如果您設定此屬性以動作對應格式，傳出**SOAPAction**標頭由**BTS。作業**內容屬性。 例如，如果此屬性設定為下列 XML 格式和**BTS。作業**屬性設定為 Op1，WCF 傳送配接器使用 http://contoso.com/Svc/Op1 針對外寄**SOAPAction**標頭。<br /><br /> \<B ><br /><br /> \<作業名稱 ="Op1 」 動作 ="http://contoso.com/Svc/Op1"/ ><br /><br /> \<作業名稱 ="Op2 」 動作 ="http://contoso.com/Svc/Op2"/ ><br /><br /> \</ B ><br /><br /> 如果外寄訊息是來自協調流程連接埠，協調流程執行個體動態設定**BTS。作業**與連接埠的作業名稱的屬性。 如果外寄訊息都會路由傳送，以內容為基礎的路由，您可以設定**BTS。作業**管線元件中的屬性。<br /><br /> 預設為空字串。|  
+|**OpenTimeout**|**System.TimeSpan**|指定時間值，表示可供完成通道開啟作業的時間間隔。<br /><br /> 預設值： 00:01:00|  
+|**SendTimeout**|**System.TimeSpan**|指定時間值，表示可供完成傳送作業的時間間隔。 如果您使用請求-回應傳送埠，這個值會指定完成整個互動的時間長度，即使服務傳回很大的訊息也是如此。<br /><br /> 預設值：00:01:00|  
+|**CloseTimeout**|**System.TimeSpan**|指定時間值，表示可供完成通道關閉作業的時間間隔。<br /><br /> 預設值：00:01:00|  
+|**MaxReceivedMessageSize**|Integer|指定大小上限，以位元組為單位，可以從網路收到的訊息 （包括標頭）。 訊息的大小受限於配置給每個訊息的記憶體數量。 您可以使用這個屬性來限制遭受拒絕服務 (DoS) 攻擊的風險程度。<br /><br /> 預設值：65536|  
+|**EnableTransaction**|布林|指定訊息時是否傳送至目的地服務，並從交易內容，使用中的 MessageBox 資料庫刪除**Ws-atomictransaction**通訊協定。<br /><br /> 預設值： **False**|  
+|**TransactionProtocol**|Enum<br /><br /> -   **OleTransaction**<br />-   **Ws-atomictransaction**|指定要搭配此繫結使用的交易通訊協定。<br /><br /> 預設值： **OleTransaction**|  
+|**SecurityMode**|Enum<br /><br /> -   **無**-這會停用安全性。<br />-   **傳輸**:-使用基礎傳輸型安全性來提供安全性。 您可以使用此模式來控制保護等級。|指定使用的安全性類型。<br /><br /> 預設值：**傳輸**|  
+|**TransportProtectionLevel**|Enum<br /><br /> -   **無**-沒有保護。<br />-   **符號**-簽署訊息。<br />-   **EncryptAndSign** -加密及簽署訊息。|指定具名管道的保護等級。 簽署訊息可以降低訊息在傳輸時遭到第三者竄改的風險。 加密可在傳輸時提供資料等級的隱私權。<br /><br /> 預設值： **EncryptAndSign**|  
+|**OutboundBodyLocation**|Enum<br /><br /> -   **UseBodyElement** -使用 BizTalk 訊息內文部分建立的 soap 內容**主體**外寄訊息的項目。<br />-   **UseTemplate** -使用中提供的範本**OutboundXMLTemplate**屬性，建立內容的 SOAP**主體**外寄訊息的項目。<br /><br /> 如需有關如何使用**OutboundBodyLocation**屬性，請參閱[指定 WCF 配接器的訊息本文](../core/specifying-the-message-body-for-the-wcf-adapters.md)。|指定資料選取範圍，soap**主體**外寄 WCF 訊息的項目。<br /><br /> 預設值： **UseBodyElement**|  
+|**OutboundXMLTemplate**|字串<br /><br /> 如需有關如何使用**OutboundXMLTemplate**屬性，請參閱[指定 WCF 配接器的訊息本文](../core/specifying-the-message-body-for-the-wcf-adapters.md)。|指定 XML 格式的範本內容的 SOAP**主體**外寄訊息的項目。 如果這個屬性，則需要**OutboundBodyLocation**屬性設定為**UseTemplate**。<br /><br /> 預設為空字串。|  
+|**InboundBodyLocation**|Enum<br /><br /> -   **UseBodyElement** -使用內容的 SOAP**主體**內送訊息建立 BizTalk 訊息內文部分的項目。 如果 **Body** 元素有一個以上的子元素，則只有第一個元素會成為 BizTalk 訊息內文部分。 此屬性只對請求-回應連接埠有效。<br />-   **UseEnvelope** -建立 BizTalk 訊息內文部分的整個 SOAP 從**信封**內送訊息。<br />-   **UseBodyPath** -使用中的內文路徑運算式**InboundBodyPathExpression**屬性以建立 BizTalk 訊息內文部分。 內文路徑運算式會依照內送訊息 SOAP **Body** 元素的直系子元素來進行評估。 此屬性只對請求-回應連接埠有效。<br /><br /> 如需有關如何使用**InboundBodyLocation**屬性，請參閱[指定 WCF 配接器的訊息本文](../core/specifying-the-message-body-for-the-wcf-adapters.md)。|指定資料選取範圍，soap**主體**內送 WCF 訊息的項目。<br /><br /> 預設值： **UseBodyElement**|  
+|**InboundBodyPathExpression**|字串<br /><br /> 如需有關如何使用**InboundBodyPathExpression**屬性，請參閱[WCF 配接器屬性結構描述和屬性](../core/wcf-adapters-property-schema-and-properties.md)。|指定內文路徑運算式來識別用於建立 BizTalk 訊息內文部分之內送訊息的特定部分。 此內文路徑運算式評估的 soap 的直系子元素**主體**節點內送訊息。 如果此內文路徑運算式傳回一個以上的節點，則只會為 BizTalk 訊息內文部分選擇第一個節點。 如果這個屬性，則需要**InboundBodyLocation**屬性設定為**UseBodyPath**。 此屬性只對請求-回應連接埠有效。<br /><br /> 預設為空字串。|  
+|**InboundNodeEncoding**|Enum<br /><br /> -   **XML**<br />-   **Base64** -Base64 編碼方式。<br />-   **Hex** ： 十六進位編碼。<br />-   **字串**： 文字編碼-utf-8。<br />-   **XML** -WCF 配接器建立 BizTalk 訊息內文中的內文路徑運算式所選取之節點外部 xml **InboundBodyPathExpression**。|指定 Wcf-netnamedpipe 傳送配接器中指定的內文路徑所識別的節點用來解碼的編碼類型**InboundBodyPathExpression**。 如果這個屬性，則需要**InboundBodyLocation**屬性設定為**UseBodyPath**。 此屬性只對請求-回應連接埠有效。<br /><br /> 預設值： **XML**|  
+|**PropagateFaultMessage**|布林<br /><br /> -   **True** -路由傳送訊息至訂閱應用程式的輸出處理失敗 （例如其他接收埠或協調流程排程）。<br />-   **False** -擱置失敗的訊息，並產生負值通知 (NACK)。|指定要路由傳送或擱置在輸出處理中失敗的訊息。<br /><br /> 此屬性只對請求-回應連接埠有效。<br /><br /> 預設值： **，則為 True**|  
+  
+## <a name="configure-a-wcf-netnamedpipe-send-port-with-the-biztalk-administration-console"></a>使用 BizTalk 管理主控台中設定 Wcf-netnamedpipe 傳送埠
+  
+ 您可以在「BizTalk 管理主控台」中設定 WCF-NetNamedPipe 傳送埠變數。 如果沒有設定傳送埠的屬性，系統就會針對 WCF-NetNamedPipe 傳送埠組態使用如上表所示的預設值。  
+  
+## <a name="configure-variables-for-a-wcf-netnamedpipe-send-port"></a>設定 Wcf-netnamedpipe 傳送埠的變數  
+  
+1.  在 [BizTalk 管理主控台] 中建立新的傳送埠，或按兩下現有的傳送埠進行修改。 如需詳細資訊，請參閱[如何建立傳送埠](../core/how-to-create-a-send-port2.md)。 設定所有傳送埠選項，並指定**Wcf-netnamedpipe**如**類型**選項**傳輸**區段**一般** 索引標籤。  
+  
+2.  在**一般**索引標籤的**傳輸**區段中，按一下**設定**旁邊**類型**。  
+  
+3.  在**Wcf-netnamedpipe 傳輸屬性**對話方塊**一般**索引標籤上，設定端點位址、 服務識別和**SOAPAction**標頭Wcf-netnamedpipe 傳送埠。 如需有關**一般**索引標籤中**Wcf-netnamedpipe 傳輸屬性**對話方塊中，請參閱**Wcf-netnamedpipe 傳輸屬性對話方塊、 傳送、 一般**  索引標籤[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。
+  
+4.  在**Wcf-netnamedpipe 傳輸屬性**對話方塊**繫結**索引標籤上，設定逾時和交易屬性。 如需有關**繫結**索引標籤中**Wcf-netnamedpipe 傳輸屬性**對話方塊中，請參閱**Wcf-netnamedpipe 傳輸屬性對話方塊、 傳送、 繫結**  索引標籤[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。
+  
+5.  在**Wcf-netnamedpipe 傳輸屬性**對話方塊**安全性**索引標籤上，定義 Wcf-netnamedpipe 傳送埠的安全性功能。 如需有關**安全性**索引標籤中**Wcf-netnamedpipe 傳輸屬性**對話方塊中，請參閱**Wcf-netnamedpipe 傳輸屬性對話方塊、 傳送、 安全性**  索引標籤[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。
+  
+6.  在**Wcf-netnamedpipe 傳輸屬性**對話方塊**訊息**索引標籤上，指定 SOAP 資料選取範圍**主體**項目。 如需有關**訊息**索引標籤中**Wcf-netnamedpipe 傳輸屬性**對話方塊中，請參閱**Wcf-netnamedpipe 傳輸屬性對話方塊、 傳送、 訊息**  索引標籤[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。
+  
+## <a name="configure-a-wcf-netnamedpipe-send-port-programmatically"></a>以程式設計方式設定 Wcf-netnamedpipe 傳送埠
+  
+ 您可以使用下列格式來設定屬性：  
+  
+```  
+<CustomProps>  
+  <TransportProtectionLevel vt="8">EncryptAndSign</TransportProtectionLevel>  
+  <TransactionProtocol vt="8">OleTransactions</TransactionProtocol>  
+  <InboundBodyPathExpression vt="8" />  
+  <PropagateFaultMessage vt="11">-1</PropagateFaultMessage>  
+  <CloseTimeout vt="8">00:01:00</CloseTimeout>  
+  <OutboundBodyLocation vt="8">UseBodyElement</OutboundBodyLocation>  
+  <StaticAction vt="8">http://www.northwindtraders.com/Service/Operation</StaticAction>  
+  <SendTimeout vt="8">00:01:00</SendTimeout>  
+  <InboundNodeEncoding vt="8">Xml</InboundNodeEncoding>  
+  <EnableTransaction vt="11">0</EnableTransaction>  
+  <SecurityMode vt="8">Transport</SecurityMode>  
+  <InboundBodyLocation vt="8">UseBodyElement</InboundBodyLocation>  
+  <OpenTimeout vt="8">00:01:00</OpenTimeout>  
+  <OutboundXmlTemplate vt="8"><bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="xml"/></OutboundXmlTemplate>  
+  <MaxReceivedMessageSize vt="3">2097152</MaxReceivedMessageSize>  
+</CustomProps>  
+  
+```  
+  
+ 下列程式碼片段說明如何建立 WCF-NetNamedPipe 傳送埠：  
+  
+```  
+// Use BizTalk Explorer object model to create new WCF-NetNamedPipe send port.  
+string server = System.Environment.MachineName;  
+string database = "BizTalkMgmtDb";  
+string connectionString = string.Format("Server={0};Database={1};Integrated Security=true", server, database);  
+string transportConfigData = @"<CustomProps>  
+                                 <StaticAction vt=""8"">http://www.northwindtraders.com/Service/Operation</StaticAction>  
+                                 <OpenTimeout vt=""8"">00:01:00</OpenTimeout>  
+                               </CustomProps>";  
+//requires project reference to \Program Files\Microsoft BizTalk Server 2009\Developer Tools\Microsoft.BizTalk.ExplorerOM.dll  
+BtsCatalogExplorer explorer = new Microsoft.BizTalk.ExplorerOM.BtsCatalogExplorer();  
+explorer.ConnectionString = connectionString;  
+// Add a new BizTalk application  
+Application application = explorer.AddNewApplication();  
+application.Name = "SampleBizTalkApplication";  
+// Save  
+explorer.SaveChanges();  
+  
+// Add a new static one-way send port  
+SendPort sendPort = application.AddNewSendPort(false, false);   
+sendPort.Name = "SampleSendPort";  
+sendPort.PrimaryTransport.TransportType = explorer.ProtocolTypes["WCF-NetNamedPipe"];  
+sendPort.PrimaryTransport.Address = "net.pipe://mycomputer/private/samplequeue";  
+sendPort.PrimaryTransport.TransportTypeData = transportConfigData; // propertyData; // need to change  
+sendPort.SendPipeline = explorer.Pipelines["Microsoft.BizTalk.DefaultPipelines.PassThruTransmit"];  
+// Save  
+explorer.SaveChanges();  
+```  
+  
+## <a name="see-also"></a>另請參閱  
+ [WCF 配接器屬性結構描述和屬性](../core/wcf-adapters-property-schema-and-properties.md)   
+ [指定訊息本文為 WCF 配接器](../core/specifying-the-message-body-for-the-wcf-adapters.md)   
+ [WCF 配接器安裝憑證](../core/installing-certificates-for-the-wcf-adapters.md)   
+ [設定 Wcf-netnamedpipe 配接器](../core/configuring-the-wcf-netnamedpipe-adapter.md)   
+ [設定動態傳送埠使用 WCF 配接器內容屬性](../core/configuring-dynamic-send-ports-using-wcf-adapters-context-properties.md)

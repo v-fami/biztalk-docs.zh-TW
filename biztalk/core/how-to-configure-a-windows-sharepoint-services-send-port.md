@@ -1,0 +1,61 @@
+---
+title: "如何設定 Windows SharePoint Services 傳送埠 |Microsoft 文件"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- Windows SharePoint Services adapters, send ports
+- configuring [Windows SharePoint Services adapters], send ports
+- send ports, Windows SharePoint Services adapters
+ms.assetid: 7713d3cc-cd8d-43db-8dac-2a7442632b87
+caps.latest.revision: "24"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: a7e41aca0c55170de7f8e1514e5a4c77796f48cc
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/20/2017
+---
+# <a name="how-to-configure-a-windows-sharepoint-services-send-port"></a>如何設定 Windows SharePoint Services 傳送埠
+本主題描述如何使用 [BizTalk Server 管理] 主控台，以建立和設定 Windows SharePoint Services 傳送埠。  
+  
+### <a name="to-create-and-configure-a-windows-sharepoint-services-send-port"></a>建立和設定 Windows SharePoint Services 傳送埠  
+  
+1.  在 [BizTalk Server 管理] 主控台中，建立新傳送埠，或按兩下現有的傳送埠以進行修改。 如需詳細資訊，請參閱[如何建立傳送埠](../core/how-to-create-a-send-port2.md)。 設定所有傳送埠選項，並指定**Windows SharePoint Services 傳輸屬性**如**類型**選項**傳輸**區段**一般** 索引標籤。  
+  
+2.  在**一般**索引標籤的**傳輸**區段中，旁邊**類型**，按一下 **設定**。  
+  
+3.  在**Windows SharePoint Services 傳輸屬性**對話方塊方塊中，執行下列動作：  
+  
+    |使用|動作|  
+    |--------------|----------------|  
+    |配接器 Web 服務連接埠|安裝 Windows SharePoint Services 配接器 Web 服務的 IIS 網站的 HTTP 連接埠。 根據預設，這是預設的網站通訊埠 80 上設定。 如果您已設定 Windows SharePoint Services Web 服務，任何其他 IIS 網站上比預設的網站，您必須更新此值。|  
+    |逾時|配接器執行階段 Web 服務對 Windows SharePoint Services 配接器 Web 服務的呼叫逾時 (以毫秒為單位)。 如果訊息或批次大小高於配接器所預期的平均值時，您可能需要增加這個值。|  
+    |目的資料夾 URL|相對於 SharePoint 網站的 Windows SharePoint Services 目的資料夾 URL。 例如，Shared Documents、Shared Documents/Purchase Orders/ 或 Lists/Tasks。 您可以藉由指定清單的 URL (例如，Lists/Tasks)，傳送訊息到 SharePoint 清單。 若您指定清單作為目的地，則訊息內文將不會與清單項目一起儲存，但從訊息中擷取的值仍將升級到 SharePoint 資料行。 **注意：**有時 SharePoint 文件庫、 清單或資料夾 URL 會與該項目的名稱不同。 請檢查 Internet Explorer 中的網址列以找出正確的 URL。|  
+    |檔名|(選擇性) Windows SharePoint Services 檔案名稱。 您可以輸入像是 'PurchaseOrder0001.xml' 的常值或運算式。 運算式可以混合任何常值、 巨集和 XPATH 查詢，例如:"PurchOrd-%XPATH=//po:PurchaseOrderId%-%MessageID%.xml"。 未提供檔案名稱時，檔案名稱會是原始檔案的名稱或由協調流程管理的值，或者若協調流程未定義檔案名稱時，則為 Msg-%MessageID%.xml。 **注意：** Filename 屬性中指定的值時將訊息傳送至清單中，會被忽略，不會儲存在 SharePoint 中的任何資料行。 SharePoint 清單沒有 [檔案名稱] 資料行。 而是使用 16 個可用資料行的其中一個，以更新 [標題] 資料行。 <br /><br /> 如需有關運算式的詳細資訊，請參閱[Windows SharePoint Services 配接器運算式](../core/windows-sharepoint-services-adapter-expressions.md)。|  
+    |命名空間別名|(選擇性) 命名空間別名定義的逗號或分號分隔清單。 使用此欄位來定義 [檔案名稱] 或 [資料行值] 欄位中引用的 XPATH 查詢所使用的命名空間別名。 例如，po='http://OrderProcess/POrder', conf='http://OrderProcess/Confirmation' xmlns=""; ipsol='{D8217CF1-4EF7-4bb5-A30D-765ECB09E0D9}'。 **注意：**這個屬性不會覆寫 WSS。協調流程所定義 ConfigNamespacesAliases 訊息內容屬性。 這兩個值會合併。|  
+    |Overwrite|決定是否覆寫現有的檔案。 選取 [是] 以覆寫現有檔案。 當已經有相同名稱的檔案存在時，選取 [否] 以引發錯誤並擱置訊息。 選取 [重新命名] 來重新命名檔案。 選取 [協調流程] 以使用協調流程所定義的值。 **注意：**傳送大量訊息具有相同名稱覆寫屬性設為 'Yes' 時可能會導致 SharePoint 錯誤會記錄在事件檢視器。 這些錯誤不影響配接器的功能。 任何失敗的訊息都將會重試。|  
+    |SharePoint 網站 URL|Windows SharePoint Services 網站的完整 URL。 例如，http://BizTalkServer/sites/TestSite。 **注意：** URI 傳送埠或接收位置不能超過 256 個字元。|  
+    |Microsoft Office 整合|[選擇性] 可變更文件，讓它自動在 Office 應用程式 (例如 InfoPath) 開啟，或者若找不到 InfoPath 解決方案，就依原狀儲存文件。 [是] 可變更文件，讓它自動在 Office 應用程式 (例如 InfoPath) 開啟，或者若找不到 InfoPath 解決方案，就暫停訊息。 [是 (InfoPath 表單庫)] 可變更文件，以自動在 Office 應用程式 (例如 InfoPath) 開啟。若訊息是傳送至 Windows SharePoint Services InfoPath 表單庫，則使用在表單庫找到的 InfoPath 解決方案。 若表單庫沒有 InfoPath 解決方案，會暫停訊息。 [否] 可依原狀儲存文件，不作任何變更。 [協調流程] 可使用協調流程所定義的值。 對於二進位訊息，必須使用 [否] 或 [選擇性] 值。 **注意：**至少其中一個屬性配對範本文件庫，而且範本命名空間資料行或 範本後援文件庫和 範本後援命名空間資料行時，需要 Microsoft Office 整合設為 是。|  
+    |範本文件庫|輸入儲存 InfoPath 解決方案的 SharePoint 文件庫名稱。  例如， `My Solutions`。 這是配接器會尋找符合的 InfoPath 解決方案的第一個位置。 如果找不到解決方案，配接器將會尋找 [範本後援文件庫]。 **注意：**範本命名空間資料行欄位不是空白時，這個欄位是必要。 **注意：**文件庫必須至少一個 SharePoint 資料行的類型 '單行文字' 會填入命名空間和根節點的 XML 文件，可以開啟使用此 InfoPath 解決方案或僅根節點。 如需詳細資訊，請參閱[逐步解說： 模組 2-整合 Office 與 Windows SharePoint Services 配接器](../core/walkthrough-module-2--integrate-office-with-the-sharepoint-adapter-in-biztalk.md)。|  
+    |範本後援文件庫|輸入儲存 InfoPath 解決方案的 SharePoint 文件庫名稱。  例如，Templates。 配接器只會在範本文件庫中找不到解決方案時，才在此文件庫中搜尋符合的 InfoPath 解決方案。 [範本後援文件庫] 和 [範本文件庫] 欄位可和兩組 InfoPath 解決方案一起使用。 目前有一些一般 InfoPath 解決方案適用於所有一般用途，而且還有供特定夥伴使用的專業 InfoPath 解決方案。 [範本後援文件庫] 欄位應指向一般解決方案，而 [範本文件庫] 應指向供特定夥伴使用的專業解決方案。 **注意：**範本後援命名空間資料行欄位不是空白時，這個欄位是必要。 **注意：**文件庫必須至少一個 SharePoint 資料行的類型 '單行文字' 會填入命名空間和根節點的 XML 文件，可以開啟使用此 InfoPath 解決方案或僅根節點。 如需詳細資訊，請參閱[逐步解說： 模組 2-整合 Office 與 Windows SharePoint Services 配接器](../core/walkthrough-module-2--integrate-office-with-the-sharepoint-adapter-in-biztalk.md)。|  
+    |範本後援命名空間資料行|這是儲存 InfoPath 解決方案之命名空間的 [範本後援文件庫] 的 SharePoint 資料行名稱。 例如，Namespace。 **注意：** [範本後援文件庫] 欄位不是空時，這個欄位是必要。 **注意：**這個欄位是區分大小寫。|  
+    |範本命名空間資料行|這是儲存 InfoPath 解決方案之命名空間的 [範本文件庫] 的 SharePoint 資料行名稱。 例如，Namespace。 **注意：**範本文件庫欄位不是空白時，這個欄位是必要。 **注意：**這個欄位是區分大小寫。|  
+    |資料行 `n`|這是存在於目的地文件庫的 Windows SharePoint Services 資料行名稱。 此資料行必須以從訊息中擷取的值或在 [資料行值] 欄位中指定的值更新。 **注意：**您可以指定最多 16 個資料行。 **注意：**這個欄位是區分大小寫。|  
+    |資料行 `n` 值|輸入要為此訊息設定的資料行值。 您可以輸入像是 'Purchase Order' 的常值或運算式。 運算式可以混合任何常值、巨集和 XPATH 查詢。 例如，"%XPATH=//po:POAmount%"、"%SendingOrchestrationID%"。 **注意：**您可以指定最多 16 個資料行值。|  
+  
+4.  按一下**確定**和**確定**以儲存設定。  
+  
+## <a name="see-also"></a>另請參閱  
+ [如何設定 Windows SharePoint Services 接收位置](../core/how-to-configure-a-windows-sharepoint-services-receive-location.md)   
+ [如何設定 Windows SharePoint Services 傳送處理常式](../core/how-to-configure-a-windows-sharepoint-services-send-handler.md)   
+ [如何建立傳送埠](../core/how-to-create-a-send-port2.md)   
+ [Windows SharePoint Services 配接器屬性參考](../core/windows-sharepoint-services-adapter-properties-reference.md)   
+ [Windows SharePoint Services 配接器運算式](../core/windows-sharepoint-services-adapter-expressions.md)   
+ [支援 Windows SharePoint Services 資料行類型](../core/supported-windows-sharepoint-services-column-types.md)
