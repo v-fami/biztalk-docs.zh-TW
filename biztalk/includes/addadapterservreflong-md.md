@@ -1,0 +1,1 @@
+新增配接器服務參考 Visual Studio 外掛程式
