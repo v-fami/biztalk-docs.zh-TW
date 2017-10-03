@@ -1,0 +1,1 @@
+<span data-ttu-id="d8a02-101">.NET Framework Data Provider for mySAP Business Suite</span><span class="sxs-lookup"><span data-stu-id="d8a02-101">.NET Framework Data Provider for mySAP Business Suite</span></span>

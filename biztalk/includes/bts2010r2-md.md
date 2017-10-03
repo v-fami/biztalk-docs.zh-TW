@@ -1,0 +1,1 @@
+<span data-ttu-id="ed57e-101">BizTalk Server 2013 R2</span><span class="sxs-lookup"><span data-stu-id="ed57e-101">BizTalk Server 2013 R2</span></span>
