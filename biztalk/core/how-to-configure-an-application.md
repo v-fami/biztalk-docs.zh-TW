@@ -1,0 +1,93 @@
+---
+title: "如何設定應用程式 |Microsoft 文件"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- configuring, applications
+- applications, configuring
+ms.assetid: e1cd1efb-e1ea-4344-8e23-668628d6c5a9
+caps.latest.revision: "10"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 888fc0ff78ebac3ac2314fe3106de4b7b6b51f16
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/20/2017
+---
+# <a name="how-to-configure-an-application"></a>如何設定應用程式
+本主題描述如何使用 BizTalk Server 管理主控台來設定應用程式中的成品，如下所示：  
+  
+-   將邏輯連接埠和角色連結繫結到實體連接埠和合作對象。  
+  
+-   將協調流程對應到要在其下執行的主控件。  
+  
+-   設定傳送埠和接收埠、傳送埠群組以及接收埠的位置。  
+  
+ 如果應用程式未至少包含一個協調流程、傳送埠、傳送埠群組、接收埠或接收位置，則本主題中的資訊就不適用。  
+  
+ 之後完成這項設定，您將能夠啟動應用程式中所述[如何啟動和停止 BizTalk 應用程式](../core/how-to-start-and-stop-a-biztalk-application.md)。  
+  
+> [!NOTE]
+>  您也可以從應用程式中個別地設定成品。 如需設定個別成品的詳細資訊，請參閱本主題結尾的連結。  
+  
+## <a name="prerequisites"></a>必要條件  
+ 若要執行這個主題中的程序，您必須使用「BizTalk Server 系統管理員」群組成員的帳戶登入。 如需詳細的權限的詳細資訊，請參閱[部署及管理 BizTalk 應用程式所需的權限](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md)。  
+  
+### <a name="to-configure-an-application"></a>設定應用程式  
+  
+1.  按一下**啟動**，指向 **程式**，指向  [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]，然後按一下  **BizTalk Server 管理**。  
+  
+2.  在主控台樹狀目錄中，依序展開**BizTalk Server 管理**，應用程式，以滑鼠右鍵按一下，然後按一下**設定**。  
+  
+3.  在**協調流程**清單的左窗格中，按一下 協調流程下, 表中所述設定屬性，然後按一下**確定**。 如果沒有此應用程式中的協調流程**協調流程**清單不會顯示。  
+  
+    |使用|動作|  
+    |--------------|----------------|  
+    |**Host**|從下拉式清單選取要登錄應用程式的主控件。|  
+    |**繫結-輸入邏輯連接埠**|顯示邏輯輸入連接埠的名稱。 邏輯連接埠位在協調流程中的連接埠介面。|  
+    |**繫結-接收埠**|從下拉式清單選取您要繫結至對應的輸入邏輯連接埠的實體接收埠。 這個清單包含目前應用程式和任何參考的應用程式中的連接埠。|  
+    |**繫結-輸出邏輯連接埠**|顯示邏輯輸出連接埠的名稱。 邏輯連接埠位在協調流程中的連接埠介面。|  
+    |**繫結-傳送埠/傳送埠群組**|從下拉式清單選取您要繫結至對應輸出邏輯連接埠的傳送埠或傳送埠群組。 這個清單包含目前應用程式和任何參考的應用程式中的連接埠。|  
+  
+4.  在**傳訊**清單的左窗格中，按一下**傳送埠與傳送埠群組**下, 表中所述設定屬性，然後按一下**確定**。 這個清單會顯示目前應用程式中的所有傳送埠與傳送埠群組。  
+  
+    |使用|動作|  
+    |--------------|----------------|  
+    |**新增**|按一下以建立新的傳送埠或傳送埠群組。 選項可讓您傳送連接埠是相同可用之選項，當您以滑鼠右鍵按一下**傳送埠**節點在主控台樹狀目錄中，並指向**新增**。 如需詳細資訊，請參閱[如何建立傳送埠](../core/how-to-create-a-send-port2.md)。 另請參閱[如何建立傳送埠群組](../core/how-to-create-a-send-port-group.md)。|  
+    |**屬性**|按一下以顯示選取的傳送埠或傳送埠群組的屬性。 如果您選取傳送埠，**傳送埠屬性**頁面，您可以在其中設定連接埠。 如果您選取傳送埠群組，**傳送埠群組屬性**頁面，您可以在其中設定傳送埠群組。 如需有關如何設定屬性的詳細資訊，請參閱[管理傳送埠與傳送埠群組](../core/managing-send-ports-and-send-port-groups.md)。|  
+    |**名稱**|顯示實體傳送埠的名稱。|  
+    |**篩選**|顯示套用至傳送埠的篩選條件運算式。 篩選器中所設**傳送埠屬性**視窗。|  
+    |**URI**|顯示已選取連接埠的 URI。|  
+  
+5.  在**傳訊**清單的左窗格中，按一下**接收埠和位置**下, 表中所述設定屬性，然後按一下**確定**。 這個清單會顯示目前應用程式中的所有接收埠與接收位置。  
+  
+    |使用|動作|  
+    |--------------|----------------|  
+    |**新增**|按一下以建立新的接收埠。 選項新的接收連接埠是相同可用之選項，當您以滑鼠右鍵按一下**接收埠**節點在主控台樹狀目錄中，並指向**新增**。 如需詳細資訊，請參閱[如何建立接收埠](../core/how-to-create-a-receive-port.md)。|  
+    |**屬性**|按一下以顯示已選取項目的屬性。 如果您已選取接收埠，**接收埠屬性**頁面，您可以在其中設定連接埠。 如果您已選取接收位置，**接收位置屬性**頁面，您可以在其中設定接收位置。 若要選取接收埠，按一下右側的粗體字**接收埠**。 如需有關如何設定屬性的詳細資訊，請參閱[管理接收埠](../core/managing-receive-ports.md)。 另請參閱[管理接收位置](../core/managing-receive-locations.md)。|  
+    |**名稱**|顯示與接收埠相關聯的接收位置名稱。|  
+    |**URI**|顯示已選取接收位置的 URI。|  
+  
+6.  在左窗格中，按一下 **角色連結**下, 表所述設定屬性，然後按一下**確定**。 如果應用程式、 沒有角色連結**角色連結**連結不會顯示。  
+  
+    |使用|動作|  
+    |--------------|----------------|  
+    |**登錄**|按一下即可顯示**登錄合作對象**對話方塊中，您可以在其中選取角色所定義的交換的合作對象來參與。|  
+    |**取消登錄**|按一下以從參與的交換移除選取的合作對象。|  
+    |**繫結**|按一下以在角色連結和實體連接埠之間透過合作對象建立連接。|  
+    |**合作對象**|顯示您已登錄到此角色的合作對象名稱。|  
+  
+## <a name="see-also"></a>另請參閱  
+ [建立和修改 BizTalk 應用程式](../core/creating-and-modifying-biztalk-applications.md)   
+ [管理協調流程](../core/managing-orchestrations.md)   
+ [管理角色連結](../core/managing-role-links.md)   
+ [管理傳送埠與傳送埠群組](../core/managing-send-ports-and-send-port-groups.md)   
+ [管理接收埠](../core/managing-receive-ports.md)   
+ [管理接收位置](../core/managing-receive-locations.md)

@@ -1,0 +1,55 @@
+---
+title: "訊息模式 |Microsoft 文件"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- message modes, about message modes
+- messages, message modes
+- message modes, HL7 messages
+ms.assetid: 2d832b67-6f0e-45e1-95ac-cb80b74a7831
+caps.latest.revision: "3"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: b09a610d000ae6beaef75b1ed0144d1597d517b8
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/20/2017
+---
+# <a name="message-modes"></a>訊息模式
+有兩個構成所有 HL7 訊息的基本概念。 這些概念位址不同方式交換資料的獨立系統可以互動，並提供一段時間內分散式醫療保健系統支援的互通性需求的結構。 下面所列的概念定義 HL7 設計背後的基礎佈景主題：  
+  
+-   **傳訊模式**。 三種基本的用途的資訊交換的辨識： 廣播要求資訊 (interrogative)，（宣告式） 的資訊，以及要求系統採取的動作上 （必要）。 每個用途的特定需求和訊息流程的模式。  
+  
+-   **通知模式**。 需要支援緊密和鬆散偶合樣式的傳訊。 HL7 的認可模式可讓傳送應用程式需要來自接收者的回應，或是啟用保證訊息傳遞基礎的網路。  
+  
+-   **當地語系化**。 需要支援本機的特定需求，讓訊息規格中導入站台特有的資料實體。  
+  
+-   **演進**。 支援許多介面和許多應用程式的站台啟用標準版本之間的互通性需求。 這可讓實體階段介面升級，而不是需要的所有介面同時升級。  
+  
+ 下列函式的[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 支援上述的需求：  
+  
+-   HL7 通知模式。 [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]支援的原始通知模式藉由傳遞回原始訊息寄件者的應用程式通知。  
+  
+-   不同的訊息模式。 這可讓廣播至多個目的地，並結合至相關聯的查詢回應的查詢。  
+  
+-   支援多個版本，包括 XML 和管線分隔的編碼方式。  
+  
+-   HL7 版本，以便進行各種不同的環境與升級之間的對應。  
+  
+-   協調流程中的當地語系化 （自訂）。  
+  
+-   工具，以便支援偵錯和評估新的介面。  
+  
+## <a name="see-also"></a>另請參閱  
+ [處理 HL7 訊息](../../adapters-and-accelerators/accelerator-hl7/processing-hl7-messages.md)   
+ [使用 HL7 2.X 結構描述](../../adapters-and-accelerators/accelerator-hl7/using-hl7-2-x-schemas.md)   
+ [使用 HL7 2.XML 結構描述](../../adapters-and-accelerators/accelerator-hl7/using-hl7-2-xml-schemas.md)   
+ [訊息類型和事件](../../adapters-and-accelerators/accelerator-hl7/message-types-and-events.md)   
+ [HL7 訊息](../../adapters-and-accelerators/accelerator-hl7/hl7-messaging.md)

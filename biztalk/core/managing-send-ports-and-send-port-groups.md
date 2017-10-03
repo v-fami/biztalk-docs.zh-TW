@@ -1,0 +1,47 @@
+---
+title: "管理傳送埠與傳送埠群組 |Microsoft 文件"
+description: "若要建立，連結設定、 登錄、 取消登錄和啟動和停止 BizTalk Server 中的傳送埠"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: db45f9f9-b32a-4b9c-a3bf-8c271d0f0cf9
+caps.latest.revision: "24"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 928160ed5b67602c8fc8d9d646459bf2425d7a01
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/20/2017
+---
+# <a name="manage-send-ports-and-send-port-groups"></a>管理傳送埠與傳送埠群組
+
+## <a name="overview"></a>概觀
+本節提供使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台，在 BizTalk 應用程式中建立、設定和管理傳送埠與傳送埠群組的相關指示。 傳送埠會指定傳送訊息所至以及選擇性接收回應的位置。 任何時候將訊息傳送至傳送埠，建立傳送埠服務的新執行個體，稱為*服務執行個體*。  
+  
+ 傳送埠群組是傳送埠的邏輯群組。 將訊息傳送至傳送埠群組時，該訊息會路由至所有相關的傳送埠。  如需傳送埠與傳送埠群組的背景資訊，請參閱[傳送埠與傳送埠群組](../core/send-ports-and-send-port-groups.md)。  
+  
+> [!NOTE]
+>  您可以使用 Microsoft Windows Management Instrumentation (WMI) 物件模型，建立和執行會自動化系統管理工作的指令碼。 如需使用 WMI 的詳細資訊，請參閱**WMI 類別參考** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。
+  
+> [!NOTE]
+>  開發 BizTalk 應用程式時，開發人員可以使用 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 中的 BizTalk 設計工具 (例如協調流程設計師)，來建立和設定傳送埠與傳送埠群組。 如需詳細資訊，請參閱[協調流程中使用連接埠](../core/using-ports-in-orchestrations.md)。  
+  
+## <a name="next-steps"></a>後續的步驟
+  
+-   [建立和設定傳送埠](../core/creating-and-configuring-send-ports.md)  
+  
+-   [建立和設定傳送埠群組](../core/creating-and-configuring-send-port-groups.md)  
+  
+-   [登錄傳送埠或傳送埠群組](../core/how-to-enlist-a-send-port-or-send-port-group.md)  
+  
+-   [取消登錄傳送埠或傳送埠群組](../core/how-to-unenlist-a-send-port-or-send-port-group.md)  
+  
+-   [啟動傳送埠或傳送埠群組](../core/how-to-start-a-send-port-or-send-port-group.md)  
+  
+-   [停止傳送埠或傳送埠群組](../core/how-to-stop-a-send-port-or-send-port-group.md)

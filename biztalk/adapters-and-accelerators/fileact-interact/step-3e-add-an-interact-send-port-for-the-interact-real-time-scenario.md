@@ -1,0 +1,82 @@
+---
+title: "步驟 3E： 加入互動的傳送埠互動即時案例 |Microsoft 文件"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: d9522386-e980-4ab1-b65a-939ca7936ad9
+caps.latest.revision: "9"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: fcb78fd556e72e4ca19e1d5172826a813f23eb24
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/20/2017
+---
+# <a name="step-3e-add-an-interact-send-port-for-the-interact-real-time-scenario"></a>步驟 3E： 加入互動的傳送埠互動即時案例
+完成[步驟 3D： 新增檔案傳送埠，以便擷取 Sw:HandleResponse 訊息互動即時案例](../../adapters-and-accelerators/fileact-interact/step-3d-add-file-send-port-to-get-sw-handleresponse-message-for-interact.md)開始此步驟之前。
+  
+## <a name="add-an-interact-send-port"></a>加入互動的傳送埠  
+  
+1.  啟動**BizTalk Server 管理**。  
+  
+2.  在主控台樹狀目錄中，展開 [BizTalk 群組]，然後展開您要建立傳送埠的 BizTalk 應用程式。  
+  
+3.  以滑鼠右鍵按一下**傳送埠**，指向 **新增**，然後按一下 **靜態請求-回應傳送埠**。  
+  
+4.  在**傳送埠屬性**視窗中，傳送埠**Tutorial_IA_SendRequest_RealTime**。  
+  
+5.  在**傳送埠屬性**視窗中，從**傳輸類型**下拉式清單中，選取**互動**，然後按一下 **設定**。  
+  
+6.  在**互動傳輸屬性**對話方塊方塊中，執行下列動作：  
+  
+    |**使用此選項**|**若要這樣做**|  
+    |------------------|--------------------|  
+    |**密碼**|視 SAG 連線設定的密碼。|  
+    |**使用者名稱**|視 SAG 連線設定的使用者名稱。|  
+    |**配接器模式**|從下拉式清單選取**即時**。|  
+    |**訊息格式**|**InteractMessage**。|  
+    |**不可否認性指標**|**FALSE**：|  
+    |**要求類型**|輸入適當\<RequestType > SWIFT 與您佈建為基礎的字串。|  
+    |**ResponseCrypto**|**FALSE**：|  
+    |**要求者**|將它設定為適當\<要求者 > SWIFT 與您佈建為基礎的字串。|  
+    |**回應者**|將它設定為適當\<回應 > SWIFT 與您佈建為基礎的字串。|  
+    |**服務名稱**|將它設定為適當\<服務名稱 >，根據 SWIFT 與您佈建。|  
+    |**傳遞通知**|從下拉式清單選取**FALSE**。|  
+    |**通知佇列**|輸入適當的佇列名稱，根據 SWIFT 與您佈建。|  
+  
+    > [!NOTE]
+    >  如果只傳送內容，則組"Payloadonly 」 中的互動來 MessageFormat 接收連接埠和互動傳送埠。 設定接收和傳送管線來 PassThru。  
+  
+7.  按一下 **[確定]**。  
+  
+8.  在**傳送埠屬性**視窗中，執行下列動作：  
+  
+    |**使用此選項**|**若要這樣做**|  
+    |------------------|--------------------|  
+    |**傳送處理常式**|從下拉式清單中，選取主機互動。|  
+    |**傳送管線**|從下拉式清單選取**XMLTransmit**。|  
+    |**接收管線**|**[Xmlreceive]**|  
+  
+9. 在**傳送埠屬性**視窗，請在**篩選**索引標籤上，執行下列動作：  
+  
+    |**使用此選項**|**若要這樣做**|  
+    |------------------|--------------------|  
+    |**屬性**|從下拉式清單選取**BTS。ReceivePortName**。|  
+    |**運算子**|從下拉式清單選取 **==** 。|  
+    |**值**|型別**Tutorial_IA_InputRequest_RealTime**。|  
+    |**群組依據**|保留預設值。|  
+  
+10. 按一下 **[確定]**。  
+  
+## <a name="see-also"></a>另請參閱  
+ [步驟 3： 建立傳送和接收埠互動即時案例](../../adapters-and-accelerators/fileact-interact/step-3-create-send-and-receive-ports-for-the-interact-real-time-scenario.md)   
+ [步驟 3A： 新增 FILE 接收位置的互動即時案例](../../adapters-and-accelerators/fileact-interact/step-3a-add-a-file-receive-location-for-the-interact-real-time-scenario.md)   
+ [步驟 3B： 加入互動接收位置互動即時案例](../../adapters-and-accelerators/fileact-interact/step-3b-add-an-interact-receive-location-for-the-interact-real-time-scenario.md)   
+ [步驟 3c： 新增檔案傳送埠，以便擷取 Sw:HandleRequest 訊息互動即時案例](../../adapters-and-accelerators/fileact-interact/step-3c-add-file-send-port-to-get-sw-handlerequest-interact-real-time-scenario.md)   
+ [步驟 3D： 新增檔案傳送埠，以便擷取 Sw:HandleResponse 訊息互動即時案例](../../adapters-and-accelerators/fileact-interact/step-3d-add-file-send-port-to-get-sw-handleresponse-message-for-interact.md)

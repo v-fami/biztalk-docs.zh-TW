@@ -1,0 +1,39 @@
+---
+title: "第 4 課： 加入至工具箱的 SWIFT 組合器和解譯器 |Microsoft 文件"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- toolbox, adding disassembler
+- assembler, adding to toolbox
+- toolbox, adding assembler
+- disassembler, adding to toolbox
+ms.assetid: 8c9c9b1e-48fc-4af0-b7c5-bd54e2de9951
+caps.latest.revision: "6"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: fa2df81e11827fec161df23790ff1860bd92c0e4
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/20/2017
+---
+# <a name="lesson-4-adding-the-swift-assembler-and-disassembler-to-the-toolbox"></a>第 4 課： SWIFT 組合器和解譯器新增至工具箱
+在這一課，您會新增 SWIFT 組譯工具 (ASM) 和反組譯工具 (DASM) 的參考，以便這些元件時，可以使用工具箱 中使用 BizTalk 管線設計師 」。  
+  
+### <a name="to-add-the-swift-asm-and-dasm-components-to-the-toolbox"></a>若要新增的 SWIFT ASM 和 DASM 元件至工具箱  
+  
+1.  在 Visual Studio 中，在**工具**功能表上，按一下 **選擇工具箱項目**。  
+  
+2.  在 [選擇工具箱項目] 對話方塊上**BizTalk 管線元件**索引標籤上，選取**SWIFT 組譯工具**和**SWIFT 解譯器**。  
+  
+3.  按一下 **[確定]**。  
+  
+ 組合器和解譯器元件，現在都從 [工具箱] 中，除非您已經有接收管線或傳送管線，開啟，請在此情況下的 ASM 或 DASM 可能無法使用。  
+  
+ 若要繼續[第 5 課： 加入自訂接收管線的 SWIFT 解譯器](../../adapters-and-accelerators/accelerator-swift/lesson-5-adding-the-swift-disassembler-to-a-custom-receive-pipeline.md)。

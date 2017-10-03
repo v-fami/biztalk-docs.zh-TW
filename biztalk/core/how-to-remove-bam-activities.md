@@ -1,0 +1,42 @@
+---
+title: "如何移除 BAM 活動 |Microsoft 文件"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- managing [BAM definitions], deleting activities
+- activities [BAM], deleting
+- deleting, activities [BAM]
+- Remove-Activity command [BAM]
+ms.assetid: 6c4643dc-84df-487d-aad0-590d1a6a5107
+caps.latest.revision: "17"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 09e12e893df596a92377357b7e28b6e68f04b810
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/20/2017
+---
+# <a name="how-to-remove-bam-activities"></a>如何移除 BAM 活動
+系統管理員使用**移除活動**命令，從 BAM 主要匯入資料庫移除指定的活動。  
+  
+### <a name="to-remove-a-bam-activity"></a>移除 BAM 活動  
+  
+1.  開啟命令提示字元，如下所示： 按一下**啟動**，按一下**執行**，型別**cmd**，然後按一下 **確定**。  
+  
+2.  瀏覽至 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]。  
+  
+3.  型別**bm 移除活動的名稱：\<活動名稱 >**。  
+  
+4.  按 ENTER 鍵。  
+  
+## <a name="see-also"></a>另請參閱  
+ [管理 BAM 動態基礎結構](../core/managing-the-bam-dynamic-infrastructure.md)   
+ [BAM 安全性建議](../core/bam-security-recommendations.md)   
+ [BAM 管理公用程式](../core/bam-management-utility.md)

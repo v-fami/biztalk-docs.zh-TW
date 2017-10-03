@@ -1,0 +1,63 @@
+---
+title: "第 1 課： 加入一般檔案接收埠和位置 |Microsoft 文件"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- receive locations, creating
+- creating, receive locations
+- receive ports, creating
+- creating, receive ports
+ms.assetid: 881f58d8-f541-4a85-b534-cb1ca627c002
+caps.latest.revision: "6"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 6fcd41cd38074377fa179e3a414b278521c31f26
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/20/2017
+---
+# <a name="lesson-1-adding-flat-file-receive-port-and-location"></a>第 1 課： 加入一般檔案接收埠和位置
+接收埠一律會有新增接收埠時，您必須設定相關聯的接收位置。 接收位置會定義特定位址的內送訊息和您用來處理訊息的管線。  
+  
+### <a name="to-add-a-receive-port"></a>新增接收埠  
+  
+1.  在 BizTalk Server 管理主控台中，以滑鼠右鍵按一下**接收埠**，指向 **新增**，然後按一下 **單向接收埠**。  
+  
+2.  在 [接收埠屬性] 對話方塊中**名稱**方塊中，輸入**MT103_FlatFile_ReceivePort**。  
+  
+3.  按一下**套用**來繫結連接埠，然後按一下**確定**。  
+  
+4.  在 BizTalk Server 管理主控台中，以滑鼠右鍵按一下**接收位置**，指向 **新增**，然後按一下 **單向接收位置**。  
+  
+5.  在 選取接收埠 對話方塊中，按一下  **MT103_FlatFile_ReceivePort**，然後按一下 **確定**。  
+  
+6.  在 [接收位置屬性] 對話方塊中**名稱**方塊中，輸入**MT103_FlatFile_ReceiveLocation**。  
+  
+7.  在**傳輸** 區段中，針對**類型** 文字方塊中，按一下下拉式清單中，，然後選取**檔案**。  
+  
+8.  按一下**設定**按鈕右邊的 [類型] 下拉式清單。  
+  
+9. 在 [FILE 傳輸屬性] 對話方塊中，按一下**瀏覽**。  
+  
+10. 在 [瀏覽資料夾] 對話方塊中，移至**\<磁碟機 >: \Labs\Inbound**資料夾，然後再按一下**建立新資料夾**。  
+  
+11. 建立**FlatFile**資料夾中的**\<磁碟機 >: \Labs\Inbound**，然後按一下 **確定**。  
+  
+12. 在**檔案遮罩**方塊中，輸入 **\*.txt**，然後按一下 **確定**。  
+  
+13. 在 [接收位置屬性] 對話方塊中，確定**BizTalkServerApplication**輸入**接收處理常式**方塊。  
+  
+14. 如**接收管線**方塊中，選取**MT103ReceivePipeline**從下拉式清單。  
+  
+15. 按一下**套用**，然後按一下 **確定**。  
+  
+16. 在 BizTalk Server 管理主控台中，按一下 **接收位置**，以滑鼠右鍵按一下**MT103_FlatFile_ReceiveLocation**，然後按一下 **啟用**。  
+  
+ 若要繼續[第 2 課： 加入 XML 傳送埠](../../adapters-and-accelerators/accelerator-swift/lesson-2-adding-an-xml-send-port.md)。
