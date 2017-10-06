@@ -19,7 +19,9 @@
   "notification_subscribers": [
     "pacort@microsoft.com"
   ],
-  "branches_to_filter": [],
+  "branches_to_filter": [
+  "live"
+  ],
   "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/biztalk-docs.zh-TW",
   "git_repository_branch_open_to_public_contributors": "live",
   "continue_with_document_error": true,
