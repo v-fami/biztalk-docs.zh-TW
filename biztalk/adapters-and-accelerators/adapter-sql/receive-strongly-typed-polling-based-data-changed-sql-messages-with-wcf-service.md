@@ -1,7 +1,8 @@
 ---
 title: "使用 WCF 服務模型的 SQL Server 從接收強型別輪詢基礎資料變更訊息 |Microsoft 文件"
+description: "使用.NET 應用程式來設定具型別的輪詢或搭配使用 WCF 服務和 WCF SQL 配接器在 BizTalk Server 中的強型別輪詢"
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 10/09/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
@@ -12,11 +13,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4a56ed382f6fa9c106b091b62406feba2dffe704
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c616d2a9f10aae5dbf822676174a0de0d4816c19
+ms.sourcegitcommit: f9c6ea3c9cfb8a43f765c0d3b8b07dacaa21fc51
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 10/09/2017
 ---
 # <a name="receive-strongly-typed-polling-based-data-changed-messages-from-sql-server-using-wcf-service-model"></a>使用 WCF 服務模型的 SQL Server 從接收強型別輪詢基礎資料變更訊息
 您可以設定[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]來接收 SQL Server 中的強型別輪詢訊息。 您可以指定執行以輪詢資料庫配接器的輪詢陳述式。 輪詢陳述式可以是 SELECT 陳述式或預存程序會傳回結果集。 您必須使用強型別輪詢，在案例中您想要用來接收強型別之結果集。 如需有關如何配接器支援強型別輪詢的詳細資訊，請參閱[支援輸入呼叫使用輪詢](../../adapters-and-accelerators/adapter-oracle-ebs/support-for-inbound-calls-using-polling.md)。  
@@ -68,7 +69,7 @@ SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100
   
  如需這些屬性的更完整說明，請參閱[閱讀 BizTalk Adapter for SQL Server 配接器繫結屬性](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md)。 如需完整的說明，如何使用[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]進一步來輪詢 SQL Server，請閱讀。  
   
-## <a name="configuring-strongly-typed-polling-in-the-wcf-service-model"></a>在 WCF 服務模型中設定強型別輪詢  
+## <a name="configure-strongly-typed-polling-in-the-wcf-service-model"></a>在 WCF 服務模型中設定強型別輪詢  
  若要接收**輪詢**作業使用 WCF 服務模型時，您必須：  
   
 1.  產生 WCF 服務合約 （介面） **TypedPolling**從配接器所公開的中繼資料的作業。 若要這樣做，您可以使用[!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]。 在產生 WCF 服務合約，如這個範例，請確定：  
@@ -148,10 +149,8 @@ namespace SqlAdapterBindingNamespace {
 }  
 ```  
   
-## <a name="receiving-strongly-typed-inbound-messages-for-polling-operation"></a>接收強型別傳入的訊息的輪詢作業  
+## <a name="receive-strongly-typed-inbound-messages-for-polling-operation"></a>輪詢作業接收強型別傳入的訊息  
  本節提供如何撰寫.NET 應用程式接收使用強型別輸入的輪詢訊息指示[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。  
-  
-#### <a name="to-receive-polling-messages-from-the-sql-adapter"></a>若要接收 SQL 配接器的輪詢訊息  
   
 1.  使用[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]產生 WCF 服務合約 （介面） 和協助程式類別，如**TypedPolling**作業。 請確定您指定下列項目時產生此範例中的 WCF 服務合約：  
   
@@ -268,7 +267,7 @@ namespace SqlAdapterBindingNamespace {
   
     ```  
     // Add service endpoint: be sure to specify TypedPolling_Employee as the contract  
-    Uri ConnectionUri = new Uri("mssql://mysqlserver//mydatabase?InboundID=Empliyee");  
+    Uri ConnectionUri = new Uri("mssql://mysqlserver//mydatabase?InboundID=Employee");  
     serviceHost.AddServiceEndpoint("TypedPolling_Employee", binding, ConnectionUri);  
     ```  
   
