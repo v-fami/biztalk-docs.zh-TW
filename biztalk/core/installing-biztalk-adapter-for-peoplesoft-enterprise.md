@@ -1,27 +1,29 @@
 ---
 title: "安裝 BizTalk Adapter for PeopleSoft Enterprise |Microsoft 文件"
+description: "快速連結來安裝和設定概觀 BizTalk adapter for PeopleSoft Enterprise，BizTalk Server 中"
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 10/16/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords: installation
 ms.assetid: a60b7e03-daea-4cb8-8ff2-f66dc1034eba
 caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5e5764c41ad74070e51f4929c8f56c789e24659c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a8139bde8d7a6594b239db8b800933a5df4cae1b
+ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 10/17/2017
 ---
-# <a name="installing-biztalk-adapter-for-peoplesoft-enterprise"></a><span data-ttu-id="14812-102">安裝 BizTalk Adapter for PeopleSoft Enterprise</span><span class="sxs-lookup"><span data-stu-id="14812-102">Installing BizTalk Adapter for PeopleSoft Enterprise</span></span>
-<span data-ttu-id="14812-103">如需如何安裝 Microsoft BizTalk Adapter for Peoplesoft Enterprise 的相關資訊，請參閱 Microsoft BizTalk Adapters for Enterprise Applications 安裝指南。</span><span class="sxs-lookup"><span data-stu-id="14812-103">For information about how to install Microsoft BizTalk Adapter for Peoplesoft Enterprise, see the Microsoft BizTalk Adapters for Enterprise Applications installation guide.</span></span> <span data-ttu-id="14812-104">若要確定您正在閱讀最新的資訊，請下載最新版本的指南：[超連結"http://go.microsoft.com/fwlink/?LinkId=196039"\t"_blank"http://go.microsoft.com/fwlink/?LinkId=196039](http://go.microsoft.com/fwlink/?LinkId=196039)。</span><span class="sxs-lookup"><span data-stu-id="14812-104">To make sure that you are reading the most up-to-date information, download the latest version of the guide at [HYPERLINK "http://go.microsoft.com/fwlink/?LinkId=196039" \t "_blank" http://go.microsoft.com/fwlink/?LinkId=196039](http://go.microsoft.com/fwlink/?LinkId=196039).</span></span>  
+# <a name="install-biztalk-adapter-for-peoplesoft-enterprise"></a><span data-ttu-id="8a1af-103">安裝 BizTalk Adapter for PeopleSoft Enterprise</span><span class="sxs-lookup"><span data-stu-id="8a1af-103">Install BizTalk Adapter for PeopleSoft Enterprise</span></span>
+
+## <a name="install-and-setup"></a><span data-ttu-id="8a1af-104">安裝及設定</span><span class="sxs-lookup"><span data-stu-id="8a1af-104">Install and setup</span></span>
+
+<span data-ttu-id="8a1af-105">[安裝及設定企業應用程式的介面卡](../adapters-and-accelerators/install-configure-biztalk-adapters-enterprise-applications.md)包含企業配接器的安裝步驟，而且也包含 安裝配接器之前與之後安裝配接器所知道的金鑰資訊。</span><span class="sxs-lookup"><span data-stu-id="8a1af-105">[Install and configure the adapters for enterprise applications](../adapters-and-accelerators/install-configure-biztalk-adapters-enterprise-applications.md) includes the steps to install the enterprise adapters, and also includes key information to know before you install the adapter, and after you install the adapter.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="14812-105">另請參閱</span><span class="sxs-lookup"><span data-stu-id="14812-105">See Also</span></span>  
- <span data-ttu-id="14812-106">[規劃與架構](../core/planning-and-architecture13.md) </span><span class="sxs-lookup"><span data-stu-id="14812-106">[Planning and Architecture](../core/planning-and-architecture13.md) </span></span>  
- [<span data-ttu-id="14812-107">快速入門</span><span class="sxs-lookup"><span data-stu-id="14812-107">Getting Started</span></span>](../core/getting-started-with-biztalk-adapter-for-peoplesoft-enterprise.md)
+## <a name="next-step"></a><span data-ttu-id="8a1af-106">下一步</span><span class="sxs-lookup"><span data-stu-id="8a1af-106">Next step</span></span>
+[<span data-ttu-id="8a1af-107">教學課程：使用 BizTalk Adapter for PeopleSoft Enterprise</span><span class="sxs-lookup"><span data-stu-id="8a1af-107">Tutorials: Using BizTalk Adapter for PeopleSoft Enterprise</span></span>](../core/tutorials-using-biztalk-adapter-for-peoplesoft-enterprise.md) 
