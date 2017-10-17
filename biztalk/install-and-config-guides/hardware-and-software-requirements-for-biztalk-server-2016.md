@@ -1,8 +1,9 @@
 ---
 title: "硬體和軟體需求適用於 BizTalk Server 2016 |Microsoft 文件"
+description: "軟體必要條件和支援的版本會列出安裝 BizTalk Server 2016"
 ms.custom: 
 ms.prod: biztalk-server
-ms.date: 06/08/2017
+ms.date: 10/09/2017
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -12,11 +13,11 @@ caps.latest.revision: "21"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2542299e60936b7fa8a1a2e6c7d86a0db3a07893
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 63993b544aead238d28623ab291887535e2f06ab
+ms.sourcegitcommit: 85e816bcdeb3d66ea5018cf88aea7059f74f7d80
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="hardware-and-software-requirements-for-biztalk-server-2016"></a>BizTalk Server 2016 的硬體和軟體需求
 
@@ -33,7 +34,7 @@ ms.lasthandoff: 09/20/2017
 > 列出的硬體需求是最小需求。 每個環境都不同，但您的環境極有可能需要更多需求。 請參閱 [Recommendations for Installing, Sizing, Deploying, and Maintaining a BizTalk Server Solution](http://social.technet.microsoft.com/wiki/contents/articles/666.recommendations-for-installing-sizing-deploying-and-maintaining-a-biztalk-server-solution.aspx) (安裝、調整大小、部署和維護 BizTalk Server 解決方案的建議)。 
 
 
-## <a name="software-requirements"></a>軟體需求
+## <a name="software-requirements--supported-versions"></a>軟體需求 （& s) 支援的版本
 
 | 軟體  |   版本 |  必要項目 | 
 | --- | --- | --- | 
@@ -49,6 +50,7 @@ ms.lasthandoff: 09/20/2017
 | SQL Server Database Mail  | 隨附於 SQL Server 的版本。 [設定 SQL Server Database Mail](https://msdn.microsoft.com/library/hh245116(v=sql.130).aspx)。| 選擇性。 <br/><br/>使用 BAM 警示時需要。 | 
 | SQL XML | SQL XML 4.0 (含 Service Pack 1)。 [下載 SqlXml 4.0 Service Pack 1 (SP1)](https://www.microsoft.com/en-us/download/details.aspx?id=30403)。 | BizTalk Server 執行階段、系統管理工具和 BAM 的必要項目。 <br/><br/> SQLXML 可以為您的 SQL Server 資料庫啟用 XML 支援。 它可讓開發人員銜接 XML 和關聯式資料的缺口。 您可以建立現有關聯式資料的 XML 檢視，然後如同 XML 檔案一樣使用該檢視。 <br/><br/>**注意**: <br/>可轉散發封包檔會自動安裝這個檢視。 SQL XML 可能會有自己的軟體需求 (例如 `.NET Framework 3.5` 和 `.NET Framework 2.0`)，這些需求未包含在封包檔中。 如果 BizTalk Server 可以存取網際網路，則可能會自動安裝 SQL XML 軟體需求。 如果 BizTalk Server 不能存取網際網路，則會手動安裝 SQL XML 軟體需求。| 
 | WinSCP | WinSCP 5.7.7 版。 [下載 WinSCP](http://winscp.net)。| 使用 SFTP 配接器時需要。 |
+|LOB 和企業系統 | [支援的特定業務 (LOB) 和企業系統](https://social.technet.microsoft.com/wiki/contents/articles/17631.biztalk-server-supported-line-of-business-lob-and-enterprise-systems.aspx)列出支援的版本。 | 需要： 當 BizTalk Adapter Pack 中使用配接器。 <br/><br/> [BizTalk Adapter Pack](../adapters-and-accelerators/biztalk-adapter-pack.md)列出可用的系統的配接器。 |
 
 ## <a name="service-pack-and-cumulative-update-support"></a>Service Pack 與累積更新支援
 

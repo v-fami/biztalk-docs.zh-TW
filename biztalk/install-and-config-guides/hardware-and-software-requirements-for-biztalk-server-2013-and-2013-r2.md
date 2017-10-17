@@ -1,7 +1,8 @@
 ---
 title: "硬體和軟體需求適用於 BizTalk Server 2013 和 2013 R2 |Microsoft 文件"
+description: "軟體必要條件和支援的版本會列出安裝 BizTalk Server 2013 和 2013 R2"
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 10/09/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
@@ -12,11 +13,11 @@ caps.latest.revision: "34"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5202c6777b4296141bc74823834d54b97b7f1572
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d736c7850f40190ca21227e0f9d55de150636a6e
+ms.sourcegitcommit: 85e816bcdeb3d66ea5018cf88aea7059f74f7d80
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 10/10/2017
 ---
 # <a name="hardware-and-software-requirements-for-biztalk-server-2013-and-2013-r2"></a>BizTalk Server 2013 和 2013 R2 的硬體和軟體需求
 本主題列出 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013 與 [!INCLUDE[bts2013r2](../includes/bts2013r2-md.md)] 的需求。  
@@ -31,9 +32,9 @@ ms.lasthandoff: 09/20/2017
 |硬碟|完整安裝 (包括作業系統及所有必要軟體) 需要 10 GB 的可用硬碟空間。 硬碟必須是 NTFS 格式。|  
 |光碟機|CD-ROM 或 DVD-ROM 光碟機 (共用或連接的)|  
   
- **新增社群**：[安裝、調整大小、部署及維護 BizTalk Server 解決方案的建議](http://social.technet.microsoft.com/wiki/contents/articles/666.recommendations-for-installing-sizing-deploying-and-maintaining-a-biztalk-server-solution.aspx)  
+ **Community Addition**： [安裝、調整大小、部署及維護 BizTalk Server 解決方案的建議](http://social.technet.microsoft.com/wiki/contents/articles/666.recommendations-for-installing-sizing-deploying-and-maintaining-a-biztalk-server-solution.aspx)  
   
-##  <a name="BKMK_SoftRequirements"></a> 軟體需求  
+##  <a name="BKMK_SoftRequirements"></a>軟體需求 （& s) 支援的版本
  此表列出執行 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 所需的基本軟體需求。 下節將會引導您執行所有必要條件的安裝步驟。  
   
 |軟體|[!INCLUDE[bts2013r2](../includes/bts2013r2-md.md)]|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013|必要項目|  
@@ -49,6 +50,7 @@ ms.lasthandoff: 09/20/2017
 |**Microsoft SQL Server**|[!INCLUDE[sqlserver2014](../includes/sqlserver2014-md.md)]<br/>[!INCLUDE[sqlserver2012](../includes/sqlserver2012-md.md)] SP1<br /><br /> 為了達到最佳效能，Microsoft 建議您使用 Enterprise Edition 的 SQL Server。 若要充分運用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] SDK 或從 Visual Studio 部署 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 應用程式，請安裝 SQL Server 開發工具。 <br /><br />**重要事項**  <ul><li>SQL Server Standard Edition 不支援 BAM 即時彙總 (RTA)。 若要使用 BAM RTA，必須安裝 SQL Server Enterprise Edition。</li><li>不建議您在實際執行環境中使用 SQL Server Express Edition。 Express Edition 不包含 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 所需的特定功能。</li><li>除了二進位定序之外，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 支援所有區分大小寫及不區分大小寫的 SQL Server 定序。 不支援二進位定序。</li></ul>|[!INCLUDE[sqlserver2012](../includes/sqlserver2012-md.md)]<br/>[!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)] SP1<br /><br /> 為了達到最佳效能，Microsoft 建議您使用 Enterprise Edition 的 SQL Server。 若要充分運用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] SDK 或從 Visual Studio 部署 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 應用程式，請安裝 SQL Server 開發工具。 <br /><br />**重要事項**  <ul><li>SQL Server Standard Edition 不支援 BAM 即時彙總 (RTA)。 若要使用 BAM RTA，必須安裝 SQL Server Enterprise Edition。</li><li>不建議您在實際執行環境中使用 SQL Server Express Edition。 Express Edition 不包含 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 所需的特定功能。</li><li>除了二進位定序之外，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 支援所有區分大小寫及不區分大小寫的 SQL Server 定序。 不支援二進位定序。</li></ul>|這是 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 執行階段、EDI 及 BAM 的必要項目。|  
 |**SQL Server Database Mail** / **SQL Server 2005 Notification Services**|設定 [SQL Server Database Mail](http://msdn.microsoft.com/library/hh245116\(v=sql.120\).aspx)。|若要使用 [!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)]，必須安裝 SQL Server 2005 Notification Services。 [!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)] 中並未隨附 Notification Services。 從 [Feature Pack for Microsoft SQL Server 2005 - 2008 年 12 月](http://go.microsoft.com/fwlink/p/?LinkId=154501)下載 SQL Server 2005 Notification Services。<br /><br /> 若要使用 [!INCLUDE[sqlserver2012](../includes/sqlserver2012-md.md)]，請設定 [SQL Server Database Mail](http://msdn.microsoft.com/library/hh245116\(v=sql.110\).aspx)。|由 BAM 警示使用。 <br /><br />**請注意**：僅當使用 BAM 警示時才需要。|  
 |**SQLXML 4.0 (含 Service Pack 1)**|若要安裝 SQLXML 4.0 SP1，請參閱 [SqlXml 4.0 Service Pack 1 (SP1)](http://www.microsoft.com/download/details.aspx?id=30403)。|若要安裝 SQLXML 4.0 SP1，請參閱 [Microsoft SQL Server 2008 Feature Pack](http://go.microsoft.com/fwlink/?LinkID=189325) (http://go.microsoft.com/fwlink/p/?LinkID=189325)。|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 執行階段、系統管理工具及 BAM 均需此項目。 為您的 SQL Server 資料庫提供 XML 支援，讓開發人員可以填補 XML 與關聯式資料之間的差距。 您可以建立現有關聯式資料的 XML 檢視，然後如同 XML 檔案一樣使用它。|  
+|**LOB 和企業系統** | [支援的特定業務 (LOB) 和企業系統](https://social.technet.microsoft.com/wiki/contents/articles/17631.biztalk-server-supported-line-of-business-lob-and-enterprise-systems.aspx)列出支援的版本。 | [支援的特定業務 (LOB) 和企業系統](https://social.technet.microsoft.com/wiki/contents/articles/17631.biztalk-server-supported-line-of-business-lob-and-enterprise-systems.aspx)列出支援的版本。 | 需要： 當 BizTalk Adapter Pack 中使用配接器。 <br/><br/> [BizTalk Adapter Pack](../adapters-and-accelerators/biztalk-adapter-pack.md)列出可用的系統的配接器。 |
   
 ##  <a name="BKMK_SPCUSupport"></a> Service Pack 與累積更新支援  
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 支援所有的 Service Pack、累積更新、安全性更新及 Hot Fix。 極力建議您安裝 [!INCLUDE[btsWinNoVersion](../includes/btswinnoversion-md.md)]、[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]、Visual Studio 及任何已安裝之程式的最新更新。 Microsoft 產品的 Service Pack 支援比照該產品的標準支援。 請參閱 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]、[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]、Visual Studio 及其他 Microsoft 程式的[支援週期索引](http://go.microsoft.com/fwlink/p/?LinkID=151890)。  

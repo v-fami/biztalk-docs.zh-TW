@@ -1,99 +1,89 @@
 ---
-title: "如何設定 IIS，HTTP 接收位置 |Microsoft 文件"
+title: "HTTP 接收位置設定 IIS |Microsoft 文件"
+description: "在 IIS 中，建立 BTS HTTP 接收應用程式和 BizTalk Server 中的測試應用程式集區設定"
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 10/10/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- 64-bit support, HTTP adapters
-- HTTP adapters, IIS
-- configuring [HTTP adapters], IIS
-- receive locations, IIS
-- IIS, receive locations
-- HTTP adapters, 64-bit support
-- IIS, HTTP adapters
 ms.assetid: 1c420f46-01f1-4c9c-9144-d8d2acc8b0c4
 caps.latest.revision: "26"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a1daa535c546bef0b390f0f7f84c45d546ac0005
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e09768d6616a33a4900995f3dd3225fa34318b3c
+ms.sourcegitcommit: 75d35f6f230f0846c29a4b146c6d5b074e60b13c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 10/11/2017
 ---
-# <a name="how-to-configure-iis-for-an-http-receive-location"></a>如何設定 HTTP 接收位置的 IIS
-視您使用的 Microsoft Windows 版本而定，您必須以不同方式設定 Microsoft Internet Information Services (IIS) 來搭配使用 HTTP 配接器接收位置。  
+# <a name="configure-iis-for-an-http-receive-location"></a>HTTP 接收位置設定 IIS
+HTTP 接收位置所使用的網際網路資訊服務 (IIS) 中的應用程式。 本主題列出的步驟來啟用 HTTP 接收位置在 IIS 中。 
+
+根據您的作業系統，設定 IIS 應用程式的步驟可能會改變。 做為指南，使用下列步驟，因為使用者介面可能會在您的作業系統上的不同。
   
- 如果您的作業系統是[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]或[!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]，IIS 7.0 提供兩種不同的應用程式隔離模式來保護 Web 應用程式。 背景工作處理序隔離模式是預設模式。 您可以設定 HTTP 配接器接收位置使用任一種模式，但建議使用工作者處理序隔離模式，因為它具有改善的安全性功能。  
-  
-> [!NOTE]
->  如果您的作業系統是 x64 版本的[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]或[!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]，64 位元版本的 HTTP 接收配接器安裝到*\<磁碟機 >***\Program Files (x86) \Microsoft**[!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **\HttpReceive64**目錄您[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]預設。 若要在 64 位元原生模式中執行 64 位元版本的 HTTP 接收配接器，您必須從命令列執行下列指令碼：  
->   
->  `cscript %SystemDrive%\inetpub\AdminScripts\adsutil.vbs set w3svc/AppPools/Enable32bitAppOnWin64 0`  
->   
->  `C:\WINDOWS\Microsoft.NET\Framework64\vX.X.XXXXX>aspnet_regiis.exe -i`  
+## <a name="32-bit-vs-64-bit"></a>32 位元與 64 位元
+
+HTTP 接收位置會使用 BTSHTTPReceive.dll。 沒有 32 位元和 64 位元版本的 dll。 您選擇您想要使用哪個的版本。 64 位元處理序會有更多可用的記憶體，因此如果您處理大型訊息，則為 64 位元版本可能是最佳。 
+
+**32 位元的安裝位置**: *Program Files (x86) \Microsoft BizTalk Server\HttpReceive*。
+**64 位元的安裝位置**: *Program Files (x86) \Microsoft BizTalk Server\HttpReceive64*
+
+若要執行 64 位元版本的 HTTP 接收配接器在 64 位元原生模式中，開啟命令提示字元，並執行下列指令碼：  
+
+1. 類型：`cscript %SystemDrive%\inetpub\AdminScripts\adsutil.vbs set w3svc/AppPools/Enable32bitAppOnWin64 0`  
+
+2. 類型：`C:\WINDOWS\Microsoft.NET\Framework64\vX.X.XXXXX>aspnet_regiis.exe -i`  
   
 > [!NOTE]
 >  任何導致 SOAP 與 HTTP 共用相同程序的 IIS 組態都無效。 每個程序只能有一個隔離的接收器。  
   
-### <a name="to-configure-the-iis-70-worker-process-isolation-mode-to-work-with-the-http-adapter-receive-location"></a>若要設定 IIS 7.0 背景工作處理序隔離模式，才能使用 HTTP 配接器接收位置  
+##  <a name="configure-the-iis-application"></a>設定 IIS 應用程式
   
-1.  按一下**啟動**，指向 **設定**，然後按一下 **控制台**。  
+1.  開啟**Internet Information Services** (開啟**伺服器管理員**，選取**工具**，然後選取**Internet Information Services 管理員**). 
   
-2.  在控制台中，按兩下**系統管理工具**。  
-  
-3.  在 [系統管理工具] 中按兩下**Internet Information Services**。  
-  
-4.  在 [Internet Information Services] 中，選取根 Web 伺服器項目。 在**功能檢視**，連按兩下**處理常式對應**，然後在 動作 窗格中，按一下 **新增指令碼對應**。  
+2.  在 IIS 中，選取您的伺服器名稱。 在**功能檢視**，連按兩下**處理常式對應**。 在 [動作] 窗格中，選取**新增指令碼對應**。  
   
     > [!NOTE]
-    >  在 Web 伺服器層級設定指令碼對應會使得此對應套用至所有子網站。 若要限制對應至特定網站或虛擬資料夾，請選取目標網站或資料夾，而不要選取 Web 伺服器。  
+    >  當您在 web 伺服器層級設定指令碼對應時，對應適用於所有網站。 如果您想要限制對應至特定網站或虛擬資料夾，選取該網站或資料夾，然後再新增 指令碼對應。  
   
-5.  在**新增指令碼對應**對話方塊中，於**要求路徑**欄位中，輸入`BtsHttpReceive.dll`。  
+3.  在**新增指令碼對應**，選取**要求路徑**，然後輸入`BtsHttpReceive.dll`。  
   
-6.  在**可執行檔**欄位中，按一下省略符號 (**...**) 按鈕，然後瀏覽至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]HttpReceive。 選取**BtsHttpReceive.dll** ，然後按一下 **確定**。  
+4.  在**可執行檔**，選取省略符號 (**...**)，並瀏覽至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\HttpReceive。 選取**BtsHttpReceive.dll**，然後選取**開啟**。  
   
-7.  在**名稱**欄位中，輸入`BizTalk HTTP Receive`，然後按一下 **要求限制**。  
+5.  在**名稱**，輸入`BizTalk HTTP Receive`，然後選取**要求限制**。 在這個視窗：
   
-8.  在**要求限制**對話方塊中，按一下 **動詞**索引標籤，然後選取 **下列動詞命令的其中一個**。 輸入`POST`為動詞命令。  
+    1. 在**動詞**，選取**下列動詞命令的其中一個**，並輸入`POST`。  
   
-9. 在**存取**索引標籤上，選取**指令碼**，然後按一下 **確定**。  
+    2. 在**存取**，選取**指令碼**，然後選取**確定**。  
   
-10. 當畫面上出現允許 ISAPI 擴充程式的提示時，請按一下 [是]。  
+    3. 當提示您允許 ISAPI 延伸模組，請選取**是**。  
   
-11. 以滑鼠右鍵按一下**應用程式集區**，指向 **新增**，然後按一下 **應用程式集區**。  
-  
-12. 在**新增應用程式集區**對話方塊中，於**名稱**方塊中，輸入應用程式集區的名稱。 選取**NET Framework v4.0.30319** ，然後按一下 **確定**。  
+6. 建立新的應用程式集區 (以滑鼠右鍵按一下**應用程式集區**，選取**新增應用程式集區**)。 **名稱**應用程式集區 (例如`BTSHTTPReceive`)，請選取**NET Framework v4.0.30319**，然後選取**確定**。  
   
     > [!NOTE]
-    >  版本號碼會根據電腦上安裝的.NET framework 版本而有所不同。  
+    >  .NET 版本號碼會根據電腦上安裝的.NET framework 版本而有所不同。  
   
-     新的應用程式集區會出現在清單中**應用程式集區**。  
+     會列出新的應用程式集區。  
   
-13. 在**應用程式集區**，請在**功能檢視**選取新的應用程式集區，然後按一下 [**進階設定**動作] 窗格中。  
+7. 選取新的應用程式集區，然後開啟**進階設定**(**動作**窗格)。 在這個視窗：
+
+    - **啟用 32 位元應用程式**： 設為**True**如果您選擇 32 位元**BtsHttpReceive.dll**
+    - **處理模型** 區段中，**識別**： 選取省略符號 (**...**)，請選取**自訂帳戶**，然後**設定**其成員的帳戶**BizTalk Isolated Host Users**和**IIS_WPG**群組。 選取 [確定]。 
   
-14. 在**進階設定**對話方塊中，於**處理序模型**區段的**識別**欄位中，按一下省略符號 (**...**) 按鈕。  
+8. 加入新的應用程式的網站 (以滑鼠右鍵按一下**Default Web Site**，選取**新增應用程式**)。 在這個視窗：
   
-15. 在**應用程式集區識別**對話方塊中，選取**自訂帳戶**，然後按一下 **設定**。 按一下 **[確定]** 以關閉 **[進階設定]** 對話方塊。  
+    1. **別名**： 輸入您與應用程式產生關聯的別名 (例如`BTS HTTP Receive`，然後**選取**。  
+    2. 選取您剛才新增的應用程式集區建立，然後再選取**確定**。  
+    3. **實體路徑**： 選取省略符號 (**...**)，並瀏覽至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\HttpReceive。  
+    4. **測試設定**以確認有無錯誤**測試連接** 對話方塊。 **關閉**，然後選取**確定**。  
   
-16. 在 [IIS 管理員] 中，開啟**網站**資料夾。 以滑鼠右鍵按一下**Default Web Site** ，然後按一下 **新增應用程式**。  
-  
-17. 在**新增應用程式**對話方塊中，於**別名**，輸入別名，應用程式時，產生關聯，然後按一下 **選取**。  
-  
-18. 在**選取應用程式集區**對話方塊中，選取您稍早建立的新應用程式集區，然後按一下**確定**。  
-  
-19. 按一下省略符號 (**...**) 按鈕，然後瀏覽至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]HttpReceive 的**實體路徑**。  
-  
-20. 按一下**連接身分**並輸入**使用者名**和**密碼**使用者帳戶是 Administrators 群組的成員，然後按一下 **確定**.  
-  
-21. 按一下**測試設定**並確認沒有錯誤，會顯示在**測試連接** 對話方塊。 按一下 [關閉]，然後按一下 [確定]。  
-  
-22. 新的應用程式會出現在清單中**預設的網站**在網際網路資訊服務 (IIS) 管理員 中。  
+    > [!TIP]
+    > 如果測試設定會傳回警告，權限給資料夾或存取權的群組，可能會遺失應用程式集區身分識別。 做為疑難排解的步驟中，選取**連接身分**，輸入**使用者名稱**和**密碼**是 Administrators 群組的成員的使用者帳戶。 
+
+9. 新的應用程式顯示的是列在**預設的網站**。  
   
 ## <a name="see-also"></a>另請參閱  
  [如何設定 HTTP 接收位置](../core/how-to-configure-an-http-receive-location.md)
