@@ -1,27 +1,29 @@
 ---
 title: "安裝 BizTalk Adapter for PeopleSoft Enterprise |Microsoft 文件"
+description: "快速連結來安裝和設定概觀 BizTalk adapter for PeopleSoft Enterprise，BizTalk Server 中"
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 10/16/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords: installation
 ms.assetid: a60b7e03-daea-4cb8-8ff2-f66dc1034eba
 caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5e5764c41ad74070e51f4929c8f56c789e24659c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a8139bde8d7a6594b239db8b800933a5df4cae1b
+ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 10/17/2017
 ---
-# <a name="installing-biztalk-adapter-for-peoplesoft-enterprise"></a>安裝 BizTalk Adapter for PeopleSoft Enterprise
-如需如何安裝 Microsoft BizTalk Adapter for Peoplesoft Enterprise 的相關資訊，請參閱 Microsoft BizTalk Adapters for Enterprise Applications 安裝指南。 若要確定您正在閱讀最新的資訊，請下載最新版本的指南：[超連結"http://go.microsoft.com/fwlink/?LinkId=196039"\t"_blank"http://go.microsoft.com/fwlink/?LinkId=196039](http://go.microsoft.com/fwlink/?LinkId=196039)。  
+# <a name="install-biztalk-adapter-for-peoplesoft-enterprise"></a>安裝 BizTalk Adapter for PeopleSoft Enterprise
+
+## <a name="install-and-setup"></a>安裝及設定
+
+[安裝及設定企業應用程式的介面卡](../adapters-and-accelerators/install-configure-biztalk-adapters-enterprise-applications.md)包含企業配接器的安裝步驟，而且也包含 安裝配接器之前與之後安裝配接器所知道的金鑰資訊。 
   
-## <a name="see-also"></a>另請參閱  
- [規劃與架構](../core/planning-and-architecture13.md)   
- [快速入門](../core/getting-started-with-biztalk-adapter-for-peoplesoft-enterprise.md)
+## <a name="next-step"></a>下一步
+[教學課程：使用 BizTalk Adapter for PeopleSoft Enterprise](../core/tutorials-using-biztalk-adapter-for-peoplesoft-enterprise.md) 

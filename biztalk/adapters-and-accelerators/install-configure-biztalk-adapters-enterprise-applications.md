@@ -11,8 +11,8 @@ ms.topic: article
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0016d689340d5c75cdd50095779148dc9cfbceb7
-ms.sourcegitcommit: 28bf5fc184cf8cba620741421c919d52b8383997
+ms.openlocfilehash: 8fa1a09f3d9fa531cee51ecd0e94b99ab972ba13
+ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 10/17/2017
@@ -565,7 +565,7 @@ select distinct BCNAME from PSBCITEM bc1 where not exists (select 1 from PSBCITE
   
 **Component Interface Tester**視窗隨即開啟。 並且應該不會列出任何索引鍵。 如果您的 GET_CI_INFO 包含索引鍵，或者選取另一個選項，返回 應用程式設計工具中，並清除 GET_CI_INFO 中的所有索引鍵。  
   
-## <a name="install-the-adapters"></a>安裝配接器
+## <a name="install-steps"></a>安裝步驟
  在安裝之前，確定 BizTalk Server 而且必須先安裝配接器的所有軟體必要元件。 建議您關閉所有應用程式，再執行安裝程式。  
   
 1.  執行 BizTalk Server **Setup.exe**，選取**安裝 Microsoft BizTalk Adapters**，然後選取**安裝 Microsoft BizTalk Adapters for Enterprise Applications**。  
@@ -601,9 +601,9 @@ select distinct BCNAME from PSBCITEM bc1 where not exists (select 1 from PSBCITE
 >  2. 類型： `net user "CREATOR OWNER" /add`。 這會建立新的使用者 CREATOR owner。
 >  3. 類型： `net localgroup Users /add`。 這會建立名為使用者的新群組。
   
-若要將配接器至 BizTalk Server，請參閱本主題中的 「 新增配接器的 BizTalk 管理主控台 」。
+若要新增的配接器至 BizTalk Server，請參閱 「 新增配接器給 BizTalk 系統管理員 」 本主題中。
 
-## <a name="add-the-adapters-biztalk-admin-console"></a>新增配接器的 BizTalk 管理主控台
+## <a name="add-adapters-to-biztalk-admin"></a>將配接器加入至 BizTalk 系統管理員
   
 > [!NOTE]
 >  如果您安裝 BizTalk （某部電腦上，執行階段專用的安裝和管理僅限工具安裝在另一部電腦上） 在多重電腦環境中，您應該安裝為企業應用程式的 BizTalk 配接器在電腦上。  
@@ -616,7 +616,7 @@ select distinct BCNAME from PSBCITEM bc1 where not exists (select 1 from PSBCITE
   
 4.  選取從您輸入的名稱**配接器**清單，並選取**確定**。  
    
-## <a name="post-install-overview---jd-edwards-oneworld"></a>後續安裝概觀-JD Edwards OneWorld  
+## <a name="post-install---jd-edwards-oneworld"></a>後續安裝-JD Edwards OneWorld  
  Microsoft BizTalk Adapter for JD Edwards OneWorld 介面支援的資料庫與 Microsoft BizTalk server 的伺服器系統傳輸配接器所組成。 傳輸配接器可讓您叫用從 BizTalk Server 的伺服器系統的呼叫。 傳輸配接器 (BizTalk Server 管理傳送處理常式) 組態會指定 SQL 資料庫的位置。  
   
  請參閱有關如何使用 BizTalk Adapter for JD Edwards OneWorld 以及其模型與 BizTalk Server 模型之間的對應資訊的配接器文件。  
@@ -653,7 +653,7 @@ select distinct BCNAME from PSBCITEM bc1 where not exists (select 1 from PSBCITE
     -   Microsoft.BizTalk.Adapters.JDEProperties.dll    
     -   jdecba.dll  
   
-## <a name="post-install-overview---jd-edwards-enterpriseone"></a>後續安裝概觀-JD Edwards EnterpriseOne  
+## <a name="post-install---jd-edwards-enterpriseone"></a>後續安裝-JD Edwards EnterpriseOne  
  Microsoft BizTalk Adapter for JD Edwards EnterpriseOne 包含傳輸配接器，可與支援的資料庫和 BizTalk server 的伺服器系統。 傳輸配接器可讓您叫用從 BizTalk Server 的伺服器系統的呼叫。  
   
  BizTalk Adapter for JD Edwards EnterpriseOne 提供支援的企業單一登入 (SSO)。 如果您選取使用在 SSO**傳輸屬性**頁面上，認證會使用 SSO 認證資料庫中的分支機構應用程式。 分支機構應用程式代表需要認證的後端應用程式。  
@@ -683,7 +683,7 @@ select distinct BCNAME from PSBCITEM bc1 where not exists (select 1 from PSBCITE
     -   sdk  
   
  
-## <a name="post-install-overview---peoplesoft-enterprise"></a>後續安裝概觀-PeopleSoft Enterprise  
+## <a name="post-install---peoplesoft-enterprise"></a>後續安裝-PeopleSoft Enterprise  
  Microsoft BizTalk Adapter for PeopleSoft Enterprise 包含傳輸配接器，可將支援的資料庫和伺服器系統連接到 BizTalk Server。 傳輸配接器可讓您叫用從 BizTalk Server 的伺服器系統的呼叫。 傳輸配接器 (BizTalk Server 管理傳送處理常式) 組態會指定 SQL 資料庫的位置。  
   
  BizTalk Adapter for PeopleSoft Enterprise 提供支援的企業單一登入 (SSO)。 如果您選取使用在 SSO**傳輸屬性**頁面上，認證會使用 SSO 認證資料庫中的分支機構應用程式。 分支機構應用程式代表需要認證的後端應用程式。  
@@ -776,7 +776,7 @@ C:\TIBCO\TIBRV\BIN > gacutil /i TIBCO.Rendezvous.dll
   
  TIBCO.Rendezvous.dll 現在會顯示 GAC 清單。 若要檢視清單中，控制台 中，開啟**系統管理工具**，開啟**Microsoft.NET Framework 組態**，然後開啟**組件快取**。  
   
-## <a name="post-install-overview---tibco-enterprise-message-service"></a>後續安裝概觀-TIBCO Enterprise Message Service  
+## <a name="post-install---tibco-enterprise-message-service"></a>後續安裝-TIBCO Enterprise Message Service  
  Microsoft BizTalk Adapter for TIBCO Enterprise Message Service (EMS) 包含接收和傳輸功能，可將支援的資料庫和伺服器系統連接到 BizTalk Server。  
   
 -   接收端會接聽來自伺服器系統的輸出呼叫。  

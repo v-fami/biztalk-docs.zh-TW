@@ -7,19 +7,16 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- SSIS
-- Data Provider for Siebel, importing Siebel data by using Visual Studio
 ms.assetid: 33701361-eca2-4795-a5e0-78162a98e9ba
 caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f0671459b39462422768e42e18bf16336a469f43
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4479fbbfd704cea30b8981866d3b7a354ca7269f
+ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 10/17/2017
 ---
 # <a name="import-siebel-data-using-visual-studio"></a>使用 Visual Studio 的 Siebel 資料匯入
 本節提供有關如何使用 Microsoft 的資訊[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]Siebel 系統的資料匯入至 SQL Server 資料庫。 它也會提供有關如何建立和執行 SSIS 封裝，此資料匯入的指示。  
@@ -29,13 +26,10 @@ ms.lasthandoff: 09/20/2017
   
 -   [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]安裝在電腦上。  
   
--   Microsoft[!INCLUDE[vs2010](../../includes/vs2010-md.md)]安裝在電腦上。  
+-   Microsoft Visual Studio 已安裝在電腦上。  
   
-## <a name="importing-data-by-using-visual-studio"></a>使用 Visual Studio 匯入資料  
- 執行下列步驟來匯入資料使用[!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]中[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]。  
-  
-#### <a name="to-import-data-by-using-visual-studio"></a>若要使用 Visual Studio 來匯入資料  
-  
+## <a name="import-in-visual-studio"></a>在 Visual Studio 中的匯入  
+ 
 1.  啟動[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]建立整合服務專案。  
   
 2.  從**專案**功能表上，選取**SSIS 匯入和匯出精靈**。 這樣會啟動 SQL Server 匯入和匯出精靈。  
@@ -92,19 +86,17 @@ ms.lasthandoff: 09/20/2017
   
 16. 精靈會新增至您的整合服務專案的 SSIS 封裝。 儲存整合服務專案。  
   
-## <a name="running-the-ssis-package"></a>執行 SSIS 封裝  
+## <a name="run-the-ssis-package"></a>執行 SSIS 封裝  
  一旦在整合服務專案中建立封裝時，您可以執行它 Siebel 系統的資料匯入至 SQL Server 資料庫。 執行下列步驟來匯入的 Siebel 資料執行封裝。  
-  
-#### <a name="to-run-the-package-from-visual-studio"></a>若要從 Visual Studio 執行封裝  
   
 1.  瀏覽至 [方案總管] 中的 SSIS 封裝。  
   
 2.  以滑鼠右鍵按一下封裝名稱，然後選取**執行封裝**。  
   
- 執行封裝的詳細資訊，請參閱 < 執行封裝 >，網址[http://go.microsoft.com/fwlink/?LinkId=94972](http://go.microsoft.com/fwlink/?LinkId=94972)。 針對任何其他資訊與 SSIS 封裝，查看 「 封裝使用說明主題 (SSIS) 」 [http://go.microsoft.com/fwlink/?LinkId=94973](http://go.microsoft.com/fwlink/?LinkId=94973)。  
+[執行 Integration Services (SSIS) 封裝](https://docs.microsoft.com/sql/integration-services/packages/run-integration-services-ssis-packages)提供詳細的資訊。 
   
-## <a name="verifying-the-results"></a>驗證結果  
+## <a name="verify-the-results"></a>驗證結果  
  執行封裝之後, 您必須確認登入 SQL Server，並巡覽至資料庫的 Siebel 資料匯入的結果。 執行封裝應已建立了資料表目的地資料庫中。 Siebel 資料表中的值來擴展這個資料表。  
   
 ## <a name="see-also"></a>另請參閱  
- [Siebel 與 SSIS 中使用資料提供者](../../adapters-and-accelerators/adapter-siebel/use-the-data-provider-for-siebel-with-ssis.md)
+ [搭配使用 Data Provider for Siebel 與 SSIS](../../adapters-and-accelerators/adapter-siebel/use-the-data-provider-for-siebel-with-ssis.md)

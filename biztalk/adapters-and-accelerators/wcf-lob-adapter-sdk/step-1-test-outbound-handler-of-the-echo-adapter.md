@@ -12,18 +12,18 @@ caps.latest.revision: "21"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0bf419a8ae3e6611f3d071cc94d274a5f2b0e00f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ba2b1d6586588d17c58c0ca9a74cb11a7a9bd9f2
+ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 10/17/2017
 ---
 # <a name="step-1-test-outbound-handler-of-the-echo-adapter"></a>步驟 1： 測試輸出回應配接器處理常式
 ![步驟 2 之 1](../../adapters-and-accelerators/adapter-sql/media/step-1of2.gif "Step_1of2")  
   
  **完成時間：** 15 分鐘  
   
- 在此步驟中，您將測試回應配接器所提供的三個輸出作業。 您會執行此作業使用[!INCLUDE[vs2010](../../includes/vs2010-md.md)]，加入配接器服務參考 Visual Studio 外掛程式和自訂程式碼。  
+ 在此步驟中，您將測試回應配接器所提供的三個輸出作業。 將您使用 Visual Studio 中，加入配接器服務參考 Visual Studio 外掛程式和自訂程式碼。  
   
 ## <a name="prerequisites"></a>必要條件  
  若要完成此步驟中，您必須先完成[教學課程 1： 開發回應配接器](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-1-develop-the-echo-adapter.md)。  
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  啟動 Visual Studio。  
   
-2.  在 Visual Studio 中，在**檔案**功能表上，指向**新增**，然後按一下 **專案**。  
+2.  在 Visual Studio 中，在**檔案**功能表上，指向**新增**，然後按一下**專案**。  
   
 3.  在**新專案**對話方塊方塊中，執行下列動作：  
   
@@ -188,7 +188,7 @@ ms.lasthandoff: 09/20/2017
   
 7.  EchoCustomGreetingsFromFile 中測試的程式碼，請確定自訂問候語會使用您在上一個程序中建立的檔案。 變更以反映您的檔案位置的程式碼。  
   
-8.  在[!INCLUDE[vs2010](../../includes/vs2010-md.md)]上**檔案**功能表上，按一下 **全部儲存**。  
+8.  在 Visual Studio 中，在**檔案**功能表上，按一下 **全部儲存**。  
   
 9. 執行應用程式。 您應該會看到類似下面的輸出：  
   
@@ -230,4 +230,4 @@ ms.lasthandoff: 09/20/2017
   
 ## <a name="see-also"></a>另請參閱  
   [教學課程 2： 使用回應配接器從.NET](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-2-consume-the-echo-adapter-from-net.md)   
- [步驟 2： 測試輸入的回應配接器處理常式](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-2-test-inbound-handler-of-the-echo-adapter.md)
+ [步驟 2： 測試 Echo 配接器的輸入處理常式](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-2-test-inbound-handler-of-the-echo-adapter.md)

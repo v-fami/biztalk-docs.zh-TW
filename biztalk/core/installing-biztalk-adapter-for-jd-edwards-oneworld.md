@@ -1,26 +1,29 @@
 ---
 title: "安裝 BizTalk Adapter for JD Edwards OneWorld |Microsoft 文件"
+description: "快速連結來安裝和設定概觀 BizTalk adapter for JD Edwards OneWorld 中 BizTalk Server"
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 10/16/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords: installation
 ms.assetid: e870f12d-5c83-4056-8066-0647706a2cfd
 caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a8c565afa4d46c88868c3452ad3d541a1a81e8e7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3338c110698c4dc4cb803fa527fb67598095c110
+ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 10/17/2017
 ---
-# <a name="installing-biztalk-adapter-for-jd-edwards-oneworld"></a>安裝 BizTalk Adapter for JD Edwards OneWorld
-如需安裝 Microsoft BizTalk Adapter for JD Edwards OneWorld 的相關資訊，請參閱 Microsoft BizTalk Adapters for Enterprise Applications 安裝指南。 若要確保您正在閱讀最新的資訊，請下載最新版本的指南：[超連結"http://go.microsoft.com/fwlink/?LinkId=196039"\t"_blank"http://go.microsoft.com/fwlink/?LinkId=196039](http://go.microsoft.com/fwlink/?LinkId=196039)。  
-  
-## <a name="see-also"></a>另請參閱  
- [快速入門](../core/getting-started-with-biztalk-adapter-for-jd-edwards-oneworld.md)
+# <a name="install-biztalk-adapter-for-jd-edwards-oneworld"></a>安裝 BizTalk Adapter for JD Edwards OneWorld
+
+## <a name="install-and-setup"></a>安裝及設定
+
+[安裝及設定企業應用程式的介面卡](../adapters-and-accelerators/install-configure-biztalk-adapters-enterprise-applications.md)包含企業配接器的安裝步驟，而且也包含 安裝配接器之前與之後安裝配接器所知道的金鑰資訊。 
+
+## <a name="next-step"></a>下一步
+[教學課程：使用 BizTalk Adapter for JD Edwards OneWorld](../core/tutorial-using-the-biztalk-adapter-for-jd-edwards-oneworld.md)

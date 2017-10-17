@@ -13,11 +13,11 @@ caps.latest.revision: "27"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4d3febbda1799c1f002ed352caecc5d9d838db00
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 82bfb1782c6bccdafe4f69326cddff0f49974386
+ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 10/17/2017
 ---
 # <a name="troubleshoot-operational-issues-with-the-sql-adapter"></a>SQL 配接器疑難排解操作問題
 本章節將討論使用來解析作業使用時可能遭遇的錯誤的疑難排解技術[!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]。  
@@ -203,7 +203,7 @@ System.Data.SqlClient.SqlException: Invalid object name '<temp_table_name>'.
 ###  <a name="BKMK_SQLVS2008"></a>在 Visual Studio 中使用配接器時，無效的繫結警告  
  **問題**  
   
- 當您建立的應用程式中使用配接器[!INCLUDE[vs2010](../../includes/vs2010-md.md)]並開啟配接器所產生的組態檔 (app.config)，您會看到類似下列的警告：  
+ 當您使用 Visual Studio 中建立的應用程式的配接器，並開啟配接器所產生的組態檔 (app.config) 時，您會看到類似下列的警告：  
   
 ```  
 The element 'bindings' has invalid child element 'sqlBinding'. List of possible elements expected: 'basicHttpBinding, customBinding, ...  

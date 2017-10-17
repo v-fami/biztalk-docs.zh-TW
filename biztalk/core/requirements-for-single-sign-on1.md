@@ -1,5 +1,5 @@
 ---
-title: "單一登 On1 需求 |Microsoft 文件"
+title: "單一登入的需求 |Microsoft 文件"
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -7,29 +7,23 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- JD Edwards EnterpriseOne adapters, Single Sign-On
-- SSO, requirements [JD Edwards EnterpriseOne adapters]
-- adapters [JD Edwards EnterpriseOne adapters], Single Sign-On
-- Single Sign-On, requirements [JD Edwards EnterpriseOne adapters]
-- Single Sign-On, enabling [JD Edwards EnterpriseOne adapters]
 ms.assetid: d1111377-2fe1-4d65-ac0d-c89d2f1740b8
 caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cfab6d6cfea2ddef3b953d3fb3bb15900420fdcf
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 437bc9d744e20b14e21d0e9d2ebe33e7b2e8a62a
+ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 10/17/2017
 ---
 # <a name="requirements-for-single-sign-on"></a>單一登入的需求
 若要使用單一登入 (SSO)，您必須已安裝下列軟體：  
   
--   Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]  
+-   Microsoft BizTalk Server
   
--   [!INCLUDE[vs2010](../includes/vs2010-md.md)]  
+-   Visual Studio  
   
 -   企業單一登入  
   
@@ -37,7 +31,7 @@ ms.lasthandoff: 09/20/2017
   
 -   外掛式主控的件應設定為**信任的驗證**。  
   
-### <a name="to-enable-sso"></a>啟用 SSO  
+## <a name="enable-sso"></a>啟用 SSO  
   
 1.  在**傳輸屬性**視窗中，選取**是**如**使用 SSO**。  
   

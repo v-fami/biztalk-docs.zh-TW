@@ -12,11 +12,11 @@ caps.latest.revision: "23"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 929a83ae28ed85da3c06c1e03b98677e0fca7f82
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1dc83a0531460f513d146e2d03d0ef7e0a7c529f
+ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 10/17/2017
 ---
 # <a name="step-1-publish-the-siebel-business-component-operations-as-a-wcf-service"></a>步驟 1： 為 WCF 服務發佈 Siebel 商務元件操作
 ![步驟 4 之 1](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-1of4.gif "Step_1of4")  
@@ -36,7 +36,7 @@ ms.lasthandoff: 09/20/2017
   
  如需有關這些必要條件的詳細資訊，請參閱[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]安裝指南。 在一般安裝安裝指南 》\<安裝磁碟機 >: \Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Documents。  
   
-### <a name="to-publish-the-siebel-business-components-as-a-wcf-service"></a>若要發佈為 WCF 服務的 Siebel 商務元件  
+## <a name="publish-the-siebel-business-components-as-a-wcf-service"></a>Siebel 商務元件發佈為 WCF 服務  
   
 1.  啟動[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]，然後建立專案。  
   
@@ -45,7 +45,7 @@ ms.lasthandoff: 09/20/2017
      或者，從**專案類型**] 窗格中，展開 [ **Visual C#**，然後選取**Web**。 從**範本**窗格中，選取**WCF 配接器服務**。  
   
     > [!NOTE]
-    >  如果您已安裝[!INCLUDE[vs2010](../../includes/vs2010-md.md)]與 Web 程式開發的元件， **WCF 配接器服務**範本也會提供**新增網站**選項。  
+    >  如果您使用 Web 程式開發的元件，安裝 Visual Studio **WCF 配接器服務**範本也會提供**新增網站**選項。  
   
 3.  指定的名稱和位置的方案，然後再按一下**確定**。 WCF 配接器服務開發精靈隨即啟動。  
   
@@ -53,7 +53,7 @@ ms.lasthandoff: 09/20/2017
   
 5.  選擇 [作業] 頁面上指定的連接字串連接至 Siebel 系統。 若要這樣做：  
   
-    1.  在**選取繫結**清單中，按一下**siebelBinding**，然後按一下 **設定**。  
+    1.  在**選取繫結**清單中，按一下**siebelBinding**，然後按一下**設定**。  
   
     2.  在**設定配接器**對話方塊中，按一下 [**安全性**] 索引標籤。  
   
@@ -68,7 +68,7 @@ ms.lasthandoff: 09/20/2017
   
          如需繫結屬性的詳細資訊，請參閱[閱讀 BizTalk Adapter for Siebel 繫結屬性](../../adapters-and-accelerators/adapter-siebel/read-about-biztalk-adapter-for-siebel-binding-properties.md)。  
   
-    6.  按一下**確定**，然後按一下 **連接**。 建立連接之後，連線狀態會顯示為**Connected**。  
+    6.  按一下**確定**，然後按一下**連接**。 建立連接之後，連線狀態會顯示為**Connected**。  
   
 6.  在選擇 [作業] 頁面中**選取的合約型別**清單中，按一下**用戶端 （輸出作業）**。  
   
@@ -98,7 +98,7 @@ ms.lasthandoff: 09/20/2017
         |X509FindType|要執行 X.509 搜尋類型。<br /><br /> **注意：**指定的值為這個屬性才**UseServiceCertificate**設**True**。|  
   
         > [!NOTE]
-        >  有關憑證和相關聯的屬性的詳細資訊，請參閱 < X509ClientCertificateCredentialsElement 屬性 >，網址[http://go.microsoft.com/fwlink/?LinkId=103771](http://go.microsoft.com/fwlink/?LinkId=103771)。  
+        >  如需憑證和相關聯的屬性的詳細資訊，請參閱[X509ClientCertificateCredentialsElement 屬性](https://msdn.microsoft.com/library/system.servicemodel.configuration.x509clientcertificatecredentialselement_properties.aspx)。
   
     2.  在**端點行為組態**方塊中，指定下列值：  
   
@@ -121,7 +121,7 @@ ms.lasthandoff: 09/20/2017
   
     |屬性|指定的值|  
     |----------------------|-----------------------|  
-    |繫結組態|此精靈只支援基本 HTTP 繫結。 因此，繫結設定欄位所自動填入*System.ServiceModel.Configuration.BasicHttpBindingElement*。<br /><br /> 按一下省略符號按鈕**（...）**變更 HTTP 繫結的屬性。 若要使用安全通訊通道，您都必須設定**模式**屬性**傳輸**。 精靈會設定的預設值為**模式**屬性做為**傳輸**。<br /><br /> 公開的其他繫結的詳細資訊，請參閱 < BasicHttpBindingElement 成員 >，網址[http://go.microsoft.com/fwlink/?LinkId=103773](http://go.microsoft.com/fwlink/?LinkId=103773)。|  
+    |繫結組態|此精靈只支援基本 HTTP 繫結。 因此，繫結設定欄位所自動填入*System.ServiceModel.Configuration.BasicHttpBindingElement*。<br /><br /> 按一下省略符號按鈕**（...）**變更 HTTP 繫結的屬性。 若要使用安全通訊通道，您都必須設定**模式**屬性**傳輸**。 精靈會設定的預設值為**模式**屬性做為**傳輸**。<br /><br /> 如需公開的其他繫結的詳細資訊，請參閱[BasicHttpBindingElement 類別](https://msdn.microsoft.com/library/system.servicemodel.configuration.basichttpbindingelement.aspx)。|  
     |端點名稱|指定合約的端點名稱。|  
   
      此頁面上的其他欄位會自動填入您在先前頁面中指定的值。  
@@ -149,7 +149,7 @@ ms.lasthandoff: 09/20/2017
   
 16. 發佈 WCF 服務。  
   
-    1.  請確定 SSL 已啟用網際網路資訊服務 (IIS)。 如需有關如何啟用 iis 的 SSL 的指示，請參閱[http://go.microsoft.com/fwlink/?LinkId=197170](http://go.microsoft.com/fwlink/?LinkId=197170)。  
+    1.  請確定 SSL 已啟用網際網路資訊服務 (IIS)。 請參閱[如何設定 SSL](https://docs.microsoft.com/iis/manage/configuring-security/how-to-set-up-ssl-on-iis)。
   
     2.  以滑鼠右鍵按一下方案總管 中的專案，然後按一下**發行**。  
   
@@ -165,11 +165,11 @@ ms.lasthandoff: 09/20/2017
   
 17. 請確認已成功發行 WCF 服務。  
   
-    1.  啟動 IIS Microsoft Management Console。 按一下**啟動**，指向 **系統管理工具**，然後按一下  **Internet Information Services**。  
+    1.  啟動 IIS Microsoft Management Console。 按一下**啟動**，指向 **系統管理工具**，然後按一下 **Internet Information Services**。  
   
     2.  瀏覽至您用來發行服務的節點。 如**Siebel_Account**服務，請瀏覽至**Internet Information Services** > **\<電腦名稱 >**  >  **Web Sites** > **Default Web Site** > **Siebel_Account**。  
   
-    3.  在右窗格中，BusinessObjects_Account_Account_Operation.svc 檔案，以滑鼠右鍵按一下，然後按一下 **瀏覽**。  
+    3.  在右窗格中，BusinessObjects_Account_Account_Operation.svc 檔案，以滑鼠右鍵按一下，然後按一下**瀏覽**。  
   
     4.  擷取 WSDL 的 URL 和一同顯示網頁。 若要測試使用 svcutil 命令擷取的中繼資料。 比方說，是擷取 Siebel_Account 服務中繼資料的命令：  
   
@@ -181,4 +181,4 @@ ms.lasthandoff: 09/20/2017
  您現在可以 Siebel 商務元件的 WCF 服務。 若要建立 Siebel 商務元件操作的應用程式定義檔中使用商務資料目錄定義編輯器。 請參閱[步驟 2： 建立應用程式定義檔的 Siebel 商務元件操作](../../adapters-and-accelerators/adapter-siebel/step-2-create-an-application-definition-file-for-siebel-business-component.md)如需相關指示。 應用程式定義檔識別 LOB 資料的儲存位置，以及儲存它的格式。  
   
 ## <a name="see-also"></a>另請參閱  
- [教學課程 1： 從 SharePoint 網站上的 Siebel 系統中呈現資料](../../adapters-and-accelerators/adapter-siebel/tutorial-1-presenting-data-from-a-siebel-system-on-a-sharepoint-site.md)
+ [教學課程 1：在 SharePoint 網站上呈現 Siebel 系統的資料](../../adapters-and-accelerators/adapter-siebel/tutorial-1-presenting-data-from-a-siebel-system-on-a-sharepoint-site.md)

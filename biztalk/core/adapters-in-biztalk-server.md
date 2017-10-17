@@ -1,27 +1,23 @@
 ---
 title: "在 BizTalk Server 配接器 |Microsoft 文件"
+description: "所有的可用配接器在 BizTalk Server 中，包括內建配接器、 企業配接器，BizTalk 配接器組件的完整清單"
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 10/16/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- adapters
-- adapters, about adapters
-- adapters, list of BizTalk adapters
-- adapters, features
 ms.assetid: 8fd279fb-2c68-4de4-a586-5a8e42a685ff
 caps.latest.revision: "48"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d65d7304547df50ac14128717526fa7d55880775
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7834fe9f7365e9ed94bce82f353e1cd305a2863c
+ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 10/17/2017
 ---
 # <a name="adapters-in-biztalk-server"></a>BizTalk Server 中的配接器
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的其中一個主要目標是用以協助交易夥伴之間的商業文件交換。 為了協助符合此目標，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 包含數個配接器，使用普遍認可的資料通訊協定和文件格式，來提供 BizTalk Server 與交易夥伴之間的連繫。 本主題將討論何謂配接器，以及您為何要使用配接器。  
@@ -40,51 +36,53 @@ ms.lasthandoff: 09/20/2017
 ## <a name="why-use-an-adapter"></a>為何要使用配接器？  
  使用配接器可大幅簡化在 BizTalk Server 上傳送和接收訊息的傳輸。 若您現有基礎結構所使用的傳輸有對應的 BizTalk 配接器，則在 BizTalk Server 上傳送或接收訊息的程序，會與設定適當的配接器以使用對應的傳輸機制來傳送或接收訊息一樣簡單。  
   
-## <a name="summary-of-functionality-supported-by-biztalk-native-adapters"></a>BizTalk 原生配接器支援的功能摘要  
+## <a name="functionality-support-in-built-in-adapters"></a>內建配接器中的功能支援  
  下表列出每個原生配接器的主要優點，以及配接器是否提供下列功能：  
   
--   **交易支援。** 在分散式交易協調器 (DTC) 交易環境下傳送及接收文件的功能。 此為維護已排序之訊息傳遞所需的必要功能，並用以保證文件並未重複或遺失。  
+-   **交易支援**： 傳送和接收文件的分散式的交易協調器 (DTC) 交易內容下的能力。 此為維護已排序之訊息傳遞所需的必要功能，並用以保證文件並未重複或遺失。  
   
--   **雙向通訊支援 （要求/回應或請求/回應）。** 傳送文件和處理來自目的地之回應訊息，或是接收文件與傳送回應訊息至來源的功能。  
+-   **雙向通訊支援 （要求/回應或請求/回應）** ： 能夠傳送文件，並處理來自目的地的回應訊息或接收文件和傳送回應訊息的來源。  
   
--   **依序接收支援。** 將接收的文件按照接收文件的相同順序發佈到 BizTalk MessageBox 資料庫。  
+-   **依序接收支援**： 發佈到 BizTalk MessageBox 資料庫已接收的文件的正確順序接收文件的能力。  
   
--   **已啟用 SSO。** 以配接器傳送或接收文件時，使用 SSO 驗證的功能。  
+-   **已啟用 SSO** ： 使用 SSO 驗證傳送或接收配接器的文件時的能力。  
   
--   **裝載處理序**執行配接器的程序。 *BizTalk IP* BTSNTSvc.exe 處理序內執行時*IIS OOP*在 Internet Information Server (IIS) 處理序中的 BizTalk Server 處理序之外執行。  
+-   **裝載處理序**： 執行配接器的程序。 *BizTalk IP* BTSNTSvc.exe 處理序內執行時*IIS OOP*在 Internet Information Server (IIS) 處理序中的 BizTalk Server 處理序之外執行。  
   
 |配接器|主要優點|交易支援|雙向通訊支援|依序接收支援|已啟用 SSO|主控處理序|  
-|-------------|---------------------|-------------------------|------------------------------------|-------------------------------|-----------------|---------------------|  
+|---|---|---|---|---|---|---|  
+|Custom|支援您的系統。|是的，需要自訂程式碼。|是的，需要自訂程式碼。|是的，需要自訂程式碼。|是的，需要自訂程式碼。|BizTalk IP|  
 |檔案|易於使用。|否|否|否|否|BizTalk IP|  
 |FTP|廣泛應用於 B2B 通訊。|否|否|否|是|BizTalk IP|  
 |HTTP(S)|廣泛應用於 B2B 通訊。|否|要求/回應和請求/回應|否|是|IIS OOP|  
-|SOAP|支援 Web 服務的使用。|否|要求/回應和請求/回應|否|是|IIS OOP|  
 |MSMQ|支援 BizTalk Server 與 Microsoft Message Queuing 之間保證僅一次的訊息傳遞。|是|否|是|否|BizTalk IP|  
+|邏輯應用程式| 從，接收和傳送至 Azure 邏輯應用程式。 在內部部署和雲端環境中，使用此配接器以存取許多 Azure 服務 | 是 | 取決於您的工作流程設計| | |收到： BizTalk IP<br/>傳送： IIS OOP| 
 |MQ 系列|支援 BizTalk Server 與 IBM WebSphere MQ for Windows 平台之間保證僅一次的訊息傳遞。|是|否|是|是|BizTalk IP|  
-|Windows SharePoint Services|允許 BizTalk Server 與 SharePoint 文件庫之間彼此交換 XML 和二進位訊息。|否|否|否|否|BizTalk IP|  
 |POP3|支援透過電子郵件接收文件。|否|否|否|否|BizTalk IP|  
 |SMTP|支援透過電子郵件傳送文件。|否|否|否|否|BizTalk IP|  
-|Custom|支援您的系統。|是的，需要自訂程式碼。|是的，需要自訂程式碼。|是的，需要自訂程式碼。|是的，需要自訂程式碼。|BizTalk IP|  
+|SOAP|支援 Web 服務的使用。|否|要求/回應和請求/回應|否|是|IIS OOP|  
+|Windows SharePoint Services|允許 BizTalk Server 與 SharePoint 文件庫之間彼此交換 XML 和二進位訊息。|否|否|否|否|BizTalk IP| 
 |WCF-WSHttp|支援透過 HTTP 傳輸的 WS-* 標準。|是，WsHTTP 支援交易 (僅限 WS-Transaction)|要求/回應和請求/回應|否|是|IIS OOP|  
 |WCF-BasicHttp|與 ASMX 架構的 Web 服務和用戶端，以及與其他符合使用 HTTP 或 HTTPS 之 WS-I 基本設定檔 1.1 的服務進行通訊。|否|要求/回應和請求/回應|否|是|IIS OOP|  
 |WCF-NetTcp|支援透過 TCP 傳輸的 WS-* 標準。|是|要求/回應和請求/回應|否|是|BizTalk IP|  
 |WCF-NetMsmq|支援佇列，利用 Microsoft Message Queuing (MSMQ) 做為傳輸。|是|否|是|是|BizTalk IP|  
 |WCF-NetNamedPipe|在同一部機器上提供跨處理序通訊的快速傳輸 (僅適用 WCF 應用程式)。|是|要求/回應和請求/回應|否|是|BizTalk IP|  
-|WCF-Custom|啟用使用 WCF 擴充性功能。|是的。|是的。|是，只要繫結支援它即可。|是的。|BizTalk IP|  
-|WCF-CustomIsolated|啟用透過 HTTP 傳輸使用 WCF 擴充性功能。|是的。|是的。|資料分割|是的。|IIS OOP|  
+|WCF-Custom|啟用使用 WCF 擴充性功能。|是|是|是，只要繫結支援它即可。|是|BizTalk IP|  
+|WCF-CustomIsolated|啟用透過 HTTP 傳輸使用 WCF 擴充性功能。|是|是|否|是|IIS OOP|  
   
-## <a name="line-of-business-adapters"></a>商務營運系統配接器  
+## <a name="enterprise-adapters"></a>企業配接器  
  以下是 Microsoft 提供的「主要商務」(LOB) 配接器清單。  
   
 |配接器|Description|支援的版本|  
-|-------------|-----------------|------------------------|  
+|---|---|---|  
 |PeopleSoft Enterprise|允許在 BizTalk Server 和 PeopleSoft 系統之間的元件介面 (CI) 訊息交換。|[支援的特定業務 (LOB) 和企業系統](http://social.technet.microsoft.com/wiki/contents/articles/17631.biztalk-server-supported-line-of-business-lob-and-enterprise-systems.aspx)|  
 |JD Edwards OneWorld XE|允許在 BizTalk Server 和 JD Edwards OneWorld 系統之間的商務功能訊息交換。|[支援的特定業務 (LOB) 和企業系統](http://social.technet.microsoft.com/wiki/contents/articles/17631.biztalk-server-supported-line-of-business-lob-and-enterprise-systems.aspx)|  
 |JD Edwards EnterpriseOne|允許在 BizTalk Server 和 JD Edwards EnterpriseOne 系統之間的商務功能訊息交換。|[支援的特定業務 (LOB) 和企業系統](http://social.technet.microsoft.com/wiki/contents/articles/17631.biztalk-server-supported-line-of-business-lob-and-enterprise-systems.aspx)|  
 |TIBCO Rendezvous|允許在 BizTalk Server 和 TIBCO Rendezvous 之間的 XML 和二進位資料格式訊息交換。|[支援的特定業務 (LOB) 和企業系統](http://social.technet.microsoft.com/wiki/contents/articles/17631.biztalk-server-supported-line-of-business-lob-and-enterprise-systems.aspx)|  
 |TIBCO Enterprise Message Service|允許在 BizTalk Server 和提供緊密整合及可靠應用程式基礎結構之 TIBCO EMS 伺服器之間的 XML 及二進位資料格式訊息交換。|[支援的特定業務 (LOB) 和企業系統](http://social.technet.microsoft.com/wiki/contents/articles/17631.biztalk-server-supported-line-of-business-lob-and-enterprise-systems.aspx)|  
-  
- 您也可以使用 [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] 隨附的配接器連接至各種企業營運系統。 如需有關[!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]，請參閱[http://go.microsoft.com/fwlink/p/?LinkID=188849](http://go.microsoft.com/fwlink/p/?LinkID=188849)  
+
+## <a name="biztalk-adapter-pack"></a>BizTalk 配接器封包  
+ 您也可以使用 [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] 隨附的配接器連接至各種企業營運系統。 如需有關[!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]，請參閱[BizTalk Adapter Pack](../adapters-and-accelerators/biztalk-adapter-pack.md)。
   
 ## <a name="see-also"></a>另請參閱  
  [保護配接器的最佳作法](../core/best-practices-for-securing-adapters.md)   

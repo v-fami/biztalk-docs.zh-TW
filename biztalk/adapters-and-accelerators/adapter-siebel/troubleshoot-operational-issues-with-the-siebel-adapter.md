@@ -13,11 +13,11 @@ caps.latest.revision: "22"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 62d1ffae1318f4d04f7bd61ef27dd24fd1d5a2b7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8a7fd507b301d20d84680cb626953d21b8a6e201
+ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 10/17/2017
 ---
 # <a name="troubleshoot-operational-issues-with-the-siebel-adapter"></a>使用 Siebel 配接器疑難排解操作問題
 本節提供使用時，可能會遇到操作問題的相關資訊的集中式的位置[!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)]。  
@@ -223,7 +223,7 @@ Microsoft.ServiceModel.Channels.Common.XmlReaderParsingException: Invalid argume
   
  **解決方式**  
   
- 重新啟動 BizTalk 應用程式主控件執行個體。 若要這樣做從[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]管理主控台中的，在主控台樹狀目錄中展開**BizTalk 群組**，依序展開**平台設定**，然後按一下 **主控件執行個體**。 從右窗格中，以滑鼠右鍵按一下 主機名稱，然後選取**重新啟動**。  
+ 重新啟動 BizTalk 應用程式主控件執行個體。 若要這樣做從[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]管理主控台中的，在主控台樹狀目錄中展開**BizTalk 群組**，依序展開**平台設定**，然後按一下**主控件執行個體**。 從右窗格中，以滑鼠右鍵按一下 主機名稱，然後選取**重新啟動**。  
   
 ###  <a name="BKMK_SiebelAction"></a>配接器無法辨識的實體通訊埠上的動作，即使您使用 取用配接器服務增益集所產生的繫結檔案建立連接埠  
  **問題**  
@@ -287,7 +287,7 @@ The current .NET type name of this root node is invalid (it is a reserved BizTal
 ###  <a name="BKMK_SiebelVS2008"></a>在 Visual Studio 中使用配接器時，無效的繫結警告  
  **問題**  
   
- 當您建立的應用程式中使用配接器[!INCLUDE[vs2010](../../includes/vs2010-md.md)]並開啟配接器所產生的組態檔 (app.config)，您會看到類似下列的警告：  
+ 當您使用 Visual Studio 中建立的應用程式的配接器，並開啟配接器所產生的組態檔 (app.config) 時，您會看到類似下列的警告：  
   
 ```  
 The element 'bindings' has invalid child element 'siebelBinding'. List of possible elements expected: 'basicHttpBinding, customBinding, ...  
