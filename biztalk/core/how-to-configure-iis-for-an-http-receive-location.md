@@ -1,99 +1,89 @@
 ---
-title: "如何設定 IIS，HTTP 接收位置 |Microsoft 文件"
+title: "HTTP 接收位置設定 IIS |Microsoft 文件"
+description: "在 IIS 中，建立 BTS HTTP 接收應用程式和 BizTalk Server 中的測試應用程式集區設定"
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 10/10/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- 64-bit support, HTTP adapters
-- HTTP adapters, IIS
-- configuring [HTTP adapters], IIS
-- receive locations, IIS
-- IIS, receive locations
-- HTTP adapters, 64-bit support
-- IIS, HTTP adapters
 ms.assetid: 1c420f46-01f1-4c9c-9144-d8d2acc8b0c4
 caps.latest.revision: "26"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a1daa535c546bef0b390f0f7f84c45d546ac0005
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e09768d6616a33a4900995f3dd3225fa34318b3c
+ms.sourcegitcommit: 75d35f6f230f0846c29a4b146c6d5b074e60b13c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 10/11/2017
 ---
-# <a name="how-to-configure-iis-for-an-http-receive-location"></a><span data-ttu-id="3cf9c-102">如何設定 HTTP 接收位置的 IIS</span><span class="sxs-lookup"><span data-stu-id="3cf9c-102">How to Configure IIS for an HTTP Receive Location</span></span>
-<span data-ttu-id="3cf9c-103">視您使用的 Microsoft Windows 版本而定，您必須以不同方式設定 Microsoft Internet Information Services (IIS) 來搭配使用 HTTP 配接器接收位置。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-103">Depending on which version of Microsoft Windows you are using, you will have to configure Microsoft Internet Information Services (IIS) differently to work with the HTTP adapter receive location.</span></span>  
+# <a name="configure-iis-for-an-http-receive-location"></a><span data-ttu-id="5c543-103">HTTP 接收位置設定 IIS</span><span class="sxs-lookup"><span data-stu-id="5c543-103">Configure IIS for an HTTP Receive Location</span></span>
+<span data-ttu-id="5c543-104">HTTP 接收位置所使用的網際網路資訊服務 (IIS) 中的應用程式。</span><span class="sxs-lookup"><span data-stu-id="5c543-104">The HTTP receive location uses an application within Internet Information Services (IIS).</span></span> <span data-ttu-id="5c543-105">本主題列出的步驟來啟用 HTTP 接收位置在 IIS 中。</span><span class="sxs-lookup"><span data-stu-id="5c543-105">This topic lists the steps to enable the HTTP receive location within IIS.</span></span> 
+
+<span data-ttu-id="5c543-106">根據您的作業系統，設定 IIS 應用程式的步驟可能會改變。</span><span class="sxs-lookup"><span data-stu-id="5c543-106">Depending on your operating system, the steps to configure the IIS application may vary.</span></span> <span data-ttu-id="5c543-107">做為指南，使用下列步驟，因為使用者介面可能會在您的作業系統上的不同。</span><span class="sxs-lookup"><span data-stu-id="5c543-107">Use these steps as a guide, as the user interface may be different on your OS.</span></span>
   
- <span data-ttu-id="3cf9c-104">如果您的作業系統是[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]或[!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]，IIS 7.0 提供兩種不同的應用程式隔離模式來保護 Web 應用程式。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-104">If your operating system is [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] or [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)], IIS 7.0 provides two different application isolation modes to protect Web applications.</span></span> <span data-ttu-id="3cf9c-105">背景工作處理序隔離模式是預設模式。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-105">Worker process isolation mode is the default mode.</span></span> <span data-ttu-id="3cf9c-106">您可以設定 HTTP 配接器接收位置使用任一種模式，但建議使用工作者處理序隔離模式，因為它具有改善的安全性功能。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-106">You can configure the HTTP adapter receive location to work with either mode, but worker process isolation mode is recommended for its improved security functionality.</span></span>  
+## <a name="32-bit-vs-64-bit"></a><span data-ttu-id="5c543-108">32 位元與 64 位元</span><span class="sxs-lookup"><span data-stu-id="5c543-108">32-bit vs 64-bit</span></span>
+
+<span data-ttu-id="5c543-109">HTTP 接收位置會使用 BTSHTTPReceive.dll。</span><span class="sxs-lookup"><span data-stu-id="5c543-109">An HTTP receive location uses the BTSHTTPReceive.dll.</span></span> <span data-ttu-id="5c543-110">沒有 32 位元和 64 位元版本的 dll。</span><span class="sxs-lookup"><span data-stu-id="5c543-110">There is a 32-bit and a 64-bit version of the DLL.</span></span> <span data-ttu-id="5c543-111">您選擇您想要使用哪個的版本。</span><span class="sxs-lookup"><span data-stu-id="5c543-111">You choose which version you want to use.</span></span> <span data-ttu-id="5c543-112">64 位元處理序會有更多可用的記憶體，因此如果您處理大型訊息，則為 64 位元版本可能是最佳。</span><span class="sxs-lookup"><span data-stu-id="5c543-112">64-bit processes have more available memory, so if you process larger messages, then the 64-bit version may be best.</span></span> 
+
+<span data-ttu-id="5c543-113">**32 位元的安裝位置**: *Program Files (x86) \Microsoft BizTalk Server\HttpReceive*。</span><span class="sxs-lookup"><span data-stu-id="5c543-113">**32-bit install location**: *Program Files (x86)\Microsoft BizTalk Server\HttpReceive*.</span></span>
+<span data-ttu-id="5c543-114">**64 位元的安裝位置**: *Program Files (x86) \Microsoft BizTalk Server\HttpReceive64*</span><span class="sxs-lookup"><span data-stu-id="5c543-114">**64-bit install location**: *Program Files (x86)\Microsoft BizTalk Server\HttpReceive64*</span></span>
+
+<span data-ttu-id="5c543-115">若要執行 64 位元版本的 HTTP 接收配接器在 64 位元原生模式中，開啟命令提示字元，並執行下列指令碼：</span><span class="sxs-lookup"><span data-stu-id="5c543-115">To run the 64-bit version of the HTTP receive adapter in 64-bit native mode,  open a command prompt, and execute the following scripts:</span></span>  
+
+1. <span data-ttu-id="5c543-116">類型：`cscript %SystemDrive%\inetpub\AdminScripts\adsutil.vbs set w3svc/AppPools/Enable32bitAppOnWin64 0`</span><span class="sxs-lookup"><span data-stu-id="5c543-116">Type: `cscript %SystemDrive%\inetpub\AdminScripts\adsutil.vbs set w3svc/AppPools/Enable32bitAppOnWin64 0`</span></span>  
+
+2. <span data-ttu-id="5c543-117">類型：`C:\WINDOWS\Microsoft.NET\Framework64\vX.X.XXXXX>aspnet_regiis.exe -i`</span><span class="sxs-lookup"><span data-stu-id="5c543-117">Type: `C:\WINDOWS\Microsoft.NET\Framework64\vX.X.XXXXX>aspnet_regiis.exe -i`</span></span>  
   
 > [!NOTE]
->  <span data-ttu-id="3cf9c-107">如果您的作業系統是 x64 版本的[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]或[!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]，64 位元版本的 HTTP 接收配接器安裝到*\<磁碟機 >***\Program Files (x86) \Microsoft**[!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **\HttpReceive64**目錄您[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]預設。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-107">If your operating system is the x64 edition of [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] or [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)], the 64-bit version of the HTTP receive adapter is installed to the *\<drive>***\Program Files (x86)\Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]**\HttpReceive64** directory of your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] by default.</span></span> <span data-ttu-id="3cf9c-108">若要在 64 位元原生模式中執行 64 位元版本的 HTTP 接收配接器，您必須從命令列執行下列指令碼：</span><span class="sxs-lookup"><span data-stu-id="3cf9c-108">To run the 64-bit version of the HTTP receive adapter in 64-bit native mode you must execute the following script from a command line:</span></span>  
->   
->  `cscript %SystemDrive%\inetpub\AdminScripts\adsutil.vbs set w3svc/AppPools/Enable32bitAppOnWin64 0`  
->   
->  `C:\WINDOWS\Microsoft.NET\Framework64\vX.X.XXXXX>aspnet_regiis.exe -i`  
+>  <span data-ttu-id="5c543-118">任何導致 SOAP 與 HTTP 共用相同程序的 IIS 組態都無效。</span><span class="sxs-lookup"><span data-stu-id="5c543-118">Any IIS configuration that leads to SOAP and HTTP sharing the same process is not valid.</span></span> <span data-ttu-id="5c543-119">每個程序只能有一個隔離的接收器。</span><span class="sxs-lookup"><span data-stu-id="5c543-119">You can have only one isolated receiver per process.</span></span>  
   
-> [!NOTE]
->  <span data-ttu-id="3cf9c-109">任何導致 SOAP 與 HTTP 共用相同程序的 IIS 組態都無效。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-109">Any IIS configuration that leads to SOAP and HTTP sharing the same process is not valid.</span></span> <span data-ttu-id="3cf9c-110">每個程序只能有一個隔離的接收器。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-110">You can have only one isolated receiver per process.</span></span>  
+##  <a name="configure-the-iis-application"></a><span data-ttu-id="5c543-120">設定 IIS 應用程式</span><span class="sxs-lookup"><span data-stu-id="5c543-120">Configure the IIS application</span></span>
   
-### <a name="to-configure-the-iis-70-worker-process-isolation-mode-to-work-with-the-http-adapter-receive-location"></a><span data-ttu-id="3cf9c-111">若要設定 IIS 7.0 背景工作處理序隔離模式，才能使用 HTTP 配接器接收位置</span><span class="sxs-lookup"><span data-stu-id="3cf9c-111">To configure the IIS 7.0 worker process isolation mode to work with the HTTP adapter receive location</span></span>  
+1.  <span data-ttu-id="5c543-121">開啟**Internet Information Services** (開啟**伺服器管理員**，選取**工具**，然後選取**Internet Information Services 管理員**).</span><span class="sxs-lookup"><span data-stu-id="5c543-121">Open **Internet Information Services** (open **Server Manager**, select **Tools**, and select **Internet Information Services Manager**).</span></span> 
   
-1.  <span data-ttu-id="3cf9c-112">按一下**啟動**，指向 **設定**，然後按一下 **控制台**。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-112">Click **Start**, point to **Settings**, and then click **Control Panel**.</span></span>  
-  
-2.  <span data-ttu-id="3cf9c-113">在控制台中，按兩下**系統管理工具**。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-113">In Control Panel, double-click **Administrative Tools**.</span></span>  
-  
-3.  <span data-ttu-id="3cf9c-114">在 [系統管理工具] 中按兩下**Internet Information Services**。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-114">In Administrative Tools, double-click **Internet Information Services**.</span></span>  
-  
-4.  <span data-ttu-id="3cf9c-115">在 [Internet Information Services] 中，選取根 Web 伺服器項目。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-115">In Internet Information Services, select the root Web server entry.</span></span> <span data-ttu-id="3cf9c-116">在**功能檢視**，連按兩下**處理常式對應**，然後在 動作 窗格中，按一下 **新增指令碼對應**。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-116">In the **Features View**, double-click **Handler Mappings**, and then in the Actions pane, click **Add Script Map**.</span></span>  
+2.  <span data-ttu-id="5c543-122">在 IIS 中，選取您的伺服器名稱。</span><span class="sxs-lookup"><span data-stu-id="5c543-122">In IIS, select your server name.</span></span> <span data-ttu-id="5c543-123">在**功能檢視**，連按兩下**處理常式對應**。</span><span class="sxs-lookup"><span data-stu-id="5c543-123">In the **Features View**, double-click **Handler Mappings**.</span></span> <span data-ttu-id="5c543-124">在 [動作] 窗格中，選取**新增指令碼對應**。</span><span class="sxs-lookup"><span data-stu-id="5c543-124">In the Actions pane, select **Add Script Map**.</span></span>  
   
     > [!NOTE]
-    >  <span data-ttu-id="3cf9c-117">在 Web 伺服器層級設定指令碼對應會使得此對應套用至所有子網站。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-117">Configuring the script mapping at the Web server level will cause this mapping to apply to all child Web sites.</span></span> <span data-ttu-id="3cf9c-118">若要限制對應至特定網站或虛擬資料夾，請選取目標網站或資料夾，而不要選取 Web 伺服器。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-118">If you want to restrict the mapping to a specific Web site or virtual folder, select the target site or folder instead of the Web server.</span></span>  
+    >  <span data-ttu-id="5c543-125">當您在 web 伺服器層級設定指令碼對應時，對應適用於所有網站。</span><span class="sxs-lookup"><span data-stu-id="5c543-125">When you configure the script mapping at the web server-level, the mapping applies to all web sites.</span></span> <span data-ttu-id="5c543-126">如果您想要限制對應至特定網站或虛擬資料夾，選取該網站或資料夾，然後再新增 指令碼對應。</span><span class="sxs-lookup"><span data-stu-id="5c543-126">If you want to restrict the mapping to a specific Web site or virtual folder, select that web site or folder, and then add the script map.</span></span>  
   
-5.  <span data-ttu-id="3cf9c-119">在**新增指令碼對應**對話方塊中，於**要求路徑**欄位中，輸入`BtsHttpReceive.dll`。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-119">In the **Add Script Map** dialog box, in the **Request path** field, type `BtsHttpReceive.dll`.</span></span>  
+3.  <span data-ttu-id="5c543-127">在**新增指令碼對應**，選取**要求路徑**，然後輸入`BtsHttpReceive.dll`。</span><span class="sxs-lookup"><span data-stu-id="5c543-127">In **Add Script Map**, select **Request path**, and type `BtsHttpReceive.dll`.</span></span>  
   
-6.  <span data-ttu-id="3cf9c-120">在**可執行檔**欄位中，按一下省略符號 (**...**) 按鈕，然後瀏覽至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]HttpReceive。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-120">In the **Executable** field, click the ellipsis (**…**) button and browse to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]HttpReceive.</span></span> <span data-ttu-id="3cf9c-121">選取**BtsHttpReceive.dll** ，然後按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-121">Select **BtsHttpReceive.dll** and then click **OK**.</span></span>  
+4.  <span data-ttu-id="5c543-128">在**可執行檔**，選取省略符號 (**...**)，並瀏覽至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\HttpReceive。</span><span class="sxs-lookup"><span data-stu-id="5c543-128">In **Executable**, select the ellipsis (**…**), and browse to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\HttpReceive.</span></span> <span data-ttu-id="5c543-129">選取**BtsHttpReceive.dll**，然後選取**開啟**。</span><span class="sxs-lookup"><span data-stu-id="5c543-129">Select **BtsHttpReceive.dll**, and then select **Open**.</span></span>  
   
-7.  <span data-ttu-id="3cf9c-122">在**名稱**欄位中，輸入`BizTalk HTTP Receive`，然後按一下 **要求限制**。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-122">In the **Name** field, type `BizTalk HTTP Receive`, and then click **Request Restrictions**.</span></span>  
+5.  <span data-ttu-id="5c543-130">在**名稱**，輸入`BizTalk HTTP Receive`，然後選取**要求限制**。</span><span class="sxs-lookup"><span data-stu-id="5c543-130">In **Name**, enter `BizTalk HTTP Receive`, and then select **Request Restrictions**.</span></span> <span data-ttu-id="5c543-131">在這個視窗：</span><span class="sxs-lookup"><span data-stu-id="5c543-131">In this window:</span></span>
   
-8.  <span data-ttu-id="3cf9c-123">在**要求限制**對話方塊中，按一下 **動詞**索引標籤，然後選取 **下列動詞命令的其中一個**。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-123">In the **Request Restrictions** dialog box, click the **Verbs** tab and then select **One of the following verbs**.</span></span> <span data-ttu-id="3cf9c-124">輸入`POST`為動詞命令。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-124">Enter `POST` as the verb.</span></span>  
+    1. <span data-ttu-id="5c543-132">在**動詞**，選取**下列動詞命令的其中一個**，並輸入`POST`。</span><span class="sxs-lookup"><span data-stu-id="5c543-132">In **Verbs**, select **One of the following verbs**, and enter `POST`.</span></span>  
   
-9. <span data-ttu-id="3cf9c-125">在**存取**索引標籤上，選取**指令碼**，然後按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-125">On the **Access** tab, select **Script**, and then click **OK**.</span></span>  
+    2. <span data-ttu-id="5c543-133">在**存取**，選取**指令碼**，然後選取**確定**。</span><span class="sxs-lookup"><span data-stu-id="5c543-133">In **Access**, select **Script**, and then select **OK**.</span></span>  
   
-10. <span data-ttu-id="3cf9c-126">當畫面上出現允許 ISAPI 擴充程式的提示時，請按一下 [是]。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-126">When prompted to allow the ISAPI extension, click **Yes**.</span></span>  
+    3. <span data-ttu-id="5c543-134">當提示您允許 ISAPI 延伸模組，請選取**是**。</span><span class="sxs-lookup"><span data-stu-id="5c543-134">When prompted to allow the ISAPI extension, select **Yes**.</span></span>  
   
-11. <span data-ttu-id="3cf9c-127">以滑鼠右鍵按一下**應用程式集區**，指向 **新增**，然後按一下 **應用程式集區**。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-127">Right-click **Application Pools**, point to **New**, and then click **Application pool**.</span></span>  
-  
-12. <span data-ttu-id="3cf9c-128">在**新增應用程式集區**對話方塊中，於**名稱**方塊中，輸入應用程式集區的名稱。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-128">In the **Add Application Pool** dialog box, in the **Name** box, type a name for the application pool.</span></span> <span data-ttu-id="3cf9c-129">選取**NET Framework v4.0.30319** ，然後按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-129">Select **NET Framework v4.0.30319** and then click **OK**.</span></span>  
+6. <span data-ttu-id="5c543-135">建立新的應用程式集區 (以滑鼠右鍵按一下**應用程式集區**，選取**新增應用程式集區**)。</span><span class="sxs-lookup"><span data-stu-id="5c543-135">Create a new application pool (right-click **Application Pools**, select **Add application pool**).</span></span> <span data-ttu-id="5c543-136">**名稱**應用程式集區 (例如`BTSHTTPReceive`)，請選取**NET Framework v4.0.30319**，然後選取**確定**。</span><span class="sxs-lookup"><span data-stu-id="5c543-136">**Name** your application pool (such as `BTSHTTPReceive`), select **NET Framework v4.0.30319**, and select **OK**.</span></span>  
   
     > [!NOTE]
-    >  <span data-ttu-id="3cf9c-130">版本號碼會根據電腦上安裝的.NET framework 版本而有所不同。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-130">The version number may vary depending on the version of .NET Framework installed on the computer.</span></span>  
+    >  <span data-ttu-id="5c543-137">.NET 版本號碼會根據電腦上安裝的.NET framework 版本而有所不同。</span><span class="sxs-lookup"><span data-stu-id="5c543-137">The .NET version number may vary depending on the version of .NET Framework installed on the computer.</span></span>  
   
-     <span data-ttu-id="3cf9c-131">新的應用程式集區會出現在清單中**應用程式集區**。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-131">The new application pool appears in the list of **Application Pools**.</span></span>  
+     <span data-ttu-id="5c543-138">會列出新的應用程式集區。</span><span class="sxs-lookup"><span data-stu-id="5c543-138">The new application pool is listed.</span></span>  
   
-13. <span data-ttu-id="3cf9c-132">在**應用程式集區**，請在**功能檢視**選取新的應用程式集區，然後按一下 [**進階設定**動作] 窗格中。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-132">In **Application Pools**, in the **Features View**, select the new application pool, and then click **Advanced Settings** in the Actions pane.</span></span>  
+7. <span data-ttu-id="5c543-139">選取新的應用程式集區，然後開啟**進階設定**(**動作**窗格)。</span><span class="sxs-lookup"><span data-stu-id="5c543-139">Select your new application pool, and open the **Advanced Settings** (**Actions** pane).</span></span> <span data-ttu-id="5c543-140">在這個視窗：</span><span class="sxs-lookup"><span data-stu-id="5c543-140">In this window:</span></span>
+
+    - <span data-ttu-id="5c543-141">**啟用 32 位元應用程式**： 設為**True**如果您選擇 32 位元**BtsHttpReceive.dll**</span><span class="sxs-lookup"><span data-stu-id="5c543-141">**Enable 32-Bit Application**: Set to **True** if you chose the 32-bit **BtsHttpReceive.dll**</span></span>
+    - <span data-ttu-id="5c543-142">**處理模型** 區段中，**識別**： 選取省略符號 (**...**)，請選取**自訂帳戶**，然後**設定**其成員的帳戶**BizTalk Isolated Host Users**和**IIS_WPG**群組。</span><span class="sxs-lookup"><span data-stu-id="5c543-142">**Process Model** section, **Identity**: Select the ellipsis (**…**), select **Custom account**, and then **Set** it to an account that is a member of the **BizTalk Isolated Host Users** and **IIS_WPG** groups.</span></span> <span data-ttu-id="5c543-143">選取 [確定]。</span><span class="sxs-lookup"><span data-stu-id="5c543-143">Select **OK**.</span></span> 
   
-14. <span data-ttu-id="3cf9c-133">在**進階設定**對話方塊中，於**處理序模型**區段的**識別**欄位中，按一下省略符號 (**...**) 按鈕。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-133">In the **Advanced Settings** dialog box, in the **Process Model** section, in the **Identity** field, click the ellipsis (**…**) button.</span></span>  
+8. <span data-ttu-id="5c543-144">加入新的應用程式的網站 (以滑鼠右鍵按一下**Default Web Site**，選取**新增應用程式**)。</span><span class="sxs-lookup"><span data-stu-id="5c543-144">Add a new application to the web site (right-click the **Default Web Site**, select **Add Application**).</span></span> <span data-ttu-id="5c543-145">在這個視窗：</span><span class="sxs-lookup"><span data-stu-id="5c543-145">In this window:</span></span>
   
-15. <span data-ttu-id="3cf9c-134">在**應用程式集區識別**對話方塊中，選取**自訂帳戶**，然後按一下 **設定**。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-134">In the **Application Pool Identity** dialog box, select **Custom account**, and then click **Set**.</span></span> <span data-ttu-id="3cf9c-135">按一下 **[確定]** 以關閉 **[進階設定]** 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-135">Click **OK** to close the **Advanced Settings** dialog box.</span></span>  
+    1. <span data-ttu-id="5c543-146">**別名**： 輸入您與應用程式產生關聯的別名 (例如`BTS HTTP Receive`，然後**選取**。</span><span class="sxs-lookup"><span data-stu-id="5c543-146">**Alias** : Enter an alias that you associate with the application (such as `BTS HTTP Receive`, and then **Select**.</span></span>  
+    2. <span data-ttu-id="5c543-147">選取您剛才新增的應用程式集區建立，然後再選取**確定**。</span><span class="sxs-lookup"><span data-stu-id="5c543-147">Select the new application pool you just created, and then select **OK**.</span></span>  
+    3. <span data-ttu-id="5c543-148">**實體路徑**： 選取省略符號 (**...**)，並瀏覽至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\HttpReceive。</span><span class="sxs-lookup"><span data-stu-id="5c543-148">**Physical path**: Select the ellipsis (**…**), and browse to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\HttpReceive.</span></span>  
+    4. <span data-ttu-id="5c543-149">**測試設定**以確認有無錯誤**測試連接** 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="5c543-149">**Test Settings** to verify there are no errors in the **Test Connection** dialog box.</span></span> <span data-ttu-id="5c543-150">**關閉**，然後選取**確定**。</span><span class="sxs-lookup"><span data-stu-id="5c543-150">**Close**, and then select **OK**.</span></span>  
   
-16. <span data-ttu-id="3cf9c-136">在 [IIS 管理員] 中，開啟**網站**資料夾。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-136">In IIS Manager, open the **Sites** folder.</span></span> <span data-ttu-id="3cf9c-137">以滑鼠右鍵按一下**Default Web Site** ，然後按一下 **新增應用程式**。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-137">Right-click the **Default Web Site** and then click **Add Application**.</span></span>  
+    > [!TIP]
+    > <span data-ttu-id="5c543-151">如果測試設定會傳回警告，權限給資料夾或存取權的群組，可能會遺失應用程式集區身分識別。</span><span class="sxs-lookup"><span data-stu-id="5c543-151">If Test Settings returns a warning, the identity of the application pool may be missing permissions to a folder, or access to a group.</span></span> <span data-ttu-id="5c543-152">做為疑難排解的步驟中，選取**連接身分**，輸入**使用者名稱**和**密碼**是 Administrators 群組的成員的使用者帳戶。</span><span class="sxs-lookup"><span data-stu-id="5c543-152">As a troubleshooting step, select **Connect As**, enter the **User name** and **Password** for a user account that is a member of the Administrators group.</span></span> 
+
+9. <span data-ttu-id="5c543-153">新的應用程式顯示的是列在**預設的網站**。</span><span class="sxs-lookup"><span data-stu-id="5c543-153">The new application appears is listed under **Default Web Sites**.</span></span>  
   
-17. <span data-ttu-id="3cf9c-138">在**新增應用程式**對話方塊中，於**別名**，輸入別名，應用程式時，產生關聯，然後按一下 **選取**。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-138">In the **Add Application** dialog box, in **Alias**, enter an alias to associate with the application, and then click **Select**.</span></span>  
-  
-18. <span data-ttu-id="3cf9c-139">在**選取應用程式集區**對話方塊中，選取您稍早建立的新應用程式集區，然後按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-139">In the **Select Application Pool** dialog box, select the new application pool you created earlier, and then click **OK**.</span></span>  
-  
-19. <span data-ttu-id="3cf9c-140">按一下省略符號 (**...**) 按鈕，然後瀏覽至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]HttpReceive 的**實體路徑**。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-140">Click the ellipsis (**…**) button and browse to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]HttpReceive for the **Physical path**.</span></span>  
-  
-20. <span data-ttu-id="3cf9c-141">按一下**連接身分**並輸入**使用者名**和**密碼**使用者帳戶是 Administrators 群組的成員，然後按一下 **確定**.</span><span class="sxs-lookup"><span data-stu-id="3cf9c-141">Click **Connect As** and enter the **User name** and **Password** for a user account that is a member of the Administrators group, and then click **OK**.</span></span>  
-  
-21. <span data-ttu-id="3cf9c-142">按一下**測試設定**並確認沒有錯誤，會顯示在**測試連接** 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-142">Click **Test Settings** and verify that no errors are displayed in the **Test Connection** dialog box.</span></span> <span data-ttu-id="3cf9c-143">按一下 [關閉]，然後按一下 [確定]。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-143">Click **Close**, and then click **OK**.</span></span>  
-  
-22. <span data-ttu-id="3cf9c-144">新的應用程式會出現在清單中**預設的網站**在網際網路資訊服務 (IIS) 管理員 中。</span><span class="sxs-lookup"><span data-stu-id="3cf9c-144">The new application appears in the list of **Default Web Sites** in Internet Information Services (IIS) Manager.</span></span>  
-  
-## <a name="see-also"></a><span data-ttu-id="3cf9c-145">另請參閱</span><span class="sxs-lookup"><span data-stu-id="3cf9c-145">See Also</span></span>  
- [<span data-ttu-id="3cf9c-146">如何設定 HTTP 接收位置</span><span class="sxs-lookup"><span data-stu-id="3cf9c-146">How to Configure an HTTP Receive Location</span></span>](../core/how-to-configure-an-http-receive-location.md)
+## <a name="see-also"></a><span data-ttu-id="5c543-154">另請參閱</span><span class="sxs-lookup"><span data-stu-id="5c543-154">See Also</span></span>  
+ [<span data-ttu-id="5c543-155">如何設定 HTTP 接收位置</span><span class="sxs-lookup"><span data-stu-id="5c543-155">How to Configure an HTTP Receive Location</span></span>](../core/how-to-configure-an-http-receive-location.md)
