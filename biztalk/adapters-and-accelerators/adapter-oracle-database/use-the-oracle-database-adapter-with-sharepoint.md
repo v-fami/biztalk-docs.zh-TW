@@ -12,11 +12,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2cf5be42a008cadba648739037797160386a42fd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8a5866344e666c9e9cb49af6c6d99211774a2758
+ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 10/17/2017
 ---
 # <a name="use-the-oracle-database-adapter-with-sharepoint"></a>搭配 SharePoint 使用 Oracle 資料庫配接器
 針對 WCF 配接器服務開發精靈[!INCLUDE[btsVStudioNoVersion_md](../../includes/btsvstudionoversion-md.md)]可以讓 Microsoft BizTalk Adapter for Oracle 資料庫和 Microsoft BizTalk Adapter for Oracle E-business Suite 直接與 Microsoft SharePoint 中的外部資料來源使用。 新增服務開發精靈支援此功能會使用啟動**WCF 配接器服務**用來建立新 Visual C# 中的網站範本[!INCLUDE[btsVStudioNoVersion_md](../../includes/btsvstudionoversion-md.md)]。 範本隨附於[!INCLUDE[adapterpacknoversion_md](../../includes/adapterpacknoversion-md.md)]。 您也必須安裝 Microsoft Windows Communication Foundation (WCF) 的企業營運 (LOB) 配接器 SDK。  
@@ -39,8 +39,8 @@ ms.lasthandoff: 09/20/2017
  下列服務合約是做為範例使用 for Microsoft BizTalk Adapter for Oracle 資料庫產生的。 配接器已設定為提供 EMP 資料表的存取權  
   
 ```  
-[System.ServiceModel.ServiceContractAttribute()]  
-public interface ISCOTT_EMP {  
+    [System.ServiceModel.ServiceContractAttribute()]  
+    public interface ISCOTT_EMP {  
   
     [System.ServiceModel.OperationContractAttribute()]  
     SCOTT_EMP_Record[] ReadList(System.Nullable<int> Limit);  
@@ -62,7 +62,7 @@ public interface ISCOTT_EMP {
 }  
 ```  
   
-## <a name="creating-a-new-web-site-to-host-the-microsoft-biztalk-adapter-for-oracle-database-in-iis"></a>建立新的網站裝載在 IIS 中的 Oracle 資料庫的 Microsoft BizTalk Adapter  
+## <a name="create-a-new-web-site-to-host-the-oracle-database-in-iis"></a>建立新的網站裝載在 IIS 中的 Oracle 資料庫  
  下列步驟提供使用 WCF 配接器服務開發精靈來建立新的 WCF web 服務裝載 Microsoft BizTalk Adapter for Oracle 資料庫的範例。 服務合約會包含與 Sharepoint 直接相容的作業。 因此，它可以做為外部資料來源直接取用。 配接器設定為驗證與 Oracle 資料庫使用**SCOTT**帳戶。 如果**SCOTT**帳戶已被鎖定，您可以藉由以 SYSDBA 的登入 SQL Plus 解除鎖定帳戶。  
   
 ```  
@@ -75,11 +75,11 @@ public interface ISCOTT_EMP {
 SQL> ALTER USER scott ACCOUNT UNLOCK;  
 ```  
   
-#### <a name="creating-the-new-web-site-project"></a>建立新的網站專案  
+#### <a name="create-the-new-web-site-project"></a>建立新的網站專案  
   
-1.  啟動**Microsoft [!INCLUDE[vs2012](../../includes/vs2012-md.md)]** 。  
+1.  開啟 Visual Studio。   
   
-2.  在[!INCLUDE[vs2010](../../includes/vs2010-md.md)]上**檔案**功能表上，選取**新增**，然後按一下 **專案**。  
+2.  在 Visual Studio 中，在**檔案**功能表上，選取**新增**，然後按一下**專案**。  
   
 3.  在**新專案**對話方塊方塊中，展開 **其他語言**按一下**Visual C#**。 尋找**WCF 配接器服務**在範本清單中，按一下以選取它。  
   
@@ -120,10 +120,10 @@ SQL> ALTER USER scott ACCOUNT UNLOCK;
   
 20. 按一下**建置**功能表選項，然後按**建置方案**。 確認專案建置成功且未發生錯誤。  
   
-## <a name="publishing-the-new-service-to-iis"></a>新的服務發行至 IIS  
+## <a name="publish-the-new-service-to-iis"></a>將新的服務發行至 IIS  
  此範例中您將會發行至本機 IIS web 伺服器的配接器主機服務。  
   
-1.  在 方案總管的[!INCLUDE[vs2010](../../includes/vs2010-md.md)]，以滑鼠右鍵按一下**ScottEmp**專案，然後按一下**屬性**。 專案設計工具索引標籤會顯示。  
+1.  適用於 Visual Studio 方案總管 中以滑鼠右鍵按一下**ScottEmp**專案，然後按一下**屬性**。 專案設計工具索引標籤會顯示。  
   
 2.  按一下**Web**索引標籤，然後按一下 **使用本機 IIS Web 伺服器**選項。  
   
@@ -131,10 +131,9 @@ SQL> ALTER USER scott ACCOUNT UNLOCK;
   
 4.  開啟網頁瀏覽器服務位址**http://localhost/ScottEmp/ISCOTT_EMP.svc**。 您應該會收到 「 您已建立服務 」 的訊息，指出配接器裝載於 IIS。  
   
-## <a name="adding-the-external-data-source-to-a-sharepoint-site-using-sharepoint-designer"></a>將外部資料來源加入至 SharePoint 網站使用 SharePoint Designer  
+## <a name="add-the-external-data-source-to-a-sharepoint-site-using-sharepoint-designer"></a>將外部資料來源加入至 SharePoint 網站使用 SharePoint Designer  
  本章節描述如何將 WCF 服務做為外部資料來源新增至新的網站使用 SharePoint Designer。  
   
-#### <a name="adding-the-external-data-source"></a>加入外部資料來源  
   
 1.  開啟 SharePoint Designer 並建立新的網站。  
   
@@ -166,7 +165,7 @@ SQL> ALTER USER scott ACCOUNT UNLOCK;
   
 15. 儲存新的外部資料來源輸入**Ctrl + s**。  
   
-#### <a name="testing-the-external-data-source-connection"></a>測試外部資料來源連接  
+#### <a name="test-the-external-data-source-connection"></a>測試外部資料來源連接  
   
 1.  在新的網站上，按一下**建立清單和表單** 按鈕。 建立清單和表單 OracleEMP 對話方塊隨即出現。  
   
@@ -178,6 +177,6 @@ SQL> ALTER USER scott ACCOUNT UNLOCK;
   
 5.  按一下**瀏覽器中的預覽**測試配接器的 ReadList 操作功能表上的按鈕。  
   
-## <a name="troubleshooting"></a>疑難排解  
+## <a name="troubleshoot"></a>疑難排解
   
--   64 位元電腦上您必須確定也會安裝 32 位元的 Oracle 用戶端元件。 這是因為[!INCLUDE[vs2010](../../includes/vs2010-md.md)]，而它的精靈將執行以 32 位元處理序在開發期間需要 32 位元元件的存取權。
+-   64 位元電腦上您必須確定也會安裝 32 位元的 Oracle 用戶端元件。 這是因為 Visual Studio 和它的精靈會以 32 位元處理程序需要存取 32 位元元件開發期間執行。
