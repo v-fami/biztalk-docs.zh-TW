@@ -98,8 +98,8 @@ ms.lasthandoff: 09/20/2017
   
  設定 maxconnection 屬性時，可以指定 HTTP、 HTTPS、 web 站台 IP 位址和連接埠號碼。 其他範例包括：  
   
- **\<新增位址 ="https://www.contoso.com"maxconnection = 「 24 」 / >**   
-**\<新增位址 ="http://www.contoso.com:8080"maxconnection = 「 24 」 / >**   
+ **\<新增位址 ="https://www.contoso.com" maxconnection="24" />**   
+**\<新增位址 ="http://www.contoso.com:8080" maxconnection="24" />**   
 **\<新增位址 ="http://*IPAddress*"maxconnection = 「 24 」 / > * * 如需微調 IIS 和 ASP.NET Web 服務設定的詳細資訊，請參閱 < ASP.NET 設定，可能會影響 HTTP 配接器效能 > 區段[影響配接器效能的組態參數](http://go.microsoft.com/fwlink/?LinkID=154200)(http://go.microsoft.com/fwlink/?LinkID=154200) BizTalk Server 2010 說明中。  
   
 ## <a name="manage-aspnet-thread-usage-or-concurrently-executing-requests-for-web-applications-that-can-host--isolated-received-locations-back-end-web-services-and-wcf-services"></a>管理 ASP.NET 執行緒用法，或同時執行之要求的可裝載的 Web 應用程式隔離的接收的位置、 後端 Web 服務和 WCF 服務  
@@ -162,7 +162,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  依照下列步驟中建立機碼：  
   
-    1.  在**編輯**功能表上，按一下 **新增**，然後按一下 **金鑰**。  
+    1.  在**編輯**功能表上，按一下 **新增**，然後按一下**金鑰**。  
   
     2.  型別**maxConcurrentRequestsPerCPU**，然後按下**ENTER**。  
   
@@ -207,7 +207,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  依照下列步驟中建立機碼：  
   
-    1.  在**編輯**功能表上，按一下 **新增**，然後按一下 **金鑰**。  
+    1.  在**編輯**功能表上，按一下 **新增**，然後按一下**金鑰**。  
   
     2.  型別**maxConcurrentRequestsPerCPU**，然後按下**ENTER**。  
   
@@ -261,9 +261,9 @@ ms.lasthandoff: 09/20/2017
   
      若要停用 BizTalk Server 群組層級追蹤，請執行下列步驟：  
   
-    1.  在**BizTalk Server 管理主控台**，依序展開**BizTalk Server 管理**，以滑鼠右鍵按一下**BizTalk 群組**，然後按一下 **設定**.  
+    1.  在**BizTalk Server 管理主控台**，依序展開**BizTalk Server 管理**，以滑鼠右鍵按一下**BizTalk 群組**，然後按一下**設定**.  
   
-    2.  在 [BizTalk 設定儀表板] 對話方塊中，在 [群組] 頁面中清除**啟用群組層級追蹤**核取方塊。  
+    2.  在 BizTalk 設定儀表板 對話方塊中，在 群組 頁面中清除**啟用群組層級追蹤**核取方塊。  
   
     3.  按一下**確定**以套用變更並結束 設定儀表板。  
   
