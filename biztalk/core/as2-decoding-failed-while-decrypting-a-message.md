@@ -45,7 +45,7 @@ ms.lasthandoff: 09/20/2017
   
 -   請確認沒有中斷的鏈結的中繼憑證授權單位。 如果沒有，請刪除舊的憑證，和建立並使用新的憑證。  
   
--   請確認該憑證尚未逾時藉由檢查到期日的憑證存放區 （使用 MMC 憑證嵌入式管理單元）。。  
+-   請確認該憑證尚未逾時藉由檢查到期日的憑證存放區 （使用 MMC 憑證嵌入式管理單元）.  
   
 -   請確認該憑證尚未被撤銷檢查憑證撤銷清單。 (您可以在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台中勾選 [一般 AS2] 屬性的 [檢查憑證撤銷清單] 屬性，讓 BizTalk Server 自動檢查此項目)。  
   
