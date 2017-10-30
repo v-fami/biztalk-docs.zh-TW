@@ -38,7 +38,7 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-create-a-strong-named-swift-project"></a>若要建立強式名稱的 SWIFT 專案  
   
-1.  在 Visual Studio 中，按一下 **檔案**，指向 **新增**，然後按一下**專案**。  
+1.  在 Visual Studio 中，按一下 **檔案**，指向 **新增**，然後按一下 **專案**。  
   
 2.  在 [新增專案] 對話方塊中**專案類型**窗格中，選取**BizTalk 專案**資料夾。  
   
@@ -71,13 +71,13 @@ ms.lasthandoff: 09/20/2017
   
 1.  在 Visual Studio 的方案總管中開啟您的專案。  
   
-2.  以滑鼠右鍵按一下您的專案，指向**新增**，然後按一下**現有項目**。  
+2.  以滑鼠右鍵按一下您的專案，指向**新增**，然後按一下 **現有項目**。  
   
 3.  在**加入現有項目**對話方塊:\\**Program Files\Microsoft BizTalk Accelerator for SWIFT\<版本 > 訊息 Pack\SWIFT Messages\A4SWIFT SRG\<版本 > \Base 結構描述**。 選取**SWIFT 基底 Types.xsd**和**SWIFT 常見資料 Types.xsd**結構描述，然後再按一下**新增**。  
   
-4.  以滑鼠右鍵按一下您的專案，指向**新增**，然後按一下**加入現有項目**。  
+4.  以滑鼠右鍵按一下您的專案，指向**新增**，然後按一下 **加入現有項目**。  
   
-5.  在**加入現有項目**對話方塊中，於**查看**下拉式清單方塊中，移至**\<磁碟機 >: \Program Files\Microsoft BizTalk Accelerator for SWIFT \<版本 > 訊息 Pack\SWIFT Messages\A4SWIFT SRG\<版本 > \Category n\MTxxx**。 選取訊息類型，結構描述執行個體**MT103.xsd**，然後按一下**新增**。  
+5.  在**加入現有項目**對話方塊中，於**查看**下拉式清單方塊中，移至**\<磁碟機 >: \Program Files\Microsoft BizTalk Accelerator for SWIFT \<版本 > 訊息 Pack\SWIFT Messages\A4SWIFT SRG\<版本 > \Category n\MTxxx**。 選取訊息類型，結構描述執行個體**MT103.xsd**，然後按一下 **新增**。  
   
     > [!NOTE]
     >  方案總管 中所示，A4SWIFT 將加入您專案的結構描述。  
