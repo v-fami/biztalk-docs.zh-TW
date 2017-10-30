@@ -21,19 +21,19 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="troubleshoot-issues-with-the-data-provider-for-siebel"></a><span data-ttu-id="d5d3f-102">疑難排解問題的 siebel 資料提供者</span><span class="sxs-lookup"><span data-stu-id="d5d3f-102">Troubleshoot Issues with the Data Provider for Siebel</span></span>
-<span data-ttu-id="d5d3f-103">本章節將討論使用來解決使用時可能遭遇的錯誤的疑難排解技巧[!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)]([!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)])。</span><span class="sxs-lookup"><span data-stu-id="d5d3f-103">This section discusses using troubleshooting techniques to resolve errors that you might encounter when using the [!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)] ([!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]).</span></span>  
+# <a name="troubleshoot-issues-with-the-data-provider-for-siebel"></a><span data-ttu-id="f4dcd-102">疑難排解問題的 siebel 資料提供者</span><span class="sxs-lookup"><span data-stu-id="f4dcd-102">Troubleshoot Issues with the Data Provider for Siebel</span></span>
+<span data-ttu-id="f4dcd-103">本章節將討論使用來解決使用時可能遭遇的錯誤的疑難排解技巧[!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)] ([!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)])。</span><span class="sxs-lookup"><span data-stu-id="f4dcd-103">This section discusses using troubleshooting techniques to resolve errors that you might encounter when using the [!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)] ([!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]).</span></span>  
   
-## <a name="known-issues"></a><span data-ttu-id="d5d3f-104">已知問題</span><span class="sxs-lookup"><span data-stu-id="d5d3f-104">Known Issues</span></span>  
+## <a name="known-issues"></a><span data-ttu-id="f4dcd-104">已知問題</span><span class="sxs-lookup"><span data-stu-id="f4dcd-104">Known Issues</span></span>  
   
-### <a name="data-provider-for-siebel-may-give-component-datareader-source-380-error"></a><span data-ttu-id="d5d3f-105">Siebel 的資料提供者可能會產生 「 元件 ' DataReader Source' (380) 」 錯誤</span><span class="sxs-lookup"><span data-stu-id="d5d3f-105">Data Provider for Siebel may give "component 'DataReader Source' (380)" error</span></span>  
- <span data-ttu-id="d5d3f-106">**問題**</span><span class="sxs-lookup"><span data-stu-id="d5d3f-106">**Problem**</span></span>  
+### <a name="data-provider-for-siebel-may-give-component-datareader-source-380-error"></a><span data-ttu-id="f4dcd-105">Siebel 的資料提供者可能會產生 「 元件 ' DataReader Source' (380) 」 錯誤</span><span class="sxs-lookup"><span data-stu-id="f4dcd-105">Data Provider for Siebel may give "component 'DataReader Source' (380)" error</span></span>  
+ <span data-ttu-id="f4dcd-106">**問題**</span><span class="sxs-lookup"><span data-stu-id="f4dcd-106">**Problem**</span></span>  
   
- <span data-ttu-id="d5d3f-107">Siebel 商務元件上執行 SELECT 查詢時[!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]可能會產生 「 元件 ' DataReader Source' (380) 」 錯誤。</span><span class="sxs-lookup"><span data-stu-id="d5d3f-107">While performing a SELECT query on a Siebel business component, the [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] may give a "component 'DataReader Source' (380)" error.</span></span>  
+ <span data-ttu-id="f4dcd-107">Siebel 商務元件上執行 SELECT 查詢時[!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]可能會產生 「 元件 ' DataReader Source' (380) 」 錯誤。</span><span class="sxs-lookup"><span data-stu-id="f4dcd-107">While performing a SELECT query on a Siebel business component, the [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] may give a "component 'DataReader Source' (380)" error.</span></span>  
   
- <span data-ttu-id="d5d3f-108">**可能的原因**</span><span class="sxs-lookup"><span data-stu-id="d5d3f-108">**Cause**</span></span>  
+ <span data-ttu-id="f4dcd-108">**可能的原因**</span><span class="sxs-lookup"><span data-stu-id="f4dcd-108">**Cause**</span></span>  
   
- <span data-ttu-id="d5d3f-109">[!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]提供此錯誤，如果收到來自 Siebel 系統參數的值超過參數的 maxLength 屬性。</span><span class="sxs-lookup"><span data-stu-id="d5d3f-109">The [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] gives this error if the value received from the Siebel system for a parameter exceeds the maxLength property for the parameter.</span></span>  
+ <span data-ttu-id="f4dcd-109">[!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]提供此錯誤，如果收到來自 Siebel 系統參數的值超過參數的 maxLength 屬性。</span><span class="sxs-lookup"><span data-stu-id="f4dcd-109">The [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] gives this error if the value received from the Siebel system for a parameter exceeds the maxLength property for the parameter.</span></span>  
   
-## <a name="see-also"></a><span data-ttu-id="d5d3f-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="d5d3f-110">See Also</span></span>  
-[<span data-ttu-id="d5d3f-111">Siebel 配接器進行疑難排解</span><span class="sxs-lookup"><span data-stu-id="d5d3f-111">Troubleshoot the Siebel adapter</span></span>](../../adapters-and-accelerators/adapter-siebel/troubleshoot-the-siebel-adapter.md)
+## <a name="see-also"></a><span data-ttu-id="f4dcd-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f4dcd-110">See Also</span></span>  
+[<span data-ttu-id="f4dcd-111">Siebel 配接器進行疑難排解</span><span class="sxs-lookup"><span data-stu-id="f4dcd-111">Troubleshoot the Siebel adapter</span></span>](../../adapters-and-accelerators/adapter-siebel/troubleshoot-the-siebel-adapter.md)
