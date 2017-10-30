@@ -22,7 +22,7 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
 # <a name="use-the-net-framework-data-provider-for-siebel-ebusiness-applications"></a>使用.NET Framework Data Provider for Siebel eBusiness 應用程式
-本節提供使用指示[!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)]([!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)])。 本節提供有關的資訊：  
+本節提供使用指示[!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)] ([!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)])。 本節提供有關的資訊：  
   
 -   若要連接至 Siebel 系統使用的 ADO.NET 用戶端連接字串。  
   

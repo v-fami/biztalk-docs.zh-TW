@@ -19,7 +19,7 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
 # <a name="configure-msdtc-on-sql-server-and-adapter-client"></a>SQL Server 和配接器的用戶端上設定 MSDTC
-使用 SQL Server 上執行的操作[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)](透過[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]，WCF 服務模型或 WCF 通道模型) 可以在交易範圍內執行。 如果用戶端程式有多個交易的資源做為在相同交易的一部分，在交易取得提高 MSDTC 交易。 若要啟用的介面卡來執行 MSDTC 交易的範圍內的作業，您必須執行的電腦上設定 MSDTC 這兩個[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]和 SQL Server。 此外，您必須將 MSDTC 加入 Windows 防火牆的例外狀況清單。 本節提供如何在執行配接器用戶端和 SQL Server 的電腦上執行這些工作的相關資訊。  
+使用 SQL Server 上執行的操作[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] (透過[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]，WCF 服務模型或 WCF 通道模型) 可以在交易範圍內執行。 如果用戶端程式有多個交易的資源做為在相同交易的一部分，在交易取得提高 MSDTC 交易。 若要啟用的介面卡來執行 MSDTC 交易的範圍內的作業，您必須執行的電腦上設定 MSDTC 這兩個[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]和 SQL Server。 此外，您必須將 MSDTC 加入 Windows 防火牆的例外狀況清單。 本節提供如何在執行配接器用戶端和 SQL Server 的電腦上執行這些工作的相關資訊。  
   
 > [!NOTE]
 >  使用 SQL Server 上執行的作業[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]一律牽涉到兩個資源，配接器連接到 SQL Server 和 SQL Server 上的 BizTalk 訊息方塊。 因此，所有作業都執行使用[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]MSDTC 交易的範圍內都執行。 因此，為了使用[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]與[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]，您必須一律啟用 MSDTC。  

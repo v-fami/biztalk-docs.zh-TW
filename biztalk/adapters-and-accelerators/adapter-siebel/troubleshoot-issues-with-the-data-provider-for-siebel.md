@@ -22,7 +22,7 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
 # <a name="troubleshoot-issues-with-the-data-provider-for-siebel"></a>疑難排解問題的 siebel 資料提供者
-本章節將討論使用來解決使用時可能遭遇的錯誤的疑難排解技巧[!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)]([!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)])。  
+本章節將討論使用來解決使用時可能遭遇的錯誤的疑難排解技巧[!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)] ([!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)])。  
   
 ## <a name="known-issues"></a>已知問題  
   

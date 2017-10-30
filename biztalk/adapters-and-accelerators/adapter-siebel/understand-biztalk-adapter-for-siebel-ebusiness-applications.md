@@ -36,7 +36,7 @@ ms.lasthandoff: 09/20/2017
   
  若要執行 Siebel 系統上的作業，配接器用戶端必須存取 Siebel 系統所公開的商務服務。 Siebel 應用程式公開資料做為商務元件和商務物件。 Siebel*商務元件*是將一或多個資料表的資料行成單一結構相關聯的邏輯實體。 Siebel*商務物件*實作商務模型繫結在一起的一組相互關聯的商務元件。 與[!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)]，配接器用戶端可以在 Siebel 商務物件和商業元件介面。  
   
- [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]也包含[!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)]([!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)])。 [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] Siebel 系統的 ADO 介面提供延伸的 ADO.NET 介面。  
+ [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]也包含[!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)] ([!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)])。 [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] Siebel 系統的 ADO 介面提供延伸的 ADO.NET 介面。  
   
  本章節將討論的功能[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]和[!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]。  
   

@@ -33,15 +33,15 @@ ms.lasthandoff: 09/20/2017
   
  有五個配接器在[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]:  
   
--   [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]( [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)])  
+-   [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] ( [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)])  
   
--   [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]( [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)])  
+-   [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] ( [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)])  
   
--   [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]( [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)])  
+-   [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] ( [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)])  
   
--   [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]( [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)])，包括[!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)]([!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)])  
+-   [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] ( [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)])，包括[!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] ([!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)])  
   
--   [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)]( [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)])，包括[!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)]([!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)])  
+-   [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] ( [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)])，包括[!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)] ([!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)])  
   
     > [!NOTE]
     >  [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]不適用於 64 位元平台。  

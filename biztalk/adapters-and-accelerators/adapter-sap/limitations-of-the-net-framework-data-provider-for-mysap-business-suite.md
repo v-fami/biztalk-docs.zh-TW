@@ -22,7 +22,7 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
 # <a name="limitations-of-the-net-framework-data-provider-for-mysap-business-suite"></a>.NET Framework Data Provider for mySAP Business Suite 的限制
-下列已知的限制[!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)]([!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]):  
+下列已知的限制[!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] ([!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]):  
   
 -   [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]不支援連接到 SAP 系統，使用安全網路連線 (SNC)。 如需 SNC 的詳細資訊，請參閱[SAP 系統與配接器之間的安全性](../../adapters-and-accelerators/adapter-sap/security-between-the-sap-system-and-the-adapter.md)。
   

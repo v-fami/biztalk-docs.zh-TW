@@ -31,7 +31,7 @@ ms.lasthandoff: 09/20/2017
   
 |功能|註解|  
 |-------------|-------------|  
-|Windows Communication Foundation (WCF) 的使用|[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]建置最上層的[!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)]([!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)])。 接著，[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]建置於 WCF 之上。 配接器會公開為 WCF 配接器用戶端通道。 這可讓連線、 中繼資料交換和商務資料交換與外部系統。|  
+|Windows Communication Foundation (WCF) 的使用|[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]建置最上層的[!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)] ([!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)])。 接著，[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]建置於 WCF 之上。 配接器會公開為 WCF 配接器用戶端通道。 這可讓連線、 中繼資料交換和商務資料交換與外部系統。|  
 |WCF 通道模型和 WCF 服務模型的支援|在 WCF 通道模型中，配接器用戶端可以取用[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]透過直接傳送和接收 XML 訊息。 在 WCF 服務模型中，配接器用戶端可以產生.NET proxy 類別，從 Web 服務描述語言 (WSDL) 使用來取得[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。|  
 |64 位元平台支援。|[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]現在是適用於 64 位元平台。|  
   

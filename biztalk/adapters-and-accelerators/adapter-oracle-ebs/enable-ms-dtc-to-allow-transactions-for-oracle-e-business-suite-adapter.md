@@ -21,7 +21,7 @@ ms.lasthandoff: 09/20/2017
 # <a name="enable-ms-distributed-transaction-coordinator-to-allow-transactions-for-oracle-e-business-suite"></a>啟用以允許 for Oracle E-business Suite 交易的 MS 分散式交易協調器
 在您開始建立使用的應用程式之前，設定 MSDTC [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]。  
   
-使用 Oracle E-business Suite 作業[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)](透過[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]，WCF 服務模型或 WCF 通道模型) 可以在交易範圍內執行。 如果用戶端程式有多個交易的資源做為在相同交易的一部分，在交易取得提高 MSDTC 交易。 若要啟用的介面卡來執行 MSDTC 交易的範圍內的作業，請執行的電腦上設定 MSDTC [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]，和 Oracle E-business suite。 此外，MSDTC 例外狀況清單中加入您的防火牆，它可能是內建的 Windows 防火牆。 
+使用 Oracle E-business Suite 作業[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] (透過[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]，WCF 服務模型或 WCF 通道模型) 可以在交易範圍內執行。 如果用戶端程式有多個交易的資源做為在相同交易的一部分，在交易取得提高 MSDTC 交易。 若要啟用的介面卡來執行 MSDTC 交易的範圍內的作業，請執行的電腦上設定 MSDTC [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]，和 Oracle E-business suite。 此外，MSDTC 例外狀況清單中加入您的防火牆，它可能是內建的 Windows 防火牆。 
   
 > [!NOTE]
 >  設定 MSDTC 步驟對於不同作業系統有所差異。 本主題中列出的步驟適用於 Windows 用戶端和 Windows Server 作業系統。  

@@ -23,7 +23,7 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
 # <a name="use-the-data-provider-for-siebel-with-ssis"></a>Siebel 與 SSIS 中使用資料提供者
-您可以使用[!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)]([!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]) 以及 SQL Server Integration Services (SSIS) Siebel 系統的資料匯入至 SQL Server 資料庫資料表，一般檔案或其他相容的目的地類型。 具體來說，您可以建立的 SSIS 封裝，可以執行此資料匯入。  
+您可以使用[!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)] ([!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]) 以及 SQL Server Integration Services (SSIS) Siebel 系統的資料匯入至 SQL Server 資料庫資料表，一般檔案或其他相容的目的地類型。 具體來說，您可以建立的 SSIS 封裝，可以執行此資料匯入。  
   
  資料匯入到 SQL Server 資料庫，使用 SQL Server 匯入和匯出精靈，並提供 SELECT 查詢來指定要匯入資料。 查詢必須確認所支援的語意[!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]。 如需文法的 SELECT 查詢[!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]，請參閱[Siebel 中的 SELECT 陳述式的語法](../../adapters-and-accelerators/adapter-siebel/syntax-for-a-select-statement-in-siebel.md)。  
   

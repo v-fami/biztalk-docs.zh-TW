@@ -26,9 +26,9 @@ ms.lasthandoff: 09/20/2017
   
 -   [!INCLUDE[adapteroracleebusinesslong](../includes/adapteroracleebusinesslong-md.md)] ([!INCLUDE[adapteroraclebusinessshort](../includes/adapteroraclebusinessshort-md.md)])  
   
--   [!INCLUDE[adaptersap](../includes/adaptersap-md.md)] ([!INCLUDE[adaptersap_short](../includes/adaptersap-short-md.md)]). 這也包括[!INCLUDE[adoprovidersaplong](../includes/adoprovidersaplong-md.md)]([!INCLUDE[adoprovidersapshort](../includes/adoprovidersapshort-md.md)])  
+-   [!INCLUDE[adaptersap](../includes/adaptersap-md.md)] ([!INCLUDE[adaptersap_short](../includes/adaptersap-short-md.md)]). 這也包括[!INCLUDE[adoprovidersaplong](../includes/adoprovidersaplong-md.md)] ([!INCLUDE[adoprovidersapshort](../includes/adoprovidersapshort-md.md)])  
   
--   [!INCLUDE[adaptersiebel](../includes/adaptersiebel-md.md)] ([!INCLUDE[adaptersiebel_short](../includes/adaptersiebel-short-md.md)]). 這也包括[!INCLUDE[adoprovidersiebellong](../includes/adoprovidersiebellong-md.md)]([!INCLUDE[adoprovidersiebelshort](../includes/adoprovidersiebelshort-md.md)])  
+-   [!INCLUDE[adaptersiebel](../includes/adaptersiebel-md.md)] ([!INCLUDE[adaptersiebel_short](../includes/adaptersiebel-short-md.md)]). 這也包括[!INCLUDE[adoprovidersiebellong](../includes/adoprovidersiebellong-md.md)] ([!INCLUDE[adoprovidersiebelshort](../includes/adoprovidersiebelshort-md.md)])  
   
 -   [!INCLUDE[adaptersql](../includes/adaptersql-md.md)] ([!INCLUDE[adaptersqlshort](../includes/adaptersqlshort-md.md)]).  
 

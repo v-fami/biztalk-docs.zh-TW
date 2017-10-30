@@ -75,7 +75,7 @@ ms.lasthandoff: 09/20/2017
   
 |範例目錄名稱|Description|  
 |---------------------------|-----------------|  
-|Oracle_Migration|示範如何使用 BizTalk ODBC 配接器使用 Oracle 資料庫所建立的 BizTalk 專案 (隨附於[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]) 並讓它運作以 WCF 為基礎[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)](隨附於[!INCLUDE[adapterpack20](../../includes/adapterpack20-md.md)])。|  
+|Oracle_Migration|示範如何使用 BizTalk ODBC 配接器使用 Oracle 資料庫所建立的 BizTalk 專案 (隨附於[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]) 並讓它運作以 WCF 為基礎[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] (隨附於[!INCLUDE[adapterpack20](../../includes/adapterpack20-md.md)])。|  
   
 ## <a name="see-also"></a>另請參閱  
 [開發應用程式的 Oracle 資料庫](../../adapters-and-accelerators/adapter-oracle-database/develop-your-oracle-database-applications.md)
