@@ -41,7 +41,7 @@ ms.lasthandoff: 09/20/2017
 ### <a name="solution"></a>方案  
  請繼續進行，如下所示，取決於問題的本質而定：  
   
--   如果執行階段結構描述組件已經部署，當您嘗試執行 A4SWIFT 的初始安裝時，開啟 [BizTalk 總管] 中[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] [!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)]，以滑鼠右鍵按一下組件[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]。Solutions.FinancialServices.SWIFT.RuntimeSchemas，，然後按一下解除部署。 使用 BizTalk 部署精靈部署最新版的 RuntimeSchemas.dll 從*%programfiles%*\Microsoft BizTalk Accelerator for SWIFT\Assemblies。  
+-   如果執行階段結構描述組件已經部署，當您嘗試執行 A4SWIFT 的初始安裝時，開啟 [BizTalk 總管] 中[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] [!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)]，以滑鼠右鍵按一下組件[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]。Solutions.FinancialServices.SWIFT.RuntimeSchemas，然後按一下解除部署。 使用 BizTalk 部署精靈部署最新版的 RuntimeSchemas.dll 從*%programfiles%*\Microsoft BizTalk Accelerator for SWIFT\Assemblies。  
   
 -   如果[!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)]已不會啟動，啟動[!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)]中[!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)]Service Manager。 使用 BizTalk 部署精靈部署最新版的 RuntimeSchemas.dll 從*%programfiles%*\Microsoft BizTalk Accelerator for SWIFT\Assemblies。  
   
@@ -93,7 +93,7 @@ ms.lasthandoff: 09/20/2017
   
  在[!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)]總管 中，移至*%programfiles%*\Microsoft BizTalk Accelerator for SWIFT\Service。  
   
-1.  以滑鼠右鍵按一下 服務 資料夾中，按一下**屬性**，然後按一下**安全性** 索引標籤。  
+1.  以滑鼠右鍵按一下 [服務] 資料夾中，按一下**屬性**，然後按一下 [**安全性**] 索引標籤。  
   
 2.  在 [群組或使用者名稱] 窗格的 [服務內容] 對話方塊，按一下**新增**，輸入 ***\<伺服器名稱 >*\A4SWIFT 管理員**，然後按一下**確定**。  
   
