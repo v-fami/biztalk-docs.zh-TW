@@ -33,4 +33,4 @@ ms.lasthandoff: 09/20/2017
   
 6.  在上傳文件視窗中，按一下 **確定**。  
   
-7.  在 新增 MX SWIFT 訊息： \<MessageType > 視窗中的，於命名空間中，輸入**http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMX _\<MessageType >**，和然後按一下 **確定**。
+7.  在 新增 MX SWIFT 訊息： \<MessageType > 視窗中的，於命名空間中，輸入**http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMX_\<MessageType >**，和然後按一下 **確定**。

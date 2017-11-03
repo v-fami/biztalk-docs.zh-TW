@@ -19,7 +19,7 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
 # <a name="biztalk-framework-schema-and-properties"></a>BizTalk Framework 結構描述和屬性
-**Http://schemas.microsoft.com/BizTalk/2003/btf2-properties**命名空間包含可用來設定 BizTalk Framework 解譯器管線元件的訊息和部分內容屬性的屬性。 「BizTalk Framework 解譯器」管線元件使用這些屬性在建立的訊息中產生適當的標頭。 下表描述 BizTalk Framework 屬性。  
+**http://schemas.microsoft.com/BizTalk/2003/btf2-properties**命名空間包含可用來設定 BizTalk Framework 解譯器管線元件的訊息和部分內容屬性的屬性。 「BizTalk Framework 解譯器」管線元件使用這些屬性在建立的訊息中產生適當的標頭。 下表描述 BizTalk Framework 屬性。  
 
 ## <a name="properties-list"></a>屬性清單  
 |名稱|型別|Description|  

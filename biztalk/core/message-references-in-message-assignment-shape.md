@@ -53,7 +53,7 @@ myMsg2.myInt = 100; // modify the second
 myMsg1.myInt = 5;  
 ```  
   
- 在此情況下，myMsg2.myInt 依然具有 100 的值，這點與預期相同。.  
+ 在此情況下，myMsg2.myInt 依然具有 100 的值，這點與預期相同。  
   
 ## <a name="see-also"></a>另請參閱  
  [建構訊息](../core/constructing-messages.md)

@@ -83,11 +83,11 @@ ms.lasthandoff: 09/20/2017
   
  這個範例會建立 ACCOUNT\ACCOUNT 商務物件上插入作業的 WCF 用戶端類別。  
   
- **。 \svcutil"siebel://Username=YourUserName;密碼 =YourPassword@Siebel_server:1234嗎？SiebelEnterpriseServer = ent_server & SiebelObjectManager = obj_mgr 與語言 = 繁體中文 wsdl & op = http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Insert"**  
+ **.\svcutil "siebel://Username=YourUserName;密碼=YourPassword@Siebel_server:1234嗎？SiebelEnterpriseServer=ent_server&SiebelObjectManager=obj_mgr與語言=繁體中文wsdl&op=http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Insert"**  
   
  這個範例會建立一個插入作業和刪除作業 ACCOUNT\ACCOUNT 商務物件上的 WCF 用戶端類別。  
   
- **。 \svcutil"siebel://Username=YourUserName;密碼 =YourPassword@Siebel_server:1234嗎？SiebelEnterpriseServer = ent_server & SiebelObjectManager = obj_mgr 與語言 = 繁體中文 wsdl & op = http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Insert & op = http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Delete"**  
+ **.\svcutil " siebel://Username=YourUserName;密碼=YourPassword@Siebel_server:1234嗎？SiebelEnterpriseServer=ent_server&SiebelObjectManager=obj_mgr與語言=繁體中文wsdl&op=http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Insert&op=http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Delete"**  
   
 > [!IMPORTANT]
 >  您必須在引號內，在命令列上放置連線 URI。 否則，svcutil.exe 會嘗試擷取作業的中繼資料，[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]不支援。 這類的嘗試結果便未定義。  

@@ -21,7 +21,7 @@ ms.lasthandoff: 09/20/2017
 # <a name="mime-smime-property-schema-and-properties"></a>MIME SMIME 屬性結構描述和屬性
 
 ## <a name="namespace-properties"></a>命名空間屬性
-**Http://schemas.microsoft.com/BizTalk/2003/mime-properties**命名空間包含可用來設定 MIME/SMIME 編碼器管線元件的訊息和部分內容屬性的屬性。 MIME/SMIME 編碼器使用這些屬性在建立的訊息中產生適當的 MIME/SMIME 標頭。 下表描述這些 MIME/SMIME 屬性。  
+**http://schemas.microsoft.com/BizTalk/2003/mime-properties**命名空間包含可用來設定 MIME/SMIME 編碼器管線元件的訊息和部分內容屬性的屬性。 MIME/SMIME 編碼器使用這些屬性在建立的訊息中產生適當的 MIME/SMIME 標頭。 下表描述這些 MIME/SMIME 屬性。  
   
 |屬性|範圍。|類型|Description|  
 |--------------|-----------|----------|-----------------|  

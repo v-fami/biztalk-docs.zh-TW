@@ -93,15 +93,15 @@ ms.lasthandoff: 09/20/2017
   
  這個範例會建立 /SCOTT/EMP 資料表上的插入作業的 WCF 用戶端類別。  
   
- **。 \svcutil"oracledb://User=SCOTT;密碼 =TIGER@ADAPTER？ wsdl （& s) op = http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Insert"**  
+ **.\svcutil "oracledb://User=SCOTT;密碼=TIGER@ADAPTER?wsdl&op=http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Insert"**  
   
  此範例會建立 WCF 用戶端類別的插入和刪除作業 /SCOTT/EMP 資料表上。  
   
- **。 \svcutil"oracledb://User=SCOTT;密碼 =TIGER@ADAPTER？ wsdl （& s) op = http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Insert & op = http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Delete"**  
+ **.\svcutil "oracledb://User=SCOTT;密碼=TIGER@ADAPTER?wsdl&op=http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Insert&op=http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Delete"**  
   
  這個範例會建立 WCF 服務合約 POLLLINGSTMT 作業。 （若要使用 svcutil.exe 產生 WCF 服務合約 POLLINGSTMT 作業，您必須設定非預設繫結包含輪詢陳述式的 svcutil.exe）。  
   
- **。 \svcutil"oracledb://User=SCOTT;密碼 =TIGER@ADAPTER？ wsdl （& s) op = http://Microsoft.LobServices.OracleDB/2007/03/POLLINGSTMT"**  
+ **.\svcutil "oracledb://User=SCOTT;密碼=TIGER@ADAPTER?wsdl&op=http://Microsoft.LobServices.OracleDB/2007/03/POLLINGSTMT"**  
   
 > [!IMPORTANT]
 >  您必須在引號內，在命令列上放置連線 URI。 否則，svcutil.exe 會嘗試擷取作業的中繼資料，[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]不支援。 這類的嘗試結果便未定義。  
