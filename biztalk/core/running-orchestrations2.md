@@ -23,11 +23,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 55d8e16b7af574a73dc8fc813c29ecd5917ce4d6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5a2d6ef6752965c1f20c695dacb06ff348089054
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="running-orchestrations"></a>執行協調流程
 下列程序說明如何建置、部署、繫結和啟動協調流程。  
@@ -60,15 +60,15 @@ ms.lasthandoff: 09/20/2017
   
 4.  確認 Configuration Properties\Deployment\Server 是一個點 （.） 或您的電腦名稱，然後按一下**確定**。  
   
-5.  在 [方案總管] 中，以滑鼠右鍵按一下**SSOSchedule**，然後按一下**重建**。  
+5.  在 方案總管 中，以滑鼠右鍵按一下**SSOSchedule**，然後按一下 **重建**。  
   
-6.  以滑鼠右鍵按一下**SSOSchedule**，然後按一下**部署**。  
+6.  以滑鼠右鍵按一下**SSOSchedule**，然後按一下 **部署**。  
   
 ## <a name="starting-the-orchestration"></a>啟動協調流程  
   
 #### <a name="to-start-the-orchestration"></a>若要啟動協調流程  
   
-1.  按一下**啟動**，指向**所有程式**，指向 [ **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]，然後按一下 **BizTalk Server 管理]。**  
+1.  按一下**啟動**，指向**所有程式**，指向 **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]，然後按一下 [ **BizTalk Server 管理]。**  
   
 2.  在 BizTalk Server 管理主控台中，依序展開**BizTalk Server 管理**，依序展開**BizTalk 群組**，依序展開**應用程式**，展開所需應用程式，，然後按一下**協調流程**。  
   
@@ -79,9 +79,9 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-stop-and-restart-a-host-instance"></a>若要停止並重新啟動主控件執行個體  
   
-1.  按一下**啟動**，指向**所有程式**，指向 [ **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]，然後按一下 **BizTalk Server 管理]。**  
+1.  按一下**啟動**，指向**所有程式**，指向 **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]，然後按一下 [ **BizTalk Server 管理]。**  
   
-2.  在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，展開**BizTalk Server 管理**，依序展開**BizTalk 群組**，依序展開**平台設定**，然後按一下 **主控件執行個體**。  
+2.  在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，展開**BizTalk Server 管理**，依序展開**BizTalk 群組**，依序展開**平台設定**，然後按一下  **主控件執行個體**。  
   
 3.  在右窗格中，以滑鼠右鍵按一下主控件執行個體 （例如，電腦名稱），然後按一下**停止**。  
   
@@ -94,4 +94,4 @@ ms.lasthandoff: 09/20/2017
      若要將狀態變更為**執行**按一下**重新整理**，或以滑鼠右鍵按一下主控件執行個體，然後按一下**重新整理**。  
   
 ## <a name="see-also"></a>另請參閱  
- [使用單一登入](../core/using-single-sign-on2.md)
+ [保護配接器](../core/security-in-biztalk-adapter-for-peoplesoft-enterprise.md)
