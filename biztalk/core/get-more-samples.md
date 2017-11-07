@@ -1,25 +1,10 @@
 ---
-title: "取得更多範例 |Microsoft 文件"
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-ms.assetid: e1e82b56-00d9-4bd9-ba58-fd2966848186
-caps.latest.revision: "4"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: 0cbd1d79f90cc0af69b51ae66754c605f0104218
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/samples-in-the-sdk
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: a87279745f3867500c50158d1a40d55dbe538375
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
-# <a name="get-more-samples"></a><span data-ttu-id="344d2-102">取得其他範例</span><span class="sxs-lookup"><span data-stu-id="344d2-102">Get More Samples</span></span>
-<span data-ttu-id="344d2-103">新的範例可在 MSDN 開發人員中心[http://go.microsoft.com/fwlink/?LinkId=65185](http://go.microsoft.com/fwlink/?LinkId=65185)。</span><span class="sxs-lookup"><span data-stu-id="344d2-103">New samples are available at the MSDN Developer Center at [http://go.microsoft.com/fwlink/?LinkId=65185](http://go.microsoft.com/fwlink/?LinkId=65185).</span></span>  
-  
-## <a name="see-also"></a><span data-ttu-id="344d2-104">另請參閱</span><span class="sxs-lookup"><span data-stu-id="344d2-104">See Also</span></span>  
- [<span data-ttu-id="344d2-105">SDK 中的範例</span><span class="sxs-lookup"><span data-stu-id="344d2-105">Samples in the SDK</span></span>](../core/samples-in-the-sdk.md)

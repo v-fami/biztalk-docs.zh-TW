@@ -1,35 +1,35 @@
 ---
-title: "開發 Applications5 |Microsoft 文件"
+title: "建立應用程式成品的 TIBCO EMS |Microsoft 文件"
+description: "若要使用 BizTalk Adapter for TIBCO Enterprise Message Service，BizTalk Server 中的 Visual Studio 和 BizTalk Server 管理中建立的成品"
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 10/23/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- developing, applications
-- applications, developing
 ms.assetid: 0c31dad4-bf5b-4c59-9cea-431122040d9d
 caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 231093cc57ae291ad6c34e8865819b2ec5ce28f5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 47085aad4d67d0f24503b0b068e857e573026691
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
-# <a name="developing-applications"></a><span data-ttu-id="bdf85-102">開發應用程式</span><span class="sxs-lookup"><span data-stu-id="bdf85-102">Developing Applications</span></span>
-<span data-ttu-id="bdf85-103">本節包含專供想要建立 BizTalk Server 應用程式並使用 BizTalk Server 配接器的開發人員使用的資訊。</span><span class="sxs-lookup"><span data-stu-id="bdf85-103">This section contains information for developers who want to create BizTalk Server applications and work with adapters for BizTalk Server.</span></span> <span data-ttu-id="bdf85-104">這些應用程式建立之後，它們通常由系統管理員中的資訊[管理 BizTalk Adapter for TIBCO Enterprise Message Service](../core/administering-biztalk-adapter-for-tibco-enterprise-message-service.md) > 一節。</span><span class="sxs-lookup"><span data-stu-id="bdf85-104">After these applications are created, they are usually managed by an administrator who uses information found in the [Administering BizTalk Adapter for TIBCO Enterprise Message Service](../core/administering-biztalk-adapter-for-tibco-enterprise-message-service.md) section.</span></span>  
+# <a name="create-your-application"></a><span data-ttu-id="d6b51-103">建立您的應用程式</span><span class="sxs-lookup"><span data-stu-id="d6b51-103">Create your application</span></span>
+
+## <a name="overview"></a><span data-ttu-id="d6b51-104">概觀</span><span class="sxs-lookup"><span data-stu-id="d6b51-104">Overview</span></span>
+<span data-ttu-id="d6b51-105">本節包含的開發人員想要建立 BizTalk Server 應用程式，並使用 TIBCO ems 配接器的資訊。</span><span class="sxs-lookup"><span data-stu-id="d6b51-105">This section contains information for developers who want to create BizTalk Server applications and work with adapters for TIBCO EMS.</span></span> <span data-ttu-id="d6b51-106">一旦建立這些應用程式，然後您就可以[加入例外狀況處理](../core/using-biztalk-server-exception-handling5.md)協調流程。</span><span class="sxs-lookup"><span data-stu-id="d6b51-106">Once these applications are created, then you can [add exception handling](../core/using-biztalk-server-exception-handling5.md) to your orchestration.</span></span> 
   
-## <a name="in-this-section"></a><span data-ttu-id="bdf85-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="bdf85-105">In This Section</span></span>  
+## <a name="next-steps"></a><span data-ttu-id="d6b51-107">後續的步驟</span><span class="sxs-lookup"><span data-stu-id="d6b51-107">Next steps</span></span>
   
--   [<span data-ttu-id="bdf85-106">建立和使用結構描述</span><span class="sxs-lookup"><span data-stu-id="bdf85-106">Creating and Using Schemas</span></span>](../core/creating-and-using-schemas.md)  
+-   [<span data-ttu-id="d6b51-108">建立和使用結構描述</span><span class="sxs-lookup"><span data-stu-id="d6b51-108">Create and use schemas</span></span>](../core/creating-and-using-schemas.md)  
   
--   [<span data-ttu-id="bdf85-107">建立 TIBCO 企業訊息服務傳送處理常式</span><span class="sxs-lookup"><span data-stu-id="bdf85-107">Creating  TIBCO Enterprise Message Service Send Handlers</span></span>](../core/creating-tibco-enterprise-message-service-send-handlers.md)  
+-   [<span data-ttu-id="d6b51-109">建立傳送成品</span><span class="sxs-lookup"><span data-stu-id="d6b51-109">Create send artifacts</span></span>](../core/creating-tibco-enterprise-message-service-send-handlers.md)  
   
--   [<span data-ttu-id="bdf85-108">建立 TIBCO Enterprise Message Service 接收處理常式</span><span class="sxs-lookup"><span data-stu-id="bdf85-108">Creating TIBCO Enterprise Message Service Receive Handlers</span></span>](../core/creating-tibco-enterprise-message-service-receive-handlers.md)  
+-   [<span data-ttu-id="d6b51-110">建立接收成品</span><span class="sxs-lookup"><span data-stu-id="d6b51-110">Create receive artifacts</span></span>](../core/creating-tibco-enterprise-message-service-receive-handlers.md)  
   
--   [<span data-ttu-id="bdf85-109">訊息內容屬性</span><span class="sxs-lookup"><span data-stu-id="bdf85-109">Message Context Properties</span></span>](../core/message-context-properties2.md)
+-   [<span data-ttu-id="d6b51-111">TIBCO EMS 訊息內容屬性</span><span class="sxs-lookup"><span data-stu-id="d6b51-111">TIBCO EMS message context properties</span></span>](../core/message-context-properties-in-biztalk-server.md)

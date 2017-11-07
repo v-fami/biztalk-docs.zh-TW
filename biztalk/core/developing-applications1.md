@@ -1,31 +1,29 @@
 ---
-title: "開發 Applications1 |Microsoft 文件"
+title: "建立 TIBCO Rendezvous 應用程式成品 |Microsoft 文件"
+description: "在 BizTalk Server 管理及使用 BizTalk Adapter for JD Edwards EnterpriseOne，BizTalk Server 中的 Visual Studio 中建立的成品"
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 10/24/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- developing, applications
-- applications, developing
 ms.assetid: bac39de3-d146-4be1-8e5f-5de06c98b817
 caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e8e9bdcb8016c9bb3cc282f365f7d26d1c0f038f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3dd68f039b65f9fed658eefb3e19d10cffc5fc42
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
-# <a name="developing-applications"></a><span data-ttu-id="251c0-102">開發應用程式</span><span class="sxs-lookup"><span data-stu-id="251c0-102">Developing Applications</span></span>
-<span data-ttu-id="251c0-103">本節包含專供想要建立 BizTalk Server 應用程式並使用 BizTalk Server 配接器的開發人員使用的資訊。</span><span class="sxs-lookup"><span data-stu-id="251c0-103">This section contains information for developers who want to create BizTalk Server applications and work with adapters for BizTalk Server.</span></span> <span data-ttu-id="251c0-104">這些應用程式建立時，它們通常由系統管理員中的資訊[管理 BizTalk Adapter for TIBCO Rendezvous](../core/administering-biztalk-adapter-for-tibco-rendezvous.md) > 一節。</span><span class="sxs-lookup"><span data-stu-id="251c0-104">When these applications are created, they are usually managed by an administrator who uses information found in the [Administering BizTalk Adapter for TIBCO Rendezvous](../core/administering-biztalk-adapter-for-tibco-rendezvous.md) section.</span></span>  
+# <a name="create-your-application"></a><span data-ttu-id="383cb-103">建立您的應用程式</span><span class="sxs-lookup"><span data-stu-id="383cb-103">Create your application</span></span>
+<span data-ttu-id="383cb-104">本節包含的開發人員想要建立 BizTalk Server 應用程式，並使用 BizTalk Adapter for TIBCO Rendezvous 的資訊。</span><span class="sxs-lookup"><span data-stu-id="383cb-104">This section contains information for developers who want to create BizTalk Server applications and work with BizTalk Adapter for TIBCO Rendezvous.</span></span> <span data-ttu-id="383cb-105">一旦建立這些應用程式，然後您就可以[加入例外狀況處理](../core/using-biztalk-server-exception-handling4.md)協調流程。</span><span class="sxs-lookup"><span data-stu-id="383cb-105">Once these applications are created, then you can [add exception handling](../core/using-biztalk-server-exception-handling4.md) to your orchestration.</span></span> 
   
-## <a name="in-this-section"></a><span data-ttu-id="251c0-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="251c0-105">In This Section</span></span>  
+## <a name="next-steps"></a><span data-ttu-id="383cb-106">後續的步驟</span><span class="sxs-lookup"><span data-stu-id="383cb-106">Next steps</span></span>
   
--   [<span data-ttu-id="251c0-106">建立 TIBCO Rendezvous 傳送處理常式</span><span class="sxs-lookup"><span data-stu-id="251c0-106">Creating TIBCO Rendezvous Send Handlers</span></span>](../core/creating-tibco-rendezvous-send-handlers.md)  
+-   [<span data-ttu-id="383cb-107">建立 TIBCO Rendezvous 傳送處理常式</span><span class="sxs-lookup"><span data-stu-id="383cb-107">Creating TIBCO Rendezvous Send Handlers</span></span>](../core/creating-tibco-rendezvous-send-handlers.md)  
   
--   [<span data-ttu-id="251c0-107">建立 TIBCO Rendezvous 接收處理常式</span><span class="sxs-lookup"><span data-stu-id="251c0-107">Creating TIBCO Rendezvous Receive Handlers</span></span>](../core/creating-tibco-rendezvous-receive-handlers.md)
+-   [<span data-ttu-id="383cb-108">建立 TIBCO Rendezvous 接收處理常式</span><span class="sxs-lookup"><span data-stu-id="383cb-108">Creating TIBCO Rendezvous Receive Handlers</span></span>](../core/creating-tibco-rendezvous-receive-handlers.md)
