@@ -1,27 +1,16 @@
 ---
-title: "如何設定 JD Edwards OneWorld 傳輸屬性 |Microsoft 文件"
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- setting transport properties
-- transport properties, setting
-ms.assetid: 6d38088b-a496-414e-aae6-d28c5d6398b6
-caps.latest.revision: "13"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: 7abac3b468b8c76b8214e400366144b39f1e2741
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/adding-biztalk-adapter-for-jd-edwards-oneworld/
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: 5290f424bbeb5cf54e78c903c50a6c2d945bc8cc
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="how-to-set-jd-edwards-oneworld-transport-properties"></a>如何設定 JD Edwards OneWorld 傳輸屬性
+
+## <a name="overview"></a>概觀
 「JD Edwards OneWorld 傳輸屬性系統定義」用於設計和執行階段登入。 您要設定這些認證以在設計階段瀏覽 JD Edwards OneWorld 商務功能，並在執行階段進行呼叫。  
   
  當與 JD Edwards OneWorld 建立連線時，參數會傳送到連線物件 (使用者、密碼、環境)。 它會傳回一個 JD Edwards OneWorld 應用程式商務函數。 企業/應用程式伺服器名稱與服務接聽的已定義 TCP/IP 連接埠會進一步定義認證。  
@@ -31,12 +20,8 @@ ms.lasthandoff: 09/20/2017
 > [!NOTE]
 >  所有項目均區分大小寫。  
   
-## <a name="setting-properties"></a>設定屬性  
+## <a name="set-the-transport-properties"></a>設定傳輸屬性  
  在**傳輸屬性**對話方塊中，設定伺服器系統和您嘗試存取的物件特有的連接和認證參數。  
-  
- 此程序的步驟如下：  
-  
-#### <a name="to-set-transport-properties"></a>設定傳輸屬性  
   
 1.  提供認證。  
   
@@ -48,7 +33,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  若要使用單一登入 (SSO)，選取**是**中**使用 SSO**。  
   
-     如需如何設定 SSO 的詳細資訊，請參閱[使用單一登入](../core/using-single-sign-on3.md)。  
+     如需如何設定 SSO 的詳細資訊，請參閱[配接器中的安全性](../core/security-in-biztalk-adapter-for-jd-edwards-oneworld.md)  
   
 3.  在清單中選取分支機構應用程式。  
   
@@ -81,7 +66,7 @@ ms.lasthandoff: 09/20/2017
   
      您必須為 BizTalk Adapter for JD Edwards OneWorld 設定連線參數，才能存取 JD Edwards OneWorld。  
   
-### <a name="adapter-required-properties"></a>配接器必要屬性  
+## <a name="adapter-required-properties"></a>配接器必要屬性  
  如果沒有在 [控制台] 中設定全域環境變數，您可以在此區段中設定。  
   
 |參數|Description|  
@@ -94,5 +79,3 @@ ms.lasthandoff: 09/20/2017
 |通訊埠|輸入會交換資料的連接埠號碼 (例如， `6009`)。|  
 |使用者名稱|輸入將用來登入 JD Edwards OneWorld 系統的 JD Edwards OneWorld 使用者名稱。|  
   
-## <a name="see-also"></a>另請參閱  
- [建立 JD Edwards OneWorld 傳送處理常式](../core/creating-jd-edwards-oneworld-send-handlers.md)

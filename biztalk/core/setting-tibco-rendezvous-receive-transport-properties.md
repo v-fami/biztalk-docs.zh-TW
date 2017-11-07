@@ -1,32 +1,19 @@
 ---
-title: "設定 TIBCO Rendezvous 接收傳輸屬性 |Microsoft 文件"
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- transport properties, setting for receive ports
-- setting transport properties, receive
-ms.assetid: 56e0a51a-6505-43bf-a48b-de35f4b114df
-caps.latest.revision: "12"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: 06ff1b3a11d6b95c2fb784e969363433dec3dc28
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/creating-tibco-rendezvous-receive-handlers/
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: 48eb0c1694168fb1acf840a52dc793d0ed943a19
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="setting-tibco-rendezvous-receive-transport-properties"></a>設定 TIBCO Rendezvous 接收傳輸屬性
 當您設定 Microsoft BizTalk Adapter for TIBCO Rendezvous 接聽訊息時，需指定要接聽的主體名稱。 這是唯一需要的屬性。  
   
  使用此程序可指定屬性。  
   
-### <a name="to-specify-tibco-rendezvous-transport-properties"></a>若要指定 TIBCO Rendezvous 傳輸屬性  
+## <a name="enter-tibco-rendezvous-transport-properties"></a>輸入 TIBCO Rendezvous 傳輸屬性  
   
 1.  在 TIBCO Rendezvous 傳輸屬性 對話方塊中，展開 **配接器必要屬性**，輸入**Rendezvous 主體名稱**。  
   
@@ -98,7 +85,7 @@ ms.lasthandoff: 09/20/2017
     1.  選取**是**中**使用 SSO**使用單一登入。  
   
         > [!NOTE]
-        >  請參閱[使用單一登入](../core/using-single-sign-on5.md)如需有關如何設定 SSO 資訊。  
+        >  請參閱[安全性](../core/security-in-biztalk-adapter-for-tibco-rendezvous.md)如需有關如何設定 SSO 資訊。  
   
     2.  從清單中選取一個分支機構應用程式。  
   

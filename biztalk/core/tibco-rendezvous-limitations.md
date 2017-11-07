@@ -1,23 +1,12 @@
 ---
-title: "TIBCO Rendezvous 限制 |Microsoft 文件"
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords: TIBCO Rendezvous, limitations
-ms.assetid: 8e210457-2887-43f9-a249-be1daa6ee4eb
-caps.latest.revision: "4"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: 717188e42450d13dee92364cd9c673aaaf48eaf6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/installing-biztalk-adapter-for-tibco-rendezvous/
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: bcccc92430a73685ced9ad7259d8ec57dfc450b8
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="tibco-rendezvous-limitations"></a>TIBCO Rendezvous 限制
 在 TIBCO Rendezvous 中，並不保證欄位名稱是唯一的。 如果 TIBCO Rendezvous 訊息包含兩個相同的欄位名稱，結果產生的 XML 會無效。  

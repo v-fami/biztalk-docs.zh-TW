@@ -13,11 +13,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6a9d3d102c3ab79ea719587fdb3632612e75faa7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e3b0fbe7aa671d543a0fd6cd7da78e05d18c63c3
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="single-sign-on-and-biztalk-adapter-for-jd-enterprise-oneworld"></a>單一登入與 BizTalk Adapter for JD Enterprise OneWorld
 從 SSO 認證資料庫取得單一登入 (SSO) 認證因此，您不需要輸入伺服器系統的登入認證在**傳輸屬性**視窗。  
@@ -35,4 +35,4 @@ ms.lasthandoff: 09/20/2017
   
 ## <a name="see-also"></a>另請參閱  
  [建立分支機構應用程式](../core/creating-affiliate-applications3.md)   
- [使用單一登入](../core/using-single-sign-on3.md)
+ [在配接器的安全性](../core/security-in-biztalk-adapter-for-jd-edwards-oneworld.md)

@@ -7,21 +7,16 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- message context properties, BizTalk Server
-- reply subjects
-- send handlers, BizTalk Server message context properties
-- replies
 ms.assetid: a065ba89-9fdb-47dc-9021-fb95cf347cdc
 caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9c8e5ddb1feb02a015fdebd62d183d1b8442fe5e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f0504e13115229f1325938e8ca48acc17fa5bc1d
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="biztalk-server-message-context-properties-send-handlers"></a>BizTalk Server 訊息內容屬性 （傳送處理常式）
 在執行階段，必須可從 BizTalk Server 協調流程存取的，除了有訊息內容以外，還有訊息包含的補充資訊。  
@@ -46,6 +41,11 @@ ms.lasthandoff: 09/20/2017
     OutgoingMsg(Rendezvous.SendSubject) = IncomingMsg  
     (Rendezvous.ReplySubject);  
     ```  
+## <a name="management-assembly"></a>管理組件
+TIBCO Rendezvous 未提供中繼資料儲存機制，而 Microsoft BizTalk Adapter for TIBCO Rendezvous 管理組件未提供瀏覽功能或結構描述產生功能。 因此，您必須提供描述結構給 BizTalk Server。 如需詳細資訊，請參閱[安裝、 結構描述，與限制](../core/installing-biztalk-adapter-for-tibco-rendezvous.md)。
+  
+ BizTalk Adapter for TIBCO Rendezvous 含有一個具有預先定義類型的結構描述。 針對部分特定資料類型 (陣列) 產生訊息時，配接器會使用這些類型。
+
   
 ## <a name="see-also"></a>另請參閱  
  [TIBCO Rendezvous 中的傳送處理常式的資料類型對應](../core/data-type-mapping-for-send-handlers-in-tibco-rendezvous.md)   

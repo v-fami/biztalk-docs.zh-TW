@@ -7,22 +7,21 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- exception handling, BizTalk Server
-- BizTalk Server exception handling
 ms.assetid: 9441e884-1de9-45d6-982b-911fc06b9d5c
 caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9745082ecbaae16b361e91978f065aacb701b600
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e9342b8233951cf057a7efdcc524c66d99448c13
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
-# <a name="using-biztalk-server-exception-handling"></a>使用 BizTalk Server 例外狀況處理
-本節說明如何使用 BizTalk Server 例外狀況處理物件來捕捉來自後端伺服器的例外狀況。  
+# <a name="use-biztalk-server-exception-handling"></a>使用 BizTalk Server 例外狀況處理
+
+## <a name="overview"></a>概觀
+您的協調流程內新增圖形以處理錯誤和例外狀況，從您的後端伺服器。  
   
 ## <a name="in-this-section"></a>本節內容  
   

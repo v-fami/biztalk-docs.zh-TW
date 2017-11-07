@@ -17,11 +17,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1b1461ac2ea0ef9cfee71965fc2cc800d617d1d4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 97af99271a4d63046d2a95a47caed7f145eaef24
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="how-to-configure-the-virtual-directory"></a>如何設定虛擬目錄
 此主題說明設定虛擬目錄與為使用者驗證應用程式的程序。  
@@ -47,4 +47,4 @@ ms.lasthandoff: 09/20/2017
 9. 在**新增應用程式**對話方塊中，按一下 **確定**。 資料夾會轉換成應用程式 （您可以看到在圖示 – 從資料夾圖示的網站 圖示以變更）。  
   
 ## <a name="see-also"></a>另請參閱  
- [使用單一登入](../core/using-single-sign-on2.md)
+ [保護配接器](../core/security-in-biztalk-adapter-for-peoplesoft-enterprise.md)

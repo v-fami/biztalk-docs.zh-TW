@@ -1,30 +1,28 @@
 ---
-title: "開發 Applications1 |Microsoft 文件"
+title: "建立 TIBCO Rendezvous 應用程式成品 |Microsoft 文件"
+description: "在 BizTalk Server 管理及使用 BizTalk Adapter for JD Edwards EnterpriseOne，BizTalk Server 中的 Visual Studio 中建立的成品"
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 10/24/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- developing, applications
-- applications, developing
 ms.assetid: bac39de3-d146-4be1-8e5f-5de06c98b817
 caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e8e9bdcb8016c9bb3cc282f365f7d26d1c0f038f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3dd68f039b65f9fed658eefb3e19d10cffc5fc42
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
-# <a name="developing-applications"></a>開發應用程式
-本節包含專供想要建立 BizTalk Server 應用程式並使用 BizTalk Server 配接器的開發人員使用的資訊。 這些應用程式建立時，它們通常由系統管理員中的資訊[管理 BizTalk Adapter for TIBCO Rendezvous](../core/administering-biztalk-adapter-for-tibco-rendezvous.md) > 一節。  
+# <a name="create-your-application"></a>建立您的應用程式
+本節包含的開發人員想要建立 BizTalk Server 應用程式，並使用 BizTalk Adapter for TIBCO Rendezvous 的資訊。 一旦建立這些應用程式，然後您就可以[加入例外狀況處理](../core/using-biztalk-server-exception-handling4.md)協調流程。 
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="next-steps"></a>後續的步驟
   
 -   [建立 TIBCO Rendezvous 傳送處理常式](../core/creating-tibco-rendezvous-send-handlers.md)  
   

@@ -1,25 +1,12 @@
 ---
-title: "設定 PeopleSoft 傳輸屬性 |Microsoft 文件"
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- setting transport properties
-- transport properties, setting
-ms.assetid: 44b5f015-59f1-43a3-9673-a5ba40266843
-caps.latest.revision: "12"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: 7ecfd221d28312e84dcbaf7d8c83abc4f5191f54
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/creating-peoplesoft-send-handlers/
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: 90a9df3f95628b8072217c5b3756b619ff528147
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="setting-peoplesoft-transport-properties"></a>設定 PeopleSoft 傳輸屬性
 PeopleSoft 傳輸屬性用於設計和執行階段。 在**傳輸屬性**對話方塊中，您設定的連接和認證參數特定伺服器系統和您嘗試存取的物件。  

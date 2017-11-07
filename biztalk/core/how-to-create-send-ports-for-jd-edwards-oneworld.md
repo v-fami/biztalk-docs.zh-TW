@@ -1,25 +1,12 @@
 ---
-title: "如何建立 JD Edwards OneWorld 傳送埠 |Microsoft 文件"
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- creating send ports
-- send ports, creating
-ms.assetid: 858425ef-bdb7-4d2d-90ca-b3655e389749
-caps.latest.revision: "9"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: fc77fd72171983ab2fbc7de42ddf36d770d045c6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/adding-biztalk-adapter-for-jd-edwards-oneworld/
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: d65b87fbcbdaf89289406ae6850b70c605123451
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="how-to-create-send-ports-for-jd-edwards-oneworld"></a>如何建立 JD Edwards OneWorld 的傳送埠
 使用下列程序來建立傳送埠。  
@@ -41,5 +28,3 @@ ms.lasthandoff: 09/20/2017
   
 6.  按一下 **[確定]**。  
   
-## <a name="see-also"></a>另請參閱  
- [建立 JD Edwards OneWorld 傳送處理常式](../core/creating-jd-edwards-oneworld-send-handlers.md)

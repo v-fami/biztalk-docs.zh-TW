@@ -1,32 +1,12 @@
 ---
-title: "事件追蹤用於 Windows1 |Microsoft 文件"
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- ETW
-- provider
-- Receiver Logging Provider
-- Transmitter Logging Provider
-- controller application
-- Management Logging Provider
-- consumer application
-- Event Tracing for Windows
-- BTATIBCORVTrace command
-ms.assetid: 9e0418e2-7938-4202-83b7-555a90348904
-caps.latest.revision: "6"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: b51ca273e63ce93ee1ce94a66d0d14a97f807767
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/troubleshooting-tibco-rendezvous/
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: 5c29b21ea36efe3fe0a63c5994b771e36e570ed3
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="using-event-tracing-for-windows"></a>使用 Windows 事件追蹤
 Microsoft BizTalk Adapter for TIBCO Rendezvous 會將錯誤、警告和資訊訊息記錄至 Windows 事件檢視器。 您可以使用「Windows 事件追蹤」工具來查看其他追蹤訊息。 啟動 ETW 時，它會建立一個 *.etl 檔案來接收訊息。 這個檔案是二進位格式，必須經過轉換才能讀取。 若要這樣做，您必須取用者應用程式可供解譯\*.etl 檔案，例如，tracerpt.exe 或 tracedmp.exe。 例如，tracerpt.exe 應用程式會將轉換\*成兩個文字檔的.etl 檔案： summary.txt 與 dumpfile.csv。  

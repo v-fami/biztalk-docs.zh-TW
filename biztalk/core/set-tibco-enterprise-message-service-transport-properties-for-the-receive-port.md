@@ -1,26 +1,12 @@
 ---
-title: "設定 TIBCO 企業訊息服務傳輸屬性的接收埠 |Microsoft 文件"
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- receive ports, setting transport properties
-- transport properties, setting for receive port
-- setting transport properties, receive port
-ms.assetid: bccddf84-d92e-469f-aa6f-4234c91a0be9
-caps.latest.revision: "12"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: d94229364e3bed8faaf1407603f17db76c70e6bd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/creating-tibco-enterprise-message-service-receive-handlers/
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: 1a32564f9e0e9e81624b39ab0ba156e76b109497
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="setting-tibco-enterprise-message-service-transport-properties-for-the-receive-port"></a>設定 TIBCO 企業訊息服務接收埠的傳輸屬性
 如 TIBCO Enterprise Message System (EMS) 接收位置， **URL**和**目標命名空間**至 TIBCO EMS 系統是所需的組態值。  
@@ -64,8 +50,7 @@ ms.lasthandoff: 09/20/2017
     |`Password`|用來與 TIBCO EMS 精靈通訊的使用者密碼。<br /><br /> 如果您未選取**使用 SSO**，您必須設定為 BizTalk Adapter for TIBCO EMS 才能與 TIBCO EMS 精靈通訊的認證參數。|  
     |`User Name`|用來與 TIBCO EMS 精靈通訊的使用者名稱。<br /><br /> 如果您未選取**使用 SSO**，您必須設定為 BizTalk Adapter for TIBCO EMS 才能與 TIBCO EMS 精靈通訊的認證參數。|  
   
-6.  按一下**套用**，然後按一下 **確定**。  
+6.  按一下**套用**，然後按一下 [**確定**。  
   
 ## <a name="see-also"></a>另請參閱  
- [建立傳送埠](../core/creating-send-ports1.md)   
- [建立 TIBCO Enterprise Message Service 接收處理常式](../core/creating-tibco-enterprise-message-service-receive-handlers.md)
+  [建立 TIBCO Enterprise Message Service 接收處理常式](../core/creating-tibco-enterprise-message-service-receive-handlers.md)

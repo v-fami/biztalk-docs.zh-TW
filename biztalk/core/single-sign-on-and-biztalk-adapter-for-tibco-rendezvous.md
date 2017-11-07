@@ -7,22 +7,20 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- SSO, using with the adapter
-- Single Sign-On, using with the adapter
-- HTTP requests, processing
 ms.assetid: 52e698bb-38ba-4a12-b15a-d1581061d62f
 caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 54529d8eefb351471ea1c2bd7278c744737b66f2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 310a3448acd8bd70e617a9a5af650b55a12c9007
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="single-sign-on-and-biztalk-adapter-for-tibco-rendezvous"></a>單一登入與 BizTalk Adapter for TIBCO Rendezvous
+
+## <a name="overview"></a>概觀
 當您使用單一登入 (SSO) 搭配 Microsoft BizTalk Adapter for TIBCO Rendezvous 時，配接器會從 SSO 認證資料庫取得認證因此，您沒有在伺服器系統輸入登入認證**傳輸屬性**視窗。  
   
  在設計階段，配接器會以啟動 BizTalk Server 專案的使用者身分取得系統的認證 (針對指定的分支機構應用程式)。 該使用者應為「應用程式使用者」。 在執行階段，當使用 SSO 時，請在通過實例中使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] HTTP 接收配接器做為接收位置。  
@@ -37,4 +35,4 @@ ms.lasthandoff: 09/20/2017
   
 ## <a name="see-also"></a>另請參閱  
  [建立分支機構應用程式](../core/creating-affiliate-applications1.md)   
- [使用單一登入](../core/using-single-sign-on5.md)
+[安全性](../core/security-in-biztalk-adapter-for-tibco-rendezvous.md)

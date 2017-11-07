@@ -1,25 +1,12 @@
 ---
-title: "使用單一登 On3 |Microsoft 文件"
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- Single Sign-On
-- SSO
-ms.assetid: 84bb4254-e9bb-42c1-b8c1-7c38cba7f2ee
-caps.latest.revision: "6"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: 8288bfcbf61df1e0ac171194a75b1e776921ac26
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/security-in-biztalk-adapter-for-jd-edwards-oneworld/
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: 217a6c344a45d2cd6ae1303913659ae5b81b0814
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="using-single-sign-on"></a>使用單一登入
 Microsoft BizTalk Adapter for JD Edwards OneWorld 提供單一登入 (SSO) 支援 。 由企業單一登入工具所建立的分支機構應用程式，代表像是 JD Edwards OneWorld 的伺服器系統。  
@@ -36,10 +23,10 @@ Microsoft BizTalk Adapter for JD Edwards OneWorld 提供單一登入 (SSO) 支�
   
 -   [如何設定 HTTP 接收配接器](../core/how-to-configure-the-http-receive-adapter2.md)  
   
--   [建立傳送埠和接收埠](../core/creating-send-and-receive-ports.md)  
+-   [建立傳送和接收埠](../core/creating-send-and-receive-ports.md)  
   
--   [結構描述匯入至 BizTalk Server 專案](../core/importing-schemas-into-biztalk-server-projects1.md)  
+-   [將結構描述匯入至 BizTalk Server 專案](../core/importing-schemas-into-biztalk-server-projects1.md)  
   
--   [執行協調流程](../core/running-orchestrations1.md)  
+-   [執行中的協調流程](../core/running-orchestrations1.md)  
   
 -   [執行 SSO 專案](../core/running-sso-projects3.md)

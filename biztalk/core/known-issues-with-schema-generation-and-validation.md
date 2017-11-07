@@ -12,11 +12,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0b830e955b54ae8e3ba7fc05f21f22acd97f290a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9a462ab04aad857bf87b189cafce14bb9c3747e8
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="known-issues-with-schema-generation-and-validation"></a>結構描述的產生和驗證的已知的問題
 本主題提供產生和驗證結構描述的已知問題相關資訊。  
@@ -35,7 +35,7 @@ ms.lasthandoff: 09/20/2017
  包含節點的循環參考時，您的結構描述可以包含無限迴圈**Min Occurs**大於或等於一，本質上會防止終止條件的屬性值。 您需要人工終止產生執行個體訊息，才能完成產生作業，但是產生的執行個體訊息也因此不符合產生它的結構描述。 這樣的結構描述通常是有問題的。  
   
 ## <a name="validation-of-xml-instance-fails-for-document-schema-which-has-the-target-namespacehttpwwww3orgxml1998namespace"></a>文件結構描述的 XML 執行個體驗證失敗，其 target namespace="http://www.w3.org/XML/1998/namespace"  
- "超連結"http://www.w3.org/XML/1998/namespace"http://www.w3.org/XML/1998/namespace"是保留的命名空間，其前置詞應該為"XML"。 您可以手動將前置詞編輯為 "XML"。
+ 超連結"http://www.w3.org/XML/1998/namespace"是保留的命名空間，其前置詞應該為"XML"。 您可以手動將前置詞編輯為 "XML"。
 
 ## <a name="see-also"></a>另請參閱
 這些屬性的詳細[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。

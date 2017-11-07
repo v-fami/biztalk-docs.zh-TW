@@ -1,5 +1,5 @@
 ---
-title: "疑難排解 Adapter1 |Microsoft 文件"
+title: "JD Edwards EnterpriseOne 配接器進行疑難排解 |Microsoft 文件"
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -7,20 +7,16 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- JD Edwards EnterpriseOne adapters, wildcard characters
-- adapters [JD Edwards EnterpriseOne adapters], wildcard characters
-- wildcard characters, JD Edwards EnterpriseOne adapters
 ms.assetid: f5a55e52-039a-4aea-8251-b697fd061ddc
 caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b77b42854a58d7fe8ffafd177e91f327a7f5e7e5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: eac716a7567930509ebfd310cdaf9874286b349c
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="troubleshooting-the-adapter"></a>配接器疑難排解
 本主題所含的資訊，可協助您辨識和解決在使用 Microsoft BizTalk Adapter for JD Edwards EnterpriseOne 時可能會遇到的問題。  
@@ -72,5 +68,5 @@ ms.lasthandoff: 09/20/2017
     ```  
   
 ## <a name="see-also"></a>另請參閱  
- [如何建立 JD Edwards EnterpriseOne 的傳送埠](../core/how-to-create-send-ports-for-jd-edwards-enterpriseone.md)   
+ [新增配接器，並建立成品](../core/adding-biztalk-adapter-for-jd-edwards-enterpriseone.md)   
  [疑難排解 JD Edwards EnterpriseOne](../core/troubleshooting-jd-edwards-enterpriseone.md)

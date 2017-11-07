@@ -1,7 +1,8 @@
 ---
-title: "設定 BizTalk Server 記錄傳送的其他資料庫 |Microsoft 文件"
+title: "設定 BizTalk 記錄傳送的其他資料庫 |Microsoft 文件"
+description: "加入自訂的資料庫備份 BizTalk Server 」 工作，以及 BizTalk Server 中的記錄傳送"
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 11/01/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
@@ -12,14 +13,16 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4b16b1d262b07ecaa62e87456f10bece225b3b34
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1f4eb0b690f81b16d739183633c6507b2ad87226
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="configuring-biztalk-server-log-shipping-for-additional-databases"></a>設定 BizTalk Server 記錄傳送的其他資料庫
-在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，新增至 「 備份 BizTalk Server 」 工作的工作會自動加入至[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]記錄傳送。 您不需要採取額外步驟來設定新的資料庫加入至 「 備份 BizTalk Server 」 工作的記錄傳送。 不過，請務必要將自訂資料庫加入視情況\<OtherDatabases > 22 的步驟中所述的 SampleUpdateInfo.xml 檔案的區段[如何設定記錄傳送目的地系統](http://go.microsoft.com/fwlink/?LinkId=151402)(http: / / go.microsoft.com/fwlink/ 嗎？LinkId = 151402) 中[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]幫助。  
+
+## <a name="overview"></a>概觀
+在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，新增至 「 備份 BizTalk Server 」 工作的工作會自動加入至[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]記錄傳送。 您不需要採取額外步驟來設定新的資料庫加入至 「 備份 BizTalk Server 」 工作的記錄傳送。 不過，請務必要將自訂資料庫加入視情況\<OtherDatabases > SampleUpdateInfo.xml 檔案的區段。 [設定記錄傳送的目的系統](../core/how-to-configure-the-destination-system-for-log-shipping.md)和[備份自訂資料庫](../core/how-to-back-up-custom-databases.md)提供一些指引。
   
 ## <a name="see-also"></a>另請參閱  
  [設定 BizTalk Server 記錄傳送](../technical-guides/configuring-biztalk-server-log-shipping.md)

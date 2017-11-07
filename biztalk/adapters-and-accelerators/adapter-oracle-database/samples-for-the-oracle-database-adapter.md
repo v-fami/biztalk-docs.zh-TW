@@ -1,27 +1,23 @@
 ---
-title: "適用於 Oracle 資料庫配接器範例 |Microsoft 文件"
+title: "Oracle 資料庫配接器範例 |Microsoft 文件"
+description: "可以使用 BizTalk Server、 WCF 服務模型時，與 WCF 通道模型的 oracle DB WCF 配接器範例"
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 10/18/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- samples, WCF channel model
-- samples, WCF service model
-- samples, BizTalk
-- samples, migration
 ms.assetid: 744f19ce-3126-4745-92dd-4f68443180fc
 caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4973c0b4ea54ef3b7692dbe4be19773acf1e6e7a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f5bfef9fcfce65d8aede1cd905a53469c565977f
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="samples-for-the-oracle-database-adapter"></a>適用於 Oracle 資料庫配接器範例
 範例如[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]分類成：  
@@ -31,14 +27,16 @@ ms.lasthandoff: 09/20/2017
 -   WCF 服務模型範例  
   
 -   WCF 通道模型範例  
+
   
--   移轉範例  
+這些範例位於[BizTalk Adapter Pack 2010: Oracle 資料庫配接器範例](https://www.microsoft.com/download/details.aspx?id=4675)。 建立資料表和封裝範例中所使用的 SQL 指令碼會包含項目。 
+
+> [!NOTE]
+> [!INCLUDE[files-need-updated](../../includes/files-need-updated.md)]
   
- 這些範例位於[http://go.microsoft.com/fwlink/p/?LinkID=196854](http://go.microsoft.com/fwlink/p/?LinkID=196854)。 建立資料表、 封裝、 等等的 SQL 指令碼。 在中使用這些範例也會提供的範例以及[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]。  
+下列清單描述的範例。
   
- 下列清單包含的名稱和描述的範例如[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]。  
-  
-## <a name="biztalk-server-samples"></a>BizTalk Server 範例  
+## <a name="biztalk-server-samples"></a>BizTalk Server 範例
   
 |範例目錄名稱|Description|  
 |---------------------------|-----------------|  
@@ -71,11 +69,6 @@ ms.lasthandoff: 09/20/2017
 |OracleStreamingDemo|示範如何執行端對端使用 UpdateLOB 和資料表的 Select 作業的 LOB 資料的資料流|  
 |OracleTransactedDmlCM|示範如何使用 WCF 通道模型的交易中執行的 Oracle 資料庫上的作業。|  
   
-## <a name="migration-samples"></a>移轉範例  
-  
-|範例目錄名稱|Description|  
-|---------------------------|-----------------|  
-|Oracle_Migration|示範如何使用 BizTalk ODBC 配接器使用 Oracle 資料庫所建立的 BizTalk 專案 (隨附於[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]) 並讓它運作以 WCF 為基礎[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] (隨附於[!INCLUDE[adapterpack20](../../includes/adapterpack20-md.md)])。|  
-  
+
 ## <a name="see-also"></a>另請參閱  
-[開發應用程式的 Oracle 資料庫](../../adapters-and-accelerators/adapter-oracle-database/develop-your-oracle-database-applications.md)
+[開發您的 Oracle 資料庫應用程式](../../adapters-and-accelerators/adapter-oracle-database/develop-your-oracle-database-applications.md)

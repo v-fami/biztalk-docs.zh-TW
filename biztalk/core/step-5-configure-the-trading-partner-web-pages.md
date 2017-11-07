@@ -12,11 +12,11 @@ caps.latest.revision: "38"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 25be80ea28231ebf5e7b79ca9c087461dc8efb4c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c3f1dce6a68dc334f9f5f30b1aae938ada6f612a
+ms.sourcegitcommit: 9aaed443492b74729171fef79c634bff561af929
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/03/2017
 ---
 # <a name="step-5-configure-the-trading-partner-web-pages"></a>步驟 5： 設定交易夥伴網頁
 ![步驟 5 之 11](../core/media/tut-step5-of-11.gif "Tut_Step5_of_11")  
@@ -46,7 +46,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  在**新增指令碼對應**對話方塊方塊中，輸入`BtsHttpReceive.dll`中**要求路徑**欄位。  
   
-4.  在**可執行檔**欄位中，按一下**省略符號 （...）**按鈕並瀏覽至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]HttpReceive。 選取**BtsHttpReceive.dll**，然後按一下 **確定**。  
+4.  在**可執行檔**欄位中，按一下**省略符號 （...）**按鈕並瀏覽至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\HttpReceive。 選取**BtsHttpReceive.dll**，然後按一下 **確定**。  
   
 5.  輸入`BizTalk HTTP Receive`中`Name`欄位，，然後按一下**要求限制**。  
   

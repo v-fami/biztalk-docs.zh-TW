@@ -7,30 +7,20 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- certified message delivery
-- subjects
-- messages, defined
-- transports, defined
-- events
-- virtual circuits
-- direct communication
-- batch mode
-- queue group
-- TIBCO Rendezvous, concepts
-- distributed queue daemons
 ms.assetid: 36060091-57dc-4125-8dca-23058d813deb
 caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 129fc0a864ac485919090476e153600adf5b4080
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9969ff652791e551f8603c0ec890704bccb12c37
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="tibco-rendezvous-concepts"></a>TIBCO Rendezvous 概念
+
+## <a name="concepts-explained"></a>說明的概念
 下表說明 TIBCO Rendezvous 中的部分功能與概念。  
   
 |概念|定義|  

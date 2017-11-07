@@ -1,5 +1,5 @@
 ---
-title: "資料類型對應在 TIBCO Rendezvous 接收處理常式 |Microsoft 文件"
+title: "從 TIBCO Rendezvous 接收的資料類型對應 |Microsoft 文件"
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -7,20 +7,16 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- data type mapping
-- array types
-- receive handlers, data type mapping
 ms.assetid: 36908a94-3c0d-466e-aa49-f674ba4a26af
 caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8729a94fdcfc43ca17e498b10784cc163307badc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: dcb17ceac0c323bba7a6f25cff0d07473b6d7fa3
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="data-type-mapping-for-receive-handlers-in-tibco-rendezvous"></a>TIBCO Rendezvous 中的接收處理常式資料型別對應
 Microsoft BizTalk Adapter for TIBCO Rendezvous 會將 TIBCO RV 類型對應至如下表所指定的 XML 結構描述類型中。  

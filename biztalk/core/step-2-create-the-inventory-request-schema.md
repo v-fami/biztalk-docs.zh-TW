@@ -12,11 +12,11 @@ caps.latest.revision: "45"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5199b20a75b82e12ad76b96903538487a3128668
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 06000a734856c7b9f22e78a2d5a78c4585021a21
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="step-2-create-the-inventory-request-schema"></a>步驟 2：建立庫存要求結構描述
 ![步驟 2，5 個](../core/media/step-2of5.gif "Step_2of5")  
@@ -76,13 +76,15 @@ ms.lasthandoff: 09/20/2017
   
 7.  型別`ReqID`做為項目，並再按 ENTER 鍵的新名稱。  
   
-8.  重複步驟 6 和 7，以建立第二個子欄位項目**標頭** 節點，並將其命名`OrderDate`。  
+8.  重複步驟 6 和 7，以建立第二個子欄位項目**標頭** 節點，並將其命名`OrderDate`。
+
+9.  重複步驟 6 和 7，以建立第三個子欄位項目，如**標頭** 節點，並將其命名`GrandTotal`。
   
-9. 在結構描述樹狀目錄中，以滑鼠右鍵按一下**項目**節點，指向**插入結構描述節點**，然後按一下 **子記錄**。  
+10. 在結構描述樹狀目錄中，以滑鼠右鍵按一下**項目**節點，指向**插入結構描述節點**，然後按一下 **子記錄**。  
   
-10. 型別`Item`做為子記錄，然後按 ENTER 鍵的新名稱。  
+11. 型別`Item`做為子記錄，然後按 ENTER 鍵的新名稱。  
   
-11. 在結構描述樹狀目錄中，以滑鼠右鍵按一下**項目** 節點，並新增下列子欄位項目：  
+12. 在結構描述樹狀目錄中，以滑鼠右鍵按一下**項目** 節點，並新增下列子欄位項目：  
   
     -   `Description`  
   

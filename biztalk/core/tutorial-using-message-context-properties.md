@@ -1,5 +1,6 @@
 ---
-title: "教學課程： 使用訊息內容屬性 |Microsoft 文件"
+title: "教學課程： 使用 TIBCO EMS 訊息內容屬性 |Microsoft 文件"
+description: "若要針對 BizTalk Server 使用 TIBCO Enterprise Message Service 訊息描述元欄位，在協調流程中的逐步指南"
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -7,28 +8,27 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- messages, changing priority
-- message context properties, tutorial
 ms.assetid: 6e52593b-5001-4740-89fb-e003e12d8e69
 caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f122215baa5660294e159e4f1d6967a2df5ba9b3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f17b45afb28a497c0443f788a44d05307103c547
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
-# <a name="tutorial-using-message-context-properties"></a>教學課程： 使用訊息內容屬性
+# <a name="tutorial-use-tibco-ems-message-descriptors"></a>教學課程： 使用 TIBCO EMS 訊息描述元
+
+## <a name="overview"></a>概觀
 本教學課程將示範如何使用 BizTalk Server 內容屬性，以設定協調流程中的 TIBCO Enterprise Message Service (EMS) 訊息描述元欄位。 本教學課程是假設您的協調流程可以接收來自接收埠的訊息，而且可將訊息送至已繫結到 Microsoft BizTalk Adapter for TIBCO Enterprise Message Service 的傳送埠。  
   
  下列程序將示範如何透過變更 TibcoEMS.Priority 內容屬性的值，變更 TIBCO EMS 訊息的優先順序。 在 BizTalk Server 中，訊息都是永遠不變的。 因此，若要變更屬性值，您必須建立新訊息並加以修改。 在接收和傳送圖形之間插入訊息指派圖形，就可以建立新訊息和加以修改。 但首先您必須先參考結構描述 DLL，才能取得 TIBCO EMS 屬性的存取權。  
   
-### <a name="to-reference-the-schema-dll"></a>若要參考結構描述 DLL  
+## <a name="reference-the-schema-dll"></a>參考結構描述 DLL  
   
-1.  開啟**方案總管 中**Visual Studio 中。  
+1.  在 Visual Studio 中，開啟您的 BizTalk Server 專案，並開啟**方案總管 中**。  
   
 2.  以滑鼠右鍵按一下**參考**，然後選取**加入參考**。  
   
@@ -90,4 +90,4 @@ ms.lasthandoff: 09/20/2017
 21. 選取**繫結**，**登錄**，和**啟動**測試您的協調流程 [BizTalk 總管] 中。  
   
 ## <a name="see-also"></a>另請參閱  
- [訊息內容屬性](../core/message-context-properties2.md)
+[TIBCO EMS 訊息內容屬性](../core/message-context-properties-in-biztalk-server.md)

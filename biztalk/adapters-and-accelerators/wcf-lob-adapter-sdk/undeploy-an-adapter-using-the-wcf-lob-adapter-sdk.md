@@ -12,11 +12,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9a8da6ff335460cbd957a33ac5074f65205dfb77
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 90208dd99a6b4ccdc8f3f55d2ad019baabe635ad
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="undeploy-an-adapter-using-the-wcf-lob-adapter-sdk"></a>解除部署配接器使用 WCF LOB 配接器 SDK
 若要解除部署配接器從電腦時，使用者必須執行下列兩項工作：  
@@ -86,5 +86,4 @@ ms.lasthandoff: 09/20/2017
 4.  關閉 [服務組態編輯器]。  
   
 ## <a name="see-also"></a>另請參閱  
- [部署限制](../../core/deployment-limitations1.md)   
  [部署配接器使用 WCF LOB 配接器 SDK](../../adapters-and-accelerators/wcf-lob-adapter-sdk/deploy-an-adapter-using-the-wcf-lob-adapter-sdk.md)

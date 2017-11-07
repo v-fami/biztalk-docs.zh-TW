@@ -12,11 +12,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 437bc9d744e20b14e21d0e9d2ebe33e7b2e8a62a
-ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
+ms.openlocfilehash: 43e54da709384611bffd1e05da6a79decc778e57
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="requirements-for-single-sign-on"></a>單一登入的需求
 若要使用單一登入 (SSO)，您必須已安裝下列軟體：  
@@ -43,4 +43,4 @@ ms.lasthandoff: 10/17/2017
 >  執行工作之後使用 SSO，請記得要重設任何 Web 共用資料夾，以**不會共用**。 如果資料夾是共用的，使用該資料夾的應用程式將不會正確更新或解除安裝，因為它會被視為使用中。  
   
 ## <a name="see-also"></a>另請參閱  
- [使用單一登入](../core/using-single-sign-on1.md)
+ [BizTalk Adapter for JD Edwards EnterpriseOne 中的安全性](../core/security-in-biztalk-adapter-for-jd-edwards-enterpriseone.md)

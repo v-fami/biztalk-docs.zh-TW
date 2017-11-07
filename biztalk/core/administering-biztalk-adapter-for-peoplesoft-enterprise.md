@@ -1,25 +1,12 @@
 ---
-title: "管理 BizTalk Adapter for PeopleSoft Enterprise |Microsoft 文件"
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- PeopleSoft Enterprise adapters, administering
-- administering, PeopleSoft Enterprise adapters
-ms.assetid: 66ab79b4-d1f8-4a55-bb2d-72e5c606a30a
-caps.latest.revision: "7"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: 1c5499be367d44a00dd8a07b30440e70b503df8e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/using-biztalk-server-exception-handling2/
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: f0323d68a512b3122907763c62bd5971b2138077
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="administering-biztalk-adapter-for-peoplesoft-enterprise"></a>管理 BizTalk Adapter for PeopleSoft Enterprise
 本節提供關於管理 BizTalk Adapter for PeopleSoft Enterprise 的資訊。  

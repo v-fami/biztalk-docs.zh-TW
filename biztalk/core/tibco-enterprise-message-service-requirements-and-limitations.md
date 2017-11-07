@@ -7,37 +7,24 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- encryption
-- messages, compression
-- EMS limitations
-- message compression
-- API, adding to GAC
-- global assembly cache, adding API
-- GAC, adding TIBCO EMS API
-- system requirements
-- TIBCO.EMS.dll
-- EMS requirements
-- messages, encryption
 ms.assetid: 6e4c022c-e6a8-4ac5-b998-b0465002a31e
 caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 81e49f4a74cce4414fd9d0b069a382d9facb03d0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fcd386245ba06c2e3b5a5b92df7b7a7f01a1a749
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="tibco-enterprise-message-service-requirements-and-limitations"></a>TIBCO Enterprise Message Service 的需求和限制
+
 ## <a name="system-requirements"></a>系統需求  
- Microsoft BizTalk Adapter for TIBCO Enterprise Message Service 支援 TIBCO Enterprise Message Service (EMS) 4.2 版。 包含與 TIBCO EMS 4.2 版是用戶端 SDK （使用 TIBCO EMS C# API）。 BizTalk Adapter for TIBCO EMS 會使用此 API 來與 TIBCO EMS 進行通訊。  
+隨附 TIBCO Enterprise Message Service 包含用戶端 SDK （使用 TIBCO EMS C# API）。 BizTalk Adapter for TIBCO EMS 會使用此 API 來與 TIBCO EMS 進行通訊。  
   
-## <a name="adding-the-api-to-the-gac"></a>將 API 加入 GAC  
+## <a name="add-the-api-to-the-gac"></a>將 API 加入 GAC  
  BizTalk Adapter for TIBCO EMS 需要 TIBCO EMS C# API，TIBCO。EMS.dll，要加入至全域組件快取 (GAC)。 配接器會觸發例外狀況，並記錄適當的訊息，如果未安裝這個組件。  
-  
-#### <a name="to-add-the-tibco-ems-c-api-to-the-gac"></a>若要將 TIBCO EMS C# API 加入 GAC  
   
 1.  複製至 TIBCO EMS C #API 您[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]電腦。  
   
@@ -65,4 +52,4 @@ ms.lasthandoff: 09/20/2017
 -   無法傳送或接收使用 BizTalk TIBCO EMS 配接器的訊息大於 50 MB 的大小。 超過此大小，在環境發生 System.OutOfMemoryException 例外狀況。  
   
 ## <a name="see-also"></a>另請參閱  
- [規劃與架構](../core/planning-and-architecture16.md)
+ [規劃和架構](../core/planning-and-architecture16.md)

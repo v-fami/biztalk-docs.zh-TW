@@ -1,5 +1,5 @@
 ---
-title: "單一登入的需求 |Microsoft 文件"
+title: "TIBCO 會合配接器的 SSO 需求 |Microsoft 文件"
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,13 +12,15 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 61932b44364670515f02f89a1441a5d54030bc94
-ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
+ms.openlocfilehash: 40cf27a3b96534239fa871bd04b90febee9beafe
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="requirements-for-single-sign-on"></a>單一登入的需求
+
+## <a name="prerequisites"></a>必要條件
 若要使用「單一登入」(SSO)，您必須具有下列項目：  
   
 -   Microsoft BizTalk Server
@@ -43,4 +45,4 @@ ms.lasthandoff: 10/17/2017
 >  執行工作之後使用 SSO，請記得要重設任何 Web 共用資料夾，以**不會共用**。 不使用該資料夾的應用程式將會更新，或如果資料夾共用，因為它會被視為使用中正確地解除安裝。  
   
 ## <a name="see-also"></a>另請參閱  
- [使用單一登入](../core/using-single-sign-on5.md)
+[安全性](../core/security-in-biztalk-adapter-for-tibco-rendezvous.md)

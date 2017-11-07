@@ -17,11 +17,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5c0e67ef4e47b62e0381d882739b2fdc012ba621
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 719679dffa5bcffdeddcbcd889f847f147a705b4
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="importing-schemas-into-biztalk-server-projects"></a>結構描述匯入至 BizTalk Server 專案
 下列資訊說明如何將結構描述匯入至 BizTalk Server 專案。  
@@ -69,4 +69,4 @@ ms.lasthandoff: 09/20/2017
 -   **MessageOut:** SSOSchedule.myJ.D。 Edwards OneWorld XE sso_transmitService_3.methodResponse  
   
 ## <a name="see-also"></a>另請參閱  
- [使用單一登入](../core/using-single-sign-on3.md)
+ [在配接器的安全性](../core/security-in-biztalk-adapter-for-jd-edwards-oneworld.md)

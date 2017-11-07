@@ -2,7 +2,7 @@
 title: "開始使用 BizTalk Adapter for TIBCO Rendezvous |Microsoft 文件"
 description: "訊息、 概念、 結構描述產生、 限制、 安裝和 BizTalk Server 中的 TIBCO Rendezvous 配接器教學課程"
 ms.custom: 
-ms.date: 10/16/2017
+ms.date: 10/23/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
@@ -13,11 +13,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1e5c06aade45d23988dd12b54cb1ed3609a016e7
-ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
+ms.openlocfilehash: b5e6c54f232e1645816a93a3dab46a249ba1c15d
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="get-started-with-biztalk-adapter-for-tibco-rendezvous"></a>開始使用 BizTalk Adapter for TIBCO Rendezvous
 
@@ -30,10 +30,6 @@ Microsoft BizTalk Adapter for TIBCO Rendezvous 可讓您在 BizTalk Server 中�
   
 -   [TIBCO Rendezvous 概念](../core/tibco-rendezvous-concepts.md)  
   
--   [安裝 BizTalk Adapter for TIBCO Rendezvous](../core/installing-biztalk-adapter-for-tibco-rendezvous.md)  
-  
--   [在配接器中產生結構描述](../core/schema-generation-in-the-adapter.md)  
-  
--   [TIBCO Rendezvous 限制](../core/tibco-rendezvous-limitations.md)  
+-   [安裝、 結構描述和限制](../core/installing-biztalk-adapter-for-tibco-rendezvous.md)
   
 -   [教學課程：使用 Microsoft BizTalk Adapter for TIBCO Rendezvous](../core/tutorials-using-the-microsoft-biztalk-adapter-for-tibco-rendezvous.md)

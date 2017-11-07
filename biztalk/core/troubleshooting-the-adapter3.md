@@ -1,5 +1,5 @@
 ---
-title: "疑難排解 Adapter3 |Microsoft 文件"
+title: "JD Edwards OneWorld 配接器進行疑難排解 |Microsoft 文件"
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -7,22 +7,16 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- adapters [JD Edwards OneWorld adapters], connecting [Oracle databases]
-- JD Edwards OneWorld adapters, troubleshooting
-- troubleshooting [JD Edwards OneWorld adapters]
-- adapters [JD Edwards OneWorld adapters], troubleshooting
-- Oracle databases, connecting [JD Edwards OneWorld adapters]
 ms.assetid: 2dd6a951-f113-4f43-b43f-057a239d05c4
 caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 15197bcdc84e813d31a8d5292f5559aca1f8ae01
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9ba2dd62e1d4b6dc0af1845d3129e69dbe582226
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="troubleshooting-the-adapter"></a>配接器疑難排解
 此主題中所含的資訊可幫助您識別和解決在使用 Microsoft BizTalk Adapter for JD Edwards OneWorld 時可能會遇到的問題。  
@@ -57,5 +51,5 @@ ms.lasthandoff: 09/20/2017
     ```  
   
 ## <a name="see-also"></a>另請參閱  
- [如何建立 JD Edwards OneWorld 傳送埠](../core/how-to-create-send-ports-for-jd-edwards-oneworld.md)   
- [疑難排解 JD Edwards OneWorld](../core/troubleshooting-jd-edwards-oneworld.md)
+ [將成品新增至 BizTalk 管理](../core/adding-biztalk-adapter-for-jd-edwards-oneworld.md)     
+ [針對 JD Edwards OneWorld 進行疑難排解](../core/troubleshooting-jd-edwards-oneworld.md)

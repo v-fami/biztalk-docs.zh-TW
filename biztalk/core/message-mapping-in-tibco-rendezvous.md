@@ -1,5 +1,6 @@
 ---
 title: "訊息 TIBCO Rendezvous 中的對應 |Microsoft 文件"
+description: "訊息欄位和 XML 在 BizTalk Adapter for TIBCO Rendezvous 訊息對應"
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -7,20 +8,16 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- messages, mapping
-- message mapping
-- message field elements
 ms.assetid: 62793bec-f076-425c-b25e-c4be5bd93cc8
 caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: bc5b3559067dbb998240a3fc814d890701e2591c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fb80ea4f908aa50dc32755c333aa3ccf2ea4db91
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="message-mapping-in-tibco-rendezvous"></a>TIBCO Rendezvous 中的訊息對應
 TIBCO Rendezvous 訊息是由標頭資訊與一系列訊息欄位所組成。 標頭資訊直接對應訊息內容屬性。  

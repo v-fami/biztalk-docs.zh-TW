@@ -1,26 +1,12 @@
 ---
-title: "如何設定傳送管線 for TIBCO Enterprise Message Service |Microsoft 文件"
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- send pipelines
-- setting send pipelines
-- pipelines, send
-ms.assetid: 6a84d874-4b4d-4b23-913f-f5c72af1e96e
-caps.latest.revision: "9"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: d037782e2580d52c6609c3669e2805aae92ce9eb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/creating-tibco-enterprise-message-service-send-handlers/
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: dc9746babaa80520b2a99948c5796c9b064899e0
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="how-to-set-send-pipelines-for-tibco-enterprise-message-service"></a>如何設定 TIBCO Enterprise Message Service 的傳送管線
 Microsoft BizTalk Adapter for TIBCO Enterprise Message Service 需要您分別為傳送管線和接收管線選取 XMLTransmit 與 XMLReceive。  
@@ -45,5 +31,3 @@ Microsoft BizTalk Adapter for TIBCO Enterprise Message Service 需要您分別�
   
 4.  按一下 **[確定]**。  
   
-## <a name="see-also"></a>另請參閱  
- [如何設定 TIBCO Enterprise Message Service 的接收管線](../core/how-to-set-receive-pipelines-for-tibco-enterprise-message-service.md)

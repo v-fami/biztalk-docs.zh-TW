@@ -12,13 +12,13 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 74b7cbe23a6fc818428478859ea021d4fbf38546
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 337883ce2ca3b7f28def19898930d872928a8ce4
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
-# <a name="planning-the-biztalk-solution"></a>規劃 BizTalk 解決方案
+# <a name="plan-for-your-biztalk-solution"></a>BizTalk 解決方案的計劃
 主要設計目標之一[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]是容納最多處理的案例中，盡可能提供最大的彈性。 此絕佳的彈性，因為主要的 BizTalk 解決方案的開發人員所面臨的挑戰之一就是要判斷如何在中提供的功能的最佳使用[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]最符合其商務需求。 規劃[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]可以分成不同階段的以下摘要說明。  
   
 ## <a name="scoping-the-solution"></a>設定方案的範圍  
@@ -186,7 +186,7 @@ ms.lasthandoff: 09/20/2017
 -   如果兩者的差異的預設值使用的所有軟體和作業系統功能的組態值  
   
 ## <a name="building-out-the-environment-for-the-solution"></a>方案建置環境  
- 詳細的安裝指示[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]和必要的相依性軟體可以在 BizTalk Server 安裝指南下載[BizTalk Server 2010 文件](http://go.microsoft.com/fwlink/?LinkId=183138)(http://go.microsoft.com/fwlink/ 嗎？LinkId = 183138)。  
+ 詳細的安裝指示[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]和軟體需求[BizTalk Server 安裝指南](../install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md)。
   
 ## <a name="see-also"></a>另請參閱  
  [規劃 BizTalk Server 層](../technical-guides/planning-the-biztalk-server-tier.md)

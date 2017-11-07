@@ -1,23 +1,12 @@
 ---
-title: "規劃和 Architecture15 |Microsoft 文件"
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords: planning
-ms.assetid: 380ab7e7-3208-4cc8-be57-96a145cdb1f1
-caps.latest.revision: "6"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: 037f5621783da545b3bc0413851af913954b9da8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/architecture-of-biztalk-adapter-for-tibco-rendezvous/
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: 293620a9f706f753eb3e6ac3d57ce2b1b091ac53
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="planning-and-architecture"></a>規劃和架構
 本節討論當您設定 TIBCO Rendezvous 以和 Microsoft BizTalk Adapter for TIBCO Rendezvous 搭配使用時，可能會遇到的規劃與架構問題。  

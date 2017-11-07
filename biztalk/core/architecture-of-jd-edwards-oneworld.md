@@ -1,5 +1,6 @@
 ---
 title: "JD Edwards OneWorld 的架構 |Microsoft 文件"
+description: "在設計階段和執行的階段在 JD Edwards OneWorld 配接器在 BizTalk 中，在設計階段和執行的階段，以及輸出的事件描述輸入的服務"
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -7,20 +8,19 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords: architecture
 ms.assetid: 9200a090-a587-4b60-9447-d281580f2078
 caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1daee7d44152817da1ac536dd98cbaf898e2ac7c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0f866e5d72e392136d19c155785aaf6b71db2ce3
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="architecture-of-jd-edwards-oneworld"></a>JD Edwards OneWorld 的結構
-Microsoft BizTalk Adapter for JD Edwards OneWorld 提供對 JD Edwards OneWorld 商務功能的存取 。 JD Edwards OneWorld 會使用名為 JDENet 的專屬傳訊架構進行用戶端與伺服器電腦之間的通訊。 JDENet 是由 JAR 檔案 Connector.jar 和 Kernel.jar 中的 JD Edwards OneWorld 連接器類別實作。 以 TCP/IP 做為傳輸通訊協定，與預設連接埠 6009 或 6010 來實作通訊。 此值設定為位置的描述，請參閱[如何設定 JD Edwards OneWorld 傳輸屬性](../core/how-to-set-jd-edwards-oneworld-transport-properties.md)。  
+Microsoft BizTalk Adapter for JD Edwards OneWorld 提供對 JD Edwards OneWorld 商務功能的存取 。 JD Edwards OneWorld 會使用名為 JDENet 的專屬傳訊架構進行用戶端與伺服器電腦之間的通訊。 JDENet 是由 JAR 檔案 Connector.jar 和 Kernel.jar 中的 JD Edwards OneWorld 連接器類別實作。 以 TCP/IP 做為傳輸通訊協定，與預設連接埠 6009 或 6010 來實作通訊。 此值設定為位置的描述，請參閱[將成品新增至 BizTalk 管理](../core/adding-biztalk-adapter-for-jd-edwards-oneworld.md)。  
   
  **BizTalk Adapter for JD Edwards OneWorld 的架構**  
   
@@ -83,5 +83,5 @@ Microsoft BizTalk Adapter for JD Edwards OneWorld 提供對 JD Edwards OneWorld 
 -   接收埠會將 XML 文件提交至 BizTalk Server。  
   
 ## <a name="see-also"></a>另請參閱  
- [如何設定 JD Edwards OneWorld 傳輸屬性](../core/how-to-set-jd-edwards-oneworld-transport-properties.md)   
- [規劃與架構](../core/planning-and-architecture17.md)
+ [將成品新增至 BizTalk 管理](../core/adding-biztalk-adapter-for-jd-edwards-oneworld.md)   
+ [規劃和架構](../core/planning-and-architecture17.md)

@@ -1,26 +1,12 @@
 ---
-title: "部署連接埠和 Assemblies5 |Microsoft 文件"
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- ports, deploying
-- assemblies, deploying
-- deployment, ports and assemblies
-ms.assetid: 11d980c4-2502-4da2-b505-d7326aae619a
-caps.latest.revision: "11"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: 31df94e2a659fa29e6f21d2bd705de31da3c6b9a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/deploying-biztalk-adapter-for-peoplesoft-enterprise/
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: 7f7cb75d48afd407d580bbd7b02b788c6864d8e0
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="deploying-ports-and-assemblies"></a>部署連接埠和組件
 您可以使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 在目標電腦上複製連接埠和組件。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]傳送埠/接收位置將組態匯出成 XML 檔案。  
@@ -38,8 +24,3 @@ ms.lasthandoff: 09/20/2017
 > [!NOTE]
 >  Microsoft BizTalk Adapter for PeopleSoft Enterprise 只要求來源 (開發) 電腦上必須有 Visual Studio。 實際執行電腦上不需要有 Visual Studio。  
   
-## <a name="in-this-section"></a>本節內容  
-  
--   [匯入繫結檔案](../core/importing-binding-files1.md)  
-  
--   [部署限制](../core/deployment-limitations3.md)

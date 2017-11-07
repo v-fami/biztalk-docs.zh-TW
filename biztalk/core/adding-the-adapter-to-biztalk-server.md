@@ -1,26 +1,12 @@
 ---
-title: "將配接器新增至 BizTalk Server |Microsoft 文件"
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- adapters [JD Edwards OneWorld adapters], installing
-- installing, JD Edwards OneWorld adapters
-- JD Edwards OneWorld adapters, installing
-ms.assetid: e2018856-1943-48e9-b43f-7d527880e4bd
-caps.latest.revision: "12"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: 63de8824112c9891c6d67eee424a84dd4968976c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/adding-biztalk-adapter-for-jd-edwards-oneworld/
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: 0491ac0f26b19a96d11cf633263010026961c58b
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="adding-the-adapter-to-biztalk-server"></a>將配接器新增至 BizTalk Server
 Microsoft BizTalk Adapter for JD Edwards OneWorld 包含 [接收處理常式] 和 [傳送處理常式] 資料夾。 [傳送處理常式] 資料夾包含 BizTalkServerApplication。 BizTalk Adapter for JD Edwards OneWorld 是可建立的；它會在與 BizTalk Server 相同的程序中執行，而且不會在外掛式主控件程序中執行。  

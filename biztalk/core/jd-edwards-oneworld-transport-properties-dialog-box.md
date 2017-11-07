@@ -14,11 +14,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9dd6f1be076a8d5bc02942e55dc5e5fa88640ae6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 625479ef124aad6d7c0b10cde34b45a142ff9f90
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="jd-edwards-oneworld-transport-properties-dialog-box"></a>JD Edwards OneWorld 傳輸屬性對話方塊
 使用 [JD Edwards OneWorld 傳輸屬性] 對話方塊設定配接器必要屬性。  
@@ -39,6 +39,6 @@ ms.lasthandoff: 09/20/2017
 |使用 SSO|選取**是**如果您使用 SSO; 密碼就不需要在此情況下。|  
   
 ## <a name="see-also"></a>另請參閱  
- [使用單一登入](../core/using-single-sign-on3.md)   
+ [在配接器的安全性](../core/security-in-biztalk-adapter-for-jd-edwards-oneworld.md)   
  [建立分支機構應用程式](../core/creating-affiliate-applications3.md)   
  [BizTalk Adapter for JDE OneWorld 的 UI 參考](../core/ui-reference-for-biztalk-adapter-for-jde-oneworld.md)

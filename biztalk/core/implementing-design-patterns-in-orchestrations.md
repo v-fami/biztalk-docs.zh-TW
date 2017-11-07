@@ -1,5 +1,6 @@
 ---
 title: "在協調流程中實作的設計模式 |Microsoft 文件"
+description: "彙總工具、 內容為基礎的路由、 動態路由器、 錯誤處理、 訊息代理人和 BizTalk Server 中的多個設計模式"
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -7,39 +8,18 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- Aggregator pattern, orchestrations
-- Error Handling pattern [orchestrations]
-- patterns, orchestrations
-- designing, orchestrations
-- orchestrations, designing
-- Exception Handling and Compensation pattern [orchestrations]
-- Parallel Convoy pattern [orchestrations]
-- Dynamic Router pattern [orchestrations]
-- orchestrations, patterns
-- patterns
-- Composed Message Processor pattern [orchestrations]
-- Suspend with Retry pattern, orchestrations
-- Calling Pipelines from Orchestration pattern [orchestrations]
-- Message Filter pattern [orchestrations]
-- Message Broker pattern [orchestrations]
-- Content-Based Router pattern [orchestrations]
-- Sequential Convoy pattern [orchestrations]
-- Scatter and Gather pattern [orchestrations]
-- Splitter pattern, orchestrations
-- Message Translator pattern [orchestrations]
 ms.assetid: f62ba955-018a-40e7-b303-497acc906019
 caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1a4837ddf1199425a76a6fa82bbfd6e44615b6c7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 290b31e8d5494c7a00eb02517e910fc877da9124
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
-# <a name="implementing-design-patterns-in-orchestrations"></a>實作協調流程中的設計模式
+# <a name="implement-design-patterns-in-orchestrations"></a>在協調流程中實作的設計模式
 本節討論 BizTalk Server 程式設計的常見模式以及企業整合模式。 您可以利用單一模式或結合數個模式來設計您的商務程序，然後再使用 BizTalk 協調流程設計師中的圖形來實作設計。  
   
 ## <a name="design-patterns"></a>設計模式  
@@ -83,13 +63,13 @@ throw(excp);
  訊息轉譯程式模式可將訊息從一種形式轉換成另一種形式。 您可以使用與 BizTalk 對應來實作此模式**轉換**使用協調流程。 如需此模式的範例，請參閱中的 HelloOrchestration.odx [HelloWorld （BizTalk Server 範例）](../core/helloworld-biztalk-server-sample.md)。  
   
 ### <a name="parallel-convoy"></a>平行群組  
- 平行群組模式可以讓多個單一項目聯結在一起，達到個別項目無法完成的目標。 一組相關的項目會依任何順序抵達，但 BizTalk Server 必須收到所有的訊息，才能開始處理。 如需此模式的範例，請參閱[http://go.microsoft.com/fwlink/?LinkId=56035](http://go.microsoft.com/fwlink/?LinkId=56035)。  
+ 平行群組模式可以讓多個單一項目聯結在一起，達到個別項目無法完成的目標。 一組相關的項目會依任何順序抵達，但 BizTalk Server 必須收到所有的訊息，才能開始處理。 
   
 ### <a name="scatter-and-gather"></a>散佈和收集  
- 散佈和收集模式可將訊息傳送至多個收件者，並從每個收件者接收回訊息。 您可以使用分隔器模式和彙總工具模式來實作此模式。 您可以使用彙總工具模式來組合使用分隔器模式的結果，並放在**平行動作**圖形。 如需分隔器模式的範例，請參閱 SDK 範例具名實作散佈和收集模式時[http://go.microsoft.com/fwlink/?LinkId=65185](http://go.microsoft.com/fwlink/?LinkId=65185)。  
+ 散佈和收集模式可將訊息傳送至多個收件者，並從每個收件者接收回訊息。 您可以使用分隔器模式和彙總工具模式來實作此模式。 您可以使用彙總工具模式來組合使用分隔器模式的結果，並放在**平行動作**圖形。 
   
 ### <a name="sequential-convoy"></a>循序群組  
- 循序群組模式可以讓多個單一項目聯結在一起，達到個別項目無法完成的目標。 循序群組是具有預先定義順序的相關項目組。 雖然項目不需要完全相同，但 BizTalk Server 必須以循序方式接收這些項目。 如需此模式的範例，請參閱[http://go.microsoft.com/fwlink/?LinkId=56035](http://go.microsoft.com/fwlink/?LinkId=56035)。  
+ 循序群組模式可以讓多個單一項目聯結在一起，達到個別項目無法完成的目標。 循序群組是具有預先定義順序的相關項目組。 雖然項目不需要完全相同，但 BizTalk Server 必須以循序方式接收這些項目。 
   
 ### <a name="splitter"></a>分隔器  
  分隔器模式會將單一訊息分割為多個訊息。  
@@ -98,4 +78,4 @@ throw(excp);
  重試擱置模式可讓協調流程在錯誤發生時擱置訊息。 擱置會發生在迴圈中，讓協調流程擱置、要求操作人員介入、然後以固定次數重試作業。  
   
 ## <a name="see-also"></a>另請參閱  
- [設計協調流程](../core/designing-orchestration-flow.md)
+ [設計協調流程的流程](../core/designing-orchestration-flow.md)

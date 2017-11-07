@@ -1,5 +1,5 @@
 ---
-title: "結構描述匯入到 BizTalk Server Projects2 |Microsoft 文件"
+title: "JD Edwards EnterpriseOne 結構描述匯入 Visual Studio |Microsoft 文件"
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -7,19 +7,16 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- importing schemas
-- schemas, importing into BizTalk Server projects
 ms.assetid: 640d5884-953a-46b6-b9dc-b931392a3059
 caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7ebb0a39850029adec06986da5ddad1fc44c33ad
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: acd61cc8ab63d6859a8e10afb76f93c2f8cb2150
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="importing-schemas-into-biztalk-server-projects"></a>結構描述匯入至 BizTalk Server 專案
 本節討論瀏覽 JD Edwards EnterpriseOne 伺服器，以及將結構描述匯入 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 專案。  
@@ -32,7 +29,7 @@ ms.lasthandoff: 09/20/2017
   
  在建立 JD Edwards EnterpriseOne 連接埠後，您可以從 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 專案啟動 Microsoft 配接器精靈，以瀏覽 JD Edwards EnterpriseOne。  
   
-### <a name="to-import-schemas-into-a-biztalk-server-project"></a>將結構描述匯入 BizTalk Server 專案  
+## <a name="import-schemas-into-visual-studio"></a>結構描述匯入 Visual Studio
   
 1.  開啟 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]。  
   
@@ -70,7 +67,7 @@ ms.lasthandoff: 09/20/2017
 > [!NOTE]
 >  如果您在產生結構描述後變更 jdearglist.txt，您必須重新產生結構描述以重新整理所包含的資料。 如需 jdearglist.txt 的相關詳細資訊，請參閱[處理字串值](../core/handling-string-values2.md)。  
   
-### <a name="to-select-the-schemas"></a>選取結構描述  
+## <a name="select-the-schemas"></a>選取的結構描述  
   
 1.  在**選取要匯入服務**頁面上，展開最上層節點**商務物件**節點或**商務服務**節點。  
   
@@ -89,5 +86,5 @@ ms.lasthandoff: 09/20/2017
   
 -   I 表示查詢  
   
-## <a name="see-also"></a>另請參閱  
- [建立 JD Edwards EnterpriseOne 傳送處理常式](../core/creating-jd-edwards-enterpriseone-send-handlers.md)
+## <a name="next-step"></a>下一步
+[使用訊息內容屬性](../core/using-message-context-properties1.md)

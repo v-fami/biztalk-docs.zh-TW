@@ -15,11 +15,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7a879fe776956c290fb895c7f0feb39b6088e268
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a5e74e297eba5dcc92d2008bcca90fdc7b325814
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="configuring-the-virtual-directory"></a>設定虛擬目錄
 此主題說明設定虛擬目錄與為使用者驗證應用程式的程序。  
@@ -60,4 +60,4 @@ ms.lasthandoff: 09/20/2017
 4.  按一下**識別**及變更此 COM + 應用程式執行 BizTalk Server 群組的成員使用者的身分識別。  
   
 ## <a name="see-also"></a>另請參閱  
- [使用單一登入](../core/using-single-sign-on3.md)
+ [在配接器的安全性](../core/security-in-biztalk-adapter-for-jd-edwards-oneworld.md)

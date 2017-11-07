@@ -1,5 +1,5 @@
 ---
-title: "BizTalk Server 訊息內容屬性 （接收處理常式） |Microsoft 文件"
+title: "TIBCO Rendezvous 接收訊息內容屬性 |Microsoft 文件"
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -7,19 +7,16 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- message context properties
-- receive handlers, message context properties
 ms.assetid: 7f47e2a0-6ac8-404a-bc0a-c7739911af74
 caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8a60896a8e1cace909a160c1dc942e63e9258d85
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 36f4de92dbe7c4c235a1c9ebd092b28b3a198c92
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="biztalk-server-message-context-properties-receive-handlers"></a>BizTalk Server 訊息內容屬性 （接收處理常式）
 在執行階段，必須可從 BizTalk Server 協調流程存取的，除了有訊息內容以外，還有組成訊息的補充資訊。  

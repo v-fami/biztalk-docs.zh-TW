@@ -1,26 +1,12 @@
 ---
-title: "管理 BizTalk Adapter for JD Edwards OneWorld |Microsoft 文件"
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- JD Edwards OneWorld adapters, administering
-- adapters [JD Edwards OneWorld adapters], administering
-- administering, JD Edwards OneWorld adapters
-ms.assetid: e8e540e7-bde9-40d4-971e-65f9c41a89cd
-caps.latest.revision: "6"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: 20d65aaa32ec149d284544db76c285c173625815
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/using-biztalk-server-exception-handling1/
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: ee3a5831246ad7c88e0150ff01dcd182873d6c5d
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="administering-biztalk-adapter-for-jd-edwards-oneworld"></a>管理 BizTalk Adapter for JD Edwards OneWorld
 本節提供管理 BizTalk Adapter for JD Edwards OneWorld 的相關資訊。  

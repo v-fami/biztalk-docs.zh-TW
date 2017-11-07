@@ -16,14 +16,14 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 182e73ed45a1473286a301cf859e619cc5d21287
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f8daa94a49be4d120180fca9fb82c07b3603cf95
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="single-sign-on-and-biztalk-adapter-for-jd-edwards-enterpriseone"></a>單一登入與 BizTalk Adapter for JD Enterprise OneWorld
-當您將單一登入 (SSO) 與 Microsoft Adapter for JD Edwards EnterpriseOne 搭配使用時，此配接器會從 SSO 認證資料庫取得認證。 因此，您不需要在伺服器系統輸入登入認證**傳輸屬性** 對話方塊。  
+當您將單一登入 (SSO) 與 Microsoft Adapter for JD Edwards EnterpriseOne 搭配使用時，此配接器會從 SSO 認證資料庫取得認證。 因此，您不需要在伺服器系統輸入登入認證**傳輸屬性**] 對話方塊。  
   
  在設計階段，BizTalk Adapter for JD Edwards EnterpriseOne 會以啟動 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 專案的使用者身分取得系統 (所指定分支機構應用程式的系統) 的認證。 該使用者應為「應用程式使用者」。 使用 SSO 的通過實例時，請在執行階段使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] HTTP 接收配接器做為接收位置。  
   
@@ -37,4 +37,4 @@ ms.lasthandoff: 09/20/2017
   
 ## <a name="see-also"></a>另請參閱  
  [建立分支機構應用程式](../core/creating-affiliate-applications4.md)   
- [使用單一登入](../core/using-single-sign-on1.md)
+ [BizTalk Adapter for JD Edwards EnterpriseOne 中的安全性](../core/security-in-biztalk-adapter-for-jd-edwards-enterpriseone.md)

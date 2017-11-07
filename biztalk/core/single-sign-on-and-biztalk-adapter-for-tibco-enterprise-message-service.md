@@ -1,5 +1,5 @@
 ---
-title: "單一登入與 BizTalk Adapter for TIBCO Enterprise Message Service |Microsoft 文件"
+title: "SSO 和 BizTalk Adapter for TIBCO 企業訊息服務 |Microsoft 文件"
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -7,23 +7,20 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- messages, processing requests
-- Single Sign-On, using with adapter
-- processing requests
-- HTTP requests, processing
 ms.assetid: 68e85ceb-bf4c-489a-a2c2-1558e718ceed
 caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 181e54426d568857a9116aa47022adbc7788edaf
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 577fa596fadee68c94dfa510de101d01b0ab06e4
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="single-sign-on-and-biztalk-adapter-for-tibco-enterprise-message-service"></a>單一登入與 BizTalk Adapter for TIBCO Enterprise Message Service
+
+## <a name="overview"></a>概觀
 當您使用單一登入 (SSO) 搭配 Microsoft BizTalk Adapter for TIBCO Enterprise Message Service (EMS) 時，配接器會從 SSO 認證資料庫取得認證因此，您沒有在伺服器系統輸入登入認證**傳輸屬性** 對話方塊。  
   
  在設計階段，配接器會以啟動 BizTalk Server 專案的使用者身分取得系統的認證 (針對指定的分支機構應用程式)。 該使用者應為「應用程式使用者」。 在執行階段，當使用 SSO 時，請在通過實例中使用 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] HTTP 接收配接器做為接收位置。  
@@ -38,4 +35,4 @@ ms.lasthandoff: 09/20/2017
   
 ## <a name="see-also"></a>另請參閱  
  [建立分支機構應用程式](../core/creating-affiliate-applications5.md)   
- [使用單一登入](../core/using-single-sign-on4.md)
+ [保護配接器](../core/security-in-biztalk-adapter-for-tibco-ems.md)

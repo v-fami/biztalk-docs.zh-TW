@@ -1,5 +1,5 @@
 ---
-title: "從 PeopleSoft 接收 |Microsoft 文件"
+title: "接收來自 PeopleSoft |Microsoft 文件"
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 11c5add7e71e56f250b95736d97f0434adf72282
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cca87df1875f648abe2a986fb0d94b16865ee72f
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="receiving-from-peoplesoft"></a>從 PeopleSoft 接收
 Microsoft Adapter for PeopleSoft Enterprise 為傳送配接器。 配接器支援請求-回應，以便您可以先傳送查詢，並取得回應。 不過，如果您只想接收來自 PeopleSoft 的資料，則必須採取額外兩個步驟：  
@@ -25,7 +25,7 @@ Microsoft Adapter for PeopleSoft Enterprise 為傳送配接器。 配接器支�
   
 2.  建立可從 PeopleSoft 存取的接收埠，例如使用 HTTP 配接器的連接埠。 將自訂接收管線與此接收埠搭配使用。  
   
-## <a name="the-set-namespace-pipeline-component"></a>設定命名空間管線元件  
+## <a name="set-namespace-pipeline-component"></a>設定命名空間管線元件  
  接收自 PeopleSoft 的訊息不包含命名空間。 「設定命名空間」管線元件可讓您將命名空間新增至內送訊息。  
   
  「設定命名空間」管線元件的預設位置是 C:\Program Files\Microsoft BizTalk Adapters for Enterprise Applications\Pipeline Component。 您需要將 Microsoft.BizTalk.Adapters.Pipeline.SetNSForMsg.dll 元件複製到 BizTalk 所使用的管線元件目錄。 您還需要將此元件新增至 Visual Studio 工具箱，才能在 [管線設計師] 中使用該元件。  
@@ -34,7 +34,7 @@ Microsoft Adapter for PeopleSoft Enterprise 為傳送配接器。 配接器支�
   
  如需將元件加入至 Visual Studio 工具箱，請參閱[如何使用 [工具箱]](../core/how-to-use-the-toolbox.md)。  
   
-## <a name="configuring-the-set-namespace-pipeline-component"></a>設定設定命名空間管線元件  
+## <a name="configure-the-set-namespace-pipeline-component"></a>設定設定命名空間管線元件  
  「設定命名空間」管線元件有兩個屬性可讓您設定：  
   
 |使用|動作|  

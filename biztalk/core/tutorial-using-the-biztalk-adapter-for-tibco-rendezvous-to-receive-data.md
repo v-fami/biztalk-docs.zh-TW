@@ -1,5 +1,6 @@
 ---
-title: "教學課程： 使用 BizTalk Adapter for TIBCO Rendezvous 接收資料 |Microsoft 文件"
+title: "教學課程： 使用 TIBCO Rendezvous 配接器接收 |Microsoft 文件"
+description: "使用 BizTalk Adapter for TIBCO Rendezvous 在 BizTalk Server 中，以接收來自 TIBCO 系統資料的逐步指南"
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,49 +13,40 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: de436413f10cf4882b5c4e4b21af7bac6a3234c0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 75aaba0cc2e455676e78381c04934dda30741a85
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="tutorial-using-the-biztalk-adapter-for-tibco-rendezvous-to-receive-data"></a>教學課程： 使用 BizTalk Adapter for TIBCO Rendezvous 接收資料
 您可以使用 BizTalk Adapter for TIBCO Rendezvous 接收來自 TIBCO 系統的資料。 這個逐步解說將說明示範這一點的 SDK 範例。  
   
 ## <a name="prerequisites"></a>必要條件  
   
--   在執行配接器的 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 上安裝 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，以便建置及部署範例。  
+在執行配接器的 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 上安裝 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，以便建置及部署範例。  
   
-## <a name="what-this-sample-does"></a>此範例的用途  
- 這個範例會使用 BizTalk Adapter for TIBCO Rendezvous 接收來自 TIBCO 系統的資料。 協調流程處理訊息，並使用 file 配接器，將資料寫入為 XML 檔案中指定的資料夾。  
+## <a name="about-the-sample"></a>關於範例 
+- 這個範例會使用 BizTalk Adapter for TIBCO Rendezvous 接收來自 TIBCO 系統的資料。 協調流程處理訊息，並使用 file 配接器，將資料寫入為 XML 檔案中指定的資料夾。  
   
-## <a name="how-this-sample-is-designed-and-why"></a>此範例的設計方式和原因  
- 以 [!INCLUDE[vs2010](../includes/vs2010-md.md)] 設計的這個範例，示範了將 BizTalk Adapter for TIBCO Enterprise Message Service 與 BizTalk 協調流程搭配使用的基本功能。  
+- 以 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 設計的這個範例，示範了將 BizTalk Adapter for TIBCO Enterprise Message Service 與 BizTalk 協調流程搭配使用的基本功能。  
   
-> [!NOTE]
->  此範例假設您已知道如何傳送來自 TIBCO 的訊息以讓應用程式處理。  
+    > [!NOTE]
+    >  此範例假設您已知道如何傳送來自 TIBCO 的訊息以讓應用程式處理。  
   
-## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- 此範例的預設位置是  
+- 此範例的預設位置是`C:\Program Files\Microsoft BizTalk Adapters for Enterprise Applications\TIBCO(r) Rendezvous(r)\Sdk\OneWayReceive`，並包含下列檔案： 
   
- C:\Program Files\Microsoft BizTalk Adapters for Enterprise Applications\TIBCO(r) Rendezvous(r) \Sdk\OneWayReceive  
+    |**執行階段專案檔案名稱**|**執行階段專案檔案描述**|  
+    |---|---|  
+    |OneWayReceive.btproj、<br /><br /> OneWayReceive.sln|應用程式的專案和方案檔。|  
+    |PureMessage.xsd，|這個應用程式的結構描述檔案。|  
+    |TIBCORvOWR.odx|這個應用程式使用的協調流程。|  
+    |TIBCORv.snk|強式命名金鑰檔。|  
   
- 下表顯示此範例中的檔案，並描述其用途。  
   
-|**執行階段專案檔案名稱**|**執行階段專案檔案描述**|  
-|----------------------------------|------------------------------------------|  
-|OneWayReceive.btproj、<br /><br /> OneWayReceive.sln|應用程式的專案和方案檔。|  
-|PureMessage.xsd，|這個應用程式的結構描述檔案。|  
-|TIBCORvOWR.odx|這個應用程式使用的協調流程。|  
-|TIBCORv.snk|強式命名金鑰檔。|  
+## <a name="step-1-add-the-adapter-to-biztalk-administration"></a>步驟 1： 加入 BizTalk 管理配接器
   
-## <a name="how-to-use-this-sample"></a>如何使用此範例  
-  
-#### <a name="create-a-new-instance-of-the-biztalk-adapter-for-tibco-rendezvous"></a>建立新的 BizTalk Adapter for TIBCO Rendezvous 執行個體  
-  
-1.  啟動 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台。 按一下**啟動**，**所有程式**， [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]， [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]。  
-  
-2.  在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統管理主控台中，展開[!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]，展開**BizTalk 群組**，依序展開**平台設定**，然後按一下 **配接器**。  
+1.  在**BizTalk Server 管理**，依序展開**BizTalk 群組**，依序展開**平台設定**，然後按一下 **配接器**。  
   
 3.  以滑鼠右鍵按一下**配接器**指向**新增**，**配接器...** 若要顯示**配接器屬性**對話方塊。  
   
@@ -62,19 +54,19 @@ ms.lasthandoff: 09/20/2017
   
 5.  選取**TIBCO(r) 器**從清單中可用的介面卡**配接器**下拉式清單中，按一下 **確定**。  
   
-#### <a name="create-a-biztalk-receive-port"></a>建立 BizTalk 接收埠  
+## <a name="step-2-create-a-receive-port"></a>步驟 2： 建立接收埠  
   
-1.  在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統管理主控台中，展開**BizTalk Server 管理**，依序展開**BizTalk 群組**，依序展開**應用程式**，展開**BizTalk Application 1**，然後按一下**接收埠**。  
+1.  在**BizTalk Server 管理**，展開**BizTalk 群組**，展開**應用程式**，依序展開**BizTalk Application 1**，然後按一下**接收埠**。  
   
 2.  以滑鼠右鍵按一下接收埠] 資料夾，然後按一下 [**新增**，**單向接收埠...**顯示**接收埠屬性**對話方塊。  
   
 3.  輸入一個值**名稱**欄位，例如**TIBCORvOneWayRP**，然後按一下**確定**。  
   
-#### <a name="create-a-biztalk-receive-location"></a>建立 BizTalk 接收位置  
+## <a name="step-3-create-a-receive-location"></a>步驟 3： 建立接收位置  
   
 1.  以滑鼠右鍵按一下新的接收埠，然後按一下 **新增**，**接收位置...** 若要顯示**接收位置屬性**對話方塊。  
   
-2.  輸入一個值**名稱**欄位，例如**TIBCORvOneWayRL**。  
+2.  輸入一個值**名稱**欄位。 例如，輸入**TIBCORvOneWayRL**。  
   
 3.  從使用中的配接器清單選取 TIBCO Rendezvous 配接器**類型**下拉式清單方塊，然後按一下**設定**按鈕以顯示配接器**的傳輸屬性**  對話方塊。  
   
@@ -105,7 +97,7 @@ ms.lasthandoff: 09/20/2017
     |網路|Rendezvous 傳輸網路參數。|  
     |服務|Rendezvous 傳輸服務參數。|  
   
-     如需屬性的詳細資訊，請參閱[設定 TIBCO Rendezvous 接收傳輸屬性](../core/setting-tibco-rendezvous-receive-transport-properties.md)。  
+     如需屬性的詳細資訊，請參閱[建立接收成品](../core/creating-tibco-rendezvous-receive-handlers.md)。  
   
 8.  按一下 **[確定]**。  
   
@@ -113,7 +105,7 @@ ms.lasthandoff: 09/20/2017
   
 10. 以滑鼠右鍵按一下接收位置，然後按一下**啟用**。  
   
-#### <a name="create-a-one-way-file-send-port"></a>建立單向檔案傳送埠  
+## <a name="step-4-create-a-one-way-send-port"></a>步驟 4： 建立單向傳送埠  
   
 1.  建立傳送埠所要使用的目標資料夾，例如 C:\FilesOut。  
   
@@ -131,7 +123,7 @@ ms.lasthandoff: 09/20/2017
   
 8.  以滑鼠右鍵按一下傳送埠，然後按一下**啟動**登錄並啟動傳送埠。  
   
-#### <a name="build-and-deploy-the-project"></a>建置和部署專案  
+## <a name="step-5-build-and-deploy-the-project"></a>步驟 5： 建立和部署專案  
   
 1.  以滑鼠右鍵按一下方案總管 中的 Onewaysend 專案，然後按一下**屬性**啟動專案的專案設計工具。  
   
@@ -141,7 +133,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  以滑鼠右鍵按一下方案總管 中的 Onewaysend 專案，然後按一下**部署**建置專案並部署組件[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]組態資料庫。  
   
-#### <a name="bind-and-enlist-the-orchestration"></a>繫結和登錄協調流程  
+## <a name="step-6-bind-enlist-and-start-the-orchestration"></a>步驟 6： 繫結、 登錄，並啟動協調流程  
   
 1.  在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統管理主控台中，展開**BizTalk Server 管理**，依序展開**BizTalk 群組**，依序展開**應用程式**，展開**BizTalk Application 1**，然後按一下**協調流程**。  
   
@@ -161,13 +153,11 @@ ms.lasthandoff: 09/20/2017
   
 6.  按一下 **[確定]**。  
   
-#### <a name="start-the-orchestration"></a>啟動協調流程  
+7. 以滑鼠右鍵按一下協調流程，然後按一下**啟動**登錄並啟動協調流程。  
   
--   在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台，以滑鼠右鍵按一下協調流程，然後按一下**啟動**登錄並啟動協調流程。  
+## <a name="step-7-confirm-the-application-receives-a-message"></a>步驟 7： 確認應用程式收到的訊息  
   
-#### <a name="verify-that-the-application-receives-a-message"></a>確認應用程式收到訊息  
-  
--   開啟檔案傳送埠進行傳送時依設定要使用的目標資料夾，然後確認已產生輸出文件。  
+-   開啟檔案傳送埠會設定傳送至，並確認已產生輸出文件的資料夾。  
   
  如果文件執行個體處理成功，則會發生以下一系列的事件：  
   

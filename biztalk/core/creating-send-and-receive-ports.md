@@ -23,11 +23,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 217a1d79dc4079c8f092985e00a1cd5636788e7b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: da4b117ca2d032ef1dc10731128acca903a51790
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="creating-send-and-receive-ports"></a>建立傳送埠和接收埠
 使用下列程序為 BizTalk Adapter for JD Edwards OneWorld 建立 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 傳送埠和接收埠。  
@@ -91,6 +91,6 @@ ms.lasthandoff: 09/20/2017
 7.  如**接收管線**，選取**microsoft.biztalk.defaultpiplelines.xmlreceive**，然後按一下 **確定**。  
   
 ## <a name="see-also"></a>另請參閱  
- [建立 JD Edwards OneWorld 傳送處理常式](../core/creating-jd-edwards-oneworld-send-handlers.md)   
- [如何設定 JD Edwards OneWorld 傳輸屬性](../core/how-to-set-jd-edwards-oneworld-transport-properties.md)   
- [使用單一登入](../core/using-single-sign-on3.md)
+ [將成品新增至 BizTalk 管理](../core/adding-biztalk-adapter-for-jd-edwards-oneworld.md)   
+ [將成品新增至 BizTalk 管理](../core/adding-biztalk-adapter-for-jd-edwards-oneworld.md)   
+ [在配接器的安全性](../core/security-in-biztalk-adapter-for-jd-edwards-oneworld.md)

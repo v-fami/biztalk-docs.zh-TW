@@ -1,23 +1,12 @@
 ---
-title: "TIBCO Rendezvous 事件與接收位置 |Microsoft 文件"
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords: receive locations, life cycle
-ms.assetid: 3576af82-4723-4efc-961e-40b1150cf13d
-caps.latest.revision: "8"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: e9278687ff212fc2368eca138780417d7c052824
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/creating-tibco-rendezvous-receive-handlers/
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: b93e747cdc665fb5a8407ca2a3d052b880236378
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="tibco-rendezvous-events-and-receive-locations"></a>TIBCO Rendezvous 事件與接收位置
 所有 TIBCO Rendezvous 系統均可傳送訊息給它們選擇的主體名稱。 概念*事件*是訊息的其他 TIBCO Rendezvous 程式產生。  

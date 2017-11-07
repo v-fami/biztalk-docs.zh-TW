@@ -1,30 +1,17 @@
 ---
-title: "如何設定 TIBCO Rendezvous 傳輸屬性 |Microsoft 文件"
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- setting transport properties
-- transport properties, setting
-ms.assetid: db8e8a57-a942-44d7-a651-623aa614c6be
-caps.latest.revision: "13"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: 9c9ff40d5319daa0a71d67aa3fd132c3d115923e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/creating-tibco-rendezvous-send-handlers/
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: b4fabb9146b4f559dd1a41b6e3b7da5ce9489d1f
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="how-to-set-tibco-rendezvous-transport-properties"></a>如何設定 TIBCO Rendezvous 傳輸內容
 TIBCO Rendezvous 傳輸屬性用於執行階段。 在**傳輸屬性** 畫面上，設定連線參數來識別您要將產生的訊息發佈的 TIBCO Rendezvous 網域。  
   
-### <a name="to-specify-tibco-rendezvous-transport-properties"></a>若要指定 TIBCO Rendezvous 傳輸屬性  
+## <a name="enter-tibco-rendezvous-transport-properties"></a>輸入 TIBCO Rendezvous 傳輸屬性  
   
 1.  在**TIBCO Rendezvous 傳輸屬性**畫面上，依序展開**認證寄件者屬性**並輸入下列資訊。  
   
@@ -71,7 +58,7 @@ TIBCO Rendezvous 傳輸屬性用於執行階段。 在**傳輸屬性** 畫面上
     1.  選取**是**中**使用 SSO**使用單一登入。  
   
         > [!NOTE]
-        >  請參閱[使用單一登入](../core/using-single-sign-on5.md)如需有關如何設定 SSO 資訊。  
+        >  請參閱[安全性](../core/security-in-biztalk-adapter-for-tibco-rendezvous.md)如需有關如何設定 SSO 資訊。  
   
     2.  從清單中選取一個分支機構應用程式。  
   

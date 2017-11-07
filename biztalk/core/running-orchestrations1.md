@@ -18,11 +18,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c3bc4326d5821dd9fb672d8dabf9751a3fa2d816
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0b4559a3d362d0d778c4d60cc485fa79e8e05efe
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="running-orchestrations"></a>執行協調流程
 下列程序說明如何建置、部署、繫結和啟動協調流程。  
@@ -85,4 +85,4 @@ ms.lasthandoff: 09/20/2017
      若要將狀態變更為**執行**，按一下 **重新整理**，或以滑鼠右鍵按一下主控件執行個體，然後按一下**重新整理**。  
   
 ## <a name="see-also"></a>另請參閱  
- [使用單一登入](../core/using-single-sign-on3.md)
+ [在配接器的安全性](../core/security-in-biztalk-adapter-for-jd-edwards-oneworld.md)

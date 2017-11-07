@@ -14,11 +14,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 21bbb6b4469399aa1952d0a9bdcc41ff7e14c842
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f510009161a21e64d7bbf80c7b1fda20c0c018aa
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="jd-edwards-enterpriseone-transport-properties-dialog-box"></a>JD Edwards EnterpriseOne 傳輸屬性對話方塊
 使用 [JD Edwards EnterpriseOne 傳輸屬性] 對話方塊設定配接器必要屬性。  
@@ -52,6 +52,6 @@ ms.lasthandoff: 09/20/2017
 |使用 SSO|選取**是**如果您使用 SSO; 密碼就不需要在此情況下。|  
   
 ## <a name="see-also"></a>另請參閱  
- [使用單一登入](../core/using-single-sign-on1.md)   
+ [BizTalk Adapter for JD Edwards EnterpriseOne 中的安全性](../core/security-in-biztalk-adapter-for-jd-edwards-enterpriseone.md)   
  [建立分支機構應用程式](../core/creating-affiliate-applications4.md)   
  [BizTalk Adapter for JD Edwards EnterpriseOne 的 UI 參考](../core/ui-reference-for-biztalk-adapter-for-jd-edwards-enterpriseone.md)

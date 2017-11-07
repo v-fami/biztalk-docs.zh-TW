@@ -1,28 +1,12 @@
 ---
-title: "設定 JD Edwards EnterpriseOne 傳輸屬性 |Microsoft 文件"
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- Max Concurrent Calls parameter
-- JD Edwards EnterpriseOne adapters, transport properties
-- transport properties, configuring [JD Edwards EnterpriseOne adapters]
-- adapters [JD Edwards EnterpriseOne adapters], transport properties
-- Bootstrap Data Source properties
-ms.assetid: 7d258ee6-1cb3-4b88-ac41-49e639833574
-caps.latest.revision: "17"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: 4ed3118230f2e4ae48676b297ac444da9c392221
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/adding-biztalk-adapter-for-jd-edwards-enterpriseone/
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: 71a1b75c9a602b196504fa9f06984f0ed9d52e05
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="setting-jd-edwards-enterpriseone-transport-properties"></a>設定 JD Edwards EnterpriseOne 傳輸屬性
 JD Edwards EnterpriseOne 傳輸屬性是用於設計與執行階段。 在**傳輸屬性**對話方塊中，您設定的連接和認證參數特定伺服器系統和您嘗試存取的物件。  
@@ -34,7 +18,7 @@ JD Edwards EnterpriseOne 傳輸屬性是用於設計與執行階段。 在**傳�
 > [!NOTE]
 >  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中已設定企業伺服器名稱與連接埠的預設值。 它們也會從稱為 jdeinterop.ini 的檔案中讀取。 如果您收到登入錯誤，請仔細檢查認證與值。  
   
-### <a name="to-specify-transport-properties"></a>若要指定傳輸屬性  
+## <a name="enter-transport-properties"></a>輸入傳輸屬性  
   
 1.  在 BizTalk Server 管理主控台中，依序展開**BizTalk Server 管理**，依序展開**BizTalk 群組**，依序展開**應用程式**，然後展開 所需應用程式。  
   
@@ -124,7 +108,7 @@ JD Edwards EnterpriseOne 傳輸屬性是用於設計與執行階段。 在**傳�
 ### <a name="single-sign-on"></a>單一登入 (SSO)  
  有兩種方法可用來存取 JD Edwards EnterpriseOne 系統。 您可以使用登入認證 ([傳輸屬性] 的 [登入] 參數) 或單一登入 (SSO)。 選取**是**中**使用 SSO**欄位，以使用單一登入。  
   
- 如需詳細資訊和基本指示，設定單一登入的設定，請參閱[使用單一登入](../core/using-single-sign-on1.md)。  
+ 如需詳細資訊和基本指示，設定單一登入的設定，請參閱[BizTalk Adapter for JD Edwards EnterpriseOne 中的安全性](../core/security-in-biztalk-adapter-for-jd-edwards-enterpriseone.md)。
   
  您也必須從下拉式清單中選取分支機構應用程式。 由企業單一登入工具所建立的分支機構應用程式，代表像是 JD Edwards EnterpriseOne 的應用程式。 BizTalk Adapter for JD Edwards EnterpriseOne 會使用應用程式使用者的認證。  
   
@@ -134,4 +118,3 @@ JD Edwards EnterpriseOne 傳輸屬性是用於設計與執行階段。 在**傳�
   
 ## <a name="see-also"></a>另請參閱  
  [單一登入與 BizTalk Adapter for JD Edwards EnterpriseOne](../core/single-sign-on-and-biztalk-adapter-for-jd-edwards-enterpriseone.md)   
- [建立 JD Edwards EnterpriseOne 傳送處理常式](../core/creating-jd-edwards-enterpriseone-send-handlers.md)

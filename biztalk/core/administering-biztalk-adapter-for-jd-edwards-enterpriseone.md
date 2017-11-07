@@ -1,26 +1,12 @@
 ---
-title: "管理 BizTalk Adapter for JD Edwards EnterpriseOne |Microsoft 文件"
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- JD Edwards EnterpriseOne adapters, administering
-- administering, JD Edwards EnterpriseOne adapters
-- adapters [JD Edwards EnterpriseOne adapters], administering
-ms.assetid: 3749d649-534e-473b-a358-dbfd086b32b3
-caps.latest.revision: "4"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: e382e9fd9b25629fab16697149ae6ad585a2a4f0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/using-biztalk-server-exception-handling3/
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: 8252bd6eda1841d8edf1db1f6a7a20c03f0c95aa
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="administering-biztalk-adapter-for-jd-edwards-enterpriseone"></a>管理 BizTalk Adapter for JD Edwards EnterpriseOne
 本節提供關於管理 BizTalk Adapter for JD Edwards EnterpriseOne 的資訊。  

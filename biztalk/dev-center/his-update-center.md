@@ -3,17 +3,17 @@ title: "Host Integration server 更新中心 |Microsoft 文件"
 description: "請參閱所有可用的累計更新和 service pack 可用他和 OLE DB Provider for DB2"
 author: MandiOhlinger
 manager: anneta
-ms.date: 08/10/2017
+ms.date: 10/18/2017
 ms.prod: biztalk-server
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 ms.author: mandia
-ms.openlocfilehash: 56bd0740b98752dcfac0b963acf25b74e7ac94a4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 25a2b89e7048d957d8f54a2e897f59817281eff5
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="update-center-for-host-integration-server-and-ole-db-provider-for-db2"></a>Host Integration Server 和 OLE DB Provider for DB2 的更新中心
 
@@ -39,7 +39,8 @@ ms.lasthandoff: 09/20/2017
 
 | 產品版本 | 最新版 Service Pack | 最新累計更新 |
 | --- | --- | --- |
-| HIS 2013 | n/a | CU 3 ([KB 3019572](https://support.microsoft.com/kb/3019572)) |
+| 他 2016 | n/a | CU 1 ([KB 3216544](https://support.microsoft.com/kb/3216544)) |
+| HIS 2013 | n/a | CU 4 ([KB 3108547](https://support.microsoft.com/kb/3108547)) |
 |  HIS 2010 | n/a | CU 10 ([KB 2917398](https://support.microsoft.com/kb/2917398)) |
 |  HIS 2009 | n/a | CU 7 ([KB 2975320](http://support.microsoft.com/kb/2975320)) |
 |  HIS 2006 | SP1 ([KB 979238](http://support.microsoft.com/kb/979238))  | n/a |

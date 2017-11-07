@@ -1,25 +1,12 @@
 ---
-title: "使用單一登 On5 |Microsoft 文件"
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- Single Sign-On
-- SSO
-ms.assetid: 3484fb64-6675-4f09-9800-31c1a666e1ee
-caps.latest.revision: "7"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: f0a4e6f66bd5aa2ffb2f0eb2793742e535416142
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/security-in-biztalk-adapter-for-tibco-rendezvous/
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: db213735202e893f8207952994a5dc7f4fddb3ac
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="using-single-sign-on"></a>使用單一登入
 Microsoft BizTalk Adapter for TIBCO Rendezvous 提供單一登入 (SSO) 支援。 企業單一登入工具建立的分支機構應用程式代表一個伺服器系統 (例如 TIBCO Rendezvous)。  

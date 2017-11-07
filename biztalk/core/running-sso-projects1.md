@@ -16,11 +16,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ac9286dbaaced073dc7517bf5731fab3fa332d1c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ea316e8f2c78ff718d6821b3f5d063bd86621dd1
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="running-sso-projects"></a>執行 SSO 專案
 您可以從 Internet Explorer 執行範例。  
@@ -44,4 +44,4 @@ ms.lasthandoff: 09/20/2017
      在這種情況下，您不需要提供認證。  
   
 ## <a name="see-also"></a>另請參閱  
- [使用單一登入](../core/using-single-sign-on2.md)
+ [保護配接器](../core/security-in-biztalk-adapter-for-peoplesoft-enterprise.md)

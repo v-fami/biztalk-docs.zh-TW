@@ -1,33 +1,19 @@
 ---
-title: "設定 TIBCO 企業訊息服務傳輸傳送埠屬性 |Microsoft 文件"
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- send ports, setting transport properties
-- transport properties, setting for send port
-- setting transport properties, send port
-ms.assetid: 156fa3d1-6c47-442b-9c5d-5bcd838115f8
-caps.latest.revision: "14"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: eba9a07a6b5991d832a0815a4eb63706c3bbbd3c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/creating-tibco-enterprise-message-service-send-handlers/
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: 24e73be3b953cbd7f597a34a06f09d364ec0f4f4
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
-# <a name="setting-tibco-enterprise-message-service-transport-properties-for-the-send-port"></a>設定 TIBCO 企業訊息服務傳送埠的傳輸屬性
+# <a name="set-send-port-transport-properties-for-the-send-port-for-tibco-enterprise-message-service"></a>設定 TIBCO Enterprise Message Service 的傳送埠的傳送埠傳輸屬性
 TIBCO Enterprise Message Service 傳輸屬性是在設計階段設定、在執行階段使用。 在**傳輸屬性**對話方塊中，您設定的連接和認證參數特定伺服器系統和您嘗試存取的物件。  
   
  ![](../core/media/tib-tibcoemssendtransportpropertiess.gif "TIB_TIBCOEMSSendTransportPropertiess")  
   
-### <a name="to-specify-transport-properties"></a>若要指定傳輸屬性  
+## <a name="enter-transport-properties"></a>輸入傳輸屬性  
   
 1.  在**傳輸屬性**對話方塊方塊中，展開 **系統定義**，然後輸入 TIBCO EMS 伺服器連線的所有必要的資訊。  
   
@@ -75,5 +61,5 @@ TIBCO Enterprise Message Service 傳輸屬性是在設計階段設定、在執�
 7.  按一下**套用**，然後按一下 **確定**。  
   
 ## <a name="see-also"></a>另請參閱  
- [使用單一登入](../core/using-single-sign-on4.md)   
- [建立 TIBCO 企業訊息服務傳送處理常式](../core/creating-tibco-enterprise-message-service-send-handlers.md)
+ [保護配接器](../core/security-in-biztalk-adapter-for-tibco-ems.md)  
+ [建立傳送成品](../core/creating-tibco-enterprise-message-service-send-handlers.md)

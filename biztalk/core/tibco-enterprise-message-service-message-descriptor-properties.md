@@ -1,5 +1,5 @@
 ---
-title: "TIBCO 企業訊息服務訊息描述元屬性 |Microsoft 文件"
+title: "TIBCO EMS 訊息描述元屬性 |Microsoft 文件"
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -7,19 +7,20 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords: message descriptor properties
 ms.assetid: fc164c12-6dc3-4b74-9aa9-024e18faf80a
 caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 80c75875c44c4d082089fc9394fef390a0f91571
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c1a2a7d6529cffba6afa3969964d1ea436d7fcda
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="tibco-enterprise-message-service-message-descriptor-properties"></a>TIBCO Enterprise Message Service 訊息描述元屬性
+
+## <a name="descriptor-properties-and-values"></a>描述元屬性和值
 下表顯示所有可用的「訊息描述元」(TibcoEMSMD 結構)」屬性及其對應的類型與值。  
   
 |名稱|型別|Value|注意|  
@@ -61,4 +62,4 @@ ms.lasthandoff: 09/20/2017
  請確定已使用目標命名空間，只有使用此命名空間的屬性會複製到 BizTalk Server 訊息或 EMS 訊息。 如需 訊息內容屬性的詳細資訊，請參閱 BizTalk Server 文件。  
   
 ## <a name="see-also"></a>另請參閱  
- [訊息內容屬性](../core/message-context-properties2.md)
+[TIBCO EMS 訊息內容屬性](../core/message-context-properties-in-biztalk-server.md)

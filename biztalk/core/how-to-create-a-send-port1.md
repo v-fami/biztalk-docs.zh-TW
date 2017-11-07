@@ -15,11 +15,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 61c82b199f7b8686556f2cbb53a90b0d4b59536e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cf49b16da34c5341059db34d6874b7099ab54df6
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="how-to-create-a-send-port"></a>如何建立傳送埠
 使用下列程序建立 JD Edwards EnterpriseOne 的 BizTalk Server 傳送埠。  
@@ -54,4 +54,4 @@ ms.lasthandoff: 09/20/2017
   
 ## <a name="see-also"></a>另請參閱  
  [建立分支機構應用程式](../core/creating-affiliate-applications4.md)   
- [使用單一登入](../core/using-single-sign-on1.md)
+ [BizTalk Adapter for JD Edwards EnterpriseOne 中的安全性](../core/security-in-biztalk-adapter-for-jd-edwards-enterpriseone.md)

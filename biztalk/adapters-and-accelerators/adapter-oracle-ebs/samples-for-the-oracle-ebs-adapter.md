@@ -1,7 +1,8 @@
 ---
-title: "適用於 Oracle EBS 配接器範例 |Microsoft 文件"
+title: "Oracle EBS 配接器範例 |Microsoft 文件"
+description: "可以使用 BizTalk Server、 WCF 服務模型時，與 WCF 通道模型的 oracle Enterprise Business Suite WCF 配接器範例"
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 10/18/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
@@ -12,11 +13,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 05f4bd3d251872dc480c939ec864db9d61f14bd7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f4069b7f5916291544ce76534e04b20af5680d69
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="samples-for-the-oracle-ebs-adapter"></a>適用於 Oracle EBS 配接器範例
 範例如[!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]分類成：  
@@ -29,9 +30,12 @@ ms.lasthandoff: 09/20/2017
   
 -   Microsoft Office SharePoint Server 範例  
   
- 這些範例位於[http://go.microsoft.com/fwlink/p/?LinkID=196854](http://go.microsoft.com/fwlink/p/?LinkID=196854)。 SQL 指令碼建立介面資料表、 同時執行的程式、 資料表和範例中所使用的封裝也會提供的範例以及[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]。  
+ 這些範例位於[BizTalk Adapter Pack 2010: Oracle E-business Suite 配接器範例](https://www.microsoft.com/download/details.aspx?id=6464)。 建立介面資料表、 同時執行的程式、 資料表和封裝範例中所使用的 SQL 指令碼會包含項目。 
   
- 下表包含的名稱和描述的範例如[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]。  
+> [!NOTE]
+> [!INCLUDE[files-need-updated](../../includes/files-need-updated.md)]
+  
+ 下列清單描述的範例。 
   
 ## <a name="biztalk-server-samples"></a>BizTalk Server 範例  
   
@@ -46,7 +50,7 @@ ms.lasthandoff: 09/20/2017
 |PollingUsingSelectStatement|示範如何設定使用 SELECT 陳述式在有輪詢查詢，並接收結果使用[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]。|  
 |PollingUsingStoredProc|示範如何設定使用預存程序在有輪詢查詢，並接收結果使用[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]。|  
   
-## <a name="wcf-service-model-samples"></a>WCF 服務模型範例  
+## <a name="wcf-service-model-sasamplesmples"></a>WCF 服務模型 Sasamplesmples  
   
 |範例目錄名稱|Description|  
 |---------------------------|-----------------|  

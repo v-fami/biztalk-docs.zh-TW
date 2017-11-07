@@ -1,5 +1,5 @@
 ---
-title: "配接器功能 |Microsoft 文件"
+title: "TIBCO Enterprise Message Service 配接器功能 |Microsoft 文件"
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -7,23 +7,18 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- TIBCO Enterprise adapters, message delivery
-- architecture, TIBCO Enterprise adapters
-- TIBCO Enterprise adapters, architecture
-- TIBCO Enterprise adapters, data validation
 ms.assetid: ede748ce-3f28-4942-b2bd-e38e5f1b0f54
 caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ffa789837973f8c8c7bb6c5bd428e36c562df96c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ce63950ea9fca42969a7d8574fec76f438ed5f8f
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
-# <a name="adapter-features"></a>配接器功能
+# <a name="tibco-ems-adapter-features"></a>TIBCO EMS 配接器功能
 Microsoft BizTalk Adapter for TIBCO Enterprise Message Service (EMS) 可讓您使用 BizTalk Server 和 TIBCO SDK 來發佈和訂閱由 TIBCO EMS 所管理的佇列和主題。 此配接器以快速、 簡易而可靠的方式與 TIBCO EMS 訊息整合。 其在 TIBCO EMS 伺服器與 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 之間交換 XML 資料格式，以提供緊密整合而可靠的應用程式基礎結構。 它會提供傳輸和接收配接器整合作業提供端對端商務程序管理使用 XML 結構描述。  
   
 ## <a name="data-validation"></a>資料驗證  

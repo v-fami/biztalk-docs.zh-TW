@@ -1,5 +1,5 @@
 ---
-title: "建立分支機構 Applications1 |Microsoft 文件"
+title: "建立分支機構應用程式的 TIBCO Rendezvous |Microsoft 文件"
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -7,23 +7,16 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- applications, affiliate
-- Single Sign-On, tickets
-- affiliate applications
-- tickets, SSO
-- affiliate applications, enabling XML
-- SSO tickets
 ms.assetid: f3603fcb-3594-460b-b74a-618e22d9c4e0
 caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f52c59caf451a2e0b55c775bf70a36a9a05ae9c3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a286a80ef2c867dd196fcdce414f2d0ff3c8255c
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="creating-affiliate-applications"></a>建立分支機構應用程式
 下列步驟說明如何開始使用分支機構應用程式和單一登入 (SSO)。 如需如何使用企業單一登入的完整資訊，請參閱 Microsoft 文件。  
@@ -31,7 +24,7 @@ ms.lasthandoff: 09/20/2017
 > [!NOTE]
 >  收到 SSO 錯誤時，請確認您設定 BizTalk Server 時有使用網域帳戶，因為企業單一登入服務的功能會受影響。 SSO 僅能在網域帳戶運作。  
   
-### <a name="to-create-an-affiliate-application"></a>若要建立分支機構應用程式  
+## <a name="create-an-affiliate-application"></a>建立分支機構應用程式  
   
 1.  在控制台中開啟**服務**，並確認企業單一登入服務正在執行。  
   
@@ -72,7 +65,7 @@ ms.lasthandoff: 09/20/2017
     </SSO>  
     ```  
   
-### <a name="to-create-single-sign-on-tickets"></a>若要建立單一登入票證  
+## <a name="create-single-sign-on-tickets"></a>建立單一登入票證  
   
 1.  輸入下列命令以控制 SSO 票證行為：  
   
@@ -86,7 +79,7 @@ ms.lasthandoff: 09/20/2017
   
      **在此電腦使用 SSO 伺服器。已成功完成此作業。**  
   
-### <a name="to-enable-affiliate-application-xml"></a>若要啟用分支機構應用程式 XML  
+## <a name="enable-affiliate-application-xml"></a>啟用分支機構應用程式 XML  
   
 1.  輸入以下命令：  
   
@@ -120,4 +113,3 @@ ms.lasthandoff: 09/20/2017
   
 ## <a name="see-also"></a>另請參閱  
  [BizTalk Adapter for TIBCO Rendezvous 中的安全性](../core/security-in-biztalk-adapter-for-tibco-rendezvous.md)   
- [使用單一登入](../core/using-single-sign-on5.md)

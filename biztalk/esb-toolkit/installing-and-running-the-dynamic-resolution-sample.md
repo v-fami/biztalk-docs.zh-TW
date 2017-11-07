@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 04d697028eb76cf922cf4bf5e5db85c561c67d00
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0f93396fc71c9e765104ac67835e006e57ca0ade
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="installing-and-running-the-dynamic-resolution-sample"></a>安裝及執行動態解析範例
 動態解析 」 範例示範如何在一般使用案例的 ESB 發送器和 ESB 發送器解譯器管線元件。 它示範如何使用元件以動態方式解析端點位置、 設定路由的屬性，並解決，並執行 Microsoft BizTalk 對應，在訊息層級，而不需使用協調流程。 它也示範單向和雙向的訊息模式。  
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/20/2017
  所有單向傳訊案例 （除了使用 XPATH 解析程式） 使用檔案 NAOrderDoc.xml，位於 [\Source\Samples\DynamicResolution\Test\Data] 資料夾中，做為輸入接收位置命名為 DynamicResolution_FILE。 有七個單向的訊息範例中，所有由唯一的繫結檔案，您必須匯入，然後再執行每個範例。  
   
 ## <a name="two-way-messaging-scenarios"></a>雙向傳訊的案例  
- 所有的雙向傳訊實例中使用範例 ESB。位於要求訊息發佈到 BizTalk http://localhost/ESB.NorthAmericanServices/CustomerOrder.asmx NorthAmericanServices Web 服務。 您可以執行使用 Microsoft InfoPath 此 Web 服務或透過公用程式，例如可從 Storm [CodePlex](http://go.microsoft.com/fwlink/?LinkID=187762&clcid=0x409) ([http://go.microsoft.com/fwlink/?LinkID=187762&clcid=0x409](http://go.microsoft.com/fwlink/?LinkID=187762&clcid=0x409))。  
+ 所有的雙向傳訊實例中使用範例 ESB。位於要求訊息發佈到 BizTalk http://localhost/ESB.NorthAmericanServices/CustomerOrder.asmx NorthAmericanServices Web 服務。 您可以執行使用 Microsoft InfoPath 此 Web 服務或透過公用程式，例如可從 Storm [CodePlex](http://go.microsoft.com/fwlink/?LinkID=187762&clcid=0x409)。  
   
  每個範例以動態方式解析提交訊息至範例 ESB 的端點 URL。位於 http://localhost/ESB.CanadianServices/SubmitPOService.asmx CanadianServices Web 服務。 此範例會執行下列一**submitOrder**動作或**submitPurchase**動作，根據在解析程序的結果。 雙向傳訊案例的接收位置是 DynamicResolutionReqResp_SOAP。 有 10 個的雙向傳訊範例中，所有由唯一的繫結檔案，您必須匯入，然後再執行每個範例。  
   

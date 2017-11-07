@@ -12,33 +12,24 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fd8bb0ba839d656dd99959a3352ea8da42457d16
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2f863ae780dd99a7f0aa7d9acc3884f860686c86
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="pre-configuration-database-optimizations"></a>預先設定資料庫最佳化
 SQL Server 在任何 BizTalk Server 環境中扮演重要的角色，因為它最重要的是 SQL Server 是為了達到最佳效能設定/微調。 如果 SQL Server 無法執行也微調，BizTalk Server 所使用的資料庫會成為瓶頸，以及 BizTalk Server 環境的整體效能會降低。 本主題說明安裝 BizTalk Server 和設定 BizTalk Server 資料庫之前，應遵循的數個 SQL Server 效能最佳化。  
   
 ## <a name="set-ntfs-file-allocation-unit"></a>設定 NTFS 檔案配置單位  
- SQL Server 會儲存其資料**範圍**，而這是八個實體連續 8 千個頁面或 64 KB 的集合。 因此，若要最佳化磁碟效能，NTFS 配置單位大小設定為 64 KB SQL Server 最佳做法文章的 「 磁碟組態最佳作法 」 一節中所述[「 前置部署 I/O 最佳作法 」](http://go.microsoft.com/fwlink/?LinkId=140818) (http://go.microsoft.com/fwlink/ 嗎？LinkId = 140818)。  
+ SQL Server 會儲存其資料**範圍**，而這是八個實體連續 8 千個頁面或 64 KB 的集合。 因此，若要將磁碟效能最佳化，NTFS 配置單位大小為 64 KB 「 磁碟組態最佳作法 」 中所述在設定[前置部署 I/O 最佳作法](https://msdn.microsoft.com/library/cc966412.aspx)。  
   
 ## <a name="considerations-for-the-version-and-edition-of-sql-server"></a>版本與版本的 SQL Server 的考量  
  各種版本和版別的[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]提供不同的功能可能會影響效能，您[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境。 例如，在高負載情況適用於 32 位元版本的資料庫鎖定數目[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]可能超過即不利的 BizTalk 方案的效能。 請考慮罩上的 SQL Server 64 位元版本的 MessageBox 資料庫，如果您在測試環境中發生 「 鎖定不足 」 錯誤。 在 64 位元版本的 SQL Server 上，可用的鎖定數目大幅提高。  
   
- 決定您將 BizTalk 環境所需的資料庫引擎功能時，請考慮下列資料表。 針對大規模的企業層級方案需要叢集的支援，BizTalk Server 記錄傳送支援，或 Analysis Services 支援，則需要[!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)]或[!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)]Enterprise Edition 來保存[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]資料庫。  
-  
-|SQL Server 的版本|64 位元支援|多重執行個體的支援|叢集支援|Analysis Services|  
-|---------------------------------------|---------------------|-----------------------------|------------------------|-----------------------|  
-|[!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)]Enterprise Edition|是|Yes (50)|是|是|  
-|[!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)] Standard Edition|是|Yes (16)|是 （節點 2）|是|  
-|[!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)]Workgroup Edition|是|Yes (16)|否|否|  
-|[!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)]Enterprise Edition|是|是|是|是|  
-|[!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)] Standard Edition|是|是|是 （節點 2）|是|  
-|[!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)]Workgroup Edition|否|是|否|否|  
-  
- 如需完整的版本所支援的功能清單[!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)]，請參閱[支援版本的 SQL Server 2008 R2 的功能](http://go.microsoft.com/fwlink/?LinkId=140465)(http://go.microsoft.com/fwlink/?LinkId=140465) 中[!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)]文件。  
+ 決定您將 BizTalk 環境所需的資料庫引擎功能時，請考慮下列資料表。 針對大規模的企業層級方案需要叢集的支援，BizTalk Server 記錄傳送支援，或 Analysis Services 支援，則您需要 SQL Server Enterprise Edition 主機[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]資料庫。   
+
+ 如需完整的 SQL Server 版本所支援的功能清單，請參閱[SQL Server 版本和支援的功能](https://docs.microsoft.com/sql/sql-server/editions-and-components-of-sql-server-2016)。
   
 ## <a name="database-planning-considerations"></a>規劃考量的資料庫  
  我們建議您裝載您快速存放裝置 （例如，快速 SAN 磁碟或快速 SCSI 磁碟） 上的 SQL Server 資料庫。 因為 raid 5 是撰寫速度較慢，建議 RAID 10 (1 + 0)，而不是 RAID 5。 較新的 SAN 磁碟具有非常大量的記憶體快取，因此在這些情況下 raid 選取範圍不是那麼重要。 若要增加效能，資料庫和記錄檔案可位於不同實體磁碟上。  
@@ -46,7 +37,7 @@ SQL Server 在任何 BizTalk Server 環境中扮演重要的角色，因為它�
  也請考慮調整主機匯流排介面卡 (HBA) 佇列深度，如果使用存放區域網路 (SAN)。 可能會大幅影響 I/O 輸送量，而出的值可能不足以執行 SQL Server。 雖然 64 佇列深度通常會獲接受成為很好的起點不存在的任何特定廠商的建議測試，才能決定最佳的值  
   
 ## <a name="install-the-latest-service-pack-and-cumulative-updates-for-sql-server"></a>安裝 SQL Server 的最新 service pack 和累計更新  
- 安裝最新的 service pack 和最新累計更新[!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)]和[!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)]最新的.NET Framework 以及 service pack。  
+ 安裝 SQL Server，以及最新的.NET Framework 服務組件的最新的 service pack 和最新累計更新。  
   
 ## <a name="install-sql-service-packs-and-cumulative-updates-on-both-biztalk-server-and-sql-server"></a>安裝 BizTalk Server 和 SQL Server 上的 SQL Service Pack 和累計更新  
  當安裝 SQL Server service pack 或累積更新，也安裝 service pack 或累積更新 BizTalk Server 電腦上。 BizTalk Server 使用 SQL Server service pack 和累計更新所更新的 SQL 用戶端元件。  
@@ -60,13 +51,13 @@ SQL Server 在任何 BizTalk Server 環境中扮演重要的角色，因為它�
 ## <a name="grant-the-account-which-is-used-for-sql-server-the-windows-lock-pages-in-memory-privilege"></a>授與帳戶是用於 SQL Server Windows Lock Pages In 記憶體特殊權限  
  授與 Windows 鎖定記憶體的特殊權限的 SQL Server 服務帳戶中的分頁。 這樣應該為了防止出 SQL Server 處理序的緩衝區集區記憶體分頁中的 Windows 作業系統，方法是鎖定實體記憶體中緩衝集區配置的記憶體。  
   
- 在我們的實驗室環境，Windows 原則**鎖定記憶體分頁**選項依預設會啟用。 如需有關如何啟用**鎖定記憶體分頁**選項，請參閱[How to： 啟用鎖定記憶體分頁選項 (Windows)](http://go.microsoft.com/fwlink/?LinkID=208267) (http://go.microsoft.com/fwlink/?LinkID=208267)。  
+ 在我們的實驗室環境，Windows 原則**鎖定記憶體分頁**選項依預設會啟用。 請參閱[啟用鎖定記憶體分頁選項](https://docs.microsoft.com/sql/database-engine/configure-windows/enable-the-lock-pages-in-memory-option-windows)。  
   
 > [!IMPORTANT]  
->  Windows 鎖定分頁記憶體特殊權限授與 SQL Server 服務帳戶時，就會套用特定的限制。 請參閱下列 Microsoft 知識庫文件，如需詳細資訊：  
+>  Windows 鎖定分頁記憶體特殊權限授與 SQL Server 服務帳戶時，就會套用特定的限制。 請參閱下列內容： 
 >   
->  -   [918483，「 如何減少緩衝集區記憶體在 64 位元版本的 SQL Server 2005 中的分頁 」](http://go.microsoft.com/fwlink/?LinkID=148948) (http://go.microsoft.com/fwlink/?LinkID=148948)。  
-> -   [970070，「 支援的 SQL Server 2005 Standard Edition 64 位元系統上與 SQL Server 2008 Standard Edition 64 位元系統上的鎖定頁面 」](http://go.microsoft.com/fwlink/?LinkId=160474) (http://go.microsoft.com/fwlink/?LinkId=160474)。  
+> - [緩衝集區擴充](https://docs.microsoft.com/sql/database-engine/configure-windows/buffer-pool-extension)  
+> - [啟用鎖定記憶體分頁選項](https://docs.microsoft.com/sql/database-engine/configure-windows/enable-the-lock-pages-in-memory-option-windows)  
   
 ## <a name="grant-the-semanagevolumename-right-to-the-sql-server-service-account"></a>由右至 SQL Server 服務帳戶授與 SE_MANAGE_VOLUME_NAME  
  請執行 SQL Server 服務帳戶具有 '執行磁碟區維護工作' Windows 權限，或確定它所屬的群組。 如果資料庫自動成長，這可讓檔案立即初始化確保最佳效能。  
@@ -82,7 +73,7 @@ sp_configure ‘Min Server memory (MB)’,(min size in MB)
  您為 SQL Server 的記憶體數量之前，判斷適當的記憶體設定減去總實體記憶體的 Windows Server 所需的記憶體。 這是您可以指派給 SQL Server 記憶體的最大數量。  
   
 > [!NOTE]  
->  如果該主控件執行 SQL Server 之電腦的 BizTalk Server 資料庫也會裝載企業單一登入主要密碼伺服器，則您可能需要調整此值，以確保有足夠的記憶體可用來執行企業單一登入服務。 它不是一般的做法，在 SQL Server 叢集以提供高可用性的主要密碼伺服器上執行 「 企業單一登入服務的叢集執行個體。 如需叢集化企業單一登入主要密碼伺服器的詳細資訊，請參閱主題[如何叢集化主要密碼伺服器](http://go.microsoft.com/fwlink/?LinkId=158251)(http://go.microsoft.com/fwlink/?LinkId=158251) 中的 BizTalk Server 文件。  
+>  如果該主控件執行 SQL Server 之電腦的 BizTalk Server 資料庫也會裝載企業單一登入主要密碼伺服器，則您可能需要調整此值，以確保有足夠的記憶體可用來執行企業單一登入服務。 它不是一般的做法，在 SQL Server 叢集以提供高可用性的主要密碼伺服器上執行 「 企業單一登入服務的叢集執行個體。 請參閱[叢集主要密碼伺服器](../technical-guides/clustering-the-master-secret-server.md)  
   
 ## <a name="split-the-tempdb-database-into-multiple-data-files-of-equal-size-on-each-sql-server-instance-used-by-biztalk-server"></a>分割成多個資料檔相同大小的 BizTalk Server 使用的每個 SQL Server 執行個體上的 tempdb 資料庫  
  用於 tempdb 資料檔案皆相同大小的很重要，因為 SQL Server 所使用的比例式填滿演算法為基礎的資料檔案的大小。 建立資料檔的大小不相等，如果比例填滿演算法會使用最大的多個 GAM 配置，而不是分配的配置之間的所有檔案，藉以定義建立多個資料檔案的目的檔案。 最佳的 tempdb 資料檔案數目取決於 tempdb 中所見的閂鎖競爭的程度。 為一般的經驗法則，資料檔案數目應該等於數字的處理器核心/Cpu 的 Cpu 數目，為 8 或更少。 針對具有超過 8 個 Cpu 的伺服器，建立資料檔案的一半的 Cpu 數目 （一次，僅有閂鎖競爭）。  
@@ -148,7 +139,6 @@ GO
 --!!md I:\MSSQL10.<instance>\MSSQL  
 --!!md I:\MSSQL10.<instance>\MSSQL\DATA  
 GO  
-  
 -- 9. Recycle SQL service in SQL Server Services node of sqlservermanager10.msc  
     --note, if running script from a UNC share, SSMS will report an error,   
       --but SQL Server Configuration Manager will open if its location is in %path%  
@@ -175,16 +165,16 @@ ALTER SERVER CONFIGURATION
 SET PROCESS AFFINITY CPU = 0 to 15  
 ```  
   
- 如需詳細資訊，請參閱[ALTER SERVER CONFIGURATION (TRANSACT-SQL)](http://go.microsoft.com/fwlink/?LinkID=208269) (http://go.microsoft.com/fwlink/?LinkID=208269)。  
+ 如需詳細資訊，請參閱[ALTER SERVER CONFIGURATION (TRANSACT-SQL)](https://docs.microsoft.com/sql/t-sql/statements/alter-server-configuration-transact-sql)。
   
 ## <a name="configure-msdtc"></a>設定 MSDTC  
  若要簡化 SQL Server 與 BizTalk Server 之間的交易，您必須啟用 Microsoft 分散式交易協調器 (MS DTC)。 若要在 SQL Server 上設定 MSDTC，請參閱主題[改善作業系統效能的一般指導方針](../technical-guides/general-guidelines-for-improving-operating-system-performance.md)。  
   
 ## <a name="enable-trace-flag-t1118-as-a-startup-parameter-for-all-instances-of-sql-server"></a>啟用追蹤旗標 T1118 作為啟動參數，所有執行個體的 SQL Server  
- 實作追蹤旗標-T1118 有助於減少 SQL Server 執行個體之間的競爭，藉由移除幾乎所有的單一頁面配置。 如需詳細資訊，請參閱 Microsoft 知識庫文件[328551，"PRB: tempdb 資料庫的並行存取增強功能"](http://go.microsoft.com/fwlink/?LinkID=153694) (http://go.microsoft.com/fwlink/?LinkID=153694)。  
+ 實作追蹤旗標-T1118 有助於減少 SQL Server 執行個體之間的競爭，藉由移除幾乎所有的單一頁面配置。 如需詳細資訊，請參閱[KB 328551: PRB: tempdb 資料庫的並行存取增強功能](https://support.microsoft.com/help/328551/concurrency-enhancements-for-the-tempdb-database)。
   
 ## <a name="do-not-change-default-sql-server-settings-for-max-degree-of-parallelism-sql-server-statistics-or-database-index-rebuilds-and-defragmentation"></a>請勿變更預設 SQL Server 設定平行處理原則、 SQL Server 統計資料，或資料庫索引會重建和重組的最大程度  
- 如果 SQL Server 執行個體將裝載 BizTalk Server 資料庫，會有某些不應該變更的 SQL Server 設定。 具體來說，SQL Server max degree of parallelism，MessageBox 資料庫，以及設定資料庫索引的 SQL Server 統計資料會重建，並不能修改磁碟重組。 如需詳細資訊，請參閱主題[SQL Server 設定，不應該變更](http://go.microsoft.com/fwlink/?LinkId=160068)(http://go.microsoft.com/fwlink/?LinkId=160068) 在 BizTalk Server 2010 操作指南中。  
+ 如果 SQL Server 執行個體將裝載 BizTalk Server 資料庫，會有某些不應該變更的 SQL Server 設定。 具體來說，SQL Server max degree of parallelism，MessageBox 資料庫，以及設定資料庫索引的 SQL Server 統計資料會重建，並不能修改磁碟重組。 請參閱[不應該變更的 SQL Server 設定](../technical-guides/sql-server-settings-that-should-not-be-changed.md)。
   
 ## <a name="see-also"></a>另請參閱  
  [最佳化資料庫效能](../technical-guides/optimizing-database-performance.md)

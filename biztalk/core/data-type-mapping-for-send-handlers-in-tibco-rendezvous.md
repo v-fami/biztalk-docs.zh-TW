@@ -7,23 +7,16 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- XML schemas, mapping to Redevous types
-- message mapping, examples
-- XML schemas, schema types
-- data type mapping, send handlers
-- examples, message mapping
-- send handlers, data type mapping
 ms.assetid: fa1a9233-8781-45a8-9c55-a18ecaa0f456
 caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b6c54cb7ae684aa2f617ca615ed55703e331de46
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bda336d149d373477b26efeb2e4b05de4aac7554
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="data-type-mapping-for-send-handlers-in-tibco-rendezvous"></a>TIBCO Rendezvous 中的傳送處理常式資料型別對應
 只有當 TIBCO Rendezvous 提供了型別資訊 (xsi:type=) 時，才能從 XML 結構描述型別對應至 TIBCO Rendezvous 型別。 任何 不支援的型別都會對應至字串 (如果可以的話)。 若無法進行對應，或傳送埠組態中已停用對應選項，即會產生錯誤。  

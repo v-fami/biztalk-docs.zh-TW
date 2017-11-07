@@ -17,11 +17,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 35b0d7fec5acc991ae6c141f57297b7511281be3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cd8e20660a58b647388e7db2324abc5f9a7028e5
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="importing-jd-edwards-oneworld-schemas-into-biztalk-server-projects"></a>將 JD Edwards OneWorld 結構描述匯入至 BizTalk Server 專案
 本主題討論瀏覽 JD Edwards OneWorld 伺服器，以及將結構描述匯入 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 專案。  
@@ -91,4 +91,4 @@ ms.lasthandoff: 09/20/2017
 >  --I 表示查詢  
   
 ## <a name="see-also"></a>另請參閱  
- [建立 JD Edwards OneWorld 傳送處理常式](../core/creating-jd-edwards-oneworld-send-handlers.md)
+ [將成品新增至 BizTalk 管理](../core/adding-biztalk-adapter-for-jd-edwards-oneworld.md)

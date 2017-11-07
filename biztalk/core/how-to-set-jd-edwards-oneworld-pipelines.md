@@ -1,27 +1,12 @@
 ---
-title: "如何設定 JD Edwards OneWorld 管線 |Microsoft 文件"
-ms.custom: 
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- receive pipelines
-- send pipelines
-- setting pipelines
-- pipelines, setting
-ms.assetid: 821d4081-a2d4-4957-abc0-d6370e719ba8
-caps.latest.revision: "9"
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: e45ec6f6eb3be74e150e77de9ef6dbbe461a361a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+redirect_url: /biztalk/core/adding-biztalk-adapter-for-jd-edwards-oneworld/
+redirect_document_id: True
+ROBOTS: NOINDEX
+ms.openlocfilehash: d3460b45507c7cb73bb4025a8412a1fcc6cb0e59
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="how-to-set-jd-edwards-oneworld-pipelines"></a>如何設定 JD Edwards OneWorld 管線
 Microsoft BizTalk Adapter for JD Edwards OneWorld 要求您分別針對傳送與接收管線選取 XMLTransmit 和 XMLReceive。  
@@ -42,5 +27,3 @@ Microsoft BizTalk Adapter for JD Edwards OneWorld 要求您分別針對傳送與
   
 5.  按一下 **[確定]**。  
   
-## <a name="see-also"></a>另請參閱  
- [建立 JD Edwards OneWorld 傳送處理常式](../core/creating-jd-edwards-oneworld-send-handlers.md)

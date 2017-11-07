@@ -1,5 +1,6 @@
 ---
-title: "如何啟用 WCF 擴充性點，WCF 配接器 |Microsoft 文件"
+title: "啟用 WCF 擴充性點，WCF 配接器 |Microsoft 文件"
+description: "安裝組件、 設定 machine.config，將副檔名新增至 BizTalk 管理、 建立接收位置，才能啟用 WCF 配接器在 BizTalk Server 中的 WCF 擴充性點"
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -7,31 +8,27 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- ports, WCF adapters
-- WCF adapters, extensibility ports
 ms.assetid: 0c2af105-5272-4a6a-95d2-066312ab788e
 caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e481521ba651fe8c1e66ea4f730d05375451f111
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: be2980f3235552f263efbd4fce92c0042216b88c
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="how-to-enable-the-wcf-extensibility-points-with-the-wcf-adapters"></a>如何使用 WCF 配接器啟用 WCF 擴充性點
-本主題描述如何啟用三個 WCF 擴充性點： 行為延伸模組、 繫結元素延伸模組，以及繫結延伸模組，使用 Wcf-custom 和 Wcf-customisolated 配接器。 為了執行這項操作，您會先將實作 WCF 擴充性點的組件安裝在全域組件快取 (GAC) 中，接著修改電腦上的 machine.config 檔案，然後再使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台設定 WCF-Custom 或 WCF-CustomIsolated 配接器。  
+啟用三個 WCF 擴充性點： 行為延伸模組、 繫結元素延伸模組，以及繫結延伸模組，使用 Wcf-custom 和 Wcf-customisolated 配接器。 為了執行這項操作，您會先將實作 WCF 擴充性點的組件安裝在全域組件快取 (GAC) 中，接著修改電腦上的 machine.config 檔案，然後再使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台設定 WCF-Custom 或 WCF-CustomIsolated 配接器。  
   
- WCF 擴充性點的詳細資訊，請參閱 < 延伸 WCF >，網址[http://go.microsoft.com/fwlink/?LinkId=86380](http://go.microsoft.com/fwlink/?LinkId=86380)。  
+請參閱[延伸 WCF](https://docs.microsoft.com/dotnet/framework/wcf/extending/extending-wcf)如需 WCF 擴充性點的詳細資訊。
   
- 如何啟用 WCF 擴充性點的詳細資訊，請參閱 < SDK 範例:: 使用自訂繫結延伸模組使用 Wcf-custom 配接器 >，網址[http://go.microsoft.com/fwlink/?LinkId=65185](http://go.microsoft.com/fwlink/?LinkId=65185)。  
-  
+ 
 ## <a name="prerequisites"></a>必要條件  
- 若要執行這個主題中的程序，您必須使用「[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 系統管理員」群組成員的帳戶登入。 如需詳細的權限的相關資訊，請參閱[部署及管理 BizTalk 應用程式所需的權限](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md)。  
+使用成員的帳戶登入[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]Administrators 群組。 [部署及管理 BizTalk 應用程式所需的權限](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md)提供詳細的資訊。  
   
-### <a name="to-install-assemblies-implementing-a-wcf-extensibility-point-in-the-gac"></a>若要將實作 WCF 擴充性點的組件安裝在 GAC 中  
+## <a name="install-assemblies-implementing-a-wcf-extensibility-point-in-the-gac"></a>安裝在 GAC 中實作 WCF 擴充性點的組件  
   
 1.  將實作 WCF 擴充性點的組件複製到本機電腦的資料夾。  
   
@@ -52,7 +49,7 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  若要啟用 WCF 配接器的 WCF 擴充性點，執行配接器的 BizTalk 主控件執行個體必須能夠在執行階段載入實作 WCF 擴充性點的組件。  
   
-### <a name="to-configure-the-machineconfig-file-for-a-wcf-binding-extension"></a>若要設定 WCF 繫結延伸模組的 machine.config 檔案  
+## <a name="configure-the-machineconfig-file-for-a-wcf-binding-extension"></a>設定 WCF 繫結延伸模組的 machine.config 檔案  
   
 1.  在命令提示字元中，移至 %frameworkdir%\v4。X.XXXXX\CONFIG 資料夾，然後開啟**machine.config**使用 [記事本] 檔案。  
   
@@ -69,10 +66,8 @@ ms.lasthandoff: 09/20/2017
     ```  
   
     > [!NOTE]
-    >  您可以找到要使用命令，註冊的組件的資訊**gacutil /lr** *< assembly_name>*。  
-  
-    > [!NOTE]
-    >  如需有關 **<bindingExtensions>** 項目，請參閱 「<bindingExtensions>」 在[http://go.microsoft.com/fwlink/?LinkID=86180](http://go.microsoft.com/fwlink/?LinkID=86180)。  
+    >  - 您可以找到要使用命令，註冊的組件的資訊**gacutil /lr** *< assembly_name>*。  
+    >  - 請參閱[bindingExtensions](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/wcf/bindingextensions)這個項目上。
   
 3.  在「記事本」中，儲存 machine.config 檔案。  
   
@@ -81,9 +76,9 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  您必須在所有電腦上重複這些步驟，WCF 基礎結構才能處理 BizTalk 主控件執行個體和 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台的 WCF 擴充性點。  
   
-### <a name="to-configure-a-wcf-binding-extension-by-using-the-biztalk-administration-console"></a>若要使用 BizTalk 管理主控台設定 WCF 繫結延伸模組  
+## <a name="configure-a-wcf-binding-extension-by-using-the-biztalk-administration-console"></a>使用 BizTalk 管理主控台設定 WCF 繫結延伸模組  
   
-1.  按一下**啟動**，指向 **所有程式**，指向  **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]，然後按一下  **BizTalk Server 管理**。  
+1.  開啟 [BizTalk Server 管理] 。  
   
     > [!NOTE]
     >  如果 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台已經開啟，請重新啟動 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台。  
@@ -104,7 +99,7 @@ ms.lasthandoff: 09/20/2017
   
 7.  在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統管理主控台中，按一下關閉所有開啟的對話方塊**確定**按鈕，並確定沒有出現任何錯誤訊息和錯誤事件記錄檔。  
   
-### <a name="to-configure-the-machineconfig-file-for-a-wcf-binding-element-extension"></a>若要設定 WCF 繫結元素延伸模組的 machine.config 檔案  
+## <a name="configure-the-machineconfig-file-for-a-wcf-binding-element-extension"></a>設定 WCF 繫結元素延伸模組的 machine.config 檔案  
   
 1.  在命令提示字元中，移至 %frameworkdir%\v4。X.XXXXX\CONFIG 資料夾，然後開啟**machine.config**使用 [記事本] 檔案。  
   
@@ -121,10 +116,8 @@ ms.lasthandoff: 09/20/2017
     ```  
   
     > [!NOTE]
-    >  您可以找到要使用命令，註冊的組件的資訊**gacutil /lr** *< assembly_name>*。  
-  
-    > [!NOTE]
-    >  如需有關 **<bindingElementExtensions>** 項目，請參閱 「<bindingElementExtensions>」 在[http://go.microsoft.com/fwlink/?LinkId=86381](http://go.microsoft.com/fwlink/?LinkId=86381)。  
+    > - 您可以找到要使用命令，註冊的組件的資訊**gacutil /lr** *< assembly_name>*。  
+    > - 請參閱[bindingElementExtensions](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/wcf/bindingelementextensions)這個項目上。
   
 3.  在「記事本」中，儲存 machine.config 檔案。  
   
@@ -133,9 +126,9 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  您必須在所有電腦上重複這些步驟，WCF 基礎結構才能處理 BizTalk 主控件執行個體和 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台的 WCF 擴充性點。  
   
-### <a name="to-configure-a-wcf-binding-element-extension-by-using-the-biztalk-administration-console"></a>若要使用 BizTalk 管理主控台設定 WCF 繫結元素延伸模組  
+## <a name="configure-a-wcf-binding-element-extension-by-using-the-biztalk-administration-console"></a>使用 BizTalk 管理主控台設定 WCF 繫結元素延伸模組  
   
-1.  按一下**啟動**，指向 **所有程式**，指向  **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]，然後按一下  **BizTalk Server 管理**。  
+1.  開啟 [BizTalk Server 管理] 。  
   
     > [!NOTE]
     >  如果 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台已經開啟，請重新啟動 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台。  
@@ -163,13 +156,13 @@ ms.lasthandoff: 09/20/2017
     -   在**繫結**清單中，繫結項目延伸，以滑鼠右鍵按一下，然後按一下 **移延伸模組**或**下移延伸模組**。 最低的繫結項目延伸中**繫結**對應至通道堆疊的底部元件的清單。 中最高的繫結項目**繫結**清單對應於通訊堆疊的最上層元件。  
   
         > [!NOTE]
-        >  自訂繫結的特定繫結項目順序的詳細資訊，請參閱 「 自訂繫結 」，網址[http://go.microsoft.com/fwlink/?LinkId=86383](http://go.microsoft.com/fwlink/?LinkId=86383)。  
+        >  請參閱[自訂繫結](https://docs.microsoft.com/dotnet/framework/wcf/extending/custom-bindings)自訂繫結的特定繫結項目順序的詳細資料。
   
 10. 在傳輸屬性對話方塊中，設定其餘的傳輸設定。  
   
 11. 在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統管理主控台中，按一下關閉所有開啟的對話方塊**確定**按鈕，並確定沒有出現任何錯誤訊息和錯誤事件記錄檔。  
   
-### <a name="to-configure-the-machineconfig-file-for-a-wcf-behavior-extension"></a>若要設定 WCF 行為延伸模組的 machine.config 檔案  
+## <a name="configure-the-machineconfig-file-for-a-wcf-behavior-extension"></a>設定 WCF 行為延伸模組的 machine.config 檔案  
   
 1.  在命令提示字元中，移至 %frameworkdir%\v4。X.XXXXX\CONFIG 資料夾，然後開啟**machine.config**使用 [記事本] 檔案。  
   
@@ -186,10 +179,8 @@ ms.lasthandoff: 09/20/2017
     ```  
   
     > [!NOTE]
-    >  您可以找到要使用命令，註冊的組件的資訊**gacutil /lr** *< assembly_name>*。  
-  
-    > [!NOTE]
-    >  如需有關 **<behaviorExtensions>** 項目，請參閱 「<behaviorExtensions>」 在[http://go.microsoft.com/fwlink/?LinkId=86382](http://go.microsoft.com/fwlink/?LinkId=86382)。  
+    >  - 您可以找到要使用命令，註冊的組件的資訊**gacutil /lr** *< assembly_name>*。  
+    >  - 請參閱[behaviorExtensions](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/wcf/behaviorextensions)這個項目上。
   
 3.  在「記事本」中，儲存 machine.config 檔案。  
   
@@ -198,9 +189,9 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  您必須在所有電腦上重複這些步驟，WCF 基礎結構才能處理 BizTalk 主控件執行個體和 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台的 WCF 擴充性點。  
   
-### <a name="to-configure-a-wcf-behavior-extension-by-using-the-biztalk-administration-console"></a>若要使用 BizTalk 管理主控台設定 WCF 行為延伸模組  
+## <a name="configure-a-wcf-behavior-extension-by-using-the-biztalk-administration-console"></a>使用 BizTalk 管理主控台設定 WCF 行為延伸模組  
   
-1.  按一下**啟動**，指向 **所有程式**，指向  **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]，然後按一下  **BizTalk Server 管理**。  
+1.  開啟 [BizTalk Server 管理] 。  
   
     > [!NOTE]
     >  如果 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台已經開啟，請重新啟動 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台。  
@@ -223,6 +214,6 @@ ms.lasthandoff: 09/20/2017
   
 8.  在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統管理主控台中，按一下關閉所有開啟的對話方塊**確定**按鈕，並確定沒有出現任何錯誤訊息和錯誤事件記錄檔。  
   
-### <a name="to-configure-a-wcf-custom-receive-location-with-an-ssl-certificate"></a>若要使用 SSL 憑證設定 WCF-Custom 接收位置  
+## <a name="configure-a-wcf-custom-receive-location-with-an-ssl-certificate"></a>設定 WCF 自訂接收位置使用 SSL 憑證  
   
--   如果 Wcf-custom 接收位置使用 HTTP 核心模式驅動程式 (HTTP.sys)，例如**httpsTransport**進行安全通訊端層 (SSL) 通訊，接收位置繫結項目，必須要有憑證針對每個通訊端 （IP 位址/連接埠組合） 登錄。 請使用 HttpCfg.exe 工具將 SSL 憑證繫結到電腦上的連接埠。 如需詳細資訊，請參閱 「 如何以:: 設定連接埠使用 SSL 憑證 」 在[http://go.microsoft.com/fwlink/?LinkId=86384](http://go.microsoft.com/fwlink/?LinkId=86384)。
+-   如果 Wcf-custom 接收位置使用 HTTP 核心模式驅動程式 (HTTP.sys)，例如**httpsTransport**進行安全通訊端層 (SSL) 通訊，接收位置繫結項目，必須要有憑證針對每個通訊端 （IP 位址/連接埠組合） 登錄。 請使用 HttpCfg.exe 工具將 SSL 憑證繫結到電腦上的連接埠。 如需詳細資訊，請參閱[How To： 使用 SSL 憑證設定連接埠](https://docs.microsoft.com/dotnet/framework/wcf/feature-details/how-to-configure-a-port-with-an-ssl-certificate)。

@@ -7,21 +7,16 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- transaction support
-- character encoding
-- encoding characters
-- messages, character encoding
 ms.assetid: 0a0c21c8-3318-4533-9734-89302527cb67
 caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 19d3204cae7b82e9d18325b223e5c3b7a2d40808
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 319ddd649e47e053fe2896d577f28b72602593e3
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="character-encoding"></a>字元編碼
 對於從 BizTalk Adapter for TIBCO EMS 傳輸到 EMS 的訊息，TIBCO Enterprise Message Service (EMS) 支援許多字元編碼方式。 訊息是使用預設的 UTF-8 編碼方式所編碼的。 接收訊息時，配接器會先判斷訊息的編碼方式並轉換適當的字串為 UTF-8 後，才將訊息提供給 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。 所有的字元轉換是使用 Microsoft .NET Framework 類別，因此配接器支援這個相同架構所提供的字元轉換。  

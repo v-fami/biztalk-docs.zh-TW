@@ -18,11 +18,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: dd1d7cf18d35825b9291cf85546f3a9dc157fe1b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 857ee7edd623332e72176ac09082f0ec9fc460f4
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="creating-affiliate-applications"></a>建立分支機構應用程式
 下列步驟說明如何開始使用採用單一登入 (SSO) 的分支機構應用程式。  
@@ -122,4 +122,4 @@ ms.lasthandoff: 09/20/2017
 5.  分支機構應用程式會出現在 BizTalk Adapter for JD Edwards OneWorld 的 [傳輸屬性] 對話方塊的下拉式清單中。  
   
 ## <a name="see-also"></a>另請參閱  
- [使用單一登入](../core/using-single-sign-on3.md)
+ [在配接器的安全性](../core/security-in-biztalk-adapter-for-jd-edwards-oneworld.md)

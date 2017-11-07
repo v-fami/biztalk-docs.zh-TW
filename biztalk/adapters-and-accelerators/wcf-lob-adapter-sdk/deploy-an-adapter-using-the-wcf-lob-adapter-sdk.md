@@ -12,11 +12,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: aacb0599d28a43888422df0d488458f780f30bdc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 72c83998bbe16899055c839a73795d456a132381
+ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="deploy-an-adapter-using-the-wcf-lob-adapter-sdk"></a>部署配接器使用 WCF LOB 配接器 SDK
 若要部署配接器，必須將配接器組件安裝到全域組件快取 (GAC)，然後註冊在 machine.config 檔案中的配接器。  
@@ -162,5 +162,4 @@ ms.lasthandoff: 09/20/2017
 12. 關閉**服務組態編輯器**。  
   
 ## <a name="see-also"></a>另請參閱  
- [部署](../../core/deployment-limitations1.md)   
  [部署配接器使用 WCF LOB 配接器 SDK](../../adapters-and-accelerators/wcf-lob-adapter-sdk/deploy-an-adapter-using-the-wcf-lob-adapter-sdk.md)
