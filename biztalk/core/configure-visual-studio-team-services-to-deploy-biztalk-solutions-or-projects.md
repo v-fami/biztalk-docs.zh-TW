@@ -1,4 +1,7 @@
 ---
+redirect_url: /biztalk/core/feature-pack-add-build-release-definitions/
+redirect_document_id: True
+ROBOTS: NOINDEX
 title: "設定要部署 BizTalk Server 方案或專案的 Visual Studio Team Services |Microsoft 文件"
 ms.custom: 
 ms.date: 06/08/2017
@@ -12,11 +15,11 @@ caps.latest.revision: "6"
 author: tordgladnordahl
 ms.author: tonordah
 manager: anneta
-ms.openlocfilehash: 6368300c714811d5b3c42e07ebb804d26362bf85
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 95d8e9fc274793471335fc03bc38c82c1b3e3469
+ms.sourcegitcommit: a0165ec2f1e8b58545638666b7bfa2bf440036fd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/09/2017
 ---
 # <a name="configure-visual-studio-team-services-to-deploy-biztalk-server-solutions-or-projects"></a>設定 Visual Studio Team Services 部署 BizTalk Server 方案或專案
 若要自動部署設定 VSTS[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]專案。 
@@ -130,6 +133,3 @@ ms.lasthandoff: 09/20/2017
 
 12. 指定新**定義**，而且設定正確的路徑。 
 13. 定義儲存之後，選取**新組建排入佇列**。 然後，選取**佇列代理程式**，並將註解加入至認可。
-
-## <a name="next-step"></a>下一步
-[設定自動部署的 JSON 範本](../core/configure-the-json-template-for-automatic-deployment.md)

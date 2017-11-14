@@ -12,11 +12,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c3d8cadb82cd6233c84566aa6a0bea55d90b08c7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 10ce63081fa3b392df3f900fb6a08ecfc7de4cae
+ms.sourcegitcommit: a0165ec2f1e8b58545638666b7bfa2bf440036fd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/09/2017
 ---
 # <a name="configure-the-feature-pack"></a>設定此功能套件
 ## <a name="overview"></a>概觀
@@ -25,11 +25,12 @@ ms.lasthandoff: 09/20/2017
 
 > [!NOTE]
 > [!INCLUDE[featurepack1](../includes/featurepack1.md)]適用於 Enterprise 和 Developer edition[!INCLUDE[bts2016_md](../includes/bts2016-md.md)]時： 
-> * 軟體保證 (SA) 搭配使用  
 > 
->     您也可以
+> - 軟體保證 (SA) 搭配使用  
 > 
-> * 執行[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]在 Azure 中使用 Enterprise 合約
+>  OR
+> 
+> - 執行[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]在 Azure 中使用 Enterprise 合約
 > 
 > [!INCLUDE[featurepack1](../includes/featurepack1.md)]不適用於任何其他[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]edition 或任何其他[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]版本。 
 
@@ -39,7 +40,7 @@ ms.lasthandoff: 09/20/2017
 
 ## <a name="feature-pack-1-updates"></a>功能 Pack 1 更新
 
-#### <a name="send-tracking-data-to-application-insightscoresend-tracking-data-to-azure-application-insights-using-biztalk-servermd"></a>[追蹤資料傳送至 Application Insights](../core/send-tracking-data-to-azure-application-insights-using-biztalk-server.md)
+#### <a name="send-tracking-data-to-application-insightscoresend-tracking-data-to-azure-application-insights-using-biztalk-servermd"></a>[將追蹤資料傳送至 Application Insights](../core/send-tracking-data-to-azure-application-insights-using-biztalk-server.md)
 
 將追蹤資料傳送到 Azure Application Insights 以使用其功能，例如分析、 機器學習、 診斷與多個。 
 

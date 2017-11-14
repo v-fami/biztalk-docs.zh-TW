@@ -1,4 +1,7 @@
 ---
+redirect_url: /biztalk/core/feature-pack-add-application-project/
+redirect_document_id: True
+ROBOTS: NOINDEX
 title: "加入 Visual Studio Team Services 的 BizTalk Server 應用程式 |Microsoft 文件"
 ms.custom: 
 ms.date: 06/08/2017
@@ -12,11 +15,11 @@ caps.latest.revision: "4"
 author: tordgladnordahl
 ms.author: tonordah
 manager: anneta
-ms.openlocfilehash: d3fc8c0253c8e2517f78c2d60fdc7c74a983bdbd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1a6b7ba32c0077b3df107b00525bb34ef011e483
+ms.sourcegitcommit: a0165ec2f1e8b58545638666b7bfa2bf440036fd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/09/2017
 ---
 # <a name="add-a-biztalk-server-application-to-visual-studio-team-services"></a>加入 Visual Studio Team Services 的 BizTalk Server 應用程式
 新增[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]VSTS 自動部署使用持續整合至專案。  
@@ -27,7 +30,7 @@ ms.lasthandoff: 09/20/2017
 
 ## <a name="prerequisites"></a>必要條件
 * 安裝[功能套件 1](https://www.microsoft.com/download/details.aspx?id=55100)上您[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]
-* [VSTS 設定用於自動部署](../core/configure-visual-studio-team-services-to-deploy-biztalk-solutions-or-projects.md)
+* [步驟 3： 建立組建和發行定義](../core/feature-pack-add-build-release-definitions.md)
 * 知識和經驗使用 Git 和 Visual Studio 中的儲存機制。 如果您是新手儲存機制和版本控制，這些可能是很好的資源： 
 
     [了解 Git](https://www.visualstudio.com/learn-git/)  

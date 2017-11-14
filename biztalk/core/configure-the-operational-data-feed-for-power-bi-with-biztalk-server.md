@@ -1,8 +1,8 @@
 ---
 title: "啟用 Power BI |Microsoft 文件"
-description: "安裝 BizTalk Server 中的功能套件中的 Power BI 範本"
+description: "Power BI 範本 Feature Pack 中安裝 BizTalk Server"
 ms.custom: fp1
-ms.date: 11/06/2017
+ms.date: 11/07/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
@@ -13,13 +13,13 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2d3b3dde09351b9a0aa021ef28645cb114495152
-ms.sourcegitcommit: 30189176c44873e3de42cc5f2b8951da51ffd251
+ms.openlocfilehash: 7afe600ae96e624db0acb2f87f6ba131b3e101bd
+ms.sourcegitcommit: 2330f1eaa6a7bb09975c9e07e56c6595229fd423
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
 ---
-# <a name="configure-the-operational-data-feed-for-power-bi-with-biztalk-server"></a>設定操作資料摘要與 BizTalk Server 的 Power bi
+# <a name="configure-the-power-bi-operational-data-feed-in-biztalk-server"></a>設定 Power BI 作業中的資料摘要 BizTalk Server
 
 **從開始[!INCLUDE[bts2016_md](../includes/bts2016-md.md)] [!INCLUDE[featurepack1](../includes/featurepack1.md)]** 、 將追蹤傳送到 Power BI 使用 Power BI 範本提供，或建立您自己。 
 
@@ -46,6 +46,7 @@ ms.lasthandoff: 11/07/2017
 * 下載並安裝[Power BI Desktop](https://powerbi.microsoft.com/desktop/)擁有網路存取權的任何電腦上您[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]
 * 安裝[功能套件 1](https://www.microsoft.com/download/details.aspx?id=55100)上您[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]
 * 在上安裝 IIS [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]。 在大部分[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]環境中，IIS 已安裝。 請參閱[硬體和軟體需求適用於 BizTalk Server 2016](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md)。 確認已安裝 IIS，藉由開啟**Internet Information Services 管理員**。 
+* 選擇性。 安裝和設定[Power BI Gateway](https://powerbi.microsoft.com/gateway/)連接[PowerBI.com](http://powerbi.microsoft.com)與您在內部部署 BizTalk Server。 如果您不使用內部部署 BizTalk Server，您不需要閘道。
 
 ## <a name="step-1-enable-operational-data"></a>步驟 1： 啟用操作資料
 
@@ -54,8 +55,15 @@ ms.lasthandoff: 11/07/2017
 3. 在下列文字，取代`Default Web Site`， `operationalDataServiceAppPool`， `domain\user`， `password`，和`domain\group`以您的值：
 
     ```Powershell
-    FeaturePack.ConfigureServices.ps1 -Service operationaldata -WebSiteName '<Default Web Site>' -ApplicationPool <operationalDataServiceAppPool> -ApplicationPoolUser <domain>\<user> -ApplicationPoolUserPassword <password> -AuthorizationRoles '<domain>\<group1>, <domain>\<group2>'
+    FeaturePack.ConfigureServices.ps1 -Service operationaldata -WebSiteName '<Default Web Site>' -ApplicationPool <operationalDataServiceAppPool> -ApplicationPoolUser <domain>\<user> -ApplicationPoolUserPassword <password> -AuthorizationRoles '<domain>\<group1>, <domain>\<group2>, <domain>\<user>, <domain>\<user2>'
     ```
+
+    * **服務**： 來設定服務 (**OperationalData** Power bi)
+    * **WebSiteName**： 現有的 IIS 網站上裝載服務。 預設值是**Default Web Site**。
+    * **應用程式集區**： 服務所使用的應用程式集區。 如果存在的話，不會建立一個新。 預設值是**DefaultAppPool**。
+    * **ApplicationPoolUser**： 會設定此使用者的識別身分執行應用程式集區。 必須有 BizTalk Server 操作員或更高的權限。
+    * **ApplicationPoolUserPassword**: ApplicationPoolUser 密碼
+    * **AuthorizationAccount**： 授權之群組或使用者可以使用此服務的清單
 
     在下列範例中，我們使用`Default Web Site`，建立名為應用程式集區`PowerBIAppPool`，執行做為 appPool`bootcampbts2016\btsservice`帳戶，請使用`BIZTALK-serviceacct`做為使用者帳戶密碼，並提供`BizTalk Server Administrators`群組權限。 請務必輸入下列項目，包括單一引號周圍有空格的值： 
 
@@ -67,7 +75,7 @@ ms.lasthandoff: 11/07/2017
     ![BizTalkMOperationalDataServer 應用程式](../core/media/biztalkmanagementservice-apppool.png)
 
 
-4. 若要確認它是否運作，瀏覽至`http://localhost/OperationalDataService`。 
+4. 若要確認它是否運作，瀏覽至`http://localhost/BizTalkOperationalDataService`。 
 
     如果系統會提示您登入，是您在上一個步驟中輸入 「 網域 \ 群組成員的帳戶登入 (`-AuthorizationRoles 'BOOTCAMPBTS2016\BizTalk Server Administrators'`)。 
 
@@ -88,10 +96,10 @@ ms.lasthandoff: 11/07/2017
 2. 開啟`\Program Files (x86)\Microsoft BizTalk Server 2016\OperationalDataService`資料夾，然後開啟`BizTalkOperationalData.pbit`檔案：  
 ![開啟 pbit 檔案](../core/media/operational-data-pbit.png)
 
-3. Power BI desktop 會開啟，並提示您輸入的 URL。 輸入`http://localhost/<yourWebSite>`您建立的 OData 摘要的 URL。 例如，輸入`http://localhost/OperationalDataService`。 您的 URL 看起來如下所示：  
+3. Power BI desktop 會開啟，並提示您輸入的 URL。 輸入`http://localhost/<yourWebSite>`您建立的 OData 摘要的 URL。 例如，輸入`http://localhost/BizTalkOperationalDataService`。 您的 URL 看起來如下所示：  
 ![輸入的 URL](../core/media/operational-data-url.png)
 
-5. 選取**負載**。 載入視窗，並連接到不同的 oData 來源 BizTalkOperationalDataService.json 檔案中。 完成之後，儀表板會顯示您的環境相關的詳細資料。
+4. 選取**負載**。 載入視窗，並連接到不同的 oData 來源 BizTalkOperationalDataService.json 檔案中。 完成之後，儀表板會顯示您的環境相關的詳細資料。
 
 ## <a name="couldnt-authenticate"></a>無法驗證
 如果您收到`couldn't authenticate with the credentials provided`訊息類似於下列項目，則很可能您的應用程式集區識別沒有足夠的存取權，BizTalk Server 資料庫。 您可以變更 IIS 中的應用程式集區身分識別具有更多的權限的帳戶至或許您登入的使用者帳戶 （具有本機系統管理員權限）。 
@@ -99,9 +107,9 @@ ms.lasthandoff: 11/07/2017
 ![無法使用提供的認證進行驗證](../core/media/operational-data-authentication-error.png)
 
 ## <a name="do-more"></a>執行其他動作
-這只是一個開始。 Power BI 也有可安裝在 BizTalk Server 的閘道。 您可以使用閘道，來發行您的儀表板、 取得即時資料，並建立排程來重新整理儀表板。 下列部落格出色詳述這些步驟： 
+這只是一個開始。 Power BI 也有可安裝在內部部署 BizTalk Server 的閘道。 您可以使用閘道，來發行您的儀表板、 取得即時資料，並建立排程來重新整理儀表板。 下列部落格出色詳述這些步驟： 
 
-[如何發佈 BizTalk 上 Power BI – 逐步設定操作的資料](https://blog.sandro-pereira.com/2017/05/07/biztalk-server-2016-feature-pack-1-how-to-publish-biztalk-operational-data-power-bi-step-by-step-configuration-part-3/)
+* [如何發佈 BizTalk 上 Power BI – 逐步設定操作的資料](https://blog.sandro-pereira.com/2017/05/07/biztalk-server-2016-feature-pack-1-how-to-publish-biztalk-operational-data-power-bi-step-by-step-configuration-part-3/)
 
 [引導式學習](https://powerbi.microsoft.com/guided-learning/)也是了解 Power BI 中，有關的詳細資訊，以及可以執行的所有作業的好地方。 
 
