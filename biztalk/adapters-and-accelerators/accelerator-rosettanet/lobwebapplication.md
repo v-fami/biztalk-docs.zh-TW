@@ -83,7 +83,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  按一下**啟動**，指向 **所有程式**，然後按一下  **Internet Explorer**。  
   
-2.  在 Internet Explorer 中**位址**方塊、 輸入 http://localhost/LOBWebApplication，，然後按一下**移**。  
+2.  在 Internet Explorer 中 **位址** 方塊、 輸入 http://localhost/LOBWebApplication ，然後按一下 **移** 。  
   
 3.  在**提交訊息**對話方塊方塊中，輸入主要組織、 夥伴組織、 PIP 代碼、 PIP 版本、 PIP 執行個體識別碼和訊息類別。  
   
