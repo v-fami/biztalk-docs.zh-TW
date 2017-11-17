@@ -1,0 +1,207 @@
+---
+title: "使用挑選清單欄位使用 BizTalk Server 和 Siebel 配接器執行商務元件上的作業 |Microsoft 文件"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- how to, perform operations with picklist fields by using BizTalk Server
+- business components, performing operations with picklist fields by using BizTalk Server
+ms.assetid: b62d32fa-903a-442b-951b-2343ef719bd0
+caps.latest.revision: "8"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 823c2959f10bbd836bd0154b2e59f07fffcc6a96
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/20/2017
+---
+# <a name="run-operations-on-business-components-with-picklist-fields-using-biztalk-server-and-the-siebel-adapter"></a><span data-ttu-id="cfcaf-102">使用挑選清單欄位使用 BizTalk Server 和 Siebel 配接器執行商務元件上的作業</span><span class="sxs-lookup"><span data-stu-id="cfcaf-102">Run Operations on Business Components with Picklist Fields Using BizTalk Server and the Siebel adapter</span></span>
+<span data-ttu-id="cfcaf-103">Siebel 挑選清單的欄位類型構成的可能值的集合從用戶端可以指定要傳遞到 Siebel 系統為某個值。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-103">A Siebel picklist field type constitutes a collection of possible values from which client may specify a certain value to be passed onto the Siebel system.</span></span> <span data-ttu-id="cfcaf-104">換句話說，挑選清單欄位包含一份可接受的欄位值。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-104">In other words, a picklist field contains a list of accepted values for a field.</span></span> <span data-ttu-id="cfcaf-105">如需挑選清單和其類型的詳細資訊，請參閱 Siebel 文件。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-105">For more information about picklist and their types, refer to Siebel documentation.</span></span> <span data-ttu-id="cfcaf-106">如需有關如何[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]挑選清單欄位的商務元件上的支援作業[在 Siebel 商務元件上的作業](../../adapters-and-accelerators/adapter-siebel/operations-on-business-components-in-siebel.md)。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-106">For more information about how the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] supports operations on business components with picklist fields, see [Operations on Business Components in Siebel](../../adapters-and-accelerators/adapter-siebel/operations-on-business-components-in-siebel.md).</span></span>  
+  
+ <span data-ttu-id="cfcaf-107">當您產生包含靜態繫結的挑選清單欄位 （挑選清單的類型） 的商務元件的中繼資料時，可接受的挑選清單值也會發佈中繼資料的一部分。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-107">When you generate metadata for a business component containing a static bounded picklist field (a type of picklist), the accepted values for the picklist are also published as part of the metadata.</span></span> <span data-ttu-id="cfcaf-108">如果您將值插入挑選清單欄位，您必須指定發行中繼資料中的值。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-108">If you are inserting a value into a picklist field, you must specify a value that is published in the metadata.</span></span>  
+  
+## <a name="how-to-perform-operations-on-business-components-with-picklist-fields"></a><span data-ttu-id="cfcaf-109">如何在包含挑選清單欄位的商務元件上執行作業？</span><span class="sxs-lookup"><span data-stu-id="cfcaf-109">How to Perform Operations on Business Components with Picklist Fields?</span></span>  
+ <span data-ttu-id="cfcaf-110">使用 Siebel 系統上執行操作[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]與[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]牽涉到程序中所述的工作[Siebel 配接器建立 BizTalk 應用程式的建置組塊](../../adapters-and-accelerators/adapter-siebel/building-blocks-to-create-biztalk-applications-with-the-siebel-adapter.md)。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-110">Performing an operation on a Siebel system using the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] involves procedural tasks described in [Building blocks to create BizTalk applications with Siebel adapter](../../adapters-and-accelerators/adapter-siebel/building-blocks-to-create-biztalk-applications-with-the-siebel-adapter.md).</span></span> 
+ 
+ <span data-ttu-id="cfcaf-111">若要完成與挑選清單欄位的商務元件上的作業，這些工作包括：</span><span class="sxs-lookup"><span data-stu-id="cfcaf-111">To complete an operation on a business component with picklist field, these tasks are:</span></span>  
+  
+1.  <span data-ttu-id="cfcaf-112">建立 BizTalk 專案，並產生包含挑選清單欄位的商務元件上執行作業的結構描述。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-112">Create a BizTalk project and generate schema to perform an operation on a business component containing picklist fields.</span></span>  
+  
+2.  <span data-ttu-id="cfcaf-113">建立傳送和接收來自 Siebel 系統訊息的 BizTalk 專案中的訊息。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-113">Create messages in the BizTalk project for sending and receiving messages from the Siebel system.</span></span>  
+  
+3.  <span data-ttu-id="cfcaf-114">建立 Siebel 系統中叫用作業的協調流程。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-114">Create orchestration to invoke an operation in the Siebel system.</span></span>  
+  
+4.  <span data-ttu-id="cfcaf-115">建置和部署 BizTalk 專案。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-115">Build and deploy the BizTalk project.</span></span>  
+  
+5.  <span data-ttu-id="cfcaf-116">設定的 BizTalk 應用程式藉由建立實體傳送和接收埠。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-116">Configure the BizTalk application by creating physical send and receive ports.</span></span>  
+  
+6.  <span data-ttu-id="cfcaf-117">啟動 BizTalk 應用程式。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-117">Start the BizTalk application.</span></span>  
+  
+ <span data-ttu-id="cfcaf-118">本主題提供執行這些工作的指示。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-118">This topic provides instructions to perform these tasks.</span></span>  
+  
+## <a name="sample-based-on-this-topic"></a><span data-ttu-id="cfcaf-119">根據本主題的範例</span><span class="sxs-lookup"><span data-stu-id="cfcaf-119">Sample Based On This Topic</span></span>  
+ <span data-ttu-id="cfcaf-120">基礎的範例，SiebelPicklist，本主題也會提供[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-120">A sample, SiebelPicklist, based on this topic is also provided with the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)].</span></span> <span data-ttu-id="cfcaf-121">如需詳細資訊，請參閱[Siebel 配接器的範例](../../adapters-and-accelerators/adapter-siebel/samples-for-the-siebel-adapter.md)。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-121">For more information, see [Samples for the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/samples-for-the-siebel-adapter.md).</span></span>  
+  
+## <a name="generating-schema"></a><span data-ttu-id="cfcaf-122">產生結構描述</span><span class="sxs-lookup"><span data-stu-id="cfcaf-122">Generating Schema</span></span>  
+ <span data-ttu-id="cfcaf-123">本主題中，以示範如何使用挑選清單欄位的商務元件上叫用作業將產生的結構描述**插入**作業**帳戶**商務元件。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-123">In this topic, to demonstrate how to invoke operations on business components with picklist fields, we will generate schema for the **Insert** operation for the **Account** business component.</span></span> <span data-ttu-id="cfcaf-124">**帳戶**商務元件都有靜態的挑選清單，*調查類型*。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-124">The **Account** business component has a static picklist, *Survey Type*.</span></span>  
+  
+ <span data-ttu-id="cfcaf-125">請參閱[擷取 Siebel 作業在 Visual Studio 中的中繼資料](../../adapters-and-accelerators/adapter-siebel/get-metadata-for-siebel-operations-in-visual-studio.md)如需有關如何產生結構描述。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-125">See [Retrieving Metadata for Siebel Operations in Visual Studio](../../adapters-and-accelerators/adapter-siebel/get-metadata-for-siebel-operations-in-visual-studio.md) for more information about how to generate schema.</span></span>  
+  
+ <span data-ttu-id="cfcaf-126">當您產生的插入作業的中繼資料**帳戶**商務元件取得個別的.xsd 檔案，其中包含挑選清單欄位及其可能的值。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-126">When you generate the metadata for the Insert operation for the **Account** business component, you get a separate .xsd file containing the picklist fields and their possible values.</span></span> <span data-ttu-id="cfcaf-127">請注意，.xsd 只包含值的靜態挑選清單，包括*調查類型*。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-127">Note that the .xsd contains only the values for the static picklists, including *Survey Type*.</span></span>  
+  
+## <a name="defining-messages-and-message-types"></a><span data-ttu-id="cfcaf-128">定義訊息和訊息類型</span><span class="sxs-lookup"><span data-stu-id="cfcaf-128">Defining Messages and Message Types</span></span>  
+ <span data-ttu-id="cfcaf-129">您先前產生的結構描述會描述 「 類型 」 所需的協調流程中的訊息。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-129">The schema that you generated earlier describes the "types" required for the messages in the orchestration.</span></span> <span data-ttu-id="cfcaf-130">訊息通常是為其型別由對應的結構描述所定義的變數。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-130">A message is typically a variable, the type for which is defined by the corresponding schema.</span></span> <span data-ttu-id="cfcaf-131">您必須連結產生的結構描述您在第一個步驟中的訊息從 BizTalk 專案的協調流程檢視。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-131">You must link the schema you generated in the first step to the messages from the Orchestration view of the BizTalk project.</span></span>  
+  
+ <span data-ttu-id="cfcaf-132">本主題中，您必須建立兩個訊息，其中將要求傳送至 Siebel 系統，而另一個則接收回應。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-132">For this topic, you must create two messages—one to send a request to the Siebel system and the other to receive a response.</span></span>  
+  
+ <span data-ttu-id="cfcaf-133">執行下列步驟來建立訊息，並將其連結至結構描述：</span><span class="sxs-lookup"><span data-stu-id="cfcaf-133">Perform the following steps to create messages and link them to the schema:</span></span>  
+  
+#### <a name="to-create-messages-and-link-to-schema"></a><span data-ttu-id="cfcaf-134">建立訊息，以及連結至結構描述</span><span class="sxs-lookup"><span data-stu-id="cfcaf-134">To create messages and link to schema</span></span>  
+  
+1.  <span data-ttu-id="cfcaf-135">開啟協調流程檢視 BizTalk 專案中，如果未開啟。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-135">Open the orchestration view the BizTalk project, if not already open.</span></span> <span data-ttu-id="cfcaf-136">按一下**檢視**，指向 **其他視窗**，然後按一下**協調流程檢視**。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-136">Click **View**, point to **Other Windows**, and click **Orchestration View**.</span></span>  
+  
+2.  <span data-ttu-id="cfcaf-137">在**協調流程檢視**，以滑鼠右鍵按一下**訊息**，然後按一下 **新訊息**。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-137">In the **Orchestration View**, right-click **Messages**, and then click **New Message**.</span></span>  
+  
+3.  <span data-ttu-id="cfcaf-138">以滑鼠右鍵按一下新建立的訊息，然後選取**屬性 視窗**。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-138">Right-click the newly create message and select **Properties Window**.</span></span>  
+  
+4.  <span data-ttu-id="cfcaf-139">在**屬性**窗格**Message_1**，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="cfcaf-139">In the **Properties** pane for **Message_1**, do the following:</span></span>  
+  
+    |<span data-ttu-id="cfcaf-140">使用</span><span class="sxs-lookup"><span data-stu-id="cfcaf-140">Use this</span></span>|<span data-ttu-id="cfcaf-141">動作</span><span class="sxs-lookup"><span data-stu-id="cfcaf-141">To do this</span></span>|  
+    |--------------|----------------|  
+    |<span data-ttu-id="cfcaf-142">識別碼</span><span class="sxs-lookup"><span data-stu-id="cfcaf-142">Identifier</span></span>|<span data-ttu-id="cfcaf-143">型別**要求**。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-143">Type **Request**.</span></span>|  
+    |<span data-ttu-id="cfcaf-144">訊息類型</span><span class="sxs-lookup"><span data-stu-id="cfcaf-144">Message Type</span></span>|<span data-ttu-id="cfcaf-145">從下拉式清單中，展開 **結構描述**，然後選取*SiebelPicklist.SiebelBindingSchema.Insert*，其中*SiebelPicklist*是您的 BizTalk 專案的名稱。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-145">From the drop-down list, expand **Schemas**, and select *SiebelPicklist.SiebelBindingSchema.Insert*, where *SiebelPicklist* is the name of your BizTalk project.</span></span> <span data-ttu-id="cfcaf-146">*SiebelBindingSchema*是叫用所產生的結構描述*插入*作業*帳戶*商務元件。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-146">*SiebelBindingSchema* is the schema generated for invoking the *Insert* operation on *Account* business component.</span></span>|  
+  
+5.  <span data-ttu-id="cfcaf-147">重複上述步驟，建立新的訊息。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-147">Repeat the previous step to create a new message.</span></span> <span data-ttu-id="cfcaf-148">在**屬性**窗格新訊息中，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="cfcaf-148">In the **Properties** pane for the new message, do the following:</span></span>  
+  
+    |<span data-ttu-id="cfcaf-149">使用</span><span class="sxs-lookup"><span data-stu-id="cfcaf-149">Use this</span></span>|<span data-ttu-id="cfcaf-150">動作</span><span class="sxs-lookup"><span data-stu-id="cfcaf-150">To do this</span></span>|  
+    |--------------|----------------|  
+    |<span data-ttu-id="cfcaf-151">識別碼</span><span class="sxs-lookup"><span data-stu-id="cfcaf-151">Identifier</span></span>|<span data-ttu-id="cfcaf-152">型別**回應**。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-152">Type **Response**.</span></span>|  
+    |<span data-ttu-id="cfcaf-153">訊息類型</span><span class="sxs-lookup"><span data-stu-id="cfcaf-153">Message Type</span></span>|<span data-ttu-id="cfcaf-154">從下拉式清單中，展開 **結構描述**，然後選取*SiebelPicklist.SiebelBindingSchema.InsertResponse*。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-154">From the drop-down list, expand **Schemas**, and select *SiebelPicklist.SiebelBindingSchema.InsertResponse*.</span></span>|  
+  
+## <a name="setting-up-the-orchestration"></a><span data-ttu-id="cfcaf-155">設定協調流程</span><span class="sxs-lookup"><span data-stu-id="cfcaf-155">Setting up the Orchestration</span></span>  
+ <span data-ttu-id="cfcaf-156">您必須建立 BizTalk 協調流程使用[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]執行插入作業與挑選清單欄位在 Siebel 商務元件上的。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-156">You must create a BizTalk orchestration to use [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] for performing an Insert operation on a Siebel business component with picklist fields.</span></span> <span data-ttu-id="cfcaf-157">在此協調流程中，卸除要求訊息已定義的接收位置。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-157">In this orchestration, you drop a request message at a defined receive location.</span></span> <span data-ttu-id="cfcaf-158">[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]會取用這個訊息，並將它傳遞到 Siebel 系統。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-158">The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] consumes this message and passes it on to the Siebel system.</span></span> <span data-ttu-id="cfcaf-159">來自 Siebel 系統的回應會儲存到另一個位置。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-159">The response from the Siebel system is saved to another location.</span></span> <span data-ttu-id="cfcaf-160">用於在 Siebel 商務元件上執行作業的一般協調流程就會包含：</span><span class="sxs-lookup"><span data-stu-id="cfcaf-160">A typical orchestration for performing operations on Siebel business components would contain:</span></span>  
+  
+-   <span data-ttu-id="cfcaf-161">傳送和接收圖形以將訊息傳送到 Siebel 並接收回應。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-161">Send and receive shapes to send messages to Siebel and receive responses.</span></span>  
+  
+-   <span data-ttu-id="cfcaf-162">單向接收埠以接收要求訊息傳送到 Siebel。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-162">A one-way receive port to receive request messages to send to Siebel.</span></span>  
+  
+-   <span data-ttu-id="cfcaf-163">雙向傳送埠以將要求訊息傳送到 Siebel 並接收回應。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-163">A two-way send port to send request messages to Siebel and receive responses.</span></span>  
+  
+-   <span data-ttu-id="cfcaf-164">單向傳送埠，以便從 Siebel 傳送回應到資料夾。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-164">A one-way send port to send the responses from Siebel to a folder.</span></span>  
+  
+ <span data-ttu-id="cfcaf-165">範例協調流程*插入*作業*帳戶*商務元件如下所示：</span><span class="sxs-lookup"><span data-stu-id="cfcaf-165">A sample orchestration for the *Insert* operation on an *Account* business component resembles the following:</span></span>  
+  
+ <span data-ttu-id="cfcaf-166">![插入 siebel 挑選清單值的協調流程](../../adapters-and-accelerators/adapter-siebel/media/c981fbf9-9a1f-40a5-9ccb-5e146589f2d3.gif "c981fbf9-9a1f-40a5-9ccb-5e146589f2d3")</span><span class="sxs-lookup"><span data-stu-id="cfcaf-166">![Orchestration to insert picklist values for Siebel](../../adapters-and-accelerators/adapter-siebel/media/c981fbf9-9a1f-40a5-9ccb-5e146589f2d3.gif "c981fbf9-9a1f-40a5-9ccb-5e146589f2d3")</span></span>  
+  
+### <a name="adding-message-shapes"></a><span data-ttu-id="cfcaf-167">新增訊息圖形</span><span class="sxs-lookup"><span data-stu-id="cfcaf-167">Adding Message Shapes</span></span>  
+ <span data-ttu-id="cfcaf-168">請確定您針對每個訊息圖形指定下列屬性。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-168">Make sure you specify the following properties for each of the message shapes.</span></span> <span data-ttu-id="cfcaf-169">所列的名稱*圖形*資料行名稱就是訊息圖形上述協調流程中所示。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-169">The names listed in the *Shape* column are the names of the message shapes as displayed in the orchestration above.</span></span>  
+  
+|<span data-ttu-id="cfcaf-170">形狀圖</span><span class="sxs-lookup"><span data-stu-id="cfcaf-170">Shape</span></span>|<span data-ttu-id="cfcaf-171">圖形類型</span><span class="sxs-lookup"><span data-stu-id="cfcaf-171">Shape Type</span></span>|<span data-ttu-id="cfcaf-172">屬性</span><span class="sxs-lookup"><span data-stu-id="cfcaf-172">Properties</span></span>|  
+|-----------|----------------|----------------|  
+|<span data-ttu-id="cfcaf-173">ReceiveXML</span><span class="sxs-lookup"><span data-stu-id="cfcaf-173">ReceiveXML</span></span>|<span data-ttu-id="cfcaf-174">Receive</span><span class="sxs-lookup"><span data-stu-id="cfcaf-174">Receive</span></span>|<span data-ttu-id="cfcaf-175">-設定**名稱**至*ReceiveXML*</span><span class="sxs-lookup"><span data-stu-id="cfcaf-175">-   Set **Name** to *ReceiveXML*</span></span><br /><span data-ttu-id="cfcaf-176">-設定**啟動**至*，則為 True*</span><span class="sxs-lookup"><span data-stu-id="cfcaf-176">-   Set **Activate** to *True*</span></span>|  
+|<span data-ttu-id="cfcaf-177">SendToLOB</span><span class="sxs-lookup"><span data-stu-id="cfcaf-177">SendToLOB</span></span>|<span data-ttu-id="cfcaf-178">Send</span><span class="sxs-lookup"><span data-stu-id="cfcaf-178">Send</span></span>|<span data-ttu-id="cfcaf-179">-設定**名稱**至*SendToLOB*</span><span class="sxs-lookup"><span data-stu-id="cfcaf-179">-   Set **Name** to *SendToLOB*</span></span>|  
+|<span data-ttu-id="cfcaf-180">ReceiveResponse</span><span class="sxs-lookup"><span data-stu-id="cfcaf-180">ReceiveResponse</span></span>|<span data-ttu-id="cfcaf-181">Receive</span><span class="sxs-lookup"><span data-stu-id="cfcaf-181">Receive</span></span>|<span data-ttu-id="cfcaf-182">-設定**名稱**至*ReceiveResponse*</span><span class="sxs-lookup"><span data-stu-id="cfcaf-182">-   Set **Name** to *ReceiveResponse*</span></span><br /><span data-ttu-id="cfcaf-183">-設定**啟動**至*False*</span><span class="sxs-lookup"><span data-stu-id="cfcaf-183">-   Set **Activate** to *False*</span></span>|  
+|<span data-ttu-id="cfcaf-184">SendResponse</span><span class="sxs-lookup"><span data-stu-id="cfcaf-184">SendResponse</span></span>|<span data-ttu-id="cfcaf-185">Send</span><span class="sxs-lookup"><span data-stu-id="cfcaf-185">Send</span></span>|<span data-ttu-id="cfcaf-186">-設定**名稱**至*SendResponse*</span><span class="sxs-lookup"><span data-stu-id="cfcaf-186">-   Set **Name** to *SendResponse*</span></span>|  
+  
+### <a name="adding-ports"></a><span data-ttu-id="cfcaf-187">新增連接埠</span><span class="sxs-lookup"><span data-stu-id="cfcaf-187">Adding Ports</span></span>  
+ <span data-ttu-id="cfcaf-188">請確定您針對每個邏輯連接埠指定下列屬性。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-188">Make sure you specify the following properties for each of the logical ports.</span></span> <span data-ttu-id="cfcaf-189">所列的名稱*連接埠*資料行是連接埠的名稱，顯示在 協調流程中。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-189">The names listed in the *Port* column are the names of the ports as displayed in the orchestration.</span></span>  
+  
+|<span data-ttu-id="cfcaf-190">通訊埠</span><span class="sxs-lookup"><span data-stu-id="cfcaf-190">Port</span></span>|<span data-ttu-id="cfcaf-191">屬性</span><span class="sxs-lookup"><span data-stu-id="cfcaf-191">Properties</span></span>|  
+|----------|----------------|  
+|<span data-ttu-id="cfcaf-192">FileIn</span><span class="sxs-lookup"><span data-stu-id="cfcaf-192">FileIn</span></span>|<span data-ttu-id="cfcaf-193">-設定**識別碼**至*FileIn*</span><span class="sxs-lookup"><span data-stu-id="cfcaf-193">-   Set **Identifier** to *FileIn*</span></span><br /><span data-ttu-id="cfcaf-194">-設定**類型**至*FileInType*</span><span class="sxs-lookup"><span data-stu-id="cfcaf-194">-   Set **Type** to *FileInType*</span></span><br /><span data-ttu-id="cfcaf-195">-設定**通訊模式**至*單向*</span><span class="sxs-lookup"><span data-stu-id="cfcaf-195">-   Set **Communication Pattern** to *One-Way*</span></span><br /><span data-ttu-id="cfcaf-196">-設定**通訊方向**至*接收*</span><span class="sxs-lookup"><span data-stu-id="cfcaf-196">-   Set **Communication Direction** to *Receive*</span></span>|  
+|<span data-ttu-id="cfcaf-197">LOBPort</span><span class="sxs-lookup"><span data-stu-id="cfcaf-197">LOBPort</span></span>|<span data-ttu-id="cfcaf-198">-設定**識別碼**至*LOBPort*</span><span class="sxs-lookup"><span data-stu-id="cfcaf-198">-   Set **Identifier** to *LOBPort*</span></span><br /><span data-ttu-id="cfcaf-199">-設定**類型**至*LOBPortType*</span><span class="sxs-lookup"><span data-stu-id="cfcaf-199">-   Set **Type** to *LOBPortType*</span></span><br /><span data-ttu-id="cfcaf-200">-設定**通訊模式**至*要求-回應*</span><span class="sxs-lookup"><span data-stu-id="cfcaf-200">-   Set **Communication Pattern** to *Request-Response*</span></span><br /><span data-ttu-id="cfcaf-201">-設定**通訊方向**至*傳送接收*</span><span class="sxs-lookup"><span data-stu-id="cfcaf-201">-   Set **Communication Direction** to *Send-Receive*</span></span>|  
+|<span data-ttu-id="cfcaf-202">SaveResponse</span><span class="sxs-lookup"><span data-stu-id="cfcaf-202">SaveResponse</span></span>|<span data-ttu-id="cfcaf-203">-設定**識別碼**至*SaveResponse*</span><span class="sxs-lookup"><span data-stu-id="cfcaf-203">-   Set **Identifier** to *SaveResponse*</span></span><br /><span data-ttu-id="cfcaf-204">-設定**類型**至*SaveResponseType*</span><span class="sxs-lookup"><span data-stu-id="cfcaf-204">-   Set **Type** to *SaveResponseType*</span></span><br /><span data-ttu-id="cfcaf-205">-設定**通訊模式**至*單向*</span><span class="sxs-lookup"><span data-stu-id="cfcaf-205">-   Set **Communication Pattern** to *One-Way*</span></span><br /><span data-ttu-id="cfcaf-206">-設定**通訊方向**至*傳送*</span><span class="sxs-lookup"><span data-stu-id="cfcaf-206">-   Set **Communication Direction** to *Send*</span></span>|  
+  
+## <a name="specify-messages-for-action-shapes-and-connect-to-ports"></a><span data-ttu-id="cfcaf-207">指定動作圖形訊息並連接至連接埠</span><span class="sxs-lookup"><span data-stu-id="cfcaf-207">Specify Messages for Action Shapes and Connect to Ports</span></span>  
+ <span data-ttu-id="cfcaf-208">下表指定屬性和其值設為指定的動作圖形，並將它們連結至連接埠的訊息。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-208">The following table specifies the properties and their values to be set to specify messages for action shapes and linking them to the ports.</span></span> <span data-ttu-id="cfcaf-209">所列的名稱*圖形*資料行名稱就是訊息圖形上述協調流程中所示。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-209">The names listed in the *Shape* column are the names of the message shapes as displayed in the orchestration above.</span></span>  
+  
+|<span data-ttu-id="cfcaf-210">形狀圖</span><span class="sxs-lookup"><span data-stu-id="cfcaf-210">Shape</span></span>|<span data-ttu-id="cfcaf-211">屬性</span><span class="sxs-lookup"><span data-stu-id="cfcaf-211">Properties</span></span>|  
+|-----------|----------------|  
+|<span data-ttu-id="cfcaf-212">ReceiveXml</span><span class="sxs-lookup"><span data-stu-id="cfcaf-212">ReceiveXml</span></span>|<span data-ttu-id="cfcaf-213">-設定**訊息**至*要求*</span><span class="sxs-lookup"><span data-stu-id="cfcaf-213">-   Set **Message** to *Request*</span></span><br /><span data-ttu-id="cfcaf-214">-設定**作業**至*FileIn.Picklist.Request*</span><span class="sxs-lookup"><span data-stu-id="cfcaf-214">-   Set **Operation** to *FileIn.Picklist.Request*</span></span>|  
+|<span data-ttu-id="cfcaf-215">SendToLOB</span><span class="sxs-lookup"><span data-stu-id="cfcaf-215">SendToLOB</span></span>|<span data-ttu-id="cfcaf-216">-設定**訊息**至*要求*</span><span class="sxs-lookup"><span data-stu-id="cfcaf-216">-   Set **Message** to *Request*</span></span><br /><span data-ttu-id="cfcaf-217">-設定**作業**至*LOBPort.Picklist.Request*</span><span class="sxs-lookup"><span data-stu-id="cfcaf-217">-   Set **Operation** to *LOBPort.Picklist.Request*</span></span>|  
+|<span data-ttu-id="cfcaf-218">ReceiveResponse</span><span class="sxs-lookup"><span data-stu-id="cfcaf-218">ReceiveResponse</span></span>|<span data-ttu-id="cfcaf-219">-設定**訊息**至*回應*</span><span class="sxs-lookup"><span data-stu-id="cfcaf-219">-   Set **Message** to *Response*</span></span><br /><span data-ttu-id="cfcaf-220">-設定**作業**至*LOBPort.Picklist.Response*</span><span class="sxs-lookup"><span data-stu-id="cfcaf-220">-   Set **Operation** to *LOBPort.Picklist.Response*</span></span>|  
+|<span data-ttu-id="cfcaf-221">SendResponse</span><span class="sxs-lookup"><span data-stu-id="cfcaf-221">SendResponse</span></span>|<span data-ttu-id="cfcaf-222">-設定**訊息**至*回應*</span><span class="sxs-lookup"><span data-stu-id="cfcaf-222">-   Set **Message** to *Response*</span></span><br /><span data-ttu-id="cfcaf-223">-設定**作業**至*SaveResponse.Picklist.Request*</span><span class="sxs-lookup"><span data-stu-id="cfcaf-223">-   Set **Operation** to *SaveResponse.Picklist.Request*</span></span>|  
+  
+ <span data-ttu-id="cfcaf-224">您指定這些屬性之後，連接的訊息 圖形和連接埠，而且您的協調流程已完成。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-224">After you have specified these properties, the message shapes and ports are connected and your orchestration is complete.</span></span>  
+  
+ <span data-ttu-id="cfcaf-225">您現在必須建置 BizTalk 方案，並部署到[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-225">You must now build the BizTalk solution and deploy it to a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="cfcaf-226">如需詳細資訊，請參閱[如何建置協調流程](../../core/how-to-build-orchestrations.md)和[從到 BizTalk 應用程式的 Visual Studio 部署 BizTalk 組件](../../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md)。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-226">For more information, see [How to Build Orchestrations](../../core/how-to-build-orchestrations.md) and [Deploying BizTalk Assemblies from Visual Studio into a BizTalk Application](../../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md).</span></span> 
+  
+## <a name="configuring-the-biztalk-application"></a><span data-ttu-id="cfcaf-227">設定 BizTalk 應用程式</span><span class="sxs-lookup"><span data-stu-id="cfcaf-227">Configuring the BizTalk Application</span></span>  
+ <span data-ttu-id="cfcaf-228">部署 BizTalk 專案之後，您稍早建立的協調流程會列在**協調流程**BizTalk Server 管理主控台 窗格。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-228">After you have deployed the BizTalk project, the orchestration you created earlier is listed under the **Orchestrations** pane in the BizTalk Server Administration console.</span></span> <span data-ttu-id="cfcaf-229">您必須使用 BizTalk Server 管理主控台來設定應用程式。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-229">You must use the BizTalk Server Administration console to configure the application.</span></span> <span data-ttu-id="cfcaf-230">如需有關如何設定應用程式的詳細資訊，請參閱[如何建立應用程式](../../core/how-to-create-an-application.md)。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-230">For more information about configuring an application, see [How to Create an Application](../../core/how-to-create-an-application.md).</span></span>  
+  
+ <span data-ttu-id="cfcaf-231">設定應用程式包括：</span><span class="sxs-lookup"><span data-stu-id="cfcaf-231">Configuring an application involves:</span></span>  
+  
+-   <span data-ttu-id="cfcaf-232">選取應用程式的主機。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-232">Selecting a host for the application.</span></span>  
+  
+-   <span data-ttu-id="cfcaf-233">對應至 BizTalk Server 管理主控台中的實體連接埠在協調流程中建立的連接埠。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-233">Mapping the ports that you created in your orchestration to physical ports in the BizTalk Server Administration console.</span></span> <span data-ttu-id="cfcaf-234">此協調流程中，您必須：</span><span class="sxs-lookup"><span data-stu-id="cfcaf-234">For this orchestration you must:</span></span>  
+  
+    -   <span data-ttu-id="cfcaf-235">定義位置上的硬碟和對應的檔案連接埠，您將在此置放要求訊息。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-235">Define a location on the hard disk and a corresponding file port where you will drop a request message.</span></span> <span data-ttu-id="cfcaf-236">BizTalk 協調流程會使用要求訊息，並將它傳送至 Siebel 系統。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-236">The BizTalk orchestration will consume the request message and send it to the Siebel system.</span></span>  
+  
+    -   <span data-ttu-id="cfcaf-237">定義位置上的硬碟和對應的檔案連接埠，BizTalk 協調流程將會卸除包含來自 Siebel 系統的回應的回應訊息。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-237">Define a location on the hard disk and a corresponding file port where the BizTalk orchestration will drop the response message containing the response from the Siebel system.</span></span>  
+  
+    -   <span data-ttu-id="cfcaf-238">定義將訊息傳送至 Siebel 系統實體 Wcf-custom 或 Wcf-siebel 傳送埠。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-238">Define a physical WCF-Custom or WCF-Siebel send port to send messages to the Siebel system.</span></span> <span data-ttu-id="cfcaf-239">您也必須在傳送埠中指定的動作。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-239">You must also specify the action in the send port.</span></span> <span data-ttu-id="cfcaf-240">如需如何建立連接埠相關資訊，請參閱[手動設定在 Siebel 介面卡的實體連接埠繫結](../../adapters-and-accelerators/adapter-siebel/manually-configure-a-physical-port-binding-to-the-siebel-adapter.md)。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-240">For information about how to create ports, see [Manually configure a physical port binding to the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/manually-configure-a-physical-port-binding-to-the-siebel-adapter.md).</span></span>
+  
+        > [!NOTE]
+        >  <span data-ttu-id="cfcaf-241">產生結構描述使用[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]也會建立包含連接埠與那些連接埠的設定動作的相關資訊的繫結檔案。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-241">Generating the schema using the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] also creates a binding file containing information about the ports and the actions to be set for those ports.</span></span> <span data-ttu-id="cfcaf-242">您可以從 BizTalk 管理主控台建立傳送埠 （適用於傳出呼叫） 來匯入此繫結檔案。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-242">You can import this binding file from the BizTalk Administration Console to create send ports (for outbound calls).</span></span> <span data-ttu-id="cfcaf-243">如需詳細資訊，請參閱[設定實體連接埠繫結使用連接埠繫結檔案至 siebel](../../adapters-and-accelerators/adapter-siebel/configure-a-physical-port-binding-using-a-port-binding-file-to-siebel.md)。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-243">For more information, see [Configure a physical port binding using a port binding file to siebel](../../adapters-and-accelerators/adapter-siebel/configure-a-physical-port-binding-using-a-port-binding-file-to-siebel.md).</span></span>
+  
+## <a name="starting-the-application"></a><span data-ttu-id="cfcaf-244">啟動應用程式</span><span class="sxs-lookup"><span data-stu-id="cfcaf-244">Starting the Application</span></span>  
+ <span data-ttu-id="cfcaf-245">您必須啟動 BizTalk 應用程式執行*插入*作業*帳戶*在 Siebel 商務元件。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-245">You must start the BizTalk application for performing an *Insert* operation on the *Account* business component in Siebel.</span></span> <span data-ttu-id="cfcaf-246">如需啟動 BizTalk 應用程式的指示，請參閱[啟動 BizTalk 應用程式](../../core/how-to-start-and-stop-a-biztalk-application.md)或[啟動協調流程](../../core/how-to-start-an-orchestration.md)。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-246">For instructions on starting a BizTalk application, see [Start a BizTalk Application](../../core/how-to-start-and-stop-a-biztalk-application.md) or [Start an Orchestration](../../core/how-to-start-an-orchestration.md).</span></span>
+  
+ <span data-ttu-id="cfcaf-247">在這個階段，請確定：</span><span class="sxs-lookup"><span data-stu-id="cfcaf-247">At this stage, make sure:</span></span>  
+  
+-   <span data-ttu-id="cfcaf-248">FILE 接收埠以接收要求訊息的協調流程執行。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-248">The FILE receive port to receive request messages for the orchestration is running.</span></span>  
+  
+-   <span data-ttu-id="cfcaf-249">FILE 傳送埠，以接收回應訊息從協調流程正在執行。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-249">The FILE send port to receive the response messages from the orchestration is running.</span></span>  
+  
+-   <span data-ttu-id="cfcaf-250">Wcf-custom 或 Wcf-siebel 傳送埠將訊息傳送至 Siebel 系統正在執行</span><span class="sxs-lookup"><span data-stu-id="cfcaf-250">The WCF-Custom or WCF-Siebel send port to send messages to the Siebel system is running</span></span>  
+  
+-   <span data-ttu-id="cfcaf-251">BizTalk 協調流程的作業正在執行</span><span class="sxs-lookup"><span data-stu-id="cfcaf-251">The BizTalk orchestration for the operation is running</span></span>  
+  
+## <a name="executing-the-operation"></a><span data-ttu-id="cfcaf-252">執行作業</span><span class="sxs-lookup"><span data-stu-id="cfcaf-252">Executing the Operation</span></span>  
+ <span data-ttu-id="cfcaf-253">您必須將要求訊息卸除檔案接收位置。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-253">You must drop the request message to the FILE receive location.</span></span> <span data-ttu-id="cfcaf-254">要求訊息的結構描述必須符合您稍早在本主題中所產生的結構描述。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-254">The schema of the request message must conform to the schema you generated earlier in this topic.</span></span> <span data-ttu-id="cfcaf-255">請參閱[商務元件操作的訊息結構描述](../../adapters-and-accelerators/adapter-siebel/message-schemas-for-business-component-operations.md)如需有關要求訊息的結構描述。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-255">See [Message Schemas for Business Component Operations](../../adapters-and-accelerators/adapter-siebel/message-schemas-for-business-component-operations.md) for more information about the schema for the request messages.</span></span>  
+  
+ <span data-ttu-id="cfcaf-256">若要插入至挑選清單欄位的值，請查看產生的結構描述，以決定可接受值的清單為挑選清單。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-256">To insert a value to the picklist field, look at the generated schema to determine the list of acceptable values for the picklist.</span></span> <span data-ttu-id="cfcaf-257">請確定要求訊息具有項目插入至挑選清單欄位的值。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-257">Make sure the request message has an element to insert value to the picklist field.</span></span> <span data-ttu-id="cfcaf-258">例如，要求訊息必須包含下列項目插入至值*調查類型*挑選清單。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-258">For example, the request message must contain the following element to insert value to the *Survey Type* picklist.</span></span>  
+  
+ `<Survey_x0020_Type>1</Survey_x0020_Type>`  
+  
+ <span data-ttu-id="cfcaf-259">在這裡，"1"是可接受的值，如調查類型挑選清單。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-259">Here, "1" is an acceptable value for the Survey Type pick list.</span></span>  
+  
+ <span data-ttu-id="cfcaf-260">在包含挑選清單參數的範例要求訊息是：</span><span class="sxs-lookup"><span data-stu-id="cfcaf-260">An example request message that contains a picklist parameter is:</span></span>  
+  
+```  
+<Insert xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Operation">  
+  <ArrayOfAccountInsertRecord>  
+    <AccountInsertRecord xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects">  
+      <Currency_x0020_Code>usd</Currency_x0020_Code>  
+      <Current_x0020_Volume>9</Current_x0020_Volume>  
+      <Customer_x0020_Account_x0020_Group>Sold-To Party</Customer_x0020_Account_x0020_Group>  
+      <Location>Location_1</Location>  
+      <Main_x0020_Phone_x0020_Number>4256543212</Main_x0020_Phone_x0020_Number>  
+      <Name>Name_Surname</Name>  
+      <Party_x0020_Name>test_party</Party_x0020_Name>  
+      <Primary_x0020_Address_x0020_Id>1212 street</Primary_x0020_Address_x0020_Id>  
+      <Survey_x0020_Type>1</Survey_x0020_Type>  
+    </AccountInsertRecord>  
+  </ArrayOfAccountInsertRecord>  
+</Insert>  
+```  
+  
+ <span data-ttu-id="cfcaf-261">協調流程會使用要求訊息，並將其傳遞至 Siebel 系統。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-261">The orchestration consumes the request message and passes it to the Siebel system.</span></span> <span data-ttu-id="cfcaf-262">來自 Siebel 系統的回應會儲存在其他的協調流程中定義的檔案位置。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-262">The response from the Siebel system is saved at the other FILE location defined as part of the orchestration.</span></span>  
+  
+> [!NOTE]
+>  <span data-ttu-id="cfcaf-263">您也可以為挑選清單中嘗試 insert 無效的值。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-263">You may also try an insert an invalid value for the picklist.</span></span> <span data-ttu-id="cfcaf-264">在此情況下，您必須取得`TargetSystemException`。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-264">In that case, you must get a `TargetSystemException`.</span></span>  
+  
+## <a name="possible-exceptions"></a><span data-ttu-id="cfcaf-265">可能的例外狀況</span><span class="sxs-lookup"><span data-stu-id="cfcaf-265">Possible Exceptions</span></span>  
+ <span data-ttu-id="cfcaf-266">例外狀況的資訊可能會遇到執行商務元件上的作業使用的挑選清單欄位時[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]，請參閱[例外狀況和錯誤處理 Siebel 配接器](../../adapters-and-accelerators/adapter-siebel/exceptions-and-error-handling-with-the-siebel-adapter.md)。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-266">For information about the exceptions you might encounter while performing an operation on business component with picklist fields using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], see [Exceptions and Error Handling with the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/exceptions-and-error-handling-with-the-siebel-adapter.md).</span></span>  
+  
+## <a name="best-practices"></a><span data-ttu-id="cfcaf-267">最佳作法</span><span class="sxs-lookup"><span data-stu-id="cfcaf-267">Best Practices</span></span>  
+ <span data-ttu-id="cfcaf-268">您部署和設定 BizTalk 專案之後，您可以為 XML 檔案，稱為繫結檔案匯出組態設定。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-268">After you have deployed and configured the BizTalk project, you can export configuration settings to an XML file called the bindings file.</span></span> <span data-ttu-id="cfcaf-269">一旦產生繫結檔案時，您可以匯入組態設定從檔案，因此您不需要建立傳送埠、 接收埠，等。 針對相同的協調流程。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-269">Once you generate a bindings file, you can import the configuration settings from the file so that you do not need to create the send ports, receive ports, etc. for the same orchestration.</span></span> <span data-ttu-id="cfcaf-270">如需繫結檔案的詳細資訊，請參閱[重複使用 Siebel 配接器中的配接器繫結](../../adapters-and-accelerators/adapter-siebel/reuse-adapter-bindings-in-the-siebel-adapter.md)。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-270">For more information about binding files, see [Reuse adapter bindings in the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/reuse-adapter-bindings-in-the-siebel-adapter.md).</span></span>
+  
+## <a name="see-also"></a><span data-ttu-id="cfcaf-271">另請參閱</span><span class="sxs-lookup"><span data-stu-id="cfcaf-271">See Also</span></span>  
+[<span data-ttu-id="cfcaf-272">開發 BizTalk 應用程式使用 Siebel 配接器</span><span class="sxs-lookup"><span data-stu-id="cfcaf-272">Develop BizTalk Applications using the Siebel adapter</span></span>](../../adapters-and-accelerators/adapter-siebel/develop-biztalk-applications-using-the-siebel-adapter.md)

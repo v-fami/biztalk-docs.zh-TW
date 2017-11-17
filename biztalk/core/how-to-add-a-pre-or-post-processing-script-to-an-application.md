@@ -1,0 +1,93 @@
+---
+title: "如何新增前置或後置處理指令碼至應用程式 |Microsoft 文件"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- managing [applications], adding scripts
+- managing [scripts], applications
+- applications, scripts
+- managing [scripts], adding
+- scripts, adding to applications
+- scripts
+ms.assetid: 729cb236-b9cf-468a-8b98-a24d86e60d3c
+caps.latest.revision: "21"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 2d0646bc9e896e7b4e4d9264efba7c9bb5f0eb66
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/20/2017
+---
+# <a name="how-to-add-a-pre--or-post-processing-script-to-an-application"></a><span data-ttu-id="ba989-102">如何新增前置或後置處理指令碼至應用程式</span><span class="sxs-lookup"><span data-stu-id="ba989-102">How to Add a Pre- or Post-processing Script to an Application</span></span>
+<span data-ttu-id="ba989-103">本主題說明如何使用 BizTalk Server 管理主控台或命令列，將前置或後置處理指令碼新增至應用程式。</span><span class="sxs-lookup"><span data-stu-id="ba989-103">This topic describes how to use the BizTalk Server Administration console or the command line to add a pre- or post-processing script to an application.</span></span> <span data-ttu-id="ba989-104">當您將指令碼加入至應用程式時，指令碼會包含在應用程式 .msi 檔案中，並且會在匯入、安裝或解除安裝應用程式時執行。</span><span class="sxs-lookup"><span data-stu-id="ba989-104">When you add a script to an application, the script is included in the application .msi file, and runs when the application is imported, installed, or uninstalled.</span></span>  
+  
+ <span data-ttu-id="ba989-105">加入指令碼時，您必須指定它是前置處理指令碼 (會在應用程式匯入或安裝啟動之前執行)，還是後置處理指令碼 (會在應用程式匯入或安裝完成之後執行)。</span><span class="sxs-lookup"><span data-stu-id="ba989-105">When you add a script, you must specify whether it is a pre-preprocessing script, which will run before application import or installation starts, or a post-processing script, which will run after application import or installation completes.</span></span> <span data-ttu-id="ba989-106">前置和後置處理指令碼也在解除安裝，可在安裝時執行的相反順序執行： 前置處理指令碼執行之後解除安裝和解除安裝之前執行的後置處理指令碼。</span><span class="sxs-lookup"><span data-stu-id="ba989-106">Pre- and post-processing scripts also run at uninstallation, in the opposite order to that in which they ran at installation: pre-processing scripts run after uninstallation and post-processing scripts run before uninstallation.</span></span>  
+  
+ <span data-ttu-id="ba989-107">您也可以從應用程式移除指令碼。</span><span class="sxs-lookup"><span data-stu-id="ba989-107">You can also remove a script from an application.</span></span> <span data-ttu-id="ba989-108">如需指示，請參閱[如何移除前置或後置處理指令碼，從應用程式](../core/how-to-remove-a-pre-or-post-processing-script-from-an-application.md)。</span><span class="sxs-lookup"><span data-stu-id="ba989-108">For instructions, see [How to Remove a Pre- or Post-processing Script from an Application](../core/how-to-remove-a-pre-or-post-processing-script-from-an-application.md).</span></span>  
+  
+## <a name="prerequisites"></a><span data-ttu-id="ba989-109">必要條件</span><span class="sxs-lookup"><span data-stu-id="ba989-109">Prerequisites</span></span>  
+ <span data-ttu-id="ba989-110">若要執行這個主題中的程序，您必須使用「BizTalk Server 系統管理員」群組成員的帳戶登入。</span><span class="sxs-lookup"><span data-stu-id="ba989-110">To perform the procedures in this topic, you must be logged on with an account that is a member of the BizTalk Server Administrators group.</span></span> <span data-ttu-id="ba989-111">如需詳細的權限的詳細資訊，請參閱[部署及管理 BizTalk 應用程式所需的權限](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md)。</span><span class="sxs-lookup"><span data-stu-id="ba989-111">For more detailed information on permissions, see [Permissions Required for Deploying and Managing a BizTalk Application](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).</span></span>  
+  
+## <a name="to-add-a-script-to-an-application"></a><span data-ttu-id="ba989-112">若要新增指令碼至應用程式</span><span class="sxs-lookup"><span data-stu-id="ba989-112">To add a script to an application</span></span>  
+  
+#### <a name="using-the-biztalk-server-administration-console"></a><span data-ttu-id="ba989-113">使用 BizTalk Server 管理主控台</span><span class="sxs-lookup"><span data-stu-id="ba989-113">Using the BizTalk Server Administration console</span></span>  
+  
+1.  <span data-ttu-id="ba989-114">按一下**啟動**，按一下 **所有程式**，按一下  [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]，然後按一下  **BizTalk Server 管理**。</span><span class="sxs-lookup"><span data-stu-id="ba989-114">Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.</span></span>  
+  
+2.  <span data-ttu-id="ba989-115">依序展開 BizTalk 群組和 [應用程式]，然後以滑鼠右鍵按一下要新增指令碼之應用程式的資料夾。</span><span class="sxs-lookup"><span data-stu-id="ba989-115">Expand the BizTalk group, expand Applications, and then right-click the folder of the application to which you want to add a script.</span></span>  
+  
+3.  <span data-ttu-id="ba989-116">指向**新增**，執行下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="ba989-116">Point to **Add**, and do one of the following:</span></span>  
+  
+    -   <span data-ttu-id="ba989-117">按一下**前置處理指令碼**如果您想要應用程式匯入之前執行的指令碼，或開始安裝或解除安裝之後。</span><span class="sxs-lookup"><span data-stu-id="ba989-117">Click **Pre-processing Scripts** if you want the script to run before application import or installation begins or after uninstallation.</span></span>  
+  
+    -   <span data-ttu-id="ba989-118">按一下**後置處理指令碼**如果您想要執行應用程式匯入或安裝後，或在解除安裝之前的指令碼。</span><span class="sxs-lookup"><span data-stu-id="ba989-118">Click **Post-processing Scripts** if you want the script to run after application import or installation, or before uninstallation.</span></span>  
+  
+4.  <span data-ttu-id="ba989-119">按一下**新增**並瀏覽至要加入的指令碼檔案。</span><span class="sxs-lookup"><span data-stu-id="ba989-119">Click **Add** and browse to the script file to add.</span></span>  
+  
+5.  <span data-ttu-id="ba989-120">選取的指令碼檔案，然後按一下**開啟**。</span><span class="sxs-lookup"><span data-stu-id="ba989-120">Select the script file and click **Open**.</span></span>  
+  
+6.  <span data-ttu-id="ba989-121">如果您想要覆寫已經在應用程式中，選取的指令碼檔案**覆寫所有**核取方塊。</span><span class="sxs-lookup"><span data-stu-id="ba989-121">If you want to overwrite a script file that already exists in the application, select the **Overwrite all** check box.</span></span> <span data-ttu-id="ba989-122">指令碼檔案必須與新增檔案同名，才會被覆寫。</span><span class="sxs-lookup"><span data-stu-id="ba989-122">The script file must have the same file name as the one being added to be overwritten.</span></span> <span data-ttu-id="ba989-123">否則，加入新指令碼時，應用程式中的現有指令碼會維持不變。</span><span class="sxs-lookup"><span data-stu-id="ba989-123">Otherwise the new script will be added, and the existing script will remain in the application unchanged.</span></span>  
+  
+7.  <span data-ttu-id="ba989-124">按一下**檔案類型**下拉式清單，然後按一下該檔案類型 – 請**system.biztalk: preprocessingscript**或**system.biztalk: postprocessingscript**。</span><span class="sxs-lookup"><span data-stu-id="ba989-124">Click the **File type** drop-down list and click the file type – either **System.BizTalk:PreprocessingScript** or **System.BizTalk:PostprocessingScript**.</span></span>  
+  
+8.  <span data-ttu-id="ba989-125">必要時，在**目的地位置**類型要指令碼的路徑檔案安裝應用程式時，要複製，然後按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="ba989-125">If necessary, in **Destination location** type the path where you want the script file to be copied when the application is installed, and then click **OK**.</span></span> <span data-ttu-id="ba989-126">預設路徑會將指令碼安裝到應用程式安裝資料夾 (%BTAD_InstallDir%)。</span><span class="sxs-lookup"><span data-stu-id="ba989-126">The default path will install the script to the application installation folder (%BTAD_InstallDir%).</span></span>  
+  
+> [!NOTE]
+>  <span data-ttu-id="ba989-127">如果您沒有提供這個路徑，在安裝時，就不會將指令碼複製到本機檔案系統。</span><span class="sxs-lookup"><span data-stu-id="ba989-127">If you do not provide this path, the script will not be copied to the local file system on installation.</span></span> <span data-ttu-id="ba989-128">如果這個指令碼應該會在應用程式解除安裝時執行，請務必提供這個路徑；否則，指令碼不會出現在本機檔案系統中，並且無法在解除安裝期間執行。</span><span class="sxs-lookup"><span data-stu-id="ba989-128">If the script should run when the application is uninstalled, be sure to provide this path; otherwise the script will not be present on the local file system and will not run during uninstallation.</span></span>  
+  
+ <span data-ttu-id="ba989-129">指令碼隨即加入至應用程式，而且會顯示在應用程式的 [Resources] 資料夾中。</span><span class="sxs-lookup"><span data-stu-id="ba989-129">The script is added to the application and is displayed in the Resources folder of the application.</span></span>  
+  
+#### <a name="using-the-command-line"></a><span data-ttu-id="ba989-130">使用命令列</span><span class="sxs-lookup"><span data-stu-id="ba989-130">Using the command line</span></span>  
+  
+1.  <span data-ttu-id="ba989-131">開啟命令提示字元，如下所示： 按一下**啟動**，按一下**執行**，型別`cmd`，然後按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="ba989-131">Open a command prompt as follows: Click **Start**, click **Run**, type `cmd`, and then click **OK**.</span></span>  
+  
+2.  <span data-ttu-id="ba989-132">輸入下列命令，並以適當的值替代，如下表所述：</span><span class="sxs-lookup"><span data-stu-id="ba989-132">Type the following command, substituting the appropriate values, as described in the following table:</span></span>  
+  
+     <span data-ttu-id="ba989-133">**BTSTask AddResource** [**/ApplicationName:***值*] **/Type:System.BizTalk:PreProcessingScript**&#124;**System.biztalk: postprocessingscript** [**/覆寫**] **/source:***值*[**/Destination:** *值*] [**/Server:***值*] [**/database:***值*] [**/Property:Args ="***引數清單***"**]</span><span class="sxs-lookup"><span data-stu-id="ba989-133">**BTSTask AddResource** [**/ApplicationName:***value*] **/Type:System.BizTalk:PreProcessingScript**&#124;**System.BizTalk:PostProcessingScript** [**/Overwrite**] **/Source:***value* [**/Destination:***value*] [**/Server:***value*] [**/Database:***value*][**/Property:Args="***argument list***"**]</span></span>  
+  
+     <span data-ttu-id="ba989-134">範例：</span><span class="sxs-lookup"><span data-stu-id="ba989-134">Example:</span></span>  
+  
+     <span data-ttu-id="ba989-135">**BTSTask AddResource /applicationname: myapplication /Type:System.BizTalk:PreProcessingScript / 覆寫 /Source:"C:\Source Scripts\MyScript.vbs"/Destination:"C:\New Scripts\MyScript.vbs"/Server:MyDatabaseServer /Database:BizTalkMgmtDb/Property:Args ="引數 1 引數 2"**</span><span class="sxs-lookup"><span data-stu-id="ba989-135">**BTSTask AddResource /ApplicationName:MyApplication /Type:System.BizTalk:PreProcessingScript /Overwrite /Source:"C:\Source Scripts\MyScript.vbs" /Destination:"C:\New Scripts\MyScript.vbs" /Server:MyDatabaseServer /Database:BizTalkMgmtDb /Property:Args="argument1 argument2"**</span></span>  
+  
+    |<span data-ttu-id="ba989-136">參數</span><span class="sxs-lookup"><span data-stu-id="ba989-136">Parameter</span></span>|<span data-ttu-id="ba989-137">值</span><span class="sxs-lookup"><span data-stu-id="ba989-137">Value</span></span>|  
+    |---------------|-----------|  
+    |<span data-ttu-id="ba989-138">**/ 應用程式名稱**</span><span class="sxs-lookup"><span data-stu-id="ba989-138">**/ApplicationName**</span></span>|<span data-ttu-id="ba989-139">加入指令碼之 BizTalk 應用程式的名稱。</span><span class="sxs-lookup"><span data-stu-id="ba989-139">Name of the BizTalk application to which to add the script.</span></span> <span data-ttu-id="ba989-140">如果沒有指定應用程式名稱，將會使用預設的 BizTalk 應用程式。</span><span class="sxs-lookup"><span data-stu-id="ba989-140">If the application name is not specified, the default BizTalk application is used.</span></span> <span data-ttu-id="ba989-141">如果名稱包含空格，您必須將它括在雙引號 (") 中。</span><span class="sxs-lookup"><span data-stu-id="ba989-141">If the name includes spaces, you must enclose it in double quotation marks (").</span></span>|  
+    |<span data-ttu-id="ba989-142">**/ 類型**</span><span class="sxs-lookup"><span data-stu-id="ba989-142">**/Type**</span></span>|<span data-ttu-id="ba989-143">**System.biztalk: preprocessingscript**或**system.biztalk: postprocessingscript**，端視要加入的指令碼類型。</span><span class="sxs-lookup"><span data-stu-id="ba989-143">**System.BizTalk:PreProcessingScript** or **System.BizTalk:PostProcessingScript**, depending on the type of script to add.</span></span> <span data-ttu-id="ba989-144">使用**system.biztalk: preprocessingscript**如果您想要執行應用程式匯入或安裝前或解除安裝後指令碼。</span><span class="sxs-lookup"><span data-stu-id="ba989-144">Use **System.BizTalk:PreProcessingScript** if you want the script to run before application import or installation or after uninstallation.</span></span> <span data-ttu-id="ba989-145">使用**system.biztalk: postprocessingscript**如果您想要執行應用程式匯入或安裝後，或在解除安裝之前的指令碼。</span><span class="sxs-lookup"><span data-stu-id="ba989-145">Use **System.BizTalk:PostProcessingScript** if you want the script to run after application import or installation, or before uninstallation.</span></span>|  
+    |<span data-ttu-id="ba989-146">**/ 覆寫**</span><span class="sxs-lookup"><span data-stu-id="ba989-146">**/Overwrite**</span></span>|<span data-ttu-id="ba989-147">更新現有的指令碼。</span><span class="sxs-lookup"><span data-stu-id="ba989-147">Update an existing script.</span></span> <span data-ttu-id="ba989-148">如果未指定此選項，而且應用程式中現有的指令碼檔案與所加入的指令碼檔案同名，加入作業將會失敗。</span><span class="sxs-lookup"><span data-stu-id="ba989-148">If not specified, and a script file already exists in the application that has the same name as the script file being added, the add operation will fail.</span></span>|  
+    |<span data-ttu-id="ba989-149">**/ 來源**</span><span class="sxs-lookup"><span data-stu-id="ba989-149">**/Source**</span></span>|<span data-ttu-id="ba989-150">指令碼檔案的完整路徑 (包含檔案名稱)。</span><span class="sxs-lookup"><span data-stu-id="ba989-150">Full path of the script file, including the file name.</span></span> <span data-ttu-id="ba989-151">如果路徑包含空格，您必須將它括在雙引號 (") 中。</span><span class="sxs-lookup"><span data-stu-id="ba989-151">If the path includes spaces, you must enclose it in double quotation marks (").</span></span>|  
+    |<span data-ttu-id="ba989-152">**/ 目的地**</span><span class="sxs-lookup"><span data-stu-id="ba989-152">**/Destination**</span></span>|<span data-ttu-id="ba989-153">從 MSI 檔案安裝應用程式時，指令碼檔案之複製目的位置的完整路徑。</span><span class="sxs-lookup"><span data-stu-id="ba989-153">Full path of the location where the script file is to be copied when the application is installed from the MSI file.</span></span> <span data-ttu-id="ba989-154">如果不提供，安裝期間就不會將檔案複製到本機檔案系統。</span><span class="sxs-lookup"><span data-stu-id="ba989-154">If not provided, the file is not copied to the local file system during installation.</span></span> <span data-ttu-id="ba989-155">如果路徑包含空格，您必須將它括在雙引號 (") 中。</span><span class="sxs-lookup"><span data-stu-id="ba989-155">If the path includes spaces, you must enclose it in double quotation marks (").</span></span>|  
+    |<span data-ttu-id="ba989-156">**/ 伺服器**</span><span class="sxs-lookup"><span data-stu-id="ba989-156">**/Server**</span></span>|<span data-ttu-id="ba989-157">裝載 BizTalk 管理資料庫之 SQL Server 執行個體的名稱，其格式為：伺服器名稱\執行個體名稱,連接埠。</span><span class="sxs-lookup"><span data-stu-id="ba989-157">Name of the SQL Server instance hosting the BizTalk Management database, in the form ServerName\InstanceName,Port.</span></span><br /><br /> <span data-ttu-id="ba989-158">只有在執行個體名稱和伺服器名稱不同時，才需要執行個體名稱。</span><span class="sxs-lookup"><span data-stu-id="ba989-158">Instance name is only required when the instance name is different than the server name.</span></span> <span data-ttu-id="ba989-159">只有在 SQL Server 使用預設值 (1433) 以外的連接埠編號時，才需要連接埠。</span><span class="sxs-lookup"><span data-stu-id="ba989-159">Port is only required when SQL Server uses a port number other than the default (1433).</span></span><br /><br /> <span data-ttu-id="ba989-160">範例:</span><span class="sxs-lookup"><span data-stu-id="ba989-160">Examples:</span></span><br /><br /> <span data-ttu-id="ba989-161">Server=MyServer</span><span class="sxs-lookup"><span data-stu-id="ba989-161">Server=MyServer</span></span><br /><br /> <span data-ttu-id="ba989-162">Server=MyServer\MySQLServer,1533</span><span class="sxs-lookup"><span data-stu-id="ba989-162">Server=MyServer\MySQLServer,1533</span></span><br /><br /> <span data-ttu-id="ba989-163">如果不提供，將會使用在本機電腦上執行的 SQL Server 執行個體的名稱。</span><span class="sxs-lookup"><span data-stu-id="ba989-163">If not provided, the name of the SQL Server instance running on the local computer is used.</span></span>|  
+    |<span data-ttu-id="ba989-164">**/ 資料庫**</span><span class="sxs-lookup"><span data-stu-id="ba989-164">**/Database**</span></span>|<span data-ttu-id="ba989-165">BizTalk 管理資料庫的名稱。</span><span class="sxs-lookup"><span data-stu-id="ba989-165">Name of the BizTalk Management database.</span></span> <span data-ttu-id="ba989-166">如果沒有指定，將會使用在 SQL Server 本機執行個體中執行的 BizTalk 管理資料庫。</span><span class="sxs-lookup"><span data-stu-id="ba989-166">If not specified, the BizTalk Management database running in the local instance of SQL Server is used.</span></span>|  
+    |<span data-ttu-id="ba989-167">**/Property:Args =**</span><span class="sxs-lookup"><span data-stu-id="ba989-167">**/Property:Args=**</span></span>|<span data-ttu-id="ba989-168">零或多個引數。</span><span class="sxs-lookup"><span data-stu-id="ba989-168">Zero or more arguments.</span></span> <span data-ttu-id="ba989-169">在此提供的引數會在叫用指令碼時傳入指令碼。</span><span class="sxs-lookup"><span data-stu-id="ba989-169">The arguments provided here will be passed into the script when it is invoked.</span></span>|  
+  
+## <a name="see-also"></a><span data-ttu-id="ba989-170">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ba989-170">See Also</span></span>  
+ <span data-ttu-id="ba989-171">[管理前置或後置處理指令碼](../core/managing-pre-and-post-processing-scripts.md) </span><span class="sxs-lookup"><span data-stu-id="ba989-171">[Managing Pre- and Post-processing Scripts](../core/managing-pre-and-post-processing-scripts.md) </span></span>  
+ <span data-ttu-id="ba989-172">[AddResource 命令： 前置處理指令碼](../core/addresource-command-preprocessing-script.md) </span><span class="sxs-lookup"><span data-stu-id="ba989-172">[AddResource Command: Preprocessing Script](../core/addresource-command-preprocessing-script.md) </span></span>  
+ [<span data-ttu-id="ba989-173">AddResource 命令： 後置處理指令碼</span><span class="sxs-lookup"><span data-stu-id="ba989-173">AddResource Command: Postprocessing Script</span></span>](../core/addresource-command-postprocessing-script.md)

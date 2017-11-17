@@ -1,0 +1,60 @@
+---
+title: "交易集彙總報告 |Microsoft 文件"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: a6e1417e-e0c6-4d30-aab5-d9bfe14cd4b8
+caps.latest.revision: "11"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 960fe64eb61504cb07b71be3e1870007b46c5fa9
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/20/2017
+---
+# <a name="transaction-set-aggregation-report"></a><span data-ttu-id="7ac71-102">交易集彙總報告</span><span class="sxs-lookup"><span data-stu-id="7ac71-102">Transaction Set Aggregation Report</span></span>
+<span data-ttu-id="7ac71-103">此報告可提供一份記錄，顯示共用相同交易集識別碼、EDI 編碼類型、傳送者合作對象、接收者合作對象以及方向的 EDI 交易集數目。</span><span class="sxs-lookup"><span data-stu-id="7ac71-103">This report provides a single record that shows the number of EDI transaction sets that share the same Transaction Set ID, EDI encoding type, sender party, receiver party, and direction.</span></span> <span data-ttu-id="7ac71-104">此報告不提供個別交易集的詳細資料。</span><span class="sxs-lookup"><span data-stu-id="7ac71-104">This report does not provide details about the individual transaction sets.</span></span>  
+  
+ <span data-ttu-id="7ac71-105">在 BizTalk Server 管理主控台的 [群組中樞] 頁面底部的 [交易集彙總報告] 連結，即可顯示此狀態報告。</span><span class="sxs-lookup"><span data-stu-id="7ac71-105">This status report is displayed by clicking the Transaction Set Aggregation Report link at the bottom of the Group Hub page in the BizTalk Server Administration Console.</span></span>  
+  
+## <a name="fields-in-the-status-report"></a><span data-ttu-id="7ac71-106">狀態報告中的欄位</span><span class="sxs-lookup"><span data-stu-id="7ac71-106">Fields in the Status Report</span></span>  
+ <span data-ttu-id="7ac71-107">[交易集彙總報告] 會顯示下列已接收或已傳送之交換的資訊：</span><span class="sxs-lookup"><span data-stu-id="7ac71-107">The Transaction Set Aggregation Report displays the following information for the received or sent interchanges:</span></span>  
+  
+-   <span data-ttu-id="7ac71-108">有多少交易集共用相同的交易集識別碼、EDI 編碼類型、傳送者合作對象、接收者合作對象以及方向的計數</span><span class="sxs-lookup"><span data-stu-id="7ac71-108">A count of how many transaction sets share the same Transaction Set ID, EDI encoding type, sender party, receiver party, and direction</span></span>  
+  
+-   <span data-ttu-id="7ac71-109">記錄中每個交易集的傳送者合作對象</span><span class="sxs-lookup"><span data-stu-id="7ac71-109">The Sender Party for each transaction set in the record</span></span>  
+  
+-   <span data-ttu-id="7ac71-110">記錄中每個交易集的接收者合作對象</span><span class="sxs-lookup"><span data-stu-id="7ac71-110">The Receiver Party for each transaction set in the record</span></span>  
+  
+-   <span data-ttu-id="7ac71-111">記錄中每個交易集的方向 (接收或傳送)</span><span class="sxs-lookup"><span data-stu-id="7ac71-111">The Direction (receive or send) of each transaction set in the record</span></span>  
+  
+-   <span data-ttu-id="7ac71-112">在時間範圍內，最早傳送或接收之交易集的日期和時間 (最早開始日期/時間)</span><span class="sxs-lookup"><span data-stu-id="7ac71-112">The date and time at which the earliest transaction set in the time range was sent or received (Earliest Started Date/Time)</span></span>  
+  
+    > [!NOTE]
+    >  <span data-ttu-id="7ac71-113">接收文件，如果交換中所指定的日期是 YYMMDD 格式和 YY 是大於或等於 75，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]會將年份顯示 19YY。</span><span class="sxs-lookup"><span data-stu-id="7ac71-113">For received documents, if the date specified in the interchange is YYMMDD format and YY is greater than or equal to 75, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will display the year as 19YY.</span></span> <span data-ttu-id="7ac71-114">如果日期為少於 75 台，它會顯示為 20YY。</span><span class="sxs-lookup"><span data-stu-id="7ac71-114">If the date is less than 75, it will be displayed as 20YY.</span></span>  
+    >   
+    >  <span data-ttu-id="7ac71-115">例如，如果您收到包含值 991113 中 isa09-交換時，最早開始日期/時間會列入報表中為 11/13/1999年。</span><span class="sxs-lookup"><span data-stu-id="7ac71-115">For example, if you receive an interchange that contains the value 991113 in ISA09, the Earliest Started Date/Time will be listed in the report as 11/13/1999.</span></span>  
+  
+-   <span data-ttu-id="7ac71-116">在時間範圍內，最晚傳送或接收之交易集的日期和時間 (最新結束日期/時間)</span><span class="sxs-lookup"><span data-stu-id="7ac71-116">The date and time at which the latest transaction set in the time range was sent or received (Latest Ended Date/Time)</span></span>  
+  
+## <a name="fields-in-the-query-expression-for-the-status-report"></a><span data-ttu-id="7ac71-117">狀態報告之查詢運算式中的欄位</span><span class="sxs-lookup"><span data-stu-id="7ac71-117">Fields in the Query Expression for the Status Report</span></span>  
+ <span data-ttu-id="7ac71-118">您可以自訂 [交換彙總報告]，只要變更會決定所顯示資料之查詢運算式中的欄位即可。</span><span class="sxs-lookup"><span data-stu-id="7ac71-118">You can customize the Interchange Aggregation Report by changing the fields in the query expression that determines the data displayed.</span></span> <span data-ttu-id="7ac71-119">可用的欄位如下：</span><span class="sxs-lookup"><span data-stu-id="7ac71-119">The following fields are available:</span></span>  
+  
+|||||  
+|-|-|-|-|  
+|<span data-ttu-id="7ac71-120">查詢運算式欄位</span><span class="sxs-lookup"><span data-stu-id="7ac71-120">Query Expression Field</span></span>|<span data-ttu-id="7ac71-121">可能的運算子</span><span class="sxs-lookup"><span data-stu-id="7ac71-121">Potential Operators</span></span>|<span data-ttu-id="7ac71-122">可能的值</span><span class="sxs-lookup"><span data-stu-id="7ac71-122">Potential Values</span></span>|<span data-ttu-id="7ac71-123">預設已包含？</span><span class="sxs-lookup"><span data-stu-id="7ac71-123">Included By Default?</span></span>|  
+|<span data-ttu-id="7ac71-124">搜尋</span><span class="sxs-lookup"><span data-stu-id="7ac71-124">Search for</span></span>|<span data-ttu-id="7ac71-125">等於</span><span class="sxs-lookup"><span data-stu-id="7ac71-125">Equals</span></span>|<span data-ttu-id="7ac71-126">交易集彙總報告</span><span class="sxs-lookup"><span data-stu-id="7ac71-126">Transaction Set Aggregation Report</span></span>|<span data-ttu-id="7ac71-127">是 (必要)</span><span class="sxs-lookup"><span data-stu-id="7ac71-127">Yes (required)</span></span>|  
+|<span data-ttu-id="7ac71-128">交換日期時間</span><span class="sxs-lookup"><span data-stu-id="7ac71-128">Interchange Date Time</span></span>|<span data-ttu-id="7ac71-129">小於或等於</span><span class="sxs-lookup"><span data-stu-id="7ac71-129">Less Than or Equals</span></span><br /><br /> <span data-ttu-id="7ac71-130">大於或等於</span><span class="sxs-lookup"><span data-stu-id="7ac71-130">Greater Than or Equals</span></span>|<span data-ttu-id="7ac71-131">特定日期時間</span><span class="sxs-lookup"><span data-stu-id="7ac71-131">Specific Date Time</span></span><br /><br /> <span data-ttu-id="7ac71-132">今天</span><span class="sxs-lookup"><span data-stu-id="7ac71-132">Today</span></span><br /><br /> <span data-ttu-id="7ac71-133">今日 - 1</span><span class="sxs-lookup"><span data-stu-id="7ac71-133">Today - 1</span></span>|<span data-ttu-id="7ac71-134">是</span><span class="sxs-lookup"><span data-stu-id="7ac71-134">Yes</span></span><br /><br /> <span data-ttu-id="7ac71-135">附註： 可以包含在查詢運算式中，一次使用小於兩次-運算子，另一次加入大於位運算子，以便提供範圍</span><span class="sxs-lookup"><span data-stu-id="7ac71-135">Note: Can be included twice in the query expression, once with a less-than operator and once with  a greater-than operator, to provide a range</span></span>|  
+|<span data-ttu-id="7ac71-136">相符記錄上限</span><span class="sxs-lookup"><span data-stu-id="7ac71-136">Maximum Matches</span></span>|<span data-ttu-id="7ac71-137">等於</span><span class="sxs-lookup"><span data-stu-id="7ac71-137">Equals</span></span>|<span data-ttu-id="7ac71-138">整數 (預設為 50)</span><span class="sxs-lookup"><span data-stu-id="7ac71-138">Integer (default of 50)</span></span>|<span data-ttu-id="7ac71-139">是</span><span class="sxs-lookup"><span data-stu-id="7ac71-139">Yes</span></span>|  
+|<span data-ttu-id="7ac71-140">方向</span><span class="sxs-lookup"><span data-stu-id="7ac71-140">Direction</span></span>|<span data-ttu-id="7ac71-141">等於</span><span class="sxs-lookup"><span data-stu-id="7ac71-141">Equals</span></span>|<span data-ttu-id="7ac71-142">全部 (預設)</span><span class="sxs-lookup"><span data-stu-id="7ac71-142">All (default)</span></span><br /><br /> <span data-ttu-id="7ac71-143">Receive</span><span class="sxs-lookup"><span data-stu-id="7ac71-143">Receive</span></span><br /><br /> <span data-ttu-id="7ac71-144">Send</span><span class="sxs-lookup"><span data-stu-id="7ac71-144">Send</span></span>|<span data-ttu-id="7ac71-145">否</span><span class="sxs-lookup"><span data-stu-id="7ac71-145">No</span></span>|  
+|<span data-ttu-id="7ac71-146">接收者合作對象名稱</span><span class="sxs-lookup"><span data-stu-id="7ac71-146">Receiver Party Name</span></span>|<span data-ttu-id="7ac71-147">等於</span><span class="sxs-lookup"><span data-stu-id="7ac71-147">Equals</span></span>|<span data-ttu-id="7ac71-148">全部 (預設)</span><span class="sxs-lookup"><span data-stu-id="7ac71-148">All (default)</span></span><br /><br /> <span data-ttu-id="7ac71-149">特定合作對象名稱 (AN 字串)</span><span class="sxs-lookup"><span data-stu-id="7ac71-149">Specific party name (AN string)</span></span>|<span data-ttu-id="7ac71-150">否</span><span class="sxs-lookup"><span data-stu-id="7ac71-150">No</span></span>|  
+|<span data-ttu-id="7ac71-151">傳送者合作對象名稱</span><span class="sxs-lookup"><span data-stu-id="7ac71-151">Sender Party Name</span></span>|<span data-ttu-id="7ac71-152">等於</span><span class="sxs-lookup"><span data-stu-id="7ac71-152">Equals</span></span>|<span data-ttu-id="7ac71-153">全部 (預設)</span><span class="sxs-lookup"><span data-stu-id="7ac71-153">All (default)</span></span><br /><br /> <span data-ttu-id="7ac71-154">特定合作對象名稱 (AN 字串)</span><span class="sxs-lookup"><span data-stu-id="7ac71-154">Specific party name (AN string)</span></span>|<span data-ttu-id="7ac71-155">否</span><span class="sxs-lookup"><span data-stu-id="7ac71-155">No</span></span>|  
+|<span data-ttu-id="7ac71-156">狀態</span><span class="sxs-lookup"><span data-stu-id="7ac71-156">Status</span></span>|<span data-ttu-id="7ac71-157">等於</span><span class="sxs-lookup"><span data-stu-id="7ac71-157">Equals</span></span><br /><br /> <span data-ttu-id="7ac71-158">不等於</span><span class="sxs-lookup"><span data-stu-id="7ac71-158">Not Equals</span></span>|<span data-ttu-id="7ac71-159">已接受</span><span class="sxs-lookup"><span data-stu-id="7ac71-159">Accepted</span></span><br /><br /> <span data-ttu-id="7ac71-160">已接受，發生錯誤</span><span class="sxs-lookup"><span data-stu-id="7ac71-160">Accepted with Errors</span></span><br /><br /> <span data-ttu-id="7ac71-161">已傳送</span><span class="sxs-lookup"><span data-stu-id="7ac71-161">Sent</span></span><br /><br /> <span data-ttu-id="7ac71-162">全部</span><span class="sxs-lookup"><span data-stu-id="7ac71-162">All</span></span><br /><br /> <span data-ttu-id="7ac71-163">預期通知</span><span class="sxs-lookup"><span data-stu-id="7ac71-163">Ack Expected</span></span><br /><br /> <span data-ttu-id="7ac71-164">未預期通知</span><span class="sxs-lookup"><span data-stu-id="7ac71-164">Ack Not Expected</span></span><br /><br /> <span data-ttu-id="7ac71-165">已拒絕</span><span class="sxs-lookup"><span data-stu-id="7ac71-165">Rejected</span></span>|<span data-ttu-id="7ac71-166">否</span><span class="sxs-lookup"><span data-stu-id="7ac71-166">No</span></span>|  
+|<span data-ttu-id="7ac71-167">交易集識別碼</span><span class="sxs-lookup"><span data-stu-id="7ac71-167">Transaction Set ID</span></span>|<span data-ttu-id="7ac71-168">等於</span><span class="sxs-lookup"><span data-stu-id="7ac71-168">Equals</span></span>|<span data-ttu-id="7ac71-169">全部 (預設)</span><span class="sxs-lookup"><span data-stu-id="7ac71-169">All (default)</span></span><br /><br /> <span data-ttu-id="7ac71-170">特定交易集識別碼</span><span class="sxs-lookup"><span data-stu-id="7ac71-170">Specific transaction set ID</span></span>|<span data-ttu-id="7ac71-171">否</span><span class="sxs-lookup"><span data-stu-id="7ac71-171">No</span></span>|  
+  

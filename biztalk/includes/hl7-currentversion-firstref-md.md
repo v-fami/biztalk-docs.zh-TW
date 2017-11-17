@@ -1,0 +1,1 @@
+<span data-ttu-id="be486-101">BizTalk Accelerator for HL7 (BTAHL7)</span><span class="sxs-lookup"><span data-stu-id="be486-101">BizTalk Accelerator for HL7 (BTAHL7)</span></span>

@@ -1,0 +1,124 @@
+---
+title: "一般指導方針，改善網路效能 |Microsoft 文件"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: 286c10d2-9262-4e3c-adde-f7b5780c2736
+caps.latest.revision: "4"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 67b76a7e488610a72952832d2a84526ca60d6989
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/20/2017
+---
+# <a name="general-guidelines-for-improving-network-performance"></a><span data-ttu-id="c7df1-102">改善網路效能的一般指導方針</span><span class="sxs-lookup"><span data-stu-id="c7df1-102">General Guidelines for Improving Network Performance</span></span>
+<span data-ttu-id="c7df1-103">調整網路設定，以最佳值可能會有效地解決網路瓶頸，並改善在 BizTalk Server 解決方案的整體網路效能。</span><span class="sxs-lookup"><span data-stu-id="c7df1-103">Adjusting network settings to optimal values has been shown to effectively address network bottlenecks and improve overall network performance in BizTalk Server solutions.</span></span> <span data-ttu-id="c7df1-104">這應該在方案中，包括 BizTalk Server 電腦、 SQL Server 電腦，以及任何其他伺服器的電腦所涉及的所有電腦上。</span><span class="sxs-lookup"><span data-stu-id="c7df1-104">This should be done on all computers involved in the solution, including BizTalk Server computers, SQL Server computers, and any other server computers.</span></span>  
+  
+> [!NOTE]  
+>  <span data-ttu-id="c7df1-105">最常見網路 IO 是 BizTalk Server 環境中的是效能瓶頸的指標是計數器 「 SQL Server： 等候 Statistics\Network IO 等候 」。</span><span class="sxs-lookup"><span data-stu-id="c7df1-105">The most common indicator that Network IO is a bottleneck in a BizTalk Server environment is the counter “SQL Server:Wait Statistics\Network IO waits”.</span></span> <span data-ttu-id="c7df1-106">當值**平均等候時間**在此計數器是大於零的一或多個 SQL Server 電腦，則網路 IO 是瓶頸。</span><span class="sxs-lookup"><span data-stu-id="c7df1-106">When the value for **Avg Wait Time** in this counter is greater than zero on one or more of your SQL Server computers, then Network IO is a bottleneck.</span></span>  
+  
+ <span data-ttu-id="c7df1-107">下列建議可提高網路效能：</span><span class="sxs-lookup"><span data-stu-id="c7df1-107">The following recommendation can be used to increase network performance:</span></span>  
+  
+## <a name="add-additional-network-cards-to-computers-in-the-biztalk-server-environment"></a><span data-ttu-id="c7df1-108">將其他網路介面卡新增至 BizTalk Server 環境中的電腦</span><span class="sxs-lookup"><span data-stu-id="c7df1-108">Add additional network cards to computers in the BizTalk Server environment</span></span>  
+ <span data-ttu-id="c7df1-109">只要新增其他的硬碟可以改善磁碟效能、 新增其他網路介面卡可以改善網路效能。</span><span class="sxs-lookup"><span data-stu-id="c7df1-109">Just as adding additional hard drives can improve disk performance, adding additional network cards can improve network performance.</span></span> <span data-ttu-id="c7df1-110">如果飽和 BizTalk Server 環境中的電腦上的網路卡和智慧卡是瓶頸，請考慮增加一或多個額外的網路介面卡來改善效能。</span><span class="sxs-lookup"><span data-stu-id="c7df1-110">If the network cards on the computers in your BizTalk Server environment are saturated and the card is a bottleneck, consider adding one or more additional network cards to improve performance.</span></span>  
+  
+## <a name="implement-network-segmentation"></a><span data-ttu-id="c7df1-111">實作網路分割</span><span class="sxs-lookup"><span data-stu-id="c7df1-111">Implement network segmentation</span></span>  
+ <span data-ttu-id="c7df1-112">請遵循建議**子網路**區段[「 BizTalk Server 資料庫最佳化 」 白皮書](http://go.microsoft.com/fwlink/?LinkID=101578)(http://go.microsoft.com/fwlink/?LinkID=101578)。</span><span class="sxs-lookup"><span data-stu-id="c7df1-112">Follow the recommendations in the **Subnets** section of the ["BizTalk Server Database Optimization" whitepaper](http://go.microsoft.com/fwlink/?LinkID=101578) (http://go.microsoft.com/fwlink/?LinkID=101578).</span></span>  
+  
+## <a name="where-possible-replace-hubs-with-switches"></a><span data-ttu-id="c7df1-113">可能的話，則將中樞取代參數</span><span class="sxs-lookup"><span data-stu-id="c7df1-113">Where possible, replace hubs with switches</span></span>  
+ <span data-ttu-id="c7df1-114">參數包含邏輯來直接之間路由傳送流量的來源和目的地而集線器使用廣播的模型路由傳送流量。</span><span class="sxs-lookup"><span data-stu-id="c7df1-114">Switches contain logic to directly route traffic between the source and destination whereas hubs use a broadcast model to route traffic.</span></span> <span data-ttu-id="c7df1-115">因此參數更有效率，而且提供改進的效能。</span><span class="sxs-lookup"><span data-stu-id="c7df1-115">Therefore switches are more efficient and offer improved performance.</span></span>  
+  
+## <a name="remove-unnecessary-network-protocols"></a><span data-ttu-id="c7df1-116">移除不必要的網路通訊協定</span><span class="sxs-lookup"><span data-stu-id="c7df1-116">Remove unnecessary network protocols</span></span>  
+ <span data-ttu-id="c7df1-117">Windows Server 電腦有時會有多個網路服務和安裝比實際需要的通訊協定。</span><span class="sxs-lookup"><span data-stu-id="c7df1-117">Windows Server computers sometimes have more network services and protocols installed than are actually required.</span></span> <span data-ttu-id="c7df1-118">每個額外的網路用戶端、 服務或通訊協定放置於其他負擔系統資源。</span><span class="sxs-lookup"><span data-stu-id="c7df1-118">Each additional network client, service or protocol places additional overhead on system resources.</span></span>  
+<span data-ttu-id="c7df1-119">此外，每個已安裝的通訊協定會產生網路流量。</span><span class="sxs-lookup"><span data-stu-id="c7df1-119">In addition, each installed protocol generates network traffic.</span></span> <span data-ttu-id="c7df1-120">藉由移除不必要的網路用戶端、 服務與通訊協定，系統資源的其他程序，可以避免過多的網路流量和可必須交涉的網路繫結數目會減少到最低。</span><span class="sxs-lookup"><span data-stu-id="c7df1-120">By removing unnecessary network clients, services and protocols, system resources are made available for other processes, excess network traffic is avoided and the number of network bindings that must be negotiated is reduced to a minimum.</span></span>  
+<span data-ttu-id="c7df1-121">若要查看目前已安裝的網路用戶端，通訊協定和服務，請遵循下列步驟：</span><span class="sxs-lookup"><span data-stu-id="c7df1-121">To see the currently installed network clients, protocols and services, follow these steps:</span></span>  
+  
+1.  <span data-ttu-id="c7df1-122">按一下**啟動**，然後按一下 **控制台**。</span><span class="sxs-lookup"><span data-stu-id="c7df1-122">Click **Start**, and then click **Control Panel**.</span></span>  
+  
+2.  <span data-ttu-id="c7df1-123">在控制台中，執行下列其中一項</span><span class="sxs-lookup"><span data-stu-id="c7df1-123">In Control Panel, do one of the following</span></span>  
+  
+    1.  <span data-ttu-id="c7df1-124">在**調整您的電腦設定**，將**檢視**至**類別**，按一下**網路和網際網路**，然後按一下  **網路和共用中心**。</span><span class="sxs-lookup"><span data-stu-id="c7df1-124">In **Adjust your computer’s settings**, set **View by** to **Category**, click **Network and Internet**, and then click **Network and Sharing Center**.</span></span>  
+  
+    2.  <span data-ttu-id="c7df1-125">在**調整您的電腦設定**，將**檢視**為**大圖示**或**小圖示**，然後按一下  **網路和共用中心**。</span><span class="sxs-lookup"><span data-stu-id="c7df1-125">In **Adjust your computer’s settings**, set **View by** to either **Large icons** or **Small icons**, and then click **Network and Sharing Center**.</span></span>  
+  
+3.  <span data-ttu-id="c7df1-126">在 [工作] 窗格中，按一下**變更介面卡設定**。</span><span class="sxs-lookup"><span data-stu-id="c7df1-126">In the Tasks pane, click **Change adapter settings**.</span></span>  
+  
+4.  <span data-ttu-id="c7df1-127">以滑鼠右鍵按一下**區域連線**（或您的網路連線的項目），然後按一下 **屬性**顯示網路連線 內容 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="c7df1-127">Right-click **Local Area Connection** (or the entry for your network connection), and then click **Properties** to display the properties dialog box for the network connection.</span></span>  
+  
+5.  <span data-ttu-id="c7df1-128">若要移除不必要的項目，請選取它，然後按一下**解除安裝**。</span><span class="sxs-lookup"><span data-stu-id="c7df1-128">To remove an unnecessary item, select it and click **Uninstall**.</span></span> <span data-ttu-id="c7df1-129">若要停用項目，只清除項目相關聯的核取方塊。</span><span class="sxs-lookup"><span data-stu-id="c7df1-129">To disable an item, simply clear the checkbox associated with the item.</span></span>  
+  
+ <span data-ttu-id="c7df1-130">如果您不確定解除安裝的項目連接的效果，則停用項目，而不是解除安裝它。</span><span class="sxs-lookup"><span data-stu-id="c7df1-130">If you are unsure about the effects of uninstalling an item for the connection, then disable the item rather than uninstalling it.</span></span> <span data-ttu-id="c7df1-131">停用項目，可讓您判斷哪些服務、 通訊協定和用戶端實際所需的系統上。</span><span class="sxs-lookup"><span data-stu-id="c7df1-131">Disabling items allows you to determine which services, protocols and clients are actually required on a system.</span></span> <span data-ttu-id="c7df1-132">當已決定，停用項目在伺服器上有任何不良影響時，項目可以再解除安裝。</span><span class="sxs-lookup"><span data-stu-id="c7df1-132">When it has been determined that disabling an item has no adverse affect on the server, the item can then be uninstalled.</span></span>  
+<span data-ttu-id="c7df1-133">在許多情況下，只有下列三個元件是標準 TCP/IP 型網路上的作業需要：</span><span class="sxs-lookup"><span data-stu-id="c7df1-133">In many cases, only the following three components are required for operation on a standard TCP/IP based network:</span></span>  
+  
+-   <span data-ttu-id="c7df1-134">Client for Microsoft Networks</span><span class="sxs-lookup"><span data-stu-id="c7df1-134">Client for Microsoft Networks</span></span>  
+  
+-   <span data-ttu-id="c7df1-135">檔案和 Printer Sharing for Microsoft Networks</span><span class="sxs-lookup"><span data-stu-id="c7df1-135">File and Printer Sharing for Microsoft Networks</span></span>  
+  
+-   <span data-ttu-id="c7df1-136">網際網路通訊協定 (TCP/IP)</span><span class="sxs-lookup"><span data-stu-id="c7df1-136">Internet Protocol (TCP/IP)</span></span>  
+  
+## <a name="network-adapter-drivers-on-all-computers-in-the-biztalk-server-environment-should-be-tuned-for-performance"></a><span data-ttu-id="c7df1-137">在 BizTalk Server 環境中的所有電腦上的網路介面卡驅動程式應微調的效能</span><span class="sxs-lookup"><span data-stu-id="c7df1-137">Network adapter drivers on all computers in the BizTalk Server environment should be tuned for performance</span></span>  
+  
+> [!IMPORTANT]  
+>  <span data-ttu-id="c7df1-138">套用一律調整網路介面卡驅動程式之前，請在環境中安裝網路卡的最新網路介面卡裝置驅動程式。</span><span class="sxs-lookup"><span data-stu-id="c7df1-138">Before applying tuning to network adapter drivers always install the latest network adapter device drivers for the network cards in the environment.</span></span>  
+  
+ <span data-ttu-id="c7df1-139">調整網路介面卡裝置驅動程式，以最大化的封包緩衝區、 可用的記憶體數量，傳入和傳出。</span><span class="sxs-lookup"><span data-stu-id="c7df1-139">Adjust the network adapter device drivers to maximize the amount of memory available for packet buffering, both incoming and outgoing.</span></span> <span data-ttu-id="c7df1-140">也最大化緩衝區計數，尤其是傳輸緩衝區和聯合緩衝區。</span><span class="sxs-lookup"><span data-stu-id="c7df1-140">Also maximize buffer counts, especially transmit buffers and coalesce buffers.</span></span> <span data-ttu-id="c7df1-141">預設值為這些參數，，及是否即使提供，而有所不同製造商與驅動程式版本。</span><span class="sxs-lookup"><span data-stu-id="c7df1-141">The default values for these parameters, and whether they are even provided, vary between manufacturers and driver versions.</span></span> <span data-ttu-id="c7df1-142">目標是以最大化網路介面卡硬體，所完成的工作，並允許以降低網路流量爆發和相關聯的壅塞的網路作業的最大可能的緩衝區空間。</span><span class="sxs-lookup"><span data-stu-id="c7df1-142">The goal is to maximize the work done by the network adapter hardware, and to allow the greatest possible buffer space for network operations to mitigate network traffic bursts and associated congestion.</span></span>  
+  
+> [!NOTE]  
+>  <span data-ttu-id="c7df1-143">來微調網路介面卡驅動程式的步驟會因製造商而異。</span><span class="sxs-lookup"><span data-stu-id="c7df1-143">Steps to tune network adapter drivers vary by manufacturer.</span></span>  
+  
+ <span data-ttu-id="c7df1-144">請遵循下列步驟來存取網路介面卡設定：</span><span class="sxs-lookup"><span data-stu-id="c7df1-144">Follow these steps to access settings for network adapters:</span></span>  
+  
+1.  <span data-ttu-id="c7df1-145">按一下**啟動**，然後按一下 **控制台**。</span><span class="sxs-lookup"><span data-stu-id="c7df1-145">Click **Start** and then click **Control Panel**.</span></span>  
+  
+2.  <span data-ttu-id="c7df1-146">在控制台中，執行下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="c7df1-146">In Control Panel, do one of the following:</span></span>  
+  
+    1.  <span data-ttu-id="c7df1-147">在**調整您的電腦設定**，將**檢視**至**類別**，按一下**網路和網際網路**，然後按一下  **網路和共用中心**。</span><span class="sxs-lookup"><span data-stu-id="c7df1-147">In **Adjust your computer’s settings**, set **View by** to **Category**, click **Network and Internet**, and then click **Network and Sharing Center**.</span></span>  
+  
+    2.  <span data-ttu-id="c7df1-148">在**調整您的電腦設定**，將**檢視**為**大圖示**或**小圖示**，然後按一下  **網路和共用中心**。</span><span class="sxs-lookup"><span data-stu-id="c7df1-148">In **Adjust your computer’s settings**, set **View by** to either **Large icons** or **Small icons**, and then click **Network and Sharing Center**.</span></span>  
+  
+3.  <span data-ttu-id="c7df1-149">在 [工作] 窗格中，按一下**變更介面卡設定**。</span><span class="sxs-lookup"><span data-stu-id="c7df1-149">In the Tasks pane, click **Change adapter settings**.</span></span>  
+  
+4.  <span data-ttu-id="c7df1-150">以滑鼠右鍵按一下**區域連線**（或您的網路連線名稱），然後按一下 **屬性**。</span><span class="sxs-lookup"><span data-stu-id="c7df1-150">Right-click **Local Area Connection** (or the name of your network connection), and then click **Properties**.</span></span>  
+  
+5.  <span data-ttu-id="c7df1-151">在**網路**索引標籤上，按一下 **設定**。</span><span class="sxs-lookup"><span data-stu-id="c7df1-151">On the **Networking** tab, click **Configure**.</span></span>  
+  
+6.  <span data-ttu-id="c7df1-152">按一下**進階**存取屬性可設定的網路介面卡 索引標籤。</span><span class="sxs-lookup"><span data-stu-id="c7df1-152">Click the **Advanced** tab to access properties that can be configured for the network adapter.</span></span>  
+  
+ <span data-ttu-id="c7df1-153">BizTalk Server 環境中的每個網路介面卡應設定下列屬性：</span><span class="sxs-lookup"><span data-stu-id="c7df1-153">The following properties should be configured for each network adapter in the BizTalk Server environment:</span></span>  
+  
+> [!NOTE]  
+>  <span data-ttu-id="c7df1-154">您套用這些設定包括個別網路介面卡設定為彙總、 負載平衡或容錯功能的網路介面卡組合集內每個實體網路介面卡。</span><span class="sxs-lookup"><span data-stu-id="c7df1-154">You apply these settings for each physical network adapter, including the individual network adapters within a teamed set of network adapters that are configured for aggregation, load balancing, or fault tolerance.</span></span> <span data-ttu-id="c7df1-155">某些小組軟體，您可能需要將這些設定也套用至小組。</span><span class="sxs-lookup"><span data-stu-id="c7df1-155">With some teaming software, you might need to apply these settings to the team also.</span></span> <span data-ttu-id="c7df1-156">請注意，某些網路介面卡會自我調整，而且可能不會提供手動設定參數的選項。</span><span class="sxs-lookup"><span data-stu-id="c7df1-156">Note that some network adapters are self-tuning and may not offer the option to configure parameters manually.</span></span>  
+  
+-   <span data-ttu-id="c7df1-157">**電源選項**– 設定網路介面卡驅動程式，以防止關閉網路介面卡以節省電源的電源管理功能。</span><span class="sxs-lookup"><span data-stu-id="c7df1-157">**Power Option** – Configure the network adapter driver to prevent power management functionality from turning off the network adapter to save power.</span></span> <span data-ttu-id="c7df1-158">這項功能可能適用於用戶端電腦，但是應該很少，如果曾，BizTalk Server 或 SQL Server 的電腦上使用。</span><span class="sxs-lookup"><span data-stu-id="c7df1-158">This functionality may be useful for client computers but should seldom, if ever, be used on a BizTalk Server or SQL Server computer.</span></span>  
+  
+-   <span data-ttu-id="c7df1-159">**固定速度/雙工 （不要使用 AUTO）** -它是非常重要的網路速度、 雙工和流程控制參數會設定為對應到交換器上設定它們所連接。</span><span class="sxs-lookup"><span data-stu-id="c7df1-159">**Fixed Speed/Duplex (do not use AUTO)** - It is very important that the network speed, duplex, and flow control parameters are set to correspond to the settings on the switch to which they are connected.</span></span> <span data-ttu-id="c7df1-160">這會降低定期"自動同步處理 」 會可能暫時離線的連線次數。</span><span class="sxs-lookup"><span data-stu-id="c7df1-160">This will mitigate the occurrence of periodic “auto-synchronization” which may temporarily take connections off-line.</span></span>  
+  
+-   <span data-ttu-id="c7df1-161">**最大聯合緩衝區**-對應暫存器是用來將實體位址轉換為支援匯流排主控的網路介面卡的虛擬位址系統資源。</span><span class="sxs-lookup"><span data-stu-id="c7df1-161">**Max Coalesce Buffers** - Map registers are system resources used to convert physical addresses to virtual addresses for network adapters that support bus mastering.</span></span> <span data-ttu-id="c7df1-162">聯合緩衝區可使用網路驅動程式，如果驅動程式用盡對應暫存器。</span><span class="sxs-lookup"><span data-stu-id="c7df1-162">Coalesce buffers are available to the network driver if the driver runs out of map registers.</span></span> <span data-ttu-id="c7df1-163">設定此值最高可達到最大效能。</span><span class="sxs-lookup"><span data-stu-id="c7df1-163">Set this value as high as possible for maximum performance.</span></span> <span data-ttu-id="c7df1-164">在伺服器上具有有限的實體記憶體，這可能會有負聯合緩衝區的影響會耗用系統記憶體。</span><span class="sxs-lookup"><span data-stu-id="c7df1-164">On servers with limited physical memory, this may have a negative impact as coalesce buffers consume system memory.</span></span> <span data-ttu-id="c7df1-165">在大多數系統上不過，最大值的設定可以套用而不會大幅降低可用的記憶體。</span><span class="sxs-lookup"><span data-stu-id="c7df1-165">On most systems however, the maximum setting can be applied without significantly reducing available memory.</span></span>  
+  
+-   <span data-ttu-id="c7df1-166">**最大傳輸/傳送描述元，以及傳送緩衝區**-此設定會指定多少個傳輸控制驅動程式會以網路介面供配置的緩衝區。</span><span class="sxs-lookup"><span data-stu-id="c7df1-166">**Max Transmit/Send Descriptors and Send Buffers** - This setting specifies how many transmit control buffers the driver allocates for use by the network interface.</span></span> <span data-ttu-id="c7df1-167">這會直接反映驅動程式可以有其 「 傳送 」 佇列中未處理的封包數目。</span><span class="sxs-lookup"><span data-stu-id="c7df1-167">This directly reflects the number of outstanding packets the driver can have in its “send” queue.</span></span> <span data-ttu-id="c7df1-168">設定此值最高可達到最大效能。</span><span class="sxs-lookup"><span data-stu-id="c7df1-168">Set this value as high as possible for maximum performance.</span></span> <span data-ttu-id="c7df1-169">在伺服器上具有有限的實體記憶體，這可能會有負面影響為傳送緩衝區耗用系統記憶體。</span><span class="sxs-lookup"><span data-stu-id="c7df1-169">On servers with limited physical memory, this may have a negative impact as send buffers consume system memory.</span></span> <span data-ttu-id="c7df1-170">在大多數系統上不過，最大值的設定可以套用而不會大幅降低可用的記憶體。</span><span class="sxs-lookup"><span data-stu-id="c7df1-170">On most systems however, the maximum setting can be applied without significantly reducing available memory.</span></span>  
+  
+-   <span data-ttu-id="c7df1-171">**最大接收緩衝區**-此設定指定的通訊協定的記憶體中複製資料時，網路介面驅動程式所使用的記憶體緩衝區數量。</span><span class="sxs-lookup"><span data-stu-id="c7df1-171">**Max Receive Buffers** - This setting specifies the amount of memory buffer used by the network interface driver when copying data to the protocol memory.</span></span> <span data-ttu-id="c7df1-172">它通常是相對較小的值預設設定。</span><span class="sxs-lookup"><span data-stu-id="c7df1-172">It is normally set by default to a relatively low value.</span></span> <span data-ttu-id="c7df1-173">設定此值最高可達到最大效能。</span><span class="sxs-lookup"><span data-stu-id="c7df1-173">Set this value as high as possible for maximum performance.</span></span> <span data-ttu-id="c7df1-174">在伺服器上具有有限的實體記憶體，這可能會有負接收緩衝區的影響會耗用系統記憶體。</span><span class="sxs-lookup"><span data-stu-id="c7df1-174">On servers with limited physical memory, this may have a negative impact as receive buffers consume system memory.</span></span> <span data-ttu-id="c7df1-175">在大多數系統上不過，最大值的設定可以套用而不會大幅降低可用的記憶體。</span><span class="sxs-lookup"><span data-stu-id="c7df1-175">On most systems however, the maximum setting can be applied without significantly reducing available memory.</span></span>  
+  
+-   <span data-ttu-id="c7df1-176">**所有在卸載選項**-幾乎在所有情況下啟用網路介面卸載功能時，改善效能。</span><span class="sxs-lookup"><span data-stu-id="c7df1-176">**All offload options ON** - In almost all cases performance is improved when enabling network interface offload features.</span></span> <span data-ttu-id="c7df1-177">某些網路介面卡提供不同的參數，以啟用或停用卸載，以將傳送並接收流量。</span><span class="sxs-lookup"><span data-stu-id="c7df1-177">Some network adapters provide separate parameters to enable or disable offloading for send and receive traffic.</span></span> <span data-ttu-id="c7df1-178">將工作從 CPU 的網路介面卡卸載，可協助伺服器以提升整體系統效能較低 CPU 使用率。</span><span class="sxs-lookup"><span data-stu-id="c7df1-178">Offloading tasks from the CPU to the network adapter can help lower CPU usage on the server which will improve overall system performance.</span></span> <span data-ttu-id="c7df1-179">Microsoft TCP/IP 傳輸可以卸載一或多個要具有適當的功能的網路介面卡的下列工作：</span><span class="sxs-lookup"><span data-stu-id="c7df1-179">The Microsoft TCP/IP transport can offload one or more of the following tasks to a network adapter that has the appropriate capabilities:</span></span>  
+  
+    -   <span data-ttu-id="c7df1-180">**總和檢查碼工作**-TCP/IP 傳輸可以卸載計算的 IP 和 TCP 總和檢查碼驗證傳送和接收的網路介面卡之後，如果網路介面卡驅動程式提供這項功能，請啟用此選項。</span><span class="sxs-lookup"><span data-stu-id="c7df1-180">**Checksum tasks** - The TCP/IP transport can offload the calculation and validation of IP and TCP checksums for sends and receives to the network adapter; enable this option if the network adapter driver provides this capability.</span></span>  
+  
+    -   <span data-ttu-id="c7df1-181">**IP 安全性工作**-計算和驗證的加密的總和檢查碼驗證標頭 (AH) 」 和 「 封裝安全承載 (ESP) 的網路介面卡，可以將卸載 TCP/IP 傳輸。</span><span class="sxs-lookup"><span data-stu-id="c7df1-181">**IP security tasks** - The TCP/IP transport can offload the calculation and validation of encrypted checksums for authentication headers (AH) and encapsulating security payloads (ESP) to the network adapter.</span></span> <span data-ttu-id="c7df1-182">加密和解密的 ESP 裝載網路介面卡，也可以卸載 TCP/IP 傳輸。</span><span class="sxs-lookup"><span data-stu-id="c7df1-182">The TCP/IP transport can also offload the encryption and decryption of ESP payloads to the network adapter.</span></span> <span data-ttu-id="c7df1-183">如果網路介面卡驅動程式提供這項功能，請啟用這些選項。</span><span class="sxs-lookup"><span data-stu-id="c7df1-183">Enable these options if the network adapter driver provides this capability.</span></span>  
+  
+    -   <span data-ttu-id="c7df1-184">**分割大型 TCP 封包的**-TCP/IP 傳輸支援大型傳送卸載 (LSO)。</span><span class="sxs-lookup"><span data-stu-id="c7df1-184">**Segmentation of large TCP packets** - The TCP/IP transport supports large send offload (LSO).</span></span> <span data-ttu-id="c7df1-185">LSO，使用 TCP/IP 傳輸可以卸載大型 TCP 封包的分割。</span><span class="sxs-lookup"><span data-stu-id="c7df1-185">With LSO, the TCP/IP transport can offload the segmentation of large TCP packets.</span></span>  
+  
+    -   <span data-ttu-id="c7df1-186">**堆疊卸載**– 具有適當的功能的網路介面卡可卸載的整個網路堆疊。</span><span class="sxs-lookup"><span data-stu-id="c7df1-186">**Stack Offload** – The entire network stack can be offloaded to a network adapter that has the appropriate capabilities.</span></span> <span data-ttu-id="c7df1-187">如果網路介面卡驅動程式提供這項功能，請啟用此選項。</span><span class="sxs-lookup"><span data-stu-id="c7df1-187">Enable this option if the network adapter driver provides this capability.</span></span>  
+  
+-   <span data-ttu-id="c7df1-188">**線上醒機停用 （除非使用）** – 設定網路介面卡驅動程式停用喚醒上區域網路功能。</span><span class="sxs-lookup"><span data-stu-id="c7df1-188">**Wake On LAN disabled (unless being used)** – Configure the network adapter driver to disable wake-on lan functionality.</span></span> <span data-ttu-id="c7df1-189">這項功能可用於用戶端電腦，但應該很少如果曾經使用 BizTalk Server 或 SQL Server 的電腦上。</span><span class="sxs-lookup"><span data-stu-id="c7df1-189">This functionality may be useful for client computers but should seldom if ever be used on a BizTalk Server or SQL Server computer.</span></span>  
+  
+ <span data-ttu-id="c7df1-190">如需調整效能的網路介面卡的詳細資訊，請參閱**網路裝置設定**區段[「 BizTalk Server 資料庫最佳化 」 白皮書](http://go.microsoft.com/fwlink/?LinkID=101578)(http://go.microsoft.com/fwlink/?LinkID=101578)。</span><span class="sxs-lookup"><span data-stu-id="c7df1-190">For more information about tuning network adapters for performance, see the **Network Device Settings** section of the ["BizTalk Server Database Optimization" whitepaper](http://go.microsoft.com/fwlink/?LinkID=101578) (http://go.microsoft.com/fwlink/?LinkID=101578).</span></span>  
+  
+## <a name="see-also"></a><span data-ttu-id="c7df1-191">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c7df1-191">See Also</span></span>  
+ [<span data-ttu-id="c7df1-192">您可以修改改善網路效能的設定</span><span class="sxs-lookup"><span data-stu-id="c7df1-192">Settings that can be Modified to Improve Network Performance</span></span>](../technical-guides/settings-that-can-be-modified-to-improve-network-performance.md)

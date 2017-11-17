@@ -1,0 +1,82 @@
+---
+title: "測量最大持續性追蹤輸送量 |Microsoft 文件"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: 35605427-0217-4bdd-8b4a-3e68b3f5f452
+caps.latest.revision: "20"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: af62a8c49f8ac5a36d3607696bef8e3173d7573e
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/20/2017
+---
+# <a name="measuring-maximum-sustainable-tracking-throughput"></a><span data-ttu-id="bc858-102">測量最大持續性追蹤輸送量</span><span class="sxs-lookup"><span data-stu-id="bc858-102">Measuring Maximum Sustainable Tracking Throughput</span></span>
+<span data-ttu-id="bc858-103">當您在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 平台上部署商務解決方案之後，應該追蹤並監控系統，以瞭解下列事項：</span><span class="sxs-lookup"><span data-stu-id="bc858-103">After you deploy a line of business solution onto the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] platform, you should track and monitor the system to understand the following:</span></span>  
+  
+-   <span data-ttu-id="bc858-104">系統如何執行</span><span class="sxs-lookup"><span data-stu-id="bc858-104">How the system is performing</span></span>  
+  
+-   <span data-ttu-id="bc858-105">可能發生哪些例外狀況和錯誤以及原因為何</span><span class="sxs-lookup"><span data-stu-id="bc858-105">What exceptions and errors may be occurring and why</span></span>  
+  
+-   <span data-ttu-id="bc858-106">以 BizTalk 解決方案實作的商務程序的目前狀態</span><span class="sxs-lookup"><span data-stu-id="bc858-106">The current state of the business processes implemented as BizTalk solutions</span></span>  
+  
+ <span data-ttu-id="bc858-107">對許多組織而言，也很重要記錄基於不可否認性目的流經系統的實際原始訊息。</span><span class="sxs-lookup"><span data-stu-id="bc858-107">For many organizations, it is also important to record the actual raw messages flowing through the system for non-repudiation purposes.</span></span> [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="bc858-108">提供兩種類型的追蹤功能可解決這些需求：</span><span class="sxs-lookup"><span data-stu-id="bc858-108"> provides two types of tracking functionality that address these requirements:</span></span>  
+  
+-   <span data-ttu-id="bc858-109">**資料追蹤與活動 (DTA) 追蹤**。</span><span class="sxs-lookup"><span data-stu-id="bc858-109">**Data Tracking and Activity (DTA) tracking**.</span></span> <span data-ttu-id="bc858-110">DTA 可追蹤不同的使用者定義訊息屬性、協調流程偵錯事件、訊息流程事件，以及服務執行個體狀態。</span><span class="sxs-lookup"><span data-stu-id="bc858-110">DTA tracks a variety of user-defined message properties, orchestration debug events, message flow events, and service instance status.</span></span> <span data-ttu-id="bc858-111">您可以使用追蹤來查詢 BizTalk DTA 追蹤資料庫 (BizTalkDTADb) 中儲存的資料。</span><span class="sxs-lookup"><span data-stu-id="bc858-111">You use tracking to query the data stored in the BizTalk DTA Tracking database (BizTalkDTADb).</span></span> <span data-ttu-id="bc858-112">DTA 追蹤也可以包括原始資料 (稱為訊息內文) 的追蹤，用於不可否認性與問題解決。</span><span class="sxs-lookup"><span data-stu-id="bc858-112">DTA tracking also includes the tracking of raw messages, known as message bodies, for non-repudiation and problem resolution purposes.</span></span>  
+  
+-   <span data-ttu-id="bc858-113">**商務活動監控 (BAM) 追蹤**。</span><span class="sxs-lookup"><span data-stu-id="bc858-113">**Business Activity Monitoring (BAM) tracking**.</span></span> <span data-ttu-id="bc858-114">BAM 使用使用者定義的追蹤設定檔，追蹤商務程序到一組特別 BAM 資料庫的狀態。</span><span class="sxs-lookup"><span data-stu-id="bc858-114">BAM uses a user-defined tracking profile to track the state of a business process into a special set of BAM databases.</span></span>  
+  
+ <span data-ttu-id="bc858-115">在此主題中，我們將描述 DTA 架構和一套有系統的方法，以決定採用 DTA 的系統可無限期持續的最大持續性輸送量。</span><span class="sxs-lookup"><span data-stu-id="bc858-115">In this topic, we describe the DTA architecture and a systematic approach to determine the maximum sustainable throughput that a system employing DTA can sustain indefinitely.</span></span> <span data-ttu-id="bc858-116">雖然 DTA 和 BAM 共用部分架構元件，但此主題只討論 DTA 的部分。</span><span class="sxs-lookup"><span data-stu-id="bc858-116">Although DTA and BAM share some architectural components, this topic covers the behavior of DTA only.</span></span> <span data-ttu-id="bc858-117">如需 BAM 架構的資訊，請參閱[商務活動監控 (BAM)](../core/business-activity-monitoring-bam.md)。</span><span class="sxs-lookup"><span data-stu-id="bc858-117">For information about BAM architecture, see [Business Activity Monitoring (BAM)](../core/business-activity-monitoring-bam.md).</span></span>  
+  
+## <a name="overview-of-dta-tracking-architecture"></a><span data-ttu-id="bc858-118">DTA 追蹤架構的概觀</span><span class="sxs-lookup"><span data-stu-id="bc858-118">Overview of DTA Tracking Architecture</span></span>  
+ <span data-ttu-id="bc858-119">訊息流程通過系統時，各種追蹤的項目，像是訊息內文、屬性和事件，通過一連串的程序和資料庫，最後寫入 BizTalkDTADb 資料庫。</span><span class="sxs-lookup"><span data-stu-id="bc858-119">As messages flow through the system, various tracked elements such as message bodies, properties, and events, pass through a series of processes and databases that ultimately result in writing them to the BizTalkDTADb database.</span></span> <span data-ttu-id="bc858-120">在項目寫入 BizTalkDTADb 資料庫後，您可以使用追蹤來查詢追蹤的資訊。</span><span class="sxs-lookup"><span data-stu-id="bc858-120">After the elements are written to the BizTalkDTADb database, you can use tracking to query the tracked information.</span></span> <span data-ttu-id="bc858-121">如需設定和使用 BizTalkDTADb 資料庫中，追蹤，請參閱[檢視歷程記錄和追蹤資料](../core/viewing-historical-and-tracked-data.md)。</span><span class="sxs-lookup"><span data-stu-id="bc858-121">For information about setting up and using the BizTalkDTADb database and tracking, see [Viewing Historical and Tracked Data](../core/viewing-historical-and-tracked-data.md).</span></span>  
+  
+ <span data-ttu-id="bc858-122">為確保系統持續性且將以指定的訊息流程速率無限期執行，追蹤項目在自己的路徑到 BizTalkDTADb 資料庫的路徑以及資料庫本身，都必須維持暢通。</span><span class="sxs-lookup"><span data-stu-id="bc858-122">To ensure that the system is sustainable and will run indefinitely at a given message flow rate, the pathway that tracked elements pass through on their way to the BizTalkDTADb database, and the database itself, need to remain healthy.</span></span> <span data-ttu-id="bc858-123">例如，在沿路徑的資料庫資料表中或 DTA 中建置訊息，若未妥善管理，可能會使資料庫檔案無限制的成長而無法持續。</span><span class="sxs-lookup"><span data-stu-id="bc858-123">For example, messages building up in database tables along the way, or in the DTA, can cause unbounded database file growth that would not be sustainable if not properly managed.</span></span>  
+  
+ <span data-ttu-id="bc858-124">所以，我們現在先從瞭解追蹤資訊流程通過的架構和路徑開始。</span><span class="sxs-lookup"><span data-stu-id="bc858-124">So, let's start by understanding the architecture and pathways that tracked information flows through.</span></span> <span data-ttu-id="bc858-125">這將會公開您必須監控的主要資源和效能指示器，以判斷追蹤系統與通過 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 引擎的訊息流量是否保持良好的聯繫。</span><span class="sxs-lookup"><span data-stu-id="bc858-125">This will expose the key resources and performance indicators that you must monitor to determine how well the tracking system is keeping up with the message traffic flowing through the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] engine.</span></span>  
+  
+ <span data-ttu-id="bc858-126">下圖顯示 DTA 追蹤架構和路徑的概觀。</span><span class="sxs-lookup"><span data-stu-id="bc858-126">The following figure shows an overview of the DTA tracking architecture and pathways.</span></span>  
+  
+ <span data-ttu-id="bc858-127">![DTA 追蹤概觀](../core/media/dtatrackingoverview.gif "DTATrackingOverview")</span><span class="sxs-lookup"><span data-stu-id="bc858-127">![DTA tracking overview](../core/media/dtatrackingoverview.gif "DTATrackingOverview")</span></span>  
+  
+ <span data-ttu-id="bc858-128">依照圖中編號的程序順序，進出 BizTalkDTADb 資料庫的所有 DTA 追蹤資料流程如下：</span><span class="sxs-lookup"><span data-stu-id="bc858-128">Taking the numbered processes from the figure in order, all DTA tracked data flows into and out of the BizTalkDTADb database as follows:</span></span>  
+  
+1.  <span data-ttu-id="bc858-129">BizTalk Server 執行階段程序包括一個稱為攔截器的元件。</span><span class="sxs-lookup"><span data-stu-id="bc858-129">The BizTalk Server runtime process includes a component called the interceptor.</span></span> <span data-ttu-id="bc858-130">攔截器的工作是在執行階段快取追蹤的項目，並在下一個 MessageBox 資料庫往返 (例如，將訊息加入 MessageBox 資料庫的佇列) 時，將快取的項目轉送至 MessageBox 資料庫。</span><span class="sxs-lookup"><span data-stu-id="bc858-130">The interceptor’s job is to cache the tracked elements at runtime and, upon the next MessageBox database roundtrip (for example, en-queuing a message to the MessageBox database), forwards the cached elements to the MessageBox database.</span></span> <span data-ttu-id="bc858-131">攔截器會查看追蹤組態 (也稱為追蹤設定檔) 以決定要追蹤的項目，追蹤組態從管理資料庫取得，並在每個主控件執行階段執行個體快取，供攔截器使用。</span><span class="sxs-lookup"><span data-stu-id="bc858-131">The interceptor determines what elements to track by looking at the tracking configuration (also known as a tracking profile) which is obtained from the management database and cached in each host runtime instance for use by the interceptor.</span></span>  
+  
+     <span data-ttu-id="bc858-132">如上圖所示，有兩個資料流插入 MessageBox 資料庫：</span><span class="sxs-lookup"><span data-stu-id="bc858-132">As shown in the above figure, there are two data streams inserted into the MessageBox database:</span></span>  
+  
+    -   <span data-ttu-id="bc858-133">一個由 Spool 資料表代表</span><span class="sxs-lookup"><span data-stu-id="bc858-133">One represented by the Spool table</span></span>  
+  
+    -   <span data-ttu-id="bc858-134">一個由 TrackingData 資料表代表</span><span class="sxs-lookup"><span data-stu-id="bc858-134">One by the TrackingData table</span></span>  
+  
+     <span data-ttu-id="bc858-135">追蹤的訊息內文使用兩個資料流。</span><span class="sxs-lookup"><span data-stu-id="bc858-135">Tracked message bodies use both streams.</span></span> <span data-ttu-id="bc858-136">也就是說，訊息內文本身 (想成是資料的 BLOB) 是透過由 Spool 資料表代表的一組資料表來處理。</span><span class="sxs-lookup"><span data-stu-id="bc858-136">That is, the message bodies themselves (think of them as blobs of data) are handled via a set of tables represented by the spool table.</span></span> <span data-ttu-id="bc858-137">與訊息內文關聯的訊息事件 (例如，訊息識別項、追蹤訊息內文的時間、與訊息內文關聯的執行個體) 是透過 TrackingData 資料表處理。</span><span class="sxs-lookup"><span data-stu-id="bc858-137">The message events associated with the message bodies (for example, message identifiers, when the message bodies were tracked, what instances the message bodies are associated with) are handled via the TrackingData table.</span></span> <span data-ttu-id="bc858-138">與訊息內文追蹤無關的所有追蹤項目都只由 TrackingData 資料表處理。</span><span class="sxs-lookup"><span data-stu-id="bc858-138">All tracked elements not associated with message body tracking are handled via the TrackingData table only.</span></span>  
+  
+2.  <span data-ttu-id="bc858-139">MessageBox 資料庫只是追蹤資料的第一站，用來快取追蹤資料，讓執行階段可繼續進行處理，不會直接被其他追蹤資料處理封鎖。</span><span class="sxs-lookup"><span data-stu-id="bc858-139">The MessageBox database is just the first stop for tracked data and is used to cache the tracked data so that the runtime can continue processing without being directly blocked by further tracking data processing.</span></span>  
+  
+     <span data-ttu-id="bc858-140">若要將追蹤訊息內文 (BLOB) 傳輸到 BizTalkDTADb 資料庫，您可以在此檢視並將它們封存到比較固定的存放區，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 採用了一個 SQL 代理程式工作，稱為 TrackedMessages_Copy_BizTalkMsgBoxDb，可以在每個 MessageBox 資料庫伺服器上執行。</span><span class="sxs-lookup"><span data-stu-id="bc858-140">To get the tracked message bodies (blobs) transferred to the BizTalkDTADb database where you can view and archive them to more permanent storage, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] employs a SQL Agent job called TrackedMessages_Copy_BizTalkMsgBoxDb which runs on each MessageBox database server.</span></span> <span data-ttu-id="bc858-141">此工作的任務是將標示為追蹤的訊息內文複製到 BizTalkDTADb 資料庫。</span><span class="sxs-lookup"><span data-stu-id="bc858-141">It is the responsibility of this job to copy the message bodies marked for tracking to the BizTalkDTADb database.</span></span>  
+  
+3.  <span data-ttu-id="bc858-142">所有追蹤資料以外的訊息內文會移動從 MessageBox 資料庫到 BizTalkDTADb 資料庫由一或多個稱為 TDDS 中執行的服務[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]主機。</span><span class="sxs-lookup"><span data-stu-id="bc858-142">All of the tracked data other than message bodies are moved from the MessageBox database to the BizTalkDTADb database by a service called TDDS which runs in one or more of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] hosts.</span></span> <span data-ttu-id="bc858-143">只要透過 BizTalk Server 主控台中的主控件屬性頁面將主控件設定為「主控件追蹤」，TDDS 子服務就會在該主控件的每個執行個體執行。</span><span class="sxs-lookup"><span data-stu-id="bc858-143">Whenever a host is configured as Hosts Tracking via the host property pages in the BizTalk Server administration console, the TDDS sub-service will run in every instance of that host.</span></span>  
+  
+4.  <span data-ttu-id="bc858-144">若沒有定期清除 BizTalkDTADb 資料庫，它就會無限制的成長，最後導致操作上的問題。</span><span class="sxs-lookup"><span data-stu-id="bc858-144">Unless the BizTalkDTADb database is purged periodically, it will grow unbounded which will eventually lead to operational problems.</span></span> <span data-ttu-id="bc858-145">現在有一個單一的 SQL 代理程式工作，稱為 DTA 清除與封存 (BizTalkDTADb)，可執行清除 BizTalkDTADb 資料庫的工作。</span><span class="sxs-lookup"><span data-stu-id="bc858-145">There is a single SQL Agent job called DTA Purge and Archive (BizTalkDTADb) that performs the task of purging the BizTalkDTADb database.</span></span> <span data-ttu-id="bc858-146">依照預設，此工作每分鐘執行，並清除早於某些使用者設定的時間 (例如 24 小時) 的所有已完成的執行個體。</span><span class="sxs-lookup"><span data-stu-id="bc858-146">By default, this job runs every minute and purges all completed instances older than some user configured time (for example, 24hours).</span></span>  
+  
+     <span data-ttu-id="bc858-147">如需詳細資訊 trap DTA 清除與封存工作，請參閱 <<c0> [ 如何設定 DTA 清除與封存工作](../core/how-to-configure-the-dta-purge-and-archive-job.md)。</span><span class="sxs-lookup"><span data-stu-id="bc858-147">For more information abut the DTA Purge and Archive job, see [How to Configure the DTA Purge and Archive Job](../core/how-to-configure-the-dta-purge-and-archive-job.md).</span></span>  
+  
+5.  <span data-ttu-id="bc858-148">DTA 清除與封存工作也可以選擇將 BizTalkDTADb 資料封存為 SQL 備份，以便長期儲存和/或離線檢視資料。</span><span class="sxs-lookup"><span data-stu-id="bc858-148">Optionally, the DTA Purge and Archive job can also archive the BizTalkDTADb data as a SQL Backup for longer term storage and/or off-line viewing of the data.</span></span> <span data-ttu-id="bc858-149">如果需要查詢封存的 BizTalkDTADb 資料，首先必須還原為 SQL Server 的新資料庫，然後您可以使用追蹤或 SQL Query Analyzer 來查詢它。</span><span class="sxs-lookup"><span data-stu-id="bc858-149">If the archived BizTalkDTADb data needs to be queried, it must first be restored as a new database in SQL Server and then you can use tracking or the SQL Query Analyzer to query it.</span></span>  
+  
+## <a name="in-this-section"></a><span data-ttu-id="bc858-150">本節內容</span><span class="sxs-lookup"><span data-stu-id="bc858-150">In This Section</span></span>  
+  
+-   [<span data-ttu-id="bc858-151">瞭解 DTA 追蹤效能行為</span><span class="sxs-lookup"><span data-stu-id="bc858-151">Understanding DTA Tracking Performance Behavior</span></span>](../core/understanding-dta-tracking-performance-behavior.md)  
+  
+-   [<span data-ttu-id="bc858-152">測量 MST 的 DTA 追蹤測試案例</span><span class="sxs-lookup"><span data-stu-id="bc858-152">Test Scenarios for Measuring MST of DTA Tracking</span></span>](../core/test-scenarios-for-measuring-mst-of-dta-tracking.md)  
+  
+-   [<span data-ttu-id="bc858-153">秘訣和訣竅尋找 MST 的 DTA 追蹤</span><span class="sxs-lookup"><span data-stu-id="bc858-153">Tips and Tricks for Finding MST of DTA Tracking</span></span>](../core/tips-and-tricks-for-finding-mst-of-dta-tracking.md)  
+  
+## <a name="see-also"></a><span data-ttu-id="bc858-154">另請參閱</span><span class="sxs-lookup"><span data-stu-id="bc858-154">See Also</span></span>  
+ [<span data-ttu-id="bc858-155">調整追蹤資料庫大小的指導方針</span><span class="sxs-lookup"><span data-stu-id="bc858-155">Tracking Database Sizing Guidelines</span></span>](../core/tracking-database-sizing-guidelines.md)

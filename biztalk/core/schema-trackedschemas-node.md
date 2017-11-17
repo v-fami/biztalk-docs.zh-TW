@@ -1,0 +1,34 @@
+---
+title: "結構描述 （TrackedSchemas 節點） |Microsoft 文件"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords: Schema node
+ms.assetid: a503aad6-07f8-4650-a214-4d2f6650cb80
+caps.latest.revision: "8"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 5376c505332ed05507169c1db2dc54ec4e7bdfe6
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/20/2017
+---
+# <a name="schema-trackedschemas-node"></a><span data-ttu-id="81206-102">結構描述 (TrackedSchemas 節點)</span><span class="sxs-lookup"><span data-stu-id="81206-102">Schema (TrackedSchemas Node)</span></span>
+<span data-ttu-id="81206-103">繫結檔案之 TrackedSchemas 節點的 [結構描述] 節點會描述繫結到與繫結檔案一起匯出之服務的結構描述。</span><span class="sxs-lookup"><span data-stu-id="81206-103">The Schema node of the TrackedSchemas node of a binding file describes a schema bound to a service that is exported with the binding file.</span></span>  
+  
+## <a name="nodes-in-the-schema-node"></a><span data-ttu-id="81206-104">結構描述節點中的節點</span><span class="sxs-lookup"><span data-stu-id="81206-104">Nodes in the Schema node</span></span>  
+ <span data-ttu-id="81206-105">下表列出可以為繫結檔案中的這個節點設定的屬性：</span><span class="sxs-lookup"><span data-stu-id="81206-105">The following table lists the properties that can be set for this node of a binding file:</span></span>  
+  
+|<span data-ttu-id="81206-106">**名稱**</span><span class="sxs-lookup"><span data-stu-id="81206-106">**Name**</span></span>|<span data-ttu-id="81206-107">**節點類型**</span><span class="sxs-lookup"><span data-stu-id="81206-107">**Node Type**</span></span>|<span data-ttu-id="81206-108">**資料類型**</span><span class="sxs-lookup"><span data-stu-id="81206-108">**Data Type**</span></span>|<span data-ttu-id="81206-109">**說明**</span><span class="sxs-lookup"><span data-stu-id="81206-109">**Description**</span></span>|<span data-ttu-id="81206-110">**限制**</span><span class="sxs-lookup"><span data-stu-id="81206-110">**Restrictions**</span></span>|<span data-ttu-id="81206-111">**註解**</span><span class="sxs-lookup"><span data-stu-id="81206-111">**Comments**</span></span>|  
+|--------------|-------------------|-------------------|---------------------|----------------------|------------------|  
+|<span data-ttu-id="81206-112">FullName</span><span class="sxs-lookup"><span data-stu-id="81206-112">FullName</span></span>|<span data-ttu-id="81206-113">Attribute</span><span class="sxs-lookup"><span data-stu-id="81206-113">Attribute</span></span>|<span data-ttu-id="81206-114">xs:string</span><span class="sxs-lookup"><span data-stu-id="81206-114">xs:string</span></span>|<span data-ttu-id="81206-115">指定此結構描述的完整名稱。</span><span class="sxs-lookup"><span data-stu-id="81206-115">Specifies the full name for the schema.</span></span>|<span data-ttu-id="81206-116">不需要</span><span class="sxs-lookup"><span data-stu-id="81206-116">Not required</span></span>|<span data-ttu-id="81206-117">預設值：空白</span><span class="sxs-lookup"><span data-stu-id="81206-117">Default value: empty</span></span>|  
+|<span data-ttu-id="81206-118">AssemblyQualifiedName</span><span class="sxs-lookup"><span data-stu-id="81206-118">AssemblyQualifiedName</span></span>|<span data-ttu-id="81206-119">Attribute</span><span class="sxs-lookup"><span data-stu-id="81206-119">Attribute</span></span>|<span data-ttu-id="81206-120">xs:string</span><span class="sxs-lookup"><span data-stu-id="81206-120">xs:string</span></span>|<span data-ttu-id="81206-121">指定包含此結構描述之組件的完整格式名稱。</span><span class="sxs-lookup"><span data-stu-id="81206-121">Specifies the qualified name for the assembly containing this schema.</span></span>|<span data-ttu-id="81206-122">不需要</span><span class="sxs-lookup"><span data-stu-id="81206-122">Not required</span></span>|<span data-ttu-id="81206-123">預設值：空白</span><span class="sxs-lookup"><span data-stu-id="81206-123">Default value: empty</span></span>|  
+|<span data-ttu-id="81206-124">AlwaysTrackAllProperties</span><span class="sxs-lookup"><span data-stu-id="81206-124">AlwaysTrackAllProperties</span></span>|<span data-ttu-id="81206-125">Attribute</span><span class="sxs-lookup"><span data-stu-id="81206-125">Attribute</span></span>|<span data-ttu-id="81206-126">xs:boolean</span><span class="sxs-lookup"><span data-stu-id="81206-126">xs:boolean</span></span>|<span data-ttu-id="81206-127">指定是否要追蹤指定之組件的所有屬性。</span><span class="sxs-lookup"><span data-stu-id="81206-127">Specifies whether to track all properties for the specified assembly.</span></span>|<span data-ttu-id="81206-128">Required</span><span class="sxs-lookup"><span data-stu-id="81206-128">Required</span></span>|<span data-ttu-id="81206-129">預設值：無</span><span class="sxs-lookup"><span data-stu-id="81206-129">Default value: none</span></span><br /><br /> <span data-ttu-id="81206-130">設定為**true**追蹤所有屬性，否則設為**false**。</span><span class="sxs-lookup"><span data-stu-id="81206-130">Set to **true** to track all properties, otherwise set to **false**.</span></span>|  
+|<span data-ttu-id="81206-131">Description</span><span class="sxs-lookup"><span data-stu-id="81206-131">Description</span></span>|<span data-ttu-id="81206-132">Attribute</span><span class="sxs-lookup"><span data-stu-id="81206-132">Attribute</span></span>|<span data-ttu-id="81206-133">xs:string</span><span class="sxs-lookup"><span data-stu-id="81206-133">xs:string</span></span>|<span data-ttu-id="81206-134">指定此結構描述的描述。</span><span class="sxs-lookup"><span data-stu-id="81206-134">Specifies a description for the schema.</span></span>|<span data-ttu-id="81206-135">不需要</span><span class="sxs-lookup"><span data-stu-id="81206-135">Not required</span></span>|<span data-ttu-id="81206-136">預設值：空白</span><span class="sxs-lookup"><span data-stu-id="81206-136">Default value: empty</span></span>|  
+|[<span data-ttu-id="81206-137">TrackedPropertyNames （結構描述節點）</span><span class="sxs-lookup"><span data-stu-id="81206-137">TrackedPropertyNames (Schema Node)</span></span>](../core/trackedpropertynames-schema-node.md)|<span data-ttu-id="81206-138">記錄</span><span class="sxs-lookup"><span data-stu-id="81206-138">Record</span></span>|<span data-ttu-id="81206-139">ArrayOfString (ComplexType)</span><span class="sxs-lookup"><span data-stu-id="81206-139">ArrayOfString (ComplexType)</span></span>|<span data-ttu-id="81206-140">指定要追蹤之屬性的項目容器。</span><span class="sxs-lookup"><span data-stu-id="81206-140">Container for the elements that specify the properties to be tracked.</span></span>|<span data-ttu-id="81206-141">不需要</span><span class="sxs-lookup"><span data-stu-id="81206-141">Not required</span></span>|<span data-ttu-id="81206-142">預設值：無</span><span class="sxs-lookup"><span data-stu-id="81206-142">Default value: none</span></span>|

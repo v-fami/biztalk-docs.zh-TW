@@ -1,0 +1,32 @@
+---
+title: "檢視傳送之訊息的對帳狀態 |Microsoft 文件"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: 603a95cc-1e2a-4281-a662-ba8d4575286e
+caps.latest.revision: "4"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: c0009e8eede7cb490f77bad8d30251b73a9431b4
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/20/2017
+---
+# <a name="viewing-the-reconciliation-status-for-messages-sent"></a><span data-ttu-id="061c9-102">檢視傳送之訊息的對帳狀態</span><span class="sxs-lookup"><span data-stu-id="061c9-102">Viewing the Reconciliation Status for Messages Sent</span></span>
+<span data-ttu-id="061c9-103">若要檢視傳送訊息的對帳狀態：</span><span class="sxs-lookup"><span data-stu-id="061c9-103">To view the reconciliation status for messages sent:</span></span>  
+  
+1.  <span data-ttu-id="061c9-104">在程式中，按一下  **Microsoft BizTalk Server\<版本 >**，然後按一下  **BAM 入口網站**。</span><span class="sxs-lookup"><span data-stu-id="061c9-104">In Programs, click **Microsoft BizTalk Server \<version>**, and then click **BAM Portal Web Site**.</span></span>  
+  
+2.  <span data-ttu-id="061c9-105">在 BAM 入口網站，在 我的 View\XMLV2View\Activity 搜尋下選擇**訊息傳送活動**。</span><span class="sxs-lookup"><span data-stu-id="061c9-105">In BAM Portal Web Site, under My View\XMLV2View\Activity Search, choose **Message Sent Activity**.</span></span>  
+  
+3.  <span data-ttu-id="061c9-106">在資料行選擇器中，移動的所有資料行**可用的資料**和**至要顯示的項目里程碑**。</span><span class="sxs-lookup"><span data-stu-id="061c9-106">In the Column Chooser, move all columns from **Available Data** and **Milestone to Item to Show**.</span></span>  
+  
+4.  <span data-ttu-id="061c9-107">按一下**執行查詢**。</span><span class="sxs-lookup"><span data-stu-id="061c9-107">Click **Execute Query**.</span></span> <span data-ttu-id="061c9-108">這會傳回所有儲存針對訊息傳送活動的記錄。</span><span class="sxs-lookup"><span data-stu-id="061c9-108">This will return all of the records that are stored against the Message Sent Activity.</span></span>  
+  
+5.  <span data-ttu-id="061c9-109">同樣地，您可以看到的資料傳遞通知、 未傳遞報告、 傳輸報表和摘要的活動。</span><span class="sxs-lookup"><span data-stu-id="061c9-109">Similarly, you can see the data for Delivery Notification, Delivery Report, Transmission Report, and Summary activity.</span></span>

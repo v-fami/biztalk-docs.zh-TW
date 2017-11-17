@@ -1,0 +1,1 @@
+<span data-ttu-id="343de-101">交易夥伴管理 (TPM)</span><span class="sxs-lookup"><span data-stu-id="343de-101">Trading Partner Management (TPM)</span></span>

@@ -1,0 +1,40 @@
+---
+title: "WCF 配接器 FAQ： 服務架構 |Microsoft 文件"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: 8bad0063-ccff-41f4-b4e0-a02b49403c2d
+caps.latest.revision: "4"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: b73b70474fd30e3a571f59558d6dc439cb981f64
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/20/2017
+---
+# <a name="wcf-adapter-faq-service-architecture"></a><span data-ttu-id="28710-102">WCF 配接器 FAQ： 服務架構</span><span class="sxs-lookup"><span data-stu-id="28710-102">WCF Adapter FAQ: Service Architecture</span></span>
+## <a name="what-is-the-difference-between-a-wcf-custom-behavior-and-a-biztalk-pipeline-component"></a><span data-ttu-id="28710-103">WCF 自訂行為與 BizTalk 管線元件之間的差異為何？</span><span class="sxs-lookup"><span data-stu-id="28710-103">What is the difference between a WCF custom behavior and a BizTalk pipeline component?</span></span>  
+ <span data-ttu-id="28710-104">在初始檢查時，WCF 自訂行為非常類似傳統 BizTalk 管線。</span><span class="sxs-lookup"><span data-stu-id="28710-104">Upon initial inspection, a WCF custom behavior is very much like a traditional BizTalk pipeline.</span></span> <span data-ttu-id="28710-105">同時利用的中斷訊息至其目的地的資料流程，請執行一些自訂的訊息處理中，訊息攔截的基本概念，並將它轉寄至其目的地。</span><span class="sxs-lookup"><span data-stu-id="28710-105">Both leverage the basic concept of message interception to interrupt the flow of a message to its destination, execute some custom message processing in it, and forward it on to its destination.</span></span> <span data-ttu-id="28710-106">可以進行此攔截 （繫結至接收位置） 之前或之後 （繫結至傳送埠） 的訊息已由 BizTalk Server 處理。</span><span class="sxs-lookup"><span data-stu-id="28710-106">This interception can occur either before (bound to a receive location) or after (bound to a send port) a message has been processed by BizTalk Server.</span></span> <span data-ttu-id="28710-107">這個攔截就會發生在兩個方法不只是在內攔截點，但也會從實作不同。</span><span class="sxs-lookup"><span data-stu-id="28710-107">How this interception occurs within the two methods differs not only in implementation but also from within the point of interception.</span></span> <span data-ttu-id="28710-108">以下是一些差異：</span><span class="sxs-lookup"><span data-stu-id="28710-108">Here are some of the differences:</span></span>  
+  
+-   <span data-ttu-id="28710-109">管線可供協調流程。</span><span class="sxs-lookup"><span data-stu-id="28710-109">Pipelines can be used by an orchestration.</span></span> <span data-ttu-id="28710-110">WCF 行為會限制為 WCF 配接器從 BizTalk Server 中所呼叫。</span><span class="sxs-lookup"><span data-stu-id="28710-110">WCF behaviors are limited to being called by a WCF adapter from within BizTalk Server.</span></span>  
+  
+-   <span data-ttu-id="28710-111">管線是 BizTalk Server 專屬的舊式技術。</span><span class="sxs-lookup"><span data-stu-id="28710-111">Pipelines are an older technology specific to BizTalk Server.</span></span> <span data-ttu-id="28710-112">BizTalk Server，以及在其他純 WCF 案例中，可以使用 WCF 行為。</span><span class="sxs-lookup"><span data-stu-id="28710-112">WCF behaviors can be used by BizTalk Server, and also in other pure WCF scenarios.</span></span>  
+  
+-   <span data-ttu-id="28710-113">設定管線階段，例如解碼、 驗證等內的即時管線。WCF 行為可插入至訊息流程，在任何其四個攔截進入點 （稍後說明）。</span><span class="sxs-lookup"><span data-stu-id="28710-113">Pipelines live within set pipeline stages, such as Decode, Validate, etc. WCF behaviors can be plugged into the message flow at any of its four interception entry points (described shortly).</span></span>  
+  
+-   <span data-ttu-id="28710-114">管線是單純地在其功能的執行階段。</span><span class="sxs-lookup"><span data-stu-id="28710-114">Pipelines are purely runtime in their functionality.</span></span> <span data-ttu-id="28710-115">雖然 WCF 行為以及，他們也能強制執行為關聯式或從 BizTalk Server 管理主控台中的組態期間設定的資料值的條件約束。</span><span class="sxs-lookup"><span data-stu-id="28710-115">While WCF behaviors are as well, they can also enforce relational or data constraints upon the values set during configuration from within the BizTalk Server Administration console.</span></span>  
+  
+-   <span data-ttu-id="28710-116">管線可以操作 BizTalk 訊息，而 WCF 行為對 WCF 訊息。</span><span class="sxs-lookup"><span data-stu-id="28710-116">Pipelines can operate on a BizTalk message whereas WCF behaviors operate on a WCF message.</span></span> <span data-ttu-id="28710-117">這表示管線可以一些作業，例如升級 BizTalk 內容屬性，而 WCF 行為可以存取 WCF 訊息屬性。</span><span class="sxs-lookup"><span data-stu-id="28710-117">This means the pipeline can do things like promote a BizTalk context property whereas a WCF behavior can access a WCF message property.</span></span>  
+  
+-   <span data-ttu-id="28710-118">沒有模型的 WCF 配接器或 WCF 中的多部分訊息。</span><span class="sxs-lookup"><span data-stu-id="28710-118">There is no model of multipart messages in WCF or in the WCF adapters.</span></span> <span data-ttu-id="28710-119">不過，管線元件可以使用 BizTalk 訊息的任何需要的方式操作，因為它可以處理多部分訊息，如有必要。</span><span class="sxs-lookup"><span data-stu-id="28710-119">However, since a pipeline component can manipulate the BizTalk message in whatever way it needs to, it can process a multipart message if necessary.</span></span>  
+  
+## <a name="for-the-receive-locations-or-send-ports-using-the-wcf-basichttp-and-wcf-wshttp-adapters-what-type-of-encoding-should-i-select"></a><span data-ttu-id="28710-120">使用 Wcf-basichttp 和 Wcf-wshttp 配接器的傳送埠或接收位置，何種編碼方式應該選取？</span><span class="sxs-lookup"><span data-stu-id="28710-120">For the receive locations or send ports using the WCF-BasicHttp and WCF-WSHttp adapters, what type of encoding should I select?</span></span>  
+ <span data-ttu-id="28710-121">每張介面卡沒有 HTTP 為基礎之訊息和文字編碼。</span><span class="sxs-lookup"><span data-stu-id="28710-121">For each of these adapters there is HTTP-based message and text encoding.</span></span> <span data-ttu-id="28710-122">訊息編碼指定的訊息，也就是文字或 MTOM （訊息傳輸組織機制） 所使用的 SOAP 編碼器。</span><span class="sxs-lookup"><span data-stu-id="28710-122">Message encoding specifies the SOAP encoder used for the message, which is either MTOM (Message Transmission Organization Mechanism) or Text.</span></span> <span data-ttu-id="28710-123">如果選擇文字，則文字編碼方式必須選取。</span><span class="sxs-lookup"><span data-stu-id="28710-123">If Text is chosen, then a Text encoding must be selected.</span></span> <span data-ttu-id="28710-124">這個選項有 unicodeFFF (big endian)、 utf-16 （16 位元編碼） 和 utf-8 （8 位元編碼）。</span><span class="sxs-lookup"><span data-stu-id="28710-124">The choices for this are unicodeFFF (big endian), utf-16 (16-bit encoding), and utf-8 (8-bit encoding).</span></span>  
+  
+ <span data-ttu-id="28710-125">MTOM 是二進位資料的建議且最有效率的傳輸機制。</span><span class="sxs-lookup"><span data-stu-id="28710-125">MTOM is the recommended and most efficient transfer mechanism for binary data.</span></span> <span data-ttu-id="28710-126">不過它需要服務能夠處理 MTOM 資料，這可讓此選項較可攜式比純文字。</span><span class="sxs-lookup"><span data-stu-id="28710-126">However it requires that the service be able to process MTOM data, and this makes this option much less portable than plain Text.</span></span> <span data-ttu-id="28710-127">如果用來傳輸標準、 非二進位資料，MTOM 實際上會更沒效率比使用 [文字] 選項。</span><span class="sxs-lookup"><span data-stu-id="28710-127">If used to transfer standard, non-binary data, MTOM can actually be less efficient than using the Text option.</span></span> <span data-ttu-id="28710-128">文字普遍接受及可讓更多的跨平台互通性，但它比較沒有效率的兩個選擇如果傳輸的資料包含非文字內容。</span><span class="sxs-lookup"><span data-stu-id="28710-128">Text is universally accepted and allows for more cross-platform interoperability, but it is the less efficient choice of the two if the data being transmitted contains non-textual content.</span></span> <span data-ttu-id="28710-129">使用 WCF 服務合約時，選取繫結的編碼方式的選項時，這是重要的因素。</span><span class="sxs-lookup"><span data-stu-id="28710-129">This is an important factor when selecting a choice of binding encodings when using WCF service contracts.</span></span> <span data-ttu-id="28710-130">了解 WCF 作業將會傳送的資料和程序會影響訊息編碼正確的選擇。</span><span class="sxs-lookup"><span data-stu-id="28710-130">Knowing the data that the WCF operations will transfer and process affects the correct choice of message encoding.</span></span>

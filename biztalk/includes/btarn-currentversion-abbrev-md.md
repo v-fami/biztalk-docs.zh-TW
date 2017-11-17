@@ -1,0 +1,1 @@
+<span data-ttu-id="beefa-101">BTARN</span><span class="sxs-lookup"><span data-stu-id="beefa-101">BTARN</span></span>

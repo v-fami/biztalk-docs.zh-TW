@@ -1,0 +1,77 @@
+---
+title: "從 BizTalk 追蹤資料庫清除資料 |Microsoft 文件"
+description: "設定要清除追蹤資料庫 (BizTalkDTADB) 在 BizTalk Server 中的 dtasp_PurgeTrackingDatabase 預存程序"
+ms.custom: 
+ms.date: 10/11/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: cdf12866-442d-4c1f-b10f-ebf8d665d521
+caps.latest.revision: "27"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 06217a7d5012eb402698ad35e76ccfc886952f6e
+ms.sourcegitcommit: 5e6ef63416e8885a5ee91bd65618a842b3a0cc54
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 10/12/2017
+---
+# <a name="purge-data-from-the-biztalk-tracking-database"></a><span data-ttu-id="ea703-103">從 BizTalk 追蹤資料庫清除資料</span><span class="sxs-lookup"><span data-stu-id="ea703-103">Purge Data from the BizTalk Tracking Database</span></span>
+<span data-ttu-id="ea703-104">當您從「BizTalk 追蹤」(BizTalkDTADb) 資料庫清除資料時，「DTA 清除和封存」工作會從「BizTalk 追蹤」(BizTalkDTADb) 資料庫清除不同類型的追蹤資訊，例如訊息與服務執行個體資訊、協調流程事件資訊以及規則引擎追蹤資料。</span><span class="sxs-lookup"><span data-stu-id="ea703-104">When you purge data from the BizTalk Tracking (BizTalkDTADb) database, the DTA Purge and Archive job purges different types of tracking information such as message and service instance information, orchestration event information, and rules engine tracking data from the BizTalk Tracking (BizTalkDTADb) database.</span></span>  
+  
+> [!IMPORTANT]
+>  <span data-ttu-id="ea703-105">使用此程序不會封存「BizTalk 追蹤」(BizTalkDTADb) 資料庫。</span><span class="sxs-lookup"><span data-stu-id="ea703-105">The BizTalk Tracking (BizTalkDTADb) database is not archived using this procedure.</span></span>  
+  
+> [!WARNING]
+>  <span data-ttu-id="ea703-106">在未啟用追蹤的情況下，如果在協調流程中攔截並處理例外狀況，則具有「已啟動」狀態及例外狀況資訊的孤立的追蹤執行個體可能會插入「BizTalk 追蹤」(BizTalkDTADb) 資料庫。</span><span class="sxs-lookup"><span data-stu-id="ea703-106">If an exception is caught and handled in an orchestration without tracking turned on, an orphaned tracking instance with a Started state and exception information may be inserted into the BizTalk Tracking (BizTalkDTADb) database.</span></span> <span data-ttu-id="ea703-107">清除資料庫之後，這項記錄將會保留下來。</span><span class="sxs-lookup"><span data-stu-id="ea703-107">This record will remain after purging the database.</span></span>  
+  
+## <a name="prerequisites"></a><span data-ttu-id="ea703-108">必要條件</span><span class="sxs-lookup"><span data-stu-id="ea703-108">Prerequisites</span></span>  
+<span data-ttu-id="ea703-109">使用 SQL Server sysadmin 固定伺服器角色的成員，才能執行此程序的帳戶登入。</span><span class="sxs-lookup"><span data-stu-id="ea703-109">Sign in with an account that is a member of the SQL Server sysadmin fixed server role to perform this procedure.</span></span>  
+  
+## <a name="purge-data-from-the-biztalk-tracking-database"></a><span data-ttu-id="ea703-110">從 BizTalk 追蹤資料庫清除資料</span><span class="sxs-lookup"><span data-stu-id="ea703-110">Purge data from the BizTalk Tracking database</span></span>  
+  
+1.  <span data-ttu-id="ea703-111">在裝載 「 BizTalk 追蹤 (BizTalkDTADb) 資料庫的 SQL Server 上開啟**SQL Server Management Studio**。</span><span class="sxs-lookup"><span data-stu-id="ea703-111">On the SQL Server that hosts the BizTalk Tracking (BizTalkDTADb) database, open **SQL Server Management Studio**.</span></span> 
+  
+2.  <span data-ttu-id="ea703-112">在**連接到伺服器**，輸入 BizTalk 追蹤 (BizTalkDTADb) 資料庫所在的 SQL server 的名稱、 輸入驗證類型，然後選取**連接**連接到 SQL server。</span><span class="sxs-lookup"><span data-stu-id="ea703-112">In **Connect to Server**, enter the name of the SQL server where the BizTalk Tracking (BizTalkDTADb) database resides, enter the authentication type, and then select **Connect** to connect to the SQL server.</span></span> 
+  
+3.  <span data-ttu-id="ea703-113">按兩下**SQL Server Agent**，然後選取**作業**。</span><span class="sxs-lookup"><span data-stu-id="ea703-113">Double-click **SQL Server Agent**, and then select **Jobs**.</span></span>  
+  
+4.  <span data-ttu-id="ea703-114">在**物件總管詳細資料**，以滑鼠右鍵按一下**DTA 清除與封存 (BizTalkDTADb)**，然後選取**屬性**。</span><span class="sxs-lookup"><span data-stu-id="ea703-114">In **Object Explorer Details**, right-click **DTA Purge and Archive (BizTalkDTADb)**, and then select **Properties**.</span></span>  
+  
+5.  <span data-ttu-id="ea703-115">在**作業屬性-DTA 清除與封存 (BizTalkDTADb)**下**選取頁面**，選取**步驟**。</span><span class="sxs-lookup"><span data-stu-id="ea703-115">In **Job Properties - DTA Purge and Archive (BizTalkDTADb)**, under **Select a page**, select **Steps**.</span></span>  
+  
+6.  <span data-ttu-id="ea703-116">在**作業步驟清單**，選取**封存及清除**，然後選取**編輯**。</span><span class="sxs-lookup"><span data-stu-id="ea703-116">In **Job step list**, select **Archive and Purge**, and then select **Edit**.</span></span>  
+  
+7.  <span data-ttu-id="ea703-117">在**作業步驟屬性-封存與清除**上**一般**頁面上，於**命令**方塊中，變更**exec dtasp_BackupAndPurgeTrackingDatabase**至**exec dtasp_PurgeTrackingDatabase**。</span><span class="sxs-lookup"><span data-stu-id="ea703-117">In **Job Step Properties - Archive and Purge**, on the **General** page, in the **Command** box, change **exec dtasp_BackupAndPurgeTrackingDatabase** to **exec dtasp_PurgeTrackingDatabase**.</span></span>  
+  
+    > [!CAUTION]
+    >  <span data-ttu-id="ea703-118">**Exec dtasp_PurgeTrackingDatabase**預存程序不會封存 BizTalk 追蹤 (BizTalkDTADb) 資料庫。</span><span class="sxs-lookup"><span data-stu-id="ea703-118">The **exec dtasp_PurgeTrackingDatabase** stored procedure does not archive the BizTalk Tracking (BizTalkDTADb) database.</span></span> <span data-ttu-id="ea703-119">使用此選項前，請確定您已不需要封存的追蹤資料。</span><span class="sxs-lookup"><span data-stu-id="ea703-119">Before using this option, be certain that you no longer require archived tracking data.</span></span>  
+  
+8.  <span data-ttu-id="ea703-120">在**命令**方塊中，更新下列參數，並選取**確定**。</span><span class="sxs-lookup"><span data-stu-id="ea703-120">In the **Command** box, update the following parameters, and then select **OK**.</span></span>  
+  
+    -   <span data-ttu-id="ea703-121">@nHourstinyint — 任何已完成執行個體超過 （生效小時） + （生效天數） 將會刪除連同所有相關資料。</span><span class="sxs-lookup"><span data-stu-id="ea703-121">@nHours tinyint — Any completed instance older than (live hours) + (live days) will be deleted along with all associated data.</span></span>  
+  
+    -   <span data-ttu-id="ea703-122">@nDaystinyint — 任何已完成執行個體超過 （生效小時） + （生效天數） 將會刪除連同所有相關資料。</span><span class="sxs-lookup"><span data-stu-id="ea703-122">@nDays tinyint — Any completed instance older than (live hours) + (live days) will be deleted along with all associated data.</span></span> <span data-ttu-id="ea703-123">預設間隔是 1 天。</span><span class="sxs-lookup"><span data-stu-id="ea703-123">Default interval is 1 day.</span></span>  
+  
+    -   <span data-ttu-id="ea703-124">@nHardDaystinyint —，也將會刪除早於此日期的所有資料，即使資料不完整。</span><span class="sxs-lookup"><span data-stu-id="ea703-124">@nHardDays tinyint — All data older than this day will be deleted, even if the data is incomplete.</span></span> <span data-ttu-id="ea703-125">為 HardDeleteDays 指定的時間間隔應該大於資料存留窗期。</span><span class="sxs-lookup"><span data-stu-id="ea703-125">The time interval specified for HardDeleteDays should be greater than the live window of data.</span></span> <span data-ttu-id="ea703-126">資料存留窗期是您想要在 BizTalk 追蹤 (BizTalkDTADb) 資料庫中維護追蹤資料的時間。</span><span class="sxs-lookup"><span data-stu-id="ea703-126">The live window of data is the interval of time for which you want to maintain tracking data in the BizTalk Tracking (BizTalkDTADb) database.</span></span> <span data-ttu-id="ea703-127">早於此間隔的資料都將在下次封存時進行封存，然後再予以清除。</span><span class="sxs-lookup"><span data-stu-id="ea703-127">Anything older than this interval is eligible to be archived at the next archive and then purged.</span></span>  
+  
+    -   <span data-ttu-id="ea703-128">@dtLastBackup— 將此設**getutcdate （)**從 BizTalk 追蹤 (BizTalkDTADb) 資料庫清除資料。</span><span class="sxs-lookup"><span data-stu-id="ea703-128">@dtLastBackup — Set this to **GetUTCDate()** to purge data from the BizTalk Tracking (BizTalkDTADb) database.</span></span> <span data-ttu-id="ea703-129">當設定為**NULL**，不會從資料庫清除資料。</span><span class="sxs-lookup"><span data-stu-id="ea703-129">When set to **NULL**, data is not purged from the database.</span></span>  
+
+    -  <span data-ttu-id="ea703-130">@fHardDeleteRunningInstancesint-預設值為 0。</span><span class="sxs-lookup"><span data-stu-id="ea703-130">@fHardDeleteRunningInstances int - Default is 0.</span></span> <span data-ttu-id="ea703-131">設定為 1 時，刪除所有執行中服務執行個體早於@nHardDeleteDays值。</span><span class="sxs-lookup"><span data-stu-id="ea703-131">When set to 1, it deletes all running service instances older than the @nHardDeleteDays value.</span></span>  
+    
+        > [!NOTE] 
+        > <span data-ttu-id="ea703-132">@fHardDeleteRunningInstances屬性是從開始提供[BizTalk Server 2016 的累計更新 1年](https://support.microsoft.com/help/3208238/cumulative-update-1-for-microsoft-biztalk-server-2016)， [BizTalk Server 2013 R2 累計更新 6年](https://support.microsoft.com/en-us/help/4020020/cumulative-update-package-6-for-biztalk-server-2013-r2)，和[BizTalk Server 2013 累計更新 5](https://support.microsoft.com/help/3194301/cumulative-update-5-for-biztalk-server-2013)。</span><span class="sxs-lookup"><span data-stu-id="ea703-132">The @fHardDeleteRunningInstances property is available starting with [BizTalk Server 2016 Cumulative Update 1](https://support.microsoft.com/help/3208238/cumulative-update-1-for-microsoft-biztalk-server-2016), [BizTalk Server 2013 R2 Cumulative Update 6](https://support.microsoft.com/en-us/help/4020020/cumulative-update-package-6-for-biztalk-server-2013-r2), and [BizTalk Server 2013 Cumulative Update 5](https://support.microsoft.com/help/3194301/cumulative-update-5-for-biztalk-server-2013).</span></span>   
+
+    <span data-ttu-id="ea703-133">您已編輯的指令碼看起來如下所示：</span><span class="sxs-lookup"><span data-stu-id="ea703-133">Your edited script looks similar to the following:</span></span>  
+  
+    ```  
+    declare @dtLastBackup datetime set @dtLastBackup = GetUTCDate() exec dtasp_PurgeTrackingDatabase 1, 0, 1, @dtLastBackup, 1  
+    ```  
+    
+9. <span data-ttu-id="ea703-134">在**作業屬性-DTA 清除與封存 (BizTalkDTADb)**對話方塊的 **選取頁面**，選取**一般**，選取**啟用**核取方塊，然後再選取**確定**。</span><span class="sxs-lookup"><span data-stu-id="ea703-134">On the **Job Properties - DTA Purge and Archive (BizTalkDTADb)** dialog box, under **Select a page**, select **General**, select the **Enabled** check box, and then select **OK**.</span></span>  
+  
+## <a name="see-also"></a><span data-ttu-id="ea703-135">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ea703-135">See Also</span></span>  
+ [<span data-ttu-id="ea703-136">封存和清除 BizTalk 追蹤資料庫</span><span class="sxs-lookup"><span data-stu-id="ea703-136">Archiving and Purging the BizTalk Tracking Database</span></span>](../core/archiving-and-purging-the-biztalk-tracking-database.md)

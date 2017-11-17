@@ -1,0 +1,75 @@
+---
+title: "建立新的主機 |Microsoft 文件"
+descriptions: Use BizTalk Administration to create a new host in BizTalk Server
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: 811e6e57-5c37-471a-aff4-5b2b68c367b1
+caps.latest.revision: "27"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 700f0bb43a4f31b76819e7aca6fe5895cc2b6ab6
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/20/2017
+---
+# <a name="create-a-new-host"></a><span data-ttu-id="70925-102">建立新的主機</span><span class="sxs-lookup"><span data-stu-id="70925-102">Create a New Host</span></span>
+<span data-ttu-id="70925-103">BizTalk 主控件是配接器處理常式、接收位置 (包括管線)，以及協調流程等項目的邏輯容器。</span><span class="sxs-lookup"><span data-stu-id="70925-103">A BizTalk Host is a logical container for items such as adapter handlers, receive locations (including pipelines), and orchestrations.</span></span> <span data-ttu-id="70925-104">我們建議您使用不同的主控件來處理、接收和傳送訊息，而且也請針對信任和非信任項目使用不同的主控件，以便實行安全性措施並改善主控件的管理性。</span><span class="sxs-lookup"><span data-stu-id="70925-104">We recommend that you use separate hosts for processing, receiving, and sending messages, and that you use separate hosts for trusted and non-trusted items to facilitate implementing security measures and to improve manageability of the hosts.</span></span> <span data-ttu-id="70925-105">您只可以在每一部 BizTalk Server 上安裝一個主控件執行個體。</span><span class="sxs-lookup"><span data-stu-id="70925-105">You can install only one instance of a host per BizTalk server.</span></span> <span data-ttu-id="70925-106">如需主控件的詳細資訊，請參閱[主機](../core/hosts.md)。</span><span class="sxs-lookup"><span data-stu-id="70925-106">For more information about hosts, see [Hosts](../core/hosts.md).</span></span>  
+  
+ <span data-ttu-id="70925-107">使用 Windows Management Instrumentation (WMI) 來建立新的主控件的相關資訊，請參閱**MSBTS_Host (WMI)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。</span><span class="sxs-lookup"><span data-stu-id="70925-107">For information about using Windows Management Instrumentation (WMI) to create a new host, see **MSBTS_Host (WMI)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].</span></span>
+  
+## <a name="prerequisites"></a><span data-ttu-id="70925-108">必要條件</span><span class="sxs-lookup"><span data-stu-id="70925-108">Prerequisites</span></span>  
+ <span data-ttu-id="70925-109">您必須具有以下的使用者權限才能建立主控件、修改主控件屬性和刪除主控件：</span><span class="sxs-lookup"><span data-stu-id="70925-109">You must have the following user rights to create hosts, modify host properties, and delete hosts:</span></span>  
+  
+-   <span data-ttu-id="70925-110">您必須是「BizTalk Server 系統管理員」群組的成員。</span><span class="sxs-lookup"><span data-stu-id="70925-110">You must be a member of the BizTalk Server Administrators group.</span></span>  
+  
+-   <span data-ttu-id="70925-111">在 SQL Server 中您必須具有以下權限：</span><span class="sxs-lookup"><span data-stu-id="70925-111">You must have the following rights in SQL Server:</span></span>  
+  
+    -   <span data-ttu-id="70925-112">您必須是 SQL Server 系統管理員，或是 BizTalk 追蹤資料庫 (BizTalk DTADb)、MessageBox 資料庫 (BizTalkMsgBoxDb)，以及 BAM 主要匯入資料庫 (BAMPrimaryImport) 中 db_owner 或 db_securityadmin SQL Server 資料庫角色的成員。</span><span class="sxs-lookup"><span data-stu-id="70925-112">You must be either a SQL Server administrator, or a member of the db_owner or db_securityadmin SQL Server database roles in the BizTalk Tracking (BizTalk DTADb) database, MessageBox (BizTalkMsgBoxDb) databases, and the BAM Primary Import (BAMPrimaryImport) database.</span></span>  
+  
+    -   <span data-ttu-id="70925-113">您必須是具有 MessageBox 資料庫之所有電腦上 sysadmin SQL Server 角色的成員，或是所有 MessageBox 資料庫中 db_owner 或 db_ddladmin SQL Server 角色的成員。</span><span class="sxs-lookup"><span data-stu-id="70925-113">You must be a member of the sysadmin SQL Server role on all the computers where there are MessageBox databases, or a member of the db_owner or db_ddladmin SQL Server role for all the MessageBox databases.</span></span>  
+  
+## <a name="steps"></a><span data-ttu-id="70925-114">步驟</span><span class="sxs-lookup"><span data-stu-id="70925-114">Steps</span></span>
+  
+1.  <span data-ttu-id="70925-115">按一下**啟動**，按一下 **所有程式**，按一下  [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]，然後按一下  **BizTalk Server 管理**。</span><span class="sxs-lookup"><span data-stu-id="70925-115">Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.</span></span>  
+  
+2.  <span data-ttu-id="70925-116">在主控台樹狀目錄中，依序展開[!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]，展開 BizTalk 群組，按一下**平台設定**，然後按一下 **主機**。</span><span class="sxs-lookup"><span data-stu-id="70925-116">In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand the BizTalk group, click **Platform Settings**, and then click **Hosts**.</span></span>  
+  
+3.  <span data-ttu-id="70925-117">在詳細資料窗格中，以滑鼠右鍵按一下**主機**，按一下 **新增**，然後按一下 **主機**。</span><span class="sxs-lookup"><span data-stu-id="70925-117">In the details pane, right click **Hosts**, click **New**, and then click **Host**.</span></span>  
+  
+4.  <span data-ttu-id="70925-118">在**主控件屬性**對話方塊**一般**索引標籤上，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="70925-118">In the **Host Properties** dialog box, on the **General** tab, do the following:</span></span>  
+  
+    |<span data-ttu-id="70925-119">使用</span><span class="sxs-lookup"><span data-stu-id="70925-119">Use this</span></span>|<span data-ttu-id="70925-120">動作</span><span class="sxs-lookup"><span data-stu-id="70925-120">To do this</span></span>|  
+    |--------------|----------------|  
+    |<span data-ttu-id="70925-121">**名稱**</span><span class="sxs-lookup"><span data-stu-id="70925-121">**Name**</span></span>|<span data-ttu-id="70925-122">顯示主控件的名稱。</span><span class="sxs-lookup"><span data-stu-id="70925-122">Displays the name of the host.</span></span> <span data-ttu-id="70925-123">當您建立主控件時會為它命名。</span><span class="sxs-lookup"><span data-stu-id="70925-123">You name the host when you create it.</span></span> <span data-ttu-id="70925-124">主控件名稱的長度不能超過 80 個字元。</span><span class="sxs-lookup"><span data-stu-id="70925-124">The host name cannot exceed 80 characters in length.</span></span>|  
+    |<span data-ttu-id="70925-125">**型別**</span><span class="sxs-lookup"><span data-stu-id="70925-125">**Type**</span></span>|<span data-ttu-id="70925-126">顯示主控件類型。</span><span class="sxs-lookup"><span data-stu-id="70925-126">Displays the host type.</span></span> <span data-ttu-id="70925-127">內含式主控件可以裝載協調流程、特定傳送處理常式和接收處理常式。</span><span class="sxs-lookup"><span data-stu-id="70925-127">An In-process Host can host orchestrations, certain send handlers and receive handlers.</span></span> <span data-ttu-id="70925-128">外掛式主控件是 BizTalk Server 外部的程序界限，而且特定傳送和接收處理常式需要此主控件。</span><span class="sxs-lookup"><span data-stu-id="70925-128">An Isolated Host is a process boundary outside of BizTalk Server and is required by certain send and receive handlers.</span></span> <span data-ttu-id="70925-129">您可以將協調流程登錄至內含式主控件，而內含式主控件可以裝載傳送或接收處理常式。</span><span class="sxs-lookup"><span data-stu-id="70925-129">You can enlist an orchestration to an In-process host, and an In-process host can host a send or receive handler.</span></span>|  
+  
+     <span data-ttu-id="70925-130">**選項。**</span><span class="sxs-lookup"><span data-stu-id="70925-130">**Options**</span></span>  
+  
+    |<span data-ttu-id="70925-131">使用</span><span class="sxs-lookup"><span data-stu-id="70925-131">Use this</span></span>|<span data-ttu-id="70925-132">動作</span><span class="sxs-lookup"><span data-stu-id="70925-132">To do this</span></span>|  
+    |--------------|----------------|  
+    |<span data-ttu-id="70925-133">**允許主控件追蹤**</span><span class="sxs-lookup"><span data-stu-id="70925-133">**Allow Host Tracking**</span></span>|<span data-ttu-id="70925-134">選取這個核取方塊，指示主控件將處理狀況監控和商務資料。</span><span class="sxs-lookup"><span data-stu-id="70925-134">Select this check box to indicate that the host will process health monitoring and business data.</span></span> <span data-ttu-id="70925-135">若您選取此核取方塊，則目前的主控件將擁有 MessageBox 資料庫中追蹤資料表與 BizTalk 追蹤資料庫的讀/寫權限。</span><span class="sxs-lookup"><span data-stu-id="70925-135">If you select this check box, the current host will have read/write privileges to the tracking tables in the MessageBox database, as well as to the BizTalk Tracking database.</span></span> <span data-ttu-id="70925-136">因此，任何在此主控件中執行的物件也將擁有這些資料庫的讀/寫存取權限。</span><span class="sxs-lookup"><span data-stu-id="70925-136">Accordingly, any objects running in this host will also have read/write access to these databases.</span></span> <span data-ttu-id="70925-137">若您清除此核取方塊，主控件將只會擁有 MessageBox 資料庫中追蹤資料表的寫入存取權，而不會擁有 BizTalk 追蹤資料庫的存取權。</span><span class="sxs-lookup"><span data-stu-id="70925-137">If you clear the check box, the host will have only write access to the tracking tables in the MessageBox database and will not have access to the BizTalk Tracking database.</span></span>|  
+    |<span data-ttu-id="70925-138">**信任的驗證**</span><span class="sxs-lookup"><span data-stu-id="70925-138">**Authentication Trusted**</span></span>|<span data-ttu-id="70925-139">選取此核取方塊，以指定 BizTalk Server 應該信任此主控件。</span><span class="sxs-lookup"><span data-stu-id="70925-139">Select this check box to specify that BizTalk Server should trust this host.</span></span>|  
+    |<span data-ttu-id="70925-140">**僅限 32 位元**</span><span class="sxs-lookup"><span data-stu-id="70925-140">**32-bit only**</span></span>|<span data-ttu-id="70925-141">若您希望在 32 位元與 64 位元的伺服器上都以 32 位元建立主控件執行個體程序，請選取此核取方塊。</span><span class="sxs-lookup"><span data-stu-id="70925-141">Select this check box if you want to allow the host instance process to be created as 32-bit on both 32-bit and 64-bit servers.</span></span> <span data-ttu-id="70925-142">若您希望在 32 位元伺服器上使用32 位元以及在 64 位元的伺服器上以 64 位元建立主控件執行個體程序，請清除此核取方塊。</span><span class="sxs-lookup"><span data-stu-id="70925-142">If this check box is cleared, the host instance process will be created as 32-bit on 32-bit servers and as 64-bit on 64-bit servers.</span></span>|  
+    |<span data-ttu-id="70925-143">**將此預設主機群組中**</span><span class="sxs-lookup"><span data-stu-id="70925-143">**Make this the default host in the group**</span></span>|<span data-ttu-id="70925-144">選取此核取方塊以辨識主控件是預設主控件。</span><span class="sxs-lookup"><span data-stu-id="70925-144">Select this check box to identify this host as the default host.</span></span> <span data-ttu-id="70925-145">除非您明確選取不同的主控件，否則建立的連接埠和協調流程會自動使用預設的主控件來裝載協調流程。</span><span class="sxs-lookup"><span data-stu-id="70925-145">Created ports and orchestrations automatically use the default host to host the orchestration, unless you explicitly select a different host.</span></span> <span data-ttu-id="70925-146">若此核取方塊是已選取且不可用，則此主控件為預設值。</span><span class="sxs-lookup"><span data-stu-id="70925-146">If this check box is selected and unavailable, this host is the default.</span></span>|  
+    |<span data-ttu-id="70925-147">**Windows 群組**</span><span class="sxs-lookup"><span data-stu-id="70925-147">**Windows group**</span></span>|<span data-ttu-id="70925-148">為主控件輸入本機或網域群組。</span><span class="sxs-lookup"><span data-stu-id="70925-148">Type the local or domain group for the host.</span></span> <span data-ttu-id="70925-149">Windows 群組的成員擁有執行此主控件執行個體的權限。</span><span class="sxs-lookup"><span data-stu-id="70925-149">Members of the Windows group will have permissions to run instances of this host.</span></span>|  
+  
+5.  <span data-ttu-id="70925-150">在**憑證**索引標籤上，執行下列工作，，然後按一下**確定**:</span><span class="sxs-lookup"><span data-stu-id="70925-150">On the **Certificates** tab, do the following, and then click **OK**:</span></span>  
+  
+    |<span data-ttu-id="70925-151">使用</span><span class="sxs-lookup"><span data-stu-id="70925-151">Use this</span></span>|<span data-ttu-id="70925-152">動作</span><span class="sxs-lookup"><span data-stu-id="70925-152">To do this</span></span>|  
+    |--------------|----------------|  
+    |<span data-ttu-id="70925-153">**一般名稱**</span><span class="sxs-lookup"><span data-stu-id="70925-153">**Common Name**</span></span>|<span data-ttu-id="70925-154">為顯示的解密憑證顯示描述。</span><span class="sxs-lookup"><span data-stu-id="70925-154">Displays a description of the displayed decryption certificate.</span></span>|  
+    |<span data-ttu-id="70925-155">**憑證指紋**</span><span class="sxs-lookup"><span data-stu-id="70925-155">**Thumbprint**</span></span>|<span data-ttu-id="70925-156">顯示私密金鑰憑證的指紋，此私密金鑰憑證用於為此主控件解密輸入訊息。</span><span class="sxs-lookup"><span data-stu-id="70925-156">Displays the thumbprint of the private key certificate used to decrypt inbound messages for this host.</span></span> <span data-ttu-id="70925-157">憑證指紋的格式為 HHHH HHHH HHHH HHHH HHHH HHHH HHHH HHHH HHHH HHHH，其中 H 是十六進位數字 (0 到 9 的數字或是 A 到 F 的字母)。</span><span class="sxs-lookup"><span data-stu-id="70925-157">The certificate thumbprint has the format HHHH HHHH HHHH HHHH HHHH HHHH HHHH HHHH HHHH HHHH, where H is a hexadecimal digit (a number from 0 through 9 or a letter from A through F).</span></span>|  
+    |<span data-ttu-id="70925-158">**移除憑證**</span><span class="sxs-lookup"><span data-stu-id="70925-158">**Remove certificate**</span></span>|<span data-ttu-id="70925-159">按一下以從主控件移除顯示的解密憑證。</span><span class="sxs-lookup"><span data-stu-id="70925-159">Click to remove the displayed decryption certificate from the host.</span></span>|  
+    |<span data-ttu-id="70925-160">**瀏覽**</span><span class="sxs-lookup"><span data-stu-id="70925-160">**Browse**</span></span>|<span data-ttu-id="70925-161">按一下即可顯示**Windows 安全性**對話方塊，其中從目前的使用者或您想要使用與主機的個人存放區選取解密憑證。</span><span class="sxs-lookup"><span data-stu-id="70925-161">Click to display the **Windows Security** dialog box, where you select the decryption certificate from the current user or personal store that you want to use with the host.</span></span>|  
+  
+## <a name="see-also"></a><span data-ttu-id="70925-162">另請參閱</span><span class="sxs-lookup"><span data-stu-id="70925-162">See Also</span></span>  
+ <span data-ttu-id="70925-163">[管理 BizTalk 主控件和主控件執行個體](../core/managing-biztalk-hosts-and-host-instances.md) </span><span class="sxs-lookup"><span data-stu-id="70925-163">[Managing BizTalk Hosts and Host Instances](../core/managing-biztalk-hosts-and-host-instances.md) </span></span>  
+ <span data-ttu-id="70925-164">[修改主控件屬性](../core/how-to-modify-host-properties.md) </span><span class="sxs-lookup"><span data-stu-id="70925-164">[Modify Host Properties](../core/how-to-modify-host-properties.md) </span></span>  
+ [<span data-ttu-id="70925-165">刪除主控件</span><span class="sxs-lookup"><span data-stu-id="70925-165">Delete a Host</span></span>](../core/how-to-delete-a-host.md)

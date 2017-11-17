@@ -1,0 +1,1 @@
+<span data-ttu-id="c664e-101">Siebel 配接器</span><span class="sxs-lookup"><span data-stu-id="c664e-101">Siebel adapter</span></span>

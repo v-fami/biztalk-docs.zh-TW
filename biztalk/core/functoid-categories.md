@@ -1,0 +1,47 @@
+---
+title: "運算質類別 |Microsoft 文件"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: 029905e2-f01a-436a-b2ed-a364379c9cc5
+caps.latest.revision: "10"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: 89db4168af133e616f48ded54cce98cd54bb8ec8
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/20/2017
+---
+# <a name="functoid-categories"></a><span data-ttu-id="54afe-102">運算質類別</span><span class="sxs-lookup"><span data-stu-id="54afe-102">Functoid Categories</span></span>
+<span data-ttu-id="54afe-103">根據 BizTalk 運算質不同的使用目的，將它們分成不同的類別。</span><span class="sxs-lookup"><span data-stu-id="54afe-103">BizTalk functoids are divided into categories according to their intended use.</span></span> <span data-ttu-id="54afe-104">例如，資料庫運算質的設計為可在執行階段從資料庫擷取資料，而數學運算質則用於執行數學運算，等等。</span><span class="sxs-lookup"><span data-stu-id="54afe-104">For example, database functoids are designed for extracting data from a database at run time, mathematical functoids are used to perform mathematical operations, and so on.</span></span> <span data-ttu-id="54afe-105">在 BizTalk 對應工具中，運算質會依類別出現在 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 工具箱中。</span><span class="sxs-lookup"><span data-stu-id="54afe-105">In BizTalk Mapper, functoids appear by category in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Toolbox.</span></span> 
+
+## <a name="categories--description"></a><span data-ttu-id="54afe-106">類別與描述</span><span class="sxs-lookup"><span data-stu-id="54afe-106">Categories & description</span></span>
+<span data-ttu-id="54afe-107">以下的表格顯示運算質類別、簡要描述類別並顯示每個類別中的運算質清單，包括其對應的參考頁面之連結。</span><span class="sxs-lookup"><span data-stu-id="54afe-107">The following table shows the functoid categories, briefly describes the category, and shows the list of functoids in each category, including links to their corresponding reference pages.</span></span>  
+  
+|<span data-ttu-id="54afe-108">運算質類別</span><span class="sxs-lookup"><span data-stu-id="54afe-108">Functoid category</span></span> <br/><br/> <span data-ttu-id="54afe-109">類別描述</span><span class="sxs-lookup"><span data-stu-id="54afe-109">Category description</span></span>|<span data-ttu-id="54afe-110">類別中的運算質</span><span class="sxs-lookup"><span data-stu-id="54afe-110">Functoids in category</span></span>|  
+|---|---|  
+|<span data-ttu-id="54afe-111">**進階**</span><span class="sxs-lookup"><span data-stu-id="54afe-111">**Advanced**</span></span> <br /><br /> <span data-ttu-id="54afe-112">主要與迴圈記錄搭配使用。</span><span class="sxs-lookup"><span data-stu-id="54afe-112">Primarily used with looping records.</span></span> <span data-ttu-id="54afe-113">也可以用於執行任意指令碼或編譯的程式碼。</span><span class="sxs-lookup"><span data-stu-id="54afe-113">Also used for running arbitrary script or compiled code.</span></span>|<span data-ttu-id="54afe-114">Assert、 索引、 反覆項目、 迴圈、 大量複製 」、 「 Nil 值，記錄計數，指令碼、 表格擷取程式 」，表格迴圈 」、 「 值對應時，值對應 （簡維）</span><span class="sxs-lookup"><span data-stu-id="54afe-114">Assert, Index, Iteration, Looping, Mass Copy, Nil Value, Record Count, Scripting, Table Extractor, Table Looping, Value Mapping, Value Mapping (Flattening)</span></span>|  
+|<span data-ttu-id="54afe-115">**轉換**</span><span class="sxs-lookup"><span data-stu-id="54afe-115">**Conversion**</span></span> <br /><br /> <span data-ttu-id="54afe-116">用以轉換成 ASCII 和從 ASCII 轉換，以及數字基數之間的轉換。</span><span class="sxs-lookup"><span data-stu-id="54afe-116">Used to convert to and from ASCII, and between numeric bases.</span></span>|<span data-ttu-id="54afe-117">ASCII 到字元，字元到 ASCII，十六進位、 八進位</span><span class="sxs-lookup"><span data-stu-id="54afe-117">ASCII to Character, Character to ASCII, Hexadecimal, Octal</span></span>|  
+|<span data-ttu-id="54afe-118">**累計**</span><span class="sxs-lookup"><span data-stu-id="54afe-118">**Cumulative**</span></span> <br /><br /> <span data-ttu-id="54afe-119">用以執行迴圈記錄中的數學運算，例如平均值和串連。</span><span class="sxs-lookup"><span data-stu-id="54afe-119">Used to perform mathematical operations in looping records, such as averages and concatenation.</span></span>|<span data-ttu-id="54afe-120">累計平均]、 [累計串連、 累計最大值、 累計最小值和累計總和</span><span class="sxs-lookup"><span data-stu-id="54afe-120">Cumulative Average, Cumulative Concatenate,  Cumulative Maximum, Cumulative Minimum, Cumulative Sum</span></span>|  
+|<span data-ttu-id="54afe-121">**資料庫**</span><span class="sxs-lookup"><span data-stu-id="54afe-121">**Database**</span></span> <br /><br /> <span data-ttu-id="54afe-122">用以擷取資料庫的資料並用於目的執行個體訊息中。</span><span class="sxs-lookup"><span data-stu-id="54afe-122">Used to extract data from a database and use it in destination instance messages.</span></span>|<span data-ttu-id="54afe-123">資料庫查詢，傳回錯誤，格式訊息，取得應用程式識別碼、 取得應用程式值、 取得通用識別碼、 取得通用值、 移除應用程式識別碼，設定通用識別碼，值擷取程式 」</span><span class="sxs-lookup"><span data-stu-id="54afe-123">Database Lookup, Error Return, Format Message, Get Application ID, Get Application Value, Get Common ID, Get Common Value, Remove Application ID, Set Common ID, Value Extractor</span></span>|  
+|<span data-ttu-id="54afe-124">**日期和時間**</span><span class="sxs-lookup"><span data-stu-id="54afe-124">**Date and Time**</span></span> <br /><br /> <span data-ttu-id="54afe-125">用以擷取目前的日期和時間，並計算差異時間。</span><span class="sxs-lookup"><span data-stu-id="54afe-125">Used to retrieve the current date and time, and to calculate delta times.</span></span>|<span data-ttu-id="54afe-126">新增天、 日期、 日期和時間、 時間</span><span class="sxs-lookup"><span data-stu-id="54afe-126">Add Days, Date, Date and Time, Time</span></span>|  
+|<span data-ttu-id="54afe-127">**邏輯**</span><span class="sxs-lookup"><span data-stu-id="54afe-127">**Logical**</span></span> <br /><br /> <span data-ttu-id="54afe-128">用以執行各種邏輯運算，例如大於和存在。</span><span class="sxs-lookup"><span data-stu-id="54afe-128">Used to perform a variety of logical operations, such as greater than and logical existence.</span></span>|<span data-ttu-id="54afe-129">等於、 大於、 大於或等於，IsNil，Less Than、 小於或等於邏輯 AND、 邏輯日期、 存在、 數字，邏輯不，邏輯 OR、 邏輯的字串、 不等於</span><span class="sxs-lookup"><span data-stu-id="54afe-129">Equal, Greater Than, Greater Than or Equal To, IsNil, Less Than, Less Than or Equal To, Logical AND, Logical Date, Logical Existence, Logical Numeric, Logical NOT, Logical OR, Logical String, Not Equal</span></span>|  
+|<span data-ttu-id="54afe-130">**數學**</span><span class="sxs-lookup"><span data-stu-id="54afe-130">**Mathematical**</span></span> <br /><br /> <span data-ttu-id="54afe-131">用以執行各種數學運算，例如加法和乘法。</span><span class="sxs-lookup"><span data-stu-id="54afe-131">Used to perform a variety of mathematical operations, such as addition and multiplication.</span></span>|<span data-ttu-id="54afe-132">絕對值，加法、 除法、 整數、 最大值、 乘法、 圓形、 平方根、 減法模數的最小值</span><span class="sxs-lookup"><span data-stu-id="54afe-132">Absolute Value, Addition, Division, Integer, Maximum Value, Minimum Value, Modulo, Multiplication, Round, Square Root, Subtraction</span></span>|  
+|<span data-ttu-id="54afe-133">**科學記號**</span><span class="sxs-lookup"><span data-stu-id="54afe-133">**Scientific**</span></span> <br /><br /> <span data-ttu-id="54afe-134">用以執行各種科學運算，例如對數和三角函數。</span><span class="sxs-lookup"><span data-stu-id="54afe-134">Used to perform a variety of scientific operations, such as logarithms and trigonometry.</span></span>|<span data-ttu-id="54afe-135">10 ^ n 反正切值、 指定基底的對數、 常用對數、 餘弦函數、 自然指數函式、 自然對數、 正弦、 正切函數，X ^ Y</span><span class="sxs-lookup"><span data-stu-id="54afe-135">10^n, Arc Tangent, Base-Specified Logarithm, Common Logarithm, Cosine, Natural Exponential Function, Natural Logarithm, Sine, Tangent, X^Y</span></span>|  
+|<span data-ttu-id="54afe-136">**字串**</span><span class="sxs-lookup"><span data-stu-id="54afe-136">**String**</span></span> <br /><br /> <span data-ttu-id="54afe-137">用以執行各種字串函數，例如修剪和串連。</span><span class="sxs-lookup"><span data-stu-id="54afe-137">Used to perform a variety of string functions, such as trimming and concatenation.</span></span>|<span data-ttu-id="54afe-138">小寫、 大小、 字串串連、 字串左邊擷取、 字串尋找字串、 字串左空白位置修剪、 字串，字串右空白位置修剪，預設為大寫</span><span class="sxs-lookup"><span data-stu-id="54afe-138">Lowercase, Size, String Concatenate, String Extract, String Find, String Left, String Left Trim, String Right, String Right Trim, Uppercase</span></span>|  
+  
+> [!NOTE]
+>  <span data-ttu-id="54afe-139">運算質的用途通常可以從其名稱看出。</span><span class="sxs-lookup"><span data-stu-id="54afe-139">The purpose of a functoid is usually obvious from its name.</span></span>  
+  
+> [!NOTE]
+>  <span data-ttu-id="54afe-140">Microsoft 所隨附的所有運算質[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]皆為內嵌 C# 中，除了**資料庫**運算質。</span><span class="sxs-lookup"><span data-stu-id="54afe-140">All functoids included with Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] are inline C#, except for the **Database** functoids.</span></span>  
+  
+## <a name="see-also"></a><span data-ttu-id="54afe-141">另請參閱</span><span class="sxs-lookup"><span data-stu-id="54afe-141">See Also</span></span>  
+ <span data-ttu-id="54afe-142">[基本運算質](../core/basic-functoids.md) </span><span class="sxs-lookup"><span data-stu-id="54afe-142">[Basic Functoids](../core/basic-functoids.md) </span></span>  
+ [<span data-ttu-id="54afe-143">進階運算質</span><span class="sxs-lookup"><span data-stu-id="54afe-143">Advanced Functoids</span></span>](../core/advanced-functoids.md)

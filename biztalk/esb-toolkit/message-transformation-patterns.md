@@ -1,0 +1,45 @@
+---
+title: "訊息轉換模式 |Microsoft 文件"
+ms.custom: 
+ms.date: 06/08/2017
+ms.prod: biztalk-server
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: aef41642-d33b-4878-be65-ef336530647f
+caps.latest.revision: "2"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
+ms.openlocfilehash: badfb450b51aebbdf81b2beccdeac98fc549bcb0
+ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/20/2017
+---
+# <a name="message-transformation-patterns"></a><span data-ttu-id="c099d-102">訊息轉換模式</span><span class="sxs-lookup"><span data-stu-id="c099d-102">Message Transformation Patterns</span></span>
+<span data-ttu-id="c099d-103">訊息轉換模式定義經過證實的轉換進行額外處理，或符合預期的文件格式的訊息將送往之服務的訊息指導方針。</span><span class="sxs-lookup"><span data-stu-id="c099d-103">Message transformation patterns define proven guidelines for transforming messages for additional processing or to match the expected document format of the service to which the message will be sent.</span></span> <span data-ttu-id="c099d-104">訊息可能需要轉換，因為已接收訊息的結構不是預期的標準，或因為訊息必須從非標準格式轉換成 XML。</span><span class="sxs-lookup"><span data-stu-id="c099d-104">A message may require transformation because the structure of the received message is not in the expected standard or because the message must be converted from a non-standard format to XML.</span></span>  
+  
+## <a name="message-translator"></a><span data-ttu-id="c099d-105">訊息轉譯程式</span><span class="sxs-lookup"><span data-stu-id="c099d-105">Message Translator</span></span>  
+ <span data-ttu-id="c099d-106">訊息轉譯程式模式會定義使用不相容的資料格式的系統之間進行通訊的解決方案。</span><span class="sxs-lookup"><span data-stu-id="c099d-106">The Message Translator pattern defines a solution for communication between systems that use incompatible data formats.</span></span> <span data-ttu-id="c099d-107">比方說，用戶端應用程式可能會傳送一般檔案要求訊息，然後才能進行其他處理程序必須轉換成 XML。</span><span class="sxs-lookup"><span data-stu-id="c099d-107">For example, a client application may send a flat file request message that must be converted to XML before additional processing can occur.</span></span> <span data-ttu-id="c099d-108">如需此模式的詳細說明，請參閱[訊息轉譯程式](http://go.microsoft.com/fwlink/?LinkId=186845)([http://go.microsoft.com/fwlink/?LinkId=186845](http://go.microsoft.com/fwlink/?LinkId=186845)) 上的企業整合模式站台。</span><span class="sxs-lookup"><span data-stu-id="c099d-108">For a detailed description of this pattern, see [Message Translator](http://go.microsoft.com/fwlink/?LinkId=186845) ([http://go.microsoft.com/fwlink/?LinkId=186845](http://go.microsoft.com/fwlink/?LinkId=186845)) on the Enterprise Integration Patterns site.</span></span>  
+  
+ <span data-ttu-id="c099d-109">此模式在路線設計工具中的實作是組合[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]轉換服務 」 和 「 單一的解析程式。</span><span class="sxs-lookup"><span data-stu-id="c099d-109">The implementation of this pattern in Itinerary Designer is a combination of the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] transformation service and a single resolver.</span></span> <span data-ttu-id="c099d-110">路線轉換服務會負責使用解析程式屬性來定義轉換所需的成品將訊息轉換。</span><span class="sxs-lookup"><span data-stu-id="c099d-110">The itinerary transformation service is responsible for transforming a message using resolver properties that define the artifacts required for transformation.</span></span> <span data-ttu-id="c099d-111">解析程式實作會負責提供轉換的設定，也就是靜態或動態，根據的解析程式設定。</span><span class="sxs-lookup"><span data-stu-id="c099d-111">The resolver implementation is responsible for providing transformation settings, which can be defined statically or dynamically, depending on the resolver configuration.</span></span>  
+  
+ <span data-ttu-id="c099d-112">訊息轉譯程式模式的範例實作，請參閱下列資源：</span><span class="sxs-lookup"><span data-stu-id="c099d-112">For an example implementation of the Message Translator pattern, see the following resources:</span></span>  
+  
+-   [<span data-ttu-id="c099d-113">安裝及執行路線上手範例</span><span class="sxs-lookup"><span data-stu-id="c099d-113">Installing and Running the Itinerary On-Ramp Sample</span></span>](../esb-toolkit/installing-and-running-the-itinerary-on-ramp-sample.md)  
+  
+-   [<span data-ttu-id="c099d-114">如何： 轉換訊息及使用要求-回應訊息交換模式的服務端點的路由</span><span class="sxs-lookup"><span data-stu-id="c099d-114">How to: Transform a Message and Route to a Service Endpoint Using a Request-Response Message Exchange Pattern</span></span>](../esb-toolkit/transform-message-and-route-to-service-endpoint-using-request-response-message.md)  
+  
+## <a name="normalizer"></a><span data-ttu-id="c099d-115">正規化程式</span><span class="sxs-lookup"><span data-stu-id="c099d-115">Normalizer</span></span>  
+ <span data-ttu-id="c099d-116">正規化程式模式是資料模型轉換模式擴充功能。</span><span class="sxs-lookup"><span data-stu-id="c099d-116">The Normalizer pattern is an extension of the Data Model Transformation pattern.</span></span> <span data-ttu-id="c099d-117">此模式會定義以不同格式的方案中，從多個來源接收訊息的語意相等，但訊息到達。</span><span class="sxs-lookup"><span data-stu-id="c099d-117">This pattern defines a solution in which messages received from multiple sources are semantically equivalent, but the messages arrive in different formats.</span></span> <span data-ttu-id="c099d-118">如需此模式的詳細說明，請參閱[正規化程式](http://go.microsoft.com/fwlink/?LinkId=186847)([http://go.microsoft.com/fwlink/?LinkId=186847](http://go.microsoft.com/fwlink/?LinkId=186847)) 上的企業整合模式站台。</span><span class="sxs-lookup"><span data-stu-id="c099d-118">For a detailed description of this pattern, see [Normalizer](http://go.microsoft.com/fwlink/?LinkId=186847) ([http://go.microsoft.com/fwlink/?LinkId=186847](http://go.microsoft.com/fwlink/?LinkId=186847)) on the Enterprise Integration Patterns site.</span></span>  
+  
+ <span data-ttu-id="c099d-119">此模式在路線設計工具中的實作是組合[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]轉換服務 」 和 「 單一的解析程式。</span><span class="sxs-lookup"><span data-stu-id="c099d-119">The implementation of this pattern in Itinerary Designer is a combination of the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] transformation service and a single resolver.</span></span> <span data-ttu-id="c099d-120">路線轉換服務會負責使用解析程式屬性來定義轉換所需的成品將訊息轉換。</span><span class="sxs-lookup"><span data-stu-id="c099d-120">The itinerary transformation service is responsible for transforming a message using resolver properties that define the artifacts required for transformation.</span></span> <span data-ttu-id="c099d-121">解析程式實作會負責以動態方式解析指定的訊息類型的適當 Microsoft BizTalk 對應。</span><span class="sxs-lookup"><span data-stu-id="c099d-121">The resolver implementation is responsible for dynamically resolving the appropriate Microsoft BizTalk map for a specified type of message.</span></span>  
+  
+ <span data-ttu-id="c099d-122">正規化程式模式的範例實作，請參閱[安裝及執行路線上手範例](../esb-toolkit/installing-and-running-the-itinerary-on-ramp-sample.md)。</span><span class="sxs-lookup"><span data-stu-id="c099d-122">For an example implementation of the Normalizer pattern, see the [Installing and Running the Itinerary On-Ramp Sample](../esb-toolkit/installing-and-running-the-itinerary-on-ramp-sample.md).</span></span>  
+  
+## <a name="content-enricher"></a><span data-ttu-id="c099d-123">內容 Enricher</span><span class="sxs-lookup"><span data-stu-id="c099d-123">Content Enricher</span></span>  
+ <span data-ttu-id="c099d-124">內容 Enricher 模式定義為接收之訊息可能會包含所需的目標系統，才能適當地處理訊息的所有資料的解決方案。</span><span class="sxs-lookup"><span data-stu-id="c099d-124">The Content Enricher pattern defines a solution in which a received message may not include all the data required for the target system to appropriately process the message.</span></span> <span data-ttu-id="c099d-125">比方說，傳送的服務可能包含郵遞區號不備援狀態程式碼中，但接收服務所預期的訊息，其中包含狀態碼和郵遞區號。接收服務可以處理所接收的訊息之前需要額外的資料。</span><span class="sxs-lookup"><span data-stu-id="c099d-125">For example, the sending service may include a ZIP code without a redundant state code, but the receiving service expects a message that includes both a state code and a ZIP code; additional data is required before the receiving service can process the received message.</span></span> <span data-ttu-id="c099d-126">如需此模式的詳細說明，請參閱[內容 Enricher](http://go.microsoft.com/fwlink/?LinkId=186848) ([http://go.microsoft.com/fwlink/?LinkId=186848](http://go.microsoft.com/fwlink/?LinkId=186848)) 上的企業整合模式站台。</span><span class="sxs-lookup"><span data-stu-id="c099d-126">For a detailed description of this pattern, see [Content Enricher](http://go.microsoft.com/fwlink/?LinkId=186848) ([http://go.microsoft.com/fwlink/?LinkId=186848](http://go.microsoft.com/fwlink/?LinkId=186848)) on the Enterprise Integration Patterns site.</span></span>  
+  
+ <span data-ttu-id="c099d-127">內容 Enricher 模式的範例實作，請參閱[安裝及執行 「 訊息豐富 」 範例](../esb-toolkit/installing-and-running-the-message-enrichment-sample.md)應用程式。</span><span class="sxs-lookup"><span data-stu-id="c099d-127">For an example implementation of the Content Enricher pattern, see the [Installing and Running the Message Enrichment Sample](../esb-toolkit/installing-and-running-the-message-enrichment-sample.md) application.</span></span>
