@@ -109,7 +109,7 @@ ms.lasthandoff: 09/20/2017
         >  專案位置可以存在不同的伺服器上。 若要發行到不同的伺服器的 Web 服務，輸入專案名稱，做為**http://\<*servername*>/\<*project_name*>**。  
   
         > [!NOTE]
-        >  專案位置可以存在非預設的網站上。 發佈至非預設的網站時，請在 URL 中加入網站的連接埠編號。 例如，http://localhost:8080/</\<*project_name*>。  
+        >  專案位置可以存在非預設的網站上。 發佈至非預設的網站時，請在 URL 中加入網站的連接埠編號。 例如， http://localhost:8080/\<*project_name*>。  
   
         > [!NOTE]
         >  在使用精靈建立接收位置時，精靈會使用預設值來建立接收位置。 接收管線的預設值是**Microsoft.BizTalk.DefaultPipelines.PassThruReceive**管線。 如果透過已發佈的 Web 服務收到的訊息需要任何特殊管線處理 (例如驗證、 相互關聯 / 屬性升級或輸入/輸出對應)，則您應該設定接收管線**Microsoft.BizTalk.DefaultPipelines.XMLReceive**，或自訂管線。  
