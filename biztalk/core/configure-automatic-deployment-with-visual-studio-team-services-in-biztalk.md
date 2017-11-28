@@ -2,7 +2,7 @@
 title: "使用 Visual Studio Team Services 中設定自動部署 |Microsoft 文件"
 description: "安裝 BizTalk 功能套件部署至不同的 BizTalk 環境的應用程式中使用 VSTS 應用程式生命週期管理"
 ms.custom: 
-ms.date: 11/08/2017
+ms.date: 11/20/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
@@ -10,20 +10,26 @@ ms.tgt_pltfrm:
 ms.topic: article
 ms.assetid: 57f769bb-5105-43e2-9096-ed54cdf82b90
 caps.latest.revision: "8"
-author: tordgladnordahl
+author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 04a7d2b2430a5dc57403fc179fa1c1859d3a82b3
-ms.sourcegitcommit: a0165ec2f1e8b58545638666b7bfa2bf440036fd
+ms.openlocfilehash: d135960143fed33d1ce4847c681f5b1134489b65
+ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2017
+ms.lasthandoff: 11/21/2017
 ---
 # <a name="configure-automatic-deployment-with-visual-studio-team-services-in-biztalk-server"></a>使用 BizTalk Server 中的 Visual Studio Team Services 中設定自動部署
 
 ## <a name="overview"></a>概觀
 
 **從開始[!INCLUDE[bts2016_md](../includes/bts2016-md.md)] [!INCLUDE[featurepack1](../includes/featurepack1.md)]** ，[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]提供改良的自動部署和應用程式生命週期管理 (ALM) 體驗。 
+
+**從開始[!INCLUDE[bts2016_md](../includes/bts2016-md.md)]Feature Pack 2**，我們已改進這項功能：
+
+* 在 Visual Studio 中，設定**應用程式名稱**的 BizTalk 應用程式
+* 除了使用代理程式為基礎的部署，您也可以使用[部署群組](https://docs.microsoft.com/vsts/build-release/concepts/definitions/release/deployment-groups/index)部署 BizTalk 應用程式的多個伺服器
+* 在發行工作中，您可以安裝 BizTalk 應用程式，並輸入 BizTalk 管理電腦，以及該路徑的部署套件
 
 Visual Studio Team Services，您可以使用自動部署[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]至不同的 BizTalk 環境的應用程式。 
 
@@ -40,20 +46,21 @@ Visual Studio Team Services，您可以使用自動部署[!INCLUDE[btsBizTalkSer
 
 * 將您的 Visual Studio Team Services (VSTS) 帳戶就緒。 沒有網路怎麼辦？ [註冊 Visual Studio Team Services](https://www.visualstudio.com/docs/setup-admin/team-services/sign-up-for-visual-studio-team-services)。
 * 如果您已經有 BizTalk 電腦上安裝 VSTS 代理程式，以最新的 VSTS 代理程式覆寫現有的代理程式。 您可能必須更新您[VSTS 服務，以配合新的代理程式](https://www.visualstudio.com/docs/build/actions/agents/v2-windows#replace-an-agent)。
-* 自動部署 VSTS 對其中一個[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]群組中。 確定電腦具有 Visual Studio 和[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]開發者工具與 SDK 安裝。 請參閱[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)][硬體和軟體需求](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md)。
+* VSTS 與自動部署功能組件 1，完成其中一個[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]群組中。 確定電腦具有 Visual Studio 和[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]開發者工具與 SDK 安裝。 請參閱[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)][硬體和軟體需求](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md)。
+* Feature Pack 2，與使用 VSTS 自動部署，才可以使用[部署群組](https://docs.microsoft.com/vsts/build-release/concepts/definitions/release/deployment-groups/howto-deployment-groups)。 您可以使用部署群組，來部署您的應用程式部署群組內的多部 BizTalk 伺服器。
 
 ## <a name="prerequisites"></a>必要條件
 
-* 安裝[功能套件 1](https://www.microsoft.com/download/details.aspx?id=55100)上您[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]
+* 安裝[功能套件 2](https://aka.ms/bts2016fp2)上您[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]
 * 某些體驗和建立及使用定義於 VSTS 中的知識。 如果您是新手 VSTS，這些可能是很好的資源： 
 
   [Visual Studio Team Services 概觀](https://www.visualstudio.com/docs/overview)  
   [CI/CD 新手適用的](https://www.visualstudio.com/docs/build/get-started/ci-cd-part-1)
 
 ## <a name="get-started"></a>快速入門
-[步驟 1： 在此加入應用程式專案 （& s) 更新.json 範本](feature-pack-add-application-project.md)  
+[步驟 1：新增應用程式專案及更新 .json 範本](feature-pack-add-application-project.md)  
 
-[步驟 2： 建立 VSTS 語彙基元，並安裝組建代理程式](feature-pack-create-vsts-token.md)
+[步驟 2：建立 VSTS 權杖及安裝組建代理程式](feature-pack-create-vsts-token.md)
 
 [步驟 3： 建立組建和發行定義](feature-pack-add-build-release-definitions.md)
 

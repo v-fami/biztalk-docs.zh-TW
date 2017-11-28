@@ -2,7 +2,7 @@
 title: "步驟 3-建立組建和發行定義 |Microsoft 文件"
 description: "在 VSTS 中，會建立組建定義，以便建置您的 git 或 TFS 儲存機制中的專案，然後建立要部署 BizTalk Server 應用程式的發行定義"
 ms.custom: 
-ms.date: 11/08/2017
+ms.date: 11/20/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
@@ -11,15 +11,18 @@ ms.topic: article
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: de86d35fd615d8c0f1eee1127804645067c4bf6e
-ms.sourcegitcommit: a0165ec2f1e8b58545638666b7bfa2bf440036fd
+ms.openlocfilehash: 5ce84071fbc105fd9faddd794792273aae2e76b9
+ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2017
+ms.lasthandoff: 11/21/2017
 ---
 # <a name="step-3-create-the-build-and-release-definition"></a>步驟 3： 建立組建和發行定義
 
 組建和發行定義是 Visual Studio Team Services 的工作，並可能由 VSTS 系統管理員。組建定義建置您的專案，在您的 git 儲存機制和發行定義將其部署到 BizTalk Server 環境。 
+
+## <a name="before-you-begin"></a>開始之前
+完成[步驟 2-建立 VSTS 語彙基元，並安裝代理程式](feature-pack-create-vsts-token.md)。
 
 ## <a name="add-the-build-tasks"></a>加入建置工作
 1. 在專案中，選取**組建與版本**。 [組建] 索引標籤隨即開啟。 建立**新增**定義：
@@ -88,7 +91,11 @@ ms.lasthandoff: 11/09/2017
 
 7. 選取**部署**工作，並輸入值： 
 
-    **作業名稱**： 選取**建立新的 BizTalk 應用程式**。 此選項會將新的應用程式部署。 如果應用程式已經存在，它會解除安裝目前的應用程式 （完全停止），並會安裝新的應用程式。 如果已啟用持續整合，它會自動重新部署應用程式更新儲存機制中時。 **更新現有的 BizTalk 應用程式**將變更，例如結構描述、 附加至正在執行的應用程式。 它不需要完整的重新部署應用程式。
+    **作業名稱**： 您的選項: ***建立新的 BizTalk 應用程式**： 將新的應用程式部署。 如果應用程式已經存在，它會解除安裝目前的應用程式 （完全停止），並會安裝新的應用程式。 如果已啟用持續整合，它會自動重新部署應用程式更新儲存機制中時。 
+        * **更新現有的 BizTalk 應用程式**： 將變更，例如結構描述、 附加至正在執行的應用程式。 它不需要完整的重新部署應用程式。
+        * **安裝 BizTalk Server 應用程式**:[安裝的應用程式](../core/how-to-install-a-biztalk-application.md)，輸入 BizTalk 管理的電腦名稱和部署封裝路徑。
+
+        ![Deploy operations](../core/media/vsts-deploy-operations.png)
 
     **應用程式名稱**： 您輸入的文字將會在 BizTalk 管理中的應用程式名稱。 請勿**不**輸入 BizTalk Application 1。
 

@@ -1,28 +1,25 @@
 ---
-title: "什麼 &#39; s 的新 BizTalk Accelerator for HL7 |Microsoft 文件"
+title: "BizTalk Accelerator for HL7 的新功能 |Microsoft 文件"
+description: "變更與更新具有不同版本的 BizTalk Server 中的 HL7 加速器"
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 11/22/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- what's new
-- BizTalk Accelerator for HL7, what's new
-- getting started, what's new
 ms.assetid: e98595a1-2d1e-488e-8a97-7cd561948b3b
 caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c350ef616acf61cab7910c5381cca02d68c919f5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 507f2c3561747d9abb3ad3f1bfbd86c4738fbefd
+ms.sourcegitcommit: f4c0d7bc4b617688c643101a34062db90014851a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/23/2017
 ---
-# <a name="what39s-new-in-biztalk-accelerator-for-hl7"></a>什麼 &#39; s 的新 BizTalk Accelerator for HL7
+# <a name="whats-new-in-biztalk-accelerator-for-hl7"></a>BizTalk accelerator for HL7 最新消息
 變更與更新與[!INCLUDE[HL7_CurrentVersion_FirstRef_md](../../includes/hl7-currentversion-firstref-md.md)]。 
 
 ## <a name="biztalk-server-2016"></a>BizTalk Server 2016
@@ -60,5 +57,5 @@ ms.lasthandoff: 09/20/2017
 
 ## <a name="see-also"></a>另請參閱
 
-[什麼是 BizTalk Server 2016 的新功能](../../install-and-config-guides/what-s-new-in-biztalk-server-2016.md)  
+[BizTalk Server 2016 的新功能](../../install-and-config-guides/what-s-new-in-biztalk-server-2016.md)  
 [BizTalk Server 2013 R2 和 2013年中最新消息](../../install-and-config-guides/what-s-new-in-biztalk-server-2013-and-2013-r2.md)

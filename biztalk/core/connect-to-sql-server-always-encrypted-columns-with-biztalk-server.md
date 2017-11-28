@@ -1,7 +1,7 @@
 ---
 title: "連接至 BizTalk Server 與 SQL Server 永遠加密的資料行 |Microsoft 文件"
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 11/20/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
@@ -9,14 +9,14 @@ ms.tgt_pltfrm:
 ms.topic: article
 ms.assetid: fcc20a2b-daf9-4b7f-ae61-cb408e4bd04c
 caps.latest.revision: "4"
-author: tordgladnordahl
-ms.author: tonordah
+author: MandiOhlinger
+ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 62b570fabda6a0e46f87c36b863e2b99e464020b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d5e117bd91176589e998fc01eb2c613ac0da2bbc
+ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/21/2017
 ---
 # <a name="connect-to-sql-server-always-encrypted-columns-with-biztalk-server"></a>連接至 BizTalk Server 與 SQL Server 永遠加密的資料行
 在 WCF-SQL 配接器中啟用 永遠加密[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]查詢加密資料行。  
@@ -29,7 +29,7 @@ ms.lasthandoff: 09/20/2017
 > [永遠加密 (Database Engine)](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine)是絕佳的資源，了解，並深入了解[!INCLUDE[btsSQLServerNoVersion_md](../includes/btssqlservernoversion-md.md)]功能。
 
 ## <a name="prerequisites"></a>必要條件
-安裝[功能套件 1](https://www.microsoft.com/download/details.aspx?id=55100)上您[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]。
+安裝[功能套件 2](https://aka.ms/bts2016fp2)上您[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]。
 
 ## <a name="enable-always-encrypted"></a>啟用永遠加密
 

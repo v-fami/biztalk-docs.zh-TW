@@ -2,7 +2,7 @@
 title: "步驟 2-建立 VSTS 權杖並安裝代理程式 |Microsoft 文件"
 description: "Visual studio，建立 VSTS 安全性存取語彙基元，複製 VSTS 專案，並安裝來自動化部署的 BizTalk Server 專案的組建代理程式"
 ms.custom: 
-ms.date: 11/08/2017
+ms.date: 11/20/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
@@ -11,11 +11,11 @@ ms.topic: article
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 46047f0bb6a536642d503d68bb4f9161ecdf7fc5
-ms.sourcegitcommit: a0165ec2f1e8b58545638666b7bfa2bf440036fd
+ms.openlocfilehash: 77296d9f2325bebaba4f4fa1ce7c55034ef1ead6
+ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2017
+ms.lasthandoff: 11/21/2017
 ---
 # <a name="step-2-create-the-token--install-the-agent"></a>步驟 2： 建立權杖，並安裝代理程式
 
@@ -24,6 +24,9 @@ Visual Studio Team Services 中建立個人存取權杖 (PAT)。 這個語彙基
 在 PAT 上的進一歩[驗證個人存取權杖以存取 VSTS 和 TFS](https://docs.microsoft.com/vsts/accounts/use-personal-access-tokens-to-authenticate)。 
 
 建立權杖之後，您會安裝組建代理程式，並將它設定為使用此權杖。 
+
+## <a name="before-you-begin"></a>開始之前
+完成[步驟 1-新增應用程式專案，並更新 json](feature-pack-add-application-project.md)。
 
 ## <a name="sign-into-vsts-and-create-the-token"></a>登入 VSTS，並建立語彙基元
 1. 移至[https://app.vsaex.visualstudio.com/go/profile](https://app.vsaex.visualstudio.com/go/profile)，並使用您的工作或學校帳戶登入。 在您登入後，會列出 VSTS 帳戶。 在下列範例中，此帳戶是**mandiaprojects.visualstudio.com**。  
@@ -61,7 +64,7 @@ Visual Studio Team Services 中建立個人存取權杖 (PAT)。 這個語彙基
 
 ## <a name="install-the-build-agent"></a>安裝組建代理程式
 
-BizTalk 開發電腦上安裝的組建代理程式。 
+BizTalk 開發電腦上安裝的組建代理程式。 如果使用部署群組，您要部署到的所有 BizTalk 伺服器上安裝的組建代理程式。 下列步驟顯示如何在單一電腦上安裝的組建代理程式。 如需使用 部署群組的詳細資訊，請參閱[部署群組](https://docs.microsoft.com/vsts/build-release/concepts/definitions/release/deployment-groups/index)。
 
 1. 開啟您的 VSTS 帳戶和專案中，這不是像*https://YourAccountName.visualstudio.com/MyFirstProject*。 選取 [設定] 圖示，然後選取**代理程式佇列**:  
 

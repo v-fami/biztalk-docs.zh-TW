@@ -2,7 +2,7 @@
 title: "步驟 1-新增應用程式專案和更新的 json |Microsoft 文件"
 description: "在 Visual Studio 中，將 BizTalk Server 應用程式專案，並更新 BizTalkServerInventory.json 檔使用的 Dll、 繫結檔案和應用程式-Visual Studio Team Services 的部署序列"
 ms.custom: 
-ms.date: 11/08/2017
+ms.date: 11/20/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
@@ -11,11 +11,11 @@ ms.topic: article
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 46cb8a2072280e62cd8c3438521531f8cf3b55aa
-ms.sourcegitcommit: a0165ec2f1e8b58545638666b7bfa2bf440036fd
+ms.openlocfilehash: a8d4b9773c9c7b23715b5ddae29c3c97f381da5e
+ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2017
+ms.lasthandoff: 11/21/2017
 ---
 # <a name="step-1-add-the-biztalk-server-application-project-in-visual-studio"></a>步驟 1: Visual Studio 中加入 BizTalk Server 應用程式專案
 
@@ -29,7 +29,7 @@ BizTalk 應用程式專案包含`BizTalkServerInventory.json`檔案。 在此檔
 * 需要您準備好的 BizTalk 專案的 XML 繫結檔案路徑。 
 * 知道 VSTS 帳戶、 您的集合和 team 專案的詳細資料。
 * 要熟悉 git 概念，包括複製，以及使用儲存機制。 
-* 請務必[功能組件 1](https://www.microsoft.com/download/details.aspx?id=55100)安裝
+* 請務必[Feature Pack 2](https://aka.ms/bts2016fp2)安裝。
 
 ## <a name="add-the-application-project"></a>新增應用程式專案
 
@@ -52,6 +52,9 @@ BizTalk 應用程式專案包含`BizTalkServerInventory.json`檔案。 在此檔
 
     ![繫結檔案屬性](../core/media/xml-binding-file-properties.png)
 
+8. 選擇性。 以滑鼠右鍵按一下您剛新增的應用程式的專案，然後選取**屬性**。 自訂**應用程式名稱**您想要顯示在 BizTalk 管理中：  
+
+    ![應用程式名稱](../core/media/application-project-name.png)
 
 ## <a name="configure-the-json-template"></a>設定的 JSON 範本
 
@@ -159,7 +162,7 @@ BizTalk 應用程式專案包含`BizTalkServerInventory.json`檔案。 在此檔
 
 ## <a name="what-you-did"></a>您的作法
 
-在 BizTalk 專案中，您可以加入的 BizTalk 應用程式專案 (.btaproj)。 這個專案用來自動化使用 VSTS BizTalk Server 專案的部署。 建立應用程式專案之後，您會加入到 BizTalk 應用程式專案的參考。 然後，您可以更新通知自動化的部署，哪些 Dll 部署，若要使用，哪一個繫結檔案，才能部署應用程式的 JSON 檔案。 
+在 BizTalk 專案中，您可以加入的 BizTalk 應用程式專案 (.btaproj)。 這個專案用來自動化使用 VSTS BizTalk Server 專案的部署。 建立應用程式專案之後，您會加入您的 BizTalk 專案的參考。 然後，您可以更新通知自動化的部署，哪些 Dll 部署，若要使用，哪一個繫結檔案，才能部署應用程式的 JSON 檔案。 
 
 ## <a name="next-steps"></a>後續的步驟
 [步驟 2： 建立 VSTS 語彙基元](feature-pack-create-vsts-token.md)  

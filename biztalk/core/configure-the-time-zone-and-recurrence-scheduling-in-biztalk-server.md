@@ -1,7 +1,7 @@
 ---
 title: "設定時區和 BizTalk Server 中的循環排程 |Microsoft 文件"
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 11/20/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
@@ -9,14 +9,14 @@ ms.tgt_pltfrm:
 ms.topic: article
 ms.assetid: d60ae7be-747e-4034-8b99-46bd7e25fe67
 caps.latest.revision: "5"
-author: tordgladnordahl
-ms.author: tonordah
+author: MandiOhlinger
+ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 918d12e2dc96723327f4d0b0d2b0f0d435d6e42e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1ab4cd85af0d15d7b089b106dc33aa77f1a10639
+ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/21/2017
 ---
 # <a name="configure-the-time-zone-and-recurrence-scheduling-in-biztalk-server"></a>設定時區和 BizTalk Server 中的循環排程
 設定時區，並設定週期性排程上您在中接收位置[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]。 
@@ -26,7 +26,7 @@ ms.lasthandoff: 09/20/2017
 本主題會示範如何設定這些功能。
 
 ## <a name="prerequisites"></a>必要條件
-安裝[功能套件 1](https://www.microsoft.com/download/details.aspx?id=55100)上您[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]。
+安裝[功能套件 2](https://aka.ms/bts2016fp2)上您[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]。
 
 ## <a name="time-zone"></a>時區
 

@@ -13,11 +13,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e05b122047d7e303ed4e187fec19725cce9ae398
-ms.sourcegitcommit: 30189176c44873e3de42cc5f2b8951da51ffd251
+ms.openlocfilehash: c207b0aca5f2673e615167f75f7f1c7c3fb0e042
+ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/21/2017
 ---
 # <a name="install-and-configure-the-management-rest-apis-in-biztalk-server"></a>安裝和設定 BizTalk Server 中的管理 REST Api
 
@@ -27,7 +27,7 @@ ms.lasthandoff: 11/07/2017
 **從開始[!INCLUDE[bts2016_md](../includes/bts2016-md.md)] [!INCLUDE[featurepack1](../includes/featurepack1.md)]** ，沒有安裝這些 REST Api，以及其 swagger 定義的 Windows PowerShell 指令碼。 這些 Api 進行遠端管理連接埠、 協調流程、 夥伴、 協議、 管線和更多的 REST 呼叫。 
 
 ## <a name="prerequisites"></a>必要條件
-* 安裝[功能套件 1](https://www.microsoft.com/download/details.aspx?id=55100)上您[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]
+* 安裝[功能套件 2](https://aka.ms/bts2016fp2)上您[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]
 
 * 在上安裝 IIS [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]。 在大部分[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]環境中，IIS 已安裝。 請參閱[硬體和軟體需求適用於 BizTalk Server 2016](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md)。 確認 IIS 已安裝 BizTalk Server 上開啟**Internet Information Services 管理員**。 
 
