@@ -12,136 +12,136 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cccf89cb6c3e1f6ed600c28377e5ad124c5498ab
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 32392c05f47c00a6c62372acbf8d1ba0bed0da6c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
-# <a name="interceptor-management-commands"></a><span data-ttu-id="bf29b-102">攔截器管理命令</span><span class="sxs-lookup"><span data-stu-id="bf29b-102">Interceptor Management Commands</span></span>
-<span data-ttu-id="bf29b-103">為了支援新的 BAM 攔截器功能，BAM 管理公用程式中已加入四個新的命令。</span><span class="sxs-lookup"><span data-stu-id="bf29b-103">To support the new BAM interceptor functionality, four new commands have been added to the BAM Management utility.</span></span>  
+# <a name="interceptor-management-commands"></a><span data-ttu-id="63a30-102">攔截器管理命令</span><span class="sxs-lookup"><span data-stu-id="63a30-102">Interceptor Management Commands</span></span>
+<span data-ttu-id="63a30-103">為了支援新的 BAM 攔截器功能，BAM 管理公用程式中已加入四個新的命令。</span><span class="sxs-lookup"><span data-stu-id="63a30-103">To support the new BAM interceptor functionality, four new commands have been added to the BAM Management utility.</span></span>  
   
- <span data-ttu-id="bf29b-104">這些命令支援攔截器的部署、擷取和移除。</span><span class="sxs-lookup"><span data-stu-id="bf29b-104">These commands support the deployment, retrieval, and removal of interceptors.</span></span> <span data-ttu-id="bf29b-105">也有提供一個命令給設定的攔截器清單。</span><span class="sxs-lookup"><span data-stu-id="bf29b-105">A command is also provided to list the configured interceptors.</span></span>  
+ <span data-ttu-id="63a30-104">這些命令支援攔截器的部署、擷取和移除。</span><span class="sxs-lookup"><span data-stu-id="63a30-104">These commands support the deployment, retrieval, and removal of interceptors.</span></span> <span data-ttu-id="63a30-105">也有提供一個命令給設定的攔截器清單。</span><span class="sxs-lookup"><span data-stu-id="63a30-105">A command is also provided to list the configured interceptors.</span></span>  
   
--   <span data-ttu-id="bf29b-106">部署攔截器： 部署攔截器組態。</span><span class="sxs-lookup"><span data-stu-id="bf29b-106">deploy-interceptor: Deploys an interceptor configuration.</span></span>  
+-   <span data-ttu-id="63a30-106">部署攔截器： 部署攔截器組態。</span><span class="sxs-lookup"><span data-stu-id="63a30-106">deploy-interceptor: Deploys an interceptor configuration.</span></span>  
   
--   <span data-ttu-id="bf29b-107">get interceptorlist： 取得部署攔截的活動清單。</span><span class="sxs-lookup"><span data-stu-id="bf29b-107">get-interceptorlist: Gets a list of activities on which interception is deployed.</span></span>  
+-   <span data-ttu-id="63a30-107">get interceptorlist： 取得部署攔截的活動清單。</span><span class="sxs-lookup"><span data-stu-id="63a30-107">get-interceptorlist: Gets a list of activities on which interception is deployed.</span></span>  
   
--   <span data-ttu-id="bf29b-108">取得攔截器： 取得攔截器組態。</span><span class="sxs-lookup"><span data-stu-id="bf29b-108">get-interceptor: Gets the interceptor configuration.</span></span>  
+-   <span data-ttu-id="63a30-108">取得攔截器： 取得攔截器組態。</span><span class="sxs-lookup"><span data-stu-id="63a30-108">get-interceptor: Gets the interceptor configuration.</span></span>  
   
--   <span data-ttu-id="bf29b-109">移除攔截器： 移除攔截器組態。</span><span class="sxs-lookup"><span data-stu-id="bf29b-109">remove-interceptor: Removes an interceptor configuration.</span></span>  
-  
-> [!NOTE]
->  <span data-ttu-id="bf29b-110">您可以藉由啟用任何 BM 公用程式命令的追蹤**-追蹤： 在 &#124; 關閉**切換參數。</span><span class="sxs-lookup"><span data-stu-id="bf29b-110">You can enable tracing on any BM utility command by including the **-Trace:on&#124;off** parameter switch.</span></span> <span data-ttu-id="bf29b-111">使用追蹤參數會覆寫組態檔中的追蹤設定。</span><span class="sxs-lookup"><span data-stu-id="bf29b-111">Using the Trace switch overrides the tracing settings in the configuration file.</span></span> <span data-ttu-id="bf29b-112">此參數可以搭配任何一般 BM 命令使用。</span><span class="sxs-lookup"><span data-stu-id="bf29b-112">The switch can be used in conjunction with any normal BM command.</span></span>  
+-   <span data-ttu-id="63a30-109">移除攔截器： 移除攔截器組態。</span><span class="sxs-lookup"><span data-stu-id="63a30-109">remove-interceptor: Removes an interceptor configuration.</span></span>  
   
 > [!NOTE]
->  <span data-ttu-id="bf29b-113">在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。</span><span class="sxs-lookup"><span data-stu-id="bf29b-113">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  
+>  <span data-ttu-id="63a30-110">您可以藉由啟用任何 BM 公用程式命令的追蹤**-追蹤： 在 &#124; 關閉**切換參數。</span><span class="sxs-lookup"><span data-stu-id="63a30-110">You can enable tracing on any BM utility command by including the **-Trace:on&#124;off** parameter switch.</span></span> <span data-ttu-id="63a30-111">使用追蹤參數會覆寫組態檔中的追蹤設定。</span><span class="sxs-lookup"><span data-stu-id="63a30-111">Using the Trace switch overrides the tracing settings in the configuration file.</span></span> <span data-ttu-id="63a30-112">此參數可以搭配任何一般 BM 命令使用。</span><span class="sxs-lookup"><span data-stu-id="63a30-112">The switch can be used in conjunction with any normal BM command.</span></span>  
   
-## <a name="deploy-interceptor-command"></a><span data-ttu-id="bf29b-114">deploy-interceptor 命令</span><span class="sxs-lookup"><span data-stu-id="bf29b-114">deploy-interceptor Command</span></span>  
- <span data-ttu-id="bf29b-115">**使用方式**</span><span class="sxs-lookup"><span data-stu-id="bf29b-115">**Usage**</span></span>  
+> [!NOTE]
+>  <span data-ttu-id="63a30-113">在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。</span><span class="sxs-lookup"><span data-stu-id="63a30-113">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  
   
- <span data-ttu-id="bf29b-116">**bm.exe 部署攔截器-FileName:\<組態 XML 檔案名稱 > [-Force: True] [-Server:\<伺服器 >] [-Database:\<資料庫 >]**</span><span class="sxs-lookup"><span data-stu-id="bf29b-116">**bm.exe deploy-interceptor -FileName:\<Configuration XML Filename> [-Force:True ] [-Server:\<server>] [-Database:\<database>]**</span></span>  
+## <a name="deploy-interceptor-command"></a><span data-ttu-id="63a30-114">deploy-interceptor 命令</span><span class="sxs-lookup"><span data-stu-id="63a30-114">deploy-interceptor Command</span></span>  
+ <span data-ttu-id="63a30-115">**使用方式**</span><span class="sxs-lookup"><span data-stu-id="63a30-115">**Usage**</span></span>  
   
- <span data-ttu-id="bf29b-117">**參數**</span><span class="sxs-lookup"><span data-stu-id="bf29b-117">**Parameters**</span></span>  
+ <span data-ttu-id="63a30-116">**bm.exe 部署攔截器-FileName:\<組態 XML 檔案名稱\>[-Force: True] [-Server:\<伺服器\>] [-Database:\<資料庫\>]**</span><span class="sxs-lookup"><span data-stu-id="63a30-116">**bm.exe deploy-interceptor -FileName:\<Configuration XML Filename\> [-Force:True ] [-Server:\<server\>] [-Database:\<database\>]**</span></span>  
   
-|<span data-ttu-id="bf29b-118">參數</span><span class="sxs-lookup"><span data-stu-id="bf29b-118">Parameter</span></span>|<span data-ttu-id="bf29b-119">Description</span><span class="sxs-lookup"><span data-stu-id="bf29b-119">Description</span></span>|  
+ <span data-ttu-id="63a30-117">**參數**</span><span class="sxs-lookup"><span data-stu-id="63a30-117">**Parameters**</span></span>  
+  
+|<span data-ttu-id="63a30-118">參數</span><span class="sxs-lookup"><span data-stu-id="63a30-118">Parameter</span></span>|<span data-ttu-id="63a30-119">Description</span><span class="sxs-lookup"><span data-stu-id="63a30-119">Description</span></span>|  
 |---------------|-----------------|  
-|<span data-ttu-id="bf29b-120">檔案名稱：\<組態 XML 檔案名稱 ></span><span class="sxs-lookup"><span data-stu-id="bf29b-120">FileName:\<Configuration XML Filename></span></span>|<span data-ttu-id="bf29b-121">包含攔截器組態的 XML 檔案名稱。</span><span class="sxs-lookup"><span data-stu-id="bf29b-121">The name of the XML file containing the interceptor configuration.</span></span>|  
-|<span data-ttu-id="bf29b-122">Force:True</span><span class="sxs-lookup"><span data-stu-id="bf29b-122">Force:True</span></span>|<span data-ttu-id="bf29b-123">選擇性： 偵測到事件來源名稱衝突時，會強制部署攔截器組態。</span><span class="sxs-lookup"><span data-stu-id="bf29b-123">Optional: Forces deployment of the interceptor configuration when event source name collisions are detected.</span></span>|  
-|<span data-ttu-id="bf29b-124">伺服器：\<伺服器 ></span><span class="sxs-lookup"><span data-stu-id="bf29b-124">Server:\<server></span></span>|<span data-ttu-id="bf29b-125">選擇性： 要部署攔截器的伺服器名稱。</span><span class="sxs-lookup"><span data-stu-id="bf29b-125">Optional: The name of the server on which to deploy the interceptor.</span></span> <span data-ttu-id="bf29b-126">伺服器和執行 bm.exe 的電腦必須位在相同網域中。</span><span class="sxs-lookup"><span data-stu-id="bf29b-126">The server must be in the same domain as the computer from which you are running bm.exe.</span></span>|  
-|<span data-ttu-id="bf29b-127">資料庫：\<資料庫 ></span><span class="sxs-lookup"><span data-stu-id="bf29b-127">Database:\<database></span></span>|<span data-ttu-id="bf29b-128">選擇性： 要設定攔截器的 BAM 主要匯入資料庫的名稱。</span><span class="sxs-lookup"><span data-stu-id="bf29b-128">Optional: The name of the BAM Primary Import database on which to configure the interceptor.</span></span>|  
+|<span data-ttu-id="63a30-120">檔案名稱：\<組態 XML 檔案名稱\></span><span class="sxs-lookup"><span data-stu-id="63a30-120">FileName:\<Configuration XML Filename\></span></span>|<span data-ttu-id="63a30-121">包含攔截器組態的 XML 檔案名稱。</span><span class="sxs-lookup"><span data-stu-id="63a30-121">The name of the XML file containing the interceptor configuration.</span></span>|  
+|<span data-ttu-id="63a30-122">Force:True</span><span class="sxs-lookup"><span data-stu-id="63a30-122">Force:True</span></span>|<span data-ttu-id="63a30-123">選擇性： 偵測到事件來源名稱衝突時，會強制部署攔截器組態。</span><span class="sxs-lookup"><span data-stu-id="63a30-123">Optional: Forces deployment of the interceptor configuration when event source name collisions are detected.</span></span>|  
+|<span data-ttu-id="63a30-124">伺服器：\<伺服器\></span><span class="sxs-lookup"><span data-stu-id="63a30-124">Server:\<server\></span></span>|<span data-ttu-id="63a30-125">選擇性： 要部署攔截器的伺服器名稱。</span><span class="sxs-lookup"><span data-stu-id="63a30-125">Optional: The name of the server on which to deploy the interceptor.</span></span> <span data-ttu-id="63a30-126">伺服器和執行 bm.exe 的電腦必須位在相同網域中。</span><span class="sxs-lookup"><span data-stu-id="63a30-126">The server must be in the same domain as the computer from which you are running bm.exe.</span></span>|  
+|<span data-ttu-id="63a30-127">資料庫：\<資料庫\></span><span class="sxs-lookup"><span data-stu-id="63a30-127">Database:\<database\></span></span>|<span data-ttu-id="63a30-128">選擇性： 要設定攔截器的 BAM 主要匯入資料庫的名稱。</span><span class="sxs-lookup"><span data-stu-id="63a30-128">Optional: The name of the BAM Primary Import database on which to configure the interceptor.</span></span>|  
   
- <span data-ttu-id="bf29b-129">這個命令會將攔截器組態部署到指定的伺服器和資料庫。</span><span class="sxs-lookup"><span data-stu-id="bf29b-129">This command deploys the interceptor configuration to the specified server and database.</span></span> <span data-ttu-id="bf29b-130">在部署期間，BAM 管理公用程式會執行下列驗證：</span><span class="sxs-lookup"><span data-stu-id="bf29b-130">During deployment, the BAM Management utility performs the following validations:</span></span>  
+ <span data-ttu-id="63a30-129">這個命令會將攔截器組態部署到指定的伺服器和資料庫。</span><span class="sxs-lookup"><span data-stu-id="63a30-129">This command deploys the interceptor configuration to the specified server and database.</span></span> <span data-ttu-id="63a30-130">在部署期間，BAM 管理公用程式會執行下列驗證：</span><span class="sxs-lookup"><span data-stu-id="63a30-130">During deployment, the BAM Management utility performs the following validations:</span></span>  
   
--   <span data-ttu-id="bf29b-131">XSD 驗證： 攔截器組態會針對一般攔截器組態結構描述進行驗證。</span><span class="sxs-lookup"><span data-stu-id="bf29b-131">XSD validation: The interceptor configuration is validated against the common interceptor configuration schema.</span></span>  
+-   <span data-ttu-id="63a30-131">XSD 驗證： 攔截器組態會針對一般攔截器組態結構描述進行驗證。</span><span class="sxs-lookup"><span data-stu-id="63a30-131">XSD validation: The interceptor configuration is validated against the common interceptor configuration schema.</span></span>  
   
--   <span data-ttu-id="bf29b-132">此活動存在 (在主要匯入資料庫中部署) 且檢查點有效 (存在而且有相符的資料類型) 的驗證。</span><span class="sxs-lookup"><span data-stu-id="bf29b-132">Validation that the activity exists (is deployed in the Primary Import database) and that checkpoints are valid (exist and have a matching data type).</span></span>  
+-   <span data-ttu-id="63a30-132">此活動存在 (在主要匯入資料庫中部署) 且檢查點有效 (存在而且有相符的資料類型) 的驗證。</span><span class="sxs-lookup"><span data-stu-id="63a30-132">Validation that the activity exists (is deployed in the Primary Import database) and that checkpoints are valid (exist and have a matching data type).</span></span>  
   
- <span data-ttu-id="bf29b-133">如果在事件來源名稱中偵測到衝突，會擲回一則警告來描述此衝突。</span><span class="sxs-lookup"><span data-stu-id="bf29b-133">If a collision is detected in the event source name, a warning is thrown describing the collision.</span></span> <span data-ttu-id="bf29b-134">如果發生衝突，部署將會失敗除非**– Force: True**參數旗標。</span><span class="sxs-lookup"><span data-stu-id="bf29b-134">In the case of a collision, the deployment will fail unless the **–Force:True** parameter flag is used.</span></span>  
+ <span data-ttu-id="63a30-133">如果在事件來源名稱中偵測到衝突，會擲回一則警告來描述此衝突。</span><span class="sxs-lookup"><span data-stu-id="63a30-133">If a collision is detected in the event source name, a warning is thrown describing the collision.</span></span> <span data-ttu-id="63a30-134">如果發生衝突，部署將會失敗除非**– Force: True**參數旗標。</span><span class="sxs-lookup"><span data-stu-id="63a30-134">In the case of a collision, the deployment will fail unless the **–Force:True** parameter flag is used.</span></span>  
   
 > [!NOTE]
->  <span data-ttu-id="bf29b-135">**– Force: True**參數可能會移除參考具有相同名稱的事件來源的攔截器組態。</span><span class="sxs-lookup"><span data-stu-id="bf29b-135">The **–Force:True** parameter potentially removes interceptor configurations that reference event sources with the same name.</span></span> <span data-ttu-id="bf29b-136">您應該使用**get 攔截器**命令建立現有攔截器組態的備份之前使用**– Force: True**參數。</span><span class="sxs-lookup"><span data-stu-id="bf29b-136">You should use the **get-interceptor** command to create a backup of existing interceptor configurations before using the **–Force:True** parameter.</span></span>  
+>  <span data-ttu-id="63a30-135">**– Force: True**參數可能會移除參考具有相同名稱的事件來源的攔截器組態。</span><span class="sxs-lookup"><span data-stu-id="63a30-135">The **–Force:True** parameter potentially removes interceptor configurations that reference event sources with the same name.</span></span> <span data-ttu-id="63a30-136">您應該使用**get 攔截器**命令建立現有攔截器組態的備份之前使用**– Force: True**參數。</span><span class="sxs-lookup"><span data-stu-id="63a30-136">You should use the **get-interceptor** command to create a backup of existing interceptor configurations before using the **–Force:True** parameter.</span></span>  
   
- <span data-ttu-id="bf29b-137">**範例**</span><span class="sxs-lookup"><span data-stu-id="bf29b-137">**Examples**</span></span>  
+ <span data-ttu-id="63a30-137">**範例**</span><span class="sxs-lookup"><span data-stu-id="63a30-137">**Examples**</span></span>  
   
 ```  
 bm.exe deploy-interceptor  -FileName:myInceptor.xml  
 bm.exe deploy-interceptor  -FileName:myInceptor.xml -Force:True  
 ```  
   
-## <a name="get-interceptorlist-command"></a><span data-ttu-id="bf29b-138">get-interceptorlist 命令</span><span class="sxs-lookup"><span data-stu-id="bf29b-138">get-interceptorlist Command</span></span>  
- <span data-ttu-id="bf29b-139">**使用方式**</span><span class="sxs-lookup"><span data-stu-id="bf29b-139">**Usage**</span></span>  
+## <a name="get-interceptorlist-command"></a><span data-ttu-id="63a30-138">get-interceptorlist 命令</span><span class="sxs-lookup"><span data-stu-id="63a30-138">get-interceptorlist Command</span></span>  
+ <span data-ttu-id="63a30-139">**使用方式**</span><span class="sxs-lookup"><span data-stu-id="63a30-139">**Usage**</span></span>  
   
- <span data-ttu-id="bf29b-140">**bm.exe get interceptorlist [-Server:\<伺服器 >] [-Database:\<資料庫 >]**</span><span class="sxs-lookup"><span data-stu-id="bf29b-140">**bm.exe get-interceptorlist [-Server:\<server>] [-Database:\<database>]**</span></span>  
+ <span data-ttu-id="63a30-140">**bm.exe get interceptorlist [-Server:\<伺服器\>] [-Database:\<資料庫\>]**</span><span class="sxs-lookup"><span data-stu-id="63a30-140">**bm.exe get-interceptorlist [-Server:\<server\>] [-Database:\<database\>]**</span></span>  
   
- <span data-ttu-id="bf29b-141">**參數**</span><span class="sxs-lookup"><span data-stu-id="bf29b-141">**Parameters**</span></span>  
+ <span data-ttu-id="63a30-141">**參數**</span><span class="sxs-lookup"><span data-stu-id="63a30-141">**Parameters**</span></span>  
   
-|<span data-ttu-id="bf29b-142">參數</span><span class="sxs-lookup"><span data-stu-id="bf29b-142">Parameter</span></span>|<span data-ttu-id="bf29b-143">Description</span><span class="sxs-lookup"><span data-stu-id="bf29b-143">Description</span></span>|  
+|<span data-ttu-id="63a30-142">參數</span><span class="sxs-lookup"><span data-stu-id="63a30-142">Parameter</span></span>|<span data-ttu-id="63a30-143">Description</span><span class="sxs-lookup"><span data-stu-id="63a30-143">Description</span></span>|  
 |---------------|-----------------|  
-|<span data-ttu-id="bf29b-144">伺服器：\<伺服器 ></span><span class="sxs-lookup"><span data-stu-id="bf29b-144">Server:\<server></span></span>|<span data-ttu-id="bf29b-145">選擇性： 要傳回的已部署攔截器清單的來源伺服器的名稱。</span><span class="sxs-lookup"><span data-stu-id="bf29b-145">Optional: The name of the server from which to return a list of deployed interceptors.</span></span> <span data-ttu-id="bf29b-146">伺服器和執行 bm.exe 的電腦必須位在相同網域中。</span><span class="sxs-lookup"><span data-stu-id="bf29b-146">The server must be in the same domain as the computer from which you are running bm.exe.</span></span>|  
-|<span data-ttu-id="bf29b-147">資料庫：\<資料庫 ></span><span class="sxs-lookup"><span data-stu-id="bf29b-147">Database:\<database></span></span>|<span data-ttu-id="bf29b-148">選擇性： 要從中擷取已部署攔截器的 BAM 主要匯入資料庫的名稱。</span><span class="sxs-lookup"><span data-stu-id="bf29b-148">Optional: The name of the BAM Primary Import database from which to retrieve the deployed interceptors.</span></span>|  
+|<span data-ttu-id="63a30-144">伺服器：\<伺服器\></span><span class="sxs-lookup"><span data-stu-id="63a30-144">Server:\<server\></span></span>|<span data-ttu-id="63a30-145">選擇性： 要傳回的已部署攔截器清單的來源伺服器的名稱。</span><span class="sxs-lookup"><span data-stu-id="63a30-145">Optional: The name of the server from which to return a list of deployed interceptors.</span></span> <span data-ttu-id="63a30-146">伺服器和執行 bm.exe 的電腦必須位在相同網域中。</span><span class="sxs-lookup"><span data-stu-id="63a30-146">The server must be in the same domain as the computer from which you are running bm.exe.</span></span>|  
+|<span data-ttu-id="63a30-147">資料庫：\<資料庫\></span><span class="sxs-lookup"><span data-stu-id="63a30-147">Database:\<database\></span></span>|<span data-ttu-id="63a30-148">選擇性： 要從中擷取已部署攔截器的 BAM 主要匯入資料庫的名稱。</span><span class="sxs-lookup"><span data-stu-id="63a30-148">Optional: The name of the BAM Primary Import database from which to retrieve the deployed interceptors.</span></span>|  
   
- <span data-ttu-id="bf29b-149">這個命令會傳回已啟用攔截之活動和其相關事件來源的清單。</span><span class="sxs-lookup"><span data-stu-id="bf29b-149">This command returns a list of the activities, and their associated event sources, for which interception is enabled.</span></span>  
+ <span data-ttu-id="63a30-149">這個命令會傳回已啟用攔截之活動和其相關事件來源的清單。</span><span class="sxs-lookup"><span data-stu-id="63a30-149">This command returns a list of the activities, and their associated event sources, for which interception is enabled.</span></span>  
   
- <span data-ttu-id="bf29b-150">**範例**</span><span class="sxs-lookup"><span data-stu-id="bf29b-150">**Example**</span></span>  
+ <span data-ttu-id="63a30-150">**範例**</span><span class="sxs-lookup"><span data-stu-id="63a30-150">**Example**</span></span>  
   
 ```  
 bm.exe get-interceptorlist   
 ```  
   
-## <a name="get-interceptor-command"></a><span data-ttu-id="bf29b-151">get-interceptor 命令</span><span class="sxs-lookup"><span data-stu-id="bf29b-151">get-interceptor Command</span></span>  
- <span data-ttu-id="bf29b-152">**使用方式**</span><span class="sxs-lookup"><span data-stu-id="bf29b-152">**Usage**</span></span>  
+## <a name="get-interceptor-command"></a><span data-ttu-id="63a30-151">get-interceptor 命令</span><span class="sxs-lookup"><span data-stu-id="63a30-151">get-interceptor Command</span></span>  
+ <span data-ttu-id="63a30-152">**使用方式**</span><span class="sxs-lookup"><span data-stu-id="63a30-152">**Usage**</span></span>  
   
- <span data-ttu-id="bf29b-153">**bm.exe get 攔截器 [-Server:\<伺服器 >] [-Database:\<資料庫 >]-FileName:\<組態 XML 檔案名稱 > [-活動：\<活動名稱 >] [-EventSource:\<事件來源名稱 >]**</span><span class="sxs-lookup"><span data-stu-id="bf29b-153">**bm.exe get-interceptor [-Server:\<server>] [-Database:\<database>] -FileName: \<Configuration XML Filename> [ -Activity: \<Activity Name>] [-EventSource: \<Event Source Name>]**</span></span>  
+ <span data-ttu-id="63a30-153">**bm.exe get 攔截器 [-Server:\<伺服器\>] [-Database:\<資料庫\>]-FileName:\<組態 XML 檔案名稱\>[-活動：\<活動名稱\>] [-EventSource:\<事件來源名稱\>]**</span><span class="sxs-lookup"><span data-stu-id="63a30-153">**bm.exe get-interceptor [-Server:\<server\>] [-Database:\<database\>] -FileName: \<Configuration XML Filename\> [ -Activity: \<Activity Name\>] [-EventSource: \<Event Source Name\>]**</span></span>  
   
- <span data-ttu-id="bf29b-154">**參數**</span><span class="sxs-lookup"><span data-stu-id="bf29b-154">**Parameters**</span></span>  
+ <span data-ttu-id="63a30-154">**參數**</span><span class="sxs-lookup"><span data-stu-id="63a30-154">**Parameters**</span></span>  
   
-|<span data-ttu-id="bf29b-155">參數</span><span class="sxs-lookup"><span data-stu-id="bf29b-155">Parameter</span></span>|<span data-ttu-id="bf29b-156">Description</span><span class="sxs-lookup"><span data-stu-id="bf29b-156">Description</span></span>|  
+|<span data-ttu-id="63a30-155">參數</span><span class="sxs-lookup"><span data-stu-id="63a30-155">Parameter</span></span>|<span data-ttu-id="63a30-156">Description</span><span class="sxs-lookup"><span data-stu-id="63a30-156">Description</span></span>|  
 |---------------|-----------------|  
-|<span data-ttu-id="bf29b-157">伺服器：\<伺服器 ></span><span class="sxs-lookup"><span data-stu-id="bf29b-157">Server:\<server></span></span>|<span data-ttu-id="bf29b-158">選擇性： 要擷取已部署之攔截器的來源伺服器的名稱。</span><span class="sxs-lookup"><span data-stu-id="bf29b-158">Optional: The name of the server from which to retrieve the deployed interceptor.</span></span> <span data-ttu-id="bf29b-159">伺服器和執行 bm.exe 的電腦必須位在相同網域中。</span><span class="sxs-lookup"><span data-stu-id="bf29b-159">The server must be in the same domain as the computer from which you are running bm.exe.</span></span>|  
-|<span data-ttu-id="bf29b-160">資料庫：\<資料庫 ></span><span class="sxs-lookup"><span data-stu-id="bf29b-160">Database:\<database></span></span>|<span data-ttu-id="bf29b-161">選擇性： 要從中擷取已部署之攔截器的 BAM 主要匯入資料庫的名稱。</span><span class="sxs-lookup"><span data-stu-id="bf29b-161">Optional: The name of the BAM Primary Import database from which to retrieve deployed interceptor.</span></span>|  
-|<span data-ttu-id="bf29b-162">檔案名稱：\<組態 XML 檔案名稱 ></span><span class="sxs-lookup"><span data-stu-id="bf29b-162">FileName:\<Configuration XML Filename></span></span>|<span data-ttu-id="bf29b-163">寫入攔截器組態的目標 XML 檔案名稱。</span><span class="sxs-lookup"><span data-stu-id="bf29b-163">The name of the XML file to which to write the interceptor configuration.</span></span>|  
-|<span data-ttu-id="bf29b-164">活動：\<活動名稱 ></span><span class="sxs-lookup"><span data-stu-id="bf29b-164">Activity:\<Activity Name></span></span>|<span data-ttu-id="bf29b-165">選擇性： 指定要傳回設定之攔截器的活動。</span><span class="sxs-lookup"><span data-stu-id="bf29b-165">Optional: Specifies the activity for which to return the configured interceptor.</span></span> <span data-ttu-id="bf29b-166">可以用於搭配**EventSource**參數，以進一步指定要傳回的組態。</span><span class="sxs-lookup"><span data-stu-id="bf29b-166">Can be used in conjunction with the **EventSource** parameter to further specify the configuration to return.</span></span>|  
-|<span data-ttu-id="bf29b-167">EventSource:\<事件來源名稱 ></span><span class="sxs-lookup"><span data-stu-id="bf29b-167">EventSource:\<Event Source Name></span></span>|<span data-ttu-id="bf29b-168">選擇性： 指定要傳回設定之攔截器的事件來源。</span><span class="sxs-lookup"><span data-stu-id="bf29b-168">Optional: Specifies the event source for which to return the configured interceptor.</span></span> <span data-ttu-id="bf29b-169">可以用於搭配**活動**參數，以進一步指定要傳回的組態。</span><span class="sxs-lookup"><span data-stu-id="bf29b-169">Can be used in conjunction with the **Activity** parameter to further specify the configuration to return.</span></span>|  
+|<span data-ttu-id="63a30-157">伺服器：\<伺服器\></span><span class="sxs-lookup"><span data-stu-id="63a30-157">Server:\<server\></span></span>|<span data-ttu-id="63a30-158">選擇性： 要擷取已部署之攔截器的來源伺服器的名稱。</span><span class="sxs-lookup"><span data-stu-id="63a30-158">Optional: The name of the server from which to retrieve the deployed interceptor.</span></span> <span data-ttu-id="63a30-159">伺服器和執行 bm.exe 的電腦必須位在相同網域中。</span><span class="sxs-lookup"><span data-stu-id="63a30-159">The server must be in the same domain as the computer from which you are running bm.exe.</span></span>|  
+|<span data-ttu-id="63a30-160">資料庫：\<資料庫\></span><span class="sxs-lookup"><span data-stu-id="63a30-160">Database:\<database\></span></span>|<span data-ttu-id="63a30-161">選擇性： 要從中擷取已部署之攔截器的 BAM 主要匯入資料庫的名稱。</span><span class="sxs-lookup"><span data-stu-id="63a30-161">Optional: The name of the BAM Primary Import database from which to retrieve deployed interceptor.</span></span>|  
+|<span data-ttu-id="63a30-162">檔案名稱：\<組態 XML 檔案名稱\></span><span class="sxs-lookup"><span data-stu-id="63a30-162">FileName:\<Configuration XML Filename\></span></span>|<span data-ttu-id="63a30-163">寫入攔截器組態的目標 XML 檔案名稱。</span><span class="sxs-lookup"><span data-stu-id="63a30-163">The name of the XML file to which to write the interceptor configuration.</span></span>|  
+|<span data-ttu-id="63a30-164">活動：\<活動名稱\></span><span class="sxs-lookup"><span data-stu-id="63a30-164">Activity:\<Activity Name\></span></span>|<span data-ttu-id="63a30-165">選擇性： 指定要傳回設定之攔截器的活動。</span><span class="sxs-lookup"><span data-stu-id="63a30-165">Optional: Specifies the activity for which to return the configured interceptor.</span></span> <span data-ttu-id="63a30-166">可以用於搭配**EventSource**參數，以進一步指定要傳回的組態。</span><span class="sxs-lookup"><span data-stu-id="63a30-166">Can be used in conjunction with the **EventSource** parameter to further specify the configuration to return.</span></span>|  
+|<span data-ttu-id="63a30-167">EventSource:\<事件來源名稱\></span><span class="sxs-lookup"><span data-stu-id="63a30-167">EventSource:\<Event Source Name\></span></span>|<span data-ttu-id="63a30-168">選擇性： 指定要傳回設定之攔截器的事件來源。</span><span class="sxs-lookup"><span data-stu-id="63a30-168">Optional: Specifies the event source for which to return the configured interceptor.</span></span> <span data-ttu-id="63a30-169">可以用於搭配**活動**參數，以進一步指定要傳回的組態。</span><span class="sxs-lookup"><span data-stu-id="63a30-169">Can be used in conjunction with the **Activity** parameter to further specify the configuration to return.</span></span>|  
   
- <span data-ttu-id="bf29b-170">如果未提供任何活動名稱或事件來源名稱，此命令會傳回有效的組態檔，其中包含所有事件來源和活動的攔截器組態。</span><span class="sxs-lookup"><span data-stu-id="bf29b-170">If no activity name or event source name is provided, the command returns a valid configuration file containing the interceptor configurations for all event sources and activities.</span></span>  
+ <span data-ttu-id="63a30-170">如果未提供任何活動名稱或事件來源名稱，此命令會傳回有效的組態檔，其中包含所有事件來源和活動的攔截器組態。</span><span class="sxs-lookup"><span data-stu-id="63a30-170">If no activity name or event source name is provided, the command returns a valid configuration file containing the interceptor configurations for all event sources and activities.</span></span>  
   
- <span data-ttu-id="bf29b-171">如果只有提供活動名稱，此命令會針對該活動的所有事件來源傳回有效的攔截器組態檔。</span><span class="sxs-lookup"><span data-stu-id="bf29b-171">If only an activity name is provided, the command returns a valid interceptor configuration file for all event sources for that activity.</span></span>  
+ <span data-ttu-id="63a30-171">如果只有提供活動名稱，此命令會針對該活動的所有事件來源傳回有效的攔截器組態檔。</span><span class="sxs-lookup"><span data-stu-id="63a30-171">If only an activity name is provided, the command returns a valid interceptor configuration file for all event sources for that activity.</span></span>  
   
- <span data-ttu-id="bf29b-172">如果只有提供事件來源名稱，此命令會針對所有活動中的該事件來源傳回有效的攔截器組態檔。</span><span class="sxs-lookup"><span data-stu-id="bf29b-172">If only an event source name is provided, the command returns a valid interceptor configuration file for that event source across all activities.</span></span>  
+ <span data-ttu-id="63a30-172">如果只有提供事件來源名稱，此命令會針對所有活動中的該事件來源傳回有效的攔截器組態檔。</span><span class="sxs-lookup"><span data-stu-id="63a30-172">If only an event source name is provided, the command returns a valid interceptor configuration file for that event source across all activities.</span></span>  
   
- <span data-ttu-id="bf29b-173">如果活動名稱和事件來源名稱都有提供，此命令會針對該活動的該事件來源傳回有效的攔截器組態檔。</span><span class="sxs-lookup"><span data-stu-id="bf29b-173">If both an activity name and an event source name are provided, then the command returns a valid interceptor configuration file for that event source for that activity.</span></span>  
+ <span data-ttu-id="63a30-173">如果活動名稱和事件來源名稱都有提供，此命令會針對該活動的該事件來源傳回有效的攔截器組態檔。</span><span class="sxs-lookup"><span data-stu-id="63a30-173">If both an activity name and an event source name are provided, then the command returns a valid interceptor configuration file for that event source for that activity.</span></span>  
   
- <span data-ttu-id="bf29b-174">**範例**</span><span class="sxs-lookup"><span data-stu-id="bf29b-174">**Examples**</span></span>  
+ <span data-ttu-id="63a30-174">**範例**</span><span class="sxs-lookup"><span data-stu-id="63a30-174">**Examples**</span></span>  
   
 ```  
 bm.exe get-interceptor   
 bm.exe get-interceptor  -Activity:ShippingPO  
 ```  
   
-## <a name="remove-interceptor-command"></a><span data-ttu-id="bf29b-175">remove-interceptor 命令</span><span class="sxs-lookup"><span data-stu-id="bf29b-175">remove-interceptor Command</span></span>  
- <span data-ttu-id="bf29b-176">**使用方式**</span><span class="sxs-lookup"><span data-stu-id="bf29b-176">**Usage**</span></span>  
+## <a name="remove-interceptor-command"></a><span data-ttu-id="63a30-175">remove-interceptor 命令</span><span class="sxs-lookup"><span data-stu-id="63a30-175">remove-interceptor Command</span></span>  
+ <span data-ttu-id="63a30-176">**使用方式**</span><span class="sxs-lookup"><span data-stu-id="63a30-176">**Usage**</span></span>  
   
- <span data-ttu-id="bf29b-177">**bm.exe 移除攔截器 [-Server:\<伺服器 >] [-Database:\<資料庫 >] [-活動：\<活動名稱 >] [-EventSource:\<事件來源名稱 >]**</span><span class="sxs-lookup"><span data-stu-id="bf29b-177">**bm.exe remove-interceptor [-Server:\<server>] [-Database:\<database>] [ -Activity: \<Activity Name>][-EventSource: \<Event Source Name>]**</span></span>  
+ <span data-ttu-id="63a30-177">**bm.exe 移除攔截器 [-Server:\<伺服器\>] [-Database:\<資料庫\>] [-活動：\<活動名稱\>] [-EventSource: \<的事件來源名稱\>]**</span><span class="sxs-lookup"><span data-stu-id="63a30-177">**bm.exe remove-interceptor [-Server:\<server\>] [-Database:\<database\>] [ -Activity: \<Activity Name\>][-EventSource: \<Event Source Name\>]**</span></span>  
   
- <span data-ttu-id="bf29b-178">**參數**</span><span class="sxs-lookup"><span data-stu-id="bf29b-178">**Parameters**</span></span>  
+ <span data-ttu-id="63a30-178">**參數**</span><span class="sxs-lookup"><span data-stu-id="63a30-178">**Parameters**</span></span>  
   
-|<span data-ttu-id="bf29b-179">參數</span><span class="sxs-lookup"><span data-stu-id="bf29b-179">Parameter</span></span>|<span data-ttu-id="bf29b-180">Description</span><span class="sxs-lookup"><span data-stu-id="bf29b-180">Description</span></span>|  
+|<span data-ttu-id="63a30-179">參數</span><span class="sxs-lookup"><span data-stu-id="63a30-179">Parameter</span></span>|<span data-ttu-id="63a30-180">Description</span><span class="sxs-lookup"><span data-stu-id="63a30-180">Description</span></span>|  
 |---------------|-----------------|  
-|<span data-ttu-id="bf29b-181">伺服器：\<伺服器 ></span><span class="sxs-lookup"><span data-stu-id="bf29b-181">Server:\<server></span></span>|<span data-ttu-id="bf29b-182">選擇性： 要設定攔截器所在的伺服器名稱。</span><span class="sxs-lookup"><span data-stu-id="bf29b-182">Optional: The name of the server on which the interceptor is configured.</span></span> <span data-ttu-id="bf29b-183">伺服器和執行 bm.exe 的電腦必須位在相同網域中。</span><span class="sxs-lookup"><span data-stu-id="bf29b-183">The server must be in the same domain as the computer from which you are running bm.exe.</span></span>|  
-|<span data-ttu-id="bf29b-184">資料庫：\<資料庫 ></span><span class="sxs-lookup"><span data-stu-id="bf29b-184">Database:\<database></span></span>|<span data-ttu-id="bf29b-185">選擇性： 要設定攔截器所在的資料庫名稱。</span><span class="sxs-lookup"><span data-stu-id="bf29b-185">Optional: The name of the database on which the interceptor is configured.</span></span>|  
-|<span data-ttu-id="bf29b-186">活動：\<活動名稱 ></span><span class="sxs-lookup"><span data-stu-id="bf29b-186">Activity: \<Activity Name></span></span>|<span data-ttu-id="bf29b-187">選擇性： 指定要移除指定之攔截器的活動。</span><span class="sxs-lookup"><span data-stu-id="bf29b-187">Optional: Specifies the activity for which to remove the specified interceptor.</span></span> <span data-ttu-id="bf29b-188">可以用於搭配**EventSource**參數，以進一步指定要傳回的組態。</span><span class="sxs-lookup"><span data-stu-id="bf29b-188">Can be used in conjunction with the **EventSource** parameter to further specify the configuration to return.</span></span>|  
-|<span data-ttu-id="bf29b-189">EventSource:\<事件來源名稱 ></span><span class="sxs-lookup"><span data-stu-id="bf29b-189">EventSource: \<Event Source Name></span></span>|<span data-ttu-id="bf29b-190">選擇性： 指定要移除指定之攔截器的事件來源。</span><span class="sxs-lookup"><span data-stu-id="bf29b-190">Optional: Specifies the event source for which to remove the specified interceptor.</span></span> <span data-ttu-id="bf29b-191">可以用於搭配**活動**參數，以進一步指定要傳回的組態。</span><span class="sxs-lookup"><span data-stu-id="bf29b-191">Can be used in conjunction with the **Activity** parameter to further specify the configuration to return.</span></span>|  
+|<span data-ttu-id="63a30-181">伺服器：\<伺服器\></span><span class="sxs-lookup"><span data-stu-id="63a30-181">Server:\<server\></span></span>|<span data-ttu-id="63a30-182">選擇性： 要設定攔截器所在的伺服器名稱。</span><span class="sxs-lookup"><span data-stu-id="63a30-182">Optional: The name of the server on which the interceptor is configured.</span></span> <span data-ttu-id="63a30-183">伺服器和執行 bm.exe 的電腦必須位在相同網域中。</span><span class="sxs-lookup"><span data-stu-id="63a30-183">The server must be in the same domain as the computer from which you are running bm.exe.</span></span>|  
+|<span data-ttu-id="63a30-184">資料庫：\<資料庫\></span><span class="sxs-lookup"><span data-stu-id="63a30-184">Database:\<database\></span></span>|<span data-ttu-id="63a30-185">選擇性： 要設定攔截器所在的資料庫名稱。</span><span class="sxs-lookup"><span data-stu-id="63a30-185">Optional: The name of the database on which the interceptor is configured.</span></span>|  
+|<span data-ttu-id="63a30-186">活動：\<活動名稱\></span><span class="sxs-lookup"><span data-stu-id="63a30-186">Activity: \<Activity Name\></span></span>|<span data-ttu-id="63a30-187">選擇性： 指定要移除指定之攔截器的活動。</span><span class="sxs-lookup"><span data-stu-id="63a30-187">Optional: Specifies the activity for which to remove the specified interceptor.</span></span> <span data-ttu-id="63a30-188">可以用於搭配**EventSource**參數，以進一步指定要傳回的組態。</span><span class="sxs-lookup"><span data-stu-id="63a30-188">Can be used in conjunction with the **EventSource** parameter to further specify the configuration to return.</span></span>|  
+|<span data-ttu-id="63a30-189">EventSource:\<事件來源名稱\></span><span class="sxs-lookup"><span data-stu-id="63a30-189">EventSource: \<Event Source Name\></span></span>|<span data-ttu-id="63a30-190">選擇性： 指定要移除指定之攔截器的事件來源。</span><span class="sxs-lookup"><span data-stu-id="63a30-190">Optional: Specifies the event source for which to remove the specified interceptor.</span></span> <span data-ttu-id="63a30-191">可以用於搭配**活動**參數，以進一步指定要傳回的組態。</span><span class="sxs-lookup"><span data-stu-id="63a30-191">Can be used in conjunction with the **Activity** parameter to further specify the configuration to return.</span></span>|  
   
- <span data-ttu-id="bf29b-192">如果只有提供活動名稱，此命令會針對該活動的所有事件來源移除攔截器。</span><span class="sxs-lookup"><span data-stu-id="bf29b-192">If only an activity name is provided, the command removes the interceptor for all event sources for that activity.</span></span>  
+ <span data-ttu-id="63a30-192">如果只有提供活動名稱，此命令會針對該活動的所有事件來源移除攔截器。</span><span class="sxs-lookup"><span data-stu-id="63a30-192">If only an activity name is provided, the command removes the interceptor for all event sources for that activity.</span></span>  
   
- <span data-ttu-id="bf29b-193">如果只有提供事件來源名稱，此命令只會移除所有活動的該事件來源部分。</span><span class="sxs-lookup"><span data-stu-id="bf29b-193">If only an event source name is provided, the command removes only that event source portion for all activities.</span></span>  
+ <span data-ttu-id="63a30-193">如果只有提供事件來源名稱，此命令只會移除所有活動的該事件來源部分。</span><span class="sxs-lookup"><span data-stu-id="63a30-193">If only an event source name is provided, the command removes only that event source portion for all activities.</span></span>  
   
- <span data-ttu-id="bf29b-194">**範例**</span><span class="sxs-lookup"><span data-stu-id="bf29b-194">**Example**</span></span>  
+ <span data-ttu-id="63a30-194">**範例**</span><span class="sxs-lookup"><span data-stu-id="63a30-194">**Example**</span></span>  
   
 ```  
 bm.exe remove-interceptor   
 ```  
   
-## <a name="see-also"></a><span data-ttu-id="bf29b-195">另請參閱</span><span class="sxs-lookup"><span data-stu-id="bf29b-195">See Also</span></span>  
- [<span data-ttu-id="bf29b-196">BAM 管理公用程式</span><span class="sxs-lookup"><span data-stu-id="bf29b-196">BAM Management Utility</span></span>](../core/bam-management-utility.md)
+## <a name="see-also"></a><span data-ttu-id="63a30-195">請參閱</span><span class="sxs-lookup"><span data-stu-id="63a30-195">See Also</span></span>  
+ [<span data-ttu-id="63a30-196">BAM 管理公用程式</span><span class="sxs-lookup"><span data-stu-id="63a30-196">BAM Management Utility</span></span>](../core/bam-management-utility.md)

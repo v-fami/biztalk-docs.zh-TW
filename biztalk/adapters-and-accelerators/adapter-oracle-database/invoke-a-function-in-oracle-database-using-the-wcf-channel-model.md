@@ -17,31 +17,31 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: bc38e0ce4dc1f6ae184b51ee157fb4461364a85e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 115e7e2421ed31ed20db9cbec5abdaa26a3639e8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
-# <a name="invoke-a-function-in-oracle-database-using-the-wcf-channel-model"></a><span data-ttu-id="4810d-102">叫用使用 WCF 通道模型的 Oracle 資料庫中的函式</span><span class="sxs-lookup"><span data-stu-id="4810d-102">Invoke a Function in Oracle Database using the WCF Channel Model</span></span>
-<span data-ttu-id="4810d-103">本節示範如何使用通道中建立 Oracle 資料庫中執行函式[建立使用 Oracle 資料庫的通道](../../adapters-and-accelerators/adapter-oracle-database/create-a-channel-using-oracle-database.md)。</span><span class="sxs-lookup"><span data-stu-id="4810d-103">This section demonstrates how to execute a function in an Oracle database using the channel created in [Create a Channel using Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/create-a-channel-using-oracle-database.md).</span></span>  
+# <a name="invoke-a-function-in-oracle-database-using-the-wcf-channel-model"></a><span data-ttu-id="da95b-102">叫用使用 WCF 通道模型的 Oracle 資料庫中的函式</span><span class="sxs-lookup"><span data-stu-id="da95b-102">Invoke a Function in Oracle Database using the WCF Channel Model</span></span>
+<span data-ttu-id="da95b-103">本節示範如何使用通道中建立 Oracle 資料庫中執行函式[建立使用 Oracle 資料庫的通道](../../adapters-and-accelerators/adapter-oracle-database/create-a-channel-using-oracle-database.md)。</span><span class="sxs-lookup"><span data-stu-id="da95b-103">This section demonstrates how to execute a function in an Oracle database using the channel created in [Create a Channel using Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/create-a-channel-using-oracle-database.md).</span></span>  
   
-## <a name="executing-a-function-using-the-channel"></a><span data-ttu-id="4810d-104">執行使用通道函式</span><span class="sxs-lookup"><span data-stu-id="4810d-104">Executing a Function Using the Channel</span></span>  
- <span data-ttu-id="4810d-105">您可以在 Oracle 資料庫上執行函式，藉由傳遞的 XML 訊息[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="4810d-105">You can execute a function on an Oracle database by passing an XML message to [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)].</span></span> <span data-ttu-id="4810d-106">輸入 XML 如下所示：</span><span class="sxs-lookup"><span data-stu-id="4810d-106">The input XML resembles the following:</span></span>  
+## <a name="executing-a-function-using-the-channel"></a><span data-ttu-id="da95b-104">執行使用通道函式</span><span class="sxs-lookup"><span data-stu-id="da95b-104">Executing a Function Using the Channel</span></span>  
+ <span data-ttu-id="da95b-105">您可以在 Oracle 資料庫上執行函式，藉由傳遞的 XML 訊息[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="da95b-105">You can execute a function on an Oracle database by passing an XML message to [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)].</span></span> <span data-ttu-id="da95b-106">輸入 XML 如下所示：</span><span class="sxs-lookup"><span data-stu-id="da95b-106">The input XML resembles the following:</span></span>  
   
 ```  
-\<CREATE_ACCOUNT xmlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG" xmlns:ns0="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG/CREATE_ACCOUNT">  
+<CREATE_ACCOUNT xmlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG" xmlns:ns0="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG/CREATE_ACCOUNT">  
   <REC xmlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG">  
-    \<ns0:ID>1\</ns0:ID>  
-    \<ns0:NAME>Scott\</ns0:NAME>  
-    \<ns0:BANKNAME>CitiBank\</ns0:BANKNAME>  
-    \<ns0:BRANCH>NY\</ns0:BRANCH>  
-    \<ns0:ENABLED>Y\</ns0:ENABLED>  
+    <ns0:ID>1</ns0:ID>  
+    <ns0:NAME>Scott</ns0:NAME>  
+    <ns0:BANKNAME>CitiBank</ns0:BANKNAME>  
+    <ns0:BRANCH>NY</ns0:BRANCH>  
+    <ns0:ENABLED>Y</ns0:ENABLED>  
   </REC>  
 </CREATE_ACCOUNT>  
 ```  
   
- <span data-ttu-id="4810d-107">下列程式碼摘錄示範如何使用通道 Oracle 資料庫中執行函式。</span><span class="sxs-lookup"><span data-stu-id="4810d-107">The following code excerpt demonstrates how to execute a function in an Oracle database using a channel.</span></span>  
+ <span data-ttu-id="da95b-107">下列程式碼摘錄示範如何使用通道 Oracle 資料庫中執行函式。</span><span class="sxs-lookup"><span data-stu-id="da95b-107">The following code excerpt demonstrates how to execute a function in an Oracle database using a channel.</span></span>  
   
 ```  
 using System;  
@@ -98,7 +98,7 @@ namespace OraclePackageChannel
 }  
 ```  
   
-## <a name="see-also"></a><span data-ttu-id="4810d-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="4810d-108">See Also</span></span>  
- <span data-ttu-id="4810d-109">[使用 WCF 通道模型開發 Oracle 資料庫應用程式](../../adapters-and-accelerators/adapter-oracle-database/develop-oracle-database-applications-using-the-wcf-channel-model.md) </span><span class="sxs-lookup"><span data-stu-id="4810d-109">[Develop Oracle Database Applications by Using the WCF Channel Model](../../adapters-and-accelerators/adapter-oracle-database/develop-oracle-database-applications-using-the-wcf-channel-model.md) </span></span>  
- <span data-ttu-id="4810d-110">[使用 WCF 通道模型的 Oracle 資料庫中，執行插入作業](../../adapters-and-accelerators/adapter-oracle-database/run-an-insert-operation-in-oracle-database-using-the-wcf-channel-model.md) </span><span class="sxs-lookup"><span data-stu-id="4810d-110">[Run an Insert Operation in Oracle Database Using the WCF Channel Model](../../adapters-and-accelerators/adapter-oracle-database/run-an-insert-operation-in-oracle-database-using-the-wcf-channel-model.md) </span></span>  
- [<span data-ttu-id="4810d-111">使用 WCF 通道模型執行 SQLEXECUTE 操作</span><span class="sxs-lookup"><span data-stu-id="4810d-111">Run a SQLEXECUTE Operation by Using the WCF Channel Model</span></span>](../../adapters-and-accelerators/adapter-oracle-database/run-a-sqlexecute-operation-in-oracle-database-using-the-wcf-channel-model.md)
+## <a name="see-also"></a><span data-ttu-id="da95b-108">請參閱</span><span class="sxs-lookup"><span data-stu-id="da95b-108">See Also</span></span>  
+ <span data-ttu-id="da95b-109">[使用 WCF 通道模型開發 Oracle 資料庫應用程式](../../adapters-and-accelerators/adapter-oracle-database/develop-oracle-database-applications-using-the-wcf-channel-model.md) </span><span class="sxs-lookup"><span data-stu-id="da95b-109">[Develop Oracle Database Applications by Using the WCF Channel Model](../../adapters-and-accelerators/adapter-oracle-database/develop-oracle-database-applications-using-the-wcf-channel-model.md) </span></span>  
+ <span data-ttu-id="da95b-110">[使用 WCF 通道模型的 Oracle 資料庫中，執行插入作業](../../adapters-and-accelerators/adapter-oracle-database/run-an-insert-operation-in-oracle-database-using-the-wcf-channel-model.md) </span><span class="sxs-lookup"><span data-stu-id="da95b-110">[Run an Insert Operation in Oracle Database Using the WCF Channel Model](../../adapters-and-accelerators/adapter-oracle-database/run-an-insert-operation-in-oracle-database-using-the-wcf-channel-model.md) </span></span>  
+ [<span data-ttu-id="da95b-111">使用 WCF 通道模型執行 SQLEXECUTE 操作</span><span class="sxs-lookup"><span data-stu-id="da95b-111">Run a SQLEXECUTE Operation by Using the WCF Channel Model</span></span>](../../adapters-and-accelerators/adapter-oracle-database/run-a-sqlexecute-operation-in-oracle-database-using-the-wcf-channel-model.md)

@@ -13,30 +13,30 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b3d9641f894a493aa5c2c298a71b1b5a49ffb55a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c8de850022a03a3be0310da3022a2cf496c94f30
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
-# <a name="stream-flat-file-idocs-in-sap-using-the-wcf-channel-model"></a><span data-ttu-id="99323-102">使用 WCF 通道模型的 SAP 中的資料流一般檔案 Idoc</span><span class="sxs-lookup"><span data-stu-id="99323-102">Stream Flat-File IDOCs in SAP using the WCF Channel Model</span></span>
-<span data-ttu-id="99323-103">[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]支援節點值的 SendIdoc 和 ReceiveIdoc 作業的串流。</span><span class="sxs-lookup"><span data-stu-id="99323-103">The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] supports node-value streaming for the SendIdoc and ReceiveIdoc operations.</span></span> <span data-ttu-id="99323-104">這些作業用來傳送和接收一般檔案 （字串） 的 Idoc 與配接器。</span><span class="sxs-lookup"><span data-stu-id="99323-104">These operations are used to send and receive flat-file (string) IDOCs to and from the adapter.</span></span> <span data-ttu-id="99323-105">在這兩種作業中，整個 IDOC 的資料包含在單一節點下的字串 (\<idocData >)。</span><span class="sxs-lookup"><span data-stu-id="99323-105">In both of these operations, the data for the entire IDOC is contained in a string under a single node (\<idocData>).</span></span> <span data-ttu-id="99323-106">對於大型的 Idoc，串流 IDOC 資料配接器與您的程式碼之間可能節省大量記憶體資源。</span><span class="sxs-lookup"><span data-stu-id="99323-106">For large IDOCs, streaming the IDOC data between the adapter and your code may save significant memory resources.</span></span>  
+# <a name="stream-flat-file-idocs-in-sap-using-the-wcf-channel-model"></a><span data-ttu-id="fcc05-102">使用 WCF 通道模型的 SAP 中的資料流一般檔案 Idoc</span><span class="sxs-lookup"><span data-stu-id="fcc05-102">Stream Flat-File IDOCs in SAP using the WCF Channel Model</span></span>
+<span data-ttu-id="fcc05-103">[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]支援節點值的 SendIdoc 和 ReceiveIdoc 作業的串流。</span><span class="sxs-lookup"><span data-stu-id="fcc05-103">The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] supports node-value streaming for the SendIdoc and ReceiveIdoc operations.</span></span> <span data-ttu-id="fcc05-104">這些作業用來傳送和接收一般檔案 （字串） 的 Idoc 與配接器。</span><span class="sxs-lookup"><span data-stu-id="fcc05-104">These operations are used to send and receive flat-file (string) IDOCs to and from the adapter.</span></span> <span data-ttu-id="fcc05-105">在這兩種作業中，整個 IDOC 的資料包含在單一節點下的字串 (\<idocData\>)。</span><span class="sxs-lookup"><span data-stu-id="fcc05-105">In both of these operations, the data for the entire IDOC is contained in a string under a single node (\<idocData\>).</span></span> <span data-ttu-id="fcc05-106">對於大型的 Idoc，串流 IDOC 資料配接器與您的程式碼之間可能節省大量記憶體資源。</span><span class="sxs-lookup"><span data-stu-id="fcc05-106">For large IDOCs, streaming the IDOC data between the adapter and your code may save significant memory resources.</span></span>  
   
- <span data-ttu-id="99323-107">如需配接器支援資料流處理的背景資訊，請參閱[資料流與 SAP 配接器](../../adapters-and-accelerators/adapter-sap/streaming-and-the-sap-adapter.md)。</span><span class="sxs-lookup"><span data-stu-id="99323-107">For background information about how the adapter supports streaming, see [Streaming and the SAP Adapter](../../adapters-and-accelerators/adapter-sap/streaming-and-the-sap-adapter.md).</span></span> <span data-ttu-id="99323-108">您應該閱讀本主題後再繼續。</span><span class="sxs-lookup"><span data-stu-id="99323-108">You should read this topic before proceeding.</span></span>  
+ <span data-ttu-id="fcc05-107">如需配接器支援資料流處理的背景資訊，請參閱[資料流與 SAP 配接器](../../adapters-and-accelerators/adapter-sap/streaming-and-the-sap-adapter.md)。</span><span class="sxs-lookup"><span data-stu-id="fcc05-107">For background information about how the adapter supports streaming, see [Streaming and the SAP Adapter](../../adapters-and-accelerators/adapter-sap/streaming-and-the-sap-adapter.md).</span></span> <span data-ttu-id="fcc05-108">您應該閱讀本主題後再繼續。</span><span class="sxs-lookup"><span data-stu-id="fcc05-108">You should read this topic before proceeding.</span></span>  
   
- <span data-ttu-id="99323-109">本主題中的各節說明如何實作資料流 SendIdoc 和 ReceiveIdoc 作業，當您使用 WCF 通道模型的節點值。</span><span class="sxs-lookup"><span data-stu-id="99323-109">The sections in this topic describe how to implement node-value streaming for the SendIdoc and ReceiveIdoc operations when you use the WCF channel model.</span></span>  
+ <span data-ttu-id="fcc05-109">本主題中的各節說明如何實作資料流 SendIdoc 和 ReceiveIdoc 作業，當您使用 WCF 通道模型的節點值。</span><span class="sxs-lookup"><span data-stu-id="fcc05-109">The sections in this topic describe how to implement node-value streaming for the SendIdoc and ReceiveIdoc operations when you use the WCF channel model.</span></span>  
   
-## <a name="streaming-outbound-flat-file-idocs-to-the-adapter"></a><span data-ttu-id="99323-110">資料流的輸出一般檔案 Idoc，配接器</span><span class="sxs-lookup"><span data-stu-id="99323-110">Streaming Outbound Flat-File IDOCs to the Adapter</span></span>  
- <span data-ttu-id="99323-111">配接器支援的節點值的資料流處理 SendIdoc 作業的要求訊息。</span><span class="sxs-lookup"><span data-stu-id="99323-111">The adapter supports node-value streaming on the request message for the SendIdoc operation.</span></span>  
+## <a name="streaming-outbound-flat-file-idocs-to-the-adapter"></a><span data-ttu-id="fcc05-110">資料流的輸出一般檔案 Idoc，配接器</span><span class="sxs-lookup"><span data-stu-id="fcc05-110">Streaming Outbound Flat-File IDOCs to the Adapter</span></span>  
+ <span data-ttu-id="fcc05-111">配接器支援的節點值的資料流處理 SendIdoc 作業的要求訊息。</span><span class="sxs-lookup"><span data-stu-id="fcc05-111">The adapter supports node-value streaming on the request message for the SendIdoc operation.</span></span>  
   
- <span data-ttu-id="99323-112">若要支援的節點值的資料流處理 SendIdoc WCF 通道模型中的作業，您必須：</span><span class="sxs-lookup"><span data-stu-id="99323-112">To support node-value streaming on SendIdoc operations in the WCF channel model, you must:</span></span>  
+ <span data-ttu-id="fcc05-112">若要支援的節點值的資料流處理 SendIdoc WCF 通道模型中的作業，您必須：</span><span class="sxs-lookup"><span data-stu-id="fcc05-112">To support node-value streaming on SendIdoc operations in the WCF channel model, you must:</span></span>  
   
-1.  <span data-ttu-id="99323-113">實作**System.ServiceModel.Channels.BodyWriter**能夠串流 IDOC 資料 （執行節點值的資料流處理的 IDOC 資料）。</span><span class="sxs-lookup"><span data-stu-id="99323-113">Implement a **System.ServiceModel.Channels.BodyWriter** that is capable of streaming the IDOC data (performing node-value streaming on the IDOC data).</span></span>  
+1.  <span data-ttu-id="fcc05-113">實作**System.ServiceModel.Channels.BodyWriter**能夠串流 IDOC 資料 （執行節點值的資料流處理的 IDOC 資料）。</span><span class="sxs-lookup"><span data-stu-id="fcc05-113">Implement a **System.ServiceModel.Channels.BodyWriter** that is capable of streaming the IDOC data (performing node-value streaming on the IDOC data).</span></span>  
   
-2.  <span data-ttu-id="99323-114">建立**System.ServiceModel.Message**用來叫用作業，藉由提供與此訊息本文**BodyWriter**使用的適當多載**Message.Create**方法。</span><span class="sxs-lookup"><span data-stu-id="99323-114">Create the **System.ServiceModel.Message** used to invoke the operation by supplying the message body with this **BodyWriter** using an appropriate overload of the **Message.Create** method.</span></span>  
+2.  <span data-ttu-id="fcc05-114">建立**System.ServiceModel.Message**用來叫用作業，藉由提供與此訊息本文**BodyWriter**使用的適當多載**Message.Create**方法。</span><span class="sxs-lookup"><span data-stu-id="fcc05-114">Create the **System.ServiceModel.Message** used to invoke the operation by supplying the message body with this **BodyWriter** using an appropriate overload of the **Message.Create** method.</span></span>  
   
-### <a name="implementing-a-bodywriter"></a><span data-ttu-id="99323-115">實作 BodyWriter</span><span class="sxs-lookup"><span data-stu-id="99323-115">Implementing a BodyWriter</span></span>  
- <span data-ttu-id="99323-116">下列範例示範實作**BodyWriter**執行節點值的資料流。</span><span class="sxs-lookup"><span data-stu-id="99323-116">The following example shows an implementation of a **BodyWriter** that performs node-value streaming.</span></span>  
+### <a name="implementing-a-bodywriter"></a><span data-ttu-id="fcc05-115">實作 BodyWriter</span><span class="sxs-lookup"><span data-stu-id="fcc05-115">Implementing a BodyWriter</span></span>  
+ <span data-ttu-id="fcc05-116">下列範例示範實作**BodyWriter**執行節點值的資料流。</span><span class="sxs-lookup"><span data-stu-id="fcc05-116">The following example shows an implementation of a **BodyWriter** that performs node-value streaming.</span></span>  
   
 ```  
 /// <summary>  
@@ -106,8 +106,8 @@ class StreamingBodyWriter : BodyWriter, IDisposable
 }  
 ```  
   
-### <a name="creating-a-message-by-using-a-bodywriter"></a><span data-ttu-id="99323-117">使用 BodyWriter 建立訊息</span><span class="sxs-lookup"><span data-stu-id="99323-117">Creating a Message by using a BodyWriter</span></span>  
- <span data-ttu-id="99323-118">下列範例示範如何建立 SendIdoc 要求訊息使用**BodyWriter**在上述範例中。</span><span class="sxs-lookup"><span data-stu-id="99323-118">The following example shows how to create a SendIdoc request message using the **BodyWriter** in the preceding example.</span></span> <span data-ttu-id="99323-119">從檔案讀取訊息資料。</span><span class="sxs-lookup"><span data-stu-id="99323-119">The message data is read from a file.</span></span>  
+### <a name="creating-a-message-by-using-a-bodywriter"></a><span data-ttu-id="fcc05-117">使用 BodyWriter 建立訊息</span><span class="sxs-lookup"><span data-stu-id="fcc05-117">Creating a Message by using a BodyWriter</span></span>  
+ <span data-ttu-id="fcc05-118">下列範例示範如何建立 SendIdoc 要求訊息使用**BodyWriter**在上述範例中。</span><span class="sxs-lookup"><span data-stu-id="fcc05-118">The following example shows how to create a SendIdoc request message using the **BodyWriter** in the preceding example.</span></span> <span data-ttu-id="fcc05-119">從檔案讀取訊息資料。</span><span class="sxs-lookup"><span data-stu-id="fcc05-119">The message data is read from a file.</span></span>  
   
 ```  
 XmlReader readerIn = XmlReader.Create ("sendidoc.xml");  
@@ -120,17 +120,17 @@ Message InputMsg = Message.CreateMessage(MessageVersion.Default,
   
 ```  
   
-## <a name="streaming-inbound-flat-file-idocs-from-the-adapter"></a><span data-ttu-id="99323-120">從配接器的資料流輸入的一般檔案 Idoc</span><span class="sxs-lookup"><span data-stu-id="99323-120">Streaming Inbound Flat-File IDOCs from the Adapter</span></span>  
- <span data-ttu-id="99323-121">您輸入的 ReceiveIdoc 作業中接收一般檔案 Idoc。</span><span class="sxs-lookup"><span data-stu-id="99323-121">You receive a flat-file IDOCs in the inbound ReceiveIdoc operation.</span></span> <span data-ttu-id="99323-122">配接器支援的節點值的資料流處理 ReceiveIdoc 作業的要求訊息。</span><span class="sxs-lookup"><span data-stu-id="99323-122">The adapter supports node-value streaming on the request message for the ReceiveIdoc operation.</span></span>  
+## <a name="streaming-inbound-flat-file-idocs-from-the-adapter"></a><span data-ttu-id="fcc05-120">從配接器的資料流輸入的一般檔案 Idoc</span><span class="sxs-lookup"><span data-stu-id="fcc05-120">Streaming Inbound Flat-File IDOCs from the Adapter</span></span>  
+ <span data-ttu-id="fcc05-121">您輸入的 ReceiveIdoc 作業中接收一般檔案 Idoc。</span><span class="sxs-lookup"><span data-stu-id="fcc05-121">You receive a flat-file IDOCs in the inbound ReceiveIdoc operation.</span></span> <span data-ttu-id="fcc05-122">配接器支援的節點值的資料流處理 ReceiveIdoc 作業的要求訊息。</span><span class="sxs-lookup"><span data-stu-id="fcc05-122">The adapter supports node-value streaming on the request message for the ReceiveIdoc operation.</span></span>  
   
- <span data-ttu-id="99323-123">若要支援的節點值的資料流處理 ReceiveIdoc WCF 通道模型中的作業，您必須：</span><span class="sxs-lookup"><span data-stu-id="99323-123">To support node-value streaming on ReceiveIdoc operations in the WCF channel model, you must:</span></span>  
+ <span data-ttu-id="fcc05-123">若要支援的節點值的資料流處理 ReceiveIdoc WCF 通道模型中的作業，您必須：</span><span class="sxs-lookup"><span data-stu-id="fcc05-123">To support node-value streaming on ReceiveIdoc operations in the WCF channel model, you must:</span></span>  
   
-1.  <span data-ttu-id="99323-124">實作**System.Xml.XmlDictionaryWriter**能夠串流 IDOC 資料 （執行節點值的資料流處理的 IDOC 資料）。</span><span class="sxs-lookup"><span data-stu-id="99323-124">Implement a **System.Xml.XmlDictionaryWriter** that is capable of streaming the IDOC data (performing node-value streaming on the IDOC data).</span></span>  
+1.  <span data-ttu-id="fcc05-124">實作**System.Xml.XmlDictionaryWriter**能夠串流 IDOC 資料 （執行節點值的資料流處理的 IDOC 資料）。</span><span class="sxs-lookup"><span data-stu-id="fcc05-124">Implement a **System.Xml.XmlDictionaryWriter** that is capable of streaming the IDOC data (performing node-value streaming on the IDOC data).</span></span>  
   
-2.  <span data-ttu-id="99323-125">取用**訊息**叫用其**WriteBodyContents**方法與這個**XmlDictionaryWriter**。</span><span class="sxs-lookup"><span data-stu-id="99323-125">Consume the **Message** by invoking its **WriteBodyContents** method with this **XmlDictionaryWriter**.</span></span>  
+2.  <span data-ttu-id="fcc05-125">取用**訊息**叫用其**WriteBodyContents**方法與這個**XmlDictionaryWriter**。</span><span class="sxs-lookup"><span data-stu-id="fcc05-125">Consume the **Message** by invoking its **WriteBodyContents** method with this **XmlDictionaryWriter**.</span></span>  
   
-### <a name="implementing-an-xmldictionarywriter"></a><span data-ttu-id="99323-126">實作 XmlDictionaryWriter</span><span class="sxs-lookup"><span data-stu-id="99323-126">Implementing an XmlDictionaryWriter</span></span>  
- <span data-ttu-id="99323-127">下列範例示範實作**XmlDictionaryWriter**執行節點值的資料流。</span><span class="sxs-lookup"><span data-stu-id="99323-127">The following example shows an implementation of an **XmlDictionaryWriter** that performs node-value streaming.</span></span>  
+### <a name="implementing-an-xmldictionarywriter"></a><span data-ttu-id="fcc05-126">實作 XmlDictionaryWriter</span><span class="sxs-lookup"><span data-stu-id="fcc05-126">Implementing an XmlDictionaryWriter</span></span>  
+ <span data-ttu-id="fcc05-127">下列範例示範實作**XmlDictionaryWriter**執行節點值的資料流。</span><span class="sxs-lookup"><span data-stu-id="fcc05-127">The following example shows an implementation of an **XmlDictionaryWriter** that performs node-value streaming.</span></span>  
   
 ```  
 using System;  
@@ -274,8 +274,8 @@ class FileXmlWriter : XmlDictionaryWriter
 }  
 ```  
   
-### <a name="consuming-a-message-by-using-an-xmldictionarywriter"></a><span data-ttu-id="99323-128">使用 XmlDictionaryWriter 取用訊息</span><span class="sxs-lookup"><span data-stu-id="99323-128">Consuming a Message by Using an XmlDictionaryWriter</span></span>  
- <span data-ttu-id="99323-129">下列範例示範如何使用 ReceiveIdoc 要求訊息使用**FileXmlWriter**上述範例中實作。</span><span class="sxs-lookup"><span data-stu-id="99323-129">The following example shows how to consume a ReceiveIdoc request message using the **FileXmlWriter** implemented in the preceding example.</span></span> <span data-ttu-id="99323-130">( **FileWriter**類別已由分為子類別建立**XmlDictionaryWriter**。)此範例會使用**IReplyChannel**通道以接收 ReceiveIdoc 作業。</span><span class="sxs-lookup"><span data-stu-id="99323-130">(The **FileWriter** class was created by sub-classing **XmlDictionaryWriter**.) The example uses an **IReplyChannel** channel to receive the ReceiveIdoc operation.</span></span> <span data-ttu-id="99323-131">已省略的通道建立詳細資料。</span><span class="sxs-lookup"><span data-stu-id="99323-131">The details of the channel creation have been omitted.</span></span> <span data-ttu-id="99323-132">ReceiveIdoc 要求訊息會寫入至檔案。</span><span class="sxs-lookup"><span data-stu-id="99323-132">The ReceiveIdoc request message is written to a file.</span></span>  
+### <a name="consuming-a-message-by-using-an-xmldictionarywriter"></a><span data-ttu-id="fcc05-128">使用 XmlDictionaryWriter 取用訊息</span><span class="sxs-lookup"><span data-stu-id="fcc05-128">Consuming a Message by Using an XmlDictionaryWriter</span></span>  
+ <span data-ttu-id="fcc05-129">下列範例示範如何使用 ReceiveIdoc 要求訊息使用**FileXmlWriter**上述範例中實作。</span><span class="sxs-lookup"><span data-stu-id="fcc05-129">The following example shows how to consume a ReceiveIdoc request message using the **FileXmlWriter** implemented in the preceding example.</span></span> <span data-ttu-id="fcc05-130">( **FileWriter**類別已由分為子類別建立**XmlDictionaryWriter**。)此範例會使用**IReplyChannel**通道以接收 ReceiveIdoc 作業。</span><span class="sxs-lookup"><span data-stu-id="fcc05-130">(The **FileWriter** class was created by sub-classing **XmlDictionaryWriter**.) The example uses an **IReplyChannel** channel to receive the ReceiveIdoc operation.</span></span> <span data-ttu-id="fcc05-131">已省略的通道建立詳細資料。</span><span class="sxs-lookup"><span data-stu-id="fcc05-131">The details of the channel creation have been omitted.</span></span> <span data-ttu-id="fcc05-132">ReceiveIdoc 要求訊息會寫入至檔案。</span><span class="sxs-lookup"><span data-stu-id="fcc05-132">The ReceiveIdoc request message is written to a file.</span></span>  
   
 ```  
 // Receive the ReceiveIdoc request message from the adapter.  
@@ -290,5 +290,5 @@ fileXmlWriter.Close();
   
 ```  
   
-## <a name="see-also"></a><span data-ttu-id="99323-133">另請參閱</span><span class="sxs-lookup"><span data-stu-id="99323-133">See Also</span></span>  
-[<span data-ttu-id="99323-134">開發應用程式使用 WCF 通道模型</span><span class="sxs-lookup"><span data-stu-id="99323-134">Develop applications using the WCF Channel Model</span></span>](../../adapters-and-accelerators/adapter-sap/develop-sap-applications-using-the-wcf-channel-model.md)
+## <a name="see-also"></a><span data-ttu-id="fcc05-133">請參閱</span><span class="sxs-lookup"><span data-stu-id="fcc05-133">See Also</span></span>  
+[<span data-ttu-id="fcc05-134">使用 WCF 通道模型開發應用程式</span><span class="sxs-lookup"><span data-stu-id="fcc05-134">Develop applications using the WCF Channel Model</span></span>](../../adapters-and-accelerators/adapter-sap/develop-sap-applications-using-the-wcf-channel-model.md)
