@@ -15,11 +15,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: efd3a6bf371312348d7ce54a24f34b3cb5e4206c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 86349adae1a3ae061cb07c6c770532cf92c74dc8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="basic-oracle-data-types"></a>基本的 Oracle 資料類型
 本主題描述如何[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]呈現基本的 Oracle 資料型別。  
@@ -59,7 +59,7 @@ ms.lasthandoff: 09/20/2017
 |二進位雙 * *|xsd:double 如果 prec < = 15<br />xsd: string 如果 prec > 15|Double<br />字串|-|  
 |二進位整數 * *|xsd:integer|Int32|支援程序、 函數和封裝。|  
 |布林|xsd:boolean|可為 null 的布林值||  
-|XMLTYPE|xsd:string|字串|支援最上層的層級程序參數。<br /><br /> 保留的 XML 字元，例如 '**\<**'、'**>**' 必須使用其實體表示法取代**(&lt;， &gt;)**開發 biztalk 應用程式時，並使用 WCF 通道模型。 這不需要在 WCF 服務模型的情況下。|  
+|XMLTYPE|xsd:string|字串|支援最上層的層級程序參數。<br /><br /> 保留的 XML 字元，例如 '**\<**'、'**\>**' 必須使用其實體表示法取代**(&lt;， &gt;)**開發 biztalk 應用程式時，並使用 WCF 通道模型。 這不需要在 WCF 服務模型的情況下。|  
   
  \*形式出現這些 Oracle 資料類型的方式會受到**EnableSafeTyping**繫結屬性。  
   

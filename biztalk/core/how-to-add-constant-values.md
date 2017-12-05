@@ -12,11 +12,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 398e2f4d176fdfab866cc8c87ce19aaf523a1b03
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9d7ea539b778cc382991e82841dec45db5316f18
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-add-constant-values"></a>如何新增常數值
 在測試對應時，您有時候需要設定用於測試期間的常數值。  
@@ -30,9 +30,9 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  您可以只關聯值的記錄其**內容**屬性設定為**純文字**或**混合**。  
   
- 來源結構描述，如果您將設定中的節點**值**屬性**\<空白 >**，產生的執行個體訊息的來源結構描述包含在對應的節點為空值。  
+ 來源結構描述，如果您將設定中的節點**值**屬性**\<空\>**，產生的執行個體訊息的來源結構描述包含分別為空值節點。  
   
- 有時，您不會使用目標結構描述中的所有欄位，也就是說，目標結構描述中有些欄位會沒有任何連入連結。 在這種情況下，「 測試對應 」 作業會擲回錯誤，但前提是**驗證 TestMap 輸入**或**驗證 TestMap 輸出**屬性會設為**True**。 若要避免在此情況下測試對應 」 錯誤，請設定**值**節點為常數值的屬性或**\<空白 >**。 使用**\<空白 >**如果您不想設定未使用的目標結構描述欄位的任意資料。  
+ 有時，您不會使用目標結構描述中的所有欄位，也就是說，目標結構描述中有些欄位會沒有任何連入連結。 在這種情況下，「 測試對應 」 作業會擲回錯誤，但前提是**驗證 TestMap 輸入**或**驗證 TestMap 輸出**屬性會設為**True**。 若要避免在此情況下測試對應 」 錯誤，請設定**值**節點為常數值的屬性或**\<空\>**。 使用**\<空\>**如果您不想設定未使用的目標結構描述欄位的任意資料。  
   
-## <a name="see-also"></a>另請參閱  
-[驗證和測試您的對應](../core/how-to-configure-map-validation-and-test-parameters.md)
+## <a name="see-also"></a>請參閱  
+[驗證並測試對應](../core/how-to-configure-map-validation-and-test-parameters.md)

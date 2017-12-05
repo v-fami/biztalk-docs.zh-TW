@@ -12,11 +12,11 @@ caps.latest.revision: "21"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 85403ed8ed76246b93bd30c5246fb7a799284ec1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 692cd1466353e366a1c8e806dba9f1070eadd065
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="run-operations-on-tables-and-views-with-large-data-types-using-the-sql-adapter"></a>使用 SQL 配接器的大型資料類型執行資料表和檢視表上的作業
 [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]可讓讀取及更新大型資料類型的資料行中的資料，也就是配接器用戶端、 varchar （max）、 nvarchar （max） 或 varbinary （max）。 若要從這類資料行讀取資料，配接器用戶端可以使用選取的作業。 若要插入或更新到這類資料行的資料，配接器會公開 < column_name > 設定作業中，其中 < column_name > 是類型 varchar （max）、 nvarchar （max），或 varbinary （max） 資料行的名稱。  
@@ -197,7 +197,7 @@ ms.lasthandoff: 09/20/2017
  此要求訊息具有指定值，更新文件的資料行。 協調流程取用訊息，並將它傳送到 SQL Server 資料庫。 從 SQL Server 資料庫的回應會儲存在其他的協調流程中定義的檔案位置。 比方說，是從先前的要求訊息的 SQL Server 資料庫的回應：  
   
 ```  
-\<?xml version="1.0" encoding="utf-8" ?>   
+<?xml version="1.0" encoding="utf-8" ?>   
 <SetDocumentResponse xmlns="http://schemas.microsoft.com/Sql/2008/05/TableOp/dbo/Records" />  
 ```  
   
@@ -206,5 +206,5 @@ ms.lasthandoff: 09/20/2017
 ## <a name="best-practices"></a>最佳作法  
  您部署和設定 BizTalk 專案之後，您可以為 XML 檔案，稱為繫結檔案匯出組態設定。 一旦產生繫結檔案時，可以組態設定匯入檔案，使您不需要建立項目，例如傳送埠和接收相同的協調流程連接埠。 如需繫結檔案的詳細資訊，請參閱[重複使用配接器繫結](../../adapters-and-accelerators/adapter-sql/reuse-sql-adapter-bindings.md)。
   
-## <a name="see-also"></a>另請參閱  
-[開發 BizTalk 應用程式使用 SQL 配接器](../../adapters-and-accelerators/adapter-sql/develop-biztalk-applications-using-the-sql-adapter.md)
+## <a name="see-also"></a>請參閱  
+[使用 SQL 配接器開發 BizTalk 應用程式](../../adapters-and-accelerators/adapter-sql/develop-biztalk-applications-using-the-sql-adapter.md)

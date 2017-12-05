@@ -17,11 +17,11 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e377a455089127c9dc219846ec3f66e3322924cc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f80499881c075c805bc5949942644dcece5075fb
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-update-bam-artifacts"></a>如何更新 BAM 成品
 系統管理員使用**更新所有**命令，以更新部署到 BAM 主要匯入資料庫中的成品。 提供的 BAM 定義檔案必須是包含所要更新之成品相關資訊的 XML 檔案或 Excel 活頁簿。  
@@ -32,11 +32,11 @@ ms.lasthandoff: 09/20/2017
   
 2.  瀏覽到 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking。  
   
-3.  型別**bm 更新 all-DefinitionFile:\<def 檔 >**。  
+3.  型別**bm 更新 all-DefinitionFile:\<def 檔\>**。  
   
 4.  按 ENTER 鍵。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理 BAM 動態基礎結構](../core/managing-the-bam-dynamic-infrastructure.md)   
  [BAM 安全性建議](../core/bam-security-recommendations.md)   
  [BAM 管理公用程式](../core/bam-management-utility.md)

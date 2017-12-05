@@ -12,14 +12,14 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 15f73b9c343e62e0a0a83bf76f8c762b9ce9ede9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: da7147f4c2500946fb97c47592a2a4a35d3dcf62
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="unit-testing-with-biztalk-server-projects"></a>使用 BizTalk Server 專案執行單元測試
-[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]引進了單元測試功能，可在啟用**部署**BizTalk 專案的屬性頁。 下列螢幕擷取畫面顯示存取專案設計工具中，當您以滑鼠右鍵按一下專案，然後按一下此專案設定**屬性**。  
+BizTalk Server 在引進了單元測試可在啟用的功能**部署**BizTalk 專案的屬性頁。 下列螢幕擷取畫面顯示存取專案設計工具中，當您以滑鼠右鍵按一下專案，然後按一下此專案設定**屬性**。  
   
  ![](../core/media/projectdesignerenableunittesting.gif "ProjectDesignerEnableUnitTesting")  
   

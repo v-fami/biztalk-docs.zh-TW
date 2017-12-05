@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2ede5ad9dd3affba3ce132ab4c4415e8dba4f3cb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 15ef1c8d5860b6e9bd3683551096c947de8c7a42
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="operating-system-optimizations"></a>作業系統最佳化
 本主題提供最佳化的效能的建議事項[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]用於實際執行電腦[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境。 這些最佳化會在之後套用[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]已經安裝及設定。  
@@ -90,7 +90,7 @@ ms.lasthandoff: 09/20/2017
   
  NTFS FAT 及 FAT32 檔案系統上提供相當大的效能優點，應該只在 Windows 伺服器上使用。 此外，NTFS 會提供許多安全性、 延展性、 穩定性和可復原性的優點比 FAT 及 FAT32。  
   
- 在舊版 Windows 中，FAT 及 FAT32 通常實作的較小的磁碟區 (假設\<500 MB)，所以通常較快，這種情況下。 磁碟儲存體價格比較便宜今天和作業系統和應用程式推入至最多的磁碟機容量，也不太可能，這類小的磁碟區將使用中。 FAT32 規模較大的磁碟區上會比 FAT 更好，但仍不適當的檔案系統的 Windows 伺服器。  
+ 在舊版 Windows 中，FAT 及 FAT32 通常實作的較小的磁碟區 (例如 < 500 MB)，所以通常較快，這種情況下。 磁碟儲存體價格比較便宜今天和作業系統和應用程式推入至最多的磁碟機容量，也不太可能，這類小的磁碟區將使用中。 FAT32 規模較大的磁碟區上會比 FAT 更好，但仍不適當的檔案系統的 Windows 伺服器。  
   
  FAT 及 FAT32 通常已實作在過去因為被視為更輕鬆地復原，可以使用磁碟區有問題發生時的原生 DOS 工具管理。 現在，使用各種 NTFS 恢復能力工具整合到作業系統的原生，並且可做為可用的協力廠商公用程式，有不應再受到有效的引數，如未使用 NTFS 檔案系統。  
   

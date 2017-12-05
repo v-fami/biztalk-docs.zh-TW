@@ -16,16 +16,16 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3027971059d99a921bd743ff28aca1617c5d628d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 88167cbeb5c8c6bb0a62030e64f4ed3d91a9d1aa
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-use-the-select-artifact-type-dialog-box"></a>如何使用選取成品類型對話方塊
 *項目*用來設定協調流程設計師 」 的協調流程的項目。 項目 (Item) 的範例包括結構描述、對應、管線、連接埠類型以及多部分訊息類型等。 在開發協調流程及其組成部分 (例如，連接埠圖形、轉換圖形和訊息) 時，所需參考的項目可能不在目前的協調流程中，但在目前的專案或在其他已編譯入 BizTalk Server 組件的其他專案中。 您使用**選取成品類型**對話方塊，即可尋找並設定協調流程內的項目時，然後指定項目。  
   
- **選取成品類型** 對話方塊可從許多協調流程設計師中的位置。 您可以選取\<從參考組件選取 > 下拉式清單中，會顯示組態選項，按一下此文字會開啟**選取成品類型** 對話方塊。  
+ **選取成品類型** 對話方塊可從許多協調流程設計師中的位置。 您可以選取\<從參考組件選取\>下拉式清單中，會顯示組態選項，按一下此文字會開啟**選取成品類型** 對話方塊。  
   
  在選取項目 (Item) 之前，必須先選取想要設定的項目 (Element)。  
   
@@ -61,7 +61,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  在右窗格中選取的項目，按一下它，然後按一下 [**確定**結束**選取成品類型**] 對話方塊。 這會將該項目 (Item) 指定為已選取項目 (Element) 的類型。 若要關閉**選取成品類型**對話方塊，而不選取，然後指派一個項目，按一下**取消**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [協調流程圖形](../core/orchestration-shapes.md)   
  [如何新增圖形至協調流程](../core/how-to-add-shapes-to-orchestrations.md)   
  [如何新增參數至協調流程](../core/how-to-add-parameters-to-orchestrations.md)

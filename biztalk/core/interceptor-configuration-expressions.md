@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a28af058ac4750426f66dc6e290bc6a02bf2efd6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 927afa60dc65fb014f0d44305db5e7f6e78b803b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="interceptor-configuration-expressions"></a>攔截器組態運算式
 BAM 攔截器組態檔使用篩選條件運算式識別活動，並且使用資料運算式建構資料項目，用於儲存、做為相互關聯識別碼或接續 Token 使用，或是用於類似的目的。 無論目的為何，個別運算式是透過 `expression` 項目在攔截器組態檔中識別，並且包含一或多項使用 Reverse Polish Notation (亦稱為 Postfix 標記法) 的作業。  
@@ -115,7 +115,7 @@ BAM 攔截器組態檔使用篩選條件運算式識別活動，並且使用資�
 ### <a name="data-expressions"></a>資料運算式  
  資料運算式是用來定義單一字串資料值。 資料運算式是未包含在 `Filter` 項目內的任何運算式。 資料運算式為 `OnEvent` 項目所使用，包括 `CorrelationID`、`ContinuationToken`、`Reference` 和 `Update`。  
   
- BAM 活動資料庫通常必須更新並且標示時間戳記。 例如，您可能想要擷取格式化為字串的事件開始的時間 」 開始： \<EventTime > 」。 若要執行這項操作，您必須使用類似下方的運算式 (其中 + 代表串連)：  
+ BAM 活動資料庫通常必須更新並且標示時間戳記。 例如，您可能想要擷取格式化為字串的事件開始的時間 」 開始： \<EventTime\>"。 若要執行這項操作，您必須使用類似下方的運算式 (其中 + 代表串連)：  
   
  `"Start: " + GetContextProperty(EventTime)`  
   
@@ -155,5 +155,5 @@ BAM 攔截器組態檔使用篩選條件運算式識別活動，並且使用資�
 ## <a name="in-this-section"></a>本節內容  
  [攔截器作業](../core/interceptor-operations.md)  
   
-## <a name="see-also"></a>另請參閱  
- [攔截器組態檔的結構](../core/structure-of-an-interceptor-configuration-file.md)
+## <a name="see-also"></a>請參閱  
+ [攔截器設定檔的結構](../core/structure-of-an-interceptor-configuration-file.md)

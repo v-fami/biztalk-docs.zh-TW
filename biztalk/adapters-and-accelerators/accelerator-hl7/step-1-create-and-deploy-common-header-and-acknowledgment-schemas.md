@@ -13,11 +13,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a134071ee1973961e0fb4ed9b4da73ad87d8dbb1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 222f78232afd988e5bb47b2aa12bb75eb4635ce5
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-1-create-and-deploy-common-header-and-acknowledgment-schemas"></a>步驟 1： 建立及部署通用標頭和通知結構描述
 您可以使用標頭結構描述來驗證訊息執行個體的標頭 （MSH 區段）。 您可以使用通知結構描述來產生訊息執行個體的通知。 此程序適用於所有 HL7 結構描述版本。  
@@ -45,7 +45,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  啟動**Visual Studio 2012 的命令提示字元**。  
   
-2.  在[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]命令提示字元，將您的目錄變更\<*磁碟機*>: \Program Files\Microsoft BizTalk\<版本 > Accelerator for HL7\SDK\Interrogative 教學課程 資料夾。  
+2.  在[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]命令提示字元，將您的目錄變更\<*磁碟機*\>: \Program Files\Microsoft BizTalk\<版本\>Accelerator for HL7\SDK\Interrogative教學課程的資料夾。  
   
 3.  在命令提示字元中，輸入**sn – k key.snk**，然後按下**Enter**。 請在 [輸出] 視窗中出現的成功訊息。  
   
@@ -58,7 +58,7 @@ ms.lasthandoff: 09/20/2017
   
 6.  在右窗格中，向下捲動至**強式名稱**區段中，按一下右邊的欄位**組件金鑰檔案**，然後按一下省略符號 （...） 按鈕。  
   
-7.  在 組件金鑰檔案 對話方塊中，瀏覽至\<*磁碟機*>: \Program Files\Microsoft BizTalk\<版本 > Accelerator for HL7\SDK\Interrogative 教學課程中，按一下**key.snk**，然後按一下 **開啟**。  
+7.  在 組件金鑰檔案 對話方塊中，瀏覽至\<*磁碟機*\>: \Program Files\Microsoft BizTalk\<版本\>Accelerator for HL7\SDK\Interrogative 教學課程中，按一下  **key.snk**，然後按一下 **開啟**。  
   
 8.  在 Interrogative_2XSchemas 屬性頁 對話方塊中，按一下**確定**以儲存變更。  
   

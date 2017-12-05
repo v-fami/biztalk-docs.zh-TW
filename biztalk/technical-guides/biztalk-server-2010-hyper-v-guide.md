@@ -12,14 +12,14 @@ caps.latest.revision: "29"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f0e76fee8ce74f11ec0f1a14334447114f3c4ed0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 937fcb3618bf3bde4883242d48da2a841f00dea5
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="biztalk-server-2010-hyper-v-guide"></a>BizTalk Server 2010 HYPER-V 指南
-本指南的目的是要提供使用 Microsoft 的實用指南[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]與 Microsoft [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] HYPER-V。 重點在於[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，但適用於分析的虛擬化的伺服器應用程式效能的一般效能評估方法和測試案例的效能。 本指南會感興趣的 IT 專業人員和開發人員社群。  
+本指南的目的是要提供使用 Microsoft BizTalk Server 與 Microsoft 的實用指南[!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]HYPER-V。 重點在於[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，但適用於分析的虛擬化的伺服器應用程式效能的一般效能評估方法和測試案例的效能。 本指南會感興趣的 IT 專業人員和開發人員社群。  
   
  若要下載此指南的副本，請移至[http://go.microsoft.com/fwlink/?LinkId=149267](http://go.microsoft.com/fwlink/?LinkId=149267)。  
   
@@ -66,7 +66,7 @@ ms.lasthandoff: 09/20/2017
 -   開發人員想要最佳化效能，並識別效能瓶頸的  
   
 ### <a name="goals-of-this-guide"></a>本指南的目標  
- 本指南的主要目標是提供有關如何判斷指引[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]HYPER-V 上執行很符合效能期望。 本指南也會的值來最佳化的已部署的協助[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]應用程式。  
+ 本指南的主要目標是提供有關如何判斷在 HYPER-V 上執行的 BizTalk Server 是否可能符合效能期望的指引。 本指南也會的值來最佳化的已部署的協助[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]應用程式。  
   
  這個專案進行下列目標：  
   

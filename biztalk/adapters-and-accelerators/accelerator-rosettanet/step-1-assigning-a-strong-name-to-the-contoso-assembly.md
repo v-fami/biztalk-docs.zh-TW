@@ -15,11 +15,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7124561b9f842a7cc980c7a54230cd122ae32856
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2d388fc725b8aaeec4cbfa80c23bd5e2a1b42a27
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-1-assigning-a-strong-name-to-the-contoso-assembly"></a>步驟 1： 指派強式名稱給 Contoso 組件
 在此步驟中，您將建立強式名稱並指派給 BizTalk 組件。 強式名稱藉由指派數位簽章和唯一的金鑰組，保證組件的唯一性。 此外，強式名稱提供完整性檢查，可保證組件的內容自上次建置以來未曾變更過。  
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/20/2017
 2.  在命令提示字元下，移至 Contoso 解決方案所在的位置。  
   
     > [!NOTE]
-    >  根據預設，Contoso 解決方案的位置是*\<磁碟機 >*: \Documents and 設定\\*\<使用者名稱 >*documents\visual Studio \<版本 > \Projects。  
+    >  根據預設，Contoso 解決方案的位置是*\<磁碟機\>*: \Documents and 設定\\*\<使用者名\>*\MyDocuments\Visual Studio\<版本\>\Projects。  
   
 3.  在命令提示字元中，輸入**sn-k FabConPriceAvail.snk**，然後按下**Enter**。  
   
@@ -53,5 +53,5 @@ ms.lasthandoff: 09/20/2017
   
 7.  在 [方案總管] 中，以滑鼠右鍵按一下**ContosoPriceAndAvailability**專案，然後再按一下**建置**。 建置成功之後，以滑鼠右鍵按一下專案，然後**部署**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [步驟 2： 為 Contoso 3A2 價格與可用性查詢/回應實例建立連接埠](step-2-create-ports-for-contoso-3a2-price-and-availability-query.md)

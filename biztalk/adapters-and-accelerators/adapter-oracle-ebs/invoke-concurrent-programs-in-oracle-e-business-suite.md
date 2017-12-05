@@ -12,11 +12,11 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c4ebfbed1a6be8d9a148a1e9bf470e6f85818b35
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2b0991ab2714ddb7acc22161ffcd29179ff7339c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="invoke-concurrent-programs-in-oracle-e-business-suite"></a>叫用 Oracle E-business Suite 中的並行程式
 Oracle E-business Suite 會公開您可以執行特定操作 Oracle 應用程式上的執行的並行程式。 每個 Oracle 應用程式有一組標準的並行程式 （也就是相同的所有作業） 和特定 Oracle 應用程式專屬的並行程式。 [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]公開所有的並行程式做為配接器用戶端可以叫用的作業。 如需有關配接器如何支援同時執行之程式的詳細資訊，請參閱[上同時執行之程式的作業](../../adapters-and-accelerators/adapter-oracle-ebs/operations-on-concurrent-programs.md)。 叫用同時執行的程式，訊息的 SOAP 結構的相關資訊，請參閱[並行程式的訊息結構描述](../../adapters-and-accelerators/adapter-oracle-ebs/message-schemas-for-concurrent-programs.md)。  
@@ -125,7 +125,7 @@ new System.TimeSpan(0,2,0)
   
 ```  
 XmlDoc = new System.Xml.XmlDocument();  
-XmlDoc.LoadXml("\<GetStatusForConcurrentProgram xmlns='http://schemas.microsoft.com/OracleEBS/2008/05/ConcurrentPrograms/AR'><RequestId /></GetStatusForConcurrentProgram>");  
+XmlDoc.LoadXml("<GetStatusForConcurrentProgram xmlns='http://schemas.microsoft.com/OracleEBS/2008/05/ConcurrentPrograms/AR'><RequestId /></GetStatusForConcurrentProgram>");  
 Get_StatusRequest = XmlDoc;  
 Get_StatusRequest.RequestId = xpath(Response,"string(/*[local-name()='RACUSTResponse']/*[local-name()='RACUSTResult']/text())");  
 ```  
@@ -229,7 +229,7 @@ Get_StatusRequest.RequestId = xpath(Response,"string(/*[local-name()='RACUSTResp
  協調流程取用訊息、 將它傳遞至 Oracle E-business Suite 中，並接收回應。 回應訊息會儲存在其他協調流程中指定的檔案位置。 客戶介面並行程式的回應如下所示：  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <RACUSTResponse xmlns="http://schemas.microsoft.com/OracleEBS/2008/05/ConcurrentPrograms/AR">  
   <RACUSTResult>2794708</RACUSTResult>  
 </RACUSTResponse>  
@@ -238,7 +238,7 @@ Get_StatusRequest.RequestId = xpath(Response,"string(/*[local-name()='RACUSTResp
  從 Oracle E-business Suite，回應會包含要求的識別碼。 協調流程會從回應訊息中擷取的要求識別碼、 建構要叫用的訊息**Get_Status**並行程式，並將其傳遞執行 Oracle E-business Suite **Get_Status**並行處理程式。 Th 收到回應後**Get_Status**並行程式，它會複製到第一個回應相同的檔案位置。 對於回應**Get_Status**並行處理程式類似如下所示：  
   
 ```  
-\<?xml version="1.0" encoding="utf-8" ?>   
+<?xml version="1.0" encoding="utf-8" ?>   
 <GetStatusForConcurrentProgramResponse xmlns="http://schemas.microsoft.com/OracleEBS/2008/05/ConcurrentPrograms/AR">  
   <GetStatusForConcurrentProgramResult>true</GetStatusForConcurrentProgramResult>   
   <Phase>Pending</Phase>   
@@ -252,5 +252,5 @@ Get_StatusRequest.RequestId = xpath(Response,"string(/*[local-name()='RACUSTResp
 ## <a name="best-practices"></a>最佳作法  
  您部署和設定 BizTalk 專案之後，您可以為 XML 檔案，稱為繫結檔案匯出組態設定。 之後產生的繫結檔案中，您可以從檔案匯入的組態設定，使您不需要建立項目這類傳送埠和接收相同的協調流程連接埠。 如需繫結檔案的詳細資訊，請參閱[重複使用配接器繫結與 Oracle E-business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/reuse-adapter-bindings-with-oracle-e-business-suite.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [開發 BizTalk 應用程式使用 Oracle E-business Suite 配接器](../../adapters-and-accelerators/adapter-oracle-ebs/develop-biztalk-applications-using-the-oracle-e-business-suite-adapter.md)

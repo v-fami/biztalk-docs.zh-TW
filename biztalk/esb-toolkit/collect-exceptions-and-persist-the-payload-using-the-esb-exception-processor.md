@@ -12,14 +12,14 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ec3ca7a33b5a38b625894e391c5bf014eb824414
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9dd0ec42ab60636202a8ff99fa8fab8d96a95a19
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="collecting-exceptions-and-persisting-the-payload-using-the-esb-exception-processor"></a>收集例外狀況，並將保存裝載使用 ESB 例外狀況處理器
-在此使用情況下，協調流程的其中一個例外狀況處理常式 ESB 錯誤會將訊息發佈至[!INCLUDE[prague](../includes/prague-md.md)]訊息方塊或 BizTalk 失敗訊息路由機制會產生錯誤訊息。 傳送埠，以 ESB 例外狀況編碼器管線元件，預先設定訂閱這兩個錯誤訊息類型。 它會處理錯誤訊息，並再將它們保存為磁碟檔案，您可以檢視使用 InfoPath，如圖 1 所示。  
+在此使用情況下，協調流程的例外狀況處理常式會發佈 ESB 錯誤訊息到 BizTalk Server 訊息方塊，或是 BizTalk 失敗訊息路由的機制會產生錯誤訊息。 傳送埠，以 ESB 例外狀況編碼器管線元件，預先設定訂閱這兩個錯誤訊息類型。 它會處理錯誤訊息，並再將它們保存為磁碟檔案，您可以檢視使用 InfoPath，如圖 1 所示。  
   
  ![收集例外狀況承載](../esb-toolkit/media/ch3-collectingexceptionspayload.gif "Ch3 CollectingExceptionsPayload")  
   

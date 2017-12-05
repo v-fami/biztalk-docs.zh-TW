@@ -13,11 +13,11 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b143f528a7c02ccfc1bdb5f68a7cb9576187fb9a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9860625480c2c3e469736989415b4e1510cf6707
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="restart-biztalk-services-or-shut-down-the-biztalk-server"></a>重新啟動 BizTalk 服務，或關閉 BizTalk Server
 
@@ -25,7 +25,7 @@ ms.lasthandoff: 09/20/2017
   
 |名稱|描述|啟動類型|相依性|  
 |----------|-----------------|------------------|------------------|  
-|BizTalk Service BizTalk Group:  *\<[biztalkserverapplication] >*|提供 BizTalk Server 應用程式服務。|自動|企業單一登入 (SSO) 服務<br />-事件記錄檔<br />-遠端程序呼叫 (RPC)|  
+|BizTalk Service BizTalk Group:  *\<[biztalkserverapplication]\>*|提供 BizTalk Server 應用程式服務。|自動|企業單一登入 (SSO) 服務<br />-事件記錄檔<br />-遠端程序呼叫 (RPC)|  
 |企業單一登入服務|提供單一登入服務給企業應用程式。|自動|SQL Server 在本機安裝：<br /><br /> -COM + 系統應用程式<br />-遠端程序呼叫 (RPC)<br />SQL Server (MSSQLSERVER)<br /><br /> SQL Server 在遠端安裝：<br /><br /> -COM + 系統應用程式<br />-遠端程序呼叫 (RPC) 無|  
 |規則引擎更新服務|通知使用者有關原則的部署或解除部署。|Automatic|無|  
   
@@ -93,6 +93,6 @@ ms.lasthandoff: 09/20/2017
   
  啟動和停止 IIS 中的 Web 伺服器的詳細資訊，請參閱[http://go.microsoft.com/fwlink/?LinkId=140695](http://go.microsoft.com/fwlink/?LinkId=140695)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [如何啟動和停止 BizTalk 應用程式](../core/how-to-start-and-stop-a-biztalk-application.md)   
  [如何停止主控件執行個體](../core/how-to-stop-a-host-instance.md)   

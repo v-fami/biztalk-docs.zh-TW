@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1f0b9e1538ea667eab2299a1a02021c1237bc985
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: af1d853e381da6cbfbbe96fa805ca6396a1b7aae
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-8c-configure-party-information-for-the-hi-system"></a>步驟 8 C： 設定 HI 系統的合作對象資訊
 在此步驟中，您可以設定 HI 系統的合作對象資訊。  
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  在 傳送埠 窗格中，按一下中的空白欄位**名稱**欄中，選取**Tutorial_MllpSend**，然後按一下 **確定**。  
   
-5.  按一下**啟動**，指向 **程式**，指向  **Microsoft BizTalk\<版本 > Accelerator for HL7**，然後按一下  **BTAHL7組態總管**。  
+5.  按一下**啟動**，指向 **程式**，指向  **Microsoft BizTalk\<版本\>Accelerator for HL7**，然後按一下  **BTAHL7 Configuration 總管**。  
   
 6.  在 BTAHL7 組態總管 中，選取**MSH 對應**索引標籤，然後再執行下列動作：  
   

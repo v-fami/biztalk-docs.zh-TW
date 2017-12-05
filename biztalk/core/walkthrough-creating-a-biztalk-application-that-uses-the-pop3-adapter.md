@@ -19,11 +19,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a1af0d60eab23a3cbfff67a8b4b11dc73fb49afe
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e677a4fb68ad4f6991585c191c8065a60b3fc337
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="walkthrough-creating-a-biztalk-application-that-uses-the-pop3-adapter"></a>逐步解說： 建立使用 POP3 配接器的 BizTalk 應用程式
 本節將帶領您使用 POP3 配接器來建立簡單的 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 應用程式。  
@@ -45,7 +45,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  按一下**啟動**，指向 **程式**，指向 **系統管理工具**，然後按一下  **POP3 服務**。  
   
-2.  展開 *\<servername >* ，按一下您想要建立信箱的網域。  
+2.  展開 *\<servername\>*  ，按一下您想要建立信箱的網域。  
   
 3.  在**POP3 服務**對話方塊中的，在右窗格中，按一下**新增信箱**選項。  
   
@@ -60,7 +60,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="create-the-receive-location"></a>建立接收位置  
  請遵循下列步驟來建立接收位置：  
   
-1.  在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中按兩下預設的資料庫 **\<**  *machine_name***>。BizTalkMgmtDb.dbo**，其中*machine_name*是您的電腦名稱。 按一下**應用程式**，然後按一下  **BizTalk.Application.1**。  
+1.  在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中按兩下預設的資料庫 **\<**  *machine_name***\>。BizTalkMgmtDb.dbo**，其中*machine_name*是您的電腦名稱。 按一下**應用程式**，然後按一下  **BizTalk.Application.1**。  
   
 2.  以滑鼠右鍵按一下**接收埠**，按一下 **新增**，按一下 **單向接收埠**。  
   
@@ -160,5 +160,5 @@ ms.lasthandoff: 09/20/2017
   
 2.  按兩下資料夾中的文件，在 [記事本] 中檢視文件的內容。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [何謂 POP3 配接器？](../core/what-is-the-pop3-adapter.md)

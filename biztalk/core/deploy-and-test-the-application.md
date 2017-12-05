@@ -12,15 +12,15 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 56b390ef87ac2ea58d91be2ff16a50f2c3748db2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2d93284823c2ce5d0c00a1601a5b9ae0aac4643c
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="deploy-and-test-the-application"></a>部署和測試應用程式
 > [!NOTE]
->  本教學課程僅適用於 [!INCLUDE[prague](../includes/prague-md.md)]。  
+>  本教學課程僅適用於 BizTalk Server。  
   
  本主題中，我們建置、 部署、 設定及測試[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]應用程式。  
   
@@ -81,7 +81,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  瀏覽至您下載時，此範例中，且從**TestMessage**資料夾，複製**JsonPurchaseOrder.json**，並將它貼入您與接收位置相關聯的資料夾中。 等候檔案消失時。  
   
-2.  瀏覽至您與您所建立的傳送埠相關聯的資料夾。 請注意，   ***\<GUID >*.json**檔案位於資料夾中。 開啟檔案，並確認它是發票訊息。  
+2.  瀏覽至您與您所建立的傳送埠相關聯的資料夾。 請注意，   ***\<GUID\>*.json**檔案位於資料夾中。 開啟檔案，並確認它是發票訊息。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [使用 BizTalk Server 處理 JSON 訊息](../core/processing-json-messages-using-biztalk-server.md)

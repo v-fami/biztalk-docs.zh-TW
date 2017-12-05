@@ -12,14 +12,14 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9d3bf6d53ec95ebfc57cff646ce5658fc6b1f4a2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f8c50db43b14899439877fde8ce0ee476feb5095
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="hipaa-schema-trigger-field-annotations"></a>HIPAA 結構描述的觸發程序欄位註解
-EDI 區段通常包含修飾區段意義的辨識符號。 例如，N1 區段可能包含 “BT” 辨識元素以表示「帳單收件人」，或可能包含 “ST” 辨識元素以表示「出貨收件人」。 通常這些欄位的解讀方式是交由商務邏輯決定，而且解譯器會將 N1 區段的所有執行個體解析成相同的 XML 記錄名稱。不過，[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 隨附的 HIPAA 結構描述含有註解，可讓 EDI 解譯器根據存在的辨識元素來建立唯一的 XML 記錄。  
+EDI 區段通常包含修飾區段意義的辨識符號。 例如，N1 區段可能包含 “BT” 辨識元素以表示「帳單收件人」，或可能包含 “ST” 辨識元素以表示「出貨收件人」。 商務邏輯決定如何解譯這些欄位通常會維持和解譯器會將 N1 區段的所有執行個體解析成相同的 XML 記錄名稱。不過，BizTalk Server 所隨附的 HIPAA 結構描述包含註解可讓 EDI 解譯器來建立根據存在的辨識元素的唯一 XML 記錄。  
   
  **觸發程序欄位的實作**  
   
@@ -59,7 +59,7 @@ N4*N401__PayeeCityName*N4*N403__PayeePost**N4*N406~
   
  **預設值區段和觸發程序欄位**  
   
- 下表包含有關的預設區段和觸發程序欄位用於 HIPAA 文件的一部分提供[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]:  
+ 下表包含預設值區段和 HIPAA 文件提供 BizTalk Server 的過程中使用的觸發程序欄位的詳細資訊：  
   
 > [!NOTE]
 >  與觸發程序欄位搭配使用個別的觸發程序值可能不同結構描述之間。  

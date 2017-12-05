@@ -12,11 +12,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8992a2c37295c7badab856e7a92a8f083ac9123b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0f46c4b521c754bd2096916a03e356262dfa4d46
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-configure-a-wcf-nettcp-send-port"></a>如何設定 WCF-NetTcp 傳送埠
 您可以透過程式設計方式或使用 [BizTalk 管理主控台] 來設定 WCF-NetTcp 傳送埠。  
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/20/2017
 |屬性名稱|類型|Description|  
 |-------------------|----------|-----------------|  
 |**識別**|XML BLOB<br /><br /> 範例：<br /><br /> &lt;身分識別&gt;<br /><br /> &lt;userPrincipalName 值 ="username@contoso.com"/&gt;<br /><br /> &lt;/identity&gt;|指定此傳送埠所預期服務的識別。 這些設定可讓此傳送埠驗證服務。 在用戶端與服務之間的交握程序中，Windows Communication Foundation (WCF) 基礎結構可確保預期之服務的識別能夠與這個項目的值相符。<br /><br /> 預設為空字串。|  
-|**StaticAction**|字串|指定**SOAPAction**外寄訊息的標頭欄位。 這個屬性也可以透過訊息內容屬性設定**WCF。動作**管線或協調流程中。 您可以將這個值指定兩個不同的方式： 單一動作格式和動作對應格式。 如果您在單一動作格式中設定這個屬性 — 例如，http://contoso.com/Svc/Op1 — **SOAPAction**標頭外寄訊息一定會設定這個屬性中指定的值。<br /><br /> 如果您設定此屬性以動作對應格式，傳出**SOAPAction**標頭由**BTS。作業**內容屬性。 例如，如果此屬性設定為下列 XML 格式和**BTS。作業**屬性設定為 Op1，WCF 傳送配接器使用 http://contoso.com/Svc/Op1 針對外寄**SOAPAction**標頭。<br /><br /> \<B ><br /><br /> \<作業名稱 ="Op1 」 動作 ="http://contoso.com/Svc/Op1"/ ><br /><br /> \<作業名稱 ="Op2 」 動作 ="http://contoso.com/Svc/Op2"/ ><br /><br /> \</ B ><br /><br /> 如果外寄訊息是來自協調流程連接埠，協調流程執行個體動態設定**BTS。作業**與連接埠的作業名稱的屬性。 如果外寄訊息都會路由傳送，以內容為基礎的路由，您可以設定**BTS。作業**管線元件中的屬性。<br /><br /> 預設為空字串。|  
+|**StaticAction**|字串|指定**SOAPAction**外寄訊息的標頭欄位。 這個屬性也可以透過訊息內容屬性設定**WCF。動作**管線或協調流程中。 您可以將這個值指定兩個不同的方式： 單一動作格式和動作對應格式。 如果您在單一動作格式中設定這個屬性 — 例如，http://contoso.com/Svc/Op1 — **SOAPAction**標頭外寄訊息一定會設定這個屬性中指定的值。<br /><br /> 如果您設定此屬性以動作對應格式，傳出**SOAPAction**標頭由**BTS。作業**內容屬性。 例如，如果此屬性設定為下列 XML 格式和**BTS。作業**屬性設定為 Op1，WCF 傳送配接器使用 http://contoso.com/Svc/Op1 針對外寄**SOAPAction**標頭。<br /><br /> \<B\><br /><br /> \<作業名稱 ="Op1 」 動作 ="http://contoso.com/Svc/Op1"/\><br /><br /> \<作業名稱 ="Op2 」 動作 ="http://contoso.com/Svc/Op2"/\><br /><br /> \</ B\><br /><br /> 如果外寄訊息是來自協調流程連接埠，協調流程執行個體動態設定**BTS。作業**與連接埠的作業名稱的屬性。 如果外寄訊息都會路由傳送，以內容為基礎的路由，您可以設定**BTS。作業**管線元件中的屬性。<br /><br /> 預設為空字串。|  
 |**OpenTimeout**|**System.TimeSpan**|指定時間值，表示可供完成通道開啟作業的時間間隔。<br /><br /> 預設值：00:01:00|  
 |**SendTimeout**|**System.TimeSpan**|指定時間值，表示可供完成傳送作業的時間間隔。 如果您使用請求-回應傳送埠，這個值會指定完成整個互動的時間長度，即使服務傳回很大的訊息也是如此。<br /><br /> 預設值：00:01:00|  
 |**CloseTimeout**|**System.TimeSpan**|指定時間值，表示可供完成通道關閉作業的時間間隔。<br /><br /> 預設值：00:01:00|  
@@ -78,7 +78,7 @@ ms.lasthandoff: 09/20/2017
   
  您可以使用下列格式來設定屬性：  
   
- \<CustomProps >  
+ \<CustomProps\>  
   
 ```  
   <UseSSO vt="11">0</UseSSO>  
@@ -136,9 +136,9 @@ sendPort.SendPipeline = explorer.Pipelines["Microsoft.BizTalk.DefaultPipelines.P
 explorer.SaveChanges();  
 ```  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [WCF 配接器屬性結構描述和屬性](../core/wcf-adapters-property-schema-and-properties.md)   
  [指定訊息本文為 WCF 配接器](../core/specifying-the-message-body-for-the-wcf-adapters.md)   
  [WCF 配接器安裝憑證](../core/installing-certificates-for-the-wcf-adapters.md)   
  [設定 Wcf-nettcp 配接器](../core/configuring-the-wcf-nettcp-adapter.md)   
- [設定動態傳送埠使用 WCF 配接器內容屬性](../core/configuring-dynamic-send-ports-using-wcf-adapters-context-properties.md)
+ [使用 WCF 配接器內容屬性設定動態傳送埠](../core/configuring-dynamic-send-ports-using-wcf-adapters-context-properties.md)

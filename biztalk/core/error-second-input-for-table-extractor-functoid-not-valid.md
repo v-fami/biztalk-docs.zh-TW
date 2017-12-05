@@ -13,11 +13,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5970c0bfa23cc7da33b2c041cc326987ec278e09
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5e674ad6777ebff53fefe053e1b6af46ebc54ef3
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="error---second-input-for-table-extractor-functoid-not-valid"></a>錯誤-第二個輸入表格抽選程式運算質不正確
 **錯誤碼**  
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/20/2017
   
  **使用者動作**  
   
- 請確認相關的輸入的參數**表格抽選程式**運算質，透過其**輸入參數**屬性和**設定\<運算質 >運算質**對話方塊中，您可以在下表所示。  
+ 請確認相關的輸入的參數**表格抽選程式**運算質，透過其**輸入參數**屬性和**設定\<運算質\>運算質**對話方塊中，您可以在下表所示。  
   
 |表格擷取程式運算質輸入參數編號|Description|  
 |-----------------------------------------------------|-----------------|  

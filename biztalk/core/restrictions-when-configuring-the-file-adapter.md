@@ -15,11 +15,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: daa14a5eba95b11ac29500dce1d60b60ba608abc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d6fbf9296e56db816277f9a7a348377bfa4b359d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="restrictions-when-configuring-the-file-adapter"></a>設定 File 配接器時的限制
 限制和規則時使用 file 配接器。
@@ -36,9 +36,9 @@ ms.lasthandoff: 09/20/2017
   
 -   檔案遮罩和檔案名稱不區分大小寫。  
   
--   檔案名稱不能包含任何下列字元： \< >: / &#124;" ? * ;  
+-   檔案名稱不能包含任何下列字元： \< \> : / &#124;" ? * ;  
   
--   檔案遮罩不能包含任何下列字元： \< >: / &#124;" ; 
+-   檔案遮罩不能包含任何下列字元： \< \> : / &#124;" ; 
   
 -   下列保留的裝置名稱不能做為檔案名稱： CON、 PRN、 AUX、 時鐘 $、 NUL、 COM1、 COM2、 COM3、 COM4、 COM5、 COM6、 COM7、 COM8、 COM9、 LPT1、 LPT2、 LPT3、 LPT4、 LPT5、 LPT6、 LPT7、 LPT8 和 LPT9。 此外，也不允許這些名稱與副檔名的任何組合。  
   
@@ -118,15 +118,15 @@ ms.lasthandoff: 09/20/2017
   
 -   檔案路徑必須永遠是絕對路徑。  
   
--   您可以藉由使用通用命名慣例 (UNC) 格式來指定檔案路徑 (例如， \\ \\ <*伺服器*> \\ < *共用*>)。  
+-   您可以藉由使用通用命名慣例 (UNC) 格式來指定檔案路徑 (例如， \\ \\ <*伺服器*\> \\ < *共用*\>)。  
   
--   如果檔案路徑為 UNC 格式，伺服器名稱必須包含下列字元: ' ~ ！ @ # $ ^ & * ( ) = + [ ] { } \ &#124; ; : ' " , \< > / ? ;  
+-   如果檔案路徑為 UNC 格式，伺服器名稱必須包含下列字元: ' ~ ！ @ # $ ^ & * ( ) = + [ ] { } \ &#124; ; : ' " , \< \> / ? ;  
   
 -   您無法使用父 (\\..\\) 和目前 (\\。\\) 資料夾符號中的檔案路徑的任何部分。  
   
 -   檔案路徑是不區分大小寫的。  
   
--   檔案路徑不能包含任何下列字元： \< >: / &#124;" ? * ;  
+-   檔案路徑不能包含任何下列字元： \< \> : / &#124;" ? * ;  
   
 -   檔案路徑內不能使用下列保留的裝置名稱：CON、PRN、AUX、CLOCK$、NUL、COM1、COM2、COM3、COM4、COM5、COM6、COM7、COM8、COM9、LPT1、LPT2、LPT3、LPT4、LPT5、LPT6、LPT7、LPT8 和 LPT9。  
   

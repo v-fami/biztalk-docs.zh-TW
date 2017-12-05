@@ -12,11 +12,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 617c3fc2821c9b9aa1aba690d27a9b48dc1116c4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8d48cf2cf203ed001611bb30e3c9f1d5746a903e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="file-adapter-performance-counters"></a>FILE 配接器效能計數器
 效能計數器可讓您監視網站或系統上，服務所執行之工作的特定層面。 效能計數器也可以幫助您識別和疑難排解伺服器的效能問題。  
@@ -49,11 +49,11 @@ ms.lasthandoff: 09/20/2017
   
 3.  在**新增計數器**對話方塊中，從**可用的計數器**清單中，展開**biztalk: File**效能計數器物件，然後選取要監視的計數器  
   
-4.  在**選取執行個體的物件**清單中，選取要監視針對所選取計數器，然後按一下 特定的執行個體**新增**。  若要選取所有可用的計數器執行個體，請選取\<**所有執行個體**>。  
+4.  在**選取執行個體的物件**清單中，選取要監視針對所選取計數器，然後按一下 特定的執行個體**新增**。  若要選取所有可用的計數器執行個體，請選取\<**所有執行個體**\>。  
   
 5.  新增計數器後, 按一下**確定**。  
   
      選取的效能計數器隨即出現在**效能監視器**螢幕。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [持續性效能的規劃](../core/planning-for-sustained-performance.md)

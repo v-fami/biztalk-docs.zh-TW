@@ -13,11 +13,11 @@ caps.latest.revision: "22"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8a7fd507b301d20d84680cb626953d21b8a6e201
-ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
+ms.openlocfilehash: 1ff6e36afd7cecc967069fd3ecf5414c6afdb014
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="troubleshoot-operational-issues-with-the-siebel-adapter"></a>使用 Siebel 配接器疑難排解操作問題
 本節提供使用時，可能會遇到操作問題的相關資訊的集中式的位置[!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)]。  
@@ -81,7 +81,7 @@ Connecting to the system LOB has failed. Retrieving the COM class factory for co
   
  **解決方式**  
   
- 請確定電腦上安裝 Siebel Web 用戶端的支援的版本。 請參閱支援的用戶端的安裝指南和 siebel 伺服器版本。 安裝指南位於\<系統磁碟機 >: \Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Documents。  
+ 請確定電腦上安裝 Siebel Web 用戶端的支援的版本。 請參閱支援的用戶端的安裝指南和 siebel 伺服器版本。 安裝指南位於\<系統磁碟機\>: \Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Documents。  
   
 ###  <a name="BKMK_SiebelXMLRetrieve"></a>具有多個 65536 節點擷取 Xml 時發生錯誤  
  **問題**  
@@ -118,9 +118,9 @@ Change the object graph or increase the MaxItemsInObjectGraph quota.
  範例 app.config 看起來像：  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <configuration>  
-  \<system.serviceModel>  
+  <system.serviceModel>  
     <behaviors>  
       <endpointBehaviors>  
         <behavior name="NewBehavior">  
@@ -132,7 +132,7 @@ Change the object graph or increase the MaxItemsInObjectGraph quota.
       <endpoint   behaviorConfiguration="NewBehavior" binding="siebelBinding"  
        contract="IOutboundContract" name="siebel_ICalculator" />  
     </client>  
-  \</system.serviceModel>  
+  </system.serviceModel>  
 </configuration>  
 ```  
   
@@ -161,7 +161,7 @@ Error saving properties.
   
  配接器會產生下列錯誤，執行任何作業在 Siebel 系統使用時[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]。  
   
--   **針對[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]**  
+-   **BizTalk server**  
   
     ```  
     System.ArgumentNullException: Value cannot be null.  
@@ -182,7 +182,7 @@ Error saving properties.
   
 ```  
 Microsoft.ServiceModel.Channels.Common.XmlReaderParsingException: Invalid argument:  
-\<BtsActionMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+<BtsActionMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
   <Operation Name="<operation_name>" Action="<action>" />  
 </BtsActionMapping>  
 ```  
@@ -223,7 +223,7 @@ Microsoft.ServiceModel.Channels.Common.XmlReaderParsingException: Invalid argume
   
  **解決方式**  
   
- 重新啟動 BizTalk 應用程式主控件執行個體。 若要這樣做從[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]管理主控台中的，在主控台樹狀目錄中展開**BizTalk 群組**，依序展開**平台設定**，然後按一下**主控件執行個體**。 從右窗格中，以滑鼠右鍵按一下 主機名稱，然後選取**重新啟動**。  
+ 重新啟動 BizTalk 應用程式主控件執行個體。 若要這樣做從[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]管理主控台中的，在主控台樹狀目錄中展開**BizTalk 群組**，依序展開**平台設定**，然後按一下 **主控件執行個體**。 從右窗格中，以滑鼠右鍵按一下 主機名稱，然後選取**重新啟動**。  
   
 ###  <a name="BKMK_SiebelAction"></a>配接器無法辨識的實體通訊埠上的動作，即使您使用 取用配接器服務增益集所產生的繫結檔案建立連接埠  
  **問題**  
@@ -232,7 +232,7 @@ Microsoft.ServiceModel.Channels.Common.XmlReaderParsingException: Invalid argume
   
 ```  
 Microsoft.ServiceModel.Channels.Common.UnsupportedOperationException: Incorrect Action   
-\<BtsActionMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+<BtsActionMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
   <Operation Name="<op_name>" Action="<action>" />  
 </BtsActionMapping>. Correct the specified Action, or refer to the documentation on the allowed formats for the Actions.  
 ```  
@@ -301,5 +301,5 @@ The element 'bindings' has invalid child element 'siebelBinding'. List of possib
   
  您可以放心地忽略此警告。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [Siebel 配接器進行疑難排解](../../adapters-and-accelerators/adapter-siebel/troubleshoot-the-siebel-adapter.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: efed30f3e65c4f58a060f67539672c95b3d6df59
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 36d3c923593fe9a9402a14012e93fccb274ecdb6
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="process-notification-messages-to-complete-specific-tasks-in-sql-using-biztalk-server"></a>處理通知訊息，以便完成特定工作中使用 BizTalk Server 的 SQL
 您可以使用[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]接收通知的 SQL Server 資料庫資料表的變更。 不過，配接器只會傳送一些記錄已插入、 更新或刪除特定資料庫資料表中的通知。 用戶端應用程式本身必須處理這些記錄的任何後續處理。 本主題顯示如何處理從 SQL Server 資料庫接收通知的種類為基礎的資料表中的記錄以案例為基礎的描述。  
@@ -61,7 +61,7 @@ ms.lasthandoff: 09/20/2017
 |繫結屬性|Description|  
 |----------------------|-----------------|  
 |**InboundOperationType**|指定輸入您想要執行的作業。 若要接收通知訊息，將此設**通知**。|  
-|**NotificationStatement**|指定的 SQL 陳述式 (SELECT 或 EXEC\<預存程序 >) 用於註冊查詢通知。 在結果集為指定的 SQL 陳述式變更時，才配接器從 SQL Server 取得通知訊息。|  
+|**NotificationStatement**|指定的 SQL 陳述式 (SELECT 或 EXEC\<預存程序\>) 用來註冊查詢通知。 在結果集為指定的 SQL 陳述式變更時，才配接器從 SQL Server 取得通知訊息。|  
 |**NotifyOnListenerStart**|指定是否配接器傳送通知給配接器用戶端啟動接聽程式時。|  
   
  如需這些屬性的更完整說明，請參閱[閱讀 BizTalk Adapter for SQL Server 配接器繫結屬性](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md)。 如需完整的說明，如何使用[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]進一步要從 SQL Server 中接收通知，閱讀。  
@@ -166,7 +166,7 @@ ms.lasthandoff: 09/20/2017
   
      本主題中，命名為變數**notificationtype 而**。  
   
--   建立 xpath 查詢來擷取的值從\<資訊 > 標記。 Xpath 查詢會如下所示：  
+-   建立 xpath 查詢來擷取的值從\<資訊\>標記。 Xpath 查詢會如下所示：  
   
     ```  
     NotificationType = xpath(NotifyReceive,"string(/*[local-name()='Notification']/*[local-name()='Info']/text())");  
@@ -261,7 +261,7 @@ NotificationType.Equals("Insert") | NotificationType.Equals("Update")
 -   因為**NotifyOnListenerStart**繫結屬性設定為**True**，您會收到下列訊息：  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>  
+    <?xml version="1.0" encoding="utf-8" ?>  
     <Notification xmlns="http://schemas.microsoft.com/Sql/2008/05/Notification/">  
       <Info>ListenerStarted</Info>   
       <Source>SqlBinding</Source>   
@@ -274,7 +274,7 @@ NotificationType.Equals("Insert") | NotificationType.Equals("Update")
 -   Employee 資料表中插入記錄。 您會收到通知訊息，如下列所示：  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <Notification xmlns="http://schemas.microsoft.com/Sql/2008/05/Notification/">  
       <Info>Insert</Info>   
       <Source>Data</Source>   
@@ -287,7 +287,7 @@ NotificationType.Equals("Insert") | NotificationType.Equals("Update")
 -   更新 Employee 資料表中的記錄。 您會收到通知訊息，如下列所示：  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>  
+    <?xml version="1.0" encoding="utf-8" ?>  
     <Notification xmlns="http://schemas.microsoft.com/Sql/2008/05/Notification/">  
       <Info>Update</Info>   
       <Source>Data</Source>   
@@ -300,7 +300,7 @@ NotificationType.Equals("Insert") | NotificationType.Equals("Update")
 -   從 Employee 資料表刪除記錄。 您會收到通知訊息，如下列所示：  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>  
+    <?xml version="1.0" encoding="utf-8" ?>  
     <Notification xmlns="http://schemas.microsoft.com/Sql/2008/05/Notification/">  
       <Info>Delete</Info>   
       <Source>Data</Source>   
@@ -318,5 +318,5 @@ NotificationType.Equals("Insert") | NotificationType.Equals("Update")
   
  其中一個這類情況中會詳細說明在[教學課程 2： 員工-訂單程序使用 SQL 配接器](../../adapters-and-accelerators/adapter-sql/tutorial-2-employee-purchase-order-process-using-the-sql-adapter.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [接收使用 BizTalk Server 的 SQL 查詢通知](../../adapters-and-accelerators/adapter-sql/receive-sql-query-notifications-using-biztalk-server.md)

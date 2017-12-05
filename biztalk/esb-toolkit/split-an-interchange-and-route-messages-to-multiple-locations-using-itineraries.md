@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4c752c4b98f6a68e0a86ba4a418eab0705a7c513
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 538432f548b1403fd9c0cd566b82eb8cb113f737
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-split-an-interchange-and-route-the-resulting-messages-to-multiple-file-locations-using-distinct-itineraries"></a>如何： 將交換分割，並將產生的訊息路由至多個使用不同的行程的檔案位置
 ## <a name="goal"></a>目標  
@@ -137,21 +137,21 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-add-a-schemas-project-to-the-patterns-solution"></a>將結構描述專案加入至模式的方案  
   
-1.  在[!INCLUDE[vs2010](../includes/vs2010-md.md)]，開啟 C:\HowTos\Patterns\Patterns.sln。  
+1.  在 Visual Studio 中開啟 C:\HowTos\Patterns\Patterns.sln。  
   
-2.  在 方案總管 中，以滑鼠右鍵按一下**方案 '模式'**，指向 **新增**，然後按一下**新專案**。  
+2.  在 方案總管 中，以滑鼠右鍵按一下**方案 '模式'**，指向 **新增**，然後按一下 **新專案**。  
   
 3.  在**加入新的專案**對話方塊，在 [專案類型] 窗格中，按一下**BizTalk 專案**，然後執行下列步驟：  
   
     1.  在 [範本] 窗格中，按一下**空白 BizTalk Server 專案**。  
   
-    2.  在**名稱**方塊中，輸入**Patterns.Schemas**，然後按一下**確定**。  
+    2.  在**名稱**方塊中，輸入**Patterns.Schemas**，然後按一下 **確定**。  
   
-4.  在 [方案總管] 中，以滑鼠右鍵按一下**Patterns.Schemas**，然後按一下**屬性**。  
+4.  在 方案總管 中，以滑鼠右鍵按一下**Patterns.Schemas**，然後按一下 **屬性**。  
   
 5.  在 [屬性] 視窗上**簽署**索引標籤上，選取**簽署組件**核取方塊。  
   
-6.  在**選擇強式名稱金鑰檔**下拉式清單中，按一下  **\<新增...>**。  
+6.  在**選擇強式名稱金鑰檔**下拉式清單中，按一下  **\<新增...\>**.  
   
 7.  在**建立強式名稱金鑰**對話方塊方塊中，設定下列屬性：  
   
@@ -165,32 +165,32 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-add-the-artifacts-to-the-schemas-project"></a>若要將成品新增至結構描述專案  
   
-1.  在 [方案總管] 中，以滑鼠右鍵按一下**Patterns.Schemas**，然後按一下**加入參考**。  
+1.  在 方案總管 中，以滑鼠右鍵按一下**Patterns.Schemas**，然後按一下 **加入參考**。  
   
 2.  在**瀏覽** 索引標籤**加入參考**對話方塊中，瀏覽並選取 C:\Projects\Microsoft.Practices.ESB\Source\Samples\DynamicResolution\Source\ESB。DynamicResolution.Schemas\bin\Debug\GlobalBank.ESB.DynamicResolution.Schemas.dll，然後再按一下**確定**。  
   
-3.  在 方案總管 中，以滑鼠右鍵按一下**Patterns.Schemas**，指向 **新增**，然後按一下**現有項目**。  
+3.  在 方案總管 中，以滑鼠右鍵按一下**Patterns.Schemas**，指向 **新增**，然後按一下 **現有項目**。  
   
 4.  在**加入現有項目**對話方塊中，瀏覽至並選取 C:\HowTos\OrderDocEnvelope.xsd，，然後按一下**新增**。  
   
 5.  儲存方案的所有成品。  
   
-6.  在 [方案總管] 中，以滑鼠右鍵按一下**Patterns.Schemas**，然後按一下**部署**。  
+6.  在 方案總管 中，以滑鼠右鍵按一下**Patterns.Schemas**，然後按一下 **部署**。  
   
     > [!NOTE]
     >  此說明主題使用與中所建立的相同商務規則原則和旅[如何： 選取 使用商務規則原則路線](../esb-toolkit/how-to-select-an-itinerary-using-a-business-rules-policy.md)主題。 如果您尚未完成該區段，請完成下列額外的步驟。 如果您已經完成該區段，繼續 < 步驟 > 一節。  
   
 #### <a name="to-create-a-business-rules-engine-bre-policy-to-select-an-itinerary-using-custom-message-properties"></a>若要建立商務規則引擎 (BRE) 原則，選取 使用自訂訊息屬性路線  
   
-1.  按一下**啟動**在工作列上，指向**所有程式**，指向   **[!INCLUDE[prague](../includes/prague-md.md)]** ，然後按一下**商務規則編輯器 」**。  
+1.  按一下**啟動**在工作列上，指向**所有程式**，指向  **BizTalk Server**，然後按一下 **商務規則編輯器 」**。  
   
-2.  在 [原則總管] 中，以滑鼠右鍵按一下**原則**，然後按一下**新增原則**。 命名原則**ResolveItineraryBasedOnCustomer**。  
+2.  在 原則總管 中，以滑鼠右鍵按一下**原則**，然後按一下 **新增原則**。 命名原則**ResolveItineraryBasedOnCustomer**。  
   
 #### <a name="to-add-a-selection-rule-for-customer-globalbank-west"></a>若要加入客戶 GlobalBank 西的選取範圍規則  
   
-1.  在**ResolveItineraryBasedOnCustomer**原則，以滑鼠右鍵按一下**版本 1.0 （未儲存）**，然後按一下**新增規則**。 命名規則**SetGlobalBankWestItinerary**。  
+1.  在**ResolveItineraryBasedOnCustomer**原則，以滑鼠右鍵按一下**版本 1.0 （未儲存）**，然後按一下 **新增規則**。 命名規則**SetGlobalBankWestItinerary**。  
   
-2.  在 事實總管 中，按一下  **XML 結構描述**索引標籤上，以滑鼠右鍵按一下**結構描述**，然後按一下**瀏覽**。  
+2.  在 事實總管 中，按一下  **XML 結構描述**索引標籤上，以滑鼠右鍵按一下**結構描述**，然後按一下 **瀏覽**。  
   
 3.  在**結構描述檔案**對話方塊中，瀏覽至 C:\Projects\Microsoft.Practices.ESB\Source\Samples\DynamicResolution\Source\ESB。DynamicResolution.Schemas，選取 NAOrderDoc.xsd，，然後按一下**開啟**。  
   
@@ -204,7 +204,7 @@ ms.lasthandoff: 09/20/2017
   
 5.  在 [事實總管] 中，展開**NAOrderDoc.xsd**，然後展開**OrderDoc**。  
   
-6.  在 規則 視窗中，以滑鼠右鍵按一下**條件**，指向 **述詞**，然後按一下**等於**。  
+6.  在 規則 視窗中，以滑鼠右鍵按一下**條件**，指向 **述詞**，然後按一下 **等於**。  
   
 7.  從 [事實總管] 中，拖曳**customerName**元素**引數 1**節點下的**條件**。  
   
@@ -212,47 +212,47 @@ ms.lasthandoff: 09/20/2017
   
 9. 在 [事實總管] 中，按一下 [**詞彙**] 索引標籤。展開**ESB。行程**詞彙中，展開**1.1 版**，然後將拖曳**設定路線名稱**定義，以**動作**。  
   
-10. 按一下**\<空字串 >** ，然後輸入**GlobalBankWestItinerary**。  
+10. 按一下**\<空字串\>** ，然後輸入**GlobalBankWestItinerary**。  
   
     > [!NOTE]
     >  稍後在本使用說明主題中，您會根據 GlobalBank 西這個行程建立來處理訊息。  
   
 #### <a name="to-add-a-selection-rule-for-customer-globalbank-east"></a>若要加入客戶 GlobalBank 東部的選取範圍規則  
   
-1.  在 [原則總管] 中，以滑鼠右鍵按一下**SetGlobalBankWestItinerary**規則，，然後按一下**複製**。  
+1.  在 原則總管 中，以滑鼠右鍵按一下**SetGlobalBankWestItinerary**規則，，然後按一下 **複製**。  
   
-2.  以滑鼠右鍵按一下**版本 1.0 （未儲存）**，然後按一下**貼上**。  
+2.  以滑鼠右鍵按一下**版本 1.0 （未儲存）**，然後按一下 **貼上**。  
   
-3.  在**新規則的名稱** 對話方塊中，輸入**SetGlobalBankEastItinerary**，然後按一下**確定**。  
+3.  在**新規則的名稱**] 對話方塊中，輸入**SetGlobalBankEastItinerary**，然後按一下 [**確定**。  
   
 4.  在 原則總管 中，按一下  **SetGlobalBankEastItinerary**規則。  
   
-5.  在**條件**區段中，以滑鼠右鍵按一下**GlobalBankWest**，然後按一下**重設引數**。  
+5.  在**條件**區段中，以滑鼠右鍵按一下**GlobalBankWest**，然後按一下 **重設引數**。  
   
 6.  按一下**引數 2**，然後輸入**GlobalBankEast**。  
   
-7.  在**動作**區段中，以滑鼠右鍵按一下**GlobalBankWestItinerary**，然後按一下**重設引數**。  
+7.  在**動作**區段中，以滑鼠右鍵按一下**GlobalBankWestItinerary**，然後按一下 **重設引數**。  
   
-8.  按一下**\<空字串 >** ，然後輸入**GlobalBankEastItinerary。**  
+8.  按一下**\<空字串\>** ，然後輸入**GlobalBankEastItinerary。**  
   
     > [!NOTE]
     >  稍後在本使用說明主題中，您將從 GlobalBank 東這個行程建立來處理訊息。  
   
 #### <a name="to-publish-and-deploy-the-policy"></a>若要發行和部署原則  
   
-1.  在 [原則總管] 中，在**ResolveItineraryBasedOnCustomer**原則，按一下**版本 1.0 （未儲存）**，然後按一下**發行**。  
+1.  在 原則總管 中，在**ResolveItineraryBasedOnCustomer**原則，按一下**版本 1.0 （未儲存）**，然後按一下 **發行**。  
   
-2.  在 [原則總管] 中，在**ResolveItineraryBasedOnCustomer**原則，按一下**1.0 版-已發佈**，然後按一下**部署**。  
+2.  在 原則總管 中，在**ResolveItineraryBasedOnCustomer**原則，按一下**1.0 版-已發佈**，然後按一下 **部署**。  
   
 #### <a name="to-create-an-esb-itinerary-dsl-model-for-globalbank-west-messages"></a>若要建立 GlobalBank 西訊息 ESB 路線 DSL 模型  
   
-1.  在 **[!INCLUDE[vs2010](../includes/vs2010-md.md)]** ，開啟 C:\HowTos\Patterns\Patterns.sln。  
+1.  在**Visual Studio**，開啟 C:\HowTos\Patterns\Patterns.sln。  
   
-2.  在 [方案總管] 中，以滑鼠右鍵按一下**ItineraryLibrary**專案，指向**新增**，然後按一下**新的行程**。  
+2.  在 方案總管 中，以滑鼠右鍵按一下**ItineraryLibrary**專案，指向**新增**，然後按一下 **新的行程**。  
   
 3.  在**加入新項目**對話方塊，在 [範本] 窗格中，按一下**ItineraryDsl**。  
   
-4.  在**名稱**方塊中，輸入**GlobalBankWestItinerary**，然後按一下**新增**。  
+4.  在**名稱**方塊中，輸入**GlobalBankWestItinerary**，然後按一下 **新增**。  
   
 #### <a name="to-configure-the-properties-of-the-globalbank-west-itinerary"></a>若要設定 GlobalBank 西路線的屬性  
   
@@ -297,7 +297,7 @@ ms.lasthandoff: 09/20/2017
   
     2.  在**路線服務的擴充項**下拉式清單中，按一下 **匝道路線服務延伸模組**。  
   
-    3.  在**匝道**下拉式清單中，展開**SendNAOrder**，然後按一下**傳送處理常式**。  
+    3.  在**匝道**下拉式清單中，展開**SendNAOrder**，然後按一下 **傳送處理常式**。  
   
 4.  以滑鼠右鍵按一下**解析程式**集合**RouteMessage**模型項目，然後按一下**加入新的解析程式**。 在**Resolver1**屬性 視窗中，設定下列屬性：  
   
@@ -324,13 +324,13 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-create-an-esb-itinerary-dsl-model-for-globalbank-east-message"></a>若要建立 GlobalBank 東部訊息 ESB 路線 DSL 模型  
   
-1.  在 **[!INCLUDE[vs2010](../includes/vs2010-md.md)]** ，開啟 C:\HowTos\Patterns.sln。  
+1.  在**Visual Studio**，開啟 C:\HowTos\Patterns.sln。  
   
-2.  在 [方案總管] 中，以滑鼠右鍵按一下**ItineraryLibrary**專案，指向**新增**，然後按一下**新的行程**。  
+2.  在 方案總管 中，以滑鼠右鍵按一下**ItineraryLibrary**專案，指向**新增**，然後按一下 **新的行程**。  
   
 3.  在**加入新項目**對話方塊，在 [範本] 窗格中，按一下**ItineraryDsl**。  
   
-4.  在**名稱**方塊中，輸入**GlobalBankEastItinerary**，然後按一下**新增**。  
+4.  在**名稱**方塊中，輸入**GlobalBankEastItinerary**，然後按一下 **新增**。  
   
 #### <a name="to-configure-the-properties-of-the-globalbank-east-itinerary"></a>若要設定的 GlobalBank 東部路線屬性  
   
@@ -375,7 +375,7 @@ ms.lasthandoff: 09/20/2017
   
     2.  在**路線服務的擴充項**下拉式清單中，按一下 **匝道路線服務延伸模組**。  
   
-    3.  在**匝道**下拉式清單中，展開**SendNAOrder**，然後按一下**傳送處理常式**。  
+    3.  在**匝道**下拉式清單中，展開**SendNAOrder**，然後按一下 **傳送處理常式**。  
   
 4.  以滑鼠右鍵按一下**解析程式**集合**RouteMessage**模型項目，然後按一下**加入新的解析程式**。 在**Resolver1**屬性 視窗中，設定下列屬性：  
   
@@ -404,19 +404,19 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-create-and-configure-an-esb-on-ramp"></a>若要建立及設定 ESB 上手  
   
-1.  按一下**啟動**在工作列上，指向**所有程式**，指向   **[!INCLUDE[prague](../includes/prague-md.md)]** ，然後按一下 **BizTalk Server 管理**.  
+1.  按一下**啟動**在工作列上，指向**所有程式**，指向  **BizTalk Server**，然後按一下  **BizTalk Server 管理**。  
   
-2.  在[!INCLUDE[prague](../includes/prague-md.md)]管理主控台中，展開  **BizTalk 群組**，依序展開**應用程式**，然後展開**Microsoft.Practices.ESB**。  
+2.  在 BizTalk Server 管理主控台中，展開**BizTalk 群組**，依序展開**應用程式**，然後展開**Microsoft.Practices.ESB**。  
   
-3.  以滑鼠右鍵按一下**接收位置**，指向 **新增**，然後按一下**單向接收位置**。  
+3.  以滑鼠右鍵按一下**接收位置**，指向 **新增**，然後按一下 **單向接收位置**。  
   
-4.  在**選取接收埠**對話方塊中，按一下  **OnRamp.Itinerary**，然後按一下**確定**。  
+4.  在**選取接收埠**對話方塊中，按一下  **OnRamp.Itinerary**，然後按一下 **確定**。  
   
 5.  在**接收位置屬性**對話方塊中，於**名稱**方塊中，輸入**OnRamp.Itinerary.HowTo**。  
   
 6.  在**類型**下拉式清單中，按一下 **檔案，** ，然後按一下 **設定**。  
   
-7.  中**FILE 傳輸屬性**對話方塊中，於**接收資料夾**方塊中，輸入**C:\HowTos\DropFolder**，然後按一下**確定**。  
+7.  中**FILE 傳輸屬性**對話方塊中，於**接收資料夾**方塊中，輸入**C:\HowTos\DropFolder**，然後按一下 **確定**。  
   
 #### <a name="to-configure-the-itinerary-selector-pipeline-component"></a>若要設定路線選取器管線元件  
   
@@ -435,7 +435,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  按一下**確定**關閉**接收位置屬性** 對話方塊。  
   
-4.  在[!INCLUDE[prague](../includes/prague-md.md)]管理主控台中，以滑鼠右鍵按一下**OnRamp.Itinerary.HowTo**接收位置，然後按一下**啟用**。  
+4.  在 BizTalk Server 管理主控台中，以滑鼠右鍵按一下**OnRamp.Itinerary.HowTo**接收位置，然後按一下**啟用**。  
   
 #### <a name="to-test-the-itinerary-selector-and-business-rules"></a>若要測試的行程選取器 」 和 「 商務規則  
   
@@ -448,19 +448,19 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  雖然訊息是相同的但客戶元素的值，但它們的處理使用不同的行程，根據路線選取器管線元件的解析度。  
   
-4.  在[!INCLUDE[prague](../includes/prague-md.md)]管理主控台中，以滑鼠右鍵按一下 OnRamp.Itinerary.HowTo 接收位置，然後按一下停用。  
+4.  在 BizTalk Server 管理主控台中，以滑鼠右鍵按一下 OnRamp.Itinerary.HowTo 接收位置，然後再按一下停用。  
   
 5.  之後**OnRamp.Itinerary.HowTo**接收位置已停用，以滑鼠右鍵按一下，，然後按一下**刪除**。 在**確認刪除接收位置**對話方塊中，按一下 **是**。  
   
 ## <a name="additional-resources"></a>其他資源  
  如需詳細資訊，請參閱下列相關主題：  
   
--   [如何： 選取 使用商務規則原則路線](../esb-toolkit/how-to-select-an-itinerary-using-a-business-rules-policy.md)  
+-   [如何：使用商務規則原則選取路線](../esb-toolkit/how-to-select-an-itinerary-using-a-business-rules-policy.md)  
   
 -   [開發活動](../esb-toolkit/development-activities.md)  
   
--   [安裝及執行動態解析範例](../esb-toolkit/installing-and-running-the-dynamic-resolution-sample.md)  
+-   [安裝和執行動態解析範例](../esb-toolkit/installing-and-running-the-dynamic-resolution-sample.md)  
   
 -   [使用動態解析和路由](../esb-toolkit/using-dynamic-resolution-and-routing.md)  
   
--   [訊息的路由模式](../esb-toolkit/message-routing-patterns.md)
+-   [訊息路由模式](../esb-toolkit/message-routing-patterns.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "20"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f2216116e00e587d8da0d69cea8cd1c364e5786b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 688c4a192a77dbc01de438c20be709dc4b3c378c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="insert-update-delete-or-select-operations-using-biztalk-server-with-the-sql-adapter"></a>插入、 更新、 刪除或選取 使用 SQL 配接器的 BizTalk Server 作業
 [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]呈現一組 SQL Server 資料庫資料表和檢視表的標準作業。 這些稱為資料操作語言 (DML) 作業。 藉由使用 DML 作業，您可以執行簡單的 Insert、 Update、 Select、 及刪除資料表和檢視表上的作業。 如需配接器如何支援這些作業的詳細資訊，請參閱[Insert、 Update、 Delete 和選取資料表和檢視表與 SQL 配接器的作業](../../adapters-and-accelerators/adapter-sql/insert-update-delete-and-select-on-tables-and-views-with-the-sql-adapter.md)。 這些作業的 SOAP 訊息結構的相關資訊，請參閱[Insert、 Update、 Delete 和資料表和檢視表的選取作業的訊息結構描述](../../adapters-and-accelerators/adapter-sql/message-schemas-for-insert-update-delete-and-select-on-tables-and-views.md)。  
@@ -168,7 +168,7 @@ ms.lasthandoff: 09/20/2017
  協調流程取用訊息，並將它傳送到 SQL Server 資料庫。 從 SQL Server 資料庫的回應會儲存在其他的協調流程中定義的檔案位置。 比方說，是從先前的要求訊息的 SQL Server 資料庫的回應：  
   
 ```  
-\<?xml version="1.0" encoding="utf-8" ?>   
+<?xml version="1.0" encoding="utf-8" ?>   
 <SelectResponse xmlns="mssql://Microsoft.LobServices.Sql/2008/01/TVOp/dbo/Employee">  
   <SelectResult>  
     <Employee xmlns="mssql://Microsoft.LobServices.Sql/2008/01/Types/Tables/dbo">  
@@ -192,5 +192,5 @@ ms.lasthandoff: 09/20/2017
   
 -   如果您要插入、 更新或刪除大量資料進行確定您正確逾時值的 WCF 配接器和設定 MSDTC 交易。 如需詳細資訊，請參閱 「 配接器無法插入、 更新或刪除大型使用 BizTalk Server 在單一作業中的資料磁碟區 」 中的問題[疑難排解操作問題 SQL 配接器](../../adapters-and-accelerators/adapter-sql/troubleshoot-operational-issues-with-the-sql-adapter.md)。  
   
-## <a name="see-also"></a>另請參閱  
-[開發 BizTalk 應用程式使用 SQL 配接器](../../adapters-and-accelerators/adapter-sql/develop-biztalk-applications-using-the-sql-adapter.md)
+## <a name="see-also"></a>請參閱  
+[使用 SQL 配接器開發 BizTalk 應用程式](../../adapters-and-accelerators/adapter-sql/develop-biztalk-applications-using-the-sql-adapter.md)

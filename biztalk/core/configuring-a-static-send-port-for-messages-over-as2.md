@@ -12,11 +12,11 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 15f491077d6c6d09958fb5aa5f1af8f432537514
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 068b7d8295710157af7a8a7358768e85e006beb8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="configuring-a-static-send-port-for-messages-over-as2"></a>為透過 AS2 的訊息設定靜態傳送埠
 本主題將說明如何設定讓 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 透過靜態傳送埠傳送 AS2 訊息。 這項設定包括建立靜態傳送埠和設定協議。 如有需要，您還會設定傳送埠使用的加密憑證。  
@@ -34,7 +34,7 @@ ms.lasthandoff: 09/20/2017
 |**傳送埠屬性： 一般**|傳送管線|-AS2EdiSend （用於 EDI 編碼訊息）<br /><br /> -AS2Send （用於非 EDI 訊息）|  
 |**傳送埠屬性： 一般**|接收處理常式<br /><br /> (如果在 要求 MDN**通知 (Mdn)**選取頁面的單向協議索引標籤)|BizTalkServerApplication|  
 |**傳送埠屬性： 一般**|接收管線<br /><br /> (如果在 要求 MDN**通知 (Mdn)**選取頁面的單向協議索引標籤)|AS2Receive|  
-|**HTTP 傳輸屬性**|目的地 URL|\<目的地 URL 字串 >|  
+|**HTTP 傳輸屬性**|目的地 URL|\<目的地 URL 字串\>|  
 |**HTTP 傳輸屬性**|啟用區塊編碼|已清除|  
 |**傳送埠屬性： 篩選**|屬性|BTS.MessageType<br /><br /> 注意：<br /><br /> 您可以使用各種不同的篩選條件運算式，包括使用 BTS.ReceivePortName。<br /><br /> 注意：<br /><br /> 針對非 EDI 訊息，您將需要篩選不同的屬性|  
 |**傳送埠屬性： 篩選**|運算子|==|  
@@ -76,7 +76,7 @@ ms.lasthandoff: 09/20/2017
   
 -   接收訊息或通知的 MDN 回應 (如果已啟用)。 如需此程序的詳細資訊，請參閱[處理內送 MDN](../core/processing-an-incoming-mdn.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [設定 AS2 方案的連接埠](../core/configuring-ports-for-an-as2-solution.md)   
  [產生外寄 AS2 訊息](../core/generating-an-outgoing-as2-message.md)   
  [處理內送 MDN](../core/processing-an-incoming-mdn.md)

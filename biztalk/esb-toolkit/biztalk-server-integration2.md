@@ -12,14 +12,14 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c550e9953332458fd79f4a3f6b7e29bece9fa127
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c47976873fcdd4efbb63bbceca653802cb8b9962
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="biztalk-server-integration"></a>BizTalk Server 整合
-AmberPoint 封裝做為自訂 BizTalk 管線元件的 Microsoft BizTalk Server 整合產品。 您可以將此元件加入至您現有的自訂管線，使用[!INCLUDE[vs2010](../includes/vs2010-md.md)]，如圖 1 所示。  
+AmberPoint 封裝做為自訂 BizTalk 管線元件的 Microsoft BizTalk Server 整合產品。 圖 1 所示，您可以加入至您現有的自訂管線，使用 Visual Studio 中，此元件。  
   
  ![VisualStudio 管線](../esb-toolkit/media/ch9-visualstudiopipeline.jpg "Ch9 VisualStudioPipeline")  
   
@@ -36,4 +36,4 @@ AmberPoint 封裝做為自訂 BizTalk 管線元件的 Microsoft BizTalk Server �
  **繫結 AmberPoint 接收配接器的管線**  
   
 > [!NOTE]
->  AmberPoint SOA 管理系統 (SMS) 產品是來自與整合的 AmberPoint，Inc.的產品[!INCLUDE[prague](../includes/prague-md.md)]。 AmberPoint 和其 SOA 控管產品相關的詳細資訊，請參閱[AmberPoint](http://go.microsoft.com/fwlink/?LinkId=188561)網站。
+>  AmberPoint SOA 管理系統 (SMS) 產品是從與 BizTalk Server 整合的 AmberPoint，Inc.的產品。 AmberPoint 和其 SOA 控管產品相關的詳細資訊，請參閱[AmberPoint](http://go.microsoft.com/fwlink/?LinkId=188561)網站。

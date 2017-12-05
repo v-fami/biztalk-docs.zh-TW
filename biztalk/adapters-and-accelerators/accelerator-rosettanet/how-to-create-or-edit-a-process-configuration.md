@@ -19,11 +19,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e4c9c9be5e9f3361683e495febbd98a05156399d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c011183c6ba34c9614d1e642916264224def546e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-create-or-edit-a-process-configuration"></a>如何建立或編輯程序組態
 本主題描述如何建立或編輯程序組態。  
@@ -93,12 +93,12 @@ ms.lasthandoff: 09/20/2017
   
 4.  以滑鼠右鍵按一下您想要編輯，然後按一下 程序組態**屬性**。  
   
-5.  在*\<程序組態 >*屬性對話方塊中，於**一般**和**連絡人屬性**索引標籤上，變更所需的設定。 如需有關這些設定的詳細資訊，請參閱上表。  
+5.  在*\<程序組態\>*屬性對話方塊中，於**一般**和**連絡人屬性**索引標籤中，變更的設定必要項。 如需有關這些設定的詳細資訊，請參閱上表。  
   
 6.  按一下 **[確定]**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [使用 PIP 規格建立程序組態](../../adapters-and-accelerators/accelerator-rosettanet/using-the-pip-specification-to-create-a-process-configuration.md)   
  [授權與不可否認性屬性](../../adapters-and-accelerators/accelerator-rosettanet/authorization-and-non-repudiation-properties.md)   
  [設定 CIDX eStandards 訊息交換](../../adapters-and-accelerators/accelerator-rosettanet/setting-up-cidx-estandards-message-exchange.md)   
- [管理 BTARN 組態](../../adapters-and-accelerators/accelerator-rosettanet/administering-the-btarn-configuration.md)
+ [管理 BTARN 設定](../../adapters-and-accelerators/accelerator-rosettanet/administering-the-btarn-configuration.md)

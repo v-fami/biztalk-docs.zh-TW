@@ -16,14 +16,14 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 40ac6defd3b0cf99d2f0e53b3173b32e09efa0c8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 33f06c896b58b2ba57c8c1bcee598d23f81b7700
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-messages-flow-through-btahl7"></a>訊息如何流經 BTAHL7
-當您安裝[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 上方的[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]，您將加入[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]元件[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]架構。 下圖顯示合併的系統提供的架構概觀[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]。  
+當您安裝[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 上方的[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]加入 BizTalk Server[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]元件[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]架構。 下圖顯示合併的系統提供的架構概觀[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]。  
   
  ![](../../adapters-and-accelerators/accelerator-hl7/media/bcd-hl7-sys-archc.gif "bcd_hl7_sys_archc")  
   
@@ -76,5 +76,5 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  您可以針對數目的介面卡; 傳輸 2.X 訊息和 2.XML 訊息不過，大部分系統傳輸 2.X 訊息透過 MLLP 配接器和 2.XML 訊息透過 HTTP 配接器。  
   
-## <a name="see-also"></a>另請參閱  
- [BTAHL7 將訊息路由](../../adapters-and-accelerators/accelerator-hl7/how-btahl7-routes-messages.md)
+## <a name="see-also"></a>請參閱  
+ [BTAHL7 如何路由傳送訊息](../../adapters-and-accelerators/accelerator-hl7/how-btahl7-routes-messages.md)

@@ -15,11 +15,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f332e11aef32285fff84f0fe5f65834b1b20fc04
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8aab14799076d3f774130b357ab90c5ed5335f4a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-2-configure-a-wcf-custom-one-way-send-port"></a>步驟 2： 設定 Wcf-custom 單向傳送埠
 ![步驟 3 之 2](../../adapters-and-accelerators/adapter-oracle-database/media/step-2of3.gif "Step_2of3")  
@@ -69,7 +69,7 @@ ms.lasthandoff: 09/20/2017
   
         ```  
         <SendIdoc xmlns="http://Microsoft.LobServices.Sap/2007/03/Idoc/">  
-        <idocData>\<bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="string"/></idocData>  
+        <idocData><bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="string"/></idocData>  
         </SendIdoc>  
         ```  
   
@@ -104,5 +104,5 @@ ms.lasthandoff: 09/20/2017
 ## <a name="next-steps"></a>後續步驟  
  您現在已完成的 vPrev BizTalk 專案，以傳送 Idoc 到 SAP 系統使用 WCF 為基礎的 BizTalk 專案移轉[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]。 您必須現在測試已移轉的 BizTalk 應用程式傳送一般檔案 IDOC 中, 所述[步驟 3： 測試移轉應用程式](../../adapters-and-accelerators/adapter-sap/step-3-test-the-migrated-application2.md)。  
   
-## <a name="see-also"></a>另請參閱  
- [教學課程 3： 移轉 SAP 傳送 IDOC BizTalk 專案](../../adapters-and-accelerators/adapter-sap/tutorial-3-migrating-an-sap-send-idoc-biztalk-project.md)
+## <a name="see-also"></a>請參閱  
+ [教學課程 3：移轉 SAP 傳送 IDOC BizTalk 專案](../../adapters-and-accelerators/adapter-sap/tutorial-3-migrating-an-sap-send-idoc-biztalk-project.md)

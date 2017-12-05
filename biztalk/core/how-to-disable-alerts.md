@@ -16,11 +16,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0252fc98cdf792626094ffee75fae95c1cab3b00
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4279030b9c3bcc7913bf64cc870b0d82d618dff8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-disable-alerts"></a>如何停用警示
 系統管理員使用**停用警示**命令以停用所有指定之檢視上的警示。  
@@ -31,14 +31,14 @@ ms.lasthandoff: 09/20/2017
   
 2.  在命令提示字元中，輸入 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking，以瀏覽至追蹤資料夾。 按 ENTER 鍵。  
   
-3.  型別**bm 停用警示的檢視：\<檢視名稱 >**。  
+3.  型別**bm 停用警示的檢視：\<檢視名稱\>**。  
   
     > [!NOTE]
     >  如果您匯出 BAM 組態 xml，不會修改與警示相關的 XML。 如果您變更與警示相關的 XML，且又部署變更，bm.exe 將會偵測到該變更並啟用 BAM 警示。  
   
 4.  按 ENTER 鍵。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理 BAM 動態基礎結構](../core/managing-the-bam-dynamic-infrastructure.md)   
  [BAM 管理公用程式](../core/bam-management-utility.md)   
  [如何啟用警示](../core/how-to-enable-alerts.md)

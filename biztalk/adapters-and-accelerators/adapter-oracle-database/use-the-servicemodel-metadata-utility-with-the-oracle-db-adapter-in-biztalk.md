@@ -13,11 +13,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 143fefc3a35f70e08a9e1288cc019fe6561c2bb1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9dfbdbd60333a2e5683b4f37a65edb928a451e46
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="using-the-servicemodel-metadata-utility-tool-with-the-biztalk-adapter-for-oracle-database"></a>ServiceModel 中繼資料公用程式工具與 BizTalk Adapter 用於 Oracle 資料庫
 您可以使用 ServiceModel Metadata Utility Tool (svcutil.exe) 來產生 WCF 用戶端類別或作業的 WCF 服務合約 （介面），[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]公開。 執行 svcutil.exe 產生 WCF 用戶端類別或 WCF 服務合約之後，在您的程式碼中包含所產生的檔案並建立產生之類別的執行個體或實作在 Oracle 上執行作業的合約的 WCF 服務資料庫。  
@@ -40,9 +40,9 @@ ms.lasthandoff: 09/20/2017
   
     ```  
     <configuration>  
-      \<system.serviceModel>  
+      <system.serviceModel>  
         <client>  
-          \<!-- the name should match the required scheme of the WS-Metadata Exchange endpoint   
+          <!-- the name should match the required scheme of the WS-Metadata Exchange endpoint   
           and the contract should be "IMetadataExchange" -->  
           <endpoint name="oracledb"  
                     binding="oracleDBBinding"  
@@ -55,7 +55,7 @@ ms.lasthandoff: 09/20/2017
             </oracleDBBinding>  
         </bindings>  
   
-      \</system.serviceModel>  
+      </system.serviceModel>  
   
     </configuration>  
     ```  
@@ -112,5 +112,5 @@ ms.lasthandoff: 09/20/2017
   
  [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]提供進階的瀏覽和搜尋功能，可大幅簡化產生 WCF 用戶端類別和 WCF 服務合約。 如需有關[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]，請參閱[產生的 Oracle 資料庫方案成品 WCF 用戶端或 WCF 服務合約](../../adapters-and-accelerators/adapter-oracle-database/create-a-wcf-client-or-wcf-service-contract-for-oracle-db-solution-artifacts.md)。  
   
-## <a name="see-also"></a>另請參閱  
- [訊息和訊息結構描述，BizTalk adapter for Oracle 資料庫](../../adapters-and-accelerators/adapter-oracle-database/messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md)
+## <a name="see-also"></a>請參閱  
+ [BizTalk Adapter for Oracle Database 的訊息和訊息結構描述](../../adapters-and-accelerators/adapter-oracle-database/messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md)

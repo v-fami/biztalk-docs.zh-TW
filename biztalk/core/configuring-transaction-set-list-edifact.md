@@ -12,14 +12,14 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7f6b4d9a5aae6c8758d3a6d4f46d18f9a820fabd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a95feac48f7cb5137e95a34bf46c38811bb75c51
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="configuring-transaction-set-list-edifact"></a>設定交易集清單 (EDIFACT)
-[!INCLUDE[prague](../includes/prague-md.md)] 可讓您定義在處理 EDI 交換時要一律包括或排除的交易集清單。 本節提供如何建立交易集清單的指示。  
+BizTalk Server 可讓您定義一律必須包含或排除在處理 EDI 交換的交易集的清單。 本節提供如何建立交易集清單的指示。  
   
 > [!IMPORTANT]
 >  任何屬性已停用此頁面上即使您清除**本機 BizTalk 會處理合作對象或支援此合作對象傳送訊息所收到的訊息**時建立您要為其建立的合作對象 核取方塊協議。  
@@ -49,5 +49,5 @@ ms.lasthandoff: 09/20/2017
   
 7.  按一下**套用**繼續進行組態之前接受變更，或按一下**確定**來驗證變更，然後關閉對話方塊。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [設定交易集設定 (EDIFACT)](../core/configuring-transaction-set-settings-edifact.md)

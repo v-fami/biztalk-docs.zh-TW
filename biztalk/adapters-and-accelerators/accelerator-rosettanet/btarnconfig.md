@@ -17,17 +17,17 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9221e530266091795260bc7d4fd7e8788e066335
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 78ab62a86e97bf70e07629052a850b5aea2cee27
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="btarnconfig"></a>BtarnConfig
 您可使用 BtarnConfig 公用程式將組態資料匯入 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 環境，或是從此環境匯出組態資料。 組態資料便是使用 BTARN 管理主控台設定的資料，其中包括有程序組態設定、主要組織、夥伴和協議。  
   
 ## <a name="location-in-sdk"></a>SDK 中的位置  
- \<*磁碟機*> \ Program Files\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk\<版本 > Accelerator for RosettaNet\SDK  
+ \<*磁碟機*\>\ Program Files\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk\<版本\>Accelerator for RosettaNet\SDK  
   
 ## <a name="running-btarnconfig"></a>執行 BtarnConfig  
   
@@ -35,7 +35,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  開啟命令提示字元。  
   
-2.  移至\<*磁碟機*> \ Program Files\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk\<版本 > Accelerator for RosettaNet\SDK\\。  
+2.  移至\<*磁碟機*\>\ Program Files\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk\<版本\>Accelerator for RosettaNet\SDK\\。  
   
 3.  在命令提示字元中，輸入**BtarnConfig**，輸入適當的參數，然後按 ENTER 鍵。  
   
@@ -62,9 +62,9 @@ BTARNCONFIG /EXPORT <filename>.xml [/H] [/P] [/R] [/A]
   
 |語法|Description|  
 |------------|-----------------|  
-|\<*檔名*.xml >|匯入或匯出檔案的來源或目的地的完整路徑。 如果您未提供路徑，BTARN 會假設路徑\<*磁碟機*> \ Program Files\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk\<版本 > Accelerator for RosettaNet\SDK。|  
-|**/ 匯入**|匯入 XML 資料從\< *filename*.xml > 入 BTARN 組態。|  
-|**/ 匯出**|將 BTARN 組態匯出為 XML 資料轉換成\< *filename*.xml >。|  
+|\<*檔名*.xml\>|匯入或匯出檔案的來源或目的地的完整路徑。 如果您未提供路徑，BTARN 會假設路徑\<*磁碟機*\>\ Program Files\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk\<版本\>Accelerator for RosettaNet\SDK。|  
+|**/ 匯入**|匯入 XML 資料從\< *filename*.xml\>入 BTARN 組態。|  
+|**/ 匯出**|將 BTARN 組態匯出為 XML 資料轉換成\< *filename*.xml\>。|  
 |**/H**|匯入或匯出主要組織的組態資料。|  
 |**/ P**|匯入或匯出交易夥伴的組態資料。|  
 |**/R**|匯入或匯出程序的組態資料。|  
@@ -77,5 +77,5 @@ BTARNCONFIG /EXPORT <filename>.xml [/H] [/P] [/R] [/A]
   
  您必須是 BizTalk 系統管理員，才能使用 BtarnConfig 進行組態資料的匯入或匯出作業。 如果您不是 BizTalk 系統管理員，某些匯入作業會因為存取權限的問題而失敗。 但是，其他以相同 BtarnConfig 命令進行的匯入作業則有可能會成功。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [公用程式](../../adapters-and-accelerators/accelerator-rosettanet/utilities1.md)

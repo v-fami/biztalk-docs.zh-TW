@@ -13,11 +13,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 140022c6ebe197d1b0210d732b623d62d2903cd8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4f14a199e3422a45235727d2d16fc1464e2e4927
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="disassemble-inbound-batches"></a>反組譯輸入批次
 
@@ -133,8 +133,8 @@ $
     > [!NOTE]
     >  只有在啟用片段時，這些組態屬性是有效 (**片段**設**True**)。 停用片段時，解譯器發行整個批次，完全相同複本中的原生格式，到 MessageBox 資料庫，以便保留設定無關 (*一切*保留)。  
   
- 如需有關每個組態屬性，以及其他使用方式和組態資訊，請參閱[SWIFT 解譯器組態屬性](../../adapters-and-accelerators/accelerator-swift/swift-disassembler-configuration-properties.md)。 如需 MessageBox 資料庫發行和多部分訊息的詳細資訊，請參閱[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]幫助。  
+ 如需有關每個組態屬性，以及其他使用方式和組態資訊，請參閱[SWIFT 解譯器組態屬性](../../adapters-and-accelerators/accelerator-swift/swift-disassembler-configuration-properties.md)。 如需 MessageBox 資料庫發行和多部分訊息的詳細資訊，請參閱 BizTalk Server 說明。  
   
 ## <a name="next-step"></a>下一步
   
-[批次相關升級的屬性](batch-related-promoted-properties.md)
+[批次相關升級屬性](batch-related-promoted-properties.md)

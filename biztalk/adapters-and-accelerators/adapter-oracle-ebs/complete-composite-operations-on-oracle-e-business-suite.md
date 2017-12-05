@@ -12,11 +12,11 @@ caps.latest.revision: "16"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f2dd906105f4bd028867e4588d7c075b56253ab9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f6e53179e82e7f41f264401b5ebf1c9c022e9727
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="complete-composite-operations-on-oracle-e-business-suite"></a>完成 Oracle E-business suite 複合操作
 [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]可讓配接器執行複合操作 Oracle 資料庫上的用戶端。 複合作業可包括：  
@@ -78,7 +78,7 @@ ms.lasthandoff: 09/20/2017
   
      若要加入的參考：  
   
-    1.  以滑鼠右鍵按一下根**\<結構描述 >**中 CompositeSchema.xsd，按一下節點**屬性**。  
+    1.  以滑鼠右鍵按一下根**\<結構描述\>**中 CompositeSchema.xsd，按一下節點**屬性**。  
   
     2.  在**屬性**方塊中，按一下省略符號按鈕**（...）**針對**匯入**屬性。  
   
@@ -97,9 +97,9 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  根據預設，**根**節點也會加入至新的結構描述檔案。 您可以重新命名**根**節點**要求**。 若要重新命名的節點，以滑鼠右鍵按一下節點名稱，然後按一下**重新命名**。  
   
-     若要加入的節點下**\<結構描述 >**節點：  
+     若要加入的節點下**\<結構描述\>**節點：  
   
-    1.  以滑鼠右鍵按一下**\<結構描述 >**節點，指向**插入結構描述節點**，然後按一下**子記錄**。  
+    1.  以滑鼠右鍵按一下**\<結構描述\>**節點，指向**插入結構描述節點**，然後按一下**子記錄**。  
   
     2.  重新命名新的節點**RequestResponse**。  
   
@@ -292,34 +292,34 @@ ms.lasthandoff: 09/20/2017
  協調流程取用訊息，並將它傳送到 Oracle 資料庫。 從 Oracle 資料庫的回應會儲存在其他的協調流程中定義的檔案位置。 例如，從先前的要求訊息的 Oracle 資料庫回應如下所示：  
   
 ```  
-\<?xml version="1.0" encoding="utf-8" ?>   
+<?xml version="1.0" encoding="utf-8" ?>   
 <RequestResponse xmlns="http://Composite_Op.CompositeSchema">  
   <InsertResponse xmlns="http://schemas.microsoft.com/OracleEBS/2008/05/Tables/SCOTT/ACCOUNTACTIVITY">  
     <InsertResult>1</InsertResult>   
   </InsertResponse>  
   <GET_ALL_ACTIVITYResponse xmlns="http://schemas.microsoft.com/OracleEBS/2008/05/PackageApis/SCOTT/ACCOUNT_PKG">  
     <ALLRECS>  
-      \<xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
-        \<xs:element msdata:IsDataSet="true" name="NewDataSet">  
-          \<xs:complexType>  
-            \<xs:sequence>  
-              \<xs:element minOccurs="0" maxOccurs="unbounded" name="NewTable">  
-                \<xs:complexType>  
-                  \<xs:sequence>  
-                    \<xs:element minOccurs="0" name="TID" type="xs:decimal" />   
-                    \<xs:element minOccurs="0" name="ACCOUNT" type="xs:decimal" />   
-                    \<xs:element minOccurs="0" name="AMOUNT" type="xs:decimal" />   
-                    \<xs:element minOccurs="0" name="DESCRIPTION" type="xs:string" />   
-                    \<xs:element minOccurs="0" name="TRANSDATE" type="xs:dateTime" />   
-                    \<xs:element minOccurs="0" name="PROCESSED" type="xs:string" />   
-                  \</xs:sequence>  
-                \</xs:complexType>  
-              \</xs:element>  
-            \</xs:sequence>  
-          \</xs:complexType>  
-        \</xs:element>  
-      \</xs:schema>  
-      \<diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">  
+      <xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
+        <xs:element msdata:IsDataSet="true" name="NewDataSet">  
+          <xs:complexType>  
+            <xs:sequence>  
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="NewTable">  
+                <xs:complexType>  
+                  <xs:sequence>  
+                    <xs:element minOccurs="0" name="TID" type="xs:decimal" />   
+                    <xs:element minOccurs="0" name="ACCOUNT" type="xs:decimal" />   
+                    <xs:element minOccurs="0" name="AMOUNT" type="xs:decimal" />   
+                    <xs:element minOccurs="0" name="DESCRIPTION" type="xs:string" />   
+                    <xs:element minOccurs="0" name="TRANSDATE" type="xs:dateTime" />   
+                    <xs:element minOccurs="0" name="PROCESSED" type="xs:string" />   
+                  </xs:sequence>  
+                </xs:complexType>  
+              </xs:element>  
+            </xs:sequence>  
+          </xs:complexType>  
+        </xs:element>  
+      </xs:schema>  
+      <diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">  
         <NewDataSet xmlns="">  
           <NewTable>  
             ......   
@@ -335,7 +335,7 @@ ms.lasthandoff: 09/20/2017
             <PROCESSED>n</PROCESSED>   
           </NewTable>  
         </NewDataSet>  
-      \</diffgr:diffgram>  
+      </diffgr:diffgram>  
     </ALLRECS>  
   </GET_ALL_ACTIVITYResponse>  
   <DeleteResponse xmlns="http://schemas.microsoft.com/OracleEBS/2008/05/Tables/SCOTT/ACCOUNTACTIVITY">  
@@ -357,5 +357,5 @@ ms.lasthandoff: 09/20/2017
 ## <a name="best-practices"></a>最佳作法  
  您部署和設定 BizTalk 專案之後，您可以為 XML 檔案，稱為繫結檔案匯出組態設定。 一旦產生繫結檔案時，可以組態設定匯入檔案，使您不需要建立項目，例如傳送埠和接收相同的協調流程連接埠。 如需繫結檔案的詳細資訊，請參閱[重複使用配接器繫結與 Oracle E-business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/reuse-adapter-bindings-with-oracle-e-business-suite.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [開發 BizTalk 應用程式使用 Oracle E-business Suite 配接器](../../adapters-and-accelerators/adapter-oracle-ebs/develop-biztalk-applications-using-the-oracle-e-business-suite-adapter.md)

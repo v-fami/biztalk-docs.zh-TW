@@ -17,11 +17,11 @@ caps.latest.revision: "23"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 26b9cbc21eb93cad52a421b7df0912a37708978c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e3f78297b57dc2c9bc61d5996c49f7543ac64163
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="bam-api-from-an-orchestration-expression-biztalk-server-sample"></a>BAM API，從協調流程運算式 （BizTalk Server 範例）
 這個範例會示範如何：  
@@ -33,7 +33,7 @@ ms.lasthandoff: 09/20/2017
 -   建立追蹤使用追蹤設定檔的 BAM 資料之間的關聯性，並使用 BAM API 追蹤 BAM 資料。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- 您可以找到此範例位於*\<範例路徑 >*\BAM\BamFromExpression。  
+ 您可以找到此範例位於*\<範例路徑\>*\BAM\BamFromExpression。  
   
  下表列出此範例中的檔案，並描述其用途。  
   
@@ -56,7 +56,7 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-create-the-tracking-profile"></a>若要建立追蹤設定檔  
   
-1.  開啟命令提示字元並執行*\<範例路徑 >*\BAM\BAMFromExpression\Setup.bat。 如果您使用[!INCLUDE[btsWinVista](../includes/btswinvista-md.md)]或[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]，開啟命令提示字元，以系統管理員身分。 Setup.bat 會初始化此範例中，BAM 基礎結構，並將部署 BAM 活動。  
+1.  開啟命令提示字元並執行*\<範例路徑\>*\BAM\BAMFromExpression\Setup.bat。 如果您使用[!INCLUDE[btsWinVista](../includes/btswinvista-md.md)]或[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]，開啟命令提示字元，以系統管理員身分。 Setup.bat 會初始化此範例中，BAM 基礎結構，並將部署 BAM 活動。  
   
 2.  按一下**啟動**，指向 **所有程式**，指向  [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]，然後按一下 **追蹤設定檔編輯器**。 如果您使用[!INCLUDE[btsWinVista](../includes/btswinvista-md.md)]或[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]，以滑鼠右鍵按一下**追蹤設定檔編輯器**，然後按一下 **系統管理員身分執行**。  
   
@@ -72,7 +72,7 @@ ms.lasthandoff: 09/20/2017
   
 8.  以滑鼠右鍵按一下**Receive_1**圖形，，然後按一下**訊息內容結構描述**。  
   
-9. 展開**\<結構描述 >**，依序展開**PurchaseOrder**，依序展開**從**，然後將拖曳**PoID** 右窗格中**ActivityID**的左窗格中。  
+9. 展開**\<結構描述\>**，依序展開**PurchaseOrder**，依序展開**從**，然後將拖曳**PoID**方窗格**ActivityID**的左窗格中。  
   
 10. 從右窗格中，將下列項目，並將它們放置到左窗格中的具名節點：  
   
@@ -90,7 +90,7 @@ ms.lasthandoff: 09/20/2017
   
 13. 拖曳**[send_1]**右窗格中的圖形**傳送**的左窗格中。  
   
-14. 儲存追蹤設定檔來*\<範例路徑 >*\BAM\BamFromExpression\ BamFromExpression.btt。  
+14. 儲存追蹤設定檔來*\<範例路徑\>*\BAM\BamFromExpression\ BamFromExpression.btt。  
   
 15. 在**工具**功能表上，按一下 **套用追蹤設定檔**。  
   
@@ -100,9 +100,9 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-run-this-sample"></a>執行此範例  
   
--   將檔案複製*\<範例路徑 >*至 \BamFromExpression\InputMessage.xml *\<範例路徑 >*\BamFromExpression\Input。  
+-   將檔案複製*\<範例路徑\>*至 \BamFromExpression\InputMessage.xml *\<範例路徑\>*\BamFromExpression\Input。  
   
-     在 10 秒內的輸出訊息會出現在*\<範例路徑 >*\BamFromExpression\Output。  
+     在 10 秒內的輸出訊息會出現在*\<範例路徑\>*\BamFromExpression\Output。  
   
 #### <a name="to-view-the-bam-data"></a>若要檢視 BAM 資料  
   
@@ -110,24 +110,24 @@ ms.lasthandoff: 09/20/2017
   
 2.  在 SQL Server Management Studio，展開伺服器，展開 **資料庫**，依序展開**BAMPrimaryImport**，然後展開**資料表**。  
   
-3.  以滑鼠右鍵按一下**dbo.bam_fromexpressionpo_completed**，然後按一下 **開啟資料表**。 如果您使用[!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)]，按一下 **選取前 1000 個資料列**。  
+3.  以滑鼠右鍵按一下**dbo.bam_fromexpressionpo_completed**，然後按一下 **開啟資料表**。 如果您使用 SQL Server，請按一下**選取前 1000 個資料列**。  
   
      bam_FromExpressionPo_Completed 資料表的內容會顯示在右窗格中。 有一個資料列 (活動識別碼為 123) 代表輸入訊息中所含價值 $345 的訂單。  
   
-4.  以滑鼠右鍵按一下**dbo.bam_FromExpressionPoItem_Completed**，然後按一下 **開啟資料表**。 如果您使用[!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)]，按一下 **選取前 1000 個資料列**。  
+4.  以滑鼠右鍵按一下**dbo.bam_FromExpressionPoItem_Completed**，然後按一下 **開啟資料表**。 如果您使用 SQL Server，請按一下**選取前 1000 個資料列**。  
   
      Bam_FromExpressionPoItem_Completed 資料表的內容會顯示在右窗格中。 兩個資料列有活動識別碼 123_0 和 123_1，代表訂單中的項目： Flash MC 和紅外線解碼器。  
   
-5.  以滑鼠右鍵按一下**dbo.bam_FromExpressionPoItem_CompletedRelationships**，然後按一下 **開啟資料表**。 如果您使用[!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)]，按一下 **選取前 1000 個資料列**。  
+5.  以滑鼠右鍵按一下**dbo.bam_FromExpressionPoItem_CompletedRelationships**，然後按一下 **開啟資料表**。 如果您使用 SQL Server，請按一下**選取前 1000 個資料列**。  
   
      Bam_FromExpressionPoItem_CompletedRelationships 資料表的內容會顯示在右窗格中。 資料表中的每個資料列都代表 FromExpressionPoItem 活動 FromExpressionPo 活動之間的關聯性。 中的值**ActivityID** FromExpressionPoItem 活動的活動識別碼的參考資料行。 中的值**ReferenceData** FromExpressionPo 活動的活動識別碼的參考資料行。 在此情況下，兩個記錄會指出快閃 MC 和紅外線解碼器的項目相關聯價值 $345 的訂單。  
   
 #### <a name="to-re-run-the-sample"></a>若要重新執行範例  
   
-1.  開啟命令提示字元並執行*\<範例路徑 >*\BAM\BamFromExpression\Cleanup.bat 移除追蹤設定檔和其他 BAM 基礎結構。 如果您使用[!INCLUDE[btsWinVista](../includes/btswinvista-md.md)]或[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]，開啟命令提示字元，以系統管理員身分。  
+1.  開啟命令提示字元並執行*\<範例路徑\>*\BAM\BamFromExpression\Cleanup.bat 移除追蹤設定檔和其他 BAM 基礎結構。 如果您使用[!INCLUDE[btsWinVista](../includes/btswinvista-md.md)]或[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]，開啟命令提示字元，以系統管理員身分。  
   
-2.  執行*\<範例路徑 >*\BAM\BamFromExpression\Setup.bat 編譯範例，並將它部署。  
+2.  執行*\<範例路徑\>*\BAM\BamFromExpression\Setup.bat 編譯範例，並將它部署。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [商務活動監控 （BizTalk Server 範例資料夾）](../core/business-activity-monitoring-biztalk-server-samples-folder.md)   
  [活動關係](../core/activity-relationships.md)

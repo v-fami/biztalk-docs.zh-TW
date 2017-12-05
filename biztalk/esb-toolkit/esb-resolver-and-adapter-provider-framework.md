@@ -12,14 +12,14 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0cd96da053bad370d635c804df41badf10a7c154
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c23fa8aca6def654b594d8b4fccf5d584e12fed4
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="esb-resolver-and-adapter-provider-framework"></a>ESB 解析器和配接器提供者架構
-解析器和配接器提供者架構提供完整、 可插式架構以動態方式解決端點資訊和[!INCLUDE[prague](../includes/prague-md.md)]對應型別。 它會使用可延伸的元件，可讓開發人員若要變更行為，以符合自己的需求，並擴充以支援替代的解決方式和路由方法的機制。  
+解析器和配接器提供者架構提供完整、 可插式架構以動態方式解決端點資訊和 BizTalk Server 對應型別。 它會使用可延伸的元件，可讓開發人員若要變更行為，以符合自己的需求，並擴充以支援替代的解決方式和路由方法的機制。  
   
  解析器和配接器提供者架構提供支援通用描述、 探索與整合 (UDDI)、 商務規則引擎 (BRE) 和 XML 路徑語言 (XPath)。 它也會讓開發人員介面 (**IResolveProvider**和**IAdapterProvider**) 以允許建立自訂的解析器和配接器元件。 以下是解析器和配接器提供者架構的三個主要元件：  
   

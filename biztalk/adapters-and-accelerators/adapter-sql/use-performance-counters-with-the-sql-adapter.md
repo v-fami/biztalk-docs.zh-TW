@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6752a9f379cf8739e67420e1acb971959e6850d4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8f81189e34346d377686dac79b44e5a9b34889dc
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="use-performance-counters-with-the-sql-adapter"></a>使用 SQL 配接器效能計數器
 [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]用戶端可以用於量測計的配接器效能的效能計數器。 [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]安裝程式會建立效能計數器分類"[!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]」 以及 Adapter Pack 安裝。  
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/20/2017
   
  `<endpointId>`做為衍生`<sql_server_name>, <instance_name>, <database_name>`。  
   
- \<ActionId > 會以下列方式衍生：  
+ \<ActionId\>衍生以下列方式：  
   
 -   針對開啟連接，動作識別碼會是 「 開啟 」。  
   
@@ -53,5 +53,5 @@ ms.lasthandoff: 09/20/2017
 ## <a name="performance-counters-and-the-wcf-lob-adapter-sdk"></a>效能計數器和 WCF LOB 配接器 SDK  
  值變更**EnablePerformanceCounters**也繫結屬性變更為對應的效能計數器的值[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。 此外，繫結屬性的[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]是靜態的而針對[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]是動態的。 因此，如果有兩個執行個體[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]應用程式定義域中的繫結和**EnablePerformanceCounters**繫結屬性設定為**True**中其中一個和**False**中，配接器專屬的效能計數器會是啟用其中一及其他停用。 不過，因為繫結屬性[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]是靜態的它將可設為**True**或**False**根據上一次指定哪些值。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [SQL 配接器進行疑難排解](../../adapters-and-accelerators/adapter-sql/troubleshoot-the-sql-adapter.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a2957888253826845ea9a941ad7fce8fd7a2ed7f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 12f16f67f1c161f74e6a9179db8c85f48b5b3e14
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="low-latency-scenario-optimizations"></a>低延遲案例最佳化
 根據預設，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]最佳化輸送量，而不是低度延遲。 下列最佳化已套用至[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]使用本指南中的測試案例。  
@@ -25,7 +25,7 @@ ms.lasthandoff: 09/20/2017
 >  這些最佳化將會改善延遲可能因此而在某些整體輸送量成本。  
   
 ## <a name="increase-the-biztalk-server-host-internal-message-queue-size"></a>增加 BizTalk Server 主控件的內部訊息佇列大小  
- 每個 BizTalk 主控件都有它自己內部記憶體中佇列。 增加此佇列，從 100 到 1000 之間以增進效能的低延遲案例的預設值的大小。 如需修改內部訊息佇列大小值的詳細資訊，請參閱 [如何以修改預設主控件節流設定] 中[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]協助在[http://go.microsoft.com/fwlink/?LinkID=120225](http://go.microsoft.com/fwlink/?LinkID=120225)。  
+ 每個 BizTalk 主控件都有它自己內部記憶體中佇列。 增加此佇列，從 100 到 1000 之間以增進效能的低延遲案例的預設值的大小。 如需修改內部訊息佇列大小值的詳細資訊，請參閱 < 如何來修改預設主控件節流設定 」 BizTalk Server 說明中在[http://go.microsoft.com/fwlink/?LinkID=120225](http://go.microsoft.com/fwlink/?LinkID=120225)。  
   
 ## <a name="reduce-the-maxreceiveinterval-value-in-the-admserviceclass-table-of-the-biztalk-server-management-database"></a>減少 「 BizTalk Server 管理 」 資料庫的 adm_ServiceClass 資料表中的 MaxReceiveInterval 值  
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]您可以使用輪詢機制，從其在 Messagebox 中的主控件佇列接收訊息。 **MaxReceiveInterval** BizTalk 管理 (BizTalkMgmtDb) 資料庫的 adm_ServiceClass 資料表中的值是以每個 BizTalk 主控件執行個體將等候的毫秒為單位的最大值之前它會輪詢 MessageBox。 Adm_ServiceClass 資料表包含下列服務類型的記錄：  

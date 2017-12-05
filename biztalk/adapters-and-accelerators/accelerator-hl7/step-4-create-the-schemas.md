@@ -16,11 +16,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cbc70a0a00916f0e2b76f4245f80d488bf026bc8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3ce9ea850632327e257909e1c7d4b60117865e46
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-4-create-the-schemas"></a>步驟 4： 建立結構描述
 在此步驟中，您會建立新的專案 (**BTAHL7 專案**)，其中包含這個專案的成品： 結構描述、 對應和協調流程。 然後，您建立結構描述 (**Doorbell.xsd**) 內送的 XML 編碼訊息，然後選取現有的結構描述 (**ADT_A04_22_GLO_DEF.xsd**) 傳出 HL7 編碼訊息。 您可以使用這些結構描述來定義您在協調流程內交換訊息的結構。  
@@ -37,12 +37,12 @@ ms.lasthandoff: 09/20/2017
   
 5.  在**方案**欄位中，選取**將加入至方案**。  
   
-6.  在**位置**欄位中，確認  **\<*磁碟機*>: \Tutorial\BTAHL7V22Common** 是的路徑。  
+6.  在**位置**欄位中，確認  **\<*磁碟機*\>: \Tutorial\BTAHL7V22Common** 是的路徑。  
   
 7.  按一下**確定**開啟新的專案。  
   
     > [!NOTE]
-    >  [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]將新的專案加入至方案總管 中。 它也會將專案資料夾，並建立檔案中的\<*磁碟機*>: \Tutorial\\**BTAHL7V22Common**專案資料夾。  
+    >  [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]將新的專案加入至方案總管 中。 它也會將專案資料夾，並建立檔案中的\<*磁碟機*\>: \Tutorial\\**BTAHL7V22Common**專案資料夾。  
   
 8.  在 方案總管 中，以滑鼠右鍵按一下**BTAHL7 專案**專案，指向**新增**，然後按一下 **新項目**。  
   
@@ -52,7 +52,7 @@ ms.lasthandoff: 09/20/2017
   
 11. 按一下**新增**在 「 BizTalk 編輯器 」 中開啟空白的結構描述。  
   
-12. 在**\<結構描述 >**樹狀目錄中，以滑鼠右鍵按一下**根**節點，然後再按一下**重新命名**。  
+12. 在**\<結構描述\>**樹狀目錄中，以滑鼠右鍵按一下**根**節點，然後再按一下**重新命名**。  
   
 13. 型別**DoorbellRoot**作為新的名稱，然後按**Enter**。  
   
@@ -89,9 +89,9 @@ ms.lasthandoff: 09/20/2017
   
 21. 在 方案總管下**BTAHL7 專案**，以滑鼠右鍵按一下**參考**，然後按一下 **加入參考**。  
   
-22. 在 加入參考 對話方塊中，按一下**瀏覽** 索引標籤。在**查詢**方塊中，移至\<*磁碟機*>: \Program Files\Microsoft BizTalk\<版本 > Accelerator for HL7\SDK\End 端對端 Tutorial\Tutorial_BTAHL7Drop\Bin。 按一下**Microsoft.Solutions.BTAHL7.HL7Schemas.dll**，按一下 **新增**，然後按一下 **確定**。  
+22. 在 加入參考 對話方塊中，按一下**瀏覽** 索引標籤。在**查詢**方塊中，移至\<*磁碟機*\>: \Program Files\Microsoft BizTalk\<版本\>Accelerator for HL7\SDK\End 端對端教學課程\Tutorial_BTAHL7Drop\Bin。 按一下**Microsoft.Solutions.BTAHL7.HL7Schemas.dll**，按一下 **新增**，然後按一下 **確定**。  
   
  若要繼續[步驟 5： 升級結構描述屬性](../../adapters-and-accelerators/accelerator-hl7/step-5-promote-schema-properties.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [訊息擴充教學課程](../../adapters-and-accelerators/accelerator-hl7/message-enrichment-tutorial.md)

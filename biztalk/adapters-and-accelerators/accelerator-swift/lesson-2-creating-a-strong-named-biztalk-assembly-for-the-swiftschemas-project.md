@@ -15,11 +15,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 28afb0b029924a49dfd9a1bff87c5c847157d669
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a8ff979c7b6915f53ebc7144cf0774ab1ffb779a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="lesson-2-creating-a-strong-named-biztalk-assembly-for-the-swiftschemas-project"></a>第 2 課： 建立強式名稱 BizTalk 組件 SWIFTSchemas 專案
 在這一課，您可以建立強式名稱的編譯和部署 BizTalk 組件。 強式名稱組件提供數個安全性優點：  
@@ -36,7 +36,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  啟動 Visual Studio 命令提示字元。  
   
-2.  在 Visual Studio 命令提示字元中，瀏覽至\<*磁碟機*>: \labs 資料夾。  
+2.  在 Visual Studio 命令提示字元中，瀏覽至\<*磁碟機*\>: \labs 資料夾。  
   
 3.  在命令提示字元中，輸入**sn – k swift.snk**，然後按 ENTER 鍵。 請在 [輸出] 視窗中出現的成功訊息。  
   
@@ -49,7 +49,7 @@ ms.lasthandoff: 09/20/2017
   
 6.  向下和右窗格中的組件屬性捲動**強式名稱**區段中，按一下右邊的方塊**組件金鑰檔案**。 按一下省略符號按鈕。  
   
-7.  在 [組件金鑰檔案] 對話方塊中，瀏覽至  **\<*磁碟機*: > \labs**。  
+7.  在 [組件金鑰檔案] 對話方塊中，瀏覽至  **\<*磁碟機*:\>\labs**。  
   
 8.  選取**swift.snk**檔案做為金鑰檔案，然後按一下 **開啟**。  
   

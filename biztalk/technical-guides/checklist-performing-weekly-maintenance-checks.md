@@ -12,11 +12,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cb754c0cfd7f153e4cefa3cd610ef1633ef1e073
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a4cc715db0ec4047b9625b83d457af8df3974719
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="checklist-performing-weekly-maintenance-checks"></a>檢查清單： 執行每週維護檢查
 本主題描述每週執行的可靠性、 管理、 安全性與效能維護檢查所需的步驟[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統。  
@@ -34,7 +34,7 @@ ms.lasthandoff: 09/20/2017
 |若要檢查長回應時間和高資源使用量 （效能檢查） 的高負載期間執行 SQL Server Profiler。|[使用 SQL Server Profiler](http://go.microsoft.com/fwlink/p/?LinkID=106720) (http://go.microsoft.com/fwlink/p/?LinkID=106720)。|  
 |確定所有配接器的訊息批次處理是適用於資源耗用量或延遲 （效能檢查）。|-   [設定批次處理來改善配接器效能](../technical-guides/configuring-batching-to-improve-adapter-performance.md)<br />-   [如何設計高效能的配接器](http://go.microsoft.com/fwlink/p/?LinkId=154679)(http://go.microsoft.com/fwlink/p/?LinkId=154679)。|  
 |請確認大型訊息閾值適合資源耗用量 （效能檢查）。|[BizTalk Server 如何處理大型訊息](http://go.microsoft.com/fwlink/p/p/?LinkId=154680)(http://go.microsoft.com/fwlink/p/p/?LinkId=154680)。|  
-|封存備份的檔案，並指定適當的電腦備份|若要避免資料遺失，您應該指定的電腦，做為不同的電腦與原始資料，以及備份\<目的地路徑 > 您應該指定不同的電腦，以儲存資料庫記錄檔與原始資料庫記錄檔的電腦。<br /><br /> 如需備份的最佳作法的詳細資訊，請參閱[Backing Up and Restoring Databases 的最佳作法](http://go.microsoft.com/fwlink/p/p/?LinkID=151391)(http://go.microsoft.com/fwlink/p/p/?LinkID=151391)。|  
+|封存備份的檔案，並指定適當的電腦備份|若要避免資料遺失，您應該指定的電腦，做為不同的電腦與原始資料，以及備份\<目的地路徑\>您應該指定不同的電腦來儲存資料庫記錄檔從原始的資料庫記錄檔的電腦。<br /><br /> 如需備份的最佳作法的詳細資訊，請參閱[Backing Up and Restoring Databases 的最佳作法](http://go.microsoft.com/fwlink/p/p/?LinkID=151391)(http://go.microsoft.com/fwlink/p/p/?LinkID=151391)。|  
   
-## <a name="see-also"></a>另請參閱  
- [例行監視工作](../technical-guides/routine-monitoring-tasks.md)
+## <a name="see-also"></a>請參閱  
+ [例行性監視工作](../technical-guides/routine-monitoring-tasks.md)

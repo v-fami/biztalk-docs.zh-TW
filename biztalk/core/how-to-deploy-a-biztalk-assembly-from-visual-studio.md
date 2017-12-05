@@ -12,18 +12,18 @@ caps.latest.revision: "39"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 07810f513c3530b214eb1405462db1e6ac96ed84
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8fc232edf6d99e31b5679932eb19873481fa579b
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-deploy-a-biztalk-assembly-from-visual-studio"></a>如何從 Visual Studio 部署 BizTalk 組件
 本主題提供有關如何使用 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 的「方案總管」或 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 的命令提示字元，從 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 將 BizTalk 組件部署至 BizTalk 應用程式的指示。 您可以選擇從專案層級部署單一組件 (例如以滑鼠右鍵按一下專案，然後按一下 [部署])，或從方案層級同時部署方案中的所有組件 (例如以滑鼠右鍵按一下方案，然後按一下 [部署])，但強烈建議從方案層級同時部署所有組件。  
   
  與舊版[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，如果您想要部署多個組件在解決方案中，而且任何組件都相依於任何其他組件，您必須個別部署組件及其相依性的相反。 例如，如果組件 1 相依於組件 2，您必須先部署組件 2，接著才可以部署組件 1。  
   
- 現在當您從專案層級部署組件時，這個狀況仍然適用。 與[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]，不過，當您部署組件從方案層級，而非專案層級，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]會自動處理所有的部署步驟，包括部署組件，以正確的順序。 因此，為了簡化部署，當另一個組件相依於正在部署的組件時，您應該在方案層級部署組件。  
+ 現在當您從專案層級部署組件時，這個狀況仍然適用。 與 BizTalk Server 中，不過，當您部署組件從方案層級，而非專案層級，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]會自動處理所有的部署步驟，包括部署組件，以正確的順序。 因此，為了簡化部署，當另一個組件相依於正在部署的組件時，您應該在方案層級部署組件。  
   
  當您選取部署專案或方案中的選項[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]，組件或組件會自動建立並部署到本機 BizTalk 群組中指定的 BizTalk 應用程式。 如果應用程式尚未存在於群組中，則部署時也會建立該應用程式。 接著註冊組件及其所含成品，並且將其資料儲存在 BizTalk 群組的 BizTalk 管理 (組態) 資料庫中。 此外，如果在專案的部署屬性中指定相關選項，組件就會加入至全域組件快取 (GAC) 中。  
   
@@ -60,7 +60,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  輸入下列命令，並以適當的值替代，如下表所述：  
   
-     **devenv / 部署***SolnConfigName* *SolutionName* [**/專案** *ProjName*] [**//projectconfig** *ProjConfigName*]    
+     **devenv / 部署***SolnConfigName* *SolutionName* [**/專案** *ProjName*] [**//projectconfig** *ProjConfigName*]  
   
      範例：  
   
@@ -76,5 +76,5 @@ ms.lasthandoff: 09/20/2017
   
      第一次部署包含協調流程的組件時，您可能會收到警告訊息，指出協調流程未包含在繫結檔案中。 這是因為部署時協調流程不會自動繫結至主控件， 您必須手動執行此步驟。  
   
-## <a name="see-also"></a>另請參閱  
- [部署 BizTalk 組件從 Visual Studio 到 BizTalk 應用程式](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md)
+## <a name="see-also"></a>請參閱  
+ [從 Visual Studio 將 BizTalk 組件部署到 BizTalk 應用程式](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md)

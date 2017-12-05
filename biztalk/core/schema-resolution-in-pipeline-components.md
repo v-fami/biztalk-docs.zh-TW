@@ -16,11 +16,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ec002d19064032dcc663cf4da06b916eeda64d23
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 897c25ecb64a3038a6992b9c4caf927ba3e2d805
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="schema-resolution-in-pipeline-components"></a>管線元件中的結構描述解析
 管線解譯器和組合器元件使用 XSD 結構描述來處理訊息。 此類結構描述包含如升級屬性清單、辨別欄位、一般檔案訊息的註解以及 XML 封套的註解等資訊。  
@@ -35,7 +35,7 @@ ms.lasthandoff: 09/20/2017
 </ns0:MyDocument>  
 ```  
   
- 如果結構描述沒有為其定義的命名空間，訊息類型是"\<**rootNode**> 」。 例如，若先前的範例 XML 沒有命名空間，則訊息類型是 "MyDocument"。  
+ 如果結構描述沒有為其定義的命名空間，訊息類型是"\<**rootNode**\>"。 例如，若先前的範例 XML 沒有命名空間，則訊息類型是 "MyDocument"。  
   
  標準管線元件使用訊息類型從資料庫擷取適當的結構描述。 預設 XML 接收和傳送管線永遠會使用在執行階段從訊息 XML 內容動態探索到的訊息類型，判斷要載入哪個結構描述 (除非管線元件設定為允許無法辨識的訊息)。 XML 解譯器透過使用此機制可移除訊息信封，不過，若 XML 組合器不知道要使用何種信封結構描述，則無法建立外寄訊息的信封。  
   
@@ -74,5 +74,5 @@ ms.lasthandoff: 09/20/2017
 > [!NOTE]
 >  使用的自訂管線元件**IPipelineContext**取得部署的結構描述應該取得結構描述的結構描述型別，只有當結構描述類型名稱未指定元件在執行階段，並取得訊息類型只能由結構描述如果在元件執行時，無法使用結構描述類型資訊。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管線元件](../core/pipeline-components.md)

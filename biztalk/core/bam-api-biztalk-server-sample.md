@@ -17,11 +17,11 @@ caps.latest.revision: "20"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9c9953bb5e8b1e9827189e5b618f2760297c5678
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f65b98871f054d96caa278e48de19ad669157b1f
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="bam-api-biztalk-server-sample"></a>BAM API (BizTalk Server 範例)
 BAM API 範例示範如何將對 BAM API 的呼叫整合到應用程式，以儲存可供您監控的關鍵資訊。  
@@ -97,7 +97,7 @@ BAM API 範例示範如何將對 BAM API 的呼叫整合到應用程式，以儲
  除了 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 方案外，範例也包含定義活動的 Microsoft [!INCLUDE[btsExcel](../includes/btsexcel-md.md)] 檔案。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- 您可以找到此範例位於*\<範例路徑 >*\BAM\BamApiSample。  
+ 您可以找到此範例位於*\<範例路徑\>*\BAM\BamApiSample。  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -124,16 +124,16 @@ BAM API 範例示範如何將對 BAM API 的呼叫整合到應用程式，以儲
   
 #### <a name="to-run-the-bam-api-sample"></a>執行 BAM API 範例  
   
-1.  開啟命令提示字元並執行*\<範例路徑 >*\BAM\ BamApiSample\setup.bat。 如果您使用[!INCLUDE[btsWinVista](../includes/btswinvista-md.md)]或[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]，開啟命令提示字元，以系統管理員身分。  
+1.  開啟命令提示字元並執行*\<範例路徑\>*\BAM\ BamApiSample\setup.bat。 如果您使用[!INCLUDE[btsWinVista](../includes/btswinvista-md.md)]或[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]，開啟命令提示字元，以系統管理員身分。  
   
-2.  啟動[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]，並開啟*\<範例路徑 >*BAMAPISAMPLE\BAMAPISAMPLE.SLN 方案。 如果您使用的是 [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)] 或 [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]，請以系統管理員身分啟動 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]。  
+2.  啟動[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]，並開啟*\<範例路徑\>*BAMAPISAMPLE\BAMAPISAMPLE.SLN 方案。 如果您使用的是 [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)] 或 [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]，請以系統管理員身分啟動 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]。  
   
     > [!IMPORTANT]
     >  必須在 BamApiSample.cs 檔案的 `//#define Interceptor` 該行前加上註解符號。請勿移除此行中的 “//”。 BAM API 範例僅使用不在 `#if Interceptor` 前置處理器指示詞內的程式碼。  
   
 3.  建置方案。  
   
-4.  執行*\<範例路徑 >*\BAM\BamApiSample\bin\debug\BamApiSample.exe。  
+4.  執行*\<範例路徑\>*\BAM\BamApiSample\bin\debug\BamApiSample.exe。  
   
      輸出看起來會向下面這樣：  
   
@@ -163,10 +163,10 @@ BAM API 範例示範如何將對 BAM API 的呼叫整合到應用程式，以儲
   
 2.  在 SQL Server Management Studio，展開伺服器，展開 **資料庫**，依序展開**BAMPrimaryImport**，然後展開**資料表**。  
   
-3.  以滑鼠右鍵按一下**dbo.bam_bamapiinvoice_active** ，然後按一下 **開啟資料表**。 如果您使用[!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)]，按一下 **選取前 1000 個資料列**。  
+3.  以滑鼠右鍵按一下**dbo.bam_bamapiinvoice_active** ，然後按一下 **開啟資料表**。 如果您使用 SQL Server，請按一下**選取前 1000 個資料列**。  
   
      bam_BAMApiInvoice_Active 資料表的內容會顯示於右窗格。 資料表中的每個資料列各代表一個已啟動但尚未完成的 BAMApiInvoice 活動。  
   
-4.  以滑鼠右鍵按一下**dbo.bam_bamapipo_completed** ，然後按一下 **開啟資料表**。 如果您使用[!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)]，按一下 **選取前 1000 個資料列**。  
+4.  以滑鼠右鍵按一下**dbo.bam_bamapipo_completed** ，然後按一下 **開啟資料表**。 如果您使用 SQL Server，請按一下**選取前 1000 個資料列**。  
   
      bam_BAMApiPo_Completed 資料表的內容會顯示於右窗格。 資料表中的每個資料列各代表一個已完成的 BAMApiPo 活動。

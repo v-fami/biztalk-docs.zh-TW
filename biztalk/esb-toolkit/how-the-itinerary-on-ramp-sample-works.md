@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c6c8af93f93e6acba6a0d2cffb69186715ccd49e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b73b4379944db548a30898403239ffcf9704791a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-the-itinerary-on-ramp-sample-works"></a>路線上手範例的運作方式
 範例應用程式建置一組 SOAP 標頭包含您在用戶端應用程式視窗中，使用控制項建立路線路線測試用戶端會從磁碟載入指定的訊息檔案、 路線標頭附加至訊息，並請將它提交至 ESB 透過路線上手進行處理。 如果路線，都產生回應，應用程式會收集回應，並顯示在應用程式視窗。  
@@ -54,13 +54,13 @@ ms.lasthandoff: 09/20/2017
 ```  
   
 > [!NOTE]
->  每個實際內容**\<解析程式 >**項目不包含用來包裝在上述清單中的行泛空白字元。  
+>  每個實際內容**\<解析程式\>**項目不包含用來包裝在上述清單中的行泛空白字元。  
   
  以下是路線上述組態中定義的三個步驟：  
   
 1.  執行 Microsoft.Practices.ESB.Services.Transform 協調流程將訊息轉換與 ResolverMap 原則使用 BizTalk 商務規則引擎 (BRE)。  
   
-2.  執行將已轉換的訊息路由至多個位置使用路由 Microsoft.Practices.ESB.Services.Routing1 Microsoft.Practices.ESB.Services.Routing 協調流程。  **\<ResolverGroups >**區段包含**\<解析程式 >**定義的連接字串，此識別碼的項目。  
+2.  執行將已轉換的訊息路由至多個位置使用路由 Microsoft.Practices.ESB.Services.Routing1 Microsoft.Practices.ESB.Services.Routing 協調流程。  **\<ResolverGroups\>** 區段包含**\<解析程式\>**定義的連接字串，此識別碼的項目。  
   
 3.  執行此範例提供的 ProcessAndRespond 協調流程。 傳送為回應此協調流程的實作回到路線測試用戶端要求訊息的複本。  
   

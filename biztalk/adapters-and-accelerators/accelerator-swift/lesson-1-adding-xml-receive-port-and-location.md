@@ -17,11 +17,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 186cbb4e021a281ab834f04097f005c2597fbd37
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d01f9457404e135027f35f1402575efeec311e2e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="lesson-1-adding-xml-receive-port-and-location"></a>第 1 課： 加入 XML 接收埠和位置
 接收埠是相似接收位置的邏輯群組。 接收位置內送訊息，並將用來處理訊息的管線會定義特定位址 （例如 URL 或檔案的位置）。  
@@ -51,9 +51,9 @@ ms.lasthandoff: 09/20/2017
   
 10. 按一下**設定**按鈕右邊的 [類型] 下拉式清單。  
   
-11. 在 [FILE 傳輸屬性] 對話方塊中，按一下**瀏覽**。 移至**\<磁碟機 >: \Labs**資料夾，然後再按一下**建立新資料夾**。  
+11. 在 [FILE 傳輸屬性] 對話方塊中，按一下**瀏覽**。 移至**\<磁碟機\>: \Labs**資料夾，然後再按一下**建立新資料夾**。  
   
-12. 在 [瀏覽資料夾] 對話方塊中，建立**輸入**資料夾中的**\<磁碟機 >: \Labs**，然後再建立**XMLFile**資料夾中的 **\<磁碟機 >: \Labs\Inbound**。 按一下 **[確定]**。  
+12. 在 [瀏覽資料夾] 對話方塊中，建立**輸入**資料夾中的**\<磁碟機\>: \Labs**，然後再建立**XMLFile** 中的資料夾**\<磁碟機\>: \Labs\Inbound**。 按一下 **[確定]**。  
   
 13. 在 [FILE 傳輸屬性] 對話方塊中，確定 **\*.xml**輸入**檔案遮罩**方塊，然後再按一下**確定**。  
   

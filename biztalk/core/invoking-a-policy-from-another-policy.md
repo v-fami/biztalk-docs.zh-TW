@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b03204b9de4b763f516b7fb22ada1f4f3f6173a2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ac45c31ef76213e79249e96fe645ecbb5fb66ed4
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="invoking-a-policy-from-another-policy"></a>從另一個原則叫用原則
 您可以使用下列其中一種方法，從另一個原則 (父原則) 叫用原則 (子原則)：  
@@ -54,7 +54,7 @@ ms.lasthandoff: 09/20/2017
   
 8.  選取您想要傳遞為事實，然後按一下 XML 文件的結構描述**開啟**。  
   
-9. 拖曳*\<結構描述名稱 >*的第一個引數的.xsd **Policy.Execute**方法以傳遞給子原則的事實傳遞給父原則的 XML 文件。  
+9. 拖曳*\<結構描述名稱\>*的第一個引數的.xsd **Policy.Execute**方法以傳遞給子原則的事實傳遞給父原則的 XML 文件。  
   
 10. 如果您使用**Execute**方法未採用**IRuleSetTrackingInterceptor**做為第二個引數，請略過下列步驟。  
   

@@ -15,11 +15,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cf96bdc546223b68677b642944265c22d2ce4b14
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 49fd078f64cbd4163eef648f7a0d58fe6e8db6b2
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-3-create-and-deploy-a-trigger-event-message-project"></a>步驟 3： 建立專案並部署觸發程序事件 （訊息）
 在此步驟中，您可以建立結構描述觸發程序事件訊息。 例如，您可能許可放電和傳輸系統 (ADT) 醫院資訊系統 (HIS) 傳送訊息的人員。 您需要這個結構描述來定義訊息的格式。  
@@ -69,7 +69,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  在右窗格中，向下捲動至**強式名稱**區段中，按一下右邊的欄位**組件金鑰檔案**，然後按一下省略符號 (**...**) 按鈕。  
   
-4.  在 組件金鑰檔案 對話方塊中，瀏覽至\<*磁碟機*>: \Program Files\Microsoft BizTalk\<版本 > Accelerator for HL7\SDK\End 端對端教學課程中，按一下**key.snk**，然後按一下 **開啟**。  
+4.  在 組件金鑰檔案 對話方塊中，瀏覽至\<*磁碟機*\>: \Program Files\Microsoft BizTalk\<版本\>Accelerator for HL7\SDK\End 端對端教學課程中，按一下  **key.snk**，然後按一下 **開啟**。  
   
 5.  在 [專案屬性頁] 對話方塊中，按一下**確定**以儲存變更。  
   

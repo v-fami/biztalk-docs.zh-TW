@@ -12,11 +12,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5abb42ff1cae700077c44c391a1112c7309048c6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ba7a1b7644cc3a2e3e00b7a931250932359ab7b7
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="browse-search-and-get-sql-server-metadata"></a>瀏覽、 搜尋及取得 SQL Server 中繼資料
 中繼資料，[!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]從 SQL Server 資料庫的介面描述與使用配接器的 SQL Server 資料庫通訊的訊息結構。 [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]支援兩個介面來擷取中繼資料。  
@@ -45,7 +45,7 @@ ms.lasthandoff: 09/20/2017
   
 -   資料表、 檢視、 程序、 純量函數和資料表值函式上的作業。 例如，[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]可能介面 Insert、 Update、 Select，並刪除 EMPLOYEE 資料表的作業。  
   
--   集合\<資料行名稱 > 資料表和檢視表可讓大型資料值寫入資料流的方式在配接器用戶端的作業。 設定作業只會針對這些資料表和檢視表包含下列資料類型的任何資料行中傳回： varchar （max）、 nvarchar （max） 或 varbinary （max）。 如需詳細資訊，請參閱[資料表和檢視表包含使用 SQL 配接器的大型資料類型上的作業](../../adapters-and-accelerators/adapter-sql/supported-operations-on-tables-and-views-with-large-data-types-with-sql-adapter.md)。  
+-   集合\<資料行名稱\>資料表和檢視表可讓大型資料值寫入資料流的方式在配接器用戶端的作業。 設定作業只會針對這些資料表和檢視表包含下列資料類型的任何資料行中傳回： varchar （max）、 nvarchar （max） 或 varbinary （max）。 如需詳細資訊，請參閱[資料表和檢視表包含使用 SQL 配接器的大型資料類型上的作業](../../adapters-and-accelerators/adapter-sql/supported-operations-on-tables-and-views-with-large-data-types-with-sql-adapter.md)。  
   
 -   ExecuteNonQuery、 ExecuteReader 和 ExecuteScalar 作業，讓 SQL Server 中執行任意的 SQL 陳述式的配接器用戶端。 如需有關這些作業的詳細資訊，請參閱[ExecuteNonQuery、 ExecuteReader 和 ExecuteScalar 作業支援](../../adapters-and-accelerators/adapter-oracle-ebs/support-for-executenonquery-executereader-and-executescalar-operations.md)。  
   
@@ -75,7 +75,7 @@ SELECT TABLE_NAME FROM ALL_TABLES WHERE TABLE_NAME LIKE 'EMP%'
 ## <a name="retrieving-metadata"></a>擷取中繼資料  
  擷取中繼資料時[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]可以擷取下的結構描述，包括所有的中繼資料，或使用個別的物件和作業的參數物件的資料庫子集。 配接器會顯示從 SQL Server 資料庫的實體當做 XML 中的項目名稱。 因為底線是只允許可以包含特殊字元，是使用底線來編碼所有其他特殊字元的元素名稱。 例如，`emp$name`編碼為`emp_x0024_name`。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [BizTalk Adapter for SQL Server 的概觀](../../adapters-and-accelerators/adapter-sql/overview-of-biztalk-adapter-for-sql-server.md)   
  [瞭解 BizTalk Adapter for SQL Server](../../adapters-and-accelerators/adapter-sql/understand-biztalk-adapter-for-sql-server.md)   
  [使用 SQL 配接器的 Visual Studio 中的 SQL Server 作業取得中繼資料](../../adapters-and-accelerators/adapter-sql/get-metadata-for-sql-server-operations-in-visual-studio-using-the-sql-adapter.md)

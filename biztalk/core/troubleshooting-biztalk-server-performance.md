@@ -12,11 +12,11 @@ caps.latest.revision: "18"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: df98f717c71198d4be6f8d13eaa539e5c1e16786
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 21003c4d3565158945e91371fa760cf97692b472
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="troubleshooting-biztalk-server-performance"></a>BizTalk Server 效能疑難排解
 本節所包含的一般指導方針，可用於診斷及解決與 BizTalk 傳訊引擎相關的效能問題。  
@@ -84,9 +84,9 @@ ms.lasthandoff: 09/20/2017
   
 -   SQL Server Profiler 可以用來擷取傳送至 SQL Server 的 Transact-SQL 陳述式，以及這些陳述式的 SQL Server 結果集。 由於 BizTalk Server 已緊密地與 SQL Server 整合，因此 SQL Server Profiler 追蹤的分析是相當有用的工具，可用於分析讀取和寫入 SQL Server 資料庫時 BizTalk Server 中可能發生的問題。 如需有關如何使用 SQL Server Profiler 的詳細資訊，請參閱 SQL Server 說明文件。  
   
--   [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)] 查詢編輯器可以用來直接對 SQL Server 資料庫執行 SQL 陳述式。 在某些情況中，這個功能可能有助於查詢 BizTalk Server 資料庫或更新 BizTalk Server 資料庫。 如需查詢編輯器的相關資訊，請參閱 [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)] 說明文件。  
+-   SQL Server 查詢編輯器可以用來執行 SQL 陳述式直接對 SQL Server 資料庫。 在某些情況中，這個功能可能有助於查詢 BizTalk Server 資料庫或更新 BizTalk Server 資料庫。 如需查詢編輯器的詳細資訊，請參閱 SQL Server 文件。  
   
 -   檢閱[疑難排解 SQL Server](../core/troubleshooting-sql-server.md)如需詳細資訊。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [疑難排解](../core/troubleshooting.md)

@@ -16,19 +16,19 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d2a5ee569ff05acf9a14293503ee1238e311bcf1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e3eeb0a6d4a1fceebe7e16b3f71566f848e4a20f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="syntax-for-a-select-statement-in-siebel"></a>Siebel 中的 SELECT 陳述式的語法
 使用[!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]，ADO.NET 用戶端可以藉由指定 WHERE 子句，表示有效的 Siebel 搜尋規格在 Siebel 商務元件中執行 SELECT 查詢。 SELECT 陳述式的語法為：  
   
 ```  
 SELECT  
-\<column name 1> AS \<column alias 1>,  
-\<column name 2> AS \<column alias 2>,  
+<column name 1> AS <column alias 1>,  
+<column name 2> AS <column alias 2>,  
 …  
 FROM  
 <Business object name>.<Business component name> AS <table alias>  
@@ -54,7 +54,7 @@ OPTION
   
  搜尋規格的規則如下：  
   
--   一般比較運算子必須用來比較常數、 欄位或欄位至另一個欄位。 這些包括 =、 ！ =，>， \<，> = 和 < =。  
+-   一般比較運算子必須用來比較常數、 欄位或欄位至另一個欄位。 這些包括 =、 ！ =、 >、 <>、 =、 和 < =。  
   
     ```  
     Example: [Revenue] > 5000  
@@ -96,5 +96,5 @@ OPTION
   
 -   排序規格運算式必須是 255 個字元或更少。  
   
-## <a name="see-also"></a>另請參閱  
- [使用.NET Framework Data Provider for Siebel eBusiness 應用程式](../../adapters-and-accelerators/adapter-siebel/use-the-net-framework-data-provider-for-siebel-ebusiness-applications.md)
+## <a name="see-also"></a>請參閱  
+ [使用 .NET Framework Data Provider for Siebel eBusiness 應用程式](../../adapters-and-accelerators/adapter-siebel/use-the-net-framework-data-provider-for-siebel-ebusiness-applications.md)

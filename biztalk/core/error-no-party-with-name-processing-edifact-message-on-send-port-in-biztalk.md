@@ -12,11 +12,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a8acf93c1d1ec23e0c695bf2bfcf1ad105f9e10d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6becad3fefaa8167c9cf1af051731aa08be0d80a
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="a-failure-occurred-in-processing-edifact-message-on-send-port-no-party-with-name"></a>在處理傳送埠上的 Edifact 訊息發生失敗： 沒有合作對象名稱
 ## <a name="details"></a>詳細資料  
@@ -26,7 +26,7 @@ ms.lasthandoff: 09/20/2017
 |產品名稱|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
 |產品版本|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
 |事件識別碼|-|  
-|事件來源|[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]EDI|  
+|事件來源|BizTalk Server EDI|  
 |元件|EDI 引擎|  
 |符號名稱|-|  
 |訊息文字|在處理傳送埠 {0} 上的 Edifact 訊息發生失敗。 沒有合作對象名稱 {1} 存在。|  

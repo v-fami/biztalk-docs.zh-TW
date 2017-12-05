@@ -12,11 +12,11 @@ caps.latest.revision: "35"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 41994da40d6471688193f7aca915535fcd52bfbe
-ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
+ms.openlocfilehash: 008e6c2d775fc5d46977ca4672b6d3376349b3f0
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="large-message-to-msmq"></a>用於 MSMQ 的大型訊息
 大型的訊息至 MSMQ 範例示範如何傳送的.xml 文件大於 4 mb 從 Message Queuing (也稱為 MSMQ) BizTalk MSMQ 配接器使用**MQSendLargeMessage**藉由應用程式開發介面MQRTLarge.dll。  
@@ -37,10 +37,10 @@ ms.lasthandoff: 10/17/2017
  在此範例的內容，是很重要的程式碼呼叫中指定交易類型**MQSendLargeMessage**這與指定傳送訊息佇列的交易支援一致。 如果未進行此設定，而且如果沒有指定管理佇列是 （在此情況下在此範例中），MSMQ 捨棄傳送的訊息，它確實會留下任何跡象 （也就是沒有錯誤碼傳回至應用程式，而不將診斷資訊寫入事件記錄檔依此類推)。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- \<範例路徑 > \AdaptersUsage\MSMQLarge  
+ \<範例路徑\>\AdaptersUsage\MSMQLarge  
   
 > [!NOTE]
->  如果使用 64 位元版本的 Windows 和 BizTalk Server，將範例安裝在**C:\Program Files (x86) \Microsoft BizTalk Server\<版本 > \SDK\Samples\AdaptersUsage\MSMQLarge**資料夾。  請注意這項變更，在此文件中使用的其他指示**C:\Program Files**資料夾。  
+>  如果使用 64 位元版本的 Windows 和 BizTalk Server，將範例安裝在**C:\Program Files (x86) \Microsoft BizTalk Server\<版本\>\SDK\Samples\AdaptersUsage\MSMQLarge**資料夾。  請注意這項變更，在此文件中使用的其他指示**C:\Program Files**資料夾。  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -56,7 +56,7 @@ ms.lasthandoff: 10/17/2017
   
 #### <a name="to-configure-biztalk-server"></a>設定 BizTalk Server  
   
-1.  在 Visual Studio 中開啟**C:\Program Files\Microsoft BizTalk Server\<版本 > \SDK\Samples\AdaptersUsage\MSMQLarge\LargeMessages.sln**方案檔。  建立此範例。  
+1.  在 Visual Studio 中開啟**C:\Program Files\Microsoft BizTalk Server\<版本\>\SDK\Samples\AdaptersUsage\MSMQLarge\LargeMessages.sln**方案檔。  建立此範例。  
   
 2.  建立**C:\Demo** BizTalk Server 將放置從 MSMQ 訊息目錄。  
   
@@ -64,7 +64,7 @@ ms.lasthandoff: 10/17/2017
   
 4.  建立傳送埠將訊息寫入範例。  
   
-    -   展開**BizTalk 群組**，依序展開**應用程式**，依序展開**BizTalk Application 1**，以滑鼠右鍵按一下**傳送埠**，按一下**新增**，然後按一下**靜態單向傳送埠**。  
+    -   展開**BizTalk 群組**，依序展開**應用程式**，依序展開**BizTalk Application 1**，以滑鼠右鍵按一下**傳送埠**，按一下**新增**，然後按一下 **靜態單向傳送埠**。  
   
 5.  在**靜態單向傳送埠屬性**對話方塊方塊中，設定之連接埠名稱**MySendPort**。  
   
@@ -88,15 +88,15 @@ ms.lasthandoff: 10/17/2017
   
     1.  在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，以滑鼠右鍵按一下**接收埠**。  
   
-    2.  按一下**新增**，然後按一下**單向接收埠**。  
+    2.  按一下**新增**，然後按一下 **單向接收埠**。  
   
-11. 在**接收埠屬性**對話方塊方塊中，設定之連接埠名稱**MyReceivePort**，然後按一下**確定**。  
+11. 在**接收埠屬性**對話方塊方塊中，設定之連接埠名稱**MyReceivePort**，然後按一下 **確定**。  
   
 12. 建立範例的接收埠之後，您必須建立一個接收位置。  
   
     1.  在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，以滑鼠右鍵按一下**接收位置**。  
   
-    2.  按一下**新增**，然後按一下**單向接收位置**。  
+    2.  按一下**新增**，然後按一下 **單向接收位置**。  
   
     3.  設定接收位置的名稱**MSMQReceiveLocation**。  
   
@@ -106,25 +106,25 @@ ms.lasthandoff: 10/17/2017
   
     6.  在**位址 (URI)**區段中，按一下**設定**開啟**MSMQ 傳輸屬性**表單。 設定**佇列**至**localhost\private$ \test**。  
   
-    7.  設定**交易式**至`True`，然後按一下**確定**。  
+    7.  設定**交易式**至`True`，然後按一下 **確定**。  
   
 13. 您必須讓連接埠和接收位置可供使用，透過[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台。  
   
-    1.  以滑鼠右鍵按一下**MySendPort**，然後按一下**登錄**。  
+    1.  以滑鼠右鍵按一下**MySendPort**，然後按一下 **登錄**。  
   
-    2.  以滑鼠右鍵按一下**MySendPort**，然後按一下**啟動**。  
+    2.  以滑鼠右鍵按一下**MySendPort**，然後按一下 **啟動**。  
   
-    3.  以滑鼠右鍵按一下**MSMQReceiveLocation**，然後按一下**啟用**。  
+    3.  以滑鼠右鍵按一下**MSMQReceiveLocation**，然後按一下 **啟用**。  
   
 #### <a name="to-create-the-msmq-queue-in-windows-server"></a>若要在 Windows Server 中建立 MSMQ 佇列
   
-1.  按一下**啟動**，以滑鼠右鍵按一下**電腦**，然後按一下**管理**。  
+1.  按一下**啟動**，以滑鼠右鍵按一下**電腦**，然後按一下 **管理**。  
   
 2.  展開**功能**節點。  
   
 3.  展開**訊息佇列**節點。  
   
-4.  以滑鼠右鍵按一下**私用佇列**節點中，按一下 **新增**，然後按一下**私用佇列**。  
+4.  以滑鼠右鍵按一下**私用佇列**節點中，按一下 **新增**，然後按一下 **私用佇列**。  
   
 5.  在下**佇列名稱**，輸入**測試**。 請確認**交易式**選取核取方塊。  
   
@@ -132,14 +132,14 @@ ms.lasthandoff: 10/17/2017
   
 #### <a name="to-create-the-msmq-queue-in-windows"></a>若要在 Windows 中建立 MSMQ 佇列 
   
-1.  按一下**啟動**，以滑鼠右鍵按一下**電腦**，然後按一下**管理**。  
+1.  按一下**啟動**，以滑鼠右鍵按一下**電腦**，然後按一下 **管理**。  
   
 2.  展開**服務和應用程式**，然後展開**訊息佇列**節點。  
   
     > [!NOTE]
-    >  如果**訊息佇列**未安裝在電腦中，移至**控制台 > 程式 > 程式和功能**，然後選取**開啟或關閉 Windows 功能**。 檢查下的所有功能**Microsoft Message Queue (MSMQ) 伺服器**，然後按一下**確定**。  
+    >  如果**訊息佇列**未安裝在電腦中，移至**控制台 > 程式 > 程式和功能**，然後選取**開啟或關閉 Windows 功能**。 檢查下的所有功能**Microsoft Message Queue (MSMQ) 伺服器**，然後按一下 **確定**。  
   
-3.  以滑鼠右鍵按一下**私用佇列**節點中，按一下 **新增**，然後按一下**私用佇列**。  
+3.  以滑鼠右鍵按一下**私用佇列**節點中，按一下 **新增**，然後按一下 **私用佇列**。  
   
 4.  在下**佇列名稱**，輸入**測試**。 請確認**交易式**選取核取方塊。  
   
@@ -149,7 +149,7 @@ ms.lasthandoff: 10/17/2017
   
 #### <a name="to-create-a-large-test-file"></a>若要建立大型的測試檔案  
   
-1.  在 Visual Studio 中開啟方案**C:\Program Files\Microsoft BizTalk Server\<版本 > \SDK\Samples\AdaptersUsage\MSMQLarge\XMLCreator\XMLCreator.sln**。  
+1.  在 Visual Studio 中開啟方案**C:\Program Files\Microsoft BizTalk Server\<版本\>\SDK\Samples\AdaptersUsage\MSMQLarge\XMLCreator\XMLCreator.sln**。  
   
 2.  建置並執行專案。  
   
@@ -159,11 +159,11 @@ ms.lasthandoff: 10/17/2017
   
 5.  在下**XML 檔案位置**，型別`C:\Program Files\Microsoft BizTalk Server <version>\SDK\Samples\AdaptersUsage\MSMQLarge\LargeFile.xml`。  
   
-6.  按一下**建立 XML**，然後按一下**確定**。  
+6.  按一下**建立 XML**，然後按一下 **確定**。  
   
 #### <a name="to-run-the-sample"></a>執行範例  
   
-1.  開啟命令提示字元，然後將目錄切換至**C:\Program Files\Microsoft BizTalk Server\<版本 > \SDK\Samples\AdaptersUsage\MSMQLarge\SendLargeMessage\bin\debug**。  
+1.  開啟命令提示字元，然後將目錄切換至**C:\Program Files\Microsoft BizTalk Server\<版本\>\SDK\Samples\AdaptersUsage\MSMQLarge\SendLargeMessage\bin\debug**。  
   
 2.  在命令提示字元中，執行**SendLargeMessage.exe**。 SendLargeMessage 可執行檔接受兩個變數，第一個是 MSMQ 佇列的位置，第二個是要傳送的.xml 檔案的位置：  
   
@@ -178,6 +178,6 @@ ms.lasthandoff: 10/17/2017
   
  這個範例會使用**MQSendLargeMessage** API 並公開 API 的.NET framework 使用**LargeMessages**應用程式開發介面。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [BizTalk 訊息佇列大型訊息延伸模組](../core/biztalk-message-queuing-large-message-extension.md)   
  [配接器範例 - 用法](../core/adapter-samples-usage.md)

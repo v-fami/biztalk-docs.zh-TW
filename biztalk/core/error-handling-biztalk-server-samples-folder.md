@@ -18,11 +18,11 @@ caps.latest.revision: "27"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2bfd309f332726efe2a13231ee1a337b428e3cff
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 386e9729ac32cb08863e2ac3e0699ecda7890dbc
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="error-handling-biztalk-server-samples-folder"></a>錯誤處理 (BizTalk Server Samples 資料夾)
 此範例的目的是要建立「根據訊息內容決定路由」(CBR) 應用程式的錯誤處理功能。  
@@ -169,7 +169,7 @@ ms.lasthandoff: 09/20/2017
   
      複製並貼到這個檔案**ExpenseReportIn**資料夾。  
   
-3.  您應該會看到新的檔案，稱為**ErrorReport_\<***日期*_*時間***>.xml**放入**ExpenseReportOut**資料夾。  
+3.  您應該會看到新的檔案，稱為**ErrorReport_\<***日期*_*時間***\>.xml**放入**ExpenseReportOut**資料夾。  
   
      開啟這個檔案，觀察這是上一個步驟中所提交，但是開頭包含錯誤資訊的經費支出報表。  
   
@@ -181,6 +181,6 @@ ms.lasthandoff: 09/20/2017
   
 5.  您應該會看到新的檔案中建立**ExpenseReportOut**資料夾。 這個檔案是更正後重新提交至伺服器的經費支出報表。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [使用失敗的訊息路由](../core/using-failed-message-routing.md)   
- [傳訊 （BizTalk Server 範例資料夾）](../core/messaging-biztalk-server-samples-folder.md)
+ [傳訊 (BizTalk Server Samples 資料夾)](../core/messaging-biztalk-server-samples-folder.md)

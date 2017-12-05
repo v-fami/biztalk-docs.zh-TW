@@ -12,11 +12,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a4aaadb9eb84fa5415b31673d922e11a56fa7136
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8de2444cecbd661e9af4457f5f19c7e929d1c9c5
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="diagnostic-tracing-and-message-logging-in-the-oracle-e-business-suite-adapter"></a>診斷追蹤和訊息記錄在 Oracle E-business Suite 配接器
 診斷追蹤可讓您有效地診斷使用配接器時，可能會遇到的問題。 本主題提供下列三種支援的追蹤資訊[!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]:  
@@ -35,11 +35,11 @@ ms.lasthandoff: 09/20/2017
 ## <a name="wcf-tracing-between-the-adapter-client-and-the-adapter"></a>WCF 配接器用戶端與配接器之間的追蹤  
  配接器用戶端可以啟用 WCF 追蹤，配接器用戶端與配接器之間的追蹤問題。 WCF 追蹤用來追蹤來自配接器用戶端使用 WCF 服務模型，且有助於診斷問題序列化輸入的 XML。 WCF 追蹤不是適用於 WCF 通道模型或是從配接器至配接器用戶端的輸出訊息。 若要啟動 WCF 追蹤的 BizTalk 應用程式和 WCF 服務模型應用程式，您可以加入個別的組態檔中的摘錄。 此外，您可以啟用追蹤，在設計階段和執行階段。  
   
--   **在設計階段追蹤**。 為設計階段經驗，您可以使用[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]， [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]，或[!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]。 所有這些工具可以從使用[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]。 因此，若要啟用的設計階段經驗的追蹤，您必須加入摘要內的 devenv.exe.config 檔案位於*\<安裝磁碟機 >*: \Program Files\Microsoft Visual Studio  *\<版本 >*\Common7\IDE。  
+-   **在設計階段追蹤**。 為設計階段經驗，您可以使用[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]， [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]，或[!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]。 所有這些工具可以從使用[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]。 因此，若要啟用的設計階段經驗的追蹤，您必須加入摘要內的 devenv.exe.config 檔案位於*\<安裝磁碟機\>*: \Program Files\Microsoft Visual Studio *\<版本\>*\Common7\IDE。  
   
 -   **在執行階段追蹤**。 進行執行階段追蹤，您必須將根據您使用應用程式的摘要。  
   
-    -   如[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]應用程式，您必須加入至 BizTalk 組態檔，通常是 BTSNTSvc.exe.config 的摘錄。如[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]，這個檔案位在通常\<安裝磁碟機 >: \Program Files\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]。  
+    -   如[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]應用程式，您必須加入至 BizTalk 組態檔，通常是 BTSNTSvc.exe.config 的摘錄。BizTalk Server 的這個檔案是通常在\<安裝磁碟機\>: \Program Files\Microsoft BizTalk Server。  
   
     -   WCF 服務模型.NET 應用程式，您必須將摘要加入您專案的 app.config 檔案。  
   
@@ -91,11 +91,11 @@ ms.lasthandoff: 09/20/2017
 ## <a name="wcf-tracing-within-the-adapter"></a>WCF 配接器內的追蹤  
  配接器追蹤檔，例如錯誤、 警告和資訊訊息記錄有用資訊的不同的類別。 這類資訊是用於了解配接器內的程序流程和診斷配接器的問題。 您可以啟動[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]和配接器追蹤的 BizTalk 應用程式和 WCF 服務模型應用程式，方法是加入個別的組態檔的摘錄。 此外，您可以啟用追蹤，在設計階段和執行階段。  
   
--   **在設計階段追蹤**。 為設計階段經驗，您可以使用[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]， [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]，或[!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]。 所有這些工具可以從使用[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]。 因此，若要啟用的設計階段經驗的追蹤，您必須加入摘要內的 devenv.exe.config 檔案位於*\<安裝磁碟機 >*: \Program Files\Microsoft Visual Studio  *\<版本 >*\Common7\IDE。  
+-   **在設計階段追蹤**。 為設計階段經驗，您可以使用[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]， [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]，或[!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]。 所有這些工具可以從使用[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]。 因此，若要啟用的設計階段經驗的追蹤，您必須加入摘要內的 devenv.exe.config 檔案位於*\<安裝磁碟機\>*: \Program Files\Microsoft Visual Studio *\<版本\>*\Common7\IDE。  
   
 -   **在執行階段追蹤**。 進行執行階段追蹤，您必須將根據您使用應用程式的摘要。  
   
-    -   如[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]應用程式，您必須加入至 BizTalk 組態檔，通常是 BTSNTSvc.exe.config 的摘錄。如[!INCLUDE[btsbiztalkserver2006r2](../../includes/btsbiztalkserver2006r2-md.md)]，這個檔案位在通常\<安裝磁碟機 >: \Program Files\Microsoft [!INCLUDE[btsBizTalkServer2006](../../includes/btsbiztalkserver2006-md.md)]。 如[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]，這個檔案位在通常\<安裝磁碟機 >: \Program Files\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]。  
+    -   如[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]應用程式，您必須加入至 BizTalk 組態檔，通常是 BTSNTSvc.exe.config 的摘錄。如[!INCLUDE[btsbiztalkserver2006r2](../../includes/btsbiztalkserver2006r2-md.md)]，這個檔案位在通常\<安裝磁碟機\>: \Program Files\Microsoft [!INCLUDE[btsBizTalkServer2006](../../includes/btsbiztalkserver2006-md.md)]。 BizTalk Server 的這個檔案是通常在\<安裝磁碟機\>: \Program Files\Microsoft BizTalk Server。  
   
     -   WCF 服務模型.NET 應用程式，您必須將摘要加入您專案的 app.config 檔案。  
   
@@ -134,5 +134,5 @@ ms.lasthandoff: 09/20/2017
   
  您也可以使用 群組中樞[檢視追蹤的訊息和執行個體資料](../../core/viewing-tracked-message-and-instance-data.md)，包括最佳作法，儲存追蹤查詢等等。
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [配接器疑難排解](../../adapters-and-accelerators/adapter-oracle-ebs/troubleshooting-the-oracle-ebs-adapter.md)

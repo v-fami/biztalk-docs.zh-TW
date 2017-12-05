@@ -16,11 +16,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f346d2e7258c14e09dbcdc5f29ff0f7690cb4a4c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d4f8070c260c3972b2e8eef58af538932f1c5bf6
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="schema-samples"></a>結構描述範例
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK 包含一系列 RNIF 和夥伴介面程序 (PIP) 處理的 XSD 結構描述。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]您可以使用這些結構描述處理訊息。 您可以依照自己的目的修改這些結構描述，或是用來疑難排解失敗。  
@@ -32,19 +32,19 @@ ms.lasthandoff: 09/20/2017
   
  [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 已經將這些結構描述編譯至 RNPIP 組件。 您可以解除部署 RNPIP 組件，再變更結構描述，然後重新部署 RNPIP，藉以修改任何其中一個結構描述。 但是您必須小心，不要變更結構描述。 如果變更結構描述，您所做的變更可能不符合對應的 RosettaNet PIP。 您也可以在 RNPIP 中新增結構描述。 如需詳細資訊，請參閱[修改 Rnpip 中的現有 PIP](../../adapters-and-accelerators/accelerator-rosettanet/modifying-an-existing-pip-in-rnpips.md)。  
   
- [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]安裝程式會安裝在這些結構描述\<*磁碟機*>: \Program Files\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk\<版本 > Accelerator for rosettanet\sdk\schemas。  
+ [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]安裝程式會安裝在這些結構描述\<*磁碟機*\>: \Program Files\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk\<版本\>Accelerator forRosettanet\sdk\schemas。  
   
 ## <a name="rnif-schemas"></a>RNIF 結構描述  
  [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 會使用這些結構描述驗證 RNIF 訊息部分，例如前序、服務標頭和傳遞標頭， 其中也包括用於通知和例外狀況的結構描述。  
   
- [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]安裝程式會安裝在這些結構描述\<*磁碟機*>: \Program Files\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk\<版本 > Accelerator for RosettaNet\SDK\RNIFSchemas。  
+ [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]安裝程式會安裝在這些結構描述\<*磁碟機*\>: \Program Files\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk\<版本\>Accelerator forRosettaNet\SDK\RNIFSchemas。  
   
 ## <a name="rosettanet-next-generation-schemas"></a>RosettaNet 下一代結構描述  
  [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 會使用這些結構描述，驗證符合 RosettaNet 下一代結構描述的訊息。 這些結構描述本身支援 XSD，而非 DTD。 若要使用這些結構描述，將它們加入 Rnpip 組件中所述[修改 Rnpip 中的現有 PIP](../../adapters-and-accelerators/accelerator-rosettanet/modifying-an-existing-pip-in-rnpips.md)。  
   
- [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]安裝程式會安裝在這些結構描述\<*磁碟機*>: \Program Files\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk\<版本 > Accelerator for RosettaNet\SDK\Schemas\網域、 \Interchange 和 \Universal 資料夾。  
+ [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]安裝程式會安裝在這些結構描述\<*磁碟機*\>: \Program Files\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk\<版本\>Accelerator forRosettaNet\SDK\Schemas\Domain、 \Interchange 和 \Universal 資料夾。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [PIP 實作](../../adapters-and-accelerators/accelerator-rosettanet/pip-implementation.md)   
  [使用 Pip](../../adapters-and-accelerators/accelerator-rosettanet/working-with-pips.md)   
  [範例](../../adapters-and-accelerators/accelerator-rosettanet/samples3.md)

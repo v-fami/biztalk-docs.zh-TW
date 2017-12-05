@@ -12,14 +12,14 @@ caps.latest.revision: "30"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: dc98b010edfbc92a07af5625af16a3af77674247
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 36e2f9fcc839625cc0b1ac01ec6e70b53eb2a6e2
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="edi-context-properties"></a>EDI 內容屬性
-EDI 全域屬性結構描述中的訊息內容屬性都是公開屬性，因此您可以在像是訊息路由等作業中使用這些內容屬性。 這些內容屬性都是定義在 Microsoft.BizTalk.Edi.BaseArtifacts 組件的 PropertySchema.xsd 結構描述中。 屬性的命名空間是 `http://schemas.microsoft.com/ Edi/PropertySchema`。 如果升級，這些訊息內容屬性就可做為 Edi。\<*屬性名稱*> 中**篩選**頁面**傳送埠屬性 對話方塊** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。
+EDI 全域屬性結構描述中的訊息內容屬性都是公開屬性，因此您可以在像是訊息路由等作業中使用這些內容屬性。 這些內容屬性都是定義在 Microsoft.BizTalk.Edi.BaseArtifacts 組件的 PropertySchema.xsd 結構描述中。 屬性的命名空間是 `http://schemas.microsoft.com/ Edi/PropertySchema`。 如果升級，這些訊息內容屬性就可做為 Edi。\<*屬性名稱*\>中**篩選**頁面**傳送埠屬性 對話方塊** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。
 
 
 ## <a name="context-properties-list"></a>內容屬性清單  
@@ -42,8 +42,8 @@ EDI 全域屬性結構描述中的訊息內容屬性都是公開屬性，因此�
 |BatchName|字串|要處理這份文件時使用的批次組態的名稱。|  
 |CodePage|string|要用來驗證交換的字碼頁。|  
 |CONTRL_UCI4|string|CONTRL 通知的「動作代碼」欄位，表示交換已被接受 (值 "8")，或交換已因 UNA 或 UNB 區段錯誤而被拒絕 (值 "4") (僅限 EDIFACT CONTRL 通知)。|  
-|DestinationPartyID (中已被取代[!INCLUDE[prague](../includes/prague-md.md)])|int|訊息應傳送目標之目的合作對象的識別碼。|  
-|DestinationPartyName (中已被取代[!INCLUDE[prague](../includes/prague-md.md)])|string|訊息應傳送目標之目的合作對象的名稱。|  
+|DestinationPartyID （BizTalk Server 中已被取代）|int|訊息應傳送目標之目的合作對象的識別碼。|  
+|DestinationPartyName （BizTalk Server 中已被取代）|string|訊息應傳送目標之目的合作對象的名稱。|  
 |DestinationPartyReceiver<br />識別碼|string|訊息應傳送目標之目的合作對象的識別碼。 這個屬性可由自訂元件升級，以啟用傳送管線中的合作對象解析。|  
 |DestinationPartyReceiver<br />Qualifier|string|訊息應傳送目標之目的合作對象的辨識符號。 這個屬性可由自訂元件升級，以啟用傳送管線中的合作對象解析。|  
 |DestinationPartySender<br />識別碼|string|傳送訊息至目的合作對象之合作對象的識別碼。 這個屬性可由自訂元件升級，以啟用傳送管線中的合作對象解析。|  
@@ -95,7 +95,7 @@ EDI 全域屬性結構描述中的訊息內容屬性都是公開屬性，因此�
   
  如果您需要的其中一個區段 （ISA、 GS、 UNB、 UNG 或 UNA） 寫入至訊息內容中，個別的欄位，但該個別欄位不會寫入訊息內容根據預設，您必須撰寫自訂元件，以寫入訊息內容。 這個自訂元件必須剖析區段欄位，並將個別的欄位寫入到訊息內容。  
   
- 「訊息豐富」範例示範如何使用剖析器，從區段中擷取個別的欄位並將其寫入至內容。 這個範例包含在\<磁碟機 >: \Program Files\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\SDK\Samples\EDI\MessageEnrichment。 如需詳細資訊，請參閱[訊息豐富 」 範例 （BizTalk Server 範例）](../core/message-enrichment-sample-biztalk-server-sample.md)。  
+ 「訊息豐富」範例示範如何使用剖析器，從區段中擷取個別的欄位並將其寫入至內容。 這個範例包含在\<磁碟機\>: \Program Files\Microsoft BizTalk Server\SDK\Samples\EDI\MessageEnrichment。 如需詳細資訊，請參閱[訊息豐富 」 範例 （BizTalk Server 範例）](../core/message-enrichment-sample-biztalk-server-sample.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [開發和設定 BizTalk Server EDI 解決方案](../core/developing-and-configuring-biztalk-server-edi-solutions.md)

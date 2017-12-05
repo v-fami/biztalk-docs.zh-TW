@@ -12,11 +12,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2bad04c72e4c3f0caf1af8e223d3f17e4687b736
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9383dd3751f9ccdd7790b0215e596eba95dc4a45
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-open-save-close-and-rename-maps"></a>如何開啟、儲存、關閉和重新命名對應
 在 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，對應為檔案系統中存在的檔案以.btm 為副檔名。 不過，更常見的狀況是將對應作為 BizTalk 專案中的項目使用，您可以從 BizTalk 專案中執行如開啟、儲存和關閉對應等作業。  
@@ -36,13 +36,13 @@ ms.lasthandoff: 09/20/2017
   
 1.  在 [方案總管] 中，選取要儲存的對應。  
   
-2.  在**檔案**功能表上，按一下 **儲存*\<名稱的對應 >***。  
+2.  在**檔案**功能表上，按一下 **儲存*\<名稱的對應\>***。  
   
 ### <a name="to-save-a-map-to-a-new-location"></a>將對應儲存至新位置  
   
 1.  在 [方案總管] 中，選取要儲存至新位置的對應。  
   
-2.  在**檔案**功能表上，按一下 **儲存*\<名稱的對應 >*為**。  
+2.  在**檔案**功能表上，按一下 **儲存*\<名稱的對應\>*為**。  
   
 3.  在**另存新檔**對話方塊中，瀏覽至您要儲存對應的資料夾位置。  
   
@@ -69,5 +69,5 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  您也可以按一下關閉圖示 ([**x**]) 的 Microsoft 右上角[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]編輯視窗。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理專案中的對應](../core/managing-maps-within-projects.md)

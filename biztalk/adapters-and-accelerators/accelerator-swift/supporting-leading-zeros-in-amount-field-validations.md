@@ -16,11 +16,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1de45b5acbc780fad0847ab207d0d5c72ca2a652
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3559b63ec7588fa2d7451779947a476cf19b7bf0
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="supporting-leading-zeros-in-amount-field-validations"></a>支援前置 0 量欄位驗證
 某些訊息類型的驗證原則數量欄位上執行驗證。 若要啟用數量 欄位中的前置零，您必須編輯訊息類型的驗證原則。 您可以建立新版本的預設的驗證原則，並編輯 [商務規則編輯器] 中的引數，或在部署原則之前，您可以編輯預設原則，以手動方式在文字編輯器。  
@@ -41,7 +41,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  開啟文字編輯器，例如 [記事本]。  
   
-2.  在編輯器中，瀏覽至您要啟用或停用前置零的訊息驗證原則的位置。 例如，您可以找到訊息驗證原則 MT103 訊息類型，MT103_Validation_Policy.xml，在*\<磁碟機 >*: / 程式檔案/Microsoft BizTalk Accelerator for SWIFT/SWIFT 訊息/類別 1/ MT103。 開啟 驗證原則。  
+2.  在編輯器中，瀏覽至您要啟用或停用前置零的訊息驗證原則的位置。 例如，您可以找到訊息驗證原則 MT103 訊息類型，MT103_Validation_Policy.xml，在*\<磁碟機\>*: / 程式檔案/Microsoft BizTalk Accelerator for SWIFT/SWIFT 訊息/ 類別 1/MT103。 開啟 驗證原則。  
   
 3.  在原則中，搜尋上**CheckValidAmount**方法。  
   

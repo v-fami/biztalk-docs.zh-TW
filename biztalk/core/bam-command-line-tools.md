@@ -13,14 +13,14 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: bdf61e3c876d4e4e376952f72a8a5bd4a3cd90db
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9c0583b119aec96264807928b1dab6bd219b5ab2
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="bam-command-line-tools"></a>BAM 命令列工具
-本節提供 Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 所附 BAM 命令列工具的參考資訊。  
+本節提供 Microsoft BizTalk Server 隨附的 BAM 命令列工具的參考資訊。  
   
 ## <a name="available-tools"></a>可用的工具 
   
@@ -28,4 +28,4 @@ ms.lasthandoff: 09/20/2017
   
 -   [追蹤設定檔部署公用程式](../core/tracking-profile-deployment-utility.md)  
   
--   [BAM 通知的命令列指令碼服務組態檔](../core/bam-command-line-script-for-notification-services-configuration-files.md)
+-   [Notification Services 設定檔的 BAM 命令列指令碼](../core/bam-command-line-script-for-notification-services-configuration-files.md)

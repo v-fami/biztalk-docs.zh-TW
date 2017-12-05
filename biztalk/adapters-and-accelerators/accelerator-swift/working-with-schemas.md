@@ -15,16 +15,16 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e1c12936f2883bfdbcdcd80d300d2ab5a9ff58d2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 404beaeb617f7a6c0c5e3fc4ddc40126e6b97990
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="working-with-schemas"></a>使用結構描述
 中提供的結構描述[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]是[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]協會全球 Interbank 財務 Telecommunication (SWIFT) FIN 訊息的 XSD 表示法。 每個訊息類型都有自己的結構描述，包括 SWIFT 標頭和 SWIFT trailer （交換格式）。 此結構描述便可傳送或接收 SWIFT 的訊息。 這些結構描述是唯一的分隔和位置記錄，以提供詳細的 XML 表示法，一般檔案 FIN 結構的混合。  
   
- 大部分的 SWIFT 客戶使用 SWIFT FIN 訊息相對較小的子集。 若要實作解決方案，這些客戶，您可以建立 BizTalk 結構描述專案 (如所示[單元 2： 加入新的結構描述專案](../../adapters-and-accelerators/accelerator-swift/module-2-adding-a-new-schemas-project.md)A4SWIFT 教學課程的)。 新增相關的訊息結構描述 (MT*xxx*.xsd) 從\\\ Program Files\Microsoft BizTalk Accelerator for SWIFT\<版本 > MessagePack\SWIFT Messages\A4SWIFT SRG\<版本 > \類別 x\MT xyy 目錄，其中 x 是 FIN 訊息類型和 xyy 第一個數字是訊息的三位數的訊息類型。  
+ 大部分的 SWIFT 客戶使用 SWIFT FIN 訊息相對較小的子集。 若要實作解決方案，這些客戶，您可以建立 BizTalk 結構描述專案 (如所示[單元 2： 加入新的結構描述專案](../../adapters-and-accelerators/accelerator-swift/module-2-adding-a-new-schemas-project.md)A4SWIFT 教學課程的)。 新增相關的訊息結構描述 (MT*xxx*.xsd) 從\\\ Program Files\Microsoft BizTalk Accelerator for SWIFT\<版本\>MessagePack\SWIFT Messages\A4SWIFT SRG\<版本\>\Category x\MT xyy 目錄，其中 x 是 FIN 訊息類型的第一個數字，而 xyy 是訊息的三位數的訊息類型。  
   
  您可以將數個結構描述加入至相同的專案。 若要維護可管理性，您不應該新增 20 個以上的訊息結構描述，每個專案。 您也需要將基底且常見的結構描述加入至專案。 如果您已部署的基底且常見的結構描述，您需要在它們的組件參考，而不是將其部署。 本章節描述這些結構描述。 訊息結構描述就可以開始使用，因為是 SWIFT 網路傳送的訊息和接收來自 SWIFT 的訊息。  
   
@@ -62,8 +62,8 @@ ms.lasthandoff: 09/20/2017
   
  此部分包含：  
   
--   [基底和常見的結構描述](../../adapters-and-accelerators/accelerator-swift/base-and-common-schemas.md)  
+-   [基底和通用結構描述](../../adapters-and-accelerators/accelerator-swift/base-and-common-schemas.md)  
   
--   [SWIFT 的標頭和結尾結構描述](../../adapters-and-accelerators/accelerator-swift/swift-header-and-trailer-schemas.md)  
+-   [SWIFT 標頭和結尾結構描述](../../adapters-and-accelerators/accelerator-swift/swift-header-and-trailer-schemas.md)  
   
--   [SWIFT 的結構描述的命名慣例](../../adapters-and-accelerators/accelerator-swift/swift-schema-naming-conventions.md)
+-   [SWIFT 結構描述命名慣例](../../adapters-and-accelerators/accelerator-swift/swift-schema-naming-conventions.md)

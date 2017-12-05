@@ -13,11 +13,11 @@ caps.latest.revision: "36"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9d7e611996e58291cdf6ed5d6b38b2b2fe5c299d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 23f326a6fe028c5b7ea5edf60216c1933eccbdb6
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="before-installing-the-service-oriented-solution"></a>安裝服務導向解決方案之前
 必須具備下列必要條件才能在單一電腦上安裝服務導向解決方案的虛設常式版本：  
@@ -46,7 +46,7 @@ ms.lasthandoff: 09/20/2017
 -   本機電腦上的 MQSeries Server，或存取執行 MQSeries Server 的電腦。 在內嵌版本中，MQSeries 用戶端 API 必須可以在執行解決方案之協調流程的 BizTalk Server 上使用。  
   
     > [!NOTE]
-    >  MQSeries Server 的版本必須與 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] MQSeries 配接器所需的版本相符。 這可以包括 IBM WebSphere MQ for Windows Version 5.3 搭配 Fix Pack 10 (CSD10) 或更新的版本。  
+    >  MQSeries Server 的版本必須符合 BizTalk Server MQSeries 配接器所需的版本。 這可以包括 IBM WebSphere MQ for Windows Version 5.3 搭配 Fix Pack 10 (CSD10) 或更新的版本。  
   
     > [!NOTE]
     >  當使用 MQSeries 這類會對伺服器進行「分散式元件物件模型」(Distributed Component Object Model，DCOM) 呼叫的功能時，請確定您並未啟用「網路位址轉譯」(Network Address Translation，NAT) 架構的防火牆。 用戶端必須能以伺服器的實際 IP 位址來存取伺服器，而 NAT 架構的防火牆會將此位址轉譯為用戶端無法辨識的位址。  
@@ -58,12 +58,12 @@ ms.lasthandoff: 09/20/2017
 -   連接大型主機必須要有 Host Integration Server。  
   
     > [!NOTE]
-    >  Host Integration Server 是包含在[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]。  
+    >  Host Integration Server 是 BizTalk Server 的一部分。  
   
 -   以 HTTPS 連線憑證設定的 Web 伺服器。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [How to Install 虛設常式版本的服務導向解決方案](../core/how-to-install-the-stub-version-of-the-service-oriented-solution.md)   
  [如何安裝內嵌和配接器版本的服務導向解決方案](../core/how-to-install-the-inline-and-adapter-versions-of-the-service-oriented-solution.md)   
  [如何執行服務導向解決方案](../core/how-to-run-the-service-oriented-solution.md)   
- [開發人員電腦設定為服務導向解決方案](../core/developer-machine-setup-for-the-service-oriented-solution.md)
+ [服務導向解決方案的開發人員電腦設定](../core/developer-machine-setup-for-the-service-oriented-solution.md)

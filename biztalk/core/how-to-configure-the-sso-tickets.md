@@ -16,11 +16,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ef78c47c3da88945573a70e85580c90e05b1d225
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c3b19d14a35d42c4a46bf9527a97f5bf749b875f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-configure-the-sso-tickets"></a>如何設定 SSO 票證
 您可以使用 [MMC 嵌入式管理單元] 或命令列來控制整個「單一登入」系統的票證行為，包括是否允許票證以及系統是否必須驗證票證。  
@@ -57,9 +57,9 @@ ms.lasthandoff: 09/20/2017
   
 1.  在**啟動**功能表上，按一下 **執行**，然後輸入**cmd**。  
   
-2.  在命令列，移至「企業單一登入」安裝目錄。 預設安裝目錄是*\<磁碟機 >*: \Program Files\Common Files\Enterprise Single Sign-on。  
+2.  在命令列，移至「企業單一登入」安裝目錄。 預設安裝目錄是*\<磁碟機\>*: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-3.  型別**ssomanage – 票證\<允許是/否 > *\<驗證是/否 >***，其中*\<允許是/否 >*表示，系統是否允許票證和*\<驗證是/否 >*指出是否需要重新驗證後贖回票證。  
+3.  型別**ssomanage – 票證\<允許是/否\> *\<驗證是/否\>***，其中*\<允許是/否\>* 表示，系統是否允許票證和*\<驗證是/否\>*指出是否需要重新驗證後贖回票證.  
   
     > [!NOTE]
     >  您可以使用 [yes]、[no]、[on] 或 [off] 來表示是否允許和/或驗證票證。 這些字與大小寫無關，不論您的語言設定為何都必須使用。  
@@ -67,6 +67,6 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [瞭解 SSO](../core/understanding-sso.md)   
  [使用 SSO](../core/using-sso.md)

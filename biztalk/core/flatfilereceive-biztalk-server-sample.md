@@ -12,11 +12,11 @@ caps.latest.revision: "20"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e990e402b0b05c530764d578219adccc386b82cb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: db996437cce8cb6f89fb00b589fcbc95429e72f2
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="flatfilereceive-biztalk-server-sample"></a>FlatFileReceive （BizTalk Server 範例）
 FlatFileReceive 範例會示範如何使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 將一般檔案處理成相等的 .xml 檔案。  
@@ -51,7 +51,7 @@ FlatFileReceive 範例會示範如何使用 [!INCLUDE[btsBizTalkServerNoVersion]
 -   傳送管線會使用 XmlTransmit。 傳送埠不需要屬性降級或其他訊息的處理時，請使用 PassThruTransmit 管線。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- *\<範例路徑 >*\Pipelines\AssemblerDisassembler\FlatFileReceive\  
+ *\<範例路徑\>*\Pipelines\AssemblerDisassembler\FlatFileReceive\  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -72,13 +72,13 @@ FlatFileReceive 範例會示範如何使用 [!INCLUDE[btsBizTalkServerNoVersion]
   
 1.  在命令視窗中，瀏覽至下列資料夾：  
   
-     *\<範例路徑 >*\Pipelines\AssemblerDisassembler\FlatFileReceive  
+     *\<範例路徑\>*\Pipelines\AssemblerDisassembler\FlatFileReceive  
   
 2.  執行檔案 Setup.bat，這會執行下列動作：  
   
     -   為資料夾內的這個範例建立輸入 (FFInput) 和輸出 (FFOutput) 資料夾。  
   
-         *\<範例路徑 >*\Pipelines\AssemblerDisassembler\FlatFileReceive  
+         *\<範例路徑\>*\Pipelines\AssemblerDisassembler\FlatFileReceive  
   
     -   為這個範例編譯和部署 Visual Studio 專案。  
   
@@ -119,11 +119,11 @@ FlatFileReceive 範例會示範如何使用 [!INCLUDE[btsBizTalkServerNoVersion]
   
 -   **BTSTask RemoveApp**用以移除 FlatFileReceiveApplication  
   
-## <a name="see-also"></a>另請參閱  
--  [管線 AssemblerDisassembler （BizTalk Server 範例資料夾）](../core/pipelines-assemblerdisassembler-biztalk-server-samples-folder.md)   
+## <a name="see-also"></a>請參閱  
+-  [Pipelines-AssemblerDisassembler (BizTalk Server Samples 資料夾)](../core/pipelines-assemblerdisassembler-biztalk-server-samples-folder.md)   
 -  [一般檔案解譯器管線元件](../core/flat-file-disassembler-pipeline-component.md)   
 -  [一般檔案結構描述](../core/flat-file-schemas.md)   
 -  [預設管線](../core/default-pipelines.md)   
 -  **WMI 指令碼範例**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]   
 -  [BTSTask 命令列參考](../core/btstask-command-line-reference.md)   
--  [FlatFileSend （BizTalk Server 範例）](../core/flatfilesend-biztalk-server-sample.md)
+-  [FlatFileSend (BizTalk Server 範例)](../core/flatfilesend-biztalk-server-sample.md)

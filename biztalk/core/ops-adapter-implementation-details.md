@@ -19,11 +19,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5d68a55ce0f6eba835313075e8ab3753ec825db2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3172759541f46ec6c3c8c2b3e684086747036f37
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="ops-adapter-implementation-details"></a>Ops 配接器實作詳細資料
 您會發現以程式設計方式修改或設定配接器時，瞭解 Ops 配接器的下列層面是非常有用的。  
@@ -50,9 +50,9 @@ ms.lasthandoff: 09/20/2017
 |**InitializationData**|**InitializationData**|  
 |**TransportLocationUri**|不適用。|  
   
- 所有屬性均為字串值。 您可以從組件名稱和類別名稱建構 TransportLocationUri 屬性的值。 URI 具有 OPS 的值: / /\<DotNetAssemblyStrongName > /\<DotNetClassName > 其中對應的自訂屬性的值會取代預留位置。  
+ 所有屬性均為字串值。 您可以從組件名稱和類別名稱建構 TransportLocationUri 屬性的值。 URI 具有 OPS 的值: / /\<DotNetAssemblyStrongName\>/\<DotNetClassName\>其中預留位置會取代對應的自訂屬性的值。  
   
  從程式碼建立連接埠的詳細資訊，請參閱[如何建立 MSMQ 接收位置和傳送埠的程式碼](../core/how-to-create-msmq-receive-locations-and-send-ports-from-code.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [Ops 配接器](../core/the-ops-adapter.md)

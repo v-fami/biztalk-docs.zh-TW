@@ -15,14 +15,14 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 07c644115eb65200bd041889cf072597716e808f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 97e60195bb66e06aafc02e76b43fb251cb9860a7
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="programming-guide"></a>程式設計手冊
-《[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Programming Guide》會說明開發人員使用 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 撰寫程式碼的概念與程序。 使用本指南搭配[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]幫助。  
+《[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Programming Guide》會說明開發人員使用 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 撰寫程式碼的概念與程序。 使用本指南搭配[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server 說明。  
   
 > [!NOTE]
 >  閱讀本指南之前, 您應該熟悉[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsVCSharp](../../includes/btsvcsharp-md.md)]® 開發，BizTalk Server 和[RosettaNet 加速器](learn-the-rosettanet-accelerator-and-the-biztalk-tools-available.md)。
@@ -34,6 +34,6 @@ ms.lasthandoff: 09/20/2017
   
 -   [自訂私用程序](../../adapters-and-accelerators/accelerator-rosettanet/customizing-private-processes.md)  
   
--   [使用 Pip](../../adapters-and-accelerators/accelerator-rosettanet/working-with-pips.md)  
+-   [使用 PIP](../../adapters-and-accelerators/accelerator-rosettanet/working-with-pips.md)  
   
 -   [自訂傳送和接收元件](../../adapters-and-accelerators/accelerator-rosettanet/customizing-send-and-receive-components.md)

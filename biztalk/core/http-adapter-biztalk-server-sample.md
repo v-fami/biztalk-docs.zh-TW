@@ -15,17 +15,17 @@ caps.latest.revision: "32"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a4f443bf0b60f0bb90a914824b3922110ee1b300
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f09615b8038170bfdc0f9d63492e40dc1b2a0eba
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="http-adapter-biztalk-server-sample"></a>HTTP 配接器 （BizTalk Server 範例）
 HTTP 配接器範例會示範如何實作用於 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的「要求/回應」和「請求/回應」範例。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- *\<範例路徑 >*\AdaptersDevelopment\HttpAdapter\  
+ *\<範例路徑\>*\AdaptersDevelopment\HttpAdapter\  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -49,7 +49,7 @@ HTTP 配接器範例會示範如何實作用於 [!INCLUDE[btsBizTalkServerNoVers
   
 1.  在命令視窗中，瀏覽至下列資料夾：  
   
-     \<*範例路徑*> \AdaptersDevelopment\HttpAdapter  
+     \<*範例路徑*\>\AdaptersDevelopment\HttpAdapter  
   
 2.  執行檔案 Setup.bat，這會執行下列動作：  
   
@@ -63,7 +63,7 @@ HTTP 配接器範例會示範如何實作用於 [!INCLUDE[btsBizTalkServerNoVers
   
 -   IIS_WPG 群組。  
   
--   在 IIS 7.0 上，您必須移轉應用程式，才能使其在整合式 .NET 模式下運作。 您可以移轉應用程式組態，包括內容\<httpHandlers > 組態區段中的，從命令列視窗 （視窗必須以系統管理員身分執行） 使用下列：  
+-   在 IIS 7.0 上，您必須移轉應用程式，才能使其在整合式 .NET 模式下運作。 您可以移轉應用程式組態，包括內容\<httpHandlers\>組態區段中的，從命令列視窗 （視窗必須以系統管理員身分執行） 使用下列：  
   
     ```  
     %systemroot%\system32\inetsrv\APPCMD.EXE migrate config "Default Web Site/HttpReceive"  
@@ -84,7 +84,7 @@ HTTP 配接器範例會示範如何實作用於 [!INCLUDE[btsBizTalkServerNoVers
   
 #### <a name="to-register-the-http-adapter-sample"></a>若要註冊此 HTTP 配接器範例  
   
-1.  在 Windows 檔案總管 中，瀏覽至安裝磁碟機[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，然後瀏覽至\<範例路徑 > \AdaptersDevelopment\HTTPAdapter。  
+1.  在 Windows 檔案總管 中，瀏覽至安裝磁碟機[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，然後瀏覽至\<範例路徑\>\AdaptersDevelopment\HTTPAdapter。  
   
 2.  若要將範例配接器加入至登錄中，按兩下**HTTP.NET.reg**。  
   
@@ -137,9 +137,9 @@ HTTP 配接器範例會示範如何實作用於 [!INCLUDE[btsBizTalkServerNoVers
  現在，您的應用程式可開始使用 HTTP.NET 配接器。 當設定配接器，格式為**虛擬目錄**傳輸屬性是表單： /httpreceive/httpreceive.aspx?optionalQueryString。  
   
 ## <a name="comments"></a>註解  
- 中提供的 BaseAdapter 類別使用 HTTP.NET 配接器可讓*\<範例路徑 >*\AdaptersDevelopment\BaseAdapter\v1.0...2\\。 這些提供於 BaseAdapter 專案中的類別是為了加速配接器的開發。 如需所提供類別的詳細資料，請參閱 BaseAdapter 程式碼註解。  
+ 中提供的 BaseAdapter 類別使用 HTTP.NET 配接器可讓*\<範例路徑\>*\AdaptersDevelopment\BaseAdapter\v1.0...2\\。 這些提供於 BaseAdapter 專案中的類別是為了加速配接器的開發。 如需所提供類別的詳細資料，請參閱 BaseAdapter 程式碼註解。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [註冊配接器](../core/registering-an-adapter.md)   
  [配接器範例-使用方式](../core/adapter-samples-usage.md)   
  [開發自訂配接器](../core/developing-custom-adapters.md)   
@@ -149,4 +149,4 @@ HTTP 配接器範例會示範如何實作用於 [!INCLUDE[btsBizTalkServerNoVers
  [開發傳送配接器](../core/developing-a-send-adapter.md)   
  [如何部署自訂的配接器](../core/how-to-deploy-a-custom-adapter.md)   
  [設計您的配接器的秘訣](../core/tips-for-designing-your-adapter.md)   
- [配接器設計階段組態](../core/adapter-design-time-configuration.md)
+ [配接器設計階段設定](../core/adapter-design-time-configuration.md)

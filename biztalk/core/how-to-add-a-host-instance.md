@@ -12,11 +12,11 @@ caps.latest.revision: "27"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6a446f5527bf06164d14079c0bb40f2f41942f38
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c4c2e029e9599143c52577771a313d9810ca6f12
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="add-a-host-instance"></a>新增主控件執行個體
 
@@ -78,7 +78,7 @@ ms.lasthandoff: 09/20/2017
   
  如果您嘗試在無法使用的 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 電腦上建立 BizTalk 主控件執行個體，則會出現一個對話方塊，其中包含下列錯誤訊息：  
   
- 安裝主控件 instace \<*主機名稱*> 伺服器上\<*伺服器名稱*> 失敗。  
+ 安裝主控件 instace \<*主機名稱*\>伺服器上\<*伺服器名稱*\>失敗。  
   
  其他資訊：  
   
@@ -86,11 +86,11 @@ ms.lasthandoff: 09/20/2017
   
  當您按一下 [確定] 關閉此對話方塊時，會顯示一個對話方塊，其中包含下列錯誤訊息：  
   
- 清除已完成中止的主機安裝\<*主機名稱*> 伺服器上\<*伺服器名稱*> 失敗。  
+ 清除已完成中止的主機安裝\<*主機名稱*\>伺服器上\<*伺服器名稱*\>失敗。  
   
  其他資訊：  
   
- 發生失敗時刪除 Windows NT 服務 BTSSvc {*\<GUID >*}。 (WinMgmt)  
+ 發生失敗時刪除 Windows NT 服務 BTSSvc {*\<GUID\>*}。 (WinMgmt)  
   
  當您按一下**確定**若要關閉此對話方塊中，BizTalk 主控件執行個體便會顯示在 BizTalk 管理主控台與**狀態**的**Uninstall 失敗**.  
   
@@ -103,7 +103,7 @@ ms.lasthandoff: 09/20/2017
 > [!NOTE]
 >  如果使用 BizTalk 管理主控台中建立 BizTalk 主控件執行個體**狀態**的**Uninstall 失敗**主控件執行個體將無法正常運作即使指定[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]電腦再次變為無法使用。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理 BizTalk 主控件和主控件執行個體](../core/managing-biztalk-hosts-and-host-instances.md)   
  [啟動主控件執行個體](../core/how-to-start-a-host-instance.md)   
  [停止主控件執行個體](../core/how-to-stop-a-host-instance.md)   

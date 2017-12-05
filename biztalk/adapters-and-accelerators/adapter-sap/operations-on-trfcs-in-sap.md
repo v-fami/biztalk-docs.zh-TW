@@ -26,11 +26,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6e60465716931161e9b9949e16c4630d85c2cfe2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4eac8dab219e46dc569b604a63e195f4613eb344
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="operations-on-trfcs-in-sap"></a>TRFCs SAP 中的作業
 交易式 Rfc (tRFCs) 是工作的一個邏輯單位 (LUW) 的一部分會叫用的 Rfc。 在 SAP 系統，luw 會包含所有完成的商業或程式設計工作所需的步驟。 TRFC 代表 RFC; 叫用的方法它不是唯一的 SAP 成品。  
@@ -114,7 +114,7 @@ ms.lasthandoff: 09/20/2017
   
 -   配接器必須向 SAP 閘道上的 RFC 目的地。 註冊為基礎的邏輯名稱呼叫的程式識別碼。 您提供連線至指定的程式識別碼 URI 中的參數 SAP 閘道，以及此註冊 SAP 伺服器。  
   
--   TID 資料庫必須建立 SQL Server 中。 若要這樣做，您必須執行安裝程式已安裝的 SQL 指令碼。 SQL 指令碼通常會安裝在\<安裝磁碟機 >: \Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]。 如需詳細資訊，請參閱[安裝 BizTalk Adapter Pack](http://msdn.microsoft.com/library/2ae27db5-b11b-42c3-a568-e2331badf80e)。  
+-   TID 資料庫必須建立 SQL Server 中。 若要這樣做，您必須執行安裝程式已安裝的 SQL 指令碼。 SQL 指令碼通常會安裝在\<安裝磁碟機\>: \Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]。 如需詳細資訊，請參閱[安裝 BizTalk Adapter Pack](http://msdn.microsoft.com/library/2ae27db5-b11b-42c3-a568-e2331badf80e)。  
   
 -   **TidDatabaseConnectionString**繫結屬性必須設定為 TID 資料庫的 SQL 資料庫連接字串。 如需有關**TidDatabaseConnectionString**繫結屬性，請參閱[閱讀 BizTalk Adapter for mySAP Business Suite 繫結屬性](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md)。  
   
@@ -151,5 +151,5 @@ ms.lasthandoff: 09/20/2017
   
  如需訊息結構和 RfcConfirmTransID 作業的 SOAP 動作的詳細資訊，請參閱[tRFC 作業的訊息結構描述](../../adapters-and-accelerators/adapter-sap/message-schemas-for-trfc-operations.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [連接至 SAP 系統使用配接器](../../adapters-and-accelerators/adapter-sap/connect-to-an-sap-system-using-the-adapter.md)

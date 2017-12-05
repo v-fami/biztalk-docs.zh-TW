@@ -12,17 +12,17 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1ea474e3717ec69dfe04261ba144a46350223856
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4c2e4adac7c7d1503a49f68208e45e09f86b67ac
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="processing-json-messages-using-biztalk-server"></a>使用 BizTalk Server 處理 JSON 訊息
 > [!NOTE]
->  本教學課程僅適用於 [!INCLUDE[prague](../includes/prague-md.md)]。  
+>  本教學課程僅適用於 BizTalk Server。  
   
- 本教學課程示範如何使用 JSON 訊息處理[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。 本教學課程會使用自訂管線元件，現在適用於[!INCLUDE[prague](../includes/prague-md.md)]。 這些管線元件會將 JSON 訊息轉換成 XML (接收到訊息時[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]協調流程，並將訊息從 XML 轉換為 JSON，時送出訊息。  
+ 本教學課程示範如何使用 JSON 訊息處理[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。 本教學課程會使用與 BizTalk Server 現在可用的自訂管線元件。 這些管線元件會將 JSON 訊息轉換成 XML (接收到訊息時[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]協調流程，並將訊息從 XML 轉換為 JSON，時送出訊息。  
   
 ## <a name="what-does-this-tutorial-do"></a>此教學課程，請執行有哪些功能？  
  為了示範 JSON 處理中，我們建立[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]執行下列命令，依指定的順序：  
@@ -48,5 +48,5 @@ ms.lasthandoff: 09/20/2017
   
 -   [部署和測試應用程式](../core/deploy-and-test-the-application.md)  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [BizTalk Server 教學課程](../core/biztalk-server-tutorials.md)

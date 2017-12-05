@@ -16,11 +16,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ac86d1aa254de81c2778ce1a2c1f0e63c1c1e1ee
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 15c4612db6e3cde4e46385b1c5d1810fbb00eb70
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="using-the-servicemodel-metadata-utility-tool-with-the-biztalk-adapter-for-mysap-business-suite"></a>使用 BizTalk adapter 的 ServiceModel Metadata Utility Tool for mySAP Business Suite
 您可以使用 ServiceModel Metadata Utility Tool (svcutil.exe) 來產生 WCF 用戶端類別或作業的 WCF 服務合約 （介面），[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]公開。 執行 svcutil.exe 產生 WCF 用戶端類別或 WCF 服務合約之後，您可以在您的程式碼中包含所產生的檔案和建立所產生類別的執行個體或從實作 WCF 服務產生的介面上的 SAP 執行作業系統。  
@@ -43,9 +43,9 @@ ms.lasthandoff: 09/20/2017
   
     ```  
     <configuration>  
-      \<system.serviceModel>  
+      <system.serviceModel>  
         <client>  
-          \<!-- the name should match the required scheme of the WS-Metadata Exchange endpoint   
+          <!-- the name should match the required scheme of the WS-Metadata Exchange endpoint   
           and the contract should be "IMetadataExchange" -->  
           <endpoint name="sap"  
                     binding="sapBinding"  
@@ -58,7 +58,7 @@ ms.lasthandoff: 09/20/2017
           </sapBinding>  
         </bindings>  
   
-      \</system.serviceModel>  
+      </system.serviceModel>  
   
     </configuration>  
     ```  

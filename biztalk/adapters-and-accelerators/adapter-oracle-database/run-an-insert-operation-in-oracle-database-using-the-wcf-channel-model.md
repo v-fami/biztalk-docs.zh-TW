@@ -18,11 +18,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 540cd06f15ae95dba41636418be273a78c39f447
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9fd689cbf378f41578c5f46b3067410a184cf650
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="run-an-insert-operation-in-oracle-database-using-the-wcf-channel-model"></a>在使用 WCF 通道模型的 Oracle 資料庫執行插入作業
 本節說明如何使用通道，Oracle 資料庫中插入一筆記錄。 當您傳送訊息時，您必須指定訊息本文和訊息動作。  
@@ -31,9 +31,9 @@ ms.lasthandoff: 09/20/2017
  下列 XML 顯示 HR Insert 作業的訊息主體。EMPLOYEES 資料表。 記錄組包含單一位員工的記錄。 插入訊息的結構描述的相關資訊，請參閱[基本 Insert、 Update、 Delete 和資料表和檢視表的選取作業的訊息結構描述](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-insert-update-delete-and-select-on-tables-and-views.md)。 這是範例中使用 Employee_Insert.xml 檔案的內容。  
   
 ```  
-\<!-- New namespace: http://Microsoft.LobServices.OracleDB/2007/03/HR/Table/EMPLOYEES -->  
+<!-- New namespace: http://Microsoft.LobServices.OracleDB/2007/03/HR/Table/EMPLOYEES -->  
 <Insert xmlns="http://Microsoft.LobServices.OracleDB/2007/03/HR/Table/EMPLOYEES">  
-    \<RECORDSET xmlns:i="http://www.w3.org/2001/XMLSchema-instance">  
+    <RECORDSET xmlns:i="http://www.w3.org/2001/XMLSchema-instance">  
         <EMPLOYEESRECORDINSERT>  
             <EMPLOYEE_ID>0</EMPLOYEE_ID>  
             <FIRST_NAME>Anton</FIRST_NAME>  
@@ -150,7 +150,7 @@ namespace OracleDMLChannel
 }  
 ```  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [開發 Oracle 資料庫應用程式使用 WCF 通道模型](../../adapters-and-accelerators/adapter-oracle-database/develop-oracle-database-applications-using-the-wcf-channel-model.md)   
  [建立通道使用 Oracle 資料庫](../../adapters-and-accelerators/adapter-oracle-database/create-a-channel-using-oracle-database.md)   
  [使用 WCF 通道模型執行 SQLEXECUTE 操作](../../adapters-and-accelerators/adapter-oracle-database/run-a-sqlexecute-operation-in-oracle-database-using-the-wcf-channel-model.md)   

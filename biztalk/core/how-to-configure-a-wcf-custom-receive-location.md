@@ -12,11 +12,11 @@ caps.latest.revision: "18"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4fd1d872f0e90b57f760f6ca3028fca8992255ea
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d9c46434f22fe94ce046b7e7caf855d7f7a3eed4
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-configure-a-wcf-custom-receive-location"></a>如何設定 WCF-Custom 接收位置
 您可以用程式設計方式或使用 BizTalk 管理主控台來設定 WCF-Custom 接收位置。  
@@ -33,9 +33,9 @@ ms.lasthandoff: 09/20/2017
 |-------------------|----------|-----------------|  
 |**識別**|XML BLOB<br /><br /> 範例：<br /><br /> &lt;身分識別&gt;<br /><br /> &lt;userPrincipalName 值 ="username@contoso.com"/&gt;<br /><br /> &lt;/identity&gt;|指定此接收位置所提供服務的識別。 可以針對指定的值**識別**屬性，則根據安全性組態而有所不同。 這些設定可讓用戶端驗證此接收位置。 在用戶端與服務之間的交握程序中，Windows Communication Foundation (WCF) 基礎結構可確保預期之服務的識別能夠與這個項目的值相符。<br /><br /> 預設為空字串。|  
 |**BindingType**|Enum<br /><br /> -   **basicHttpBinding**<br />-   **customBinding**<br />-   **mexHttpBinding**<br />-   **mexHttpsBinding**<br />-   **mexNamedPipeBinding**<br />-   **mexTcpBinding**<br />-   **netMsmqBinding**<br />-   **netNamedPipeBinding**<br />-   **netPeerTcpBinding**<br />-   **netTcpBinding**<br />-   **wsDualHttpBinding**<br />-   **wsFederationHttpBinding**<br />-   **wsHttpBinding**|指定此接收位置所用之端點要使用的繫結類型。 **注意：**如果您使用自訂繫結， **BindingType**屬性可以設定為使用自訂繫結。 如需如何使用自訂繫結的詳細資訊，請參閱[如何啟用 WCF 擴充性點，WCF 配接器](../core/how-to-enable-the-wcf-extensibility-points-with-the-wcf-adapters.md)。 <br /><br /> 預設為空字串。|  
-|**BindingConfiguration**|XML BLOB<br /><br /> 範例：<br /><br /> &lt;繫結名稱 ="netNamedPipeBinding"&gt;&lt;安全性模式 ="None"/&gt; &lt; /繫結&gt;|指定的 XML 字串**\<繫結 >**項目來設定不同類型的預先定義 Windows Communication Foundation (WCF) 所提供的繫結。 如需有關系統提供之繫結與自訂繫結的詳細資訊，請參考「請參閱」一節中的適當主題。 **注意：** BizTalk Server 不支援繫結延伸項目，您可以使用設定的所有類型**BindingConfiguration**屬性。 <br /><br /> 預設為空字串。|  
-|**ServiceBehaviorConfiguration**|XML BLOB<br /><br /> 範例：<br /><br /> &lt;行為名稱 ="SampleServiceBehavior"&gt;&lt;serviceMetadata httpGetEnabled ="true"httpGetUrl ="http://mycomputer:9995/SampleMex"/&gt;&lt;serviceCredentials /&gt; &lt;/behavior&gt;|指定的 XML 字串**\<行為 >**元素 **\<serviceBehaviors >**項目來設定 WCF 服務的行為設定。 如需有關 **\<serviceBehaviors >**項目，請參閱 < 另請參閱中的適當主題。<br /><br /> 預設為空字串。|  
-|**EndpointBehaviorConfiguration**|XML BLOB<br /><br /> 範例：<br /><br /> &lt;行為名稱 ="sampleBehavior"&gt;&lt;callbackTimeouts /&gt;&lt;/behavior&gt;|指定的 XML 字串**\<行為 >**元素 **\<endpointBehaviors >**項目來設定 WCF 端點的行為設定。 如需有關 **\<endpointBehaviors >**項目，請參閱 < 另請參閱中的適當主題。 **注意：** BizTalk Server 不支援所有類型的行為延伸模組項目，您可以使用設定**EndpointBehaviorConfiguration**屬性。 <br /><br /> 預設為空字串。|  
+|**BindingConfiguration**|XML BLOB<br /><br /> 範例：<br /><br /> &lt;繫結名稱 ="netNamedPipeBinding"&gt;&lt;安全性模式 ="None"/&gt; &lt; /繫結&gt;|指定的 XML 字串**\<繫結\>**項目來設定不同類型的預先定義 Windows Communication Foundation (WCF) 所提供的繫結。 如需有關系統提供之繫結與自訂繫結的詳細資訊，請參考「請參閱」一節中的適當主題。 **注意：** BizTalk Server 不支援繫結延伸項目，您可以使用設定的所有類型**BindingConfiguration**屬性。 <br /><br /> 預設為空字串。|  
+|**ServiceBehaviorConfiguration**|XML BLOB<br /><br /> 範例：<br /><br /> &lt;行為名稱 ="SampleServiceBehavior"&gt;&lt;serviceMetadata httpGetEnabled ="true"httpGetUrl ="http://mycomputer:9995/SampleMex"/&gt;&lt;serviceCredentials /&gt; &lt;/behavior&gt;|指定的 XML 字串**\<行為\>**元素 **\<serviceBehaviors\>** 設定 WCF 行為設定的項目服務。 如需有關 **\<serviceBehaviors\>** 項目，請參閱 < 另請參閱中的適當主題。<br /><br /> 預設為空字串。|  
+|**EndpointBehaviorConfiguration**|XML BLOB<br /><br /> 範例：<br /><br /> &lt;行為名稱 ="sampleBehavior"&gt;&lt;callbackTimeouts /&gt;&lt;/behavior&gt;|指定的 XML 字串**\<行為\>**元素 **\<endpointBehaviors\>** 項目來設定的行為設定WCF 端點。 如需有關 **\<endpointBehaviors\>** 項目，請參閱 < 另請參閱中的適當主題。 **注意：** BizTalk Server 不支援所有類型的行為延伸模組項目，您可以使用設定**EndpointBehaviorConfiguration**屬性。 <br /><br /> 預設為空字串。|  
 |**CredentialType**|Enum<br /><br /> -   **無**： 不要的使用任何認證，當這個接收位置傳送請求訊息以輪詢外部服務，或這個接收位置不需要輪詢任何外部服務。<br />-   **IssueTicket**： 使用企業單一登入 (SSO) 來擷取用戶端認證，以便發出 SSO 票證。 這個選項需要使用安全性模式，以允許這個接收位置模擬使用者帳戶來發出 SSO 票證。<br />-   **UserAccount**： 使用中指定的認證**Username**和**密碼**屬性，當這個接收位置傳送請求訊息以輪詢外部服務。<br />-   **GetCredentials**： 使用 SSO 分支機構應用程式中指定**AffiliateApplicationName**屬性時，此接收位置傳送請求訊息以輪詢外部服務。|指定接收位置在輪詢外部服務時要使用的認證類型。<br /><br /> 預設值：**無**|  
 |**UserName**|字串|指定在輪詢外部服務以擷取回應訊息時，要針對這個接收位置所使用的使用者名稱。 這個屬性時，需要**CredentialType**屬性設定為**UserAccount**。<br /><br /> 預設為空字串。|  
 |**密碼**|字串|指定在輪詢外部服務以擷取回應訊息時，要針對這個接收位置所使用的密碼。 這個屬性時，需要**CredentialType**屬性設定為**UserAccount**。<br /><br /> 預設為空字串。|  
@@ -49,7 +49,7 @@ ms.lasthandoff: 09/20/2017
 |**DisableLocationOnFailure**|布林|指定是否停用由於接收管線失敗或路由失敗造成輸入處理失敗的接收位置。<br /><br /> 預設值： **False**|  
 |**SuspendMessageOnFailure**|布林|指定是否擱置因接收管線失敗或路由失敗而造成輸入處理失敗的要求訊息。<br /><br /> 預設值： **，則為 True**|  
 |**IncludeExceptionDetailInFaults**|布林|指定基於偵錯目的傳回用戶端的 SOAP 錯誤詳細資料中，是否包括 Managed 例外狀況資訊。<br /><br /> 預設值： **False**|  
-|**ReferencedBindings**|XML BLOB<br /><br /> 範例：<br /><br /> \<**BindingConfiguration** vt ="8"><br /><br /> &lt;wsFederationHttpBinding&gt;<br /><br /> &lt;繫結名稱 ="sampleBinding"&gt;<br /><br /> &lt;安全性模式 = [訊息]&gt;<br /><br /> &lt;訊息 issuedKeyType ="AsymmetricKey"&gt;<br /><br /> &lt;簽發者位址 ="http://www.contoso.com/samplests 」 繫結 ="wsFederationHttpBinding"bindingConfiguration ="**contosoSTSBinding**"/&gt;<br /><br /> &lt;/message&gt;<br /><br /> &lt;/security&gt;<br /><br /> &lt;/ 繫結&gt;<br /><br /> &lt;/wsFederationHttpBinding&gt;<br /><br /> \</**BindingConfiguration**><br /><br /> \<**ReferencedBindings** vt ="8"><br /><br /> &lt;繫結&gt;<br /><br /> &lt;wsFederationHttpBinding&gt;<br /><br /> &lt;繫結名稱 ="**contosoSTSBinding**"&gt;<br /><br /> &lt;安全性模式 = [訊息]&gt;<br /><br /> &lt;訊息 negotiateServiceCredential ="false"&gt;<br /><br /> &lt;簽發者位址 ="http://northwind.com/samplests"bindingConfiguration ="**northwindBinding**」 繫結 ="wsHttpBinding"&gt;<br /><br /> &lt;/issuer&gt;<br /><br /> &lt;/message&gt;<br /><br /> &lt;/security&gt;<br /><br /> &lt;/ 繫結&gt;<br /><br /> &lt;/wsFederationHttpBinding&gt;<br /><br /> &lt;wsHttpBinding&gt;<br /><br /> &lt;繫結名稱 ="**northwindBinding**"&gt;<br /><br /> &lt;安全性模式 = [訊息]&gt;<br /><br /> &lt;訊息 clientCredentialType ="Certificate"/&gt;<br /><br /> &lt;/security&gt;<br /><br /> &lt;/ 繫結&gt;<br /><br /> &lt;/wsHttpBinding&gt;<br /><br /> &lt;/bindings&gt;<br /><br /> \</**ReferencedBindings**> **附註：** **ReferencedBinding**屬性不能包含中使用的繫結組態**BindingConfiguration**屬性。|指定所參考的繫結組態**bindingConfiguration**屬性**\<簽發者 >**元素**wsFederationHttpBinding**和**customBinding**，表示安全性權杖服務 (STS) 發行安全性權杖。 如需詳細資訊**\<簽發者 >**項目，請參閱主題 <"\<簽發者 > 」 在[http://go.microsoft.com/fwlink/?LinkId=83476](http://go.microsoft.com/fwlink/?LinkId=83476)。<br /><br /> 繫結資訊，包括**\<簽發者 >**元素**wsFederationHttpBinding**和**customBinding**可以透過設定**BindingConfiguration** Wcf-custom 和 Wcf-customisolated 配接器的屬性。 所有參考繫結組態，這個屬性必須放置在表單的[\<繫結 >](http://go.microsoft.com/fwlink/?LinkID=80878)項目。 **注意：**您無法設定這個屬性上**繫結**傳輸屬性對話方塊中的索引標籤。 您可以匯入和匯出此屬性，透過**匯入/匯出**Wcf-custom 和 Wcf-customisolated 配接器傳輸屬性對話方塊中的索引標籤。 **注意：** **bindingConfiguration**屬性**\<簽發者 >**元素必須參考這個屬性中的有效繫結名稱。 **注意：** **\<簽發者 >**中參考繫結組態項目也可以參考不同的繫結中的組態 t 他屬性如果這個參考鏈結不會循環相依性. <br /><br /> 預設為空字串。|  
+|**ReferencedBindings**|XML BLOB<br /><br /> 範例：<br /><br /> \<**BindingConfiguration** vt ="8"\><br /><br /> &lt;wsFederationHttpBinding&gt;<br /><br /> &lt;繫結名稱 ="sampleBinding"&gt;<br /><br /> &lt;安全性模式 = [訊息]&gt;<br /><br /> &lt;訊息 issuedKeyType ="AsymmetricKey"&gt;<br /><br /> &lt;簽發者位址 ="http://www.contoso.com/samplests 」 繫結 ="wsFederationHttpBinding"bindingConfiguration ="**contosoSTSBinding**"/&gt;<br /><br /> &lt;/message&gt;<br /><br /> &lt;/security&gt;<br /><br /> &lt;/ 繫結&gt;<br /><br /> &lt;/wsFederationHttpBinding&gt;<br /><br /> \</**BindingConfiguration**\><br /><br /> \<**ReferencedBindings** vt ="8"\><br /><br /> &lt;繫結&gt;<br /><br /> &lt;wsFederationHttpBinding&gt;<br /><br /> &lt;繫結名稱 ="**contosoSTSBinding**"&gt;<br /><br /> &lt;安全性模式 = [訊息]&gt;<br /><br /> &lt;訊息 negotiateServiceCredential ="false"&gt;<br /><br /> &lt;簽發者位址 ="http://northwind.com/samplests"bindingConfiguration ="**northwindBinding**」 繫結 ="wsHttpBinding"&gt;<br /><br /> &lt;/issuer&gt;<br /><br /> &lt;/message&gt;<br /><br /> &lt;/security&gt;<br /><br /> &lt;/ 繫結&gt;<br /><br /> &lt;/wsFederationHttpBinding&gt;<br /><br /> &lt;wsHttpBinding&gt;<br /><br /> &lt;繫結名稱 ="**northwindBinding**"&gt;<br /><br /> &lt;安全性模式 = [訊息]&gt;<br /><br /> &lt;訊息 clientCredentialType ="Certificate"/&gt;<br /><br /> &lt;/security&gt;<br /><br /> &lt;/ 繫結&gt;<br /><br /> &lt;/wsHttpBinding&gt;<br /><br /> &lt;/bindings&gt;<br /><br /> \</**ReferencedBindings** \> **附註：** **ReferencedBinding**屬性不能包含中使用的繫結組態**BindingConfiguration**屬性。|指定所參考的繫結組態**bindingConfiguration**屬性**\<簽發者\>**元素**wsFederationHttpBinding**和**customBinding**，表示安全性權杖服務 (STS) 發行安全性權杖。 如需詳細資訊**\<簽發者\>**項目，請參閱主題 <"\<簽發者\>」 在[http://go.microsoft.com/fwlink/?LinkId=83476](http://go.microsoft.com/fwlink/?LinkId=83476)。<br /><br /> 繫結資訊，包括**\<簽發者\>**元素**wsFederationHttpBinding**和**customBinding**可以是透過設定**BindingConfiguration** Wcf-custom 和 Wcf-customisolated 配接器的屬性。 所有參考繫結組態，這個屬性必須放置在表單的[\<繫結\>](http://go.microsoft.com/fwlink/?LinkID=80878)項目。 **注意：**您無法設定這個屬性上**繫結**傳輸屬性對話方塊中的索引標籤。 您可以匯入和匯出此屬性，透過**匯入/匯出**Wcf-custom 和 Wcf-customisolated 配接器傳輸屬性對話方塊中的索引標籤。 **注意：** **bindingConfiguration**屬性**\<簽發者\>**元素必須參考這個屬性中的有效繫結名稱。 **注意：** **\<簽發者\>**中參考繫結組態項目也可以參考不同的繫結中的組態 t 他屬性如果這個參考鏈結不會循環相依性。 <br /><br /> 預設為空字串。|  
   
 ## <a name="configure-a-wcf-custom-receive-location-with-the-biztalk-administration-console"></a>設定 WCF 自訂接收位置使用 BizTalk 管理主控台
   
@@ -152,7 +152,7 @@ recieveLocation.TransportTypeData = transportConfigData;
 explorer.SaveChanges();   
 ```  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [發行服務中繼資料之 wcf 接收配接器](../core/publishing-service-metadata-for-the-wcf-receive-adapters.md)   
  [管理 BizTalk 主控件和主控件執行個體](../core/managing-biztalk-hosts-and-host-instances.md)   
  [如何變更服務帳戶和密碼](../core/how-to-change-service-accounts-and-passwords.md)   
@@ -160,6 +160,6 @@ explorer.SaveChanges();
  [指定訊息本文為 WCF 配接器](../core/specifying-the-message-body-for-the-wcf-adapters.md)   
  [設定 WCF 自訂配接器](../core/configuring-the-wcf-custom-adapter.md)   
  [如何建立分支機構應用程式](../core/how-to-create-an-affiliate-application.md)   
- [\<行為 > 的\<endpointBehaviors >](http://go.microsoft.com/fwlink/?LinkId=80879)   
- [\<繫結 >](http://go.microsoft.com/fwlink/?LinkId=80878)   
- [\<行為 > 的\<serviceBehaviors >](http://go.microsoft.com/fwlink/?LinkId=81095)
+ [\<行為\>的\<endpointBehaviors\>](http://go.microsoft.com/fwlink/?LinkId=80879)   
+ [\<繫結\>](http://go.microsoft.com/fwlink/?LinkId=80878)   
+ [\<行為\>的\<serviceBehaviors\>](http://go.microsoft.com/fwlink/?LinkId=81095)

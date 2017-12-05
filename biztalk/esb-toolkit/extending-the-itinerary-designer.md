@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fb44c851258cc623cf991a0b2be5c18d58e59770
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 78490c7b6447ddb097c0ca61154aab20c44086c3
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="extending-the-itinerary-designer"></a>擴充路線設計工具
 路線設計工具是 visual 的特定領域語言 (DSL) for Microsoft Visual Studio 可讓旅搭配使用圖形化模型[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]。 在設計工具會公開各種擴充點，開發人員可以撰寫自訂延伸模組，以啟用新功能及/或新的組態選項。  
@@ -54,7 +54,7 @@ ms.lasthandoff: 09/20/2017
  以下是配接器提供者資訊清單檔案的參考執行個體同樣地應該結構化自訂資訊清單檔案。  
   
 ```xml  
-\<?xml version="1.0" encoding="utf-8" ?>  
+<?xml version="1.0" encoding="utf-8" ?>  
 <adapterPropertyManifest adapterName="FTP">  
      <aliases>  
           <alias name="globalPropertySchemas" value="Microsoft.BizTalk.GlobalPropertySchemas, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />  
@@ -83,7 +83,7 @@ ms.lasthandoff: 09/20/2017
  **ValidationEngine**類別執行使用企業程式庫驗證應用程式區塊模型項目驗證，並將驗證錯誤記錄到 Microsoft Visual Studio IDE 中的 [錯誤清單] 視窗。 企業程式庫組態檔中定義的驗證，應執行的每種類型的模型中的項目。 檔名為 Ruleset.config 和二進位路線設計工具二進位檔的所在位置的資料夾中。 下列範例是組態檔片段，而且包含兩個驗證規則 （名稱為驗證） **UddiResolver** extender，一個用於**ServerUrl**屬性，另一個用於**ServiceKey**屬性。  
   
 ```  
-\<!--   
+<!--   
 UddiResolver  
 -->  
 <type assemblyName="Microsoft.Practices.Services.Extenders.Resolvers.UDDI"  

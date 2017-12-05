@@ -15,11 +15,11 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a1bfd5b9f7b974b00d63831484ecbaa44e2568fa
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3aeef8ac3defc17f4c9bf0fbddedf6d389a1263e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="build-errors-in-the-task-list"></a>建置工作清單中的錯誤
 當您建置專案或解決方案時，結果會出現在 [輸出] 視窗中，至於個別錯誤和警告則會出現在工作清單中。  
@@ -89,7 +89,7 @@ POAckMsg = XMLDOM;
 ## <a name="you-receive-a-use-of-unconstructed-message-error-when-building-your-project"></a>當您建置專案時，收到錯誤：使用未建構的訊息  
   
 ### <a name="problem"></a>問題  
- 當您編譯 BizTalk 專案時，您會收到錯誤 「 使用未建構的訊息 '\<訊息 >' 」。  
+ 當您編譯 BizTalk 專案時，您會收到錯誤 「 使用未建構的訊息 '\<訊息\>' 」。  
   
 ### <a name="cause"></a>原因  
  當使用未建構的訊息時，就會發生此錯誤**傳送**圖形。  
@@ -121,10 +121,10 @@ POAckMsg = XMLDOM;
 ### <a name="resolution"></a>解決方案  
  如果您的協調流程不由另一個協調流程呼叫，您必須設定其中一種**接收**圖形，來為啟動接收。 如需有關設定**接收**圖形，包括連結的相互關聯，請參閱[如何設定 「 接收 」 圖形](../core/how-to-configure-the-receive-shape.md)。  
   
-## <a name="you-receive-the-error-assembly-generation-failed----referenced-assembly-assembly-does-not-have-a-strong-name-when-building-your-solution"></a>您會收到錯誤 「 組件產生失敗--參考的組件 '\<組件 >' 沒有強式名稱 」 您建置方案時  
+## <a name="you-receive-the-error-assembly-generation-failed----referenced-assembly-assembly-does-not-have-a-strong-name-when-building-your-solution"></a>您會收到錯誤 「 組件產生失敗--參考的組件 '\<組件\>' 沒有強式名稱 」 您建置方案時  
   
 ### <a name="problem"></a>問題  
- 您會收到錯誤 「 組件產生失敗--參考的組件 '\<組件 >' 沒有強式名稱 」 時，建置您的方案含有協調流程。  
+ 您會收到錯誤 「 組件產生失敗--參考的組件 '\<組件\>' 沒有強式名稱 」 時，建置您的方案含有協調流程。  
   
 ### <a name="cause"></a>原因  
  如果在協調流程中使用來自未簽署的參考組件的類型，就會發生這個問題。  
@@ -158,5 +158,5 @@ Failed to add resource(s). Change requests failed for some resources. BizTalkAss
 ### <a name="resolution"></a>解決方案  
  確定方案中的每個物件都有唯一的名稱。 遵循命名慣例，即可降低發生此錯誤的風險。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [如何建置協調流程](../core/how-to-build-orchestrations.md)

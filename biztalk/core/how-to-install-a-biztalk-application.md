@@ -17,11 +17,11 @@ caps.latest.revision: "56"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2a73bd610f94e5b56dc5af5d27f90ec8bb4eb1d2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ffc3d1d6d8fdbfcc168446883e2b65a7d8ed0351
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-install-a-biztalk-application"></a>如何安裝 BizTalk 應用程式
 本主題說明如何在本機電腦上安裝應用程式，方法是在 Windows 介面中按兩下應用程式的 Windows Installer (.msi) 檔案，或從命令列執行 msiexec。 您也可以啟動安裝精靈的匯入精靈 的最後一個步驟中所述[如何匯入 BizTalk 應用程式](../core/how-to-import-a-biztalk-application.md)。  
@@ -91,13 +91,13 @@ ms.lasthandoff: 09/20/2017
   
      在目標電腦上建立虛擬目錄時，它會指向下列其中一個實體目錄：  
   
-     \<*安裝磁碟機*> \Program Files\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\HttpReceive  
+     \<*安裝磁碟機*\>\Program Files\Microsoft BizTalk Server\HttpReceive  
   
      \-**或**–  
   
-     \<*安裝磁碟機*> \Program Files (x86) \Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\HttpReceive  
+     \<*安裝磁碟機*\>\Program 檔案 (x86) \Microsoft BizTalk Server\HttpReceive  
   
-     如果 BizTalk HTTP 接收 ISAPI 延伸模組 BTSHTTPReceive.dll 不在指定的目錄中，或者目標電腦執行 64 位元作業系統，則您必須變更本機路徑：指向包含 BizTalk HTTP 接收 ISAPI 延伸模組檔案之實體目錄的虛擬目錄目的地。 例如，如果目標電腦執行 64 位元版本的 Windows Vista 中，然後將本機路徑： 虛擬目錄目的地應變\<安裝磁碟機 > \Program Files (x86) \Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\HttpReceive64.  
+     如果 BizTalk HTTP 接收 ISAPI 延伸模組 BTSHTTPReceive.dll 不在指定的目錄中，或者目標電腦執行 64 位元作業系統，則您必須變更本機路徑：指向包含 BizTalk HTTP 接收 ISAPI 延伸模組檔案之實體目錄的虛擬目錄目的地。 例如，如果目標電腦執行 64 位元版本的 Windows Vista 中，然後將本機路徑： 虛擬目錄目的地應變\<安裝磁碟機\>\Program 檔案 (x86) \Microsoft BizTalk Server\HttpReceive64。  
   
 ## <a name="to-install-a-biztalk-application"></a>安裝 BizTalk 應用程式  
   
@@ -145,6 +145,6 @@ ms.lasthandoff: 09/20/2017
   
      將執行它的所有電腦上安裝應用程式之後，您可以啟動應用程式從[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台，以滑鼠右鍵按一下應用程式的資料夾，然後按一下**啟動**。 如需完整指示，請參閱[如何啟動和停止 BizTalk 應用程式](../core/how-to-start-and-stop-a-biztalk-application.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [部署 BizTalk 應用程式](../core/deploying-biztalk-applications.md)   
  [如何解除安裝 BizTalk 應用程式](../core/how-to-uninstall-a-biztalk-application.md)

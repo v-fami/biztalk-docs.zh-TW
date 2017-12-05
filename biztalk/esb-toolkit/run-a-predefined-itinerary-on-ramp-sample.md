@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 167d18f0eba624d62b03b3b0a5386fcac04e5b18
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 38320cc6877815ccbf7b078190a3c2be1c6f74b0
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="run-a-predefined-itinerary-on-ramp-sample"></a>執行預先定義的路線上手範例
 [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]包含 20 預先定義的行程使用案例可以執行。 如需這些使用案例，請參閱[路線案例範例](../esb-toolkit/the-sample-itinerary-scenarios.md)。  
@@ -55,7 +55,7 @@ ms.lasthandoff: 09/20/2017
     position="0" serviceInstanceId="" />  
 ```  
   
- 在此協調流程服務**\<服務 >**項目會指定直接繫結協調流程具有在圖 2 所顯示的篩選內容。 請注意，協調流程會訂閱只能有值的訊息**Microsoft.Practices.ESB.Services.Transform**如**ServiceName**內容屬性、 值**暫止**如**ServiceState**內容屬性和值的協調流程的**ServiceType**內容屬性。  
+ 在此協調流程服務**\<服務\>**項目會指定直接繫結協調流程具有在圖 2 所顯示的篩選內容。 請注意，協調流程會訂閱只能有值的訊息**Microsoft.Practices.ESB.Services.Transform**如**ServiceName**內容屬性、 值**暫止**如**ServiceState**內容屬性和值的協調流程的**ServiceType**內容屬性。  
   
  ![篩選運算式](../esb-toolkit/media/ch6-filterexpression.gif "第 6 章第 FilterExpression")  
   

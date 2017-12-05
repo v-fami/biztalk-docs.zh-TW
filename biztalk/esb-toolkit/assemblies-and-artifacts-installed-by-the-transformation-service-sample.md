@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c7942e2e092b8d4407924cbce4f5e26193f3c3f1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: edc76a74aaa054496fc7a831549c8b81edcc50fe
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="assemblies-and-artifacts-installed-by-the-transformation-service-sample"></a>組件和成品安裝轉換服務範例
 下表列出的組件和成品安裝[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]轉換服務 」 範例。  
@@ -38,4 +38,4 @@ ms.lasthandoff: 09/20/2017
 |||GlobalBank.ESB.TransformServices.Maps.RetailOrder_To_CanonicalOrder 2.0.0.0 版|  
 |全域組件快取|組件|GlobalBank.ESB.TransformServices.Maps 2.0.0.0 版|  
 |||GlobalBank.ESB.TransformServices.Schemas 2.0.0.0 版|  
-|%Program Files %\\[!INCLUDE[prague](../includes/prague-md.md)]\Pipeline 元件|管線元件|(無)|
+|%Program Files %\\BizTalk Server\Pipeline 元件|管線元件|(無)|

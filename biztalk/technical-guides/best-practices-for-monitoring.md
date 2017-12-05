@@ -12,14 +12,14 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3d520026b9037f10f2ed20f52a366b1ff9d3183a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 51b3d4761c32123db53ea35daf91d0f13d9a2488
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="best-practices-for-monitoring"></a>監視的最佳作法
-本主題提供的監視您的 Microsoft 最佳作法[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境和應用程式。  
+本主題提供監視您的 Microsoft BizTalk Server 環境和應用程式的最佳作法。  
   
  **建立，然後實作您的 BizTalk 應用程式和基礎結構的監視計劃**  
   
@@ -35,11 +35,11 @@ ms.lasthandoff: 09/20/2017
   
     -   所有的自訂服務、 自訂的事件記錄檔和監視的自訂資料庫？  
   
-    -   SQL Server 電腦和[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]監視 SQL agent 作業嗎？  
+    -   是 SQL Server 電腦和 BizTalk Server SQL 代理程式監視的工作？  
   
  **可能的話，請安裝監視的應用程式，例如[!INCLUDE[opsmgr_short](../includes/opsmgr-short-md.md)]才能自動監視您的 BizTalk Server 應用程式和基礎結構**  
   
--   使用 Microsoft System Center Operations Manager 是慣用的方法，自動監視，因為 BizTalk Server 管理組件提供數百個內建規則[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。  
+-   使用 Microsoft System Center Operations Manager 會自動監視，因為 BizTalk Server 管理組件提供數百個內建規則，以便讓 BizTalk Server 的慣用的方法。  
   
      如需詳細資訊，請參閱下列資源：  
   
@@ -47,17 +47,17 @@ ms.lasthandoff: 09/20/2017
   
     -   [如何匯入 Operations Manager 2007 中的管理組件](http://go.microsoft.com/fwlink/?LinkID=98348)(http://go.microsoft.com/fwlink/?LinkID=98348)  
   
-    -   [如何將 BizTalk Server 資料庫標示為的自訂監視](../technical-guides/how-to-mark-biztalk-server-databases-for-customized-monitoring.md)  
+    -   [如何標示 BizTalk Server 資料庫以進行自訂監視](../technical-guides/how-to-mark-biztalk-server-databases-for-customized-monitoring.md)  
   
  **執行 BizTalk Server Best Practices Analyzer**  
   
--   BizTalk Server Best Practices Analyzer 會檢查[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]部署，並且產生與最佳做法標準相關問題的清單。 工具會執行組態層級驗證，以從不同的資訊來源，例如 Windows Management Instrumentation (WMI) 類別、 SQL Server 資料庫和登錄項目收集資料。 將資料再用於評估的部署組態。 工具讀取然後只會報告不會修改任何系統設定，並不是自我調整工具。  
+-   BizTalk Server Best Practices Analyzer 會檢查 BizTalk Server 部署，並產生一份與最佳做法標準相關問題。 工具會執行組態層級驗證，以從不同的資訊來源，例如 Windows Management Instrumentation (WMI) 類別、 SQL Server 資料庫和登錄項目收集資料。 將資料再用於評估的部署組態。 工具讀取然後只會報告不會修改任何系統設定，並不是自我調整工具。  
   
      您可以下載 BizTalk Server Best Practices Analyzer 在[http://go.microsoft.com/fwlink/?LinkId=83317](http://go.microsoft.com/fwlink/?LinkId=83317) (http://go.microsoft.com/fwlink/?LinkId=83317)。  
   
  **執行記錄檔的效能分析工具 (PAL)**  
   
--   PAL 是在免費下載[http://go.microsoft.com/fwlink/LinkID=98098](http://go.microsoft.com/fwlink/?LinkID=98098)。 重要的安裝資訊，請參閱[使用效能分析的記錄檔 (PAL) 工具](../technical-guides/using-the-performance-analysis-of-logs-pal-tool.md)。  
+-   PAL 是在免費下載[https://github.com/clinthuffman/PAL](https://github.com/clinthuffman/PAL)。 重要的安裝資訊，請參閱[使用效能分析的記錄檔 (PAL) 工具](../technical-guides/using-the-performance-analysis-of-logs-pal-tool.md)。  
   
  **執行記錄檔剖析器**  
   
@@ -74,6 +74,6 @@ ms.lasthandoff: 09/20/2017
   
  **請監視優先順序**  
   
--   一致監視[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]應用程式和基礎結構是重要的維護狀況良好的環境。  
+-   BizTalk Server 應用程式和基礎結構的一致監視務必維護狀況良好的環境。  
   
--   定期評估，並調整您的監視工具經過一段時間，以及您[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]應用程式和基礎結構變更。
+-   定期評估，並調整您的監視工具經過一段時間，以及您的 BizTalk Server 應用程式和基礎結構變更。

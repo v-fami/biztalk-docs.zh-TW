@@ -15,11 +15,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d79829575acfb86a19e8bdd0ce91f5bd41a7749f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c163506e9a83afac29bea1615290a1840f3baf3e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="hl7-2x-versions"></a>HL7 2.X 版
 下表列出 2.X 版的健全狀況層級七 (HL7) 標準，核准日期 HL7 組織，並列出哪些版本[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Accelerator for HL7 ([!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]) 支援。  
@@ -36,7 +36,7 @@ ms.lasthandoff: 09/20/2017
 > [!NOTE]
 >  因為版本中，已經過時，2.1、 2.2 和 2.3，建議您使用版本 2.3.1 或更新版本的 2.X 標準。  
   
- 當您安裝[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]，安裝精靈會建立*\<磁碟機 >*: \程式檔案\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk\<版本 > Accelerator for HL7\Templates\Schemas 資料夾結構，其中包含以 for HL7 支援的事件範本。 在此資料夾時，V2。X 資料夾所包含的子資料夾，每個 HL7 2.X 版本： 2.1、 2.2、 2.3、 2.3.1、 2.4 和 2.5。  
+ 當您安裝[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]，安裝精靈會建立*\<磁碟機\>*: \程式檔案\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk\<版本\>HL7\Templates\Schemas 資料夾結構，其中包含範本，以便支援事件 for HL7 加速器。 在此資料夾時，V2。X 資料夾所包含的子資料夾，每個 HL7 2.X 版本： 2.1、 2.2、 2.3、 2.3.1、 2.4 和 2.5。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [HL7 2.X 子資料夾和事件](../../adapters-and-accelerators/accelerator-hl7/hl7-2-x-subfolders-and-events.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e48ec0dddcf17be70b915d2beb058f1ab2f6f576
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 25af22c85602c323b87340cce8b740fe5b68accb
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="assembly-installation-in-the-gac"></a>GAC 中的組件安裝
 每部電腦都含有全域組件快取 (GAC)，其中包含該部電腦上一個或多個應用程式所使用的組件。 為了讓 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 在執行階段期間處理訊息，BizTalk 應用程式所包含的組件必須存在於執行應用程式之電腦的 GAC 中。  
@@ -37,7 +37,7 @@ ms.lasthandoff: 09/20/2017
   
      此外，您可以設定部署選項在任何時間之後已部署至或加入至應用程式，組件中所述[如何修改 BizTalk 組件的部署選項](../core/how-to-modify-the-deployment-options-of-a-biztalk-assembly.md)。 組件會部署到[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]從[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]第一次，在管理主控台中的部署選項設定如下： GAC 安裝上的已啟用和停用 GAC，匯入。 如果您變更了這些設定，即使組件已經從 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 重新部署，您的變更依然會具有效果。  
   
--   **拖放。** 使用 Windows 檔案總管中，您可以拖放組件檔\< *Windows 資料夾*> \assembly。  
+-   **拖放。** 使用 Windows 檔案總管中，您可以拖放組件檔\< *Windows 資料夾*\>\assembly。  
   
 -   **其他方法。** 還有其他工具和方法，包括使用 Windows Installer 或協力廠商所建立的工具，都能將組件安裝到 GAC 中。  
   
@@ -47,6 +47,6 @@ ms.lasthandoff: 09/20/2017
 > [!IMPORTANT]
 >  如需版本編號的詳細資訊，請參閱 Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 所提供「.NET Framework 說明」中的＜組件版本編號＞。 請注意，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 不支援使用 .NET 原則檔。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [部署 BizTalk 組件從 Visual Studio 到 BizTalk 應用程式](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md)   
  [了解 BizTalk 應用程式部署和管理](../core/understanding-biztalk-application-deployment-and-management.md)

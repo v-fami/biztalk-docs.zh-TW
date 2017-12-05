@@ -15,11 +15,11 @@ caps.latest.revision: "35"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fad45e80cac2a398507b4288c9ac6f35c887e71b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 549f343818464a8316246f8b6996755ce5fef136
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="httprequestresponse"></a>HTTPRequestResponse
 HTTPRequestResponse 範例會示範如何使用 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 網際網路伺服器應用程式發展介面 (Internet Server Application Programming Interface，ISAPI) 篩選器，讓 ASP.NET 應用程式與 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 協調流程進行通訊。  
@@ -36,7 +36,7 @@ HTTPRequestResponse 範例會示範如何使用 Microsoft [!INCLUDE[btsBizTalkSe
  ASP.NET 應用程式收到 XML PO 通知回應後，會使用從回應中擷取的狀態資訊來重新整理 Web 表單。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- *\<範例路徑 >*\AdaptersUsage\HTTPRequestResponse\  
+ *\<範例路徑\>*\AdaptersUsage\HTTPRequestResponse\  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -57,7 +57,7 @@ HTTPRequestResponse 範例會示範如何使用 Microsoft [!INCLUDE[btsBizTalkSe
   
 1.  在命令視窗中，瀏覽至下列資料夾：  
   
-     \<*範例路徑*> \AdaptersUsage\HTTPRequestResponse  
+     \<*範例路徑*\>\AdaptersUsage\HTTPRequestResponse  
   
 2.  執行檔案 Setup.bat，這會執行下列動作：  
   
@@ -77,7 +77,7 @@ HTTPRequestResponse 範例會示範如何使用 Microsoft [!INCLUDE[btsBizTalkSe
         > [!IMPORTANT]
         >  您必須變更實作 Web 應用程式的範例程式碼 (Default.aspx.cs) 以反映您的環境：  
         >   
-        >  http://\<*伺服器名稱*>/\<*虛擬 dir*> /BTSHTTPReceive.dll 其中`<servername>`與Web伺服器，您張貼的名稱`<`*虛擬 dir* `>`是這個檔案所在的虛擬目錄。  
+        >  http://\<*伺服器名稱*\>/\<*虛擬 dir*\>/BTSHTTPReceive.dll 其中`<servername>`的網站名稱您張貼至伺服器和`<`*虛擬 dir* `>`是這個檔案所在的虛擬目錄。  
   
         > [!NOTE]
         >  在嘗試執行此範例之前，您必須確認 BizTalk 沒有在建置和初始化的程序中報告任何錯誤。  
@@ -126,5 +126,5 @@ HTTPRequestResponse 範例會示範如何使用 Microsoft [!INCLUDE[btsBizTalkSe
   
  您可將此範例擴充至一般需透過 Web 表單或 HTTP 提交資料給 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的應用程式。 透過擴充此範例的 ASP.NET 應用程式部分，您可以查詢更多資訊，以及在提交資料給 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 前先執行其他前置處理。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [HTTP 配接器範例](../core/http-adapter-samples.md)

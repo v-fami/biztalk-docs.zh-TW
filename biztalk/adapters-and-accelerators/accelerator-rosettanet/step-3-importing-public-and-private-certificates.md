@@ -18,11 +18,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c910a72f3e5ef39bb2e07e410f484e8c5cbececa
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 46d087c44cac350df2d58c880303668b5c3e0c24
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-3-importing-public-and-private-certificates"></a>步驟 3： 匯入公開憑證與私用憑證
 在此步驟中，您匯入的憑證，您在建立[步驟 2： 建立公用和私用憑證 &#91;RN3 &#93;](../../adapters-and-accelerators/accelerator-rosettanet/step-2-creating-public-and-private-certificates.md) Contoso 和 Fabrikam 電腦。 每台電腦都會匯入自己的私用憑證，並匯入其他組織的公開憑證。  
@@ -34,9 +34,9 @@ ms.lasthandoff: 09/20/2017
   
 1.  在 Contoso 電腦上，按一下 **啟動**，按一下 **執行**，型別**cmd**，然後按一下  **確定**。  
   
-2.  在命令提示字元中，移至 **\<** *磁碟機***>: \Program Files\Microsoft BizTalk\<版本 > Accelerator for RosettaNet\SDK**然後按下**Enter**。  
+2.  在命令提示字元中，移至 **\<** *磁碟機***\>: \Program Files\Microsoft BizTalk\<版本\>Accelerator forRosettaNet\SDK** ，然後按**Enter**。  
   
-3.  在命令提示字元中，輸入**CertWizard /Privatekey"\<***磁碟機***>: \Certs\Contoso Private Encryption.pfx"**，然後按下**輸入**。  
+3.  在命令提示字元中，輸入**CertWizard /Privatekey"\<***磁碟機***\>: \Certs\Contoso Private Encryption.pfx"**，然後按下**輸入**。  
   
 4.  在**請輸入憑證檔案的密碼**提示中，輸入**mysecret**，然後按下**Enter**。  
   
@@ -55,21 +55,21 @@ ms.lasthandoff: 09/20/2017
   
 1.  在 Contoso 電腦上，按一下 **啟動**，按一下 **執行，**類型**cmd**，然後按一下  **確定**。  
   
-2.  在命令提示字元中，移至*\<磁碟機 >***: \Program Files\Microsoft BizTalk\<版本 > Accelerator for RosettaNet\SDK** ，然後按**Enter**.  
+2.  在命令提示字元中，移至*\<磁碟機\>***: \Program Files\Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK**然後按下**Enter**。  
   
-3.  在命令提示字元中，輸入**CertWizard /Publickey"***\<磁碟機 >***: \Certs\Fabrikam Public Encryption.cer"**，然後按下**輸入**。  
+3.  在命令提示字元中，輸入**CertWizard /Publickey"***\<磁碟機\>***: \Certs\Fabrikam Public Encryption.cer"**，然後按  **輸入**。  
   
 4.  為 Fabrikam Public Signature.cer 憑證重複執行步驟 3。  
   
 ### <a name="to-import-the-fabrikam-private-certificates-on-the-fabrikam-computer"></a>在 Fabrikam 電腦上匯入 Fabrikam 私用憑證  
   
-1.  將下列檔案複製至 Contoso 電腦\<磁碟機 >: \Certs Fabrikam 電腦上的資料夾： Contoso Public Encryption.cer、 Contoso Public Signature.cer、 Fabrikam Private Encryption.pfx 和 Fabrikam Private Signature.pfx。  
+1.  將下列檔案複製至 Contoso 電腦\<磁碟機\>: Fabrikam 電腦上的 \Certs 資料夾： Contoso Public Encryption.cer、 Contoso Public Signature.cer、 Fabrikam Private Encryption.pfx 和 Fabrikam PrivateSignature.pfx。  
   
 2.  按一下 Fabrikum 電腦上，按一下**啟動**，按一下**執行**，型別**cmd**，然後按一下 **確定**。  
   
-3.  在命令提示字元中，移至*\<磁碟機 >***: \Program Files\Microsoft BizTalk\<版本 > Accelerator for RosettaNet\SDK** ，然後按**Enter**.  
+3.  在命令提示字元中，移至*\<磁碟機\>***: \Program Files\Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK**然後按下**Enter**。  
   
-4.  在命令提示字元中，輸入**CertWizard /Privatekey"***\<磁碟機 >***: \Certs\Fabrikam Private Encryption.pfx"**，然後按  **輸入**。  
+4.  在命令提示字元中，輸入**CertWizard /Privatekey"***\<磁碟機\>***: \Certs\Fabrikam Private Encryption.pfx"**，然後按下**輸入**。  
   
 5.  在**請輸入憑證檔案的密碼**提示中，輸入**mysecret**，然後按下**Enter**。  
   
@@ -88,11 +88,11 @@ ms.lasthandoff: 09/20/2017
   
 1.  按一下 Fabrikum 電腦上，按一下**啟動**，按一下**執行**，型別**cmd**，然後按一下 **確定**。  
   
-2.  在命令提示字元中，移至*\<磁碟機 >***: \Program Files\Microsoft BizTalk\<版本 > Accelerator for RosettaNet\SDK** ，然後按**Enter**.  
+2.  在命令提示字元中，移至*\<磁碟機\>***: \Program Files\Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK**然後按下**Enter**。  
   
-3.  在命令提示字元中，輸入**CertWizard /Publickey"***\<磁碟機 >***: \Certs\Contoso Public Encryption.cer"**，然後按下**輸入**。  
+3.  在命令提示字元中，輸入**CertWizard /Publickey"***\<磁碟機\>***: \Certs\Contoso Public Encryption.cer"**，然後按  **輸入**。  
   
 4.  為 Contoso Public Signature.cer 憑證重複執行步驟 3。  
   
-## <a name="see-also"></a>另請參閱  
- [步驟 4： 啟用安全通訊端在 IIS 中的圖層](../../adapters-and-accelerators/accelerator-rosettanet/step-4-enabling-secure-sockets-layer-in-iis.md)
+## <a name="see-also"></a>請參閱  
+ [步驟 4：在 IIS 中啟用安全通訊端層 (SSL)](../../adapters-and-accelerators/accelerator-rosettanet/step-4-enabling-secure-sockets-layer-in-iis.md)

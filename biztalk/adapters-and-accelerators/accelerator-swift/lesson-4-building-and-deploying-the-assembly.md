@@ -17,18 +17,18 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5521b5921dbfcc3c8a3c5916fc4d4a2dc96eebbd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3ca5a539fdaea9026a7c18cae6f076e72df9efe2
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="lesson-4-building-and-deploying-the-assembly"></a>第 4 課： 建立和部署組件
 在這一課，您會建置並部署此專案以產生包含您在先前的課程中建立的結構描述的組件。 這項工作可確保您到目前為止所建立的工作中沒有編譯錯誤。  
   
  部署組件的組件的複本置於組態資料庫，並將它安裝在全域組件快取 (GAC) 中。 在下列程序中，您將部署直接從 [方案總管]。  
   
- 當專案編譯成組件 （DLL 檔案）， [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]將儲存在 DLL \<*磁碟機*>: \Program Files\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for SWIFT\bin\在專案資料夾中的開發資料夾。  
+ 當專案編譯成組件 （DLL 檔案）， [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]將儲存在 DLL \<*磁碟機*\>: \Program Files\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator forSWIFT\bin\Development 資料夾在專案資料夾中。  
   
 ### <a name="to-build-and-deploy-the-project"></a>建置和部署專案  
   
@@ -37,7 +37,7 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  確認**建置成功**會出現在畫面左下角。 在編譯過程中，您可能會看到某些狀態訊息。 這些訊息都是正常的處理 SWIFT 的結構描述時。 如果出現任何錯誤，請按一下 工具，然後按一下 BizTalk Server 管理 以開啟 BizTalk Server 管理主控台。 使用事件檢視器和健全狀況與活動追蹤 (HAT) 中的功能 BizTalk 管理主控台來更正錯誤，然後再重建。  
   
-2.  使用[!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)]總管 中，瀏覽至  **\<*磁碟機*>: \labs\SWIFTProject\SWIFTSchemas\bin\Development** 資料夾，並確認**SWIFTSchemas.dll**檔案位於此資料夾。  
+2.  使用[!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)]總管 中，瀏覽至  **\<*磁碟機*\>: \labs\SWIFTProject\SWIFTSchemas\bin\Development** 資料夾，並確認**SWIFTSchemas.dll**檔案位於此資料夾。  
   
 3.  在 方案總管 中，以滑鼠右鍵按一下**SWIFTSchemas**，然後按一下 **部署**。  
   

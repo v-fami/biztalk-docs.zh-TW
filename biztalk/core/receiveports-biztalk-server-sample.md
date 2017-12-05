@@ -12,11 +12,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cb14221ba11fe514ab076dd6bad8cc0aeb5b929e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3e34fcb08776d6be2c98e7c0e71d754caf9bdbb6
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="receiveports-biztalk-server-sample"></a>接收埠 （BizTalk Server 範例）
 接收埠 」 範例示範如何建立新接收埠使用**ExplorerOM**系統管理類別。  
@@ -41,7 +41,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="where-to-find-this-sample"></a>此範例的位置  
  這個範例位於下列 SDK 位置：  
   
- \<*範例路徑*> \Admin\ExplorerOM\ReceivePorts  
+ \<*範例路徑*\>\Admin\ExplorerOM\ReceivePorts  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -62,7 +62,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  開啟命令視窗並巡覽至下列資料夾：  
   
-     \<*範例路徑*> \Admin\ExplorerOM\ReceivePorts\bin\Debug  
+     \<*範例路徑*\>\Admin\ExplorerOM\ReceivePorts\bin\Debug  
   
 2.  執行檔案 ReceivePorts.exe。 新的接收埠應該建立在程式碼中，連接埠列舉所示。 列舉型別之後會立即移除接收埠。  
   
@@ -222,5 +222,5 @@ RP_ReceivePOFromBuyer
 RP_Receive_ShipmentAgency_Ack  
 ```  
   
-## <a name="see-also"></a>另請參閱  
- [系統管理員 ExplorerOM （BizTalk Server 範例資料夾）](../core/admin-explorerom-biztalk-server-samples-folder.md)
+## <a name="see-also"></a>請參閱  
+ [Admin-ExplorerOM (BizTalk Server Samples 資料夾)](../core/admin-explorerom-biztalk-server-samples-folder.md)

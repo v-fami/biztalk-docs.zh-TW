@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 249bfb8120a7b7d44ee0f73e7b5e5cef34126670
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3e33203279e045b28d2098ca78c55403c7070b64
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-2-add-swiftnet-configuration-to-the-paramfile-for-the-interact-real-time-scenario"></a>步驟 2： 將 SWIFTNet 組態新增至為 Paramfile 互動即時案例
 若要啟用以這些值來初始化接收者 SWIFTNet paramfile 中必須指定 SAG 中建立的伺服器訊息協力廠商。 在開始此程序之前，您必須完成的指示[步驟 1： 設定 SWIFT 配接器的互動即時實例](../../adapters-and-accelerators/fileact-interact/step-1-configure-the-swift-adapter-for-the-interact-real-time-scenario.md)。  
@@ -41,7 +41,7 @@ ms.lasthandoff: 09/20/2017
   
      subsystem_start:  
   
-     **繁衍"snlreceiver-SagMessagePartner\<互動 RT 的伺服器 MessagePartnerName >-AdapterMode 互動 」**  
+     **繁衍"snlreceiver-SagMessagePartner\<互動 RT 的伺服器 MessagePartnerName \> -AdapterMode 互動 」**  
   
      * 結束  
   
@@ -85,8 +85,8 @@ ms.lasthandoff: 09/20/2017
   
      #<a name="stopeventsnl002subsystem-user-is-down"></a>stop_event:SNL002:subsystem 使用者已關閉  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [互動即時案例](../../adapters-and-accelerators/fileact-interact/interact-real-time-scenario.md)   
  [步驟 1： 設定的 SWIFT 配接器互動即時案例](../../adapters-and-accelerators/fileact-interact/step-1-configure-the-swift-adapter-for-the-interact-real-time-scenario.md)   
  [步驟 3： 建立傳送和接收埠互動即時案例](../../adapters-and-accelerators/fileact-interact/step-3-create-send-and-receive-ports-for-the-interact-real-time-scenario.md)   
- [步驟 4： 測試互動即時的端對端案例](../../adapters-and-accelerators/fileact-interact/step-4-test-the-interact-real-time-end-to-end-scenario.md)
+ [步驟 4：測試 InterAct 即時端對端案例](../../adapters-and-accelerators/fileact-interact/step-4-test-the-interact-real-time-end-to-end-scenario.md)

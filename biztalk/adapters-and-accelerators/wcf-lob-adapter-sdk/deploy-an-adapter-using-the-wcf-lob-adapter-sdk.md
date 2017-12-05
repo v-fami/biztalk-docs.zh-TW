@@ -12,11 +12,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 72c83998bbe16899055c839a73795d456a132381
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: c11ae1067fff276d8d24639d3e4d3cc6798c6ba5
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="deploy-an-adapter-using-the-wcf-lob-adapter-sdk"></a>部署配接器使用 WCF LOB 配接器 SDK
 若要部署配接器，必須將配接器組件安裝到全域組件快取 (GAC)，然後註冊在 machine.config 檔案中的配接器。  
@@ -39,7 +39,7 @@ ms.lasthandoff: 11/07/2017
   
      範例： **sn /k EchoAdapter.snk**  
   
-     確認訊息，**金鑰組寫入** \< *file_name*>**.snk** `,`會出現在命令列。  
+     確認訊息，**金鑰組寫入** \< *file_name*\>**.snk** `,`會出現在命令列。  
   
 4.  在 Visual Studio 方案總管 中，以滑鼠右鍵按一下專案，然後**屬性**。  
   
@@ -76,18 +76,18 @@ ms.lasthandoff: 11/07/2017
   
 3.  輸入以下命令：  
   
-     **gacutil.exe /if"\<**  *組件.dll 檔案路徑* **> 」**  
+     **gacutil.exe /if"\<**  *組件.dll 檔案路徑*  **\>"**  
   
 4.  這會將組件安裝至 GAC，覆寫任何同名的現有組件。  
   
 ## <a name="register-the-adapter-in-machineconfig"></a>在 Machine.config 中註冊配接器  
- 使用配接器開發[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]會呈現為 WCF 繫結。  如需詳細資訊，請參閱 Microsoft.ServiceModel.Channels.Common.AdapterBinding。  註冊 WCF 配接器繫結使用\<bindingExtensions > 區段內\<系統。ServiceModel > 和 WCF 已註冊配接器傳輸繫結項目使用\<bindingElementExtensions > 區段內\<系統。ServiceModel >。  
+ 使用配接器開發[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]會呈現為 WCF 繫結。  如需詳細資訊，請參閱 Microsoft.ServiceModel.Channels.Common.AdapterBinding。  註冊 WCF 配接器繫結使用\<bindingExtensions\>區段內\<系統。ServiceModel\>和 WCF 已註冊配接器傳輸繫結項目使用\<bindingElementExtensions\>區段內\<系統。ServiceModel\>。  
   
  您可以手動編輯 machine.config 檔，使用文字編輯器。  
   
 #### <a name="manually-edit-the-machineconfig-file"></a>手動編輯 machine.config 檔  
   
-1.  編輯位於 Microsoft .NET 組態資料夾中的 machine.config 檔。 若要這樣做，請按一下**啟動**，按一下 **執行**，輸入 notepad \<Windows 安裝路徑 > \Microsoft.NET\Framework\\< 版本\>\CONFIG\machine.config，然後按一下 **確定**。  
+1.  編輯位於 Microsoft .NET 組態資料夾中的 machine.config 檔。 若要這樣做，請按一下**啟動**，按一下 **執行**，輸入 notepad \<Windows 安裝路徑\>\Microsoft.NET\Framework\\< 版本\>\CONFIG\在 machine.config 中，然後再按一下**確定**。  
   
 2.  更新 machine.config 檔案。 如果檔案不包含的 system.serviceModel 區段，結尾的組態檔，但在結尾根標記之前加入下列區段。  
   
@@ -95,7 +95,7 @@ ms.lasthandoff: 11/07/2017
     >  配接器的資訊來取代"myAdapterBinding"、 版本、 文化特性和其他組件特定的資訊。  
   
     ```  
-    \<system.serviceModel>  
+    <system.serviceModel>  
       <extensions>  
         <bindingExtensions>  
             <add name="myAdapterBinding" type="Microsoft.Adapters.Samples.Echo.EchoAdapterBindingCollectionElement,EchoAdapter, Version=0.0.0.0, Culture=neutral, PublicKeyToken= fafafafafafafafa" />  
@@ -103,7 +103,7 @@ ms.lasthandoff: 11/07/2017
             <add name="echoAdapter" type="Microsoft.Adapters.Samples.Echo.EchoAdapterBindingElementExtension,EchoAdapter, Version=0.0.0.0, Culture=neutral, PublicKeyToken=37f23b4adb996dcf" />  
           </bindingElementExtensions>  
       </extensions>  
-    \</system.serviceModel>  
+    </system.serviceModel>  
     ```  
   
      - 或 -  
@@ -161,5 +161,5 @@ ms.lasthandoff: 11/07/2017
   
 12. 關閉**服務組態編輯器**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [部署配接器使用 WCF LOB 配接器 SDK](../../adapters-and-accelerators/wcf-lob-adapter-sdk/deploy-an-adapter-using-the-wcf-lob-adapter-sdk.md)

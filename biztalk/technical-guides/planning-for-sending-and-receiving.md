@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cf635712e7cafa534f7b6441407e4ec31e8bf047
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ca2b87964266b77629f7fa1d1156ace3cd048e7f
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="planning-for-sending-and-receiving"></a>規劃傳送和接收
 幾乎所有由處理的文件[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]收到[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]接收配接器，與寄件者[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]使用[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]傳送配接器。 因為[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]配接器，以突顯的方式圖中任何[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境中，請務必預先規劃，以判斷哪些配接器或加速器您將使用及如何正確地設定這些介面卡和/或加速器。  
@@ -81,7 +81,7 @@ ms.lasthandoff: 09/20/2017
 |TIBCO Enterprise Message Service|允許在 BizTalk Server 和提供緊密整合及可靠應用程式基礎結構之 TIBCO EMS 伺服器之間的 XML 及二進位資料格式訊息交換。|4.2|  
 |WebSphere MQ|允許在 BizTalk Server 和 IBM WebSphere MQ 之間的訊息交換。|5.3 搭配 Fix Pack 10 或更新版本和 6.0 修正組件 1.1 或更新版本|  
   
- 如需有關適用於 LOB 配接器[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]，請參閱[配接器隨附於 BizTalk Server 2010](http://go.microsoft.com/fwlink/?LinkId=152664) (http://go.microsoft.com/fwlink/?LinkId=152664)。  
+ 如需 BizTalk Server 上提供的 LOB 配接器的詳細資訊，請參閱[配接器隨附於 BizTalk Server 2010](http://go.microsoft.com/fwlink/?LinkId=152664) (http://go.microsoft.com/fwlink/?LinkId=152664)。  
   
 ## <a name="biztalk-adapter-pack"></a>BizTalk 配接器封包  
  Microsoft[!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]包含 wcf 配接器能夠提供連線至 LOB 應用程式，例如 Oracle 資料庫、 Oracle E-business Suite、 SAP、 Siebel 和 SQL Server。 如需可用的配接器的清單[!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]，請參閱[BizTalk Adapter Pack](http://go.microsoft.com/fwlink/?LinkId=152665) (http://go.microsoft.com/fwlink/?LinkId=152665)。  
@@ -185,5 +185,5 @@ ms.lasthandoff: 09/20/2017
   
 -   如果應使用的訊息，協調流程中的單一執行個體的程序來協調流程，協調流程應該設定為使用循序群組，而**排序的傳遞**屬性協調流程的接收埠應該設定為**True**。  
   
-## <a name="see-also"></a>另請參閱  
- [規劃 BizTalk Server 環境](../technical-guides/planning-the-environment-for-biztalk-server.md)
+## <a name="see-also"></a>請參閱  
+ [規劃 BizTalk Server 的環境](../technical-guides/planning-the-environment-for-biztalk-server.md)

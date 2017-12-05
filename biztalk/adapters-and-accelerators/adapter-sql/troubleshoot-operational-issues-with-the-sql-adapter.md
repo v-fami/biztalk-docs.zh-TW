@@ -13,11 +13,11 @@ caps.latest.revision: "27"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 82bfb1782c6bccdafe4f69326cddff0f49974386
-ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
+ms.openlocfilehash: 5b6850a1b8c3b0cb5d1356078fce8dc8f50c6963
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="troubleshoot-operational-issues-with-the-sql-adapter"></a>SQL 配接器疑難排解操作問題
 本章節將討論使用來解析作業使用時可能遭遇的錯誤的疑難排解技術[!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]。  
@@ -66,7 +66,7 @@ ConfigurationErrorsException: Exception has been thrown by the target of an invo
   
  執行 SQL Server 資料庫使用中的任何作業時，配接器會提供下列的錯誤[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]。  
   
--   **針對[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]**  
+-   **BizTalk server**  
   
     ```  
     System.ArgumentNullException: Value cannot be null.  
@@ -123,26 +123,26 @@ ErrorCode:5
   
  **解決方式**  
   
--   **針對[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]**  
+-   **BizTalk server**  
   
-    1.  在 machine.config 中指定的 WCF 配接器的逾時。瀏覽至 machine.config 檔名\<系統磁碟機 >: \WINDOWS\Microsoft.NET\Framework\\< 版本\>\CONFIG 並加入類似如下所示的摘要。  
+    1.  在 machine.config 中指定的 WCF 配接器的逾時。瀏覽至 machine.config 檔名\<系統磁碟機\>: \WINDOWS\Microsoft.NET\Framework\\< 版本\>\CONFIG 並加入類似如下所示的摘要。  
   
         ```  
         <configuration>  
-         \<system.transactions>  
+         <system.transactions>  
           <machineSettings maxTimeout="02:00:00" />  
-         \</system.transactions>  
+         </system.transactions>  
         </configuration>  
         ```  
   
          使用此設定時，WCF 配接器逾時設為 2 小時。  
   
-    2.  在 machine.config 中指定 MSDTC 交易的逾時的設定。瀏覽至 machine.config 檔名\<系統磁碟機 >: \WINDOWS\Microsoft.NET\Framework\\< 版本\>\CONFIG 並加入類似如下所示的摘要。  
+    2.  在 machine.config 中指定 MSDTC 交易的逾時的設定。瀏覽至 machine.config 檔名\<系統磁碟機\>: \WINDOWS\Microsoft.NET\Framework\\< 版本\>\CONFIG 並加入類似如下所示的摘要。  
   
         ```  
-        \<system.transactions>   
+        <system.transactions>   
                 <defaultSettings distributedTransactionManagerName="<computer_name>" timeout="02:00:00"/>   
-            \</system.transactions>  
+            </system.transactions>  
   
         ```  
   
@@ -274,5 +274,5 @@ The element 'bindings' has invalid child element 'sqlBinding'. List of possible 
 > [!NOTE]
 >  使用與配接器時[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]，將逾時設定為較大的值不會影響配接器的功能。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [SQL 配接器進行疑難排解](../../adapters-and-accelerators/adapter-sql/troubleshoot-the-sql-adapter.md)

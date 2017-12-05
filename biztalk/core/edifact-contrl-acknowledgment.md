@@ -12,18 +12,18 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: baaca02ac076c79be004ed7b3d2c0f4fffce6ff9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ddbc35fecd2412632f0c4a81750a3662e6e7bf11
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="edifact-contrl-acknowledgment"></a>EDIFACT CONTRL 通知
 CONTRL 通知 (ACK) 可以做為 EDIFACT 編碼訊息的技術和功能通知。 如果是做為技術通知，CONTRL 訊息會指示接收交換。 如果是做為功能通知，CONTRL 訊息會指示接收或拒絕已接收的交換、群組或訊息，並列出錯誤或不支援的功能。  
   
  完整的 CONTRL 訊息是做為功能通知。 技術通知會重複使用功能通知的區段。 如果您已在合作對象屬性中選取技術和功能通知，傳送合作對象或全域屬性，BizTalk Server 會產生兩則 CONTRL 訊息： 技術 CONTRL 通知和功能 CONTRL 通知。  
   
- CONTRL 通知符合 EFACT_&LT;VERSION\<版本號碼 > number>_contrl.xsd 結構描述。  
+ CONTRL 通知符合 EFACT_<VERSION\<版本號碼\>number>_contrl.xsd 結構描述。  
   
 ## <a name="technical-acknowledgement"></a>技術通知  
  技術通知表示交換的接收者：  
@@ -59,9 +59,9 @@ CONTRL 通知 (ACK) 可以做為 EDIFACT 編碼訊息的技術和功能通知。
   
 ## <a name="in-this-section"></a>本節內容  
   
--   [EDIFACT CONTRL 訊息為技術通知](../core/edifact-contrl-message-as-technical-acknowledgment.md)  
+-   [EDIFACT CONTRL 訊息作為技術通知](../core/edifact-contrl-message-as-technical-acknowledgment.md)  
   
--   [EDIFACT CONTRL 訊息做為功能通知](../core/edifact-contrl-message-as-functional-acknowledgment.md)  
+-   [EDIFACT CONTRL 訊息作為功能通知](../core/edifact-contrl-message-as-functional-acknowledgment.md)  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [EDI 通知結構](../core/edi-acknowledgment-structure.md)

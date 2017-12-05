@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 45d1f365935976bfed7e36ecfd46fbbdb907fa35
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f1660e791bdc6b25c86e42062f2a939b8ba3f9a7
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="assemblies-and-artifacts-installed-by-the-sql-adapter-sample"></a>組件和成品安裝的 SQL 配接器範例
 下表列出的組件和其他成品，SQL 配接器範例的安裝。  
@@ -35,4 +35,4 @@ ms.lasthandoff: 09/20/2017
 |BizTalk 應用程式 GlobalBank.ESB|原則||  
 |BizTalk 應用程式 GlobalBank.ESB|地圖|ESB。SqlAdapter.BTSArtifacts.ProductToInsertProductMap 1.0.0.0|  
 |全域組件快取|組件|ESB。SqlAdapter.BTSArtifacts 1.0.0.0 版|  
-|%Program Files %\\[!INCLUDE[prague](../includes/prague-md.md)]\Pipeline 元件|管線元件||
+|%Program Files %\\BizTalk Server\Pipeline 元件|管線元件||

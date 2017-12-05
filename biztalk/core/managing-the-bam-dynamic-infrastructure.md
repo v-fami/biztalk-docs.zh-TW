@@ -15,18 +15,18 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 631a6bb3bab613004e11410a382687147e4adad8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 98cf9c3513a4fbd4a55a752233c9f0d704c59ecf
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="managing-the-bam-dynamic-infrastructure"></a>管理 BAM 動態基礎結構
 商務活動監控 (BAM) 功能會使用動態產生的 SQL 和線上分析處理 (OLAP) 基礎結構。 系統管理員可以使用 BAM 管理公用程式，以部署商務分析師所開發的 BAM 定義活頁簿或 XML 檔案。  
   
  BAM 動態基礎結構是由 BAM 活頁簿檢視、BAM 部署、BAM Data Transformation Services (DTS) 封裝以及 BAM 資料庫所組成。 如需有關 BAM 動態基礎結構的詳細資訊，請參閱[BAM 動態基礎結構](../core/bam-dynamic-infrastructure.md)。  
   
- 當您設定 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 時，BizTalk Server 會建立下列 BAM 資料庫：  
+ 當您設定 BizTalk Server 時，BizTalk Server 就會建立下列 BAM 資料庫：  
   
 -   BAM 主要匯入 (BAMPrimaryImport) 資料庫  
   
@@ -58,5 +58,5 @@ ms.lasthandoff: 09/20/2017
   
 -   [管理 BAM 資料庫](../core/managing-bam-databases.md)
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理 BAM](../core/managing-bam.md)

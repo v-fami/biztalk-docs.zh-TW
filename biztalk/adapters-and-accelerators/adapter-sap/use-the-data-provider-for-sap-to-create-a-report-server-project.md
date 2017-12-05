@@ -12,17 +12,17 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: caa006e8c8e22b10d0bdc58a781de30a0623bb79
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e9c7905fc7114feeca8b53589e1aa32a09495ca1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="use-the-data-provider-for-sap-to-create-a-report-server-project"></a>若要建立報表伺服器專案中使用 SAP 的資料提供者
 您必須建立報表伺服器專案、 使用[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]，以產生報告的 SAP 系統中可用的資料。 本主題說明如何建立報表伺服器專案。  
   
 ## <a name="prerequisites"></a>必要條件  
- 然後再執行本主題提供的程序，請確定您安裝[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]安裝時[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]一部分[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]安裝。 如需有關[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]安裝，請參閱安裝指南位於\<*安裝磁碟機*>: \Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Documents。  
+ 然後再執行本主題提供的程序，請確定您安裝[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]安裝時[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]一部分[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]安裝。 如需有關[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]安裝，請參閱安裝指南位於\<*安裝磁碟機*\>: \Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Documents。  
   
 ### <a name="to-create-a-report-server-project"></a>若要建立報表伺服器專案  
   
@@ -90,5 +90,5 @@ ms.lasthandoff: 09/20/2017
   
      您現在可以檢視報表。 如需有關如何檢視報表的指示，請參閱[檢視適用於 SAP 報表](../../adapters-and-accelerators/adapter-sap/view-the-reports-for-sap.md)。  
   
-## <a name="see-also"></a>另請參閱  
- [使用適用於 SAP ssrs 資料提供者](../../adapters-and-accelerators/adapter-sap/use-the-data-provider-for-sap-with-ssrs.md)
+## <a name="see-also"></a>請參閱  
+ [搭配使用 Data Provider for SAP 與 SSRS](../../adapters-and-accelerators/adapter-sap/use-the-data-provider-for-sap-with-ssrs.md)

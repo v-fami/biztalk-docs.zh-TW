@@ -17,11 +17,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 36c7eab426bfc19c082d8c9651cf4d02eae0075a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ff71cbe7eb910c66530dee3264822eae121c0ce2
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="marked-transactions-full-backups-and-log-backups"></a>標示的交易、完整備份和記錄備份
 「 備份 BizTalk Server 」 工作建立的所有 BizTalk Server 資料庫使用完整資料庫備份和交易記錄備份，搭配一種稱為交易的已同步處理的備份*標示的交易*。 標示的交易是會在所有參與交易之資料庫的交易記錄中放置標示的交易。 標示的交易會阻止新的分散式交易啟動，並等候目前執行的分散式交易完成，然後再執行以放置標示。  
@@ -38,9 +38,9 @@ ms.lasthandoff: 09/20/2017
 ## <a name="transaction-log-backups"></a>交易記錄備份  
  「 備份 BizTalk Server 」 工作執行的第二個程序是*MarkAndBackupLog*。 此程序會在所有 BizTalk Server 資料庫中放置標示，並且每次在工作執行時執行交易記錄備份。  
   
- 此標示是使用建立的字串 *\<ServerName >*_*\<DatabaseName >*_Log\_*\<LogMarkName >*\_ *\<時間戳記 >*.bak，其中*\<記錄標示名稱 >*設定中的 SQL Server Agent 作業。 還原上一個記錄至每個資料庫時，必須使用這個標示。  
+ 此標示是使用建立的字串 *\<ServerName\>*_*\<DatabaseName\>*_Log\_  *\<LogMarkName\>*\_*\<時間戳記\>*.bak，其中*\<記錄標示名稱\>*設定中的 SQL Server Agent 作業。 還原上一個記錄至每個資料庫時，必須使用這個標示。  
   
  如需詳細資訊，請參閱《SQL Server 線上叢書》中的＜相關資料庫的備份與復原＞(英文)。  
   
-## <a name="see-also"></a>另請參閱  
- [備份和還原的相關進階的資訊](../core/advanced-information-about-backup-and-restore1.md)
+## <a name="see-also"></a>請參閱  
+ [備份和還原的進階資訊](../core/advanced-information-about-backup-and-restore1.md)

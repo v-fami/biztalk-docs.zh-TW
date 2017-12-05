@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3d2946bcd37e0e7641a2d3bf750f88cd3199fc74
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3e2883bb75667d2ad2518a4b8bf0c2a90be79ec8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-1-configure-the-swift-adapter-for-the-fileact-store-and-forward-scenario"></a>步驟 1： 設定為 FileAct 存放與轉寄實例 SWIFT 的配接器
 完成[準備使用本教學課程](../../adapters-and-accelerators/fileact-interact/preparing-to-use-the-tutorial1.md)開始此步驟之前。
@@ -33,7 +33,7 @@ ms.lasthandoff: 09/20/2017
   
     |**使用此選項**|**若要這樣做**|  
     |------------------|--------------------|  
-    |**引數**|輸入下列引數:-SagMessagePartner \<Fileact 用戶端訊息的夥伴建立 SAG >**附註：**引數中的用戶端是 MessagePartner SAG 中進行設定。|  
+    |**引數**|輸入下列引數:-SagMessagePartner \<Fileact 用戶端訊息的夥伴建立 SAG\> **附註：**引數中的用戶端是 MessagePartner SAG 中進行設定。|  
     |**密碼編譯模式**|從下拉式清單選取**進階**。|  
     |**FACryptoMode**|從下拉式清單選取**進階**。|  
     |**記錄訊息**|從下拉式清單選取**TRUE**。 這可讓要擷取，並在 BAM 入口網站中追蹤的訊息事件。|  
@@ -54,4 +54,4 @@ ms.lasthandoff: 09/20/2017
  [FileAct 存放與轉寄的案例](../../adapters-and-accelerators/fileact-interact/fileact-store-and-forward-scenario.md)   
  [步驟 2： 加入為 FileAct 存放與轉寄實例 Paramfile SWIFTNet 組態](../../adapters-and-accelerators/fileact-interact/step-2-add-swiftnet-configuration-to-paramfile-for-fileact-store-and-forward.md)   
  [步驟 3： 建立傳送埠和接收埠為 FileAct 存放與轉寄的實例](../../adapters-and-accelerators/fileact-interact/step-3-create-send-ports-and-receive-ports-for-the-fileact-store-and-forward.md)   
- [步驟 4： 測試 FileAct 存放與轉寄的端對端案例](../../adapters-and-accelerators/fileact-interact/step-4-test-fileact-store-and-forward-end-to-end-scenario.md)
+ [步驟 4：測試 FileAct 儲存和轉寄端對端案例](../../adapters-and-accelerators/fileact-interact/step-4-test-fileact-store-and-forward-end-to-end-scenario.md)

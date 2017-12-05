@@ -12,11 +12,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3da0d65917598dbbce4e203a97a9e843b5ba70c5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cc6ec29ece503f324758cdc08a6ff1351c066af4
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="sysprep-a-biztalk-server-vhd-biztalk-server-sample"></a>Sysprep BizTalk Server VHD （BizTalk Server 範例）
 Sysprep 會從已安裝 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的虛擬機器建立快照集，以便快速部署到其他虛擬機器上。  
@@ -34,7 +34,7 @@ Sysprep 會從已安裝 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbizt
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
  這個範例位於下列 SDK 位置：  
   
- \<*範例路徑*> \Admin\Sysprep\  
+ \<*範例路徑*\>\Admin\Sysprep\  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -45,22 +45,22 @@ Sysprep 會從已安裝 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbizt
 |----------|-----------------|  
 |Sysprep.xml|回應檔案|  
 |SetupCompletecmd.txt|回應檔案|  
-|ReplaceMachineName.vbs|用途： 開啟檔案，並給定字串的所有執行個體，取代目前的電腦名稱。 準備其他指令碼和 xml 檔案，並更新 bm.exe.config 很有用。<br /><br /> 使用方式： ReplaceMachineName.vbs\<檔案以開啟 >\<来取代的字串 >|  
-|UpdateRegistry.vbs|用途： 更新 BizTalk 登錄設定中儲存的電腦名稱。<br /><br /> 使用方式： UpdateRegistry.vbs \<UpdateInfo.xml >。 請務必取代 $(OLDCOMPUTERNAME) 和 $(NEWCOMPUTERNAME) 這個 xml 檔案中的所有執行個體。|  
-|UpdateDatabase.vbs|用途： 更新儲存在 BizTalk 管理資料庫中的電腦名稱。<br /><br /> 使用方式： UpdateDatabase.vbs \<UpdateInfo.xml >|  
-|UpdateBAMDb.vbs|用途： 更新儲存在 BAM 資料庫的電腦名稱。<br /><br /> 使用方式： UpdateBamDb.vbs \<UpdateInfo.xml >|  
-|UpdateSSO.cmd|用途： 重新設定 「 企業單一登入 (SSO) 密碼伺服器。<br /><br /> 使用方式： sso.cmd \<UpdateInfo.xml >|  
+|ReplaceMachineName.vbs|用途： 開啟檔案，並給定字串的所有執行個體，取代目前的電腦名稱。 準備其他指令碼和 xml 檔案，並更新 bm.exe.config 很有用。<br /><br /> 使用方式： ReplaceMachineName.vbs\<檔案以開啟\>\<来取代的字串\>|  
+|UpdateRegistry.vbs|用途： 更新 BizTalk 登錄設定中儲存的電腦名稱。<br /><br /> 使用方式： UpdateRegistry.vbs \<UpdateInfo.xml\>。 請務必取代 $(OLDCOMPUTERNAME) 和 $(NEWCOMPUTERNAME) 這個 xml 檔案中的所有執行個體。|  
+|UpdateDatabase.vbs|用途： 更新儲存在 BizTalk 管理資料庫中的電腦名稱。<br /><br /> 使用方式： UpdateDatabase.vbs \<UpdateInfo.xml\>|  
+|UpdateBAMDb.vbs|用途： 更新儲存在 BAM 資料庫的電腦名稱。<br /><br /> 使用方式： UpdateBamDb.vbs \<UpdateInfo.xml\>|  
+|UpdateSSO.cmd|用途： 重新設定 「 企業單一登入 (SSO) 密碼伺服器。<br /><br /> 使用方式： sso.cmd \<UpdateInfo.xml\>|  
 |UpdateSqlServerAndInstanceName.cmd|用途： 重新設定 SQL，SQL Express、 重新啟動一系列相依的服務，並 reregisters BAMAlerts。<br /><br /> 使用方式： 編輯指令碼的 $(NEWCOMPUTERNAME)，所有執行個體並更新 serviceusername 和 servicepassword BAM 警示。 然後，執行 UpdateSqlServerAndInstanceName.cmd 傳遞做為第一個引數舊的電腦名稱。|  
   
 ## <a name="creating-the-answer-files-and-running-sysprep"></a>建立回應檔案和執行 Sysprep  
   
 #### <a name="to-create-the-answer-files"></a>若要建立回應檔案  
   
-1.  在新的虛擬機器上安裝並設定 [!INCLUDE[prague](../includes/prague-md.md)]。 請務必使用預設安裝和設定選項，因為 Sysprep 不支援自訂的安裝。  
+1.  安裝和設定 BizTalk Server 的虛擬機器上。 請務必使用預設安裝和設定選項，因為 Sysprep 不支援自訂的安裝。  
   
 2.  包含 「 指令碼 」 資料夾的內容複製到 C:\Scripts，虛擬機器上。  
   
-3.  藉由修改下列行中 Sysprep.xml 準備 sysprep 回應檔案。 (注意： 這些線條會標記為"！" 之前。）您可以使用這些範本，或自行建立並透過複製\<FirstLogonCommands > 一節。  
+3.  藉由修改下列行中 Sysprep.xml 準備 sysprep 回應檔案。 (注意： 這些線條會標記為"！" 之前。）您可以使用這些範本，或自行建立並透過複製\<FirstLogonCommands\> > 一節。  
   
     -   $(OLDCOMPUTERNAME) 取代目前的虛擬機器的電腦名稱。  
   
@@ -70,7 +70,7 @@ Sysprep 會從已安裝 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbizt
   
     -   UpdateSqlServerAndInstance.cmd 和您 Sysprep.xml 中也應該更新任何公司詳細資料。  
   
-     或者，您可以從頭開始建立 Sysprep 回應檔案使用[自動化安裝套件 (AIK)](http://www.microsoft.com/downloads/details.aspx?FamilyID=94bb6e34-d890-4932-81a5-5b50c657de08&DisplayLang=en) Windows Server 2008 上。 請確認您\<FirstLogonCommands > 區段比對這些範例，因此 BizTalk 指令碼會執行第一次開機。  
+     或者，您可以從頭開始建立 Sysprep 回應檔案使用[自動化安裝套件 (AIK)](http://www.microsoft.com/downloads/details.aspx?FamilyID=94bb6e34-d890-4932-81a5-5b50c657de08&DisplayLang=en) Windows Server 2008 上。 請確認您\<FirstLogonCommands\>區段比對這些範例，因此 BizTalk 指令碼會執行第一次開機。  
   
 #### <a name="to-run-sysprep"></a>若要執行 Sysprep  
   

@@ -1,5 +1,5 @@
 ---
-title: "完成 [Oracle E-business Suite 使用 WCF 服務模型中的大型資料類型的資料表作業 |Microsoft 文件"
+title: "完成 Oracle E-business Suite 使用 WCF 服務模型中的大型資料類型的資料表作業 |Microsoft 文件"
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,18 +12,18 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b671f8fc124875eb5eadf119188d0ffe4c1a2a3b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 720da748059d3fe3da376ea42495a2587577f5ee
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
-# <a name="complete-operations-on-tables-with-large-data-types-in-oracle-e-business-suite-using-the-wcf-service-model"></a>完成 [Oracle E-business Suite 使用 WCF 服務模型中的大型資料類型的資料表作業
+# <a name="complete-operations-on-tables-with-large-data-types-in-oracle-e-business-suite-using-the-wcf-service-model"></a>完成 Oracle E-business Suite 使用 WCF 服務模型中的大型資料類型的資料表作業
 [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]可讓配接器用戶端執行具有大型資料類型，例如 BLOB、 CLOB、 NCLOB、 和 BFILE 介面資料表和檢視表上的作業。  
   
--   類型的資料行 BLOB、 CLOB、 和 NCLOB，配接器可讓用戶端可以讀取，以及更新的資料。 配接器會公開 Read_\<*LOBColName*> 和 Update_\<*LOBColName*> 作業來讀取和更新資料，其中\< *LOBColName*> 是大型的資料類型資料行的名稱。 如果沒有與單一介面資料表中的大型資料類型的多個資料行，配接器會公開為許多的讀取和更新該介面資料表的作業。  
+-   類型的資料行 BLOB、 CLOB、 和 NCLOB，配接器可讓用戶端可以讀取，以及更新的資料。 配接器會公開 Read_\<*LOBColName* \>和 Update_\<*LOBColName* \>作業來讀取和更新資料，其中\<*LOBColName* \>是大型的資料類型資料行的名稱。 如果沒有與單一介面資料表中的大型資料類型的多個資料行，配接器會公開為許多的讀取和更新該介面資料表的作業。  
   
--   型別 BFILE 資料行，配接器用戶端可以只讀取資料。 配接器會公開 Read_\<*LOBColName*> BFILE 類型的資料行中讀取資料的作業。 如果沒有與單一介面資料表中的大型資料類型的多個資料行，配接器會公開為許多讀取介面資料表的作業。  
+-   型別 BFILE 資料行，配接器用戶端可以只讀取資料。 配接器會公開 Read_\<*LOBColName* \> BFILE 類型的資料行中讀取資料的作業。 如果沒有與單一介面資料表中的大型資料類型的多個資料行，配接器會公開為許多讀取介面資料表的作業。  
   
  如需有關這些作業的詳細資訊，請參閱[介面資料表、 介面檢視、 資料表和檢視表，包含 LOB 資料的作業](../../adapters-and-accelerators/adapter-oracle-ebs/read-and-update-on-interface-tables-and-views-with-large-object-data-types.md)。  
   
@@ -53,8 +53,8 @@ ms.lasthandoff: 09/20/2017
   
 |作業|方法簽章|  
 |---------------|----------------------|  
-|Update_\<*column_name*>|public void Update_\<*column_name*> （字串篩選條件，byte [] 的資料;）|  
-|Read_\<*column_name*>|公用 System.IO.Stream Read_\<*column_name*>(string FILTER);|  
+|Update_\<*column_name*\>|public void Update_\<*column_name*\>（字串篩選條件，byte [] 的資料;）|  
+|Read_\<*column_name*\>|公用 System.IO.Stream Read_\<*column_name*\>（字串篩選條件）。|  
   
  例如，下列程式碼會示範 Update_PHOTO 和 Read_PHOTO 作業的應用程式的結構描述在客戶資料庫資料表上產生 WCF 用戶端類別的方法簽章。  
   
@@ -70,12 +70,12 @@ public partial class Tables_APPS_CUSTOMERClient : System.ServiceModel.ClientBase
  在此程式碼片段， **Tables_APPS_CUSTOMERClient**是 WCF 中的類別所產生的 OracleEBSBindingClient.cs 名稱[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]。 Update_PHOTO 和 Read_PHOTO 是以更新和讀取資料表中的大型資料類型的資料行就可以叫用的方法。  
   
 ### <a name="parameters-for-table-operations"></a>資料表作業的參數  
- 本節提供 Update_ 所需的參數\<*column_name*> 和 Read_\<*column_name*> 作業。  
+ 本節提供 Update_ 所需的參數\<*column_name* \>和 Read_\<*column_name* \>作業。  
   
 |作業名稱|參數|  
 |--------------------|----------------|  
-|Update_\<*column_name*>|需要下列參數：<br /><br /> -   `string FILTER`. 這個參數必須包含 where 子句，表示具有要更新之資料的記錄。 例如， `"WHERE Name='Mindy Martin'"`。<br />-   `byte[] DATA`. 包含要更新大型資料類型的資料行中資料的位元組陣列。|  
-|Read_\<*column_name*>|需要下列參數：<br /><br /> -   `string FILTER`. 這個參數必須包含 where 子句代表從中資料有要讀取的記錄。 例如， `"WHERE Name='Mindy Martin'"`。|  
+|Update_\<*column_name*\>|需要下列參數：<br /><br /> -   `string FILTER`. 這個參數必須包含 where 子句，表示具有要更新之資料的記錄。 例如， `"WHERE Name='Mindy Martin'"`。<br />-   `byte[] DATA`. 包含要更新大型資料類型的資料行中資料的位元組陣列。|  
+|Read_\<*column_name*\>|需要下列參數：<br /><br /> -   `string FILTER`. 這個參數必須包含 where 子句代表從中資料有要讀取的記錄。 例如， `"WHERE Name='Mindy Martin'"`。|  
   
 ## <a name="creating-a-wcf-client-to-invoke-operations-on-tables-with-columns-of-large-data-types"></a>建立 WCF 用戶端來叫用具有大型資料類型之資料行的資料表上的作業  
  Oracle E-business Suite 使用 WCF 用戶端上執行作業所需動作的泛型集合會包含一組工作中所述[Oracle E-business Suite 配接器的 WCF 服務模型概觀](../../adapters-and-accelerators/adapter-oracle-ebs/overview-of-the-wcf-service-model-with-the-oracle-e-business-suite-adapter.md)。 本章節描述如何建立 WCF 用戶端來叫用 Update_PHOTO 和 Read_PHOTO 客戶資料庫資料表上的作業。  
@@ -158,7 +158,7 @@ public partial class Tables_APPS_CUSTOMERClient : System.ServiceModel.ClientBase
             Console.WriteLine("Reading the photo");  
             int count = 0;  
             photo = new byte[fs.Length];  
-            while ((count += fs.Read(photo, count, (int)(((fs.Length - count) > 4096) ? 4096 : fs.Length - count))) \< fs.Length) ;  
+            while ((count += fs.Read(photo, count, (int)(((fs.Length - count) > 4096) ? 4096 : fs.Length - count))) < fs.Length) ;  
         }  
         catch(Exception ex)  
         {  
@@ -215,5 +215,5 @@ public partial class Tables_APPS_CUSTOMERClient : System.ServiceModel.ClientBase
   
 11. 建置專案，然後執行它。 應用程式更新客戶資料表的 PHOTO 欄，然後再讀取相片的資料行的內容。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [開發 Oracle E-business Suite 應用程式使用 WCF 服務模型](../../adapters-and-accelerators/adapter-oracle-ebs/develop-oracle-e-business-suite-applications-using-the-wcf-service-model.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ae58ea03f394b0fe8b7223bdd810dbc72ccb2472
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c82dc5cb65156af86e66abfeffef206f18add5cb
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="infrastructure-management-commands"></a>基礎結構管理命令
 BAM 管理 (BM) 公用程式組態命令可讓您取得及更新 BAM 組態。  
@@ -38,15 +38,15 @@ BAM 管理 (BM) 公用程式組態命令可讓您取得及更新 BAM 組態。
 ## <a name="get-config-command"></a>get-config 命令  
  **使用方式**  
   
- **bm.exe get-config-FileName:\<輸出檔 > [-Server:\<伺服器 >] [-Database:\<資料庫 >]**  
+ **bm.exe get-config-FileName:\<輸出檔\>[-Server:\<伺服器\>] [-Database:\<資料庫\>]**  
   
  **參數**  
   
 |參數|Description|  
 |---------------|-----------------|  
-|檔案名稱：\<輸出檔 >|組態檔的儲存路徑和名稱。|  
-|伺服器：\<伺服器 >|選擇性： 取得設定的伺服器名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。 如果沒有指定伺服器名稱，bm.exe 會使用 localhost 的預設名稱。|  
-|資料庫：\<資料庫 >|選擇性： 取得設定的資料庫名稱。 如果沒有指定名稱，bm.exe 會使用預設的名稱 BamPrimaryImport。|  
+|檔案名稱：\<輸出檔\>|組態檔的儲存路徑和名稱。|  
+|伺服器：\<伺服器\>|選擇性： 取得設定的伺服器名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。 如果沒有指定伺服器名稱，bm.exe 會使用 localhost 的預設名稱。|  
+|資料庫：\<資料庫\>|選擇性： 取得設定的資料庫名稱。 如果沒有指定名稱，bm.exe 會使用預設的名稱 BamPrimaryImport。|  
   
  擷取 BAM 組態 XML，並將它儲存在指定的檔案中。 **Get-config**命令不會覆寫現有的檔案。  
   
@@ -60,13 +60,13 @@ bm.exe get-config -FileName:BAMConfiguration.xml -Server:OrdersServer
 ## <a name="update-config-command"></a>update-config 命令  
  **使用方式**  
   
- **bm.exe 更新-config-FileName:\<組態檔 >**  
+ **bm.exe 更新-config-FileName:\<組態檔\>**  
   
  **參數**  
   
 |參數|Description|  
 |---------------|-----------------|  
-|檔案名稱：\<組態檔 >|用於更新 BAM 基礎結構的組態檔所在路徑和名稱。|  
+|檔案名稱：\<組態檔\>|用於更新 BAM 基礎結構的組態檔所在路徑和名稱。|  
   
  從含有 BAM 組態 XML 的檔案來更新本機電腦上的組態。 您可以加入目前組態中不存在的伺服器和資料庫名稱。 變更已部署動態基礎結構的伺服器或資料庫名稱會發生錯誤，且 bm.exe 將報告錯誤。  
   
@@ -74,7 +74,7 @@ bm.exe get-config -FileName:BAMConfiguration.xml -Server:OrdersServer
   
  在 BAM 組態檔中修改底下這一行即可變更檔案放置位置。  
   
- \<屬性名稱 ="FileDropUNC">\\\\< 電腦名稱\>\alerts\</Property >  
+ \<屬性名稱 ="FileDropUNC"\>\\\\< 電腦名稱\>\alerts\</Property\>  
   
  如需更新參照的適當步驟，請參閱[備份和還原 BizTalk Server](../core/backing-up-and-restoring-biztalk-server.md)。  
   
@@ -90,14 +90,14 @@ bm.exe update-config -FileName:MyConfig.xml
 ## <a name="get-changes-command"></a>get-changes 命令  
  **使用方式**  
   
- **bm.exe get 變更 [-Server:\<伺服器 >] [-Database:\<資料庫 >]**  
+ **bm.exe get 變更 [-Server:\<伺服器\>] [-Database:\<資料庫\>]**  
   
  **參數**  
   
 |參數|Description|  
 |---------------|-----------------|  
-|伺服器：\<伺服器 >|選擇性： 在 BAM 主要匯入資料庫所在的伺服器的名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。 如果沒有指定伺服器名稱，bm.exe 會使用 localhost 的預設名稱。|  
-|資料庫：\<資料庫 >|選擇性： 如果未指定的名稱，bm.exe 會使用預設名稱 BamPrimaryImport。|  
+|伺服器：\<伺服器\>|選擇性： 在 BAM 主要匯入資料庫所在的伺服器的名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。 如果沒有指定伺服器名稱，bm.exe 會使用 localhost 的預設名稱。|  
+|資料庫：\<資料庫\>|選擇性： 如果未指定的名稱，bm.exe 會使用預設名稱 BamPrimaryImport。|  
   
  取得 BAM 主要匯入資料庫套用的變更清單。 使用此命令可以稽核 BAM 基礎結構所做的變更。 此命令會傳回下列資訊：  
   
@@ -128,15 +128,15 @@ bm.exe get-changes
 ## <a name="get-defxml-command"></a>get-defxml 命令  
  **使用方式**  
   
- **bm.exe get defxml-FileName:\<輸出檔 > [-Server:\<伺服器 >] [-Database:\<資料庫 >]**  
+ **bm.exe get defxml-FileName:\<輸出檔\>[-Server:\<伺服器\>] [-Database:\<資料庫\>]**  
   
  **參數**  
   
 |參數|Description|  
 |---------------|-----------------|  
-|檔案名稱：\<輸出檔 >|用來儲存定義的檔案所在路徑和名稱。|  
-|伺服器：\<伺服器 >|選擇性： 定義取得來源的伺服器名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。 如果沒有指定伺服器名稱，bm.exe 會使用 localhost 的預設名稱。|  
-|資料庫：\<資料庫 >|選擇性： 定義取得來源的資料庫名稱。 如果沒有指定名稱，bm.exe 會使用預設的名稱 BamPrimaryImport。|  
+|檔案名稱：\<輸出檔\>|用來儲存定義的檔案所在路徑和名稱。|  
+|伺服器：\<伺服器\>|選擇性： 定義取得來源的伺服器名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。 如果沒有指定伺服器名稱，bm.exe 會使用 localhost 的預設名稱。|  
+|資料庫：\<資料庫\>|選擇性： 定義取得來源的資料庫名稱。 如果沒有指定名稱，bm.exe 會使用預設的名稱 BamPrimaryImport。|  
   
  從 BAM 主要匯入資料庫擷取所有成品，然後另存為 XML 檔案。 此命令不會覆寫現有的檔案。  
   
@@ -147,5 +147,5 @@ bm.exe get-defxml -FileName:BAMDefinition.xml
 bm.exe get-defxml -FileName:MyDef.xml -Server:MyServer -Database:MyPI  
 ```  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [BAM 管理公用程式](../core/bam-management-utility.md)

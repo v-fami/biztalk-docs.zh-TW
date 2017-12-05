@@ -15,18 +15,18 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 760865f6f69559031b10bc9f4e609bbb3cfffa33
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e88ec7506a299476dccb6ef9f9d0125768ea80b6
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="defining-a-custom-bam-view-for-message-repair-and-new-submission-data"></a>訊息修復和新送出資料中定義自訂 BAM 檢視
 [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]安裝程式會提供定義商務活動和商務檢視 BAM 定義檔案。 您可以部署 BAM 定義檔案，若要使用該檢視，或您可以建立自訂檢視，您可以加入 BAM 定義檔案。  
   
- BAM 定義檔案是在 MrsrActivities.xml *\<磁碟機 >*: \Program Files\Microsoft BizTalk Accelerator for SWIFT\BAMTracking。 它會定義訊息活動和 RepairView 檢視。 如需有關使用 bm 部署 MrsrActivities.xml 部署公用程式，請參閱[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]幫助。  
+ BAM 定義檔案是在 MrsrActivities.xml *\<磁碟機\>*: \Program Files\Microsoft BizTalk Accelerator for SWIFT\BAMTracking。 它會定義訊息活動和 RepairView 檢視。 如需有關使用 bm 部署 MrsrActivities.xml 部署公用程式，請參閱 BizTalk Server 說明。  
   
- 在 商務活動監控檢視精靈從 BAM 活頁簿中建立自訂檢視。 如需建立自訂檢視的詳細資訊，請參閱 「 建立 BAM 檢視 」 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]幫助資訊工作者。  
+ 在 商務活動監控檢視精靈從 BAM 活頁簿中建立自訂檢視。 如需建立自訂檢視的詳細資訊，請參閱 「 建立 BAM 檢視 」 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server 資訊工作者說明。  
   
  訊息中的活動 MrsrActivities.xml 包含下列項目，您可以加入自訂的檢視：  
   

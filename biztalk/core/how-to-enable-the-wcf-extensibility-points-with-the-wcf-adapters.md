@@ -13,11 +13,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: be2980f3235552f263efbd4fce92c0042216b88c
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: 2881ddd83ebeb31a9f5ff3da6ed858f158751d64
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-enable-the-wcf-extensibility-points-with-the-wcf-adapters"></a>如何使用 WCF 配接器啟用 WCF 擴充性點
 啟用三個 WCF 擴充性點： 行為延伸模組、 繫結元素延伸模組，以及繫結延伸模組，使用 Wcf-custom 和 Wcf-customisolated 配接器。 為了執行這項操作，您會先將實作 WCF 擴充性點的組件安裝在全域組件快取 (GAC) 中，接著修改電腦上的 machine.config 檔案，然後再使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台設定 WCF-Custom 或 WCF-CustomIsolated 配接器。  
@@ -38,7 +38,7 @@ ms.lasthandoff: 11/07/2017
   
 4.  輸入以下命令：  
   
-     **gacutil.exe /if"\<**  *組件.dll 檔案路徑* **> 」**  
+     **gacutil.exe /if"\<**  *組件.dll 檔案路徑*  **\>"**  
   
 5.  這會將組件安裝至 GAC，覆寫任何同名的現有組件。  
   
@@ -53,7 +53,7 @@ ms.lasthandoff: 11/07/2017
   
 1.  在命令提示字元中，移至 %frameworkdir%\v4。X.XXXXX\CONFIG 資料夾，然後開啟**machine.config**使用 [記事本] 檔案。  
   
-2.  在記事本中，如果 machine.config 檔案沒有 **\<system.serverModel >\\< 延伸\>**項目，加入這些項目內 **\<設定 >**元素的 machine.config 檔案，然後再加入 **\<bindingExtensions >** WCF 繫結延伸模組內的項目 **\<system.serverModel >\\< 延伸\>**項目。 例如，若要啟用自訂繫結延伸模組 netHttpBinding，請加入內的下列程式碼**\<組態 >** machine.config 檔案的項目：  
+2.  在記事本中，如果 machine.config 檔案沒有 **\<system.serverModel\>\\< 延伸\>**項目，加入這些項目內 **\<組態\>**元素的 machine.config 檔案，然後再加入 **\<bindingExtensions\>**  WCF 繫結延伸模組內的項目 **\<system.serverModel\>\\< 延伸\>**項目。 例如，若要啟用自訂繫結延伸模組 netHttpBinding，請加入內的下列程式碼**\<組態\>** machine.config 檔案的項目：  
   
     ```  
     <system.serviceModel>  
@@ -87,11 +87,11 @@ ms.lasthandoff: 11/07/2017
   
 3.  如果您使用 WCF-CustomIsolated 配接器，請在 IIS 管理主控台中，重新啟動與 WCF 接收位置關聯的應用程式集區。  
   
-4.  如果您想要設定接收位置中使用 WCF 擴充性點，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統管理主控台中，展開**BizTalk 群組**，依序展開 *\<BizTalk 應用程式 >*依序展開**接收位置**，然後在右窗格中按兩下*\<接收位置>*。  
+4.  如果您想要設定接收位置中使用 WCF 擴充性點，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統管理主控台中，展開**BizTalk 群組**，依序展開 *\<BizTalk 應用程式\>*，依序展開**接收位置**，然後在右窗格中按兩下*\<接收位置\>*。  
   
     -   在**接收位置屬性**對話方塊中，於**類型**下拉式清單中，選取**Wcf-custom**或**Wcf-customisolated**根據您想要使用，然後按一下 WCF 配接器**設定**。  
   
-5.  如果您想要設定傳送埠中使用 WCF 擴充性點，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統管理主控台中，展開**BizTalk 群組**，依序展開 *\<BizTalk 應用程式 >*，依序展開**傳送埠**，然後在右窗格中按兩下*\<傳送連接埠>*。  
+5.  如果您想要設定傳送埠中使用 WCF 擴充性點，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統管理主控台中，展開**BizTalk 群組**，依序展開 *\<BizTalk 應用程式\>*，依序展開**傳送埠**，然後在右窗格中按兩下*\<傳送埠\>*。  
   
     -   在**傳送埠屬性**對話方塊中，於**類型**下拉式清單中，選取**Wcf-custom**，然後按一下 **設定**。  
   
@@ -103,7 +103,7 @@ ms.lasthandoff: 11/07/2017
   
 1.  在命令提示字元中，移至 %frameworkdir%\v4。X.XXXXX\CONFIG 資料夾，然後開啟**machine.config**使用 [記事本] 檔案。  
   
-2.  在記事本中，如果 machine.config 檔案沒有 **\<system.serverModel >\\< 延伸\>**項目，加入這些項目內 **\<設定 >**元素的 machine.config 檔案，然後再加入 **\<bindingElementExtensions >** WCF 繫結元素延伸模組內的項目 **\<system.serverModel >\\< 延伸\>**項目。 比方說，若要啟用自訂繫結元素延伸模組，請將下列程式碼內**\<組態 >** machine.config 檔案的項目：  
+2.  在記事本中，如果 machine.config 檔案沒有 **\<system.serverModel\>\\< 延伸\>**項目，加入這些項目內 **\<組態\>**元素的 machine.config 檔案，然後再加入 **\<bindingElementExtensions\>**  WCF 繫結項目的項目延伸模組內 **\<system.serverModel\>\\< 延伸\>**項目。 比方說，若要啟用自訂繫結元素延伸模組，請將下列程式碼內**\<組態\>** machine.config 檔案的項目：  
   
     ```  
     <system.serviceModel>  
@@ -137,11 +137,11 @@ ms.lasthandoff: 11/07/2017
   
 3.  如果您使用 WCF-CustomIsolated 配接器，請在 IIS 管理主控台中，重新啟動與 WCF 接收位置關聯的應用程式集區。  
   
-4.  如果您想要設定接收位置中使用 WCF 擴充性點，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統管理主控台中，展開**BizTalk 群組**，依序展開 *\<BizTalk 應用程式 >*依序展開**接收位置**，然後在右窗格中按兩下*\<接收位置>*。  
+4.  如果您想要設定接收位置中使用 WCF 擴充性點，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統管理主控台中，展開**BizTalk 群組**，依序展開 *\<BizTalk 應用程式\>*，依序展開**接收位置**，然後在右窗格中按兩下*\<接收位置\>*。  
   
     -   在**接收位置屬性**對話方塊中，於**類型**下拉式清單中，選取**Wcf-custom**或**Wcf-customisolated**根據您想要使用，然後按一下 WCF 配接器**設定**。  
   
-5.  如果您想要設定傳送埠中使用 WCF 擴充性點，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統管理主控台中，展開**BizTalk 群組**，依序展開 *\<BizTalk 應用程式 >*，依序展開**傳送埠**，然後在右窗格中按兩下*\<傳送連接埠>*。  
+5.  如果您想要設定傳送埠中使用 WCF 擴充性點，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統管理主控台中，展開**BizTalk 群組**，依序展開 *\<BizTalk 應用程式\>*，依序展開**傳送埠**，然後在右窗格中按兩下*\<傳送埠\>*。  
   
     -   在**傳送埠屬性**對話方塊中，於**類型**下拉式清單中，選取**Wcf-custom**，然後按一下 **設定**。  
   
@@ -166,7 +166,7 @@ ms.lasthandoff: 11/07/2017
   
 1.  在命令提示字元中，移至 %frameworkdir%\v4。X.XXXXX\CONFIG 資料夾，然後開啟**machine.config**使用 [記事本] 檔案。  
   
-2.  在記事本中，如果 machine.config 檔案沒有 **\<system.serverModel >\\< 延伸\>**項目，加入這些項目內 **\<設定 >**元素的 machine.config 檔案，然後再加入 **\<behaviorExtensions >** WCF 行為延伸模組內的項目 **\<system.serverModel >\\< 延伸\>**項目。 比方說，若要啟用自訂行為延伸模組 schemaValidator，請將下列程式碼內**\<組態 >** machine.config 檔案的項目：  
+2.  在記事本中，如果 machine.config 檔案沒有 **\<system.serverModel\>\\< 延伸\>**項目，加入這些項目內 **\<組態\>**元素的 machine.config 檔案，然後再加入 **\<behaviorExtensions\>**  WCF 行為延伸模組項目內部 **\<system.serverModel\>\\< 延伸\>**項目。 比方說，若要啟用自訂行為延伸模組 schemaValidator，請將下列程式碼內**\<組態\>** machine.config 檔案的項目：  
   
     ```  
     <system.serviceModel>  
@@ -200,11 +200,11 @@ ms.lasthandoff: 11/07/2017
   
 3.  如果您使用 WCF-CustomIsolated 配接器，請在 IIS 管理主控台中，重新啟動與 WCF 接收位置關聯的應用程式集區。  
   
-4.  如果您想要設定接收位置來使用 WCF 擴充性點，BizTalk 管理主控台中，展開  **BizTalk 群組**，依序展開 *\<BizTalk 應用程式 >*，依序展開**接收位置**，然後在右窗格中按兩下*\<接收位置>*。  
+4.  如果您想要設定接收位置來使用 WCF 擴充性點，BizTalk 管理主控台中，展開  **BizTalk 群組**，依序展開 *\<BizTalk 應用程式\>*，依序展開**接收位置**，然後在右窗格中按兩下*\<接收位置\>*。  
   
     -   在**接收位置屬性**對話方塊中，於**類型**下拉式清單中，選取**Wcf-custom**或**Wcf-customisolated**根據您想要使用，然後按一下 WCF 配接器**設定**。  
   
-5.  如果您想要設定傳送埠以使用 WCF 擴充性點，BizTalk 管理主控台中，展開  **BizTalk 群組**，依序展開 *\<BizTalk 應用程式 >*，依序展開  **傳送埠**，然後在右窗格中按兩下*\<傳送連接埠>*。  
+5.  如果您想要設定傳送埠以使用 WCF 擴充性點，BizTalk 管理主控台中，展開  **BizTalk 群組**，依序展開 *\<BizTalk 應用程式\>*，展開**傳送埠**，然後在右窗格中按兩下*\<傳送埠\>*。  
   
     -   在**傳送埠屬性**對話方塊中，於**類型**下拉式清單中，選取**Wcf-custom**，然後按一下 **設定**。  
   

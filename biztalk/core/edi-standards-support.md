@@ -12,14 +12,14 @@ caps.latest.revision: "27"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ffb23914964d4fd1c114818d6a616c2d57fae434
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ebb7ab3abb9a4bc547d920614e1a1839a85c593b
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="edi-standards-support"></a>EDI 標準支援
-[!INCLUDE[prague](../includes/prague-md.md)]提供四種編碼標準的設計和執行階段支援。 下表列出這些編碼標準和詳細資訊的連結。  
+BizTalk Server 提供四種編碼標準的設計和執行階段支援。 下表列出這些編碼標準和詳細資訊的連結。  
   
 |編碼標準|產業區塊|參考|  
 |-----------------------|----------------------|----------------|  
@@ -53,14 +53,14 @@ ms.lasthandoff: 09/20/2017
   
 -   X12 建議使用 ASCII 編碼，而 EDIFACT 建議使用 UTF8 編碼。  
   
- [!INCLUDE[prague](../includes/prague-md.md)]支援 KEDIFACT (韓文 EDIFACT) 標準。 KEDIFACT 遵循「UN/EDIFACT 的訊息實作指南」，因此大部分是以 EDIFACT 為基礎。 不過，KEDIFACT 和 X12/EDIFACT 之間還是有差異。 KEDIFACT 使用數個 KEDIFACT 特有的 EDI 結構描述並使用 KECA 字碼頁。  
+ BizTalk Server 支援 KEDIFACT (韓文 EDIFACT) 標準。 KEDIFACT 遵循「UN/EDIFACT 的訊息實作指南」，因此大部分是以 EDIFACT 為基礎。 不過，KEDIFACT 和 X12/EDIFACT 之間還是有差異。 KEDIFACT 使用數個 KEDIFACT 特有的 EDI 結構描述並使用 KECA 字碼頁。  
   
 ## <a name="hipaa"></a>HIPAA  
- [!INCLUDE[prague](../includes/prague-md.md)]支援 X12 處理，以及因為 HIPAA 處理是 X12 處理，[!INCLUDE[prague](../includes/prague-md.md)]支援 HIPAA 處理。 您會看到提及 X12 支援此文件中，它也適用於 HIPAA 處理。  
+ BizTalk Server 支援 X12 處理，以及 HIPAA 處理是 X12 處理，因此 BizTalk Server 以支援 HIPAA 處理。 您會看到提及 X12 支援此文件中，它也適用於 HIPAA 處理。  
   
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]提供額外的 HIPAA 特有支援：  
   
--   一組版本 4010A1 HIPAA 文件結構描述。 如需有關 EDI 和 HIPAA 文件結構描述中[!INCLUDE[prague](../includes/prague-md.md)]，請參閱[EDI 文件結構描述](../core/edi-document-schemas.md)。  
+-   一組版本 4010A1 HIPAA 文件結構描述。 如需有關 BizTalk Server 中的 EDI 和 HIPAA 文件結構描述的詳細資訊，請參閱[EDI 文件結構描述](../core/edi-document-schemas.md)。  
   
 -   版本 5010 HIPAA 文件結構描述集合。 如需詳細資訊，請參閱[HIPAA 文件結構描述版本 5010](../core/hipaa-document-schema-version-5010.md)。  
   
@@ -68,15 +68,15 @@ ms.lasthandoff: 09/20/2017
   
 -   支援的 WEDI SNIP 測試前兩個層級： X12 語法完整性和需求[HIPAA 實作指南](http://go.microsoft.com/fwlink/?LinkId=77541)。  
   
- [!INCLUDE[prague](../includes/prague-md.md)]提供了 HIPAA 支援原生 BizTalk Server EDI 功能的一部分。 如需詳細資訊，請參閱[BizTalk Server 中的 EDI 支援](../core/edi-support-in-biztalk-server2.md)。  
+ BizTalk Server 提供了 HIPAA 支援原生 BizTalk Server EDI 功能的一部分。 如需詳細資訊，請參閱[BizTalk Server 中的 EDI 支援](../core/edi-support-in-biztalk-server2.md)。  
   
 ## <a name="eancom"></a>EANCOM  
- [!INCLUDE[prague](../includes/prague-md.md)]支援 EDIFACT 處理，以及自 EANCOM 處理是 EDIFACT 處理，衍生[!INCLUDE[prague](../includes/prague-md.md)]也支援 EANCOM 處理。 當本文件提及 EDIFACT 支援時，此支援也適用於 EANCOM 處理。  
+ BizTalk Server 支援 EDIFACT 處理，由於 EANCOM 處理衍生 EDIFACT 處理，BizTalk Server 也支援 EANCOM 處理。 當本文件提及 EDIFACT 支援時，此支援也適用於 EANCOM 處理。  
   
- [!INCLUDE[prague](../includes/prague-md.md)]提供額外的 EANCOM 特有支援：  
+ BizTalk Server 提供額外的 EANCOM 特有支援：  
   
--   一組版本 EAN94、EAN97 和 EAN02 EANCOM 文件結構描述。 如需有關 EDI 和 EANCOM 文件結構描述中[!INCLUDE[prague](../includes/prague-md.md)]，請參閱[EDI 文件結構描述](../core/edi-document-schemas.md)。  
+-   一組版本 EAN94、EAN97 和 EAN02 EANCOM 文件結構描述。 如需有關 BizTalk Server 中的 EDI 和 EANCOM 文件結構描述的詳細資訊，請參閱[EDI 文件結構描述](../core/edi-document-schemas.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [EDI 訊息結構](../core/edi-message-structure.md)   
  [EDI 文件結構描述](../core/edi-document-schemas.md)

@@ -12,14 +12,14 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0c1463d8a06ab5da89306aababfe19362d6308dd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: da903e0cde796c6b12c30ea32dfe4012215a231e
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="edi-character-set-support"></a>EDI 字元集支援
-本主題說明中的 EDI 功能支援字元集[!INCLUDE[prague](../includes/prague-md.md)]。  
+本主題說明中的 BizTalk Server EDI 功能支援的字元集。  
   
 |EDI 編碼|支援的字元集|  
 |------------------|------------------------------|  
@@ -41,6 +41,6 @@ ms.lasthandoff: 09/20/2017
   
  對於 EDIFACT 編碼交換，您可以在 [做為交換接收者的合作對象] 的 [UNB 區段定義] 屬性頁中設定 UNB1.1 合作屬性，來設定合作對象的字元集。 內送交換中使用的編碼，則由交換之標頭內的 UNB1.1 欄位值決定。 如需詳細資訊，請參閱[設定信封 （EDIFACT 交易集設定）](../core/configuring-envelopes-edifact-transaction-set-settings.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [設定 EDI 管線屬性](../core/configuring-edi-pipeline-properties.md)   
- [設定信封 （EDIFACT 交易集設定）](../core/configuring-envelopes-edifact-transaction-set-settings.md)
+ [設定信封 (EDIFACT 交易集設定)](../core/configuring-envelopes-edifact-transaction-set-settings.md)

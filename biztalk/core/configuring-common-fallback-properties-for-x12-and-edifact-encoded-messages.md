@@ -12,11 +12,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5bd66c9ce3bb104cfb471e725778faab2c4e9528
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5b99d6e60a2a5955a9f0873156dbc5f822b3d519
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="configuring-common-fallback-properties-for-x12-and-edifact-encoded-messages"></a>設定通用的後援屬性的 X12 和 EDIFACT 編碼的訊息
 後援屬性套用至 （包括 HIPAA）-X12 和 EDIFACT 編碼交換。 當所有後援協議屬性，這些屬性會套用時，才[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]尚未判斷出協議的外寄訊息解析為傳入。  
@@ -35,7 +35,7 @@ ms.lasthandoff: 09/20/2017
         > [!IMPORTANT]
         >  如果不勾選此選項，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]將不會使用後援協議中設定的屬性。  
   
-    2.  按一下**啟動 EDI 報告**啟動報告所有 EDI 訊息。 這可確保訊息會顯示在狀態報告畫面底部的連結即可顯示**群組中樞**窗格[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]管理主控台。  
+    2.  按一下**啟動 EDI 報告**啟動報告所有 EDI 訊息。 這可確保訊息會顯示在狀態報告畫面底部的連結即可顯示**群組中樞**的 BizTalk Server 管理主控台 窗格。  
   
     3.  如果您按下**啟動 EDI 報告**，按一下 **儲存交易集/內容 reporting** ，將交易集儲存在追蹤 (BizTalkDTADb) 資料庫的 EDI 資料表中。  
   
@@ -46,5 +46,5 @@ ms.lasthandoff: 09/20/2017
   
 3.  按一下**套用**繼續進行組態之前接受變更，或按一下**確定**來驗證並接受變更，然後關閉對話方塊。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [設定全域或後援協議屬性](../core/configuring-global-or-fallback-agreement-properties.md)

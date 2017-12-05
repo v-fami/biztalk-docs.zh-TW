@@ -16,11 +16,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f7375912c49c431c67c7ff55025cd2821374b87b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f21c373aacc949b95588c66f1243936b15ea9e89
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="step-12-configure-orchestration-shapes"></a>步驟 12： 設定協調流程圖形
 在此步驟中，您可以完成協調流程圖形的組態以移除組態不完整智慧標籤。 您指定**DoorbellOutputMessage**做為第一個轉換程序的輸出指定**DoorbellMap.btm**當做該程序中使用的對應。 然後指定**DoorbellFinalMessage**做為第二個輸出轉換程序，並加入充實其他欄位資料訊息的運算式。  
@@ -29,7 +29,7 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-configure-orchestration-shapes"></a>若要設定協調流程圖形  
   
-1.  協調流程設計檢視介面上[!INCLUDE[vs2012](../../includes/vs2012-md.md)]，按一下  **[constructmessage_1]**圖形。  
+1.  協調流程設計 檢視介面上的 Visual Studio，請按一下**constructmessage_1**圖形。  
   
 2.  在**屬性**視窗中，按一下 **建構的訊息**屬性選取**DoorbellOutputMessage**從下拉式清單，然後按下**輸入**。  
   
@@ -95,5 +95,5 @@ ms.lasthandoff: 09/20/2017
   
  若要繼續[步驟 13： 建立和設定連接埠](../../adapters-and-accelerators/accelerator-hl7/step-13-create-and-configure-ports.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [訊息擴充教學課程](../../adapters-and-accelerators/accelerator-hl7/message-enrichment-tutorial.md)

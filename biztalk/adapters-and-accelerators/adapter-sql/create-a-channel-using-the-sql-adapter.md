@@ -12,11 +12,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f79fa2e40bd80bb3a4fd8b976aa31a34e4d3c0bb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1c31146310b8c8b559fcd93d19362679b060cb42
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="create-a-channel-using-the-sql-adapter"></a>建立使用 SQL 配接器的通道
 在 WCF 通道模型中，叫用 SQL Server 資料庫上的作業，藉由交換的 SOAP 訊息接收結果[!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]透過 WCF 通道。  
@@ -128,7 +128,7 @@ channel.Open();
   
 2.  設定輸入作業所需的繫結屬性。 例如，對於**輪詢**作業，您必須設定至少**InboundOperationType**， **PolledDataAvailableStatement**，和**PollingStatement**繫結內容來設定[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]輪詢 SQL Server 資料庫。  
   
-3.  叫用來建立通道接聽程式**BuildChannelListener\<IInputChannel >**方法**SQLBinding**。 您可以指定 SQL Server 連接 URI 為其中一個參數，這個方法。  
+3.  叫用來建立通道接聽程式**BuildChannelListener\<IInputChannel\>** 方法**SQLBinding**。 您可以指定 SQL Server 連接 URI 為其中一個參數，這個方法。  
   
 4.  開啟接聽程式。  
   
@@ -167,5 +167,5 @@ IInputChannel channel = listener.AcceptChannel();
 channel.Open();  
 ```  
   
-## <a name="see-also"></a>另請參閱  
-[開發應用程式使用 WCF 通道模型](../../adapters-and-accelerators/adapter-sql/develop-sql-applications-using-the-wcf-channel-model.md)
+## <a name="see-also"></a>請參閱  
+[使用 WCF 通道模型開發應用程式](../../adapters-and-accelerators/adapter-sql/develop-sql-applications-using-the-wcf-channel-model.md)

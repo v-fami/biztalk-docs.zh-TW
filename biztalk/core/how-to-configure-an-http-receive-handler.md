@@ -21,11 +21,11 @@ caps.latest.revision: "27"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0380804039d45efbe3db06b6fc072a3afb8b6b48
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0b199ac25fea412e9912e7989ff1f16e6e0e8d9d
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-configure-an-http-receive-handler"></a>如何設定 HTTP 接收處理常式
 使用下列程序可設定 HTTP 接收處理常式的屬性。  
@@ -53,7 +53,7 @@ ms.lasthandoff: 09/20/2017
   
 6.  按一下 **[確定]**。  
   
- [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 的設計重點在於有效處理訊息批次，而非快速處理單一訊息。 因此，如果此接收處理常式將會用於「雙向/要求-回應」接收位置，那麼您就可以依照下列步驟，將延遲降到最低：  
+ BizTalk Server 的設計，有效地處理訊息批次，而非快速處理單一訊息。 因此，如果此接收處理常式將會用於「雙向/要求-回應」接收位置，那麼您就可以依照下列步驟，將延遲降到最低：  
   
 -   設定**批次大小**屬性設為 1 的值。  
   
@@ -76,5 +76,5 @@ ms.lasthandoff: 09/20/2017
   
  授與指定的登入帳戶為帳戶**BizTalkServerIsolatedHost**裝載執行個體讀取和寫入權限相關聯之目錄的**TEMP**和**TMP**環境變數。 若要判斷登入帳戶**BizTalkServerIsolatedHost**執行個體，在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統管理主控台中，展開[!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]**管理**，依序展開**BizTalk 群組**，依序展開**平台設定**，依序展開**主控件執行個體**，以滑鼠右鍵按一下**BizTalkServerIsolatedHost**主機在右窗格中，執行個體，然後按**屬性**。 用於主控件執行個體的登入帳戶所列旁**登入**標籤。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [設定 HTTP 配接器](../core/configuring-the-http-adapter.md)

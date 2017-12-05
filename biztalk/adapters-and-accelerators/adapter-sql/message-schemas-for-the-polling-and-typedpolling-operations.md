@@ -13,16 +13,16 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2f18185e4bfaf5502537a68044579b0f7721cd23
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0cd6a281bfca73e74f23ce25bb9fa08761a07789
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="message-schemas-for-the-polling-and-typedpolling-operations"></a>輪詢和 TypedPolling 作業的訊息結構描述
 [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]輪詢和 TypedPolling 介面的輸入來輪詢查詢的結果集傳回至配接器的用戶端操作。  
   
- 設定繫結屬性設定輪詢和 TypedPolling 作業[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。 如需有關這些繫結屬性的詳細資訊，請參閱[閱讀 BizTalk Adapter for SQL Server 配接器繫結屬性](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md)。 您設定**PollingStatement**內容繫結至指定的 SQL 陳述式 (SELECT 或 EXEC\<預存程序 >) 的輪詢查詢。 為您的程式碼在輪詢作業中，資料和強型別 TypedPolling 作業中的資料，則會傳回此查詢的結果集。 結果集的結構取決於中繼資料配接器可呈現為指定的查詢。  
+ 設定繫結屬性設定輪詢和 TypedPolling 作業[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。 如需有關這些繫結屬性的詳細資訊，請參閱[閱讀 BizTalk Adapter for SQL Server 配接器繫結屬性](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md)。 您設定**PollingStatement**內容繫結至指定的 SQL 陳述式 (SELECT 或 EXEC\<預存程序\>) 的輪詢查詢。 為您的程式碼在輪詢作業中，資料和強型別 TypedPolling 作業中的資料，則會傳回此查詢的結果集。 結果集的結構取決於中繼資料配接器可呈現為指定的查詢。  
   
 ## <a name="polling-message-structure"></a>輪詢訊息結構 
   

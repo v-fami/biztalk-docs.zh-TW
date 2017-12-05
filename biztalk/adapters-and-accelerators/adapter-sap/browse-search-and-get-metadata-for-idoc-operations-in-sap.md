@@ -20,11 +20,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 98214ac6d44ea4290d0adcfe6f077d4590b34d8e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b4c82ecf945e85c8e4c9b5f365c808598fcbbf3a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="browse-search-and-get-metadata-for-idoc-operations-in-sap"></a>瀏覽、 搜尋和 sap IDOC 作業取得中繼資料
 本節提供有關如何瀏覽、 搜尋，以及擷取中繼資料從 SAP IDOC 作業使用的指示[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]， [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]，或[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]。 大部分的指示會針對所有三種使用者介面相同。 只要適用的話，個別的程序提供相關的使用者介面。  
@@ -148,7 +148,7 @@ ms.lasthandoff: 09/20/2017
 5.  按一下 **[確定]**。 結構描述檔案會儲存具有.xsd 副檔名為 IDOC 專案相同的位置。  
   
     > [!NOTE]
-    >  如果您使用[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]，根據預設，檔案會建立命名慣例 」 SAPBinding\<n >.xsd"，其中 'n' 可以是 1，2，等等取決於建立的結構描述檔案數目。 或者，您可以提供自訂結構描述檔案名稱中輸入名稱**檔案名稱前置詞**文字方塊。 [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]現在建立結構描述檔案命名慣例\<檔案名稱前置詞 >\<n >.xsd。  
+    >  如果您使用[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]，根據預設，檔案會建立命名慣例 」 SAPBinding\<n\>.xsd"，其中 'n' 可以是 1，2，等等取決於建立的結構描述檔案數目。 或者，您可以提供自訂結構描述檔案名稱中輸入名稱**檔案名稱前置詞**文字方塊。 [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]現在建立結構描述檔案命名慣例\<檔案名稱前置詞\>\<n\>.xsd。  
   
     > [!NOTE]
     >  [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]也會建立包含產生結構描述時指定的繫結屬性的繫結檔案 （XML 檔案） 的作業和要叫用作業的 SOAP 動作。 您可以匯入此繫結檔案，在 BizTalk Server 管理主控台中，建立 WCF 自訂連接埠與連接 URI，繫結屬性和設定的 SOAP 動作。 如需詳細資訊，請參閱[設定實體連接埠繫結使用連接埠繫結檔案至 SAP](../../adapters-and-accelerators/adapter-sap/configure-a-physical-port-binding-using-a-port-binding-file-to-sap.md)。  
@@ -185,5 +185,5 @@ ms.lasthandoff: 09/20/2017
   
 5.  按一下 **[確定]**。 [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] WCF 用戶端類別 （或 WCF 服務介面） 會將儲存和協助程式程式碼的作業和專案目錄中所選取的類別。 根據預設，也會儲存組態檔。 輸入和輸出作業; 產生稍有不同的檔案如需詳細資訊，請參閱[產生 WCF 用戶端或 WCF 服務合約的 SAP 方案成品](../../adapters-and-accelerators/adapter-sap/generate-a-wcf-client-or-a-wcf-service-contract-for-sap-solution-artifacts.md)。  
   
-## <a name="see-also"></a>另請參閱  
- [取得 Visual Studio 中的 SAP 作業的中繼資料](../../adapters-and-accelerators/adapter-sap/get-metadata-for-sap-operations-in-visual-studio.md)
+## <a name="see-also"></a>請參閱  
+ [在 Visual Studio 中取得 SAP 作業的中繼資料](../../adapters-and-accelerators/adapter-sap/get-metadata-for-sap-operations-in-visual-studio.md)

@@ -17,11 +17,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: eaa41714cbe5c3baba85e82f2992ff72544c425c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7cfae474407daa7dd3c0b95db3fed076a581cf1c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="setting-offsets-for-amount-validation"></a>設定位移量驗證
 在訊息類型 MT102，MT103，以及 MT103PLUS 量欄位的使用方式規則會驗證其各自的驗證原則中的規則。 數量欄位可以完全相符，或是可驗證的金額的範圍內。  
@@ -41,7 +41,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  開啟文字編輯器，例如 [記事本]。  
   
-2.  在編輯器中，瀏覽至您要設定位移的百分比的訊息驗證原則的位置。 例如，您可以找到訊息驗證原則 MT103 訊息類型，MT103_Validation_Policy.xml，在*\<磁碟機 >*: files\ Microsoft BizTalk Accelerator for SWIFT\<版本> 訊息 Pack\SWIFT Messages\A4SWIFT SRG\<版本 > \Category 1\MT103。 開啟 驗證原則。  
+2.  在編輯器中，瀏覽至您要設定位移的百分比的訊息驗證原則的位置。 例如，您可以找到訊息驗證原則 MT103 訊息類型，MT103_Validation_Policy.xml，在*\<磁碟機\>*: files\ Microsoft BizTalk Accelerator for SWIFT \<版本\>訊息 Pack\SWIFT Messages\A4SWIFT SRG\<版本\>\Category 1\MT103。 開啟 驗證原則。  
   
 3.  在原則中，搜尋上 IsValidSettlementAmount MT102 和 MT102PLUS 訊息或 IsValidInterbankSettledAmount MT103 訊息。  
   

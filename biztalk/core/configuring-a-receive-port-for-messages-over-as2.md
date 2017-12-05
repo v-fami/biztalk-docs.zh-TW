@@ -12,11 +12,11 @@ caps.latest.revision: "18"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6f1a024769b0728873d6cf217e3028d2c5532055
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 324d8a7faf3ce21630502f219d033fb797aa3fc6
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="configuring-a-receive-port-for-messages-over-as2"></a>設定透過 AS2 接收訊息的接收埠
 若要接收含有 EDI 或非 EDI 內容的 AS2 訊息，請建立 HTTP 接收埠，以便接收此訊息並將回應傳回給合作對象。  
@@ -37,7 +37,7 @@ ms.lasthandoff: 09/20/2017
 |**接收位置屬性： 一般**|接收處理常式|BizTalkServerIsolatedHost|  
 |**接收位置屬性： 一般**|接收管線|-AS2EdiReceive (如果內容是 EDI 編碼)<br />-AS2Receive （如果內容不是 EDI 編碼）**附註：**當使用 AS2EdiReceive 管線，您必須新增至 BizTalk 應用程式使用者群組執行 BizTalk 外掛式主控件執行個體處理序的使用者帳戶。 AS2EdiReceive 管線會在 BizTalk 外掛式主控件執行個體處理序中執行。 AS2EdiReceive 管線會存取 SSO 存放區，而此存放區會要求使用者必須是「[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 應用程式使用者」群組中的成員。|  
 |**接收位置屬性： 一般**|傳送管線|AS2Send|  
-|**HTTP 傳輸屬性**|虛擬目錄加 ISAPI 延伸模組|/\<虛擬目錄的名稱 > /BTSHTTPReceive.dll|  
+|**HTTP 傳輸屬性**|虛擬目錄加 ISAPI 延伸模組|/\<虛擬目錄名稱\>/BTSHTTPReceive.dll|  
 |**HTTP 傳輸屬性**|要求-回應傳回內容類型|text/xml|  
   
 ## <a name="functionality-of-the-receive-location-in-synchronous-and-asynchronous-modes"></a>接收位置在同步與非同步模式中的功能  
@@ -77,7 +77,7 @@ ms.lasthandoff: 09/20/2017
   
 -   產生通知訊息 (如果啟用的話)，然後將它放置在 MessageBox 中。 將 `BTS.MessageType` 的內容屬性設定為通知控制結構描述。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [設定 AS2 方案的連接埠](../core/configuring-ports-for-an-as2-solution.md)   
  [處理內送 AS2 訊息](../core/processing-an-incoming-as2-message.md)   
  [產生外寄 MDN](../core/generating-an-outgoing-mdn.md)   

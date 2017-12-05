@@ -15,18 +15,18 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6ecc01ef4bc9d8bf2e82ca3dfe23b13ea0b67be2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a3a6a3f93e600a8e68581f09af8fcdbc77ed57af
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-install-password-synchronization"></a>如何安裝密碼同步化
 如同其他「單一登入」功能，預設的 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 安裝中不會安裝「密碼同步」，而且必須在安裝時特別選取。  
   
 ### <a name="to-install-password-synchronization"></a>安裝密碼同步  
   
-1.  在 BizTalk Server CD 上瀏覽 **\<CDRoot > \Platforms\SSO**資料夾。  
+1.  在 BizTalk Server CD 上瀏覽 **\<CDRoot\>\Platforms\SSO**資料夾。  
   
 2.  執行**setup.exe**並遵循精靈中的指示。  
   
@@ -44,5 +44,5 @@ ms.lasthandoff: 09/20/2017
   
  在網域控制站上繼續執行安裝之前，請先詳閱隨附文件 (也在此資料夾中)。  
   
-## <a name="see-also"></a>另請參閱  
- [密碼同步處理](../core/password-synchronization2.md)
+## <a name="see-also"></a>請參閱  
+ [密碼同步](../core/password-synchronization2.md)

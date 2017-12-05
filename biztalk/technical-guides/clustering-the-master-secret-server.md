@@ -12,14 +12,14 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 674cbf64e11817c951d3841ebdc9f6ee979c0e8c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6f37997582cbd94d8bbb5eaee829eead0af85ad2
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="clustering-the-master-secret-server"></a>叢集主要密碼伺服器
-[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]應用程式服務會維護硬式編碼相依性會隨企業單一登入 (SSO) 服務[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。 SSO 服務必須能夠與啟動主要密碼伺服器進行通訊。 我們建議您在主要密碼伺服器提供容錯功能的主要密碼伺服器上叢集化 SSO 服務。 如需詳細資訊，請參閱[高可用性 SSO 安裝選項](http://go.microsoft.com/fwlink/?LinkId=156838)(http://go.microsoft.com/fwlink/?LinkId=156838) 中[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]幫助。  
+BizTalk Server 應用程式服務會維護硬式編碼相依性會隨企業單一登入 (SSO) 服務[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。 SSO 服務必須能夠與啟動主要密碼伺服器進行通訊。 我們建議您在主要密碼伺服器提供容錯功能的主要密碼伺服器上叢集化 SSO 服務。 如需詳細資訊，請參閱[高可用性 SSO 安裝選項](http://go.microsoft.com/fwlink/?LinkId=156838)(http://go.microsoft.com/fwlink/?LinkId=156838) 在 BizTalk Server 說明中。  
   
 ## <a name="preparing-for-clustering-the-master-secret-server"></a>正在準備叢集主要密碼伺服器  
   
@@ -51,5 +51,5 @@ ms.lasthandoff: 09/20/2017
   
  如需叢集主要密碼伺服器的詳細步驟，請參閱[如何叢集化主要密碼伺服器](http://go.microsoft.com/fwlink/?LinkId=156839)(http://go.microsoft.com/fwlink/?LinkId=156839) 中[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]幫助。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [手動指定新的主要密碼伺服器](../technical-guides/designating-a-new-master-secret-server-manually.md)

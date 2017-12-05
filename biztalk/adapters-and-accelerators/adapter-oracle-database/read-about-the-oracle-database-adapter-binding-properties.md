@@ -16,11 +16,11 @@ caps.latest.revision: "27"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3c934ec415f336074534ed1add342530bcf2023b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2209d38099bcb440bbb836c7107b0cd106e1d596
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="read-about-the-oracle-database-adapter-binding-properties"></a>閱讀有關 Oracle 資料庫配接器繫結屬性資訊
 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]呈現數個繫結屬性。 藉由設定這些屬性，您可以控制某些配接器的行為。 本章節描述[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]繫結屬性。 它也會示範如何存取這些使用.NET 程式設計或上設定屬性[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]實體連接埠繫結。  
@@ -66,7 +66,7 @@ ms.lasthandoff: 09/20/2017
 |**UseAmbientTransaction**|交易|指定是否[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]會執行作業使用呼叫端提供的異動內容。 預設值是**True**，這表示，配接器永遠會執行作業在交易內容中，假設用戶端提供的交易內容。 如果您有參與異動的其他資源，建立的連接會 System.Transaction 中登錄，並會提升為 MSDTC 交易。<br /><br /> 不過，可以是當您不希望配接器在交易內容中執行作業。 例如：<br /><br /> -當執行簡單的選取作業，在 Oracle 資料庫 （在傳送埠）。<br /><br /> 而指定輪詢陳述式可以執行選取的作業，並不會透過 DELETE 陳述式或叫用 （在接收埠） 的預存程序的資料表的任何變更。<br /><br /> 這兩種操作不要對資料庫資料表進行任何更新而因此，提高這些作業使用 MSDTC 交易可能產生的效能負擔。 在這種情況下，您可以設定的繫結屬性為 false，讓[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]不在交易內容中執行的作業。<br /><br /> **注意：**不在交易內容中執行作業會建議您僅針對不會對資料庫進行變更的作業。 更新資料庫中的資料的作業，我們建議您將繫結屬性為 true，否則請可能根據您執行的輸入或輸出作業的訊息遺失或重複訊息。|bool (System.Boolean)|  
 |**GeneratedUserTypesAssemblyFilePath**|UDT.NET 型別產生設計階段|指定配接器時，產生，產生中繼資料，其中包含所有可用的中繼資料中的 Udt 的 dll 路徑與名稱。 如果您正在產生封裝、 預存程序或使用 Udt 的函式的中繼資料，您必須指定 DLL 名稱。 指定 DLL 名稱是選擇性的資料表和檢視表具有 Udt。 產生的 DLL 會儲存到可執行檔相同的位置。<br /><br /> 這個繫結屬性是必要只在產生中繼資料。<br /><br /> **注意：**您必須指定一個檔案名稱。 為中繼資料中的 Udt，配接器會產生具有指定名稱的單一檔案。 如果您未指定名稱，配接器會產生 GUID 名稱與 DLL。 這個繫結屬性不可以使用 BizTalk Server 中設定時**Wcf-oracledb**接收或傳送埠。|string|  
 |**GeneratedUserTypesAssemblyKeyFilePath**|UDT.NET 型別產生設計階段|指定的名稱和配接器用來建立強型別的組件金鑰檔案的路徑。<br /><br /> 這個繫結屬性是選擇性的並產生中繼資料時，只是必要。<br /><br /> **注意：**這個繫結屬性不可以使用 BizTalk Server 中設定時**Wcf-oracledb**接收或傳送埠。|string|  
-|**UserAssembliesLoadPath**|UDT.NET 型別產生執行階段|指定的 Dll，並以分號分隔，會產生中繼資料時建立的配接器的名稱。 這些 Dll 會在您指定的位置儲存**GeneratedUserTypesAssemblyFilePath**產生中繼資料時，繫結屬性。 您必須手動將這些 Dll 複製到下列位置：<br /><br /> **對於 BizTalk 專案**： 複製 Dll 在與 BTSNTSvc.exe 相同的位置。 如[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]，這是通常在\<安裝磁碟機 >: \Program Files\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]。<br /><br /> **.NET 專案**： 將 Dll 複製到您的.NET 專案資料夾內的 \bin\Development 資料夾。<br /><br /> 這個繫結屬性是必要只有時，才能傳送和接收訊息上的 Oracle 資料庫執行作業。|string|  
+|**UserAssembliesLoadPath**|UDT.NET 型別產生執行階段|指定的 Dll，並以分號分隔，會產生中繼資料時建立的配接器的名稱。 這些 Dll 會在您指定的位置儲存**GeneratedUserTypesAssemblyFilePath**產生中繼資料時，繫結屬性。 您必須手動將這些 Dll 複製到下列位置：<br /><br /> **對於 BizTalk 專案**： 複製 Dll 在與 BTSNTSvc.exe 相同的位置。 對於 BizTalk Server 中，這是通常在\<安裝磁碟機\>: \Program Files\Microsoft BizTalk Server。<br /><br /> **.NET 專案**： 將 Dll 複製到您的.NET 專案資料夾內的 \bin\Development 資料夾。<br /><br /> 這個繫結屬性是必要只有時，才能傳送和接收訊息上的 Oracle 資料庫執行作業。|string|  
 |**AcceptCredentialsInUri**|由不顯示[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]或[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]。|指定 Oracle 連線 URI 是否可以包含 Oracle 資料庫的使用者認證。 預設值是**False**，表示停用連線 URI 中的使用者認證。 如果**AcceptCredentialsInUri**是**False**和 Oracle 連接 URI 包含使用者認證[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]擲回例外狀況。 您可以設定**AcceptCredentialsInUri**至**True**如果您必須在 URI 中指定認證。 如需詳細資訊，請參閱[建立 Oracle 資料庫連線 URI](../../adapters-and-accelerators/adapter-oracle-database/create-the-oracle-database-connection-uri.md)。|bool (System.Boolean)|  
   
 ## <a name="how-do-i-set-oracle-binding-properties"></a>如何設定繫結屬性的 Oracle？  
@@ -85,5 +85,5 @@ ms.lasthandoff: 09/20/2017
   
 -   使用 WCF ServiceModel Metadata Utility Tool (svcutil.exe)，請參閱[Oracle 資料庫與 BizTalk 配接器使用 ServiceModel Metadata Utility Tool](../../adapters-and-accelerators/adapter-oracle-database/use-the-servicemodel-metadata-utility-with-the-oracle-db-adapter-in-biztalk.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [BizTalk 應用程式部署的開發工作](../../core/development-tasks-for-biztalk-application-deployment.md)

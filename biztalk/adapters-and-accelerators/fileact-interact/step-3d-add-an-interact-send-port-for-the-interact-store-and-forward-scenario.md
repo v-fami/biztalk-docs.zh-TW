@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7ac1d379f2e68431f197f2db339cd0ac9f50c92e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 11b4e17a4435c5d9e6e99cd3ed471fa8819923e8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-3d-add-an-interact-send-port-for-the-interact-store-and-forward-scenario"></a>步驟 3D: 互動存放區和轉寄的案例中加入互動的傳送埠
 完成[步驟 3c： 加入擷取為互動存放與轉寄實例 Sw:HandleRequest 訊息的 FILE 傳送埠](../../adapters-and-accelerators/fileact-interact/step-3c-add-file-send-port-to-get-sw-handlerequest-interact-store-and-forward.md)開始此步驟之前。
@@ -41,11 +41,11 @@ ms.lasthandoff: 09/20/2017
     |**使用者名稱**|視 SAG 連線設定的使用者名稱。|  
     |**訊息格式**|**InteractMessage**|  
     |**不可否認性指標**|**FALSE**|  
-    |**要求類型**|輸入適當\<RequestType > SWIFT 與您佈建為基礎的字串。|  
+    |**要求類型**|輸入適當\<RequestType\> SWIFT 與您佈建為基礎的字串。|  
     |**ResponseCrypto**|**FALSE**|  
-    |**要求者**|輸入適當\<RequestorDN > SWIFT 與您佈建為基礎的字串。|  
-    |**回應者**|輸入適當\<ResponderDN > SWIFT 與您佈建為基礎的字串。|  
-    |**服務名稱**|輸入適當\<服務名稱 >，根據 SWIFT 與您佈建。|  
+    |**要求者**|輸入適當\<RequestorDN\> SWIFT 與您佈建為基礎的字串。|  
+    |**回應者**|輸入適當\<ResponderDN\> SWIFT 與您佈建為基礎的字串。|  
+    |**服務名稱**|輸入適當\<服務名稱\>根據 SWIFT 與您佈建。|  
     |**傳遞通知**|從下拉式清單選取**FALSE**。|  
     |**通知佇列**|輸入適當的佇列名稱，根據 SWIFT 與您佈建。|  
   
@@ -77,4 +77,4 @@ ms.lasthandoff: 09/20/2017
  [步驟 3： 建立傳送埠和接收埠以進行互動的存放區和轉寄的案例](../../adapters-and-accelerators/fileact-interact/step-3-create-send-and-receive-ports-for-interact-store-and-forward-scenario.md)   
  [步驟 3A： 新增 FILE 接收位置為互動存放區與正向的實例](../../adapters-and-accelerators/fileact-interact/step-3a-add-a-file-receive-location-for-interact-store-and-forward-scenario.md)   
  [步驟 3B： 加入互動接收位置的互動存放區和轉寄的案例](../../adapters-and-accelerators/fileact-interact/step-3b-add-interact-receive-location-for-interact-store-and-forward-scenario.md)   
- [步驟 3c： 新增檔案傳送埠，以便擷取 Sw:HandleRequest 訊息互動存放區和轉寄的案例](../../adapters-and-accelerators/fileact-interact/step-3c-add-file-send-port-to-get-sw-handlerequest-interact-store-and-forward.md)  
+ [步驟 3C：針對 InterAct 儲存和轉寄案例新增 FILE 傳送埠以擷取 Sw:HandleRequest 訊息](../../adapters-and-accelerators/fileact-interact/step-3c-add-file-send-port-to-get-sw-handlerequest-interact-store-and-forward.md)  

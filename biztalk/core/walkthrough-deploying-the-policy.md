@@ -12,11 +12,11 @@ caps.latest.revision: "25"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 00c603a3a0c52d735441858af6a2f602c30d1f51
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0d235fa0f6882ecd9e180aabd26999b1d7f73390
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="walkthrough-deploying-the-policy"></a>逐步解說： 部署原則
 本逐步解說提供逐步指示部署**ProcessPurchaseOrder**原則中的下列三種方式：  
@@ -268,7 +268,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  瀏覽，然後按兩下 XML 檔案 (**C:\BRE-Walkthroughs\ProcessPOFromAdmin.xml**) 在第一個程序中所建立。  
   
-4.  展開**\<所有成品 >**下**應用程式**。  
+4.  展開**\<所有成品\>**下**應用程式**。  
   
 5.  按一下**原則**，而且您應該會看見 1.3 版**ProcessPurchaseOrder**原則清單中的。  
   
@@ -413,7 +413,7 @@ ms.lasthandoff: 09/20/2017
   
     2.  從包含詞彙的第一個 BRL 檔案複製整個 XML 內容。  
   
-    3.  複製規則集區塊 (以開始\<ruleset > 標記，且結尾為\</ruleset > 標記) 從第二個 BRL 檔案。  
+    3.  複製規則集區塊 (以開始\<ruleset\>標記，且結尾為\</ruleset\>標記) 從第二個 BRL 檔案。  
   
     4.  儲存新檔案。 您可以匯入這個單一 XML 檔案，以建立**POVocabulary**詞彙和**ProcessPurchaseOrder**原則。  
   

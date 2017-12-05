@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0b73129d884fea81bdb64609de5e95570275a344
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f419e7a0019287383080c319961b8a3831d27bb4
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="alert-management-commands"></a>警示管理命令
 BAM 管理公用程式的警示管理命令可讓您使用已部署的警示。  
@@ -38,15 +38,15 @@ BAM 管理公用程式的警示管理命令可讓您使用已部署的警示。
 ## <a name="get-alerts-command"></a>get-alerts 命令  
  **使用方式**  
   
- **bm.exe get 警示 [-檢視：\<檢視名稱 >] [-Server:\<伺服器 >] [-Database:\<資料庫 >]**  
+ **bm.exe get 警示 [-檢視：\<檢視名稱\>] [-Server:\<伺服器\>] [-Database:\<資料庫\>]**  
   
  **參數**  
   
 |參數|Description|  
 |---------------|-----------------|  
-|檢視：\<檢視名稱 >|警示清單取得來源的檢視名稱。|  
-|伺服器：\<伺服器 >|選擇性： 檢視所在的伺服器的名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。 如果沒有指定伺服器名稱，bm.exe 會使用 localhost 的預設名稱。|  
-|資料庫：\<資料庫 >|選擇性： 檢視所在的資料庫名稱。 如果沒有指定名稱，bm.exe 會使用預設的名稱 BamPrimaryImport。|  
+|檢視：\<檢視表名稱\>|警示清單取得來源的檢視名稱。|  
+|伺服器：\<伺服器\>|選擇性： 檢視所在的伺服器的名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。 如果沒有指定伺服器名稱，bm.exe 會使用 localhost 的預設名稱。|  
+|資料庫：\<資料庫\>|選擇性： 檢視所在的資料庫名稱。 如果沒有指定名稱，bm.exe 會使用預設的名稱 BamPrimaryImport。|  
   
  列出執行此命令的電腦上已定義的警示。  
   
@@ -60,15 +60,15 @@ bm.exe get-alerts -Server:MyServer -Database:MyPrimaryImport
 ## <a name="remove-alerts-command"></a>remove-alerts 命令  
  **使用方式**  
   
- **bm.exe 移除警示的檢視：\<檢視名稱 > [-Server:\<伺服器 >] [-資料庫：\<資料庫 >]**  
+ **bm.exe 移除警示的檢視：\<檢視名稱\>[-Server:\<伺服器\>] [-資料庫：\<資料庫\>]**  
   
  **參數**  
   
 |參數|Description|  
 |---------------|-----------------|  
-|檢視：\<檢視名稱 >|要移除警示的檢視名稱。|  
-|伺服器：\<伺服器 >|選擇性： 檢視所在的伺服器的名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。 如果沒有指定伺服器名稱，bm.exe 會使用 localhost 的預設名稱。|  
-|資料庫：\<資料庫 >|選擇性： 檢視所在的資料庫名稱。 如果沒有指定名稱，bm.exe 會使用預設的名稱 BamPrimaryImport。|  
+|檢視：\<檢視表名稱\>|要移除警示的檢視名稱。|  
+|伺服器：\<伺服器\>|選擇性： 檢視所在的伺服器的名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。 如果沒有指定伺服器名稱，bm.exe 會使用 localhost 的預設名稱。|  
+|資料庫：\<資料庫\>|選擇性： 檢視所在的資料庫名稱。 如果沒有指定名稱，bm.exe 會使用預設的名稱 BamPrimaryImport。|  
   
  移除指定之檢視上的所有警示。  
   
@@ -82,15 +82,15 @@ bm.exe remove-alerts -View:Shipments -Server:Ship1
 ## <a name="enable-alerts-command"></a>enable-alerts 命令  
  **使用方式**  
   
- **bm.exe 啟用警示的檢視：\<檢視名稱 > [-Server:\<伺服器 >] [-資料庫：\<資料庫 >]**  
+ **bm.exe 啟用警示的檢視：\<檢視名稱\>[-Server:\<伺服器\>] [-資料庫：\<資料庫\>]**  
   
  **參數**  
   
 |參數|Description|  
 |---------------|-----------------|  
-|檢視：\<檢視名稱 >|要啟用警示的檢視名稱。|  
-|伺服器：\<伺服器 >|選擇性： 檢視所在的伺服器的名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。 如果沒有指定伺服器名稱，bm.exe 會使用 localhost 的預設名稱。|  
-|資料庫：\<資料庫 >|選擇性： 檢視所在的資料庫名稱。 如果沒有指定名稱，bm.exe 會使用預設的名稱 BamPrimaryImport。|  
+|檢視：\<檢視表名稱\>|要啟用警示的檢視名稱。|  
+|伺服器：\<伺服器\>|選擇性： 檢視所在的伺服器的名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。 如果沒有指定伺服器名稱，bm.exe 會使用 localhost 的預設名稱。|  
+|資料庫：\<資料庫\>|選擇性： 檢視所在的資料庫名稱。 如果沒有指定名稱，bm.exe 會使用預設的名稱 BamPrimaryImport。|  
   
  啟用指定之檢視上的警示。  
   
@@ -104,15 +104,15 @@ bm.exe enable-alerts -View:SalesManagerView -Server:s1 -Database:db2
 ## <a name="disable-alerts-command"></a>disable-alerts 命令  
  **使用方式**  
   
- **bm.exe 停用警示的檢視：\<檢視名稱 > [-Server:\<伺服器 >] [-資料庫：\<資料庫 >]**  
+ **bm.exe 停用警示的檢視：\<檢視名稱\>[-Server:\<伺服器\>] [-資料庫：\<資料庫\>]**  
   
  **參數**  
   
 |參數|Description|  
 |---------------|-----------------|  
-|檢視：\<檢視名稱 >|要停用警示的檢視名稱。|  
-|伺服器：\<伺服器 >|選擇性： 檢視所在的伺服器的名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。 如果沒有指定伺服器名稱，bm.exe 會使用 localhost 的預設名稱。|  
-|資料庫：\<資料庫 >|選擇性： 檢視所在的資料庫名稱。 如果沒有指定名稱，bm.exe 會使用預設的名稱 BamPrimaryImport。|  
+|檢視：\<檢視表名稱\>|要停用警示的檢視名稱。|  
+|伺服器：\<伺服器\>|選擇性： 檢視所在的伺服器的名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。 如果沒有指定伺服器名稱，bm.exe 會使用 localhost 的預設名稱。|  
+|資料庫：\<資料庫\>|選擇性： 檢視所在的資料庫名稱。 如果沒有指定名稱，bm.exe 會使用預設的名稱 BamPrimaryImport。|  
   
  停用指定之檢視上的警示。  
   
@@ -123,5 +123,5 @@ bm.exe disable-alerts -View:SalesManagerView
 bm.exe disable-alerts -View:SalesManagerView -Server:s1 -Database:db2  
 ```  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [BAM 管理公用程式](../core/bam-management-utility.md)

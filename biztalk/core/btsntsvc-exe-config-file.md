@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 303924e2aaf8304388a18d2ffe70d99fdc69acd3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a7fae2fc49487597380e6c5d04a946b1078daeeb
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="btsntsvcexeconfig-file"></a>BTSNTSvc.exe.config 檔
 凍結屬性及其預設值都是可設定在[!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)]或 BizTalk 組態檔 （BTSNTSvc.exe.config 或 BTSNTSvc64.exe.config） 中的 XML。 BizTalk 組態檔中的值將先套用。 然後 [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)] 設定才會套用。 所有包含協調流程的主控件執行個體啟動時，將讀取凍結屬性。  
@@ -25,7 +25,7 @@ ms.lasthandoff: 09/20/2017
   
  若要變更預設值，必須將預設值明確地新增至組態檔。 如需如何變更預設凍結行為的資訊，請參閱[如何修改協調流程節流設定](../core/how-to-modify-orchestration-throttling-settings.md)。 如需協調流程記憶體節流的資訊，請參閱[如何修改協調流程記憶體節流設定](../core/how-to-modify-orchestration-memory-throttling-settings.md)。  
   
- 以下是 BTSNTSvc.exe.config 檔案的內容。 此檔案一定會與 BTSNTSvc.exe 檔案位於相同的目錄中，此目錄通常是 C:\Program Files\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]。  
+ 以下是 BTSNTSvc.exe.config 檔案的內容。 這個檔案位於永遠與 BTSNTSvc.exe 檔案，通常是 C:\Program Files\Microsoft BizTalk Server 相同的目錄中。  
   
 ```  
 <?xml version="1.0" ?>  
@@ -50,5 +50,5 @@ ms.lasthandoff: 09/20/2017
 </configuration>  
 ```  
   
-## <a name="see-also"></a>另請參閱  
- [使用設定儀表板，以便讓 BizTalk Server 效能調整](../core/using-settings-dashboard-for-biztalk-server-performance-tuning.md)
+## <a name="see-also"></a>請參閱  
+ [針對 BizTalk Server 效能調整使用設定儀表板](../core/using-settings-dashboard-for-biztalk-server-performance-tuning.md)

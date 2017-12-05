@@ -30,11 +30,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 24ab84990a83345ea2fd5e78ca84755f2bb67b28
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b11ed175fc047eee59761547d8d13ab798ac860c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="publish-and-subscribe-architecture"></a>發佈和訂閱架構
 在發佈/訂閱設計中，有三個元件：  
@@ -76,7 +76,7 @@ ms.lasthandoff: 09/20/2017
   
 -   NotEqualsPredicates  
   
- 這些全部都透過呼叫 bts_createsubscription_<\<應用程式名稱 > 與 bts_insertpredicate_<\<應用程式名稱 > 預存程序，在 MessageBox 資料庫 where\<應用程式名稱 >是用來建立訂用帳戶的 BizTalk 主控件名稱。  
+ 這些全部都透過呼叫 bts_createsubscription_<\<應用程式名稱\>與 bts_insertpredicate_<\<應用程式名稱\>預存程序，在 MessageBox 資料庫 where \<應用程式名稱\>是建立訂閱之 BizTalk 主控件名稱。  
   
  在登錄傳送埠時，連接埠至少會為任何內容中具有該傳送埠傳輸識別碼的訊息建立訂閱。 這允許傳送埠永遠接收專門給它的訊息。 當協調流程連接埠與特定傳送埠繫結時，繫結的相關資訊會儲存在 BizTalk 管理資料庫中。 當訊息從協調流程透過繫結至實體傳送埠的連接埠傳送時，會在內容中包含「傳送識別碼」，讓訊息可路由至該傳送埠。 不過，請務必注意，此傳送埠並不是唯一可接收從協調流程傳送之訊息的傳送埠。 當協調流程傳送訊息時，會將該訊息伴隨著所有相關的升級屬性發佈到 MessageBox。 繫結的傳送埠保證會接收訊息的複本，因為傳輸識別碼在內容中，不過任何其他傳送埠或協調流程，都可以有同樣符合訊息屬性的訂閱。 瞭解不論在何時都會將訊息直接發佈到 MessageBox 是非常重要的，所有具有符合訂閱的訂閱者都會收到訊息的複本。  
   
@@ -103,9 +103,9 @@ ms.lasthandoff: 09/20/2017
   
  透過清除定期執行的工作，讓 MessageBox 不會被系統中不再存在的訊息資料所佔滿，這些參考可以避免訊息和部分遭到刪除。 有兩個資料表可用來降低爭用和鎖定的問題。  
   
- 既然已將訊息路由至正確的佇列、儲存在 Spool 與 Parts 資料表，以及在應用程式特定佇列中參考它，應用程式執行個體就必須將訊息從佇列提取出來。 每個主控件執行個體都有一些取消佇列的執行緒，它們會不斷地每隔一段時間即輪詢資料庫，而此間隔時間是設定在 BizTalk 管理資料庫的 e adm_ServiceClass 資料表中。 此相同資料表有一個資料行指出要使用之取消佇列執行緒的數目。 每個執行緒呼叫 MessageBox 資料庫，並呼叫 bts_dequeuemessages_<\<應用程式名稱 > 預存程序適用於執行中的主應用程式。 這個預存程序會使用鎖定語意，以確定只有一個執行個體，一個清除佇列執行緒可以在指定的時間在佇列中的訊息上運作。 取得鎖定的主控件執行個體可取得訊息，且需負責將訊息交給它所需的子服務。  
+ 既然已將訊息路由至正確的佇列、儲存在 Spool 與 Parts 資料表，以及在應用程式特定佇列中參考它，應用程式執行個體就必須將訊息從佇列提取出來。 每個主控件執行個體都有一些取消佇列的執行緒，它們會不斷地每隔一段時間即輪詢資料庫，而此間隔時間是設定在 BizTalk 管理資料庫的 e adm_ServiceClass 資料表中。 此相同資料表有一個資料行指出要使用之取消佇列執行緒的數目。 每個執行緒呼叫 MessageBox 資料庫，並呼叫 bts_dequeuemessages_<\<應用程式名稱\>預存程序適用於執行中的主應用程式。 這個預存程序會使用鎖定語意，以確定只有一個執行個體，一個清除佇列執行緒可以在指定的時間在佇列中的訊息上運作。 取得鎖定的主控件執行個體可取得訊息，且需負責將訊息交給它所需的子服務。  
   
  若接收訊息的服務是「結束點管理員」，會叫用傳送埠 (或是要求/回應接收埠的回應部分)，但若它是 XLANG/s 子服務，則會根據訂閱中是否有執行個體識別碼來決定，要建立協調流程，或定位為服務訂閱。 接著服務會釋放對訊息及其部分的參考，以便在其他服務沒有參考時，就可以刪除訊息資料。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [傳訊引擎](../core/the-messaging-engine.md)

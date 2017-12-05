@@ -17,11 +17,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e15bc1f9004c79b8d87375d9fe9f6cb805e12e94
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0518b536db16d641b77a61cfeb4851990a7bca0a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="selecting-the-logging-store"></a>選取記錄存放區
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]選項，例如選取多種不同的記錄存放區中，為您提供[!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)]Management Instrumentation (WMI) [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)]，和[!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)]事件記錄檔。  
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-open-btahl7-configuration-explorer"></a>若要開啟 BTAHL7 組態總管  
   
--   按一下**啟動**，按一下 **程式**，按一下  **Microsoft BizTalk\<版本 > Accelerator for HL7**，然後按一下  **BTAHL7組態總管**。  
+-   按一下**啟動**，按一下 **程式**，按一下  **Microsoft BizTalk\<版本\>Accelerator for HL7**，然後按一下  **BTAHL7 Configuration 總管**。  
   
 ### <a name="to-select-the--logging-store"></a>若要選取的記錄存放區  
   
@@ -54,6 +54,6 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  變更記錄服務帳戶密碼時，您應該先變更中的密碼[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsAD](../../includes/btsad-md.md)]目錄服務，然後重新啟動服務後執行的每部伺服器上的記錄服務密碼變更的記錄。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [訊息批次](../../adapters-and-accelerators/accelerator-hl7/message-batching.md)   
  [記錄設定](../../adapters-and-accelerators/accelerator-hl7/logging-configuration.md)

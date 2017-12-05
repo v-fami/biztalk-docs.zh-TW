@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ac5d08a22ceac96a9ca34a3527d5c68ea5120ca2
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: 1f5087db93f44d39f7ce1365adcae732dae140a5
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="running-sso-projects"></a>執行 SSO 專案
 您可以從 Internet Explorer 執行範例單一登入 (SSO) 專案。  
@@ -27,9 +27,9 @@ ms.lasthandoff: 11/07/2017
   
 2.  移至下列 URL：  
   
-     http://localhost/SSODemo/BTSHTTPReceive.dll?\<ns0:method_list_method %20xmlns: ns0 ="http://microsoft.com/exposed/object/object1">\<ns0:method_list_method >\<ns1:method_list %20xmlns: ns1 ="http://microsoft.com/exposed/object">\<ns1:comp_code >\</ns1:comp_code >\<ns1:comp_name >\</ns1:comp_name >\< /ns1:object_1 >\</ns0:method_list >\</ns0:method_list_method >  
+     http://localhost/SSODemo/BTSHTTPReceive.dll?<ns0:method_list_method %20xmlns: ns0 ="http://microsoft.com/exposed/object/object1">< ns0:method_list_method >< ns1:method_list %20xmlns: ns1 ="http://microsoft.com/exposed/物件">< ns1:comp_code >< / ns1:comp_code >< ns1:comp_name >< / ns1:comp_name >< / ns1:object_1 >< / ns0:method_list >< / ns0:method_list_method >  
   
      在此情況下，您不需要提供認證。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [使用單一登入](../core/using-single-sign-on4.md)

@@ -15,11 +15,11 @@ caps.latest.revision: "22"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 33c8921e037b9f9628c0e0ee97a915f62ab634ec
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 70cba6055c51371ddaaf99775bd5e7a60e7f3929
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="medical-claims-processing-and-testing-policies-biztalk-server-sample"></a>醫療理賠處理和測試原則 （BizTalk Server 範例）
 「醫療理賠處理和測試原則」範例示範如何建立一組規則集，其中多個規則會檢查衍生自資料庫資料表的事實和輸入文件，並使用 .NET 架構物件來記錄理賠處理的結果。  
@@ -45,7 +45,7 @@ ms.lasthandoff: 09/20/2017
 6.  否則核准理賠申請。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- \<*範例路徑*> \Business Rules\Medical 理賠處理和測試 Policies\  
+ \<*範例路徑*\>\Business Rules\Medical 理賠處理和測試 Policies\  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -67,11 +67,11 @@ ms.lasthandoff: 09/20/2017
 1.  確定您的電腦上已安裝 Northwind 資料庫。  
   
     > [!IMPORTANT]
-    >  您必須已安裝名為 Northwind 的資料庫，才能執行此範例。 [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)]和[!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)]並未隨附 Northwind 範例資料庫。 如果要建立 Northwind 資料庫，請從安裝檔案下載[http://go.microsoft.com/fwlink/?LinkId=196020](http://go.microsoft.com/fwlink/?LinkId=196020)，並遵循指示。  
+    >  若要執行此範例中，您必須具有 Northwind SQL Server 範例資料庫。 [下載](https://www.microsoft.com/download/details.aspx?id=23654)，並安裝。 
   
 2.  在命令視窗中，瀏覽至下列資料夾：  
   
-     \<*範例路徑*> \Business Rules\Medical 理賠處理和測試 Policies\  
+     \<*範例路徑*\>\Business Rules\Medical 理賠處理和測試 Policies\  
   
 3.  執行檔案 Setup.bat，這會執行下列動作：  
   
@@ -100,7 +100,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  在命令視窗中，瀏覽至下列資料夾：  
   
-     \<*範例路徑*> \Business Rules\Medical 理賠處理和測試 Policies\RulesForMedicalClaims\bin\Debug\  
+     \<*範例路徑*\>\Business Rules\Medical 理賠處理和測試 Policies\RulesForMedicalClaims\bin\Debug\  
   
 2.  在命令列上執行檔案 RulesForMedicalClaims.exe。  
   
@@ -247,5 +247,5 @@ ms.lasthandoff: 09/20/2017
   
     ```  
   
-## <a name="see-also"></a>另請參閱  
- [商務規則 （BizTalk Server 範例資料夾）](../core/business-rules-biztalk-server-samples-folder.md)
+## <a name="see-also"></a>請參閱  
+ [商務規則 (BizTalk Server Samples 資料夾)](../core/business-rules-biztalk-server-samples-folder.md)

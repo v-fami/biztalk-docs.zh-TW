@@ -19,11 +19,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4bc8a298686772d354c934d76fbcb7dbbb8146f8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1027e30e847c4f35b9270083ad56074967072467
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="creating-or-editing-a-home-organization"></a>建立或編輯主要組織
 本主題描述如何建立或編輯主要組織。 主要組織組態描述與分類主要組織、設定來源不可否認性的時段，以及提供連絡人資訊。  
@@ -68,10 +68,10 @@ ms.lasthandoff: 09/20/2017
   
 4.  以滑鼠右鍵按一下您想要編輯，然後按一下 主要組織**屬性**。  
   
-5.  在 *\<home 組織 >*屬性對話方塊中，於**一般**和**連絡人屬性**索引標籤上，視需要變更設定。 如需有關這些設定的詳細資訊，請參閱上表。  
+5.  在 *\<home 組織\>*屬性對話方塊中，於**一般**和**連絡人屬性**索引標籤上，視需要變更設定。 如需有關這些設定的詳細資訊，請參閱上表。  
   
 6.  按一下 **[確定]**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理設定、 憑證、 資料庫和安全性](manage-configuration-certificates-databases-security.md)   
- [管理 BTARN 組態](../../adapters-and-accelerators/accelerator-rosettanet/administering-the-btarn-configuration.md)
+ [管理 BTARN 設定](../../adapters-and-accelerators/accelerator-rosettanet/administering-the-btarn-configuration.md)

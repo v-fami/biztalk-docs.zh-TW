@@ -12,17 +12,17 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5f5acc3cb968ab35436fe684edd0eb41088b48a2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6a33e6ba26f0ba97cb10aa2f9ee728683719dd66
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="wcf-adapter-faq-general-conceptual"></a>WCF 配接器 FAQ： 一般概念
 以下是一些常見問題一般和概念性關於 Windows® Communication Foundation (WCF) 配接器。  
   
 ## <a name="what-is-a-wcf-adapter"></a>何謂 WCF 配接器？  
- BizTalk 配接器是方式的 Microsoft® BizTalk® Server 會與外界通訊的重要部分。 WCF 配接器是一種元件，管理 BizTalk 應用程式與它需要傳送和接收訊息，WCF 端點之間的通訊程序。 在 [!INCLUDE[prague](../includes/prague-md.md)] 中，WCF 配接器會公開為 WCF 繫結。 這表示可以使用 WCF 繫結任何 WCF 應用程式可以直接通訊，WCF 配接器而不需要介入的 BizTalk Server。 不過，使用 WCF 配接器透過 BizTalk Server 可讓您的應用程式基礎結構的優點，BizTalk Server 提供許多。 這些常見問題集焦點主要使用 WCF 配接器從 BizTalk Server 環境內。  
+ BizTalk 配接器是方式的 Microsoft® BizTalk® Server 會與外界通訊的重要部分。 WCF 配接器是一種元件，管理 BizTalk 應用程式與它需要傳送和接收訊息，WCF 端點之間的通訊程序。 使用 BizTalk Server 中，WCF 配接器會公開為 WCF 繫結。 這表示可以使用 WCF 繫結任何 WCF 應用程式可以直接通訊，WCF 配接器而不需要介入的 BizTalk Server。 不過，使用 WCF 配接器透過 BizTalk Server 可讓您的應用程式基礎結構的優點，BizTalk Server 提供許多。 這些常見問題集焦點主要使用 WCF 配接器從 BizTalk Server 環境內。  
   
  WCF 配接器可讓 BizTalk Server 傳送和接收 WCF 訊息中使用的 WCF 繫結。 WCF 用戶端應用程式可以的傳送 WCF 訊息至 BizTalk 接收的訊息由 WCF 接收的位置接收配接器。 配接器使用 WCF 訊息，並將它轉換成 BizTalk 訊息。 轉換發生的方式，取決於它使用 BizTalk Server 管理主控台來設定特定配接器組態設定。 配接器將提交到 BizTalk MessageBox 資料庫內部的 BizTalk 訊息。 相對的 BizTalk 傳送埠使用 WCF 配接器可以訂閱此訊息類型、 取得 BizTalk 訊息、 將它轉換成 WCF 訊息，和 WCF 訊息傳送至使用其中一種支援的 WCF 通訊協定的 WCF 服務端點。  
   
@@ -33,7 +33,7 @@ ms.lasthandoff: 09/20/2017
   
 -   **自訂繫結：**特殊的自訂繫結的繫結彈性增加時，存在。 這包含需要偏離標準的繫結的通訊狀況。 Wcf-custom 和 Wcf-customisolated 配接器可讓開發的廣泛的繫結的自訂項目。 這是藉由使用現有的繫結項目 （BindingElement 類別） 的組合和應用程式的行為 （Behavior 類別）。  
   
--   **標準繫結：** Microsoft 的目標是要開發著重於最常見的通訊案例的配接器。 使用標準繫結，藉以隱藏許多通訊協定的細節簡化開發人員的體驗。 [!INCLUDE[prague](../includes/prague-md.md)] 中的這一組 WCF 配接器會反映 .NET Framework 4.0 WCF 程式庫中提供的那一組繫結。 標準繫結是導入.NET WCF 程式庫，讓您更輕鬆地使用一般的繫結模式。 它們會配合一些最常用的通訊案例，包括：  
+-   **標準繫結：** Microsoft 的目標是要開發著重於最常見的通訊案例的配接器。 使用標準繫結，藉以隱藏許多通訊協定的細節簡化開發人員的體驗。 WCF 配接器在 BizTalk Server 中的集合會反映.NET Framework 4.0 WCF 程式庫中繫結的集合。 標準繫結是導入.NET WCF 程式庫，讓您更輕鬆地使用一般的繫結模式。 它們會配合一些最常用的通訊案例，包括：  
   
     -   Wcf-wshttp  
   
@@ -100,7 +100,7 @@ ms.lasthandoff: 09/20/2017
          您使用任何進階的 HTTP 功能 (Wcf-wshttp) 還是基本功能 (Wcf-basichttp) 會規定哪些 HTTP 為基礎配接器是使用最佳的選擇。  
   
 ## <a name="when-do-you-use-one-of-the-two-custom-wcf-adapters"></a>何時您使用其中兩個自訂 WCF 配接器？  
- 有兩個自訂 WCF 配接器隨附[!INCLUDE[prague](../includes/prague-md.md)]。 發生的原因是兩個自訂配接器是因為 BizTalk Server 需要的裝載特定配接器類型必須是系統向其註冊的一部分。 雖然 WCF Framework 中只有一個 CustomBinding 型別，但有兩個自訂配接器以配合這項限制預先存在的 BizTalk 配接器模型中的 BizTalk Server。 實際上，這些配接器其實是唯一的配接器需要因為它允許 WCF 通道堆疊設定的完整控制權。  
+ 有兩個自訂 WCF 配接器隨附於 BizTalk Server。 發生的原因是兩個自訂配接器是因為 BizTalk Server 需要的裝載特定配接器類型必須是系統向其註冊的一部分。 雖然 WCF Framework 中只有一個 CustomBinding 型別，但有兩個自訂配接器以配合這項限制預先存在的 BizTalk 配接器模型中的 BizTalk Server。 實際上，這些配接器其實是唯一的配接器需要因為它允許 WCF 通道堆疊設定的完整控制權。  
   
  自訂配接器的唯一缺點是，它們也需要您必須非常了解 WCF 組態和各種擴充性的技巧。  簡化的組態就是為什麼 Microsoft 配接器提供標準的 WCF 繫結。 標準繫結是預先定義來涵蓋大部分的常見使用案例，並讓傳送和接收訊息透過 BizTalk Server 越簡單越好。 若要使用其中一個這些自訂的配接器通常需要才會發生完全精確地符合您的傳送埠或接收位置的標準繫結失敗。 例如，可能是使用專屬的壓縮配置其訊息的應用程式。 若要支援此功能，自訂繫結項目必須寫入。 使用其中兩個標準自訂配接器可讓處理傳輸需求此自訂繫結的組態。 因此，自訂配接器可讓較高層級的通訊程序透過通道堆疊的繫結的組態控制。  
   

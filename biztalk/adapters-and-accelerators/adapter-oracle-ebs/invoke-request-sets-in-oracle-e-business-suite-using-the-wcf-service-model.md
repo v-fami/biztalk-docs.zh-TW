@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b01765cc47b0d8eafffcf30160ce9ee6c840003d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ec243c1d1ed1093241e4dc6120c3703fbf2e4542
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="invoke-request-sets-in-oracle-e-business-suite-using-the-wcf-service-model"></a>叫用要求集 Oracle E-business Suite 使用 WCF 服務模型中
 [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]可讓您執行 Oracle E-business Suite 中要求集合。 要求集劃分為一個或多個階段，而且每個階段包含一組報表和並行程式。 如需如何配接器支援要求的詳細資訊，請參閱[上設定要求的作業](../../adapters-and-accelerators/adapter-oracle-ebs/operations-on-request-sets.md)。  
@@ -35,7 +35,7 @@ ms.lasthandoff: 09/20/2017
   
 |作業|方法簽章|  
 |---------------|----------------------|  
-|要求組|公用\<傳回型別 >\<要求設定名稱 > （參數 1，參數 2，...）|  
+|要求組|公用\<傳回型別\>\<要求設定名稱\>（參數 1，參數 2，...）|  
   
  例如，下列程式碼顯示的方法簽章產生 WCF 用戶端類別**reqset_singlestage**要求集。  
   
@@ -156,5 +156,5 @@ public partial class RequestSets_SQLAPClient : System.ServiceModel.ClientBase<Re
   
 11. 建置專案，然後執行它。 應用程式會叫用**reqset_singlestage**要求設定，並傳回要求 ID，寫入至主控台。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [開發 Oracle E-business Suite 應用程式使用 WCF 服務模型](../../adapters-and-accelerators/adapter-oracle-ebs/develop-oracle-e-business-suite-applications-using-the-wcf-service-model.md)

@@ -18,11 +18,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6d5e7782dd2e98822d6fc9e51ca08dac2d31f166
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 98e3798e42442e1a6533e4f286d194c8e2474be6
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="host-groups"></a>主控件群組
 主控件群組是 Windows 群組 (預設名稱為「BizTalk 應用程式使用者」群組)，用於具有內含式 BizTalk 主控件 (BizTalk Server 中的主控件程序) 存取權的帳戶。 建議您在環境中對每個內含式主控件使用一個主控件群組。  
@@ -54,12 +54,12 @@ ms.lasthandoff: 09/20/2017
   
     -   BAM 主要匯入  
   
--   它必須是成員的 BTS_&LT;\<內含式主控件名稱 > （_u） MessageBox 資料庫的 SQL Server 角色  
+-   它必須是成員的 BTS_<\<內含式主控件名稱\>（_u） MessageBox 資料庫的 SQL Server 角色  
   
 -   在 BAM 主要匯入資料庫中必須是 BAM_EVENT_WRITER SQL Server 角色的成員。  
   
 > [!NOTE]
 >  若是指定主控件為追蹤主控件，「BizTalk Server 管理」會自動為「追蹤」資料庫移除 SQL Server 角色中的「BizTalk 主控件」群組。 您必須從「BizTalk 管理」資料庫和 MessageBox 資料庫的 SQL Server 角色中，手動移除 BizTalk 主控件群組。 如需將主控件指定為追蹤主控件的資訊，請參閱[如何修改主機內容](../core/how-to-modify-host-properties.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [實體](../core/entities.md)

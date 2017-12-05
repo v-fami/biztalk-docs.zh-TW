@@ -20,11 +20,11 @@ caps.latest.revision: "20"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 05fb4ae12e9ff22c82fed7d0c6e425b9e67ece43
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d8c86721091b9a0c9e8436b42a7489e228dbb7e0
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-use-the-biztalk-web-services-publishing-wizard-to-publish-an-orchestration-as-a-web-service"></a>如何使用 BizTalk Web 服務發佈精靈發佈為 Web 服務的協調流程
 您可以使用 [BizTalk Web 服務發佈精靈] 將協調流程發佈為 Web 服務。  
@@ -97,19 +97,19 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  目標命名空間/根項目名稱的相同組合只能新增為要求 SOAP 標頭和回應 SOAP 標頭各一次。  
   
-9. 在**Web 服務專案**頁面上，於**專案名稱**文字方塊中，輸入專案的名稱。 您可以接受預設位置 (http://localhost/\<*project_name*>)，輸入中的專案位置**專案位置**文字方塊中或按一下**瀏覽** ，並選取 Web 目錄。 接著，選取下列任何一個選項：  
+9. 在**Web 服務專案**頁面上，於**專案名稱**文字方塊中，輸入專案的名稱。 您可以接受預設位置 (http://localhost/ <*project_name*>)，輸入中的專案位置**專案位置**文字方塊中或按一下**瀏覽**並選取 Web 目錄。 接著，選取下列任何一個選項：  
   
     -   **覆寫現有的專案。** 這個選項只有在專案位置已經存在時才能使用。 您只能在這個選項已選取時，才能夠發佈至相同的位置。 否則，您必須輸入不同的專案位置。  
   
     -   **允許匿名存取 web 服務。** 這個選項會新增已建立之虛擬目錄的匿名存取。 根據預設，虛擬目錄會從其父虛擬目錄或網站 (如果它是最上層虛擬目錄的話) 繼承存取權限。  
   
-    -   **建立 BizTalk 接收位置。** 這個選項會自動建立對應於每個產生之 .asmx 檔案的 SOAP 配接器接收埠和位置。 如果接收位置已經存在，則不會取代該接收位置。 SOAP 配接器會使用格式來解析的接收位置 /\<*虛擬目錄名稱*>/\<*協調流程 namespace_typename_portname*>.asmx。 選取這個選項之後，再選擇將產生接收埠和位置的應用程式。  
+    -   **建立 BizTalk 接收位置。** 這個選項會自動建立對應於每個產生之 .asmx 檔案的 SOAP 配接器接收埠和位置。 如果接收位置已經存在，則不會取代該接收位置。 SOAP 配接器會使用格式來解析的接收位置 /\<*虛擬目錄名稱*\>/\<*namespace_typename_portname 協調流程* \>.asmx。 選取這個選項之後，再選擇將產生接收埠和位置的應用程式。  
   
         > [!NOTE]
-        >  專案位置可以存在不同的伺服器上。 若要發行到不同的伺服器的 Web 服務，輸入專案名稱，做為**http://\<*servername*>/\<*project_name*>**。  
+        >  專案位置可以存在不同的伺服器上。 若要發行到不同的伺服器的 Web 服務，輸入專案名稱，做為 **http://&lt*servername*>/<*project_name*> * *。  
   
         > [!NOTE]
-        >  專案位置可以存在非預設的網站上。 發佈至非預設的網站時，請在 URL 中加入網站的連接埠編號。 例如， http://localhost:8080/\<*project_name*>。  
+        >  專案位置可以存在非預設的網站上。 發佈至非預設的網站時，請在 URL 中加入網站的連接埠編號。 例如，http://localhost:8080/< / <*project_name*>。  
   
         > [!NOTE]
         >  在使用精靈建立接收位置時，精靈會使用預設值來建立接收位置。 接收管線的預設值是**Microsoft.BizTalk.DefaultPipelines.PassThruReceive**管線。 如果透過已發佈的 Web 服務收到的訊息需要任何特殊管線處理 (例如驗證、 相互關聯 / 屬性升級或輸入/輸出對應)，則您應該設定接收管線**Microsoft.BizTalk.DefaultPipelines.XMLReceive**，或自訂管線。  
@@ -127,8 +127,8 @@ ms.lasthandoff: 09/20/2017
 12. 按一下**完成**完成 BizTalk Web 服務發佈精靈。  
   
 > [!NOTE]
->  如果要在 Windows Vista 上將某個協調流程發佈為 Web 服務，您必須更新裝載服務的虛擬目錄。 若要這樣做，請發出下列命令，從命令提示字元，取代\<vdir > 虛擬目錄的名稱： **%systemroot%\system32\inetsrv\appcmd。EXE 移轉設定"Default Web Site /\<vdir 名稱 >"**。  
+>  如果要在 Windows Vista 上將某個協調流程發佈為 Web 服務，您必須更新裝載服務的虛擬目錄。 若要這樣做，請發出下列命令，從命令提示字元，取代\<vdir\>虛擬目錄的名稱： **%systemroot%\system32\inetsrv\appcmd。EXE 移轉設定"Default Web Site /\<vdir 名稱\>"**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [協調流程發佈為 Web 服務](../core/publishing-an-orchestration-as-a-web-service.md)   
  [如何將協調流程對應至 Web 服務](../core/how-to-map-orchestrations-to-web-services.md)

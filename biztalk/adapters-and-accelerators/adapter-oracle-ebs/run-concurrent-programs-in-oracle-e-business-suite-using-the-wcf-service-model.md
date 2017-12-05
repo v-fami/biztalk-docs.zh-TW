@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: aed2b50eab9612e5a2a610047e41560e1dc24576
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1c9ff6b37f2e18c03a364e3f584ea9f79b547f1e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="invoke-concurrent-programs-in-oracle-e-business-suite-using-the-wcf-service-model"></a>叫用 Oracle E-business Suite 使用 WCF 服務模型中的並行程式
 Oracle E-business Suite 會公開您可以執行特定操作 Oracle 應用程式上的執行的並行程式。 每個 Oracle 應用程式有一組標準的並行程式 （也就是相同的所有作業） 和特定 Oracle 應用程式專屬的並行程式。 [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]公開所有的並行程式做為配接器用戶端可以叫用的作業。 如需配接器如何支援同時執行之程式的詳細資訊，請參閱[上同時執行之程式的作業](../../adapters-and-accelerators/adapter-oracle-ebs/operations-on-concurrent-programs.md)。  
@@ -41,7 +41,7 @@ Oracle E-business Suite 會公開您可以執行特定操作 Oracle 應用程式
   
 |作業|方法簽章|  
 |---------------|----------------------|  
-|並行程式|公用\<傳回型別 >< Concurrent_program_name > （參數 1，參數 2，...）|  
+|並行程式|公用\<傳回型別\>< Concurrent_program_name > （參數 1，參數 2，...）|  
   
  例如，下列程式碼顯示的方法簽章產生 WCF 用戶端類別**MS_SAMPLE_COPY_EMP_DATA**和**Get_Status**並行程式。  
   
@@ -172,5 +172,5 @@ public partial class ConcurrentPrograms_FNDClient : System.ServiceModel.ClientBa
   
 11. 建置專案，然後執行它。 應用程式會叫用**MS_SAMPLE_COPY_EMP_DATA**並傳回要求的識別碼。 識別碼會傳遞至**Get_Status**並行程式，最後會提供狀態**MS_SAMPLE_COPY_EMP_DATA**資料行的程式。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [開發 Oracle E-business Suite 應用程式使用 WCF 服務模型](../../adapters-and-accelerators/adapter-oracle-ebs/develop-oracle-e-business-suite-applications-using-the-wcf-service-model.md)

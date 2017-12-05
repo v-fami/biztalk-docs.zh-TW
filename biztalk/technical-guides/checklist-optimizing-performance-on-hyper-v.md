@@ -12,14 +12,14 @@ caps.latest.revision: "23"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 87591ef1467608dfc17e8d9802d11456213c6947
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: db0afbdc9d89296f8aaff94db057bf2e9c072392
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="checklist-optimizing-performance-on-hyper-v"></a>檢查清單： HYPER-V 上最佳化效能
-執行時，適用下列考量[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]及/或[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]擁有的執行個體[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]HYPER-V 虛擬機器上的資料庫。  
+執行 BizTalk Server 時，適用下列考量和/或[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]HYPER-V 虛擬機器有 BizTalk Server 資料庫的執行個體。  
   
 ## <a name="allocate-110125-of-cpu-and-disk-resources-to-the-hyper-v-virtual-machines"></a>110%-125%的 CPU 和磁碟資源配置到 HYPER-V 虛擬機器  
  計劃配置 110%到 125%的 CPU 資源和 105%-110%的方案用的 HYPER-V 虛擬機器的實體硬體解決方案所需的磁碟資源。 藉由設定 HYPER-V 虛擬機器與其他資源，您要確定它可以提供與實體硬體同等的效能，同時配合任何 HYPER-V 虛擬化技術所需的額外負荷。  
@@ -27,7 +27,7 @@ ms.lasthandoff: 09/20/2017
 |步驟|參考|  
 |----------|---------------|  
 |範圍的硬體需求[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]方案。|-請遵循 < 規劃環境的 BizTalk Server > 一節中的指引[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]操作指南 》，網址[http://go.microsoft.com/fwlink/?LinkId=122399](http://go.microsoft.com/fwlink/?LinkId=122399)範圍解決方案的硬體需求。<br />對範圍版並將此方案所需的 BizTalk 伺服器數目檢閱的規劃考量記載於 「 規劃 BizTalk Server 層 」 的 BizTalk Server [http://go.microsoft.com/fwlink/?LinkId=122401](http://go.microsoft.com/fwlink/?LinkId=122401)。<br />-若要界定範圍的版本和數目[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]將此方案中，所需的電腦在檢閱的規劃考量記載於 「 規劃資料庫層 」 的資料庫[http://go.microsoft.com/fwlink/?LinkId = 122402](http://go.microsoft.com/fwlink/?LinkId=122402)以及 「 效能額外負荷的執行 SQL Server 中 HYPER-V 」 的章節，可在 「 執行 SQL Server 2008 in a HYPER-V 環境最佳作法和效能考量 > 技術白皮書[http://go.microsoft.com/fwlink/ 嗎？LinkId = 144622](http://go.microsoft.com/fwlink/?LinkId=144622)。<br />-若要完成規劃開發、 測試、 預備及生產環境檢閱 「 規劃開發、 測試、 預備及實際執行環境 」 在[http://go.microsoft.com/fwlink/?LinkId=122403](http://go.microsoft.com/fwlink/?LinkId=122403)。|  
-|範圍的硬體需求之後您[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]方案中，若要設定的 HYPER-V 機器的計劃**110%-125%**的 CPU 和磁碟資源的話。|例如，如果實體的硬體需求[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]判斷方案所使用的電腦為 2 GB RAM，2 GHZ 和 2 x 500 GB 的實體磁碟，在執行雙核心 CPU，則 HYPER-V 虛擬機器使用的方案會是理想的情況下，使用 2 個或更多虛擬處理器的執行設定 > = 2.2 GHZ，以及更快的實體磁碟 （通常是藉由增加主軸或使用較快速的磁碟）。|  
+|之後設定 BizTalk Server 解決方案的硬體需求的範圍，計劃設定的 HYPER-V 機器**110%-125%**的 CPU 和磁碟資源的話。|比方說，如果解決方案使用的實體 BizTalk Server 電腦的硬體需求會決定為 2 GB RAM，雙核心 CPU 執行 2 GHZ，以及將 2 x 500 GB 的實體磁碟，則在理想情況下，解決方案使用的 HYPER-V 虛擬機器會使用 2 個或更多虛擬處理器的執行設定 > = 2.2 GHZ，以及更快的實體磁碟 （通常是藉由增加主軸或使用較快速的磁碟）。|  
   
 ## <a name="optimize-hyper-v-performance"></a>使用 HYPER-V 的效能最佳化  
  使用下列指導方針來設定 HYPER-V 以獲得最佳效能。  
@@ -49,7 +49,7 @@ ms.lasthandoff: 09/20/2017
      ![一對一實體與虛擬處理器比率](../technical-guides/media/90f98f0d-a223-404c-b419-81369dc92970.gif "一對一實體與虛擬處理器比率")  
 虛擬與邏輯處理器比例  
   
--   **請注意，不同的客體作業系統的虛擬處理器限制，並據此-規劃**HYPER-V 虛擬機器中執行的客體作業系統可用的處理器核心的數目可能會影響整體裝載的應用程式的效能。 因此，應考慮對於哪些客體作業系統將安裝在 HYPER-V 虛擬機器主機上[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]及/或[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]instance(s) 裝載[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]資料庫。 HYPER-V 可容納下列指定的客體作業系統的虛擬處理器的數目：  
+-   **請注意，不同的客體作業系統的虛擬處理器限制，並據此-規劃**HYPER-V 虛擬機器中執行的客體作業系統可用的處理器核心的數目可能會影響整體裝載的應用程式的效能。 因此，應考慮將裝載 BizTalk Server 在 HYPER-V 虛擬機器上安裝對於哪些客體作業系統和/或[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]裝載 BizTalk Server 資料庫的執行個體。 HYPER-V 可容納下列指定的客體作業系統的虛擬處理器的數目：  
   
 |作業系統|虛擬處理器限制|  
 |----------------------|-----------------------------|  
@@ -77,7 +77,7 @@ ms.lasthandoff: 09/20/2017
   
 |步驟|參考|  
 |----------|---------------|  
-|請確認有足夠的記憶體裝載 HYPER-V 虛擬機器的實體電腦上安裝|提供的實體記憶體通常是最重要的效能因素，如[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]HYPER-V 虛擬機器上執行。 這是因為每個虛擬機器必須位在非-分頁集區記憶體或無法分頁至磁碟的記憶體。 因為非-分頁集區記憶體無法分頁至磁碟時，裝載虛擬機器的實體電腦應該有可用的實體記憶體的記憶體總和等於配置給每個虛擬機器以及下列所述：<br />     300 MB 的 Hypervisor，加上 32 MB 的第一個 GB 的 RAM 配置給每個虛擬機器加上另一個 8 MB 的每個其他 GB 的 RAM 配置給每個虛擬機器加上主機的 512 MB在根磁碟分割上執行的作業系統<br />     例如，如果 HYPER-V 虛擬機器會配置 2 GB 的記憶體在 HYPER-V 管理員中，當執行這個 HYPER-V 虛擬機器可能會大約 2388 MB 時所使用的實際實體記憶體 (300 MB 的 hypervisor 的虛擬機器配置 + 2 GB +32 MB + 8 MB = 2388 MB)。 Hypervisor 只必須載入一次，因為初始設定後續的虛擬機器不會造成載入 hypervisor 與相關聯的 300 MB 額外負荷。 因此，如果兩個 HYPER-V 虛擬機器配置 2 記憶體每 GB 的 [HYPER-V 管理員] 中，執行這些 HYPER-V 虛擬機器時所使用的實際實體記憶體會大約 4476 MB （300 MB 的 hypervisor + 4 GB 配置給虛擬機器 + 64 MB + 16 MB = 4476 MB)。 **注意：**為一般的經驗法則，計劃配置至少 512 MB 的記憶體，以提供服務，例如 I/O 虛擬化、 快照集檔案支援和子資料分割管理根磁碟分割。<br />-   **使用 64 位元的客體作業系統盡可能**– 請考慮使用針對每個客體作業系統的 64 位元作業系統。 這應該會完成，因為根據預設，32 位元 Windows 作業系統可以只處理 2 GB 的每個處理序虛擬位址空間。 64 位元作業系統的安裝可讓應用程式利用完整裝載 HYPER-V 虛擬機器的實體電腦上安裝的記憶體。|  
+|請確認有足夠的記憶體裝載 HYPER-V 虛擬機器的實體電腦上安裝|提供的實體記憶體，通常是最重要的效能因素，以便讓 BizTalk Server 為 HYPER-V 虛擬機器上執行。 這是因為每個虛擬機器必須位在非-分頁集區記憶體或無法分頁至磁碟的記憶體。 因為非-分頁集區記憶體無法分頁至磁碟時，裝載虛擬機器的實體電腦應該有可用的實體記憶體的記憶體總和等於配置給每個虛擬機器以及下列所述：<br />     300 MB 的 Hypervisor，加上 32 MB 的第一個 GB 的 RAM 配置給每個虛擬機器加上另一個 8 MB 的每個其他 GB 的 RAM 配置給每個虛擬機器加上主機的 512 MB在根磁碟分割上執行的作業系統<br />     例如，如果 HYPER-V 虛擬機器會配置 2 GB 的記憶體在 HYPER-V 管理員中，當執行這個 HYPER-V 虛擬機器可能會大約 2388 MB 時所使用的實際實體記憶體 (300 MB 的 hypervisor 的虛擬機器配置 + 2 GB +32 MB + 8 MB = 2388 MB)。 Hypervisor 只必須載入一次，因為初始設定後續的虛擬機器不會造成載入 hypervisor 與相關聯的 300 MB 額外負荷。 因此，如果兩個 HYPER-V 虛擬機器配置 2 記憶體每 GB 的 [HYPER-V 管理員] 中，執行這些 HYPER-V 虛擬機器時所使用的實際實體記憶體會大約 4476 MB （300 MB 的 hypervisor + 4 GB 配置給虛擬機器 + 64 MB + 16 MB = 4476 MB)。 **注意：**為一般的經驗法則，計劃配置至少 512 MB 的記憶體，以提供服務，例如 I/O 虛擬化、 快照集檔案支援和子資料分割管理根磁碟分割。<br />-   **使用 64 位元的客體作業系統盡可能**– 請考慮使用針對每個客體作業系統的 64 位元作業系統。 這應該會完成，因為根據預設，32 位元 Windows 作業系統可以只處理 2 GB 的每個處理序虛擬位址空間。 64 位元作業系統的安裝可讓應用程式利用完整裝載 HYPER-V 虛擬機器的實體電腦上安裝的記憶體。|  
   
 ### <a name="optimize-network-performance"></a>將網路效能最佳化  
  HYPER-V 虛擬機器中支援的綜合和模擬網路介面卡，但綜合裝置提供大幅提升效能並減少 CPU 額外負荷。 每張介面卡會連接至虛擬網路交換器，如果需要外部網路連線可以連接至實體網路介面卡。 遵循本節中的建議，以最佳化網路效能的 HYPER-V 虛擬環境中執行的客體作業系統。  

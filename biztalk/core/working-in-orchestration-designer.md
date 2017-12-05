@@ -22,11 +22,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 512dc85fb1599bdaa77fe2550390ec2ce6954643
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 52eb574f9f6b55b784357ff03c05ccb23774fecb
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="working-in-orchestration-designer"></a>使用協調流程設計師
 啟動 BizTalk 專案之後，您可以建立新的協調流程，並將現有的協調流程加入專案。 請參閱下列程序，建立和儲存協調流程、在專案中加入或移除現有協調流程、變更協調流程名稱，以及設定協調流程屬性。  
@@ -63,7 +63,7 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-save-an-orchestration"></a>儲存協調流程  
   
--   在**檔案**功能表上，按一下 **儲存\<協調流程的名稱 >**。  
+-   在**檔案**功能表上，按一下 **儲存\<協調流程的名稱\>**。  
   
     > [!NOTE]
     >  協調流程檔案會儲存為 utf-8。  結構描述、 對應和管線會儲存為 utf-16。  
@@ -111,7 +111,7 @@ ms.lasthandoff: 09/20/2017
     |型別修飾詞|決定協調流程層級變數的範圍：<br /><br /> 私用：只限包含的模組存取此協調流程。<br /><br /> 公用：存取此協調流程不受任何限制。<br /><br /> 內部：只限相同專案中的模組存取此協調流程。|  
     |類型名稱|決定此協調流程在包含的模組中的名稱。 **注意：**如果您使用的根層級命名空間，與相同類型名稱時可能會收到錯誤來自協調流程設計師定義訊息，並根據類型名稱，嘗試執行變數指派的運算。 例如，如果您指定類型名稱的系統，然後定義訊息和變數，如下 System.String，您可能會收到錯誤。|  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [協調流程圖形](../core/orchestration-shapes.md)   
  [如何新增圖形至協調流程](../core/how-to-add-shapes-to-orchestrations.md)   
  [如何新增參數至協調流程](../core/how-to-add-parameters-to-orchestrations.md)   

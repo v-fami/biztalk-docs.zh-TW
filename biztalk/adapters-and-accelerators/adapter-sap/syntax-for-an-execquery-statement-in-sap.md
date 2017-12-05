@@ -12,11 +12,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8f1eb41d07ef6a6ac3577bf0ef6d3f5bffb874f3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5198335cfa1a7d2036ca05759edc7d04e28cc20b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="syntax-for-an-execquery-statement-in-sap"></a>SAP 中 EXECQUERY 陳述式語法
 您可以使用 SAP GUI 來建立查詢，以圖形方式來選取您想要查詢之資料行和排序的次序，您想要包含在結果集，等資料表。[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]可讓使用者從 ADO.NET 應用程式中執行這類的查詢，藉由提供使用者可用來執行查詢，在 SAP 系統中定義的 EXECQUERY 作業。  
@@ -30,16 +30,16 @@ ms.lasthandoff: 09/20/2017
   
 ```  
 EXECQUERY <QueryName> @USERGROUP='usergroup' [, @WORKSPACE='X'] [, @VARIANT='variant']   
-[, @P1='\<value 1>’] [, @P2='\<value 2>'] ... [, @Pn = '<value n>'] [, @P1!='\<value 3>'] [, @P1 > '\<value 4>'] [, @P1 <= '\<value 2>']   
-[, NOT @P1 = '\<value 2>'] [, NOT @P1 != '\<value 2>'] [, NOT @P1 > '\<value 2>']   
-[, @P1 BETWEEN '\<value 1>' AND '\<value 2>'] [, NOT @P1 BETWEEN '\<value 1>' AND '<value2>’]  
+[, @P1='<value 1>’] [, @P2='<value 2>'] ... [, @Pn = '<value n>'] [, @P1!='<value 3>'] [, @P1 > '<value 4>'] [, @P1 <= '<value 2>']   
+[, NOT @P1 = '<value 2>'] [, NOT @P1 != '<value 2>'] [, NOT @P1 > '<value 2>']   
+[, @P1 BETWEEN '<value 1>' AND '<value 2>'] [, NOT @P1 BETWEEN '<value 1>' AND '<value2>’]  
 [OPTION 'USEORIGINALCOLUMNNAMES']  
   
 ```  
   
  其中：  
   
--   **\<QueryName >** SAP 系統中所定義之查詢的名稱。  
+-   **\<QueryName\>**  SAP 系統中所定義之查詢的名稱。  
   
 -   **USERGROUP**指的是用來定義查詢的使用者群組。 這是強制參數。  
   
@@ -79,7 +79,7 @@ EXECQUERY <QueryName> @USERGROUP='usergroup' [, @WORKSPACE='X'] [, @VARIANT='var
     EXECQUERY xyz uSERgROUP=’mygrp’, NOT @P1= 'somevalue'  
     ```  
   
--   EXECQUERY 所支援的運算子為 >， \<，> =、 < =、 ！ =、 NOT、 BETWEEN 和。  
+-   EXECQUERY 所支援的運算子為 >，<>、 =、 < =、 ！ =、 NOT、 BETWEEN 和。  
   
 -   EXECQUERY 作業不支援萬用字元。 例如，下列陳述式的預期的輸出如下：  
   
@@ -106,5 +106,5 @@ EXECQUERY <QueryName> @USERGROUP='usergroup' [, @WORKSPACE='X'] [, @VARIANT='var
     > [!NOTE]
     >  您不需要指定變數的名稱，如果預設 variant SAP 系統中定義的查詢。  
   
-## <a name="see-also"></a>另請參閱  
- [使用.NET Framework Data Provider for mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/use-the-net-framework-data-provider-for-mysap-business-suite.md)
+## <a name="see-also"></a>請參閱  
+ [使用 .NET Framework Data Provider for mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/use-the-net-framework-data-provider-for-mysap-business-suite.md)

@@ -19,11 +19,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 30e21f2f102761dbfb332179c2754ea7ddea2d11
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5b87f0d31010a8bf80e09c59f05f2f9302a510e2
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="related-documents"></a>相關文件
 查詢結果詳細資料的 [相關文件] 區域會顯示活動相關參考文件的清單。 文件可以是任何類型，包括 CAD 影像、.WAV 檔案或訂單。 例如，「訂單」活動通常以「訂單」做為基本的文件類型。 其清單中包含訂單的連結。  
@@ -35,9 +35,9 @@ ms.lasthandoff: 09/20/2017
   
 -   整合開發人員以程式設計的方式，呼叫自訂應用程式以填入清單內容。  
   
- 定義使用其中一種方法的文件參考中加入資料列\<activityname > _References 資料表具有文件的位置。  
+ 定義使用其中一種方法的文件參考中加入資料列\<activityname\>_References 資料表具有文件的位置。  
   
  如果都沒有這些工作已執行，**相關文件**區域是空白。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [追蹤設定檔編輯器](../core/tracking-profile-editor.md)

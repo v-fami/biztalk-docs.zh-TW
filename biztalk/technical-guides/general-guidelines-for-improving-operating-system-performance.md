@@ -12,11 +12,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e2024217812544152e7c8a51b9db4a018046a3ca
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e7be3f8060bba20bc0ba127443095c228f954bba
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="general-guidelines-for-improving-operating-system-performance"></a>一般指導方針來改善作業系統效能
 若要改善作業系統效能，應遵循下列指導方針：  
@@ -86,7 +86,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  在**追蹤**索引標籤，下方**輸出選項**區段中，清除**追蹤輸出**方塊。  
   
-5.  按一下**安全性** 索引標籤。  
+5.  按一下 [安全性] 索引標籤。  
   
 6.  請確定下列四個選項中的每個已選取，並會清除所有其他：  
   
@@ -165,7 +165,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="use-the-ntfs-file-system-on-all-volumes"></a>使用 NTFS 檔案系統上所有磁碟區  
  Windows Server 用來格式化磁碟機，包括 NTFS、 FAT 以及 FAT32 提供多個檔案系統類型。 NTFS 應該永遠選擇伺服器的檔案系統。  
 NTFS FAT 及 FAT32 檔案系統上提供相當大的效能優點，應該只在 Windows 伺服器上使用。 此外，NTFS 會提供許多安全性、 延展性、 穩定性和可復原性的優點比 FAT 及 FAT32。  
-在舊版 Windows 中，FAT 及 FAT32 通常實作的較小的磁碟區 (假設\<500 MB)，所以通常較快，這種情況下。 磁碟儲存體價格比較便宜今天和作業系統和應用程式推入至最多的磁碟機容量，也不太可能，這類小的磁碟區將使用中。 FAT32 規模較大的磁碟區上會比 FAT 更好，但仍不適當的檔案系統的 Windows 伺服器。  
+在舊版 Windows 中，FAT 及 FAT32 通常實作的較小的磁碟區 (例如 < 500 MB)，所以通常較快，這種情況下。 磁碟儲存體價格比較便宜今天和作業系統和應用程式推入至最多的磁碟機容量，也不太可能，這類小的磁碟區將使用中。 FAT32 規模較大的磁碟區上會比 FAT 更好，但仍不適當的檔案系統的 Windows 伺服器。  
 FAT 及 FAT32 通常已實作在過去因為被視為更輕鬆地復原，可以使用磁碟區有問題發生時的原生 DOS 工具管理。 現在，使用各種 NTFS 恢復能力工具整合到作業系統的原生，並且可做為可用的協力廠商公用程式，有不應再受到有效的引數，如未使用 NTFS 檔案系統。  
   
 ## <a name="do-not-use-ntfs-file-compression"></a>請勿使用 NTFS 檔案壓縮  
@@ -309,5 +309,5 @@ Windows Server 2008 會使用先佔式多工來排列優先順序就來參加 cp
 ## <a name="remove-cpu-intensive-screen-savers"></a>移除需要大量 CPU 的螢幕保護裝置  
  並使用重要的系統資源，在執行時的 CPU 運算密集已知 3D 或 OpenGL 螢幕保護裝置。 建議您最好避免這些完全安裝在伺服器建置時，選擇，或如果已安裝加以移除。 基本的 Windows Server 2008 」 或空白的螢幕保護裝置會使用需要大量 CPU 的螢幕保護裝置的最佳替代方案。  
   
-## <a name="see-also"></a>另請參閱  
- [作業系統效能最佳化](../technical-guides/optimizing-operating-system-performance.md)
+## <a name="see-also"></a>請參閱  
+ [最佳化作業系統效能](../technical-guides/optimizing-operating-system-performance.md)

@@ -15,11 +15,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8083f7dc691010f4128b3ddb99729b0b2b1ebd1f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 51b5469681f7acce2ebb0b55fe63e285d25192e0
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="overview-of-the-wcf-channel-model-with-the-sap-adapter"></a>SAP 配接器的 WCF 通道模型概觀
 若要叫用 Rfc、 tRFCs 或 Bapi 上 SAP 系統，或傳送 IDOC 至 SAP 系統，您的程式碼做為 WCF 用戶端，並將傳出作業傳送至配接器。 在 WCF 通道模型中，您的程式碼會透過通道傳送的要求訊息叫用的介面卡上的作業。  
@@ -44,11 +44,11 @@ ms.lasthandoff: 09/20/2017
   
  像任何 WCF 繫結，[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]用以提供應用程式程式碼的通道處理站模式。 您使用**Microsoft.Adapters.SAPBinding**物件建立的執行個體：  
   
--   **System.ServiceModel.ChannelFactory\<IRequestChannel >**提供**IRequestChannel**通道可用來叫用的介面卡上的要求-回應作業。  
+-   **System.ServiceModel.ChannelFactory\<IRequestChannel\>** 提供**IRequestChannel**通道可用來叫用的介面卡上的要求-回應作業。  
   
--   **System.ServiceModel.ChannelFactory\<IOutputChannel >**提供**IOutputChannel**通道可用來叫用的介面卡上的單向作業。  
+-   **System.ServiceModel.ChannelFactory\<IOutputChannel\>** 提供**IOutputChannel**通道可用來叫用的介面卡上的單向作業。  
   
--   **System.ServiceModel.IChannelListener\<IReplyChannel >**提供**IReplyChannel**通道可用來從配接器接收要求-回應作業。  
+-   **System.ServiceModel.IChannelListener\<IReplyChannel\>** 提供**IReplyChannel**通道可用來從配接器接收要求-回應作業。  
   
 ## <a name="creating-messages-for-the-sap-adapter-in-the-wcf-channel-model"></a>SAP 配接器 WCF 通道模型中建立訊息  
  在 WCF 中**System.ServiceModel.Channels.Message**類別會提供在記憶體中表示 SOAP 訊息。 您建立**訊息**叫用靜態執行個體**Message.Create**方法。  
@@ -71,7 +71,7 @@ ms.lasthandoff: 09/20/2017
 //create an XML message to send to the SAP system  
 //We are invoking the SD_RFC_CUSTOMER_GET RFC.  
 //The XML below specifies that we want to search for customers with names starting with "AB"  
-string inputXml = "\<SD_RFC_CUSTOMER_GET xmlns=\"http://Microsoft.LobServices.Sap/2007/03/Rfc/\"> \<KUNNR i:nil=\"true\" xmlns:i=\"http://www.w3.org/2001/XMLSchema-instance\"> </KUNNR> <NAME1>AB*</NAME1> <CUSTOMER_T> </CUSTOMER_T> </SD_RFC_CUSTOMER_GET>";  
+string inputXml = "<SD_RFC_CUSTOMER_GET xmlns=\"http://Microsoft.LobServices.Sap/2007/03/Rfc/\"> <KUNNR i:nil=\"true\" xmlns:i=\"http://www.w3.org/2001/XMLSchema-instance\"> </KUNNR> <NAME1>AB*</NAME1> <CUSTOMER_T> </CUSTOMER_T> </SD_RFC_CUSTOMER_GET>";  
   
 //create an XML reader from the input XML  
 XmlReader reader = XmlReader.Create(new MemoryStream(Encoding.Default.GetBytes(inputXml)));  
@@ -96,7 +96,7 @@ Message inputMessge = Message.CreateMessage(MessageVersion.Soap11, "http://Micro
 -   使用內送的訊息使用**XmlReader**。 您藉由呼叫取得讀取器**GetReaderAtBodyContents**方法在輸入**訊息**。  
   
 ### <a name="node-value-streaming"></a>節點值的資料流  
- 因為 SendIdoc 和 ReceiveIdoc 作業包含在字串中的單一 XML 節點下的 IDOC 資料 (\<idocData >)、 配接器支援節點值資料流處理這些作業。  
+ 因為 SendIdoc 和 ReceiveIdoc 作業包含在字串中的單一 XML 節點下的 IDOC 資料 (\<idocData\>)、 配接器支援節點值資料流處理這些作業。  
   
  若要執行這些作業的資料流處理的節點值，您可以：  
   
@@ -106,5 +106,5 @@ Message inputMessge = Message.CreateMessage(MessageVersion.Soap11, "http://Micro
   
  如需串流處理使用 WCF 通道模型 （字串） 的一般檔案 Idoc 的詳細資訊，請參閱[SAP 使用 WCF 通道模型中的資料流處理一般檔案 Idoc](../../adapters-and-accelerators/adapter-sap/stream-flat-file-idocs-in-sap-using-the-wcf-channel-model.md)。  
   
-## <a name="see-also"></a>另請參閱  
-[開發應用程式使用 WCF 通道模型](../../adapters-and-accelerators/adapter-sap/develop-sap-applications-using-the-wcf-channel-model.md)
+## <a name="see-also"></a>請參閱  
+[使用 WCF 通道模型開發應用程式](../../adapters-and-accelerators/adapter-sap/develop-sap-applications-using-the-wcf-channel-model.md)

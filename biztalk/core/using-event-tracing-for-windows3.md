@@ -21,11 +21,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6267689c46c66cc2ab791313d55cb46884190473
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 75b2b339c99dcf1b64368c73381d1dbe81e0fb39
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="using-event-tracing-for-windows"></a>使用 Windows 事件追蹤
 Microsoft BizTalk Adapter for TIBCO Enterprise Message Service 會將錯誤、警告與資訊訊息記錄到 Windows 事件檢視器中。 您可以使用「Windows 事件追蹤」工具來查看其他追蹤訊息。 啟動 ETW 時，它會建立一個 *.etl 檔案來接收訊息。 這個檔案是二進位格式，必須經過轉換才能讀取。 若要這樣做，您必須取用者應用程式可供解譯\*.etl 檔案，例如，tracerpt.exe 或 tracedmp.exe。 例如，tracerpt.exe 應用程式將轉換\*成兩個文字檔的.etl 檔案： summary.txt 與 dumpfile.csv。  
@@ -44,7 +44,7 @@ Microsoft BizTalk Adapter for TIBCO Enterprise Message Service 會將錯誤、�
   
      為了讓消費者應用程式能夠讀取 etl 檔案中的事件，Windows 事件追蹤必須將事件傾印到該檔案中。 此動作通常是在控制器停用追蹤後完成的。  
   
-     若要使用取用者應用程式，而不停用追蹤，控制器必須啟動使用即時選項時，追蹤\<即時 > =-rt。  
+     若要使用取用者應用程式，而不停用追蹤，控制器必須啟動使用即時選項時，追蹤\<即時\>=-rt。  
   
 -   **提供者**： 提供的事件。  
   
@@ -52,11 +52,11 @@ Microsoft BizTalk Adapter for TIBCO Enterprise Message Service 會將錯誤、�
   
  BizTalk Adapter for TIBCO Enterprise Message Service 有五個提供者，可讓您記錄不同種類的訊息：  
   
--   **接收器記錄提供者**:\<追蹤項目 > 參數是**-接收者**。  
+-   **接收器記錄提供者**:\<追蹤項目\>交換器**-接收者**。  
   
      使用**-接收者**可從接收配接器在執行階段的記錄檔中取得任何訊息。  
   
--   **傳輸器記錄提供者**:\<追蹤項目 > 參數是**-傳輸器**。  
+-   **傳輸器記錄提供者**:\<追蹤項目\>交換器**-傳輸器**。  
   
      使用**-傳輸器**可傳輸的配接器在執行階段的記錄檔中取得任何訊息。  
   
@@ -71,7 +71,7 @@ BTA TIBCOEMSTrace <Trace element> -stop
   
  其中：  
   
--   **\<追蹤項目 >** （必要） 是提供者的類型。  
+-   **\<追蹤項目\>** （必要） 是提供者的類型。  
   
  可用選項如下：  
   
@@ -81,9 +81,9 @@ BTA TIBCOEMSTrace <Trace element> -stop
   
 -   **-開始、-停止**： 啟用或停用提供者。  
   
--   **-cir \<MB >**： 檔案的大小與種類。 **-cir**是循環檔案。 **\<MB >**： 以 mb 為單位的大小。  
+-   **-cir \<MB\>**： 檔案的大小與種類。 **-cir**是循環檔案。 **\<MB\>**： 以 mb 為單位的大小。  
   
--   **-seq \<MB >**： 檔案的大小與種類。 **-seq**是循序檔案。 **\<MB >**： 以 mb 為單位的大小。  
+-   **-seq \<MB\>**： 檔案的大小與種類。 **-seq**是循序檔案。 **\<MB\>**： 以 mb 為單位的大小。  
   
 -   **-rt**： 設定即時模式。  
   
@@ -96,5 +96,5 @@ BTATIBCOEMSTrace -transmitter -start -cir 10 -rt c:\log\mylog.etl
 BTATIBCOEMSTrace -transmitter -stop  
 ```  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [TIBCO Enterprise Message Service 疑難排解](../core/troubleshooting-tibco-enterprise-message-service.md)

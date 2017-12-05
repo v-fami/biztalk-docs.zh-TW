@@ -16,11 +16,11 @@ caps.latest.revision: "43"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d3a59e64c93e908fce7590f885fe8c38e3a51cf4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 795b72318054525485a64c9dd704b81ddf6cb6b9
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-configure-an-msmq-receive-location"></a>如何設定 MSMQ 接收位置
 您可以在 [BizTalk Server 管理] 主控台中設定 MSMQ 接收位置配接器變數。 若未在接收位置設定屬性，則會使用在 [BizTalk Server 管理] 主控台中設定的預設接收處理常式值。  
@@ -54,7 +54,7 @@ ms.lasthandoff: 09/20/2017
     |**失敗**|指定配接器如何回應錯誤。 將這個屬性設為下列其中一個值：<br /><br /> -   **停止。** 若發生錯誤狀況，則透過這個接收位置停止接收訊息。<br />-   **Suspend(non-resumable)。** 擱置訊息並標示為不可繼續。<br />-   **Suspend(resumable)。** 擱置訊息並標示為可繼續。 **重要事項：**如果**True**選項**排序的處理**屬性，**停止**選項**失敗**屬性，而**False**選項**交易式**屬性會套用在相同的時間，則不會暫止或留在來源佇列無法傳送任何訊息。 在此實例中，可能會發生訊息遺失。 若要使用時防止資料遺失，**排序的處理**功能，**停止**選項**失敗**屬性應該只會套用，如果**，則為 True**選項**交易式**屬性會套用。 接著，若發生訊息傳送失敗，原始訊息將會保留在來源 MSMQ 佇列中。 如果**排序的處理**屬性設定的值為**False**則**失敗**屬性將不會生效，且訊息傳遞失敗發生訊息將擱置狀態為**已擱置 （可繼續）**。|字串|擱置 (可繼續)|  
     |**排序的處理**|將此屬性設定為**True**或**False**。 指示是否連續處理訊息。 將屬性設定為**True**會容納已排序的訊息傳遞的 BizTalk 傳訊 」 或 「 協調流程傳送埠搭配使用時**排序的傳遞**選項設為**True**。 如需詳細資訊，請參閱[排序訊息傳遞](../core/ordered-delivery-of-messages.md)。<br /><br /> 此屬性設定為**True**藉由將配接器單一執行緒處理大型訊息時，也會最佳化資源使用狀況。 如需詳細資訊，請參閱[傳送和接收大型訊息使用 MSMQ 配接器](../core/sending-and-receiving-large-messages-using-the-msmq-adapter.md)。|布林|False|  
     |**佇列**|輸入有效的佇列路徑。 系統將根據您指定的佇列路徑執行適當的驗證。 **注意：** URI 傳送埠或接收位置不能超過 256 個字元。 **注意：** MSMQ 接收配接器來監視新訊息的指定的 MSMQ 佇列每 0.5 秒鐘使用輪詢機制。 這個 0.5 秒間隔是固定的間隔。|字串|空白|  
-    |**異動**|將此屬性設定為**True**或**False**。 **注意：**配接器支援與訊息佇列 4.0 或更新版本的遠端佇列的交易式讀取。 在此案例中這兩個[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]和遠端的訊息佇列伺服器必須執行訊息佇列 4.0 或更新版本。 <br /><br /> 如需詳細資訊，請參閱[設定 MSMQ 配接器](../core/configuring-the-msmq-adapter.md)和[叢集主控件中執行配接器處理常式的考量](../core/considerations-for-running-adapter-handlers-within-a-clustered-host1.md)。|布林|False|  
+    |**異動**|將此屬性設定為**True**或**False**。 **注意：**配接器支援與訊息佇列 4.0 或更新版本的遠端佇列的交易式讀取。 在此案例中 BizTalk Server 和遠端的訊息佇列伺服器必須執行訊息佇列 4.0 或更新版本。 <br /><br /> 如需詳細資訊，請參閱[設定 MSMQ 配接器](../core/configuring-the-msmq-adapter.md)和[叢集主控件中執行配接器處理常式的考量](../core/considerations-for-running-adapter-handlers-within-a-clustered-host1.md)。|布林|False|  
   
     > [!NOTE]
     >  **使用者名**和**密碼**只會套用到用來存取遠端佇列的 Windows 帳戶。  
@@ -63,5 +63,5 @@ ms.lasthandoff: 09/20/2017
   
 7.  在**接收位置屬性**對話方塊方塊中，輸入適當的值，以完成接收位置組態，然後按一下**確定**儲存設定。 如需有關資訊**接收位置屬性**對話方塊中，請參閱[如何建立接收位置](../core/how-to-create-a-receive-location.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [設定 MSMQ 配接器](../core/configuring-the-msmq-adapter.md)

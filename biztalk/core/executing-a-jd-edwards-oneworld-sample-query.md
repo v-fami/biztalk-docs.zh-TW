@@ -12,11 +12,11 @@ caps.latest.revision: "18"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 58e06eb1b606217aea6fe5e40ac645a2eaf623c2
-ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
+ms.openlocfilehash: e4e15310442d12c0b2604eb0d22b071ff6c57212
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="execute-a-jd-edwards-oneworld-sample-query"></a>執行 JD Edwards OneWorld 範例查詢
 JD Edwards OneWorld (JDEOW) 系統是否可從[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]使用 JD Edwards OneWorld 配接器的系統。 此配接器隨附於[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。
@@ -77,11 +77,11 @@ JD Edwards OneWorld (JDEOW) 系統是否可從[!INCLUDE[btsBizTalkServerNoVersio
 
 1.  開啟**BizTalk Server 管理**，依序展開**主控台根目錄**，依序展開**BizTalk Server 管理**，依序展開**BizTalk 群組**，展開**平台設定**，然後展開**配接器**。  
   
-    確認**JDE_OneWorld**列出配接器。 如果未安裝 JD Edwards OneWorld 配接器，請安裝 BizTalk Adapters for Enterprise Applications (請參閱稍早的「必要條件」一節)。 安裝配接器之後，以滑鼠右鍵按一下**配接器**，然後按一下**新增-配接器**安裝 JD Edwards OneWorld 配接器。 重新啟動主控件執行個體，這個值才會生效。  
+    確認**JDE_OneWorld**列出配接器。 如果未安裝 JD Edwards OneWorld 配接器，請安裝 BizTalk Adapters for Enterprise Applications (請參閱稍早的「必要條件」一節)。 安裝配接器之後，以滑鼠右鍵按一下**配接器**，然後按一下 **新增-配接器**安裝 JD Edwards OneWorld 配接器。 重新啟動主控件執行個體，這個值才會生效。  
   
 2. 展開**應用程式**，然後展開**BizTalk Application 1**。  
   
-3.  以滑鼠右鍵按一下**傳送埠**，按一下 **新增**，然後按一下**靜態請求-回應傳送埠**。這些欄位中輸入下列值：  
+3.  以滑鼠右鍵按一下**傳送埠**，按一下 **新增**，然後按一下 **靜態請求-回應傳送埠**。這些欄位中輸入下列值：  
   
     1.  **名稱：**  `JDE_OneWorldPort`  
   
@@ -95,13 +95,13 @@ JD Edwards OneWorld (JDEOW) 系統是否可從[!INCLUDE[btsBizTalkServerNoVersio
   
 4.  按一下 [設定] ，然後輸入下列屬性值：  
   
-    1.  **主機：** \<輸入 JDEOW 主控件名稱 >  
+    1.  **主機：** \<輸入 JDEOW 主控件名稱\>  
   
     2.  **JAVA_HOME:**`C:\j2sdk1.4.2_08`  
   
-    3.  **JDEdwards 環境：** \<輸入 JDEOW 環境 >  
+    3.  **JDEdwards 環境：** \<輸入 JDEOW 環境\>  
   
-    4.  **JDEdwards JAR 檔案：** \<輸入 JAR 檔案的完整路徑 >  
+    4.  **JDEdwards JAR 檔案：** \<輸入 JAR 檔案的完整路徑\>  
   
          `C:\JDEOWJars\BTSLIBInterop.jar; C:\JDEOWJars\Connector.jar; C:\JDEOWJars\Kernel.jar;C:\Program Files\Microsoft BizTalk Adapters for Enterprise Applications\J.D. Edwards OneWorld®\Classes\JDEJAccess.jar`  
   
@@ -109,7 +109,7 @@ JD Edwards OneWorld (JDEOW) 系統是否可從[!INCLUDE[btsBizTalkServerNoVersio
   
     6.  **連接埠：**  `6009`  
   
-    7.  **使用者名稱：** \<輸入 JD Edwards 使用者名稱 >  
+    7.  **使用者名稱：** \<輸入 JD Edwards 使用者名稱\>  
   
      ![](../core/media/jdeow-transportproperties-configurebutton.gif "JDEOW_TransportProperties_ConfigureButton")  
   
@@ -121,9 +121,9 @@ JD Edwards OneWorld (JDEOW) 系統是否可從[!INCLUDE[btsBizTalkServerNoVersio
   
 1.  開啟[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]，並在 C:\LABS 資料夾中建立新的 BizTalk 專案。 在 [檔案]  功能表上，按一下 [新增] 。 [新增專案]  對話方塊隨即出現。 在 [傳送埠屬性]  區段下，選取 [空白 BizTalk Server 專案]  輸入`JDE_OW_Test`作為唯一的專案名稱，然後按一下**確定**。  
   
-2.  在方案總管中，以滑鼠右鍵按一下專案，按一下 [新增] 及 [新增產生的項目] 。 在 [類別] 窗格中，選取**新增配接器中繼資料**，在 [範本] 窗格中，選取**新增配接器中繼資料**，然後按一下**新增**。  
+2.  在方案總管中，以滑鼠右鍵按一下專案，按一下 [新增] 及 [新增產生的項目] 。 在 類別 窗格中，選取**新增配接器中繼資料**，在 範本 窗格中，選取**新增配接器中繼資料**，然後按一下 **新增**。  
   
-3.  在 新增配接器精靈 中，選取  **JD Edwards OneWorld**配接器，選取**JDE_OneWorldPort**傳送您在先前程序中建立的連接埠，然後按一下**下一步**.  
+3.  在 新增配接器精靈 中，選取  **JD Edwards OneWorld**配接器，選取**JDE_OneWorldPort**傳送您在先前程序中建立的連接埠，然後按一下 **下一步**.  
   
      ![](../core/media/jdeow-addadapterwizardselectadapter.gif "JDEOW_AddAdapterWizardSelectAdapter")  
   
@@ -133,7 +133,7 @@ JD Edwards OneWorld (JDEOW) 系統是否可從[!INCLUDE[btsBizTalkServerNoVersio
   
 5.  展開**[callbsfn]**向下捲動至**N0100041-Address Book MBF**。 選取 N0100041，然後按一下**完成**。  
   
-6.  在 [方案總管] 中，沒有新的 BizTalk 協調流程含有兩個新的相關聯的結構描述檔案。 這些檔案是由 [新增配接器精靈] 所建立。 按兩下 BizTalk Orchestration.odx  檔案開啟協調流程。  
+6.  在 [方案總管] 中，沒有新的 BizTalk 協調流程含有兩個新的相關聯的結構描述檔案。 這些檔案是由 [新增配接器精靈] 所建立。 按兩下 [BizTalk Orchestration.odx]  檔案開啟協調流程。  
   
      ![](../core/media/jdeow-solution-explorer-jde-ow-test-schemas.gif "JDEOW_Solution_Explorer_JDE_OW_TEST_Schemas")  
   
@@ -143,11 +143,11 @@ JD Edwards OneWorld (JDEOW) 系統是否可從[!INCLUDE[btsBizTalkServerNoVersio
   
 #### <a name="configure-a-receive-port-to-accept-the-input-xml-file"></a>設定接收埠以接受輸入的 XML 檔案  
   
-1.  按兩下 BizTalk Orchestration.odx  檔案開啟協調流程。  
+1.  按兩下 [BizTalk Orchestration.odx]  檔案開啟協調流程。  
   
-2.  在 BizTalk Orchestration.odx 檔內，以滑鼠右鍵按一下左連接埠介面，然後按一下**新設定連接埠**。 如此將啟動 [連接埠組態精靈]。 在 [歡迎使用連接埠組態精靈]  頁面上，按 [下一步] 。  
+2.  在 BizTalk Orchestration.odx 檔內，以滑鼠右鍵按一下左連接埠介面，然後按一下 **新設定連接埠**。 如此將啟動 [連接埠組態精靈]。 在 [歡迎使用連接埠組態精靈]  頁面上，按 [下一步] 。  
   
-3.  上**連接埠內容**頁面上，輸入`JDE_File_In`如**名稱**，然後按一下**下一步**。  
+3.  上**連接埠內容**頁面上，輸入`JDE_File_In`如**名稱**，然後按一下 **下一步**。  
   
 4.  在 [選取連接埠類型]  頁面上，選取 [建立新的連接埠類型] ，然後輸入或選取下列屬性值：  
   
@@ -169,9 +169,9 @@ JD Edwards OneWorld (JDEOW) 系統是否可從[!INCLUDE[btsBizTalkServerNoVersio
   
 #### <a name="configure-a-sendreceive-port-to-interface-with-jd-edwards-oneworld"></a>使用 JD Edwards OneWorld 設定介面傳送/接收埠  
   
-1.  在 BizTalk Orchestration.odx 檔內，以滑鼠右鍵按一下右側連接埠介面，然後按一下**新設定連接埠**。 如此將啟動 [連接埠組態精靈]。 在 [歡迎使用連接埠組態精靈]  頁面上，按 [下一步] 。  
+1.  在 BizTalk Orchestration.odx 檔內，以滑鼠右鍵按一下右側連接埠介面，然後按一下 **新設定連接埠**。 如此將啟動 [連接埠組態精靈]。 在 [歡迎使用連接埠組態精靈]  頁面上，按 [下一步] 。  
   
-2.  在 **[選取連接埠類型]** 頁面上，選取 **[使用現有連接埠類型]**。 在下**可用的連接埠類型**，選取**JD_OW_Test.N0100041**，然後按一下**下一步**。  
+2.  在 **[選取連接埠類型]** 頁面上，選取 **[使用現有連接埠類型]**。 在下**可用的連接埠類型**，選取**JD_OW_Test.N0100041**，然後按一下 **下一步**。  
   
      ![](../core/media/a421358c-6e90-4fe0-b243-6beb1b51955a.gif "a421358c-6e90-4fe0-b243-6beb1b51955a")  
   
@@ -187,9 +187,9 @@ JD Edwards OneWorld (JDEOW) 系統是否可從[!INCLUDE[btsBizTalkServerNoVersio
   
 #### <a name="configure-a-send-port-to-output-the-xml-file-to-disk"></a>設定傳送埠輸出 XML 檔到磁碟  
   
-1.  在 BizTalk Orchestration.odx 檔內，以滑鼠右鍵按一下左連接埠介面，然後按一下**新設定連接埠**。 如此將啟動 [連接埠組態精靈]。 在 [歡迎使用連接埠組態精靈]  頁面上，按 [下一步] 。  
+1.  在 BizTalk Orchestration.odx 檔內，以滑鼠右鍵按一下左連接埠介面，然後按一下 **新設定連接埠**。 如此將啟動 [連接埠組態精靈]。 在 [歡迎使用連接埠組態精靈]  頁面上，按 [下一步] 。  
   
-2.  上**連接埠內容**頁面上，輸入`JDE_FileOut`如**名稱**，然後按一下**下一步**。  
+2.  上**連接埠內容**頁面上，輸入`JDE_FileOut`如**名稱**，然後按一下 **下一步**。  
   
 3.  在 [選取連接埠類型]  頁面上，選取 [建立新的連接埠類型] ，然後輸入或選取下列屬性值：  
   
@@ -213,9 +213,9 @@ JD Edwards OneWorld (JDEOW) 系統是否可從[!INCLUDE[btsBizTalkServerNoVersio
   
 #### <a name="assign-message-types-to-the-ports"></a>指派的連接埠的訊息類型  
   
-1.  在左側連接埠介面上**JDE_File_In**通訊埠，請按一下**要求**。 在 [屬性] 視窗中，依序展開**訊息類型**，依序展開**多部分訊息**，然後按一下 **JDE_OW_TestAddressBookMasterMBF**。  
+1.  在左側連接埠介面上**JDE_File_In**通訊埠，請按一下**要求**。 在 屬性 視窗中，依序展開**訊息類型**，依序展開**多部分訊息**，然後按一下  **JDE_OW_TestAddressBookMasterMBF**。  
   
-2.  在左側連接埠介面上**JDE_File_Out**通訊埠，請按一下**要求**。 在 [屬性] 視窗中，依序展開**訊息類型**，依序展開**多部分訊息**，然後按一下 **JDE_OW_TestAddressBookMasterMBFResponse**。  
+2.  在左側連接埠介面上**JDE_File_Out**通訊埠，請按一下**要求**。 在 屬性 視窗中，依序展開**訊息類型**，依序展開**多部分訊息**，然後按一下  **JDE_OW_TestAddressBookMasterMBFResponse**。  
   
  將兩個**傳送**圖形與兩個**接收**圖形至協調流程來連結至連接埠。  
   
@@ -283,15 +283,15 @@ JD Edwards OneWorld (JDEOW) 系統是否可從[!INCLUDE[btsBizTalkServerNoVersio
   
 1.  在 [方案總管] 中，按兩下**[n0100041service_n0100041.xsd]**開啟檔案。  
   
-2.  以滑鼠右鍵按一下**[n0100041service_n0100041.xsd]** ，然後按一下**屬性**。 針對 **輸出執行個體檔案名稱** 輸入範例 XML 的下列路徑和檔案名稱：  
+2.  以滑鼠右鍵按一下**n0100041service_n0100041.xsd** ，然後按一下 **屬性**。 針對 **輸出執行個體檔案名稱** 輸入範例 XML 的下列路徑和檔案名稱：  
   
      `C:\LABS\JDE_OW_TEST\SAMPLE.XML`  
   
-3.  按一下 **[確定].** 在 [屬性] 視窗中，選取**\<結構描述 >**並設定**根參考：**至`AddressBookMasterMBF`。 這會導致產生的 XML 只包含**查詢**xml。  
+3.  按一下 **[確定].** 在 [屬性] 視窗中，選取**\<結構描述\>**並設定**根參考：**至`AddressBookMasterMBF`。 這會導致產生的 XML 只包含**查詢**xml。  
   
      ![](../core/media/jdeow-jde-ow-test-msvisualstudio-schemas.gif "JDEOW_JDE_OW_Test_MSVISUALSTUDIO_SCHEMAS")  
   
-4.  以滑鼠右鍵按一下**[n0100041service_n0100041.xsd]** ，然後按一下**產生執行個體**。 這會產生**Sample.xml**檔案。 這個檔案將做為配接器的輸入，放置在接收位置以啟動協調流程處理序。  
+4.  以滑鼠右鍵按一下**n0100041service_n0100041.xsd** ，然後按一下 **產生執行個體**。 這會產生**Sample.xml**檔案。 這個檔案將做為配接器的輸入，放置在接收位置以啟動協調流程處理序。  
   
 #### <a name="configure-and-start-the-biztalk-application"></a>設定和啟動 BizTalk 應用程式  
   
@@ -299,15 +299,15 @@ JD Edwards OneWorld (JDEOW) 系統是否可從[!INCLUDE[btsBizTalkServerNoVersio
   
 2.  在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統管理主控台中，展開**主控台根目錄**，依序展開**BizTalk Server 管理**，依序展開**BizTalk 群組**，展開**應用程式**。  
   
-3.  以滑鼠右鍵按一下**JDE_OW_Test**，然後按一下**設定**。  
+3.  以滑鼠右鍵按一下**JDE_OW_Test**，然後按一下 **設定**。  
   
      ![](../core/media/jdeow-configureapplicationjde-ow-test.gif "JDEOW_ConfigureApplicationJDE_OW_Test")  
   
-4.  選取 [Orchestration_1]  ，並按一下 [主機]  下拉式方塊。 選取 **BizTalkServerApplication**。  
+4.  選取 [Orchestration_1]  ，並按一下 [主機]  下拉式方塊。 選取 **[BizTalkServerApplication]**。  
   
-5.  在下**接收埠**，按一下  **\<無 >**。 在下拉式清單中選取 [新增接收埠] 。  
+5.  在下**接收埠**，按一下  **\<無\>**。 在下拉式清單中選取 [新增接收埠] 。  
   
-6.  如**名稱**，型別`JDE_FileIn_Port`，然後按一下**確定**。 訊息方塊會出現，指出您需要指定接收位置。 按一下 [確定] 及 [新增] 。  
+6.  如**名稱**，型別`JDE_FileIn_Port`，然後按一下 **確定**。 訊息方塊會出現，指出您需要指定接收位置。 按一下 [確定] 及 [新增] 。  
   
      ![](../core/media/jdeow-filein-port-receiveportproperties.gif "JDEOW_FileIn_Port_ReceivePortProperties")  
   
@@ -327,7 +327,7 @@ JD Edwards OneWorld (JDEOW) 系統是否可從[!INCLUDE[btsBizTalkServerNoVersio
   
      ![](../core/media/jdeow-file-transport-properties-filein.gif "JDEOW_File_Transport_Properties_FileIn")  
   
-9. 按一下**\<無 >**如**JDE_OW_Port**下拉式清單中。  
+9. 按一下**\<無\>**如**JDE_OW_Port**下拉式清單中。  
   
 10. 選取**新傳送埠**然後選取或輸入下列值的屬性：  
   
@@ -341,11 +341,11 @@ JD Edwards OneWorld (JDEOW) 系統是否可從[!INCLUDE[btsBizTalkServerNoVersio
   
 11. 按一下 [設定] ，然後輸入下列屬性值：  
   
-     **主機：** \<輸入 JDEOW 主控件名稱 >  
+     **主機：** \<輸入 JDEOW 主控件名稱\>  
   
      **JAVA_HOME:**`C:\j2sdk1.4.2_08`  
   
-     **JDEdwards 環境：** \<輸入 JDEOW 環境 >  
+     **JDEdwards 環境：** \<輸入 JDEOW 環境\>  
   
      **JDEdwards JAR 檔案：**<enter full path of JAR files>  
   
@@ -361,7 +361,7 @@ JD Edwards OneWorld (JDEOW) 系統是否可從[!INCLUDE[btsBizTalkServerNoVersio
   
 12. 按兩下 [確定]  關閉對話方塊。  
   
-13. 在 設定 Applicationwindow 中，按一下  **\<無 >**如**JDE_FileOut**下拉式清單中。  
+13. 在 設定 Applicationwindow 中，按一下  **\<無\>**如**JDE_FileOut**下拉式清單中。  
   
 14. 選取 [新增傳送埠]  ，然後選取或輸入下列屬性值：  
   

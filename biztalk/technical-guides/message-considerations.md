@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5499c9535ff822dfec8097185ef17d8d7999e1f5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a277149a47fa60dda4df9291ec437ac67c518fdd
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="message-considerations"></a>訊息的考量
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]提供傳送、 接收、 轉換和處理訊息的一組廣泛的功能。 這些功能包括：  
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]  
     >  請參閱[最佳化協調流程效能](../technical-guides/optimizing-orchestration-performance.md)如需有關使用中的協調流程時要遵循的最佳作法指導[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。 請參閱主題[協調流程使用協調流程設計師建立](http://go.microsoft.com/fwlink/?LinkId=158997)(http://go.microsoft.com/fwlink/?LinkId=158997) 中[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]文件，如需使用協調流程設計師 」 的深入資訊。  
   
- 本主題的其餘部分說明與中處理訊息的大小、 複雜度和發佈設定檔相關的效能考量[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]環境。  
+ 本主題的其餘部分描述的 BizTalk Server 環境中處理的訊息大小、 複雜度和發佈設定檔相關的效能考量。  
   
 ## <a name="message-size-considerations"></a>訊息大小的考量  
  BizTalk Server 不會限制訊息大小，而實際限制與相依性可能會要求您的訊息大小降到最低，因為大型訊息需要較多處理資源。 做為訊息大小增加，整體輸送量 （每秒處理的訊息） 則會減少。 當設計您的案例及規劃容量，請考慮平均訊息大小、 訊息類型以及 BizTalk Server 處理的訊息數目。 請勿使用不必要地過長的屬性和標記名稱。可能的話，請保留在 50 個字元長度。 例如，請勿選取 只有 1 個位元組的訊息大小的 200 個字元的標記名稱。  
@@ -76,5 +76,5 @@ ms.lasthandoff: 09/20/2017
 ## <a name="flat-file-parsing-considerations"></a>一般檔案剖析的考量  
  一般檔案剖析的效能造成最高的影響力的兩個因素是檔案大小和結構描述複雜度。 模稜兩可的結構描述是結構描述，其中包含許多選擇性欄位。 大型檔案的大小使用時，具有許多選擇性欄位的結構描述會降低效能，因為較大的檔案可能符合的結構描述的不同分支。 結構描述複雜度會將較不會影響對比在更大的檔案較小的檔案。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [最佳化 BizTalk Server 應用程式](../technical-guides/optimizing-biztalk-server-applications.md)

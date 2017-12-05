@@ -12,11 +12,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: decf27009eea6aff0ff5ed9088ae49ef2014b1cb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5780c8fcc893126997b37f687f010c5eb62e74c9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-identify-bottlenecks-in-the-bam-primary-import-database"></a>如何識別 BAM 主要匯入資料庫中的瓶頸
 若要識別商務活動監控 (BAM) 資料庫中的瓶頸，請執行下列步驟：  
@@ -25,9 +25,9 @@ ms.lasthandoff: 09/20/2017
   
 2.  確認 SQL-Agent 服務正在執行。  
   
-3.  如果已設定 OLAP 分析，請確定 BAM_AN_\<activityname > 作業在定期間隔執行。  
+3.  如果已設定 OLAP 分析，請確定 BAM_AN_\<activityname\>定期執行作業。  
   
-4.  請確定該 BAM_DM_\<activityname > (Data Maintenance) 工作排定在定期間隔執行。  
+4.  請確定該 BAM_DM_\<activityname\> (Data Maintenance) 工作排定在定期間隔執行。  
   
     > [!NOTE]  
     >  在高使用率案例 BAM 資料庫活動可能會影響到其他 BizTalk Server 資料庫，將會影響 BizTalk Server 的整體效能的效能。 在此情況下，請考慮採取下列動作：  
@@ -43,5 +43,5 @@ ms.lasthandoff: 09/20/2017
   
 8.  在裝載 「 BizTalk 追蹤資料庫的磁碟，請檢查磁碟回應性 （讀/寫效能計數器每次磁碟秒數）。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [資料庫層中的瓶頸](../technical-guides/bottlenecks-in-the-database-tier.md)

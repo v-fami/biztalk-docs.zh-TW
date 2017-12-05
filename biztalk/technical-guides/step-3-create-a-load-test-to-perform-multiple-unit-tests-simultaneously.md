@@ -12,11 +12,11 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f8c9a99c0efaacac233c339d9279c837744892fb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 76b3d26e9f1dd14463d153c89316b3cf3da0338d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-3-create-a-load-test-to-perform-multiple-unit-tests-simultaneously"></a>步驟 3： 建立負載測試，以便同時執行多個單元測試
 負載測試執行多個執行個體的其中一個或多個單元測試，以便您可以測量您的應用程式效能和處理負載的能力。 Visual Studio 2010 負載測試的主要元件包括：  
@@ -94,7 +94,7 @@ ms.lasthandoff: 09/20/2017
   
 12. 按一下**完成**以關閉 新增負載測試精靈。  
   
-13. 按一下**檔案**功能表，然後選取**儲存\<負載測試名稱 > 做為.loadtest**。  
+13. 按一下**檔案**功能表，然後選取**儲存\<負載測試名稱\>為.loadtest**。  
   
     > [!NOTE]  
     >  在此範例中，<Load Test Name>會是由 Visual Studio 2010，通常 loadtestx.loadtest 指派給負載測試檔案的名稱，除非檔案的名稱已被手動變更。  
@@ -129,7 +129,7 @@ ms.lasthandoff: 09/20/2017
     |效能分類|效能計數器|  
     |--------------------------|-------------------------|  
     |處理器|%Processor Time _Total 計數器執行個體。|  
-    |Biztalk: Messagebox： 一般計數器|多工緩衝處理大小 *\<BizTalk MessageBox 資料庫名稱 >*:*\<SQL Server 執行個體名稱 >*計數器執行個體。 **注意：***\<BizTalk MessageBox 資料庫名稱 >*和 *\<SQL Server 執行個體名稱 >*只是 BizTalk 的實際名稱預留位置MessageBox 資料庫和裝載 BizTalk MessageBox 資料庫的 SQL Server 執行個體。   應該使用的 BizTalk MessageBox 資料庫和相關聯的 SQL Server 執行個體的實際名稱取代這些預留位置。|  
+    |Biztalk: Messagebox： 一般計數器|多工緩衝處理大小 *\<BizTalk MessageBox 資料庫名稱\>*:*\<SQL Server 執行個體名稱\>*計數器執行個體。 **注意：***\<BizTalk MessageBox 資料庫名稱\>*和 *\<SQL Server 執行個體名稱\>*只是預留位置BizTalk MessageBox 資料庫和裝載 BizTalk MessageBox 資料庫的 SQL Server 執行個體的實際名稱。   應該使用的 BizTalk MessageBox 資料庫和相關聯的 SQL Server 執行個體的實際名稱取代這些預留位置。|  
     |BizTalk:傳訊|文件數/秒的接收主控件計數器執行個體。<br /><br /> 文件處理每秒傳輸主控件計數器執行個體。|  
     |BizTalk：訊息代理程式|文件的訊息傳遞內送速率接收主控件。|  
     |BizTalk：訊息代理程式|文件傳輸主控件的訊息發佈外寄速率。|  

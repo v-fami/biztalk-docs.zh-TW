@@ -12,11 +12,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: be63a18df71a91bebffeb1fccfe46395fdb36b0e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4e30225b79b14ffc237798ddde6f3fe40fb4aea9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-1-create-the-request-message-for-updateemployee-stored-procedure"></a>步驟 1： 建立要求訊息的 UPDATE_EMPLOYEE 預存程序
 ![步驟 2 之 1](../../adapters-and-accelerators/adapter-sql/media/step-1of2.gif "Step_1of2")  
@@ -85,11 +85,11 @@ ms.lasthandoff: 09/20/2017
   
     1.  在 [方案總管] 中，以滑鼠右鍵按一下**UpdateEmployeeMessageCreator**專案，然後再按一下**屬性**。  
   
-    2.  在**屬性**視窗中，按一下 [**簽署**。  
+    2.  在**屬性**視窗中，按一下 **簽署**。  
   
     3.  在**簽署**索引標籤上，選取**簽署組件**核取方塊。  
   
-    4.  從**選擇強式名稱金鑰檔**清單中，按一下**\<瀏覽 >**。  
+    4.  從**選擇強式名稱金鑰檔**清單中，按一下**\<瀏覽\>**。  
   
     5.  導覽至您用來建立強式名稱金鑰檔案的資料夾，然後按一下**開啟**。  
   
@@ -99,11 +99,11 @@ ms.lasthandoff: 09/20/2017
   
 6.  這個專案的參考加入至方案中的 BizTalk 專案。  
   
-    1.  在 [方案總管] 中，展開 [BizTalk 專案，以滑鼠右鍵按一下**參考**，然後按一下 [**加入參考**。  
+    1.  在 方案總管 中，展開 BizTalk 專案，以滑鼠右鍵按一下**參考**，然後按一下 **加入參考**。  
   
     2.  在**加入參考**對話方塊中，按一下 [**專案**] 索引標籤。  
   
-    3.  從 [專案名稱的清單，選取 [ **UpdateEmployeeMessageCreator**，按一下**新增**，然後按一下**確定**。  
+    3.  從 專案名稱的清單，選取  **UpdateEmployeeMessageCreator**，按一下**新增**，然後按一下**確定**。  
   
 7.  建置專案時，會建立組件 DLL 專案的 \bin\Debug 資料夾下。 您必須加入這個 DLL 到全域組件快取 (GAC) 中。  
   
@@ -123,5 +123,5 @@ ms.lasthandoff: 09/20/2017
 ## <a name="next-steps"></a>後續步驟  
  您將要求訊息傳送至 SQL Server，並接收回應中所述[步驟 2： 將要求訊息傳送至 SQL Server 和接收回應](../../adapters-and-accelerators/adapter-sql/step-2-send-the-request-message-to-sql-server-and-receive-response.md)。  
   
-## <a name="see-also"></a>另請參閱  
- [第 3 課： 執行預存程序選取 [加入新的員工](../../adapters-and-accelerators/adapter-sql/lesson-3-execute-a-stored-procedure-to-select-new-employees-added.md)
+## <a name="see-also"></a>請參閱  
+ [第 3 課：執行預存程序以選取新增的員工](../../adapters-and-accelerators/adapter-sql/lesson-3-execute-a-stored-procedure-to-select-new-employees-added.md)

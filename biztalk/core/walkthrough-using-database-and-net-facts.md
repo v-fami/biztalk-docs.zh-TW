@@ -12,11 +12,11 @@ caps.latest.revision: "23"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9ca754e84d07718a3656aa9a6f27d3a54f831c25
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b18b9b3188ce3d9fb478c3f2d4390d167e5566a9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="walkthrough-using-database-and-net-facts"></a>逐步解說： 使用資料庫和.NET 事實
 此逐步解說提供逐步程序，說明如何透過「商務規則編輯器」建立使用資料庫和 .NET 事實的原則。  
@@ -37,7 +37,7 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-create-the-testdb-database-and-the-po-table"></a>建立 TestDB 資料庫和 PO 資料表  
   
-1.  開啟**SQL Server Management Studio**。  
+1.  開啟 [SQL Server Management Studio]。  
   
 2.  確認伺服器名稱和驗證，然後按一下**連接**。  
   
@@ -177,7 +177,7 @@ ms.lasthandoff: 09/20/2017
   
 20. 拖曳**狀態**節點從 事實總管 視窗右下角的 商務規則編輯器 THEN 窗格。  
   
-21. 在 [THEN] 窗格中，按一下**\<輸入的值 >** ，然後輸入**Approved**。  
+21. 在 [THEN] 窗格中，按一下**\<輸入值\>** ，然後輸入**Approved**。  
   
 22. 在事實總管 視窗中，以滑鼠右鍵按一下**1.0 版**中**ProcessPurchaseOrderDbNet**，然後按一下  **AddNewRule**。  
   
@@ -197,7 +197,7 @@ ms.lasthandoff: 09/20/2017
   
 30. 拖曳**狀態**節點從 事實總管 視窗右下角的 商務規則編輯器 THEN 窗格。  
   
-31. 在 [THEN] 窗格中，按一下**\<輸入的值 >** ，然後輸入**拒絕**。  
+31. 在 [THEN] 窗格中，按一下**\<輸入值\>** ，然後輸入**拒絕**。  
   
 32. 在原則總管] 視窗中，以滑鼠右鍵按一下**版本 1.0 （未儲存）**，然後按一下 [**儲存**。  
   
@@ -363,5 +363,5 @@ ms.lasthandoff: 09/20/2017
     cn.Close();  
     ```  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [選取事實](../core/selecting-facts.md)

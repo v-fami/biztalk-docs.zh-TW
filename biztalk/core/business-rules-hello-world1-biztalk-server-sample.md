@@ -15,11 +15,11 @@ caps.latest.revision: "16"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7231fd0d2aba7298127534eb43f1bf3c8c453b61
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ebe9f04fc8dac06676d7f29bf5dd2ecd01e7a06c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="business-rules-hello-world1-biztalk-server-sample"></a>商務規則 Hello World1 （BizTalk Server 範例）
 「商務規則 Hello World1」範例示範如何建立 BizTalk 規則集、將規則集儲存到檔案 (SampleRuleSet.xml)、載入規則集，以及依據一組事實範例執行該規則集。 範例規則集包含有關 XML 項目的簡單規則，以及做為規則定義內容的 .NET 物件 (屬性和成員)。  
@@ -42,7 +42,7 @@ ms.lasthandoff: 09/20/2017
 7.  透過刪除規則集檔案進行清除，準備接續的範例執行。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- \<*範例路徑*> \Business Rules\Business 規則 Hello World1\  
+ \<*範例路徑*\>\Business Rules\Business 規則 Hello World1\  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -64,7 +64,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  在命令視窗中，瀏覽至下列資料夾：  
   
-     \<*範例路徑*> \Business Rules\Business 規則 Hello World1\  
+     \<*範例路徑*\>\Business Rules\Business 規則 Hello World1\  
   
 2.  執行檔案 Setup.bat，這會執行下列動作：  
   
@@ -86,7 +86,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  在命令視窗中，瀏覽至下列資料夾：  
   
-     \<*範例路徑*> \Business Rules\Business 規則 Hello World1\bin\Debug\  
+     \<*範例路徑*\>\Business Rules\Business 規則 Hello World1\bin\Debug\  
   
 2.  在命令視窗中，輸入這個範例的可執行檔名稱 (BusinessRulesHelloWorld1.exe)，然後按 ENTER。  
   
@@ -143,5 +143,5 @@ Press any key to finish ...
   
  您依據類別和結構描述定義規則，但在執行期間需要有相關類別的物件執行個體，以及相關結構描述的文件執行個體。 您要針對這些執行階段執行個體 (稱為事實) 評估規則。 在本範例中的事實是多個執行個體**MySampleBusinessObject**包含不同的值所建構的物件及其**MyValue**屬性，並定義的結構描述的單一 XML 執行個體其中包含的值**識別碼**項目。  
   
-## <a name="see-also"></a>另請參閱  
- [商務規則 （BizTalk Server 範例資料夾）](../core/business-rules-biztalk-server-samples-folder.md)
+## <a name="see-also"></a>請參閱  
+ [商務規則 (BizTalk Server Samples 資料夾)](../core/business-rules-biztalk-server-samples-folder.md)

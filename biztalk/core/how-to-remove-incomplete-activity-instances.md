@@ -12,11 +12,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 99c2f77b6883b7ffba997551c4121013a4379267
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2809fd4fcc1d94a96b158ffa46c3e217084a905d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-remove-incomplete-activity-instances"></a>如何移除未完成的活動執行個體
 部署 BAM 定義檔案時，會為定義檔案中所定義的每個活動，在 BAM 主要匯入資料庫中建立五個資料表， 分別是：  
@@ -75,7 +75,7 @@ ms.lasthandoff: 09/20/2017
 |@ActivityName nvarchar(128)|指定要移除的未完成活動執行個體名稱。|  
 |@ActivityId nvarchar(128)|(選擇性) 指定預存程序只移除具有指定之執行個體識別項的懸空執行個體。|  
 |@DateThreshold日期時間|(選擇性) 指定移除作用資料表中早於指定之日期 (不含等於此日期) 的所有作用中執行個體。|  
-|@NewTableExtensionnvarchar （30)|(選擇性) 指定預存程序藉由串連所提供的延伸模組與現有活動資料表，建立三個新資料表。<br /><br /> 產生的資料表為：<br /><br /> bam_ActivityName_Active_\<副檔名 ><br /><br /> bam_ActivityName_ActiveRelationships_\<副檔名 ><br /><br /> bam_ActivityName_Continuations_\<副檔名 ><br /><br /> 未完成的執行個體會移至新資料表，而不會從資料庫清除。<br /><br /> 如果資料表已存在，預存程序便會重複加以使用，否則會建立這些資料表。 **重要事項：**如果資料表已存在，預存程序會假設其結構描述符合建立時所要使用的項目。 如果結構描述不符合，預存程序將無法插入記錄，而且移除作業會失敗。|  
+|@NewTableExtensionnvarchar （30)|(選擇性) 指定預存程序藉由串連所提供的延伸模組與現有活動資料表，建立三個新資料表。<br /><br /> 產生的資料表為：<br /><br /> bam_ActivityName_Active_\<延伸模組\><br /><br /> bam_ActivityName_ActiveRelationships_\<延伸模組\><br /><br /> bam_ActivityName_Continuations_\<延伸模組\><br /><br /> 未完成的執行個體會移至新資料表，而不會從資料庫清除。<br /><br /> 如果資料表已存在，預存程序便會重複加以使用，否則會建立這些資料表。 **重要事項：**如果資料表已存在，預存程序會假設其結構描述符合建立時所要使用的項目。 如果結構描述不符合，預存程序將無法插入記錄，而且移除作業會失敗。|  
   
  `exec RemoveDanglingInstances @ActivityName = 'PurchaseOrder'`  
   
@@ -236,5 +236,5 @@ AS
 GO  
 ```  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理 BAM 資料庫](../core/managing-bam-databases.md)

@@ -15,11 +15,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: bb659182a16af541728cb45f7b2427f6e306cd2d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 79a11d3be19ca27bd27146ef728ce168c3285884
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="invoke-business-service-methods-using-biztalk-server-and-the-siebel-adapter"></a>叫用商務服務方法使用 BizTalk Server 和 Siebel 配接器
 Siebel 商務服務是可以在 Siebel 中直接叫用的商務方法的集合。 如需有關如何[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]支援叫用商務服務在 Siebel 系統中，請參閱[在 Siebel 商務服務的相關作業](../../adapters-and-accelerators/adapter-siebel/operations-on-business-services-in-siebel.md)。 執行商務服務作業，訊息的 SOAP 結構的詳細資訊，請參閱[商務服務作業的訊息結構描述](../../adapters-and-accelerators/adapter-siebel/message-schemas-for-business-service-operations.md)。  
@@ -165,7 +165,7 @@ Siebel 商務服務是可以在 Siebel 中直接叫用的商務方法的集合�
  協調流程會使用要求訊息，並將其傳遞至 Siebel 系統。 來自 Siebel 系統的回應會儲存在檔案傳送位置。 上述的要求訊息的回應是：  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <ExecuteResponse xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessServices/TimeStamp/Operation">  
   <ExecuteResult>  
     <Time xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessServices/TimeStamp">2007-11-25T20:42:11.0000000</Time>  
@@ -179,5 +179,5 @@ Siebel 商務服務是可以在 Siebel 中直接叫用的商務方法的集合�
 ## <a name="best-practices"></a>最佳作法  
  您部署和設定 BizTalk 專案之後，您可以為 XML 檔案，稱為繫結檔案匯出組態設定。 一旦產生繫結檔案時，您可以匯入組態設定從檔案，因此您不需要建立傳送埠、 接收埠，等。 針對相同的協調流程。 如需繫結檔案的詳細資訊，請參閱[重複使用 Siebel 配接器中的配接器繫結](../../adapters-and-accelerators/adapter-siebel/reuse-adapter-bindings-in-the-siebel-adapter.md)。
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [若要建立 Siebel 配接器的 BizTalk 應用程式的建置組塊](../../adapters-and-accelerators/adapter-siebel/building-blocks-to-create-biztalk-applications-with-the-siebel-adapter.md)

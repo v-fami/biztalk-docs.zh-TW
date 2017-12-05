@@ -17,11 +17,11 @@ caps.latest.revision: "47"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3c9fc06d9c735a59fe59499bf9ed0ac62aab0408
-ms.sourcegitcommit: 5355a25d120d094778fb8f68ea14cab55c68d292
+ms.openlocfilehash: 9740bb1c73dd5f416dda3c2f29bb15fbc7241a51
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-cluster-the-master-secret-server"></a>如何叢集化主要密碼伺服器
 我們建議您依照本節的指示，在主要密碼伺服器上對「企業單一登入」(SSO) 服務進行成功的叢集化處理。  
@@ -67,7 +67,7 @@ ms.lasthandoff: 09/28/2017
   
     6.  輸入您稍早為 SSO 分支機構系統管理員 」 角色相關聯的群組建立的網域 SSO 分支機構系統管理員群組。  
   
-8.  選取**企業單一登入密碼備份**選項從左窗格，並提供適當的參數來備份企業單一登入密碼。 根據預設，企業單一登入密碼備份至*\<磁碟機 >*: Files\Enterprise Single Sign-on \Program Files\Common\\*SSOxxxx*.bak。  
+8.  選取**企業單一登入密碼備份**選項從左窗格，並提供適當的參數來備份企業單一登入密碼。 根據預設，企業單一登入密碼備份至*\<磁碟機\>*: Files\Enterprise Single Sign-on \Program Files\Common\\*SSOxxxx*.bak。  
   
 9. 按一下**套用組態**和檢閱摘要。  
   
@@ -133,7 +133,7 @@ ms.lasthandoff: 09/28/2017
   
     2.  將檔案儲存為.xml 檔案。 例如，將檔案儲存為 SSOCLUSTER.xml。  
   
-    3.  在命令提示字元，變更為「企業單一登入」安裝資料夾。 根據預設，安裝資料夾是*\<磁碟機 >*: \Program Files\Common Files\Enterprise Single Sign-on。  
+    3.  在命令提示字元，變更為「企業單一登入」安裝資料夾。 根據預設，安裝資料夾是*\<磁碟機\>*: \Program Files\Common Files\Enterprise Single Sign-on。  
   
     4.  在命令提示字元輸入下列命令，以更新資料庫中的主要密碼伺服器名稱：  
   
@@ -191,7 +191,7 @@ ms.lasthandoff: 09/28/2017
     > [!NOTE]
     >  如果沒有完成這個步驟，嘗試還原主要密碼可能就無法成功。  
   
-4.  將主要密碼備份檔案從第一個節點複製到第二個節點上的 \Enterprise Single Sign-On 安裝資料夾。 根據預設，安裝資料夾是*\<磁碟機 >*: \Program Files\Common Files\Enterprise Single Sign-on。  
+4.  將主要密碼備份檔案從第一個節點複製到第二個節點上的 \Enterprise Single Sign-On 安裝資料夾。 根據預設，安裝資料夾是*\<磁碟機\>*: \Program Files\Common Files\Enterprise Single Sign-on。  
   
 5.  登入第二個節點，然後在命令提示中變更至「企業單一登入」安裝資料夾。  
   
@@ -210,5 +210,5 @@ ms.lasthandoff: 09/28/2017
   
 7.  將包含叢集化「企業單一登入」服務的叢集化服務或應用程式從此叢集節點移至其他叢集節點，以確保容錯移轉功能運作正常。 接著將叢集群組移回，以確認容錯移轉回復功能也運作正常。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [如何建立使用磁碟、 IP 位址和名稱資源的叢集群組](../core/how-to-create-a-cluster-group-with-a-disk-ip-address-and-name-resource1.md)

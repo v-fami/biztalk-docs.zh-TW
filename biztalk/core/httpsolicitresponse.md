@@ -15,11 +15,11 @@ caps.latest.revision: "27"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 59f5c2821af02fb87727a4096f4b6e586bfd5b4f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 500ec05df9a3a365a350571e8b3e66f5d584f92d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="httpsolicitresponse"></a>HTTPSolicitResponse
 HTTPSolicitResponse 範例會示範如何建立 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 協調流程，以運用 ASP.NET 應用程式協助處理協調流程資料。 在此範例中，協調流程會利用要求/回應埠，將訊息傳送至 ASP.NET 應用程式並擷取回應。 藉由使用 HTTP 配接器，便能整合 BizTalk Server 協調流程與 ASP.NET 應用程式。 如需詳細資訊，請參閱[HTTP 配接器](../core/http-adapter.md)。  
@@ -36,7 +36,7 @@ HTTPSolicitResponse 範例會示範如何建立 Microsoft [!INCLUDE[btsBizTalkSe
 4.  協調流程會接收 HTTP 回應中 XML 格式的結果，並將該結果寫入特定資料夾的 .xml 檔案中。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- \<*範例路徑*> \AdaptersUsage\HTTPSolicitResponse  
+ \<*範例路徑*\>\AdaptersUsage\HTTPSolicitResponse  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -61,15 +61,15 @@ HTTPSolicitResponse 範例會示範如何建立 Microsoft [!INCLUDE[btsBizTalkSe
   
 1.  在命令視窗中，瀏覽至下列資料夾：  
   
-     \<*範例路徑*> \AdaptersUsage\HTTPSolicitResponse  
+     \<*範例路徑*\>\AdaptersUsage\HTTPSolicitResponse  
   
 2.  執行檔案 Setup.bat，這會執行下列動作：  
   
     -   為此範例建立輸入和輸出資料夾：  
   
-         \<*範例路徑*> \AdaptersUsage\HttpSolicitResponse\HttpSolicitResponseInput  
+         \<*範例路徑*\>\AdaptersUsage\HttpSolicitResponse\HttpSolicitResponseInput  
   
-         \<*範例路徑*> \AdaptersUsage\HttpSolicitResponse\HttpSolicitResponseOutput  
+         \<*範例路徑*\>\AdaptersUsage\HttpSolicitResponse\HttpSolicitResponseOutput  
   
     -   編譯及設定此範例所使用的乘法運算器 ASP.NET 應用程式。  
   
@@ -120,5 +120,5 @@ HTTPSolicitResponse 範例會示範如何建立 Microsoft [!INCLUDE[btsBizTalkSe
   
  MultiplyRequest.xsd 和 MultiplyResponse.xsd 檔案都是 XML 結構描述，會分別針對乘法運算器 ASP.NET 應用程式定義輸入和輸出資料。 協調流程會使用這些檔案來定義要求和回應訊息類型。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [HTTP 配接器範例](../core/http-adapter-samples.md)

@@ -16,11 +16,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8a497b4b2d81ef2e6d0e62032b8c3939794451cd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 82fcdc400395d7bbfd6de8f9bc0fca85114a25dc
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="enumerate-receive-locations-biztalk-server-sample"></a>列舉接收位置 （BizTalk Server 範例）
 「列舉接收位置」範例會示範如何擷取一或多個接收位置的詳細資訊。  
@@ -40,9 +40,9 @@ ms.lasthandoff: 09/20/2017
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
  範例位於下列 SDK 位置：  
   
--   VBScript 版： \<*範例路徑*> \Admin\WMI\Enumerate Receive Locations\VBScript\  
+-   VBScript 版： \<*範例路徑*\>\Admin\WMI\Enumerate Receive Locations\VBScript\  
   
--   Visual C# 版本： \<*範例路徑*> \Admin\WMI\Enumerate Receive Locations\CSharp\  
+-   Visual C# 版本： \<*範例路徑*\>\Admin\WMI\Enumerate Receive Locations\CSharp\  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -66,13 +66,13 @@ ms.lasthandoff: 09/20/2017
   
 1.  在命令視窗中，根據您要執行的是此範例的 VBScript 版或 Visual C# 版而定，分別瀏覽至下列其中一個資料夾：  
   
-     \<*範例路徑*> \Admin\WMI\Enumerate 接收 Locations\VBScript\  
+     \<*範例路徑*\>\Admin\WMI\Enumerate 接收 Locations\VBScript\  
   
-     \<*範例路徑*> \Admin\WMI\Enumerate 接收 Locations\CSharp\bin\Debug\  
+     \<*範例路徑*\>\Admin\WMI\Enumerate 接收 Locations\CSharp\bin\Debug\  
   
 2.  根據您要執行的是此範例的 VBScript 版或 Visual C# 版而定，分別使用 cscript 程式執行 EnumRecLocs.vbs 檔，或是執行 EnumRl.exe 檔。 針對 Visual C# 版本，傳遞下列兩個命令列引數的其中一個：  
   
-    -   **\<ReceiveLocationName >。** 要顯示其詳細資訊的接收位置名稱。 如果接收位置名稱包含空格，請用引號括住該名稱。  
+    -   **\<ReceiveLocationName\>。** 要顯示其詳細資訊的接收位置名稱。 如果接收位置名稱包含空格，請用引號括住該名稱。  
   
     -   **/?.** 顯示說明。  
   
@@ -102,5 +102,5 @@ ms.lasthandoff: 09/20/2017
   
  指令碼檔案 EnumRecLocs.vbs 和 Visual C# 來源檔 EnumRLs.cs 包含詳細註解，以及有關這兩個檔案所執行作業的進一步說明。 如需詳細資訊，請參閱 < 在 Windows Management Instrumentation [http://go.microsoft.com/fwlink/?LinkId=21102](http://go.microsoft.com/fwlink/?LinkId=21102)。  
   
-## <a name="see-also"></a>另請參閱  
- [管理 WMI （BizTalk Server 範例資料夾）](../core/admin-wmi-biztalk-server-samples-folder.md)
+## <a name="see-also"></a>請參閱  
+ [Admin-WMI (BizTalk Server Samples 資料夾)](../core/admin-wmi-biztalk-server-samples-folder.md)

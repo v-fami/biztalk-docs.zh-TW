@@ -17,14 +17,14 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 89de313960324ea39ffc8e4eaa4905849dc38b8a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0a7643c4a39785018368572d721eed3ef6545c6b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-handle-typed-fault-contracts-in-orchestrations"></a>如何在協調流程中處理類型錯誤的合約
-本主題描述如何在使用 WCF 服務時，從協調流程內處理類型錯誤的合約。 若要處理協調流程中的具類型的錯誤例外狀況，您使用的 WCF 服務必須具有**FaultContractAttribute**套用至服務作業; 因此，則會發生錯誤，可能會擲回使用**FaultException**\<T > 其中 T 可以是任何有效的資料合約或可序列化的型別從 WCF 服務。  
+本主題描述如何在使用 WCF 服務時，從協調流程內處理類型錯誤的合約。 若要處理協調流程中的具類型的錯誤例外狀況，您使用的 WCF 服務必須具有**FaultContractAttribute**套用至服務作業; 因此，則會發生錯誤，可能會擲回使用**FaultException**\<T\>其中 T 可以是任何有效的資料合約或可序列化的型別從 WCF 服務。  
   
 ## <a name="procedures"></a>程序  
   
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  在您的 Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] BizTalk 專案，在 [方案總管] 中，以滑鼠右鍵按一下您的專案中，按一下**新增**，然後按一下 **新增產生的項目**。  
   
-2.  在**新增產生的項目- \<** *專案名稱* **>** 對話方塊中，於**範本**] 區段中，選取**取用 WCF 服務**，然後按一下 [**新增**。  
+2.  在**新增產生的項目- \<** *專案名稱* **\>** 對話方塊中，於**範本**] 區段中，選取**取用 WCF 服務**，然後按一下 [**新增**。  
   
 3.  在**歡迎使用 BizTalk WCF 服務使用精靈**頁面上，按一下**下一步**。  
   
@@ -64,6 +64,6 @@ ms.lasthandoff: 09/20/2017
   
 9. 在協調流程中，您必須新增範圍和兩個例外狀況處理常式。 一個例外狀況處理常式是錯誤的操作，類似於**MyOperationException**顯示在上述範例中，其他的例外狀況處理常式會攔截泛型**SOAPExceptions**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [如何從協調流程發佈為 WCF 服務擲回錯誤例外狀況](../core/how-to-throw-fault-exceptions-from-orchestrations-published-as-wcf-services.md)   
  [如何使用 BizTalk WCF 服務使用精靈來取用 WCF 服務](../core/how-to-use-the-biztalk-wcf-service-consuming-wizard-to-consume-a-wcf-service.md)

@@ -16,11 +16,11 @@ caps.latest.revision: "18"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a0ab00dc2640bbede95881280b73962c33442e46
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9934c333699b853a3e10a0e5ecf212acf17fa6c6
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-delete-an-index"></a>如何刪除索引
 系統管理員使用**刪除索引**命令來刪除指定的活動，在指定的檢查點的索引。  
@@ -31,14 +31,14 @@ ms.lasthandoff: 09/20/2017
   
 2.  在命令提示字元中，輸入 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking，以瀏覽至追蹤資料夾。 按 ENTER 鍵。  
   
-3.  型別**bm delete-IndexName:\<索引名稱 >-活動：\<活動名稱 >**。  
+3.  型別**bm delete-IndexName:\<索引名稱\>-活動：\<活動名稱\>**。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
   
 4.  按 ENTER 鍵。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理 BAM 動態基礎結構](../core/managing-the-bam-dynamic-infrastructure.md)   
  [BAM 管理公用程式](../core/bam-management-utility.md)   
  [如何刪除索引](../core/how-to-delete-an-index.md)   

@@ -12,11 +12,11 @@ caps.latest.revision: "31"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c83e610a96343dfc32917f898f69645c13e5fa79
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c6a16d47f88be211b376f54d0f7116346771d136
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="biztalk-server-2010-performance-optimization-guide"></a>BizTalk Server 2010 效能最佳化指南
 歡迎使用 Microsoft® BizTalk® Server 2010 效能最佳化指南。 我們建立了本指南提供的最佳化 BizTalk Server 解決方案的效能的深入資訊。 企業應用程式部署期間經常忽略完整端對端效能測試。 了解 Microsoft 已建置可擴充的傳訊基礎結構，使用 BizTalk Server 的許多組織縮短對幾乎不執行效能測試的自己的應用程式的時間。 BizTalk Server 應用程式含有許多部分，其中可能包含自訂元件，以及 Microsoft 所提供。 Microsoft 在效能測試所有可能組合，這些元件，所以不可能。 因此，完整及正確執行程式的效能測試是應用的任何部署的重要步驟。  
@@ -28,7 +28,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="whats-in-it"></a>什麼是在它？  
  一般來說，伺服器的效能取決於有效能最低的元件，在系統中的瓶頸。 改善效能的關鍵能夠找出瓶頸，請判斷其原因，並套用適當的更正動作。  
   
- 當您規劃您[!INCLUDE[prague](../includes/prague-md.md)]部署中，使用本指南可協助設計並最佳化您的環境。 效能的概念與延展性的概念密切相關。 當您有充分的了解影響系統元件的效能的因素時，您可以部署的方式調整為支援週期需求較高的元件。  
+ 當您規劃 BizTalk Server 部署，請使用本指南說明設計及最佳化您的環境。 效能的概念與延展性的概念密切相關。 當您有充分的了解影響系統元件的效能的因素時，您可以部署的方式調整為支援週期需求較高的元件。  
   
  本指南提供指引來最佳化效能，根據實際操作經驗的 IT 專業人員已廣泛使用 BizTalk Server。 具體來說，本指南包含四個主要部分：  
   
@@ -36,7 +36,7 @@ ms.lasthandoff: 09/20/2017
   
 -   **最佳化效能**:[最佳化效能](../technical-guides/optimizing-performance.md)> 一節提供最佳化的效能指引[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]方案。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]與效能的平台緊密相關效能[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]安裝。 本節提供這兩者的效能最佳化的建議[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]和[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]平台。  
   
--   **調整實際執行 BizTalk Server 環境**:[調整實際執行 BizTalk Server 環境](../technical-guides/scaling-a-production-biztalk-server-environment.md)章節提供的詳細的結果[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]BizTalk 產品所完成的效能測試小組。 這些測試著重於延展性，且以新增的影響[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]電腦、 新增的影響[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]MessageBox 資料庫以及新增的影響[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]電腦和[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]MessageBox 資料庫方案同時。  
+-   **調整實際執行 BizTalk Server 環境**:[調整實際執行 BizTalk Server 環境](../technical-guides/scaling-a-production-biztalk-server-environment.md)章節提供詳細的 BizTalk Server 效能 BizTalk 產品團隊所完成的測試結果. 這些測試著重於延展性，且以新增 BizTalk Server 電腦，新增的影響的影響[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]MessageBox 資料庫，並加入方案中的 BizTalk Server 電腦和 BizTalk Server MessageBox 資料庫的影響同時。  
   
     -   數目增加時[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]中的電腦[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，這些測試群組只有一個[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]MessageBox 資料庫已設定[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]群組。 這些測試僅著重於新增的影響[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]電腦[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]群組。  
   
@@ -50,7 +50,7 @@ ms.lasthandoff: 09/20/2017
  [使用 Visual Studio，有助於自動化測試](../technical-guides/using-visual-studio-to-facilitate-automated-testing.md)– 說明如何使用 Visual Studio 負載測試中，評估 BizTalk Server 應用程式的效能。  
   
 ## <a name="acknowledgments"></a>致謝  
- 我們在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]使用者教育小組非常感謝提供意見反應技術以及大量的內容確認下列人員的未處理的比重[!INCLUDE[prague](../includes/prague-md.md)]效能最佳化指南：  
+ 我們在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]使用者教育小組非常感謝認可未處理的下列人員比重的 BizTalk Server 效能最佳化指南提供技術意見以及大量內容：  
   
  **作者**  
   

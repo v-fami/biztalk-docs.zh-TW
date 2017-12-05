@@ -13,11 +13,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c0939ddaa11e409ec42989062e28314c14277549
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7076b9c076b263a54a436c553b519671760ca473
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="install-the-biztalk-adapter-pack-2016"></a>安裝 BizTalk Adapter Pack 2016
 安裝[!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]下列兩種方式：  
@@ -236,7 +236,7 @@ ms.lasthandoff: 09/20/2017
   
 **在 64 位元電腦上的執行安裝程式可能會擲回錯誤存取結構描述檔案時發生**  
   
-[!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]安裝存取 Microsoft.Adapters 時擲回錯誤。*\<AdapterName >*_schema.xml 檔案，但配接器的安裝會繼續進行。  
+[!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]安裝存取 Microsoft.Adapters 時擲回錯誤。*\<AdapterName\>*_schema.xml 檔案，但配接器的安裝會繼續進行。  
   
 **可能的原因**  
   
@@ -244,7 +244,7 @@ ms.lasthandoff: 09/20/2017
   
 **解決方式**  
   
-手動複製 Microsoft.Adapters。 *\<AdapterName >*_schema.xml 檔案從*C:\Program Files\Microsoft BizTalk Adapter Pack (x64) \IIS 結構描述*至*C:\Windows\System32\inetsrv\config\schema*. 
+手動複製 Microsoft.Adapters。 *\<AdapterName\>*_schema.xml 檔案從*C:\Program Files\Microsoft BizTalk Adapter Pack (x64) \IIS 結構描述*至*C:\Windows\System32\inetsrv\config\schema*。 
   
 ## <a name="next-step"></a>下一步
 [後續安裝步驟](../adapters-and-accelerators/post-installation-steps-for-biztalk-adapter-pack-2016.md)

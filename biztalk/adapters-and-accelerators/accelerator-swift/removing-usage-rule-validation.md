@@ -15,11 +15,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 59aea2c772f1906ca779187f22a094e3f6cb4ceb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 017184e5f530096dc0ca166fdaaa9810a3372cfa
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="removing-usage-rule-validation"></a>移除的使用方式規則驗證
 使用規則 SWIFT 標準中定義且由強制執行[!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]特定的每個訊息類型的商務原則。 這些使用規則是您可用來提供額外的驗證欄位的指導方針。 與不同的是網路驗證規則都是必要項，您可以選擇不使用規則所需的訊息類型。 如果是這樣，您可以執行下列其中一項：  
@@ -33,7 +33,7 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-remove-a-rule-from-a-policy"></a>若要從原則移除規則  
   
-1.  在文字編輯器中，例如 [記事本] 開啟您想要變更，例如，在 MT103_Validation_Policy 的驗證原則*\<磁碟機 >*: files\ Microsoft BizTalk Accelerator for SWIFT \<版本 > 訊息 Pack\SWIFT Messages\A4SWIFT SRG\<版本 > \Category 1\MT103。  
+1.  在文字編輯器中，例如 [記事本] 開啟您想要變更，例如，在 MT103_Validation_Policy 的驗證原則*\<磁碟機\>*: files\ Microsoft BizTalk Accelerator for SWIFT \<版本\>訊息 Pack\SWIFT Messages\A4SWIFT SRG\<版本\>\Category 1\MT103。  
   
 2.  移除規則 節點，不想，並再儲存原則。  
   

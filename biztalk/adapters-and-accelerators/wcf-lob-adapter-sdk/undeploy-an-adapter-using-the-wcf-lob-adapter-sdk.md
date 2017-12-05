@@ -12,11 +12,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 90208dd99a6b4ccdc8f3f55d2ad019baabe635ad
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: 1332e41593ede5f7075ec7f5ede1293d79d65594
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="undeploy-an-adapter-using-the-wcf-lob-adapter-sdk"></a>解除部署配接器使用 WCF LOB 配接器 SDK
 若要解除部署配接器從電腦時，使用者必須執行下列兩項工作：  
@@ -41,7 +41,7 @@ ms.lasthandoff: 11/07/2017
   
 2.  在命令提示字元中，輸入下列命令：  
   
-     **gacutil /u** \<*完整**組件名稱*>  
+     **gacutil /u** \<*完整**組件名稱*\>  
   
      這個命令中，組件名稱會是要從 GAC 解除安裝組件的名稱。  
   
@@ -54,7 +54,7 @@ ms.lasthandoff: 11/07/2017
   
 #### <a name="manually-edit-the-machineconfig-file"></a>手動編輯 machine.config 檔  
   
-1.  編輯位於 Microsoft .NET 組態資料夾中的 machine.config 檔。 若要這樣做，請按一下**啟動**，按一下 **執行**，型別**記事本\<Windows 安裝路徑 > \Microsoft.NET\Framework\\< 版本\>\CONFIG\machine.config**，然後按一下 **確定**。  
+1.  編輯位於 Microsoft .NET 組態資料夾中的 machine.config 檔。 若要這樣做，請按一下**啟動**，按一下 **執行**，型別**記事本\<Windows 安裝路徑\>\Microsoft.NET\Framework\\< 版本\>\CONFIG\machine.config**，然後按一下 **確定**。  
   
     > [!NOTE]
     >  讓 machine.config 檔案的備份，才能變更防範編輯的錯誤。  
@@ -85,5 +85,5 @@ ms.lasthandoff: 11/07/2017
   
 4.  關閉 [服務組態編輯器]。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [部署配接器使用 WCF LOB 配接器 SDK](../../adapters-and-accelerators/wcf-lob-adapter-sdk/deploy-an-adapter-using-the-wcf-lob-adapter-sdk.md)

@@ -13,29 +13,29 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4616c097a04bbf84ce2a51808e98479ca1cd0604
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 30d036313a69025e7fcf0e37116fc729623ac782
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="invoke-overloaded-functions-and-procedures-in-oracle-database-using-biztalk-server"></a>叫用多載函式，並使用 BizTalk Server 的 Oracle 資料庫中的程序
 預存程序和函式可以多載 Oracle 資料庫中。 [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]支援由多載函式和程序變更作業的目標命名空間。 例如，兩個多載程序的訊息結構看起來像：  
   
 ```  
 Stored Procedure Overload 1:  
-\<[SP_NAME] xmlns="http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Package/[PACKAGE_NAME]/[SP_NAME]/overload1">    
-  \<[PRM1_NAME]>value1\</[PRM1_NAME]>  
-  \<[PRM2_NAME]>value1\</[PRM2_NAME]>  
+<[SP_NAME] xmlns="http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Package/[PACKAGE_NAME]/[SP_NAME]/overload1">    
+  <[PRM1_NAME]>value1</[PRM1_NAME]>  
+  <[PRM2_NAME]>value1</[PRM2_NAME]>  
   …  
-\</[SP_NAME]>  
+</[SP_NAME]>  
   
 Stored Procedure Overload 2:  
-\<[SP_NAME] xmlns="http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Package/[PACKAGE_NAME]/[SP_NAME]/overload2">    
-  \<[PRM1_NAME]>value1\</I_[PRM1_NAME]>  
-  \<[PRM2_NAME]>value1\</I_[PRM2_NAME]>  
+<[SP_NAME] xmlns="http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Package/[PACKAGE_NAME]/[SP_NAME]/overload2">    
+  <[PRM1_NAME]>value1</I_[PRM1_NAME]>  
+  <[PRM2_NAME]>value1</I_[PRM2_NAME]>  
   …  
-\</[SP_NAME]>  
+</[SP_NAME]>  
 ```  
   
  SOAP 訊息結構和 SOAP 動作叫用所需的多載函式或程序是用來叫用函式和程序，類似，如底下所述[函數和程序的訊息結構描述](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-functions-and-procedures.md)。  
@@ -265,7 +265,7 @@ Stored Procedure Overload 2:
  協調流程會使用要求訊息，並將它們傳送到 Oracle 資料庫。 從 Oracle 資料庫的回應會儲存在其他的協調流程中定義的檔案位置。 例如，叫用第一個多載程序的回應是：  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <GET_ACCOUNTResponse mlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG/GET_ACCOUNT/overload1">  
  <ACCT>  
   <ACCTID>100001</ACCTID>  
@@ -281,5 +281,5 @@ Stored Procedure Overload 2:
 ## <a name="best-practices"></a>最佳作法  
  您部署和設定 BizTalk 專案之後，您可以為 XML 檔案，稱為繫結檔案匯出組態設定。 一旦產生繫結檔案時，您可以匯入組態設定從檔案，因此您不需要建立傳送埠、 接收埠，等。 針對相同的協調流程。 如需繫結檔案的詳細資訊，請參閱[重複使用的 Oracle 資料庫配接器繫結](../../adapters-and-accelerators/adapter-oracle-database/reuse-oracle-database-adapter-bindings.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [開發 BizTalk 應用程式的建置組塊，與 Oracle 資料庫](../../adapters-and-accelerators/adapter-oracle-database/building-blocks-to-develop-biztalk-applications-with-oracle-database.md)

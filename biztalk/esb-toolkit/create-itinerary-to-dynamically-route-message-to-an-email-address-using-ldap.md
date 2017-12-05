@@ -12,15 +12,15 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 14ea2f3dcb144b0b3d1ddf835ba3a5ae6a33bb8c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 751eaf381b762372652bb77ddf6f00ffe43971c2
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-create-an-itinerary-to-dynamically-route-a-message-to-an-email-address-using-an-ldap-query"></a>如何： 建立以動態方式將訊息路由傳送電子郵件地址，使用 LDAP 查詢的行程
 ## <a name="goal"></a>目標  
- 本節示範如何建立查詢透過 LDAP （輕量型目錄存取通訊協定） 的電子郵件地址，然後再將電子郵件訊息傳送到已解決的端點時使用的行程[!INCLUDE[prague](../includes/prague-md.md)]SMTP 配接器。  
+ 本節示範如何建立查詢透過 LDAP （輕量型目錄存取通訊協定） 的電子郵件地址，然後再將電子郵件訊息傳送至已解決的端點使用 BizTalk Server SMTP 配接器的行程。  
   
  在此 「 如何 」 主題，您將完成下列步驟：  
   
@@ -39,7 +39,7 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-create-an-esb-itinerary-domain-specific-language-dsl-model"></a>若要建立 ESB 路線網域特定領域語言 (DSL) 模型  
   
-1.  在[!INCLUDE[vs2010](../includes/vs2010-md.md)]，開啟 C:\HowTos\Patterns\Patterns.sln。  
+1.  在 Visual Studio 中開啟 C:\HowTos\Patterns\Patterns.sln。  
   
 2.  在 方案總管 中，以滑鼠右鍵按一下**ItineraryLibrary**專案，指向**新增**，然後按一下 **新的行程**。  
   

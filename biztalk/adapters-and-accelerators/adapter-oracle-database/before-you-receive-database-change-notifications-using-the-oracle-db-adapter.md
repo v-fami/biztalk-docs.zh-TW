@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 01894ab7011324d0f5a3eab84a4cea72e8186c14
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9b0d6c99de2a24975faef3a10059f4bbb10d28a4
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="considerations-for-receiving-database-change-notifications-using-the-oracle-database-adapter"></a>接收資料庫變更通知使用 Oracle 資料庫配接器的考量
 本主題提供一些考量和最佳作法，您必須使用時請記住[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]要從 Oracle 資料庫接收資料庫通知。  
@@ -28,10 +28,10 @@ ms.lasthandoff: 09/20/2017
   
 -   作業的通知訊息不會受到該作業所影響的記錄數目。 例如，Oracle 資料庫資料表中插入的記錄數目，不論配接器用戶端收到只有一個通知訊息。  
   
--   我們建議配接器用戶端應用程式包含的邏輯來解譯的從 Oracle 資料庫接收的通知類型。 配接器用戶端應用程式可以這樣做來擷取中的資訊**\<資訊 >**接收的通知訊息的項目。 以下是 Insert 作業接收通知訊息的範例。  
+-   我們建議配接器用戶端應用程式包含的邏輯來解譯的從 Oracle 資料庫接收的通知類型。 配接器用戶端應用程式可以這樣做來擷取中的資訊**\<資訊\>**接收的通知訊息的項目。 以下是 Insert 作業接收通知訊息的範例。  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <Notification xmlns="http://Microsoft.LobServices.OracleDB/2007/03/Notification/">  
       <Details>  
         <NotificationDetails>  
@@ -50,7 +50,7 @@ ms.lasthandoff: 09/20/2017
   
     ```  
   
-     請注意內的值**\<資訊 >**項目。 此值會提供資訊在收到通知訊息的作業。 您的應用程式應該有的功能來擷取內的值**\<資訊 >**項目，然後根據的值，執行後續的工作。 本主題[處理通知訊息來完成 Oracle 資料庫中的特定工作](../../adapters-and-accelerators/adapter-oracle-database/process-notification-messages-to-run-specific-tasks-in-oracle-db-using-biztalk.md)如何擷取內的值中的指示**\<資訊 >**項目。  
+     請注意內的值**\<資訊\>**項目。 此值會提供資訊在收到通知訊息的作業。 您的應用程式應該有的功能來擷取內的值**\<資訊\>**項目，然後根據的值，執行後續的工作。 本主題[處理通知訊息來完成 Oracle 資料庫中的特定工作](../../adapters-and-accelerators/adapter-oracle-database/process-notification-messages-to-run-specific-tasks-in-oracle-db-using-biztalk.md)如何擷取內的值中的指示**\<資訊\>**項目。  
   
 -   在理想情況下，用戶端應用程式會收到通知之後，它應該更新其已收到通知，讓後續的通知沒有相同的記錄的記錄。 例如，請考慮**ACCOUNTACTIVITY**資料表具有**處理**資料行。 針對所有新記錄插入至**ACCOUNTACTIVITY**資料表中的值**處理**資料行一律是 ' n '。 例如，在插入作業中的記錄之後**ACCOUNTACTIVITY**資料表看起來如下所示：  
   
@@ -89,5 +89,5 @@ ms.lasthandoff: 09/20/2017
   
  中的詳細說明上述建議[處理通知訊息，以便完成特定工作，使用 BizTalk Server 的 Oracle 資料庫中](../../adapters-and-accelerators/adapter-oracle-database/process-notification-messages-to-run-specific-tasks-in-oracle-db-using-biztalk.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [使用 BizTalk Server 接收的 Oracle 資料庫變更通知](../../adapters-and-accelerators/adapter-oracle-database/receive-oracle-database-change-notifications-using-biztalk-server.md)

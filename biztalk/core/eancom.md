@@ -12,14 +12,14 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f54f432ab1cf4638dfaccc58e90f6a74ad8b5216
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1155762a509a5754f6697dc6d25289e92903f6a3
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="eancom"></a>EANCOM
-本主題列出 [!INCLUDE[prague](../includes/prague-md.md)] 支援的 EANCOM 文件和版本。  
+本主題列出的 EANCOM 文件和 BizTalk Server 所支援的版本。  
   
 ## <a name="eancom"></a>EANCOM  
   
@@ -75,10 +75,10 @@ ms.lasthandoff: 09/20/2017
 |SLSRPT|![核取記號](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")|![核取記號](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")|![核取記號](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")|![核取記號](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")|  
 |TAXCON|![核取記號](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")|![核取記號](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")|![核取記號](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")|![核取記號](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")|  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [X12 交易集 100-250](../core/x12-transaction-sets-100-250.md)   
  [X12 交易集 251-503](../core/x12-transaction-sets-251-503.md)   
  [X12 交易集 504 999](../core/x12-transaction-sets-504-999.md)   
  [HIPAA 交易集](../core/hipaa-transaction-sets.md)   
  [EDIFACT 交易集 APERAK IFTRIN](../core/edifact-transaction-sets-aperak-iftrin.md)   
- [EDIFACT 交易集 IFTSAI WKGRRE](../core/edifact-transaction-sets-iftsai-wkgrre.md)
+ [EDIFACT 交易集 IFTSAI-WKGRRE](../core/edifact-transaction-sets-iftsai-wkgrre.md)

@@ -15,22 +15,22 @@ caps.latest.revision: "28"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c51f0ff13b06bd57ccdd52ec6e35fdd7e0acf839
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 82476c440f1bae482eff5308f1a5238f8bd85d92
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="loans-processing-using-business-rules-biztalk-server-sample"></a>貸款處理使用商務規則 （BizTalk Server 範例）
 「使用商務規則處理貸款」範例將示範如何使用協調流程內管理的規則集，以及如何使用稱為「事實」的輸入組合，計算所處理文件內某些欄位的設定。 事實可以是呼叫 .NET 架構組件的結果，從訊息的 XML 擷取的值，或是從資料庫擷取的資料。 此範例還會示範，如何隨時變更規則來影響後續計算，而不需重新部署。  
   
 ## <a name="what-this-sample-does"></a>此範例的用途  
- 此範例將使用簡化的貸款處理實例內容示範這些功能。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]協調流程會挑選並處理貸款申請，也稱為貸款案件的 XML 訊息格式。 此協調流程會使用「商務規則引擎」根據規則評估內送訊息、透過套用規則的結果修改訊息，然後將訊息做為檔案寫入輸入資料夾中。  
+ 此範例將使用簡化的貸款處理實例內容示範這些功能。 BizTalk Server 協調流程會選取並處理 XML 訊息格式的貸款申請，亦稱為貸款案件。 此協調流程會使用「商務規則引擎」根據規則評估內送訊息、透過套用規則的結果修改訊息，然後將訊息做為檔案寫入輸入資料夾中。  
   
  這個範例根據事實從數個來源，包括正在處理的訊息設定**IncomeStatus**， **CommitmentsStatus**， **EmploymentStatus**，和**ResidencyStatus**正在處理的訊息的項目。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- \<*範例路徑*> \Business Rules\Loans 處理使用商務 Rules\  
+ \<*範例路徑*\>\Business Rules\Loans 處理使用商務 Rules\  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -54,11 +54,11 @@ ms.lasthandoff: 09/20/2017
 1.  確定您的電腦上已安裝 Northwind 資料庫。  
   
     > [!IMPORTANT]
-    >  您必須已安裝名為 Northwind 的資料庫，才能執行此範例。 [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)]和[!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)]並未隨附 Northwind 範例資料庫。 如果要建立 Northwind 資料庫，請從安裝檔案下載[http://go.microsoft.com/fwlink/?LinkId=196020](http://go.microsoft.com/fwlink/?LinkId=196020)，並遵循指示。  
+    >  若要執行此範例中，您必須具有 Northwind SQL Server 範例資料庫。 [下載](https://www.microsoft.com/download/details.aspx?id=23654)，並安裝。 
   
 2.  在命令視窗中，瀏覽至下列資料夾：  
   
-     \<*範例路徑*> \Business Rules\Loans 處理使用商務規則  
+     \<*範例路徑*\>\Business Rules\Loans 處理使用商務規則  
   
 3.  執行檔案 Setup.bat，這會執行下列動作：  
   
@@ -176,5 +176,5 @@ ms.lasthandoff: 09/20/2017
     ResidencyStatus  
 ```  
   
-## <a name="see-also"></a>另請參閱  
- [商務規則 （BizTalk Server 範例資料夾）](../core/business-rules-biztalk-server-samples-folder.md)
+## <a name="see-also"></a>請參閱  
+ [商務規則 (BizTalk Server Samples 資料夾)](../core/business-rules-biztalk-server-samples-folder.md)

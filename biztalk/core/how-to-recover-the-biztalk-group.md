@@ -12,11 +12,11 @@ caps.latest.revision: "18"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 23cd2a6550263f707531101db743a6ecdef39e5e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: deaf3ddae7d7351d53c5cd46b7d48633e0271a3d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-recover-the-biztalk-group"></a>如何復原 BizTalk 群組
 在系統復原程序中，您必須將 BizTalk Server 重新加入現有的 BizTalk 群組。  
@@ -32,9 +32,9 @@ ms.lasthandoff: 09/20/2017
   
 2.  在命令提示字元中，輸入：  
   
-     **RestoreConfig.vbe***\<SavedConfigXML >*   
+     **RestoreConfig.vbe***\<SavedConfigXML  \>*  
   
-     其中 *\<SavedConfigXML >*是完整路徑和儲存的組態檔的檔名。  
+     其中 *\<SavedConfigXML\>* 是完整路徑和儲存的組態檔的檔名。  
   
      上述命令應該會結束且不顯示任何錯誤。  
   
@@ -56,5 +56,5 @@ ms.lasthandoff: 09/20/2017
   
 5.  按一下**檔案**，然後按一下 **結束**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [復原執行 BizTalk Server 的電腦](../core/recovering-a-computer-running-biztalk-server.md)

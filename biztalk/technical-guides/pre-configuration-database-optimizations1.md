@@ -12,17 +12,17 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3c1333f956afc4411ff8b105c777214467155ae7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ad75319054ced87d449ee50c8e0fea65ab108ade
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="pre-configuration-database-optimizations"></a>預先設定資料庫最佳化
 BizTalk Server 是可能需要多達 13 個不同的資料庫，Microsoft SQL Server 中建立的極大量資料庫的應用程式。 SQL Server 在任何 BizTalk Server 環境中扮演重要的角色，因為它最重要的是 SQL Server 已經設定/調整為適用於最佳效能。 如果 SQL Server 無法執行也微調，BizTalk Server 所使用的資料庫會成為瓶頸，以及 BizTalk Server 環境的整體效能會降低。 本主題說明安裝 BizTalk Server 和設定 BizTalk Server 資料庫之前，應遵循的數個 SQL Server 效能最佳化。  
   
 ## <a name="set-ntfs-file-allocation-unit"></a>設定 NTFS 檔案配置單位  
- SQL Server 會儲存其資料**範圍**，這是八個 8 千個頁面的群組。 因此，若要最佳化磁碟效能，NTFS 配置單位大小設定為 64 KB 最佳做法文章 「 前置部署 I/O 最佳作法 」 可在 SQL Server 的 「 磁碟組態最佳作法 」 一節中所述[http://go.microsoft.com/fwlink/ 嗎？LinkId = 140818](http://go.microsoft.com/fwlink/?LinkId=140818)。 如需有關 SQL Server 頁面與範圍，請參閱[!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)]線上叢書 》 主題[了解頁面與範圍](http://go.microsoft.com/fwlink/?LinkId=148939)(超連結"http://go.microsoft.com/fwlink/?LinkId=148939"http://go.microsoft.com/fwlink/?LinkId=148939)。  
+ SQL Server 會儲存其資料**範圍**，這是八個 8 千個頁面的群組。 因此，若要最佳化磁碟效能，NTFS 配置單位大小設定為 64 KB 最佳做法文章 「 前置部署 I/O 最佳作法 」 可在 SQL Server 的 「 磁碟組態最佳作法 」 一節中所述[http://go.microsoft.com/fwlink/ 嗎？LinkId = 140818](http://go.microsoft.com/fwlink/?LinkId=140818)。 如需有關 SQL Server 頁面與範圍請參閱 SQL Server 線上叢書 》 主題[了解頁面與範圍](http://go.microsoft.com/fwlink/?LinkId=148939)(超連結"http://go.microsoft.com/fwlink/?LinkId=148939"http://go.microsoft.com/fwlink/?LinkId=148939)。  
   
 ## <a name="database-planning-considerations"></a>規劃考量的資料庫  
  我們建議您裝載您[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]快速存放裝置 （例如，快速 SAN 磁碟或快速 SCSI 磁碟） 上的資料庫。 因為 raid 5 是撰寫速度較慢，建議 RAID 10 (1 + 0)，而不是 RAID 5。 較新的 SAN 磁碟會有非常大量的記憶體快取，因此在這些情況下，RAID 選取範圍不是那麼重要。 若要增加效能，資料庫和記錄檔案可位於不同實體磁碟上。  
@@ -53,7 +53,7 @@ sp_configure ‘Min Server memory (MB)’,(min size in MB)
  您為 SQL Server 的記憶體數量之前，判斷適當的記憶體設定減去總實體記憶體的 Windows Server 所需的記憶體。 這是您可以指派給 SQL Server 記憶體的最大數量。  
   
 > [!NOTE]  
->  如果執行 SQL Server 的主機電腦上 BizTalk Server 資料庫也會主控企業單一登入主要密碼伺服器，則您可能需要調整此值，以確保有足夠的記憶體可用來執行企業單一登入服務。 它不是一般的做法，在 SQL Server 叢集以提供高可用性的主要密碼伺服器上執行 「 企業單一登入服務的叢集執行個體。 如需叢集化企業單一登入主要密碼伺服器的詳細資訊，請參閱主題 「 如何要叢集主要密碼伺服器 」 中[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]文件，網址[http://go.microsoft.com/fwlink/?LinkID=106874](http://go.microsoft.com/fwlink/?LinkID=106874)。  
+>  如果執行 SQL Server 的主機電腦上 BizTalk Server 資料庫也會主控企業單一登入主要密碼伺服器，則您可能需要調整此值，以確保有足夠的記憶體可用來執行企業單一登入服務。 它不是一般的做法，在 SQL Server 叢集以提供高可用性的主要密碼伺服器上執行 「 企業單一登入服務的叢集執行個體。 如需叢集化企業單一登入主要密碼伺服器的詳細資訊，請參閱主題 「 如何要叢集主要密碼伺服器 」 中 BizTalk Serverdocumentation，在[http://go.microsoft.com/fwlink/?LinkID=106874](http://go.microsoft.com/fwlink/?LinkID=106874)。  
   
 ## <a name="split-the-tempdb-database-into-multiple-data-files-of-equal-size-on-each-sql-server-instance-used-by-biztalk-server"></a>分割成多個資料檔相同大小的 BizTalk Server 使用的每個 SQL Server 執行個體上的 tempdb 資料庫  
  用於 tempdb 資料檔案皆相同大小的很重要，因為比例填滿演算法使用[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]根據資料檔案的大小。 此演算法會嘗試確認[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]填滿，以便在到達其最大容量在同一時間成比例的可用空間的每個檔案保留在該檔案。 建立資料檔的大小不相等，如果比例填滿演算法會使用最大的多個 GAM 配置，而不是分配的配置之間的所有檔案，藉以定義建立多個資料檔案的目的檔案。 Tempdb 資料庫的資料檔案數目應該設定為至少等於指派為 SQL Server 的處理器數目。  

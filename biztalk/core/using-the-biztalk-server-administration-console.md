@@ -17,11 +17,11 @@ caps.latest.revision: "42"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 079bae61dd4e692e25634414f6ff2e7078235b67
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: de8b806c8a6f39608608a3eabc975cf606410abc
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="using-the-biztalk-server-administration-console"></a>使用 BizTalk Server 管理主控台
 BizTalk Server 管理主控台是您可以用來管理與監控 BizTalk Server 的 Microsoft Management Console (MMC)，您也可以用它來部署與管理您的 BizTalk Server 應用程式。  
@@ -30,7 +30,7 @@ BizTalk Server 管理主控台是您可以用來管理與監控 BizTalk Server �
   
  當您在主控台樹狀結構中選取節點時，管理主控台右窗格上的詳細資料窗格會顯示項目的相關資訊。  
   
- 在主控台樹狀結構中選取 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 管理節點會顯示起始頁面，該頁面包含您可以執行的動作，例如連接至現有的 BizTalk Server 群組。 此外，[開始] 頁面包含 BizTalk Server 文件和線上社群網站的連結。  
+ 在主控台樹狀目錄中選取 [BizTalk Server 管理] 節點會顯示 [開始] 頁面，其中包含您可以執行的動作，例如，連接到現有的 BizTalk Server 群組。 此外，[開始] 頁面包含 BizTalk Server 文件和線上社群網站的連結。  
   
  如需使用管理主控台之鍵盤快速鍵，請參閱[管理主控台鍵盤快速鍵](../core/administration-console-keyboard-shortcuts.md)。  
   
@@ -127,4 +127,4 @@ BizTalk Server 管理主控台是您可以用來管理與監控 BizTalk Server �
   
 -   [使用 BizTalk Server 管理主控台設定追蹤](http://msdn.microsoft.com/en-us/49b7f9d3-60b5-41bd-ba8b-029253926bef)  
   
--   [使用 [群組中樞] 頁面](../core/using-the-group-hub-page.md)
+-   [使用群組中樞頁面](../core/using-the-group-hub-page.md)

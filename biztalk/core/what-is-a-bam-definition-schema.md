@@ -17,11 +17,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3411adf32a15cd2a3b5f11a02dbafcf58f66b184
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0d5780be22259fcd118ab70a0bc80174b53a9f27
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="what-is-a-bam-definition-schema"></a>何謂 BAM 定義結構描述？
 BAM 定義結構描述定義了商務分析師所建立之觀察模型的結構。  
@@ -43,7 +43,7 @@ BAM 定義結構描述定義了商務分析師所建立之觀察模型的結構�
   
  使用任何文字編輯器也可以使用 BAM 增益集的 Excel 來建立一個工作表，可以匯出成 XML 檔案，使用 BAM 增益集匯出至 XML 功能，您可以建立包含 BAM 定義 （在這個結構描述的執行個體） 的 XML 檔案。  
   
- 一旦您定義了 BAM 活動和檢視，就不需要手動匯出 XML 檔案，因為 BAM 管理公用程式 (bm.exe) 能自動讀取此試算表，從中取得 XML 並部署基礎結構。 結果是另一份試算表中名為\<活頁簿名稱 > _livedata.xls 結尾。 您可以使用這個新試算表連接到您的即時資料來源，並在樞紐分析表報表中檢視彙總。  
+ 一旦您定義了 BAM 活動和檢視，就不需要手動匯出 XML 檔案，因為 BAM 管理公用程式 (bm.exe) 能自動讀取此試算表，從中取得 XML 並部署基礎結構。 結果是另一份試算表中名為\<活頁簿名稱\>_livedata.xls 結尾。 您可以使用這個新試算表連接到您的即時資料來源，並在樞紐分析表報表中檢視彙總。  
   
 > [!NOTE]
 >  如果您手動匯出 XML 檔案透過 BAM 功能表項目上方的試算表，並使用 BAM 管理公用程式部署匯出的 XML 檔案而不是 Microsoft Excel 檔案，您無法檢視您使用 Office 工具的即時資料。  
@@ -923,6 +923,6 @@ BAM 定義結構描述定義了商務分析師所建立之觀察模型的結構�
 </BAM:BAMDefinition>  
 ```  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [BAM 組態結構描述](../core/bam-configuration-schema.md)   
  [BAM 動態基礎結構](../core/bam-dynamic-infrastructure.md)

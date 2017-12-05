@@ -12,14 +12,14 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 033d40f069d52759c0014a75287370a7006c9f72
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8684a2adadeb67352a6589d693a5e76261a98849
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="edi-support-issues"></a>EDI 支援問題
-本章節描述如何[!INCLUDE[prague](../includes/prague-md.md)]支援 EDI 和 AS2 處理。  
+本章節描述 BizTalk Server 如何支援 EDI 和 AS2 處理。  
   
 ## <a name="in-this-section"></a>本節內容  
   
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/20/2017
   
 -   [EDI 字元集支援](../core/edi-character-set-support.md)  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [BizTalk Server 中的 EDI 支援](../core/edi-support-in-biztalk-server1.md)   
  [BizTalk Server 中的 EDI 處理](../core/edi-processing-in-biztalk-server.md)   
  [EDI 解決方案架構](../core/edi-solution-architecture.md)

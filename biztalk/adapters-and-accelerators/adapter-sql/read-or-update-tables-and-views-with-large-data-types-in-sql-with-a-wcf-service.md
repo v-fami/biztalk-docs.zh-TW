@@ -12,18 +12,18 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c673e5c31c0498bb82fe7979d2855765f4c9bf35
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1da0def828c1dbfa8511dc61b529fa02cb53ca5a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="run-operations-on-tables-and-views-with-large-data-types-in-sql-using-the-wcf-service-model"></a>使用 SQL 使用 WCF 服務模型中的大型資料類型執行資料表和檢視表上的作業
-[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]可讓讀取及更新大型資料類型的資料行中的資料，也就是配接器用戶端、 varchar （max）、 nvarchar （max） 或 varbinary （max）。 若要從這類資料行讀取資料，配接器用戶端可以使用選取的作業。 若要插入或更新到這類資料行的資料，配接器會公開一組\<*column_name*> 作業，其中\< *column_name*> 是 varchar （類型的資料行名稱max)、 nvarchar （max） 或 varbinary （max）。  
+[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]可讓讀取及更新大型資料類型的資料行中的資料，也就是配接器用戶端、 varchar （max）、 nvarchar （max） 或 varbinary （max）。 若要從這類資料行讀取資料，配接器用戶端可以使用選取的作業。 若要插入或更新到這類資料行的資料，配接器會公開一組\<*column_name* \>作業，其中\< *column_name* \>名稱類型 varchar （max）、 nvarchar （max） 或 varbinary （max） 資料行。  
   
  此外，在 SQL Server 中，您可以儲存非結構化的資料，例如文字文件和影像 varbinay(max) 資料行。 這類非結構化的資料稱為 FILESTREAM 資料。 FILESTREAM 資料可以儲存為檔案系統上的檔案。 [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]可讓用戶端若要將輸入資料行類型 varbinary （max） FILESTREAM 資料。 [FILESTREAM 儲存體](https://docs.microsoft.com/sql/relational-databases/blob/filestream-sql-server)更多詳細資訊。 
   
- 本主題提供您必須執行某些工作的相關資訊的電腦上執行 SQL Server 的電腦及執行配接器用戶端能夠插入或更新 FILESTREAM 資料。 本主題也提供指示執行 Set\<*column_name*> 插入 FILESTREAM 資料的作業。  
+ 本主題提供您必須執行某些工作的相關資訊的電腦上執行 SQL Server 的電腦及執行配接器用戶端能夠插入或更新 FILESTREAM 資料。 本主題也提供指示執行 Set\<*column_name* \>插入 FILESTREAM 資料的作業。  
   
 > [!NOTE]
 >  如果您正在執行具有使用者定義類型的資料行的資料表上的作業，請確定您參考[資料表和檢視表使用 SQL 配接器的使用者定義類型的作業](../../adapters-and-accelerators/adapter-sql/operations-on-tables-and-views-with-user-defined-types-using-the-sql-adapter.md)。  
@@ -46,7 +46,7 @@ ms.lasthandoff: 09/20/2017
  您已完成這些工作之後，您已設定完畢插入或更新 SQL Server 資料庫資料表中的 FILESTREAM 資料。  
   
 ## <a name="how-this-topic-demonstrates-operations-on-large-data-types"></a>本主題將大型資料類型上的作業的示範  
- 若要示範如何執行資料集\<*column_name*> 作業在資料表上的使用大型資料類型，而需要資料表，**記錄**，具有資料行**識別碼**和**文件**:  
+ 若要示範如何執行資料集\<*column_name* \>作業在資料表上的使用大型資料類型，而需要資料表，**記錄**，具有資料行**識別碼**和**文件**:  
   
 -   **記錄**資料表，且所有資料，由執行 SQL 指令碼提供範例。 如需詳細資訊，請參閱[配接器範例](../../adapters-and-accelerators/accelerator-rosettanet/adapter-samples.md)。  
   
@@ -75,9 +75,9 @@ ms.lasthandoff: 09/20/2017
   
 |作業|方法簽章|  
 |---------------|----------------------|  
-|設定\<*column_name*>|public void Set\<*column_name*> （字串篩選條件，byte [] 的資料;）|  
+|設定\<*column_name*\>|public void Set\<*column_name*\>（字串篩選條件，byte [] 的資料;）|  
   
- \<*column_name*> = 大型資料類型的資料行的名稱。  
+ \<*column_name* \> = 大型資料類型的資料行的名稱。  
   
  例如，下列程式碼顯示的方法簽章產生 WCF 用戶端類別**SetDocument**作業**記錄**預設"dbo"結構描述底下的資料表。  
   
@@ -90,14 +90,14 @@ public partial class TableOp_dbo_RecordsClient : System.ServiceModel.ClientBase<
  在此程式碼片段， **TableOp_dbo_RecordsClient**是 WCF 中的類別所產生的 SqlAdapterBindingClient.cs 名稱[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]。  
   
 ### <a name="parameters-for-operations-on-columns-of-large-data-types"></a>針對大型資料類型的資料行上的作業參數  
- 本節提供設定所需的參數\<*column_name*> 作業。  
+ 本節提供設定所需的參數\<*column_name* \>作業。  
   
 |參數名稱|Description|  
 |--------------------|-----------------|  
 |字串篩選條件|指定 WHERE 子句基礎的介面卡更新大型資料類型的資料行的記錄。|  
 |byte [] 的資料|指定必須更新大型資料類型的資料行的值。|  
   
- 集合\<*column_name*> 作業不會傳回任何值。  
+ 集合\<*column_name* \>作業不會傳回任何值。  
   
 ## <a name="creating-a-wcf-client-to-invoke-operations-on-columns-of-large-data-types"></a>建立 WCF 用戶端來叫用的大型資料類型資料行上的作業  
  使用 WCF 用戶端的 SQL Server 上執行作業所需的動作的泛型集合包含一組工作中所述[SQL 配接器的 WCF 服務模型概觀](../../adapters-and-accelerators/adapter-sql/overview-of-the-wcf-service-model-with-the-sql-adapter.md)。 本章節描述如何建立 WCF 用戶端來叫用**SetDocument**作業**記錄**資料表。 配接器會公開**SetDocument**作業，以便更新大型資料類型的資料行中的資料。  
@@ -172,5 +172,5 @@ public partial class TableOp_dbo_RecordsClient : System.ServiceModel.ClientBase<
   
 9. 建置專案，然後執行它。 應用程式更新**文件**中的資料行**記錄**資料表。  
   
-## <a name="see-also"></a>另請參閱  
-[開發應用程式使用 WCF 服務模型](../../adapters-and-accelerators/adapter-sql/develop-sql-applications-using-the-wcf-service-model.md)
+## <a name="see-also"></a>請參閱  
+[使用 WCF 服務模型開發應用程式](../../adapters-and-accelerators/adapter-sql/develop-sql-applications-using-the-wcf-service-model.md)

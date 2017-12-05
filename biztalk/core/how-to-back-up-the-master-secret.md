@@ -16,11 +16,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d5bd6cdecda9ca2456a770d4cf885fcd420fc18e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 185f3ea674015e02cac2bdaa785c2ee06e67db65
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-back-up-the-master-secret"></a>如何備份主要密碼
 您可以從主要密碼伺服器將主要密碼備份至 NTFS 檔案系統或卸除式媒體 (例如磁片)。  
@@ -44,9 +44,9 @@ ms.lasthandoff: 09/20/2017
   
 2.  選取適當的系統管理員，然後按一下**確定**。  
   
-3.  在命令列，移至「企業單一登入」安裝目錄。 預設安裝目錄是*\<磁碟機 >*: \Program Files\Common Files\Enterprise Single Sign-on。  
+3.  在命令列，移至「企業單一登入」安裝目錄。 預設安裝目錄是*\<磁碟機\>*: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-4.  型別**ssoconfig – backupSecret *\<備份檔案 >***，其中*\<備份檔案 >*路徑和檔案名稱，master將備份密碼。 例如，A:\ssobackup.bak  
+4.  型別**ssoconfig – backupSecret *\<備份檔案\>***，其中*\<備份檔案\>*是路徑和名稱其中的主要密碼將備份檔案。 例如，A:\ssobackup.bak  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
@@ -56,7 +56,7 @@ ms.lasthandoff: 09/20/2017
 > [!IMPORTANT]
 >  您必須將備份檔案儲存並存放在安全的位置。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [如何產生主要密碼](../core/how-to-generate-the-master-secret.md)   
  [如何還原主要密碼](../core/how-to-restore-the-master-secret.md)   
  [主要密碼伺服器](../core/master-secret-server.md)   

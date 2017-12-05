@@ -15,11 +15,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d6aa6f1f3417bbfe7858ab8e1ef29d7155b6528c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2c89bc75871d19939846a587ff23730c05022c7f
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="the-supply-chain-solution"></a>供應鏈方案
 技術有助於解決與商務程序及資料通訊相關的商業難題。 資訊科技 (IT) 系統可以幫助高科技公司將他們與交易夥伴之間的通訊，從離線、不相容的程序轉換成整合、標準化的程序。  
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/20/2017
   
  在此系統中，交易夥伴之間的標準介面是 RosettaNet 實作架構 (RNIF) 連線。 系統是與 RosettaNet 相容的實作，此實作以自動的 RNIF 連線取代所有的自訂及手動互動連線。 這並不會使公司無法自訂自己的系統、與交易夥伴建立自己的協議，也不會讓公司無法依其所需在必要時使用其他通訊裝置。 此系統讓交易夥伴可以靈活地依其目的自訂系統。 不過，這的確意味著所有交易夥伴必須使用一致的程序進行日常的資料通訊。  
   
- 此供應鏈中的所有公司共用 RNIF 連線。 針對大型的公司，您可以設定全自動的企業系統使用[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]和[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]。 也可以讓交易夥伴使用他們已經安裝的任何與 RosettaNet 相容的實作，或是繼續使用 EDI 系統。 而另一方面，小公司可能資源不足無法安裝完整的 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 系統。 對於這些小公司，您可以設定 Web 服務，讓他們能夠連接到供應鏈系統。 在這種情況下，唯一需要的技術就是 Web 瀏覽器。 無論是上述任一種情形，系統中的所有公司都能夠利用統一的方法與其交易夥伴連線。  
+ 此供應鏈中的所有公司共用 RNIF 連線。 針對大型的公司，您可以設定全自動的企業系統使用[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server 和[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]。 也可以讓交易夥伴使用他們已經安裝的任何與 RosettaNet 相容的實作，或是繼續使用 EDI 系統。 而另一方面，小公司可能資源不足無法安裝完整的 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 系統。 對於這些小公司，您可以設定 Web 服務，讓他們能夠連接到供應鏈系統。 在這種情況下，唯一需要的技術就是 Web 瀏覽器。 無論是上述任一種情形，系統中的所有公司都能夠利用統一的方法與其交易夥伴連線。  
   
 ## <a name="the-benefits-of-standardization"></a>標準化的優點  
  公司可以透過電子方式交換資料，而不用參與完整的整合系統。 不過，如果不同交易夥伴維護的資料格式不同，而且他們的系統也透過不同的資料通訊協定傳送資料時，資料交換的設計及自訂上就需要多加用心。 如果每個連線的交易夥伴將資料交換的格式和通訊協定標準化，即可大幅提高商務交易的效率。  
@@ -47,7 +47,7 @@ ms.lasthandoff: 09/20/2017
   
  由於可以更清楚看到完整的供應鏈情況，便能減少存貨、提高存貨出貨速度以及削減貨運費用，以減少開支。 利用自動化系統，可減少人工資料輸入及修正錯誤的工作，因而提升員工產能及降低成本。 由於更加仰賴自動化程序，因而減少了其他的通訊費用。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [範例供應鏈實例](../../adapters-and-accelerators/accelerator-rosettanet/sample-supply-chain-scenario.md)   
  [供應鏈面臨的挑戰](../../adapters-and-accelerators/accelerator-rosettanet/the-supply-chain-challenge.md)   
- [交易夥伴整合需求](../../adapters-and-accelerators/accelerator-rosettanet/the-need-for-trading-partner-integration.md)
+ [交易夥伴整合的需求](../../adapters-and-accelerators/accelerator-rosettanet/the-need-for-trading-partner-integration.md)

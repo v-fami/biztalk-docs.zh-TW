@@ -15,11 +15,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 731f40a75d898369cfc730ba5cb4f25c199e1333
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5868172b566a12ab6299e0eaabe12fa2153bfb97
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="bre-deployment-utility"></a>BRE 部署公用程式
 您可以使用 BRE 部署公用程式來發佈和部署的商務規則引擎 (BRE) 詞彙和 SWIFT 的結構描述所需的原則。 發行和部署這些詞彙和原則，才能啟用 BRE 驗證之訊息類型。  
@@ -36,13 +36,13 @@ ms.lasthandoff: 09/20/2017
   
 -   部署主要原則和每個訊息結構描述相關聯的驗證原則和發佈。  
   
--   產生記錄檔，指出所需的所有步驟。 這個檔案是在 BREDeploymentLog.txt \<*磁碟機*>: \Documents and Settings\All Users\Application Data 資料夾。  
+-   產生記錄檔，指出所需的所有步驟。 這個檔案是在 BREDeploymentLog.txt \<*磁碟機*\>: \Documents and Settings\All Users\Application Data 資料夾。  
   
     > [!NOTE]
     >  BRE 部署公用程式不會部署 BIC 主要原則和 BIC 驗證原則。 您必須部署這些使用規則引擎部署精靈。  
   
     > [!NOTE]
-    >  如果您已安裝[!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)]非預設的目錄 (C:\Program Files\Microsoft 以外[!INCLUDE[btaA4SWIFTNoVersion](../../includes/btaa4swiftnoversion-md.md)])，或您使用 64 位元電腦上，BRE 部署公用程式將無法正常運作之前變更中的路徑過的 BREDeployment.exe.config 檔案。 此組態檔位於\<*磁碟機*>: \Program Files\Microsoft [!INCLUDE[btaA4SWIFTNoVersion](../../includes/btaa4swiftnoversion-md.md)]\SDK\Tools 資料夾。 若要更新公用程式的組態，在 [記事本] 中開啟過的 BREDeployment.exe.config 並變更詞彙目錄、 結構描述，以及基底原則資料夾。  
+    >  如果您已安裝[!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)]非預設的目錄 (C:\Program Files\Microsoft 以外[!INCLUDE[btaA4SWIFTNoVersion](../../includes/btaa4swiftnoversion-md.md)])，或您使用 64 位元電腦上，BRE 部署公用程式將無法正常運作之前變更中的路徑過的 BREDeployment.exe.config 檔案。 此組態檔位於\<*磁碟機*\>: \Program Files\Microsoft [!INCLUDE[btaA4SWIFTNoVersion](../../includes/btaa4swiftnoversion-md.md)]\SDK\Tools 資料夾。 若要更新公用程式的組態，在 [記事本] 中開啟過的 BREDeployment.exe.config 並變更詞彙目錄、 結構描述，以及基底原則資料夾。  
   
  您也可以使用部署公用程式可反轉程序中，解除部署和取消發佈原則和詞彙。 公用程式都有部署和解除部署功能。  
   
@@ -62,10 +62,10 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  若要解除部署原則和詞彙，請按一下**解除部署**。 解除部署處理程序解除 A4SWIFT_CodeLists.xml 和 A4SWIFT_Functions.xml 詞彙，這可能需要使用其他已部署的原則未部署。  
   
-5.  找出\<*磁碟機*>: \Documents and Settings\All Users\Application 資料，以確認公用程式建立記錄檔檔案 BREDeploymentLog.txt。  
+5.  找出\<*磁碟機*\>: \Documents and Settings\All Users\Application 資料，以確認公用程式建立記錄檔檔案 BREDeploymentLog.txt。  
   
     > [!NOTE]
     >  您可以使用文字編輯器，以確認每個部署步驟來開啟記錄檔。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [工具](../../adapters-and-accelerators/accelerator-swift/tools.md)

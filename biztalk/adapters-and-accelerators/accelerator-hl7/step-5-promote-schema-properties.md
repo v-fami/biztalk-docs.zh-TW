@@ -16,11 +16,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9000b0466c8c0fc8d466f8174bc0e900a93bf392
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 91d68ece5bedf7ec46a6d5ede7efc6878fa972fc
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="step-5-promote-schema-properties"></a>步驟 5： 升級結構描述屬性
 在此步驟中，您將升級結構描述屬性，讓[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]協調流程可以參考您在稍後步驟中建立那些屬性值。 升級是一套機制，您使用參考訊息執行個體中的特定值，並且讓它存取[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]元件，例如協調流程或以內容為基礎的路由達成目的。 此外，升級的屬性會顯示[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]在 「 運算式編輯器的 IntelliSense [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]。  
@@ -50,9 +50,9 @@ ms.lasthandoff: 09/20/2017
     > [!IMPORTANT]
     >  請務必注意例如身分證號碼 (SSN) 會導致該升級一位病患識別碼 (PID)[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]追蹤整個系統的每個輸入訊息屬性。 造成這種情況的副作用是，訊息追蹤資料庫會保留一份病患 s s n s。 這樣可以建立重大的安全性問題。 您必須保護這個資料存放區，與必須特別小心，或完全避免 PID 資料的升級。  
   
-     如需追蹤您已升級的結構描述項目為基礎的文件的詳細資訊，請參閱[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]健全狀況與活動追蹤的詳細資訊的說明。  
+     如需追蹤您已升級的結構描述項目為基礎的文件的詳細資訊，請參閱 < BizTalk Server 說明的健全狀況與活動追蹤的詳細資訊。  
   
  若要繼續[步驟 6： 驗證結構描述](../../adapters-and-accelerators/accelerator-hl7/step-6-validate-the-schemas.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [訊息擴充教學課程](../../adapters-and-accelerators/accelerator-hl7/message-enrichment-tutorial.md)

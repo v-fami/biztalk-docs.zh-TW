@@ -16,11 +16,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c295834f00781cc92a6aa47d01374c80b485149d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0aff501e5bf59d6ae22d9ad2a00e0e5ff5ad4605
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="install-custom-rfcs-for-the-data-provider-for-sap"></a>安裝適用於 SAP 的資料提供者的自訂 Rfc
 如果您想要使用.NET Framework Data Provider for mySAP Business Suite 存取 SAP 系統，請安裝自訂的 Rfc。
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/20/2017
   
 -   執行 EXECQUERY 作業，[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]需要 Z_EXECUTE_SAP_QUERY RFC。  
   
-若要執行這些 SAP 系統上的作業，您必須安裝這些自訂 Rfc，SAP 系統上。 如果您選擇要安裝[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]連同[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]，安裝程式會將複製的 RFC 傳輸[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]為壓縮檔案 (customRFC.zip) 系統上安裝配接器的位置。 Zip 檔案通常會安裝在*\<安裝磁碟機 >: \Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Microsoft.NET Framework Data Provider for mySAP Business Suite*。 
+若要執行這些 SAP 系統上的作業，您必須安裝這些自訂 Rfc，SAP 系統上。 如果您選擇要安裝[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]連同[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]，安裝程式會將複製的 RFC 傳輸[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]為壓縮檔案 (customRFC.zip) 系統上安裝配接器的位置。 Zip 檔案通常會安裝在*\<安裝磁碟機\>: \Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Microsoft.NET Framework Data Provider for mySAP Business Suite*。 
   
  Zip 檔案解壓縮之後，您會發現四個資料檔案中，兩個下列命名模式 K9 *。BI1 （例如，類似於 K900534。BI1) 和其他兩種遵循模式 R9\*。BI1 （例如，類似於 R900534。BI1)。  
   
@@ -217,11 +217,11 @@ ms.lasthandoff: 09/20/2017
   
     |||  
     |-|-|  
-    |OUT_TABLEHEADER|\<T000 一般的中繼資料 >|  
-    |OUT_TECHNICALSETTINGS|\<T000 技術的資料庫層級中繼資料 >|  
-    |OUT_RECORDLENGTH|\<取決於 SAP 版本 >|  
-    |OUT_RECORDCOUNT|\<在您的系統上 T000 SE16 確認用戶端數目 >|  
-    |OUT_ZDATATABLE|\<確認此結果與資料來源上 T000 使用 SE 16 >|  
+    |OUT_TABLEHEADER|\<T000 一般的中繼資料\>|  
+    |OUT_TECHNICALSETTINGS|\<T000 技術的資料庫層級中繼資料\>|  
+    |OUT_RECORDLENGTH|\<取決於 SAP 版本\>|  
+    |OUT_RECORDCOUNT|\<在您的系統上 T000 SE16 確認用戶端數目\>|  
+    |OUT_ZDATATABLE|\<確認此結果與使用 SE 16 T000 上的資料來源\>|  
     |OUT_RETURN_TAB|S 001 成功|  
   
 ## <a name="remove-the-rfc-for-the-data-provider-for-sap"></a>移除資料提供者適用於 SAP RFC  
@@ -241,5 +241,5 @@ ms.lasthandoff: 09/20/2017
      如需進一步協助，請連絡您 SAP 為基礎的系統管理員。  
      
 ## <a name="next"></a>下一個
-[瞭解 BizTalk Adapter for mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/understand-biztalk-adapter-for-mysap-business-suite.md)  
+[了解 BizTalk Adapter for mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/understand-biztalk-adapter-for-mysap-business-suite.md)  
 [SAP 配接器教學課程](../../adapters-and-accelerators/adapter-sap/sap-adapter-tutorials.md)

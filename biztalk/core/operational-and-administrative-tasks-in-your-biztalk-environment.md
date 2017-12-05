@@ -16,21 +16,21 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b8a0dad510b0b98657bdd9777f6eb22435c0d2f5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ffb132fe5c28d7fa1ef148c42d3ef5c98ac56e31
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="operational-and-administrative-tasks-in-your-biztalk-environment"></a>在 BizTalk 環境中的操作與系統管理工作
-[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 包含的新功能，讓管理新版 BizTalk Server 比舊版更輕鬆愉快。 本節提供關於管理 BizTalk Server 的資訊。  
+BizTalk Server 包含新功能，使管理更快速且輕鬆比在舊版的 BizTalk Server 中的 BizTalk Server。 本節提供關於管理 BizTalk Server 的資訊。  
   
 ## <a name="in-this-section"></a>本節內容  
   
 -   [管理 BizTalk Server](../core/use-groups-create-artifacts-optimize-performance-and-more-in-biztalk-server.md)  
   
--   [監控 BizTalk Server](../core/monitoring-biztalk-server.md)  
+-   [監視 BizTalk Server](../core/monitoring-biztalk-server.md)  
   
--   [保護 BizTalk Server 的安全](../core/securing-biztalk-server.md)  
+-   [保護 BizTalk Server 安全](../core/securing-biztalk-server.md)  
   
 -   [維護 BizTalk Server1](../core/maintaining-biztalk-server1.md)

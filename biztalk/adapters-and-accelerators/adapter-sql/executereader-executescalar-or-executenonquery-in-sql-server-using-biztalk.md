@@ -12,11 +12,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e2028a3db90f3fad8a683655e87b3e06b28c0a8f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c33db07cf497ed232222fe5ccef3e7f69808f97a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="executereader-executescalar-or-executenonquery-operations-in-sql-using-biztalk-server"></a>ExecuteReader、 ExecuteScalar 或使用 BizTalk Server 的 SQL 中的 ExecuteNonQuery 作業
 [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]公開一般 SQL Server 作業，例如**ExecuteNonQuery**， **ExecuteReader**，和**ExecuteScalar**。 您可以在 SQL Server 資料庫上執行任何 SQL 陳述式中使用這些作業。 這些作業根據回應您取得 SQL 陳述式的類型而有所不同。 如需配接器如何支援這些作業的詳細資訊，請參閱[ExecuteNonQuery、 ExecuteReader 和 ExecuteScalar 作業支援](../../adapters-and-accelerators/adapter-oracle-ebs/support-for-executenonquery-executereader-and-executescalar-operations.md)。  
@@ -162,32 +162,32 @@ ms.lasthandoff: 09/20/2017
  協調流程取用訊息，並將它傳送到 SQL Server 資料庫。 從 SQL Server 資料庫的回應會儲存在其他的協調流程中定義的檔案位置。 對於回應**ExecuteReader**作業包含結果集，做為資料集的陣列。 比方說，是從先前的要求訊息的 SQL Server 資料庫的回應：  
   
 ```  
-\<?xml version="1.0" encoding="utf-8" ?>   
+<?xml version="1.0" encoding="utf-8" ?>   
 <ExecuteReaderResponse xmlns="http://schemas.microsoft.com/Sql/2008/05/GenericTableOp/">  
   <ExecuteReaderResult>  
     <DataSet xmlns="http://schemas.datacontract.org/2004/07/System.Data">  
-      \<xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
-        \<xs:element msdata:IsDataSet="true" name="NewDataSet">  
-          \<xs:complexType>  
-            \<xs:sequence>  
-              \<xs:element minOccurs="0" maxOccurs="unbounded" name="NewTable">  
-                \<xs:complexType>  
-                  \<xs:sequence>  
-                    \<xs:element minOccurs="0" name="Employee_ID" type="xs:int" />   
-                  \</xs:sequence>  
-                \</xs:complexType>  
-              \</xs:element>  
-            \</xs:sequence>  
-          \</xs:complexType>  
-        \</xs:element>  
-      \</xs:schema>  
-      \<diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">  
+      <xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
+        <xs:element msdata:IsDataSet="true" name="NewDataSet">  
+          <xs:complexType>  
+            <xs:sequence>  
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="NewTable">  
+                <xs:complexType>  
+                  <xs:sequence>  
+                    <xs:element minOccurs="0" name="Employee_ID" type="xs:int" />   
+                  </xs:sequence>  
+                </xs:complexType>  
+              </xs:element>  
+            </xs:sequence>  
+          </xs:complexType>  
+        </xs:element>  
+      </xs:schema>  
+      <diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">  
         <NewDataSet xmlns="">  
           <NewTable>  
             <Employee_ID>10767</Employee_ID>   
           </NewTable>  
         </NewDataSet>  
-      \</diffgr:diffgram>  
+      </diffgr:diffgram>  
     </DataSet>  
   </ExecuteReaderResult>  
 </ExecuteReaderResponse>  
@@ -198,5 +198,5 @@ ms.lasthandoff: 09/20/2017
 ## <a name="best-practices"></a>最佳作法  
  您部署和設定 BizTalk 專案之後，您可以為 XML 檔案，稱為繫結檔案匯出組態設定。 一旦產生繫結檔案時，可以組態設定匯入檔案，使您不需要建立項目，例如傳送埠和接收相同的協調流程連接埠。 如需繫結檔案的詳細資訊，請參閱[重複使用配接器繫結](../../adapters-and-accelerators/adapter-sql/reuse-sql-adapter-bindings.md)。
   
-## <a name="see-also"></a>另請參閱  
-[開發 BizTalk 應用程式使用 SQL 配接器](../../adapters-and-accelerators/adapter-sql/develop-biztalk-applications-using-the-sql-adapter.md)
+## <a name="see-also"></a>請參閱  
+[使用 SQL 配接器開發 BizTalk 應用程式](../../adapters-and-accelerators/adapter-sql/develop-biztalk-applications-using-the-sql-adapter.md)

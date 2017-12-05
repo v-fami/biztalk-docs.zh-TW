@@ -85,11 +85,11 @@ caps.latest.revision: "25"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 77f229c950c3f49eca80810e9702ce021f0e8579
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a04b8e774156acaaa44dc49377bbdd7e3f91b198
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="windows-groups-and-user-accounts-in-biztalk-server"></a>BizTalk Server 中的 Windows 群組和使用者帳戶
 BizTalk Server 本機和網域群組和使用者帳戶的相關資訊。 如果您在單一電腦安裝 BizTalk Server 以及所有必備的軟體，「組態管理員」預設會為您建立所需的 BizTalk 群組帳戶。 本節中所包含的資訊適用於多個電腦的拓撲。  
@@ -131,7 +131,7 @@ BizTalk Server 本機和網域群組和使用者帳戶的相關資訊。 如果�
 |BizTalk 主控件執行個體帳戶|用以執行會存取「內含式 BizTalk 主控件執行個體」(BTNTSVC) 的「BizTalk 內含式主控件執行個體」的服務帳戶。|BizTalk 應用程式使用者<br /><br /> SSO 分支機構系統管理員||  
 |BizTalk 外掛式主控件執行個體帳戶|用以執行「BizTalk 外掛式主控件執行個體」(HTTP/SOAP) 的服務帳戶。|BizTalk 外掛式主控件使用者<br /><br /> SSO 分支機構系統管理員<br /><br /> IIS_WPG||  
 |規則引擎更新服務|用以執行會從規則引擎資料庫接收部署/解除部署原則通知的「規則引擎更新服務」的服務帳戶。||在 BizTalkRuleEngineDb 中的 RE_HOST_USERS SQL Server 資料庫角色|  
-|BAM Notification Services 使用者|用以執行會存取 BAM 資料庫的 BAM Notification Services 的服務帳戶。|SQLServer2008NotificationServicesUser$\<**ComputerName**>|在下列資料庫中的 NSRunService SQL Server 資料庫角色：<br /><br /> BAMAlertsApplication<br /><br /> BAMAlertsNSMain<br /><br /> BAMPrimaryImport 的 BAM_ManagementNSReader SQL Server 角色|  
+|BAM Notification Services 使用者|用以執行會存取 BAM 資料庫的 BAM Notification Services 的服務帳戶。|SQLServer2008NotificationServicesUser$\<**ComputerName**\>|在下列資料庫中的 NSRunService SQL Server 資料庫角色：<br /><br /> BAMAlertsApplication<br /><br /> BAMAlertsNSMain<br /><br /> BAMPrimaryImport 的 BAM_ManagementNSReader SQL Server 角色|  
 |BAM 管理 Web 服務使用者|可讓 BAM 管理 Web 服務 (BAMManagementService) 存取各種 BAM 資源的使用者帳戶。 BAM 入口網站透過登入 BAM 入口網站的使用者認證呼叫 BAMManagementService，以管理警示、取得 BAM 定義 XML 和 BAM 檢視|IIS_WPG|在下列資料庫中的 NSSubscriberAdmin SQL Server 資料庫角色：<br /><br /> BAMAlertsApplication<br /><br /> BAMAlertsNSMain<br /><br /> BAMPrimaryImport 的 BAM_ManagementWS SQL Server 角色|  
 |BAM 應用程式集區帳戶|裝載 BAM 入口網站的 BAMAppPool 的應用程式集區帳戶。|IIS_WPG||  
   

@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6df8145fac74761fee4aabd34ff01d708b646c12
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9990facf6a23f4abea37ee9ce9758a7333eaca61
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="select-a-uri-scheme-and-addressing-format-when-using-the-wcf-lob-adapter-sdk"></a>使用 WCF LOB 配接器 SDK 時，選取 使用 URI 配置和定址的格式
 統一資源識別元 (URI) 可唯一識別資源，像是 Web 服務，或在使用開發配接器的情況下[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]，連接到系統，以及要執行的動作。 本節提供的建議如何建構 URI 來唯一描述的端點位址以及您的配接器的動作。  
@@ -44,16 +44,16 @@ ms.lasthandoff: 09/20/2017
 ## <a name="connecting-to-the-target-system"></a>連接到目標系統  
  連接字串具有下列語法：  
   
- **\<配置 >: //[userinfo"@"]\<LOB 連接字串 >**  
+ **\<配置\>: //[userinfo"@"]\<LOB 連線字串\>**  
   
  比方說，您無法連接到 contoso 目錄排序 system （企業營運應用程式的範例行） 使用下列：  
   
- **northwind.contoso.v1.0://\<伺服器名稱 >？目錄 Contoso 與整合式的安全性 = = True**  
+ **northwind.contoso.v1.0://\<servername\>嗎？目錄 Contoso 與整合式的安全性 = = True**  
   
  您也可以提供選擇性的授權單位 URI，包括使用者名稱和密碼以及其他重要的認證資訊。 不過，這可能會造成安全性風險。  
   
 > [!CAUTION]
 >  請勿在 URI 中傳遞使用者認證和其他機密資訊。 無法攔截與未經授權的使用者檢視這項資訊。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [計劃和設計配接器使用 WCF LOB 配接器 SDK](../../adapters-and-accelerators/wcf-lob-adapter-sdk/plan-and-design-an-adapter-using-the-wcf-lob-adapter-sdk.md)

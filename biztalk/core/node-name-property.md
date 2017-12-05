@@ -12,16 +12,16 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 155ad9ac5310b5084a94eb59a225e4d40e552bb9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c1d39c71a425e20c5a9228e418cfa86acb579fa5
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="node-name-property"></a>節點名稱屬性
 使用「BizTalk 編輯器」將節點插入結構描述樹狀結構時，有些節點必須重新命名，有些則不用。 基本上，您可以也應該重新命名**記錄**節點**欄位項目**節點，和**欄位屬性**節點。 您提供給這些節點的名稱會成為結構描述定義的訊息中，XML 項目及屬性的名稱。  
   
- 在結構描述樹狀目錄中，您無法重新命名的節點會顯示 XML 標記; 表單中也就是說，小於比 (\<) 和大於符號 (>)。 例如，**結構描述** 節點， **Choice 群組**節點**Any 項目**節點，和**Any 屬性**節點表示結構描述中樹狀目錄的名稱\<結構描述 >，\<選擇 >，\<任何 >，並\<AnyAttribute > 分別。 **節點名稱**這類節點的屬性是唯讀的。  
+ 在結構描述樹狀目錄中，您無法重新命名的節點會顯示 XML 標記; 表單中也就是說，小於比 (\<) 和大於 (\>) 符號。 例如，**結構描述** 節點， **Choice 群組**節點**Any 項目**節點，和**Any 屬性**節點表示結構描述中樹狀目錄的名稱\<結構描述\>，\<選擇\>，\<任何\>，和\<AnyAttribute\>分別。 **節點名稱**這類節點的屬性是唯讀的。  
   
  內給定**記錄** 節點，您不能有兩個**欄位屬性**具有相同名稱的節點。 不過，您可以擁有多個**欄位項目**節點或**記錄**具有相同名稱做為子節點的相同節點**記錄**節點，只要它們都有相同的資料類型(依指定其**資料型別**屬性**欄位項目**節點或其**資料結構型別**如**記錄**節點）。  
   
@@ -37,6 +37,6 @@ ms.lasthandoff: 09/20/2017
   
 ## <a name="in-this-section"></a>本節內容  
   
--   [哪些節點名稱字元會進行編碼](../core/which-node-name-characters-get-encoded.md)  
+-   [編碼哪些節點名稱字元](../core/which-node-name-characters-get-encoded.md)  
   
 -   [如何編碼節點名稱字元](../core/how-node-name-characters-get-encoded.md)

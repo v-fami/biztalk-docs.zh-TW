@@ -12,11 +12,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1e1ccddee7bb7b08ec363fabd9b7e061cd41357d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9a2e2679edafd72dc0d64510e7a8566180818f8c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-7-implement-the-synchronous-outbound-handler-for-the-echo-adapter"></a>步驟 7： 回應配接器實作同步輸出的處理常式
 ![步驟 7 9](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-7of9.gif "Step_7of9")  
@@ -64,13 +64,13 @@ public interface IOutboundHandler : IConnectionHandler, IDisposable
   
 -   WCF 輸入訊息動作 = 作業的節點識別碼  
   
--   內送訊息本文 = 開始本文的元素是\<displayname >\<參數名稱 > {資料}\</parameter 名稱 >\</displayname >  
+-   內送訊息本文 = 開始本文的元素是\<displayname\>\<參數名稱\>{資料}\</parameter 名稱\>\</displayname\>  
   
  外寄 WCF 回應訊息：  
   
 -   WCF 輸出訊息動作 = 作業的節點識別碼 +"/ 回應 」  
   
--   外寄訊息內文 = 開始本文的元素是\<displayname +"Response">，後面接著\<displayname +"Result">，且後面接\<資料型別 > 資料\</datatype >\</顯示名稱 +"的結果 >\</displayname +"Response">  
+-   外寄訊息本文 = 開始本文的元素是\<displayname +"Response"\>，後面接著\<displayname +"Result"\>，，後面接著\<datatype\>資料\</datatype\>\</displayname+ 」 結果\>\</displayname +"Response"\>  
   
  例如，作業**string [] （字串資料） EchoStrings**，節點識別碼 = Echo/EchoStrings，和顯示名稱 = EchoStrings:  
   
@@ -145,7 +145,7 @@ public interface IOutboundHandler : IConnectionHandler, IDisposable
     return null;              
     ```  
   
-4.  現在，加入**ExecuteEchoStrings**方法以處理 string [] EchoStrings （字串資料） 作業。 這個 helper 函式會讀取 WCF 要求訊息，會檢查以 echoInUpperCase URI 項目是否設定為 true。如果是的話，它會將輸入的字串轉換為大寫，計數變數會指出的次數中。 接著，它會 WCF 回應訊息產生的格式： \<EchoStringsResponse >\<EchoStringResult >\<字串 > {資料}\</字串 >\</EchoStringResult >\</EchoStringsResponse >。  
+4.  現在，加入**ExecuteEchoStrings**方法以處理 string [] EchoStrings （字串資料） 作業。 這個 helper 函式會讀取 WCF 要求訊息，會檢查以 echoInUpperCase URI 項目是否設定為 true。如果是的話，它會將輸入的字串轉換為大寫，計數變數會指出的次數中。 接著，它會 WCF 回應訊息產生的格式： \<EchoStringsResponse\>\<EchoStringResult\>\<字串\>{資料}\</string\> \</EchoStringResult\>\</EchoStringsResponse\>。  
   
     ```csharp  
     private Message ExecuteEchoStrings(ParameterizedOperationMetadata om, Message message, TimeSpan timeout)  
@@ -187,7 +187,7 @@ public interface IOutboundHandler : IConnectionHandler, IDisposable
     }  
     ```  
   
-5.  繼續加入**ExecuteEchoGreetings**方法以處理 EchoGreetings 作業。 這個 helper 函式會讀取 WCF 要求訊息、 作業和型別解析`ResolveOperationMetadata`和`ResolveTypeMetadata`方法`Microsoft.ServiceModel.Channels.Common.IMetadataResolverHandler`介面，並接著會產生 WCF 回應訊息使用的格式： \<EchoGreetingsResponse >\<EchoGreetingsResult >...訊息...\</EchoGreetingsResult >\</EchoGreetingsResponse >。  
+5.  繼續加入**ExecuteEchoGreetings**方法以處理 EchoGreetings 作業。 這個 helper 函式會讀取 WCF 要求訊息、 作業和型別解析`ResolveOperationMetadata`和`ResolveTypeMetadata`方法`Microsoft.ServiceModel.Channels.Common.IMetadataResolverHandler`介面，並接著會產生 WCF 回應訊息使用的格式： \<EchoGreetingsResponse\>\<EchoGreetingsResult\>...訊息...\</EchoGreetingsResult\>\</EchoGreetingsResponse\>。  
   
     ```csharp  
     private Message ExecuteEchoGreetings(ParameterizedOperationMetadata om, Message message, TimeSpan timeout)  
@@ -232,7 +232,7 @@ public interface IOutboundHandler : IConnectionHandler, IDisposable
     }  
     ```  
   
-6.  現在，加入**ExecuteEchoCustomGreetingFromFile**方法以處理 EchoCustomGreetingFromFile 作業。 這個 helper 函式會讀取 WCF 要求訊息中，從指定的檔案讀取訊息，然後再產生 WCF 回應訊息使用的格式： \<EchoGreetingsFromFileResponse >\<EchoGreetingsFromFileResult>...訊息...\</EchoGreetingsFromFileResult >\</EchoGreetingsFromFileResponse >。  
+6.  現在，加入**ExecuteEchoCustomGreetingFromFile**方法以處理 EchoCustomGreetingFromFile 作業。 這個 helper 函式會讀取 WCF 要求訊息中，從指定的檔案讀取訊息，然後再產生 WCF 回應訊息使用的格式： \<EchoGreetingsFromFileResponse\> \<EchoGreetingsFromFileResult\>...訊息...\</EchoGreetingsFromFileResult\>\</EchoGreetingsFromFileResponse\>。  
   
     ```csharp  
     private Message ExecuteEchoCustomGreetingFromFile(OperationMetadata om, Message message, TimeSpan timeout)  
@@ -285,6 +285,6 @@ public interface IOutboundHandler : IConnectionHandler, IDisposable
 ## <a name="next-steps"></a>後續步驟  
 建置和部署回應配接器。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [步驟 6： 實作回應配接器中繼資料解析處理常式](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-6-implement-the-metadata-resolve-handler-for-the-echo-adapter.md)   
- [步驟 8： 為回應配接器實作的同步輸入處理常式](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-8-implement-the-synchronous-inbound-handler-for-the-echo-adapter.md)
+ [步驟 8：實作 Echo 配接器的同步輸入處理常式](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-8-implement-the-synchronous-inbound-handler-for-the-echo-adapter.md)

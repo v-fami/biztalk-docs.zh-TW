@@ -12,11 +12,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: deae453be1a89049f223e2da9813e449d68eeb07
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6ad3628f61fec11f135bf2235f5e0d25f52992d3
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-register-and-remove-the-biztalk-assembly-viewer"></a>如何註冊和移除 BizTalk 組件檢視工具
 在 BizTalk Server 安裝期間，不會自動註冊 BizTalk「組件檢視工具」。 若要註冊或移除 BizTalk「組件檢視工具」，請執行下列步驟。  
@@ -27,7 +27,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  在 [執行] 對話方塊中，輸入**cmd**。  
   
-3.  從命令列中，瀏覽至\< *BizTalk Server 安裝資料夾*> \Developer Tools\ 目錄所在的位置。  
+3.  從命令列中，瀏覽至\< *BizTalk Server 安裝資料夾*\>\Developer Tools\ 目錄所在的位置。  
   
 4.  在命令列輸入：  
   
@@ -41,7 +41,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**執行** 對話方塊中，輸入**cmd**。  
   
-3.  從命令列中，瀏覽至\< *BizTalk Server 安裝資料夾*> \Developer Tools\ 目錄所在的位置。  
+3.  從命令列中，瀏覽至\< *BizTalk Server 安裝資料夾*\>\Developer Tools\ 目錄所在的位置。  
   
 4.  在命令列輸入：  
   
@@ -49,5 +49,5 @@ ms.lasthandoff: 09/20/2017
   
 5.  若要完成移除，請登出然後再登入電腦。  
   
-## <a name="see-also"></a>另請參閱  
- [檢視 BizTalk 組件檢視器的組件](../core/viewing-assemblies-with-the-biztalk-assembly-viewer.md)
+## <a name="see-also"></a>請參閱  
+ [使用 BizTalk 組件檢視工具檢視組件](../core/viewing-assemblies-with-the-biztalk-assembly-viewer.md)

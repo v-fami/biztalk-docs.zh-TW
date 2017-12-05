@@ -15,11 +15,11 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6c6044cd77532c012ddd534bd2b70be8eaaffb09
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f2e4764071beb2aa94aac738e8f1cec2377dd1d8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="progress-dimension"></a>進度維度
 使用進度維度可依 BAM 活動所達到的里程碑將 BAM 活動分組。 使用範例說明會比較清楚。  
@@ -69,7 +69,7 @@ ms.lasthandoff: 09/20/2017
   
 6.  在**進度里程碑**方塊**新增進度里程碑**對話方塊方塊中，輸入您所設計階層頂層之進度里程碑的名稱。 對於執行的範例中，輸入`Received`。  
   
-7.  選取對應至進度里程碑的商務里程碑，然後按一下**確定**。 對於執行中範例，您會選取**Received (\<活動名稱 >)**。  
+7.  選取對應至進度里程碑的商務里程碑，然後按一下**確定**。 對於執行中範例，您會選取**Received (\<活動名稱\>)**。  
   
 8.  在**新維度**對話方塊中，按一下 **新增階段**。  
   
@@ -79,7 +79,7 @@ ms.lasthandoff: 09/20/2017
   
 11. 在**進度里程碑**方塊**新增進度里程碑**對話方塊方塊中，輸入其中一個第一層里程碑的名稱。 對於我們使用範例中，輸入`Approved`。  
   
-12. 在**商務里程碑**下拉式清單方塊中，選取對應至進度里程碑的商務里程碑，然後按一下**確定**。 對於執行中範例，您會選取**Approved (\<活動名稱 >)**。  
+12. 在**商務里程碑**下拉式清單方塊中，選取對應至進度里程碑的商務里程碑，然後按一下**確定**。 對於執行中範例，您會選取**Approved (\<活動名稱\>)**。  
   
 13. 重複上面三個步驟，新增位於相同進度階段內的任何其他里程碑。  
   
@@ -89,7 +89,7 @@ ms.lasthandoff: 09/20/2017
   
      ![定義兩個 &#45; 層級進度維度](../core/media/bts-progress-dimension-two-levelss.gif "bts_progress 維度的兩個 levelss")  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [在 Excel 中定義商務活動和檢視](../core/defining-business-activities-and-views-in-excel.md)   
  [資料維度](../core/data-dimension.md)   
  [時間維度](../core/time-dimension.md)   

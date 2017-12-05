@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2bead22f33bbe38cb8deac3a201121438d344c09
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 67c937ae0edb1698991ad111622a582ebfc64d76
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="monitoring-applications"></a>監視應用程式
 設定 Microsoft System Center Operations Manager 來監視 BizTalk 應用程式通常可以分成漸進式的四個步驟程序，如下所示：  
@@ -51,9 +51,9 @@ ms.lasthandoff: 09/20/2017
   
 4.  **使用來自動化手動工作的臨界值規則**  
   
-     在處理下一個步驟是超越反應靈敏的警示，並使用臨界值規則。 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]管理組件程式預設不包含任何臨界值規則。 這是因為這類規則通常專用於自訂應用程式，以及每個應用程式不同。 臨界值意自訂應用程式的相關商務規則，並提供主動式方法來監視系統。 您可以使用[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]提供使用效能分析的記錄檔 (PAL) 工具來定義規則的臨界值範本。  
+     在處理下一個步驟是超越反應靈敏的警示，並使用臨界值規則。 BizTalk Server 管理組件預設不包含任何臨界值規則。 這是因為這類規則通常專用於自訂應用程式，以及每個應用程式不同。 臨界值意自訂應用程式的相關商務規則，並提供主動式方法來監視系統。 您可以使用[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]提供使用效能分析的記錄檔 (PAL) 工具來定義規則的臨界值範本。  
   
      臨界值規則的範例是在伺服器上的 Cpu 一致的方式執行時超過 75%一段特定時間量值。 這可能表示您需要向外擴充系統。 尚未另一個範例是您用來建立一組唯一的計數器會監視的臨界值規則。 此規則無法再叫用先前設定的備份伺服器上的 BizTalk 主控件執行個體初始化期間需求較高的程式碼。  
   
-## <a name="see-also"></a>另請參閱  
- [監控 BizTalk Server 與 System Center Operations Manager 2007](../technical-guides/monitoring-biztalk-server-with-system-center-operations-manager-2007.md)
+## <a name="see-also"></a>請參閱  
+ [使用 System Center Operations Manager 2007 監視 BizTalk Server](../technical-guides/monitoring-biztalk-server-with-system-center-operations-manager-2007.md)

@@ -12,16 +12,16 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8e3acbb1198034e76bb1e0f45c0f9755ec6ac95d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3b0341a11c45cd08f8476d48ea38cbf96bcc49c1
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="certificate-wizard-utility"></a>憑證精靈公用程式
 您可以使用 CertWizard 公用程式從.pfx 或.cer 檔案將憑證匯入到 Microsoft 搭配使用的私人或公用存放區[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。  
   
- 憑證精靈的原始程式碼位於**C:\Program Files\Microsoft BizTalk Server\<版本 > \SDK\Utilities\Certificate 精靈**資料夾。 使用 64 位元的作業系統和版本[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]，它會處於**C:\Program Files (x86) \Microsoft BizTalk Server\<版本 > \SDK\Utilities\Certificate 精靈**資料夾。 若要使用 「 憑證精靈 」，您就必須先建立使用該[!INCLUDE[vs2010](../includes/vs2010-md.md)]。  
+ 憑證精靈的原始程式碼位於**C:\Program Files\Microsoft BizTalk Server\<版本\>\SDK\Utilities\Certificate 精靈**資料夾。 使用 64 位元作業系統與 BizTalk Server 的版本，它會處於**C:\Program Files (x86) \Microsoft BizTalk Server\<版本\>\SDK\Utilities\Certificate 精靈**資料夾。 若要使用 「 憑證精靈 」，您就必須先建立該使用 Visual Studio。  
   
  CertWizard 會從 .pfx file 檔案將私密金鑰匯入到個人存放區，從 .cer 檔案將公開金鑰匯入到公用存放區。 匯入私密金鑰時，可對內送訊息使用解密憑證，對外送訊息使用簽章憑證。  
   
@@ -77,5 +77,5 @@ CertWizard /Rootkey <filename>.cer [/Thumbprint <thumbprint>]
     > [!NOTE]
     >  如果您未在命令提示字元中提供完整的命令，CertWizard 會提示您輸入所需的值。  
   
-## <a name="see-also"></a>另請參閱  
- [在 SDK 中的公用程式](../core/utilities-in-the-sdk.md)
+## <a name="see-also"></a>請參閱  
+ [SDK 中的公用程式](../core/utilities-in-the-sdk.md)

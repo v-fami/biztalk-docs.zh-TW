@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: deba3ae710b916552095ce66d53813797d8da8da
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 62d947baa1a3f9ea867f1b3a85a8b60129d31ee3
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="configuring-general-party-properties-as2"></a>設定一般合作對象屬性 (AS2)
 合作對象或交易夥伴代表商務關係中的參與組織。 合作對象屬性包含下列資訊：  
@@ -48,7 +48,7 @@ ms.lasthandoff: 09/20/2017
 3.  在**傳送埠**頁面**合作對象屬性**對話方塊方塊中，執行下列動作：  
   
     > [!NOTE]
-    >  在 [!INCLUDE[prague](../includes/prague-md.md)] 中，設定相關傳送埠的動作是在協議層級進行。 **傳送埠**可用為合作對象屬性的一部分是純粹是為了回溯相容性 頁面。 當您將傳送埠與協議相關聯後，傳送埠設定也會傳播到合作對象設定，而您就可以在此頁面看到該傳送埠關聯。 但是，並非反之亦然。 在您將傳送埠與合作夥伴相關聯後，該傳送埠無法自動出現在協議設定中。 如需如何將傳送埠與協議相關聯的詳細資訊，請參閱此處。  
+    >  在 BizTalk Server 傳送埠關聯是在協議層級。 **傳送埠**可用為合作對象屬性的一部分是純粹是為了回溯相容性 頁面。 當您將傳送埠與協議相關聯後，傳送埠設定也會傳播到合作對象設定，而您就可以在此頁面看到該傳送埠關聯。 但是，並非反之亦然。 在您將傳送埠與合作夥伴相關聯後，該傳送埠無法自動出現在協議設定中。 如需如何將傳送埠與協議相關聯的詳細資訊，請參閱此處。  
   
     |使用|動作|  
     |--------------|----------------|  
@@ -74,5 +74,5 @@ ms.lasthandoff: 09/20/2017
   
 5.  按一下**套用**接受這些屬性，或按一下**確定**來完成組態設定。 任何一項動作都會驗證設定。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [設定 AS2 屬性](../core/configuring-as2-properties.md)

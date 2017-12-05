@@ -17,11 +17,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d1d96f19aadd37e48a238ea28054641bd4eafbaf
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f9072f3df5c85ed09c5efbdc5e690a8eccc97b2f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="invoke-functions-and-procedures-with-ref-cursors-in-oracle-database-using-biztalk-server"></a>叫用函式，並使用 BizTalk Server 的 Oracle 資料庫中的 REF CURSOR 的程序
 REF CURSOR 是 PL/SQL 資料類型，代表要執行的查詢產生伺服器端結果集的指標。 REF CURSOR 類型可讓輸入和輸出資料的資料流和適合用來傳輸大量資料給予或來自 PL/SQL 程式碼。 [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]提供強型別和弱型別 (SYS_REFCURSOR) REF 資料指標可以登出，傳遞給 PL/SQL 程序和函式做為中的或在 OUT 參數的支援。 如需有關如何[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]支援 REF Cursor，請參閱[函式和有 REF CURSOR 參數的程序上的作業](../../adapters-and-accelerators/adapter-oracle-database/ref-cursor-parameters-in-oracle-database-adapter.md)。 REF CURSOR 的 XML 結構的相關資訊，請參閱[REF CURSOR 的訊息結構描述](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-ref-cursors.md)。  
@@ -176,7 +176,7 @@ REF CURSOR 是 PL/SQL 資料類型，代表要執行的查詢產生伺服器端�
  上述的要求訊息的回應是：  
   
 ```  
-\<?xml version="1.0" encoding="utf-8" ?>   
+<?xml version="1.0" encoding="utf-8" ?>   
 <GET_ACTIVITYResponse xmlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG">  
   <STATUS>5</STATUS>   
   <INOUTRECS>  
@@ -228,5 +228,5 @@ REF CURSOR 是 PL/SQL 資料類型，代表要執行的查詢產生伺服器端�
 ## <a name="best-practices"></a>最佳作法  
  您部署和設定 BizTalk 專案之後，您可以為 XML 檔案，稱為繫結檔案匯出組態設定。 一旦產生繫結檔案時，您可以匯入組態設定從檔案，因此您不需要建立傳送埠、 接收埠，等。 針對相同的協調流程。 如需繫結檔案的詳細資訊，請參閱[重複使用的 Oracle 資料庫配接器繫結](../../adapters-and-accelerators/adapter-oracle-database/reuse-oracle-database-adapter-bindings.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [開發 BizTalk 應用程式](../../core/develop-your-biztalk-applications.md)

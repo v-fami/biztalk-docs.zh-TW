@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b89972b2b84927fc16b14184338ca4920e984656
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b826b3ee9408caf91fe5adcb2177d709f885a6e1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="creating-and-deploying-policies-for-new-message-types"></a>建立和部署原則的新訊息類型
 若要建立並部署新的訊息類型的原則：  
@@ -57,6 +57,6 @@ ms.lasthandoff: 09/20/2017
   
      主要的原則檔也需要變更以反映新的名稱，在下列標記：  
   
-    -   \<ruleset name="swift.if.ia.setr.004.001.02_Master_Policy">  
+    -   \<ruleset name="swift.if.ia.setr.004.001.02_Master_Policy"\>  
   
     -   < 規則 name="swift.if.ia.setr.004.001.02_Policy_List"

@@ -12,11 +12,11 @@ caps.latest.revision: "21"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a63953b0928915a8fea5b357722cd4e34f1b900c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1144b7e6827882b37f6f9991a7315cdc3cdbb88d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-1-use-the-adapter-service-development-wizard-to-create-the-web-project"></a>步驟 1： 建立 Web 專案中使用配接器服務開發精靈
 ![步驟 4 之 1](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-1of4.gif "Step_1of4")  
@@ -68,12 +68,12 @@ ms.lasthandoff: 09/20/2017
     |**EchoInUpperCase**|False|  
   
     > [!NOTE]
-    >  在這裡選取的 URI 屬性將用來建立\<**用戶端**>\<**端點**> web.config 檔案中的項目。  
+    >  在這裡選取的 URI 屬性將用來建立\<**用戶端**\>\<**端點**\> web.config 檔案中的項目。  
   
 4.  按一下**繫結屬性**] 索引標籤。預設值，請注意，然後按一下 [**確定**。  
   
     > [!NOTE]
-    >  繫結值將會用來產生\<**繫結**>\<**echoAdapterBindingV2**> web.config 檔案中的項目。  
+    >  繫結值將會用來產生\<**繫結**\>\<**echoAdapterBindingV2** \> web.config 檔案中的項目。  
   
 ### <a name="to-select-the-contract-and-operations"></a>若要選取的合約和作業  
   
@@ -101,7 +101,7 @@ ms.lasthandoff: 09/20/2017
     |**名稱**|customServiceBehavior|  
     |**UseServiceCertificate**|False|  
   
-     這些值可用來填入\< **serviceBehaviors**>。  
+     這些值可用來填入\< **serviceBehaviors**\>。  
   
 2.  輸入下列值**端點行為組態**:  
   
@@ -134,5 +134,5 @@ ms.lasthandoff: 09/20/2017
 ## <a name="next-steps"></a>後續步驟  
  若要建置及部署 Web 專案，請到[步驟 2： 部署 Web 專案](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-2-deploy-the-web-project.md)  
   
-## <a name="see-also"></a>另請參閱  
- [教學課程 1： 在開發回應配接器](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-1-develop-the-echo-adapter.md)
+## <a name="see-also"></a>請參閱  
+ [教學課程 1：開發 Echo 配接器](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-1-develop-the-echo-adapter.md)

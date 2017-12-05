@@ -12,11 +12,11 @@ caps.latest.revision: "22"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 66d6d35ac668a324ed28f7c9519b32812e10cb3e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 632ca1c46a3df313e3aac4e144cad1647eb2360f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="troubleshooting-sql-server"></a>疑難排解 SQL Server
 大多數會影響 Microsoft [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] 的 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 問題分為下列類別：  
@@ -100,13 +100,13 @@ ms.lasthandoff: 09/20/2017
   
 ## <a name="permissions-related-problems"></a>權限相關問題  
   
-#### <a name="biztalk-server-run-time-or-design-time-operations-fail-and-a-cannot-open-database-requested-in-login-database-error-is-written-to-the-application-log-of-the-biztalk-server-or-sql-server-computer"></a>BizTalk Server 執行階段或設計階段作業失敗與 「 無法開啟資料庫中登入要求\<資料庫 > 」 錯誤寫入 BizTalk Server 或 SQL Server 電腦的應用程式記錄檔  
+#### <a name="biztalk-server-run-time-or-design-time-operations-fail-and-a-cannot-open-database-requested-in-login-database-error-is-written-to-the-application-log-of-the-biztalk-server-or-sql-server-computer"></a>BizTalk Server 執行階段或設計階段作業失敗與 「 無法開啟資料庫中登入要求\<資料庫\>」 錯誤寫入 BizTalk Server 或 SQL Server 電腦的應用程式記錄檔  
   
 ##### <a name="problem"></a>問題  
  執行階段或設計階段作業失敗，而且類似如下的錯誤會寫入 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 或 [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] 電腦的應用程式記錄檔：  
   
- 無法開啟資料庫中登入要求\<*資料庫*>。 登入失敗。   
-使用者登入失敗\< *username*>。  
+ 無法開啟資料庫中登入要求\<*資料庫*\>。 登入失敗。   
+使用者登入失敗\< *username*\>。  
   
 ##### <a name="cause"></a>原因  
  如果指定的帳戶不屬於適當的 Windows 群組或 [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] 角色，就會發生這個錯誤。  
@@ -139,5 +139,5 @@ ms.lasthandoff: 09/20/2017
 ##### <a name="resolution"></a>解決方案  
  應該執行步驟來清除和封存 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 追蹤資料庫。 請參閱[封存和清除 BizTalk 追蹤資料庫](../core/archiving-and-purging-the-biztalk-tracking-database.md)如需詳細資訊。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [解決 SQL Server 權限問題的指導方針](../core/guidelines-for-resolving-sql-server-permissions-problems.md)

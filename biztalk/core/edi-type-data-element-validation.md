@@ -12,11 +12,11 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 88a71a44c305e1eabbcdb9aede32b44439f6b03c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a989c58f59581795f641601938fe76bb7b1671f6
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="edi-type-data-element-validation"></a>EDI 類型 (資料元素) 驗證
 EDI 接收管線和 EDI 傳送管線，可以對交易集資料元素執行 EDI 驗證。 這項驗證來自或通往特定合作對象，透過該合作對象的協議屬性的所有訊息上設定**驗證**頁面 (在**交易集設定**任一 X12 區段或 EDIFACT 協議）。 如果**EDI 類型驗證**屬性中未選取**驗證**頁面上，將不會執行驗證，本主題所描述的資料。  
@@ -99,7 +99,7 @@ EDI 接收管線和 EDI 傳送管線，可以對交易集資料元素執行 EDI 
 |-|-|  
 |未預期的資料|動作|  
 |未預期/未定義的交易集|EDI 接收或傳送管線會接受交易集，即使其結構描述尚未部署|  
-|未預期的區段/記錄|接收管線會產生具有適當的前置詞的標記： \<UnexpectedSegment_ %segmentid%>。<br /><br /> 傳送管線會將 XML 標記名稱的前三個字元做為區段名稱。|  
+|未預期的區段/記錄|接收管線會產生具有適當的前置詞的標記： \<UnexpectedSegment_ %segmentid%\>。<br /><br /> 傳送管線會將 XML 標記名稱的前三個字元做為區段名稱。|  
 |未預期的簡單資料元素|接收管線會使用前置詞、區段識別項，以及表示區段中資料元素位置的索引，來產生 XML 標記：<UnexpectedDataElement_%FieldName%。|  
 |未預期的複合資料元素|接收管線會使用前置詞、區段識別項，以及表示區段中資料元素位置的索引，來產生 XML 標記：<UnexpectedCompositeDataElement_%FieldName%。|  
 |遺失必要的資料|管線會將該資料視為選擇性。|  
@@ -120,6 +120,6 @@ EDI 接收管線和 EDI 傳送管線，可以對交易集資料元素執行 EDI 
 |未預期的區段/迴圈|通知會報告這個錯誤，並忽略資料元素層級的錯誤。|  
 |未預期的資料元素|通知會報告這個錯誤，並忽略與屬性 (如識別碼、長度、相符項目等) 相關的複合錯誤，以及與複合資料元素欄位相關的錯誤 (如果有的話)。|  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [EDI 訊息驗證](../core/edi-message-validation.md)   
- [擴充 (BTS-XSD) 驗證](../core/extended-bts-xsd-validation.md)
+ [延伸 (BTS-XSD) 驗證](../core/extended-bts-xsd-validation.md)

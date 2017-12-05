@@ -12,11 +12,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 73c2c7c97777df8c0875a1735899d9eb739572cb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 94e17bcc987949b9ca25ac25db9a1789ebe980eb
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-2-test-inbound-handler-of-the-echo-adapter"></a>步驟 2： 測試輸入的回應配接器處理常式
 ![步驟 2 之 2](../../adapters-and-accelerators/adapter-sql/media/step-2of2.gif "Step_2of2")  
@@ -123,7 +123,7 @@ ms.lasthandoff: 09/20/2017
   
      **服務已就緒。**  
   
-     **按\<ENTER > 終止服務。**  
+     **按\<ENTER\>終止服務。**  
   
      **路徑 = file:///C:/Tutorial/InboundTest/InboundTest.txt，len = 229179**  
   
@@ -135,6 +135,6 @@ ms.lasthandoff: 09/20/2017
 ## <a name="next-steps"></a>後續步驟  
  這是本教學課程的最後一個步驟。 如需輸入作業的詳細資訊，請參閱`Microsoft.ServiceModel.Channels.Common.IInboundHandler`。 若要查看範例示範如何裝載 WCF 服務需要驗證的 SDK，下載在回應配接器和測試程式碼[http://go.microsoft.com/fwlink/?LinkID=96184](http://go.microsoft.com/fwlink/?LinkID=96184)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [教學課程 2： 使用回應配接器從.NET](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-2-consume-the-echo-adapter-from-net.md)   
- [教學課程 1： 在開發回應配接器](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-1-develop-the-echo-adapter.md)
+ [教學課程 1：開發 Echo 配接器](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-1-develop-the-echo-adapter.md)

@@ -13,11 +13,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 855a96a8cab86b09826f8bf11241b03b45c72949
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 27d0e731fd63ce01e9cc1c2604eb8f83141e024e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="wcf-basichttp-adapter"></a>WCF-BasicHttp 配接器
 [!INCLUDE[btsCoName](../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]使用 Wcf-basichttp 配接器來接收和傳送 WCF 服務要求，透過[BasicHttpBinding 類別](https://msdn.microsoft.com/library/system.servicemodel.basichttpbinding.aspx)。 Wcf-basichttp 配接器可讓您協調流程和結構描述為 WCF 服務發佈，並使用外部 WCF 服務與**BasicHttpBinding**。  
@@ -131,14 +131,14 @@ ms.lasthandoff: 09/20/2017
   
     |使用|動作|  
     |--------------|----------------|  
-    |**信封--整個\<soap: Envelope >**|從內送訊息的整個 SOAP **信封** 建立 BizTalk 訊息內文部分。<br /><br /> 預設值為清除核取方塊。|  
-    |**內文--內容\<soap: Body > 項目**|使用內送訊息的 SOAP **Body** 元素內容來建立 BizTalk 訊息內文部分。 如果 **Body** 元素有一個以上的子元素，則只有第一個元素會成為 BizTalk 訊息內文部分。<br /><br /> 這是預設值。|  
+    |**信封--整個\<p: Envelope>\>**|從內送訊息的整個 SOAP **信封** 建立 BizTalk 訊息內文部分。<br /><br /> 預設值為清除核取方塊。|  
+    |**內文--內容\<soap: Body\>項目**|使用內送訊息的 SOAP **Body** 元素內容來建立 BizTalk 訊息內文部分。 如果 **Body** 元素有一個以上的子元素，則只有第一個元素會成為 BizTalk 訊息內文部分。<br /><br /> 這是預設值。|  
     |**路徑--內容由內文路徑定位**|使用 **[內文路徑運算式]** 文字方塊中的內文路徑運算式，建立 BizTalk 訊息內文部分。 內文路徑運算式會依照內送訊息 SOAP **Body** 元素的直系子元素來進行評估。<br /><br /> 預設值為清除核取方塊。|  
     |**內文路徑運算式**|輸入內文路徑運算式，以識別用來建立 BizTalk 訊息內文部分的內送訊息特定部分。 這個內文路徑運算式會依照內送訊息 SOAP **Body** 元素的直系子項目來進行評估。 如果此內文路徑運算式傳回一個以上的節點，則只會為 BizTalk 訊息內文部分選擇第一個節點。 如果選取了 **[路徑 -- 內容由內文路徑定位]** 選項，就需要此屬性。<br /><br /> 類型：字串<br /><br /> 最小長度：00<br /><br /> 最大長度：32767<br /><br /> 預設為空字串。|  
     |**節點編碼**|指定的編碼，Wcf-basichttp 接收配接器，用來解碼的內文路徑運算式所識別的節點類型**內文路徑運算式**文字方塊。<br /><br /> 如果選取了 **[路徑 -- 內容由內文路徑定位]** 選項，就需要此屬性。 有效值包括下列各項：<br /><br /> -   **Base64**: Base64 編碼方式。<br />-   **Hex**： 十六進位編碼。<br />-   **字串**： 文字編碼-utf-8<br />-   **XML**: WCF 配接器建立 BizTalk 訊息內文中的內文路徑運算式所選取之節點外部 xml**內文路徑運算式**文字方塊。<br /><br /> 預設值是 **[XML]**。|  
     |**內文--BizTalk 回應訊息內文**|使用 BizTalk 訊息內文部分建立外寄回應訊息的 SOAP **內文** 元素內容。 此屬性只適用於要求-回應接收位置。<br /><br /> 這是預設值。|  
     |**範本--由範本指定的內容**|使用 [XML]  文字方塊中提供的範本來建立外寄訊息的 SOAP **內文** 元素內容。 此屬性只適用於要求-回應接收位置。<br /><br /> 預設值為清除核取方塊。|  
-    |**XML**|針對外寄訊息的 SOAP **內文** 元素內容，輸入 XML 格式的範本。 如果選取了 **[範本 -- BizTalk 回應訊息本文]** 選項，就需要此屬性。 此屬性只適用於要求-回應接收位置。<br /><br /> 類型：字串<br /><br /> 最小長度：00<br /><br /> 最大長度：32767<br /><br /> 預設值是 **\<bts 訊息主體 xmlns ="http://www.microsoft.com/schemas/bts2007"encoding ="xml"/ >**。|  
+    |**XML**|針對外寄訊息的 SOAP **內文** 元素內容，輸入 XML 格式的範本。 如果選取了 **[範本 -- BizTalk 回應訊息本文]** 選項，就需要此屬性。 此屬性只適用於要求-回應接收位置。<br /><br /> 類型：字串<br /><br /> 最小長度：00<br /><br /> 最大長度：32767<br /><br /> 預設值是 **\<bts 訊息主體 xmlns ="http://www.microsoft.com/schemas/bts2007"encoding ="xml"\>**。|  
     |**擱置失敗的要求訊息**|指定是否擱置因接收管線失敗或路由失敗而造成輸入處理失敗的要求訊息。<br /><br /> 預設值為清除核取方塊。|  
     |**錯誤中包含例外狀況詳細資料**|指定是否要將在錯誤發生時傳回 SOAP 錯誤以方便偵錯。<br /><br /> 預設值為清除核取方塊。|   
  
@@ -161,7 +161,7 @@ ms.lasthandoff: 09/20/2017
     |--------------|----------------|  
     |**位址 (URI)**|必要。 指定此接收位置的完整格式 URI。 使用**https**或**http**根據安全性組態的配置。<br /><br /> 最大長度： 255<br /><br /> 預設值： http://localhost/|  
     |**端點身分識別**|選擇性。 指定此傳送埠所預期服務的識別。 這些設定可讓此傳送埠驗證服務。 在用戶端與服務之間的交握程序中，Windows Communication Foundation (WCF) 基礎結構可確保預期之服務的識別能夠與這個項目的值相符。 可以針對指定的值**識別**屬性，則根據安全性組態而有所不同。<br /><br /> 預設值為清除核取方塊。| 
-    |**動作**|指定**SOAPAction**外寄訊息的 HTTP 標頭欄位。 這個屬性也可以透過訊息內容屬性設定**WCF。動作**管線或協調流程中。 您可以將這個值指定兩個不同的方式： 單一動作格式和動作對應格式。 如果您設定這個屬性中的單一動作格式-例如，http://contoso.com/Svc/Op1- **SOAPAction**標頭外寄訊息一定會設定這個屬性中指定的值。<br /><br /> 如果您設定此屬性以動作對應格式，傳出**SOAPAction**標頭由**BTS。作業**內容屬性。 例如，如果此屬性設定為下列 XML 格式和**BTS。作業**屬性設定為 Op1，WCF 傳送配接器使用 http://contoso.com/Svc/Op1 針對外寄**SOAPAction**標頭。<br /><br /> \<B ><br /><br /> \<作業名稱 ="Op1 」 動作 ="http://contoso.com/Svc/Op1"/ ><br /><br /> \<作業名稱 ="Op2 」 動作 ="http://contoso.com/Svc/Op2"/ ><br /><br /> \</ B ><br /><br /> 如果外寄訊息來自於協調流程連接埠，協調流程執行個體動態設定**BTS。作業**與連接埠的作業名稱的屬性。 如果外寄訊息都會路由傳送，以內容為基礎的路由，您可以設定**BTS。作業**管線元件中的屬性。<br /><br /> 最小長度：00<br /><br /> 最大長度：32767<br /><br /> 預設為空字串。|
+    |**動作**|指定**SOAPAction**外寄訊息的 HTTP 標頭欄位。 這個屬性也可以透過訊息內容屬性設定**WCF。動作**管線或協調流程中。 您可以將這個值指定兩個不同的方式： 單一動作格式和動作對應格式。 如果您設定這個屬性中的單一動作格式-例如，http://contoso.com/Svc/Op1- **SOAPAction**標頭外寄訊息一定會設定這個屬性中指定的值。<br /><br /> 如果您設定此屬性以動作對應格式，傳出**SOAPAction**標頭由**BTS。作業**內容屬性。 例如，如果此屬性設定為下列 XML 格式和**BTS。作業**屬性設定為 Op1，WCF 傳送配接器使用 http://contoso.com/Svc/Op1 針對外寄**SOAPAction**標頭。<br /><br /> \<B\><br /><br /> \<作業名稱 ="Op1 」 動作 ="http://contoso.com/Svc/Op1"\><br /><br /> \<作業名稱 ="Op2 」 動作 ="http://contoso.com/Svc/Op2"\><br /><br /> \</ B\><br /><br /> 如果外寄訊息來自於協調流程連接埠，協調流程執行個體動態設定**BTS。作業**與連接埠的作業名稱的屬性。 如果外寄訊息都會路由傳送，以內容為基礎的路由，您可以設定**BTS。作業**管線元件中的屬性。<br /><br /> 最小長度：00<br /><br /> 最大長度：32767<br /><br /> 預設為空字串。|
  
 4.  在**Wcf-basichttp 傳輸屬性**上**繫結**索引標籤上，設定逾時和編碼屬性： 
 
@@ -218,8 +218,8 @@ ms.lasthandoff: 09/20/2017
     |**內文--BizTalk 要求訊息內文**|使用 BizTalk 訊息內文部分建立的 soap 內容**主體**外寄訊息的項目。<br /><br /> 這是預設值。|  
     |**範本--由範本指定的內容**|使用 [XML]  文字方塊中提供的範本來建立外寄訊息的 SOAP **內文** 元素內容。<br /><br /> 預設值為清除核取方塊。|  
     |**XML**|針對外寄訊息的 SOAP **內文** 元素內容，輸入 XML 格式的範本。 如果選取了 **[範本 -- BizTalk 回應訊息本文]** 選項，就需要此屬性。<br /><br /> 類型：字串<br /><br /> 最小長度：00<br /><br /> 最大長度：32767<br /><br /> 預設值是 < bts 訊息主體<br /><br /> xmlns="http://www.microsoft.com/schemas/bts2007" encoding="xml"/>。|  
-    |**信封--整個\<soap: Envelope >**|從內送訊息的整個 SOAP **信封** 建立 BizTalk 訊息內文部分。 此屬性只對請求-回應連接埠有效。<br /><br /> 預設值為清除核取方塊。|  
-    |**內文--內容\<soap: Body > 項目**|使用內送訊息的 SOAP **Body** 元素內容來建立 BizTalk 訊息內文部分。 如果 **Body** 元素有一個以上的子元素，則只有第一個元素會成為 BizTalk 訊息內文部分。 此屬性只對請求-回應連接埠有效。<br /><br /> 這是預設值。|  
+    |**信封--整個\<p: Envelope>\>**|從內送訊息的整個 SOAP **信封** 建立 BizTalk 訊息內文部分。 此屬性只對請求-回應連接埠有效。<br /><br /> 預設值為清除核取方塊。|  
+    |**內文--內容\<soap: Body\>項目**|使用內送訊息的 SOAP **Body** 元素內容來建立 BizTalk 訊息內文部分。 如果 **Body** 元素有一個以上的子元素，則只有第一個元素會成為 BizTalk 訊息內文部分。 此屬性只對請求-回應連接埠有效。<br /><br /> 這是預設值。|  
     |**路徑--內容由內文路徑定位**|使用 **[內文路徑運算式]** 文字方塊中的內文路徑運算式，建立 BizTalk 訊息內文部分。 內文路徑運算式會依照內送訊息 SOAP **Body** 元素的直系子元素來進行評估。 此屬性只對請求-回應連接埠有效。<br /><br /> 預設值為清除核取方塊。|  
     |**內文路徑運算式**|輸入內文路徑運算式，以識別用來建立 BizTalk 訊息內文部分的內送訊息特定部分。 此內文路徑運算式評估的 soap 的直系子元素**主體**節點內送訊息。 如果此內文路徑運算式傳回一個以上的節點，則只會為 BizTalk 訊息內文部分選擇第一個節點。 如果選取了 **[路徑 -- 內容由內文路徑定位]** 選項，就需要此屬性。 此屬性只對請求-回應連接埠有效。<br /><br /> 類型：字串<br /><br /> 最小長度：00<br /><br /> 最大長度：32767<br /><br /> 預設為空字串。|  
     |**節點編碼**|指定 Wcf-basichttp 傳送配接器的內文路徑運算式所識別的節點用來解碼的編碼類型**內文路徑運算式**文字方塊。 如果選取了 **[路徑 -- 內容由內文路徑定位]** 選項，就需要此屬性。 此屬性只對請求-回應連接埠有效。 有效值包括下列各項：<br /><br /> -   **Base64**: Base64 編碼方式。<br />-   **Hex**： 十六進位編碼。<br />-   **字串**： 文字編碼-utf-8<br />-   **XML**: WCF 配接器建立 BizTalk 訊息內文中的內文路徑運算式所選取之節點外部 xml**內文路徑運算式**文字方塊。<br /><br /> 預設值是 **[XML]**。|  
@@ -248,7 +248,7 @@ ms.lasthandoff: 09/20/2017
 
  ## <a name="see-also"></a>另請參閱
  
-[WCF 配接器有哪些？](../core/what-are-the-wcf-adapters.md)
+[何謂 WCF 配接器？](../core/what-are-the-wcf-adapters.md)
 
 [SB Messaging 配接器](../core/sb-messaging-adapter.md)
 

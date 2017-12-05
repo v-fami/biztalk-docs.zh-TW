@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 84a224c985591801bc9622000c35587b7137f933
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8dd7c87e84cf7e6e107fc110c611369d0407e003
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="running-the-exception-handling-service-sample"></a>執行的例外狀況處理服務範例
 「 例外狀況處理服務 」 範例示範如何使用例外狀況處理 Web 服務才能提交到 ESB 例外狀況處理架構從外部應用程式的錯誤。 下列程序執行此範例需要[安裝例外狀況管理範例](../esb-toolkit/installing-the-exception-management-samples.md)。  
@@ -25,7 +25,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  在 Windows 檔案總管] 中開啟資料夾 \Source\Samples\ExceptionHandlingService，您的安裝位置[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]範例，然後再開啟 [Visual Studio 方案檔名為 ExceptionHandlingService.sln。  
   
-2.  在[!INCLUDE[vs2010](../includes/vs2010-md.md)]，按一下 **開始偵錯**工具列上。  
+2.  在 Visual Studio 中，按一下 **開始偵錯**工具列上。  
   
 3.  在載入的表單中，按一下 [**產生例外狀況**] 按鈕。  
   

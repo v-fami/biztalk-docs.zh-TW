@@ -20,14 +20,14 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e537ca4bc2dd85722ddf3afd4eaba443aab7a25b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9c48791d26842b7224bb950334d6b184452a54d6
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="solution-build-configurations"></a>方案建置組態
-如同您在 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 中所建置的其他專案一樣，您可以使用「組態管理員」以指定方案建置組態。 方案組建組態可讓您決定哪些專案来包含在建置方案的如果將部署。 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]同時支援**偵錯**和**發行**組建組態。  
+如同您在 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 中所建置的其他專案一樣，您可以使用「組態管理員」以指定方案建置組態。 方案組建組態可讓您決定哪些專案来包含在建置方案的如果將部署。 BizTalk Server 支援**偵錯**和**發行**組建組態。  
   
  方案建置組態中的核取記號**建置**資料行可讓您建置方案，以及當您完成時產生組件。 如果核取記號也會出現在**部署**資料行，則應用程式將會部署專案設計工具中的部署設定所決定。  
   
@@ -46,6 +46,6 @@ ms.lasthandoff: 09/20/2017
     |**建置**|針對專案核取此欄位的方塊，以建置或重新建置專案來回應方案的建置命令。|  
     |**部署**|針對方案或專案發出建置命令後，核取此欄位的方塊以依據部署設定來部署專案。|  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [如何部署 BizTalk 組件從 Visual Studio](../core/how-to-deploy-a-biztalk-assembly-from-visual-studio.md)   
  [如何建立 BizTalk 專案](../core/how-to-create-biztalk-projects.md)

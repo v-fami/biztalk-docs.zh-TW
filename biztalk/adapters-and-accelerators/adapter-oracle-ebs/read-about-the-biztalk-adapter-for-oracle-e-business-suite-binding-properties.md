@@ -12,11 +12,11 @@ caps.latest.revision: "56"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 07121b8322dfa899e02ea9c8dc28688aa55a329d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 37fc23d20c5e7b578b0415f7ee56b381a3716d3a
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="read-about-the-biztalk-adapter-for-oracle-e-business-suite-binding-properties"></a>了解 BizTalk Adapter for Oracle E-business Suite 繫結屬性
 [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]呈現數個繫結屬性。 藉由設定這些屬性，您可以控制某些配接器的行為。 本章節描述[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]繫結屬性。 它也會示範如何存取這些使用.NET 程式設計或上設定屬性[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]實體連接埠繫結。  
@@ -71,7 +71,7 @@ ms.lasthandoff: 09/20/2017
 |**SkipNilNodes**|執行階段行為|指定是否[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]插入或更新要求 XML 中標示為 'nil' 節點的值將會略過。 這個繫結屬性是適用於插入或更新資料表中的記錄，而預存程序的記錄型別參數。 預設值是**true**，這表示配接器傳遞值的節點會標示為 'nil 的'，會略過。 在此情況下，Oracle （如果有指定） 中的預設值是考慮會標示為 'nil 的' 的節點。 如果設定為**false**，配接器將明確傳送至這些節點的 null 值。<br /><br /> **注意：**<br /><br /> -若為不會出現在要求 XML 的節點，配接器永遠會略過傳遞值，不論值**SkipNilNodes**繫結屬性。<br /><br /> -若為 PL/SQL 資料表的記錄，配接器一律傳遞 null 值的節點會標示為 'nil 的' 或 XML，而不管值的要求中未出現**SkipNilNodes**繫結屬性。<br /><br /> 下列範例說明您設定此繫結屬性的值為基礎的介面卡組態中的差異。 假設要求 XML 類似下列：<br /><br /> `<EMPNO>1000</EMPNO> <ENAME>John</ENAME> <SAL nil=’true’></SAL>`<br /><br /> 如果**SkipNilNodes**設**true**，配接器會執行下列命令：<br /><br /> `INSERT INTO EMP (EMPNO, ENAME) VALUES (1000, “John”);`<br /><br /> 如果**SkipNilNodes**設**false**，配接器執行下列查詢：<br /><br /> `INSERT INTO EMP (EMPNO, ENAME, SAL) VALUES (1000, “John”, null);`<br /><br /> 請注意，在第二個陳述式中，配接器明確插入 null 值的參數"SAL"。|bool (System.Boolean)|  
 |**GeneratedUserTypesAssemblyFilePath**|UDT.NET 型別產生設計階段|指定配接器時，產生，產生中繼資料，其中包含所有可用的中繼資料中的 Udt 的 dll 路徑與名稱。 如果您正在產生封裝、 預存程序或使用 Udt 的函式的中繼資料，您必須指定 DLL 名稱。 指定 DLL 名稱是選擇性的資料表和檢視表具有 Udt。 產生的 DLL 會儲存到可執行檔相同的位置。<br /><br /> 這個繫結屬性是必要只在產生中繼資料。<br /><br /> **注意：**<br /><br /> -您必須指定一個檔案名稱。 為中繼資料中的 Udt，配接器會產生具有指定名稱的單一檔案。 如果您未指定名稱，配接器會產生 GUID 名稱與 DLL。<br /><br /> -此繫結屬性不是使用 BizTalk Server 中設定時**Wcf-oracleebs**接收或傳送埠。|string|  
 |**GeneratedUserTypesAssemblyKeyFilePath**|UDT.NET 型別產生設計階段|指定的名稱和配接器用來建立強型別的組件金鑰檔案的路徑。<br /><br /> 這個繫結屬性是選擇性的並產生中繼資料時，只是必要。<br /><br /> **注意：**這個繫結屬性不可以使用 BizTalk Server 中設定時**Wcf-oracleebs**接收或傳送埠。|string|  
-|**UserAssembliesLoadPath**|UDT.NET 型別產生執行階段|指定的 Dll，並以分號分隔，會產生中繼資料時建立的配接器的名稱。 這些 Dll 會在您指定的位置儲存**GeneratedUserTypesAssemblyFilePath**產生中繼資料時，繫結屬性。 您必須手動將這些 Dll 複製到下列位置：<br /><br /> -                      **對於 BizTalk 專案**： 複製 Dll 在與 BTSNTSvc.exe 相同的位置。 如[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]，這是通常在\<安裝磁碟機 >: \Program Files\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]。<br /><br /> - **.NET 專案**： 將 Dll 複製到您的.NET 專案資料夾內的 \bin\Development 資料夾。<br /><br /> 這個繫結屬性是必要只有時，才能傳送和接收執行 Oracle E-business suite 作業的訊息。|string|  
+|**UserAssembliesLoadPath**|UDT.NET 型別產生執行階段|指定的 Dll，並以分號分隔，會產生中繼資料時建立的配接器的名稱。 這些 Dll 會在您指定的位置儲存**GeneratedUserTypesAssemblyFilePath**產生中繼資料時，繫結屬性。 您必須手動將這些 Dll 複製到下列位置：<br /><br /> -                      **對於 BizTalk 專案**： 複製 Dll 在與 BTSNTSvc.exe 相同的位置。 對於 BizTalk Server 中，這是通常在\<安裝磁碟機\>: \Program Files\Microsoft BizTalk Server。<br /><br /> - **.NET 專案**： 將 Dll 複製到您的.NET 專案資料夾內的 \bin\Development 資料夾。<br /><br /> 這個繫結屬性是必要只有時，才能傳送和接收執行 Oracle E-business suite 作業的訊息。|string|  
 |**AcceptCredentialsInUri**|由不顯示[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]或[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]。|指定 Oracle E-business Suite 連線 URI 是否可以包含使用者認證。 預設值是**false**，表示停用連線 URI 中的使用者認證。 如果**AcceptCredentialsInUri**是**false**和 Oracle 連接 URI 包含使用者認證[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]擲回例外狀況。 您可以設定**AcceptCredentialsInUri**至**true**如果您必須在 URI 中指定認證。 如需詳細資訊，請參閱 [建立 Oracle E-business Suite 連線 URI
 ](../../ adapters-and-accelerators/adapter-oracle-ebs/create-the-oracle-e-business-suite-connection-uri.md）。|bool (System.Boolean)|  
   
@@ -91,5 +91,5 @@ ms.lasthandoff: 09/20/2017
 >   
 >  不過， **OraclePassword**不繫結屬性繫結檔案或 app.config 檔案中提供即使您指定這個繫結屬性的值時使用[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]或[!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [開發活動](../../esb-toolkit/development-activities.md)

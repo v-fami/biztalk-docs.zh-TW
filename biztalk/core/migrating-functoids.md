@@ -20,18 +20,18 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 72f9769a571eb9b04cee21e42f5e75afbbadfafa
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5fac30a9b884bc769752623003d16e7089b140d4
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="migrating-functoids"></a>移轉運算質
-從舊版 BizTalk Server 移轉對應到 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 時，對應中所包含的任何運算質也都會移轉。 如果您移轉的運算質未包含**指令碼處理**運算質，沒有其他移轉工作所需。 不過如果您的對應包含**指令碼處理**運算質或自訂運算質，您可能必須執行其他步驟。  
+當您從舊版的 BizTalk Server 移轉對應至 BizTalk Server 時，也會移轉任何包含在對應的運算質。 如果您移轉的運算質未包含**指令碼處理**運算質，沒有其他移轉工作所需。 不過如果您的對應包含**指令碼處理**運算質或自訂運算質，您可能必須執行其他步驟。  
   
  在舊版的 BizTalk Server 中，所有的自訂指令碼包含**指令碼處理**寫入內嵌運算質。 也就是說，當您建立運算質時，運算質在執行階段呼叫的所有指令碼都與運算質一起儲存。 如果您想要使用不同的運算質使用相同的指令碼，您可以複製並貼上它從某個**指令碼處理**到另一個，或者您的運算質重寫從頭指令碼。  
   
- 在移轉對應時，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會使用運算質複製現有的內嵌指令碼。 不過，所有指令碼可能會正常運作。 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]使用 Visual Basic.NET 和 JScript.NET，而非 VBScript 和 JScript 在舊版中使用。 語言的 .NET 版本包含部分語法變更。  
+ 在移轉對應時，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會使用運算質複製現有的內嵌指令碼。 不過，所有指令碼可能會正常運作。 BizTalk Server 會使用 Visual Basic.NET 和 JScript.NET，而不是 VBScript 和 JScript 在舊版中使用。 語言的 .NET 版本包含部分語法變更。  
   
 > [!NOTE]
 >  務必先測試您**指令碼處理**移轉之後的運算質。  
@@ -59,6 +59,6 @@ ms.lasthandoff: 09/20/2017
   
 7.  驗證並測試對應。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [編輯運算質屬性和輸入的參數](../core/editing-functoid-properties-and-input-parameters.md)   
  [指令碼處理運算質](../core/scripting-functoid.md)

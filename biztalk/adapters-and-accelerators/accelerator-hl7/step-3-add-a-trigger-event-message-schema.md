@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a4eed7ead2f0d50e7841ed6c39ffdcee86c6524f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 439caac8f1da151a9f203a1372039aaeedbfe83c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-3-add-a-trigger-event-message-schema"></a>步驟 3： 新增觸發程序事件 （訊息） 結構描述
 在此步驟中，您會建立空的新專案[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]專案範本。 加入此專案中，您將結構描述，[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]用來驗證內送的批次中的訊息 (ADT ^ A03)。 您將參考加入包含 v2.3.1 通用結構描述的專案，專案中，指派強式名稱，然後再部署專案。  
@@ -64,9 +64,9 @@ ms.lasthandoff: 09/20/2017
   
 3.  請檢查**簽署組件**核取方塊。  
   
-4.  在**選擇強式名稱金鑰檔**下拉式清單中，選取**\<瀏覽 >。**  
+4.  在**選擇強式名稱金鑰檔**下拉式清單中，選取**\<瀏覽...\>.**  
   
-5.  瀏覽至**\<*磁碟機*>:\Batching 教學課程**，選取 **key.snk** ，然後按一下 **開啟**。  
+5.  瀏覽至  **\<*磁碟機*\>: \Batching 教學課程 * *，選取**key.snk**，然後按一下 **開啟**。  
   
 6.  在 方案總管 中，以滑鼠右鍵按一下**BTAHL7V231Body**，然後按一下 **部署**。 請在 [輸出] 視窗中出現的成功訊息。  
   

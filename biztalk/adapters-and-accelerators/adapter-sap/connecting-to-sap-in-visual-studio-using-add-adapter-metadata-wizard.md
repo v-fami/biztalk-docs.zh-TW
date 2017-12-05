@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 18f56b5035787587e429614749cbfb0c1091b72c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: db24d079dc428c69733e36141280504f97728b26
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="connecting-to-sap-in-visual-studio-using-add-adapter-metadata-wizard"></a>在 Visual Studio 中使用連接至 SAP 新增配接器中繼資料精靈
 [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]也會公開成 BizTalk 配接器，因此，您可以使用[!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]產生結構描述您想要在使用配接器的 SAP 系統上執行的作業。  
@@ -71,7 +71,7 @@ ms.lasthandoff: 09/20/2017
     > [!IMPORTANT]
     >  如果您使用 SAP SNC 程式庫連接到 SAP 系統，設定**SncLibrary**和**SncPartnerName**至適當的值。  
     >   
-    >  **SncLibrary**繫結屬性會使用路徑和檔名使用 SNC 連接到 SAP 系統所需的 dll。 這些 Dll 必須要有與 SAP 用戶端電腦上和[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]安裝。 如需詳細資訊，請參閱[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]安裝指南位於\<安裝指南 >: \Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Documents。  
+    >  **SncLibrary**繫結屬性會使用路徑和檔名使用 SNC 連接到 SAP 系統所需的 dll。 這些 Dll 必須要有與 SAP 用戶端電腦上和[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]安裝。 如需詳細資訊，請參閱[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]安裝指南位於\<安裝指南\>: \Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Documents。  
     >   
     >  **SncPartnerName**繫結屬性會採用 SNC 通訊夥伴名稱。  
   
@@ -85,5 +85,5 @@ ms.lasthandoff: 09/20/2017
   
      [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]會顯示包含各種不同成品可以叫用 SAP 系統中的不同節點。 例如， **RFC**節點包含所有您連接到 SAP 系統所提供的 Rfc。 如需有關這些節點的詳細資訊，請參閱[中繼資料的節點識別碼](../../adapters-and-accelerators/adapter-sap/metadata-node-ids4.md)。  
   
-## <a name="see-also"></a>另請參閱  
- [連接到 Visual Studio 中的 SAP 系統](../../adapters-and-accelerators/adapter-sap/connect-to-the-sap-system-in-visual-studio.md)
+## <a name="see-also"></a>請參閱  
+ [在 Visual Studio 中連接到 SAP 系統](../../adapters-and-accelerators/adapter-sap/connect-to-the-sap-system-in-visual-studio.md)

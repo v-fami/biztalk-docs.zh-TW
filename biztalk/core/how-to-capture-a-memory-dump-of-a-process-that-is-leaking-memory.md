@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d2999ce9a188b2d9b94df11328485e8b7440ecec
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5e1e57a3c4d3c035069c550cdc540de1c88e8880
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-capture-a-memory-dump-of-a-process-that-is-leaking-memory"></a>如何擷取已發生記憶體溢位之程序的記憶體傾印
 當 BizTalk 程序 BTSNTSvc.exe 無法釋放不再需要的記憶體，因此導致一段時間後可用記憶體數量減少，就會定義為記憶體溢位。 程序的記憶體使用量可以藉由檢視底下的值判斷**記憶體使用量**資料行**處理程序** 索引標籤位於**工作管理員**。 如果程序在一段時間後持續使用記憶體，而未釋放記憶體，便會嚴重影響整體系統效能。  
@@ -50,7 +50,7 @@ ms.lasthandoff: 09/20/2017
   
 7.  在**規則完成**對話方塊中，按一下**完成**以接受預設值的**立即啟動規則**。  
   
-8.  根據預設，處理程序的記憶體傾印會儲存到 \Program Files\IIS Resources\DebugDiag\Logs\\<*損毀規則的名稱*> 目錄中所指定的時間間隔之後在本機電腦**設定追蹤持續期間**經過對話方塊。  
+8.  根據預設，處理程序的記憶體傾印會儲存到 \Program Files\IIS Resources\DebugDiag\Logs\\<*損毀規則的名稱*\>目錄的本機電腦的時間間隔之後指定在**設定追蹤持續期間**經過對話方塊。  
   
 ### <a name="to-manually-capture-a-memory-dump-of-a-process-that-is-leaking-memory"></a>若要手動擷取發生記憶體溢位之程序的記憶體傾印  
   
@@ -66,5 +66,5 @@ ms.lasthandoff: 09/20/2017
   
 6.  根據預設，程序的記憶體傾印會儲存在本機電腦的 \Program Files\IIS Resources\DebugDiag\Logs\Misc\ 目錄。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [如何使用 Debug Diagnostics 分析記憶體傾印](../core/how-to-use-debug-diagnostics-to-analyze-a-memory-dump.md)

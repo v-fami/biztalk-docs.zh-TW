@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 538e47f481f0817acfbd26477866a3d45a0d285b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e84fcd29af6b698713623fbca556d988e037d8c1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="using-bizunit-and-loadgen-to-automate-performance-and-stability-testing"></a>使用 BizUnit 和 LoadGen 來自動化效能與穩定性測試
 本主題提供如何使用 Microsoft BizTalk LoadGen 2007 工具 BizUnit 自動化效能與穩定性測試 BizTalk Server 解決方案的資訊。  
@@ -96,11 +96,11 @@ ms.lasthandoff: 09/20/2017
  Microsoft [BizTalk LoadGen 2007 工具](http://go.microsoft.com/fwlink/?LinkId=59841)適用於下載[http://go.microsoft.com/fwlink/?LinkId=59841](http://go.microsoft.com/fwlink/?LinkId=59841) (http://go.microsoft.com/fwlink/?LinkId=59841)。  
   
 ### <a name="sample-loadgen-configuration-file"></a>LoadGen 組態檔範例  
- LoadGen 的所有組態資訊都儲存在 xml 檔案。 LoadGen 組態檔包含\<CommonSection > 設定的預設設定來執行所有 LoadGen 工作 LoadGen 案例中的項目。 LoadGen 組態檔也可以包含一或多個\<區段 > 項目，提供特定的 LoadGen 工作的組態設定。 中的項目\<區段 > 項目中指定任何預設值會取代\<CommonSection > 項目。  
+ LoadGen 的所有組態資訊都儲存在 xml 檔案。 LoadGen 組態檔包含\<CommonSection\> LoadGen 案例中設定所有 LoadGen 工作的預設設定項目。 LoadGen 組態檔也可以包含一或多個\<區段\>提供特定的 LoadGen 工作的組態設定的項目。 中的項目\<區段\>項目中指定任何預設值會取代\<CommonSection\>項目。  
   
- 遵循範例 LoadGen 組態檔是稍微修改的 FileToFileLG.xml 範例組態檔包含 \ConfigFiles\ConsoleConfigFiles 子目錄 LoadGen 安裝目錄中的版本。 這項測試將 25 的訊息傳送\<LotSizePerInterval > 每隔 200 毫秒\<SleepInterval >，每個負載產生器的 5 個執行緒\<NumThreadsperSection > 5000 訊息後將會停止在負載測試和\<NumFiles > 已傳送。  
+ 遵循範例 LoadGen 組態檔是稍微修改的 FileToFileLG.xml 範例組態檔包含 \ConfigFiles\ConsoleConfigFiles 子目錄 LoadGen 安裝目錄中的版本。 這項測試將 25 的訊息傳送\<LotSizePerInterval\>每隔 200 毫秒\<SleepInterval\>，每個負載產生器的 5 個執行緒\<NumThreadsperSection\>，它將停止負載5000 訊息之後測試\<NumFiles\>已傳送。  
   
- 中指定檔案節流控制器\<ThrottleController > 一節。 值\<ThresholdRange > 設為 1000年-2000，這表示，如果檔案位置 （參數） C:\Scenarios\FileToFile\Receive 少於 1000年，或是超過 2000年檔案，節流控制器將會啟用節流設定檔產生器和視需要增加/減少負載。 中的檔案位置的檔案數目將會檢查每 1000年毫秒\<SleepInterval >。 \<FileSection > 元素可定義負載產生器來傳送訊息的屬性。 FileToFileLG.xml 檔案\<SrcFilePath > 將會 LoadGen 複製到 filedrop C:\Scenarios\FileToFile\Receive \<DstFilePath >。 因為這是預設的傳輸中指定這裡使用的檔案傳輸\<傳輸名稱 > 內的項目\<CommonSection > 項目。  
+ 中指定檔案節流控制器\<ThrottleController\> > 一節。 值\<ThresholdRange\>設為 1000年-2000，這表示，如果檔案位置 （參數） C:\Scenarios\FileToFile\Receive 少於 1000年，或是超過 2000年的檔案，節流控制器將會節流檔案視需要載入到產生器與增加/減少。 中的檔案位置的檔案數目將會檢查每 1000年毫秒\<SleepInterval\>。 \<FileSection\>元素可定義負載產生器來傳送訊息的屬性。 FileToFileLG.xml 檔案\<SrcFilePath\>會被 LoadGen 複製到 filedrop C:\Scenarios\FileToFile\Receive \<DstFilePath >。 因為這是預設的傳輸中指定這裡使用的檔案傳輸\<傳輸名稱\>內的項目\<CommonSection\>項目。  
   
 ```  
 <LoadGenFramework>  
@@ -350,7 +350,7 @@ ms.lasthandoff: 09/20/2017
 </TestStep>  
 ```  
   
- 在測試結束時，我們使用**BizUnit.DBExecuteNonQueryStep**更新測試結果資料庫。 完成此步驟結尾所示，表示測試執行階段中，結尾\</TestExecution > 標記。 同樣地，您必須修改**ConnectionString**和**RawSQLQuery**參數以符合您的環境。  
+ 在測試結束時，我們使用**BizUnit.DBExecuteNonQueryStep**更新測試結果資料庫。 完成此步驟結尾所示，表示測試執行階段中，結尾\</TestExecution\>標記。 同樣地，您必須修改**ConnectionString**和**RawSQLQuery**參數以符合您的環境。  
   
 ```  
    <!-- Step 11: Update test results DB with test stop time -->  
@@ -526,5 +526,5 @@ ms.lasthandoff: 09/20/2017
 </TestCase>  
 ```  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [使用 BizUnit 促進自動化測試](../technical-guides/using-bizunit-to-facilitate-automated-testing.md)

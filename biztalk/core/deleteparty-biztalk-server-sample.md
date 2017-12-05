@@ -19,11 +19,11 @@ caps.latest.revision: "16"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4d07793400f0217ef2f3ddcc637265f186647a00
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 68016285a53a2655c56810028925a91c1f8d66b0
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="deleteparty-biztalk-server-sample"></a>DeleteParty （BizTalk Server 範例）
 DeleteParty 範例示範如何刪除指定的合作對象。  
@@ -52,7 +52,7 @@ DeleteParty 範例示範如何刪除指定的合作對象。
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
  這個範例位於下列 SDK 位置：  
   
- \<*範例路徑*> \Admin\ExplorerOM\DeleteParty\  
+ \<*範例路徑*\>\Admin\ExplorerOM\DeleteParty\  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -70,12 +70,11 @@ DeleteParty 範例示範如何刪除指定的合作對象。
   
 1.  在命令視窗中，瀏覽至下列資料夾：  
   
-     \<*範例路徑*> \Admin\ExplorerOM\DeleteParty\bin\Debug\  
+     \<*範例路徑*\>\Admin\ExplorerOM\DeleteParty\bin\Debug\  
   
 2.  執行 DeleteParty.exe 檔案，它會傳遞下列兩個命令列引數：  
   
-    -   **\<**   
-         ***PartyName* >。** 要刪除的合作對象的名稱。 如果合作對象名稱包含空格，請用引號括住該名稱。  
+    -   **\<** ***PartyName* \>。** 要刪除的合作對象的名稱。 如果合作對象名稱包含空格，請用引號括住該名稱。  
   
     -   **/?.** 顯示說明。  
   
@@ -165,5 +164,5 @@ Name : Party2
   
 ```  
   
-## <a name="see-also"></a>另請參閱  
- [系統管理員 ExplorerOM （BizTalk Server 範例資料夾）](../core/admin-explorerom-biztalk-server-samples-folder.md)
+## <a name="see-also"></a>請參閱  
+ [Admin-ExplorerOM (BizTalk Server Samples 資料夾)](../core/admin-explorerom-biztalk-server-samples-folder.md)

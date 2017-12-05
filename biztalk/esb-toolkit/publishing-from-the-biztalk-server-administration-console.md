@@ -12,20 +12,20 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 313bfb773a94914ed9bebd3930dfd0033ecf4ac3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fbe03b1a8df67581ce73db31cd5ed4b80b7a109c
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="publishing-from-the-biztalk-server-administration-console"></a>從 BizTalk Server 管理主控台中發行
-如果您想要管理透過端點發行[!INCLUDE[prague](../includes/prague-md.md)]而不是在 ESB 管理入口網站管理主控台中，您可以在的 [描述] 欄位中輸入通用描述、 探索與整合 (UDDI) moniker若要發行至 UDDI 的端點。 以下是範例 moniker。  
+如果您想要管理透過 BizTalk Server 管理主控台，而不是在 ESB 管理入口網站發行端點，您可以在結束點的描述欄位中輸入通用描述、 探索與整合 (UDDI) moniker若要發行至 UDDI。 以下是範例 moniker。  
   
 ```  
 uddi://TransportType=other;Status=Published.  
 ```  
   
- 您可以設定下列的 UDDI 屬性使用**描述**欄位[!INCLUDE[prague](../includes/prague-md.md)]管理主控台：  
+ 您可以設定下列的 UDDI 屬性使用**描述**欄位在 BizTalk Server 管理主控台：  
   
 -   **ModifiedBy**。 此選擇性屬性包含修改端點; 的使用者帳戶名稱例如，MyDomainName\MyUserName。  
   

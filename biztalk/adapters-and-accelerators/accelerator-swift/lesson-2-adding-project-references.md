@@ -15,11 +15,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8ce151a83389fe5f0b3884446b5b793d1b58c618
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b00fc7d49024cec6f9c300444646da82069e16cc
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="lesson-2-adding-project-references"></a>第 2 課： 加入專案參考
 讓您的管線能夠存取位於 Microsoft.Solutions.FinancialServices.SWIFT.RuntimeSchemas.dll 檔案中的預設執行階段結構描述，您會加入專案參考。 此組件檔會包含標頭結構描述具有訊息類型解析所需的升級屬性。  
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  在 加入參考 對話方塊中，按一下**瀏覽** 索引標籤。  
   
-3.  瀏覽至  **\<*磁碟機*>: \Program Files\Microsoft BizTalk Accelerator for SWIFT\Assemblies * *。  
+3.  瀏覽至  **\<*磁碟機*\>: \Program Files\Microsoft BizTalk Accelerator for SWIFT\Assemblies * *。  
   
 4.  選取**Microsoft.Solutions.FinancialServices.SWIFT.RuntimeSchemas.dll**檔案。  
   

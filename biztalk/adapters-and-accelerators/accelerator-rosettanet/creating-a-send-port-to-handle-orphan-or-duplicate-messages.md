@@ -18,21 +18,21 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d9a5e52197c81e86bac69603e72d294cfbcd6faa
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9fc969e316df9b493dd294769d68a15012a46904
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="creating-a-send-port-to-handle-orphan-or-duplicate-messages"></a>建立傳送埠，以便處理遭遺棄或重複的訊息
 本主題說明如何設定傳送埠，讓您可以用來刪除遭遺棄或重複的訊息。  
   
- 遭遺棄或重複的訊息可能會產生問題如果[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]®[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]公開程序協調流程完成處理訊息的第一個複本之後，接收訊息的額外複本。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]將這些訊息標示為重複項目，並加以擱置。 您可以在 BizTalk 管理主控台中檢視這些訊息。 如需有關 BizTalk 管理主控台的詳細資訊，請參閱「[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] 說明」中的＜使用 BizTalk 管理主控台＞一節。  
+ 遭遺棄或重複的訊息可能會產生問題如果[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]®[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]公開程序協調流程完成處理訊息的第一個複本之後，接收訊息的額外複本。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]將這些訊息標示為重複項目，並加以擱置。 您可以在 BizTalk 管理主控台中檢視這些訊息。 如需 BizTalk 管理主控台的詳細資訊，請參閱 「 使用 BizTalk 管理主控台 」 在 BizTalk Server 說明中。  
   
- 除非您檢閱或刪除這些遭遺棄或重複的訊息，否則它們會持續存在於 BizTalk 管理主控台中。 刪除它們最有效的方式，就是設定具有篩選遭遺棄或重複訊息功能的傳送埠。 您可以使用 [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] 中任何可用的傳輸方式，移動這些訊息。 例如，您可以移動它們使用的檔案傳輸。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]會以檔案遭遺棄或重複的訊息傳送到硬碟上的位置。 如此便可以輕易將它們刪除。 這個連接埠可以是登錄或停止的狀態，在這種情況下，所有傳送至這個連接埠的訊息都將會在這個傳送埠下方，顯示為遭擱置的狀態。  
+ 除非您檢閱或刪除這些遭遺棄或重複的訊息，否則它們會持續存在於 BizTalk 管理主控台中。 刪除它們最有效的方式，就是設定具有篩選遭遺棄或重複訊息功能的傳送埠。 您可以移動它們使用 BizTalk Server 中提供的任何傳輸方式。 例如，您可以移動它們使用的檔案傳輸。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]會以檔案遭遺棄或重複的訊息傳送到硬碟上的位置。 如此便可以輕易將它們刪除。 這個連接埠可以是登錄或停止的狀態，在這種情況下，所有傳送至這個連接埠的訊息都將會在這個傳送埠下方，顯示為遭擱置的狀態。  
   
 > [!NOTE]
->  您可以建立特殊的管線元件，從 MessageBox 資料庫刪除這些訊息，而不用建立傳送埠來處理重複/遭遺棄的訊息。 您可以使用 [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] SDK 中的 FixMsg 元件做為範本。 但必須修改 `IComponent.Execute` 方法，才能傳回 null。 這便會導致 [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] 捨棄任何傳送至含有該元件之管線的訊息。 因此必須要編譯這個管線元件，並將它加入傳送管線，然後再編譯、部署以及選取這個接受埠的傳送管線。 如需詳細資訊，請參閱「[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] 說明」中的＜CustomComponent ([!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] 範例)＞一節。  
+>  您可以建立特殊的管線元件，從 MessageBox 資料庫刪除這些訊息，而不用建立傳送埠來處理重複/遭遺棄的訊息。 您可以使用 [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] SDK 中的 FixMsg 元件做為範本。 但必須修改 `IComponent.Execute` 方法，才能傳回 null。 這便會導致 [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] 捨棄任何傳送至含有該元件之管線的訊息。 因此必須要編譯這個管線元件，並將它加入傳送管線，然後再編譯、部署以及選取這個接受埠的傳送管線。 如需詳細資訊，請參閱 「 CustomComponent ([!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]範例) 」 在 BizTalk Server 說明中。  
   
 ### <a name="to-create-a-send-port-to-handle-orphan-or-duplicate-messages"></a>建立傳送埠，處理遭遺棄或重複的訊息  
   
@@ -60,5 +60,5 @@ ms.lasthandoff: 09/20/2017
   
 12. 在 [BizTalk 總管] 中，以滑鼠右鍵按一下傳送埠的名稱，請按一下**登錄**。 已經登錄傳送埠之後，傳送埠，以滑鼠右鍵按一下，然後按一下**啟動**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [程式設計指南](../../adapters-and-accelerators/accelerator-rosettanet/programming-guide2.md)

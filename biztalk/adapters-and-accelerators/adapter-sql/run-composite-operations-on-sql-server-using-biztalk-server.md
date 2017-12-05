@@ -12,11 +12,11 @@ caps.latest.revision: "21"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fa84ee4a4c1964db090cc48b7229558c9ee86114
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0f6891f300a89684481184bf255f3cdd54d25845
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="run-composite-operations-on-sql-server-using-biztalk-server"></a>執行複合操作 SQL Server 上使用 BizTalk Server
 [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]可讓配接器用戶端執行複合操作上的 SQL Server 資料庫。 複合作業可包括：  
@@ -82,7 +82,7 @@ ms.lasthandoff: 09/20/2017
   
      若要加入的參考：  
   
-    1.  以滑鼠右鍵按一下根**\<結構描述 >**中 CompositeSchema.xsd，按一下節點**屬性**。  
+    1.  以滑鼠右鍵按一下根**\<結構描述\>**中 CompositeSchema.xsd，按一下節點**屬性**。  
   
     2.  在**屬性**方塊中，按一下省略符號按鈕**（...）**針對**匯入**屬性。  
   
@@ -101,9 +101,9 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  根據預設，**根**節點也會加入至新的結構描述檔案。 您可以重新命名**根**節點**要求**。 若要重新命名的節點，以滑鼠右鍵按一下節點名稱，然後按一下**重新命名**。  
   
-     若要加入的節點下**\<結構描述 >**節點：  
+     若要加入的節點下**\<結構描述\>**節點：  
   
-    1.  以滑鼠右鍵按一下**\<結構描述 >**節點，指向**插入結構描述節點**，然後按一下**子記錄**。  
+    1.  以滑鼠右鍵按一下**\<結構描述\>**節點，指向**插入結構描述節點**，然後按一下**子記錄**。  
   
     2.  重新命名新的節點**RequestResponse**。  
   
@@ -289,7 +289,7 @@ ms.lasthandoff: 09/20/2017
  協調流程取用訊息，並將它傳送到 SQL Server 資料庫。 從 SQL Server 資料庫的回應會儲存在其他的協調流程中定義的檔案位置。 比方說，是從先前的要求訊息的 SQL Server 資料庫的回應：  
   
 ```  
-\<?xml version="1.0" encoding="utf-8" ?>   
+<?xml version="1.0" encoding="utf-8" ?>   
 <RequestResponse xmlns="http://CompositeTest.CompositeSchema">  
   <InsertResponse xmlns="http://schemas.microsoft.com/Sql/2008/05/TableOp/dbo/Employee">  
     <InsertResult>  
@@ -299,30 +299,30 @@ ms.lasthandoff: 09/20/2017
   <GET_LAST_EMP_DATAResponse xmlns="http://schemas.microsoft.com/Sql/2008/05/Procedures/dbo">  
     <GET_LAST_EMP_DATAResult>  
       <DataSet xmlns="http://schemas.datacontract.org/2004/07/System.Data">  
-        \<xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
-          \<xs:element msdata:IsDataSet="true" name="NewDataSet">  
-            \<xs:complexType>  
-              \<xs:sequence>  
-                \<xs:element minOccurs="0" maxOccurs="unbounded" name="NewTable">  
-                  \<xs:complexType>  
-                    \<xs:sequence>  
-                      \<xs:element minOccurs="0" name="Employee_ID" type="xs:int" />   
-                      \<xs:element minOccurs="0" name="Name" type="xs:string" />   
-                      \<xs:element minOccurs="0" name="DOJ" type="xs:dateTime" />   
-                      \<xs:element minOccurs="0" name="Designation" type="xs:string" />   
-                      \<xs:element minOccurs="0" name="Job_Description" type="xs:string" />   
-                      \<xs:element minOccurs="0" name="Photo" type="xs:base64Binary" />   
-                      \<xs:element minOccurs="0" name="Rating" type="xs:string" />   
-                      \<xs:element minOccurs="0" name="Salary" type="xs:decimal" />   
-                      \<xs:element minOccurs="0" name="Last_Modified" type="xs:base64Binary" />   
-                    \</xs:sequence>  
-                  \</xs:complexType>  
-                \</xs:element>  
-              \</xs:sequence>  
-            \</xs:complexType>  
-          \</xs:element>  
-        \</xs:schema>  
-        \<diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">  
+        <xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
+          <xs:element msdata:IsDataSet="true" name="NewDataSet">  
+            <xs:complexType>  
+              <xs:sequence>  
+                <xs:element minOccurs="0" maxOccurs="unbounded" name="NewTable">  
+                  <xs:complexType>  
+                    <xs:sequence>  
+                      <xs:element minOccurs="0" name="Employee_ID" type="xs:int" />   
+                      <xs:element minOccurs="0" name="Name" type="xs:string" />   
+                      <xs:element minOccurs="0" name="DOJ" type="xs:dateTime" />   
+                      <xs:element minOccurs="0" name="Designation" type="xs:string" />   
+                      <xs:element minOccurs="0" name="Job_Description" type="xs:string" />   
+                      <xs:element minOccurs="0" name="Photo" type="xs:base64Binary" />   
+                      <xs:element minOccurs="0" name="Rating" type="xs:string" />   
+                      <xs:element minOccurs="0" name="Salary" type="xs:decimal" />   
+                      <xs:element minOccurs="0" name="Last_Modified" type="xs:base64Binary" />   
+                    </xs:sequence>  
+                  </xs:complexType>  
+                </xs:element>  
+              </xs:sequence>  
+            </xs:complexType>  
+          </xs:element>  
+        </xs:schema>  
+        <diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">  
           <NewDataSet xmlns="">  
             <NewTable>  
               <Employee_ID>10080</Employee_ID>   
@@ -332,7 +332,7 @@ ms.lasthandoff: 09/20/2017
               <Last_Modified>AAAAAAAAF40=</Last_Modified>   
             </NewTable>  
           </NewDataSet>  
-        \</diffgr:diffgram>  
+        </diffgr:diffgram>  
       </DataSet>  
     </GET_LAST_EMP_DATAResult>  
     <ReturnValue>0</ReturnValue>   
@@ -348,5 +348,5 @@ ms.lasthandoff: 09/20/2017
 ## <a name="best-practices"></a>最佳作法  
  您部署和設定 BizTalk 專案之後，您可以為 XML 檔案，稱為繫結檔案匯出組態設定。 一旦產生繫結檔案時，可以組態設定匯入檔案，使您不需要建立項目，例如傳送埠和接收相同的協調流程連接埠。 如需繫結檔案的詳細資訊，請參閱[重複使用配接器繫結](../../adapters-and-accelerators/adapter-sql/reuse-sql-adapter-bindings.md)。
   
-## <a name="see-also"></a>另請參閱  
-[開發 BizTalk 應用程式使用 SQL 配接器](../../adapters-and-accelerators/adapter-sql/develop-biztalk-applications-using-the-sql-adapter.md)
+## <a name="see-also"></a>請參閱  
+[使用 SQL 配接器開發 BizTalk 應用程式](../../adapters-and-accelerators/adapter-sql/develop-biztalk-applications-using-the-sql-adapter.md)

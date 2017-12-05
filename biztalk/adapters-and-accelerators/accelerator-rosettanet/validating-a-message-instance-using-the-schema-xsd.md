@@ -17,11 +17,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 50a4e0b08e3bbe9e29b3417fd6e53475fd98483c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0eda0b76b3daff53290264169c5b2effe80a9e5c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="validating-a-message-instance-using-the-schema-xsd"></a>驗證訊息執行個體使用的結構描述 XSD
 本主題描述如何使用 Microsoft?[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 已建置到 RNPIP 組件檔案的其中一個結構描述 XSD 檔案來驗證訊息執行個體。  
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**檔案**，指向 **開啟**，然後按一下 **專案**。  
   
-3.  找出*\<磁碟機 >*\Program Files\Microsoft BizTalk\<版本 > Accelerator for rosettanet\sdk\schemas 中，按一下**RNPIPs.btproj**，然後按一下  **開啟**。  
+3.  找出*\<磁碟機\>*\Program Files\Microsoft BizTalk\<版本\>Accelerator for rosettanet\sdk\schemas 中，按一下**RNPIPs.btproj**，然後按一下 **開啟**。  
   
 4.  在 方案總管 中，展開**Rnpip**，以滑鼠右鍵按一下結構描述 XSD，您要用來驗證訊息執行個體，然後按一下 **屬性**。  
   
@@ -42,6 +42,6 @@ ms.lasthandoff: 09/20/2017
   
 7.  在 方案總管 中，以滑鼠右鍵按一下結構描述 XSD，您要用來驗證訊息執行個體，然後按一下 **驗證執行個體**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [修改 Rnpip 中的現有 PIP](../../adapters-and-accelerators/accelerator-rosettanet/modifying-an-existing-pip-in-rnpips.md)   
- [使用 Pip](../../adapters-and-accelerators/accelerator-rosettanet/working-with-pips.md)
+ [使用 PIP](../../adapters-and-accelerators/accelerator-rosettanet/working-with-pips.md)

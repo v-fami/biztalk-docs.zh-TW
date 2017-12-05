@@ -12,11 +12,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5aca6e7be3c4fbeff2484f1d59454b09a4777cff
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ca19a58410014b9ea7c0c49df7420b439a544581
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="using-the-unit-testing-feature-with-pipelines"></a>使用單元測試功能搭配管線
 此主題示範如何使用單元測試功能，以在 FlatFileReceive 管線範例中新增管線的單元測試。 管線單元測試會記載於此處的 Pipeline.exe 工具相似：[管線工具](../core/pipeline-tools.md)。 當您啟用單元測試上**部署**] 索引標籤的 [專案屬性中，您的專案中的管線類別衍生自**Microsoft.BizTalk.TestTools.Pipeline.TestableReceivePipeline**。  此類別可做為 Pipeline.exe 工具所公開之一些相同功能的模型。  
@@ -119,7 +119,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  在 TestResults 目錄中檢查 *.out 檔案。 此檔案應包含由管線處理的新訊息。  位置所在的目錄看起來應和下面相似：  
   
-     C:\Program Files\Microsoft BizTalk Server\<版本 > \SDK\Samples\Pipelines\AssemblerDisassembler\FlatFileReceive\TestResults\Wes_BTS2009Svr 2009年-02-04 09_01_04\Out  
+     C:\Program Files\Microsoft BizTalk Server\<版本\>\SDK\Samples\Pipelines\AssemblerDisassembler\FlatFileReceive\TestResults\Wes_BTS2009Svr 2009年-02-04 09_01_04\Out  
   
      所處理的訊息看起來應和下面相似：  
   
@@ -175,8 +175,8 @@ ms.lasthandoff: 09/20/2017
 |--------------------|-----------------|  
 |文件|StringCollection 包含要由管線處理的訊息。|  
 |組件|StringCollection 包含訊息的數個部分。|  
-|結構描述|用來將每個訊息類型對應至其相對應的字典對應\*.xsd 結構描述檔案。 此金鑰必須是格式**Namespace.Type**。 從 [屬性] 視窗，則應該注意的命名空間和型別使用\*.xsd 檔案中的[!INCLUDE[vs2010](../includes/vs2010-md.md)]。 請參閱下面的螢幕擷取畫面。<br /><br /> ![](../core/media/namespaceandtypeforxsd.gif "NamespaceAndTypeForXSD")<br /><br /> **命名空間和類型從 XSD 檔案的 [屬性] 視窗中公開。**|  
+|結構描述|用來將每個訊息類型對應至其相對應的字典對應\*.xsd 結構描述檔案。 此金鑰必須是格式**Namespace.Type**。 從 [屬性] 視窗，則應該注意的命名空間和型別使用\*Visual Studio 中的.xsd 檔案。 請參閱下面的螢幕擷取畫面。<br /><br /> ![](../core/media/namespaceandtypeforxsd.gif "NamespaceAndTypeForXSD")<br /><br /> **命名空間和類型從 XSD 檔案的 [屬性] 視窗中公開。**|  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [使用單元測試的結構描述和對應的功能](../core/using-the-unit-testing-feature-with-schemas-and-maps.md)   
  [使用單元測試 (Visual Studio)](http://go.microsoft.com/fwlink/?LinkId=128890)

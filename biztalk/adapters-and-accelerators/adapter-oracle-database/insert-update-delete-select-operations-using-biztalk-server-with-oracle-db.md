@@ -13,11 +13,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a5401e075e7fcf44d32ec1d1b259c5dd194b6767
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2ee4559a8a1111c3000499e87612ae754316596e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="insert-update-delete-or-select-operations-using-biztalk-server-with-oracle-database"></a>插入、 更新、 刪除或選取 使用 BizTalk Server 與 Oracle 資料庫作業
 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]呈現一組標準 Oracle 資料庫資料表和檢視表上作業。 這些稱為資料操作語言 (DML) 作業作業使用您可以執行簡單的 INSERT、 UPDATE、 SELECT 和 DELETE 陳述式資料表和檢視表的 WHERE 子句所限定。 如需配接器如何支援這些作業的詳細資訊，請參閱[Insert、 Update、 Delete 和 Oracle 資料表和檢視表的選取作業](../../adapters-and-accelerators/adapter-oracle-database/insert-update-delete-and-select-operations-on-oracle-tables-and-views.md)。 DML 作業的 SOAP 訊息結構的相關資訊，請參閱[基本 Insert、 Update、 Delete 和資料表和檢視表的選取作業的訊息結構描述](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-insert-update-delete-and-select-on-tables-and-views.md)。  
@@ -173,7 +173,7 @@ ms.lasthandoff: 09/20/2017
  協調流程取用訊息，並將它傳送到 Oracle 資料庫。 從 Oracle 資料庫的回應會儲存在其他的協調流程中定義的檔案位置。 比方說，是來自上述的要求訊息的 Oracle 資料庫的回應：  
   
 ```  
-\<?xml version="1.0" encoding="utf-8" ?>   
+<?xml version="1.0" encoding="utf-8" ?>   
   <SelectResponse xmlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/ACCOUNTACTIVITY">  
     <SelectResult>  
       <ACCOUNTACTIVITYRECORDSELECT>  
@@ -200,5 +200,5 @@ ms.lasthandoff: 09/20/2017
 ## <a name="best-practices"></a>最佳作法  
  您部署和設定 BizTalk 專案之後，您可以為 XML 檔案，稱為繫結檔案匯出組態設定。 一旦產生繫結檔案時，您可以匯入組態設定從檔案，因此您不需要建立傳送埠、 接收埠，等。 針對相同的協調流程。 如需繫結檔案的詳細資訊，請參閱[重複使用的 Oracle 資料庫配接器繫結](../../adapters-and-accelerators/adapter-oracle-database/reuse-oracle-database-adapter-bindings.md)。
   
-## <a name="see-also"></a>另請參閱  
-[開發應用程式的 Oracle 資料庫](../../adapters-and-accelerators/adapter-oracle-database/develop-your-oracle-database-applications.md)
+## <a name="see-also"></a>請參閱  
+[開發您的 Oracle 資料庫應用程式](../../adapters-and-accelerators/adapter-oracle-database/develop-your-oracle-database-applications.md)

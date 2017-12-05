@@ -16,11 +16,11 @@ caps.latest.revision: "16"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 04d8930fb4e3f2014945b743b15da4dbdfff3451
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bc49038c30cc6016c79f8e0d309f93217994327f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-remove-bam-views"></a>如何移除 BAM 檢視
 系統管理員使用**移除檢視**命令，從 BAM 主要匯入資料庫移除檢視。  
@@ -34,11 +34,11 @@ ms.lasthandoff: 09/20/2017
   
 2.  瀏覽至追蹤資料夾，輸入**C:\Program Files\Microsoft BizTalk Server 2009 \tracking**在命令提示字元。 按 ENTER 鍵。  
   
-3.  型別**bm 移除檢視的名稱：\<檢視名稱 >**。  
+3.  型別**bm 移除檢視的名稱：\<檢視名稱\>**。  
   
 4.  按 ENTER 鍵。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理 BAM 動態基礎結構](../core/managing-the-bam-dynamic-infrastructure.md)   
  [BAM 安全性建議](../core/bam-security-recommendations.md)   
  [BAM 管理公用程式](../core/bam-management-utility.md)   

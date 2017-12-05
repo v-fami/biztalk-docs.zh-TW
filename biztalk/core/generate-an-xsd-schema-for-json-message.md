@@ -12,15 +12,15 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b450c74f7d2eda6d3b688c40d0f8e8cde5c66d3b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 88caf75d312179cd45bb1b3b421d6c2c7f25c2a8
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="generate-an-xsd-schema-for-json-message"></a>產生 JSON 訊息的 XSD 結構描述
 > [!NOTE]
->  本教學課程僅適用於 [!INCLUDE[prague](../includes/prague-md.md)]。  
+>  本教學課程僅適用於 BizTalk Server。  
   
  在此解決方案中，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]應用程式接收 JSON 訊息。 應用程式可以處理訊息之前，它必須轉換成 XSD 結構描述。 若要這樣做，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]所提供的 JSON 結構描述精靈從 JSON 訊息建立 XSD 結構描述。  
   
@@ -36,5 +36,5 @@ ms.lasthandoff: 09/20/2017
   
 5.  具有指定名稱的結構描述加入至[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]專案。 產生的結構描述檔案 (**PO.xsd**) 也會提供範例。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [使用 BizTalk Server 處理 JSON 訊息](../core/processing-json-messages-using-biztalk-server.md)

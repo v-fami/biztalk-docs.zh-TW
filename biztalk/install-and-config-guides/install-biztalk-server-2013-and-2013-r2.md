@@ -12,18 +12,18 @@ caps.latest.revision: "21"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3563fe263a3921979c7a0c143112b1bbe9d73790
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e04bbce8870e4f0e8c0edb278511f2a6791d62d8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="install-biztalk-server-2013-and-2013-r2"></a>安裝 BizTalk Server 2013 和 2013 R2
 列出安裝 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的步驟。  
   
 ## <a name="before-you-get-started"></a>在開始之前
 
--   **帳戶名稱** – 您應該盡量使用預設帳戶名稱。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 安裝程式會自動輸入預設帳戶。 如果在網域中有多個 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 群組，請變更帳戶名稱以避免發生衝突。 如果您變更名稱，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]僅支援\< *NetBIOS 網域名稱*>\\<*使用者*> 服務帳戶和 Windows群組。  
+-   **帳戶名稱** – 您應該盡量使用預設帳戶名稱。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 安裝程式會自動輸入預設帳戶。 如果在網域中有多個 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 群組，請變更帳戶名稱以避免發生衝突。 如果您變更名稱，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]僅支援\< *NetBIOS 網域名稱*\>\\<*使用者*\>服務帳戶和 Windows 群組。  
   
 -   **帳戶名稱與 BAM 管理 Web 服務** – [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 不支援使用內建帳戶或無密碼的帳戶作為 BAM 管理 Web 服務使用者。 Web 服務會存取 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 資料庫，而這類帳戶可能會帶來安全性威脅。  
   

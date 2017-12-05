@@ -12,11 +12,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 22572f01f1e76dae36cbdcb34a4321c2db1c44c6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d5813bb4881535290422e2ba01d20d4370f4e604
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="sending-a-preserved-batch-interchange"></a>傳送保留的批次交換
 當 EDI 傳送管線處理保留的輸出批次交換時，它會將該批次交換一起處理。 它通常會建立 EDI 交換，而不是套用信封根據協議中的現有信封 （控制項） 區段重複使用。 發生這種情況時**輸入批次處理選項**屬性設定為**保留交換-發生錯誤時暫停交換**或**保留交換-發生時暫停交易集錯誤**。  
@@ -43,7 +43,7 @@ ms.lasthandoff: 09/20/2017
 >  您可以透過 XML 傳送管線來傳送保留批次。 不過，這時您必須修改該批次結構描述的命名空間。 如需詳細資訊，請參閱[透過 XML 傳送管線傳送保留批次](../core/sending-a-preserved-batch-with-an-xml-send-pipeline.md)。  
   
 ## <a name="error-processing"></a>錯誤處理  
- EDI 傳送管線會因為 XML 中的保留標記，而將批次 EDI 交換辨識為保留批次。 此標記，可能是\<X12InterchangeXml > 或\<m >，適用於 XML 由 EDI 接收管線。  
+ EDI 傳送管線會因為 XML 中的保留標記，而將批次 EDI 交換辨識為保留批次。 此標記，可能是\<X12InterchangeXml\>或\<EdifactInterchangeXml\>，套用至 XML 由 EDI 接收管線。  
   
  下列特殊案例適用於發生錯誤時擱置交易集的情況：  
   
@@ -53,5 +53,5 @@ ms.lasthandoff: 09/20/2017
   
 -   如果群組控制區段或交換控制區段無效，就不會產生 EDI 編碼交換。 事件檢視器中將會建立記錄檔，表示該次交換已遭拒絕。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [批次處理外寄 EDI 訊息](../core/batching-outgoing-edi-messages.md)

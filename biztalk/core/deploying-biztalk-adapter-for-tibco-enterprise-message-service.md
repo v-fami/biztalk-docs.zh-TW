@@ -13,11 +13,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e020ccc111c3f1a7ae11ae0b2b434d36e8a5db28
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: 79f7f3ec0478746b8c2c6762fe212229f9c7b11d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="deploy-tibco-ems-ports-and-assemblies"></a>部署 TIBCO EMS 通訊埠和組件
 
@@ -52,15 +52,15 @@ ms.lasthandoff: 11/07/2017
   
 如果目標電腦上尚未安裝 Microsoft Visual Studio，您可以執行下列指令碼來移除連接埠：  
   
-`\<Microsoft BizTalk Server>\SDK\Samples\Admin\WMI\Remove Send Port\VBScript\RemoveSendPort.vbs`  
+`\<Microsoft BizTalk Server\>\SDK\Samples\Admin\WMI\Remove Send Port\VBScript\RemoveSendPort.vbs`  
   
-`\<Microsoft BizTalk Server>\SDK\Samples\Admin\WMI\Remove Receive Port\VBScript\RemoveReceivePort.vbs`
+`\<Microsoft BizTalk Server\>\SDK\Samples\Admin\WMI\Remove Receive Port\VBScript\RemoveReceivePort.vbs`
   
 
 例如，在命令提示字元下執行：  
   
 ```
-cscript RemoveSendPort.vbs \<Send port name>
+cscript RemoveSendPort.vbs \<Send port name\>
 ```
 
 ## <a name="limitations"></a>限制

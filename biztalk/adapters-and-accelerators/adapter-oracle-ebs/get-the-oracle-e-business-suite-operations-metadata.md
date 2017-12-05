@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f49bda367f9929d3ab320ac7bbaeee6ed49de2a8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1443219f8562caee53547be3f78df15834ddf4b7
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="get-the-oracle-e-business-suite-operations-metadata"></a>取得 Oracle E-business Suite 作業的中繼資料
 您可以使用[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]產生選取的 Oracle E-business Suite 成品的結構描述。 您已經瀏覽及搜尋您想要叫用的成品之後，您可以產生結構描述的那些成品，並傳送訊息，符合結構描述到 Oracle E-business Suite 的資訊。  
@@ -63,10 +63,10 @@ ms.lasthandoff: 09/20/2017
     >  如果您用來產生 Oracle 成品上作業的中繼資料使用配接器服務增益集，預設會建立檔案使用特定的命名慣例： 產生的 XSD 檔案名稱具有下列三個部分：  
     >   
     >  -   中提供 」 OracleEBSBinding"或前置詞**檔案名稱前置詞**方塊。  
-    > -   名稱中包含**fileNameHint**產生的 WSDL 中的註解標記。 對於作業而言，檔案名稱提示是相同作業群組。 針對複雜型別，檔案名稱提示為不含"http://schemas.microsoft.com/OracleEBS/2008/05/"前置詞的命名空間。 例如，介面資料表作業的檔案名稱提示所遵循的慣例\<InterfaceTables > + < app_short_name > + < interface_table_name >。  
+    > -   名稱中包含**fileNameHint**產生的 WSDL 中的註解標記。 對於作業而言，檔案名稱提示是相同作業群組。 針對複雜型別，檔案名稱提示為不含"http://schemas.microsoft.com/OracleEBS/2008/05/"前置詞的命名空間。 例如，介面資料表作業的檔案名稱提示所遵循的慣例\<InterfaceTables\>+ < app_short_name > + < interface_table_name >。  
     > -   （選擇性）整數，以確保檔案名稱是唯一。  
     >   
-    >  最後，XSD 檔案的名稱到達時做為 < file_name_prefix > +\<fileNameHint > + n，其中"n"是唯一的整數。  
+    >  最後，XSD 檔案的名稱到達時做為 < file_name_prefix > +\<fileNameHint\>+ n，其中"n"是唯一的整數。  
   
     > [!NOTE]
     >  [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]也會建立包含時指定的繫結屬性的繫結檔案 （XML 檔案） 產生的結構描述的作業和要叫用作業的 SOAP 動作。 您可以將此繫結檔案匯入[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]管理主控台來建立 WCF 自訂連接埠與連接 URI、 繫結屬性和 SOAP 動作設定。 如需詳細資訊，請參閱[設定使用 Oracle 資料庫的連接埠繫結檔案的實體連接埠繫結](../../adapters-and-accelerators/adapter-oracle-database/configure-a-physical-port-binding-using-a-port-binding-file-to-oracle-database.md)。  
@@ -116,5 +116,5 @@ ms.lasthandoff: 09/20/2017
   
  您可以選取任何節點中所列**可用的類別和作業**方塊。 如果您選取類別目錄節點，則會選取所有適用於該節點和其子節點的作業。 例如，若要產生的所有作業 AR_ARCHIVE_PURGE_INTERIM 資料表中顯示的 WCF 用戶端，您可以選取**AR_ARCHIVE_PURGE_INTERIM**節點。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [瀏覽、 搜尋及取得 Oracle E-business Suite 作業的中繼資料](../../adapters-and-accelerators/adapter-oracle-ebs/browse-search-and-get-metadata-for-oracle-e-business-suite-operations.md)

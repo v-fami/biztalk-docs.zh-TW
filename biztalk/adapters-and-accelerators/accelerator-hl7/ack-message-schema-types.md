@@ -16,11 +16,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6c29657226c993a68b8cd557a39a7837717e2c66
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 09537a9fda34ee1148e3e4d880f17f35f83f761c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="ack-message-schema-types"></a>ACK 訊息結構描述類型
 通知訊息結構描述有兩種形式：  
@@ -41,7 +41,7 @@ ms.lasthandoff: 09/20/2017
     |MSA|通知訊息|2|  
     |[錯誤]|錯誤|2|  
   
- 認可訊息有 MSH9 欄位設定為**ACK ^\<***觸發程序事件***> ^ ACK**或**MCF ^\<** *觸發程序事件***> ^ ACK**。 如此一來，第 1 個元件 MSH9 就足以判斷通知結構描述。 文件名稱[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 管線會使用一定會包含 HL7 為命名空間。 型別名稱是 MSH9_1 欄位中，這是通知或 mom 連接器架構的內容。 如此一來，如上述範例所示[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]管線會尋找名稱 HL7 結構描述。ACK 或 HL7。MCF MSH9_1 欄位的值而定。 針對訊息內文結構描述是相同的 2.X 版的所有訊息。  
+ 認可訊息有 MSH9 欄位設定為**ACK ^\<***觸發程序事件***\>^ ACK**或**MCF ^\<** *觸發程序事件***\>^ ACK**。 如此一來，第 1 個元件 MSH9 就足以判斷通知結構描述。 文件名稱[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 管線會使用一定會包含 HL7 為命名空間。 型別名稱是 MSH9_1 欄位中，這是通知或 mom 連接器架構的內容。 如此一來，如上述範例所示[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]管線會尋找名稱 HL7 結構描述。ACK 或 HL7。MCF MSH9_1 欄位的值而定。 針對訊息內文結構描述是相同的 2.X 版的所有訊息。  
   
 > [!NOTE]
 >  在批次中 / 出通知案例中，通知標頭內容的批次如下所示：  
@@ -54,7 +54,7 @@ ms.lasthandoff: 09/20/2017
   
 -   [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]設定 MSH12 2.4 或 2.5。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [建立及處理通知](../../adapters-and-accelerators/accelerator-hl7/creating-and-processing-acknowledgments.md)   
  [訊息通知區段](../../adapters-and-accelerators/accelerator-hl7/message-acknowledgment-segment.md)   
  [設定傳送埠來接收通知](../../adapters-and-accelerators/accelerator-hl7/setting-up-a-send-port-for-receiving-acks.md)   

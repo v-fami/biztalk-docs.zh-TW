@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c0e09e298694a3affd979eacc35ec43a1f92fab5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d62380146f0bfba188843ed0e022340d88fcaceb
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="automating-the-build-process"></a>自動化建置程序
 自動化的建置程序會編譯、 部署和則會針對最新的原始碼專案的組建驗證測試 (Bvt) 執行一般的預先決定的間隔。 然後 「 組建報告，」 成功或失敗的建置程序會詳細說明，為該專案的專案關係人。 分析組建報告來判斷哪些區域的專案需要注意，如果專案應該會回復的較早的版本/組建。  
@@ -108,7 +108,7 @@ ms.lasthandoff: 09/20/2017
  請務必將撰寫每項功能的測試所需的開發工作降至最低。 它是以產生 （依據開發時間） 的項目較少的測試案例，可能會得到通常會較為昂貴。 這表示您必須透過您的程式碼的測試涵蓋範圍較低層級。 藉由使用的測試架構，您可以開發更快速且輕鬆測試案例，因此，更輕鬆地取得完整的程式碼涵蓋範圍。 大部分的很好的測試架構會使用宣告式方法定義的測試。 （也就是測試組態會儲存在組態檔中，通常是 XML 檔案）。使用很好的測試架構可讓您開發完整功能測試套件以敏捷式軟體開發且可靠的方式，以及可避免 「 造"一再重複，所以必須。  
   
 ## <a name="msbuild-support-for-biztalk-server-projects"></a>BizTalk Server 專案的 MSBUILD 支援  
- [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]提供的 Microsoft Build Engine (MSBUILD) 平台，可容納在未安裝 Visual Studio 的組建實驗室環境中的 managed 專案的建置支援。 MSBUILD 可容納從命令列] 和 [進階的功能，包括記錄和批次處理的 MSBUILD 建置專案。 如需 MSBUILD 的詳細資訊，請參閱[MSBuild 概觀](http://go.microsoft.com/fwlink/?LinkId=131739)(http://go.microsoft.com/fwlink/?LinkId=131739)。  
+ BizTalk Server 提供的 Microsoft Build Engine (MSBUILD) 平台，可容納在未安裝 Visual Studio 的組建實驗室環境中的 managed 專案的建置支援。 MSBUILD 可容納從命令列] 和 [進階的功能，包括記錄和批次處理的 MSBUILD 建置專案。 如需 MSBUILD 的詳細資訊，請參閱[MSBuild 概觀](http://go.microsoft.com/fwlink/?LinkId=131739)(http://go.microsoft.com/fwlink/?LinkId=131739)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [實作自動化的測試](../technical-guides/implementing-automated-testing.md)

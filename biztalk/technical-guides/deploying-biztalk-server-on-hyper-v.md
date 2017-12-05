@@ -12,19 +12,19 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c3ddbfafe8a96f524642352b3e8188fd6396795f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 08e25db910de42eb5a15effbe0de20b358501f3d
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="deploying-biztalk-server-on-hyper-v"></a>部署 HYPER-V 上的 BizTalk Server
-本節提供建議和最佳作法來安裝、 設定及部署[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]HYPER-V 虛擬環境中的方案。 本節說明部署的優點您[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]方案到 HYPER-V 虛擬化環境、 設定 HYPER-V 虛擬機器的建議和建議安裝和設定[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]上 Hyper-v 角色虛擬機器。  
+本節提供建議和安裝、 設定和部署 HYPER-V 虛擬環境中的 BizTalk Server 解決方案最佳做法。 本章節描述將部署到 HYPER-V 虛擬化的環境、 設定 HYPER-V 虛擬機器的建議和建議安裝和設定 BizTalk Server 在 HYPER-V 上的 BizTalk Server 解決方案的優點虛擬機器。  
   
 ## <a name="in-this-section"></a>本節內容  
   
--   [潛在優點，BizTalk Server 方案部署到使用 HYPER-V 的虛擬化環境](../technical-guides/benefits-of-deploying-a-biztalk-server-solution-to-a-hyper-v-environment.md)  
+-   [將 BizTalk Server 解決方案部署到使用 Hyper-V 虛擬化環境的潛在優點](../technical-guides/benefits-of-deploying-a-biztalk-server-solution-to-a-hyper-v-environment.md)  
   
--   [安裝和設定 BizTalk Server 與 HYPER-V 虛擬機器使用](../technical-guides/install-and-configure-a-hyper-v-virtual-machine-to-use-for-biztalk-server.md)  
+-   [安裝和設定 Hyper-V 虛擬機器以便搭配 BizTalk Server 使用](../technical-guides/install-and-configure-a-hyper-v-virtual-machine-to-use-for-biztalk-server.md)  
   
--   [檢查清單： 安裝和設定 BizTalk Server 上使用 HYPER-V 的最佳作法](../technical-guides/checklist-best-practices-to-install-and-configure-biztalk-server-on-hyper-v.md)
+-   [檢查清單：在 Hyper-V 上安裝和設定 BizTalk Server 上的最佳做法](../technical-guides/checklist-best-practices-to-install-and-configure-biztalk-server-on-hyper-v.md)

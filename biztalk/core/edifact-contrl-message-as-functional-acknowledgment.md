@@ -12,11 +12,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 923bc73e6ee778cbf960300902c7f631dc5d9f5b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6e95e61fa4152cdd7485175240b6481f3d28cfc7
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="edifact-contrl-message-as-functional-acknowledgment"></a>EDIFACT CONTRL 訊息做為功能通知
 如果您選取要產生功能通知，在商務設定檔的設定或交易夥伴協議 （或後援協議，如果未定義協議是兩個商務設定檔之間），或如果設定為"1"，CONTRL 訊息中的 UNB9 欄位訊息將會產生做為功能通知 (ACK)。 這個通知會報告對交換進行語法檢查的結果。  
@@ -45,7 +45,7 @@ ms.lasthandoff: 09/20/2017
 >  CONTRL 訊息包含數個將從已接收交換複製過來的必要資料元素。 如果交換中的資料元素遺失或語法錯誤，將無法產生語法正確的 CONTRL 訊息。 如此則必須以 CONTRL 訊息以外的其他方式報告錯誤。  
   
 > [!NOTE]
->  在 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 中，將傳送 CONTRL 訊息 (接收通知、接收或拒絕)，以回應包含一個或多個 CONTRL 訊息的已接收交換。 在 [!INCLUDE[bts2010R2](../includes/bts2010r2-md.md)] 中，則不會傳送 CONTRL 訊息 (接收通知、接收或拒絕) 回應包含一個或多個 CONTRL 訊息的已接收交換。 所收到 CONTRL 訊息中的錯誤，必須以 CONTRL 訊息以外的其他方式報告。 如果含有資料訊息的交換中包含一或多個 CONTRL 訊息，則為回應該交換而產生 CONTRL 訊息時，會如同已接收交換中不包含任何 CONTRL 訊息般地產生 CONTRL 訊息。  
+>  在 BizTalk Server 中，包含一個或多個 CONTRL 訊息的已接收交換的回應以傳送 CONTRL 訊息 （接收通知、 接受或拒絕）。 在 [!INCLUDE[bts2010R2](../includes/bts2010r2-md.md)] 中，則不會傳送 CONTRL 訊息 (接收通知、接收或拒絕) 回應包含一個或多個 CONTRL 訊息的已接收交換。 所收到 CONTRL 訊息中的錯誤，必須以 CONTRL 訊息以外的其他方式報告。 如果含有資料訊息的交換中包含一或多個 CONTRL 訊息，則為回應該交換而產生 CONTRL 訊息時，會如同已接收交換中不包含任何 CONTRL 訊息般地產生 CONTRL 訊息。  
   
  **SG 迴圈**  
   

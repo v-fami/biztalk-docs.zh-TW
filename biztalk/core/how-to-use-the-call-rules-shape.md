@@ -17,11 +17,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a634c2e0a97e627925390610bf4c3039c8afc85c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c85badfaf22ff4fb6aebd9ed19c757faaa1f303c
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-use-the-call-rules-shape"></a>如何使用呼叫規則圖形
 在協調流程設計師中，您可以使用**呼叫規則**圖形以呼叫商務原則。  
@@ -35,7 +35,7 @@ ms.lasthandoff: 09/20/2017
      以滑鼠右鍵按一下的連接線或圖形預留位置您要加入圖形，指向 **插入圖形**操作功能表，然後按一下**呼叫規則**。  
   
     > [!NOTE]
-    >  在[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]，您不需要有要插入的不可部分完成範圍**呼叫規則**圖形。 您可以拖曳**呼叫規則**從工具箱拖曳圖形到協調流程設計介面。 不過，在[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]、**呼叫規則**功能表項目已停用操作功能表中如果您嘗試插入**呼叫規則**圖形的協調流程沒有不可部分完成的範圍內。 這是 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 產品的限制。  
+    >  在 BizTalk Server 中，您不需要有要插入的不可部分完成範圍**呼叫規則**圖形。 您可以拖曳**呼叫規則**從工具箱拖曳圖形到協調流程設計介面。 不過，在 BizTalk Server**呼叫規則**功能表項目已停用操作功能表中如果您嘗試插入**呼叫規則**圖形的協調流程沒有不可部分完成的範圍內。 這是 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 產品的限制。  
   
 2.  在協調流程設計師中，選取**呼叫規則**圖形。  
   

@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 18caef7d7c60fa7aa129baa787c746b3b797c808
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 01a20c7c4a58a12f242cbd412c23e2d2fa9fe24f
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-transform-a-message-and-route-the-resulting-message-to-a-file-location-using-an-itinerary-routing-slip"></a>如何： 轉換訊息，並將產生的訊息路由至使用路線的路由名單的檔案位置
 ## <a name="goal"></a>目標  
@@ -37,7 +37,7 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-create-an-esb-itinerary-dsl-model"></a>若要建立 ESB 路線 DSL 模型  
   
-1.  在[!INCLUDE[vs2010](../includes/vs2010-md.md)]，開啟 C:\HowTos\Patterns\Patterns.sln。  
+1.  在 Visual Studio 中開啟 C:\HowTos\Patterns\Patterns.sln。  
   
 2.  在 方案總管 中，以滑鼠右鍵按一下**ItineraryLibrary**專案，指向**新增**，然後按一下 **新的行程**。  
   
@@ -160,7 +160,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="additional-resources"></a>其他資源  
  如需詳細資訊，請參閱這些相關主題：  
   
-1.  [如何： 將交換分割，並將產生的訊息路由至多個使用不同的行程的檔案位置](../esb-toolkit/split-an-interchange-and-route-messages-to-multiple-locations-using-itineraries.md)  
+1.  [如何：分割交換，並使用不同路線將產生的訊息路由至多個檔案位置](../esb-toolkit/split-an-interchange-and-route-messages-to-multiple-locations-using-itineraries.md)  
   
 2.  [開發活動](../esb-toolkit/development-activities.md)  
   

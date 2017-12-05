@@ -16,11 +16,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e554de9b00869db4a258f03984fe1ebc71e99c38
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7c5624eb6cf88f45d1ecad0b68fee3f5f7b8a8ba
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="optimizing-performance-of-the-msmq-adapter"></a>最佳化 MSMQ 配接器效能
 MSMQ 配接器的最佳化在傳送端與接收端之間各有不同。 您可以藉由設定接收位置上的屬性，來控制接收端上的最佳化。 在傳送端上，您可以使用協調流程來控制最佳化。  
@@ -42,9 +42,9 @@ MSMQ 配接器的最佳化在傳送端與接收端之間各有不同。 您可�
  在傳送端上，您可以使用範例協調流程來達成相等的單一訊息處理。 此範例會傳送單一訊息，然後等待傳送下一個訊息，直到它收到通知為止。 如需詳細資訊，請參閱[如何建立 MSMQ 接收位置和傳送埠的程式碼](../core/how-to-create-msmq-receive-locations-and-send-ports-from-code.md)。  
   
 ## <a name="remote-transactional-read-operations"></a>遠端交易讀取作業  
- 與[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]MSMQ 配接器是能夠從交易式 MSMQ 佇列的遠端讀取的作業。  這是因為 MSMQ 4.0 和更新版本支援遠端交易讀取的作業。  不過，交易式讀取的作業都是通常很慢的作業。 若要最佳化效能，則應該只在沒有其他選擇的情況下使用這類作業。  
+ 與 BizTalk Server MSMQ 配接器是能夠從交易式 MSMQ 佇列的遠端讀取的作業。  這是因為 MSMQ 4.0 和更新版本支援遠端交易讀取的作業。  不過，交易式讀取的作業都是通常很慢的作業。 若要最佳化效能，則應該只在沒有其他選擇的情況下使用這類作業。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [如何設定 MSMQ 接收位置](../core/how-to-configure-an-msmq-receive-location.md)   
  [如何設定 MSMQ 傳送埠](../core/how-to-configure-an-msmq-send-port.md)   
  [設定 MSMQ 配接器](../core/configuring-the-msmq-adapter.md)

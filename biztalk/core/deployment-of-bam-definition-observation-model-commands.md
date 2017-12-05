@@ -12,11 +12,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 847dd40bc7d0e8fe9ec225ad8af45d06c92d7b63
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0dba1e1a4f54b3b33ebca8297cfe9beef7c4f868
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="deployment-of-bam-definition-observation-model-commands"></a>BAM 定義的部署 (觀察模型) 命令
 BAM 管理公用程式部署命令可用來套用、修改和移除定義。  
@@ -40,15 +40,15 @@ BAM 管理公用程式部署命令可用來套用、修改和移除定義。
 ## <a name="deploy-all-command"></a>deploy-all 命令  
  **使用方式**  
   
- **bm.exe deploy-all-definitionfile-DefinitionFile:\<.def 檔案 > [-Server:\<伺服器 >] [-Database:\<資料庫 >]**  
+ **bm.exe deploy-all-definitionfile-DefinitionFile:\<def 檔\>[-Server:\<伺服器\>] [-Database:\<資料庫\>]**  
   
  **參數**  
   
 |參數|Description|  
 |---------------|-----------------|  
-|DefinitionFile:\<.def 檔案 >|含有所要部署之定義的檔案所在路徑和名稱。|  
-|伺服器：\<伺服器 >|選擇性： 要用來將定義部署的伺服器名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。 如果沒有指定伺服器名稱，bm.exe 會使用 localhost 的預設名稱。|  
-|資料庫：\<資料庫 >|選擇性： 要用來將定義部署的資料庫名稱。 如果沒有指定名稱，bm.exe 會使用預設的名稱 BamPrimaryImport。|  
+|DefinitionFile:\<def 檔案\>|含有所要部署之定義的檔案所在路徑和名稱。|  
+|伺服器：\<伺服器\>|選擇性： 要用來將定義部署的伺服器名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。 如果沒有指定伺服器名稱，bm.exe 會使用 localhost 的預設名稱。|  
+|資料庫：\<資料庫\>|選擇性： 要用來將定義部署的資料庫名稱。 如果沒有指定名稱，bm.exe 會使用預設的名稱 BamPrimaryImport。|  
   
  從指定的 BAM 定義 XML 檔案部署所有成品至指定的伺服器和資料庫。 檔案可以是包含 BAM 定義 XML 的文字檔或 BAM Excel 活頁簿。 定義檔必須只包含新成品。 如果檔案包含已部署的成品，部署將會失敗並報告錯誤。  
   
@@ -98,15 +98,15 @@ bm.exe deploy-all -DefinitionFile:MyWorkbook.xls -Server:machine1
 ## <a name="update-all-command"></a>update-all 命令  
  **使用方式**  
   
- **bm.exe 更新所有-DefinitionFile:\<.def 檔案 > [-Server:\<伺服器 >] [-Database:\<資料庫 >]**  
+ **bm.exe 更新所有-DefinitionFile:\<def 檔\>[-Server:\<伺服器\>] [-Database:\<資料庫\>]**  
   
  **參數**  
   
 |參數|Description|  
 |---------------|-----------------|  
-|DefinitionFile:\<.def 檔案 >|含有執行更新所需之定義的檔案所在路徑和名稱。|  
-|伺服器：\<伺服器 >|選擇性： 要部署定義更新的伺服器名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。 如果沒有指定伺服器名稱，bm.exe 會使用 localhost 的預設名稱。|  
-|資料庫：\<資料庫 >|選擇性： 要部署定義更新至資料庫的名稱。 如果沒有指定名稱，bm.exe 會使用預設的名稱 BamPrimaryImport。|  
+|DefinitionFile:\<def 檔案\>|含有執行更新所需之定義的檔案所在路徑和名稱。|  
+|伺服器：\<伺服器\>|選擇性： 要部署定義更新的伺服器名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。 如果沒有指定伺服器名稱，bm.exe 會使用 localhost 的預設名稱。|  
+|資料庫：\<資料庫\>|選擇性： 要部署定義更新至資料庫的名稱。 如果沒有指定名稱，bm.exe 會使用預設的名稱 BamPrimaryImport。|  
   
  從 BAM 定義 XML 更新特定成品。 檔案可以是包含 BAM 定義 XML 的文字檔或 BAM Excel 活頁簿。 更新不會刪除目前定義檔中未描述的成品。 這可將新的檢查點加入活動，但不能從已部署的活動卸除檢查點。 更新不能重新命名檢查點，也不能變更檢查點屬性。  
   
@@ -125,15 +125,15 @@ bm.exe update-all -DefinitionFile:MyWorkbook.xls -Server:machine1
 ## <a name="remove-all-command"></a>remove-all 命令  
  **使用方式**  
   
- **bm.exe 移除 all DefinitionFile:\<.def 檔案 > [-Server:\<伺服器 >] [-Database:\<資料庫 >]**  
+ **bm.exe 移除 all DefinitionFile:\<def 檔\>[-Server:\<伺服器\>] [-Database:\<資料庫\>]**  
   
  **參數**  
   
 |參數|Description|  
 |---------------|-----------------|  
-|DefinitionFile:\<.def 檔案 >|含有所要移除之定義的檔案所在路徑和名稱。|  
-|伺服器：\<伺服器 >|選擇性： 移除定義的伺服器名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。 如果沒有指定伺服器名稱，bm.exe 會使用 localhost 的預設名稱。|  
-|資料庫：\<資料庫 >|選擇性： 移除定義的資料庫名稱。 如果沒有指定名稱，bm.exe 會使用預設的名稱 BamPrimaryImport。|  
+|DefinitionFile:\<def 檔案\>|含有所要移除之定義的檔案所在路徑和名稱。|  
+|伺服器：\<伺服器\>|選擇性： 移除定義的伺服器名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。 如果沒有指定伺服器名稱，bm.exe 會使用 localhost 的預設名稱。|  
+|資料庫：\<資料庫\>|選擇性： 移除定義的資料庫名稱。 如果沒有指定名稱，bm.exe 會使用預設的名稱 BamPrimaryImport。|  
   
  移除 BAM 定義 XML 檔案指定的所有成品。 檔案可以是包含 BAM 定義 XML 的文字檔或 BAM Excel 活頁簿。 每個成品的定義都必須完全符合用於部署的原始定義。  
   
@@ -147,15 +147,15 @@ bm.exe remove-all -DefinitionFile:MyWorkbook.xls -Server:machine1
 ## <a name="update-livedataworkbook-command"></a>update-livedataworkbook 命令  
  **使用方式**  
   
- **bm.exe 更新 livedataworkbook-名稱：\<即時資料活頁簿檔案名稱 > [-Server:\<伺服器 >] [-Database:\<資料庫 >]**  
+ **bm.exe 更新 livedataworkbook-名稱：\<即時資料活頁簿檔案名稱\>[-Server:\<伺服器\>] [-Database:\<資料庫\>]**  
   
  **參數**  
   
 |參數|Description|  
 |---------------|-----------------|  
-|名稱：\<即時資料活頁簿 >|要更新的現有即時活頁簿的名稱。|  
-|伺服器：\<伺服器 >|選擇性： 在活頁簿所在的伺服器的名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。 如果沒有指定伺服器名稱，bm.exe 會使用 localhost 的預設名稱。|  
-|資料庫：\<資料庫 >|選擇性： 在活頁簿所在資料庫的名稱。 如果沒有指定名稱，bm.exe 會使用預設的名稱 BamPrimaryImport。|  
+|名稱：\<即時資料活頁簿\>|要更新的現有即時活頁簿的名稱。|  
+|伺服器：\<伺服器\>|選擇性： 在活頁簿所在的伺服器的名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。 如果沒有指定伺服器名稱，bm.exe 會使用 localhost 的預設名稱。|  
+|資料庫：\<資料庫\>|選擇性： 在活頁簿所在資料庫的名稱。 如果沒有指定名稱，bm.exe 會使用預設的名稱 BamPrimaryImport。|  
   
  更新指定的 BAM 即時資料活頁簿中的 BAM 主要匯入資料庫連線資訊。  
   
@@ -172,15 +172,15 @@ bm.exe update-livedataworkbook -Name:SalesManager_Live.xls -Server:SalesSrv
 ## <a name="regenerate-livedataworkbook-command"></a>regenerate-livedataworkbook 命令  
  **使用方式**  
   
- **bm.exe regenerate livedataworkbook WorkbookName:\<即時資料活頁簿檔案名稱 > [-Server:\<伺服器 >] [-Database:\<資料庫 >]**  
+ **bm.exe regenerate livedataworkbook WorkbookName:\<即時資料活頁簿檔案名稱\>[-Server:\<伺服器\>] [-Database:\<資料庫\>]**  
   
  **參數**  
   
 |參數|Description|  
 |---------------|-----------------|  
-|WorkbookName:\<即時資料活頁簿檔案名稱 >|要更新的活頁簿的名稱。|  
-|伺服器：\<伺服器 >|選擇性： 在活頁簿所在的伺服器的名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。 如果沒有指定伺服器名稱，bm.exe 會使用 localhost 的預設名稱。|  
-|資料庫：\<資料庫 >|選擇性： 在活頁簿所在資料庫的名稱。 如果沒有指定名稱，bm.exe 會使用預設的名稱 BamPrimaryImport。|  
+|WorkbookName:\<即時資料活頁簿檔案名稱\>|要更新的活頁簿的名稱。|  
+|伺服器：\<伺服器\>|選擇性： 在活頁簿所在的伺服器的名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。 如果沒有指定伺服器名稱，bm.exe 會使用 localhost 的預設名稱。|  
+|資料庫：\<資料庫\>|選擇性： 在活頁簿所在資料庫的名稱。 如果沒有指定名稱，bm.exe 會使用預設的名稱 BamPrimaryImport。|  
   
  產生 BAM 即時資料活頁簿但不部署活頁簿。  
   
@@ -191,5 +191,5 @@ bm.exe regenerate-livedataworkbook -WorkbookName:SalesManager_Live.xls
 bm.exe regenerate-livedataworkbook -WorkbookName:SM_Live.xls -Server:S1  
 ```  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [BAM 管理公用程式](../core/bam-management-utility.md)

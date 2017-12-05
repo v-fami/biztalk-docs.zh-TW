@@ -12,11 +12,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f95ed755dcc709084d52c6fb8b207e9bbd9e866d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 852b85e0de23e01e39891adba56053683d18a9b8
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="batching-outgoing-edi-messages"></a>批次處理外寄 EDI 訊息
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 將會批次處理 EDI 交易集，前提是已經針對與接收它之商業夥伴相關聯的協議來啟用批次處理。 協議的 EDI 屬性可讓您執行下列作業：  
@@ -31,7 +31,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
   
 -   設定批次啟動準則。  
   
- Microsoft [!INCLUDE[prague](../includes/prague-md.md)] EDI 和 AS2 可處理下列 EDI 交換：  
+ Microsoft BizTalk Server EDI 和 AS2 可處理下列 EDI 交換的：  
   
 -   EDI 交換可包含交易集和 (或) 通知。  
   
@@ -47,6 +47,6 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
   
 -   [設定外寄批次](../core/configuring-an-outgoing-batch.md)  
   
--   [組合批次的 EDI 交換](../core/assembling-a-batched-edi-interchange.md)  
+-   [組合批次 EDI 交換](../core/assembling-a-batched-edi-interchange.md)  
   
--   [傳送保留批次交換](../core/sending-a-preserved-batch-interchange.md)
+-   [傳送保留的批次交換](../core/sending-a-preserved-batch-interchange.md)

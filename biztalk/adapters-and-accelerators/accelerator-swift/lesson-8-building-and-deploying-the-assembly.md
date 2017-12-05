@@ -17,16 +17,16 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2f6f043764dba966d662274d47643e01bec3735a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 607b3a304260e67a6640e579924705719ff8b850
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="lesson-8-building-and-deploying-the-assembly"></a>第 8 課： 建立和部署組件
 在這一課，您可以建置及部署管線專案以產生包含您在上一個步驟中建立的管線的組件。 這一課中，可確保您目前已建立的工作中沒有編譯錯誤。  
   
- 您的專案編譯成組件 (DLL) 檔案，並儲存在\<*磁碟機*>: \Program Files\Microsoft BizTalk Accelerator for SWIFT\bin\Development 資料夾。  
+ 您的專案編譯成組件 (DLL) 檔案，並儲存在\<*磁碟機*\>: \Program Files\Microsoft BizTalk Accelerator for SWIFT\bin\Development 資料夾。  
   
 ### <a name="to-build-and-deploy-the-project"></a>建置和部署專案  
   
@@ -35,7 +35,7 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  在編譯過程中，您應該不會看到任何失敗。 如果您這樣做，請檢查錯誤的來源、 修正和重新建置專案。 不過，您可能看到 A4SWIFT 管線元件相關的警告數目。 您可以修正導致藉由設定這些警告的狀況**複製到本機**屬性的管線元件參考**False**。 如需詳細資訊，請參閱 「 建置管線專案可能會導致警告 」，在[其他已知問題](http://msdn.microsoft.com/library/bc94c781-2a56-4f80-8ecb-e654de2f6ed6)。  
   
-2.  若要確認是否已建立 SWIFTPipelines.dll 檔案，使用[!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)]總管 中，瀏覽至\<*磁碟機*: > \labs\SWIFTProject\SWIFTPipelines\bin\Development，並確定該檔案位於此資料夾。  
+2.  若要確認是否已建立 SWIFTPipelines.dll 檔案，使用[!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)]總管 中，瀏覽至\<*磁碟機*:\>\labs\SWIFTProject\SWIFTPipelines\bin\Development，並確定該檔案位於這個資料夾中。  
   
 3.  在 方案總管 中，以滑鼠右鍵按一下**SWIFTPipelines**，然後按一下 **部署**。  
   

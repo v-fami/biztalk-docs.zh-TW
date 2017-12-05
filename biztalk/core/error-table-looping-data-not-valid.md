@@ -13,11 +13,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2997b4db8b0c1be353d4ff88166716d21059cea6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9478026980ecaf3e2049773737250c56d18262c8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="error---table-looping-data-not-valid"></a>錯誤-表格迴圈資料無效
 **錯誤碼**  
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/20/2017
   
  **使用者動作**  
   
- 請確定輸入的參數**表格迴圈**運算質，透過 **輸入參數**屬性和**設定\<運算質 > 運算質**對話方塊中，您可以在下表所示。  
+ 請確定輸入的參數**表格迴圈**運算質，透過 **輸入參數**屬性和**設定\<運算質\>運算質**對話方塊中，您可以在下表所示。  
   
 |「表格迴圈」運算質輸入參數編號|Description|  
 |---------------------------------------------------|-----------------|  

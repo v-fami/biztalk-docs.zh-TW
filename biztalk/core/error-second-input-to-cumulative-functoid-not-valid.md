@@ -13,11 +13,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a288bdaa9427cd26191571d180d39ad2dde9f9f5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f0228beda57b961d515471e42760abe3ab92db54
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="error---second-input-to-cumulative-functoid-not-valid"></a>錯誤-第二個輸入無效的累計運算質
 **錯誤碼**  
@@ -30,4 +30,4 @@ ms.lasthandoff: 09/20/2017
   
  **使用者動作**  
   
- 選取指定**累計**運算質，按一下省略符號 (**...**) 相關聯的按鈕**順序運算質輸入**屬性在 microsoft[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]屬性 視窗中，然後在**設定\<運算質 > 運算質**對話方塊方塊中，確定第二個輸入的參數，如果有的話，是正整數。
+ 選取指定**累計**運算質，按一下省略符號 (**...**) 相關聯的按鈕**順序運算質輸入**屬性在 microsoft[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]屬性 視窗中，然後在**設定\<運算質\>運算質**對話方塊方塊中，確定第二個輸入的參數，如果有的話，是正整數。

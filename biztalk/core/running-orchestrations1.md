@@ -18,11 +18,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0b4559a3d362d0d778c4d60cc485fa79e8e05efe
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: c215009d6b911831c74ac22b2c03ceae45e74a62
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="running-orchestrations"></a>執行協調流程
 下列程序說明如何建置、部署、繫結和啟動協調流程。  
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/07/2017
   
 1.  啟動 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 命令提示字元。  
   
-2.  例如，將目錄變更至現有的專案，\<磁碟機 >: \Adapter_Install\biztalk2010\my_project。  
+2.  例如，將目錄變更至現有的專案，\<磁碟機\>: \Adapter_Install\biztalk2010\my_project。  
   
 3.  在命令提示字元中輸入下列文字，然後按 ENTER：  
   
@@ -84,5 +84,5 @@ ms.lasthandoff: 11/07/2017
   
      若要將狀態變更為**執行**，按一下 **重新整理**，或以滑鼠右鍵按一下主控件執行個體，然後按一下**重新整理**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [在配接器的安全性](../core/security-in-biztalk-adapter-for-jd-edwards-oneworld.md)

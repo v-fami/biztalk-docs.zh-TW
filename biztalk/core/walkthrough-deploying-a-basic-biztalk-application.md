@@ -17,11 +17,11 @@ caps.latest.revision: "69"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5db86f672cd17965ec76877cc3867594bf82b40d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 445dcdf9685d5b4b74f5d1fd9738da838edb5f42
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="walkthrough-deploying-a-basic-biztalk-application"></a>逐步解說： 部署基本 BizTalk 應用程式
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 包含可簡化 BizTalk 商務解決方案之管理和部署的功能。 它現在為商務解決方案中的項目 (例如，協調流程、結構描述、對應、管線和 .NET 組件) 提供了 BizTalk 應用程式容器。 您可以管理、 修改、 部署和安裝的所有項目當做單一單位的應用程式中。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]也包含精靈，可協助自動化應用程式部署工作。 如需背景資訊，請參閱[應用程式部署和管理功能](../core/application-deployment-and-management-features.md)和[應用程式部署和管理工具](../core/application-deployment-and-management-tools.md)。  
@@ -104,7 +104,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
 #### <a name="2-deploy-the-biztalk-assemblies"></a>2.部署 BizTalk 組件  
  從 Microsoft 內部[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]的開發電腦上，使用程序在這個步驟中部署 BizTalk 組件到 BizTalk 應用程式。  
   
- 在開始之前，您必須擁有在可用的 BizTalk 方案[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]。 您可以自行建立方案或專案，也可以設定 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 隨附的 ErrorHandling 範例。 您可以設定 ErrorHandling 範例方案中[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]，如下所示：  
+ 在開始之前，您必須擁有在可用的 BizTalk 方案[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]。 您可以建立您自己的方案或專案，或您可以設定 BizTalk Server 隨附的 ErrorHandling 範例。 您可以設定 ErrorHandling 範例方案中[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]，如下所示：  
   
 ###### <a name="to-set-up-the-errorhandling-solution"></a>若要設定 ErrorHandling 方案  
   
@@ -132,9 +132,9 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
   
     |屬性|值|說明|  
     |--------------|-----------|-----------------|  
-    |Application Name|\<Name>|要部署此專案內組件的 BizTalk 應用程式名稱。 如果應用程式已經存在，組件便會在您部署專案時加入至其中。 如果應用程式不存在，則會建立該應用程式。 如果此欄位為空白，組件將會部署至目前群組中的預設 BizTalk 應用程式，即 "BizTalk Application 1"。 名稱如果包含空格，則必須括在雙引號 (") 中。|  
-    |設定資料庫|\<BizTalk 管理資料庫名稱 >|群組的 BizTalk 管理資料庫名稱，依預設為 BizTalkMgmtDb。|  
-    |Server|\<伺服器名稱 >|在本機電腦上，裝載 BizTalk 管理資料庫之 SQL Server 執行個體的名稱。 在單一電腦安裝中，這通常是本機電腦的名稱。 **注意：**如果您將這個 BizTalk 專案移至不同的電腦時，您必須修改伺服器屬性，以反映新的電腦名稱，然後您才能部署組件。|  
+    |Application Name|\<名稱\>|要部署此專案內組件的 BizTalk 應用程式名稱。 如果應用程式已經存在，組件便會在您部署專案時加入至其中。 如果應用程式不存在，則會建立該應用程式。 如果此欄位為空白，組件將會部署至目前群組中的預設 BizTalk 應用程式，即 "BizTalk Application 1"。 名稱如果包含空格，則必須括在雙引號 (") 中。|  
+    |設定資料庫|\<BizTalk 管理資料庫名稱\>|群組的 BizTalk 管理資料庫名稱，依預設為 BizTalkMgmtDb。|  
+    |Server|\<伺服器名稱\>|在本機電腦上，裝載 BizTalk 管理資料庫之 SQL Server 執行個體的名稱。 在單一電腦安裝中，這通常是本機電腦的名稱。 **注意：**如果您將這個 BizTalk 專案移至不同的電腦時，您必須修改伺服器屬性，以反映新的電腦名稱，然後您才能部署組件。|  
     |重新部署|True 或 False|將此項設定為 True (預設)，可讓您不變更版本號碼而重新部署 BizTalk 組件。|  
     |安裝到全域組件快取|True 或 False|將此項設定為 True (預設)，可在部署組件時，將組件安裝到本機電腦上的全域組件快取 (GAC)。|  
     |重新啟動主控件執行個體|True 或 False|將此項設定為 True，可在重新部署組件時，自動重新啟動執行於本機電腦上的所有主控件執行個體。 如果設定為 False (預設)，您必須在重新部署組件時，手動重新啟動主控件執行個體。 **注意：**如果您重新部署組件從方案層級時，主控件執行個體將會重新啟動一次每個專案，這個選項設為 True。 這樣可能會產生多次的重新啟動。 如果您打算從方案層級重新部署，您可能會想要只在方案中的一個專案上將此屬性設為 True，以免主控件執行個體重新啟動多次。 這應該在方案中最後一個將要重新部署的專案上設定。 此外，如果當您執行重新部署時，主控件執行個體停止了，它將不會啟動。|  
@@ -154,7 +154,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
   
      範例： **sn-k ErrorHandling.snk**  
   
-     確認訊息，**金鑰組寫入\<**  *file_name***>.snk** `,`會出現在命令列。  
+     確認訊息，**金鑰組寫入\<**  *file_name***\>.snk** `,`會出現在命令列。  
   
  接下來，您必須將方案中的每個專案與金鑰檔案產生關聯。  
   
@@ -166,7 +166,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
   
 3.  在右窗格中，檢查**簽署組件**方塊。  
   
-4.  按一下底下的下拉式清單方塊**選擇強式名稱金鑰檔**，按一下  **\<瀏覽 >**，然後瀏覽至金鑰檔。  
+4.  按一下底下的下拉式清單方塊**選擇強式名稱金鑰檔**，按一下  **\<瀏覽...\>** ，然後瀏覽至金鑰檔。  
   
 5.  按一下金鑰檔案，然後按一下**開啟**。  
   
@@ -324,7 +324,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
   
      ![將參考加入至應用程式](../core/media/appreferences.gif "AppReferences")  
   
-6.  在**應用程式目標環境設定**頁面上，確認**\<預設 >**已選取並按**下一步**。  
+6.  在**應用程式目標環境設定**頁面上，確認**\<預設\>**已選取並按**下一步**。  
   
 7.  在**匯入摘要**頁面上，確認摘要資訊是否正確，然後按**匯入**。  
   
@@ -356,5 +356,5 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
   
 -   若要完全移除應用程式的 BizTalk 群組和本機電腦，請依照中的指示[解除部署 BizTalk 應用程式](../core/undeploying-biztalk-applications.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [了解 BizTalk 應用程式部署和管理](../core/understanding-biztalk-application-deployment-and-management.md)

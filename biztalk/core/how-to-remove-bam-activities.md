@@ -17,11 +17,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 09e12e893df596a92377357b7e28b6e68f04b810
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 67320d4d7d96f037e8d16132e0274b43feee8003
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-remove-bam-activities"></a>如何移除 BAM 活動
 系統管理員使用**移除活動**命令，從 BAM 主要匯入資料庫移除指定的活動。  
@@ -32,11 +32,11 @@ ms.lasthandoff: 09/20/2017
   
 2.  瀏覽至 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]。  
   
-3.  型別**bm 移除活動的名稱：\<活動名稱 >**。  
+3.  型別**bm 移除活動的名稱：\<活動名稱\>**。  
   
 4.  按 ENTER 鍵。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理 BAM 動態基礎結構](../core/managing-the-bam-dynamic-infrastructure.md)   
  [BAM 安全性建議](../core/bam-security-recommendations.md)   
  [BAM 管理公用程式](../core/bam-management-utility.md)

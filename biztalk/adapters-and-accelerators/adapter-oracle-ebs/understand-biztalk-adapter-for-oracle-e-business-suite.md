@@ -12,11 +12,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d1fa12862600cd1d1d5661e278b87c82cc45697b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 342ffbd77434a470e3afdd10ae1c708c8734e85c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="understand-biztalk-adapter-for-oracle-e-business-suite"></a>瞭解 BizTalk Adapter for Oracle E-business Suite
 ## <a name="biztalk-adapter-pack-features"></a>BizTalk Adapter Pack 功能
@@ -28,7 +28,7 @@ ms.lasthandoff: 09/20/2017
   
 -   **跨 Lob 統一經驗**。 標準化使用 WCF 配接器和[!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)]，並因此提供一致的體驗的任何 LOB 系統的存取。  
   
- 如所述，配接器會建立最上層的[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。 此 SDK 提供通用的基礎建置各種 BizTalk Server 和 Microsoft Office 等用戶端應用程式可以取用的整合配接器。 [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]對齊由公開為 WCF 通道整合配接器的 Microsoft 服務策略配接器的策略。 如需有關[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]，請參閱[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]文件。 [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]連同安裝文件[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]通常下\<*安裝磁碟機*>: \Program Files\\[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]\Documents。  
+ 如所述，配接器會建立最上層的[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。 此 SDK 提供通用的基礎建置各種 BizTalk Server 和 Microsoft Office 等用戶端應用程式可以取用的整合配接器。 [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]對齊由公開為 WCF 通道整合配接器的 Microsoft 服務策略配接器的策略。 如需有關[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]，請參閱[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]文件。 [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]連同安裝文件[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]通常下\<*安裝磁碟機*\>: \Program Files\\[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]\Documents。  
 
 ## <a name="overview-of-the-oracle-ebs-adapter"></a>Oracle EBS 配接器的概觀
 [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]公開為 WCF 服務的 Oracle E-business Suite。 配接器用戶端可以執行 Oracle E-business suite 作業交換 SOAP 訊息的配接器。 配接器會使用 SOAP 訊息，並會適當 ODP.NET 呼叫，以執行此作業。 配接器從 Oracle E-business Suite 傳回回應傳回給用戶端的 SOAP 訊息格式。  
@@ -50,7 +50,7 @@ ms.lasthandoff: 09/20/2017
   
 ## <a name="more-good-stuff"></a>更多實用功能  
   
--    [連接到 Oracle E-business Suite 使用配接器](../../adapters-and-accelerators/adapter-oracle-ebs/connect-to-oracle-e-business-suite-using-the-adapter.md)
+-    [使用配接器連接到 Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/connect-to-oracle-e-business-suite-using-the-adapter.md)
 
 - [瀏覽、 搜尋和取得 Oracle E-business Suite 中繼資料](../../adapters-and-accelerators/adapter-oracle-ebs/browse-search-and-get-oracle-e-business-suite-metadata.md)
 
@@ -64,5 +64,5 @@ ms.lasthandoff: 09/20/2017
   
 -   [BizTalk adapter for Oracle E-business Suite 的限制](../../adapters-and-accelerators/adapter-oracle-ebs/limitations-of-biztalk-adapter-for-oracle-e-business-suite.md)  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [開始使用](../../adapters-and-accelerators/adapter-oracle-ebs/get-started-with-the-biztalk-adapter-for-oracle-e-business-suite.md)

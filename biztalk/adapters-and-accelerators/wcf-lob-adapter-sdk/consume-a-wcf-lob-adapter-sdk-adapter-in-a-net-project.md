@@ -12,11 +12,11 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fb6208395813c7e4be25964d9949d2f909e4806d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 622c6ad687e681591071d472e2ff8a9e8c515f95
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="consume-a-wcf-lob-adapter-sdk-adapter-in-a-net-project"></a>取用 WCF LOB 配接器 SDK 中的配接器的.NET 專案
 若要使用配接器使用建置[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]從[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]，您必須加入服務參考加入專案。 您可以：  
@@ -67,10 +67,10 @@ ms.lasthandoff: 09/20/2017
     |合約型別|成品|Description||  
     |-------------------|--------------|-----------------|-|  
     |輸出|CLR WCF Proxy|包含合約和服務實作。||  
-    |輸出||App.config|包含\<端點 > 和\<繫結 > 項目\<系統。ServiceModel >\<用戶端 >。|  
+    |輸出||App.config|包含\<端點\>和\<繫結\>元素\<系統。ServiceModel\>\<用戶端\>。|  
     |輸入|CLR WCF 服務介面|包含的合約。||  
     |輸入||CLR WCF 服務的實作|衍生自合約的虛設常式實作。|  
-    |輸入||App.config|包含\<端點 >，\<繫結 > 和\<行為 > 項目\<系統。ServiceModel >\<服務 >。|  
+    |輸入||App.config|包含\<端點\>，\<繫結\>和\<行為\>元素\<系統。ServiceModel\>\<服務\>。|  
   
 10. 您現在可以在應用程式中使用 proxy。  
   
@@ -79,7 +79,7 @@ ms.lasthandoff: 09/20/2017
   
  若要從 IIS 中裝載的配接器產生 proxy 類別  
   
-1.  在命令提示字元中，輸入**svcutil.exe"http://localhost/adapter/AdapterService.svc?wsdl"/config:app.config**。HTTP 路徑取代為您裝載的配接器的正確路徑。 這會建立包含.NET CLR proxy 和 output.config 所在的.cs 檔案\<繫結 > 和用戶端\<端點 > 針對\<system.serviceModel >。  
+1.  在命令提示字元中，輸入**svcutil.exe"http://localhost/adapter/AdapterService.svc?wsdl"/config:app.config**。HTTP 路徑取代為您裝載的配接器的正確路徑。 這會建立包含.NET CLR proxy 和 output.config 所在的.cs 檔案\<繫結\>和用戶端\<端點\>如\<system.serviceModel\>。  
   
     > [!NOTE]
     >  如果您的配接器包含許多作業，您可以限制所使用的查詢字串傳回的作業 ' op =' 後面接著您感興趣的作業名稱。 例如：`svcutil.exe “http://localhost/adapter/AdapterService.svc?wsdl&op=Echo/EchoString&op=Echo/EchoArray”`產生只有 EchoString 和 EchoArray 作業的 proxy 程式碼。  
@@ -90,6 +90,6 @@ ms.lasthandoff: 09/20/2017
   
     2.  在**方案總管] 中**，以滑鼠右鍵按一下**參考**，然後按一下 [**加入參考**。 在**.NET**索引標籤上，選取**System.ServiceModel**，然後按一下 **確定**。 您現在可以在應用程式中使用 proxy。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [教學課程 1： 在開發回應配接器](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-1-develop-the-echo-adapter.md)   
  [使用建立使用 WCF LOB Adapter SDK 的配接器](../../adapters-and-accelerators/wcf-lob-adapter-sdk/consume-an-adapter-created-using-the-wcf-lob-adapter-sdk.md)

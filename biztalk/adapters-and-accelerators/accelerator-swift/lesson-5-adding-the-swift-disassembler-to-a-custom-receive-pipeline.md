@@ -17,16 +17,16 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 04feeaf88cef2f4ab876b22eda1b1e060a1e0173
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0616c4adddc6e2d096624d02b968a21012ccd93b
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="lesson-5-adding-the-swift-disassembler-to-a-custom-receive-pipeline"></a>第 5 課： 加入自訂接收管線 SWIFT 反組譯工具
 在這一課，您可以加入自訂 SWIFT 的解譯器 (DASM) 到您的管線。 DASM 管線元件是將一批訊息分割成個別文件的管線元件。  
   
- DASM 管線元件中提供[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]是：  
+ DASM 管線元件中提供[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server 會：  
   
 -   一般檔案解譯器  
   

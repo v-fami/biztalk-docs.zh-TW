@@ -25,11 +25,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f87f210c4b0d2969edc9ddfa27b1d8494310eb6f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f4e4a07b88e832d99f586d10cdf8af4dbea3af3e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-use-multi-part-message-types"></a>如何使用多部分訊息類型
 每個訊息都有多部分訊息類型，即是由零或多個訊息部分所組成的訊息的結構描述。 這些部分是由 XML 結構描述定義 (XSD) 語言結構描述或 .NET 類別所定義。 您可以定義自己的多部分訊息類型，也可以使用現有的 .NET 類別和結構描述。  
@@ -52,7 +52,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  命名多部分訊息類型和提供的訊息部分。  
   
-     如果您的多部分訊息類型需要一個以上的訊息部分，您可以新增其他部分將名稱指派給\<新增 > 訊息部分。  
+     如果您的多部分訊息類型需要一個以上的訊息部分，您可以新增其他部分將名稱指派給\<新增\>訊息部分。  
   
 4.  將每個訊息部分與類型 (例如，.NET 類別或結構描述) 建立關聯。  
   
@@ -97,8 +97,8 @@ ms.lasthandoff: 09/20/2017
 > [!NOTE]
 >  如果收到包含大於宣告的部分數目的多部分訊息時，有多少部分是在訊息中的協調流程引擎讀取然後建構適當的部分類型符合的組件中宣告的訊息數目的組件類型，然後建構**XmlDocument**組件的其餘部分。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  **IBaseMessage.AddPart 方法 (COM)**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]  
  [在網站上的 XSD 資源](../core/xsd-resources-on-the-web.md)   
  [使用辨別的欄位和屬性欄位](../core/using-distinguished-fields-and-property-fields.md)   
- [協調流程中使用訊息](../core/using-messages-in-orchestrations.md)
+ [在協調流程中使用訊息](../core/using-messages-in-orchestrations.md)

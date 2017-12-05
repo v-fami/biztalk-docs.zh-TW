@@ -13,11 +13,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 66234a017cc25baeb109170c037fd651a9341faa
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 163de330945cc085648188dffcb75821c11ec5d6
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="error---first-input-to-index-functoid-not-valid"></a>錯誤-索引運算質不是有效的第一個輸入
 **錯誤碼**  
@@ -30,4 +30,4 @@ ms.lasthandoff: 09/20/2017
   
  **使用者動作**  
   
- 建立適當的輸入的連結之間拖曳**欄位**迴圈節點**記錄**中來源結構描述與所指定的節點**索引**運算質。 可能需要開啟**設定\<運算質 > 運算質**對話方塊中，選取 指定**索引**運算質，然後按一下省略符號 (**...**) 相關聯的按鈕**輸入參數**屬性在 microsoft[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]為了確保新建立的連結是第一個輸入的參數所指定的 [屬性] 視窗**索引**運算質。
+ 建立適當的輸入的連結之間拖曳**欄位**迴圈節點**記錄**中來源結構描述與所指定的節點**索引**運算質。 可能需要開啟**設定\<運算質\>運算質**對話方塊中，選取 指定**索引**運算質，然後按一下省略符號 (**...**) 相關聯的按鈕**輸入參數**屬性在 microsoft[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]為了確保新建立的連結是第一個輸入的參數所指定的 [屬性] 視窗**索引**運算質。

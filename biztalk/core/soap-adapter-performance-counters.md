@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 870a3333ce638200c92125f08a4f048150584b51
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 543c982a68d2a940b4800711d757f4fb159611de
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="soap-adapter-performance-counters"></a>SOAP 配接器效能計數器
 效能計數器可讓您監視網站或系統上，服務所執行之工作的特定層面。 效能計數器也可以幫助您識別和疑難排解伺服器的效能問題。  
@@ -41,7 +41,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  在**新增計數器**對話方塊中，從**可用的計數器**清單中，展開**biztalk: Soap**效能計數器物件，然後選取要監視的計數器  
   
-4.  在**選取執行個體的物件**清單中，選取要監視針對所選取計數器，然後按一下 特定的執行個體**新增**。 若要選取所有可用的計數器執行個體，請選取\<**所有執行個體**>。  
+4.  在**選取執行個體的物件**清單中，選取要監視針對所選取計數器，然後按一下 特定的執行個體**新增**。 若要選取所有可用的計數器執行個體，請選取\<**所有執行個體**\>。  
   
 5.  新增計數器後, 按一下**確定**。  
   

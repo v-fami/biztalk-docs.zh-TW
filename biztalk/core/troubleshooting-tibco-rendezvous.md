@@ -13,11 +13,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b860aa0d0253185f1c9ecc6f7a525776abfab5d6
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: 18ae8d599b67a1a572021cae0ebc9bfc64992a9b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="troubleshoot-tibco-rendezvous"></a>對 TIBCO Rendezvous 進行疑難排解
   
@@ -38,7 +38,7 @@ Microsoft BizTalk Adapter for TIBCO Rendezvous 會將錯誤、警告和資訊訊
   
      為了讓消費者應用程式能夠讀取 etl 檔案中的事件，Windows 事件追蹤必須將事件傾印到該檔案中。 此動作通常是在控制器停用追蹤後完成的。  
   
-     若要使用取用者應用程式，而不停用追蹤，控制器必須啟動使用即時選項時，追蹤\<即時 > =-rt。  
+     若要使用取用者應用程式，而不停用追蹤，控制器必須啟動使用即時選項時，追蹤\<即時\>=-rt。  
   
 -   **提供者**： 提供的事件。  
   
@@ -46,15 +46,15 @@ Microsoft BizTalk Adapter for TIBCO Rendezvous 會將錯誤、警告和資訊訊
   
  BizTalk Adapter for TIBCO Rendezvous 有三個提供者。 這可讓您記錄不同種類的訊息：  
   
--   **接收器記錄提供者**:\<追蹤項目 > 參數是**-接收者**。  
+-   **接收器記錄提供者**:\<追蹤項目\>交換器**-接收者**。  
   
 -   使用**-接收者**可從已在執行階段的配接器收到的記錄檔中取得任何訊息。  
   
--   **傳輸器記錄提供者**:\<追蹤項目 > 參數是**-傳輸器**。  
+-   **傳輸器記錄提供者**:\<追蹤項目\>交換器**-傳輸器**。  
   
      使用**-傳輸器**可傳輸的配接器在執行階段的記錄檔中取得任何訊息。  
   
--   **管理記錄提供者 —**\<追蹤項目 > 參數是**-管理**。  
+-   **管理記錄提供者 —**\<追蹤項目\>交換器**-管理**。  
   
      使用**-管理**可瀏覽伺服器系統期間所產生的記錄檔中取得任何訊息。  
   
@@ -67,7 +67,7 @@ BTATIBCORVTrace <Trace element> -start [-cir <MB>|
 BTATIBCORVTrace <Trace element> -stop  
 ```  
   
- 位置： **\<追蹤項目 >** （必要） 是提供者的類型。  
+ 位置： **\<追蹤項目\>** （必要） 是提供者的類型。  
   
  可用選項如下：  
   
@@ -79,9 +79,9 @@ BTATIBCORVTrace <Trace element> -stop
   
 -   **-開始、-停止**： 啟用或停用提供者。  
   
--   **-cir \<MB >**： 檔案的大小與種類。 **-cir**是循環檔案。 **\<MB >**： 以 mb 為單位的大小。  
+-   **-cir \<MB\>**： 檔案的大小與種類。 **-cir**是循環檔案。 **\<MB\>**： 以 mb 為單位的大小。  
   
--   **-seq \<MB >**： 檔案的大小與種類。 **-seq**是循序檔案。 **\<MB >**： 以 mb 為單位的大小。  
+-   **-seq \<MB\>**： 檔案的大小與種類。 **-seq**是循序檔案。 **\<MB\>**： 以 mb 為單位的大小。  
   
 -   **-rt**： 設定即時模式。  
   

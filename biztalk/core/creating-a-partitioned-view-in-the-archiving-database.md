@@ -16,11 +16,11 @@ caps.latest.revision: "16"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4f6000c95b94570b5f058073537fa926fd1651c4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 42adf8f614f124c9b17597a44cdaaba9d7ed4f93
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="creating-a-partitioned-view-in-the-archiving-database"></a>在封存資料庫中建立分割檢視
 當您執行 BAM 資料維護封裝 (BAM_DM_`<activity name>`) 時，BAM 會將 BAM 主要匯入資料庫中的每個資料分割各複製到 BAM 封存資料庫的不同資料表中。 如果您中斷封存資料庫的連線，然後重新連線以便進行查詢，將會發現很難找到您查詢的資料。  
@@ -40,7 +40,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  在**查詢**功能表上，指向**結果至**，然後按一下 **以文字顯示結果**。  
   
-4.  將下列 SQL 指令碼複製到查詢窗格中。 取代\<活動名稱 > 與您的活動名稱取代`<view type>`其中一種**執行個體**執行個體檢視的或**關聯性**關聯性檢視。  
+4.  將下列 SQL 指令碼複製到查詢窗格中。 取代\<活動名稱\>與您的活動名稱取代`<view type>`其中一種**執行個體**執行個體檢視的或**關聯性**關聯性檢視。  
   
     ```  
     set nocount on  
@@ -94,6 +94,6 @@ ms.lasthandoff: 09/20/2017
   
 5.  執行查詢。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [BAM DTS 封裝](../core/bam-dts-packages.md)   
  [如何備份 BAM 分析和追蹤 Analysis Server 資料庫](../core/how-to-back-up-the-bam-analysis-and-tracking-analysis-server-databases.md)

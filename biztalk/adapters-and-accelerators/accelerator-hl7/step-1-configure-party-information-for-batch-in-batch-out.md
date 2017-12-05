@@ -12,18 +12,18 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 982b17fe3826a0e5c5ee2a42030ba020b755ab70
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4cb67fb2e1a232894a0e936bc7827270ca79e6f8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-1-configure-party-information-for-batch-inbatch-out"></a>步驟 1： 設定批次中的合作對象資訊/出批次
 在此步驟中，您關閉片段的合作對象啟用批次的批次中 / 出案例批次。 然後重新啟動[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]來啟用組態變更才會生效。  
   
 ### <a name="to-turn-off-fragmentation-of-batching-for-the-party"></a>若要關閉的合作對象的批次片段  
   
-1.  按一下**啟動**，指向 **所有程式**，指向  **Microsoft BizTalk\<版本 > Accelerator for HL7**，然後按一下  **BTAHL7組態總管**。  
+1.  按一下**啟動**，指向 **所有程式**，指向  **Microsoft BizTalk\<版本\>Accelerator for HL7**，然後按一下  **BTAHL7 Configuration 總管**。  
   
 2.  BTAHL7 組態總管 中，在上**合作對象**索引標籤的左窗格中，按一下**Tutorial_BatchSource**。  
   

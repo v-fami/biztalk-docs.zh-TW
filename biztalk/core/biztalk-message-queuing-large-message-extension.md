@@ -15,11 +15,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: bb07d262b61bb823202b964ee3dd6e53a92d3a6c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 399c8e02d59a931dbf30bfa31ca28980dfa312be
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="biztalk-message-queuing-large-message-extension"></a>BizTalk 訊息佇列大型訊息延伸模組
 原生訊息佇列無法處理的訊息內文大於 4megabytes (MB)。 不過，Microsoft[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]包含原生訊息佇列的附加元件可以處理大於 4 MB 的訊息。 此附加元件當做 Mqrtlarge.dll 檔案，會傳遞，而且會公開**MQSendLargeMessage**和**MQReceiveLargeMessage**應用程式發展介面 (Api)，以及類似的 COM 模型。 這些函式會實作為標準訊息佇列應用程式開發介面， **MQSendMessage**和**MQReceiveMessage**分別。  
@@ -28,7 +28,7 @@ ms.lasthandoff: 09/20/2017
   
  **SDK 中的位置**  
   
- \<*安裝路徑*> \SDK\ Mqrtlarge.dll  
+ \<*安裝路徑*\>\SDK\ Mqrtlarge.dll  
   
  **檔案庫存**  
   
@@ -36,7 +36,7 @@ ms.lasthandoff: 09/20/2017
   
 |檔案|Description|  
 |---------------|-----------------|  
-|Mqrtlarge.dll|公開的 Win32 動態連結程式庫**MQSendLargeMessage**和**MQReceiveLargeMessage**。<br /><br /> 標頭檔位於*\<安裝路徑 >*\SDK\Include 目錄。 **注意：**必須安裝[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]到 64 位元版本的 Windows，才能存取 64 位元版本的 Mqrtlarge.dll。|  
+|Mqrtlarge.dll|公開的 Win32 動態連結程式庫**MQSendLargeMessage**和**MQReceiveLargeMessage**。<br /><br /> 標頭檔位於*\<安裝路徑\>*\SDK\Include 目錄。 **注意：**必須安裝[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]到 64 位元版本的 Windows，才能存取 64 位元版本的 Mqrtlarge.dll。|  
   
  **使用此公用程式**  
   
@@ -45,7 +45,7 @@ ms.lasthandoff: 09/20/2017
 ### <a name="to-use-the-mqrtlargedll-file"></a>若要使用 Mqrtlarge.dll 檔案  
   
 1.  > [!NOTE]
-    >  MSMQ 解決方案，而不針對[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]，MQRTLarge.dll 可能仍然正常運作。 不過，這不是建議的設定，Microsoft 支援，而且如果外部使用，可能會發生非預期的結果[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]環境。  
+    >  MSMQ 未搭配 BizTalk Server 解決方案，MQRTLarge.dll 可能仍正常運作。 不過，這不是建議的設定，Microsoft 支援，而且如果在 BizTalk Server 環境之外使用，可能會發生非預期的結果。  
   
      將 Mqrtlarge.dll 檔案新增至不包含 BizTalk Server 安裝的電腦。 「訊息佇列」會使用 Mqrtlarge.dll，傳送訊息至 BizTalk Server 或從其接收訊息。  
   
@@ -81,5 +81,5 @@ ms.lasthandoff: 09/20/2017
   
  在決定来使用**PROPID_M_EXTENSION**還有其他。 Microsoft Host Integration Server MSMQ-MQSeries Bridge 會使用此屬性，傳遞包含 MQSeries 和訊息佇列訊息之間未直接對應之屬性的結構。 將訊息明確或隱含傳送至 MQSeries 或從中接收訊息的應用程式會使用此結構。 當接收端應用程式已從佇列接收訊息時，「訊息佇列」都會產生通知。 該通知會傳送至傳送端應用程式所指定的佇列。 至於大型訊息，您只針對其最後部分傳送此通知。  
   
-## <a name="see-also"></a>另請參閱  
- [在 SDK 中的公用程式](../core/utilities-in-the-sdk.md)
+## <a name="see-also"></a>請參閱  
+ [SDK 中的公用程式](../core/utilities-in-the-sdk.md)

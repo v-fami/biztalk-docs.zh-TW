@@ -23,11 +23,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a9156b6d6fa1374f532efb354e5816c054b83994
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fa8d2521a8cf434c7a0ea56f749f9df3f032551e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="message-queuing-queues"></a>訊息佇列的佇列
 本節描述使用 MSMQ 配接器時如何指定 Microsoft Message Queuing (也稱為 MSMQ) 佇列。 內容不但描述指定路徑的慣例，同時也說明格式名稱在轉譯路徑成為佇列目的地時所扮演的角色。  
@@ -60,9 +60,9 @@ ms.lasthandoff: 09/20/2017
   
  若傳送或接收佇列路徑是 HTTP 或 HTTPS URL，那麼語法是：  
   
- FormatName:DIRECT = http: / /\<用戶端名稱 > /msmq/\<佇列名稱 >  
+ FormatName:DIRECT = http: / /\<用戶端名稱\>/msmq/\<佇列名稱\>  
   
- FormatName:DIRECT = https: / /\<用戶端名稱 > /msmq/\<佇列名稱 >  
+ FormatName:DIRECT = https: / /\<用戶端名稱\>/msmq/\<佇列名稱\>  
   
 > [!NOTE]
 >  "msmq" 是訊息佇列在 Internet Information Services (IIS) 中建立的虛擬資料夾。  
@@ -101,5 +101,5 @@ ms.lasthandoff: 09/20/2017
   
 -   **System.Messaging.MessageQueue.Exists**不適用於遠端佇列。 如需詳細資訊，請參閱＜.NET Framework 類別庫說明＞中的＜MessageQueue.Exists 方法＞。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [設定 MSMQ 配接器](../core/configuring-the-msmq-adapter.md)

@@ -13,11 +13,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 707067ed0c48abb62d567098cd472b59bad302b0
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: 384d140832c123f46ecf531e64b3c1ca11e64f4e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="create-and-use-tibco-schemas"></a>建立和使用 TIBCO 結構描述
 
@@ -44,11 +44,11 @@ Microsoft BizTalk Adapter for TIBCO Enterprise Message Service (EMS) 會使用�
   
 ## <a name="set-the-target-namespace"></a>設定目標命名空間  
   
-1.  在 [BizTalk 編輯器] 中，開啟結構描述檔案，以滑鼠右鍵按一下**\<結構描述 >**，然後選取**屬性**。  
+1.  在 [BizTalk 編輯器] 中，開啟結構描述檔案，以滑鼠右鍵按一下**\<結構描述\>**，然後選取**屬性**。  
   
 2.  在**屬性** 窗格中，找出**命名空間**欄位並輸入名稱，例如`testNameSpace`。  
   
  您之後可以使用訊息繼續您的協調流程。 在挑選訊息後，BizTalk Server 會尋找使用的結構描述具有所設定目標命名空間的協調流程，接著進行協調流程程序。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [開發應用程式](../core/developing-applications5.md)

@@ -17,11 +17,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 82603ded113fa25c839661fb7874d97f8b3bb074
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7303de4a8054cfe9f7140bd6eb548c228248777c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="msh-field-overrides"></a>MSH 欄位覆寫
 每個 HL7 訊息具有訊息標頭。 使用[!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)]，您可以覆寫您的商務需求為基礎的任何訊息標頭值。 您使用[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]Configuration 總管**MSH 對應** 索引標籤，以手動方式覆寫訊息標頭值而不使用任何對應或協調流程。  
@@ -37,7 +37,7 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-open-btahl7-configuration-explorer"></a>若要開啟 BTAHL7 組態總管  
   
--   按一下**啟動**，按一下 **程式**，按一下  **Microsoft BizTalk\<版本 > Accelerator for HL7**，然後按一下  **BTAHL7組態總管**。  
+-   按一下**啟動**，按一下 **程式**，按一下  **Microsoft BizTalk\<版本\>Accelerator for HL7**，然後按一下  **BTAHL7 Configuration 總管**。  
   
 #### <a name="to-configure-msh-field-overrides"></a>若要設定的覆寫 MSH 欄位  
   
@@ -60,7 +60,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  按一下 **[儲存]**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [記錄設定](../../adapters-and-accelerators/accelerator-hl7/logging-configuration.md)   
  [訊息批次](../../adapters-and-accelerators/accelerator-hl7/message-batching.md)   
-[作業記錄、 訊息批次、 驗證和 asknowledgment 設定](../../adapters-and-accelerators/accelerator-hl7/operational-logging-message-batching-validation-and-asknowledgment-settings.md)
+[作業記錄、訊息批次處理、驗證和通知設定](../../adapters-and-accelerators/accelerator-hl7/operational-logging-message-batching-validation-and-asknowledgment-settings.md)

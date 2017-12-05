@@ -15,11 +15,11 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 26e840148b4a5cfb8b390d5e89ee0e8edc677aad
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2987d58e17ea7ddbd0db5b0a4d242f9ff42afec5
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="poll-oracle-database-using-the-select-statement"></a>使用 SELECT 陳述式的輪詢 Oracle 資料庫
 您可以設定[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]接收定期的資料變更訊息，若要連續輪詢的資料表和檢視 Oracle 與 Oracle 資料庫中的使用 SELECT 陳述式。 您可以指定 SELECT 陳述式，為配接器執行定期輪詢 Oracle 資料庫的輪詢陳述式。 （選擇性） 您也可以指定的資料變更時，執行配接器的後輪詢 PL/SQL 程式碼區塊。 此區塊會經常更新目標中的查詢記錄中的欄位，或將查詢的記錄移到另一個資料表或檢視表。  
@@ -126,7 +126,7 @@ SELECT * FROM ACCOUNTACTIVITY FOR UPDATE
     |使用|動作|  
     |--------------|----------------|  
     |識別碼|型別**接收**。|  
-    |訊息類型|從下拉式清單中，展開 **結構描述**，然後選取*TablePolling.OracleDBBinding*，其中*TablePolling*是您的 BizTalk 專案的名稱。 *OracleDBBindingSchema*是針對產生的回應結構描述**POLLINGSTMT** ACCOUNTACTIVITY 資料表上的作業。<br /><br /> **重要**因為輪詢是單向作業，配接器所產生的結構描述不包含回應 節點，因此只有一個根節點結構描述中。 如果您使用這類結構描述的訊息類型時，您必須識別結構描述所產生的結構描述的檔案名稱。<br /><br /> 例如，如果您建立雙向作業的結構描述，結構描述中的節點檔案名稱`OracleDBBindingSchema`可能看起來像是 「 要求 」 和 「 回應 」。 如果您想要建立訊息對應至要求結構描述在協調流程中，您可以識別結構描述清單中的尋找`OracleDBBindingSchema.Request`。 不過，在輪詢作業的唯一節點 」 POLLINGSTMT"，因為它不容易識別您想要對應到單一節點的結構描述不會列為因為結構的描述\<schemafilename >。\<rootnodename >。 相反地，這類結構描述會列出依檔名。 在這種情況下，識別結構描述的唯一方法是由結構描述檔名，比方說，OracleDBBindingSchema。|  
+    |訊息類型|從下拉式清單中，展開 **結構描述**，然後選取*TablePolling.OracleDBBinding*，其中*TablePolling*是您的 BizTalk 專案的名稱。 *OracleDBBindingSchema*是針對產生的回應結構描述**POLLINGSTMT** ACCOUNTACTIVITY 資料表上的作業。<br /><br /> **重要**因為輪詢是單向作業，配接器所產生的結構描述不包含回應 節點，因此只有一個根節點結構描述中。 如果您使用這類結構描述的訊息類型時，您必須識別結構描述所產生的結構描述的檔案名稱。<br /><br /> 例如，如果您建立雙向作業的結構描述，結構描述中的節點檔案名稱`OracleDBBindingSchema`可能看起來像是 「 要求 」 和 「 回應 」。 如果您想要建立訊息對應至要求結構描述在協調流程中，您可以識別結構描述清單中的尋找`OracleDBBindingSchema.Request`。 不過，在輪詢作業的唯一節點 」 POLLINGSTMT"，因為它不容易識別您想要對應到單一節點的結構描述不會列為因為結構的描述\<schemafilename\>。\<rootnodename\>。 相反地，這類結構描述會列出依檔名。 在這種情況下，識別結構描述的唯一方法是由結構描述檔名，比方說，OracleDBBindingSchema。|  
   
 ## <a name="setting-up-the-orchestration"></a>設定協調流程  
  您必須建立 BizTalk 協調流程使用[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]從 Oracle 接收訊息以輪詢為基礎的資料變更。 在此協調流程中，配接器收到回應時所執行 SELECT 陳述式指定**PollingStatement**繫結屬性。 SELECT 陳述式的回應訊息會儲存到檔案位置。 用於輪詢 Oracle 資料庫的一般協調流程就會包含：  
@@ -216,7 +216,7 @@ SELECT * FROM ACCOUNTACTIVITY FOR UPDATE
 -   執行 SELECT 陳述式的配接器**PollingStatement** ACCOUNTACTIVITY 資料表中的繫結屬性，會傳回所有資料列。 從 Oracle 資料庫回應如下所示：  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <POLLINGSTMT xmlns="http://Microsoft.LobServices.OracleDB/2007/03/POLLINGSTMT">  
       <POLLINGSTMTRECORD>  
         <POLLINGSTMTRECORD>  
@@ -252,5 +252,5 @@ SELECT * FROM ACCOUNTACTIVITY FOR UPDATE
 ## <a name="best-practices"></a>最佳作法  
  您部署和設定 BizTalk 專案之後，您可以為 XML 檔案，稱為繫結檔案匯出組態設定。 一旦產生繫結檔案時，您可以匯入的組態設定從檔案，因此您不需要建立傳送埠和接收相同的協調流程連接埠。 如需繫結檔案的詳細資訊，請參閱[重複使用的 Oracle 資料庫配接器繫結](../../adapters-and-accelerators/adapter-oracle-database/reuse-oracle-database-adapter-bindings.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [使用 BizTalk Server 輪詢 Oracle 資料庫](../../adapters-and-accelerators/adapter-oracle-database/poll-oracle-database-using-biztalk-server.md)

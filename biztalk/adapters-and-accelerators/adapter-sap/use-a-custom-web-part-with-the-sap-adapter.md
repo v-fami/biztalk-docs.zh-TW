@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5712376abaa24d998f13612a3b74e11f2487e514
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 37d364f78404b46fe60c705c33247ccb73ba1aa3
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="use-a-custom-web-part-with-the-sap-adapter"></a>SAP 配接器搭配使用自訂 Web 組件
 本節提供與 Microsoft Office SharePoint Server 中使用自訂的 Web 組件的相關資訊。 若要使用自訂的 Web 組件，您必須執行下列作業：  
@@ -47,19 +47,19 @@ ms.lasthandoff: 09/20/2017
   
 5.  加入必要的程式碼，根據您在專案中的問題。 有關特定問題的程式碼範例，請參閱 「 問題涉及自訂 Web 組件 」，在[搭配 SharePoint 使用 SAP 配接器時的考量](../../adapters-and-accelerators/adapter-sap/considerations-when-using-the-sap-adapter-with-sharepoint.md)。  
   
-6.  建置專案。 專案建置成功，將產生的.dll 檔案，CustomWebPart.dll，在\<專案資料夾 >/bin/Debug 資料夾。  
+6.  建置專案。 專案建置成功，將產生的.dll 檔案，CustomWebPart.dll，在\<專案資料夾 \> /bin/Debug 資料夾。  
   
 7.  **僅適用於 64 位元電腦**： 之前執行下列步驟簽署為強式名稱的 CustomWebPart.dll 檔案。 否則，您將無法匯入，並因此使用中的 SharePoint 入口網站中的 CustomWebPart.dll 「 步驟 3： 設定 SharePoint 入口網站使用自訂 Web 組件。 」 請參閱[如何： 簽署為強式名稱組件](https://msdn.microsoft.com/library/xc31ft41.aspx)。
   
 ## <a name="step-2-deploy-the-custom-web-part-to-a-sharepoint-portal"></a>步驟 2： 將自訂 Web 組件部署到 SharePoint 入口網站  
  您必須執行下列命令來讓 CustomWebPart.dll 檔案 （自訂的 Web 組件） 中建立 「 步驟 1： 建立自訂的 Web 組件 」 的 SharePoint 入口網站上，您可以使用本主題：  
   
--   **CustomWebPart.dll 檔案複製到 SharePoint 入口網站的 bin 資料夾**: Microsoft Office SharePoint Server 建立入口網站下的\<根磁碟機 >: \Inetpub\wwwroot\wss\VirtualDirectories 資料夾。 資料夾會針對每個入口網站中，建立，而且可以識別的連接埠號碼。 您必須複製 CustomWebPart.dll 檔案建立在 「 步驟 1： 建立自訂的 Web 組件 」 本主題的\<根磁碟機 >: \Inetpub\wwwroot\wss\VirtualDirectories\\< Port_Number > \bin 資料夾。 例如，如果您的 SharePoint 入口網站的通訊埠編號是 13614，您必須複製 CustomWebPart.dll 檔案\<根磁碟機 >: \Inetpub\wwwroot\wss\VirtualDirectories\13614\bin 資料夾。  
+-   **CustomWebPart.dll 檔案複製到 SharePoint 入口網站的 bin 資料夾**: Microsoft Office SharePoint Server 建立入口網站下的\<根磁碟機\>: \Inetpub\wwwroot\wss\VirtualDirectories 資料夾。 資料夾會針對每個入口網站中，建立，而且可以識別的連接埠號碼。 您必須複製 CustomWebPart.dll 檔案建立在 「 步驟 1： 建立自訂的 Web 組件 」 本主題的\<根磁碟機\>: \Inetpub\wwwroot\wss\VirtualDirectories\\< Port_Number\>\bin 資料夾。 例如，如果您的 SharePoint 入口網站的通訊埠編號是 13614，您必須複製 CustomWebPart.dll 檔案\<根磁碟機\>: \Inetpub\wwwroot\wss\VirtualDirectories\13614\bin 資料夾。  
   
     > [!TIP]
     >  若要尋找您的 SharePoint 入口網站的資料夾位置的另一個方法是使用**網際網路資訊服務 (IIS) 管理員**視窗 (**啟動** > **執行** >  **inetmgr**)。 找出您的 SharePoint 入口網站中**網際網路資訊服務 (IIS) 管理員**視窗 ([電腦名稱] > 網站 > [入口網站名稱])，按一下滑鼠右鍵，然後再按一下**屬性**中快顯功能表。 在 屬性 對話方塊中的 SharePoint 入口網站，按一下 **主目錄**索引標籤，然後選取**本機路徑**方塊。  
   
--   **在 web.config 檔案中加入安全控制項項目**： 因為 CustomWebPart.dll 檔案將用於不同的電腦上並由多個使用者，您必須宣告為 「 安全 」。 檔案 若要這樣做，開啟 web.config 檔案位於位於入口網站的 SharePoint 資料夾\<根磁碟機 >: \Inetpub\wwwroot\wss\VirtualDirectories\\< Port_Number >。 在下`<SafeControls>`> 一節的 web.config 檔案中，加入下列安全控制項項目：  
+-   **在 web.config 檔案中加入安全控制項項目**： 因為 CustomWebPart.dll 檔案將用於不同的電腦上並由多個使用者，您必須宣告為 「 安全 」。 檔案 若要這樣做，開啟 web.config 檔案位於位於入口網站的 SharePoint 資料夾\<根磁碟機\>: \Inetpub\wwwroot\wss\VirtualDirectories\\< Port_Number\>。 在下`<SafeControls>`> 一節的 web.config 檔案中，加入下列安全控制項項目：  
   
     -   **在 32 位元電腦：**  
   
@@ -92,5 +92,5 @@ ms.lasthandoff: 09/20/2017
   
  現在您可以使用自訂 Web 組件 (**CustomWebPart**) 在您的 SharePoint 入口網站中建立 Web 組件。 自訂的 Web 組件 (**CustomWebPart**) 會出現在**其他**新增網頁組件頁面 區段中的。  
   
-## <a name="see-also"></a>另請參閱  
-[搭配 SharePoint 使用 SAP 配接器](../../adapters-and-accelerators/adapter-sap/use-the-sap-adapter-with-sharepoint.md)
+## <a name="see-also"></a>請參閱  
+[搭配使用 SharePoint 與 SAP 配接器](../../adapters-and-accelerators/adapter-sap/use-the-sap-adapter-with-sharepoint.md)

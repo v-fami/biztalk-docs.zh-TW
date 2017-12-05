@@ -12,11 +12,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9f13e4539fca9a14e7827afcb092af76e03f8acc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 00000896eb4cb97e44ed51602675fc65495552be
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="a-file-not-found-exception-occurred-while-reflecting-a-biztalk-assembly"></a>找不到檔案反映 BizTalk 組件時發生例外狀況
 ## <a name="details"></a>詳細資料  
@@ -37,8 +37,8 @@ ms.lasthandoff: 09/20/2017
 ## <a name="user-action"></a>使用者動作  
  除了錯誤訊息中指定的動作，將參考組件移到全域組件快取或將它複製到與 BizTalk 組件相同的位置  
   
-1.  按一下**啟動**，指向 **所有程式**，指向   **[!INCLUDE[vs2010](../includes/vs2010-md.md)]** ，然後按一下  **[!INCLUDE[vs2010](../includes/vs2010-md.md)]** 。  
+1.  按一下**啟動**，指向 **所有程式**，指向  **Visual Studio**，然後按一下  **Visual Studio**。  
   
 2.  開啟命令提示字元。  
   
-3.  瀏覽組件的位置，然後輸入**gacutil /I /\<***組件名稱***>.dll**
+3.  瀏覽組件的位置，然後輸入**gacutil /I /\<***組件名稱***\>.dll**

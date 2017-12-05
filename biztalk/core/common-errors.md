@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 14ff75bff7d5b22efdafb7aa3327683fbe805514
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1b882c44e69489114a2dd8084df71d6414df0cb5
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="common-errors"></a>一般錯誤
 本主題列出使用 BizTalk 對應工具建立對應時可能會遇到的常見錯誤訊息。  
@@ -99,9 +99,9 @@ ms.lasthandoff: 09/20/2017
 ### <a name="problem"></a>問題  
  當您欠至 BizTalk 專案時，BizTalk 對應工具產生類似下列任一項的錯誤：  
   
--   「 檔案\<檔名 > 有重複的命名空間和類型名稱屬性的值。 」  
+-   「 檔案\<filename\>有重複的命名空間和類型名稱屬性的值。 」  
   
--   "命名空間\<名稱 > 已經包含 '_' 的定義。 」  
+-   "命名空間\<名稱\>已經包含 '_' 的定義。 」  
   
 ### <a name="cause"></a>原因  
  在 BizTalk 專案中，檢查下列各項：  
@@ -132,5 +132,5 @@ ms.lasthandoff: 09/20/2017
 ### <a name="resolution"></a>解決方案  
  忽略此警告。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [地圖疑難排解](../core/troubleshooting-maps.md)

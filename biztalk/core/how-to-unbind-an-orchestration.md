@@ -12,11 +12,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ce49c3e74846fac5943bda522d11218410f428ee
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 38b8adc77e5e8579339931e49abb501f9981e5fc
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="unbind-an-orchestration"></a>解除繫結協調流程
 
@@ -37,15 +37,15 @@ ms.lasthandoff: 09/20/2017
   
 3.  按一下**協調流程**，以滑鼠右鍵按一下協調流程，按一下**屬性**，然後按一下 **繫結**的左窗格中。  
   
-4.  若要移除的主機繫結，**主機**清單中，選取**\<無 >**。  
+4.  若要移除的主機繫結，**主機**清單中，選取**\<無\>**。  
   
-5.  若要移除接收埠繫結，下方的下拉式清單**接收埠**，按一下  **\<無 >**。  
+5.  若要移除接收埠繫結，下方的下拉式清單**接收埠**，按一下  **\<無\>**。  
   
-6.  若要從底下的下拉式清單中移除傳送埠繫結，**傳送埠/傳送埠群組**，按一下  **\<無 >**。  
+6.  若要從底下的下拉式清單中移除傳送埠繫結，**傳送埠/傳送埠群組**，按一下  **\<無\>**。  
   
 7.  完成移除繫結，請按一下**確定**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理協調流程](../core/managing-orchestrations.md)   
  [如何設定協調流程的繫結](../core/how-to-configure-bindings-for-an-orchestration.md)   
  [部署和管理 BizTalk 應用程式](../core/deploying-and-managing-biztalk-applications.md)

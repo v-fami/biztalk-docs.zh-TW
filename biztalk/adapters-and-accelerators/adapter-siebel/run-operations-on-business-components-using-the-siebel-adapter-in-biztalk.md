@@ -15,11 +15,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: aa99f6ec1bbc5ff817fecae67c9ad558face581f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b3fc90d0798e3fca420e567d1a50c58607db4ae3
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="run-operations-on-business-components-using-biztalk-server-and-the-siebel-adapter"></a>在商務元件使用 BizTalk Server 和 Siebel 配接器上執行作業
 [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]商務元件會呈現可叫用的作業。 商務元件上的作業可分類為：  
@@ -190,7 +190,7 @@ ms.lasthandoff: 09/20/2017
  協調流程會使用要求訊息，並將其傳遞至 Siebel 系統。 來自 Siebel 系統的回應會儲存在其他的協調流程中定義的檔案位置。 比方說，是來自上述的要求訊息的 Siebel 系統的回應：  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <InsertResponse xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Operation">  
   <InsertResult>  
     <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/Arrays">1-8ANYV</string>  
@@ -204,5 +204,5 @@ ms.lasthandoff: 09/20/2017
 ## <a name="best-practices"></a>最佳作法  
  您部署和設定 BizTalk 專案之後，您可以為 XML 檔案，稱為繫結檔案匯出組態設定。 一旦產生繫結檔案時，您可以匯入組態設定從檔案，因此您不需要建立傳送埠、 接收埠，等。 針對相同的協調流程。 如需繫結檔案的詳細資訊，請參閱[重複使用 Siebel 配接器中的配接器繫結](../../adapters-and-accelerators/adapter-siebel/reuse-adapter-bindings-in-the-siebel-adapter.md)。
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [開發 BizTalk 應用程式使用 Siebel 配接器](../../adapters-and-accelerators/adapter-siebel/develop-biztalk-applications-using-the-siebel-adapter.md)

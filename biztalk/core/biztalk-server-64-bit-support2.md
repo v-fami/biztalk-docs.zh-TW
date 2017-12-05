@@ -13,11 +13,11 @@ caps.latest.revision: "42"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: aaf155bac387f613725023feb015f8f9a1894a2d
-ms.sourcegitcommit: 5355a25d120d094778fb8f68ea14cab55c68d292
+ms.openlocfilehash: c67e68c210566a4f0ba42fcfa0e10cd0260fb6b2
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="biztalk-server-64-bit-support"></a>BizTalk Server 64 位元的支援
 本主題會回答關於 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 64 位元支援的常見問題。  
@@ -27,7 +27,7 @@ ms.lasthandoff: 09/28/2017
  
   [BizTalk Server 2016 的硬體和軟體需求](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md)  
   
- [硬體和軟體需求適用於 BizTalk Server 2013 和 2013 R2](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2013-and-2013-r2.md)  
+ [BizTalk Server 2013 和 2013 R2 的硬體和軟體需求](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2013-and-2013-r2.md)  
   
 ## <a name="is-there-an-extra-cost-for-64-bit-support"></a>64 位元支援是否有額外的成本？  
  資料分割 64 位元支援是內含不額外收費。  
@@ -132,7 +132,7 @@ ms.lasthandoff: 09/28/2017
  資料分割 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]保留執行階段元件使用 32 位元或 64 位元執行階段無關的格式。 這包括協調流程、訊息，以及連接埠。 此保存模式允許系統管理員在 32 位元與 64 位元之間切換主控件組態，而不會造成 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 資料的不相容。  
   
 ## <a name="when-i-upgrade-to-biztalk-server-will-my-biztalk-hosts-run-as-64-bit-by-default"></a>當我升級到 BizTalk Server 時，將我的 BizTalk 主控件為 64 位元預設執行？  
- 資料分割 根據預設，升級至[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]僅標示為 32 位元的所有 BizTalk 主控件執行個體。 系統管理員必須在 Windows x64 電腦上建立新主控件執行個體，並設定應用程式以使用它們。  
+ 資料分割 根據預設，升級至 BizTalk Server 僅標示為 32 位元的所有 BizTalk 主控件執行個體。 系統管理員必須在 Windows x64 電腦上建立新主控件執行個體，並設定應用程式以使用它們。  
   
 ## <a name="can-i-have-a-mixed-biztalk-server-group-that-includes-both-32-bit-and-64-bit-biztalk-runtimes"></a>我可以擁有同時包含 32 位元和 64 位元 BizTalk 執行階段的「混合式」BizTalk Server 群組嗎？  
  是的。  
@@ -149,5 +149,5 @@ ms.lasthandoff: 09/28/2017
   
 -   傳統元件  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [效能和容量規劃](../core/performance-and-capacity-planning.md)

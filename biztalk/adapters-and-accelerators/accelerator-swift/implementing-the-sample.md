@@ -12,24 +12,24 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0d2e07078f630852fc14bf8081a4bd1453a0dc7b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d6622d201c6f7b7d94694a77198d0eb562482489
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="implementing-the-sample"></a>實作範例
 若要實作的範例，請繼續進行，如下所示：  
   
-1.  建立新的資料夾 for SWIFT 結構描述 (\<DocumentSchemaLocation > 公用程式語法中)。 您即將建立/修改 InfoPath 表單的所有結構描述必須位於此資料夾中，當您執行此公用程式。  
+1.  建立新的資料夾 for SWIFT 結構描述 (\<DocumentSchemaLocation\>公用程式語法中)。 您即將建立/修改 InfoPath 表單的所有結構描述必須位於此資料夾中，當您執行此公用程式。  
   
-2.  如果產生的 InfoPath 表單 MT 訊息然後複製**SWIFT 基底 Types.xsd**和**SWIFT 常見資料 Types.xsd**從**\<磁碟機： > \Program Files\MicrosoftBizTalk Accelerator for SWIFT\<訊息組件版本 > 訊息 Pack\SWIFT Messages\A4SWIFT SRG\<訊息組件版本 > \Base 結構描述**SWIFT 的結構描述所建立的資料夾。  
+2.  如果產生的 InfoPath 表單 MT 訊息然後複製**SWIFT 基底 Types.xsd**和**SWIFT 常見資料 Types.xsd**從**\<磁碟機：\> files\Microsoft BizTalk Accelerator for SWIFT\<訊息組件版本\>訊息 Pack\SWIFT Messages\A4SWIFT SRG\<訊息組件版本\>\Base 結構描述**到資料夾，您建立 SWIFT 的結構描述。  
   
 3.  複製您要建立放在您為 SWIFT 的結構描述在步驟 1 中建立資料夾的 InfoPath 表單的所有結構描述。  
   
-4.  建立或指定要保留建立的 InfoPath 表單範本方案檔的資料夾 (\<DestinationFolderPath > 公用程式語法中)。 如果您未建立輸出資料夾，此公用程式會建立相同路徑和您在命令列傳遞的名稱。  
+4.  建立或指定要保留建立的 InfoPath 表單範本方案檔的資料夾 (\<DestinationFolderPath\>公用程式語法中)。 如果您未建立輸出資料夾，此公用程式會建立相同路徑和您在命令列傳遞的名稱。  
   
-5.  [選用]-建立文字檔\<NameOfFileContainingSchemaList >，其中列出要產生 InfoPath 表單的訊息的訊息類型。 例如： 訊息類型可以是 MT103，MT102 等等。透過命令列，而不是建立此文字檔案時，可以直接傳遞訊息名稱。  
+5.  [選用]-建立文字檔\<NameOfFileContainingSchemaList\>其中列出要產生 InfoPath 表單的訊息的訊息類型。 例如： 訊息類型可以是 MT103，MT102 等等。透過命令列，而不是建立此文字檔案時，可以直接傳遞訊息名稱。  
   
 ## <a name="syntax-of-command-usage-for-formgeneratorexe"></a>FormGenerator.exe 的命令使用方式的語法  
   

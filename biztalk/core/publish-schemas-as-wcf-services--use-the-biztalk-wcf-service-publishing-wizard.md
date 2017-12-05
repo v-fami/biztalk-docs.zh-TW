@@ -18,11 +18,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2e1acb31455bfcf81ab9d4cb3e983f2614fce1c0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: eba9aee72bfbd3197437011950f23fd7a31e2ccb
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-use-the-biztalk-wcf-service-publishing-wizard-to-publish-schemas-as-wcf-services"></a>如何使用 BizTalk WCF 服務發佈精靈將結構描述發佈為 WCF 服務
 您會使用 [BizTalk WCF 服務發佈精靈] 將結構描述發佈為 WCF 服務。  
@@ -45,7 +45,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  在**WCF 服務類型**頁面上，選取或清除**啟用中繼資料端點**核取方塊，以指出外掛式的 WCF 接收位置主控網際網路資訊服務 (IIS) 是否將發行使用 HTTP/GET 要求進行擷取服務中繼資料。  
   
-     選取此核取方塊時，精靈會產生 Web.config 檔案，而**httpGetEnabled**屬性 **\<serviceMetadata >**元素設定為**，則為 true**. 您可以在開發環境中使用中繼資料匯入工具 (例如 SvcUtil.exe) 產生呼叫此服務所需的用戶端程式碼。 中繼資料發行的位址是端點位址加上一個**？ wsdl**查詢字串。  
+     選取此核取方塊時，精靈會產生 Web.config 檔案，而**httpGetEnabled**屬性 **\<serviceMetadata\>** 元素設定為**true**。 您可以在開發環境中使用中繼資料匯入工具 (例如 SvcUtil.exe) 產生呼叫此服務所需的用戶端程式碼。 中繼資料發行的位址是端點位址加上一個**？ wsdl**查詢字串。  
   
     > [!NOTE]
     >  為避免不慎洩露機密的服務中繼資料，建議您在實際執行環境中停用此行為。 這可透過將 httpgetenabled 設為 False 或刪除 MEX 虛擬目錄來完成。  
@@ -94,7 +94,7 @@ ms.lasthandoff: 09/20/2017
   
      ![WCF 服務屬性頁面](../core/media/07518c78-bcae-4274-bb14-aeef107ee4c6.gif "07518c78-bcae-4274-bb14-aeef107ee4c6")  
   
-11. 在**WCF 服務位置**頁面上，於**位置**文字方塊中，輸入產生 WCF 服務位置的 Web 目錄名稱。 您可以接受預設位置 (http://localhost/\<*Web 服務描述名稱*>)，輸入中的 WCF 服務的位置**位置**文字方塊中或按一下**瀏覽**，並選取 Web 目錄。 接著，選取下列任何一個選項：  
+11. 在**WCF 服務位置**頁面上，於**位置**文字方塊中，輸入產生 WCF 服務位置的 Web 目錄名稱。 您可以接受預設位置 (http://localhost/ <*Web 服務描述名稱*>)，輸入中的 WCF 服務的位置**位置**文字方塊中或按一下**瀏覽** ，並選取 Web 目錄。 接著，選取下列任何一個選項：  
   
     -   **覆寫現有的專案。** 此選項只有在 Web 目錄已存在時才能使用。 只有當您選取了這個選項時，才能夠發佈至相同的位置。 否則，您必須輸入不同的專案位置。  
   
@@ -105,10 +105,10 @@ ms.lasthandoff: 09/20/2017
      ![WCF 服務位置頁面](../core/media/76285470-1520-4d77-a5b6-c58cbe8fc575.gif "76285470-1520-4d77-a5b6-c58cbe8fc575")  
   
     > [!NOTE]
-    >  專案位置可以存在不同的伺服器上。 若要將 WCF 服務發佈到另一部伺服器中，輸入專案名稱做為 http://\<*servername*>/\<*WCF 服務位置*>。  
+    >  專案位置可以存在不同的伺服器上。 若要將 WCF 服務發佈到另一部伺服器中，輸入專案名稱做為 http://&lt*servername*>/<*WCF 服務位置*>。  
   
     > [!NOTE]
-    >  專案位置可以存在非預設的網站上。 發佈至非預設的網站時，請在 URL 中加入網站的連接埠編號。 例如 http://\<*servername*>: 8080 /\<*WCF 服務位置*>。  
+    >  專案位置可以存在非預設的網站上。 發佈至非預設的網站時，請在 URL 中加入網站的連接埠編號。 例如，http://&lt*servername*>: 8080 / <*WCF 服務位置*>。  
   
     > [!NOTE]
     >  在使用精靈建立接收位置時，精靈會使用預設值來建立接收位置。 接收管線的預設值是**Microsoft.BizTalk.DefaultPipelines.PassThruReceive**管線。 如果透過已發佈的 WCF 服務收到的訊息需要任何特殊管線處理 （例如，驗證、 相互關聯/屬性升級或輸入/輸出對應），則您應該設定接收管線**Microsoft.BizTalk.DefaultPipelines.XMLReceive**，或使用 BizTalk 管理主控台的自訂管線。  
@@ -121,7 +121,7 @@ ms.lasthandoff: 09/20/2017
   
 15. 在使用 [BizTalk WCF 服務發佈精靈] 發佈 WCF 服務之後，您還必須適當設定這些服務。 如需有關如何設定外掛式的 WCF 接收配接器，請參閱[如何使用 BizTalk WCF 服務發佈精靈設定 WCF 服務發佈](../core/configure-wcf-services-published-with-the-biztalk-wcf-service-publishing-wizard.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [如何設定使用 BizTalk WCF 服務發佈精靈發佈的 WCF 服務](../core/configure-wcf-services-published-with-the-biztalk-wcf-service-publishing-wizard.md)   
  [逐步解說： 使用發佈 WCF 服務 Wcf-basichttp 配接器](../core/walkthrough-publishing-wcf-services-with-the-wcf-basichttp-adapter.md)   
  [如何使用 BizTalk WCF 服務發佈精靈協調流程發佈為 WCF 服務](../core/publish-orchestrations-as-wcf-services--biztalk-wcf-service-publishing-wizard.md)

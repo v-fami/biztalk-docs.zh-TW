@@ -15,11 +15,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: eb8cd252c9aa5557ea3845e7b6665dc749486f01
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1030e0a743a9b06d856bc593198f4afebc1ffa38
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="invoke-operations-on-the-sap-system-using-the-wcf-channel-model"></a>使用 WCF 通道模型的 SAP 系統上叫用作業
 您在上叫用作業[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]使用**IRequestChannel**或**IOutputChannel**通道將訊息傳送至配接器的圖案。 基本模式是使用繫結建立通道處理站為必要的通道圖案 (**SAPBinding**) 和建立的連線 URI 的端點。 然後，您建立**訊息**表示 SOAP 訊息，並符合您目標的作業的訊息結構描述執行個體。 然後您可以傳送這**訊息**至[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]使用從通道處理站建立通道。 如果您使用**IRequestChannel**，您收到的回應。 如果沒有執行 SAP 系統上的操作問題[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]會擲回**Microsoft.ServiceModel.Channels.Common.TargetSystemException**。  
@@ -45,7 +45,7 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="how-to-invoke-an-operation-by-using-an-instance-of-irequestchannel"></a>如何使用 IRequestChannel 的執行個體叫用作業  
   
-1.  建置通道處理站 (**ChannelFactory\<IRequestChannel >**)。 若要這樣做，您必須指定繫結 (**SAPBinding**) 以及端點位址。 以命令方式在您的程式碼或是宣告式組態中，您可以指定的繫結與端點位址。 您應該設定屬性的作業所需先開啟之處理站會傳送任何繫結。 如需如何在組態中指定的繫結和端點位址的詳細資訊，請參閱[建立通道使用 SAP](../../adapters-and-accelerators/adapter-sap/create-a-channel-using-sap.md)。  
+1.  建置通道處理站 (**ChannelFactory\<IRequestChannel\>**)。 若要這樣做，您必須指定繫結 (**SAPBinding**) 以及端點位址。 以命令方式在您的程式碼或是宣告式組態中，您可以指定的繫結與端點位址。 您應該設定屬性的作業所需先開啟之處理站會傳送任何繫結。 如需如何在組態中指定的繫結和端點位址的詳細資訊，請參閱[建立通道使用 SAP](../../adapters-and-accelerators/adapter-sap/create-a-channel-using-sap.md)。  
   
     ```  
     // Create a binding  
@@ -79,7 +79,7 @@ ms.lasthandoff: 09/20/2017
 5.  建立**訊息**目標作業的執行個體。 請務必確認已指定目標作業的訊息動作。 在此範例中，訊息本文會藉由建立**XmlReader**字串。 目標作業會叫用 SD_RFC_CUSTOMER_GET RFC，SAP 系統上。  
   
     ```  
-    string inputXml = "\<SD_RFC_CUSTOMER_GET xmlns=\"http://Microsoft.LobServices.Sap/2007/03/Rfc/\"> \<KUNNR i:nil=\"true\" xmlns:i=\"http://www.w3.org/2001/XMLSchema-instance\"> </KUNNR> <NAME1>AB*</NAME1> <CUSTOMER_T> </CUSTOMER_T> </SD_RFC_CUSTOMER_GET>";  
+    string inputXml = "\<SD_RFC_CUSTOMER_GET xmlns="http://Microsoft.LobServices.Sap/2007/03/Rfc/\"> <KUNNR i:nil=\"true\" xmlns:i=\"http://www.w3.org/2001/XMLSchema-instance\"> </KUNNR> <NAME1>AB*</NAME1> <CUSTOMER_T> </CUSTOMER_T> </SD_RFC_CUSTOMER_GET>";  
   
     //create an XML reader from the input XML  
     XmlReader reader = XmlReader.Create(new MemoryStream(Encoding.Default.GetBytes(inputXml)));  
@@ -125,7 +125,7 @@ ms.lasthandoff: 09/20/2017
   
  您遵循相同的步驟，以傳送訊息，使用**IOutputChannel**圖形除外：  
   
--   您建立**ChannelFactory\<IOutputChannel >**步驟 1。  
+-   您建立**ChannelFactory\<IOutputChannel\>** 步驟 1。  
   
 -   您呼叫**傳送**步驟 6 中的通道上的方法。 `channel.Send(messageIn);`。  
   
@@ -178,7 +178,7 @@ namespace SapRfcClientCM
             //create an XML message to send to the SAP system  
             //We are invoking the SD_RFC_CUSTOMER_GET RFC.  
             //The XML below specifies that we want to search for customers with names starting with "AB"  
-            string inputXml = "\<SD_RFC_CUSTOMER_GET xmlns=\"http://Microsoft.LobServices.Sap/2007/03/Rfc/\"> \<KUNNR i:nil=\"true\" xmlns:i=\"http://www.w3.org/2001/XMLSchema-instance\"> </KUNNR> <NAME1>AB*</NAME1> <CUSTOMER_T> </CUSTOMER_T> </SD_RFC_CUSTOMER_GET>";  
+            string inputXml = "<SD_RFC_CUSTOMER_GET xmlns=\"http://Microsoft.LobServices.Sap/2007/03/Rfc/\"> <KUNNR i:nil=\"true\" xmlns:i=\"http://www.w3.org/2001/XMLSchema-instance\"> </KUNNR> <NAME1>AB*</NAME1> <CUSTOMER_T> </CUSTOMER_T> </SD_RFC_CUSTOMER_GET>";  
   
             //create an XML reader from the input XML  
             XmlReader readerOut = XmlReader.Create(new MemoryStream(Encoding.Default.GetBytes(inputXml)));  
@@ -242,5 +242,5 @@ namespace SapRfcClientCM
 }  
 ```  
   
-## <a name="see-also"></a>另請參閱  
-[開發應用程式使用 WCF 通道模型](../../adapters-and-accelerators/adapter-sap/develop-sap-applications-using-the-wcf-channel-model.md)
+## <a name="see-also"></a>請參閱  
+[使用 WCF 通道模型開發應用程式](../../adapters-and-accelerators/adapter-sap/develop-sap-applications-using-the-wcf-channel-model.md)

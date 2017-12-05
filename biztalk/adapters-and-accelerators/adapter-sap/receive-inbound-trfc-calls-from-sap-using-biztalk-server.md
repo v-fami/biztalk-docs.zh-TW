@@ -15,11 +15,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b3ad06768a5156b71d4d0da77b778f22d3d09fbb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 588e135507a2d186d9d8006836f5bdfb2940eb32
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="receive-inbound-trfc-calls-from-sap-using-biztalk-server"></a>從 SAP 使用 BizTalk Server 接收輸入的 tRFC 呼叫
 TRFC 伺服器呼叫是對交易式 RFC 伺服器呼叫。 與協調流程接收從 SAP 系統傳送任何其他輸入的 RFC 相似接收 RFC 交易內容中所需的協調流程。 不過，您需要執行某些其他工作，以確定 Rfc 接收交易內容中。 如需有關從 SAP 系統使用接收傳入的 RFC [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]，請參閱[從 SAP 使用 BizTalk Server 接收傳入的 RFC 呼叫](../../adapters-and-accelerators/adapter-sap/receive-inbound-rfc-calls-from-sap-using-biztalk-server.md)。 如需有關如何[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]支援接收輸入的 tRFC 呼叫從 SAP 系統，請參閱[tRFCs SAP 中的作業](../../adapters-and-accelerators/adapter-sap/operations-on-trfcs-in-sap.md)。  
@@ -37,7 +37,7 @@ TRFC 伺服器呼叫是對交易式 RFC 伺服器呼叫。 與協調流程接收
      如需繫結屬性和設定方式的詳細資訊，請參閱[了解 BizTalk Adapter for mySAP Business Suite 繫結屬性](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md)。  
   
     > [!IMPORTANT]
-    >  [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]安裝精靈正在安裝的 SQL 指令碼、 SapAdapter-DbScript-Install.sql，必須執行 SQL Server 系統管理員可以在 SQL Server 中建立資料庫和資料庫物件。 指令碼通常會安裝在*\<安裝磁碟機 >: Program FilesMicrosoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]* 。  
+    >  [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]安裝精靈正在安裝的 SQL 指令碼、 SapAdapter-DbScript-Install.sql，必須執行 SQL Server 系統管理員可以在 SQL Server 中建立資料庫和資料庫物件。 指令碼通常會安裝在*\<安裝磁碟機\>： 程式 FilesMicrosoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]* 。  
     >   
     >  [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]保存 TIDs 會使用這些物件。 因此，SQL Server 系統管理員必須確定使用者名稱提供連接字串的一部分有足夠的權限可以執行預存程序。 提供 Windows 使用者具有足夠的權限的資料庫中執行預存程序，您也可以選擇 Windows 驗證。  
   
@@ -70,5 +70,5 @@ TRFC 伺服器呼叫是對交易式 RFC 伺服器呼叫。 與協調流程接收
 > [!IMPORTANT]
 >  輸入的 tRFC 呼叫是從 「 交易 」 的內容中的 SAP 系統接收 Idoc 時使用。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [開發 BizTalk 應用程式](../../adapters-and-accelerators/adapter-sap/develop-biztalk-applications-using-the-sap-adapter.md)

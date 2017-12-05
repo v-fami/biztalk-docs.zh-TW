@@ -13,11 +13,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b27bb8f88686fe1726aed16113ce227347151996
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cb5a1778fac8577efb3c3c21a10b16f47a026397
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="sapconnection-class-in-the-sap-adapter"></a>SAP 配接器在 SAPConnection 類別
 下節列出方法和屬性的**SAPConnection**類別。 這代表 ADO.NET 連接到 SAP 應用程式伺服器。  
@@ -42,7 +42,7 @@ ms.lasthandoff: 09/20/2017
 |**ChangeDatabase(string)**|不支援。|  
 |**Close （)**|關閉 SAP 系統的連接。|  
 |**CreateCommand()**|傳回新的 SAPCommand 這個連接相關聯。|  
-|**Getschema （)**|取得探索到的 SAP 資料表清單。 所有探索到的資料表都是在 XML 檔案 SAPDiscoveredObjects.xml。 檔案是位於\<安裝磁碟機 >: \Program Files\Common Files\Microsoft Shared\Adapters\SAP。|  
+|**Getschema （)**|取得探索到的 SAP 資料表清單。 所有探索到的資料表都是在 XML 檔案 SAPDiscoveredObjects.xml。 檔案是位於\<安裝磁碟機\>: \Program Files\Common Files\Microsoft Shared\Adapters\SAP。|  
 |**GetSchema(string)**|取得結構描述集合名稱為基礎。 支援集合名稱"Tables"。|  
   
 |名稱|Description|  
@@ -78,5 +78,5 @@ ms.lasthandoff: 09/20/2017
 |**SAPConnection()**|建立 SAPConnection 物件執行個體。|  
 |**SAPConnection(string)**|接受 SAP 的連線字串。 如果連接字串無效，會擲回例外狀況。|  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [SAP 配接器以延伸的 ADO.NET 介面](../../adapters-and-accelerators/adapter-sap/extend-ado-net-interfaces-with-the-sap-adapter.md)

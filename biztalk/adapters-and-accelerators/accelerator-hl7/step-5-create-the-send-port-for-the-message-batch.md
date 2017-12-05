@@ -12,11 +12,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3176814481d98a7aa0e1e48abad9f20e887b17ab
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a5749166c8a9b34d5e5a04849c4179ac4427201c
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="step-5-create-the-send-port-for-the-message-batch"></a>步驟 5： 建立傳送埠的訊息批次
 在此步驟中，您可以建立傳送埠以將您建立的訊息批次傳遞至目的合作對象。 這是靜態單向連接埠與 FILE 配接器類型。 您指定的目的地 (\Tutorial_BatchMsgDrop) 的檔案資料夾位置[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]將卸除的訊息批次檔。 您定義指出哪種類型的訊息批次傳送連接埠的連接埠的篩選。 篩選器會指定 Tutorial_BatchDest 和 OutboundBatch 的訊息類型的目的地。  
@@ -26,7 +26,7 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-create-the-send-port-for-the-message-batch"></a>若要建立的訊息批次的傳送埠  
   
-1.  在[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]管理主控台中，以滑鼠右鍵按一下**傳送埠**，指向 **新增**，然後按一下 **靜態單向傳送埠**。  
+1.  在 BizTalk Server 管理主控台中，以滑鼠右鍵按一下**傳送埠**，指向 **新增**，然後按一下 **靜態單向傳送埠**。  
   
 2.  在 [傳送埠屬性] 對話方塊中，執行下列動作：  
   
@@ -40,7 +40,7 @@ ms.lasthandoff: 09/20/2017
   
     |使用|動作|  
     |--------------|----------------|  
-    |**目的地資料夾**|瀏覽至  **\<*磁碟機*: > \Program Files\Microsoft BizTalk\<版本 > Accelerator for HL7\SDK\End 端對端 Tutorial\Tutorial_BatchMsgDrop * *。 這是在檔案系統或公用共用的位置路徑[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]會寫入含有訊息批次的檔案。|  
+    |**目的地資料夾**|瀏覽至  **\<*磁碟機*:\>\Program Files\Microsoft BizTalk\<版本\>Accelerator for HL7\SDK\End 端對端 Tutorial\Tutorial_BatchMsgDrop * *。 這是在檔案系統或公用共用的位置路徑[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]會寫入含有訊息批次的檔案。|  
     |**檔案名稱**|型別**%MessageID%.txt** （副檔名為.txt 取代.xml 副檔名）。|  
     |**複製模式**|選取**建立新**。|  
   
@@ -66,7 +66,7 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-associate-the-send-port-with-the-destination-party"></a>若要將傳送埠與目的合作對象產生關聯  
   
-1.  在[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]管理主控台中，展開 **合作對象**，按一下  **Tutorial_BatchDest**，然後以滑鼠右鍵按一下**屬性**。  
+1.  在 BizTalk Server 管理主控台中，展開**合作對象**，按一下  **Tutorial_BatchDest**，然後以滑鼠右鍵按一下**屬性**。  
   
 2.  在 [合作對象屬性] 對話方塊中，按一下**傳送埠**在主控台樹狀目錄中。  選取**Tutorial_BatchDest**從下拉式清單，然後按一下**確定**。  
   

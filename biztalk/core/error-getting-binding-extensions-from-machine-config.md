@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b8dfdedb58e4372caed38c7c272cbaaf65fefbcb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bbe53def02f42c59cf5e40380c898f47695c19da
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="error-getting-binding-extensions-from-machineconfig"></a>取得 machine.config 從繫結延伸時發生錯誤
 ## <a name="details"></a>詳細資料  
@@ -58,6 +58,6 @@ ms.lasthandoff: 09/20/2017
         ```  
   
 > [!NOTE]
->  上述程式碼也可以加入 [WCF 延伸模組] 索引標籤。如果延伸模組必須在接收端，請參閱**\<主機名稱 > 屬性對話方塊、 WCF 延伸模組** 索引標籤 （Wcf-custom 或 Wcf-customisolated 配接器接收處理常式） [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。 如果延伸模組必須在傳送端，請參閱**\<主機名稱 > 屬性對話方塊、 WCF 延伸模組** 索引標籤 （Wcf-custom 配接器傳送處理常式） [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。  
+>  上述程式碼也可以加入 [WCF 延伸模組] 索引標籤。如果延伸模組必須在接收端，請參閱**\<主機名稱\>屬性對話方塊、 WCF 延伸模組** 索引標籤 （Wcf-custom 或 Wcf-customisolated 配接器接收處理常式） [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。 如果延伸模組必須在傳送端，請參閱**\<主機名稱\>屬性對話方塊、 WCF 延伸模組** 索引標籤 （Wcf-custom 配接器傳送處理常式） [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。  
   
  3. 關閉並重新開啟您的系統管理員主控台。 您應該可以看到您的自訂行為，Wcf-custom 配接器中，連接埠應保持在啟用狀態時啟用它。

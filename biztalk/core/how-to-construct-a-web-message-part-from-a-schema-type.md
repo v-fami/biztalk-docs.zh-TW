@@ -18,11 +18,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3434dc46be2fa43885346ac8d146e9326ab1ea73
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: da57e32f2ba4d4d5feb60a6f44cc7d92195852c9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-construct-a-web-message-part-from-a-schema-type"></a>如何從結構描述類型建構 Web 訊息部分
 從結構描述類型建立 Web 訊息部分使用**轉換**圖形。 或者，您也可以使用 .NET Helper 類別來設定部分，以從結構描述類型建立 Web 訊息部分。 如需有關使用.NET 類別建立訊息類型的詳細資訊，請參閱[使用者程式碼中的 建構訊息](../core/constructing-messages-in-user-code.md)。  
@@ -34,7 +34,7 @@ ms.lasthandoff: 09/20/2017
 2.  在 BizTalk 對應工具中，按一下 **開啟目的結構描述**中**目的結構描述**窗格中的對應，然後在**BizTalk 型別選擇器**對話方塊方塊中，展開  **結構描述** 節點，選取 加入 Web 參考的結構描述，然後按一下**確定**。  
   
     > [!NOTE]
-    >  Web 參考結構描述的格式是**\<專案預設命名空間 >。\<Web 參考名稱 >。參考**。  
+    >  Web 參考結構描述的格式是**\<專案預設命名空間\>。\<Web 參考名稱\>。參考**。  
   
 3.  在**目標結構描述的根節點**對話方塊中，選取 目的結構描述的根節點，然後按一下**確定**。 如需如何判斷 Web 訊息部分類型的根節點的詳細資訊，請參閱[如何判斷 Web 訊息部分類型](../core/how-to-determine-a-web-message-part-type.md)。  
   
@@ -60,5 +60,5 @@ ms.lasthandoff: 09/20/2017
   
  您也可以使用這個程序，將 Web 方法回應訊息執行個體對應到其他 Web 訊息執行個體。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [建構 Web 訊息](../core/constructing-web-messages.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 07a160c428ac9df0f75b219af5bafb0727205cbd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3ba1d7e105a1ea09724950f4c0f8b778e45dad46
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="troubleshoot-installation-issues-with-the-sql-adapter"></a>SQl 配接器疑難排解安裝問題
 > [!IMPORTANT]
@@ -51,9 +51,9 @@ ms.lasthandoff: 09/20/2017
   
 ##### <a name="to-register-the-adapter-binding"></a>若要註冊的配接器繫結  
   
-1.  瀏覽至電腦上的 machine.config 檔案。 例如，32 位元平台上，machine.config 位在\<系統磁碟機 >: \WINDOWS\Microsoft.NET\Framework\\< 版本\>\CONFIG。  
+1.  瀏覽至電腦上的 machine.config 檔案。 例如，32 位元平台上，machine.config 位在\<系統磁碟機\>: \WINDOWS\Microsoft.NET\Framework\\< 版本\>\CONFIG。  
   
-     在此路徑中\<版本 > 是.NET Framework 的版本。  
+     在此路徑中\<版本\>是.NET Framework 的版本。  
   
 2.  使用文字編輯器開啟檔案。  
   
@@ -151,5 +151,5 @@ Verify the binding extension is registered in machine.config."
 > [!IMPORTANT]
 >  您必須只有 64 位元[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]安裝。 由並行安裝 32 位元和 64 位元[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]不支援在單一電腦上。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [SQL 配接器進行疑難排解](../../adapters-and-accelerators/adapter-sql/troubleshoot-the-sql-adapter.md)

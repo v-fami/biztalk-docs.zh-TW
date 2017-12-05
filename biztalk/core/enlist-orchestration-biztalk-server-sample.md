@@ -16,11 +16,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 95b03da5bf56367e59142a241dada6454a74c459
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6e8d85a49b410f0571e8e9cb0be816f1feda139e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="enlist-orchestration-biztalk-server-sample"></a>登錄協調流程 （BizTalk Server 範例）
 「登錄協調流程」範例會示範如何向主控件登錄 BizTalk Server 協調流程。  
@@ -40,9 +40,9 @@ ms.lasthandoff: 09/20/2017
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
  範例位於下列 SDK 位置：  
   
--   VBScript 版： \<*範例路徑*> \Admin\WMI\Enlist Orchestration\VBScript\  
+-   VBScript 版： \<*範例路徑*\>\Admin\WMI\Enlist Orchestration\VBScript\  
   
--   Visual C# 版本： \<*範例路徑*> \Admin\WMI\Enlist Orchestration\CSharp\  
+-   Visual C# 版本： \<*範例路徑*\>\Admin\WMI\Enlist Orchestration\CSharp\  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -64,17 +64,15 @@ ms.lasthandoff: 09/20/2017
   
 1.  在命令視窗中，根據您打算執行此範例的 VBScript 版或 Visual C# 版，分別瀏覽至下列其中一個資料夾：  
   
-     \<*範例路徑*> \Admin\WMI\Enlist Orchestration\VBScript\  
+     \<*範例路徑*\>\Admin\WMI\Enlist Orchestration\VBScript\  
   
-     \<*範例路徑*> AdminWMIEnlist OrchestrationCSharpbinDebug  
+     \<*範例路徑*\>AdminWMIEnlist OrchestrationCSharpbinDebug  
   
 2.  根據您打算執行此範例的 VBScript 版或 Visual C# 版，分別使用 cscript 程式執行 EnlistOrch.vbs 檔，或是執行 EnlistOrc.exe 檔。 無論執行哪個版本，都會傳遞下列命令列引數：  
   
-    -   **\<**   
-         ***OrchestrationName* >。** 要登錄的協調流程名稱。  
+    -   **\<** ***OrchestrationName* \>。** 要登錄的協調流程名稱。  
   
-    -   **\<**   
-         ***AssemblyName* >。** 協調流程已部署於其中的組件名稱。 如果組件名稱包含空格，請用引號括住該名稱。  
+    -   **\<** ***AssemblyName* \>。** 協調流程已部署於其中的組件名稱。 如果組件名稱包含空格，請用引號括住該名稱。  
   
          例如: (VBScript):  
   
@@ -93,5 +91,5 @@ ms.lasthandoff: 09/20/2017
   
  指令檔 EnlistOrch.vbs 和 Visual C# 來源檔 EnlistOrc.cs，包含了詳細註解，以及這兩個檔案所執行作業的相關進一步說明。 如需詳細資訊，請參閱 < 在 Windows Management Instrumentation [http://go.microsoft.com/fwlink/?LinkId=21102](http://go.microsoft.com/fwlink/?LinkId=21102)。  
   
-## <a name="see-also"></a>另請參閱  
- [管理 WMI （BizTalk Server 範例資料夾）](../core/admin-wmi-biztalk-server-samples-folder.md)
+## <a name="see-also"></a>請參閱  
+ [Admin-WMI (BizTalk Server Samples 資料夾)](../core/admin-wmi-biztalk-server-samples-folder.md)

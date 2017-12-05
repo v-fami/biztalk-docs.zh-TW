@@ -18,11 +18,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1e948aeca31d3eb9908d6933f5ac375bce206761
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ec6e6e290761ba6d1be2ed08c8519e96c2846fa7
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="mime-biztalk-server-sample"></a>MIME （BizTalk Server 範例）
 MIME 範例會示範如何在傳送管線內執行 MIME 編碼。  
@@ -39,7 +39,7 @@ MIME 範例會示範如何在傳送管線內執行 MIME 編碼。
 4.  在傳送管線中，執行 MIME 編碼，並將檔案放到傳送配接器資料夾 MIMEOut 中。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- \<*範例路徑*> \Pipelines\MIME\  
+ \<*範例路徑*\>\Pipelines\MIME\  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -59,13 +59,13 @@ MIME 範例會示範如何在傳送管線內執行 MIME 編碼。
   
 1.  在命令視窗中，瀏覽至下列資料夾：  
   
-     \<*範例路徑*> \Pipelines\MIME  
+     \<*範例路徑*\>\Pipelines\MIME  
   
 2.  執行檔案 Setup.bat，這會執行下列動作：  
   
     -   在此資料夾中建立此範例的輸入 (MIMEIn) 和輸出 (MIMEOut) 資料夾。  
   
-         \<*範例路徑*> \Pipelines\MIME  
+         \<*範例路徑*\>\Pipelines\MIME  
   
     -   為此範例編譯 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 專案。  
   
@@ -100,5 +100,5 @@ MIME 範例會示範如何在傳送管線內執行 MIME 編碼。
   
 2.  請注意在 MIMEOut 資料夾中建立的文字檔。 這個文字檔的名稱是以訊息識別碼 GUID 為根據。 這個檔案包含輸入檔 ImageInput.gif 的 MIME 編碼內容。  
   
-## <a name="see-also"></a>另請參閱  
- [管線 （BizTalk Server 範例資料夾）](../core/pipelines-biztalk-server-samples-folder.md)
+## <a name="see-also"></a>請參閱  
+ [管線 (BizTalk Server Samples 資料夾)](../core/pipelines-biztalk-server-samples-folder.md)

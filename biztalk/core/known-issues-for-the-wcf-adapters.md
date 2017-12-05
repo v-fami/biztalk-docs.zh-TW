@@ -12,14 +12,14 @@ caps.latest.revision: "54"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3ccdc0c0f36f2dca474b962d3f108e4f287e378f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 26c296dfb2ca1f05a2f403aa31a73b67934fb23a
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="known-issues-for-the-wcf-adapters"></a>WCF 配接器的已知問題
-本主題描述 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 所附 WCF 配接器的已知問題。  
+本主題描述 BizTalk Server 隨附的 WCF 配接器的已知的問題。  
   
 ## <a name="a-message-that-fails-in-the-inbound-soap-marshaling-processing-is-not-suspended-in-wcf-receive-adapters"></a>在輸入 SOAP 封送處理中失敗的訊息未在 WCF 接收配接器中遭擱置  
  當訊息抵達 WCF 接收配接器時，WCF 配接器會從內送 SOAP 訊息建立 BizTalk 訊息，然後將 BizTalk 訊息傳遞給結束點管理員管理的傳輸 Proxy。 如果配接器在建立 BizTalk 訊息時無法讀取 SOAP 信封和內文，訊息不會遭擱置，因為配接器使用快速、非快取的順向讀取器來存取 SOAP 訊息。  

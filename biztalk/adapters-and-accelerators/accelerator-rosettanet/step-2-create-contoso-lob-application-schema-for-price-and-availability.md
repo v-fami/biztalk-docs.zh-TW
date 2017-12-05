@@ -13,14 +13,14 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 71e3141e436bc50a629f495d8372b05d15e90b90
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 441bb90c8fa0f2edb271af384e2540a741150137
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="step-2-creating-the-contoso-lob-application-schemas-for-the-price-and-availability-project-using-biztalk-editor"></a>步驟 2： 建立 Contoso LOB 應用程式的結構描述的價格與可用性專案中使用 [BizTalk 編輯器]
-在此步驟中，您將產生結構描述，用來向 Contoso ERP 系統查詢特定產品的價格與可用性。 請使用 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] SQL 配接器產生結構描述。  
+在此步驟中，您將產生結構描述，用來向 Contoso ERP 系統查詢特定產品的價格與可用性。 使用產生此結構描述[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® BizTalk Server 的 SQL 配接器。  
   
 ### <a name="to-update-the-sql-stored-procedure-for-schema-generation"></a>更新 SQL 預存程序以準備產生結構描述  
   
@@ -70,7 +70,7 @@ ms.lasthandoff: 09/20/2017
   
 10. 在**陳述式類型資訊**頁面上，選取**預存程序**，然後按一下 **下一步**。  
   
-11. 在**陳述式資訊** 頁面上，針對**\<選取預存程序 >**，選取**SP_GetInventoryForProductID**從下拉式清單。 按一下**產生**，然後按一下 **下一步**。  
+11. 在**陳述式資訊** 頁面上，針對**\<選取預存程序\>**，選取**SP_GetInventoryForProductID**從下拉式清單。 按一下**產生**，然後按一下 **下一步**。  
   
 12. 在**完成 SQL 傳輸結構描述產生精靈**頁面上，按一下**完成**結構描述匯入 ContosoPriceAndAvailability BizTalk 專案。  
   
@@ -82,5 +82,5 @@ ms.lasthandoff: 09/20/2017
   
 16. 在 Microsoft SQL Server Management Studio 中，移除`xmldata`述詞，並從逗號`SP_GetInventoryForProductID`預存程序，您在上一個步驟中加入，然後按一下  **Execute**。  
   
-## <a name="see-also"></a>另請參閱  
- [步驟 3： 建立 Contoso LOB 應用程式對應的價格與可用性專案使用 BizTalk 對應工具](../../adapters-and-accelerators/accelerator-rosettanet/step-3-create-contoso-lob-application-map-for-price-and-availability-in-mapper.md)
+## <a name="see-also"></a>請參閱  
+ [步驟 3：使用 BizTalk 對應工具為價格與可用性專案建立 Contoso LOB 應用程式對應](../../adapters-and-accelerators/accelerator-rosettanet/step-3-create-contoso-lob-application-map-for-price-and-availability-in-mapper.md)

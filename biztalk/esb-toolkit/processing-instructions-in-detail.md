@@ -12,14 +12,14 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 532721c347189f2e3d4db9e57b2afc3aa45b76db
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9cf0a726d2c8c4f6242ed19a7dcd1e5430775e63
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="processing-instructions-in-detail"></a>詳細資料中的處理指示
-本主題描述的格式和系統 Properties.xsd 屬性結構描述、 定義路線處理所需的數個內容屬性的結構。 收到並處理訊息時，這些屬性會升級[!INCLUDE[prague](../includes/prague-md.md)]管線; 因為它們是升級的屬性時，它們都可以存取 BizTalk Server 元件。 系統 Properties.xsd 屬性結構描述中定義下列屬性：  
+本主題描述的格式和系統 Properties.xsd 屬性結構描述、 定義路線處理所需的數個內容屬性的結構。 收到訊息並處理透過 BizTalk Server 管線; 時，這些屬性會升級因為它們是升級的屬性，都能夠存取 BizTalk Server 元件。 系統 Properties.xsd 屬性結構描述中定義下列屬性：  
   
 -   **ItineraryHeader。** 此屬性包含所有的路線資訊和透過一系列路線步驟要叫用的路線服務的清單。 行程 API 會在內部使用這個屬性。  
   

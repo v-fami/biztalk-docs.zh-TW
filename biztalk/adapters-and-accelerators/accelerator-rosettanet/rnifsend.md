@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d1762c30d6524a777a862492701ff0b8a8731a68
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 73cf8a832e495944ce7c891421645ae2566e3575
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="rnifsend"></a>RNIFSend
 這個範例提供可用的 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] RNIFSend.aspx 檔案，這個檔案會準備一個訊息供 RNIF 處理，並將此訊息傳送至回應者的 RNIFReceive.aspx 頁面。 您可以自訂 ASPX 頁面來執行下列動作：  
@@ -27,7 +27,7 @@ ms.lasthandoff: 09/20/2017
   
 -   新增驗證到頁面  
   
- 此範例位於*\<磁碟機 >*: \Program Files\Microsoft BizTalk\<版本 > Accelerator for rosettanet\sdk\webapplication\rnifsender。  
+ 此範例位於*\<磁碟機\>*: \Program Files\Microsoft BizTalk\<版本\>Accelerator for rosettanet\sdk\webapplication\rnifsender。  
   
 ## <a name="demonstrates"></a>示範  
  這個範例示範如何製造外寄訊息讓 RNIF 進行處理，其中包含下列步驟：  
@@ -40,6 +40,6 @@ ms.lasthandoff: 09/20/2017
   
 -   處理傳回的信號訊息  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [傳送和接收 ASPX 頁面](../../adapters-and-accelerators/accelerator-rosettanet/send-and-receive-aspx-pages.md)   
  [Web 應用程式範例](../../adapters-and-accelerators/accelerator-rosettanet/web-application-samples.md)

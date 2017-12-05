@@ -29,18 +29,18 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3e210fbe805e5a942605920e481faa2f1ca7cf2a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: effa2f5787f04493713ea6972562fe768081f4bc
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-back-up-the-bam-analysis-and-tracking-analysis-server-databases"></a>如何備份 BAM 分析和追蹤 Analysis Server 資料庫
 商務活動監控 (BAM) 分析資料庫和追蹤 Analysis Server 資料庫會將內容儲存在 SQL Server Analysis Services Cube 中。 「備份 BizTalk Server」工作不會備份這些資料庫。 相反的，若要備份這些資料庫，您必須使用 SQL Server 分析管理員。  
   
  備份這些資料庫之後，您可能需要清除 OLAP Cube。 清除 OLAP Cube 時，您也必須執行下列步驟：  
   
-1.  清除 OLAP Cube 之前，請先在 BAMStarSchema 資料庫中，截斷您要清除之 Cube 的事實資料表。 資料表命名慣例為"bam_*\<CubeName >*_Facts"。  
+1.  清除 OLAP Cube 之前，請先在 BAMStarSchema 資料庫中，截斷您要清除之 Cube 的事實資料表。 資料表命名慣例為"bam_*\<CubeName\>*_Facts"。  
   
 2.  清除 OLAP Cube 之後，您必須完整地處理作用中、已完成和虛擬的 Cube。  
   
@@ -66,5 +66,5 @@ ms.lasthandoff: 09/20/2017
   
 3.  備份 BAMAnalysis 資料庫，然後備份 BAMStarSchema 資料庫。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [備份和還原 BizTalk Server 資料庫](../core/backing-up-and-restoring-the-biztalk-server-databases.md)

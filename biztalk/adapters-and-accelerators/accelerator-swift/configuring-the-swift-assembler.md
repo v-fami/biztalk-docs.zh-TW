@@ -15,11 +15,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 76e1309012abbaac27e2e0ae6ec9b35f37d88884
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f77d47b2b3ab687f2fd72242f4ddbbc68ae8530c
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="configuring-the-swift-assembler"></a>設定 SWIFT 組譯工具
 SWIFT 組譯工具執行下列工作，當您叫用在[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]傳送管線：  
@@ -45,8 +45,8 @@ SWIFT 組譯工具執行下列工作，當您叫用在[!INCLUDE[btsCoName](../..
 > [!NOTE]
 >  設定、 編譯及部署自訂的管線之後，組態中的變更需要重新編譯和重新部署自訂管線。  
   
- 如需建立資訊、 建置及部署自訂管線，請參閱[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]幫助。  
+ 建立、 建置和部署自訂管線的相關資訊，請參閱 BizTalk Server 說明。  
   
  此部分包含：  
   
--   [SWIFT 組合器組態屬性](../../adapters-and-accelerators/accelerator-swift/swift-assembler-configuration-properties.md)
+-   [SWIFT 組合器設定屬性](../../adapters-and-accelerators/accelerator-swift/swift-assembler-configuration-properties.md)

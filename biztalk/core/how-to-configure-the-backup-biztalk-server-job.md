@@ -13,11 +13,11 @@ caps.latest.revision: "42"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f1afb4f28584d65401220761dcee626fe63f913b
-ms.sourcegitcommit: f4c0d7bc4b617688c643101a34062db90014851a
+ms.openlocfilehash: 452884062cb9c4cdabbfd4890f590e5f0202b417
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="configure-the-backup-biztalk-server-job"></a>設定 「 備份 BizTalk Server 」 工作
 安裝和設定 BizTalk Server 之後，設定備份[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]作業來備份您的資料。 
@@ -90,12 +90,12 @@ ms.lasthandoff: 11/23/2017
   
     2. **名稱**：預設值是 **[BTS]**。 這個名稱會用來做為備份檔案名稱的一部分。  
   
-    3. **備份檔案的位置**： 取代 '*\<目的地路徑 >*' 的電腦與您想要備份的目的地資料夾的完整路徑 （此路徑必須包含單引號） [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]資料庫或 Azure blob 儲存體帳戶的 blob 服務端點 URL。  
+    3. **備份檔案的位置**： 取代 '*\<目的地路徑\>*' 的電腦與您要備份資料夾的完整路徑（此路徑必須包含單引號）[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]資料庫或 Azure blob 儲存體帳戶的 blob 服務端點 URL。  
 
         > [!IMPORTANT]
         > - 如果您輸入的本機路徑，則您必須手動將所有檔案都複製到目的系統上相同的資料夾時備份[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]作業建立新檔案。  
         >   
-        >      若要使用遠端路徑，請輸入 UNC 共用例如\\ \\  *\<ServerName >*\\*\<所 >*\\，其中 *\<ServerName >*是您要檔案伺服器的名稱和*\<所 >*是共用磁碟機或資料夾的名稱。  
+        >      若要使用遠端路徑，請輸入 UNC 共用例如\\ \\  *\<ServerName\>*\\*\<機\>* \\，其中 *\<ServerName\>* 是您要檔案伺服器的名稱和*\<機\>*是共用磁碟機或資料夾的名稱。  
         >   
         >      透過網路備份資料可能會因為網路問題而受限。 當使用遠端位置，驗證備份成功時備份[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]作業結束。  
         > - 若要避免資料遺失，請將備份磁碟設定為資料庫資料與記錄磁碟以外的其他磁碟。 此做法可確保您在資料或記錄磁碟故障時存取備份。  
@@ -132,14 +132,14 @@ ms.lasthandoff: 11/23/2017
   
 6.  選取**MarkAndBackupLog**逐步執行和選取**編輯**。 在**命令**方塊中，更新的參數值：  
   
-    1.  **@MarkName**： 這是備份檔案的命名慣例： <Server Name>  _<Database Name> **_記錄_**< 記錄標示名稱 >_<Timestamp>  
+    1.  **@MarkName**： 這是備份檔案的命名慣例：\<伺服器名稱\>\_\<資料庫名稱\>**\_記錄\_** \<記錄標示名稱\> \_\<時間戳記\>  
     
-    2.  **@BackupPath**： 完整目的地路徑 （包含單引號） 之電腦和資料夾來儲存[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]資料庫記錄檔，或 Azure blob 儲存體帳戶和容器。 *\<目的地路徑 >*也可以是本機或另一部伺服器的 UNC 路徑。  
+    2.  **@BackupPath**： 完整目的地路徑 （包含單引號） 之電腦和資料夾來儲存[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]資料庫記錄檔，或 Azure blob 儲存體帳戶和容器。 *\<目的地路徑\>*也可以是本機或另一部伺服器的 UNC 路徑。  
   
      MarkAndBackupLog 步驟會標記要備份的記錄檔，然後加以備份。  
   
     > [!IMPORTANT]
-    >  若要避免**潛在資料遺失**和**效能改進**、 *\<目的地路徑 >*應該設定為不同的電腦或硬碟機，不同於並用來儲存原始的資料庫記錄檔。  
+    >  若要避免**潛在資料遺失**和**效能改進**、 *\<目的地路徑\>*應該設定為在不同的電腦或硬碟機，不同於並用來儲存原始的資料庫記錄檔。  
   
      選取 [確定]。  
   

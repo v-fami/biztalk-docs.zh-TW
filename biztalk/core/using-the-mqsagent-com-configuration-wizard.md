@@ -17,11 +17,11 @@ caps.latest.revision: "23"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6262b87f304a27b36ed1d7bc6a15b5e681331be3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0f6e8b625bcc3accbefda193c52459616691c265
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="using-the-mqsagent-com-configuration-wizard"></a>使用 MQSAgent COM + 組態精靈
 [MQSAgent COM+ 組態精靈] 可以設定 MQSAgent、配接器的 COM+ 應用程式 (MQSeries 元件) 部分。 精靈會設定元件的應用程式識別，以及角色中包含的角色名稱和使用者。 使用 MQSAgent COM + 組態精靈所建立的 MQSAgent COM + 元件的名稱是**MQSAgent2**。  
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/20/2017
 >  64 位元 Windows server 支援 MQSAgent COM + 應用程式。 它會以 32 位元處理序在 WOW64 下執行。 在 64 位元版本的 Windows Server 上執行的 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 電腦可以和已安裝 MQSAgent 的遠端 32 位元電腦通訊。  
   
 > [!NOTE]
->  MQSeries 代理程式與 MQSAgent COM + 組態精靈執行檔**MQSConfigWiz.exe**不會安裝，如果您從 BizTalk Server 2009 到[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]。 升級到之後[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]從 BizTalk Server 2009 重新執行安裝程式中，選取**修改**選項，然後選取要安裝這些元件的其他軟體在 MQSeries 代理程式。  
+>  MQSeries 代理程式與 MQSAgent COM + 組態精靈執行檔**MQSConfigWiz.exe**只有當您從 BizTalk Server 2009 升級到 BizTalk Server，不會安裝。 在之後從重新執行 BizTalk Server 2009 安裝升級到 BizTalk Server，選取**修改**選項，然後選取要安裝這些元件的其他軟體在 MQSeries 代理程式。  
   
 ## <a name="to-set-the-application-identity"></a>設定應用程式識別  
   
@@ -60,7 +60,7 @@ ms.lasthandoff: 09/20/2017
 >  僅將要求存取配接器的帳戶新增至角色中。  
   
 ## <a name="to-set-the-msdtc-security-configuration-on-the-windows-server-2008-computer-to-no-authentication-required"></a>在 Windows Server 2008 電腦上將「MSDTC 安全性」組態設定為不需要驗證  
- 如果 MQSAgent COM + 應用程式安裝在[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]電腦與 MQSeries 配接器 (在安裝[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]) 上安裝[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]或[!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]電腦、 上的 MSDTC 安全性組態[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]或[!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]電腦必須設為**不需要驗證**。 請依照以下步驟執行，將 MSDTC 安全性組態設定為 [不需要驗證]：  
+ 如果 MQSAgent COM + 應用程式安裝在[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]電腦及 MQSeries 配接器 （這安裝 BizTalk Server） 上安裝[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]或[!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]電腦、 上的 MSDTC 安全性組態[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]或[!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]電腦必須設為**不需要驗證**。 請依照以下步驟執行，將 MSDTC 安全性組態設定為 [不需要驗證]：  
   
 1.  按一下**啟動**，然後按一下 **控制台**。  
   
@@ -128,6 +128,6 @@ ms.lasthandoff: 09/20/2017
   
     -   重複這些步驟**[mqsagent2.mqsbroker.1]**和**[mqsagent2.mqsproxy.1]**元件。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [如何設定 MQSeries 配接器傳送和接收處理常式](../core/how-to-configure-mqseries-adapter-send-and-receive-handlers.md)   
  [設定 MQSeries 配接器](../core/configuring-the-mqseries-adapter.md)

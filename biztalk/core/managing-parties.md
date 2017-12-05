@@ -18,11 +18,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 06f0c552b84fd8c4f56e2a88c59e8557585c947e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f639ad516ec4f4a61406b9690d2d52f2ea98599f
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="managing-parties"></a>管理合作對象
 使用**合作對象**節點，您可以設定商務夥伴 （合作對象） 或內部部門 （商務設定檔） 與[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]解決方案互動。 如需詳細資訊，請參閱[交易夥伴](../core/trading-partners-and-business-profiles.md)。  
@@ -50,7 +50,7 @@ ms.lasthandoff: 09/20/2017
 3.  在**傳送埠**頁面上，執行下列動作。  
   
     > [!NOTE]
-    >  在 [!INCLUDE[prague](../includes/prague-md.md)] 中，設定相關傳送埠的動作是在協議層級進行。 **傳送埠**可用為合作對象屬性的一部分是純粹是為了回溯相容性 頁面。 當您將傳送埠與協議相關聯後，傳送埠設定也會傳播到合作對象設定，而您就可以在此頁面看到該傳送埠關聯。 但是，並非反之亦然。 在您將傳送埠與合作夥伴相關聯後，該傳送埠無法自動出現在協議設定中。  
+    >  在 BizTalk Server 傳送埠關聯是在協議層級。 **傳送埠**可用為合作對象屬性的一部分是純粹是為了回溯相容性 頁面。 當您將傳送埠與協議相關聯後，傳送埠設定也會傳播到合作對象設定，而您就可以在此頁面看到該傳送埠關聯。 但是，並非反之亦然。 在您將傳送埠與合作夥伴相關聯後，該傳送埠無法自動出現在協議設定中。  
   
     |使用|動作|  
     |--------------|----------------|  
@@ -112,7 +112,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  若要清除搜尋結果，請選取 [搜尋] 方塊旁的紅色 'x'。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理角色連結](../core/managing-role-links.md)   
  [如何設定合作對象解析管線元件](../core/how-to-configure-the-party-resolution-pipeline-component.md)  
  [管理 EDI 和 AS2 解決方案](../core/managing-edi-and-as2-solutions.md)

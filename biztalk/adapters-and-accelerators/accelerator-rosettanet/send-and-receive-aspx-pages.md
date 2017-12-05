@@ -31,11 +31,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e6e7f5f215ec2fc3dc85f88ed54ab22280a81fd0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0782c421dfe771cd024b5ce4df893e2aaa45721d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="send-and-receive-aspx-pages"></a>傳送和接收 ASPX 頁面
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] ASPX 頁面是之間的直接介面[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]和網際網路。 ASPX 頁面有兩種，分別是接收頁面 (RNIFReceive.aspx) 和傳送頁面 (RNIFSend.aspx)。 每個 ASPX 頁面都是對應的 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 管線的延伸。 管線需要 ASPX 頁面才能處理 RosettaNet 實作架構 (RNIF) 標頭。 管線執行大多數的 HTTP 處理，然而，每個 ASPX 頁面執行 RNIF 標頭的 HTTP 處理。 頁面能夠擴大 [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] HTTP 配接器的功能。  
@@ -53,7 +53,7 @@ http://localhost:<port number>/RNIFSend.aspx?<query string>
   
  查詢字串包括了傳送頁面將訊息傳送給交易夥伴時所需的下列資料，以及交易夥伴處理訊息時所需具備的資料：  
   
--   交易夥伴 URL: http://www。\<*位址*>.com/RNIFReceive.aspx  
+-   交易夥伴 URL: http://www。\<*位址*\>.com/RNIFReceive.aspx  
   
 -   回應類型： sync 或 async  
   
@@ -140,7 +140,7 @@ http://localhost:<port number>/RNIFSend.aspx?<query string>
   
 2.  回應者接收頁面透過相同連線傳送要求信號訊息 (如果有問題的話，會傳送例外狀況) 至啟動者傳送頁面。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [BTARN 中的訊息處理](../../adapters-and-accelerators/accelerator-rosettanet/message-processing-in-btarn.md)   
  [BTARN 接收管線](../../adapters-and-accelerators/accelerator-rosettanet/btarn-receive-pipeline.md)   
  [BTARN 傳送管線](../../adapters-and-accelerators/accelerator-rosettanet/btarn-send-pipeline.md)

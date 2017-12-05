@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 38ee916aaa5e158160f2096b0ba9b2678dd6b8d0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e466c4fc2a5f83f5a8445601235b53f44404a912
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="publishing-internet-facing-web-services-and-wcf-services"></a>發行的網際網路對向 Web 服務和 WCF 服務
 您可以使用多種發行[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]Web 服務和到網際網路的 WCF 服務：  
@@ -25,12 +25,12 @@ ms.lasthandoff: 09/20/2017
   
 -   將執行的電腦[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，將 Web 服務或 WCF 服務發佈至周邊網路的網域。  
   
--   使用[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]雲端發行為 Azure AppFabric 服務匯流排轉接端點的 Web 服務或 WCF 服務的程式功能。  
+-   使用 BizTalk Server 雲端推手功能來發佈 Web 服務或 WCF 服務，為 Azure AppFabric 服務匯流排轉送端點。  
   
 ## <a name="using-a-reverse-proxy"></a>使用反向 Proxy  
  這是已發行的傳統方法[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]Web 服務和 WCF 服務。 在周邊網路中使用反向 proxy 規則而毋需有 BizTalk 伺服器位於周邊網路中。 反向 proxy 規則只是轉送給 HTTP 與 SOAP 要求從周邊網路的電腦執行[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]內部網路網域中。  
   
- 如需有關使用反向 proxy 的詳細資訊，請參閱中的下列主題[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]協助：  
+ 如需有關使用反向 proxy 的詳細資訊，請參閱 BizTalk Server 說明中的下列主題：  
   
 -   [「 範例架構： HTTP 和 SOAP 配接器 」](http://go.microsoft.com/fwlink/?LinkId=153339) (http://go.microsoft.com/fwlink/?LinkId=153339)。  
   
@@ -48,5 +48,5 @@ ms.lasthandoff: 09/20/2017
 ## <a name="exposing-biztalk-applications-on-the-cloud-using-appfabric-connect-for-services"></a>公開使用 AppFabric Connect 服務在雲端上的 BizTalk 應用程式  
  請參閱文章[使用 AppFabric Connect 服務在雲端上的 BizTalk 應用程式公開](http://go.microsoft.com/fwlink/?LinkID=204700)(http://go.microsoft.com/fwlink/?LinkID=204700) 如需有關將 BizTalk 應用程式公開為 WCF 服務在雲端上。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [發佈 Web Services1 規劃](../technical-guides/planning-for-publishing-web-services1.md)

@@ -16,18 +16,18 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fc47d080b43b7679e76b9c6f8a0d8de1216daeaf
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 04693bf4c4d441487a3ce38f886bc680b1db368b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="changing-fields-to-be-rekeyed"></a>變更 Rekeyed 的欄位
-在 訊息修復工作流程執行驗證步驟[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]移除資料的欄位數目，讓驗證器必須重新輸入，或重設金鑰，該資料。 您可以自訂 RekeyVerify 中的哪些欄位[!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]需要 rekeyed 表單。 這麼做在 MrsrXpathConfig.xml 檔案中，位於\<*磁碟機*>: \Program Files\Microsoft BizTalk Accelerator for SWIFT\MRSR 資料夾。  
+在 訊息修復工作流程執行驗證步驟[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]移除資料的欄位數目，讓驗證器必須重新輸入，或重設金鑰，該資料。 您可以自訂 RekeyVerify 中的哪些欄位[!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]需要 rekeyed 表單。 這麼做在 MrsrXpathConfig.xml 檔案中，位於\<*磁碟機*\>: \Program Files\Microsoft BizTalk Accelerator for SWIFT\MRSR 資料夾。  
   
- MrsrXpathConfig.xml 檔案包含一系列處理的訊息類型的節點。 每個訊息類型節點包含一系列的欄位節點，其中每個欄位。 您可以變更的欄位由在文字編輯器中，例如 記事本 開啟 MrsrXpathConfig.xml 以及加入或移除 rekeyed\<路徑 > 欄位 節點。  
+ MrsrXpathConfig.xml 檔案包含一系列處理的訊息類型的節點。 每個訊息類型節點包含一系列的欄位節點，其中每個欄位。 您可以變更的欄位由在文字編輯器中，例如 [記事本] 開啟 MrsrXpathConfig.xml 以及加入或移除 rekeyed\<路徑\>欄位的節點。  
   
- \<路徑 > 節點包含訊息類型和欄位的路徑。 例如，目的地路徑 MT103 訊息的輸入應用程式標頭區塊中的項目如下所示：  
+ \<路徑\>節點包含訊息類型和欄位的路徑。 例如，目的地路徑 MT103 訊息的輸入應用程式標頭區塊中的項目如下所示：  
   
 ```  
 <path>/*[local-name()='SWIFT_CATEGORY1_MT103_Interchange' and namespace-uri()'http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/Category1/MT103']/*[local-name()='SWIFTHeader' and namespace-uri=']'']/*[local-name()='ApplicationHeaderBlock_Input' and namespace-uri90='']/*[local-name()='DestinationAddress' and namespace-uri()='']</path>  

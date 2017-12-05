@@ -16,11 +16,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ad9654f295f0f43b720b7ac77aec4ac6315f78ee
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f99971a421530e4901c8bbac6533809a0f2f273c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-1-build-and-deploy-the-vprev-biztalk-project-for-receiving-an-idoc"></a>步驟 1： 建立和部署接收 IDOC vPrev BizTalk 專案
 ![步驟 3 之 1](../../adapters-and-accelerators/adapter-oracle-database/media/step-1of3.gif "Step_1of3")  
@@ -43,7 +43,7 @@ ms.lasthandoff: 09/20/2017
   
     2.  在命令提示字元中瀏覽至您要建立金鑰檔案的資料夾。 例如，輸入**cd C:\Sample**，然後按 ENTER 鍵。  
   
-    3.  在命令提示字元中，輸入**sn-k\<金鑰檔名稱 >.snk**，然後按 ENTER 鍵。  
+    3.  在命令提示字元中，輸入**sn-k\<金鑰檔名稱\>.snk**，然後按 ENTER 鍵。  
   
 2.  以滑鼠右鍵按一下方案總管 中的 BizTalk 方案名稱，然後按一下**屬性**。 在**屬性頁**對話方塊方塊中，執行下列動作：  
   
@@ -66,5 +66,5 @@ ms.lasthandoff: 09/20/2017
 ## <a name="next-steps"></a>後續步驟  
  建立及設定 WCF 自訂接收埠，並將它設定為從使用 WCF 為基礎的 SAP 系統接收 Idoc[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]中所述，[步驟 2： 設定 Wcf-custom 單向接收埠](../../adapters-and-accelerators/adapter-sap/step-2-configure-a-wcf-custom-one-way-receive-port.md)。  
   
-## <a name="see-also"></a>另請參閱  
- [教學課程 4： 移轉 SAP 接收 IDOC 的 BizTalk 專案](../../adapters-and-accelerators/adapter-sap/tutorial-4-migrating-an-sap-receive-idoc-biztalk-project.md)
+## <a name="see-also"></a>請參閱  
+ [教學課程 4：移轉 SAP 接收 IDOC BizTalk 專案](../../adapters-and-accelerators/adapter-sap/tutorial-4-migrating-an-sap-receive-idoc-biztalk-project.md)

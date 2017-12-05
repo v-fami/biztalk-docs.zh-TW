@@ -15,11 +15,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ed64aac8ea0cf4073f3085f4491f607373d721b6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0732322d663e51c27bbaab957caa5474cc685326
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-2-creating-the-fabrikam-lobwebapplication"></a>步驟 2： 建立 Fabrikam LOBWebApplication
 在此步驟中，您將建立 LOB 應用程式，讓 Fabrikam 用來提交 3A2 PIP 要求至 Contoso。 LOBWebApplication 專案是安裝在 [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK 中。 若要執行 Web 應用程式，您必須建立 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Internet Information Services (IIS) 虛擬目錄，然後建置 LOBWebApplication 專案。  
@@ -42,7 +42,7 @@ ms.lasthandoff: 09/20/2017
   
 5.  在**虛擬目錄別名**頁面上，於**別名**方塊中，輸入**LOBWebApplication**，然後按一下 **下一步**。  
   
-6.  在**網站內容目錄**頁面上，按一下**瀏覽**，選取**\<磁碟機 >: \Program Files\Microsoft BizTalk\<版本 > Accelerator forRosettaNet\SDK\LOBWebApplication**資料夾，然後再按一下**確定**。 按一下 **[下一步]**。  
+6.  在**網站內容目錄**頁面上，按一下**瀏覽**，選取**\<磁碟機\>: \Program Files\Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK\LOBWebApplication**資料夾，然後再按一下**確定**。 按一下 **[下一步]**。  
   
 7.  在**虛擬目錄存取權限**頁面上，按一下**下一步**。  
   
@@ -71,11 +71,11 @@ ms.lasthandoff: 09/20/2017
   
 2.  從**檔案**功能表上，指向**開啟**，然後按一下 **專案 \ 方案**。  
   
-3.  在 [開啟專案] 對話方塊中**查詢**，移至**\<磁碟機 >: \Program Files\Microsoft BizTalk\<版本 > Accelerator for RosettaNet\ SDK\LOBWebApplication**選取**LOBWebApplication.sln**解決方案，，然後按一下**開啟**。  
+3.  在 [開啟專案] 對話方塊中**查詢**，移至**\<磁碟機\>: \Program Files\Microsoft BizTalk\<版本\>Accelerator for RosettaNet\ SDK\<SDKLOBWebApplication**，選取**LOBWebApplication.sln**解決方案，，然後按一下**開啟**。  
   
 4.  在 方案總管 中，最上層節點 (http://localhost/LOBWebApplication)，以滑鼠右鍵按一下，然後按一下 **加入參考**。  
   
-5.  在 [加入參考] 對話方塊中，按一下**瀏覽**並移至**\<磁碟機 >: \Program Files\Microsoft BizTalk\<版本 > Accelerator for RosettaNet\bin**。  
+5.  在 [加入參考] 對話方塊中，按一下**瀏覽**並移至**\<磁碟機\>: \Program Files\Microsoft BizTalk\<版本\>Accelerator for RosettaNet\bin**.  
   
 6.  **選取 Microsoft.Solutions.BTARN.ConfigurationManager.dll 和 Microsoft.Solutions.BTARN.Shared.dll**組件**然後按一下 [確定]。**  
   
@@ -87,5 +87,5 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**偵錯**功能表上，按一下 **啟動但不偵錯**。  
   
-## <a name="see-also"></a>另請參閱  
- [測試方案](../../adapters-and-accelerators/accelerator-rosettanet/testing-the-solution.md)
+## <a name="see-also"></a>請參閱  
+ [測試解決方案](../../adapters-and-accelerators/accelerator-rosettanet/testing-the-solution.md)

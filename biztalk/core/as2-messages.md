@@ -12,17 +12,17 @@ caps.latest.revision: "26"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 09c2d2d922b9a7ed8a9dfd1ea4c64c369d0e9d2a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d54d05a459eb6fef772add6d4bb77f0269fa0ba8
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="as2-messages"></a>AS2 訊息
 本主題說明 AS2 訊息，包括其結構、內容屬性和標頭。  
   
 ## <a name="structure-of-an-as2-message"></a>AS2 訊息的結構  
- 在[!INCLUDE[prague](../includes/prague-md.md)]，AS2 訊息的結構是根據[RFC 4130 「 以 MIME 為基礎的安全端對端商務資料交換使用 HTTP、 Applicability Statement 2 (AS2)](http://go.microsoft.com/fwlink/?LinkID=184212) ([http://go.microsoft.com/fwlink/?LinkID = 184212](http://go.microsoft.com/fwlink/?LinkID=184212))。  
+ 在 BizTalk Server 中，AS2 訊息結構是根據[RFC 4130 「 以 MIME 為基礎的安全端對端商務資料交換使用 HTTP、 Applicability Statement 2 (AS2)](http://go.microsoft.com/fwlink/?LinkID=184212) ([http://go.microsoft.com/fwlink/?LinkID = 184212](http://go.microsoft.com/fwlink/?LinkID=184212))。  
   
  AS2 訊息的基本結構是由 HTTP 訊息內的 MIME 格式以及其他 AS2 專用標頭所組成。 HTTP、AS2 和 MIME 標頭下方訊息的特性會取決於訊息的類型：  
   
@@ -94,5 +94,5 @@ ms.lasthandoff: 09/20/2017
   
  這個郵件地址不會用來識別傳回 MDN 的位址。 接收端應用程式必須忽略這個值，而且不能發佈有關地址語法違規的錯誤。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [MDN 訊息](../core/mdn-messages.md)

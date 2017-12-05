@@ -13,11 +13,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a957bd18fd6defad40d6b04e91bc3028802da1c0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c8688e84f7913dbc32a0629d21f29ed2578c43b1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="preparing-to-use-the-tutorial"></a>準備使用本教學課程
 使用本教學課程之前，您需要建立 ADT^A03.txt 檔案。  
@@ -42,6 +42,6 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  應該要有五行在.txt 檔案，其中每一個開頭為"MSH"、"EVN"、"PID"、"PD1 」 和 「 PV1"。 您必須移除"PID"線條與 「 PD1 」 內的空格。 如果有必要，請關閉 [記事本] 中的自動換行。  
   
-2.  將檔案儲存為**ADT^A03.txt**中\<*磁碟機*>: \Program Files\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk\<版本 > Accelerator for HL7\SDK\End 端對端教學課程的資料夾，然後關閉 [記事本]。  
+2.  將檔案儲存為**ADT^A03.txt**中\<*磁碟機*\>: \Program Files\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk\<版本\>Accelerator for HL7\SDK\End 端對端教學課程的資料夾，然後關閉 [記事本]。  
   
  若要繼續[步驟 1： 建立及部署標頭和通知結構描述](../../adapters-and-accelerators/accelerator-hl7/step-1-create-and-deploy-header-and-acknowledgment-schemas.md)。

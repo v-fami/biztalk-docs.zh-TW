@@ -16,11 +16,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cf0ced3dbb9404cd1c4b9c81e566f47b09c7d0b9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7d8865d7a75bdb06895b963b8269ed457cd5804f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="importing-an-xsd-based-pip"></a>匯入以 XSD 為基礎的 PIP
 雖然由 RosettaNet.org 提供的 PIP 大部分是以 DTD 為基礎，但較新的 PIP 則是以 XSD 為基礎。 下列程序說明如何匯入以 XSD 為基礎的 PIP。  
@@ -42,7 +42,7 @@ ms.lasthandoff: 09/20/2017
     The type or namespace name 'SerializableAttribute' does not exist in the class or namespace 'PIP7C7.System'.  
     ```  
   
-5.  檢閱所有.xsd 檔案，請確認\<結構描述 > TypeName 和根節點 TypeName 不相同。 例如，對於 PIP7C7 PIP PartnerIdentification.xsd Universal 資料夾中的有 'PartnerIdentification' 的 TypeName 兩個\<結構描述 > （當在方案總管 中選取 PartnerIdentification.xsd） 以及PartnerIdentification 根節點。 若要更正這種情況，請在 [方案總管] 中選取 PartnerIdentification.xsd，然後變更屬性頁面中的 TypeName 屬性，使它不會包含與 PartnerIdentification 根節點相同的 TypeName。 例如，將 TypeName 變更為 "_PartnerIdentification"。 如果不執行這個步驟，當您嘗試建置專案時便會看到下列錯誤訊息：  
+5.  檢閱所有.xsd 檔案，請確認\<結構描述\>TypeName 和根節點 TypeName 不相同。 例如，對於 PIP7C7 PIP PartnerIdentification.xsd Universal 資料夾中的有 'PartnerIdentification' 的 TypeName 兩個\<結構描述\>（當在方案總管 中選取 PartnerIdentification.xsd） 以及PartnerIdentification 根節點。 若要更正這種情況，請在 [方案總管] 中選取 PartnerIdentification.xsd，然後變更屬性頁面中的 TypeName 屬性，使它不會包含與 PartnerIdentification 根節點相同的 TypeName。 例如，將 TypeName 變更為 "_PartnerIdentification"。 如果不執行這個步驟，當您嘗試建置專案時便會看到下列錯誤訊息：  
   
     ```  
     Node "<Schema>" - This schema file has a TypeName that collides with the RootNode TypeName of one of its root Nodes. Make sure that they are different.  

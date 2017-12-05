@@ -18,11 +18,11 @@ caps.latest.revision: "30"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c5117bed6ea1116047052359eadcd11754e9f85d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 54f91f83285d554ad9ef825b10cf8004bd7dc0bc
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="custom-functoid-biztalk-server-sample"></a>自訂運算質 （BizTalk Server 範例）
 「自訂運算質」範例示範如何為 BizTalk 對應工具撰寫自訂運算質。 您可以新增至運算質[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]工具箱。 BizTalk 對應工具在焦點時，[工具箱] 中會顯示運算質。  
@@ -42,7 +42,7 @@ ms.lasthandoff: 09/20/2017
 >  若您重複使用「自訂運算質」範例程式碼實作自己的運算質，務必將 GUID 屬性變更為唯一的屬性。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- *\<範例路徑 >*\XmlTools\CustomFunctoid  
+ *\<範例路徑\>*\XmlTools\CustomFunctoid  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -68,7 +68,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  在命令視窗中，將目錄變更 (**cd**) 至下列資料夾：  
   
-     \<*範例路徑*> \XmlTools\CustomFunctoid  
+     \<*範例路徑*\>\XmlTools\CustomFunctoid  
   
 2.  執行檔案 Setup.bat，這會執行下列動作：  
   
@@ -159,7 +159,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  在命令視窗中，將目錄變更 (**cd**) 至下列資料夾：  
   
-     \<*範例路徑*> \XmlTools\CustomFunctoid  
+     \<*範例路徑*\>\XmlTools\CustomFunctoid  
   
 3.  執行 Cleanup.bat 檔案，它會執行下列動作：  
   
@@ -170,6 +170,6 @@ ms.lasthandoff: 09/20/2017
 ## <a name="classes-or-methods-used-in-this-sample"></a>在此範例中使用的類別或方法  
  [Microsoft.BizTalk.BaseFunctoids.BaseFunctoid](http://msdn.microsoft.com/library/microsoft.biztalk.basefunctoids.basefunctoid.aspx)  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [使用 BaseFunctoid](../core/using-basefunctoid.md)   
- [XML 工具 （BizTalk Server 範例資料夾）](../core/xml-tools-biztalk-server-samples-folder.md)
+ [XML 工具 (BizTalk Server Samples 資料夾)](../core/xml-tools-biztalk-server-samples-folder.md)

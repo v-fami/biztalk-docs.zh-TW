@@ -12,14 +12,14 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d879e66873c3bfddc6a547757fd91067517fecb0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d291c17083200b26f632f7dee2f58bc75ccc38b2
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="hipaa-transaction-sets"></a>HIPAA 交易集
-本主題說明 [!INCLUDE[prague](../includes/prague-md.md)] 所支援的 HIPAA 交易集和版本。  
+本主題說明 HIPAA 交易集和 BizTalk Server 所支援的版本。  
   
 ## <a name="hipaa-transaction-sets-and-versions"></a>HIPAA 交易集和版本  
   
@@ -37,7 +37,7 @@ ms.lasthandoff: 09/20/2017
 |837P|![核取記號](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")|![核取記號](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")|健康照護理賠 - 專業化|  
 |820|![核取記號](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")|![核取記號](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")|薪資扣除額|  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [X12 交易集 100-250](../core/x12-transaction-sets-100-250.md)   
  [X12 交易集 251-503](../core/x12-transaction-sets-251-503.md)   
  [X12 交易集 504 999](../core/x12-transaction-sets-504-999.md)   

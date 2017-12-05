@@ -12,14 +12,14 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2cd1f124518b501a9c007c1f131ef51351b09e53
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 826f72a48eeb4964a7cddf48308e869be99de481
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="edi-and-as2-biztalk-server-samples-folder"></a>EDI 和 AS2 (BizTalk Server 範例資料夾)
-Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 在其軟體開發套件 (SDK) 中包含下列 EDI 和 AS2 範例。 本節提供這些 EDI 範例示範的功能、建置和執行這些範例的指示，以及可預期結果的詳細資訊。  
+Microsoft BizTalk Server 的軟體開發套件 (SDK) 中包含下列 EDI 和 AS2 範例。 本節提供這些 EDI 範例示範的功能、建置和執行這些範例的指示，以及可預期結果的詳細資訊。  
   
 ## <a name="in-this-section"></a>本節內容  
   

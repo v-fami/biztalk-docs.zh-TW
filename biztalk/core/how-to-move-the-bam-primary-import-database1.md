@@ -15,11 +15,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6eca9ed37cf116d57888bae1343e383cc2d2a666
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6a63c556bfb95f4b22a3256540d3ecb336a17f7f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-move-the-bam-primary-import-database"></a>如何移動 BAM 主要匯入資料庫
 您可以使用這個程序，將 BAM 主要匯入資料庫移動到其他伺服器。  
@@ -140,9 +140,9 @@ ms.lasthandoff: 09/20/2017
   
     6.  變更下列幾行以符合新的伺服器和資料庫：  
   
-         PrimaryImportServer ="*\<ServerName >*"  
+         PrimaryImportServer ="*\<ServerName\>*"  
   
-         PrimaryImportDatabase ="*\<DatabaseName >*"  
+         PrimaryImportDatabase ="*\<DatabaseName\>*"  
   
 17. 啟動所有的 BizTalk Server 服務。 如需詳細資訊，請參閱[如何啟動、 停止、 暫停、 繼續或重新啟動 BizTalk Server 服務](../core/how-to-start-stop-pause-resume-or-restart-biztalk-server-services.md)。  
   
@@ -158,5 +158,5 @@ ms.lasthandoff: 09/20/2017
         Net start NS$BamAlerts  
         ```  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [移動 BizTalk Server 資料庫](../core/moving-biztalk-server-databases.md)

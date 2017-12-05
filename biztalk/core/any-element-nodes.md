@@ -12,17 +12,17 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c24eb75020f715245fc2b17f4bc1f81a7e34cd35
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f556a5629fd98d910cbbbd83632ac1a6a1702e74
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="any-element-nodes"></a>Any 項目節點
 在 [BizTalk 編輯器] 中，您可以使用**Any 項目**節點來指示的位置執行個體訊息中未知的項目可能出現的位置。 這適用於您知道某個項目可能出現在執行個體訊息中的特定位置，但是您不知道項目的名稱，或是它的複雜程度。 如果您將放入**Any 項目**BizTalk 結構描述內的適當位置的節點可以處理訊息的這類未知的部分。 唯一的要求是對應的 XML 必須格式正確。  
   
 > [!NOTE]
->  在 [BizTalk 編輯器] 中， **Any 項目**節點以字串表示\<任何 > 結構描述樹狀結構檢視中。  
+>  在 [BizTalk 編輯器] 中， **Any 項目**節點以字串表示\<任何\>結構描述樹狀結構檢視中。  
   
 > [!NOTE]
 >  您可以控制的訊息未知的部分驗證為格式正確的 XML 使用**Process Contents**屬性。 在許多情況下，您可能需要設定**Process Contents**屬性**略過**位置的執行個體訊息的內容**Any 項目**来處理的節點。 保留預設值的**Strict**如**Process Contents**屬性會防止執行個體訊息無法通過驗證。  
@@ -45,7 +45,7 @@ ms.lasthandoff: 09/20/2017
   
  假設**Process Contents**屬性**Any 項目**節點設定為**略過**內的執行個體訊息是由這個結構描述片段中， **ExistingRecord**元素必須包含**[existingfieldelement]**項目，包含字串資料，後面接著任意複雜度的任何單一項目。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [BizTalk 結構描述表示法](../core/biztalk-representation-of-schemas.md)   
  [節點屬性](../core/node-properties.md)   
  [如何設定節點屬性](../core/how-to-set-node-properties.md)   

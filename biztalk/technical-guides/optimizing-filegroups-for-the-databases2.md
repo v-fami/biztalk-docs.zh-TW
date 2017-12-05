@@ -1,5 +1,5 @@
 ---
-title: "最佳化檔案群組 Databases2 |Microsoft 文件"
+title: "最佳化檔案群組的資料庫 |Microsoft 文件"
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f2f3ffab64795f8000af37cdc07c3754bb1fb5bd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9333a88817e96b52ffe186f0a6a598b225ef5202
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="optimizing-filegroups-for-the-databases"></a>最佳化檔案群組的資料庫
 檔案輸入/輸出 (I/O) 競爭的情況通常是限制因素或在生產環境 BizTalk Server 環境中的瓶頸。 BizTalk Server 資料庫非常密集的應用程式，而接著，BizTalk Server 所使用的 SQL Server 資料庫檔案最需要大量 I/O。 本主題描述如何最有效地利用檔案及檔案群組功能的 SQL Server 檔案 I/O 競爭次數降到最低，並改善 BizTalk Server 解決方案的整體效能。  
@@ -24,13 +24,13 @@ ms.lasthandoff: 09/20/2017
 ## <a name="overview"></a>概觀  
  每個 BizTalk Server 解決方案最終將會遇到檔案 I/O 競爭，提升輸送量。 I/O 子系統或儲存引擎是任何關聯式資料庫的重要元件。 成功的資料庫實作通常需要在專案早期就進行周密的規劃。 這項規劃應考量下列問題：  
   
--   應使用哪種磁碟硬體，如 RAID (磁碟陣列) 裝置。 如需使用 RAID 硬體解決方案的詳細資訊，請參閱[有關硬體為基礎的解決方案](http://go.microsoft.com/fwlink/?LinkID=113944)(http://go.microsoft.com/fwlink/?LinkID=113944) 中 SQL Server 線上叢書 》。  
+-   應使用哪種磁碟硬體，如 RAID (磁碟陣列) 裝置。 
   
--   如何分配使用檔案和檔案群組的磁碟上的資料。 如需有關如何使用 SQL Server 2008 R2 中的檔案和檔案群組的詳細資訊，請參閱[Files and Filegroups](http://go.microsoft.com/fwlink/?LinkID=69369) (http://go.microsoft.com/fwlink/?LinkID = 69369) 和[了解檔案與檔案群組](http://go.microsoft.com/fwlink/?LinkID=96447)(http://go.microsoft.com/fwlink/?LinkID = 96447) 中 SQL Server 線上叢書 》。  
+-   如何分配使用檔案和檔案群組的磁碟上的資料。 如需有關如何使用 SQL Server 中的檔案和檔案群組的詳細資訊，請參閱[Database Files and Filegroups](https://docs.microsoft.com/sql/relational-databases/databases/database-files-and-filegroups)。
   
--   實作最佳的索引設計來存取資料時改善效能。 如需設計索引的詳細資訊，請參閱[設計索引](http://go.microsoft.com/fwlink/?LinkID=96457)(http://go.microsoft.com/fwlink/?LinkID=96457) 中 SQL Server 線上叢書 》。  
+-   實作最佳的索引設計來存取資料時改善效能。 如需設計索引的詳細資訊，請參閱[設計索引](https://docs.microsoft.com/sql/relational-databases/sql-server-index-design-guide)。
   
--   如何設定 SQL Server 組態參數，以獲得最佳效能。 適用於 SQL Server 設定最佳的設定參數的相關資訊，請參閱[最佳化伺服器效能](http://go.microsoft.com/fwlink/?LinkID=71418)(http://go.microsoft.com/fwlink/?LinkID=71418) 中 SQL Server 線上叢書 》。  
+-   如何設定 SQL Server 組態參數，以獲得最佳效能。 適用於 SQL Server 設定最佳的設定參數的相關資訊，請參閱[伺服器組態選項](https://docs.microsoft.com/sql/database-engine/configure-windows/server-configuration-options-sql-server)。
   
  BizTalk server 的主要設計目標之一是確保訊息是**從未**遺失。 若要降低訊息遺失的可能性，訊息會經常寫入至 MessageBox 資料庫在處理訊息。 當協調流程處理訊息時，訊息會寫入協調流程中每個持續點的 MessageBox 資料庫中。 這些持續點會導致 MessageBox 實體磁碟寫入的訊息和相關的狀態。 在更高的輸送量，此持續性會造成相當大的磁碟爭用情況，而可能成為瓶頸。  
   
@@ -43,7 +43,7 @@ ms.lasthandoff: 09/20/2017
   
  此外，檔案和檔案群組啟用資料位置選項，可以在特定的檔案群組中建立資料表。 這可改善效能，因為指定資料表的所有檔案 I/O 都可都導向特定的磁碟。 比方說，經常使用的資料表可以放在檔案群組，在某個磁碟，並在資料庫中其他較少存取的資料表可以位於不同的檔案放在第二個磁碟上的另一個檔案群組中。  
   
- 檔案 I/O 瓶頸中相當大的詳細資料 > 主題中討論[資料庫層中的瓶頸](../technical-guides/bottlenecks-in-the-database-tier.md)。 最常見檔案 I/O （磁碟 I/O） 是一個瓶頸的指標是 「 實體磁碟： 平均磁碟佇列長度 」 計數器的值。 「 實體磁碟： 平均磁碟佇列長度 」 計數器的值大於約 3 的任何執行 SQL Server 的電腦上任何指定的磁碟，然後檔案 I/O 時，可能是效能瓶頸。  
+ 檔案 I/O 瓶頸相當詳細地討論[資料庫層中的瓶頸](../technical-guides/bottlenecks-in-the-database-tier.md)。 最常見檔案 I/O （磁碟 I/O） 是一個瓶頸的指標是 「 實體磁碟： 平均磁碟佇列長度 」 計數器的值。 「 實體磁碟： 平均磁碟佇列長度 」 計數器的值大於約 3 的任何執行 SQL Server 的電腦上任何指定的磁碟，然後檔案 I/O 時，可能是效能瓶頸。  
   
  如果套用檔案群組的最佳化，不會解決檔案 I/O 瓶頸問題，可能必須加入額外的實體或 SAN 磁碟機來增加磁碟子系統的輸送量。  
   
@@ -56,7 +56,7 @@ ms.lasthandoff: 09/20/2017
 >  本主題也描述如何建立多個檔案和檔案群組的 BizTalk MessageBox 資料庫。 建議的檔案和檔案群組的所有 BizTalk Server 資料庫的完整清單，請參閱 「 附錄 B 「 [BizTalk Server 資料庫最佳化](http://go.microsoft.com/fwlink/?LinkID=101578)白皮書 (http://go.microsoft.com/fwlink/?LinkID=101578)。  
   
 > [!NOTE]  
->  即使[BizTalk Server 資料庫最佳化](http://go.microsoft.com/fwlink/?LinkID=101578)白皮書 (http://go.microsoft.com/fwlink/?LinkID=101578) 以寫入[!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)]納入考量，相同的原則套用至[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]。  
+>  即使[BizTalk Server 資料庫最佳化](http://go.microsoft.com/fwlink/?LinkID=101578)白皮書 (http://go.microsoft.com/fwlink/?LinkID=101578) 以寫入[!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)]納入考量，相同的原則套用至 BizTalk Server。  
   
 ## <a name="databases-created-with-a-default-biztalk-server-configuration"></a>使用預設的 BizTalk Server 組態建立的資料庫  
  依據 13 不同資料庫中設定 BizTalk Server 中，可能會建立在 SQL Server 及所有的這些資料庫會建立預設檔案群組中時，會啟用功能。 SQL Server 的預設檔案群組是主要檔案群組，除非使用 ALTER DATABASE 命令來變更預設檔案群組。 下表列出的資料庫所建立的 SQL Server 中，如果設定 BizTalk Server 時，會啟用所有功能。  
@@ -90,14 +90,13 @@ ms.lasthandoff: 09/20/2017
  在大部分的 BizTalk Server 解決方案，因為磁碟 I/O 競爭或資料庫競爭競爭的主要來源是 BizTalk Server MessageBox 資料庫。 這是在單一和多重 MessageBox 的案例中，則為 true。 它是值的合理假設在最多可達 80%的散發 BizTalk 資料庫會值的衍生自最佳化的 MessageBox 資料檔案和記錄檔。 下列所述的範例案例會著重於最佳化 MessageBox 資料庫的資料檔案。 這些步驟然後是其他資料庫，視需要。 例如，如果解決方案需要大量的追蹤，追蹤資料庫，也可以最佳化。  
   
 ## <a name="manually-adding-files-to-the-messagebox-database-step-by-step"></a>手動將檔案加入至 MessageBox 資料庫中，逐步  
- 本節的主題描述可供遵循以手動將檔案加入至 MessageBox 資料庫的步驟。 在這個範例會加入三個檔案群組，然後將檔案加入至每個檔案群組，以便將檔案發佈的 MessageBox 中，跨多個磁碟。 在此範例中，在上執行的步驟[!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)]。  
+ 本節的主題描述可供遵循以手動將檔案加入至 MessageBox 資料庫的步驟。 在這個範例會加入三個檔案群組，然後將檔案加入至每個檔案群組，以便將檔案發佈的 MessageBox 中，跨多個磁碟。
   
-### <a name="manually-adding-files-to-the-messagebox-database-on-sql-server-2008-r2"></a>手動將檔案加入至 MessageBox 資料庫的 SQL Server 2008 R2  
- **請遵循下列步驟來手動將檔案加入至 MessageBox 資料庫的 SQL Server 2008 R2:**  
+### <a name="manually-adding-files-to-the-messagebox-database-on-sql-server"></a>手動將檔案加入至 SQL 伺服器上的 MessageBox 資料庫
+   
+1.  開啟**SQL Server Management Studio**顯示**連接到伺服器** 對話方塊。  
   
-1.  按一下**啟動**，指向 **程式**，指向   **[!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)]** ，然後按一下 [ **SQL Server Management Studio**顯示**連接到伺服器**] 對話方塊。  
-  
-     ![SQL Server 2008 R2 &#45;登入畫面](../technical-guides/media/sqlserver2008r2-loginscreen.gif "Sqlserver2008r2-kbxxxxxx Loginscreen")  
+     ![SQL Server 登入畫面](../technical-guides/media/sqlserver2008r2-loginscreen.gif "Sqlserver2008r2-kbxxxxxx Loginscreen")  
   
 2.  在**伺服器名稱**編輯方塊**連接到伺服器**對話方塊方塊中，輸入裝載 BizTalk Server MessageBox 資料庫的 SQL Server 執行個體的名稱，然後按一下**連接**顯示 SQL Server Management Studio。 在**物件總管 中**窗格中的 SQL Server Management Studio，展開**資料庫**以檢視資料庫的 SQL Server 的這個執行個體。  
   
@@ -127,7 +126,7 @@ ms.lasthandoff: 09/20/2017
   
  若要執行此指令碼，請遵循下列步驟：  
   
-1.  按一下**啟動**，指向 **程式**，指向   **[!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)]** ，然後按一下 [ **SQL Server Management Studio**顯示**連接到伺服器**] 對話方塊。  
+1.  開啟**SQL Server Management Studio**顯示**連接到伺服器** 對話方塊。  
   
 2.  在**伺服器名稱**編輯方塊**連接到伺服器**對話方塊方塊中，輸入裝載 BizTalk Server MessageBox 資料庫的 SQL Server 執行個體的名稱，然後按一下**連接**以顯示 [SQL Server Management Studio] 對話方塊。  
   
@@ -142,5 +141,5 @@ ms.lasthandoff: 09/20/2017
 > [!IMPORTANT]  
 >  它是責 SQL 指令碼，例如本指南中的範例指令碼會徹底測試，才能在生產環境中執行。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [最佳化資料庫效能](../technical-guides/optimizing-database-performance.md)

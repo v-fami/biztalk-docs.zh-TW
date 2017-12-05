@@ -18,11 +18,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 010c574c1c9c799d6235b9d10e3378b46c3d1548
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 842683d2eec04d77bad2b7726af0d687fae12884
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="createapp-application-deployment-sample"></a>CreateApp (應用程式部署範例)
 本主題說明如何使用 CreateApp 範例，此範例會示範如何使用 BTSTask 命令列工具來部署和解除部署 BizTalk 應用程式。 您可以使用此範例中的指令碼，將部署和解除部署 BizTalk 應用程式的夜間建置程序自動化。  
@@ -76,7 +76,7 @@ ms.lasthandoff: 09/20/2017
          C:\ScriptLog.txt  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- 您可以在下列資料夾中找到範例檔案*\<範例路徑 >*\Application 部署\\:  
+ 您可以在下列資料夾中找到範例檔案*\<範例路徑\>*\Application 部署\\:  
   
 -   CreateApp (資料夾)  
   
@@ -165,6 +165,6 @@ ms.lasthandoff: 09/20/2017
   
 11. 確認已從 GAC 解除安裝組件。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [應用程式部署 （BizTalk Server 範例資料夾）](../core/application-deployment-biztalk-server-samples-folder.md)   
  [部署 BizTalk 應用程式](../core/deploying-biztalk-applications.md)

@@ -12,14 +12,14 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 806f1efb67205771a1e202c8bafd77a493d584e4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6aefa415bec4b996fa7b5cd4689c48f834dc36a2
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="checklist-measuring-performance-on-hyper-v"></a>檢查清單： HYPER-V 上測量效能
-雖然大部分的分析安裝在 HYPER-V 虛擬機器效能上的客體作業系統的效能準則相同分析實體機器上安裝作業系統的效能，許多集合方法是不同。 評估效能時，應該快速參考使用下列各節您[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]HYPER-V 虛擬機器上安裝客體作業系統上執行的方案。  
+雖然大部分的分析安裝在 HYPER-V 虛擬機器效能上的客體作業系統的效能準則相同分析實體機器上安裝作業系統的效能，許多集合方法是不同。 評估您在 HYPER-V 虛擬機器上安裝客體作業系統上執行的 BizTalk Server 解決方案的效能時，應該使用以下各節，快速參考。  
   
 ## <a name="measuring-disk-io-performance"></a>測量磁碟 I/O 效能  
  使用下列效能監視器計數器來測量在 HYPER-V 虛擬機器上安裝客體作業系統上的磁碟 I/O 效能：  

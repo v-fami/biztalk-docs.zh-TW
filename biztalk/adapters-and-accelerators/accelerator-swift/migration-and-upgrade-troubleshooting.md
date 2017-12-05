@@ -17,11 +17,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c063e2e4ba213c3f72cbfb4977a3463d16b0a726
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5c0e2a18b1cdba47c999150b5bc52c0b016aec61
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="migration-and-upgrade-troubleshooting"></a>移轉和升級的疑難排解
 ## <a name="assemblies-need-to-be-undeployed-before-an-upgrade"></a>需要升級之前解除部署組件  
@@ -68,12 +68,12 @@ ms.lasthandoff: 09/20/2017
   
 1.  以滑鼠右鍵按一下 [服務] 資料夾中，按一下**屬性**，然後按一下 [**安全性**] 索引標籤。  
   
-2.  在 [群組或使用者名稱] 窗格的 [服務內容] 對話方塊，按一下**新增**，輸入 ***\<伺服器名稱 >*\A4SWIFT 管理員**，然後按一下**確定**。  
+2.  在 群組或使用者名稱 窗格的 服務內容 對話方塊，按一下**新增**，輸入 ***\<伺服器名稱\>*\A4SWIFT 管理員**，然後按一下 **確定**。  
   
     > [!NOTE]
-    >  如果 A4SWIFT Administrators 群組的網域群組，請輸入 ***\<網域名稱 >*\A4SWIFT 管理員**。  
+    >  如果 A4SWIFT Administrators 群組的網域群組，請輸入 ***\<網域名稱\>*\A4SWIFT 管理員**。  
   
-3.  重複步驟 2 的 ***\<伺服器名稱 >*\A4SWIFT 使用者**，或  **\<*網域名稱*> \A4SWIFT使用者 * * 如果 A4SWIFT 使用者群組是網域群組。  
+3.  重複步驟 2 的 ***\<伺服器名稱\>*\A4SWIFT 使用者**，或  **\<*網域名稱*\>\A4SWIFT 使用者 * * 如果 A4SWIFT 使用者群組是網域群組。  
   
 4.  在 [群組或使用者名稱] 窗格中選取**A4SWIFT 管理員**。 在 [權限] 窗格中，選取**允許**如**完全控制**。  
   
@@ -81,5 +81,5 @@ ms.lasthandoff: 09/20/2017
   
 6.  按一下 **[確定]**。  
   
-## <a name="see-also"></a>另請參閱  
- [疑難排解： 問題與解決方式](../../adapters-and-accelerators/accelerator-swift/troubleshooting-issues-and-resolutions1.md)
+## <a name="see-also"></a>請參閱  
+ [疑難排解：問題與解決方式](../../adapters-and-accelerators/accelerator-swift/troubleshooting-issues-and-resolutions1.md)

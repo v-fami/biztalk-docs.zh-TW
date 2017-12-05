@@ -15,11 +15,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 42173fa0ccb01b3ced42965af74e1fcc01d12aba
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 465946f15d11f087995b8000231796c5e204c077
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="restrictions-on-the-smtp-host-property"></a>SMTP 主控件屬性的限制
 SMTP 主控件屬性是一個字串，可指定 SMTP 配接器從 BizTalk 伺服器傳送訊息時將使用的 SMTP 伺服器。  
@@ -28,11 +28,11 @@ SMTP 主控件屬性是一個字串，可指定 SMTP 配接器從 BizTalk 伺服
   
 -   此屬性必須設定在配接器處理常式層級、端點層級或同時設定。  
   
--   SMTP 伺服器屬性不能包含下列字元: ' ~ ！ @ # $ ^ & * ( ) = + [ ] { } \ &#124; ; : ' " , \< > /, ?;  
+-   SMTP 伺服器屬性不能包含下列字元: ' ~ ！ @ # $ ^ & * ( ) = + [ ] { } \ &#124; ; : ' " , \< \> /, ?;  
   
 -   SMTP 伺服器名稱的長度不可以超過 256 個字元。  
   
  SMTP 配接器永遠會使用先前提及的規則，在設計階段驗證 SMTP 主控件名稱。 此外，若訊息是透過動態連接埠以 SMTP 配接器來傳送，則 SMTP 配接器會在執行階段驗證 SMTP 主控件名稱。  
   
-## <a name="see-also"></a>另請參閱  
- [設定 SMTP 配接器時的限制](../core/restrictions-when-configuring-the-smtp-adapter.md)
+## <a name="see-also"></a>請參閱  
+ [設定 SMTP 配接器的限制](../core/restrictions-when-configuring-the-smtp-adapter.md)

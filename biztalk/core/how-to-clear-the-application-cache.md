@@ -16,11 +16,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: eacb7a786ad2729dbbea365e70c3aba8fabed5d1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 184569a3eed693a7b699b2ad14cfb8461cc496e8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-clear-the-application-cache"></a>如何清除應用程式快取
 您可以使用 MMC 嵌入式管理單元或命令列，移除所有「單一登入伺服器」上特定應用程式的認證快取內容 (所有與分支機構應用程式相關的資訊)。  
@@ -39,13 +39,13 @@ ms.lasthandoff: 09/20/2017
   
 1.  在**啟動**功能表上，按一下 **執行**，然後輸入**cmd**。  
   
-2.  在命令列，移至「企業單一登入」安裝目錄。 預設安裝目錄是\<*磁碟機*>: \Program Files\Common Files\Enterprise Single Sign-on。  
+2.  在命令列，移至「企業單一登入」安裝目錄。 預設安裝目錄是\<*磁碟機*\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-3.  型別**ssomanage – purgecache *\<應用程式名稱 >***，其中\<*應用程式名稱*> 是的分支機構應用程式名稱您想要清除的快取。  
+3.  型別**ssomanage – purgecache *\<應用程式名稱\>***，其中\<*應用程式名稱*\>名稱分支機構應用程式，您想要清除的快取。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [SSO 分支機構應用程式](../core/sso-affiliate-applications.md)   
  [管理分支機構應用程式](../core/managing-affiliate-applications.md)

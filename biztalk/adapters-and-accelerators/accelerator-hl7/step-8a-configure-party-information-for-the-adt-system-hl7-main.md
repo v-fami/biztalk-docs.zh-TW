@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f9285b926edb5ca4f1dccf18ed2d5f76b3af14ef
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9683fd02f94b96ead6817c72298338c064a14cc1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-8a-configure-party-information-for-the-adt-systemhl7main"></a>在步驟 8A： 設定 ADT System_hl7_main 合作對象資訊
 在此步驟中，您可以設定 ADT 系統的合作對象資訊。  
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  在**傳送埠**] 窗格中，針對**名稱**在第一個資料列中，選取**ADT_Send**，然後按一下 [ **[確定]**。  
   
-5.  按一下**啟動**，指向 **程式**，指向  **Microsoft BizTalk\<版本 > Accelerator for HL7**，然後按一下  **BTAHL7組態總管**。  
+5.  按一下**啟動**，指向 **程式**，指向  **Microsoft BizTalk\<版本\>Accelerator for HL7**，然後按一下  **BTAHL7 Configuration 總管**。  
   
 6.  在 [BTAHL7 組態總管] 中，按一下 [**通知**] 索引標籤。如**的通知類型**，選取**EnhancedMode**。  
   

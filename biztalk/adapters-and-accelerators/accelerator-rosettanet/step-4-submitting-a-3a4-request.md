@@ -13,11 +13,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2436d33033163b32c4ead0fdab807b7db0b0158f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ff36b6181b167d70340a65913e1e85e7acfeeaf4
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-4-submitting-a-3a4-request"></a>步驟 4： 提交 3A4 要求
 在此步驟中，您將使用「3A4 - 訂單要求」的夥伴介面程序 (PIP) 來準備並提交要求。 這個 PIP 可以讓購買者組織提交訂單要求至供應商。 一般而言，當您使用「3A2 - 要求價格與可用性」PIP 執行產品可用性查詢之後，就會發出「3A4 - 訂單要求」。 3A4 PIP 是傳送回條確認的非同步 PIP。  
@@ -39,7 +39,7 @@ ms.lasthandoff: 09/20/2017
     |**Pip 執行個體識別碼**|型別**3A4_Test**。 **重要事項：**為了避免發生重複訊息識別碼錯誤，您必須確定**Pip 執行個體識別碼**都是唯一的每個您所提交的訊息。 如果將來要執行 3A4 測試，您必須變更此欄位。|  
     |**訊息類別**|型別**動作**。|  
   
-3.  使用 [記事本] 或其他文字編輯器，開啟中的 3A4_Request.xml 檔案\<*磁碟機*>: \Program Files\Microsoft BizTalk\<版本 > Accelerator for RosettaNet\SDK\LOBApplication\SampleInstances 資料夾，然後複製並貼上內容**服務內容**lobwebapplication 的欄位。  
+3.  使用 [記事本] 或其他文字編輯器，開啟中的 3A4_Request.xml 檔案\<*磁碟機*\>: \Program Files\Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK\LOBApplication\SampleInstances 資料夾，然後複製並貼上內容**服務內容**lobwebapplication 的欄位。  
   
 4.  按一下**送出**提交 3A4 要求至 Contoso 電腦。  
   
@@ -58,7 +58,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  在 Microsoft SQL Server Management Studio 中，按一下 **新查詢**。  
   
-4.  在\<資料表 > 文字對話方塊方塊中，選取**BTARNDATA**從清單中。  
+4.  在\<資料表\>文字對話方塊方塊中，選取**BTARNDATA**從清單中。  
   
 5.  在 SQL 視窗中輸入下列 SQL 陳述式：  
   
@@ -86,6 +86,6 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  您應該會看到類別 25 的訊息，代表從 Contoso 傳送到 Fabrikam 電腦的接收通知。 您應該也會看到類別 50 的訊息，代表從 Contoso 商務營運系統 (LOB) 應用程式傳送到 Fabrikam 電腦的回應。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [雙向動作教學課程](../../adapters-and-accelerators/accelerator-rosettanet/double-action-tutorial.md)   
  [BTARN 中的訊息流程](../../adapters-and-accelerators/accelerator-rosettanet/message-flow-in-btarn.md)

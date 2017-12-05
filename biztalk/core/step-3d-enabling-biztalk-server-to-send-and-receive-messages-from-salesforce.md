@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9c38a58e376bbc8908ff0fe578aa54cbb009c58d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9d8489c484bdb88a292b998d31e7c6de90e0937c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-3d-enabling-biztalk-server-to-send-and-receive-messages-from-salesforce"></a>步驟 3d： 啟用 BizTalk Server 傳送和接收來自 Salesforce 的訊息
 我們必須透過 Salesforce 進行驗證時使用的 REST 介面傳送訊息。 無法使用立即可用的 Wcf-webhttp 配接器，我們將使用來叫用 Salesforce 的 REST 介面支援 Salesforce REST 呼叫的驗證方法。 因此，我們將建立自訂的 WCF 端點行為，然後將它附加到我們稍後會設定要叫用 Salesforce REST 介面的 Wcf-webhttp 傳送配接器。  
@@ -231,7 +231,7 @@ ms.lasthandoff: 09/20/2017
   
     -   建立衍生自類別`BehaviorExtensionElement`  
   
-    -   登錄中的您 BehavaiorExtensionElement\<延伸模組 >\\< behaviorExtensions\> machine.config 使用項目名稱中的項目。  
+    -   登錄中的您 BehavaiorExtensionElement\<延伸\>\\< behaviorExtensions\> machine.config 使用項目名稱中的項目。  
   
      我們也可以加入這個類別組態屬性，使其可從 Wcf-webhttp 配接器組態 UI。  
   
@@ -319,5 +319,5 @@ ms.lasthandoff: 09/20/2017
   
  在本主題中，加入自訂的行為，向 Salesforce 和自訂管線新增至 Salesforce 回應的命名空間。 設定中的實體連接埠時，我們會使用這些自訂元件[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台。  
   
-## <a name="see-also"></a>另請參閱  
- [步驟 3： 建立 Visual Studio 中的 BizTalk Server 解決方案](../core/step-3-create-the-biztalk-server-solution-in-visual-studio.md)
+## <a name="see-also"></a>請參閱  
+ [步驟 3：在 Visual Studio 中建立 BizTalk Server 解決方案](../core/step-3-create-the-biztalk-server-solution-in-visual-studio.md)

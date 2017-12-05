@@ -12,14 +12,14 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 717e7919b3f822ba582ea3c1e50f251eea18a06b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6b97eec38f868a6d1aa00684d92166bb2759a51d
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="the-resolver-and-adapter-provider-framework"></a>解析器和配接器提供者架構
-解析器和配接器提供者架構支援路線、 轉換和端點解析和路由。 架構可以動態地解決端點，並設定輸出配接器屬性。 之後的解析程式元件會解析端點 （例如，使用通用描述、 探索與整合 [UDDI] 尋找傳出的 Web 服務端點），註冊配接器提供者元件設定的特定內容[!INCLUDE[prague](../includes/prague-md.md)]配接器。 例如，Wcf-basichttp 配接器提供者負責設定 BizTalk 特定訊息的端點 URI，將會使用特定的 BizTalk 配接器; 內容屬性FTP 配接器提供者會負責設定 FTP 配接器的特定屬性。  
+解析器和配接器提供者架構支援路線、 轉換和端點解析和路由。 架構可以動態地解決端點，並設定輸出配接器屬性。 之後的解析程式元件會解析端點 （例如，傳出的 Web 服務端點上使用通用描述、 探索與整合 [UDDI] 來尋找），配接器提供者元件設定的已註冊的 BizTalk Server 的特定屬性配接器。 例如，Wcf-basichttp 配接器提供者負責設定 BizTalk 特定訊息的端點 URI，將會使用特定的 BizTalk 配接器; 內容屬性FTP 配接器提供者會負責設定 FTP 配接器的特定屬性。  
   
  解析器和配接器提供者架構的其中一個目標是以支援解析度和路由在任一個訊息層級，而不需使用 BizTalk 協調流程，或在協調流程層級。 在這兩種情況下，可插式架構會提供簡易的開發、 部署和註冊新的解析程式和配接器提供者。 所有的解析程式和配接器提供者實作妥善定義之介面，並視需要載入執行階段時透過組態檔中註冊。  
   

@@ -13,16 +13,16 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ef4f0d8c606724cec9c85551251cb003aa8a7e34
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: 5433e454d161c77ac140167e9af082eaee7c2032
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="message-context-properties-in-tibco-ems"></a>在 TIBCO EMS 的訊息內容屬性
 
 ## <a name="tibcoemspropertiesdll"></a>TibcoEMSProperties.dll
-若要從 BizTalk Server 協調流程存取 TIBCO Enterprise Message System 訊息描述元欄位，您必須加入參考**Microsoft.BizTalk.Adapters.TibcoEMSProperties.dll**至您的專案。 這個組件位於 **\<TIBCO EMS_Adapter_installation_directory > \bin**。 在參考這個屬性結構描述之後，各種 BizTalk Server 開發工具 (例如協調流程設計師裡的訊息指派圖形) 就可以存取其他內容屬性。  
+若要從 BizTalk Server 協調流程存取 TIBCO Enterprise Message System 訊息描述元欄位，您必須加入參考**Microsoft.BizTalk.Adapters.TibcoEMSProperties.dll**至您的專案。 這個組件位於 **\<TIBCO EMS_Adapter_installation_directory\>\bin**。 在參考這個屬性結構描述之後，各種 BizTalk Server 開發工具 (例如協調流程設計師裡的訊息指派圖形) 就可以存取其他內容屬性。  
   
 ## <a name="access-context-properties"></a>存取內容屬性  
  若要存取內容屬性，您必須指定在 TIBCO EMS 命名空間內的其中一個可用內容屬性。 若要讀取從繫結至 BizTalk Adapter for TIBCO EMS 之連接埠所接收訊息的內容屬性，請在運算式中使用下列語法：  

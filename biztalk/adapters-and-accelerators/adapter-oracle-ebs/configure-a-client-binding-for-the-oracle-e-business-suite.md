@@ -12,11 +12,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: dadf91973bdee181050f420ed611eb0c502fc988
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6a1f3eafdf423926dab4cf48efae8db3044aba9b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="configure-a-client-binding-for-the-oracle-e-business-suite"></a>設定用戶端 for Oracle E-business Suite 繫結
 產生 WCF 用戶端類別後，您可以建立 WCF 用戶端 （執行個體），並叫用其方法來取用[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]。  
@@ -66,9 +66,9 @@ client.Open();
  下列 XML 顯示為建立的組態檔**客戶介面**並行程式[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]。 此檔案包含在上述範例中所參考的用戶端端點組態。  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <configuration xmlns="http://schemas.microsoft.com/.NetConfiguration/v2.0">  
-    \<system.serviceModel>  
+    <system.serviceModel>  
         <bindings>  
             <oracleEBSBinding>  
                 <binding openTimeout="00:05:00" name="OracleEBSBinding" closeTimeout="00:01:00"  
@@ -94,11 +94,11 @@ client.Open();
                 bindingConfiguration="OracleEBSBinding" contract="ConcurrentPrograms_AR"  
                 name="OracleEBSBinding_ConcurrentPrograms_AR" />  
         </client>  
-    \</system.serviceModel>  
+    </system.serviceModel>  
 </configuration>  
 ```  
   
  如果專案有一個以上的 WCF 用戶端，會有多個用戶端組態檔中定義的端點項目。 每個 WCF 用戶端項目必須根據其繫結組態和目標 Oracle E-business Suite 成品的唯一名稱。 如果您連接多個的時間，以建立 WCF 用戶端專案中，多個繫結組態項目將會建立，其中每個連接。 這些繫結組態項目將會透過下列方式命名： OracleEBSBinding、 OracleEBSBinding1，依此類推。 在特定的連接期間建立的每個用戶端端點項目會參考該連接期間所建立的繫結項目。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [開發 Oracle E-business Suite 應用程式使用 WCF 服務模型](../../adapters-and-accelerators/adapter-oracle-ebs/develop-oracle-e-business-suite-applications-using-the-wcf-service-model.md)

@@ -19,11 +19,11 @@ caps.latest.revision: "20"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7c200e6c7cf28b0f0e42976f203aaa16aef2871f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 493f4d28214a815aca88f214e5efb9cd883e7192
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="aggregator-biztalk-server-sample"></a>彙總工具 (BizTalk Server 範例)
 此範例的目的是要建置使用協調流程和管線的訊息彙總功能。 具體而言，我們將會建立可執行下列作業的協調流程：  
@@ -35,7 +35,7 @@ ms.lasthandoff: 09/20/2017
 3.  每分鐘產生一次 XML 交換訊息，或是在有足夠彙總數量的訊息時立即產生。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- *\<範例路徑 >*\Pipelines\Aggregator  
+ *\<範例路徑\>*\Pipelines\Aggregator  
   
  下表列出此範例使用的檔案。  
   
@@ -62,13 +62,13 @@ ms.lasthandoff: 09/20/2017
   
 1.  在命令視窗中，瀏覽至下列資料夾：  
   
-     \<範例路徑 > \Pipelines\Aggregator  
+     \<範例路徑\>\Pipelines\Aggregator  
   
 2.  執行檔案 Setup.bat，這會執行下列動作：  
   
     -   在此資料夾中建立此範例的輸入 (In) 和輸出 (Out) 資料夾。  
   
-         \<範例路徑 > \Pipelines\Aggregator  
+         \<範例路徑\>\Pipelines\Aggregator  
   
     -   為此範例編譯 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 專案。  
   
@@ -110,5 +110,5 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  此範例實作可能會於群組實例中的高負載情況下，造成「已傳遞，未使用訊息」或「完成並有捨棄的訊息」的問題。 每當訊息路由至已經在結束階段的商務程序時，或是每當有未預期的訊息抵達到商務程序時，就會發生這種情況。  
   
-## <a name="see-also"></a>另請參閱  
- [管線 （BizTalk Server 範例資料夾）](../core/pipelines-biztalk-server-samples-folder.md)
+## <a name="see-also"></a>請參閱  
+ [管線 (BizTalk Server Samples 資料夾)](../core/pipelines-biztalk-server-samples-folder.md)

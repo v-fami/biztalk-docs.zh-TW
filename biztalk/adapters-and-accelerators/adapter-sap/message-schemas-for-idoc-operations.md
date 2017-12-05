@@ -13,11 +13,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 76d6cc5a7c8c651bcd9fcc6198b7069180c511bf
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 53da14ff55d427e3507273af4c991072cff26bec
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="message-schemas-for-idoc-operations"></a>IDOC 作業的訊息結構描述
 中繼文件 (IDOC) 是以非同步方式與 SAP 和非 SAP 系統通訊的 SAP 所支援的標準化的 EDI 類似文件。 IDOC 用來傳送和接收商務文件，例如銷售訂單與交易夥伴的 SAP 系統或外部程式。  
@@ -162,8 +162,8 @@ ms.lasthandoff: 09/20/2017
     </EDI_DC40>  
   <IDOC_DATA_REC_40>  
     <EDI_DD40 xmlns="http://Microsoft.LobServices.Sap/2007/03/Types/Rfc/">  
-      \<[SEG_HEADER_FIELD1]>value1\</[SEG_HEADER_FIELD1]>  
-      \<[SEG_HEADER_FIELD2]>value2\</[SEG_HEADER_FIELD2]>  
+      <[SEG_HEADER_FIELD1]>value1</[SEG_HEADER_FIELD1]>  
+      <[SEG_HEADER_FIELD2]>value2</[SEG_HEADER_FIELD2]>  
       …  
       <SDATA>segment value</SDATA>  
     </EDI_DD40>  

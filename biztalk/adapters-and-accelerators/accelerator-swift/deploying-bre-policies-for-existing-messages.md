@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b03f6f3319e90d4782e1e9e5fd7e2a7e2a27b527
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4cd094feabe1ba23a6a73c89aae3a1042b8f7fc9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="deploying-bre-policies-for-existing-messages"></a>將 BRE 原則部署現有的訊息
 **若要部署的相關的商務規則：**  
@@ -33,6 +33,6 @@ ms.lasthandoff: 09/20/2017
   
 5.  關閉 SWIFT BRE 部署公用程式的對話方塊。  
   
-6.  在 Windows 檔案總管，瀏覽至*\<磁碟機 >*: \Documents and Settings\All Users\Application 資料，確認記錄檔 BREDeploymentLog.txt 顯示資料夾中。  
+6.  在 Windows 檔案總管，瀏覽至*\<磁碟機\>*: \Documents and Settings\All Users\Application 資料，確認記錄檔 BREDeploymentLog.txt 顯示資料夾中。  
   
 7.  按一下**啟動**，按一下 **執行**，型別**services.msc**，然後按一下 **確定**。 在 服務 （本機） 視窗中，以滑鼠右鍵按一下**規則引擎更新服務**，然後按一下 **重新啟動**。

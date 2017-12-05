@@ -18,11 +18,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d146dbeaa94d47799794de7fa6f9e6b9082f9fa5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fc9e1a520153220bcc86d844ca94203ff2b78548
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="message-inspector-pipeline-component"></a>訊息偵測器管線元件
 此管線元件可讓您檢查多部分訊息的所有部分以及訊息內容，以判斷訊息是否有問題。 您可使用此元件進行疑難排解。  
@@ -32,17 +32,17 @@ ms.lasthandoff: 09/20/2017
  您可將此元件建置到自訂管線，並將它附加到傳送埠。 您可在傳送埠中建立篩選器，訂閱您想監視的訊息。 除了 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 已經執行的標準程序之外，也會進行這項疑難排解。  
   
 ## <a name="building-a-custom-pipeline-using-the-message-inspector-pipeline-component"></a>使用訊息偵測器管線元件建置自訂管線  
- 如果要使用「訊息偵測器管線元件」，您必須建置和部署包含該元件的自訂管線。 如需詳細資訊，請參閱「[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] 說明」中的＜使用管線設計師建立管線＞。  
+ 如果要使用「訊息偵測器管線元件」，您必須建置和部署包含該元件的自訂管線。 如需詳細資訊，請參閱 「 建立管線的管線設計師 」 在 BizTalk Server 說明中。  
   
 #### <a name="to-deploy-the-message-inspector-pipeline-component"></a>部署訊息偵測器管線元件  
   
-1.  啟動 [!INCLUDE[vs2012](../../includes/vs2012-md.md)]。  
+1.  啟動 Visual Studio。  
   
 2.  在**檔案**功能表上，指向**開啟**，然後按一下 **專案**。  
   
 3.  移至 C:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\Message Inspector Pipeline Component，選取**MessageInspector.csproj**，然後按一下 **開啟**。  
   
-4.  開啟[!INCLUDE[vs2012](../../includes/vs2012-md.md)]命令提示字元。  
+4.  開啟 Visual Studio 命令提示字元。  
   
 5.  在命令提示字元中，移至 C:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\Message Inspector Pipeline Component\obj\debug。  
   
@@ -114,5 +114,5 @@ ms.lasthandoff: 09/20/2017
 ## <a name="remarks"></a>備註  
  在一般的處理中，您一次只能檢查一個訊息 (您在協調流程中指定為訊息內文的部分)。 因此，您只能在 BizTalk 管理主控台中檢查其中一個部分，您進行疑難排解的能力是受限的。 「訊息偵測器管線元件」可幫助您克服這項限制。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [公用程式](../../adapters-and-accelerators/accelerator-rosettanet/utilities1.md)

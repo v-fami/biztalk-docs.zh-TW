@@ -20,11 +20,11 @@ caps.latest.revision: "25"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 38bb6aa65a77c5473ac2934bd2bd0c59268eb2af
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6796bbbad4722e959962ea88e9854bce82476be4
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="single-server-deployment"></a>單一伺服器部署
 這個主題針對 Windows SharePoint Services 討論其 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 配接器的單一伺服器安裝及部署考量。  
@@ -123,7 +123,7 @@ ms.lasthandoff: 09/20/2017
   
 -   在 [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] 上，執行 SharePoint 配接器 Web 服務所使用的識別需要以下權限：  
   
-     **讀取**權限**Program Files\Microsoft BizTalk Server\<版本 > \Business Activity Services\BTSharePointV3AdapterWS**資料夾。 如果使用 64 位元版本的 Windows 和 BizTalk Server，需要設定權限**Program Files (x86) \Microsoft BizTalk Server\<版本 > \Business Activity Services\BTSharePointV3AdapterWS**  
+     **讀取**權限**Program Files\Microsoft BizTalk Server\<版本\>\Business Activity Services\BTSharePointV3AdapterWS**資料夾。 如果使用 64 位元版本的 Windows 和 BizTalk Server，需要設定權限**Program Files (x86) \Microsoft BizTalk Server\<版本\>\Business Activity Services\BTSharePointV3AdapterWS**  
   
      **讀取**下列登錄機碼的權限： **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Shared Tools\Web Server\Extensions\12.0\Secure\ConfigDB**。  
   
@@ -137,6 +137,6 @@ ms.lasthandoff: 09/20/2017
   
 -   您可以使用無訊息安裝，來安裝和設定 Windows SharePoint Services 配接器。 如需詳細資訊，請參閱[附錄 a： 無訊息安裝](../install-and-config-guides/appendix-a-silent-installation.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [Windows SharePoint Services 配接器](../core/windows-sharepoint-services-adapter.md)   
  [多伺服器部署](../core/multiserver-deployment.md)

@@ -18,11 +18,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 416fc38c8768e7391659d133877b2ae59e704463
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 58365383b1981ae40e87ee23891929bf05c8530e
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-modify-the-deployment-options-of-a-biztalk-assembly"></a>如何修改 BizTalk 組件的部署選項
 本主題描述如何使用 BizTalk Server 管理主控台來修改 BizTalk 組件的部署選項。  
@@ -44,7 +44,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  按一下**啟動**，按一下 **程式**，按一下  [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]，然後按一下  **BizTalk Server 管理**。  
   
-2.  在主控台樹狀目錄中，依序展開 [[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 管理]、包含要修改部署選項之 BizTalk 組件的 BizTalk 群組，然後展開包含該 BizTalk 組件的應用程式。  
+2.  在主控台樹狀目錄中，展開 [BizTalk Server 管理]，展開包含要為其修改部署選項的 BizTalk 組件的 BizTalk 群組，然後展開包含 BizTalk 組件的應用程式。  
   
 3.  按一下**資源**資料夾中，以滑鼠右鍵按一下 BizTalk 組件，然後按一下**修改**。  
   
@@ -52,5 +52,5 @@ ms.lasthandoff: 09/20/2017
   
 5.  必要時，在**目的地位置**編輯的路徑的組件安裝應用程式時，會複製，然後按一下 **確定**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理 BizTalk 組件](../core/managing-biztalk-assemblies.md)

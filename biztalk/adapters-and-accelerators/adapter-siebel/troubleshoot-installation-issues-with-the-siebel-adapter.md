@@ -15,11 +15,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9b254f317740b8fcff0bc97dc0891ae19fb8d594
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ff49285df7e43103f2ad7441cbc82b96bb59eaa4
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="troubleshoot-installation-issues-with-the-siebel-adapter"></a>使用 Siebel 配接器疑難排解安裝問題
 Microsoft[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]複製產品二進位編碼檔案的電腦上安裝，並註冊每個配接器的繫結。 本章節將討論解決安裝錯誤的疑難排解技術。  
@@ -46,9 +46,9 @@ Microsoft[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.
   
 手動註冊[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]繫結和[!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]使用下列步驟： 
   
-1.  瀏覽至電腦上的 machine.config 檔案。 例如，32 位元平台上，machine.config 位在\<系統磁碟機 >: \WINDOWS\Microsoft.NET\Framework\\< 版本\>\CONFIG。  
+1.  瀏覽至電腦上的 machine.config 檔案。 例如，32 位元平台上，machine.config 位在\<系統磁碟機\>: \WINDOWS\Microsoft.NET\Framework\\< 版本\>\CONFIG。  
   
-     在此路徑中\<版本 > 是.NET Framework 的版本。  
+     在此路徑中\<版本\>是.NET Framework 的版本。  
   
 2.  開啟檔案，使用文字編輯器。  
   
@@ -119,5 +119,5 @@ Microsoft[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.
   
 4.  複製的公開金鑰，然後按一下**取消**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [Siebel 配接器進行疑難排解](../../adapters-and-accelerators/adapter-siebel/troubleshoot-the-siebel-adapter.md)

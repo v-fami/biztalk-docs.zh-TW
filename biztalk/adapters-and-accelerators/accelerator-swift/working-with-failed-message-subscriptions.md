@@ -16,11 +16,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 17a29c6e00ee56c6869b9d9326d045a2ad8fb5fd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6540259fd6983fd418e57ff700de3f1b550016ec
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="working-with-failed-message-subscriptions"></a>使用失敗的訊息的訂閱
 當[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]解譯器處理序 （剖析及驗證） 訊息時，它會升級屬性，該訊息。 如果 A4SWIFT 收到訊息做為輸入的批次的一部分，這些升級的屬性會提供資訊的正確性與有效的訊息，以及批次相關資訊。 如需這些屬性的完整清單，請參閱[A4SWIFT_ * 升級屬性](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md)。  
@@ -55,7 +55,7 @@ ms.lasthandoff: 09/20/2017
 >  如果訂閱重疊，A4SWIFT 都滿足所有訂用帳戶。 也就是說，如果 （傳送埠或協調流程） 的多個服務有特定的訊息可滿足篩選條件運算式，所有此類服務會收到相同的訊息。 比方說，如果所有失敗訊息的傳送埠訂閱協調流程會訂閱僅發生剖析錯誤的訊息，這兩種訂閱將滿足 A4SWIFT 處理訊息時，遇到剖析發生錯誤時。 請務必排除在服務間的訂用帳戶中的不想要的重疊。  
   
 > [!NOTE]
->  A4SWIFT 如果 A4SWIFT 接收和處理訊息，並將該訊息發佈到 MessageBox 資料庫，但是訊息不符合任何訂用帳戶，將會擱置訊息[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]指出缺乏 「 訂閱者 」 的錯誤。 比方說，如果您有訂閱的所有訊息的服務 」 A4SWIFT_Failed = = false"，但沒有任何服務訂閱訊息其中"A4SWIFT_Failed = = true"，則無法剖析的訊息或驗證會確實被暫止的 「 訂閱者 」 的不足。 這種情況下確實可讓您模擬傳統擱置失敗的訊息。 請務必訂閱所有您不希望有擱置的訊息。 請參閱[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]協助如其他 MessageBox 資料庫訂閱的詳細資訊，傳送埠、 協調流程，並篩選運算式。  
+>  A4SWIFT 如果 A4SWIFT 接收和處理訊息，並將該訊息發佈到 MessageBox 資料庫，但是訊息不符合任何訂用帳戶，將會擱置訊息[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]指出缺乏 「 訂閱者 」 的錯誤。 比方說，如果您有訂閱的所有訊息的服務 」 A4SWIFT_Failed = = false"，但沒有任何服務訂閱訊息其中"A4SWIFT_Failed = = true"，則無法剖析的訊息或驗證會確實被暫止的 「 訂閱者 」 的不足。 這種情況下確實可讓您模擬傳統擱置失敗的訊息。 請務必訂閱所有您不希望有擱置的訊息。 如需 MessageBox 資料庫訂閱的其他詳細資料請參閱 BizTalk Server 說明、 傳送埠、 協調流程，和篩選條件運算式。  
   
  此部分包含：  
   

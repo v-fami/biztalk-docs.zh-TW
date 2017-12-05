@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e31746fbbc34e24ab1638cb52c84f99e43a876b5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7c9aaefe0cff41365a587079d0c82629ddddc586
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-2-configure-the-ports"></a>步驟 2： 設定的連接埠
 ![步驟 4 之 2](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")  
@@ -61,7 +61,7 @@ ms.lasthandoff: 09/20/2017
 2.  因為您正在執行兩項作業使用相同的傳送埠時，您必須使用動態動作對應來指定作業的動作。 在設定連接埠時**動作**方塊中，以下列方式指定動作對應：  
   
     ```  
-    \<BtsActionMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+    <BtsActionMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
       <Operation Name="UpdateEmp" Action="TypedProcedure/dbo/UPDATE_EMPLOYEE" />  
       <Operation Name="InsertPO" Action="TableOp/Insert/dbo/Purchase_Order" />  
     </BtsActionMapping>  
@@ -93,7 +93,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="next-steps"></a>後續步驟  
  您設定和啟動 BizTalk 應用程式中所述[步驟 3： 設定並啟動應用程式](../../adapters-and-accelerators/adapter-sql/step-3-configure-and-start-the-application.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [步驟 1： 部署的協調流程](../../adapters-and-accelerators/adapter-sql/step-1-deploy-the-orchestration.md)   
  [步驟 3： 設定並啟動應用程式](../../adapters-and-accelerators/adapter-sql/step-3-configure-and-start-the-application.md)   
- [第 5 課： 部署方案](../../adapters-and-accelerators/adapter-sql/lesson-5-deploy-the-solution.md)
+ [第 5 課：部署方案](../../adapters-and-accelerators/adapter-sql/lesson-5-deploy-the-solution.md)

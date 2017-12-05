@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2cd086459c52dbea01e5658115bfae9115f95479
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cfd39e1da4e8c730e2ca1c663a5844355ac9cd08
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="create-the-message-instances"></a>建立訊息執行個體
 建立 ADT^A03.txt 訊息檔案，並建立訊息執行個體，您必須在執行批次處理教學課程時，請使用下列程序。  
@@ -47,7 +47,7 @@ ms.lasthandoff: 09/20/2017
     FTS|1|File,BatchCount,TrailerComment  
     ```  
   
-3.  將檔案儲存為**FragmentedInboundBatch.txt**中\<*磁碟機*: > \Batching Tutorial\Instances 資料夾，然後關閉 [記事本]。  
+3.  將檔案儲存為**FragmentedInboundBatch.txt**中\<*磁碟機*:\>\Batching Tutorial\Instances 資料夾，然後關閉 [記事本]。  
   
 ### <a name="to-create-the-batch-inbatch-out-message-instance-text-file"></a>若要建立批次 / 批次訊息執行個體的文字檔案出  
   
@@ -68,7 +68,7 @@ ms.lasthandoff: 09/20/2017
     PV1|1|I|2000^2012^01^JDL&test&DNS^test^test^test^test^test||||004777^DOE^JANE^A.|||SUR||||2|A0  
     ```  
   
-3.  將檔案儲存為**BatchInBatchOut.txt**中\<*磁碟機*: > \Batching Tutorial\Instances 資料夾，然後關閉 [記事本]。  
+3.  將檔案儲存為**BatchInBatchOut.txt**中\<*磁碟機*:\>\Batching Tutorial\Instances 資料夾，然後關閉 [記事本]。  
   
 ### <a name="to-create-the-create-batch-message-instance-text-files"></a>若要建立文字檔案建立批次訊息執行個體  
   
@@ -84,7 +84,7 @@ ms.lasthandoff: 09/20/2017
     PV1|1|I|2000^2012^01^hey&test&DNS^test^test^test^test^test||||004777^MILLER^CONNIE^A.|||SUR||||2|A0  
     ```  
   
-3.  將檔案儲存為**CreateBatchMessage1.txt**中\<*磁碟機*: > \Batching Tutorial\Instances 資料夾，然後關閉 [記事本]。  
+3.  將檔案儲存為**CreateBatchMessage1.txt**中\<*磁碟機*:\>\Batching Tutorial\Instances 資料夾，然後關閉 [記事本]。  
   
 4.  將下列文字複製到 [記事本] 的新執行個體：  
   
@@ -96,6 +96,6 @@ ms.lasthandoff: 09/20/2017
     PV1|1|I|2000^2012^01^JDL&test&DNS^test^test^test^test^test||||004777^DOE^JANE^A.|||SUR||||2|A0  
     ```  
   
-5.  將檔案儲存為**CreateBatchMessage2.txt**中\<*磁碟機*: > \Batching Tutorial\Instances 資料夾，然後關閉 [記事本]。  
+5.  將檔案儲存為**CreateBatchMessage2.txt**中\<*磁碟機*:\>\Batching Tutorial\Instances 資料夾，然後關閉 [記事本]。  
   
  若要繼續[第 1 部分： 分散輸入批次案例](../../adapters-and-accelerators/accelerator-hl7/part-1-fragmented-inbound-batch-scenario.md)。

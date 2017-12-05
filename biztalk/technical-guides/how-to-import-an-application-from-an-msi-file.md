@@ -12,14 +12,14 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4ea38086ea98923b05b23ed8c594175e1ce09e4d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fc79413b17343ff7dbf27c90af803e7b22fb0678
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-import-an-application-from-an-msi-file"></a>如何從.msi 檔案匯入應用程式
-您可以使用中的匯入 MSI 精靈[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]管理主控台或 BTSTask 從.msi 檔案匯入 BizTalk 應用程式，到目標環境中的 BizTalk 群組，並在群組中的個別主控件執行個體上安裝應用程式。 完整匯入程序會執行下列作業：  
+您可以使用 BizTalk Server 管理主控台或 BTSTask 匯入 MSI 精靈，從.msi 檔案匯入 BizTalk 應用程式，到目標環境中的 BizTalk 群組，並在群組中的個別主控件執行個體上安裝應用程式。 完整匯入程序會執行下列作業：  
   
 -   應用程式群組層級部署  
   

@@ -12,14 +12,14 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f255f2bb71ecef857860fdd5c512f4320b35cc95
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c7da7ac08a8f26e21b2c648670730db136392471
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="bam-activities-created-to-track-edi-as2-messages"></a>建立追蹤 EDI AS2 訊息的 BAM 活動
-[!INCLUDE[prague](../includes/prague-md.md)] 包含的 BAM 活動，是為了 EDI 和 AS2 狀態報告所建立。 這些活動會決定狀態報告中顯示的資料。 本主題會描述 BAM 活動及其中所定義的欄位，並描述針對 BAM 活動內之特定欄位所定義的列舉值。  
+BizTalk Server 包含的 BAM 活動所建立的 EDI 和 AS2 狀態報告。 這些活動會決定狀態報告中顯示的資料。 本主題會描述 BAM 活動及其中所定義的欄位，並描述針對 BAM 活動內之特定欄位所定義的列舉值。  
   
  建立自訂 BAM 活動即可建立自訂狀態報告。 自訂活動可根據其中一個標準活動。 也可以藉由查詢 BizTalkDTADb 資料庫中的 EdiMessageContent 資料表，從自訂狀態報告顯示訊息的內容。 如需詳細資訊，請參閱以下的「查詢 EdiMessageContent 資料表」一節。  
   
@@ -79,6 +79,6 @@ ms.lasthandoff: 09/20/2017
 |-----------|-------------|  
 |EdiMessageContent<br /><br /> (在 BizTalkDTADb 資料庫中)|ContentKey<br /><br /> MessageFormat<br /><br /> ContentType<br /><br /> Charset<br /><br /> TimeCreated<br /><br /> TimeInserted<br /><br /> IsOrphaned<br /><br /> ContentBinary|  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [資料如何儲存 EDI 和 AS2 狀態報告](../core/how-data-is-stored-for-edi-and-as2-status-reports.md)   
- [內送的交易集與外寄批次相互關聯](../core/correlating-an-incoming-transaction-set-with-an-outgoing-batch.md)
+ [使內送交易集與外寄批次相互關聯](../core/correlating-an-incoming-transaction-set-with-an-outgoing-batch.md)

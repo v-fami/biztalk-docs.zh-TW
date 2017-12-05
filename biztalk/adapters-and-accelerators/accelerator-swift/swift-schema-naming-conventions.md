@@ -15,17 +15,17 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: beb792fe66e5806a186b0ffb946aa99f86a6a10c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 14245a185adcccdfb1f2ea2ed9382820fb84177e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="swift-schema-naming-conventions"></a>SWIFT 的結構描述的命名慣例
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]包括協會用於全球 Interbank 財務 Telecommunication (SWIFT) FIN 訊息使用 BizTalk 編輯器所建立的結構描述。 這些結構描述符合整個下列慣例：  
   
 > [!NOTE]
->  所有結構描述具有版本設定。 若要查看版本，開啟[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]，以滑鼠右鍵按一下方案總管 中的結構描述。 與\<結構描述 > 節點，在 「 BizTalk 編輯器 」 中，選取屬性 窗格向下捲動到 標準版本 屬性中。  
+>  所有結構描述具有版本設定。 若要查看版本，開啟[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]，以滑鼠右鍵按一下方案總管 中的結構描述。 與\<結構描述\>在 BizTalk 編輯器中，選取屬性 窗格向下捲動到 標準版本 屬性中的節點。  
   
 -   每個交換的結構描述檔案的名稱是 **MT*xxx*.xsd * * 其中*xxx*是 FIN 訊息類型。  
   
@@ -45,7 +45,7 @@ ms.lasthandoff: 09/20/2017
   
 -   標籤的編號 SWIFT 欄位包含一個描述性標題，後面接著序列 （如果有的話），後面接著數字代碼和選擇性的字母格式 (例如， **Reference_A_20C**)。  
   
--   有多種格式欄位的選擇，節點的標籤時是  **\<*選擇*> * *，和每個選項則是已編號的欄位 (例如， **Date_A_98A**和**DateTime_A_98C**)。  
+-   有多種格式欄位的選擇，節點的標籤時是  **\<*選擇*\>* *，和每個選項則是已編號的欄位 (例如， **Date_A_98A**和**DateTime_A_98C**)。  
   
 -   最低層級項目定義的子欄位的名稱所組成的名稱後面的子欄位**類型**(例如， **accountType**帳戶)。  
   
@@ -57,5 +57,5 @@ ms.lasthandoff: 09/20/2017
   
  每個訊息結構描述直接參考基底類型和常見的資料類型結構描述。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [使用結構描述](../../adapters-and-accelerators/accelerator-swift/working-with-schemas.md)

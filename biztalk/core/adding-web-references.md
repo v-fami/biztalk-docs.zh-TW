@@ -20,14 +20,14 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6bcdeb4966da4a4b54fea826590f867e4125d2ba
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2cbf8cd4c21009190fc459312467656410dc663a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="adding-web-references"></a>加入 Web 參考
-在您加入 Web 連接埠之前，必須先將 Web 參考加入至 BizTalk 專案。 Web 參考是可供專案使用的 Web 服務描述。 當您新增 Web 參考加入您的專案時，BizTalk 專案建立協調流程 Web 連接埠類型、 Web 訊息類型、 Reference.map （對應檔案）、 Reference.odx （協調流程檔案）、 \< *WebService*>.disco (探索檔案） 和\< *WebService*>.wsdl （Web 服務描述語言檔案） 至您的專案。 如果您的「Web 服務描述語言」(WSDL) 檔案包含結構描述 Web 訊息類型，BizTalk 專案還會將 Reference.xsd 加入至您的專案。  
+在您加入 Web 連接埠之前，必須先將 Web 參考加入至 BizTalk 專案。 Web 參考是可供專案使用的 Web 服務描述。 當您新增 Web 參考加入您的專案時，BizTalk 專案建立協調流程 Web 連接埠類型、 Web 訊息類型、 Reference.map （對應檔案）、 Reference.odx （協調流程檔案）、 \< *WebService*\>。disco （探索檔案） 和\< *WebService*\>.wsdl （Web 服務描述語言檔案） 至您的專案。 如果您的「Web 服務描述語言」(WSDL) 檔案包含結構描述 Web 訊息類型，BizTalk 專案還會將 Reference.xsd 加入至您的專案。  
   
  Web 參考包括：  
   
@@ -43,6 +43,6 @@ ms.lasthandoff: 09/20/2017
   
  如果想使用「商務程序執行語言」(Business Process Execution Language，BPEL) 匯出程序匯出您的協調流程，您不能參考現有 BizTalk 專案中的 Web 參考。 如果您參考現有 BizTalk 專案中的 Web 參考，則 BPEL 匯出程序會自動產生第二個 WSDL 檔案，而您則會失去您的繫結資訊。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [建立 Web 連接埠](../core/creating-web-ports.md)   
  [使用 Web 服務](../core/consuming-web-services.md)

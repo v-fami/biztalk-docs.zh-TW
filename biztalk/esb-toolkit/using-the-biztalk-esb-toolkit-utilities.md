@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 36902e2c5e90ce1b02f40f6994f150fa4c421c7f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: db4a8ef2def05e0b77d272463d7a79f937623b1a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="using-the-biztalk-esb-toolkit-utilities"></a>使用 BizTalk ESB Toolkit 公用程式
 本章節描述各種公用程式的一部分加入[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]。  
@@ -33,17 +33,17 @@ ms.lasthandoff: 09/20/2017
   
  它可以接受各種參數如下所示：  
   
- /？:\<顯示說明的參數 >  
+ /？:\<顯示說明的參數\>  
   
- /f:\<路線 xml 檔案路徑 >  
+ /f:\<路線 xml 檔案路徑\>  
   
- 包裝\<發行 &#124; 部署 >  
+ 包裝\<發行 &#124; 部署\>  
   
- /n:\<預設路線名稱 >  
+ /n:\<預設行程名稱\>  
   
- /v\<預設路線版本 （格式為 'major.minor'） >  
+ /v\<預設路線版本 （格式為 'major.minor'）\>  
   
- /o\<無訊息的覆寫 >  
+ /o\<無訊息的覆寫\>  
   
  以下是如何使用此公用程式的範例。  
   

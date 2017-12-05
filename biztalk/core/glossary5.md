@@ -13,11 +13,11 @@ caps.latest.revision: "68"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 29af2ae479f1927665ddbb3171a64cd5b6ccfe3d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 742b695338d7038f830b823af720bd3048399473
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="glossary"></a>詞彙
 以下是「Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 說明」中所採用的詞彙及其定義。  
@@ -207,8 +207,8 @@ ms.lasthandoff: 09/20/2017
 |----------|----------------|  
 |EDI|請參閱 electronic data interchange (EDI) (電子資料交換)。|  
 |EDIFACT|請參閱 Electronic Data Interchange for Administration, Commerce and Trade (EDIFACT) (管理、商務和商業的電子資料交換)。|  
-|EDIFACT UNOA syntax (EDIFACT UNOA 語法)|僅允許下列的 EDIFACT 語法字元： 大寫字母、 所有數字，保留空白，驚嘆號 （！）、 引號 （"）、 百分比符號 （%）、 連字號 (&)、 左和右括號 ("("and")")、 星號 （*）、 逗號、 虛線 （-），小數點 （.），斜線 （/）、 分號 （;），較不-符號 (\<)，和更新版本-符號 (>)。|  
-|EDIFACT UNOB syntax (EDIFACT UNOB 語法)|僅字元可讓下列的 EDIFACT 語法： 小寫及大寫字母、 所有數字，保留空白，驚嘆號 （！）、 引號 （"）、 百分比符號 （%）、 連字號 (&)、 單一引號 （'）、 左右括號 （"（"和")")、 星號 （*）、 加號 （+）、 逗號、 虛線 （-）、 小數點 （.）、 可轉送斜線 （/）、 冒號 （:）、 分號 （;），較不-符號 (\<)，等號 （=）、 大於-比符號 (>) 和問號 （？）。|  
+|EDIFACT UNOA syntax (EDIFACT UNOA 語法)|僅允許下列的 EDIFACT 語法字元： 大寫字母、 所有數字，保留空白，驚嘆號 （！）、 引號 （"）、 百分比符號 （%）、 連字號 (&)、 左和右括號 ("("and")")、 星號 （*）、 逗號、 虛線 （-），小數點 （.），斜線 （/）、 分號 （;），較不-符號 (\<)，和更新版本-符號 (\>)。|  
+|EDIFACT UNOB syntax (EDIFACT UNOB 語法)|僅字元可讓下列的 EDIFACT 語法： 小寫及大寫字母、 所有數字，保留空白，驚嘆號 （！）、 引號 （"）、 百分比符號 （%）、 連字號 (&)、 單一引號 （'）、 左右括號 （"（"和")")、 星號 （*）、 加號 （+）、 逗號、 虛線 （-）、 小數點 （.）、 可轉送斜線 （/）、 冒號 （:）、 分號 （;），較不-符號 (\<)，等號 （=）、 大於-符號 (\>)，和問號 （？）。|  
 |EIF|請參閱 Engine Input File (EIF) (引擎輸入檔)。|  
 |EIP|請參閱 Enterprise Integration Platform (EIP) (企業應用系統整合平台)。|  
 |electronic data interchange (EDI) (電子資料交換)|兩台電腦應用程式之間已建立結構及標準化文件的電子交換，使用一組標準來控制電腦之間文件的傳輸，例如訂單及發票。|  

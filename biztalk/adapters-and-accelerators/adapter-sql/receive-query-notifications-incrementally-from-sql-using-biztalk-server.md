@@ -12,11 +12,11 @@ caps.latest.revision: "21"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 62b6137964c493ae8dff3c0ab635a3145f2d9348
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6fc9eda3ba1bee61b4737428f41870fc31504e3a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="receive-query-notifications-incrementally-from-sql-using-biztalk-server"></a>使用 BizTalk Server 的 sql 查詢通知以累加的方式接收
 > [!IMPORTANT]
@@ -39,7 +39,7 @@ ms.lasthandoff: 09/20/2017
 |繫結屬性|Description|  
 |----------------------|-----------------|  
 |**InboundOperationType**|指定輸入您想要執行的作業。 若要接收通知訊息，將此設**通知**。|  
-|**NotificationStatement**|指定的 SQL 陳述式 (SELECT 或 EXEC\<預存程序 >) 用於註冊查詢通知。 在結果集為指定的 SQL 陳述式變更時，才配接器從 SQL Server 取得通知訊息。|  
+|**NotificationStatement**|指定的 SQL 陳述式 (SELECT 或 EXEC\<預存程序\>) 用來註冊查詢通知。 在結果集為指定的 SQL 陳述式變更時，才配接器從 SQL Server 取得通知訊息。|  
 |**NotifyOnListenerStart**|指定是否配接器傳送通知給配接器用戶端啟動接聽程式時。|  
   
  如需這些屬性的更完整說明，請參閱[閱讀 BizTalk Adapter for SQL Server 配接器繫結屬性](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md)。 如需完整的說明，如何使用[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]進一步要從 SQL Server 中接收通知，閱讀。  
@@ -317,7 +317,7 @@ Salary = 100000
 -   配接器接收通知訊息類似如下：  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <Notification xmlns="http://schemas.microsoft.com/Sql/2008/05/Notification/">  
       <Info>Insert</Info>   
       <Source>Data</Source>   
@@ -330,7 +330,7 @@ Salary = 100000
 -   在 Select 作業執行配接器。 因為選取的 XML 作業也會包含 Update 陳述式，也會執行 Update 陳述式。 從 SQL Server 的下一個回應是 Select 陳述式。  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <SelectResponse xmlns="http://schemas.microsoft.com/Sql/2008/05/TableOp/dbo/Employee">  
       <SelectResult>  
         <Employee xmlns="http://schemas.microsoft.com/Sql/2008/05/Types/Tables/dbo">  
@@ -347,7 +347,7 @@ Salary = 100000
 -   Select 陳述式的一部分，也會執行 Update 陳述式和新記錄的狀態資料行變更為 1。 這會再次觸發從 SQL Server 的另一個通知和配接器收到對應通知訊息時，類似如下：  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <Notification xmlns="http://schemas.microsoft.com/Sql/2008/05/Notification/">  
       <Info>Update</Info>   
       <Source>Data</Source>   
@@ -360,7 +360,7 @@ Salary = 100000
 -   之後，第二個通知配接器會執行 Select 陳述式。 不過，現在，有狀態為 0，沒有記錄，因為配接器取得空的回應，如下列所示。  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <SelectResponse xmlns="http://schemas.microsoft.com/Sql/2008/05/TableOp/dbo/Employee">  
       <SelectResult />   
     </SelectResponse>  
@@ -369,5 +369,5 @@ Salary = 100000
 ## <a name="best-practices"></a>最佳作法  
  您部署和設定 BizTalk 專案之後，您可以為 XML 檔案，稱為繫結檔案匯出組態設定。 一旦產生繫結檔案時，可以組態設定匯入檔案，使您不需要建立傳送埠和接收相同的協調流程連接埠。 如需繫結檔案的詳細資訊，請參閱[重複使用的 SQL 配接器繫結](../../adapters-and-accelerators/adapter-sql/reuse-sql-adapter-bindings.md)。
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [接收使用 BizTalk Server 的 SQL 查詢通知](../../adapters-and-accelerators/adapter-sql/receive-sql-query-notifications-using-biztalk-server.md)

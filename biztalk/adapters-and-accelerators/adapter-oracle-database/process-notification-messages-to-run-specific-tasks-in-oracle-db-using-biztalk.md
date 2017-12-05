@@ -12,11 +12,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 97fa5f9d0eebeeaf7a7dcb264feb33373e48484d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 379ef13914d7c6136d39e4a394a9299c709785fc
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="process-notification-messages-to-complete-specific-tasks-in-oracle-database-using-biztalk-server"></a>若要完成使用 BizTalk Server 的 Oracle 資料庫中的特定工作的程序通知訊息
 您可以使用[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]接收通知的 Oracle 資料庫資料表的變更。 不過，配接器只會傳送一些記錄已插入、 更新或刪除特定資料庫資料表中的通知。 用戶端應用程式本身必須處理這些記錄的任何後續處理。 本主題顯示如何處理從 Oracle 資料庫接收通知的種類為基礎的資料表中的記錄以案例為基礎的描述。  
@@ -154,7 +154,7 @@ ms.lasthandoff: 09/20/2017
  協調流程中包括 「 運算式 」 圖形的用途是將 xpath 查詢來擷取收到的通知訊息的類型。 在之前建立 xpath 查詢，讓我們看看通知訊息的格式。 典型的通知訊息如下所示：  
   
 ```  
-\<?xml version="1.0" encoding="utf-8" ?>   
+<?xml version="1.0" encoding="utf-8" ?>   
 <Notification xmlns="http://Microsoft.LobServices.OracleDB/2007/03/Notification/">  
   <Details>  
     <NotificationDetails>  
@@ -178,7 +178,7 @@ ms.lasthandoff: 09/20/2017
   
      本主題中，命名為變數**notificationtype 而**。  
   
--   建立 xpath 查詢來擷取的值從\<資訊 > 標記。 Xpath 查詢會如下所示：  
+-   建立 xpath 查詢來擷取的值從\<資訊\>標記。 Xpath 查詢會如下所示：  
   
     ```  
     NotificationType = xpath(NotifyReceive,"string(/*[local-name()='Notification']/*[local-name()='Info']/text())");  
@@ -274,7 +274,7 @@ NotificationType.Equals("Insert") | NotificationType.Equals("Update")
 -   因為**NotifyOnListenerStart**繫結屬性設定為**True**，您會收到下列訊息：  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <Notification xmlns="http://Microsoft.LobServices.OracleDB/2007/03/Notification/">  
       <Info>ListenerStarted</Info>   
       <Source>OracleDBBinding</Source>   
@@ -287,7 +287,7 @@ NotificationType.Equals("Insert") | NotificationType.Equals("Update")
 -   ACCOUNTACTIVITY 資料表中插入記錄。 您會收到通知訊息，如下列所示：  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <Notification xmlns="http://Microsoft.LobServices.OracleDB/2007/03/Notification/">  
       <Details>  
         <NotificationDetails>  
@@ -310,7 +310,7 @@ NotificationType.Equals("Insert") | NotificationType.Equals("Update")
 -   更新 ACCOUNTACTIVITY 資料表中的記錄。 您會收到通知訊息，如下列所示：  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <Notification xmlns="http://Microsoft.LobServices.OracleDB/2007/03/Notification/">  
       <Details>  
         <NotificationDetails>  
@@ -333,7 +333,7 @@ NotificationType.Equals("Insert") | NotificationType.Equals("Update")
 -   從 ACCOUNTACTIVITY 資料表刪除記錄。 您會收到通知訊息，如下列所示：  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <Notification xmlns="http://Microsoft.LobServices.OracleDB/2007/03/Notification/">  
       <Details>  
         <NotificationDetails>  
@@ -359,5 +359,5 @@ NotificationType.Equals("Insert") | NotificationType.Equals("Update")
 ## <a name="performing-complex-operations-after-receiving-notification-messages"></a>執行複雜的作業之後接收通知訊息  
  為了簡化和更佳了解，本主題中的協調流程會將訊息複製到不同的資料夾，根據通知類型。 不過，在真實世界案例中，您可能想要執行更複雜的作業。 您可以執行類似的程序，如本主題和組建，以執行您希望的作業所提供。 例如，您可以變更另一個資料表中插入記錄，如果您收到 ACCOUNTACTIVITY 資料表上插入作業的通知訊息的協調流程。 在這種情況下，您可以進行適當的變更，「 決定 」 圖形內。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [使用 BizTalk Server 接收的 Oracle 資料庫變更通知](../../adapters-and-accelerators/adapter-oracle-database/receive-oracle-database-change-notifications-using-biztalk-server.md)

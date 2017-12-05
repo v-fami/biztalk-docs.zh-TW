@@ -24,11 +24,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8735040dd1cad2df59e18dbb572dad322ec46fcf
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b7427ab96879c54b5a71435576da8a4610787dd6
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="browse-search-and-get-metadata-for-oracle-database-operations"></a>瀏覽、 搜尋和 Oracle 資料庫作業，取得中繼資料
 本節提供有關如何使用資訊[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]， [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]，和[!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]。 使用這些[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]元件，您可以：  
@@ -198,7 +198,7 @@ ms.lasthandoff: 09/20/2017
   
 7.  按一下 **[確定]**。 結構描述檔案會儲存具有.xsd 副檔名為 BizTalk 專案的相同位置。  
   
-     根據預設，檔案會建立命名慣例 」 OracleDBBindingSchema\<n >.xsd"，其中 'n' 可以是 1、 2，依此類推，依照建立的結構描述檔案的數目。 或者，您可以提供自訂結構描述檔案名稱中輸入名稱**檔案名稱前置詞**文字方塊。 [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]現在建立結構描述檔案命名慣例\<檔案名稱前置詞 > 結構描述\<n >.xsd。  
+     根據預設，檔案會建立命名慣例 」 OracleDBBindingSchema\<n\>.xsd"，其中 'n' 可以是 1、 2，依此類推，依照建立的結構描述檔案的數目。 或者，您可以提供自訂結構描述檔案名稱中輸入名稱**檔案名稱前置詞**文字方塊。 [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]現在建立結構描述檔案命名慣例\<檔案名稱前置詞\>結構描述\<n\>.xsd。  
   
     > [!NOTE]
     >  [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]也會建立包含時指定的繫結屬性的繫結檔案 （XML 檔案） 產生的結構描述的作業和要叫用作業的 SOAP 動作。 您可以匯入此繫結檔案，在 BizTalk Server 管理主控台中，建立 WCF 自訂連接埠與連接 URI，繫結屬性和設定的 SOAP 動作。 如需詳細資訊，請參閱[設定使用 Oracle 資料庫的連接埠繫結檔案的實體連接埠繫結](../../adapters-and-accelerators/adapter-oracle-database/configure-a-physical-port-binding-using-a-port-binding-file-to-oracle-database.md)。  
@@ -253,5 +253,5 @@ ms.lasthandoff: 09/20/2017
   
  您可以選取任何節點中所列**可用的類別和作業**方塊。 如果您選取類別目錄節點，則會選取所有適用於該節點和其子節點的作業。 比方說，若要產生 WCF 用戶端的所有 EMP 資料表中顯示的作業，您可以選取 [EMP] 節點中。若要產生 WCF 用戶端的所有資料表 SCOTT 結構描述中，您可以選取資料表節點;等等。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [取得 Visual Studio 中的 Oracle 資料庫作業的中繼資料](../../adapters-and-accelerators/adapter-oracle-database/get-metadata-for-oracle-database-operations-in-visual-studio.md)

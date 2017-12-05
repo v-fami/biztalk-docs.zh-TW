@@ -12,11 +12,11 @@ caps.latest.revision: "24"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3336d472326dc5ceb8c17e30150039229c18cb77
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: de196288f3f1d4475e6859e2440e4b03b1e521dc
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="modifying-edi-schemas"></a>修改 EDI 結構描述
 您可以修改 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中現有的 EDI 結構描述。 當您和交易夥伴都同意修改標準結構描述，而且可能還變更了相關的「訊息實作指南」(Message Implementation Guideline，MIG) 檔案，您可以使用 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 的 [BizTalk 編輯器] 來修改該結構描述。  
@@ -50,7 +50,7 @@ ms.lasthandoff: 09/20/2017
 |新增觸發欄位至 HIPAA 文件|您可以允許 EDI 解譯器使用稱為觸發欄位的合格項目，為 HIPAA 文件建立唯一的 XML 記錄。 您必須指定描述區段的屬性與觸發值，才能為區段建立唯一的 XML 記錄。 如需詳細資訊，請參閱[HIPAA 結構描述的觸發程序欄位註解](../core/hipaa-schema-trigger-field-annotations.md)。|  
 |新增區段至 X12 交易集|當您新增區段至 X12 交易集時，會使用區段名稱的前 3 個字元做為區段識別碼。 因此，建議您命名區段時，必須讓前 3 個字元是唯一的。|  
 |新增迴圈至 HIPAA 交易集|當您新增迴圈至 HIPAA 交易集時，建議您在迴圈名稱中包含 “Loop”。 迴圈的範例格式為 “TS837_2010AB_Loop”。 **注意：**在迴圈中的第一個區段是必要的 （區段的 minOccurs 必須等於 1） 若要避免模稜兩可。|  
-|新增 ‘any order loop’ 至 HIPAA 交易集|當交易集有多個相同區段具有不同語意時，您必須在子迴圈中定義它們。 使用 XML 註解的岐\<xs: all > 可讓相同的區段以任何順序出現。<br /><br /> 建議您在 ‘any order loop’ 的迴圈名稱中包含 “SubLoop”。 範例格式為"TS837Q1_2010A_SubLoop"**附註：**的 any order loop 項目必須只能出現一次迴圈內。 為避免岐義，子迴圈的同層級項目必須將 maxOccurs 設為 1。|  
+|新增 ‘any order loop’ 至 HIPAA 交易集|當交易集有多個相同區段具有不同語意時，您必須在子迴圈中定義它們。 使用 XML 註解的岐\<xs: all\>允許以任何順序出現相同的區段。<br /><br /> 建議您在 ‘any order loop’ 的迴圈名稱中包含 “SubLoop”。 範例格式為"TS837Q1_2010A_SubLoop"**附註：**的 any order loop 項目必須只能出現一次迴圈內。 為避免岐義，子迴圈的同層級項目必須將 maxOccurs 設為 1。|  
   
 ### <a name="to-modify-an-existing-edi-schema-in-biztalk-editor"></a>若要用 BizTalk 編輯器來修改現有的 EDI 結構描述  
   
@@ -70,14 +70,14 @@ ms.lasthandoff: 09/20/2017
   
 5.  若要加入自訂的記錄結構描述，以滑鼠右鍵按一下主控台樹狀目錄中的結構描述編輯器中的記錄節點，指向**插入結構描述節點**，然後按一下 **子記錄**。 為該記錄命名，然後將它拖曳到結構描述中的適當位置。 將至少一個資料元素加入至該記錄。 視需要設定自訂記錄的屬性。  
   
-6.  後結構描述完成所需的變更，您可以變更按一下根節點會套用到結構描述屬性的目標命名空間 (\<結構描述 >)，然後變更**目標命名空間**屬性。  
+6.  後結構描述完成所需的變更，您可以變更按一下根節點會套用到結構描述屬性的目標命名空間 (\<結構描述\>)，然後變更**目標命名空間**屬性。  
   
 7.  儲存結構描述。  
   
 8.  驗證結構描述，以滑鼠右鍵按一下方案總管 中的結構描述，然後按一下**驗證結構描述**。  
   
     > [!NOTE]
-    >  **驗證結構描述**命令將會驗證 EDI 結構描述，因為**Schema Editor Extension**根節點的屬性 (\<結構描述 >) 設定為**EDI 結構描述編輯器延伸模組**。  
+    >  **驗證結構描述**命令將會驗證 EDI 結構描述，因為**Schema Editor Extension**根節點的屬性 (\<結構描述\>) 設定為**EDI結構描述編輯器延伸模組**。  
   
 ### <a name="to-modify-annotation-properties-in-an-existing-edi-schema"></a>若要修改現有 EDI 結構描述中的註解屬性  
   
@@ -88,7 +88,7 @@ ms.lasthandoff: 09/20/2017
     1.  在頂端的結構描述 appinfo 註解，設定欄位交互驗證旗標 (任一**X12ConditionDesignator_Check** X12 或 HIPAA 結構描述或**EdifactDependencyRule_Check** edifact結構描述） 至**是**。  
   
         > [!NOTE]
-        >  將欄位交互驗證旗標**是**預設[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]HIPAA 結構描述。  
+        >  將欄位交互驗證旗標**是**依預設，BizTalk Server HIPAA 結構描述。  
   
     2.  在特定項目的註解中，針對該項目指定關係條件 (X12 或 HIPAA) 或相依性規則 (EDIFACT)。 如需有關這些設定的詳細資訊，請參閱[跨欄位區段驗證](../core/cross-field-segment-validation.md)。  
   
@@ -104,5 +104,5 @@ ms.lasthandoff: 09/20/2017
         > [!NOTE]
         >  在**本機主機設定**頁面 (下**交換設定**區段) 的單向協議索引標籤**協議屬性**針對相關的對話方塊協議，請確定**輸入批次處理選項**屬性設定為**將交換分割為交易集**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [開發 EDI 結構描述](../core/developing-edi-schemas.md)

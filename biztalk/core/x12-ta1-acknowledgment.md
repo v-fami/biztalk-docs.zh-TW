@@ -12,16 +12,16 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8547175461732e41248e1e94bf961f95e655890f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f6a3de45744b40335999c1471165ff851ec60664
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="x12-ta1-acknowledgment"></a>X12 TA1 通知
 X12 TA1 技術通知會報告位址接收者對交換標頭和結尾的處理狀態。 包括 X12 編碼訊息的 ISA 和 IEA 何時有效，何時有傳出正的 TA1 ACK，以及任何的其他內容狀態。 若結果為否，就會傳送包含錯誤碼的 TA1 ACK。  
   
- X12 TA1 通知會與 x12_<\<版本號碼 > _TA1.xsd 結構描述。 此 TA1 ACK 會以 ISA/IEA 信封傳送。 其中的 ISA 和 IEA 與任何其他交換的 ISA 和 IEA 完全相同。  
+ X12 TA1 通知會與 x12_<\<版本號碼\>_TA1.xsd 結構描述。 此 TA1 ACK 會以 ISA/IEA 信封傳送。 其中的 ISA 和 IEA 與任何其他交換的 ISA 和 IEA 完全相同。  
   
  下表列出在 TA1 ACK 交換內的區段。  
   

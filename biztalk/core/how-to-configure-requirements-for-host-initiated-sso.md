@@ -31,11 +31,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f9f8a004c1883a05c3fcf60324f428144591cff4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 20b14539edc6b9b1026ca048feb881ce0d8a6d1e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-configure-requirements-for-host-initiated-sso"></a>如何設定主控件初始化的 SSO 的需求
 雖然 Enterprise SSO 與主控件初始化的 SSO 在某些方面有共同的特點，但是某些平台和 Active Directory 需求對於主控件初始化的 SSO 而言則是唯一的。 本主題將討論這些需求，並列出在系統上檢查或建立它們的步驟。  
@@ -66,7 +66,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  在**執行**] 對話方塊中，輸入**cmd**，然後按一下 [**確定**。  
   
-4.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機 >: \Program Files\Common Files\Enterprise Single Sign-on。  
+4.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
 5.  型別**setpsn-a hipsvc\computername.domain.com domain\hissvc**  
   
@@ -80,5 +80,5 @@ ms.lasthandoff: 09/20/2017
   
      如需有關 Kerberos 通訊協定轉換與限制委派的詳細資訊，請移至[http://go.microsoft.com/fwlink/?LinkId=195484](http://go.microsoft.com/fwlink/?LinkId=195484)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [主控件初始化的 SSO](../core/host-initiated-sso.md)

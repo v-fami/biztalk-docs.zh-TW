@@ -12,11 +12,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d97c2f58639814bda45a23c115fea0c3708c2579
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1ea9d5e9cab7cedf0a4d83ac19b2e241f6776209
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-3b-add-a-fileact-receive-location-for-the-fileact-real-time-scenario"></a>步驟 3B： 新增 FILEACT 接收位置 FileAct 即時案例
 在開始此步驟之前，必須先完成[步驟 3A: FILE 接收位置新增 FileAct 即時案例](../../adapters-and-accelerators/fileact-interact/step-3a-add-a-file-receive-location-for-the-fileact-real-time-scenario.md)。  
@@ -41,13 +41,13 @@ ms.lasthandoff: 09/20/2017
     |------------------|--------------------|  
     |**密碼**|輸入您用來連接到 SAG 的密碼。 如需詳細資訊，請參閱 SAG 說明。|  
     |**使用者名稱**|輸入您用來連接到 SAG 的使用者名稱。|  
-    |**應用程式名稱**|輸入伺服器\<應用程式的介面名稱 > 的 SAG 方塊路由的集合。|  
+    |**應用程式名稱**|輸入伺服器\<應用程式的介面名稱\>SAG 的方塊路由的集合。|  
     |**密碼編譯模式**|從下拉式清單選取**進階**。|  
     |**FACrypto 模式**|從下拉式清單選取**進階**。|  
     |**記錄訊息**|從下拉式清單選取**TRUE**。 這可讓要擷取，並在 BAM 入口網站中追蹤的訊息事件。|  
     |**MemberRef**|從下拉式清單選取**ResponsePayload**。|  
     |**不可否認性指標**|從下拉式清單選取**FALSE**。|  
-    |**回應者**|輸入適當\<回應 > SWIFT 與您佈建為基礎的字串。|  
+    |**回應者**|輸入適當\<回應\>SWIFT 與您佈建為基礎的字串。|  
     |**ResponseCrypto**|從下拉式清單選取**FALSE**。|  
     |**通知標記**|從下拉式清單選取**ResponsePayload**。|  
     |**FileCompression**|從下拉式清單選取**無**。|  
@@ -76,9 +76,9 @@ ms.lasthandoff: 09/20/2017
   
 10. 按一下 **[確定]**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [步驟 3： 建立傳送埠和接收埠以進行 FileAct 即時案例](../../adapters-and-accelerators/fileact-interact/step-3-create-the-send-ports-and-receive-ports-for-fileact-real-time-scenario.md)   
  [步驟 3A： 新增 FILE 接收位置 FileAct 即時案例](../../adapters-and-accelerators/fileact-interact/step-3a-add-a-file-receive-location-for-the-fileact-real-time-scenario.md)   
  [步驟 3c： 加入擷取 FileAct 即時案例 Sw:HandleRequest 訊息的 FILE 傳送埠](../../adapters-and-accelerators/fileact-interact/step-3c-add-file-send-port-to-get-sw-handlerequest-message-for-fileact.md)   
  [步驟 3D: FileAct 即時案例新增 FILEACT 傳送埠](../../adapters-and-accelerators/fileact-interact/step-3d-add-a-fileact-send-port-for-the-fileact-real-time-scenario.md)   
- [步驟 3E： 加入擷取 FileAct 即時案例 Sw:ExchangeFileResponse 訊息的 FILE 傳送埠](../../adapters-and-accelerators/fileact-interact/step-3e-add-file-send-port-to-get-sw-exchangefileresponse-message-for-fileact.md)
+ [步驟 3E：針對 FileAct 即時案例新增 FILE 傳送埠以擷取 Sw:ExchangeFileResponse 訊息](../../adapters-and-accelerators/fileact-interact/step-3e-add-file-send-port-to-get-sw-exchangefileresponse-message-for-fileact.md)

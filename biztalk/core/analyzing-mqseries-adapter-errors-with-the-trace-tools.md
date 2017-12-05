@@ -22,11 +22,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f8880197e58f6a499cc63e8b6ec89f67af9f0086
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b53d1d2c0bbe19c54804b553041f8dc9ae4db20c
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="analyzing-mqseries-adapter-errors-with-the-trace-tools"></a>使用追蹤工具分析 MQSeries 配接器錯誤
 您可以使用追蹤工具來分析執行應用程式時的傳訊失敗。 透過 MQSeries 配接器，您必須使用兩個工具，一個是供配接器及您的 BizTalk 應用程式使用的工具 (trace.cmd)，另一個則是供 MQSAgent 使用的工具 (MQSTrace.cmd)。 這兩種工具都會使用 tracelog.exe。 如果尚未安裝 tracelog.exe，您就必須安裝該檔案。  
@@ -55,7 +55,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="enable-the-trace-utility"></a>啟用追蹤公用程式  
  若要啟用 BizTalk Server 中的「BizTalk 配接器追蹤公用程式」，請依照下列步驟：  
   
-1.  移到包含 trace.cmd 的目錄。 預設位置是 Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 目錄。  
+1.  移到包含 trace.cmd 的目錄。 預設位置是 Microsoft BizTalk Server 目錄。  
   
 2.  輸入下列命令，並將括號括住的目錄以您電腦上包含 tracelog.exe 檔案的目錄替代，然後按 ENTER。  
   

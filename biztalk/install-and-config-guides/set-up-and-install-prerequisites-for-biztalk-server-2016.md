@@ -5,7 +5,7 @@ author: MandiOhlinger
 manager: anneta
 ms.prod: biztalk-server
 ms.custom: 
-ms.date: 08/15/2017
+ms.date: 11/30/2017
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -13,16 +13,16 @@ ms.topic: article
 ms.assetid: aa70b621-903a-4cfa-9cb0-c6a82ed8f733
 caps.latest.revision: "11"
 ms.author: mandia
-ms.openlocfilehash: bee25a841d7f434fd5366f483b0b5544462d29fd
-ms.sourcegitcommit: 5355a25d120d094778fb8f68ea14cab55c68d292
+ms.openlocfilehash: 2f03aaf7d33cc494320d1ef0944b48286bc1b24c
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="set-up-and-install-prerequisites-for-biztalk-server-2016"></a>設定及安裝 BizTalk Server 2016 的必要元件
 設定伺服器，以及安裝與設定軟體必要條件。
 
-## <a name="join-the-local-administrators-group"></a>加入本機系統管理員群組
+## <a name="join-the-administrators-group"></a>加入系統管理員群組
 若要安裝與設定 BizTalk Server，請登入本機電腦上使用系統管理員帳戶的伺服器。 將任何管理 BizTalk Server 的使用者帳戶加入本機系統管理員群組︰
 
 1.  在 [開始] 功能表中，開啟 [電腦管理]。
@@ -33,8 +33,8 @@ ms.lasthandoff: 09/28/2017
 2.  展開 [本機使用者和群組]，然後選取 [群組]。
 3.  以滑鼠右鍵按一下**系統管理員**群組，並選取 [加入群組]。 [新增] 您的帳戶，然後選取 [確定] 儲存變更。 
 
-## <a name="change-the-computer-name-to-less-than-15-characters-optional"></a>將電腦名稱變更為少於 15 個字元 (選擇性)
-如果您的電腦名稱長度超過 15 個字元，BizTalk Server 組態失敗。 變更電腦名稱︰
+## <a name="change-the-computer-name-optional"></a>變更電腦名稱 （選用）
+如果您的電腦名稱長度超過 15 個字元，BizTalk Server 組態失敗。 若要變更電腦名稱不超過 15 個字元：
 
 1.  在 [伺服器管理員] > [儀表板] 中，選取 [本機伺服器]。 
 2.  在 [內容] 中選取電腦名稱屬性予以變更。
@@ -61,7 +61,7 @@ ms.lasthandoff: 09/28/2017
 
 如需可能需要的其他設定，請參閱 [MSDTC 問題疑難排解](../core/troubleshooting-problems-with-msdtc.md)。
 
-## <a name="configure-the-application-event-log-optional"></a>設定應用程式事件記錄檔 （選擇性）
+## <a name="configure-application-event-log-optional"></a>設定應用程式事件記錄檔 （選擇性）
 
 BizTalk Server 安裝程式會將事件記錄保留在應用程式事件記錄檔中。 隨安裝的 BizTalk Server 功能而定，記錄檔需要的空間量可能會超過其限制。 如果應用程式事件記錄檔在安裝期間用盡空間，安裝就會失敗。 變更應用程式事件記錄檔設定可防止此失敗。
 
@@ -79,7 +79,7 @@ BizTalk Server 安裝程式會將事件記錄保留在應用程式事件記錄�
 
 4. 選取 [確定]。
 
-## <a name="edge-cant-be-opened-using-the-built-in-administrator-account-optional"></a>無法開啟邊緣，使用內建系統管理員帳戶 （選擇性）
+## <a name="edge-cant-be-opened-optional"></a>邊緣無法開啟 （選擇性）
 
 當使用 Edge 時，會顯示下列訊息︰  
 `Microsoft Edge can't be opened using the Built-in Administrator account. Sign in with a different account and try again.`
@@ -98,7 +98,7 @@ BizTalk Server 安裝程式會將事件記錄保留在應用程式事件記錄�
 1. 在 [開始] 功能表中，開啟 [Windows Update] 並檢查更新。 您也可以開啟 [設定]，然後選取 [更新與安全性]。
 2. 安裝更新之後，您可能需要重新啟動電腦。
 
-## <a name="enable-internet-information-services-iis"></a>啟用 Internet Information Services (IIS)
+## <a name="enable-iis"></a>啟用 IIS
 BizTalk Server 的下列功能需要 IIS：
 
 - HTTP 配接器
@@ -140,7 +140,7 @@ IIS 是隨附於作業系統的**角色**或**功能**，視作業系統而定�
 **另請參閱**︰在 [Windows 8 或 Windows Server 2012 (英文)](http://www.iis.net/learn/get-started/whats-new-in-iis-8/installing-iis-8-on-windows-server-2012) 上安裝 IIS。
 
 
-## <a name="running-the-bam-portal-in-a-64-bit-environment-optional"></a>在 64 位元環境中執行 BAM 入口網站 (選擇性)
+## <a name="run-64-bit-bam-portal-optional"></a>執行 64 位元 BAM 入口網站 （選用）
 如果您不使用 BAM 入口網站，然後您可以略過本節。 
 
 BAM 入口網站在 32 位元模式中執行。 如果您在 64 位元環境中使用網際網路資訊服務 (IIS)，然後設定在 32 位元模式中執行的應用程式集區。 
@@ -167,7 +167,7 @@ Windows Identity Foundation 是隨附於作業系統的**功能**。
 2. 選取 **Windows Identity Foundation 3.5** 並繼續安裝作業。 
 3. 出現提示時，請重新啟動電腦。
 
-## <a name="install-and-configure-smtp-server-optional"></a>安裝及設定 SMTP 伺服器 (選擇性)
+## <a name="install--configure-smtp-server-optional"></a>安裝及設定 SMTP 伺服器 （選擇性）
 如果您使用 BAM 警示時，BizTalk Server 需要 SMTP 伺服器。 如果不使用 BAM 警示，您可以略過本節。
 
 SQL Server Database Mail 使用 SMTP 伺服器傳送 BAM 警示。 SMTP 伺服器可以安裝在本機 BizTalk Server 上，或安裝在安裝了 IIS 的另一部伺服器上。 Windows 8.1 或 Windows 10 等用戶端作業系統無法使用 SMTP 伺服器。 
@@ -178,7 +178,7 @@ SMTP 伺服器是隨附於伺服器作業系統的**功能**。
 2. 選取 [SMTP 伺服器] 並繼續安裝作業。 
 3. 出現提示時，請重新啟動電腦。
 
-## <a name="install-microsoft-office-excel-2016-or-excel-2013-optional"></a>安裝 Microsoft Office Excel 2016 或 Excel 2013 (選擇性)
+## <a name="install-excel-2016-or-2013-optional"></a>安裝 Excel 2016 或 2013 （選擇性）
 如果您使用商務活動監控 (BAM)，BizTalk Server 需要 Excel。 如果不使用 BAM，您可以略過本節。
 
 BAM Office Excel 活頁簿可定義您想監控的商務程序。 您也可以使用 BAM Excel 活頁簿，來定義商務使用者應透過何種方式來查看 BAM 所收集的資料。
@@ -317,7 +317,7 @@ BizTalk Server 執行階段、系統管理工具和 BAM 的必要項目。
 
 下載並安裝[SqlXml 4.0](https://www.microsoft.com/download/details.aspx?id=30403)。
 
-## <a name="configure-sql-server-database-mail-optional"></a>設定 SQL Server Database Mail (選擇性)
+## <a name="configure-sql-database-mail-optional"></a>設定 SQL Database Mail （選擇性）
 如果您使用 BAM 警示時，BizTalk Server 需要 SQL Server Database Mail。 如果不使用 BAM 警示，您可以略過本節。 
 
 **另請參閱**︰更多 [Database Mail](https://docs.microsoft.com/sql/relational-databases/database-mail/database-mail) 資訊。

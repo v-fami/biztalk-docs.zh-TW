@@ -19,11 +19,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6030b711e0fd48d2632ff84428e1cb9ffc6e0402
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 466917e0656dfa39467a00dfa91285b3cb7cf1a1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="importing-certificates-using-mmc"></a>使用 MMC 匯入憑證
 本主題描述如何匯入的數位憑證[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]用以驗證交易夥伴、 解密內送訊息，或是加密或簽署外寄訊息。  
@@ -54,12 +54,12 @@ ms.lasthandoff: 09/20/2017
   
 1.  將私密金鑰 (.pfx) 憑證檔案複製到目的伺服器硬碟上的位置。  
   
-2.  按一下**啟動**，按一下**執行**，類型**執行身分 /user:\<裝載服務 > mmc**，然後按一下  **確定**。  
+2.  按一下**啟動**，按一下**執行**，類型**執行身分 /user:\<裝載服務\>mmc**，然後按一下  **確定**。  
   
     > [!NOTE]
-    >  如\<*裝載服務*>，輸入您在安裝時已自動選取的主機服務的服務名稱[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]。  
+    >  如\<*裝載服務*\>，輸入您在安裝時已自動選取的主機服務的服務名稱[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]。  
   
-3.  輸入的密碼\<*裝載服務*>，然後按下**Enter**。  
+3.  輸入的密碼\<*裝載服務*\>，然後按下**Enter**。  
   
 4.  在[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]管理主控台] 視窗上**檔案**功能表上，按一下 [**新增/移除嵌入式管理單元**。  
   
@@ -81,6 +81,6 @@ ms.lasthandoff: 09/20/2017
   
 13. 在**完成憑證匯入精靈**頁面上，按一下**完成**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [設定使用 MMC 匯入的憑證](../../adapters-and-accelerators/accelerator-rosettanet/configuring-certificates-imported-using-mmc.md)   
  [CertWizard](../../adapters-and-accelerators/accelerator-rosettanet/certwizard.md)

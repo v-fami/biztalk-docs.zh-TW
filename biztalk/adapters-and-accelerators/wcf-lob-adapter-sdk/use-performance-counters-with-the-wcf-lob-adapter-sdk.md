@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ead07059cac11f251d35fae18f0e228c4488c07a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6bfff208920b25ee1a22aa2c3c74feeba42f4b43
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="use-performance-counters-with-the-wcf-lob-adapter-sdk"></a>使用效能計數器，與 WCF LOB 配接器 SDK
 您可以使用 [效能] 工具會自動收集效能資料，從本機或遠端電腦執行[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。 您可以定義開始和停止時間，來自動產生記錄檔，從單一主控台視窗中，管理多個記錄工作階段，然後設定可讓要傳送訊息的電腦上的記錄檔，以符合您的準則時啟動的警示。 本主題討論的效能計數器[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。  
@@ -24,7 +24,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="performance-objects-and-counters"></a>效能物件和計數器  
  當您安裝[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]，已安裝名為"ServiceModel 配接器 」 的單一效能物件。 效能物件包含許多不同的效能計數器。 效能物件會測量特定的資源、 應用程式或服務的活動。 效能物件和計數器取得計數器的效能資料[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]、 功能、 和服務電腦上相同的方式。 此效能資料通常會命名為元件所產生的資料。 效能計數器可用來收集特定資訊或指定的效能物件的資料。  
   
- 當選取計數器的 ServiceModel 配接器效能物件中，您可以選擇只從選取的執行個體清單中選取執行個體來監視資訊的特定配接器執行個體。 每個配接器執行個體將會列在格式\<ProcessId > @\<ConnectionString >。 比方說， 115@echo:&#124; &#124; 主機 &#124; temp？ echoprefix = 前表示回應配接器執行個體處理序 115 中執行。  
+ 當選取計數器的 ServiceModel 配接器效能物件中，您可以選擇只從選取的執行個體清單中選取執行個體來監視資訊的特定配接器執行個體。 每個配接器執行個體將會列在格式\<ProcessId\>@\<ConnectionString\>。 比方說， 115@echo:&#124; &#124; 主機 &#124; temp？ echoprefix = 前表示回應配接器執行個體處理序 115 中執行。  
   
  在 WCF 中的效能計數器的相關資訊，請參閱[WCF 效能計數器](https://msdn.microsoft.com/library/ms735098.aspx)。
   
@@ -56,5 +56,5 @@ ms.lasthandoff: 09/20/2017
 |傳出呼叫|從配接器到目標系統進行傳出呼叫的數目。|  
 |輸出 Calls/sec|傳出呼叫每秒從配接器到目標系統的數目。|  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [使用 WCF LOB 配接器 SDK 所建立的配接器進行疑難排解](../../adapters-and-accelerators/wcf-lob-adapter-sdk/troubleshoot-adapter-created-using-the-wcf-lob-adapter-sdk.md)

@@ -16,11 +16,11 @@ caps.latest.revision: "20"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 099a2b8f3d914297529a192def9e5c23a49d31af
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c80a01aa9b4bd19581cb97f7fee127fc244322d4
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-list-user-accounts-with-access-to-a-view"></a>如何列出具有檢視之存取權限的使用者帳戶
 系統管理員使用**get 帳戶**BAM 管理公用程式命令，以取得清單檢視角色，這表示所有使用者帳戶存取特定檢視的所有使用者帳戶。  
@@ -33,13 +33,13 @@ ms.lasthandoff: 09/20/2017
   
 2.  瀏覽至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]追蹤  
   
-3.  型別**bm get 帳戶-檢視：\<檢視名稱 >**。  
+3.  型別**bm get 帳戶-檢視：\<檢視名稱\>**。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
   
 4.  按 ENTER 鍵。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理 BAM 動態基礎結構](../core/managing-the-bam-dynamic-infrastructure.md)   
  [BAM 管理公用程式](../core/bam-management-utility.md)

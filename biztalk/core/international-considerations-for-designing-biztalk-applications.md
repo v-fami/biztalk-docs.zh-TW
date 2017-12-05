@@ -12,11 +12,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 94c1c3c6430b049d98444349394eff05eeb21561
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7ef22467c18580219e8587d63017d8bf146090d4
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="international-considerations-for-designing-biztalk-applications"></a>設計 BizTalk 應用程式的國際化考量
 強烈建議您在開發國際化 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 應用程式時，最好先檢閱下列已知問題。  
@@ -45,7 +45,7 @@ ms.lasthandoff: 09/20/2017
   
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 支援 XML 和一般檔案文件的許多不同編碼方式，例如 UTF-16、UTF-8、簡體中文 (GBK)、簡體中文 (GB18030) 等等。  
   
- 輸入文件，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]可以辨識的編碼方式宣告在 XML 文件，例如"\<？ xml 版本 ="1.0"encoding ="GB2312"？ >"。 一般檔案結構描述具有**字碼頁**屬性，表示內送一般檔案文件的編碼方式。  
+ 輸入文件，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]可以辨識的編碼方式宣告在 XML 文件，例如"\<？ xml 版本 ="1.0"encoding ="GB2312"？\>"。 一般檔案結構描述具有**字碼頁**屬性，表示內送一般檔案文件的編碼方式。  
   
  輸出文件、 XML 和一般檔案組合器使用**目標字元集**屬性。 如果指定了這個屬性，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會將輸出文件轉換成指定的字元集，而不論原始的字元集為何。 如果沒有**目標字元集**屬性設定，XML 會使用 utf-8 通訊協定和一般檔案會使用一般檔案結構描述中指定的字碼頁。  
   
@@ -78,7 +78,7 @@ ms.lasthandoff: 09/20/2017
 > [!NOTE]
 >  除非所有的語言都使用相同的字碼頁，或只使用兩種語言且其中之一為英文，否則 BAM 定義 XML 檔不可包含多種語言的文字。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [實作管線元件中的字元編碼方式](../core/implementing-character-encoding-in-a-pipeline-component.md)   
  [處理解譯器管線元件中的編碼](../core/handling-encoding-in-a-disassembler-pipeline-component.md)   
  [一般檔案解譯器管線元件中的字元編碼](../core/character-encoding-in-the-flat-file-disassembler-pipeline-component.md)   

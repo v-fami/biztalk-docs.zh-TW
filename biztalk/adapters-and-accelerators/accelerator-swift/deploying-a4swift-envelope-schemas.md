@@ -17,11 +17,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4d47fb5f072be8969df61b0e384c700b7b0ddffb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a8811f1dd056ca5a4ea4582d593af30e2ffc879f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="deploying-a4swift-envelope-schemas"></a>部署 A4SWIFT 信封結構描述
 每當您設定 Message Repair 和 New Submission 時，您必須在結構描述專案中包含信封結構描述。 信封結構描述，例如 EnvelopeMT103.xsd，才能寫入 MRSR 網站。  
@@ -47,13 +47,13 @@ ms.lasthandoff: 09/20/2017
   
 3.  在 [加入參考] 對話方塊中，按一下**瀏覽**標記。  
   
-4.  在 [選取元件] 對話方塊中，開啟**查看**下拉式清單。 移至 ***\<磁碟機 >*: \Program Files\Microsoft BizTalk Accelerator for SWIFT\<版本 > 訊息 Pack\Assemblies**。 選取**Microsoft.Solutions.FinancialServices.SWIFT.RuntimeSchemas.dll**從組件，然後再按一下清單**新增**。  
+4.  在 [選取元件] 對話方塊中，開啟**查看**下拉式清單。 移至 ***\<磁碟機\>*: \Program Files\Microsoft BizTalk Accelerator for SWIFT\<版本\>訊息 Pack\Assemblies**。 選取**Microsoft.Solutions.FinancialServices.SWIFT.RuntimeSchemas.dll**從組件，然後再按一下清單**新增**。  
   
 5.  在**加入參考**對話方塊中，按一下 **確定**。  
   
 6.  以滑鼠右鍵按一下您的專案，指向**新增**，然後按一下 **加入現有項目**。  
   
-7.  在 [新增現有的項目] 對話方塊中**查看**下拉式清單方塊中，移至**\<磁碟機 >: files\ Microsoft BizTalk Accelerator for SWIFT\<版本 > 郵件 Pack\SWIFT 訊息\A4SWIFT-SRG\<版本 > \Categoryn\MTxxx**。 例如，選取信封結構描述， **EnvelopeMT103.xsd**，然後按一下 **新增**。  
+7.  在 [新增現有的項目] 對話方塊中**查看**下拉式清單方塊中，移至**\<磁碟機\>: files\ Microsoft BizTalk Accelerator for SWIFT\<版本\>訊息 Pack\SWIFT Messages\A4SWIFT SRG\<版本\>\Categoryn\MTxxx**。 例如，選取信封結構描述， **EnvelopeMT103.xsd**，然後按一下 **新增**。  
   
      在 [新增現有的項目] 對話方塊中**查看**下拉式清單方塊中，移至。 選取信封結構描述，例如 EnvelopeMT103.xsd，然後按一下 [新增]。  
   
@@ -62,7 +62,7 @@ ms.lasthandoff: 09/20/2017
   
 8.  在 方案總管 中，以滑鼠右鍵按一下您的專案，指向**新增**，然後按一下 **加入現有項目**。  
   
-9. 如果使用 Message Repair 和 New Submission 功能，在 [加入現有項目] 對話方塊中**查看**下拉式清單方塊中，移至  **\<*磁碟機*>: \Microsoft BizTalk Accelerator for SWIFT\<版本 > 訊息 Pack\SWIFT Messages\A4SWIFT SRG\<版本 > \Unparsed 訊息 * *。 選取**EnvelopeUnparsedMessage.xsd**，然後按一下 **新增**。  
+9. 如果使用 Message Repair 和 New Submission 功能，在 [加入現有項目] 對話方塊中**查看**下拉式清單方塊中，移至  **\<*磁碟機*\>: \Microsoft BizTalk Accelerator for SWIFT\<版本\>訊息 Pack\SWIFT Messages\A4SWIFT SRG\<版本\>\Unparsed 訊息 * *。 選取**EnvelopeUnparsedMessage.xsd**，然後按一下 **新增**。  
   
 10. 在 [方案總管] 中，以滑鼠右鍵按一下專案名稱，然後**建置**。  
   

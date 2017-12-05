@@ -13,11 +13,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 730038af616cfbec75a9d7e6c4b77b3097b2b9ca
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b932ab2f179faab1381609c007dcdd148f200f7e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-10-verify-the-interrogative-scenario"></a>步驟 10： 確認 Interrogative 案例
 在此步驟中，您可以確認端對端案例本教學課程。  
@@ -26,15 +26,15 @@ ms.lasthandoff: 09/20/2017
   
 1.  開啟命令提示字元。  
   
-2.  在命令提示字元中，移至  **\<*磁碟機*>: \Program Files\Microsoft BizTalk\<版本 > Accelerator for HL7\SDK\MLLP 公用程式 * *。  
+2.  在命令提示字元中，移至  **\<*磁碟機*\>: \Program Files\Microsoft BizTalk\<版本\>Accelerator for HL7\SDK\MLLP 公用程式 **.  
   
 3.  在命令提示字元中，輸入**MllpReceive/P 24000**，然後按下**Enter**。 這會執行接聽連接埠 24000 MLLP 接聽應用程式，並顯示螢幕收到任何訊息。 此應用程式會模擬醫院資訊系統。  
   
 4.  開啟額外的命令提示字元。  
   
-5.  在第二個 [命令提示字元] 視窗中，移至  **\<*磁碟機*>: \Program Files\Microsoft BizTalk\<版本 > Accelerator for HL7\SDK\MLLP 公用程式 * *。  
+5.  在第二個 [命令提示字元] 視窗中，移至  **\<*磁碟機*\>: \Program Files\Microsoft BizTalk\<版本\>Accelerator for HL7\SDK\MLLP 公用程式 * *。  
   
-6.  在第二個命令提示字元中，輸入 **MllpSend /SB 11 /EB 28 /CR 13/TWOWAY/P 22000 /F"\<*磁碟機*>: \Program Files\Microsoft BizTalk\<版本 > Accelerator for HL7\SDK\Interrogative Tutorial\QRY^Q01.txt**，然後按下**Enter。**  
+6.  在第二個命令提示字元中，輸入 **MllpSend /SB 11 /EB 28 /CR 13/TWOWAY/P 22000 /F"\<*磁碟機*\>: \Program Files\Microsoft BizTalk\<版本\>HL7\SDK\Interrogative Tutorial\QRY^Q01.txt**，然後按下快速鍵**Enter。**  
   
     > [!NOTE]
     >  此命令會傳送查詢訊息，您建立此教學課程 MLLP 連接埠 22000 並等候回應 （通知） 的開頭。 ADT 接收埠會拾取此訊息，並予以處理。  
@@ -48,7 +48,7 @@ ms.lasthandoff: 09/20/2017
         QRD|200307231012|D|I|4387|||20^LI|12233|RES|ALL  
         ```  
   
-    -   此外，MllpSend 公用程式建立通知檔案中的\<*磁碟機*>: \Program Files\Microsoft BizTalk\<版本 > Accelerator for HL7\SDK\Interrogative Tutorial 資料夾名為 QRY^ Q01.txt.RESPONSE。 這個檔案包含下列資訊為通知：  
+    -   此外，MllpSend 公用程式建立通知檔案中的\<*磁碟機*\>: \Program Files\Microsoft BizTalk\<版本\>Accelerator for HL7\SDK\名為 QRY^Q01.txt.RESPONSE interrogative 教學課程的資料夾。 這個檔案包含下列資訊為通知：  
   
         ```  
         MSH|^~\&|HIS||ADT||20040331154031.2222-0800||ACK^Q01^ACK|10000GSM|P|2.4  
@@ -65,7 +65,7 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  步驟 2 執行接聽連接埠 25000 MLLP 接聽應用程式，並顯示螢幕收到任何訊息。 此應用程式會模擬 ADT 系統。  
   
-3.  在第二個命令提示字元中，輸入 **MllpSend /SB 11 /EB 28 /CR 13/P 23000 /F"\<*磁碟機*>: \Program Files\Microsoft BizTalk\<版本 > Accelerator for HL7\SDK\Interrogative Tutorial\DSR.txt"**，然後按下**Enter**。  
+3.  在第二個命令提示字元中，輸入 **MllpSend /SB 11 /EB 28 /CR 13/P 23000 /F"\<*磁碟機*\>: \Program Files\Microsoft BizTalk\<版本\>Accelerator for HL7\SDK\Interrogative Tutorial\DSR.txt"**，然後按下**Enter**。  
   
     > [!NOTE]
     >  步驟 3 傳送回應訊息建立 MLLP 連接埠 23000 本教學課程的起始處。 HIS 接收埠會拾取此訊息，並予以處理。  
@@ -93,7 +93,7 @@ ms.lasthandoff: 09/20/2017
   
  恭喜！ 您已順利完成 BTAHL7 Interrogative 教學課程。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [批次的教學課程](../../adapters-and-accelerators/accelerator-hl7/batching-tutorial.md)   
  [端對端教學課程](../../adapters-and-accelerators/accelerator-hl7/end-to-end-tutorial1.md)   
  [訊息擴充教學課程](../../adapters-and-accelerators/accelerator-hl7/message-enrichment-tutorial.md)

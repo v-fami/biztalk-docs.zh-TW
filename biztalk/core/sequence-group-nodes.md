@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2465ad10e6598a4b9e1afa88190de4c1711c1f86
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b92c2165a84e5d539eac434ab140389c145b24b4
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="sequence-group-nodes"></a>[Sequence 群組] 節點
 
@@ -24,7 +24,7 @@ ms.lasthandoff: 09/20/2017
 在 [BizTalk 編輯器] 中，您可以插入**Sequence 群組**節點，以包含其他節點，必須出現在執行個體訊息中出現的順序相同**Sequence 群組**節點。 包含的節點必須是對應到 XML 項目的節點，但不能是對應到 XML 屬性的節點。  
   
 > [!NOTE]
->  在 [BizTalk 編輯器] 中， **Sequence 群組**節點由與字串的預設\<順序 > 結構描述樹狀結構檢視中。 如果您將參考設定至**Sequence 群組**節點，例如 x，則會呈現為\<Group: x > 結構描述樹狀結構檢視中。  
+>  在 [BizTalk 編輯器] 中， **Sequence 群組**節點由與字串的預設\<順序\>結構描述樹狀結構檢視中。 如果您將參考設定至**Sequence 群組**節點，例如 x，則會呈現為\<Group: x\>結構描述樹狀結構檢視中。  
   
  您可能想要加入**Sequence 群組**宣告全域項目群組。  
   
@@ -63,7 +63,7 @@ ms.lasthandoff: 09/20/2017
   
 ```  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 -  [BizTalk 結構描述表示法](../core/biztalk-representation-of-schemas.md)   
 -  [節點屬性](../core/node-properties.md)   
 -  **Sequence 群組節點屬性**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

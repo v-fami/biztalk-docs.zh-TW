@@ -19,11 +19,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2460f359e0a9a3954d9417fdf441e9bd01de58b0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 060d6fbfb75c97e4fa4bc6bbfc3f160972c437ff
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="msmq-adapter-configuration-properties"></a>MSMQ 配接器組態屬性
 下表列出可為 MSMQ 配接器接收位置設定的組態屬性：  
@@ -75,4 +75,4 @@ ms.lasthandoff: 09/20/2017
 ```  
   
 > [!NOTE]
->  在指定的使用配接器架構所建置的配接器的 TransportTypeData 組態資料時，所使用的名稱/值組必須全部儲存到\<AdapterConfig > 項目。 因為\<AdapterConfig > 項目會指定 VT_BSTR (vt ="8") 資料型別然後\<> 必須逸出字元資料中的。
+>  在指定的使用配接器架構所建置的配接器的 TransportTypeData 組態資料時，所使用的名稱/值組必須全部儲存到\<AdapterConfig\>項目。 因為\<AdapterConfig\>項目會指定 VT_BSTR (vt ="8") 資料型別然後\<\>必須逸出字元資料中的。

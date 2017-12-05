@@ -17,11 +17,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4a2c3c464e4b06e65ab15059da6ec3c36179ff25
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2dde3f351c583be9037127c060d02c98d12b2fcb
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-deploy-tracking-profiles-with-the-tracking-profiles-management-utility"></a>如何使用追蹤設定檔管理公用程式部署追蹤設定檔
 商務經理人會要求方案開發人員建立新的追蹤設定檔或修改現有的設定檔，加強對組織特定商務程序的管理與監控。  
@@ -38,16 +38,16 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-deploy-the-tracking-profile-from-the-command-line-utility"></a>若要從命令列公用程式部署追蹤設定檔  
   
-1.  從命令提示字元中，移動到目錄\<安裝路徑 > \Program Files\Microsoft BizTalk Server\<版本 > \Tracking\\。  
+1.  從命令提示字元中，移動到目錄\<安裝路徑\>\Program Files\Microsoft BizTalk Server\<版本\>\Tracking\\。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
   
-2.  型別**bttdeploy.exe\<設定檔名稱 >.btt**。  
+2.  型別**bttdeploy.exe\<設定檔名稱\>.btt**。  
   
 3.  按 ENTER 鍵。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理 BAM 動態基礎結構](../core/managing-the-bam-dynamic-infrastructure.md)   
  [BAM 安全性建議](../core/bam-security-recommendations.md)   
  [商務活動監控 (BAM)](../core/business-activity-monitoring-bam.md)

@@ -19,11 +19,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 332d8027a12e2d58a8b177d7b0c87eeec8996217
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6f7c24f15c916970926143cec4cb6bb33401efeb
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="mqseries-adapter-configuration-properties"></a>MQSeries 配接器組態屬性
 下表列出您可為 MQSeries 配接器接收位置設定的組態屬性：  
@@ -71,4 +71,4 @@ ms.lasthandoff: 09/20/2017
 ```  
   
 > [!NOTE]
->  在指定的使用配接器架構所建置的配接器的 TransportTypeData 組態資料時，所使用的名稱/值組必須全部儲存到\<AdapterConfig > 項目。 因為\<AdapterConfig > 項目會指定 VT_BSTR (vt ="8") 資料型別然後\<> 必須逸出字元資料中的。
+>  在指定的使用配接器架構所建置的配接器的 TransportTypeData 組態資料時，所使用的名稱/值組必須全部儲存到\<AdapterConfig\>項目。 因為\<AdapterConfig\>項目會指定 VT_BSTR (vt ="8") 資料型別然後\<\>必須逸出字元資料中的。

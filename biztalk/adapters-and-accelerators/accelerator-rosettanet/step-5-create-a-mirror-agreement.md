@@ -16,11 +16,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e0ddb7c7dcad8bb278b318cdc599640b479baafa
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 00697f159e2363611248000616610cacd03b9f4f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-5-create-a-mirror-agreement"></a>步驟 5： 建立鏡像協議
 在此步驟中，您將使用回送公用程式，在設定主要組織的相同電腦上，建立模擬交易夥伴的鏡像協議。 回送公用程式是命令列工具。  
@@ -29,7 +29,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  按一下**啟動**，按一下 **執行**，型別**cmd**，然後按一下**確定**。  
   
-2.  在命令提示字元中，移至\<*磁碟機*>: \Program Files\Microsoft BizTalk\<版本 > Accelerator for RosettaNet\SDK。 輸入下列命令，然後按**Enter**:  
+2.  在命令提示字元中，移至\<*磁碟機*\>: \Program Files\Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK。 輸入下列命令，然後按**Enter**:  
   
     ```  
     Loopback /enable HOME  
@@ -46,5 +46,5 @@ ms.lasthandoff: 09/20/2017
 > [!NOTE]
 >  每當您更新原始交易協議，就必須重新建立鏡像交易協議。  
   
-## <a name="see-also"></a>另請參閱  
- [步驟 6： 啟動協調流程](../../adapters-and-accelerators/accelerator-rosettanet/step-6-start-orchestrations.md)
+## <a name="see-also"></a>請參閱  
+ [步驟 6：啟動協調流程](../../adapters-and-accelerators/accelerator-rosettanet/step-6-start-orchestrations.md)

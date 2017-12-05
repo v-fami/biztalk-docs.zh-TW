@@ -12,11 +12,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8a0804aa58174912a29cec9039d55579e4e705a5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6b12eeae422f5da90c6874f70d2ffddbc19f75bd
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="operations-on-interface-tables-interface-views-tables-and-views-that-contain-lob-data"></a>介面資料表、 介面檢視、 資料表和檢視表包含 LOB 資料的作業
 [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]提供 Oracle 大型物件 (LOB) 資料類型的支援：  
@@ -34,12 +34,12 @@ ms.lasthandoff: 09/20/2017
 ## <a name="operations-for-tables-and-views"></a>資料表和檢視表的作業  
  [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]呈現介面資料表、 介面檢視、 資料表和檢視表包含 LOB 資料行的下列作業：  
   
--   **Read_\<LOBColName >**:`Read_<LOBColName>`作業會顯示介面資料表、 介面檢視、 資料表和檢視表，包含 BLOB、 CLOB、 NCLOB、 和 BFILE 資料行，其中\<LOBColName > 是的名稱類型 BLOB、 CLOB、 NCLOB 或 BFILE 資料行。 使用 Read_\<LOBColName > 作業，配接器用戶端可以讀取 LOB 資料行做為資料流中的值。 這項作業會接受做為參數的篩選條件字串。  
+-   **Read_\<LOBColName\>**:`Read_<LOBColName>`作業會顯示介面資料表、 介面檢視、 資料表和檢視表，包含 BLOB、 CLOB、 NCLOB、 和 BFILE 資料行，其中\<LOBColName\>類型 BLOB、 CLOB、 NCLOB 或 BFILE 資料行名稱。 使用 Read_\<LOBColName\>作業中，配接器用戶端可以讀取 LOB 資料行做為資料流中的值。 這項作業會接受做為參數的篩選條件字串。  
   
     > [!NOTE]
     >  `Read_<LOBColName>`作業設計來支援 WCF 服務模型中的 LOB 資料的輸入資料流。 您應該使用資料表的 Select 作業讀取 WCF 通道模型中的 LOB 資料或[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]方案。  
   
--   **Update_\<LOBColName >**:`Update_<LOBColName>`作業中會顯示介面資料表和資料表只包含 BLOB、 CLOB、 和 NCLOB 資料行，其中\<LOBColName > 類型 BLOB、 CLOB、 資料行名稱與 NCLOB。 使用 Update_\<LOBColName > 作業，配接器用戶端可以更新 LOB 資料行中的值。 BLOB 資料類型，這項作業接受 base64binary 編碼的資料做為參數，而對於 CLOB 和 NCLOB 資料類型，這項作業會做為參數字串篩選條件。  
+-   **Update_\<LOBColName\>**:`Update_<LOBColName>`作業中會顯示介面資料表和資料表只包含 BLOB、 CLOB、 和 NCLOB 資料行，其中\<LOBColName\>的名稱資料行中的輸入 BLOB、 CLOB、 和 NCLOB。 使用 Update_\<LOBColName\>作業中，配接器用戶端可以更新 LOB 資料行中的值。 BLOB 資料類型，這項作業接受 base64binary 編碼的資料做為參數，而對於 CLOB 和 NCLOB 資料類型，這項作業會做為參數字串篩選條件。  
   
     > [!NOTE]
     >  `Update_<LOBColName>`作業：  
@@ -57,5 +57,5 @@ ms.lasthandoff: 09/20/2017
   
 -   訊息結構和 SOAP 動作來執行`Read_<LOBColName>`和`Update_<LOBColName>`作業，請參閱[特殊 LOB 作業的訊息結構描述](../../adapters-and-accelerators/adapter-oracle-ebs/message-schemas-for-special-lob-operations1.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [哪些作業可以是執行使用配接器？](https://msdn.microsoft.com/library/cc185219(v=bts.10).aspx)

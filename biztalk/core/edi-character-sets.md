@@ -12,11 +12,11 @@ caps.latest.revision: "22"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 108424cf9ef8670340e51a1c9747f42eec9cc4cf
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 38d7b19c751f2bd380dad29ffc31a2be5f79245e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="edi-character-sets"></a>EDI 字元集
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]會使用字元集來驗證整個 EDI 交換。 用於 X12 編碼訊息以及 EDIFACT 或 KEDIFACT 編碼訊息的字元集會以不同方式決定。  
@@ -57,8 +57,8 @@ ms.lasthandoff: 09/20/2017
   
  基本 」 字元集包括下列大寫字母、 數字、 空格和特殊字元： A 到 Z、 0 至 9、 ！ “ & ’ ( ) * + , - . / : ; ? = （空格）。  
   
- 擴充字元集包括基本的字元組，以及小寫字母、 特定語言字元和其他特殊字元的字元： a 到 z、 %@ [] _ {} \ &#124;\< > ~ # $。  
+ 擴充字元集包括基本的字元組，以及小寫字母、 特定語言字元和其他特殊字元的字元： a 到 z、 %@ [] _ {} \ &#124;\< \> ~ # $.  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [EDI 傳訊](../core/edi-messaging.md)   
  [EDI 結構描述](../core/edi-schemas.md)

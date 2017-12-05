@@ -16,11 +16,11 @@ caps.latest.revision: "21"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a2fce9c39fad76ad0e621fb4773cc39efc3488cd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a6cf0243eccb6a38dc121cfe06a60e30fa0c26c7
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="sendmail"></a>SendMail
 SendMail 範例示範如何使用 Simple Mail Transfer Protocol (SMTP) 配接器，從 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 協調流程內傳送電子郵件訊息。 用來傳送電子郵件訊息的動態資訊，會使用以屬性升級功能從 XML 訊息擷取。  
@@ -37,7 +37,7 @@ SendMail 範例示範如何使用 Simple Mail Transfer Protocol (SMTP) 配接器
 4.  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 協調流程透過 SMTP 配接器傳送所建構的電子郵件訊息。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- \<*範例路徑*> \AdaptersUsage\SendMail\  
+ \<*範例路徑*\>\AdaptersUsage\SendMail\  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -54,13 +54,13 @@ SendMail 範例示範如何使用 Simple Mail Transfer Protocol (SMTP) 配接器
   
 1.  在命令視窗中，瀏覽至下列資料夾：  
   
-     \<*範例路徑*> \AdaptersUsage\SendMail  
+     \<*範例路徑*\>\AdaptersUsage\SendMail  
   
 2.  執行檔案 Setup.bat，這會執行下列動作：  
   
     -   為此範例建立下列輸入資料夾：  
   
-         \<*範例路徑*> \AdaptersUsage\SendMail\In  
+         \<*範例路徑*\>\AdaptersUsage\SendMail\In  
   
     -   為此範例編譯 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 專案。  
   
@@ -104,5 +104,5 @@ SendMail 範例示範如何使用 Simple Mail Transfer Protocol (SMTP) 配接器
   
 2.  請觀察您在上一個程序中指定的電子郵件地址是否接收到電子郵件訊息。  
   
-## <a name="see-also"></a>另請參閱  
- [配接器範例-使用方式](../core/adapter-samples-usage.md)
+## <a name="see-also"></a>請參閱  
+ [配接器範例 - 用法](../core/adapter-samples-usage.md)

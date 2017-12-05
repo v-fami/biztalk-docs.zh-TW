@@ -12,11 +12,11 @@ caps.latest.revision: "36"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 67128880233a04b6b1573f11ff5229cebe328b25
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9fcbce54a488cb687ad0fb2c7a1931243c8cd882
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-4-create-the-map"></a>步驟 4：建立對應
 ![步驟 4，5 個](../core/media/step-4of5.gif "Step_4of5")  
@@ -60,13 +60,13 @@ ms.lasthandoff: 09/20/2017
   
 5.  在**BizTalk 型別選擇器**對話方塊方塊中，展開  **EAISchemas**，依序展開**結構描述**，按一下  **eaischemas.request**，然後按一下  **確定**。  
   
-6.  在**來源結構描述**] 窗格中，以滑鼠右鍵按一下**\<結構描述 >**，然後按一下 [**展開樹狀結構節點**。  
+6.  在**來源結構描述**] 窗格中，以滑鼠右鍵按一下**\<結構描述\>**，然後按一下 [**展開樹狀結構節點**。  
   
 7.  在**目的結構描述**] 窗格中，按一下 [**開啟目的結構描述**。  
   
 8.  在**BizTalk 型別選擇器**對話方塊方塊中，展開  **EAISchemas**，展開**結構描述**，按一下**EAISchemas.RequestDecline**，然後按一下按一下**確定**。  
   
-9. 在**目的結構描述**] 窗格中，以滑鼠右鍵按一下**\<結構描述 >**，然後按一下 [**展開樹狀結構節點**。  
+9. 在**目的結構描述**] 窗格中，以滑鼠右鍵按一下**\<結構描述\>**，然後按一下 [**展開樹狀結構節點**。  
   
 10. 在**來源結構描述**窗格拖曳**ReqID**欄位設為**ReqID**中**目的結構描述**窗格。 會顯示連接兩個項目的直線。  
   
@@ -80,7 +80,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="next-steps"></a>後續步驟  
  您會建置 EAISchemas 專案。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [步驟 1： 建立 EAISchemas 專案](../core/step-1-create-eaischemas-project.md)   
  [步驟 2： 建立庫存要求結構描述](../core/step-2-create-the-inventory-request-schema.md)   
  [步驟 3： 建立拒絕要求結構描述](../core/step-3-create-the-request-decline-schema.md)   

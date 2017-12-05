@@ -17,11 +17,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: bc38e0ce4dc1f6ae184b51ee157fb4461364a85e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 115e7e2421ed31ed20db9cbec5abdaa26a3639e8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="invoke-a-function-in-oracle-database-using-the-wcf-channel-model"></a>叫用使用 WCF 通道模型的 Oracle 資料庫中的函式
 本節示範如何使用通道中建立 Oracle 資料庫中執行函式[建立使用 Oracle 資料庫的通道](../../adapters-and-accelerators/adapter-oracle-database/create-a-channel-using-oracle-database.md)。  
@@ -30,13 +30,13 @@ ms.lasthandoff: 09/20/2017
  您可以在 Oracle 資料庫上執行函式，藉由傳遞的 XML 訊息[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]。 輸入 XML 如下所示：  
   
 ```  
-\<CREATE_ACCOUNT xmlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG" xmlns:ns0="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG/CREATE_ACCOUNT">  
+<CREATE_ACCOUNT xmlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG" xmlns:ns0="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG/CREATE_ACCOUNT">  
   <REC xmlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/ACCOUNT_PKG">  
-    \<ns0:ID>1\</ns0:ID>  
-    \<ns0:NAME>Scott\</ns0:NAME>  
-    \<ns0:BANKNAME>CitiBank\</ns0:BANKNAME>  
-    \<ns0:BRANCH>NY\</ns0:BRANCH>  
-    \<ns0:ENABLED>Y\</ns0:ENABLED>  
+    <ns0:ID>1</ns0:ID>  
+    <ns0:NAME>Scott</ns0:NAME>  
+    <ns0:BANKNAME>CitiBank</ns0:BANKNAME>  
+    <ns0:BRANCH>NY</ns0:BRANCH>  
+    <ns0:ENABLED>Y</ns0:ENABLED>  
   </REC>  
 </CREATE_ACCOUNT>  
 ```  
@@ -98,7 +98,7 @@ namespace OraclePackageChannel
 }  
 ```  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [使用 WCF 通道模型開發 Oracle 資料庫應用程式](../../adapters-and-accelerators/adapter-oracle-database/develop-oracle-database-applications-using-the-wcf-channel-model.md)   
  [使用 WCF 通道模型的 Oracle 資料庫中，執行插入作業](../../adapters-and-accelerators/adapter-oracle-database/run-an-insert-operation-in-oracle-database-using-the-wcf-channel-model.md)   
  [使用 WCF 通道模型執行 SQLEXECUTE 操作](../../adapters-and-accelerators/adapter-oracle-database/run-a-sqlexecute-operation-in-oracle-database-using-the-wcf-channel-model.md)

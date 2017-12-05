@@ -16,18 +16,18 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9c25a348fb739f4558f1507eda0d46d209cd44c8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 62581310d4260ecb5b1162df1f52b0170d791d57
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="step-6-create-a-send-port-to-deliver-the-adta03-message-to-the-rx-system-using-the-file-adapter"></a>步驟 6： 建立傳送埠以傳送 ADT ^ A03 RX 系統使用 File 配接器的訊息
 在此步驟中，您建立傳送埠的藥局系統 (RX) 使用 File 配接器。  
   
 ### <a name="to-create-the-tutorialsendmsgrx-send-port"></a>若要建立 Tutorial_sendMsg_RX 傳送埠  
   
-1.  在[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]管理主控台中，以滑鼠右鍵按一下**傳送埠**，指向 **新增**，然後按一下 **靜態單向傳送埠**。  
+1.  在 BizTalk Server 管理主控台中，以滑鼠右鍵按一下**傳送埠**，指向 **新增**，然後按一下 **靜態單向傳送埠**。  
   
 2.  在**傳送埠屬性**對話方塊方塊中，執行下列動作，然後按一下**確定**。  
   
@@ -41,7 +41,7 @@ ms.lasthandoff: 09/20/2017
   
     |使用|動作|  
     |--------------|----------------|  
-    |**目的地資料夾**|瀏覽至 **\<** *磁碟機***: > \Program Files\Microsoft BizTalk\<版本 > Accelerator for HL7\SDK\End 端對端 Tutorial\Tutorial_sendMsg_RX**.|  
+    |**目的地資料夾**|瀏覽至 **\<** *磁碟機***:\>\Program Files\Microsoft BizTalk\<版本\>Accelerator for HL7\SDK\End 端對端Tutorial\Tutorial_sendMsg_RX**。|  
     |**檔案名稱**|型別**%MessageID%.txt** （副檔名為.txt 取代.xml 副檔名）。|  
   
 4.  在**傳送埠屬性**對話方塊中，針對**傳送管線**，選取**BTAHL72XPipelines.BTAHL72XSendPipeline**。  
@@ -66,7 +66,7 @@ ms.lasthandoff: 09/20/2017
     >  第一個篩選條件會表示醫院資訊系統 (HIS) 訊息時，不會通知訂閱。 第二個篩選表示他其來源是許可放電和傳輸 (ADT) 系統的訊息來進行訂閱。  
   
     > [!NOTE]
-    >  BTAHL7 會捨棄訊息，在檔案放置位置\<*磁碟機*>: Program FilesMicrosoft BizTalk<version>的端對端 HL7SDKEnd TutorialTutorial_sendMsg_RX 加速器。  
+    >  BTAHL7 會捨棄訊息，在檔案放置位置\<*磁碟機*\>： 程式 FilesMicrosoft BizTalk<version>的端對端 HL7SDKEnd TutorialTutorial_sendMsg_RX 加速器。  
   
 6.  按一下**套用**，然後按一下  **確定。**  
   

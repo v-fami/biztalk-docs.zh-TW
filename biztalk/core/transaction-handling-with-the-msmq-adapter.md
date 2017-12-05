@@ -15,11 +15,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: eed4a3b38e4dd328fbbb6099b1bec2c1515b3e5d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1bea79413042ec99cfd1cbc5bc6dee500aef4ac4
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="transaction-handling-with-the-msmq-adapter"></a>交易處理與 MSMQ 配接器
 本節將討論交易如何接收和傳送。  
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/20/2017
  您可以透過 MSMQ 配接器，在傳送和接收中使用交易。 在交易傳送上，配接器會累計訊息，直到有完整批次為止。 然後配接器會將批次提交給本機「訊息佇列」服務，以做為單一交易。 若提交失敗，則配接器會嘗試重新提交批次。 若重新提交失敗，配接器會移動到次要傳輸。  
   
 > [!NOTE]
->  配接器支援與訊息佇列 4.0 或更新版本的遠端佇列的交易式讀取。 在此案例中這兩個[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]和遠端的訊息佇列伺服器必須執行訊息佇列 4.0 或更新版本。  
+>  配接器支援與訊息佇列 4.0 或更新版本的遠端佇列的交易式讀取。 在此案例中 BizTalk Server 和遠端的訊息佇列伺服器必須執行訊息佇列 4.0 或更新版本。  
   
  在交易接收上，配接器會擱置失敗的訊息，因此它不會遺失任何訊息。 在交易接收期間，配接器會將訊息新增到批次，直到批次完成。 然後提交批次：  
   
@@ -44,5 +44,5 @@ ms.lasthandoff: 09/20/2017
   
  若您在叢集式 BizTalk 主控件執行個體中執行 MSMQ 配接器接收處理常式，則應該將相同叢集群組中的 MSMQ 服務叢集起來，以支援本機交易讀取，因為 MSMQ 不支援遠端交易讀取。 如需有關如何在叢集 BizTalk 主控件執行個體中執行 MSMQ 配接器處理常式的詳細資訊，請參閱[叢集主控件中執行配接器處理常式的考量](../core/considerations-for-running-adapter-handlers-within-a-clustered-host1.md)。  
   
-## <a name="see-also"></a>另請參閱  
- [使用 MSMQ 配接器的可信賴傳訊](../core/reliable-messaging-with-the-msmq-adapter.md)
+## <a name="see-also"></a>請參閱  
+ [使用 MSMQ 配接器的可靠傳訊](../core/reliable-messaging-with-the-msmq-adapter.md)

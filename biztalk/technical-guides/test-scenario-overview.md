@@ -12,17 +12,17 @@ caps.latest.revision: "32"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 53e20b7d94e44006df1042c9ca202e296508a5d5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 86fd882f89caee27211c03a4e13e617fe12faef1
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="test-scenario-overview"></a>測試案例概觀
 本主題提供的測試應用程式的概觀測試使用，方法和清單的描述在負載測試期間擷取關鍵效能指標 (Kpi)。  
   
 ## <a name="test-application"></a>測試應用程式  
- 同步要求-回應應用程式用來比較效能[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]HYPER-V 上執行[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]在實體硬體上執行。 此應用程式用來說明效能[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]低延遲的已調整的解決方案。 低度延遲訊息很重要，例如線上銀行用戶端傳送要求，並在非常短的間隔內所預期的回應訊息的特定情況下 (例如\<3 秒)。  
+ 同步要求-回應應用程式用來比較實體硬體上執行的 BizTalk Server HYPER-V 上執行的 BizTalk 伺服器的效能。 此應用程式用來說明效能[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]低延遲的已調整的解決方案。 低度延遲通訊是關鍵某些情況下，例如線上銀行用戶端傳送要求，並在非常短的間隔 （例如 < 3 秒） 內所預期的回應訊息。  
   
  下圖說明使用的高階架構。 Visual Studio Team System (VSTS) 2008年測試載入代理程式叫用自訂測試類別，用來產生負載的 WCF 傳輸[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]已公開應用程式在此案例中，從 Wcf-basichttp 傳送要求-回應接收位置。 VSTS 2008 Test Load Agent 已做為測試用戶端因為它提供的絕佳彈性，包括設定的訊息數目的功能，同時執行緒總數，傳送，而且睡眠之間的間隔要求傳送。  
   
@@ -130,7 +130,7 @@ ms.lasthandoff: 09/20/2017
   
 -   **協調流程已完成，每秒 –**所報告**XLANG/s 協調流程 (BizTalkServerApplication) \Orchestrations 每秒完成**效能監視器計數器。 此計數器提供良好的輸送量的測量[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]方案。  
   
--   **訊息處理的 % \< 3 秒數 –**記錄在測試期間 3 秒內已處理的訊息總數。  
+-   **%的訊息處理 < 3 秒數 –**記錄在測試期間 3 秒內已處理的訊息總數。  
   
  VSTS 2008 負載測試用來產生整個所有測試的一致性負載。 下列測試回合設定，並調整每個測試的負載設定檔在測試期間已修改的負載模式：  
   
@@ -215,7 +215,7 @@ ms.lasthandoff: 09/20/2017
   
  **針對 SQL Server:**  
   
--   [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)]依照安裝指南位於已安裝[http://go.microsoft.com/fwlink/?LinkId=141021](http://go.microsoft.com/fwlink/?LinkId=141021)。  
+-   安裝 SQL Server 安裝指南位於根據[http://go.microsoft.com/fwlink/?LinkId=141021](http://go.microsoft.com/fwlink/?LinkId=141021)。  
   
 -   [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]使用具有 SAN Lun 設定根據下表。 資料庫和記錄檔已分門別類 Lun，如下所示，以減少可能的磁碟 I/O 競爭問題：  
   
@@ -245,7 +245,7 @@ ms.lasthandoff: 09/20/2017
     |Logs_BizTalkDatabases|其他的 BizTalk 資料庫記錄檔|20|20|64 KB|  
     |不適用|MSDTC 記錄檔|5|5|不適用|  
   
--   [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]依照安裝指南 》，網址安裝[http://go.microsoft.com/fwlink/?LinkId=128383](http://go.microsoft.com/fwlink/?LinkId=128383)。  
+-   依照安裝指南 》，網址安裝 BizTalk Server [http://go.microsoft.com/fwlink/?LinkId=128383](http://go.microsoft.com/fwlink/?LinkId=128383)。  
   
 -   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Best Practices Analyzer (BPA) 工具用來執行平台驗證，一旦已設定組態系統。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] BPA 位於[http://go.microsoft.com/fwlink/?LinkId=67150](http://go.microsoft.com/fwlink/?LinkId=67150)。  
   
@@ -259,9 +259,9 @@ ms.lasthandoff: 09/20/2017
  此基底 VHD 然後複製並用於所有已部署在環境的 HYPER-V 虛擬機器做為基礎。 若要重設系統安全性識別碼，才能進行任何基底 VHD 映像上執行 Sysprep[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]或[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]二進位檔已部署至系統。  
   
 > [!NOTE]  
->  執行 Sysprep[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]已安裝並設定在伺服器即可透過 Sysprep 回應檔案使用，以及指令碼提供[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]。 這些範例指令碼專為搭配[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]安裝在 32 位元和 64 位元版本[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]只。 如需詳細資訊，請參閱[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]線上文件。  
+>  透過使用 Sysprep 回應檔案和 BizTalk Server 提供的指令碼可以完成安裝並在伺服器上設定 BizTalk Server 後，執行 Sysprep。 這些範例指令碼的 32 位元和 64 位元版本上安裝 BizTalk server 時，專為[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]只。 如需詳細資訊，請參閱 BizTalk Server 的線上文件。  
   
  Windows 自動安裝參照位於[http://go.microsoft.com/fwlink/?LinkId=142364](http://go.microsoft.com/fwlink/?LinkId=142364)。  
   
-## <a name="see-also"></a>另請參閱  
- [附錄 c: BizTalk Server 和 SQL Server HYPER-V 可支援性](../technical-guides/appendix-c-biztalk-server-and-sql-server-hyper-v-supportability.md)
+## <a name="see-also"></a>請參閱  
+ [附錄 C：BizTalk Server 和 SQL Server Hyper-V 可支援性](../technical-guides/appendix-c-biztalk-server-and-sql-server-hyper-v-supportability.md)

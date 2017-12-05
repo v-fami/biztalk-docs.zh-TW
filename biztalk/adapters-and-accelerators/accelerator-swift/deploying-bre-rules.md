@@ -15,11 +15,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 195b63948f79ed5403c130048aae86f7e7422c96
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5627731bd84a761ffb62b95646876c768e3298ea
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="deploying-bre-rules"></a>部署 BRE 規則
 您必須部署所用的 BRE 規則[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]處理 SWIFT 訊息的協調流程。  
@@ -28,15 +28,15 @@ ms.lasthandoff: 09/20/2017
   
  發行下列詞彙：  
   
--   A4SWIFT_CodeLists.xml 和 A4SWIFT_Functions.xml 詞彙。 這些都位於*\<磁碟機 >*: \Program Files\Microsoft BizTalk Accelerator for SWIFT\<版本 > 訊息 Pack\SWIFT Messages\A4SWIFT SRG\<版本 > \Base Policies\詞彙。 發行和部署這些使用 BRE 部署公用程式。  
+-   A4SWIFT_CodeLists.xml 和 A4SWIFT_Functions.xml 詞彙。 這些都位於*\<磁碟機\>*: \Program Files\Microsoft BizTalk Accelerator for SWIFT\<版本\>訊息 Pack\SWIFT Messages\A4SWIFT SRG\<版本\>\Base Policies\Vocabulary。 發行和部署這些使用 BRE 部署公用程式。  
   
  發佈和部署下列原則：  
   
--   SWIFT 訊息結構描述的基底原則，包括 SWIFT_Reference_Policy.xml、 SWIFT_PartyIdentifier_Policy.xml，以及網路規則原則 (SWIFT_NetworkRulexxx_Policy.xml) 部署結構描述。 這些都位於\<磁碟機 >: files\ Microsoft BizTalk Accelerator for SWIFT\<版本 > 訊息 Pack\SWIFT Messages\A4SWIFT SRG\<版本 > \Base 原則。 發行和部署這些使用 BRE 部署公用程式。  
+-   SWIFT 訊息結構描述的基底原則，包括 SWIFT_Reference_Policy.xml、 SWIFT_PartyIdentifier_Policy.xml，以及網路規則原則 (SWIFT_NetworkRulexxx_Policy.xml) 部署結構描述。 這些都位於\<磁碟機\>: files\ Microsoft BizTalk Accelerator for SWIFT\<版本\>訊息 Pack\SWIFT Messages\A4SWIFT SRG\<版本\>\Base 原則。 發行和部署這些使用 BRE 部署公用程式。  
   
--   與已部署的訊息結構描述 （MTxxx_Master_Policy.xml 和 MTxxx_Validation_Policy.xml） 相關聯的主要和驗證原則。 這些都位於\<磁碟機 >: files\ Microsoft BizTalk Accelerator for SWIFT\<版本 > 訊息 Pack\SWIFT Messages\A4SWIFT SRG\<版本 > \Category 1\MTxxx。 發行和部署這些使用 BRE 部署公用程式。  
+-   與已部署的訊息結構描述 （MTxxx_Master_Policy.xml 和 MTxxx_Validation_Policy.xml） 相關聯的主要和驗證原則。 這些都位於\<磁碟機\>: files\ Microsoft BizTalk Accelerator for SWIFT\<版本\>訊息 Pack\SWIFT Messages\A4SWIFT SRG\<版本\>\Category 1\MTxxx。 發行和部署這些使用 BRE 部署公用程式。  
   
--   若需要 BIC 驗證 BIC 驗證 （BIC_Master_Policy.xml 和 BIC_Validation_Policy.xml） 與相關聯的主要和驗證原則。 這些都位於\<磁碟機 >: files\ Microsoft BizTalk Accelerator for SWIFT\<版本 > 訊息 Pack\SWIFT Messages\A4SWIFT SRG\<版本 > \Base 原則。 發佈和部署這些原則，您必須自訂 BIC_Master_Policy.xml 的 SQL Server、 BIC 資料庫名稱，名稱前後整合安全性值。 如需詳細資訊，請參閱[啟用驗證的銀行識別項代碼](../../adapters-and-accelerators/accelerator-swift/enabling-validation-of-bank-identifier-codes.md)。 發行和部署這些使用規則引擎部署精靈。  
+-   若需要 BIC 驗證 BIC 驗證 （BIC_Master_Policy.xml 和 BIC_Validation_Policy.xml） 與相關聯的主要和驗證原則。 這些都位於\<磁碟機\>: files\ Microsoft BizTalk Accelerator for SWIFT\<版本\>訊息 Pack\SWIFT Messages\A4SWIFT SRG\<版本\>\Base 原則。 發佈和部署這些原則，您必須自訂 BIC_Master_Policy.xml 的 SQL Server、 BIC 資料庫名稱，名稱前後整合安全性值。 如需詳細資訊，請參閱[啟用驗證的銀行識別項代碼](../../adapters-and-accelerators/accelerator-swift/enabling-validation-of-bank-identifier-codes.md)。 發行和部署這些使用規則引擎部署精靈。  
   
 ### <a name="to-deploy-bre-rules"></a>若要部署 BRE 規則  
   
@@ -50,7 +50,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  自訂 BIC_Master_Policy.xml SQL server、 BIC 資料庫名稱，以及整合式安全性值的名稱。 如需詳細資訊，請參閱[啟用驗證的銀行識別項代碼](../../adapters-and-accelerators/accelerator-swift/enabling-validation-of-bank-identifier-codes.md)。  
   
-3.  執行規則引擎部署精靈來發行和部署 BIC_Master_Policy.xml 和 BIC_Validation_Policy.xml (在\<磁碟機 >: files\ Microsoft BizTalk Accelerator for SWIFT\<版本 > 訊息 Pack\SWIFTMessages\A4SWIFT-SRG\<版本 > \Base 原則)。 如需詳細資訊，請參閱 「 部署 BRE 規則一個在時間 」 底下。  
+3.  執行規則引擎部署精靈來發行和部署 BIC_Master_Policy.xml 和 BIC_Validation_Policy.xml (在\<磁碟機\>: files\ Microsoft BizTalk Accelerator for SWIFT\<版本\>訊息 Pack\SWIFT Messages\A4SWIFT SRG\<版本\>\Base 原則)。 如需詳細資訊，請參閱 「 部署 BRE 規則一個在時間 」 底下。  
   
 ## <a name="tools-for-deploying-the-policies"></a>部署原則的工具  
  發佈詞彙及部署原則的最簡單方式是使用 「 商務規則引擎 (BRE) 部署公用程式 A4SWIFT 軟體開發套件 (SDK) 中。 您也可以執行動作，使用[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]規則引擎部署精靈 」 便會執行相同工作的一個詞彙或原則一次。  
@@ -79,7 +79,7 @@ ms.lasthandoff: 09/20/2017
   
 5.  關閉 [BRE 部署公用程式] 對話方塊。  
   
-6.  開啟[!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)]總管。 瀏覽至\<*磁碟機*>: \Documents and Settings\All Users\Application 資料，並確認記錄檔 BREDeploymentLog.txt 出現在該磁碟機。  
+6.  開啟[!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)]總管。 瀏覽至\<*磁碟機*\>: \Documents and Settings\All Users\Application 資料，並確認記錄檔 BREDeploymentLog.txt 出現在該磁碟機。  
   
 7.  重新啟動 「 規則引擎更新服務。 這樣即可**啟動**，然後按一下**執行**、 輸入**services.msc**，然後按一下**[確定]**。 在**服務 （本機）**視窗中，以滑鼠右鍵按一下**規則引擎更新服務**，然後按一下 **重新啟動**。  
   
@@ -100,11 +100,11 @@ ms.lasthandoff: 09/20/2017
   
 6.  在匯入原則檔案 頁面上，從在**查看**下拉式清單中，移至下列資料夾，根據的詞彙或原則的其中一個：  
   
-    -   \<磁碟機 >: files\ Microsoft BizTalk Accelerator for SWIFT\<版本 > 訊息 Pack\SWIFT Messages\A4SWIFT SRG\<版本 > A4SWIFT_CodeLists.xml 和 A4SWIFT_Functions.xml \Base Policies\Vocabulary  
+    -   \<磁碟機\>: files\ Microsoft BizTalk Accelerator for SWIFT\<版本\>訊息 Pack\SWIFT Messages\A4SWIFT SRG\<版本\>A4SWIFT_ 的 \Base Policies\VocabularyCodeLists.xml 和 A4SWIFT_Functions.xml  
   
-    -   \<磁碟機 >: files\ Microsoft BizTalk Accelerator for SWIFT\<版本 > 訊息 Pack\SWIFT Messages\A4SWIFT SRG\<版本 > \Base SWIFT_Reference_Policy.xml，SWIFT_PartyIdentifier_Policy.xml，原則網路規則原則、 BIC_Master_Policy.xml 和 BIC_Validation_Policy.xml  
+    -   \<磁碟機\>: files\ Microsoft BizTalk Accelerator for SWIFT\<版本\>訊息 Pack\SWIFT Messages\A4SWIFT SRG\<版本\>\Base SWIFT_Reference_Policy.xml，原則SWIFT_PartyIdentifier_Policy.xml、 網路規則原則、 BIC_Master_Policy.xml 和 BIC_Validation_Policy.xml  
   
-    -   \<磁碟機 >: files\ Microsoft BizTalk Accelerator for SWIFT\<版本 > 訊息 Pack\SWIFT Messages\A4SWIFT SRG\<版本 > \Category 1\MTxxx 與已部署的訊息相關聯的主要和驗證原則結構描述  
+    -   \<磁碟機\>: files\ Microsoft BizTalk Accelerator for SWIFT\<版本\>訊息 Pack\SWIFT Messages\A4SWIFT SRG\<版本\>\Category 1\MTxxx 之 master 和驗證已部署的訊息結構描述相關聯的原則  
   
 7.  選取您想要部署，然後按一下 原則**開啟**。  
   

@@ -13,11 +13,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9c68953a1846e8606df79dbdb8b74920ee4d5015
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4eeaa8b0d67e4592ef6622f747a1ddaea875084d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="invoke-trfcs-in-sap-using-biztalk-server"></a>叫用中使用 BizTalk Server 的 SAP tRFCs
 交易式遠端函式呼叫 (tRFCs) 保證只有一個時間執行的 SAP 系統上的 RFC。 您可以叫用任何由顯示 Rfc [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] tRFC 為。 叫用 tRFC 是類似於 RFC 叫用 (請參閱[叫用的 Rfc，SAP 使用 BizTalk server 中](../../adapters-and-accelerators/adapter-sap/invoke-rfcs-in-sap-using-biztalk-server.md)) 具有下列差異：  
@@ -134,7 +134,7 @@ ms.lasthandoff: 09/20/2017
   
 ```  
 XmlDoc = new System.Xml.XmlDocument();  
-XmlDoc.LoadXml("\<RfcConfirmTransID xmlns='http://Microsoft.LobServices.Sap/2007/03/RfcApi/'><TransactionalRfcOperationIdentifier /></RfcConfirmTransID>");  
+XmlDoc.LoadXml("<RfcConfirmTransID xmlns='http://Microsoft.LobServices.Sap/2007/03/RfcApi/'><TransactionalRfcOperationIdentifier /></RfcConfirmTransID>");  
 TIDRequest = XmlDoc;  
 TIDRequest.TransactionalRfcOperationIdentifier = xpath(Response,"string(/*[local-name()='BAPI_SALESORDER_CREATEFROMDAT2Response']/*[local-name()='TransactionalRfcOperationIdentifier']/text())");  
 ```  
@@ -243,7 +243,7 @@ TIDRequest.TransactionalRfcOperationIdentifier = xpath(Response,"string(/*[local
 -   回應訊息從 SAP tRFC 叫用會複製到檔案位置。 這包含已傳送至 SAP 系統的 GUID 相同。 叫用 BAPI_SALESORDER_CREATEFROMDAT2 tRFC 現狀將回應訊息：  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8"?>  
+    <?xml version="1.0" encoding="utf-8"?>  
     <BAPI_SALESORDER_CREATEFROMDAT2Response xmlns="http://Microsoft.LobServices.Sap/2007/03/Trfc/">  
       <TransactionalRfcOperationIdentifier>def689b1-b514-4627-a861-d6d7f51c84e3</TransactionalRfcOperationIdentifier>  
     </BAPI_SALESORDER_CREATEFROMDAT2Response>  
@@ -252,7 +252,7 @@ TIDRequest.TransactionalRfcOperationIdentifier = xpath(Response,"string(/*[local
 -   RfcConfirmTransID 的回應訊息會複製到相同的位置。 這是空的回應。 RfcConfirmTransID 的回應訊息是：  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8"?>  
+    <?xml version="1.0" encoding="utf-8"?>  
     <RfcConfirmTransIDResponse xmlns="http://Microsoft.LobServices.Sap/2007/03/RfcApi/"></RfcConfirmTransIDResponse>  
     ```  
   
@@ -265,5 +265,5 @@ TIDRequest.TransactionalRfcOperationIdentifier = xpath(Response,"string(/*[local
 ## <a name="best-practices"></a>最佳作法  
  您部署和設定 BizTalk 專案之後，您可以為 XML 檔案，稱為繫結檔案匯出組態設定。 一旦產生繫結檔案時，您可以匯入組態設定從檔案，因此您不需要建立傳送埠、 接收埠，等。 針對相同的協調流程。 如需繫結檔案的詳細資訊，請參閱[重複使用的 SAP 配接器繫結](../../adapters-and-accelerators/adapter-sap/reuse-sap-adapter-bindings.md)。
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [開發 BizTalk 應用程式](../../adapters-and-accelerators/adapter-sap/develop-biztalk-applications-using-the-sap-adapter.md)

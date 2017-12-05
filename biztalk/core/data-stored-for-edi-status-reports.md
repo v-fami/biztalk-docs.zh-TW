@@ -12,11 +12,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a3b84bf68e89478d4f3d82dfdaf47e38c0aef90b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9395cb3895675e586576088f3d257dbf4115948f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="data-stored-for-edi-status-reports"></a>EDI 狀態報告的儲存資料
 EDI 狀態報告中有兩個層級的報告： 第一個 if**開啟報告**協議，和第二個如果選取屬性**儲存交易集/內容報告**選取協議屬性。 這些屬性可用於**一般屬性**頁面**一般**索引標籤中**協議屬性** 對話方塊。  
@@ -65,8 +65,8 @@ EDI 狀態報告中有兩個層級的報告： 第一個 if**開啟報告**協�
 |||  
 |-|-|  
 |資訊|欄位或值|  
-|ApplicationSender|(GS02 或\<UNG2.1(UNG2.2) >|  
-|ApplicationReceiver|GS03 或\<UNG3.1(UNG3.2) >|  
+|ApplicationSender|(GS02 或\<UNG2.1(UNG2.2)\>|  
+|ApplicationReceiver|GS03 或\<UNG3.1(UNG3.2)\>|  
 |GroupDate|GS04 或 UNG2.4|  
 |GroupTime|GS05 或 UNG2.5|  
 |TransactionSetId|ST01 或 UNH2.1 （AN 字串）|  
@@ -79,7 +79,7 @@ EDI 狀態報告中有兩個層級的報告： 第一個 if**開啟報告**協�
 |BtsProcessingTime|在接收端：做為管線中戳記的 BTSReceiveTime (本地時間)<br /><br /> 在傳送端：由 ASM 元件加上做為信封上戳記的 BTSSendTime (本地時間)|  
 |BTS.MessageId|在接收端：來自訊息屬性的 BTSMessageId<br /><br /> 在傳送端：<br /><br /> 對於單一交易集：BTSMessageId<br /><br /> 對於輸出批次： 批次 (不是批次訊息的 BTSMessageId) 中的每個個別訊息的 TransactionSet BTSMessageId**附註：**儲存體只 – 將不會顯示在 UI 中。|  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [EDI 和 AS2 狀態報告的儲存資料](../core/data-stored-for-edi-and-as2-status-reports.md)   
  [針對批次狀態報告儲存的資料](../core/data-stored-for-batching-status-reports.md)   
  [AS2 狀態報告的儲存資料](../core/data-stored-for-as2-status-reports.md)

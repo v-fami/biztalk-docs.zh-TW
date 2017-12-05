@@ -13,11 +13,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 331688f3c197fcc26f157346f2f78b74496fbd30
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5f57cac0673a6520de4b0d881527bbc7b670ca1b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="syntax-for-a-select-statement-in-sap"></a>SAP 中的 SELECT 陳述式的語法
 下列章節說明實作針對 SELECT 查詢的文法規格[!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)]。 請注意，在數個情況下，語法與基底的 TRANSACT-SQL 語法稍有不同。  
@@ -36,15 +36,15 @@ SELECT {TOP <const> }[0,1] <select_list>  {INTO FILE [‘file_name’ | “file_
   
 -   **< Join_Condition >** = `[Alias_name.|table_name.]column_name <expr> [Alias_name.|table_name.]column_name`  
   
--   **\<述詞 >** = `[ predicate [AND|OR] predicate [between|not between] predicate |  NOT predicate |  ‘(‘ predicate ‘)’ | condition ]`  
+-   **\<述詞\>** = `[ predicate [AND|OR] predicate [between|not between] predicate |  NOT predicate |  ‘(‘ predicate ‘)’ | condition ]`  
   
  支援的條件運算式和運算式為：  
   
--   **\<條件 >** = `[ expr | expr [NOT | ] BETWEEN const AND const | expr [NOT | ] LIKE const ]`  
+-   **\<條件\>** = `[ expr | expr [NOT | ] BETWEEN const AND const | expr [NOT | ] LIKE const ]`  
   
--   **\<e x p >** = `[ const | column_name [= | ! = | > | > = | ! > | < | < = | ! < ] const | column_name | - const  | const | column_name ]`  
+-   **\<expr\>** = `[ const | column_name [= | ! = | > | > = | ! > | < | < = | ! < ] const | column_name | - const  | const | column_name ]`  
   
- 其中 **\<const >** = `integer | real | string | ? | NULL | xml_element`。  
+ 其中 **\<const\>** = `integer | real | string | ? | NULL | xml_element`。  
   
  **OPTION 關鍵字的值**  
   
@@ -58,7 +58,7 @@ SELECT {TOP <const> }[0,1] <select_list>  {INTO FILE [‘file_name’ | “file_
   
     -   當**no_conversion**未使用選項，如果欄位有轉換，並結束定義，則資料表中的欄位會公開為.NET 字串。  
   
--   當設定為**batchsize\<大小 >**，執行 SELECT 陳述式會導致多個呼叫進行至 SAP 系統，並在每個呼叫中，只有\<大小 > 擷取的記錄數目。 例如，如果您指定 ' batchsize 100' 的 SELECT 查詢會擷取 100 筆記錄只能在每次呼叫 SAP 系統中的。 如果**batchsize\<大小 >**未指定，10000 的預設值會假設批次大小。 請注意，您應該指定根據 SAP 系統中的電腦和資料列數目的實體記憶體的批次大小的最佳值。 在指定批次大小的最佳值可能會導致記憶體不足例外狀況。  
+-   當設定為**batchsize\<大小\>**，執行 SELECT 陳述式會導致多個呼叫進行至 SAP 系統，並在每個呼叫中，只有\<大小\>的記錄數目擷取。 例如，如果您指定 ' batchsize 100' 的 SELECT 查詢會擷取 100 筆記錄只能在每次呼叫 SAP 系統中的。 如果**batchsize\<大小\>**未指定，10000 的預設值會假設批次大小。 請注意，您應該指定根據 SAP 系統中的電腦和資料列數目的實體記憶體的批次大小的最佳值。 在指定批次大小的最佳值可能會導致記憶體不足例外狀況。  
   
 -   當設定為**disabledatavalidation**、[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]不會驗證 DATS、 TIMS 和 NUMC 資料行中存在的值，但改為將其公開成字串。  
   
@@ -279,5 +279,5 @@ Table | '['Table']'
     select * from spfli inner join sflight on spfli.carrid = sflight.carrid  
     ```  
   
-## <a name="see-also"></a>另請參閱  
- [關於.NET Framework Data Provider for mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/about-the-net-framework-data-provider-for-mysap-business-suite.md)
+## <a name="see-also"></a>請參閱  
+ [關於 .NET Framework Data Provider for mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/about-the-net-framework-data-provider-for-mysap-business-suite.md)

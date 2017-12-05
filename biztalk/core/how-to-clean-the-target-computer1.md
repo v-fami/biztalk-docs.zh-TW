@@ -2,11 +2,11 @@
 redirect_url: /biztalk/core/deploying-biztalk-adapter-for-tibco-rendezvous/
 redirect_document_id: True
 ROBOTS: NOINDEX
-ms.openlocfilehash: 4ceaef21127ec010450082228b765dcbb8e76005
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: 8e187233b8755eb84d6169192542d48ce2e86ec3
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-clean-the-target-computer"></a>如何清除目標電腦
 部署會覆寫接收位置組態。 當您在目標電腦上部署繫結檔案 (和組件)，在匯入 XML 繫結檔案時，傳送埠和接收位置會被 XML 繫結檔案中的傳送埠和接收位置所取代。  
@@ -23,5 +23,5 @@ ms.lasthandoff: 11/07/2017
   
          例如，在命令提示字元下執行：  
   
-         **cscript RemoveSendPort.vbs\<傳送埠名稱 >**  
+         **cscript RemoveSendPort.vbs\<傳送埠名稱\>**  
   

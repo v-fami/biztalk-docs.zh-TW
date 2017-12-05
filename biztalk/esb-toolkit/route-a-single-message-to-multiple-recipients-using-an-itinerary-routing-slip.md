@@ -12,15 +12,15 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2fa96603bc93c9d5d19ef102695a1189a50d00ac
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6c493b33081e540a4e18d6d20e4813cdddad894a
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-route-a-single-message-to-multiple-recipients-using-an-itinerary-routing-slip"></a>如何： 將單一訊息路由至多個收件者使用路線路由名單
 ## <a name="goal"></a>目標  
- 本節示範如何使用設計工具的特定領域語言 (DSL) 來建立將訊息傳送行程給三個的相異收件者使用靜態的解析程式和[!INCLUDE[prague](../includes/prague-md.md)]FILE 配接器。  
+ 本節示範如何使用三個的相異收件者使用靜態的解析程式和 BizTalk Server 檔案配接器來建立將訊息傳送路線設計工具的特定領域語言 (DSL)。  
   
  在此 「 如何 」 主題，您將完成下列步驟：  
   
@@ -35,7 +35,7 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-create-an-esb-itinerary-dsl-model"></a>若要建立 ESB 路線 DSL 模型  
   
-1.  在[!INCLUDE[vs2010](../includes/vs2010-md.md)]，開啟 C:\HowTos\Patterns\Patterns.sln。  
+1.  在 Visual Studio 中開啟 C:\HowTos\Patterns\Patterns.sln。  
   
 2.  在 方案總管 中，以滑鼠右鍵按一下**ItineraryLibrary**，指向 **新增**，然後按一下 **新的行程**。  
   
@@ -178,6 +178,6 @@ ms.lasthandoff: 09/20/2017
   
 -   [開發活動](../esb-toolkit/development-activities.md)  
   
--   [訊息的路由模式](../esb-toolkit/message-routing-patterns.md)  
+-   [訊息路由模式](../esb-toolkit/message-routing-patterns.md)  
   
 -   [使用動態解析和路由](../esb-toolkit/using-dynamic-resolution-and-routing.md)

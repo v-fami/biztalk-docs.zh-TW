@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 40f5e5d7d6c6732c203ac7a34308c546388206c3
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: a637e80363e16f7a910bad98fee1843dd7dd891a
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="checklist-complete-monthly-maintenance-checks-in-biztalk-server"></a>在 BizTalk Server 中的檢查清單： 完成每月維護檢查
 本主題說明在執行每個月的可靠性、 管理、 安全性與效能維護檢查所需的步驟[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統。  
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/07/2017
 |判斷是否正在使用任何不穩定的程式碼，而且如果是，請使用不同的主機 （可靠性檢查）。|[BizTalk 主控件的高可用性](../technical-guides/high-availability-for-biztalk-hosts.md)|  
 |執行所有新 BizTalk 應用程式 （可靠性檢查） 的功能測試。|-   [測試應用程式](../technical-guides/testing-an-application.md)<br />-   [BizTalk 應用程式部署的預備工作](../core/staging-tasks-for-biztalk-application-deployment.md)|  
 |設定及排程備份 BizTalk Server 作業 （可靠性檢查）。|-   [如何設定 「 備份 BizTalk Server 」 工作](../core/how-to-configure-the-backup-biztalk-server-job.md)<br />-   [如何排程 「 備份 BizTalk Server 」 工作](../core/how-to-schedule-the-backup-biztalk-server-job.md)|  
-|請確認組件集合的正確版本已安裝在每個 BizTalk 電腦 （完整性檢查） 上。|使用**BizTalk 組件檢查] 和 [遠端 GAC**工具 (BTSAssemblyChecker.exe) 來檢查組件部署到 BizTalk 管理資料庫的版本，並確認它們正確登錄所有上的GAC中[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]電腦。 若要確認 BizTalk 的所有節點上已安裝的所有組件包含特定的 BizTalk 應用程式的成品，您可以使用此工具。 此工具是搭配實心版本控制策略，以確認組件集合的正確版本已安裝每個 BizTalk 在電腦上，特別使用並存的部署方法時特別有用。 此工具會與[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]Support\Tools\x86\BTSAssemblyChecker.exe 安裝媒體。|  
+|請確認組件集合的正確版本已安裝在每個 BizTalk 電腦 （完整性檢查） 上。|使用**BizTalk 組件檢查] 和 [遠端 GAC**工具 (BTSAssemblyChecker.exe) 來檢查組件部署到 BizTalk 管理資料庫的版本，並確認它們正確登錄所有上的GAC中[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]電腦。 若要確認 BizTalk 的所有節點上已安裝的所有組件包含特定的 BizTalk 應用程式的成品，您可以使用此工具。 此工具是搭配實心版本控制策略，以確認組件集合的正確版本已安裝每個 BizTalk 在電腦上，特別使用並存的部署方法時特別有用。 此工具會隨 Support\Tools\x86\BTSAssemblyChecker.exe 在 BizTalk Server 安裝媒體。|  
 |判斷是否有任何不必要 BizTalk 應用程式、 成品和組態 （管理檢查）。|-移除所有不必要 BizTalk 應用程式、 成品和組態。<br />-使用 BTSTask 命令列工具看到如需有關移除 BizTalk 應用程式或成品[RemoveApp 命令](../core/removeapp-command.md)。<br />-如需有關如何從 BizTalk Server 管理主控台或 BTSTask 命令列工具使用的應用程式移除成品的詳細資訊，請參閱[如何從應用程式移除成品](../core/how-to-remove-an-artifact-from-an-application.md)。|  
 |請檢查任何未經核准的變更 （管理檢查） 的 BizTalk Server 管理主控台。|[使用 BizTalk Server 管理主控台](../core/using-the-biztalk-server-administration-console.md)|  
 |BTSNTSvc.exe.config 檢查任何未經核准的修改 （管理檢查）。|[BTSNTSvc.exe.config 檔案](../core/btsntsvc-exe-config-file.md)|  
@@ -48,5 +48,5 @@ ms.lasthandoff: 11/07/2017
 |決定您是否使用專用的主控件追蹤維護 （效能檢查）。|[設定專用的追蹤主控件](../technical-guides/configuring-a-dedicated-tracking-host.md)|  
 |請檢查 BizTalk Server 資料庫的大小增加的趨勢 （效能檢查）。|-如需有關調整追蹤資料庫大小的詳細資訊，請參閱[追蹤資料庫大小的指導方針](../core/tracking-database-sizing-guidelines.md)。<br />-如需有關如何調整大小的 MessageBox，BizTalkDTADb、 BAMPrimaryImport 資料庫的詳細資訊，請參閱[找出效能瓶頸](../core/identifying-performance-bottlenecks.md)。|  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [例行性維護工作檢查清單](../technical-guides/routine-maintenance-checklists.md)

@@ -15,11 +15,11 @@ caps.latest.revision: "16"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0f5e222567c60596f572412bdcae9aadf6025ee0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 084eae49777b62b190e8e090c0b1045d301d420b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-use-message-context-properties"></a>如何使用訊息內容屬性
 系統屬性大多數都是由「BizTalk 傳訊引擎」及其元件在內部使用。 一般而言，不建議變更引擎所設定的屬性值，因為這可能會影響引擎的執行邏輯。 但是，您仍然可以變更許多屬性。  
@@ -55,7 +55,7 @@ MySubject= MyMessage(POP3.Subject);
 |BTS.InterchangeSequenceNumber|從接收配接器接收訊息之後，並且在發佈至 MessageBox 資料庫之前，「傳訊引擎」會升級此屬性。|xs:int|表示交換中文件的序號。 如果文件不解譯為個別文件的一部分，這個值會是交換的 1。 屬性可以讀取在協調流程時，傳送管線和傳送配接器。|  
 |BTS.IsDynamicSend|此屬性可以在訊息內容上設定。 它將不會升級，而且只適用於傳送作業。|xs:boolean|當傳送作業在動態傳送埠上執行時，此屬性會以 true 的值由傳訊引擎寫入訊息內容。 如果您想要在傳送管線中以動態方式設定靜態傳送埠的屬性，就必須將此值設定為 true。|  
 |BTS.MessageDestination|當解譯器管線元件從 GetNext() 傳回訊息時，它會在接收管線中設定此屬性。|xs:string|主要用來支援解譯器的「可復原交換處理」，這個屬性會控制訊息應發佈至 MessageBox 還是擱置於擱置序列中。 如果管線在交換中遇到損壞的訊息，而要擱置訊息並繼續處理，它可以設定 MessageDestination = SuspendQueue，並在引擎呼叫解譯器上的 GetNext() 時傳回訊息。<br /><br /> 有效值：<br /><br /> -預設值。 如果屬性不存在，就會將訊息視為正常並發佈至 MessageBox。<br />-SuspendQueue。 指示傳訊引擎擱置訊息。 **注意：**後管線/對應訊息而不是配接器 （即 wire 訊息） 提交訊息，將會擱置的訊息。|  
-|BTS.MessageType|在訊息剖析期間，解譯器管線元件會升級此屬性。|xs:string|指定訊息的類型。 訊息類型定義為文件結構描述命名空間與文件根節點的串連： http://\<*MyNamespace*>#\<*MyRoot*>。|  
+|BTS.MessageType|在訊息剖析期間，解譯器管線元件會升級此屬性。|xs:string|指定訊息的類型。 訊息類型定義為文件結構描述命名空間與文件根節點的串連： http://&lt*MyNamespace*>#<*MyRoot*>。|  
 |BTS.OutboundTransportLocation|如果在訊息內容上設定這個屬性，「傳訊引擎」就會將它升級。 當協調流程將訊息傳送至傳送埠時，會在訊息內容上隱含設定這個屬性。 這個屬性也可以在協調流程或管線中明確設定。|xs:string|指定傳送訊息的目的地位置 URI。 URI 可以包含配接器前置詞，例如**http://**。 「傳訊引擎」會使用配接器前置詞，決定要在傳送訊息時使用的配接器類型。 如果這兩個配接器前置詞和**BTS。OutboundTransportType**屬性已設定，將配接器類型從**BTS。OutboundTransportType**優先順序一定高於從前置詞判定的配接器類型。<br /><br /> 有效值：<br /><br /> BizTalk 訊息佇列： **DIRECT =**，**私人 =**，和**公用 =**<br /><br /> 檔案： **file://**<br /><br /> FTP: **FTP: / /**<br /><br /> HTTP: **http://**和**https://**<br /><br /> SMTP: **mailto:**<br /><br /> SOAP: **SOAP: / /**<br /><br /> SQL: **SQL: / /**|  
 |BTS.OutboundTransportType|如果在訊息內容上設定這個屬性，「傳訊引擎」就會將它升級。 當協調流程將訊息傳送至傳送埠時，會在內容上隱含設定這個屬性。 這個屬性也可以在協調流程或管線中明確設定。|xs:string|指定用來傳送訊息的配接器類型。 可用的配接器類型為**檔案**， **FTP**， **HTTP**， **SMTP**， **SOAP**，和**SQL**。<br /><br /> 這個屬性的值和位址中指定的配接器前置詞都不區分大小寫。|  
 |BTS.PropertiesToUpdate|需要保留正在重新提交或擱置之失敗訊息的一些屬性值時，配接器會設定這個屬性。<br /><br /> 這表示，在重新提交或繼續訊息時，訊息會在內容設定指定的屬性。|xs:string|包含表示屬性名稱、命名空間和值之項目的 XML 字串。|  
@@ -109,6 +109,6 @@ MySubject= MyMessage(POP3.Subject);
   
 -   [XML 和一般檔案屬性結構描述與屬性](../core/xml-and-flat-file-property-schema-and-properties.md)  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [關於 BizTalk 訊息內容屬性](../core/about-biztalk-message-context-properties.md)   
  [如何使用運算式來將值指派給動態連接埠](../core/how-to-use-expressions-to-assign-values-to-dynamic-ports.md)

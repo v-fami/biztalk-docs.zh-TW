@@ -15,16 +15,16 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4d3f7bbe9440c737b803eb1e6ae04e96449bf4f1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5ec99a2e9f20b09c4daddad0336037c7f539782a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="installation-error-message"></a>安裝錯誤訊息
 安裝 Microsoft BizTalk Adapter for TIBCO Enterprise Message Service 之後，定義其傳送或接收位置時，可能會產生下列錯誤：  
   
- 「 傳訊引擎無法將接收 URL"\<傳送/接收位置 URL > 」 配接器"TIBCO EMS"。 原因: 「 檔案或組件名稱 TIBCO。EMS，或其中一個相依性，找不到。 」  
+ 「 傳訊引擎無法將接收 URL"\<傳送/接收位置 URL\>」 配接器"TIBCO EMS"。 原因: 「 檔案或組件名稱 TIBCO。EMS，或其中一個相依性，找不到。 」  
   
 ## <a name="possible-causes"></a>可能的原因  
  這個錯誤通常是因為下列其中一個原因造成。  
@@ -53,7 +53,7 @@ ms.lasthandoff: 09/20/2017
   
      此檔案位於[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]目錄 (預設安裝位置是： [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)])。  
   
-2.  做為子系，將下列項目加入至 BTSNTSVC.exe.config 檔， \<assemblyBinding > 項目：  
+2.  做為子系，將下列項目加入至 BTSNTSVC.exe.config 檔， \<assemblyBinding\>項目：  
   
 ```  
 <dependentAssembly>  
@@ -64,7 +64,7 @@ ms.lasthandoff: 09/20/2017
 </dependentAssembly>  
 ```  
   
- 如果先前尚未修改 BTSNTSVC.exe.config 檔案， \<assemblyBinding > 項目不會看起來像這樣：  
+ 如果先前尚未修改 BTSNTSVC.exe.config 檔案， \<assemblyBinding\>項目不會看起來像這樣：  
   
 ```  
 <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">  
@@ -92,5 +92,5 @@ ms.lasthandoff: 09/20/2017
   
 5.  重新啟動 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 主控件。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [TIBCO Enterprise Message Service 疑難排解](../core/troubleshooting-tibco-enterprise-message-service.md)

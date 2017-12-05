@@ -19,11 +19,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1381ee4e5c2b90a96c52b59d125ec3121af02a4e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bbb7ea650a2845d8ebdcdcc2204f8346c5737c43
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-update-the-sso-database"></a>如何更新 SSO 資料庫
 使用 MMC 嵌入式管理單元或命令列，可以變更 SSO 資料庫中的全域資訊，像是主要密碼伺服器識別碼、帳戶名稱、資料庫中的稽核、票證逾時以及認證快取逾時。  
@@ -79,13 +79,13 @@ ms.lasthandoff: 09/20/2017
   
 1.  依序按一下 **[開始]**及 **[執行]**，然後輸入 **cmd**。  
   
-2.  在命令列提示字元中，移至「企業單一登入」安裝目錄。 預設安裝目錄是*\<磁碟機 >*: \Program Files\Common Files\Enterprise Single Sign-on。  
+2.  在命令列提示字元中，移至「企業單一登入」安裝目錄。 預設安裝目錄是*\<磁碟機\>*: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-3.  型別**ssomanage – updatedb\<更新檔案 >**，其中**\<更新檔案 >**路徑和檔案名稱。  
+3.  型別**ssomanage – updatedb\<更新檔案\>**，其中**\<更新檔案\>**路徑和檔案名稱。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [如何設定 SSO 票證](../core/how-to-configure-the-sso-tickets.md)   
  [使用 SSO](../core/using-sso.md)

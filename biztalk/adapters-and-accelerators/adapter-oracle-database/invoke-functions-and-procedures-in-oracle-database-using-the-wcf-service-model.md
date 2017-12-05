@@ -15,11 +15,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1a6256491100939937113ac6f140adc031da0941
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9f1fac59fc77b0cf52abe789db8feb2305043708
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="invoke-functions-and-procedures-in-oracle-database-using-the-wcf-service-model"></a>叫用函式和 Oracle 資料庫使用 WCF 服務模型中的程序
 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]呈現程序、 函數和封裝做為作業。 WCF 服務模型中的 WCF 用戶端上的方法以表示這些作業。 WCF 服務模型和[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]:  
@@ -126,12 +126,12 @@ public partial class SCOTTProcedureClient : System.ServiceModel.ClientBase<SCOTT
        (  
         System.Nullable<decimal> INNUMBER,   
         string INVARCHAR,   
-        System.Nullable\<System.DateTime> INDATE,   
+        System.Nullable\<System.DateTime\> INDATE,   
         ref System.Nullable<decimal> INOUTNUMBER,   
         ref string INOUTVARCHAR,   
-        ref System.Nullable\<System.DateTime> INOUTDATE,   
+        ref System.Nullable\<System.DateTime\> INOUTDATE,   
         out string OUTVARCHAR,   
-        out System.Nullable\<System.DateTime> OUTDATE  
+        out System.Nullable\<System.DateTime\> OUTDATE  
         );  
 }  
 ```  
@@ -353,5 +353,5 @@ namespace OracleOverloadsSM
 }  
 ```  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [使用 WCF 服務模型開發 Oracle 資料庫應用程式](../../adapters-and-accelerators/adapter-oracle-database/develop-oracle-database-applications-using-the-wcf-service-model.md)

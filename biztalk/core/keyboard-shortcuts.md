@@ -15,18 +15,18 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f7813d12e67316ab6fd3a6cca74bed079f3a3118
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ee67d21ec067e0364fe4b7d0f0444afcae53ddbf
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="keyboard-shortcuts"></a>鍵盤快速鍵
-本節列出 Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 的鍵盤快速鍵。  
+本節列出 Microsoft BizTalk Server 的鍵盤快速鍵。  
   
 ## <a name="in-this-section"></a>本節內容  
   
--   [協調流程設計工具鍵盤快速鍵](../core/orchestration-designer-keyboard-shortcuts.md)  
+-   [協調流程設計師鍵盤快速鍵](../core/orchestration-designer-keyboard-shortcuts.md)  
   
 -   [管線設計師鍵盤快速鍵](../core/pipeline-designer-keyboard-shortcuts.md)  
   

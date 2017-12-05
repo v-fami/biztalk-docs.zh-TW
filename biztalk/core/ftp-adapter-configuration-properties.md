@@ -19,11 +19,11 @@ caps.latest.revision: "26"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0b2c7895d8f5fc3789a02c72743705a4a03a9f96
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 29124c17603abbc9b38a078238d13cdfb1c992e9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="ftp-adapter-configuration-properties"></a>FTP 配接器組態屬性
 下表列出可為 FTP 配接器接收位置設定的組態屬性：  
@@ -109,4 +109,4 @@ ms.lasthandoff: 09/20/2017
 ```  
   
 > [!NOTE]
->  指定時使用配接器架構建置配接器的 TransportTypeData 組態資料，所使用的所有名稱/值組必須都儲存成\<AdapterConfig > 項目。 因為\<AdapterConfig > 項目會指定 VT_BSTR (vt ="8") 資料型別然後\<> 必須逸出字元資料中的。
+>  指定時使用配接器架構建置配接器的 TransportTypeData 組態資料，所使用的所有名稱/值組必須都儲存成\<AdapterConfig\>項目。 因為\<AdapterConfig\>項目會指定 VT_BSTR (vt ="8") 資料型別然後\<\>必須逸出字元資料中的。

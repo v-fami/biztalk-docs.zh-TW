@@ -16,11 +16,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f10a05f23012990a1a0cc3dd50e0ca3db4282c84
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a6d174ba336a94d44aaffdb2605542035304d9ff
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="step-2-configuring-nlb-on-the-servers"></a>步驟 2： 在伺服器上設定 NLB
 您已安裝的基礎平台，並設定適當的網路設定的伺服器之後 (請參閱[步驟 1： 安裝基底平台](../../adapters-and-accelerators/accelerator-swift/step-1-installing-the-base-platform.md))，您可能需要啟用 BizTalk HTTP 前端伺服器和 BizTalk 上的負載平衡訊息的伺服器。 只有當您擁有一個或多個 BizTalk HTTP 前端伺服器安裝在一或多個 BizTalk 傳訊的伺服器從另一部電腦上，則需要這個步驟。  
@@ -31,4 +31,4 @@ ms.lasthandoff: 09/20/2017
   
  訊息在伺服器上，假設有兩部伺服器，設定負載平衡上**私人**網路介面卡。  
   
- 如需詳細資訊，請參閱[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]部署指南。
+ 如需詳細資訊，請參閱 BizTalk Server 部署指南。

@@ -12,11 +12,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5520062cb6c9bbd937d5c131c41992a7013a9711
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cf2e8b2b3751f31401ef0353944be0bdad3cbb2b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-4-configure-biztalk-server-environment-for-load-testing"></a>步驟 4： 設定負載測試 BizTalk Server 的環境
 本主題提供資訊，以建立 BizTalk Server 接收位置，接收埠和傳送埠執行主題所述的範例程式碼所需[步驟 1： 建立單元測試加入至 BizTalk Server 提交的文件](~/technical-guides/step-1-create-a-unit-test-to-submit-documents-to-biztalk-server.md)和[步驟 3： 建立負載測試，以便同時執行多個單元測試](~/technical-guides/step-3-create-a-load-test-to-perform-multiple-unit-tests-simultaneously.md)。  
@@ -24,7 +24,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="configure-biztalk-server-environment-for-load-tests"></a>設定 BizTalk Server 環境的負載測試  
  本主題中所述[步驟 3： 建立負載測試來執行多個單元測試同時](~/technical-guides/step-3-create-a-load-test-to-perform-multiple-unit-tests-simultaneously.md)，負載測試**BTS_Messaging_Step**設為執行單元測試**BTSMessaging**和**BTSMessaging2**。 接著，這些單元測試載入一份郵件 C:\Projects\LoadTest\BTSLoad\TestMessages\TestXmlDocument.xml 並傳送至端點**BTSMessagingEP**和**BTSMessagingEP2**中所定義專案的應用程式組態檔 (app.config) 的下列區段：  
   
- \<\!---> BTSMessagingEP\<端點 address="net.tcp://*BizTalk Server 電腦*: 8123/btsloadtest 」 繫結 ="netTcpBinding"bindingConfiguration ="netTcpBinding"合約 ="System.ServiceModel.Channels.IRequestChannel 「 名稱 ="BTSMessagingEP"/ >\<端點 address="net.tcp://*BizTalk Server 電腦*: 8123/btsloadtest 」 繫結 ="netTcpBinding"bindingConfiguration ="netTcpBinding"contract="System.ServiceModel.Channels.IRequestChannel 「 名稱 ="BTSMessagingEP2"/ >  
+ \<\!-BTSMessagingEP-\>\<端點 address="net.tcp://*BizTalk Server 電腦*: 8123/btsloadtest 」 繫結 ="netTcpBinding"bindingConfiguration ="netTcpBinding"合約 ="System.ServiceModel.Channels.IRequestChannel 「 名稱 ="BTSMessagingEP"/\>\<端點 address="net.tcp://*BizTalk Server 電腦*: 8123/btsloadtest 」 繫結 ="netTcpBinding"bindingConfiguration ="netTcpBinding"contract="System.ServiceModel.Channels.IRequestChannel 「 名稱 ="BTSMessagingEP2"/                  \>  
   
 > [!NOTE]
 >  如前文所述， *BizTalk Server 電腦*是實際的 BizTalk Server 電腦名稱，或確定 BizTalk Server 電腦都設定為網路負載平衡 (NLB) 叢集; 成員的案例中的預留位置*BizTalk Server 電腦*是的名稱或位址對應的 NLB 虛擬伺服器的預留位置。  
@@ -42,7 +42,7 @@ ms.lasthandoff: 09/20/2017
 |信任的驗證|請確認不勾選此方塊。|  
 |僅限 32 位元|請確認不勾選此方塊。|  
 |將此預設主機群組中|請確認不勾選此方塊。|  
-|Windows 群組|Windows 群組，用來控制對此主機與關聯的主控件執行個體的存取。 建立的預設內含式主控件為視窗群組*\<電腦名稱 >*\BizTalk 應用程式使用者 （適用於單一伺服器安裝 BizTalk Server） 或*\<網域名稱 >*\BizTalk 應用程式使用者 （適用於 BizTalk Server 安裝，需要使用網域群組的多個伺服器）。 **注意：***\<電腦名稱 >*和*\<網域名稱 >*的實際電腦名稱或建立群組時使用的網域名稱的預留位置。   <br /><br /> 如果此主機會建立一個新的群組，則它必須 > 主題所述的權限[主機群組](http://go.microsoft.com/fwlink/?LinkId=208803)(http://go.microsoft.com/fwlink/?LinkId=208803) 中的 BizTalk Server 文件。|  
+|Windows 群組|Windows 群組，用來控制對此主機與關聯的主控件執行個體的存取。 建立的預設內含式主控件為視窗群組*\<電腦名稱\>*\BizTalk 應用程式使用者 （適用於單一伺服器安裝 BizTalk Server） 或 *\<網域名稱\>*\BizTalk 應用程式使用者 （適用於 BizTalk Server 安裝，需要使用網域群組的多個伺服器）。 **注意：***\<電腦名稱\>*和*\<網域名稱\>*預留位置的實際電腦名稱或網域名稱建立群組時使用。   <br /><br /> 如果此主機會建立一個新的群組，則它必須 > 主題所述的權限[主機群組](http://go.microsoft.com/fwlink/?LinkId=208803)(http://go.microsoft.com/fwlink/?LinkId=208803) 中的 BizTalk Server 文件。|  
   
  重複執行建立 「 傳送 」 主控件建立 「 接收 」 主控件時，您會遵循的步驟。 設定 「 接收 」 主控件具有下列屬性值：  
   
@@ -54,7 +54,7 @@ ms.lasthandoff: 09/20/2017
 |信任的驗證|請確認不勾選此方塊。|  
 |僅限 32 位元|請確認不勾選此方塊。|  
 |將此預設主機群組中|請確認不勾選此方塊。|  
-|Windows 群組|Windows 群組，用來控制對此主機與關聯的主控件執行個體的存取。 建立的預設內含式主控件為視窗群組*\<電腦名稱 >*\BizTalk 應用程式使用者 （適用於單一伺服器安裝 BizTalk Server） 或*\<網域名稱 >*\BizTalk 應用程式使用者 （適用於 BizTalk Server 安裝，需要使用網域群組的多個伺服器）。 **注意：***\<電腦名稱 >*和*\<網域名稱 >*的實際電腦名稱或建立群組時使用的網域名稱的預留位置。   <br /><br /> 如果此主機會建立一個新的群組，則它必須 > 主題所述的權限[主機群組](http://go.microsoft.com/fwlink/?LinkId=208803)(http://go.microsoft.com/fwlink/?LinkId=208803) 中的 BizTalk Server 文件。|  
+|Windows 群組|Windows 群組，用來控制對此主機與關聯的主控件執行個體的存取。 建立的預設內含式主控件為視窗群組*\<電腦名稱\>*\BizTalk 應用程式使用者 （適用於單一伺服器安裝 BizTalk Server） 或 *\<網域名稱\>*\BizTalk 應用程式使用者 （適用於 BizTalk Server 安裝，需要使用網域群組的多個伺服器）。 **注意：***\<電腦名稱\>*和*\<網域名稱\>*預留位置的實際電腦名稱或網域名稱建立群組時使用。   <br /><br /> 如果此主機會建立一個新的群組，則它必須 > 主題所述的權限[主機群組](http://go.microsoft.com/fwlink/?LinkId=208803)(http://go.microsoft.com/fwlink/?LinkId=208803) 中的 BizTalk Server 文件。|  
   
 ### <a name="create-instances-of-the-biztalk-server-send-and-receive-hosts"></a>建立執行個體的 BizTalk Server 傳送和接收主控件  
  依照主題中的 BizTalk Server 文件[如何新增主控件執行個體](http://go.microsoft.com/fwlink/?LinkId=208596)(http://go.microsoft.com/fwlink/?LinkId=208596) 建立和啟動 BizTalk Server 「 傳送 」 主控件執行個體。 設定 BizTalk Server 群組中每個 BizTalk Server 上執行，並且具有下列屬性值設定每個主控件執行個體的 「 傳送 」 主控件執行個體：  
@@ -139,7 +139,7 @@ ms.lasthandoff: 09/20/2017
   
 |屬性|值|  
 |--------------|-----------|  
-|General\Address (URI)|net.tcp://*\<電腦名稱 >*: 2001年/TCP1**重要事項：***\<電腦名稱 >*是預留位置用的實際電腦名稱以裝載 IndigoService.exe，其設計為使用透過 WCF 傳送的訊息。   因為 IndigoService.exe 需要極少的資源，所以通常完全可接受用於 BizTalk Server 群組資料庫的 SQL Server 電腦上執行 IndigoService.exe。 IndigoService.exe 屬於 BizTalk 基準精靈，將會位於[BizTalk 基準精靈](http://go.microsoft.com/fwlink/?LinkID=186347)(http://go.microsoft.com/fwlink/?LinkID=186347)。|  
+|General\Address (URI)|net.tcp://*\<電腦名稱\>*: 2001年/TCP1**重要事項：***\<電腦名稱\>*這是一個預留位置用來裝載 IndigoService.exe 實際電腦名稱，它被設計來取用 WCF 透過傳送的訊息。   因為 IndigoService.exe 需要極少的資源，所以通常完全可接受用於 BizTalk Server 群組資料庫的 SQL Server 電腦上執行 IndigoService.exe。 IndigoService.exe 屬於 BizTalk 基準精靈，將會位於[BizTalk 基準精靈](http://go.microsoft.com/fwlink/?LinkID=186347)(http://go.microsoft.com/fwlink/?LinkID=186347)。|  
 |Binding\Binding 類型|**customBinding**|  
   
  如同大部分的 WCF 自訂繫結類型**customBinding**繫結型別會公開一些屬性，它應該設定為下列值：  
@@ -181,9 +181,9 @@ ms.lasthandoff: 09/20/2017
   
  然後啟動 IndigoService.exe StartIndigoService.bat 上按兩下。 IndigoService.exe 取用 IndigoService.exe.config 檔案中指定的端點傳送的訊息：  
   
- \<端點位址 ="net.tcp: //localhost: 2001年/TCP1 」 繫結 ="netTcpBinding"bindingConfiguration ="Binding1"name ="endpoint1"contract="IndigoService.IServiceTwoWaysVoidNonTransactional"/ >  
+ \<端點位址 ="net.tcp: //localhost: 2001年/TCP1 」 繫結 ="netTcpBinding"bindingConfiguration ="Binding1"name ="endpoint1"contract="IndigoService.IServiceTwoWaysVoidNonTransactional"/\>  
   
- 這就是為什麼傳送連接埠設定位址的位址 (URI) 的 net.tcp://*\<電腦名稱 >*: 2001年/TCP1  
+ 這就是為什麼傳送連接埠設定位址的位址 (URI) 的 net.tcp://*\<電腦名稱\>*: 2001年/TCP1  
   
  因為 IndigoService.exe 需要極少的資源，所以通常完全可接受用於 BizTalk Server 資料庫的 SQL Server 電腦上執行 IndigoService.exe。  
   

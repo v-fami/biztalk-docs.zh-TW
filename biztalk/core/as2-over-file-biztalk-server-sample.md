@@ -12,11 +12,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 84e497579b2f3b8465f7a30677dae6920e2750c4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 14d4c077cce861e94f6c2cdc0bfc6f4a14669340
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="as2-over-file-biztalk-server-sample"></a>AS2 Over File (BizTalk Server 範例)
 AS2 Over File 範例示範如何透過 FILE 接收位置接收 AS2 訊息。 這可讓您使用 FILE 配接器來接收 AS2 訊息，而不是通常使用的 HTTP 配接器。 若要這樣做，此解決方案會在 AS2 解碼器要求時，將 AS2 訊息中的 HTTP 標頭寫入 InboundHTTPHeaders 內容屬性。  
@@ -139,11 +139,11 @@ AS2 Over File 範例示範如何透過 FILE 接收位置接收 AS2 訊息。 這
   
 2.  確認輸出 XML 訊息已放入 \AS2 Over File\Out 輸出資料夾。  
   
-3.  在文字編輯器中，開啟輸入的訊息 SampleMessage.txt，並開啟輸出訊息\<GUID >.xml 文字編輯器中的。 確認 SampleMessage.txt 輸入訊息有 HTTP (和 AS2) 標頭，而輸出訊息則沒有 HTTP 標頭。  
+3.  在文字編輯器中，開啟輸入的訊息 SampleMessage.txt，並開啟輸出訊息\<GUID\>.xml 文字編輯器中的。 確認 SampleMessage.txt 輸入訊息有 HTTP (和 AS2) 標頭，而輸出訊息則沒有 HTTP 標頭。  
   
 ## <a name="classes-or-methods-used-in-this-sample"></a>在此範例中使用的類別或方法  
  無  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [EDI 和 AS2 （BizTalk Server 範例資料夾）](../core/edi-and-as2-biztalk-server-samples-folder.md)   
  [透過 FILE 傳送埠傳送 AS2 訊息](../core/sending-an-as2-message-over-a-file-send-port.md)

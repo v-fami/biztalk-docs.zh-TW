@@ -12,11 +12,11 @@ caps.latest.revision: "18"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0914a41d83f7838211c9fff39e4d0e96b09a6595
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c80e3a5126a56b945b2aa7b53aec71fbe83d678a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-install-an-assembly-in-the-gac"></a>如何在 GAC 中安裝組件
 手動安裝和解除安裝使用隨附的 Gacutil 工具全域組件快取 (GAC) 中的 BizTalk 組件[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]。  
@@ -62,13 +62,13 @@ ms.lasthandoff: 09/20/2017
   
 2.  輸入以下內容：  
   
-     `gacutil /u`\<*完整組件名稱*>  
+     `gacutil /u`\<*完整組件名稱*\>  
   
      例如，輸入：  
      `gacutil /u "hello,Version=1.0.0.0, Culture=neutral, PublicKeyToken=0123456789ABCDEF"`
        
-## <a name="see-also"></a>另請參閱  
- [部署 BizTalk 組件從 Visual Studio 到 BizTalk 應用程式](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md)  
+## <a name="see-also"></a>請參閱  
+ [從 Visual Studio 將 BizTalk 組件部署到 BizTalk 應用程式](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md)  
 [解除部署 BizTalk 應用程式](../core/undeploying-biztalk-applications.md)   
  [如何解除安裝 BizTalk 應用程式](../core/how-to-uninstall-a-biztalk-application.md)   
  [如何從 BizTalk 群組刪除 BizTalk 應用程式](../core/how-to-delete-a-biztalk-application-from-the-biztalk-group.md)

@@ -21,11 +21,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4d05d9d0d98a82c2ded297a6cd8bee9d7bcc9a6e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1621973fed0c7a87538e3ed18161f05c4c9cf9e6
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="sso-affiliate-applications"></a>SSO 分支機構應用程式
 「企業單一登入」(SSO) 分支機構應用程式是代表系統或子系統 (如主控件、後端系統或您使用 SSO 連接的商務應用程式產品線) 的邏輯實體。 分支機構應用程式代表後端系統，如大型主機或 UNIX 電腦。 它也可以代表應用程式 (如 SAP)，或系統的子部分 (如 Benefits 或 Pay stub 子系統)。  
@@ -101,9 +101,9 @@ ms.lasthandoff: 09/20/2017
   
 |應用程式欄位|Description|Description|  
 |------------------------|-----------------|-----------------|  
-|欄位 [0]|\<*認證*>: Unmasked 加上遮罩|決定一般使用者必須提供才能連接分支機構應用程式的認證類型 (使用者識別碼、密碼、智慧卡)，以及此認證是否加上遮罩 (也就是說，是否在畫面上顯示使用者輸入的字元)。<br /><br /> 分支機構應用程式有多少個認證就可以輸入相同數目的欄位，但第一個欄位必須是使用者識別碼。<br /><br /> 建立應用程式後就無法變更此屬性。|  
+|欄位 [0]|\<*認證*\>: Unmasked 加上遮罩|決定一般使用者必須提供才能連接分支機構應用程式的認證類型 (使用者識別碼、密碼、智慧卡)，以及此認證是否加上遮罩 (也就是說，是否在畫面上顯示使用者輸入的字元)。<br /><br /> 分支機構應用程式有多少個認證就可以輸入相同數目的欄位，但第一個欄位必須是使用者識別碼。<br /><br /> 建立應用程式後就無法變更此屬性。|  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理分支機構應用程式](../core/managing-affiliate-applications.md)   
  [SSO 對應](../core/sso-mappings.md)   
  [管理使用者對應](../core/managing-user-mappings.md)

@@ -15,11 +15,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c4eb20ba2a9dc91f9b8bd17442f8bd3e7986fcfa
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a1111322d59f8ff5c6ba6209aa48eb515a23c72f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="http-adapter-samples"></a>HTTP 配接器範例
 本節包含的範例將示範使用 BizTalk HTTP 配接器時可使用的進階功能。  
@@ -31,9 +31,9 @@ ms.lasthandoff: 09/20/2017
 >   
 >      按一下左面板上的 [機器名稱]，再按一下右面板上的 [ISAPI 及 CGI 限制]，然後按一下 [加入 ISAPI 或 CGI 路徑]：  
 >   
->      在 64 位元電腦上加入： C:\Program Files (x86) \Microsoft BizTalk Server\<版本 > \HttpReceive64\BTSHTTPReceive.dll  
+>      在 64 位元電腦上加入： C:\Program Files (x86) \Microsoft BizTalk Server\<版本\>\HttpReceive64\BTSHTTPReceive.dll  
 >   
->      在 32 位元電腦上加入： C:\Program Files (x86) \Microsoft BizTalk Server\<版本 > \HttpReceive\BTSHTTPReceive.dll  
+>      在 32 位元電腦上加入： C:\Program Files (x86) \Microsoft BizTalk Server\<版本\>\HttpReceive\BTSHTTPReceive.dll  
 >   
 >      檢查允許的延伸模組路徑或執行。  
 > 2.  按一下左面板上的 [HTTPRequestResponseSample]，再按一下中間面板上的 [處理常式對應]，然後按一下具有下列設定的 [新增指令碼對應]：  
@@ -42,9 +42,9 @@ ms.lasthandoff: 09/20/2017
 >   
 >      可執行檔：  
 >   
->      在 64 位元電腦上加入： C:\Program Files (x86) \Microsoft BizTalk Server\<版本 > \HttpReceive64\  
+>      在 64 位元電腦上加入： C:\Program Files (x86) \Microsoft BizTalk Server\<版本\>\HttpReceive64\  
 >   
->      在 32 位元電腦上加入： C:\Program Files (x86) \Microsoft BizTalk Server\<版本 > \HttpReceive\  
+>      在 32 位元電腦上加入： C:\Program Files (x86) \Microsoft BizTalk Server\<版本\>\HttpReceive\  
 >   
 >      要求的限制：  
 >   

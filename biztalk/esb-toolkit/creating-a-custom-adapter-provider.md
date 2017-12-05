@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: feb9efa5ad879e86f32ca1963313dadc7e6a9d7e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1f70855621f03011c92be7b04b844122d98be48f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="creating-a-custom-adapter-provider"></a>建立自訂配接器提供者
 解析程式執行與上一節所述之後，動態解析服務會檢查結果是否端點 （不轉換）。 如果端點，服務會具現化配接器管理員，也就是執行個體的**AdapterMgr**類別。  
@@ -55,6 +55,6 @@ ms.lasthandoff: 09/20/2017
   
 1.  建立衍生自的組件**BaseAdapterProvider**基底類別，並包含**SetEndPoint**設定端點的訊息內容屬性的方法。  
   
-2.  註冊配接器提供者將它加入至 Esb.config 組態檔使用 **\<adapterProvider >**項目以做為配接器名稱**名稱**屬性，完整做為類別的限定的名稱**類型**屬性，做為 moniker **moniker** （應該以逗號分隔多個值） 的屬性，並選擇性地，實際的配接器的組件做為**adapterAssembly**屬性。  
+2.  註冊配接器提供者將它加入至 Esb.config 組態檔使用 **\<adapterProvider\>** 項目以做為配接器名稱**名稱**屬性，做為類別的完整的名稱**類型**屬性，做為 moniker **moniker** （應該以逗號分隔多個值） 的屬性，以及 （選擇性） 的組件實際的配接器做**adapterAssembly**屬性。  
   
 3.  在全域組件快取中註冊新的組件。

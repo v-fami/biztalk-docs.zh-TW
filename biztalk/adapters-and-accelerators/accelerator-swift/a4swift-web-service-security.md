@@ -24,11 +24,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8510172517d58475d855d258b72b16271835dbc1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d484f3a28896528ac2ab9367a8a7a0bbe3604801
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="a4swift-web-service-security"></a>A4SWIFT Web 服務安全性
 [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)]Web 服務，依預設會安裝在高度安全的混合式安全性模型。 在 ASP.NET 模型中有 Web 服務之間的信任界限[!INCLUDE[btsWinSharePointSvcsNoVersion](../../includes/btswinsharepointsvcsnoversion-md.md)]站台，而[!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)]資料庫。  
@@ -46,7 +46,7 @@ ms.lasthandoff: 09/20/2017
   
  網際網路通訊協定安全性 (IPSec) 也可以實作之間的通訊安全[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]和[!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)]。  
   
- 如需有關實作之間的安全通訊的 IPSec[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]和[!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)]，請參閱中的 < 保護您部署的 BizTalk Server >[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]幫助。  
+ 如需有關實作之間的安全通訊的 IPSec[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]和[!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)]，請參閱 < 保護您部署的 BizTalk Server 「 BizTalk Server 說明中。  
   
   
 ## <a name="message-level-security"></a>訊息層級安全性  

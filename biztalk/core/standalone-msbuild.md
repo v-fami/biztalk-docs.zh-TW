@@ -12,14 +12,14 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 584d9d5fa8e0c0f6be64d3761fabe45cd08e5a26
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fcee1d06bf57eb2ea98c214501c2499f0ce83d95
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="standalone-msbuild"></a>獨立式 MSBUILD
-**專案建置**元件[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]可讓您建立[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]沒有方案[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]。 若要安裝**專案建置**您在伺服器上，選取元件**專案建置元件**選項**其他軟體類別**在安裝期間。 您應該取消選取**開發者工具與 SDK**安裝[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]沒有的電腦上[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]。  
+**專案建置**元件[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]可讓您建立 BizTalk Server solutions 不含[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]。 若要安裝**專案建置**您在伺服器上，選取元件**專案建置元件**選項**其他軟體類別**在安裝期間。 您應該取消選取**開發者工具與 SDK**安裝[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]沒有的電腦上[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]。  
   
  如需 MSBUILD 的詳細資訊，請參閱[http://go.microsoft.com/fwlink/?LinkId=193567](http://go.microsoft.com/fwlink/?LinkId=193567)。  
   
@@ -36,4 +36,4 @@ ms.lasthandoff: 09/20/2017
     ```  
   
     > [!TIP]
-    >  您可能需要設定 PATH 環境變數，以指向資料夾 msbuild.exe 所在 (\<*windows 安裝目錄*> \Microsoft.NET\Framework\v4)。
+    >  您可能需要設定 PATH 環境變數，以指向資料夾 msbuild.exe 所在 (\<*windows 安裝目錄*\>\Microsoft.NET\Framework\v4)。

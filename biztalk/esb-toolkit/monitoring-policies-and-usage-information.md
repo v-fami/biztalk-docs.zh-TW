@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4909b96e74d34d469decd11c1ffba0e49217ff7e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b8ea9c6151b617e2eef2aa5404d6415f8dd71ded
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="monitoring-policies-and-usage-information"></a>監視原則和使用方式資訊
 SOA Service Manager 提供一套機制，可讓您建立和編輯監視原則。 例如，圖 1 顯示套用的原則範本，並啟動應用程式監視的畫面。  
@@ -44,4 +44,4 @@ SOA Service Manager 提供一套機制，可讓您建立和編輯監視原則。
  **SOA 服務管理員顯示個別訊息的詳細資料**  
   
 > [!NOTE]
->  SOA 服務管理員和工作臺產品是從 SOA 軟體，Inc.與整合的產品[!INCLUDE[prague](../includes/prague-md.md)]。 如需有關 SOA 軟體和他們的產品，以及下載最新的安裝和操作指示的詳細資訊，請參閱[SOA 軟體](http://go.microsoft.com/fwlink/?LinkId=188559)網站。
+>  SOA 軟體，Inc.的產品與 BizTalk Server 整合的 SOA Service Manager 和工作臺的產品。 如需有關 SOA 軟體和他們的產品，以及下載最新的安裝和操作指示的詳細資訊，請參閱[SOA 軟體](http://go.microsoft.com/fwlink/?LinkId=188559)網站。

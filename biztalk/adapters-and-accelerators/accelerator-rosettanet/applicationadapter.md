@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: dc2808f8cdc2d24a2f7c13864a153361984d0981
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ee9d04f98da5e9b8aa1faba81f32fe5ec37d23b9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="applicationadapter"></a>ApplicationAdapter
 ApplicationAdapter 範例會示範當您收到訊息時，如何從公開程序和私用程序 (回應者或啟動者) 傳送通知。 您可以利用想要的任何其他功能自訂這個範例。  
@@ -27,7 +27,7 @@ ApplicationAdapter 範例會示範當您收到訊息時，如何從公開程序�
   
  如果您變更 ApplicationAdapter 範例或 ApplicationAdapter 範例所依賴的任何外部環境變數，則必須重新啟動裝載 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 公開程序的 BizTalk 主控件服務。  
   
- ApplicationAdapter 範例程式碼位於\<*磁碟機*>: files\ BizTalk\<版本 > Accelerator for RosettaNet\SDK\ApplicationAdapter\\。  
+ ApplicationAdapter 範例程式碼位於\<*磁碟機*\>: files\ BizTalk\<版本\>Accelerator for RosettaNet\SDK\ApplicationAdapter\\.  
   
 ## <a name="demonstrates"></a>示範  
  ApplicationAdapter 範例會示範如何通知回應者私用程序，公開程序已經收到訊息。 通知會指示訊息類別、來源合作對象名稱、目的合作對象名稱、PIP 代碼、PIP 版本以及 PIP 執行個體識別碼。 您可以對動作或回應訊息傳送這個通知。  
@@ -57,7 +57,7 @@ ApplicationAdapter 範例會示範當您收到訊息時，如何從公開程序�
   
 #### <a name="to-add-the-application-adapter-to-an-agreement"></a>在協議中加入應用程式配接器  
   
-1.  按一下**啟動**，指向 **所有程式**，指向  [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] **BizTalk\<版本 > Accelerator for RosettaNet**，然後按一下  [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)]**管理主控台**。  
+1.  按一下**啟動**，指向**所有程式**，指向  [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] **BizTalk\<版本\>Accelerator for RosettaNet**，然後按一下按一下[!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)]**管理主控台**。  
   
 2.  在[!INCLUDE[btaBTARNNoVersion](../../includes/btabtarnnoversion-md.md)]管理主控台中，展開  [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)]，然後按一下**協議**。  
   
@@ -67,5 +67,5 @@ ApplicationAdapter 範例會示範當您收到訊息時，如何從公開程序�
   
 5.  按一下向下的箭號**類別名稱**，選取 應用程式配接器類別，然後按一下**確定**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [配接器範例](../../adapters-and-accelerators/accelerator-rosettanet/adapter-samples.md)

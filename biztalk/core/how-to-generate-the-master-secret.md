@@ -15,11 +15,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cfbe186aee99616fa35e8f1e98f67c6ac75593c9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d1a7ee4f8ffe73a71e8c0b2e3d45c7a966669fd8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-generate-the-master-secret"></a>如何產生主要密碼
 您必須具有主要密碼伺服器的管理權限，才可以執行此工作。 此外，您必須從主要密碼伺服器執行此工作。  
@@ -44,16 +44,16 @@ ms.lasthandoff: 09/20/2017
   
 1.  在**啟動**功能表上，按一下 **執行**，然後輸入**cmd**。  
   
-2.  在命令列，移至「企業單一登入」安裝目錄。 預設安裝目錄是*\<磁碟機 >*: \Program Files\Common Files\Enterprise Single Sign-on。  
+2.  在命令列，移至「企業單一登入」安裝目錄。 預設安裝目錄是*\<磁碟機\>*: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-3.  型別 **ssoconfig – generateSecret \<*備份檔案*>**，其中\<*備份檔案*> 是包含主要密碼的檔案名稱。  
+3.  型別 **ssoconfig – generateSecret \<*備份檔案*\>**，其中\<*備份檔案*\>是包含主要密碼的檔案名稱。  
   
      系統會提示您輸入密碼，以保護剛建立的檔案。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [如何備份主要密碼](../core/how-to-back-up-the-master-secret.md)   
  [主要密碼伺服器](../core/master-secret-server.md)   
  [管理主要密碼](../core/managing-the-master-secret.md)

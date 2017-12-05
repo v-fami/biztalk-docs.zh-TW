@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cff3d58712ca8e926ada18519fcebb5fddc7ea65
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 227e6ce16e7cf555a1f600feac215e433a9e7574
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="executereader-executescalar-or-executenonquery-operations-in-oracle-e-business-suite"></a>ExecuteReader、 ExecuteScalar 或 ExecuteNonQuery Oracle E-business Suite 中的作業
 [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]公開一般作業，例如**ExecuteNonQuery**， **ExecuteReader**，和**ExecuteScalar**。 Oracle 資料庫上執行任何 SQL 陳述式，您可以使用這些作業。 這些作業根據回應您取得 SQL 陳述式的類型而有所不同。 如需配接器如何支援這些作業的詳細資訊，請參閱[ExecuteNonQuery、 ExecuteReader 和 ExecuteScalar 作業支援](../../adapters-and-accelerators/adapter-oracle-ebs/support-for-executenonquery-executereader-and-executescalar-operations.md)。  
@@ -172,30 +172,30 @@ ms.lasthandoff: 09/20/2017
  協調流程取用訊息，並將它傳送到 Oracle 資料庫。 從 Oracle 資料庫的回應會儲存在其他的協調流程中定義的檔案位置。 對於回應**ExecuteReader**作業包含結果集，做為資料集。 例如，從 Oracle 資料庫中針對先前的要求訊息的回應是：  
   
 ```  
-\<?xml version="1.0" encoding="utf-8" ?>   
+<?xml version="1.0" encoding="utf-8" ?>   
 <ExecuteReaderResponse xmlns="http://schemas.microsoft.com/OracleEBS/2008/05/GenericOperation/">  
   <ExecuteReaderResult>  
-    \<xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
-      \<xs:element msdata:IsDataSet="true" name="NewDataSet">  
-        \<xs:complexType>  
-          \<xs:sequence>  
-            \<xs:element minOccurs="0" maxOccurs="unbounded" name="NewTable">  
-              \<xs:complexType>  
-                \<xs:sequence>  
-                  \<xs:element minOccurs="0" name="TID" type="xs:decimal" />   
-                  \<xs:element minOccurs="0" name="ACCOUNT" type="xs:decimal" />   
-                  \<xs:element minOccurs="0" name="AMOUNT" type="xs:decimal" />   
-                  \<xs:element minOccurs="0" name="DESCRIPTION" type="xs:string" />   
-                  \<xs:element minOccurs="0" name="TRANSDATE" type="xs:dateTime" />   
-                  \<xs:element minOccurs="0" name="PROCESSED" type="xs:string" />   
-                \</xs:sequence>  
-              \</xs:complexType>  
-            \</xs:element>  
-          \</xs:sequence>  
-        \</xs:complexType>  
-      \</xs:element>  
-    \</xs:schema>  
-    \<diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">  
+    <xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
+      <xs:element msdata:IsDataSet="true" name="NewDataSet">  
+        <xs:complexType>  
+          <xs:sequence>  
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="NewTable">  
+              <xs:complexType>  
+                <xs:sequence>  
+                  <xs:element minOccurs="0" name="TID" type="xs:decimal" />   
+                  <xs:element minOccurs="0" name="ACCOUNT" type="xs:decimal" />   
+                  <xs:element minOccurs="0" name="AMOUNT" type="xs:decimal" />   
+                  <xs:element minOccurs="0" name="DESCRIPTION" type="xs:string" />   
+                  <xs:element minOccurs="0" name="TRANSDATE" type="xs:dateTime" />   
+                  <xs:element minOccurs="0" name="PROCESSED" type="xs:string" />   
+                </xs:sequence>  
+              </xs:complexType>  
+            </xs:element>  
+          </xs:sequence>  
+        </xs:complexType>  
+      </xs:element>  
+    </xs:schema>  
+    <diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">  
       <NewDataSet xmlns="">  
         <NewTable>  
           <TID>1</TID>   
@@ -212,7 +212,7 @@ ms.lasthandoff: 09/20/2017
         ......  
         ......  
       </NewDataSet>  
-    \</diffgr:diffgram>  
+    </diffgr:diffgram>  
   </ExecuteReaderResult>  
 </ExecuteReaderResponse>  
 ```  
@@ -220,5 +220,5 @@ ms.lasthandoff: 09/20/2017
 ## <a name="best-practices"></a>最佳作法  
  您部署和設定 BizTalk 專案之後，您可以為 XML 檔案，稱為繫結檔案匯出組態設定。 產生繫結檔案之後，您可以匯入的組態設定從檔案，因此您不需要建立項目，例如傳送埠和接收相同的協調流程連接埠。 如需繫結檔案的詳細資訊，請參閱[重複使用配接器繫結與 Oracle E-business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/reuse-adapter-bindings-with-oracle-e-business-suite.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [開發 BizTalk 應用程式使用 Oracle E-business Suite 配接器](../../adapters-and-accelerators/adapter-oracle-ebs/develop-biztalk-applications-using-the-oracle-e-business-suite-adapter.md)

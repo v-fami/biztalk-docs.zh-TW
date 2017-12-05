@@ -12,17 +12,17 @@ caps.latest.revision: "40"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 64899c184f8cbe405684387b8f1c2a6230204624
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 61ce04c572c95a1a4e2433d6b046028468eca805
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="known-issues-with-as2-processing"></a>AS2 處理的已知問題
-本節包含描述的已知的問題主題[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]AS2 解決方案。  
+本節中的主題描述 BizTalk Server AS2 解決方案的已知的問題。  
   
 ## <a name="as2-processing-not-supported-on-64-bit-computers"></a>64 位元電腦不支援 AS2 處理  
- [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] AS2 方案不支援在 64 位元電腦上。 AS2 處理只能在 32 位元電腦或 64 位元電腦的 WOW64 模擬器下運作。  
+ BizTalk Server AS2 解決方案不支援在 64 位元電腦上。 AS2 處理只能在 32 位元電腦或 64 位元電腦的 WOW64 模擬器下運作。  
   
 ## <a name="the-as2-receive-pipelines-require-the-account-that-the-biztalk-isolated-host-instance-process-is-running-under-to-be-part-of-the-biztalk-application-users-group"></a>AS2 接收管線需要執行 BizTalk 外掛式主控件執行個體處理序的帳戶，屬於 BizTalk 應用程式使用者群組的成員  
  使用 AS2EdiReceive 或 AS2Receive 管線時，您必須將用來執行 BizTalk 外掛式主控件執行個體處理序的使用者帳戶，新增至 BizTalk 應用程式使用者群組。 AS2EdiReceive 和 AS2Receive 管線會在 BizTalk 外掛式主控件執行個體處理序中執行。  
@@ -35,7 +35,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="use-of-unfolded-and-folded-http-line-headers"></a>使用展開和摺疊的 HTTP 行標頭  
  為求達到最大的互通性，AS2 訊息應該使用展開的 HTTP 行標頭。 資訊服務 (IIS) 7.0 支援只有展開的 HTTP 標頭。 IIS 6.0 支援摺疊與展開的標頭。 然而，並不是所有系統都可以支援每行 80 個字元以上的標頭，針對這類系統，應該使用摺疊的標頭。  
   
- 中 as2 預設[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]是展開的 HTTP 行標頭。  
+ AS2 在 BizTalk Server 中的預設值是展開的 HTTP 行標頭。  
   
 ## <a name="party-resolution-can-be-affected-by-a-localized-name"></a>合作對象解析可能受當地語系化名稱影響  
  BizTalk Server 在輸出的 AS2 訊息執行合作對象解析時，合作對象解析可能受訊息標頭中之當地語系化值的影響。 若 [AS2 屬性] 對話方塊之 [做為 AS2 訊息接收者的合作對象] 頁面中的 AS2-To 合作對象屬性預設為英文的合作對象名稱，而 AS2 訊息 AS2-To 標頭內的值設定為非英文名稱，則會找不到對應。  
@@ -77,7 +77,7 @@ ms.lasthandoff: 09/20/2017
   
  如果您的夥伴無法做為第一個部分 multipart/related 訊息的傳送主體時，您必須建立的管線元件，以正確識別訊息的本文。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [疑難排解 EDI 和 AS2 解決方案](../core/troubleshooting-edi-and-as2-solutions.md)   
  [AS2 方案架構](../core/as2-solution-architecture.md)   
  [開發和設定 BizTalk Server AS2 解決方案](../core/developing-and-configuring-biztalk-server-as2-solutions.md)

@@ -15,17 +15,17 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f07ef6adc96a4f5819cd5438b4a5d24ce6fc0770
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b721294acb07d4c69c5b2ae7b58b0e135625eee8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="adapter-registry-wizard"></a>配接器登錄精靈
 您可以使用配接器登錄精靈來建立設定和註冊自訂的配接器所需的登錄檔。  
   
 ## <a name="location-in-sdk"></a>SDK 中的位置  
- *\<安裝路徑 >*\SDK\Utilities\AdapterRegistryWizard\  
+ *\<安裝路徑\>*\SDK\Utilities\AdapterRegistryWizard\  
   
 ## <a name="to-run-this-utility"></a>執行此公用程式  
  執行 AdapterRegistryWizard.exe 可執行檔，以啟動精靈。 接下來將會出現幾個頁面，提示您輸入有關配接器的資訊，以及配接器支援的屬性。 下列各節將描述「配接器登錄精靈」的各個頁面。  
@@ -74,6 +74,6 @@ ms.lasthandoff: 09/20/2017
 ## <a name="remarks"></a>備註  
  「配接器登錄精靈」公用程式會在「企業單一登入」(SSO) 組態存放區屬性中填入預設值。 如果您的配接器並未使用配接器架構提供的標準屬性頁面做為處理常式和位置配接器屬性，您必須手動編輯登錄檔來修改這些值。 如需這些設定的詳細資訊，請參閱 「 SSO 組態存放區的配接器屬性登錄 」 主題中[登錄配接器](../core/registering-an-adapter.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [在 SDK 中的公用程式](../core/utilities-in-the-sdk.md)   
  [註冊配接器](../core/registering-an-adapter.md)

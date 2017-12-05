@@ -12,11 +12,11 @@ caps.latest.revision: "30"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4a8d82a69b342c278e7cb17de8759d4986a71cd6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fab8d26f7f4da3c60587bd7d2863941080c69953
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="browse-search-and-get-metadata-for-sql-operations-using-the-sql-adapter"></a>瀏覽、 搜尋及使用 SQL 配接器的 SQL 作業取得中繼資料
 本節提供有關如何使用資訊[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]、 [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]，而[!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]。 使用這些[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]元件，您可以：  
@@ -215,7 +215,7 @@ ms.lasthandoff: 09/20/2017
 6.  按一下 **[確定]**。 結構描述檔案會儲存具有.xsd 副檔名為 BizTalk 專案的相同位置。  
   
     > [!NOTE]
-    >  如果您使用[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]特定的命名慣例，會建立檔案的預設產生的 SQL Server 成品的中繼資料。 產生的 WSDL 會包含**fileNameHint**註解標記，其中包含應指派至 XSD 檔案的名稱。 例如，資料表作業的結構描述檔的檔案名稱提示會遵循的慣例 TableOperation。\<結構描述 >。\<tablename >。 如果您想要自訂所產生的 XSD 檔案的名稱，您可以提供中的前置詞**檔案名稱前置詞**方塊。 最後，XSD 檔案的名稱是根據抵達為檔案名稱前置詞 + fileNameHint + 唯一整數 （如有必要，請確定檔案名稱是唯一）。  
+    >  如果您使用[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]特定的命名慣例，會建立檔案的預設產生的 SQL Server 成品的中繼資料。 產生的 WSDL 會包含**fileNameHint**註解標記，其中包含應指派至 XSD 檔案的名稱。 例如，資料表作業的結構描述檔的檔案名稱提示會遵循的慣例 TableOperation。\<結構描述\>。\<tablename\>。 如果您想要自訂所產生的 XSD 檔案的名稱，您可以提供中的前置詞**檔案名稱前置詞**方塊。 最後，XSD 檔案的名稱是根據抵達為檔案名稱前置詞 + fileNameHint + 唯一整數 （如有必要，請確定檔案名稱是唯一）。  
   
     > [!NOTE]
     >  [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]也會建立包含時指定的繫結屬性的繫結檔案 （XML 檔案） 產生的結構描述的作業和要叫用作業的 SOAP 動作。 您可以將此繫結檔案匯入[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]管理主控台來建立 WCF 自訂連接埠或 BizTalk SQL 配接器連接埠與連接 URI、 繫結屬性和 SOAP 動作設定。 如需詳細資訊，請參閱[設定要使用 SQL 配接器使用的連接埠繫結檔案的實體連接埠繫結](../../adapters-and-accelerators/adapter-sql/configure-a-physical-port-binding-using-a-port-binding-file-to-sql-adapter.md)。
@@ -263,5 +263,5 @@ ms.lasthandoff: 09/20/2017
   
  您可以選取任何節點中所列**可用的類別和作業**方塊。 如果您選取類別目錄節點，則會選取所有適用於該節點和其子節點的作業。 例如，若要產生 WCF 用戶端的所有員工資料表中顯示的作業，您可以選取 [員工] 節點。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [使用 SQL 配接器的 Visual Studio 中的 SQL Server 作業取得中繼資料](../../adapters-and-accelerators/adapter-sql/get-metadata-for-sql-server-operations-in-visual-studio-using-the-sql-adapter.md)

@@ -13,11 +13,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e9b2299407986ef2fca53304b536c5ce89625941
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 362aa1f81158c9d9f1135c9bff25c64d7d745953
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="syntax-for-an-exec-statement-in-sap"></a>SAP 的 EXEC 陳述式的語法
 下節說明實作 EXEC 陳述式的文法規格[!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)]。 請注意，在數個情況下，語法與 TRANSACT-SQL 語法稍有不同。  
@@ -30,11 +30,11 @@ EXEC rfc_name {<argument_element>} [ , …n ]  {;}[0,1] [ OPTION <disabledataval
   
 -   **rfc_name**指定執行的函式呼叫的名稱。  
   
--   **< argument_element >** :: = @param_name = [0，1] \<const > {[輸入 &#124;輸出]} [0，1]  
+-   **< argument_element >** :: = @param_name = [0，1] \<const\> {[輸入 &#124;輸出]} [0，1]  
   
     -   **param_name**指定函式的介面中定義的參數名稱。  
   
-    -   **\<const >** :: = 整數 &#124; 真實 &#124; 字串 &#124; 嗎？ &#124;NULL &#124;xml_element  
+    -   **\<const\>**  :: = 整數 &#124; 真實 &#124; 字串 &#124; 嗎？ &#124;NULL &#124;xml_element  
   
 -   **選項**提供您想要如何呈現資料的選項。 可用的選項如下：  
   
@@ -59,7 +59,7 @@ EXEC rfc_name {<argument_element>} [ , …n ]  {;}[0,1] [ OPTION <disabledataval
     <FIELDNAME_2 xmlns="http://Microsoft.LobServices.Sap/2007/03/Types/Rfc/">value</FIELDNAME_2>  
     ...  
     ...  
-\</ PARAM_NAME>  
+</ PARAM_NAME>  
 ```  
   
  資料表 xml_element 如下所示：  
@@ -74,7 +74,7 @@ EXEC rfc_name {<argument_element>} [ , …n ]  {;}[0,1] [ OPTION <disabledataval
     <STRUCT_NAME/>  
     ...  
     ...  
-\</ PARAM_NAME>  
+</ PARAM_NAME>  
 ```  
   
  例如，結構類型的 XML 項目如下所示：  
@@ -157,5 +157,5 @@ EXEC rfc_name {<argument_element>} [ , …n ]  {;}[0,1] [ OPTION <disabledataval
     > [!NOTE]
     >  SELECT 陳述式，[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]傳回`TIMS`欄位值為.NET`System.TimeSpan`物件。 如需 SELECT 陳述式的詳細資訊，請參閱[SAP 中的 SELECT 陳述式的語法](../../adapters-and-accelerators/adapter-sap/syntax-for-a-select-statement-in-sap.md)。  
   
-## <a name="see-also"></a>另請參閱  
- [關於.NET Framework Data Provider for mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/about-the-net-framework-data-provider-for-mysap-business-suite.md)
+## <a name="see-also"></a>請參閱  
+ [關於 .NET Framework Data Provider for mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/about-the-net-framework-data-provider-for-mysap-business-suite.md)

@@ -15,11 +15,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7c93f7c07f92c7517dbc84403747da869e0d4ceb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 44a9696f907928f31a740e4d8545567921a82df9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-7-creating-and-configuring-ports"></a>步驟 7： 建立及設定連接埠
 在這個步驟中，您會建立和設定與商務程序進行通訊所使用的連接埠。 每一個連接埠都有類型、方向和繫結等屬性， 分別指定通訊的方向和模式、訊息的傳送或接收位置、以及通訊的進行方式。  
@@ -46,7 +46,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  在協調流程 檢視中，展開**類型**，依序展開**連接埠類型**，依序展開**ContosoSQLReqResponsePortName**，依序展開**Operation_1**，然後選取**要求**。  
   
-2.  在 屬性 視窗中，選取**訊息類型**屬性中，展開**結構描述**，然後按一下  **\<從參考組件選取 >**。  
+2.  在 屬性 視窗中，選取**訊息類型**屬性中，展開**結構描述**，然後按一下  **\<從參考組件選取\>**.  
   
 3.  在 選取成品類型 對話方塊中，按一下  **ContosoPriceAndAvailability**。  
   
@@ -54,7 +54,7 @@ ms.lasthandoff: 09/20/2017
   
 5.  在協調流程檢視下**Operation_1**，選取**回應**如**ContosoSQLReqResponsePortName**連接埠類型。  
   
-6.  在 屬性 視窗中，選取**訊息類型**屬性中，展開**結構描述**，然後按一下  \<**從參考組件選取 >**。  
+6.  在 屬性 視窗中，選取**訊息類型**屬性中，展開**結構描述**，然後按一下  \<**從參考組件選取\>**.  
   
 7.  在**選取成品類型**對話方塊中，按一下  **ContosoPriceAndAvailability**。  
   
@@ -76,5 +76,5 @@ ms.lasthandoff: 09/20/2017
   
 7.  在**檔案**功能表上，按一下 **全部儲存**。  
   
-## <a name="see-also"></a>另請參閱  
- [步驟 8： 建置與部署 Contoso 協調流程](../../adapters-and-accelerators/accelerator-rosettanet/step-8-building-and-deploying-the-contoso-orchestration.md)
+## <a name="see-also"></a>請參閱  
+ [步驟 8：建立與部署 Contoso 協調流程](../../adapters-and-accelerators/accelerator-rosettanet/step-8-building-and-deploying-the-contoso-orchestration.md)

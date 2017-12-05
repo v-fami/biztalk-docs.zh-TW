@@ -15,11 +15,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 06b110b911c8cba2dbc643928e8b97e3746935a7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 23d8aac412bf81492793eec2f4936d84b54fda0d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="lesson-2-adding-an-xml-send-port"></a>第 2 課： 加入 XML 傳送埠
 您可以使用傳送埠定義您想要傳送的訊息的方式。 在這一課，您可以建立傳送埠，以便定義傳送 XML 訊息的方式。  
@@ -36,7 +36,7 @@ ms.lasthandoff: 09/20/2017
   
 5.  在 [FILE 傳輸屬性] 對話方塊中，按一下**瀏覽**。  
   
-6.  在 [瀏覽資料夾] 對話方塊中，移至**\<磁碟機 >: \Labs\Outbound**資料夾，然後再按一下**確定**。  
+6.  在 [瀏覽資料夾] 對話方塊中，移至**\<磁碟機\>: \Labs\Outbound**資料夾，然後再按一下**確定**。  
   
 7.  在 [FILE 傳輸屬性] 對話方塊中，確定**%MessageID%.xml**輸入**檔案名稱**方塊，然後再按一下**確定**。  
   

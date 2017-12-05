@@ -12,11 +12,11 @@ caps.latest.revision: "20"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8b34d546de0bbb2a79300c4f672bdfcecdab5958
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 955c526c39a1cbb376a0d83848554bdeb6cc15c7
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="adding-and-removing-custom-functoids-from-the-visual-studio-toolbox"></a>加入和移除自訂運算質從 Visual Studio 工具箱
 本主題描述如何新增自訂運算質和移除自訂運算質從[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]工具箱。  
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/20/2017
   
     1.  使用 [Windows 檔案總管] 找出實作自訂運算質的組件。  
   
-    2.  若要將組件複製\< *BizTalk Server 安裝資料夾*>**\Developer Tools\Mapper 延伸**目錄。 BizTalk 對應工具會在此位置尋找自訂運算質。  
+    2.  若要將組件複製\< *BizTalk Server 安裝資料夾*\>**\Developer Tools\Mapper 延伸**目錄。 BizTalk 對應工具會在此位置尋找自訂運算質。  
   
     3.  從[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]BizTalk 專案中，在**工具**功能表上，按一下 **選擇工具箱項目**。  
   
@@ -112,5 +112,5 @@ ms.lasthandoff: 09/20/2017
   
     3.  當您完成時，輸入**結束**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [開發自訂運算質](../core/developing-custom-functoids.md)

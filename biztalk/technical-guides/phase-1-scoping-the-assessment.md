@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 16ab4286ba70a8bb14ae5ec726d17b3bde81d7fd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3d0d3cc9d02f9e68c171f950e7681e5f2ca2d787
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="phase-1-scoping-the-assessment"></a>階段 1： 設定評估的範圍
 本主題描述 BizTalk Server 效能評定的 「 範圍 」 階段的層面。  
@@ -27,7 +27,7 @@ ms.lasthandoff: 09/20/2017
  效能評定完成任何其他工作之前，應該考量下列因素。 這些因素可協助您決定一般方向的 「 範圍 」 階段，而且會針對效能評估很好的起點。  
   
 ### <a name="message-load"></a>訊息負載  
- 請務必考慮直接從一開始要如何複寫實際上會經過生產系統的訊息負載。 比方說，如果在生產環境中 20%的訊息將會 < 20 KB 的大小，將會是百分之 50 \<100 KB 的大小和剩餘的 30%，可能是最多 1 MB 的大小，是很重要，這會複寫在實驗室中。  
+ 請務必考慮直接從一開始要如何複寫實際上會經過生產系統的訊息負載。 比方說，如果在生產環境中 20%的訊息將會 < 20 KB 的大小，將會是百分之 50 < 100 KB 的大小和剩餘的 30%，可能是最多 1 MB 的大小，是很重要，這會複寫在實驗室中。  
   
 ### <a name="develop-a-brief-detail-of-the-scenarios-to-be-tested"></a>開發簡短的測試案例詳細資料  
  識別要測試之測試案例之後，務必先識別主要元件所涉及的。 這包括 BizTalk Server 元件 （例如傳訊和協調流程） 和其他元件，包括協力廠商技術，例如 MQSeries 或 SAP。 您一定要知道的所有這些一開始就能協助您的實驗室複雜性量測計，而且可讓您規劃在參與時所需的技術。  
@@ -278,10 +278,10 @@ ms.lasthandoff: 09/20/2017
   
     |狀態|輸送量|平均延遲|%< 2 秒|# 個測試回合|BizTalk Server 的電腦數目|# 個訊息|平均訊息大小|有效期間|  
     |------------|----------------|---------------------|-------------------|---------------------|------------------------------------|--------------------|--------------------------|--------------|  
-    |向外延展|140 訊息/秒|0.777 秒|99.3%|2|6|270,000|609 位元組|30 分鐘|  
+    |相應放大|140 訊息/秒|0.777 秒|99.3%|2|6|270,000|609 位元組|30 分鐘|  
     |最佳|50 訊息/秒|1.12 秒|99.12%|17|2|360,000|609 位元組|2 小時|  
     |基準|30 訊息/秒|1.52 秒|92.9 %|4|2|36,000|609 位元組|20 分鐘|  
-    |目標|5 訊息/秒|\<2 秒|90%|-|2|-|-|-|  
+    |目標|5 訊息/秒|< 2 秒|90%|-|2|-|-|-|  
   
 ## <a name="define-all-deliverables-that-are-required-at-the-onset-of-the-performance-assessment"></a>定義所有交付項目所需的效能評定開始  
  請務必同意採用 BizTalk Server 效能評估之前必須先準備就緒的交付項目。 下一節會描述應該有的效能評定開始交付項目。  
@@ -340,5 +340,5 @@ ms.lasthandoff: 09/20/2017
   
 -   **計劃的自動化負載測試和負載**-建立效能評定的測試資料設定檔之後，務必考慮如何執行負載測試環境中。 BizTalk Server 2010 負載測試，我們會使用 Visual Studio 2010 負載測試。 如需如何簡化使用 Visual Studio 2010 負載測試的詳細資訊，請參閱[有助於自動化測試使用 Visual Studio](../technical-guides/using-visual-studio-to-facilitate-automated-testing.md)。  
   
-## <a name="see-also"></a>另請參閱  
- [效能評定階段](../technical-guides/phases-of-a-performance-assessment.md)
+## <a name="see-also"></a>請參閱  
+ [效能評定的階段](../technical-guides/phases-of-a-performance-assessment.md)

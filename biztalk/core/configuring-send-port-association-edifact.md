@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 80d62b919e6d0546f103417af08b52dc3e536ea1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 629bde13f8edc9074b3e6bcb4741746e3de8e1a6
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="configuring-send-port-association-edifact"></a>設定傳送埠關聯 (EDIFACT)
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 使用傳送埠關聯以解析外寄 EDI 交換的協議。 解析 EDI 交換所用協議的方法是，將訂閱該訊息的傳送埠和與協議相關聯的傳送埠進行比對。 本主題提供如何將傳送埠關聯至協議的指示。  
@@ -25,7 +25,7 @@ ms.lasthandoff: 09/20/2017
 >  如果相同的傳送埠與多個協議關聯，BizTalk Server 會產生錯誤。  
   
 > [!IMPORTANT]
->  在 [!INCLUDE[prague](../includes/prague-md.md)] 中，傳送埠關聯是在協議層級完成。 但是在 BizTalk Server 2009 中，傳送埠是在合作對象層級受到關聯。 回溯相容性，**傳送埠**頁面也會提供做為合作對象屬性的一部分 (請參閱[設定一般合作對象屬性](../core/configuring-general-party-properties.md))。 當您將傳送埠與協議相關聯後，傳送埠設定也會傳播到合作對象設定，而您就可以在此頁面看到該傳送埠關聯。 但是，並非反之亦然。 在您將傳送埠與合作夥伴相關聯後，該傳送埠無法自動出現在協議設定中。  
+>  在 BizTalk Server 傳送埠關聯是只能在協議層級。 但是在 BizTalk Server 2009 中，傳送埠是在合作對象層級受到關聯。 回溯相容性，**傳送埠**頁面也會提供做為合作對象屬性的一部分 (請參閱[設定一般合作對象屬性](../core/configuring-general-party-properties.md))。 當您將傳送埠與協議相關聯後，傳送埠設定也會傳播到合作對象設定，而您就可以在此頁面看到該傳送埠關聯。 但是，並非反之亦然。 在您將傳送埠與合作夥伴相關聯後，該傳送埠無法自動出現在協議設定中。  
   
 > [!IMPORTANT]
 >  傳送埠關聯格線會停用此頁面如果您清除了**本機 BizTalk 會處理合作對象或支援此合作對象傳送訊息所收到的訊息**時建立您要為其建立的合作對象 核取方塊協議。  
@@ -49,5 +49,5 @@ ms.lasthandoff: 09/20/2017
   
 6.  按一下**套用**繼續進行組態之前接受變更，或按一下**確定**來驗證變更，然後關閉對話方塊。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [設定交換設定 (EDIFACT)](../core/configuring-interchange-settings-edifact.md)

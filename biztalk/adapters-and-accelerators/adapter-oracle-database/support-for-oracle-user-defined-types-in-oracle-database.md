@@ -12,11 +12,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c8c4f29ce8b11f74db5ff7a145449f7f212f6f6b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3de61b0659e06ebbf7b95f0b4adcad210c5c986e
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="support-for-oracle-user-defined-types-in-oracle-database"></a>Oracle 資料庫中的 Oracle 使用者定義型別支援
 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]支援 Oracle 資料庫中執行作業的成品包含 Oracle User-Defined 型別 (Udt)。 Udt 中可以存在的下列成品：  
@@ -73,7 +73,7 @@ ms.lasthandoff: 09/20/2017
   
  **在 BizTalk Server**  
   
--   手動加入在步驟 4 建立在 「 設計階段 」 到全域組件快取 (GAC) 中您的電腦上的 Oracle UDT 組件。 或者，您可以手動複製 Oracle UDT 組件，BizTalk Server 安裝位置下。 如[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]，這通常是\<安裝磁碟機 >: \Program Files\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]。  
+-   手動加入在步驟 4 建立在 「 設計階段 」 到全域組件快取 (GAC) 中您的電腦上的 Oracle UDT 組件。 或者，您可以手動複製 Oracle UDT 組件，BizTalk Server 安裝位置下。 BizTalk server，這通常是\<安裝磁碟機\>: \Program Files\Microsoft BizTalk Server。  
   
 -   設定時[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]Wcf-custom 或 Wcf-oracledb 連接埠，在**繫結**索引標籤上，指定 Oracle UDT 組件位置的**UserAssembliesLoadPath**繫結屬性。 這個繫結屬性的相關資訊，請參閱[Oracle 資料庫的設定繫結屬性](../../adapters-and-accelerators/adapter-oracle-database/configure-the-binding-properties-for-oracle-database.md)。  
   
@@ -83,5 +83,5 @@ ms.lasthandoff: 09/20/2017
   
 -   指定的 Oracle UDT 組件位置**UserAssembliesLoadPath**繫結屬性。 這個繫結屬性的相關資訊，請參閱[Oracle 資料庫的設定繫結屬性](../../adapters-and-accelerators/adapter-oracle-database/configure-the-binding-properties-for-oracle-database.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [哪些作業可以是執行使用配接器？](https://msdn.microsoft.com/library/cc185219(v=bts.10).aspx)

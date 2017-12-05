@@ -12,11 +12,11 @@ caps.latest.revision: "35"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 090c53b91ad30f522bc5522fbeb457d7de868456
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d718450dfd4db1fd6d695c1a3ecc21f9f1fd8deb
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="known-issues-with-the-wcf-lob-adapter-sdk"></a>WCF LOB Adapter SDK 的已知的問題
 本主題描述與相關聯的已知的問題[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。 它也會提供部分這些問題的解決方式。  
@@ -80,7 +80,7 @@ echoAdapterProxy.Open();
  **解析**： 選取個別的作業，而非選取整個類別。  
   
 ### <a name="error-with-add-adapter-service-reference-visual-studio-plug-in"></a>錯誤與新增配接器服務參考 Visual Studio 外掛程式  
- **問題**： 在 BizTalk 專案在 Visual Studio 中，如果已經使用所產生 proxy [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]，從相同的配接器產生另一個 proxy，則會產生此錯誤:"命名空間 '\<全域命名空間 >'已經包含 '{合約 name}' 的定義當編譯專案。 」  
+ **問題**： 在 BizTalk 專案在 Visual Studio 中，如果已經使用所產生 proxy [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]，從相同的配接器產生另一個 proxy，則會產生此錯誤:"命名空間 '\<全域命名空間\>' 已經包含 '{合約 name}' 的定義當編譯專案。 」  
   
  此版本中不允許編輯的 proxy。  
   
@@ -92,7 +92,7 @@ echoAdapterProxy.Open();
  **解析**: BizTalk 專案中移除多餘的 XML 結構描述檔案、 搜尋或瀏覽所需的中繼資料，使用 取用配接器服務參考和重新產生新的 XML 結構描述檔案。  
   
 ### <a name="error-with-rootnode-typename-in-biztalk-projects"></a>RootNode TypeName 在 BizTalk 專案中的錯誤  
- **問題**： 在 Visual Studio 中，如果從產生的結構描述在 BizTalk 專案[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]包含無效的字元或保留的字的**RootNode TypeName**屬性，在會發生下列錯誤編譯時間: 「 節點\<參照節點 >-指定這個根節點的有效.NET 類型名稱。  此根節點的目前的.NET 類型名稱無效 （是 BizTalk 保留的關鍵字或無效 C# 識別項）。  
+ **問題**： 在 Visual Studio 中，如果從產生的結構描述在 BizTalk 專案[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]包含無效的字元或保留的字的**RootNode TypeName**屬性，在會發生下列錯誤編譯時間: 「 節點\<參照節點\>-指定這個根節點的有效.NET 類型名稱。  此根節點的目前的.NET 類型名稱無效 （是 BizTalk 保留的關鍵字或無效 C# 識別項）。  
   
  **解析**： 選取錯誤中參考的根節點，然後在內容中，移除任何不合法的字元或保留的字從**RootNode TypeName**屬性。  
   
@@ -151,5 +151,5 @@ Msiexec.exe /package AdapterFramework.msi /qr
  **解析**： 解除安裝再重新安裝 BizTalk Server。  
   
  
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [BizTalk Server 使用者入門](../../core/getting-started-with-biztalk-server.md)

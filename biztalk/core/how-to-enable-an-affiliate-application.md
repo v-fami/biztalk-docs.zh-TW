@@ -16,11 +16,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ca2e0d03b233ffdf6bc0db759133062928aa22ef
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2a0e4776b60b81256552552c60aa1abb8abdcde8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-enable-an-affiliate-application"></a>如何啟用分支機構應用程式
 您可以使用 MMC 嵌入式管理單元或命令列，啟用指定的分支機構應用程式。  
@@ -37,14 +37,14 @@ ms.lasthandoff: 09/20/2017
   
 1.  在**啟動**功能表上，按一下 **執行**，然後輸入**cmd**。  
   
-2.  在命令列，移至「企業單一登入」安裝目錄。 預設安裝目錄是\<*磁碟機*>: \Program Files\Common Files\Enterprise Single Sign-on。  
+2.  在命令列，移至「企業單一登入」安裝目錄。 預設安裝目錄是\<*磁碟機*\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-3.  型別**ssomanage-enableapp *\<應用程式名稱 >***，其中\<*應用程式名稱*> 是的分支機構應用程式名稱您要加以啟用。  
+3.  型別**ssomanage-enableapp *\<應用程式名稱\>***，其中\<*應用程式名稱*\>的名稱您想要啟用分支機構應用程式。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [SSO 分支機構應用程式](../core/sso-affiliate-applications.md)   
  [如何建立分支機構應用程式](../core/how-to-create-an-affiliate-application.md)   
  [管理使用者對應](../core/managing-user-mappings.md)   

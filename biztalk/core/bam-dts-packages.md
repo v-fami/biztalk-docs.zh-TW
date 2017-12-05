@@ -15,11 +15,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 105d1b42848b73505d9a82df07693111708ce802
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a71431ee800c80c6972747f09b0e2420f961e33e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="bam-dts-packages"></a>BAM DTS 封裝
 系統管理員可以更新下列 BAM DTS 封裝的參數：  
@@ -41,17 +41,15 @@ ms.lasthandoff: 09/20/2017
   
 -   **CubeUpdate** DTS 封裝  
   
-     **bam_AN_\<**   
-     ***CubeName* >**，其中 CubeName 是 cube 的名稱。 BAM 活頁簿會從檢視名稱產生 Cube 的名稱。 如果您修改 BAM 組態 XML 文件中的 Cube 名稱，DTS 封裝名稱就會使用新的 Cube 名稱。  
+     **bam_AN_\<**   ***CubeName* \>** ，其中 CubeName 是 cube 的名稱。 BAM 活頁簿會從檢視名稱產生 Cube 的名稱。 如果您修改 BAM 組態 XML 文件中的 Cube 名稱，DTS 封裝名稱就會使用新的 Cube 名稱。  
   
 -   **DataMaintenance** DTS 封裝  
   
-     **bam_DM_\<**   
-     ***ActivityName* >**，其中 ActivityName 是活動的名稱。  
+     **bam_DM_\<**   ***ActivityName* \>** ，其中 ActivityName 是活動的名稱。  
   
  執行 CubeUpdate DTS 封裝，可以彙總已排程的彙總。 在下一節中，您將會指定即時資料彙總的時間間隔。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [BAM 組態結構描述](../core/bam-configuration-schema.md)   
  [BAM 安全性建議](../core/bam-security-recommendations.md)   
  [管理 BAM](../core/managing-bam.md)

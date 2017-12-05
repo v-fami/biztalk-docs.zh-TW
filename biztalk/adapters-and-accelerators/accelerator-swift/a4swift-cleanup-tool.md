@@ -13,11 +13,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 34611a463efa19f6fc8e2cb9718748cf90d09e49
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8b2d0e251bf5e8a4169ff0d86cc6635944ca12e1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="a4swift-cleanup-tool"></a>A4SWIFT 清理工具
 [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]清理工具可讓您準備伺服器具有[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]在其上安裝適用於新安裝的[!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)]。 此工具會移除 A4SWIFT 的成品，例如合約、 部門和商務規則引擎 (BRE) 原則，並解除部署組件。 執行此工具可讓您避免手動移除許多 A4SWIFT 成品，以及解決問題的可能參考其他組件中解除部署組件。  
@@ -67,7 +67,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  在之前執行 A4SWIFT 清理工具，解除部署任何 A4SWIFT 預設組件是指任何專案。  
   
-2.  開啟命令提示字元並移至\<*磁碟機*>: \Program Files\Microsoft BizTalk Accelerator for SWIFT\SDK\Tools。  
+2.  開啟命令提示字元並移至\<*磁碟機*\>: \Program Files\Microsoft BizTalk Accelerator for SWIFT\SDK\Tools。  
   
 3.  型別**A4SWIFTCleanupTool.exe** ，然後按**ENTER**。  
   
@@ -86,5 +86,5 @@ ms.lasthandoff: 09/20/2017
   
     -   **4**來移除所有本機和共用資源和解除安裝[!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)]產品。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [工具](../../adapters-and-accelerators/accelerator-swift/tools.md)

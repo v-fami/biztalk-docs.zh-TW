@@ -12,14 +12,14 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 593937dca387d79a127117ee96005b3dc48fbdc2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e4d4d19caebb667e822b15b937d9045a26493a57
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="exception-management-framework"></a>例外狀況管理架構
-ESB 例外狀況管理架構提供一個統一的訊息導向錯誤產生機制，來管理所有可能發生的例外狀況[!INCLUDE[prague](../includes/prague-md.md)]環境。 在 ESB 例外狀況管理架構可以接收透過例外狀況 Publishing Service，除了從 BizTalk Server 失敗訊息路由機制的訊息發佈的例外狀況訊息。  
+ESB 例外狀況管理架構提供一個統一的訊息導向錯誤產生機制，來管理所有 BizTalk Server 環境中可能發生的例外狀況。 在 ESB 例外狀況管理架構可以接收透過例外狀況 Publishing Service，除了從 BizTalk Server 失敗訊息路由機制的訊息發佈的例外狀況訊息。  
   
  架構會提供應用程式開發介面，用於錯誤訊息建立、 發行集及管理從協調流程，複寫 BizTalk Server 2006 第一次引進的 BizTalk Server 的失敗的訊息路由功能。 此外，架構提供了功能正規化充實，套用商務活動監控 (BAM) 追蹤及發行最終輸出到顯示的例外狀況管理資料庫以及 ESB 中報告的所有例外狀況管理入口網站。  
   

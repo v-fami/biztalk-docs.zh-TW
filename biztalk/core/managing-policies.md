@@ -13,11 +13,11 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5d49f0343c324900bf10c2efcce46cd57682ed04
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6dd482c2f7a226a15fe730d2b75b470a54ff27e9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="manage-policies"></a>管理原則
 
@@ -27,7 +27,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="import-publish-deploy-and-remove-policies"></a>匯入、 發行、 部署和移除原則
  方案開發人員可以建立和中所述，使用 「 商務規則編輯器 」 中，檢視原則[使用商務規則編輯器建立商務規則](../core/creating-business-rules-using-the-business-rule-composer.md)。 之後開發人員和 IT 管理員就可以執行下列工作 (將在本節的主題中說明)，以部署和管理 BizTalk 群組和應用程式中的原則：  
   
--   **原則匯入到 BizTalk 群組。** 當您這樣做時，原則新增至群組的規則引擎資料庫，並顯示在 BizTalk Server 管理主控台中\<所有成品 > 節點的 BizTalk 群組。 這並不會使原則針對任何特定應用程式而生效。 您必須先發佈此原則，將它新增至 BizTalk 應用程式，然後加以部署，如本節其他主題中所述。 規則引擎資料庫是包含 BizTalk 群組中所有原則的資料庫。  
+-   **原則匯入到 BizTalk 群組。** 當您這樣做時，原則新增至群組的規則引擎資料庫，並顯示在 BizTalk Server 管理主控台中\<所有成品\>BizTalk 群組 節點。 這並不會使原則針對任何特定應用程式而生效。 您必須先發佈此原則，將它新增至 BizTalk 應用程式，然後加以部署，如本節其他主題中所述。 規則引擎資料庫是包含 BizTalk 群組中所有原則的資料庫。  
   
 -   **發佈原則。** ：如此就可以在 BizTalk 應用程式中使用該原則。  
   
@@ -54,11 +54,11 @@ ms.lasthandoff: 09/20/2017
   
 -   [發佈原則](../core/how-to-publish-a-policy.md)  
   
--   [新增原則至應用程式](../core/how-to-add-a-policy-to-an-application.md)  
+-   [將原則新增至應用程式](../core/how-to-add-a-policy-to-an-application.md)  
   
 -   [部署或解除部署原則](../core/how-to-deploy-or-undeploy-a-policy.md)  
   
--   [設定原則的追蹤](../core/how-to-configure-tracking-for-a-policy.md)  
+-   [設定追蹤原則](../core/how-to-configure-tracking-for-a-policy.md)  
   
 -   [從應用程式和 BizTalk 群組移除原則](../core/how-to-remove-a-policy-from-an-application-and-the-biztalk-group.md)  
   

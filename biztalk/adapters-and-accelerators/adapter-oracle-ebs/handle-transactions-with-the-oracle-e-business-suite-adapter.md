@@ -12,16 +12,16 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e00b31230760d1bb811b987c3b1a926bad803b6d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7d3d9946db7ea9ec1e9d035aa34081c1a11c113e
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="handle-transactions-with-the-oracle-e-business-suite-adapter"></a>處理 Oracle E-business Suite 配接器的交易
 [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]不會啟動交易，以執行 Oracle E-business Suite 中的作業時發生。 相反地，配接器會執行作業使用配接器用戶端所提供的交易內容。 為了執行作業中使用交易[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]，您必須：  
   
--   啟用配接器用戶端中的交易。 例如，若要啟用交易中的[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]，您必須選取**Use Transaction**中核取方塊**交易**區域**訊息** 索引標籤WCF 自訂 」 或 「 Wcf-oracleebs 連接埠。  
+-   啟用配接器用戶端中的交易。 例如，若要啟用 BizTalk Server 中的交易，您必須選取**Use Transaction**中核取方塊**交易**區域**訊息**WCF 自訂 索引標籤或Wcf-oracleebs 連接埠。  
   
 -   值設定**UseAmbientTransaction**內容繫結至**True**配接器中。 如需繫結屬性的詳細資訊，請參閱[閱讀 BizTalk Adapter for Oracle E-business Suite 繫結屬性](../../adapters-and-accelerators/adapter-oracle-ebs/read-about-the-biztalk-adapter-for-oracle-e-business-suite-binding-properties.md)。  
   
@@ -40,5 +40,5 @@ ms.lasthandoff: 09/20/2017
   
  如需有關由顯示輸入操作[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]，請參閱[配接器介面 Oracle E-business Suite 中繼資料的運作方式？](https://msdn.microsoft.com/library/dd788431.aspx)。  
   
-## <a name="see-also"></a>另請參閱  
-[瞭解 BizTalk Adapter for Oracle E-business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/understand-biztalk-adapter-for-oracle-e-business-suite.md)
+## <a name="see-also"></a>請參閱  
+[了解 BizTalk Adapter for Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/understand-biztalk-adapter-for-oracle-e-business-suite.md)

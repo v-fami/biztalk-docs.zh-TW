@@ -12,11 +12,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7e876892b3eef9e5dd47c51c64997d84a0f0dc98
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5cff46f95062eff856653b6114f76f89ac17efd1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="custom-adapter-configuration-designer"></a>自訂配接器組態設計工具
 您需要在 .NET 類別庫中建置自訂的設計工具。 您可以將這些設計工具整合到配接器的 DLL 中，或是另外建置 DLL。 在建置設計工具組件之後，必須透過裝飾而加以參考，就如同描述或類別一樣。 參考需包括組件的規格以及使用的完整格式類別名稱。  
@@ -35,7 +35,7 @@ ms.lasthandoff: 09/20/2017
   
  您可以將組件拖曳到全域組件快取中，或使用 GACUTIL 將組件加入至全域組件快取中。  
   
- 若要使用此設計工具，請指定完整格式的類別名稱、逗號，以及全域組件快取的組件項目 (組件名稱、版本、文化特性和公開金鑰 Token)，以做為裝飾的值。 使用\<編輯器 > 裝飾**UITypeEditor**實作和\<轉換器 > 裝飾**TypeConverter**實作。  
+ 若要使用此設計工具，請指定完整格式的類別名稱、逗號，以及全域組件快取的組件項目 (組件名稱、版本、文化特性和公開金鑰 Token)，以做為裝飾的值。 使用\<編輯器\>裝飾**UITypeEditor**實作和\<轉換器\>裝飾**TypeConverter**實作.  
   
  下列程式碼範例將示範如何在 XSD 檔案中初始化自訂的設計工具。  
   
@@ -71,8 +71,8 @@ ms.lasthandoff: 09/20/2017
 </xs:element>  
 ```  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [配接器組態的自訂下拉式編輯器](../core/custom-drop-down-editor-for-adapter-configuration.md)   
  [配接器組態的自訂強制回應對話方塊編輯器](../core/custom-modal-dialog-editor-for-adapter-configuration.md)   
  [配接器組態的自訂類型轉換器](../core/custom-type-converter-for-adapter-configuration.md)   
- [配接器的進階的組態元件](../core/advanced-configuration-components-for-adapters.md)
+ [配接器的進階設定元件](../core/advanced-configuration-components-for-adapters.md)

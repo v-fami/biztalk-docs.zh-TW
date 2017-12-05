@@ -32,11 +32,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 43dd7d6245546f8d35760bfe2ed2224482d9d4bd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f56b16f59b967ccd9e57d03d38f86e64795da477
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="frr-orchestration"></a>FRR 協調流程
 [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]實作 FRR 透過 FRR 協調流程。 協調流程判斷是否相互關聯語彙基元 FIN 回應符合原始訊息的訊息識別碼。 傳送埠將訊息傳送至 SAA，所執行的傳送函式與 SAA 從接收訊息的接收位置所執行的接收函式，它就會處理該訊息以平行方式。  
@@ -77,7 +77,7 @@ ms.lasthandoff: 09/20/2017
   
 -   [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]其中一個下列的值，如果回應 NAK _FRRFailedReason:  
   
-    -   *\<ErrorCode >* （從 MTS21_FIN_ACKNAK 負值通知訊息的 405 欄位）  
+    -   *\<ErrorCode\>*  （從 MTS21_FIN_ACKNAK 負值通知訊息的 405 欄位）  
   
     -   TransportError （從 MQ 系列取景位置調整/NAN 訊息）  
   

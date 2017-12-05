@@ -16,11 +16,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e445bc1d2fb4dcea719c33a336eec88554e20962
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d2f2de6a4c4cae93db90f0fb2cfc79321bfc7b3e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="configure-the-file-adapter"></a>設定 File 配接器
 如何設定 File 配接器、 讀取的安全性建議，以及檢視的必要權限。
@@ -84,7 +84,7 @@ FILE 配接器負責在 BizTalk Server 的某個目錄中傳輸檔案。 建議�
     |--------------|----------------|  
     |**接收資料夾**|必要。 輸入資料夾的路徑上檔案系統、 網路共用，或在檔案接收處理常式的 Azure 檔案共用讀取檔案。 您可以輸入路徑中直接**接收資料夾**文字 方塊中，也可以從檔案系統使用**瀏覽** 按鈕。 當瀏覽資料夾，您也可以建立新資料夾，請使用**建立新資料夾**。<br /><br /> 如果使用 Azure 檔案儲存體共用，請輸入`\\yourfilestoragename.file.core.windows.net\yourfilesharename`。 <br /><br />**類型：**字串 <br/><br/>**注意：**不要設定**接收資料夾**屬性設為使用含有符號連結的 「 NT 分散式檔案系統資料夾。 如果您使用 NT 分散式檔案系統，您只能使用資料夾含有直接網路路徑中檔案配接器接收位置。 <br /><br /> 如需有關這個屬性的限制，請參閱[設定 File 配接器時的限制](../core/restrictions-when-configuring-the-file-adapter.md)。 <br/><br/>**注意：** URI 傳送埠或接收位置不能超過 256 個字元。|  
     |**檔案遮罩**|必要。 指定檔案的遮罩。 此遮罩可包含標準萬用字元值"\*"。<br /><br /> **預設值：** \*.xml<br /><br /> **類型：**字串<br /><br /> 如需有關這個屬性的限制，請參閱[設定 File 配接器時的限制](../core/restrictions-when-configuring-the-file-adapter.md)。|  
-    |**公用位址**|指定此位置的公用位址。 BizTalk Server 會對外部夥伴公開此位址。<br /><br /> 若未指定此屬性，執行階段引擎會以下列位址取代：<br /><br /> file://\<*接收資料夾*>/\<*檔案遮罩*><br /><br /> 此屬性值必須有配接器前置詞。<br /><br /> **類型：**字串<br /><br /> **最小長度：** 0<br /><br /> **最大長度：** 256|  
+    |**公用位址**|指定此位置的公用位址。 BizTalk Server 會對外部夥伴公開此位址。<br /><br /> 若未指定此屬性，執行階段引擎會以下列位址取代：<br /><br /> file://\<*接收資料夾*\>/\<*檔案遮罩*\><br /><br /> 此屬性值必須有配接器前置詞。<br /><br /> **類型：**字串<br /><br /> **最小長度：** 0<br /><br /> **最大長度：** 256|  
     |**重試計數**|指定當網路共用上的接收位置暫時無法使用時，嘗試存取該接收位置的次數。<br /><br /> **預設值：** 5<br /><br /> **類型：**長<br /><br /> **最小值：** 0<br /><br /> **最大值：** MAX_LONG|  
     |**重試間隔 （分鐘）**|指定當網路共用上的接收位置暫時無法使用時，嘗試存取該接收位置的重試間隔時間 (以分為單位)。<br /><br /> **預設值：** 5 分鐘<br /><br /> **類型：**長<br /><br /> **最小值：** 0<br /><br /> **最大值：** MAX_LONG|  
   
@@ -171,9 +171,9 @@ FILE 配接器負責在 BizTalk Server 的某個目錄中傳輸檔案。 建議�
 
 [File 配接器屬性結構描述和屬性](../core/file-adapter-property-schema-and-properties.md)
 
-[設定 File 配接器時的限制](../core/restrictions-when-configuring-the-file-adapter.md)
+[設定 FILE 配接器的限制](../core/restrictions-when-configuring-the-file-adapter.md)
 
 ## <a name="see-also"></a>另請參閱
 
  [接收和傳送伺服器的連接埠](../core/ports-for-the-receive-and-send-servers.md)   
- [最小安全性使用者權限](../core/minimum-security-user-rights.md)
+ [最低安全性使用者權限](../core/minimum-security-user-rights.md)

@@ -16,11 +16,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b21d5a3dda5bc53816c608e97063a42f3eafa4db
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2f2c92d5469f88494c77ad062d97c53768572a5b
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="importing-bindings"></a>匯入繫結
 本節中的主題描述如何將繫結匯入到 BizTalk 群組或應用程式中。  
@@ -45,7 +45,7 @@ ms.lasthandoff: 09/20/2017
   
 -   **配接器的 Name 屬性可能不正確。** 若此繫結檔案包含某配接器的設定，請確認繫結檔案中 TransportType 項目的 Name 屬性，與 BizTalk Server 管理主控台中配接器的設定相同 (在 [平台設定] > [配接器] 之下)。  
   
-     當您從 [!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)] 將繫結匯入到 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 時，特別應該確認就是這種情況。 下面是這種狀況會造成問題的一些傳輸：  
+     特別是，您應該確認這是大小寫，匯入來自繫結時[!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)]至 BizTalk Server。 下面是這種狀況會造成問題的一些傳輸：  
   
     -   MQS  
   

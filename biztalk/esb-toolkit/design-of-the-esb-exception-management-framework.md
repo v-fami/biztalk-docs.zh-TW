@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c8c9bf8691701aa9fba8060865fcd3cb5abfba06
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 089942c8b531575c157c0037777e85fe6d8608a7
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="design-of-the-esb-exception-management-framework"></a>在 ESB 例外狀況管理架構的設計
 一致且可重複使用管理例外狀況的模式是核心考量任何開發專案。這些資訊可協助最大化可維護性，並簡化支援應用程式部署之後。  
@@ -50,24 +50,24 @@ ms.lasthandoff: 09/20/2017
   
 -   獨立偵測到發生例外狀況。  
   
--   手動儲存失敗的訊息，使用磁碟[!INCLUDE[prague](../includes/prague-md.md)]管理主控台。  
+-   手動儲存使用 BizTalk Server 管理主控台磁碟失敗的訊息。  
   
 -   手動編輯和更正的訊息，並重新送出至系統。 在某些情況下，此程序可能會發生遺失的重要內容資訊。  
   
- 若要解決這些問題，[!INCLUDE[prague](../includes/prague-md.md)]提供失敗訊息路由的機制。 開發人員和管理員可以使用這個來建立協調流程或傳訊的傳送埠設定為訂閱傳訊子系統中發生任何例外狀況。 這可提供自動化的錯誤偵測與路由機制，會保留原始訊息的狀態，並解決偵測到例外狀況的問題。  
+ 若要解決這些問題，BizTalk Server 會提供失敗訊息路由的機制。 開發人員和管理員可以使用這個來建立協調流程或傳訊的傳送埠設定為訂閱傳訊子系統中發生任何例外狀況。 這可提供自動化的錯誤偵測與路由機制，會保留原始訊息的狀態，並解決偵測到例外狀況的問題。  
   
  協調流程未提供自動的失敗的訊息路由，因為開發人員必須負責錯誤例外狀況處理常式區塊新增到協調流程範圍圖形。 使用此解決方案中，每個協調流程可以有它自己的例外狀況處理，但沒有任何機制可重複使用例外狀況處理跨多個協調流程的功能。  
   
  這表示，現在有兩個非常不同的方式在其中訊息的例外狀況處理與在 BizTalk Server 系統中，管理，以及哪一個協調流程中處理例外狀況的第三個方法。 因此，開發人員必須自訂的例外狀況處理機制，以符合自己的需求，如果他們想要實作符合本節中稍早所述之需求的系統。  
   
 ## <a name="biztalk-server-administration-console"></a>BizTalk Server 管理主控台  
- [!INCLUDE[prague](../includes/prague-md.md)]管理主控台提供一組群組概觀頁面，稱為 BizTalk 群組的中樞。 使用這些頁面時，系統管理員可以查詢擱置的訊息和例外狀況，依應用程式、 服務名稱、 錯誤代碼或 URI，如圖 1 所示。  
+ BizTalk Server 管理主控台提供一組群組概觀頁面，稱為 BizTalk 群組的中樞。 使用這些頁面時，系統管理員可以查詢擱置的訊息和例外狀況，依應用程式、 服務名稱、 錯誤代碼或 URI，如圖 1 所示。  
   
  ![系統管理員主控台](../esb-toolkit/media/ch4-adminconsole.gif "第 4 章第 AdminConsole")  
   
  **圖 1**  
   
- **[!INCLUDE[prague](../includes/prague-md.md)]系統管理主控台群組概觀頁面**  
+ **[BizTalk Server 管理主控台群組概觀] 頁面**  
   
  雖然 [群組概觀] 功能提供了通用使用者介面來檢視例外狀況，但是這些檢視會受限於 「 即時 」 服務執行個體。 檢查狀態可以是麻煩的工作，因為系統管理員必須向下鑽研至每個項目樹狀結構。 此外，許多其他因素會限制 BizTalk Server 管理主控台功能做為應用程式例外狀況報告工具：  
   
@@ -79,6 +79,6 @@ ms.lasthandoff: 09/20/2017
   
 -   主控台會顯示只有未處理例外狀況 （已擱置的服務執行個體）。 如果開發人員可以處理協調流程中的例外狀況，讓協調流程，一般來說，完成的例外狀況資訊會永遠不會出現在 [管理] 主控台。  
   
- [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]透過 ESB 無法協調流程的例外狀況路由機制會解決這些限制。 這會非常接近的失敗訊息路由機制[!INCLUDE[prague](../includes/prague-md.md)]。 此外，[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]訂閱從 ESB 無法協調流程的例外狀況路由的機制和失敗訊息路由機制產生的訊息的傳送埠中包含的管線元件，然後加以正規化。  
+ [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]透過 ESB 無法協調流程的例外狀況路由機制會解決這些限制。 這會非常接近 BizTalk Server 的失敗訊息路由機制。 此外，[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]訂閱從 ESB 無法協調流程的例外狀況路由的機制和失敗訊息路由機制產生的訊息的傳送埠中包含的管線元件，然後加以正規化。  
   
  在 ESB 例外狀況管理架構利用其他功能在 BizTalk Server 中，例如訂閱模型和以事件為基礎商務活動監控 (BAM)。 這表示 ESB 例外狀況管理架構可以追蹤例外狀況資料點與 BAM，並將它們發行到 BizTalk BAM 入口網站使用監視。

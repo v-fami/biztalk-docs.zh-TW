@@ -16,11 +16,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6dbd0658b43d9e042718153654a4c2666a01feb5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e26caf02978006040e52ed3c62e520f51362e2c4
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-create-an-adapter-handler"></a>如何建立配接器處理常式
 您可以使用 [BizTalk Server 管理] 主控台以建立傳送或接收配接器處理常式。  
@@ -34,11 +34,11 @@ ms.lasthandoff: 09/20/2017
   
 2.  在展開的配接器清單中，以滑鼠右鍵按一下配接器，您想要新增傳送或接收處理常式，請指向**新增**，然後按一下 **傳送處理常式**建立傳送處理常式，或按一下**接收處理常式**建立接收處理常式。  
   
-3.  在**\<主機名稱 > 屬性**對話方塊**一般**索引標籤的**主機名稱**清單中，選取將是配接器處理常式的主控件相關聯。  
+3.  在**\<主機名稱\>屬性**對話方塊**一般**索引標籤的**主機名稱**清單中，選取與主機配接器處理常式將關聯。  
   
 4.  如果您要建立的配接器傳送處理常式，選取 **設預設處理常式**如果您想要為此配接器的預設傳送處理常式。  
   
 5.  按一下 **[確定]**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [建立和刪除配接器處理常式](../core/creating-and-deleting-adapter-handlers.md)

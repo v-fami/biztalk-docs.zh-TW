@@ -17,11 +17,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e6e7440742c5bb8efb8d867ecc96447390336b84
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c1e5783893bbc9091d0a5f1fb3f116b17413bc5d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-enable-and-disable-host-initiated-sso"></a>如何啟用和停用主控件初始化的 SSO
 依照預設，主控件初始化的單一登入不會在單一登入系統中啟用，且必須由 SSO 系統管理員啟用。  
@@ -44,7 +44,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**執行**] 對話方塊中，輸入**cmd**，然後按一下 [**確定**。  
   
-3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機 >: \Program Files\Common Files\Enterprise Single Sign-on。  
+3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
 4.  型別**ssomanage-啟用 hisso**。  
   
@@ -71,12 +71,12 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**執行**] 對話方塊中，輸入**cmd**，然後按一下 [**確定**。  
   
-3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機 >: \Program Files\Common Files\Enterprise Single Sign-on。  
+3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
 4.  型別**ssomanage-停用 hisso**依適當情況。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [主控件初始化的 SSO](../core/host-initiated-sso.md)

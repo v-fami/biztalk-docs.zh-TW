@@ -13,11 +13,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fccdeefa35f9abb5a0c3158dba518d524811c611
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5720402e548992044eda26366c8b7b50bb95746a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-label-and-comment-a-functoid"></a>如何為運算質加上標籤與註解
 標籤與註解有助於記錄對應中的運算質或連結用途。 您可以使用**標籤**屬性提供運算質的名稱。 **註解**屬性可讓您提供的運算質，它正在執行之作業的相關的一般相關資訊的其他資訊。  
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/20/2017
   
  您可以下列方式為運算質加上標籤與註解：  
   
--   使用**設定\<運算質 > 運算質** 對話方塊。  
+-   使用**設定\<運算質\>運算質** 對話方塊。  
   
 -   使用**屬性**視窗。  
   
@@ -41,7 +41,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  以滑鼠右鍵按一下您想要標籤和註解，然後再按一下運算質**設定運算質輸入**。  
   
-2.  在**設定\<運算質 > 運算質**對話方塊中，按一下 [**標籤與註解**] 索引標籤。  
+2.  在**設定\<運算質\>運算質**對話方塊中，按一下 [**標籤與註解**] 索引標籤。  
   
 3.  輸入下列資訊，然後再按一下**確定**。  
   
@@ -71,5 +71,5 @@ ms.lasthandoff: 09/20/2017
         > [!IMPORTANT]
         >  允許的字元數目上限為 1024年。 如果指定超過 1024 個字元的字串，則先 1024年個字元會接受，而且會捨棄其餘部分。  
   
-## <a name="see-also"></a>另請參閱  
- [編輯運算質屬性和輸入的參數](../core/editing-functoid-properties-and-input-parameters.md)
+## <a name="see-also"></a>請參閱  
+ [編輯運算質屬性和輸入參數](../core/editing-functoid-properties-and-input-parameters.md)

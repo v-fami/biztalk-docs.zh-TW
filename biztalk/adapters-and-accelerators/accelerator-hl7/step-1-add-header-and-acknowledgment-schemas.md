@@ -12,11 +12,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0b5fb871bed9f6a4f54261db7e54587c65244344
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f79778801b1ca70d4e8356a24886c792fe447e33
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="step-1-add-header-and-acknowledgment-schemas"></a>步驟 1： 加入標頭和通知結構描述
 在此步驟中，您可以建立新 BTAHL72XCommon 專案範本為基礎的專案。 此範本包含三種常見的結構描述，訊息標頭 (MSH_25_GLO_DEF.xsd) 和通知 (ACK_24_GLO_DEF.xsd) 和 (ACK_25_GLO_DEF.xsd)。 您必須包含在專案中這些結構描述，該 BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 組建及/或正確驗證的訊息標頭和通知。 此程序之間是共通的所有結構描述版本[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]2.X。  
@@ -33,7 +33,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  在**名稱**方塊中，輸入**btahl7v2xc 通用**做為專案名稱。  
   
-5.  在**位置**方塊中，瀏覽至 **\<** *磁碟機***: > \Batching 教學課程**。  
+5.  在**位置**方塊中，瀏覽至 **\<** *磁碟機***:\>\Batching 教學課程**。  
   
 6.  按一下 **[確定]**。  
   
@@ -42,9 +42,9 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-assign-a-strong-key-to-the-assembly-and-deploy"></a>若要指派至組件的強式金鑰，部署  
   
-1.  開啟**[!INCLUDE[vs2012](../../includes/vs2012-md.md)]命令提示字元**。  
+1.  開啟**Visual Studio 命令提示字元**。  
   
-2.  在[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]命令提示字元中，瀏覽至 **\<** *磁碟機***>: \Batching 教學課程**資料夾。  
+2.  在[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]命令提示字元中，瀏覽至 **\<** *磁碟機***\>: \Batching 教學課程**資料夾。  
   
 3.  在命令提示字元中，輸入**sn – k key.snk**，然後按 ENTER 鍵。 請在 [輸出] 視窗中出現的成功訊息。  
   
@@ -57,9 +57,9 @@ ms.lasthandoff: 09/20/2017
   
 6.  請檢查**簽署組件**核取方塊。  
   
-7.  在**選擇強式名稱**金鑰檔 下拉式清單中，選取**\<瀏覽 >**。  
+7.  在**選擇強式名稱**金鑰檔 下拉式清單中，選取**\<瀏覽...\>**.  
   
-8.  瀏覽至\<*磁碟機*>: \Batching 教學課程中，選取**key.snk**，然後按一下 **開啟**。  
+8.  瀏覽至\<*磁碟機*\>: \Batching 教學課程中，選取**key.snk**，然後按一下 **開啟**。  
   
 9. 在 btahl7v2xc 通用專案屬性頁 視窗中，按一下**確定**以儲存變更。  
   

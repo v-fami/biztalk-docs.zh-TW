@@ -12,25 +12,25 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f0fc6423a8918237362636f26322b145a0cbcf26
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ca8edb4da6b59c33f87100ee3669bb2472d4350c
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-update-the-runtime-computers"></a>如何更新執行階段電腦
 在目的系統[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]設定執行階段電腦[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]組態精靈，在實際執行環境中執行的生產環境 BizTalk 群組的一部分。 嚴重損壞修復環境中還原的實際執行的 BizTalk 群組時，必須在每個更新設定[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]讓它指向嚴重損壞修復的執行階段電腦[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]時若嘗試連接到已還原的執行個體實際執行的 BizTalk 群組。 在目的系統還原 BizTalk 群組之後，使用下列程序來更新[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]執行階段電腦。  
   
 ### <a name="to-update-the-biztalk-server-runtime-computers"></a>若要更新 BizTalk Server 執行階段電腦  
   
-1.  將已編輯的 SampleUpdateInfo.xml 檔案複製至 files\microsoft [!INCLUDE[prague](../includes/prague-md.md)]\Schema\Restore 目錄，每個 32 位元的 BizTalk server 上或 \Program Files (x86) \Microsoft [!INCLUDE[prague](../includes/prague-md.md)]\Bins32\Schema\Restore 上每個 64 位元的目錄目的系統中的 BizTalk server。  
+1.  將編輯的 SampleUpdateInfo.xml 檔案複製至 files\microsoft BizTalk Server\Schema\Restore 目錄，每個 32 位元的 BizTalk server 上或 \Program Files (x86) \Microsoft BizTalk Server\Bins32\Schema\Restore 目錄上每個 64 位元 BizTalk目的系統中的伺服器。  
   
 2.  每個 BizTalk 伺服器上，開啟命令提示字元。 按一下**啟動**，按一下 **執行**，型別**cmd**，然後按一下**確定**。  
   
     > [!NOTE]  
     >  在 64 位元電腦上，您必須開啟 64 位元命令提示字元。  
   
-3.  在命令提示中，瀏覽至 files\microsoft [!INCLUDE[prague](../includes/prague-md.md)]\Schema\Restore （32 位元的電腦上） 或 \Program Files (x86) \Microsoft [!INCLUDE[prague](../includes/prague-md.md)]\Bins32\Schema\Restore （64 位元的電腦上），然後輸入這個命令：  
+3.  在命令提示中，巡覽至 files\microsoft BizTalk Server\Schema\Restore （32 位元的電腦上） 或 （在 64 位元電腦） 上的 \Program 檔案 (x86) \Microsoft BizTalk Server\Bins32\Schema\Restore 並輸入下列命令：  
   
     ```  
     cscript UpdateRegistry.vbs SampleUpdateInfo.xml  
@@ -55,5 +55,5 @@ ms.lasthandoff: 09/20/2017
   
     -   BizTalk 主控件執行個體  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [復原執行階段電腦](../technical-guides/recovering-the-runtime-computers.md)

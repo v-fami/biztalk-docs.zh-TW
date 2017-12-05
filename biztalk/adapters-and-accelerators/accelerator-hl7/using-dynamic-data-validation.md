@@ -15,14 +15,14 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1c08393b8e6d4b2563d6fb7ccdf49559943538ce
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3387117648329828c9276545eafddca6872c4aa2
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="using-dynamic-data-validation"></a>使用動態資料驗證
-針對動態的資料，包括驗證訊息格式和訊息內容的訊息內容驗證時動態的資料驗證很重要的一部分。 文件結構描述，其中[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] XSD 檔案中實作、 定義及驗證的訊息格式。 商務規則會定義訊息內容的[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]透過商務規則引擎原則驗證。 內容驗證可以包含確認訊息執行個體中的資料符合相對頻率可能會變更的資料。 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]實作這個驗證類型以動態方式，讓您可以更新此資料在生產環境中，而不必重新編譯程式碼，或關閉服務。  
+針對動態的資料，包括驗證訊息格式和訊息內容的訊息內容驗證時動態的資料驗證很重要的一部分。 文件結構描述，其中[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server 會在 XSD 檔案中實作、 定義及驗證的訊息格式。 商務規則會定義訊息內容的[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]透過商務規則引擎原則驗證。 內容驗證可以包含確認訊息執行個體中的資料符合相對頻率可能會變更的資料。 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]實作這個驗證類型以動態方式，讓您可以更新此資料在生產環境中，而不必重新編譯程式碼，或關閉服務。  
   
 ## <a name="validate-and-expose-data"></a>驗證和公開資料  
  在執行動態資料驗證 (DDV) 有兩個步驟：  
@@ -47,7 +47,7 @@ ms.lasthandoff: 09/20/2017
   
 -   您可以撰寫規則在設計階段在商務規則編輯器 」 使用者介面或直接在 商務規則語言 」 (BRL) XML 文字編輯器中。  
   
- 如需商務規則和商務規則引擎的詳細資訊，請參閱 「 開發與商務規則 」 中[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]幫助。  
+ 如需有關商務規則和商務規則引擎的詳細資訊，請參閱 「 開發與商務規則 」 在 BizTalk Server 說明中。  
   
 ## <a name="extending-ddv"></a>擴充 DDV  
  如果您變更 HL7 欄位交互驗證或資料類型驗證，您必須注意兩件事：  
@@ -56,6 +56,6 @@ ms.lasthandoff: 09/20/2017
   
 -   如果您建立或刪除的管線元件會影響新規則，然後您必須重新編譯。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [程式設計手冊](../../adapters-and-accelerators/accelerator-hl7/programming-guide1.md)   
  [訊息擴充教學課程](../../adapters-and-accelerators/accelerator-hl7/message-enrichment-tutorial.md)

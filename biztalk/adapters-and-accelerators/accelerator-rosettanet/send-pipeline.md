@@ -12,17 +12,17 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b36340d241ac52fe4fb7f10025807f386c51a8ae
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1b7ee5ad712466df79a4e6961062ea56b73ad248
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="send-pipeline"></a>傳送管線
 這個範例提供了有效的 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 傳送管線，您可以針對您的應用程式自訂此傳送管線。  
   
 ## <a name="demonstrates"></a>示範  
- 這個範例示範如何使用 BTARN 傳送管線 (PipelineSend.btp)，將 XML 訊息外送至對等的 RNIF 訊息中。 PipelineSend.btp 位於*\<磁碟機 >*: \Program Files\Microsoft BizTalk\<版本 > Accelerator for rosettanet\sdk\rnpipelines。 它包含下列階段：  
+ 這個範例示範如何使用 BTARN 傳送管線 (PipelineSend.btp)，將 XML 訊息外送至對等的 RNIF 訊息中。 PipelineSend.btp 位於*\<磁碟機\>*: \Program Files\Microsoft BizTalk\<版本\>Accelerator for rosettanet\sdk\rnpipelines。 它包含下列階段：  
   
 -   XML 組合器  
   
@@ -35,6 +35,6 @@ ms.lasthandoff: 09/20/2017
   
  此管線和管線中的訊息流程元件的相關資訊，請參閱[BTARN 傳送管線](../../adapters-and-accelerators/accelerator-rosettanet/btarn-send-pipeline.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管線範例](../../adapters-and-accelerators/accelerator-rosettanet/pipeline-samples.md)   
  [BTARN 傳送管線](../../adapters-and-accelerators/accelerator-rosettanet/btarn-send-pipeline.md)

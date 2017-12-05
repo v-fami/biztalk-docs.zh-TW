@@ -12,11 +12,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fcb78fd556e72e4ca19e1d5172826a813f23eb24
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ec380c088f27fe09f518c385990e3801b5c019dd
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-3e-add-an-interact-send-port-for-the-interact-real-time-scenario"></a>步驟 3E： 加入互動的傳送埠互動即時案例
 完成[步驟 3D： 新增檔案傳送埠，以便擷取 Sw:HandleResponse 訊息互動即時案例](../../adapters-and-accelerators/fileact-interact/step-3d-add-file-send-port-to-get-sw-handleresponse-message-for-interact.md)開始此步驟之前。
@@ -42,11 +42,11 @@ ms.lasthandoff: 09/20/2017
     |**配接器模式**|從下拉式清單選取**即時**。|  
     |**訊息格式**|**InteractMessage**。|  
     |**不可否認性指標**|**FALSE**：|  
-    |**要求類型**|輸入適當\<RequestType > SWIFT 與您佈建為基礎的字串。|  
+    |**要求類型**|輸入適當\<RequestType\> SWIFT 與您佈建為基礎的字串。|  
     |**ResponseCrypto**|**FALSE**：|  
-    |**要求者**|將它設定為適當\<要求者 > SWIFT 與您佈建為基礎的字串。|  
-    |**回應者**|將它設定為適當\<回應 > SWIFT 與您佈建為基礎的字串。|  
-    |**服務名稱**|將它設定為適當\<服務名稱 >，根據 SWIFT 與您佈建。|  
+    |**要求者**|將它設定為適當\<要求者\>SWIFT 與您佈建為基礎的字串。|  
+    |**回應者**|將它設定為適當\<回應\>SWIFT 與您佈建為基礎的字串。|  
+    |**服務名稱**|將它設定為適當\<服務名稱\>根據 SWIFT 與您佈建。|  
     |**傳遞通知**|從下拉式清單選取**FALSE**。|  
     |**通知佇列**|輸入適當的佇列名稱，根據 SWIFT 與您佈建。|  
   
@@ -74,9 +74,9 @@ ms.lasthandoff: 09/20/2017
   
 10. 按一下 **[確定]**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [步驟 3： 建立傳送和接收埠互動即時案例](../../adapters-and-accelerators/fileact-interact/step-3-create-send-and-receive-ports-for-the-interact-real-time-scenario.md)   
  [步驟 3A： 新增 FILE 接收位置的互動即時案例](../../adapters-and-accelerators/fileact-interact/step-3a-add-a-file-receive-location-for-the-interact-real-time-scenario.md)   
  [步驟 3B： 加入互動接收位置互動即時案例](../../adapters-and-accelerators/fileact-interact/step-3b-add-an-interact-receive-location-for-the-interact-real-time-scenario.md)   
  [步驟 3c： 新增檔案傳送埠，以便擷取 Sw:HandleRequest 訊息互動即時案例](../../adapters-and-accelerators/fileact-interact/step-3c-add-file-send-port-to-get-sw-handlerequest-interact-real-time-scenario.md)   
- [步驟 3D： 新增檔案傳送埠，以便擷取 Sw:HandleResponse 訊息互動即時案例](../../adapters-and-accelerators/fileact-interact/step-3d-add-file-send-port-to-get-sw-handleresponse-message-for-interact.md)
+ [步驟 3D：針對 InterAct 即時案例新增 FILE 傳送埠以擷取 Sw:HandleResponse 訊息](../../adapters-and-accelerators/fileact-interact/step-3d-add-file-send-port-to-get-sw-handleresponse-message-for-interact.md)

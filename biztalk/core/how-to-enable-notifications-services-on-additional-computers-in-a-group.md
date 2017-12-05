@@ -12,11 +12,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8b65596e59820258df01a5655ea30adafe439674
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9787c5ac1371f6743285a151e5666d12b592a300
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-enable-notifications-services-on-additional-computers-in-a-group"></a>如何在群組中的其他電腦啟用 Notification Services
 當多重電腦環境中執行 BAM，您必須啟用 Notification Services 會在您執行 BAM 管理公用程式來部署活動的每一部電腦上。  
@@ -53,8 +53,8 @@ ms.lasthandoff: 09/20/2017
   
 1.  在電腦上的其他群組中，按一下 **啟動**，指向 **所有程式**，按一下**Microsoft SQL Server 2005**，按一下 **組態工具**，然後按一下  **Notification Services 命令提示字元**。  
   
-2.  在命令提示字元中，輸入： **nscontrol register-name\<在設定選擇的 NS 首碼名稱 >-伺服器\<ns db sql 伺服器 >**。 這樣可以讓 Notification Services 登入正確的資料庫 (這項資訊是在服務電腦的登錄中由 nscontrol 執行維護)。  
+2.  在命令提示字元中，輸入： **nscontrol register-name \<NS 前置詞的名稱，在設定選擇\>-伺服器\<ns db sql server\>**。 這樣可以讓 Notification Services 登入正確的資料庫 (這項資訊是在服務電腦的登錄中由 nscontrol 執行維護)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [變更 BAM 執行階段設定](../core/changing-bam-runtime-settings.md)   
  [BAM 管理公用程式](../core/bam-management-utility.md)

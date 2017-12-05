@@ -13,11 +13,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ab096378820e27c640af3262b0ae39d2fa1c5810
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a6e603643ba1d969534e9954733572dc92acd04a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="node-types-and-ids-for-the-sql-server-adapter"></a>節點型別與 SQL Server 配接器的識別碼
 
@@ -104,7 +104,7 @@ ms.lasthandoff: 09/20/2017
   
 |成品|中繼資料的特性|  
 |--------------|------------------------------|  
-|資料表或檢視表|<ul><li>資料表名稱。</li><li>資料表的欄位名稱。</li><li>表格欄位資料類型會對應至簡單或複雜的 WSDL 類型。</li><li>資料表的欄位長度會對應至 facet maxLength。</li><li>表格欄位的主索引鍵限制會對應至 facet minOccurs = 1。</li><li>資料欄位的 NULL 條件約束會對應至 facet isNillable = true。</li><li>資料表作業<br /><br /> <ul><li>INSERT</li><li>SELECT</li><li>UPDATE</li><li>DELETE</li><li>設定\<資料行名稱 ></li></ul></li></ul>|  
+|資料表或檢視表|<ul><li>資料表名稱。</li><li>資料表的欄位名稱。</li><li>表格欄位資料類型會對應至簡單或複雜的 WSDL 類型。</li><li>資料表的欄位長度會對應至 facet maxLength。</li><li>表格欄位的主索引鍵限制會對應至 facet minOccurs = 1。</li><li>資料欄位的 NULL 條件約束會對應至 facet isNillable = true。</li><li>資料表作業<br /><br /> <ul><li>INSERT</li><li>SELECT</li><li>UPDATE</li><li>DELETE</li><li>設定\<資料行名稱\></li></ul></li></ul>|  
 |程序或函式|程序或函式名稱會對應到作業名稱。<br />程序或函式的參數名稱。<br />程序或函式的參數資料類型會對應至 WSDL 類型。<br />程序或函式的參數方向會對應至 WSDL 參數方向。<br />程序參數或函式參數的資料類型的長度會對應至 facet maxLength。<br />程序或函式的參數順序會對應至項目順序。<br />式函會傳回資料類型會對應至 WSDL 類型。<br />式函會傳回資料類型長度對應至 facet maxLength。|  
   
  中繼資料的格式的詳細資訊，[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]公開特定成品和作業的 SQL Server 資料庫，請參閱[訊息和訊息結構描述，BizTalk adapter for SQL Server](messages-and-message-schemas-for-biztalk-adapter-for-sql-server.md)。  

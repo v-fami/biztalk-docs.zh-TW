@@ -12,11 +12,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b00e829ad569790b257e1d5f0c16290cca68d176
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1e5c4d7e20fc4d8e7c8bea724625dde770b4aca2
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="undeploy-other-tutorial-projects"></a>解除部署其他教學課程專案
 當您部署 BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 教學課程，[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]教學課程的組件檔案儲存在組態資料庫 （也稱為 「 BizTalk 管理資料庫） 和全域組件快取。 如果您已執行另一個[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]教學課程，以及部署在該教學課程中所建立的組件，您可以測試組件中批次處理教學課程的三個部分時，會發生錯誤。 這可能是因為您只可以一次部署一個訊息結構描述。  
@@ -33,7 +33,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  開啟 BizTalk 總管 中，以滑鼠右鍵按一下您想要解除部署，然後按一下 組件**解除部署**。  
   
- 如需解除部署組件的詳細資訊，請參閱 「 解除部署組件使用 BizTalk 總管 」 中[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]幫助。  
+ 如需有關解除部署組件的詳細資訊，請參閱 「 解除部署組件使用 BizTalk 總管 」 在 BizTalk Server 說明中。  
   
-## <a name="see-also"></a>另請參閱  
- [準備使用批次的教學課程](../../adapters-and-accelerators/accelerator-hl7/preparing-to-use-the-batching-tutorial.md)
+## <a name="see-also"></a>請參閱  
+ [準備使用批次處理教學課程](../../adapters-and-accelerators/accelerator-hl7/preparing-to-use-the-batching-tutorial.md)

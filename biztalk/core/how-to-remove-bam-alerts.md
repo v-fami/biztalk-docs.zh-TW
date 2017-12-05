@@ -16,11 +16,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 03bbbade73537dd54a9289d2a107eaf41d0e335e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 644a6f017fee38db684fb0461bd6fa94aed65e15
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-remove-bam-alerts"></a>如何移除 BAM 警示
 系統管理員使用**移除警示**命令，從指定的檢視中移除所有警示。  
@@ -31,11 +31,11 @@ ms.lasthandoff: 09/20/2017
   
 2.  瀏覽到 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking。  
   
-3.  型別**bm 移除警示的檢視：\<檢視名稱 >**。  
+3.  型別**bm 移除警示的檢視：\<檢視名稱\>**。  
   
 4.  按 ENTER 鍵。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理 BAM 動態基礎結構](../core/managing-the-bam-dynamic-infrastructure.md)   
  [BAM 安全性建議](../core/bam-security-recommendations.md)   
  [BAM 管理公用程式](../core/bam-management-utility.md)

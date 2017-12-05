@@ -12,11 +12,11 @@ caps.latest.revision: "43"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 66f47db034e0c193d4dab6ee303c13dd8c360661
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4edf1353a9f06103205e1e6e4296c2aa77e74dc6
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-the-edi-disassembler-works"></a>EDI 解譯器如何運作
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會在 EDI 接收管線 (`Microsoft.BizTalk.DefaultPipelines.EDIReceivePipeline`) 中執行對所收到 EDI 編碼交換的大部分處理。 此管線包含 EDI 解譯器管線元件，可執行下列處理：  
@@ -37,7 +37,7 @@ ms.lasthandoff: 09/20/2017
   
 -   將整個交換轉換為 XML，如果**輸入批次處理選項**屬性設定為兩個的其中一個**保留交換**值。 這個屬性可以設定從**本機主機設定**頁面**交換設定**之雙向協議索引標籤**協議屬性** 對話方塊。 接收管線會升級 ReuseEnvelope 屬性，以識別保留的交換。  
   
--   產生「技術」和/或「功能」通知 (若已設定)。 這可包含批次處理通知 (若已設定)。 升級 BTS 的內容屬性。訊息類型，將它設定等於控制項中的結構描述 http://schemas.microsoft.com/EDI/\<X12 或 EDIFACT > 命名空間 （例如，997 通知就是 X12_997_Root）。 另外，升級 EDI.DestinationPartyName 內容屬性，可確保會挑選要傳送的通知。 如需詳細資訊，請參閱[傳送 EDI 通知](../core/sending-an-edi-acknowledgment.md)。  
+-   產生「技術」和/或「功能」通知 (若已設定)。 這可包含批次處理通知 (若已設定)。 升級 BTS 的內容屬性。訊息類型，將它設定等於控制項中的結構描述 http://schemas.microsoft.com/EDI/\<X12 或 EDIFACT\>命名空間 （例如，997 通知就是 X12_997_Root）。 另外，升級 EDI.DestinationPartyName 內容屬性，可確保會挑選要傳送的通知。 如需詳細資訊，請參閱[傳送 EDI 通知](../core/sending-an-edi-acknowledgment.md)。  
   
 -   適用時，執行 HIPAA 276/277 (僅 5010 版) 834、835 (僅 4010 版) 和 837 文件分割。  
   
@@ -156,7 +156,7 @@ ms.lasthandoff: 09/20/2017
 |X12 字元集|X12 交換信封產生**附註：**這項設定只會用來驗證輸入協議屬性的值。 管線屬性內會選取用來進行執行階段處理的 X12 字元集。 如需詳細資訊，請參閱[EDI 字元集](../core/edi-character-sets.md)。|  
   
 ## <a name="using-hipaa-trigger-fields"></a>使用 HIPAA 觸發程序欄位  
- EDI 區段通常包含修飾區段意義的辨識符號。 例如，N1 區段可能包含 “BT” 辨識元素以表示「帳單收件人」，或可能包含 “ST” 辨識元素以表示「出貨收件人」。 商務邏輯決定如何解譯這些欄位通常會維持和解譯器會將 N1 區段的所有執行個體解析成相同的 XML 記錄名稱。不過，HIPAA 結構描述隨附於[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]含有註解，可讓 EDI 解譯器來建立根據存在的辨識值的唯一 XML 記錄 (請參閱[HIPAA 結構描述的觸發程序欄位註解](../core/hipaa-schema-trigger-field-annotations.md))。  
+ EDI 區段通常包含修飾區段意義的辨識符號。 例如，N1 區段可能包含 “BT” 辨識元素以表示「帳單收件人」，或可能包含 “ST” 辨識元素以表示「出貨收件人」。 商務邏輯決定如何解譯這些欄位通常會維持和解譯器會將 N1 區段的所有執行個體解析成相同的 XML 記錄名稱。不過，BizTalk Server 所隨附的 HIPAA 結構描述含有註解，可讓 EDI 解譯器來建立根據存在的辨識值的唯一 XML 記錄 (請參閱[HIPAA 結構描述的觸發程序欄位註解](../core/hipaa-schema-trigger-field-annotations.md))。  
   
  EDI 解譯器在收到 HIPAA 交易集時，若遇到含有觸發程序欄位的區段，便會使用觸發程序資訊來產生這個區段和觸發程序組合特有的 XML 記錄。  
   
@@ -167,5 +167,5 @@ ms.lasthandoff: 09/20/2017
 |N1 * PR\*Contoso\*1763\*0000000 ~|`<ns0:TS835W1_1000A_Loop>  <N1_PayerIdentification_TS835W1_1000A>   <N101__EntityIdentifierCode>PR</N101__EntityIdentifierCode>    <N102__PayerName>Contoso</N102__PayerName>    <N103__IdentificationCodeQualifier>XV</N103__IdentificationCodeQualifier>    <N104__PayerIdentifier>0000000</N104__PayerIdentifier>   </N1_PayerIdentification_TS835W1_1000A>`|  
 |N1 * PE\*Fabrikam\*FI\*9999999 ~|`<TS835W1_1000B_Loop>   <N1_PayeeIdentification_TS835W1_1000B>    <N101__EntityIdentifierCode>PE</N101__EntityIdentifierCode>    <N102__PayeeName>Fabrikam</N102__PayeeName>    <N103__IdentificationCodeQualifier>FI</N103__IdentificationCodeQualifier>    <N104__PayeeIdentificationCode>9999999</N104__PayeeIdentificationCode>   </N1_PayeeIdentification_TS835W1_1000B>`|  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [BizTalk Server 如何接收 EDI 訊息](../core/how-biztalk-server-receives-edi-messages.md)

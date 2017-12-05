@@ -12,11 +12,11 @@ caps.latest.revision: "21"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 343dc2e9c7965ffb27a806d18944da99777dd3ed
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b08fc197c16f04f3eb738468421db340060b9613
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="walkthrough-adding-a-rule-to-the-policy"></a>逐步解說： 將規則新增原則
 此逐步解說提供逐步程序加入名為的規則**DeniedRule**至**ProcessPurchaseOrder**原則。  
@@ -58,7 +58,7 @@ ms.lasthandoff: 09/20/2017
   
 10. 拖曳**Request Status**到 [THEN] 窗格。  
   
-11. 按一下**\<空字串 >** ，然後輸入**拒絕**。  
+11. 按一下**\<空字串\>** ，然後輸入**拒絕**。  
   
 12. 以滑鼠右鍵按一下**（未儲存） 1.2 版**，然後按一下 **儲存**。  
   
@@ -117,6 +117,6 @@ ms.lasthandoff: 09/20/2017
 ## <a name="next-steps"></a>後續步驟  
  現在您已完成此逐步解說中，執行[逐步解說： 修改原則](../core/walkthrough-modifying-the-policy.md)逐步解說，它可讓您修改原則的逐步指示核准採購訂單的值**數量**小於或等於 1000 （而不是 500)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [條件評估與動作執行](../core/condition-evaluation-and-action-execution.md)   
  [議程與優先順序](../core/agenda-and-priority.md)

@@ -12,16 +12,16 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a19f8c29c22638be97ae62dfea88d0d2feca6c55
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 81a2b225e5316d16e31d2ed2ca830387dc14048d
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="running-the-biztalk-failed-message-routing-esb-processing-sample"></a>執行 BizTalk 失敗訊息路由 ESB 處理範例
-Microsoft BizTalk 失敗訊息路由 ESB 處理的範例，示範如何使用[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]做為通用的機制來管理、 序列化，以及轉譯中的所有條件之下發生例外狀況的例外狀況管理架構[!INCLUDE[prague](../includes/prague-md.md)]. 這包括產生 BizTalk 失敗訊息路由機制和錯誤訊息從例外狀況管理架構，協調流程內所產生的例外狀況。  
+Microsoft BizTalk 失敗訊息路由 ESB 處理的範例，示範如何使用[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]做為通用的機制來管理、 序列化，以及呈現在 BizTalk 中的所有情況下所發生的例外狀況的例外狀況管理架構伺服器。 這包括產生 BizTalk 失敗訊息路由機制和錯誤訊息從例外狀況管理架構，協調流程內所產生的例外狀況。  
   
- BizTalk 失敗訊息路由機制是的錯誤處理功能[!INCLUDE[prague](../includes/prague-md.md)]; 藉由使用設計工具可以指定自動化的處理傳訊失敗做為替代的傳統 （現在的預設行為） 放置失敗「 擱置 」 佇列中的訊息。 這會自動處理路由至任何訂閱路由目的地，像是傳送埠或協調流程的錯誤訊息。 錯誤訊息是原始訊息已降級之所有先前升級屬性與選取的屬性升級至訊息內容與特定傳訊失敗相關的複製。  
+ BizTalk 失敗訊息路由機制是 BizTalk Server; 的錯誤處理功能使用此模型設計工具可以指定自動化的處理傳訊失敗做為替代的傳統 （現在的預設行為） 將無法 「 擱置 」 佇列中的訊息。 這會自動處理路由至任何訂閱路由目的地，像是傳送埠或協調流程的錯誤訊息。 錯誤訊息是原始訊息已降級之所有先前升級屬性與選取的屬性升級至訊息內容與特定傳訊失敗相關的複製。  
   
  若要啟用的接收埠或傳送埠上的 BizTalk 失敗訊息路由機制，請選取**啟用的路由失敗訊息**核取方塊，如圖 1 所示。  
   

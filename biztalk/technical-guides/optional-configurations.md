@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e5e938112b5c49b789b76889a45172d5fc0579a1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7b19646c9c83eff4a3171b4d25763a6b581d45b1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="optional-configurations"></a>選擇性設定
 您匯入 BizTalk Server 管理組件之後，瀏覽窗格的 [監視] 窗格會顯示自動探索的物件類型。 如需物件類型的清單，請參閱[物件管理組件會探索](../technical-guides/objects-the-management-pack-discovers.md)> 一節。 您可以修改所探索之物件的預設探索組態[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理組件。 您可以使用 Operations Manager 2007 R2/2012年的覆寫功能來變更組態設定。  
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  在 [詳細資料] 窗格中，按一下您想要變更的設定物件類型。  
   
-4.  Operations Manager 工具列上，按一下**會覆寫**，按一下 **覆寫物件探索**，然後按一下 **類型的所有物件：** \< *物件類型的名稱*>，**為群組，請針對類型的特定物件：** \<*物件類型的名稱*>，或**針對另一種類型的所有物件**.  
+4.  Operations Manager 工具列上，按一下**會覆寫**，按一下 **覆寫物件探索**，然後按一下 **類型的所有物件：** \< *物件類型的名稱*\>，**為群組，請針對類型的特定物件：** \<*物件類型的名稱*\>，或**針對另一種類型的所有物件**。  
   
 5.  在**覆寫內容**對話方塊中，按一下 **覆寫**方塊**啟用**您想要變更的參數。  
   

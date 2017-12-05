@@ -13,11 +13,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 33726ebafc3ed6b3d1ad62bf97019e30493a895e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 17bd0a76cacb35563448f31f79c2275c79b92ab8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="post-installation-steps-for-biztalk-adapter-pack-2016"></a>BizTalk 配接器組件 2016 後安裝步驟
 安裝之後[!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]，一些安裝後步驟。 本主題列出這些步驟。   
@@ -70,7 +70,7 @@ ms.lasthandoff: 09/20/2017
 > - *NewVersion*值需要更新 Oracle.DataAccess.dll 檔案的電腦上安裝的版本為基礎。  Oracle.DataAccess.dll 隨附於您從 Oracle 安裝 Oracle 用戶端。  您只必須安裝 Oracle 用戶端版本， [BizTalk 配接器組件支援](http://social.technet.microsoft.com/wiki/contents/articles/17631.biztalk-server-supported-line-of-business-lob-and-enterprise-systems.aspx)。  
   
 ## <a name="create-sql-server-database-objects-sap-adapter-only"></a>建立 SQL Server 資料庫物件 （只 SAP 配接器）  
- 若要啟動 tRFCs SAP 系統中，執行*SapAdapter-DbScript-Install.sql* SQL 指令碼。 此指令碼會隨[!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]安裝，並在 SQL Server 中建立資料庫物件。 指令碼通常會安裝在*\<安裝磁碟機 >: \Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]* 。 只要您輸入該資料庫名稱來叫用 tRFCs 使用配接器時，您可以針對任何 SQL Server 資料庫，執行此指令碼。
+ 若要啟動 tRFCs SAP 系統中，執行*SapAdapter-DbScript-Install.sql* SQL 指令碼。 此指令碼會隨[!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]安裝，並在 SQL Server 中建立資料庫物件。 指令碼通常會安裝在*\<安裝磁碟機\>: \Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]* 。 只要您輸入該資料庫名稱來叫用 tRFCs 使用配接器時，您可以針對任何 SQL Server 資料庫，執行此指令碼。
   
 ## <a name="register-the-adapter-bindings"></a>註冊配接器繫結
 期間[!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]安裝，安裝精靈可能無法註冊配接器繫結或.NET Framework Data Provider for mySAP Business Suite。 然後配接器安裝進行安裝。 這可能因 Windows Communication Foundation (WCF) 安裝，[!INCLUDE[afproductnamelong](../includes/afproductnamelong-md.md)]安裝或已損毀的 machine.config 檔案。  
@@ -78,7 +78,7 @@ ms.lasthandoff: 09/20/2017
 > [!IMPORTANT]
 > 完成下列步驟*只*如果安裝精靈無法註冊在 machine.config 檔案中的配接器繫結或.NET Framework 資料提供者。  
   
-1.  移至電腦上的 machine.config 檔案。 例如，32 位元平台上，machine.config 位在*\<系統磁碟機 >: \WINDOWS\Microsoft.NET\Framework\\< 版本\>\CONFIG*。  
+1.  移至電腦上的 machine.config 檔案。 例如，32 位元平台上，machine.config 位在*\<系統磁碟機\>: \WINDOWS\Microsoft.NET\Framework\\< 版本\>\CONFIG*。  
   
 2.  開啟檔案，使用文字編輯器。  
   

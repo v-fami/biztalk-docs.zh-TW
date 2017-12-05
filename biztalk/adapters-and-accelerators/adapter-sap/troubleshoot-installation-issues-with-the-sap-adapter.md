@@ -15,11 +15,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cf06cc866249e929c9ddf368f4594af58af1d6fa
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: dc33d5d15ef876e18a5a17fa33944dd7d1b36461
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="troubleshoot-installation-issues-with-the-sap-adapter"></a>SAP 配接器疑難排解安裝問題
 安裝 Microsoft[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]複製產品二進位編碼檔案的電腦上，並註冊每個配接器的繫結。 本章節將討論解決安裝錯誤的疑難排解技術。  
@@ -46,9 +46,9 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="register-the-adapter-bindings-or-the-data-provider"></a>註冊配接器繫結或資料提供者  
   
-1.  瀏覽至電腦上的 machine.config 檔案。 例如，32 位元平台上，machine.config 位在\<系統磁碟機 >: \WINDOWS\Microsoft.NET\Framework\\< 版本\>\CONFIG。  
+1.  瀏覽至電腦上的 machine.config 檔案。 例如，32 位元平台上，machine.config 位在\<系統磁碟機\>: \WINDOWS\Microsoft.NET\Framework\\< 版本\>\CONFIG。  
   
-     在此路徑中\<版本 > 是.NET Framework 的版本。  
+     在此路徑中\<版本\>是.NET Framework 的版本。  
   
 2.  開啟檔案，使用文字編輯器。  
   
@@ -176,5 +176,5 @@ Verify the binding extension is registered in machine.config."
   
      如需有關 SAP 用戶端 Dll 的詳細資訊，請參閱[安裝適用於 SAP 的資料提供者的自訂 Rfc](../../adapters-and-accelerators/adapter-sap/install-custom-rfcs-for-the-data-provider-for-sap.md)。
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [SAP 配接器進行疑難排解](../../adapters-and-accelerators/adapter-sap/troubleshoot-the-sap-adapter.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6049ac62e8a8b55ff6bbfe241f716c2ea9570d34
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a1a1f2b6866a2841abaa248479430a7584db3a0b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="appendix-c-redistributable-cab-files"></a>附錄 C：可轉散發的封包檔
 BizTalk Server 安裝程式會使用這些封包檔案。
@@ -38,9 +38,9 @@ BizTalk Server 安裝程式會使用這些封包檔案。
   
 ## <a name="important-info"></a>重要資訊
 
-- SQL XML 可能會有自己的軟體需求 (例如 `.NET Framework 3.5` 和 `.NET Framework 2.0`)，這些需求不包含在封包檔中。 如果 BizTalk Server 可以存取網際網路，則可能會自動安裝 SQL XML 軟體需求。 如果 BizTalk Server 不能存取網際網路，請手動安裝 SQL XML 軟體需求。
+- SQL XML 可能會有自己的軟體需求 (例如 `.NET Framework 3.5` 和 `.NET Framework 2.0`)，這些需求不包含在封包檔中。 如果 BizTalk Server 可以存取網際網路，則可能會自動安裝 SQL XML 軟體需求。 如果 BizTalk Server 不能存取網際網路，則會手動安裝 SQL XML 軟體需求。
 
-- 封包檔案安裝路徑也會列在安裝資料夾的 **Setup.xml** 檔案中 ([!INCLUDE[btsBizTalkServerPathx64_md](../includes/btsbiztalkserverpathx64-md.md)]\<您的版本>)。
+- CAB 檔案安裝路徑也會列在**Setup.xml**安裝資料夾中的檔案 ([!INCLUDE[btsBizTalkServerPathx64_md](../includes/btsbiztalkserverpathx64-md.md)]\<版本\>)。
   
 -   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 所需要的一些軟體，會在您執行 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 安裝程式時，安裝在電腦上。  
   

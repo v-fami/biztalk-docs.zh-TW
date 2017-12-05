@@ -12,11 +12,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 60cc8743cd945ad231f3a42f9cbd4f0e76b418d3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f9a395e691835f3e21622ebf5f29c2845361fb36
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-data-is-stored-for-inbound-edi-messages"></a>如何儲存輸入 EDI 訊息的資料
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]會執行下列命令來產生輸入的交換而傳送給它的回應的通知狀態報告項目：  
@@ -69,17 +69,17 @@ ms.lasthandoff: 09/20/2017
   
 -   交換控制識別碼 = 更新資料 (相互關聯的必要項)  
   
--   交換通知狀態 =\<預期或不適用 >。 如果技術通知經過設定，或是在內送交換中有指定值，狀態 = 預期。 否則，狀態 = 不適用。  
+-   交換通知狀態 =\<預期或不適用\>。 如果技術通知經過設定，或是在內送交換中有指定值，狀態 = 預期。 否則，狀態 = 不適用。  
   
--   交換通知控制識別碼 =\<不值 >  
+-   交換通知控制識別碼 =\<不值\>  
   
--   交換通知日期 =\<不值 >  
+-   交換通知日期 =\<不值\>  
   
--   交換通知時間 =\<不值 >  
+-   交換通知時間 =\<不值\>  
   
--   通知/動作代碼 =\<不值 >  
+-   通知/動作代碼 =\<不值\>  
   
--   通知說明碼 =\<不值 >  
+-   通知說明碼 =\<不值\>  
   
 ## <a name="data-updated-by-the-send-pipeline-for-each-technical-acknowledgment-generated-in-response-to-inbound-interchanges"></a>由傳送管線針對回應輸入交換而產生之每個技術通知所更新的資料  
  對於傳送管線所傳送的每個技術通知，傳送管線都會更新相互關聯之接收交換的狀態報告項目。 資料的來源會是由「傳送管線」建立的交換信封。  
@@ -128,7 +128,7 @@ ms.lasthandoff: 09/20/2017
   
 -   功能通知方向 = 接收  
   
--   功能通知狀態 =\<預期或不適用 >。 如果有選取 PAM 中的 [功能通知] 索引標籤，狀態便會設定為「預期」。 否則，狀態會設定為「不適用」。  
+-   功能通知狀態 =\<預期或不適用\>。 如果有選取 PAM 中的 [功能通知] 索引標籤，狀態便會設定為「預期」。 否則，狀態會設定為「不適用」。  
   
 -   交換接收者 = 更新資料 (相互關聯的必要項)  
   
@@ -144,27 +144,27 @@ ms.lasthandoff: 09/20/2017
   
 -   交易集的計數 = 資料 (在 EDIFACT 中，如果存在 UNG/UNE，此項便會對應至 UNE.1，如果不存在群組區段，則會對應至 UNZ.1)  
   
--   功能通知交換控制識別碼 =\<不值 >  
+-   功能通知交換控制識別碼 =\<不值\>  
   
--   功能通知交換日期 =\<不值 >  
+-   功能通知交換日期 =\<不值\>  
   
--   功能通知交換時間 =\<不值 >  
+-   功能通知交換時間 =\<不值\>  
   
--   計數傳送交易集的 =\<不值 >  
+-   計數傳送交易集的 =\<不值\>  
   
--   交易集已接受的計數 =\<不值 >  
+-   交易集已接受的計數 =\<不值\>  
   
--   通知/動作代碼 =\<不值 >  
+-   通知/動作代碼 =\<不值\>  
   
--   錯誤/語法錯誤碼 =\<不值 >  
+-   錯誤/語法錯誤碼 =\<不值\>  
   
--   其他 X12 通知錯誤的程式碼 2 =\<不值 >  
+-   其他 X12 通知錯誤的程式碼 2 =\<不值\>  
   
--   其他 X12 通知錯誤碼 3 =\<不值 >  
+-   其他 X12 通知錯誤碼 3 =\<不值\>  
   
--   其他 X12 通知錯誤的程式碼 4 =\<不值 >  
+-   其他 X12 通知錯誤的程式碼 4 =\<不值\>  
   
--   其他 X12 通知錯誤碼 5 =\<不值 >  
+-   其他 X12 通知錯誤碼 5 =\<不值\>  
   
 ## <a name="data-updated-by-the-send-pipeline-for-each-functional-acknowledgment-generated-in-response-to-inbound-interchanges"></a>由傳送管線針對回應輸入交換而產生之每個功能通知所更新的資料  
  對於每個傳送管線所傳送的功能通知，傳送管線都會更新相互關聯之接收交換的狀態報告項目。 資料的來源會是由「傳送管線」建立的交換信封。  
@@ -225,6 +225,6 @@ ms.lasthandoff: 09/20/2017
   
 -   其他 X12 通知錯誤碼 5 = 現有資料  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [資料如何儲存 EDI 和 AS2 狀態報告](../core/how-data-is-stored-for-edi-and-as2-status-reports.md)   
- [資料如何儲存輸出 EDI 訊息](../core/how-data-is-stored-for-outbound-edi-messages.md)
+ [如何儲存輸出 EDI 訊息的資料](../core/how-data-is-stored-for-outbound-edi-messages.md)

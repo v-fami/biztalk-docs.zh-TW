@@ -12,11 +12,11 @@ caps.latest.revision: "50"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: be7c36900c39f46f636077c5c9d0cb630265cc80
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5374ba63ba8eb4193c3ef4990e8c169646a3528b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="bam-management-utility"></a>BAM 管理公用程式
 商務活動監控 (BAM) 定義的管理員可使用 BAM 管理公用程式，來管理和維護 BAM 基礎結構的所有層面。  
@@ -38,7 +38,7 @@ ms.lasthandoff: 09/20/2017
 > [!NOTE]
 >  執行 BAM 管理公用程式的電腦，其地區設定必須與建立 BAM 定義以進行部署所使用的地區設定相同，BAM 命令才能正常運作。 例如，如果您執行**get 檢視**命令設定的電腦上採用英文地區設定比對資料庫使用法文地區設定的電腦上您將無法使用傳回的檢視名稱，除非您重設您電腦為法文的地區設定。  
   
- 您可以使用 BAM 管理公用程式在伺服器上產生並部署追蹤組態。 BAM 管理公用程式是命令列工具位於\<*安裝路徑*> \Program Files\Microsoft BizTalk Server\<版本 > \Tracking\BM.exe。  
+ 您可以使用 BAM 管理公用程式在伺服器上產生並部署追蹤組態。 BAM 管理公用程式是命令列工具位於\<*安裝路徑*\>\Program Files\Microsoft BizTalk Server\<版本\>\Tracking\BM.exe。  
   
 > [!IMPORTANT]
 >  若要執行 BAM 管理公用程式，您必須是成員**db_owner** BAM 主要匯入、 BAM 星狀結構描述和 BAM 封存資料庫中的 SQL Server 資料庫角色。 您也必須擁有 BAM 警示資料庫上 sysadmin 權限，如果進行與 BAM 警示相關的任何更新。  
@@ -65,7 +65,7 @@ ms.lasthandoff: 09/20/2017
   
 -   [資料庫命令](../core/database-commands.md)  
   
--   [部署的 BAM 定義 （觀察模型） 命令](../core/deployment-of-bam-definition-observation-model-commands.md)  
+-   [BAM 定義的部署 (觀察模型) 命令](../core/deployment-of-bam-definition-observation-model-commands.md)  
   
 -   [基礎結構管理命令](../core/infrastructure-management-commands.md)  
   
@@ -86,7 +86,7 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-display-the-help-file-for-the-bam-management-utility"></a>若要顯示 BAM 管理公用程式的說明檔  
   
-1.  從命令提示字元，瀏覽至下列目錄： C:\Program Files\Microsoft BizTalk Server\<版本 > \Tracking\\。  
+1.  從命令提示字元，瀏覽至下列目錄： C:\Program Files\Microsoft BizTalk Server\<版本\>\Tracking\\。  
   
 2.  型別**bm**或**bm 說明**。  
   

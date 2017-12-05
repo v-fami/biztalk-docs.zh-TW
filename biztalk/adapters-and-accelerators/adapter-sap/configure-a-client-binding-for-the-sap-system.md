@@ -16,11 +16,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f75253251d18049363255f553ded833748e33875
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e1e9a4f84dbf98a17b2c1a918e30ab85b8e86c13
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="configure-a-client-binding-for-the-sap-system"></a>設定用戶端繫結為 SAP 系統
 產生 WCF 用戶端類別後，您可以建立 WCF 用戶端 （執行個體），並叫用其方法來取用[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]。 如需有關如何產生 WCF 用戶端類別和協助程式程式碼的作業資訊的[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]公開，請參閱[產生 WCF 用戶端或 WCF 服務合約的 SAP 方案成品](../../adapters-and-accelerators/adapter-sap/generate-a-wcf-client-or-a-wcf-service-contract-for-sap-solution-artifacts.md)。  
@@ -63,9 +63,9 @@ rfcClient.Open();
  下列 XML 顯示為 EMP 資料表所建立的組態檔[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]。 此檔案包含在上述範例中所參考的用戶端端點組態。  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <configuration xmlns="http://schemas.microsoft.com/.NetConfiguration/v2.0">  
-    \<system.serviceModel>  
+    <system.serviceModel>  
         <bindings>  
             <sapBinding>  
                 <binding name="SAPBinding" closeTimeout="00:01:00" openTimeout="00:01:00"  
@@ -83,7 +83,7 @@ rfcClient.Open();
                 binding="sapBinding" bindingConfiguration="SAPBinding" contract="Rfc"  
                 name="SAPBinding_Rfc" />  
         </client>  
-    \</system.serviceModel>  
+    </system.serviceModel>  
 </configuration>  
 ```  
   
@@ -92,7 +92,7 @@ rfcClient.Open();
 > [!IMPORTANT]
 >  [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]呈現不同 SAP 成品 （例如 RFC、 TRFC 和 IDOC） 相同的類型做為相同的服務合約的不同作業。 例如，兩個不同的 Rfc、 RFC_EXAMPLE_A 和 RFC_EXAMPLE_B，會同時發生在相同的服務合約 (「 Rfc")。 這表示會在相同的 WCF 用戶端類別，所叫用這兩個 Rfc **RfcClient**，而且這兩個 Rfc 的參數會在相同的命名空間中宣告。 因此，您必須在相同產生 WCF 用戶端，這兩個 rfc[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]以避免當您建置方案時遇到的命名空間衝突的工作階段 （連線）。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [開發使用 WCF 服務模型的 SAP 應用程式](../../adapters-and-accelerators/adapter-sap/develop-sap-applications-using-the-wcf-service-model.md)   
  [產生 WCF 用戶端或 SAP 方案成品的 WCF 服務合約](../../adapters-and-accelerators/adapter-sap/generate-a-wcf-client-or-a-wcf-service-contract-for-sap-solution-artifacts.md)   
  [建立 SAP 系統連線 URI](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md)

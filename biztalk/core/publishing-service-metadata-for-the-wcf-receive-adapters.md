@@ -15,11 +15,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d922c0acecf81a96b0e40cebf739e7b56c5ffd3e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3b8a15ab9258c9212c2fa6fdd6557227f534a86c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="publishing-service-metadata-for-the-wcf-receive-adapters"></a>發佈 WCF 接收配接器的服務中繼資料
 您可以使用「BizTalk WCF 服務發佈精靈」建立 WCF 服務，以發佈現有 WCF 接收位置的服務中繼資料。 若要從已發行中繼資料文件產生用戶端服務模型程式碼中，您可以使用隨附的 Service Model Metadata Utility 工具 (SvcUtil.exe) [!INCLUDE[btsCoName](../includes/btsconame-md.md)] [!INCLUDE[btsWinNoVersion](../includes/btswinnoversion-md.md)]軟體開發套件 (SDK) for[!INCLUDE[btsWinVista](../includes/btswinvista-md.md)]和[!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)]執行階段元件。  
@@ -40,7 +40,7 @@ ms.lasthandoff: 09/20/2017
 |檔案|資料夾|Description|  
 |----------|------------|-----------------|  
 |WCF 服務 (.svc 檔案)|\|發佈 WCF 接收位置之服務中繼資料的 WCF 服務。 WCF 服務會使用 HTTP/GET 要求發佈服務中繼資料以供擷取。|  
-|Web.config|\|ASP.NET 組態檔，其中包含 ASP.NET Web 應用程式行為、已發佈的 WCF 服務行為、中繼資料端點以及 BizTalk 相關設定的資訊。 精靈會產生 Web.config 時**httpGetEnabled**屬性 **\<serviceMetadata >**元素設定為**true**。 您可以在開發環境中使用中繼資料匯入工具 (例如 SvcUtil.exe) 產生呼叫此服務所需的用戶端程式碼。 中繼資料發行的位址是 WCF 服務的端點位址加上一個**？ wsdl**查詢字串。 **注意：** BizTalk WCF 發佈精靈所產生的預設中繼資料繫結並不安全，它允許匿名存取中繼資料。 服務中繼資料包含關於服務的詳細描述，因此可能會在有意或無意之間包含機密資訊。 若要防止未經授權存取服務中繼資料，您可以修改 Web.config，為中繼資料結束點使用安全繫結。|  
+|Web.config|\|ASP.NET 組態檔，其中包含 ASP.NET Web 應用程式行為、已發佈的 WCF 服務行為、中繼資料端點以及 BizTalk 相關設定的資訊。 精靈會產生 Web.config 時**httpGetEnabled**屬性 **\<serviceMetadata\>** 元素設定為**true**。 您可以在開發環境中使用中繼資料匯入工具 (例如 SvcUtil.exe) 產生呼叫此服務所需的用戶端程式碼。 中繼資料發行的位址是 WCF 服務的端點位址加上一個**？ wsdl**查詢字串。 **注意：** BizTalk WCF 發佈精靈所產生的預設中繼資料繫結並不安全，它允許匿名存取中繼資料。 服務中繼資料包含關於服務的詳細描述，因此可能會在有意或無意之間包含機密資訊。 若要防止未經授權存取服務中繼資料，您可以修改 Web.config，為中繼資料結束點使用安全繫結。|  
 |ServiceDescription.xml|\|描述已發佈之 WCF 服務合約 (包括訊息類型) 的 XML 檔案。|  
 |BizTalk 結構描述 (.xsd 檔案)|\App_Data|定義 XML 執行個體訊息結構的 XML 結構描述，在 WCF 接收位置中使用。|  
 |SchemaIndex.xml|\App_Data|表示在 WCF 接收位置中使用之 XML 結構描述檔案的 XML 檔案。|  
@@ -54,5 +54,5 @@ ms.lasthandoff: 09/20/2017
   
 -   [如何使用 BizTalk WCF 服務發佈精靈發佈之 WCF 接收位置的服務中繼資料繫結至協調流程連接埠](../core/publish-receive-location-service-metadata-biztalk-wcf-service-publishing-wizard.md)  
   
-## <a name="see-also"></a>另請參閱  
- [逐步解說： 使用發佈 WCF 服務 Wcf-netmsmq 配接器](../core/walkthrough-publishing-wcf-services-with-the-wcf-netmsmq-adapter.md)
+## <a name="see-also"></a>請參閱  
+ [逐步解說：使用 WCF-NetMsmq 配接器發佈 WCF 服務](../core/walkthrough-publishing-wcf-services-with-the-wcf-netmsmq-adapter.md)

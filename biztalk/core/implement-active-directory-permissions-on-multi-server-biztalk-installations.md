@@ -12,11 +12,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c0f6f5cb6403c752b18cbfb1c4370cbe3ca95e65
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6ff7b45e560278053cec99208fd06917d079d6b8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="guidelines-for-implementing-active-directory-permissions-on-multi-server-biztalk-installations"></a>在 BizTalk 多伺服器安裝上實作 Active Directory 權限的指導方針
 本主題描述建立 Active Directory 組織單位的指導方針，這些組織單位是由您在 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 安裝中使用的使用者帳戶和群組所構成的。  
@@ -238,7 +238,7 @@ ms.lasthandoff: 09/20/2017
 |BizTalk Server 系統管理員|全域或萬用|-BTUserAdmin<br />-BTUserInstall<br />BizTalk 開發使用者<br />BizTalk 部署使用者|  
 |BizTalk 支援使用者|全域或萬用|BTUserSupport (支援使用者的本機網域帳戶)|  
 |SSO 系統管理員|全域或萬用|-SSOService<br />-BTUserInstall<br />本機系統管理員|  
-|SSO 分支機構系統管理員|全域或萬用|BizTalk 開發使用者<br />BizTalk 部署使用者<br />-BTServiceHostIso<br />-   \<主控台使用者 >|  
+|SSO 分支機構系統管理員|全域或萬用|BizTalk 開發使用者<br />BizTalk 部署使用者<br />-BTServiceHostIso<br />-   \<主控台使用者\>|  
 |Windows SharePoint Services 系統管理員|全域或萬用|-SPAdmin<br />-BTUserInstall<br />-BTUserDeploy<br />BizTalk 開發使用者<br />BizTalk 部署使用者|  
   
  關於網域群組的建議和注意事項：  
@@ -247,7 +247,7 @@ ms.lasthandoff: 09/20/2017
   
 -   網域群組可以是「全域」或「萬用」群組。  
   
--   使用 *\<DomainName >\\< 使用者名稱\>*當組態精靈中指定網域帳戶資訊。  
+-   使用 *\<DomainName\>\\< 使用者名稱\>*當組態精靈中指定網域帳戶資訊。  
   
 -   群組與使用者/服務帳戶必須屬於 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 電腦的所屬網域 ([組態精靈] 會檢查此項，而且不會顯示包含其他網域之帳戶的帳戶或群組)。  
   
@@ -337,9 +337,9 @@ ms.lasthandoff: 09/20/2017
 >  這些建議僅適用於開發和共用的環境，而且既不建議也不反對使用企業密碼原則。 如需瞭解密碼需求，請洽詢您的網路管理員。  
   
 > [!NOTE]
->  如果企業密碼原則包括產生的密碼，請注意一些符號和符號組合在 XML 是具有特殊用途的字元。 不適當地使用這些字元，將會使組態 XML 檔無法在進行組態程序時開啟。 這些符號包括"&"、"\<"，">"、 單一-和雙引號，並且可能包括其他。 請在執行以檔案為基礎的組態之前，先行測試組態 XML 檔案。 您只要在 Internet Explorer (或 XML 編輯器) 中開啟其中內嵌產生之密碼的文件，便能可靠地測試適當的 XML 格式設定。  
+>  如果企業密碼原則包括產生的密碼，請注意一些符號和符號組合在 XML 是具有特殊用途的字元。 不適當地使用這些字元，將會使組態 XML 檔無法在進行組態程序時開啟。 這些符號包括"&"、"\<"，"\>」、 單一-和雙引號，並且可能包括其他。 請在執行以檔案為基礎的組態之前，先行測試組態 XML 檔案。 您只要在 Internet Explorer (或 XML 編輯器) 中開啟其中內嵌產生之密碼的文件，便能可靠地測試適當的 XML 格式設定。  
   
  如需有關部署安全密碼在上線路環境中 (包括要測試的方法[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]組態檔)，請參閱[BizTalk Server 2013 和 2013 R2 的組態概觀](http://msdn.microsoft.com/library/aa58c43f-8f0e-4a5c-89b9-db7b8a852a72)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [疑難排解 BizTalk Server 權限](../core/troubleshooting-biztalk-server-permissions.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6649016dbfc225c4c2f557c73ff37dfc010a1588
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d2e1c9b95c84d82dd1d7e2538138bcb9f89b6b8a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="party-resolution-pipeline-component"></a>合作對象解析管線元件
 
@@ -27,7 +27,7 @@ ms.lasthandoff: 09/20/2017
   
  若訊息已簽章，則用以驗證輸入訊息簽章的憑證指紋就會用以查詢「組態儲存機制」，以決定它與哪些合作對象相關聯。 若找到合作對象，就會將該合作對象的 SourcePartyID 放置在訊息內容中以作為訊息的建立者。  
   
- 若要啟用合作對象解析管線元件以驗證 Windows 使用者，您必須將 "WindowsUser" 別名新增至合作對象。 在 名稱 和 辨識符號欄位中輸入"WindowsUser"並將值設為使用者名稱格式為\<網域 \ 使用者名稱 > (e.g.SOMEDOMAIN\someuser)。 在獨立的實例中，用以設定合作對象的 WindowsUser 值應符合接收配接器所設定的值。  
+ 若要啟用合作對象解析管線元件以驗證 Windows 使用者，您必須將 "WindowsUser" 別名新增至合作對象。 在 名稱 和 辨識符號欄位中輸入"WindowsUser"並將值設為使用者名稱格式為\<網域 \ 使用者名稱\>(e.g.SOMEDOMAIN\someuser)。 在獨立的實例中，用以設定合作對象的 WindowsUser 值應符合接收配接器所設定的值。  
   
  如果在訊息到達合作對象解析元件使用兩個屬性加上戳記，合作對象解析元件第一次嘗試依憑證解析合作對象 (假設**依憑證解析合作對象**屬性設定為**True**)。 如果合作對象解析，該合作對象的 SourcePartyID 放在訊息的內容做為訊息的 OriginatorPID 執行管線的主控件程序標示為**信任的驗證**的管線。 若不能使用憑證完成合作對象解析，則在訊息上的 OriginatorPID 值會加上 "s-1-5-7" 的戳記，此為匿名使用者的 SID。 如需 OriginatorPID 屬性的詳細資訊，請參閱[如何保護管線](../core/how-to-secure-pipelines.md)。  
 
@@ -45,8 +45,8 @@ ms.lasthandoff: 09/20/2017
   
  如需設定 「 合作對象解析 」 管線元件的資訊，請參閱[如何設定合作對象解析管線元件](../core/how-to-configure-the-party-resolution-pipeline-component.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 -  **訊息內容屬性**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]   
 -  [管線元件](../core/pipeline-components.md)   
--  [自訂合作對象解析 （BizTalk Server 範例）](../core/custom-party-resolution-biztalk-server-sample.md)   
--  [驗證的處理序之間的訊息](../core/authentication-of-messages-between-processes.md)
+-  [自訂合作對象解析 (BizTalk Server 範例)](../core/custom-party-resolution-biztalk-server-sample.md)   
+-  [程序之間的訊息驗證](../core/authentication-of-messages-between-processes.md)

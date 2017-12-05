@@ -13,11 +13,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 339d0bba76c26186fe8356145207462e7ce25ed7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bb6c787219855ca219808fc1e95c0caefbf12a9d
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="biztalk-assemblies"></a>BizTalk 組件
 Microsoft BizTalk Server 與 .NET Framework 最重要的部分是所有的 BizTalk Server 成品、對應、結構描述、協調流程以及管線都會編譯為 .NET 組件。 此設計的兩個最重要含意是這些組件必須具有強式名稱，因此它們也遵循 .NET 版本管理規則。 其主要含意為，一旦針對另一個 .NET 專案或組件 (包括 BizTalk 專案) 的特定版本建置 BizTalk 專案，該專案會繼續使用此版本，直到再針對較新的版本重新建置它為止。  
@@ -34,7 +34,7 @@ Microsoft BizTalk Server 與 .NET Framework 最重要的部分是所有的 BizTa
   
  部署到「全域組件快取」的 BizTalk Server 成品也因此必須使用強式名稱的另一個重要含意是，強式名稱的組件不能呼叫其他不是強式名稱的組件。 這表示由開發人員建立以供這些 BizTalk 組件使用的任何組件，也必須使用強式名稱。 同樣的，部署到 GAC 的組件若未使用特定路徑載入其他組件，則必須從 GAC 載入這些組件。  
   
- 會將管線元件新增至 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 中的開發人員工具箱，讓它們可供拖曳至管線設計師上。 將 BizTalk Server 管線編譯為 .NET 組件時，會將管線各個階段中所有元件的資訊編譯為組件。 此管線部署到 BizTalk Server 時, 的元件，包括其檔案名稱資訊插入 BizTalk 管理資料庫和管線組件部署到 GAC。 BizTalk 管線元件相依於任何其他組件也必須部署到 GAC 以便在執行階段找到。 管線元件組件也必須複製到[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\Pipeline Components 目錄，可以讓 BizTalk 管線在執行階段存取。 管線執行時會載入這些元件，並適時呼叫它們所實作的介面。  
+ 會將管線元件新增至 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 中的開發人員工具箱，讓它們可供拖曳至管線設計師上。 將 BizTalk Server 管線編譯為 .NET 組件時，會將管線各個階段中所有元件的資訊編譯為組件。 此管線部署到 BizTalk Server 時, 的元件，包括其檔案名稱資訊插入 BizTalk 管理資料庫和管線組件部署到 GAC。 BizTalk 管線元件相依於任何其他組件也必須部署到 GAC 以便在執行階段找到。 管線元件組件也必須複製到可存取 BizTalk Server\Pipeline 元件目錄中，但會由 BizTalk 管線在執行階段。 管線執行時會載入這些元件，並適時呼叫它們所實作的介面。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [執行階段架構](../core/runtime-architecture.md)

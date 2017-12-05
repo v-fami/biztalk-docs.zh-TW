@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fbb5800ba076184f09f0159f030a44e169ac742b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7bb7b3dc8356172989c215dc13e5fd82e46f4689
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="troubleshooting-maps"></a>地圖疑難排解
 本主題提供對應的疑難排解策略、問題細節和解決方法資訊。  
@@ -56,7 +56,7 @@ ms.lasthandoff: 09/20/2017
   
  如果決定要以手動方式自訂對應，您可以修改對應編譯器所產生的版本。 這些變更不會由對應工具反映，而且會在下一次建置解決方案時遺失。  
   
-### <a name="tune-your-map-for-specific-scenarios-using-mapsource"></a>微調您的對應使用為特定案例\<mapsource >  
+### <a name="tune-your-map-for-specific-scenarios-using-mapsource"></a>微調您的對應使用為特定案例\<mapsource\>  
  您可以藉由修改屬性來修改對應工具的一些預設行為**mapsource**直接在對應來源 (.btm) 檔案中的項目。 目前您可以修改三種行為：  
   
 -   **最佳化值對應運算質程式碼產生**。 您可以修改控制變數搭配 `if` 陳述式使用時的行為。  
@@ -65,8 +65,8 @@ ms.lasthandoff: 09/20/2017
   
 -   **管理迴圈 」、 「 條件 」 和 「 值對應運算質的 for-each 用法**。 您可以控制 `xsl:for-each` 陳述式在目的結構描述內使用的位置。  
   
- 如需有關修改**mapsource**，請參閱[管理預設對應工具的行為使用\<mapsource >](../core/managing-default-mapper-behavior-using-mapsource.md)。  
+ 如需有關修改**mapsource**，請參閱[管理預設對應工具的行為使用\<mapsource\>](../core/managing-default-mapper-behavior-using-mapsource.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [一般疑難排解問答集](../core/general-troubleshooting-questions-and-answers.md)   
- [常見的錯誤](../core/common-errors.md)
+ [常見錯誤](../core/common-errors.md)

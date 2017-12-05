@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b06c7383dee805612a3f599148f1d631891ace79
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4bd438725b53362cda1b041af697283e68d77ba7
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="installing-the-resolver-service-sample"></a>安裝 「 解析程式服務 」 範例
 本章節描述解析程式服務範例的安裝程序。 解析程式服務依存於[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]核心方案。 安裝[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]核心自動複製並安裝到正確的位置，此範例所需的核心組件。  
@@ -42,4 +42,4 @@ ms.lasthandoff: 09/20/2017
 |||ResolveMap|  
 |BizTalk 應用程式 GlobalBank.ESB|地圖|(無)|  
 |全域組件快取|組件|(無)|  
-|%Program Files %\\[!INCLUDE[prague](../includes/prague-md.md)]\Pipeline 元件|管線元件|(無)|
+|%Program Files %\\BizTalk Server\Pipeline 元件|管線元件|(無)|

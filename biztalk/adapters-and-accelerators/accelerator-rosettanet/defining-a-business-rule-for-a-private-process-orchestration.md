@@ -41,11 +41,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c668b3123483de1d53afa8ca74cf9d7d2376ecea
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f8dd0ebb22bcf6253604e4e8bf7fd858deb776b0
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="defining-a-business-rule-for-a-private-process-orchestration"></a>私用程序協調流程中定義的商務規則
 您可以定義要在通知私用程序中使用的商務規則。 這讓您可以動態地修改商務規則，而不需停止私用程序協調流程。 這個程序會使用「[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 商務規則引擎」。 這個程序包含下列步驟：  
@@ -56,11 +56,11 @@ ms.lasthandoff: 09/20/2017
   
 3.  從私用程序協調流程呼叫商務規則。 此涉及新增**呼叫規則**圖形至協調流程。  
   
- [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] SDK 包含的範例，[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]商務原則、 samplebtarnpolicy.xml 中\<*磁碟機*>: \Program Files\Microsoft BizTalk\<版本 > Accelerator for RosettaNet\SDK\PipAutomation\3A4。 如需詳細資訊，請參閱[BTARN 商務原則範例](../../adapters-and-accelerators/accelerator-rosettanet/sample-btarn-business-policy.md)。  
+ [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] SDK 包含的範例，[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]商務原則、 samplebtarnpolicy.xml 中\<*磁碟機*\>: \Program Files\Microsoft BizTalk\<版本\>Accelerator for rosettanet\sdk\pipautomation\3a4。 如需詳細資訊，請參閱[BTARN 商務原則範例](../../adapters-and-accelerators/accelerator-rosettanet/sample-btarn-business-policy.md)。  
   
  PIP3A4PrivateResponder.odx 範例屬於私用程序協調流程，示範如何實作特定夥伴介面程序 (PIP) 的回應者私用程序，以整合商務規則。 如需有關此範例的詳細資訊，請參閱[3A4 私用回應者協調流程使用商務規則](../../adapters-and-accelerators/accelerator-rosettanet/3a4-private-responder-orchestration-using-a-business-rule.md)。  
   
- 如需有關詞彙和原則的詳細資訊，請參閱「[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]」中的＜使用商務規則進行開發＞主題。  
+ 如需有關詞彙和原則的詳細資訊，請參閱 BizTalk Server 中的 < 開發與商務規則 > 主題。  
   
 ### <a name="to-add-a-new-vocabulary"></a>加入新詞彙  
   
@@ -170,11 +170,11 @@ ms.lasthandoff: 09/20/2017
 11. 在 [協調流程設計] 視窗中，輸入與商務原則，包括加入相關聯的處理所需的所有其他圖形**決策**圖形下**呼叫規則**圖形。  
   
     > [!NOTE]
-    >  如需如何使用的範例**呼叫規則**圖形的協調流程中，請參閱 BTARN SDK 隨附的 PIP3A4PrivateResponder.odx 協調流程。 它位於\<*磁碟機*>: \Program Files\Microsoft BizTalk\<版本 > Accelerator for RosettaNet\SDK\PipAutomation\3A4\PR。 如需詳細資訊，請參閱[3A4 私用回應者協調流程使用商務規則](../../adapters-and-accelerators/accelerator-rosettanet/3a4-private-responder-orchestration-using-a-business-rule.md)。  
+    >  如需如何使用的範例**呼叫規則**圖形的協調流程中，請參閱 BTARN SDK 隨附的 PIP3A4PrivateResponder.odx 協調流程。 它位於\<*磁碟機*\>: \Program Files\Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK\PipAutomation\3A4\PR。 如需詳細資訊，請參閱[3A4 私用回應者協調流程使用商務規則](../../adapters-and-accelerators/accelerator-rosettanet/3a4-private-responder-orchestration-using-a-business-rule.md)。  
   
 12. 按一下 **[確定]**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [程式設計手冊](../../adapters-and-accelerators/accelerator-rosettanet/programming-guide2.md)   
  [BTARN 商務原則範例](../../adapters-and-accelerators/accelerator-rosettanet/sample-btarn-business-policy.md)   
  [使用商務規則的 3A4 私用回應者協調流程](../../adapters-and-accelerators/accelerator-rosettanet/3a4-private-responder-orchestration-using-a-business-rule.md)

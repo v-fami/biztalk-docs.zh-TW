@@ -16,11 +16,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: db734237a874ef73b88ddb2e59fe51f34daa3fcd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3b2e493f5b99c9b100a9683ffb90584a9cfd92b3
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="send-idocs-to-sap-using-biztalk-server"></a>傳送 Idoc 至 SAP 使用 BizTalk Server
 所有 SAP IDOC 呼叫在內部都視為 tRFC 呼叫配接器做為 tRFC 用戶端，並呼叫中傳送 IDOC 到 SAP RFC。 本節提供資訊使用傳送 Idoc 到 SAP[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]與[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]。 [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]呈現傳送 Idoc 的兩個不同作業：  
@@ -37,7 +37,7 @@ ms.lasthandoff: 09/20/2017
 |輸入至 BizTalk|BizTalk 處理|輸出配接器|  
 |----------------------|------------------------|-----------------------|  
 |一般檔案 IDOC|**中繼資料設計階段**<br /><br /> 1.設定繫結屬性 GenerateFlatFileCompatibleIdocSchema 至**True**。<br />2.產生的結構描述**傳送**作業特定的 IDOC 使用[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]。<br /><br /> **協調流程設計階段**<br /><br /> 1.接收一般檔案 IDOC<br />2.使用一般檔案解譯器將一般檔案 IDOC 轉換成 XML IDOC 使用剛才產生的結構描述。<br />3.將動作設定成**傳送**作業。|傳送訊息|  
-|一般檔案 IDOC|**中繼資料設計階段**<br /><br /> 1.設定繫結屬性 GenerateFlatFileCompatibleIdocSchema 至**True**。<br />2.產生的結構描述**SendIdoc**作業從 IDOC 節點使用[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]。<br /><br /> **協調流程設計階段**<br /><br /> 1.接收一般檔案 IDOC<br />2.使用一般檔案解譯器將一般檔案 IDOC 轉換成 XML (在此情況下，XML 訊息包含\<idocData > 節點，其中包含整個一般檔案 Idoc 訊息) 使用剛才產生的結構描述。<br />3.將動作設定成**SendIdoc**作業。|SendIdoc 訊息|  
+|一般檔案 IDOC|**中繼資料設計階段**<br /><br /> 1.設定繫結屬性 GenerateFlatFileCompatibleIdocSchema 至**True**。<br />2.產生的結構描述**SendIdoc**作業從 IDOC 節點使用[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]。<br /><br /> **協調流程設計階段**<br /><br /> 1.接收一般檔案 IDOC<br />2.使用一般檔案解譯器將一般檔案 IDOC 轉換成 XML (在此情況下，XML 訊息包含\<idocData\>節點包含整個一般檔案 Idoc 訊息) 使用剛才產生的結構描述。<br />3.將動作設定成**SendIdoc**作業。|SendIdoc 訊息|  
 |XML IDOC|**中繼資料設計階段**<br /><br /> 產生的結構描述**傳送**作業特定的 IDOC 使用[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]。<br /><br /> **協調流程設計階段**<br /><br /> 1.接收 XML IDOC。<br />2.將動作設定成**傳送**作業。|傳送訊息|  
 |XML 訊息中的一般檔案 IDOC|**中繼資料設計階段**<br /><br /> 產生的結構描述**SendIdoc**作業從 IDOC 節點使用[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]。<br /><br /> **協調流程設計階段**<br /><br /> 1.接收 XML 訊息。<br />2.將動作設定成**SendIdoc**作業。|SendIdoc 訊息|  
   
@@ -211,7 +211,7 @@ ms.lasthandoff: 09/20/2017
  在這兩種情況下，SAP 系統的回應訊息包含的 GUID。 例如，ORDERS05 IDOC 的 Send 作業的回應訊息是：  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <SendResponse xmlns="http://Microsoft.LobServices.Sap/2007/03/Idoc/3/ORDERS05//620/Send">  
   <guid>a5afe162-d5cc-47b0-bf6f-3b0bfe06a97e</guid>  
 </SendResponse>  
@@ -228,5 +228,5 @@ ms.lasthandoff: 09/20/2017
 ## <a name="best-practices"></a>最佳作法  
  您部署和設定 BizTalk 專案之後，您可以為 XML 檔案，稱為繫結檔案匯出組態設定。 一旦產生繫結檔案時，您可以匯入組態設定從檔案，因此您不需要建立傳送埠、 接收埠，等。 針對相同的協調流程。 如需繫結檔案的詳細資訊，請參閱[重複使用的 SAP 配接器繫結](../../adapters-and-accelerators/adapter-sap/reuse-sap-adapter-bindings.md)。
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [開發 BizTalk 應用程式](../../adapters-and-accelerators/adapter-sap/develop-biztalk-applications-using-the-sap-adapter.md)

@@ -13,24 +13,24 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d64ddd2c9913ac85a493108548a655a25f153c3f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: dd5d3f29a2a369f37589f3356da1a1183d8cb91b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-2-creating-the-contoso-partner-organization"></a>步驟 2： 建立 Contoso 交易夥伴組織
 在這個步驟中，您會使用 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 管理主控台來建立新的交易夥伴。 這個教學課程中的交易夥伴是 Contoso 組織。  
   
 ### <a name="to-start-the-btarn-management-console"></a>若要啟動 BTARN 管理主控台  
   
--   按一下**啟動**，指向 **所有程式**，指向  **Microsoft BizTalk\<版本 > Accelerator for RosettaNet**，然後按一下  **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]** 管理主控台。  
+-   按一下**啟動**，指向 **所有程式**，指向  **Microsoft BizTalk\<版本\>Accelerator for RosettaNet**，然後按一下  **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]** 管理主控台。  
   
 ### <a name="to-create-fabrikam-as-a-trading-partner"></a>若要建立 Fabrikam 為交易夥伴  
   
 1.  在 **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]** 管理主控台中，展開[!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)]，以滑鼠右鍵按一下**夥伴**，指向 **新增**，然後按一下**夥伴**.  
   
-2.  在 新交易夥伴屬性 對話方塊上**一般**索引標籤上，執行下列動作**:**  
+2.  在 [新交易夥伴屬性] 對話方塊上**一般**索引標籤上，執行下列動作**:**  
   
     |使用|動作|  
     |--------------|----------------|  
@@ -52,5 +52,5 @@ ms.lasthandoff: 09/20/2017
   
 4.  按一下 **[確定]**。  
   
-## <a name="see-also"></a>另請參閱  
- [步驟 3： 建立 Fabrikam 0 C 2 交易夥伴協議](../../adapters-and-accelerators/accelerator-rosettanet/step-3-creating-the-fabrikam-0c2-trading-partner-agreement.md)
+## <a name="see-also"></a>請參閱  
+ [步驟 3：建立 Fabrikam 0C2 交易夥伴協議](../../adapters-and-accelerators/accelerator-rosettanet/step-3-creating-the-fabrikam-0c2-trading-partner-agreement.md)

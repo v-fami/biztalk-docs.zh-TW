@@ -13,16 +13,16 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f8ffc18f5d1bf5680586e63a5310454426b26c83
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4cc187a96e7252fad7edacba10b7a3dcc39c1b33
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="file-inventory-for-the-business-process-management-solution"></a>商務程序管理解決方案的檔案庫存
-本節列出商務程序管理解決方案的子目錄和原始程式檔。 「商務程序管理」方案原始程式檔的預設安裝目錄是 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Scenarios\BPM。 下表會取代此路徑與之前的描述\<安裝目錄 >。  
+本節列出商務程序管理解決方案的子目錄和原始程式檔。 「商務程序管理」方案原始程式檔的預設安裝目錄是 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Scenarios\BPM。 下表會取代此路徑與之前的描述\<安裝目錄\>。  
   
- 中的檔案\<安裝目錄 >  
+ 中的檔案\<安裝目錄\>  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -32,14 +32,14 @@ ms.lasthandoff: 09/20/2017
 |ReplacePKToken.wsf|用於 ReplacePKToken VBScript 的 Windows 指令碼檔案。|  
 |SetupBPM.bat|建立公開金鑰、更新公開金鑰的參考，以及編譯解決方案。 如需部署解決方案的資訊，請參閱[部署商務程序管理解決方案](../core/deploying-the-business-process-management-solution.md)。|  
   
- 中的檔案\<安裝目錄 > \BAM  
+ 中的檔案\<安裝目錄\>\BAM  
   
 |檔案|Description|  
 |----------|-----------------|  
 |BAMServiceOrder.xls|用於 BAM 資料的 Excel 試算表。|  
 |BAMServiceOrder.xml|定義 BAM 資料項目類型的結構描述。|  
   
- 中的檔案\<安裝目錄 > \Bindings  
+ 中的檔案\<安裝目錄\>\Bindings  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -50,7 +50,7 @@ ms.lasthandoff: 09/20/2017
 |OrderBrokerAppBindings-test.xml|繫結檔案的測試版本**OrderBrokerApp**應用程式。|  
 |OrderBrokerAppBindings.xml|繫結檔案**OrderBrokerApp**應用程式。|  
   
- 中的檔案\<安裝目錄 > \CableProvisioningSystemClient  
+ 中的檔案\<安裝目錄\>\CableProvisioningSystemClient  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -59,7 +59,7 @@ ms.lasthandoff: 09/20/2017
 |CPSClient.cs|用戶端的來源。 包含**OrderHandlerWrapper**類別程式碼。|  
 |OrderException.cs|C# 類別定義檔**OrderException**。|  
   
- 中的檔案\<安裝目錄 > \CableProvisioningSystemServer  
+ 中的檔案\<安裝目錄\>\CableProvisioningSystemServer  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -68,7 +68,7 @@ ms.lasthandoff: 09/20/2017
 |CableProvisioningSystemServer.csproj.user|Visual Studio 專案使用者選項檔|  
 |CPSServer.cs|伺服器的來源。|  
   
- 中的檔案\<安裝目錄 > \CSRWebApp  
+ 中的檔案\<安裝目錄\>\CSRWebApp  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -76,7 +76,7 @@ ms.lasthandoff: 09/20/2017
 |CSRMainForm.aspx.cs|表單背後的 C# 程式碼。|  
 |Web.Config|表單的組態檔。|  
   
- 中的檔案\<安裝目錄 > \CSRWebApp\App_WebReferences\SouthridgeVideo_OrderBroker  
+ 中的檔案\<安裝目錄\>\CSRWebApp\App_WebReferences\SouthridgeVideo_OrderBroker  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -84,7 +84,7 @@ ms.lasthandoff: 09/20/2017
 |orderbrokerorch_orderport.discomap|產生的檔案。|  
 |orderbrokerorch_orderport.wsdl|WSDL 檔案**OrderBroker**呈現為 web 服務。|  
   
- 中的檔案\<安裝目錄 > \FacilitiesSimulator  
+ 中的檔案\<安裝目錄\>\FacilitiesSimulator  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -93,14 +93,14 @@ ms.lasthandoff: 09/20/2017
 |FacilitiesSimulatorForm.cs|功能模擬器的 C# 程式碼。|  
 |FacilitiesSimulatorForm.resx|資源檔。|  
   
- 中的檔案\<安裝目錄 > \HistoryDB  
+ 中的檔案\<安裝目錄\>\HistoryDB  
   
 |檔案|Description|  
 |----------|-----------------|  
 |CreateDatabase.cmd|驅動建立歷程記錄資料庫的 SQL 檔案之檔案。|  
 |SouthridgeVideoHistory.sql|建立歷程記錄資料庫的 SQL 命令。|  
   
- 中的檔案\<安裝目錄 > \IOperationsSystem  
+ 中的檔案\<安裝目錄\>\IOperationsSystem  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -108,7 +108,7 @@ ms.lasthandoff: 09/20/2017
 |IOperationsSystem.csproj|C# 專案檔。|  
 |IOperationsSystem.csproj.user|Visual Studio 專案使用者選項檔|  
   
- 中的檔案\<安裝目錄 > \IOrderHandler  
+ 中的檔案\<安裝目錄\>\IOrderHandler  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -116,14 +116,14 @@ ms.lasthandoff: 09/20/2017
 |IOrderHandler.cs|介面定義**OrderHandler**。|  
 |IOrderHandler.csproj|C# 專案檔。|  
   
- 中的檔案\<安裝目錄 > \Maps  
+ 中的檔案\<安裝目錄\>\Maps  
   
 |檔案|Description|  
 |----------|-----------------|  
 |Maps.btproj|BizTalk 專案檔。|  
 |Order_To_SQLUpdateStatus.btm|用來將訂單轉換為訊息以更新狀態的對應。|  
   
- 中的檔案\<安裝目錄 > \MessagingSchemas  
+ 中的檔案\<安裝目錄\>\MessagingSchemas  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -133,7 +133,7 @@ ms.lasthandoff: 09/20/2017
 |OrderStatusEnvelope.xsd|定義訂單狀態訊息的信封之結構描述。|  
 |SQLUpdateStatus.xsd|定義 SQL 狀態更新訊息的信封之結構描述。|  
   
- 中的檔案\<安裝目錄 > \OperationsClient  
+ 中的檔案\<安裝目錄\>\OperationsClient  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -142,14 +142,14 @@ ms.lasthandoff: 09/20/2017
 |OpsClient.cs|作業用戶端的 C# 程式碼。|  
 |OpsExceptions.cs|定義作業例外狀況的 C# 程式碼。|  
   
- 中的檔案\<安裝目錄 > \OperationsHandler  
+ 中的檔案\<安裝目錄\>\OperationsHandler  
   
 |檔案|Description|  
 |----------|-----------------|  
 |OperationsHandler.csproj|作業處理常式的 C# 專案檔。|  
 |OpsHandler.cs|C# 程式碼**OpsHandler**。 使用**OpsClient**提出要求的操作系統。|  
   
- 中的檔案\<安裝目錄 > \OperationsServer  
+ 中的檔案\<安裝目錄\>\OperationsServer  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -157,7 +157,7 @@ ms.lasthandoff: 09/20/2017
 |OperationsServer.csproj|作業伺服器的 C# 專案檔。|  
 |OpsServer.cs|C# 程式碼提供的執行個體的作業伺服器**OpsHandler**物件。|  
   
- 中的檔案\<安裝目錄 > \OpsAdapter  
+ 中的檔案\<安裝目錄\>\OpsAdapter  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -165,14 +165,14 @@ ms.lasthandoff: 09/20/2017
 |Register_Ops_Adapter.vbs|註冊 Ops 配接器的 VBScript。|  
 |SetupOpsAdapter.bat|安裝 Ops 配接器的批次檔。|  
   
- 中的檔案\<安裝目錄 > \OpsAdapter\IOpsAIC  
+ 中的檔案\<安裝目錄\>\OpsAdapter\IOpsAIC  
   
 |檔案|Description|  
 |----------|-----------------|  
 |IOpsAIC.cs|C# 程式碼檔案的介面定義**初始化**和**Execute** Ops 配接器所呼叫的方法。|  
 |IOpsAIC.csproj|C# 專案檔。|  
   
- 中的檔案\<安裝目錄 > \OpsAdapter\OpsAdapterMgmt  
+ 中的檔案\<安裝目錄\>\OpsAdapter\OpsAdapterMgmt  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -182,7 +182,7 @@ ms.lasthandoff: 09/20/2017
 |TransmitHandler.xsd|Ops 配接器的 C# 原始程式檔。|  
 |TransmitLocation.xsd|Ops 配接器的 C# 原始程式檔。|  
   
- 中的檔案\<安裝目錄 > \OpsAdapter\OpsTxAdapter  
+ 中的檔案\<安裝目錄\>\OpsAdapter\OpsTxAdapter  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -193,7 +193,7 @@ ms.lasthandoff: 09/20/2017
 |OpsTransmitter.cs|Ops 配接器的 C# 原始程式檔。|  
 |OpsTxAdapter.csproj|C# 專案檔。|  
   
- 中的檔案\<安裝目錄 > \Orchestrations\CableOrderActions  
+ 中的檔案\<安裝目錄\>\Orchestrations\CableOrderActions  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -205,28 +205,28 @@ ms.lasthandoff: 09/20/2017
 |Complete.odx|**完成**使用訂單處理階段協調流程。|  
 |Validate.odx|**驗證**使用訂單處理階段協調流程。|  
   
- 中的檔案\<安裝目錄 > \Orchestrations\CableOrderStage1  
+ 中的檔案\<安裝目錄\>\Orchestrations\CableOrderStage1  
   
 |檔案|Description|  
 |----------|-----------------|  
 |CableOrder1.odx|第一個訂單處理階段的協調流程。|  
 |CableOrderStage1.btproj|BizTalk 專案檔。|  
   
- 中的檔案\<安裝目錄 > \Orchestrations\CableOrderStage2  
+ 中的檔案\<安裝目錄\>\Orchestrations\CableOrderStage2  
   
 |檔案|Description|  
 |----------|-----------------|  
 |CableOrder2.odx|第二個訂單處理階段的協調流程。|  
 |CableOrderStage2.btproj|BizTalk 專案檔。|  
   
- 中的檔案\<安裝目錄 > \Orchestrations\OrderBroker  
+ 中的檔案\<安裝目錄\>\Orchestrations\OrderBroker  
   
 |檔案|Description|  
 |----------|-----------------|  
 |OrderBroker.btproj|BizTalk 專案檔。|  
 |OrderBroker.odx|**OrderBroker**協調流程。|  
   
- 中的檔案\<安裝目錄 > \Orchestrations\OrderManager  
+ 中的檔案\<安裝目錄\>\Orchestrations\OrderManager  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -237,7 +237,7 @@ ms.lasthandoff: 09/20/2017
 |OrderManager.btproj|BizTalk 專案檔。|  
 |OrderManager.odx|**OrderManager**協調流程。|  
   
- 中的檔案\<安裝目錄 > \OrderBrokerMaps  
+ 中的檔案\<安裝目錄\>\OrderBrokerMaps  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -247,7 +247,7 @@ ms.lasthandoff: 09/20/2017
 |OrderBrokerMaps.btproj|BizTalk 專案檔。|  
 |Order_To_CSR_OrderRequest.btm|用來將訂單訊息轉換為客戶服務訂單要求的對應。|  
   
- 中的檔案\<安裝目錄 > \OrderBrokerSchemas  
+ 中的檔案\<安裝目錄\>\OrderBrokerSchemas  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -256,7 +256,7 @@ ms.lasthandoff: 09/20/2017
 |Servicing_OrderRequest.xsd|定義傳送至服務系統的訊息之結構描述。|  
 |SQLHistoryInsert.xsd|SQL 歷程記錄訊息的結構描述。|  
   
- 中的檔案\<安裝目錄 > \OrderBroker_Proxy  
+ 中的檔案\<安裝目錄\>\OrderBroker_Proxy  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -265,34 +265,34 @@ ms.lasthandoff: 09/20/2017
 |OrderBrokerOrch_OrderPort.asmx|產生的檔案。|  
 |Web.config|產生的檔案。|  
   
- 中的檔案\<安裝目錄 > \OrderBroker_Proxy\App_Code  
+ 中的檔案\<安裝目錄\>\OrderBroker_Proxy\App_Code  
   
 |檔案|Description|  
 |----------|-----------------|  
 |DataTypes.cs|產生的檔案。|  
 |OrderBrokerOrch_OrderPort.asmx.cs|產生的檔案。|  
   
- 中的檔案\<安裝目錄 > \OrderHandler  
+ 中的檔案\<安裝目錄\>\OrderHandler  
   
 |檔案|Description|  
 |----------|-----------------|  
 |OrderHandler.cs|C# 程式碼**OrderHandler**物件。|  
 |OrderHandler.csproj|C# 專案檔。|  
   
- 中的檔案\<安裝目錄 > \Rules  
+ 中的檔案\<安裝目錄\>\Rules  
   
 |檔案|Description|  
 |----------|-----------------|  
 |DecodeAndValidateOrderRules.xml|商務規則引擎的規則檔案。|  
   
- 中的檔案\<安裝目錄 > \SampleMessages  
+ 中的檔案\<安裝目錄\>\SampleMessages  
   
 |檔案|Description|  
 |----------|-----------------|  
 |CSR_OrderRequest.xml|客戶服務訂單要求範例。|  
 |OrderEnvelope.xml|訂單信封範例。|  
   
- 中的檔案\<安裝目錄 > \SchemaClasses  
+ 中的檔案\<安裝目錄\>\SchemaClasses  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -300,7 +300,7 @@ ms.lasthandoff: 09/20/2017
 |InternalMessages.cs|定義用來在解決方案元件之間通訊的訊息之類別的 C# 程式碼。|  
 |SchemaClasses.csproj|C# 專案檔。|  
   
- 中的檔案\<安裝目錄 > \Schemas  
+ 中的檔案\<安裝目錄\>\Schemas  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -308,7 +308,7 @@ ms.lasthandoff: 09/20/2017
 |OrderPropertySchema.xsd|訂單訊息的升級屬性結構描述。|  
 |Schemas.btproj|BizTalk 專案檔。|  
   
- 中的檔案\<安裝目錄 > \Scripts  
+ 中的檔案\<安裝目錄\>\Scripts  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -321,7 +321,7 @@ ms.lasthandoff: 09/20/2017
 |regac.bat|在全域組件快取 (GAC) 中註冊組件的批次檔。|  
 |SouthridgeVideoSSOConfiguration.xml|包含初始 SSO 組態值的檔案。|  
   
- 中的檔案\<安裝目錄 > \ServiceLevelTracking  
+ 中的檔案\<安裝目錄\>\ServiceLevelTracking  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -331,7 +331,7 @@ ms.lasthandoff: 09/20/2017
 |ServiceLevelTracking.cs|定義活動之抽象基底類別的 C# 程式碼。|  
 |ServiceLevelTracking.csproj|C# 專案檔。|  
   
- 中的檔案\<安裝目錄 > \Utilities  
+ 中的檔案\<安裝目錄\>\Utilities  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -342,6 +342,6 @@ ms.lasthandoff: 09/20/2017
 |SSOConfigHelper.cs|SSO 組態協助程式物件與方法的 C# 程式碼。|  
 |Utilities.csproj|C# 專案檔。|  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [商務程序管理解決方案參考](../core/business-process-management-solution-reference.md)   
  [商務程序管理解決方案的元件](../core/components-of-the-business-process-management-solution.md)

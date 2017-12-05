@@ -13,11 +13,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f17b45afb28a497c0443f788a44d05307103c547
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: 9fafde77ad1e6edcae71d2c33a722ac63ab8e75b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="tutorial-use-tibco-ems-message-descriptors"></a>教學課程： 使用 TIBCO EMS 訊息描述元
 
@@ -38,7 +38,7 @@ ms.lasthandoff: 11/07/2017
   
      **選取元件** 對話方塊隨即出現。  
   
-4.  找出 **\<TIBCO EMS_Adapter_installation_directory > \bin**，然後選取**Microsoft.Adapters.TibcoEMSProperties.dll**。  
+4.  找出 **\<TIBCO EMS_Adapter_installation_directory\>\bin**，然後選取**Microsoft.Adapters.TibcoEMSProperties.dll**。  
   
 5.  按一下 **[開啟]**。  
   
@@ -89,5 +89,5 @@ ms.lasthandoff: 11/07/2017
   
 21. 選取**繫結**，**登錄**，和**啟動**測試您的協調流程 [BizTalk 總管] 中。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [TIBCO EMS 訊息內容屬性](../core/message-context-properties-in-biztalk-server.md)

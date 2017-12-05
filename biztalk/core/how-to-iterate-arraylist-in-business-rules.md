@@ -16,11 +16,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 95896b63e5bb982a4778b05970900c989ebc66b1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9010907cfe9fb6d79a8d9fcead533376b014640e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-iterate-arraylist-in-business-rules"></a>如何逐一查看商務規則中的 ArrayList
 本節提供範例逐一查看成員**ArrayList**商務規則中。  
@@ -46,6 +46,6 @@ ms.lasthandoff: 09/20/2017
 ## <a name="rule-c"></a>規則 C  
  IF MyClass.MyProperty==2  
   
- 然後\<執行某個動作...> >  
+ 然後\<執行某個動作...\>  
   
  當物件的屬性值與條件相符時，此規則便會執行動作。

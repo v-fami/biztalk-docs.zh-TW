@@ -19,11 +19,11 @@ caps.latest.revision: "28"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7d9770a2d9e4977ec23c8ff4013d5415c75087d3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: af87c78ef632ea9794d725cb70440d62371c349e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="multiserver-deployment"></a>多伺服器部署
 本主題討論 Windows SharePoint Services 之 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 配接器的多伺服器安裝和部署考量。  
@@ -115,7 +115,7 @@ ms.lasthandoff: 09/20/2017
   
 -   在 [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] 上，執行 SharePoint 配接器 Web 服務所使用的識別需要以下權限：  
   
-     **讀取**權限**Program Files\Microsoft BizTalk Server\<版本 > \Business Activity Services\BTSharePointV3AdapterWS**資料夾。 如果使用 64 位元版本的 Windows 和[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，要在設定需要的權限**Program Files (x86) \Microsoft BizTalk Server\<版本 > \Business Activity Services\BTSharePointV3AdapterWS**  
+     **讀取**權限**Program Files\Microsoft BizTalk Server\<版本\>\Business Activity Services\BTSharePointV3AdapterWS**資料夾。 如果使用 64 位元版本的 Windows 和[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，要在設定需要的權限**Program Files (x86) \Microsoft BizTalk Server\<版本\>\Business Activity Services\BTSharePointV3AdapterWS**  
   
      **讀取**下列登錄機碼的權限： **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Shared Tools\Web Server\Extensions\12.0\Secure\ConfigDB**。  
   
@@ -151,6 +151,6 @@ ms.lasthandoff: 09/20/2017
 > [!NOTE]
 >  此設定只能用於不是為 HTTPS 設定的網站。 若 BTSharePointAdapterWS Web 服務是安裝在 HTTPS 的網站上，就必須使用單一用戶端相似性。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [Windows SharePoint Services 配接器](../core/windows-sharepoint-services-adapter.md)   
  [單一伺服器部署](../core/single-server-deployment.md)

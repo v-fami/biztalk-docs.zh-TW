@@ -12,14 +12,14 @@ caps.latest.revision: "21"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8fcabebb1429fae8531753a8a3aede5595bb148f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e3e98ac5f02363c02ff422f44397fbf1f0e3b4c0
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-regenerate-the-live-data-workbook"></a>如何重新產生即時資料活頁簿
-在 BAM 即時資料活頁簿所在遺失或損毀的情況下，您可以重新產生使用 BAM 管理 utiprolity 活頁簿。 若您是從 [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)] 升級到 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]，這種做法也相當實用，因為 [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)] 的即時資料活頁簿與 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 並不相容。  
+在 BAM 即時資料活頁簿所在遺失或損毀的情況下，您可以重新產生使用 BAM 管理 utiprolity 活頁簿。 此程序也適用於當您將升級從[!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)]至 BizTalk Server，因為即時資料活頁簿。[!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)]與 BizTalk Server 不相容。  
   
  一般步驟如下：  
   
@@ -27,7 +27,7 @@ ms.lasthandoff: 09/20/2017
   
 -   重新建立樞紐分析表。 由於 get-defxml 命令所擷取的 XML 只包含活動和檢視，您必須使用 Excel 的 BAM 增益集重新建立樞紐分析表。  
   
--   重新命名樞紐分析表。 若您是從 [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)] 升級到 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]，就必須執行此步驟。 這是因為必要的[!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)]，BAM 會儲存兩組 BAM 活頁簿的名稱： 顯示名稱和內部名稱。 當您擷取 BAM 定義時，XML 將包含活頁簿的內部名稱。 您必須重新命名樞紐分析表，以確保即時資料活頁簿與資料庫的連線正確。  
+-   重新命名樞紐分析表。 這個步驟是必要，如果您要從升級[!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)]至 BizTalk Server。 這是因為必要的[!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)]，BAM 會儲存兩組 BAM 活頁簿的名稱： 顯示名稱和內部名稱。 當您擷取 BAM 定義時，XML 將包含活頁簿的內部名稱。 您必須重新命名樞紐分析表，以確保即時資料活頁簿與資料庫的連線正確。  
   
 -   使用 BAM 管理公用程式重新產生即時資料活頁簿。  
   
@@ -61,12 +61,12 @@ ms.lasthandoff: 09/20/2017
   
 1.  開啟您在擷取 BAM 定義，即可使用 「 記事本 」 時所建立的 abc.xml 檔案**啟動**，然後按一下**執行**，輸入 notepad [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking\abc.xml，，然後按一下  **確定**。  
   
-2.  找出\<標題 > 標記下方\<c a p >\\< 延伸模組\>\\< OWC\>\\< 樞紐分析表檢視\>\\<樞紐分析表\>\\< 樞紐分析檢視\>\\< 標籤\>。 此標記的內容就是其中一份樞紐分析表的內部名稱。 您可以找到其他樞紐分析表報表的內部名稱找出下一步，藉以\<標題 > 標記。 開啟**mynewbook.xls**並用您位於 要重新命名樞紐分析表報表的名稱。  
+2.  找出\<標題\>標記下\<<bamdefinition>\<extension>\<owc>\<pivottableview>\<pivottable>\<pivotview>\<label>\>\\< 延伸模組\>\\< OWC\>\\< 樞紐分析表檢視\> \\< 樞紐分析表\>\\< 樞紐分析檢視\>\\< 標籤\>。 此標記的內容就是其中一份樞紐分析表的內部名稱。 您可以找到其他樞紐分析表報表的內部名稱找出下一步，藉以\<標題\>標記。 開啟**mynewbook.xls**並用您位於 要重新命名樞紐分析表報表的名稱。  
   
 3.  儲存更新後的活頁簿。  
   
     > [!NOTE]
-    >  只有當您是從 [!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)] 升級到 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 時，才需要執行這個程序。  
+    >  您必須遵循此程序，只有當您從升級[!INCLUDE[btsBizTalkServer2004](../includes/btsbiztalkserver2004-md.md)]至 BizTalk Server。  
   
 ### <a name="to-regenerate-the-bam-live-data-workbook"></a>若要重新產生 BAM 即時資料活頁簿  
   
@@ -79,7 +79,7 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理 BAM](../core/managing-bam.md)   
  [BAM 管理公用程式](../core/bam-management-utility.md)   
  [適用於 Excel 的 BAM 增益集使用的需求](../core/requirements-for-using-the-bam-add-in-for-excel.md)   

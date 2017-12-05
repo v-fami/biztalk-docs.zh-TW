@@ -16,11 +16,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1328e6066af0d19c68657728f8dc7777ba62f12d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e834874cb87da598db0bc92e516b58dfe2da9069
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-display-the-sso-database-information"></a>如何顯示 SSO 資料庫資訊
 您可以使用 MMC 嵌入式管理單元或是命令列 (ssomanage) 公用程式，以檢視 SSO 資料庫資訊。  
@@ -39,7 +39,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  在**啟動**功能表上，按一下 **執行**，然後輸入**cmd**。  
   
-2.  在命令列提示字元中，移至「企業單一登入」安裝目錄。 預設安裝目錄是**\<磁碟機 >**: \Program Files\Common Files\Enterprise Single Sign-on。  
+2.  在命令列提示字元中，移至「企業單一登入」安裝目錄。 預設安裝目錄是**\<磁碟機\>**: \Program Files\Common Files\Enterprise Single Sign-on。  
   
 3.  型別**ssomanage – displaydb**。  
   
@@ -50,7 +50,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  在**啟動**功能表上，按一下 **執行**，然後輸入**cmd**。  
   
-2.  在命令列提示字元中，移至「企業單一登入」安裝目錄。 預設安裝目錄是**\<磁碟機 >**: \Program Files\Common Files\Enterprise Single Sign-on。  
+2.  在命令列提示字元中，移至「企業單一登入」安裝目錄。 預設安裝目錄是**\<磁碟機\>**: \Program Files\Common Files\Enterprise Single Sign-on。  
   
 3.  型別**ssomanage – showdb**。  
   
@@ -61,9 +61,9 @@ ms.lasthandoff: 09/20/2017
   
 |屬性|值|  
 |--------------|-----------|  
-|SQL Server|**\<SQL Server 名稱 >**|  
-|單一登入資料庫|**\<SQL Server 資料庫名稱 >**|  
-|單一登入密碼伺服器名稱|**\<單一登入伺服器名稱 >**|  
+|SQL Server|**\<SQL Server 名稱\>**|  
+|單一登入資料庫|**\<SQL Server 資料庫名稱\>**|  
+|單一登入密碼伺服器名稱|**\<單一登入伺服器名稱\>**|  
 |單一登入系統管理員帳戶|網域\帳戶名稱|  
 |單一登入分支機構系統管理員帳戶|網域\帳戶名稱|  
 |已刪除應用程式的稽核表格大小 (稽核項目的數目)|1000 （預設值）|  
@@ -75,6 +75,6 @@ ms.lasthandoff: 09/20/2017
 |允許票證|是/否 (預設值)|  
 |驗證票證|是 (預設值)/否|  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [如何設定 SSO 票證](../core/how-to-configure-the-sso-tickets.md)   
  [使用 SSO](../core/using-sso.md)

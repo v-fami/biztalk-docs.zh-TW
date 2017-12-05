@@ -17,11 +17,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6fcd41cd38074377fa179e3a414b278521c31f26
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9856e0da6e8a4bc958b5fe08e0e1b5e87494531b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="lesson-1-adding-flat-file-receive-port-and-location"></a>第 1 課： 加入一般檔案接收埠和位置
 接收埠一律會有新增接收埠時，您必須設定相關聯的接收位置。 接收位置會定義特定位址的內送訊息和您用來處理訊息的管線。  
@@ -46,9 +46,9 @@ ms.lasthandoff: 09/20/2017
   
 9. 在 [FILE 傳輸屬性] 對話方塊中，按一下**瀏覽**。  
   
-10. 在 [瀏覽資料夾] 對話方塊中，移至**\<磁碟機 >: \Labs\Inbound**資料夾，然後再按一下**建立新資料夾**。  
+10. 在 [瀏覽資料夾] 對話方塊中，移至**\<磁碟機\>: \Labs\Inbound**資料夾，然後再按一下**建立新資料夾**。  
   
-11. 建立**FlatFile**資料夾中的**\<磁碟機 >: \Labs\Inbound**，然後按一下 **確定**。  
+11. 建立**FlatFile**資料夾中的**\<磁碟機\>: \Labs\Inbound**，然後按一下 **確定**。  
   
 12. 在**檔案遮罩**方塊中，輸入 **\*.txt**，然後按一下 **確定**。  
   

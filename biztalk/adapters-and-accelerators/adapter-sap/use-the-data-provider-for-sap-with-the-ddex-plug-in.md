@@ -16,11 +16,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 19a4f5b5252691ca772e234b2f9a75c4059aa128
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a2a1dd348b6d897e147d6add49499e9716a67aeb
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="use-the-data-provider-for-sap-with-the-ddex-plug-in"></a>使用資料提供者的 DDEX 外掛程式的 sap
 如果您選擇要安裝[!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)]連同[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]安裝，安裝程式安裝[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]DDEX 外掛程式。 您可以使用此外掛程式來瀏覽使用 SAP 物件[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]。 本節提供使用 DDEX 外掛程式的相關資訊。  
@@ -38,7 +38,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  在**伺服器總管**，以滑鼠右鍵按一下**資料連接**，然後選取**加入連接**。  
   
-4.  在**變更資料來源**對話方塊中，從**資料來源**方塊中，選取**\<其他 >**。  
+4.  在**變更資料來源**對話方塊中，從**資料來源**方塊中，選取**\<其他\>**。  
   
 5.  從**資料提供者**下拉式清單中，選取**.NET Framework Data Provider for mySAP Business Suite**按一下**確定**。 **加入連接**對話方塊隨即開啟。  
   
@@ -112,5 +112,5 @@ ms.lasthandoff: 09/20/2017
   
 8.  展開**匯入**列出函式模組的匯入參數 節點。 同樣地，依序展開**匯出**和**資料表**節點，以查看函式模組匯出和資料表的參數清單。  
   
-## <a name="see-also"></a>另請參閱  
- [使用.NET Framework Data Provider for mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/use-the-net-framework-data-provider-for-mysap-business-suite.md)
+## <a name="see-also"></a>請參閱  
+ [使用 .NET Framework Data Provider for mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/use-the-net-framework-data-provider-for-mysap-business-suite.md)

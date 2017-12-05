@@ -12,11 +12,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 20f9707b8606e64773d42c480735d3f876f1c3ba
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 491c71a446829ddddfc4d7c55053b94dcf7fc9d1
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="system-resource-costs-on-hyper-v"></a>HYPER-V 上的系統資源成本
 ## <a name="system-resource-costs-associated-with-running-a-guest-operating-system-on-hyper-v"></a>HYPER-V 上執行客體作業系統與相關聯的系統資源成本  
@@ -39,12 +39,12 @@ ms.lasthandoff: 09/20/2017
  本節的其餘部分提供 BizTalk Server 上磁碟效能的背景資訊，描述的測試組態參數使用，並提供取得的測試結果的摘要。  
   
 #### <a name="disk-performance-when-running-a-biztalk-server-solution-on-hyper-v"></a>HYPER-V 上執行 BizTalk Server 解決方案時，磁碟效能  
- [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]是極資料庫密集的應用程式可能需要建立的 SQL Server 中的多達 13 個資料庫。 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]保存到磁碟的資料很棒的頻率，此外，這樣做，MSDTC 交易的內容中。 因此，資料庫效能極為重要的任何 BizTalk Server 解決方案的整體效能。 HYPER-V 提供綜合 SCSI 控制器，而這兩者使用模擬的 IDE 裝置，例如透過提供效能優勢明顯 IDE 篩選器驅動程式隨附 Virtual Server 2005。  
+ BizTalk Server 是極資料庫密集的應用程式可能需要建立的 SQL Server 中的多達 13 個資料庫。 BizTalk Server 保存到磁碟的資料很棒的頻率，此外，這樣做，MSDTC 交易的內容中。 因此，資料庫效能極為重要的任何 BizTalk Server 解決方案的整體效能。 HYPER-V 提供綜合 SCSI 控制器，而這兩者使用模擬的 IDE 裝置，例如透過提供效能優勢明顯 IDE 篩選器驅動程式隨附 Virtual Server 2005。  
   
  設定為使用 SCSI 控制站的資料磁碟區的磁碟。 這樣會保證會安裝整合服務，因為如果而不需要安裝 HYPER-V 整合服務是使用模擬的 IDE 控制器，已安裝 HYPER-V 整合服務，可以只安裝 SCSI 控制器。 使用 SCSI 控制站或 integration services 提供 IDE 篩選器驅動程式執行磁碟 I/O 是明顯優於磁碟 I/O 效能所提供的模擬的 IDE 控制器。 因此，若要確保最佳的磁碟 I/O 效能中 HYPER-V 虛擬化環境中的資料檔案，在主機和客體作業系統上安裝 integration services 及設定資料磁碟區的磁碟與綜合 SCSI 控制器。 對於跨越多個資料磁碟機的極大量的儲存體 I/O 工作負載，每個 VHD 應該附加到另一個更佳的整體效能的綜合 SCSI 控制器。 此外，每個 VHD 應該儲存在個別的實體磁碟或 Lun 上。  
   
 #### <a name="measuring-passthrough-disk-performance"></a>測量穿通磁碟效能  
- 任何彙總練習期間是發揮最大可用的資源。 如先前所討論，SQL 資料磁碟區上的儲存體 I/O 扮演重要部分的整體效能[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]方案。 因此本指南中，已通過測試的實體磁碟的 HYPER-V 中的直接存取磁碟效能的相對效能。 Physical_SQL01 中的相對效能的 MessageBox 資料磁碟機和 Virtual_SQL01 測量使用的 IOMeter 開放原始碼工具原本由 Intel Corporation 發展和現在維護由開啟來源開發實驗室 (OSDL)。 如需 IOMeter 的詳細資訊，請參閱[http://go.microsoft.com/fwlink/?LinkId=122412](http://go.microsoft.com/fwlink/?LinkId=122412)。  
+ 任何彙總練習期間是發揮最大可用的資源。 如先前所討論，SQL 資料磁碟區上的儲存體 I/O 會在 BizTalk Server 解決方案的整體效能中扮演重要部分。 因此本指南中，已通過測試的實體磁碟的 HYPER-V 中的直接存取磁碟效能的相對效能。 Physical_SQL01 中的相對效能的 MessageBox 資料磁碟機和 Virtual_SQL01 測量使用的 IOMeter 開放原始碼工具原本由 Intel Corporation 發展和現在維護由開啟來源開發實驗室 (OSDL)。 如需 IOMeter 的詳細資訊，請參閱[http://go.microsoft.com/fwlink/?LinkId=122412](http://go.microsoft.com/fwlink/?LinkId=122412)。  
   
  下表說明在測試環境、 所使用的 IOMeter 設定選項、 執行、 測試的描述和結果的摘要使用的實體和虛擬的硬體組態。  
   
@@ -133,7 +133,7 @@ ms.lasthandoff: 09/20/2017
 ### <a name="results"></a>結果  
  傳遞磁碟已達到超過 90%的直接連線到 Physical_SQL01 的 SAN LUN 的輸送量。  總計、 讀取和寫入每秒的 I/o 已全部都在 10%內為每秒傳送的總 MB。  狀況良好的磁碟回應時間應該介於 1-15 毫秒的讀取和寫入。 I/O 的平均回應時間的兩個磁碟小於 4 毫秒。 隨機讀取回應時間為 5.4 ms 實體上和 5.7 ms 傳遞磁碟上。 寫入回應時間為小於 0.5 毫秒在實體和虛擬環境。  
   
- 結果會指出，使用已啟用功能的 SCSI 控制器的直接存取磁碟可以提供超過 90%的直接連接的實體磁碟的效能。 I/O 子系統效能非常重要的有效率[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]作業，藉由提供極佳的輸送量和回應時間 HYPER-V 為傑出候選項目合併[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]環境。 下表提供比較效能的實體磁碟將穿通磁碟時，觀察到的磁碟測試結果摘要：  
+ 結果會指出，使用已啟用功能的 SCSI 控制器的直接存取磁碟可以提供超過 90%的直接連接的實體磁碟的效能。 I/O 子系統效能非常重要，有效的 BizTalk Server 作業，藉由提供極佳的輸送量和回應時間 HYPER-V 是傑出候選項目合併 BizTalk Server 環境。 下表提供比較效能的實體磁碟將穿通磁碟時，觀察到的磁碟測試結果摘要：  
   
 |度量|Physical_SQL01 （實體磁碟）|Virtual_SQL01 (passthrough)|傳遞磁碟的實體磁碟的相對效能|  
 |-----------------|---------------------------------------|------------------------------------|-----------------------------------------------------------------|  

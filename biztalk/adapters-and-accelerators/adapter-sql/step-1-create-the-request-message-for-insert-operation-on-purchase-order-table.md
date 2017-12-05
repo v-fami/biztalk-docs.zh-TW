@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 63d27a186cffc86a79f0a40f73cc6a0c1791c3b6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 71021bb0a9bbb71f17f0899e625ac184f9087429
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-1-create-the-request-message-for-insert-operation-on-purchaseorder-table"></a>步驟 1： 建立要求訊息 Purchase_Order 資料表的 Insert 作業
 ![步驟 4 之 1](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-1of4.gif "Step_1of4")  
@@ -89,7 +89,7 @@ ms.lasthandoff: 09/20/2017
   
     3.  在**簽署**索引標籤上，選取**簽署組件**核取方塊。  
   
-    4.  從**選擇強式名稱金鑰檔**清單中，按一下**\<瀏覽 >**。  
+    4.  從**選擇強式名稱金鑰檔**清單中，按一下**\<瀏覽\>**。  
   
     5.  導覽至您用來建立強式名稱金鑰檔案的資料夾，然後按一下**開啟**。  
   
@@ -123,6 +123,6 @@ ms.lasthandoff: 09/20/2017
 ## <a name="next-steps"></a>後續步驟  
  您在對應的插入作業的要求訊息的 UPDATE_EMPLOYEE 預存程序的回應訊息**Purchaser_Order**資料表。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [步驟 2： 將 UPDATE_EMPLOYEE 回應訊息對應至插入作業要求訊息](../../adapters-and-accelerators/adapter-sql/step-2-map-update_employee-response-to-insert-operation-request.md)   
- [第 4 課： 執行插入作業的採購訂單資料表](../../adapters-and-accelerators/adapter-sql/lesson-4-perform-an-insert-operation-on-the-purchase-order-table.md)
+ [第 4 課：在訂單資料表上執行插入作業](../../adapters-and-accelerators/adapter-sql/lesson-4-perform-an-insert-operation-on-the-purchase-order-table.md)

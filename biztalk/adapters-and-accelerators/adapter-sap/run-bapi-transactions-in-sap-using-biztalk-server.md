@@ -12,11 +12,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2b72574df8cd20b8beb4be7e7eb11e3065d03333
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 79cfa3f1b799c4a96cdad7f4c9b89b4b594dc4d8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="run-bapi-transactions-in-sap-using-biztalk-server"></a>執行 SAP 使用 BizTalk Server 中的 BAPI 交易
 [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]可讓配接器用戶端使用 SAP 系統上執行的交易[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]。 建立之前的交易協調流程，您必須先了解基本的案例將在其中執行的交易。 在一般交易案例中，多個作業 （例如，叫用 BAPI） 的要求訊息傳送至 SAP 系統。 這將被稱為 「 作業訊息 」。 協調流程必須從要求訊息中擷取每個作業訊息，並傳送至 SAP 系統的個別作業訊息。 協調流程傳送一個接著一個使用相同的連接。 協調流程會使用透過 BizTalk 對應的 XML 轉換中擷取個別的訊息中的 「 作業訊息 」。  
@@ -98,7 +98,7 @@ ms.lasthandoff: 09/20/2017
 >  您必須確定所有必要的結構描述會加入至 BizTalk 專案。  
   
 > [!IMPORTANT]
->  您必須加入參考 BizTalk 屬性結構描述以取得[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]到 BizTalk 專案。 結構描述檔案， *Microsoft.Adapters.SAP.BiztalkPropertySchema.dll*，會安裝[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]安裝程式，通常是在\<安裝磁碟機 >: \Program Files\Microsoft BizTalk 配接器 Pack\bin。  
+>  您必須加入參考 BizTalk 屬性結構描述以取得[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]到 BizTalk 專案。 結構描述檔案， *Microsoft.Adapters.SAP.BiztalkPropertySchema.dll*，會安裝[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]安裝程式，通常是在\<安裝磁碟機\>: \Program Files\Microsoft BizTalk Adapter Pack\bin。  
   
 ## <a name="defining-messages-and-message-types"></a>定義訊息和訊息類型  
  您先前產生的結構描述會描述 「 類型 」 所需的協調流程中的訊息。 訊息通常是為其型別由對應的結構描述所定義的變數。 您必須連結產生的結構描述您在第一個步驟中的訊息從 BizTalk 專案的 [協調流程檢視] 視窗。  
@@ -324,7 +324,7 @@ BAPIRollbackMessage(Microsoft.Adapters.SAP.BiztalkPropertySchema.ConnectionState
  如需如何處理例外狀況的詳細資訊，在一般情況下，使用[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]，請參閱[使用交易和處理例外狀況](../../core/using-transactions-and-handling-exceptions.md)。
   
 ## <a name="add-the-biztalk-property-schema-to-biztalk"></a>BizTalk 屬性結構描述新增至 BizTalk  
- 您可以在 BizTalk 專案中，加入 BizTalk 屬性結構描述的組件參考[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]。 您必須加入相同的組件當做 BizTalk 應用程式，也就是應用程式將會部署 BizTalk 專案中的資源。 結構描述檔案， *Microsoft.Adapters.SAP.BiztalkPropertySchema.dll*，會安裝[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]通常在安裝\<安裝磁碟機 >: \Program Files\Microsoft BizTalk 配接器 Pack\bin。 沒有這個資源，您將無法部署專案。  
+ 您可以在 BizTalk 專案中，加入 BizTalk 屬性結構描述的組件參考[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]。 您必須加入相同的組件當做 BizTalk 應用程式，也就是應用程式將會部署 BizTalk 專案中的資源。 結構描述檔案， *Microsoft.Adapters.SAP.BiztalkPropertySchema.dll*，會安裝[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]通常在安裝\<安裝磁碟機\>: \Program Files\Microsoft BizTalk 配接器Pack\bin。 沒有這個資源，您將無法部署專案。  
   
 #### <a name="to-add-an-assembly-as-a-resource-in-biztalk"></a>若要加入做為資源在 BizTalk 組件  
   
@@ -384,7 +384,7 @@ BAPIRollbackMessage(Microsoft.Adapters.SAP.BiztalkPropertySchema.ConnectionState
  執行應用程式之後，您必須在預先定義的位置中卸除協調流程的要求訊息。 要求訊息必須符合特定結構描述，比方說，MultipleOrders.xsd 結構描述。 比方說，若要建立 SAP 系統中的銷售訂單要求訊息，然後以認可作業：  
   
 ```  
-\<ns0:Orders xmlns:ns0="http://BAPISend.MultipleOrders">  
+<ns0:Orders xmlns:ns0="http://BAPISend.MultipleOrders">  
   <Order>  
       <ORDER_HEADER_IN>  
         <DOC_TYPE>TA</DOC_TYPE>  
@@ -411,7 +411,7 @@ BAPIRollbackMessage(Microsoft.Adapters.SAP.BiztalkPropertySchema.ConnectionState
   <isCommit>true</isCommit>  
   <BAPI_TRANSACTION_COMMIT>  
   </BAPI_TRANSACTION_COMMIT>  
-\</ns0:Orders>  
+</ns0:Orders>  
 ```  
   
  協調流程取用訊息，並將它傳送至 SAP 系統。 從 SAP 系統的回應會儲存在其他的協調流程中定義的檔案位置。 針對上述的要求訊息，您會取得兩個回應訊息，另一個用於叫用 BAPI_SALESORDER_CREATEFROMDAT2 RFC 和另一個則用於使用 BAPI_TRANSACTION_COMMIT 的認可作業。  
@@ -419,7 +419,7 @@ BAPIRollbackMessage(Microsoft.Adapters.SAP.BiztalkPropertySchema.ConnectionState
  BAPI_SALESORDER_CREATEFROMDAT2 的回應是：  
   
 ```  
-\<?xml version="1.0" encoding="utf-8" ?>   
+<?xml version="1.0" encoding="utf-8" ?>   
 <BAPI_SALESORDER_CREATEFROMDAT2Response xmlns="http://Microsoft.LobServices.Sap/2007/03/Rfc/">  
   <SALESDOCUMENT />   
   <ORDER_ITEMS_IN>  
@@ -444,7 +444,7 @@ BAPIRollbackMessage(Microsoft.Adapters.SAP.BiztalkPropertySchema.ConnectionState
  BAPI_TRANSACTION_COMMIT 的回應是：  
   
 ```  
-\<?xml version="1.0" encoding="utf-8" ?>   
+<?xml version="1.0" encoding="utf-8" ?>   
 <BAPI_TRANSACTION_COMMITResponse xmlns="http://Microsoft.LobServices.Sap/2007/03/Rfc/">  
   <RETURN>  
     <TYPE xmlns="http://Microsoft.LobServices.Sap/2007/03/Types/Rfc/" />   
@@ -474,5 +474,5 @@ BAPIRollbackMessage(Microsoft.Adapters.SAP.BiztalkPropertySchema.ConnectionState
 ## <a name="best-practices"></a>最佳作法  
  您部署和設定 BizTalk 專案之後，您可以為 XML 檔案，稱為繫結檔案匯出組態設定。 一旦您產生繫結檔案，可以組態設定匯入檔案中，因此您不需要建立傳送埠和接收埠，針對相同的協調流程。 如需繫結檔案的詳細資訊，請參閱[重複使用的 SAP 配接器繫結](../../adapters-and-accelerators/adapter-sap/reuse-sap-adapter-bindings.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [開發 BizTalk 應用程式](../../adapters-and-accelerators/adapter-sap/develop-biztalk-applications-using-the-sap-adapter.md)

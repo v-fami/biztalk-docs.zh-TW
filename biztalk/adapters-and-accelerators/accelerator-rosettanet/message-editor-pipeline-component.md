@@ -17,27 +17,27 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 56d22e5ff6003dad9767c57eecac626a6c16e243
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9f5877fe04a87a8387340c8e4b004300f41e609e
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="message-editor-pipeline-component"></a>訊息編輯器管線元件
 此元件可讓您自動編輯傳送或接收管線中多部分訊息的任何部分。 您可將此元件新增至現有的管線中，設定取代做為一般處理的一部分。  
   
 ## <a name="building-the-message-editor-pipeline-component-into-an-existing-pipeline"></a>將訊息編輯器管線元件建置至現有的管線  
- 如果要使用「訊息編輯器管線元件」，您必須將該元件新增至現有的管線。 如需詳細資訊，請參閱「[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] 說明」中的＜使用管線設計師建立管線＞。  
+ 如果要使用「訊息編輯器管線元件」，您必須將該元件新增至現有的管線。 如需詳細資訊，請參閱 「 建立管線的管線設計師 」 在 BizTalk Server 說明中。  
   
 #### <a name="to-add-the-message-editor-pipeline-component-to-an-existing-pipeline"></a>將訊息編輯器管線元件新增至現有的管線  
   
-1.  啟動 [!INCLUDE[vs2012](../../includes/vs2012-md.md)]。  
+1.  啟動 Visual Studio。  
   
 2.  在**檔案**功能表上，指向**開啟**，然後按一下 **專案**。  
   
 3.  移至 C:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\Message Editor Pipeline Component，選取**MessageEditor.csproj**，然後按一下 **開啟**。  
   
-4.  啟動[!INCLUDE[vs2012](../../includes/vs2012-md.md)]命令提示字元。  
+4.  啟動 Visual Studio 命令提示字元。  
   
 5.  在命令提示字元上，移到 C:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\Message Editor Pipeline Component\obj\debug。  
   
@@ -93,5 +93,5 @@ ms.lasthandoff: 09/20/2017
   
  若要取得完整的 XPath 查詢，請在 BizTalk 編輯器中開啟結構描述，然後從 `Instance XPath` 屬性 ([屬性] 視窗底下) 複製 Xpath。 您提供的 XPath 查詢中應該具備所有的命名空間參考。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [公用程式](../../adapters-and-accelerators/accelerator-rosettanet/utilities1.md)

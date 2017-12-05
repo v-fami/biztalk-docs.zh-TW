@@ -16,11 +16,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f55b4e08fa03380c3361a44b7989301b606732d7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 63355f742f12fbbaf57ccde7a1406dbb694ee073
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-delete-a-send-port"></a>如何刪除傳送埠
 本主題描述如何使用 BizTalk Server 管理主控台，從 BizTalk 應用程式中刪除傳送埠。 這樣做也會從群組的 BizTalk 管理資料庫中刪除傳送埠。  
@@ -48,9 +48,9 @@ ms.lasthandoff: 09/20/2017
   
 1.  按一下**啟動**，按一下 **所有程式**，按一下  [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]，然後按一下  **BizTalk Server 管理**。  
   
-2.  在主控台樹狀結構中，依序展開 [[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 管理]、[BizTalk 群組]、[應用程式]，然後展開包含您想要刪除的傳送埠的應用程式。  
+2.  在主控台樹狀目錄中，展開 BizTalk Server 管理、 BizTalk 群組、 展開 應用程式，然後展開包含您想要刪除的傳送埠的應用程式  
   
 3.  按一下**傳送埠**，傳送埠，以滑鼠右鍵按一下，然後按一下**刪除**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [建立和設定傳送埠](../core/creating-and-configuring-send-ports.md)

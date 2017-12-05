@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 71f689b035f926e0fd5bbdaa159e1450fbad92b8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1164cb59bf7fe0e168834f60364cd82f871b3ae0
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="poll-oracle-e-business-suite-using-select-statement-with-the-wcf-channel-model"></a>輪詢 Oracle E-business Suite 搭配 WCF 通道模型中使用 SELECT 陳述式
 您可以設定[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]接收定期的資料變更訊息，若要連續輪詢介面資料表使用 SELECT 陳述式，介面檢視、 資料表以及 Oracle E-business Suite 中的檢視。 您可以指定 SELECT 陳述式為輪詢 Oracle E-business Suite 會定期執行配接器的輪詢陳述式。 您也可以指定後續輪詢 PL/SQL 程式碼區塊後輪詢陳述式執行配接器。  
@@ -184,7 +184,7 @@ ms.lasthandoff: 09/20/2017
 ### <a name="example"></a>範例  
  下列範例會示範輪詢 MS_SAMPLE_EMPLOYEE 介面資料表輪詢應用程式。 **PollingInput**屬性包含從 MS_SAMPLE_EMPLOYEE 資料表讀取所有資料的 select 陳述式和後輪詢陳述式會從相同的資料表刪除所有資料。 輪詢訊息會寫入`C:\PollingOutput.xml`。  
   
- 更多資料加入到 MS_SAMPLE_EMPLOYEE 介面資料表之前，後續的輪詢訊息將不會包含任何記錄。 您可以藉由執行範例所提供的 insert_apps_data.sql 指令碼。 執行這個指令碼之後下, 一個輪詢作業將會提取新的記錄插入至資料表。 配接器將繼續輪詢直到按關閉服務主機\<傳回 >。  
+ 更多資料加入到 MS_SAMPLE_EMPLOYEE 介面資料表之前，後續的輪詢訊息將不會包含任何記錄。 您可以藉由執行範例所提供的 insert_apps_data.sql 指令碼。 執行這個指令碼之後下, 一個輪詢作業將會提取新的記錄插入至資料表。 配接器將繼續輪詢直到按關閉服務主機\<傳回\>。  
   
 ```  
 using System;  
@@ -322,5 +322,5 @@ namespace SelectPolling_ChannelModel
   
 ```  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [開發 Oracle E-business Suite 應用程式使用 WCF 通道模型](../../adapters-and-accelerators/adapter-oracle-ebs/develop-oracle-e-business-suite-applications-using-the-wcf-channel-model.md)

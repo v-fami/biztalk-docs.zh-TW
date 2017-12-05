@@ -21,11 +21,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8bd102c58f85fd38c2f769f6e4aca2b5fd0d7919
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f566b37cc43f8aca2f0a36143d10d809c008d5cd
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="btarn-send-pipeline"></a>BTARN 傳送管線
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] RNIFSend 管線 (RNIFSend.btp) 中的傳輸會準備 RosettaNet 實作架構 (RNIF) 訊息。 傳送管線包含下列元件：  
@@ -40,12 +40,12 @@ ms.lasthandoff: 09/20/2017
  XML 前置處理器會將訊息中的 DOCTYPE 標頭。 標頭會識別與訊息相關聯的文件類型定義 (DTD) 結構描述。 RNIF 規格要求必須有 DOCTYPE 標頭才能進行 RNIF 傳輸。  
   
 ## <a name="xml-assembler"></a>XML 組合器  
- XML 組合器是以 [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] XML 組合器為基礎。 它會將訊息內容的屬性傳送到信封和文件中， 並從訊息的 XML 部分和附件組合訊息。 它並不會執行訊息驗證。  
+ XML 組合器會根據 「 BizTalk Server XML 組合器 」。 它會將訊息內容的屬性傳送到信封和文件中， 並從訊息的 XML 部分和附件組合訊息。 它並不會執行訊息驗證。  
   
- 如需有關原生 [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] XML 組合器的詳細資訊，請參閱「[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] 說明」中的＜XML 組合器管線元件＞。  
+ 如需有關原生[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]XML 組合器，請參閱 「 XML 組合器管線元件 」 在 BizTalk Server 說明中。  
   
 ## <a name="mimesmime-encoder"></a>MIME/SMIME 編碼器  
- MIME/SMIME 編碼器是以 [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] MIME/SMIME 編碼器為基礎。 根據交易夥伴協議中的通訊協定設定，以及 [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] MIME/SMIME 編碼器的設定，[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 編碼器會執行下列動作：  
+ MIME/SMIME 編碼器是以 BizTalk Server MIME/SMIME 編碼器為基礎。 通訊協定設定在交易夥伴協議，以及設定 BizTalk Server MIME/SMIME 編碼器，根據[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]編碼器會執行下列：  
   
 -   新增 8 位元組二進位標頭到訊息，這是 RNIF 1.1 訊息的要求。  
   
@@ -53,7 +53,7 @@ ms.lasthandoff: 09/20/2017
   
 -   加密內容 (服務內容加上附件) 或內容容器 (服務內容加上服務標頭及附件)。 如果您已將**編碼所有的連接埠**上設定**通訊協定**至交易夥伴協議索引標籤`False`，編碼器將加密只能裝載。 如果您已將**編碼所有的連接埠**設`True`，編碼器將加密內容容器。  
   
- 如需有關原生 [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] MIME/SMIME 編碼器的詳細資訊，請參閱「[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] 說明」中的＜MIME/SMIME 編碼器管線元件＞。  
+ 如需有關原生[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]MIME/SMIME 編碼器，請參閱 「 MIME/SMIME 編碼器管線元件 」 在 BizTalk Server 說明中。  
   
 ## <a name="message-flow"></a>訊息流程  
  透過 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 傳送管線的訊息流程如下：  
@@ -86,5 +86,5 @@ ms.lasthandoff: 09/20/2017
   
 6.  對於 RNIF 2.01，編碼器將計算 MIME 訊息第一個內文部分的摘要，並保留摘要。 它將使用交易夥伴協議 (SHA-1 或 MD5) 中 `Digest` 方法屬性所設定的方法來計算摘要。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [BTARN 中的訊息處理](../../adapters-and-accelerators/accelerator-rosettanet/message-processing-in-btarn.md)

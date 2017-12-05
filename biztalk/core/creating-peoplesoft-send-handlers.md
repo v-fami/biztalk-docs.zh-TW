@@ -13,11 +13,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 31889aa0c4f13826758547fb5e8e7acdf061239b
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: 2bc559f4e3c25560540a171b3f47ff25e6f34e89
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="create-peoplesoft-send-artifacts"></a>建立 PeopleSoft 傳送成品
 Microsoft BizTalk Adapter for PeopleSoft Enterprise 會存取 PeopleSoft 並探索可用的元件，或是處理 SOAP 要求。 本主題說明如何在使用 PeopleSoft 配接器的 BizTalk Server 管理 中建立的傳送成品。
@@ -68,7 +68,7 @@ PeopleSoft 傳輸屬性用於設計和執行階段。 在**傳輸屬性**對話�
   
     |參數|Description|  
     |---------------|-----------------|  
-    |`Application Server Path`|字串，表示執行 PeopleSoft Application Server 的電腦和接聽的連接埠。 PeopleSoft 8 應用程式的 URL 路徑的語法是 / / < 電腦名稱 >:\<連接埠 >。 詢問您的 PeopleSoft 系統管理員以\<連接埠 > 值。 \<連接埠 > 值是 JOLT 通訊協定接聽程式通訊埠，不應用程式伺服器連接埠。 預設 JOLT 連接埠為 9000。|  
+    |`Application Server Path`|字串，表示執行 PeopleSoft Application Server 的電腦和接聽的連接埠。 PeopleSoft 8 應用程式的 URL 路徑的語法是 / / < 電腦名稱 >:\<連接埠\>。 詢問您的 PeopleSoft 系統管理員以\<連接埠\>值。 \<連接埠\>值是 JOLT 通訊協定接聽程式通訊埠，不應用程式伺服器連接埠。 預設 JOLT 連接埠為 9000。|  
     |`JAVA_HOME`|設定 JAVA_HOME 變數以指向 JDK 安裝，例如： **C:\j2sdk1.4.2_08**。|  
     |`Password`|如果您未選取**使用 SSO**，您必須設定 BizTalk Adapter for PeopleSoft Enterprise 能夠存取伺服器系統的認證參數。<br /><br /> 字串，表示使用者用來登入 PeopleSoft 系統的密碼。 字元不會顯示出來，而是以星號 (*) 表示。|  
     |`PeopleSoft 8.x Jar Files`|若要使用 Ccmponent 介面 (僅限 PeopleSoft 8)，您必須更新 CLASSPATH 來包含 PeopleSoft 元件介面 jar 檔案。 例如： **< PeopleSoft_Home > \web\PSJOA\psjoa.jar**。|  

@@ -15,11 +15,11 @@ caps.latest.revision: "20"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d87e814fd43545d18db0d6e4fd0c585279eb5261
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: aa252b520f985667820861403a46d39c8527ea07
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="what-happens-when-artifacts-are-imported"></a>匯入成品時所產生的狀況
 本主題描述匯入成品時所產生的狀況。 匯入成品的方法有三種，本主題將涵蓋這三種方法：  
@@ -58,7 +58,7 @@ ms.lasthandoff: 09/20/2017
  當您匯入應用程式之後，您可利用單一實體的方式一起檢視、管理和部署應用程式中的成品，或是使用管理主控台或 BTSTask 來個別檢視、管理和部署。 如需詳細資訊，請參閱[應用程式部署和管理工具](../core/application-deployment-and-management-tools.md)。  
   
 ## <a name="importing-a-policy"></a>匯入原則  
- 當您從 .xml 檔案匯入原則時，該原則會加入到規則引擎資料庫。 該原則不會與 BizTalk 管理資料庫中的任何應用程式有關聯，與匯入 BizTalk .msi 檔案中的原則時不同。 原則會顯示在 [原則] 節點的\<所有成品 > 資料夾中的 BizTalk Server 管理主控台。 當您匯入此原則之後，可以發佈此原則，讓它可供群組中的應用程式使用。 如需詳細資訊，請參閱[管理原則](../core/managing-policies.md)。  
+ 當您從 .xml 檔案匯入原則時，該原則會加入到規則引擎資料庫。 該原則不會與 BizTalk 管理資料庫中的任何應用程式有關聯，與匯入 BizTalk .msi 檔案中的原則時不同。 原則會顯示在 [原則] 節點的\<所有成品\>BizTalk Server 管理主控台中的資料夾。 當您匯入此原則之後，可以發佈此原則，讓它可供群組中的應用程式使用。 如需詳細資訊，請參閱[管理原則](../core/managing-policies.md)。  
   
 ## <a name="importing-a-binding-file"></a>匯入繫結檔案  
  當您將繫結檔案匯入 BizTalk 群組中時，如果目前此群組中有存在任何繫結與匯入之檔案中的繫結同名，則這些繫結會遭到匯入之檔案中的繫結所覆寫，而且會套用此組態。  
@@ -68,7 +68,7 @@ ms.lasthandoff: 09/20/2017
 > [!IMPORTANT]
 >  基於安全性理由，當您匯出繫結檔案時，BizTalk Server 會從該檔案移除繫結的密碼。 匯入繫結後，您必須重新設定密碼，傳送埠和接受位置才能正常運作。 您可以在 BizTalk Server 管理主控台的 [傳輸屬性] 對話方塊中，為傳送埠或接收位置設定密碼。 如需指示，請參閱[如何建立傳送埠](../core/how-to-create-a-send-port2.md)。 另請參閱[如何建立接收位置](../core/how-to-create-a-receive-location.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [會發生什麼事成品至應用程式部署期間](../core/what-happens-to-artifacts-during-application-deployment.md)   
  [匯入 BizTalk 應用程式、 繫結和原則](../core/importing-biztalk-applications-bindings-and-policies.md)   
  [相依性和應用程式部署](../core/dependencies-and-application-deployment.md)

@@ -17,11 +17,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 96631531cc28ac1bed4ea2b2b56b4b8f9b80c281
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c7dab9df7b5444b437f12737c37036b592a70aad
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-set-the-sso-server"></a>如何設定 SSO 伺服器
 每次使用 ssomanage 時，您必須先將使用者指向您要連接的「單一登入」伺服器。  
@@ -48,9 +48,9 @@ ms.lasthandoff: 09/20/2017
   
 1.  在**啟動**功能表上，按一下 **執行**，然後輸入**cmd**。  
   
-2.  在命令列提示字元中，移至「企業單一登入」安裝目錄。 預設安裝目錄是**\<磁碟機 >**: \Program Files\Common Files\Enterprise Single Sign-on。  
+2.  在命令列提示字元中，移至「企業單一登入」安裝目錄。 預設安裝目錄是**\<磁碟機\>**: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-3.  型別**ssomanage – server \<SSO 伺服器名稱 >**，其中 **\<SSO 伺服器名稱 >**是單一登入伺服器的使用者想要連接到的電腦名稱。  
+3.  型別**ssomanage – server \<SSO 伺服器名稱\>**，其中 **\<SSO 伺服器名稱\>**是單一登入伺服器的電腦名稱的使用者想要連接到。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
@@ -59,9 +59,9 @@ ms.lasthandoff: 09/20/2017
   
 1.  在**啟動**功能表上，按一下 **執行**，然後輸入**cmd**。  
   
-2.  在命令列提示字元中，移至「企業單一登入」安裝目錄。 預設安裝目錄是**\<磁碟機 >**: \Program Files\Common Files\Enterprise Single Sign-on。  
+2.  在命令列提示字元中，移至「企業單一登入」安裝目錄。 預設安裝目錄是**\<磁碟機\>**: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-3.  型別**ssomanage – serverall \<SSO 伺服器名稱 >**，其中 **\<SSO 伺服器名稱 >**是單一登入伺服器的電腦名稱的單一登入使用者的所有成員將指向帳戶。  
+3.  型別**ssomanage – serverall \<SSO 伺服器名稱\>**，其中 **\<SSO 伺服器名稱\>**是單一登入伺服器的所有電腦名稱會指向單一登入使用者帳戶的成員。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
@@ -70,7 +70,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  在**啟動**功能表上，按一下 **執行**，然後輸入**cmd**。  
   
-2.  在命令列提示字元中，移至「企業單一登入」安裝目錄。 預設安裝目錄是**\<磁碟機 >**: \Program Files\Common Files\Enterprise Single Sign-on。  
+2.  在命令列提示字元中，移至「企業單一登入」安裝目錄。 預設安裝目錄是**\<磁碟機\>**: \Program Files\Common Files\Enterprise Single Sign-on。  
   
 3.  型別**ssomanage – showserver**。  
   
@@ -80,7 +80,7 @@ ms.lasthandoff: 09/20/2017
 > [!NOTE]
 >  這個命令會顯示目前使用者以及其他使用者 (若存在) 的設定。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [如何啟用 SSO](../core/how-to-enable-sso.md)   
  [如何停用 SSO](../core/how-to-disable-sso.md)   
  [如何顯示 SSO 資料庫資訊](../core/how-to-display-the-sso-database-information.md)   

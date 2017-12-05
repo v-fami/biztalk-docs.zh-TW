@@ -12,11 +12,11 @@ caps.latest.revision: "34"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 94d1aa31a271f0ed88be42066abdae25be3f3e87
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 95c4bb48805eb0d2b349a8802c0bc8af1d12925a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="walkthrough-x12-receiving-batched-edi-interchanges"></a>逐步解說 (X12)：接收批次 EDI 交換
 本逐步解說提供一組逐步執行的程序，來使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 建立可接收 EDI 批次的解決方案。 這個解決方案示範了兩種接收批次 EDI 交換的方法。  
@@ -65,10 +65,10 @@ ms.lasthandoff: 09/20/2017
   
 2.  接收管線處理交換但不分割交易集，並將兩個交易集視為一個單位轉換成內部 XML 格式。  
   
-3.  接收管線升級相同的屬性，如同交換不是批次的情況一樣，唯一的不同是它會在產生的 XML 上套用保留標記。 此標記是\<X12InterchangeXml > 針對 X12 編碼的 EDI 交換或\<EdifactInterchangeXml > 針對 EDIFACT 編碼的 EDI 交換。 EDI 接收管線也會套用內容屬性 `ReuseEnvelope`，以識別保留的交換。  
+3.  接收管線升級相同的屬性，如同交換不是批次的情況一樣，唯一的不同是它會在產生的 XML 上套用保留標記。 此標記是\<X12InterchangeXml\>針對 X12 編碼的 EDI 交換或\<EdifactInterchangeXml\>針對 EDIFACT 編碼的 EDI 交換。 EDI 接收管線也會套用內容屬性 `ReuseEnvelope`，以識別保留的交換。  
   
     > [!NOTE]
-    >  EDI 傳送管線會使用\<X12InterchangeXml > 或\<EdifactInterchangeXml > 標記來識別為保留的批次訊息。 `ReuseEnvelope` 內容屬性可讓您建立傳送埠，以訂閱保留的所有批次交換。  
+    >  EDI 傳送管線會使用\<X12InterchangeXml\>或\<EdifactInterchangeXml\>標記來識別為保留的批次訊息。 `ReuseEnvelope` 內容屬性可讓您建立傳送埠，以訂閱保留的所有批次交換。  
   
 4.  接收管線會將訊息 XML 檔案放置在 MessageBox。  
   
@@ -129,7 +129,7 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  本主題假設您已經在「BizTalk EDI 應用程式」中加入了自己應用程式的參考 (包含 EDI 結構描述、管線和協調流程)， 如果沒有，請參閱[如何將參考加入至 BizTalk Server EDI 應用程式](http://msdn.microsoft.com/library/7af066fb-372f-4709-b566-c8d6b4a9d782)。  
   
-2.  以滑鼠右鍵按一下您的專案，指向**新增**，然後按一下 **現有項目**。 移至**\<磁碟機 >: \Program Files\Microsoft BizTalk Server 2009\XSD_Schema\EDI\X12\00401**，然後按兩下測試訊息的對應結構描述。  
+2.  以滑鼠右鍵按一下您的專案，指向**新增**，然後按一下 **現有項目**。 移至**\<磁碟機\>: \Program Files\Microsoft BizTalk Server 2009\XSD_Schema\EDI\X12\00401**，然後按兩下測試訊息的對應結構描述。  
   
     > [!NOTE]
     >  如果 EDI 結構描述尚未解壓縮至 XSD_SchemaEDI 資料夾，執行**MicrosoftEdiXSDTemplates.exe** XSD_SchemaEDI 資料夾結構描述解壓縮至預設資料夾中的檔案。  
@@ -306,11 +306,11 @@ ms.lasthandoff: 09/20/2017
   
 7.  在 [Windows 檔案總管] 中，開啟與先前建立之傳送埠相關聯的資料夾。 確認資料夾中現在只包含一個新檔案，而且該檔案是交換，內含測試批次訊息中的兩個 850 交易集。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [開發和設定 BizTalk Server EDI 解決方案](../core/developing-and-configuring-biztalk-server-edi-solutions.md)   
  [分割批次的 EDI 交換](../core/splitting-a-batched-edi-interchange.md)   
  [分割 HIPAA 子文件](../core/splitting-hipaa-subdocuments.md)   
  [保留收到的批次 EDI 交換](../core/preserving-a-received-batched-edi-interchange.md)   
  [逐步解說 (X12)： 傳送批次的 EDI 交換](../core/walkthrough-x12-sending-batched-edi-interchanges.md)   
  [逐步解說 (X12)： 接收 EDI 交換並傳回通知](../core/walkthrough-x12--receive-edi-interchanges-and-send-back-an-acknowledgement.md)   
- [逐步解說 (X12)： 傳送 EDI 交換](../core/walkthrough-x12-sending-edi-interchanges.md)
+ [逐步解說 (X12)：傳送 EDI 交換](../core/walkthrough-x12-sending-edi-interchanges.md)

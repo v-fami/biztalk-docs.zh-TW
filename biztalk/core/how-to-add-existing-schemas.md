@@ -12,11 +12,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a4be40f1bf0e1ee9cec7d3598e13a1b2a16cc451
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b6ba8f76bd0f306c23ce270217ac3b2aca8b9ccc
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-add-existing-schemas"></a>如何新增現有的結構描述
 有時候，您會想在現有的 BizTalk 專案中新增現有的結構描述。 本主題描述必要的步驟。  
@@ -27,9 +27,9 @@ ms.lasthandoff: 09/20/2017
   
 2.  在 [專案] 功能表上，按一下 [新增現有項目]。  
   
-3.  在**加入現有項目- \<* BizTalk ProjectName*> * * 對話方塊中，瀏覽至結構描述的位置、 選取結構描述，然後按一下**開啟**。  
+3.  在**加入現有項目- \<* BizTalk ProjectName*\>* * 對話方塊中，瀏覽至結構描述的位置、 選取結構描述，然後按一下**開啟**.  
   
      現有的結構描述就會新增至 BizTalk 專案，但不會在 [BizTalk 編輯器] 中自動開啟。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理專案中的結構描述](../core/managing-schemas-within-projects.md)

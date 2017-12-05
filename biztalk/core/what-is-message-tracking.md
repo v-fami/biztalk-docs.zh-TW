@@ -23,11 +23,11 @@ caps.latest.revision: "18"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c898c2a30d883da4507957c62a0acb75e56a71b3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0d76a4bd4133906a7949fac9e63816168506f412
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="what-is-message-tracking"></a>什麼是訊息追蹤？
 訊息是資料的電子執行個體，通常在兩個執行的商務程序或應用程式之間進行交換。 訊息執行個體是由訊息內文、訊息屬性和中繼資料組成的。  
@@ -38,7 +38,7 @@ ms.lasthandoff: 09/20/2017
  追蹤訊息內文可以提供已傳送和已接收訊息的記錄。 您必須開啟訊息內文追蹤，才能在服務執行個體處理完成後儲存訊息。 設定完追蹤選項後，可能需要幾分鐘的時間才能檢視訊息。  
   
 > [!IMPORTANT]
->  必須在所有 MessageBox 資料庫上執行 SQL Server Agent 服務。 TrackedMessages_Copy_\<MessageBoxName > 工作讓訊息內文追蹤查詢和 WMI。 若要有效率地複製訊息內文，保留在 MessageBox 資料庫中的人員，並定期複製到 BizTalk 追蹤 (BizTalkDTADb) 資料庫 TrackedMessages_Copy_\<MessageBoxName > 作業。 執行 SQL Server Agent 服務也是讓封存和清除這兩個程序正常運作的必要條件。  
+>  必須在所有 MessageBox 資料庫上執行 SQL Server Agent 服務。 TrackedMessages_Copy_\<MessageBoxName\>工作讓訊息內文追蹤查詢和 WMI。 若要有效率地複製訊息內文，保留在 MessageBox 資料庫中的人員，並定期複製到 BizTalk 追蹤 (BizTalkDTADb) 資料庫 TrackedMessages_Copy_\<MessageBoxName\>作業。 執行 SQL Server Agent 服務也是讓封存和清除這兩個程序正常運作的必要條件。  
   
  透過已追蹤訊息可以提供確認回條、進行疑難排解，並且在過去的交易中執行資料採礦。 您可以於連接埠、管線和協調流程的輸入和輸出追蹤訊息內文。 您可以使用 BizTalk Server 管理主控台、「作業」物件模型 (OM) (建議) 或透過 Windows Management Instrumentation (WMI) 應用程式發展介面 (API) 來復原這些訊息。  
   
@@ -78,5 +78,5 @@ ms.lasthandoff: 09/20/2017
     > [!IMPORTANT]
     >  升級的屬性可以包含機密資料。 如果追蹤查詢，從 [群組中樞] 頁面會追蹤用來包含機密資料的屬性，以執行追蹤查詢的權限的任何使用者可以檢視這項資料。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [使用 BizTalk Server 管理主控台設定追蹤](http://msdn.microsoft.com/en-us/49b7f9d3-60b5-41bd-ba8b-029253926bef)

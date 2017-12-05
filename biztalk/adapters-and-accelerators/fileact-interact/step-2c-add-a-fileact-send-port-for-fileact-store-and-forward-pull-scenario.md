@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 55db4fcd1a6a65ac9058a69f9c315de593181a65
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 803a8c671081afd3ba18b81d4770b80b26205eaf
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-2c-add-a-fileact-send-port-for-the-fileact-store-and-forward-pull-scenario"></a>步驟 2c： 新增為 FileAct 存放與轉寄 （提取） 實例 FILEACT 傳送埠
 在開始此步驟之前，必須先完成[步驟 2B： 將檔案傳送埠來擷取 Sw:HandleFileRequest 和 FileAct 存放與轉寄 （提取） 案例的 Sw:HandleSnFRequest 訊息](../../adapters-and-accelerators/fileact-interact/step-2b-add-file-send-ports--get-sw-handlefilerequest-and-sw-handlesnfrequest.md)。  
@@ -41,11 +41,11 @@ ms.lasthandoff: 09/20/2017
     |**使用者名稱**|視 SAG 連線設定的使用者名稱。|  
     |**配接器模式**|從下拉式清單選取**存放與轉寄**。|  
     |**不可否認性指標**|從下拉式清單選取**FALSE**。|  
-    |**要求類型**|設定為適當\<RequestType > SWIFT 與您佈建為基礎的字串。|  
+    |**要求類型**|設定為適當\<RequestType\> SWIFT 與您佈建為基礎的字串。|  
     |**RequestCrypto**|從下拉式清單選取**FALSE**。|  
-    |**要求者**|設定為適當\<要求者 > SWIFT 與您佈建為基礎的字串。|  
-    |**回應者**|設定為適當\<回應 > 字串。|  
-    |**服務名稱**|設定為適當**\<服務名稱 >**。|  
+    |**要求者**|設定為適當\<要求者\>SWIFT 與您佈建為基礎的字串。|  
+    |**回應者**|設定為適當\<回應\>字串。|  
+    |**服務名稱**|設定為適當**\<服務名稱\>**。|  
     |**通知標記**|從下拉式清單選取**FALSE**。|  
     |**事件端點**|從下拉式清單選取**FALSE**。|  
     |**檔案壓縮**|從下拉式清單選取**無**。|  
@@ -79,6 +79,6 @@ ms.lasthandoff: 09/20/2017
   
 10. 按一下 **[確定]**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [步驟 2A： 新增檔案接收位置的 FileAct 存放與轉寄 （提取） 案例](../../adapters-and-accelerators/fileact-interact/step-2a-add-file-receive-locations-for-fileact-store-and-forward-scenario.md)   
- [步驟 2B： 將檔案傳送埠，以擷取 Sw:HandleFileRequest 和 Sw:HandleSnFRequest FileAct 存放與轉寄的訊息 （提取） 案例](../../adapters-and-accelerators/fileact-interact/step-2b-add-file-send-ports--get-sw-handlefilerequest-and-sw-handlesnfrequest.md)
+ [步驟 2B：針對 FileAct 儲存和轉寄 (提取) 案例新增 FILE 傳送埠以擷取 Sw:HandleFileRequest 和 Sw:HandleSnFRequest 訊息](../../adapters-and-accelerators/fileact-interact/step-2b-add-file-send-ports--get-sw-handlefilerequest-and-sw-handlesnfrequest.md)

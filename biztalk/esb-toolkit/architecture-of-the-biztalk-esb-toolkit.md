@@ -12,16 +12,16 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 068eddfdd2138fbc92ad4821b2eaf9491ad39000
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c6a85e8e98e7ea2874935656553b18abac7ca88a
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="architecture-of-the-biztalk-esb-toolkit"></a>BizTalk ESB Toolkit 的架構
 [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]包含一系列的支援和實作鬆散偶合的傳訊環境，可讓您更輕鬆地建立以訊息為基礎的企業應用程式元件間的互通性。 服務和元件自然可分成下列七個類別：  
   
--   **Web 服務。** 這些公開內部服務，例如路線處理、 例外狀況管理、 端點和地圖的解析度[!INCLUDE[prague](../includes/prague-md.md)]作業、 通用描述、 探索與整合 (UDDI) 的互通性，以及訊息轉換內容。  
+-   **Web 服務。** 這些公開內部服務，例如行程處理例外狀況管理、 端點和地圖、 BizTalk Server 作業、 通用描述、 探索與整合 (UDDI) 相互操作及轉換的訊息內容的解析度.  
   
 -   **路線服務。** 其中包括執行轉換和路由訊息的協調流程和傳訊為主的服務。 您可以建立自訂的服務參與行程處理中。 其中包括執行轉換和路由訊息的協調流程和傳訊為主的服務。 您可以建立自訂的服務參與行程處理中。  
   
@@ -35,7 +35,7 @@ ms.lasthandoff: 09/20/2017
   
 -   **ESB 管理入口網站。** 此範例應用程式提供登錄佈建、 例外狀況中繼、 警示的通知和分析。  
   
- 許多這些元件和服務所實作的功能上都必須依賴[!INCLUDE[prague](../includes/prague-md.md)]，例如協調流程、 轉換和商務規則引擎和 Messagebox 資料庫。 圖 1 顯示的圖解檢視的類別、 元件和服務通常發生在每個類別，並使用核心 BizTalk Server 系統元件[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]。  
+ 許多這些元件和服務依賴 BizTalk Server 所實作的協調流程、 轉換和商務規則引擎等 Messagebox 資料庫的功能。 圖 1 顯示的圖解檢視的類別、 元件和服務通常發生在每個類別，並使用核心 BizTalk Server 系統元件[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]。  
   
  ![ESB 架構](../esb-toolkit/media/esbarchitecture.gif "ESBArchitecture")  
   

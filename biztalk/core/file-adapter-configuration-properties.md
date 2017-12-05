@@ -19,11 +19,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c027d5ab993c2110dbcbd6d992859d0d1d4ac7d9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fe578337d7137f3c9973ec4d57f195ead94ad908
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="file-adapter-configuration-properties"></a>FILE 配接器組態屬性
 下表列出您可為 FILE 配接器接收位置設定的組態屬性：  
@@ -62,7 +62,7 @@ ms.lasthandoff: 09/20/2017
   
 |屬性名稱|類型|Description|限制|註解|  
 |-------------------|----------|-----------------|------------------|--------------|  
-|使用者名稱|VT_BSTR|指定 FILE 配接器的主控件執行個體沒有網路共用的必要權限時，所使用的替代認證。|無|指定的使用者名稱格式\<網域 > \username。|  
+|使用者名稱|VT_BSTR|指定 FILE 配接器的主控件執行個體沒有網路共用的必要權限時，所使用的替代認證。|無|指定的使用者名稱格式\<網域\>\username。|  
 |UseTempFileOnWrite|VT_BOOL|指定在寫入目標資料夾時所使用的暫存檔。 一旦完成寫入檔案，檔案會重新命名為 Filename 屬性所指定的值。|只有在 CopyMode 屬性的值設定為 2 (建立新物件) 時，此屬性才能設定為 -1 (true)。<br /><br /> 有效值為：<br /><br /> --1 (true)<br />-0 (false)|預設值為 0 (false)。|  
 |CopyMode|VT_UI4|定義將訊息寫入檔案時使用的複製模式。|有效值為：<br /><br /> -0 （附加）<br />-1 （覆寫）<br />-2 （建立新物件）|預設值為 2 (建立新物件)。|  
 |FileName|VT_BSTR|指定檔案傳送處理常式寫入訊息的檔案名稱。|這個屬性上有關限制的詳細資訊，請參閱[檔案遮罩和檔案名稱屬性的限制](http://msdn.microsoft.com/library/d8f5afd0-a61f-4c9b-8a57-4792e3054769)。|預設值為 %MessageID%.xml。|  

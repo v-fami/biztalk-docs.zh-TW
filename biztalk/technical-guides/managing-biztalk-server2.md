@@ -12,14 +12,14 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 24fe647f5ab5c87a5d8d9c78189134c6700ded6b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 154b7d62af79f557f01064235744b2b56ba0fe3a
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="managing-biztalk-server"></a>管理 BizTalk Server
-本節提供指引來管理[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]實際執行環境中的系統。 請遵循一般的程序假設您正在使用的 BizTalk 應用程式部署之後。 這些程序描述最佳作法與概念例行作業包括下列：  
+本節提供管理 BizTalk Server 系統在生產環境中的指引。 請遵循一般的程序假設您正在使用的 BizTalk 應用程式部署之後。 這些程序描述最佳作法與概念例行作業包括下列：  
   
 -   檢查清單和部署 BizTalk 應用程式至生產環境的程序。  
   

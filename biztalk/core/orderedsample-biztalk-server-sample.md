@@ -17,11 +17,11 @@ caps.latest.revision: "20"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cf7b0de69005957a333e0c4f884e748e6ab5bbe9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1b9e93c7bb9cb59088e465dc53dd992ffd5f1c11
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="orderedsample-biztalk-server-sample"></a>OrderedSample (BizTalk Server 範例)
 OrderedSample 範例會示範如何使用協調流程，以往返方式接收和傳送已排序的訊息序列。  
@@ -36,7 +36,7 @@ OrderedSample 範例會示範如何使用協調流程，以往返方式接收和
  協調流程可以接收批次訊息和單一訊息。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- *\<範例路徑 >*\AdaptersUsage\MQSeriesAdapter\OrderedSample  
+ *\<範例路徑\>*\AdaptersUsage\MQSeriesAdapter\OrderedSample  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -175,5 +175,5 @@ OrderedSample 範例會示範如何使用協調流程，以往返方式接收和
   
 3.  使用 WebSphere MQ Explorer 檢視傳送佇列 (您已設定傳送埠要將訊息傳送至此佇列) 內的訊息。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [MQSeries 配接器範例](../core/mqseries-adapter-samples.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "25"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cbd45901afb229cf884390c2a5120deac0daa90d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b4f8a3b0bcc58fbed428152bb9f55c34d867258a
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="optimizing-orchestration-performance"></a>協調流程效能最佳化
 本主題說明在 BizTalk Server 方案中使用協調流程的最佳作法。 這包括的建議：  
@@ -220,7 +220,7 @@ public static XmlDocument FromMsg(XLANGMessage old)
 }  
 ```  
   
- 另一個方法，可建立結構描述為基礎的.NET 類別。 這個動作所花較少的記憶體比載入文件至**XmlDocument**物件，以及讓您輕鬆存取結構描述項目適用於.NET 開發人員。 若要產生 BizTalk 結構描述為基礎的類別，您可以使用 Visual Studio 提供的 xsd.exe 工具。 例如，執行**xsd.exe \<schema.xsd >/類別**針對簡單的結構描述，其中包含名為 ItemA 的欄位，ItemB，ItemC，將會產生下列類別。  
+ 另一個方法，可建立結構描述為基礎的.NET 類別。 這個動作所花較少的記憶體比載入文件至**XmlDocument**物件，以及讓您輕鬆存取結構描述項目適用於.NET 開發人員。 若要產生 BizTalk 結構描述為基礎的類別，您可以使用 Visual Studio 提供的 xsd.exe 工具。 例如，執行**xsd.exe \<schema.xsd\> /類別**針對簡單的結構描述，其中包含名為 ItemA 的欄位，ItemB，ItemC，將會產生下列類別。  
   
 ```csharp  
 //------------------------------------------------------------------------------  
@@ -349,7 +349,7 @@ public static Root SetValues(Microsoft.XLANGs.BaseTypes.XLANGMessage msg)
 -   [Charles Young 部落格、 BizTalk Server 2006： 補償模型](http://go.microsoft.com/fwlink/?LinkId=158017)(http://go.microsoft.com/fwlink/?LinkId=158017)。  
   
     > [!NOTE]  
-    >  雖然這篇部落格以寫入[!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)]納入考量，部落格中所述的原則也適用於[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]。  
+    >  雖然這篇部落格以寫入[!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)]納入考量，部落格中所述的原則也適用於 BizTalk Server。  
   
 ## <a name="considerations-when-using-maps-in-orchestrations"></a>使用協調流程中的對應時的考量  
  在協調流程中使用對應時，就會適用下列考量：  
@@ -358,5 +358,5 @@ public static Root SetValues(Microsoft.XLANGs.BaseTypes.XLANGMessage msg)
   
 -   若您使用對應將數個欄位彙總成一個欄位，請使用辨別欄位或升級屬性搭配協調流程變數，以累計結果集。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [最佳化效能](../technical-guides/optimizing-performance.md)

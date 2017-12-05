@@ -21,11 +21,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2939fd0594c878e3a5f1416d0b1e871b78ba3858
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8ce76f2ca16cca44af1658983c49d11f6931e931
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-manage-password-synchronization"></a>如何管理密碼同步處理
 使用 MMC 嵌入式管理單元或 SSOMANAGE 命令列公用程式來啟用或停用 SSO 功能，以及顯示目前的 SSO 資料庫設定。  
@@ -42,7 +42,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**執行**] 對話方塊中，輸入**cmd**，然後按一下 [**確定**。  
   
-3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機 >: \Program Files\Common Files\Enterprise Single Sign-on。  
+3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
 4.  型別**ssomanage-啟用**按下 Enter。  
   
@@ -52,7 +52,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**執行**] 對話方塊中，輸入**cmd**，然後按一下 [**確定**。  
   
-3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機 >: \Program Files\Common Files\Enterprise Single Sign-on。  
+3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
 4.  型別**ssomanage-停用**按下 Enter。  
   
@@ -62,9 +62,9 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**執行**] 對話方塊中，輸入**cmd**，然後按一下 [**確定**。  
   
-3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機 >: \Program Files\Common Files\Enterprise Single Sign-on。  
+3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
 4.  型別**ssomanage-displaydb**按下 Enter。  
   
-## <a name="see-also"></a>另請參閱  
- [密碼同步處理](../core/password-synchronization2.md)
+## <a name="see-also"></a>請參閱  
+ [密碼同步](../core/password-synchronization2.md)

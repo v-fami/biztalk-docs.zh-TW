@@ -13,11 +13,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5d362ae262c7b054bd86fda72f8aacd3b5ab1455
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b5f00a0bfe14eeb7d4205973b3fef96e23026616
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="create-msmq-receive-locations-and-send-ports-programmatically"></a>以程式設計方式建立 MSMQ 接收位置和傳送埠
 本主題將說明如何使用 WMI 來建立 MSMQ 配接器的連接埠或位置。  
@@ -53,7 +53,7 @@ objReceiveLocation["CustomCfg"] =
   
  在 CustomProps 項目內標記的名稱，就是配接器會用於這些屬性的內部名稱。  
   
- MSMQ 配接器在 CustomProps 標記中設有單一個 AdapterConfig 標記。 AdapterConfig 標記包含已括在 Config 標記中之自訂屬性值會使用的 XML 標記字串。 不過，標記會編碼:"&lt;"取代"\<"和"&gt;"取代">"。 例如，用於 MSMQ 屬性之配接器子集的 XML 可能如下所示：  
+ MSMQ 配接器在 CustomProps 標記中設有單一個 AdapterConfig 標記。 AdapterConfig 標記包含已括在 Config 標記中之自訂屬性值會使用的 XML 標記字串。 不過，標記會編碼:"&lt;"取代"\<"和"&gt;"取代"\>"。 例如，用於 MSMQ 屬性之配接器子集的 XML 可能如下所示：  
   
 ```  
 <Config>  

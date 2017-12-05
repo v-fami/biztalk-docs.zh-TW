@@ -12,11 +12,11 @@ caps.latest.revision: "24"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5f44ebd8cb41f96260b48910410014da90bbed0c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8fb64a0548fefb816e1975e4c858934fc3dceb7c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="walkthrough-creating-and-using-a-vocabulary-in-the-policy"></a>逐步解說： 建立和使用的原則中的詞彙
 本逐步解說提供逐步程序建立詞彙和使用詞彙**ProcessPurchaseOrder**原則。  
@@ -46,9 +46,9 @@ ms.lasthandoff: 09/20/2017
   
 4.  如果您未變更詞彙的名稱為 POVocabulary 步驟 3 中，變更將詞彙的名稱**POVocabulary**屬性 視窗中。  
   
-5.  以滑鼠右鍵按一下**版本 1.0 （未儲存）**中**POVocabulary**，然後按一下**新增定義**。  
+5.  以滑鼠右鍵按一下**版本 1.0 （未儲存）**中**POVocabulary**，然後按一下 **新增定義**。  
   
-6.  在 [詞彙定義精靈] 中，選取**XML 文件項目或屬性**，然後按一下**下一步**。  
+6.  在 詞彙定義精靈 中，選取**XML 文件項目或屬性**，然後按一下 **下一步**。  
   
 7.  如**定義名稱**，型別**要求數量**。  
   
@@ -66,9 +66,9 @@ ms.lasthandoff: 09/20/2017
   
 12. 按一下 **[完成]**。  
   
-13. 以滑鼠右鍵按一下**版本 1.0 （未儲存）**，然後按一下**新增定義**。  
+13. 以滑鼠右鍵按一下**版本 1.0 （未儲存）**，然後按一下 **新增定義**。  
   
-14. 選取**XML 文件項目或屬性**，然後按一下**下一步**。  
+14. 選取**XML 文件項目或屬性**，然後按一下 **下一步**。  
   
 15. 如**定義名稱**，型別**Request Status**。  
   
@@ -78,11 +78,11 @@ ms.lasthandoff: 09/20/2017
   
 18. 變更**文件類型**至**[ruletest.po]**。 這個步驟非常重要。  
   
-19. 請確定**執行設定作業**選項已選取，然後按一下**下一步。**  
+19. 請確定**執行設定作業**選項已選取，然後按一下 [**下一步]。**  
   
 20. 按一下 **[完成]**。  
   
-21. 以滑鼠右鍵按一下**版本 1.0 （未儲存）**，然後按一下**新增定義**。  
+21. 以滑鼠右鍵按一下**版本 1.0 （未儲存）**，然後按一下 **新增定義**。  
   
 22. 請確定**常數值、 值的範圍或值的集合**已選取，然後按一下**下一步**。  
   
@@ -92,15 +92,15 @@ ms.lasthandoff: 09/20/2017
   
 25. 型別**500**為值，然後按一下**完成**。  
   
-26. 以滑鼠右鍵按一下**版本 1.0 （未儲存）**，然後按一下**儲存**。  
+26. 以滑鼠右鍵按一下**版本 1.0 （未儲存）**，然後按一下 **儲存**。  
   
-27. 以滑鼠右鍵按一下**版本 1.0 （未儲存）**，然後按一下**發行**。  
+27. 以滑鼠右鍵按一下**版本 1.0 （未儲存）**，然後按一下 **發行**。  
   
 ### <a name="to-use-the-povocabulary-in-the-processpurchaseorder-policy"></a>在 ProcessPurchaseOrder 原則中使用 POVocabulary  
   
-1.  在 [原則總管] 視窗中，依序展開**原則**，依序展開**ProcessPurchaseOrder**，以滑鼠右鍵按一下**1.0 版**，然後按一下**複製**.  
+1.  在 原則總管 視窗中，依序展開**原則**，依序展開**ProcessPurchaseOrder**，以滑鼠右鍵按一下**1.0 版**，然後按一下 **複製**.  
   
-2.  以滑鼠右鍵按一下**ProcessPurchaseOrder** ，然後按一下**貼上原則版本**。  
+2.  以滑鼠右鍵按一下**ProcessPurchaseOrder** ，然後按一下 **貼上原則版本**。  
   
 3.  按一下**ApprovalRule**中**版本 1.1 （未儲存）**。  
   
@@ -119,7 +119,7 @@ ms.lasthandoff: 09/20/2017
   
 7.  拖曳**Request Status**至**然後**窗格。  
   
-8.  按一下**\<空字串 >** ，然後輸入**Approved**。  
+8.  按一下**\<空字串\>** ，然後輸入**Approved**。  
   
 9. 以滑鼠右鍵按一下**版本 1.1 （未儲存）**在原則總管 視窗中，然後按一下**儲存**。  
   
@@ -127,12 +127,12 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-test-the-solution"></a>測試方案  
   
-1.  在商務規則編輯器] 中展開 [**原則**，依序展開**ProcessPurchaseOrder**，以滑鼠右鍵按一下**版本 1.0 – 已部署**，然後按一下**解除部署**.  
+1.  在商務規則編輯器 中展開 **原則**，依序展開**ProcessPurchaseOrder**，以滑鼠右鍵按一下**版本 1.0 – 已部署**，然後按一下 **解除部署**.  
   
     > [!NOTE]
     >  這個步驟是選擇性的，因為協調流程一定都會挑選原則的最新部署版本，也就是在執行步驟 2 之後的 1.1。  
   
-2.  以滑鼠右鍵按一下**版本 1.1-已發佈**，然後按一下**部署**。  
+2.  以滑鼠右鍵按一下**版本 1.1-已發佈**，然後按一下 **部署**。  
   
 3.  大約等候**60**秒。 如果有快取原則的任何更新，規則引擎更新服務便會每隔 60 秒鐘重新整理快取。 無論您是否有執行步驟 1 都沒關係，協調流程會挑選原則的最新部署版本，也就是 1.1。  
   
@@ -164,7 +164,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="next-steps"></a>後續步驟  
  現在您已完成此逐步解說中，執行[逐步解說： 將規則新增至原則](../core/walkthrough-adding-a-rule-to-the-policy.md)逐步解說中，它將提供逐步指示，加入新的規則， **ProcessPurchaseOrder**原則。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [詞彙](../core/vocabularies.md)   
  [如何開發詞彙](../core/how-to-develop-vocabularies.md)   
  [條件評估與動作執行](../core/condition-evaluation-and-action-execution.md)   

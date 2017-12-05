@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ec68ad7e60033c0830eaf9977e1edf8ab45847d8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 89a3722d6d8e1d4b730341dfaf16d60af1686f21
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-9-test-the-solution"></a>步驟 9： 測試方案
 本主題中，您可以測試混合式應用程式所傳送的 X12 840 銷售訂單訊息至 HTTP 端點部署 EDI 協議的位置。 範例銷售訂單訊息看起來如下：  
@@ -74,7 +74,7 @@ IEA*1*000000025~
 4.  使用**MessageSender**傳送另一則訊息，但這次設定的數量值已排序訊息中*99*。 您會注意到現在，沒有記錄插入在**SalesOrder**資料表。 相反地，訊息會複製到您指定用於接收訊息的訂單數量小於 100 的檔案位置。 收到的訊息如下所示：  
   
     ```  
-    \<ns1:SalesOrder xmlns:ns0="http://schemas.microsoft.com/BizTalk/EDI/X12/2006" xmlns:ns1="http://ECommerceSalesOrder.Inbound">  
+    <ns1:SalesOrder xmlns:ns0="http://schemas.microsoft.com/BizTalk/EDI/X12/2006" xmlns:ns1="http://ECommerceSalesOrder.Inbound">  
       <CompanyCode>co</CompanyCode>  
       <PartID>1</PartID>  
       <Quantity>99</Quantity>  
@@ -94,11 +94,11 @@ IEA*1*000000025~
       </Contact>  
       <Comments>Order from Partnerco</Comments>  
       <DateNow>2012-06-19</DateNow>  
-    \</ns1:SalesOrder>  
+    </ns1:SalesOrder>  
   
     ```  
   
      中的值會注意到**數量**項目。 它是*99*。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [教學課程 4： 建立使用 BizTalk Server 2013 的混合式應用程式](../core/tutorial-4-creating-a-hybrid-application-using-biztalk-server-2013.md)

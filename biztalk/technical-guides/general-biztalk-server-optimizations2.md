@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3d4777545d7522a1f8ca61e9209669b489ebcb30
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 622844e282b9b0206f92979827406a324cd2f86f
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="general-biztalk-server-optimizations"></a>一般 BizTalk Server 最佳化
 下列建議可以用來增加[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]效能。 本主題中列出的最佳化會在之後套用[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]已經安裝及設定。  
@@ -35,7 +35,7 @@ ms.lasthandoff: 09/20/2017
 > [!NOTE]  
 >  優點，可建立其他主控件執行個體時，也有缺點如果太多的主控件執行個體所建立。 每個主控件執行個體是 Windows 服務 (BTSNTSvc.exe)，會產生對 MessageBox 資料庫的額外負載，並使用電腦資源 （例如 CPU、 記憶體、 執行緒）。  
   
- 如需有關如何修改 BizTalk Server 主控件屬性的詳細資訊，請參閱 < 如何修改主控件屬性 > 中[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]協助在[http://go.microsoft.com/fwlink/?LinkId=101588](http://go.microsoft.com/fwlink/?LinkId=101588)。  
+ 如需有關如何修改 BizTalk Server 主控件屬性的詳細資訊，請參閱 < 如何來修改主控件屬性 > 中的 BizTalk Server 說明在[http://go.microsoft.com/fwlink/?LinkId=101588](http://go.microsoft.com/fwlink/?LinkId=101588)。  
   
 ## <a name="configure-a-dedicated-tracking-host"></a>設定專用的追蹤主控件  
  BizTalk Server 已針對輸送量最佳化，因此主要協調流程和傳訊引擎不實際訊息直接來移動的 BizTalk 追蹤資料庫或 BAM 資料庫，因為這會轉向這些引擎從執行商務程序的主要工作。 相反地，BizTalk Server 將訊息保留在 MessageBox 資料庫，並將其標示為需要移至 「 BizTalk 追蹤資料庫。 背景處理序 （追蹤主控件），然後移動訊息至 BizTalk 追蹤資料庫和 BAM 資料庫。 追蹤會消耗資源的作業，因為個別的主控件應建立專門用來追蹤，藉此追蹤的訊息處理至專用的主機上的影響降到最低。  
@@ -48,13 +48,13 @@ ms.lasthandoff: 09/20/2017
   
 -   不移動資料，因為它無法從 Messagebox 資料庫刪除。  
   
--   追蹤資料解碼服務停止時，追蹤攔截器仍會引發，將追蹤資料寫入至 Messagebox 資料庫。 如果未移動資料，這會導致 Messagebox 資料庫變得繁雜，這樣會影響一段時間的效能。 即使自訂屬性不會受到追蹤，或是未設定 BAM 設定檔，根據預設某些會追蹤資料 （例如，管線接收 / 傳送事件和協調流程事件）。 如果您不想執行的追蹤資料解碼服務，請關閉所有的追蹤，以便任何攔截器會將資料儲存至資料庫。 若要停用全域追蹤，請參閱 < 如何開啟關閉全域追蹤 」[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]協助在[http://go.microsoft.com/fwlink/?LinkId=101589](http://go.microsoft.com/fwlink/?LinkId=101589)。 使用 BizTalk Server 管理主控台，以選擇性地停用追蹤事件。  
+-   追蹤資料解碼服務停止時，追蹤攔截器仍會引發，將追蹤資料寫入至 Messagebox 資料庫。 如果未移動資料，這會導致 Messagebox 資料庫變得繁雜，這樣會影響一段時間的效能。 即使自訂屬性不會受到追蹤，或是未設定 BAM 設定檔，根據預設某些會追蹤資料 （例如，管線接收 / 傳送事件和協調流程事件）。 如果您不想執行的追蹤資料解碼服務，請關閉所有的追蹤，以便任何攔截器會將資料儲存至資料庫。 若要停用全域追蹤，請參閱 < 如何開啟關閉全域追蹤"BizTalk Server 中協助在[http://go.microsoft.com/fwlink/?LinkId=101589](http://go.microsoft.com/fwlink/?LinkId=101589)。 使用 BizTalk Server 管理主控台，以選擇性地停用追蹤事件。  
   
  追蹤主控件應執行 BizTalk Server （適用於在其中一個失敗的情況下的備援性） 的至少兩部電腦上執行。 為了達到最佳效能，您應該有至少一個追蹤主控件執行個體，每個 Messagebox 資料庫。 追蹤主控件執行個體的實際數目應為 （N + 1），其中 N = Messagebox 資料庫數目。 "+ 1"是作為備援，其中一部電腦裝載追蹤失敗時。  
   
  追蹤主控件執行個體移動特定的 Messagebox 資料庫的追蹤資料，但是會永遠不會有多個追蹤主控件執行個體特定的 Messagebox 資料庫移動資料。 例如，如果您有三個 Messagebox 資料庫，且只有兩個追蹤主控件執行個體，然後其中一個主控件執行個體需要移動兩個 Messagebox 資料庫的資料。 加入第三個追蹤主控件執行個體分散追蹤裝載執行 BizTalk Server 的另一部電腦的工作。 在此案例中，加入第四個追蹤主控件執行個體不會散佈任何的多個追蹤主控件使用，但會提供額外的追蹤主控件執行個體的容錯功能。  
   
- 如需有關 BAM 事件匯流排服務的詳細資訊，請參閱中的下列主題[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]協助：  
+ 如需有關 BAM 事件匯流排服務的詳細資訊，請參閱 BizTalk Server 說明中的下列主題：  
   
 -   在 「 管理 BAM 事件匯流排服務 」 [http://go.microsoft.com/fwlink/?LinkId=101590](http://go.microsoft.com/fwlink/?LinkId=101590)。  
   
@@ -187,12 +187,12 @@ ms.lasthandoff: 09/20/2017
 6.  重新啟動 BizTalk 主控件執行個體。  
   
 ## <a name="disable-tracking-for-orchestrations-send-ports-receive-ports-and-pipelines-when-tracking-is-not-required"></a>停用追蹤的協調流程、 傳送埠、 接收埠及管線，不需要追蹤時  
- 追蹤導致 BizTalk Server 中的額外負荷的效能，因為資料已寫入至 MessageBox 資料庫，然後以非同步方式移動到 BizTalk 追蹤資料庫。 如果追蹤不是一項業務需求，則會停用追蹤，以減少額外負荷，以及提高效能。 如需設定追蹤的詳細資訊，請參閱 「 設定追蹤使用 BizTalk Server 管理主控台 」 中[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]協助在[http://go.microsoft.com/fwlink/?LinkID=106742](http://go.microsoft.com/fwlink/?LinkID=106742)。  
+ 追蹤導致 BizTalk Server 中的額外負荷的效能，因為資料已寫入至 MessageBox 資料庫，然後以非同步方式移動到 BizTalk 追蹤資料庫。 如果追蹤不是一項業務需求，則會停用追蹤，以減少額外負荷，以及提高效能。 如需設定追蹤的詳細資訊，請參閱 「 設定追蹤使用 BizTalk Server 管理主控台 」 在 BizTalk Server 在說明[http://go.microsoft.com/fwlink/?LinkID=106742](http://go.microsoft.com/fwlink/?LinkID=106742)。  
   
 ## <a name="decrease-the-purging-period-for-the-dta-purge-and-archive-job-from-7-days-to-2-days-in-high-throughput-scenarios"></a>在清除期間減少 DTA 清除和封存工作從 7 天在高輸送量的 2 天  
  根據預設，追蹤 BizTalk Server 中的資料的清除間隔設定為 7 天。 在高輸送量實例中，導致在追蹤資料庫中，最後將會影響 MessageBox 和依次造成負面影響訊息處理輸送量的效能資料過多建置設定。  
   
- 在高輸送量的情況下，減少硬與軟清除來自預設值是 7 天的間隔為 2 天。 設定清除間隔的詳細資訊，請參閱 「 如何以設定 DTA 清除和封存工作 」，在[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]協助在[http://go.microsoft.com/fwlink/?LinkID=104908](http://go.microsoft.com/fwlink/?LinkID=104908)。  
+ 在高輸送量的情況下，減少硬與軟清除來自預設值是 7 天的間隔為 2 天。 如需設定清除間隔的詳細資訊，請參閱 「 如何以設定 DTA 清除和封存工作 」 在 BizTalk Server 在說明[http://go.microsoft.com/fwlink/?LinkID=104908](http://go.microsoft.com/fwlink/?LinkID=104908)。  
   
 ## <a name="install-the-latest-service-packs"></a>安裝最新的 service pack  
  應該安裝最新的 service pack，BizTalk Server 與.NET Framework，因為其中包含可以修正您可能會遇到效能問題的修正程式。  

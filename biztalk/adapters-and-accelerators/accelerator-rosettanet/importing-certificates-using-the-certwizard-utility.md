@@ -22,11 +22,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e887811b4aef771a33a1f4e4d8852d5815036a74
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 64be28927a49a1fc751870785ff3fc3f55a36cb1
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="importing-certificates-using-the-certwizard-utility"></a>使用 CertWizard 公用程式匯入憑證
 本主題描述如何使用 CertWizard 公用程式，逐步命令列公用程式中使用匯入憑證[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK。 此主題討論如何匯入私密、公開或根金鑰， 以及用來設定憑證的切換參數。  
@@ -39,20 +39,20 @@ ms.lasthandoff: 09/20/2017
   
 1.  按一下**啟動**，按一下 **執行**，型別**cmd**，然後按一下**確定**。  
   
-2.  在命令提示字元中，移至[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]SDK 資料夾，使用 MS-DOS **CD**命令，例如，輸入**cd C:\Program Files\Microsoft BizTalk\<版本 > Accelerator for RosettaNet\SDK** .  
+2.  在命令提示字元中，移至[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]SDK 資料夾，使用 MS-DOS **CD**命令，例如，輸入**cd C:\Program Files\Microsoft BizTalk\<版本\>Accelerator forRosettaNet\SDK** 。  
   
     > [!NOTE]
     >  如需 CertWizard 公用程式說明，請輸入**CertWizard /？** 在命令提示字元。  
   
-3.  在命令提示字元中，輸入**CertWizard /Privatekey\<檔名 >.pfx**，其中\< *filename*> x 包含私用憑證。 若要提供檔案的密碼，附加**/Filepassword \<filepassword >**命令。  
+3.  在命令提示字元中，輸入**CertWizard /Privatekey \<filename\>.pfx**，其中\< *filename*\>x 包含私用憑證。 若要提供檔案的密碼，附加**/Filepassword \<filepassword\>** 命令。  
   
-4.  如果您想要將憑證匯入特定 BizTalk 主控件所使用的帳戶、 新增**/Useridentity \<useridentity > /Password\<密碼 >**命令。  
+4.  如果您想要將憑證匯入特定 BizTalk 主控件所使用的帳戶、 新增**/Useridentity \<useridentity\> /Password\<密碼\>**命令。  
   
-5.  如果您想要指定特定的憑證指紋，以防.pfx 檔案包含一個以上的憑證，附加**/Thumbprint\<憑證指紋 >**命令。  
+5.  如果您想要指定特定的憑證指紋，以防.pfx 檔案包含一個以上的憑證，附加**/Thumbprint\<指紋\>**命令。  
   
 6.  如果您想要設定的憑證使用狀況，附加**/Usage**命令，然後附加下列值之一：  
   
-    -   附加**登**BizTalk 群組，做為簽署的憑證加入憑證的指紋。 為集合，在對話方塊中 Microsoft [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] （本機） 在 BizTalk 管理主控台。  
+    -   附加**登**BizTalk 群組，做為簽署的憑證加入憑證的指紋。 為集合，在對話方塊中 BizTalk 管理主控台中的 Microsoft BizTalk Server （本機）。  
   
     -   附加**解密**以新增憑證的指紋作為解密憑證為 BizTalk 主控件所設定的屬性頁的 [憑證] 索引標籤上每個主控件在 BizTalk 管理主控台。  
   
@@ -74,11 +74,11 @@ ms.lasthandoff: 09/20/2017
   
 1.  按一下**啟動**，按一下 **執行**，型別**cmd**，然後按一下**確定**。  
   
-2.  在命令提示字元中，移至[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]SDK 資料夾，使用 MS-DOS **CD**命令，例如，輸入**cd C:\Program Files\Microsoft BizTalk\<版本 > Accelerator for RosettaNet\SDK**.  
+2.  在命令提示字元中，移至[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]SDK 資料夾，使用 MS-DOS **CD**命令，例如，輸入**cd C:\Program Files\Microsoft BizTalk\<版本\>Accelerator forRosettaNet\SDK**。  
   
-3.  在命令提示字元中，輸入**CertWizard /Publickey\<檔名 >.cer**，其中\< *filename*> 包含公開憑證。  
+3.  在命令提示字元中，輸入**CertWizard /Publickey \<filename\>.cer**，其中\< *filename*\>包含公開憑證。  
   
-4.  如果您想要指定憑證的.cer 或.der 檔案中的憑證指紋，附加**/Thumbprint\<憑證指紋 >**命令。  
+4.  如果您想要指定憑證的.cer 或.der 檔案中的憑證指紋，附加**/Thumbprint\<指紋\>**命令。  
   
      這個工具會將憑證匯入 [憑證 (本機電腦)]\Other People\Certificates 存放區，並設定其組態。  
   
@@ -86,14 +86,14 @@ ms.lasthandoff: 09/20/2017
   
 1.  按一下**啟動**，按一下 **執行**，型別**cmd**，然後按一下**確定**。  
   
-2.  在命令提示字元中，移至[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]SDK 資料夾，使用 MS-DOS **CD**命令，例如，輸入**cd C:\Program Files\Microsoft BizTalk\<版本 > Accelerator for RosettaNet\SDK**.  
+2.  在命令提示字元中，移至[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]SDK 資料夾，使用 MS-DOS **CD**命令，例如，輸入**cd C:\Program Files\Microsoft BizTalk\<版本\>Accelerator forRosettaNet\SDK**。  
   
-3.  在命令提示字元中，輸入**CertWizard /Rootkey\<檔名 >.cer**，其中\< *filename*> 包含根憑證。  
+3.  在命令提示字元中，輸入**CertWizard /Rootkey \<filename\>.cer**，其中\< *filename*\>包含根憑證。  
   
-4.  如果您想要指定憑證的.cer 或.der 檔案中的憑證指紋，附加**/Thumbprint\<憑證指紋 >**命令。  
+4.  如果您想要指定憑證的.cer 或.der 檔案中的憑證指紋，附加**/Thumbprint\<指紋\>**命令。  
   
      這個工具會將憑證匯入 [憑證 (本機電腦)]\Trusted Root Certification Authority\Certificates 存放區，並設定其組態。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [CertWizard](../../adapters-and-accelerators/accelerator-rosettanet/certwizard.md)   
  [管理憑證](../../adapters-and-accelerators/accelerator-rosettanet/managing-certificates1.md)

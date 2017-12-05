@@ -16,11 +16,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2b0e9be1934374d1aa8def379560f675493c590d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 339e80776dac32e25f96da5c62675f1a8d6075ee
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="configuring-message-acknowledgments"></a>設定訊息通知
 您使用[!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]Configuration 總管**通知**指定輸入和產生通知的通知屬性的索引標籤。  
@@ -33,7 +33,7 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-open-btahl7-configuration-explorer"></a>若要開啟 BTAHL7 組態總管  
   
--   按一下**啟動**，指向 **程式**，指向  **Microsoft BizTalk\<版本 > Accelerator for HL7**，然後按一下  **BTAHL7組態總管**。  
+-   按一下**啟動**，指向 **程式**，指向  **Microsoft BizTalk\<版本\>Accelerator for HL7**，然後按一下  **BTAHL7 Configuration 總管**。  
   
 ### <a name="to-configure-message-acknowledgments"></a>若要設定訊息通知  
   
@@ -57,7 +57,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  按一下 **[儲存]**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [通知設定](../../adapters-and-accelerators/accelerator-hl7/ack-configuration-settings.md)   
  [通知設定](../../adapters-and-accelerators/accelerator-hl7/acknowledgment-settings.md)   
  [建立及處理通知](../../adapters-and-accelerators/accelerator-hl7/creating-and-processing-acknowledgments.md)

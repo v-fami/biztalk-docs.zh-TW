@@ -12,11 +12,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 59cebe24ffdc1a72608dd3b3301aed94d2804052
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 10633851eaffe6e08f230da8552514cd976f23a8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-open-the-promote-properties-dialog-box"></a>如何開啟 [升級屬性] 對話方塊
 屬性升級在管理**升級屬性** 對話方塊。 本主題會提供開啟此對話方塊以管理升級屬性的逐步指示。  
@@ -28,7 +28,7 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-open-the-promote-properties-dialog-box-from-the-schema-node"></a>從結構描述節點開啟升級屬性對話方塊  
   
-1.  在結構描述樹狀目錄中，選取**\<結構描述 >**節點。  
+1.  在結構描述樹狀目錄中，選取**\<結構描述\>**節點。  
   
 2.  在 [屬性] 視窗中，按一下省略符號 (**...**) 中的值欄位按鈕**升級屬性**屬性。  
   
@@ -42,7 +42,7 @@ ms.lasthandoff: 09/20/2017
   
      **升級屬性**對話方塊隨即開啟。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [升級屬性](../core/promoting-properties.md)   
  [如何建立屬性結構描述](../core/how-to-create-property-schemas.md)   
- [使用訊息內容控制訊息處理方式](../core/ways-to-use-message-content-to-control-message-processing.md)
+ [使用訊息內容控制訊息處理的方式](../core/ways-to-use-message-content-to-control-message-processing.md)

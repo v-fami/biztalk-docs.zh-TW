@@ -17,11 +17,11 @@ caps.latest.revision: "23"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b218fa44b93211fdb51080d68b429744b5aabf72
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 12fb3eca6db9ceafeeab9b0b276bfd6f3cb23b16
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-use-the-biztalk-wcf-service-consuming-wizard-to-consume-a-wcf-service"></a>如何使用 BizTalk WCF 服務使用精靈以使用 WCF 服務
 BizTalk 配接器架構會提供將配接器結構描述和 BizTalk 類型新增至 BizTalk 專案的方法。 BizTalk WCF 服務使用精靈可讓您將 WCF 傳送配接器新增到 BizTalk 專案。 對於 WCF 傳送配接器，您必須針對傳送埠選取現有的中繼資料交換 (MEX) 端點。 然後，您必須輸入用來產生結構描述和類型的資訊。 當精靈完成時，在使用 WCF 服務時所需要的結構描述和類型就會加入到 BizTalk 專案中。  
@@ -30,7 +30,7 @@ BizTalk 配接器架構會提供將配接器結構描述和 BizTalk 類型新增
   
 1.  在您的 Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] BizTalk 專案，在 [方案總管] 中，以滑鼠右鍵按一下您的專案中，按一下**新增**，然後按一下 **新增產生的項目**。  
   
-2.  在**新增產生的項目- \<** *專案名稱* **>** 對話方塊中，於**範本**] 區段中，選取**取用 WCF 服務**，然後按一下 [**新增**。  
+2.  在**新增產生的項目- \<** *專案名稱* **\>** 對話方塊中，於**範本**] 區段中，選取**取用 WCF 服務**，然後按一下 [**新增**。  
   
 3.  在**歡迎使用 BizTalk WCF 服務使用精靈**頁面上，按一下**下一步**。  
   
@@ -91,6 +91,6 @@ BizTalk 配接器架構會提供將配接器結構描述和 BizTalk 類型新增
   
      如果外寄訊息來自於協調流程連接埠，協調流程執行個體動態設定**BTS。作業**與連接埠的作業名稱的屬性。 如果外寄訊息都會路由傳送，以內容為基礎的路由，您可以設定**BTS。作業**管線元件中的屬性。 BizTalk WCF 使用精靈所產生的連接埠有其名稱符合的作業**名稱**屬性 **<BtsActionMapping>** 項目。 您沒有明確設定**BTS。作業**透過精靈所產生的連接埠傳送訊息時的協調流程中的屬性。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [如何使用 BizTalk WCF 服務發佈精靈協調流程發佈為 WCF 服務](../core/publish-orchestrations-as-wcf-services--biztalk-wcf-service-publishing-wizard.md)   
  [如何使用 BizTalk WCF 服務發佈精靈結構描述發佈為 WCF 服務](../core/publish-schemas-as-wcf-services--use-the-biztalk-wcf-service-publishing-wizard.md)

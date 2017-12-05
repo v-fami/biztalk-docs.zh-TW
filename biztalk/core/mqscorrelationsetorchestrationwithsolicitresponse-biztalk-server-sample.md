@@ -19,11 +19,11 @@ caps.latest.revision: "29"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2665967e27cf708fcdbbddf61a7b66c619757223
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 79d92ca7a65262d18a08cab700710284accfbf78
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="mqscorrelationsetorchestrationwithsolicitresponse-biztalk-server-sample"></a>MQSCorrelationSetOrchestrationWithSolicitResponse (BizTalk Server 範例)
 MQSCorrelationSetOrchestrationWithSolicitResponse 範例將示範如何使用 MQSeries Server (而非 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]) 產生的相互關聯識別項。  
@@ -35,7 +35,7 @@ MQSCorrelationSetOrchestrationWithSolicitResponse 範例將示範如何使用 MQ
 >  如果 MQSeries Server 傳送的訊息比相互關聯識別項先抵達，使用這種方式的協調流程可能會發生問題。 請確定您在設計協調流程時，給予 MQSeries Server 足夠的時間傳回相互關聯識別項。 本範例並未將這種可能的競爭情形列入考量。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- *\<範例路徑 >*\AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestrationWithSolicitResponse  
+ *\<範例路徑\>*\AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestrationWithSolicitResponse  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -241,6 +241,6 @@ MQSCorrelationSetOrchestrationWithSolicitResponse 範例將示範如何使用 MQ
     > [!NOTE]
     >  如果您停用**MQReply**接收位置，您可以檢查 WebSphere MQ Explorer 中的訊息，並查看所設定的訊息和相互關聯識別項。 若要這樣做，請啟動**WebSphere MQ Explorer**並檢查訊息置於**REPLYTOQ**佇列。 訊息和相互關聯識別碼會顯示在**識別碼** 索引標籤**Messageproperties**  對話方塊。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [使用要求-回覆相互關聯訊息](../core/correlating-messages-using-request-reply.md)   
  [MQSeries 配接器範例](../core/mqseries-adapter-samples.md)

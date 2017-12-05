@@ -15,11 +15,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e3f0835c6d83efc9db91f5c1d63e91f4c143399d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 11c77b7b28c65c4743998f7d4c54d9c7cd48437f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="creating-an-a4swift-receive-location"></a>建立 A4SWIFT 接收位置
 您必須建立[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]接收位置，才能啟用訊息接收 SWIFT 網路[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]，如下圖所示。 接收位置接收一般檔案訊息從輸入的檔案資料夾。  
@@ -35,7 +35,7 @@ ms.lasthandoff: 09/20/2017
 |接收埠|單向連接埠|  
 |傳輸類型|FILE|  
 |位址的 URI|您想要接收訊息的資料夾名稱|  
-|檔案遮罩|\*.*\<副檔名 >*，其中\<*延伸*> 是個內送的延伸模組一般檔案訊息|  
+|檔案遮罩|\*.*\<延伸\>*，其中\<*延伸*\>是個內送的延伸模組一般檔案訊息|  
 |接收處理常式|BizTalkServerApplication|  
 |接收管線|[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]接收您所建立的管線|  
   
@@ -69,7 +69,7 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  如果此資料夾不存在，您可以建立使用**建立新資料夾**命令。  
   
-12. 在 [FILE 傳輸屬性] 對話方塊中**檔案遮罩**方塊中，輸入  **\*。\<*延伸*>**，其中\<*延伸*> 是個內送的延伸模組一般檔案訊息，例如**.txt**。 按一下 **[確定]**。  
+12. 在 [FILE 傳輸屬性] 對話方塊中**檔案遮罩**方塊中，輸入  **\*。\<*延伸*\>**，其中\<*延伸*\>是內送一般檔案的副檔名訊息，例如做為**.txt**。 按一下 **[確定]**。  
   
 13. 在 [接收位置屬性] 對話方塊中，確定**BizTalkServerApplication**輸入**接收處理常式**方塊。  
   

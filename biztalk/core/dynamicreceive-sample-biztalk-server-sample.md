@@ -12,11 +12,11 @@ caps.latest.revision: "18"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e87fe8076e236fd775dcd2cb697aecaf2d6b1790
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9e0dc620d2d12933d34df0dce9eb02b697871bdc
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="dynamicreceive-sample-biztalk-server-sample"></a>DynamicReceive 範例 (BizTalk Server 範例)
 DynamicReceive 範例示範在動態指定 MQSeries 佇列的 URI 時，如何從 MQSeries 佇列接收 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 訊息。  
@@ -46,7 +46,7 @@ DynamicReceive 範例示範在動態指定 MQSeries 佇列的 URI 時，如何�
  使用動態接收功能可以讓您擁有更多的彈性，因為您不需要有固定的接收位置。 在某些情況下，您可能必須等到執行階段才會知道 URI。 動態接收功能可讓您動態決定訊息的取得來源。 這也表示您不需要在協調流程內實作佇列合約。  您可以等待，以根據指定的比對準則，使用動態指定的 URI 從 MQSeries 佇列取得訊息。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- \<*範例路徑*> \Samples\AdaptersUsage\MQSeriesAdapter\DynamicReceive  
+ \<*範例路徑*\>\Samples\AdaptersUsage\MQSeriesAdapter\DynamicReceive  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -84,7 +84,7 @@ DynamicReceive 範例示範在動態指定 MQSeries 佇列的 URI 時，如何�
   
 7.  您可以使用下列其中一種方法來建置及部署專案：  
   
-    -   開啟方案，以滑鼠右鍵按一下方案總管 中的專案，按一下**屬性**檢視專案屬性。 在 [簽署] 索引標籤，按一下**\<新增...>**中**選擇強式名稱金鑰檔**下拉式方塊。 然後提供金鑰檔案名稱，並部署。  
+    -   開啟方案，以滑鼠右鍵按一下方案總管 中的專案，按一下**屬性**檢視專案屬性。 在 [簽署] 索引標籤上按一下**\<新增...\>** 中**選擇強式名稱金鑰檔**下拉式方塊。 然後提供金鑰檔案名稱，並部署。  
   
     -   或者，執行用來建立金鑰檔、建置專案及部署專案的 setup.bat 檔案。  
   

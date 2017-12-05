@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b594aa02cbecb21a20180d1143f2f8835788a958
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1a2084e2e46e3e984af2c5466c52862956dc8414
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="performing-unit-testing"></a>執行單元測試
 單元測試會著重在元件層級和基本上是通過/失敗測試，以確認如預期般，是否要執行的 BizTalk 方案的個別元件。 您有針對單元測試您的 BizTalk 方案的數個選項。  
@@ -24,10 +24,10 @@ ms.lasthandoff: 09/20/2017
 ## <a name="using-visual-studio"></a>使用 Visual Studio  
  單元測試功能是適用於 Visual Studio 2008 和更新版本。 如需適用於 Visual Studio 的測試功能的詳細資訊，請參閱[測試應用程式](http://go.microsoft.com/fwlink/?LinkId=159595)(http://go.microsoft.com/fwlink/?LinkId=159595)。  
   
- [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]也提供了單元測試功能，讓使用者可以建立結構描述、 對應和管線的單元測試。 如需有關這項功能的詳細資訊，請參閱[單元測試使用 BizTalk Server 專案](http://go.microsoft.com/fwlink/?LinkId=158270)(http://go.microsoft.com/fwlink/?LinkId=158270)。  
+ BizTalk Server 也提供了單元測試功能，讓使用者可以建立結構描述、 對應和管線的單元測試。 如需有關這項功能的詳細資訊，請參閱[單元測試使用 BizTalk Server 專案](http://go.microsoft.com/fwlink/?LinkId=158270)(http://go.microsoft.com/fwlink/?LinkId=158270)。  
   
 > [!NOTE]  
->  Visual Studio 是非常適用於單元測試 BizTalk 成品，例如協調流程、 結構描述、 管線和管線元件。 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]提供測試類別，您可以搭配 Visual Studio Team System 測試 BizTalk 成品。  
+>  Visual Studio 是非常適用於單元測試 BizTalk 成品，例如協調流程、 結構描述、 管線和管線元件。 BizTalk Server 提供測試類別，您可以搭配 Visual Studio Team System 測試 BizTalk 成品。  
   
 ## <a name="using-non-microsoft-tools"></a>使用非 Microsoft 工具  
  單元測試 BizTalk 解決方案的其他兩個常用的工具是**BizUnit**和**NUnit**。 **BizUnit**順暢地搭配 Visual Studio Team System Test 版。 同樣地， **NUnit**測試可以輕鬆地修改，讓它們可以做為執行-在 Visual Studio Team System Test 版。 如需有關這些工具的詳細資訊，請參閱[工具測試](~/technical-guides/tools-for-testing.md)。  
@@ -50,5 +50,5 @@ ms.lasthandoff: 09/20/2017
   
  如需有關中可用的公用程式[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]SDK，請參閱[SDK 中的公用程式](http://go.microsoft.com/fwlink/?LinkId=154387)(http://go.microsoft.com/fwlink/?LinkId=154387)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [測試的工具](~/technical-guides/tools-for-testing.md)

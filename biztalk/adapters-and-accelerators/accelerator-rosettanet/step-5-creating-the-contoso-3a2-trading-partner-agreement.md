@@ -16,18 +16,18 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 066790984c89f16880a113fe758d20f29e3882bf
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 624cd67b5a8b07cadcddb52efecafc032882f840
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-5-creating-the-contoso-3a2-trading-partner-agreement"></a>步驟 5： 建立 Contoso 3A2 交易夥伴協議
 在此步驟中，您將使用 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 管理主控台，在 Contoso 與 Fabrikam 之間建立交易夥伴協議。 您將為 3A2 交易夥伴介面程序 (PIP) 建立新的交易夥伴協議。  
   
 ### <a name="to-start-the-btarn-management-console"></a>若要啟動 BTARN 管理主控台  
   
--   按一下**啟動**，指向 **所有程式**，指向  **Microsoft BizTalk\<版本 > Accelerator for RosettaNet**，然後按一下 **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]** 管理主控台。  
+-   按一下**啟動**，指向 **所有程式**，指向  **Microsoft BizTalk\<版本\>Accelerator for RosettaNet**，然後按一下  **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]** 管理主控台。  
   
 ### <a name="to-create-the-3a2-trading-partner-agreement"></a>若要建立 3A2 交易夥伴協議  
   
@@ -57,5 +57,5 @@ ms.lasthandoff: 09/20/2017
   
 5.  以滑鼠右鍵按一下**Fabrikam_To_Contoso_3A2**協議，然後再按一下**Activate**。  
   
-## <a name="see-also"></a>另請參閱  
- [步驟 6： 建立 Contoso 3A4 交易夥伴協議](../../adapters-and-accelerators/accelerator-rosettanet/step-6-creating-the-contoso-3a4-trading-partner-agreement.md)
+## <a name="see-also"></a>請參閱  
+ [步驟 6：建立 Contoso 3A4 交易夥伴協議](../../adapters-and-accelerators/accelerator-rosettanet/step-6-creating-the-contoso-3a4-trading-partner-agreement.md)

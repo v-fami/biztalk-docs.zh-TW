@@ -18,16 +18,16 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 256b1618313605f0847d9328abfd003f41ac61cd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7c1b18e5b7addf1bae390dd541b84d17bd94023d
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="step-13-create-and-configure-ports"></a>步驟 13： 建立和設定連接埠
 在此步驟中，您可以使用連接埠組態精靈來建立及設定協調流程設計師中的連接埠。 連接埠指定您的協調流程傳送和接收訊息，並從商務程序的方式。 每個連接埠都有類型、 方向和繫結。 屬性可同時決定通訊的通訊模式、 位置或從中方向[!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]傳送或接收訊息，以及如何的通訊會發生。 [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]使用最小值較低層通訊協定 (MLLP) 配接器做為傳送埠。 MLLP 配接器介面與其他應用程式，例如實驗室儀器應用程式、 保險的應用程式和繼承的特定業務應用程式使用 TCP 通訊端通訊。 代表 MLLP 傳送配接器[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]配接器：  
   
--   自訂。 配接器只隨附[!INCLUDE[HL7_CurrentVersion_abbrev](../../includes/hl7-currentversion-abbrev-md.md)]，隨附於與[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]。  
+-   自訂。 配接器只隨附[!INCLUDE[HL7_CurrentVersion_abbrev](../../includes/hl7-currentversion-abbrev-md.md)]，與 BizTalk server 傳送。  
   
 -   通訊協定/傳輸。 配接器不是應用程式或資料配接器。  
   
@@ -114,5 +114,5 @@ ms.lasthandoff: 09/20/2017
   
  若要繼續[步驟 14： 發佈為 Web 服務協調流程](../../adapters-and-accelerators/accelerator-hl7/step-14-publish-the-orchestration-as-a-web-service.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [訊息擴充教學課程](../../adapters-and-accelerators/accelerator-hl7/message-enrichment-tutorial.md)

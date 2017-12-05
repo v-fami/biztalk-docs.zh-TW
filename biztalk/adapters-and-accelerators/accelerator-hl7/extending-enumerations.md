@@ -15,20 +15,20 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 527894b27c5720a1b006387f861922eb978069b9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2abb040d79f0c9312a8761289c0bf6252fef2f3a
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="extending-enumerations"></a>擴充列舉型別
-您可以將值加入至 HL7 訊息本文、 通知和訊息內文結構描述中建立可接受的許多欄位、 區段，以及資料類型值的列舉型別。 這項作業包括變更一組通用 HL7 版本，您使用資料表值結構描述檔中特定資料表中的值 ( **Tablevalues_\<***版本***>.xsd**結構描述檔案)。  
+您可以將值加入至 HL7 訊息本文、 通知和訊息內文結構描述中建立可接受的許多欄位、 區段，以及資料類型值的列舉型別。 這項作業包括變更一組通用 HL7 版本，您使用資料表值結構描述檔中特定資料表中的值 ( **Tablevalues_\<***版本* **\>.xsd**結構描述檔案)。  
   
- 您在列舉中加入訊息標頭結構描述的不同方式不同於其他結構描述，例如訊息內文結構描述。 訊息標頭結構描述中，您必須變更 MSH_25_GLO_DEF.xsd 檔案內的資料表。 其他結構描述中，您可以變更資料表值的結構描述檔案中的資料表 (tablevalues_\<版本 >.xsd)。  
+ 您在列舉中加入訊息標頭結構描述的不同方式不同於其他結構描述，例如訊息內文結構描述。 訊息標頭結構描述中，您必須變更 MSH_25_GLO_DEF.xsd 檔案內的資料表。 其他結構描述中，您可以變更資料表值的結構描述檔案中的資料表 (tablevalues_\<版本\>.xsd)。  
   
 ### <a name="to-add-an-enumeration-value-to-the-table-values-common-schema-file"></a>若要加入的資料表值 common 結構描述檔案列舉值  
   
-1.  您必須先判斷資料表，其中包含您想要加入至列舉。 在 [方案總管] 的[!INCLUDE[vs2012](../../includes/vs2012-md.md)]，開啟包含您想要變更之項目的結構描述檔案。 在 BizTalk 總管 中，按一下您想要加入的值欄位項目。  
+1.  您必須先判斷資料表，其中包含您想要加入至列舉。 在 Visual Studio 的方案總管，開啟包含您想要變更之項目的結構描述檔案。 在 BizTalk 總管 中，按一下您想要加入的值欄位項目。  
   
     > [!NOTE]
     >  當您變更資料表值 common 結構描述檔案中的列舉型別時，受影響的所有物件，參考該列舉型別。  
@@ -38,7 +38,7 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  如果沒有任何資料表中列出**基底資料型別** 欄位中，和**Derived By**屬性未設定為**restricted**，欄位沒有與其相關聯的列舉.  
   
-3.  在 方案總管 中，開啟**Tablevalues_\<***版本***>.xsd**，然後按一下 **開啟**。  
+3.  在 方案總管 中，開啟**Tablevalues_\<***版本***\>.xsd**，然後按一下 **開啟**。  
   
     > [!NOTE]
     >  您必須為每個您想要變更 HL7 結構描述版本的個別執行此程序。  
@@ -65,7 +65,7 @@ ms.lasthandoff: 09/20/2017
   
 6.  以滑鼠右鍵按一下**欄位**節點在 BizTalk 編輯器 中，按一下**刪除**，然後按一下 **是**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [資料表值的通用結構描述](../../adapters-and-accelerators/accelerator-hl7/table-values-common-schemas.md)   
  [擴充 HL7 2.X Z 物件結構描述](../../adapters-and-accelerators/accelerator-hl7/extending-hl7-2-x-schemas-with-z-objects.md)   
  [建立宣告的 Z 區段](../../adapters-and-accelerators/accelerator-hl7/creating-declared-z-segments.md)   

@@ -12,11 +12,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e2fe383d80c467376852067026a7c5a4fe4640ba
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fb46943b20676dbe98f79db8760043bb51606c56
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-2c-add-an-interact-send-port-for-the-interact-store-and-forward-pull-scenario"></a>步驟 2c: 互動存放區和轉送 （提取） 案例中加入互動的傳送埠
 在開始此步驟之前，必須先完成[步驟 2B： 將檔案傳送連接埠，以擷取 Sw:HandleRequest 訊息互動存放區和轉送 （提取） 案例](../../adapters-and-accelerators/fileact-interact/step-2b-add-file-send-ports-to-get-sw-handlerequest-message-for-interact.md)。  
@@ -41,11 +41,11 @@ ms.lasthandoff: 09/20/2017
     |**使用者名稱**|視 SAG 連線設定的使用者名稱。|  
     |**訊息格式**|**InteractMessage**|  
     |**不可否認性指標**|**FALSE**|  
-    |**要求類型**|輸入適當\<RequestType > SWIFT 與您佈建為基礎的字串。|  
+    |**要求類型**|輸入適當\<RequestType\> SWIFT 與您佈建為基礎的字串。|  
     |**ResponseCrypto**|**FALSE**|  
-    |**要求者**|輸入適當\<RequestorDN > SWIFT 與您佈建為基礎的字串。|  
-    |**回應者**|輸入適當\<ResponderDN > SWIFT 與您佈建為基礎的字串。|  
-    |**服務名稱**|輸入適當\<服務名稱 >，根據 SWIFT 與您佈建。|  
+    |**要求者**|輸入適當\<RequestorDN\> SWIFT 與您佈建為基礎的字串。|  
+    |**回應者**|輸入適當\<ResponderDN\> SWIFT 與您佈建為基礎的字串。|  
+    |**服務名稱**|輸入適當\<服務名稱\>根據 SWIFT 與您佈建。|  
     |**傳遞通知**|從下拉式清單選取**FALSE**。|  
     |**通知佇列**|輸入適當的佇列名稱，根據 SWIFT 與您佈建。|  
   
@@ -73,6 +73,6 @@ ms.lasthandoff: 09/20/2017
   
 10. 按一下 **[確定]**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [步驟 2A： 新增檔案接收位置的互動存放區和轉送 （提取） 案例](../../adapters-and-accelerators/fileact-interact/step-2a-add-file-receive-locations-for-interact-store-and-forward-scenario.md)   
- [步驟 2B： 將檔案傳送埠，以擷取 Sw:HandleRequest 訊息互動存放區和轉送 （提取） 案例](../../adapters-and-accelerators/fileact-interact/step-2b-add-file-send-ports-to-get-sw-handlerequest-message-for-interact.md)
+ [步驟 2B：新增 FILE 傳送埠以擷取 InterAct 儲存和轉寄 (Pull) 案例的 Sw:HandleRequest 訊息](../../adapters-and-accelerators/fileact-interact/step-2b-add-file-send-ports-to-get-sw-handlerequest-message-for-interact.md)

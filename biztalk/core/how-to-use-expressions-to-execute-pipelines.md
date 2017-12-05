@@ -31,11 +31,11 @@ caps.latest.revision: "26"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e5a6090e0d7322a0e5b10d13016c073b73074392
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 08f5933d3592d391087196f31185e279c40c4836
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-use-expressions-to-execute-pipelines"></a>如何使用運算式執行管線
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]能夠以同步方式呼叫從協調流程內的管線。 這可以讓協調流程針對資料體而利用封裝在管線內容的訊息處理功能 (傳送或接收)，而不需透過傳訊基礎結構來傳送該資料。  
@@ -152,9 +152,9 @@ ms.lasthandoff: 09/20/2017
   
  **訊息**屬性**XLANGPipelineManagerException**類別包含管線執行錯誤的詳細資料。 此詳細資料會使用下列格式：  
   
--   執行管線失敗\<管線類型 >。  錯誤詳細資料\<格式化的錯誤訊息 >。  
+-   執行管線失敗\<管線類型\>。  錯誤詳細資料\<格式化的錯誤訊息\>。  
   
- 在此訊息中，\<管線類型 > 是管線類型的名稱和\<格式化的錯誤訊息 > 是在管線執行期間發生之特定失敗的描述。  
+ 在此訊息中，\<管線類型\>是管線類型的名稱和\<格式化的錯誤訊息\>管線執行期間發生之特定失敗的描述。  
   
  例如，如果協調流程呼叫接收管線，而該管線執行失敗，因為沒有任何管線元件可辨識訊息的值**XLANGPipelineManagerException**的屬性會是：  
   
@@ -167,5 +167,5 @@ ms.lasthandoff: 09/20/2017
   
 |XLANGPipelineManagerException 屬性|值|  
 |--------------------------------------------|-----------|  
-|訊息|執行傳送管線 "MyPipelines.SendPipeline" 失敗。  錯誤詳細資料: 「 無法驗證文件:"\<項目名稱 > 項目無效-值\<項目值 > 無效根據其資料類型為 'String' 的條件約束模式失敗。""|  
+|訊息|執行傳送管線 "MyPipelines.SendPipeline" 失敗。  錯誤詳細資料: 「 無法驗證文件:"\<項目名稱\>元素無效-值\<元素值\>無效根據其資料類型為 'String' 的條件約束模式失敗。""|  
 |元件|“Microsoft.BizTalk.Component.XmlValidator”|

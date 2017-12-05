@@ -21,11 +21,11 @@ caps.latest.revision: "16"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 394a002fedaffbb9c67fa4b0ae0229215e6d8efa
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c27f1ecaf07c3f953372a9e5733d62c8376a288f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-update-references-to-the-bam-notification-services-databases"></a>如何更新 BAM Notification Services 資料庫的參考
 執行將「商務活動監控」(BAM) 的 Notification Services 資料庫還原至目的地系統的必要步驟之後，您必須在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 群組中執行 Notification Services (NSservice.exe) 的所有電腦上重新註冊 Notification Service。 這樣可以讓 Notification Services 連線至其位於新位置的資料庫。  
@@ -59,7 +59,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  開啟步驟 2 建立的 XML 檔案以取得您必須在其中重新註冊 Notification Services 的電腦的清單。  
   
-     電腦名稱會列在**\<屬性名稱\=>** 中的參數 **\<DeploymentUnit 名稱 = 警示 >** xml 區段檔案：  
+     電腦名稱會列在**\<屬性名稱\=\>** 中的參數 **\<DeploymentUnit 名稱 = 警示\>** xml 檔案的區段：  
   
     ```  
     -<DeploymentUnit Name="Alert">  
@@ -85,7 +85,7 @@ ms.lasthandoff: 09/20/2017
   
     1.  按一下**啟動**，按一下 **程式**，按一下  **Microsoft SQL Server 2008 R2**，按一下 **組態工具**，然後按一下  **Notification Services 命令提示字元**。  
   
-    2.  在命令提示字元中，輸入： **nscontrol register-name BamAlerts-server**  *\<ServerName >***-服務-serviceusername"** *\<ServiceUserName >***"-servicepassword"***\<ServicePassword >***"**  
+    2.  在命令提示字元中，輸入： **nscontrol register-name BamAlerts-server**  *\<ServerName\>***-服務-serviceusername"** *\<ServiceUserName\>***"-servicepassword"***\<ServicePassword\>***"**  
   
          這樣可以讓 Notification Services 登入正確的資料庫 (這項資訊是在服務電腦的登錄中由 nscontrol 執行維護)。  
   
@@ -104,7 +104,7 @@ ms.lasthandoff: 09/20/2017
   
 10. 在命令提示字元中，輸入：  
   
-     **nscontrol register-name***\<BamAlerts >***-伺服器**  *\<NotificationServicesDatabaseServer >*   
+     **nscontrol register-name***\<BamAlerts\>***-伺服器**  *\<NotificationServicesDatabaseServer    \>*  
   
 11. 在命令提示字元中，輸入： **net start NS$ BamAlerts**。  
   
@@ -119,5 +119,5 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [備份和還原 BAM](../core/backing-up-and-restoring-bam.md)

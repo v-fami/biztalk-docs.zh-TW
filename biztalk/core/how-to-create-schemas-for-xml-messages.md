@@ -12,11 +12,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 83a06aa7ca1ee4e37c29083ac38f5285565b7325
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6396d4607e93298961e6691ded2ca8d4566d819c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-create-schemas-for-xml-messages"></a>如何建立 XML 訊息的結構描述
 有數種方法可以建立 BizTalk 訊息結構描述。 本主題提供部分這些方法的逐步指示。  
@@ -27,7 +27,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  在 [專案] 功能表上，按一下 [加入新項目]。  
   
-3.  在**加入新項目- \<* BizTalk ProjectName*> * * 對話方塊中，於**範本**區段中，按一下**結構描述**。  
+3.  在**加入新項目- \<* BizTalk ProjectName*\>* * 對話方塊中，於**範本**區段中，按一下**結構描述**.  
   
 4.  在**名稱**方塊、 輸入結構描述的名稱，然後按一下**新增**。  
   
@@ -45,7 +45,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  在**方案總管] 中**，以滑鼠右鍵按一下 BizTalk 專案，指向**新增**，然後按一下 [**新增產生的項目**。  
   
-2.  在**新增產生的項目- \<* BizTalk ProjectName*> * * 對話方塊中，於**範本**區段中，按一下**產生結構描述**，然後按一下 **新增**。  
+2.  在**新增產生的項目- \<* BizTalk ProjectName*\>* * 對話方塊中，於**範本**區段中，按一下**產生結構描述**，然後按一下 **新增**。  
   
 3.  在**產生結構描述**對話方塊中，於**文件類型**下拉式清單中，選取**XDR 結構描述**， **DTD 結構描述**，或**格式正確的 XML**。  
   
@@ -55,5 +55,5 @@ ms.lasthandoff: 09/20/2017
   
      此時會從指定的檔案產生新的結構描述，此結構描述會使用與該檔案相同的名稱並含有副檔名 .xsd，並在 [BizTalk 編輯器] 中開啟。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理專案中的結構描述](../core/managing-schemas-within-projects.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0fa0c0b5435e235a07046f311a971a0036dc8346
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a87404e608789fa3dba003f3aba6155c5f049e8d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-recover-enterprise-single-sign-on"></a>如何復原企業單一登入
 在復原 BizTalk Server 之前，您必須先復原「企業單一登入」(SSO)。  
@@ -60,14 +60,14 @@ ms.lasthandoff: 09/20/2017
   
 10. 在命令提示字元中，輸入：  
   
-     **ssoconfig restoreSecret***\<backupfile >*   
+     **ssoconfig restoreSecret***\<backupfile  \>*  
   
-     其中 *\<backupfile >*是您備份主要密碼檔的名稱。  
+     其中 *\<backupfile\>* 是您備份主要密碼檔的名稱。  
   
      當**ssoconfig**備份檔案密碼，提示您輸入的密碼在 SSO 組態期間指定。 如果密碼不正確， **ssoconfig**顯示下列訊息：  
   
      **作業已順利完成**  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [復原執行 BizTalk Server 的電腦](../core/recovering-a-computer-running-biztalk-server.md)   
  [設定企業 SSO 使用 BizTalk Server 組態](http://msdn.microsoft.com/library/f63d1aec-a8c7-4e76-a67f-19af69e252f0)

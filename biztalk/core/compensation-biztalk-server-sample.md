@@ -18,11 +18,11 @@ caps.latest.revision: "32"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e7d3e2e917f9ac0cc09117f3de83bbcc6166af1c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9752fced7e1b889c41b6e981be6c2858f0411b7b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="compensation-biztalk-server-sample"></a>補償 （BizTalk Server 範例）
 補償範例示範如何使用**補償**使用協調流程。  
@@ -67,7 +67,7 @@ ms.lasthandoff: 09/20/2017
 4.  在更新 BTSCompensationSampleMailingList 資料庫時若作業失敗，會引發例外狀況，且在將原始客戶資料重新寫回 Northwind 資料庫之前，每十秒會產生一次延遲。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- \<*範例路徑*> \Orchestrations\Compensation\  
+ \<*範例路徑*\>\Orchestrations\Compensation\  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -103,7 +103,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  在 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 命令視窗中，瀏覽至下列資料夾：  
   
-     \<*範例路徑*> \Orchestrations\Compensation\  
+     \<*範例路徑*\>\Orchestrations\Compensation\  
   
 2.  執行 Setup.bat，這會執行下列動作：  
   
@@ -115,7 +115,7 @@ ms.lasthandoff: 09/20/2017
   
     2.  在**建立 Web 服務**頁面上，選取**BizTalk 協調流程發佈為 web 服務**，然後按一下 **下一步**。  
   
-    3.  在**BizTalk 組件**頁面上，瀏覽並選取\<*範例路徑*> \Orchestrations\Compensation\bin\Release\CompensationOrchestration.dll，然後再按一下**下一步**。  
+    3.  在**BizTalk 組件**頁面上，瀏覽並選取\<*範例路徑*\>\Orchestrations\Compensation\bin\Release\CompensationOrchestration.dll，然後再按一下**下一步**。  
   
     4.  在**協調流程和連接埠**頁面上，按一下**下一步**。  
   
@@ -147,7 +147,7 @@ ms.lasthandoff: 09/20/2017
   
 -   授與 BizTalk 應用程式使用者群組 db_owner 權限**BTSCompensationSampleMailingList**和**Northwind**資料庫。  
   
--   如果[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]未安裝在預設位置 (磁碟機： files\microsoft BizTalk Server\<版本 >\\)，您必須發佈 Contact Info Update.xsn 表單後才能使用它。 若要這樣做，請執行以下動作：  
+-   如果[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]未安裝在預設位置 (磁碟機： files\microsoft BizTalk Server\<版本\>\\)，您必須發佈 Contact Info Update.xsn 表單後才能使用它。 若要這樣做，請執行以下動作：  
   
     #### <a name="to-publish-the-infopath-form"></a>若要發佈 InfoPath 表單  
   
@@ -157,7 +157,7 @@ ms.lasthandoff: 09/20/2017
   
     3.  在**其他**區段中，確定**跨網域存取資料來源**設定已啟用，然後再按一下**確定**。 需要有此設定 InfoPath 使用者介面方案指令碼處理程式碼才能執行。  
   
-    4.  在 Windows 檔案總管，瀏覽至\<*範例路徑*> \Orchestrations\Compensation\InfoPath，以滑鼠右鍵按一下**Contact Info Update.xsn** ，然後按一下 **設計**.  
+    4.  在 Windows 檔案總管，瀏覽至\<*範例路徑*\>\Orchestrations\Compensation\InfoPath，以滑鼠右鍵按一下**Contact Info Update.xsn** ，然後按一下  **設計**。  
   
     5.  InfoPath Contact Info Update 方案就會以設計模式開啟。  
   
@@ -165,7 +165,7 @@ ms.lasthandoff: 09/20/2017
   
     7.  會顯示 [組態精靈]。  
   
-    8.  選取**到此電腦上或在網路上的共用資料夾**及發佈方案至路徑\<*範例路徑*> \Orchestrations\Compensation\InfoPath\Contact Info Update.xsn。  
+    8.  選取**到此電腦上或在網路上的共用資料夾**及發佈方案至路徑\<*範例路徑*\>\Orchestrations\Compensation\InfoPath\Contact 資訊Update.xsn。  
   
     9. 關閉設計模式 InfoPath。  
   
@@ -179,7 +179,7 @@ ms.lasthandoff: 09/20/2017
   
     3.  在**檔案**功能表上，選取**送出**，然後按一下**送出**。  
   
-    4.  回應文件應該會出現在\<*範例路徑*> \Orchestrations\Compensation\Out 資料夾，而 Northwind 和 BTSCompensationSampleMailingList 資料庫應與新更新InfoPath 表單中的資料。  
+    4.  回應文件應該會出現在\<*範例路徑*\>\Orchestrations\Compensation\Out 資料夾，而 Northwind 和 BTSCompensationSampleMailingList 資料庫應該更新使用 InfoPath 表單的新資料。  
   
         > [!NOTE]
         >  您可以中斷連線 BTSCompensationSampleMailingList 資料庫或讓它離線，以測試協調流程所執行的補償動作。 請注意，會先更新 Northwind 資料庫內的記錄。 接著，協調流程嘗試更新 BTSCompensationSampleMailingList 資料庫會失敗，因為該資料庫已中斷連線。 因此會引發例外狀況，而且在補償動作開始將原始客戶資料寫回 Northwind 資料庫之前，會產生十秒延遲。  
@@ -193,9 +193,9 @@ ms.lasthandoff: 09/20/2017
   
 1.  在 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 命令視窗中，瀏覽至下列資料夾：  
   
-     \<*範例路徑*> \Orchestrations\Compensation\  
+     \<*範例路徑*\>\Orchestrations\Compensation\  
   
 2.  執行 Cleanup.bat。  
   
-## <a name="see-also"></a>另請參閱  
- [協調流程 （BizTalk Server 範例資料夾）](../core/orchestrations-biztalk-server-samples-folder.md)
+## <a name="see-also"></a>請參閱  
+ [協調流程 (BizTalk Server Samples 資料夾)](../core/orchestrations-biztalk-server-samples-folder.md)

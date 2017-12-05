@@ -12,15 +12,15 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 86c85f1a45dceb812fc805a66701653642d0ccb6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e4c329bce3ee8f9e2e4faf11a60e5e38a82ff467
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="create-custom-pipelines-to-process-json-messages"></a>建立自訂管線來處理 JSON 訊息
 > [!NOTE]
->  本教學課程僅適用於 [!INCLUDE[prague](../includes/prague-md.md)]。  
+>  本教學課程僅適用於 BizTalk Server。  
   
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]提供可以用來處理 JSON 訊息內的管線元件[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]應用程式。 在此步驟中，使用這些管線元件來建立可以在設定時使用的自訂管線[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]應用程式。  
   
@@ -40,5 +40,5 @@ ms.lasthandoff: 09/20/2017
   
      ![自訂傳送管線](../core/media/btsjson-sendpipeline.png "BTSJSON_SendPipeline")  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [使用 BizTalk Server 處理 JSON 訊息](../core/processing-json-messages-using-biztalk-server.md)

@@ -15,11 +15,11 @@ caps.latest.revision: "26"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 39fd92c3d017e9ee88fe60f14c8baf9cb0ff941d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a48cbb333a724d2f60141f0f67ef3feccb1d3954
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="sendmsmqmessage"></a>SendMSMQMessage
 SendMSMQMessage 範例將示範如何從 .NET 架構的應用程式將訊息傳送至 MSMQ 連接埠。 此外還提供如何設定 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 使用 MSMQ 接收位置的指示。  
@@ -29,7 +29,7 @@ SendMSMQMessage 範例將示範如何從 .NET 架構的應用程式將訊息傳�
  在此範例的內容，是很重要的程式碼呼叫中指定交易類型**System.Messaging.MessageQueue.Send**這與指定訊息是佇列的交易支援一致傳送。 如果未進行此設定，而且如果沒有指定管理佇列是 （在此情況下在此範例中），MSMQ 捨棄傳送的訊息，它確實會留下任何跡象 （也就是沒有錯誤碼傳回至應用程式，而不將診斷資訊寫入事件記錄檔依此類推)。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- \<範例路徑 > \AdaptersUsage\SendMSMQMessage\  
+ \<範例路徑\>\AdaptersUsage\SendMSMQMessage\  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -128,7 +128,7 @@ SendMSMQMessage 範例將示範如何從 .NET 架構的應用程式將訊息傳�
   
 1.  在命令視窗中，瀏覽至下列資料夾：  
   
-     \<範例路徑 > \AdaptersUsage\SendMSMQMessage\bin\Debug  
+     \<範例路徑\>\AdaptersUsage\SendMSMQMessage\bin\Debug  
   
 2.  執行 SendMSMQMessage.exe，它會啟動此範例中提供的使用者介面的圖形應用程式的檔案。  
   
@@ -162,5 +162,5 @@ SendMSMQMessage 範例將示範如何從 .NET 架構的應用程式將訊息傳�
   
      如果作業失敗，您將在按鈕正上方的方塊中看見錯誤訊息。  
   
-## <a name="see-also"></a>另請參閱  
- [配接器範例-使用方式](../core/adapter-samples-usage.md)
+## <a name="see-also"></a>請參閱  
+ [配接器範例 - 用法](../core/adapter-samples-usage.md)

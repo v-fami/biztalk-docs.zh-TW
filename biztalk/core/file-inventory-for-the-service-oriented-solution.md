@@ -13,16 +13,16 @@ caps.latest.revision: "18"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ac62241b8c3bf3244bb9e055a5b744acd5080048
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 39d18b32e1b499009e7559a68d7e60e6ba43f28c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="file-inventory-for-the-service-oriented-solution"></a>檔案庫存服務導向解決方案
-本節列出服務導向解決方案的子目錄與原始程式檔。 Service Oriented 方案原始程式檔的預設安裝目錄是 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Scenarios\SO。 下表會取代此路徑與之前的描述\<安裝目錄 >。  
+本節列出服務導向解決方案的子目錄與原始程式檔。 Service Oriented 方案原始程式檔的預設安裝目錄是 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Scenarios\SO。 下表會取代此路徑與之前的描述\<安裝目錄\>。  
   
- 中的檔案\<安裝目錄 > \BTSSoln  
+ 中的檔案\<安裝目錄\>\BTSSoln  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -31,14 +31,14 @@ ms.lasthandoff: 09/20/2017
 |ReplacePKToken.wsf|用於 ReplacePKToken VBScript 的 Windows 指令碼檔案。|  
 |SetupBTSSoln.bat|建立公開金鑰、更新公開金鑰的參考，以及編譯解決方案。 如需部署解決方案的資訊，請參閱[部署服務導向解決方案](../core/deploying-the-service-oriented-solution.md)。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\BAM  
+ 中的檔案\<安裝目錄\>\BTSSoln\BAM  
   
 |檔案|Description|  
 |----------|-----------------|  
 |ServiceLevelTracking.xls|用於 BAM 資料的 Excel 試算表。|  
 |ServiceLevelTracking.xml|定義 BAM 資料項目類型的結構描述。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\Bindings  
+ 中的檔案\<安裝目錄\>\BTSSoln\Bindings  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -46,7 +46,7 @@ ms.lasthandoff: 09/20/2017
 |InlineSOAOrchBindings.xml|解決方案之內嵌版本的繫結檔案。|  
 |StubSOAOrchBindings.xml|解決方案之虛設常式版本的繫結檔案。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\ConfigHelper  
+ 中的檔案\<安裝目錄\>\BTSSoln\ConfigHelper  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -55,21 +55,21 @@ ms.lasthandoff: 09/20/2017
 |ConfigParameters.cs|用於 SSO 組態協助程式方法的 C# 程式碼檔案。|  
 |ConfigPropertyBag.cs|用於 SSO 組態協助程式方法所使用之屬性包的 C# 程式碼檔案。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\ErrorHelper  
+ 中的檔案\<安裝目錄\>\BTSSoln\ErrorHelper  
   
 |檔案|Description|  
 |----------|-----------------|  
 |CustomerServiceErrors.cs|用於客戶服務錯誤的 C# 程式碼檔案。|  
 |ErrorHelper.csproj|C# 專案檔。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\InPipeline  
+ 中的檔案\<安裝目錄\>\BTSSoln\InPipeline  
   
 |檔案|Description|  
 |----------|-----------------|  
 |InPipeline.btp|將 SSO 票證新增至訊息的接收管線。|  
 |InPipeline.btproj|BizTalk 專案檔。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\InPipelineComp  
+ 中的檔案\<安裝目錄\>\BTSSoln\InPipelineComp  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -79,7 +79,7 @@ ms.lasthandoff: 09/20/2017
 |SSOTicketIssuer.resx|資源檔。|  
 |SSOTicketIssuerIcon.bmp|用於管線元件的圖示檔案。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\Maps  
+ 中的檔案\<安裝目錄\>\BTSSoln\Maps  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -94,7 +94,7 @@ ms.lasthandoff: 09/20/2017
 |CustomerServiceRequest_To_PendingTransactionsRequest.btm|用來將客戶服務要求轉換為訊息，以要求擱置交易資訊的對應。|  
 |Maps.btproj|BizTalk 專案檔。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\Orchestrations\Adapter  
+ 中的檔案\<安裝目錄\>\BTSSoln\Orchestrations\Adapter  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -103,7 +103,7 @@ ms.lasthandoff: 09/20/2017
 |CustomerServiceReceiveSend.odx|服務的前端協調流程的配接器版本**CustomerService**協調流程。|  
 |Orchestrations.Adapter.btproj|BizTalk 專案檔。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\Orchestrations\Adapter\Web References\PendTransWS  
+ 中的檔案\<安裝目錄\>\BTSSoln\Orchestrations\Adapter\Web References\PendTransWS  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -115,7 +115,7 @@ ms.lasthandoff: 09/20/2017
 |Reference.xsd|產生的檔案。|  
 |Reference1.xsd|產生的檔案。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\Orchestrations\Adapter\Web References\StubSAPWS  
+ 中的檔案\<安裝目錄\>\BTSSoln\Orchestrations\Adapter\Web References\StubSAPWS  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -126,7 +126,7 @@ ms.lasthandoff: 09/20/2017
 |StubSAPWS.disco|產生的檔案。|  
 |StubSAPWS.wsdl|產生的檔案。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\Orchestrations\Inline  
+ 中的檔案\<安裝目錄\>\BTSSoln\Orchestrations\Inline  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -135,7 +135,7 @@ ms.lasthandoff: 09/20/2017
 |CustomerServiceReceiveSend.odx|服務的前端協調流程的內嵌版本**CustomerService**協調流程。|  
 |Orchestrations.Inline.btproj|BizTalk 專案檔。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\Orchestrations\Stub  
+ 中的檔案\<安裝目錄\>\BTSSoln\Orchestrations\Stub  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -143,7 +143,7 @@ ms.lasthandoff: 09/20/2017
 |CustomerServiceNativeRequestResponse.odx|服務的前端協調流程的虛設常式版本**CustomerService**協調流程。|  
 |Orchestrations.Stub.btproj|BizTalk 專案檔。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\Orchestrations\Stub\Web References\StubPendTransWS  
+ 中的檔案\<安裝目錄\>\BTSSoln\Orchestrations\Stub\Web References\StubPendTransWS  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -155,7 +155,7 @@ ms.lasthandoff: 09/20/2017
 |StubPendTransWS.disco|產生的檔案。|  
 |StubPendTransWS.wsdl|產生的檔案。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\Orchestrations\Stub\Web References\StubPmntTrckWS  
+ 中的檔案\<安裝目錄\>\BTSSoln\Orchestrations\Stub\Web References\StubPmntTrckWS  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -167,7 +167,7 @@ ms.lasthandoff: 09/20/2017
 |StubPmntTrckWS.disco|產生的檔案。|  
 |StubPmntTrckWS.wsdl|產生的檔案。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\Orchestrations\Stub\Web References\StubSAPWS  
+ 中的檔案\<安裝目錄\>\BTSSoln\Orchestrations\Stub\Web References\StubSAPWS  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -178,7 +178,7 @@ ms.lasthandoff: 09/20/2017
 |StubSAPWS.disco|產生的檔案。|  
 |StubSAPWS.wsdl|產生的檔案。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\OrchProxy\Adapter  
+ 中的檔案\<安裝目錄\>\BTSSoln\OrchProxy\Adapter  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -190,7 +190,7 @@ ms.lasthandoff: 09/20/2017
 |Web.config|產生的檔案。|  
 |WsdlExtension.cs|產生的檔案。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\OrchProxy\Adapter\app_code  
+ 中的檔案\<安裝目錄\>\BTSSoln\OrchProxy\Adapter\app_code  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -199,7 +199,7 @@ ms.lasthandoff: 09/20/2017
 |datatypes.cs|產生的檔案。|  
 |global.asax.cs|產生的檔案。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\OrchProxy\Inline  
+ 中的檔案\<安裝目錄\>\BTSSoln\OrchProxy\Inline  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -211,7 +211,7 @@ ms.lasthandoff: 09/20/2017
 |Web.config|產生的檔案。|  
 |WsdlExtension.cs|產生的檔案。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\OrchProxy\Inline\app_code  
+ 中的檔案\<安裝目錄\>\BTSSoln\OrchProxy\Inline\app_code  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -220,7 +220,7 @@ ms.lasthandoff: 09/20/2017
 |datatypes.cs|產生的檔案。|  
 |global.asax.cs|產生的檔案。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\OrchProxy\Stub  
+ 中的檔案\<安裝目錄\>\BTSSoln\OrchProxy\Stub  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -232,7 +232,7 @@ ms.lasthandoff: 09/20/2017
 |Web.config|產生的檔案。|  
 |WsdlExtension.cs|產生的檔案。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\OrchProxy\Stub\app_code  
+ 中的檔案\<安裝目錄\>\BTSSoln\OrchProxy\Stub\app_code  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -241,7 +241,7 @@ ms.lasthandoff: 09/20/2017
 |datatypes.cs|產生的檔案。|  
 |global.asax.cs|產生的檔案。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\PaymentTracker  
+ 中的檔案\<安裝目錄\>\BTSSoln\PaymentTracker  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -253,7 +253,7 @@ ms.lasthandoff: 09/20/2017
 |PaymentTrackerSimulator.cs|用於付款追蹤程式模擬器之伺服器的 C# 程式碼。|  
 |runit.cmd|可啟動付款追蹤程式模擬器的命令檔。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\PaymentTrackerCall  
+ 中的檔案\<安裝目錄\>\BTSSoln\PaymentTrackerCall  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -262,7 +262,7 @@ ms.lasthandoff: 09/20/2017
 |PaymentTrackerCall.csproj|C# 專案檔。|  
 |PaymentTrackerCaller.cs|用於從協調流程內呼叫付款追蹤系統的 C# 程式碼。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\PendTransCall  
+ 中的檔案\<安裝目錄\>\BTSSoln\PendTransCall  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -274,7 +274,7 @@ ms.lasthandoff: 09/20/2017
 |PendTransCall.csproj|C# 專案檔。|  
 |WebServiceReference.cs|產生的檔案。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\PmTrkPipeline  
+ 中的檔案\<安裝目錄\>\BTSSoln\PmTrkPipeline  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -282,7 +282,7 @@ ms.lasthandoff: 09/20/2017
 |PaymentTrackerSendPipeline.btp|用於付款追蹤系統的傳送管線。|  
 |PmTrkPipeline.btproj|BizTalk 專案檔。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\PmTrkPipelineComp  
+ 中的檔案\<安裝目錄\>\BTSSoln\PmTrkPipelineComp  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -291,7 +291,7 @@ ms.lasthandoff: 09/20/2017
 |MQSeriesHeaderSetter.resx|資源檔。|  
 |PmTrkPipelineComp.csproj|C# 專案檔。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\SchemaClasses  
+ 中的檔案\<安裝目錄\>\BTSSoln\SchemaClasses  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -305,7 +305,7 @@ ms.lasthandoff: 09/20/2017
 |PendingTransactionsResponse.cs|從對應的結構描述 (.xsd) 檔案產生。|  
 |SchemaClasses.csproj|C# 專案檔。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\Schemas  
+ 中的檔案\<安裝目錄\>\BTSSoln\Schemas  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -319,7 +319,7 @@ ms.lasthandoff: 09/20/2017
 |PendingTransactionsResponse.xsd|用於擱置交易回應訊息的結構描述。|  
 |Schemas.btproj|BizTalk 專案檔。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\Scripts  
+ 中的檔案\<安裝目錄\>\BTSSoln\Scripts  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -341,7 +341,7 @@ ms.lasthandoff: 09/20/2017
 |UnEnlistAll.vbs|取消登錄所有協調流程的命令檔。|  
 |UnEnlistStub.vbs|取消登錄協調流程之虛設常式版本的命令檔。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\ServiceLevelTracking  
+ 中的檔案\<安裝目錄\>\BTSSoln\ServiceLevelTracking  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -349,7 +349,7 @@ ms.lasthandoff: 09/20/2017
 |ServiceLevelTracking.cs|用於服務層級 BAM 追蹤的 C# 協助程式函式。|  
 |ServiceLevelTracking.csproj|C# 專案檔。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\SimpleClient  
+ 中的檔案\<安裝目錄\>\BTSSoln\SimpleClient  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -364,7 +364,7 @@ ms.lasthandoff: 09/20/2017
 |SimpleClient.resx|資源檔。|  
 |WebServiceReferences.cs|產生的檔案。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\StubWebServices\PaymentTrack  
+ 中的檔案\<安裝目錄\>\BTSSoln\StubWebServices\PaymentTrack  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -375,7 +375,7 @@ ms.lasthandoff: 09/20/2017
 |StubPmntTrckWS.asmx.resx|產生的檔案。|  
 |Web.config|產生的檔案。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\StubWebServices\PaymentTrack\app_code  
+ 中的檔案\<安裝目錄\>\BTSSoln\StubWebServices\PaymentTrack\app_code  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -383,7 +383,7 @@ ms.lasthandoff: 09/20/2017
 |global.asax.cs|產生的檔案。|  
 |StubPmntTrckWS.asmx.cs|產生的檔案。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\StubWebServices\PendingTrans  
+ 中的檔案\<安裝目錄\>\BTSSoln\StubWebServices\PendingTrans  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -394,7 +394,7 @@ ms.lasthandoff: 09/20/2017
 |StubPendTransWS.csproj.webinfo|產生的檔案。|  
 |Web.config|產生的檔案。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\StubWebServices\PendingTrans\app_code  
+ 中的檔案\<安裝目錄\>\BTSSoln\StubWebServices\PendingTrans\app_code  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -402,7 +402,7 @@ ms.lasthandoff: 09/20/2017
 |global.asax.cs|產生的檔案。|  
 |StubPendTransWS.asmx.cs|產生的檔案。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\StubWebServices\SAP  
+ 中的檔案\<安裝目錄\>\BTSSoln\StubWebServices\SAP  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -413,7 +413,7 @@ ms.lasthandoff: 09/20/2017
 |StubSAPWS.asmx.resx|產生的檔案。|  
 |Web.config|產生的檔案。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\StubWebServices\SAP\app_code  
+ 中的檔案\<安裝目錄\>\BTSSoln\StubWebServices\SAP\app_code  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -421,7 +421,7 @@ ms.lasthandoff: 09/20/2017
 |global.asax.cs|產生的檔案。|  
 |stubsapws.asmx.cs|產生的檔案。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\StubWebServices\StubSAPCall  
+ 中的檔案\<安裝目錄\>\BTSSoln\StubWebServices\StubSAPCall  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -431,7 +431,7 @@ ms.lasthandoff: 09/20/2017
 |StubSAPCallHelper.cs|用於呼叫虛設常式 SAP Web 服務之協助程式組件的 C# 程式碼。|  
 |StubSAPWSProxy.cs|用於呼叫虛設常式 SAP Web 服務之協助程式組件的 C# 程式碼。|  
   
- 中的檔案\<安裝目錄 > \BTSSoln\Utilities  
+ 中的檔案\<安裝目錄\>\BTSSoln\Utilities  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -440,14 +440,14 @@ ms.lasthandoff: 09/20/2017
 |ReceivePipelineHelper.cs|用於呼叫來自協調流程之管線的協助程式組件的 C# 程式碼。|  
 |Utilities.csproj|C# 專案檔。|  
   
- 中的檔案\<安裝目錄 > \MFAccess  
+ 中的檔案\<安裝目錄\>\MFAccess  
   
 |檔案|Description|  
 |----------|-----------------|  
 |Microsoft.Samples.BizTalk.WoodgroveBank.MainframeAccess.sln|Visual Studio 方案檔。|  
 |SetupMFAccess.bat|建立解決方案之大型主機存取元件的批次檔。|  
   
- 中的檔案\<安裝目錄 > \MFAccess\HISTIComponent  
+ 中的檔案\<安裝目錄\>\MFAccess\HISTIComponent  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -456,7 +456,7 @@ ms.lasthandoff: 09/20/2017
 |MainFrameProgramVTCS2Description.txt|交易整合器匯出檔案。|  
 |SOHISTIUsingCOM.TLB|型別程式庫。|  
   
- 中的檔案\<安裝目錄 > \MFAccess\HISTISimpleTester  
+ 中的檔案\<安裝目錄\>\MFAccess\HISTISimpleTester  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -467,7 +467,7 @@ ms.lasthandoff: 09/20/2017
 |HISTISimpleTester.csproj|C# 專案檔。|  
 |Interop.SOHISTIUsingCOM.dll.reg|DLL 登錄檔案。|  
   
- 中的檔案\<安裝目錄 > \MFAccess\PendingTransactions  
+ 中的檔案\<安裝目錄\>\MFAccess\PendingTransactions  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -482,7 +482,7 @@ ms.lasthandoff: 09/20/2017
 |PendTransWS.asmx.resx|產生的檔案。|  
 |Web.config|產生的檔案。|  
   
- 中的檔案\<安裝目錄 > \MFAccess\SchemaClasses  
+ 中的檔案\<安裝目錄\>\MFAccess\SchemaClasses  
   
 |檔案|Description|  
 |----------|-----------------|  
@@ -496,6 +496,6 @@ ms.lasthandoff: 09/20/2017
 |PendingTransactionsResponse.cs|從對應的結構描述 (.xsd) 檔案產生的 C# 類別。|  
 |SchemaClasses.csproj|C# 專案檔。|  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [元件的服務導向解決方案](../core/components-of-the-service-oriented-solution.md)   
  [服務導向解決方案參考](../core/service-oriented-solution-reference.md)

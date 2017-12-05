@@ -13,11 +13,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4416534bdd73e8ae6eeeca28165ebc62c11bfc92
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bb8516ceb780e64c4f4a01370de0e7c40098f3da
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-add-orchestration-variables"></a>如何新增協調流程變數
 [協調流程檢視] 視窗可讓您管理協調流程的屬性 (也稱為**服務**屬性)、 參數、 連接埠、 訊息，以及其他變數。 除了連接埠和訊息之外，您還可以建立整數變數、布林值變數、字串變數或 .NET 類別的變數。  
@@ -35,7 +35,7 @@ ms.lasthandoff: 09/20/2017
 3.  讓變數和類型 (例如 .NET 類別) 產生關聯。  
   
     > [!NOTE]
-    >  **類型**下拉式清單包含下列預先定義的變數類型：**布林**，**位元組**， **datetime**， **十進位**， **double**， **int16**， **int32**， **int64**， **sbyte****單一**，**字串**， **timespan**， **uint16**， **uint32**，和**uint64**。 您也可以存取.NET 資料型別和類別，藉由選取 **\<.NET 類別 … >**，它會啟動**選取成品類型** 對話方塊。  
+    >  **類型**下拉式清單包含下列預先定義的變數類型：**布林**，**位元組**， **datetime**， **十進位**， **double**， **int16**， **int32**， **int64**， **sbyte****單一**，**字串**， **timespan**， **uint16**， **uint32**，和**uint64**。 您也可以存取.NET 資料型別和類別，藉由選取 **\<.NET 類別...\>** ，它會啟動**選取成品類型** 對話方塊。  
   
 4.  如果您選取預先定義的變數類型，就可以選擇指定變數的初始值。 在 [屬性] 視窗中，設定**初始值**屬性。  
   

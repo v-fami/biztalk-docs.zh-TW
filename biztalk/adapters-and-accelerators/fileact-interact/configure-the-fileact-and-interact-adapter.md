@@ -12,11 +12,11 @@ caps.latest.revision: "20"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d8c847165eb61b6ba9044a95584de7be8f9999d1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ca2bc3aa739bf6914ea9943d84d58d44b1506323
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="configure-the-fileact-and-interact-adapter"></a>設定 FileAct 和互動配接器
 設定所使用的不同成品[!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)]執行階段。 
@@ -92,7 +92,7 @@ ms.lasthandoff: 09/20/2017
   
 ## <a name="step-4-configure-the-swiftnet-param-file"></a>步驟 4： 設定 SWIFTNet param 檔案
 
-若要啟用 FileAct 和 InterAct 接收配接器初始化為值，必須輸入 SWIFTNet paramfile SAG 中建立的協力廠商伺服器訊息。 Paramfile 通常位於`c:\SWIFTAlliance\RA\<remote access instance name>\cfg\paramfile`。 設定 paramfile 之後，請啟動**SnlReceiver.exe**。  
+若要啟用 FileAct 和 InterAct 接收配接器初始化為值，必須輸入 SWIFTNet paramfile SAG 中建立的協力廠商伺服器訊息。 Paramfile 通常位於`c:\SWIFTAlliance\RA\<remote access instance name\>\cfg\paramfile`。 設定 paramfile 之後，請啟動**SnlReceiver.exe**。  
   
 1. 開啟**SWIFTNet paramfile**。 在以標記的位置 」 * * * 「 新增下列。 請注意，`AdapterType`值可以是`Interact`或`Fileact`。  
   
@@ -170,8 +170,8 @@ SET Path=%PATH%;C:\SWIFTAlliance\RA\lib
 ## <a name="see-some-examples"></a>請參閱一些範例
 FileAct 和 InterAct 訊息的範例，請參閱[範例進行互動，而且 FileAct 訊息](../../adapters-and-accelerators/fileact-interact/sample-interact-and-fileact-messages.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 
-[安裝 FileAct 和互動配接器](../../adapters-and-accelerators/fileact-interact/install-the-fileact-and-interact-adapter.md)  
-[解除安裝或修復 FileAct 和 InterAct 配接器](../../adapters-and-accelerators/fileact-interact/uninstall-or-repair-the-fileact-and-interact-adapter.md)  
-[請閱讀的已知問題的安裝](../../adapters-and-accelerators/fileact-interact/read-the-installation-known-issues.md)
+[安裝 FileAct 和 InterAct 配接器](../../adapters-and-accelerators/fileact-interact/install-the-fileact-and-interact-adapter.md)  
+[解除安裝 FileAct 和 InterAct 配接器](../../adapters-and-accelerators/fileact-interact/uninstall-or-repair-the-fileact-and-interact-adapter.md)  
+[閱讀安裝已知問題](../../adapters-and-accelerators/fileact-interact/read-the-installation-known-issues.md)

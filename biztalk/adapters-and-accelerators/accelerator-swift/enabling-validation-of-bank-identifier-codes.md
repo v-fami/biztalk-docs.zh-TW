@@ -13,11 +13,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8a9869bdeaeed638c2cc8c3bf3ace869a0124f73
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c3868906d4f61242b1344a02147e4e71307d67d3
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="enabling-validation-of-bank-identifier-codes"></a>啟用驗證的銀行識別項代碼
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]結構描述，請確定 「 銀行識別項代碼 (BICs) SWIFT 交換文件中指定符合 SWIFT 定義 BIC 資料格式。 A4SWIFT 也支援驗證針對資料庫中客戶指定 BIC 清單 BICs。  
@@ -39,7 +39,7 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-customize-the-bic-master-policy"></a>若要自訂 BIC 主要原則  
   
-1.  開啟 XML 編輯器 （例如 [記事本])，並瀏覽至  **<*磁碟機*Program Files\ Microsoft BizTalk Accelerator for SWIFT\<版本 > 訊息 Pack\SWIFT Messages\A4SWIFT SRG\<版本 > \Base 原則 * *。  
+1.  開啟 XML 編輯器 （例如 [記事本])，並瀏覽至  **<*磁碟機*Program Files\ Microsoft BizTalk Accelerator for SWIFT\<版本\>訊息 Pack\SWIFTMessages\A4SWIFT SRG\<版本\>\Base 原則 * *。  
   
 2.  開啟**BIC_Master_Policy.xml**。 下列現有的字串取代為新值。  
   
@@ -65,7 +65,7 @@ ms.lasthandoff: 09/20/2017
   
 7.  在原則存放區 頁面上，在**SQL Server 名稱**，選取[!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)]，其中包含 BizTalk 資料庫。 在**選取的伺服器上設定資料庫**，選取**BizTalkRuleEngineDb**，然後按一下 **下一步**。  
   
-8.  在 匯入規則引擎原則/詞彙檔案 頁面中，瀏覽至  **<*磁碟機*files\ Microsoft BizTalk Accelerator for SWIFT\<版本 > 訊息 Pack\SWIFTMessages\A4SWIFT SRG\<版本 > \Base 原則 * * 按一下**BIC_Master_Policy.xml**，按一下 **開啟**，然後按一下 **下一步**。  
+8.  在 匯入規則引擎原則/詞彙檔案 頁面中，瀏覽至  **<*磁碟機*files\ Microsoft BizTalk Accelerator for SWIFT\<版本\>訊息 Pack\SWIFT Messages\A4SWIFT SRG\<版本\>\Base 原則 * * 按一下**BIC_Master_Policy.xml**，按一下 **開啟**，然後按一下  **下一步**。  
   
 9. 在上就緒] 頁面上，確認資料，然後按一下 [**下一步**。  
   
@@ -101,6 +101,6 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  如果您使用 Message Repair 和 New Submission，World Wide Web Publishing 服務必須重新啟動 （藉由執行 iisreset.exe） BIC 驗證才能從 InfoPath 工作。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [使用 BRE 原則](../../adapters-and-accelerators/accelerator-swift/working-with-bre-policies.md)   
- [管理 Bicplus 資料表 A4SWIFT 資料庫中](../../adapters-and-accelerators/accelerator-swift/managing-the-bicplus-table-in-the-a4swift-database.md)
+ [管理 A4SWIFT 資料庫中的 Bicplus 資料表](../../adapters-and-accelerators/accelerator-swift/managing-the-bicplus-table-in-the-a4swift-database.md)

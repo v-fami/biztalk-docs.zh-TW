@@ -16,11 +16,11 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5a5e8057837012d27a877117a169c2cd04fa3d8d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e70271967086f530ce5421348c118a74019dd366
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="helloworld-biztalk-server-sample"></a>HelloWorld （BizTalk Server 範例）
 HelloWorld 範例示範如何使用 BizTalk 協調流程，將 XML 訊息 (訂單) 轉換為相關但不同的訊息類型 (發票)。  
@@ -40,7 +40,7 @@ HelloWorld 範例示範如何使用 BizTalk 協調流程，將 XML 訊息 (訂�
  如需有關**轉換**圖形，請參閱[如何設定 「 轉換 」 圖形](../core/how-to-configure-the-transform-shape.md)。 如需建置對應的詳細資訊，請參閱[建立對應使用 BizTalk 對應工具](../core/creating-maps-using-biztalk-mapper.md)。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- \<*範例路徑*> \Orchestrations\HelloWorld\  
+ \<*範例路徑*\>\Orchestrations\HelloWorld\  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -61,13 +61,13 @@ HelloWorld 範例示範如何使用 BizTalk 協調流程，將 XML 訊息 (訂�
   
 1.  在命令視窗中，瀏覽至下列資料夾：  
   
-     \<*範例路徑*> \Orchestrations\HelloWorld  
+     \<*範例路徑*\>\Orchestrations\HelloWorld  
   
 2.  執行檔案 Setup.bat，這會執行下列動作：  
   
     -   在下列資料夾中為這個範例建立輸入 (In) 和輸出 (Out) 資料夾：  
   
-         \<*範例路徑*> \Orchestrations\HelloWorld  
+         \<*範例路徑*\>\Orchestrations\HelloWorld  
   
     -   為此範例編譯 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 專案。  
   
@@ -84,7 +84,7 @@ HelloWorld 範例示範如何使用 BizTalk 協調流程，將 XML 訊息 (訂�
   
 1.  Samplepoinput 檔的複本貼到**中**資料夾。  
   
-2.  觀察中建立的.xml 檔案**出**資料夾。 此檔案包含從輸入檔案 SamplePOInput.xml 建構的 XML 發票。 這個檔案的名稱的格式是\< *MessageID*>.xml，其中 *\<MessageID >*產生來唯一識別訊息的 GUID。  
+2.  觀察中建立的.xml 檔案**出**資料夾。 此檔案包含從輸入檔案 SamplePOInput.xml 建構的 XML 發票。 這個檔案的名稱的格式是\< *MessageID*\>.xml，其中 *\<MessageID\>* 產生來唯一識別訊息的 GUID.  
   
 ## <a name="uninstalling-this-sample"></a>解除安裝這個範例  
   
@@ -92,9 +92,9 @@ HelloWorld 範例示範如何使用 BizTalk 協調流程，將 XML 訊息 (訂�
   
 1.  在命令視窗中，瀏覽至下列資料夾：  
   
-     \<*範例路徑*> \Orchestrations\HelloWorld\  
+     \<*範例路徑*\>\Orchestrations\HelloWorld\  
   
 2.  執行 Cleanup.bat。  
   
-## <a name="see-also"></a>另請參閱  
- [協調流程 （BizTalk Server 範例資料夾）](../core/orchestrations-biztalk-server-samples-folder.md)
+## <a name="see-also"></a>請參閱  
+ [協調流程 (BizTalk Server Samples 資料夾)](../core/orchestrations-biztalk-server-samples-folder.md)

@@ -12,15 +12,15 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 717e0180ba92d49751342e00a4d0367832084135
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e0d36df10b271d83b1e77f4d7f57d357f4b22033
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-dynamically-route-a-message-based-on-message-context-using-a-business-rules-policy"></a>如何： 動態地路由傳送訊息的內容使用商務規則原則為基礎的訊息
 ## <a name="goal"></a>目標  
- 本節示範如何建立會決定訊息的端點，根據訊息內容屬性，使用行程[!INCLUDE[prague](../includes/prague-md.md)]商務規則引擎 (BRE) 原則，然後再路由訊息使用[!INCLUDE[prague](../includes/prague-md.md)]FILE 配接器。  
+ 本節示範如何建立行程，判斷訊息的端點，根據訊息內容屬性，請使用 BizTalk Server 商務規則引擎 (BRE) 原則，並接著會使用 BizTalk Server 檔案配接器將訊息路由。  
   
  在此 「 如何 」 主題，您將完成下列步驟：  
   
@@ -36,15 +36,15 @@ ms.lasthandoff: 09/20/2017
 ## <a name="steps"></a>步驟  
  **若要建立使用訊息內容屬性將訊息路由傳送的 BRE 原則**  
   
-1.  按一下**啟動**在工作列上，指向**所有程式**，指向   **[!INCLUDE[prague](../includes/prague-md.md)]** ，然後按一下**商務規則編輯器 」**。  
+1.  按一下**啟動**在工作列上，指向**所有程式**，指向  **BizTalk Server**，然後按一下 **商務規則編輯器 」**。  
   
-2.  在 [原則總管] 中，以滑鼠右鍵按一下**原則**，然後按一下**新增原則**。 命名原則**RouteBasedOnMessageType**。  
+2.  在 原則總管 中，以滑鼠右鍵按一下**原則**，然後按一下 **新增原則**。 命名原則**RouteBasedOnMessageType**。  
   
  **若要加入北美地區的訂單的路由規則**  
   
-1.  在**RouteBasedOnMessageType**原則，以滑鼠右鍵按一下**版本 1.0 （未儲存）**，然後按一下**新增規則**。 命名規則**SetNAOrderEndpoint**。  
+1.  在**RouteBasedOnMessageType**原則，以滑鼠右鍵按一下**版本 1.0 （未儲存）**，然後按一下 **新增規則**。 命名規則**SetNAOrderEndpoint**。  
   
-2.  在 規則 視窗中，以滑鼠右鍵按一下**條件**，指向 **述詞**，然後按一下**等於**。  
+2.  在 規則 視窗中，以滑鼠右鍵按一下**條件**，指向 **述詞**，然後按一下 **等於**。  
   
 3.  在 [事實總管] 中，展開**ESB。ContextInfo**詞彙中，展開**1.0 版**，然後將拖曳**內容的訊息類型**事實**引數 1**節點下的**條件**。  
   
@@ -55,27 +55,27 @@ ms.lasthandoff: 09/20/2017
   
 5.  在 [事實總管] 中，展開**ESB。EndPointInfo**詞彙中，展開**1.0 版**，然後將拖曳**設定結束點輸出傳輸位置**定義**動作**。  
   
-6.  按一下**\<空字串 >**，然後輸入**C:\HowTos\Out\NorthAmerica%MessageID%.xml**  
+6.  按一下**\<空字串\>**，然後輸入**C:\HowTos\Out\NorthAmerica%MessageID%.xml**  
   
 7.  從 [事實總管] 中，拖曳**設定結束點輸出傳輸類型**定義**動作**。  
   
-8.  在 [事實總管] 中，展開**ESB。TansportTypes**詞彙中，展開**1.0 版**，然後將拖曳**配接器提供者**定義**\<空字串 >**。  
+8.  在 [事實總管] 中，展開**ESB。TansportTypes**詞彙中，展開**1.0 版**，然後將拖曳**配接器提供者**定義**\<空字串\>**.  
   
 9. 在 [動作] 窗格中，依序展開**配接器提供者**下拉式清單，然後按一下**檔案**。  
   
  **若要發行和部署原則**  
   
-1.  在 [原則總管] 中，在**RouteBasedOnMessageType**原則，以滑鼠右鍵按一下**版本 1.0 （未儲存）**，然後按一下**發行**。  
+1.  在 原則總管 中，在**RouteBasedOnMessageType**原則，以滑鼠右鍵按一下**版本 1.0 （未儲存）**，然後按一下 **發行**。  
   
-2.  在 [原則總管] 中，在**RouteBasedOnMessageType**原則，以滑鼠右鍵按一下**1.0 版-已發佈**，然後按一下**部署**。  
+2.  在 原則總管 中，在**RouteBasedOnMessageType**原則，以滑鼠右鍵按一下**1.0 版-已發佈**，然後按一下 **部署**。  
   
  **若要建立 ESB 路線網域特定領域語言 (DSL) 模型**  
   
-1.  在[!INCLUDE[vs2010](../includes/vs2010-md.md)]，開啟 C:\HowTos\Patterns\Patterns.sln。  
+1.  在 Visual Studio 中開啟 C:\HowTos\Patterns\Patterns.sln。  
   
-2.  在 [方案總管] 中，以滑鼠右鍵按一下**ItineraryLibrary**專案，指向**新增**，然後按一下**新的行程**。  
+2.  在 方案總管 中，以滑鼠右鍵按一下**ItineraryLibrary**專案，指向**新增**，然後按一下 **新的行程**。  
   
-3.  在**名稱**方塊中，輸入**MessageType**，然後按一下**新增**。  
+3.  在**名稱**方塊中，輸入**MessageType**，然後按一下 **新增**。  
   
  **若要設定的路線屬性**  
   
@@ -85,7 +85,7 @@ ms.lasthandoff: 09/20/2017
   
     2.  在**Extender 設定**區段中，旁邊**路線 XML 檔案**屬性，按一下省略符號按鈕 （...）。  
   
-    3.  在**選取 XML 檔案**對話方塊中，於**檔案名稱**方塊中，輸入**C:\HowTos\Itineraries\MessageType**，然後按一下**儲存**。  
+    3.  在**選取 XML 檔案**對話方塊中，於**檔案名稱**方塊中，輸入**C:\HowTos\Itineraries\MessageType**，然後按一下 **儲存**。  
   
         > [!NOTE]
         >  這個步驟可讓您匯出成 XML 的路線，到本機檔案的位置。 將行程至本機檔案的位置，而不匯出至路線的資料庫，可讓測試使用 ESB 測試用戶端應用程式的路線。 您將完成此程序，稍後在本使用說明主題。  
@@ -111,7 +111,7 @@ ms.lasthandoff: 09/20/2017
         > [!NOTE]
         >  這個屬性會定義程序將需要 (messaging) 在管線中的位置。 或者，如果處理程序，就會進行協調流程中，設定**路線服務的擴充項**屬性**協調流程 Extender**。  
   
-    3.  在**容器**下拉式清單中，展開**ReceiveOrders**，然後按一下**接收處理常式**。  
+    3.  在**容器**下拉式清單中，展開**ReceiveOrders**，然後按一下 **接收處理常式**。  
   
     4.  在**服務名稱**下拉式清單中，按一下  **Microsoft.Practices.ESB.Services.Routing**。  
   
@@ -141,7 +141,7 @@ ms.lasthandoff: 09/20/2017
   
     2.  在**路線服務的擴充項**下拉式清單中，按一下 **匝道 Extender**。  
   
-    3.  在**匝道**下拉式清單中，展開**SendBasedOnType**，然後按一下**傳送處理常式**。  
+    3.  在**匝道**下拉式清單中，展開**SendBasedOnType**，然後按一下 **傳送處理常式**。  
   
 7.  在工具箱中，按一下 **連接器**。 拖曳連接**BreRoute**模型項目的**SendPortFilter**模型項目。  
   
@@ -164,13 +164,13 @@ ms.lasthandoff: 09/20/2017
   
 2.  在路線測試用戶端中，清除**使用 WCF 服務**核取方塊，然後**負載路線**。  
   
-3.  在**開啟路線檔案**對話方塊中，瀏覽至 C:\HowTos\Itineraries。 選取**MessageType.xml**，然後按一下**開啟**載入路線。  
+3.  在**開啟路線檔案**對話方塊中，瀏覽至 C:\HowTos\Itineraries。 選取**MessageType.xml**，然後按一下 **開啟**載入路線。  
   
 4.  按一下**確定**清除**路線成功載入**訊息。  
   
 5.  在路線測試用戶端中，按一下旁邊的省略符號按鈕 （...）**載入訊息**方塊。  
   
-6.  在**選取要載入的 XML 文件**對話方塊中，瀏覽至 C:\HowTos。 選取**NAOrderDoc.xml**，然後按一下**開啟**載入測試訊息。  
+6.  在**選取要載入的 XML 文件**對話方塊中，瀏覽至 C:\HowTos。 選取**NAOrderDoc.xml**，然後按一下 **開啟**載入測試訊息。  
   
 7.  按一下**送出要求** 按鈕。 測試完成時，按一下**確定**解除顯示的確認。  
   
@@ -179,14 +179,14 @@ ms.lasthandoff: 09/20/2017
 ## <a name="additional-resources"></a>其他資源  
  如需詳細資訊，請參閱下列相關主題：  
   
--   [如何： 選取 使用商務規則原則路線](../esb-toolkit/how-to-select-an-itinerary-using-a-business-rules-policy.md)  
+-   [如何：使用商務規則原則選取路線](../esb-toolkit/how-to-select-an-itinerary-using-a-business-rules-policy.md)  
   
--   [如何： 轉換訊息，並將產生的訊息路由至使用路線的路由名單的檔案位置](../esb-toolkit/transform-message-and-route-the-message-to-a-location-using-itinerary-routing.md)  
+-   [如何：轉換訊息，並使用路線傳閱名單將產生的訊息路由至檔案位置](../esb-toolkit/transform-message-and-route-the-message-to-a-location-using-itinerary-routing.md)  
   
--   [如何： 實作內容架構路由使用商務規則原則已知的訊息類型](../esb-toolkit/apply-content-based-routing-using-business-rules-policy-for-known-message-type.md)  
+-   [如何：使用已知訊息類型的商務規則原則來實作根據訊息內容決定路由](../esb-toolkit/apply-content-based-routing-using-business-rules-policy-for-known-message-type.md)  
   
 -   [開發活動](../esb-toolkit/development-activities.md)  
   
--   [訊息的路由模式](../esb-toolkit/message-routing-patterns.md)  
+-   [訊息路由模式](../esb-toolkit/message-routing-patterns.md)  
   
 -   [使用動態解析和路由](../esb-toolkit/using-dynamic-resolution-and-routing.md)

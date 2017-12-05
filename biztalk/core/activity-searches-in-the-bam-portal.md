@@ -23,11 +23,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 617461b104f3188c14bb7c5b6eb5eb0bd329693f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 723848f61294cc710bd2292758383cf674093265
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="activity-searches-in-the-bam-portal"></a>BAM 入口網站中的活動搜尋
 活動搜尋可讓您對 BAM 資料執行搜尋，根據 BAM 檢視中的追蹤值和項目尋找符合您指定之準則的活動，並顯示這些活動讓您進行編輯或根據這些活動建立警示。  
@@ -65,7 +65,7 @@ ms.lasthandoff: 09/20/2017
 |**在**|指定完全相符的項目。 相當於布林值的等於 (=) 運算。 **注意：**如果您選取**在**運算子，然後在入口網站會使用午夜做為預設值沒有時間部分指定日期。 如果這不是您的目的，使用**當時或之前**或**在或之後**運算子取得所需的結果。|  
 |**在或之前**|指定只有在指定日期當天或之前的交易才符合。 相當於布林值的小於或等於 (≤ 運算。|  
 |**在或之後**|指定只有在指定日期當天或之後的交易才符合。 相當於布林值的大於或等於 (≥ 運算。|  
-|**之前**|指定只有在指定日期之前的交易才符合。 相當於布林值少於 (\<) 作業。|  
+|**之前**|指定只有在指定日期之前的交易才符合。 相當於布林值的小於 (<) 運算。|  
 |**After**|指定只有在指定日期之後的交易才符合。 相當於布林值的大於 (>) 運算。|  
 |**在過去**|指定只有在先前指定時間週期發生的交易才符合。 時間週期可以秒、分、小時或天為單位指定。|  
 |**最後一個之前**|指定只有在指定時間週期之前發生的交易才符合。 時間週期可以秒、分、小時或天為單位指定。|  
@@ -103,5 +103,5 @@ ms.lasthandoff: 09/20/2017
   
 -   [如何檢視活動搜尋的結果](../core/how-to-view-the-results-of-an-activity-search.md)  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [BAM 入口網站](../core/bam-portal.md)

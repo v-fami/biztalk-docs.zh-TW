@@ -15,11 +15,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0c12a437371c5412cfafa4140e74733655962fd8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a640b938628ebe3dcd6757e3f6fdfd7b1108880d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-11-create-orchestration-variables"></a>步驟 11： 建立協調流程變數
 在此步驟中，您會建立訊息執行個體傳送和接收的協調流程的協調流程變數。  
@@ -67,7 +67,7 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  一旦您建立並命名為訊息部分，請勿重新命名它們。 如有必要，刪除舊的內文部分，並以新名稱建立新的內文部分。  
   
-9. 在**類型**視窗底下**多部分訊息類型**，依序展開**DoorbellFinalMessageType**，然後按一下  **MessagePart_1**。 在**屬性** 窗格中，輸入**MSHSegment**如**識別碼**，然後按下**Enter**。 在下拉式清單中**類型**，展開**.NET 類別**，然後按一下  \<**從參考的組件選取 >**。  
+9. 在**類型**視窗底下**多部分訊息類型**，依序展開**DoorbellFinalMessageType**，然後按一下  **MessagePart_1**。 在**屬性** 窗格中，輸入**MSHSegment**如**識別碼**，然後按下**Enter**。 在下拉式清單中**類型**，依序展開**.NET 類別**，然後按一下  \<**從參考的組件中選取\>**。  
   
 10. 在**選取成品類型**] 對話方塊的左窗格中，按一下 [ **System.Xml**。 在右窗格中，按一下  **XmlDocument**，然後按一下 **確定**。  
   
@@ -90,7 +90,7 @@ ms.lasthandoff: 09/20/2017
   
 18. 在**協調流程檢視**視窗中，以滑鼠右鍵按一下**變數**，然後按一下 **新變數**。  
   
-19. 在**屬性** 窗格中，輸入**HeaderInfo**如**識別碼**，然後按下**Enter**。 在下拉式清單中**類型**，連按兩下\< **.NET 類別 >**。  
+19. 在**屬性** 窗格中，輸入**HeaderInfo**如**識別碼**，然後按下**Enter**。 在下拉式清單中**類型**，連按兩下\< **.NET 類別\>**。  
   
 20. 在**選取成品類型**視窗中的，在左窗格中，按一下  **System.Xml**。 在右窗格中，按一下  **XmlDocument**，然後按一下 **確定**。  
   
@@ -98,5 +98,5 @@ ms.lasthandoff: 09/20/2017
   
  若要繼續[步驟 12： 設定協調流程圖形](../../adapters-and-accelerators/accelerator-hl7/step-12-configure-orchestration-shapes.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [訊息擴充教學課程](../../adapters-and-accelerators/accelerator-hl7/message-enrichment-tutorial.md)

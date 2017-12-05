@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 32539b1c352ac1fd2b60d2acd4c5ee975e2c3d18
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7ba84bd9a0ab8c6f7d5ccd24b27e90ef9c441b93
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-7-create-and-configure-a-source-party"></a>步驟 7： 建立及設定來源合作對象
 在此步驟中，您可以建立與設定的來源合作對象，以及指定傳送埠，以啟用外寄訊息的訊息標頭轉換。  
@@ -36,7 +36,7 @@ ms.lasthandoff: 09/20/2017
   
 5.  按一下 **[確定]**。  
   
-6.  按一下**啟動**，指向 **所有程式**，指向  **Microsoft BizTalk\<版本 > Accelerator for HL7**，然後按一下  **BTAHL7組態總管**。  
+6.  按一下**啟動**，指向 **所有程式**，指向  **Microsoft BizTalk\<版本\>Accelerator for HL7**，然後按一下  **BTAHL7 Configuration 總管**。  
   
 7.  BTAHL7 組態總管] 中，在上**合作對象**索引標籤上，按一下 [ **Tutorial_BatchSource**。  
   

@@ -16,14 +16,14 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3a416836c816cc1952300b667dd679944b7925d3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9cb13e92f7c4954de540d65f161afab359fe9ce8
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="business-activity-monitoring-biztalk-server-samples-folder"></a>商務活動監控 （BizTalk Server 範例資料夾）
-Microsoft[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]其軟體開發套件 (SDK) 中包含數個商務活動監控 (BAM) 範例。 本節將提供每個 BAM 範例所展示功能的詳細資訊、用於建置和執行範例的指示，以及您可以預期的結果。  
+Microsoft BizTalk Server 的軟體開發套件 (SDK) 中包含數個商務活動監控 (BAM) 範例。 本節將提供每個 BAM 範例所展示功能的詳細資訊、用於建置和執行範例的指示，以及您可以預期的結果。  
   
 ## <a name="in-this-section"></a>本節內容  
   

@@ -16,11 +16,11 @@ caps.latest.revision: "25"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0ae5007816e606f15a74c54669be10c53fe530da
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4448182792cd6f6f5f7e611cd9a9bd54c75a0d05
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-configure-an-http-receive-location"></a>如何設定 HTTP 接收位置
 您可以用程式設計方式，或使用 BizTalk Server 管理主控台，來設定 HTTP 接收位置配接器變數。 若未在接收位置設定屬性，則會使用在 [BizTalk Server 管理] 主控台中設定的預設接收處理常式值。  
@@ -77,7 +77,7 @@ ms.lasthandoff: 09/20/2017
   
     |使用|動作|  
     |--------------|----------------|  
-    |**虛擬目錄加 ISAPI 延伸模組**|指定用來公佈 HTTP/HTTPS 接收位置所接收到之訊息的虛擬目錄名稱。 虛擬目錄包含接收位置 DLL 名稱和選擇性查詢字串。 虛擬目錄名稱的範例如：<br /><br /> /\<虛擬目錄 > /BTSHTTPReceive.dll<br /><br /> /\<虛擬目錄 > / BTSHTTPReceive.dll 嗎？購買 %20order<br /><br /> 此位置 (包括所有子資料夾) 最多只能包含一個 BTSHTTPReceive.dll ISAPI 延伸模組。<br /><br /> **類型：**字串<br /><br /> **最大長度：** 256**附註：** URI 傳送埠或接收位置不能超過 256 個字元。|  
+    |**虛擬目錄加 ISAPI 延伸模組**|指定用來公佈 HTTP/HTTPS 接收位置所接收到之訊息的虛擬目錄名稱。 虛擬目錄包含接收位置 DLL 名稱和選擇性查詢字串。 虛擬目錄名稱的範例如：<br /><br /> /\<虛擬目錄\>/BTSHTTPReceive.dll<br /><br /> /\<虛擬目錄\>/BTSHTTPReceive.dll 嗎？購買 %20order<br /><br /> 此位置 (包括所有子資料夾) 最多只能包含一個 BTSHTTPReceive.dll ISAPI 延伸模組。<br /><br /> **類型：**字串<br /><br /> **最大長度：** 256**附註：** URI 傳送埠或接收位置不能超過 256 個字元。|  
     |**公用位址**|指定此接收位置的完整格式 URI。 此屬性的值是由伺服器名稱與虛擬目錄所組成。 BizTalk 傳訊引擎會對外部夥伴公開此位址。 指定的 URI 應指派當訊息傳送至 BizTalk Server 時，所要連接的交易夥伴的公用網站 URL。<br /><br /> 此資訊是選擇性的，BizTalk Server 不會使用。 此參數可用來允許管理員記載接收位置所連結的公用 URL。<br /><br /> **類型：**字串<br /><br /> **最小長度：** 0<br /><br /> **最大長度：** 256|  
     |**傳回內容類型**|指定接收位置傳回給用戶端的 HTTP 回應訊息內容類型。 此屬性只適用於要求-回應接收位置。<br /><br /> **預設值：** text/xml<br /><br /> **類型：**字串<br /><br /> **最小長度：** 0<br /><br /> **最大長度：** 256|  
     |**回送**|定義對於在此位置接收到的要求訊息，是要設定路由至傳送埠或傳回此接收位置，以當做回應傳送。 此屬性只適用於要求-回應接收位置。<br /><br /> **預設值：** False<br /><br /> **類型：**布林|  

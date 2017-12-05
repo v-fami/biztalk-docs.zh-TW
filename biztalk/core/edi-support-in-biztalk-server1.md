@@ -12,14 +12,14 @@ caps.latest.revision: "37"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5b5edfa2eccfeac9a4d4192b2189877081ddf25a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0e8351420ed8d7815944c3ae619420137a8a61df
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="edi-support-in-biztalk-server"></a>BizTalk Server 中的 EDI 支援
-本主題提供 EDI 的簡短一般概觀，以及 [!INCLUDE[prague](../includes/prague-md.md)] 支援 EDI 的方式。  
+本主題提供 EDI 和 BizTalk Server 如何支援 EDI 的簡短一般概觀。  
   
 ## <a name="introduction-to-edi"></a>EDI 簡介  
  「電子資料交換」(EDI) 是商業交易夥伴交換 (Exchange) 電子資料時最常使用的方法。 EDI 主要為訊息導向。 文件都會實作為一般檔案，其中可包含批次交易集。 批次交換 (Interchange) 可以包含多個群組，每個群組又可以包含多個交易集或訊息。  
@@ -42,7 +42,7 @@ ms.lasthandoff: 09/20/2017
 >  EDI 訊息與其傳輸不同。 EDI 標準並未規定訊息傳輸，因此 EDI 訊息可透過多種不同方式傳送。  
   
 ## <a name="how-edi-is-implemented-in-biztalk-server"></a>在 BizTalk Server 中實作 EDI 的方式  
- [!INCLUDE[prague](../includes/prague-md.md)] 包含可提供 EDI 支援的原生功能。 EDI 是內建在產品中。它不是增益集，例如配接器或加速器。  
+ BizTalk Server 會包含可提供 EDI 支援的原生功能。 EDI 是內建在產品中。它不是增益集，例如配接器或加速器。  
   
  **交換處理**  
   
@@ -73,7 +73,7 @@ ms.lasthandoff: 09/20/2017
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會提供 EDI 特定狀態報告。 這些狀態報告會提供 EDI 文件交換 (Interchange) 交易的完整狀態，包括與交換 (Interchange) 相互關聯的通知。  
   
 ## <a name="edi-components-in-biztalk-server"></a>BizTalk Server 中的 EDI 元件  
- 用於處理 EDI 的 Microsoft [!INCLUDE[prague](../includes/prague-md.md)] 元件包括下列各項：  
+ Microsoft BizTalk Server 元件用於 EDI 處理包括下列各項：  
   
 -   「BizTalk EDI 應用程式」包含處理 EDI 文件所需的成品 (包括管線、協調流程和結構描述)。  
   
@@ -94,9 +94,9 @@ ms.lasthandoff: 09/20/2017
   
 -   結構描述儲存機制包括 X12、EDIFACT、HIPAA X12N 4010A XSD、EANCOM 和控制結構描述。 如需詳細資訊，請參閱[EDI 文件結構描述支援](../core/edi-document-schema-support.md)。  
   
--   移轉工具 (合作對象移轉工具) 可讓您將 EDI 合作對象資料從 BizTalk Server 2006 R2 或 BizTalk Server 2009 移轉至 [!INCLUDE[prague](../includes/prague-md.md)]。 如需詳細資訊，請參閱[移轉 EDI 成品從 BizTalk Server 先前版本](http://msdn.microsoft.com/library/b956a97e-03d0-47ea-a2ce-c07a339c0f2c)。  
+-   移轉工具 （合作對象移轉工具） 可讓您將 EDI 合作對象資料從 BizTalk Server 2006 R2 或 BizTalk Server 2009 移轉至 BizTalk Server。 如需詳細資訊，請參閱[移轉 EDI 成品從 BizTalk Server 先前版本](http://msdn.microsoft.com/library/b956a97e-03d0-47ea-a2ce-c07a339c0f2c)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [BizTalk Server 中的 EDI 處理](../core/edi-processing-in-biztalk-server.md)   
  [BizTalk Server 中的 HIPAA 支援](../core/hipaa-support-in-biztalk-server.md)   
  [EDI 支援問題](../core/edi-support-issues.md)   

@@ -13,11 +13,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ad09a989bf3bcf85e41ce8165a9834a22520ba8b
-ms.sourcegitcommit: 5355a25d120d094778fb8f68ea14cab55c68d292
+ms.openlocfilehash: 80c5f4b69e8204c89ebb3dd74252e85e815b1867
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="post-configuration-steps-to-optimize-your-environment"></a>環境最佳化的後續設定步驟
 協助改善效能、維護 BizTalk 環境，以及安裝 EDI 結構描述的設定後續作業步驟。
@@ -55,7 +55,7 @@ BizTalk Server 不包含任何刪除備份檔案的作業。 所以，如何維�
 
     BEGIN
     set nocount on
-    IF @DaysToKeep IS NULL OR @DaysToKeep \<= 1
+    IF @DaysToKeep IS NULL OR @DaysToKeep <= 1
     RETURN
     /*
     Only delete full sets

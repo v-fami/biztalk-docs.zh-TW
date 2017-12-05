@@ -12,11 +12,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 761f8c0a4480c26240926240cd890c1c68419b58
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f18d6ed5e237a9ee5e9dbe36c58c10ec6f22907d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="defining-testing-using-an-xml-configuration-file"></a>定義使用 XML 組態檔進行測試
 BizUnit 提供以定義測試的兩種方法： 透過 XML 組態檔與透過 Excel 工作表。 本主題著重在使用 XML 組態檔來定義測試。不過，您應該也查看 BizUnit SDK，因為它提供有趣如何定義使用 Excel 的 BizUnit 測試案例的範例。 此外，您可能想要調查 [BizUnit 設計工具] 工具，提供可以快速建立 BizUnit 測試案例的 GUI。 本主題提供如何定義使用 XML 組態使用非常簡化的案例的測試案例的概觀。  
@@ -60,7 +60,7 @@ BizUnit 提供以定義測試的兩種方法： 透過 XML 組態檔與透過 Ex
 </TestSetup>  
 ```  
   
- 我們再輸入什麼是最重要區段的測試，測試執行階段。 這個階段可以包含多個測試步驟。 在此範例中我們使用 FileCreateStep 複製文件 (InDoc1.xml 中能看到\<SourcePath > 標記) 所使用的為檔案置放我們接收位置。 請務必注意 BizUnit 支援使用唯一的識別項的檔名，在此步驟。這可以看到 %creationpath 標記中的 Guid %參考。  
+ 我們再輸入什麼是最重要區段的測試，測試執行階段。 這個階段可以包含多個測試步驟。 在此範例中我們使用 FileCreateStep 複製文件 (InDoc1.xml 中能看到\<SourcePath\>標記) 所使用的為檔案置放我們接收位置。 請務必注意 BizUnit 支援使用唯一的識別項的檔名，在此步驟。這可以看到 %creationpath 標記中的 Guid %參考。  
   
  完成之後，我們需要使用**FileValidateStep**驗證外寄訊息已建立。 您會發現此步驟可讓您指定的逾時值 （這是以毫秒為單位）、 目錄和搜尋模式。 此外， **DeleteFile**標記可讓您指定您是否想要經過驗證之後，會移除的檔案。 最後，您也應注意驗證包含 XPath 查詢中，確認 [PONumber] 節點內 XML 訊息 （它檢查的值為 PONumber_0）。檢查與驗證的任何輸出訊息的裝載會使用 BizUnit 時應遵循的指導原則的另一個範例。  
   
@@ -147,5 +147,5 @@ BizUnit 提供以定義測試的兩種方法： 透過 XML 組態檔與透過 Ex
 </TestCase>  
 ```  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [使用 BizUnit 促進自動化測試](../technical-guides/using-bizunit-to-facilitate-automated-testing.md)

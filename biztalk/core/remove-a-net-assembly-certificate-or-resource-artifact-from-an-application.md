@@ -31,11 +31,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4a82ffc63ff041aec1e9151e8198e2a7c3e74b3d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 12196886285a84b391eb3037064f36f08aa5b1fe
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-remove-a-net-assembly-certificate-or-other-resource-artifact-from-an-application"></a>如何從應用程式移除 .NET 組件、憑證或其他資源成品
 本主題說明如何使用 BizTalk Server 管理主控台或命令列，從 BizTalk 應用程式移除下列資源成品。 使用本主題提供的程序可以從 BizTalk 管理資料庫移除成品， 但是不會從檔案系統、憑證存放區、Internet Information Services (IIS) 或 Windows 登錄等任何位置中，移除現有的成品。 此外，如果您移除繫結檔案，繫結仍將原封不動，而只會移除繫結檔案而已。  
@@ -65,7 +65,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  按一下**啟動**，按一下 **程式**，按一下  [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]，然後按一下  **BizTalk Server 管理**。  
   
-2.  在主控台樹狀目錄中，依序展開 [[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 管理]、包含想要移除之資源成品的 BizTalk 群組，然後展開包含該成品的應用程式。  
+2.  在主控台樹狀目錄中，展開 BizTalk Server 管理]、 [BizTalk 群組包含資源成品移除，，然後展開包含該成品的應用程式。  
   
 3.  按一下**資源**資料夾中，以滑鼠右鍵按一下成品，然後按一下**移除**。  
   
@@ -88,6 +88,6 @@ ms.lasthandoff: 09/20/2017
     |**/ 伺服器**|裝載 BizTalk 管理資料庫之 SQL Server 執行個體的名稱，其格式為：伺服器名稱\執行個體名稱,連接埠。<br /><br /> 只有在執行個體名稱和伺服器名稱不同時，才需要執行個體名稱。 只有在 SQL Server 使用預設值 (1433) 以外的連接埠編號時，才需要連接埠。<br /><br /> 範例:<br /><br /> Server=MyServer<br /><br /> Server=MyServer\MySQLServer,1533<br /><br /> 如果不提供，將會使用在本機電腦上執行的 SQL Server 執行個體的名稱。|  
     |**/ 資料庫**|BizTalk 管理資料庫的名稱。 如果沒有指定，將會使用在 SQL Server 本機執行個體中執行的 BizTalk 管理資料庫。|  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理.NET 組件、 憑證和其他資源](../core/managing-net-assemblies-certificates-and-other-resources.md)   
  [RemoveResource 命令](../core/removeresource-command.md)

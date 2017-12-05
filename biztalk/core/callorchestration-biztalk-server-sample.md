@@ -16,11 +16,11 @@ caps.latest.revision: "22"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6460091297e34609365989739f58ed1f04204c8e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9cf37bd2b4ceacfe38736cadd8343b4259db126e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="callorchestration-biztalk-server-sample"></a>CallOrchestration （BizTalk Server 範例）
 CallOrchestration 範例示範如何從一個協調流程呼叫另一個 BizTalk 協調流程。  
@@ -60,7 +60,7 @@ End If
 >  使用之間的差別**呼叫協調流程**圖形和**啟動協調流程**圖形是，在呼叫協調流程時，呼叫端會等待巢狀協調流程傳回之後，繼續進行。 若是從一個協調流程啟動另一個協調流程，在呼叫者初始化動作之後，呼叫者會繼續進行程序流程中的下一個步驟。 呼叫者所叫用的協調流程會獨立執行，直到完成程序流程。 如需詳細資訊，請參閱[如何設定呼叫協調流程圖形](../core/how-to-configure-the-call-orchestration-shape.md)。 另請參閱[如何設定啟動協調流程圖形](../core/how-to-configure-the-start-orchestration-shape.md)。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- \<*範例路徑*> \Orchestrations\CallOrchestration\  
+ \<*範例路徑*\>\Orchestrations\CallOrchestration\  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -82,7 +82,7 @@ End If
   
 1.  在命令視窗中，瀏覽至下列資料夾：  
   
-     \<*範例路徑*> \Orchestrations\CallOrchestration\  
+     \<*範例路徑*\>\Orchestrations\CallOrchestration\  
   
 2.  執行檔案 Setup.bat，這會執行下列動作：  
   
@@ -103,7 +103,7 @@ End If
   
 1.  將檔案 InputPO.xml 的複本放置到 In 資料夾。  
   
-2.  觀察在 Out 資料夾中建立的 XML PO 更新檔案。 它包含已修改的原始 PO 訊息，此訊息包括如上述說明中計算出的出貨成本。 這個檔案的名稱的格式是\< *MessageID*>.xml，其中 *\<MessageID >*產生來唯一識別訊息的 GUID。  
+2.  觀察在 Out 資料夾中建立的 XML PO 更新檔案。 它包含已修改的原始 PO 訊息，此訊息包括如上述說明中計算出的出貨成本。 這個檔案的名稱的格式是\< *MessageID*\>.xml，其中 *\<MessageID\>* 產生來唯一識別訊息的 GUID.  
   
 ## <a name="uninstalling-this-sample"></a>解除安裝這個範例  
   
@@ -111,9 +111,9 @@ End If
   
 1.  在 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 命令視窗中，瀏覽至下列資料夾：  
   
-     \<*範例路徑*> \Orchestrations\CallOrchestration\  
+     \<*範例路徑*\>\Orchestrations\CallOrchestration\  
   
 2.  執行 Cleanup.bat。  
   
-## <a name="see-also"></a>另請參閱  
- [協調流程 （BizTalk Server 範例資料夾）](../core/orchestrations-biztalk-server-samples-folder.md)
+## <a name="see-also"></a>請參閱  
+ [協調流程 (BizTalk Server Samples 資料夾)](../core/orchestrations-biztalk-server-samples-folder.md)

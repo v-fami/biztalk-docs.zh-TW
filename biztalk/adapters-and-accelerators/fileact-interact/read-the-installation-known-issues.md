@@ -12,11 +12,11 @@ caps.latest.revision: "16"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8f11e713d09ca8babcf7622710fd63bde9980373
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b6641e7974a0e1872b71794af6553d708e9619dd
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="read-the-installation-known-issues"></a>請閱讀的已知問題的安裝
 [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)]列出下列各節中的已知的問題。  
@@ -36,7 +36,7 @@ ms.lasthandoff: 09/20/2017
  當您使用互動或 FileAct 存放與轉寄 (SnF) 模式中，如果佇列的工作階段已開啟，而且不會發送訊息時，您必須重新 SNLreceiver.exe。 這可避免 SWIFT 可能偶爾發生的問題。  
   
 ## <a name="you-must-use-cdata-when-passing-characters-like--and--in-message"></a>您傳遞的字元，像是時，必須使用 CDATA"<"和"&"訊息  
- CDATA 會使用不應該由 XML 剖析器剖析的文字資料的相關的詞彙。  字元，像是"<"和"&"XML 元素中的不合法。 "<"會產生錯誤，因為剖析器會將它解譯為開頭的新項目。 "&"會產生錯誤，因為剖析器會將它解譯為起始的字元實體。 剖析器會忽略 CDATA 區段內的所有項目。 CDATA 區段開頭"\<！ [CDATA [」，並結束 「]] > 」  
+ CDATA 會使用不應該由 XML 剖析器剖析的文字資料的相關的詞彙。  字元，像是"<"和"&"XML 元素中的不合法。 "<"會產生錯誤，因為剖析器會將它解譯為開頭的新項目。 "&"會產生錯誤，因為剖析器會將它解譯為起始的字元實體。 剖析器會忽略 CDATA 區段內的所有項目。 CDATA 區段開頭"\<！ [CDATA [」，並結束 「]]\>"  
   
 ## <a name="you-must-use-passthrough-pipelines-with-payload-only-mode"></a>您必須使用 Passthrough 管線與僅限裝載模式  
  如果您使用僅限裝載模式 InterAct 配接器，您必須使用通過管線，在傳送埠和接收埠，如果您不想要使用自訂管線。  

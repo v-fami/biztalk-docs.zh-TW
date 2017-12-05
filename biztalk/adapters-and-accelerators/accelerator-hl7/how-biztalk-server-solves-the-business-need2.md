@@ -15,19 +15,19 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0014541d7826a8d19d3f92b38608167316453475
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d5dcc7ee1b77c91cc4bbc52384a23347ce3e9a0f
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-biztalk-server-solves-the-business-need"></a>BizTalk Server 如何解決商務需求
-若要解決健康照護系統整合需要 BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 增強的功能[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]醫療保健系統。  
+若要解決健康照護系統整合需要 BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 增強的功能[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]醫療保健系統的 BizTalk Server。  
   
- 因為[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]安裝程式會安裝最上層的快速鍵[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]，本節所提供的功能的概觀說明相關技術[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]，功能的說明，[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]會增加，並討論方式，您可以部署這兩項技術。  
+ 因為[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]安裝程式會安裝在 BizTalk Server 加速器，本節所提供的功能的概觀說明相關技術[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]，功能的說明，[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]會增加，並討論如何部署這兩項技術。  
   
 ## <a name="in-this-section"></a>本節內容  
   
--   [與 BizTalk Server 進行系統整合](../../adapters-and-accelerators/accelerator-hl7/systems-integration-with-biztalk-server1.md)  
+-   [將 BizTalk Server 與系統整合](../../adapters-and-accelerators/accelerator-hl7/systems-integration-with-biztalk-server1.md)  
   
--   [BizTalk Accelerator for HL7 新增至 BizTalk Server](../../adapters-and-accelerators/accelerator-hl7/what-biztalk-accelerator-for-hl7-adds-to-biztalk-server.md)
+-   [BizTalk Accelerator for HL7 在 BizTalk Server 中新增的項目](../../adapters-and-accelerators/accelerator-hl7/what-biztalk-accelerator-for-hl7-adds-to-biztalk-server.md)

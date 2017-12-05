@@ -12,11 +12,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 823bd5739ac58d8b63f79ee15102cf44f3d82c7a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 510ee984688d218e2c83b4e70dcdf737cd5566e2
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="tutorial-using-the-biztalk-adapter-for-peoplesoft-enterprise-to-retrieve-data-from-peoplesoft-enterprise"></a>教學課程：使用 BizTalk Adapter for PeopleSoft Enterprise 從 PeopleSoft Enterprise 中擷取資料
 BizTalk Adapter for PeopleSoft Enterprise 可用來對 PeopleSoft 系統執行查詢，並傳回查詢的結果。 這個逐步解說將說明此功能的 SDK 範例。  
@@ -163,7 +163,7 @@ BizTalk Adapter for PeopleSoft Enterprise 可用來對 PeopleSoft 系統執行�
   
 1.  按兩下**LOCATIONService_1.xsd**方案總管 中結構描述編輯器中開啟該檔案中。  
   
-2.  以滑鼠右鍵按一下**\<結構描述 >**節點在結構描述編輯器，然後按一下**屬性**顯示節點的屬性。  
+2.  以滑鼠右鍵按一下**\<結構描述\>**節點在結構描述編輯器，然後按一下**屬性**顯示節點的屬性。  
   
 3.  選取**取得**從清單中的可用節點**根參考**下拉式方塊。 這應完成，以便在產生範例文件執行個體時將會產生從**取得**結構描述節點。  
   
@@ -180,7 +180,7 @@ BizTalk Adapter for PeopleSoft Enterprise 可用來對 PeopleSoft 系統執行�
   
 8.  以滑鼠右鍵按一下 [方案總管] 中的 LOCATIONService_1.xsd，然後按一下**產生執行個體**產生文件執行個體中指定的位置。  
   
-9. 以滑鼠右鍵按一下**\<結構描述 >**節點在結構描述編輯器，然後按一下**屬性**顯示節點的屬性。  
+9. 以滑鼠右鍵按一下**\<結構描述\>**節點在結構描述編輯器，然後按一下**屬性**顯示節點的屬性。  
   
 10. 選取 (**預設)**從清單中的可用節點**根參考**下拉式方塊。  
   
@@ -266,5 +266,5 @@ BizTalk Adapter for PeopleSoft Enterprise 可用來對 PeopleSoft 系統執行�
   
 10. 檔案配接器將包含結果集的訊息寫入至指定的輸出資料夾。  
   
-## <a name="see-also"></a>另請參閱  
- [教學課程： 使用 BizTalk Adapter for PeopleSoft Enterprise](../core/tutorials-using-biztalk-adapter-for-peoplesoft-enterprise.md)
+## <a name="see-also"></a>請參閱  
+ [教學課程：使用 BizTalk Adapter for PeopleSoft Enterprise](../core/tutorials-using-biztalk-adapter-for-peoplesoft-enterprise.md)

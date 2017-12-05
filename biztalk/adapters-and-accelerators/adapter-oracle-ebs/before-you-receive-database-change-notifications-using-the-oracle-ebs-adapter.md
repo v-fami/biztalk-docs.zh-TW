@@ -12,11 +12,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cd374a6edcc8b097c2fc05e236a2a3ca0800229b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f3157b8ab7a706203d3b9475de890fb2a8f8dd3a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="considerations-for-receiving-database-change-notifications-using-the-oracle-e-business-suite-adapter"></a>變更通知使用 Oracle E-business Suite 配接器的接收資料庫的考量
 本主題提供一些考量和最佳作法，您必須使用時請記住[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]要從 Oracle 資料庫接收資料庫通知。  
@@ -28,10 +28,10 @@ ms.lasthandoff: 09/20/2017
   
 -   作業的通知訊息不會受到該作業所影響的記錄數目。 例如，Oracle 資料庫資料表中插入的記錄數目，不論配接器用戶端收到只有一個通知訊息。  
   
--   我們建議配接器用戶端應用程式包含的邏輯來解譯的從 Oracle 資料庫接收的通知類型。 配接器用戶端應用程式可以這樣做來擷取中的資訊**\<資訊 >**接收的通知訊息的項目。 以下是 Insert 作業接收通知訊息的範例。  
+-   我們建議配接器用戶端應用程式包含的邏輯來解譯的從 Oracle 資料庫接收的通知類型。 配接器用戶端應用程式可以這樣做來擷取中的資訊**\<資訊\>**接收的通知訊息的項目。 以下是 Insert 作業接收通知訊息的範例。  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <Notification xmlns="http://schemas.microsoft.com/OracleEBS/2008/05/Notification/">  
       <Details>  
         <NotificationDetails>  
@@ -49,7 +49,7 @@ ms.lasthandoff: 09/20/2017
     </Notification>  
     ```  
   
-     請注意內的值**\<資訊 >**項目。 此值會提供資訊在收到通知訊息的作業。 您的應用程式應該有的功能來擷取內的值**\<資訊 >**項目，然後根據的值，執行後續的工作。 本主題[Oracle E-business Suite 中完成特定工作的程序通知訊息](../../adapters-and-accelerators/adapter-oracle-ebs/process-notification-messages-to-complete-specific-tasks-in-oracle-ebs.md)如何擷取內的值中的指示**\<資訊 >**項目。  
+     請注意內的值**\<資訊\>**項目。 此值會提供資訊在收到通知訊息的作業。 您的應用程式應該有的功能來擷取內的值**\<資訊\>**項目，然後根據的值，執行後續的工作。 本主題[Oracle E-business Suite 中完成特定工作的程序通知訊息](../../adapters-and-accelerators/adapter-oracle-ebs/process-notification-messages-to-complete-specific-tasks-in-oracle-ebs.md)如何擷取內的值中的指示**\<資訊\>**項目.  
   
 -   在理想情況下，用戶端應用程式會收到通知之後，它應該更新其已收到通知，讓後續的通知沒有相同的記錄的記錄。 例如，請考慮**ACCOUNTACTIVITY**資料表具有**處理**資料行。 針對所有新記錄插入至**ACCOUNTACTIVITY**資料表中的值**處理**資料行一律是 ' n '。 例如，在插入作業中的記錄之後**ACCOUNTACTIVITY**資料表看起來如下所示：  
   
@@ -88,5 +88,5 @@ ms.lasthandoff: 09/20/2017
   
  中的詳細說明上述建議[Oracle E-business Suite 中完成特定工作的程序通知訊息](../../adapters-and-accelerators/adapter-oracle-ebs/process-notification-messages-to-complete-specific-tasks-in-oracle-ebs.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [接收 Oracle E-business Suite 資料庫變更通知使用 BizTalk Server](../../adapters-and-accelerators/adapter-oracle-ebs/receive-oracle-ebs-database-change-notifications-using-biztalk-server.md)

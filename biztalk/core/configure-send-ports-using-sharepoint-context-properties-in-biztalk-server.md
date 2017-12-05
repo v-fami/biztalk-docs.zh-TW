@@ -22,11 +22,11 @@ caps.latest.revision: "16"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b5dc4e65ca778c8e299d8fd14303d3d3da009d39
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e766272f33bf23166ba412a76498e4240ab3343b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-configure-send-ports-using-windows-sharepoint-services-context-properties"></a>如何使用 Windows Sharepoint Services 內容屬性設定傳送埠
 本主題說明如何在執行階段從 BizTalk 協調流程使用 Windows Sharepoint Services 內容屬性設定 Windows SharePoint Services 傳送埠。 相同的機制可以用來設定 Windows SharePoint Services 動態和晚期繫結傳送埠。 動態傳送埠的組態屬性需於執行階段時在協調流程中設定。 配接器屬性中公開的**Windows SharePoint Services 傳輸屬性**對話方塊也可以套用至動態或晚期繫結的傳送埠。 若要使用 Windows Sharepoint Services 配接器內容屬性設定動態或晚期繫結傳送埠的組態屬性，請依照下列步驟執行：  
@@ -51,8 +51,8 @@ ms.lasthandoff: 09/20/2017
     |範本後援文件庫|WSS.ConfigCustomTemplatesDocLib|字串|無|  
     |範本後援命名空間資料行|WSS.ConfigCustomTemplatesNamespaceCol|字串|無|  
     |範本命名空間資料行|WSS.ConfigTemplatesNamespaceCol|字串|無|  
-    |資料行 `n`|WSS.ConfigPropertiesXml<br /><br /> 設定資料行名稱\<PropertyName*x*>*columnname*\</ PropertyName*x*> 欄位。|字串|無|  
-    |資料行 `n` 值|WSS.ConfigPropertiesXml<br /><br /> 資料行值是否以設定\<PropertySource*x*>*columnvalue*\</ PropertySource*x*> 欄位。|字串|除了的傳輸屬性中支援的所有可用的檔名巨集使用**%filename%**和**%extension%**巨集。|  
+    |資料行 `n`|WSS.ConfigPropertiesXml<br /><br /> 設定資料行名稱\<PropertyName*x*\>*columnname*\</ PropertyName*x* \>欄位。|字串|無|  
+    |資料行 `n` 值|WSS.ConfigPropertiesXml<br /><br /> 資料行值是否以設定\<PropertySource*x*\>*columnvalue*\</ PropertySource*x* \>欄位。|字串|除了的傳輸屬性中支援的所有可用的檔名巨集使用**%filename%**和**%extension%**巨集。|  
   
     > [!NOTE]
     >  提供給內容屬性的值需區分大小寫。 使用內容屬性設定動態連接埠的值時，請務必您使用適當的大小寫，否則當 BizTalk 嘗試將文件傳送到指定的傳送埠時，將會發生錯誤。  
@@ -92,5 +92,5 @@ ms.lasthandoff: 09/20/2017
   
      上述運算式中*NewMessage*是您要新增處理指示的輸出訊息。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [如何建立傳送埠](../core/how-to-create-a-send-port2.md)

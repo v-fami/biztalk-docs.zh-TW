@@ -15,11 +15,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4dc65f584bdd474314cd976edc586d0ed60f0505
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a0bf65bdb3de30d5b701946215b5c7ae7d40d828
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-manage-user-mappings-for-host-initiated-sso"></a>如何管理使用者對應的主控件初始化的 SSO
 使用下列程序，以建立對應、設定認證以及啟用或停用對應。  
@@ -40,9 +40,9 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**執行**] 對話方塊中，輸入**cmd**，然後按一下 [**確定**。  
   
-3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機 >: \Program Files\Common Files\Enterprise Single Sign-on。  
+3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-4.  型別**ssomanage – createmappings\<對應檔 >**，其中**對應檔 >**是 xml 檔案的名稱。  
+4.  型別**ssomanage – createmappings\<對應檔\>**，其中**對應檔 >**是 xml 檔案的名稱。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
@@ -69,9 +69,9 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**執行**] 對話方塊中，輸入**cmd**，然後按一下 [**確定**。  
   
-3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機 >: \Program Files\Common Files\Enterprise Single Sign-on。  
+3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-4.  型別**ssomanage-setcredentials \<Windows 帳戶名稱 >\<應用程式名稱 >**。  
+4.  型別**ssomanage-setcredentials \<Windows 帳戶名稱\>\<應用程式名稱\>**。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
@@ -82,9 +82,9 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**執行**] 對話方塊中，輸入**cmd**，然後按一下 [**確定**。  
   
-3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機 >: \Program Files\Common Files\Enterprise Single Sign-on。  
+3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-4.  型別**ssomanage-setcredentials\<外部帳戶名稱 >\<應用程式名稱 >**。  
+4.  型別**ssomanage-setcredentials\<外部帳戶名稱\>\<應用程式名稱\>**。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
@@ -95,9 +95,9 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**執行**] 對話方塊中，輸入**cmd**，然後按一下 [**確定**。  
   
-3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機 >: \Program Files\Common Files\Enterprise Single Sign-on。  
+3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-4.  型別**ssomanage-enablemapping \<Windows 帳戶名稱 >\<應用程式名稱 >**。  
+4.  型別**ssomanage-enablemapping \<Windows 帳戶名稱\>\<應用程式名稱\>**。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
@@ -108,9 +108,9 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**執行**] 對話方塊中，輸入**cmd**，然後按一下 [**確定**。  
   
-3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機 >: \Program Files\Common Files\Enterprise Single Sign-on。  
+3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-4.  型別**ssomanage-disablemapping \<Windows 帳戶名稱 >\<應用程式名稱 >**。  
+4.  型別**ssomanage-disablemapping \<Windows 帳戶名稱\>\<應用程式名稱\>**。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
@@ -121,9 +121,9 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**執行**] 對話方塊中，輸入**cmd**，然後按一下 [**確定**。  
   
-3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機 >: \Program Files\Common Files\Enterprise Single Sign-on。  
+3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-4.  型別**ssomanage-enablemapping\<外部帳戶名稱 >\<應用程式名稱 >**。  
+4.  型別**ssomanage-enablemapping\<外部帳戶名稱\>\<應用程式名稱\>**。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
@@ -134,12 +134,12 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**執行**] 對話方塊中，輸入**cmd**，然後按一下 [**確定**。  
   
-3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機 >: \Program Files\Common Files\Enterprise Single Sign-on。  
+3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-4.  型別**ssomanage-disablemapping\<外部帳戶名稱 >\<應用程式名稱 >**。  
+4.  型別**ssomanage-disablemapping\<外部帳戶名稱\>\<應用程式名稱\>**。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [主控件初始化的 SSO](../core/host-initiated-sso.md)

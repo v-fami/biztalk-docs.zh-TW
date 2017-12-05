@@ -12,11 +12,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 43f0128b0d1da7ddfb9a29b697d5d5073f69dd33
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 89f08c50036dd070d51a8685dc4d47ceaa231737
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="configure-the-application-context-using-message-context-properties-in-oracle-e-business-suite"></a>設定 Oracle E-business Suite 中使用訊息內容屬性的應用程式內容
 若要使用的 Oracle E-business Suite 成品上執行作業[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]，則必須適當設定的應用程式內容。 您可以下列方式來設定應用程式內容：  
@@ -41,7 +41,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  在**加入參考**對話方塊中，按一下 **瀏覽**索引標籤，然後再瀏覽至位置其中 BizTalk 屬性結構描述 DLL 的[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]可用。  
   
-     此 DLL， `Microsoft.Adapters.OracleEBS.BiztalkPropertySchema.dll`，會安裝[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]在\<*安裝磁碟機*>: \Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\bin。  
+     此 DLL， `Microsoft.Adapters.OracleEBS.BiztalkPropertySchema.dll`，會安裝[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]在\<*安裝磁碟機*\>: \Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\bin。  
   
 4.  選取 DLL，然後按一下**新增**。  
   
@@ -74,7 +74,7 @@ ms.lasthandoff: 09/20/2017
   
     3.  以滑鼠右鍵按一下**資源**，指向 **新增**，然後按一下  **BizTalk 組件**。  
   
-    4.  在**新增資源**對話方塊中，按一下 **新增**，導覽至包含 BizTalk 組件檔案，這是資料夾\<*安裝磁碟機*>: \Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\bin。 選取`Microsoft.Adapters.OracleEBS.BiztalkPropertySchema.dll`檔案，然後再按一下**開啟**。  
+    4.  在**新增資源**對話方塊中，按一下 **新增**，導覽至包含 BizTalk 組件檔案，這是資料夾\<*安裝磁碟機*\>: \Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\bin。 選取`Microsoft.Adapters.OracleEBS.BiztalkPropertySchema.dll`檔案，然後再按一下**開啟**。  
   
     5.  在**選項**索引標籤上，針對將 BizTalk 組件安裝至全域組件快取 (GAC) 中，指定選項，然後按一下**確定**。  
   

@@ -16,11 +16,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2550d8e1ea0ad45147b2f27daef7244f6c18770b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9241c8d9c5f6e41f47199211d0215c16526951d6
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-restore-the-master-secret"></a>如何還原主要密碼
 您必須還原主要密碼，才能重新使用現有的資料，這是資料回復程序的一部分。 要執行此作業，您必須使用同時是 Windows 管理員和 SSO 系統管理員的帳戶，登入主要密碼伺服器。  
@@ -39,14 +39,14 @@ ms.lasthandoff: 09/20/2017
   
 2.  選取適當的系統管理員，然後按一下**確定**。  
   
-3.  在命令列，移至「企業單一登入」安裝目錄。 預設安裝目錄是*\<磁碟機 >*: \Program Files\Common Files\Enterprise Single Sign-on。  
+3.  在命令列，移至「企業單一登入」安裝目錄。 預設安裝目錄是*\<磁碟機\>*: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-4.  型別**ssoconfig – restoreSecret\<還原檔案 >**，其中**\<還原檔案 >**是儲存主要密碼的檔案名稱與路徑。  
+4.  型別**ssoconfig – restoreSecret\<還原檔案\>**，其中**\<還原檔案\>**是主要密碼所在的檔案名稱與路徑儲存。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [如何產生主要密碼](../core/how-to-generate-the-master-secret.md)   
  [如何備份主要密碼](../core/how-to-back-up-the-master-secret.md)   
  [主要密碼伺服器](../core/master-secret-server.md)   

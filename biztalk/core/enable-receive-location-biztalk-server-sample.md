@@ -16,11 +16,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 99923c3029b72dae660bee4b4089336e90e2e4e7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fd2df85f051285e999660dc3765855d22c708939
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="enable-receive-location-biztalk-server-sample"></a>啟用接收位置 （BizTalk Server 範例）
 「啟用接收位置」範例示範如何啟用接收位置，並選擇性地設定該接收位置的「輸入傳輸 URL」。  
@@ -42,7 +42,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
  這個範例位於下列 SDK 位置：  
   
- \<*範例路徑*> \Admin\WMI\Enable 接收 Location\  
+ \<*範例路徑*\>\Admin\WMI\Enable 接收 Location\  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -59,18 +59,15 @@ ms.lasthandoff: 09/20/2017
   
 1.  在命令視窗中，瀏覽至下列資料夾：  
   
-     \<*範例路徑*> \Admin\WMI\Enable 接收 Location\VBScript\  
+     \<*範例路徑*\>\Admin\WMI\Enable 接收 Location\VBScript\  
   
 2.  使用 cscript 程式執行 EnableRecLoc.vbs 檔案，並傳遞下列命令列引數，其中第三個引數是選擇性引數：  
   
-    -   **\<**   
-         ***ReceivePortName* >。** 包含要啟用之接收位置的接收埠名稱。 如果接收埠名稱包含空格，請用引號括住該名稱。  
+    -   **\<** ***ReceivePortName* \>。** 包含要啟用之接收位置的接收埠名稱。 如果接收埠名稱包含空格，請用引號括住該名稱。  
   
-    -   **\<**   
-         ***ReceiveLocationName* >。** 要在指定之接收埠內啟用之接收位置的名稱。 如果接收位置名稱包含空格，請用引號括住該名稱。  
+    -   **\<** ***ReceiveLocationName* \>。** 要在指定之接收埠內啟用之接收位置的名稱。 如果接收位置名稱包含空格，請用引號括住該名稱。  
   
-    -   **\<**   
-         ***InboundTransportURI* >。** 接收配接器 URI (相對於產品安裝位置)，您可以指定此引數來變更該 URI。 如果輸入配接器 URI 包含空格，請用引號括住該 URI。  
+    -   **\<** ***InboundTransportURI* \>。** 接收配接器 URI (相對於產品安裝位置)，您可以指定此引數來變更該 URI。 如果輸入配接器 URI 包含空格，請用引號括住該 URI。  
   
          例如：  
   
@@ -91,5 +88,5 @@ ms.lasthandoff: 09/20/2017
   
  如需詳細資訊，請參閱 < 在 Windows Management Instrumentation [http://go.microsoft.com/fwlink/?LinkId=21102](http://go.microsoft.com/fwlink/?LinkId=21102)。  
   
-## <a name="see-also"></a>另請參閱  
- [管理 WMI （BizTalk Server 範例資料夾）](../core/admin-wmi-biztalk-server-samples-folder.md)
+## <a name="see-also"></a>請參閱  
+ [Admin-WMI (BizTalk Server Samples 資料夾)](../core/admin-wmi-biztalk-server-samples-folder.md)

@@ -15,11 +15,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0b5b77ca46be2e6a3fb4c882947eb47829f591ed
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f3bdbd4845ddc1dff698274492f33ec69d659188
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="approving-a-message"></a>核准訊息
 本章節描述如何核准訊息修復和驗證。  
@@ -30,9 +30,9 @@ ms.lasthandoff: 09/20/2017
   
 2.  在 [首頁] 視窗中，按一下**文件**。  
   
-3.  在文件視窗中，在**文件庫**，按一下    **\<*部門名稱*> _Approver * *。  
+3.  在文件視窗中，在**文件庫**，按一下    **\<*部門名稱*\>_Approver * *。  
   
-4.  在\<部門名稱 > _Approver 視窗中，按一下 **收件匣**。  
+4.  在\<部門名稱\>_Approver 視窗中，按一下 **收件匣**。  
   
 5.  在 收件匣 視窗中，指向 訊息的標題、 按一下訊息標題右邊的箭號，然後按一下**編輯在 Microsoft Office InfoPath**。  
   

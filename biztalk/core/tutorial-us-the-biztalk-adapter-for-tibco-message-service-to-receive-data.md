@@ -12,11 +12,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: bd19ff62c4597cfa75762a1a89ae8e60409096f9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7ee9994861772be8fabe04a04e9bb30111cc1bc4
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="tutorial-using-the-biztalk-adapter-for-tibco-enterprise-message-service-to-receive-data"></a>教學課程：使用 BizTalk Adapter for TIBCO Enterprise Message Service 來接收資料
 您可以使用 BizTalk Adapter for TIBCO Enterprise Message Service (EMS) 接收來自 TIBCO 系統的資料。 這個逐步解說將說明示範這一點的 SDK 範例。  
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/20/2017
  此範例會從某個資料夾收取某個 XML 檔案、將該檔案傳送至協調流程，然後使用 BizTalk Adapter for TIBCO Enterprise Message Service 接收來自 TIBCO 系統的資料。 結果會寫入至 XML 檔案。  
   
 ## <a name="how-this-sample-is-designed-and-why"></a>此範例的設計方式和原因  
- 以 [!INCLUDE[vs2010](../includes/vs2010-md.md)] 設計的這個範例，示範了將 BizTalk Adapter for TIBCO Enterprise Message Service 與 BizTalk 協調流程搭配使用的基本功能。  
+ 在 Visual Studio 中設計的這個範例說明使用 BizTalk Adapter for TIBCO Enterprise Message Service 與 BizTalk 協調流程的基本功能。  
   
 > [!NOTE]
 >  此範例假設您已知道如何傳送來自 TIBCO 的訊息以讓應用程式處理。  
@@ -174,7 +174,7 @@ ms.lasthandoff: 09/20/2017
   
 5.  檔案配接器將包含結果集的訊息寫入至指定的輸出資料夾。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [教學課程： 使用 BizTalk Adapter for TIBCO Enterprise Message Service 來傳送資料](../core/tutorial-use-tibco-enterprise-message-service-adapter-in-biztalk-to-send-data.md)   
  [教學課程： 使用 Microsoft BizTalk Adapter for TIBCO Enterprise Message Service](../core/tutorials-use-the-microsoft-biztalk-adapter-for-tibco-message-service.md)   
  [快速入門](../core/getting-started-with-biztalk-adapter-for-tibco-enterprise-message-service.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a3ac08628931ec4111eb1b5a9ad86991344c22d4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bc0bd397e49dcad670bb73e9dff9c164b9d0997a
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="importing-agreement-properties-from-an-xml-file"></a>從 XML 檔案匯入協議屬性
 本節提供如何從 XML 範本檔案匯入協議屬性的指示。  
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-import-agreement-properties-from-an-xml-file"></a>若要從 XML 檔案匯入協議屬性  
   
-1.  在[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]管理主控台中，按一下 **合作對象**節點下的**BizTalk Server 管理**和**BizTalk 群組**節點。 在**合作對象與商務設定檔**頁面上，依照建立協議[設定一般設定 (X12)](../core/configuring-general-settings-x12.md)。  
+1.  在 BizTalk Server 管理主控台中，按一下 **合作對象**節點下的**BizTalk Server 管理**和**BizTalk 群組**節點。 在**合作對象與商務設定檔**頁面上，依照建立協議[設定一般設定 (X12)](../core/configuring-general-settings-x12.md)。  
   
 2.  在**協議屬性**對話方塊中，按一下 **從範本載入**。  
   
@@ -41,6 +41,6 @@ ms.lasthandoff: 09/20/2017
   
 4.  在**建立範本**方塊中，按一下**確定**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [重複使用另一個協議屬性](../core/reusing-properties-from-another-agreement.md)   
  [將協議屬性匯出至 XML 檔案](../core/exporting-agreement-properties-to-an-xml-file.md)

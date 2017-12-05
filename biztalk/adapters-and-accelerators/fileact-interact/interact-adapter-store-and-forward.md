@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e8a7636734501be742f492a0fc4d42ebcac16540
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6c7aff0b2421a19f5fe84ee914c4f9d2bd7ef04e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="interact-adapter-store-and-forward"></a>配接器儲存與轉送互動
 在存放區和順向 (SnF) 模式中，訊息傳送至佇列在傳送時，會從目的地佇列擷取。 使用時 SnF，回應來自 SWIFTNet SnF 本身，並不包含任何來自回應者的意見反應。  
@@ -42,7 +42,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="sessions"></a>工作階段  
  取得佇列，會啟動工作階段。 Sw:SnFSessionId 會傳回每個訊息，由 SWIFTNet SnF。 Sw:SnFSessionId 包含佇列名稱的工作階段模式： 推入，以及工作階段數目。 工作階段數目會遞增每個工作階段。 範例如下：  
   
- **\<Sw:SnFSessionId > bankwxyz_applicq1:p:000458\</Sw:SnFSessionId >**  
+ **\<Sw:SnFSessionId\>bankwxyz_applicq1:p:000458\</Sw:SnFSessionId\>**  
   
  "p"指出推入工作階段。 工作階段也是視為佇列的保留由授權者。 後續的訊息必須由相同的授權者認可。  
   
@@ -63,7 +63,7 @@ ms.lasthandoff: 09/20/2017
   
  伺服器應用程式仍會以正值通知之後，用戶端發出發行該佇列，但通常這不會發生此情況，系統會從佇列傳送的要求回應是否會維持到本機的實作。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [互動的配接器架構](../../adapters-and-accelerators/fileact-interact/interact-adapter-architecture.md)   
  [InterAct 配接器元件](../../adapters-and-accelerators/fileact-interact/interact-adapter-components.md)   
  [配接器訊息互動的商務交換](../../adapters-and-accelerators/fileact-interact/interact-adapter-messages-for-business-exchange.md)   
@@ -72,4 +72,4 @@ ms.lasthandoff: 09/20/2017
  [互動的配接器安全性架構](../../adapters-and-accelerators/fileact-interact/interact-adapter-security-architecture.md)   
  [互動配接器端對端可靠傳遞](../../adapters-and-accelerators/fileact-interact/interact-adapter-end-to-end-reliable-delivery.md)   
  [互動的介面卡狀態監視](../../adapters-and-accelerators/fileact-interact/interact-adapter-status-monitoring.md)   
- [互動配接器不可否認性](../../adapters-and-accelerators/fileact-interact/interact-adapter-non-repudiation.md)
+ [InterAct 配接器不可否認性](../../adapters-and-accelerators/fileact-interact/interact-adapter-non-repudiation.md)

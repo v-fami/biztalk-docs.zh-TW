@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fb5f2e7af54ef99acff37a350c5fa7d9ba65af5e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 51264a79480031bd334dfb7d699a3a701f2c0254
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="step-1-for-azure-create-the-edi-project"></a>（適用於 Azure) 的步驟 1： 建立 EDI 專案
 在本節中，Contoso 會建立 EDI 專案使用[!INCLUDE[appfabricintegration](../includes/appfabricintegration-md.md)]2012 年 4 月版。 專案的一部分，Contoso 新增下列各項：  
@@ -29,7 +29,7 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-create-edi-project"></a>若要建立 EDI 專案  
   
-1.  開啟[!INCLUDE[vs2010](../includes/vs2010-md.md)]，從**檔案**功能表中的指向**新增**，然後按一下 **專案**。  
+1.  開啟 Visual Studio 中，從**檔案**功能表中的指向**新增**，然後按一下 **專案**。  
   
 2.  在**新專案**對話方塊中，從**已安裝的範本**，選取**Service Bus**。 指定專案名稱和專案的位置，然後按一下**確定**。  
   
@@ -42,42 +42,42 @@ ms.lasthandoff: 09/20/2017
 3.  編輯和建置如下所示的結構描述：  
   
     ```  
-    \<?xml version="1.0" encoding="utf-16"?>  
-    \<xs:schema xmlns="http://ECommerceSalesOrder.Inbound" xmlns:b="http://schemas.microsoft.com/BizTalk/2003" targetNamespace="http://ECommerceSalesOrder.Inbound" xmlns:xs="http://www.w3.org/2001/XMLSchema">  
-      \<xs:element name="SalesOrder">  
-        \<xs:complexType>  
-          \<xs:sequence>  
-            \<xs:element name="CompanyCode" type="xs:string" />  
-            \<xs:element name="PartID" type="xs:int" />  
-            \<xs:element name="Quantity" type="xs:int" />  
-            \<xs:element name="AskPrice" type="xs:decimal" />  
-            \<xs:element name="RequestShipmentDate" type="xs:date" />  
-            \<xs:element name="Address">  
-              \<xs:complexType>  
-                \<xs:sequence>  
-                  \<xs:element name="Line1" type="xs:string" />  
-                  \<xs:element name="Line2" type="xs:string" />  
-                  \<xs:element name="City" type="xs:string" />  
-                  \<xs:element name="State" type="xs:string" />  
-                  \<xs:element name="Country" type="xs:string" />  
-                  \<xs:element name="Zipcode" type="xs:int" />  
-                \</xs:sequence>  
-              \</xs:complexType>  
-            \</xs:element>  
-            \<xs:element name="Contact">  
-              \<xs:complexType>  
-                \<xs:sequence>  
-                  \<xs:element name="Firstname" type="xs:string" />  
-                  \<xs:element name="Lastname" type="xs:string" />  
-                \</xs:sequence>  
-              \</xs:complexType>  
-            \</xs:element>  
-            \<xs:element name="Comments" type="xs:string" />  
-            \<xs:element name="DateNow" type="xs:date" />  
-          \</xs:sequence>  
-        \</xs:complexType>  
-      \</xs:element>  
-    \</xs:schema>  
+    <?xml version="1.0" encoding="utf-16"?>  
+    <xs:schema xmlns="http://ECommerceSalesOrder.Inbound" xmlns:b="http://schemas.microsoft.com/BizTalk/2003" targetNamespace="http://ECommerceSalesOrder.Inbound" xmlns:xs="http://www.w3.org/2001/XMLSchema">  
+      <xs:element name="SalesOrder">  
+        <xs:complexType>  
+          <xs:sequence>  
+            <xs:element name="CompanyCode" type="xs:string" />  
+            <xs:element name="PartID" type="xs:int" />  
+            <xs:element name="Quantity" type="xs:int" />  
+            <xs:element name="AskPrice" type="xs:decimal" />  
+            <xs:element name="RequestShipmentDate" type="xs:date" />  
+            <xs:element name="Address">  
+              <xs:complexType>  
+                <xs:sequence>  
+                  <xs:element name="Line1" type="xs:string" />  
+                  <xs:element name="Line2" type="xs:string" />  
+                  <xs:element name="City" type="xs:string" />  
+                  <xs:element name="State" type="xs:string" />  
+                  <xs:element name="Country" type="xs:string" />  
+                  <xs:element name="Zipcode" type="xs:int" />  
+                </xs:sequence>  
+              </xs:complexType>  
+            </xs:element>  
+            <xs:element name="Contact">  
+              <xs:complexType>  
+                <xs:sequence>  
+                  <xs:element name="Firstname" type="xs:string" />  
+                  <xs:element name="Lastname" type="xs:string" />  
+                </xs:sequence>  
+              </xs:complexType>  
+            </xs:element>  
+            <xs:element name="Comments" type="xs:string" />  
+            <xs:element name="DateNow" type="xs:date" />  
+          </xs:sequence>  
+        </xs:complexType>  
+      </xs:element>  
+    </xs:schema>  
     ```  
   
      您可以使用結構描述編輯器來建立此結構描述。 如需詳細資訊，請參閱[使用 BizTalk 編輯器](../core/using-biztalk-editor.md)。  
@@ -98,5 +98,5 @@ ms.lasthandoff: 09/20/2017
   
 6.  儲存對應。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [教學課程 4： 建立使用 BizTalk Server 2013 的混合式應用程式](../core/tutorial-4-creating-a-hybrid-application-using-biztalk-server-2013.md)

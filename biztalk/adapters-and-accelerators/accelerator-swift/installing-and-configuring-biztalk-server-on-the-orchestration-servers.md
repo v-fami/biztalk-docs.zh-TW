@@ -15,14 +15,14 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d872d58c72110d7af22c6d64e7d212fbee53fae9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 18a13d553e31739c959ff6baf317240c3c268ecc
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="installing-and-configuring-biztalk-server-on-the-orchestration-servers"></a>安裝和設定 BizTalk Server 協調流程伺服器上
-本章節描述如何安裝及設定[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]要做為協調流程伺服器用於執行訊息修復/新增提交協調流程和 FIN 修復和重新調整協調流程。  
+本章節描述如何安裝和設定 BizTalk Server 要為協調流程伺服器用於執行訊息修復/新增提交協調流程和 FIN 修復和重新調整協調流程。  
   
 ### <a name="to-install-and-configure-biztalk-server-on-the-orchestration-server"></a>安裝和設定 BizTalk Server 協調流程伺服器上  
   

@@ -15,11 +15,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 060a20e9d074017a79f32f2c2cf526394df9c51d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5edc8ed8991920c0da239979386fb264bdbb8610
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="biztalk-mapper-keyboard-shortcuts"></a>BizTalk 對應工具鍵盤快速鍵
 如同任何標準的 Microsoft Windows 應用程式，您可以使用鍵盤快速鍵在 BizTalk 對應工具中存取命令無法使用功能表。 下表描述可用的鍵盤快速鍵。  
@@ -48,7 +48,7 @@ ms.lasthandoff: 09/20/2017
 |BizTalk &#124;搜尋重新整理<br /><br /> 重新整理來源結構描述、 目的結構描述或在格線頁中的搜尋結果。|CTRL + M、 CTRL + B|  
 |BizTalk &#124;顯示連結節點 （來源結構描述）<br /><br /> 來源結構描述中會顯示所有連結的節點。|CTRL+M、CTRL+H|  
 |BizTalk &#124;顯示連結節點 （目的結構描述）<br /><br /> 目的結構描述中會顯示所有連結的節點。|CTRL+M, CTRL+D|  
-|BizTalk &#124;設定運算質輸入<br /><br /> 開啟**設定\<運算質 > 運算質**對話方塊，您可以在其中設定所選取運算質的輸入的參數。|CTRL + M、 CTRL + I<br /><br /> 選取運算質 + ENTER|  
+|BizTalk &#124;設定運算質輸入<br /><br /> 開啟**設定\<運算質\>運算質**對話方塊，您可以在其中設定所選取運算質的輸入的參數。|CTRL + M、 CTRL + I<br /><br /> 選取運算質 + ENTER|  
 |BizTalk &#124;搜尋<br /><br /> 可讓您搜尋的來源結構描述、 目的結構描述和格線介面中的項目。|CTRL + M、 CTRL + F|  
 |BizTalk &#124;搜尋選項<br /><br /> 可讓您搜尋特定項目。|CTRL+M、CTRL+O|  
 |BizTalk &#124;搜尋上一個<br /><br /> 尋找搜尋字串中的搜尋上一個執行個體。|CTRL + M、 CTRL + J<br /><br /> 向上鍵|  
@@ -62,5 +62,5 @@ ms.lasthandoff: 09/20/2017
 |BizTalk &#124;指示符合<br /><br /> 可讓您透過建議最佳對應對應複雜的結構描述項目。|SHIFT + 空格鍵|  
 |BizTalk &#124;繼續指示符合<br /><br /> 可讓您周遊指示符合的喜好順序。|向上鍵、 向下鍵|  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [使用 BizTalk 對應工具命令](../core/using-biztalk-mapper-commands.md)

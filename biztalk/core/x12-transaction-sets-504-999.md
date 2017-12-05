@@ -12,14 +12,14 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b9ab6de85a9468db75c2b1e71ff15ceb7fa5c935
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 40ae8c54dc49759f78f13e7f39cc5552adf5c52b
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="x12-transaction-sets-504-999"></a>X12 交易集 504 999
-此主題列出 X12 文件和所支援的版本[!INCLUDE[prague](../includes/prague-md.md)]。  
+此主題列出 X12 文件和 BizTalk Server 所支援的版本。  
 
 ##  <a name="trns504"></a>交易集 504 568  
   
@@ -202,7 +202,7 @@ ms.lasthandoff: 09/20/2017
 |998||||![核取記號](../core/media/checkmark.gif)|![核取記號](../core/media/checkmark.gif)|![核取記號](../core/media/checkmark.gif)|![核取記號](../core/media/checkmark.gif)|![核取記號](../core/media/checkmark.gif)|![核取記號](../core/media/checkmark.gif)|![核取記號](../core/media/checkmark.gif)|![核取記號](../core/media/checkmark.gif)|![核取記號](../core/media/checkmark.gif)|||![核取記號](../core/media/checkmark.gif)||||![核取記號](../core/media/checkmark.gif)|![核取記號](../core/media/checkmark.gif)|![核取記號](../core/media/checkmark.gif)|  
 |999|||||||||||||||||||![核取記號](../core/media/checkmark.gif)|![核取記號](../core/media/checkmark.gif)|![核取記號](../core/media/checkmark.gif)|  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [X12 交易集 100-250](../core/x12-transaction-sets-100-250.md)   
  [X12 交易集 251-503](../core/x12-transaction-sets-251-503.md)   
  [HIPAA 交易集](../core/hipaa-transaction-sets.md)   

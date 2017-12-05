@@ -12,11 +12,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b09cc02f8f43b589da821924cfdd38bec52160e0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: aa05cf28e267e84dd73ad1a3ffd753ee89febb71
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="operations-on-tables-and-views-with-user-defined-types-using-the-sql-adapter"></a>資料表和檢視表上使用 SQL 配接器的使用者定義類型的作業
 您可以使用[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]資料表或檢視具有使用者定義型別 (Udt) 的資料行上執行作業。 您可以使用標準的資料表作業 （插入、 更新、 刪除、，選取） 讀取或寫入資料到資料行，在 UDT 型別上。 您也可以在這類資料表上執行預存程序和函式。 不過，您需要執行特定工作，才能使用配接器具有 UDT 資料行的資料表上運作。 一旦您已經執行這些工作，您可以使用配接器：  
@@ -46,7 +46,7 @@ ms.lasthandoff: 09/20/2017
     |UDT 類型|組件的位置|  
     |--------------|----------------------------|  
     |Udt 隨附於 SQL Server，例如地理位置|-請確定 Microsoft.SqlServer.Types.dll 加入至 GAC。<br />-請確定 SqlServerSpatial.dll 位於 System32 資料夾中。<br /><br /> 您可以在電腦上安裝這些 Dll，以執行 SQL Server 安裝程式，並選取**管理工具 – 基本**和**管理工具-完整**中**特徵選取**精靈頁面。|  
-    |並未隨附於 SQL Server，但使用者定義的 Udt|請確定將個別的組件的 Udt 可以使用下[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]安裝位置。 如[!INCLUDE[prague](../../includes/prague-md.md)]，這通常是\<安裝磁碟機 >: \Program Files\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]。|  
+    |並未隨附於 SQL Server，但使用者定義的 Udt|請確定將個別的組件的 Udt 可以使用下[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]安裝位置。 BizTalk server，這通常是\<安裝磁碟機\>: \Program Files\Microsoft BizTalk Server。|  
   
 -   **執行作業使用時[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]**  
   
@@ -57,5 +57,5 @@ ms.lasthandoff: 09/20/2017
   
  一旦您完成這些工作，您已全部設定為使用 Udt 的資料表上執行作業。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [連接至 SAP 系統使用配接器](../../adapters-and-accelerators/adapter-sap/connect-to-an-sap-system-using-the-adapter.md)

@@ -13,11 +13,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 51c30fa3b107113991a8b4893fa2626a53d67159
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bb0dd0b9d778f878df9a06efdfc0f41754403690
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="update-or-uninstall-the-biztalk-adapter-pack-2016"></a>更新或解除安裝 BizTalk 配接器組件 2016
 如何變更或解除安裝[!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]。
@@ -97,7 +97,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="uninstall-or-remove-the-biztalk-adapter-pack"></a>解除安裝或移除 BizTalk Adapter Pack  
   
 > [!IMPORTANT]
->  如果您使用的 tRFC 功能的 SQL Server 資料庫中建立資料表[!INCLUDE[adaptersap_short](../includes/adaptersap-short-md.md)]，您必須先解除安裝，手動移除這些[!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]。 [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]安裝複製`SapAdapter-DbScript-Uninstall.sql`檔案通常位於*\<安裝磁碟機 >: \Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]* 。 執行這個檔案來移除您所建立的資料表。  
+>  如果您使用的 tRFC 功能的 SQL Server 資料庫中建立資料表[!INCLUDE[adaptersap_short](../includes/adaptersap-short-md.md)]，您必須先解除安裝，手動移除這些[!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]。 [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]安裝複製`SapAdapter-DbScript-Uninstall.sql`檔案通常位於*\<安裝磁碟機\>: \Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]* 。 執行這個檔案來移除您所建立的資料表。  
   
 完成下列步驟來移除[!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]從您的電腦。 請確定您有[!INCLUDE[afproductnameshort](../includes/afproductnameshort-md.md)]安裝之前執行安裝精靈。  
   
@@ -137,7 +137,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="remove-the-bindings"></a>移除繫結  
  完成這些步驟*只*如果安裝精靈無法移除 machine.config 檔中的配接器繫結或.NET Framework 資料提供者註冊。  
   
-1.  移至電腦上的 machine.config 檔案。 例如，32 位元平台上，machine.config 位在*\<系統磁碟機 >: \WINDOWS\Microsoft.NET\Framework\\< 版本\>\CONFIG*。  
+1.  移至電腦上的 machine.config 檔案。 例如，32 位元平台上，machine.config 位在*\<系統磁碟機\>: \WINDOWS\Microsoft.NET\Framework\\< 版本\>\CONFIG*。  
   
 2.  開啟檔案，使用文字編輯器。  
   

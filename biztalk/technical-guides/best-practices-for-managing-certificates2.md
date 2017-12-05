@@ -12,14 +12,14 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 39f47159fbeacb1b4975cf9f1aa0a8c9a030ecc3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0eb6550a5e7b3604d4bb99507299cce5262e210e
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="best-practices-for-managing-certificates"></a>管理憑證的最佳作法
-本節提供管理在您的 Microsoft 憑證的最佳作法[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]環境。  
+本節提供管理 Microsoft BizTalk Server 環境中的憑證的最佳作法。  
   
 ## <a name="assess-and-plan-your-use-of-certificates"></a>評估和憑證的使用規劃  
  **執行環境的威脅模型分析**  

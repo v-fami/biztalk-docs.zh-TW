@@ -17,11 +17,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: abea3028c2ec9fd2131b8fd17247476b6fdfa6f0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 27528cf6da53c69db4b2bc6c9e1d296472b24186
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-audit-sso"></a>如何稽核 SSO
 您可以使用 MMC 嵌入式管理單元或命令列，以設定正負兩種稽核層次。 稽核的結果會儲存在資料庫的事件日誌和稽核日誌。  
@@ -67,9 +67,9 @@ ms.lasthandoff: 09/20/2017
   
 1.  在**啟動**功能表上，按一下 **執行**，然後輸入**cmd**。  
   
-2.  在命令列提示字元中，移至「企業單一登入」安裝目錄。 預設安裝目錄是**\<磁碟機 >**: \Program Files\Common Files\Enterprise Single Sign-on。  
+2.  在命令列提示字元中，移至「企業單一登入」安裝目錄。 預設安裝目錄是**\<磁碟機\>**: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-3.  型別**ssoconfig – auditlevel\<正數 >\<負 >**，其中**\<正數 >**是層級的稽核動作成功時, 和**\<負 >**是動作失敗時的稽核層級。  
+3.  型別**ssoconfig – auditlevel\<正數\>\<負數\>**，其中**\<正數\>**的層級當動作成功，稽核和**\<負數\>**是動作失敗時的稽核層級。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
@@ -78,13 +78,13 @@ ms.lasthandoff: 09/20/2017
   
 1.  依序按一下 **[開始]**及 **[執行]**，然後輸入 **cmd**。  
   
-2.  在命令列提示字元中，移至「企業單一登入」安裝目錄。 預設安裝目錄是**\<磁碟機 >**: \Program Files\Common Files\Enterprise Single Sign-on。  
+2.  在命令列提示字元中，移至「企業單一登入」安裝目錄。 預設安裝目錄是**\<磁碟機\>**: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-3.  型別**ssomanage – updatedb\<更新檔案 >**，其中**\<更新檔案 >**路徑和檔案名稱。  
+3.  型別**ssomanage – updatedb\<更新檔案\>**，其中**\<更新檔案\>**路徑和檔案名稱。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [如何更新 SSO 資料庫](../core/how-to-update-the-sso-database.md)   
  [使用 SSO](../core/using-sso.md)

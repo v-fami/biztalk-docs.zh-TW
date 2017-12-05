@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5dfc7c7d572f3370e87df2f03d392a993116b74d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 071227182eb9b5550b23e23463800cc7dd5a22c4
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-transform-a-message-and-route-to-a-service-endpoint-using-a-request-response-message-exchange-pattern"></a>如何： 轉換訊息及使用要求-回應訊息交換模式的服務端點的路由
 ## <a name="goal"></a>目標  
@@ -39,7 +39,7 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-create-an-esb-itinerary-dsl-model"></a>若要建立 ESB 路線 DSL 模型  
   
-1.  在[!INCLUDE[vs2010](../includes/vs2010-md.md)]，開啟 C:\HowTos\Patterns\Patterns.sln。  
+1.  在 Visual Studio 中開啟 C:\HowTos\Patterns\Patterns.sln。  
   
 2.  在 方案總管 中，以滑鼠右鍵按一下**ItineraryLibrary**專案，指向**新增**，然後按一下 **新的行程**。  
   
@@ -188,10 +188,10 @@ ms.lasthandoff: 09/20/2017
 ## <a name="additional-resources"></a>其他資源  
  如需詳細資訊，請參閱下列相關主題：  
   
--   [如何： 轉換訊息，並將產生的訊息路由至使用路線的路由名單的檔案位置](../esb-toolkit/transform-message-and-route-the-message-to-a-location-using-itinerary-routing.md)  
+-   [如何：轉換訊息，並使用路線傳閱名單將產生的訊息路由至檔案位置](../esb-toolkit/transform-message-and-route-the-message-to-a-location-using-itinerary-routing.md)  
   
 -   [開發活動](../esb-toolkit/development-activities.md)  
   
--   [訊息的路由模式](../esb-toolkit/message-routing-patterns.md)  
+-   [訊息路由模式](../esb-toolkit/message-routing-patterns.md)  
   
--   [安裝及執行多個 Web 服務範例](../esb-toolkit/installing-and-running-the-multiple-web-services-sample.md)
+-   [安裝和執行多個 Web 服務範例](../esb-toolkit/installing-and-running-the-multiple-web-services-sample.md)

@@ -18,11 +18,11 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 45d83e1a250850d372c2e12c7ffebc79f823c287
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d1e14234363ace4b953fa4766a97502753572e6f
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="using-biztalk-adapter-tracing"></a>使用 BizTalk 配接器追蹤
 本主題描述如何安裝 Trace Log tool (追蹤記錄工具) 以及如何啟用 BizTalk 配接器追蹤。  
@@ -60,7 +60,7 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-enable-biztalk-adapter-tracing"></a>啟用 BizTalk 配接器追蹤  
   
-1.  在命令提示字元，將目前的目錄變更為已安裝 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 的目錄。 根據預設，[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]安裝在[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]目錄。  如果使用 64 位元版本的 Windows 和[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]，安裝路徑是[!INCLUDE[btsBizTalkServerPathx64](../includes/btsbiztalkserverpathx64-md.md)]。  
+1.  在命令提示字元中，將目前目錄的內容變更為安裝 BizTalk Server 的目錄。 根據預設，BizTalk Server 會安裝在[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]目錄。  如果使用 64 位元版本的 Windows 和 BizTalk Server，則安裝路徑是[!INCLUDE[btsBizTalkServerPathx64](../includes/btsbiztalkserverpathx64-md.md)]。  
   
 2.  輸入下列命令，然後按 ENTER：  
   
@@ -85,7 +85,7 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-capture-trace-output"></a>擷取追蹤輸入  
   
-1.  在命令提示字元，將目前的目錄變更為已安裝 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 的目錄。  
+1.  在命令提示字元中，將目前目錄的內容變更為安裝 BizTalk Server 的目錄。  
   
 2.  在命令提示字元，輸入下列命令，然後按 ENTER：  
   
@@ -101,6 +101,6 @@ ms.lasthandoff: 09/20/2017
   
 6.  可以將 **Btstrace.bin** 檔案傳送至 Microsoft 產品支援服務以供分析。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [使用配接器](../core/using-adapters.md)   
  [Windows SharePoint Services 配接器疑難排解](../core/troubleshooting-the-windows-sharepoint-services-adapter.md)

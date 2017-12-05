@@ -19,25 +19,25 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ed2dc02911ad8ce78e3657c78ad1150d96b4f4f9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: af11e69c90c9d211e36e706710c1d1de44a72399
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="lobapplication"></a>LOBApplication
 您可使用 LOBApplication 公用程式將動作或回應訊息提交給交易夥伴，模擬實際的商務營運系統 (LOB) 桌面程式。  
   
- [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]®[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]會提供範例訊息中的\<*磁碟機*> \Program Files\Microsoft BizTalk\<版本 > Accelerator for RosettaNet\SDK\LOBApplication\SampleInstances 資料夾。  
+ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]®[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]會提供範例訊息中的\<*磁碟機*\>\Program Files\Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK\LOBApplication\SampleInstances 資料夾。  
   
 ## <a name="location-in-sdk"></a>SDK 中的位置  
- \<*磁碟機*> \Program Files\Microsoft BizTalk\<版本 > Accelerator for RosettaNet\SDK\LOBApplication  
+ \<*磁碟機*\>\Program Files\Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK\LOBApplication  
   
 ## <a name="running-lobapplication"></a>執行 LOBApplication  
   
 #### <a name="to-run-lobapplication"></a>若要執行 LOBApplication  
   
-1.  在 Windows 檔案總管 中，移至\<*磁碟機*> \Program Files\Microsoft BizTalk\<版本 > Accelerator for RosettaNet\SDK\\。  
+1.  在 Windows 檔案總管 中，移至\<*磁碟機*\>\Program Files\Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK\\。  
   
 2.  按兩下**LOBApplication.exe**，然後按 ENTER 鍵。  
   
@@ -68,6 +68,6 @@ ms.lasthandoff: 09/20/2017
   
  您可使用 LOBApplication 公用程式以模擬商務營運系統桌面程式提交訊息。 您可以使用 LOBWebApplication 公用程式，模擬商務營運系統 Web 應用程式提交訊息。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [公用程式](../../adapters-and-accelerators/accelerator-rosettanet/utilities1.md)   
  [LOBWebApplication](../../adapters-and-accelerators/accelerator-rosettanet/lobwebapplication.md)

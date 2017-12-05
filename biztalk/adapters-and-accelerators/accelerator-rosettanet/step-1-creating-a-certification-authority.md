@@ -16,11 +16,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d94a2b02b654983701323703edcc1b3ba3fcca13
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a3d796608a4cc323ccf5e1a8bdee7420c5bab259
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-1-creating-a-certification-authority"></a>步驟 1： 建立憑證授權單位
 在本主題中，您將安裝憑證服務 [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] 元件。 您可以使用此元件產生必要的憑證，以促成 Contoso 和 Fabrikam 組織之間的安全通訊。 每個交易夥伴都會有可用來通訊的私人加密憑證，以及用於識別身份的私人簽章憑證。 此外，交易夥伴將彼此共用公開金鑰憑證，以便在實作 3A2 交易夥伴介面程序 (PIP) 時保護彼此之間的通訊。  
@@ -99,9 +99,9 @@ ms.lasthandoff: 09/20/2017
   
 1.  按一下**啟動**，按一下 **執行**，型別**cmd**，然後按一下**確定**。  
   
-2.  在命令提示字元中，移至**\<磁碟機 >: \Program Files\MicrosoftBizTalk\<版本 > Accelerator for RosettaNet\SDK**，然後按下**Enter**。  
+2.  在命令提示字元中，移至**\<磁碟機\>: \Program Files\MicrosoftBizTalk\<版本\>Accelerator for RosettaNet\SDK**，然後按下**Enter**.  
   
-3.  在命令提示字元中，輸入**CertWizard /Rootkey"\<磁碟機 >: \Certs\Contoso-FabrikamCA.cer"**，然後按下**Enter**。  
+3.  在命令提示字元中，輸入**CertWizard /Rootkey"\<磁碟機\>: \Certs\Contoso-FabrikamCA.cer"**，然後按下**Enter**。  
   
     > [!IMPORTANT]
     >  在 Contoso 和 Fabrikam 兩台電腦執行此程序。  
@@ -125,5 +125,5 @@ ms.lasthandoff: 09/20/2017
     >   
     >  您可能需要將根憑證 Contoso-FabrikamCA.cer 安裝在 Current User\Trusted Root Certification authorities 中。  
   
-## <a name="see-also"></a>另請參閱  
- [步驟 2： 建立公開憑證與私用憑證](../../adapters-and-accelerators/accelerator-rosettanet/step-2-creating-public-and-private-certificates.md)
+## <a name="see-also"></a>請參閱  
+ [步驟 2：建立公開憑證與私用憑證](../../adapters-and-accelerators/accelerator-rosettanet/step-2-creating-public-and-private-certificates.md)

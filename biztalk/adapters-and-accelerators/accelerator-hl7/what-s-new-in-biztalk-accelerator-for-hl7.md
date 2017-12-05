@@ -13,11 +13,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 507f2c3561747d9abb3ad3f1bfbd86c4738fbefd
-ms.sourcegitcommit: f4c0d7bc4b617688c643101a34062db90014851a
+ms.openlocfilehash: d3cdb992f749633bd517d6cad7f1acce926157c1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="whats-new-in-biztalk-accelerator-for-hl7"></a>BizTalk accelerator for HL7 最新消息
 變更與更新與[!INCLUDE[HL7_CurrentVersion_FirstRef_md](../../includes/hl7-currentversion-firstref-md.md)]。 
@@ -38,8 +38,8 @@ ms.lasthandoff: 11/23/2017
 |**「 FreeText 」 支援**|如果欄位或區段定義為 「 FreeText"，無法剖析欄位/區段中的字元資料。 請參閱[編碼的字元，使用任意文字](../../adapters-and-accelerators/accelerator-hl7/encoding-characters-using-free-text.md)。|  
 |**具有無效的 MSH 郵件會傳送 ACK 或 NACK**|使用**ReturnErrorForInvalidMSH3**登錄機碼，負認可 (NACK) 會傳送至合作對象如果發生下列情況：<br /><br /> -無效的 MSH3 （合作對象中未定義 HL7 組態總管） <br />    **AND**<br />-MSH15 和 MSH16 訊息中的值是 null 或空白<br /><br /> 若要傳送 NACK，下列的登錄機碼設為 1，然後重新啟動主控件執行個體：<br /><br /> 32 位元主控件：`HKLM\SOFTWARE\Microsoft\BizTalk Accelerator for HL7`<br /><br /> 64 位元主控件：`HKLM\ SOFTWARE\Wow6432Node\Microsoft\BizTalk Accelerator for HL7` <br/><br/>**提示：**連接埠可以訂閱失敗訊息： <ul><li>使用**BTAHL7Schemas.ParseError = True**篩選條件。</li><li>使用**Pass Through**管線。</li></ul>|  
 |**ACK 訊息執行個體保持作用中**|如果沒有連接到上游系統失敗，傳送到上游系統通知 (ACK) 會維持在作用中狀態。<br /><br /> 新的行為： 如果沒有連接到上游系統失敗，則通知會擱置訊息。|  
-|**不要傳送\<SB >**|這個屬性會新增至接收配接器連接埠組態屬性。 若要啟用此屬性，設定**UseMLLPTransACK**值：<br /><br /> -當設定為**False** （預設值），配接器傳送訊息如果資料是以開頭\<SB >。 例如，會傳送下列訊息：<br /> `<SB\>DataData<CR\>DataData<CR\>…`<br/><br />-當設定為**True**，配接器傳送訊息，如果資料遺漏\<SB > 一開始。 例如，會傳送下列訊息：<br /> `DataData<CR\>DataData<CR\>…` <br/><br/>**重要事項：**如果兩個方式傳送連接埠有**不要傳送\<SB >**設為 True，則不會傳送 SB 訊息至下游系統。 同時它可以與 SB 遺漏下游系統接收通知。|  
-|**接受遺漏\<SB >**|這個屬性會加入至傳送配接器連接埠組態屬性。 若要啟用此屬性，設定**UseMLLPTransACK**值：<br /><br /> -當設定為**False** （預設值），配接器時傳回錯誤的資料已遺失\<SB > 一開始。 例如，下列訊息會傳回錯誤：<br /> `DataData<CR\>DataData<CR\>…`<br/><br />-當設定為**True**，配接器可以接收訊息，如果資料遺漏\<SB > 一開始。 例如，收到下列訊息：<br /> `<SB\>DataData<CR\>DataData<CR\>…` <br />`DataData<CR\>DataData<CR\>…` <br/><br/>**重要事項：**雙向接收埠是否**接受遺漏\<SB >**設為 True，則它會接受來自上游系統訊息中的遺失 SB。 同時它不會傳送 SB 上游的系統。|  
+|**不要傳送\<SB\>**|這個屬性會新增至接收配接器連接埠組態屬性。 若要啟用此屬性，設定**UseMLLPTransACK**值：<br /><br /> -當設定為**False** （預設值），配接器傳送訊息如果資料是以開頭\<SB\>。 例如，會傳送下列訊息：<br /> `<SB\>DataData<CR\>DataData<CR\>…`<br/><br />-當設定為**True**，配接器傳送訊息，如果資料遺漏\<SB\>開始。 例如，會傳送下列訊息：<br /> `DataData<CR\>DataData<CR\>…` <br/><br/>**重要事項：**如果兩個方式傳送連接埠有**不要傳送\<SB\>** 設為 True，則不會傳送 SB 訊息至下游系統。 同時它可以與 SB 遺漏下游系統接收通知。|  
+|**接受遺漏\<SB\>**|這個屬性會加入至傳送配接器連接埠組態屬性。 若要啟用此屬性，設定**UseMLLPTransACK**值：<br /><br /> -當設定為**False** （預設值），配接器時傳回錯誤的資料已遺失\<SB\>開始。 例如，下列訊息會傳回錯誤：<br /> `DataData<CR\>DataData<CR\>…`<br/><br />-當設定為**True**，配接器可以接收訊息，如果資料遺漏\<SB\>開始。 例如，收到下列訊息：<br /> `<SB\>DataData<CR\>DataData<CR\>…` <br />`DataData<CR\>DataData<CR\>…` <br/><br/>**重要事項：**雙向接收埠是否**接受遺漏\<SB\>** 設為 True，則它會接受來自上游系統訊息中的遺失 SB。 同時它不會傳送 SB 上游的系統。|  
   
 ## <a name="biztalk-server-2013"></a>BizTalk Server 2013  
   

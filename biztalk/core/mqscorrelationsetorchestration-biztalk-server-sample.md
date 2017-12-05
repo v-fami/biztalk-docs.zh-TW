@@ -19,11 +19,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ea8de4f60907e465f37502b5b0227e31ddcd92b5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 75ac63fe0fee593f927e854ce425ff7f631f9475
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="mqscorrelationsetorchestration-biztalk-server-sample"></a>MQSCorrelationSetOrchestration (BizTalk Server 範例)
 MQSCorrelationSetOrchestration 範例會示範如何使用 MQSeries 相互關聯識別項，將傳送至 MQSeries 佇列的相互關聯訊息送回到執行中的協調流程。 協調流程設定 MQSeries 相互關聯識別項和訊息使用的識別碼值**MQMD_CorrelId**和**MQMD_MsgID**屬性。 MQSeries 佇列管理員會將 MessageID 值複製到訊息的 CorrelationID 屬性。  
@@ -38,7 +38,7 @@ MQSCorrelationSetOrchestration 範例會示範如何使用 MQSeries 相互關聯
  這個範例所示範的實例中，將由協調流程處理的文件可以傳送至 MQSeries 佇列 (假設會進行其他處理)，並會傳回到執行中的協調流程。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- *\<範例路徑 >*\AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestration  
+ *\<範例路徑\>*\AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestration  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -240,7 +240,7 @@ MQSCorrelationSetOrchestration 範例會示範如何使用 MQSeries 相互關聯
   
 4.  指定強式名稱金鑰檔簽署組件的專案屬性**簽署**頁面上，然後建置專案。  
   
-5.  若要編譯的組件載入至 GAC 中使用全域組件快取工具 (gacutil.exe) (gacutil /i \<*的已編譯的 dll 檔案名稱*>)。  
+5.  若要編譯的組件載入至 GAC 中使用全域組件快取工具 (gacutil.exe) (gacutil /i \<*的已編譯的 dll 檔案名稱*\>)。  
   
 6.  在此範例的 BizTalk 專案中新增 GetId 組件的參考。  
   
@@ -269,6 +269,6 @@ MQSCorrelationSetOrchestration 範例會示範如何使用 MQSeries 相互關聯
 ## <a name="classes-or-methods-used-in-this-sample"></a>在此範例中使用的類別或方法  
  此範例沒有明確使用任何類別或方法。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [使用要求-回覆相互關聯訊息](../core/correlating-messages-using-request-reply.md)   
  [MQSeries 配接器範例](../core/mqseries-adapter-samples.md)

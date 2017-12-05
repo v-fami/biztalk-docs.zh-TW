@@ -30,11 +30,11 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 16c300229163805dcb750590414851eb6013c7a6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1cf72847fccd84a1435e436a4bf2b59d36e26179
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="ftp-adapter-property-schema-and-properties"></a>FTP 配接器屬性結構描述和屬性
 下表包含 FTP 配接器屬性結構描述中的屬性。  
@@ -52,7 +52,7 @@ ms.lasthandoff: 09/20/2017
 |**ReceivedFileName**|xs:string|指定 FTP 配接器從中讀取訊息之檔案的完整名稱。|  
 |**MaxConnections**|xs:unsignedInt|指定伺服器最多可以開啟的並行 FTP 連線數目。 值為 0 時表示沒有限制。|  
 |**CommandLogFileName**|xs:string|指定要儲存一份可用來診斷錯誤條件時傳送或接收透過 FTP 檔案的記錄檔的位置。|  
-|**AllocateStorage**|xs:boolean|此選項在 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 中已被取代，因此不鼓勵使用此屬性。|  
+|**AllocateStorage**|xs:boolean|此選項已被取代，在 BizTalk Server 中，不建議使用這個屬性。|  
 |**PassiveMode**|xs:boolean|指定配接器與 FTP 伺服器之間的連接模式。<br /><br /> 在主動模式下，FTP 伺服器會連線到 FTP 配接器所開啟的連接埠。 在被動模式下，FTP 配接器會連線到 FTP 伺服器所開啟的連接埠。<br /><br /> 如果**PassiveMode**是 false，則配接器連接到 FTP 伺服器使用主動模式。 此屬性的預設值是 false。|  
 |**SpoolingFolder**|xs:string|指定 FTP 伺服器上的暫存資料夾位置。 使用此選項可確保從傳輸失敗復原。|  
 |**UseSsl**|xs:boolean|指定 FTP 配接器是否需使用 SSL 以和 FTPS 伺服器通訊。|  
@@ -60,9 +60,9 @@ ms.lasthandoff: 09/20/2017
 |**FtpsConnectionMode**|xs:string|指定與 FTP 伺服器建立的 SSL 連線模式。<br /><br /> **有效值：**隱含或明確|  
 |**ClientCertificateHash**|xs:string|指定必須用於安全通訊端層 (SSL) 交涉的用戶端憑證 SHA1 雜湊。<br /><br /> 系統會根據此雜湊，從用於執行 BizTalk 主控件執行個體之使用者帳戶的個人存放區挑選用戶端憑證。|  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [設定 FTP 配接器](../core/configuring-the-ftp-adapter.md)
  
- [最佳做法和建議，FTP 配接器](../core/best-practices-and-recommendations-for-the-ftp-adapter.md)
+ [FTP 配接器的最佳做法和建議](../core/best-practices-and-recommendations-for-the-ftp-adapter.md)
  
  [FTP 配接器](../core/ftp-adapter.md)

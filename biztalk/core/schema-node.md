@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: dee662cb9cb6e86b85a7760daf45af832a447b5f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: dd892e825194afea880d3bde153f472051ce9102
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="schema-node"></a>結構描述節點
 
@@ -24,14 +24,14 @@ ms.lasthandoff: 09/20/2017
 在 [BizTalk 編輯器] 中，結構描述階層的頂層永遠是**結構描述**節點，無法重新命名。 **結構描述**節點對應至**結構描述**結構描述的 XML 結構描述定義 (XSD) 語言表示法中的項目。  
   
 > [!NOTE]
->  在 [BizTalk 編輯器] 中，**結構描述**節點以字串表示\<結構描述 > 結構描述樹狀結構檢視中。  
+>  在 [BizTalk 編輯器] 中，**結構描述**節點以字串表示\<結構描述\>結構描述樹狀結構檢視中。  
   
  一般而言，屬性**結構描述**節點對應屬性的**結構描述**結構描述之 XSD 表示法中的項目。 如需節點屬性的一般資訊，請參閱[節點屬性](../core/node-properties.md)。 如需屬性的參考資訊**結構描述** 節點，請參閱**結構描述節點屬性** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。
   
  當您在 「 BizTalk 編輯器 」 中，建立新的 XML 結構描述**結構描述**節點和一個**根**節點會自動建立。  
   
 ## <a name="xsd-representation"></a>XSD 表示法  
- 下列範例所示，以粗體類型，對應至結構描述之 XSD 表示法中的線條**\<結構描述 >**的結構描述樹狀檢視中的節點。  
+ 下列範例所示，以粗體類型，對應至結構描述之 XSD 表示法中的線條**\<結構描述\>**的結構描述樹狀檢視中的節點。  
   
 ```  
 <?xml version="1.0" encoding="utf-16" ?>  
@@ -45,7 +45,7 @@ ms.lasthandoff: 09/20/2017
 </xs:schema>  
 ```  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [BizTalk 結構描述表示法](../core/biztalk-representation-of-schemas.md)   
  [節點屬性](../core/node-properties.md)   
  [設定節點屬性](../core/how-to-set-node-properties.md)

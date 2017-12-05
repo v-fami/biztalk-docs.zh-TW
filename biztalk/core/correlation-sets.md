@@ -20,11 +20,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 28d11e5e174808ca7718d5fef98b3ad079cffc18
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 09bad0bf41f5b509f9a64e9484cac84f66a84e4b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="correlation-sets"></a>相互關聯集合
 您可以定義相互關聯集合以達成訊息與協調流程執行個體的相互關聯。 相互關聯集是一組屬性*具有特定值*。 這是相互關聯類型，也就是只是一份屬性不同。 如果傳入的訊息沒有所有這些屬性，並在每個屬性都有相符的值，相互關聯便會失敗，而且訊息也不會由協調流程執行個體所接收。  
@@ -35,17 +35,17 @@ ms.lasthandoff: 09/20/2017
   
 |相互關聯類型屬性|可能的 XML 表示法|  
 |-------------------------------|---------------------------------|  
-|社會安全碼|\<SSN >\</SSN >|  
-|生日|\<DOB >\</DOB >|  
-|Gender|\<性別 >\<性別/>|  
+|社會安全碼|\<SSN\>\</SSN\>|  
+|生日|\<DOB\>\</DOB\>|  
+|Gender|\<性別\> \< /性別\>|  
   
  衍生自此相互關聯類型的相互關聯集合則可能由下列屬性與值組成：  
   
 |相互關聯集合屬性/值|可能的 XML 表示法|  
 |-------------------------------------|---------------------------------|  
-|社會安全碼 = 222112222|\<SSN > 222112222\</SSN >|  
-|生日 = “1/1/1995”|\<DOB >"1/1/1995"\</DOB >|  
-|性別 = 男|\<性別 > M\<性別/>|  
+|社會安全碼 = 222112222|\<SSN\>222112222\</SSN\>|  
+|生日 = “1/1/1995”|\<DOB\>"1/1/1995"\</DOB\>|  
+|性別 = 男|\<性別\>M \< /性別\>|  
   
 > [!NOTE]
 >  每個相互關聯集合最多可支援三個參數。  

@@ -23,11 +23,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 678977b23f377425718e483d87725ba191bbda86
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 04c7e6e28cc0deb83eaa7868c6c4ee17da8bc563
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="windows-accounts-for-a-secure-distributed-biztalk-server-deployment"></a>用於安全分散式 BizTalk Server 部署的 Windows 帳戶
 完成 BizTalk Server 部署的系統架構的詳細資訊，請參閱[範例 BizTalk Server 架構](../core/sample-biztalk-server-architectures.md)。  
@@ -83,7 +83,7 @@ ms.lasthandoff: 09/20/2017
 |安裝|使用者|SSO 系統管理員 (僅限設定主要密碼伺服器)<br /><br /> 本機系統管理員<br /><br /> 系統管理員 (sysadmin) SQL Server 角色<br /><br /> OLAP 系統管理員|  
 |BAM 應用程式集區|服務|IIS_WPG|  
 |BAM 管理|服務|IIS_WPG|  
-|BAM 通知|服務|SQLServer2005NotificationServicesUser$\<**ComputerName**>|  
+|BAM 通知|服務|SQLServer2005NotificationServicesUser$\<**ComputerName**\>|  
   
  下表所列帳戶是建議網域系統管理員，應在企業網域的網域控制站中建立的帳戶。  
   
@@ -92,7 +92,7 @@ ms.lasthandoff: 09/20/2017
 |SharePoint 系統管理員|使用者|  
 |SharePoint 網站認證|使用者|  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [大型分散式的架構](../core/large-distributed-architecture.md)   
  [最低安全性使用者權限](../core/minimum-security-user-rights.md)   
  [Windows 群組和 BizTalk Server 中的使用者帳戶](../core/windows-groups-and-user-accounts-in-biztalk-server.md)   

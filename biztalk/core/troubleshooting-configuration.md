@@ -12,11 +12,11 @@ caps.latest.revision: "37"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2c16e2ee6d09afa3479a0540838086cb92270132
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e523c5c992ea422e6fe81f3c0d948db7007bcdb1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="troubleshooting-configuration"></a>組態疑難排解
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 組態程式會在執行 [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] 的一或多部電腦上建立資料庫、將 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 所使用的資料表、角色和預存程序填入資料庫中，然後將執行階段所使用的 .NET 組件部署到 BizTalk 管理資料庫。  
@@ -151,7 +151,7 @@ echo %TEMP%
   
  無法連線到儲存機制。  
   
- Analysis server:\<機器名稱 >  
+ Analysis server:\<機器名稱\>  
   
  Error:  
   
@@ -175,7 +175,7 @@ echo %TEMP%
   
 4.  在**編輯儲存機制連線字串**對話方塊，確認伺服器名稱，這個字串中的，將其更新為新的電腦名稱是否正確。  
   
-5.  瀏覽至下列位置： \<*安裝目錄*> \Program Files\Microsoft Analysis Services\Bin。  
+5.  瀏覽至下列位置： \<*安裝目錄*\>\Program Files\Microsoft Analysis Services\Bin。  
   
 6.  以滑鼠右鍵按一下**Bin**資料夾，然後再按一下**共用和安全性**。 **Bin 屬性** 對話方塊隨即出現。  
   

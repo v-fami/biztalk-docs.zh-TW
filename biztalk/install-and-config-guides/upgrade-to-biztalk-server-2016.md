@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a139b625ff1c31fb0dce71c08779856f0dc8b685
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 39b5b6b6da7d97d3c763e5f45f215aa03d13c77c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="upgrade-to-biztalk-server-2016"></a>升級到 BizTalk Server 2016
 從 [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)] 或 BizTalk Server 2013 升級至 [!INCLUDE[bts2016_md](../includes/bts2016-md.md)]。
@@ -152,9 +152,9 @@ ms.lasthandoff: 09/20/2017
 - **maxTimeout 值**：如果您有大型的 BAM 資料庫，請更新 machine.config 檔中分散式交易的 `maxTimeout` 值，以：  
 
     ```
-    \<system.transactions>
+    <system.transactions>
        <machineSettings maxTimeout="23:59:59" />
-    \</system.transactions>
+    </system.transactions>
     ```
 
 - **使用追蹤設定檔編輯器 (TPE) 啟用的 BAM 追蹤**：升級之後，會升級先前部署的追蹤設定檔；不過，它們對應的攔截器設定不會升級。 攔截到的任何新 BAM 訊息可能仍然會有 BizTalk Server 2013 R2/2013 參考。 若要升級對應的攔截器設定，請使用追蹤設定檔編輯器來擷取活動的設定檔，然後重新套用設定檔。
@@ -282,7 +282,7 @@ ms.lasthandoff: 09/20/2017
 - **自訂 EXE 及 BRE**：如果您有自訂的受管理可執行檔，而且此檔案參考 BizTalk Server 2010 中的商務規則引擎組件，請將下列項目加入應用程式設定檔案，以在 .NET Framework 2.0 中執行此程序。
 
     ```
-    \<?xml version="1.0" encoding="Windows-1252"?>
+    <?xml version="1.0" encoding="Windows-1252"?>
     <configuration> 
      <startup>
       <supportedRuntime version="v2.0.50727" />

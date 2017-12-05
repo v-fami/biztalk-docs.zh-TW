@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f2dfd8aaa2b47c0acea6421fe6c50acb49127c13
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b1d5035f5379972521c36fb8bef5b6aba8157aa6
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="assemblies-and-artifacts-installed-by-the-jms-mqrfh2-component-sample"></a>組件和成品安裝 JMS MQRFH2 元件範例
 下表列出的組件和成品安裝[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]JMS MQRFH2 元件 」 範例。  
@@ -38,4 +38,4 @@ ms.lasthandoff: 09/20/2017
 |BizTalk 應用程式 GlobalBank.ESB|地圖||  
 |全域組件快取|組件|GlobalBank.ESB.JMS.Pipelines 1.0.0.0 版|  
 |||GlobalBank.ESB.JMS.Processes 1.0.0.0 版|  
-|%Program Files %\\[!INCLUDE[prague](../includes/prague-md.md)]\Pipeline 元件|管線元件||
+|%Program Files %\\BizTalk Server\Pipeline 元件|管線元件||

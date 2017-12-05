@@ -13,11 +13,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6660cf8f783a407c3ddead342effecfb4cdd0201
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0212caafb34ca76988e1a863899021b44ac416fb
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="enhanced-tracking"></a>增強的追蹤
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]提供追蹤程序和訊息的加強的功能。 原生功能的商務活動監控 (BAM) 中[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]為追蹤僅為中繼資料。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]追蹤訊息內容 — 服務內容和標頭。  
@@ -98,8 +98,8 @@ ms.lasthandoff: 09/20/2017
 ### <a name="activity-definition-file"></a>活動定義檔  
  活動定義檔案會定義您在 BAM 中追蹤的欄位以及檢視欄位的方式。 如需有關這個檔案的詳細資訊，請參閱[使用追蹤活動定義檔案](../../adapters-and-accelerators/accelerator-rosettanet/working-with-the-tracking-activity-definition-file.md)。  
   
- 如需有關 BAM 的詳細資訊，請參閱「[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] 說明」中的＜商務活動監控 (BAM)＞。  
+ 如需有關 BAM 的詳細資訊，請參閱 「 商務活動監控 (BAM) 」 在 BizTalk Server 說明中。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [使用追蹤活動定義檔案](../../adapters-and-accelerators/accelerator-rosettanet/working-with-the-tracking-activity-definition-file.md)   
- [BizTalk Accelerator for RosettaNet 新增至 BizTalk Server](../../adapters-and-accelerators/accelerator-rosettanet/what-biztalk-accelerator-for-rosettanet-adds-to-biztalk-server.md)
+ [BizTalk Accelerator for RosettaNet 在 BizTalk Server 中新增的項目](../../adapters-and-accelerators/accelerator-rosettanet/what-biztalk-accelerator-for-rosettanet-adds-to-biztalk-server.md)

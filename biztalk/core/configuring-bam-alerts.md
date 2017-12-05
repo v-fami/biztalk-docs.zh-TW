@@ -18,11 +18,11 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 46ddba35a603217660df22668d548ca7c40eb5f2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8198b17d07288bff04b64b0a1ad05db0cde4fd91
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="configuring-bam-alerts"></a>設定 BAM 警示
 系統管理員可以修改 BAM 警示架構的特定項目。 本主題描述系統管理員可以使用的組態選項。  
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/20/2017
 >  建立警示時，請務必記得，時間資料是以本地時間格式儲存在 OLAP、星狀結構描述以及 Notification Services 資料庫中。 同時假設這三個資料庫都位於相同時區。 在主要匯入資料庫上，資訊是以 UTC 時間格式儲存，可以是同一個時區，也可以是不同時區。  
   
 ## <a name="changing-the-adf-configuration"></a>變更 ADF 組態  
- 部署 BAM 管理公用程式會使用 bm.exe.config 檔案中指定的 CommandTimeout 值來填入 Notification Services 應用程式定義檔的檢視時\<EventRule >\\< ActionTimeout\>項目。  
+ 部署 BAM 管理公用程式會使用 bm.exe.config 檔案中指定的 CommandTimeout 值來填入 Notification Services 應用程式定義檔的檢視時\<EventRule\>\\< ActionTimeout\>項目。  
   
  變更 bm.exe.config 中的 CommandTimeout 值，並不會影響變更前所部署檢視的 CommandTimeout 值。  
   
@@ -43,15 +43,15 @@ ms.lasthandoff: 09/20/2017
   
 1.  開啟命令提示字元，如下所示： 按一下**啟動**，按一下**執行**，型別**cmd**，然後按一下 **確定**。  
   
-2.  瀏覽至追蹤資料夾，在命令提示字元中輸入**cd"C:\Program Files\Microsoft BizTalk Server\<版本 > \Tracking"**或**cd"C:\Program Files (x86) \Microsoft BizTalk Server \<版本 > \Tracking"** 64 位元電腦上。 按 ENTER 鍵。  
+2.  瀏覽至追蹤資料夾，在命令提示字元中輸入**cd"C:\Program Files\Microsoft BizTalk Server\<版本\>\Tracking"**或**cd"C:\Program Files (x86) \Microsoft BizTalk伺服器\<版本\>\Tracking"** 64 位元電腦上。 按 ENTER 鍵。  
   
-3.  擷取 ADF 檔案。 型別**cscript ProcessBamNSFiles.vbs-Get \<ConfigFilePath >\<組態檔路徑 > \< PID 伺服器 > \< PID 資料庫 >**。 請以適合您安裝的值取代 ConfigFilePath、ADFFilePath、PID Server 與 PID database。  
+3.  擷取 ADF 檔案。 型別**cscript ProcessBamNSFiles.vbs-Get \<ConfigFilePath\> \<組態檔路徑\> \< PID Server\> \< PID 資料庫\>** . 請以適合您安裝的值取代 ConfigFilePath、ADFFilePath、PID Server 與 PID database。  
   
 4.  按 ENTER 鍵。  
   
-5.  在編輯器中開啟 ADF 檔案，並搜尋\<ActionTimeout >、 更新與所要的值，並請注意，這個值會是 XML 持續時間。  
+5.  在編輯器中開啟 ADF 檔案，並搜尋\<ActionTimeout\>、 更新與所要的值，並請注意，這個值會是 XML 持續時間。  
   
-6.  儲存 ADF 檔案。 型別**cscript ProcessBamNSFiles.vbs-Update \<ConfigFilePath >\<組態檔路徑 > \< PID 伺服器 > \< PID 資料庫 >**。  
+6.  儲存 ADF 檔案。 型別**cscript ProcessBamNSFiles.vbs-Update \<ConfigFilePath\> \<組態檔路徑\> \< PID Server\> \< PID 資料庫\>**.  
   
 7.  按 ENTER 鍵。  
   
@@ -89,6 +89,6 @@ ms.lasthandoff: 09/20/2017
   
  修改 BAM 組態檔案的下面這一列，並使用 BAM 管理公用程式 update-config 命令，即可變更檔案放置位置。  
   
- \<屬性名稱 ="FileDropUNC">\\\\< 電腦名稱\>\alerts\</Property >  
+ \<屬性名稱 ="FileDropUNC"\>\\\\< 電腦名稱\>\alerts\</Property\>  
   
  如需 BAM 管理公用程式的詳細資訊，請參閱[BAM 管理公用程式](../core/bam-management-utility.md)。

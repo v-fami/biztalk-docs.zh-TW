@@ -12,14 +12,14 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 39a9bdf86b409ab19f86b906be5c8d5775f3aa0e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b0ee30a39e38d80ac55b85fed6f61e7db9f5242c
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="x12-transaction-sets-100-250"></a>X12 交易集 100-250
-此主題列出 X12 交易集和版本所支援的[!INCLUDE[prague](../includes/prague-md.md)]。  
+此主題列出 X12 交易集和 BizTalk Server 所支援的版本。  
   
  本主題包含下列的交易集：  
   
@@ -193,7 +193,7 @@ ms.lasthandoff: 09/20/2017
 |249||||||||![核取記號](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")|![核取記號](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")|![核取記號](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")|![核取記號](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")|![核取記號](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")|||![核取記號](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")||||![核取記號](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")|![核取記號](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")|![核取記號](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")|  
 |250|||||![核取記號](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")|![核取記號](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")|![核取記號](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")|![核取記號](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")|![核取記號](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")|![核取記號](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")|![核取記號](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")|![核取記號](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")|||![核取記號](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")||||![核取記號](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")|![核取記號](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")|![核取記號](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")|  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [X12 交易集 251-503](../core/x12-transaction-sets-251-503.md)   
  [X12 交易集 504 999](../core/x12-transaction-sets-504-999.md)   
  [HIPAA 交易集](../core/hipaa-transaction-sets.md)   

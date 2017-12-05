@@ -12,11 +12,11 @@ caps.latest.revision: "16"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 77750a3ae6232b842961b83d3b672d2bbb084a73
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 326dc5f3102354c8f2aa6fa785b145b72014f3d3
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="host-an-adapter-in-iis-using-the-wcf-lob-adapter-sdk"></a>使用 WCF LOB Adapter SDK 的 IIS 中的配接器主機
 本章節包含有關裝載使用所建置的配接器的資訊[!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)]網際網路資訊服務 (IIS) 中。 如需有關其他裝載選項的詳細資訊，請參閱[裝載服務](https://msdn.microsoft.com/library/ms730158.aspx)。
@@ -80,22 +80,22 @@ ms.lasthandoff: 09/20/2017
   
         |屬性|Description|  
         |--------------|-----------------|  
-        |**EnableMetadataExchange**|此值設定為**True**可讓服務用戶端要求的中繼資料發行。 這也可以設定藉由修改\< **serviceMetadata httpGetEnabled =""**> 在 web.config 中。預設值是**False**|  
-        |**IncludeExceptionDetailsinFault**|此值設定為**True**導致 managed 例外狀況資訊傳回 SOAP 錯誤中的用戶端。 這也可以設定藉由修改\< **serviceDebug usingincludeExceptionDetailInFaults =""**> 在 web.config 中。預設值是**False**。|  
+        |**EnableMetadataExchange**|此值設定為**True**可讓服務用戶端要求的中繼資料發行。 這也可以設定藉由修改\< **serviceMetadata httpGetEnabled =""** \> web.config 中。預設值是**False**|  
+        |**IncludeExceptionDetailsinFault**|此值設定為**True**導致 managed 例外狀況資訊傳回 SOAP 錯誤中的用戶端。 這也可以設定藉由修改\< **serviceDebug usingincludeExceptionDetailInFaults =""** \> web.config 中。預設值是**False**。|  
         |**名稱**|服務行為組態名稱。|  
         |**UseServiceCertificate**|這個值會決定服務是否會使用 X.509 憑證來向用戶端處理序。 預設值是**True**。|  
-        |**FindValue**|這個值用來搜尋特定的 X.509 憑證的憑證存放區。 也藉由修改設定\< **serviceCredentials findValue =""**> 在 web.config 中**附註：**指定這個屬性只有當值**UseServiceCertificate**設**True**。|  
-        |**StoreLocation**|這個值會指定系統存放區位置來搜尋指定的憑證。 這也可以設定藉由修改\< **serviceCredentials storeLocation =""**> 在 web.config 中。**注意：**指定的值為這個屬性才**UseServiceCertificate**設**True**。|  
-        |**StoreName**|這個值會指定特定的系統存放區，來搜尋指定的憑證。 也藉由修改設定\< **serviceCredentials storeName =""**> 在 web.config 中**附註：**指定這個屬性只有當值**UseServiceCertificate**設**True**。|  
-        |**X509FindType**|搜尋用於 FindValue 的類型稍早指定，以便找出要使用的特定憑證。 也藉由修改設定\< **serviceCredentials x509FindType =""**> 在 web.config 中**附註：**指定這個屬性只有當值**UseServiceCertificate**設**True**。|  
+        |**FindValue**|這個值用來搜尋特定的 X.509 憑證的憑證存放區。 也藉由修改設定\< **serviceCredentials findValue =""** \> web.config 中**附註：**指定這個屬性只有當值**UseServiceCertificate**設**True**。|  
+        |**StoreLocation**|這個值會指定系統存放區位置來搜尋指定的憑證。 這也可以設定藉由修改\< **serviceCredentials storeLocation =""** \> web.config 中。**注意：**指定的值為這個屬性才**UseServiceCertificate**設**True**。|  
+        |**StoreName**|這個值會指定特定的系統存放區，來搜尋指定的憑證。 也藉由修改設定\< **serviceCredentials storeName =""** \> web.config 中**附註：**指定這個屬性只有當值**UseServiceCertificate**設**True**。|  
+        |**X509FindType**|搜尋用於 FindValue 的類型稍早指定，以便找出要使用的特定憑證。 也藉由修改設定\< **serviceCredentials x509FindType =""** \> web.config 中**附註：**指定這個屬性只有當值**UseServiceCertificate**設**True**。|  
   
     2.  **端點行為組態**區段控制端點行為。  
   
         |屬性|Description|  
         |--------------|-----------------|  
         |**名稱**|端點行為的名稱|  
-        |**AuthenticationType**|這個值會指示配接器來取得用戶端認證的內送文件的位置。 若要啟用用戶端指定要向服務驗證的用戶端憑證，將此設**ClientCredentialUsernamePassword**。 若要啟用用戶端指定的使用者名稱和密碼做為 HTTP 標頭的一部分，將此設**HTTPUsernamePassword**。 若要啟用用戶端指定認證，透過 ClientCredential 介面，將此設**自動**。如果失敗，用戶端才能將認證傳遞做為 HTTP 標頭的一部分。<br /><br /> 這個值也可以藉由修改設定\< **[endpointbehavior] adapterSecurityBridgeType**> 在 web.config 中。預設值是**自動**。|  
-        |**UsernameHeader**|這會指定將用來傳遞至服務的使用者名稱標頭名稱。 HTTP 標頭的詳細資訊，請參閱 < 自訂 HTTP 和 SOAP 標頭的支援 >，網址[http://go.microsoft.com/fwlink/?LinkId=106692](http://go.microsoft.com/fwlink/?LinkId=106692)<br /><br /> 這個值也可以藉由修改設定\< **[endpointbehavior] usernameHttpHeader**> 在 web.config 中。**注意：**您必須指定此屬性的值，如果**AuthenticationType**設**HTTPUserNamePassword**。  如果設定為**自動**，這是選擇性屬性。|  
+        |**AuthenticationType**|這個值會指示配接器來取得用戶端認證的內送文件的位置。 若要啟用用戶端指定要向服務驗證的用戶端憑證，將此設**ClientCredentialUsernamePassword**。 若要啟用用戶端指定的使用者名稱和密碼做為 HTTP 標頭的一部分，將此設**HTTPUsernamePassword**。 若要啟用用戶端指定認證，透過 ClientCredential 介面，將此設**自動**。如果失敗，用戶端才能將認證傳遞做為 HTTP 標頭的一部分。<br /><br /> 這個值也可以藉由修改設定\< **[endpointbehavior] adapterSecurityBridgeType** \> web.config 中。預設值是**自動**。|  
+        |**UsernameHeader**|這會指定將用來傳遞至服務的使用者名稱標頭名稱。 HTTP 標頭的詳細資訊，請參閱 < 自訂 HTTP 和 SOAP 標頭的支援 >，網址[http://go.microsoft.com/fwlink/?LinkId=106692](http://go.microsoft.com/fwlink/?LinkId=106692)<br /><br /> 這個值也可以藉由修改設定\< **[endpointbehavior] usernameHttpHeader** \> web.config 中。**注意：**您必須指定此屬性的值，如果**AuthenticationType**設**HTTPUserNamePassword**。  如果設定為**自動**，這是選擇性屬性。|  
         |**PasswordHeader**|這會指定將用來將使用者密碼傳遞給服務的標頭名稱。 HTTP 標頭的詳細資訊，請參閱 < 支援的自訂 HTTP 和 SOAP 標頭 >，網址[http://go.microsoft.com/fwlink/?LinkId=106692](http://go.microsoft.com/fwlink/?LinkId=106692)<br /><br /> 這個值也可以藉由修改設定 <**[endpointbehavior] passwordHttpHeader**< web.config 中。**注意：**您必須指定此屬性的值，如果**AuthenticationType**設**HTTPUserNamePassword**。 如果設定為**自動**，這是選擇性屬性。|  
   
     3.  設定所要的行為後, 按一下**下一步**才能繼續。  
@@ -118,7 +118,7 @@ ms.lasthandoff: 09/20/2017
     |----------|-----------------|  
     |.svc|服務參考到 WCF proxy 的檔案。|  
     |.cs|實作 WCF proxy。|  
-    |web.config|包含\<**端點**>， \<**繫結**>，並\<**行為**> 項目\< **系統。ServiceModel**>|  
+    |web.config|包含\<**端點**\, \<**繫結**\>，和\<**行為**\>元素\<**系統。ServiceModel**\>|  
   
 12. 發佈 WCF 服務專案。  
   
@@ -160,5 +160,5 @@ ms.lasthandoff: 09/20/2017
 </endpointBehaviors>  
 ```      
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [開發活動](../../esb-toolkit/development-activities.md)

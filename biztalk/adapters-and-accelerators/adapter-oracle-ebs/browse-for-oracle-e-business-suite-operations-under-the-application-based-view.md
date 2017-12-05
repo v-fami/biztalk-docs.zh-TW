@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d06cf551d033614cb75456845e059c6ec4ec8fa8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7d4d4d67df9d7463a699b1ec9448feeea0a9c57a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="browse-for-oracle-e-business-suite-operations-under-the-application-based-view"></a>瀏覽 Oracle E-business Suite 作業下應用程式為基礎的檢視
 您可以使用[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]或[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]瀏覽一概無法對 Oracle E-business Suite 的傳出和傳入作業使用[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]。 本主題提供有關如何瀏覽應用程式為基礎的檢視之下的傳出和傳入作業的資訊。  
@@ -55,16 +55,16 @@ ms.lasthandoff: 09/20/2017
      ![瀏覽 Oracle &#45; 中的介面資料表Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/media/fcfbe41c-14e0-43b5-aada-c4c686aecff4.gif "fcfbe41c-14e0-43b5-aada-c4c686aecff4")  
   
     > [!NOTE]
-    >  如果介面資料表包含 BLOB 類型的資料行，CLOB、 NCLOB、 或 BFILE 配接器也會公開這類資料行中讀取資料的特定作業。 這類作業的名稱是 Read_\<LOBColName >。 例如，如果介面資料表的資料行，FILE_DATA，BLOB 類型的配接器會公開**Read_FILE_DATA**作業。 如果介面資料表有一個以上的資料行的 BLOB 類型，CLOB、 NCLOB、 和 BFILE 配接器會公開任意數目 Read_\<LOBColName > 作業。  
+    >  如果介面資料表包含 BLOB 類型的資料行，CLOB、 NCLOB、 或 BFILE 配接器也會公開這類資料行中讀取資料的特定作業。 這類作業的名稱是 Read_\<LOBColName\>。 例如，如果介面資料表的資料行，FILE_DATA，BLOB 類型的配接器會公開**Read_FILE_DATA**作業。 如果介面資料表有一個以上的資料行的 BLOB 類型，CLOB、 NCLOB、 和 BFILE 配接器會公開任意數目 Read_\<LOBColName\>作業。  
     >   
-    >  同樣地，如果介面資料表包含 BLOB 類型的資料行，CLOB 或 NCLOB 配接器也會公開成這類資料行中更新資料的特定作業。 這類作業的名稱是 Update_\<LOBColName >。 例如，如果介面資料表的資料行，FILE_DATA，BLOB 類型的配接器會公開**Update_FILE_DATA**作業。 如果介面資料表有一個以上的資料行的 BLOB 類型，CLOB，並且 NCLOB 配接器會公開任意數目 Update_\<LOBColName > 作業。 請注意，更新作業不支援的型別 BFILE 資料行上。  
+    >  同樣地，如果介面資料表包含 BLOB 類型的資料行，CLOB 或 NCLOB 配接器也會公開成這類資料行中更新資料的特定作業。 這類作業的名稱是 Update_\<LOBColName\>。 例如，如果介面資料表的資料行，FILE_DATA，BLOB 類型的配接器會公開**Update_FILE_DATA**作業。 如果介面資料表有一個以上的資料行的 BLOB 類型，CLOB，並且 NCLOB 配接器會公開任意數目 Update_\<LOBColName\>作業。 請注意，更新作業不支援的型別 BFILE 資料行上。  
   
 6.  展開**介面檢視**節點以查看 Oracle 應用程式的介面檢視。 按一下以查看可用的作業清單檢視中的介面檢視**可用的類別和作業**方塊。  
   
      ![瀏覽 Oracle &#45; 中的介面檢視Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/media/f1dc14cc-ad77-47ed-b0b0-b5fc78ed545b.gif "f1dc14cc-ad77-47ed-b0b0-b5fc78ed545b")  
   
     > [!NOTE]
-    >  如果介面檢視包含 BLOB 類型的資料行，CLOB、 NCLOB、 或 BFILE 配接器也會公開這類資料行中讀取資料的特定作業。 這類作業的名稱是 Read_\<LOBColName >。 例如，如果介面檢視有一個資料行，FILE_CONTENT，BLOB 類型的配接器會公開**Read_FILE_CONTENT**作業。 如果介面檢視有一個以上的資料行的 BLOB 類型，CLOB、 NCLOB、 或 BFILE 配接器會公開任意數目 Read_\<LOBColName > 作業。 請注意該 Update_\<LOBColName > 檢視表上不支援作業。  
+    >  如果介面檢視包含 BLOB 類型的資料行，CLOB、 NCLOB、 或 BFILE 配接器也會公開這類資料行中讀取資料的特定作業。 這類作業的名稱是 Read_\<LOBColName\>。 例如，如果介面檢視有一個資料行，FILE_CONTENT，BLOB 類型的配接器會公開**Read_FILE_CONTENT**作業。 如果介面檢視有一個以上的資料行的 BLOB 類型，CLOB、 NCLOB、 或 BFILE 配接器會公開任意數目 Read_\<LOBColName\>作業。 請注意該 Update_\<LOBColName\>檢視上不支援作業。  
   
 7.  按一下**並行程式**節點以查看應用程式中的並行程式**可用的類別和作業**方塊。  
   
@@ -113,5 +113,5 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]不介面並行程式，要求的輸入操作的集合。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [瀏覽、 搜尋及取得 Oracle E-business Suite 作業的中繼資料](../../adapters-and-accelerators/adapter-oracle-ebs/browse-search-and-get-metadata-for-oracle-e-business-suite-operations.md)

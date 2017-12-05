@@ -15,11 +15,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4dc2d7f2a3dd21d35bb33fa625f59aa27c04e656
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ff907e262088acd188028282fe2e03441071358a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="user-trailers"></a>使用者結尾
 使用者的結尾，除了 CHK 結尾是選擇性的存在時，依下列順序發生：  
@@ -41,7 +41,7 @@ ms.lasthandoff: 09/20/2017
     where <authentication-result> = 8!h  
     ```  
   
--   **專屬的驗證程式碼 (PAC) 尾端。** PAC 結尾被使用雙重驗證選項時，才使用 FIN 複製服務。 區塊 5 FIN 使用者的訊息包含 MAC 結尾之後立即 PAC 結尾，如果有的話。 如果有的話，此結果計算上擷取的區塊 4 115，欄位的值，訊息的欄位和\<驗證結果 > MAC 結尾複製服務使用雙重驗證。  
+-   **專屬的驗證程式碼 (PAC) 尾端。** PAC 結尾被使用雙重驗證選項時，才使用 FIN 複製服務。 區塊 5 FIN 使用者的訊息包含 MAC 結尾之後立即 PAC 結尾，如果有的話。 如果有的話，此結果計算上擷取的區塊 4 115，欄位的值，訊息的欄位和\<驗證結果\>MAC 結尾複製服務使用雙重驗證。  
   
      如此一來，end 區塊的指標 （CrLf-） 納入 PAC 計算，且在定義欄位，如下所示：  
   
@@ -70,5 +70,5 @@ ms.lasthandoff: 09/20/2017
     where <checksum-result> = 12!h  
     ```  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [使用結構描述](../../adapters-and-accelerators/accelerator-swift/working-with-schemas.md)

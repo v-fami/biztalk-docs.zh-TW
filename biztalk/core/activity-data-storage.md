@@ -18,11 +18,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0654bcf011648bcc40c092cb45e529b89cec1924
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0139e76512eb9ca60089cb3c5f1e71b4f5524690
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="activity-data-storage"></a>活動資料儲存區
 本主題說明活動資料儲存區、活動資料表隨時間成長所造成的效能問題，以及 BAM 如何將進行中與已完成的活動存放在不同的資料表以解決這些效能問題。 本主題也將說明用於查詢資料的線上視窗，及如何在 BAM 中使用分割以獲得更高的效能。  
@@ -37,14 +37,14 @@ ms.lasthandoff: 09/20/2017
 |124|8:30 am|Seattle|234|8:45 am|下午 1:20|  
 |125|8:35 am|Redmond|87|上午 9:05|2:30 pm|  
 |126|8:45 am|Seattle|450|上午 9:20|3:10 pm|  
-|127|8:55am|Redmond|200|上午 9:30|\<NULL >|  
+|127|8:55am|Redmond|200|上午 9:30|\<NULL\>|  
 |128|上午 8:57|Seattle|340|上午 9:20|3:05 pm|  
-|129|上午 9:12|Seattle|120|上午 9:45|\<NULL >|  
-|130|上午 9:30|Redmond|25|10:15 am|\<NULL >|  
-|131|9:45|Seattle|250|10:35 am|\<NULL >|  
-|132|10:00 am|Redmond|100|\<NULL >|\<NULL >|  
-|133|10:15 am|Seattle|230|\<NULL >|\<NULL >|  
-|134|10:25 am|Redmond|45|\<NULL >|\<NULL >|  
+|129|上午 9:12|Seattle|120|上午 9:45|\<NULL\>|  
+|130|上午 9:30|Redmond|25|10:15 am|\<NULL\>|  
+|131|9:45|Seattle|250|10:35 am|\<NULL\>|  
+|132|10:00 am|Redmond|100|\<NULL\>|\<NULL\>|  
+|133|10:15 am|Seattle|230|\<NULL\>|\<NULL\>|  
+|134|10:25 am|Redmond|45|\<NULL\>|\<NULL\>|  
   
  當 BAM 收到新的採購單時，便會在此資料表中插入新的一列，並將某幾欄設定為非空值 (「接單時間」、「縣/市」、「數量」等等)。 稍後一旦核准該筆採購單並已交貨，BAM 則將「交貨時間」設定為非空值。 最後，如果收到貨品且確認無誤，BAM 會將「送達時間」設定為非空值。  
   
@@ -88,13 +88,13 @@ UNION ALL
   
  請注意下列有關 BAM 分割的資訊：  
   
--   資料分割檢視的名稱是**bam_\<ActivityName > _AllInstances**。 此檢視並非用於直接查詢，但疑難排解 BAM 檢測時可能很有用。 您應該透過在此檢視上方所建立的每個商務使用者類別，以其特定的檢視查詢資料。 如需詳細資訊，請參閱[查詢執行個體資料](../core/querying-instance-data.md)。  
+-   資料分割檢視的名稱是**bam_\<ActivityName\>_AllInstances**。 此檢視並非用於直接查詢，但疑難排解 BAM 檢測時可能很有用。 您應該透過在此檢視上方所建立的每個商務使用者類別，以其特定的檢視查詢資料。 如需詳細資訊，請參閱[查詢執行個體資料](../core/querying-instance-data.md)。  
   
 -   您所修改的值設定線上視窗**OnlineWindowTimeUnit**和**Onlinewindowtimeunit**表格中目前的活動記錄中**bam_Metadata_Activities**主要匯入資料庫中。  
   
--   DTS 封裝， **BAM_DM_\<ActivityName >**、 執行資料分割和封存/清理。 每次執行此封裝時，都會截斷另一分割並封存/卸除所有已移出線上視窗的分割。  
+-   DTS 封裝， **BAM_DM_\<ActivityName\>**、 執行資料分割和封存/清理。 每次執行此封裝時，都會截斷另一分割並封存/卸除所有已移出線上視窗的分割。  
   
 -   若您並未設定封存資料庫，BAM 將卸除舊活動而不進行封存。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [BAM 動態基礎結構](../core/bam-dynamic-infrastructure.md)

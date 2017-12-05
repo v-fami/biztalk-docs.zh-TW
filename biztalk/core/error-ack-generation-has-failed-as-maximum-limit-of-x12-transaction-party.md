@@ -12,11 +12,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c5b82a8251504e1f9ff7b62c4e1cc813d4740a83
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e845960a85ebe2ebf90b8549634a0097676c80c5
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="error-ack-generation-has-failed-as-maximum-limit-of-x12-transaction-party"></a>錯誤通知的產生失敗，因為最大限制 X12 交易合作對象
 ## <a name="details"></a>詳細資料  
@@ -26,7 +26,7 @@ ms.lasthandoff: 09/20/2017
 |產品名稱|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
 |產品版本|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
 |事件識別碼|-|  
-|事件來源|[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]EDI|  
+|事件來源|BizTalk Server EDI|  
 |元件|EDI 引擎|  
 |符號名稱|-|  
 |訊息文字|通知產生失敗，因為合作對象 {0} 可接受的 X12 交易集控制編號已達到最大限制。 請瀏覽至 [夥伴協議] 管理員中傳送者角色畫面中的 [合作對象]，欄位 [ST 2]，重設計數器|  

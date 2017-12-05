@@ -13,11 +13,11 @@ caps.latest.revision: "16"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e3d933b494e967184c8248d6f71ad9df113fb9b9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 02c5f239300140022b1d26f35664add744b630c2
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="execute-stored-procedures-with-a-single-xml-parameter-in-sql-server-using-biztalk-server"></a>使用 BizTalk Server 的 SQL Server 中執行具有單一 XML 參數的預存程序
 執行採用單一參數的預存程序是類似於執行任何其他預存程序中所述[使用 BizTalk Server 的 SQL Server 中執行預存程序](execute-stored-procedures-in-sql-server-using-biztalk-server.md)。 不過，如上述的連結中所述的方法，您要在設計階段產生預存程序的中繼資料和建立協調流程執行階段叫用程序。  
@@ -104,7 +104,7 @@ ms.lasthandoff: 09/20/2017
         ```  
         <ADD_LAST_EMP_XML_INFO xmlns="http://schemas.microsoft.com/Sql/2008/05/Procedures/dbo">  
         <xml_info>  
-        \<bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="string"/>  
+        <bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="string"/>  
         </xml_info>  
         </ADD_LAST_EMP_XML_INFO>  
         ```  
@@ -145,5 +145,5 @@ ms.lasthandoff: 09/20/2017
   
  啟動所有的三個連接埠。 複製 XML 檔案的資料夾對應到檔案接收位置。 尋找對應到檔案的資料夾中的回應傳送埠。  
   
-## <a name="see-also"></a>另請參閱  
-[開發 BizTalk 應用程式使用 SQL 配接器](../../adapters-and-accelerators/adapter-sql/develop-biztalk-applications-using-the-sql-adapter.md)
+## <a name="see-also"></a>請參閱  
+[使用 SQL 配接器開發 BizTalk 應用程式](../../adapters-and-accelerators/adapter-sql/develop-biztalk-applications-using-the-sql-adapter.md)

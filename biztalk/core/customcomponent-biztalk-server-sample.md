@@ -17,11 +17,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7e178faee3ed05d4d77eec8f4da182c7dcd21a67
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7fd774848dec1ae54541e749a0cc551bf7c42d49
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="customcomponent-biztalk-server-sample"></a>CustomComponent （BizTalk Server 範例）
 此 CustomComponent 範例會示範如何建立和使用會修改資料流處理訊息的自訂管線元件。 這個範例也會示範使用「管線設計師」對自訂管線元件的設定。  
@@ -38,7 +38,7 @@ ms.lasthandoff: 09/20/2017
 4.  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會將產生的文字訊息寫入到特定資料夾中的檔案。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- \<*範例路徑*> \Pipelines\CustomComponent\  
+ \<*範例路徑*\>\Pipelines\CustomComponent\  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -62,13 +62,13 @@ ms.lasthandoff: 09/20/2017
   
 1.  在命令視窗中，瀏覽至下列資料夾：  
   
-     \<*範例路徑*> \Pipelines\CustomComponent  
+     \<*範例路徑*\>\Pipelines\CustomComponent  
   
 2.  執行檔案 Setup.bat，這會執行下列動作：  
   
     -   在此資料夾中建立此範例的輸入 (In) 和輸出 (Out) 資料夾。  
   
-         \<*範例路徑*> \Pipelines\CustomComponent  
+         \<*範例路徑*\>\Pipelines\CustomComponent  
   
     -   為這個範例編譯和部署 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 專案。  
   
@@ -100,7 +100,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  請將文字檔 Input.txt 的複本貼到 In 資料夾中。  
   
-2.  請觀察建立於 Out 資料夾中的文字檔。這個檔案所包含的內容，就是開頭由接收管線插入和結尾由傳送管線插入其他文字之 Input.txt 檔案的內容。 這個檔案的名稱的格式是\< *MessageID*>.xml，其中 *\<MessageID >*產生來唯一識別訊息的 GUID。  
+2.  請觀察建立於 Out 資料夾中的文字檔。這個檔案所包含的內容，就是開頭由接收管線插入和結尾由傳送管線插入其他文字之 Input.txt 檔案的內容。 這個檔案的名稱的格式是\< *MessageID*\>.xml，其中 *\<MessageID\>* 產生來唯一識別訊息的 GUID.  
   
 ## <a name="comments"></a>註解  
  您可以依照以下步驟執行，使用 [管線設計師] 來檢視事先設定的管線：  
@@ -113,5 +113,5 @@ ms.lasthandoff: 09/20/2017
   
 4.  按一下該 FixMsg 元件，在**預先組合**階段設計介面上的。 請注意， **AppendData**屬性設定為**資料在傳送管線字串**。  
   
-## <a name="see-also"></a>另請參閱  
- [管線 （BizTalk Server 範例資料夾）](../core/pipelines-biztalk-server-samples-folder.md)
+## <a name="see-also"></a>請參閱  
+ [管線 (BizTalk Server Samples 資料夾)](../core/pipelines-biztalk-server-samples-folder.md)

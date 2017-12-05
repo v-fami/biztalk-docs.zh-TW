@@ -16,11 +16,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 730998918beb464b00b871f8ab04060a7cd59af6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1a58396a9dd6627f2913da8e3845a99b17cf7698
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="managing-the-bicplus-table-in-the-a4swift-database"></a>管理 Bicplus 資料表 A4SWIFT 資料庫中
 [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]執行 BIC 驗證使用 BIC 項目的資料表。 這個資料表可以在任一個 Bicplus 資料表[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]資料庫或自訂資料庫中的資料表。  
@@ -67,11 +67,11 @@ ms.lasthandoff: 09/20/2017
 ## <a name="importing-sql-views-from-the-a4swift-database-into-a-custom-database"></a>將匯入 SQL 檢視從 A4SWIFT 資料庫自訂資料庫  
  [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]安裝程式會安裝在兩個 SQL 檢視[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]資料庫。 一個檢視為 8 個字元 BICs 和另一個則用於 BICs 11 個字元。  
   
- 如果您使用自訂的資料庫，而不是[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]資料庫，您必須將自訂資料庫匯入這些 SQL 檢視。 您藉由在 Query Analyzer 執行 CreateBICViews.sql 指令碼。 此指令碼位於\<*磁碟機*>: \Program Files\Microsoft BizTalk Accelerator for SWIFT/指令碼。  
+ 如果您使用自訂的資料庫，而不是[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]資料庫，您必須將自訂資料庫匯入這些 SQL 檢視。 您藉由在 Query Analyzer 執行 CreateBICViews.sql 指令碼。 此指令碼位於\<*磁碟機*\>: \Program Files\Microsoft BizTalk Accelerator for SWIFT/指令碼。  
   
 #### <a name="to-import-sql-views-from-the-a4swift-database-into-a-custom-database"></a>若要從 A4SWIFT 資料庫的 SQL 檢視表匯入自訂資料庫  
   
-1.  在 Windows 檔案總管 中，移至\<*磁碟機*>: \Program Files\Microsoft BizTalk Accelerator for SWIFT\Scripts。 按兩下**CreateBICViews.sql**。  
+1.  在 Windows 檔案總管 中，移至\<*磁碟機*\>: \Program Files\Microsoft BizTalk Accelerator for SWIFT\Scripts。 按兩下**CreateBICViews.sql**。  
   
 2.  在 連接到伺服器 對話方塊中，按一下 **連接**。  
   
@@ -83,5 +83,5 @@ ms.lasthandoff: 09/20/2017
   
 6.  按一下 **[執行]**。  
   
-## <a name="see-also"></a>另請參閱  
- [啟用驗證的銀行識別項代碼](../../adapters-and-accelerators/accelerator-swift/enabling-validation-of-bank-identifier-codes.md)
+## <a name="see-also"></a>請參閱  
+ [啟用驗證 Bank Identifier Code](../../adapters-and-accelerators/accelerator-swift/enabling-validation-of-bank-identifier-codes.md)

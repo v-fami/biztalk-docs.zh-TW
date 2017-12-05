@@ -18,11 +18,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2d328a1a95b7340520352b32b6d72e1579b9594a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 34cbb94dff7211a157fc492c1157fa379236641e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="unenlistparties-biztalk-server-sample"></a>UnenlistParties （BizTalk Server 範例）
 UnenlistParties 範例示範如何取消登錄與已部署之 BizTalk Server 組件關聯的所有合作對象。  
@@ -50,7 +50,7 @@ UnenlistParties 範例示範如何取消登錄與已部署之 BizTalk Server 組
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
  這個範例位於下列 SDK 位置：  
   
- \<*範例路徑*> \Admin\ExplorerOM\UnenlistParties\  
+ \<*範例路徑*\>\Admin\ExplorerOM\UnenlistParties\  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -68,12 +68,11 @@ UnenlistParties 範例示範如何取消登錄與已部署之 BizTalk Server 組
   
 1.  在命令視窗中，瀏覽至下列資料夾：  
   
-     \<*範例路徑*> \Admin\ExplorerOM\UnenlistParties\bin\Debug\  
+     \<*範例路徑*\>\Admin\ExplorerOM\UnenlistParties\bin\Debug\  
   
 2.  執行 UnenlistParties.exe 檔案，它會傳遞下列其中一個命令列引數：  
   
-    -   **\<**   
-         ***AssemblyName* >**。 凡是與該組件名稱相關聯的合作對象都將取消登錄。 如果組件名稱包含空格，請用引號括住該名稱。  
+    -   **\<** ***AssemblyName* \>** 。 凡是與該組件名稱相關聯的合作對象都將取消登錄。 如果組件名稱包含空格，請用引號括住該名稱。  
   
     -   **/?.** 顯示說明。  
   
@@ -183,7 +182,7 @@ else
   
 ```  
   
- 下列指令碼輸出是由從供應商組件的一部分 PartyResolution 範例取消登錄合作對象產生。 PartyResolution 範例位於\<*範例路徑*> \Admin\Orchestrations\PartyResolution 目錄。  
+ 下列指令碼輸出是由從供應商組件的一部分 PartyResolution 範例取消登錄合作對象產生。 PartyResolution 範例位於\<*範例路徑*\>\Admin\Orchestrations\PartyResolution 目錄。  
   
 ```  
 PS C:\> .\UnenlistParties.ps1 Supplier  
@@ -203,5 +202,5 @@ Comitting changes...
 done.  
 ```  
   
-## <a name="see-also"></a>另請參閱  
- [系統管理員 ExplorerOM （BizTalk Server 範例資料夾）](../core/admin-explorerom-biztalk-server-samples-folder.md)
+## <a name="see-also"></a>請參閱  
+ [Admin-ExplorerOM (BizTalk Server Samples 資料夾)](../core/admin-explorerom-biztalk-server-samples-folder.md)

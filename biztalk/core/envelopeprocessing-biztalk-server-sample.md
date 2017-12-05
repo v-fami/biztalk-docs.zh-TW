@@ -21,11 +21,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: aee15dc6fffefd550a5b12c662d4df76ca09c1fa
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8c2f2cd505aca89bbe72221b3a895dd21945cb5e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="envelopeprocessing-biztalk-server-sample"></a>EnvelopeProcessing （BizTalk Server 範例）
 EnvelopeProcessing 範例示範如何在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管線中處理訊息和訊息信封。 它也會進一步示範如何將一般檔案訊息處理為 XML 訊息。  
@@ -97,13 +97,13 @@ EnvelopeProcessing 範例示範如何在 [!INCLUDE[btsBizTalkServerNoVersion](..
   
 1.  在命令視窗中，瀏覽至下列資料夾：  
   
-     *\<範例路徑 >*\Pipelines\AssemblerDisassembler\EnvelopeProcessing  
+     *\<範例路徑\>*\Pipelines\AssemblerDisassembler\EnvelopeProcessing  
   
 2.  執行檔案 Setup.bat，這會執行下列動作：  
   
     -   為檔案夾內的這個範例建立輸入 (EnvInput) 和輸出 (EnvOutput) 檔案夾：  
   
-         *\<範例路徑 >*\Pipelines\AssemblerDisassembler\EnvelopeProcessing\  
+         *\<範例路徑\>*\Pipelines\AssemblerDisassembler\EnvelopeProcessing\  
   
     -   為這個範例編譯和部署 Visual Studio 專案。  
   
@@ -152,5 +152,5 @@ EnvelopeProcessing 範例示範如何在 [!INCLUDE[btsBizTalkServerNoVersion](..
   
 -   **BTSTask RemoveApp**用以移除 FlatFileReceiveApplication  
   
-## <a name="see-also"></a>另請參閱  
- [管線 AssemblerDisassembler （BizTalk Server 範例資料夾）](../core/pipelines-assemblerdisassembler-biztalk-server-samples-folder.md)
+## <a name="see-also"></a>請參閱  
+ [Pipelines-AssemblerDisassembler (BizTalk Server Samples 資料夾)](../core/pipelines-assemblerdisassembler-biztalk-server-samples-folder.md)

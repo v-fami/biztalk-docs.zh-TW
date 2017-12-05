@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 122d821754fb6df447067d18f6f5da02b79058e4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c5096539b86512e51756d3a872ff566872ff520f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="operations-on-tables-that-contain-bfile-data-types"></a>資料表包含 BFILE 資料型別上的作業
 [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]資料表和預存程序中支援 BFILE 資料型別。 
@@ -33,11 +33,11 @@ ms.lasthandoff: 09/20/2017
 |預存程序|OUT 參數|字串|表示要插入至 BFILE 資料行之檔案的邏輯 Oracle 目錄路徑<br /><br /> 例如 MYDIR/screen.jpg MYDIR 其中是在 Oracle 中的邏輯目錄|  
 |預存程序|INOUT 參數|不支援|-|  
   
- 特殊作業`Read_<LOBColName>`BFILE 資料型別，與資料表上也支援其中\<LOBColName > 是資料表中的 LOB 資料行名稱。 `Update_<LOBColName>` BFILE 資料型別不支援作業。 或者，配接器用戶端可以使用更新作業。  
+ 特殊作業`Read_<LOBColName>`BFILE 資料型別，與資料表上也支援其中\<LOBColName\>是資料表中的 LOB 資料行名稱。 `Update_<LOBColName>` BFILE 資料型別不支援作業。 或者，配接器用戶端可以使用更新作業。  
   
 ## <a name="more-good-info"></a>良好的詳細資訊  
   
 -   `Read_<LOBColName>`和`Update_<LOBColName>`作業，請參閱[介面資料表、 介面檢視、 資料表和檢視表，包含 LOB 資料的作業](../../adapters-and-accelerators/adapter-oracle-ebs/read-and-update-on-interface-tables-and-views-with-large-object-data-types.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [哪些作業可以是執行使用配接器？](https://msdn.microsoft.com/library/cc185219(v=bts.10).aspx)

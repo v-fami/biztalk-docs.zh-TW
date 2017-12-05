@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 36e881f8449e7aaac7aeade12c36c3c6d942ef12
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 87a47c5b2ee432059365c6f9046a75bb5775fc02
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="debugging-orchestration-runtime-errors"></a>偵錯協調流程執行階段錯誤
 本節包含設計用來協助您解決協調流程執行階段問題的問答集。  
@@ -62,7 +62,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="multipart-mime-message-part-cannot-be-found"></a>找不到多部分 MIME 訊息部分  
   
 ### <a name="problem"></a>問題  
- 嘗試擷取 MIME 訊息部分的索引值大於 0 的結果，在 BizTalk Server 執行階段擲回類似的錯誤 「 找不到具有索引的多部分訊息 =\<值 > 」。  
+ 嘗試擷取 MIME 訊息部分的索引值大於 0 的結果，在 BizTalk Server 執行階段擲回類似的錯誤 「 找不到具有索引的多部分訊息 =\<值\>"。  
   
 ### <a name="cause"></a>原因  
  導致這個錯誤的最常見原因包括：  
@@ -77,7 +77,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="you-receive-a-the-file-send-adapter-cannot-open-file-for-writing-error-when-sending-using-a-dynamic-send-port"></a>使用動態傳送埠進行傳送時收到「FILE 傳送配接器無法開啟檔案進行寫入」錯誤  
   
 ### <a name="problem"></a>問題  
- 您會收到 「 FILE 傳送配接器無法開啟檔案*\<檔名 >*進行寫入 」 錯誤時使用動態傳送 BizTalk Server 事件記錄檔中的傳送埠。  
+ 您會收到 「 FILE 傳送配接器無法開啟檔案 *\<filename\>* 進行寫入 」 錯誤時使用動態傳送 BizTalk Server 事件記錄檔中的傳送埠。  
   
  發生此問題時**BTS。OutBoundTransportLocation**屬性已定義在協調流程運算式中和已指定檔案傳輸，例如，下列運算式會造成這個錯誤，在執行階段：  
   
@@ -87,7 +87,7 @@ Message2(BTS.OutboundTransportLocation) = "file:///c:/test/out";
 MySendPort(Microsoft.XLANGs.BaseTypes.Address)=Message2(BTS.OutboundTransportLocation);  
 ```  
   
- \-或者-  
+ \- 或 -  
   
 ```  
 Message2=Message1;  

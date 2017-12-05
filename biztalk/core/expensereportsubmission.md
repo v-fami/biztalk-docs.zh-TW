@@ -15,11 +15,11 @@ caps.latest.revision: "29"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 993d1874a95da2501636f941f1436fec894e87f6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c450e2e39f2498722f9eb8d09430294927cb05f8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="expensereportsubmission"></a>ExpenseReportSubmission
 ExpenseReportSubmission 範例說明如何透過如 Microsoft Excel 的多功能用戶端，將文件提交到 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 協調流程。  
@@ -41,7 +41,7 @@ ExpenseReportSubmission 範例說明如何透過如 Microsoft Excel 的多功能
 4.  在實際情況中 (這超出此範例的說明範圍)，其他如「企業資源規劃」(ERP) 系統的應用程式會擷取試算表檔案，並進行進一步的處理。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- \<*範例路徑*> \AdaptersUsage\ExpenseReportSubmission\  
+ \<*範例路徑*\>\AdaptersUsage\ExpenseReportSubmission\  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -60,7 +60,7 @@ ExpenseReportSubmission 範例說明如何透過如 Microsoft Excel 的多功能
   
 1.  在命令視窗中，瀏覽至下列資料夾：  
   
-     \<*範例路徑*> \AdaptersUsage\ExpenseReportSubmission  
+     \<*範例路徑*\>\AdaptersUsage\ExpenseReportSubmission  
   
 2.  執行檔案 Setup.bat，這會執行下列動作：  
   
@@ -126,7 +126,7 @@ ExpenseReportSubmission 範例說明如何透過如 Microsoft Excel 的多功能
   
     4.  按一下**新增**顯示**Add file**  對話方塊。  
   
-    5.  按一下**瀏覽**顯示**開啟**對話方塊方塊中，並瀏覽至 *\<BizTalk Server 安裝資料夾 >*\HttpReceive\BTSHTTPReceive.dll 和按一下**開啟**，然後按一下 **確定**。  
+    5.  按一下**瀏覽**顯示**開啟**對話方塊方塊中，並瀏覽至 *\<BizTalk Server 安裝資料夾\>*\HttpReceive\BTSHTTPReceive.dll，然後按一下**開啟**，然後按一下 **確定**。  
   
     6.  啟用選項，**設定延伸狀態成允許**按一下**確定**。  
   
@@ -174,5 +174,5 @@ ExpenseReportSubmission 範例說明如何透過如 Microsoft Excel 的多功能
 |401 未經授權|允許匿名存取虛擬目錄。|  
 |503 服務無法使用 (以及大部分在 400 和 500 範圍內的其他 HTTP 代碼)|確認主機正在執行，且服務已部署完成、繫結至正確的連接埠並已啟動。|  
   
-## <a name="see-also"></a>另請參閱  
- [配接器範例-使用方式](../core/adapter-samples-usage.md)
+## <a name="see-also"></a>請參閱  
+ [配接器範例 - 用法](../core/adapter-samples-usage.md)

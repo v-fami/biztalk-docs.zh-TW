@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 23b835317d46dfeded65de310f8a813d4ac86749
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d4df85c965943f2f2c916fef6b558f98caf2175f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="upgrade-biztalk-accelerator-for-hl7"></a>升級 BizTalk Accelerator for HL7
 概觀[!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)]升級程序。 
@@ -34,7 +34,7 @@ ms.lasthandoff: 09/20/2017
   
 -   當您升級時，登錄機碼和資料庫會自動備份。  
   
--   中的檔案*\<磁碟機 >*: \Program Files\Microsoft BizTalk\<版本 > Accelerator for HL7 資料夾會更新。  
+-   中的檔案*\<磁碟機\>*: \Program Files\Microsoft BizTalk\<版本\>Accelerator for HL7 資料夾會更新。  
   
 > [!IMPORTANT]
 >  升級不會建立新的資料夾，針對升級的檔案，也不會改變現有資料夾的名稱。  
@@ -55,7 +55,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  備份[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]資料庫和您 HL7 訊息結構描述。  
   
-3.  備份之下任何檔案 ***\<磁碟機 >*: \Program Files\Microsoft BizTalk Accelerator for HL7**已變更的資料夾。 例如，備份 SDK 中的檔案。  
+3.  備份之下任何檔案 ***\<磁碟機\>*: \Program Files\Microsoft BizTalk Accelerator for HL7**已變更的資料夾。 例如，備份 SDK 中的檔案。  
   
 4.  安裝適當版本的更新[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]:  
   
@@ -70,7 +70,7 @@ ms.lasthandoff: 09/20/2017
   
 7.  重新部署所有其他組件。  
   
-8.  重新建置參考一或多個 [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] 組件的任何專案或組件。 使用**BTSTask.exe**中\<*磁碟機*>: \Program Files\Microsoft BizTalk Server\<版本 >，請手動重新部署這些專案。  
+8.  重新建置參考一或多個 [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] 組件的任何專案或組件。 使用**BTSTask.exe**中\<*磁碟機*\>: \Program Files\Microsoft BizTalk Server\<版本\>，請手動重新部署這些專案。  
   
 9. 重新啟動 [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] 服務。  
   
@@ -84,5 +84,5 @@ ms.lasthandoff: 09/20/2017
   
 -   BAM 入口網站伺服器  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [安裝 BizTalk Accelerator for HL7](../../adapters-and-accelerators/accelerator-hl7/install-biztalk-accelerator-for-hl7.md)

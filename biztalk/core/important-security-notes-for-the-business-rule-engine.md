@@ -17,14 +17,14 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9a90090c55dcbb0f8e55296d2711d5e4b36cd346
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e54a532d33e4f84eb5f1ecea67f957d415344a7c
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="important-security-notes-for-the-business-rule-engine"></a>商務規則引擎的重要安全性注意事項
-本主題摘要說明 Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 中已知的安全性問題，以及降低安全性風險所需採取的步驟。  
+本主題摘要說明 Microsoft BizTalk Server，以及降低安全性風險時，必須採取的步驟中的已知的安全性問題。  
   
 ## <a name="malicious-schema-input-causing-denial-of-service-attack"></a>導致拒絕服務攻擊的惡意結構描述輸入  
  在判斷提示事實時，各個規則均以符合原則中支援類型的所有物件加以驗證。 假設原則中的一個規則使用利用選取器傳遞的結構描述中的一個項目。 現在，若符合選取器的此項目/屬性之執行個體重複數千次，且判斷提示每一個執行個體，則會導致效能降低，進而可能導致「拒絕服務」(DoS)。  

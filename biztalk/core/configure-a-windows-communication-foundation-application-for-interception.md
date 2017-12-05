@@ -12,11 +12,11 @@ caps.latest.revision: "29"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 103eb58223ba4acd61d909640bacda76d08efe8c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 42f8328268b82a377bb6d73f3bd7305122a830c2
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-configure-a-windows-communication-foundation-application-for-interception"></a>如何設定用於攔截的 Windows Communication Foundation 應用程式
 您必須安裝 BAM 攔截器軟體，並設定應用程式使用 BAM [!INCLUDE[firstref_btsWinCommFoundation](../includes/firstref-btswincommfoundation-md.md)] 攔截器服務，才能開始收集 BAM 活動資料。 假設您已成功安裝 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 及其相依性，而且至少已建立一個 BizTalk 群組。  
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/20/2017
   
 -   必須使用「BAM 管理員」命令列工具 (bm.exe) 建立及部署攔截器組態檔。  
   
--   執行主應用程式的使用者必須屬於適當 BAM 活動事件寫入器 (bam_\<活動 > _EventWriter) 以啟用讀取攔截器組態資訊以及寫入 BAM 應用程式的 SQL Server 角色活動。  
+-   執行主應用程式的使用者必須屬於適當 BAM 活動事件寫入器 (bam_\<活動\>_EventWriter) 讓應用程式來讀取攔截器組態資訊和寫入 SQL Server 角色BAM 活動。  
   
 -   伺服器和用戶端應用程式的 App.config 檔必須經過修改，才能載入 BAM 追蹤服務。 App.config 檔經過修改之後，必須重新啟動應用程式。  
   
@@ -50,9 +50,9 @@ ms.lasthandoff: 09/20/2017
   
 4.  使用 bm.exe 部署觀察模型：  
   
-     [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking\bm.exe deploy-all-definitionfile-Definitionfile:\<*definitionfile.xml*>  
+     [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking\bm.exe deploy-all-definitionfile-Definitionfile:\<*definitionfile.xml*\>  
   
-     請確定您取代\< *definitionfile.xml*> 您想要部署的觀察模型檔案的名稱。 如需其他選項，請參閱[攔截器管理命令](../core/interceptor-management-commands.md)。  
+     請確定您取代\< *definitionfile.xml* \>您想要部署的觀察模型檔案的名稱。 如需其他選項，請參閱[攔截器管理命令](../core/interceptor-management-commands.md)。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
@@ -72,9 +72,9 @@ ms.lasthandoff: 09/20/2017
   
 4.  使用 bm.exe 部署攔截器組態檔：  
   
-     [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking\bm.exe 部署攔截器-Filename:\<*icfile.xml*>  
+     [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking\bm.exe 部署攔截器-Filename:\<*icfile.xml*\>  
   
-     請確定您取代\< *icfile.xml*> 您想要部署攔截器組態檔的名稱。  
+     請確定您取代\< *icfile.xml* \>您想要部署攔截器組態檔的名稱。  
   
     > [!NOTE]
     >  您可以使用**-Force: True**覆寫現有的事件來源的攔截器組態檔中的相同名稱的旗標。 如果您這樣做，請務必先備份使用現有的組態**get 攔截器**命令。 使用 -Force:True 旗標可能會刪除任何參考要覆寫之事件來源的攔截器組態。  

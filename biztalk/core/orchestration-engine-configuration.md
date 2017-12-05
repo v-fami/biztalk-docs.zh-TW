@@ -17,11 +17,11 @@ caps.latest.revision: "16"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fbf64565534a368f7bfe084c6901cde62405fb62
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3c5d2fae252d1b99f1a6393dc2f2ebbd45ed70a2
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="orchestration-engine-configuration"></a>協調流程引擎組態
 協調流程引擎使用名為 BTSNTSvc.exe.config 的 XML 檔來判斷特定行為。 舉例來說，BTSNTSvc.exe.config 檔中的凍結屬性及其預設值是設定為 XML，並且在所有包含協調流程的主控件執行個體啟動時被讀取。 如需詳細資訊，請參閱[協調流程凍結和解除凍結](../core/orchestration-dehydration-and-rehydration.md)。  
@@ -228,7 +228,7 @@ A pattern assignment rule specifies a regular expression and an app domain name.
   
  BTSNTSvc.exe 組態檔包含 .NET Framework General Reference 中記載的數個其他區段。 如需修改這些區段的詳細資訊，請參閱**組態檔結構描述**在.NET Framework 一般參考的[http://go.microsoft.com/FWLink/?LinkID=52964](http://go.microsoft.com/FWLink/?LinkID=52964)。  
   
- 除了 BizTalk 特定的組態資訊，btsntsvc.exe.config 也是在協調流程、 配接器或管線的內容中執行.NET 應用程式元件在哪裡取得其組態資訊，在執行的階段使用標準.NET  **\<appSettings >**標記下**\<組態 >**標記。 由於 BizTalk 已經提供自訂配接器和管線元件，以取得組態資訊的機制 **\<appSettings >** BTSNTSvc.exe.config 檔中的標記通常會使用自訂.NET 元件會從呼叫協調流程內。 例如：  
+ 除了 BizTalk 特定的組態資訊，btsntsvc.exe.config 也是在協調流程、 配接器或管線的內容中執行.NET 應用程式元件在哪裡取得其組態資訊，在執行的階段使用標準.NET  **\<appSettings\>** 標記下**\<組態\>**標記。 由於 BizTalk 已經提供自訂配接器和管線元件，以取得組態資訊的機制 **\<appSettings\>** 通常會在 BTSNTSvc.exe.config 檔案中的標記用於從協調流程內呼叫的自訂.NET 元件。 例如：  
   
 ```  
 <appSettings>  
@@ -253,6 +253,6 @@ A pattern assignment rule specifies a regular expression and an app domain name.
   
  您也必須啟用此功能，個別主控件，在資料庫中。 若要啟用主控件的訊息節流，您必須編輯 BizTalkMsgBoxDb 資料庫中的 dbo.Applications 資料表。 對於每個您想要啟用訊息節流個別協調流程的主控件，將 fAttributes 旗標位元為 1。 這些主機與件設為 1 可讓每個協調流程節流設定的訊息。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [偵錯協調流程](../core/debugging-orchestrations.md)   
- [XLANG 的語言](../core/xlang-s-language.md)
+ [XLANG-s 語言](../core/xlang-s-language.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 217a34ad256886b945bb0db43edb8fdcbe875ccc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e21bbb02c7952f1735896ede6de6f0cf85ed22f2
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="receive-oracle-e-business-suite-change-notifications-incrementally-using-biztalk-server"></a>接收以累加方式使用 BizTalk Server 的 Oracle E-business Suite 變更通知
 > [!IMPORTANT]
@@ -306,7 +306,7 @@ Procedure(WCF.Action) = "PackageApis/SCOTT/ACCOUNT_PKG/PROCESS_RECORDS";
 -   配接器接收通知訊息類似如下：  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <Notification xmlns="http://schemas.microsoft.com/OracleEBS/2008/05/Notification/">  
       <Info>ListenerStarted</Info>   
       <Source>OracleEBSBinding</Source>   
@@ -319,27 +319,27 @@ Procedure(WCF.Action) = "PackageApis/SCOTT/ACCOUNT_PKG/PROCESS_RECORDS";
 -   配接器執行 PROCESS_RECORDS 程序。 Oracle E-business Suite 的下一個回應是程序。  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <PROCESS_RECORDSResponse xmlns="http://schemas.microsoft.com/OracleEBS/2008/05/PackageApis/SCOTT/ACCOUNT_PKG">  
       <TABLE_DATA>  
-        \<xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
-          \<xs:element msdata:IsDataSet="true" name="NewDataSet">  
-            \<xs:complexType>  
-              \<xs:sequence>  
-                \<xs:element minOccurs="0" maxOccurs="unbounded" name="NewTable">  
-                  \<xs:complexType>  
-                    \<xs:sequence>  
-                      \<xs:element minOccurs="0" name="TID" type="xs:decimal" />   
-                      \<xs:element minOccurs="0" name="ACCOUNT" type="xs:decimal" />   
-                      \<xs:element minOccurs="0" name="PROCESSED" type="xs:string" />   
-                    \</xs:sequence>  
-                  \</xs:complexType>  
-                \</xs:element>  
-              \</xs:sequence>  
-            \</xs:complexType>  
-          \</xs:element>  
-        \</xs:schema>  
-        \<diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">  
+        <xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
+          <xs:element msdata:IsDataSet="true" name="NewDataSet">  
+            <xs:complexType>  
+              <xs:sequence>  
+                <xs:element minOccurs="0" maxOccurs="unbounded" name="NewTable">  
+                  <xs:complexType>  
+                    <xs:sequence>  
+                      <xs:element minOccurs="0" name="TID" type="xs:decimal" />   
+                      <xs:element minOccurs="0" name="ACCOUNT" type="xs:decimal" />   
+                      <xs:element minOccurs="0" name="PROCESSED" type="xs:string" />   
+                    </xs:sequence>  
+                  </xs:complexType>  
+                </xs:element>  
+              </xs:sequence>  
+            </xs:complexType>  
+          </xs:element>  
+        </xs:schema>  
+        <diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">  
         <NewDataSet xmlns="">  
           <NewTable>  
             <TID>1</TID>   
@@ -353,7 +353,7 @@ Procedure(WCF.Action) = "PackageApis/SCOTT/ACCOUNT_PKG/PROCESS_RECORDS";
           ......  
           ......  
         </NewDataSet>  
-        \</diffgr:diffgram>  
+        </diffgr:diffgram>  
       </TABLE_DATA>  
     </PROCESS_RECORDSResponse>  
     ```  
@@ -363,7 +363,7 @@ Procedure(WCF.Action) = "PackageApis/SCOTT/ACCOUNT_PKG/PROCESS_RECORDS";
 -   PROCESS_RECORDS 程序也會更新為 'y' 設定已處理的資料列。 因此，配接器會接收另一個更新作業的通知。  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>  
+    <?xml version="1.0" encoding="utf-8" ?>  
     <Notification xmlns="http://schemas.microsoft.com/OracleEBS/2008/05/Notification/">  
       <Details>  
         <NotificationDetails>  
@@ -386,29 +386,29 @@ Procedure(WCF.Action) = "PackageApis/SCOTT/ACCOUNT_PKG/PROCESS_RECORDS";
 -   之後，第二個通知配接器一次執行 PROCESS_RECORDS 程序。 不過，現在已處理的資料行且設為沒有記錄，因為 ' n '，程序會傳回空的回應類似於下列。  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <PROCESS_RECORDSResponse xmlns="http://schemas.microsoft.com/OracleEBS/2008/05/PackageApis/SCOTT/ACCOUNT_PKG">  
       <TABLE_DATA>  
-        \<xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
-          \<xs:element msdata:IsDataSet="true" name="NewDataSet">  
-            \<xs:complexType>  
-              \<xs:sequence>  
-                \<xs:element minOccurs="0" maxOccurs="unbounded" name="NewTable">  
-                  \<xs:complexType>  
-                    \<xs:sequence>  
-                      \<xs:element minOccurs="0" name="TID" type="xs:decimal" />   
-                      \<xs:element minOccurs="0" name="ACCOUNT" type="xs:decimal" />   
-                      \<xs:element minOccurs="0" name="PROCESSED" type="xs:string" />   
-                    \</xs:sequence>  
-                  \</xs:complexType>  
-                \</xs:element>  
-              \</xs:sequence>  
-            \</xs:complexType>  
-          \</xs:element>  
-        \</xs:schema>  
-        \<diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">  
+        <xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
+          <xs:element msdata:IsDataSet="true" name="NewDataSet">  
+            <xs:complexType>  
+              <xs:sequence>  
+                <xs:element minOccurs="0" maxOccurs="unbounded" name="NewTable">  
+                  <xs:complexType>  
+                    <xs:sequence>  
+                      <xs:element minOccurs="0" name="TID" type="xs:decimal" />   
+                      <xs:element minOccurs="0" name="ACCOUNT" type="xs:decimal" />   
+                      <xs:element minOccurs="0" name="PROCESSED" type="xs:string" />   
+                    </xs:sequence>  
+                  </xs:complexType>  
+                </xs:element>  
+              </xs:sequence>  
+            </xs:complexType>  
+          </xs:element>  
+        </xs:schema>  
+        <diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">  
           <NewDataSet xmlns="" />   
-        \</diffgr:diffgram>  
+        </diffgr:diffgram>  
       </TABLE_DATA>  
     </PROCESS_RECORDSResponse>  
     ```  
@@ -416,5 +416,5 @@ Procedure(WCF.Action) = "PackageApis/SCOTT/ACCOUNT_PKG/PROCESS_RECORDS";
 ## <a name="best-practices"></a>最佳作法  
  您部署和設定 BizTalk 專案之後，您可以為 XML 檔案，稱為繫結檔案匯出組態設定。 一旦產生繫結檔案時，可以組態設定匯入檔案，使您不需要建立傳送埠和接收相同的協調流程連接埠。 如需繫結檔案的詳細資訊，請參閱[重複使用配接器繫結與 Oracle E-business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/reuse-adapter-bindings-with-oracle-e-business-suite.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [接收 Oracle E-business Suite 資料庫變更通知使用 BizTalk Server](../../adapters-and-accelerators/adapter-oracle-ebs/receive-oracle-ebs-database-change-notifications-using-biztalk-server.md)

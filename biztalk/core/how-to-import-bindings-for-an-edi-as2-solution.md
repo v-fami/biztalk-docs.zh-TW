@@ -12,11 +12,11 @@ caps.latest.revision: "23"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ba7e0c601276779067c1699da1526491dc3f7ca2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 34c25f3837d6eb0c938900b0da9e34246f1c6038
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-import-bindings-for-an-edi-as2-solution"></a>如何匯入 EDI AS2 方案的繫結
 本主題說明如何將 EDI 和 (或) AS2 方案的組態匯入至另一部電腦。 EDI/AS2 方案的部署會與 BizTalk 應用程式部署整合， 因此您可以透過 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台和 BTSTask 命令列工具來進行部署。  
@@ -39,7 +39,7 @@ ms.lasthandoff: 09/20/2017
  如果[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]匯入一組繫結，就會失敗的原因可能是 Host Trusted 屬性與繫結檔案中的是不同於主應用程式的信任的驗證屬性。 您可以變更繫結檔中的 Host Trusted 屬性來解決此問題。  
   
 > [!NOTE]
->  從舊版 BizTalk Server 匯入繫結檔至 [!INCLUDE[prague](../includes/prague-md.md)] 時可能會失敗。 因為 [!INCLUDE[prague](../includes/prague-md.md)] 的交易夥伴管理模型已大幅變更，從舊版 BizTalk Server 匯入的繫結檔可能不會依據新模型在 [!INCLUDE[prague](../includes/prague-md.md)] 中建立實體。 如需詳細資訊，請參閱[如何在上一個 BizTalk Server 版本將轉譯的合作對象定義成新的 TPM 實體？](../core/how-to-import-bindings-for-an-edi-as2-solution.md#BKMK_Party)。  
+>  從舊版的 BizTalk Server 將繫結檔案匯入到 BizTalk Server 可能會失敗。 BizTalk Server 夥伴管理模型已大幅變更，因為從舊版 BizTalk Server 匯入繫結檔案可能無法建立實體 BizTalk Server 中根據新的模型。 如需詳細資訊，請參閱[如何在上一個 BizTalk Server 版本將轉譯的合作對象定義成新的 TPM 實體？](../core/how-to-import-bindings-for-an-edi-as2-solution.md#BKMK_Party)。  
   
 ### <a name="to-import-the-configuration-from-a-binding-file"></a>從繫結檔匯入組態  
   
@@ -52,12 +52,12 @@ ms.lasthandoff: 09/20/2017
 4.  匯入繫結之後, 開啟[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台。 手動將所有 EDI 密碼欄位設定為適當的值。  
   
 ##  <a name="BKMK_Party"></a>如何執行合作對象定義中前一個 BizTalk Server 版本將轉譯成新的 TPM 實體？  
- 在[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]，合作對象定義為基本上協議定義兩個交易夥伴之間交換訊息的方式。 在[!INCLUDE[prague](../includes/prague-md.md)]，EDI 和 AS2 傳訊那些已發生大量變更和新的交易夥伴管理 (TPM) 模型，現在需要兩個交易商務設定檔之間建立協議。 因此，基本上，針對存在於協議，您必須先定義兩個交易夥伴，同時交易夥伴設定檔和通訊協定設定這兩個交易商務設定檔。 一旦您已經定義這些實體，您可以建立交易夥伴協議。  
+ 在 BizTalk Server 合作對象定義會是基本上協議定義兩個交易夥伴之間交換訊息的方式。 在 BizTalk Server、 EDI 和 AS2 傳訊那些已發生大量變更和新的交易夥伴管理 (TPM) 模型，現在需要兩個交易商務設定檔之間建立協議。 因此，基本上，針對存在於協議，您必須先定義兩個交易夥伴，同時交易夥伴設定檔和通訊協定設定這兩個交易商務設定檔。 一旦您已經定義這些實體，您可以建立交易夥伴協議。  
   
 > [!NOTE]
->  如需詳細資訊與 TPM 中的增強功能相關[!INCLUDE[prague](../includes/prague-md.md)]，請參閱[交易夥伴管理解決方案的建置組塊](../core/building-blocks-of-a-trading-partner-management-solution.md)。  
+>  BizTalk Server 中的 TPM 增強功能相關的詳細資訊，請參閱[交易夥伴管理解決方案的建置組塊](../core/building-blocks-of-a-trading-partner-management-solution.md)。  
   
- 指定新的 TPM 物件模型，這意思，EDI 應用程式中建立[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]無法移轉至[!INCLUDE[prague](../includes/prague-md.md)]嗎？ 解決辦法就是沒有。 您可以重複使用現有的應用程式，從 BizTalk Server 2006 R2 或 BizTalk Server 2009 中[!INCLUDE[prague](../includes/prague-md.md)]使用合作對象移轉工具從舊版 BizTalk Server 移轉合作對象資料。 如需此工具的詳細資訊，請參閱[移轉 EDI 成品從 BizTalk Server 先前版本](http://msdn.microsoft.com/library/b956a97e-03d0-47ea-a2ce-c07a339c0f2c)。  
+ 指定新的 TPM 物件模型，這意思您在 BizTalk Server 中建立 EDI 應用程式不能移轉到 BizTalk Server？ 解決辦法就是沒有。 您可以使用 「 合作對象移轉工具從舊版 BizTalk Server 移轉合作對象資料從 BizTalk Server 2006 R2 或 BizTalk Server 中的 BizTalk Server 2009 現有的應用程式重複使用。 如需此工具的詳細資訊，請參閱[移轉 EDI 成品從 BizTalk Server 先前版本](http://msdn.microsoft.com/library/b956a97e-03d0-47ea-a2ce-c07a339c0f2c)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [匯入繫結](../core/importing-bindings2.md)

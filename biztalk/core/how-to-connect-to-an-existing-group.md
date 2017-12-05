@@ -17,16 +17,16 @@ caps.latest.revision: "24"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b452ef2f29eb5019eb126181e0cd47b66f82f7b8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 942093faa4a556f31d090de97b3feff4eb7a9a45
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-connect-to-an-existing-group"></a>如何連接至現有的群組
 您可以使用企業中任何電腦上的 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台，從遠端管理企業內一或多個 BizTalk Server 群組，只要這些群組位於相同網域或信任網域中的電腦上。  
   
- [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] BizTalk Server 管理主控台中的 [系統管理] 節點是所有的 BizTalk 群組的最高層級節點以及層級使用時將現有的 BizTalk Server 群組加入 BizTalk Server 管理主控台。 在新增群組時，必須指定您要連接的現有伺服器與「BizTalk 管理」資料庫。  
+ BizTalk Server 管理主控台中的 [BizTalk Server 管理] 節點是所有的 BizTalk 群組的最高層節點，您將現有的 BizTalk Server 群組加入至 BizTalk Server 管理主控台時使用的層級。 在新增群組時，必須指定您要連接的現有伺服器與「BizTalk 管理」資料庫。  
   
 ## <a name="prerequisites"></a>必要條件  
  若要執行此程序，您必須以「BizTalk Server 操作員」群組的成員登入，或以「BizTalk Server 系統管理員」群組的成員登入。  
@@ -46,7 +46,7 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  如果 BizTalk Server 管理資料庫位於 SQL Server 叢集上，而叢集正在進行容錯移轉，那麼當您嘗試連接管理資料庫時，就可能收到類似下列的錯誤：  
     >   
-    >  無法載入群組 [\<伺服器名稱 >:\<管理資料庫 >] 資料提供者。  
+    >  無法載入群組 [\<servername\>:\<管理資料庫\>] 資料提供者。  
     >   
     >  And  
     >   
@@ -56,6 +56,6 @@ ms.lasthandoff: 09/20/2017
     >   
     >  發生這個錯誤的原因，是因為在進行容錯移轉時，無法使用 BizTalk 資料庫。 若要解決這個問題，請等候 SQL Server 的叢集執行個體之後，才是線上然後再嘗試將它連接到 BizTalk Server 管理主控台。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理群組](../core/managing-groups.md)   
  [BizTalk 群組](../core/biztalk-groups.md)

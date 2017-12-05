@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 278ab244ab48d2e11a84e99f0af2e02948ff961a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f98d5113c63e29f3f4b85834b7ca1aa0836d0a5d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-data-is-stored-for-outbound-edi-messages"></a>如何儲存輸出 EDI 訊息的資料
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會針對輸出交換，進行下列作業以產生狀態報告項目：  
@@ -69,7 +69,7 @@ ms.lasthandoff: 09/20/2017
   
 -   交換控制識別碼 = 更新資料 (相互關聯的必要項)  
   
--   交換通知狀態 = 已產生或不適用\<參閱說明 0 >-更新資料  
+-   交換通知狀態 = 已產生或不適用\<參閱說明 0\> -更新資料  
   
 -   交換通知控制識別碼= 未指定值 – 會由傳送端套用  
   
@@ -77,9 +77,9 @@ ms.lasthandoff: 09/20/2017
   
 -   交換通知時間= 未指定值 – 會由傳送端套用  
   
--   通知/動作代碼 = 更新資料\<附註 1，請參閱 > （從 X12 TA104 或 edifact-uci4） *  
+-   通知/動作代碼 = 更新資料\<附註 1，請參閱\>（從 X12 TA104 或 edifact-uci4） *  
   
--   通知說明碼 = 更新資料\<，請參閱註 2 > （從 X12-TA105，EDIFACT 不適用) *  
+-   通知說明碼 = 更新資料\<，請參閱註 2\> （從 X12-TA105，EDIFACT 不適用) *  
   
  使用的通知/動作代碼如下：  
   
@@ -163,9 +163,9 @@ ms.lasthandoff: 09/20/2017
   
 -   交換通知時間 = 更新資料  
   
--   通知/動作代碼 = 更新資料 （從 X12 TA104 或 edifact-uci4） * \<，請參閱附註 1 >  
+-   通知/動作代碼 = 更新資料 （從 X12 TA104 或 edifact-uci4） *\<附註 1，請參閱\>  
   
--   通知說明碼 2 = 更新資料 (從 X12 TA105 和不 edifact 的值) * \<，請參閱註 2 >  
+-   通知說明碼 2 = 更新資料 (從 X12 TA105 和不 edifact 的值) * \<，請參閱註 2\>  
   
  來自 ACK X12:TA1-104 或 EDIFACT UCI4 的資料將會加以對應，如下所示：  
   
@@ -222,7 +222,7 @@ ms.lasthandoff: 09/20/2017
   
 -   功能通知方向 = 傳送  
   
--   功能通知狀態 =\<產生或不適用，請參閱附註 1 >  
+-   功能通知狀態 =\<產生或不適用，請參閱附註 1\>  
   
 -   交換接收者 = 更新資料 (相互關聯的必要項)  
   
@@ -248,7 +248,7 @@ ms.lasthandoff: 09/20/2017
   
 -   已接受交易集的計數 = 更新資料 (X12-AK904，由 EDIFACT 編碼的引擎計算)  
   
--   通知/動作代碼 = 更新資料\<附註 2，請參閱 > （從 X12 AK901 或 edifact-uci4） *  
+-   通知/動作代碼 = 更新資料\<附註 2，請參閱\>（從 X12 AK901 或 edifact-uci4） *  
   
 -   錯誤/語法錯誤碼 = 更新資料 (X12-AK905、EDIFACT UCI5) 說明 3  
   
@@ -463,6 +463,6 @@ ms.lasthandoff: 09/20/2017
 |5|包含的交易集數目不符合實際計數|  
 |6-26|其他不支援的驗證錯誤|  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [資料如何儲存 EDI 和 AS2 狀態報告](../core/how-data-is-stored-for-edi-and-as2-status-reports.md)   
- [資料如何儲存輸入的 EDI 訊息](../core/how-data-is-stored-for-inbound-edi-messages.md)
+ [如何儲存輸入 EDI 訊息的資料](../core/how-data-is-stored-for-inbound-edi-messages.md)

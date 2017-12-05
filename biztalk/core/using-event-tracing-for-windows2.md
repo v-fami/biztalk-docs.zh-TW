@@ -15,11 +15,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 95495448bb7b92f30911d4d33b3456fa5cef9bb1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3c5f610d75048b250fc90aba7f723cee39c4f2e1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="using-event-tracing-for-windows"></a>使用 Windows 事件追蹤
 Microsoft BizTalk Adapter for JD Edwards OneWorld 會將錯誤、警告和資訊訊息記錄至 Windows 事件檢視器。 您可以使用 Windows 事件追蹤 (ETW) 工具來檢視其他追蹤訊息。 啟動 ETW 時，它會建立一個 *.etl 檔案來接收訊息。 這個檔案是二進位格式，必須經過轉換才能讀取。 若要這樣做，您必須取用者應用程式可供解譯\*.etl 檔案： 例如，tracerpt.exe 或 tracedmp.exe。  
@@ -38,7 +38,7 @@ Microsoft BizTalk Adapter for JD Edwards OneWorld 會將錯誤、警告和資訊
   
      如果要讓取用者應用程式可讀取 .etl 檔案中的事件，「Windows 事件追蹤」必須將它們傾印到該檔案。 通常這是在控制器停用追蹤時完成。  
   
-     若要使用取用者應用程式，而不停用追蹤，控制器必須啟動使用即時選項時，追蹤**\<即時 > =-rt**。  
+     若要使用取用者應用程式，而不停用追蹤，控制器必須啟動使用即時選項時，追蹤**\<即時\>=-rt**。  
   
 -   **提供者。** 提供事件。  
   
@@ -46,15 +46,15 @@ Microsoft BizTalk Adapter for JD Edwards OneWorld 會將錯誤、警告和資訊
   
  BizTalk Adapter for JD Edwards OneWorld 有五個提供者，可讓您記錄不同種類的訊息：  
   
--   **接收器記錄提供者。** \<追蹤項目 > 參數是**-接收者**。  
+-   **接收器記錄提供者。** \<追蹤項目\>交換器**-接收者**。  
   
--   **接收器 Castdetail 提供者。** \<追蹤項目 > 參數是**-castDetailsReceive**。  
+-   **接收器 Castdetail 提供者。** \<追蹤項目\>交換器**-castDetailsReceive**。  
   
--   **傳輸器記錄提供者。** \<追蹤項目 > 參數是**-傳輸器**。  
+-   **傳輸器記錄提供者。** \<追蹤項目\>交換器**-傳輸器**。  
   
--   **傳輸器 CastDetails 提供者。** \<追蹤項目 > 參數是**-castDetailsTransmit**。  
+-   **傳輸器 CastDetails 提供者。** \<追蹤項目\>交換器**-castDetailsTransmit**。  
   
--   **管理記錄提供者。** \<追蹤項目 > 參數是**-管理**。  
+-   **管理記錄提供者。** \<追蹤項目\>交換器**-管理**。  
   
  BTAJDEOneWorldTrace 命令  
   
@@ -68,7 +68,7 @@ BTAJDEOneWorldTrace <Trace element> -stop
   
  其中：  
   
--   **\<追蹤項目 >** （必要） 是提供者的類型。  
+-   **\<追蹤項目\>** （必要） 是提供者的類型。  
   
 -   可用選項包括：  
   
@@ -84,9 +84,9 @@ BTAJDEOneWorldTrace <Trace element> -stop
   
     -   **-開始、-停止**： 啟用或停用提供者。  
   
-    -   **-cir \<MB >**： 檔案的大小與種類。 -cir 是循環檔案。 \<MB >： 大小以 mb 表示。  
+    -   **-cir \<MB\>**： 檔案的大小與種類。 -cir 是循環檔案。 \<MB\>： 大小以 mb 表示。  
   
-    -   **-seq \<MB >**： 檔案的大小與種類。 -seq 是循序檔案。 \<MB >： 大小以 mb 表示。  
+    -   **-seq \<MB\>**： 檔案的大小與種類。 -seq 是循序檔案。 \<MB\>： 大小以 mb 表示。  
   
     -   **-rt**： 設定即時模式。  
   
@@ -99,5 +99,5 @@ BTAJDEOneWorldTrace -transmitter -start -cir 10 -rt c:\log\mylog.etl
 BTAJDEOneWorldTrace -transmitter -stop  
 ```  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [疑難排解 JD Edwards OneWorld](../core/troubleshooting-jd-edwards-oneworld.md)

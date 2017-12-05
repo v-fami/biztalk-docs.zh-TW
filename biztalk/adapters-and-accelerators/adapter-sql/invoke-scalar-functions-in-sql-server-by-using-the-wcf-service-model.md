@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0303378f6e265d3b5d86a1aa9cd4fb1e88df86fc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7a04904f1170644498d49670104a842b4c8f9dd2
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="invoke-scalar-functions-in-sql-server-by-using-the-wcf-service-model"></a>使用 WCF 服務模型來叫用 SQL Server 中的純量函式
 您可以使用[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].NET 應用程式使用 WCF 服務模型來叫用 SQL Server 中的純量函式中。 配接器會公開為可直接在 SQL Server 上叫用方法的純量函數。 如需配接器如何支援純量函數的詳細資訊，請參閱[執行 SQL Server 使用 SQL 配接器中的純量函式](../../adapters-and-accelerators/adapter-sql/execute-scalar-functions-in-sql-server-using-the-sql-adapter.md)。  
@@ -43,9 +43,9 @@ ms.lasthandoff: 09/20/2017
 |---------------|----------------------|  
 |純量函數名稱|公用*< return_type >**< scalar_function_name >*(參數 1，參數 2，...)|  
   
- \<*retrun_type*> = 函式定義中所定義的傳回型別  
+ \<*retrun_type* \> = 函式定義中所定義的傳回型別  
   
- \<*scalar_function_name*> = 純量函數的名稱。  
+ \<*scalar_function_name* \> = 純量函數的名稱。  
   
  例如，下列程式碼顯示的方法簽章產生 WCF 用戶端類別**GET_EMP_ID** dbo 結構描述，它做為參數指定的員工，並傳回員工識別碼 （中的純量函式整數）。  
   
@@ -132,5 +132,5 @@ public partial class ScalarFunctions_dboClient : System.ServiceModel.ClientBase<
   
 8.  建置專案，然後執行它。 應用程式會顯示具有 「 管理員 」 指定員工的員工識別碼。  
   
-## <a name="see-also"></a>另請參閱  
-[開發應用程式使用 WCF 服務模型](../../adapters-and-accelerators/adapter-sql/develop-sql-applications-using-the-wcf-service-model.md)
+## <a name="see-also"></a>請參閱  
+[使用 WCF 服務模型開發應用程式](../../adapters-and-accelerators/adapter-sql/develop-sql-applications-using-the-wcf-service-model.md)

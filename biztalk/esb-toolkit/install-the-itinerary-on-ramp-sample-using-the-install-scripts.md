@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b1912bd6c9ec0b32c8b6b230d15299777ff42735
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 28bd132591730c63af219e3b8acfbcf52c882c87
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="install-the-itinerary-on-ramp-sample-using-the-install-scripts"></a>安裝路線上手範例使用安裝指令碼
 本章節描述如何安裝路線上手範例，以及在隨附的安裝指令碼從[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]。  
@@ -27,7 +27,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**執行**] 對話方塊中，輸入**cmd**，然後按 ENTER 開啟 [命令提示字元。  
   
-3.  執行下列命令，取代\<路徑 > 參數與您想要安裝的.cmd 檔案的完整路徑 (在此版本中的預設路徑是 \Source\Samples\Itinerary\Install\Scripts\\):  
+3.  執行下列命令，取代\<路徑\>參數與您想要安裝的.cmd 檔案的完整路徑 (在此版本中的預設路徑是 \Source\Samples\Itinerary\Install\Scripts\\):  
   
     ```  
     <path>\Setup_bin.cmd  

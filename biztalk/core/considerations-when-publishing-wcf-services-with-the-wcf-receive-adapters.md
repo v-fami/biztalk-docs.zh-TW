@@ -18,11 +18,11 @@ caps.latest.revision: "34"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3d42be28233162b158e463f2d3781a52807c4523
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 30175e7966d565306c45820f1a6c2e22e4611876
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="considerations-when-publishing-wcf-services-with-the-wcf-receive-adapters"></a>利用 WCF 接收配接器發佈 WCF 服務的考量
 本主題將提供您利用 WCF 接收配接器來發佈 WCF 服務時應該納入考量的相關資訊。  使用 WCF 配接器發佈服務後，WCF 用戶端將能夠把該服務當成一般 WCF 服務來呼叫。  
@@ -116,15 +116,15 @@ ms.lasthandoff: 09/20/2017
   
 |XML 結構描述項目|使用透過 BizTalk WCF 服務發佈精靈所發佈的 WCF 服務|使用 .NET 應用程式所裝載的 WCF 服務|  
 |------------------------|-------------------------------------------------------------------------------------|--------------------------------------------------------|  
-|\<匯入 >|BizTalk WCF 服務使用精靈和 Svcutil.exe 皆支援|BizTalk WCF 服務使用精靈和 Svcutil.exe 皆支援|  
-|\<包含 >|支援使用 BizTalk WCF 服務使用精靈和 Svcutil.exe**附註：** Svcutil.exe 建立 proxy 類別時，可能會發出警告訊息。|支援使用 BizTalk WCF 服務使用精靈和 Svcutil.exe**附註：** Svcutil.exe 建立 proxy 類別時，可能會發出警告訊息。|  
-|\<重新定義 >|支援使用 BizTalk WCF 服務使用精靈<br />-有限的支援，由 Svcutil.exe**附註：** Svcutil.exe 擁有相同的限制，如**重新定義**xsd.exe 的項目。|支援使用 BizTalk WCF 服務使用精靈和 Svcutil.exe**附註：** Svcutil.exe 建立 proxy 類別時，可能會發出警告訊息。|  
+|\<匯入\>|BizTalk WCF 服務使用精靈和 Svcutil.exe 皆支援|BizTalk WCF 服務使用精靈和 Svcutil.exe 皆支援|  
+|\<包含\>|支援使用 BizTalk WCF 服務使用精靈和 Svcutil.exe**附註：** Svcutil.exe 建立 proxy 類別時，可能會發出警告訊息。|支援使用 BizTalk WCF 服務使用精靈和 Svcutil.exe**附註：** Svcutil.exe 建立 proxy 類別時，可能會發出警告訊息。|  
+|\<重新定義\>|支援使用 BizTalk WCF 服務使用精靈<br />-有限的支援，由 Svcutil.exe**附註：** Svcutil.exe 擁有相同的限制，如**重新定義**xsd.exe 的項目。|支援使用 BizTalk WCF 服務使用精靈和 Svcutil.exe**附註：** Svcutil.exe 建立 proxy 類別時，可能會發出警告訊息。|  
   
 > [!NOTE]
 >  Svcutil.exe 可能會對已發行的 BizTalk WCF 服務的 proxy 類別建立與使用的結構描述時引發一則警告訊息**包含**和**重新定義**項目。 例如，「已經宣告全域項目」。  
   
 ## <a name="ensure-that-an-in-process-wcf-receive-location-is-not-disabled-after-you-change-the-computer-name-part-in-its-service-endpoint-address"></a>確定在您變更服務端點位址中的電腦名稱部分之後，內含式 WCF 接收位置未遭停用  
- 如果您變更電腦名稱部分**位址 (URI)**文字方塊執行內含式 WCF 接收位置，我們建議您檢查是否仍然正在執行的接收位置使用 BizTalk 管理主控台。 例如，如果您變更服務端點位址使用 Wcf-nettcp 接收配接器， **net.tcp://\<***您的電腦名稱***> / samplepath**，若要**net.tcp://localhost/samplepath**，接收位置可能會停用與**Service.InvalidOperationException**。 如果您只變更服務端點位址的電腦名稱部分而不修改路徑部分，請確定該接收位置未遭停用，並在必要情況下啟用該位置。  
+ 如果您變更電腦名稱部分**位址 (URI)**文字方塊執行內含式 WCF 接收位置，我們建議您檢查是否仍然正在執行的接收位置使用 BizTalk 管理主控台。 例如，如果您變更服務端點位址使用 Wcf-nettcp 接收配接器， **net.tcp://\<***您的電腦名稱***\>/samplepath**至**net.tcp://localhost/samplepath**，接收位置可能會停用與**Service.InvalidOperationException**。 如果您只變更服務端點位址的電腦名稱部分而不修改路徑部分，請確定該接收位置未遭停用，並在必要情況下啟用該位置。  
   
 ## <a name="set-the-appropriate-msdtc-security-configuration-options-on-client-computers-communicating-with-remote-wcf-receive-locations-through-a-transaction-protocol"></a>在透過交易通訊協定和遠端 WCF 接收位置通訊的用戶端電腦上設定適當的 MSDTC 安全性組態選項  
  Wcf-nettcp、 Wcf-wshttp 和 Wcf-netnamedpipe 接收配接器使用 WCF 用戶端管理的交易式協調程序可以參與**Ws-atomictransaction**和**OleTransaction**交易通訊協定。 在交易內容中使用這些交易通訊協定，即可將訊息傳輸到目的接收位置，以及從 MessageBox 資料庫中加以刪除。  

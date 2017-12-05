@@ -17,18 +17,18 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: bc82cc75df5d8b73e3780e451b1c380e08ef1cec
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3a3fad82b8d537fcc017dfed175c5348cc1529d3
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="using-context-properties"></a>使用內容屬性
 BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 傳訊引擎和其元件內容屬性在內部使用。 不建議變更引擎的部分內容屬性所設定的值，因為它可能會影響引擎的執行邏輯。 不過，您可以變更大量的未由引擎所設定的屬性。 您可以使用內容屬性來建立傳送埠篩選條件運算式 (如需詳細資訊，請參閱[設定傳送埠的篩選條件運算式](../../adapters-and-accelerators/accelerator-hl7/setting-filter-expressions-on-send-ports.md))。 您也可以在篩選運算式中使用內容屬性，如協調流程。 屬性可用於篩選運算式，只要專案有參考的全域屬性結構描述 (其中[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]時您可以使用其中一個常見的範本建立)。  
   
  下表包含一份[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]訊息內容屬性，「 傳訊引擎會使用。 引擎會使用許多這些屬性的路由。 序列化程式會使用其他人進行任何處理。 這些屬性包含前置詞[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]。  
   
- 如需有關[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]內容屬性 （其為 BTS 前置詞篩選條件運算式中識別），請參閱中的 「 訊息內容屬性 」[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]幫助。 **BTS。SchemaStrongName**和**BTS。MessageType**兩個屬性，[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]引擎所使用。  
+ 如需有關[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]內容屬性 （其為 BTS 前置詞篩選條件運算式中識別），請參閱 BizTalk Server 說明中的 「 訊息內容屬性 」。 **BTS。SchemaStrongName**和**BTS。MessageType**兩個屬性，[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]引擎所使用。  
   
  下表中升級，而且需要資料行具有下列效果：  
   

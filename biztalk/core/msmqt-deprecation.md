@@ -12,11 +12,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 27e7095c73cd337a1fb08f2d867e817ad5838206
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f869dde7cb4c793e1e36beee6a20bc89d19272e8
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="msmqt-deprecation"></a>MSMQT 過時
 MSMQT 功能已經自 BizTalk Server 移除。 在協調流程設計師中，MSMQT 傳輸選項仍然可在設計階段連接埠組態精靈中下當您選擇的映像中所示**現在指定**選項**連接埠繫結**.  
@@ -26,10 +26,10 @@ MSMQT 功能已經自 BizTalk Server 移除。 在協調流程設計師中，MSM
  ![](../core/media/portconfigurationwizard-msmqt-transport.gif "PortConfigurationWizard_MSMQT_Transport")  
   
 ## <a name="biztalk-server-projects"></a>BizTalk Server 專案  
- 新的 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 專案不應該使用 MSMQT 傳輸選項。 應用程式部署至[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]將會失敗並出現錯誤**通訊協定類型"MSMQT"找不到**。  
+ 新的 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 專案不應該使用 MSMQT 傳輸選項。 應用程式部署至 BizTalk Server 將會失敗並出現錯誤**通訊協定類型"MSMQT"找不到**。  
   
 ## <a name="migrated-biztalk-server-projects"></a>移轉的 BizTalk Server 專案  
- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]專案可以移轉到[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]使用[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]如中所述的轉換精靈[移轉 BizTalk Server 專案](../core/migrating-a-biztalk-server-project.md)。 如果專案所含的連接埠已設為搭配 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 使用 MSMQT 傳輸，則您必須先手動設定這些專案，才能將這些專案部署至 。 建議的重新設定是使用 MSMQ 配接器。  如需 MSMQ 配接器的詳細資訊，請參閱[什麼是 MSMQ 配接器？](../core/what-is-the-msmq-adapter.md)。  
+ [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]專案可以移轉至 BizTalk Server 使用[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]如中所述的轉換精靈[移轉 BizTalk Server 專案](../core/migrating-a-biztalk-server-project.md)。 必須在部署至 BizTalk Server 之前手動重新設定包含通訊埠設定為使用 MSMQT 傳輸專案。 建議的重新設定是使用 MSMQ 配接器。  如需 MSMQ 配接器的詳細資訊，請參閱[什麼是 MSMQ 配接器？](../core/what-is-the-msmq-adapter.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [從 MSMQT 配接器移轉至 MSMQ 配接器](../core/migrating-from-the-msmqt-adapter-to-the-msmq-adapter.md)

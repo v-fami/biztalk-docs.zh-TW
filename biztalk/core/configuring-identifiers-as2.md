@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ac5f85187a49f3ab5248f12aceba74731ed7e915
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f1f4c8ddde24c32f93d003f778b9359d70e87170
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="configuring-identifiers-as2"></a>設定識別項 (AS2)
 在夥伴協議中，您必須指定傳送者與接收者合作對象。 這些值也會用來解析輸入或輸出訊息的協議。  
@@ -44,9 +44,9 @@ ms.lasthandoff: 09/20/2017
 5.  在下**其他協議解析程式** 區段中，針對**AS2To**屬性，接收訊息的夥伴輸入其他別名。  
   
     > [!NOTE]
-    >  此屬性是選擇項。 此屬性適用於回溯相容性。 將合作對象定義從 BizTalk Server 2006 R2 或 BizTalk Server 2009 移轉至 [!INCLUDE[prague](../includes/prague-md.md)] 時，會將舊版 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中的合作對象名稱做為此屬性的值納入。 這樣可確保會進行協議解析，而且現有的應用程式與夥伴定義可與 [!INCLUDE[prague](../includes/prague-md.md)] 搭配使用。  
+    >  此屬性是選擇項。 此屬性適用於回溯相容性。 合作對象定義當 BizTalk Server 2006 R2 或 BizTalk Server 2009 移轉至 BizTalk Server 中，在舊版的合作對象名稱[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]隨附做為這個屬性的值。 這可確保協議解析，和現有的應用程式與夥伴定義可搭配 BizTalk Server。  
   
 6.  按一下**套用**繼續進行組態之前接受變更，或按一下**確定**來驗證變更，然後關閉對話方塊。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [設定 AS2 協議屬性](../core/configuring-as2-agreement-properties.md)

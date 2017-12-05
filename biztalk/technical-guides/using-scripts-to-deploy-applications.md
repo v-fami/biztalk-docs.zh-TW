@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4566a810489a9f6c46424a525908aa5a2fbb6bee
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9bc96c3b591baf81806182b6c3e988a46dd208ba
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="using-scripts-to-deploy-applications"></a>使用指令碼來部署應用程式
 部署 BizTalk 應用程式，可能的話，您應該使用指令碼。 指令碼部署程序期間減少人為錯誤的風險。 您也應該記錄深度您部署程序。 您應該記錄任何您不要的指令碼非常詳細的步驟。 這包括記錄到外部系統和非 Microsoft 元件部署的任何變更。  
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/20/2017
 -   [了解 BizTalk Server 應用程式部署](http://go.microsoft.com/fwlink/?LinkId=101599)(http://go.microsoft.com/fwlink/?LinkId=101599)  
   
     > [!NOTE]  
-    >  此第二個文件也適用於[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]。  
+    >  BizTalk Server 也適用於這個第二個發行項。  
   
-## <a name="see-also"></a>另請參閱  
- [檢查清單： 設定 BizTalk Server](../technical-guides/checklist-configuring-biztalk-server.md)
+## <a name="see-also"></a>請參閱  
+ [檢查清單：設定 BizTalk Server](../technical-guides/checklist-configuring-biztalk-server.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: af27363e5156ca88f2c6b3e06a67d0609bf52afe
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 947666ce63160425896564b20e91bd1fd70c95a9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="configure-a-client-binding-for-the-sql-adapter"></a>設定 SQL 配接器的用戶端繫結
 產生 WCF 用戶端類別後，您可以建立 WCF 用戶端 （執行個體），並叫用其方法來取用[!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]。 如需有關如何產生 WCF 用戶端類別和協助程式程式碼的作業資訊的[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]公開，請參閱[產生 WCF 用戶端或 WCF 服務合約的 SQL Server 成品](../../adapters-and-accelerators/adapter-sql/generate-a-wcf-client-or-wcf-service-contract-for-sql-server-artifacts.md)。  
@@ -55,9 +55,9 @@ client.Open();
  下列 XML 顯示客戶資料表所建立的組態檔[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]。 此檔案包含在上述範例中所參考的用戶端端點組態。  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <configuration xmlns="http://schemas.microsoft.com/.NetConfiguration/v2.0">  
-    \<system.serviceModel>  
+    <system.serviceModel>  
         <bindings>  
             <sqlBinding>  
                 <binding name="SqlAdapterBinding" closeTimeout="00:01:00" openTimeout="00:01:00"  
@@ -76,13 +76,13 @@ client.Open();
                 bindingConfiguration="SqlAdapterBinding" contract="TableOp_dbo_Customer"  
                 name="SqlAdapterBinding_TableOp_dbo_Customer" />  
         </client>  
-    \</system.serviceModel>  
+    </system.serviceModel>  
 </configuration>  
 ```  
   
  如果專案有一個以上的 WCF 用戶端，會有多個用戶端組態檔中定義的端點項目。 每個 WCF 用戶端項目會有唯一的名稱，根據其繫結組態和目標 SQL Server 成品。例如，"`SqlAdapterBinding_TableOp_dbo_Customer`"。 如果您連接多個的時間，以建立 WCF 用戶端專案中，多個繫結組態項目將會建立，其中每個連接。 這些繫結組態項目將會透過下列方式命名： SqlAdapterBinding、 SqlAdapterBinding1，依此類推。 在特定的連接期間建立的每個用戶端端點項目會參考該連接期間所建立的繫結項目。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [開發 SQL 應用程式使用 WCF 服務模型](../../adapters-and-accelerators/adapter-sql/develop-sql-applications-using-the-wcf-service-model.md)   
  [SQL Server 成品產生 WCF 用戶端或 WCF 服務合約](../../adapters-and-accelerators/adapter-sql/generate-a-wcf-client-or-wcf-service-contract-for-sql-server-artifacts.md)   
 [建立 SQL Server 連接 URI](../../adapters-and-accelerators/adapter-sql/create-the-sql-server-connection-uri.md)

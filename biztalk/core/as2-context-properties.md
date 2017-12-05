@@ -12,18 +12,18 @@ caps.latest.revision: "23"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8f66fa78b1efb8bd6850e64ba002ecd8e1cb91f3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 03897ce3bd74329a19d85d48b3704f551122d272
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="as2-context-properties"></a>AS2 內容屬性
-[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 中的 AS2 訊息會套用五種類型的內容屬性：  
+五種類型的內容屬性適用於 AS2 訊息儲存在 BizTalk Server:  
   
 -   EdiIntProperties.xsd 結構描述中的內容屬性  
   
--   [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 內部的內容屬性  
+-   BizTalk Server 內部的內容屬性  
   
 -   BizTalk MIME 內部的內容屬性  
   
@@ -95,5 +95,5 @@ ms.lasthandoff: 09/20/2017
 |SenderID|string|來自 EDI 交換的交換傳送者識別碼。 這個屬性是在 AS2 編碼期間從訊息中讀取，用來報告 AS2 的「交換活動」。|  
 |SenderQualifier|string|來自 EDI 交換的交換傳送者辨識符號。 這個屬性是在 AS2 編碼期間從訊息中讀取，用來報告 AS2 的「交換活動」。|  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [開發和設定 BizTalk Server AS2 解決方案](../core/developing-and-configuring-biztalk-server-as2-solutions.md)

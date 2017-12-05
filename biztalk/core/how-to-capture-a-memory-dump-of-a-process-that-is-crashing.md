@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fda8dd26908b241a9897bb4f1b2ba697b55f6532
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e87664180b7ad4d5fdcd121542974a08b8634d55
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-capture-a-memory-dump-of-a-process-that-is-crashing"></a>如何擷取損毀程序的記憶體傾印
 BizTalk 處理序 BTSNTSvc.exe 定義為**損毀**windows 已意外終止程序。 損毀一般是由程序中未處理的例外狀況造成的，例如存取違規或堆疊溢位。 在這些情況下，Windows 預設偵錯工具，Dr。Watson (drwtsn32.exe) 攔截例外狀況和終止處理序。  
@@ -41,7 +41,7 @@ BizTalk 處理序 BTSNTSvc.exe 定義為**損毀**windows 已意外終止程序�
   
 8.  在**規則完成**對話方塊中，按一下**完成**以接受預設值的**立即啟動規則**。  
   
-9. 根據預設，處理程序的記憶體傾印會儲存到 \Program Files\IIS Resources\DebugDiag\Logs\\<*損毀規則的名稱*> 目錄的本機電腦下一次未處理處理序中發生例外狀況。  
+9. 根據預設，處理程序的記憶體傾印會儲存到 \Program Files\IIS Resources\DebugDiag\Logs\\<*損毀規則的名稱*\>目錄的本機電腦下一次處理序中發生未處理的例外狀況。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [如何使用 Debug Diagnostics 分析記憶體傾印](../core/how-to-use-debug-diagnostics-to-analyze-a-memory-dump.md)

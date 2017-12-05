@@ -17,11 +17,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: efdcfe1ac8feee5b4ffa07d3a276ce86c352fe21
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 413f62a679c0510be34289900b92188554e622c8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="create-a-channel-using-oracle-database"></a>建立通道使用 Oracle 資料庫
 在 WCF 通道模型中，叫用 Oracle 資料庫上的作業，接收交換的 SOAP 訊息來輪詢查詢的結果[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]透過 WCF 通道。  
@@ -99,9 +99,9 @@ channel.Open();
  下列程式碼示範使用上述範例的組態設定。 用戶端端點的合約必須是"System.ServiceModel.Channels.IRequestChannel"或"System.ServiceModel.Channels.IRequestChannel 」，您想要建立的通道類型的類型而定。  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <configuration xmlns="http://schemas.microsoft.com/.NetConfiguration/v2.0">  
-    \<system.serviceModel>  
+    <system.serviceModel>  
         <bindings>  
             <oracleDBBinding>  
                 <binding name="OracleDBBinding" closeTimeout="00:01:00" openTimeout="00:01:00"  
@@ -122,7 +122,7 @@ channel.Open();
                 bindingConfiguration="OracleDBBinding" contract="System.ServiceModel.Channels.IRequestChannel"  
                 name="MyRequestChannel" />  
         </client>  
-    \</system.serviceModel>  
+    </system.serviceModel>  
 </configuration>  
 ```  
   
@@ -137,7 +137,7 @@ channel.Open();
   
 3.  建立繫結參數集合使用**BindingParameterCollection**類別，並設定認證。  
   
-4.  叫用來建立通道接聽程式**BuildChannelListener\<IInputChannel >**方法**OracleDBBinding**。 您可以指定 Oracle 連線 URI 為其中一個參數，這個方法。 如需 Oracle 連線 URI 的詳細資訊，請參閱[建立 Oracle 資料庫連線 URI](../../adapters-and-accelerators/adapter-oracle-database/create-the-oracle-database-connection-uri.md)。  
+4.  叫用來建立通道接聽程式**BuildChannelListener\<IInputChannel\>** 方法**OracleDBBinding**。 您可以指定 Oracle 連線 URI 為其中一個參數，這個方法。 如需 Oracle 連線 URI 的詳細資訊，請參閱[建立 Oracle 資料庫連線 URI](../../adapters-and-accelerators/adapter-oracle-database/create-the-oracle-database-connection-uri.md)。  
   
 5.  開啟接聽程式。  
   
@@ -177,5 +177,5 @@ channel = listener.AcceptChannel();
 channel.Open();  
 ```  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [開發 Oracle 資料庫應用程式使用 WCF 通道模型](../../adapters-and-accelerators/adapter-oracle-database/develop-oracle-database-applications-using-the-wcf-channel-model.md)

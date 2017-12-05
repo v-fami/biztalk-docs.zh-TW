@@ -23,11 +23,11 @@ caps.latest.revision: "41"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c66a54a50479a168715ccc66c116372f68f21698
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e8e83297233c4f8ac51ad90f488437a6c259691a
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="walkthrough-module-1---sending-and-receiving-messages-with-the-windows-sharepoint-services-adapter"></a>逐步解說： 模組 1-傳送和接收訊息，Windows SharePoint Services 配接器
 本逐步解說會示範如何設定 Windows SharePoint Services 和[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]讓您可以傳送和接收訊息，使用 Windows SharePoint Services 配接器和以內容為基礎的路由 (CBR)。 對於繫結至特定連接埠的訊息，以內容為基礎的路由可免除訊息訂閱之需求。 它也提供額外的彈性，讓使用者可傳遞以信封屬性為基礎的訊息，或僅以接收埠組態屬性為基礎的訊息。 如需 Windows SharePoint Services 配接器的簡介，請參閱[什麼是 Windows SharePoint Services 配接器？](../core/what-is-the-windows-sharepoint-services-adapter.md)。  
@@ -35,7 +35,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="prerequisites"></a>必要條件  
  下列是執行本主題所述程序的必要條件：  
   
--   您必須擁有的完整安裝的單一伺服器部署[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]上執行[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]或[!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]。  
+-   您必須已完整安裝上執行的 BizTalk Server 的單一伺服器部署[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]或[!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]。  
   
  在多重伺服器部署中使用的 Windows SharePoint Services 配接器的相關資訊，請參閱[設定和部署 Windows SharePoint Services 配接器](../core/setting-up-and-deploying-the-windows-sharepoint-services-adapter.md)。  
   
@@ -303,6 +303,6 @@ ms.lasthandoff: 09/20/2017
 ## <a name="next-steps"></a>後續步驟  
  現在您已完成此逐步解說中，執行[逐步解說： 模組 2-整合 Office 與 Windows SharePoint Services 配接器](../core/walkthrough-module-2--integrate-office-with-the-sharepoint-adapter-in-biztalk.md)逐步解說，它會展開，您完成此逐步解說並顯示與工作您如何整合 Office 與 Windows SharePoint Services 配接器。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [什麼是 Windows SharePoint Services 配接器？](../core/what-is-the-windows-sharepoint-services-adapter.md)   
  [Windows SharePoint Services 配接器逐步解說](../core/windows-sharepoint-services-adapter-walkthroughs.md)

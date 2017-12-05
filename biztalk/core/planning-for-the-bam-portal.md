@@ -22,17 +22,17 @@ caps.latest.revision: "36"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 54cc5bb9bd123f68fbeb0013423c3f3cc07cd50a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 85f7291d56d662a8e3a9d46308d6b16ca2a1cafc
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="planning-for-the-bam-portal"></a>規劃 BAM 入口網站
 本主題說明您在規劃商務活動監控 (BAM) 入口網站部署時應該考量的事項。  
   
 ## <a name="prerequisites"></a>必要條件  
- **系統需求**。 除了 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 的系統需求之外，您還必須安裝下列軟體才能安裝 BAM 入口網站：  
+ **系統需求**。 除了 BizTalk Server 的系統需求，您必須安裝下列軟體才能安裝 BAM 入口網站：  
   
 -   Internet Information Services (IIS)  
   
@@ -86,7 +86,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="development-planning"></a>開發作業規劃  
  **樞紐分析表的連接字串**。 BAM 管理員公用程式在部署期間，不一定會更改即時彙總 (RTA) 樞紐分析表定義中的連接字串。 之所以未更改，是因為 RTA 樞紐分析表既有的 OLAP 連接字串已遭手動編輯，但只是數值機碼的大小寫不正確而已。 例如，在 BAM 定義 XML 檔案中的底下這一行，機碼是 RTARef 而非原本應有的 RtaRef：  
   
- **\<樞紐分析表檢視 CubeRef ="POCube"RTARef ="POAmountByLocation">**  
+ **\<樞紐分析表檢視 CubeRef ="POCube"RTARef ="POAmountByLocation"\>**  
   
  這會造成從 OLAP Cube 產生樞紐分析表，而不是從 RTA 樞紐分析表產生。  
   
@@ -110,5 +110,5 @@ ms.lasthandoff: 09/20/2017
   
 -   如果您有多部伺服器架設 BAM 入口網站讓使用者查看部署檢視，為了提供相同的使用經驗，每一部伺服器對其本機 BAM 主要匯入資料庫執行查詢的各項設定務求一致。  
   
-## <a name="see-also"></a>另請參閱  
- [自訂 BAM 入口網站組態](../core/customizing-the-bam-portal-configuration.md)
+## <a name="see-also"></a>請參閱  
+ [自訂 BAM 入口網站設定](../core/customizing-the-bam-portal-configuration.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5fa0f77fb6b0eee870adb70efdcc155a34f03599
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8b613efe730c51bdac6354f819e544a30f38d8bb
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="assemblies-and-artifacts-installed-by-the-message-enrichment-sample"></a>組件和成品安裝 「 訊息豐富 」 範例
 下表列出 「 訊息豐富 」 範例的安裝其他成品和組件。  
@@ -40,4 +40,4 @@ ms.lasthandoff: 09/20/2017
 |全域組件快取|組件|MessageEnrichment.Transforms 1.0.0.0 版|  
 |||MessageEnrichment.Orchestrations 1.0.0.0 版|  
 |||MessageEnrichment.Schema 1.0.0.0 版|  
-|%Program Files %\\[!INCLUDE[prague](../includes/prague-md.md)]\Pipeline 元件|管線元件||
+|%Program Files %\\BizTalk Server\Pipeline 元件|管線元件||

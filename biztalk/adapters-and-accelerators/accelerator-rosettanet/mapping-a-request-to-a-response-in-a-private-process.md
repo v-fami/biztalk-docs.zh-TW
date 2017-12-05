@@ -22,11 +22,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6bd67be0bbe70794f6fe6f77d388b69660e2d1ef
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 966ad6ad752c36be36b4013743eaba3af5434d0a
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="mapping-a-request-to-a-response-in-a-private-process"></a>將要求對應至私用程序中回應時間
 本主題描述如何將私用回應者程序所接收的要求訊息對應 — 從[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]公用回應者程序，來回應訊息傳送給[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]公用回應者程序。  
@@ -39,7 +39,7 @@ ms.lasthandoff: 09/20/2017
   
 -   [3A4 要求至 3A4 回應的對應範例](../../adapters-and-accelerators/accelerator-rosettanet/3a4-request-to-3a4-response-map-sample.md)  
   
--   [Double 動作 PIPAutomation 協調流程](../../adapters-and-accelerators/accelerator-rosettanet/double-action-pipautomation-orchestration.md)  
+-   [雙向動作 PIPAutomation 協調流程](../../adapters-and-accelerators/accelerator-rosettanet/double-action-pipautomation-orchestration.md)  
   
 -   [使用商務規則的 3A4 私用回應者協調流程](../../adapters-and-accelerators/accelerator-rosettanet/3a4-private-responder-orchestration-using-a-business-rule.md)  
   
@@ -63,7 +63,7 @@ ms.lasthandoff: 09/20/2017
   
 9. 在 [BizTalk 型別選擇器] 視窗中，依序展開**參考**，依序展開**Microsoft.Solutions.BTARN.Schemas.RNPIPs**，依序展開**結構描述**，選取的 PIP 結構描述您想要對應，然後按一下的回應訊息**確定**。  
   
-10. 以滑鼠右鍵按一下\<*結構描述*> 節點來源結構描述，然後再按一下**展開樹狀結構節點**。  
+10. 以滑鼠右鍵按一下\<*結構描述*\>節點來源結構描述，然後再按一下**展開樹狀結構節點**。  
   
 11. 重複步驟 10，完成目的結構描述的部分。  
   
@@ -71,7 +71,7 @@ ms.lasthandoff: 09/20/2017
   
 13. 重複步驟 12，將全部您要進行對應的欄位完成對應的動作。  
   
-14. 驗證並測試對應。 如需詳細資訊，請參閱「[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] 說明」中的＜編譯與測試對應＞主題。  
+14. 驗證並測試對應。 如需詳細資訊，請參閱 BizTalk Server 說明中的 「 編譯與測試對應 」 主題。  
   
 ### <a name="to-add-the-map-to-the-orchestration"></a>將對應加入協調流程  
   
@@ -83,7 +83,7 @@ ms.lasthandoff: 09/20/2017
 2.  在工具箱中，按一下 **轉換**圖形，並將它拖曳至協調流程，您不必將要求訊息轉換成回應訊息中的點。  
   
     > [!NOTE]
-    >  如需範例的位置的**轉換**圖形，請參閱 PIP3A4PrivateResponder.odx 協調流程。 它位於\<*磁碟機*>: \Program Files\Microsoft BizTalk\<版本 > Accelerator for RosettaNet\SDK\PipAutomation\3A4\PR。 這個範例會將放**轉換**立即圖形下**IsActivityDoubleAction**圖形。 如需詳細資訊，請參閱[3A4 私用回應者協調流程使用商務規則](../../adapters-and-accelerators/accelerator-rosettanet/3a4-private-responder-orchestration-using-a-business-rule.md)。  
+    >  如需範例的位置的**轉換**圖形，請參閱 PIP3A4PrivateResponder.odx 協調流程。 它位於\<*磁碟機*\>: \Program Files\Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK\PipAutomation\3A4\PR。 這個範例會將放**轉換**立即圖形下**IsActivityDoubleAction**圖形。 如需詳細資訊，請參閱[3A4 私用回應者協調流程使用商務規則](../../adapters-and-accelerators/accelerator-rosettanet/3a4-private-responder-orchestration-using-a-business-rule.md)。  
   
     > [!NOTE]
     >  如需如何將多個對應合併多個 Pip 的範例，請參閱[雙向動作 PIPAutomation 協調流程](../../adapters-and-accelerators/accelerator-rosettanet/double-action-pipautomation-orchestration.md)。  
@@ -100,5 +100,5 @@ ms.lasthandoff: 09/20/2017
   
 8.  按一下 **[確定]**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [程式設計指南](../../adapters-and-accelerators/accelerator-rosettanet/programming-guide2.md)

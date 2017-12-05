@@ -19,11 +19,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c6a70e6bc4062a6c2865c9adb8f76d68a078e965
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cebc9e3fb8382fecf7791d14d52a21ac96f77cde
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="operations-on-idocs-in-sap"></a>在 SAP Idoc 的作業
 Idoc 是 SAP 支援以非同步方式進行通訊與 SAP 和非 SAP 系統的標準化的 EDI 類似文件。 Idoc 是用來傳送和接收"business"文件，例如銷售訂單，與交易夥伴的 SAP 系統或外部程式。  
@@ -109,7 +109,7 @@ Segment header (DOCNUM is one of the fields here)  |  Segment data
     > [!NOTE]
     >  使用**接收**作業，您也可以接收多個 Idoc。  
   
--   **ReceiveIdoc**。 使用這項作業，從使用弱式型別的結構描述的 SAP 系統接收 IDOC。 這項作業的結構描述會公開為控制記錄和資料記錄所組成的單一字串欄位的 Idoc。 這項作業在 XML 訊息以字串形式接收 Idoc \<idocData > 標記。  
+-   **ReceiveIdoc**。 使用這項作業，從使用弱式型別的結構描述的 SAP 系統接收 IDOC。 這項作業的結構描述會公開為控制記錄和資料記錄所組成的單一字串欄位的 Idoc。 這項作業在 XML 訊息以字串形式接收 Idoc \<idocData\>標記。  
   
      這是單一作業中顯示所有 SAP 系統所公開的 Idoc，適用於根**IDOC**節點[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]或[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]。  
   
@@ -117,7 +117,7 @@ Segment header (DOCNUM is one of the fields here)  |  Segment data
   
 -   如果設定為 「 類型 」，XML 結構描述強型別所接收的 IDOC。 （從其接收作業可看到此訊息的結構描述。 請注意，在結構描述不同的 Idoc 的不同）。 這會產生 XML IDOC。  
   
--   如果設定為 「 字串 」，內送的 IDOC 資料會傳回為字串值。 （從 ReceiveIdoc 作業可以看到此訊息的結構描述。） 這會產生的 XML 訊息\<idocData > 標記。  
+-   如果設定為 「 字串 」，內送的 IDOC 資料會傳回為字串值。 （從 ReceiveIdoc 作業可以看到此訊息的結構描述。） 這會產生的 XML 訊息\<idocData\>標記。  
   
 -   如果設定為"Rfc"，訊息結構描述符合 RFC 作業 IDOC_INBOUND_ASYNCHRONOUS 或 INBOUND_IDOC_PROCESS，根據連入的 IDOC 版本的 RFC （或 tRFC） 結構描述。 如果您指定這個繫結屬性，您應該使用 IDOC_INBOUND_ASYNCHRONOUS 或 INBOUND_IDOC_PROCESS RFC 接收 IDOC。 在前兩個選項中，配接器在內部使用這個 RFC。 此選項，在您明確地使用這個 RFC 接收 IDOC。  
   
@@ -155,5 +155,5 @@ EDI_CIM, value *
   
  您可以使用 sap SU01 交易，以新增授權的物件。 如需有關交易的詳細資訊，請連絡您的 SAP 系統管理員，或請參閱 SAP 文件。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [哪些作業可以是執行使用配接器？](https://msdn.microsoft.com/library/cc185219(v=bts.10).aspx)

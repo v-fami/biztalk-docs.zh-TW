@@ -12,11 +12,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ce643460d7c5256829624de5ba4c32d664c26ac3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 704c1f54a01ceb4c4b7b4cd80ad2df6fc34faa68
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="uninstall-and-unconfigure-biztalk-server-to-remove-it"></a>將 BizTalk Server 解除安裝並取消設定以將其移除
 將 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 解除安裝並取消設定。 
@@ -98,7 +98,7 @@ ms.lasthandoff: 09/20/2017
     -   TrackedMessages_Copy_BizTalkMsgBoxDb  
   
         > [!NOTE]
-        >  如果您部署 BAM 時，您可能也需要移除 bam_\<*Cube 名稱*> _\<*檢視名稱*> 作業。  
+        >  如果您部署 BAM 時，您可能也需要移除 bam_\<*Cube 名稱*\>_\<*檢視名稱*\>作業。  
   
 #### <a name="delete-biztalk-server-databases"></a>刪除 BizTalk Server 資料庫  
   
@@ -130,7 +130,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  刪除具有下列前置詞的套件 (以滑鼠右鍵按一下套件，然後選取 [刪除])：  
   
-    -   BAM_AN_\<*Cube 名稱*>  
+    -   BAM_AN_\<*Cube 名稱*\>  
   
-    -   BAM_DM_\<*檢視名稱*>  
+    -   BAM_DM_\<*檢視名稱*\>  
   

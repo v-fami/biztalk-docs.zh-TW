@@ -12,11 +12,11 @@ caps.latest.revision: "28"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d9786896a4a5983a438dd855dcc858ba4485cbc1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4693d3ae4a443138c078e0da415fb72205dbd528
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="development-best-practices-using-the-wcf-lob-adapter-sdk"></a>使用 WCF LOB 配接器 SDK 開發最佳作法
 您可以使用本主題中的最佳作法，以改善您的應用程式和配接器。  
@@ -103,7 +103,7 @@ public interface ICalculator
 |------------|-----------------|  
 |設計階段|當使用[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]，您可以指定配接器支援的用戶端認證類型。|  
 |執行階段|使用時產生的.NET CLR proxy，您可以透過程式設計方式設定用戶端認證。<br /><br /> `static void Main(string[] args) {    EchoServiceClient client = new EchoServiceClient();    client.ClientCredentials.UserName.UserName = "TestUser";    client.ClientCredentials.UserName.Password = "TestPassword";    string response=client.EchoString("Test String"); }`<br /><br /> 或者，如果您需要直接互動與通道，您可以使用 WCF 通道模型來建立通道處理站時，指定用戶端認證。<br /><br /> `EchoAdapterBinding binding = new EchoAdapterBinding(); binding.Count = 3; ClientCredentials clientCredentials = new ClientCredentials(); clientCredentials.UserName.UserName = "TestUser"; clientCredentials.UserName.Password = "TestPassword"; BindingParameterCollection bindingParms = new BindingParameterCollection(); bindingParms.Add(clientCredentials); EndpointAddress address = new EndpointAddress("echo://"); IChannelFactory<IRequestChannel> requestChannelFactory = binding.BuildChannelFactory<IRequestChannel>(bindingParms); requestChannelFactory.Open();`|  
-|WCF 組態|在用戶端組態檔中，新增\<endpointBehaviors > 包含的項目\<clientCredentials >。<br /><br /> `<configuration xmlns="http://schemas.microsoft.com/.NetConfiguration/v2.0">       <system.serviceModel>           . . . . .           <behaviors>             <endpointBehaviors>               <behavior name="clientEndpointCredential">                 <clientCredentials>                   <windows allowNtlm="false" allowedImpersonationLevel="Delegation" />                    </clientCredentials>               </behavior>             </endpointBehaviors>           </behaviors>       </system.serviceModel>   </configuration>`|  
+|WCF 組態|在用戶端組態檔中，新增\<endpointBehaviors\>包含的項目\<clientCredentials\>。<br /><br /> `<configuration xmlns="http://schemas.microsoft.com/.NetConfiguration/v2.0">       <system.serviceModel>           . . . . .           <behaviors>             <endpointBehaviors>               <behavior name="clientEndpointCredential">                 <clientCredentials>                   <windows allowNtlm="false" allowedImpersonationLevel="Delegation" />                    </clientCredentials>               </behavior>             </endpointBehaviors>           </behaviors>       </system.serviceModel>   </configuration>`|  
 |使用 BizTalk|當使用您的配接器使用 WCF 配接器，您可以加入**clientCredentials**上的行為延伸模組**行為** 索引標籤。這已加入之後，您可以設定所需的用戶端認證的端點行為。|  
   
 ## <a name="do-not-return-both-strongdatasettype-and-weakdatasettype"></a>不同時傳回 StrongDataSetType 和 WeakDataSetType  
@@ -137,16 +137,16 @@ internal static QualifiedType GetDataSetQualifiedType(MyAdapterBindingProperties
  例如，如果`DefaultXsdFileNamePrefix`設為"MyAdapter 」 和`fileNameHint`註解設為 「 資料流 」、 在 XSD 結構描述，建立名為 MyAdapterStream.xsd。  
   
 ```  
-\<xs:schema elementFormDefault='qualified' targetNamespace='http://schemas.microsoft.com/Message' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:tns='http://schemas.microsoft.com/Message'>  
-\<xs:annotation>  
-\<xs:appinfo>  
-\<fileNameHint xmlns='http://schemas.microsoft.com/servicemodel/adapters/metadata/xsd'>Stream</fileNameHint>  
-\</xs:appinfo>  
-\</xs:annotation>  
-\<xs:simpleType name='StreamBody'>  
-\<xs:restriction base='xs:base64Binary' />  
-\</xs:simpleType>  
-\</xs:schema>  
+<xs:schema elementFormDefault='qualified' targetNamespace='http://schemas.microsoft.com/Message' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:tns='http://schemas.microsoft.com/Message'>  
+<xs:annotation>  
+<xs:appinfo>  
+<fileNameHint xmlns='http://schemas.microsoft.com/servicemodel/adapters/metadata/xsd'>Stream</fileNameHint>  
+</xs:appinfo>  
+</xs:annotation>  
+<xs:simpleType name='StreamBody'>  
+<xs:restriction base='xs:base64Binary' />  
+</xs:simpleType>  
+</xs:schema>  
   
 ```  
   
@@ -212,5 +212,5 @@ sealed class MyAdapterWsdlRetrieval : IWsdlRetrieval
   
  如果目前執行的配接器執行個體上修改這些設定，這可能會導致新的目前執行的連線覆寫組態設定的連接。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [使用 WCF LOB 配接器 SDK 開發最佳作法](../../adapters-and-accelerators/wcf-lob-adapter-sdk/development-best-practices-using-the-wcf-lob-adapter-sdk.md)

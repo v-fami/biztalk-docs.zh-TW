@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1d29d35cb4fd98873d83ab6fa8fe2116bc15e764
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8585ae946e15d2677e225d42f6c123d5dd5e8e49
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="configuring-a-receive-port-for-incoming-mdns"></a>設定內送 MDN 的接收埠
 若要接收 AS2 MDN，請針對接收此訊息並將回應傳回給合作對象的作業，建立單向 HTTP 接收埠。  
@@ -33,7 +33,7 @@ ms.lasthandoff: 09/20/2017
 |**接收位置屬性： 一般**|傳輸類型|HTTP<br /><br /> **請注意**只有 HTTP 配接器可以用於傳輸 Mdn，也就是 EDIINT/AS2 編碼訊息。 這種傳輸無法搭配 HTTP 配接器以外的配接器運作。|  
 |**接收位置屬性： 一般**|接收處理常式|BizTalkServerIsolatedHost|  
 |**接收位置屬性： 一般**|接收管線|AS2Receive 或 AS2EdiReceive|  
-|**HTTP 傳輸屬性**|虛擬目錄加 ISAPI 延伸模組|/\<虛擬目錄的名稱 > /BTSHTTPReceive.dll|  
+|**HTTP 傳輸屬性**|虛擬目錄加 ISAPI 延伸模組|/\<虛擬目錄名稱\>/BTSHTTPReceive.dll|  
   
-## <a name="see-also"></a>另請參閱  
- [設定 AS2 方案的連接埠](../core/configuring-ports-for-an-as2-solution.md)
+## <a name="see-also"></a>請參閱  
+ [設定 AS2 解決方案的連接埠](../core/configuring-ports-for-an-as2-solution.md)

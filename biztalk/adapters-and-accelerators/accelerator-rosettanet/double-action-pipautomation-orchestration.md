@@ -12,11 +12,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 18c2fd1fc45823aed0c61981251523776f886dcb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cf1e7bf6f0dbfcaec97b9cc988a46d012e4ae18f
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="double-action-pipautomation-orchestration"></a>Double 動作 PIPAutomation 協調流程
 DoubleAction.odx 範例顯示如何實作協調流程，自動為雙向動作「夥伴介面程序 (PIP)」0C2、0C4、3A2 和 3A4 產生回應。 您可以擴充此範例專案來支援其他的雙向動作 PIP。  
@@ -27,7 +27,7 @@ DoubleAction.odx 範例顯示如何實作協調流程，自動為雙向動作「
 > [!NOTE]
 >  您應該擴充這個範例專案，使其僅支援雙向動作 PIP，而非單向動作 PIP。 如果將它擴充為處理單向動作 PIP，這個協調流程將會傳回錯誤。 若要確認這個協調流程將不會處理單向動作 PIP，請參閱下面的「篩選單向動作訊息」部分。  
   
- 根據預設， [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]®[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]安裝程式會安裝在此範例\<*磁碟機*>: \Program Files\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Microsoft 2013 BizTalk Accelerator for RosettaNet\SDK\PIPAutomation\DoubleAction。  
+ 根據預設， [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]®[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]安裝程式會安裝在此範例\<*磁碟機*\>: \Program Files\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Microsoft 2013 BizTalk Accelerator forRosettanet\sdk\pipautomation\doubleaction。  
   
  這個範例專案包括：  
   
@@ -39,7 +39,7 @@ DoubleAction.odx 範例顯示如何實作協調流程，自動為雙向動作「
   
 -   Setup.bat 檔用來建立 MessagesToLOB_Receive_Port (與 DoubleAction 協調流程搭配使用) 的繫結檔案 (DoubleActionBinding.xml)。  
   
--   用於建置及初始化範例的安裝程式檔案。 如果您[!INCLUDE[bts2010R2](../../includes/bts2010r2-md.md)]安裝執行的 32 位元電腦上，執行 setup.bat 檔案\<磁碟機 >: \Program Files\Microsoft Microsoft 2013 BizTalk Accelerator for RosettaNet \SDK\PIPAutomation\DoubleAction 資料夾。 如果您的 [!INCLUDE[bts2010R2](../../includes/bts2010r2-md.md)] 安裝是在 64 位元的電腦上執行，請執行相同資料夾中的 setupx64.bat。  
+-   用於建置及初始化範例的安裝程式檔案。 如果 BizTalk Server 正在執行 32 位元電腦上，執行 setup.bat 檔案\<磁碟機\>: \Program Files\Microsoft Microsoft 2013 BizTalk Accelerator for RosettaNet \SDK\PIPAutomation\DoubleAction 資料夾。 如果 BizTalk Server 正在執行的 64 位元電腦上，執行相同的資料夾中的 setupx64.bat。  
   
  協調流程會使用 BTARNData 資料庫 (來源檔案是 DoubleAction 目錄中的 DoubleAction.sql 檔) 中的 PipAutomationGetAction 預存程序，接收訊息。 這個預存程序會接收來自 MessagesToLOB 資料表的訊息。  
   
@@ -47,12 +47,12 @@ DoubleAction.odx 範例顯示如何實作協調流程，自動為雙向動作「
   
 ### <a name="to-build-and-initialize-this-sample"></a>若要建置並初始化這個範例  
   
-1.  在命令提示字元中，找出*\<磁碟機 >*: \Program Files\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for RosettaNet 2013 \SDK\PIPAutomation\DoubleAction 資料夾。  
+1.  在命令提示字元中，找出*\<磁碟機\>*: \Program Files\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for RosettaNet 2013 \SDK\PIPAutomation\DoubleAction 資料夾。  
   
     > [!NOTE]
     >  執行安裝程式前，在 [記事本] 中開啟 DoubleAction.sql 檔案 (在上述資料夾中)。 在**檔案**功能表上，按一下 **存**。 在**編碼**清單中，選取**ANSI**，然後按一下 **儲存**。 按一下**是**覆寫現有檔案。  
   
-2.  如果您[!INCLUDE[bts2010R2](../../includes/bts2010r2-md.md)]安裝執行的 32 位元電腦上，執行 setup.bat 檔案\<磁碟機 >: \Program Files\Microsoft BizTalk Accelerator for RosettaNet 2013 \SDK\PIPAutomation\DoubleAction 資料夾。 如果您的 BizTalk Server 2013 安裝是在 64 位元電腦上執行，請執行相同資料夾中的 setupx64.bat。 這個批次檔將會執行下列動作：  
+2.  如果您的 BizTalk Server 正在執行 32 位元電腦上，執行 setup.bat 檔案\<磁碟機\>: \Program Files\Microsoft BizTalk Accelerator for RosettaNet 2013 \SDK\PIPAutomation\DoubleAction 資料夾。 如果您的 BizTalk Server 2013 安裝是在 64 位元電腦上執行，請執行相同資料夾中的 setupx64.bat。 這個批次檔將會執行下列動作：  
   
     -   在 BTARNDATA 資料庫中建立 SQL 預存程序 (`PipAutomationGetAction`)，以便從 MessagesToLOB 資料表擷取動作訊息。 這也能確保所擷取的記錄將不會再遭到讀取。  
   
@@ -70,7 +70,7 @@ DoubleAction.odx 範例顯示如何實作協調流程，自動為雙向動作「
         >  範例在編譯時會出現一些警告。 您可以忽略這些警告。  
   
         > [!NOTE]
-        >  此範例會使用預設主機名稱**BizTalkServerApplication**部署專案時。 如果您想要不同的主控件下執行這個範例中，您必須編輯位於下 DoubleActionBinding.xml 的預設主機名稱\<SDK > \PIPAutomation\DoubleAction 資料夾。  
+        >  此範例會使用預設主機名稱**BizTalkServerApplication**部署專案時。 如果您想要不同的主控件下執行這個範例中，您必須編輯位於下 DoubleActionBinding.xml 的預設主機名稱\<SDK\>\PIPAutomation\DoubleAction 資料夾。  
   
 ### <a name="to-run-the-double-action-pipautomation-sample"></a>執行雙向動作 PIPAutomation 範例  
   
@@ -78,16 +78,13 @@ DoubleAction.odx 範例顯示如何實作協調流程，自動為雙向動作「
   
 2.  使用「回送」鏡像協議公用程式，為步驟 1 所建立的 3A4 PIP 建立鏡像。  
   
-3.  使用 LOBApplication.exe SDK 公用程式，提交「3A4 PIP 要求」訊息。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] SDK 資料夾中包含了輸入的範例\<*安裝目錄*> \SDK\LOBApplication\SampleInstances\3A4_Request.xml。  
+3.  使用 LOBApplication.exe SDK 公用程式，提交「3A4 PIP 要求」訊息。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] SDK 資料夾中包含了輸入的範例\<*安裝目錄*\>\SDK\LOBApplication\SampleInstances\3A4_Request.xml。  
   
-4.  在 [SQL Query Analyzer] 中，對 BTARNDATA 資料庫執行下列查詢：  
+4.  在 BTARNDATA 資料庫上執行下列查詢：  
   
     ```  
     Select * from MessagesToLOB  
     ```  
-  
-    > [!NOTE]
-    >  如果您使用[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsSQLServer2008](../../includes/btssqlserver2008-md.md)] R2/2008 SP1 中，使用[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] **Management Studio**執行 SQL 查詢。  
   
 5.  經過數秒後，資料表中會出現四個訊息。 其中兩個是確認信號。 一個是「非同步 3A4 要求訊息」。 另一個則是「非同步 3A4 回應訊息」。  
   
@@ -112,7 +109,7 @@ SELECT PIPInstanceID,DestinationPartyName,SourcePartyName,PIPCode,PIPVersion,Ser
 SELECT PIPInstanceID,DestinationPartyName,SourcePartyName,PIPCode,PIPVersion,ServiceContent FROM MessagesToLOB WHERE PIPCode NOT IN ( '0A1', '3B2', '3C3', '0C1', '0C3' )  
 ```  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [3A2 要求至 3A2 回應的對應範例](../../adapters-and-accelerators/accelerator-rosettanet/3a2-request-to-3a2-response-map-sample.md)   
  [3A4 要求至 3A4 回應的對應範例](../../adapters-and-accelerators/accelerator-rosettanet/3a4-request-to-3a4-response-map-sample.md)   
  [協調流程範例](../../adapters-and-accelerators/accelerator-rosettanet/orchestration-samples.md)

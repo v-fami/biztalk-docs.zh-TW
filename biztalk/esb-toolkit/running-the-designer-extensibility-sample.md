@@ -12,18 +12,18 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2b26c483568e1ceb05679d7548721c1cce818fde
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 69659359af123af7d9239241128cae06934d9a54
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="running-the-designer-extensibility-sample"></a>執行設計工具擴充性範例
 設計工具擴充性範例會示範如何提供設計階段組態選項，對於自訂解析程式與路線服務使用兩個範例擴充項。  
   
  **若要執行設計工具擴充性範例**  
   
-1.  啟動 [!INCLUDE[vs2010](../includes/vs2010-md.md)]。  
+1.  啟動 Visual Studio。  
   
 2.  在 Visual Studio 中，指向**新增**上**檔案**功能表，然後再按一下**專案**。  
   

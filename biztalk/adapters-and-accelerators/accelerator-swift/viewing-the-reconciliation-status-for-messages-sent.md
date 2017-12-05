@@ -12,16 +12,16 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c0009e8eede7cb490f77bad8d30251b73a9431b4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e0fbcdbbec66c16cdf2592ac7eacfd6d69fdc2b6
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="viewing-the-reconciliation-status-for-messages-sent"></a>檢視傳送之訊息的對帳狀態
 若要檢視傳送訊息的對帳狀態：  
   
-1.  在程式中，按一下  **Microsoft BizTalk Server\<版本 >**，然後按一下  **BAM 入口網站**。  
+1.  在程式中，按一下  **Microsoft BizTalk Server\<版本\>**，然後按一下  **BAM 入口網站**。  
   
 2.  在 BAM 入口網站，在 我的 View\XMLV2View\Activity 搜尋下選擇**訊息傳送活動**。  
   

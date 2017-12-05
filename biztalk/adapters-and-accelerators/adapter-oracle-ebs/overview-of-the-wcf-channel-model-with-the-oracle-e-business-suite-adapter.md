@@ -12,11 +12,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d59965b4fe5a94ae29ac8459ef8b8d80999c1dc5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f5317099b1a576c9dd4e0b13593c16f4ef3a6831
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="overview-of-the-wcf-channel-model-with-the-oracle-e-business-suite-adapter"></a>Oracle E-business Suite 配接器的 WCF 通道模型概觀
 在叫用作業[!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]，您的程式碼做為 WCF 用戶端，並將傳出作業傳送至配接器。 在 WCF 通道模型中，您的程式碼會透過通道傳送的要求訊息叫用的介面卡上的作業。  
@@ -44,11 +44,11 @@ ms.lasthandoff: 09/20/2017
   
  像任何 WCF 繫結，[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]用以提供應用程式程式碼的通道處理站模式。 您使用**Microsoft.Adapters.OracleEBSBinding**物件建立的執行個體：  
   
--   **System.ServiceModel.ChannelFactory\<IRequestChannel >**提供**IRequestChannel**通道可用來叫用的介面卡上的要求-回應作業。  
+-   **System.ServiceModel.ChannelFactory\<IRequestChannel\>** 提供**IRequestChannel**通道可用來叫用的介面卡上的要求-回應作業。  
   
--   **System.ServiceModel.ChannelFactory\<IOutputChannel >**提供**IOutputChannel**通道可用來叫用的介面卡上的單向作業。  
+-   **System.ServiceModel.ChannelFactory\<IOutputChannel\>** 提供**IOutputChannel**通道可用來叫用的介面卡上的單向作業。  
   
--   **System.ServiceModel.IChannelListener\<IInputChannel >**提供**IInputChannel**可用來從配接器接收內送的訊息的通道。  
+-   **System.ServiceModel.IChannelListener\<IInputChannel\>** 提供**IInputChannel**可用來從配接器接收內送的訊息的通道。  
   
 ### <a name="creating-messages-for-the-oracle-enterprise-business-solution-in-the-wcf-channel-model"></a>正在建立 「 訊息 Oracle Enterprise 商務解決方案中的 WCF 通道模型  
  在 WCF 中**System.ServiceModel.Channels.Message**類別會提供在記憶體中表示 SOAP 訊息。 您建立**訊息**叫用靜態執行個體**Message.Create**方法。  
@@ -85,5 +85,5 @@ Message messageIn = Message.CreateMessage(MessageVersion.Default,
 > [!IMPORTANT]
 >  您必須提供中的訊息動作您**訊息**執行個體。 這通常是當**訊息**建立執行個體。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [開發 Oracle E-business Suite 應用程式使用 WCF 通道模型](../../adapters-and-accelerators/adapter-oracle-ebs/develop-oracle-e-business-suite-applications-using-the-wcf-channel-model.md)

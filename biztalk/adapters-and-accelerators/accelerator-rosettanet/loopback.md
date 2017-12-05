@@ -27,19 +27,19 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 346ed59bbf1666861a6a899c7cf7e4ca8646810a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 23c2f18d8422440f9a40645642787723642f3ee6
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="loopback"></a>回送
 您可使用回送公用程式自動產生回送協議，該協議是組織到夥伴協議的鏡像複本。 這讓您可以在單一電腦上，執行組織對夥伴以及夥伴對組織的訊息交換。 您可在具有 0A1 訊息或不具有 0A1 訊息的實例中使用此公用程式。 您可為動作訊息 (非 0A1) 協議或 0A1 協議建立回送協議。  
   
- 您也可以使用此公用程式登錄或取消登錄傳送者角色的主要組織。 當您使用此公用程式來啟用主要組織時，它會建立兩個傳送埠，\<家用 >。非同步和\<首頁 >。同步處理，組織會使用與其夥伴通訊。  
+ 您也可以使用此公用程式登錄或取消登錄傳送者角色的主要組織。 當您使用此公用程式來啟用主要組織時，它會建立兩個傳送埠，\<家用\>。非同步和\<首頁\>。同步處理，組織會使用與其夥伴通訊。  
   
 ## <a name="location-in-sdk"></a>SDK 中的位置  
- \<*磁碟機*> \ Program Files\Microsoft BizTalk\<版本 > Accelerator for RosettaNet\SDK\  
+ \<*磁碟機*\>\ Program Files\Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK\  
   
 ## <a name="running-loopback"></a>執行回送  
   
@@ -47,7 +47,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  開啟命令提示字元。  
   
-2.  移至\<*磁碟機*> \ Program Files\Microsoft BizTalk\<版本 > Accelerator for RosettaNet\SDK\\。  
+2.  移至\<*磁碟機*\>\ Program Files\Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK\\。  
   
 3.  在命令提示字元中，輸入**回送**，輸入必要和適當的參數，然後按 ENTER 鍵。  
   
@@ -63,13 +63,13 @@ Loopback [/enable|/disable <home_organization>] [/mirror|/unmirror <agreement_na
   
 |**語法**|**說明**|  
 |----------------|---------------------|  
-|**啟用**|為傳送者角色登錄在 <home_organization> 中指定的組織。 它會建立兩個傳送埠，\<首頁 >。非同步和\<首頁 >。同步處理，夥伴會使用主要組織回應通訊。|  
+|**啟用**|為傳送者角色登錄在 <home_organization> 中指定的組織。 它會建立兩個傳送埠，\<首頁\>。非同步和\<首頁\>。同步處理，夥伴會使用主要組織回應通訊。|  
 |**停用**|為傳送者角色取消登錄主要組織。|  
 |**home_organization**|要為傳送者角色登錄或取消登錄的夥伴。|  
-|**鏡像**|建立根據協議中指定的回送協議\< **agreement_name**>。|  
-|**實例**|刪除根據協議中指定的回送協議\< **agreement_name >**。|  
+|**鏡像**|建立根據協議中指定的回送協議\< **agreement_name**\>。|  
+|**實例**|刪除根據協議中指定的回送協議\< **agreement_name\>**。|  
 |**agreement_name**|在回送實例中要建立鏡像或取消鏡像的協議。|  
-|**收到的 NoF**|設定**0A1 協議**回送公用程式來鏡像處理動作訊息協議屬性\<0A1_agreement >。 A **/NoF**參數只能加入到回送命令也包含**/鏡像**切換。|  
+|**收到的 NoF**|設定**0A1 協議**回送公用程式來鏡像處理動作訊息協議屬性\<0A1_agreement\>。 A **/NoF**參數只能加入到回送命令也包含**/鏡像**切換。|  
 |**0A1_agreement**|agreement_name 的鏡像協議要使用的 0A1 協議。 此協議是藉由建立回應者 0A1 協議的鏡像來產生。|  
   
 ## <a name="remarks"></a>備註  
@@ -142,12 +142,12 @@ Loopback [/enable|/disable <home_organization>] [/mirror|/unmirror <agreement_na
   
 4.  使用[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]管理主控台設定**0A1 協議**主要組織之要求動作訊息協議的名稱之啟動者 0A1 協議，主要組織屬性。  
   
-5.  使用回送公用程式，建立夥伴組織將傳送之啟動者 0A1 訊息的協議。 您可以建立主要組織之回應者 0A1 協議的鏡像來完成這個動作。 這會建立名稱的新 0A1 協議**回送：\<0A1 協議名稱 >**。 `My organization`屬性設定為夥伴、`Partner organization`屬性設定為主要組織，和`Home role`屬性是**PIP Failure Notifier (Initiator)**。  
+5.  使用回送公用程式，建立夥伴組織將傳送之啟動者 0A1 訊息的協議。 您可以建立主要組織之回應者 0A1 協議的鏡像來完成這個動作。 這會建立名稱的新 0A1 協議**回送：\<0A1 協議名稱\>**。 `My organization`屬性設定為夥伴、`Partner organization`屬性設定為主要組織，和`Home role`屬性是**PIP Failure Notifier (Initiator)**。  
   
-6.  使用回送公用程式，建立夥伴組織將傳送之回應者 0A1 訊息的協議。 您可以建立主要組織之 0A1 啟動者協議的鏡像來完成這個動作。 這會建立名稱的新 0A1 協議**回送：\<0A1 協議名稱 >**。 `My organization`屬性設定為夥伴、`Partner organization`屬性設定為主要組織，和`Home role`屬性是**Failure Report Administrator (Responder)**。  
+6.  使用回送公用程式，建立夥伴組織將傳送之回應者 0A1 訊息的協議。 您可以建立主要組織之 0A1 啟動者協議的鏡像來完成這個動作。 這會建立名稱的新 0A1 協議**回送：\<0A1 協議名稱\>**。 `My organization`屬性設定為夥伴、`Partner organization`屬性設定為主要組織，和`Home role`屬性是**Failure Report Administrator (Responder)**。  
   
-7.  使用回送公用程式，建立夥伴組織將傳送之回應動作訊息的協議。 在同一個命令中，您必須將 0A1 agreement 屬性設為夥伴的回應者 0A1 協議。 您藉由鏡像要求動作訊息協議，主要組織，並使用**/NoF**切換夥伴的回應者 0A1 協議的名稱。 這會建立新的回應動作訊息協議具有名稱**回送：\<協議名稱 >**。 `My organization` 屬性會設為夥伴，而 0A1 agreement 屬性則設為夥伴的回應者 0A1 協議。  
+7.  使用回送公用程式，建立夥伴組織將傳送之回應動作訊息的協議。 在同一個命令中，您必須將 0A1 agreement 屬性設為夥伴的回應者 0A1 協議。 您藉由鏡像要求動作訊息協議，主要組織，並使用**/NoF**切換夥伴的回應者 0A1 協議的名稱。 這會建立新的回應動作訊息協議具有名稱**回送：\<協議名稱\>**。 `My organization` 屬性會設為夥伴，而 0A1 agreement 屬性則設為夥伴的回應者 0A1 協議。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [公用程式](../../adapters-and-accelerators/accelerator-rosettanet/utilities1.md)   
  [回送教學課程](../../adapters-and-accelerators/accelerator-rosettanet/loopback-tutorial.md)

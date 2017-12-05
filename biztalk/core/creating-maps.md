@@ -12,11 +12,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8831e0d76c2bb4483bc1012ed7345c760b87bdf9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 00121334b076ed4c705e7b440c75c1347e4208c9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="creating-maps"></a>建立對應
 BizTalk 對應工具的主要使用者介面會顯示在索引標籤內[!INCLUDE[btsCoName](../includes/btsconame-md.md)][!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]編輯視窗。 此顯示分成三個窗格。 左窗格以樹狀結構顯示來源結構描述， 而右窗格會將目的結構描述顯示為樹狀結構。 中間窗格則會將格線顯示為多頁。 若要指出您想要如何將資料從來源結構描述對應至目的結構描述，則您可以在想要對應的記錄與欄位之間繪製線條。 這些線條稱為*連結*，以及其指定之資料的對應最基本的方式。 如需連結記錄和欄位的詳細資訊，請參閱[對應中的連結](../core/links-in-maps.md)。  
@@ -53,8 +53,8 @@ BizTalk 對應工具的主要使用者介面會顯示在索引標籤內[!INCLUDE
   
 -   [使用連結指定記錄和欄位對應](../core/using-links-to-specify-record-and-field-mappings.md)  
   
--   [使用運算質建立更複雜的對應](../core/using-functoids-to-create-more-complex-mappings.md)  
+-   [使用運算質建立更多複雜對應](../core/using-functoids-to-create-more-complex-mappings.md)  
   
 -   [如何建立不含對應](../core/how-to-create-a-map-without-maps.md)  
   
--   [管理預設對應工具的行為使用\<mapsource >](../core/managing-default-mapper-behavior-using-mapsource.md)
+-   [管理預設對應工具的行為使用\<mapsource\>](../core/managing-default-mapper-behavior-using-mapsource.md)

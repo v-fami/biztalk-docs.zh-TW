@@ -12,17 +12,17 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 561c40e791d82b28060a45ada51bebed4cd784c3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b41dd0e01aa1e28862a3e99cfc767b3dd6ddec3c
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="monitoring-host-instances"></a>監控主控件執行個體
 本主題描述使用 Microsoft System Center Operations Manager 監視 BizTalk 主控件執行個體。  
   
 ## <a name="using-threshold-rules-to-monitor-health"></a>使用監視健全狀況的臨界值規則  
- [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]管理封包加入了效能閾值規則，提供 BizTalk 主控件的健全狀況的完整檢視。 提供的閾值規則有兩個類型：  
+ BizTalk Server 管理組件加入了效能閾值規則，提供 BizTalk 主控件的健全狀況的完整檢視。 提供的閾值規則有兩個類型：  
   
 -   以一般方式 （例如，所有的 MessageBox 資料庫以及所有 BizTalk 主控件） 套用的規則。  
   
@@ -39,7 +39,7 @@ ms.lasthandoff: 09/20/2017
 -   您應該建立 BizTalk 主控件專用規則根據範本規則和適當的臨界值。  
   
 ## <a name="monitoring-biztalk-host-instances"></a>監控 BizTalk 主控件執行個體  
- 以特定 BizTalk 主控件為目標的規則是從監視的觀點來看更有彈性。 所有 biztalkserverapplication 主控件中提供的監視規則的臨界值[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]管理組件都是範本規則。 若要使用這些規則，您應該使用在 Operations Manager 系統管理員主控台：  
+ 以特定 BizTalk 主控件為目標的規則是從監視的觀點來看更有彈性。 BizTalk Server 管理組件中提供的 biztalkserverapplication 主控件的閾值監控規則都是範本規則。 若要使用這些規則，您應該使用在 Operations Manager 系統管理員主控台：  
   
 -   在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 規則群組中建立範本規則的複本，然後將它重新命名。  
   
@@ -51,5 +51,5 @@ ms.lasthandoff: 09/20/2017
   
  如果您使用特定主機的閾值監控規則，您應該停用一般監控規則。 這可以避免多餘的警示。  
   
-## <a name="see-also"></a>另請參閱  
- [監控 BizTalk Server 與 System Center Operations Manager 2007](../technical-guides/monitoring-biztalk-server-with-system-center-operations-manager-2007.md)
+## <a name="see-also"></a>請參閱  
+ [使用 System Center Operations Manager 2007 監視 BizTalk Server](../technical-guides/monitoring-biztalk-server-with-system-center-operations-manager-2007.md)

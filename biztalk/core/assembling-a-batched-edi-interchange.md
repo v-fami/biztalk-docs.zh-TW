@@ -12,11 +12,11 @@ caps.latest.revision: "45"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 43d7a54305443d35aba5b363983b17157780fe4b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8c4274362e5ec8441e203d0b2b97f27e95235fd9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="assembling-a-batched-edi-interchange"></a>組合批次 EDI 交換
 若要將個別的交易集批次元素組合成 EDI 交換， [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI 和 AS2 會進行下列作業：  
@@ -60,7 +60,7 @@ ms.lasthandoff: 09/20/2017
   
 8.  批次處理協調流程完成交換的批次處理後，它會升級該交換上的下列屬性： EDI。DestinationPartyName = %partyname%EDI。BatchEncodingType = X12 或 EDIFACT，以及 EDI。ToBeBatched = False。  
   
-9. 傳送埠會拾取 EDI 為基礎的批次的交易集。DestinationPartyName = \<PartyName >，EDI。BatchEncodingType = EDIFACT 或 X12，以及 EDI。ToBeBatched = False。  
+9. 傳送埠會拾取 EDI 為基礎的批次的交易集。DestinationPartyName = \<PartyName\>，EDI。BatchEncodingType = EDIFACT 或 X12，以及 EDI。ToBeBatched = False。  
   
 ## <a name="batching-orchestration-control-messages"></a>批次處理協調流程控制訊息  
  批次處理協調流程由下列控制訊息啟動、終止或覆寫：  
@@ -206,7 +206,7 @@ ms.lasthandoff: 09/20/2017
   
 -   `EDI.DestinationPartyId`存在  
   
- 當協調流程接收訊息時，它會嘗試尋找相符的批次組態訊息所使用的合作對象名稱和編碼類型。  `EDI.DestinationPartyID`屬性用來判斷合作對象名稱，以及協調流程接著會尋找符合批次名稱\<PartyName > +\<EncodingType > + 預設值。  例如，如果合作對象名稱是 Contoso，且值`EDI.EncodingType`為 X12，則協調流程會尋找名為 ContosoX12Default 批次。  
+ 當協調流程接收訊息時，它會嘗試尋找相符的批次組態訊息所使用的合作對象名稱和編碼類型。  `EDI.DestinationPartyID`屬性用來判斷合作對象名稱，以及協調流程接著會尋找符合批次名稱\<PartyName\>+\<EncodingType\>+ 預設值。  例如，如果合作對象名稱是 Contoso，且值`EDI.EncodingType`為 X12，則協調流程會尋找名為 ContosoX12Default 批次。  
   
  如果找到相符的批次組態，訊息會放入訊息方塊具有下列屬性：  
   
@@ -277,5 +277,5 @@ ms.lasthandoff: 09/20/2017
   
 -   透過關聯配接器傳遞訊息  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [批次處理外寄 EDI 訊息](../core/batching-outgoing-edi-messages.md)

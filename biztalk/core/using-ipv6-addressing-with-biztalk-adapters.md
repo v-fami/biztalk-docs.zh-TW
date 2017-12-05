@@ -12,11 +12,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8e77defa2351bf8e180b63b8da5c6a8c4e0e5a4e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 446125cbe164cfebfe7635975c5fd1825a026081
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="using-ipv6-addressing-with-biztalk-adapters"></a>BizTalk 配接器搭配使用 IPv6 定址
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]配接器支援使用 IPv6 定址時[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]上已安裝[!INCLUDE[btsWinVista](../includes/btswinvista-md.md)]作業系統。 本主題說明指定 UNC 路徑的 IPv6 位址時應該使用的術語表、指定常值 IPv6 位址時必須使用的術語表，以及與 HTTP 和 SOAP 配接器搭配使用 IPv6 範圍識別項。  
@@ -31,10 +31,10 @@ ms.lasthandoff: 09/20/2017
  例如，URI 若指向 IPv6 位址為 2001:DB8:2a:1005:230:48ff:fe73:989d 之電腦的檔案共用，其術語表為：  
   
 ```  
-\\2001-DB8-2a-1005-230-48ff-fe73-989d.ipv6-literal.net\<sharename>  
+\\2001-DB8-2a-1005-230-48ff-fe73-989d.ipv6-literal.net\<sharename\>  
 ```  
   
- 其中\< *sharename*> 是目標電腦上的檔案共用的名稱。  
+ 其中\< *sharename* \>是目標電腦上的檔案共用的名稱。  
   
 > [!NOTE]
 >  執行 File 傳送和接收處理常式之主控件執行個體的使用者帳戶，一定要有檔案共用的適當權限。 如需 File 配接器接收檔案的資料夾權限的詳細資訊請參閱[如何設定 File 接收處理常式](http://msdn.microsoft.com/library/68333bb6-d79b-4a82-9742-230f62d535c4)。 如需有關傳送 File 配接器的檔案時所需的資料夾權限，請參閱[File 配接器的已知問題](../core/known-issues-with-the-file-adapter.md)。 如需支援使用 File 配接器的檔案系統資訊，請參閱[http://support.microsoft.com/kb/815070](http://support.microsoft.com/kb/815070)。  

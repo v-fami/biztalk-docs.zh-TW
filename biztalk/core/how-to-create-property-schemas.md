@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 426e98e491ec71a7e430ff6886f5f9820c4b87fe
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ee97f4cb3065fdb201ec19f88a79e7899f03ac49
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-create-property-schemas"></a>如何建立屬性結構描述
 如果您選擇要升級為屬性欄位的欄位，您必須先定義屬性結構描述。 此屬性結構描述將指定未結構化的欄位集合，您可以將欄位從與屬性結構描述相關之結構描述所定義的執行個體訊息升級至其中。  
@@ -41,7 +41,7 @@ ms.lasthandoff: 09/20/2017
   
 5.  設定**資料型別**和其他相關的屬性，適當地為**欄位項目**屬性 視窗中的節點。  
   
-6.  如果您想要插入**欄位項目**節點的其他屬性，以滑鼠右鍵按一下\<結構描述 > 節點，按一下 **插入結構描述節點**，然後按一下 **子欄位項目**，然後重複步驟 4 和 5。 若要建立一組必要的視需要重複**欄位項目**您打算從執行個體訊息升級值的節點。  
+6.  如果您想要插入**欄位項目**節點的其他屬性，以滑鼠右鍵按一下\<結構描述\>節點中，按一下 **插入結構描述節點**，然後按一下  **子欄位項目**，然後重複步驟 4 和 5。 若要建立一組必要的視需要重複**欄位項目**您打算從執行個體訊息升級值的節點。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理專案中的結構描述](../core/managing-schemas-within-projects.md)

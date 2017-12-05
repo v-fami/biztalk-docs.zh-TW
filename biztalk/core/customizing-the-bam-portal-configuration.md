@@ -7,42 +7,16 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- BAM portal, alerts
-- BAM portal, timeout setting
-- queries [BAM], timeout setting
-- BAM portal, retry interval
-- alerts, configuration options
-- BAM portal, configuring
-- BAM portal, portal banner
-- clustering, NLB [BAM portal]
-- BAM portal, Web.config file
-- Kerberos protocol, BAM portal
-- BAM portal, culture setting
-- BAM portal, IIS
-- IIS, BAM portal
-- BAM portal, NLB cluster
-- Web.config file
-- BAM portal, 64-bit environments
-- BAM portal, Kerberos protocol
-- BAM portal, clustering
-- 64-bit environments, BAM portal
-- IIS, 64-bit support
-- NLB system, BAM portal
-- BAM portal, customizing
-- configuring, BAM portal banner
-- 64-bit support, IIS
-- BAM portal, distributed environment
 ms.assetid: 507bd5f0-b2a0-4d52-85f8-9d984138ca79
 caps.latest.revision: "47"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: bad22e9bf2ecddcc50983078b21672f2c755c8a8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fd99c0746c09f88d71e3a44e625ae5c52458f2f3
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="customizing-the-bam-portal-configuration"></a>自訂 BAM 入口網站組態
 BAM 入口網站上有許多組態選項。 下列程序顯示如何修改 BAM 入口網站，以獲得最佳使用者體驗。  
@@ -52,10 +26,10 @@ BAM 入口網站上有許多組態選項。 下列程序顯示如何修改 BAM �
 >   
 >  您使用非系統管理員的模擬使用者設定 Web 服務或 BAM 入口網站。 接著，您在入口網站上設定使用權限，如此 Everyone 群組便沒有入口網站的存取權限。 然後，您建立名為 PortalUsersGroup 的本機群組，並指派該群組為「入口網站使用者群組」。 這表示只有該群組中的使用者可以存取入口網站。 設定 BAM 入口網站之後，請將目前使用者新增至「入口網站使用者群組」。 當您開啟 BAM 入口網站時，系統將會要求您輸入認證。 然而，如果您登出並再次登入，就可以直接開啟 BAM 入口網站，而不會被要求輸入認證。  
 >   
->  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]在單一電腦組態中只支援本機群組和使用者帳戶。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]支援單一和多重電腦組態中的網域群組和使用者帳戶。  
+>  BizTalk Server 僅在單一電腦組態中支援本機群組和使用者帳戶。 BizTalk Server 在單一電腦組態和多電腦組態中都支援網域群組和使用者帳戶。  
   
 ## <a name="running-the-bam-portal-in-a-64-bit-environment"></a>在 64 位元環境中執行 BAM 入口網站  
- 如果您是在 64 位元環境中使用 Internet Information Services (IIS) 6，必須將 IIS 設為 32 位元模式才能執行 BAM 入口網站。 其他設定模式的詳細資訊，請參閱 < 如何切換的 32 位元版本的 ASP.NET 1.1 與 64 位元版本的 ASP.NET 2.0 上的 64 位元版本的 Windows >，網址[http://go.microsoft.com/fwlink/?LinkId=61991](http://go.microsoft.com/fwlink/?LinkId=61991)。  
+ 如果您在 64 位元環境中使用網際網路資訊服務 (IIS)，您必須設定 IIS 以 32 位元模式來執行 BAM 入口網站。 
   
 > [!IMPORTANT]
 >  您不需要將 IIS7 設定為 32 位元模式。  
@@ -82,9 +56,9 @@ BAM 入口網站上有許多組態選項。 下列程序顯示如何修改 BAM �
   
 1.  編輯 BAM 入口網站的 web.config 檔案。 若要這樣做，請按一下**啟動**，按一下 **執行**，輸入 notepad [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BAMPortal\web.config，然後再按一下**確定**。  
   
-2.  主頁面的快速入門內容是可取代藉由修改下行：\<新增機碼 ="MainPageContentUrl"value="~/MainPageContent.htm"/ >。 變更**MainPageContent.htm**值欄位，以指向您自己的 HTML 檔案中。 HTML 檔案必須位於與 web.config 檔案相同的目錄中。  
+2.  主頁面的快速入門內容是可取代藉由修改下行：\<新增機碼 ="MainPageContentUrl"value="~/MainPageContent.htm"/\>。 變更**MainPageContent.htm**值欄位，以指向您自己的 HTML 檔案中。 HTML 檔案必須位於與 web.config 檔案相同的目錄中。  
   
-3.  變更頁面識別文字將下列這一行加入至 web.config 檔案：\<新增機碼 ="PortalTitle"value ="新識別 text"/ >。 變更數值欄位以包含用來識別入口網站的文字。  
+3.  變更頁面識別文字將下列這一行加入至 web.config 檔案：\<新增機碼 ="PortalTitle"value ="新識別 text"/\>。 變更數值欄位以包含用來識別入口網站的文字。  
   
 4.  編輯 BAM 入口網站的 styles.css 檔案。 按一下**啟動**，按一下 **執行**，輸入 notepad [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BAMPortal\Styles.css，然後再按一下**確定**。  
   
@@ -168,7 +142,7 @@ BAM 入口網站上有許多組態選項。 下列程序顯示如何修改 BAM �
   
 1.  使用 [記事本] 開啟 web.config 檔案。 按一下**啟動**，按一下 **執行**，輸入 notepad [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BAMPortal\web.config，然後再按一下**確定**。  
   
-2.  修改中的數值欄位\<新增機碼 ="AlertNotificationOptions"value =""/ > 行的逗號分隔的清單，指定有效的通知選項與下列值之一的 web.config 檔案。 如果設定為空值，將會以伺服器傳回的順序在伺服器上顯示所有可用的通知選項。 任何無法辨識的值同等於空值。  
+2.  修改中的數值欄位\<新增機碼 ="AlertNotificationOptions"value =""/\>逗點分隔的清單，指定有效的通知選項與下列值之一的 web.config 檔案的行。 如果設定為空值，將會以伺服器傳回的順序在伺服器上顯示所有可用的通知選項。 任何無法辨識的值同等於空值。  
   
     |值|Description|  
     |-----------|-----------------|  
@@ -186,7 +160,7 @@ BAM 入口網站上有許多組態選項。 下列程序顯示如何修改 BAM �
   
 1.  開啟命令提示字元。  
   
-2.  執行**C:\Program Files\Microsoft SQL Server\90\Notification Services\9.0.242\Bin\nscontrol register-name bamalerts-server***\<伺服器名稱 >*取代 *\<伺服器名稱 >*與伺服器的名稱。  
+2.  執行**C:\Program Files\Microsoft SQL Server\90\Notification Services\9.0.242\Bin\nscontrol register-name bamalerts-server***\<伺服器名稱\>*取代*\<伺服器名稱\>*與伺服器的名稱。  
   
 3.  按下 F5 以重新整理瀏覽器。  
   
@@ -198,11 +172,11 @@ BAM 入口網站上有許多組態選項。 下列程序顯示如何修改 BAM �
  如需有關修改 IIS 安全性設定的詳細資訊，請參閱知識庫文章，網址[http://go.microsoft.com/fwlink/?LinkId=57922](http://go.microsoft.com/fwlink/?LinkId=57922)。  
   
 ## <a name="viewing-aggregate-bam-data-in-the-bam-portal-in-sql-server-2008--deployments"></a>在 SQL Server 2008 部署 BAM 入口網站中檢視彙總 BAM 資料  
- 當部署環境使用 [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)] 時，若要從連線至 BAM 入口網站的用戶端電腦檢視 BAM 入口網站中的彙總資料，您必須在用戶端電腦上安裝 Microsoft SQL Server 2008 Analysis Services 10.0 OLE DB 提供者。 如果未安裝分析服務，使用者便會收到下列錯誤訊息：  
+ 若要檢視 BAM 入口網站，從用戶端電腦連線到 BAM 入口網站時的部署環境使用 SQL Server 2008 中的彙總資料，您必須在用戶端電腦上安裝 Microsoft SQL Server 2008 Analysis Services 10.0 OLE DB 提供者。 如果未安裝分析服務，使用者便會收到下列錯誤訊息：  
   
- 伺服器 *\<servername >*無法連絡或太忙碌。  
+ 伺服器 *\<servername\>* 無法連絡或太忙碌。  
   
- 若要安裝 Microsoft SQL Server 2008 Feature Pack，請參閱[http://go.microsoft.com/fwlink/?LinkId=70728](http://go.microsoft.com/fwlink/?LinkId=70728)。  
+
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [規劃 BAM 入口網站](../core/planning-for-the-bam-portal.md)

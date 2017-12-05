@@ -12,14 +12,14 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7e2a4e1efbfb7a86c18fb3643a789312a3707a72
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d7db2118f372014a3e8f108c1ff2273bc5aad976
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="reusing-properties-from-another-agreement"></a>重複使用另一個協議屬性
-您可以將屬性重複運用在不同的協議上。 當新協議大部分或所有的屬性皆與現有協議的屬性相同時，這種做法可節省大量時間。 [!INCLUDE[firstref_TPM](../includes/firstref-tpm-md.md)] 的 [!INCLUDE[prague](../includes/prague-md.md)] 使用者介面可讓您將協議匯出成 XML 範本檔案。 以後您只要匯入該 XML 範本，就能重複使用相同的協議屬性。  
+您可以將屬性重複運用在不同的協議上。 當新協議大部分或所有的屬性皆與現有協議的屬性相同時，這種做法可節省大量時間。 [!INCLUDE[firstref_TPM](../includes/firstref-tpm-md.md)] BizTalk Server 中的使用者介面可讓您匯出成 XML 範本檔案的協議。 以後您只要匯入該 XML 範本，就能重複使用相同的協議屬性。  
   
  將協議匯出成 XML 範本會擷取到協議中大部分 (但非全部) 的屬性。 下列屬性將*不*匯出至 XML 範本檔案：  
   
@@ -54,5 +54,5 @@ ms.lasthandoff: 09/20/2017
   
 -   [從 XML 檔案匯入協議屬性](../core/importing-agreement-properties-from-an-xml-file.md)  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [設定 EDI 屬性](../core/configuring-edi-properties.md)

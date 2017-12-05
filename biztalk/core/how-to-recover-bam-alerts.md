@@ -12,11 +12,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 37c18265712fa2f0dd1bb2d83d756cc9a9bd1505
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ec36491dd7368e0e2fdbcd8fb5abab9d840c6b1e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-recover-bam-alerts"></a>如何復原 BAM 警示
 復原過程[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，如果您使用商務活動監控 (BAM)，您就必須一併復原 BAM 警示。  
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  在命令提示字元中，輸入：  
   
-     **nscontrol register-name BamAlerts-server***\<ServerName >***-服務-serviceusername"**  *\<ServiceUserName >***"-servicepassword"**  *\<ServicePassword >* **"**   
+     **nscontrol register-name BamAlerts-server***\<ServerName\>***-服務-serviceusername"**  *\<ServiceUserName\>*  **"-servicepassword"**  *\<ServicePassword\>*  **"**   
   
      如此可讓 Notification Services 登入正確的資料庫 (nscontrol 將這項資訊保存在服務電腦的登錄中)。  
   
@@ -41,5 +41,5 @@ ms.lasthandoff: 09/20/2017
   
 4.  在命令提示字元中，輸入： **net start NS$ BamAlerts**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [復原執行 BizTalk Server 的電腦](../core/recovering-a-computer-running-biztalk-server.md)

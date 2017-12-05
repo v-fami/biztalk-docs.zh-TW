@@ -17,18 +17,18 @@ caps.latest.revision: "29"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: bae0b72eb323e75a8ecf9563b4fa0e0bc1b725d8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ac21ad1348dbc934c81d87f3c477977eeecd2ccf
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-import-a-policy"></a>如何匯入原則
 本主題描述如何使用 [BizTalk Server 管理] 主控台將原則匯入到 BizTalk 群組，或是使用 BTSTask 命令列工具將原則匯入到 BizTalk 應用程式。  
   
  中所述，您可以使用 「 商務規則編輯器 」 中，建立原則[使用商務規則編輯器建立商務規則](../core/creating-business-rules-using-the-business-rule-composer.md)，並將它匯入直接或中所述，您可以從另一個 BizTalk 群組，匯出原則[如何匯出原則](../core/how-to-export-a-policy.md)然後匯入。  
   
- 匯入原則會將它登錄在 BizTalk 群組的「規則引擎」資料庫中。 在您匯入原則之後，可以在 [BizTalk Server 管理] 主控台中檢視它。 如果您使用 BizTalk Server 管理主控台來匯入原則時，它會顯示在\<所有成品 > 節點的 BizTalk 群組。 您可以再發行，使它可以將它新增至 BizTalk 應用程式中所述[如何發佈原則](../core/how-to-publish-a-policy.md)。 如果您使用 BTSTask 命令列工具來匯入原則，將會自動發佈該原則，而且它會顯示在匯入所在之應用程式的原則資料夾內。  
+ 匯入原則會將它登錄在 BizTalk 群組的「規則引擎」資料庫中。 在您匯入原則之後，可以在 [BizTalk Server 管理] 主控台中檢視它。 如果您使用 BizTalk Server 管理主控台來匯入原則時，它會顯示在\<所有成品\>BizTalk 群組 節點。 您可以再發行，使它可以將它新增至 BizTalk 應用程式中所述[如何發佈原則](../core/how-to-publish-a-policy.md)。 如果您使用 BTSTask 命令列工具來匯入原則，將會自動發佈該原則，而且它會顯示在匯入所在之應用程式的原則資料夾內。  
   
  匯入原則時，請牢記下列要點：  
   
@@ -60,13 +60,13 @@ ms.lasthandoff: 09/20/2017
   
 1.  按一下**啟動**，按一下 **所有程式**，按一下  [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]，然後按一下  **BizTalk Server 管理**。  
   
-2.  在主控台樹狀目錄中，依序展開[!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]，要匯入原則，請依序展開 BizTalk 群組**應用程式**，然後展開**\<所有成品 >**。  
+2.  在主控台樹狀目錄中，依序展開[!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]，要匯入原則，請依序展開 BizTalk 群組**應用程式**，然後展開**\<所有成品\>**.  
   
 3.  以滑鼠右鍵按一下**原則**，然後按一下 **匯入**。  
   
 4.  .Xml 檔案包含原則，並按一下 瀏覽**開啟**。  
   
-     原則匯入的群組，並顯示在**原則**資料夾**\<所有成品 >**。  
+     原則匯入的群組，並顯示在**原則**資料夾**\<所有成品\>**。  
   
 #### <a name="using-the-command-line"></a>使用命令列  
   
@@ -91,7 +91,7 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。 若要這樣做，應用程式，以滑鼠右鍵按一下，然後選取**系統管理員身分執行**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [匯入 BizTalk 應用程式、 繫結和原則](../core/importing-biztalk-applications-bindings-and-policies.md)   
  [匯出 BizTalk 應用程式、 繫結和原則](../core/exporting-biztalk-applications-bindings-and-policies.md)   
  [管理原則](../core/managing-policies.md)

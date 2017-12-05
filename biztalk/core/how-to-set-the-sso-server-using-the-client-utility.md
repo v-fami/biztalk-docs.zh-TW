@@ -16,11 +16,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d917114d21ceed37eb68ee4bb9503aac97735ffa
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 49b2145320bd8e22b01d312d62246fa282fb534e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-set-the-sso-server-using-the-client-utility"></a>如何設定 SSO 伺服器使用用戶端公用程式
 每次使用 ssoclient 時，您必須先將使用者指向包含其組態資訊的正確「單一登入」伺服器。  
@@ -29,13 +29,13 @@ ms.lasthandoff: 09/20/2017
   
 1.  在**啟動**功能表上，按一下 **執行**，然後輸入**cmd**。  
   
-2.  在命令列，移至「企業單一登入」安裝目錄。 預設安裝目錄是*\<磁碟機 >*: \Program Files\Common Files\Enterprise Single Sign-on。  
+2.  在命令列，移至「企業單一登入」安裝目錄。 預設安裝目錄是*\<磁碟機\>*: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-3.  型別**ssoclient – 伺服器*\<單一登入伺服器 >***，其中\<*單一登入伺服器 >*是 「 單一登入名稱伺服器使用者想要連接到。  
+3.  型別**ssoclient – 伺服器*\<單一登入伺服器\>***，其中\<*單一登入伺服器\>*是連接到要單一登入伺服器的使用者名稱。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [SSO 分支機構應用程式](../core/sso-affiliate-applications.md)   
  [管理分支機構應用程式](../core/managing-affiliate-applications.md)

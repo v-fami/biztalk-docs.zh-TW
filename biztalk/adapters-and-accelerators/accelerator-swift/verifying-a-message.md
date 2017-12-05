@@ -15,11 +15,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e22d5c24b0c2d29c225fa2206d47b67e3d166a2c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0f2fdc186e93bd182b3021a3ef8fc258cee59923
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="verifying-a-message"></a>確認訊息
 本章節描述如何確認已修復的訊息。  
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  在 [首頁] 視窗中，按一下**文件**。  
   
-3.  在文件視窗中，在**文件庫**，按一下    **\<*部門名稱*> _Verifier * *。  
+3.  在文件視窗中，在**文件庫**，按一下    **\<*部門名稱*\>_Verifier * *。  
   
 4.  在確認視窗中，按一下 **收件匣**。  
   
@@ -82,4 +82,4 @@ ms.lasthandoff: 09/20/2017
   
 19. 關閉[!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]視窗。  
   
-20. 在 MRSR 網站中，按一下 **文件，並列出**。 如果您按下**接受**接受步驟 13 中的變更，請確認\<部門名稱 > _Approve 文件庫包含未修改過的訊息。 如果您已經有開啟的文件與清單 視窗，按一下**重新整理**上**檢視**功能表。 如果您按下**拒絕**拒絕步驟 13 中的變更，確認*\<電腦名稱 >*_Outbox 文件庫包含未修改過的訊息。
+20. 在 MRSR 網站中，按一下 **文件，並列出**。 如果您按下**接受**接受步驟 13 中的變更，請確認\<部門名稱\>_Approve 文件庫包含未修改過的訊息。 如果您已經有開啟的文件與清單 視窗，按一下**重新整理**上**檢視**功能表。 如果您按下**拒絕**拒絕步驟 13 中的變更，確認*\<電腦名稱\>*_Outbox 文件庫包含未修改過的訊息。

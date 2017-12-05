@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9a032070876df6bea0579a159d527a6ad903e2ed
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6309da02c84b9c317e0743a8ca2199237e835abb
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="apply-iis-configuration-settings"></a>適用於 IIS 組態設定
 預設 HTTP、 SOAP 和 HTTP 型 WCF 配接器 （和一般.NET） 從每個 BizTalk 主控件執行個體開啟只有兩個並行的 HTTP 連接到任何特定的目的地伺服器。 例如，如果您有 SOAP 傳送埠傳送訊息至**http://www.contoso.com/SomeWebService.asmx**，然後依預設每個主控件執行個體上每個執行[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]會開啟並行只有兩個HTTP連線**www.contoso.com**，無論需要傳送的訊息數量。  
@@ -58,7 +58,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  如果有必要，請按一下**套用**中**動作**窗格。  
   
- 停用偵錯 ASP.NET 應用程式和 Web 服務，藉由指定\<編譯偵錯 ="false"/ > 一節中的 web 應用程式的 web.config 檔案。  
+ 停用偵錯 ASP.NET 應用程式和 Web 服務，藉由指定\<編譯偵錯 ="false"\> web 應用程式的 web.config 檔案中的一節。  
   
 ## <a name="tune-the-value-of-the-asp-threads-per-processor-limit-property"></a>微調每個處理器限制 ASP 執行緒屬性的值  
  ASP**執行緒每個處理器限制**屬性會指定每個處理器的 IIS 建立的背景工作執行緒數目上限。 增加處理器限制每個執行緒的值之前的處理器使用量符合至少 50%，或更新版本。 這項設定可以大幅影響 Web 應用程式的延展性和伺服器的效能一般。 因為此屬性會定義可以同時執行的 ASP 要求的數目上限，這項設定應該保持為預設值，除非您 ASP 應用程式進行擴充外部元件呼叫。 在此情況下，您可能會增加處理器限制每個執行緒的值。 這樣做可讓伺服器建立更多的執行緒，以處理更多的並行要求。 處理器限制每個執行緒的預設值為 25。 這個屬性的最大建議的值為 100。  
@@ -71,7 +71,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  按一下以展開**限制內容**下**行為**，按一下 **執行緒每個處理器限制**，輸入所需的值**執行緒每個處理器限制**按一下**套用**中**動作**窗格。  
   
- 如需有關如何修改中的屬性\<限制 > 元素的 IIS 7.0 \<asp > 項目，請參閱[ASP 限制\<限制 >](http://go.microsoft.com/fwlink/?LinkId=157483) (http://go.microsoft.com/fwlink/?LinkId=157483)。  
+ 如需有關如何修改中的屬性\<限制\>IIS 7.0 的項目\<asp\>項目，請參閱[ASP 限制\<限制\>](http://go.microsoft.com/fwlink/?LinkId=157483)(http://go.microsoft.com/fwlink/?LinkId=157483)。  
   
 > [!NOTE]  
 >  這個屬性只能套用在伺服器層級，因為這個屬性的修改會影響在伺服器執行的所有網站。  
@@ -90,7 +90,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  按一下以展開**限制內容**下**行為**，按一下 **佇列長度**，輸入所需的值**佇列長度**然後按一下**套用**中**動作**窗格。  
   
- 如需有關如何修改中的屬性\<限制 > 元素的 IIS 7.0 \<asp > 項目，請參閱[ASP 限制\<限制 >](http://go.microsoft.com/fwlink/?LinkId=157483) (http://go.microsoft.com/fwlink/?LinkId=157483)。  
+ 如需有關如何修改中的屬性\<限制\>IIS 7.0 的項目\<asp\>項目，請參閱[ASP 限制\<限制\>](http://go.microsoft.com/fwlink/?LinkId=157483)(http://go.microsoft.com/fwlink/?LinkId=157483)。  
   
 > [!NOTE]  
 >  這個屬性只能套用在伺服器層級，因為這個屬性的修改會影響在伺服器執行的所有網站。  
@@ -104,5 +104,5 @@ ms.lasthandoff: 09/20/2017
 ## <a name="disable-wcf-services-tracing"></a>停用追蹤的 WCF 服務  
  若要停用追蹤在生產環境中的 WCF 服務使用組態編輯器工具 (SvcConfigEditor.exe)。 如需組態編輯器工具的詳細資訊，請參閱[組態編輯器工具 (SvcConfigEditor.exe)](http://go.microsoft.com/fwlink/?LinkID=127070) (http://go.microsoft.com/fwlink/?LinkID=127070)。  
   
-## <a name="see-also"></a>另請參閱  
- [檢查清單： 設定 BizTalk Server](../technical-guides/checklist-configuring-biztalk-server.md)
+## <a name="see-also"></a>請參閱  
+ [檢查清單：設定 BizTalk Server](../technical-guides/checklist-configuring-biztalk-server.md)

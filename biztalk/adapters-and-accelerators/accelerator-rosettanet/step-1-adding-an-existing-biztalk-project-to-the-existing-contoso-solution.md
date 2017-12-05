@@ -15,11 +15,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 34c6a6bd5807702cb01c4c7cbc13780b95cc3da2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 343bdf83d90d38a6fc0c626a65353c0185c43f6c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-1-adding-an-existing-biztalk-project-to-the-existing-contoso-solution"></a>步驟 1： 將現有的 BizTalk 專案加入至現有的 Contoso 解決方案
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK 包含私用程序協調流程，可以做為您在自訂私用程序時一個很好的起點。 在此步驟中，您要將該協調流程加入至您的方案，並將變更組件名稱，以免與 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 在安裝期間所安裝的 PrivateResponder 協調流程發生衝突。 開始之前，開啟您在中建立的 Contoso 解決方案[步驟 1： 為 Contoso 價格與可用性要求建立新的 BizTalk 解決方案](../../adapters-and-accelerators/accelerator-rosettanet/step-1-create-new-biztalk-solution-for-contoso-price-and-availability-request.md)。  
@@ -29,7 +29,7 @@ ms.lasthandoff: 09/20/2017
 1.  將 PrivateResponder SDK 範例複製至 Contoso 解決方案資料夾。  
   
     > [!NOTE]
-    >  根據預設，PrivateResponder SDK 範例位於 C:\Program Files\Microsoft BizTalk\<版本 > Accelerator for RosettaNet\SDK\PrivateResponder 資料夾。  
+    >  根據預設，PrivateResponder SDK 範例位於 C:\Program Files\Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK\PrivateResponder 資料夾。  
   
 2.  在 Visual Studio 中，按一下 **檔案**，指向 **新增**，然後按一下 **現有專案**。  
   
@@ -51,5 +51,5 @@ ms.lasthandoff: 09/20/2017
   
 7.  在**屬性**視窗，請在**命名空間**欄位中，輸入**ContosoPriceAndAvailability**，然後按下**Enter**。  
   
-## <a name="see-also"></a>另請參閱  
- [步驟 2： 定義與發佈 Contoso 的詞彙](../../adapters-and-accelerators/accelerator-rosettanet/step-2-defining-and-publishing-the-vocabulary-for-contoso.md)
+## <a name="see-also"></a>請參閱  
+ [步驟 2：定義與發佈 Contoso 的詞彙](../../adapters-and-accelerators/accelerator-rosettanet/step-2-defining-and-publishing-the-vocabulary-for-contoso.md)

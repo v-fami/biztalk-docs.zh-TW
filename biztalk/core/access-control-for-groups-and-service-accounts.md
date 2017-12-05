@@ -21,11 +21,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 67bc5799d88c0dca876df463eb37d4af65ec84d3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9a04129427b524f0e183012ba7f10df1288327a8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="access-control-for-groups-and-service-accounts"></a>群組和服務帳戶的存取控制
 每個 BizTalk 主控件執行個體會在使用者建立的服務帳戶下執行。 在電腦上建立主控件執行個體時，您必須提供服務帳戶及密碼。 BizTalk Server 會接著確定帳戶擁有執行工作所需的最低使用者權限，其方法是新增這每一個服務帳戶到本機或網域的 Windows 群組，然後再將此群組加入至該主控件特定的「SQL Server 資料庫」角色。  
@@ -41,7 +41,7 @@ ms.lasthandoff: 09/20/2017
   
  為了確保服務帳戶擁有執行其工作所需的最低使用者權限，BizTalk Server 為服務帳戶建立的「SQL Server 資料庫」角色，在所有的 BizTalk Server 資料庫上都不盡相同。 在「管理」和「追蹤」資料庫中，所有的主控件執行個體服務帳戶都必須存取相同的 SQL Server 物件，因此 BizTalk Server 建立名為 BTS_Host_User 的單一「SQL Server 資料庫」角色。 BizTalk 會將針對 BizTalk 主控件而建立的所有 Windows 群組新增到這個「SQL Server 資料庫」角色。  
   
- 在 MessageBox 資料庫中，每個主控件都有一些本身專用的資源。 BizTalk Server 會建立 SQL Server 資料庫角色，每個主機，名為 BTS_&LT;\<*hostname*> （_u)，並以封鎖存取的一部主機新增到其個別的 SQL Server 資料庫角色的每個主控件 Windows 群組由另一部主機的資源。  
+ 在 MessageBox 資料庫中，每個主控件都有一些本身專用的資源。 BizTalk Server 會建立 SQL Server 資料庫角色，每個主機，名為 BTS_<\<*hostname*\>（_u)，並加入到其個別的 SQL Server 資料庫角色的每個主控件 Windows 群組，以封鎖存取的其中一個由另一部主機的主機資源。  
   
 ## <a name="accounts-not-supported-by-biztalk-server"></a>BizTalk Server 不支援的帳戶  
  BizTalk Server 不支援使用下列任何內建的 Windows 帳戶：  
@@ -52,8 +52,8 @@ ms.lasthandoff: 09/20/2017
   
 -   NT_AUTHORITY\LocalService  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [系統管理角色的存取控制](../core/access-control-for-administrative-roles.md)   
  [最低安全性使用者權限](../core/minimum-security-user-rights.md)   
  [Windows 群組和 BizTalk Server 中的使用者帳戶](../core/windows-groups-and-user-accounts-in-biztalk-server.md)   
- [存取控制與資料安全性](../core/access-control-and-data-security.md)
+ [存取控制和資料安全性](../core/access-control-and-data-security.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a42fb3ca8381faedbd2283b9f4d297738bbb040d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 01e445ef19a1d65cc97a3603492a1ad9ba0442e9
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="known-issues-with-updating-applications-and-artifacts"></a>更新的應用程式和成品的已知的問題
 ## <a name="updating-an-application"></a>更新應用程式  
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/20/2017
   
  **不支援.NET 原則檔**  
   
- [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 中不支援 .NET 原則檔的使用。 這是因為原則檔可能無法依預期狀況執行。 原則檔將.NET 重新導向至指定的組件中的版本在 GAC 中，但[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]經常會從快取或 BizTalk 管理資料庫存取組件和成品資料。 根據成品類型、快取狀況以及是否重新啟動主控件執行個體等情況，原則檔可能無法執行所要的作業。  
+ 在 BizTalk Server 不支援.NET 原則檔使用。 這是因為原則檔可能無法依預期狀況執行。 原則檔將.NET 重新導向至指定的組件中的版本在 GAC 中，但[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]經常會從快取或 BizTalk 管理資料庫存取組件和成品資料。 根據成品類型、快取狀況以及是否重新啟動主控件執行個體等情況，原則檔可能無法執行所要的作業。  
   
 ## <a name="updating-an-assembly"></a>更新組件  
  **如果主機並未停止，組件的變更可能不會生效**  

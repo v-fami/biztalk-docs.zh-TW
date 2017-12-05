@@ -17,11 +17,11 @@ caps.latest.revision: "27"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 256731dbb6194aa1962d62ec9fdbe58a0fd60e03
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fd5f7bb392a6fbd4e1b4d64139fc38cc5a71aa38
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="mqssendpipelinecomponent-biztalk-server-sample"></a>MQSSendPipelineComponent (BizTalk Server 範例)
 本範例示範如何撰寫可從 XML 檔案讀取一組 MQSeries 屬性值，並將這些屬性值套用至訊息的管線元件。  
@@ -31,9 +31,9 @@ ms.lasthandoff: 09/20/2017
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
   
--   *\<範例路徑 >*\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyComponent  
+-   *\<範例路徑\>*\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyComponent  
   
--   *\<範例路徑 >*\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyPipeline  
+-   *\<範例路徑\>*\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyPipeline  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -109,7 +109,7 @@ ms.lasthandoff: 09/20/2017
   
     1.  開啟 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 命令提示字元。  
   
-    2.  將目錄變更為\<範例路徑 > \AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent。  
+    2.  將目錄變更為\<範例路徑\>\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent。  
   
     3.  輸入以下內容：  
   
@@ -125,7 +125,7 @@ ms.lasthandoff: 09/20/2017
   
     3.  按一下下拉式清單**選擇強式名稱金鑰檔**選項，然後按一下**瀏覽**。  
   
-    4.  瀏覽至\<範例路徑 > \AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\MQSSendPipelineComponent.snk，按一下 **開啟**。  
+    4.  瀏覽至\<範例路徑\>\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\MQSSendPipelineComponent.snk，按一下 **開啟**。  
   
 4.  已新增您稍早建立的管線元件**預先組合**這個管線專案的階段。 如果這個元件尚未加入，您必須完成下列步驟將它加入：  
   
@@ -148,7 +148,7 @@ ms.lasthandoff: 09/20/2017
   
     1.  開啟 [BizTalk 管理主控台]。  
   
-    2.  按一下以展開**BizTalk 群組 [\<伺服器名稱 >:\<管理資料庫 >]**，然後按一下以展開**組件**資料夾。  
+    2.  按一下以展開**BizTalk 群組 [\<servername\>:\<管理資料庫\>]**，然後按一下以展開**組件**資料夾。  
   
          已部署的管線組件應該會顯示在**組件**資料夾。  
   
@@ -186,7 +186,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  按一下**啟動**，指向 **程式**，指向  **IBM WebSphere MQ**，然後按一下  **WebSphere MQ Explorer**。  
   
-2.  按兩下**佇列管理員**，然後按兩下預設佇列管理員。 預設佇列管理員通常會命名為**Qm_<**\<*machine_name*> 其中*machine_name*是您的電腦名稱。  
+2.  按兩下**佇列管理員**，然後按兩下預設佇列管理員。 預設佇列管理員通常會命名為**Qm_<**\<*machine_name* \>其中*machine_name*是您的電腦名稱。  
   
 3.  以滑鼠右鍵按一下**佇列**，指向 **新增**，然後按一下 **本機佇列**。  
   
@@ -260,5 +260,5 @@ ms.lasthandoff: 09/20/2017
   
 3.  每個訊息的訊息內容屬性應該顯示在**訊息瀏覽器** 對話方塊。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [MQSeries 配接器範例](../core/mqseries-adapter-samples.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0a4ad59760d6efddcfe946c0ee13c26ee0f8ca1d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2a295bacf263e3ecad9a9aa081fb0d5d3be2f635
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-save-rename-and-close-schemas"></a>如何儲存、重新命名及關閉結構描述
 在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中，結構描述為 XML 結構描述定義 (XSD) 語言檔案，以 .xsd 副檔名存在檔案系統上。 當您使用「BizTalk 編輯器」開發結構描述時，需要定期儲存和關閉結構描述檔案，偶爾可能需要重新命名這些檔案。 本主題描述執行這些基本作業所需的步驟。  
@@ -25,12 +25,12 @@ ms.lasthandoff: 09/20/2017
   
 1.  若有必要，在 Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 中主要編輯視窗的頂端按一下適當的索引標籤，為您要儲存的結構描述啟動「BizTalk 編輯器」。  
   
-2.  在**檔案**功能表上，按一下 **儲存*\<名稱的結構描述 >***。  
+2.  在**檔案**功能表上，按一下 **儲存*\<名稱的結構描述\>***。  
   
      若結構描述之前有未儲存的變更，則其顯示在主要編輯視窗頂端索引標籤中的名稱結尾將不再有星號 (*) 以指示未儲存的變更。  
   
 > [!NOTE]
->  您可以按一下以儲存新的名稱下的結構描述**儲存*\<名稱的結構描述 >*為**上**檔案**功能表。  
+>  您可以按一下以儲存新的名稱下的結構描述**儲存*\<名稱的結構描述\>*為**上**檔案**功能表。  
   
 > [!NOTE]
 >  您可以將結構描述儲存為部分儲存在專案中的所有已變更的項目，依序按一下**全部儲存**上**檔案**功能表。  
@@ -58,5 +58,5 @@ ms.lasthandoff: 09/20/2017
   
      會關閉已經關閉的結構描述之「BizTalk 編輯器」。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理專案中的結構描述](../core/managing-schemas-within-projects.md)

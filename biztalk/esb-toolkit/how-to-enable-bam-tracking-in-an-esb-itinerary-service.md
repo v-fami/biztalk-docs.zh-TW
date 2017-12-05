@@ -12,11 +12,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6245ec69e1c8224ccbe9a39c3c2be9eea9237ee8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 011de667e06f4275fe75a28b6566a6bc393cf841
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-enable-bam-tracking-in-an-esb-itinerary-service"></a>如何： 啟用 BAM 追蹤 ESB 路線服務中
 ## <a name="goal"></a>目標  
@@ -46,7 +46,7 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-create-an-esb-itinerary-dsl-model"></a>若要建立 ESB 路線 DSL 模型  
   
-1.  在[!INCLUDE[vs2010](../includes/vs2010-md.md)]，開啟 C:\HowTos\Patterns\Patterns.sln。  
+1.  在 Visual Studio 中開啟 C:\HowTos\Patterns\Patterns.sln。  
   
 2.  在 方案總管 中，以滑鼠右鍵按一下**ItineraryLibrary**專案，指向**新增**，然後按一下 **新的行程**。  
   
@@ -145,7 +145,7 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-modify-the-itinerary"></a>若要修改路線  
   
-1.  在[!INCLUDE[vs2010](../includes/vs2010-md.md)]，開啟 C:\HowTos\Patterns\Patterns.sln。  
+1.  在 Visual Studio 中開啟 C:\HowTos\Patterns\Patterns.sln。  
   
 2.  在 [方案總管] 中，按兩下**BamTracking.itinerary**。  
   
@@ -209,6 +209,6 @@ ms.lasthandoff: 09/20/2017
   
 -   [開發活動](../esb-toolkit/development-activities.md)  
   
--   [訊息的路由模式](../esb-toolkit/message-routing-patterns.md)  
+-   [訊息路由模式](../esb-toolkit/message-routing-patterns.md)  
   
 -   [使用動態解析和路由](../esb-toolkit/using-dynamic-resolution-and-routing.md)

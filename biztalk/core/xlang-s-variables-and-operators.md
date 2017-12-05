@@ -12,11 +12,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1affe6ebdebac515782ec9ecb82b0c6085341bfe
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8c1773b7af3ec029026ee884e6c1161e27a3c330
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="xlang-s-variables-and-operators"></a>XLANG 的變數和運算子
 本節討論 XLANG/s 語言中使用的變數和運算子。  
@@ -49,7 +49,7 @@ ms.lasthandoff: 09/20/2017
 |取消選取|忽略算術溢位|unchecked(x = y * 1000)|  
 |new|建立類別的執行個體|myObject = new MyClass;|  
 |typeof|擷取型別|myMapType = typeof(myMap)|  
-|succeeded|測試交易式範圍或協調流程是否順利完成|成功 (\<目前範圍或服務的子交易的交易識別碼 >)|  
+|succeeded|測試交易式範圍或協調流程是否順利完成|成功 (\<目前範圍或服務的子交易的交易識別碼\>)|  
 |exists|測試訊息內容屬性是否存在|BTS.RetryCount exists Message_In|  
 |+|一元加號運算子|+(int x)|  
 |-|一元減號運算子|-(int x)|  
@@ -60,18 +60,18 @@ ms.lasthandoff: 09/20/2017
 |/|除|x / y|  
 |+|加|x + y|  
 |-|減|x - y|  
-|<<|左移|x <\< 2|  
+|<<|左移|x << 2|  
 |>>|右移|x >> 2|  
-|<|小於|如果 (MyMsg.numOrders \< 10)...|  
+|<|小於|If (MyMsg.numOrders < 10)...|  
 |>|大於|如果 (MyMsg.numOrders > 10)...|  
-|<=|小於或等於|如果 (MyMsg.numOrders \<= 10)...|  
+|<=|小於或等於|If (MyMsg.numOrders <= 10)...|  
 |>=|大於或等於|如果 (MyMsg.numOrders > = 10)...|  
 |==|等於|If (MyMsg.numOrders == 10)...|  
 |!=|不等於|If (MyMsg.numOrders != 10)...|  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [XLANG 的資料型別](../core/xlang-s-data-types.md)   
  [XLANG s 陳述式](../core/xlang-s-statements.md)   
  [XLANG 的運算式](../core/xlang-s-expressions.md)   
  [XLANG s 保留字](../core/xlang-s-reserved-words.md)   
- [XLANG-s 至 BPEL4WS 型別轉換](../core/xlang-s-to-bpel4ws-type-conversions.md)
+ [XLANG-s 至 BPEL4WS 類型轉換](../core/xlang-s-to-bpel4ws-type-conversions.md)

@@ -12,14 +12,14 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 71287d29d13406d3f1159054e988ef0e2b98a648
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f4c6ac3b8a3104e1c96b2dc9ebd880489d3c9833
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="considerations-while-using-biztalk-server-on-a-64-bit-windows-operating-system"></a>在 64 位元 Windows 作業系統上使用 BizTalk Server 時的考量
-當使用[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]在 64 位元 Windows 作業系統，請確定您考慮本主題中所述的問題。 經常要求相關的 Microsoft 64 位元支援問題[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]，請參閱[BizTalk Server 64 位元支援](http://go.microsoft.com/fwlink/?LinkID=155306)(http://go.microsoft.com/fwlink/?LinkID=155306)。  
+當使用[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]在 64 位元 Windows 作業系統，請確定您考慮本主題中所述的問題。 與 Microsoft BizTalk Server 的 64 位元支援常見問題集的問題，請參閱[BizTalk Server 64 位元支援](http://go.microsoft.com/fwlink/?LinkID=155306)(http://go.microsoft.com/fwlink/?LinkID=155306)。  
   
 ## <a name="modify-the-process-memory-usage-throttling-threshold"></a>修改 節流處理臨界值的處理序記憶體使用量  
  根據預設，**處理記憶體使用量**主控件節流臨界值設定為 25。 如果超過這個值時，BizTalk 處理序記憶體使用量是 300 MB 以上，可能會發生節流狀況。 在 64 位元伺服器上，您可以增加此值為 100。 這可讓更多的記憶體耗用量 BizTalk 程序之前就會發生節流。 如需有關如何修改程序記憶體使用量主控件節流處理臨界值的指示，請參閱[如何修改預設主控件節流設定](http://go.microsoft.com/fwlink/?LinkId=157210)(http://go.microsoft.com/fwlink/?LinkId=157210)。  
@@ -37,4 +37,4 @@ ms.lasthandoff: 09/20/2017
  請確定您執行這些介面卡的 32 位元主控件執行個體中。  
   
 ## <a name="configure-the-mimesmime-encoder-to-run-in-32-bit-mode"></a>將 MIME/SMIME 編碼器設定成在 32 位元模式下執行  
- 在[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]，MIME/SMIME 編碼器管線元件還沒有原生 64 位元支援。 這表示，此元件必須在 32 位元模擬模式程序 (WOW64) 中執行。 而這也暗示，在其中執行此編碼器元件的主控件執行個體 (或此元件為其一部分的傳送管線)，必須以 32 位元模擬模式執行。 請注意，這項限制對於在此相同主控件執行個體中執行的其他 BizTalk 項目，也會有效能上 (或其他方面) 的暗示。
+ 在 BizTalk Server 中，MIME/SMIME 編碼器管線元件還沒有原生 64 位元支援。 這表示，此元件必須在 32 位元模擬模式程序 (WOW64) 中執行。 而這也暗示，在其中執行此編碼器元件的主控件執行個體 (或此元件為其一部分的傳送管線)，必須以 32 位元模擬模式執行。 請注意，這項限制對於在此相同主控件執行個體中執行的其他 BizTalk 項目，也會有效能上 (或其他方面) 的暗示。

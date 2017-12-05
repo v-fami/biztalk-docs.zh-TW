@@ -12,11 +12,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4c12b6f1693fe475a1b123a6163a11b35fd96932
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e13ce12e8514eaa2b5843ba81eff4f505e65d9e1
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="known-issues-with-the-ftp-adapter"></a>FTP 配接器的已知問題
 本節包含可幫助您避免錯誤的資訊。  
@@ -45,7 +45,7 @@ ms.lasthandoff: 09/20/2017
 #### <a name="ftp-adapter-does-not-support-revocation-checks-on-the-server-certificates"></a>FTP 配接器不支援對伺服器憑證進行撤銷檢查  
   
 ##### <a name="problem"></a>問題  
- [!INCLUDE[prague](../includes/prague-md.md)] 中的 FTP 配接器經過增強，可以支援使用 SSL/TLS 來與 FTPS 伺服器往返進行安全的檔案傳輸。 憑證撤銷清單 (CRL) 包含已經撤銷而不再有效之憑證的清單。 FTP 配接器不會查看 CRL 來驗證伺服器憑證。  
+ FTP 配接器在 BizTalk Server 中的已增強為支援安全的檔案傳輸使用 SSL/TLS FTPS 伺服器往返。 憑證撤銷清單 (CRL) 包含已經撤銷而不再有效之憑證的清單。 FTP 配接器不會查看 CRL 來驗證伺服器憑證。  
   
 ##### <a name="cause"></a>原因  
  依照 設計，FTP 配接器在接受伺服器憑證之前，並不會查看 CRL 。  
@@ -72,6 +72,6 @@ ms.lasthandoff: 09/20/2017
 ##### <a name="resolution"></a>解決方案  
  不需動作，此行為是經過設計的。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [如何設定 FTP 接收位置](http://msdn.microsoft.com/library/1d8fde35-f787-4a5e-a8bd-8c418d0f75c3)   
  [FTP 配接器疑難排解](../core/troubleshooting-the-ftp-adapter.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 95145af75916001895c03bd0b2665894a43083cc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 872bb73b9060e25986876c1c2da71afae84b5c52
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="install-the-dynamic-resolution-sample-using-the-install-scripts"></a>安裝使用安裝指令碼動態解析範例
 本章節描述如何安裝動態解析 」 範例隨附的安裝指令碼從[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]。  
@@ -43,7 +43,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  在**執行** 對話方塊中，輸入**cmd**，然後按 ENTER 開啟命令提示字元。  
   
-5.  執行下列命令，取代\<路徑 > 參數與您想要安裝的.cmd 檔案的完整路徑 (在此版本中的預設路徑是 \Source\Samples\DynamicResolution\Install\Scripts\\):  
+5.  執行下列命令，取代\<路徑\>參數與您想要安裝的.cmd 檔案的完整路徑 (在此版本中的預設路徑是 \Source\Samples\DynamicResolution\Install\Scripts\\):  
   
     ```  
     <path>\Setup_bin.cmd  

@@ -15,11 +15,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 577ded3a225acd8b3f95372075103ab37dfba854
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0ef4a2fb99d423f7c7ccb08cec58c3c49928e1ed
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-update-the-properties-of-an-affiliate-application"></a>如何更新分支機構應用程式的內容
 您可以使用 MMC 嵌入式管理單元或此命令來更新一或多個應用程式屬性，如 XML 檔案所指定。 您必須是分支機構系統管理員，才能執行此工作。 下列是一個範例 XML 檔案，其中列出您可以更新的欄位。  
@@ -71,14 +71,14 @@ ms.lasthandoff: 09/20/2017
   
 1.  在**啟動**功能表上，按一下 **執行**，然後輸入**cmd**。  
   
-2.  在命令列，移至「企業單一登入」安裝目錄。 預設安裝目錄是**\<磁碟機 >**: \Program Files\Common Files\Enterprise Single Sign-on。  
+2.  在命令列，移至「企業單一登入」安裝目錄。 預設安裝目錄是**\<磁碟機\>**: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-3.  型別**ssomanage – updateapps\<應用程式檔案名稱 >**，其中應用程式檔案名稱是 XML 檔案。  
+3.  型別**ssomanage – updateapps\<應用程式檔案名稱\>**，其中應用程式檔案名稱是 XML 檔案。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [SSO 分支機構應用程式](../core/sso-affiliate-applications.md)   
  [如何啟用分支機構應用程式](../core/how-to-enable-an-affiliate-application.md)   
  [管理使用者對應](../core/managing-user-mappings.md)   

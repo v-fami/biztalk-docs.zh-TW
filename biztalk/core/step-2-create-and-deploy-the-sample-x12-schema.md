@@ -12,11 +12,11 @@ caps.latest.revision: "31"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fe4f937af910ceef1ed461e25ea3c62cad5cbc29
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 57c95ac64637027b5d39699a42e8fac93c003697
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-2-create-and-deploy-the-sample-x12-schema"></a>步驟 2： 建立和部署範例 X12 結構描述
 ![步驟 2 的 11](../core/media/tut-step2-of-11.gif "Tut_Step2_of_11")  
@@ -38,12 +38,12 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  本主題假設您已經在「BizTalk EDI 應用程式」中加入了自己應用程式的參考 (包含 EDI 結構描述、管線和協調流程)， 如果沒有，請參閱[如何將參考加入至 BizTalk Server EDI 應用程式](http://msdn.microsoft.com/library/7af066fb-372f-4709-b566-c8d6b4a9d782)。  
   
-3.  結構描述專案中，按一下滑鼠右鍵，然後按一下**屬性**。 按一下**簽署**專案設計工具中的索引標籤。 檢查**簽署組件**核取方塊，如**選擇強式金鑰名稱檔**，選取**\<新增...>**輸入`Schemas.snk`。 清除**保護我的密碼金鑰檔**，然後按一下 **確定**。 關閉專案屬性對話方塊並儲存所做的變更。  
+3.  結構描述專案中，按一下滑鼠右鍵，然後按一下**屬性**。 按一下**簽署**專案設計工具中的索引標籤。 請檢查**簽署組件**核取方塊，如**選擇強式金鑰名稱檔**，選取**\<新增...\>** 輸入`Schemas.snk`。 清除**保護我的密碼金鑰檔**，然後按一下 **確定**。 關閉專案屬性對話方塊並儲存所做的變更。  
   
 4.  建置並部署 Schemas.btproj。  
   
 ## <a name="next-steps"></a>後續步驟  
  中所述，為您的組織 (Contoso)，設定合作對象與商務設定檔[步驟 3： 設定適用於您組織的合作對象與商務設定檔](../core/step-3-configure-a-party-and-business-profile-for-your-organization2.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [EDI 文件結構描述](../core/edi-document-schemas.md)

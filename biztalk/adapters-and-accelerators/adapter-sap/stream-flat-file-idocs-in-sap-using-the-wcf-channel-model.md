@@ -13,14 +13,14 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b3d9641f894a493aa5c2c298a71b1b5a49ffb55a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c8de850022a03a3be0310da3022a2cf496c94f30
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="stream-flat-file-idocs-in-sap-using-the-wcf-channel-model"></a>使用 WCF 通道模型的 SAP 中的資料流一般檔案 Idoc
-[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]支援節點值的 SendIdoc 和 ReceiveIdoc 作業的串流。 這些作業用來傳送和接收一般檔案 （字串） 的 Idoc 與配接器。 在這兩種作業中，整個 IDOC 的資料包含在單一節點下的字串 (\<idocData >)。 對於大型的 Idoc，串流 IDOC 資料配接器與您的程式碼之間可能節省大量記憶體資源。  
+[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]支援節點值的 SendIdoc 和 ReceiveIdoc 作業的串流。 這些作業用來傳送和接收一般檔案 （字串） 的 Idoc 與配接器。 在這兩種作業中，整個 IDOC 的資料包含在單一節點下的字串 (\<idocData\>)。 對於大型的 Idoc，串流 IDOC 資料配接器與您的程式碼之間可能節省大量記憶體資源。  
   
  如需配接器支援資料流處理的背景資訊，請參閱[資料流與 SAP 配接器](../../adapters-and-accelerators/adapter-sap/streaming-and-the-sap-adapter.md)。 您應該閱讀本主題後再繼續。  
   
@@ -290,5 +290,5 @@ fileXmlWriter.Close();
   
 ```  
   
-## <a name="see-also"></a>另請參閱  
-[開發應用程式使用 WCF 通道模型](../../adapters-and-accelerators/adapter-sap/develop-sap-applications-using-the-wcf-channel-model.md)
+## <a name="see-also"></a>請參閱  
+[使用 WCF 通道模型開發應用程式](../../adapters-and-accelerators/adapter-sap/develop-sap-applications-using-the-wcf-channel-model.md)

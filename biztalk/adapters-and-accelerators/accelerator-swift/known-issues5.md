@@ -16,11 +16,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b3b2b5eadcbdbdc357529f4ad8af47d46840d47e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c1356209f700fc7ceff220f4b0f8fcd3dd67db07
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="known-issues"></a>已知問題
 此章節包含有用的資訊可協助您避免錯誤[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]。 已知的問題可分為以下各類：  
@@ -58,7 +58,7 @@ ms.lasthandoff: 09/20/2017
  當訊息修復協調流程可將已修正未剖析的訊息路由至 MessageBox 時，它也會設定[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]_MRSRDepartment 屬性為空字串，並將它升級。 傳送埠不能在這個屬性的訂閱。  
   
 #### <a name="cannot-save-a-department-if-the-sso-service-has-been-stopped"></a>無法儲存一個部門，如果 SSO 服務已停止  
- 如果您嘗試新增一個部門，SSO 服務停止時，您會收到錯誤指出此問題的主要 SSO 伺服器\<machinename > 失敗。 請檢查是否已設定 SSO，以及 SSO 服務是否在該伺服器上執行。  
+ 如果您嘗試新增一個部門，SSO 服務停止時，您會收到錯誤指出此問題的主要 SSO 伺服器\<machinename\>失敗。 請檢查是否已設定 SSO，以及 SSO 服務是否在該伺服器上執行。  
   
 #### <a name="a-department-name-must-not-contain-the-character-"></a>部門的名稱不可以包含字元"~"  
  部門的名稱包含字元"~"A4SWIFT 資料庫將會導致的問題。  
@@ -81,7 +81,7 @@ ms.lasthandoff: 09/20/2017
   
  即使[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]安裝程式設定 CacheEntries 32 到 512，解除安裝[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]不重設 CacheEntries 介於 512 到 32。  
   
- 如需詳細資訊，請參閱中的 「 規則引擎組態和調整參數 > 主題[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]幫助。  
+ 如需詳細資訊，請參閱在 BizTalk Server 說明中的 「 規則引擎組態和調整參數 > 主題。  
   
 #### <a name="building-a-pipeline-project-may-result-in-a-large-number-of-warnings"></a>建立管線專案可能會導致大量的警告  
  當您將 SWIFT 組譯工具加入至傳送管線或 SWIFT 接收管線解譯器，然後建立包含這些管線的管線專案時，您可能會收到一系列的管線元件相關的警告。 這些警告會指示 Visual Studio 找不到相依性。 您可以更正導致這些警告，如下所示變更 SWIFTAsm 或 SWIFTDasm 中組件的 [參考] 資料夾中，[複製本機] 屬性的條件：  

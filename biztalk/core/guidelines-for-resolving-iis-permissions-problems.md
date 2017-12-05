@@ -13,11 +13,11 @@ caps.latest.revision: "30"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fdae0c97d0441ccb57320ec24908cca522ae2088
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: eb91509ec3ad1c329190c848c25a60434f93499e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="guidelines-for-resolving-iis-permissions-problems"></a>解決 IIS 權限問題的指導方針
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 在使用 HTTP、SOAP 和 Windows SharePoint Services 配接器時，會大量使用 Microsoft Internet Information Services (IIS) 以提供 Web 服務支援。  
@@ -40,7 +40,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
   
 1.  按一下**啟動**，然後**所有程式**，然後按一下**Internet Information Services (IIS) 7 Manager**。  
   
-2.  在 [網際網路資訊服務 (IIS) 管理員] 中，展開*\<電腦名稱 >***（使用者帳戶）**按一下**應用程式集區**。  
+2.  在 [網際網路資訊服務 (IIS) 管理員] 中，展開*\<電腦名稱\>***（使用者帳戶）**按一下**應用程式集區**。  
   
 3.  以滑鼠右鍵按一下應用程式集區，然後按一下**檢視應用程式**以查看應用程式集區相關聯的應用程式。  
   
@@ -67,7 +67,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
   
 #### <a name="to-set-user-access-rights-for-a-virtual-directory-in-iis-70"></a>若要在 IIS 7.0 中設定虛擬目錄的使用者存取權限  
   
-1.  在 [網際網路資訊服務 (IIS) 管理員] 中，展開*\<電腦名稱 >*，**網站**，和**Default Web Site**中**連線**窗格。  
+1.  在 [網際網路資訊服務 (IIS) 管理員] 中，展開*\<電腦名稱\>*，**網站**，和**Default Web Site**中**連線**窗格。  
   
 2.  按一下以選取的虛擬目錄，並按一下**功能檢視**底端的工作區窗格中列出的虛擬目錄的可設定功能。  
   
@@ -101,6 +101,6 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
   
 5.  使用中所述的 RegMon 和 FileMon 公用程式[工具和公用程式，以供疑難排解使用](../core/tools-and-utilities-to-use-for-troubleshooting.md)診斷檔案或登錄存取權限問題。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [疑難排解 BizTalk Server 權限](../core/troubleshooting-biztalk-server-permissions.md)   
  [IIS 7.0： 在 IIS 7.0 中設定驗證](http://go.microsoft.com/fwlink/?LinkId=129909)

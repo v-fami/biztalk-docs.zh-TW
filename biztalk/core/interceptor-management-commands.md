@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cccf89cb6c3e1f6ed600c28377e5ad124c5498ab
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 32392c05f47c00a6c62372acbf8d1ba0bed0da6c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="interceptor-management-commands"></a>攔截器管理命令
 為了支援新的 BAM 攔截器功能，BAM 管理公用程式中已加入四個新的命令。  
@@ -40,16 +40,16 @@ ms.lasthandoff: 09/20/2017
 ## <a name="deploy-interceptor-command"></a>deploy-interceptor 命令  
  **使用方式**  
   
- **bm.exe 部署攔截器-FileName:\<組態 XML 檔案名稱 > [-Force: True] [-Server:\<伺服器 >] [-Database:\<資料庫 >]**  
+ **bm.exe 部署攔截器-FileName:\<組態 XML 檔案名稱\>[-Force: True] [-Server:\<伺服器\>] [-Database:\<資料庫\>]**  
   
  **參數**  
   
 |參數|Description|  
 |---------------|-----------------|  
-|檔案名稱：\<組態 XML 檔案名稱 >|包含攔截器組態的 XML 檔案名稱。|  
+|檔案名稱：\<組態 XML 檔案名稱\>|包含攔截器組態的 XML 檔案名稱。|  
 |Force:True|選擇性： 偵測到事件來源名稱衝突時，會強制部署攔截器組態。|  
-|伺服器：\<伺服器 >|選擇性： 要部署攔截器的伺服器名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。|  
-|資料庫：\<資料庫 >|選擇性： 要設定攔截器的 BAM 主要匯入資料庫的名稱。|  
+|伺服器：\<伺服器\>|選擇性： 要部署攔截器的伺服器名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。|  
+|資料庫：\<資料庫\>|選擇性： 要設定攔截器的 BAM 主要匯入資料庫的名稱。|  
   
  這個命令會將攔截器組態部署到指定的伺服器和資料庫。 在部署期間，BAM 管理公用程式會執行下列驗證：  
   
@@ -72,14 +72,14 @@ bm.exe deploy-interceptor  -FileName:myInceptor.xml -Force:True
 ## <a name="get-interceptorlist-command"></a>get-interceptorlist 命令  
  **使用方式**  
   
- **bm.exe get interceptorlist [-Server:\<伺服器 >] [-Database:\<資料庫 >]**  
+ **bm.exe get interceptorlist [-Server:\<伺服器\>] [-Database:\<資料庫\>]**  
   
  **參數**  
   
 |參數|Description|  
 |---------------|-----------------|  
-|伺服器：\<伺服器 >|選擇性： 要傳回的已部署攔截器清單的來源伺服器的名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。|  
-|資料庫：\<資料庫 >|選擇性： 要從中擷取已部署攔截器的 BAM 主要匯入資料庫的名稱。|  
+|伺服器：\<伺服器\>|選擇性： 要傳回的已部署攔截器清單的來源伺服器的名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。|  
+|資料庫：\<資料庫\>|選擇性： 要從中擷取已部署攔截器的 BAM 主要匯入資料庫的名稱。|  
   
  這個命令會傳回已啟用攔截之活動和其相關事件來源的清單。  
   
@@ -92,17 +92,17 @@ bm.exe get-interceptorlist
 ## <a name="get-interceptor-command"></a>get-interceptor 命令  
  **使用方式**  
   
- **bm.exe get 攔截器 [-Server:\<伺服器 >] [-Database:\<資料庫 >]-FileName:\<組態 XML 檔案名稱 > [-活動：\<活動名稱 >] [-EventSource:\<事件來源名稱 >]**  
+ **bm.exe get 攔截器 [-Server:\<伺服器\>] [-Database:\<資料庫\>]-FileName:\<組態 XML 檔案名稱\>[-活動：\<活動名稱\>] [-EventSource:\<事件來源名稱\>]**  
   
  **參數**  
   
 |參數|Description|  
 |---------------|-----------------|  
-|伺服器：\<伺服器 >|選擇性： 要擷取已部署之攔截器的來源伺服器的名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。|  
-|資料庫：\<資料庫 >|選擇性： 要從中擷取已部署之攔截器的 BAM 主要匯入資料庫的名稱。|  
-|檔案名稱：\<組態 XML 檔案名稱 >|寫入攔截器組態的目標 XML 檔案名稱。|  
-|活動：\<活動名稱 >|選擇性： 指定要傳回設定之攔截器的活動。 可以用於搭配**EventSource**參數，以進一步指定要傳回的組態。|  
-|EventSource:\<事件來源名稱 >|選擇性： 指定要傳回設定之攔截器的事件來源。 可以用於搭配**活動**參數，以進一步指定要傳回的組態。|  
+|伺服器：\<伺服器\>|選擇性： 要擷取已部署之攔截器的來源伺服器的名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。|  
+|資料庫：\<資料庫\>|選擇性： 要從中擷取已部署之攔截器的 BAM 主要匯入資料庫的名稱。|  
+|檔案名稱：\<組態 XML 檔案名稱\>|寫入攔截器組態的目標 XML 檔案名稱。|  
+|活動：\<活動名稱\>|選擇性： 指定要傳回設定之攔截器的活動。 可以用於搭配**EventSource**參數，以進一步指定要傳回的組態。|  
+|EventSource:\<事件來源名稱\>|選擇性： 指定要傳回設定之攔截器的事件來源。 可以用於搭配**活動**參數，以進一步指定要傳回的組態。|  
   
  如果未提供任何活動名稱或事件來源名稱，此命令會傳回有效的組態檔，其中包含所有事件來源和活動的攔截器組態。  
   
@@ -122,16 +122,16 @@ bm.exe get-interceptor  -Activity:ShippingPO
 ## <a name="remove-interceptor-command"></a>remove-interceptor 命令  
  **使用方式**  
   
- **bm.exe 移除攔截器 [-Server:\<伺服器 >] [-Database:\<資料庫 >] [-活動：\<活動名稱 >] [-EventSource:\<事件來源名稱 >]**  
+ **bm.exe 移除攔截器 [-Server:\<伺服器\>] [-Database:\<資料庫\>] [-活動：\<活動名稱\>] [-EventSource: \<的事件來源名稱\>]**  
   
  **參數**  
   
 |參數|Description|  
 |---------------|-----------------|  
-|伺服器：\<伺服器 >|選擇性： 要設定攔截器所在的伺服器名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。|  
-|資料庫：\<資料庫 >|選擇性： 要設定攔截器所在的資料庫名稱。|  
-|活動：\<活動名稱 >|選擇性： 指定要移除指定之攔截器的活動。 可以用於搭配**EventSource**參數，以進一步指定要傳回的組態。|  
-|EventSource:\<事件來源名稱 >|選擇性： 指定要移除指定之攔截器的事件來源。 可以用於搭配**活動**參數，以進一步指定要傳回的組態。|  
+|伺服器：\<伺服器\>|選擇性： 要設定攔截器所在的伺服器名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。|  
+|資料庫：\<資料庫\>|選擇性： 要設定攔截器所在的資料庫名稱。|  
+|活動：\<活動名稱\>|選擇性： 指定要移除指定之攔截器的活動。 可以用於搭配**EventSource**參數，以進一步指定要傳回的組態。|  
+|EventSource:\<事件來源名稱\>|選擇性： 指定要移除指定之攔截器的事件來源。 可以用於搭配**活動**參數，以進一步指定要傳回的組態。|  
   
  如果只有提供活動名稱，此命令會針對該活動的所有事件來源移除攔截器。  
   
@@ -143,5 +143,5 @@ bm.exe get-interceptor  -Activity:ShippingPO
 bm.exe remove-interceptor   
 ```  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [BAM 管理公用程式](../core/bam-management-utility.md)

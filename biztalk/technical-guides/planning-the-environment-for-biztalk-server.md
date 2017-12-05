@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 135d514b4272246a4c8b0c256670566795ae774d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 66cd358f3d8a4fbda2c4ed43432f1ad8b2f6979e
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="planning-the-environment-for-biztalk-server"></a>規劃 BizTalk Server 環境
 操作指南中的規劃 > 一節說明角色和責任聯[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境。 它包含規劃建議的應用程式和資料層[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境中，並可提供發行計劃建議的 BizTalk 解決方案的管理階段。  
@@ -39,11 +39,11 @@ ms.lasthandoff: 09/20/2017
 |**狀況**|**若要使用的產品**|  
 |------------------|------------------------|  
 |使用者佈建|**Microsoft Identity Lifecycle Manager 2010**<br /><br /> 如需 Microsoft Identity Lifecycle Manager 2010 的詳細資訊，請參閱[Microsoft Identity Lifecycle Manager 2010 FP1](http://go.microsoft.com/fwlink/?LinkId=204577) (http://go.microsoft.com/fwlink/?LinkId=204577)。|  
-|系統之間的資料複寫|**SQL Server 複寫**<br /><br /> 如需有關[!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)]複寫，請參閱[SQL Server 2008 R2 複寫](http://go.microsoft.com/fwlink/?LinkID=69978)(http://go.microsoft.com/fwlink/?LinkID=69978)。|  
-|資料擷取、 轉換及載入 (ETL)|**SQL Server Integration Services (SSIS)**<br /><br /> 如需有關[!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)]Integration Services，請參閱[SQL Server 2008 R2 Integration Services](http://go.microsoft.com/fwlink/?LinkId=152044) (http://go.microsoft.com/fwlink/?LinkId=152044)。|  
+|系統之間的資料複寫|**SQL Server 複寫**<br /><br /> 如需有關 SQL Server 複寫的詳細資訊，請參閱[SQL Server 2008 R2 複寫](http://go.microsoft.com/fwlink/?LinkID=69978)(http://go.microsoft.com/fwlink/?LinkID=69978)。|  
+|資料擷取、 轉換及載入 (ETL)|**SQL Server Integration Services (SSIS)**<br /><br /> 如需有關 SQL Server Integration Services 的詳細資訊，請參閱[SQL Server 2008 R2 Integration Services](http://go.microsoft.com/fwlink/?LinkId=152044) (http://go.microsoft.com/fwlink/?LinkId=152044)。|  
   
 ## <a name="deciding-which-edition-of-biztalk-server-is-right-for-the-job"></a>決定哪個版本的 BizTalk Server 作業的權限  
- 有四個不同版本的[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]，其中每個為目標的特定案例。 在四個版本的[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]包括：  
+ 有四個不同的版本的 BizTalk Server 中，其中每個為目標的特定案例。 BizTalk Server 的四個版本包括：  
   
 -   **企業**-與企業層級需求的高容量、 可靠性和可用性設計的客戶。  
   
@@ -51,11 +51,11 @@ ms.lasthandoff: 09/20/2017
   
 -   **分支**-特殊版本的[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]設計中樞和支點部署案例包括 RFID。  
   
--   **開發人員**-提供的所有企業版功能開發和測試用途，並可做為[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]Evaluation Edition 不花一毛錢供評估之用。 當安裝為評估版， [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 120 天將函式。  
+-   **開發人員**-提供的所有企業版功能開發和測試用途，並可做為 BizTalk Server 評估版，不花一毛錢供評估之用。 安裝成評估版，BizTalk Server 將運作 120 天。  
   
 -   **RFID 企業**-設計用來開發、 部署和管理豐富的 RFID 和感應器解決方案，包含 BizTalk RFID Server 與 BizTalk RFID Mobile 提供可擴充、 可延伸的平台。  
   
- 如需有關不同版本的[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]，請參閱[Microsoft BizTalk Server 版本](http://go.microsoft.com/fwlink/?LinkId=108051)(http://go.microsoft.com/fwlink/?LinkId=108051)。  
+ 如需 BizTalk Server 的不同版本的詳細資訊，請參閱[Microsoft BizTalk Server 版本](http://go.microsoft.com/fwlink/?LinkId=108051)(http://go.microsoft.com/fwlink/?LinkId=108051)。  
   
 ## <a name="planning-for-message-load"></a>規劃訊息負載  
  一旦您判斷出[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]符合您企業的整合需要您應該先判斷訊息負載的 BizTalk 方案將會預期要處理的下一個項目。 這是一個重要的決策，因為不同版本的[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]具有不同的向上延展及向外延展功能。  
@@ -73,4 +73,4 @@ ms.lasthandoff: 09/20/2017
   
 -   [規劃資料庫層](../technical-guides/planning-the-database-tier.md)  
   
--   [規劃開發、 測試、 預備及實際執行環境](../technical-guides/planning-the-development-testing-staging-and-production-environments.md)
+-   [規劃開發、測試、臨時和生產環境](../technical-guides/planning-the-development-testing-staging-and-production-environments.md)

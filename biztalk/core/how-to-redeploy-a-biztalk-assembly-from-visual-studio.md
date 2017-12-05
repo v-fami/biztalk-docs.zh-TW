@@ -12,16 +12,16 @@ caps.latest.revision: "41"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 361d2bccc783e7bfc7aa6cb0cd1f3eab51d8e640
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1357cb936c0b6f7f830bf1cc77f3d1670cf326aa
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-redeploy-a-biztalk-assembly-from-visual-studio"></a>如何從 Visual Studio 重新部署 BizTalk 組件
 在開發組件的程序中，您通常必須重複進行部署、測試、修改和重新部署。 在舊版的[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，如果您想要重新部署組件，而不變更版本號碼，您首先需要以手動方式停止、 取消登錄和解除繫結中的組件中所包含的成品[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]然後再移除的組件BizTalk 管理 （組態） 資料庫。 此外之後重新部署組件，, 您需要繫結、 登錄和啟動成品[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。  
   
- 與[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]，不過，當您啟用重新部署 選項[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]會自動將所有的步驟，重新部署您的組件。 雖然可從專案層級重新部署組件 (例如在 [方案總管] 中以滑鼠右鍵按一下專案，然後按一下 [部署])，重新部署個別組件，但強烈建議您一定要從解決方案層級部署組件 (例如以滑鼠右鍵按一下解決方案，然後按一下 [部署])。 這會立即重新部署解決方案中的所有組件，並在相依性存在時處理所有相關步驟 (稍後說明)。  
+ 使用 BizTalk Server 中，不過，當您啟用重新部署 選項[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]會自動將所有的步驟，重新部署您的組件。 雖然可從專案層級重新部署組件 (例如在 [方案總管] 中以滑鼠右鍵按一下專案，然後按一下 [部署])，重新部署個別組件，但強烈建議您一定要從解決方案層級部署組件 (例如以滑鼠右鍵按一下解決方案，然後按一下 [部署])。 這會立即重新部署解決方案中的所有組件，並在相依性存在時處理所有相關步驟 (稍後說明)。  
   
 > [!IMPORTANT]
 >  雖然在少數情況下您可能需要在專案層級重新部署，但通常一定是在解決方案層級重新部署。  
@@ -82,5 +82,5 @@ ms.lasthandoff: 09/20/2017
     |*SolnConfigName*|解決方案組態名稱，用來建置在 SolutionName 中命名的解決方案。|  
     |*SolutionName*|解決方案檔案的完整路徑和名稱。|  
   
-## <a name="see-also"></a>另請參閱  
- [部署 BizTalk 組件從 Visual Studio 到 BizTalk 應用程式](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md)
+## <a name="see-also"></a>請參閱  
+ [從 Visual Studio 將 BizTalk 組件部署到 BizTalk 應用程式](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md)

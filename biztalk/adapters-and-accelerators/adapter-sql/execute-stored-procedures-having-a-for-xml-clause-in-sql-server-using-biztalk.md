@@ -12,11 +12,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2e47c269516ba73ab1e61664d200db207110e98e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4c1b69c522f01f2561ea8145c11dec3e36b5cd4e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="execute-stored-procedures-having-a-for-xml-clause-in-sql-server-using-biztalk-server"></a>執行預存程序在使用 BizTalk Server 的 SQL Server 中具有 FOR XML 子句
 SQL SELECT 陳述式可以有傳回 XML 形式的查詢結果，而不是資料列集的 FOR XML 子句。 您也可以具有 FOR XML 子句的 SELECT 陳述式的預存程序。 [FOR XML (SQL Server)](https://msdn.microsoft.com/library/ms178107.aspx)更多詳細資訊。
@@ -86,7 +86,7 @@ FROM [Adapt_Doc].[dbo].[Employee] for xml auto, xmlschema
   
          因為您已加入至您的 BizTalk 專案 sqltypes.xsd 結構描述，您可以這麼做。  
   
-    4.  提供結構描述目標命名空間。 按一下**\<結構描述 >**  節點，並在 屬性 窗格中，指定的命名空間中**目標命名空間**屬性。 本主題中，為提供的命名空間為`http://ForXmlStoredProcs/namespace`。  
+    4.  提供結構描述目標命名空間。 按一下**\<結構描述\>**  節點，並在 屬性 窗格中，指定的命名空間中**目標命名空間**屬性。 本主題中，為提供的命名空間為`http://ForXmlStoredProcs/namespace`。  
   
 ## <a name="generating-schema-for-the-request-message-to-invoke-the-stored-procedure"></a>產生要叫用預存程序的要求訊息的結構描述  
  您可以使用要求訊息的結構描述產生[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]從 BizTalk 專案中[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]。 本主題中，產生 GET_EMP_DETAILS_FOR_XML 預存程序的結構描述。 如需有關如何產生結構描述使用[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]，請參閱[擷取中繼資料，使用 SQL 配接器的 Visual Studio 中的 SQL Server 作業的](../../adapters-and-accelerators/adapter-sql/get-metadata-for-sql-server-operations-in-visual-studio-using-the-sql-adapter.md)。  
@@ -227,9 +227,9 @@ FROM [Adapt_Doc].[dbo].[Employee] for xml auto, xmlschema
  協調流程取用訊息，並將它傳送到 SQL Server 資料庫。 從 SQL Server 資料庫的回應會儲存在其他的協調流程中定義的檔案位置。 比方說，是從先前的要求訊息的 SQL Server 資料庫的回應：  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <Root xmlns="http://ForXmlStoredProcs/namespace">  
-  \<Adapt_Doc.dbo.Employee Employee_ID="10765" Name="John" Designation="asdfaf" Salary="3434.00" Last_Modified="AAAAAAAANso=" Status="0" xmlns="" />  
+  <Adapt_Doc.dbo.Employee Employee_ID="10765" Name="John" Designation="asdfaf" Salary="3434.00" Last_Modified="AAAAAAAANso=" Status="0" xmlns="" />  
 </Root>  
 ```  
   
@@ -238,5 +238,5 @@ FROM [Adapt_Doc].[dbo].[Employee] for xml auto, xmlschema
 ## <a name="best-practices"></a>最佳作法  
  您部署和設定 BizTalk 專案之後，您可以為 XML 檔案，稱為繫結檔案匯出組態設定。 一旦產生繫結檔案時，可以組態設定匯入檔案，使您不需要建立項目，例如傳送埠和接收相同的協調流程連接埠。 如需繫結檔案的詳細資訊，請參閱[重複使用配接器繫結](../../adapters-and-accelerators/adapter-sql/reuse-sql-adapter-bindings.md)。  
   
-## <a name="see-also"></a>另請參閱  
-[開發 BizTalk 應用程式使用 SQL 配接器](../../adapters-and-accelerators/adapter-sql/develop-biztalk-applications-using-the-sql-adapter.md)
+## <a name="see-also"></a>請參閱  
+[使用 SQL 配接器開發 BizTalk 應用程式](../../adapters-and-accelerators/adapter-sql/develop-biztalk-applications-using-the-sql-adapter.md)

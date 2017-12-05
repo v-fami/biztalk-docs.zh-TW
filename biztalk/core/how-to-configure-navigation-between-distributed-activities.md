@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 88c0a1cf8d82ee5cd4e48e176b5b7f633101d8c8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4ab210f5ab728134b406b5c4bdaf25a1ec6db1c2
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-configure-navigation-between-distributed-activities"></a>如何設定分散式活動之間的導覽
 分散式導覽讓使用者得以檢視現存於遠端 BAM 部署中的活動。 啟用分散式導覽後，任一部電腦上 BAM 入口網站的使用者都可以檢視其他 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 部署中 BAM 入口網站上的活動。  
@@ -35,9 +35,9 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="how-to-set-up-distributed-navigation-for-remote-activities"></a>如何為遠端活動設定分散式導覽  
   
-1.  電腦 1 的系統管理員授與商務使用者存取電腦 1 上的 myBusinessView 檢視。 使用 bm.exe 命令，如下：**新增帳戶-AccountName:\<帳戶名稱 >-檢視：** myBusinessView  
+1.  電腦 1 的系統管理員授與商務使用者存取電腦 1 上的 myBusinessView 檢視。 使用 bm.exe 命令，如下：**新增帳戶-AccountName:\<帳戶名稱\>-檢視：** myBusinessView  
   
-2.  電腦 1 上的系統管理員，如下所示執行啟用參考命令，來啟用分散式的導覽： **bm.exe 啟用參考 TargetServer:** computer2 **-TargetDatabase:\<目標資料庫 >**  
+2.  電腦 1 上的系統管理員，如下所示執行啟用參考命令，來啟用分散式的導覽： **bm.exe 啟用參考 TargetServer:** computer2 **-TargetDatabase:\<目標資料庫\>**  
   
     > [!NOTE]
     >  一般來說，跨部門從不同的電腦存取 BAM Web 服務時所用的帳戶會各有不同。 因此，在此案例中電腦 1 的系統管理員必須加入 Web 服務模擬帳戶，電腦 1 的電腦 2 的 BAM 主要匯入資料庫的 BAM_ManagementWS 角色。 詳細資訊，請參閱 「 檢視和修改角色成員資格 >，網址[http://go.microsoft.com/fwlink/?LinkId=66990](http://go.microsoft.com/fwlink/?LinkId=66990)。  
@@ -53,6 +53,6 @@ ms.lasthandoff: 09/20/2017
 > [!NOTE]
 >  您可以雙向啟用分散式導覽。 若同時在共用遠端活動的兩部電腦上執行上述程序，則任一電腦之入口網站的商務使用者皆可使用分散式導覽。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理遠端活動的分散式的導覽](../core/managing-distributed-navigation-of-remote-activities.md)   
  [BAM 入口網站](../core/bam-portal.md)

@@ -21,11 +21,11 @@ caps.latest.revision: "16"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8ea715e92f7bfaa2f9d3baf3e82223f95328e3da
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b8361875cf34f14118fb93818c78a6ca7d12a86f
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="high-availability-and-the-microsoft-operations-framework"></a>高可用性與 Microsoft Operations Framework
 將 Microsoft Operations Framework (MOF) 處理序模型套用至高度可用的 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 方案之規劃與實作，可協助您確定在發行生命週期的不同階段具有適當的程序。 藉由觀察所有出現高可用性的生命週期階段，您可以讓環境中的安裝、維護和疑難排解可用性問題更為容易。  
@@ -59,7 +59,7 @@ ms.lasthandoff: 09/20/2017
   
 -   決定夥伴或客戶的服務等級協議，是否需要某個層級的可用性、執行時間以及載入處理能力。  
   
--   若您正從 [!INCLUDE[btsBizTalkServer2000](../includes/btsbiztalkserver2000-md.md)] 或 [!INCLUDE[btsBizTalkServer2002](../includes/btsbiztalkserver2002-md.md)] 升級至 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]，您必須判斷現有的硬體是否符合 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 的最低硬體需求以及服務等級協議的需求。  
+-   如果您要從升級[!INCLUDE[btsBizTalkServer2000](../includes/btsbiztalkserver2000-md.md)]或[!INCLUDE[btsBizTalkServer2002](../includes/btsbiztalkserver2002-md.md)]BizTalk Server 中，您必須判斷您現有的硬體是否符合 BizTalk Server 的最低硬體需求和服務等級協定的需求。  
   
 -   為您的企業需求決定 BizTalk Server 資料庫的最佳叢集組態。 執行階段程序會寫入 BizTalk 管理資料庫、MessageBox 資料庫、追蹤 Analysis Services 資料庫、BAM 分析資料庫、BAM 星狀結構描述資料庫、BAM 主要匯入資料庫以及 BAM 封存資料庫。 因此，若發生嚴重損毀，這些資料庫就顯得特別重要，而且在決定要叢集哪些資料庫時必須有較高的優先順序。 只有使用者或工具會寫入其他資料庫。 就 MessageBox 資料庫而言，您可以考慮主動/主動/主動/被動的四個伺服器叢集以便將所需的硬體減到最少。  
   
@@ -121,5 +121,5 @@ ms.lasthandoff: 09/20/2017
   
  在服務延續性功能期間，您必須檢查要實作的高可用性組態，以確保發生計劃或非計劃的停機時，您可以繼續提供客戶所需的服務。 非計劃的停機像是硬體失敗或自然行為。  
   
-## <a name="see-also"></a>另請參閱  
- [BizTalk Server 高可用性實例範例](../core/sample-biztalk-server-high-availability-scenarios.md)
+## <a name="see-also"></a>請參閱  
+ [BizTalk Server 高可用性案例範例](../core/sample-biztalk-server-high-availability-scenarios.md)

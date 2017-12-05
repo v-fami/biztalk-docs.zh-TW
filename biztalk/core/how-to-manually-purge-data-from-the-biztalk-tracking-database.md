@@ -16,11 +16,11 @@ caps.latest.revision: "22"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 75cc2fa6a7e4f6318818534f6b3f99323f1d8ddf
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cb8bf8d87f7868367c252cdc75842b234cb06ff9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-manually-purge-data-from-the-biztalk-tracking-database"></a>如何手動清除 BizTalk 追蹤資料庫的資料
 「DTA 封存和清除 SQL Server Agent 作業」工作可減少由於持續清除資料庫和壓縮儲存的追蹤資料，而必須從 BizTalk 追蹤 (BizTalkDTADb) 資料庫手動清除資料的需要。 若 BizTalk 追蹤 (BizTalkDTADb) 資料庫已大量成長，導致效能持續降低，且「DTA 封存和清除」工作無法跟上資料庫的成長時，就可能需要手動清除資料。  
@@ -103,11 +103,11 @@ ms.lasthandoff: 09/20/2017
   
 21. 在命令提示字元中，以重新啟動的每個您停止 IIS 服務步驟 4。 類型：  
   
-     **net start**  *\<IISserviceName >*  
+     **net start**  *\<IISserviceName\>*  
   
-     其中 *\<IISserviceName >*是您想要重新啟動 IIS 服務的名稱。 您必須為每個 IIS 服務重複此命令。  
+     其中 *\<IISserviceName\>* 是您想要重新啟動 IIS 服務的名稱。 您必須為每個 IIS 服務重複此命令。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [封存和清除 BizTalk 追蹤資料庫](../core/archiving-and-purging-the-biztalk-tracking-database.md)   
  [備份和還原 BizTalk Server 資料庫](../core/backing-up-and-restoring-biztalk-server-databases.md)   
  [如何啟動、 停止、 暫停、 繼續或重新啟動 BizTalk Server 服務](../core/how-to-start-stop-pause-resume-or-restart-biztalk-server-services.md)

@@ -15,11 +15,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9a7a5dc4aa7c3acca26705449108bb75541099c3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2525e0e87106e2eeb82fb05b52b3ec69d4be876d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-4-creating-the-headerhelper-project"></a>步驟 4： 建立 HeaderHelper 專案
 在此步驟中，您將建立 [!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)] 類別庫。 當私用程序協調流程接收到內送訊息時，HeaderHelper 類別庫會判斷是否需要轉換文件，並在需要轉換時，執行轉換。 這讓您的協調流程能夠搭配使用不同版本的 RosettaNet 實作架構 (RNIF) 文件。 此外，在傳送 3A2 回應訊息時，HeaderHelper 類別庫會在傳送訊息前執行其他的文件轉換。  
@@ -112,7 +112,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  在右窗格中，按一下 **簽署組件**。  
   
-4.  按一下**選擇強式名稱金鑰檔**文字方塊中，然後選取**\<瀏覽 >**從下拉式清單。  
+4.  按一下**選擇強式名稱金鑰檔**文字方塊中，然後選取**\<瀏覽\>**從下拉式清單。  
   
 5.  在 [選取檔案] 對話方塊中，移至 Contoso 組件的位置，然後按兩下**FabConPriceAvail.snk**。  
   
@@ -138,5 +138,5 @@ ms.lasthandoff: 09/20/2017
   
 4.  在命令提示字元中，輸入**gacutil /if HeaderHelper.dll**按**Enter**安裝**HeaderHelper**組件**全域組件快取**.  
   
-## <a name="see-also"></a>另請參閱  
- [步驟 5： 修改 Contoso 私用程序協調流程](../../adapters-and-accelerators/accelerator-rosettanet/step-5-modifying-the-contoso-private-process-orchestration.md)
+## <a name="see-also"></a>請參閱  
+ [步驟 5：修改 Contoso 私用程序協調流程](../../adapters-and-accelerators/accelerator-rosettanet/step-5-modifying-the-contoso-private-process-orchestration.md)

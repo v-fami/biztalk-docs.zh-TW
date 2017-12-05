@@ -32,11 +32,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f89959b1900ce03717f2bb28efda7651c5008e7c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a78dabdaefc430fe88e0a5e39d533ee34f0d3db1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="using-an-infopath-form-to-repair-a-message-or-submit-a-new-message"></a>若要修復的訊息或提交新訊息使用 InfoPath 表單
 若要修復、 驗證、 核准，或建立一則訊息，您在工作[!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]從開啟的表單[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]MRSR 網站。 MRSR 站台包含[!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]表單對於各種訊息類型和[!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]表單未剖析的訊息。 Message Repair 和 New Submission 會需要修復、 驗證或核准訊息傳送至適當的 MRSR 文件庫，而您可以開啟它。  
@@ -53,7 +53,7 @@ ms.lasthandoff: 09/20/2017
  若要執行 MRSR 站台中的訊息上的作業，您必須部署該訊息類型的 InfoPath 表單。 這會載入到範本文件庫訊息所需的 InfoPath 表單。  
   
 ## <a name="verifying-a-message"></a>確認訊息  
- 修復工作流程可以包含驗證階段。 在這個階段，repairer 已經修復訊息時之後, 驗證器會驗證訊息中的修復正確無誤。 若要這樣做，請您開啟中的訊息[!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]形成從\<部門名稱 > _RekeyVerify 文件庫 MRSR 站台，並確認修復對訊息進行正確無誤。 您也必須使用需要重設金鑰之特定欄位中重新鍵入資料。 所有的驗證階段需要重設金鑰，雖然您可以自訂哪些欄位 （如果有的話） 必須 rekeyed。 如需重設金鑰驗證的詳細資訊，請參閱[Message Repair 和 New Submission 中的特殊處理](../../adapters-and-accelerators/accelerator-swift/special-processing-in-message-repair-and-new-submission.md)。  
+ 修復工作流程可以包含驗證階段。 在這個階段，repairer 已經修復訊息時之後, 驗證器會驗證訊息中的修復正確無誤。 若要這樣做，請您開啟中的訊息[!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]形成從\<部門名稱\>_RekeyVerify 文件庫 MRSR 站台，並確認修復對訊息進行正確無誤。 您也必須使用需要重設金鑰之特定欄位中重新鍵入資料。 所有的驗證階段需要重設金鑰，雖然您可以自訂哪些欄位 （如果有的話） 必須 rekeyed。 如需重設金鑰驗證的詳細資訊，請參閱[Message Repair 和 New Submission 中的特殊處理](../../adapters-and-accelerators/accelerator-swift/special-processing-in-message-repair-and-new-submission.md)。  
   
  所有可能的階段組成工作流程包含一個或多個驗證階段。 不過，工作流程不需要包含驗證階段。  
   

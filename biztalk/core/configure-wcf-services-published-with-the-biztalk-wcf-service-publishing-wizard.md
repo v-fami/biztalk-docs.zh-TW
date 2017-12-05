@@ -17,11 +17,11 @@ caps.latest.revision: "26"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ca265c240f0e20534c5140d0810479152ad90914
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 19383ca97f979d6932698d06eabd507b4a00954f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-configure-wcf-services-published-with-the-biztalk-wcf-service-publishing-wizard"></a>如何用 BizTalk WCF 服務發佈精靈來設定已發佈 WCF 服務。
 在使用 [BizTalk WCF 服務發佈精靈] 發佈 WCF 服務之後，您還必須適當設定這些服務。 本主題會說明如何設定已發佈的 WCF 服務。  
@@ -73,7 +73,7 @@ ms.lasthandoff: 09/20/2017
   
 12. 開啟命令提示字元，請移至 BizTalk Server WCF 服務發佈精靈建立 WCF 服務中 %SystemDrive%\InetPub 資料夾\\，然後開啟 Web.config 檔案，使用 [記事本]。  
   
-13. 在記事本中，加入下列一行 **\<system.web >**項目：  
+13. 在記事本中，加入下列一行 **\<system.web\>** 項目：  
   
     ```  
     <trust level="Full" originUrl="" />  
@@ -94,13 +94,13 @@ ms.lasthandoff: 09/20/2017
   
     1.  在 記事本 開啟 BizTalk Server WCF 服務發佈精靈建立 WCF 服務中 %SystemDrive%\InetPub 資料夾中的 Web.config\\。  
   
-    2.  在 [記事本]，設定**httpGetEnabled**屬性 **\<serviceMetadata >**為 false，如下列的行項目：  
+    2.  在 [記事本]，設定**httpGetEnabled**屬性 **\<serviceMetadata\>** 為 false，如下列的行項目：  
   
         ```  
         <serviceMetadata httpGetEnabled="false" httpsGetEnabled="false" />  
         ```  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [設定 Wcf-basichttp 配接器](http://msdn.microsoft.com/library/5929a338-46e0-4fc4-8837-792d7f7ae0fe)   
  [設定 Wcf-wshttp 配接器](../core/configuring-the-wcf-wshttp-adapter.md)   
  [設定 Wcf-customisolated 配接器](../core/configuring-the-wcf-customisolated-adapter.md)   

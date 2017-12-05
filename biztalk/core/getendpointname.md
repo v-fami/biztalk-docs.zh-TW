@@ -12,11 +12,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1567f0b4bceb756381c4033f3243ac7a58fda366
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e7e7a310c222cead89efd23e3f8202ade9eb47ab
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="getendpointname"></a>GetEndpointName
 將目前攔截端點的名稱推至堆疊上。  
@@ -39,9 +39,9 @@ ms.lasthandoff: 09/20/2017
   
  在用戶端應用程式方面，GetEndPointName 作業擷取的端點名稱是後面接著底線和合約名稱的繫結名稱。  
   
- 例如，如果 ServiceEndpoint 上的 [名稱] 屬性未設定，但有設定繫結，名稱會設定為\<*繫結*> _\<*合約*>。  
+ 例如，如果 ServiceEndpoint 上的 [名稱] 屬性未設定，但有設定繫結，名稱會設定為\<*繫結*\>_\<*合約*\>.  
   
- 如果未設定的名稱和繫結，將 [名稱] 屬性設定為\<*合約*>。  
+ 如果未設定的名稱和繫結，將 [名稱] 屬性設定為\<*合約*\>。  
   
  在服務方面，擷取到的名稱會是指定於 App.config 檔案中的端點名稱。  
   
@@ -82,5 +82,5 @@ ms.lasthandoff: 09/20/2017
 </ic:Filter>  
 ```  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [Windows Communication Foundation 中的作業](../core/operations-in-windows-communication-foundation.md)

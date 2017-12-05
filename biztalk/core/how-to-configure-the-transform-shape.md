@@ -15,11 +15,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 48cdca50620262581469e924fbb2975dde7e91fe
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8da12d090ae0c14f30defc1d65850c609b964704
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-configure-the-transform-shape"></a>如何設定轉換圖形
 ![](../core/media/ebiz-orch-transform.gif "ebiz_orch_transform")  
@@ -49,9 +49,9 @@ ms.lasthandoff: 09/20/2017
 ### <a name="newexisting-map-file"></a>新的/現有的對應檔案？  
  在本節中，您可以按一下 **新對應**或**現有對應**選項按鈕，選取要指派給對應**轉換**圖形。  
   
- 使用**名稱**欄位下方選取的選項按鈕，以指定對應。 如果您選取**新對應**，您可以輸入您想要指派的對應的目的地。 當您使用**新對應**選項，您必須在文字方塊中指定對應的完整的名稱。 在文字方塊中預設會顯示這類名稱的範例，因為它是根據專案命名空間的唯一識別項名稱預先填入和**轉換**圖形名稱：\<專案命名空間 >。\<轉換圖形名稱 > _ m a p (例如 MyProject.Transform3_Map)。  
+ 使用**名稱**欄位下方選取的選項按鈕，以指定對應。 如果您選取**新對應**，您可以輸入您想要指派的對應的目的地。 當您使用**新對應**選項，您必須在文字方塊中指定對應的完整的名稱。 在文字方塊中預設會顯示這類名稱的範例，因為它是根據專案命名空間的唯一識別項名稱預先填入和**轉換**圖形名稱：\<專案命名空間\>。\<轉換圖形名稱\>_ m a p (例如 MyProject.Transform3_Map)。  
   
- 如果您選取**現有對應**，按一下向下的箭號，在**名稱**欄位來選取要使用的對應檔。 這個清單方塊會依字母順序顯示專案中所有現有對應的排序清單。 在此清單中，如果您按一下文字\<從參考組件選取 >，則**選取成品類型**對話方塊隨即出現。 多個可用選項的相關資訊，請參閱[如何使用選取成品類型對話方塊](../core/how-to-use-the-select-artifact-type-dialog-box.md)。  
+ 如果您選取**現有對應**，按一下向下的箭號，在**名稱**欄位來選取要使用的對應檔。 這個清單方塊會依字母順序顯示專案中所有現有對應的排序清單。 在此清單中，如果您按一下文字\<從參考組件選取\>、**選取成品類型**對話方塊隨即出現。 多個可用選項的相關資訊，請參閱[如何使用選取成品類型對話方塊](../core/how-to-use-the-select-artifact-type-dialog-box.md)。  
   
 ### <a name="select-source-and-destination-messages"></a>選取來源訊息和目的訊息  
  使用此部分**轉換組態**對話方塊來設定您在選取的對應**新的/現有對應檔案？** > 一節。 如果您選取**新對應**在該區段中，您會建立對應藉由設定這一節。  
@@ -71,7 +71,7 @@ ms.lasthandoff: 09/20/2017
 ### <a name="when-i-click-ok-launch-the-biztalk-mapper"></a>當我按 [確定] 時，啟動 BizTalk 對應工具  
  按一下**當我按 [確定] 時，啟動 BizTalk 對應工具**會自動開啟 BizTalk 對應工具，當您按一下**確定**關閉**轉換組態**對話方塊並儲存您的變更。 但是，如果沒有填寫必要的資訊，您便無法儲存變更。 在此情況下，完成填寫對話方塊中的欄位，然後按一下 **確定**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [關於對應](../core/about-maps.md)   
  [建構訊息](../core/constructing-messages.md)   
  [如何使用運算式動態地轉換訊息](../core/how-to-use-expressions-to-dynamic-transform-messages.md)

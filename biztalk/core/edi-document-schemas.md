@@ -12,11 +12,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: db79e5e4421719a936f68c409c166f9eac38605c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2b96089f7f76af1183f457202bb2e22b5be7f146
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="edi-document-schemas"></a>EDI 文件結構描述
 文件結構描述定義了 EDI 交易文件類型的內文。  
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/20/2017
 -   對於 EDIFACT –`http://schemas.microsoft.com/BizTalk/EDI/EDIFACT/2006`  
   
 ## <a name="schema-naming-convention"></a>結構描述命名慣例  
- X12 和 EDIFACT 編碼類型的命名慣例是\<編碼方式 > _\<版本 >\<版本 >\_\<Doctype >。 例如，用於 X12 864 文件類型 (版本 004、版次 01) 的 X12_00401_864.xsd 結構描述，以及用於 EDIFACT AUTHOR 文件類型 (版本 D01、版次 C) 的 EDIFACT_D01C_AUTHOR.xsd 結構描述。  
+ X12 和 EDIFACT 編碼類型的命名慣例是\<編碼\>_\<版本\>\<發行\>\_\<Doctype\>。 例如，用於 X12 864 文件類型 (版本 004、版次 01) 的 X12_00401_864.xsd 結構描述，以及用於 EDIFACT AUTHOR 文件類型 (版本 D01、版次 C) 的 EDIFACT_D01C_AUTHOR.xsd 結構描述。  
   
 > [!NOTE]
 >  EDIFACT 結構描述的結構描述名稱是區分大小寫的。 例如，EFACT_D98B_ORDERS 和 EFACT_d98B_Orders 是兩個不同的結構描述。  
@@ -45,6 +45,6 @@ ms.lasthandoff: 09/20/2017
   
  如果在訊息類型中有迴圈，結構描述便會定義各個迴圈內的資料元素、迴圈的最少與最多發生次數，以及迴圈屬於已繫結或未繫結狀態。 結構描述也會定義區段的巢狀方式，以及迴圈屬於明確或是隱含狀態。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [EDI 訊息結構](../core/edi-message-structure.md)   
  [EDI 訊息驗證](../core/edi-message-validation.md)

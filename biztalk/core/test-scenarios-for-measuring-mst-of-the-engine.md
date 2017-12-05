@@ -7,22 +7,16 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- sustainable load test
-- maximum sustainable throughput (MST), testing
-- LoadGen tool
-- LoadGen tool, downloading
-- testing, engine maximum sustainable throughput
 ms.assetid: e54667b9-7262-43c8-a013-9242eb062daf
 caps.latest.revision: "28"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: df522748a2d4522e691fb4f579c3fdd26c788e4f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: dd5b9a2697cb96bb2d042b9fee6a15317f35971c
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="test-scenarios-for-measuring-mst-of-the-engine"></a>測量引擎 MST 的測試實例
 本節描述一個測試實例，實作此實例以測量在三個不同負載層級驅動 BizTalk 系統的效果：  
@@ -59,7 +53,7 @@ ms.lasthandoff: 09/20/2017
  測試實例非常簡單。 負載產生工具 LoadGen 2007 是安裝在負載驅動程式伺服器上，可用來將檔案複本傳送到檔案配接器所監控的共用。 負載生產工具會將輸入檔案執行個體的複本，平均分散到各個檔案共用。  
   
 > [!NOTE]
->  LoadGen 2007 工具是下載[http://go.microsoft.com/fwlink/?LinkId=59841](http://go.microsoft.com/fwlink/?LinkId=59841)。 此工具的舊版，BizTalk Server 2004 負載產生工具是下載[http://go.microsoft.com/fwlink/?linkid=108999](http://go.microsoft.com/fwlink/?linkid=108999)。 如需有關使用 LoadGen 搭配 MSMQ 配接器的資訊，請參閱[搭配 MSMQ 使用 LoadGen 2007](../core/using-loadgen-2007-with-msmq.md)。  
+>  下載[LoadGen](https://www.microsoft.com/download/details.aspx?id=14925)。 此工具的舊版，BizTalk Server 2004 負載產生工具是下載[http://go.microsoft.com/fwlink/?linkid=108999](http://go.microsoft.com/fwlink/?linkid=108999)。 如需有關使用 LoadGen 搭配 MSMQ 配接器的資訊，請參閱[搭配 MSMQ 使用 LoadGen 2007](../core/using-loadgen-2007-with-msmq.md)。  
   
  BizTalk 檔案配接器是設定來監控檔案共用，並將訊息發佈至 MessageBox。 只包含接收圖形與傳送圖型的簡單型協調流程會訂閱已發佈的訊息。 由協調流程發佈回 MessageBox 的訊息會被檔案傳送埠所拾取，並傳送到 SAN 中所定義的一般共用。 抵達輸出 SAN 共用的檔案會立即刪除，以防止長期測試執行期間在該共用上建置檔案。  
   
@@ -101,10 +95,8 @@ ms.lasthandoff: 09/20/2017
 > [!NOTE]
 >  若您無法產生足夠的負載，讓多工緩衝處理表可以無限地成長，這只是表示系統最慢的部分是在接收端，而非處理/傳送端。  
   
-> [!NOTE]
->  SQL Server 2000 是用於可承受負載測試與「加速」負載測試，SQL Server 2005 則是用於大量負載測試。  
-  
-## <a name="in-this-section"></a>本節內容  
+
+## <a name="next"></a>下一個
   
 -   [使用 Microsoft BizTalk LoadGen 2007 工具](../core/using-the-microsoft-biztalk-loadgen-2007-tool.md)  
   

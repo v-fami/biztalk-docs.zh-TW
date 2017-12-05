@@ -12,16 +12,16 @@ caps.latest.revision: "24"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2a09ff5969cc0c47da6a9e885118e227cc27c4ac
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 83bbeec3430f479d28502e818b9ead402278f9b1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="read-the-installation-and-configuration-known-issues"></a>讀取的安裝和設定的已知問題
   
 ## <a name="installing-over-terminal-server-creates-log-files-in-a-different-folder"></a>透過終端機伺服器安裝在不同的資料夾會建立記錄檔  
- 當您安裝 A4SWIFT 透過終端機伺服器連線時，A4SWIFT 安裝程式會建立的安裝和組態記錄檔中*\<磁碟機 >*: \Documents and 設定\\ *\<使用者名稱 >*\Local Settings 資料夾。 一般來說，安裝程式會建立這些檔案中的*\<磁碟機 >*: \Documents and 設定\\*\<使用者名稱 >*\Local Settings\temp 資料夾。 您可以檢閱這些記錄檔，以確保您的電腦可以設定並正確設定。  
+ 當您安裝 A4SWIFT 透過終端機伺服器連線時，A4SWIFT 安裝程式會建立的安裝和組態記錄檔中*\<磁碟機\>*: \Documents and 設定\\*\<使用者名\>*\Local Settings 資料夾。 一般來說，安裝程式會建立這些檔案中的*\<磁碟機\>*: \Documents and 設定\\*\<使用者名\>*\Local設定資料夾。 您可以檢閱這些記錄檔，以確保您的電腦可以設定並正確設定。  
   
 ## <a name="silent-installation-is-not-recommended"></a>不建議使用無訊息安裝  
  無訊息安裝 A4SWIFT 安裝程式，支援，但不是建議使用複雜的所需的其他組態步驟。  
@@ -41,7 +41,7 @@ ms.lasthandoff: 09/20/2017
  A4SWIFT 資料庫將會顯示在**Web 元件 Message Repair 和 New Submission**窗格的 [A4SWIFT 組態] 對話方塊，即使該資料庫不存在。 警告將會顯示 A4SWIFT 資料中的資料庫會儲存窗格中，但警告會防止繼續設定程序。  
   
 ## <a name="upgrade-process-does-not-create-a-new-root-folder"></a>升級程序不會建立新的根資料夾  
- 升級程序更新現有的 A4SWIFT 檔案*\<磁碟機 >*: \Program Files\Microsoft BizTalk Accelerator for A4SWIFT 2.3/3.0 資料夾。 不會建立新的資料夾，針對升級的檔案，也不會改變現有的資料夾名稱*\<磁碟機 >*: \Program Files\Microsoft BizTalk Accelerator for SWIFT。  
+ 升級程序更新現有的 A4SWIFT 檔案*\<磁碟機\>*: \Program Files\Microsoft BizTalk Accelerator for A4SWIFT 2.3/3.0 資料夾。 不會建立新的資料夾，針對升級的檔案，也不會改變現有的資料夾名稱*\<磁碟機\>*: \Program Files\Microsoft BizTalk Accelerator for SWIFT。  
   
 ## <a name="canceling-setup-during-an-upgrade-for-a4swift-may-leave-your-system-in-an-unknown-state"></a>取消安裝程式在升級期間，如 A4SWIFT 可能會使您的系統處於不明狀態  
  在某些情況下，按一下**取消**按鈕，在升級期間可能會保留檔案、 組件、 BizTalk Server 成品和登錄機碼之後，安裝程式已完成其復原。  
@@ -49,7 +49,7 @@ ms.lasthandoff: 09/20/2017
  您可以順利地以手動方式移除所有項目。  
   
 ## <a name="download-the-a4swift-setup-exe-file-from-the-web-into-a-temp-folder"></a>從 Web 下載 A4SWIFT 安裝 exe 檔案至暫存資料夾  
- 如果您要安裝 A4SWIFT 自我解壓縮的可執行檔，您從 Web 下載，請務必下載該檔案至暫存資料夾。 不要下載檔案放在 BizTalk 伺服器根資料夾 (BizTalk Server \Program Files\Microsoft \<*版本*>)。  
+ 如果您要安裝 A4SWIFT 自我解壓縮的可執行檔，您從 Web 下載，請務必下載該檔案至暫存資料夾。 不要下載檔案放在 BizTalk 伺服器根資料夾 (BizTalk Server \Program Files\Microsoft \<*版本*\>)。  
   
  如果您在 BizTalk 伺服器根資料夾中執行 exe 檔案，它會執行 BizTalk Server 安裝精靈中，不是 A4SWIFT 安裝精靈。  
   
@@ -85,5 +85,5 @@ ms.lasthandoff: 09/20/2017
   
  若要解決此問題，請使用標準**商務規則引擎部署精靈**。 UI 的詳細資料[!INCLUDE[ui-guidance-developers-reference](../../includes/ui-guidance-developers-reference.md)]。
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [已知問題](../../adapters-and-accelerators/accelerator-swift/known-issues5.md)

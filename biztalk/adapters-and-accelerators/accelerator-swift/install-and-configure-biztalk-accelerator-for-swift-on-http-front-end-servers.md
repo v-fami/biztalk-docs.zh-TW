@@ -15,11 +15,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fe0a320f9f60f72975faf903c1355b8730840b26
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f8a63277ec58981f5f0f904aabe61957de66df08
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="installing-and-configuring-biztalk-accelerator-for-swift-on-http-front-end-servers"></a>安裝和設定 BizTalk Accelerator for SWIFT HTTP 前端伺服器上
 本章節描述如何安裝及設定[!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]HTTP 前端伺服器上。 這些伺服器主要用於通訊的 SWIFT 網路。  
@@ -33,4 +33,4 @@ ms.lasthandoff: 09/20/2017
   
 2.  在 Microsoft[!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)]組態主控台中，設定**MCRR**和**WebService**。  
   
-3.  組態精靈的 網頁伺服器上完成後，請在資料夾中開啟 web.config 檔案\<*磁碟機*>: \Program Files\Microsoft [!INCLUDE[btaA4SWIFTNoVersion](../../includes/btaa4swiftnoversion-md.md)]\Service\ [記事本] 中的。 搜尋 「 授權 」。 在**授權**區段中，將角色值設定為 A4SWIFT users 群組的名稱。
+3.  組態精靈的 網頁伺服器上完成後，請在資料夾中開啟 web.config 檔案\<*磁碟機*\>: \Program Files\Microsoft [!INCLUDE[btaA4SWIFTNoVersion](../../includes/btaa4swiftnoversion-md.md)]\Service\ [記事本] 中的。 搜尋 「 授權 」。 在**授權**區段中，將角色值設定為 A4SWIFT users 群組的名稱。

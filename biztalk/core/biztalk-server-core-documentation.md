@@ -1,24 +1,22 @@
 ---
 title: "BizTalk Server 核心文件 |Microsoft 文件"
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 11/30/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-f1_keywords: bts10.default
-helpviewer_keywords: BizTalk Server Help
 ms.assetid: cadd3bdd-f13b-427d-8979-b2541aa5e21d
 caps.latest.revision: "48"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 81a742187f762047d9ab43e108e26784d24c0c33
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7abfed788cfdd343397957d154dee104f310cbeb
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="biztalk-server-core-documentation"></a>BizTalk Server 核心文件
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]核心文件包含各種資源，幫助您了解如何開發、 部署、 管理和使用[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。  
@@ -31,13 +29,13 @@ ms.lasthandoff: 09/20/2017
   
 [一般工作與逐步解說](http://msdn.microsoft.com/library/cd02757d-48c6-4ba4-b72d-02acd0b1eff1)和[教學課程](http://msdn.microsoft.com/library/1e404aca-6e25-4189-a0cc-5e9b95194b81)也會開始的好方法。
 
-## <a name="get-new-features-in-the-feature-pack"></a>取得功能套件中的新功能 
+## <a name="feature-pack"></a>Feature Pack 
 **[設定此功能套件](../core/configure-the-feature-pack.md)**列出不同功能組件，包括使用的追蹤資料、 自動部署使用 Visual Studio Team Services，以及更多精采的 Application Insights 和 Power BI 中可用的更新。 
   
 ## <a name="plan-and-architect-your-applications"></a>規劃和設計應用程式架構
 **[規劃與架構](../core/plan-and-architect-your-biztalk-server-solution.md)**涵蓋架構、 效能和容量、 高可用性，以及安全性。 也閱讀並了解設計、 建置、 執行兩個完整模型[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]方案： 服務導向解決方案和商務程序管理解決方案。
 
-## <a name="learn-and-implement-business-to-business-messaging"></a>深入了解和實作企業對企業傳訊
+## <a name="business-to-business-messaging"></a>企業對企業傳訊
 **[B2B 傳訊](../core/trading-partner-management-using-biztalk-server.md)**描述建置組塊 B2B 解決方案中，如何 EDI 和 AS2 中實作，並包含逐步解說和教學課程，自行執行此工作。 您也可以使用通知，更深入批次處理、 監視您的方案。 
 
 ## <a name="secure-and-protect-your-data"></a>保全及保護您的資料

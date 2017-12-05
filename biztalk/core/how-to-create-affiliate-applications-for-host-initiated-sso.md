@@ -16,11 +16,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 23525d3b2f72d59e2b0f44257c707f22e6bc2bab
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ce8a5cf43cd1d6e455492a74985edb91f2cb0a94
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-create-affiliate-applications-for-host-initiated-sso"></a>如何建立分支機構應用程式主控件初始化的 SSO
 您可以定義兩種類型的應用程式：  
@@ -45,9 +45,9 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**執行**] 對話方塊中，輸入**cmd**，然後按一下 [**確定**。  
   
-3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機 >: \Program Files\Common Files\Enterprise Single Sign-on。  
+3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-4.  型別**ssomanage – createapps \<AffApp.xml >**，其中 AffApp.xml 是 xml 檔案的名稱。  
+4.  型別**ssomanage – createapps \<AffApp.xml\>**，其中 AffApp.xml 是 xml 檔案的名稱。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
@@ -76,9 +76,9 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**執行**] 對話方塊中，輸入**cmd**，然後按一下 [**確定**。  
   
-3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機 >: \Program Files\Common Files\Enterprise Single Sign-on。  
+3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-4.  型別**ssomanage – createapps \<AffApp.xml >**，其中 AffApp.xml 是 xml 檔案的名稱。  
+4.  型別**ssomanage – createapps \<AffApp.xml\>**，其中 AffApp.xml 是 xml 檔案的名稱。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
@@ -107,9 +107,9 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**執行**] 對話方塊中，輸入**cmd**，然後按一下 [**確定**。  
   
-3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機 >: \Program Files\Common Files\Enterprise Single Sign-on。  
+3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-4.  型別**ssomanage – createapps \<AffApp.xml >**，其中 AffApp.xml 是 xml 檔案的名稱。  
+4.  型別**ssomanage – createapps \<AffApp.xml\>**，其中 AffApp.xml 是 xml 檔案的名稱。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
@@ -132,5 +132,5 @@ ms.lasthandoff: 09/20/2017
   
     ```  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [主控件初始化的 SSO](../core/host-initiated-sso.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b68a924fba60d4f0162e80dde0ab06b515765558
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 63a719299ef6678b9fd38a936d84ba9b1f57a85b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="database-functoids"></a>資料庫運算質
 **資料庫**運算質擷取輸出執行個體訊息中使用的資料庫中的資料。 
@@ -75,7 +75,7 @@ ms.lasthandoff: 09/20/2017
   
  在圖中，來源結構描述代表內送訂單，而目的結構描述代表進階交貨通知。 **資料庫尋查**運算質會尋找適當的記錄，從適當的資料庫資料表。 **值擷取程式 」**運算質從尋查記錄擷取適當的資料行。 **錯誤傳回**運算質在執行階段會輸出包含錯誤資訊，如果發生錯誤 （例如連接失敗） 的字串。  
   
- 在上述範例中，第一個輸入的參數取自**StoreID**欄位的內送訂單，及剩餘三個輸入的參數是設定中的常數**設定\<運算質 > 運算質**對話方塊的 **資料庫尋查**運算質。 也可以從來源結構描述建立連結，為所有四個輸入參數提供值。  
+ 在上述範例中，第一個輸入的參數取自**StoreID**欄位的內送訂單，及剩餘三個輸入的參數是設定中的常數**設定\<運算質\>運算質**對話方塊的 **資料庫尋查**運算質。 也可以從來源結構描述建立連結，為所有四個輸入參數提供值。  
   
 > [!NOTE]
 >  * 您無法使用某些 Microsoft SQL Server 資料類型，例如**文字**， **ntext**，和**映像**，查詢值當做**資料庫尋查**運算質。 運算質需要可用文字字串表示的資料型別。  
@@ -100,6 +100,6 @@ ms.lasthandoff: 09/20/2017
 
 如需有關這些 functiods 的詳細資訊，請參閱**運算質參考** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。
 
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 -  [如何新增基本運算質至對應](../core/how-to-add-basic-functoids-to-a-map.md)   
 -  **資料庫運算質參考**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

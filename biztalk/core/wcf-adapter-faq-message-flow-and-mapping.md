@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e58b11cff00d4b235a5c14e75663fdf7e581f782
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 58909b0d0cb0a126dd84e21809ca8e8f3941d758
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="wcf-adapter-faq-message-flow-and-mapping"></a>WCF 配接器 FAQ： 訊息流程和對應
 ## <a name="what-is-the-message-flow-within-the-wcf-and-biztalk-systems"></a>何謂 WCF 和 BizTalk 系統內的訊息流程  
@@ -86,9 +86,9 @@ ms.lasthandoff: 09/20/2017
   
  WCF 訊息必須包含下列訊息屬性，WCF 配接器才能將 SOAP 標頭值寫入或升級至 BizTalk 訊息內容：  
   
--   若要升級至 BizTalk 訊息內容的 SOAP 標頭值，WCF 配接器會尋找的索引鍵配對**http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties/Promote**和值**清單 <KeyValuePair\<XmlQualifiedName，物件 >>**。 使用此配對，WCF 配接器需要命名空間、 名稱和值從**XmlQualifiedName**物件，並使用它們來升級標頭值。  
+-   若要升級至 BizTalk 訊息內容的 SOAP 標頭值，WCF 配接器會尋找的索引鍵配對**http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties/Promote**和值**清單 <KeyValuePair\<XmlQualifiedName，物件\>>**。 使用此配對，WCF 配接器需要命名空間、 名稱和值從**XmlQualifiedName**物件，並使用它們來升級標頭值。  
   
--   若要撰寫，但不要升級，SOAP 標頭值到 BizTalk 訊息內容中，WCF 配接器會尋找的索引鍵配對**http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties/WriteToContext**和值**清單 < KeyValuePair\<XmlQualifiedName，物件 >>。** 使用此配對，WCF 配接器便可將值寫入訊息內容。  
+-   若要撰寫，但不要升級，SOAP 標頭值到 BizTalk 訊息內容中，WCF 配接器會尋找的索引鍵配對**http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties/WriteToContext**和值**清單 < KeyValuePair\<XmlQualifiedName，物件\>>。** 使用此配對，WCF 配接器便可將值寫入訊息內容。  
   
 > [!NOTE]
 >  升級的屬性也必須指定 BizTalk 屬性結構描述中才能被接受，BizTalk 執行階段。  

@@ -12,17 +12,17 @@ caps.latest.revision: "33"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4b529a0510ee56a92d3957a84a91d635666016f1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1b35585d4e3b3ed90df983c8a18f6833ce8aa6bf
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="bam-tasks-for-administrators"></a>系統管理員的 BAM 工作
 這個主題說明 BAM 系統管理員在管理 BAM 基礎結構時從事的一般工作。  
   
 ## <a name="configuring-bam"></a>設定 BAM  
- BAM 的初始組態是使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 組態精靈來完成。 使用組態精靈，系統管理員可以：  
+ BAM 的初始組態是使用 BizTalk Server 組態精靈。 使用組態精靈，系統管理員可以：  
   
 -   啟用商務活動監控工具  
   
@@ -52,25 +52,28 @@ ms.lasthandoff: 09/20/2017
   
  如需有關使用組態精靈的詳細資訊，請參閱下列主題：  
   
--   [使用 BizTalk Server 組態設定 BAM 警示](http://msdn.microsoft.com/library/04d79f8c-9e7f-4ba8-83ce-f79c33fb8e60)  
+-   [設定 BAM 警示](../install-and-config-guides/configure-biztalk-server.md)  
   
--   [使用 BizTalk Server 組態設定 BAM 工具](http://msdn.microsoft.com/library/075a1627-5bc2-488c-a88c-42c86cc8c3bb)  
+-   [設定 BAM 工具](../install-and-config-guides/configure-biztalk-server.md)  
   
--   [設定 BAM 入口網站使用 BizTalk Server 組態](http://msdn.microsoft.com/library/8af7cccb-823e-48bd-9743-dfbba4bafa11)  
+-   [設定 BAM 入口網站](../install-and-config-guides/configure-biztalk-server.md)  
   
-### <a name="distributed-notification-services"></a>分散式 Notification Services  
- 將 BAM 設定在分散式環境中執行，可以在處理警示和通知時提供效能上的好處。 當您這麼做時，Notification Services 的「提供者」、「產生器」和「散發者」角色會分散在不同的電腦上，因此必須在多部電腦環境中安裝 Notification Services。  
+### <a name="distributed-notification-services---sql-server-2008-r2-only"></a>分散式的 Notification Services-僅限 SQL Server 2008 R2
+將 BAM 設定在分散式環境中執行，可以在處理警示和通知時提供效能上的好處。 當您這麼做時，Notification Services 的「提供者」、「產生器」和「散發者」角色會分散在不同的電腦上，因此必須在多部電腦環境中安裝 Notification Services。  
+
+> [!NOTE]
+> 從 SQL Server 2012 開始，BizTalk Server 使用 SQL Database Mail。 因此，如果您使用 SQL Server 2012 或更新版本，這不適用於您。 請參閱[BAM 警示](../install-and-config-guides/prepare-your-computer-for-installation.md#BKMK_BAMAlerts)指導方針。
   
 ##### <a name="to-configure-distributed-notification-services"></a>設定分散式 Notification Services  
   
-1.  安裝 [!INCLUDE[btsSQLServer2005](../includes/btssqlserver2005-md.md)] Notification Services。 如需有關分散式 Notification Services 的詳細資訊，請參閱[!INCLUDE[btsSQLServer2005](../includes/btssqlserver2005-md.md)]Notification Services 文件，網址[http://go.microsoft.com/fwlink/?LinkId=68095](http://go.microsoft.com/fwlink/?LinkId=68095)。  
+1.  安裝 SQL Server Notification Services。 
   
     > [!NOTE]
-    >  [!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)] 中並未隨附 Notification Services。 如果您使用[!INCLUDE[btsSQLServer2008](../includes/btssqlserver2008-md.md)]，安裝[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]Notification Services，當您安裝[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]選取**BAM Alert Provider for SQL Notification Services**選項在**其他軟體**上**元件安裝**安裝精靈頁面。  
+    >  Notification Services 不包含 SQL Server 中。 當您安裝 BizTalk Server 時選取安裝 SQL Server Notification Services **BAM Alert Provider for SQL Notification Services**選項在**其他軟體**上**元件安裝**安裝精靈頁面。  
   
-2.  建立 BAM notification 執行 C:\Program Files\Microsoft SQL Server\90\NotificationServices\9.0.242\bin\nscontrol 在分散式環境中的每一部電腦上服務 register-name bamalerts-server\<伺服器名稱 >-服務-serviceusername \<a >-servicepassword \<passwd > 從命令提示字元。  
+2.  建立 BAM notification 執行 C:\Program Files\Microsoft SQL Server\90\NotificationServices\9.0.242\bin\nscontrol 在分散式環境中的每一部電腦上服務 register-name bamalerts-server\<伺服器名稱\>-服務-serviceusername \<a\> -servicepassword \<passwd\>從命令提示字元。  
   
-3.  編輯每一台要設定為提供分散式 Notifications Service 之電腦上的 BAM 基礎結構組態檔。 若要取得組態檔，請使用**bm.exe get-config-FileName:\<輸出檔 >**命令。  
+3.  編輯每一台要設定為提供分散式 Notifications Service 之電腦上的 BAM 基礎結構組態檔。 若要取得組態檔，請使用**bm.exe get-config-FileName:\<輸出檔\>**命令。  
   
 4.  編輯組態檔以參考分散式 Notification Services 環境中的伺服器：  
   
@@ -80,11 +83,11 @@ ms.lasthandoff: 09/20/2017
     <Property Name="DistributorServerName">PFIDWYUK</Property>  
     ```  
   
-5.  使用 bm.exe 更新-config-FileName:\<組態檔 > 更新 BAM 組態。  
+5.  使用 bm.exe 更新-config-FileName:\<組態檔\>更新 BAM 組態。  
   
 6.  重新啟動分散式環境中所有電腦上的 Notification Services。  
   
- 如需有關在多重電腦環境中安裝 BAM 的詳細資訊，請參閱[安裝指南相關的 BizTalk Server 2013](http://go.microsoft.com/fwlink/p/?LinkID=269582)和[安裝及設定 BAM （商務活動監控） 在多部電腦環境](http://go.microsoft.com/fwlink/p/?LinkID=208597)。  
+ 如需有關在多重電腦環境中安裝 BAM 的詳細資訊，請參閱[安裝及設定 BAM （商務活動監控） 在多重電腦環境中](http://go.microsoft.com/fwlink/p/?LinkID=208597)。  
   
 ### <a name="moving-the-bam-primary-import-database"></a>移動 BAM 主要匯入資料庫  
  有時候，移動 BAM 主要匯入資料庫是必要的，例如當您升級硬體或進行擴充作業時。 若要移動資料庫，您應該執行備份和還原作業。 如需此程序的詳細資訊，請參閱[備份和還原 BAM](../core/backing-up-and-restoring-bam.md)。  
@@ -105,9 +108,9 @@ ms.lasthandoff: 09/20/2017
  如需可透過 BAM 管理公用程式的所有命令的說明，請參閱[BAM 管理公用程式](../core/bam-management-utility.md)。 如需使用 BAM 管理公用程式來處理 BAM 定義的範例，請參閱[管理 BAM 動態基礎結構](../core/managing-the-bam-dynamic-infrastructure.md)。  
   
 ## <a name="configuring-multiple-biztalk-groups-to-reference-a-single-bam-database"></a>設定多個 BizTalk 群組參考單一 BAM 資料庫  
- 當設定為使用新的或現有的 BAM[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]群組中，您可以設定要使用相同的 BAM 資料庫已由另一個使用中的群組[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]群組。  若要以這種方式設定 BAM，您必須執行下列工作：  
+ 當設定 BAM 使用新的或現有的 BizTalk Server 群組，您可以設定要使用已在另一個 BizTalk Server 群組所使用的相同 BAM 資料庫的群組。  若要以這種方式設定 BAM，您必須執行下列工作：  
   
--   使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 組態精靈，從現有的 BAM 主要匯入資料庫取得組態資訊。 這包括伺服器及資料庫名稱。 記下核取方塊的狀態。 請務必要取得「BAM 工具」和「BAM 警示」這兩個頁面的組態資訊。  
+-   取得組態資訊從現有的 BAM 主要匯入資料庫使用 BizTalk Server 組態精靈。 這包括伺服器及資料庫名稱。 記下核取方塊的狀態。 請務必要取得「BAM 工具」和「BAM 警示」這兩個頁面的組態資訊。  
   
 -   為新的群組設定 BAM，並輸入與目標 PIT 所設定的完全相同資訊。 為新群組輸入組態資訊時，除了 BAM 警示使用者必須保留空白之外，您將會用到從現有群組收集的所有資訊來設定新群組。  
   
@@ -127,10 +130,10 @@ ms.lasthandoff: 09/20/2017
   
 -   從新的伺服器執行下列 BAM 管理員命令：  
   
-     **bm.exe 更新 livedataworkbook-Name:\<update.xls 即時資料活頁簿 >**  
+     **bm.exe 更新 livedataworkbook-Name:\<update.xls 即時資料活頁簿\>**  
   
     > [!NOTE]
-    >  您也可以指定新的伺服器名稱和/或 BAM 主要匯入資料庫名稱： **bm.exe 更新 livedataworkbook-名稱：\<update.xls 即時資料活頁簿 > [-Server:\<伺服器 >] [-資料庫：\<資料庫 >]**  
+    >  您也可以指定新的伺服器名稱和/或 BAM 主要匯入資料庫名稱： **bm.exe 更新 livedataworkbook-Name:\<update.xls 即時資料活頁簿\>[-Server:\<伺服器\>] [-資料庫：\<資料庫\>]**  
   
 -   或者，您也可以更新 Excel 中的 Excel 活頁簿：  
   
@@ -150,11 +153,11 @@ ms.lasthandoff: 09/20/2017
 ### <a name="cleaning-up-the-alerts-chronicle-table"></a>清除警示紀事輯資料表  
  如果已設定 BAM 警示，就會為所建立的每個活動檢視建立 SQL 作業。 使用下列範例將會為作業命名：  
   
- bam_\<檢視名稱 > _\<活動檢視 > _DelAlertHistJob  
+ bam_\<檢視名稱\>_\<活動檢視\>_DelAlertHistJob  
   
- 這個工作會清除稽核資料所指定的執行個體警示\<活動檢視 > Bam_Metadata_AlertChronicle 資料表中。 如果您已經在特定的活動檢視上定義執行個體警示，則每次引發警示，此資料表就會新增新的資料列。  
+ 這個工作會清除稽核資料所指定的執行個體警示\<活動檢視\>Bam_Metadata_AlertChronicle 資料表中。 如果您已經在特定的活動檢視上定義執行個體警示，則每次引發警示，此資料表就會新增新的資料列。  
   
  您可以手動執行這項作業，以清除資料表，或根據應用程式或環境的需求排程作業的執行時間。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理 BAM](../core/managing-bam.md)

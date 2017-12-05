@@ -12,11 +12,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 34fb3ef45123817f747ab9aa956e961c5bb9a1c6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 66d955aeaabe4d7207a07827de04c1c21e4c2c7a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-3-create-and-configure-a-destination-party"></a>步驟 3： 建立及設定目的合作對象
 在此步驟中，您可以建立並設定建立批次案例的目的合作對象。 您也可以選取訊息的[!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]批次和批次排程時，針對該合作對象所定義。 您會排程批次傳送時間為一小時之後將檔案複製到資料夾。 [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]批次的頻率為一小時之後收到任何訊息。  
@@ -27,7 +27,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  在 合作對象屬性 對話方塊中**名稱**方塊中，輸入**Tutorial_BatchDest**，然後按一下 **確定**。  
   
-3.  按一下**啟動**，指向 **所有程式**，指向  **Microsoft BizTalk\<版本 > Accelerator for HL7**，然後按一下  **BTAHL7組態總管**。  
+3.  按一下**啟動**，指向 **所有程式**，指向  **Microsoft BizTalk\<版本\>Accelerator for HL7**，然後按一下  **BTAHL7 Configuration 總管**。  
   
 4.  BTAHL7 組態總管] 中，在上**合作對象**在主控台樹狀目錄索引標籤上，按一下 [ **Tutorial_BatchDest**。  
   

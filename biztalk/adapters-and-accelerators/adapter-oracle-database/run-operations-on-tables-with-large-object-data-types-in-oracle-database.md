@@ -15,11 +15,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6d01593fb50fd1b6faf851652319628b3d0cae58
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5a1116947450fb1d900ea38be0254fb3d0f7f7c1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="run-operations-on-tables-with-large-object-data-types-in-oracle-database"></a>執行與 Oracle 資料庫中的大型物件資料類型的資料表上的作業
 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]提供 Oracle 大型物件 (LOB) 資料類型的支援：  
@@ -206,7 +206,7 @@ ms.lasthandoff: 09/20/2017
     -   定義實體 Wcf-custom 或 Wcf-oracledb 傳送埠將訊息傳送至 Oracle 資料庫。 您也必須在傳送埠中指定的動作。 如需如何建立 Wcf-custom 或 Wcf-oracledb 連接埠相關資訊，請參閱[手動設定 Oracle 資料庫配接器的實體連接埠繫結](../../adapters-and-accelerators/adapter-oracle-database/manually-configure-a-physical-port-binding-to-the-oracle-database-adapter.md)。 因為 Wcf-oracledb 的 Wcf-custom 傳送埠將接收符合一個以上的結構描述的訊息及執行兩項作業，您必須設定這兩個作業的動態動作。 如需動作的詳細資訊，請參閱[設定 Oracle 資料庫的 SOAP 動作](../../adapters-and-accelerators/adapter-oracle-database/configure-the-soap-action-for-oracle-database.md)。 此協調流程，此動作應該如下所示設定：  
   
         ```  
-        \<BtsActionMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+        <BtsActionMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
           <Operation Name="ReadLOB" Action="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/CUSTOMER/ReadLOB" />  
           <Operation Name="UpdateLOB" Action="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/CUSTOMER/UpdateLOB" />  
         </BtsActionMapping>  
@@ -244,12 +244,12 @@ ms.lasthandoff: 09/20/2017
 ```  
   
 > [!NOTE]
->  篩選條件字串必須永遠提取一個相符的資料列否則 Oracle 資料庫配接器擲回 XmlReaderParsingException。 也針對值\<資料流 > 項目必須是 base64Binary 型別。  
+>  篩選條件字串必須永遠提取一個相符的資料列否則 Oracle 資料庫配接器擲回 XmlReaderParsingException。 也針對值\<資料流\>項目必須是 base64Binary 型別。  
   
  UpdateLOB 作業的回應為：  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <UpdateLOBResponse xmlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/CUSTOMER"></UpdateLOBResponse>  
 ```  
   
@@ -268,7 +268,7 @@ ms.lasthandoff: 09/20/2017
  ReadLOB 作業的回應為：  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <ReadLOBResponse mlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/CUSTOMER">  
   <ReadLOBResult>YWJjZA==</ReadLOBResult>  
 </ReadLOBResponse>  
@@ -283,5 +283,5 @@ ms.lasthandoff: 09/20/2017
 ## <a name="best-practices"></a>最佳作法  
  您部署和設定 BizTalk 專案之後，您可以為 XML 檔案，稱為繫結檔案匯出組態設定。 一旦產生繫結檔案時，您可以匯入組態設定從檔案，因此您不需要建立傳送埠、 接收埠，等。 針對相同的協調流程。 如需繫結檔案的詳細資訊，請參閱[重複使用的 Oracle 資料庫配接器繫結](../../adapters-and-accelerators/adapter-oracle-database/reuse-oracle-database-adapter-bindings.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [開發 BizTalk 應用程式的建置組塊，與 Oracle 資料庫](../../adapters-and-accelerators/adapter-oracle-database/building-blocks-to-develop-biztalk-applications-with-oracle-database.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "18"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 62e612ed35a20646f686bd178fad01771dbd2cce
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b973053d3afa9c6d0b61de111d9da1c4fb7a0fb1
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="installing-and-configuring-a-hyper-v-virtual-machine-for-use-with-biztalk-server"></a>安裝和設定 BizTalk Server 與 HYPER-V 虛擬機器使用
 本主題提供安裝和設定 BizTalk Server 在 HYPER-V 環境中，包括進行安裝和設定 HYPER-V 虛擬機器的建議和建議上安裝 BizTalk Server 的建議HYPER-V 虛擬機器。  
@@ -40,7 +40,7 @@ ms.lasthandoff: 09/20/2017
   
  在規劃存放裝置設定時，請考慮您要佈建的環境的需求。 生產環境，進入生產階段前和開發環境的需求可能大幅不同。  
   
- 如果您要部署生產[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]HYPER-V，效能上的環境會是一個關鍵需求。 若要避免磁碟忙碌實際系統上的 I/O 競爭，主機和客體作業系統上安裝 integration services 和資料磁碟區的磁碟設定使用綜合 SCSI 控制器。 對於跨越多個資料磁碟機的極大量的儲存體 I/O 工作負載，每個 VHD 應該附加到另一個更佳的整體效能的綜合 SCSI 控制器。 此外，每個 VHD 應該儲存在個別的實體磁碟上。 如需有關設定資料的磁碟綜合 SCSI 控制器的磁碟區。 請參閱主題的 < 最佳化磁碟效能 > 一節[檢查清單： 在 HYPER-V 上的 最佳化效能](~/technical-guides/checklist-optimizing-performance-on-hyper-v.md)。  
+ 如果您要部署生產 HYPER-V 上的 BizTalk Server 環境，效能將一個關鍵需求。 若要避免磁碟忙碌實際系統上的 I/O 競爭，主機和客體作業系統上安裝 integration services 和資料磁碟區的磁碟設定使用綜合 SCSI 控制器。 對於跨越多個資料磁碟機的極大量的儲存體 I/O 工作負載，每個 VHD 應該附加到另一個更佳的整體效能的綜合 SCSI 控制器。 此外，每個 VHD 應該儲存在個別的實體磁碟上。 如需有關設定資料的磁碟綜合 SCSI 控制器的磁碟區。 請參閱主題的 < 最佳化磁碟效能 > 一節[檢查清單： 在 HYPER-V 上的 最佳化效能](~/technical-guides/checklist-optimizing-performance-on-hyper-v.md)。  
   
  一般而言，開發環境不會有嚴格效能需求，因為資源使用量最大化多半會是主要的優先順序。 開發環境中裝載多個單一的實體磁碟機上的 VHD 檔案時所提供的效能通常是可接受。  
   
@@ -57,13 +57,13 @@ ms.lasthandoff: 09/20/2017
 |-------------------------------|--------------|--------------|-------------------------------------------|  
 |**固定的大小磁碟**|因為是在其最大可能大小已初始化的 VHD 檔案建立實體硬碟機上時其效能優於動態 VHD。<br /><br /> 這會讓分散程度小於可能與，因此、 降低的案例單一 I/O 分裂成數個 I/o 的位置。 這有 VHD 類型的最低的 CPU 額外負荷，因為讀取和寫入不需要查閱區塊的對應。|需要完整的磁碟空間足夠的事前量配置。|使用對作業系統磁碟區進行[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]和[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]。 **重要事項：**啟動磁碟的 HYPER-V 客體磁碟分割必須連接到 IDE 控制器。|  
 |**動態擴充磁碟**|VHD 檔案的大小會增加至指定建立磁碟時，為虛擬機器本身上儲存更多資料的大小。 這適用於最有效地使用可用的存放裝置。|效能不比固定大小的 VHD。 這是因為磁碟的區塊開始為歸區塊，但不是受任何實際的空間放在 VHD 檔案。 從這類區塊傳回讀取零的區塊。 第一個區塊時寫入，虛擬化堆疊必須配置區塊的 VHD 檔案內的空間，然後更新對應的中繼資料。 除了這每次參考現有區塊的區塊對應必須查閱中繼資料中。 這會增加的讀取和寫入活動，也會導致增加 CPU 使用量。<br /><br /> 動態成長，也需要伺服器系統管理員監視以確保足夠的磁碟儲存體與儲存體需求增加的磁碟容量。|效能不比固定大小的 VHD。<br /><br /> 如果效能不是問題，例如在開發環境中，這就可能是作業系統的硬碟最適合的選項。<br /><br /> 會造成額外的 CPU 額外負荷，因為區塊對應查閱。|  
-|**差異磁碟**|此差異磁碟儲存所有變更，相對於基底 VHD 和基底 VHD 的父-子系組態保持不變。 因此必須儲存在差異 VHD 的子系也就是從父不同區塊。|因為需要存取固定/動態父 VHD 以及差異磁碟的讀取/寫入，則可能會降低效能。 這會增加 CPU 使用率和磁碟 I/O 額外負荷。|大量電腦特定的組態是為了[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]安裝以及子 VHD 檔案可以增長本質上這會使用此磁碟組態的優點最小化。 讀取多個 VHD 在此案例中會產生額外的 CPU 和磁碟 I/O 額外負荷。|  
-|**傳遞磁碟**|這些是實體磁碟設定為*離線*根磁碟分割和啟用 HYPER-V 具有獨佔的讀寫存取權的實體磁碟中。|需要完全專用的磁碟或 LUN，才能讓它可配置給虛擬機器。<br /><br /> 實體磁碟是更難比 VHD 檔案的電腦之間移動。|如果您[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]執行個體在 HYPER-V 上執行，您可能會透過使用固定虛擬硬碟 (VHD) 以傳遞磁碟的必須取得累加式的效能改進[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]資料磁碟區。<br /><br /> 如果您裝載本機檔案接收位置的上[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]或大型訊息串流至磁碟，在處理期間，您可能會取得使用傳遞磁碟，透過使用固定虛擬硬碟 (VHD) 的累加效能改進。|  
+|**差異磁碟**|此差異磁碟儲存所有變更，相對於基底 VHD 和基底 VHD 的父-子系組態保持不變。 因此必須儲存在差異 VHD 的子系也就是從父不同區塊。|因為需要存取固定/動態父 VHD 以及差異磁碟的讀取/寫入，則可能會降低效能。 這會增加 CPU 使用率和磁碟 I/O 額外負荷。|大量電腦特定的組態需要的 BizTalk Server 安裝，而子 VHD 檔案可能會成長本質上這會使用此磁碟組態的優點最小化。 讀取多個 VHD 在此案例中會產生額外的 CPU 和磁碟 I/O 額外負荷。|  
+|**傳遞磁碟**|這些是實體磁碟設定為*離線*根磁碟分割和啟用 HYPER-V 具有獨佔的讀寫存取權的實體磁碟中。|需要完全專用的磁碟或 LUN，才能讓它可配置給虛擬機器。<br /><br /> 實體磁碟是更難比 VHD 檔案的電腦之間移動。|如果您[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]執行個體在 HYPER-V 上執行，您可能會使用傳遞磁碟，透過使用 BizTalk Server 的資料磁碟區的固定虛擬硬碟 (VHD) 必須取得累加式的效能改進。<br /><br /> 如果您裝載本機檔案接收 BizTalk Server 上的位置，或大型訊息串流至磁碟，在處理期間，您可能會取得使用傳遞磁碟，透過使用固定虛擬硬碟 (VHD) 的累加效能改進。|  
   
  如需實作磁碟及存放裝置搭配使用 HYPER-V 的詳細資訊，請參閱[實作磁碟和儲存體](http://go.microsoft.com/fwlink/?LinkID=142362)(http://go.microsoft.com/fwlink/?LinkID=142362)。  
   
 ##### <a name="networking"></a>網路  
- [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]通常會出現高的網路使用率。 因此，網路效能問題時，請考慮每個虛擬機器配置不同的實體網路介面卡。  
+ BizTalk Server，就會出現高的網路使用率。 因此，網路效能問題時，請考慮每個虛擬機器配置不同的實體網路介面卡。  
   
  在設定虛擬機器時，請確定您使用網路介面卡，而不是傳統網路介面卡。 傳統網路介面卡被供作業系統不支援整合元件。  
   
@@ -72,7 +72,7 @@ ms.lasthandoff: 09/20/2017
  如需有關評估在 HYPER-V 環境中的網路效能，請參閱**測量網路效能**區段[檢查清單： 測量的效能，在 HYPER-V 上](../technical-guides/checklist-measuring-performance-on-hyper-v.md)。  
   
 ##### <a name="cpu"></a>CPU  
- HYPER-V 支援不同的客體作業系統; 不同的虛擬處理器數目下表將摘要說明。 若要配置的最大 CPU 資源[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]，將它安裝在[!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]客體作業系統，可支援每個虛擬機器的四個虛擬處理器。  
+ HYPER-V 支援不同的客體作業系統; 不同的虛擬處理器數目下表將摘要說明。 若要為 BizTalk Server 中配置的最大的 CPU 資源，其上安裝[!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]客體作業系統，可支援每個虛擬機器的四個虛擬處理器。  
   
  設定虛擬處理器的 1-1 配置在客體作業系統，提供給主機作業系統，以防止內容切換過多的邏輯處理器。 過度內容切換處理器之間會導致效能降低。 如需有關配置的邏輯處理器的虛擬處理器的詳細資訊，請參閱本主題的 < 最佳化處理器效能 > 一節[檢查清單： 在 HYPER-V 上的 最佳化效能](~/technical-guides/checklist-optimizing-performance-on-hyper-v.md)。  
   
@@ -94,7 +94,7 @@ ms.lasthandoff: 09/20/2017
 ##### <a name="memory"></a>記憶體  
  實體伺服器的根磁碟分割和任何在伺服器上執行的虛擬機器需要足夠的記憶體。 在測試期間，最少 2 GB 的記憶體配置到根磁碟分割和**記憶體/可用 Mb**效能監視器計數器受到監視，以確保已發生記憶體不足的壓力。  
   
- 應配置給每個虛擬機器的記憶體數量[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]環境取決於工作負載，以及將執行的處理類型。 有許多因素會影響記憶體需求[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]包括：  
+ 應配置給每個 BizTalk Server 環境中的虛擬機器的記憶體數量取決於工作負載，並將執行的處理類型。 有許多因素會影響記憶體需求，BizTalk Server，其中包括：  
   
 -   處理訊息的大小  
   
@@ -147,14 +147,14 @@ ms.lasthandoff: 09/20/2017
  安裝和設定本實驗室使用的機器，初始的基底映像建立固定大小的 VHD 上。 這牽涉到手動安裝的[!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]。 一旦所有適當的更新已安裝基底的虛擬機器已建立映像使用 sysprep 公用程式與 Windows Server 2008 安裝的 %WINDIR%\system32\sysprep 目錄。  
   
 > [!NOTE]  
->  執行 Sysprep[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]已安裝並設定在伺服器即可透過 Sysprep 回應檔案使用，以及指令碼提供[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]。 這些範例指令碼專為搭配[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]上安裝[!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]。 如需詳細資訊，請參閱[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]線上文件。  
+>  透過使用 Sysprep 回應檔案和 BizTalk Server 提供的指令碼可以完成安裝並在伺服器上設定 BizTalk Server 後，執行 Sysprep。 這些範例指令碼在上安裝 BizTalk server 時，專為[!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]。 如需詳細資訊，請參閱 BizTalk Server 的線上文件。  
   
 ## <a name="installing-and-configuring-biztalk-server"></a>安裝和設定 BizTalk Server  
   
 -   若要安裝虛擬機器所需的時間降到最低，建立只包含客體作業系統和軟體必要條件的基底映像。 使用 SysPrep 準備的 VHD 映像，供重複使用，，然後根據此 VHD 中的所有虛擬機器 (Vm)。  
   
     > [!NOTE]  
-    >  與[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]，便可針對基底映像執行 Sysprep*之後*[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]已安裝並設定在伺服器上。 這可以透過使用 Sysprep 回應檔案來達成，以及指令碼提供[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]。 這些範例指令碼專為搭配[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]上安裝[!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]。 如需詳細資訊，請參閱[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]線上文件。  
+    >  BizTalk Server 中，您也可以針對基底映像執行 Sysprep*之後*已安裝並在伺服器上設定 BizTalk Server。 這可以透過使用 Sysprep 回應檔案和 BizTalk Server 提供的指令碼完成。 這些範例指令碼在上安裝 BizTalk server 時，專為[!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]。 如需詳細資訊，請參閱 BizTalk Server 的線上文件。  
     >   
     >  Windows 自動安裝參照位於[http://go.microsoft.com/fwlink/?LinkId=142364](http://go.microsoft.com/fwlink/?LinkId=142364)。  
   

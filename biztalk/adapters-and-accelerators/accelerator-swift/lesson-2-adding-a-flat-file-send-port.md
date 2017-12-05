@@ -17,11 +17,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1370b4877c2e32055e2ee0a0aca1f922bd8668a9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d438a6fa68136b05b358a81f4b026350d92a6af4
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="lesson-2-adding-a-flat-file-send-port"></a>第 2 課： 加入一般檔案傳送埠
 在這一課，您可以設定傳送埠和傳送位置。 您可以使用傳送埠定義您想要傳送訊息的方式。 您也可以建立傳送訊息的檔案資料夾位置。  
@@ -38,9 +38,9 @@ ms.lasthandoff: 09/20/2017
   
 5.  在 [FILE 傳輸屬性] 對話方塊中，按一下**瀏覽**。  
   
-6.  在 [瀏覽資料夾] 對話方塊中，移至**\<磁碟機 >: \Labs**資料夾，然後再按一下**建立新資料夾**。  
+6.  在 [瀏覽資料夾] 對話方塊中，移至**\<磁碟機\>: \Labs**資料夾，然後再按一下**建立新資料夾**。  
   
-7.  建立**輸出**資料夾中的**\<磁碟機 >: \Labs**，然後按一下 **確定**。  
+7.  建立**輸出**資料夾中的**\<磁碟機\>: \Labs**，然後按一下 **確定**。  
   
 8.  在**檔案名稱**方塊中，輸入**%MessageID%.txt**，然後按一下 **確定**。  
   

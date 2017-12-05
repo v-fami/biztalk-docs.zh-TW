@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f62dc38185f9235dd7d2e08629df4099d7ec4f6b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fd6abeeb04521e95b32b4d6007dcc7f1f532bdbb
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-move-the-bam-primary-import-database"></a>如何移動 BAM 主要匯入資料庫
 您可以使用這個程序，將 BAM 主要匯入資料庫移動到其他伺服器。 端對端案例的觀點而言，移動 BAM 主要匯入資料庫包含兩個主要步驟：  
@@ -71,7 +71,7 @@ ms.lasthandoff: 09/20/2017
   
 ###  <a name="BKMK_UpdateDB"></a>若要使用新的伺服器名稱更新 BizTalk 資料庫  
   
-1.  在執行 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 的電腦中，瀏覽至下列資料夾：  
+1.  在上執行 BizTalk Server 的電腦，瀏覽至下列資料夾：  
   
     -   如果[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]安裝在 64 位元版本的 Windows Server:  
   
@@ -117,7 +117,7 @@ ms.lasthandoff: 09/20/2017
   
 ###  <a name="BKMK_Config"></a>若要更新 BAM 入口網站的 Web.config 檔案  
   
-1.  執行的電腦上[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]，更新 Web.config 檔案在**\<磁碟機 >: \Program Files\Microsoft BizTalk Server 2010\BAMPortal\BAMManagementService\Web.Config**。更新 Web.config 中的下列章節中的伺服器和資料庫名稱：  
+1.  在電腦上執行 BizTalk Server，更新 Web.config 檔案在**\<磁碟機\>: \Program Files\Microsoft BizTalk Server 2010\BAMPortal\BAMManagementService\Web.Config**。更新 Web.config 中的下列章節中的伺服器和資料庫名稱：  
   
     ```  
     <appSettings>  
@@ -126,7 +126,7 @@ ms.lasthandoff: 09/20/2017
     </appSettings>  
     ```  
   
-2.  執行的電腦上[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]，更新 Web.config 檔案在**\<磁碟機 >: \Program Files\Microsoft BizTalk Server 2010\BAMPortal\BAMQueryService\Web.Config**。更新 Web.config 中的下列章節中的伺服器和資料庫名稱：  
+2.  在電腦上執行 BizTalk Server，更新 Web.config 檔案在**\<磁碟機\>: \Program Files\Microsoft BizTalk Server 2010\BAMPortal\BAMQueryService\Web.Config**。更新 Web.config 中的下列章節中的伺服器和資料庫名稱：  
   
     ```  
     <appSettings>  
@@ -228,5 +228,5 @@ ms.lasthandoff: 09/20/2017
   
 9. 解決任何不完整的追蹤執行個體。  如需解決未完成的 BAM 活動執行個體的相關資訊，請參閱[如何解析未完成的活動執行個體](http://go.microsoft.com/fwlink/?LinkId=151475)(http://go.microsoft.com/fwlink/?LinkId=151475)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [移動資料庫](../technical-guides/moving-databases.md)

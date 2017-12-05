@@ -18,16 +18,16 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ec579716f9ab02389ce9f2d5ae5ec02ef0b30730
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f84cd2de6d5f79062592dbf71947587b6d7a6ff0
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="customizing-a-private-process-to-work-with-a-specific-pip"></a>自訂私用程序以處理特定 PIP
 您可以建立一個篩選條件運算式，決定回應者私用程序協調流程是否處理特定夥伴介面程序 (PIP) 的執行個體。 這可提供您建立自訂私用程序來接收和處理某些 PIP 執行個體，以及使用預設私用程序來處理所有其他 PIP 執行個體的彈性。  
   
- 如果要建立自訂私用程序來處理特定 PIP 或多個特定 PIP，您可為私用程序協調流程的接收圖形建立篩選條件運算式。 一個範例就是 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK 中的 PIP3A4PrivateResponder.odx 協調流程， 它位於\<*磁碟機*>: \Program Files\BizTalk\<版本 > Accelerator for RosettaNet\SDK\PIP3A4Process 使用 Business Rules\PIP3A4PrivateResponder。  
+ 如果要建立自訂私用程序來處理特定 PIP 或多個特定 PIP，您可為私用程序協調流程的接收圖形建立篩選條件運算式。 一個範例就是 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK 中的 PIP3A4PrivateResponder.odx 協調流程， 它位於\<*磁碟機*\>: \Program Files\BizTalk\<版本\>Accelerator for RosettaNet\SDK\PIP3A4Process 使用 Business Rules\PIP3A4PrivateResponder。  
   
  除了建立只處理特定 PIP 執行個體的私用程序之外，您還必須自訂預設的 BTARN 私用程序，這樣 BTARN 私用程序才不會處理該 PIP 的執行個體。  
   
@@ -36,7 +36,7 @@ ms.lasthandoff: 09/20/2017
 1.  在 [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] 中，建立自訂的回應者私用程序協調流程，以處理特定的 PIP。 您可以根據預設的 BTARN 回應者私用程序協調流程來建立協調流程。  
   
     > [!NOTE]
-    >  您可在 BTARN SDK 中找到預設的回應者私用程序協調流程，其名稱為 PrivateResponder.odx。 它位於*\<磁碟機 >*: \Program Files\BizTalk\<版本 > Accelerator for RosettaNet\SDK\PrivateResponder。  
+    >  您可在 BTARN SDK 中找到預設的回應者私用程序協調流程，其名稱為 PrivateResponder.odx。 它位於*\<磁碟機\>*: \Program Files\BizTalk\<版本\>Accelerator for RosettaNet\SDK\PrivateResponder。  
   
 2.  新增自訂協調流程到您的 BizTalk 專案中。 請確定您的專案是參考到 Microsoft.Solutions.BTARN.GlobalSchemas.dll 檔案。  
   
@@ -67,11 +67,11 @@ ms.lasthandoff: 09/20/2017
   
 14. 在**檔案**功能表上，指向**開啟**，然後按一下 **專案**。  
   
-15. 移至\<*磁碟機*>: \Program Files\BizTalk\<版本 > Accelerator for RosettaNet\SDK\PrivateResponder，選取**PrivateResponder.odx**，然後按一下  **確定**。  
+15. 移至\<*磁碟機*\>: \Program Files\BizTalk\<版本\>Accelerator for RosettaNet\SDK\PrivateResponder，選取**PrivateResponder.odx**，然後按一下 **確定**。  
   
 16. 在方案總管中，以滑鼠右鍵按一下專案，然後按一下 [建立]。  
   
 17. 成功建置專案之後，以滑鼠右鍵按一下專案，然後按一下**部署**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [程式設計指南](../../adapters-and-accelerators/accelerator-rosettanet/programming-guide2.md)

@@ -16,11 +16,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4c7928affeafd40197401fa75d44658e0e975507
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d5bb458af94d61ceb89a725f80606d8dda2af579
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="run-a-sqlexecute-operation-in-oracle-database-using-the-wcf-channel-model"></a>使用 WCF 通道模型的 Oracle 資料庫中執行 SQLEXECUTE 操作
 本節說明如何透過通道執行 SQLEXECUTE 操作的 Oracle 資料庫。 您必須在 SOAP 訊息指定訊息和訊息動作。 如需 SQLEXECUTE 操作的詳細資訊，請參閱[在 Oracle 資料庫中使用 WCF 服務模型執行 SQLEXECUTE 操作](../../adapters-and-accelerators/adapter-oracle-database/run-sqlexecute-operation-in-oracle-database-using-the-wcf-service-model.md)。  
@@ -29,8 +29,8 @@ ms.lasthandoff: 09/20/2017
  下列 XML 顯示 SQLEXECUTE 訊息傳回 Oracle 序列的下一個值。  
   
 ```  
-\<?xml version="1.0" encoding="utf-8" ?>  
-\<!-- New Action: http://Microsoft.LobServices.OracleDB/2007/03/SQLEXECUTE -->  
+<?xml version="1.0" encoding="utf-8" ?>  
+<!-- New Action: http://Microsoft.LobServices.OracleDB/2007/03/SQLEXECUTE -->  
 <SQLEXECUTE xmlns="http://Microsoft.LobServices.OracleDB/2007/03/SQLEXECUTE">  
     <SQLSTATEMENT>SELECT tid_seq.nextval id FROM dual</SQLSTATEMENT>  
 </SQLEXECUTE>  
@@ -85,6 +85,6 @@ if (list.Count > 0) id = list[0].InnerXml;
 > [!NOTE]
 >  SQLEXECUTE 作業一律會傳回弱式類型的結果集。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [開發 Oracle 資料庫應用程式使用 WCF 通道模型](../../adapters-and-accelerators/adapter-oracle-database/develop-oracle-database-applications-using-the-wcf-channel-model.md)  
  [建立通道使用 Oracle 資料庫](../../adapters-and-accelerators/adapter-oracle-database/create-a-channel-using-oracle-database.md)

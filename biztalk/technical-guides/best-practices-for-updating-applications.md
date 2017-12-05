@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f17fd3ce03ab4c974bff1b5198d27385d311ed70
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d01cf54454866eadbd70de7ef30439a0e7068cb1
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="best-practices-for-updating-applications"></a>更新應用程式的最佳作法
 本主題說明您應該考慮更新 BizTalk 應用程式和成品時所使用的最佳作法。  
@@ -34,7 +34,7 @@ ms.lasthandoff: 09/20/2017
   
 -   **BizTalk 組件檢查] 和 [遠端 GAC 工具**(BTSAssemblyChecker.exe) 會檢查組件部署到 BizTalk 管理資料庫的版本，並確認它們正確登錄所有的 BizTalk 上的 GAC 中伺服器的電腦。 若要確認 BizTalk 的所有節點上已安裝的所有組件包含特定的 BizTalk 應用程式的成品，您可以使用此工具。 此工具是搭配實心版本控制策略，以確認組件集合的正確版本已安裝每個 BizTalk 在電腦上，特別使用並存的部署方法時特別有用。  
   
--   此工具會與[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]Support\Tools\x86\BTSAssemblyChecker.exe 安裝媒體。  
+-   此工具會隨 Support\Tools\x86\BTSAssemblyChecker.exe 在 BizTalk Server 安裝媒體。  
   
  **使用版本控制產品**  
   
@@ -94,5 +94,5 @@ ms.lasthandoff: 09/20/2017
   
 -   雖然不必為了更新成品或安裝應用程式而停止應用程式，我們還是建議您一律在更新成品時停止應用程式。  
   
-## <a name="see-also"></a>另請參閱  
- [如何匯出繫結至繫結檔案](../technical-guides/how-to-export-bindings-to-a-binding-file.md)
+## <a name="see-also"></a>請參閱  
+ [如何將繫結匯出至繫結檔案](../technical-guides/how-to-export-bindings-to-a-binding-file.md)

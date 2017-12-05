@@ -12,11 +12,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8e3dea968a12470498012f7dae4fb3093fc05e59
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4b9dedc20103787f449cc8c5ac475ef2ed2e0f82
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="browse-for-oracle-e-business-suite-operations-under-the-schema-based-view"></a>瀏覽 Oracle E-business Suite 作業在結構描述為基礎的檢視
 您可以使用[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]或[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]瀏覽一概無法對 Oracle E-business Suite 的傳出和傳入作業使用[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]。 本主題提供有關如何瀏覽結構描述為基礎的檢視之下的傳出和傳入作業的資訊。  
@@ -67,16 +67,16 @@ ms.lasthandoff: 09/20/2017
      ![瀏覽 Oracle 資料庫中資料表](../../adapters-and-accelerators/adapter-oracle-ebs/media/94dd4642-1178-4d88-986b-f0ad409c414c.gif "94dd4642-1178-4d88-986b-f0ad409c414c")  
   
     > [!NOTE]
-    >  如果資料表包含 BLOB 類型的資料行時，CLOB、 NCLOB、 或 BFILE 配接器也會公開這類資料行中讀取資料的特定作業。 這類作業的名稱是 Read_\<LOBColName >。 例如，如果資料表有資料行，而相片，BLOB 類型的配接器會公開**Read_PHOTO**作業。 如果資料表有一個以上的資料行的類型 BLOB、 CLOB、 NCLOB、 和 BFILE 配接器會公開 Read_ 任意數目\<LOBColName > 作業。  
+    >  如果資料表包含 BLOB 類型的資料行時，CLOB、 NCLOB、 或 BFILE 配接器也會公開這類資料行中讀取資料的特定作業。 這類作業的名稱是 Read_\<LOBColName\>。 例如，如果資料表有資料行，而相片，BLOB 類型的配接器會公開**Read_PHOTO**作業。 如果資料表有一個以上的資料行的類型 BLOB、 CLOB、 NCLOB、 和 BFILE 配接器會公開 Read_ 任意數目\<LOBColName\>作業。  
     >   
-    >  同樣地，如果資料表包含 BLOB 類型的資料行時，CLOB 或 NCLOB 配接器也會公開成這類資料行中更新資料的特定作業。 這類作業的名稱是 Update_\<LOBColName >。 例如，如果資料表有資料行，而相片，BLOB 類型的配接器會公開**Update_PHOTO**作業。 如果資料表有一個以上的資料行的 BLOB 類型，CLOB，並且 NCLOB 配接器會公開最多數目 Update_\<LOBColName > 作業。 請注意，更新作業不支援的型別 BFILE 資料行上。  
+    >  同樣地，如果資料表包含 BLOB 類型的資料行時，CLOB 或 NCLOB 配接器也會公開成這類資料行中更新資料的特定作業。 這類作業的名稱是 Update_\<LOBColName\>。 例如，如果資料表有資料行，而相片，BLOB 類型的配接器會公開**Update_PHOTO**作業。 如果資料表有一個以上的資料行的 BLOB 類型，CLOB，並且 NCLOB 配接器會公開最多數目 Update_\<LOBColName\>作業。 請注意，更新作業不支援的型別 BFILE 資料行上。  
   
 9. 展開**檢視**節點以查看特定結構描述檢視的清單。 按一下 檢視名稱，若要查看的檢視支援的作業**可用的類別和作業**方塊。  
   
      ![瀏覽 Oracle 資料庫中的檢視](../../adapters-and-accelerators/adapter-oracle-ebs/media/e1893e48-065c-4642-b076-192758d103db.gif "e1893e48-065c-4642-b076-192758d103db")  
   
     > [!NOTE]
-    >  如果檢視包含 BLOB 類型的資料行，CLOB、 NCLOB、 或 BFILE 配接器也會公開這類資料行中讀取資料的特定作業。 這類作業的名稱是 Read_\<LOBColName >。 例如，如果檢視的資料行類型的 BLOB，而使用的規則，配接器會公開**Read_RULE**作業。 如果檢視有一個以上的資料行的類型 BLOB、 CLOB、 NCLOB、 或 BFILE 配接器會公開 Read_ 任意數目\<LOBColName > 作業。 請注意該 Update_\<LOBColName > 檢視表上不支援作業。  
+    >  如果檢視包含 BLOB 類型的資料行，CLOB、 NCLOB、 或 BFILE 配接器也會公開這類資料行中讀取資料的特定作業。 這類作業的名稱是 Read_\<LOBColName\>。 例如，如果檢視的資料行類型的 BLOB，而使用的規則，配接器會公開**Read_RULE**作業。 如果檢視有一個以上的資料行的類型 BLOB、 CLOB、 NCLOB、 或 BFILE 配接器會公開 Read_ 任意數目\<LOBColName\>作業。 請注意該 Update_\<LOBColName\>檢視上不支援作業。  
   
 ## <a name="browsing-for-inbound-operations"></a>瀏覽的輸入作業  
  執行下列步驟來瀏覽結構描述為基礎的檢視之下輸入的作業。  
@@ -120,5 +120,5 @@ ms.lasthandoff: 09/20/2017
   
      ![瀏覽 Oracle 資料庫進行輪詢中的檢視](../../adapters-and-accelerators/adapter-oracle-ebs/media/f1282f17-efbe-43e6-90fa-5676e04051e8.gif "f1282f17-efbe-43e6-90fa-5676e04051e8")  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [瀏覽、 搜尋及取得 Oracle E-business Suite 作業的中繼資料](../../adapters-and-accelerators/adapter-oracle-ebs/browse-search-and-get-metadata-for-oracle-e-business-suite-operations.md)

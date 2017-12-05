@@ -12,11 +12,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a3d4c573b864d16362c1b12b1e293e85f139cad4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b6a3597d0d68dbd79de6c23e7b6d4b222b9c8376
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-search-for-tracked-message-events"></a>如何搜尋追蹤的訊息事件
 您可以使用**新查詢**索引標籤中[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台來搜尋追蹤訊息事件。  從[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台，您可以啟用訊息內文和追蹤訊息屬性。 在查詢結果 窗格中，您可以檢視訊息的事件，包括結構描述資訊、 事件類型、 服務執行個體識別碼，以及產生之訊息的升級的屬性的相關資訊。  
@@ -49,11 +49,11 @@ ms.lasthandoff: 09/20/2017
     |**結構描述名稱**|使用訊息的結構描述的名稱。|  
     |**服務執行個體識別碼**|用於訊息的服務執行個體識別碼。|  
     |**URI**|用於訊息的 URI。|  
-    |**\<選取追蹤的屬性結構描述名稱 >**|當您選取的結構描述時，該結構描述中任何升級的屬性是適合用來在查詢中。|  
+    |**\<選取追蹤的屬性結構描述名稱\>**|當您選取的結構描述時，該結構描述中任何升級的屬性是適合用來在查詢中。|  
   
 6.  完成**值**適用於選取項目所做的資料行**欄位名稱**資料行。  
   
 7.  繼續新增其他行至適當的查詢中，藉由完成**欄位名稱**，**運算子**，和**值**資料行，然後再按一下**執行查詢**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [使用管理主控台查詢索引標籤](../core/using-the-administration-console-query-tab.md)

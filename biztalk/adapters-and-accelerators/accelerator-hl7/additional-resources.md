@@ -13,14 +13,14 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cb082b335aa1bae484eef799edfaba5105a2044f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4e0f6cc39bda0d4e8a0f5331ea0d8d70c6dbf691
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="additional-resources"></a>其他資源
-除了[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]和[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]說明，請將有討論程式設計這個平台的其他資源。 如需有關這些資源的詳細資訊，請移至下列網站：  
+除了[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]和[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server 說明有程式設計討論這個平台的其他資源。 如需有關這些資源的詳細資訊，請移至下列網站：  
   
 -   在 MSDN [http://go.microsoft.com/fwlink/?LinkId=25353](http://go.microsoft.com/fwlink/?LinkId=25353)  
   
@@ -40,5 +40,5 @@ ms.lasthandoff: 09/20/2017
   
 -   [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]在 MSDN 上的開發人員中心[http://go.microsoft.com/fwlink/?LinkId=25362](http://go.microsoft.com/fwlink/?LinkId=25362)  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [程式設計指南](../../adapters-and-accelerators/accelerator-hl7/programming-guide1.md)

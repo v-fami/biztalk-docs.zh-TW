@@ -12,11 +12,11 @@ caps.latest.revision: "43"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d3d10bd82fa17501920150c6324695ae1cc9834b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cc699e4317437305d3ebfba6b5b839f90c527f31
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties"></a>了解 BizTalk Adapter for SQL Server 配接器繫結屬性
 [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]呈現數個繫結屬性。 藉由設定這些屬性，您可以控制某些配接器的行為。 本章節描述所公開的繫結屬性[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。 它也會示範如何存取這些使用.NET 程式設計或上設定屬性[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]實體連接埠繫結。  
@@ -43,7 +43,7 @@ ms.lasthandoff: 09/20/2017
 |**InboundOperationType**|輸入|指定您是否要執行**輪詢**， **TypedPolling**， **XmlPolling**，或**通知**輸入作業。 預設值是**輪詢**。<br /><br /> 如需有關**輪詢**， **TypedPolling**，和**XmlPolling**看到[支援輪詢](https://msdn.microsoft.com/library/dd788416.aspx)。 如需有關**通知**，請參閱[考量接收查詢通知使用 SQL 配接器](../../adapters-and-accelerators/adapter-sql/considerations-for-receiving-query-notifications-using-the-sql-adapter.md)。|列舉|  
 |**UseDatabaseNameInXsdNamespace**|中繼資料|指定是否針對特定成品產生 XSD 包含資料庫名稱。 將此設**True**来包含資料庫名稱。 否則，將此設**False**。 預設值是**False**。<br /><br /> 這是在單一應用程式要在不同資料庫中執行具有不同的中繼資料的相同具名成品上作業的情況下很有用。 如果不沒有命名空間中的任何資料庫名稱，產生的中繼資料就會發生衝突。 您藉由設定這個繫結屬性可以包含資料庫名稱在命名空間，使它們唯一。 以下是命名空間中的變更反白顯示的範例。<br /><br /> **UseDatabaseNameInXsdNamespace = False**<br /><br /> `http://schemas.microsoft.com/Sql/2008/05/TableOp/dbo/Employee`<br /><br /> **UseDatabaseNameInXsdNamespace = True**<br /><br /> `http://schemas.microsoft.com/Sql/2008/05/TableOp/MyDatabase/dbo/Employee`<br /><br /> 請注意資料庫名稱包含命名空間中，當繫結屬性設定為**True**。|列舉|  
 |**AllowIdentityInsert**|其他|指定配接器是否可以在 Insert 和 Update 作業期間插入識別欄位的值。 將此屬性設定為**True**插入或更新識別欄位的值。 否則會將此設**False**。 預設值是**False**。<br /><br /> **注意：**將此屬性設定為**True**會轉譯為配接器使用 「`SET IDENTITY_INSERT <table_name> ON`"。 如需詳細資訊，請參閱[SET IDENTITY_INSERT (TRANSACT-SQL)](https://msdn.microsoft.com/library/ms188059.aspx)。 <br /><br /> 在使用這個繫結屬性時，您必須考慮下列各點：<br /><br /> -配接器不會驗證您要將識別欄位的值。 比方說，如果資料表含有識別欄位到 100 之間的 「 身分識別種子 」 設定 「 識別值增量 」 設定為 1，且配接器用戶端會傳遞的值，假設 95，識別欄位，配接器直接傳以此值到 SQL Server。<br /><br /> -即使您將**AllowIdentityInsert**至**True**，不是必要的配接器用戶端在要求訊息中指定身分識別資料行的值。 如果值為識別資料行存在，則配接器會將它傳遞到 SQL Server。 如果值不存在，SQL Server 會插入識別欄位的規格為基礎的值。|bool (System.Boolean)|  
-|**NotificationStatement**|通知 （適用輸入）|指定的 SQL 陳述式 (SELECT 或 EXEC\<預存程序 >) 用於 SQL Server 通知登錄。 請注意，您必須明確指定資料行名稱的陳述式中這個 SELECT 陳述式中所示。<br /><br /> `SELECT Employee_ID,Designation FROM dbo.Employee WHERE Status=0`<br /><br /> **注意：**您必須指定資料庫物件名稱，以及結構描述名稱。 例如， `dbo.Employee`。<br /><br /> 在結果集為指定的 SQL 陳述式變更時，才配接器從 SQL Server 取得通知訊息。|string|  
+|**NotificationStatement**|通知 （適用輸入）|指定的 SQL 陳述式 (SELECT 或 EXEC\<預存程序\>) 用來註冊 SQL Server 通知。 請注意，您必須明確指定資料行名稱的陳述式中這個 SELECT 陳述式中所示。<br /><br /> `SELECT Employee_ID,Designation FROM dbo.Employee WHERE Status=0`<br /><br /> **注意：**您必須指定資料庫物件名稱，以及結構描述名稱。 例如， `dbo.Employee`。<br /><br /> 在結果集為指定的 SQL 陳述式變更時，才配接器從 SQL Server 取得通知訊息。|string|  
 |**NotifyOnListenerStart**|通知 （適用輸入）|指定給配接器用戶端，通知執行接收位置，接聽程式啟動時，配接器是否要傳送通知訊息。 預設值是**True**。<br /><br /> 您收到的通知訊息看起來如下：<br /><br /> `<?xml version="1.0" encoding="utf-8" ?> <Notification xmlns="http://schemas.microsoft.com/Sql/2008/05/Notification/">   <Info>ListenerStarted</Info>    <Source>SqlBinding</Source>    <Type>Startup</Type>  </Notification>`|bool (System.Boolean)|  
 |**PolledDataAvailableStatement**|輪詢 （輸入）|指定 SQL 陳述式執行，以判斷是否可用於輪詢 SQL Server 資料庫中特定資料表的任何資料。 指定的陳述式必須傳回的結果集資料列和資料行所組成。 結果集的第一個資料格中的值會指出是否執行 SQL 陳述式指定的配接器**PollingStatement**繫結屬性。 如果結果的第一個資料格包含正數值時，配接器執行輪詢陳述式。 以下是一些您可以指定這個繫結屬性的有效陳述式的範例：<br /><br /> -如果您要指定 SELECT 陳述式：<br /><br /> `SELECT COUNT(*) from <table_name>`<br /><br /> -如果您指定預存程序時，您的預存程序可能會定義為：<br /><br /> `CREATE PROCEDURE <procedure_name>  AS BEGIN      SELECT COUNT(*) FROM <table_name> END GO`<br /><br /> 或<br /><br /> `CREATE PROCEDURE <procedure_name>  AS BEGIN      DECLARE @count int      SELECT @count = SELECT(*) FROM <table_name>      SELECT @count END GO`<br /><br /> 如果您使用預存程序，您會指定**PolledDataAvailableStatement**為`EXEC <procedure_name>`。<br /><br /> **重要事項：**陳述式指定這個繫結屬性不會執行內的*配接器起始*交易，並可能會多次呼叫執行實際的輪詢陳述式之前 （即使執行陳述式表示有可用的資料列進行輪詢）。|string|  
 |**PollingIntervalInSeconds**|輪詢 （輸入）|指定間隔，以秒為單位，此時[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]執行陳述式指定**PolledDataAvailableStatement**繫結屬性。 預設值是 30 秒。 輪詢間隔會決定後續輪詢間隔時間。 如果指定的間隔內執行的陳述式，則配接器處於非使用中的剩餘時間間隔。|int (System.Int32)|  
@@ -65,5 +65,5 @@ ms.lasthandoff: 09/20/2017
   
 -   使用 WCF 服務模型程式設計方案中，請參閱[設定 SQL 配接器的 用戶端繫結](../../adapters-and-accelerators/adapter-sql/configure-a-client-binding-for-the-sql-adapter.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [開發 SQL 應用程式](../../adapters-and-accelerators/adapter-sql/develop-your-sql-applications.md)

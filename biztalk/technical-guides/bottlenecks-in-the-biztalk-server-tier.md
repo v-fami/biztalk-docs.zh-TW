@@ -12,11 +12,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1ce311461f4273b057c65913d3024f8092f87d1e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cd2eddf6cc88737375998237db97ca699a676170
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="bottlenecks-in-the-biztalk-server-tier"></a>BizTalk Server 層中的瓶頸
 BizTalk 層可以區分為下列功能區域：  
@@ -121,7 +121,7 @@ BizTalk 層可以區分為下列功能區域：
 ### <a name="other-system-resource-contention"></a>其他系統資源爭用  
  根據傳輸類型，可能必須設定 IIS 的 HTTP （例如，MaxIOThreads、 MaxWorkerThreads） 之類的系統資源。  
   
- ASP.NET 2.0 與 ASP.Net 4 \<processModel autoConfig ="true"/ > 在 machine.config 檔案中的設定會自動設定下列設定以獲得最佳效能：  
+ ASP.NET 2.0 與 ASP.Net 4 \<processModel autoConfig ="true"\> machine.config 檔案中的設定會自動設定下列設定以獲得最佳效能：  
   
 -   最大工作者執行緒  
   
@@ -131,7 +131,7 @@ BizTalk 層可以區分為下列功能區域：
   
 -   minLocalRequestFreeThreads httpRuntime 元素屬性  
   
--   maxConnection 屬性\<connectionManagement > 項目 （網路設定） 項目  
+-   maxConnection 屬性\<connectionManagement\>項目 （網路設定） 項目  
   
  如需設定會影響配接器效能的參數的詳細資訊，請參閱[processModel 項目的 ASP.NET 組態設定](http://go.microsoft.com/fwlink/?LinkId=158080)(http://go.microsoft.com/fwlink/?LinkId=158080)。  
   
@@ -228,5 +228,5 @@ BizTalk 層可以區分為下列功能區域：
   
  在每個中斷點，您可以檢查有關區域變數、訊息及其屬性、連接埠和角色連結的資訊。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [尋找並排除瓶頸](../technical-guides/finding-and-eliminating-bottlenecks.md)

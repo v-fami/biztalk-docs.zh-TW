@@ -13,11 +13,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 82e10a6800786ae502a6508287581a6a4f827b39
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 94cb4b8cfdb0315b55aa88ddd385396ff967b8f6
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="overview-of-the-wcf-channel-model-with-the-oracle-database-adapter"></a>使用 Oracle 資料庫配接器的 WCF 通道模型概觀
 在叫用作業[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]，您的程式碼做為 WCF 用戶端，並將傳出作業傳送至配接器。 在 WCF 通道模型中，您的程式碼會透過通道傳送的要求訊息叫用的介面卡上的作業。  
@@ -45,11 +45,11 @@ ms.lasthandoff: 09/20/2017
   
  像任何 WCF 繫結，[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]用以提供應用程式程式碼的通道處理站模式。 您使用**Microsoft.Adapters.OracleDBBinding**物件建立的執行個體：  
   
--   **System.ServiceModel.ChannelFactory\<IRequestChannel >**提供**IRequestChannel**通道可用來叫用的介面卡上的要求-回應作業。  
+-   **System.ServiceModel.ChannelFactory\<IRequestChannel\>** 提供**IRequestChannel**通道可用來叫用的介面卡上的要求-回應作業。  
   
--   **System.ServiceModel.ChannelFactory\<IOutputChannel >**提供**IOutputChannel**通道可用來叫用的介面卡上的單向作業。  
+-   **System.ServiceModel.ChannelFactory\<IOutputChannel\>** 提供**IOutputChannel**通道可用來叫用的介面卡上的單向作業。  
   
--   **System.ServiceModel.IChannelListener\<IInputChannel >**提供**IInputChannel**通道可用來從配接器接收內送的訊息 （例如 POLLINGSTMT 作業）。  
+-   **System.ServiceModel.IChannelListener\<IInputChannel\>** 提供**IInputChannel**通道可用來從配接器接收內送的訊息 （例如 POLLINGSTMT 作業）.  
   
 ### <a name="creating-messages-for-the-oracle-database-adapter-in-the-wcf-channel-model"></a>正在建立 Oracle 資料庫配接器 WCF 通道模型中的訊息  
  在 WCF 中**System.ServiceModel.Channels.Message**類別會提供在記憶體中表示 SOAP 訊息。 您建立**訊息**叫用靜態執行個體**Message.Create**方法。  
@@ -61,7 +61,7 @@ ms.lasthandoff: 09/20/2017
 -   訊息內文包含作業的參數資料。 訊息本文由格式正確對應至所預期的訊息結構描述的 XML 組成[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]要求的作業。 下列的訊息本文指定 SCOTT 上的選取作業。EMP 資料表 (選取 * 從 EMP)。  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>  
+    <?xml version="1.0" encoding="utf-8" ?>  
     <Select xmlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP">  
         <COLUMN_NAMES>*</COLUMN_NAMES>  
     </Select>  
@@ -88,5 +88,5 @@ Message messageIn = Message.CreateMessage(MessageVersion.Default,
   
  如需實作串流處理您的程式碼，以支援端對端 LOB 資料的資料流中的節點值的詳細資訊，請參閱[串流處理 Oracle 資料庫的 LOB 資料類型使用 WCF 通道模型](../../adapters-and-accelerators/adapter-oracle-database/streaming-oracle-database-lob-data-types-using-the-wcf-channel-model.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [開發 Oracle 資料庫應用程式使用 WCF 通道模型](../../adapters-and-accelerators/adapter-oracle-database/develop-oracle-database-applications-using-the-wcf-channel-model.md)

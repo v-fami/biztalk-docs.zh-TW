@@ -17,11 +17,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8374e2069660998a46265986125b6b0159ea1961
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1879cb4d748e974454f929bde2018c24b5d276f2
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="xslt-transform-component-biztalk-server-sample"></a>XSLT 轉換元件 (BizTalk Server 範例)
 「XSLT 轉換元件」範例示範如何使用 XSLT 撰寫自訂管線元件以轉換 XML 訊息。  
@@ -34,7 +34,7 @@ ms.lasthandoff: 09/20/2017
 2.  管線使用 Transform.xsl 將 XML 文件轉換為 HTML 電子郵件內文。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- *\<範例路徑 >*\Pipelines\XslTransformComponent\  
+ *\<範例路徑\>*\Pipelines\XslTransformComponent\  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -60,7 +60,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  在命令視窗中，將目錄變更 (**cd)**至下列資料夾：  
   
-     *\<範例路徑 >*\Pipelines\XslTransformComponent  
+     *\<範例路徑\>*\Pipelines\XslTransformComponent  
   
 2.  執行檔案 Setup.bat，這會執行下列動作：  
   
@@ -70,7 +70,7 @@ ms.lasthandoff: 09/20/2017
   
     -   建置和部署「XSLT 轉換元件」管線。  
   
-    -   若要建置的管線元件會將複製\<安裝路徑 > \Pipeline Components 資料夾。  
+    -   若要建置的管線元件會將複製\<安裝路徑\>\Pipeline Components 資料夾。  
   
     -   建立傳送埠和接收埠。  
   
@@ -107,5 +107,5 @@ ms.lasthandoff: 09/20/2017
   
 2.  檢查 SMTP 設定之傳送目標接收者的郵件用戶端中的結果。  
   
-## <a name="see-also"></a>另請參閱  
- [管線 （BizTalk Server 範例資料夾）](../core/pipelines-biztalk-server-samples-folder.md)
+## <a name="see-also"></a>請參閱  
+ [管線 (BizTalk Server Samples 資料夾)](../core/pipelines-biztalk-server-samples-folder.md)

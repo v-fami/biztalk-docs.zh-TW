@@ -24,11 +24,11 @@ caps.latest.revision: "18"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e933e9b50c99e11013ceaedf65c4f253ad1620c2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f34abe4d9d8b97b1c61bfc6201c3d36b977d0697
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-configure-tracking-for-a-pipeline"></a>如何設定管線的追蹤
 本主題描述如何使用「BizTalk Server 管理」來設定管線追蹤。 您可能需要設定追蹤做為疑難排解和稽核之用。 您可以檢視訊息屬性、 連接埠事件和訊息事件。 您也可以追蹤訊息事件和訊息的連接埠事件。  
@@ -51,7 +51,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  執行下列其中之一：  
   
-    -   若要設定追蹤其中一個預設 BizTalk 管線中，展開 \<所有成品 >。  
+    -   若要設定追蹤其中一個預設 BizTalk 管線中，展開 \<所有成品\>。  
   
     -   若要設定追蹤已部署到 BizTalk 應用程式的自訂管線，請展開包含管線的應用程式。  
   
@@ -69,5 +69,5 @@ ms.lasthandoff: 09/20/2017
     |**管線處理之前的訊息**|選取此核取方塊以儲存及追蹤管線所接收的訊息內文，其中包含 URL 及升級屬性等中繼資料。 若此管線屬於接收管線，則訊息內文即為傳輸元件提交給管線的原始訊息。 視您的應用程式而定，訊息可能經過加密、簽章或編碼。 使用 BizTalk 對應時，如果此管線屬於接收管線，則會在處理輸入對應之後執行追蹤。<br /><br /> 此核取方塊才**訊息傳送與接收事件**已選取。|  
     |**管線處理後的訊息**|選取此核取方塊以儲存及追蹤管線所傳送的訊息內文，其中包含 URL 及升級屬性等中繼資料。 若此管線屬於接收管線，則訊息內文即為要提交給 MessageBox 資料庫的已處理訊息，視您的應用程式而定，這個訊息可能是 XML。 使用 BizTalk 對應時，如果此管線屬於傳送管線，則會在處理輸出對應之前執行追蹤。<br /><br /> 此核取方塊才**訊息傳送與接收事件**已選取。|  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理管線](../core/managing-pipelines.md)

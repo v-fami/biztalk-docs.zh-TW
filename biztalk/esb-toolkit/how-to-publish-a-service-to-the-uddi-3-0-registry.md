@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ca41923dc4c392959af9f19cf3b7c32f6bfe7c20
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: da3d2dc400c031ab5febda1568cb18ce5180366b
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-publish-a-service-to-the-uddi-30-registry"></a>如何： 將服務發行至 UDDI 3.0 登錄
 ## <a name="goal"></a>目標  
@@ -136,7 +136,7 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-create-an-itinerary-model-to-test-the-uddi-service-publication"></a>若要建立路線的模型來測試 UDDI 服務發行  
   
-1.  在[!INCLUDE[vs2010](../includes/vs2010-md.md)]，開啟 C:\HowTos\Patterns\Patterns.sln。  
+1.  在 Visual Studio 中開啟 C:\HowTos\Patterns\Patterns.sln。  
   
 2.  在 方案總管 中，以滑鼠右鍵按一下**ItineraryLibrary**專案，指向**新增**，然後按一下 **新的行程**。  
   
@@ -272,8 +272,8 @@ ms.lasthandoff: 09/20/2017
 ## <a name="additional-resources"></a>其他資源  
  如需詳細資訊，請參閱下列相關主題：  
   
--   [如何： 解決使用繫結機碼搜尋 UDDI 服務端點](../esb-toolkit/how-to-resolve-a-service-endpoint-using-a-uddi-binding-key-search.md)  
+-   [如何：使用 UDDI 繫結索引鍵搜尋解決服務端點](../esb-toolkit/how-to-resolve-a-service-endpoint-using-a-uddi-binding-key-search.md)  
   
--   [如何： 解決使用 UDDI 類別目錄搜尋之服務端點](../esb-toolkit/how-to-resolve-a-service-endpoint-using-a-uddi-category-search.md)  
+-   [如何：使用 UDDI 類別搜尋解決服務端點](../esb-toolkit/how-to-resolve-a-service-endpoint-using-a-uddi-category-search.md)  
   
 -   [開發活動](../esb-toolkit/development-activities.md)

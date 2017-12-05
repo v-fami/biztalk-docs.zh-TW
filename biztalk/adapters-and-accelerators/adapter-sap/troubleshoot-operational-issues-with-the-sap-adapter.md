@@ -13,11 +13,11 @@ caps.latest.revision: "32"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5298782f23cb8c7c32a2bcbd512f3a1b78f8a69d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f98a4f7b9ed0a504c3adc245916ca9d39af7a7fe
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="troubleshoot-operational-issues-with-the-sap-adapter"></a>SAP 配接器疑難排解操作問題
 本章節將討論使用來解析作業使用時可能遭遇的錯誤的疑難排解技術[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]。  
@@ -110,9 +110,9 @@ Change the object graph or increase the MaxItemsInObjectGraph quota.
  範例 app.config 看起來將如下所示。  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <configuration>  
-  \<system.serviceModel>  
+  <system.serviceModel>  
     <behaviors>  
       <endpointBehaviors>  
         <behavior name="NewBehavior">  
@@ -124,7 +124,7 @@ Change the object graph or increase the MaxItemsInObjectGraph quota.
       <endpoint   behaviorConfiguration="NewBehavior" binding="sapBinding"  
        contract="IOutboundContract" name="sap_ICalculator" />  
     </client>  
-  \</system.serviceModel>  
+  </system.serviceModel>  
 </configuration>  
 ```  
   
@@ -172,7 +172,7 @@ System.ArgumentNullException: Value cannot be null.
   
 ```  
 Microsoft.ServiceModel.Channels.Common.XmlReaderParsingException: Invalid argument:  
-\<BtsActionMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+<BtsActionMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
   <Operation Name="<operation_name>" Action="<action>" />  
 </BtsActionMapping>  
 ```  
@@ -290,7 +290,7 @@ System.Exception: Loading property information list by namespace failed or prope
   
  **解決方式**  
   
- BizTalk 屬性結構描述的名稱[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]是*Microsoft.Adapters.SAP.BiztalkPropertySchema.dll*。 這會安裝[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]下安裝\<安裝磁碟機 >: \Program Files\Microsoft BizTalk 配接器 Pack\bin。 執行下列工作將這個組件新增為 BizTalk 應用程式中的資源。  
+ BizTalk 屬性結構描述的名稱[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]是*Microsoft.Adapters.SAP.BiztalkPropertySchema.dll*。 這會安裝[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]下安裝\<安裝磁碟機\>: \Program Files\Microsoft BizTalk 配接器 Pack\bin。 執行下列工作將這個組件新增為 BizTalk 應用程式中的資源。  
   
 #### <a name="add-an-assembly-as-a-resource-in-biztalk-application"></a>加入組件為 BizTalk 應用程式中的資源  
   
@@ -350,7 +350,7 @@ Reason: The document failed to validate because of the following error:
   
 ```  
 Microsoft.ServiceModel.Channels.Common.UnsupportedOperationException: Incorrect Action   
-\<BtsActionMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+<BtsActionMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
   <Operation Name="<op_name>" Action="<action>" />  
 </BtsActionMapping>. Correct the specified Action, or refer to the documentation on the allowed formats for the Actions.  
 ```  
@@ -462,5 +462,5 @@ The element 'bindings' has invalid child element 'sapBinding'. List of possible 
   
  BizTalk Server 應用程式使用單一的一般作業的結構描述檔案。 如果您需要在相同主機上的多個 BizTalk Server 應用程式中使用的一般作業的結構描述，建立包含單一的一般作業結構描述的應用程式，然後再使用 BizTalk Server 中的 從所有其他應用程式的一般作業結構描述。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [SAP 配接器進行疑難排解](../../adapters-and-accelerators/adapter-sap/troubleshoot-the-sap-adapter.md)

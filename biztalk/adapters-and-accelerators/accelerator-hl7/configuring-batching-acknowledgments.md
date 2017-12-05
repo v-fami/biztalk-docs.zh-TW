@@ -15,18 +15,18 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a788b83614c809505d632848a5a789070948fed5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 60e6c9b3a6fadfcc0407c1b4fa206d0f966fa7dd
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="configuring-batching-acknowledgments"></a>設定批次處理通知
 您使用[!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]組態總管，以指定輸入和產生通知的通知屬性。  
   
 ### <a name="to-run-btahl7-configuration-explorer"></a>若要執行 BTAHL7 組態總管  
   
--   按一下**啟動**，指向 **程式**，指向  **Microsoft BizTalk\<版本 > Accelerator for HL7**，然後按一下  **BTAHL7組態總管**。  
+-   按一下**啟動**，指向 **程式**，指向  **Microsoft BizTalk\<版本\>Accelerator for HL7**，然後按一下  **BTAHL7 Configuration 總管**。  
   
 ### <a name="to-configure-message-batching-acknowledgments"></a>若要設定批次處理通知訊息  
   
@@ -50,5 +50,5 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  通知與片段關閉產生批次訊息將包含 MSH12.1 2.4 值。 您可以手動修改的版本號碼，藉由套用在傳送管線中的對應。 如需詳細資訊，請參閱[建立及處理通知](../../adapters-and-accelerators/accelerator-hl7/creating-and-processing-acknowledgments.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [設定批次處理](../../adapters-and-accelerators/accelerator-hl7/configuring-batching.md)

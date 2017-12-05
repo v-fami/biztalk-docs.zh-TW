@@ -17,11 +17,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1f69fbeb86cf63485591f048ef75cdcfd3d5056d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 22a0d6e48d1a33e4d7c0aec8a1231346a671c1ef
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="create-a-channel-using-sap"></a>建立使用 SAP 的通道
 在 WCF 通道模型中，SAP 系統上叫用作業，或從 SAP 系統接收訊息，藉由交換的 SOAP 訊息[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]透過 WCF 通道。  
@@ -99,9 +99,9 @@ channel.Open();
  下列程式碼示範使用上述範例的組態設定。 用戶端端點的合約必須是"System.ServiceModel.Channels.IRequestChannel"或"System.ServiceModel.Channels.IRequestChannel 」，您想要建立的通道類型的類型而定。  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <configuration xmlns="http://schemas.microsoft.com/.NetConfiguration/v2.0">  
-    \<system.serviceModel>  
+    <system.serviceModel>  
         <bindings>  
             <sapBinding>  
                 <binding name="SAPBinding" closeTimeout="00:01:00" openTimeout="00:01:00"  
@@ -119,7 +119,7 @@ channel.Open();
                 binding="sapBinding" bindingConfiguration="SAPBinding" contract="System.ServiceModel.Channels.IRequestChannel"  
                 name="MyRequestChannel" />  
         </client>  
-    \</system.serviceModel>  
+    </system.serviceModel>  
 </configuration>  
 ```  
   
@@ -134,7 +134,7 @@ channel.Open();
   
 3.  建立**BindingParameterCollection**並加入**InboundActionCollection** ，其中包含您想要接收的作業動作。 配接器會將例外狀況傳回至 SAP 系統的所有其他作業。 此步驟是選擇性的。 如需詳細資訊，請參閱[接收輸入作業使用的 WCF 通道模型的 SAP 系統從](../../adapters-and-accelerators/adapter-sap/receive-inbound-operations-from-the-sap-system-using-the-wcf-channel-model.md)。  
   
-4.  叫用來建立通道接聽程式**BuildChannelListener\<IReplyChannel >**方法**SAPBinding**。 您可以指定 SAP 連線 URI 為其中一個參數，這個方法。 連線 URI 必須包含參數的 RFC 目的地 SAP 系統上。 如需有關 SAP 連線 URI 的詳細資訊，請參閱[建立 SAP 系統連接 URI](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md)。 如果您建立**BindingParameterCollection**在步驟 3 中，您也指定這當建立通道接聽程式。  
+4.  叫用來建立通道接聽程式**BuildChannelListener\<IReplyChannel\>** 方法**SAPBinding**。 您可以指定 SAP 連線 URI 為其中一個參數，這個方法。 連線 URI 必須包含參數的 RFC 目的地 SAP 系統上。 如需有關 SAP 連線 URI 的詳細資訊，請參閱[建立 SAP 系統連接 URI](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md)。 如果您建立**BindingParameterCollection**在步驟 3 中，您也指定這當建立通道接聽程式。  
   
 5.  開啟接聽程式。  
   
@@ -175,5 +175,5 @@ channel = listener.AcceptChannel();
 channel.Open();  
 ```  
   
-## <a name="see-also"></a>另請參閱  
-[開發應用程式使用 WCF 通道模型](../../adapters-and-accelerators/adapter-sap/develop-sap-applications-using-the-wcf-channel-model.md)
+## <a name="see-also"></a>請參閱  
+[使用 WCF 通道模型開發應用程式](../../adapters-and-accelerators/adapter-sap/develop-sap-applications-using-the-wcf-channel-model.md)

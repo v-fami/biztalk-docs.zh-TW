@@ -12,11 +12,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6950326994e99dcbc2ecff49a36f7441f3c219d4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b22607193ed7c345388a6435e2d58c16b8986370
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="bam-command-line-script-for-notification-services-configuration-files"></a>用於處理 Notification Services 組態檔的 BAM 命令列指令碼
 系統管理員可使用 ProcessBamNSFiles.vbs 指令碼，以針對 BAM 警示自訂 SQL Server Notification Services 的行為。 使用這個指令碼可以取得 Notification Services 應用程式定義檔 (ADF) 及 Notification Services 組態檔。 而在修改這些檔案後，您也可以利用指令碼套用變更。  
@@ -26,7 +26,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="get-command"></a>Get 命令  
  **使用方式**  
   
- **cscript ProcessBamNSFiles-Get\<組態檔路徑 > \<ADF 檔案路徑 >\<主要匯入伺服器 >\<主要匯入資料庫 >**  
+ **cscript ProcessBamNSFiles-Get\<組態檔路徑\> \<ADF 檔案路徑\>\<主要匯入伺服器\>\<主要匯入資料庫  \>**  
   
 |參數|Description|  
 |---------------|-----------------|  
@@ -40,7 +40,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="update-command"></a>Update 命令  
  **使用方式**  
   
- **cscript ProcessBamNSFiles-Update \<configfilepath >\<組態檔路徑 > \<primaryimport 伺服器 >\<主要匯入資料庫 >**  
+ **cscript ProcessBamNSFiles-Update \<configfilepath\> \<組態檔路徑\>\<primaryimport 伺服器\>\<主要匯入資料庫  \>**  
   
 |參數|Description|  
 |---------------|-----------------|  
@@ -51,5 +51,5 @@ ms.lasthandoff: 09/20/2017
   
  呼叫 Notification Services 並將其設定更新為指定檔案中的資訊。 組態檔及 ADF 檔案均儲存於 BAM 主要匯入資料庫。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [BAM 命令列工具](../core/bam-command-line-tools.md)

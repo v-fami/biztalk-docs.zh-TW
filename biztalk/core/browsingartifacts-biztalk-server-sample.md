@@ -12,11 +12,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 32e29f945d9d20cd2ea998e0fa05eda6b52174ee
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b7a9d88e0a3c765e3bd143b966bf699eb7730d8f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="browsingartifacts-biztalk-server-sample"></a>BrowsingArtifacts （BizTalk Server 範例）
 BrowsingArtifacts 範例示範如何列舉 BizTalk 成品和屬性。  
@@ -33,7 +33,7 @@ BrowsingArtifacts 範例示範如何列舉 BizTalk 成品和屬性。
 ## <a name="where-to-find-this-sample"></a>此範例的位置  
  這個範例位於下列 SDK 位置：  
   
- \<*範例路徑*> \Admin\ExplorerOM\BrowsingArtifacts  
+ \<*範例路徑*\>\Admin\ExplorerOM\BrowsingArtifacts  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -54,7 +54,7 @@ BrowsingArtifacts 範例示範如何列舉 BizTalk 成品和屬性。
   
 1.  開啟命令視窗並巡覽至下列資料夾：  
   
-     \<*範例路徑*> \Admin\ExplorerOM\BrowsingArtifacts\bin\Debug  
+     \<*範例路徑*\>\Admin\ExplorerOM\BrowsingArtifacts\bin\Debug  
   
 2.  執行檔案 BrowsingArtifacts.exe。  
   
@@ -300,5 +300,5 @@ BTSWhitespaceTest.Map1 :
          FFDisassemblerWalkthrough.Body ==> BTSWhitespaceTest.Schema1  
 ```  
   
-## <a name="see-also"></a>另請參閱  
- [系統管理員 ExplorerOM （BizTalk Server 範例資料夾）](../core/admin-explorerom-biztalk-server-samples-folder.md)
+## <a name="see-also"></a>請參閱  
+ [Admin-ExplorerOM (BizTalk Server Samples 資料夾)](../core/admin-explorerom-biztalk-server-samples-folder.md)

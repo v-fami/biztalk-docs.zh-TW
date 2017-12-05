@@ -12,11 +12,11 @@ caps.latest.revision: "18"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e77f72effa1a9c9193f9ce589ebe22b65feb5a85
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ec807cf6b596f7e89f607ebeb56700c59134c211
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-configure-a-strong-name-assembly-key-file"></a>如何設定強式名稱組件金鑰檔案
 在部署 BizTalk 解決方案的程序中，[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 會先建置組件。 部署程序要求每個組件都應經過強式簽署。 您可以將專案與強式名稱組件金鑰檔案產生關聯，即可強式簽署組件。 如果您還沒有，部署從解決方案之前[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]，來產生強式名稱組件金鑰檔案，並將它指派給每個專案方案中使用下列程序。  
@@ -34,7 +34,7 @@ ms.lasthandoff: 09/20/2017
   
      範例： **sn /k ErrorHandling.snk**  
   
-     確認訊息，**金鑰組寫入** \< *file_name*>**.snk** `,`會出現在命令列。  
+     確認訊息，**金鑰組寫入** \< *file_name*\>**.snk** `,`會出現在命令列。  
   
 3.  在[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]方案總管 中，以滑鼠右鍵按一下專案，然後按一下**屬性**。  
   
@@ -44,5 +44,5 @@ ms.lasthandoff: 09/20/2017
   
 6.  針對您想要使用此強式名稱組件金鑰檔案部署方案中的每個專案重複步驟 3 到 6。  
   
-## <a name="see-also"></a>另請參閱  
- [部署 BizTalk 組件從 Visual Studio 到 BizTalk 應用程式](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md)
+## <a name="see-also"></a>請參閱  
+ [從 Visual Studio 將 BizTalk 組件部署到 BizTalk 應用程式](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md)

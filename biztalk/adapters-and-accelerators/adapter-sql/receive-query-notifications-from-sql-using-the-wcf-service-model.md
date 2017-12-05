@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5507bbb21d1b5648a10be2230dd4476eacca1c78
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b21d2123b646a02669a9da65efc5069931e64c69
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="receive-query-notifications-from-sql-using-the-wcf-service-model"></a>使用 WCF 服務模型的 sql 接收查詢通知
 本主題示範如何設定[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]接收查詢通知訊息從 SQL Server 資料庫。 為了示範通知，請考慮的資料表，員工與 「 狀態 」 資料行。 當新的記錄插入此資料表時，[狀態] 欄的值設定為 0。 您可以設定配接器接收通知，請註冊通知使用 SQL 陳述式可擷取所有記錄狀態 欄位為"0"。 您可以藉由指定的 SQL 陳述式**NotificationStatement**繫結屬性。 配接器用戶端會收到通知之後，它可以包含執行 SQL Server 資料庫上的任何後續工作的邏輯。 在此範例中，為了簡單起見，配接器用戶端會列出所有記錄資料表中的，[狀態] 欄為"0"。  
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/20/2017
 |繫結屬性|Description|  
 |----------------------|-----------------|  
 |**InboundOperationType**|指定輸入您想要執行的作業。 若要接收通知訊息，將此設**通知**。|  
-|**NotificationStatement**|指定的 SQL 陳述式 (SELECT 或 EXEC \<*預存程序*>) 用於註冊查詢通知。 在結果集為指定的 SQL 陳述式變更時，才配接器從 SQL Server 取得通知訊息。|  
+|**NotificationStatement**|指定的 SQL 陳述式 (SELECT 或 EXEC \<*預存程序*\>) 用來註冊查詢通知。 在結果集為指定的 SQL 陳述式變更時，才配接器從 SQL Server 取得通知訊息。|  
 |**NotifyOnListenerStart**|指定是否配接器傳送通知給配接器用戶端啟動接聽程式時。|  
   
  如需這些屬性的更完整說明，請參閱[閱讀 BizTalk Adapter for SQL Server 配接器繫結屬性](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md)。 如需完整的說明，如何使用[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]進一步要從 SQL Server 中接收通知，閱讀。  
@@ -174,7 +174,7 @@ namespace SqlAdapterBindingNamespace {
   
                 Console.WriteLine("The details of the newly added employee are:");  
                 Console.WriteLine("********************************************");  
-                for (int i = 0; i \< selectRecords.Length; i++)  
+                for (int i = 0; i < selectRecords.Length; i++)  
                 {  
                     Console.WriteLine("Employee Name      : " + selectRecords[i].Name);  
                     Console.WriteLine("Employee Designation: " + selectRecords[i].Designation);  
@@ -431,5 +431,5 @@ namespace Notification_ServiceModel
   
 ```  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [開發 SQL 應用程式使用 WCF 服務模型](../../adapters-and-accelerators/adapter-sql/develop-sql-applications-using-the-wcf-service-model.md)

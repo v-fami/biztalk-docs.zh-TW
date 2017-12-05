@@ -15,11 +15,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 20b0f8db3f1b7549f6189b348b7353d6dac159a7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9ba487bcd5d6d245c979dec903613465ae54f8d9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="troubleshoot-performance-issues-with-the-oracle-database-adapter"></a>搭配 Oracle 資料庫配接器的效能問題疑難排解
 本章節將討論使用來解決使用時，可能會遇到效能問題的疑難排解技巧[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]。  
@@ -47,7 +47,7 @@ ms.lasthandoff: 09/20/2017
   
  **解決方式**  
   
- 安裝.NET \<*版本*> (x64) 64 位元電腦上的。  
+ 安裝.NET \<*版本*\> (x64) 64 位元電腦上的。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [疑難排解 Oracle 資料庫 adapter.md](../../adapters-and-accelerators/adapter-oracle-database/troubleshoot-the-oracle-database-adapter.md)

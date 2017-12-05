@@ -12,21 +12,21 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e4c8c18f394b800ffeee9994294b2d2dbf0cb3a1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f366eb2827859f8d720c74e670808aebfb0665b2
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="high-availability-for-the-master-secret-server"></a>主要密碼伺服器的高可用性
-即使您未使用 「 企業單一登入 (SSO) 功能來對應認證和單一登入，SSO 會是很重要的一部分整體 Microsoft[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]基礎結構，因為[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]會使用 SSO 協助保護連接埠的資訊組態設定。 連接埠組態資料已加密，並儲存在 SSO 資料庫中。 每個 BizTalk server 已用於加密及解密連接埠組態資料的 SSO 服務 (ENTSSO.exe)。  
+即使您未使用 「 企業單一登入 (SSO) 功能來對應認證和單一登入，SSO 是很重要的一部分整體的 Microsoft BizTalk Server 基礎結構，因為[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]會使用 SSO 協助保護連接埠的資訊組態設定。 連接埠組態資料已加密，並儲存在 SSO 資料庫中。 每個 BizTalk server 已用於加密及解密連接埠組態資料的 SSO 服務 (ENTSSO.exe)。  
   
  SSO 服務啟動時，它會從主要密碼伺服器擷取加密金鑰。 此加密金鑰稱為主要密碼。 主要密碼伺服器是另一個有額外的子服務會維護並散發主要密碼的 SSO 服務。 擷取主要密碼之後，SSO 服務會快取它。 每隔 60 秒，SSO 服務會同步處理主要密碼主要密碼伺服器。  
   
  如果主要密碼伺服器失敗，以及 SSO 服務中的其中一個它的重新整理間隔會偵測失敗，SSO 服務及伺服器失敗，包括解密的憑證之前執行的所有執行階段作業繼續成功。 不過，您也無法加密新的認證或連接埠組態資料。 因此，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境具有主要密碼伺服器的可用性相依性。  
   
 ## <a name="making-the-master-secret-server-available"></a>讓主要密碼伺服器可用  
- 可用的 SSO 系統，因此的[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境中，相當重要，因為它會產生備份主要密碼。 若遺失該主要密碼，您將遺失使用它來加密的 SSO 系統資料。 如需備份主要密碼的詳細資訊，請參閱[如何重新設定主要密碼](http://go.microsoft.com/fwlink/?LinkID=151934)(http://go.microsoft.com/fwlink/?LinkID=151934) 中[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]幫助。  
+ 可用的 SSO 系統，因此的[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境中，相當重要，因為它會產生備份主要密碼。 若遺失該主要密碼，您將遺失使用它來加密的 SSO 系統資料。 如需備份主要密碼的詳細資訊，請參閱[如何重新設定主要密碼](http://go.microsoft.com/fwlink/?LinkID=151934)(http://go.microsoft.com/fwlink/?LinkID=151934) 在 BizTalk Server 說明中。  
   
  可使用兩種方法讓主要密碼伺服器可用：  
   
@@ -38,7 +38,7 @@ ms.lasthandoff: 09/20/2017
   
      ![高可用性的主要密碼伺服器](../core/media/tdi-highava-msscluster.gif "TDI_HighAva_MSSCluster")  
   
-     雖然此組態高度可用，它仍然需要額外的硬體資源。 如需 SSO 的高可用性安裝選項的詳細資訊，請參閱[高可用性 SSO 安裝選項](http://go.microsoft.com/fwlink/?LinkId=156838)(http://go.microsoft.com/fwlink/?LinkId=156838) 中[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]幫助。  
+     雖然此組態高度可用，它仍然需要額外的硬體資源。 如需 SSO 的高可用性安裝選項的詳細資訊，請參閱[高可用性 SSO 安裝選項](http://go.microsoft.com/fwlink/?LinkId=156838)(http://go.microsoft.com/fwlink/?LinkId=156838) 在 BizTalk Server 說明中。  
   
      本節包含設定為高可用性的叢集資源的 SSO 主要密碼伺服器上的詳細的資訊[!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)]叢集。  
   
@@ -51,7 +51,7 @@ ms.lasthandoff: 09/20/2017
   
 -   [手動指定新的主要密碼伺服器](../technical-guides/designating-a-new-master-secret-server-manually.md)  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [規劃高 Availability2](../technical-guides/planning-for-high-availability2.md)   
  [BizTalk 主控件的高可用性](../technical-guides/high-availability-for-biztalk-hosts.md)   
  [資料庫的高可用性](../technical-guides/high-availability-for-databases.md)

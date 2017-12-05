@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0ba308473568c222559ccc799faf3233478ee490
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c8284c1623329133533fe03aab567b1281f07c1a
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-convert-a-text-document-to-xml-and-route-to-a-file-location-using-an-itinerary-routing-slip"></a>如何： 將文字文件轉換成 XML 和路由至使用路線的路由名單檔案位置
 ## <a name="goal"></a>目標  
@@ -46,7 +46,7 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-deploy-the-dataformattransformation-itinerary"></a>若要部署 DataFormatTransformation 路線  
   
-1.  在[!INCLUDE[vs2010](../includes/vs2010-md.md)]，開啟 C:\Projects\Microsoft.Practices.ESB\Source\Samples\DataFormatTransformation\DataFormatTransformation.sln。  
+1.  在 Visual Studio 中開啟 C:\Projects\Microsoft.Practices.ESB\Source\Samples\DataFormatTransformation\DataFormatTransformation.sln。  
   
 2.  在 方案總管中**Itinerary.Library**專案中，按兩下**DataFormatTransformation.itinerary**在路線設計工具中開啟它。  
   
@@ -66,19 +66,19 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-create-the-receive-pipeline"></a>若要建立的接收管線  
   
-1.  在 Visual Studio 中，以滑鼠右鍵按一下**DataFormatTransformation.Schemas**，然後按一下**屬性**。 按一下**應用程式**，然後輸入**GlobalBank.ESB.DataFormatTransformation.Schemas**中**組件名稱**方塊。  
+1.  在 Visual Studio 中，以滑鼠右鍵按一下**DataFormatTransformation.Schemas**，然後按一下 **屬性**。 按一下**應用程式**，然後輸入**GlobalBank.ESB.DataFormatTransformation.Schemas**中**組件名稱**方塊。  
   
-2.  以滑鼠右鍵按一下**DataFormatTransformation.Schemas**，然後按一下**屬性**。 按一下**簽署**，然後確認**簽署組件**核取方塊已選取和組件位置指向**。\\...\\..\\..\\..\\..\keys\Microsoft.Practices.ESB.snk**。  
+2.  以滑鼠右鍵按一下**DataFormatTransformation.Schemas**，然後按一下 **屬性**。 按一下**簽署**，然後確認**簽署組件**核取方塊已選取和組件位置指向**。\\...\\..\\..\\..\\..\keys\Microsoft.Practices.ESB.snk**。  
   
-3.  以滑鼠右鍵按一下**DataFormatTransformation.Pipelines**，然後按一下**移除**。  
+3.  以滑鼠右鍵按一下**DataFormatTransformation.Pipelines**，然後按一下 **移除**。  
   
-4.  以滑鼠右鍵按一下**DataFormatTransformation**，指向 **新增**，然後按一下**新專案**。 按一下**Biztalk 專案**，然後按一下**空白 Biztalk Server 專案**。 在**名稱**方塊中，輸入**DataFormatTransformationReceive.Pipeline**。  
+4.  以滑鼠右鍵按一下**DataFormatTransformation**，指向 **新增**，然後按一下 **新專案**。 按一下**Biztalk 專案**，然後按一下 **空白 Biztalk Server 專案**。 在**名稱**方塊中，輸入**DataFormatTransformationReceive.Pipeline**。  
   
-5.  以滑鼠右鍵按一下**DataFormatTransformationReceive.Pipeline**，然後按一下**屬性**。 按一下**簽署**，然後確認**簽署組件**核取方塊已選取和組件位置指向**C:\projects\Microsoft.Practices.ESB\keys\Microsoft.Practices.ESB.snk**。  
+5.  以滑鼠右鍵按一下**DataFormatTransformationReceive.Pipeline**，然後按一下 **屬性**。 按一下**簽署**，然後確認**簽署組件**核取方塊已選取和組件位置指向**C:\projects\Microsoft.Practices.ESB\keys\Microsoft.Practices.ESB.snk**。  
   
-6.  以滑鼠右鍵按一下**DataFormatTransformationReceive.Pipeline**，指向 **新增**，然後按一下**新項目**。  
+6.  以滑鼠右鍵按一下**DataFormatTransformationReceive.Pipeline**，指向 **新增**，然後按一下 **新項目**。  
   
-7.  在**加入新項目**對話方塊中，按一下 **接收管線**在範本窗格中。 在**名稱**方塊中，輸入**ItinerarySelectReceiveFF**，然後按一下**新增**。  
+7.  在**加入新項目**對話方塊中，按一下 **接收管線**在範本窗格中。 在**名稱**方塊中，輸入**ItinerarySelectReceiveFF**，然後按一下 **新增**。  
   
 8.  以滑鼠右鍵按一下**參考**為 DataFormatTransformationReceive.Pipeline 專案，然後按一下**加入參考**。 按一下**專案**索引標籤，然後再按一下**DataFormatTransformation.Schemas**。 按一下**確定**將參考加入。  
   
@@ -98,9 +98,9 @@ ms.lasthandoff: 09/20/2017
   
     -   **產生執行個體輸出類型**。 按一下此屬性，以將它變更為的下拉式清單**原生**。  
   
-    -   **輸出執行個體檔案名稱**。 按一下省略符號按鈕 （...），這個屬性並接受 C:\Projects\Microsoft.Practices.ESB\Source\Samples\DataFormatTransformation 的預設路徑。 在**檔案名稱**方塊中，輸入**NAOrderDocFF**，然後按一下**儲存**。  
+    -   **輸出執行個體檔案名稱**。 按一下省略符號按鈕 （...），這個屬性並接受 C:\Projects\Microsoft.Practices.ESB\Source\Samples\DataFormatTransformation 的預設路徑。 在**檔案名稱**方塊中，輸入**NAOrderDocFF**，然後按一下 **儲存**。  
   
-2.  以滑鼠右鍵按一下**NAOrderDocFF.xsd**下**DataFormatTransformation.Schemas**，然後按一下**產生執行個體**。 此時，您應該有 C:\Projects\Microsoft.Practices.ESB\Source\Samples\DataFormatTransformation 目錄中產生新的檔案。  
+2.  以滑鼠右鍵按一下**NAOrderDocFF.xsd**下**DataFormatTransformation.Schemas**，然後按一下 **產生執行個體**。 此時，您應該有 C:\Projects\Microsoft.Practices.ESB\Source\Samples\DataFormatTransformation 目錄中產生新的檔案。  
   
 3.  複製 （不會移動） 檔案到 C:\HowTos 從 C:\Projects\Microsoft.Practices.ESB\Source\Samples\DataFormatTransformation NAOrderDocFF.txt。  
   
@@ -111,7 +111,7 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-deploy-the-receive-pipeline-and-the-schema"></a>若要部署的接收管線和結構描述  
   
-1.  以滑鼠右鍵按一下**DataFormatTransformationReceive.Pipeline**，然後按一下**屬性**。 按一下**部署**，然後輸入**Microsoft.Practices.ESB**中**應用程式名稱**方塊。  
+1.  以滑鼠右鍵按一下**DataFormatTransformationReceive.Pipeline**，然後按一下 **屬性**。 按一下**部署**，然後輸入**Microsoft.Practices.ESB**中**應用程式名稱**方塊。  
   
 2.  以滑鼠右鍵按一下**DataFormatTransformation.Schemas**專案，然後再按一下**屬性**。 按一下**部署**，然後輸入**Microsoft.Practices.ESB**中**應用程式名稱**方塊。  
   
@@ -121,25 +121,25 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-create-and-configure-an-esb-on-ramp"></a>若要建立及設定 ESB 上手  
   
-1.  按一下**啟動**在工作列上，指向**所有程式**，指向   **[!INCLUDE[prague](../includes/prague-md.md)]** ，然後按一下 **BizTalk Server 管理**.  
+1.  按一下**啟動**在工作列上，指向**所有程式**，指向  **BizTalk Server**，然後按一下  **BizTalk Server 管理**。  
   
-2.  在[!INCLUDE[prague](../includes/prague-md.md)]管理主控台中，展開  **BizTalk 群組**，依序展開**應用程式**，然後按一下 **Microsoft.Practices.ESB**。  
+2.  在 BizTalk Server 管理主控台中，展開**BizTalk 群組**，依序展開**應用程式**，然後按一下  **Microsoft.Practices.ESB**。  
   
-3.  以滑鼠右鍵按一下**接收位置**，指向 **新增**，然後按一下**單向接收位置**。  
+3.  以滑鼠右鍵按一下**接收位置**，指向 **新增**，然後按一下 **單向接收位置**。  
   
-4.  在**選取接收埠**對話方塊中，按一下  **OnRamp.Itinerary**，然後按一下**確定**。  
+4.  在**選取接收埠**對話方塊中，按一下  **OnRamp.Itinerary**，然後按一下 **確定**。  
   
 5.  在**接收位置屬性**對話方塊中，於**名稱**方塊中，輸入**OnRamp.Itinerary.FlatFile.FILE**。  
   
-6.  在**類型**下拉式清單中，按一下 **檔案**，然後按一下**設定**。  
+6.  在**類型**下拉式清單中，按一下 **檔案**，然後按一下 **設定**。  
   
 7.  在**FILE 傳輸屬性**對話方塊中，於**接收資料夾**方塊中，輸入**C:\HowTos\DropFolder**。  
   
-8.  中**FILE 傳輸屬性**對話方塊中，於**檔案遮罩**方塊中，輸入 **\*.txt**，然後按一下**確定**。  
+8.  中**FILE 傳輸屬性**對話方塊中，於**檔案遮罩**方塊中，輸入 **\*.txt**，然後按一下 **確定**。  
   
 #### <a name="to-configure-the-itinerary-selector-pipeline-component"></a>若要設定路線選取器管線元件  
   
-1.  在**接收位置屬性**對話方塊中，按一下  **ItinerarySelectReceiveFF**中**接收管線**下拉式清單中，然後按一下省略符號按鈕 （...）。  
+1.  在**接收位置屬性**對話方塊中，按一下  **ItinerarySelectReceiveFF**中**接收管線**下拉式清單中，然後按一下 省略符號按鈕 （...）。  
   
 2.  使用**設定管線**對話方塊來設定下列**路線選取器**元件屬性：  
   
@@ -149,7 +149,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  按一下**確定**關閉**接收位置屬性** 對話方塊。  
   
-4.  在[!INCLUDE[prague](../includes/prague-md.md)]管理主控台中，以滑鼠右鍵按一下**OnRamp.Itinerary.FlatFile.FILE**接收位置，然後按一下**啟用**。  
+4.  在 BizTalk Server 管理主控台中，以滑鼠右鍵按一下**OnRamp.Itinerary.FlatFile.FILE**接收位置，然後按一下**啟用**。  
   
 #### <a name="to-test-itinerary-based-routing-of-a-flat-file-message"></a>若要測試行程為基礎的一般檔案訊息的路由  
   
@@ -159,16 +159,16 @@ ms.lasthandoff: 09/20/2017
   
 3.  瀏覽至 C:\HowTos\Out。請確認 DFT%MessageID%.xml 訊息已寫入至目錄。  
   
-4.  在[!INCLUDE[prague](../includes/prague-md.md)]管理主控台中，以滑鼠右鍵按一下**OnRamp.Itinerary.FlatFile.FILE**接收位置，然後按一下**停用**。  
+4.  在 BizTalk Server 管理主控台中，以滑鼠右鍵按一下**OnRamp.Itinerary.FlatFile.FILE**接收位置，然後按一下**停用**。  
   
 5.  之後**OnRamp.Itinerary.FlatFile.FILE**接收位置已停用，以滑鼠右鍵按一下，，然後按一下**刪除**。 在**確認刪除接收位置**對話方塊中，按一下 **是**。  
   
 ## <a name="additional-resources"></a>其他資源  
  如需詳細資訊，請參閱下列相關主題：  
   
--   [如何： 轉換訊息，並將產生的訊息路由至使用路線的路由名單的檔案位置](../esb-toolkit/transform-message-and-route-the-message-to-a-location-using-itinerary-routing.md)  
+-   [如何：轉換訊息，並使用路線傳閱名單將產生的訊息路由至檔案位置](../esb-toolkit/transform-message-and-route-the-message-to-a-location-using-itinerary-routing.md)  
   
--   [如何： 將單一訊息路由至多個收件者使用路線路由名單](../esb-toolkit/route-a-single-message-to-multiple-recipients-using-an-itinerary-routing-slip.md)  
+-   [如何：使用路線傳閱名單將單一訊息路由至多個收件者](../esb-toolkit/route-a-single-message-to-multiple-recipients-using-an-itinerary-routing-slip.md)  
   
 -   [開發活動](../esb-toolkit/development-activities.md)  
   

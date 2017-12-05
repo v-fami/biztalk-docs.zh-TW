@@ -12,11 +12,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fbf134b390af1904d74f1652aac00f6ea4b33ad2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1b1835371e5c042d3ddc46558cbf97970f6bfc6c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="biztalk-message-body-element-encoding-is-invalid"></a>BizTalk 訊息內文項目編碼不正確
 ## <a name="details"></a>詳細資料  
@@ -56,4 +56,4 @@ ms.lasthandoff: 09/20/2017
 8.  在**WCF [***傳輸類型***] 傳輸屬性**對話方塊中，按一下 [**訊息**] 索引標籤。  
   
 9. 在**輸出 WCF 訊息內文**區段中，按一下**範本-由範本指定內容**選項按鈕。 在**XML**  文字方塊中，BizTalk 主體的格式應該是   
-    \<**bts 訊息主體 xmlns ="http://www.microsoft.com/schemas/bts2007"encoding ="[xml &#124; base64 &#124; 十六進位 &#124; 字串]"/**> （有效的值，也就是區分大小寫，如 xml & #124 base64 &#124; 十六進位編碼的&#124; 字串)
+    \<**bts 訊息主體 xmlns ="http://www.microsoft.com/schemas/bts2007"encoding ="[xml &#124; base64 &#124; 十六進位 &#124; 字串]"/** \> （有效的值，也就是區分大小寫，編碼為 xml &#124; base64 &#124; 十六進位 &#124; 字串）

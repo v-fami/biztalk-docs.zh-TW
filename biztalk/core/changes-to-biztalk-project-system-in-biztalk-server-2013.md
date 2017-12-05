@@ -12,14 +12,14 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: dff1f35955229306bc2f39e0af670f939dec82da
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 836ffa11e3b15b379b8f4a07def2269f0f29a453
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="changes-to-biztalk-project-system-in-biztalk-server-2013"></a>在 BizTalk Server 2013 中的 BizTalk 專案系統變更
-本主題提供您有關 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 中 BizTalk 專案系統變更的概要簡介。  
+本主題可讓您變更的概要 BizTalk 專案系統，BizTalk Server 中。  
   
 ## <a name="project-properties-are-displayed-in-project-designer-window"></a>專案屬性會顯示在專案設計工具視窗中  
  BizTalk Server 專案的屬性現在會顯示於 Visual Studio 的專案設計工具中，而非 [屬性] 對話方塊中。 專案設計工具提供了可供管理專案屬性、設定和資源的集中式位置。 專案設計工具會和其他設計工具 (如表單或類別設計工具) 一樣，以單一視窗的形式顯示在 Visual Studio IDE 中，並包含一些可透過左側索引標籤存取的頁面。 如需詳細資訊，請參閱[http://go.microsoft.com/fwlink/?LinkId=190417](http://go.microsoft.com/fwlink/?LinkId=190417)。  
@@ -58,7 +58,7 @@ ms.lasthandoff: 09/20/2017
  **偵錯對應功能**。 您可以使用 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 中內嵌的 XSLT 偵錯工具，以偵錯對應 (XSLT)。 如需詳細資訊，請參閱[如何偵錯對應](../core/how-to-debug-maps.md)。  
   
 ## <a name="migrating-biztalk-server-projects"></a>移轉的 BizTalk Server 專案  
- 使用 Visual Studio 轉換精靈，可以將針對較舊版本 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 開發的 Visual Studio 專案移轉至 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 環境。 如需詳細資訊，請參閱[移轉 BizTalk Server 專案](../core/migrating-a-biztalk-server-project.md)。  
+ 針對較早版本開發的 visual Studio 專案[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]可以使用 Visual Studio 轉換精靈移轉至 BizTalk Server 環境。 如需詳細資訊，請參閱[移轉 BizTalk Server 專案](../core/migrating-a-biztalk-server-project.md)。  
   
 ## <a name="release-and-debug-build-types"></a>發行和偵錯組建類型  
  BizTalk 專案現在有兩個組建類型：**發行**和**偵錯**，取代了**開發**和**部署**的前面版本。 不過，您將會繼續看見**開發**和**部署**從移轉的專案組態[!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)]。  
@@ -70,10 +70,10 @@ ms.lasthandoff: 09/20/2017
 >  Visual Studio 轉換精靈會負責將前述設定自動移轉到新環境。  
   
 ## <a name="user-access-control"></a>使用者存取控制  
- 除非您以系統管理權限執行 Visual Studio，否則 Visual Studio 不會讓您在已開啟使用者存取控制 (UAC) 功能的電腦上部署 BizTalk 專案。 以系統管理權限執行 Visual Studio，請按一下**啟動**，指向 **所有程式**，指向  **Microsoft Visual Studio**，以滑鼠右鍵按一下**Microsoft Visual Studio\<版本 >**，然後按一下 **系統管理員身分執行**。  
+ 除非您以系統管理權限執行 Visual Studio，否則 Visual Studio 不會讓您在已開啟使用者存取控制 (UAC) 功能的電腦上部署 BizTalk 專案。 以系統管理權限執行 Visual Studio，請按一下**啟動**，指向 **所有程式**，指向  **Microsoft Visual Studio**，以滑鼠右鍵按一下**Microsoft Visual Studio\<版本\>**，然後按一下 **系統管理員身分執行**。  
   
 ## <a name="c-files-in-a-biztalk-project"></a>BizTalk 專案中的 C# 檔案  
- [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]可讓您結合只有滿足您彈性封裝需要的 BizTalk 成品的 helper 類別。  不過，您無法加入新的 C# 檔案直接透過使用**加入新項目**或**加入新類別**功能表選項。  
+ BizTalk Server 可讓您結合只有滿足您彈性封裝需要的 BizTalk 成品的 helper 類別。  不過，您無法加入新的 C# 檔案直接透過使用**加入新項目**或**加入新類別**功能表選項。  
   
 ## <a name="generatecsfiles-registry-key-is-obsolete"></a>GenerateCSFiles 登錄機碼已過時  
  **GenerateCSFiles**登錄機碼現在已過時。 所有產生的 .cs 檔都會顯示在 [方案總管] 視窗中。 您可能需要按一下**顯示所有檔案**中，查看與某些 BizTalk 項目相關聯的.cs 檔案的 [方案總管] 視窗的工具列項目。

@@ -12,11 +12,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 621a36173677b3bf6a2221316e4c03aee8de84fa
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 72a72129a9b0ee48969d528374c2a06497aa3311
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="wcf-basichttprelay-adapter"></a>WCF-BasicHttpRelay 配接器
 [!INCLUDE[btsCoName](../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]使用**Wcf-basichttprelay**配接器來接收和傳送 WCF 服務要求，透過[BasicHttpRelayBinding 類別](https://msdn.microsoft.com/library/azure/microsoft.servicebus.basichttprelaybinding.aspx)。 **Wcf-basichttprelay**配接器會使用服務匯流排轉接端點使用**BasicHttpRelayBinding**。  
@@ -69,21 +69,21 @@ ms.lasthandoff: 09/20/2017
     |**服務憑證-指紋**|針對此接收位置指定用戶端用來驗證服務之 X.509 憑證的憑證指紋。 您可以使用 **[瀏覽]** 按鈕瀏覽至 **「目前使用者」** 位置的 **My** 存放區，以選取憑證指紋。 **注意：**您必須設定此屬性，只有當您設定**安全性模式**模式上方**訊息**或**TransportWithMessageCredential**。 這不是適用於您設定**安全性模式**至**無**或**傳輸**。 **注意：**您必須將服務憑證安裝到**目前使用者**裝載此接收位置的接收處理常式的使用者帳戶的位置。 <br /><br /> 最小長度：00<br /><br /> 最大長度：40<br /><br /> 預設為空字串。|  
     |**轉接用戶端驗證類型**|指定用於驗證接收訊息之服務匯流排轉接端點的選項。 有效值包括下列各項：<br /><br /> -   **無**： 都不需要驗證。<br />-   **RelayAccessToken**： 指定此選項可使用授權與服務匯流排轉接端點的安全性權杖。<br /><br /> 預設值為 **RelayAccessToken**。|  
     |**啟用服務探索**|選取此核取方塊，指定是否在服務登錄中發佈此服務的行為。<br /><br /> -   **顯示名稱**– 指定與服務發行至服務登錄的名稱。<br />-   **探索模式**– 設定服務登錄中發佈服務的探索模式。 如需探索模式的詳細資訊，請參閱 [http://msdn.microsoft.com/library/microsoft.servicebus.discoverytype.aspx](http://msdn.microsoft.com/library/microsoft.servicebus.discoverytype.aspx)。|  
-    |**存取控制服務**|適用於[!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)]和[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]2013年。<br/><br/>如果將 **[轉接用戶端驗證類型]** 設定為 **[RelayAccessToke]**，請按一下 **[編輯]** 按鈕並指定下列詳細資料：<br /><br /> -   **存取控制服務 STS Uri** – 將此設`https://<Namespace>-sb.accesscontrol.windows.net/`，其中\<命名空間 > 是您的服務匯流排命名空間。<br />-   **簽發者名稱**– 指定簽發者名稱。 此值通常設定為擁有者。<br />-   **簽發者金鑰**– 指定簽發者金鑰。|  
+    |**存取控制服務**|適用於[!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)]和[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]2013年。<br/><br/>如果將 **[轉接用戶端驗證類型]** 設定為 **[RelayAccessToke]**，請按一下 **[編輯]** 按鈕並指定下列詳細資料：<br /><br /> -   **存取控制服務 STS Uri** – 將此設`https://<Namespace>-sb.accesscontrol.windows.net/`，其中\<命名空間\>是您的服務匯流排命名空間。<br />-   **簽發者名稱**– 指定簽發者名稱。 此值通常設定為擁有者。<br />-   **簽發者金鑰**– 指定簽發者金鑰。|  
     |**服務匯流排連接資訊** | 新開頭[!INCLUDE[bts2016_md](../includes/bts2016-md.md)]。<br/><br/>選擇要使用的共用存取簽章 (SAS) 或存取控制服務 (ACS) 的服務匯流排命名空間。 <br/><br/>選取一個選項，然後選取**編輯**輸入索引鍵的資訊：<br/><br/> - **共用存取簽章**： 輸入存取索引鍵名稱和存取金鑰。 這兩個值會列在[Azure 入口網站](https://portal.azure.com)。<br/> - **存取控制服務**： 輸入 STS URI (`https://<yourNamespace>-sb.accesscontrol.windows.net/`)，簽發者名稱和簽發者金鑰。 中所述，使用 Windows PowerShell 來擷取這些值， [SB Messaging 配接器](../core/sb-messaging-adapter.md)。 |
   
 8.  在**Wcf-basichttprelay 傳輸屬性**對話方塊**訊息**索引標籤上，指定 SOAP 資料選取範圍**主體**項目。  
   
     |使用|動作|  
     |--------------|----------------|  
-    |**信封--整個\<soap: Envelope >**|從內送訊息的整個 SOAP **信封** 建立 BizTalk 訊息內文部分。<br /><br /> 預設值為清除核取方塊。|  
-    |**內文--內容\<soap: Body > 項目**|使用內送訊息的 SOAP **Body** 元素內容來建立 BizTalk 訊息內文部分。 如果 **Body** 元素有一個以上的子元素，則只有第一個元素會成為 BizTalk 訊息內文部分。<br /><br /> 這是預設值。|  
+    |**信封--整個\<p: Envelope>\>**|從內送訊息的整個 SOAP **信封** 建立 BizTalk 訊息內文部分。<br /><br /> 預設值為清除核取方塊。|  
+    |**內文--內容\<soap: Body\>項目**|使用內送訊息的 SOAP **Body** 元素內容來建立 BizTalk 訊息內文部分。 如果 **Body** 元素有一個以上的子元素，則只有第一個元素會成為 BizTalk 訊息內文部分。<br /><br /> 這是預設值。|  
     |**路徑--內容由內文路徑定位**|使用 **[內文路徑運算式]** 文字方塊中的內文路徑運算式，建立 BizTalk 訊息內文部分。 內文路徑運算式會依照內送訊息 SOAP **Body** 元素的直系子元素來進行評估。<br /><br /> 預設值為清除核取方塊。|  
     |**內文路徑運算式**|輸入內文路徑運算式，以識別用來建立 BizTalk 訊息內文部分的內送訊息特定部分。 這個內文路徑運算式會依照內送訊息 SOAP **Body** 元素的直系子項目來進行評估。 如果此內文路徑運算式傳回一個以上的節點，則只會為 BizTalk 訊息內文部分選擇第一個節點。 如果選取了 **[路徑 -- 內容由內文路徑定位]** 選項，就需要此屬性。<br /><br /> 類型：字串<br /><br /> 最小長度：00<br /><br /> 最大長度：32767<br /><br /> 預設為空字串。|  
     |**節點編碼**|指定的編碼 Wcf-basichttprelay 接收配接器，用來解碼的內文路徑運算式所識別的節點類型**內文路徑運算式**文字方塊。<br /><br /> 如果選取了 **[路徑 -- 內容由內文路徑定位]** 選項，就需要此屬性。 有效值包括下列各項：<br /><br /> -   **Base64**: Base64 編碼方式。<br />-   **Hex**： 十六進位編碼。<br />-   **字串**： 文字編碼-utf-8<br />-   **XML**: WCF 配接器建立 BizTalk 訊息內文中的內文路徑運算式所選取之節點外部 xml**內文路徑運算式**文字方塊。<br /><br /> 預設值是 **[XML]**。|  
     |**內文--BizTalk 回應訊息內文**|使用 BizTalk 訊息內文部分建立外寄回應訊息的 SOAP **內文** 元素內容。 此屬性只適用於要求-回應接收位置。<br /><br /> 這是預設值。|  
     |**範本--由範本指定的內容**|使用 [XML]  文字方塊中提供的範本來建立外寄訊息的 SOAP **內文** 元素內容。 此屬性只適用於要求-回應接收位置。<br /><br /> 預設值為清除核取方塊。|  
-    |**XML**|針對外寄訊息的 SOAP **內文** 元素內容，輸入 XML 格式的範本。 如果選取了 **[範本 -- BizTalk 回應訊息本文]** 選項，就需要此屬性。 此屬性只適用於要求-回應接收位置。<br /><br /> 類型：字串<br /><br /> 最小長度：00<br /><br /> 最大長度：32767<br /><br /> 預設值是 **\<bts 訊息主體 xmlns ="http://www.microsoft.com/schemas/bts2007"encoding ="xml"/ >**。|  
+    |**XML**|針對外寄訊息的 SOAP **內文** 元素內容，輸入 XML 格式的範本。 如果選取了 **[範本 -- BizTalk 回應訊息本文]** 選項，就需要此屬性。 此屬性只適用於要求-回應接收位置。<br /><br /> 類型：字串<br /><br /> 最小長度：00<br /><br /> 最大長度：32767<br /><br /> 預設值是 **\<bts 訊息主體 xmlns ="http://www.microsoft.com/schemas/bts2007"encoding ="xml"\>**。|  
     |**擱置失敗的要求訊息**|指定是否擱置因接收管線失敗或路由失敗而造成輸入處理失敗的要求訊息。<br /><br /> 預設值為清除核取方塊。|  
     |**錯誤中包含例外狀況詳細資料**|指定是否要將在錯誤發生時傳回 SOAP 錯誤以方便偵錯。<br /><br /> 預設值為清除核取方塊。|  
   
@@ -126,7 +126,7 @@ ms.lasthandoff: 09/20/2017
     |**用戶端憑證-憑證指紋**|指定 X.509 憑證來驗證此傳送埠端點的憑證指紋。 您可以瀏覽至選取的憑證指紋**我**存放**目前使用者**位置**瀏覽** 按鈕。<br /><br /> 注意：<br /><br /> 您必須將用戶端憑證安裝到**目前使用者**裝載此傳送處理常式的使用者帳戶的位置的傳送埠。<br /><br /> 最小長度：00<br /><br /> 最大長度：40<br /><br /> 預設為空字串。|  
     |**服務憑證-指紋**|指定 X.509 憑證的指紋，用於驗證此傳送埠傳送訊息至其中的端點。 您可以選取 [瀏覽至憑證的指紋**其他人**存放**本機**位置**瀏覽**] 按鈕。<br /><br /> 最小長度：00<br /><br /> 最大長度：40<br /><br /> 預設為空字串。|  
     |**使用者名稱認證**|指定用來傳送訊息的認證。 您可以指定的屬性，即可**編輯** 按鈕。 您必須設定認證，如果您選取**Username**選項**訊息用戶端認證類型**。<br /><br /> 預設值是**不會使用單一登入**。|  
-    |**使用 ACS 服務識別**|適用於[!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)]和[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]2013年。<br/><br/>選取此核取方塊，然後按一下**編輯**並提供下列值來向服務匯流排。<br /><br /> -                         **存取控制服務 STS Uri** – 將此設`https://<Namespace>-sb.accesscontrol.windows.net/`，其中\<命名空間 > 是您的服務匯流排命名空間。<br /><br /> -                         **簽發者名稱**– 指定簽發者名稱。 此值通常設定為擁有者。<br /><br /> -                         **簽發者金鑰**– 指定簽發者金鑰。|  
+    |**使用 ACS 服務識別**|適用於[!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)]和[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]2013年。<br/><br/>選取此核取方塊，然後按一下**編輯**並提供下列值來向服務匯流排。<br /><br /> -                         **存取控制服務 STS Uri** – 將此設`https://<Namespace>-sb.accesscontrol.windows.net/`，其中\<命名空間\>是您的服務匯流排命名空間。<br /><br /> -                         **簽發者名稱**– 指定簽發者名稱。 此值通常設定為擁有者。<br /><br /> -                         **簽發者金鑰**– 指定簽發者金鑰。|  
     |**服務匯流排連接資訊** | 新開頭[!INCLUDE[bts2016_md](../includes/bts2016-md.md)]。<br/><br/>選擇要使用的共用存取簽章 (SAS) 或存取控制服務 (ACS) 的服務匯流排命名空間。 <br/><br/>選取一個選項，然後選取**編輯**輸入索引鍵的資訊：<br/><br/> - **共用存取簽章**： 輸入存取索引鍵名稱和存取金鑰。 這兩個值會列在[Azure 入口網站](https://portal.azure.com)。<br/> - **存取控制服務**： 輸入 STS URI (`https://<yourNamespace>-sb.accesscontrol.windows.net/`)，簽發者名稱和簽發者金鑰。 中所述，使用 Windows PowerShell 來擷取這些值， [SB Messaging 配接器](../core/sb-messaging-adapter.md)。 |
   
 6.  在**Wcf-basichttprelay 傳輸屬性**對話方塊**Proxy**索引標籤上，設定的 proxy 設定 Wcf-basichttprelay 傳送埠。  
@@ -147,8 +147,8 @@ ms.lasthandoff: 09/20/2017
     |**內文--BizTalk 要求訊息內文**|使用 BizTalk 訊息內文部分建立的 soap 內容**主體**外寄訊息的項目。<br /><br /> 這是預設值。|  
     |**範本--由範本指定的內容**|使用 [XML]  文字方塊中提供的範本來建立外寄訊息的 SOAP **內文** 元素內容。<br /><br /> 預設值為清除核取方塊。|  
     |**XML**|輸入 XML 格式的範本內容的 SOAP **ody**外寄訊息的項目。 如果選取了 **[範本 -- BizTalk 回應訊息本文]** 選項，就需要此屬性。<br /><br /> 類型：字串<br /><br /> 最小長度：00<br /><br /> 最大長度：32767<br /><br /> 預設值為 `<bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="xml"/>`。|  
-    |**信封--整個\<soap: Envelope >**|從內送訊息的整個 SOAP **信封** 建立 BizTalk 訊息內文部分。 此屬性只對請求-回應連接埠有效。<br /><br /> 預設值為清除核取方塊。|  
-    |**內文--內容\<soap: Body > 項目**|使用內送訊息的 SOAP **Body** 元素內容來建立 BizTalk 訊息內文部分。 如果 **Body** 元素有一個以上的子元素，則只有第一個元素會成為 BizTalk 訊息內文部分。 此屬性只對請求-回應連接埠有效。<br /><br /> 這是預設值。|  
+    |**信封--整個\<p: Envelope>\>**|從內送訊息的整個 SOAP **信封** 建立 BizTalk 訊息內文部分。 此屬性只對請求-回應連接埠有效。<br /><br /> 預設值為清除核取方塊。|  
+    |**內文--內容\<soap: Body\>項目**|使用內送訊息的 SOAP **Body** 元素內容來建立 BizTalk 訊息內文部分。 如果 **Body** 元素有一個以上的子元素，則只有第一個元素會成為 BizTalk 訊息內文部分。 此屬性只對請求-回應連接埠有效。<br /><br /> 這是預設值。|  
     |**路徑--內容由內文路徑定位**|使用 **[內文路徑運算式]** 文字方塊中的內文路徑運算式，建立 BizTalk 訊息內文部分。 內文路徑運算式會依照內送訊息 SOAP **Body** 元素的直系子元素來進行評估。 此屬性只對請求-回應連接埠有效。<br /><br /> 預設值為清除核取方塊。|  
     |**內文路徑運算式**|輸入內文路徑運算式，以識別用來建立 BizTalk 訊息內文部分的內送訊息特定部分。 此內文路徑運算式評估的 soap 的直系子元素**主體**節點內送訊息。 如果此內文路徑運算式傳回一個以上的節點，則只會為 BizTalk 訊息內文部分選擇第一個節點。 如果選取了 **[路徑 -- 內容由內文路徑定位]** 選項，就需要此屬性。 此屬性只對請求-回應連接埠有效。<br /><br /> 類型：字串<br /><br /> 最小長度：00<br /><br /> 最大長度：32767<br /><br /> 預設為空字串。|  
     |**節點編碼**|指定 Wcf-basichttprelay 傳送配接器的內文路徑運算式所識別的節點用來解碼的編碼類型**內文路徑運算式**文字方塊。 如果選取了 **[路徑 -- 內容由內文路徑定位]** 選項，就需要此屬性。 此屬性只對請求-回應連接埠有效。 有效值包括下列各項：<br /><br /> - **Base64**: Base64 編碼方式。<br /><br /> -                         **Hex**： 十六進位編碼。<br /><br /> -                         **字串**： 文字編碼-utf-8<br /><br /> -                         **XML**: WCF 配接器建立 BizTalk 訊息內文中的內文路徑運算式所選取之節點外部 xml**內文路徑運算式**文字方塊。<br /><br /> 預設值是 **[XML]**。|  
@@ -177,7 +177,7 @@ ms.lasthandoff: 09/20/2017
   
 5.  按一下**確定**直到結束所有對話方塊為止。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [SB Messaging 配接器](../core/sb-messaging-adapter.md)
 
 [使用配接器](../core/using-adapters.md)

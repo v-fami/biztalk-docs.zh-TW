@@ -13,11 +13,11 @@ caps.latest.revision: "22"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b823326a0cc486dcf3f95dc70a6249d4d719d133
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2ca80f44b9f1244a340e9a9892593ae42ba4b4e9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="host-throttling-performance-counters"></a>主控件節流效能計數器
 本節描述測量影響主控件節流之系統參數的效能監控計數器。 下列效能計數器會在每個主控件執行個體可存取**biztalk： 訊息代理程式**效能物件類別：  
@@ -74,13 +74,13 @@ ms.lasthandoff: 09/20/2017
   
 3.  在**新增計數器**對話方塊中，從**可用的計數器**清單中，展開**biztalk： 訊息代理程式**效能計數器物件，然後選取要計數器監視。  
   
-4.  在**選取執行個體的物件**清單中，選取要監視針對所選取計數器，然後按一下 特定的執行個體**新增**。  若要選取所有可用的計數器執行個體，請選取\<**所有執行個體**>。  
+4.  在**選取執行個體的物件**清單中，選取要監視針對所選取計數器，然後按一下 特定的執行個體**新增**。  若要選取所有可用的計數器執行個體，請選取\<**所有執行個體**\>。  
   
 5.  新增計數器後, 按一下**確定**。  
   
      選取的效能計數器隨即出現在**效能監視器**螢幕。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [節流設計建議](../core/throttling-design-recommendations.md)   
  [BizTalk Server 如何實作主控件節流](../core/how-biztalk-server-implements-host-throttling.md)   
- [使用設定儀表板，以便讓 BizTalk Server 效能調整](../core/using-settings-dashboard-for-biztalk-server-performance-tuning.md)
+ [針對 BizTalk Server 效能調整使用設定儀表板](../core/using-settings-dashboard-for-biztalk-server-performance-tuning.md)

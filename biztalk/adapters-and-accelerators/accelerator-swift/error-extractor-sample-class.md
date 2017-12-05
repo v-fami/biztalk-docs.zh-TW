@@ -15,11 +15,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0389f2fdb3f9ccb07bcc8ec9e4cdb1ec510927a2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 53ceb305dcd30164e385022f66140fcaa626b133
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="error-extractor-sample-class"></a>錯誤抽選程式範例類別
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]解譯器將序列化為 XML 物件，錯誤，並將 XML 物件附加至多部分訊息的錯誤區段。 解譯器接著會將失敗的訊息發佈到 MessageBox 資料庫，就像是有效的訊息。 因此，無法至 MessageBox 資料庫的訊息包含錯誤詳細資料。 您可以使用錯誤抽選程式範例類別從失敗的訊息中擷取錯誤詳細資料，以及產生一個檔案包含錯誤詳細資料和另一個具有原始訊息的檔案。  
@@ -50,9 +50,9 @@ SWIFTErrorExtractor.ErrorExtractor.GetErrorPartAsString(XLANGMessage xm);
 SWIFTErrorExtractor.ErrorExtractor.WriteToFile(string filePath, string message);  
 ```  
   
- A4SWIFT 安裝程式會安裝成 A4SWIFT SDK 中的一部分的錯誤抽選程式範例類別 (SWIFTErrorExtractor.dll) \<*磁碟機*>: \Program Files\Microsoft BizTalk Accelerator for SWIFT\SDK\Tutorial\SWIFTErrorExtractor。 此資料夾也包含範例類別 (ErrorExtractor.cs) 的原始程式碼。  
+ A4SWIFT 安裝程式會安裝成 A4SWIFT SDK 中的一部分的錯誤抽選程式範例類別 (SWIFTErrorExtractor.dll) \<*磁碟機*\>: \Program Files\Microsoft BizTalk Accelerator for SWIFT\SDK\Tutorial\SWIFTErrorExtractor。 此資料夾也包含範例類別 (ErrorExtractor.cs) 的原始程式碼。  
   
  若要從協調流程呼叫 SWIFTErrorExtractor.dll，您必須發佈至全域組件快取的.dll 檔案。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [工具](../../adapters-and-accelerators/accelerator-swift/tools.md)

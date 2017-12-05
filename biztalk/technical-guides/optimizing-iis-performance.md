@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a5b8cae6700328c68c8b6113c8719cf14f76a22c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 93f1bca77aea5aa6c75521e46edc8fc4d01b2d73
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="optimizing-iis-performance"></a>IIS 效能最佳化
 ## <a name="apply-iis-configuration-options-to-improve-iis-performance"></a>適用於 IIS 組態選項，以改善 IIS 效能  
@@ -42,7 +42,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  如果有必要，請按一下**套用**中**動作**窗格。  
   
- 停用偵錯 ASP.NET 應用程式和 Web 服務，藉由指定\<編譯偵錯 ="false"/ > 一節中的 web 應用程式的 web.config 檔案。  
+ 停用偵錯 ASP.NET 應用程式和 Web 服務，藉由指定\<編譯偵錯 ="false"\> web 應用程式的 web.config 檔案中的一節。  
   
 ### <a name="tune-the-value-of-the-asp-threads-per-processor-limit-property"></a>微調每個處理器限制 ASP 執行緒屬性的值  
  ASP**執行緒每個處理器限制**屬性會指定每個處理器的 IIS 建立的背景工作執行緒數目上限。 增加處理器限制每個執行緒的值之前的處理器使用量符合至少 50%，或更新版本。 這項設定可以大幅影響 Web 應用程式的延展性和伺服器的效能一般。 因為此屬性會定義可以同時執行的 ASP 要求的數目上限，這項設定應該保持為預設值，除非您 ASP 應用程式進行擴充外部元件呼叫。 在此情況下，您可能會增加處理器限制每個執行緒的值。 這樣做可讓伺服器建立更多的執行緒，以處理更多的並行要求。 處理器限制每個執行緒的預設值為 25。 這個屬性的最大建議的值為 100。  
@@ -55,7 +55,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  按一下以展開**限制內容**下**行為**，按一下 **執行緒每個處理器限制**，輸入所需的值**執行緒每個處理器限制**按一下**套用**中**動作**窗格。  
   
- 如需有關如何修改中的屬性\<限制 > 元素的 IIS 7.5/7.0 \<asp > 項目，請參閱[ASP 限制\<限制 >](http://go.microsoft.com/fwlink/?LinkId=157483) (http://go.microsoft.com/fwlink/?LinkId=157483)。  
+ 如需有關如何修改中的屬性\<限制\>元素的 IIS 7.5/7.0 \<asp\>項目，請參閱[ASP 限制\<限制\>](http://go.microsoft.com/fwlink/?LinkId=157483)(http://go.microsoft.com/fwlink/?LinkId=157483)。  
   
 > [!NOTE]  
 >  這個屬性只能套用在伺服器層級，因為這個屬性的修改會影響在伺服器執行的所有網站。  
@@ -71,7 +71,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  按一下以展開**限制內容**下**行為**，按一下 **佇列長度**，輸入所需的值**佇列長度**然後按一下**套用**中**動作**窗格。  
   
- 如需有關如何修改中的屬性\<限制 > 元素的 IIS 7.5/7.0 \<asp > 項目，請參閱[ASP 限制\<限制 >](http://go.microsoft.com/fwlink/?LinkId=157483) (http://go.microsoft.com/fwlink/?LinkId=157483)。  
+ 如需有關如何修改中的屬性\<限制\>元素的 IIS 7.5/7.0 \<asp\>項目，請參閱[ASP 限制\<限制\>](http://go.microsoft.com/fwlink/?LinkId=157483)(http://go.microsoft.com/fwlink/?LinkId=157483)。  
   
 > [!NOTE]  
 >  這個屬性只能套用在伺服器層級，因為這個屬性的修改會影響在伺服器執行的所有網站。  
@@ -96,7 +96,7 @@ ms.lasthandoff: 09/20/2017
  如需在 IIS 7.5 上設定 ASP.NET 執行緒用法的詳細資訊，請參閱[Thomas Marquardt 部落格上 IIS 7.0 ASP.NET 執行緒用法](http://go.microsoft.com/fwlink/?LinkId=157518)(http://go.microsoft.com/fwlink/?LinkId=157518)。  
   
 ### <a name="configure-aspnet-4-maxconcurrentrequests-for-iis-7570-integrated-mode"></a>針對 IIS 7.5/7.0 整合模式設定 ASP.NET 4 MaxConcurrentRequests  
- .NET Framework 4，maxConcurrentRequestsPerCPU 的預設值為 5000，這可能會非常大的值，並因此將允許充足的同時執行的非同步要求。 如需詳細資訊，請參閱[\<應用程式集區 > 項目 （Web 設定）](http://go.microsoft.com/fwlink/?LinkID=205339) (http://go.microsoft.com/fwlink/?LinkID=205339)。  
+ .NET Framework 4，maxConcurrentRequestsPerCPU 的預設值為 5000，這可能會非常大的值，並因此將允許充足的同時執行的非同步要求。 如需詳細資訊，請參閱[ \<applicationPool\>項目 （Web 設定）](http://go.microsoft.com/fwlink/?LinkID=205339) (http://go.microsoft.com/fwlink/?LinkID=205339)。  
   
  對於 IIS 7.5/7.0 整合模式中，名為 MaxConcurrentRequestsPerCPU 內 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0 DWORD 會決定每一 CPU 的並行要求數目。 根據預設，登錄機碼不存在，且每一 CPU 的要求數目限制為 5000。  
   
@@ -119,5 +119,5 @@ ms.lasthandoff: 09/20/2017
   
     3.  設定所需的壓縮選項，然後按一下**套用**中**動作**窗格。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [最佳化效能](../technical-guides/optimizing-performance.md)

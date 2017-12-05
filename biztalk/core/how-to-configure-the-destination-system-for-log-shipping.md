@@ -20,11 +20,11 @@ caps.latest.revision: "54"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ea377f83f6e9c104d1bbd0b2e59923fb11f8fe65
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 611544e77de738c904fa673b56dbec75fd17d4bd
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-configure-the-destination-system-for-log-shipping"></a>如何設定記錄傳送的目的系統
 記錄傳送提供待命伺服器功能，發生系統錯誤時可減少停機時間。 記錄傳送可讓您自動從來源系統的交易記錄檔傳送至目的地系統。 在目的系統，交易記錄會還原到 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 資料庫中，使這些資料庫與來源資料庫緊密同步。  
@@ -83,9 +83,9 @@ ms.lasthandoff: 09/20/2017
   
     1.  在目的地系統上啟用 **[Ad Hoc Distributed Queries](https://docs.microsoft.com/sql/database-engine/configure-windows/server-configuration-options-sql-server)**。  
   
-    2.  在查詢視窗中，取代 *\<MyLogShippingSolution >*意義的描述，並以單引號括住。  
+    2.  在查詢視窗中，取代 *\<MyLogShippingSolution\>* 意義的描述，並以單引號括住。  
   
-    3.  在查詢視窗中，取代 *\<BizTalkServerManagementDatabaseName >*和 *\<BizTalkServerManagementDatabaseServer >*具有名稱和位置的程式來源 BizTalk 管理資料庫，以單引號括住。  
+    3.  在查詢視窗中，取代 *\<BizTalkServerManagementDatabaseName\>* 和 *\<BizTalkServerManagementDatabaseServer\>* 與名稱和位置的來源 BizTalk 管理資料庫，以單引號括住。  
   
     > [!NOTE]
     >  如果您有一個以上的來源伺服器，則可以將每個來源伺服器還原到各自的目的伺服器。 每個目的地伺服器上，在 **@SourceServerName = null**參數取代*null*適當來源伺服器的名稱，並以單引號括住 (例如，  **@SourceServerName = 'MySourceServer'**)。  
@@ -119,9 +119,9 @@ ms.lasthandoff: 09/20/2017
   
 10. 在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，請移至下列資料夾：  
   
-     32 位元電腦： %SystemDrive%\Program Files\Microsoft BizTalk Server\<版本 > \Schema\Restore  
+     32 位元電腦： %SystemDrive%\Program Files\Microsoft BizTalk Server\<版本\>\Schema\Restore  
   
-     64 位元電腦： %SystemDrive%\Program Files (x86) \Microsoft BizTalk Server\<版本 > \Bins32\Schema\Restore  
+     64 位元電腦： %SystemDrive%\Program Files (x86) \Microsoft BizTalk Server\<版本\>\Bins32\Schema\Restore  
   
 11. 以滑鼠右鍵按一下**SampleUpdateInfo.xml**，然後選取**編輯**。 執行下列動作：  
   
@@ -146,14 +146,14 @@ ms.lasthandoff: 09/20/2017
   
 13. 如果您使用 BAM 或 「 規則引擎，請視需要這些行取消註解。  
   
-14. 如果您有任何自訂資料庫，將它們加入下 **\<OtherDatabases >** > 一節。 請參閱[如何備份自訂資料庫](../core/how-to-back-up-custom-databases.md)。  
+14. 如果您有任何自訂資料庫，將它們加入下 **\<OtherDatabases\>**  > 一節。 請參閱[如何備份自訂資料庫](../core/how-to-back-up-custom-databases.md)。  
   
 15. 當您完成編輯檔案時，加以儲存，並結束。  
   
 ## <a name="next-steps"></a>後續步驟  
  [如何還原資料庫](../core/how-to-restore-your-databases.md)  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [如何設定 「 備份 BizTalk Server 」 工作](../core/how-to-configure-the-backup-biztalk-server-job.md)   
  [如何排程 「 備份 BizTalk Server 」 工作](../core/how-to-schedule-the-backup-biztalk-server-job.md)   
  [如何備份自訂資料庫](../core/how-to-back-up-custom-databases.md)

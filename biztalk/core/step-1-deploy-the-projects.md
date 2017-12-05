@@ -12,11 +12,11 @@ caps.latest.revision: "44"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 65576724a92cc60d2f4d59b2a868cd4861b5eff5
-ms.sourcegitcommit: 30189176c44873e3de42cc5f2b8951da51ffd251
+ms.openlocfilehash: ad4424327f6cd24624abe6b4a850f3c24153e6a4
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-1-deploy-the-projects"></a>步驟 1：部署專案
 ![步驟 3 之 1](../adapters-and-accelerators/adapter-oracle-database/media/step-1of3.gif "Step_1of3")  
@@ -60,7 +60,7 @@ ms.lasthandoff: 11/07/2017
   
 2.  按一下**簽署**索引標籤上，選取**簽署組件**。  
   
-3.  從下拉式清單中**選擇強式名稱金鑰檔**方塊中，選取**\<瀏覽 >**。  
+3.  從下拉式清單中**選擇強式名稱金鑰檔**方塊中，選取**\<瀏覽...\>**.  
   
 4.  在**選取檔案**對話方塊方塊中，瀏覽至**C:\BTStutorials**，按一下  **btsTutorials.snk**，然後按一下 **開啟**。 
   

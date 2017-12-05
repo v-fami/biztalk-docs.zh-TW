@@ -15,17 +15,17 @@ caps.latest.revision: "46"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: be2392f7a74b12ddd0c030922b166bb9a701ae88
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: de68c57c6b435f85edf630a7b224c5d58ffd0cd6
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="file-adapter-biztalk-server-sample"></a>File 配接器 （BizTalk Server 範例）
-FILE 配接器範例是使用 Microsoft Visual C# .NET 撰寫，可以與 Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 搭配使用。 此範例提供可建置動態或靜態配接器的程式碼。  不過，下列程序僅概述靜態配接器。 靜態配接器具有一組靜態結構描述，且沒有自訂使用者介面。 動態配接器具有自訂使用者介面，並且可能有一組動態結構描述。 靜態和動態配接器都使用「新增配接器精靈」將結構描述新增至 BizTalk 專案。  
+File 配接器範例是以 Microsoft Visual C#.NET 才能使用 Microsoft BizTalk Server 撰寫的。 此範例提供可建置動態或靜態配接器的程式碼。  不過，下列程序僅概述靜態配接器。 靜態配接器具有一組靜態結構描述，且沒有自訂使用者介面。 動態配接器具有自訂使用者介面，並且可能有一組動態結構描述。 靜態和動態配接器都使用「新增配接器精靈」將結構描述新增至 BizTalk 專案。  
   
 > [!NOTE]
->  FILE 配接器範例與 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 隨附的原生 FILE 配接器並不相同。 因此，使用此範例選取傳輸類型時，請選取「靜態」，不要選取 FILE。  
+>  File 配接器範例不是原生 FILE 配接器隨附於 BizTalk Server 相同。 因此，使用此範例選取傳輸類型時，請選取「靜態」，不要選取 FILE。  
   
  具有自訂使用者介面並且可能有一組動態結構描述的動態配接器，在配接器管理方面將需要額外的程式碼。 若要進一步了解使用動態結構描述集，請參閱[動態設計階段配接器組態](../core/dynamic-design-time-adapter-configuration.md)。  
   
@@ -35,10 +35,10 @@ FILE 配接器範例是使用 Microsoft Visual C# .NET 撰寫，可以與 Micros
  您可以將範例 FILE 配接器當做範本，建立其他自訂配接器。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- \<*範例路徑*>**\AdaptersDevelopment\File 配接器**  
+ \<*範例路徑*\>**\AdaptersDevelopment\File 配接器**  
   
 > [!NOTE]
->  預設位置\<*範例路徑*> 是*%programfiles%*\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\SDK\Samples 時[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]執行 32 位元版本的電腦上已安裝Windows。 預設位置\<*範例路徑*> 是*%programfiles （x86） %*\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\SDK\Samples 時[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]執行 64 位元的電腦上已安裝Windows 版本。 若要判斷與相關聯的值*%programfiles%*或*%programfiles （x86） %*環境變數類型**echo %programfiles%**或**echo %Programfiles （x86） %**在命令提示字元並按 ENTER 鍵。 如果在 64 位元作業系統上執行此範例，您必須在任何從.reg 檔案中的所有參考都變更**%programfiles%**至**%programfiles （x86） %**之前執行.reg 檔案。  
+>  預設位置\<*範例路徑*\>是*%programfiles%*\Microsoft BizTalk Server\SDK\Samples 時執行 32 位元的電腦上安裝 BizTalk ServerWindows 版本。 預設位置\<*範例路徑*\>是*%programfiles （x86） %*\Microsoft BizTalk Server\SDK\Samples 時執行 64 位的電腦上安裝 BizTalk Server位元版本的 Windows。 若要判斷與相關聯的值*%programfiles%*或*%programfiles （x86） %*環境變數類型**echo %programfiles%**或**echo %Programfiles （x86） %**在命令提示字元並按 ENTER 鍵。 如果在 64 位元作業系統上執行此範例，您必須在任何從.reg 檔案中的所有參考都變更**%programfiles%**至**%programfiles （x86） %**之前執行.reg 檔案。  
   
  下表顯示此範例中的檔案，並說明其用途。  
   
@@ -92,11 +92,11 @@ FILE 配接器範例是使用 Microsoft Visual C# .NET 撰寫，可以與 Micros
     > [!NOTE]
     >  以系統管理員身分執行命令提示字元。  
   
-2.  若要將目前目錄變更\<*範例路徑*>**\AdaptersDevelopment\BaseAdapter\v1.0.2**目錄。  
+2.  若要將目前目錄變更\<*範例路徑*\>**\AdaptersDevelopment\BaseAdapter\v1.0.2**目錄。  
   
 3.  在命令提示字元中，輸入**sn – k BaseAdapter.snk**然後按 ENTER 鍵。 這個 .snk 檔案可能因為先前已執行過其他範例而存在。 如果檔案已經存在，您可以直接執行步驟 4 並略過這個步驟。  
   
-4.  若要將目前目錄變更\<*範例路徑*>\\**AdaptersDevelopment\File Adapter\Runtime**目錄。  
+4.  若要將目前目錄變更\<*範例路徑*\>\\**AdaptersDevelopment\File Adapter\Runtime**目錄。  
   
 5.  在命令提示字元中，輸入**sn – k DotNetFileAdapter.snk**然後按 ENTER 鍵。  
   
@@ -106,7 +106,7 @@ FILE 配接器範例是使用 Microsoft Visual C# .NET 撰寫，可以與 Micros
   
 1.  按一下**啟動**，指向 **所有程式**，指向 **附屬應用程式**，然後按一下**Windows 檔案總管**。  
   
-2.  瀏覽至\<*範例路徑*>**"\AdaptersDevelopment\File Adapter\Runtime"**目錄，然後再按兩下**DotNetFile.sln**.  
+2.  瀏覽至\<*範例路徑*\>**"\AdaptersDevelopment\File Adapter\Runtime"**目錄，然後再按兩下**DotNetFile.sln**.  
   
 3.  重新建置配接器接收器執行階段專案，在 方案總管以滑鼠右鍵按一下**DotNetFile**，然後按一下 **重建**。  
   
@@ -114,7 +114,7 @@ FILE 配接器範例是使用 Microsoft Visual C# .NET 撰寫，可以與 Micros
   
 #### <a name="to-build-the-adapter-design-time-project"></a>建置配接器執行階段專案  
   
-1.  在 Windows 檔案總管，瀏覽至\<*範例路徑*>**"\AdaptersDevelopment\File Adapter\Design Time\Adapter Management"**目錄，然後再按兩下**AdapterManagement.sln**。  
+1.  在 Windows 檔案總管，瀏覽至\<*範例路徑*\>**"\AdaptersDevelopment\File Adapter\Design Time\Adapter Management"**目錄，然後再按兩下**AdapterManagement.sln**。  
   
 2.  在 方案總管 中，以滑鼠右鍵按一下**AdapterManagement**，然後按一下 **重建**。  
   
@@ -122,12 +122,12 @@ FILE 配接器範例是使用 Microsoft Visual C# .NET 撰寫，可以與 Micros
   
 #### <a name="to-register-the-sample-static-adapter"></a>註冊範例靜態配接器  
   
-1.  在 Windows 檔案總管，瀏覽至\<*範例路徑*>**"\AdaptersDevelopment\File 配接器 」**目錄。  
+1.  在 Windows 檔案總管，瀏覽至\<*範例路徑*\>**"\AdaptersDevelopment\File 配接器 」**目錄。  
   
 2.  若要將範例配接器加入至登錄中，按兩下**StaticAdapterManagement.reg**。  
   
     > [!NOTE]
-    >  StaticAdapterManagement.reg 包括硬式編碼路徑 C:\Program Files\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] \\。 如果您的 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 不是安裝在 %ProgramFiles%\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\ 目錄中、如果您是從 BizTalk Server 2009 或 BizTalk Server 2006 R2 升級至 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 安裝，或者如果您是在執行 64 位元版本 Windows 的電腦上安裝 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]，您必須將檔案 StaticAdapterManagement.reg 修改為適當的路徑。 根據預設，[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 是安裝在執行 64 位元版本的 Windows 電腦上的 %ProgramFiles(x86)%\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\ 目錄中。 請將與 "InboundAssemblyPath"、"OutboundAssemblyPath" 和 "AdapterMgmtAssemblyPath" 值關聯的路徑更新為指向所指定檔案的正確位置。  
+    >  StaticAdapterManagement.reg 包括硬式編碼路徑 C:\Program Files\Microsoft BizTalk Server\\。 如果您未安裝[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]%programfiles%\microsoft BizTalk 目錄下，如果您從 BizTalk Server 2009 或 BizTalk Server 2006 R2 升級您的 BizTalk Server 安裝，或如果您正在執行的電腦上安裝 BizTalk Server64 位元的 Windows 版本，您必須將檔案 StaticAdapterManagement.reg 修改為適當的路徑。 根據預設，BizTalk Server 會安裝到 %programfiles(x86) %\Microsoft BizTalk Server\ 目錄上執行 Windows 64 位元版本的電腦。 請將與 "InboundAssemblyPath"、"OutboundAssemblyPath" 和 "AdapterMgmtAssemblyPath" 值關聯的路徑更新為指向所指定檔案的正確位置。  
   
     > [!IMPORTANT]
     >  如果您在 64 位元電腦上安裝 BizTalk，所有 HKEY_CLASSES_ROOT\CLSID\ 登錄項目執行個體中都變更為 HKEY_CLASSES_ROOT\Wow6432Node\CLSID\ **StaticAdapterManagement.reg**登錄檔案。  
@@ -170,13 +170,13 @@ FILE 配接器範例是使用 Microsoft Visual C# .NET 撰寫，可以與 Micros
   
 1.  按一下**啟動**，指向 **所有程式**，指向 **附屬應用程式**，然後按一下**Windows 檔案總管**。  
   
-2.  在 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 安裝磁碟上建立下列資料夾：  
+2.  BizTalk Server 安裝磁碟機上建立下列資料夾：  
   
-    -   *\<磁碟機 >*:**\Temp**  
+    -   *\<磁碟機\>*:**\Temp**  
   
-    -   *\<磁碟機 >*:**\Temp\Send**  
+    -   *\<磁碟機\>*:**\Temp\Send**  
   
-    -   *\<磁碟機 >*:**\Temp\Receive**  
+    -   *\<磁碟機\>*:**\Temp\Receive**  
   
 3.  若要關閉 Windows 檔案總管，在**檔案**功能表上，按一下 **關閉**。  
   
@@ -205,7 +205,7 @@ FILE 配接器範例是使用 Microsoft Visual C# .NET 撰寫，可以與 Micros
     |使用|動作|  
     |--------------|----------------|  
     |**名稱**|型別**AdapterSend**。|  
-    |**傳輸類型**|選取**靜態**從下拉式清單按一下**設定**。<br /><br /> -在**目錄**方塊中，輸入 ***\<磁碟機 >*: \Temp\Send**。<br />-在**檔案模式**方塊中，選取**CreateNew**。<br />-在**檔案名稱**方塊中，輸入**%MessageID%.xml**。<br />-按一下**確定**。<br />- **URI**欄位應該會顯示 ***\<磁碟機 >*: \Temp\Send\\%MessageID%.xml**。|  
+    |**傳輸類型**|選取**靜態**從下拉式清單按一下**設定**。<br /><br /> -在**目錄**方塊中，輸入 ***\<磁碟機\>*: \Temp\Send**。<br />-在**檔案模式**方塊中，選取**CreateNew**。<br />-在**檔案名稱**方塊中，輸入**%MessageID%.xml**。<br />-按一下**確定**。<br />- **URI**欄位應該會顯示 ***\<磁碟機\>*: \Temp\Send\\%MessageID%.xml**。|  
     |**傳送管線**|選取**PassThruTransmit (Microsoft.BizTalk.DefaultPipelines.PassThruTransmit)**，然後按一下 **確定**。|  
   
 11. 在下**BizTalk Application 1**節點按一下**接收埠**，然後選取**新增 / 單向接收埠**。  
@@ -224,7 +224,7 @@ FILE 配接器範例是使用 Microsoft Visual C# .NET 撰寫，可以與 Micros
     |--------------|----------------|  
     |**名稱**|型別**AdapterReceiveLocation**|  
     |**傳輸類型**|選取**靜態**從下拉式清單和叫用**設定**存取這些其餘屬性。|  
-    |**URI**|-按一下省略符號按鈕 (**...**).<br />-在**數字的檔案中批次**方塊中，輸入**20**。<br />-在**目錄**方塊中，輸入 ***\<磁碟機 >*: \Temp\Receive**。<br />-確認**檔案遮罩**屬性設定為 **\*.xml**。<br />-在**輪詢間隔**方塊中，輸入**5**，然後按一下**確定**。<br />-確認**URI**標籤包含 ***\<磁碟機 >*: \Temp\Receive\\\*.xml**。|  
+    |**URI**|-按一下省略符號按鈕 (**...**).<br />-在**數字的檔案中批次**方塊中，輸入**20**。<br />-在**目錄**方塊中，輸入 ***\<磁碟機\>*: \Temp\Receive**。<br />-確認**檔案遮罩**屬性設定為 **\*.xml**。<br />-在**輪詢間隔**方塊中，輸入**5**，然後按一下**確定**。<br />-確認**URI**標籤包含 ***\<磁碟機\>*: \Temp\Receive\\\*.xml**。|  
     |**接收處理常式**|選取**BizTalkServerApplication**從下拉式清單。|  
     |**接收管線**|選取**XMLReceive**從下拉式清單。|  
   
@@ -239,7 +239,7 @@ FILE 配接器範例是使用 Microsoft Visual C# .NET 撰寫，可以與 Micros
   
 1.  啟動**Visual Studio 命令提示字元**。  
   
-2.  在命令提示字元中，變更目前的目錄\<*範例路徑*>**\AdaptersDevelopment\File Adapter\BizTalk Project\Adapter Harness**目錄。  
+2.  在命令提示字元中，變更目前的目錄\<*範例路徑*\>**\AdaptersDevelopment\File Adapter\BizTalk Project\Adapter Harness**目錄。  
   
 3.  在命令提示字元中，輸入**sn – k AdapterHarness.snk**，然後按下 enter。  
   
@@ -310,11 +310,11 @@ FILE 配接器範例是使用 Microsoft Visual C# .NET 撰寫，可以與 Micros
   
 ##### <a name="to-test-the-sample-static-adapter-runtime"></a>測試範例靜態配接器執行階段  
   
-1.  在 Windows 檔案總管，瀏覽至\<*範例路徑*>**\AdaptersDevelopment\File 配接器**目錄，並複製到剪貼簿 InstanceXML.xml 檔案。  
+1.  在 Windows 檔案總管，瀏覽至\<*範例路徑*\>**\AdaptersDevelopment\File 配接器**目錄，並複製到剪貼簿 InstanceXML.xml 檔案。  
   
-2.  瀏覽至*\<磁碟機 >*:**\Temp\Receive**並將 Instance.xml 檔案貼到資料夾。  
+2.  瀏覽至*\<磁碟機\>*:**\Temp\Receive**並將 Instance.xml 檔案貼到資料夾。  
   
-     如果傳輸和接收配接器使用，則檔案應該從*\<磁碟機 >*:**\Temp\Receive**資料夾*\<磁碟機 >*:**\Temp\Send**資料夾。  
+     如果傳輸和接收配接器使用，則檔案應該從*\<磁碟機\>*:**\Temp\Receive**資料夾*\<磁碟機\>* :**\Temp\Send**資料夾。  
   
 ##### <a name="to-test-the-sample-add-adapter-wizard-functionality-for-the-sample-static-adapter"></a>測試範例靜態配接器的範例新增配接器精靈功能  
   
@@ -346,6 +346,6 @@ FILE 配接器範例是使用 Microsoft Visual C# .NET 撰寫，可以與 Micros
 ### <a name="comments"></a>註解  
  完成範例配接器之後, 您可以修改範例配接器建立自訂靜態或動態配接器的詳細資訊，請參閱[配接器設計階段組態](../core/adapter-design-time-configuration.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [配接器範例-使用方式](../core/adapter-samples-usage.md)   
  [註冊配接器](../core/registering-an-adapter.md)

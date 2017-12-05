@@ -12,11 +12,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 387ca48954fc075e696a8d3b093fbc9f1b5d7259
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 29fbee54262f1b45e3cc9be67c057767a80b325f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="troubleshoot-installation-issues-with-the-oracle-e-business-suite-adapter"></a>Oracle E-business Suite 配接器疑難排解安裝問題
 安裝 Microsoft[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]複製產品二進位編碼檔案的電腦上，並註冊每個配接器的繫結。 本節將討論使用來解決安裝錯誤的疑難排解技術。  
@@ -48,9 +48,9 @@ ms.lasthandoff: 09/20/2017
   
 ##### <a name="to-register-the-adapter-binding"></a>若要註冊的配接器繫結  
   
-1.  瀏覽至電腦上的 machine.config 檔案。 例如，32 位元平台上，machine.config 位在\<系統磁碟機 >: \WINDOWS\Microsoft.NET\Framework\\< 版本\>\CONFIG。  
+1.  瀏覽至電腦上的 machine.config 檔案。 例如，32 位元平台上，machine.config 位在\<系統磁碟機\>: \WINDOWS\Microsoft.NET\Framework\\< 版本\>\CONFIG。  
   
-     在此路徑中\<*版本*> 是.NET Framework 的版本。  
+     在此路徑中\<*版本*\>是.NET Framework 的版本。  
   
 2.  使用文字編輯器開啟檔案。  
   
@@ -158,5 +158,5 @@ Verify the binding extension is registered in machine.config."
     > [!NOTE]
     >  若要確定您的應用程式的運作方式與 ODP.NET 的最新版本，您必須使用"原則 DLLs"的電腦上安裝並註冊在 GAC 中。 如需詳細資訊，請參閱"Oracle 資料提供者的.NET 常見問題集 」 在[http://go.microsoft.com/fwlink/p/?LinkId=92834](http://go.microsoft.com/fwlink/p/?LinkId=92834)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [Oracle EBS 配接器疑難排解](../../adapters-and-accelerators/adapter-oracle-ebs/troubleshooting-the-oracle-ebs-adapter.md)

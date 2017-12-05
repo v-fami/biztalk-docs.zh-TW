@@ -23,14 +23,14 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: af9663c5b199c8f0b77da5a0207f370a515ad030
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 479532d41259ebb7f50877ea75bdd79051160bb3
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="administration-and-run-time-tools"></a>管理和執行的階段工具
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]和[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 提供一組工具來執行系統管理和執行階段工作，例如部署、 設定管理、 管理、 商務規則管理及監視。 如需有關[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]工具，請參閱[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]幫助。  
+[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server 和[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 提供一組工具來執行系統管理和執行階段工作，例如部署、 設定管理、 管理、 商務規則管理及監視。 如需有關[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]工具，請參閱[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server 說明。  
   
 ## <a name="biztalk-explorer"></a>BizTalk Explorer (BizTalk 總管)  
  「BizTalk 總管」可以設定和管理專案、合作對象及協調流程。 BizTalk 總管 中顯示組態資料庫 （也稱為 「 BizTalk 管理資料庫），的內容顯示項目，例如組件、 連接埠和合作對象 （在階層的樹狀目錄中）。  
@@ -44,7 +44,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="windows-performance-monitors"></a>Windows 效能監視器  
  [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]支援使用[!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)]效能監視的連線狀態以及整個 （處理和已拒絕）。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [工具和功能](../../adapters-and-accelerators/accelerator-hl7/tools-and-features.md)   
  [設計階段工具](../../adapters-and-accelerators/accelerator-hl7/design-time-tools.md)   
  [分析工具](../../adapters-and-accelerators/accelerator-hl7/analysis-tools2.md)

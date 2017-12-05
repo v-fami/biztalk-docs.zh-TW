@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 052f30e7e1fa2461d1332702dbd61b6aa76451b9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6d1d39bfa1bfd4cc837a77586d6c462c6b7d7f06
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-export-bindings-to-a-binding-file"></a>如何匯出繫結至繫結檔案
 您可以匯出到另一個現有 BizTalk 應用程式使用的繫結檔案的 BizTalk 應用程式的繫結。 您也可以匯出群組中的所有繫結或組件的繫結。 接著，您可以將這些繫結匯入到應用程式或群組。  
@@ -51,7 +51,7 @@ ms.lasthandoff: 09/20/2017
 -   在產生繫結檔後，您依然能夠加以編輯以變更其繫結資訊。  
   
 ## <a name="how-to-export-to-a-binding-file"></a>如何匯出至繫結檔案  
- 您匯出的繫結至繫結檔案的應用程式執行中應用程式匯出繫結命令[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]管理主控台或命令列上使用 BTSTask ExportBindings 命令。  
+ 在 BizTalk Server 管理主控台中，執行應用程式匯出繫結命令或 BTSTask ExportBindings 命令使用命令列上，您可以匯出到繫結檔案的應用程式的繫結。  
   
  基於安全性理由，當您匯出繫結檔案時，BizTalk Server 會從該檔案移除繫結的密碼。 匯入繫結後，您必須重新設定密碼，傳送埠和接受位置才能正常運作。 您可以在 BizTalk Server 管理主控台的 [傳輸屬性] 對話方塊中，為傳送埠或接收位置設定密碼。  
   

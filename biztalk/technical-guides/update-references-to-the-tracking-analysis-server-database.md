@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 94ed784eeca992d32f431a7c6794b7051b7595e9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2b85c5c50bc8aeb388d6b7df1591f4b13900998e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="update-references-to-the-tracking-analysis-server-database"></a>更新追蹤 Analysis Server 資料庫的參考
 追蹤 Analysis Server 資料庫是選擇性，而且包含線上分析處理 (OLAP) cube。 這些 OLAP Cube 是包含在 BizTalk 追蹤資料庫中的資料彙總。  
@@ -41,9 +41,9 @@ ms.lasthandoff: 09/20/2017
 5.  將對應至原始資料庫的資料行修改為參考新資料庫的適當值。  
   
     > [!NOTE]  
-    >  *\<DBType >* DBServerName 和 *\<DBType >* DBName 代表資料庫位置，其中 *\<DBType >*對應的型別資料庫中，例如，TrackingAnalysis。  
+    >  *\<DBType\>*  DBServerName 和 *\<DBType\>*  DBName 代表資料庫位置，其中 *\<DBType\>*對應到資料庫，例如，TrackingAnalysis 的類型。  
   
 6.  關閉資料表以儲存新值。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [更新資料庫參考](../technical-guides/updating-database-references.md)

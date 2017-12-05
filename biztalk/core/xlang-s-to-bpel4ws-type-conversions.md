@@ -17,11 +17,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2a9451d1f156bf98b3e8fd7da177937cd4492b0b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 02412b86b8649b73cadb4715793f085682a1de74
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="xlang-s-to-bpel4ws-type-conversions"></a>XLANG-s 至 BPEL4WS 型別轉換
 下表詳述各種 XLANG/s 建構和 BPEL4WS 建構之間的轉換。  
@@ -61,7 +61,7 @@ ms.lasthandoff: 09/20/2017
 |一元 -|XPath 一元 -|  
 |一元 !|XPath not() 函式|  
 |二進位 & &、 &#124; &#124;|XPath 'and'、'or' 運算子|  
-|二進位 = =、 ！ =、 < =、 \<，> =、 >|XPath '='、'! ='，' < = '、'\<'，' > ='、 ' >' 運算子|  
+|二進位 ==、!=、<=、<、>=、>|XPath '='、'! ='，' < ='，' <'、 '> ='、' >' 運算子|  
 |二進位 +、-、*、% (含兩個整數運算元)|XPath '+'、'-'、'*'、'mod' 運算子|  
   
 ## <a name="xlangs-constructs-that-are-disallowed-in-bpel4ws"></a>BPEL4WS 中不允許的 XLANG/s 建構  
@@ -84,11 +84,11 @@ ms.lasthandoff: 09/20/2017
   
 -   二進位 +、-、*、%、/ (含非整數運算元)  
   
--   二進位 < =、 \<，> =、 > 和非字串運算元  
+-   二進位 <=、<、>=、> (含非字串運算元)  
   
 -   位元運算子 &、 ^、 &#124;  
   
--   移位運算子 <\<，>>  
+-   移位運算子 <<、>>  
   
 -   已檢查的運算式  
   

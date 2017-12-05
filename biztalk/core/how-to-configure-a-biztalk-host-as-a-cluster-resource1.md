@@ -27,11 +27,11 @@ caps.latest.revision: "36"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9704dbdf2bcf3549e23f1875e85a49f0ee051b2f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a18548394980912796daf1100f700fd03e72f294
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-configure-a-biztalk-host-as-a-cluster-resource"></a>如何將 BizTalk 主控件設定為叢集資源
 本主題討論要將 BizTalk 主控件設定為叢集資源所必須依循的步驟。 若要完成本主題中的步驟，您必須已經設定至少兩部 BizTalk Server 在 BizTalk 群組中為 Windows Server 叢集的成員。 如需有關如何設定 Windows Server 叢集的詳細資訊，請參閱 Windows 伺服器線上說明。  
@@ -92,7 +92,7 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-configure-a-biztalk-host-as-a-cluster-resource"></a>若要將 BizTalk 主控件設定為叢集資源  
   
-1.  在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，按一下以展開**BizTalk Server 管理**，按一下以展開**BizTalk 群組 [\<伺服器名稱 >:\<管理資料庫 >]**，按一下以展開**平台設定**，然後按一下以展開**主機**。 主控件清單會出現在資料夾下。  
+1.  在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，按一下以展開**BizTalk Server 管理**，按一下以展開**BizTalk 群組 [\<servername\>:\<管理資料庫\>]**，按一下以展開**平台設定**，然後按一下以展開**主機**。 主控件清單會出現在資料夾下。  
   
 2.  以滑鼠右鍵按一下您想要叢集化，，然後選取 主機**叢集**。  
   
@@ -106,7 +106,7 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-uncluster-a-clustered-biztalk-host"></a>若要取消叢集的 BizTalk 主控件  
   
-1.  在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，按一下以展開**BizTalk Server 管理**，按一下以展開**BizTalk 群組 [\<伺服器名稱 >:\<管理資料庫 >]**，按一下以展開**平台設定**，然後按一下以展開**主機**。 主控件清單會出現在資料夾下。  
+1.  在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，按一下以展開**BizTalk Server 管理**，按一下以展開**BizTalk 群組 [\<servername\>:\<管理資料庫\>]**，按一下以展開**平台設定**，然後按一下以展開**主機**。 主控件清單會出現在資料夾下。  
   
 2.  以滑鼠右鍵按一下您想要取消，，然後選取 叢集主控件**Uncluster**。  
   

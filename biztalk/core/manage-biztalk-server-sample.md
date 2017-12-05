@@ -17,11 +17,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b15a94bf916550d9a2eada9b8f354432b4c154ff
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4234614cc9f00809f8922999ae96e6f254989c6a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="manage-biztalk-server-sample"></a>管理 （BizTalk Server 範例）
 「管理單一登入 (SSO)」範例會示範如何建構 .xml 檔案，這類檔案可以與 ssomanage.exe 命令列公用程式搭配使用，執行下列類型的系統管理作業：  
@@ -40,7 +40,7 @@ ms.lasthandoff: 09/20/2017
  這個範例會針對其中各種作業類型，分別提供一對 XSD 和範例 .xml 檔案。 範例 .xml 檔案中的值是無效的。 您必須變更這些值，才能符合您的特定需求。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- *\<範例路徑 >*\SSO\Manage\  
+ *\<範例路徑\>*\SSO\Manage\  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -94,5 +94,5 @@ ms.lasthandoff: 09/20/2017
 ## <a name="comments"></a>註解  
  在變更本範例所提供的範例 .xml 檔案之後 (尤其當這類變更牽涉範圍包括檔案中的機密資訊時)，請確定這些檔案已受檔案系統的妥善保護。 例如，請確定沒有小心地將這類檔案放在共用資料夾中。  
   
-## <a name="see-also"></a>另請參閱  
- [SSO （BizTalk Server 範例資料夾）](../core/sso-biztalk-server-samples-folder.md)
+## <a name="see-also"></a>請參閱  
+ [SSO (BizTalk Server Samples 資料夾)](../core/sso-biztalk-server-samples-folder.md)

@@ -12,16 +12,16 @@ caps.latest.revision: "35"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cf7b49ad5b8a7a383538ecef5a1dbadbc0dac3af
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1c38d00cbaf5d34aa880f5efd1d9e9a59d59c4e0
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="adapter-registration-file"></a>配接器登錄檔案
 順利建立自訂配接器程式碼之後，必須向 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 註冊。 若要執行此作業，可將登錄更新為適當配接器設定。 您可以手動寫入登錄檔案，但由於輸入精確和複雜資訊容易發生錯誤， 更好的選擇是要執行配接器登錄精靈。 配接器登錄精靈 」 可讓您完全相同選項從頭建立登錄檔案，並可降低檔案中的錯誤。 如需配接器登錄精靈 」 的詳細資訊，請參閱[配接器登錄精靈](../core/adapter-registry-wizard.md)。  
   
- StaticAdapterManagement.reg 和 DynamicAdapterManagement.reg 檔案位於*\<磁碟機 >*: \Program Files\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\SDK\Samples\AdaptersDevelopment\File Adapter。 當您執行其中一個檔案 (按兩下檔案，或以滑鼠右鍵按一下它，並選取**合併**)，它會向登錄註冊範例 file 配接器和組件安裝到全域組件快取。 若要註冊自訂配接器最好的選擇是使用配接器登錄精靈建立新的登錄檔。 如果自訂靜態配接器與範例配接器相似，並且您決定修改現有的登錄檔案，請開啟 StaticAdapterManagement.reg 檔案並修改下列屬性：  
+ StaticAdapterManagement.reg 和 DynamicAdapterManagement.reg 檔案位於*\<磁碟機\>*: \Program Files\Microsoft BizTalk Server\SDK\Samples\AdaptersDevelopment\File 配接器。 當您執行其中一個檔案 (按兩下檔案，或以滑鼠右鍵按一下它，並選取**合併**)，它會向登錄註冊範例 file 配接器和組件安裝到全域組件快取。 若要註冊自訂配接器最好的選擇是使用配接器登錄精靈建立新的登錄檔。 如果自訂靜態配接器與範例配接器相似，並且您決定修改現有的登錄檔案，請開啟 StaticAdapterManagement.reg 檔案並修改下列屬性：  
   
 -   **條件約束**  
   
@@ -99,7 +99,7 @@ Windows Registry Editor Version 5.00
   
 2.  按一下**啟動**，指向 **所有程式**，指向 **附屬應用程式**，然後按一下**Windows 檔案總管**。  
   
-3.  瀏覽至的安裝磁碟機[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]，然後瀏覽至 **<**  `drive` **>: \Program Files\Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **\SDK\Samples\AdaptersUsage\File 配接器**。  
+3.  瀏覽至安裝磁碟機，以便讓 BizTalk Server，然後瀏覽 **<**  `drive` **>: \Program Files\Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **\SDK\Samples\AdaptersUsage\File 配接器**。  
   
 4.  若要將範例配接器加入至登錄中，按兩下**StaticAdapterManagement.reg**。(如果您想要將動態 file 配接器新增至登錄，請執行**DynamicAdapterManagement.reg**改為與該檔案 everywhere else 依適當情況使用。)  
   

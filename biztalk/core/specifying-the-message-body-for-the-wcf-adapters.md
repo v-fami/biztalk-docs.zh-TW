@@ -17,11 +17,11 @@ caps.latest.revision: "21"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 215ba0419bd9e6921c74755a88a17fa639567835
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 109ad486baa542aff3cd1c4a44804ff2fd79aac5
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="specifying-the-message-body-for-the-wcf-adapters"></a>指定 WCF 配接器的訊息內文
 您可以使用**訊息**WCF 配接器，來指定如何從內送 SOAP 訊息擷取 BizTalk 訊息內文中索引標籤上，而 BizTalk 訊息本文的方式放在傳出 SOAP 訊息。  
@@ -35,12 +35,12 @@ ms.lasthandoff: 09/20/2017
   
  若要指定如何建立 BizTalk 訊息內文，選取下列選項中的其中一個**輸入 BizTalk 訊息內文**在上圖中的一節：  
   
--   **信封--整個\<soap: Envelope >**。 使用 SOAP**信封**內送訊息建立 BizTalk 訊息內文部分的項目。 整個內送訊息會變成 BizTalk 訊息內文。 您可以使用這個選項，建立合併所有標頭的 BizTalk 訊息內文。  
+-   **信封--整個\<soap: Envelope\>**。 使用 SOAP**信封**內送訊息建立 BizTalk 訊息內文部分的項目。 整個內送訊息會變成 BizTalk 訊息內文。 您可以使用這個選項，建立合併所有標頭的 BizTalk 訊息內文。  
   
     > [!NOTE]
     >  SOAP 標頭會放置在訊息內容中，但不會自動升級。 在自訂管線元件中可進行升級。  
   
--   **內文--內容\<soap: Body > 項目**。 使用內容的 SOAP**主體**內送訊息建立 BizTalk 訊息內文部分的項目。 如果 **Body** 元素有一個以上的子元素，則只有第一個元素會成為 BizTalk 訊息內文部分。  
+-   **內文--內容\<soap: Body\>元素**。 使用內容的 SOAP**主體**內送訊息建立 BizTalk 訊息內文部分的項目。 如果 **Body** 元素有一個以上的子元素，則只有第一個元素會成為 BizTalk 訊息內文部分。  
   
 -   **路徑--內容由本文路徑定位**。 使用中的內文路徑運算式**內文路徑運算式**文字方塊中，以建立 BizTalk 訊息內文部分。 內文路徑運算式會依照內送訊息 SOAP **Body** 元素的直系子元素來進行評估。 當內送訊息有二進位資料時，您可以使用這個選項，讓 BizTalk 訊息內文部分只包含二進位資料，沒有任何標籤。  
   
@@ -49,7 +49,7 @@ ms.lasthandoff: 09/20/2017
 > [!NOTE]
 >  如**內文路徑運算式**屬性，僅支援適用於順向處理 XML 的運算式的 XPath。 如需有關這個屬性可以使用 XPath 運算式的詳細資訊，請查看 「 最佳的同時世界:: 結合 XPath 與 XmlReader" [http://go.microsoft.com/fwlink/?LinkID=75701](http://go.microsoft.com/fwlink/?LinkID=75701)。  
   
- 如果**路徑--內容由內文路徑定位**選項和**節點編碼**屬性設定為**字串**，WCF 配接器預期相符的節點有 utf-8編碼的字元資料。 如果內送訊息包含逸出 XML 特殊字元的字元資料這類\<和 >，建立 BizTalk 訊息內文部分時，WCF 配接器會還原逸出的字元資料。 例如，如果相符的節點有逸出字元資料這類 **&lt;FirstName&gt;CONTOSO&lt;/FirstName&gt;**  WCF 配接器建立 **\<FirstName > CONTOSO\</FirstName >**輸入 biztalk 訊息內文。  
+ 如果**路徑--內容由內文路徑定位**選項和**節點編碼**屬性設定為**字串**，WCF 配接器預期相符的節點有 utf-8編碼的字元資料。 如果內送訊息包含逸出 XML 特殊字元的字元資料這類\<和\>，WCF 配接器建立 BizTalk 訊息內文部分時，還原逸出的字元資料。 例如，如果相符的節點有逸出字元資料這類 **&lt;FirstName&gt;CONTOSO&lt;/FirstName&gt;**  WCF 配接器建立 **\<FirstName\>CONTOSO\</FirstName\>** 輸入 biztalk 訊息內文。  
   
  如果**路徑--內容由內文路徑定位**選項和**節點編碼**屬性設定為**Hex**或**Base64**，相符的節點可以有有效**BinHex**或**Base64**順序。 如果相符的節點有無效序列，WCF 用戶端會收到**FaultException**、 BizTalk Server 電腦時，事件記錄檔中記錄錯誤訊息，並不會擱置訊息。  
   
@@ -84,13 +84,13 @@ ms.lasthandoff: 09/20/2017
   
 |輸入 BizTalk 訊息內文|[內文路徑運算式]|節點編碼|  
 |----------------------------------|--------------------------|-------------------|  
-|**信封--整個\<soap: Envelope >**|不適用|不適用|  
+|**信封--整個\<p: Envelope>\>**|不適用|不適用|  
   
  如果您設定**BizTalk 訊息內文**區段下表所示，WCF 配接器建立輸入的 BizTalk 訊息內文部分使其只包含**順序**中上一個項目內送 SOAP 訊息。  
   
 |輸入 BizTalk 訊息內文|[內文路徑運算式]|節點編碼|  
 |----------------------------------|--------------------------|-------------------|  
-|**內文--內容\<soap: Body > 項目**|不適用|不適用|  
+|**內文--內容\<soap: Body\>項目**|不適用|不適用|  
   
  如果您設定**BizTalk 訊息內文**區段下表所示，WCF 配接器預期內文路徑運算式相符的連入節點將有 utf-8 編碼字元資料。  
   
@@ -134,7 +134,7 @@ ms.lasthandoff: 09/20/2017
   
  WCF 配接器會將 BizTalk 訊息內文，根據**編碼**屬性在 XML 範本中，並取代**bts 訊息主體**編碼 BizTalk 訊息內文時建立的項目輸出 WCF 訊息。 如果**輸出 WCF 訊息內文-XML**文字方塊保留空白，則 WCF 配接器進行編碼 BizTalk 訊息內文中的**Base64**，然後將放置**Base64**序列中輸出 SOAP 訊息內文。  
   
- 如果**編碼**XML 範本中的屬性設定為**字串**，WCF 配接器會將 BizTalk 訊息內文部分編碼為 utf-8 編碼字元資料，在其中 XML 特殊字元，如\<和 > 的逸出。  
+ 如果**編碼**XML 範本中的屬性設定為**字串**，WCF 配接器會將 BizTalk 訊息內文部分編碼為 utf-8 編碼字元資料，在其中 XML 特殊字元，如\<和\>會逸出。  
   
  如果**編碼**XML 範本中的屬性設定為**base64**或**十六進位**，WCF 配接器會將 BizTalk 訊息內文部分，做為**BinHex**或**Base64**順序。  
   
@@ -182,7 +182,7 @@ ms.lasthandoff: 09/20/2017
   
 |輸出 WCF 訊息內文|XML|  
 |-------------------------------|---------|  
-|**內文--BizTalk 回應訊息內文**|\<活頁簿 ><br /><br /> \<**bts 訊息主體**xmlns ="http://www.microsoft.com/schemas/bts2010"encoding ="**字串**"/ ><br /><br /> \</ 通訊錄 >|  
+|**內文--BizTalk 回應訊息內文**|\<活頁簿\><br /><br /> \<**bts 訊息主體**xmlns ="http://www.microsoft.com/schemas/bts2010"encoding ="**字串**"/\><br /><br /> \</ 活頁簿\>|  
   
 ```  
 <s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">  
@@ -205,7 +205,7 @@ ms.lasthandoff: 09/20/2017
   
 |輸出 WCF 訊息內文|XML|  
 |-------------------------------|---------|  
-|**內文--BizTalk 回應訊息內文**|\<活頁簿 ><br /><br /> \<**bts 訊息主體**xmlns ="http://www.microsoft.com/schemas/bts2010"encoding ="**base64**"/ ><br /><br /> \</ 通訊錄 >|  
+|**內文--BizTalk 回應訊息內文**|\<活頁簿\><br /><br /> \<**bts 訊息主體**xmlns ="http://www.microsoft.com/schemas/bts2010"encoding ="**base64**"/\><br /><br /> \</ 活頁簿\>|  
   
 ```  
 <s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://ww  
@@ -234,7 +234,7 @@ FBMmM8L25zMDpPcmRlcklEPg0KICA8L25zMDpPcmRlckRldGFpbD4NCjwvbnMwOk9yZGVyPg==</Book
   
 |輸出 WCF 訊息內文|XML|  
 |-------------------------------|---------|  
-|**內文--BizTalk 回應訊息內文**|\<活頁簿 ><br /><br /> \<**bts 訊息主體**xmlns ="http://www.microsoft.com/schemas/bts2010"encoding ="**xml**"/ ><br /><br /> \</ 通訊錄 >|  
+|**內文--BizTalk 回應訊息內文**|\<活頁簿\><br /><br /> \<**bts 訊息主體**xmlns ="http://www.microsoft.com/schemas/bts2010"encoding ="**xml**"/\><br /><br /> \</ 活頁簿\>|  
   
 ```  
 <s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">  

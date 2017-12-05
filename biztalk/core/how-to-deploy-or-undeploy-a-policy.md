@@ -19,11 +19,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a4913dbfa6f3d027d5540234b5af9370eb69f67a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9d6e7f9f70e6f1f0f09ae1d006172fdc00dc1bc0
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-deploy-or-undeploy-a-policy"></a>如何部署或解除部署原則
 本主題描述如何使用 [BizTalk Server 管理] 主控台，以手動方式部署或解除部署原則。 此外，啟動應用程式會自動部署它所包含的原則，而停止應用程式則會自動解除部署它的原則。 部署原則會在使用它的應用程式中生效； 解除部署原則會讓它成為非使用中，所以此原則在 BizTalk 群組中使用它的任何應用程式內都不再有任何作用。  
@@ -43,10 +43,10 @@ ms.lasthandoff: 09/20/2017
   
 1.  按一下**啟動**，按一下 **所有程式**，按一下  [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]，然後按一下  **BizTalk Server 管理**。  
   
-2.  在主控台樹狀目錄中，依序展開**BizTalk Server 管理**，展開包含您要部署或解除部署，然後展開 原則的 BizTalk 群組**\<所有成品 >**。  
+2.  在主控台樹狀目錄中，依序展開**BizTalk Server 管理**，展開包含您要部署或解除部署，然後展開 原則的 BizTalk 群組**\<所有成品\>**.  
   
 3.  按一下**原則**，以滑鼠右鍵按一下原則，然後按一下**部署**或**解除部署**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理原則](../core/managing-policies.md)   
  [如何啟動和停止 BizTalk 應用程式](../core/how-to-start-and-stop-a-biztalk-application.md)

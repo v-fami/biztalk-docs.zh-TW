@@ -12,11 +12,11 @@ caps.latest.revision: "16"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a88b7596772e951a835ffc13874ade7fefab5137
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3d1ffc367e4b87d29e372bc434c0eda18da4363a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="configuring-the-sending-and-receiving-of-edi-acknowledgments"></a>設定傳送及接收 EDI 通知
 如果要設定傳送 EDI 通知來回應收到的交換，您必須執行下列工作：  
@@ -54,9 +54,9 @@ ms.lasthandoff: 09/20/2017
   
     2.  在**通知**頁面上，選取 屬性定義的傳送者合作對象預期之通知種類：  
   
-         對於 X12 通知，選取**預期 TA1**及/或**預期 997**應根據哪一個通知。 每個通知類型 選取**不要批次處理\<通知類型 >**如果您想要當做個別的交換傳送通知的每個執行個體。  
+         對於 X12 通知，選取**預期 TA1**及/或**預期 997**應根據哪一個通知。 每個通知類型 選取**不要批次處理\<通知類型\>**如果您想要當做個別的交換傳送通知的每個執行個體。  
   
-         對於 EDIFACT 通知選取**訊息回條 (CONTRL 必須是)**及/或**通知 (CONTRL) 必須是**應根據哪一個通知。 每個通知類型 選取**不要批次處理\<通知類型 >**如果您想要當做個別的交換傳送通知的每個執行個體。  
+         對於 EDIFACT 通知選取**訊息回條 (CONTRL 必須是)**及/或**通知 (CONTRL) 必須是**應根據哪一個通知。 每個通知類型 選取**不要批次處理\<通知類型\>**如果您想要當做個別的交換傳送通知的每個執行個體。  
   
     3.  在**本機主機設定**頁面**交換設定**區段中，清除**通知的路由設定為傳送管線在要求-回應接收埠**傳回以非同步方式透過單向傳送埠的通知。 讓此屬性維持選取狀態，則會透過雙向接收埠同步傳回通知。  
   
@@ -91,7 +91,7 @@ ms.lasthandoff: 09/20/2017
   
     3.  對於 EDIFACT 通知，如有需要，在**信封**頁面**交換設定**區段中，指定通知是否會包含 UNA 或 UNG 區段，選取適當的選項。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [設定 EDI 通知](../core/configuring-edi-acknowledgments.md)   
  [EDI 服務和控制結構描述](../core/edi-service-and-control-schemas.md)   
  [傳送 EDI 通知](../core/sending-an-edi-acknowledgment.md)   

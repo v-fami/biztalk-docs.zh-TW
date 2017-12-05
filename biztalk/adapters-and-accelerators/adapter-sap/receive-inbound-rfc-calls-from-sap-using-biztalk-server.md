@@ -13,11 +13,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: bb1c9ba4d51b0c1b402c35c5f4763e4a934de085
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4b949ae0d6d5938493c78ed542a67d3c8bd09b48
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="receive-inbound-rfc-calls-from-sap-using-biztalk-server"></a>從 SAP 使用 BizTalk Server 接收輸入 RFC 呼叫
 在 RFC 伺服器案例中，有三個實體：  
@@ -162,7 +162,7 @@ namespace RFCServerResponseCreator
         public static XmlDocument CreateRequest(int a, int b, string destination)  
         {  
             messageIn = new XmlDocument();  
-            messageIn.LoadXml(  "\<Z_RFC_ADD xmlns=\"http://Microsoft.LobServices.Sap/2007/03/Rfc/\">" +  
+            messageIn.LoadXml(  "<Z_RFC_ADD xmlns=\"http://Microsoft.LobServices.Sap/2007/03/Rfc/\">" +  
                                 "<DEST>" + destination + "</DEST>" +  
                                 "<X>" + a + "</X>" +  
                                 "<Y>" + b + "</Y>" +   
@@ -174,7 +174,7 @@ namespace RFCServerResponseCreator
         {  
             int c = a + b;  
             messageOut = new XmlDocument();  
-            messageOut.LoadXml( "\<Z_RFC_ADDResponse xmlns=\"http://Microsoft.LobServices.Sap/2007/03/Rfc/\">" +  
+            messageOut.LoadXml( "<Z_RFC_ADDResponse xmlns=\"http://Microsoft.LobServices.Sap/2007/03/Rfc/\">" +  
                                 "<RESULT>" + c + "</RESULT>" +   
                                 "</Z_RFC_ADDResponse>"  
                               );  
@@ -256,5 +256,5 @@ Response(WCF.Action) = "http://Microsoft.LobServices.Sap/2007/03/Rfc/Z_RFC_ADD/r
 ## <a name="best-practices"></a>最佳作法  
  您部署和設定 BizTalk 專案之後，您可以為 XML 檔案，稱為繫結檔案匯出組態設定。 一旦產生繫結檔案時，您可以匯入組態設定從檔案，因此您不需要建立傳送埠、 接收埠，等。 針對相同的協調流程。 如需繫結檔案的詳細資訊，請參閱[重複使用的 SAP 配接器繫結](../../adapters-and-accelerators/adapter-sap/reuse-sap-adapter-bindings.md)。
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [開發 BizTalk 應用程式](../../adapters-and-accelerators/adapter-sap/develop-biztalk-applications-using-the-sap-adapter.md)

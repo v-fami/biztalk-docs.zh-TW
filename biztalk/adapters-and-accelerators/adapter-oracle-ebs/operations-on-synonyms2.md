@@ -12,11 +12,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2e4e833b05609d3889c30eac39a9285b09c63b68
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: df5f6e797e59e79ed275fb94217d94425e456e85
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="operations-on-synonyms"></a>在同義字上的作業
 [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]可讓您在同義字上執行作業。 同義字是別名或資料庫物件 （例如資料表、 檢視、 預存程序、 函數和封裝） 的好記名稱。 如需在 Oracle 中的同義字的詳細資訊，請參閱[http://go.microsoft.com/fwlink/?LinkId=138058](http://go.microsoft.com/fwlink/?LinkId=138058)。  
@@ -49,7 +49,7 @@ ms.lasthandoff: 09/20/2017
   
  每個成品的同義字會公開在個別的基礎成品一起[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]， [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]，和[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]。 例如，**資料表**節點下的**結構描述為基礎的檢視**將會顯示結構描述，以及資料庫資料表的資料表的同義字**檢視**底下的節點**結構描述為基礎的檢視**會顯示在結構描述，以及資料庫檢視的檢視表的所有同義字等等。  
   
--   在資料表和檢視表上建立同義字，相同的作業會公開與基礎資料表和檢視表分別。 例如，如果基礎資料表和檢視表包含 LOB 資料行，這些資料表和檢視表的同義字會也會公開 Read_\<LOBColName > 和 Update_\<LOBColName > 資料表的同義字及 Read_作業\<LOBColName > 檢視同義字的作業。  
+-   在資料表和檢視表上建立同義字，相同的作業會公開與基礎資料表和檢視表分別。 例如，如果基礎資料表和檢視表包含 LOB 資料行，這些資料表和檢視表的同義字會也會公開 Read_\<LOBColName\>和 Update_\<LOBColName\>資料表同義字的作業和 Read_\<LOBColName\>檢視同義字的作業。  
   
 -   建立預存程序、 函數和封裝上的同義字，同義字被公開為與個別的基礎預存程序、 函數和封裝結構描述中的作業。  
   
@@ -65,5 +65,5 @@ ms.lasthandoff: 09/20/2017
 > [!NOTE]
 >  您可以搜尋的同義字[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]或[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]就像其他物件。 不過，您無法搜尋同義字的封裝，將略過層級節點內的程序就可以如同在封裝內的程序一樣。 搜尋作業，在配接器的相關資訊，請參閱[瀏覽、 搜尋和 SQL 作業使用 SQL 配接器取得中繼資料](../../adapters-and-accelerators/adapter-sql/browse-search-and-get-metadata-for-sql-operations-using-the-sql-adapter.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [哪些作業可以是執行使用配接器？](https://msdn.microsoft.com/library/cc185219(v=bts.10).aspx)

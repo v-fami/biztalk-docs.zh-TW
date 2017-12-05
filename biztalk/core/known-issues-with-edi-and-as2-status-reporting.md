@@ -12,14 +12,14 @@ caps.latest.revision: "32"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e6a78b90a3cebb2b812ef68b21c8ea2f99eb0981
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 691a10671c4c8ff5f2ff77065455c100784ddd0e
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="known-issues-with-edi-and-as2-status-reporting"></a>EDI 和 AS2 狀態報告的已知問題
-本主題描述 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 中 EDI 狀態報告的已知問題。  
+本主題說明使用 BizTalk Server 中 EDI 狀態報告的已知的問題。  
   
 ## <a name="batch-status-reporting-data-may-not-be-updated-if-the-batch-orchestration-is-stopped-outside-of-the-partner-agreement-manager"></a>如果在夥伴協議管理員外部停止了批次協調流程，批次狀態報告資料可能不會更新。  
  批次協調流程執行個體可以透過 [批次] 頁面的 [EDI 屬性] 對話方塊停用的合作對象。 如果您以這種方式停用批次協調流程執行個體，BizTalk Server 將會更新該批次的狀態報告資料。 不過，如果您以其他方式停止批次協調流程，例如，協調流程的其中一個查詢頁面停止 [群組概觀] 頁面上的[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，報告可能不會更新資料，以及可能的狀態與批次狀態報告的已過期。 例如，即使批次協調流程已經停用了，狀態報告可能還是會指出批次仍在作用中。  
@@ -63,9 +63,9 @@ ms.lasthandoff: 09/20/2017
 ## <a name="status-reporting-will-not-work-after-an-upgrade-if-the-bam-tools-are-not-configured"></a>如果沒有設定 BAM 工具，則在升級之後，狀態報告將無法運作  
  您必須設定 BAM 工具，EDI 和 AS2 狀態報告才能運作。 如果您將 [!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)] 的安裝升級到後續版本，而且沒有在升級程序中設定 BAM 工具，則已升級的安裝的上 EDI/AS2 狀態報告功能將無法正常運作。  
   
- 如果您想要升級到之後使用狀態報告[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]，請確定您在執行升級之前，已設定 BAM 工具。  
+ 如果您想要使用的狀態報告在您升級至 BizTalk Server 之後，，請確定您在執行升級之前，會設定 BAM 工具。  
   
- 如果狀態報告在您執行升級之後無法運作，請在升級記錄中判斷 BAM 工具是否在升級之前設定。 如果您沒有，您可以設定 BAM 工具，並接著將部署 EdiStatusReportingActivityDefs.xml 檔案中包含的 BusinessMessageJournal BAM 活動*\<磁碟機 >*: \Program Files\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]。  
+ 如果狀態報告在您執行升級之後無法運作，請在升級記錄中判斷 BAM 工具是否在升級之前設定。 如果您沒有，您可以設定 BAM 工具，並接著將部署 EdiStatusReportingActivityDefs.xml 檔案中包含的 BusinessMessageJournal BAM 活動*\<磁碟機\>*: \Program Files\MicrosoftBizTalk Server。  
   
 ## <a name="disabling-transaction-set-storage-affects-an-activated-batch-but-enabling-storage-does-not"></a>停用交易集儲存區會影響已啟動的批次，但是啟用儲存區不會  
  如果您在啟動批次處理協調流程的執行個體時停用了交易集的儲存區，這項變更將會立即生效。 BizTalk Server 會在啟用儲存區時儲存批次的交易集，但是在停用儲存區之後就不會儲存交易集。 您停用交易集的儲存的體，藉由清除 [儲存交易集/內容報告] 屬性 [EDI 屬性] 對話方塊的 [一般] 窗格中。  
@@ -89,12 +89,12 @@ ms.lasthandoff: 09/20/2017
  這個問題的解決方法是清除 [將編碼的輸出 AS2 訊息儲存在不可否認性的資料庫中] 或 [連接埠處理後要求訊息] 屬性。 建議您停用 [連接埠處理後要求訊息] 屬性，讓 AS2 追蹤可以擷取內文資訊以及 AS2 狀態報告的其他資訊。  
   
 ## <a name="edi-and-as2-message-context-properties-are-not-available-after-upgrading-to-biztalk-2009"></a>EDI 和 AS2 訊息內容屬性都未升級至 BizTalk 2009 之後  
- 升級到之後[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]，任何內容屬性會顯示在狀態報告任何 EDI 或 AS2 接收的訊息升級發生之前。  升級會正確顯示的內容屬性之後，接收的訊息。  
+ 升級到 BizTalk Server 之後，任何內容屬性會不顯示在狀態報告任何 EDI 或 AS2 接收的訊息升級發生之前。  升級會正確顯示的內容屬性之後，接收的訊息。  
   
- EDI 和 AS2 內容屬性集合並未儲存在舊版的 BizTalk Server 訊息的一部分，並在升級後就無法使用。 升級到之後[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]，但不是 EDI 內容屬性，將會儲存為訊息部分的 AS2 內容屬性。  
+ EDI 和 AS2 內容屬性集合並未儲存在舊版的 BizTalk Server 訊息的一部分，並在升級後就無法使用。 升級到 BizTalk Server 中，AS2 內容屬性會儲存為訊息的一部分之後不過 EDI 內容屬性不會。  
   
 ## <a name="interchange-date-for-received-documents-may-display-the-wrong-year-in-status-reports"></a>接收文件的交換日期可能會顯示在狀態報告中錯誤的年度  
- 如果接收的文件以 YYMMDD 格式指定日期[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]使用下列邏輯來判斷的年份值：  
+ 如果接收的文件以 YYMMDD 格式指定日期，BizTalk Server 會使用下列邏輯來決定的年份值：  
   
 -   如果大於或等於 75 YY，年份將會顯示為 19YY。  
   
@@ -105,6 +105,6 @@ ms.lasthandoff: 09/20/2017
 ## <a name="error-message-may-be-displayed-as-a-string-of-question-marks"></a>錯誤訊息可能顯示為由問號組成的字串。  
  在 BizTalk Server 當地語系化組建中，如果錯誤訊息是顯示為由問號組成的字串，您需要根據作業系統語言來變更系統地區設定，才能取得預期的錯誤訊息。 如需變更系統地區設定的詳細資訊，請參閱[變更系統地區設定](http://windows.microsoft.com/en-IN/windows-vista/Change-the-system-locale)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [疑難排解 EDI 和 AS2 解決方案](../core/troubleshooting-edi-and-as2-solutions.md)   
  [EDI 和 AS2 狀態報告](../core/edi-and-as2-status-reporting.md)

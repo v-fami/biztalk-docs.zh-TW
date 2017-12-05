@@ -18,28 +18,28 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1968549cb2417a180ee69dff82f233c43a40318c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d064c06aec2698da1be3824ec709dac1702f8e40
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="lesson-2-submitting-an-mt103-message-that-is-not-valid"></a>第 2 課： 送出不是有效的 MT103 訊息
 在這一課，您提交 MT103 訊息不是有效，然後在您解決使用系統工具產生的錯誤。  
   
 ### <a name="to-submit-an-mt103-message-that-is-not-valid"></a>若要提交 MT103 訊息無效  
   
-1.  複製檔案 MT103_Invalid_Sample.txt 從\<*磁碟機：*> \Program Files\Microsoft BizTalk Accelerator for SWIFT\SDK\Tutorial 至\<*磁碟機*>: \Labs\Inbound\FlatFile 資料夾中。 請注意您將檔案放置到該資料夾的時間。  
+1.  複製檔案 MT103_Invalid_Sample.txt 從\<*磁碟機：*\>\Program Files\Microsoft BizTalk Accelerator for SWIFT\SDK\Tutorial 至\<*磁碟機*\>: \Labs\Inbound\FlatFile 資料夾。 請注意您將檔案放置到該資料夾的時間。  
   
-2.  開啟\<*磁碟機：*> \Labs\Outbound 以確認沒有 MT103_Invalid_Sample.txt 相對應的 XML 檔案的資料夾中。 （對應至有效 MT103_Sample.txt 訊息的 XML 檔案仍應該在該資料夾中）。  
+2.  開啟\<*磁碟機：*\>\Labs\Outbound 以確認沒有 MT103_Invalid_Sample.txt 相對應的 XML 檔案的資料夾中。 （對應至有效 MT103_Sample.txt 訊息的 XML 檔案仍應該在該資料夾中）。  
   
-3.  在 [記事本] 開啟的檔案 MT103_Invalid_Sample.txt 中\<*磁碟機：*> \Program Files\Microsoft BizTalk Accelerator for SWIFT\SDK\Tutorial。  
+3.  在 [記事本] 開啟的檔案 MT103_Invalid_Sample.txt 中\<*磁碟機：*\>\Program Files\Microsoft BizTalk Accelerator for SWIFT\SDK\Tutorial。  
   
 4.  啟動**BizTalk Server 管理**。  
   
 5.  在 BizTalk Server 管理主控台中，展開**事件檢視器 （本機）**，然後按一下 **應用程式**。  
   
-6.  尋找具有來源 BizTalk accelerator for SWIFT 與您卸除到無效的訊息時，對應至一次的錯誤項目\<*磁碟機*>: \Labs\Inbound\FlatFile 資料夾。 按兩下該錯誤項目。  
+6.  尋找具有來源 BizTalk accelerator for SWIFT 與您卸除到無效的訊息時，對應至一次的錯誤項目\<*磁碟機*\>: \Labs\Inbound\FlatFile 資料夾。 按兩下該錯誤項目。  
   
 7.  在 事件內容 對話方塊中的 錯誤，確認 描述 窗格中失敗的訊息已發佈至 MessageBox SWIFT 解譯器標示**A4SWIFT_Failed**為**True**。 關閉 [事件內容] 對話方塊。  
   

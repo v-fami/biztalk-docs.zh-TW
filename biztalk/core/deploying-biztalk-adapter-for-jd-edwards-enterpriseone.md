@@ -13,11 +13,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8e1af9a8486414830011e522fef7da088dd00909
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: 55374c87192c993e26cc11cb496d89074d527868
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="import-the-jd-edwards-enterpriseone-application"></a>JD Edwards EnterpriseOne 應用程式匯入
   
@@ -58,7 +58,7 @@ ms.lasthandoff: 11/07/2017
 例如，在命令提示字元下執行：  
   
 ```
-cscript RemoveSendPort.vbs \<Send port name>
+cscript RemoveSendPort.vbs \<Send port name\>
 ```
 ## <a name="limitations"></a>限制
 「傳輸配接器」密碼以星號 (******) 儲存在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 匯出的繫結檔案中，並且會以相同格式傳遞給管理元件。 在匯入繫結檔案前先行編輯該檔案，方法是將星號取代為某些垃圾值 (亦即不正確的密碼)。  

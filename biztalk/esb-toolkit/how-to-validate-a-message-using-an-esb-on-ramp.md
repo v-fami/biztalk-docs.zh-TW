@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 63a6a79a12949148f77363d7e4cffd2b2c321d00
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4e14fd3f433609da7748197a8b67112d815da153
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-validate-a-message-using-an-esb-on-ramp"></a>如何： 驗證訊息，使用 ESB 上手
 ## <a name="goal"></a>目標  
@@ -58,7 +58,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  在 [記事本] 開啟 Invalid.xml。  
   
-4.  變更 **\<ns0:requestType > 10\</ns0:requestType > 至\<ns0:requestType > 十個\</ns0:requestType >**。  
+4.  變更 **\<ns0:requestType\>10\</ns0:requestType\>至\<ns0:requestType\>十個\</ns0:requestType\>** .  
   
 5.  儲存 Invalid.xml 為 utf-8，，然後關閉 [記事本]。  
   
@@ -67,9 +67,9 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-create-an-esb-itinerary-dsl-model"></a>若要建立 ESB 路線 DSL 模型  
   
-1.  在[!INCLUDE[vs2010](../includes/vs2010-md.md)]，開啟 C:\HowTos\Patterns\Patterns.sln。  
+1.  在 Visual Studio 中開啟 C:\HowTos\Patterns\Patterns.sln。  
   
-2.  在 方案總管 中，以滑鼠右鍵按一下**ItineraryLibrary**，指向 **新增**，然後按一下**新的行程**。  
+2.  在 方案總管 中，以滑鼠右鍵按一下**ItineraryLibrary**，指向 **新增**，然後按一下 **新的行程**。  
   
 3.  在**加入新項目** 對話方塊中，輸入**驗證**中**名稱**方塊，然後再按一下**新增**。  
   
@@ -116,7 +116,7 @@ ms.lasthandoff: 09/20/2017
   
     2.  在**路線服務的擴充項**下拉式清單中，按一下 **匝道 Extender**。  
   
-    3.  在**匝道**下拉式清單中，展開**SendNAOrder**，然後按一下**傳送處理常式**。  
+    3.  在**匝道**下拉式清單中，展開**SendNAOrder**，然後按一下 **傳送處理常式**。  
   
 4.  以滑鼠右鍵按一下**解析程式**集合**SendPortFilter**項目，然後再按一下**加入新的解析程式**。 在**Resolver1**屬性 視窗中，設定下列屬性：  
   
@@ -145,17 +145,17 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-create-and-configure-an-esb-on-ramp"></a>若要建立及設定 ESB 上手  
   
-1.  按一下**啟動**在工作列上，指向**所有程式**，指向   **[!INCLUDE[prague](../includes/prague-md.md)]** ，然後按一下 **BizTalk Server 管理**.  
+1.  按一下**啟動**在工作列上，指向**所有程式**，指向  **BizTalk Server**，然後按一下  **BizTalk Server 管理**。  
   
-2.  在[!INCLUDE[prague](../includes/prague-md.md)]管理主控台中，展開  **BizTalk 群組**，依序展開**應用程式**，然後展開**Microsoft.Practices.ESB**。  
+2.  在 BizTalk Server 管理主控台中，展開**BizTalk 群組**，依序展開**應用程式**，然後展開**Microsoft.Practices.ESB**。  
   
-3.  以滑鼠右鍵按一下**接收位置**，指向 **新增**，然後按一下**單向接收位置**。  
+3.  以滑鼠右鍵按一下**接收位置**，指向 **新增**，然後按一下 **單向接收位置**。  
   
-4.  在**選取接收埠**對話方塊中，按一下  **OnRamp.Itinerary**，然後按一下**確定**。  
+4.  在**選取接收埠**對話方塊中，按一下  **OnRamp.Itinerary**，然後按一下 **確定**。  
   
 5.  在**接收位置屬性** 對話方塊中，輸入**OnRamp.Itinerary.HowTo**中**名稱**方塊。  
   
-6.  在**類型**下拉式清單中，按一下 **檔案**，然後按一下**設定**。  
+6.  在**類型**下拉式清單中，按一下 **檔案**，然後按一下 **設定**。  
   
 7.  在**FILE 傳輸屬性** 對話方塊中，輸入**C:\HowTos\DropFolder**中**接收資料夾**方塊，然後再按一下**確定**。  
   
@@ -165,7 +165,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  使用**設定管線**對話方塊來設定下列**XML 解譯器**元件屬性：  
   
-    1.  展開 GlobalBank.Esb 應用程式，然後按一下**結構描述**。 以滑鼠右鍵按一下**GlobalBank.ESB.DynamicResolution.Schemas.NAOrderDoc**，然後按一下**屬性**。 複製**名稱**和**組件**屬性並將它們貼至文字檔案。  
+    1.  展開 GlobalBank.Esb 應用程式，然後按一下**結構描述**。 以滑鼠右鍵按一下**GlobalBank.ESB.DynamicResolution.Schemas.NAOrderDoc**，然後按一下 **屬性**。 複製**名稱**和**組件**屬性並將它們貼至文字檔案。  
   
     2.  在**解譯**元件，請按一下**True**中**ValidateDocument**下拉式清單。  
   
@@ -188,7 +188,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  按一下**確定**關閉**接收位置屬性** 對話方塊。  
   
-3.  在[!INCLUDE[prague](../includes/prague-md.md)]管理主控台中，以滑鼠右鍵按一下**OnRamp.Itinerary.HowTo**接收位置，然後按一下**啟用**。  
+3.  在 BizTalk Server 管理主控台中，以滑鼠右鍵按一下**OnRamp.Itinerary.HowTo**接收位置，然後按一下**啟用**。  
   
 #### <a name="to-test-the-message-validation-and-itinerary-selection"></a>若要測試訊息驗證和行程選取項目  
   
@@ -212,24 +212,24 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  無法驗證訊息。因此，行程為基礎的路由無法完成。  
   
-8.  按一下**啟動**在工作列上，指向**系統管理工具**，然後按一下**事件檢視器**。  
+8.  按一下**啟動**在工作列上，指向**系統管理工具**，然後按一下 **事件檢視器**。  
   
-9. 在 事件檢視器中，展開**Windows 記錄檔**，然後按一下**應用程式**。  
+9. 在 事件檢視器中，展開**Windows 記錄檔**，然後按一下 **應用程式**。  
   
-10. 找出最近的事件位置**來源**是 **[!INCLUDE[prague](../includes/prague-md.md)]** ，而**事件識別碼**是**5719**。  
+10. 找出最近的事件位置**來源**是**BizTalk Server**，而**事件識別碼**是**5719**。  
   
     > [!NOTE]
     >  提交和失敗的無效訊息應用程式事件記錄檔產生的例外狀況的項目。  
   
-11. 在[!INCLUDE[prague](../includes/prague-md.md)]管理主控台中，以滑鼠右鍵按一下**OnRamp.Itinerary.HowTo**接收位置，然後按一下**停用**。  
+11. 在 BizTalk Server 管理主控台中，以滑鼠右鍵按一下**OnRamp.Itinerary.HowTo**接收位置，然後按一下**停用**。  
   
 12. 之後**OnRamp.Itinerary.HowTo**接收位置已停用，以滑鼠右鍵按一下，，然後按一下**刪除**。 在**確認刪除接收位置**對話方塊中，按一下 **是**。  
   
 ## <a name="additional-resources"></a>其他資源  
  如需詳細資訊，請參閱下列相關主題：  
   
--   [如何： 選取 使用商務規則原則路線](../esb-toolkit/how-to-select-an-itinerary-using-a-business-rules-policy.md)  
+-   [如何：使用商務規則原則選取路線](../esb-toolkit/how-to-select-an-itinerary-using-a-business-rules-policy.md)  
   
 -   [開發活動](../esb-toolkit/development-activities.md)  
   
--   [安裝及執行動態解析範例](../esb-toolkit/installing-and-running-the-dynamic-resolution-sample.md)
+-   [安裝和執行動態解析範例](../esb-toolkit/installing-and-running-the-dynamic-resolution-sample.md)

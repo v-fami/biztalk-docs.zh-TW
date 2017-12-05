@@ -12,26 +12,26 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 45f3fedbdc4217ef5379b5e890568346a565a235
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ff27ebd5804f3603aabf3bae24e469c2028234f2
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="windows-sharepoint-services-40-support"></a>Windows SharePoint Services 4.0 支援
-[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 專用的 Windows SharePoint Services 配接器可提供與 [!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)] 專用的 Windows SharePoint Services 配接器同等的功能。 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 專用的 Windows SharePoint Services 配接器還支援 Windows SharePoint Services 4.0 提供的下列功能︰  
+BizTalk Server 的 Windows SharePoint Services 配接器提供的 Windows SharePoint Services 配接器的功能同位檢查[!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)]。 BizTalk Server 的 Windows SharePoint Services 配接器也支援 Windows SharePoint Services 4.0 提供的下列功能：  
   
 -   傳送訊息至 Windows SharePoint Services 4.0 部落格網站。  
   
 -   傳送訊息至 Windows SharePoint Services 4.0 Wiki 網站，以及從 Windows SharePoint Services 4.0 Wiki 網站接收訊息。  
   
- [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 專用的 Windows SharePoint Services 配接器不支援 Windows SharePoint Services 4.0 提供的下列功能：  
+ BizTalk Server 的 Windows SharePoint Services 配接器不支援 Windows SharePoint Services 4.0 中可用的下列功能：  
   
--   **資源回收筒**: Windows SharePoint Services 配接器[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]配接器不支援接收，或明確傳送訊息從至資源回收筒。  
+-   **資源回收筒**： 為 BizTalk Server 配接器的 Windows SharePoint Services 配接器不支援接收，或明確傳送訊息從至資源回收筒。  
   
--   **列出資料夾**: Windows SharePoint Services 配接器[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]可以傳送訊息至清單，但不是能從清單接收訊息。 Windows SharePoint Services 4.0 支援清單中的資料夾，但 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 專用的 Windows SharePoint Services 配接器不支援這項功能。 因此，[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 專用的 Windows SharePoint Services 配接器不能在根資料夾以外的清單資料夾中建立清單項目。  
+-   **列出資料夾**: BizTalk server 的 Windows SharePoint Services 配接器傳送訊息至清單，但不是能從清單接收訊息。 Windows SharePoint Services 4.0 支援清單中的資料夾，但 BizTalk Server 的 Windows SharePoint Services 配接器不支援這項功能。 因此，BizTalk Server 的 Windows SharePoint Services 配接器無法在根資料夾以外的清單資料夾中建立清單項目。  
   
--   下列章節會更詳細說明如何使用 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 專用的 Windows SharePoint Services 配接器傳送訊息至 Windows SharePoint Services 4.0 部落格網站，以及如何傳送訊息至 Windows SharePoint Services 4.0 Wiki 網站和從 Windows SharePoint Services 4.0 Wiki 網站接收訊息。  
+-   下列章節將更詳細地如何使用 BizTalk Server 的 Windows SharePoint Services 配接器傳送訊息至 Windows SharePoint Services 4.0 部落格網站，以及如何傳送訊息至而從 Windows SharePoint Services 接收訊息4.0 Wiki 網站。  
   
 ## <a name="sending-to-a-windows-sharepoint-services-40-blog-site"></a>傳送至 Windows SharePoint Services 4.0 部落格網站  
  在 Windows SharePoint Services 4.0 部落格網站中，文章儲存在**文章**中所定義的清單，而文章類別**類別**清單。  
@@ -41,7 +41,7 @@ ms.lasthandoff: 09/20/2017
 |屬性|值|  
 |--------------|-----------|  
 |目的資料夾 URL|相對於 SharePoint 網站之 Posts 清單 (例如 "Lists/Posts") 的目的資料夾 URL。|  
-|SharePoint 網站 URL|Windows SharePoint Services 4.0 部落格網站，例如 http:// URL*\<servername >*/sites/部落格/其中 *\<servername >*是實際名稱的預留位置Web 伺服器。|  
+|SharePoint 網站 URL|Windows SharePoint Services 4.0 部落格網站，例如 http:// URL*\<servername\>*/sites/部落格/其中 *\<servername\>* 是Web 伺服器的實際名稱的預留位置。|  
   
  然後設定的值**類別**，**發佈**，**標題**，和**主體**張貼設定對應的屬性WSS 中的值。ConfigPropertiesXml 的訊息內容屬性。 此步驟可以在自訂管線或協調流程中進行。 例如，協調流程中的下列運算式會設定 Message_Out 訊息之 WSS.ConfigPropertiesXml 內容屬性中的值：  
   
@@ -86,7 +86,7 @@ Message_Out(WSS.ConfigPropertiesXml) = “<ConfigPropertiesXml>
 |屬性|值|  
 |--------------|-----------|  
 |目的資料夾 URL|相對於 SharePoint 網站的 Wiki 網站 (例如 "wikiSP") 首頁 URL。|  
-|SharePoint 網站 URL|Windows SharePoint Services 4.0 Wiki 網站，例如 http:// URL*\<servername >*/sites/wiki/其中 *\<servername >*是實際名稱的預留位置web 伺服器。|  
+|SharePoint 網站 URL|Windows SharePoint Services 4.0 Wiki 網站，例如 http:// URL*\<servername\>*/sites/wiki/其中 *\<servername\>* 是web 伺服器的實際名稱的預留位置。|  
   
  然後將設定的值**Wiki Content** Wiki 頁面設定 WSS 中對應值的屬性。ConfigPropertiesXml 的訊息內容屬性。 此步驟可以在自訂管線或協調流程中進行。 例如，協調流程中的下列運算式會設定 Message_Out 訊息之 WSS.ConfigPropertiesXml 內容屬性中的值：  
   
@@ -101,7 +101,7 @@ Message_Out(WSS.ConfigPropertiesXml) = “<ConfigPropertiesXml>
  此運算式中的 str_Wiki 變數會使用**System.String**資料型別。  
   
 > [!IMPORTANT]
->  Windows SharePoint Services 4.0 Wiki 文件庫支援版本設定，不過，BizTalk Server 2010does 的 Windows SharePoint Services 配接器不支援版本設定。 因此，由 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 專用的 Windows SharePoint Services 配接器所更新的 Wiki 頁面，會失去其先前版本。 由於這項限制，[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 專用的 Windows SharePoint Services 配接器接收到的 Wiki 頁面以及封存在其他 Wiki 文件庫中的 Wiki 頁面僅會保留最後一個版本，其他版本都會被刪除。  
+>  Windows SharePoint Services 4.0 Wiki 文件庫支援版本設定，不過，BizTalk Server 2010does 的 Windows SharePoint Services 配接器不支援版本設定。 因此，BizTalk Server 的 Windows SharePoint Services 配接器所更新的 Wiki 頁面將會失去其先前版本。 由於此限制，是 BizTalk Server 的 Windows SharePoint Services 配接器接收和封存在其他 Wiki 文件庫的 Wiki 頁面僅會保留其最後一個版本，與所有其他版本都會被刪除。  
   
 ### <a name="receiving-from-a-windows-sharepoint-services-40-wiki-document-library"></a>從 Windows SharePoint Services 4.0 Wiki 文件庫接收  
  從 Windows SharePoint Services 4.0 Wiki 網站接收訊息時的 Wiki 頁面內容會儲存在名為 Windows SharePoint Services 配接器內容屬性**WSS。InPropertiesXml**。  
@@ -135,5 +135,5 @@ Message_Out(WSS.ConfigPropertiesXml) = “<ConfigPropertiesXml>
 |node|System.Xml.XmlNode|  
 |str_Wiki|System.String|  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [Windows SharePoint Services 配接器](../core/windows-sharepoint-services-adapter.md)

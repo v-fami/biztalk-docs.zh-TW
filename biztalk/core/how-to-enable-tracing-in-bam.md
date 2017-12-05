@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d9cf7cddd25f3f01b6203c050a4391e16cedc989
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 084eaf8cd4ba1c251b1c196830f76ef9c6a8e33f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-enable-tracing-in-bam"></a>如何在 BAM 中啟用追縱
 您可以在 BAM 中啟用追蹤，以便協助在下列五個 BAM 元件內疑難排解問題：  
@@ -93,28 +93,28 @@ ms.lasthandoff: 09/20/2017
   
 1.  編輯 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BTSNTSvc.exe.config 檔案。  
   
-2.  找出\<system.diagnostics > 和\<c s > 標記。 如果這些標記不存在於檔案中，請複製以上列出的程式碼，並將其貼到組態檔中。  
+2.  找出\<system.diagnostics\>和\<c s\>標記。 如果這些標記不存在於檔案中，請複製以上列出的程式碼，並將其貼到組態檔中。  
   
-3.  請取消註解取消註解系統診斷區段移動結束註解分隔符號 ('-->') 從之後\<c s > 標記之前加入至\<system.diagnostics > 標記。  
+3.  請取消註解取消註解系統診斷區段移動結束註解分隔符號 ('-->') 從之後\<c s\>標記之前加入至\<system.diagnostics\>標記。  
   
 4.  儲存檔案。  
   
 ## <a name="enabling-tracing-for-the-bam-portal"></a>啟用 BAM 入口網站的追蹤  
  啟用 BAM 入口網站的追蹤可讓您疑難排解連線能力問題。  
   
- BAM 入口網站是一種 ASP.NET 應用程式，並會遵循追蹤的標準通訊協定。 內[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BAMPortal\web.config 檔案區段，稱為\<追蹤 > 可供您啟用。  
+ BAM 入口網站是一種 ASP.NET 應用程式，並會遵循追蹤的標準通訊協定。 內[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BAMPortal\web.config 檔案區段，稱為\<追蹤\>可供您啟用。  
   
 #### <a name="to-enable-tracing-for-the-bam-portal"></a>若要啟用 BAM 入口網站的追蹤  
   
 1.  編輯 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BAMPortal\web.config 檔案。  
   
-2.  找出\<system.diagnostics > 和\<c s > 標記。  
+2.  找出\<system.diagnostics\>和\<c s\>標記。  
   
-3.  取消註解系統診斷區段移動結束註解分隔符號 ('-->') 從之後\<c s > 標記之前加入至\<system.diagnostics > 標記。  
+3.  取消註解系統診斷區段移動結束註解分隔符號 ('-->') 從之後\<c s\>標記之前加入至\<system.diagnostics\>標記。  
   
 4.  修改 initializeData 屬性以指定寫入交易記錄檔的位置。  
   
-5.  找出\<system.web > 標記。  
+5.  找出\<system.web\>標記。  
   
 6.  在 system.web 區段中，找出 trace 標記，並將分隔符號 ('-->') 從 trace 標記後移動 trace 標記前，以便取消註解 trace 命令。  
   
@@ -225,5 +225,5 @@ ms.lasthandoff: 09/20/2017
 ### <a name="viewing-the-wcf-trace-file"></a>檢視 WCF 追蹤檔  
  若要分析 WCF 追蹤，您可以使用 WCF Service Trace Viewer Tool。 如需 Service Trace Viewer Tool 的詳細資訊，請參閱[http://go.microsoft.com/fwlink/?LinkId=75218](http://go.microsoft.com/fwlink/?LinkId=75218)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理 BAM](../core/managing-bam.md)

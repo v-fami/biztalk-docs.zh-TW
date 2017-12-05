@@ -12,11 +12,11 @@ caps.latest.revision: "26"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9b86a58a092f5f38c4a09c014feb0b4fe85d1fc9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2251ec6f5019fab4eecff36ac35314183f9a7d61
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="receive-polling-based-data-changed-messages-from-sql-server-using-biztalk-server"></a>使用 BizTalk Server 從 SQL Server 接收輪詢基礎資料變更的訊息
 您可以設定[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]接收 SQL Server 資料表或檢視表的週期性的資料變更訊息。 您可以指定執行以輪詢資料庫配接器的輪詢陳述式。 輪詢陳述式可以是 SELECT 陳述式或預存程序會傳回結果集。  
@@ -224,34 +224,34 @@ SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100
      因此，從 SQL Server 收到的訊息將包含多個結果集 （如 SELECT 陳述式以及 ADD_EMP_DETAILS 預存程序），並將如下所示：  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <Polling xmlns="http://schemas.microsoft.com/Sql/2008/05/Polling/">  
       <PolledData>  
         <DataSet xmlns="http://schemas.datacontract.org/2004/07/System.Data">  
-          \<xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
-            \<xs:element msdata:IsDataSet="true" name="NewDataSet">  
-              \<xs:complexType>  
-                \<xs:sequence>  
-                  \<xs:element minOccurs="0" maxOccurs="unbounded" name="NewTable">  
-                    \<xs:complexType>  
-                      \<xs:sequence>  
-                        \<xs:element minOccurs="0" name="Employee_ID" type="xs:int" />   
-                        \<xs:element minOccurs="0" name="Name" type="xs:string" />   
-                        \<xs:element minOccurs="0" name="DOJ" type="xs:dateTime" />   
-                        \<xs:element minOccurs="0" name="Designation" type="xs:string" />   
-                        \<xs:element minOccurs="0" name="Job_Description" type="xs:string" />   
-                        \<xs:element minOccurs="0" name="Photo" type="xs:base64Binary" />   
-                        \<xs:element minOccurs="0" name="Rating" type="xs:string" />   
-                        \<xs:element minOccurs="0" name="Salary" type="xs:decimal" />   
-                        \<xs:element minOccurs="0" name="Last_Modified" type="xs:base64Binary" />   
-                      \</xs:sequence>  
-                    \</xs:complexType>  
-                  \</xs:element>  
-                \</xs:sequence>  
-              \</xs:complexType>  
-            \</xs:element>  
-          \</xs:schema>  
-          \<diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">  
+          <xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
+            <xs:element msdata:IsDataSet="true" name="NewDataSet">  
+              <xs:complexType>  
+                <xs:sequence>  
+                  <xs:element minOccurs="0" maxOccurs="unbounded" name="NewTable">  
+                    <xs:complexType>  
+                      <xs:sequence>  
+                        <xs:element minOccurs="0" name="Employee_ID" type="xs:int" />   
+                        <xs:element minOccurs="0" name="Name" type="xs:string" />   
+                        <xs:element minOccurs="0" name="DOJ" type="xs:dateTime" />   
+                        <xs:element minOccurs="0" name="Designation" type="xs:string" />   
+                        <xs:element minOccurs="0" name="Job_Description" type="xs:string" />   
+                        <xs:element minOccurs="0" name="Photo" type="xs:base64Binary" />   
+                        <xs:element minOccurs="0" name="Rating" type="xs:string" />   
+                        <xs:element minOccurs="0" name="Salary" type="xs:decimal" />   
+                        <xs:element minOccurs="0" name="Last_Modified" type="xs:base64Binary" />   
+                      </xs:sequence>  
+                    </xs:complexType>  
+                  </xs:element>  
+                </xs:sequence>  
+              </xs:complexType>  
+            </xs:element>  
+          </xs:schema>  
+          <diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">  
             <NewDataSet xmlns="">  
               <NewTable>  
                 <Employee_ID>10001</Employee_ID>   
@@ -270,31 +270,31 @@ SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100
                 <Last_Modified>AAAAAAAAF4E=</Last_Modified>   
               </NewTable>  
             </NewDataSet>  
-          \</diffgr:diffgram>  
+          </diffgr:diffgram>  
         </DataSet>  
         <DataSet xmlns="http://schemas.datacontract.org/2004/07/System.Data">  
-          \<xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
-            \<xs:element msdata:IsDataSet="true" name="NewDataSet">  
-              \<xs:complexType>  
-                \<xs:sequence>  
-                  \<xs:element minOccurs="0" maxOccurs="unbounded" name="NewTable">  
-                    \<xs:complexType>  
-                      \<xs:sequence>  
-                        \<xs:element minOccurs="0" name="Employee_ID" type="xs:int" />   
-                      \</xs:sequence>  
-                    \</xs:complexType>  
-                  \</xs:element>  
-                \</xs:sequence>  
-              \</xs:complexType>  
-            \</xs:element>  
-          \</xs:schema>  
-          \<diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">  
+          <xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
+            <xs:element msdata:IsDataSet="true" name="NewDataSet">  
+              <xs:complexType>  
+                <xs:sequence>  
+                  <xs:element minOccurs="0" maxOccurs="unbounded" name="NewTable">  
+                    <xs:complexType>  
+                      <xs:sequence>  
+                        <xs:element minOccurs="0" name="Employee_ID" type="xs:int" />   
+                      </xs:sequence>  
+                    </xs:complexType>  
+                  </xs:element>  
+                </xs:sequence>  
+              </xs:complexType>  
+            </xs:element>  
+          </xs:schema>  
+          <diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">  
             <NewDataSet xmlns="">  
               <NewTable>  
                 <Employee_ID>10006</Employee_ID>  
               </NewTable>  
             </NewDataSet>  
-          \</diffgr:diffgram>  
+          </diffgr:diffgram>  
         </DataSet>  
       </PolledData>  
     </Polling>  
@@ -313,5 +313,5 @@ SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100
 ## <a name="best-practices"></a>最佳作法  
  您部署和設定 BizTalk 專案之後，您可以為 XML 檔案，稱為繫結檔案匯出組態設定。 一旦產生繫結檔案時，可以組態設定匯入檔案，使您不需要建立傳送埠和接收相同的協調流程連接埠。 如需繫結檔案的詳細資訊，請參閱[重複使用配接器繫結](../../adapters-and-accelerators/adapter-sql/reuse-sql-adapter-bindings.md)。
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [與 BizTalk Server 使用 SQL 配接器的輪詢 SQL Server](../../adapters-and-accelerators/adapter-sql/poll-sql-server-using-the-sql-adapter-with-biztalk-server.md)

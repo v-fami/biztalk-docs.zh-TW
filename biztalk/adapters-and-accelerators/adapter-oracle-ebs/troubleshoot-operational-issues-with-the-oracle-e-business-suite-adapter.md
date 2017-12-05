@@ -13,11 +13,11 @@ caps.latest.revision: "24"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 92f888c185a7c7bea800986615da04ce57c80db0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4654e228a4ca86c9d89686f826d57777f2353efd
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="troubleshoot-operational-issues-with-the-oracle-e-business-suite-adapter"></a>Oracle E-business Suite 配接器疑難排解操作問題
 本章節將討論使用來解析作業使用時可能遭遇的錯誤的疑難排解技術[!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]。  
@@ -50,7 +50,7 @@ ConfigurationErrorsException: Exception has been thrown by the target of an invo
   
  **解決方式**  
   
--   請確定所需的 LOB 用戶端版本已安裝在您安裝的電腦上[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]。 支援的用戶端版本的相關資訊，請參閱安裝指南位於\<安裝磁碟機 >: \Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]。  
+-   請確定所需的 LOB 用戶端版本已安裝在您安裝的電腦上[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]。 支援的用戶端版本的相關資訊，請參閱安裝指南位於\<安裝磁碟機\>: \Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]。  
   
 -   請確定您執行自訂安裝的配接器安裝您所需要的介面卡。  
   
@@ -72,7 +72,7 @@ ConfigurationErrorsException: Exception has been thrown by the target of an invo
   
  執行 Oracle E-business Suite 使用中的任何作業時，配接器會提供下列的錯誤[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]。  
   
--   **針對[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]**  
+-   **BizTalk server**  
   
     ```  
     System.ArgumentNullException: Value cannot be null.  
@@ -240,5 +240,5 @@ The element 'bindings' has invalid child element 'oracleEBSBinding'. List of pos
 > [!NOTE]
 >  使用與配接器時[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]，將逾時設定為較大的值不會影響配接器的功能。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [Oracle EBS 配接器疑難排解](../../adapters-and-accelerators/adapter-oracle-ebs/troubleshooting-the-oracle-ebs-adapter.md)

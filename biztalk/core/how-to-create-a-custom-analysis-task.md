@@ -17,11 +17,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f910dd6bbe95579e0c2be8f3957333d6e78d7938
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b3566e40deaa05886ead701e1871634cf6fb94e2
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-create-a-custom-analysis-task"></a>如何建立自訂分析工作
 建立自訂 DTS 工作處理 BAM 資料最簡單的方式，就是從 BAM 自動產生的封裝開始，取代所有實際的資料處理。  
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  建立需要 OLAP Cube 的 BAM 定義。 例如，請使用 Excel 精靈，將一份 PivotTable® 報告保留為非 RTA 檢視。  
   
-2.  開啟 BAM 所建立的 DTS 封裝，進行 Cube 處理。 BAM 會建立一個這類封裝針對每個檢視，又稱為 BAM_AN_\<*檢視名稱*>。  
+2.  開啟 BAM 所建立的 DTS 封裝，進行 Cube 處理。 BAM 會建立一個這類封裝針對每個檢視，又稱為 BAM_AN_\<*檢視名稱*\>。  
   
 3.  在 DTS 設計師中開啟這個封裝，然後將前兩個和最後一個步驟之外的所有步驟全部移除。 此外，您需要保持與主要匯入資料庫的連接。  
   
@@ -52,5 +52,5 @@ ms.lasthandoff: 09/20/2017
   
 6.  最後，您必須呼叫最後一個工作，也就是「結束資料分析」。 這個工作會釋放處理過的已完成活動，當它們一離開線上視窗時就會予以封存並從主要匯入中移除。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [使用商務活動監控](../core/using-business-activity-monitoring.md)

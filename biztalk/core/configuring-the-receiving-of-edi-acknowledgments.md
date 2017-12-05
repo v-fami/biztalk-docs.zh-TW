@@ -12,14 +12,14 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 44cbfaff87727d69aa37ae005cff4240098f08da
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ee41a04bbef8a5651acedf1df85fc5d93349e9ea
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="configuring-the-receiving-of-edi-acknowledgments"></a>設定 EDI 通知的接收功能
-在[!INCLUDE[prague](../includes/prague-md.md)]，雙向協議的簡介，您可以設定接收收條中相同的協議設定傳送確認。 您藉由指定不同的單向協議索引標籤中的內容。 如需如何設定通知接收的資訊，請參閱[設定傳送和接收的 EDI 通知](../core/configuring-the-sending-and-receiving-of-edi-acknowledgments.md)。  
+BizTalk Server 中引進雙向協議，您可以設定在相同的協議設定傳送確認接收的通知。 您藉由指定不同的單向協議索引標籤中的內容。 如需如何設定通知接收的資訊，請參閱[設定傳送和接收的 EDI 通知](../core/configuring-the-sending-and-receiving-of-edi-acknowledgments.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [設定 EDI 通知](../core/configuring-edi-acknowledgments.md)

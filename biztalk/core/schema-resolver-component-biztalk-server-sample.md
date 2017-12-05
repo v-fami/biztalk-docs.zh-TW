@@ -17,11 +17,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 37ec562cbc64d15e66d2f265c52606817169bb85
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 22b59a0606b3cb30827078e28a89d0a51f52c430
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="schema-resolver-component-biztalk-server-sample"></a>結構描述解析程式元件 （BizTalk Server 範例）
 「結構描述解析程式元件」範例會示範如何擴充 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 一般檔案解譯器元件的功能。  
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/20/2017
  「結構描述解析程式」元件會示範選取一般檔案解譯器的替代方法。 在此範例中會定義四個結構描述，而每個結構描述訊息的前兩個字元都是唯一的。 會定義唯一的前兩個字元與對應的結構描述之間的對應。 「結構描述解析程式」元件收到輸入訊息時，會讀取前兩個字元，判斷要為對應文件使用哪一個結構描述，再將結構描述資訊儲存於訊息內容，然後呼叫標準一般檔案解譯器元件。 標準一般檔案解譯器元件會從訊息內容讀取結構描述資訊，並用該結構描述剖析文件。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- *\<範例路徑 >*\Pipelines\SchemaResolverComponent\  
+ *\<範例路徑\>*\Pipelines\SchemaResolverComponent\  
   
  下表顯示此範例所用的檔案，並描述其用途。  
   
@@ -56,7 +56,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  在命令視窗中，將目錄變更 (cd) 至下列資料夾：  
   
-     *\<範例路徑 >*\Pipelines\SchemaResolverComponent  
+     *\<範例路徑\>*\Pipelines\SchemaResolverComponent  
   
 2.  執行檔案 Setup.bat，這會執行下列動作：  
   
@@ -76,9 +76,9 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-run-this-sample"></a>執行此範例  
   
-1.  POInstance.txt、 PRInstance.txt、 SOInstance.txt 和 SRInstance.txt 檔案放入接收位置\<*安裝路徑*> \SDK\Samples\Pipelines\SchemaResolverComponent\In  
+1.  POInstance.txt、 PRInstance.txt、 SOInstance.txt 和 SRInstance.txt 檔案放入接收位置\<*安裝路徑*\>\SDK\Samples\Pipelines\SchemaResolverComponent\In  
   
-2.  觀察寫入的四個.xml 檔案\<Installdir > \SDK\Samples\Pipelines\SchemaResolverComponent\Out 資料夾。  
+2.  觀察寫入的四個.xml 檔案\<Installdir\>\SDK\Samples\Pipelines\SchemaResolverComponent\Out 資料夾。  
   
-## <a name="see-also"></a>另請參閱  
- [管線 （BizTalk Server 範例資料夾）](../core/pipelines-biztalk-server-samples-folder.md)
+## <a name="see-also"></a>請參閱  
+ [管線 (BizTalk Server Samples 資料夾)](../core/pipelines-biztalk-server-samples-folder.md)

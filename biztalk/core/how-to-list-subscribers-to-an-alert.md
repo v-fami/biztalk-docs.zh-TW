@@ -16,11 +16,11 @@ caps.latest.revision: "18"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d62f962847cf0e48929e11040bf1de226d567b6e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 909854abd251d94fa71ce963c3714f6d664153c1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-list-subscribers-to-an-alert"></a>如何列出警示的訂閱者
 系統管理員使用**get 訂閱**命令，列出所有的訂閱者至指定的警示。  
@@ -31,13 +31,13 @@ ms.lasthandoff: 09/20/2017
   
 2.  瀏覽到 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking。  
   
-3.  型別**bm get 訂閱-檢視：\<檢視名稱 >-警示：\<警示名稱 >**。  
+3.  型別**bm get 訂閱-檢視：\<檢視名稱\>-警示：\<警示名稱\>**。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
   
 4.  按 ENTER 鍵。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理 BAM 動態基礎結構](../core/managing-the-bam-dynamic-infrastructure.md)   
  [BAM 管理公用程式](../core/bam-management-utility.md)

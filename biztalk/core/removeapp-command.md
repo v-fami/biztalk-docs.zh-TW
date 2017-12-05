@@ -12,18 +12,18 @@ caps.latest.revision: "26"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9808b43ba07434793403d175885694f67530dae0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 05269411c81aeccdaf1c30e36e47c02787bf044a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="removeapp-command"></a>RemoveApp 命令
 從 BizTalk 管理資料庫移除 (刪除) BizTalk 應用程式，以及包含在該應用程式中的所有成品。 這並不會解除安裝應用程式。 如需有關執行此操作的指示，請參閱[如何解除安裝 BizTalk 應用程式](../core/how-to-uninstall-a-biztalk-application.md)。  
   
  在下列情況中，移除作業將會失敗：  
   
--   **無法停止應用程式。** 如需停止應用程式的指示，請參閱[如何啟動和停止 BizTalk 應用程式](../core/how-to-start-and-stop-a-biztalk-application.md)。 **ApplicationManager** sdk > 範例的安裝中*\<範例路徑 >\\*Admin\ExplorerOM\ 目錄說明如何以程式設計方式啟動或停止[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]應用程式。  
+-   **無法停止應用程式。** 如需停止應用程式的指示，請參閱[如何啟動和停止 BizTalk 應用程式](../core/how-to-start-and-stop-a-biztalk-application.md)。 **ApplicationManager** sdk > 範例的安裝中*\<範例路徑\>\\*Admin\ExplorerOM\ 目錄將說明如何以程式設計的方式啟動或停止[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]應用程式。  
   
 -   **其他應用程式包含應用程式的參考。** 如果其他應用程式含有對此即將移除之應用程式的參考，您必須先從其他應用程式移除這些參考。 如需指示，請參閱[如何移除另一個應用程式的參考](../core/how-to-remove-a-reference-to-another-application.md)。  
   
@@ -36,7 +36,7 @@ ms.lasthandoff: 09/20/2017
 -   **應用程式中的協調流程已登錄 」，「 已啟動，或已擱置的執行個體。** 如需協調流程的詳細資訊，請參閱[管理協調流程](../core/managing-orchestrations.md)。  
   
 > [!NOTE]
->  如果應用程式包含處於已部署狀態的原則，原則不會從規則引擎資料庫移除，而且會繼續顯示在 原則 資料夾中\<所有成品 > 應用程式的 BizTalk 管理 節點主控台。 如果您將該原則加入至其他應用程式，原則仍會維持在已部署狀態。  
+>  如果應用程式包含處於已部署狀態的原則，原則不會從規則引擎資料庫移除，而且會繼續顯示在 [原則] 資料夾中\<所有成品\>的 BizTalk 應用程式節點管理主控台。 如果您將該原則加入至其他應用程式，原則仍會維持在已部署狀態。  
   
 ## <a name="usage"></a>使用方式  
  **BTSTask RemoveApp /ApplicationName:** *值*[**/Server:***值*] [**/database:** *值*]  
@@ -55,6 +55,6 @@ ms.lasthandoff: 09/20/2017
 ## <a name="remarks"></a>備註  
  參數不區分大小寫。 您不需要輸入整個參數名稱來指定它；您可以輸入參數名稱的前幾個字母，只要能明確識別就好了。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [BTSTask 命令列參考](../core/btstask-command-line-reference.md)   
  [解除部署 BizTalk 應用程式](../core/undeploying-biztalk-applications.md)

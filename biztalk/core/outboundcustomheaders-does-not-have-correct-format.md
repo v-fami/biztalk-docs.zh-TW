@@ -12,11 +12,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b3b81a8c9c605f646a8ac0b6df2045af05eb58e5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: df751526661ddef455be45c4258c331c940fdd47
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="outboundcustomheaders-does-not-have-correct-format"></a>OutboundCustomHeaders 沒有正確的格式
 ## <a name="details"></a>詳細資料  
@@ -32,11 +32,11 @@ ms.lasthandoff: 09/20/2017
 |訊息文字|OutboundCustomHeaders 沒有正確的格式|  
   
 ## <a name="explanation"></a>說明  
- WCF 的值。InboundHeaders 或 WCF。OutboundCustomHeaders 不是以下列格式：\<標頭 >...\</headers >。  
+ WCF 的值。InboundHeaders 或 WCF。OutboundCustomHeaders 不是以下列格式：\<標頭\>...\</headers\>。  
   
 ## <a name="user-action"></a>使用者動作  
- 自動換行的屬性值與\<標頭 > 項目。  
+ 自動換行的屬性值與\<標頭\>項目。  
   
  如需詳細資訊，請參閱下列資源中的[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]協助：  
   
--   [WCF 訊息的管線元件中使用 SOAP 標頭](../core/using-soap-headers-in-wcf-messages-with-pipeline-components.md)
+-   [搭配使用 WCF 訊息中的 SOAP 標頭與管線元件](../core/using-soap-headers-in-wcf-messages-with-pipeline-components.md)

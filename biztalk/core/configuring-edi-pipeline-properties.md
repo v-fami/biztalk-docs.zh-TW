@@ -13,11 +13,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3dd9b981791b12c0cf94be1b2a2c590f84617566
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c810b8507a98b91c0b906131e127f189f0a4fd0f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="configuring-edi-pipeline-properties"></a>設定 EDI 管線屬性
 管線屬性用來處理內送或外寄 EDI 交換時[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]無法判斷內送或外寄交換解析成的協議。 在某些情況下，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]會使用管線屬性來處理交換; 其他情況[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]使用後援協議。 如需詳細資訊，請參閱[如何驗證 EDI 交換設定](../core/how-validation-of-an-edi-interchange-is-configured.md)。  
@@ -43,7 +43,7 @@ ms.lasthandoff: 09/20/2017
 |DetectMID|啟用 EDI 解譯器以剖析單一訊息中的多個交換。|True (預設值)<br /><br /> False|EdiReceive-反組譯<br /><br /> AS2EdiReceive-反組譯|  
 |EdiDataValidation|啟用外寄 EDI 交換的 EDI 類型 (資料元素) 驗證，這除了 EDI 資料元素驗證外，也包括欄位長度、選擇性和重複計數的驗證。|True (預設值)<br /><br /> False|EdiReceive-反組譯<br /><br /> AS2EdiReceive-反組譯<br /><br /> EdiSend-組合<br /><br /> AS2EdiSend-組合|  
 |EfactDelimiters|指定處理內送訊息時所要使用的分隔符號。 在內送交換沒有 UNA 區段時使用。<br /><br /> 分隔符號包括下列各項：<br /><br /> -UNA1 （元件資料元素分隔符號）<br />-UNA2 （資料元素分隔符號）<br />-UNA3 （小數點標記）<br />-UNA4 （釋放指示符號）<br />-UNA5 （重複分隔符號）<br />-UNA6 （區段結束字元）**附註：**這個屬性用於 EDIFACT 處理，不適用於 X12。|0x3A、 0x2B、 0x2C、 0x3F、 0x20、 0x27 （預設值）|EdiReceive-反組譯<br /><br /> AS2EdiReceive-反組譯|  
-IgnoreMessageEncoding|指定 BatchMarker 元件將不會設定 EDI。EncodingType 內容屬性\<X12 > 或\<EDIFACT >。 這適用於處理非 EDI 訊息時的自訂管線。|False (預設值)<br /><br /> True|EdiReceive - 解析合作對象<br /><br /> AS2EdiReceive-解析合作對象|  
+IgnoreMessageEncoding|指定 BatchMarker 元件將不會設定 EDI。EncodingType 內容屬性\<X12\>或\<EDIFACT\>。 這適用於處理非 EDI 訊息時的自訂管線。|False (預設值)<br /><br /> True|EdiReceive - 解析合作對象<br /><br /> AS2EdiReceive-解析合作對象|  
 |MaskSecurityInformation|遮罩內送 EDI 交換之內容屬性中的授權/密碼安全性資訊，以避免資訊洩漏。 適用於 X12 交換的 ISA1、ISA2、ISA3 和 ISA4 等欄位，以及 EDIFACT 交換的 UNB6 欄位。|True (預設值)<br /><br /> False|EdiReceive-反組譯<br /><br /> AS2EdiReceive-反組譯|  
 |PreserveInterchange|指定將接收的批次當做單一單位處理。|False (預設值)<br /><br /> True|EdiReceive-反組譯<br /><br /> AS2EdiReceive-反組譯|  
 |RouteAckOn2WayPort|透過雙向要求-回應接收埠的開啟連線來傳回 EDI 通知。|True (預設值)<br /><br /> False|EdiReceive-反組譯<br /><br /> AS2EdiReceive-反組譯|  
@@ -59,5 +59,5 @@ IgnoreMessageEncoding|指定 BatchMarker 元件將不會設定 EDI。EncodingTyp
   
 3.  在**設定管線**對話方塊中，輸入屬性的值，然後按一下 **確定**。  
   
-## <a name="see-also"></a>另請參閱  
- [EDI 交換的驗證設定的方式](../core/how-validation-of-an-edi-interchange-is-configured.md)
+## <a name="see-also"></a>請參閱  
+ [如何設定驗證 EDI 交換](../core/how-validation-of-an-edi-interchange-is-configured.md)

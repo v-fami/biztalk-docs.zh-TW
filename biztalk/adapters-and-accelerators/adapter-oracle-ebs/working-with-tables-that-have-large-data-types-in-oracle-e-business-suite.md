@@ -12,25 +12,25 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6cc357809ecc446c0c282f6a4f8fa46ad7392a53
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d65bd37e6ad9c8b8b196df6092a0573d2774a756
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="working-with-tables-that-have-large-data-types-in-oracle-e-business-suite"></a>使用 Oracle E-business Suite 中具有大型資料類型的資料表
 [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]可讓配接器用戶端執行具有大型資料類型，例如 BLOB、 CLOB、 NCLOB、 和 BFILE 介面資料表和檢視表上的作業。  
   
--   類型的資料行 BLOB、 CLOB、 和 NCLOB 配接器，可讓用戶端讀取，以及更新的資料。 配接器會公開 Read_\<LOBColName > 和 Update_\<LOBColName > 作業來讀取和更新資料，其中\<LOBColName > 是大型的資料類型資料行的名稱。 如果沒有與單一介面資料表中的大型資料類型的多個資料行，配接器會公開為許多的讀取和更新該介面資料表的作業。  
+-   類型的資料行 BLOB、 CLOB、 和 NCLOB 配接器，可讓用戶端讀取，以及更新的資料。 配接器會公開 Read_\<LOBColName\>和 Update_\<LOBColName\>作業來讀取和更新資料，其中\<LOBColName\>是大型資料行名稱資料型別。 如果沒有與單一介面資料表中的大型資料類型的多個資料行，配接器會公開為許多的讀取和更新該介面資料表的作業。  
   
--   型別 BFILE 資料行，配接器用戶端可以只讀取資料。 配接器會公開 Read_\<LOBColName > BFILE 類型的資料行中讀取資料的作業。 如果沒有與單一介面資料表中的大型資料類型的多個資料行，配接器會公開為許多讀取介面資料表的作業。  
+-   型別 BFILE 資料行，配接器用戶端可以只讀取資料。 配接器會公開 Read_\<LOBColName\> BFILE 類型的資料行中讀取資料的作業。 如果沒有與單一介面資料表中的大型資料類型的多個資料行，配接器會公開為許多讀取介面資料表的作業。  
   
  如需有關這些作業的詳細資訊，請參閱[介面資料表、 介面檢視、 資料表和檢視表，包含 LOB 資料的作業](../../adapters-and-accelerators/adapter-oracle-ebs/read-and-update-on-interface-tables-and-views-with-large-object-data-types.md)。 如需執行這些作業的訊息結構描述資訊，請參閱[特殊 LOB 作業的訊息結構描述](../../adapters-and-accelerators/adapter-oracle-ebs/message-schemas-for-special-lob-operations1.md)。  
   
 ## <a name="how-to-perform-operations-on-columns-with-large-data-types"></a>如何在大型資料類型的資料行上執行作業  
  執行 Oracle E-business suite 作業使用[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]與[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]牽涉到程序中所述的工作[建立 Oracle E-business Suite 應用程式的建置組塊](../../adapters-and-accelerators/adapter-oracle-ebs/building-blocks-to-create-oracle-e-business-suite-applications.md)。 若要執行 Oracle E-business Suite 包含大型的資料類型的介面資料表和檢視介面上的作業，這些工作包括：  
   
-1.  建立 BizTalk 專案，並產生作業的結構描述 (Read_\<LOBColName > 或 Update_\<LOBColName >) 您想要在資料表或檢視表上叫用。  
+1.  建立 BizTalk 專案，並產生作業的結構描述 (Read_\<LOBColName\>或 Update_\<LOBColName\>) 您想要在資料表或檢視表上叫用。  
   
 2.  建立傳送和接收訊息，從 Oracle E-business Suite 的 BizTalk 專案中的訊息。  
   
@@ -222,7 +222,7 @@ ReadMessage(WCF.Action) = "Tables/ReadLOB/SCOTT/CUSTOMER/PHOTO ";
         -   因為 Wcf-oracleebs 的 WCF 自訂傳送連接埠傳送和接收符合一個以上的結構描述的訊息，執行兩項作業，您必須設定這兩個作業的動態動作。 如需動作的詳細資訊，請參閱[for Oracle E-business Suite 中設定 SOAP 動作](../../adapters-and-accelerators/adapter-oracle-ebs/configure-the-soap-action-for-oracle-e-business-suite.md)。 此協調流程，此動作應該如下所示設定：  
   
             ```  
-            \<BtsActionMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+            <BtsActionMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
               <Operation Name="Update_LOB" Action="Tables/UpdateBlob/SCOTT/CUSTOMER/PHOTO" />  
               <Operation Name="Read_LOB" Action="Tables/ReadLOB/SCOTT/CUSTOMER/PHOTO" />  
             </BtsActionMapping>  
@@ -279,14 +279,14 @@ ReadMessage(WCF.Action) = "Tables/ReadLOB/SCOTT/CUSTOMER/PHOTO ";
  協調流程取用訊息，並將它傳送到 Oracle 資料庫。 從 Oracle 資料庫的回應會儲存在其他的協調流程中定義的檔案位置。 例如，從先前的要求訊息的 Oracle 資料庫回應如下所示：  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <Update_PHOTOResponse xmlns="http://schemas.microsoft.com/OracleEBS/2008/05/Tables/SCOTT/CUSTOMER" />  
 ```  
   
  現在的協調流程會建構的要求訊息**Read_PHOTO**藉由在 C:\TestLocation\MessageIn 使用可用的要求訊息的作業。 要求訊息傳送至 Oracle 資料庫，而回應則儲存在相同的檔案位置。 相片的資料行上的讀取作業的回應如下所示：  
   
 ```  
-\<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 <Read_PHOTOResponse xmlns="http://schemas.microsoft.com/OracleEBS/2008/05/Tables/SCOTT/CUSTOMER">  
   <Read_PHOTOResult>U2FtcGxlIERhdGE=</Read_PHOTOResult>  
 </Read_PHOTOResponse>  
@@ -298,5 +298,5 @@ ReadMessage(WCF.Action) = "Tables/ReadLOB/SCOTT/CUSTOMER/PHOTO ";
 ## <a name="best-practices"></a>最佳作法  
  您部署和設定 BizTalk 專案之後，您可以為 XML 檔案，稱為繫結檔案匯出組態設定。 一旦產生繫結檔案時，可以組態設定匯入檔案，使您不需要建立項目，例如傳送埠和接收相同的協調流程連接埠。 如需繫結檔案的詳細資訊，請參閱[重複使用配接器繫結與 Oracle E-business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/reuse-adapter-bindings-with-oracle-e-business-suite.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [開發 BizTalk 應用程式使用 Oracle E-business Suite 配接器](../../adapters-and-accelerators/adapter-oracle-ebs/develop-biztalk-applications-using-the-oracle-e-business-suite-adapter.md)

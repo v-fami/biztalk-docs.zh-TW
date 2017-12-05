@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e0db0f74f7f3799e0058d60b8d30c09c99d99cc3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 891f636a5380eda7db676559194618915213dc37
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="wcf-webhttp-adapter"></a>WCF-WebHttp 配接器
 [!INCLUDE[btsCoName](../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]使用**Wcf-webhttp**配接器將訊息傳送至 RESTful 服務。 **Wcf-webhttp**傳送配接器傳送至服務的 HTTP 訊息的 BizTalk 訊息。 接收位置會接收來自 RESTful 服務的訊息。 GET 和 DELETE 要求，配接器不使用任何內容。 POST 和 PUT 要求，配接器會使用 BizTalk 訊息內文部分，在 HTTP 內容/裝載。  
@@ -118,7 +118,7 @@ ms.lasthandoff: 09/20/2017
     |**用戶端憑證-憑證指紋**|指定 X.509 憑證來驗證此傳送埠端點的憑證指紋。 您可以瀏覽至選取的憑證指紋**我**存放**目前使用者**位置**瀏覽** 按鈕。 **注意：**您必須將用戶端憑證安裝到**目前使用者**裝載此傳送處理常式的使用者帳戶的位置的傳送埠。 <br /><br /> 最小長度：00<br /><br /> 最大長度：40<br /><br /> 預設為空字串。|  
     |**服務憑證-指紋**|指定 X.509 憑證的指紋，用於驗證此傳送埠傳送訊息至其中的端點。 您可以選取 [瀏覽至憑證的指紋**其他人**存放**本機**位置**瀏覽**] 按鈕。<br /><br /> 最小長度：00<br /><br /> 最大長度：40<br /><br /> 預設為空字串。|  
     |**使用者名稱認證**|指定用來傳送訊息的認證。 您可以指定的屬性，即可**編輯** 按鈕。 您必須設定認證，如果您選取**Username**選項**訊息用戶端認證類型**。<br /><br /> 預設值是**不會使用單一登入**。|  
-    |**使用 ACS 服務識別**|適用於[!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)]和 BizTalk Server 2013。 <br /><br />選取此核取方塊，然後按一下**編輯**並提供下列值來向服務匯流排。 這是必要的只有當叫用 REST 介面的服務匯流排相關實體。<br /><br /> -   **存取控制服務 STS Uri** – 將此設`https://<Namespace>-sb.accesscontrol.windows.net/`，其中\<命名空間 > 是您的服務匯流排命名空間。<br />-   **簽發者名稱**– 指定簽發者名稱。 此值通常設定為擁有者。<br />-   **簽發者金鑰**– 指定簽發者金鑰。|  
+    |**使用 ACS 服務識別**|適用於[!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)]和 BizTalk Server 2013。 <br /><br />選取此核取方塊，然後按一下**編輯**並提供下列值來向服務匯流排。 這是必要的只有當叫用 REST 介面的服務匯流排相關實體。<br /><br /> -   **存取控制服務 STS Uri** – 將此設`https://<Namespace>-sb.accesscontrol.windows.net/`，其中\<命名空間\>是您的服務匯流排命名空間。<br />-   **簽發者名稱**– 指定簽發者名稱。 此值通常設定為擁有者。<br />-   **簽發者金鑰**– 指定簽發者金鑰。|  
     |**服務匯流排連接資訊** | 新開頭[!INCLUDE[bts2016_md](../includes/bts2016-md.md)]。<br/><br/>選擇要使用的共用存取簽章 (SAS) 或存取控制服務 (ACS) 的服務匯流排命名空間。 <br/><br/>選取一個選項，然後選取**編輯**輸入索引鍵的資訊：<br/><br/> - **共用存取簽章**： 輸入存取索引鍵名稱和存取金鑰。 這兩個值會列在[Azure 入口網站](https://portal.azure.com)。<br/> - **存取控制服務**： 輸入 STS URI (`https://<yourNamespace>-sb.accesscontrol.windows.net/`)，簽發者名稱和簽發者金鑰。 中所述，使用 Windows PowerShell 來擷取這些值， [SB Messaging 配接器](../core/sb-messaging-adapter.md)。 |
   
 6.  在**行為**索引標籤上，設定此傳送埠的端點行為。 
@@ -183,9 +183,9 @@ ms.lasthandoff: 09/20/2017
   
 5.  按一下**確定**直到結束所有對話方塊為止。  
    
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [SB Messaging 配接器](../core/sb-messaging-adapter.md)
 
 [使用配接器](../core/using-adapters.md)
 
-[WCF 配接器有哪些？](../core/what-are-the-wcf-adapters.md)
+[何謂 WCF 配接器？](../core/what-are-the-wcf-adapters.md)

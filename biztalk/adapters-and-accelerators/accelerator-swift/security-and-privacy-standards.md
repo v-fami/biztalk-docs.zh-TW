@@ -19,11 +19,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e652ff10c4ebfaf00069f3a7197dfd739eb680e1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: be03cce0c0d482563ac12bbd3b60cead04b2ccfa
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="security-and-privacy-standards"></a>安全性與隱私權的標準
 財務服務應用程式和整合解決方案開發使用[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]通常受到原生[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]安全性功能。 [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]會使用積極的安全性機制，例如既定網際網路加密訊息標準及傳輸通訊協定簽署憑證，[!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)]驗證，以及企業單一登入安全[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]應用程式、 資料和執行階段。  
@@ -34,7 +34,7 @@ ms.lasthandoff: 09/20/2017
   
  請務必考量您 SWIFT 的訊息和輸入或編輯使用者，在傳輸中和 while 時，所包含的資訊保護的量值[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]加以處理和儲存。  
   
- 在一起， [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] A4SWIFT 提供的平台、 基礎結構和工具的設計、 開發和執行安全 SWIFT 傳訊和工作流程自動化系統。  
+ 在一起，BizTalk Server 和 A4SWIFT 提供平台、 基礎結構，以及工具設計、 開發和執行安全通訊的 SWIFT 和工作流程自動化系統。  
   
  當實作安全性，您必須設計和開發許多區域。 下列清單是這些區域的高層級檢視：  
   

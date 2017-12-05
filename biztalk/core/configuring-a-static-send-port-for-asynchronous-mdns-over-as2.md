@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6ccae5741ada6db57538289911a97e2ad3d9dfce
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3e023dc6f2165e9427fa57e109715dda6cdb258f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="configuring-a-static-send-port-for-asynchronous-mdns-over-as2"></a>設定透過 AS2 之非同步 MDN 的靜態傳送埠
 本主題說明如何設定 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，使其透過靜態傳送埠傳送非同步 EDIINT/AS2 編碼 MDN 訊息。 進行這項設定時必須建立靜態傳送埠，若有必要，也須設定供傳送埠使用的加密憑證。  
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/20/2017
 |**傳送埠屬性： 一般**|傳輸類型|HTTP**附註：**只有 HTTP 配接器可以用於傳輸 EDIINT/AS2 編碼訊息。 這種傳輸無法搭配 HTTP 配接器以外的配接器運作。|  
 |**傳送埠屬性： 一般**|傳送處理常式|BizTalkServerApplication|  
 |**傳送埠屬性： 一般**|傳送管線|AS2Send|  
-|**HTTP 傳輸屬性**|目的地 URL|\<目的地 URL 字串 >|  
+|**HTTP 傳輸屬性**|目的地 URL|\<目的地 URL 字串\>|  
 |**HTTP 傳輸屬性**|啟用區塊編碼|已清除|  
 |**傳送埠屬性： 篩選**|屬性|EdiIntAS.IsAS2AsynchronousMdn**附註：**您也應該指定額外的篩選運算式，以確保只有中指定之位址為目標的 MDN 訊息傳送埠所拾取此訂用帳戶篩選。|  
 |**傳送埠屬性： 篩選**|運算子|==|  
@@ -50,5 +50,5 @@ ms.lasthandoff: 09/20/2017
   
 -   將 MDN 路由傳送至傳送埠中定義的位址。  
   
-## <a name="see-also"></a>另請參閱  
- [設定 AS2 方案的連接埠](../core/configuring-ports-for-an-as2-solution.md)
+## <a name="see-also"></a>請參閱  
+ [設定 AS2 解決方案的連接埠](../core/configuring-ports-for-an-as2-solution.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0646f1c447cfc4949edafe94d634a6c651083307
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 72147ffe0f29fbb8456e4d652877b66e7ce0543c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="poll-oracle-database-using-stored-procedures-functions-or-packaged-procedures-and-functions"></a>使用預存程序、 函數或封裝的程序和函式的輪詢 Oracle 資料庫
 您可以設定[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]來使用預存程序、 函數或封裝的程序和函式，以定期輪詢 Oracle 資料庫接收定期的資料變更訊息。 您可以指定預存程序、 函數或封裝的程序，並做為配接器執行定期輪詢 Oracle 資料庫的輪詢陳述式。  
@@ -111,7 +111,7 @@ ms.lasthandoff: 09/20/2017
     |使用|動作|  
     |--------------|----------------|  
     |識別碼|型別**接收**。|  
-    |訊息類型|從下拉式清單中，展開 **結構描述**，然後選取*Polling.OracleEBSBindingSchema*，其中*輪詢*是您的 BizTalk 專案的名稱。 *OracleEBSBindingSchema*是針對產生的回應結構描述**GET_ACTIVITYS**預存程序。<br /><br /> **重要事項：**因為輪詢是單向作業，配接器所產生的結構描述不包含回應 節點，因此只有一個根節點結構描述中。 如果您使用這類結構描述的訊息類型時，您必須識別結構描述所產生的結構描述的檔案名稱。<br /><br /> 例如，如果您建立雙向作業的結構描述，結構描述中的節點檔案名稱`OracleEBSBindingSchema`可能看起來像是 「 要求 」 和 「 回應 」。 如果您想要建立訊息對應至要求結構描述在協調流程中，您可以識別結構描述清單中的尋找`OracleEBSBindingSchema.Request`。 不過，在輪詢作業的唯一節點是 「 投票 」，因為它不容易識別您想要對應到單一節點的結構描述不會列為因為結構的描述\<schemafilename >。\<rootnodename >。 相反地，這類結構描述會列出依檔名。 在這種情況下，識別結構描述的唯一方法是由結構描述檔名，比方說，OracleEBSBindingSchema。|  
+    |訊息類型|從下拉式清單中，展開 **結構描述**，然後選取*Polling.OracleEBSBindingSchema*，其中*輪詢*是您的 BizTalk 專案的名稱。 *OracleEBSBindingSchema*是針對產生的回應結構描述**GET_ACTIVITYS**預存程序。<br /><br /> **重要事項：**因為輪詢是單向作業，配接器所產生的結構描述不包含回應 節點，因此只有一個根節點結構描述中。 如果您使用這類結構描述的訊息類型時，您必須識別結構描述所產生的結構描述的檔案名稱。<br /><br /> 例如，如果您建立雙向作業的結構描述，結構描述中的節點檔案名稱`OracleEBSBindingSchema`可能看起來像是 「 要求 」 和 「 回應 」。 如果您想要建立訊息對應至要求結構描述在協調流程中，您可以識別結構描述清單中的尋找`OracleEBSBindingSchema.Request`。 不過，在輪詢作業的唯一節點是 「 投票 」，因為它不容易識別您想要對應到單一節點的結構描述不會列為因為結構的描述\<schemafilename\>。\<rootnodename\>。 相反地，這類結構描述會列出依檔名。 在這種情況下，識別結構描述的唯一方法是由結構描述檔名，比方說，OracleEBSBindingSchema。|  
   
      [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]為 GET_ACTIVITYS 的傳入和傳出作業預存程序產生結構描述。 您必須使用結構描述的輸入作業：  
   
@@ -210,7 +210,7 @@ ms.lasthandoff: 09/20/2017
 -   配接器執行 GET_ACTIVITYS 預存程序時指定**PollingStatement** ACCOUNTACTIVITY 資料表中的繫結屬性，會傳回所有資料列。 從 Oracle 資料庫回應如下所示：  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <GET_ACTIVITYS xmlns=" http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/PollingPackage/ACCOUNT_PKG">  
       <OUTRECS>  
         <OUTRECSRecord xmlns=" http://Microsoft.LobServices.OracleDB/2007/03/ReferencedRecordTypes/SCOTT/ACCOUNT_PKG/GET_ACTIVITYS/SCOTT/GET_ACTIVITYS">  
@@ -243,5 +243,5 @@ ms.lasthandoff: 09/20/2017
 ## <a name="best-practices"></a>最佳作法  
  您部署和設定 BizTalk 專案之後，您可以為 XML 檔案，稱為繫結檔案匯出組態設定。 一旦產生繫結檔案時，您可以匯入的組態設定從檔案，因此您不需要建立傳送埠和接收相同的協調流程連接埠。 如需繫結檔案的詳細資訊，請參閱[重複使用的 Oracle 資料庫配接器繫結](../../adapters-and-accelerators/adapter-oracle-database/reuse-oracle-database-adapter-bindings.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [使用 BizTalk Server 輪詢 Oracle 資料庫](../../adapters-and-accelerators/adapter-oracle-database/poll-oracle-database-using-biztalk-server.md)

@@ -15,11 +15,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e52712730546847a821d53a5f8013fff4d553501
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 17c4b470b802a980306481361c1fafcec4f70269
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="lesson-1-deploying-the-related-business-rules"></a>第 1 課： 部署相關的商務規則
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]包含程式在 A4SWIFT 軟體開發套件 (SDK) 稱為 「 商務規則引擎 (BRE) 部署公用程式。 在這一課，您可以使用此公用程式檢查組件以取得部署的結構描述、 決定所需的規則，及部署必要的詞彙和每個結構描述的原則。  
@@ -28,7 +28,7 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-deploy-the-related-business-rules"></a>若要部署的相關的商務規則  
   
-1.  按一下**啟動**，指向 **程式**，指向  **Microsoft BizTalk\<版本 > Accelerator for SWIFT**，然後按一下  **BRE部署公用程式**。  
+1.  按一下**啟動**，指向 **程式**，指向  **Microsoft BizTalk\<版本\>Accelerator for SWIFT**，然後按一下  **BRE 部署公用程式**。  
   
 2.  在 BRE 部署公用程式 對話方塊中，按一下 **瀏覽**。  
   
@@ -45,7 +45,7 @@ ms.lasthandoff: 09/20/2017
   
 5.  關閉 SWIFT BRE 部署公用程式的對話方塊。  
   
-6.  在 Windows 檔案總管，瀏覽至\<*磁碟機*>: \Documents and Settings\All Users\Application 資料，確認記錄檔**BREDeploymentLog.txt**出現在資料夾中。  
+6.  在 Windows 檔案總管，瀏覽至\<*磁碟機*\>: \Documents and Settings\All Users\Application 資料，確認記錄檔**BREDeploymentLog.txt**會出現在資料夾。  
   
     > [!NOTE]
     >  您可以開啟記錄檔，以確認部署步驟的每個使用文字編輯器。  

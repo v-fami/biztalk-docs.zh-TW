@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7d667d960a21aa9851540b9762b6ea8086d67984
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1cbb1ccd6d015cfa07037f270b501023e5490fec
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="assemblies-and-artifacts-installed-by-the-multiple-web-services-sample"></a>組件和成品安裝多個 Web 服務範例
 下表列出安裝多個 Web 服務範例的其他成品和組件。  
@@ -36,4 +36,4 @@ ms.lasthandoff: 09/20/2017
 |||MessageEnrichment.Transforms.OrderDocAndGetOrderDetailsToInventoryOrder 1.0.0.0 版|  
 |全域組件快取|組件|ESB。MultipleWebServices.Maps 2.0.0.0 版|  
 |||ESB。MultipleWebServices.Orchestrations 2.0.0.0 版|  
-|%Program Files %\\[!INCLUDE[prague](../includes/prague-md.md)]\Pipeline 元件|管線元件||
+|%Program Files %\\BizTalk Server\Pipeline 元件|管線元件||

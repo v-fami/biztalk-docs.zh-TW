@@ -12,11 +12,11 @@ caps.latest.revision: "49"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 17f181933daac5170c517a23f809eb97b54f2900
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5e29a9d3f1256fc24cf0a8f57b8ce0b7b1ba707d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-2-define-the-business-process"></a>步驟 2：定義商務程序
 ![步驟 4 之 2](../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")  
@@ -67,7 +67,7 @@ ms.lasthandoff: 09/20/2017
     |使用|動作|  
     |--------------|----------------|  
     |**識別碼**|型別**RequestMessage**。|  
-    |**訊息類型**|按一下**結構描述**，然後按一下  **\<選取從參考組件...>**。 從 選取成品類型 視窗中，按一下  **EAISchemas**，然後按一下 **要求**。 按一下 **[確定]**。|  
+    |**訊息類型**|按一下**結構描述**，然後按一下  **\<選取 從參考組件...\>**. 從 選取成品類型 視窗中，按一下  **EAISchemas**，然後按一下 **要求**。 按一下 **[確定]**。|  
   
 4.  從協調流程] 檢視中，以滑鼠右鍵按一下**訊息**，然後按一下 [**新訊息**。  
   
@@ -76,7 +76,7 @@ ms.lasthandoff: 09/20/2017
     |使用|動作|  
     |--------------|----------------|  
     |**識別碼**|型別**[requestdeclinemessage]**。|  
-    |**訊息類型**|按一下**結構描述**，然後按一下  **\<選取從參考組件...>**。 從 選取成品類型 視窗中，按一下  **EAISchemas**，然後按一下 **拒絕**。 按一下 **[確定]**。|  
+    |**訊息類型**|按一下**結構描述**，然後按一下  **\<選取 從參考組件...\>**. 從 選取成品類型 視窗中，按一下  **EAISchemas**，然後按一下 **拒絕**。 按一下 **[確定]**。|  
   
 #### <a name="to-configure-the-properties-of-the-shapes"></a>若要設定的圖形屬性  
   
@@ -129,7 +129,7 @@ ms.lasthandoff: 09/20/2017
     |使用|動作|  
     |--------------|----------------|  
     |**名稱**|型別**TransformRequestToRequestDeclineMessage**。|  
-    |**對應名稱**|按一下**...**. 從 [轉換組態] 中，執行下列動作：<br /><br /> 輸入組態資訊：<br /><br /> -按一下**現有對應**。<br /><br /> 完整格式的對應名稱：<br /><br /> -選取**\<從參考組件選取 >**。  從左窗格中，選取**EAISchemas**。  從右窗格選取 [EAISchemas.MapToReqDecline]。  按一下 **[確定]**。<br /><br /> Source<br /><br /> -RequestMessage<br /><br /> 目的地<br /><br /> -[Requestdeclinemessage]|  
+    |**對應名稱**|按一下**...**. 從 [轉換組態] 中，執行下列動作：<br /><br /> 輸入組態資訊：<br /><br /> -按一下**現有對應**。<br /><br /> 完整格式的對應名稱：<br /><br /> -選取**\<從參考組件選取\>**。  從左窗格中，選取**EAISchemas**。  從右窗格選取 [EAISchemas.MapToReqDecline]。  按一下 **[確定]**。<br /><br /> Source<br /><br /> -RequestMessage<br /><br /> 目的地<br /><br /> -[Requestdeclinemessage]|  
   
 11. 設計介面上，按一下  **send_1**圖形。  
   
@@ -155,7 +155,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="next-steps"></a>後續步驟  
  您將邏輯連接埠加入至協調流程中[步驟 3： 新增至協調流程的連接埠](../core/step-3-add-ports-to-the-orchestration.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [步驟 1： 將 EAIOrchestration 專案加入方案](../core/step-1-add-eaiorchestration-project-to-the-solution.md)   
  [步驟 3： 新增至協調流程連接埠](../core/step-3-add-ports-to-the-orchestration.md)   
- [步驟 4： 建置 EAIOrchestration 專案](../core/step-4-build-the-eaiorchestration-project.md)
+ [步驟 4：建置 EAIOrchestration 專案](../core/step-4-build-the-eaiorchestration-project.md)

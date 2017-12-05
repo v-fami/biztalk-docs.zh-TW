@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 92737ca115e95c5cd66fdf0e03cf05296ef16088
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: af6365c640cbc51053d02822141915cbd4cad828
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="programmatically-create-the-file-receive-location-or-send-port"></a>以程式設計方式建立檔案接收位置或傳送埠
 如何建立檔案接收埠和傳送埠，以程式設計的方式。 若要使用[!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]，請移至[設定 File 配接器](../core/configure-the-file-adapter.md)。
@@ -50,8 +50,8 @@ FILE 配接器將其組態資訊儲存在 SSO 資料庫中。 您可以設定接
    <FileMask vt="8">*.xml</FileMask>  
    <FileNetFailRetryCount vt="19">5</FileNetFailRetryCount>  
    <FileNetFailRetryInterval vt="19">5</FileNetFailRetryInterval>  
-   \<Username vt=”8”>MyDomain\MyUsername</Username>  
-   \<Password vt=”8”>PASSWORD</Password>  
+   <Username vt=”8”>MyDomain\MyUsername</Username>  
+   <Password vt=”8”>PASSWORD</Password>  
 </CustomProps>  
   
 ```  

@@ -13,11 +13,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e4071fd04b89681f9f7d6948798dd665b96a0c1e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4489e463257f811fe2c71efea49880940751c66a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="repairing-a-message"></a>修復訊息
 本章節描述如何修復驗證失敗的訊息。  
@@ -28,9 +28,9 @@ ms.lasthandoff: 09/20/2017
   
 2.  在 [首頁] 視窗中，按一下**文件**。  
   
-3.  在文件視窗中，在**文件庫**，按一下    **\<*部門名稱*>**_**Repairer * *。  
+3.  在文件視窗中，在**文件庫**，按一下    **\<*部門名稱*\>**_**Repairer * *。  
   
-4.  在\<*部門名稱*> _Repair 視窗中，按一下 **收件匣**。  
+4.  在\<*部門名稱*\>_Repair 視窗中，按一下 **收件匣**。  
   
 5.  在 收件匣 視窗中，指向 訊息的標題、 按一下訊息標題右邊的箭號，然後按一下**編輯在 Microsoft Office InfoPath**。  
   
@@ -44,7 +44,7 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  如果錯誤是發生在伴隨著下拉式清單的欄位，您無法查看造成錯誤的原始值。 欄位會顯示 「 選取 」 而不是原始值。 從下拉式清單中選取適當的值。  
   
-8.  若要確定會驗證訊息，**驗證**目前的角色： 修復 窗格中，，然後按一下**驗證訊息**。 確認 [結果] 窗格會顯示**訊息無效**。  
+8.  若要確定會驗證訊息，**驗證**目前的角色： 修復] 窗格中，，然後按一下 [**驗證訊息**。 確認 [結果] 窗格會顯示**訊息無效**。  
   
 9. 在[!INCLUDE[btsOfficeNoVersion](../../includes/btsofficenoversion-md.md)] [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] 2007年] 視窗中，按一下 [**送出**。  
   
@@ -59,14 +59,14 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  如果您在修復階段中，拒絕的訊息變更[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]會將訊息路由至 MessageBox，並張貼至事件檢視器會讀取錯誤 「 無法重設至工作流程中的第一個階段。 」。  
   
-11. 如果您按下**接受**或**拒絕**在步驟 10 中，在**數位簽章精靈**頁面上，選取您想要用來簽署格式的憑證 (憑證，您建立 repairer），然後按一下**下一步**。  
+11. 如果您按下**接受**或**拒絕**在步驟 10 中，在**數位簽章精靈**頁面上，選取您想要用來簽署格式的憑證 (憑證，您建立 repairer），然後按一下 **下一步**。  
   
     > [!NOTE]
     >  若要驗證數位簽章的有效性，請按一下**數位簽章**上**工具**功能表上，按一下您想要確認，然後再按一下數位簽章**檢視簽署表單**.  
   
 12. 在輸入註解的數位簽章精靈頁面上，按一下 **完成**。  
   
-13. 在驗證表單的 數位簽章精靈頁面上，確認您所簽署的訊息和簽章正確。 按一下**我已簽署前確認此內容**，然後按一下**登**。  
+13. 在驗證表單的 數位簽章精靈頁面上，確認您所簽署的訊息和簽章正確。 按一下**我已簽署前確認此內容**，然後按一下 **登**。  
   
 14. 在 [確認數位簽章] 視窗中，按一下**關閉**。  
   
@@ -74,4 +74,4 @@ ms.lasthandoff: 09/20/2017
   
 16. 關閉[!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]視窗。  
   
-17. 在 MRSR 網站中，按一下 **文件**。 如果您按下**接受**接受步驟 11 中的變更，請確認*\<部門名稱 >*_ReKeyVerify 文件庫包含您修復的訊息。 如果您按下**拒絕**拒絕步驟 11 中的變更，請確認 A4SWIFT_Outbox 文件庫包含未修改過的訊息。
+17. 在 MRSR 網站中，按一下 **文件**。 如果您按下**接受**接受步驟 11 中的變更，請確認*\<部門名稱\>*_ReKeyVerify 文件庫包含您修復的訊息。 如果您按下**拒絕**拒絕步驟 11 中的變更，請確認 A4SWIFT_Outbox 文件庫包含未修改過的訊息。

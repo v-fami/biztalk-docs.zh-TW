@@ -17,11 +17,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 97af99271a4d63046d2a95a47caed7f145eaef24
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: f00c5f75062ffd084cd19f23bfa66768d3d67ca5
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-configure-the-virtual-directory"></a>如何設定虛擬目錄
 此主題說明設定虛擬目錄與為使用者驗證應用程式的程序。  
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/07/2017
   
 2.  按一下**啟動**，指向 **程式**，按一下**系統管理工具**，然後按一下**網際網路資訊服務 (IIS) 管理員**。  
   
-3.  展開**\<伺服器名稱 >** ，然後展開 **網站**。  
+3.  展開**\<伺服器名稱\>** ，然後展開 **網站**。  
   
 4.  以滑鼠右鍵按一下**Default Web Site**按一下**新增虛擬目錄**。  
   
@@ -46,5 +46,5 @@ ms.lasthandoff: 11/07/2017
   
 9. 在**新增應用程式**對話方塊中，按一下 **確定**。 資料夾會轉換成應用程式 （您可以看到在圖示 – 從資料夾圖示的網站 圖示以變更）。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [保護配接器](../core/security-in-biztalk-adapter-for-peoplesoft-enterprise.md)

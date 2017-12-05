@@ -12,11 +12,11 @@ caps.latest.revision: "21"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 451987a9b6461064047041ee6afa348d32929b51
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8b12450e87e730e3713a89350fc2a16440e4d911
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="receive-strongly-typed-polling-based-data-changed-messages-from-sql-server-using-biztalk-server"></a>從 SQL Server 使用 BizTalk Server 接收強型別輪詢基礎資料變更訊息
 您可以設定[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]來接收 SQL Server 中的強型別輪詢訊息。 您可以指定執行以輪詢資料庫配接器的輪詢陳述式。 輪詢陳述式可以是 SELECT 陳述式或預存程序會傳回結果集。  
@@ -54,18 +54,18 @@ SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100
  相同的 BizTalk 專案的一部分，您可以加入另一個結構描述檔案，例如 EmployeeDetails.xsd。 EmployeeDetails.xsd 的結構描述如下所示：  
   
 ```  
-\<?xml version="1.0" encoding="utf-16" ?>   
-\<xs:schema xmlns:b="http://schemas.microsoft.com/BizTalk/2003" xmlns="http://Typed_Polling.EmployeeDetails" elementFormDefault="qualified" targetNamespace="http://Typed_Polling.EmployeeDetails" xmlns:xs="http://www.w3.org/2001/XMLSchema">  
-  \<xs:element name="EmployeeDetails">  
-    \<xs:complexType>  
-      \<xs:sequence>  
-        \<xs:element name="Employee_Info" type="xs:string" />   
-        \<xs:element name="Employee_Profile" type="xs:string" />   
-        \<xs:element name="Employee_Performance" type="xs:string" />   
-      \</xs:sequence>  
-    \</xs:complexType>  
-  \</xs:element>  
-\</xs:schema>  
+<?xml version="1.0" encoding="utf-16" ?>   
+<xs:schema xmlns:b="http://schemas.microsoft.com/BizTalk/2003" xmlns="http://Typed_Polling.EmployeeDetails" elementFormDefault="qualified" targetNamespace="http://Typed_Polling.EmployeeDetails" xmlns:xs="http://www.w3.org/2001/XMLSchema">  
+  <xs:element name="EmployeeDetails">  
+    <xs:complexType>  
+      <xs:sequence>  
+        <xs:element name="Employee_Info" type="xs:string" />   
+        <xs:element name="Employee_Profile" type="xs:string" />   
+        <xs:element name="Employee_Performance" type="xs:string" />   
+      </xs:sequence>  
+    </xs:complexType>  
+  </xs:element>  
+</xs:schema>  
 ```  
   
  您也會加入至專案，以將元素從 Employee 資料表 （收到的輪詢訊息） EmployeeDetails.xsd 結構描述中的項目對應的 BizTalk 對應工具。 對應的一部分，您可以結合輪詢訊息從一個或多個項目，並將它對應 EmployeeDetails 結構描述中單一項目。 您可以使用**字串串連**運算質。  
@@ -307,7 +307,7 @@ SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100
      執行輪詢陳述式，並在接收訊息之後，輪詢訊息取得 FILE 傳送埠的傳送。 此處，輸出對應 (**MapSchema**) 設定 EmployeeDetails 結構描述的輪詢訊息的傳送埠對應，然後將訊息置放到檔案位置。 訊息如下所示：  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <EmployeeDetails xmlns="http://Typed_Polling.EmployeeDetails">  
       <Employee_Info>10751John</Employee_Info>   
       <Employee_Profile>TesterManagesTesting</Employee_Profile>   
@@ -323,5 +323,5 @@ SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100
 ## <a name="best-practices"></a>最佳作法  
  您部署和設定 BizTalk 專案之後，您可以為 XML 檔案，稱為繫結檔案匯出組態設定。 一旦產生繫結檔案時，可以組態設定匯入檔案，使您不需要建立傳送埠和接收相同的協調流程連接埠。 如需繫結檔案的詳細資訊，請參閱[重複使用配接器繫結](../../adapters-and-accelerators/adapter-sql/reuse-sql-adapter-bindings.md)。
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [輪詢 SQL Server 與 BizTalk Server 使用 SQL 配接器](../../adapters-and-accelerators/adapter-sql/poll-sql-server-using-the-sql-adapter-with-biztalk-server.md)

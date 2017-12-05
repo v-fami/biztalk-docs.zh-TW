@@ -15,11 +15,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a5e74e297eba5dcc92d2008bcca90fdc7b325814
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: bcd87b89c6c23e709f21e78e3ea98dd2b84575ca
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="configuring-the-virtual-directory"></a>設定虛擬目錄
 此主題說明設定虛擬目錄與為使用者驗證應用程式的程序。  
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/07/2017
   
 2.  按一下**啟動**，指向 **程式**，按一下**系統管理工具**，然後按一下**網際網路資訊服務 (IIS) 管理員**。  
   
-3.  展開**\<伺服器名稱 >** ，然後展開 **網站**。  
+3.  展開**\<伺服器名稱\>** ，然後展開 **網站**。  
   
 4.  以滑鼠右鍵按一下**Default Web Site**按一下**新增虛擬目錄**。  
   
@@ -59,5 +59,5 @@ ms.lasthandoff: 11/07/2017
   
 4.  按一下**識別**及變更此 COM + 應用程式執行 BizTalk Server 群組的成員使用者的身分識別。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [在配接器的安全性](../core/security-in-biztalk-adapter-for-jd-edwards-oneworld.md)

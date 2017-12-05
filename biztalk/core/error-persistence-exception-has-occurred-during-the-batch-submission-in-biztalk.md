@@ -12,11 +12,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7eae4f48209dc4f5afefbc69c40706a31f2b00b7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c01e77ab46b1ef23b15bc8e288ff7f151d1563cb
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="a-persistence-exception-has-occurred-during-the-batch-submission-in-the-batching-orchestration"></a>批次處理協調流程中的批次提交期間發生持續性例外狀況
 ## <a name="details"></a>詳細資料  
@@ -35,4 +35,4 @@ ms.lasthandoff: 09/20/2017
  這個錯誤/警告/資訊事件表示，BizTalk Server 無法傳送的批次的交換因為任何傳送埠不訂閱該交換。  
   
 ## <a name="user-action"></a>使用者動作  
- 若要解決這個錯誤，請確定傳送埠訂閱批次所設定的傳送埠的下列篩選屬性： EDI。DestinationPartyName = \<PartyName >，EDI。BatchEncodingType = EDIFACT 或 X12，以及 EDI。ToBeBatched = False。
+ 若要解決這個錯誤，請確定傳送埠訂閱批次所設定的傳送埠的下列篩選屬性： EDI。DestinationPartyName = \<PartyName\>，EDI。BatchEncodingType = EDIFACT 或 X12，以及 EDI。ToBeBatched = False。

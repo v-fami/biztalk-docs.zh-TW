@@ -27,11 +27,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 723cd04a2a907fdb5d770975c27d47e1752d08ff
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 186c95c7ddf19c1d29b6ea76a63ccb5c92d6ba9d
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="developing-custom-pipeline-components"></a>開發自訂管線元件
 本節描述如何開發管線元件。 您可建立三種管線元件類型：一般、組譯和反組譯。 這三種類型都可額外實作探查功能。 管線元件的每種類型有關聯的介面必須實作才能插入 「 BizTalk 傳訊引擎; 元件區分的元件類型的管線介面為**IComponent**， **IAssemblerComponent**，和**IDisassemblerComponent**。 對於探查元件，您必須實作**IProbeMessage**介面。  
@@ -42,7 +42,7 @@ ms.lasthandoff: 09/20/2017
 >  如果您從 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 中的管線參考自訂管線元件，可能會發生編譯階段錯誤。 若要修正這個錯誤，請關閉管線設計師，並在編譯之前重新開啟它。 或者，您也可以移除此元件，然後再新增它。  
   
 > [!IMPORTANT]
->  升級到 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 時，請確認現有自訂管線元件中的任何字串變數並未包含任何新行字元，例如 '\n'。 否則，在 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 中編譯這個元件時，將會出現「常數中包含新行字元」錯誤。  
+>  升級到 BizTalk Server 時，請確認現有自訂管線元件中的任何字串變數沒有任何新行字元，例如 '\n'。 否則，在 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 中編譯這個元件時，將會出現「常數中包含新行字元」錯誤。  
   
 ## <a name="in-this-section"></a>本節內容  
   
@@ -56,7 +56,7 @@ ms.lasthandoff: 09/20/2017
   
 -   [開發探查管線元件](../core/developing-a-probing-pipeline-component.md)  
   
--   [實作搜尋方法的 Managed 資料流管線元件中](../core/implementing-a-seek-method-in-a-managed-streaming-pipeline-component.md)  
+-   [在 Managed 資料流管線元件中實作搜尋方法](../core/implementing-a-seek-method-in-a-managed-streaming-pipeline-component.md)  
   
 -   [使用剖析和序列化引擎](../core/using-the-parsing-and-serializing-engines.md)  
   

@@ -12,11 +12,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: adfe1e552c0f129df67ec5ea790f8e685b214fe6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 78ae5f1c61f2a00359e88acd75c093e2b6c2fb91
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="overview-of-the-bam-development-process"></a>BAM 開發程序概觀
 本主題描述開發程序和用來存放 BAM 資料的資料庫與資料表。  
@@ -34,7 +34,7 @@ ms.lasthandoff: 09/20/2017
   
     -   使用 BizTalk Server 組態管理員來安裝 BAM 工具。 建議您使用「組態管理員」，是因為它會置入有助於升級的適當登錄。 如需有關如何設定 BAM 的詳細資訊，請參閱[使用組態管理員設定 BAM 工具](http://go.microsoft.com/fwlink/?LinkId=70561)(http://go.microsoft.com/fwlink/?LinkId=70561)。  
   
-    -   從已經安裝這些 DLL 的電腦中複製它們。 DLL 位於 Microsoft BizTalk Server\<版本 > \Tracking 資料夾。  
+    -   從已經安裝這些 DLL 的電腦中複製它們。 DLL 位於 Microsoft BizTalk Server\<版本\>\Tracking 資料夾。  
   
 ## <a name="bam-development-process"></a>BAM 開發程序  
  下圖描述 BAM 開發流程。  
@@ -56,11 +56,11 @@ ms.lasthandoff: 09/20/2017
   
 4.  執行應用程式。 當您這麼做時，程式碼將會：  
   
-    -   新增預留位置記錄至 BAM_&LT;\<*活動名稱*> _Active 資料表。  
+    -   新增預留位置記錄至 BAM_<\<*活動名稱*\>_Active 資料表。  
   
     -   更新記錄中的資料項目。  
   
-    -   結束活動並將記錄移到 BAM_\<*活動 nam*e > _completed 資料表。  
+    -   結束活動並將記錄移到 BAM_\<*活動名稱**\>_completed 資料表。  
   
 ## <a name="where-bam-data-is-stored"></a>儲存 BAM 資料的位置  
  BAM 提供 EventObservation 命名空間，其中包含可用來處理 BAM 事件的 EventStream 類別。  
@@ -69,11 +69,11 @@ ms.lasthandoff: 09/20/2017
   
 |名稱|Description|  
 |----------|-----------------|  
-|作用中資料表|名為 bam_<\<*活動名稱*> （_a），此資料表會保存此類型的活動尚未完成的。|  
-|作用中關係資料表|名為 bam_<\<*活動名稱*> _ActiveRelationships，此資料表包含活動的相關的活動尚未完成。|  
-|接續資料表|名為 bam_<\<*活動名稱*> _continuations，此資料表列出活動之活動的接續。|  
-|完成的資料表|名為 bam_<\<*活動名稱*> _completed。|  
-|完成的關係資料表|名為 bam_<\<*活動名稱*> _CompletedRelationships，此資料表包含活動的已完成相關的活動。|  
+|作用中資料表|名為 bam_<\<*活動名稱*\>（_a），此資料表會保存此類型的活動尚未完成的。|  
+|作用中關係資料表|名為 bam_<\<*活動名稱*\>_ActiveRelationships，此資料表包含活動的相關的活動尚未完成。|  
+|接續資料表|名為 bam_<\<*活動名稱*\>_continuations，此資料表列出活動之活動的接續。|  
+|完成的資料表|名為 bam_<\<*活動名稱*\>_completed。|  
+|完成的關係資料表|名為 bam_<\<*活動名稱*\>_CompletedRelationships，此資料表包含活動的已完成相關的活動。|  
   
  您可以在 BAM 活動中擷取四種類型的資料：  
   

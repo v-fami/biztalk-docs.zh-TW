@@ -16,11 +16,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7dee6fff7de065c3663ab373f739f7fb465947c8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 344b25b83060143b339a6791ecae6f3ab7028055
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="replace-public-key-token-utility"></a>取代公開金鑰 Token 公用程式
 這個公用程式可使用衍生自強式名稱組件金鑰 (.snk) 檔案的公開金鑰 Token 來取代檔案中的公開金鑰 Token 或變數。  
@@ -64,13 +64,13 @@ ms.lasthandoff: 09/20/2017
   
 3.  從命令提示字元中執行下列命令：  
   
-4.  **ReplacePKT \<**  *.snk 檔案*  **>  \<**  *舊公開金鑰語彙基元*  **>  \<**  *檔案取代***>**  
+4.  **ReplacePKT \<**  *.snk 檔案*  **\> \<**  *舊公開金鑰語彙基元*  **\> \<**  *檔案取代***\>**  
   
     |選項|Description|  
     |------------|-----------------|  
-    |**\<***.snk 檔案***>**|.snk 檔案的完整路徑，此檔案所包含的公開金鑰 Token 會用來取代現有的公開金鑰 Token 或預留位置。|  
-    |**\<***舊公開金鑰語彙基元***>**|要取代的公開金鑰 Token 或預留位置。|  
-    |**\<***檔案取代***>**|檔案的完整路徑，您要取代此檔案中的公開金鑰 Token 或預留位置。|  
+    |**\<***.snk 檔案***\>**|.snk 檔案的完整路徑，此檔案所包含的公開金鑰 Token 會用來取代現有的公開金鑰 Token 或預留位置。|  
+    |**\<***舊公開金鑰語彙基元***\>**|要取代的公開金鑰 Token 或預留位置。|  
+    |**\<***檔案取代***\>**|檔案的完整路徑，您要取代此檔案中的公開金鑰 Token 或預留位置。|  
   
      範例：  
   
@@ -86,7 +86,7 @@ ms.lasthandoff: 09/20/2017
     ReplacePKT <filename>.snk  
     ```  
   
-     其中\< *filename*> 是要從中衍生的公開金鑰 token 的.snk 檔案的名稱。  
+     其中\< *filename* \>是要從中衍生的公開金鑰 token 的.snk 檔案的名稱。  
   
     ```  
     Example: ReplacePKT.bat MyToken.snk  
@@ -102,5 +102,5 @@ ms.lasthandoff: 09/20/2017
   
 3.  將指令碼檔案提供給使用者時，請包含構成「取代公開金鑰 Token」公用程式的三個檔案 (ReplacePKT.bat、ReplacePKT.vbs、ReplacePKT.wsf)。 請確定指令碼使用者先將所有這些檔案複製到檔案系統上的相同資料夾中，然後再執行指令碼。  
   
-## <a name="see-also"></a>另請參閱  
- [在 SDK 中的公用程式](../core/utilities-in-the-sdk.md)
+## <a name="see-also"></a>請參閱  
+ [SDK 中的公用程式](../core/utilities-in-the-sdk.md)

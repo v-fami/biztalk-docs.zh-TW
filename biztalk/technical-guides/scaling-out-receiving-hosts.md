@@ -12,14 +12,14 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 843e20e76f7320555a0cfab5af5103ce3fd597d1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8f0a58d7dfa022c3921abb5b426dacdf387095c2
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="scaling-out-receiving-hosts"></a>向外擴充接收主控件
-若要讓接收主控件高度可用，您必須有兩個或多個[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]執行的每個接收主控件執行個體的電腦。 透過向外延展接收主控件中，您可以增加的可用性[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]訊息大量的部署。 雖然這些部署有可能執行最少的協調流程處理，不過它們仍可以最快的速度並提供最大的可靠性來路由許多不同類型的訊息。  
+若要讓接收主控件高度可用，您必須有兩個或多個[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]執行的每個接收主控件執行個體的電腦。 透過向外延展接收主控件中，您可以提高需要大量傳訊的 BizTalk Server 部署的可用性。 雖然這些部署有可能執行最少的協調流程處理，不過它們仍可以最快的速度並提供最大的可靠性來路由許多不同類型的訊息。  
   
  您可以將接收主控件與處理協調流程和傳送訊息的主控件分開，藉此個別保護和擴充其他主控件的每個主控件，提升環境的安全性與擴充性。 例如，您可以將兩部電腦 (主控件執行個體) 新增至接收主控件，而不需將任何電腦新增至處理或傳送主控件。  
   
@@ -39,7 +39,7 @@ ms.lasthandoff: 09/20/2017
  在接收連接埠組態中，您可以選擇性地指定對應。 在接收位置組態中，您必須指定用於前置處理文件的管線。 指定[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]處理序會處理用戶端接收文件，文件中的，對應文件的前置處理的所有項目。 這是內含式主控件執行個體和外掛式主控的件執行個體相同。  
   
 ## <a name="scaling-out-in-process-receiving-hosts"></a>向外延展同處理序接收裝載  
- 下圖顯示[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]提供高可用性，讓兩個主控件接收主控件執行個體各自位於不同的電腦上的部署。 請注意，在此圖中的處理和傳送主控件不是高可用性，因為只有一個主控件執行個體處理 BizTalk 項目指派給主機。  
+ 下圖顯示不同的電腦上有兩個主控件執行個體每個接收主控件提供高可用性的 BizTalk Server 部署。 請注意，在此圖中的處理和傳送主控件不是高可用性，因為只有一個主控件執行個體處理 BizTalk 項目指派給主機。  
   
  ![多個主控件接收訊息](../core/media/tdi-ha-scalereceive.gif "TDI_HA_ScaleReceive")  
   
@@ -52,15 +52,15 @@ ms.lasthandoff: 09/20/2017
  若要以此組態提供高可用性，每部電腦都需執行三個主控件執行個體：三家公司的每一家各有一個執行個體。 每家公司的主控件執行個體都包含接收位置和管線以便和該公司通訊。 在一般的作業期間，只要您已完成的向外延展前面接收配接器所需的工作傳訊負載將分散在三個主控件執行個體之間每個主控件。 若一部電腦上的主控件執行個體失敗，在另外兩部電腦上執行的主控件執行個體會提供備援並維護服務的可用性。  
   
 ## <a name="scaling-out-isolated-receiving-hosts"></a>縮放比例縮小隔離的接收主控件  
- 除了主控件執行個體，縮放比例，並為接收主控件提供高可用性的程序也取決於您在部署中實作的特定配接器。 每個配接器都有通訊協定特有的特性，使得每個案例中的規劃和部署均不同。 不過，[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 讓您可為所有配接器套用相同的高可用性方案，主要是透過其他電腦和主控件執行個體。  
+ 除了主控件執行個體，縮放比例，並為接收主控件提供高可用性的程序也取決於您在部署中實作的特定配接器。 每個配接器都有通訊協定特有的特性，使得每個案例中的規劃和部署均不同。 不過，BizTalk Server 可讓您套用相同的高可用性方案的所有介面卡，主要是透過其他電腦和主控件執行個體。  
   
- 視要使用的特定通訊協定之不同，某些接收配接器需要其他機制，以便在多個主機電腦之間分散內送訊息以提供高可用性。 例如，[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]解決方案使用 HTTP 或 SOAP 配接器 （亦稱為 Web 服務配接器） 都需要負載平衡器例如網路負載平衡 (NLB) 來分散接收工作負載，如下圖所示。  
+ 視要使用的特定通訊協定之不同，某些接收配接器需要其他機制，以便在多個主機電腦之間分散內送訊息以提供高可用性。 例如，使用 HTTP 或 SOAP 配接器 （亦稱為 Web 服務配接器） 的 BizTalk Server 解決方案都需要負載平衡器例如網路負載平衡 (NLB) 來分散接收工作負載，如下圖所示。  
   
  ![向外擴充外掛式接收主控件](../technical-guides/media/cb38ec25-bfb0-4a55-8464-b7918b6fc746.gif "cb38ec25-bfb0-4a55-8464-b7918b6fc746")  
   
- 如需有關在最常見的配接器的高可用性指導方針[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，請參閱 < 擴充 BizTalk Server 接收配接器 > 一節[Scaled-Out 接收主機](http://go.microsoft.com/fwlink/?LinkId=151283)(http://go.microsoft.com/fwlink /？LinkId = 151283) 中[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]幫助。  
+ 如需有關在最常見的配接器的高可用性指導方針[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，請參閱 < 擴充 BizTalk Server 接收配接器 > 一節[Scaled-Out 接收主機](http://go.microsoft.com/fwlink/?LinkId=151283)(http://go.microsoft.com/fwlink /？LinkId = 151283) 在 BizTalk Server 說明。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [叢集接收主控件](../technical-guides/clustering-receiving-hosts.md)   
  [向外延展處理主控件](../technical-guides/scaling-out-processing-hosts.md)   
- [向外延展傳送主控件](../technical-guides/scaling-out-sending-hosts.md)
+ [向外擴充傳送主控件](../technical-guides/scaling-out-sending-hosts.md)

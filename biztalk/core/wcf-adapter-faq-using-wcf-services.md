@@ -12,11 +12,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ca76426ab461ce12844cde42f4050d3de885d7ad
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 41d02fe0b7be1f53edaac4c18cfd7717a25c3a71
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="wcf-adapter-faq-using-wcf-services"></a>WCF 配接器 FAQ：使用 WCF 服務
 ## <a name="how-does-biztalk-server-use-its-wcf-adapters-to-access-wcf-services"></a>BizTalk Server 如何使用其 WCF 配接器存取 WCF 服務  
@@ -33,7 +33,7 @@ ms.lasthandoff: 09/20/2017
   
  BizTalk WCF 自訂配接器不僅可讓您建立新的繫結從 Bindingelement，也可讓您設定的新繫結直接。 它也可讓您設定標準繫結上的行為。 這是特別有用，因為寫入自訂行為會比撰寫新的 BindingElements 物件容易得多。  
   
- 建立 BindingElement 是一項所涉及的開發工作，並參考它的最佳資源來源是超連結"http://go.microsoft.com/fwlink/?LinkId=142449"\t"_blank"http://go.microsoft.com/fwlink/?LinkId=142449 的 WCF 範例。 若要建立自訂的 BindingElement，您會建立衍生自 BindingElement 的類別。 新的 BindingElement 將必須在新的組件中。 這個組件必須安裝到全域組件快取 (GAC) BizTalk 主控件，其中傳送埠和接收位置的管理電腦的設定。 若要建立自訂繫結關聯的特定傳送埠或接收位置，您必須先將它加入至\<bindingElementExtensions > 在同一部電腦上的 machine.config 檔案的區段。  
+ 建立 BindingElement 是一項所涉及的開發工作，並參考它的最佳資源來源是超連結"http://go.microsoft.com/fwlink/?LinkId=142449"\t"_blank"http://go.microsoft.com/fwlink/?LinkId=142449 的 WCF 範例。 若要建立自訂的 BindingElement，您會建立衍生自 BindingElement 的類別。 新的 BindingElement 將必須在新的組件中。 這個組件必須安裝到全域組件快取 (GAC) BizTalk 主控件，其中傳送埠和接收位置的管理電腦的設定。 若要建立自訂繫結關聯的特定傳送埠或接收位置，您必須先將它加入至\<bindingElementExtensions\>在同一部電腦上的 machine.config 檔案的區段。  
   
  進行調出該變更後**傳輸屬性組態**對話方塊來設定繫結。  
   

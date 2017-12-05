@@ -16,11 +16,11 @@ caps.latest.revision: "23"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d1e355f752241135d781c3425e05f017b0d86d93
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c4941cb95e180b7075b7e113fb89f7734a9abd82
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="submitdirect-biztalk-server-sample"></a>SubmitDirect （BizTalk Server 範例）
 SubmitDirect 範例將示範如何從 .NET 架構的應用程式，以程式設計的方式將單向及要求/回應訊息提交至 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。 此範例將示範搭配配接器使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] API。 此外還提供名為 Submit 的接收配接器，可用來提交訊息至 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。  
@@ -46,7 +46,7 @@ SubmitDirect 範例將示範如何從 .NET 架構的應用程式，以程式設�
 -   **提交要求/回應訊息。** 主控台應用程式 SubmitRequest.exe 會採用其命令列上指定的.xml 檔，並將它提交給[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。 此 .xml 檔的結構描述會定義包含兩個整數欄位的元素。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]挑選.xml 檔案，並處理以協調流程 （含有一個要求/回應連接埠）。 然後使用對應產生傳回整數的 XML 回應訊息，該整數為要求中兩個整數得出的結果。 當主控台應用程式收到回應時，便會顯示結果。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- \<*範例路徑*> \AdaptersDevelopment\SubmitDirect\  
+ \<*範例路徑*\>\AdaptersDevelopment\SubmitDirect\  
   
  下表列出此範例中的檔案，並描述其用途。  
   
@@ -69,13 +69,13 @@ SubmitDirect 範例將示範如何從 .NET 架構的應用程式，以程式設�
   
 1.  在命令視窗中，瀏覽至下列資料夾：  
   
-     \<*範例路徑*> \AdaptersDevelopment\SubmitDirect  
+     \<*範例路徑*\>\AdaptersDevelopment\SubmitDirect  
   
 2.  執行檔案 Setup.bat，這會執行下列動作：  
   
     -   針對本範例的批次提交部份建立下列輸出資料夾。  
   
-         \<*範例路徑*> \AdaptersDevelopment\SubmitDirect\Out  
+         \<*範例路徑*\>\AdaptersDevelopment\SubmitDirect\Out  
   
     -   針對此範例編譯各種 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 專案。  
   
@@ -110,7 +110,7 @@ SubmitDirect 範例將示範如何從 .NET 架構的應用程式，以程式設�
   
 1.  在命令視窗中，瀏覽至下列資料夾：  
   
-     \<*範例路徑*> \AdaptersDevelopment\SubmitDirect\SubmitMessages\bin\Debug  
+     \<*範例路徑*\>\AdaptersDevelopment\SubmitDirect\SubmitMessages\bin\Debug  
   
 2.  執行 SubmitMessages.exe 檔，在命令列上傳遞多個字串。  
   
@@ -122,7 +122,7 @@ SubmitDirect 範例將示範如何從 .NET 架構的應用程式，以程式設�
   
 1.  在命令視窗中，瀏覽至下列資料夾：  
   
-     \<*範例路徑*> \AdaptersDevelopment\SubmitDirect\SubmitRequest\bin\Debug  
+     \<*範例路徑*\>\AdaptersDevelopment\SubmitDirect\SubmitRequest\bin\Debug  
   
 2.  執行 SubmitRequest.exe 檔，在命令列上傳遞適當的 .xml 檔案名稱。  
   
@@ -156,6 +156,6 @@ SubmitDirect 範例將示範如何從 .NET 架構的應用程式，以程式設�
   
      如需這些方法的參數和傳回類型的詳細資訊，請參閱 TransportProxyUtils 資料夾中的 MessagingAPIInterface.cs 檔。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [配接器範例-開發](../core/adapter-samples-development.md)   
  [註冊配接器](../core/registering-an-adapter.md)

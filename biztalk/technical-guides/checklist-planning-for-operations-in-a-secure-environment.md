@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c7cac65ac29af9983ec3024677bc8eedc86c924b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c99c14f16df3f6b98555a4006706eb7804f24a34
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="checklist-planning-for-operations-in-a-secure-environment"></a>作業的安全環境中規劃檢查清單：
 執行[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]安全的環境中需要額外的步驟部署和組態。 預設作業系統安裝不需要採取這些帳戶，但案例嚴格的安全性原則已套用的位置，而應該納入本章節中的帳戶資訊。 層級的限制套用到伺服器上可能有所差異，但是下列資訊應涵蓋大部分的情況下，會是很好的起點。  
@@ -86,7 +86,7 @@ ms.lasthandoff: 09/20/2017
 |調整處理序的記憶體配額|SQL Server Agent 服務帳戶，SQL Server 服務帳戶|執行所需[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]。 如需詳細資訊，請參閱[設定 Windows 服務帳戶](http://go.microsoft.com/fwlink/?LinkId=157415)(http://go.microsoft.com/fwlink/?LinkId=157415)。|  
 |略過周遊檢查|SQL Server Agent 服務帳戶，SQL Server 服務帳戶|執行所需[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]。 如需詳細資訊，請參閱[設定 Windows 服務帳戶](http://go.microsoft.com/fwlink/?LinkId=157415)(http://go.microsoft.com/fwlink/?LinkId=157415)。|  
 |建立通用物件|SQL Server 服務帳戶|所需的 SSIS 服務。 如需詳細資訊，請參閱[設定 Windows 服務帳戶](http://go.microsoft.com/fwlink/?LinkId=157415)(http://go.microsoft.com/fwlink/?LinkId=157415)。|  
-|讓電腦和使用者帳戶，以受信任可以委派|SQL Server 服務帳戶，SQL Server 的伺服器，BizTalk Server 的伺服器，SQL Server 叢集名稱|BizTalk Server 所需。 伺服器名稱的格式為\<伺服器名稱 >$。 如需詳細資訊，請參閱[How to： 在 SQL Server 容錯移轉叢集上啟用 Kerberos 驗證](http://go.microsoft.com/fwlink/?LinkId=157417)(http://go.microsoft.com/fwlink/?LinkId=157417)。|  
+|讓電腦和使用者帳戶，以受信任可以委派|SQL Server 服務帳戶，SQL Server 的伺服器，BizTalk Server 的伺服器，SQL Server 叢集名稱|BizTalk Server 所需。 伺服器名稱的格式為\<servername\>$。 如需詳細資訊，請參閱[How to： 在 SQL Server 容錯移轉叢集上啟用 Kerberos 驗證](http://go.microsoft.com/fwlink/?LinkId=157417)(http://go.microsoft.com/fwlink/?LinkId=157417)。|  
 |登入為服務|SQL Server Agent 服務帳戶，SQL Server 服務帳戶|執行所需[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]。 如需詳細資訊，請參閱[設定 Windows 服務帳戶](http://go.microsoft.com/fwlink/?LinkId=157415)(http://go.microsoft.com/fwlink/?LinkId=157415)。|  
 |登入為服務|SSO 服務帳戶|需要執行 「 企業單一登入服務。 如需不同的使用者帳戶的詳細資訊，請參閱[Windows 群組和 BizTalk Server 中的使用者帳戶](http://go.microsoft.com/fwlink/?LinkID=155755)(http://go.microsoft.com/fwlink/?LinkID=155755)。|  
 |以批次工作登入|SQL Server Agent 服務帳戶，SQL Server 服務帳戶|執行所需[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]。 如需詳細資訊，請參閱[設定 Windows 服務帳戶](http://go.microsoft.com/fwlink/?LinkId=157415)(http://go.microsoft.com/fwlink/?LinkId=157415)。|  
@@ -136,5 +136,5 @@ ms.lasthandoff: 09/20/2017
 |SQL Server 介面組態|啟用遠端直接管理員連接|SQL Browser 服務正常運作所需的 SQL 用戶端 (BizTalk/ASP.NET) 才能正確地找出 SQL Server 具名執行個體所需|  
 |BizTalk 應用程式使用者群組|授與 Execute 權限**sp_help_jobhistory**中**msdb**資料庫|所需[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
   
-## <a name="see-also"></a>另請參閱  
- [其他重要任務的檢查清單](~/technical-guides/checklists-for-other-important-tasks.md)
+## <a name="see-also"></a>請參閱  
+ [其他重要工作的檢查清單](~/technical-guides/checklists-for-other-important-tasks.md)

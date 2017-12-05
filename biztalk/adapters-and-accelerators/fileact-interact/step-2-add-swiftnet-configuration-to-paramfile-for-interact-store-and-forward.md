@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 78aa75762e40bfcdd033a057610cb34f38825dd8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 05524abd4cd57b8d804ab5995072905392fd3645
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-2-add-swiftnet-configuration-to-the-paramfile-for-the-interact-store-and-forward-scenario"></a>步驟 2： 將 SWIFTNet 組態新增至 Paramfile 互動存放區和轉寄的案例
 若要啟用以這些值來初始化接收者 SWIFTNet paramfile 中必須指定 SAG 中建立的伺服器訊息協力廠商。  
@@ -44,7 +44,7 @@ ms.lasthandoff: 09/20/2017
   
      subsystem_start:  
   
-     **繁衍"snlreceiver-SagMessagePartner\<互動 SnF 的伺服器 MessagePartnerName >-AdapterMode 互動 」**  
+     **繁衍"snlreceiver-SagMessagePartner\<互動 SnF 的伺服器 MessagePartnerName\> -AdapterMode 互動 」**  
   
      * 結束  
   
@@ -88,8 +88,8 @@ ms.lasthandoff: 09/20/2017
   
      #<a name="stopeventsnl002subsystem-user-is-down"></a>stop_event:SNL002:subsystem 使用者已關閉  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [儲存和轉送 (Push) 的案例進行互動](../../adapters-and-accelerators/fileact-interact/interact-store-and-forward-push-scenario.md)   
  [步驟 1： 設定 SWIFT 配接器互動存放區和轉寄的案例](../../adapters-and-accelerators/fileact-interact/step-1-configure-the-swift-adapter-for-the-interact-store-and-forward-scenario.md)   
  [步驟 3： 建立傳送埠和接收埠以進行互動的存放區和轉寄的案例](../../adapters-and-accelerators/fileact-interact/step-3-create-send-and-receive-ports-for-interact-store-and-forward-scenario.md)   
- [步驟 4： 測試互動存放區和轉寄的端對端案例](../../adapters-and-accelerators/fileact-interact/step-4-test-the-interact-store-and-forward-end-to-end-scenario.md)
+ [步驟 4：測試 InterAct 儲存和轉寄端對端案例](../../adapters-and-accelerators/fileact-interact/step-4-test-the-interact-store-and-forward-end-to-end-scenario.md)

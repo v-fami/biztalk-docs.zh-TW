@@ -12,11 +12,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 346bbc3d4d136ad7116a68b3c57a47566f258a68
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e111a271654b40a01032805bbfdb8eb54bc31ead
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="enabling-adapter-framework-configuration-extensions"></a>啟用配接器架構組態延伸模組
 「BizTalk 配接器架構」提供數個可改善使用者體驗的延伸模組。 若要使用這些擴充功能，匯入架構的結構描述 BiztalkAdapterFramework.xsd。 匯入結構描述可讓您可以存取裝飾和特定的類型，並將它們用於配接器的組態結構描述，如下所述。 下列程式碼顯示如何匯入此結構描述：  
@@ -33,9 +33,9 @@ ms.lasthandoff: 09/20/2017
 ```  
   
 ## <a name="importing-the-biztalk-adapter-framework-extensions-schema-xsd"></a>匯入 BizTalk 配接器架構延伸模組結構描述 XSD  
- 藉由匯入配接器架構延伸模組結構描述 XSD，您可以使用裝飾例如\<baf:FileName > 做為項目的類型，其中顯示檔案名稱的快顯時編輯項目。  
+ 藉由匯入配接器架構延伸模組結構描述 XSD，您可以使用裝飾例如\<baf:FileName\>做為項目的類型，其中顯示檔案名稱的快顯時編輯項目。  
   
- 其他裝飾會控制屬性在介面中的顯示方式。 \<Baf: description > 裝飾，例如，加入說明文字的項目。 \<Baf: description > 裝飾底部的屬性頁上顯示的文字。 \<Browsable>： 可瀏覽 > 裝飾會隱藏在介面中的項目。 下列程式碼顯示如何在組態結構描述中使用這些項目：  
+ 其他裝飾會控制屬性在介面中的顯示方式。 \<Baf: description\>裝飾，例如，加入說明文字的項目。 \<Baf: description\>裝飾底部的屬性頁上顯示的文字。 \<Browsable>： 可瀏覽\>裝飾會隱藏在介面中的項目。 下列程式碼顯示如何在組態結構描述中使用這些項目：  
   
 ```  
 <?xml version="1.0" encoding="utf-8" ?><xs:schema   targetNamespace="http://tempuri.org/XMLSchema.xsd"   
@@ -92,5 +92,5 @@ ms.lasthandoff: 09/20/2017
 </xs:schema>  
 ```  
   
-## <a name="see-also"></a>另請參閱  
- [配接器架構組態結構描述延伸模組](../core/adapter-framework-configuration-schema-extensions.md)
+## <a name="see-also"></a>請參閱  
+ [配接器架構設定結構描述延伸模組](../core/adapter-framework-configuration-schema-extensions.md)

@@ -13,17 +13,17 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9b43e8be2d4f4fca9a48045eb1bc5f245adae97e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bdcabc80fcfeb667debc2c01d0f7ce40b57a4404
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-biztalk-server-solves-the-business-need"></a>BizTalk Server 如何解決商務需求
-若要解決您的系統整合需要[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]®[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]增強的功能[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]高科技製造系統。 由於 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 安裝程式會在 [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] 上安裝加速器，因此，本節將提供 [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] 的功能概觀，以及 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 新增至 BizTalk Server 的功能描述，藉此說明相關技術。  
+若要解決您的系統整合需要[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]®[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]增強的功能[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server 的高科技製造系統。 因為[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]安裝程式會安裝在 BizTalk Server 加速器，本節提供 BizTalk Server 的功能和功能的說明概觀說明相關技術[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]加入BizTalk Server。  
   
 ## <a name="in-this-section"></a>本節內容  
   
--   [與 BizTalk Server 進行系統整合](../../adapters-and-accelerators/accelerator-rosettanet/systems-integration-with-biztalk-server2.md)  
+-   [將 BizTalk Server 與系統整合](../../adapters-and-accelerators/accelerator-rosettanet/systems-integration-with-biztalk-server2.md)  
   
--   [BizTalk Accelerator for RosettaNet 新增至 BizTalk Server](../../adapters-and-accelerators/accelerator-rosettanet/what-biztalk-accelerator-for-rosettanet-adds-to-biztalk-server.md)
+-   [BizTalk Accelerator for RosettaNet 在 BizTalk Server 中新增的項目](../../adapters-and-accelerators/accelerator-rosettanet/what-biztalk-accelerator-for-rosettanet-adds-to-biztalk-server.md)

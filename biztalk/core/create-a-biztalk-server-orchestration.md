@@ -12,15 +12,15 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: bb9c2347a989dd59b97125e119ea79a9996c53ec
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d6223ab8d8aa3c8d1c20559a88257dd0dccaa22e
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="create-a-biztalk-server-orchestration"></a>建立 BizTalk Server 協調流程
 > [!NOTE]
->  本教學課程僅適用於 [!INCLUDE[prague](../includes/prague-md.md)]。  
+>  本教學課程僅適用於 BizTalk Server。  
   
  建立一個 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 協調流程，在部署時，接收 JSON 訂單訊息，並將其轉換為 XML 發票，再傳送出 JSON 發票。  
   
@@ -73,5 +73,5 @@ ms.lasthandoff: 09/20/2017
   
  ![處理 JSON 訊息的協調流程](../core/media/btsjson-orchestration.png "BTSJSON_Orchestration")  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [使用 BizTalk Server 處理 JSON 訊息](../core/processing-json-messages-using-biztalk-server.md)

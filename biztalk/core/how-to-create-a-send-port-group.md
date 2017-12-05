@@ -16,11 +16,11 @@ caps.latest.revision: "15"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f308c950d56569c06403df1394580302089a453e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 33d27914dd5d7ae59b0823c2e6009ab307c41b9b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-create-a-send-port-group"></a>如何建立傳送埠群組
 本主題描述如何使用 BizTalk Server 管理主控台，在 BizTalk 應用程式中建立傳送埠群組，然後在其中新增傳送埠。 您只能將靜態單向傳送埠新增到傳送埠群組。 傳送埠群組必須包含至少一個傳送埠，才能路由訊息。  
@@ -40,9 +40,9 @@ ms.lasthandoff: 09/20/2017
   
 4.  在**名稱**方塊中，輸入傳送埠群組的名稱。  
   
-5.  在**傳送埠**，按一下底下的下拉式清單**名稱**，然後按一下要新增傳送埠至傳送埠群組。 請為每個要新增至群組的傳送埠執行同樣的步驟。 若要建立新的傳送埠，並將它加入，請按一下**\<新傳送埠...>** ，然後依照中的指示[如何建立傳送埠](../core/how-to-create-a-send-port2.md)。  
+5.  在**傳送埠**，按一下底下的下拉式清單**名稱**，然後按一下要新增傳送埠至傳送埠群組。 請為每個要新增至群組的傳送埠執行同樣的步驟。 若要建立新的傳送埠，並將它加入，請按一下**\<新傳送埠...\>**  ，然後依照中的指示[如何建立傳送埠](../core/how-to-create-a-send-port2.md)。  
   
 6.  完成新增傳送埠至傳送埠群組，請按一下**確定**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [建立和設定傳送埠群組](../core/creating-and-configuring-send-port-groups.md)

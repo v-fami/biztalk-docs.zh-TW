@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 09970e43bd53306a6394eeffc4c2e642a8333dbc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b7fa139469ea8718c3d4430235ffb576195e67a7
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="known-issues-with-deploying-an-application"></a>部署應用程式的已知的問題
 ## <a name="deploying-a-biztalk-application"></a>部署 BizTalk 應用程式  
@@ -39,7 +39,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="exporting-a-biztalk-application"></a>匯出 BizTalk 應用程式  
  **安裝 Windows Vista 上的.msi 檔案時，就可以顯示不正確的錯誤**  
   
- 當安裝.msi 封裝使用匯出[!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)]上[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]Windows Vista® 上執行，您可能會收到下列不正確的錯誤，則 「 安裝程式發現未預期的錯誤，安裝此套件。 這可能表示封裝有問題。 錯誤碼是 2869」。 若要更正這個錯誤，第一次匯入封裝使用[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]重新匯出和安裝封裝。  
+ 當安裝.msi 封裝使用匯出[!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)]Windows Vista® 上執行的 BizTalk Server，您可能會收到下列不正確的錯誤，「 安裝程式發現未預期的錯誤，安裝此套件。 這可能表示封裝有問題。 錯誤碼是 2869」。 若要更正這個錯誤，第一次匯入封裝使用 BizTalk Server，然後重新匯出並安裝套件。  
   
 ## <a name="importing-a-biztalk-application"></a>匯入 BizTalk 應用程式  
  **密碼不會移除從繫結檔案新增至應用程式**  
@@ -54,5 +54,5 @@ ms.lasthandoff: 09/20/2017
   
  如果您在一個使用其他應用程式中之屬性結構描述的應用程式內建立傳送埠的篩選，然後再將此應用程式匯入至新的 BizTalk 群組，那麼您在安裝及啟動應用程式時，將不會收到結構描述遺失的警告，並且篩選功能也無法運作。 在安裝沒有包含結構描述的應用程式之前，您可以先匯入包含結構描述的應用程式來修正問題。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [部署應用程式](../technical-guides/deploying-an-application.md)

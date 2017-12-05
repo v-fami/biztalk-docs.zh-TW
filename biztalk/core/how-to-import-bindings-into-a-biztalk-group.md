@@ -17,11 +17,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1cfc20fea950c737d59e6b325744a02ee67bb63f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a64bac6c64a9aadc772bfe8445b23f87b469471d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-import-bindings-into-a-biztalk-group"></a>如何將繫結匯入到 BizTalk 群組
 本主題描述如何使用 [BizTalk Server 管理主控台] 或命令列，從 .xml 檔案將繫結匯入到 BizTalk 群組。 如需從 BizTalk 群組匯出繫結，可以匯入的.xml 檔案的指示，請參閱[如何匯出 BizTalk 群組的繫結](../core/how-to-export-bindings-for-a-biztalk-group.md)。  
@@ -43,7 +43,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  按一下 繫結檔案，然後按一下**開啟**。  
   
-     繫結檔案中的成品會寫入此群組。 在適當的資料夾中顯示\<所有成品 > 節點。  
+     繫結檔案中的成品會寫入此群組。 在適當的資料夾中顯示\<所有成品\>節點。  
   
 #### <a name="using-the-command-line"></a>使用命令列  
   
@@ -64,6 +64,6 @@ ms.lasthandoff: 09/20/2017
     |**/ 伺服器**|裝載 BizTalk 管理資料庫之 SQL Server 執行個體的名稱，其格式為：伺服器名稱\執行個體名稱,連接埠。<br /><br /> 只有在執行個體名稱和伺服器名稱不同時，才需要執行個體名稱。 只有在 SQL Server 使用預設值 (1433) 以外的連接埠編號時，才需要連接埠。<br /><br /> 範例:<br /><br /> Server=MyServer<br /><br /> Server=MyServer\MySQLServer,1533<br /><br /> 如果不提供，將會使用在本機電腦上執行的 SQL Server 執行個體的名稱。|  
     |**/ 資料庫**|BizTalk 管理資料庫的名稱。 如果沒有指定，將會使用在 SQL Server 本機執行個體中執行的 BizTalk 管理資料庫。|  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [匯入 BizTalk 應用程式、 繫結和原則](../core/importing-biztalk-applications-bindings-and-policies.md)   
  [ImportBindings 命令](../core/importbindings-command.md)

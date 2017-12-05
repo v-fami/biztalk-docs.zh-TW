@@ -38,11 +38,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b15d21653b9f0d6109487677484506c7a5d6bcc2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bcd1afb4843f68b56228c8e9aaa655d83f70119e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="btahl72x-flat-file-processing"></a>BTAHL72X 一般檔案處理
 中的下列元件[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 處理序 HL7 2.X （HL7 編碼） 訊息：  
@@ -85,7 +85,7 @@ ms.lasthandoff: 09/20/2017
   
 -   區段中有三個字元  
   
--   區段分隔符號是\<CR > 或\<CR >\<LF > （選擇性的最後一個區段）  
+-   區段分隔符號是\<CR\>或\<CR\>\<LF\> （選擇性的最後一個區段）  
   
 -   欄位分隔符號是適當  
   
@@ -159,11 +159,11 @@ ms.lasthandoff: 09/20/2017
   
 ## <a name="in-this-section"></a>本節內容  
   
--   [HL7 2.X 解譯器中的結構描述判斷](../../adapters-and-accelerators/accelerator-hl7/schema-determination-in-the-hl7-2-x-disassembler.md)  
+-   [HL7 2.X 反組譯工具中的結構描述判斷](../../adapters-and-accelerators/accelerator-hl7/schema-determination-in-the-hl7-2-x-disassembler.md)  
   
--   [HL7 2.X 組合器中的結構描述判斷](../../adapters-and-accelerators/accelerator-hl7/schema-determination-in-the-hl7-2-x-assembler.md)  
+-   [HL7 2.X 組譯工具中的結構描述判斷](../../adapters-and-accelerators/accelerator-hl7/schema-determination-in-the-hl7-2-x-assembler.md)  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [訊息處理](../../adapters-and-accelerators/accelerator-hl7/message-processing.md)   
  [處理 HL7 訊息](../../adapters-and-accelerators/accelerator-hl7/processing-hl7-messages.md)   
  [使用 HL7 2.X 結構描述](../../adapters-and-accelerators/accelerator-hl7/using-hl7-2-x-schemas.md)

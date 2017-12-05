@@ -17,11 +17,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 93f739620b16514df26c836d645af41b8be0e8eb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a2dce9a66465285dc16f8de804c7a6e99fa7e62a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-use-the-biztalk-wcf-service-publishing-wizard-to-publish-service-metadata-for-a-wcf-receive-location-bound-to-an-orchestration-port"></a>如何使用 BizTalk WCF 服務發佈精靈來發佈繫結至協調流程連接埠之 WCF 接收位置的服務中繼資料
 您可以使用 BizTalk WCF 服務發佈精靈來建立 WCF 服務，以便發佈繫結至協調流程連接埠之現有 WCF 接收位置的服務中繼資料。  
@@ -72,7 +72,7 @@ ms.lasthandoff: 09/20/2017
   
      ![WCF 服務屬性頁面](../core/media/07518c78-bcae-4274-bb14-aeef107ee4c6.gif "07518c78-bcae-4274-bb14-aeef107ee4c6")  
   
-9. 在**WCF 服務位置**頁面上，於**位置**文字方塊中，輸入產生 WCF 服務位置的 Web 目錄名稱。 您可以接受預設位置 (http://localhost/\<*BizTalk 組件名稱*>)，輸入中的 WCF 服務的位置**位置**文字方塊中或按一下**瀏覽** ，並選取 Web 目錄。 接著，選取下列任何一個選項：  
+9. 在**WCF 服務位置**頁面上，於**位置**文字方塊中，輸入產生 WCF 服務位置的 Web 目錄名稱。 您可以接受預設位置 (http://localhost/ <*BizTalk 組件名稱*>)，輸入中的 WCF 服務的位置**位置**文字方塊中或按一下**瀏覽**，並選取 Web 目錄。 接著，選取下列任何一個選項：  
   
     -   **覆寫現有的專案。** 此選項只有在 Web 目錄已存在時才能使用。 只有當您選取了這個選項時，才能夠發佈至相同的位置。 否則，您必須輸入不同的專案位置。  
   
@@ -83,10 +83,10 @@ ms.lasthandoff: 09/20/2017
      ![WCF 服務位置頁面](../core/media/76285470-1520-4d77-a5b6-c58cbe8fc575.gif "76285470-1520-4d77-a5b6-c58cbe8fc575")  
   
     > [!NOTE]
-    >  專案位置可以存在不同的伺服器上。 若要將 WCF 服務發佈到另一部伺服器中，輸入專案名稱做為 http://\<*servername*>/\<*WCF 服務位置*>。  
+    >  專案位置可以存在不同的伺服器上。 若要將 WCF 服務發佈到另一部伺服器中，輸入專案名稱做為 http://&lt*servername*>/<*WCF 服務位置*>。  
   
     > [!NOTE]
-    >  專案位置可以存在非預設的網站上。 發佈至非預設的網站時，請在 URL 中加入網站的連接埠編號。 例如 http://\<*servername*>: 8080 /\<*WCF 服務位置*>。  
+    >  專案位置可以存在非預設的網站上。 發佈至非預設的網站時，請在 URL 中加入網站的連接埠編號。 例如，http://&lt*servername*>: 8080 / <*WCF 服務位置*>。  
   
     > [!NOTE]
     >  精靈會建立 Web 應用程式的 App_DataTemp 資料夾中的 BindingInfo.xml 檔案會使用預設值的管線。 接收管線的預設值是**Microsoft.BizTalk.DefaultPipelines.XMLReceive**管線，而預設值的傳送管線是**Microsoft.BizTalk.DefaultPipelines.PassThruTransmit**管線。  
@@ -106,7 +106,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  開啟命令提示字元，請移至 BizTalk WCF 服務發佈精靈建立 WCF 服務中 %SystemDrive%\InetPub 資料夾\\，然後開啟 Web.config 檔案，使用 記事本。  
   
-3.  在記事本中，加入下列一行 **\<system.web >**項目：  
+3.  在記事本中，加入下列一行 **\<system.web\>** 項目：  
   
     ```  
     <trust level="Full" originUrl="" />  
@@ -127,12 +127,12 @@ ms.lasthandoff: 09/20/2017
   
     1.  在 記事本 開啟 BizTalk WCF 服務發佈精靈建立 WCF 服務中 %SystemDrive%\InetPub 資料夾中的 Web.config\\。  
   
-    2.  在 [記事本]，設定**httpGetEnabled**屬性 **\<serviceMetadata >**為 false，如下列一行所示的項目：  
+    2.  在 [記事本]，設定**httpGetEnabled**屬性 **\<serviceMetadata\>** 為 false，如下列一行所示的項目：  
   
         ```  
         <serviceMetadata httpGetEnabled="false" httpsGetEnabled="false" />  
         ```  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [如何使用 BizTalk WCF 服務發佈精靈來發佈 WCF 接收位置的內容為基礎的路由服務中繼資料](../core/publish-service-metadata-for-a-wcf-receive-location-for-content-based-routing.md)   
- [逐步解說： 使用發佈 WCF 服務 Wcf-netmsmq 配接器](../core/walkthrough-publishing-wcf-services-with-the-wcf-netmsmq-adapter.md)
+ [逐步解說：使用 WCF-NetMsmq 配接器發佈 WCF 服務](../core/walkthrough-publishing-wcf-services-with-the-wcf-netmsmq-adapter.md)

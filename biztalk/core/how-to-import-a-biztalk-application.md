@@ -20,11 +20,11 @@ caps.latest.revision: "70"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e640a11c709b25336b2a1625c42ce40b49926982
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 65a2e29be82cb55b0c8509eb3adb346f48d5b794
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-import-a-biztalk-application"></a>如何匯入 BizTalk 應用程式
 本主題描述如何使用[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台或命令列匯入 BizTalk 應用程式的 BizTalk 群組。 匯入 BizTalk 應用程式會在 BizTalk 管理資料庫中註冊成品，並將成品的資料寫入適當的 BizTalk 資料庫。 如需詳細資訊，請參閱[什麼發生時匯入成品](../core/what-happens-when-artifacts-are-imported.md)。 匯入應用程式並不會安裝該應用程式， 您必須先安裝包含檔案架構成品的應用程式，才可以執行該應用程式。  
@@ -41,7 +41,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="considerations-for-importing-applications"></a>匯入應用程式的考量  
  匯入應用程式時，適用下列考量：  
   
--   **匯入應用程式從舊版的 BizTalk Server**。 如果您要從 BizTalk Server 2006 R2 或 BizTalk Server 2009 匯入應用程式，而且應用程式包含 EDI/AS2 合作對象資料，應用程式匯入可能會失敗，因為交易夥伴管理模型已在 [!INCLUDE[prague](../includes/prague-md.md)] 中顯著變更。 您必須改用「合作對象移轉工具」，從舊版 BizTalk Server 移轉合作對象資料。 如需此工具的詳細資訊，請參閱[移轉 EDI 成品從 BizTalk Server 先前版本](http://msdn.microsoft.com/library/b956a97e-03d0-47ea-a2ce-c07a339c0f2c)。  
+-   **匯入應用程式從舊版的 BizTalk Server**。 如果您從 BizTalk Server 2006 R2 或 BizTalk Server 2009 中，匯入應用程式的應用程式包含 EDI/AS2 合作對象資料，應用程式匯入可能會失敗，因為交易夥伴管理模型已大幅變更，BizTalk Server 中。 您必須改用「合作對象移轉工具」，從舊版 BizTalk Server 移轉合作對象資料。 如需此工具的詳細資訊，請參閱[移轉 EDI 成品從 BizTalk Server 先前版本](http://msdn.microsoft.com/library/b956a97e-03d0-47ea-a2ce-c07a339c0f2c)。  
   
 -   **匯入繫結永遠會覆寫現有的繫結。** 在現有應用程式中匯入包含繫結的 .msi 檔案時，現有繫結會遭到具有相同名稱的匯入繫結所覆寫。 即使您沒有在匯入 .msi 檔案時選取覆寫現有成品選項也會如此。 如果不想用匯入的應用程式繫結來覆寫要匯入 .msi 檔案的應用程式的現有繫結，則應該在匯出作業期間選擇不要將繫結檔案做為匯出資源。 如需詳細資訊，請參閱[如何匯出 BizTalk 應用程式](../core/how-to-export-a-biztalk-application.md)。  
   
@@ -94,7 +94,7 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  如果沒有選取此選項，而包含成品的 .msi 檔案已經在應用程式中，則匯入作業即失敗並會進行回復。 BizTalk 應用程式或群組中的某些類型成品必須是唯一的。 如果新增的成品已經在 BizTalk 群組中，卻不在目前應用程式中，即使您指定了覆寫選項，匯入作業將會失敗。 如需有關哪些成品必須是唯一而且必須以何種方式就是唯一的詳細資訊，請參閱[成品，必須是唯一的應用程式或群組](../core/artifacts-that-must-be-unique-in-an-application-or-group.md)。  
   
-7.  在 [應用程式目標環境設定] 頁面中**目標執行環境**下拉式清單中，選取之目標環境的這個應用程式，然後按一下**下一步**。 此清單包含針對新增至此應用程式的任何繫結檔案所指定的所有環境。 選取\<預設 > 如果您想要套用在應用程式中已指定目標環境以外的所有繫結。 如果.msi 檔案不包含您想要明確套用的繫結檔案，您可以將\<預設 > 選取。  
+7.  在 [應用程式目標環境設定] 頁面中**目標執行環境**下拉式清單中，選取之目標環境的這個應用程式，然後按一下**下一步**。 此清單包含針對新增至此應用程式的任何繫結檔案所指定的所有環境。 選取\<預設\>如果您想要套用在應用程式中已指定目標環境以外的所有繫結。 如果.msi 檔案不包含您想要明確套用的繫結檔案，您可以將\<預設\>選取。  
   
     > [!NOTE]
     >  當您將繫結檔案新增至應用程式時，可以指定繫結的目標環境。 如需背景資訊，請參閱[繫結檔案和應用程式部署](../core/binding-files-and-application-deployment.md)。 如需新增繫結檔案的指示，請參閱[如何將繫結檔案新增至應用程式](../core/how-to-add-a-binding-file-to-an-application2.md)。  
@@ -132,6 +132,6 @@ ms.lasthandoff: 09/20/2017
     |**/ 伺服器**|裝載 BizTalk 管理資料庫之 SQL Server 執行個體的名稱，其格式為：伺服器名稱\執行個體名稱,連接埠。<br /><br /> 只有在執行個體名稱和伺服器名稱不同時，才需要執行個體名稱。 只有在 SQL Server 使用預設值 (1433) 以外的連接埠編號時，才需要連接埠。<br /><br /> 範例:<br /><br /> Server=MyServer<br /><br /> Server=MyServer\MySQLServer,1533<br /><br /> 如果不提供，將會使用在本機電腦上執行的 SQL Server 執行個體的名稱。|  
     |**/ 資料庫**|BizTalk 管理資料庫的名稱。 如果沒有指定，將會使用在 SQL Server 本機執行個體中執行的 BizTalk 管理資料庫。|  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [匯入 BizTalk 應用程式、 繫結和原則](../core/importing-biztalk-applications-bindings-and-policies.md)   
  [ImportApp 命令](../core/importapp-command.md)

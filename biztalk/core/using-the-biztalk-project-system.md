@@ -17,16 +17,16 @@ caps.latest.revision: "23"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e55e1280f4054c431f53aa21fa16123f11509f7b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c5b8c3a83d75219b9e52fd2ab13124480d772832
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="using-the-biztalk-project-system"></a>使用 BizTalk 專案系統
 您可以使用 BizTalk 專案系統，在 Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 環境下建立、組織和設定 BizTalk 方案。 本節中的主題與程序描述如何透過使用 BizTalk 專案系統執行許多工作。  
   
- [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 專案系統使用的專案管理原則和程序與您在 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 中的其他 Microsoft Build Engine (MSBuild) 專案所使用的相同。 本節詳細描述在建立可於 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 上執行的應用程式時，可能會使用的通用程序。  
+ BizTalk Server 專案系統會使用相同的專案管理原則和程序使用中的其他 Microsoft Build Engine (MSBuild) 專案[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]。 本節詳細描述在建立可於 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 上執行的應用程式時，可能會使用的通用程序。  
   
  如需 MSBuild 的詳細資訊，請參閱中的 MSBuild 參考章節[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]結合處[http://go.microsoft.com/fwlink/?LinkId=193567](http://go.microsoft.com/fwlink/?LinkId=193567)。  
   
@@ -125,7 +125,7 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  若要建立管線，您必須開啟一個專案。 如需如何建立專案的資訊，請參閱[如何建立 BizTalk 專案](../core/how-to-create-biztalk-projects.md)。 將項目加入至專案的相關資訊，請參閱[加入專案項目](../core/adding-project-items.md)。 另請參閱[使用協調流程設計師](../core/working-in-orchestration-designer.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [建立協調流程使用協調流程設計師](../core/creating-orchestrations-using-orchestration-designer.md)   
  [使用管線設計師](../core/using-pipeline-designer.md)   
  [商務規則編輯器的視窗](../core/windows-of-the-business-rule-composer.md)   

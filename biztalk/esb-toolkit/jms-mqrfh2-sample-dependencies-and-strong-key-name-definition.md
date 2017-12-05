@@ -12,16 +12,16 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8f71915866e807bea8cbd9fdcbf0b1b7ac38a505
-ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
+ms.openlocfilehash: 9f3e2f76a972f851322f82f2e89b285db907d799
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="jms-mqrfh2-sample-dependencies-and-strong-key-name-definition"></a>JMS MQRFH2 範例相依性和強式金鑰名稱定義
 ESB Visual Studio 專案。JMS。PipelineComponents 取決於下列資料夾：  
   
--   \<BizTalk Server 安裝目錄 >。 這個資料夾可提供下列命名空間的存取：  
+-   \<BizTalk Server 安裝目錄\>。 這個資料夾可提供下列命名空間的存取：  
   
     -   **Microsoft::BizTalk::Message::Interop**  
   

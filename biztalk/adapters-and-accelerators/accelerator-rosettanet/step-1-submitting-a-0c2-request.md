@@ -13,11 +13,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 089ad320f9363e1a3284af863512c89bcb67167d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f05aa5200bd1df6207a962849cd776a03fe71805
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-1-submitting-a-0c2-request"></a>步驟 1： 提交 0 C 2 要求
 在此步驟中，您將使用「0C2 - 非同步測試要求夥伴介面程序 (PIP)」來準備並提交要求。 此 PIP 可以確保兩個不同組織之間的非同步通訊管道正常運作。 此 PIP 遵循與其他非同步雙向動作 PIP (例如「3A4 - 訂單要求 PIP」) 相同的模式。  
@@ -37,7 +37,7 @@ ms.lasthandoff: 09/20/2017
     |**Pip 執行個體識別碼**|型別**0C2_Test**。 **重要事項：**您必須確定**PIP**都是唯一的每個您送出以避免發生重複訊息識別碼錯誤的訊息。 如果將來要執行 0C2 測試，您必須變更此欄位。|  
     |**訊息類別**|型別**動作**。|  
   
-3.  使用 [記事本] 或其他文字編輯器，開啟中的 0C2_Request.xml 檔案\<*磁碟機*>: \Program Files\Microsoft BizTalk\<版本 > Accelerator for RosettaNet\SDK\LOBApplication\SampleInstances 資料夾，然後複製並貼上內容**服務內容**lobwebapplication 的欄位。  
+3.  使用 [記事本] 或其他文字編輯器，開啟中的 0C2_Request.xml 檔案\<*磁碟機*\>: \Program Files\Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK\LOBApplication\SampleInstances 資料夾，然後複製並貼上內容**服務內容**lobwebapplication 的欄位。  
   
     > [!NOTE]
     >  若要刪除現有的文字服務內容提交訊息] 表單的欄位中，將游標放在開頭文字，按下並按住**Shift**和**Ctrl**按鈕、 按一下**結束**，然後按一下 [**刪除**。  
@@ -62,7 +62,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  在 Microsoft SQL Server Management Studio 中，按一下 **新查詢**。  
   
-4.  在\<資料表 > 文字對話方塊方塊中，選取**BTARNDATA**從清單中，然後按一下**確定**。  
+4.  在\<資料表\>文字對話方塊方塊中，選取**BTARNDATA**從清單中，然後按一下**確定**。  
   
 5.  在 SQL 視窗中輸入下列 SQL 陳述式：  
   
@@ -90,6 +90,6 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  您應該會看到類別 25 的訊息，代表從 Contoso 傳送到 Fabrikam 電腦的接收通知。 您應該也會看到類別 50 的訊息，代表從 Contoso 商務營運系統 (LOB) 應用程式傳送到 Fabrikam 電腦的回應。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [步驟 2： 提交 0 C 4 查詢](../../adapters-and-accelerators/accelerator-rosettanet/step-2-submitting-a-0c4-query.md)   
  [BTARN 中的訊息流程](../../adapters-and-accelerators/accelerator-rosettanet/message-flow-in-btarn.md)

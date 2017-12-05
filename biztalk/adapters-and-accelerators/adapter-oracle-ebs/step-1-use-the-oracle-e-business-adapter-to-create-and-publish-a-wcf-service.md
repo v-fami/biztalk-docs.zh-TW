@@ -12,11 +12,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2c03f11ad2849b3d46e9e489a1657aa043fb0e61
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9ac179adbc2e49b767ecae2a68676c5692dcd385
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-1-use-the-oracle-e-business-adapter-to-create-and-publish-a-wcf-service"></a>步驟 1： 使用 Oracle E-business 配接器來建立和發佈的 WCF 服務
 ![步驟 4 之 1](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-1of4.gif "Step_1of4")  
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/20/2017
   
 -   [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]從[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]。  
   
- 如需有關這些必要條件的詳細資訊，請參閱[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]安裝指南。 在一般安裝安裝指南 》\<安裝磁碟機 >: \Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Documents。  
+ 如需有關這些必要條件的詳細資訊，請參閱[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]安裝指南。 在一般安裝安裝指南 》\<安裝磁碟機\>: \Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Documents。  
   
 > [!NOTE]
 >  您也必須執行 create_apps_artifacts.sql 指令碼來建立 Microsoft Office SharePoint Server 範例隨附**MS_SAMPLE_EMPLOYEE**介面中的資料表**應用程式物件程式庫**應用程式。 此介面資料表會用於本教學課程。  
@@ -186,7 +186,7 @@ SelectResponse InterfaceTables_FND_APPS_MS_SAMPLE_EMPLOYEE.Select(SelectRequest 
     ```  
   
     > [!NOTE]
-    >  您必須發佈 WCF 服務 SSL 已啟用的位置。 換句話說中的值**目標位置**方塊必須以"https://"開頭。 因為使用者認證會在 HTTP 標頭中傳遞，精靈會自動設定配接器的繫結行為，若要使用 「 傳輸 」 做為安全性模式，表示 SSL 加密。 您當然可以返回，並編輯 web.config 檔案，以變更的值**\<安全性模式 >**參數，但使用 SSL 時，一定會更好的選項有傳輸中以純文字的敏感資訊HTTP 標頭。  
+    >  您必須發佈 WCF 服務 SSL 已啟用的位置。 換句話說中的值**目標位置**方塊必須以"https://"開頭。 因為使用者認證會在 HTTP 標頭中傳遞，精靈會自動設定配接器的繫結行為，若要使用 「 傳輸 」 做為安全性模式，表示 SSL 加密。 您當然可以返回，並編輯 web.config 檔案，以變更的值**\<安全性模式\>**參數，但使用 SSL 時，一定會更好的選項有純傳輸機密資訊HTTP 標頭中的文字。  
   
 3.  從**複製**方塊中，按一下**所有專案檔**。  
   
@@ -196,7 +196,7 @@ SelectResponse InterfaceTables_FND_APPS_MS_SAMPLE_EMPLOYEE.Select(SelectRequest 
   
     1.  啟動 IIS Microsoft Management Console。 按一下**啟動**，指向 **系統管理工具**，然後按一下 **網際網路資訊服務 (IIS) 管理員**。  
   
-    2.  瀏覽至您用來發行服務的節點。 如**MS_SAMPLE_EMPLOYEE**服務，請瀏覽至**Internet Information Services** > **\<電腦名稱 >**  > **Web Sites** > **Default Web Site** > **MS_SAMPLE_EMPLOYEE**。  
+    2.  瀏覽至您用來發行服務的節點。 如**MS_SAMPLE_EMPLOYEE**服務，請瀏覽至**Internet Information Services** > **\<電腦名稱\>**  > **Web Sites** > **Default Web Site** > **MS_SAMPLE_EMPLOYEE**。  
   
     3.  在右窗格中，InterfaceTables_FND_APPS_MS_SAMPLE_EMPLOYEE.svc 檔案，以滑鼠右鍵按一下，然後按一下 **瀏覽**。  
   
@@ -210,5 +210,5 @@ SelectResponse InterfaceTables_FND_APPS_MS_SAMPLE_EMPLOYEE.Select(SelectRequest 
 ## <a name="next-step"></a>下一個步驟  
  若要建立 Oracle E-business Suite 成品的應用程式定義檔，請使用商務資料目錄定義編輯器。 如需指示，請參閱[步驟 2： 建立應用程式定義檔的 Oracle E-business Suite 成品](../../adapters-and-accelerators/adapter-oracle-ebs/step-2-create-an-application-definition-file-for-the-oracle-ebs-artifacts.md)。 應用程式定義檔識別 LOB 資料的儲存位置，以及儲存它的格式。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [教學課程： 從 SharePoint 網站上的 Oracle E-business Suite 中呈現的資料](Tutorial:%20Present%20data%20from%20Oracle%20E-Business%20Suite%20on%20a%20SharePoint%20Site.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "22"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 73bd5013cd2a09d240fa58b7cf5283c8d1903c69
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 20693f00d536414b44a7577277cf9acd3e5af530
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-configure-the-bam-portal-to-work-on-an-nlb-cluster"></a>如何設定 BAM 入口網站在 NLB 叢集上執行
 BAM 入口網站可設定為在網路負載平衡 (NLB) 叢集中使用。  
@@ -145,7 +145,7 @@ BAM 入口網站可設定為在網路負載平衡 (NLB) 叢集中使用。
     > [!NOTE]
     >  此命令的目的是要授與 BAM 應用程式集區使用者讀取 SOFTWAREMicrosoftBizTalk Server3.0BAMWebServicesidentity 登錄機碼。 此範例使用網路服務，因為這是 IIS 使用的應用程式集區預設值。 如果您未使用預設的 IIS 設定，則應該取代部署使用的應用程式集區使用者。  
   
-16. 在命令提示字元輸入下列命令： subinacl.exe /keyreg"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\BizTalk server\3.0""/ 授與 =\<BAM web 服務帳戶 > 」  
+16. 在命令提示字元輸入下列命令： subinacl.exe /keyreg"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\BizTalk server\3.0""/ 授與 =\<BAM web 服務帳戶\>"  
   
     > [!NOTE]
     >  這個命令的目的，是要授與 BAM 管理 Web 服務使用者帳戶讀取 SOFTWARE\Microsoft\BizTalk Server\3.0\BAM\WebServices\Identity 登錄機碼的權限。  
@@ -154,10 +154,10 @@ BAM 入口網站可設定為在網路負載平衡 (NLB) 叢集中使用。
   
 18. 請使用電腦管理系統管理員工具，將 BAM 管理 Web 服務使用者及 BAM 應用程式集區使用者帳戶新增至 IIS 工作者處理序群組 (IIS_WPG) 及 SharePoint 服務群組 (STS_WPG)。  
   
-19. 設定應用程式集區和 Web 服務使用者的暫存 ASP.NET 資料夾的權限： c:\windows\system32\cacls"%windir%\Microsoft.NET\Framework\ v2.0。\<最小版本號碼 > \Temporary ASP.NET Files"/T /E /G \<BAM web 服務帳戶 >: F  
+19. 設定應用程式集區和 Web 服務使用者的暫存 ASP.NET 資料夾的權限： c:\windows\system32\cacls"%windir%\Microsoft.NET\Framework\ v2.0。\<最小版本號碼\>\Temporary ASP.NET Files"/T /E /G \<BAM web 服務帳戶\>: F  
   
     > [!NOTE]
     >  您會同時授與 BAM 管理 Web 服務使用者帳戶及 BAM 應用程式集區使用者帳戶的存取權。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理 BAM 入口網站](../core/managing-the-bam-portal.md)

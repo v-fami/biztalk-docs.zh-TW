@@ -12,11 +12,11 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 77ac34fb06497f72b778592b3ce4c927b0ca3a07
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 51cd634d7933f7e25de2e742711b1593bf6b6dc1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="receive-polling-messages-using-select-statements-with-for-xml-clause-from-sql-using-biztalk-server"></a>接收輪詢訊息使用 FOR XML 子句中使用 BizTalk Server 的 SQL SELECT 陳述式
 您可以設定[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]接收使用 SELECT 陳述式或包含 FOR XML 子句的預存程序的 SQL Server 資料表或檢視表的週期性的資料變更訊息。 您可以指定這些陳述式與執行以輪詢資料庫配接器的輪詢陳述式。 輪詢陳述式可以是 SELECT 陳述式或預存程序會傳回結果集。  
@@ -86,7 +86,7 @@ SELECT Employee_ID ,Name ,Designation FROM Employee for xml auto, xmlschema
   
          因為您已加入至您的 BizTalk 專案 sqltypes.xsd 結構描述，您可以這麼做。  
   
-    4.  提供結構描述目標命名空間。 按一下**\<結構描述 >**  節點，並在 屬性 窗格中，指定的命名空間中**目標命名空間**屬性。 本主題中，為提供的命名空間為`http://ForXmlPolling/namespace`。  
+    4.  提供結構描述目標命名空間。 按一下**\<結構描述\>**  節點，並在 屬性 窗格中，指定的命名空間中**目標命名空間**屬性。 本主題中，為提供的命名空間為`http://ForXmlPolling/namespace`。  
   
 ## <a name="defining-messages-and-message-types"></a>定義訊息和訊息類型  
  您先前產生的結構描述會描述 「 類型 」 所需的協調流程中的訊息。 訊息通常是為其型別由對應的結構描述所定義的變數。 一旦產生結構描述時，您必須訊息連結之協調流程檢視中的 BizTalk 專案。  
@@ -204,7 +204,7 @@ SELECT Employee_ID ,Name ,Designation FROM Employee for xml auto, xmlschema
 -   配接器執行輪詢陳述式，並收到來自 SQL Server 資料庫輪詢訊息。 輪詢陳述式包含 FOR XML 子句的 SELECT 陳述式，因為接收配接器的輪詢訊息如下所示：  
   
     ```  
-    \<?xml version="1.0" encoding="utf-8" ?>   
+    <?xml version="1.0" encoding="utf-8" ?>   
     <Root xmlns="http://ForXmlPolling/namespace">  
       <Employee Employee_ID="10765" Name="John" Designation="Tester" xmlns="" />   
       <Employee Employee_ID="10766" Name="Sam" Designation="Manager" xmlns="" />   
@@ -221,5 +221,5 @@ SELECT Employee_ID ,Name ,Designation FROM Employee for xml auto, xmlschema
 ## <a name="best-practices"></a>最佳作法  
  您部署和設定 BizTalk 專案之後，您可以為 XML 檔案，稱為繫結檔案匯出組態設定。 一旦產生繫結檔案時，可以組態設定匯入檔案，使您不需要建立傳送埠和接收相同的協調流程連接埠。 如需繫結檔案的詳細資訊，請參閱[重複使用配接器繫結](../../adapters-and-accelerators/adapter-sql/reuse-sql-adapter-bindings.md)。
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [輪詢 SQL Server 與 BizTalk Server 使用 SQL 配接器](../../adapters-and-accelerators/adapter-sql/poll-sql-server-using-the-sql-adapter-with-biztalk-server.md)

@@ -12,14 +12,14 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f500deb38df3f8145a2cba582164f14c87ac33d6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 29636a63f7847017b233275ee3dd7c2c389c43be
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="high-availability-for-biztalk-hosts"></a>BizTalk 主控件的高可用性
-[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]提供更多的彈性來處理高可用性，因為您可以策略性地指定邏輯主控件執行特定的功能，例如接收和傳送訊息或處理協調流程可以實際部署至區域多部伺服器。  
+BizTalk Server 提供更多的彈性來處理高可用性，因為您可以策略性地指定邏輯主控件執行的功能，例如接收和傳送訊息或處理協調流程，可以放在特定區域部署到多部伺服器。  
   
  BizTalk 主控件是中的邏輯容器[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]可包含的群組[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]項目，例如配接器傳送處理常式 （包括管線），接收位置，以及協調流程。 您通常會將具有相似擴充屬性的項目群組成特定的主控件。  
   
@@ -44,7 +44,7 @@ ms.lasthandoff: 09/20/2017
 |內含式|-協調流程<br />配接器傳送處理常式<br />為內含式配接器接收處理常式|  
 |外掛式|HTTP、 SOAP 接收處理常式<br />-任何其他外掛式配接器接收處理常式|  
   
- 如需管理 BizTalk 主控件和主控件執行個體的詳細資訊，請參閱[管理 BizTalk 主控件和主控件執行個體](http://go.microsoft.com/fwlink/?LinkID=154191)(http://go.microsoft.com/fwlink/?LinkID=154191) 中[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]幫助。  
+ 如需管理 BizTalk 主控件和主控件執行個體的詳細資訊，請參閱[管理 BizTalk 主控件和主控件執行個體](http://go.microsoft.com/fwlink/?LinkID=154191)(http://go.microsoft.com/fwlink/?LinkID=154191) 在 BizTalk Server 說明中。  
   
  若要為 BizTalk 主控件提供高可用性，您必須的兩個或多個主控件執行個體 （在兩個或多部電腦） 上的每一部主機環境中。 有一個以上的主控件執行個體的確認，一個主控件執行個體變成無法使用，如果主控件執行個體正在執行相同的主控件執行個體的其他電腦上每個主機可以繼續有問題或失敗的主控件執行個體中，函式和整體系統可以繼續執行的干擾。  
   
@@ -63,11 +63,11 @@ ms.lasthandoff: 09/20/2017
   
 -   [叢集接收主控件](../technical-guides/clustering-receiving-hosts.md)  
   
--   [向外延展處理主控件](../technical-guides/scaling-out-processing-hosts.md)  
+-   [向外擴充處理主控件](../technical-guides/scaling-out-processing-hosts.md)  
   
--   [向外延展傳送主控件](../technical-guides/scaling-out-sending-hosts.md)  
+-   [向外擴充傳送主控件](../technical-guides/scaling-out-sending-hosts.md)  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [設定主控件和主控件執行個體](../technical-guides/configuring-hosts-and-host-instances.md)   
  [專用的追蹤主控件設定](../technical-guides/configuring-a-dedicated-tracking-host.md)   
  [規劃高 Availability2](../technical-guides/planning-for-high-availability2.md)   

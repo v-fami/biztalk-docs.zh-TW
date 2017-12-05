@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3d21b558f75824340718f7bd6efa3f10ae9926ae
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 27d2e0ed3c8298287471b60d87b199fcfc800e61
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="performing-bottleneck-testing-and-tuning"></a>執行測試與微調瓶頸
 您應該完成效能測試以判斷系統瓶頸，並據以調整系統。  
@@ -33,7 +33,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="testing-the-end-to-end-system"></a>測試端對端系統  
  在前面章節中所述的輸入和輸出速率測試是有效的方式來隔離應用程式子系統的效能，雖然它不會描述端對端的效能。 您也應該測試端對端效能，因為無法指出有些瓶頸，直到開始爭用相同的共用資源 （例如，MessageBox 資料庫） 的多個資源。  
   
- 若要產生負載[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境中，請考慮使用 Microsoft BizTalk LoadGen 2007 工具。 如需 LoadGen 2007 工具的詳細資訊，請參閱[Microsoft BizTalk LoadGen 2007](http://go.microsoft.com/fwlink/?LinkID=59841) (http://go.microsoft.com/fwlink/?LinkID=59841)。  
+ 若要產生負載[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境中，請考慮使用 Microsoft BizTalk LoadGen 2007 工具。 下載[LoadGen](https://www.microsoft.com/download/details.aspx?id=14925)。  
   
  產生及分析的效能報告[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境中，請考慮使用效能分析的記錄檔 (PAL) 工具。 如需 PAL 工具的詳細資訊，請參閱[使用效能分析的記錄檔 (PAL) 工具](../technical-guides/using-the-performance-analysis-of-logs-pal-tool.md)。  
   

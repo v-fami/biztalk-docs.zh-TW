@@ -13,11 +13,11 @@ caps.latest.revision: "16"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5e49014ac4c15f1fd303b2646c74f11b5242aed3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b7c1406367f047794c6d8931352104bb59e6ca5b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="walkthrough-flat-file-disassembly-using-a-header-and-trailer"></a>逐步解說：使用標頭和結尾進行一般檔案解譯
 
@@ -128,7 +128,7 @@ ms.lasthandoff: 09/20/2017
   
      當您滿意，請按一下**完成**以完成精靈。  
   
-10. 按一下**\<結構描述 >**標頭結構描述 窗格中的節點。 在 [屬性] 窗格中，變更**Element FormDefault**至**Qualified**。 這表示區域宣告項目必須由執行個體文件中的目標命名空間限定。  
+10. 按一下**\<結構描述\>**標頭結構描述 窗格中的節點。 在 [屬性] 窗格中，變更**Element FormDefault**至**Qualified**。 這表示區域宣告項目必須由執行個體文件中的目標命名空間限定。  
   
 ##### <a name="use-the-flat-file-schema-wizard-to-create-the-trailer-schema"></a>使用一般檔案結構描述精靈建立結尾結構描述  
   
@@ -165,7 +165,7 @@ ms.lasthandoff: 09/20/2017
   
      當您滿意，請按一下**完成**以完成精靈。  
   
-10. 按一下**\<結構描述 >**結尾結構描述 窗格中的節點。 在 [屬性] 窗格中，變更**elementFormDefault**至**Qualified**。 這表示區域宣告項目必須由執行個體文件中的目標命名空間限定。  
+10. 按一下**\<結構描述\>**結尾結構描述 窗格中的節點。 在 [屬性] 窗格中，變更**elementFormDefault**至**Qualified**。 這表示區域宣告項目必須由執行個體文件中的目標命名空間限定。  
   
 ##### <a name="use-the-flat-file-schema-wizard-to-create-the-body-schema"></a>使用一般檔案結構描述精靈建立內文結構描述  
   
@@ -216,9 +216,9 @@ ms.lasthandoff: 09/20/2017
   
      如果您進行了任何錯誤，請按一下**回**並進行必要的修正。 當您滿意，請按一下**完成**以完成精靈。  
   
-15. 按一下**\<結構描述 >** Body 結構描述窗格中的節點。 在 [屬性] 窗格中，變更**Element FormDefault**至**Qualified**。 這表示區域宣告項目必須由執行個體文件中的目標命名空間限定。  
+15. 按一下**\<結構描述\>** Body 結構描述窗格中的節點。 在 [屬性] 窗格中，變更**Element FormDefault**至**Qualified**。 這表示區域宣告項目必須由執行個體文件中的目標命名空間限定。  
   
-16. 按一下**\<錯誤 >** Body 結構描述窗格上的節點。 在 [屬性] 窗格中，變更**Max Occurs**至**1**。 這可讓「一般檔案解譯器」將每項錯誤分割為個別的訊息。  
+16. 按一下**\<錯誤\>** Body 結構描述窗格上的節點。 在 [屬性] 窗格中，變更**Max Occurs**至**1**。 這可讓「一般檔案解譯器」將每項錯誤分割為個別的訊息。  
   
 ##### <a name="test-the-schemas-using-ffdasm"></a>測試使用 FFDasm 的結構描述  
   

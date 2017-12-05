@@ -15,11 +15,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b1a27fa8b09addc7874e6056f0b467c7f874a41e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e77219fb74b7af377953a3761c4d9f241b3a8bd0
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="read-about-data-provider-types-for-the-sap-connection-string"></a>閱讀有關資料提供者型別在 SAP 連接字串
 若要建立 SAP 系統的連接能力，ADO.NET 用戶端必須在連接字串的形式指定 SAP 連接屬性。 在 SAP ADO 連接字串的格式看起來像：  
@@ -52,7 +52,7 @@ ms.lasthandoff: 09/20/2017
 |系統編號 (SYSNR)|只有在次要複本設定成手動容錯移轉模式，而且至少一個次要複本目前與主要複本 SYNCHRONIZED 時，|SAP 系統編號|  
 |應用程式伺服器群組名稱 （群組）|B|SAP 伺服器群組的名稱。 這是選用的應用程式在負載平衡連接的伺服器群組。|  
 |訊息伺服器主機 (MSHOST)|B|SAP 訊息伺服器主機名稱|  
-|訊息伺服器服務 (MSSERV)|B|SAP 訊息伺服器服務中所指定的名稱\<系統磁碟機 >: \WINDOWS\system32\drivers\etc\services 檔案。 如果您未指定值，[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]假設這是 「 sapms\</ 3 系統名稱 >"。 例如，如果 DV1 / 3 系統名稱，此配接器會假設訊息伺服器服務名稱是"sapmsDV1"。<br /><br /> 不過，如果服務檔案中的項目不同，您必須指定該值。|  
+|訊息伺服器服務 (MSSERV)|B|SAP 訊息伺服器服務中所指定的名稱\<系統磁碟機\>: \WINDOWS\system32\drivers\etc\services 檔案。 如果您未指定值，[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]假設這是 「 sapms\</ 3 系統名稱\>"。 例如，如果 DV1 / 3 系統名稱，此配接器會假設訊息伺服器服務名稱是"sapmsDV1"。<br /><br /> 不過，如果服務檔案中的項目不同，您必須指定該值。|  
 |/ 3 系統名稱 (R3NAME)|B|SAP / 3 的名稱。|  
 |目的地 （目的地）|D|從 saprfc.ini 檔案中挑選的連接參數。|  
 |用戶端 （用戶端）|A、 B、 D|SAP 用戶端數目|  
@@ -109,5 +109,5 @@ ASHOST=SAPSERVER; SYSNR=00; CLIENT=800; LANG=EN; USER=YourUserName; PASSWD=",@/:
 > [!IMPORTANT]
 >  您必須指定連接參數只能有一個連線類型 A、 B 或 d。例如，如果您在連接字串中指定的應用程式伺服器主機，您必須指定郵件伺服器主機名稱或 R3NAME。  
   
-## <a name="see-also"></a>另請參閱  
- [使用.NET Framework Data Provider for mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/use-the-net-framework-data-provider-for-mysap-business-suite.md)
+## <a name="see-also"></a>請參閱  
+ [使用 .NET Framework Data Provider for mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/use-the-net-framework-data-provider-for-mysap-business-suite.md)

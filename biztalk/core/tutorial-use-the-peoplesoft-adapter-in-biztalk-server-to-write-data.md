@@ -12,11 +12,11 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f9c4c0714c28f426ccfaa2799bd16463124e6e52
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3b38c1f5a0bd442404e832274d13ace2b0660c2e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="tutorial-using-the-biztalk-adapter-for-peoplesoft-enterprise-to-write-data-to-peoplesoft-enterprise"></a>教學課程： 將資料寫入至 PeopleSoft Enterprise 使用 BizTalk Adapter for PeopleSoft Enterprise
 BizTalk Adapter for PeopleSoft Enterprise 可用來將資料寫入至 PeopleSoft 系統，以接收來自交易夥伴或內部應用程式的資訊。 這個逐步解說將說明此功能的 SDK 範例。  
@@ -143,7 +143,7 @@ BizTalk Adapter for PeopleSoft Enterprise 可用來將資料寫入至 PeopleSoft
   
 1.  按兩下**LOCATIONService_1.xsd**結構描述編輯器中開啟該檔案 [方案總管] 中。  
   
-2.  以滑鼠右鍵按一下**\<結構描述 >**節點在結構描述編輯器 中，按一下**屬性**顯示節點的屬性。  
+2.  以滑鼠右鍵按一下**\<結構描述\>**節點在結構描述編輯器 中，按一下**屬性**顯示節點的屬性。  
   
 3.  選取**CreateEx**從清單中的可用節點**根參考**下拉式方塊。 這應完成，以便在產生範例文件執行個體時將會產生從**CreateEx**結構描述節點。  
   
@@ -160,7 +160,7 @@ BizTalk Adapter for PeopleSoft Enterprise 可用來將資料寫入至 PeopleSoft
   
 8.  以滑鼠右鍵按一下 [方案總管] 中的 LOCATIONService_1.xsd，然後按一下**產生執行個體**產生文件執行個體中指定的位置。  
   
-9. 以滑鼠右鍵按一下**\<結構描述 >**節點在結構描述編輯器 中，按一下**屬性**顯示節點的屬性。  
+9. 以滑鼠右鍵按一下**\<結構描述\>**節點在結構描述編輯器 中，按一下**屬性**顯示節點的屬性。  
   
 10. 選取 (**預設)**從清單中的可用節點**根參考**下拉式方塊。  
   
@@ -248,5 +248,5 @@ BizTalk Adapter for PeopleSoft Enterprise 可用來將資料寫入至 PeopleSoft
   
 6.  BizTalk Adapter for PeopleSoft Enterprise 會叫用 CreateEx 方法，以建立使用 XML 檔案中的資料記錄。  
   
-## <a name="see-also"></a>另請參閱  
- [教學課程： 使用 BizTalk Adapter for PeopleSoft Enterprise](../core/tutorials-using-biztalk-adapter-for-peoplesoft-enterprise.md)
+## <a name="see-also"></a>請參閱  
+ [教學課程：使用 BizTalk Adapter for PeopleSoft Enterprise](../core/tutorials-using-biztalk-adapter-for-peoplesoft-enterprise.md)

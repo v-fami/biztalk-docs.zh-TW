@@ -12,11 +12,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e71525c74da0f7df0769c99d443c16cc672cfbcd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1f54effeeeb83d7a863298dcac4118ab1495ce3c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-1-configure-the-swift-adapter-for-the-interact-store-and-forward-scenario"></a>步驟 1： 設定 SWIFT 配接器互動存放區和轉寄的案例
 在開始此步驟之前，必須先完成[準備使用本教學課程](../../adapters-and-accelerators/fileact-interact/preparing-to-use-the-tutorial1.md)。  
@@ -33,7 +33,7 @@ ms.lasthandoff: 09/20/2017
   
     |**使用此選項**|**若要這樣做**|  
     |------------------|--------------------|  
-    |**引數**|輸入下列引數: – SagMessagePartner\<互動的用戶端訊息夥伴建立 SAG >**附註：**引數中的用戶端是 MessagePartner SAG 中進行設定。|  
+    |**引數**|輸入下列引數: – SagMessagePartner\<互動的用戶端訊息夥伴建立 SAG\> **附註：**引數中的用戶端是 MessagePartner SAG 中進行設定。|  
     |**密碼編譯模式**|從下拉式清單選取**進階**。|  
     |**LogMessageBody**|從下拉式清單選取**FALSE**。 **注意：**如果設為 TRUE 時，它會保留的訊息本文的 「 BizTalk 追蹤資料庫。 不過，基於安全性理由，訊息本文可以永遠不會在檢視 BAM 入口網站。|  
     |**記錄訊息**|從下拉式清單選取**TRUE**。 這可讓要擷取，並在 BAM 入口網站中追蹤的訊息事件。|  
@@ -47,8 +47,8 @@ ms.lasthandoff: 09/20/2017
   
 7.  在訊息方塊中，按一下**確定**，然後重新啟動互動的主控件執行個體。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [儲存和轉送 (Push) 的案例進行互動](../../adapters-and-accelerators/fileact-interact/interact-store-and-forward-push-scenario.md)   
  [步驟 2： 將 SWIFTNet 組態新增至 Paramfile 互動存放區和轉寄的案例](../../adapters-and-accelerators/fileact-interact/step-2-add-swiftnet-configuration-to-paramfile-for-interact-store-and-forward.md)   
  [步驟 3： 建立傳送埠和接收埠以進行互動的存放區和轉寄的案例](../../adapters-and-accelerators/fileact-interact/step-3-create-send-and-receive-ports-for-interact-store-and-forward-scenario.md)   
- [步驟 4： 測試互動存放區和轉寄的端對端案例](../../adapters-and-accelerators/fileact-interact/step-4-test-the-interact-store-and-forward-end-to-end-scenario.md)
+ [步驟 4：測試 InterAct 儲存和轉寄端對端案例](../../adapters-and-accelerators/fileact-interact/step-4-test-the-interact-store-and-forward-end-to-end-scenario.md)

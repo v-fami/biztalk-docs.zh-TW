@@ -12,16 +12,16 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 55d33b164033cdd3b966ed1f0e77dd551cd56076
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 853b77e24359d6a833d526fc07166384ea946887
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="privateinitiator-sample"></a>PrivateInitiator 範例
-PrivateInitiator.odx 範例包含 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] 所安裝之啟動者私用程序的程式碼。 這是會從預設 SQL 配接器架構的傳送埠和接收埠，傳送和接收 RNIF 服務內容訊息的一般私用程序。  
+PrivateInitiator.odx 範例包含啟動者私用程序所安裝的程式碼[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® BizTalk Server。 這是會從預設 SQL 配接器架構的傳送埠和接收埠，傳送和接收 RNIF 服務內容訊息的一般私用程序。  
   
- 根據預設，[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]安裝程式安裝中的範例\<*磁碟機*>: \Program Files\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk\<版本 > Accelerator for RosettaNet\SDK\PrivateInitiator。  
+ 根據預設，[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]安裝程式安裝中的範例\<*磁碟機*\>: \Program Files\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk\<版本\>Accelerator for rosettanet\sdk\privateinitiator。  
   
 ## <a name="sample-contents"></a>範例內容  
  啟動者私用程序屬於啟動者的內部商務程序。 私用程序能讓啟動者公開程序和後端商務營運系統程式進行後端整合。 啟動者私用程序會與公開程序進行通訊，以初始化訊息。  
@@ -30,6 +30,6 @@ PrivateInitiator.odx 範例包含 [!INCLUDE[btsCoName](../../includes/btsconame-
   
  如需詳細資訊，包括訊息流程的描述，請參閱[啟動者私用程序](../../adapters-and-accelerators/accelerator-rosettanet/initiator-private-process.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [協調流程範例](../../adapters-and-accelerators/accelerator-rosettanet/orchestration-samples.md)   
  [私用程序](../../adapters-and-accelerators/accelerator-rosettanet/private-processes.md)

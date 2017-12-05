@@ -13,16 +13,16 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8c78c817470bd8acd41f44204653c41e9012d154
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f662f34a9ac31dd5ce200d776bc8b542008e98e1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="message-schemas-for-query-notification"></a>查詢通知的訊息結構描述
 [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]呈現從 SQL Server 資料庫接收查詢通知的通知作業。  
   
- 設定繫結屬性設定通知作業[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。 如需通知相關的繫結屬性的詳細資訊，請參閱[閱讀 BizTalk Adapter for SQL Server 配接器繫結屬性](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md)。 您設定**NotificationStatement**內容繫結至指定的 SQL 陳述式 (SELECT 或 EXEC\<預存程序 >) 的查詢通知。 此查詢的結果集傳回做為強型別資料通知作業中的程式碼時。  
+ 設定繫結屬性設定通知作業[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。 如需通知相關的繫結屬性的詳細資訊，請參閱[閱讀 BizTalk Adapter for SQL Server 配接器繫結屬性](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md)。 您設定**NotificationStatement**內容繫結至指定的 SQL 陳述式 (SELECT 或 EXEC\<預存程序\>) 的查詢通知。 此查詢的結果集傳回做為強型別資料通知作業中的程式碼時。  
   
 ## <a name="message-structure-for-the-notification-operation"></a>通知作業的訊息結構  
  下表顯示通知作業的 XML 訊息結構。  

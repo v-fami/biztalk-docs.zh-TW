@@ -16,11 +16,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c7b8b636534738dfc7445421ad79fd01e7b120b0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ad7eabf54dc410ebed143641602599438f376a30
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-get-a-list-of-indexes-on-an-aggregation"></a>如何取得彙總的索引清單
 系統管理員使用**get 索引**命令，以取得在指定的活動上的所有索引的清單。  
@@ -31,14 +31,14 @@ ms.lasthandoff: 09/20/2017
   
 2.  瀏覽到 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking。  
   
-3.  型別**bm get 索引的活動：\<活動名稱 >**。  
+3.  型別**bm get 索引的活動：\<活動名稱\>**。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
   
 4.  按 ENTER 鍵。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理 BAM 動態基礎結構](../core/managing-the-bam-dynamic-infrastructure.md)   
  [BAM 管理公用程式](../core/bam-management-utility.md)   
  [如何刪除索引](../core/how-to-delete-an-index.md)   

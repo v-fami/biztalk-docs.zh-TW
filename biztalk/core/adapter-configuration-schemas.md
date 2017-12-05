@@ -12,11 +12,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2afa0e2f06471d90326b0dd8e2b83b8d4c38a82b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 89ca7d02c756fdbdf819e1a15069a95d0784d764
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="adapter-configuration-schemas"></a>配接器組態結構描述
 配接器的設計階段組態中會使用不同類型的結構描述。 依據屬性值的可見性和範圍，將會修改及使用不同的結構描述。  
@@ -35,7 +35,7 @@ ms.lasthandoff: 09/20/2017
  ![](../core/media/ebiz-prog-custad-sh.gif "ebiz_prog_custad_sh")  
 TransmitHandler.xsd 檔案建立的傳送處理常式屬性頁  
   
- 請注意使用\<baf: designer >， \<baf:displayname >，並\<baf: description > 標記，如下所示之 TransmitHandler.xsd 程式碼中的。 這些標記是配接器架構提供的自訂裝飾，可以加快產生這些屬性頁的速度。  
+ 請注意使用\<baf: designer\>， \<baf:displayname\>，和\<baf: description\>如下所示之 TransmitHandler.xsd 程式碼中的標記。 這些標記是配接器架構提供的自訂裝飾，可以加快產生這些屬性頁的速度。  
   
  如需所有可用的配接器架構內使用的裝飾的清單，請參閱[配接器架構組態結構描述裝飾標記](../core/adapter-framework-configuration-schema-decoration-tags.md)。  
   
@@ -106,7 +106,7 @@ number of threads per CPU to execute in the thread pool</baf:description>
  ![](../core/media/ebiz-prog-custad-sp.gif "ebiz_prog_custad_sp")  
 說明範例 FILE 配接器的傳送埠屬性頁  
   
- 請注意下列 TransmitLocation.xsd 檔案中的傳送埠組態包含\<baf: designer >， \<baf:displayname >，並\<baf: description > 標記，方式就如同傳送處理常式，它也會使用\<baf:category > 標記。 類別標記可以讓您將屬性群組在一起。 如果您有多種類別，則類別將可展開及摺疊，而且會顯示成該類別中屬性上方的灰色標頭。 如需詳細資訊，請參閱[配接器架構組態結構描述延伸模組](../core/adapter-framework-configuration-schema-extensions.md)。  
+ 請注意下列 TransmitLocation.xsd 檔案中的傳送埠組態包含\<baf: designer\>， \<baf:displayname\>，和\<baf: description\>一樣標記傳送處理常式，它也會使用\<baf:category\>標記。 類別標記可以讓您將屬性群組在一起。 如果您有多種類別，則類別將可展開及摺疊，而且會顯示成該類別中屬性上方的灰色標頭。 如需詳細資訊，請參閱[配接器架構組態結構描述延伸模組](../core/adapter-framework-configuration-schema-extensions.md)。  
   
  此結構描述也包含 URI 欄位。 在配接器進行驗證處理期間，當您在傳送埠屬性頁中輸入所有欄位資訊之後，將會顯示一個頁面，並在該頁面上填入這個欄位。  
   

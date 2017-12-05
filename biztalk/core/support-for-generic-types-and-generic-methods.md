@@ -12,14 +12,14 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a3601be46358a2f751bc44931043731d4e4b6351
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 65d8a17a9ac1f055312f0f1cdf3bc1231319842d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="support-for-generic-types-and-generic-methods"></a>對泛型型別和泛型方法的支援
-規則引擎支援在規則中使用特製化的泛型型別和泛型方法， 但是不支援在規則中使用泛型型別和泛型方法本身。 例如，商務規則中您可以使用**清單**\<*int*>，但不是**清單**\<T > (從**System.Collections.Generic** .NET 類別庫中的命名空間)。 目前，商務規則編輯器工具並不支援使用特製化泛型型別和泛型方法來建立規則。 您必須使用規則引擎物件模型，以程式設計的方式建立這些規則。 下列程式碼範例示範如何使用**清單**商務規則中的泛型類別：  
+規則引擎支援在規則中使用特製化的泛型型別和泛型方法， 但是不支援在規則中使用泛型型別和泛型方法本身。 例如，商務規則中您可以使用**清單**\<*int*\>，但不是**清單**\<T\> （從**System.Collections.Generic** .NET 類別庫中的命名空間)。 目前，商務規則編輯器工具並不支援使用特製化泛型型別和泛型方法來建立規則。 您必須使用規則引擎物件模型，以程式設計的方式建立這些規則。 下列程式碼範例示範如何使用**清單**商務規則中的泛型類別：  
   
 ```  
   

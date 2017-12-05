@@ -12,16 +12,16 @@ caps.latest.revision: "16"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b2b5a0aadec9461d4ee951aa200246764e52f667
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: dc5360cf5e76bfc6218f0fe54444b1651afdefae
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="working-with-the-configuration-framework"></a>處理組態架構
 「組態架構」可以讓您在安裝過程中快速輕鬆地變更 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 組態。 若搭配使用 Microsoft Windows Installer (MSI)，「組態架構」還可讀取及報告電腦的狀態以及需要採取行動的組態工作。  
   
- 當您第一次使用「組態精靈」設定 BizTalk Server 時，「組態架構」會產生 XML 檔案 (組態快照集)，然後您可以修改 (也就是變更使用者名稱、密碼等等) 並匯出至其他電腦。 您可以將組態快照集儲存在 [組態摘要] 頁面中，這是「組態精靈」的一部分。 您可以使用此快照集來複寫組態做為指令碼安裝的一部分。 這個檔案位於\< *BizTalk 安裝路徑*> \ConfigMain.xml。  
+ 當您第一次使用「組態精靈」設定 BizTalk Server 時，「組態架構」會產生 XML 檔案 (組態快照集)，然後您可以修改 (也就是變更使用者名稱、密碼等等) 並匯出至其他電腦。 您可以將組態快照集儲存在 [組態摘要] 頁面中，這是「組態精靈」的一部分。 您可以使用此快照集來複寫組態做為指令碼安裝的一部分。 這個檔案位於\< *BizTalk 安裝路徑*\>\ConfigMain.xml。  
   
 > [!NOTE]
 >  密碼不是儲存在 XML 檔案。 您必須先輸入密碼，才能使用此檔案。  
@@ -308,5 +308,5 @@ ms.lasthandoff: 09/20/2017
 </Configuration>  
 ```  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [設定 BizTalk Server](../install-and-config-guides/configure-biztalk-server.md)   

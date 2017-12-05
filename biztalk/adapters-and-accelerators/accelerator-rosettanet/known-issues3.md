@@ -13,11 +13,11 @@ ms.tgt_pltfrm:
 ms.topic: article
 ms.assetid: 335eb3c9-b565-470f-b69c-2a771ef8b476
 ms.author: mandia
-ms.openlocfilehash: 59c6aabd6adf584bb27f5487ca31f852a0d11384
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bbb7ddc2028383f8ac346e7876459f322d2dd96b
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="known-issues"></a>已知問題
 本節包含的有用資訊，可幫助您避免 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 的錯誤。 已知的問題可分為以下各類：  
@@ -49,7 +49,7 @@ ms.lasthandoff: 09/20/2017
  [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] 支援將群組加入至「BizTalk 應用程式使用者」群組或「BizTalk Server 系統管理員」群組， 但隸屬於「BizTalk 應用程式使用者」群組或「BizTalk Server 系統管理員」群組的個別使用者帳戶與群組，都必須位於同一個網域中才行。  
   
 ### <a name="uninstallation-of-btarn-fails-if-biztalk-server-is-removed-first"></a>如果 BizTalk Server 會先移除，就會失敗，解除安裝 BTARN  
- 如果您先移除 [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]，然後才移除 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]，則 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 的移除過程就會失敗，而且看不到任何錯誤。 要解決此問題，請重新安裝 [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] 並重新設定，然後再移除 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]。  
+ 如果您移除 BizTalk Server，然後再移除[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]、[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]移除程序失敗，而且未發生錯誤。 若要解決此問題，重新安裝並重新設定 BizTalk Server，然後再移除[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]。  
   
 ### <a name="distributed-deployment-requires-a-domain-controller"></a>分散式部署需要有網域控制站  
  在多伺服器環境中部署 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] (例如將 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 安裝在某一台伺服器上，並將設定組態所需的 [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] 資料庫安裝在另一台伺服器上) 時，就需要有網域控制站。  
@@ -110,7 +110,7 @@ ms.lasthandoff: 09/20/2017
  當您建立程序組態設定檔，然後建立協議時，[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 會執行跨欄位驗證，以確保協議屬性與設定檔相容。 例如，若設定檔的「標準」屬性設為「CIDX」，BTARN 就會檢查協議的「0A1」協議屬性是否設為「No 0A1」。 不過，若您在建立協議之後才變更程序組態設定檔，[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 就不會執行跨欄位驗證。 若將「標準」屬性從「RosettaNet」變更為「CIDX」，[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 並不會驗證協議的「0A1」協議屬性是否設為「No 0A1」。  
   
 ### <a name="errors-will-result-if-all-orchestrations-are-not-started"></a>如果協調流程並未全部啟動，就會發生錯誤  
- [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 安裝程式安裝了九項協調流程。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 若要能成功地處理訊息，您必須在啟動處理作業之前，繫結、登錄與啟動這九項協調流程。 如需詳細資訊，請參閱「[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] 說明」中的＜BizTalk 總管中的協調流程管理＞或＜管理協調流程＞主題。  
+ [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 安裝程式安裝了九項協調流程。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 若要能成功地處理訊息，您必須在啟動處理作業之前，繫結、登錄與啟動這九項協調流程。 如需詳細資訊，請參閱在 BizTalk Server 說明中的 「 協調流程管理在 BizTalk 總管 」 或 「 管理協調流程 」 主題。  
   
 ### <a name="rnifreceiveaspx-does-not-remove-the-mime-bottom-boundary-from-a-message"></a>RNIFReceive.aspx 並未刪除訊息的 MIME 下界限  
  當 RNIFReceive.aspx 頁面從夥伴的 RNIFSend.aspx 頁面接收訊息時，該訊息中會含有 MIME 標頭與以及 MIME 上下界限 (base 64 數字)。 RNIFSend.aspx 會為 RNIF 傳輸，新增標頭與界限至訊息。 RNIFReceive.aspx 提交訊息至公開程序前，應移除訊息中的 MIME 標頭與界限。 RNIFReceive.aspx 會移除 MIME 標頭與上界限，但不會移除下界限。 遺留的下界限，並不會影響在公開程序中的訊息處理。  
@@ -128,7 +128,7 @@ ms.lasthandoff: 09/20/2017
  當公開程序協調流程處理其最終訊息時，若發生傳輸錯誤，事件日誌與 HAT 會顯示錯誤，但 BAM 不會顯示該項錯誤。 這是因為協調流程已停止，因此 BAM 無法顯示訊息。  
   
 ### <a name="the-pipelineexe-tool-cannot-be-used-to-debug-a-btarn-receive-pipeline"></a>pipeline.exe 工具不能用來對 BTARN 接收管線進行偵錯  
- 要對接收管線進行偵錯，則必須建立裝載該管線的連接埠， 不可以使用 [!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)] 提供的 pipeline.exe 工具對管線進行偵錯。  
+ 要對接收管線進行偵錯，則必須建立裝載該管線的連接埠， 您無法使用 BizTalk Server 提供的 pipeline.exe 工具偵錯。  
   
 ### <a name="an-error-may-be-generated-for-a-retried-message-that-is-successfully-processed-after-the-orchestration-finishes"></a>可能因為重試訊息在協調流程完成後才成功處理完畢而產生錯誤  
  [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 使用協調流程代表處理流程。 在某些情況下，在其中幾個重試的訊息時重試，之前的重試的訊息抵達 BizTalk MessageBox 中,，可能會成功地完成協調流程。 這種狀況發生時，[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] 會產生對應的「完成但捨棄」錯誤訊息。 此時應該查看商務營運系統 (LOB) 應用程式，才能判斷該程序是否已經完成。 如果 LOB 應用程式表示程序已成功完成，您就可以忽略「完成但捨棄」訊息。  
@@ -202,5 +202,5 @@ string plainText = Encoding.UTF8.GetString(textBytes);
 txtOutput.Text = plainText;  
 ```  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [疑難排解和已知問題](troubleshooting-and-known-issues-in-rosettanet.md)

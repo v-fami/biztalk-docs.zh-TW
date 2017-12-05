@@ -12,16 +12,16 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d45355100e728220745620e1c0df3552f523f649
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5072a49c9edc5dc8ce03ec819d6042b640b94a47
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="handle-transactions-with-the-oracle-database-adapter"></a>使用 Oracle 資料庫配接器處理交易
 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]不會啟動交易時執行的 Oracle 資料庫上的作業。 相反地，配接器會執行作業使用配接器用戶端所提供的交易內容。 為了執行作業中使用交易[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]，您必須：  
   
--   啟用配接器用戶端中的交易。 例如，若要啟用交易中的[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]，您必須選取**Use Transaction**中核取方塊**交易**區域**訊息** 索引標籤WCF 自訂 」 或 「 Wcf-oracledb 連接埠。  
+-   啟用配接器用戶端中的交易。 例如，若要啟用 BizTalk Server 中的交易，您必須選取**Use Transaction**中核取方塊**交易**區域**訊息**WCF 自訂 索引標籤或Wcf-oracledb 連接埠。  
   
 -   值設定**UseAmbientTransaction**內容繫結至**True**配接器中。 如需繫結屬性的詳細資訊，請參閱[Oracle 資料庫的設定繫結屬性](../../adapters-and-accelerators/adapter-oracle-database/configure-the-binding-properties-for-oracle-database.md)。  
   
@@ -40,5 +40,5 @@ ms.lasthandoff: 09/20/2017
   
  如需有關由顯示輸入操作[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]，請參閱[配接器介面 Oracle 中繼資料的運作方式？](https://msdn.microsoft.com/library/cc185310(v=bts.10).aspx)。  
   
-## <a name="see-also"></a>另請參閱  
- [BizTalk Adapter for Oracle 資料庫的概觀](../../adapters-and-accelerators/adapter-oracle-database/overview-of-biztalk-adapter-for-oracle-database.md)
+## <a name="see-also"></a>請參閱  
+ [BizTalk Adapter for Oracle Database 概觀](../../adapters-and-accelerators/adapter-oracle-database/overview-of-biztalk-adapter-for-oracle-database.md)

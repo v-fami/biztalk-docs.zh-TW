@@ -13,11 +13,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3f1baca3a561702546ca2fae10b1c567042cd387
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f20b35aca2c4fb35419153ccfb149aa34501b21a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="walkthrough-tracking-policy-execution"></a>逐步解說： 追蹤原則執行
 啟用追蹤的逐步程序**ProcessPurchaseOrder**原則，以及在執行原則之後檢視追蹤資訊。  
@@ -102,7 +102,7 @@ ms.lasthandoff: 09/20/2017
   
 -   追蹤資訊的原則是非常類似於您在商務規則編輯器 」 中測試原則時看到的追蹤資訊。  
   
--   雖然協調流程的名稱是 RuleTest.odx，但您看到的協調流程名稱卻是 Orchestration_1，因為協調流程的「類型名稱」是設定為 Orchestration_1，即使變更「名稱」也是如此。 追蹤中會顯示您的協調流程的名稱格式\<命名空間 >。\<類型名稱 >。  
+-   雖然協調流程的名稱是 RuleTest.odx，但您看到的協調流程名稱卻是 Orchestration_1，因為協調流程的「類型名稱」是設定為 Orchestration_1，即使變更「名稱」也是如此。 追蹤中會顯示您的協調流程的名稱格式\<命名空間\>。\<輸入名稱\>。  
   
 -   當您使用 BizTalk Server 管理主控台從 BizTalk 應用程式刪除原則時，該工具不但會從應用程式刪除原則，也會將該原則從規則引擎資料庫刪除。 您將無法再於「商務規則編輯器」中看到該原則 (請按 F5 以重新整理畫面)。 因此，從應用程式刪除原則時應該相當謹慎。  
   
@@ -115,6 +115,6 @@ ms.lasthandoff: 09/20/2017
 ## <a name="next-steps"></a>後續步驟  
  既然您已完成此逐步解說，請移至[逐步解說： 部署原則](../core/walkthrough-deploying-the-policy.md)逐步解說，它可讓您部署原則的逐步指示。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [如何設定原則的追蹤](../core/how-to-configure-tracking-for-a-policy.md)   
  [管理原則](../core/managing-policies.md)

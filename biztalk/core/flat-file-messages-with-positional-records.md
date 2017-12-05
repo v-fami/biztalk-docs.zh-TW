@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 26c9e4551abcbd0fba32b21fb8e4205bece6e82f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 42ad36873c5b252afb185f5e341de923942dea73
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="flat-file-messages-with-positional-records"></a>具有位置記錄的一般檔案訊息
 在一般檔案執行個體訊息中的位置記錄包含每個均有預先定義長度的個別欄位 (資料項目)。 會根據這些長度來剖析欄位。 例如，請考慮下列一般檔案執行個體訊息的位置記錄，其中包含送貨地址 (第一行顯示為每個欄位保留的字元數目)。  
@@ -65,7 +65,7 @@ US        Alice Smith         123 Maple Street    Mill Valley    CA 90952
   
 -   位置記錄中指定的欄位長度為特定的位元組數目，而不是特定的字元數目。 如需詳細資訊，請參閱[以位元組為單位計算位置](../core/position-counting-in-bytes.md)。  
   
- 若要協助您深入了解如何使用位置一般檔案，請參閱位於 \Program Files\Microsoft 的 FlatFileReceive 和 FlatFileSend 資料夾中的範例[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]\SDK\Samples\Pipelines\AssemblerDisassembler\\。  
+ 若要協助您深入了解如何使用位置一般檔案，請參閱位於 \Program Files\Microsoft BizTalk Server\SDK\Samples\Pipelines\AssemblerDisassembler 的 FlatFileReceive 和 FlatFileSend 資料夾中的範例\\。  
   
 > [!NOTE]
 >  如果您的一般檔案包含分隔和位置記錄，您必須設定**結構**根節點屬性**分隔**和**結構**屬性附屬記錄節點設為 **分隔**或**Positional**依適當情況。  
@@ -73,6 +73,6 @@ US        Alice Smith         123 Maple Street    Mill Valley    CA 90952
 > [!NOTE]
 >  位置記錄中的欄位長度限制為 50000000 個字元。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [一般檔案訊息的結構](../core/structure-of-a-flat-file-message.md)   
  [如何建立一般檔案訊息的結構描述](../core/how-to-create-schemas-for-flat-file-messages.md)

@@ -15,11 +15,11 @@ caps.latest.revision: "30"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 258fcb96bbb9bbb045aeb3f48c2b324502d44940
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e654d22a08a7b07210ded9c319953c288065927a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-enable-automatic-archive-validation"></a>如何啟用自動封存驗證
 封存驗證讓您可以在封存建立時驗證封存。 在您可以啟用自動封存驗證前，必須先設定次要資料庫伺服器，也稱為驗證伺服器。 因為封存程序是簡單備份，所以儲存在磁碟上的實際影像可能由於硬體問題而毀損。  
@@ -89,10 +89,10 @@ ms.lasthandoff: 09/20/2017
   
 13. 在**一般**頁面上，於**命令**] 方塊中的，在命令中， **exec dtasp_ValidateArchive null，null**，取代 null，null 與裝載 BizTalk 伺服器的名稱追蹤資料庫，以括住的單一引號，後面接著 BizTalk 追蹤資料庫，以引號括住，括住的名稱，然後按一下 [**確定**。 例如：  
   
-     **exec dtasp_ValidateArchive '**  *\<TrackingServerName >* **'、'**  *\<TrackingDatabaseName >* **'**  
+     **exec dtasp_ValidateArchive '**  *\<TrackingServerName\>*  **'、'**  *\<TrackingDatabaseName\>* **'**  
   
 > [!NOTE]
 >  [ValidateArchive] 作業沒有排程，您不可設定它的排程。 而是由 [DTA 清除和封存] (BizTalkDTADb) 作業在建立封存時自動啟動此作業。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [封存和清除 BizTalk 追蹤資料庫](../core/archiving-and-purging-the-biztalk-tracking-database.md)

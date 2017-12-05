@@ -1,7 +1,7 @@
 ---
 title: "導入 BizTalk Server |Microsoft 文件"
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 11/29/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
@@ -12,18 +12,18 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 544522fd2761cf12702ce517116bfaac84830084
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7984b9044ff21263e780cba545ddea472b358c76
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="introducing-biztalk-server"></a>介紹的 BizTalk Server
 沒有一個應用程式會像孤島， 是否我們喜歡，一起繫結系統變成範數。 尚未軟體的連接更單純的交換位元組。 當組織走向服務導向的世界，真正的目標，建立有效的商務程序的不同系統結合成一體 — 恢復得以實現。  
   
- Microsoft[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]支援此目標。 如同舊版的應用程式，最新版可連接各種不同的軟體，然後以圖形方式建立並修改使用該軟體的處理程序邏輯。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]也可讓資訊工作者監視執行中處理序、 與企業合作夥伴互動並執行其他業務相關的工作。  
+ Microsoft BizTalk Server 可讓連接各種不同的軟體，然後以圖形方式建立和修改處理程序邏輯會使用該軟體。 BizTalk Server 也可讓資訊工作者監控執行中的處理程序、與企業合作夥伴互動並執行其他業務相關工作。  
   
- 索引鍵中的新功能[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]是：  
+ BizTalk Server 中的主要新功能包括：  
   
 -   提供部署、監控及管理應用程式方面更好的支援  
   
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/20/2017
   
 -   加強的商務活動監控 (BAM) 功能  
   
- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]也會使用其他 Microsoft 技術的最新版本。 例如，建置在.NET framework 3.5 版和開發人員工具所裝載的 Microsoft [!INCLUDE[vs2010](../includes/vs2010-md.md)]。 針對儲存體，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]可以使用[!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)]，Microsoft 頭號資料庫產品的最新版本。 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]也可以執行 64 位元 Windows 伺服器上，利用較大的記憶體和其他優點，此新一代硬體能提供。  
+BizTalk Server 也會使用其他 Microsoft 技術的最新版本。 建置於.NET Framework 中，並在 Microsoft Visual Studio 中裝載的開發人員工具。 針對儲存體，BizTalk Server 會使用 SQL Server 的 BizTalk Server 可以是伺服器上執行 64 位元 Windows，利用較大的記憶體和其他硬體所提供的優點。  
   
 ## <a name="what-is-biztalk-server"></a>什麼是 BizTalk Server？  
  將不同的系統結合到有效的商務程序中是一項具有挑戰性的任務。 因此，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]包含數種技術。 下圖說明此產品的主要元件。  
@@ -67,7 +67,7 @@ ms.lasthandoff: 09/20/2017
   
  連線組織內的應用程式十分重要，但是連線跨越數個組織的應用程式，有時會有更多商務價值。 下圖顯示此種企業對企業 (B2B) 整合的簡單範例。 在此案例中，在圖示上方的採購組織執行 BizTalk Server 協調流程，該協調流程會與兩個供應組織互動。 供應商 A 也使用 BizTalk Server，提供其「供應」應用程式的間接存取。 供應商 B 則使用其他廠商的整合平台，並使用 Web 服務連線到採購組織的 BizTalk Server 協調流程。  
   
- ![企業 &#45; 若要 &#45; 商務整合圖](../core/media/b1d8787d-e842-468e-96c5-b68875d9abc3.gif "b1d8787d-e842-468e-96c5-b68875d9abc3")  
+ ![企業對企業整合圖](../core/media/b1d8787d-e842-468e-96c5-b68875d9abc3.gif "b1d8787d-e842-468e-96c5-b68875d9abc3")  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [了解 BizTalk Server](../core/understanding-biztalk-server.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8a0f701518714aaf28d0ae07867c8c490c140fa0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: be0c8714f0349ad415beca010795d2cb0b57aabb
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="debugging-custom-pipelines"></a>偵錯自訂管線
 當自訂管線中發生訊息處理失敗時，您可以使用來源層級偵錯來識別和修正問題。 使用 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 偵錯工具可以執行來源層級偵錯，其方式是將此工具附加到 BTSNTSVC.exe (如果自訂管線已部署) 或 Pipeline.exe (如果使用獨立管線工具)。  
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  將自訂管線專案方案載入至 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]。  
   
-2.  變更您的方案的輸出路徑*\<安裝資料夾 >*\Pipeline Components。 在方案總管 中，以滑鼠右鍵按一下您的專案，按一下 建置 索引標籤，然後依序按一下以變更輸出路徑**瀏覽**按鈕，選取*\<安裝資料夾 >*\管線元件目錄。  
+2.  變更您的方案的輸出路徑*\<安裝資料夾\>*\Pipeline Components。 在方案總管 中，以滑鼠右鍵按一下您的專案，按一下 建置 索引標籤，然後依序按一下以變更輸出路徑**瀏覽**按鈕，選取*\<安裝資料夾\>*\Pipeline components 目錄。  
   
 3.  從[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]，按一下 部署方案**建置**&#124;**部署**。  
   
@@ -56,9 +56,9 @@ ms.lasthandoff: 09/20/2017
   
 1.  將自訂管線專案方案載入至 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]。  
   
-2.  變更您的方案的輸出路徑*\<安裝資料夾 >*\Pipeline Components。 在方案總管 中，以滑鼠右鍵按一下您的專案，按一下 建置 索引標籤，然後依序按一下以變更輸出路徑**瀏覽**按鈕，選取*\<安裝資料夾 >*\管線元件目錄。  
+2.  變更您的方案的輸出路徑*\<安裝資料夾\>*\Pipeline Components。 在方案總管 中，以滑鼠右鍵按一下您的專案，按一下 建置 索引標籤，然後依序按一下以變更輸出路徑**瀏覽**按鈕，選取*\<安裝資料夾\>*\Pipeline components 目錄。  
   
-3.  變更方案的起始動作。 在 方案總管 中，以滑鼠右鍵按一下您的專案，按一下 偵錯 索引標籤，按一下 啟動外部程式，然後按一下**...** 瀏覽至*\<安裝資料夾 >*\SDK\Utilities\PipelineTools 並選擇 Pipeline.exe。 在啟動選項 下輸入的命令列引數適用於您的元件。 如需 Pipeline.exe 的詳細資訊，請參閱[管線工具](../core/pipeline-tools.md)。 指定管線和範例檔案的一般組態設定：  
+3.  變更方案的起始動作。 在 方案總管 中，以滑鼠右鍵按一下您的專案，按一下 偵錯 索引標籤，按一下 啟動外部程式，然後按一下**...** 瀏覽至*\<安裝資料夾\>*\SDK\Utilities\PipelineTools 並選擇 Pipeline.exe。 在啟動選項 下輸入的命令列引數適用於您的元件。 如需 Pipeline.exe 的詳細資訊，請參閱[管線工具](../core/pipeline-tools.md)。 指定管線和範例檔案的一般組態設定：  
   
     ```  
     <Path>\YourPipeline.btp -d <Path>\YourTestFile.txt -c  
@@ -68,5 +68,5 @@ ms.lasthandoff: 09/20/2017
   
 5.  按 F5 開始偵錯。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管線工具](../core/pipeline-tools.md)

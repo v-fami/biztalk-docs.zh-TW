@@ -19,11 +19,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ab82aa317b205d62b8bd05aff513e80d406b658b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e135b98c04531aa6200f3b79c5b6d5153bf299a7
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="mllp-receive-and-send-components"></a>MLLP 接收和傳送元件
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 支援所有[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]原生配接器類型，包括 File、 HTTP、 SQL、 與 FTP。 HL7 編碼的訊息接收和傳送，不過，您通常使用 MLLP 配接器。 此配接器是使用最低限度的較低層通訊協定 (MLLP) 的 TCP/IP 通訊端介面卡。 此通訊協定提供雙向的訊息支援與端對端醫療保健應用程式整合。  
@@ -32,14 +32,14 @@ ms.lasthandoff: 09/20/2017
   
  訊息[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]接收或傳送的 MLLP 配接器上需要下列的包裝函式：  
   
--   \<SB > 啟動區塊字元  
+-   \<SB\>啟動區塊字元  
   
--   \<EB > End 區塊的字元  
+-   \<EB\> End 區塊的字元  
   
--   \<CR > （選擇性） 歸位字元傳回位元組  
+-   \<CR\> （選擇性） 歸位字元傳回位元組  
   
- MLLP 配接器會提供錯誤處理遺漏\<SB > 或\<EB > 包裝函式、 卸除的連接或逾時。 與 MLLP 配接器，您可以設定限制的連線數目。 您可以使用 MLLP 配接器的通知分類。  
+ MLLP 配接器會提供錯誤處理遺漏\<SB\>或\<EB\>包裝函式、 卸除的連接或逾時。 與 MLLP 配接器，您可以設定限制的連線數目。 您可以使用 MLLP 配接器的通知分類。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [處理 MLLP 編碼訊息](../../adapters-and-accelerators/accelerator-hl7/processing-mllp-encoded-messages.md)   
  [BizTalk Accelerator for HL7 元件](../../adapters-and-accelerators/accelerator-hl7/biztalk-accelerator-for-hl7-components.md)

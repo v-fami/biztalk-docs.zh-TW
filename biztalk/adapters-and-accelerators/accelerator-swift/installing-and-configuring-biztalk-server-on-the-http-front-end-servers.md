@@ -15,14 +15,14 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 772c240ef95c294e5e884d94b361d4cd0b102b07
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 045a44c05789015d73bc797da14568d2cc3732f8
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="installing-and-configuring-biztalk-server-on-the-http-front-end-servers"></a>安裝和設定 BizTalk Server HTTP 前端伺服器上
-本章節描述如何安裝及設定[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]要做為 HTTP 前端伺服器裝載 MRSR 站台和[!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]範本表單。  
+本章節描述如何安裝和設定 BizTalk Server 来做為 HTTP 前端伺服器裝載 MRSR 站台和[!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]範本表單。  
   
 ### <a name="to-install-and-configure-biztalk-server-on-the-biztalk-http-front-end-servers"></a>安裝和設定 BizTalk HTTP 前端伺服器上的 BizTalk Server  
   

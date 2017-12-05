@@ -19,11 +19,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fb913c1719f4833ef36cf9f73f6a96432217f2af
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b2e8348cdf78db3e95ed75e5d83e6ea53bdffdee
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-configure-password-synchronization"></a>如何設定密碼同步化
 使用 SSOCONFIG 命令列公用程式可設定您的密碼同步設定。  
@@ -34,9 +34,9 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**執行**] 對話方塊中，輸入**cmd**，然後按一下 [**確定**。  
   
-3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機 >: \Program Files\Common Files\Enterprise Single Sign-on。  
+3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-4.  型別**ssoconfig replayfiles\<重新執行檔案目錄 > &#124; 預設**按下 Enter。  
+4.  型別**ssoconfig replayfiles\<重新執行檔案目錄\>&#124; 預設**按下 Enter。  
   
 > [!NOTE]
 >  變更服務帳戶時不會刪除重新執行檔案。 若變更此帳戶，您需要手動刪除重新執行檔案。  
@@ -47,12 +47,12 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**執行**] 對話方塊中，輸入**cmd**，然後按一下 [**確定**。  
   
-3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機 >: \Program Files\Common Files\Enterprise Single Sign-on。  
+3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-4.  型別**ssoconfig-syncage\<以小時為單位的最大密碼存在時間 >**按下 Enter。  
+4.  型別**ssoconfig-syncage\<小時內的密碼最長有效期\>**按下 Enter。  
   
 > [!NOTE]
 >  SSOCONFIG 公用程式會使用 SQL Server 電腦上的時間做為系統時間。 使用任何與時間有關的命令時請謹記這點。  
   
-## <a name="see-also"></a>另請參閱  
- [密碼同步處理](../core/password-synchronization2.md)
+## <a name="see-also"></a>請參閱  
+ [密碼同步](../core/password-synchronization2.md)

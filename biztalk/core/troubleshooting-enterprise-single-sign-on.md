@@ -12,11 +12,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 952db36f794d36bd98af6e5bc31eee78adcc8a35
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 450b2df7ec043dfd4bc775cfec7acdec0fb3ca1f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="troubleshooting-enterprise-single-sign-on"></a>疑難排解企業單一登入
 本主題描述使用企業單一登入 (SSO) 時可能遇到之常見問題的相關資訊。  
@@ -32,8 +32,8 @@ ms.lasthandoff: 09/20/2017
 |SSO 管理員帳戶為何？|使用命令列 **ssomanage –displaydb**。 如需此命令的詳細資訊，請參閱[如何顯示 SSO 資料庫資訊](../core/how-to-display-the-sso-database-information.md)。|  
 |是否已正確啟用所有項目？|使用命令列 **ssomanage –displaydb**。 如需此命令的詳細資訊，請參閱[如何顯示 SSO 資料庫資訊](../core/how-to-display-the-sso-database-information.md)。|  
 |是否有分支機構應用程式？|使用命令列 **ssomanage –listapps all**。 如需此命令的詳細資訊，請參閱[如何列出分支機構應用程式](../core/how-to-list-affiliate-applications.md)。|  
-|特定的分支機構應用程式外觀是否正確？<br /><br /> 哪些帳戶正在使用此分支機構應用程式？|使用命令列**ssomanage-displayapp***\<應用程式名稱 >*。 如需此命令的詳細資訊，請參閱[如何列出分支機構應用程式的屬性](../core/how-to-list-the-properties-of-an-affiliate-application.md)。|  
-|此分支機構應用程式是否有任何對應？|使用命令列**ssomanage – listmappings***\<應用程式名稱 >*。 如需此命令的詳細資訊，請參閱[如何列出使用者對應](../core/how-to-list-user-mappings.md)。|  
+|特定的分支機構應用程式外觀是否正確？<br /><br /> 哪些帳戶正在使用此分支機構應用程式？|使用命令列**ssomanage-displayapp***\<應用程式名稱\>*。 如需此命令的詳細資訊，請參閱[如何列出分支機構應用程式的屬性](../core/how-to-list-the-properties-of-an-affiliate-application.md)。|  
+|此分支機構應用程式是否有任何對應？|使用命令列**ssomanage – listmappings***\<應用程式名稱\>*。 如需此命令的詳細資訊，請參閱[如何列出使用者對應](../core/how-to-list-user-mappings.md)。|  
 |哪些帳戶是 SSO 群組的成員？|請驗證所有 SSO 群組和帳戶的群組成員資格。|  
 |SSO 伺服器的 COM+ 應用程式的執行是否符合預期？|驗證 COM+ 應用程式 SSO 伺服器。 **注意：**您也可以檢查事件記錄檔的詳細資訊，例如事件和警告訊息。|  
   
@@ -75,7 +75,7 @@ ms.lasthandoff: 09/20/2017
 #### <a name="rpc-error-occurs-when-connecting-to-a-client-computer"></a>連接到用戶端電腦時發生 RPC 錯誤  
   
 ##### <a name="problem"></a>問題  
- 當使用者執行命令例如**ssomanage-displayapp***\<應用程式名稱 >*，其中電腦嘗試連線到遠端 SSO 伺服器以擷取資訊，他們會收到下列錯誤： 錯誤： 0x800706BA: RPC 伺服器不存在。  
+ 當使用者執行命令例如**ssomanage-displayapp***\<applicationname\>*，其中電腦嘗試連線到遠端 SSO 伺服器以擷取資訊，他們會收到下列錯誤： 錯誤： 0x800706BA: RPC 伺服器不存在。  
   
 ##### <a name="cause"></a>原因  
  當使用者指定的伺服器不正確，或是遠端伺服器上的 SSO 服務無法使用時，都會發生這個錯誤。  
@@ -127,5 +127,5 @@ ms.lasthandoff: 09/20/2017
   
 5.  還原主要密碼。 如需詳細資訊，請參閱[如何還原主要密碼](../core/how-to-restore-the-master-secret.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [實作企業單一登入](../core/implementing-enterprise-single-sign-on.md)

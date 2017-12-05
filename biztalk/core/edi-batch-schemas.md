@@ -12,11 +12,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a9210e8ecc251cee06dafda3aeb3111074521be1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9e159734c7d6028eb7f54354140c40757cb212b3
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="edi-batch-schemas"></a>EDI 批次結構描述
 BizTalk Server 處理保留的交換時，會使用結構描述至少三次：  
@@ -37,13 +37,13 @@ BizTalk Server 處理保留的交換時，會使用結構描述至少三次：
 |X12_BatchSchema|X12InterchangeXML|http://schemas.microsoft.com/Edi/X12_BatchSchema|  
 |Edifact_BatchSchema|EdifactInterchangeXML|http://schemas.microsoft.com/Edi/Edifact|  
   
- 接收管線所產生的 XML 執行個體上的文件類型會是常數 (\<編碼方式 > _BatchSchema.xml)，它會參考此標準結構描述。 您可以在協調流程的對應中使用此執行個體，不過必須先將文件類型和命名空間變更為對應至實際需要的結構描述，才能使用此執行個體。  
+ 接收管線所產生的 XML 執行個體上的文件類型會是常數 (\<編碼\>_BatchSchema.xml)，它會參考此標準結構描述。 您可以在協調流程的對應中使用此執行個體，不過必須先將文件類型和命名空間變更為對應至實際需要的結構描述，才能使用此執行個體。  
   
  您不需要在專案的設計階段指定批次結構描述，因為它會部署在 BaseArtifacts.dll 中。  
   
 ## <a name="batch-schemas-in-the-schema-store"></a>結構描述保存區中的批次結構描述  
  BizTalk Server 在執行階段用來處理保留批次的批次結構描述會部署至 BaseArtifacts.dll 組件中。 這些結構描述會自動供執行階段處理使用。 Edifact_BatchSchema 和 X12_BatchSchema 中還會提供在 BizTalk 結構描述保存區[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]XSD_Schema\EDI。 這些結構描述只能在設計階段用來驗證或產生交換。 在執行階段，無論接收管線或傳送管線都不需要使用結構描述進行驗證。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [EDI 結構描述](../core/edi-schemas.md)   
- [處理內送的批次](../core/processing-incoming-batches.md)
+ [處理內送批次](../core/processing-incoming-batches.md)

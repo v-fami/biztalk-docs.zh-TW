@@ -21,11 +21,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c49ca06bb8177f76344cdb8ff14c612a7aa52a71
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1ea033770504b0e0024a831e0ad8d8727603046e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="creating-or-editing-an-agreement"></a>建立或編輯協議
 本主題說明如何建立或編輯交易夥伴協議。 交易夥伴協議設定兩個交易夥伴之間的關係，包括其身份識別；交易夥伴介面程序 (PIP)；動作、信號與同步 URL；以及關聯的協定。  
@@ -54,9 +54,9 @@ ms.lasthandoff: 09/20/2017
 |**一般**|**0A1 協議**|決定發生失敗時，[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 是否應傳回「通知」或「失敗」訊息 (0A1 PIP)。<br /><br /> 可以是**No 0A1** （預設值） 或**0A1**。<br /><br /> 必須是**No 0A1**對 CIDX。|  
 |**一般**|**使用方式**|指示協議所用的實例類型。<br /><br /> 可以是**測試**（預設值） 或**生產**。|  
 |**一般**<br /><br /> (**應用程式配接器**區域)|**組件名稱**|ApplicationAdapter 的檔案名稱，您可從檔案系統中選取。<br /><br /> 預設值為空字串。|  
-|**一般**<br /><br /> (**應用程式配接器區域**)|**類別名稱**|[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 從 ApplicationAdapter 選用的類別名稱。<br /><br /> 預設值是\<無 >。|  
+|**一般**<br /><br /> (**應用程式配接器區域**)|**類別名稱**|[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 從 ApplicationAdapter 選用的類別名稱。<br /><br /> 預設值是\<無\>。|  
 |**一般**<br /><br /> (**驗證配接器區域**)|**組件名稱**|ValidationAdapter 的檔案名稱，您可從檔案系統中選取。 預設值為空字串。|  
-|**一般**<br /><br /> (**驗證配接器區域**)|**類別名稱**|[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 從 ValidationAdapter 選用的類別名稱。<br /><br /> 預設值是\<無 >。|  
+|**一般**<br /><br /> (**驗證配接器區域**)|**類別名稱**|[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 從 ValidationAdapter 選用的類別名稱。<br /><br /> 預設值是\<無\>。|  
 |**連接埠**|**動作 URL**|主要組織傳輸動作訊息的目標 URL。 例如，http://FabrikamServer/BTARNApp/RNIFReceive.aspx。<br /><br /> 若下列情況為真，則此為必要的欄位：<br /><br /> -**同步**程序組態設定是`False`。<br /><br /> -**單向動作**程序組態設定是`True`。<br /><br /> -**主要角色**協議設定為**啟動器**。<br /><br /> 這也是如果下列條件成立時必要的欄位 (在此情況下，**信號 URL**欄位也是必要):<br /><br /> -**同步**程序組態設定是`False`。<br /><br /> -**單向動作**程序組態設定是`False`。<br /><br /> -您必須輸入有效的 URI，在此欄位中，它的開頭是"http://domain"或"https://domain"。|  
 |**連接埠**|**信號 URL**|主要組織傳輸信號訊息的目標 URL。 例如，http://FabrikamServer/BTARNApp/RNIFReceive.aspx。<br /><br /> 若下列情況為真，則這是必要欄位：<br /><br /> -**同步**程序組態設定是`False`。<br /><br /> -**單向動作**程序組態設定是`True`。<br /><br /> -**主要角色**協議設定為**回應**。<br /><br /> 這也是如果下列條件成立時必要的欄位 (在此情況下，**動作 URL**欄位也是必要):<br /><br /> -**同步**程序組態設定是`False`。<br /><br /> -**單向動作**程序組態設定是`False`。<br /><br /> 您必須在此欄位中輸入有效的 URI，它的開頭必須是 "http://domain" 或 "https://domain"。|  
 |**連接埠**|**同步 URL**|主要組織經由 HTTP 配接器建立連線所用的 URL。 例如，http://FabrikamServer/BTARNApp/RNIFReceive.aspx。<br /><br /> 若下列情況為真，則這是必要欄位：<br /><br /> -**同步**程序組態設定是`True`。<br /><br /> -**主要角色**協議設定為**啟動器**。<br /><br /> 您必須在此欄位中輸入有效的 URI，它的開頭必須是 "http://domain" 或 "https://domain"。|  
@@ -96,10 +96,10 @@ ms.lasthandoff: 09/20/2017
   
 3.  以滑鼠右鍵按一下您想要編輯，然後按一下 協議**屬性**。  
   
-4.  在 **\<** *協議名稱* **>** 屬性對話方塊中，於**一般**和**連絡人屬性**索引標籤上，視需要變更設定。 如需有關這些設定的詳細資訊，請參閱上表。  
+4.  在 **\<** *協議名稱* **\>** 屬性對話方塊中，於**一般**和**連絡人屬性**索引標籤上，視需要變更設定。 如需有關這些設定的詳細資訊，請參閱上表。  
   
 5.  按一下 **[確定]**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理設定、 憑證、 資料庫和安全性](manage-configuration-certificates-databases-security.md)   
- [管理 BTARN 組態](../../adapters-and-accelerators/accelerator-rosettanet/administering-the-btarn-configuration.md)
+ [管理 BTARN 設定](../../adapters-and-accelerators/accelerator-rosettanet/administering-the-btarn-configuration.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 61f201f8b20d5824b1b037cc61edaa1d64729135
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0fa94183f0eb83dc51fc0add22ba50484f7282fb
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="step-2-modify-or-create-the-send-and-receive-ports"></a>步驟 2： 修改或建立傳送和接收埠
 您需要 FILE 傳送和接收埠以進行批次中 / 出教學課程的批次。 如果您按下**啟動教學課程**結尾的安裝 Enterprise Edition 按鈕[!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]為您建立這些連接埠： 名為 Tutorial_BTAHL7Drop，傳送埠和接收埠命名為 Tutorial_BTAHL7PickUp。 如果您有這些連接埠，您仍然需要修改傳送埠 Tutorial_BTAHL7Drop。  
@@ -68,7 +68,7 @@ ms.lasthandoff: 09/20/2017
   
     |使用|動作|  
     |--------------|----------------|  
-    |**接收資料夾**|瀏覽至 **\<** *磁碟機***>: \Program Files\Microsoft BizTalk\<版本 > Accelerator for HL7\SDK\End 端對端 Tutorial\Tutorial_BTAHL7PickUp**. **注意：**這是在檔案系統或公用共用位置的路徑從哪裡[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]會收取檔案。|  
+    |**接收資料夾**|瀏覽至 **\<** *磁碟機***\>: \Program Files\Microsoft BizTalk\<版本\>Accelerator for HL7\SDK\End 端對端Tutorial\Tutorial_BTAHL7PickUp**。 **注意：**這是在檔案系統或公用共用位置的路徑從哪裡[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]會收取檔案。|  
     |**檔案遮罩**|型別 **\*.txt**。|  
   
 12. 按一下 **[確定]**。  
@@ -86,7 +86,7 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-create-the-tutorialbtahl7drop-send-port"></a>若要建立 Tutorial_BTAHL7Drop 傳送埠  
   
-1.  在[!INCLUDE[btsBizTalkServer2006r3](../../includes/btsbiztalkserver2006r3-md.md)]管理主控台中，以滑鼠右鍵按一下**傳送埠**，指向 **新增**，然後按一下 **靜態單向傳送埠**。  
+1.  在 BizTalk Server 管理主控台中，以滑鼠右鍵按一下**傳送埠**，指向 **新增**，然後按一下 **靜態單向傳送埠**。  
   
 2.  在 [傳送埠屬性] 對話方塊中，執行下列動作：  
   
@@ -100,7 +100,7 @@ ms.lasthandoff: 09/20/2017
   
     |使用|動作|  
     |--------------|----------------|  
-    |**目的地資料夾**|瀏覽至 **\<** *磁碟機***: > \Program Files\Microsoft BizTalk\<版本 > Accelerator for HL7\SDK\End 端對端 Tutorial\Tutorial_BTAHL7Drop**. **注意：**這是在檔案系統或公用共用的位置路徑[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]會寫入檔案。|  
+    |**目的地資料夾**|瀏覽至 **\<** *磁碟機***:\>\Program Files\Microsoft BizTalk\<版本\>Accelerator for HL7\SDK\End 端對端Tutorial\Tutorial_BTAHL7Drop**。 **注意：**這是在檔案系統或公用共用的位置路徑[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]會寫入檔案。|  
     |**檔案名稱**|型別**%MessageID%.txt** （請注意副檔名是 txt、 不是 xml）。|  
   
 4.  按一下 **[確定]**。  

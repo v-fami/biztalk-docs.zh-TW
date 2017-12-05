@@ -12,11 +12,11 @@ caps.latest.revision: "18"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d47932ffd9f7843d0b3d95073ca54bce987b8f75
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 92f13d938b0e0523ce6e20d6021bbca24595782f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="troubleshooting-bam"></a>疑難排解 BAM
 本主題提供使用商務活動監控 (BAM) 時，可能會遇到的資訊可協助您疑難排解問題。  
@@ -24,7 +24,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="bam-deployment-failed"></a>BAM 部署失敗  
  如果您嘗試部署 BAM 定義，其中包含即時彙總 (RTA)，無法使用 SQL Server Analysis Services 時，Bm.exe 命令會顯示下列訊息：  
   
- 錯誤： BAM 部署失敗。 無法建立連接。 請確定該伺服器正在執行。 無法建立沒有連接，因為目標電腦主動拒絕連線 *\<IP 位址 >*。  
+ 錯誤： BAM 部署失敗。 無法建立連接。 請確定該伺服器正在執行。 無法建立沒有連接，因為目標電腦主動拒絕連線 *\<IP 位址\>*。  
   
  這是因為 SQL Server Analysis Services 必須安裝和設定，且必須正在執行，才能部署 BAM 定義，其中包含 RTA。  
   
@@ -67,7 +67,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**使用者帳戶控制**對話方塊中，按一下 **繼續**。  
   
-3.  在 Internet Explorer 網址列中，輸入`http://<server>/BAM`，其中*\<伺服器 >*執行 BAM 入口網站之電腦的名稱。  
+3.  在 Internet Explorer 網址列中，輸入`http://<server>/BAM`，其中*\<伺服器\>*執行 BAM 入口網站之電腦的名稱。  
   
 ## <a name="bam-portal-does-not-work-if-invalid-users-are-granted-permissions"></a>BAM 入口網站無法運作如果無效的使用者授與權限  
  如果從 AD 移除 AD 使用者擁有 BAM 檢視權限，然後在 BAM 入口網站未正確載入的任何使用者 （除了 DBO)。  
@@ -143,5 +143,5 @@ Failed to get data.  If available, errors returned from the provider are listed 
   
 3.  在**設定**頁面的 **跨網域存取資料來源**選項，請按一下**提示**。 您將會在有元件需要此權限時收到提示。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [使用商務活動監控](../core/using-business-activity-monitoring.md)

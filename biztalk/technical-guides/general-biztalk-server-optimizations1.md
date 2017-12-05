@@ -12,11 +12,11 @@ caps.latest.revision: "28"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ee8447bb77fee160c34cc86d30a0b7ac981c53aa
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2e9e799822c63cb78eda1b989cb157c71fd357d8
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="general-biztalk-server-optimizations"></a>一般 BizTalk Server 最佳化
 下列建議可以用於增加 BizTalk Server 效能。 安裝和設定 BizTalk Server 後，會套用本主題中列出的最佳化。  
@@ -98,9 +98,9 @@ ms.lasthandoff: 09/20/2017
   
  設定 maxconnection 屬性時，可以指定 HTTP、 HTTPS、 web 站台 IP 位址和連接埠號碼。 其他範例包括：  
   
- **\<新增位址 ="https://www.contoso.com" maxconnection="24" />**   
-**\<新增位址 ="http://www.contoso.com:8080" maxconnection="24" />**   
-**\<新增位址 ="http://*IPAddress*"maxconnection = 「 24 」 / > * * 如需微調 IIS 和 ASP.NET Web 服務設定的詳細資訊，請參閱 < ASP.NET 設定，可能會影響 HTTP 配接器效能 > 區段[影響配接器效能的組態參數](http://go.microsoft.com/fwlink/?LinkID=154200)(http://go.microsoft.com/fwlink/?LinkID=154200) BizTalk Server 2010 說明中。  
+ **\<新增位址 ="https://www.contoso.com"maxconnection = 「 24 」 /\>**   
+**\<新增位址 ="http://www.contoso.com:8080"maxconnection = 「 24 」 /\>**   
+**\<新增位址 ="http://*IPAddress*"maxconnection = 「 24 」 /\>* * 如需微調 IIS 和 ASP.NET Web 服務設定的詳細資訊，請參閱 < ASP.NET 設定，可能會影響 HTTP 配接器效能 > 一節[影響配接器效能的組態參數](http://go.microsoft.com/fwlink/?LinkID=154200)(http://go.microsoft.com/fwlink/?LinkID=154200) BizTalk Server 2010 說明中。  
   
 ## <a name="manage-aspnet-thread-usage-or-concurrently-executing-requests-for-web-applications-that-can-host--isolated-received-locations-back-end-web-services-and-wcf-services"></a>管理 ASP.NET 執行緒用法，或同時執行之要求的可裝載的 Web 應用程式隔離的接收的位置、 後端 Web 服務和 WCF 服務  
  背景工作和 I/O 執行緒 （IIS 7.5 和傳統模式中的 IIS 7.0） 或同時執行要求 （IIS 7.5 和 7.0 整合的模式） 的 ASP.NET Web 應用程式主機隔離接收的位置、 後端 Web 服務和 WCF 服務的數目的數目在下列情況下應修改：  
@@ -189,7 +189,7 @@ ms.lasthandoff: 09/20/2017
  如需在 IIS 7.0 上設定 ASP.NET 執行緒用法的詳細資訊，請參閱[Thomas Marquardt 部落格上 IIS 7.0 ASP.NET 執行緒用法](http://go.microsoft.com/fwlink/?LinkId=157518)(http://go.microsoft.com/fwlink/?LinkId=157518)。  
   
 ### <a name="manage-the-number-of-concurrently-executing-requests-for-aspnet-4web-applications-that-can-host-isolated-received-locations-back-end-web-services-and-wcf-services-on-iis-75-and-70-running-in-integrated-mode"></a>管理並行執行的外掛式接收的位置、 後端 Web 服務和 IIS 7.5 和 7.0 整合模式執行的 WCF 服務可以裝載的 ASP.NET 4Web 應用程式的要求數目  
- .NET Framework 4，maxConcurrentRequestsPerCPU 的預設值為 5000，這可能會非常大的值，並因此將允許充足的同時執行的非同步要求。 如需詳細資訊，請參閱[\<應用程式集區 > 項目 （Web 設定）](http://go.microsoft.com/fwlink/?LinkID=205339) (http://go.microsoft.com/fwlink/?LinkID=205339)。  
+ .NET Framework 4，maxConcurrentRequestsPerCPU 的預設值為 5000，這可能會非常大的值，並因此將允許充足的同時執行的非同步要求。 如需詳細資訊，請參閱[ \<applicationPool\>項目 （Web 設定）](http://go.microsoft.com/fwlink/?LinkID=205339) (http://go.microsoft.com/fwlink/?LinkID=205339)。  
   
  IIS 7.5 和 IIS 7.0 整合模式中，名為 MaxConcurrentRequestsPerCPU 內 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0 DWORD 會決定每一 CPU 的並行要求數目。 根據預設，登錄機碼不存在，且每一 CPU 的要求數目限制為 5000。  
   
@@ -305,5 +305,5 @@ ms.lasthandoff: 09/20/2017
   
 -   [設定 EPM 執行緒集區大小](http://go.microsoft.com/fwlink/?LinkId=158020)(http://go.microsoft.com/fwlink/?LinkId=158020)  
   
-## <a name="see-also"></a>另請參閱  
- [BizTalk Server 效能最佳化](../technical-guides/optimizing-biztalk-server-performance.md)
+## <a name="see-also"></a>請參閱  
+ [最佳化 BizTalk Server 效能](../technical-guides/optimizing-biztalk-server-performance.md)

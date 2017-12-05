@@ -12,14 +12,14 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e98f793bb96ae8c74c8f375abda4dc87e580c63f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c143d19e6071ca4f9ce488ae936082db86dc84dc
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-turn-off-global-tracking"></a>如何關閉全域追蹤
-根據預設，當您安裝時，已啟用全域追蹤[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]。 BizTalk 追蹤 (BizTalkDTADb) 資料庫成長的大小為[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]處理您的系統上的資料。 如果 BizTalk 追蹤資料庫導致磁碟效能低落，您可以從追蹤資料庫清除資料。 如果效能問題是藉由清除 BizTalk 追蹤資料庫而暫時解決，而您想要將 BizTalk 設定為不再收集追蹤資訊，則您可以考慮關閉全域追蹤。  
+根據預設，當您安裝 BizTalk Server 時，會啟用全域追蹤。 BizTalk 追蹤 (BizTalkDTADb) 資料庫成長的大小為[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]處理您的系統上的資料。 如果 BizTalk 追蹤資料庫導致磁碟效能低落，您可以從追蹤資料庫清除資料。 如果效能問題是藉由清除 BizTalk 追蹤資料庫而暫時解決，而您想要將 BizTalk 設定為不再收集追蹤資訊，則您可以考慮關閉全域追蹤。  
   
  請務必了解，關閉全域追蹤會停用整個的追蹤攔截器[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]群組。 這代表 BizTalk 無法在其追蹤表格中追蹤事件。 或者，您可以關閉個別事件的追蹤。  
   
@@ -35,7 +35,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**連接到伺服器**對話方塊中，確認伺服器名稱和驗證，然後按一下**連接**。  
   
-3.  在 Microsoft SQL Server Management Studio 中**物件總管] 中**，依序展開\<*電腦名稱*>，展開**資料庫**，依序展開**BizTalkMgmtDb**，依序展開**資料表**，以滑鼠右鍵按一下**[adm_group]**，然後按一下 [**開啟資料表**。  
+3.  在 Microsoft SQL Server Management Studio 中**物件總管] 中**，依序展開\<*電腦名稱*\>，依序展開**資料庫**，展開**BizTalkMgmtDb**，依序展開**資料表**，以滑鼠右鍵按一下**[adm_group]**，然後按一下 [**開啟資料表**。  
   
 4.  在資料表檢視器中水平捲動，直到您找到**[globaltrackingoption]**。  
   
@@ -52,7 +52,7 @@ ms.lasthandoff: 09/20/2017
   
 9. 在詳細資料窗格中，以滑鼠右鍵按一下每個主機，然後**重新啟動**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [封存和清除 BizTalk 追蹤資料庫](../core/archiving-and-purging-the-biztalk-tracking-database.md)   
  [如何從 BizTalk 追蹤資料庫清除資料](../core/how-to-purge-data-from-the-biztalk-tracking-database.md)   
  [如何從 BizTalk 追蹤資料庫手動清除資料](../core/how-to-manually-purge-data-from-the-biztalk-tracking-database.md)

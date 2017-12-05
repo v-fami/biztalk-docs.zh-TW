@@ -12,11 +12,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ed471aa5395b9cc743825807e63e23e5433e6d07
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 734d79e92a4864090720434b9a1fb83387a0a850
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="create-a-deployment-package-with-the-wcf-lob-adapter-sdk"></a>使用 WCF LOB 配接器 SDK 建立部署套件
 在開發週期中，您可以建置、 偵錯，並執行您在 Visual Studio 中的配接器。 配接器解決方案的輸出是 DLL 的組件。 您可以建置使用 Visual Studio IDE 介面卡方案，或使用 devenv.exe 指令碼建立配接器組件。 一旦開發配接器時，並且可供使用配接器取用者的環境中，您必須建立讓配接器安裝在測試環境和生產環境的部署封裝。  
@@ -47,7 +47,7 @@ namespace Microsoft.Adapters.Samples.EchoV2
 {  
     //Custom action to register the adapter with WCF configuration in machine.config   
   
-    //\<system.serviceModel>  
+    //<system.serviceModel>  
     //  <extensions>  
     //    <bindingElementExtensions>  
     //      <add name="{BINDINGELEM_NAME}" type="{BINDINGELEM_TYPE}, {Assembly Information}" />  
@@ -59,7 +59,7 @@ namespace Microsoft.Adapters.Samples.EchoV2
     //  <client>  
     //    <endpoint binding="{BINDING_NAME}" contract="IMetadataExchange" name="{BINDING_SCHEME}" />  
     //  </client>  
-    //\</system.serviceModel>  
+    //</system.serviceModel>  
   
     [RunInstaller(true)]  
     public partial class WCFLOBAdapterInstaller : Installer  
@@ -262,6 +262,6 @@ namespace Microsoft.Adapters.Samples.EchoV2
   
  如果您想要瀏覽範例配接器與部署套件，您可以下載完整的回應配接器，包括測試的程式碼和安裝指令碼。 這個範例會在您 BizTalk 安裝檔案包含的`\BizTalk Server\ASDK_x86\Program Files\WCF LOB Adapter SDK\Documents\Samples`或`\BizTalk Server\ASDK_x64\Program Files\WCF LOB Adapter SDK\Documents\Samples`。
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [部署配接器使用 WCF LOB 配接器 SDK](../../adapters-and-accelerators/wcf-lob-adapter-sdk/deploy-an-adapter-using-the-wcf-lob-adapter-sdk.md)   
  [解除部署配接器使用 WCF LOB 配接器 SDK](../../adapters-and-accelerators/wcf-lob-adapter-sdk/undeploy-an-adapter-using-the-wcf-lob-adapter-sdk.md)

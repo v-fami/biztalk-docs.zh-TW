@@ -13,11 +13,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ca2716a5d05292f105798cf394cd05bac1104c4b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 035925684617e74608246aed99fa98e16d0668a4
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-18-test-your-new-message-enrichment-solution"></a>步驟 18： 測試您的新訊息擴充方案
 在此步驟中，您必須測試方案利用 WSClient 應用程式來傳送訊息給[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]以及查看 MLLPReceive 應用程式是否會如預期般收到 HL7 格式化的訊息。  
@@ -29,13 +29,13 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  步驟 2 需要您已安裝使用的自訂安裝程序的 MLLP 測試工具。 如果您的電腦沒有目錄包含 MllpReceive.exe 和 MllpSend.exe \MLLP 公用程式就會將其安裝藉由執行自訂安裝。 如需資訊，請參閱[執行自訂安裝](http://msdn.microsoft.com/library/e55c86e1-af63-49ba-8510-d177e1b96692)。  
   
-2.  在命令提示字元中，輸入 **cd \<*磁碟機*>: \Program Files\Microsoft BizTalk\<版本 > Accelerator for HL7\SDK\MLLP 公用程式 * * (其中\<*磁碟機*> 是您安裝的磁碟機代號)，然後按下**Enter**。  
+2.  在命令提示字元中，輸入 **cd \<*磁碟機*\>: \Program Files\Microsoft BizTalk\<版本\>Accelerator for HL7\SDK\MLLP 公用程式 ** (其中\<*磁碟機*\>是您安裝的磁碟機代號)，然後按下**Enter**。  
   
 3.  在命令提示字元中，輸入**mllpreceive/p 11000 /eb 11 /sb 28 /cr 13**，然後按下**Enter**。 這會執行 MLLP 接聽應用程式接聽連接埠 11000，並指定預設 EB、 SB 和 CR 字元 MLLP 的訊息，並顯示螢幕收到任何訊息。  
   
 4.  開啟第二個命令提示字元。  
   
-5.  在命令提示字元中，輸入 **cd \<*磁碟機*>: \Tutorial\WSClient\bin\Debug**，，然後按下**Enter**。  
+5.  在命令提示字元中，輸入 **cd \<*磁碟機*\>: \Tutorial\WSClient\bin\Debug**，，然後按下**Enter**。  
   
 6.  在命令提示字元中，輸入**wsclient john henry smith 123456789**，然後按下**Enter**。 這會傳送訊息至 Web 服務，其中包含範例訊息為 John Henry Smith 病患名稱，且 123456789 範例社會安全號碼號碼。  
   
@@ -47,5 +47,5 @@ ms.lasthandoff: 09/20/2017
   
      如果您沒有收到回應後幾分鐘的時間，您應該檢查應用程式事件記錄檔有任何錯誤，並開始進行疑難排解。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [訊息擴充教學課程](../../adapters-and-accelerators/accelerator-hl7/message-enrichment-tutorial.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "36"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: dfad3a99d313a8007962cf56f403243c72f6a377
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f934857103952a035159cc08678c8ce8c8e51a56
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="transactional-adapter-biztalk-server-sample"></a>交易式配接器 （BizTalk Server 範例）
 交易式配接器範例示範如何建立和使用在處理期間針對資料庫明確 Microsoft 分散式交易協調器 (MSDTC) 交易[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]訊息。  
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
  這個範例位於下列 SDK 位置：  
   
- \<*範例路徑*> \Samples\AdaptersDevelopment\TransactionalAdapter。 管理組態專案位於 \Admin 資料夾，而執行階段專案則存在於 \Runtime 資料夾。  
+ \<*範例路徑*\>\Samples\AdaptersDevelopment\TransactionalAdapter。 管理組態專案位於 \Admin 資料夾，而執行階段專案則存在於 \Runtime 資料夾。  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -98,7 +98,7 @@ ms.lasthandoff: 09/20/2017
 2.  若要將交易式配接器資料加入至登錄中，按兩下**TransactionalAdmin.reg**。  
   
     > [!NOTE]
-    >  **TransactionalAdmin.reg**包含硬式編碼路徑 C:\Program Files\Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] \\。 如果您未將 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 安裝在預設位置中，或者已從舊版升級 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 安裝，則必須以適當的路徑來修改 TransactionalAdmin.reg 檔案。 更新與 "InboundAssemblyPath"、"OutboundAssemblyPath" 和 "AdapterMgmtAssemblyPath" 值相關聯的路徑，以指向指定檔案的正確位置。  
+    >  **TransactionalAdmin.reg**包含硬式編碼路徑 C:\Program Files\Microsoft BizTalk Server\\。 如果您未將 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 安裝在預設位置中，或者已從舊版升級 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 安裝，則必須以適當的路徑來修改 TransactionalAdmin.reg 檔案。 更新與 "InboundAssemblyPath"、"OutboundAssemblyPath" 和 "AdapterMgmtAssemblyPath" 值相關聯的路徑，以指向指定檔案的正確位置。  
   
     > [!IMPORTANT]
     >  如果您在 64 位元電腦上安裝 BizTalk，所有 HKEY_CLASSES_ROOT\CLSID\ 登錄項目執行個體中都變更為 HKEY_CLASSES_ROOT\Wow6432Node\CLSID\ **TransactionalAdmin.reg**登錄檔案。  
@@ -232,6 +232,6 @@ ms.lasthandoff: 09/20/2017
 
 將描述這些方法[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。 
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [配接器範例-開發](../core/adapter-samples-development.md)   
  [註冊配接器](../core/registering-an-adapter.md)

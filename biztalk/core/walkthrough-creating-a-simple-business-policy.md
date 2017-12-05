@@ -12,11 +12,11 @@ caps.latest.revision: "25"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0c894ab80926d2fad66af540c492dd053570aaa4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1eb4f21cf9311399ef6092b95fa818547679a240
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="walkthrough-creating-a-simple-business-policy"></a>逐步解說： 建立簡單商務原則
 本逐步解說提供逐步程序，使用 「 商務規則編輯器 」 建立名為的簡單商務原則**ProcessPurchaseOrder**包含名為的規則**ApprovedRule**。 **ApprovedRule**規則需要使用者提交 XML 文件當做事實，並將值設定**狀態**欄位中的文件**Approved**如果值**數量**欄位是否小於或等於**500**。  
@@ -106,7 +106,7 @@ ms.lasthandoff: 09/20/2017
 8.  在 [屬性] 視窗中變更的值**文件類型**屬性從**PO**至**[ruletest.po]**。  
   
     > [!NOTE]
-    >  您將建立 BizTalk 專案，名為**RuleTest**稍後[逐步解說： 叫用的原則，從協調流程](../core/walkthrough-invoking-the-policy-from-an-orchestration.md)逐步解說。 逐步解說中，您將加入， **PO.xsd**檔案加入專案中，建立會叫用的協調流程**ProcessPurchaseOrder**原則，然後再測試該原則。 若要測試的原則，從協調流程，您需要確定您變更**文件類型**屬性**\<專案名稱 >。\<SchemaName >**，也就是**[ruletest.po]**在此情況下。  
+    >  您將建立 BizTalk 專案，名為**RuleTest**稍後[逐步解說： 叫用的原則，從協調流程](../core/walkthrough-invoking-the-policy-from-an-orchestration.md)逐步解說。 逐步解說中，您將加入， **PO.xsd**檔案加入專案中，建立會叫用的協調流程**ProcessPurchaseOrder**原則，然後再測試該原則。 若要測試的原則，從協調流程，您需要確定您變更**文件類型**屬性**\<專案名稱\>。\<SchemaName\>**，也就是**[ruletest.po]**在此情況下。  
   
      ![BRE &#45;逐步解說 &#45;ChangeDocType](../core/media/e9a370fd-d9b2-48f0-ad0e-85a5428a9c21.gif "e9a370fd-d9b2-48f0-ad0e-85a5428a9c21")  
   
@@ -128,7 +128,7 @@ ms.lasthandoff: 09/20/2017
   
      ![商務規則編輯器 &#45; DragStatus](../core/media/3617251a-a192-4aec-9474-81f6290c0832.gif "3617251a-a192-4aec-9474-81f6290c0832")  
   
-14. 在 [THEN] 窗格中，按一下**\<輸入的值 >** ，然後輸入**Approved**。  
+14. 在 [THEN] 窗格中，按一下**\<輸入值\>** ，然後輸入**Approved**。  
   
 15. 在原則總管] 視窗中，以滑鼠右鍵按一下**版本 1.0 （未儲存）**，然後按一下 [**儲存**。  
   
@@ -145,5 +145,5 @@ ms.lasthandoff: 09/20/2017
 ## <a name="next-steps"></a>後續步驟  
  現在您已完成此逐步解說中，執行[逐步解說： 測試原則](../core/walkthrough-testing-the-policy.md)逐步解說，它可讓您測試的逐步指示**ProcessPurchaseOrder**原則您在本逐步解說中建立。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [關於商務規則](../core/about-business-rules.md)

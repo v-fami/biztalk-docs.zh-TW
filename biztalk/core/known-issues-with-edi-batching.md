@@ -12,11 +12,11 @@ caps.latest.revision: "38"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e550a80cf8a7bbd6ae5e2b214c57d15427f919f9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 537a0591ba45a209fd3f22c0a993a99baac58d7f
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="known-issues-with-edi-batching"></a>EDI 批次處理的已知問題
 本主題說明中批次處理的已知的問題[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。  
@@ -51,7 +51,7 @@ ms.lasthandoff: 09/20/2017
  在 64 位元電腦上的 WOW 下執行 BatchControlMessageRecvLoc 接收位置時，請在不同的主機中執行批次處理協調流程。 如果與接收位置在同一個主機上執行，則批次處理協調流程也會在 WOW 下執行，那麼就失去了在 64 位元電腦上執行的優勢。  
   
 ## <a name="a-batch-can-be-picked-up-by-an-unintended-send-port"></a>批次可能會由非指定的傳送埠取用  
- 當批次處理協調流程發佈交換時，會升級兩個屬性： ToBeBatched = False 和 DestinationPartyName = \< *PartyName*>。 訂閱其中一個屬性或兩個屬性都訂閱的傳送埠可以取用這些批次交換。 請確定已設定傳送埠的篩選條件，好讓傳送埠選取應該取用的批次交換。  
+ 當批次處理協調流程發佈交換時，會升級兩個屬性： ToBeBatched = False 和 DestinationPartyName = \< *PartyName*\>。 訂閱其中一個屬性或兩個屬性都訂閱的傳送埠可以取用這些批次交換。 請確定已設定傳送埠的篩選條件，好讓傳送埠選取應該取用的批次交換。  
   
 ## <a name="a-batch-element-count-greater-than-the-required-number-of-transaction-sets-for-a-batch-may-not-prompt-batch-release"></a>雖然批次項目計數大於批次所需的交易集數，仍可能不會提示批次釋放  
  如果批次釋放準則是根據群組或交換的交易集數目為基礎，即使批次項目計數大於釋放批次所需的交易集數目，仍可能不會釋放批次。 如果您啟用通知，並設定批次篩選條件準則將這些通知加入批次，就可能會發生這種情況。 在這種情況下，群組 (或交換) 中的批次項目數目將大於群組 (或交換) 的交易集數目。 這時，如果群組 (或交換) 的交易集數目小於批次釋放所需的數目，但同時批次項目數目又可能大於批次釋放所需的交易集數目，那麼將不會釋放批次。  
@@ -113,7 +113,7 @@ ms.lasthandoff: 09/20/2017
   
  在舊版的[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]應處理訊息時，由多個批次組態中，您可以將 EDI。DestinationParties 屬性，以空格分隔合作對象識別碼的清單。 路由協調流程會訂閱具有 EDI.ToBeBatched = True 與 EDI.DestinationParties 屬性的訊息，並使用 EDI.DestinationParties 屬性中包含的合作對象識別碼清單為每個識別碼建立訊息，然後將訊息傳遞給批次處理協調流程。  判斷使用合作對象的批次識別碼已使用，因為每個合作對象組態可能會有一個批次組態。  
   
- 在[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]，每個合作對象可以有多個批次組態，因此便不再使用來決定要使用的批次組態的合作對象識別碼。  若要指出多個批次組態必須處理訊息，訊息必須 EDI。Batchid 屬性設定為一個空格分隔批次訊息應傳送至的識別碼的清單。  
+ 在 BizTalk Server 中，每個合作對象可以有多個批次組態，因此便不再使用來決定要使用的批次組態的合作對象識別碼。  若要指出多個批次組態必須處理訊息，訊息必須 EDI。Batchid 屬性設定為一個空格分隔批次訊息應傳送至的識別碼的清單。  
   
 > [!NOTE]
 >  處理訊息加上只有一個合作對象識別碼使用 EDI。DestinationPartyId 屬性升級批次處理協調流程會處理訊息。 如需詳細資訊，請參閱[組合批次 EDI 交換](../core/assembling-a-batched-edi-interchange.md)。  
@@ -159,7 +159,7 @@ ms.lasthandoff: 09/20/2017
   
  若要解決這個問題，請修改釋放準則，以增加批次釋放之間的時間。 如需詳細資訊，請參閱[設定批次處理 (X12)](../core/configuring-batching-x12.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [設定 EDI 通知](../core/configuring-edi-acknowledgments.md)   
  [處理內送的批次](../core/processing-incoming-batches.md)   
  [批次處理外寄 EDI 訊息](../core/batching-outgoing-edi-messages.md)   

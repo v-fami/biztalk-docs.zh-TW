@@ -13,11 +13,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4899ec5f03e3474e61e4272ffd0612c77c90ea32
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3a22b49a921b957c0fb36f9e6b6925c991cc3cf6
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="error---index-functoid-has-too-many-indexes"></a>錯誤-索引運算質有太多索引
 **錯誤碼**  
@@ -30,4 +30,4 @@ ms.lasthandoff: 09/20/2017
   
  **使用者動作**  
   
- 選取指定**索引**運算質，按一下省略符號 (**...**) 相關聯的按鈕**輸入參數**屬性在 microsoft[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]屬性 視窗中，然後在**設定\<運算質 > 運算質**對話方塊中，刪除多餘的索引輸入參數，選取並按一下![](../core/media/bts-tls-paramdelete.gif "bts_tls_paramdelete")為每個按鈕。
+ 選取指定**索引**運算質，按一下省略符號 (**...**) 相關聯的按鈕**輸入參數**屬性在 microsoft[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]屬性 視窗中，然後在**設定\<運算質\>運算質**對話方塊中，刪除多餘的索引輸入參數，選取並按一下![ ] (../core/media/bts-tls-paramdelete.gif "bts_tls_paramdelete")為每個按鈕。

@@ -12,11 +12,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 79f908933015fa07e2ecf77a2e61d31227f73e62
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 16527acda7432b2eea35f0c87bb9d89fff632430
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="user-management-commands"></a>使用者管理命令
 BAM 管理公用程式的警示使用者管理命令可讓您取得、新增及移除使用者。  
@@ -36,15 +36,15 @@ BAM 管理公用程式的警示使用者管理命令可讓您取得、新增及�
 ## <a name="get-accounts-command"></a>get-accounts 命令  
  **使用方式**  
   
- **bm.exe get 帳戶-檢視：\<檢視名稱 > [-Server:\<伺服器 >] [-Database:\<資料庫 >]**  
+ **bm.exe get 帳戶-檢視：\<檢視名稱\>[-Server:\<伺服器\>] [-Database:\<資料庫\>]**  
   
  **參數**  
   
 |參數|Description|  
 |---------------|-----------------|  
-|檢視：\<檢視名稱 >|要列出其帳戶的檢視名稱。|  
-|伺服器：\<伺服器 >|選擇性： 要從中擷取帳戶的伺服器名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。 如果沒有指定伺服器名稱，bm.exe 會使用 localhost 的預設名稱。|  
-|資料庫：\<資料庫 >|選擇性： 要從中擷取帳戶的資料庫名稱。 如果沒有指定名稱，bm.exe 會使用預設的名稱 BamPrimaryImport。|  
+|檢視：\<檢視表名稱\>|要列出其帳戶的檢視名稱。|  
+|伺服器：\<伺服器\>|選擇性： 要從中擷取帳戶的伺服器名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。 如果沒有指定伺服器名稱，bm.exe 會使用 localhost 的預設名稱。|  
+|資料庫：\<資料庫\>|選擇性： 要從中擷取帳戶的資料庫名稱。 如果沒有指定名稱，bm.exe 會使用預設的名稱 BamPrimaryImport。|  
   
  列出可存取特定檢視的所有使用者和群組。  
   
@@ -57,16 +57,16 @@ BAM 管理公用程式的警示使用者管理命令可讓您取得、新增及�
 ## <a name="add-account-command"></a>add-account 命令  
  **使用方式**  
   
- **bm.exe 新增帳戶-AccountName:\<帳戶名稱 >-檢視：\<檢視名稱 > [-Server:\<伺服器 >] [-Database:\<資料庫 >]**  
+ **bm.exe 新增帳戶-AccountName:\<帳戶名稱\>-檢視：\<檢視名稱\>[-Server:\<伺服器\>] [-Database:\<資料庫\>]**  
   
  **參數**  
   
 |參數|Description|  
 |---------------|-----------------|  
 |AccountName:<帳戶名稱|要對其授與權限的帳戶名稱。|  
-|檢視：\<檢視名稱 >|要對其授與權限的檢視名稱。|  
-|伺服器：\<伺服器 >|選擇性： 檢視所在的伺服器的名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。 如果沒有指定伺服器名稱，bm.exe 會使用 localhost 的預設名稱。|  
-|資料庫：\<資料庫 >|選擇性： 檢視所在的資料庫名稱。 如果沒有指定名稱，bm.exe 會使用預設的名稱 BamPrimaryImport。|  
+|檢視：\<檢視表名稱\>|要對其授與權限的檢視名稱。|  
+|伺服器：\<伺服器\>|選擇性： 檢視所在的伺服器的名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。 如果沒有指定伺服器名稱，bm.exe 會使用 localhost 的預設名稱。|  
+|資料庫：\<資料庫\>|選擇性： 檢視所在的資料庫名稱。 如果沒有指定名稱，bm.exe 會使用預設的名稱 BamPrimaryImport。|  
   
  授與指定的使用者或群組存取特定檢視的權限。  
   
@@ -83,16 +83,16 @@ bm.exe add-account -AccountName:Agents -View:PO -Server:Srv1 -Database:Db2
 ## <a name="remove-account-command"></a>remove-account 命令  
  **使用方式**  
   
- **bm.exe 移除帳戶-AccountName:\<帳戶名稱 >-檢視：\<檢視名稱 > [-Server:\<伺服器 >] [-Database:\<資料庫 >]**  
+ **bm.exe 移除帳戶-AccountName:\<帳戶名稱\>-檢視：\<檢視名稱\>[-Server:\<伺服器\>] [-Database:\<資料庫\>]**  
   
  **參數**  
   
 |參數|Description|  
 |---------------|-----------------|  
-|AccountName:\<帳戶名稱 >|要移除其檢視存取權限的帳戶名稱。|  
-|檢視：\<檢視名稱 >|要對其移除權限的檢視名稱。|  
-|伺服器：\<伺服器 >|選擇性： 檢視所在的伺服器的名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。 如果沒有指定伺服器名稱，bm.exe 會使用 localhost 的預設名稱。|  
-|資料庫：\<資料庫 >|選擇性： 檢視所在的資料庫名稱。 如果沒有指定名稱，bm.exe 會使用預設的名稱 BamPrimaryImport。|  
+|AccountName:\<帳戶名稱\>|要移除其檢視存取權限的帳戶名稱。|  
+|檢視：\<檢視表名稱\>|要對其移除權限的檢視名稱。|  
+|伺服器：\<伺服器\>|選擇性： 檢視所在的伺服器的名稱。 伺服器和執行 bm.exe 的電腦必須位在相同網域中。 如果沒有指定伺服器名稱，bm.exe 會使用 localhost 的預設名稱。|  
+|資料庫：\<資料庫\>|選擇性： 檢視所在的資料庫名稱。 如果沒有指定名稱，bm.exe 會使用預設的名稱 BamPrimaryImport。|  
   
  移除使用者或群組對特定檢視的存取權。 從檢視移除帳戶會從指定檢視所定義的警示移除該帳戶及其所有成員。 如果該帳戶是特定警示的唯一擁有者，則目前的使用者 (admin) 將成為這些警示的新擁有者。  
   
@@ -103,5 +103,5 @@ bm.exe remove-account -AccountName:john -View:PurchaseOrder
 bm.exe remove-account -AccountName:Agents -View:PO -Server:Srv1 -Database:Db2  
 ```  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [BAM 管理公用程式](../core/bam-management-utility.md)

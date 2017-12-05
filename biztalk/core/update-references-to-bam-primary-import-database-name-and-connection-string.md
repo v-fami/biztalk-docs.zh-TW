@@ -23,11 +23,11 @@ caps.latest.revision: "25"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b56264155ed9f739669da1cb6f646adac0f9db55
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 23efa3df9c59732c8459018a886f7f499d268eff
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-update-references-to-the-bam-primary-import-database-name-and-connection-string"></a>如何更新 BAM 主要匯入資料庫名稱和連接字串的參考
 如果您已備份 BAMPrimaryImport 資料庫發生系統或資料失敗時，可以將該備份還原至不同的電腦，並重新命名此備份。  
@@ -61,31 +61,31 @@ ms.lasthandoff: 09/20/2017
   
     -   [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BAMPortal\BamManagementService\Web.Config。  
   
-         取代 *\<ServerName >*新的伺服器名稱的字串和 *\<DatabaseName >*與新的資料庫名稱。 更新下列連接字串：  
+         取代 *\<ServerName\>* 新的伺服器名稱的字串和 *\<DatabaseName\>* 與新的資料庫名稱。 更新下列連接字串：  
   
-         \<appSettings >  
+         \<appSettings\>  
   
-         < 新增機碼 ="BamServer"value ="*\<ServerName >*"/\>  
+         < 新增機碼 ="BamServer"value ="*\<ServerName\>*"/\>  
   
-         < 新增機碼 ="BamDatabase"value ="*\<DatabaseName >*"/\>  
+         < 新增機碼 ="BamDatabase"value ="*\<DatabaseName\>*"/\>  
   
-         \<加入機碼 ="MaxResultRows"value ="2000"/ >  
+         \<加入機碼 ="MaxResultRows"value ="2000"/\>  
   
-         \</appSettings >  
+         \</appSettings\>  
   
     -   [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BAMPortal\BamQueryService\Web.Config。  
   
-         取代 *\<ServerName >*新的伺服器名稱的字串和 *\<DatabaseName >*與新的資料庫名稱。 更新下列連接字串：  
+         取代 *\<ServerName\>* 新的伺服器名稱的字串和 *\<DatabaseName\>* 與新的資料庫名稱。 更新下列連接字串：  
   
-         \<appSettings >  
+         \<appSettings\>  
   
-         < 新增機碼 ="BamServer"value ="*\<ServerName >*"/\>  
+         \<加入機碼 ="BamServer"value ="*\<ServerName\>*"/\>  
   
-         <add key="BamDatabase" value="*<DatabaseName>*" />  
+         \<加入機碼 ="BamDatabase"value ="*\<DatabaseName\>*"/\>  
   
-         <add key="MaxResultRows" value="2000" />  
+         \<加入機碼 ="MaxResultRows"value ="2000"/\>  
   
-         </appSettings>  
+         \</appSettings\>  
   
 5.  按一下**啟動**，按一下 **執行**，型別**cmd**，然後按一下**確定**。  
   
@@ -145,5 +145,5 @@ ms.lasthandoff: 09/20/2017
   
 14. 若要解決任何不完整的追蹤執行個體，請參閱[如何解析未完成的活動執行個體](../core/how-to-resolve-incomplete-activity-instances.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [備份和還原 BAM](../core/backing-up-and-restoring-bam.md)

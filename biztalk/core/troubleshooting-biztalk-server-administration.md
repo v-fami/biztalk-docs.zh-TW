@@ -12,11 +12,11 @@ caps.latest.revision: "27"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d89f81bbaf15dfb0c87de91659888d70a2345a6c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 573e7a2509741748b0f95837f310e2e651b255c9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="troubleshooting-biztalk-server-administration"></a>BizTalk Server 管理疑難排解
 本章節提供一個集中的位置來保存使用 BizTalk Server 管理主控台時經常遇到之問題的相關資訊。  
@@ -71,13 +71,13 @@ ms.lasthandoff: 09/20/2017
 >  在多個 messagebox 環境中，會發生這個問題。  
   
 ##### <a name="cause"></a>原因  
- 在多個 messagebox 環境中會發生此問題，如果 SQL 代理程式工作 ' Operations_OperateOnInstances_OnMaster_\<*dbName*>' 不次要 messagebox 資料庫上執行。 必須執行此作業，才能傳播到主要 messagebox 資料庫的次要 messagebox 資料庫資訊。 這項作業將無法執行，如果未啟用，或發生登入失敗。  
+ 在多個 messagebox 環境中會發生此問題，如果 SQL 代理程式工作 'Operations_OperateOnInstances_OnMaster_\<*dbName*\>' 次要 messagebox 資料庫上未執行。 必須執行此作業，才能傳播到主要 messagebox 資料庫的次要 messagebox 資料庫資訊。 這項作業將無法執行，如果未啟用，或發生登入失敗。  
   
 ##### <a name="solution"></a>方案  
- 如果您使用 BizTalk 管理主控台中同時執行多個服務執行個體上的作業，而且您的 BizTalk Server 環境具有多個 messagebox 資料庫設定，請確認 SQL Server Agent 作業名稱為 ' Operations_OperateOnInstances_OnMaster_\<*dbName*>' 在所有的次要 （非主要） messagebox 資料庫上啟用。 此外，在裝載次要 messagebox 資料庫的 SQL Server 電腦上的 SQL Server Agent 服務必須執行包含 BTS_SQLAGENT_USER 資料庫角色的次要 messagebox 資料庫中的帳戶。  
+ 如果您使用 BizTalk 管理主控台中同時執行多個服務執行個體上的作業，而且您的 BizTalk Server 環境具有多個 messagebox 資料庫設定，請確認 SQL Server Agent 作業名稱為 ' Operations_OperateOnInstances_OnMaster_\<*dbName*\>' 所有的次要 （非主要） messagebox 資料庫上啟用。 此外，在裝載次要 messagebox 資料庫的 SQL Server 電腦上的 SQL Server Agent 服務必須執行包含 BTS_SQLAGENT_USER 資料庫角色的次要 messagebox 資料庫中的帳戶。  
   
 > [!NOTE]
->  \<*dbname*> 是 BizTalk messagebox 資料庫的實際名稱的預留位置。  
+>  \<*dbname* \>是 BizTalk messagebox 資料庫的實際名稱的預留位置。  
   
  請遵循下列步驟以加入次要 messagebox 資料庫的 BTS_SQLAGENT_USER 資料庫角色中的 SQL Server Agent 服務帳戶  
   
@@ -213,5 +213,5 @@ A transport-level error has occurred when sending the request to the server. (pr
   
  您可以使用 BizTalk Server 管理主控台中的 [群組中樞] 頁面，檢視 MessageBox 資料庫中未完成的服務執行個體。 如需在 [群組中樞] 頁面中檢視服務執行個體的狀態資訊，請參閱[如何搜尋追蹤服務執行個體](../core/how-to-search-for-tracked-service-instances.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [疑難排解](../core/troubleshooting.md)

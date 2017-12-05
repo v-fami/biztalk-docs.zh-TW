@@ -15,11 +15,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9dab8140c33b5518ec01f28128b5ef15bab0fab6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6d341a7f03c70e1ddcd242d7804b162338798e94
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="message-repair-and-new-submission-troubleshooting"></a>訊息修復和新送出疑難排解
 ## <a name="a-repaired-message-cannot-be-submitted-if-the-envelope-schema-is-not-deployed"></a>無法送出修復的訊息，如果未部署信封結構描述  
@@ -33,7 +33,7 @@ ms.lasthandoff: 09/20/2017
  未部署信封結構描述。 這適用於任何 MT*xxx*剖析失敗的任何訊息。  
   
 ### <a name="solution"></a>方案  
- 部署您使用每個訊息結構描述的信封結構描述 (\<磁碟機 >: \Program Files\Microsoft BizTalk Accelerator for SWIFT\<版本 > Message Pack \SWIFT Messages\ A4SWIFT SRG\<版本 > \類別 n\MTxxx.xsd) 和未剖析的信封結構描述 (\<磁碟機 >: \Program Files\Microsoft BizTalk Accelerator for SWIFT\<版本 > Message Pack \SWIFT Messages\ A4SWIFT SRG\<版本 > \ UnparsedMessage\EnvelopeUnparsedMessage.xsd)。 如需詳細資訊，請參閱[部署 A4SWIFT 結構描述](../../adapters-and-accelerators/accelerator-swift/deploying-a4swift-schemas.md)。  
+ 部署您使用每個訊息結構描述的信封結構描述 (\<磁碟機\>: \Program Files\Microsoft BizTalk Accelerator for SWIFT\<版本\>Message Pack \SWIFT Messages\ A4SWIFT SRG\<版本\>\Category n\MTxxx.xsd) 和未剖析的信封結構描述 (\<磁碟機\>: \Program Files\Microsoft BizTalk Accelerator for SWIFT\<版本\>Message Pack \SWIFT Messages\ A4SWIFT SRG\<版本\>\ 未剖析 Message\EnvelopeUnparsedMessage.xsd)。 如需詳細資訊，請參閱[部署 A4SWIFT 結構描述](../../adapters-and-accelerators/accelerator-swift/deploying-a4swift-schemas.md)。  
   
 ## <a name="you-cannot-submit-a-fixed-unparsed-message-from-a-mrsr-site-library-named-other-than-unparsed"></a>您無法送出固定的未剖析的訊息，從名為"Unparsed"以外的 MRSR 網站庫  
   
@@ -76,7 +76,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  按一下**啟動**，指向 **所有程式**，指向 **系統管理工具**，然後按一下**網際網路資訊服務 (IIS) 管理員**.  
   
-2.  在 IIS 管理員 中，展開 ***\<伺服器名稱 >* （本機電腦）**  節點，**應用程式集區**節點和**網站**節點。 展開 [網站] 節點底下**Default Web Site**節點。  
+2.  在 IIS 管理員 中，展開 ***\<伺服器名稱\>* （本機電腦）**  節點，**應用程式集區**節點和**Web站台**節點。 展開 [網站] 節點底下**Default Web Site**節點。  
   
 3.  預設的網站] 節點下，以滑鼠右鍵按一下**A4SWIFT_MRSR**，然後按一下 [**屬性**。  
   
@@ -84,7 +84,7 @@ ms.lasthandoff: 09/20/2017
   
 5.  在 IIS 管理員 對話方塊的 應用程式集區 節點下，應用程式集區的 A4SWIFT_MRSR，然後按一下右鍵**屬性**。  
   
-6.  在\<應用程式集區名稱 > 內容] 對話方塊中，按一下 [**識別**附註。 如果**預先定義**按一下和**網路服務**已選取，按一下**可設定**，輸入您的本機或網域帳戶，，，然後輸入您的密碼。 按一下 **[確定]**。  
+6.  在\<應用程式集區名稱\>內容] 對話方塊中，按一下 [**識別**附註。 如果**預先定義**按一下和**網路服務**已選取，按一下**可設定**，輸入您的本機或網域帳戶，，，然後輸入您的密碼。 按一下 **[確定]**。  
   
 ## <a name="a-message-created-in-mrsr-site-on-a-localized-computer-is-not-processed"></a>建立當地語系化的電腦上的 MRSR 站台中的訊息則不會處理  
   
@@ -128,7 +128,7 @@ ms.lasthandoff: 09/20/2017
  「 執行 BicMasterPolicy 時發生錯誤。 檢查有效的值的原則。 」  
   
 ### <a name="possible-cause"></a>可能的原因  
- SQL Server 名稱、 BIC 資料庫名稱和整合式的安全性的 BIC_Master_Policy.xml 檔案中的值*\<磁碟機 >*: files\ Microsoft BizTalk Accelerator for SWIFT\<版本 > 訊息Pack\SWIFT Messages\A4SWIFT SRG\<版本 > \Base 原則包含在雙引號中。 若要啟用 BIC 驗證，您輸入這些字串在預設 BIC_Master_Policy.xml 檔中所述[啟用驗證的銀行識別項代碼](../../adapters-and-accelerators/accelerator-swift/enabling-validation-of-bank-identifier-codes.md)。  
+ SQL Server 名稱、 BIC 資料庫名稱和整合式的安全性的 BIC_Master_Policy.xml 檔案中的值*\<磁碟機\>*: files\ Microsoft BizTalk Accelerator for SWIFT\<版本\>訊息 Pack\SWIFT Messages\A4SWIFT SRG\<版本\>\Base 原則包含在雙引號中。 若要啟用 BIC 驗證，您輸入這些字串在預設 BIC_Master_Policy.xml 檔中所述[啟用驗證的銀行識別項代碼](../../adapters-and-accelerators/accelerator-swift/enabling-validation-of-bank-identifier-codes.md)。  
   
 ### <a name="solution"></a>方案  
  若要修復 BIC 主要原則，請繼續進行，如下所示：  
@@ -138,7 +138,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  在商務規則編輯器 」，BIC_Master_Policy 的 1.0 版解除部署，然後刪除 BIC_Master_Policy。  
   
-2.  在文字編輯器中，例如 [記事本] 開啟中的 BIC_Master_Policy.xml *\<磁碟機 >*: files\ Microsoft BizTalk Accelerator for SWIFT\<版本 > 訊息 Pack\SWIFT Messages\A4SWIFT-SRG\<版本 > \Base 原則。 移除 SQL Server 名稱前後使用雙引號、 BIC 資料庫名稱和整合式安全性值。  
+2.  在文字編輯器中，例如 [記事本] 開啟中的 BIC_Master_Policy.xml *\<磁碟機\>*: files\ Microsoft BizTalk Accelerator for SWIFT\<版本\>訊息 Pack\SWIFTMessages\A4SWIFT SRG\<版本\>\Base 原則。 移除 SQL Server 名稱前後使用雙引號、 BIC 資料庫名稱和整合式安全性值。  
   
 3.  在商務規則引擎部署精靈，請匯入 BIC_Master_Policy.xml，，然後再部署 BIC_Master_Policy.xml。  
   
@@ -219,5 +219,5 @@ ms.lasthandoff: 09/20/2017
 ### <a name="solution"></a>方案  
  執行**BTSharePointAdapterWSAppPool**和**DefaultAppPoolApplication** -> ，以及系統管理員帳戶的集區中 網際網路資訊 Services(IIS)。  
   
-## <a name="see-also"></a>另請參閱  
- [疑難排解： 問題與解決方式](../../adapters-and-accelerators/accelerator-swift/troubleshooting-issues-and-resolutions1.md)
+## <a name="see-also"></a>請參閱  
+ [疑難排解：問題與解決方式](../../adapters-and-accelerators/accelerator-swift/troubleshooting-issues-and-resolutions1.md)

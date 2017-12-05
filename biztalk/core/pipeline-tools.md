@@ -28,11 +28,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6c64b61c1c96b0ad6f9185ccd511d00f6dae2251
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5c567ea50f151f0ee36505bd6d8a71af059eb67d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="pipeline-tools"></a>管線工具
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 軟體開發套件 (SDK) 所提供的管線工具可以讓您驗證管線是否正常運作，而不需要設定 BizTalk Server 環境，例如傳送埠/接收埠。 您也可以使用管線工具執行下列工作：  
@@ -52,7 +52,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
 -   僅單獨對管線進行精細的效能測量 (而非整個傳訊子系統)。  
   
 ## <a name="location-in-sdk"></a>SDK 中的位置  
- \<*安裝路徑*> \SDK\Utilities\PipelineTools  
+ \<*安裝路徑*\>\SDK\Utilities\PipelineTools  
   
  您可以使用管線工具來執行、偵錯及分析管線以及管線元件 (亦即一般檔案和 XML 組合器/解譯器元件)。  
   
@@ -198,7 +198,7 @@ Pipeline.exe ReceivePipeline.btp –d file_in.xml –s MySchema.xsd:MyProject.My
   
 ```  
   
- \-或者-  
+ \- 或 -  
   
 ```  
 Pipeline.exe ReceivePipeline.btp –d file_in.xml –s MySchema.xsd –proj MyProject.btproj -c  
@@ -291,5 +291,5 @@ file name macros:
 XmlDasm.exe file_in.txt –ds myDocumentSchema.xsd –es myEnvelopeSchema1.xsd –es myEnvelopeSchema2.xsd –c  
 ```  
   
-## <a name="see-also"></a>另請參閱  
- [在 SDK 中的公用程式](../core/utilities-in-the-sdk.md)
+## <a name="see-also"></a>請參閱  
+ [SDK 中的公用程式](../core/utilities-in-the-sdk.md)

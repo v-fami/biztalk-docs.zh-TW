@@ -17,14 +17,14 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 428d2987465ff1fe09f01979bbe9036def6350b8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1ba0c156e2ad6ab0fcbccb5ba7629f63b0aa490e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="about-the-sapdiscoveredobjectsxml-file-in-sap"></a>關於 sap SAPDiscoveredObjects.xml 檔案
-如果您選擇要安裝[!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] ([!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]) 連同[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]安裝，安裝程式會複製 SAPDiscoveredObjects.xml 檔案通常位於\<安裝磁碟機 >: \Program Files\Common Files\MicrosoftShared\Adapters\SAP。 全新安裝之後的檔案內容[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]，如下所示。  
+如果您選擇要安裝[!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)]([!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]) 連同[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]安裝，安裝程式會複製 SAPDiscoveredObjects.xml 檔案通常位於\<安裝磁碟機\>: \Program Files\Common 檔案\Microsoft Shared\Adapters\SAP。 全新安裝之後的檔案內容[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]，如下所示。  
   
 ```  
 <DiscoveredObjects>  
@@ -56,10 +56,10 @@ ms.lasthandoff: 09/20/2017
   
  `name`屬性 < 伺服器\>元素包含伺服器連線到使用 DDEX 外掛程式的名稱。 `user`和`client`屬性的 < 伺服器\>元素分別包含使用者名稱和用戶端編號。 `type`屬性包含連接字串 （A、 B 或 a） 用來連接到 SAP 系統的型別。 如需類型的連接字串的詳細資訊，請參閱[閱讀 SAP 連接字串的資料提供者類型](../../adapters-and-accelerators/adapter-sap/read-about-data-provider-types-for-the-sap-connection-string.md)。  
   
- \<表格 > 項目包含的資料表，您將使用的外掛程式的名稱。 同樣地， \<Rfc > 項目包含您將使用的外掛程式的 Rfc。 如果您連接到多個 SAP 伺服器，另一個\<伺服器 > 項目會加入至 XML 檔案，而且對應的資料表和 Rfc 列在\<資料表 > 和\<Rfc > 項目。  
+ \<資料表\>元素包含的資料表，您將使用的外掛程式的名稱。 同樣地， \<Rfc\>元素包含您將使用的外掛程式的 Rfc。 如果您連接到多個 SAP 伺服器，另一個\<伺服器\>項目會加入至 XML 檔案，而且對應的資料表和 Rfc 列在\<資料表\>和\<Rfc\>項目。  
   
 > [!NOTE]
 >  如需使用 Visual Studio DDEX 外掛程式的指示，請參閱[使用資料提供者的 DDEX 外掛程式與 SAP](../../adapters-and-accelerators/adapter-sap/use-the-data-provider-for-sap-with-the-ddex-plug-in.md)。  
   
-## <a name="see-also"></a>另請參閱  
- [關於.NET Framework Data Provider for mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/about-the-net-framework-data-provider-for-mysap-business-suite.md)
+## <a name="see-also"></a>請參閱  
+ [關於 .NET Framework Data Provider for mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/about-the-net-framework-data-provider-for-mysap-business-suite.md)

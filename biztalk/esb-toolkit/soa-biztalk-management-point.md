@@ -12,19 +12,19 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 22e779bf9e6297cc9e69e7e0cd85b88afc44dccf
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 19d57f602854572349d7fc7905a607c19fec5cf2
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="soa-biztalk-management-point"></a>SOA BizTalk 管理點
-BizTalk 管理點[!INCLUDE[prague](../includes/prague-md.md)]是概念性的擴充功能到 SOA 軟體的 Web 服務管理點，專為套用[!INCLUDE[prague](../includes/prague-md.md)]環境與提供的執行階段管理的 Web 服務應用程式。  
+BizTalk 管理點，以便讓 BizTalk Server 是 SOA 軟體的 Web 服務管理點，套用特定 BizTalk Server 環境，並提供 Web 服務應用程式的執行階段控管概念擴充功能。  
   
  本節包含下列主題：  
   
--   [SOA BizTalk 管理點的概觀](../esb-toolkit/overview-of-the-soa-biztalk-management-point.md)  
+-   [SOA BizTalk 管理點概觀](../esb-toolkit/overview-of-the-soa-biztalk-management-point.md)  
   
 -   [BizTalk Server 整合](../esb-toolkit/biztalk-server-integration1.md)  
   
--   [監視原則和使用方式資訊](../esb-toolkit/monitoring-policies-and-usage-information.md)
+-   [監控原則和使用方式資訊](../esb-toolkit/monitoring-policies-and-usage-information.md)

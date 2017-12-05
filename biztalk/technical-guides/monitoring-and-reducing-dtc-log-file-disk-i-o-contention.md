@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7206c4220153ee95f78e5744a2df2ff7eeb3541e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ca71b55c2f9e18875ef67e840e8dac18a81dddac
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="monitoring-and-reducing-dtc-log-file-disk-io-contention"></a>監視與降低 DTC 記錄檔的磁碟 I/O 競爭
 分散式交易協調器 (DTC) 記錄檔可以成為在交易密集的環境中的磁碟 I/O 瓶頸。 使用支援交易，例如 SQL Server、 MSMQ 或 MQSeries，或在多個 MessageBox 的環境中的介面卡時，這是特別有用。 交易式配接器使用 DTC 交易，並多 MessageBox 環境會大量使用 DTC 交易。  
@@ -27,7 +27,7 @@ ms.lasthandoff: 09/20/2017
  在環境中，SQL Server 已叢集化，這是不太多的主要考量因為記錄檔，就會共用的磁碟機，可能會有多個磁針的快速 SAN 磁碟機上。 因為可能會成為瓶頸，以在非叢集環境或與其他需要大量的磁碟檔案的共用磁碟上的 DTC 記錄檔時，不過仍應監視磁碟 I/O 使用量。  
   
 ## <a name="troubleshooting-dtc"></a>疑難排解 DTC  
- 如需疑難排解 DTC 的詳細資訊，請參閱"疑難排解問題與 MSDTC 」 中的[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]協助在[http://go.microsoft.com/fwlink/?LinkId=153237](http://go.microsoft.com/fwlink/?LinkId=153237)。  
+ 如需疑難排解 DTC 的詳細資訊，請參閱 「 疑難排解問題與 MSDTC 」 中 BizTalk Server 說明在[http://go.microsoft.com/fwlink/?LinkId=153237](http://go.microsoft.com/fwlink/?LinkId=153237)。  
   
-## <a name="see-also"></a>另請參閱  
- [檢查清單： 設定 Windows Server](../technical-guides/checklist-configuring-windows-server.md)
+## <a name="see-also"></a>請參閱  
+ [檢查清單：設定 Windows Server](../technical-guides/checklist-configuring-windows-server.md)

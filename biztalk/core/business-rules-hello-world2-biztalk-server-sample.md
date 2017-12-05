@@ -15,11 +15,11 @@ caps.latest.revision: "21"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 48d92d3de6b4ef6b4d541d7f64e0d483feb9c30f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: eed1c0c83432417b53debcf523eeec91f85e5c2b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="business-rules-hello-world2-biztalk-server-sample"></a>商務規則 Hello World2 （BizTalk Server 範例）
 商務規則 Hello World2 範例會擴充 「 商務規則 Hello world1 」 範例示範如何為版本時，發佈和部署 XML 規則集至共用的 SQL 規則存放區，以及如何執行原則使用**原則**物件「 商務規則架構所提供。 這個範例還會示範動態原則更新的實際操作。  
@@ -55,7 +55,7 @@ ms.lasthandoff: 09/20/2017
 >  如需在此 SDK 中的所有範例的重要資訊，請參閱[範例](../core/samples-in-the-sdk.md)。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- *\<範例路徑 >*\Business Rules\Business 規則 Hello World2\  
+ *\<範例路徑\>*\Business Rules\Business 規則 Hello World2\  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -74,7 +74,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  在命令視窗中，瀏覽至下列資料夾：  
   
-     *\<範例路徑 >*\Business Rules\Business 規則 Hello World2\  
+     *\<範例路徑\>*\Business Rules\Business 規則 Hello World2\  
   
 2.  執行檔案 Setup.bat，這會執行下列動作：  
   
@@ -93,7 +93,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  在命令視窗中，瀏覽至下列資料夾：  
   
-     *\<範例路徑 >*\Business Rules\Business 規則 Hello World2\bin\Debug\  
+     *\<範例路徑\>*\Business Rules\Business 規則 Hello World2\bin\Debug\  
   
 2.  在 [命令] 視窗中，輸入此範例的檔案名稱 (**BusinessRulesHelloWorld2.exe**)，然後按 ENTER 鍵。  
   
@@ -157,5 +157,5 @@ Press ENTER to continue after updating the policy...
   
 -   現在，原則的次要版本號碼為 1。  
   
-## <a name="see-also"></a>另請參閱  
- [商務規則 （BizTalk Server 範例資料夾）](../core/business-rules-biztalk-server-samples-folder.md)
+## <a name="see-also"></a>請參閱  
+ [商務規則 (BizTalk Server Samples 資料夾)](../core/business-rules-biztalk-server-samples-folder.md)

@@ -16,11 +16,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7b5162d05f9daa591458acaf87aefd86478ef70d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3e04d2dfcd6d7f34b0a60a450b64e217b02390a6
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="tpe-menu-options"></a>TPE 功能表選項
 本主題說明追蹤設定檔編輯器 (TPE) 的功能表選項。 主功能表包括了 [檔案]、[工具] 與 [說明]。  
@@ -91,7 +91,7 @@ ms.lasthandoff: 09/20/2017
  您可以同時使用多個組件。 您並非同時使用這些組件工作，但是在與任何單一 BAM 活動定義相關的單一編輯工作階段中，可以存取多個組件。  換句話說，如果您匯入 BAM 活動定義，然後從中選取三個組件來繪製追蹤的項目，TPE 建立的設定檔便會套用至與追蹤設定檔所用之協調流程和連接埠關聯的多個設定檔。 追蹤設定檔永遠會包含關於所有與任何指定 BAM 活動定義關聯的組件資訊。  
   
 > [!CAUTION]
->  在 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 中，每個 BAM 活動只能部署一個追蹤設定檔。 換句話說，如果您部署已有活動對應至協調流程的設定檔，後來又部署另一個有相同活動對應到不同協調流程的設定檔，則會覆寫第一個部署的設定檔。  
+>  在 BizTalk Server 中，每個 BAM 活動只能有一個針對其所部署的追蹤設定檔。 換句話說，如果您部署已有活動對應至協調流程的設定檔，後來又部署另一個有相同活動對應到不同協調流程的設定檔，則會覆寫第一個部署的設定檔。  
   
 ### <a name="remove-tracking-profile"></a>移除追蹤設定檔  
  **移除追蹤設定檔**功能表選項會移除載入的活動定義及其對應的協調流程和連接埠的追蹤設定檔。 TPE 會先提示您進行確認，再完成此動作。  
@@ -116,6 +116,6 @@ ms.lasthandoff: 09/20/2017
   
 -   **關於追蹤設定檔編輯器**– 顯示標準的相關資訊。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [TPE 的元件](../core/components-of-the-tpe.md)   
  [追蹤設定檔編輯器](../core/tracking-profile-editor.md)

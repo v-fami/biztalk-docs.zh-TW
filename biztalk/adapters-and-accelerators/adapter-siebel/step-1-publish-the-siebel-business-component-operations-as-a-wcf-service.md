@@ -12,11 +12,11 @@ caps.latest.revision: "23"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1dc83a0531460f513d146e2d03d0ef7e0a7c529f
-ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
+ms.openlocfilehash: fe869b76a155acb326420c3d5c29850548d8b7ff
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-1-publish-the-siebel-business-component-operations-as-a-wcf-service"></a>步驟 1： 為 WCF 服務發佈 Siebel 商務元件操作
 ![步驟 4 之 1](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-1of4.gif "Step_1of4")  
@@ -34,7 +34,7 @@ ms.lasthandoff: 10/17/2017
   
 -   必要的 Siebel 用戶端。  
   
- 如需有關這些必要條件的詳細資訊，請參閱[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]安裝指南。 在一般安裝安裝指南 》\<安裝磁碟機 >: \Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Documents。  
+ 如需有關這些必要條件的詳細資訊，請參閱[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]安裝指南。 在一般安裝安裝指南 》\<安裝磁碟機\>: \Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Documents。  
   
 ## <a name="publish-the-siebel-business-components-as-a-wcf-service"></a>Siebel 商務元件發佈為 WCF 服務  
   
@@ -53,7 +53,7 @@ ms.lasthandoff: 10/17/2017
   
 5.  選擇 [作業] 頁面上指定的連接字串連接至 Siebel 系統。 若要這樣做：  
   
-    1.  在**選取繫結**清單中，按一下**siebelBinding**，然後按一下**設定**。  
+    1.  在**選取繫結**清單中，按一下**siebelBinding**，然後按一下 **設定**。  
   
     2.  在**設定配接器**對話方塊中，按一下 [**安全性**] 索引標籤。  
   
@@ -68,7 +68,7 @@ ms.lasthandoff: 10/17/2017
   
          如需繫結屬性的詳細資訊，請參閱[閱讀 BizTalk Adapter for Siebel 繫結屬性](../../adapters-and-accelerators/adapter-siebel/read-about-biztalk-adapter-for-siebel-binding-properties.md)。  
   
-    6.  按一下**確定**，然後按一下**連接**。 建立連接之後，連線狀態會顯示為**Connected**。  
+    6.  按一下**確定**，然後按一下 **連接**。 建立連接之後，連線狀態會顯示為**Connected**。  
   
 6.  在選擇 [作業] 頁面中**選取的合約型別**清單中，按一下**用戶端 （輸出作業）**。  
   
@@ -165,11 +165,11 @@ ms.lasthandoff: 10/17/2017
   
 17. 請確認已成功發行 WCF 服務。  
   
-    1.  啟動 IIS Microsoft Management Console。 按一下**啟動**，指向 **系統管理工具**，然後按一下 **Internet Information Services**。  
+    1.  啟動 IIS Microsoft Management Console。 按一下**啟動**，指向 **系統管理工具**，然後按一下  **Internet Information Services**。  
   
-    2.  瀏覽至您用來發行服務的節點。 如**Siebel_Account**服務，請瀏覽至**Internet Information Services** > **\<電腦名稱 >**  >  **Web Sites** > **Default Web Site** > **Siebel_Account**。  
+    2.  瀏覽至您用來發行服務的節點。 如**Siebel_Account**服務，請瀏覽至**Internet Information Services** > **\<電腦名稱\>**  > **Web Sites** > **Default Web Site** > **Siebel_Account**。  
   
-    3.  在右窗格中，BusinessObjects_Account_Account_Operation.svc 檔案，以滑鼠右鍵按一下，然後按一下**瀏覽**。  
+    3.  在右窗格中，BusinessObjects_Account_Account_Operation.svc 檔案，以滑鼠右鍵按一下，然後按一下 **瀏覽**。  
   
     4.  擷取 WSDL 的 URL 和一同顯示網頁。 若要測試使用 svcutil 命令擷取的中繼資料。 比方說，是擷取 Siebel_Account 服務中繼資料的命令：  
   
@@ -180,5 +180,5 @@ ms.lasthandoff: 10/17/2017
 ## <a name="next-steps"></a>後續步驟  
  您現在可以 Siebel 商務元件的 WCF 服務。 若要建立 Siebel 商務元件操作的應用程式定義檔中使用商務資料目錄定義編輯器。 請參閱[步驟 2： 建立應用程式定義檔的 Siebel 商務元件操作](../../adapters-and-accelerators/adapter-siebel/step-2-create-an-application-definition-file-for-siebel-business-component.md)如需相關指示。 應用程式定義檔識別 LOB 資料的儲存位置，以及儲存它的格式。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [教學課程 1：在 SharePoint 網站上呈現 Siebel 系統的資料](../../adapters-and-accelerators/adapter-siebel/tutorial-1-presenting-data-from-a-siebel-system-on-a-sharepoint-site.md)

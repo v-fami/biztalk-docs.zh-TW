@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ef1d583389189e09a0b9e0e5157ce5466004c03a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 57fb0073437c32c8a8f064a4c77f267ee6806858
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="creating-a-custom-resolver"></a>建立自訂的解析程式
 中的解析器和配接器提供者架構實作[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]會使用名為發送器管線元件和名為 ItineraryReceive 和 ItinerarySend 的管線。  
@@ -172,7 +172,7 @@ UDDI:\\serverUrl=http://localhost/uddi;serviceName=OrderPurchaseToOrderPost;serv
   
 1.  建立組件實作的類別與**IResolveProvider**介面，並包含**解決**方法會傳回解析程式事實的執行個體形式**字典**類別。  
   
-2.  註冊解決器將它加入 Esb.config 組態檔使用**\<解析程式 >**元素包含做為根 moniker**名稱**屬性和完整格式組件名稱為**類型**屬性。  
+2.  註冊解決器將它加入 Esb.config 組態檔使用**\<解析程式\>**元素包含做為根 moniker**名稱**屬性和完整限定組件名稱為**類型**屬性。  
   
 3.  （選擇性）建立結構描述定義的根 moniker 和查詢參數，並再將它儲存在 ESB。Schemas.Resolvers 資料夾。 名稱應該遵循現有的 ESB 命名慣例。這表示它應使用的名稱加上"_Resolution.xsd"的根 moniker。  
   

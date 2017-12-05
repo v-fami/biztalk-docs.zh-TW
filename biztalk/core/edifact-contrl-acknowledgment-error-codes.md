@@ -12,11 +12,11 @@ caps.latest.revision: "12"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e492b4c7092ec1561354fe772b11e16ea6c093ee
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ee3aeff19069de5a10d7303b8b38d32a3a4ed3b7
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="edifact-contrl-acknowledgment-error-codes"></a>EDIFACT CONTRL 通知錯誤碼
 本主題列出 EDIFACT CONTRL 通知區段中所使用的錯誤碼。 如需有關這些區段的詳細資訊，請參閱[EDIFACT CONTRL 通知](../core/edifact-contrl-acknowledgment.md)。  
@@ -25,7 +25,7 @@ ms.lasthandoff: 09/20/2017
   
  **標準 EDIFACT 錯誤碼**  
   
- 下表列出 EDIFACT CONTRL 通知 UCI5 欄位中所使用的錯誤碼。 下表指出支援哪些由 EDIFACT 規格指定的錯誤碼[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]EDI 和 AS2，以及不支援。  
+ 下表列出 EDIFACT CONTRL 通知 UCI5 欄位中所使用的錯誤碼。 下表指出支援哪些由 EDIFACT 規格指定的錯誤代碼在 BizTalk Server EDI 和 AS2，以及不支援。  
   
 |錯誤碼|條件|原因|支援？|  
 |----------------|---------------|-----------|----------------|  

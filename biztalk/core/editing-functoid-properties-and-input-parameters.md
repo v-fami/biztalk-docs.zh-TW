@@ -12,16 +12,16 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1f7839807244ecebadeb93640703886c12ce646a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a3d87396713b7fa8f7874b921e6ee9097399d1c6
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="editing-functoid-properties-and-input-parameters"></a>編輯運算質屬性和輸入參數
 運算質屬性可分為下列幾類：  
   
--   **標籤**和**輸入參數**。 這兩個屬性為讀取/寫入屬性，且所有運算質都有這些屬性。 **標籤**屬性提供一個機制，提供運算質，而這有助於維護對應的特定執行個體的描述性名稱。 **輸入參數**屬性可存取**設定\<運算質 > 運算質**對話方塊中，運算質組態中扮演中心角色。  
+-   **標籤**和**輸入參數**。 這兩個屬性為讀取/寫入屬性，且所有運算質都有這些屬性。 **標籤**屬性提供一個機制，提供運算質，而這有助於維護對應的特定執行個體的描述性名稱。 **輸入參數**屬性可存取**設定\<運算質\>運算質**對話方塊中，運算質組態中扮演中心角色。  
   
 -   **指令碼**和**表格迴圈格線**。 這兩個屬性提供的存取權僅適用於對話方塊**指令碼處理**和**表格迴圈**運算質，分別。 這些對話方塊分別是**設定指令碼處理運算質**對話方塊和**設定表格迴圈運算質** 對話方塊。  
   

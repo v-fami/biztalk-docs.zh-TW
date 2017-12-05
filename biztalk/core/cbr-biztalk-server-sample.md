@@ -12,18 +12,18 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f8694e0525eae82c6df4e6187d6182fbfae3f43e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 30811b4f0dba463d518bdd9cd8f6d227e0e79aac
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="cbr-biztalk-server-sample"></a>CBR （BizTalk Server 範例）
 CBR 範例將示範如何使用**ExplorerOM**系統管理物件來加入和設定新傳送埠的 BizTalk 訊息的內容為基礎的路由。  
   
 ## <a name="prerequisites"></a>必要條件  
   
--   這個範例需要，藉由執行中的 setup.bat 部署 CBRSample \<*範例路徑*> \Messaging\CBRSample 目錄。  
+-   這個範例需要，藉由執行中的 setup.bat 部署 CBRSample \<*範例路徑*\>\Messaging\CBRSample 目錄。  
   
 -   您必須擁有[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]在此範例中使用的系統管理物件的系統管理權限。  
   
@@ -47,7 +47,7 @@ CBR 範例將示範如何使用**ExplorerOM**系統管理物件來加入和設�
 ## <a name="where-to-find-this-sample"></a>此範例的位置  
  這個範例位於下列 SDK 位置：  
   
- \<*範例路徑*> \Admin\ExplorerOM\CBR  
+ \<*範例路徑*\>\Admin\ExplorerOM\CBR  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -74,7 +74,7 @@ CBR 範例將示範如何使用**ExplorerOM**系統管理物件來加入和設�
   
 3.  開啟命令視窗並巡覽至下列資料夾：  
   
-     \<*範例路徑*> \Admin\ExplorerOM\CBR\bin\Debug  
+     \<*範例路徑*\>\Admin\ExplorerOM\CBR\bin\Debug  
   
 4.  執行檔案 CBR.exe。  
   
@@ -196,6 +196,6 @@ Transform : CBRSample.CBRInput2CANMap,CBRSample, Version=1.0.0.0, Culture=neutra
   
 ```  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [系統管理員 ExplorerOM （BizTalk Server 範例資料夾）](../core/admin-explorerom-biztalk-server-samples-folder.md)   
- [CBRSample （BizTalk Server 範例）](../core/cbrsample-biztalk-server-sample.md)
+ [CBRSample (BizTalk Server 範例)](../core/cbrsample-biztalk-server-sample.md)

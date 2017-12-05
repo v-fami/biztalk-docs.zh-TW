@@ -13,11 +13,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8c0ee3d0905f5ee4205cb5f9e2357573bdbf55b4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d7c7efc6a59e9dd4c163388803763a7b90a13b31
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="message-schemas-for-the-sqlexecute-operation"></a>SQLEXECUTE 操作的訊息結構描述
 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]呈現強型別中繼資料的成品存在於 LOB 系統，並公開在這些成品的標準作業。 不過，有一些的案例，其中的應用程式可能需要執行任意的 SQL 陳述式由應用程式中的商務邏輯所驅動。 例如，您可能想要：  
@@ -58,7 +58,7 @@ ms.lasthandoff: 09/20/2017
   
  [PARAM_VAL_1] = 第一個參數的值。  
   
- 每個\<PARAMETERDATA > 區段包含一組完整的\<參數 > 符合結構描述中的項目\<PARAMETERSCHEMA > 一節。 \<PARAMETERSET > 可以包含多個\<PARAMETERDATA > 區段。 如果這種情況，SQL 陳述式會執行許多次，一次針對每個參數集。  
+ 每個\<PARAMETERDATA\>章節包含一組完整的\<參數\>符合結構描述中的項目\<PARAMETERSCHEMA\> > 一節。 \<PARAMETERSET\>可以包含多個\<PARAMETERDATA\>區段。 如果這種情況，SQL 陳述式會執行許多次，一次針對每個參數集。  
   
-## <a name="see-also"></a>另請參閱  
- [訊息和訊息結構描述，BizTalk adapter for Oracle 資料庫](../../adapters-and-accelerators/adapter-oracle-database/messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md)
+## <a name="see-also"></a>請參閱  
+ [BizTalk Adapter for Oracle Database 的訊息和訊息結構描述](../../adapters-and-accelerators/adapter-oracle-database/messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md)

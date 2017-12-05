@@ -18,11 +18,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1555abddd218d28c360ee5364fa30fabaed47aa0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9090c4ee7d576bb7ab610cd81637680d837b2cae
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="walkthrough-using-xml-envelopes-basic"></a>逐步解說： 使用 XML 信封 （基本）
 此範例藉由實作虛構錯誤追蹤系統的一部分，示範基本的 XML 信封解譯。 這個範例符合下列需求：  
@@ -105,9 +105,9 @@ ms.lasthandoff: 09/20/2017
   
 3.  將根節點的名稱，由 "Root" 變更為 "Envelope"。  
   
-4.  現在將結構描述標示為信封結構描述。 按一下**\<結構描述 >**節點。 在 屬性 窗格中，設定 結構描述參考屬性**信封**至`OK`。  
+4.  現在將結構描述標示為信封結構描述。 按一下**\<結構描述\>**節點。 在 屬性 窗格中，設定 結構描述參考屬性**信封**至`OK`。  
   
-5.  設定**Body XPath**屬性。 若要這樣做，請按一下**信封**節點。 在 [屬性] 視窗中，按一下省略符號 (**...**) 按鈕**Body XPath**屬性選取**信封**，然後按一下**確定**。  
+5.  設定**Body XPath**屬性。 若要這樣做，請按一下**信封**節點。 在 屬性 視窗中，按一下省略符號 (**...**) 按鈕**Body XPath**屬性選取**信封**，然後按一下 **確定**。  
   
 6.  新增 Any 項目子系至 [Envelope] 節點。 錯誤訊息將會包含在此項目中。 您的結構描述應該如下所示：  
   
@@ -149,11 +149,11 @@ ms.lasthandoff: 09/20/2017
   
 1.  使用 Windows 檔案總管底下建立名為"Receive"目錄**BasicXMLEnvelope**專案目錄。  
   
-2.  在 BizTalk Server 管理主控台中，展開  **BasicXMLEnvelope**應用程式，以滑鼠右鍵按一下**接收埠**，指向 **新增**，然後按一下 **單向接收埠**。  
+2.  在 BizTalk Server 管理主控台中，展開  **BasicXMLEnvelope**應用程式，以滑鼠右鍵按一下**接收埠**，指向 **新增**，然後按一下  **單向接收埠**。  
   
 3.  在**接收埠屬性**對話方塊方塊中，設定為"Receive"的連接埠的名稱。  
   
-4.  以滑鼠右鍵按一下接收位置，然後**新增**新增接收埠。 將新連接埠命名為 "ReceiveError"。 設定**接收管線**至**XMLReceive**。 如**傳輸類型**，選取**檔案**，然後按一下**設定**。  
+4.  以滑鼠右鍵按一下接收位置，然後**新增**新增接收埠。 將新連接埠命名為 "ReceiveError"。 設定**接收管線**至**XMLReceive**。 如**傳輸類型**，選取**檔案**，然後按一下 **設定**。  
   
 5.  選取上面所建立的接收目錄，然後按一下**確定**。 接收埠即設定完成。 按一下**確定**關閉。  
   
@@ -161,11 +161,11 @@ ms.lasthandoff: 09/20/2017
   
 1.  使用 Windows 檔案總管 底下建立名為 「 傳送 」 的目錄**BasicXMLEnvelope**專案目錄。  
   
-2.  在 BizTalk Server 管理主控台中，展開  **BasicXMLEnvelope**應用程式，以滑鼠右鍵按一下**傳送埠**，指向**新增**，然後按一下 **靜態單向**。  
+2.  在 BizTalk Server 管理主控台中，展開  **BasicXMLEnvelope**應用程式，以滑鼠右鍵按一下**傳送埠**，指向**新增**，然後按一下  **靜態單向**。  
   
 3.  在**傳送埠屬性**對話方塊方塊中，設定 「 傳送 」 的連接埠的名稱。  
   
-4.  如**傳輸類型**，選取**檔案**，然後按一下**設定**。 將目的資料夾設定為您稍早建立的傳送目錄，然後按一下**確定**。  
+4.  如**傳輸類型**，選取**檔案**，然後按一下 **設定**。 將目的資料夾設定為您稍早建立的傳送目錄，然後按一下**確定**。  
   
 5.  按一下**篩選**並加入單一篩選條件：  
   
@@ -200,7 +200,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**接收埠屬性**對話方塊中，按一下 **接收位置**。 按一下**屬性**啟動**ReceiveError 接收位置屬性** 對話方塊。 按一下省略符號 (**...**) 按鈕**接收管線**。  
   
-3.  中**設定管線-XMLReceive**  對話方塊中，將**可復原交換處理**屬性`True`，然後按一下**確定**。  
+3.  中**設定管線-XMLReceive** ] 對話方塊中，將**可復原交換處理**屬性`True`，然後按一下 [**確定**。  
   
 4.  按一下**確定**關閉**接收位置屬性**對話方塊，然後按一下**[確定]**關閉**接收埠屬性**對話方塊方塊。  
   
@@ -244,7 +244,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  與**BasicXMLEnvelope**中開啟專案[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]，開啟**錯誤**結構描述並展開**錯誤**節點。  
   
-2.  以滑鼠右鍵按一下**優先順序**項目，指向**升階**，然後按一下**快速升級**。  
+2.  以滑鼠右鍵按一下**優先順序**項目，指向**升階**，然後按一下 **快速升級**。  
   
 3.  按一下**確定**以確認要升級屬性的新屬性結構描述。  
   
@@ -258,11 +258,11 @@ ms.lasthandoff: 09/20/2017
   
 1.  使用 Windows 檔案總管底下建立名為"SendLowMediumPriority"目錄**BasicXMLEnvelope**專案目錄。  
   
-2.  在 BizTalk Server 管理主控台中，展開  **BasicXMLEnvelope**應用程式，以滑鼠右鍵按一下**傳送埠**，指向**新增**，然後按一下 **靜態單向**。  
+2.  在 BizTalk Server 管理主控台中，展開  **BasicXMLEnvelope**應用程式，以滑鼠右鍵按一下**傳送埠**，指向**新增**，然後按一下  **靜態單向**。  
   
 3.  在**傳送埠屬性**對話方塊方塊中，設定為"SendLowMediumPriority"的連接埠的名稱。  
   
-4.  如**傳輸類型**，選取**檔案**，然後按一下**設定**。 將目的資料夾設定為剛才建立的目錄。 按一下**確定**關閉。  
+4.  如**傳輸類型**，選取**檔案**，然後按一下 **設定**。 將目的資料夾設定為剛才建立的目錄。 按一下**確定**關閉。  
   
 5.  按一下**篩選**並加入三個篩選條件運算式：  
   
@@ -278,11 +278,11 @@ ms.lasthandoff: 09/20/2017
   
 1.  使用 Windows 檔案總管底下建立名為"SendHighPriority"目錄**BasicXMLEnvelope**專案目錄。  
   
-2.  在 BizTalk Server 管理主控台中，展開  **BasicXMLEnvelope**應用程式，以滑鼠右鍵按一下**傳送埠**，指向**新增**，然後按一下 **靜態單向**。  
+2.  在 BizTalk Server 管理主控台中，展開  **BasicXMLEnvelope**應用程式，以滑鼠右鍵按一下**傳送埠**，指向**新增**，然後按一下  **靜態單向**。  
   
 3.  在**傳送埠屬性**對話方塊方塊中，設定為"SendHighPriority"的連接埠的名稱。  
   
-4.  如**傳輸類型**，選取**檔案**，然後按一下**設定**。 將目的資料夾設定為剛才建立的目錄。 按一下**確定**關閉。  
+4.  如**傳輸類型**，選取**檔案**，然後按一下 **設定**。 將目的資料夾設定為剛才建立的目錄。 按一下**確定**關閉。  
   
 5.  按一下**篩選**並加入兩個篩選條件運算式：  
   
@@ -302,7 +302,7 @@ ms.lasthandoff: 09/20/2017
   
     -   如果已啟用可復原交換處理，失敗的錯誤訊息就不會路由，並如預期般，將正確路由 nonfailed 的訊息。 之所以不會傳送失敗訊息，是因為其訊息類型與篩選條件中使用的類型不相符。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [可復原交換處理](../core/recoverable-interchange-processing.md)   
  [升級屬性](../core/promoting-properties.md)   
- [CBRSample （BizTalk Server 範例）](../core/cbrsample-biztalk-server-sample.md)
+ [CBRSample (BizTalk Server 範例)](../core/cbrsample-biztalk-server-sample.md)

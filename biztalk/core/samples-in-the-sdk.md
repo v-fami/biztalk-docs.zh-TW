@@ -13,18 +13,18 @@ caps.latest.revision: "23"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5181c501543c1dc1518665a55f4429ae12b4cf06
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: 5780e90260f591696e494411deff97a4cdc246f3
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="samples-in-the-sdk"></a>SDK 中的範例
 
 ## <a name="folder-paths"></a>資料夾路徑
 本章節描述 30 個以上的範例包含在 Microsoft[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]軟體開發套件 (SDK)。 本節提供有關每個範例，包括建置範例、 如何執行此程式碼，和預期的結果指示的詳細的資訊。  
   
- 這些範例說明文件會使用路徑縮寫\<*範例路徑*> 來代表您的安裝中的範例的路徑。 預設路徑可能隨著安裝期間所做的選擇而不同。 下表提供一般安裝案例的預設路徑。  
+ 這些範例說明文件會使用路徑縮寫\<*範例路徑*\>來代表您的安裝中的範例的路徑。 預設路徑可能隨著安裝期間所做的選擇而不同。 下表提供一般安裝案例的預設路徑。  
   
 |Description|路徑|  
 |-----------------|----------|  

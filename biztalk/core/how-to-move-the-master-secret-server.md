@@ -16,22 +16,22 @@ caps.latest.revision: "20"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8b35fae6551a95c1c2009ac9786aa791d189f338
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4158b59e3cce9664ca7c8c7d8ea4c5e3221b04b9
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-move-the-master-secret-server"></a>如何移動主要密碼伺服器
 您可以遵循本主題所說明的步驟，將某一部伺服器上的主要密碼移動到另一部伺服器，以及將伺服器上的主要密碼移動到「Windows 伺服器叢集」。  
   
 ### <a name="to-move-the-master-secret-from-one-server-to-another-server"></a>將某一部伺服器上的主要密碼移動到另一部伺服器  
   
-1.  若尚未在新的主要密碼伺服器上安裝「Microsoft 企業單一登入」(SSO) 伺服器，請先安裝。 從 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] CD 上的 \Platform\SSO\setup.exe 啟動 Microsoft 企業單一登入伺服器的安裝程式。  
+1.  若尚未在新的主要密碼伺服器上安裝「Microsoft 企業單一登入」(SSO) 伺服器，請先安裝。 啟動 Microsoft 企業單一登入伺服器安裝程式，從 BizTalk Server CD 上的 \Platform\SSO\setup.exe。  
   
 2.  若尚未在新的主要密碼伺服器上設定「企業單一登入」，請先設定。 依照下列步驟來設定「企業單一登入」：  
   
-    1.  開啟組態工具。 根據預設，組態工具位於\<磁碟機 >: \Program Files\Common Files\Enterprise Single On\Configuration.exe。  
+    1.  開啟組態工具。 根據預設，組態工具位於\<磁碟機\>: \Program Files\Common Files\Enterprise Single On\Configuration.exe。  
   
     2.  按一下以選取**企業單一登入**的左窗格中。  
   
@@ -66,7 +66,7 @@ ms.lasthandoff: 09/20/2017
   
     2.  將檔案儲存為 .xml 檔。 例如，將檔案儲存為**NewMSSServer.xml**。  
   
-    3.  在命令提示字元，變更為「企業單一登入」安裝資料夾。 根據預設，安裝資料夾是\<磁碟機 >: \Program Files\Common Files\Enterprise Single Sign-on。  
+    3.  在命令提示字元，變更為「企業單一登入」安裝資料夾。 根據預設，安裝資料夾是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
     4.  型別**ssomanage-updatedb** *XMLFile*來更新資料庫中的主要密碼伺服器名稱。  
   
@@ -120,5 +120,5 @@ ms.lasthandoff: 09/20/2017
   
 7.  在含有叢集式主要密碼伺服器之 Windows 叢集的各個節點上復原備份的主要密碼。 請依照[如何還原主要密碼](../core/how-to-restore-the-master-secret.md)含有叢集主要密碼伺服器的 Windows 叢集的每個節點上。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理主要密碼](../core/managing-the-master-secret.md)

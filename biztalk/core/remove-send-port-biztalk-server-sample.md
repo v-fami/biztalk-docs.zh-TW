@@ -17,11 +17,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d2bb37ae93b45ac1721da582cc0092bda5d67999
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e8b82af2be42342d51429e42d1952816ee0dd07a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="remove-send-port-biztalk-server-sample"></a>移除傳送埠 （BizTalk Server 範例）
 「移除傳送埠」範例會示範如何取消登錄一或多個傳送埠，並且將其移除。  
@@ -46,7 +46,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
  這個範例位於下列 SDK 位置：  
   
- \<*範例路徑*> \Admin\WMI\Remove 傳送 Port\  
+ \<*範例路徑*\>\Admin\WMI\Remove 傳送 Port\  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -63,12 +63,11 @@ ms.lasthandoff: 09/20/2017
   
 1.  在命令視窗中，瀏覽至下列資料夾：  
   
-     \<*範例路徑*> \Admin\WMI\Remove 接收 Port\VBScript\  
+     \<*範例路徑*\>\Admin\WMI\Remove 接收 Port\VBScript\  
   
 2.  執行 RemoveSendPort.vbs 檔案，它會使用 cscript 程式，並傳遞下列命令列引數：  
   
-     **\<**   
-     ***SendPortName* >。** 要移除之傳送埠的名稱。 如果傳送埠名稱包含空格，請用引號括住該名稱。  
+     **\<** ***SendPortName* \>。** 要移除之傳送埠的名稱。 如果傳送埠名稱包含空格，請用引號括住該名稱。  
   
      例如：  
   
@@ -81,5 +80,5 @@ ms.lasthandoff: 09/20/2017
   
  指令檔 RemoveSendPort.vbs 包含詳細註解，其中含有其所執行作業的深入說明。 如需詳細資訊，請參閱 < 在 Windows Management Instrumentation [http://go.microsoft.com/fwlink/?LinkId=21102](http://go.microsoft.com/fwlink/?LinkId=21102)。  
   
-## <a name="see-also"></a>另請參閱  
- [管理 WMI （BizTalk Server 範例資料夾）](../core/admin-wmi-biztalk-server-samples-folder.md)
+## <a name="see-also"></a>請參閱  
+ [Admin-WMI (BizTalk Server Samples 資料夾)](../core/admin-wmi-biztalk-server-samples-folder.md)

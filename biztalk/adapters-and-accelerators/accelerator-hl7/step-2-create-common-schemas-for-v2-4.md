@@ -13,11 +13,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 07260c5f0d161698545ff7fd5b5177a5374f3d04
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 60b199bcd350a3341640baa05b875347c4f04bb5
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-2-create-common-schemas-for-v24"></a>步驟 2： 建立 V2.4 通用結構描述
 V2.4 結構描述是經常參考的結構描述，以用來驗證查詢和回應訊息執行個體。  
@@ -42,7 +42,7 @@ V2.4 結構描述是經常參考的結構描述，以用來驗證查詢和回應
   
 8.  在右窗格中，向下捲動至**強式名稱**區段中，按一下右邊的欄位**組件金鑰檔案**，然後按一下省略符號 （...） 按鈕。  
   
-9. 在**組件金鑰檔案**對話方塊中，瀏覽至\<*磁碟機*>: \Program Files\Microsoft BizTalk\<版本 > Accelerator for HL7\SDK\Interrogative 教學課程中，按一下**key.snk**，然後按一下 **開啟**。  
+9. 在**組件金鑰檔案**對話方塊中，瀏覽至\<*磁碟機*\>: \Program Files\Microsoft BizTalk\<版本\>Accelerator for HL7\SDK\Interrogative 教學課程，按一下**key.snk**，然後按一下 **開啟**。  
   
 10. 在 Interrogative_24Schemas 屬性頁 對話方塊中，按一下**確定**以儲存變更。  
   

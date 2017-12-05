@@ -15,14 +15,14 @@ caps.latest.revision: "11"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5fd886cfb0e8ba175c22b5d55f12a4866a68921e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a8903b6010555b3c7c6aba9a07e12c9204bcf19c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="receive-idocs-from-sap-in-a-transactional-context-using-biztalk-server"></a>從交易內容，使用 BizTalk Server 中的 SAP 接收 Idoc
-交易內容中接收 IDOC 是相似接收 tRFCs 交易內容中。 在這種情況下，從 SAP 系統接收的 IDOC 包含 TID 一部分 *\<TransactionalRfcOperationIdentifier >*項目。 此 TID 保存於 SQL 資料庫中的配接器。 如果 ABAP 程式碼會傳送 IDOC 之 SAP 系統中的有 「 認可工作 」 陳述式，TID 會刪除從 SQL database，將回應傳送到 SAP 系統之後。  
+交易內容中接收 IDOC 是相似接收 tRFCs 交易內容中。 在這種情況下，從 SAP 系統接收的 IDOC 包含 TID 一部分 *\<TransactionalRfcOperationIdentifier\>* 項目。 此 TID 保存於 SQL 資料庫中的配接器。 如果 ABAP 程式碼會傳送 IDOC 之 SAP 系統中的有 「 認可工作 」 陳述式，TID 會刪除從 SQL database，將回應傳送到 SAP 系統之後。  
   
  無論是否 IDOC 收到交易內容中不相似的需要來接收 IDOC 的協調流程。 請參閱[從 SAP 接收 Idoc，使用 BizTalk Server](../../adapters-and-accelerators/adapter-sap/receive-idocs-from-sap-using-biztalk-server.md)。 不過，您需要執行某些其他工作，以確定交易內容中接收 Idoc。  
   
@@ -37,7 +37,7 @@ ms.lasthandoff: 09/20/2017
      如需繫結屬性和設定方式的詳細資訊，請參閱[了解 BizTalk Adapter for mySAP Business Suite 繫結屬性](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md)。  
   
     > [!IMPORTANT]
-    >  [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]安裝精靈正在安裝的 SQL 指令碼、 SapAdapter-DbScript-Install.sql，必須執行 SQL Server 系統管理員可以在 SQL Server 中建立資料庫和資料庫物件。 指令碼通常會安裝在*\<安裝磁碟機 >*： 程式 FilesMicrosoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]。  
+    >  [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]安裝精靈正在安裝的 SQL 指令碼、 SapAdapter-DbScript-Install.sql，必須執行 SQL Server 系統管理員可以在 SQL Server 中建立資料庫和資料庫物件。 指令碼通常會安裝在*\<安裝磁碟機\>*： 程式 FilesMicrosoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]。  
     >   
     >  [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]保存 TIDs 會使用這些物件。 因此，SQL Server 系統管理員必須確定使用者名稱提供連接字串的一部分有足夠的權限可以執行預存程序。 提供 Windows 使用者具有足夠的權限的資料庫中執行預存程序，您也可以選擇 Windows 驗證。  
   
@@ -67,5 +67,5 @@ ms.lasthandoff: 09/20/2017
     netsh firewall set allowedprogram %windir%\system32\msdtc.exe MSDTC enable  
     ```  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [開發 BizTalk 應用程式](../../adapters-and-accelerators/adapter-sap/develop-biztalk-applications-using-the-sap-adapter.md)

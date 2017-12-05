@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 971a9c69e98bf894d41d5e23d0e852162c2ab139
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b21168c1955db8bbbae3e29019632807231b40a1
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-move-the-bam-analysis-database"></a>如何移動 BAM 分析資料庫
 您可以使用這個程序，將 BAM 分析資料庫移動到其他伺服器。  端對端案例的觀點而言，移動 BAM 分析資料庫包含兩個主要步驟：  
@@ -66,7 +66,7 @@ ms.lasthandoff: 09/20/2017
   
     1.  按一下**啟動**，按一下 **執行**，型別**cmd**，然後按一下**確定**。  
   
-    2.  在執行 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 的電腦中，瀏覽至下列資料夾：  
+    2.  在上執行 BizTalk Server 的電腦，瀏覽至下列資料夾：  
   
         -   如果[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]安裝在 64 位元版本的 Windows Server:  
   
@@ -78,10 +78,10 @@ ms.lasthandoff: 09/20/2017
   
     3.  在命令提示字元中，輸入：  
   
-         **Bm.exe get-config –filename:BAMConfiguration.xml-server:\<伺服器名稱 >-資料庫：\<資料庫 >**  
+         **Bm.exe get-config –filename:BAMConfiguration.xml-server:\<servername\> -資料庫：\<資料庫\>**  
   
         > [!NOTE]  
-        >  當執行此命令，以取代要取得組態資訊的來源伺服器的實際名稱\<伺服器名稱 >，並以要從中取得的組態資訊的資料庫的實際名稱取代\<資料庫 >。 如需有關如何使用 BAM 管理 (BM) 公用程式的詳細資訊，請參閱[基礎結構管理命令](http://go.microsoft.com/fwlink/?LinkId=156516)(http://go.microsoft.com/fwlink/?LinkId=156516) 中[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]幫助。  
+        >  當執行此命令，以取代要取得組態資訊的來源伺服器的實際名稱\<servername\> ，並以要從中取得組態資訊的資料庫的實際名稱取代\<資料庫\>。 如需有關如何使用 BAM 管理 (BM) 公用程式的詳細資訊，請參閱[基礎結構管理命令](http://go.microsoft.com/fwlink/?LinkId=156516)(http://go.microsoft.com/fwlink/?LinkId=156516) 中[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]幫助。  
   
 2.  編輯 BAMConfiguration.xml 檔案，並變更**ServerName**中`<DeploymentUnit Name="AnalysisDatabase">`區段，以新的伺服器名稱。  
   
@@ -89,7 +89,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  按一下**啟動**，按一下 **執行**，型別**cmd**，然後按一下**確定**。  
   
-5.  在執行 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 的電腦中，瀏覽至下列資料夾：  
+5.  在上執行 BizTalk Server 的電腦，瀏覽至下列資料夾：  
   
     -   如果[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]安裝在 64 位元版本的 Windows Server:  
   
@@ -174,5 +174,5 @@ ms.lasthandoff: 09/20/2017
   
 26. 啟用任何 BAM Cube 更新和資料維護 SSIS 封裝。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [移動資料庫](../technical-guides/moving-databases.md)

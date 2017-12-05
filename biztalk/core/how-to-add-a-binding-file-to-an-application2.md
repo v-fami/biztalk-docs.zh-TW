@@ -16,11 +16,11 @@ caps.latest.revision: "22"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b4e569352c5813272b483cc69b8c93a7f1b84d40
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7a1c7f0a73f811a6b339428e62a93916d9301edf
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-add-a-binding-file-to-an-application"></a>如何將繫結檔案新增至應用程式
 本主題描述如何使用 BizTalk Server 管理主控台或命令列，將繫結檔案新增至 BizTalk 應用程式。 您可能想要這樣做可以讓應用程式或組件的部署更容易中所述[繫結檔案和應用程式部署](../core/binding-files-and-application-deployment.md)。  
@@ -56,7 +56,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  按一下**啟動**，按一下 **所有程式**，按一下  [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]，然後按一下  **BizTalk Server 管理**。  
   
-2.  在主控台樹狀目錄中，展開 [[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 管理]，再展開包含您想要新增繫結檔案所至之應用程式的 BizTalk 群組。  
+2.  在主控台樹狀目錄中，展開 BizTalk Server 管理 和 包含您要新增繫結檔案的應用程式的 BizTalk 群組。  
   
 3.  展開 [應用程式]，然後以滑鼠右鍵按一下您想要在其中新增繫結檔案的應用程式。  
   
@@ -93,11 +93,11 @@ ms.lasthandoff: 09/20/2017
     |**/ 類型**|**System.biztalk: biztalkbinding** （此值不區分大小寫）。|  
     |**/ 覆寫**|此選項指定更新現有的繫結檔案。 若未指定此選項，且應用程式中現有的繫結檔案與所加入的繫結檔案同名，AddResource 作業將會失敗。|  
     |**/ 來源**|繫結檔案的完整路徑 (包含檔案名稱)。 如果路徑包含空格，您必須將它括在雙引號 (") 中。|  
-    |**/Property:TargetEnvironment =**|用於指定目標部署環境的字串。 您可以使用任意字串，例如「實際執行」。 範例： **/Property:TargetEnvironment = 「 生產 」**<br /><br /> 如果未指定值為\<預設 > 就會自動套用。 此值區分大小寫。 如果參數值包含空格，您必須將它括在雙引號 (") 中。 環境值的長度上限為 128 個字元。|  
+    |**/Property:TargetEnvironment =**|用於指定目標部署環境的字串。 您可以使用任意字串，例如「實際執行」。 範例： **/Property:TargetEnvironment = 「 生產 」**<br /><br /> 如果未指定值為\<預設\>自動套用。 此值區分大小寫。 如果參數值包含空格，您必須將它括在雙引號 (") 中。 環境值的長度上限為 128 個字元。|  
     |**/ 伺服器**|裝載 BizTalk 管理資料庫之 SQL Server 執行個體的名稱，其格式為：伺服器名稱\執行個體名稱,連接埠。<br /><br /> 只有在執行個體名稱和伺服器名稱不同時，才需要執行個體名稱。 只有在 SQL Server 使用預設值 (1433) 以外的連接埠編號時，才需要連接埠。<br /><br /> 範例:<br /><br /> Server=MyServer<br /><br /> Server=MyServer\MySQLServer,1533<br /><br /> 如果不提供，將會使用在本機電腦上執行的 SQL Server 執行個體的名稱。|  
     |**/ 資料庫**|BizTalk 管理資料庫的名稱。 如果沒有指定，將會使用在 SQL Server 本機執行個體中執行的 BizTalk 管理資料庫。|  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理.NET 組件、 憑證和其他資源](../core/managing-net-assemblies-certificates-and-other-resources.md)   
  [AddResource 命令： BizTalk 繫結](../core/addresource-command-biztalk-binding.md)   
  [建立和修改 BizTalk 應用程式](../core/creating-and-modifying-biztalk-applications.md)

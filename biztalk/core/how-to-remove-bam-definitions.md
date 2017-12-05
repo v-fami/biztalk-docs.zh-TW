@@ -17,11 +17,11 @@ caps.latest.revision: "17"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: bce5454528b3dc1cf0feb54a52eae2008e607811
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: aa02b24ed7d0c7ac09162f486df629bf027d13b9
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-remove-bam-definitions"></a>如何移除 BAM 定義
 系統管理員使用**移除 all** BAM 管理公用程式移除所有的檢視及基礎活動表特定 BAM 定義檔案所需的命令。  
@@ -32,10 +32,10 @@ ms.lasthandoff: 09/20/2017
   
 2.  瀏覽到 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking。  
   
-3.  型別**bm 移除 all DefinitionFile:\<def 檔 >**。  
+3.  型別**bm 移除 all DefinitionFile:\<def 檔\>**。  
   
 4.  按 ENTER 鍵。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理 BAM 動態基礎結構](../core/managing-the-bam-dynamic-infrastructure.md)   
  [BAM 管理公用程式](../core/bam-management-utility.md)

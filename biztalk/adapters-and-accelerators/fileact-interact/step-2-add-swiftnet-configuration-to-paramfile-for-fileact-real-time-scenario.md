@@ -12,11 +12,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 793378e25c3ba92170e1da36b0c8276ab13357ae
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: adad4d98be93e17bef4ab5eeb9e49271ffc94b74
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-2-add-swiftnet-configuration-to-the-paramfile-for-the-fileact-real-time-scenario"></a>步驟 2： 將 SWIFTNet 組態新增至 Paramfile FileAct 即時案例
 若要啟用以這些值來初始化接收者 SWIFTNet paramfile 中必須指定 SAG 中建立的伺服器訊息協力廠商。  
@@ -44,7 +44,7 @@ ms.lasthandoff: 09/20/2017
   
      subsystem_start:  
   
-     **繁衍"snlreceiver-SagMessagePartner \<fileact RT 的伺服器 MessagePartnerName >-AdapterMode fileact"**  
+     **繁衍"snlreceiver-SagMessagePartner \<fileact RT 的伺服器 MessagePartnerName \> -AdapterMode fileact"**  
   
      * 結束  
   
@@ -88,8 +88,8 @@ ms.lasthandoff: 09/20/2017
   
      #<a name="stopeventsnl002subsystem-user-is-down"></a>stop_event:SNL002:subsystem 使用者已關閉  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [FileAct 即時案例](../../adapters-and-accelerators/fileact-interact/fileact-real-time-scenario.md)   
  [步驟 1： 設定 FileAct 即時案例 SWIFT 配接器](../../adapters-and-accelerators/fileact-interact/step-1-configure-the-swift-adapter-for-the-fileact-real-time-scenario.md)   
  [步驟 3： 建立傳送埠和接收埠以進行 FileAct 即時案例](../../adapters-and-accelerators/fileact-interact/step-3-create-the-send-ports-and-receive-ports-for-fileact-real-time-scenario.md)   
- [步驟 4： 測試 FileAct 即時的端對端案例](../../adapters-and-accelerators/fileact-interact/step-4-test-fileact-real-time-end-to-end-scenario.md)
+ [步驟 4：測試 FileAct 即時端對端案例](../../adapters-and-accelerators/fileact-interact/step-4-test-fileact-real-time-end-to-end-scenario.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "5"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9d4df12cfc9e37ed5deff59051cb483dd092facb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bab2a1edc7f3f19a8f76a041472a8c6d01b7743d
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="install-microsoft-biztalk-adapter-for-sql-server---2016"></a>安裝 Microsoft BizTalk Adapter for SQL Server-2016
 安裝[!INCLUDE[adaptersql_md](../../includes/adaptersql-md.md)]隨附[!INCLUDE[bts2016_md](../../includes/bts2016-md.md)]。
@@ -194,7 +194,7 @@ ms.lasthandoff: 09/20/2017
 #### <a name="register-the-bindings"></a>註冊繫結  
 完成這些步驟*只*如果安裝精靈無法註冊在 machine.config 檔案中的配接器繫結。  
   
-1.  瀏覽至電腦上的 machine.config 檔案。 例如，32 位元平台上，machine.config 位在\<系統磁碟機 >: \WINDOWS\Microsoft.NET\Framework\\< 版本\>\CONFIG。  
+1.  瀏覽至電腦上的 machine.config 檔案。 例如，32 位元平台上，machine.config 位在\<系統磁碟機\>: \WINDOWS\Microsoft.NET\Framework\\< 版本\>\CONFIG。  
   
 2.  開啟檔案，使用文字編輯器。  
   
@@ -338,11 +338,11 @@ ms.lasthandoff: 09/20/2017
   
 完成這些步驟*只*如果安裝精靈無法移除 machine.config 檔案中的配接器繫結。  
   
-1.  瀏覽至電腦上的 machine.config 檔案。 例如，32 位元平台上，machine.config 位在\<系統磁碟機 >: \WINDOWS\Microsoft.NET\Framework\\< 版本\>\CONFIG。  
+1.  瀏覽至電腦上的 machine.config 檔案。 例如，32 位元平台上，machine.config 位在\<系統磁碟機\>: \WINDOWS\Microsoft.NET\Framework\\< 版本\>\CONFIG。  
   
-    -   Microsoft.NET framework 3.5 SP1、 \<*版本*> 是.NET framework 版本 v2.0.50727。  
+    -   Microsoft.NET framework 3.5 SP1、 \<*版本*\>是.NET framework 版本 v2.0.50727。  
   
-    -   Microsoft [!INCLUDE[netfx40_short](../../includes/netfx40-short-md.md)]， \<*版本*> 是.NET framework 版本 v4.0.30319。  
+    -   Microsoft [!INCLUDE[netfx40_short](../../includes/netfx40-short-md.md)]， \<*版本*\>是.NET framework 版本 v4.0.30319。  
   
 2.  開啟檔案，使用文字編輯器。  
   
@@ -381,4 +381,4 @@ ms.lasthandoff: 09/20/2017
   
 ## <a name="see-also"></a>另請參閱
 [安裝 SQL 配接器](../../adapters-and-accelerators/adapter-sql/install-the-sql-adapter.md)  
-[瞭解 BizTalk Adapter for SQL Server](../../adapters-and-accelerators/adapter-sql/understand-biztalk-adapter-for-sql-server.md)
+[了解 BizTalk Adapter for SQL Server](../../adapters-and-accelerators/adapter-sql/understand-biztalk-adapter-for-sql-server.md)

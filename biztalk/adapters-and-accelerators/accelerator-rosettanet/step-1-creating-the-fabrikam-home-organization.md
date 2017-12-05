@@ -13,18 +13,18 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: db347b955d89818b44d2d0dbb86ab7bac30352d6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3d5190bcc7d757a2f2f2ca2a0efacc6c0ffc0a9c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-1-creating-the-fabrikam-home-organization"></a>步驟 1： 建立 Fabrikam 主要組織
 在這個步驟中，您會使用 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 管理主控台來建立 Fabrikam 主要組織。  
   
 ### <a name="to-start-the-btarn-management-console"></a>若要啟動 BTARN 管理主控台  
   
--   按一下**啟動**，指向 **所有程式**，指向  **Microsoft BizTalk\<版本 > Accelerator for RosettaNet**，然後按一下 **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]** 管理主控台。  
+-   按一下**啟動**，指向 **所有程式**，指向  **Microsoft BizTalk\<版本\>Accelerator for RosettaNet**，然後按一下  **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]** 管理主控台。  
   
 ### <a name="to-create-the-home-organization"></a>若要建立主要組織  
   
@@ -50,5 +50,5 @@ ms.lasthandoff: 09/20/2017
   
 4.  按一下 **[確定]**。  
   
-## <a name="see-also"></a>另請參閱  
- [步驟 2： 建立 Contoso 交易夥伴組織](../../adapters-and-accelerators/accelerator-rosettanet/step-2-creating-the-contoso-partner-organization.md)
+## <a name="see-also"></a>請參閱  
+ [步驟 2：建立 Contoso 交易夥伴組織](../../adapters-and-accelerators/accelerator-rosettanet/step-2-creating-the-contoso-partner-organization.md)

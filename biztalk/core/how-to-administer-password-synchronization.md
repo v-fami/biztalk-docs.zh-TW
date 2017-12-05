@@ -22,11 +22,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b85fd34a016fe013f10dd618dd551c9467d4b530
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ddd696da8b4cab24a8de6a4b5d8ac8f26856f7e1
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-administer-password-synchronization"></a>如何管理密碼同步處理
 您可以透過 MMC 嵌入式管理單元或命令列來管理「密碼同步」。  
@@ -83,7 +83,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**執行**] 對話方塊中，輸入**cmd**，然後按一下 [**確定**。  
   
-3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機 >: \Program Files\Common Files\Enterprise Single Sign-on。  
+3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
 4.  型別**ssops-清單**按下 Enter。  
   
@@ -95,9 +95,9 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**執行**] 對話方塊中，輸入**cmd**，然後按一下 [**確定**。  
   
-3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機 >: \Program Files\Common Files\Enterprise Single Sign-on。  
+3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-4.  型別**ssops-顯示\<配接器名稱 >**按下 Enter。  
+4.  型別**ssops-顯示\<配接器名稱\>**按下 Enter。  
   
      畫面輸出會顯示特定配接器的資訊。  
   
@@ -130,9 +130,9 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**執行**] 對話方塊中，輸入**cmd**，然後按一下 [**確定**。  
   
-3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機 >: \Program Files\Common Files\Enterprise Single Sign-on。  
+3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-4.  型別**ssops-建立\<配接器檔案 >**按下 Enter。  
+4.  型別**ssops-建立\<配接器檔案\>**按下 Enter。  
   
      畫面輸出會顯示最新建立配接器的資訊。  
   
@@ -142,9 +142,9 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**執行**] 對話方塊中，輸入**cmd**，然後按一下 [**確定**。  
   
-3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機 >: \Program Files\Common Files\Enterprise Single Sign-on。  
+3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-4.  型別**ssops-setprops\<配接器名稱 >**按下 Enter。  
+4.  型別**ssops-setprops\<配接器名稱\>**按下 Enter。  
   
      畫面輸出會顯示特定配接器的屬性。 如有需要，您可以編輯它們，但是不會驗證新值。  
   
@@ -154,9 +154,9 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**執行**] 對話方塊中，輸入**cmd**，然後按一下 [**確定**。  
   
-3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機 >: \Program Files\Common Files\Enterprise Single Sign-on。  
+3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-4.  型別**ssops-更新\<配接器檔案 >**按下 Enter。  
+4.  型別**ssops-更新\<配接器檔案\>**按下 Enter。  
   
      使用此命令可更新特定配接器的設定和旗標。 請勿使用此命令來設定屬性；請使用 -setprops 命令替代。  
   
@@ -166,9 +166,9 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**執行**] 對話方塊中，輸入**cmd**，然後按一下 [**確定**。  
   
-3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機 >: \Program Files\Common Files\Enterprise Single Sign-on。  
+3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-4.  型別**ssops-刪除\<配接器名稱 >**按下 Enter。  
+4.  型別**ssops-刪除\<配接器名稱\>**按下 Enter。  
   
      將刪除指定的配接器。  
   
@@ -178,9 +178,9 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**執行**] 對話方塊中，輸入**cmd**，然後按一下 [**確定**。  
   
-3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機 >: \Program Files\Common Files\Enterprise Single Sign-on。  
+3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-4.  型別**ssops-啟用\<配接器名稱 >**按下 Enter。  
+4.  型別**ssops-啟用\<配接器名稱\>**按下 Enter。  
   
      將啟用指定的配接器。  
   
@@ -190,9 +190,9 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**執行**] 對話方塊中，輸入**cmd**，然後按一下 [**確定**。  
   
-3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機 >: \Program Files\Common Files\Enterprise Single Sign-on。  
+3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-4.  型別**ssops-停用\<配接器名稱 >**按下 Enter。  
+4.  型別**ssops-停用\<配接器名稱\>**按下 Enter。  
   
      將停用指定的配接器。  
   
@@ -202,9 +202,9 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**執行**] 對話方塊中，輸入**cmd**，然後按一下 [**確定**。  
   
-3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機 >: \Program Files\Common Files\Enterprise Single Sign-on。  
+3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-4.  型別**ssops-addapp\<配接器名稱 >\<應用程式名稱 >**按下 Enter。  
+4.  型別**ssops-addapp\<配接器名稱\>\<應用程式名稱\>**按下 Enter。  
   
      會將特定 SSO 應用程式指派給特定配接器。 這表示，該應用程式中對應的密碼現在將使用此配接器來同步。  
   
@@ -216,9 +216,9 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**執行**] 對話方塊中，輸入**cmd**，然後按一下 [**確定**。  
   
-3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機 >: \Program Files\Common Files\Enterprise Single Sign-on。  
+3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-4.  型別**ssops-deleteapp\<應用程式名稱 >**按下 Enter。  
+4.  型別**ssops-deleteapp\<應用程式名稱\>**按下 Enter。  
   
      會將特定 SSO 應用程式從配接器移除。 (因為應用程式僅可指定給一個配接器，所以不需要指定配接器名稱。)  
   
@@ -228,9 +228,9 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**執行**] 對話方塊中，輸入**cmd**，然後按一下 [**確定**。  
   
-3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機 >: \Program Files\Common Files\Enterprise Single Sign-on。  
+3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-4.  型別**ssops-重設\<配接器名稱 &#124; 所有 &#124; 禁止 >**按下 Enter。  
+4.  型別**ssops-重設\<配接器名稱 &#124; 所有 &#124; 禁止\>**按下 Enter。  
   
      此命令會依指定清除單一配接器或所有配接器禁止的資料表和 (或) 通知佇列。 禁止的資料表會儲存 10 分鐘的密碼變更歷程記錄。 在「企業單一登入」系統接受或傳送密碼變更之前，會檢查禁止的資料表，以查看最近是否執行過相同變更。 若有，則會捨棄變更。  
   
@@ -240,9 +240,9 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**執行**] 對話方塊中，輸入**cmd**，然後按一下 [**確定**。  
   
-3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機 >: \Program Files\Common Files\Enterprise Single Sign-on。  
+3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-4.  型別**ssops-addtogroup\<配接器名稱 >\<配接器群組 >**按下 Enter。  
+4.  型別**ssops-addtogroup\<配接器名稱\>\<配接器群組\>**按下 Enter。  
   
      此命令會將特定配接器新增至特定配接器群組。 配接器僅可屬於一個配接器群組，但配接器群組可包含多個配接器。  
   
@@ -252,11 +252,11 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**執行**] 對話方塊中，輸入**cmd**，然後按一下 [**確定**。  
   
-3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機 >: \Program Files\Common Files\Enterprise Single Sign-on。  
+3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-4.  型別**ssops-deletefromgroup\<配接器名稱 >\<配接器群組 >**按下 Enter。  
+4.  型別**ssops-deletefromgroup\<配接器名稱\>\<配接器群組\>**按下 Enter。  
   
      此命令會刪除特定配接器群組的特定配接器。  
   
-## <a name="see-also"></a>另請參閱  
- [密碼同步處理](../core/password-synchronization2.md)
+## <a name="see-also"></a>請參閱  
+ [密碼同步](../core/password-synchronization2.md)

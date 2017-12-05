@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5e996ea258b8f3ab1c7df2d30ed12aa0d0150b35
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bd9778d6fb37058cfb70d476590b5d32fe8936e1
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="how-to-configure-biztalk-server-to-receive-encrypted-mime-or-smime-messages"></a>如何設定 BizTalk Server 接收 MIME 加密或 SMIME 訊息
 本主題描述如何設定[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]以使用憑證來接收加密的 MIME/SMIME 訊息。 下列程序也適用於接收加密訊息的設定透過 AS2 傳輸。  
@@ -29,7 +29,7 @@ ms.lasthandoff: 09/20/2017
 1.  建立管線來接收加密的訊息，如下所示：  
   
     > [!NOTE]
-    >  設定 AS2 傳輸接收加密訊息的 AS2Receive 和 AS2EdiReceive 管線，因為包含在這個步驟並非必要[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]做這個函式。  
+    >  設定 AS2 傳輸來接收加密的訊息，因為在 BizTalk Server 包含 AS2Receive 和 AS2EdiReceive 管線提供這項功能時，不需要此步驟。  
   
     > [!NOTE]
     >  MIME/SMIME 解碼器管線元件會執行解密及數位簽章驗證 (當設定為執行這兩項功能時)。 因此，如果您要設定 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 來接收加密及簽署的訊息，您可以使用相同的接收管線。 換句話說，您不需要針對解密和數位簽章驗證建立個別的管線。  
@@ -69,5 +69,5 @@ ms.lasthandoff: 09/20/2017
   
     3.  在**選取憑證**對話方塊中，選取您已安裝，解密憑證，然後關閉所有對話方塊。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [設定 MIME 或 SMIME 訊息的憑證](../technical-guides/configuring-certificates-for-mime-or-smime-messages.md)

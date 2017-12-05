@@ -12,11 +12,11 @@ caps.latest.revision: "14"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9343cf9bd33f5880c564e2ec0dce72ece520ff01
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8cee3564b90b730334d2d891edd2e9abc221a367
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-set-up-the-bam-databases-using-the-bam-management-utility"></a>如何使用 BAM 管理公用程式安裝 BAM 資料庫
 一般而言，系統管理員會使用 BizTalk Server 組態公用程式安裝 BAM 資料庫。 您可以用另一種方法，也就是使用 BAM 管理公用程式 (bm.exe) 來安裝資料庫。  
@@ -36,7 +36,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  瀏覽到 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking。  
   
-3.  在命令提示字元輸入下列命令： **bm 安裝程式資料庫 ConfigFile:\<組態檔 >**，其中\<*組態檔*> 取代為的名稱您的 BAM 組態檔。 按 ENTER 鍵。  
+3.  在命令提示字元輸入下列命令： **bm 安裝程式資料庫 ConfigFile:\<組態檔\>**，其中\<*組態檔*\>取代為您的 BAM 組態檔的名稱。 按 ENTER 鍵。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [BAM 管理公用程式](../core/bam-management-utility.md)

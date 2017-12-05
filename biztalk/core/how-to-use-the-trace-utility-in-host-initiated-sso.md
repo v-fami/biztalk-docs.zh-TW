@@ -15,11 +15,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e00514515b31e79655fe457e1aa8682edf002183
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ebb2003cc6091e3f14bd863902e03649d9005722
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-use-the-trace-utility-in-host-initiated-sso"></a>如何使用追蹤公用程式中主控件初始化的 SSO
 疑難排解的主要方法是追蹤。  
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/20/2017
 > [!NOTE]
 >  若要讓追蹤命令發揮效用，tracelog.exe 檔案必須位於下列目錄：  
 >   
->  \<*磁碟機*>: Files\Enterprise Single Sign-on \Program Files\Common  
+>  \<*磁碟機*\>: Files\Enterprise Single Sign-on \Program Files\Common  
   
 > [!NOTE]
 >  您可以從下列位置下載這個檔案： [http://go.microsoft.com/fwlink/?LinkId=59534](http://go.microsoft.com/fwlink/?LinkId=59534)  
@@ -41,7 +41,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  在**執行**] 對話方塊中，輸入**cmd**，然後按一下 [**確定**。  
   
-3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機 >: \Program Files\Common Files\Enterprise Single Sign-on。  
+3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
 4.  型別**Trace – start – high**將追蹤層級設定為高，並開始追蹤。  
   
@@ -49,5 +49,5 @@ ms.lasthandoff: 09/20/2017
   
 6.  型別**Trace – 停止**以結束追蹤。 會在上述目錄中產生一個 .bin 檔案，您可以將該檔案傳送至 Microsoft 進行分析。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [主控件初始化的 SSO](../core/host-initiated-sso.md)

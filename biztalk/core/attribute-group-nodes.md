@@ -12,11 +12,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 04db816f1209b7cd503b9a162cdd2a030ba86292
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 31814f9bd38bd07a75be0d4a2cc3e9d8b838720e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="attribute-group-nodes"></a>[Attribute 群組] 節點
 
@@ -24,7 +24,7 @@ ms.lasthandoff: 09/20/2017
 在 [BizTalk 編輯器] 中，您可以加入**屬性群組**節點**記錄**節點或另一個**屬性群組**節點，以包含您要使用更多的屬性群組於其中**記錄**節點。 加入**屬性群組**節點至另一個**屬性群組**節點，可達成屬性群組巢狀化。 這可讓您定義的屬性群組在一個地方可以用於多個**記錄**或**屬性群組**節點。 對屬性群組後續的修改將會傳播至與該屬性群組關聯的所有節點。 不論修改的節點內容為何，都會這麼做。  
   
 > [!NOTE]
->  在 [BizTalk 編輯器] 中， **AttributeGroup**節點由與字串的預設\<AttribGroup:attribGroup*N*> 在結構描述樹狀結構檢視中，其中*N*是單純遞增的數字。 您可以變更 attribGroup*N*輸入新的唯一名稱，在其名稱部分其**群組參考**屬性。  
+>  在 [BizTalk 編輯器] 中， **AttributeGroup**節點由與字串的預設\<AttribGroup:attribGroup*N* \>在結構描述樹狀結構檢視中，其中*N*是單純遞增的數字。 您可以變更 attribGroup*N*輸入新的唯一名稱，在其名稱部分其**群組參考**屬性。  
   
  當您開始建立**屬性群組** 節點，您只要將它插入其中**記錄**或**屬性群組**節點，它將會使用，並選擇性地變更其名稱中的其**群組參考**屬性。 有兩種方式，在另一個使用相同的屬性群組**記錄**或**屬性群組**節點：  
   
@@ -61,7 +61,7 @@ ms.lasthandoff: 09/20/2017
 > [!NOTE]
 >  自動提供的預設屬性群組名稱格式為 attrgroup*N*，其中*N*是單純遞增的數字。 您可以藉由提供中新的、 唯一的名稱重新命名屬性群組其**群組參考**屬性。 您不能在結構描述樹狀結構中就地重新命名屬性群組。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 -  [BizTalk 結構描述表示法](../core/biztalk-representation-of-schemas.md)   
 -  [節點屬性](../core/node-properties.md)   
 -  **Sequence 群組節點屬性**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]  

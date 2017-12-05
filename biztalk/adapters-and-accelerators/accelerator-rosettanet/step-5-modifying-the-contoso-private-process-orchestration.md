@@ -15,11 +15,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 42c93a10fd4751f32aadf2cbfa0a0bbbafc6c7bd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3a222ee518cf0555de60094411df73bf5a5d486a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-5-modifying-the-contoso-private-process-orchestration"></a>步驟 5： 修改 Contoso 私用程序協調流程
 在此步驟中，您將修改私用程序協調流程，以便與 Contoso 的「企業資源規劃」(Enterprise Resource Planning，ERP) 系統進行整合。 Contoso 的 ERP 系統使用內部定義的產品價格與可用性結構描述。 自訂「3A2 - 價格與可用性交易夥伴介面程序 (PIP)」的私用程序之後，您就能夠使用結構描述對應資訊與 ERP 系統進行整合。  
@@ -28,7 +28,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  Contoso 方案顯示在 [方案總管] 中，以滑鼠右鍵按一下**PrivateResponder**專案，然後再按一下**加入參考**。  
   
-2.  在 [加入參考] 對話方塊中，按一下**瀏覽**。 移至*\<磁碟機 >*: \Program Files\Microsoft BizTalk\<版本 > Accelerator for RosettaNet\Bin 資料夾，然後再選取下列組件**:**  
+2.  在 [加入參考] 對話方塊中，按一下**瀏覽**。 移至*\<磁碟機\>*: \Program Files\Microsoft BizTalk\<版本\>Accelerator for RosettaNet\Bin 資料夾，然後再選取下列組件**:**  
   
     -   Microsoft.Solutions.BTARN.CommonTypes.dll  
   
@@ -62,7 +62,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  在 [屬性] 視窗中**識別碼**方塊中，輸入**PIP3A2RequestMessage**。  
   
-5.  在**訊息類型**方塊中，按一下下拉箭號，展開 **結構描述**，然後選取**\<從參考組件選取 >**。  
+5.  在**訊息類型**方塊中，按一下下拉箭號，展開 **結構描述**，然後選取**\<從參考組件選取\>**。  
   
 6.  在 選取成品 Typedialog 方塊中，選取  **Microsoft.Solutions.BTARN.Schemas.RNPIPs**在左窗格中，選取**_3a2priceandavailabilityquerymessageguideline_v1_3**在右窗格中，並然後按一下 **確定**。  
   
@@ -82,7 +82,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  在 [屬性] 視窗中**識別碼**方塊中，輸入**contosoResponseXML**。  
   
-3.  在**類型**方塊中，選取 **\<.NET 類別 >**從下拉式清單。  
+3.  在**類型**方塊中，選取 **\<.NET 類別\>**從下拉式清單。  
   
 4.  在 [選取成品類型] 對話方塊，在左窗格中，在**目前專案**和**參考**節點下，選取**System.Xml**，選取**XmlDocument**從清單中的右窗格中，然後按一下**確定**。  
   
@@ -90,7 +90,7 @@ ms.lasthandoff: 09/20/2017
   
 6.  在 [屬性] 視窗中**識別碼**方塊中，輸入**submitMessage**。  
   
-7.  在**類型**方塊中，選取 **\<.NET 類別 >**從下拉式清單。  
+7.  在**類型**方塊中，選取 **\<.NET 類別\>**從下拉式清單。  
   
 8.  在 [選取成品類型] 對話方塊的左窗格中，展開**目前專案**和**參考**節點下，選取**Microsoft.Solutions.BTARN.Shared**，選取**SubmitRNIF**從清單中的右窗格中，然後按一下**確定**。  
   
@@ -142,5 +142,5 @@ ms.lasthandoff: 09/20/2017
   
 12. 在[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]上**檔案**，按一下 **全部儲存**儲存專案。  
   
-## <a name="see-also"></a>另請參閱  
- [步驟 6： 設定協調流程圖形 (Contoso)](../../adapters-and-accelerators/accelerator-rosettanet/step-6-configuring-orchestration-shapes-contoso.md)
+## <a name="see-also"></a>請參閱  
+ [步驟 6：設定協調流程圖形 (Contoso)](../../adapters-and-accelerators/accelerator-rosettanet/step-6-configuring-orchestration-shapes-contoso.md)

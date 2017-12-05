@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 25d24eda11d9547b545445239e783ac3bfee4057
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: aa55a240669ab9369dd7a1862d3fda055f577edd
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="best-practices-for-deploying-an-application"></a>部署應用程式的最佳作法
 本主題列出您在部署 BizTalk 應用程式應該遵循的最佳作法。  
@@ -33,10 +33,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="creating-a-biztalk-application"></a>建立 BizTalk 應用程式  
  **指令碼建立的 BizTalk 應用程式與.msi 檔案**  
   
--   BtsTask.exe 可用來建立 BizTalk 應用程式的指令碼。 如果應用程式的建立已編寫指令碼，然後封裝能夠自動建置組建伺服器上使用自動化程序。 如需指令碼建立的應用程式的詳細資訊，請參閱[部署和管理 BizTalk 應用程式](http://go.microsoft.com/fwlink/?LinkID=154210)(http://go.microsoft.com/fwlink/?LinkID = 154210) 和[BizTalk Server 2006： 了解 BizTalk Server 應用程式部署](http://go.microsoft.com/fwlink/?LinkID=101599)(http://go.microsoft.com/fwlink/?LinkID = 101599) 白皮書。  
-  
-    > [!NOTE]  
-    >  技術白皮書也會套用至[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]。  
+-   BtsTask.exe 可用來建立 BizTalk 應用程式的指令碼。 如果應用程式的建立已編寫指令碼，然後封裝能夠自動建置組建伺服器上使用自動化程序。 如需指令碼建立的應用程式的詳細資訊，請參閱[部署和管理 BizTalk 應用程式](../core/deploying-and-managing-biztalk-applications.md)。
   
 ## <a name="deploying-a-biztalk-assembly"></a>部署 BizTalk 組件  
  **永遠不會部署在實際執行電腦上的從 Visual Studio 組件**  
@@ -54,7 +51,7 @@ ms.lasthandoff: 09/20/2017
   
 -   如果成品將由兩個以上的應用程式共用，請將共用的成品部署到個別的應用程式。 例如，如果兩個應用程式共用某結構描述，請將該結構描述放置到個別的應用程式中。 我們建議您這樣因為只有一個成品在 BizTalk 群組中的只能有單一的本機唯一識別碼 (LUID)。 LUID 包含成品名稱以及選擇性的其他屬性。 如果您將成品包含在一個應用程式，然後建立它的參考從另一個應用程式，參考的應用程式可能無法正確運作時停止包含該成品的應用程式。  
   
-     這個最佳方法適用於所有成品類型，除了檔案之外，例如讀我檔案和指令碼，它們會做為成品的檔案類型新增至應用程式。 這是因為具有相同名稱的多個檔案成品可以部署在 BizTalk 群組中。 因此，您可使用在兩個以上的應用程式中具有相同名稱的檔案。 在此情況下，停止一個應用程式時，不會影響其他應用程式。 如需有關如何新增檔案成品的詳細資訊，請參閱[如何將檔案新增至應用程式](http://go.microsoft.com/fwlink/?LinkId=154997)(http://go.microsoft.com/fwlink/?LinkId=154997)。  
+     這個最佳方法適用於所有成品類型，除了檔案之外，例如讀我檔案和指令碼，它們會做為成品的檔案類型新增至應用程式。 這是因為具有相同名稱的多個檔案成品可以部署在 BizTalk 群組中。 因此，您可使用在兩個以上的應用程式中具有相同名稱的檔案。 在此情況下，停止一個應用程式時，不會影響其他應用程式。 如需有關如何新增檔案成品的詳細資訊，請參閱[如何將檔案新增至應用程式](../core/how-to-add-a-file-to-an-application.md)。  
   
  **部署個別的應用程式共用的網站**  
   
@@ -75,7 +72,7 @@ ms.lasthandoff: 09/20/2017
   
 -   部署數個較小.msi 檔案，而不是一個大型的.msi 檔案。  
   
-    -   增加元件服務和元件服務 管理介面中的 Microsoft.biztalk.applicationdeployment.group 元件與關聯的 3000 秒預設交易逾的時。 這些元件分別屬於 Microsoft.BizTalk.ApplicationDeployment.Engine 和 Microsoft.Biztalk.Deployment COM + 應用程式。 如需詳細資訊，請參閱 Microsoft 知識庫文章 287499，[如何變更 MTS 或 COM + 交易逾時值](http://go.microsoft.com/fwlink/?LinkId=109589)(http://go.microsoft.com/fwlink/?LinkId=109589)。  
+    -   增加元件服務和元件服務 管理介面中的 Microsoft.biztalk.applicationdeployment.group 元件與關聯的 3000 秒預設交易逾的時。 這些元件分別屬於 Microsoft.BizTalk.ApplicationDeployment.Engine 和 Microsoft.Biztalk.Deployment COM + 應用程式。 如需詳細資訊，請參閱 Microsoft 知識庫文章 287499，[如何變更 MTS 或 COM + 交易逾時值](https://support.microsoft.com/help/287499/how-to-change-the-transaction-time-out-value-for-mts-or-com)。  
   
  **防止遭到覆寫的繫結**  
   
@@ -83,7 +80,7 @@ ms.lasthandoff: 09/20/2017
   
  **確保安全的.msi 檔案**  
   
--   .msi 檔案可能包含機密資料。 請務必採取步驟，以協助確保檔案安全。 如需.msi 檔案安全性的詳細資訊，請參閱[安全性和 Windows Installer](http://go.microsoft.com/fwlink/?LinkId=154998) (http://go.microsoft.com/fwlink/?LinkId=154998)。  
+-   .msi 檔案可能包含機密資料。 請務必採取步驟，以協助確保檔案安全。 如需.msi 檔案安全性的詳細資訊，請參閱[安全性和 Windows Installer](../core/security-and-windows-installer.md)。  
   
  **確保繫結檔案的安全**  
   
@@ -96,12 +93,12 @@ ms.lasthandoff: 09/20/2017
 ## <a name="importing-a-biztalk-application"></a>匯入 BizTalk 應用程式  
  **.msi 檔案匯入的指令碼**  
   
--   BtsTask.exe 可以用於指令碼的現有 BizTalk.msi 檔案匯入。 如需指令碼匯入.msi 檔案的詳細資訊，請參閱[部署和管理 BizTalk 應用程式](http://go.microsoft.com/fwlink/?LinkID=154210)(http://go.microsoft.com/fwlink/?LinkID = 154210) 和[BizTalk Server 2006： 了解 BizTalk Server 應用程式部署](http://go.microsoft.com/fwlink/?LinkID=101599)(http://go.microsoft.com/fwlink/?LinkID = 101599) 白皮書。  
+-   BtsTask.exe 可以用於指令碼的現有 BizTalk.msi 檔案匯入。 如需指令碼匯入.msi 檔案的詳細資訊，請參閱[部署和管理 BizTalk 應用程式](../core/deploying-and-managing-biztalk-applications.md)。 
   
     > [!NOTE]  
-    >  技術白皮書也會套用至[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]。  
+    >  技術白皮書也適用於 BizTalk Server。  
   
--   您可以加入做為前置處理或後置處理指令碼執行的指令碼。 不過，您必須在您的指令碼來檢查環境變數，以判斷哪些指令碼正在執行中 （匯入、 安裝或解除安裝） 的內容中包含邏輯，並據以處理。 如需有關如何使用前置和後置處理指令碼的詳細資訊，請參閱[使用前置和後置處理指令碼，以自訂應用程式部署](http://go.microsoft.com/fwlink/?LinkId=154995)(http://go.microsoft.com/fwlink/?LinkId=154995)。  
+-   您可以加入做為前置處理或後置處理指令碼執行的指令碼。 不過，您必須在您的指令碼來檢查環境變數，以判斷哪些指令碼正在執行中 （匯入、 安裝或解除安裝） 的內容中包含邏輯，並據以處理。 如需有關如何使用前置和後置處理指令碼的詳細資訊，請參閱[使用前置和後置處理指令碼，以自訂應用程式部署](../core/using-pre-and-post-processing-scripts-to-customize-application-deployment.md)。 
   
  **確認參考的成品存在**  
   
@@ -117,4 +114,4 @@ ms.lasthandoff: 09/20/2017
   
  **如果匯入作業逾時，應用程式分割成其他.msi 檔案**  
   
--   匯入作業會逾時，如果它超過 3600 秒的持續時間。 如果您嘗試匯入.msi 檔案，且作業逾時，您應該重新匯出應用程式，並選取要匯出的成品的子集分割到多個.msi 檔案的應用程式的內容。 如需匯出至.msi 檔案的應用程式的詳細資訊，請參閱[如何匯出 BizTalk 應用程式](http://go.microsoft.com/fwlink/?LinkID=154848)(http://go.microsoft.com/fwlink/?LinkID=154848)。
+-   匯入作業會逾時，如果它超過 3600 秒的持續時間。 如果您嘗試匯入.msi 檔案，且作業逾時，您應該重新匯出應用程式，並選取要匯出的成品的子集分割到多個.msi 檔案的應用程式的內容。 如需匯出至.msi 檔案的應用程式的詳細資訊，請參閱[匯出 BizTalk 應用程式](../core/how-to-export-a-biztalk-application.md)。

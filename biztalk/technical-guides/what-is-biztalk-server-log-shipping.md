@@ -12,14 +12,14 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c886bb4d32fa082c2c4c865a45b28133ce4a3aa0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e3b20589229b1e3868f23c3823d2a26decc56081
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="what-is-biztalk-server-log-shipping"></a>什麼是 BizTalk Server 記錄傳送？
-[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]嚴重損壞修復程序根據 BizTalk 建立記錄傳送。 BizTalk 記錄傳送可簡化資料庫還原發生災害時持續套用交易記錄更新至災害復原站台資料庫。  
+BizTalk Server 嚴重損壞修復程序根據 BizTalk 建立記錄傳送。 BizTalk 記錄傳送可簡化資料庫還原發生災害時持續套用交易記錄更新至災害復原站台資料庫。  
   
  雖然的 BizTalk 記錄傳送根據類似的原則，為[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]記錄傳送，[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]不支援記錄傳送[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]備份資料庫做為備份 BizTalk Server SQL Agent 作業的一部分。  
   

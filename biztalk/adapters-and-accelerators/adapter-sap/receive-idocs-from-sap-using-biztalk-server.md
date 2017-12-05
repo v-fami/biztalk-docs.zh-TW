@@ -16,11 +16,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 45dc38a939e71a8f4eb3d3afe87736fc548f8570
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cb03368a9d046eacf31f8b7bbed5c0a7f090c3d3
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="receive-idocs-from-sap-using-biztalk-server"></a>從 SAP 使用 BizTalk Server 接收 Idoc
 接收 IDOC 包括[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]做為要從 SAP 接收特殊的 RFC 呼叫的 RFC 伺服器。 SAP 配接器可以接收 Idoc 做為 RFC 伺服器或 tRFC 伺服器。 如需使用行為就像是 tRFC 伺服器配接器接收 IDOC 的詳細資訊，請參閱[從交易內容所使用的 BizTalk Server 中的 SAP 接收的 Idoc](../../adapters-and-accelerators/adapter-sap/receive-idocs-from-sap-in-a-transactional-context-using-biztalk-server.md)。  
@@ -29,13 +29,13 @@ ms.lasthandoff: 09/20/2017
   
 -   **接收**作業可讓配接器接收 Idoc 具有強型別結構描述。  
   
--   **ReceiveIdoc**作業可讓配接器接收 Idoc 具有弱式型別的結構描述。 這項作業在 XML 訊息以字串形式接收 Idoc \<idocData > 標記。  
+-   **ReceiveIdoc**作業可讓配接器接收 Idoc 具有弱式型別的結構描述。 這項作業在 XML 訊息以字串形式接收 Idoc \<idocData\>標記。  
   
  在配接器端，您可以指定的值**ReceiveIDocFormat**內容繫結至指定的配接器會接收的 IDOC 格式。  
   
 -   **輸入**指定配接器將會接收 Idoc，使用強型別結構描述。 這會產生 XML IDOC。  
   
--   **字串**指定配接器將會接收 Idoc 弱型別結構描述。 這會產生的 XML 訊息\<idocData > 標記。  
+-   **字串**指定配接器將會接收 Idoc 弱型別結構描述。 這會產生的 XML 訊息\<idocData\>標記。  
   
 -   **Rfc**指定配接器將會接收 Idoc 中的任何格式。  
   
@@ -50,8 +50,8 @@ ms.lasthandoff: 09/20/2017
 |-------------------------------|------------------------|------------|  
 |（透過 tRFC 介面） 的 IDOC|**中繼資料設計階段**<br /><br /> 1.設定繫結屬性 GenerateFlatFileCompatibleIdocSchema 至**True**。<br />2.產生的結構描述**接收**作業特定的 IDOC 使用[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]。<br />3.設定繫結屬性 ReceiveIdocFormat 至**具型別**。<br /><br /> **協調流程設計階段**<br /><br /> 1.接收 XML IDOC。<br />2.使用一般檔案組合器將 XML IDOC 轉換成一般檔案。|一般檔案 IDOC|  
 |（透過 tRFC 介面） 的 IDOC|**中繼資料設計階段**<br /><br /> 1.設定繫結屬性 GenerateFlatFileCompatibleIdocSchema 至**True**。<br />2.產生的結構描述**接收**作業特定的 IDOC 使用[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]。<br />3.設定繫結屬性 ReceiveIdocFormat 至**具型別**。<br /><br /> **協調流程的設計階段**<br /><br /> 接收 XML IDOC。|XML IDOC|  
-|（透過 tRFC 介面） 的 IDOC|**中繼資料設計階段**<br /><br /> 1.設定繫結屬性 GenerateFlatFileCompatibleIdocSchema 至**True**。<br />2.產生的結構描述**接收**作業特定的 IDOC 使用[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]。<br />3.設定繫結屬性 ReceiveIdocFormat 至**字串**。<br /><br /> **協調流程設計階段**<br /><br /> 1.接收一般檔案 IDOC 中的 XML 訊息\<idocData > 標記。<br />2.用於擷取 XML 訊息從一般檔案 IDoc，接收埠組態使用 WCF 配接器的 XPath 支援。 例如：<br />     `/*[local-name()='ReceiveIdoc']/*[local-name()='idocData']`<br />3.使用一般檔案解譯器將一般檔案 IDOC 轉換成 XML IDOC。<br /><br /> **重要**這種方法可以用來接收 Idoc 使用新 WCF 架構[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]然後直接將它們套用在從現有的 BizTalk SAP 配接器接收的 Idoc 寫入現有的 BizTalk 專案。 這也是使用版本號碼的版次號碼 (SYSREL) 大於或等於接收 Idoc 的建議的方法。|XML IDOC|  
-|（透過 tRFC 介面） 的 IDOC|**中繼資料設計階段**<br /><br /> 1.產生的結構描述**ReceiveIdoc**作業從 IDOC 節點使用[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]。<br />2.設定繫結屬性 ReceiveIdocFormat 至**字串**。<br /><br /> **協調流程設計階段**<br /><br /> -接收的 IDOC 中的字串表示的 XML 訊息\<idocData > 標記。|XML 訊息中的一般檔案 IDOC|  
+|（透過 tRFC 介面） 的 IDOC|**中繼資料設計階段**<br /><br /> 1.設定繫結屬性 GenerateFlatFileCompatibleIdocSchema 至**True**。<br />2.產生的結構描述**接收**作業特定的 IDOC 使用[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]。<br />3.設定繫結屬性 ReceiveIdocFormat 至**字串**。<br /><br /> **協調流程設計階段**<br /><br /> 1.接收一般檔案 IDOC 中的 XML 訊息\<idocData\>標記。<br />2.用於擷取 XML 訊息從一般檔案 IDoc，接收埠組態使用 WCF 配接器的 XPath 支援。 例如：<br />     `/*[local-name()='ReceiveIdoc']/*[local-name()='idocData']`<br />3.使用一般檔案解譯器將一般檔案 IDOC 轉換成 XML IDOC。<br /><br /> **重要**這種方法可以用來接收 Idoc 使用新 WCF 架構[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]然後直接將它們套用在從現有的 BizTalk SAP 配接器接收的 Idoc 寫入現有的 BizTalk 專案。 這也是使用版本號碼的版次號碼 (SYSREL) 大於或等於接收 Idoc 的建議的方法。|XML IDOC|  
+|（透過 tRFC 介面） 的 IDOC|**中繼資料設計階段**<br /><br /> 1.產生的結構描述**ReceiveIdoc**作業從 IDOC 節點使用[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]。<br />2.設定繫結屬性 ReceiveIdocFormat 至**字串**。<br /><br /> **協調流程設計階段**<br /><br /> -接收的 IDOC 中的字串表示的 XML 訊息\<idocData\>標記。|XML 訊息中的一般檔案 IDOC|  
   
 ## <a name="how-to-receive-an-idoc-from-an-sap-system"></a>如何從 SAP 系統接收 IDOC？  
  執行 SAP 系統使用的作業[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]牽涉到程序中所述的工作[建立的 SAP 應用程式的建置組塊](../../adapters-and-accelerators/adapter-sap/building-blocks-to-create-sap-applications.md)。 若要從 SAP 系統接收 IDOC，這些工作包括：  
@@ -76,9 +76,9 @@ ms.lasthandoff: 09/20/2017
 ## <a name="generating-schema"></a>產生結構描述  
  您必須產生結構描述的*接收*作業*ORDERS03。V3.620*下的 IDOC */IDOC/ORDERS/ORDERS03*節點。 請參閱[瀏覽、 搜尋和 get 中繼資料中 SAP IDOC 作業的](../../adapters-and-accelerators/adapter-sap/browse-search-and-get-metadata-for-idoc-operations-in-sap.md)如需有關如何產生結構描述特定的 IDOC 的指示。 在產生結構描述時，您可能想要設定下列屬性：  
   
--   *GenerateFlatFileCompatibleIDoc* – 產生\<appinfo > 標記放在可以在 BizTalk 案例中使用 BizTalk 一般檔案剖析器，以支援一般檔案 Idoc。  
+-   *GenerateFlatFileCompatibleIDoc* – 產生\<appinfo\>標記可以在 BizTalk 案例中使用 BizTalk 一般檔案剖析器，以支援一般檔案 Idoc。  
   
--   *FlatFileSegmentIndicator* – 指出如果 IDOC 結構描述\<appinfo > 區段定義名稱或區段型別名稱，應包含標記。 這是適用於使用希望傳送/接收一般檔案 IDOC 至/從 SAP。 如果*GenerateFlatFileCompatibleIDoc*設定為 false，則*FlatFileSegmentIndicator*繫結屬性會被忽略。  
+-   *FlatFileSegmentIndicator* – 指出如果 IDOC 結構描述\<appinfo\>區段定義名稱或區段型別名稱，應包含標記。 這是適用於使用希望傳送/接收一般檔案 IDOC 至/從 SAP。 如果*GenerateFlatFileCompatibleIDoc*設定為 false，則*FlatFileSegmentIndicator*繫結屬性會被忽略。  
   
 > [!IMPORTANT]
 >  因為您正在產生發話 IDOC 的結構描述，請確定您選取**服務 （輸入作業）**從**選取合約型別**下拉式清單中的[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]。  
@@ -292,5 +292,5 @@ Response(WCF.Action)= "http://Microsoft.LobServices.Sap/2007/03/Idoc/3/ORDERS03/
 ## <a name="best-practices"></a>最佳作法  
  您部署和設定 BizTalk 專案之後，您可以為 XML 檔案，稱為繫結檔案匯出組態設定。 一旦產生繫結檔案時，您可以匯入組態設定從檔案，因此您不需要建立傳送埠、 接收埠，等。 針對相同的協調流程。 如需繫結檔案的詳細資訊，請參閱[重複使用的 SAP 配接器繫結](../../adapters-and-accelerators/adapter-sap/reuse-sap-adapter-bindings.md)。
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
 [開發 BizTalk 應用程式](../../adapters-and-accelerators/adapter-sap/develop-biztalk-applications-using-the-sap-adapter.md)
