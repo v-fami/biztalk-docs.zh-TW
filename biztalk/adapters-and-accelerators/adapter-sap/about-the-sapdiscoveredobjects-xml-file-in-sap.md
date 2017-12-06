@@ -24,7 +24,7 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
 ---
 # <a name="about-the-sapdiscoveredobjectsxml-file-in-sap"></a>關於 sap SAPDiscoveredObjects.xml 檔案
-如果您選擇要安裝[!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)]([!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]) 連同[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]安裝，安裝程式會複製 SAPDiscoveredObjects.xml 檔案通常位於\<安裝磁碟機\>: \Program Files\Common 檔案\Microsoft Shared\Adapters\SAP。 全新安裝之後的檔案內容[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]，如下所示。  
+如果您選擇要安裝[!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] ([!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]) 連同[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]安裝，安裝程式會複製 SAPDiscoveredObjects.xml 檔案通常位於\<安裝磁碟機\>: \Program Files\Common 檔案\Microsoft Shared\Adapters\SAP。 全新安裝之後的檔案內容[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]，如下所示。  
   
 ```  
 <DiscoveredObjects>  
