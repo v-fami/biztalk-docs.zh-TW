@@ -63,7 +63,7 @@ ms.lasthandoff: 09/20/2017
 <span data-ttu-id="a9f23-145">**合約**</span><span class="sxs-lookup"><span data-stu-id="a9f23-145">**contract**</span></span>  
 <span data-ttu-id="a9f23-146">指定集合與存取服務所提供的作業所需的訊息結構。</span><span class="sxs-lookup"><span data-stu-id="a9f23-146">Specifies the collection and structure of messages required to access the operations offered by the service.</span></span>
   
-####  <span data-ttu-id="a9f23-147"><a name="D"></a>D</span><span class="sxs-lookup"><span data-stu-id="a9f23-147"><a name="D"></a> D</span></span>  
+####  <a name="D"></a><span data-ttu-id="a9f23-147">D</span><span class="sxs-lookup"><span data-stu-id="a9f23-147">D</span></span>  
   
 <span data-ttu-id="a9f23-148">**設計階段經驗**</span><span class="sxs-lookup"><span data-stu-id="a9f23-148">**design-time experience**</span></span>  
 <span data-ttu-id="a9f23-149">程序和開發人員在設計階段; 可以執行的作業例如，使用取用配接器服務 BizTalk 專案增益集來擷取訊息結構描述。</span><span class="sxs-lookup"><span data-stu-id="a9f23-149">Procedures and operations that a developer performs during design time; for example, using the Consume Adapter Service BizTalk Project Add-in to retrieve message schemas.</span></span>  

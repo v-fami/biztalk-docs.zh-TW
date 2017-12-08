@@ -228,7 +228,7 @@ public partial class InterfaceTables_FND_APPS_MS_SAMPLE_EMPLOYEEClient : System.
   
 11. <span data-ttu-id="e06f3-195">建置專案，然後執行它。</span><span class="sxs-lookup"><span data-stu-id="e06f3-195">Build the project and then run it.</span></span> <span data-ttu-id="e06f3-196">應用程式 MS_SAMPLE_EMPLOYEE 資料表中插入記錄。</span><span class="sxs-lookup"><span data-stu-id="e06f3-196">The application inserts a record in the MS_SAMPLE_EMPLOYEE table.</span></span>  
   
-###  <span data-ttu-id="e06f3-197"><a name="BKMK_Select"></a>選取作業</span><span class="sxs-lookup"><span data-stu-id="e06f3-197"><a name="BKMK_Select"></a> Select Operation</span></span>  
+###  <a name="BKMK_Select"></a><span data-ttu-id="e06f3-197">選取作業</span><span class="sxs-lookup"><span data-stu-id="e06f3-197">Select Operation</span></span>  
  <span data-ttu-id="e06f3-198">下列程式碼會顯示目標 MS_SAMPLE_EMPLOYEE 介面資料表的選取作業。</span><span class="sxs-lookup"><span data-stu-id="e06f3-198">The following code shows a Select operation that targets the MS_SAMPLE_EMPLOYEE interface table.</span></span> <span data-ttu-id="e06f3-199">選取的作業選取插入至資料表的最後一個記錄。</span><span class="sxs-lookup"><span data-stu-id="e06f3-199">The Select operation selects the last record inserted into the table.</span></span> <span data-ttu-id="e06f3-200">傳回的記錄會寫入至主控台。</span><span class="sxs-lookup"><span data-stu-id="e06f3-200">The returned record is written to the console.</span></span>  
   
 ```  
@@ -259,7 +259,7 @@ Console.WriteLine("Press any key to continue ...");
 Console.ReadLine();  
 ```  
   
-###  <span data-ttu-id="e06f3-201"><a name="BKMK_Update"></a>更新作業</span><span class="sxs-lookup"><span data-stu-id="e06f3-201"><a name="BKMK_Update"></a> Update Operation</span></span>  
+###  <a name="BKMK_Update"></a><span data-ttu-id="e06f3-201">更新作業</span><span class="sxs-lookup"><span data-stu-id="e06f3-201">Update Operation</span></span>  
  <span data-ttu-id="e06f3-202">下列程式碼會示範 MS_SAMPLE_EMPLOYEE 介面資料表為目標的更新作業。</span><span class="sxs-lookup"><span data-stu-id="e06f3-202">The following code shows an Update operation that targets the MS_SAMPLE_EMPLOYEE interface table.</span></span>  
   
 ```  
@@ -284,7 +284,7 @@ Console.WriteLine("Press any key to continue...");
 Console.ReadLine();  
 ```  
   
-###  <span data-ttu-id="e06f3-203"><a name="BKMK_Delete"></a>刪除作業</span><span class="sxs-lookup"><span data-stu-id="e06f3-203"><a name="BKMK_Delete"></a> Delete Operation</span></span>  
+###  <a name="BKMK_Delete"></a><span data-ttu-id="e06f3-203">刪除作業</span><span class="sxs-lookup"><span data-stu-id="e06f3-203">Delete Operation</span></span>  
  <span data-ttu-id="e06f3-204">下列程式碼會顯示目標 MS_SAMPLE_EMPLOYEE 介面資料表的刪除作業。</span><span class="sxs-lookup"><span data-stu-id="e06f3-204">The following code shows a Delete operation that targets the MS_SAMPLE_EMPLOYEE interface table.</span></span>  
   
 ```  

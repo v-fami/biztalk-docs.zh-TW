@@ -24,7 +24,7 @@ ms.lasthandoff: 09/20/2017
 # <a name="troubleshoot-issues-with-the-data-provider-for-sap"></a><span data-ttu-id="74f52-102">疑難排解資料提供者適用於 SAP 的問題</span><span class="sxs-lookup"><span data-stu-id="74f52-102">Troubleshoot Issues with the Data Provider for SAP</span></span>
 <span data-ttu-id="74f52-103">本章節將討論使用來解析作業使用時可能遭遇的錯誤的疑難排解技術[!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="74f52-103">This section discusses using troubleshooting techniques to resolve operational errors that you might encounter when using [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)].</span></span>  
   
-##  <span data-ttu-id="74f52-104"><a name="BKMK_SAPUnknownParam"></a>使用此資料提供者適用於 SAP 的未知的參數錯誤</span><span class="sxs-lookup"><span data-stu-id="74f52-104"><a name="BKMK_SAPUnknownParam"></a> Unknown Parameter error using the Data Provider for SAP</span></span>  
+##  <a name="BKMK_SAPUnknownParam"></a><span data-ttu-id="74f52-104">使用此資料提供者適用於 SAP 的未知的參數錯誤</span><span class="sxs-lookup"><span data-stu-id="74f52-104">Unknown Parameter error using the Data Provider for SAP</span></span>  
  <span data-ttu-id="74f52-105">**問題**</span><span class="sxs-lookup"><span data-stu-id="74f52-105">**Problem**</span></span>  
   
  <span data-ttu-id="74f52-106">[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]會產生下列錯誤：</span><span class="sxs-lookup"><span data-stu-id="74f52-106">The [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] gives the following error:</span></span>  
@@ -41,7 +41,7 @@ Microsoft.Data.SAPClient.SAPException: Failed to retrieve data from SAP server -
   
  <span data-ttu-id="74f52-111">您必須更新自訂 RFC 為最新可用版本。</span><span class="sxs-lookup"><span data-stu-id="74f52-111">You must update the custom RFC to the latest available version.</span></span> <span data-ttu-id="74f52-112">此 RFC，Z_EXTRACT_DATA_OO，隨附於 adapterpacknoversion。</span><span class="sxs-lookup"><span data-stu-id="74f52-112">This RFC, Z_EXTRACT_DATA_OO, is available with the adapterpacknoversion.</span></span> <span data-ttu-id="74f52-113">如需如何安裝和解除安裝自訂 RFC 的詳細資訊，請參閱[安裝適用於 SAP 的資料提供者的自訂 Rfc](../../adapters-and-accelerators/adapter-sap/install-custom-rfcs-for-the-data-provider-for-sap.md)。</span><span class="sxs-lookup"><span data-stu-id="74f52-113">For more information about how to install and uninstall the custom RFC, see [Install Custom RFCs for the Data Provider for SAP](../../adapters-and-accelerators/adapter-sap/install-custom-rfcs-for-the-data-provider-for-sap.md).</span></span>
   
-##  <span data-ttu-id="74f52-114"><a name="BKMK_SAPOOM"></a>記憶體不足例外狀況時從 SAP 資料表選取資料</span><span class="sxs-lookup"><span data-stu-id="74f52-114"><a name="BKMK_SAPOOM"></a> Out of memory exceptions when selecting data from an SAP table</span></span>  
+##  <a name="BKMK_SAPOOM"></a><span data-ttu-id="74f52-114">記憶體不足例外狀況時從 SAP 資料表選取資料</span><span class="sxs-lookup"><span data-stu-id="74f52-114">Out of memory exceptions when selecting data from an SAP table</span></span>  
  <span data-ttu-id="74f52-115">**問題**</span><span class="sxs-lookup"><span data-stu-id="74f52-115">**Problem**</span></span>  
   
  <span data-ttu-id="74f52-116">[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] SAP 系統從選取的資料時，會擲回記憶體不足例外狀況。</span><span class="sxs-lookup"><span data-stu-id="74f52-116">The [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] throws an out of memory exception when selecting data from an SAP system.</span></span>  
@@ -66,7 +66,7 @@ SELECT * FROM <tablename> OPTION 'batchsize 1000'
   
  <span data-ttu-id="74f52-128">[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]現在一次擷取只 1000 個資料列，因此不會耗用大量的記憶體。</span><span class="sxs-lookup"><span data-stu-id="74f52-128">The [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] now retrieves only 1000 rows at a time and hence does not consume large amount of memory.</span></span>  
   
-##  <span data-ttu-id="74f52-129"><a name="BKMK_SAPQueryExcep"></a>例外狀況時執行的查詢，會採用具有日期值的參數</span><span class="sxs-lookup"><span data-stu-id="74f52-129"><a name="BKMK_SAPQueryExcep"></a> Exception while executing a query that takes parameters with date values</span></span>  
+##  <a name="BKMK_SAPQueryExcep"></a><span data-ttu-id="74f52-129">例外狀況時執行的查詢，會採用具有日期值的參數</span><span class="sxs-lookup"><span data-stu-id="74f52-129">Exception while executing a query that takes parameters with date values</span></span>  
  <span data-ttu-id="74f52-130">**問題**</span><span class="sxs-lookup"><span data-stu-id="74f52-130">**Problem**</span></span>  
   
  <span data-ttu-id="74f52-131">當您執行查詢，使用 EXECQUERY 命令採用日期值的參數時，您會取得下列例外狀況：</span><span class="sxs-lookup"><span data-stu-id="74f52-131">You get the following exception when you execute a query using the EXECQUERY command that has a parameter which takes a date value:</span></span>  
@@ -88,7 +88,7 @@ SapErrorMessage=Enter date in the format __.__.____.
 EXECQUERY ZTEST3 @USERGROUP='SYSTQV000024', @P1='20080606'  
 ```  
   
-##  <span data-ttu-id="74f52-137"><a name="BKMK_SAPNOVARIANT"></a>執行查詢使用 EXECQUERY 命令 NO_VARIANT 例外狀況</span><span class="sxs-lookup"><span data-stu-id="74f52-137"><a name="BKMK_SAPNOVARIANT"></a> NO_VARIANT exception executing queries using the EXECQUERY command</span></span>  
+##  <a name="BKMK_SAPNOVARIANT"></a><span data-ttu-id="74f52-137">執行查詢使用 EXECQUERY 命令 NO_VARIANT 例外狀況</span><span class="sxs-lookup"><span data-stu-id="74f52-137">NO_VARIANT exception executing queries using the EXECQUERY command</span></span>  
  <span data-ttu-id="74f52-138">**問題**</span><span class="sxs-lookup"><span data-stu-id="74f52-138">**Problem**</span></span>  
   
  <span data-ttu-id="74f52-139">當您執行查詢，使用 EXECQUERY 命令時，您會取得下列例外狀況：</span><span class="sxs-lookup"><span data-stu-id="74f52-139">You get the following exception when you execute a query using the EXECQUERY command:</span></span>  

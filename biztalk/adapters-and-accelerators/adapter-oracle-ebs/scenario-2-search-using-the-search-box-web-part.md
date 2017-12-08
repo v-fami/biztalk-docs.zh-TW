@@ -23,7 +23,7 @@ ms.lasthandoff: 09/20/2017
   
  
   
-##  <span data-ttu-id="7c637-105"><a name="Define"></a>定義內容的來源</span><span class="sxs-lookup"><span data-stu-id="7c637-105"><a name="Define"></a> Define the Content Source</span></span>  
+##  <a name="Define"></a><span data-ttu-id="7c637-105">定義內容的來源</span><span class="sxs-lookup"><span data-stu-id="7c637-105">Define the Content Source</span></span>  
  <span data-ttu-id="7c637-106">本節討論有關定義內容從 Microsoft Office SharePoint Server 可以搜耙的資料來源。</span><span class="sxs-lookup"><span data-stu-id="7c637-106">This section talks about defining a content source from where Microsoft Office SharePoint Server can crawl the data.</span></span> <span data-ttu-id="7c637-107">這牽涉到將內容對應至方法執行個體中建立 Id Enumerator[步驟 2： 建立 Oracle E-business Suite 成品的應用程式定義檔](../../adapters-and-accelerators/adapter-oracle-ebs/step-2-create-an-application-definition-file-for-the-oracle-ebs-artifacts.md)。</span><span class="sxs-lookup"><span data-stu-id="7c637-107">This involves mapping the content to the Id Enumerator method instance created in [Step 2: Create an application definition file for the Oracle E-Business Suite artifacts](../../adapters-and-accelerators/adapter-oracle-ebs/step-2-create-an-application-definition-file-for-the-oracle-ebs-artifacts.md).</span></span>  
   
 #### <a name="to-define-a-content-source"></a><span data-ttu-id="7c637-108">若要定義內容的來源</span><span class="sxs-lookup"><span data-stu-id="7c637-108">To define a content source</span></span>  
@@ -60,7 +60,7 @@ ms.lasthandoff: 09/20/2017
   
 11. <span data-ttu-id="7c637-128">在左窗格中**耙梳**，按一下 **搜耙記錄檔**，然後確認記錄檔，以確保耙梳成功。</span><span class="sxs-lookup"><span data-stu-id="7c637-128">In the left pane under **Crawling**, click **Crawl Log**, and then verify the log file to ensure that the crawling is successful.</span></span>  
   
-##  <span data-ttu-id="7c637-129"><a name="Scope"></a>建立編目內容的範圍定義為</span><span class="sxs-lookup"><span data-stu-id="7c637-129"><a name="Scope"></a> Define a Scope for the Crawled Content</span></span>  
+##  <a name="Scope"></a><span data-ttu-id="7c637-129">建立編目內容的範圍定義為</span><span class="sxs-lookup"><span data-stu-id="7c637-129">Define a Scope for the Crawled Content</span></span>  
   
 1.  <span data-ttu-id="7c637-130">啟動 SharePoint 3.0 管理中心。</span><span class="sxs-lookup"><span data-stu-id="7c637-130">Start SharePoint 3.0 Central Administration.</span></span> <span data-ttu-id="7c637-131">按一下**啟動**，指向 **所有程式**，指向  **Microsoft Office Server**，然後按一下  **SharePoint 3.0 管理中心**.</span><span class="sxs-lookup"><span data-stu-id="7c637-131">Click **Start**, point to **All Programs**, point to **Microsoft Office Server**, and then click **SharePoint 3.0 Central Administration**.</span></span>  
   
@@ -92,7 +92,7 @@ ms.lasthandoff: 09/20/2017
   
  <span data-ttu-id="7c637-147">**範圍更新狀態**資料列都會顯示範圍更新的狀態。</span><span class="sxs-lookup"><span data-stu-id="7c637-147">The **Scope update status** row will display the status of the scope update.</span></span> <span data-ttu-id="7c637-148">等候更新完成。</span><span class="sxs-lookup"><span data-stu-id="7c637-148">Wait until the update is complete.</span></span> <span data-ttu-id="7c637-149">已更新完成後，範圍是可供使用。</span><span class="sxs-lookup"><span data-stu-id="7c637-149">After the updated is completed, the scope is ready to be used.</span></span>  
   
-##  <span data-ttu-id="7c637-150"><a name="AddScope"></a>將範圍新增至搜尋下拉式清單中</span><span class="sxs-lookup"><span data-stu-id="7c637-150"><a name="AddScope"></a> Add the Scope to the Search Dropdown</span></span>  
+##  <a name="AddScope"></a><span data-ttu-id="7c637-150">將範圍新增至搜尋下拉式清單中</span><span class="sxs-lookup"><span data-stu-id="7c637-150">Add the Scope to the Search Dropdown</span></span>  
  <span data-ttu-id="7c637-151">您已建立的搜尋範圍之後，您必須加入範圍中 Microsoft Office SharePoint Server 搜尋下拉式清單中，使其可以用它。</span><span class="sxs-lookup"><span data-stu-id="7c637-151">After you have created the search scope, you must add the scope to the search dropdown in Microsoft Office SharePoint Server so that it can be used.</span></span>  
   
 #### <a name="to-add-the-scope-to-the-search-dropdown"></a><span data-ttu-id="7c637-152">將範圍新增至搜尋下拉式清單中</span><span class="sxs-lookup"><span data-stu-id="7c637-152">To add the scope to the search dropdown</span></span>  
@@ -119,7 +119,7 @@ ms.lasthandoff: 09/20/2017
   
 7.  <span data-ttu-id="7c637-164">您將會回到檢視範圍頁面與 MS_SAMPLE_EMPLOYEE_Search 範圍搜尋下拉式清單中顯示群組中加入。</span><span class="sxs-lookup"><span data-stu-id="7c637-164">You will return to the View Scopes page with the MS_SAMPLE_EMPLOYEE_Search scope added in the Search Dropdown display group.</span></span>  
   
-##  <span data-ttu-id="7c637-165"><a name="SearchWebPart"></a>新增搜尋方塊 」 Web 組件</span><span class="sxs-lookup"><span data-stu-id="7c637-165"><a name="SearchWebPart"></a> Add the Search Box Web Part</span></span>  
+##  <a name="SearchWebPart"></a><span data-ttu-id="7c637-165">新增搜尋方塊 」 Web 組件</span><span class="sxs-lookup"><span data-stu-id="7c637-165">Add the Search Box Web Part</span></span>  
  <span data-ttu-id="7c637-166">若要啟用 Oracle E-business Suite 中 MS_SAMPLE_EMPLOYEE 介面資料表上執行全文檢索搜尋使用者，您必須現在建立 Web 組件頁面，並加入搜尋方塊 」 Web 組件。</span><span class="sxs-lookup"><span data-stu-id="7c637-166">To enable the users to perform a full-text search on the MS_SAMPLE_EMPLOYEE interface table in Oracle E-Business Suite, you must now create a Web part page, and add a Search Box Web Part to it.</span></span>  
   
 #### <a name="to-add-the-search-box-web-part"></a><span data-ttu-id="7c637-167">若要新增搜尋方塊 」 Web 組件</span><span class="sxs-lookup"><span data-stu-id="7c637-167">To add the Search Box Web Part</span></span>  

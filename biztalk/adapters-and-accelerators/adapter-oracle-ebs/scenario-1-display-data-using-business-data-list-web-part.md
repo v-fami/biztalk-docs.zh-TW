@@ -26,7 +26,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="creating-a-web-part-page"></a><span data-ttu-id="284d5-109">建立網頁組件</span><span class="sxs-lookup"><span data-stu-id="284d5-109">Creating a Web Part Page</span></span>  
  <span data-ttu-id="284d5-110">本節提供建立 Web 組件頁面的指示。</span><span class="sxs-lookup"><span data-stu-id="284d5-110">This section provides instructions to create a Web Part page.</span></span>  
   
-###  <span data-ttu-id="284d5-111"><a name="WebPart"></a>若要建立 Web 組件頁面</span><span class="sxs-lookup"><span data-stu-id="284d5-111"><a name="WebPart"></a> To create a Web Part page</span></span>  
+###  <a name="WebPart"></a><span data-ttu-id="284d5-111">若要建立 Web 組件頁面</span><span class="sxs-lookup"><span data-stu-id="284d5-111">To create a Web Part page</span></span>  
   
 1.  <span data-ttu-id="284d5-112">啟動 SharePoint 3.0 管理中心。</span><span class="sxs-lookup"><span data-stu-id="284d5-112">Start SharePoint 3.0 Central Administration.</span></span> <span data-ttu-id="284d5-113">按一下**啟動**，指向**所有程式**，指向 [ **Microsoft Office Server**，然後按一下**SharePoint 3.0 管理中心]**。</span><span class="sxs-lookup"><span data-stu-id="284d5-113">Click **Start**, point to **All Programs**, point to **Microsoft Office Server**, and click **SharePoint 3.0 Central Administration**.</span></span>  
   

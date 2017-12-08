@@ -32,7 +32,7 @@ ms.lasthandoff: 09/20/2017
   
  <span data-ttu-id="b5378-112">下列各節提供有關所公開的作業資訊[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]並行程式。</span><span class="sxs-lookup"><span data-stu-id="b5378-112">The following sections provide information about the operations exposed by the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] for concurrent programs.</span></span>  
   
-##  <span data-ttu-id="b5378-113"><a name="Concurrent"></a>< Concurrent_Program_Name > 作業</span><span class="sxs-lookup"><span data-stu-id="b5378-113"><a name="Concurrent"></a> <Concurrent_Program_Name> Operation</span></span>  
+##  <a name="Concurrent"></a><span data-ttu-id="b5378-113">< Concurrent_Program_Name > 作業</span><span class="sxs-lookup"><span data-stu-id="b5378-113"><Concurrent_Program_Name> Operation</span></span>  
  <span data-ttu-id="b5378-114">如先前所述，將會有許多 < Concurrent_Program_Name > 作業是 Oracle 應用程式中的並行程式數目。</span><span class="sxs-lookup"><span data-stu-id="b5378-114">As mentioned earlier, there will be as many <Concurrent_Program_Name> operations as the number of concurrent programs in an Oracle Aapplication.</span></span> <span data-ttu-id="b5378-115">< Concurrent_Program_Name > 作業採用五個標準的參數： 三個複雜型別和兩個簡單類型。</span><span class="sxs-lookup"><span data-stu-id="b5378-115">The <Concurrent_Program_Name> operation takes five standard parameters:  three of complex type and two of simple type.</span></span>  
   
 > [!NOTE]

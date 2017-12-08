@@ -46,7 +46,7 @@ ms.lasthandoff: 09/20/2017
   
 -   [<span data-ttu-id="10cea-116">類別 9： 現金管理和客戶狀態</span><span class="sxs-lookup"><span data-stu-id="10cea-116">Category 9: Cash Management and Customer Status</span></span>](#fsa_intro_sptj)  
   
-##  <span data-ttu-id="10cea-117"><a name="fsa_intro_xtkj"></a>SWIFT 訊息-Microsoft</span><span class="sxs-lookup"><span data-stu-id="10cea-117"><a name="fsa_intro_xtkj"></a> SWIFT Messages - Microsoft</span></span>  
+##  <a name="fsa_intro_xtkj"></a><span data-ttu-id="10cea-117">SWIFT 訊息-Microsoft</span><span class="sxs-lookup"><span data-stu-id="10cea-117">SWIFT Messages - Microsoft</span></span>  
  <span data-ttu-id="10cea-118">下表描述[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]SWIFT 訊息之服務類型 GPA 和 FIN 控制項。</span><span class="sxs-lookup"><span data-stu-id="10cea-118">The following table describes the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] SWIFT messages for service types GPA and FIN Control.</span></span>  
   
 |<span data-ttu-id="10cea-119">訊息類型</span><span class="sxs-lookup"><span data-stu-id="10cea-119">Message type</span></span>|<span data-ttu-id="10cea-120">Description</span><span class="sxs-lookup"><span data-stu-id="10cea-120">Description</span></span>|  
@@ -72,7 +72,7 @@ ms.lasthandoff: 09/20/2017
 |<span data-ttu-id="10cea-157">**42**</span><span class="sxs-lookup"><span data-stu-id="10cea-157">**42**</span></span>|<span data-ttu-id="10cea-158">登入負值通知 (LNK)</span><span class="sxs-lookup"><span data-stu-id="10cea-158">Login Negative Acknowledgement (LNK)</span></span>|  
 |<span data-ttu-id="10cea-159">**43**</span><span class="sxs-lookup"><span data-stu-id="10cea-159">**43**</span></span>|<span data-ttu-id="10cea-160">選取負值通知 (SNK)</span><span class="sxs-lookup"><span data-stu-id="10cea-160">Select Negative Acknowledgement (SNK)</span></span>|  
   
-##  <span data-ttu-id="10cea-161"><a name="fsa_intro_xcpk"></a>類別 0: FIN 系統訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-161"><a name="fsa_intro_xcpk"></a> Category 0: FIN System Messages</span></span>  
+##  <a name="fsa_intro_xcpk"></a><span data-ttu-id="10cea-161">類別 0: FIN 系統訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-161">Category 0: FIN System Messages</span></span>  
  <span data-ttu-id="10cea-162">下表描述訊息表單類別 0： 財務系統訊息，包括使用者 SWIFT 和 SWIFT 給使用者。</span><span class="sxs-lookup"><span data-stu-id="10cea-162">The following table describes messages form Category 0: Financial System Messages, including User to SWIFT and SWIFT to User.</span></span>  
   
 |<span data-ttu-id="10cea-163">訊息類型</span><span class="sxs-lookup"><span data-stu-id="10cea-163">Message type</span></span>|<span data-ttu-id="10cea-164">Description</span><span class="sxs-lookup"><span data-stu-id="10cea-164">Description</span></span>|  
@@ -135,7 +135,7 @@ ms.lasthandoff: 09/20/2017
 |<span data-ttu-id="10cea-275">**MT 096**</span><span class="sxs-lookup"><span data-stu-id="10cea-275">**MT 096**</span></span>|<span data-ttu-id="10cea-276">FIN 複製至中央機構訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-276">FIN Copy to Central Institution Message</span></span>|  
 |<span data-ttu-id="10cea-277">**MT 097**</span><span class="sxs-lookup"><span data-stu-id="10cea-277">**MT 097**</span></span>|<span data-ttu-id="10cea-278">FIN 複製訊息的授權/拒絕通知</span><span class="sxs-lookup"><span data-stu-id="10cea-278">FIN Copy Message Authorization/Refusal Notification</span></span>|  
   
-##  <span data-ttu-id="10cea-279"><a name="fsa_intro_lxnf"></a>類別目錄 1： 客戶付款作業並檢查</span><span class="sxs-lookup"><span data-stu-id="10cea-279"><a name="fsa_intro_lxnf"></a> Category 1: Customer Payments and Checks</span></span>  
+##  <a name="fsa_intro_lxnf"></a><span data-ttu-id="10cea-279">類別目錄 1： 客戶付款作業並檢查</span><span class="sxs-lookup"><span data-stu-id="10cea-279">Category 1: Customer Payments and Checks</span></span>  
  <span data-ttu-id="10cea-280">下表描述從類別 1 訊息： 付款及檢查。</span><span class="sxs-lookup"><span data-stu-id="10cea-280">The following table describes messages from Category 1: Payments and Checks.</span></span>  
   
 |<span data-ttu-id="10cea-281">訊息類型</span><span class="sxs-lookup"><span data-stu-id="10cea-281">Message type</span></span>|<span data-ttu-id="10cea-282">Description</span><span class="sxs-lookup"><span data-stu-id="10cea-282">Description</span></span>|  
@@ -161,7 +161,7 @@ ms.lasthandoff: 09/20/2017
 |<span data-ttu-id="10cea-319">**MT 198**</span><span class="sxs-lookup"><span data-stu-id="10cea-319">**MT 198**</span></span>|<span data-ttu-id="10cea-320">專屬的訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-320">Proprietary Message</span></span>|  
 |<span data-ttu-id="10cea-321">**MT 199**</span><span class="sxs-lookup"><span data-stu-id="10cea-321">**MT 199**</span></span>|<span data-ttu-id="10cea-322">可用的格式訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-322">Free Format Message</span></span>|  
   
-##  <span data-ttu-id="10cea-323"><a name="fsa_intro_fywg"></a>類別目錄 2： 金融機構傳輸</span><span class="sxs-lookup"><span data-stu-id="10cea-323"><a name="fsa_intro_fywg"></a> Category 2: Financial Institution Transfers</span></span>  
+##  <a name="fsa_intro_fywg"></a><span data-ttu-id="10cea-323">類別目錄 2： 金融機構傳輸</span><span class="sxs-lookup"><span data-stu-id="10cea-323">Category 2: Financial Institution Transfers</span></span>  
  <span data-ttu-id="10cea-324">下表描述從類別目錄 2 訊息： 金融機構傳輸。</span><span class="sxs-lookup"><span data-stu-id="10cea-324">The following table describes messages from Category 2: Financial Institution Transfers.</span></span>  
   
 |<span data-ttu-id="10cea-325">訊息類型</span><span class="sxs-lookup"><span data-stu-id="10cea-325">Message type</span></span>|<span data-ttu-id="10cea-326">Description</span><span class="sxs-lookup"><span data-stu-id="10cea-326">Description</span></span>|  
@@ -185,7 +185,7 @@ ms.lasthandoff: 09/20/2017
 |<span data-ttu-id="10cea-359">**MT 298**</span><span class="sxs-lookup"><span data-stu-id="10cea-359">**MT 298**</span></span>|<span data-ttu-id="10cea-360">專屬的訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-360">Proprietary Message</span></span>|  
 |<span data-ttu-id="10cea-361">**MT 299**</span><span class="sxs-lookup"><span data-stu-id="10cea-361">**MT 299**</span></span>|<span data-ttu-id="10cea-362">可用的格式訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-362">Free Format Message</span></span>|  
   
-##  <span data-ttu-id="10cea-363"><a name="fsa_intro_qipa"></a>外部 Exchange、 Money 市場和衍生的類別目錄 3： 庫房市場</span><span class="sxs-lookup"><span data-stu-id="10cea-363"><a name="fsa_intro_qipa"></a> Category 3: Treasury Markets Foreign Exchange, Money Markets and Derivatives</span></span>  
+##  <a name="fsa_intro_qipa"></a><span data-ttu-id="10cea-363">外部 Exchange、 Money 市場和衍生的類別目錄 3： 庫房市場</span><span class="sxs-lookup"><span data-stu-id="10cea-363">Category 3: Treasury Markets Foreign Exchange, Money Markets and Derivatives</span></span>  
  <span data-ttu-id="10cea-364">下表描述訊息從類別目錄 3： 庫房市場外幣匯率、 貨幣市場和衍生項目。</span><span class="sxs-lookup"><span data-stu-id="10cea-364">The following table describes messages from Category 3: Treasury Markets Foreign Exchange, Money Markets, and Derivatives.</span></span>  
   
 |<span data-ttu-id="10cea-365">訊息類型</span><span class="sxs-lookup"><span data-stu-id="10cea-365">Message type</span></span>|<span data-ttu-id="10cea-366">Description</span><span class="sxs-lookup"><span data-stu-id="10cea-366">Description</span></span>|  
@@ -218,7 +218,7 @@ ms.lasthandoff: 09/20/2017
 |<span data-ttu-id="10cea-417">**MT 398**</span><span class="sxs-lookup"><span data-stu-id="10cea-417">**MT 398**</span></span>|<span data-ttu-id="10cea-418">專屬的訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-418">Proprietary Message</span></span>|  
 |<span data-ttu-id="10cea-419">**MT 399**</span><span class="sxs-lookup"><span data-stu-id="10cea-419">**MT 399**</span></span>|<span data-ttu-id="10cea-420">可用的格式訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-420">Free Format Message</span></span>|  
   
-##  <span data-ttu-id="10cea-421"><a name="fsa_intro_ruuc"></a>類別 4： 集合和現金字母</span><span class="sxs-lookup"><span data-stu-id="10cea-421"><a name="fsa_intro_ruuc"></a> Category 4: Collections and Cash Letters</span></span>  
+##  <a name="fsa_intro_ruuc"></a><span data-ttu-id="10cea-421">類別 4： 集合和現金字母</span><span class="sxs-lookup"><span data-stu-id="10cea-421">Category 4: Collections and Cash Letters</span></span>  
  <span data-ttu-id="10cea-422">下表描述訊息分類-4： 集合和現金字母。</span><span class="sxs-lookup"><span data-stu-id="10cea-422">The following table describes messages from Category 4: Collections and Cash Letters.</span></span>  
   
 |<span data-ttu-id="10cea-423">訊息類型</span><span class="sxs-lookup"><span data-stu-id="10cea-423">Message type</span></span>|<span data-ttu-id="10cea-424">Description</span><span class="sxs-lookup"><span data-stu-id="10cea-424">Description</span></span>|  
@@ -242,7 +242,7 @@ ms.lasthandoff: 09/20/2017
 |<span data-ttu-id="10cea-457">**MT 498**</span><span class="sxs-lookup"><span data-stu-id="10cea-457">**MT 498**</span></span>|<span data-ttu-id="10cea-458">專屬的訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-458">Proprietary Message</span></span>|  
 |<span data-ttu-id="10cea-459">**MT 499**</span><span class="sxs-lookup"><span data-stu-id="10cea-459">**MT 499**</span></span>|<span data-ttu-id="10cea-460">可用的格式訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-460">Free Format Message</span></span>|  
   
-##  <span data-ttu-id="10cea-461"><a name="fsa_intro_iitn"></a>類別 5： 股票所分配到市場</span><span class="sxs-lookup"><span data-stu-id="10cea-461"><a name="fsa_intro_iitn"></a> Category 5: Securities Markets</span></span>  
+##  <a name="fsa_intro_iitn"></a><span data-ttu-id="10cea-461">類別 5： 股票所分配到市場</span><span class="sxs-lookup"><span data-stu-id="10cea-461">Category 5: Securities Markets</span></span>  
  <span data-ttu-id="10cea-462">下表描述的訊息類別 5： 股票所分配到市場。</span><span class="sxs-lookup"><span data-stu-id="10cea-462">The following table describes messages from Category 5: Securities Markets.</span></span>  
   
 |<span data-ttu-id="10cea-463">訊息類型</span><span class="sxs-lookup"><span data-stu-id="10cea-463">Message type</span></span>|<span data-ttu-id="10cea-464">Description</span><span class="sxs-lookup"><span data-stu-id="10cea-464">Description</span></span>|  
@@ -315,7 +315,7 @@ ms.lasthandoff: 09/20/2017
 |<span data-ttu-id="10cea-595">**MT 598**</span><span class="sxs-lookup"><span data-stu-id="10cea-595">**MT 598**</span></span>|<span data-ttu-id="10cea-596">專屬的訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-596">Proprietary Message</span></span>|  
 |<span data-ttu-id="10cea-597">**MT 599**</span><span class="sxs-lookup"><span data-stu-id="10cea-597">**MT 599**</span></span>|<span data-ttu-id="10cea-598">可用的格式訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-598">Free Format Message</span></span>|  
   
-##  <span data-ttu-id="10cea-599"><a name="fsa_intro_bjez"></a>類別 6： 庫房市場珍貴金屬等</span><span class="sxs-lookup"><span data-stu-id="10cea-599"><a name="fsa_intro_bjez"></a> Category 6: Treasury Markets Precious Metals</span></span>  
+##  <a name="fsa_intro_bjez"></a><span data-ttu-id="10cea-599">類別 6： 庫房市場珍貴金屬等</span><span class="sxs-lookup"><span data-stu-id="10cea-599">Category 6: Treasury Markets Precious Metals</span></span>  
  <span data-ttu-id="10cea-600">下表描述的訊息類別 6： 庫房市場珍貴金屬、 珍貴市場 Syndications 和庫房市場常見的訊息。</span><span class="sxs-lookup"><span data-stu-id="10cea-600">The following table describes messages from Category 6: Treasury Markets Precious Metals, Treasure Markets Syndications, and Treasury Markets Common Messages.</span></span>  
   
 |<span data-ttu-id="10cea-601">訊息類型</span><span class="sxs-lookup"><span data-stu-id="10cea-601">Message type</span></span>|<span data-ttu-id="10cea-602">Description</span><span class="sxs-lookup"><span data-stu-id="10cea-602">Description</span></span>|  
@@ -345,7 +345,7 @@ ms.lasthandoff: 09/20/2017
 |<span data-ttu-id="10cea-644">**MT 698**</span><span class="sxs-lookup"><span data-stu-id="10cea-644">**MT 698**</span></span>|<span data-ttu-id="10cea-645">專屬的訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-645">Proprietary Message</span></span>|  
 |<span data-ttu-id="10cea-646">**MT 699**</span><span class="sxs-lookup"><span data-stu-id="10cea-646">**MT 699**</span></span>|<span data-ttu-id="10cea-647">可用的格式訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-647">Free Format Message</span></span>|  
   
-##  <span data-ttu-id="10cea-648"><a name="fsa_intro_vhkw"></a>類別目錄 7： 記錄信用額度和保證</span><span class="sxs-lookup"><span data-stu-id="10cea-648"><a name="fsa_intro_vhkw"></a> Category 7: Documentary Credits and Guarantees</span></span>  
+##  <a name="fsa_intro_vhkw"></a><span data-ttu-id="10cea-648">類別目錄 7： 記錄信用額度和保證</span><span class="sxs-lookup"><span data-stu-id="10cea-648">Category 7: Documentary Credits and Guarantees</span></span>  
  <span data-ttu-id="10cea-649">下表描述訊息從類別目錄 7： 紀實信用額度與保證。</span><span class="sxs-lookup"><span data-stu-id="10cea-649">The following table describes messages from Category 7: Documentary Credits and Guarantees.</span></span>  
   
 |<span data-ttu-id="10cea-650">訊息類型</span><span class="sxs-lookup"><span data-stu-id="10cea-650">Message type</span></span>|<span data-ttu-id="10cea-651">Description</span><span class="sxs-lookup"><span data-stu-id="10cea-651">Description</span></span>|  
@@ -380,7 +380,7 @@ ms.lasthandoff: 09/20/2017
 |<span data-ttu-id="10cea-706">**MT 798**</span><span class="sxs-lookup"><span data-stu-id="10cea-706">**MT 798**</span></span>|<span data-ttu-id="10cea-707">專屬的訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-707">Proprietary Message</span></span>|  
 |<span data-ttu-id="10cea-708">**MT 799**</span><span class="sxs-lookup"><span data-stu-id="10cea-708">**MT 799**</span></span>|<span data-ttu-id="10cea-709">可用的格式訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-709">Free Format Message</span></span>|  
   
-##  <span data-ttu-id="10cea-710"><a name="fsa_intro_qlwo"></a>類別 8： 旅行者改走在</span><span class="sxs-lookup"><span data-stu-id="10cea-710"><a name="fsa_intro_qlwo"></a> Category 8: Travellers Cheques</span></span>  
+##  <a name="fsa_intro_qlwo"></a><span data-ttu-id="10cea-710">類別 8： 旅行者改走在</span><span class="sxs-lookup"><span data-stu-id="10cea-710">Category 8: Travellers Cheques</span></span>  
  <span data-ttu-id="10cea-711">下表描述的訊息類別 8： 在旅行者改走。</span><span class="sxs-lookup"><span data-stu-id="10cea-711">The following table describes messages from Category 8: Travellers Cheques.</span></span>  
   
 |<span data-ttu-id="10cea-712">訊息類型</span><span class="sxs-lookup"><span data-stu-id="10cea-712">Message type</span></span>|<span data-ttu-id="10cea-713">Description</span><span class="sxs-lookup"><span data-stu-id="10cea-713">Description</span></span>|  
@@ -404,7 +404,7 @@ ms.lasthandoff: 09/20/2017
 |<span data-ttu-id="10cea-746">**MT 898**</span><span class="sxs-lookup"><span data-stu-id="10cea-746">**MT 898**</span></span>|<span data-ttu-id="10cea-747">MT 898 專屬的訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-747">MT 898 Proprietary Message</span></span>|  
 |<span data-ttu-id="10cea-748">**MT 899**</span><span class="sxs-lookup"><span data-stu-id="10cea-748">**MT 899**</span></span>|<span data-ttu-id="10cea-749">MT 899 任意格式訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-749">MT 899 Free Format Message</span></span>|  
   
-##  <span data-ttu-id="10cea-750"><a name="fsa_intro_sptj"></a>類別 9： 現金管理和客戶狀態</span><span class="sxs-lookup"><span data-stu-id="10cea-750"><a name="fsa_intro_sptj"></a> Category 9: Cash Management and Customer Status</span></span>  
+##  <a name="fsa_intro_sptj"></a><span data-ttu-id="10cea-750">類別 9： 現金管理和客戶狀態</span><span class="sxs-lookup"><span data-stu-id="10cea-750">Category 9: Cash Management and Customer Status</span></span>  
  <span data-ttu-id="10cea-751">下表描述的訊息類別 9： 現金管理和客戶狀態。</span><span class="sxs-lookup"><span data-stu-id="10cea-751">The following table describes messages from Category 9: Cash Management and Customer Status.</span></span>  
   
 |<span data-ttu-id="10cea-752">訊息類型</span><span class="sxs-lookup"><span data-stu-id="10cea-752">Message type</span></span>|<span data-ttu-id="10cea-753">Description</span><span class="sxs-lookup"><span data-stu-id="10cea-753">Description</span></span>|  

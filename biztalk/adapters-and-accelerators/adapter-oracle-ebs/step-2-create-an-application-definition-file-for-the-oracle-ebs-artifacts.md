@@ -43,7 +43,7 @@ ms.lasthandoff: 09/20/2017
   
 
   
-##  <span data-ttu-id="29677-118"><a name="Connect"></a>連接到 WCF LOB 服務和建立實體</span><span class="sxs-lookup"><span data-stu-id="29677-118"><a name="Connect"></a> Connect to the WCF LOB Service and Create Entity</span></span>  
+##  <a name="Connect"></a><span data-ttu-id="29677-118">連接到 WCF LOB 服務和建立實體</span><span class="sxs-lookup"><span data-stu-id="29677-118">Connect to the WCF LOB Service and Create Entity</span></span>  
  <span data-ttu-id="29677-119">您必須連接至 WCF 服務，以擷取 Web 服務描述語言 (WSDL) 服務。</span><span class="sxs-lookup"><span data-stu-id="29677-119">You must connect to the WCF service to extract the Web Services Description Language (WSDL) for the service.</span></span> <span data-ttu-id="29677-120">從 WSDL，商務資料目錄定義編輯器中擷取的方法。</span><span class="sxs-lookup"><span data-stu-id="29677-120">From the WSDL, the Business Data Catalog Definition Editor extracts the methods.</span></span> <span data-ttu-id="29677-121">這些方法可以用來建立實體。</span><span class="sxs-lookup"><span data-stu-id="29677-121">These methods can be used to create entities.</span></span> <span data-ttu-id="29677-122">此教學課程中，建立實體。</span><span class="sxs-lookup"><span data-stu-id="29677-122">For this tutorial, an entity is created.</span></span>  
   
 #### <a name="to-connect-to-the-wcf-service-and-create-entities"></a><span data-ttu-id="29677-123">連接到 WCF 服務，並建立實體</span><span class="sxs-lookup"><span data-stu-id="29677-123">To connect to the WCF service and create entities</span></span>  
@@ -84,7 +84,7 @@ ms.lasthandoff: 09/20/2017
   
          <span data-ttu-id="29677-145">![重新命名實體](../../adapters-and-accelerators/adapter-oracle-ebs/media/06-entity-name.gif "06_Entity_Name")</span><span class="sxs-lookup"><span data-stu-id="29677-145">![Rename the entity](../../adapters-and-accelerators/adapter-oracle-ebs/media/06-entity-name.gif "06_Entity_Name")</span></span>  
   
-##  <span data-ttu-id="29677-146"><a name="Headers"></a>指定使用者名稱和密碼標頭方法</span><span class="sxs-lookup"><span data-stu-id="29677-146"><a name="Headers"></a> Specify User Name and Password Headers for the Methods</span></span>  
+##  <a name="Headers"></a><span data-ttu-id="29677-146">指定使用者名稱和密碼標頭方法</span><span class="sxs-lookup"><span data-stu-id="29677-146">Specify User Name and Password Headers for the Methods</span></span>  
  <span data-ttu-id="29677-147">建立 WCF 服務時 MS_SAMPLE_EMPLOYEE 介面資料表的 Select 作業 Oracle E-business Suite 中，您會指定使用者名稱和密碼標頭中的端點行為組態的一部分[步驟 1： 使用 OracleE-business 配接器來建立和發佈的 WCF 服務](../../adapters-and-accelerators/adapter-oracle-ebs/step-1-use-the-oracle-e-business-adapter-to-create-and-publish-a-wcf-service.md)。</span><span class="sxs-lookup"><span data-stu-id="29677-147">When creating a WCF service for the Select operation on the MS_SAMPLE_EMPLOYEE interface table in Oracle E-Business Suite, you specified user name and password headers as part of the endpoint behavior configuration in [Step 1: Use the Oracle E-Business Adapter to Create and Publish a WCF Service](../../adapters-and-accelerators/adapter-oracle-ebs/step-1-use-the-oracle-e-business-adapter-to-create-and-publish-a-wcf-service.md).</span></span> <span data-ttu-id="29677-148">您必須指定相同屬性之值的 Select 方法。</span><span class="sxs-lookup"><span data-stu-id="29677-148">You must specify the same values for the Select method property.</span></span>  
   
 #### <a name="to-specify-user-name-and-password-headers-for-the-select-method"></a><span data-ttu-id="29677-149">若要指定使用者名稱和密碼標頭 Select 方法</span><span class="sxs-lookup"><span data-stu-id="29677-149">To specify user name and password headers for the Select method</span></span>  
@@ -101,7 +101,7 @@ ms.lasthandoff: 09/20/2017
   
 5.  <span data-ttu-id="29677-159">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="29677-159">Click **OK**.</span></span>  
   
-##  <span data-ttu-id="29677-160"><a name="Scenario1"></a>使用商務資料清單網頁組件的員工的案例 1： 查詢</span><span class="sxs-lookup"><span data-stu-id="29677-160"><a name="Scenario1"></a> Scenario 1: Query for Employees using a Business Data List Web Part</span></span>  
+##  <a name="Scenario1"></a><span data-ttu-id="29677-160">使用商務資料清單網頁組件的員工的案例 1： 查詢</span><span class="sxs-lookup"><span data-stu-id="29677-160">Scenario 1: Query for Employees using a Business Data List Web Part</span></span>  
  <span data-ttu-id="29677-161">若要建立的應用程式定義檔可以用來搜尋員工從商務資料清單網頁組件，並根據員工的名稱，您必須執行下列工作集合。</span><span class="sxs-lookup"><span data-stu-id="29677-161">To create an application definition file that can be used to search for employees from a Business Data List Web Part and based on employee name, you must perform the following set of tasks.</span></span>  
   
 1.  <span data-ttu-id="29677-162">在**選取**方法，建立篩選器，並將它對應至**篩選**參數。</span><span class="sxs-lookup"><span data-stu-id="29677-162">In the **Select** method, create a filter and map it to the **FILTER** parameter.</span></span>  
@@ -154,7 +154,7 @@ ms.lasthandoff: 09/20/2017
   
      <span data-ttu-id="29677-188">![指定 Finder 方法執行個體的名稱](../../adapters-and-accelerators/adapter-oracle-ebs/media/13-instance-property.gif "13_Instance_Property")</span><span class="sxs-lookup"><span data-stu-id="29677-188">![Specify a name for the Finder method instance](../../adapters-and-accelerators/adapter-oracle-ebs/media/13-instance-property.gif "13_Instance_Property")</span></span>  
   
-##  <span data-ttu-id="29677-189"><a name="Scenario2"></a>案例 2： 從 Microsoft Office SharePoint Server MS_SAMPLE_EMPLOYEE 介面資料表上的全文檢索搜尋</span><span class="sxs-lookup"><span data-stu-id="29677-189"><a name="Scenario2"></a> Scenario 2: Full-Text Search on MS_SAMPLE_EMPLOYEE Interface Table from Microsoft Office SharePoint Server</span></span>  
+##  <a name="Scenario2"></a><span data-ttu-id="29677-189">案例 2： 從 Microsoft Office SharePoint Server MS_SAMPLE_EMPLOYEE 介面資料表上的全文檢索搜尋</span><span class="sxs-lookup"><span data-stu-id="29677-189">Scenario 2: Full-Text Search on MS_SAMPLE_EMPLOYEE Interface Table from Microsoft Office SharePoint Server</span></span>  
  <span data-ttu-id="29677-190">若要建立可以用來執行全文檢索搜尋 MS_SAMPLE_EMPLOYEE 介面資料表，從 Microsoft Office SharePoint Server 上的應用程式定義檔，您必須執行下列工作集合。</span><span class="sxs-lookup"><span data-stu-id="29677-190">To create an application definition file that can be used to perform a full-text search on MS_SAMPLE_EMPLOYEE interface table from Microsoft Office SharePoint Server, you must perform the following set of tasks.</span></span>  
   
 -   <span data-ttu-id="29677-191">在**選取**方法，建立識別項，並將其對應的 FILTER 參數和傳回值，會儲存員工名稱。</span><span class="sxs-lookup"><span data-stu-id="29677-191">In the **Select** method, create an identifier, and map it to the FILTER parameter and the return value that stores the employee name.</span></span>  
@@ -233,7 +233,7 @@ ms.lasthandoff: 09/20/2017
   
 5.  <span data-ttu-id="29677-231">在 [屬性] 窗格中，輸入**IDEnumerator_Instance**如**名稱**方塊。</span><span class="sxs-lookup"><span data-stu-id="29677-231">In the Properties pane, type **IDEnumerator_Instance** for the **Name** box.</span></span>  
   
-##  <span data-ttu-id="29677-232"><a name="Defaults"></a>設定方法的執行個體的預設參數</span><span class="sxs-lookup"><span data-stu-id="29677-232"><a name="Defaults"></a> Set Default Parameters for the Method Instances</span></span>  
+##  <a name="Defaults"></a><span data-ttu-id="29677-232">設定方法的執行個體的預設參數</span><span class="sxs-lookup"><span data-stu-id="29677-232">Set Default Parameters for the Method Instances</span></span>  
  <span data-ttu-id="29677-233">選取方法會要求您指定的資料行名稱。</span><span class="sxs-lookup"><span data-stu-id="29677-233">The Select method requires you to specify the column names.</span></span> <span data-ttu-id="29677-234">因此，您需要指定預設值為**COLUMN_NAMES**稍早建立的搜尋、 特定的搜尋和 Id Enumerator 方法執行個體的參數。</span><span class="sxs-lookup"><span data-stu-id="29677-234">Therefore, you need to specify a default value for the **COLUMN_NAMES** parameter for the Finder, Specific Finder, and Id Enumerator method instances created earlier.</span></span> <span data-ttu-id="29677-235">此外，您也應該指定的預設值**篩選**Id Enumerator 方法執行個體的參數。</span><span class="sxs-lookup"><span data-stu-id="29677-235">Additionally, you should also specify a default value for the **FILTER** parameter for the Id Enumerator method instance.</span></span>  
   
 #### <a name="to-set-the-default-parameters-for-the-method-instances"></a><span data-ttu-id="29677-236">若要設定的方法執行個體的預設參數</span><span class="sxs-lookup"><span data-stu-id="29677-236">To set the default parameters for the method instances</span></span>  
@@ -268,7 +268,7 @@ ms.lasthandoff: 09/20/2017
   
 13. <span data-ttu-id="29677-252">在**DefaultValueView 集合編輯器**對話方塊中，按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="29677-252">In the **DefaultValueView Collection Editor** dialog box, click **OK**.</span></span>  
   
-##  <span data-ttu-id="29677-253"><a name="SSO"></a>連接到 Oracle E-business Suite 設定單一登入設定</span><span class="sxs-lookup"><span data-stu-id="29677-253"><a name="SSO"></a> Set up Single Sign-On for Connecting to Oracle E-Business Suite</span></span>  
+##  <a name="SSO"></a><span data-ttu-id="29677-253">連接到 Oracle E-business Suite 設定單一登入設定</span><span class="sxs-lookup"><span data-stu-id="29677-253">Set up Single Sign-On for Connecting to Oracle E-Business Suite</span></span>  
  <span data-ttu-id="29677-254">執行本主題中的所有程序完成之後，您將建立可匯入 SharePoint 應用程式的應用程式定義檔。</span><span class="sxs-lookup"><span data-stu-id="29677-254">After you have finished performing all the procedures in this topic, you will have created an application definition file that can be imported into a SharePoint application.</span></span> <span data-ttu-id="29677-255">從應用程式，您叫用的方法來擷取 Oracle E-business Suite 中的相關資料。</span><span class="sxs-lookup"><span data-stu-id="29677-255">From the application, you invoke the methods to retrieve relevant data from Oracle E-Business Suite.</span></span> <span data-ttu-id="29677-256">若要啟用此功能，您必須在 SharePoint 應用程式中建立 Oracle E-business Suite 中的使用者與使用者之間的對應。</span><span class="sxs-lookup"><span data-stu-id="29677-256">To enable this, you must create a mapping between a user in the Oracle E-Business Suite and the user in the SharePoint application.</span></span> <span data-ttu-id="29677-257">您已匯入應用程式定義檔之後，您可以建立在 SharePoint 管理中心主控台中的此對應。</span><span class="sxs-lookup"><span data-stu-id="29677-257">You create this mapping in SharePoint Central Administration console after you have imported the application definition file.</span></span>  
   
  <span data-ttu-id="29677-258">不過，若要建立對應您必須設定屬性**SecondarySsoApplicationId**中商務資料目錄定義編輯器。</span><span class="sxs-lookup"><span data-stu-id="29677-258">However, to create the mapping you must set a property **SecondarySsoApplicationId** in the Business Data Catalog Definition Editor.</span></span>  
@@ -285,7 +285,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  <span data-ttu-id="29677-266">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="29677-266">Click **OK**.</span></span>  
   
-##  <span data-ttu-id="29677-267"><a name="Export"></a>應用程式定義匯出至檔案</span><span class="sxs-lookup"><span data-stu-id="29677-267"><a name="Export"></a> Export the Application Definition to a File</span></span>  
+##  <a name="Export"></a><span data-ttu-id="29677-267">應用程式定義匯出至檔案</span><span class="sxs-lookup"><span data-stu-id="29677-267">Export the Application Definition to a File</span></span>  
  <span data-ttu-id="29677-268">您現在已建立應用程式定義，其中包含 Oracle E-business Suite 執行個體中繼資料。</span><span class="sxs-lookup"><span data-stu-id="29677-268">You have now created an application definition that contains Oracle E-Business Suite instance metadata.</span></span> <span data-ttu-id="29677-269">您必須將此定義匯出至 XML 檔案，可以匯入 Microsoft Office SharePoint Server。</span><span class="sxs-lookup"><span data-stu-id="29677-269">You must export this definition to an XML file, which can be imported into Microsoft Office SharePoint Server.</span></span>  
   
 #### <a name="to-export-the-application-definition-to-a-file"></a><span data-ttu-id="29677-270">若要將應用程式定義匯出至檔案</span><span class="sxs-lookup"><span data-stu-id="29677-270">To export the application definition to a file</span></span>  

@@ -18,21 +18,21 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# 無法解析通訊協定根據內容屬性的協議
-## 詳細資料  
+# <a name="agreement-resolution-based-on-the-context-properties-for-protocol-has-failed"></a><span data-ttu-id="0d345-102">無法解析通訊協定根據內容屬性的協議</span><span class="sxs-lookup"><span data-stu-id="0d345-102">Agreement Resolution based on the context properties for Protocol has failed</span></span>
+## <a name="details"></a><span data-ttu-id="0d345-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="0d345-103">Details</span></span>  
   
 |||  
 |-|-|  
-|產品名稱|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|產品版本|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|事件識別碼|-|  
-|事件來源|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]EDI|  
-|元件|EDI 引擎|  
-|符號名稱|AgreementResolutionContextPropertiesLookupFailed|  
-|訊息文字|協議解析根據 {0} 通訊協定失敗的內容屬性。|  
+|<span data-ttu-id="0d345-104">產品名稱</span><span class="sxs-lookup"><span data-stu-id="0d345-104">Product Name</span></span>|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
+|<span data-ttu-id="0d345-105">產品版本</span><span class="sxs-lookup"><span data-stu-id="0d345-105">Product Version</span></span>|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
+|<span data-ttu-id="0d345-106">事件識別碼</span><span class="sxs-lookup"><span data-stu-id="0d345-106">Event ID</span></span>|-|  
+|<span data-ttu-id="0d345-107">事件來源</span><span class="sxs-lookup"><span data-stu-id="0d345-107">Event Source</span></span>|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="0d345-108">EDI</span><span class="sxs-lookup"><span data-stu-id="0d345-108"> EDI</span></span>|  
+|<span data-ttu-id="0d345-109">元件</span><span class="sxs-lookup"><span data-stu-id="0d345-109">Component</span></span>|<span data-ttu-id="0d345-110">EDI 引擎</span><span class="sxs-lookup"><span data-stu-id="0d345-110">EDI Engine</span></span>|  
+|<span data-ttu-id="0d345-111">符號名稱</span><span class="sxs-lookup"><span data-stu-id="0d345-111">Symbolic Name</span></span>|<span data-ttu-id="0d345-112">AgreementResolutionContextPropertiesLookupFailed</span><span class="sxs-lookup"><span data-stu-id="0d345-112">AgreementResolutionContextPropertiesLookupFailed</span></span>|  
+|<span data-ttu-id="0d345-113">訊息文字</span><span class="sxs-lookup"><span data-stu-id="0d345-113">Message Text</span></span>|<span data-ttu-id="0d345-114">協議解析根據 {0} 通訊協定失敗的內容屬性。</span><span class="sxs-lookup"><span data-stu-id="0d345-114">Agreement Resolution based on the context properties for {0} Protocol has failed.</span></span>|  
   
-## 說明  
- 這個錯誤/警告/資訊事件表示 BizTalk Server 無法解析為協議，根據客戶所提供的內容屬性。  
+## <a name="explanation"></a><span data-ttu-id="0d345-115">說明</span><span class="sxs-lookup"><span data-stu-id="0d345-115">Explanation</span></span>  
+ <span data-ttu-id="0d345-116">這個錯誤/警告/資訊事件表示 BizTalk Server 無法解析為協議，根據客戶所提供的內容屬性。</span><span class="sxs-lookup"><span data-stu-id="0d345-116">This Error/Warning/Information event indicates BizTalk Server was not able to resolve to an Agreement based on the context properties that are provided by the customer.</span></span>  
   
-## 使用者動作  
- 若要解決這個錯誤，請提供的內容屬性做為 BizTalk 訊息的一部分，可能是協議解析。
+## <a name="user-action"></a><span data-ttu-id="0d345-117">使用者動作</span><span class="sxs-lookup"><span data-stu-id="0d345-117">User Action</span></span>  
+ <span data-ttu-id="0d345-118">若要解決這個錯誤，請提供的內容屬性做為 BizTalk 訊息的一部分，可能是協議解析。</span><span class="sxs-lookup"><span data-stu-id="0d345-118">To resolve this error, please provide the context properties as part of the BizTalk message such that Agreement Resolution can happen.</span></span>
