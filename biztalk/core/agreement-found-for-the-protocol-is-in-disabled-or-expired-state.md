@@ -18,8 +18,8 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# 找到要通訊協定已停用協議或過期的狀態
-## 詳細資料  
+# <a name="agreement-found-for-the-protocol-is-in-disabled-or-expired-state"></a>找到要通訊協定已停用協議或過期的狀態
+## <a name="details"></a>詳細資料  
   
 |||  
 |-|-|  
@@ -31,8 +31,8 @@ ms.lasthandoff: 09/20/2017
 |符號名稱|AgreementResolutionAgreementDiasbledOrExpired|  
 |訊息文字|找到 {0} 通訊協定的協議處於停用] 或 [已過期狀態。|  
   
-## 說明  
+## <a name="explanation"></a>說明  
  這個錯誤/警告/資訊事件表示 BizTalk Server 能夠解析為協議，但它處於已停用或已過期。  
   
-## 使用者動作  
+## <a name="user-action"></a>使用者動作  
  若要解決這個錯誤，請啟用 在協議。

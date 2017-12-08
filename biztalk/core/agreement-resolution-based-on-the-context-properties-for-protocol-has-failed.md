@@ -18,8 +18,8 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# 無法解析通訊協定根據內容屬性的協議
-## 詳細資料  
+# <a name="agreement-resolution-based-on-the-context-properties-for-protocol-has-failed"></a>無法解析通訊協定根據內容屬性的協議
+## <a name="details"></a>詳細資料  
   
 |||  
 |-|-|  
@@ -31,8 +31,8 @@ ms.lasthandoff: 09/20/2017
 |符號名稱|AgreementResolutionContextPropertiesLookupFailed|  
 |訊息文字|協議解析根據 {0} 通訊協定失敗的內容屬性。|  
   
-## 說明  
+## <a name="explanation"></a>說明  
  這個錯誤/警告/資訊事件表示 BizTalk Server 無法解析為協議，根據客戶所提供的內容屬性。  
   
-## 使用者動作  
+## <a name="user-action"></a>使用者動作  
  若要解決這個錯誤，請提供的內容屬性做為 BizTalk 訊息的一部分，可能是協議解析。
