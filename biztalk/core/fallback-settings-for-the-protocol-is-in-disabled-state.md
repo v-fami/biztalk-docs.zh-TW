@@ -18,8 +18,8 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# 後援設定通訊協定處於停用狀態
-## 詳細資料  
+# <a name="fallback-settings-for-the-protocol-is-in-disabled-state"></a>後援設定通訊協定處於停用狀態
+## <a name="details"></a>詳細資料  
   
 |||  
 |-|-|  
@@ -31,8 +31,8 @@ ms.lasthandoff: 09/20/2017
 |符號名稱|AgreementResolutionFallbackSettingsDisabled|  
 |訊息文字|{0} 後援設定通訊協定處於停用狀態。|  
   
-## 說明  
+## <a name="explanation"></a>說明  
  這個錯誤/警告/資訊事件表示 BizTalk 伺服器能夠解析為協議與已重新導向至後援設定，找到 後援設定已停用狀態的特定通訊協定。  
   
-## 使用者動作  
+## <a name="user-action"></a>使用者動作  
  若要解決這個錯誤，請啟用後援設定特定通訊協定。

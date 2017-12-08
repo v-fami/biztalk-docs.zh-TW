@@ -18,8 +18,8 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# 找不到通訊協定的後援設定
-## 詳細資料  
+# <a name="fallback-settings-for-the-protocol-not-found"></a>找不到通訊協定的後援設定
+## <a name="details"></a>詳細資料  
   
 |||  
 |-|-|  
@@ -31,8 +31,8 @@ ms.lasthandoff: 09/20/2017
 |符號名稱|AgreementResolutionFallbackSettingsNotFound|  
 |訊息文字|後援 {0} 找不到通訊協定的設定。|  
   
-## 說明  
+## <a name="explanation"></a>說明  
  這個錯誤/警告/資訊事件表示 BizTalk 伺服器無法解析為協議並已重新導向至後援設定，找到 後援設定有沒有特定的通訊協定。  
   
-## 使用者動作  
+## <a name="user-action"></a>使用者動作  
  若要解決這個錯誤，請設定特定通訊協定的後援設定。

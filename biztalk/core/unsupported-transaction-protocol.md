@@ -18,8 +18,8 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# 不支援的交易通訊協定
-## 詳細資料  
+# <a name="unsupported-transaction-protocol"></a>不支援的交易通訊協定
+## <a name="details"></a>詳細資料  
   
 |||  
 |-|-|  
@@ -31,10 +31,10 @@ ms.lasthandoff: 09/20/2017
 |符號名稱|0|  
 |訊息文字|不支援的交易通訊協定： {0}|  
   
-## 說明  
+## <a name="explanation"></a>說明  
  當接收位置或傳送埠的交易通訊協定屬性設定為無效值時，就會發生此錯誤。  
   
-## 使用者動作  
+## <a name="user-action"></a>使用者動作  
  若要解決這個錯誤，請執行下列一個或多個動作：  
   
 1.  按一下**啟動**，按一下 **所有程式**，按一下  [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]，然後按一下**BizTalk Server 管理**。  
