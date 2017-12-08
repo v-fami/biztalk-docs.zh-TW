@@ -22,7 +22,7 @@ ms.lasthandoff: 09/20/2017
 # <a name="whats-new-in-biztalk-server-2013-and-2013-r2"></a><span data-ttu-id="c1cad-103">BizTalk Server 2013 和 2013 R2 有哪些新功能？</span><span class="sxs-lookup"><span data-stu-id="c1cad-103">What's New in BizTalk Server 2013 and 2013 R2</span></span>
 <span data-ttu-id="c1cad-104">請參閱 [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)] 和 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013 的新功能及取代的項目。</span><span class="sxs-lookup"><span data-stu-id="c1cad-104">See what's new and what is deprecated in [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)] and [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013.</span></span>
   
-##  <span data-ttu-id="c1cad-105"><a name="BKMK_NewR2"></a> BizTalk Server 2013 R2 有哪些新功能？</span><span class="sxs-lookup"><span data-stu-id="c1cad-105"><a name="BKMK_NewR2"></a> What’s New in BizTalk Server 2013 R2?</span></span>  
+##  <a name="BKMK_NewR2"></a> <span data-ttu-id="c1cad-105">BizTalk Server 2013 R2 有哪些新功能？</span><span class="sxs-lookup"><span data-stu-id="c1cad-105">What’s New in BizTalk Server 2013 R2?</span></span>  
   
 |<span data-ttu-id="c1cad-106">功能</span><span class="sxs-lookup"><span data-stu-id="c1cad-106">Feature</span></span>|<span data-ttu-id="c1cad-107">描述</span><span class="sxs-lookup"><span data-stu-id="c1cad-107">Description</span></span>|  
 |-------------|-----------------|  
@@ -50,7 +50,7 @@ ms.lasthandoff: 09/20/2017
 >  -   <span data-ttu-id="c1cad-165">BizTalk 內部可以使用的功能，不表示可供客戶解決方案使用。</span><span class="sxs-lookup"><span data-stu-id="c1cad-165">The feature may be used internally within BizTalk and is not meant to be used by customer solutions.</span></span> <span data-ttu-id="c1cad-166">客戶解決方案不支援這類功能。</span><span class="sxs-lookup"><span data-stu-id="c1cad-166">It is not supported in customer solutions.</span></span>  
 > -   <span data-ttu-id="c1cad-167">Microsoft 可能已修改介面且不公開使用。</span><span class="sxs-lookup"><span data-stu-id="c1cad-167">The interfaces may have been modified by Microsoft and may not be publicly available.</span></span>  
   
-##  <span data-ttu-id="c1cad-168"><a name="BKMK_New"></a> BizTalk Server 2013 的新功能</span><span class="sxs-lookup"><span data-stu-id="c1cad-168"><a name="BKMK_New"></a> What’s New in BizTalk Server 2013?</span></span>  
+##  <a name="BKMK_New"></a> <span data-ttu-id="c1cad-168">BizTalk Server 2013 的新功能</span><span class="sxs-lookup"><span data-stu-id="c1cad-168">What’s New in BizTalk Server 2013?</span></span>  
  <span data-ttu-id="c1cad-169">BizTalk Server 2013 中納入了下列功能。</span><span class="sxs-lookup"><span data-stu-id="c1cad-169">The following features are added in BizTalk Server 2013.</span></span>  
   
  <span data-ttu-id="c1cad-170">**Azure IaaS 上的 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]**</span><span class="sxs-lookup"><span data-stu-id="c1cad-170">**[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] on Azure IaaS**</span></span>  

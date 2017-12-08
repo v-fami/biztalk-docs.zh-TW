@@ -20,7 +20,7 @@ ms.lasthandoff: 09/20/2017
 ---
 # <a name="post-installation-steps-for-biztalk-server-2013-and-2013-r2"></a><span data-ttu-id="e42a6-102">BizTalk Server 2013 和 2013 R2 的後續安裝步驟</span><span class="sxs-lookup"><span data-stu-id="e42a6-102">Post-installation Steps for BizTalk Server 2013 and 2013 R2</span></span>
   
-##  <span data-ttu-id="e42a6-103"><a name="BKMK_NamedPipes"></a> 啟用 TCP/IP 和具名管道</span><span class="sxs-lookup"><span data-stu-id="e42a6-103"><a name="BKMK_NamedPipes"></a> Enable TCP/IP and Named Pipes</span></span>  
+##  <a name="BKMK_NamedPipes"></a> <span data-ttu-id="e42a6-103">啟用 TCP/IP 和具名管道</span><span class="sxs-lookup"><span data-stu-id="e42a6-103">Enable TCP/IP and Named Pipes</span></span>  
   
 1.  <span data-ttu-id="e42a6-104">開啟 **SQL Server 組態管理員**。</span><span class="sxs-lookup"><span data-stu-id="e42a6-104">Open **SQL Server Configuration Manager**.</span></span>  
   
@@ -45,7 +45,7 @@ ms.lasthandoff: 09/20/2017
   
 5.  <span data-ttu-id="e42a6-116">關閉 [組態管理員]。</span><span class="sxs-lookup"><span data-stu-id="e42a6-116">Close the **Configuration Manager**.</span></span>  
   
-##  <span data-ttu-id="e42a6-117"><a name="BKMK_DTC"></a> 在本機主機伺服器上啟用 DTC</span><span class="sxs-lookup"><span data-stu-id="e42a6-117"><a name="BKMK_DTC"></a> Enable DTC on the Local Host Server</span></span>  
+##  <a name="BKMK_DTC"></a> <span data-ttu-id="e42a6-117">在本機主機伺服器上啟用 DTC</span><span class="sxs-lookup"><span data-stu-id="e42a6-117">Enable DTC on the Local Host Server</span></span>  
   
 1.  <span data-ttu-id="e42a6-118">開啟 [元件服務]：</span><span class="sxs-lookup"><span data-stu-id="e42a6-118">Open Component Services:</span></span>  
   
@@ -77,7 +77,7 @@ ms.lasthandoff: 09/20/2017
   
 7.  <span data-ttu-id="e42a6-138">關閉 [元件服務]。</span><span class="sxs-lookup"><span data-stu-id="e42a6-138">Close **Component Services**.</span></span>  
   
-##  <span data-ttu-id="e42a6-139"><a name="BKMK_Firewall"></a> 設定 Windows 防火牆啟用 DTC</span><span class="sxs-lookup"><span data-stu-id="e42a6-139"><a name="BKMK_Firewall"></a> Configure Windows Firewall to Enable DTC</span></span>  
+##  <a name="BKMK_Firewall"></a> <span data-ttu-id="e42a6-139">設定 Windows 防火牆啟用 DTC</span><span class="sxs-lookup"><span data-stu-id="e42a6-139">Configure Windows Firewall to Enable DTC</span></span>  
   
 1.  <span data-ttu-id="e42a6-140">開啟 [Windows 防火牆]：</span><span class="sxs-lookup"><span data-stu-id="e42a6-140">Open **Windows Firewall**:</span></span>  
   
@@ -107,7 +107,7 @@ ms.lasthandoff: 09/20/2017
   
 11. <span data-ttu-id="e42a6-157">關閉 [服務 (本機)]，然後關閉 [系統管理工具]。</span><span class="sxs-lookup"><span data-stu-id="e42a6-157">Close **Services (Local)**, and then close **Administrative Tools**.</span></span>  
   
-##  <span data-ttu-id="e42a6-158"><a name="BKMK_SQLAgent"></a> 設定 SQL Agent 作業</span><span class="sxs-lookup"><span data-stu-id="e42a6-158"><a name="BKMK_SQLAgent"></a> Configure SQL Agent Jobs</span></span>  
+##  <a name="BKMK_SQLAgent"></a> <span data-ttu-id="e42a6-158">設定 SQL Agent 作業</span><span class="sxs-lookup"><span data-stu-id="e42a6-158">Configure SQL Agent Jobs</span></span>  
   
 |<span data-ttu-id="e42a6-159">作業</span><span class="sxs-lookup"><span data-stu-id="e42a6-159">Job</span></span>|<span data-ttu-id="e42a6-160">描述</span><span class="sxs-lookup"><span data-stu-id="e42a6-160">Description</span></span>|<span data-ttu-id="e42a6-161">設定原因</span><span class="sxs-lookup"><span data-stu-id="e42a6-161">Why configure</span></span>|  
 |---------|-----------------|-------------------|  
@@ -122,7 +122,7 @@ ms.lasthandoff: 09/20/2017
   
      <span data-ttu-id="e42a6-184">[資料庫結構和作業](http://msdn.microsoft.com/library/aa561960\(v=bts.80\).aspx)</span><span class="sxs-lookup"><span data-stu-id="e42a6-184">[Database Structure and Jobs](http://msdn.microsoft.com/library/aa561960\(v=bts.80\).aspx)</span></span>  
   
-##  <span data-ttu-id="e42a6-185"><a name="BKMK_InstallCU"></a> 安裝累積更新</span><span class="sxs-lookup"><span data-stu-id="e42a6-185"><a name="BKMK_InstallCU"></a> Install Cumulative Updates</span></span>  
+##  <a name="BKMK_InstallCU"></a> <span data-ttu-id="e42a6-185">安裝累積更新</span><span class="sxs-lookup"><span data-stu-id="e42a6-185">Install Cumulative Updates</span></span>  
  <span data-ttu-id="e42a6-186">安裝 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 之後，請安裝 Windows Updates 中列出的任何 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 累積更新。</span><span class="sxs-lookup"><span data-stu-id="e42a6-186">After you install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], install any [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] cumulative updates listed in Windows Update.</span></span> <span data-ttu-id="e42a6-187">[知識庫文章 2555976](http://support.microsoft.com/kb/2555976) 列出可用的 Service Pack 和累積更新。</span><span class="sxs-lookup"><span data-stu-id="e42a6-187">[KB article 2555976](http://support.microsoft.com/kb/2555976) lists available service packs and cumulative updates.</span></span>  
   
 ## <a name="next"></a><span data-ttu-id="e42a6-188">下一個</span><span class="sxs-lookup"><span data-stu-id="e42a6-188">Next</span></span>  

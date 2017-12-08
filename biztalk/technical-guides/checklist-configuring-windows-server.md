@@ -21,7 +21,7 @@ ms.lasthandoff: 09/20/2017
 # <a name="checklist-configuring-windows-server"></a><span data-ttu-id="edceb-102">檢查清單： 設定 Windows Server</span><span class="sxs-lookup"><span data-stu-id="edceb-102">Checklist: Configuring Windows Server</span></span>
 <span data-ttu-id="edceb-103">本主題列出 Windows Server 準備用於生產環境時所應遵循的步驟[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境。</span><span class="sxs-lookup"><span data-stu-id="edceb-103">This topic lists steps that you should follow when preparing Windows Server for use in a production [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment.</span></span>  
   
-##  <span data-ttu-id="edceb-104"><a name="BKMK_Win2k8"></a>設定 Windows Server</span><span class="sxs-lookup"><span data-stu-id="edceb-104"><a name="BKMK_Win2k8"></a> Configure Windows Server</span></span>  
+##  <a name="BKMK_Win2k8"></a><span data-ttu-id="edceb-104">設定 Windows Server</span><span class="sxs-lookup"><span data-stu-id="edceb-104">Configure Windows Server</span></span>  
   
 |<span data-ttu-id="edceb-105">步驟</span><span class="sxs-lookup"><span data-stu-id="edceb-105">Steps</span></span>|<span data-ttu-id="edceb-106">參考</span><span class="sxs-lookup"><span data-stu-id="edceb-106">Reference</span></span>|  
 |-----------|---------------|  

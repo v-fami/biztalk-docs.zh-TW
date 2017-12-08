@@ -39,7 +39,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  <span data-ttu-id="c0fa8-121">在精靈完成功能套件安裝之後，請按一下**完成**。</span><span class="sxs-lookup"><span data-stu-id="c0fa8-121">After the wizard completes the feature pack installation, click **Finish**.</span></span>  
   
-##  <span data-ttu-id="c0fa8-122"><a name="BKMK_Using"></a>使用 AppFabric Connect 服務</span><span class="sxs-lookup"><span data-stu-id="c0fa8-122"><a name="BKMK_Using"></a> Using AppFabric Connect for Services</span></span>  
+##  <a name="BKMK_Using"></a><span data-ttu-id="c0fa8-122">使用 AppFabric Connect 服務</span><span class="sxs-lookup"><span data-stu-id="c0fa8-122">Using AppFabric Connect for Services</span></span>  
  <span data-ttu-id="c0fa8-123">在安裝之後 AppFabric Connect 服務，您可以執行下列作業：</span><span class="sxs-lookup"><span data-stu-id="c0fa8-123">After installing AppFabric Connect for Services, you can do the following:</span></span>  
   
 -   <span data-ttu-id="c0fa8-124">使用**BizTalk WCF 服務發佈精靈**公開為 WCF 服務與 Azure AppFabric 服務匯流排上的轉送端點的 BizTalk 成品 （協調流程、 結構描述等）。</span><span class="sxs-lookup"><span data-stu-id="c0fa8-124">Use the **BizTalk WCF Service Publishing Wizard** to expose BizTalk artifacts (orchestration, schema, etc.) as WCF services with a relay endpoint on the Azure AppFabric Service Bus.</span></span> <span data-ttu-id="c0fa8-125">如需詳細資訊，請參閱[http://go.microsoft.com/fwlink/?LinkId=204700](http://go.microsoft.com/fwlink/?LinkId=204700)。</span><span class="sxs-lookup"><span data-stu-id="c0fa8-125">For more information, see [http://go.microsoft.com/fwlink/?LinkId=204700](http://go.microsoft.com/fwlink/?LinkId=204700).</span></span>  
