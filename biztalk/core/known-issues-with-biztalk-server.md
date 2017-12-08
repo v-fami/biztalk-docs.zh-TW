@@ -36,7 +36,7 @@ ms.lasthandoff: 09/20/2017
   
  [<span data-ttu-id="fef0c-112">BizTalk Server 2013 和 2013 R2 的後續安裝步驟</span><span class="sxs-lookup"><span data-stu-id="fef0c-112">Post-installation Steps for BizTalk Server 2013 and 2013 R2</span></span>](../install-and-config-guides/post-installation-steps-for-biztalk-server-2013-and-2013-r2.md)  
   
-##  <span data-ttu-id="fef0c-113"><a name="BKMK_BAM"></a>商務活動監控</span><span class="sxs-lookup"><span data-stu-id="fef0c-113"><a name="BKMK_BAM"></a> Business Activity Monitoring</span></span>  
+##  <a name="BKMK_BAM"></a><span data-ttu-id="fef0c-113">商務活動監控</span><span class="sxs-lookup"><span data-stu-id="fef0c-113">Business Activity Monitoring</span></span>  
  <span data-ttu-id="fef0c-114">此區段會列出與商務活動監控 (BAM) 模組的已知的問題。</span><span class="sxs-lookup"><span data-stu-id="fef0c-114">This section lists the known issues with the Business Activity Monitoring (BAM) module.</span></span>  
   
 ### <a name="bam-definition-deployment-fails-due-to-a-sql-login-error"></a><span data-ttu-id="fef0c-115">BAM 定義部署失敗，因為發生 SQL 登入錯誤</span><span class="sxs-lookup"><span data-stu-id="fef0c-115">BAM definition deployment fails due to a SQL login error</span></span>  
@@ -85,10 +85,10 @@ OLE DB error: OLE DB or ODBC error: Login failed for user <username>.; 42000.
 </configuration>  
 ```  
   
-##  <span data-ttu-id="fef0c-138"><a name="BKMK_Upgrade"></a>使用 BizTalk Server 與 SQL Server 2012 時問題</span><span class="sxs-lookup"><span data-stu-id="fef0c-138"><a name="BKMK_Upgrade"></a> Issues While Using BizTalk Server with SQL Server 2012</span></span>  
+##  <a name="BKMK_Upgrade"></a><span data-ttu-id="fef0c-138">使用 BizTalk Server 與 SQL Server 2012 時問題</span><span class="sxs-lookup"><span data-stu-id="fef0c-138">Issues While Using BizTalk Server with SQL Server 2012</span></span>  
  <span data-ttu-id="fef0c-139">同時使用[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]與[!INCLUDE[sqlserver2012](../includes/sqlserver2012-md.md)]您可以設定**遠端登入逾時**SQL Server 中的值為 20 秒。</span><span class="sxs-lookup"><span data-stu-id="fef0c-139">While using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] with [!INCLUDE[sqlserver2012](../includes/sqlserver2012-md.md)] you can set the **Remote Login Timeout** value in SQL Server to 20 seconds.</span></span> <span data-ttu-id="fef0c-140">如果您不要這樣做，您可能會遇到負荷過重的狀況中的錯誤。</span><span class="sxs-lookup"><span data-stu-id="fef0c-140">If you don’t do so, you might encounter errors in stress conditions.</span></span> <span data-ttu-id="fef0c-141">如需有關如何在中設定的遠端登入逾時值指示[!INCLUDE[sqlserver2012](../includes/sqlserver2012-md.md)]，請參閱[http://msdn.microsoft.com/library/ms175136.aspx](http://msdn.microsoft.com/library/ms175136.aspx)</span><span class="sxs-lookup"><span data-stu-id="fef0c-141">For instructions on how to set the Remote Login Timeout value in [!INCLUDE[sqlserver2012](../includes/sqlserver2012-md.md)], see [http://msdn.microsoft.com/library/ms175136.aspx](http://msdn.microsoft.com/library/ms175136.aspx)</span></span>  
   
-##  <span data-ttu-id="fef0c-142"><a name="BKMK_Adapters"></a>配接器問題</span><span class="sxs-lookup"><span data-stu-id="fef0c-142"><a name="BKMK_Adapters"></a> Issues with Adapters</span></span>  
+##  <a name="BKMK_Adapters"></a><span data-ttu-id="fef0c-142">配接器問題</span><span class="sxs-lookup"><span data-stu-id="fef0c-142">Issues with Adapters</span></span>  
  <span data-ttu-id="fef0c-143">此區段會列出的已知的問題[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]配接器。</span><span class="sxs-lookup"><span data-stu-id="fef0c-143">This section lists the known issues with the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adapters.</span></span>  
   
 ### <a name="dynamic-port-may-fail-while-using-the-windows-sharepoint-services-wss-adapter"></a><span data-ttu-id="fef0c-144">動態連接埠可能會使用 Windows SharePoint Services (WSS) 配接器時失敗</span><span class="sxs-lookup"><span data-stu-id="fef0c-144">Dynamic port may fail while using the Windows SharePoint Services (WSS) adapter</span></span>  

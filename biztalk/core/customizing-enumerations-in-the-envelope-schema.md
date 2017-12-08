@@ -42,7 +42,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="prerequisites"></a><span data-ttu-id="51d9a-129">必要條件</span><span class="sxs-lookup"><span data-stu-id="51d9a-129">Prerequisites</span></span>  
  <span data-ttu-id="51d9a-130">您必須以「[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 系統管理員」群組的成員身分登入。</span><span class="sxs-lookup"><span data-stu-id="51d9a-130">You must be logged on as a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group.</span></span>  
   
-##  <span data-ttu-id="51d9a-131"><a name="BKMK_Env_Can"></a>您可以修改的信封欄位</span><span class="sxs-lookup"><span data-stu-id="51d9a-131"><a name="BKMK_Env_Can"></a> Envelope Fields That Can Be Modified</span></span>  
+##  <a name="BKMK_Env_Can"></a><span data-ttu-id="51d9a-131">您可以修改的信封欄位</span><span class="sxs-lookup"><span data-stu-id="51d9a-131">Envelope Fields That Can Be Modified</span></span>  
  <span data-ttu-id="51d9a-132">只有下列信封欄位才能修改。</span><span class="sxs-lookup"><span data-stu-id="51d9a-132">Only the following envelope fields can be modified.</span></span> <span data-ttu-id="51d9a-133">延伸模組結構描述中只包含這些欄位。</span><span class="sxs-lookup"><span data-stu-id="51d9a-133">Only these fields are included in the extension schemas.</span></span> <span data-ttu-id="51d9a-134">在服務延伸模組結購描述中加入其他欄位，對於處理程序不會有任何影響。</span><span class="sxs-lookup"><span data-stu-id="51d9a-134">Added other fields in the service extension schema will not have any effect on processing.</span></span>  
   
 |<span data-ttu-id="51d9a-135">Standard</span><span class="sxs-lookup"><span data-stu-id="51d9a-135">Standard</span></span>|<span data-ttu-id="51d9a-136">欄位</span><span class="sxs-lookup"><span data-stu-id="51d9a-136">Field</span></span>|  

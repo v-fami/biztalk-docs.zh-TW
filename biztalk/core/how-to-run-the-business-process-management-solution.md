@@ -33,7 +33,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="prerequisites"></a><span data-ttu-id="29924-106">必要條件</span><span class="sxs-lookup"><span data-stu-id="29924-106">Prerequisites</span></span>  
  <span data-ttu-id="29924-107">執行 BPM 解決方案之前, 您必須執行中的步驟[如何安裝商務程序管理解決方案](../core/how-to-install-the-business-process-management-solution.md)。</span><span class="sxs-lookup"><span data-stu-id="29924-107">Before running the BPM solution, you must perform the steps in [How to Install the Business Process Management Solution](../core/how-to-install-the-business-process-management-solution.md).</span></span>  
   
-##  <span data-ttu-id="29924-108"><a name="step1"></a>啟動商務程序管理解決方案</span><span class="sxs-lookup"><span data-stu-id="29924-108"><a name="step1"></a> Start the Business Process Management Solution</span></span>  
+##  <a name="step1"></a><span data-ttu-id="29924-108">啟動商務程序管理解決方案</span><span class="sxs-lookup"><span data-stu-id="29924-108">Start the Business Process Management Solution</span></span>  
   
 #### <a name="to-start-the-business-process-management-solution"></a><span data-ttu-id="29924-109">啟動商務程序管理解決方案</span><span class="sxs-lookup"><span data-stu-id="29924-109">To start the Business Process Management Solution</span></span>  
   
@@ -81,7 +81,7 @@ ms.lasthandoff: 09/20/2017
   
     2.  <span data-ttu-id="29924-146">輸入 `BTSScnBPMProvisioning.exe 8880`，然後按下 ENTER。</span><span class="sxs-lookup"><span data-stu-id="29924-146">Type `BTSScnBPMProvisioning.exe 8880`, and then press ENTER.</span></span> <span data-ttu-id="29924-147">然後，讓 Cable Provisioning System 繼續執行。</span><span class="sxs-lookup"><span data-stu-id="29924-147">Then, keep the Cable Provisioning System running.</span></span> <span data-ttu-id="29924-148">Cable Provisioning System 會接聽 TCP 連接埠 8880。</span><span class="sxs-lookup"><span data-stu-id="29924-148">The Cable Provisioning System listens on the TCP port, 8880.</span></span> <span data-ttu-id="29924-149">此應用程式會模擬後端訂單系統，並顯示最終的訂單。</span><span class="sxs-lookup"><span data-stu-id="29924-149">This application simulates a back-end order system, and displays the final orders.</span></span>  
   
-##  <span data-ttu-id="29924-150"><a name="step3"></a>執行和驗證商務程序管理解決方案</span><span class="sxs-lookup"><span data-stu-id="29924-150"><a name="step3"></a> Run and validate the Business Process Management Solution</span></span>  
+##  <a name="step3"></a><span data-ttu-id="29924-150">執行和驗證商務程序管理解決方案</span><span class="sxs-lookup"><span data-stu-id="29924-150">Run and validate the Business Process Management Solution</span></span>  
   
 #### <a name="to-submit-a-new-order-and-validate-the-solution"></a><span data-ttu-id="29924-151">提交新訂單和驗證解決方案</span><span class="sxs-lookup"><span data-stu-id="29924-151">To submit a new order and validate the solution</span></span>  
   

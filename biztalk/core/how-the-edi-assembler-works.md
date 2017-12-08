@@ -58,7 +58,7 @@ ms.lasthandoff: 09/20/2017
   
  <span data-ttu-id="07ce6-161">如果對應造成驗證錯誤，XML 交易集或交換 XML 就會遭到擱置，並在事件檢視器中顯示適當錯誤，例如無效的長度或資料型別或無效的「控管單位代碼」。</span><span class="sxs-lookup"><span data-stu-id="07ce6-161">If mapping causes a validation error, the XML transaction set or interchange XML is suspended with an appropriate error in the event viewer, such as invalid length or data type, or invalid Control Agency Code.</span></span>  
   
-####  <span data-ttu-id="07ce6-162"><a name="BKMK_X12"></a>X12 交易集標頭和結尾區段</span><span class="sxs-lookup"><span data-stu-id="07ce6-162"><a name="BKMK_X12"></a> X12 Transaction Set Header and Trailer Segments</span></span>  
+####  <a name="BKMK_X12"></a><span data-ttu-id="07ce6-162">X12 交易集標頭和結尾區段</span><span class="sxs-lookup"><span data-stu-id="07ce6-162">X12 Transaction Set Header and Trailer Segments</span></span>  
  <span data-ttu-id="07ce6-163">對於沒有標頭和結尾區段的 X12 編碼交易集，EDI 組合器會將 ST 和 SE 區段設定如下：</span><span class="sxs-lookup"><span data-stu-id="07ce6-163">For X12-encoded transaction sets that do not have header and trailer segments, the EDI Assembler will set ST and SE segments to the following:</span></span>  
   
 |<span data-ttu-id="07ce6-164">頁首/頁尾區段</span><span class="sxs-lookup"><span data-stu-id="07ce6-164">Header/Footer Segment</span></span>|<span data-ttu-id="07ce6-165">值</span><span class="sxs-lookup"><span data-stu-id="07ce6-165">Value</span></span>|  
@@ -71,7 +71,7 @@ ms.lasthandoff: 09/20/2017
   
  <span data-ttu-id="07ce6-182">交易集標頭中的其他資料元素 (例如 ST03) 是選擇項，因此不是已產生區段中的值。</span><span class="sxs-lookup"><span data-stu-id="07ce6-182">Other data elements in the transaction set header, such as ST03, are optional and so are not valued in the generated segments.</span></span>  
   
-####  <span data-ttu-id="07ce6-183"><a name="BKMK_EDIFACT"></a>EDIFACT 交易集標頭和結尾區段</span><span class="sxs-lookup"><span data-stu-id="07ce6-183"><a name="BKMK_EDIFACT"></a> EDIFACT Transaction Set Header and Trailer Segments</span></span>  
+####  <a name="BKMK_EDIFACT"></a><span data-ttu-id="07ce6-183">EDIFACT 交易集標頭和結尾區段</span><span class="sxs-lookup"><span data-stu-id="07ce6-183">EDIFACT Transaction Set Header and Trailer Segments</span></span>  
  <span data-ttu-id="07ce6-184">對於沒有標頭和結尾區段的 EDIFACT 編碼交易集，EDI 組合器會將 UNH 和 UNT 區段設定如下：</span><span class="sxs-lookup"><span data-stu-id="07ce6-184">For EDIFACT-encoded transaction sets that do not have header and trailer segments, the EDI Assembler will set UNH and UNT segments to the following:</span></span>  
   
 |<span data-ttu-id="07ce6-185">頁首/頁尾區段</span><span class="sxs-lookup"><span data-stu-id="07ce6-185">Header/Footer Segment</span></span>|<span data-ttu-id="07ce6-186">值</span><span class="sxs-lookup"><span data-stu-id="07ce6-186">Value</span></span>|  

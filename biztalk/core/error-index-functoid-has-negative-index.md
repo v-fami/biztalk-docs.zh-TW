@@ -19,11 +19,11 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
 ---
-# <a name="error---index-functoid-has-negative-index"></a>錯誤-索引運算質有負值索引
-**錯誤碼**  
+# <a name="error---index-functoid-has-negative-index"></a><span data-ttu-id="85681-102">錯誤-索引運算質有負值索引</span><span class="sxs-lookup"><span data-stu-id="85681-102">Error - Index Functoid Has Negative Index</span></span>
+<span data-ttu-id="85681-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="85681-103">**Error Code**</span></span>  
   
- btm1017  
+ <span data-ttu-id="85681-104">btm1017</span><span class="sxs-lookup"><span data-stu-id="85681-104">btm1017</span></span>  
   
- **說明**  
+ <span data-ttu-id="85681-105">**說明**</span><span class="sxs-lookup"><span data-stu-id="85681-105">**Explanation**</span></span>  
   
- 一或多個索引輸入參數提供給指定**索引**運算質不正確。 索引輸入參數必須是正整數。
+ <span data-ttu-id="85681-106">一或多個索引輸入參數提供給指定**索引**運算質不正確。</span><span class="sxs-lookup"><span data-stu-id="85681-106">One or more of the index input parameters provided for the indicated **Index** functoid is not valid.</span></span> <span data-ttu-id="85681-107">索引輸入參數必須是正整數。</span><span class="sxs-lookup"><span data-stu-id="85681-107">Index input parameters must be positive integers.</span></span>
