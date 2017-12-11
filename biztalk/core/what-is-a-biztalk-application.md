@@ -23,16 +23,16 @@ caps.latest.revision: "28"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c9ff0e2be82d528c7070955c1ce79b1f5e37cc6f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 68e01881693c7db8b12b7da4edf246942fe02825
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="what-is-a-biztalk-application"></a>何謂 BizTalk 應用程式？
 BizTalk 應用程式是 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的功能，能讓 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 商務解決方案的部署、管理和疑難排解更加快速輕鬆。 BizTalk 應用程式是 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 商務解決方案中所使用項目 (稱為「成品」) 的邏輯群組。 在本主題在稍後將會詳細說明成品。  
   
- 新設計的 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 管理和監控工具會利用這個新概念，所以不僅您在個別成品層級，也可在應用程式層級上管理和設定 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 商務解決方案。 透過建立應用程式並將成品加入至其中，您可以將解決方案中的一組成品當做單一實體，予以檢視、封裝、部署和管理。. 因此，隨著複雜應用程式的增加，您仍然可以透過簡單、直覺化方式個別管理它們。  
+ 全新設計的管理和監控 BizTalk server 的工具利用這個新概念，使您可以管理和設定[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]應用程式層級，而不只是在個別成品層級的商務解決方案。 透過建立應用程式並將成品加入至其中，您可以將解決方案中的一組成品當做單一實體，予以檢視、封裝、部署和管理. 因此，隨著複雜應用程式的增加，您仍然可以透過簡單、直覺化方式個別管理它們。  
   
  有數種工具可用來建立和管理應用程式，如下所述[應用程式部署和管理工具](../core/application-deployment-and-management-tools.md)。  
   
@@ -58,7 +58,7 @@ BizTalk 應用程式是 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbizt
  一個應用程式可以包含商務解決方案中使用的全部成品或其中一部分。 根據所需的部署成品方式，您可以將成品放入一個或多個應用程式中。 如需有關決定如何群組成品的詳細資訊，請參閱[部署 BizTalk 應用程式的最佳作法](../core/best-practices-for-deploying-a-biztalk-application.md)。  
   
 ## <a name="the-default-application"></a>預設應用程式  
- 在安裝後設定 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 時，會自動建立名為「BizTalk 應用程式 1」的預設應用程式。 如需最佳作法，將成品分組到不同的應用程式的資訊，請參閱[部署 BizTalk 應用程式的最佳作法](../core/best-practices-for-deploying-a-biztalk-application.md)。 您也可以變更或重新命名預設應用程式。  
+ 在安裝之後設定 BizTalk Server 時，會自動建立名為 BizTalk Application 1 的預設應用程式。 如需最佳作法，將成品分組到不同的應用程式的資訊，請參閱[部署 BizTalk 應用程式的最佳作法](../core/best-practices-for-deploying-a-biztalk-application.md)。 您也可以變更或重新命名預設應用程式。  
   
  在下列實例中，成品會自動加入至預設應用程式：  
   
@@ -69,10 +69,10 @@ BizTalk 應用程式是 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbizt
 -   當您使用 BTSTask 匯入應用程式 .msi 檔案，但未指定應用程式名稱時。 如需詳細資訊，請參閱[ImportApp 命令](../core/importapp-command.md)。  
   
 ## <a name="the-biztalksystem-application"></a>BizTalk.System 應用程式  
- 在安裝後設定 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 時，會自動建立名為 BizTalk.System 的應用程式，並在其中填入所有 BizTalk 應用程式都會使用的通用成品，例如預設結構描述和管線。 BizTalk.System 及其成品都是唯讀。 您不能刪除或重新命名 BizTalk.System，也不能刪除、重新命名或移動其中包含的任何成品。  
+ 設定下列安裝 BizTalk Server 時，名為 BizTalk.System 的應用程式會自動建立並填入所有的 BizTalk 應用程式，例如預設結構描述和管線所使用的一般成品。 BizTalk.System 及其成品都是唯讀。 您不能刪除或重新命名 BizTalk.System，也不能刪除、重新命名或移動其中包含的任何成品。  
   
 > [!IMPORTANT]
 >  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的每個應用程式都會自動包含 BizTalk.System 應用程式的參考。 這是因為每個 BizTalk 應用程式都會使用 BizTalk.System 的成品。 您絕對不能移除 BizTalk.系統應用程式的參考， 否則您的應用程式可能無法正常運作。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [了解 BizTalk 應用程式部署和管理](../core/understanding-biztalk-application-deployment-and-management.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 666b08e0c7992f8660d005bef51d26c8f51bbed5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f1b768bf667969c4adc8119b6d9d89c0ed79fc32
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="troubleshooting-biztalk-web-services"></a>BizTalk Web 服務疑難排解
 本節會針對如何辨識及解決常見 Web 服務問題提供相關建議。  
@@ -24,7 +24,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="general-troubleshooting"></a>一般疑難排解  
   
 ### <a name="enabling-web-services-publishing-wizard-tracing"></a>啟用 Web 服務發佈精靈追蹤  
- 您可以啟用追蹤以偵錯 BizTalk Web 服務發佈精靈，取消註解\<新增 > BTSWebSvcWiz.exe.config 檔案中的節點。 如需有關如何從 Web 服務發佈精靈取得追蹤資訊的詳細資訊，請參閱[如何修改 BTSWebSvcWiz.exe.config](../core/how-to-modify-btswebsvcwiz-exe-config.md)。  
+ 您可以啟用追蹤以偵錯 BizTalk Web 服務發佈精靈，取消註解\<新增\>BTSWebSvcWiz.exe.config 檔案中的節點。 如需有關如何從 Web 服務發佈精靈取得追蹤資訊的詳細資訊，請參閱[如何修改 BTSWebSvcWiz.exe.config](../core/how-to-modify-btswebsvcwiz-exe-config.md)。  
   
 ### <a name="enabling-soap-message-tracing"></a>啟用 SOAP 訊息追蹤  
  您可以啟用 SOAP 訊息追蹤，協助您使用 SOAP 延伸模組來偵錯 Web 服務發佈應用程式。 如需 SOAP 延伸模組的詳細資訊，請參閱[How to： 實作 SOAP 延伸模組](http://go.microsoft.com/fwlink/?LinkId=62314)。  
@@ -34,7 +34,7 @@ ms.lasthandoff: 09/20/2017
   
  若要偵錯已發佈的 Web 服務，您可以在 web.config 檔案中加入某個參數，以便控制從該發佈的 Web 服務傳回之例外狀況詳細資料的等級。 參數是**ThrowDetailedError**，當值設定為**True**伺服器 proxy 將內部例外狀況資訊傳回給 Web 用戶端，讓您偵錯已發佈的 Web 服務。  
   
- 下列 XML 程式碼示範**ThrowDetailedError**下的 web.config 檔案中出現的交換器\<appSettings > 節點：  
+ 下列 XML 程式碼示範**ThrowDetailedError**下的 web.config 檔案中出現的交換器\<appSettings\>節點：  
   
 ```  
 <appSettings>  
@@ -160,7 +160,7 @@ ms.lasthandoff: 09/20/2017
   
  如需有關這些及相關的考量，請參閱[考量當 Consuming Web Services](../core/considerations-when-consuming-web-services.md)。  
   
-### <a name="why-am-i-getting-errors-publishing-my-schema-that-uses-the-include-element"></a>為什麼我會收到錯誤發佈我使用的結構描述\<包括 > 項目？  
+### <a name="why-am-i-getting-errors-publishing-my-schema-that-uses-the-include-element"></a>為什麼我會收到錯誤發佈我使用的結構描述\<包含\>項目？  
  無法發行結構描述，如果它們包含循環參考 (包含結構描述具有**包含**要包含的結構描述項目) 或有無法解析**schemaLocation**屬性。  
   
  如需有關的限制**包含**項目，請參閱[Include 項目繫結支援](http://go.microsoft.com/fwlink/?LinkId=62312)。 Web 服務發佈精靈已在.NET Framework 2.0; XSD.exe 相同的限制如需詳細資訊，請參閱[Import 項目繫結支援](http://go.microsoft.com/fwlink/?LinkId=119606)。  
@@ -170,7 +170,7 @@ ms.lasthandoff: 09/20/2017
   
 ##### <a name="to-modify-the-generated-web-project-for-envelope-schemas"></a>若要針對信封結構描述修改所產生的 Web 專案  
   
-1.  開啟 *\<myWebService >*。.asmx.cs 檔案。  
+1.  開啟 *\<myWebService\>*.asmx.cs 檔案。  
   
 2.  編輯檔案，並將 `bodyTypeAssemblyQualifiedName = <dll.name.version>``bodyTypeAssemblyQualifiedName = null` 變更為  
   

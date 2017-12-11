@@ -17,11 +17,11 @@ caps.latest.revision: "21"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 63c3572658e78c7e32722adf38436133ee098e00
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 094a37d90db41e505adeaec3a31ece9128785e04
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-deploy-bam-definitions"></a>如何部署 BAM 定義
 系統管理員使用**deploy-all-definitionfile**從活頁簿匯出 BAM 管理公用程式命令，以部署 BAM 定義從 Excel 活頁簿或 XML 定義檔。 當您執行 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 完整安裝時，組態精靈會自動設定 BAM 組態 XML。  
@@ -36,7 +36,7 @@ ms.lasthandoff: 09/20/2017
 >  建議您在部署 BAM Excel 活頁簿 (.xls) 前先確認其安全性。 請使用管理電腦上的 Excel 確認 BAM Excel 活頁簿的安全性。 在部署活頁簿之前，請先開啟活頁簿，確定巨集安全性設定為「高」，而且沒有出現任何警告。  
   
 > [!IMPORTANT]
->  在 BAM 資料庫中，"BAM_\<...>"命名慣例保留供所有 SQL 實體 (資料表、 索引、 預存程序、 角色等等。..)。*不這麼做*使用此命名慣例來建立任何 SQL 實體; 這樣的使用方式可能會導致未定義的行為。  
+>  在 BAM 資料庫中，"BAM_\<...\>"命名慣例保留供所有 SQL 實體 (資料表、 索引、 預存程序、 角色等等.)。*不這麼做*使用此命名慣例來建立任何 SQL 實體; 這樣的使用方式可能會導致未定義的行為。  
   
  在部署 BAM 定義 XML 檔之前，您必須確定用於建立該檔案的地區設定與部署所用之電腦的地區設定一致。 例如，如果您在執行 Microsoft Windows 日文版的電腦上建立檔案，則部署檔案的電腦地區設定也必須設為日文。 如果檔案和電腦的設定不一致，請將您用來執行 BAM 管理公用程式的電腦切換到正確的地區設定，並在執行公用程式之前重新啟動電腦。  
   
@@ -49,13 +49,13 @@ ms.lasthandoff: 09/20/2017
   
 1.  開啟命令提示字元，如下所示： 按一下**啟動**，按一下**執行**，型別**cmd**，然後按一下 **確定**。  
   
-2.  瀏覽至追蹤資料夾，輸入**C:\Program Files\Microsoft BizTalk Server\<版本 > \Tracking**在命令提示字元。 按 ENTER 鍵。  
+2.  瀏覽至追蹤資料夾，輸入**C:\Program Files\Microsoft BizTalk Server\<版本\>\Tracking**在命令提示字元。 按 ENTER 鍵。  
   
-3.  型別**bm deploy-all-definitionfile-DefinitionFile:\<BAM 定義檔案 >**。  
+3.  型別**bm deploy-all-definitionfile-DefinitionFile:\<BAM 定義檔案\>**。  
   
 4.  按 ENTER 鍵。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理 BAM 動態基礎結構](../core/managing-the-bam-dynamic-infrastructure.md)   
  [BAM 管理公用程式](../core/bam-management-utility.md)   
  [BAM 安全性建議](../core/bam-security-recommendations.md)
