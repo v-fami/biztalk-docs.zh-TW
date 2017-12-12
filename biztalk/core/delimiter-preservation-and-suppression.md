@@ -12,16 +12,16 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1195e153eb94215bf8861b4856e4d2135b24443e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e0b5a5c60d42892479feacc93aedb3802b11308c
+ms.sourcegitcommit: d572ae5c887898adedcb3dfc5f83841beedd3434
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="delimiter-preservation-and-suppression"></a>保留和隱藏分隔符號
 
 ## <a name="overview"></a>概觀
-適用於分隔記錄的兩個屬性：**保留空白資料的分隔符號**和**[隱藏尾端分隔符號**。 您可以使用這些屬性來控制一般檔案組合器如何處理不存在的資料與尾端分隔符號與相關聯的分隔符號。 當您將**保留空白資料的分隔符號**屬性**是**（此為預設值），分隔符號會包含在轉譯的一般檔案訊息：  
+適用於分隔記錄的兩個屬性：**保留空白資料的分隔符號**和**隱藏尾端分隔符號**。 您可以使用這些屬性來控制一般檔案組合器如何處理不存在的資料與尾端分隔符號與相關聯的分隔符號。 當您將**保留空白資料的分隔符號**屬性**是**（此為預設值），分隔符號會包含在轉譯的一般檔案訊息：  
   
 -   沒有資料的欄位。  
   
@@ -110,6 +110,6 @@ ms.lasthandoff: 09/20/2017
 ,,Val,,Inner1,Inner2,,  
 ```  
   
-## <a name="see-also"></a>另請參閱  
--  [分隔記錄的考量](../core/delimited-record-considerations.md)   
+## <a name="see-also"></a>請參閱  
+-  [分隔記錄考量](../core/delimited-record-considerations.md)   
 -  **保留空白資料 （一般檔案結構描述中的節點屬性） 的分隔符號**和**隱藏尾端分隔符號 （一般檔案結構描述中的節點屬性）**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

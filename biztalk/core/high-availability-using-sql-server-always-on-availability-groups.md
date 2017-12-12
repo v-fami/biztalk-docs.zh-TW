@@ -12,11 +12,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: db9b066b6d1f2334e14e4829d61ec6b84830c4c1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 52579934be36d4bb42fa4b299f54b66fd6af3894
+ms.sourcegitcommit: 654a9586d1232ac332a1675b8a4fae832a0d559a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/10/2017
 ---
 # <a name="high-availability-using-sql-server-always-on-availability-groups"></a>使用 SQL Server Alwayson 可用性群組的高可用性
 設定使用 SQL Server AlwaysOn 可用性群組的高可用性。
@@ -69,7 +69,7 @@ SQL Server 2016 之前的任何版本不支援 AlwaysOn AG 與 MSDTC。
 |1 |驗證 |SSODB|
 |2 |管理 |BizTalkMgmtDb| 
 |3 |執行階段 |BizTalkMsgBoxDb<br/> BizTalkRulesEngineDb<br/> BAMPrimaryImport<br/>BAMStarSchema <br/>BAMAlertsApplication |
-|4 |追蹤 |BizTalkDTADb| 
+|4 |追蹤 |BizTalkDTADb<br/>EsbItineraryDb<br/>EsbExceptionDb | 
  
 在向外擴充 MessageBox 案例 （具有一個以上的 MessageBox 的組態） 中，有一個以上的 MessageBox 資料庫，且每個 MessageBox 資料庫必須位於自己的 SQL Server 執行個體上。 
 
@@ -241,7 +241,7 @@ BizTalk Server 實作資料庫待命功能，透過使用資料庫記錄傳送�
  
 * [為 BizTalk Server 資料庫提供高可用性](../core/providing-high-availability-for-biztalk-server-databases.md)  
 * [適用於 Microsoft Azure 虛擬機器的 Microsoft server software 支援](https://support.microsoft.com/kb/2721672)  
-* [SQL Server 資料庫鏡像磁碟區陰影複製服務和 AlwaysOn](../core/sql-server-database-mirroring-volume-shadow-copy-service-and-alwayson.md)  
+* [SQL Server 資料庫鏡像、磁碟區陰影複製服務和 AlwaysOn](../core/sql-server-database-mirroring-volume-shadow-copy-service-and-alwayson.md)  
 * [AlwaysOn 可用性群組 (SQL Server) 概觀](https://msdn.microsoft.com/library/ff877884.aspx)  
 * [跨資料庫交易支援資料庫鏡像或 AlwaysOn 可用性群組 (SQL Server)](https://msdn.microsoft.com/library/ms366279.aspx)  
 * [SQL Server 接收來自於 Windows Server 2012 R2 中的 MSDTC 交易結果時，無法呼叫 reenlist](https://support.microsoft.com/kb/3090973)  
