@@ -23,11 +23,11 @@ caps.latest.revision: "10"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5a2d6ef6752965c1f20c695dacb06ff348089054
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: 47496b875297e6c16141780979fda933f3968c6b
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="running-orchestrations"></a>執行協調流程
 下列程序說明如何建置、部署、繫結和啟動協調流程。  
@@ -42,7 +42,7 @@ ms.lasthandoff: 11/07/2017
   
      例如：  
   
-     **\<磁碟機 >: \Adapter_Install\biztalk\my_project**  
+     **\<磁碟機\>: \Adapter_Install\biztalk\my_project**  
   
 3.  在命令提示字元中輸入下列文字，然後按 ENTER：  
   
@@ -93,5 +93,5 @@ ms.lasthandoff: 11/07/2017
   
      若要將狀態變更為**執行**按一下**重新整理**，或以滑鼠右鍵按一下主控件執行個體，然後按一下**重新整理**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [保護配接器](../core/security-in-biztalk-adapter-for-peoplesoft-enterprise.md)

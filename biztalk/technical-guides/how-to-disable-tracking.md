@@ -12,11 +12,11 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 31476c3a538427a8c582533fbb0d7ad0418e3a0f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ae1e7ad95aa8be661e283f5671d3443615c7033a
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-disable-tracking"></a>如何停用追蹤
 本主題描述如何停用追蹤使用[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台。 您可以設定各種追蹤選項，在執行階段的協調流程、 傳送埠、 接收埠，以及使用管線[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台。 您可以隨時變更任何項目的追蹤選項，而不需要中斷商務程序。  
@@ -29,11 +29,11 @@ ms.lasthandoff: 09/20/2017
   
 ##  <a name="BKMK_DisableOrchTracking"></a>若要停用協調流程的追蹤  
   
-1.  按一下**啟動**，按一下 **所有程式**，按一下  **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]，然後按一下 **BizTalk Server 管理**。  
+1.  按一下**啟動**，按一下 **所有程式**，按一下  **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]，然後按一下  **BizTalk Server 管理**。  
   
 2.  在主控台樹狀目錄中，依序展開[!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]**管理**、 依序展開 BizTalk 群組、 展開**應用程式**，然後展開包含您想要在協調的流程的應用程式設定追蹤。  
   
-3.  按一下**協調流程**，從右窗格中，以滑鼠右鍵按一下您要設定追蹤，，然後按一下協調流程**屬性**。  
+3.  按一下**協調流程**，從右窗格中，以滑鼠右鍵按一下您要設定追蹤，，然後按一下 協調流程**屬性**。  
   
 4.  按一下**追蹤**索引標籤上，停用追蹤選項下, 表中所述，然後按一下**確定**。  
   
@@ -49,11 +49,11 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-disable-tracking-for-a-send-port"></a>若要停用傳送埠的追蹤  
   
-1.  按一下**啟動**，按一下 **所有程式**，按一下  **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]，然後按一下 **BizTalk Server 管理**。  
+1.  按一下**啟動**，按一下 **所有程式**，按一下  **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]，然後按一下  **BizTalk Server 管理**。  
   
 2.  在主控台樹狀目錄中，依序展開[!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]**管理**、 依序展開 BizTalk 群組、 展開**應用程式**，然後展開包含您要設定傳送埠的應用程式追蹤。  
   
-3.  按一下**傳送埠**，以滑鼠右鍵按一下傳送埠，按一下**屬性**，然後按一下**追蹤**。  
+3.  按一下**傳送埠**，以滑鼠右鍵按一下傳送埠，按一下**屬性**，然後按一下 **追蹤**。  
   
 4.  下表中所述，停用追蹤選項，然後按一下**確定**。  
   
@@ -70,7 +70,7 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-disable-tracking-for-a-receive-port"></a>若要停用接收埠的追蹤  
   
-1.  按一下**啟動**，按一下 **所有程式**，按一下  **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]，然後按一下 **BizTalk Server 管理**。  
+1.  按一下**啟動**，按一下 **所有程式**，按一下  **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]，然後按一下  **BizTalk Server 管理**。  
   
 2.  在主控台樹狀目錄中，依序展開[!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]**管理**、 依序展開 BizTalk 群組、 展開**應用程式**，然後展開包含您想要的接收埠的應用程式設定追蹤。  
   
@@ -91,11 +91,11 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-disable-tracking-for-a-policy"></a>若要停用原則的追蹤  
   
-1.  按一下**啟動**，按一下 **程式**，按一下  **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]，然後按一下 **BizTalk Server 管理**。  
+1.  按一下**啟動**，按一下 **程式**，按一下  **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]，然後按一下  **BizTalk Server 管理**。  
   
 2.  在主控台樹狀目錄中，依序展開[!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]**管理**、 依序展開 BizTalk 群組、 展開**應用程式**，然後展開包含您要設定的原則的應用程式追蹤。  
   
-3.  按一下**原則**，以滑鼠右鍵按一下原則，按一下**屬性**，然後按一下**追蹤**。  
+3.  按一下**原則**，以滑鼠右鍵按一下原則，按一下**屬性**，然後按一下 **追蹤**。  
   
 4.  下表中所述，停用追蹤選項，然後按一下**確定**。  
   
@@ -108,7 +108,7 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-disable-tracking-for-a-schema"></a>若要停用追蹤結構描述  
   
-1.  按一下**啟動**，按一下 **程式**，按一下  **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]，然後按一下 **BizTalk Server 管理**。  
+1.  按一下**啟動**，按一下 **程式**，按一下  **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]，然後按一下  **BizTalk Server 管理**。  
   
 2.  在主控台樹狀目錄中，依序展開[!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]**管理**、 依序展開 BizTalk 群組、 展開**應用程式**，然後展開包含您要設定的結構描述的應用程式追蹤。  
   
@@ -129,7 +129,7 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-disable-tracking-for-a-pipeline"></a>若要停用管線追蹤  
   
-1.  按一下**啟動**，按一下 **程式**，按一下  **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]，然後按一下 **BizTalk Server 管理**。  
+1.  按一下**啟動**，按一下 **程式**，按一下  **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]，然後按一下  **BizTalk Server 管理**。  
   
     > [!NOTE]  
     >  如果您設定管線的追蹤選項，您也會設定每個管線所使用的連接埠全域追蹤選項。 亦可能會導致更多超過您的需要，正在追蹤的資料這會拖慢系統效能。 相反地，您可以設定追蹤選項，傳送連接埠和接收埠。  
@@ -138,7 +138,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  執行下列其中之一：  
   
-    -   若要停用其中一個預設 BizTalk 管線的追蹤，請展開\<所有成品 >。  
+    -   若要停用其中一個預設 BizTalk 管線的追蹤，請展開\<所有成品\>。  
   
     -   若要停用追蹤已部署到 BizTalk 應用程式的自訂管線，請展開包含管線的應用程式。  
   
@@ -156,5 +156,5 @@ ms.lasthandoff: 09/20/2017
     |**管線處理之前的訊息**|清除此核取方塊可停用儲存及追蹤管線所接收的訊息內文，其中包含中繼資料，例如 Url 及升級屬性。 若此管線屬於接收管線，則訊息內文即為傳輸元件提交給管線的原始訊息。 視您的應用程式而定，訊息可能經過加密、簽章或編碼。 當使用[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]對應，如果這是接收管線中，會在追蹤之後處理輸入的對應。<br /><br /> 此核取方塊才**訊息傳送與接收事件**已選取。|  
     |**管線處理後的訊息**|清除此核取方塊可停用儲存及追蹤管線所傳送的訊息內文，其中包含中繼資料，例如 Url 及升級屬性。 若此管線屬於接收管線，則訊息內文即為要提交給 MessageBox 資料庫的已處理訊息，視您的應用程式而定，這個訊息可能是 XML。 當使用[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]對應，如果這是傳送管線，會在執行追蹤之前處理輸出對應。<br /><br /> 此核取方塊才**訊息傳送與接收事件**已選取。|  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [維護效能](../technical-guides/maintaining-performance.md)

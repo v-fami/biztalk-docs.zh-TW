@@ -12,14 +12,14 @@ caps.latest.revision: "19"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 88edef073bdab21213d9f1f52ec7e4424ff4e4b2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 23b8222369503f616f2d994f9292091f8e6c1f0d
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="known-issues-with-xml-tools-used-with-edi-solutions"></a>與 EDI 解決方案搭配使用之 XML 工具的已知問題
-本主題描述 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 中 XML 工具的已知問題。  
+本主題描述 BizTalk Server 中的 XML 工具的已知的問題。  
   
 ## <a name="validation-of-test-map-input-and-output-file-still-occurs-when-the-validate-property-is-set-to-false"></a>當 Validate 屬性設定為 False 時，仍然會進行測試對應輸入與輸出檔案的驗證  
  如果您在測試對應 TestMap 輸入屬性設定為**原生**和 驗證 TestMap 輸入 和 驗證 TestMap 輸出屬性設定為**False**，仍然會進行驗證。 因為原生格式的輸入檔案將轉換成 XML 格式，而且 BizTalk Server 將針對結構描述驗證 XML，所以會發生這個問題。 如果輸入檔中有驗證問題，這個驗證機制會公佈錯誤，即使 驗證 TestMap 輸入 和 驗證 TestMap 輸出屬性設定為**False**。  
@@ -28,7 +28,7 @@ ms.lasthandoff: 09/20/2017
  當某個執行個體產生自結構描述，而且該結構描述中資料元素的列舉值不符合長度需求時，此執行個體可能會以後續由於長度需求而讓 XSD 驗證失敗的資料元素產生。 結構描述驗證將不會檢查提取自結構描述之列舉清單的產生執行個體中的值是否滿足最小/最大長度需求。  
   
 ## <a name="validate-schema-may-not-detect-an-invalid-transaction-set-id-code"></a>驗證結構描述可能無法偵測出無效的交易集識別代碼  
- 當您驗證結構描述中使用 驗證結構描述命令的 [方案總管] 視窗[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]，根節點的檢查可能無法偵測出無效的交易集識別代碼中的根參考節點的最後一個部分 (格式 x12_<\<VersionRelease > 為 X12_&LT;VERSIONRELEASE&GT;_TSID)。 如果結構描述之根參考節點中的 TSID 無效，但是它與結構描述中 ST01 元素之列舉節點的 TSID 相同，[驗證結構描述] 作業將無法偵測出此 TSID 無效。  
+ 當您驗證結構描述中使用驗證結構描述命令的 [方案總管] 視窗[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]，根節點的檢查可能無法偵測出無效的交易集識別代碼中的根參考節點的最後一個部分 (格式 x12_<\<VersionRelease\>為 X12_<VERSIONRELEASE>_TSID)。 如果結構描述之根參考節點中的 TSID 無效，但是它與結構描述中 ST01 元素之列舉節點的 TSID 相同，[驗證結構描述] 作業將無法偵測出此 TSID 無效。  
   
 ## <a name="visual-studio-must-be-restarted-to-make-an-enum-change-in-a-schema-effective-for-instance-validation"></a>您必須重新啟動 Visual Studio 才能讓結構描述中的列舉變更針對執行個體驗證生效  
  如果您變更了結構描述中的列舉清單、儲存此結構描述，然後執行執行個體驗證，BizTalk Server 將會根據舊版結構描述而非最新版本進行驗證。 在您重新啟動 Visual Studio 之前，BizTalk Server 將不會使用最新版結構描述。  
@@ -56,7 +56,7 @@ ms.lasthandoff: 09/20/2017
 |837D|004010X097A1|  
 |837P|004010X098A1|  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [EDI 處理的已知的問題](../core/known-issues-with-edi-processing.md)   
  [使用 XML 工具延伸模組](../core/using-the-xml-tool-extensions.md)   
  [使用設計階段 XML 工具](../core/using-design-time-xml-tools.md)

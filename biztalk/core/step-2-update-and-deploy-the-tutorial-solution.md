@@ -12,11 +12,11 @@ caps.latest.revision: "27"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ca9f035eb97190c5a8999f73138d371e7dfddf98
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 67fd3d34f25dd409121a3a21c9eb419b4aadce6e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-2-update-and-deploy-the-tutorial-solution"></a>步驟 2： 更新和部署教學課程解決方案
 ![步驟 2 的 9](../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-2of9.gif "Step_2of9")  
@@ -33,7 +33,7 @@ ms.lasthandoff: 09/20/2017
     > [!CAUTION]
     >  如果您未以系統管理員權限啟動 Visual Studio，則您將方案部署至 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 時將會收到錯誤。  
   
-2.  在 Visual Studio 中，按一下 **檔案**，指向 **開啟**，然後按一下**專案/方案**。 移至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\EDI Interface Developer Tutorial，選取**EDI Inbound processing.sln**，然後按一下**開啟**。  
+2.  在 Visual Studio 中，按一下 **檔案**，指向 **開啟**，然後按一下 **專案/方案**。 移至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\EDI Interface Developer Tutorial，選取**EDI Inbound processing.sln]**，然後按一下 [**開啟**。  
   
     > [!NOTE]
     >  本主題假設您已經在「BizTalk EDI 應用程式」中加入了自己應用程式的參考 (包含 EDI 結構描述、管線和協調流程)， 如果沒有，請參閱[如何將參考加入至 BizTalk Server EDI 應用程式](http://msdn.microsoft.com/library/7af066fb-372f-4709-b566-c8d6b4a9d782)。  
@@ -42,7 +42,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  在主控台樹狀目錄中的**Inbound_EDI 屬性頁面**對話方塊中，選取**部署**和**伺服器**欄位確保，輸入您的電腦名稱。  
   
-5.  在主控台樹狀目錄中，按一下**簽署**，然後選取 **簽署組件**。 如**選擇強式金鑰名稱檔**，選取\<**新增...**>，然後輸入**keyfile.snk**為**金鑰檔名稱**。 清除**保護我的密碼金鑰檔**，然後按一下**確定**。  
+5.  在主控台樹狀目錄中，按一下**簽署**，然後選取 **簽署組件**。 如**選擇強式金鑰名稱檔**，選取\<**新增...** \>輸入**keyfile.snk**為**金鑰檔名稱**。 清除**保護我的密碼金鑰檔**，然後按一下 **確定**。  
   
 6.  關閉**[Inbound_EDI 屬性頁面**] 對話方塊。  
   
@@ -59,10 +59,10 @@ ms.lasthandoff: 09/20/2017
   
 4.  在 [方案總管] 中，以滑鼠右鍵按一下**Inbound_EDI**專案，然後選取**部署**部署專案。  
   
-5.  在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，展開  **BizTalk Server 管理**， **BizTalk 群組**，**應用程式**， \< **所有成品**>，然後選取 **資源**。 確認**Inbound_EDI**有列出組件。  
+5.  在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，展開 **BizTalk Server 管理**， **BizTalk 群組**，**應用程式**， \< **所有成品**\> ，然後選取 **資源**。 確認**Inbound_EDI**有列出組件。  
   
 ## <a name="next-steps"></a>後續步驟  
  您為您的組織設定合作對象與商務設定檔 (**OrderSystem**) 中所述，[步驟 3： 設定適用於您組織的合作對象與商務設定檔](../core/step-3-configure-a-party-and-business-profile-for-your-organization1.md)  
   
-## <a name="see-also"></a>另請參閱  
- [步驟 1： 準備 EDI 介面開發人員教學課程](../core/step-1-prepare-for-the-edi-interface-developer-tutorial.md)
+## <a name="see-also"></a>請參閱  
+ [步驟 1：準備 EDI 介面開發人員教學課程](../core/step-1-prepare-for-the-edi-interface-developer-tutorial.md)

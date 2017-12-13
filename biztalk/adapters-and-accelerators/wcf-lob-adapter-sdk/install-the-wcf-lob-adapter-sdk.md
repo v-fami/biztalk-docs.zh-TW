@@ -12,11 +12,11 @@ caps.latest.revision: "40"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fa2124425fa97729b1bec692fc1a88e301434c0b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1e9d4dfe5818e28e1ccd73b077c19c9d45ecb8cc
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="install-the-wcf-lob-adapter-sdk"></a>安裝 WCF LOB 配接器 SDK
 安裝和設定[!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)]。 
@@ -28,7 +28,7 @@ ms.lasthandoff: 09/20/2017
 > **如需支援版本的清單**，請參閱： 
 > 
 > [BizTalk Server 2016 的硬體和軟體需求](../../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md)  
-> [硬體和軟體需求適用於 BizTalk Server 2013 和 2013 R2](../../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2013-and-2013-r2.md)
+> [BizTalk Server 2013 和 2013 R2 的硬體和軟體需求](../../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2013-and-2013-r2.md)
  
  | | | 
  | --- | --- |
@@ -103,7 +103,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  移除 machine.config 中的自訂配接器繫結的參考  
   
-    1.  移至下的 machine.config 檔案\<*系統磁碟機*>: \WINDOWS\Microsoft.NET\Framework\\< 版本\>\CONFIG。  
+    1.  移至下的 machine.config 檔案\<*系統磁碟機*\>: \WINDOWS\Microsoft.NET\Framework\\< 版本\>\CONFIG。  
   
     2.  使用文字編輯器開啟檔案。  
   

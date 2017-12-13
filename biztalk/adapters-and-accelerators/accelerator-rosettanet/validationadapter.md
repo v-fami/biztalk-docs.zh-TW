@@ -12,11 +12,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3fd80934cef17f930f5dc587bbdbf3f4b87c67e6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a325a561017c6efaf6d6aefe2e271c834c13a363
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="validationadapter"></a>ValidationAdapter
 ValidationAdapter 範例會示範如何對回應者公開程序的訊息執行特殊驗證規則。 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 本身會在傳送管線或接收管線及協調流程中執行驗證。 如果您想要執行其他驗證，可以建立驗證配接器。 其他驗證可能包含跨欄位或特定業務的驗證規則，而您無法使用 XSD 實作這些規則。  
@@ -25,7 +25,7 @@ ValidationAdapter 範例會示範如何對回應者公開程序的訊息執行�
   
  由於 ValidationAdapter 是由公開程序協調流程使用的，因此，ValidationAdapter 會在與裝載該協調流程之 BizTalk 主控件服務相同的認證下執行。  
   
- ValidationAdapter 範例位於\<*磁碟機*>: \Program Files\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk\<版本 > Accelerator for RosettaNet\SDK\ValidationAdapter。  
+ ValidationAdapter 範例位於\<*磁碟機*\>: \Program Files\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk\<版本\>Accelerator for RosettaNet\SDK\ValidationAdapter。  
   
 ## <a name="demonstrates"></a>示範  
  ValidationAdapter 範例示範服務內容中電子郵件地址的驗證。 此範例會實作 `IValidateRNIFMessageParts` 介面。 如果電子郵件地址的格式不正確，就會傳回 `RNIFException`。 XML 文件**preambleToValidate**， **serviceHeaderToValidate**， **deliveryHeaderToValidate**，和**serviceContentToValidate**定義驗證。  
@@ -41,9 +41,9 @@ ValidationAdapter 範例會示範如何對回應者公開程序的訊息執行�
   
 #### <a name="to-add-the-validation-adapter-to-the-agreement"></a>在協議中加入驗證配接器  
   
-1.  按一下**啟動**，指向 **所有程式**，指向  [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btaBTARNNoVersion](../../includes/btabtarnnoversion-md.md)]，然後按一下 [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)] **管理主控台**。  
+1.  按一下**啟動**，指向 **所有程式**，指向 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btaBTARNNoVersion](../../includes/btabtarnnoversion-md.md)]，然後按一下 [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)] **管理主控台**。  
   
-2.  在[!INCLUDE[btaBTARNNoVersion](../../includes/btabtarnnoversion-md.md)]管理主控台中，展開  [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)]，然後按一下**協議**。  
+2.  在[!INCLUDE[btaBTARNNoVersion](../../includes/btabtarnnoversion-md.md)]管理主控台中，展開  [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)]，然後按一下 **協議**。  
   
 3.  按兩下您要加入至驗證配接器的協議。  
   
@@ -51,5 +51,5 @@ ValidationAdapter 範例會示範如何對回應者公開程序的訊息執行�
   
 5.  按一下向下的箭號**類別名稱**，選取 驗證配接器類別，然後按一下**確定**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [配接器範例](../../adapters-and-accelerators/accelerator-rosettanet/adapter-samples.md)

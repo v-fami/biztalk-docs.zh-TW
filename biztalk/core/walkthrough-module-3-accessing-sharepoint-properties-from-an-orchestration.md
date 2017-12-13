@@ -17,11 +17,11 @@ caps.latest.revision: "45"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a44fd7e30bf511ee77cc1f3e79f6ba63908259ff
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 23bc9f0b1f2d350864509536a393de639e108e2d
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="walkthrough-module-3---accessing-sharepoint-properties-from-an-orchestration"></a>逐步解說： 模組 3-從協調流程存取 SharePoint 屬性
 這個逐步解說是工作的接續[逐步解說： 模組 2-整合 Office 與 Windows SharePoint Services 配接器](../core/walkthrough-module-2--integrate-office-with-the-sharepoint-adapter-in-biztalk.md)，並示範如何存取內送訊息在 Windows SharePoint Services 內容屬性執行階段，然後決定該使用動態連接埠的協調流程中的屬性為基礎的訊息的目的地。 如需 Windows SharePoint Services 配接器的簡介，請參閱[什麼是 Windows SharePoint Services 配接器？](../core/what-is-the-windows-sharepoint-services-adapter.md)。  
@@ -29,7 +29,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="prerequisites"></a>必要條件  
  下列是執行本主題所述程序的必要條件：  
   
--   您必須擁有在 [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)] 或 [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] 上執行 [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] 完整安裝的單一伺服器部署。  
+-   您必須擁有與完整安裝 BizTalk Server 上執行的單一伺服器部署[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]或[!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]。  
   
 -   您必須完成下列逐步解說：[逐步解說： 模組 1-傳送和接收訊息，Windows SharePoint Services 配接器](../core/walkthrough-module-1--send-and-receive-messages-with-the-sharepoint-adapter.md)和[逐步解說： 模組 2-整合 Office 與 WindowsSharePoint Services 配接器](../core/walkthrough-module-2--integrate-office-with-the-sharepoint-adapter-in-biztalk.md)  
   
@@ -42,7 +42,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  啟動**Microsoft Visual Studio**。  
   
-2.  按一下**檔案**，按一下 **開啟**，然後按一下**專案/方案**。  
+2.  按一下**檔案**，按一下 **開啟**，然後按一下 **專案/方案**。  
   
 3.  瀏覽至`OrderProcess.sln`檔案，然後再按一下**開啟**。  
   
@@ -50,7 +50,7 @@ ms.lasthandoff: 09/20/2017
   
 5.  在**BizTalk 編輯器**，依序展開`PurchaseOrder`。  
   
-6.  以滑鼠右鍵按一下`Amount`，按一下 **升階**，然後按一下**快速升級**。  
+6.  以滑鼠右鍵按一下`Amount`，按一下 **升階**，然後按一下 **快速升級**。  
   
 7.  按一下 **[確定]**。  
   
@@ -64,7 +64,7 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="add-a-biztalk-orchestration"></a>新增 BizTalk 協調流程  
   
-1.  在**方案總管] 中**，以滑鼠右鍵按一下`OrderProcess`專案中，按一下 [**新增**，然後按一下**新項目**。  
+1.  在**方案總管 中**，以滑鼠右鍵按一下`OrderProcess`專案中，按一下 **新增**，然後按一下 **新項目**。  
   
 2.  在下**類別**，選取**協調流程檔案**。  
   
@@ -77,11 +77,11 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="create-a-new-message"></a>新立新訊息  
   
-1.  在**協調流程檢視**，以滑鼠右鍵按一下**訊息**，然後按一下**新訊息**。 這樣將會產生名稱為 `Message_1` 的新訊息。  
+1.  在**協調流程檢視**，以滑鼠右鍵按一下**訊息**，然後按一下 **新訊息**。 這樣將會產生名稱為 `Message_1` 的新訊息。  
   
 2.  以滑鼠右鍵按一下`Message_1`，按一下 **重新命名**，然後輸入`Message_PO`。  
   
-3.  以滑鼠右鍵按一下`Message_PO`，然後按一下**屬性 視窗**。  
+3.  以滑鼠右鍵按一下`Message_PO`，然後按一下 [**屬性] 視窗**。  
   
 4.  在**訊息類型**屬性中，展開**結構描述**，然後選取`OrderProcess.OrderProcessSchema`結構描述。  
   
@@ -109,7 +109,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  在下**BizTalk 協調流程**在 [工具箱] 拖曳**接收**圖形至協調流程。  
   
-2.  「 接收 」 圖形，以滑鼠右鍵按一下，然後按一下**屬性 視窗**。  
+2.  「 接收 」 圖形，以滑鼠右鍵按一下，然後按一下 [**屬性] 視窗**。  
   
 3.  設定**Activate**屬性`True`。  
   
@@ -127,11 +127,11 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="create-a-new-message"></a>新立新訊息  
   
-1.  在**協調流程檢視**，以滑鼠右鍵按一下**訊息**，然後按一下**新訊息**。 這樣將會產生名稱為 `Message_1` 的新訊息。  
+1.  在**協調流程檢視**，以滑鼠右鍵按一下**訊息**，然後按一下 **新訊息**。 這樣將會產生名稱為 `Message_1` 的新訊息。  
   
 2.  以滑鼠右鍵按一下`Message_1`，按一下 **重新命名**，然後輸入`Message_Task`。  
   
-3.  以滑鼠右鍵按一下`Message_Task`，然後按一下**屬性 視窗**。  
+3.  以滑鼠右鍵按一下`Message_Task`，然後按一下 [**屬性] 視窗**。  
   
 4.  在**訊息類型**屬性中，展開**結構描述**，然後選取`OrderProcess.OrderProcessSchema`結構描述。  
   
@@ -145,9 +145,9 @@ ms.lasthandoff: 09/20/2017
   
 4.  選取**使用現有的連接埠類型**。  
   
-5.  在下**可用的連接埠類型**，選取`OrderProcess.PurchaseOrderPT`，然後按一下**下一步**。  
+5.  在下**可用的連接埠類型**，選取`OrderProcess.PurchaseOrderPT`，然後按一下 **下一步**。  
   
-6.  上**連接埠繫結螢幕**下**連接埠通訊方向**，選取`I'll always be sending messages on this port`，然後按一下**下一步**。  
+6.  上**連接埠繫結螢幕**下**連接埠通訊方向**，選取`I'll always be sending messages on this port`，然後按一下 **下一步**。  
   
 7.  按一下 **[完成]**。  
   
@@ -195,11 +195,11 @@ ms.lasthandoff: 09/20/2017
   
 4.  選取**使用現有的連接埠類型**。  
   
-5.  在下**可用的連接埠類型**，選取`OrderProcess.PurchaseOrderPT`，然後按一下**下一步**。  
+5.  在下**可用的連接埠類型**，選取`OrderProcess.PurchaseOrderPT`，然後按一下 **下一步**。  
   
 6.  在**連接埠繫結螢幕**下**連接埠通訊方向**，選取`I'll always be sending messages on this port`。  
   
-7.  在下**連接埠繫結**，選取`Dynamic`，然後按一下**下一步**。  
+7.  在下**連接埠繫結**，選取`Dynamic`，然後按一下 **下一步**。  
   
 8.  按一下 **[完成]**。  
   
@@ -269,16 +269,16 @@ ms.lasthandoff: 09/20/2017
   
 9. 按一下 **[確定]**。  
   
-10. 按一下**檔案**，然後按一下**全部儲存**。  
+10. 按一下**檔案**，然後按一下 **全部儲存**。  
   
 ## <a name="build-the-biztalk-project"></a>建置 BizTalk 專案  
  在此程序中，您要建置和部署 BizTalk 專案。 這必要步驟來建立和部署組件的[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]於執行階段使用。  
   
 #### <a name="build-and-deploy-the-solution"></a>建置和部署解決方案  
   
-1.  按一下**建置**，然後按一下**建置 OrderProcess**。  
+1.  按一下**建置**，然後按一下 **建置 OrderProcess**。  
   
-2.  按一下**建置**，然後按一下**部署 OrderProcess**。  
+2.  按一下**建置**，然後按一下 **部署 OrderProcess**。  
   
 3.  關閉 [Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]]。  
   
@@ -287,11 +287,11 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="modify-the-receive-location"></a>修改接收位置  
   
-1.  按一下**啟動**，指向**所有程式**，指向 [ **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]，然後按一下 **BizTalk Server 管理]。**  
+1.  按一下**啟動**，指向**所有程式**，指向 **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]，然後按一下 [ **BizTalk Server 管理]。**  
   
-2.  展開**Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **管理嵌入式管理單元**，依序展開**BizTalk 群組**，依序展開**應用程式**，依序展開  **BizTalk Application 1**，然後按一下**接收位置**節點。  
+2.  展開**Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **管理嵌入式管理單元**，依序展開**BizTalk 群組**，依序展開**應用程式**，依序展開  **BizTalk Application 1**，然後按一下 **接收位置**節點。  
   
-3.  以滑鼠右鍵按一下`SourceLocation`，然後按一下**屬性**。  
+3.  以滑鼠右鍵按一下`SourceLocation`，然後按一下 **屬性**。  
   
 4.  在**接收位置屬性**對話方塊的 **一般**，選取`XMLReceive`如**接收管線**屬性。  
   
@@ -301,7 +301,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  按一下**傳送埠**節點。  
   
-2.  以滑鼠右鍵按一下`SendToDestination`，然後按一下**屬性**。  
+2.  以滑鼠右鍵按一下`SendToDestination`，然後按一下 **屬性**。  
   
 3.  在**傳送埠屬性**對話方塊的 **一般**，選取`XMLTransmit`如**傳送管線**屬性。  
   
@@ -313,7 +313,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  按一下**傳送埠**節點。  
   
-2.  以滑鼠右鍵按一下`OrderProcess_1.0.0.0_OrderProcess.MyCompanyOrderProcess_SendToTasksList_<GUID>`，然後按一下**啟動**。  
+2.  以滑鼠右鍵按一下`OrderProcess_1.0.0.0_OrderProcess.MyCompanyOrderProcess_SendToTasksList_<GUID>`，然後按一下 **啟動**。  
   
 > [!NOTE]
 >  若看不見此項目，您可能需要重新整理主控台。  
@@ -372,7 +372,7 @@ ms.lasthandoff: 09/20/2017
   
 14. 在 [目的地] 文件庫中，您現在會看見已列出您的訊息。 您也可以在 [封存] 文件庫中找到封存的複本。  
   
-15. 按一下**首頁**。  
+15. 按一下 [首頁]。  
   
 16. 在下**列出**，按一下 **工作**。  
   
@@ -387,6 +387,6 @@ ms.lasthandoff: 09/20/2017
 ## <a name="next-steps"></a>後續步驟  
  繼續檢視 Windows SharePoint Services 配接器章節的其他部分。 如需詳細資訊，請參閱＜另請參閱＞中的主題。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [什麼是 Windows SharePoint Services 配接器？](../core/what-is-the-windows-sharepoint-services-adapter.md)   
  [Windows SharePoint Services 配接器逐步解說](../core/windows-sharepoint-services-adapter-walkthroughs.md)

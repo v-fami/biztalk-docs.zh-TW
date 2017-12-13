@@ -16,18 +16,18 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6b94acad2b71694223b0566f86edfcfa86610099
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c4e49efd8a2fd195c0b5fa912ced3773fa85153e
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-4-create-a-trade-agreement"></a>步驟 4： 建立交易協議
 在此步驟中，您將使用 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 管理主控台，建立主要組織和夥伴組織之間的交易協議。  
   
 ### <a name="to-create-a-trade-agreement"></a>若要建立交易協議  
   
-1.  在 **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]** 管理主控台中，展開 **BizTalk\<版本 > Accelerator for RosettaNet**，以滑鼠右鍵按一下**協議**，按一下**新**，然後按一下 **協議**。  
+1.  在 **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]** 管理主控台中，展開 **BizTalk\<版本\>Accelerator for RosettaNet**，以滑鼠右鍵按一下**協議**，按一下 **新增**，然後按一下 **協議**。  
   
 2.  在**新協議屬性**對話方塊**一般**索引標籤上，執行下列動作：  
   
@@ -55,5 +55,5 @@ ms.lasthandoff: 09/20/2017
   
 -   在[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]管理主控台中，展開[!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)]，按一下 **協議**，以滑鼠右鍵按一下**交易協議**在結果窗格中，然後按一下**Activate**.  
   
-## <a name="see-also"></a>另請參閱  
- [步驟 5： 建立鏡像協議](../../adapters-and-accelerators/accelerator-rosettanet/step-5-create-a-mirror-agreement.md)
+## <a name="see-also"></a>請參閱  
+ [步驟 5：建立鏡像協議](../../adapters-and-accelerators/accelerator-rosettanet/step-5-create-a-mirror-agreement.md)

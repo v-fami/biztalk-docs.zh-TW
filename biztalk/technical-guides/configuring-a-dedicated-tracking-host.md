@@ -12,11 +12,11 @@ caps.latest.revision: "2"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b3651d91f9c4b28fae30182ed6ddd18cde1bb3f2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b91a4b65c6e9a9b293e967385b8f0ac4eece1aa4
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="configuring-a-dedicated-tracking-host"></a>專用的追蹤主控件設定
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]最佳化輸送量，因此主要協調流程和傳訊引擎不要實際上不會移動事件或訊息直接到 BizTalk 追蹤 (DTA) 或商務活動監控 (BAM) 資料庫，因為這會將這些引擎從其主要轉向至執行商務程序的工作。 相反地，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]離開事件和訊息在 MessageBox 資料庫，並將其標示為需要移至 BizTalk 追蹤 」 或 「 BAM 資料庫。 背景處理序 （追蹤主控件），然後到 BizTalk 追蹤和 BAM 資料庫，SQL Server Agent 作業複製追蹤的訊息到 BizTalk 追蹤資料庫時移動事件。  
@@ -39,7 +39,7 @@ ms.lasthandoff: 09/20/2017
   
  追蹤主控件執行個體移動特定的 MessageBox 資料庫的追蹤資料，但是會永遠不會有多個追蹤主控件執行個體特定的 MessageBox 資料庫移動資料。 例如，如果您有三個 MessageBox 資料庫，且只有兩個追蹤主控件執行個體，然後其中一個主控件執行個體需要移動兩個 MessageBox 資料庫的資料。 加入第三個追蹤主控件執行個體分散追蹤裝載另一部電腦執行的工作[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。 在此案例中，加入第四個追蹤主控件執行個體不會散佈任何的多個追蹤主控件使用，但會提供額外的追蹤主控件執行個體的容錯功能。  
   
- 如需有關 BAM 事件匯流排服務的詳細資訊，請參閱中的下列主題[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]協助：  
+ 如需有關 BAM 事件匯流排服務的詳細資訊，請參閱 BizTalk Server 說明中的下列主題：  
   
 -   [管理 BAM 事件匯流排服務](http://go.microsoft.com/fwlink/?LinkId=154194)(http://go.microsoft.com/fwlink/?LinkId=154194)  
   
@@ -58,17 +58,17 @@ ms.lasthandoff: 09/20/2017
   
 #### <a name="to-enable-host-tracking"></a>若要啟用主控件追蹤  
   
-1.  按一下**啟動**，按一下 **程式**，按一下  **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]，然後按一下 **BizTalk Server 管理**。  
+1.  按一下**啟動**，按一下 **程式**，按一下  **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]，然後按一下  **BizTalk Server 管理**。  
   
-2.  在主控台樹狀目錄中，依序展開[!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]**管理**，展開 BizTalk 群組，按一下**平台設定**，然後按一下**主機**。  
+2.  在主控台樹狀目錄中，依序展開[!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]**管理**，展開 BizTalk 群組，按一下**平台設定**，然後按一下 **主機**。  
   
-3.  在詳細資料窗格中，以滑鼠右鍵按一下您想要修改，然後按一下主機**屬性**。  
+3.  在詳細資料窗格中，以滑鼠右鍵按一下您想要修改，然後按一下 主機**屬性**。  
   
-4.  在**主控件屬性**對話方塊中，於**一般**索引標籤上，選取或清除**選項-允許主控件追蹤**，然後按一下**確定**。  
+4.  在**主控件屬性**對話方塊中，於**一般**索引標籤上，選取或清除**選項-允許主控件追蹤**，然後按一下 **確定**。  
   
      選取此核取方塊以指示主控件載入 BizTalk 追蹤元件，以處理狀況監控與商務資料。 若您選取此核取方塊，目前的主控件將會擁有 MessageBox 資料庫中追蹤資料表與追蹤資料庫的讀取/寫入存取權限。 因此，任何在此主控件中執行的物件也將擁有這些資料庫的讀/寫存取權限。  
   
      若您清除此核取方塊，主控件將只會擁有 MessageBox 資料庫中追蹤資料表的寫入存取權，而不會擁有追蹤資料庫的存取權。  
   
-## <a name="see-also"></a>另請參閱  
- [檢查清單： 設定 BizTalk Server](../technical-guides/checklist-configuring-biztalk-server.md)
+## <a name="see-also"></a>請參閱  
+ [檢查清單：設定 BizTalk Server](../technical-guides/checklist-configuring-biztalk-server.md)

@@ -12,11 +12,11 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 47332edbf974b7e45d3ab65644f28d9d2bd6a623
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: fa411b7ca828a45aa0d5e58212bb48195c48180f
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-8-on-premises-configure-the-biztalk-server-application"></a>步驟 8 （在內部部署）： 設定 BizTalk Server 應用程式
 在上一個步驟中，您建立了 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 協調流程。 在此步驟中，您將建置、部署和設定應用程式。  
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/20/2017
   
     2.  按一下**簽署**索引標籤，然後選取**簽署組件**核取方塊。  
   
-    3.  從下拉式清單中**選擇強式名稱金鑰檔**方塊中，選取**\<新增...>**。  
+    3.  從下拉式清單中**選擇強式名稱金鑰檔**方塊中，選取**\<新增...\>**.  
   
     4.  在**建立強式名稱金鑰**對話方塊方塊中，輸入金鑰檔案的名稱，例如`OrderProcessingDemo.snk`。 保護使用密碼金鑰檔的核取方塊，然後按一下**確定**。  
   
@@ -39,7 +39,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  從下拉式清單中的清單右邊的方塊**重新部署**，選取**True**。  
   
-5.  在 [方案總管] 中，以滑鼠右鍵按一下**[orderprocessingdemo]**，然後按一下**部署**。  此時，[輸出] 視窗應該會顯示：  
+5.  在 方案總管 中，以滑鼠右鍵按一下**orderprocessingdemo**，然後按一下 **部署**。  此時，[輸出] 視窗應該會顯示：  
   
     ```  
     ========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========  
@@ -49,11 +49,11 @@ ms.lasthandoff: 09/20/2017
   
 ## <a name="configure-the-application"></a>設定應用程式  
   
-1.  按一下**啟動**，指向 **所有程式**，指向   **[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]** ，然後按一下 [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]。  
+1.  按一下**啟動**，指向 **所有程式**，指向  **[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]** ，然後按一下 [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]。  
   
-2.  在左窗格中的主控台樹狀目錄中，展開[!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]，以滑鼠右鍵按一下**BizTalk 群組**，然後按一下**重新整理**。  
+2.  在左窗格中的主控台樹狀目錄中，展開[!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]，以滑鼠右鍵按一下**BizTalk 群組**，然後按一下 **重新整理**。  
   
-3.  展開**BizTalk 群組**，依序展開**應用程式**，依序展開**[orderprocessingdemo]**，然後按一下**協調流程**。 您會看到**OrderProcessingDemo.OrderProcessing**部署協調流程。  
+3.  展開**BizTalk 群組**，依序展開**應用程式**，依序展開**orderprocessingdemo**，然後按一下 **協調流程**。 您會看到**OrderProcessingDemo.OrderProcessing**部署協調流程。  
   
 4.  在協調流程中，您已建立了邏輯連接埠 (**ReceiveSO**) 從服務匯流排佇列接收訊息。 在此步驟中，您會建立實體接收埠以對應至邏輯連接埠。  
   
@@ -66,7 +66,7 @@ ms.lasthandoff: 09/20/2017
         |**名稱**|型別**ReceiveSO**。|  
         |**啟用失敗訊息的路由**|(清除)|  
   
-    3.  按一下**接收位置**，然後按一下**新增**。  
+    3.  按一下**接收位置**，然後按一下 **新增**。  
   
     4.  從 [Receive Location1 - 接收位置屬性] 對話方塊中，執行下列動作：  
   
@@ -74,7 +74,7 @@ ms.lasthandoff: 09/20/2017
         |--------------|----------------|  
         |**名稱**|型別**ReceiveOrders_SO**。|  
         |**型別**|選取**Sb-messaging**。|  
-        |**接收處理常式**|選取 **BizTalkServerApplication**。|  
+        |**接收處理常式**|選取 **[BizTalkServerApplication]**。|  
         |**接收管線**|選取**XMLReceive**。|  
   
     5.  按一下**設定**。  
@@ -146,7 +146,7 @@ ms.lasthandoff: 09/20/2017
   
 7.  您現在必須繫結在一起，以設定應用程式的實體和邏輯連接埠。  
   
-    1.  從[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，以滑鼠右鍵按一下**[orderprocessingdemo]**，然後按一下**設定**。  
+    1.  從[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，以滑鼠右鍵按一下**[orderprocessingdemo]**，然後按一下 **設定**。  
   
     2.  設定應用程式，從左窗格中，按一下**OrderProcessing**。  
   
@@ -163,9 +163,9 @@ ms.lasthandoff: 09/20/2017
   
 ## <a name="start-the-application"></a>啟動應用程式  
   
-1.  從[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，以滑鼠右鍵按一下**[orderprocessingdemo]**，然後按一下**啟動**。  
+1.  從[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，以滑鼠右鍵按一下**[orderprocessingdemo]**，然後按一下 **啟動**。  
   
 2.  從對話方塊中，按一下 **啟動**。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [教學課程 4： 建立使用 BizTalk Server 2013 的混合式應用程式](../core/tutorial-4-creating-a-hybrid-application-using-biztalk-server-2013.md)
