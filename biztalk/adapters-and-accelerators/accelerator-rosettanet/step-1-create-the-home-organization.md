@@ -16,11 +16,11 @@ caps.latest.revision: "8"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4ec15331afee0f66944c836289a984e65b5c754e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 42f0a645553a933a99f408036754a1d70b1dda47
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-1-create-the-home-organization"></a>步驟 1： 建立主要組織
 在此步驟中，您會使用 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 管理主控台來建立主要組織。  
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-create-the-home-organization"></a>若要建立主要組織  
   
-1.  在 **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]** 管理主控台中，展開 **BizTalk\<版本 > Accelerator for RosettaNet**，以滑鼠右鍵按一下**主要組織**，按一下**新增**，然後按一下 **主要組織**。  
+1.  在 **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]** 管理主控台中，展開 **BizTalk\<版本\>Accelerator for RosettaNet**，以滑鼠右鍵按一下**主要組織**，按一下 **新增**，然後按一下 **主要組織**。  
   
 2.  在新主要組織屬性 對話方塊中**一般**索引標籤上，執行下列動作：  
   
@@ -53,5 +53,5 @@ ms.lasthandoff: 09/20/2017
   
 4.  按一下**套用**，然後**確定**。  
   
-## <a name="see-also"></a>另請參閱  
- [步驟 2： 建立交易夥伴組織](../../adapters-and-accelerators/accelerator-rosettanet/step-2-create-the-partner-organization.md)
+## <a name="see-also"></a>請參閱  
+ [步驟 2：建立交易夥伴組織](../../adapters-and-accelerators/accelerator-rosettanet/step-2-create-the-partner-organization.md)

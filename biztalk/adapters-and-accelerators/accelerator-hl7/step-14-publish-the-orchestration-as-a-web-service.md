@@ -19,11 +19,11 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fd7707ded0951eb1141368a91e7fe8f533e8241a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8c742d21dd2f2e1d95f697beea3d5d5dfa0461d2
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-14-publish-the-orchestration-as-a-web-service"></a>步驟 14： 發佈為 Web 服務的協調流程
 在此步驟中，您可以使用 BizTalk Web 服務發佈精靈發佈為 Web 服務協調流程。  
@@ -40,11 +40,11 @@ ms.lasthandoff: 09/20/2017
   
 1.  在 方案總管的 Visual Studio 中，按一下 **方案 'BTAHL7V22Common'**。 在**工具**功能表上，按一下  **BizTalk Web 服務發佈精靈**。  
   
-2.  在**BizTalk Web 服務發佈精靈**上**褖畫惎**頁面上，按一下**下一步**。  
+2.  在 **BizTalk Web服務發布嚮導** 的 **歡迎** 頁上，單擊 **下一步**。  
   
 3.  在**建立 Web 服務**頁面上，選取**BizTalk 協調流程發佈為 web 服務**，然後按一下 **下一步**。  
   
-4.  在**BizTalk 組件**頁面上，於**BizTalk 組件檔案 (\*.dll)**欄位中，瀏覽或輸入 **\<* 磁碟機*>: \Tutorial\BTAHL7V22Common\BTAHL7 Project\bin\development**，按一下  **BTAHL7 Project.dll**，按一下 **開啟**，然後按一下 **下一步**.  
+4.  在**BizTalk 組件**頁面上，於**BizTalk 組件檔案 (\*.dll)**欄位中，瀏覽或輸入 **\<* 磁碟機*\>: \Tutorial\BTAHL7V22Common\BTAHL7 Project\bin\development**，按一下  **BTAHL7 Project.dll**，按一下 **開啟**，然後按一下 **下一步**.  
   
 5.  在**協調流程和連接埠**頁面上，確定所有節點都已選取，然後按一下 **下一步**。  
   
@@ -66,5 +66,5 @@ ms.lasthandoff: 09/20/2017
   
  若要繼續[步驟 15： 設定傳送埠和接收埠](../../adapters-and-accelerators/accelerator-hl7/step-15-configure-the-send-and-receive-ports.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [訊息擴充教學課程](../../adapters-and-accelerators/accelerator-hl7/message-enrichment-tutorial.md)

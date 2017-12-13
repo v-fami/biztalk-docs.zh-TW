@@ -19,11 +19,11 @@ caps.latest.revision: "9"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f60811a8b6875c8cbcf4a8037501855a08fe0be6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5d8896691557f48a8e85e67e09e35d20e1d606d0
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="configuring-certificates-imported-using-mmc"></a>設定使用 MMC 匯入的憑證
 使用 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Management Console (MMC) 中的「憑證」嵌入式管理單元匯入憑證後，必須設定憑證的使用方式。 這包括設定 BizTalk 群組、BizTalk 主控件與外掛式主控件服務帳戶、「交易夥伴介面程序」(PIP)、交易夥伴協議與交易夥伴。 您必須執行下列步驟：  
@@ -44,24 +44,24 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-configure-the-signing-certificate-for-a-biztalk-group-or-the-decryption-certificate-for-a-biztalk-host"></a>設定 BizTalk 群組的簽章憑證或 BizTalk 主控件的解密憑證  
   
-1.  按一下**啟動**，按一下**執行**，型別**runas /user:\<裝載服務 > mmc**，然後按一下**確定**。  
+1.  按一下**啟動**，按一下**執行**，型別**runas /user:\<裝載服務\>mmc**，然後按一下 **確定**。  
   
     > [!NOTE]
-    >  如\<*裝載服務*>，輸入您在安裝時，主控件服務關聯的服務名稱[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]。  
+    >  如\<*裝載服務*\>，輸入您在安裝時，主控件服務關聯的服務名稱[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]。  
   
-2.  輸入的密碼\<*裝載服務*>，然後按 ENTER 鍵。  
+2.  輸入的密碼\<*裝載服務*\>，然後按 ENTER 鍵。  
   
-3.  按一下**啟動**，指向 **所有程式**，指向  [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)]，然後按一下 [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)] **管理主控台**。  
+3.  按一下**啟動**，指向 **所有程式**，指向  [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)]，然後按一下  [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)] **管理主控台**。  
   
-4.  展開**憑證-目前使用者**，依序展開**個人**，然後按一下**憑證**。  
+4.  展開**憑證-目前使用者**，依序展開**個人**，然後按一下 **憑證**。  
   
 5.  在右側窗格中，按兩下私用憑證。  
   
 6.  在 憑證 視窗上**詳細資料**索引標籤上，按一下 **指紋**，然後顯示在視窗中選取十六進位的識別碼。 按下 CTRL+C 以複製識別碼。  
   
-7.  按一下**啟動**，指向 **所有程式**，指向  **Microsoft**[!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)]，然後按一下 **BizTalk Server 管理**。  
+7.  按一下**啟動**，指向 **所有程式**，指向  **Microsoft**[!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)]，然後按一下  **BizTalk Server 管理**。  
   
-8.  若要設定 BizTalk 群組的簽章憑證，以滑鼠右鍵按一下**Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)] **（本機）**，然後按一下**屬性**。 按一下右邊的文字方塊**指紋**，按 CTRL + V 將憑證指紋數貼到文字方塊中，然後按一下**確定**。  
+8.  若要設定 BizTalk 群組的簽章憑證，以滑鼠右鍵按一下**Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)] **（本機）**，然後按一下 **屬性**。 按一下右邊的文字方塊**指紋**，按 CTRL + V 將憑證指紋數貼到文字方塊中，然後按一下**確定**。  
   
 9. 若要為 BizTalk 主控件設定解密憑證，請展開**Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../../includes/btsbiztalkserver2006r3ui-md.md)] **（本機）**，依序展開**主機**，以滑鼠右鍵按一下您想要的主機設定，然後再按一下**屬性**。  
   
@@ -70,5 +70,5 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  您必須設定 BizTalk 主控件 (BizTalkServerApplication) 與 BizTalk 外掛式主控件 (BizTalkServerIsolatedHost) 的解密憑證。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理憑證](../../adapters-and-accelerators/accelerator-rosettanet/managing-certificates1.md)

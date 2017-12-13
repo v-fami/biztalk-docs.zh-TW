@@ -18,11 +18,11 @@ caps.latest.revision: "7"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3d9653f1ec72e56b225142d2d6c9fdff24198e7a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7c26765b19c868dbb78d3924069b60161827312c
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="step-2-creating-public-and-private-certificates"></a>步驟 2： 建立公開憑證與私用憑證
 在此步驟中，您可以使用憑證授權單位中建立[步驟 1： 建立憑證授權單位 &#91;RN3 &#93;](../../adapters-and-accelerators/accelerator-rosettanet/step-1-creating-a-certification-authority.md)以產生 Contoso 及 Fabrikam 組織使用的公用和私用憑證。  
@@ -123,7 +123,7 @@ ms.lasthandoff: 09/20/2017
   
 15. 在**要匯出的檔案**頁面上，按一下**瀏覽**。  
   
-16. 在**存**對話方塊中，使用的檔案路徑的憑證儲存*\<磁碟機 >*: \Certs\Fabrikam Private Encryption.pfx。  
+16. 在**存**對話方塊中，使用的檔案路徑的憑證儲存*\<磁碟機\>*: \Certs\Fabrikam Private Encryption.pfx。  
   
 17. 在**要匯出的檔案**頁面上，按一下**下一步**。  
   
@@ -149,7 +149,7 @@ ms.lasthandoff: 09/20/2017
   
 6.  在**要匯出的檔案**頁面上，按一下**瀏覽**。  
   
-7.  在 另存新檔 對話方塊中，輸入**\<磁碟機 >: \Certs**如**將儲存在**， **Fabrikam Public Encryption.cer**為**檔案名稱**，和 **\*.cer**如**存檔類型**，然後按一下 **儲存**。  
+7.  在 另存新檔 對話方塊中，輸入**\<磁碟機\>: \Certs**如**存**， **Fabrikam Public Encryption.cer**為**檔案名稱**，和 **\*.cer**如**存檔類型**，然後按一下 **儲存**。  
   
 8.  在**要匯出的檔案**頁面上，按一下**下一步**。  
   
@@ -161,5 +161,5 @@ ms.lasthandoff: 09/20/2017
   
 12. 針對 Contoso Signature 憑證和 Contoso Encryption 憑證重複執行步驟 1-9，並分別另存為 Contoso Public Signature.cer 及 Contoso Public Encryption.cer。  
   
-## <a name="see-also"></a>另請參閱  
- [步驟 3： 匯入公開憑證與私用憑證](../../adapters-and-accelerators/accelerator-rosettanet/step-3-importing-public-and-private-certificates.md)
+## <a name="see-also"></a>請參閱  
+ [步驟 3：匯入公開憑證與私用憑證](../../adapters-and-accelerators/accelerator-rosettanet/step-3-importing-public-and-private-certificates.md)

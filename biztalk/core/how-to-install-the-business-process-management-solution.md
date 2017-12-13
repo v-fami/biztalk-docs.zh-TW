@@ -16,11 +16,11 @@ caps.latest.revision: "61"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 22b16e8c33dfdbf44b000cc9a048e86a5869d616
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 706bc1cec8afc796fa44e022243782a207fe1777
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="how-to-install-the-business-process-management-solution"></a>如何安裝商務程序管理解決方案
 下列步驟說明如何準備安裝商務程序管理 (BPM) 解決方案的電腦，以及如何在此電腦上安裝解決方案。  
@@ -262,14 +262,14 @@ ms.lasthandoff: 09/20/2017
         |屬性名稱|值|  
         |-------------------|-----------|  
         |**Server**|`localhost`|  
-        |**使用者名稱**|\<*BizTalk 服務帳戶名稱*>|  
-        |**密碼**|\<*BizTalk 服務帳戶密碼*>|  
+        |**使用者名稱**|\<*BizTalk 服務帳戶名稱*\>|  
+        |**密碼**|\<*BizTalk 服務帳戶密碼*\>|  
   
 6.  執行 BPM 解決方案。 如需執行解決方案的詳細資訊，請參閱[如何執行商務程序管理解決方案](../core/how-to-run-the-business-process-management-solution.md)。  
   
 ## <a name="next-steps"></a>後續步驟  
  您可以測試商務管理解決方案中的運作方式[如何執行商務程序管理解決方案](../core/how-to-run-the-business-process-management-solution.md)。  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [安裝商務程序管理解決方案之前](../core/before-installing-the-business-process-management-solution.md)   
  [商務程序管理解決方案的開發人員電腦設定](../core/developer-machine-setup-for-the-business-process-management-solution.md)

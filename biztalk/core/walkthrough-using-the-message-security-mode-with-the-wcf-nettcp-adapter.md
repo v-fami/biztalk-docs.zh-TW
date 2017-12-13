@@ -12,11 +12,11 @@ caps.latest.revision: "47"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 68fc5e0a90fdfcaa6c3b6e5f6ae280d320be5647
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 850d0ee715984c7465063addd778828c727e0233
+ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="walkthrough-using-the-message-security-mode-with-the-wcf-nettcp-adapter"></a>逐步解說： 使用訊息安全性模式，Wcf-nettcp 配接器
   
@@ -40,11 +40,11 @@ ms.lasthandoff: 09/20/2017
 ## <a name="prerequisites"></a>必要條件  
  執行此範例中的步驟會確保您的環境會安裝下列必要條件。  
   
--   建置組件，並執行部署程序的電腦和執行範例的電腦需要 Microsoft [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]，Microsoft [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)]，與 Microsoft [!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]。  
+-   建置組件，並執行部署程序的電腦和執行範例的電腦需要 Microsoft [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]，Microsoft [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)]，與 Microsoft BizTalk Server。  
   
--   用來建置組件並執行部署程序的電腦需要 Microsoft [!INCLUDE[vs2010](../includes/vs2010-md.md)]。  
+-   用來建置組件並執行部署程序的電腦需要 Microsoft Visual Studio。  
   
--   執行此範例的電腦需要[!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]配接器和[!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]系統管理工具。 這些是 Microsoft 的安裝期間安裝的選項[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]。  
+-   執行此範例的電腦需要[!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]配接器和[!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]系統管理工具。 這些是 Microsoft BizTalk Server 安裝期間安裝的選項。  
   
 -   在電腦上您用來執行管理工作，您必須以成員的使用者帳戶執行[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]Administrators 群組，才能設定[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]內的應用程式設定[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台。 此使用者帳戶也必須為管理主控件執行個體和其他工作可能需要的應用程式部署的本機系統管理員群組的成員。  
   
@@ -92,7 +92,7 @@ ms.lasthandoff: 09/20/2017
     3.  在**進階憑證要求**頁面上，輸入`contoso`中**名稱**文字方塊中，選取**用戶端驗證憑證**從**需要的憑證類型**下拉式清單，然後按一下**送出**。  
   
     > [!NOTE]
-    >  如果您正在使用的用戶端驗證憑證[!INCLUDE[btsBizTalkServer2006r3](../includes/btsbiztalkserver2006r3-md.md)]網域控制站以外的電腦上。 這將會在配接器的 [屬性] 對話方塊中設定。  
+    >  如果您網域控制站以外的電腦上執行 BizTalk Server，則會使用用戶端驗證憑證。 這將會在配接器的 [屬性] 對話方塊中設定。  
   
 4.  使用 [憑證授權單位] 管理主控台來發出憑證，如下所示：  
   

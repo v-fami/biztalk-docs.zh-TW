@@ -15,22 +15,22 @@ caps.latest.revision: "4"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1898162b27956e4e527013ff765edf6aea440e9f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 32dc7b0f73955c080f875eada2705300800df452
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="exporting-certificates"></a>匯出憑證
 本主題描述如何使用「憑證匯出精靈」來匯出憑證。 使用此精靈可以匯出公開憑證或私用憑證。  
   
 ### <a name="to-export-a-partner-certificate"></a>匯出交易夥伴憑證  
   
-1.  按一下**啟動**，指向 **所有程式**，指向  **Microsoft** [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)] ，然後按一下 [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)] **管理主控台**.  
+1.  按一下**啟動**，指向 **所有程式**，指向 **Microsoft** [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)] ，然後按一下 [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)] **管理主控台**.  
   
-2.  展開**憑證 （本機電腦）**，依序展開**其他人**，然後按一下**憑證**。  
+2.  展開**憑證 （本機電腦）**，依序展開**其他人**，然後按一下 **憑證**。  
   
-3.  在右窗格中，以滑鼠右鍵按一下憑證名稱，指向**所有工作**，然後按一下**匯出**。  
+3.  在右窗格中，以滑鼠右鍵按一下憑證名稱，指向**所有工作**，然後按一下 **匯出**。  
   
 4.  在**歡迎使用 憑證匯出精靈**頁面上，按一下**下一步**。  
   
@@ -39,18 +39,18 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  以 Base-64 將憑證編碼可讓您使用 UNIX 伺服器上的憑證。  
   
-6.  在**要匯出的檔案**頁面上，按一下**瀏覽**，找出您想要儲存檔案，輸入檔案的名稱，按一下 **下一步**，然後按一下**完成**.  
+6.  在**要匯出的檔案**頁面上，按一下**瀏覽**，找出您想要儲存檔案，輸入檔案的名稱，按一下 **下一步**，然後按一下 **完成**.  
   
 ### <a name="to-export-the-home-organization-certificate"></a>匯出主要組織憑證  
   
-1.  按一下**啟動**，按一下 **執行**，型別**runas /user:\<裝載服務 > mmc**，其中\< *hostservice*> 是您在安裝時，主控件服務關聯的服務名稱[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]，然後按一下**確定**執行[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]Management Console (MMC) 的內容中主機服務。  
+1.  按一下**啟動**，按一下 **執行**，型別**runas /user:\<裝載服務\>mmc**，其中\< *hostservice* \>是您在安裝時，主控件服務關聯的服務名稱[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]，然後按一下 **確定**執行[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]管理主控台 (MMC) 的主控件服務內容中。  
   
     > [!NOTE]
     >  在您執行**runas**命令，以取得服務主機，其為存取主要組織憑證所需的身份識別。  
   
-2.  展開**憑證-目前使用者**，依序展開**個人**，然後按一下**憑證**。  
+2.  展開**憑證-目前使用者**，依序展開**個人**，然後按一下 **憑證**。  
   
-3.  在右窗格中，以滑鼠右鍵按一下憑證名稱，指向**所有工作**，然後按一下**匯出**。  
+3.  在右窗格中，以滑鼠右鍵按一下憑證名稱，指向**所有工作**，然後按一下 **匯出**。  
   
 4.  在**歡迎使用 憑證匯出精靈**頁面上，按一下**下一步**。  
   
@@ -67,7 +67,7 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  以 Base-64 將憑證編碼可讓您使用 UNIX 伺服器上的憑證。  
   
-7.  在**要匯出的檔案**頁面上，按一下**瀏覽**，找出您想要儲存檔案，輸入檔案的名稱，按一下 **下一步**，然後按一下**完成**.  
+7.  在**要匯出的檔案**頁面上，按一下**瀏覽**，找出您想要儲存檔案，輸入檔案的名稱，按一下 **下一步**，然後按一下 **完成**.  
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [管理憑證](../../adapters-and-accelerators/accelerator-rosettanet/managing-certificates1.md)
