@@ -12,60 +12,60 @@ caps.latest.revision: "3"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9e2bd45c54bfc312a52d199a2f117a108207cdf5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1c8bd8248a916d1e98571551a8561119b6377329
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
-# <a name="generating-and-publishing-mtmx-forms-on-the-sharepoint-site"></a><span data-ttu-id="0853e-102">產生和發行 SharePoint 網站上的 MT/MX 表單</span><span class="sxs-lookup"><span data-stu-id="0853e-102">Generating and Publishing MT/MX Forms on the SharePoint Site</span></span>
-<span data-ttu-id="0853e-103">**若要產生並發佈在 SharePoint 網站上的 MT/MX 表單：**</span><span class="sxs-lookup"><span data-stu-id="0853e-103">**To generate and publish MT/MX forms on a SharePoint site:**</span></span>  
+# <a name="generating-and-publishing-mtmx-forms-on-the-sharepoint-site"></a><span data-ttu-id="80d23-102">產生和發行 SharePoint 網站上的 MT/MX 表單</span><span class="sxs-lookup"><span data-stu-id="80d23-102">Generating and Publishing MT/MX Forms on the SharePoint Site</span></span>
+<span data-ttu-id="80d23-103">**若要產生並發佈在 SharePoint 網站上的 MT/MX 表單：**</span><span class="sxs-lookup"><span data-stu-id="80d23-103">**To generate and publish MT/MX forms on a SharePoint site:**</span></span>  
   
-1.  <span data-ttu-id="0853e-104">下載表單產生器公用程式，並將它儲存在本機電腦上。</span><span class="sxs-lookup"><span data-stu-id="0853e-104">Download the Form Generator Utility and save it locally on the computer.</span></span>  
+1.  <span data-ttu-id="80d23-104">下載表單產生器公用程式，並將它儲存在本機電腦上。</span><span class="sxs-lookup"><span data-stu-id="80d23-104">Download the Form Generator Utility and save it locally on the computer.</span></span>  
   
-2.  <span data-ttu-id="0853e-105">開啟**FormGenerator.sln**從資料夾下載的上方及編譯方案。</span><span class="sxs-lookup"><span data-stu-id="0853e-105">Open the **FormGenerator.sln** from the folder downloaded above and compile the solution.</span></span>  
+2.  <span data-ttu-id="80d23-105">開啟**FormGenerator.sln**從資料夾下載的上方及編譯方案。</span><span class="sxs-lookup"><span data-stu-id="80d23-105">Open the **FormGenerator.sln** from the folder downloaded above and compile the solution.</span></span>  
   
-3.  <span data-ttu-id="0853e-106">在命令提示字元中，存取已編譯的可執行檔 (FormGenerator.exe) 的資料夾。</span><span class="sxs-lookup"><span data-stu-id="0853e-106">At a command prompt, access the folder of compiled executable (FormGenerator.exe).</span></span> <span data-ttu-id="0853e-107">例如，如果您已建立偵錯模式中的公用程式，存取**...\bin\debug**資料夾。</span><span class="sxs-lookup"><span data-stu-id="0853e-107">For example, if you have built the utility in debug mode, access the **..\bin\debug** folder.</span></span>  
+3.  <span data-ttu-id="80d23-106">在命令提示字元中，存取已編譯的可執行檔 (FormGenerator.exe) 的資料夾。</span><span class="sxs-lookup"><span data-stu-id="80d23-106">At a command prompt, access the folder of compiled executable (FormGenerator.exe).</span></span> <span data-ttu-id="80d23-107">例如，如果您已建立偵錯模式中的公用程式，存取**...\bin\debug**資料夾。</span><span class="sxs-lookup"><span data-stu-id="80d23-107">For example, if you have built the utility in debug mode, access the **..\bin\debug** folder.</span></span>  
   
-4.  <span data-ttu-id="0853e-108">輸入 FormGenerator.exe [-b] [-\<[否]。</span><span class="sxs-lookup"><span data-stu-id="0853e-108">Type FormGenerator.exe [-b] [-\<No.</span></span> <span data-ttu-id="0853e-109">範本資料夾路徑 >]</span><span class="sxs-lookup"><span data-stu-id="0853e-109">of Template folder paths>]</span></span>  
+4.  <span data-ttu-id="80d23-108">輸入 FormGenerator.exe [-b] [-\<[否]。</span><span class="sxs-lookup"><span data-stu-id="80d23-108">Type FormGenerator.exe [-b] [-\<No.</span></span> <span data-ttu-id="80d23-109">範本資料夾路徑的\>]</span><span class="sxs-lookup"><span data-stu-id="80d23-109">of Template folder paths\>]</span></span>  
   
-     <span data-ttu-id="0853e-110">`<TemplateFolderPath> <DestinationFolderPath> <DocumentSchemaLocation> {[<SpaceSeparatedDocumentSchemaList>] | [-f <NameOfFileContainingSchemaList>]}`。</span><span class="sxs-lookup"><span data-stu-id="0853e-110">`<TemplateFolderPath> <DestinationFolderPath> <DocumentSchemaLocation> {[<SpaceSeparatedDocumentSchemaList>] | [-f <NameOfFileContainingSchemaList>]}`.</span></span> <span data-ttu-id="0853e-111">參數取代為新建立的資料夾名稱。</span><span class="sxs-lookup"><span data-stu-id="0853e-111">Replace the parameters with the newly-created folder names.</span></span>  
+     <span data-ttu-id="80d23-110">`<TemplateFolderPath> <DestinationFolderPath> <DocumentSchemaLocation> {[<SpaceSeparatedDocumentSchemaList>] | [-f <NameOfFileContainingSchemaList>]}`。</span><span class="sxs-lookup"><span data-stu-id="80d23-110">`<TemplateFolderPath> <DestinationFolderPath> <DocumentSchemaLocation> {[<SpaceSeparatedDocumentSchemaList>] | [-f <NameOfFileContainingSchemaList>]}`.</span></span> <span data-ttu-id="80d23-111">參數取代為新建立的資料夾名稱。</span><span class="sxs-lookup"><span data-stu-id="80d23-111">Replace the parameters with the newly-created folder names.</span></span>  
   
-5.  <span data-ttu-id="0853e-112">上述命令也會產生 MX 訊息修復所需的信封結構描述。</span><span class="sxs-lookup"><span data-stu-id="0853e-112">The above command will also generate the Envelope schema needed for MX message repair.</span></span>  
+5.  <span data-ttu-id="80d23-112">上述命令也會產生 MX 訊息修復所需的信封結構描述。</span><span class="sxs-lookup"><span data-stu-id="80d23-112">The above command will also generate the Envelope schema needed for MX message repair.</span></span>  
   
-6.  <span data-ttu-id="0853e-113">移至輸出資料夾\<DestinationFolderPath >。</span><span class="sxs-lookup"><span data-stu-id="0853e-113">Go to output folder \<DestinationFolderPath>.</span></span> <span data-ttu-id="0853e-114">在\<DestinationFolderPath >，開啟您要產生的表單的 InfoPath 表單範本的資料夾。</span><span class="sxs-lookup"><span data-stu-id="0853e-114">In \<DestinationFolderPath>, open the folder of the InfoPath form template for which you want to generate the form.</span></span> <span data-ttu-id="0853e-115">例如，如果您想要產生 MT103 InfoPath 表單，然後開啟 DestinationFolderPath MT103 資料夾，然後開啟 TemplateDS.sln。</span><span class="sxs-lookup"><span data-stu-id="0853e-115">For example, if you want to generate the MT103 InfoPath form, then open the MT103 folder at the DestinationFolderPath and open the TemplateDS.sln.</span></span>  
+6.  <span data-ttu-id="80d23-113">移至輸出資料夾\<DestinationFolderPath\>。</span><span class="sxs-lookup"><span data-stu-id="80d23-113">Go to output folder \<DestinationFolderPath\>.</span></span> <span data-ttu-id="80d23-114">在\<DestinationFolderPath\>，開啟您要產生的表單的 InfoPath 表單範本的資料夾。</span><span class="sxs-lookup"><span data-stu-id="80d23-114">In \<DestinationFolderPath\>, open the folder of the InfoPath form template for which you want to generate the form.</span></span> <span data-ttu-id="80d23-115">例如，如果您想要產生 MT103 InfoPath 表單，然後開啟 DestinationFolderPath MT103 資料夾，然後開啟 TemplateDS.sln。</span><span class="sxs-lookup"><span data-stu-id="80d23-115">For example, if you want to generate the MT103 InfoPath form, then open the MT103 folder at the DestinationFolderPath and open the TemplateDS.sln.</span></span>  
   
-7.  <span data-ttu-id="0853e-116">在 [方案總管] 中，按兩下**manifest.xsf**。</span><span class="sxs-lookup"><span data-stu-id="0853e-116">In the Solution Explorer, double click the **manifest.xsf**.</span></span> <span data-ttu-id="0853e-117">它會開啟 InfoPath 表單將需要花一些時間才能取得開啟的設計檔案。</span><span class="sxs-lookup"><span data-stu-id="0853e-117">It will open the design file of the InfoPath form which will take some time to get opened.</span></span>  
+7.  <span data-ttu-id="80d23-116">在 [方案總管] 中，按兩下**manifest.xsf**。</span><span class="sxs-lookup"><span data-stu-id="80d23-116">In the Solution Explorer, double click the **manifest.xsf**.</span></span> <span data-ttu-id="80d23-117">它會開啟 InfoPath 表單將需要花一些時間才能取得開啟的設計檔案。</span><span class="sxs-lookup"><span data-stu-id="80d23-117">It will open the design file of the InfoPath form which will take some time to get opened.</span></span>  
   
     > [!NOTE]
-    >  <span data-ttu-id="0853e-118">MX 訊息 manifest.xsf 可能需要取得開啟 2-5 分鐘。</span><span class="sxs-lookup"><span data-stu-id="0853e-118">The MX messages manifest.xsf might take 2-5 minutes to get opened.</span></span>  
+    >  <span data-ttu-id="80d23-118">MX 訊息 manifest.xsf 可能需要取得開啟 2-5 分鐘。</span><span class="sxs-lookup"><span data-stu-id="80d23-118">The MX messages manifest.xsf might take 2-5 minutes to get opened.</span></span>  
   
-8.  <span data-ttu-id="0853e-119">在 manifest.xsf，移至**工具]-> [表單選項-> 安全性和信任**功能表選項。</span><span class="sxs-lookup"><span data-stu-id="0853e-119">In the manifest.xsf, go to **Tools ->Form Options-> Security and Trust** menu option.</span></span> <span data-ttu-id="0853e-120">請檢查**完全信任**選項必須啟用權限。</span><span class="sxs-lookup"><span data-stu-id="0853e-120">Check the **Full Trust** option must be enabled for the permission.</span></span>  
+8.  <span data-ttu-id="80d23-119">在 manifest.xsf，移至**工具]-> [表單選項-> 安全性和信任**功能表選項。</span><span class="sxs-lookup"><span data-stu-id="80d23-119">In the manifest.xsf, go to **Tools ->Form Options-> Security and Trust** menu option.</span></span> <span data-ttu-id="80d23-120">請檢查**完全信任**選項必須啟用權限。</span><span class="sxs-lookup"><span data-stu-id="80d23-120">Check the **Full Trust** option must be enabled for the permission.</span></span>  
   
-9. <span data-ttu-id="0853e-121">選取**簽署此表單範本**核取方塊。</span><span class="sxs-lookup"><span data-stu-id="0853e-121">Select the **Sign this form Template** checkbox.</span></span> <span data-ttu-id="0853e-122">按一下**選取憑證**。</span><span class="sxs-lookup"><span data-stu-id="0853e-122">Click **Select certificate**.</span></span> <span data-ttu-id="0853e-123">在這個中，選取您要登入表單的憑證。</span><span class="sxs-lookup"><span data-stu-id="0853e-123">In this, select the certificate with which you want to sign the form.</span></span> <span data-ttu-id="0853e-124">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="0853e-124">Click **OK**.</span></span>  
+9. <span data-ttu-id="80d23-121">選取**簽署此表單範本**核取方塊。</span><span class="sxs-lookup"><span data-stu-id="80d23-121">Select the **Sign this form Template** checkbox.</span></span> <span data-ttu-id="80d23-122">按一下**選取憑證**。</span><span class="sxs-lookup"><span data-stu-id="80d23-122">Click **Select certificate**.</span></span> <span data-ttu-id="80d23-123">在這個中，選取您要登入表單的憑證。</span><span class="sxs-lookup"><span data-stu-id="80d23-123">In this, select the certificate with which you want to sign the form.</span></span> <span data-ttu-id="80d23-124">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="80d23-124">Click **OK**.</span></span>  
   
-10. <span data-ttu-id="0853e-125">儲存**manifest.xsf**。</span><span class="sxs-lookup"><span data-stu-id="0853e-125">Save **manifest.xsf**.</span></span>  
+10. <span data-ttu-id="80d23-125">儲存**manifest.xsf**。</span><span class="sxs-lookup"><span data-stu-id="80d23-125">Save **manifest.xsf**.</span></span>  
   
-11. <span data-ttu-id="0853e-126">移至**檢視]-> [設計工作**。</span><span class="sxs-lookup"><span data-stu-id="0853e-126">Go to **View -> Design Tasks**.</span></span> <span data-ttu-id="0853e-127">在設計工作] 窗格中，按一下 [**發佈表單範本**選項。</span><span class="sxs-lookup"><span data-stu-id="0853e-127">On the Design Tasks pane, click **Publish Form Template** option.</span></span>  
+11. <span data-ttu-id="80d23-126">移至**檢視]-> [設計工作**。</span><span class="sxs-lookup"><span data-stu-id="80d23-126">Go to **View -> Design Tasks**.</span></span> <span data-ttu-id="80d23-127">在設計工作] 窗格中，按一下 [**發佈表單範本**選項。</span><span class="sxs-lookup"><span data-stu-id="80d23-127">On the Design Tasks pane, click **Publish Form Template** option.</span></span>  
   
-12. <span data-ttu-id="0853e-128">在 [發行精靈] 視窗中，選取**至某個網路位置**按一下**下一步**。</span><span class="sxs-lookup"><span data-stu-id="0853e-128">In the publishing wizard window, select **To a network location** and click **Next**.</span></span>  
+12. <span data-ttu-id="80d23-128">在 [發行精靈] 視窗中，選取**至某個網路位置**按一下**下一步**。</span><span class="sxs-lookup"><span data-stu-id="80d23-128">In the publishing wizard window, select **To a network location** and click **Next**.</span></span>  
   
-13. <span data-ttu-id="0853e-129">在 表單範本路徑和檔案名稱 文字方塊中輸入**http://localhost/sites/BASSite/Templates/\<MessageType >.xsn**和型別 **\<MessageType >**格式範本名稱 文字方塊中，按一下**下一步**。</span><span class="sxs-lookup"><span data-stu-id="0853e-129">In the Form template path and file name textbox, type **http://localhost/sites/BASSite/Templates/\<MessageType>.xsn** and type **\<MessageType>** in the Form Template name textbox and click **Next**.</span></span>  
+13. <span data-ttu-id="80d23-129">在 [表單範本路徑和檔案名稱] 文字方塊中輸入**http://localhost/sites/BASSite/Templates/\<MessageType\>.xsn**和型別 **\<MessageType\>**表單範本中將文字方塊中，按一下**下一步**。</span><span class="sxs-lookup"><span data-stu-id="80d23-129">In the Form template path and file name textbox, type **http://localhost/sites/BASSite/Templates/\<MessageType\>.xsn** and type **\<MessageType\>** in the Form Template name textbox and click **Next**.</span></span>  
   
-14. <span data-ttu-id="0853e-130">按一下 **[下一步]**。</span><span class="sxs-lookup"><span data-stu-id="0853e-130">Click **Next**.</span></span>  
+14. <span data-ttu-id="80d23-130">按一下 **[下一步]**。</span><span class="sxs-lookup"><span data-stu-id="80d23-130">Click **Next**.</span></span>  
   
-15. <span data-ttu-id="0853e-131">按一下**發行並關閉**。</span><span class="sxs-lookup"><span data-stu-id="0853e-131">Click **Publish and close**.</span></span>  
+15. <span data-ttu-id="80d23-131">按一下**發行並關閉**。</span><span class="sxs-lookup"><span data-stu-id="80d23-131">Click **Publish and close**.</span></span>  
   
-16. <span data-ttu-id="0853e-132">在 Internet Explorer 中，開啟您的 SharePoint 網站**http://localhost/sites/bassite/templates**。</span><span class="sxs-lookup"><span data-stu-id="0853e-132">In the Internet Explorer, open your SharePoint site **http://localhost/sites/bassite/templates**.</span></span>  
+16. <span data-ttu-id="80d23-132">在 Internet Explorer 中，開啟您的 SharePoint 網站**http://localhost/sites/bassite/templates**。</span><span class="sxs-lookup"><span data-stu-id="80d23-132">In the Internet Explorer, open your SharePoint site **http://localhost/sites/bassite/templates**.</span></span>  
   
-17. <span data-ttu-id="0853e-133">指向 **\<MessageType >**，按一下它，旁邊的向下箭頭，然後按一下**編輯內容**。</span><span class="sxs-lookup"><span data-stu-id="0853e-133">Point to **\<MessageType>**, click the down arrow next to it, and then click **Edit Properties**.</span></span>  
+17. <span data-ttu-id="80d23-133">指向 **\<MessageType\>**，按一下它，旁邊的向下箭頭，然後按一下**編輯內容**。</span><span class="sxs-lookup"><span data-stu-id="80d23-133">Point to **\<MessageType\>**, click the down arrow next to it, and then click **Edit Properties**.</span></span>  
   
-18. <span data-ttu-id="0853e-134">在範本：\< MessageType > 視窗中的，命名空間中：</span><span class="sxs-lookup"><span data-stu-id="0853e-134">In the Templates:\< MessageType> window, in the Namespace box:</span></span>  
+18. <span data-ttu-id="80d23-134">在範本：\< MessageType\>視窗中的，命名空間中：</span><span class="sxs-lookup"><span data-stu-id="80d23-134">In the Templates:\< MessageType\> window, in the Namespace box:</span></span>  
   
-    -   <span data-ttu-id="0853e-135">如果您正在產生 MT InfoPath 表單，請輸入： **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMTxxx**</span><span class="sxs-lookup"><span data-stu-id="0853e-135">If you are generating MT InfoPath forms, type: **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMTxxx**</span></span>  
+    -   <span data-ttu-id="80d23-135">如果您正在產生 MT InfoPath 表單，請輸入： **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMTxxx**</span><span class="sxs-lookup"><span data-stu-id="80d23-135">If you are generating MT InfoPath forms, type: **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMTxxx**</span></span>  
   
-    -   <span data-ttu-id="0853e-136">如果您正在產生 MX InfoPath 表單，請輸入： **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMX _\<MessageName >**</span><span class="sxs-lookup"><span data-stu-id="0853e-136">If you are generating MX InfoPath forms, type: **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMX_\<MessageName>**</span></span>  
+    -   <span data-ttu-id="80d23-136">如果您正在產生 MX InfoPath 表單，請輸入： **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMX _\<MessageName\>**</span><span class="sxs-lookup"><span data-stu-id="80d23-136">If you are generating MX InfoPath forms, type: **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMX_\<MessageName\>**</span></span>  
   
-         <span data-ttu-id="0853e-137">這有助於識別訊息執行個體與對應的範本。</span><span class="sxs-lookup"><span data-stu-id="0853e-137">This will help in identifying the message instance with the corresponding template.</span></span>  
+         <span data-ttu-id="80d23-137">這有助於識別訊息執行個體與對應的範本。</span><span class="sxs-lookup"><span data-stu-id="80d23-137">This will help in identifying the message instance with the corresponding template.</span></span>  
   
-19. <span data-ttu-id="0853e-138">按一下**儲存並關閉**。</span><span class="sxs-lookup"><span data-stu-id="0853e-138">Click **Save and Close**.</span></span>
+19. <span data-ttu-id="80d23-138">按一下**儲存並關閉**。</span><span class="sxs-lookup"><span data-stu-id="80d23-138">Click **Save and Close**.</span></span>

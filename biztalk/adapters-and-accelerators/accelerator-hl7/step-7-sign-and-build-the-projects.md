@@ -16,32 +16,32 @@ caps.latest.revision: "6"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 70f77e536da4eb6589823529644e0c4ab7c95cfa
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f62a37da291bdc148369a28149cdfe29ed7fe446
+ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 11/28/2017
 ---
-# <a name="step-7-sign-and-build-the-projects"></a><span data-ttu-id="9c9fd-102">步驟 7： 簽署和建置的專案</span><span class="sxs-lookup"><span data-stu-id="9c9fd-102">Step 7: Sign and Build the Projects</span></span>
-<span data-ttu-id="9c9fd-103">在此步驟中，您指派強式名稱，並建置專案來產生組件，其中包含您在中建立的資源 （結構描述）[步驟 6： 驗證結構描述](../../adapters-and-accelerators/accelerator-hl7/step-6-validate-the-schemas.md)。</span><span class="sxs-lookup"><span data-stu-id="9c9fd-103">In this step, you assign a strong name and build the project to generate an assembly that contains the resources (the schema) that you created in [Step 6: Validate the Schemas](../../adapters-and-accelerators/accelerator-hl7/step-6-validate-the-schemas.md).</span></span> <span data-ttu-id="9c9fd-104">這也可確保您到目前為止完成的工作中沒有編譯錯誤。</span><span class="sxs-lookup"><span data-stu-id="9c9fd-104">This also ensures that there are no compile errors in the work you have completed so far.</span></span>  
+# <a name="step-7-sign-and-build-the-projects"></a><span data-ttu-id="7cf44-102">步驟 7： 簽署和建置的專案</span><span class="sxs-lookup"><span data-stu-id="7cf44-102">Step 7: Sign and Build the Projects</span></span>
+<span data-ttu-id="7cf44-103">在此步驟中，您指派強式名稱，並建置專案來產生組件，其中包含您在中建立的資源 （結構描述）[步驟 6： 驗證結構描述](../../adapters-and-accelerators/accelerator-hl7/step-6-validate-the-schemas.md)。</span><span class="sxs-lookup"><span data-stu-id="7cf44-103">In this step, you assign a strong name and build the project to generate an assembly that contains the resources (the schema) that you created in [Step 6: Validate the Schemas](../../adapters-and-accelerators/accelerator-hl7/step-6-validate-the-schemas.md).</span></span> <span data-ttu-id="7cf44-104">這也可確保您到目前為止完成的工作中沒有編譯錯誤。</span><span class="sxs-lookup"><span data-stu-id="7cf44-104">This also ensures that there are no compile errors in the work you have completed so far.</span></span>  
   
-### <a name="to-sign-the-btahl7-project"></a><span data-ttu-id="9c9fd-105">BTAHL7 專案簽章</span><span class="sxs-lookup"><span data-stu-id="9c9fd-105">To sign the BTAHL7 Project</span></span>  
+### <a name="to-sign-the-btahl7-project"></a><span data-ttu-id="7cf44-105">BTAHL7 專案簽章</span><span class="sxs-lookup"><span data-stu-id="7cf44-105">To sign the BTAHL7 Project</span></span>  
   
-1.  <span data-ttu-id="9c9fd-106">在 方案總管 中，以滑鼠右鍵按一下**BTAHL7 專案**，然後按一下 **屬性**。</span><span class="sxs-lookup"><span data-stu-id="9c9fd-106">In Solution Explorer, right-click **BTAHL7 Project**, and then click **Properties**.</span></span>  
+1.  <span data-ttu-id="7cf44-106">在 方案總管 中，以滑鼠右鍵按一下**BTAHL7 專案**，然後按一下 **屬性**。</span><span class="sxs-lookup"><span data-stu-id="7cf44-106">In Solution Explorer, right-click **BTAHL7 Project**, and then click **Properties**.</span></span>  
   
-2.  <span data-ttu-id="9c9fd-107">在 [BTAHL7 專案屬性頁] 對話方塊中，按一下**組件**。</span><span class="sxs-lookup"><span data-stu-id="9c9fd-107">In the BTAHL7 Project Property Pages dialog box, click **Assembly**.</span></span>  
+2.  <span data-ttu-id="7cf44-107">在 [BTAHL7 專案屬性頁] 對話方塊中，按一下**組件**。</span><span class="sxs-lookup"><span data-stu-id="7cf44-107">In the BTAHL7 Project Property Pages dialog box, click **Assembly**.</span></span>  
   
-3.  <span data-ttu-id="9c9fd-108">在右窗格中，向下捲動至**強式名稱**區段中，按一下右邊的欄位**組件金鑰檔案**，然後按一下省略符號 （...） 按鈕。</span><span class="sxs-lookup"><span data-stu-id="9c9fd-108">In the right pane, scroll down to the **Strong name** section, click the field to the right of **Assembly Key File**, and then click the ellipsis (…) button.</span></span>  
+3.  <span data-ttu-id="7cf44-108">在右窗格中，向下捲動至**強式名稱**區段中，按一下右邊的欄位**組件金鑰檔案**，然後按一下省略符號 （...） 按鈕。</span><span class="sxs-lookup"><span data-stu-id="7cf44-108">In the right pane, scroll down to the **Strong name** section, click the field to the right of **Assembly Key File**, and then click the ellipsis (…) button.</span></span>  
   
-4.  <span data-ttu-id="9c9fd-109">在 [組件金鑰檔案] 對話方塊中，瀏覽至  **\<*磁碟機*>: \Tutorial\BTAHL7V22Common\key.snk** (在中建立[步驟 3： 指派強式名稱組件](../../adapters-and-accelerators/accelerator-hl7/step-3-assign-a-strong-name-to-the-assembly.md))，然後按一下 **開啟**。</span><span class="sxs-lookup"><span data-stu-id="9c9fd-109">In the Assembly Key File dialog box, browse to **\<*drive*>:\Tutorial\BTAHL7V22Common\key.snk** (as created in [Step 3: Assign a Strong Name to the Assembly](../../adapters-and-accelerators/accelerator-hl7/step-3-assign-a-strong-name-to-the-assembly.md)), and then click **Open**.</span></span>  
+4.  <span data-ttu-id="7cf44-109">在 [組件金鑰檔案] 對話方塊中，瀏覽至  **\<*磁碟機*\>: \Tutorial\BTAHL7V22Common\key.snk** (在中建立[步驟 3： 指派強式名稱組件](../../adapters-and-accelerators/accelerator-hl7/step-3-assign-a-strong-name-to-the-assembly.md))，然後按一下 **開啟**。</span><span class="sxs-lookup"><span data-stu-id="7cf44-109">In the Assembly Key File dialog box, browse to **\<*drive*\>:\Tutorial\BTAHL7V22Common\key.snk** (as created in [Step 3: Assign a Strong Name to the Assembly](../../adapters-and-accelerators/accelerator-hl7/step-3-assign-a-strong-name-to-the-assembly.md)), and then click **Open**.</span></span>  
   
-5.  <span data-ttu-id="9c9fd-110">按一下**確定**以儲存變更。</span><span class="sxs-lookup"><span data-stu-id="9c9fd-110">Click **OK** to save changes.</span></span>  
+5.  <span data-ttu-id="7cf44-110">按一下**確定**以儲存變更。</span><span class="sxs-lookup"><span data-stu-id="7cf44-110">Click **OK** to save changes.</span></span>  
   
-### <a name="to-build-the-btahl7-project"></a><span data-ttu-id="9c9fd-111">若要建置 BTAHL7 專案</span><span class="sxs-lookup"><span data-stu-id="9c9fd-111">To build the BTAHL7 Project</span></span>  
+### <a name="to-build-the-btahl7-project"></a><span data-ttu-id="7cf44-111">若要建置 BTAHL7 專案</span><span class="sxs-lookup"><span data-stu-id="7cf44-111">To build the BTAHL7 Project</span></span>  
   
--   <span data-ttu-id="9c9fd-112">在 方案總管 中，以滑鼠右鍵按一下**BTAHL7 專案**，然後按一下 **部署**。</span><span class="sxs-lookup"><span data-stu-id="9c9fd-112">In Solution Explorer, right-click **BTAHL7 Project**, and then click **Deploy**.</span></span> [!INCLUDE[btsVStudio2008](../../includes/btsvstudio2008-md.md)]<span data-ttu-id="9c9fd-113">會編譯成 DLL 檔案的組件，並將儲存在\<*磁碟機*>: \Tutorial\BTAHL7V22Common\Bin\Development 資料夾。</span><span class="sxs-lookup"><span data-stu-id="9c9fd-113"> compiles the assembly into a DLL file and saves it in the \<*drive*>:\Tutorial\BTAHL7V22Common\Bin\Development folder.</span></span>  
+-   <span data-ttu-id="7cf44-112">在 方案總管 中，以滑鼠右鍵按一下**BTAHL7 專案**，然後按一下 **部署**。</span><span class="sxs-lookup"><span data-stu-id="7cf44-112">In Solution Explorer, right-click **BTAHL7 Project**, and then click **Deploy**.</span></span> [!INCLUDE[btsVStudio2008](../../includes/btsvstudio2008-md.md)]<span data-ttu-id="7cf44-113">會編譯成 DLL 檔案的組件，並將儲存在\<*磁碟機*\>: \Tutorial\BTAHL7V22Common\Bin\Development 資料夾。</span><span class="sxs-lookup"><span data-stu-id="7cf44-113"> compiles the assembly into a DLL file and saves it in the \<*drive*\>:\Tutorial\BTAHL7V22Common\Bin\Development folder.</span></span>  
   
- <span data-ttu-id="9c9fd-114">若要繼續[步驟 8： 使用 BizTalk 對應工具建立對應](../../adapters-and-accelerators/accelerator-hl7/step-8-create-a-map-with-biztalk-mapper.md)。</span><span class="sxs-lookup"><span data-stu-id="9c9fd-114">Proceed to [Step 8: Create a Map with BizTalk Mapper](../../adapters-and-accelerators/accelerator-hl7/step-8-create-a-map-with-biztalk-mapper.md).</span></span>  
+ <span data-ttu-id="7cf44-114">若要繼續[步驟 8： 使用 BizTalk 對應工具建立對應](../../adapters-and-accelerators/accelerator-hl7/step-8-create-a-map-with-biztalk-mapper.md)。</span><span class="sxs-lookup"><span data-stu-id="7cf44-114">Proceed to [Step 8: Create a Map with BizTalk Mapper](../../adapters-and-accelerators/accelerator-hl7/step-8-create-a-map-with-biztalk-mapper.md).</span></span>  
   
-## <a name="see-also"></a><span data-ttu-id="9c9fd-115">另請參閱</span><span class="sxs-lookup"><span data-stu-id="9c9fd-115">See Also</span></span>  
- [<span data-ttu-id="9c9fd-116">訊息擴充教學課程</span><span class="sxs-lookup"><span data-stu-id="9c9fd-116">Message Enrichment Tutorial</span></span>](../../adapters-and-accelerators/accelerator-hl7/message-enrichment-tutorial.md)
+## <a name="see-also"></a><span data-ttu-id="7cf44-115">請參閱</span><span class="sxs-lookup"><span data-stu-id="7cf44-115">See Also</span></span>  
+ [<span data-ttu-id="7cf44-116">訊息擴充教學課程</span><span class="sxs-lookup"><span data-stu-id="7cf44-116">Message Enrichment Tutorial</span></span>](../../adapters-and-accelerators/accelerator-hl7/message-enrichment-tutorial.md)
