@@ -1,65 +1,53 @@
 ---
-title: "如何設定傳送埠的追蹤 |Microsoft 文件"
+title: "啟用 [追蹤傳送埠] |Microsoft 文件"
+description: "開啟訊息內文追蹤，並在 BizTalk Server 中的傳送埠上追蹤訊息屬性"
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 12/13/2017
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- configuring, send ports
-- configuring, tracking
-- tracking, send ports
-- configuring [HAT tracking], send ports
-- send ports, tracking
-- managing [send ports], configuring
-- tracking, configuring
-- send ports, configuring
-- managing [send ports], tracking
-- HAT, send ports
 ms.assetid: f32e97b0-244c-4acc-8f3f-b18cdb9ec0da
 caps.latest.revision: "21"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 60ba83b7d3451599a0422ec370fed41eeba94407
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 223c417769086cc71f501b044410bf2d3e4cbc74
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 12/13/2017
 ---
-# <a name="how-to-configure-tracking-for-a-send-port"></a>如何設定傳送埠的追蹤
-本主題描述如何使用[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台來設定追蹤傳送埠，例如選項，以檢視訊息內文和升級屬性。 這可以協助您監控 BizTalk 實作的狀況並找出任何瓶頸。 您設定的追蹤設定適用於傳送埠的所有執行個體。  
+# <a name="configure-send-port-tracking-in-biztalk-server"></a>在 BizTalk Server 中設定傳送埠的追蹤
+使用[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台來設定追蹤傳送埠，例如選項，以檢視訊息內文和升級屬性。 這可以協助您監控 BizTalk 實作的狀況並找出任何瓶頸。 您設定的追蹤設定適用於傳送埠的所有執行個體。  
   
  如需有關追蹤功能的訊息事件和服務執行個體[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，請參閱[檢視追蹤的訊息和執行個體資料](../core/viewing-tracked-message-and-instance-data.md)  
   
-## <a name="prerequisites"></a>必要條件  
- 若要執行這個主題中的程序，您必須使用「[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 系統管理員」群組成員的帳戶登入。 如需詳細的權限的相關資訊，請參閱[部署及管理 BizTalk 應用程式所需的權限](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md)。  
+## <a name="prerequisites"></a>Prerequisites  
+使用成員的帳戶登入[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]Administrators 群組。 如需詳細的權限的相關資訊，請參閱[部署及管理 BizTalk 應用程式所需的權限](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md)。  
   
-### <a name="to-configure-tracking-for-a-send-port"></a>設定傳送埠的追蹤  
+## <a name="enable-tracking-on-a-send-port"></a>啟用 [追蹤] 傳送埠  
   
-1.  按一下**啟動**，按一下 **程式**，按一下  [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]，然後按一下  **BizTalk Server 管理**。  
+1.  在**BizTalk Server 管理**、 依序展開 [BizTalk 群組] 和您傳送埠的 BizTalk 應用程式。  
   
-2.  在主控台樹狀結構中，展開您要為傳送埠設定追蹤的 BizTalk 群組與 BizTalk 應用程式。  
-  
-3.  按一下**傳送埠**，以滑鼠右鍵按一下傳送埠，按一下**屬性**，然後按一下 **追蹤**。  
+2.  選取**傳送埠**、 以滑鼠右鍵按一下傳送埠、 選取**屬性**，然後選取**追蹤**。  
   
     > [!NOTE]
-    >  一個傳送埠只能與一個傳送管線相關聯。 如果停用傳送管線上的訊息內文追蹤，則也不會對傳送埠進行任何追蹤。 在這類情況下，您可以停用該傳送埠上的「追蹤」選項。  
+    >  一個傳送埠只能與一個傳送管線相關聯。 訊息內文追蹤已停用在傳送管線，不會追蹤在傳送埠。 在這類情況下，您可以停用該傳送埠上的「追蹤」選項。  
   
-4.  下表中所述，設定您要的追蹤選項，然後按一下**確定**。  
+3.  使用下列詳細資料，若要啟用的追蹤選項，然後再選取**確定**以儲存變更。  
   
-    |使用|動作|  
+    |使用|以進行此動作|  
     |--------------|----------------|  
-    |**追蹤訊息內文-連接埠處理前要求訊息**|選取此核取方塊，可讓您在收到訊息之前儲存和追蹤訊息內容。 **注意：**您必須啟用訊息內文管線追蹤，才能成功追蹤連接埠處理前的回應訊息。|  
-    |**追蹤訊息內文-連接埠處理後要求訊息**|選取此核取方塊，可讓您在收到訊息之後儲存和追蹤訊息內容。|  
-    |||  
-    |||  
-    |**追蹤訊息屬性-連接埠處理前要求訊息**|選取此核取方塊，可追蹤輸入訊息的升級屬性。|  
-    |**追蹤訊息屬性-連接埠處理後要求訊息**|若您想要追蹤輸出訊息的升級屬性，請選取此核取方塊。|  
-    |||  
-    |||  
+    |**追蹤訊息內文-連接埠處理前要求訊息**|儲存和追蹤訊息內容，才能接收訊息。 <br/><br/> **請注意**： 請務必啟用訊息內文管線追蹤，才能成功追蹤連接埠處理前的回應訊息。|  
+    |**追蹤訊息內文-連接埠處理後要求訊息**|儲存並收到訊息之後，追蹤訊息內容。|  
+    |**追蹤訊息內文-連接埠處理前回應訊息**|儲存並傳送訊息之前，追蹤訊息內容。 只適用於請求-回應傳送埠。|    
+    |**追蹤訊息內文-連接埠處理後回應訊息**|儲存並傳送訊息之後，追蹤訊息內容。 只適用於請求-回應傳送埠。|  
+    |**追蹤訊息內文-連接埠處理後回應訊息**|追蹤輸入訊息的升級屬性。|  
+    |**追蹤訊息屬性-連接埠處理後要求訊息**|追蹤輸出訊息的升級屬性。|  
+    |**追蹤訊息屬性-連接埠處理前回應訊息**|儲存並傳送訊息之前，會追蹤訊息屬性。 只適用於請求-回應傳送埠。|   
+    |**追蹤訊息屬性-連接埠處理後回應訊息**|儲存並傳送訊息之後，會追蹤屬性。 只適用於請求-回應傳送埠。|   
   
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>請參閱  
  [建立和設定傳送埠](../core/creating-and-configuring-send-ports.md)
