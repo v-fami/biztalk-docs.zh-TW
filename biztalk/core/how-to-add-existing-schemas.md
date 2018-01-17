@@ -13,23 +13,23 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: b6ba8f76bd0f306c23ce270217ac3b2aca8b9ccc
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
-# <a name="how-to-add-existing-schemas"></a><span data-ttu-id="4e2e0-102">如何新增現有的結構描述</span><span class="sxs-lookup"><span data-stu-id="4e2e0-102">How to Add Existing Schemas</span></span>
-<span data-ttu-id="4e2e0-103">有時候，您會想在現有的 BizTalk 專案中新增現有的結構描述。</span><span class="sxs-lookup"><span data-stu-id="4e2e0-103">Sometimes you will want to add an existing schema to an existing BizTalk project.</span></span> <span data-ttu-id="4e2e0-104">本主題描述必要的步驟。</span><span class="sxs-lookup"><span data-stu-id="4e2e0-104">This topic describes the required steps.</span></span>  
+# <a name="how-to-add-existing-schemas"></a><span data-ttu-id="8106a-102">如何新增現有的結構描述</span><span class="sxs-lookup"><span data-stu-id="8106a-102">How to Add Existing Schemas</span></span>
+<span data-ttu-id="8106a-103">有時候，您會想在現有的 BizTalk 專案中新增現有的結構描述。</span><span class="sxs-lookup"><span data-stu-id="8106a-103">Sometimes you will want to add an existing schema to an existing BizTalk project.</span></span> <span data-ttu-id="8106a-104">本主題描述必要的步驟。</span><span class="sxs-lookup"><span data-stu-id="8106a-104">This topic describes the required steps.</span></span>  
   
-### <a name="to-add-an-existing-schema"></a><span data-ttu-id="4e2e0-105">新增現有的結構描述</span><span class="sxs-lookup"><span data-stu-id="4e2e0-105">To add an existing schema</span></span>  
+### <a name="to-add-an-existing-schema"></a><span data-ttu-id="8106a-105">新增現有的結構描述</span><span class="sxs-lookup"><span data-stu-id="8106a-105">To add an existing schema</span></span>  
   
-1.  <span data-ttu-id="4e2e0-106">在**方案總管 中**，選取您要加入現有的結構描述的 BizTalk 專案。</span><span class="sxs-lookup"><span data-stu-id="4e2e0-106">In **Solution Explorer**, select the BizTalk project to which you want to add an existing schema.</span></span>  
+1.  <span data-ttu-id="8106a-106">在 **方案總管 中**, ，選取您要加入現有的結構描述的 BizTalk 專案。</span><span class="sxs-lookup"><span data-stu-id="8106a-106">In **Solution Explorer**, select the BizTalk project to which you want to add an existing schema.</span></span>  
   
-2.  <span data-ttu-id="4e2e0-107">在 [專案] 功能表上，按一下 [新增現有項目]。</span><span class="sxs-lookup"><span data-stu-id="4e2e0-107">On the **Project** menu, click **Add Existing Item**.</span></span>  
+2.  <span data-ttu-id="8106a-107">在 [專案] 功能表上，按一下 [新增現有項目]。</span><span class="sxs-lookup"><span data-stu-id="8106a-107">On the **Project** menu, click **Add Existing Item**.</span></span>  
   
-3.  <span data-ttu-id="4e2e0-108">在**加入現有項目- \<* BizTalk ProjectName*\>* * 對話方塊中，瀏覽至結構描述的位置、 選取結構描述，然後按一下**開啟**.</span><span class="sxs-lookup"><span data-stu-id="4e2e0-108">In the **Add Existing Item - \<*BizTalk ProjectName*\>** dialog box, browse to the location of the schema, select the schema, and then click **Open**.</span></span>  
+3.  <span data-ttu-id="8106a-108">在**加入現有項目- \< *BizTalk ProjectName* \>** 對話方塊中，瀏覽至結構描述的位置、 選取結構描述，然後按一下**開啟**.</span><span class="sxs-lookup"><span data-stu-id="8106a-108">In the **Add Existing Item - \<*BizTalk ProjectName*\>** dialog box, browse to the location of the schema, select the schema, and then click **Open**.</span></span>  
   
-     <span data-ttu-id="4e2e0-109">現有的結構描述就會新增至 BizTalk 專案，但不會在 [BizTalk 編輯器] 中自動開啟。</span><span class="sxs-lookup"><span data-stu-id="4e2e0-109">The existing schema is added to the BizTalk project but is not automatically opened in BizTalk Editor.</span></span>  
+     <span data-ttu-id="8106a-109">現有的結構描述就會新增至 BizTalk 專案，但不會在 [BizTalk 編輯器] 中自動開啟。</span><span class="sxs-lookup"><span data-stu-id="8106a-109">The existing schema is added to the BizTalk project but is not automatically opened in BizTalk Editor.</span></span>  
   
-## <a name="see-also"></a><span data-ttu-id="4e2e0-110">請參閱</span><span class="sxs-lookup"><span data-stu-id="4e2e0-110">See Also</span></span>  
- [<span data-ttu-id="4e2e0-111">管理專案中的結構描述</span><span class="sxs-lookup"><span data-stu-id="4e2e0-111">Managing Schemas Within Projects</span></span>](../core/managing-schemas-within-projects.md)
+## <a name="see-also"></a><span data-ttu-id="8106a-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="8106a-110">See Also</span></span>  
+ [<span data-ttu-id="8106a-111">管理專案中的結構描述</span><span class="sxs-lookup"><span data-stu-id="8106a-111">Managing Schemas Within Projects</span></span>](../core/managing-schemas-within-projects.md)
