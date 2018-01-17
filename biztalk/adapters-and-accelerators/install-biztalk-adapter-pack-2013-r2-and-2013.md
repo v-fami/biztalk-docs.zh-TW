@@ -14,10 +14,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: c8bc1ebbdaf2973f4749da6c0832d49204588b6c
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="install-biztalk-adapter-pack-2013-r2-and-2013"></a>安裝 BizTalk Adapter Pack 2013 R2 和 2013
 本文件列出的軟體需求，以及的步驟，安裝 Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] (BAP) 隨附於 BizTalk Server 2013 或[!INCLUDE[bts2013r2](../includes/bts2013r2-md.md)]。  
@@ -845,12 +845,12 @@ Siebel 配接器支援的 32 位元主控件執行個體。 它不支援在 64 �
   
 -   **在 64 位元電腦上的執行安裝程式可能會擲回錯誤存取結構描述檔案時發生**  
   
-     [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]安裝存取時擲回錯誤 **Microsoft.Adapters。*\<AdapterName\>*_schema.xml** 檔案，但配接器的安裝會繼續進行。  
+     [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]安裝存取時擲回錯誤**Microsoft.Adapters。*\<AdapterName\>*_schema.xml**檔案，但配接器的安裝會繼續進行。  
   
-     **可能的原因**  
+     **原因**  
   
      如果 32 位元和 64 位元版本的[!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]已安裝的相同電腦上，目標結構描述所用的檔案都相同。 如此一來，檔案安裝 32 位元[!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]64 位元安裝程式會嘗試存取權限時，可能是由 IIS 所使用。  
   
      **解決方式**  
   
-     手動複製 **Microsoft.Adapters。*\<AdapterName\>*_schema.xml** 檔案從`C:\Program Files\Microsoft BizTalk Adapter Pack(x64)\IIS Schemas`」 至`C:\Windows\System32\inetsrv\config\schema`。  
+     手動複製**Microsoft.Adapters。*\<AdapterName\>*_schema.xml**檔案從`C:\Program Files\Microsoft BizTalk Adapter Pack(x64)\IIS Schemas`」 至`C:\Windows\System32\inetsrv\config\schema`。  

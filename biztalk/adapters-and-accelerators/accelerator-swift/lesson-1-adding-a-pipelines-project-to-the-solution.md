@@ -16,10 +16,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: b45fb5e3ebc47bcaa27226be28618269f9da2e55
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="lesson-1-adding-a-pipelines-project-to-the-solution"></a>第 1 課： 加入方案中的管線專案
 在這一課，您將新的 BizTalk 專案 for SWIFT 管線至方案，讓您可以自訂傳送及接收管線。  
@@ -34,7 +34,7 @@ ms.lasthandoff: 11/28/2017
   
 4.  在**名稱**方塊中，輸入**SWIFTPipelines**做為專案名稱。  
   
-5.  在**方案**方塊中，選取**將加入至方案**。 在**位置** 方塊中，瀏覽以選取  **\<*磁碟機*:\>\labs\SWIFTProject** 已選取。  
+5.  在**方案**方塊中，選取**將加入至方案**。 在**位置** 方塊中，瀏覽以選取 **\<*磁碟機*:\>\labs\SWIFTProject**已選取。  
   
 6.  按一下**確定**開啟新的專案。  
   

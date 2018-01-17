@@ -14,15 +14,15 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 48a35373735102bd75d1c388da29b06d4392ba18
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="test-a-biztalk-web-service"></a>測試 BizTalk Web 服務
 
 ## <a name="overview"></a>概觀
-您不需要撰寫 Web 用戶端應用程式，就可以測試已發佈的 Web 服務。 您可以使用如 Internet Explorer 這類 Web 瀏覽器來測試已發佈的 Web 服務。 雖然您可以使用 Web 瀏覽器來存取任何已發佈的 Web 服務，但只能測試擁有包含簡單型別參數之 Web 方法的 Web 服務。 若要在 Web 瀏覽器測試 Web 方法，用於接收埠的要求和回應訊息的訊息部分只能是簡單型別，例如**System.String**或**System.Int32**。 如果任何訊息部分使用結構描述做為訊息類型，就不能使用瀏覽器測試 Web 方法。  
+您不需要撰寫 Web 用戶端應用程式，就可以測試已發佈的 Web 服務。 您可以使用如 Internet Explorer 這類 Web 瀏覽器來測試已發佈的 Web 服務。 雖然您可以使用 Web 瀏覽器來存取任何已發佈的 Web 服務，但只能測試擁有包含簡單型別參數之 Web 方法的 Web 服務。 若要在網頁瀏覽器測試 Web 方法，用於接收埠的要求和回應訊息的訊息部分只能是簡單型別，例如 **System.String** 或 **System.Int32**。 如果任何訊息部分使用結構描述做為訊息類型，就不能使用瀏覽器測試 Web 方法。  
   
  如果您要使用 HTTP-GET 或 HTTP-POST 測試已發佈的 Web 服務，則必須設定 SOAP 配接器的 BizTalk 接收位置，並修改已發佈之 Web 服務的 Web.config 檔案。  
   
@@ -72,9 +72,9 @@ ms.lasthandoff: 12/01/2017
   
 #### <a name="access-a-web-service-with-internet-explorer"></a>存取 Internet Explorer 的 Web 服務  
   
--   在 Internet Explorer 中**位址**方塊中，輸入使用的格式為 Web 服務 URL  **http://*servername*/*apppath*/ *webservicename*.asmx * *。  
+-   在 Internet Explorer 中**位址**方塊中，輸入使用的格式為 Web 服務 URL **http://*servername*/*apppath* /*webservicename*.asmx**。  
   
-    |參數|值|  
+    |매개 변수|Value|  
     |---------------|-----------|  
     |***伺服器名稱***|您已部署 XML Web Service 之伺服器的名稱。|  
     |***Apppath***|虛擬目錄的名稱和 Web 應用程式路徑。|  
@@ -86,7 +86,7 @@ ms.lasthandoff: 12/01/2017
   
 1.  存取 Web 服務描述頁面之後，按一下 Web 服務描述頁面中所列的其中一個 Web 方法。  
   
-2.  輸入 Web 方法，針對必要的參數，然後按一下**Invoke**。  
+2.  輸入 Web 方法的必要參數，然後按一下 **Invoke**。  
   
 3.  伺服器會將 XML 回應傳回瀏覽器。 如果 Web 服務的傳回資料型別是雙精度浮點數，結果可能看起來如下：  
   
@@ -97,14 +97,14 @@ ms.lasthandoff: 12/01/2017
   
 #### <a name="test-a-web-service-with-internet-explorer-using-http-get-alternate-method"></a>使用 Internet Explorer HTTP-GET （替代方法） 和測試 Web 服務  
   
-1.  在 Internet Explorer 中**位址**方塊中，輸入使用的格式為 Web 服務 URL ***http://servername/vdir/webservicename.asmx/Methodname?parameter=value***。  
+1.  在 Internet Explorer 中 **位址** 方塊中，輸入使用的格式為 Web 服務 URL ***http://servername/vdir/webservicename.asmx/Methodname?parameter=value***。  
   
-    |參數|值|  
+    |參數|Value|  
     |---------------|-----------|  
     |***伺服器名稱***|您已部署 XML Web Service 之伺服器的名稱。|  
     |***Apppath***|虛擬目錄的名稱和 Web 應用程式路徑。|  
     |***webservicename.asmx***|XML Web Service .asmx 檔案的名稱。|  
-    |***方法名稱***|XML Web Service 公開的公用方法名稱。 若將它留白，XML Web Service 的描述頁面將會出現，並列出 .asmx 檔案中可用的每個公用方法 (選擇性)|  
+    |***Methodname***|XML Web Service 公開的公用方法名稱。 若將它留白，XML Web Service 的描述頁面將會出現，並列出 .asmx 檔案中可用的每個公用方法 (選擇性)|  
     |***參數***|您的方法所需之任何參數的適當參數名稱和值。 若將它留白，XML Web Service 的描述頁面將會出現，並列出 .asmx 檔案中可用的每個公用方法 (選擇性)|  
   
     > [!NOTE]
@@ -115,5 +115,5 @@ ms.lasthandoff: 12/01/2017
     > [!NOTE]
     >  您也可以使用 HTTP-POST 來呼叫 Web 服務。 資訊及有關從網頁瀏覽器呼叫 XML Web 服務的範例，請參閱[從瀏覽器存取 XML Web Service](https://msdn.microsoft.com/library/45fez2a8.aspx)。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [測試已發佈的 Web 服務](../core/testing-published-web-services.md)

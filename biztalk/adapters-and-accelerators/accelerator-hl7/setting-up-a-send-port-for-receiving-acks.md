@@ -18,10 +18,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: df0988a9edc2af81970237aad363315a778f821b
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="setting-up-a-send-port-for-receiving-acks"></a>設定傳送埠來接收通知
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 即可單向傳送埠上接收通知 (ACK)。 當您設定新的單向傳送埠來接收相同的連接上認可時，您必須使該傳送埠為單向接收埠。  
@@ -48,7 +48,7 @@ ms.lasthandoff: 11/28/2017
   
 3.  在**傳輸** 區段中，針對**類型**，選取**MLLP**。  
   
-4.  按一下**設定**。  
+4.  按一下  **設定**。  
   
 5.  在 [MLLP 傳輸屬性] 對話方塊中，輸入連線名稱和主機 (例如， **localhost**)。  
   
@@ -58,11 +58,11 @@ ms.lasthandoff: 11/28/2017
     >  當您離開**提交接收位置**空白，BTAHL7 進入 URI 預設**TwoWayAckReceiveLocation**。 您可以確認後, 按一下**確定**步驟 6 中，依序按一下**組態**一次。 URI **TwoWayAckReceiveLocation** (127.0.0.1:65535) 輸入**提交接收位置 (URI) ACK**。  
   
     > [!NOTE]
-    >  您必須建立傳送埠以接收通知訂閱或通知中會顯示暫止狀態，因為找不到任何訂用帳戶。 要訂閱的傳送埠所接收的通知，請使用篩選器，例如 **BTS。MessageType = = \<* MessageType*\>* * 和 **BTS。ReceivePortName = = \<* ReceivePort*\>* *。 針對靜態的通知訊息類型是**StaticAck**。  
+    >  您必須建立傳送埠以接收通知訂閱或通知中會顯示暫止狀態，因為找不到任何訂用帳戶。 要訂閱的傳送埠所接收的通知，請使用篩選器，例如**BTS。MessageType = = \< *MessageType* \>** 和**BTS。ReceivePortName = = \< *ReceivePort*\>**。 針對靜態的通知訊息類型是**StaticAck**。  
   
 7.  按一下 **[確定]**。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [建立及處理通知](../../adapters-and-accelerators/accelerator-hl7/creating-and-processing-acknowledgments.md)   
  [ACK 訊息結構描述類型](../../adapters-and-accelerators/accelerator-hl7/ack-message-schema-types.md)   
  [訊息通知區段](../../adapters-and-accelerators/accelerator-hl7/message-acknowledgment-segment.md)   

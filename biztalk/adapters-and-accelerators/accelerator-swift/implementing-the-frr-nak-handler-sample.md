@@ -13,10 +13,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: a91c0303c9abdf6b1d8c434869445f3c84348935
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="implementing-the-frr-nak-handler-sample"></a>實作 FRR NAK 處理常式範例
 若要實作範例 FRR NAK 自訂處理常式，將範例專案加入至方案、 建置和部署專案、 繫結和啟動協調流程，然後停止並重新啟動[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]。  
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/28/2017
   
 4.  建置和部署 RepairSWIFTRejectedMessage.btproj 專案。  
   
-5.  在 BizTalk 總管 中，展開**BizTalk 組態資料庫**，   **\<*伺服器名稱*\>，BizTalkMgmtDb.dbo** 和**協調流程**，以滑鼠右鍵按一下**RepairSWIFTRejectedMessage.Orchestration_1**，然後按一下 **繫結**。  
+5.  在 BizTalk 總管 中，展開**BizTalk 組態資料庫**，  **\<*伺服器名稱*\>，.biztalkmgmtdb.dbo**，和**協調流程**，以滑鼠右鍵按一下**RepairSWIFTRejectedMessage.Orchestration_1**，然後按一下 **繫結**。  
   
 6.  在**連接埠繫結屬性**對話方塊中，選取您的主機，例如 [biztalkserverapplication]，，然後按一下**確定**。  
   

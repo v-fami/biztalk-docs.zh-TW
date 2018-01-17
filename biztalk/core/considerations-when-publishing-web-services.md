@@ -18,70 +18,70 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 825a16555f0b0c82282ae4d85592567d2a19c073
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="considerations-when-publishing-web-services"></a>發佈 Web 服務的考量
-本主題提供發佈 Web 服務之前應考量的資訊。  
+이 항목은 웹 서비스를 게시하기 전에 고려해야 할 정보를 제공합니다.  
   
-## <a name="publishing-schemas-and-the-include-element"></a>發佈結構描述和 include 項目  
- 有幾個案例，其中結構描述包含**包含**項目不能發行為 Web 服務。 因此當您完成 [BizTalk Web 服務發佈精靈] 時，將會發生錯誤。 這些限制包括下列各項：  
+## <a name="publishing-schemas-and-the-include-element"></a>스키마 게시 및 include 요소  
+ 有幾個案例，其中包含結構描述位置 **包括** 項目不能發行為 Web 服務。 오류는 BizTalk 웹 서비스 게시 마법사를 완료할 때 발생하며, 이러한 제한에는 다음이 포함됩니다.  
   
--   循環包含 (包含結構描述具有**包含**要包含的結構描述項目)  
+-   包含循環 (包含結構描述具有 **包括** 項目，包括結構描述)  
   
--   無法解析**schemaLocation**屬性將會產生錯誤  
+-   無法解析 **schemaLocation** 屬性會造成錯誤  
   
- 如需有關的限制包含項目，請參閱 < 包含的項目繫結支援 >，網址[http://go.microsoft.com/fwlink/?LinkId=62312](http://go.microsoft.com/fwlink/?LinkId=62312)。  
+ 如需有關的限制包含項目，請參閱 < 包含項目繫結支援 >，網址 [http://go.microsoft.com/fwlink/?LinkId=62312](http://go.microsoft.com/fwlink/?LinkId=62312)。  
   
-## <a name="publishing-schemas-and-the-import-element"></a>發佈結構描述和 import 項目  
- [BizTalk Web 服務發佈精靈] 與 .NET Framework 中包含的 XSD.exe 擁有相同的限制。 詳細資訊，請參閱 < 匯入項目繫結支援 >，網址[http://go.microsoft.com/fwlink/?LinkId=62311](http://go.microsoft.com/fwlink/?LinkId=62311)。  
+## <a name="publishing-schemas-and-the-import-element"></a>스키마 게시 및 import 요소  
+ BizTalk 웹 서비스 게시 마법사에는 .NET Framework에 포함된 XSD.exe와 같은 제한 사항이 있습니다. 詳細資訊，請參閱 < 匯入項目繫結支援 >，網址 [http://go.microsoft.com/fwlink/?LinkId=62311](http://go.microsoft.com/fwlink/?LinkId=62311)。  
   
-## <a name="publishing-schemas-and-the-redefine-element"></a>發佈結構描述和 redefine 項目  
- [BizTalk Web 服務發佈精靈] 與 .NET Framework 中包含的 XSD.exe 擁有相同的限制。 詳細資訊，請參閱 < Redefine 項目繫結支援 >，網址[http://go.microsoft.com/fwlink/?LinkId=62313](http://go.microsoft.com/fwlink/?LinkId=62313)。  
+## <a name="publishing-schemas-and-the-redefine-element"></a>스키마 게시 및 redefine 요소  
+ BizTalk 웹 서비스 게시 마법사에는 .NET Framework에 포함된 XSD.exe와 같은 제한 사항이 있습니다. 詳細資訊，請參閱 < Redefine 項目繫結支援 >，網址 [http://go.microsoft.com/fwlink/?LinkId=62313](http://go.microsoft.com/fwlink/?LinkId=62313)。  
   
-## <a name="publishing-schemas-that-specify-values-for-minoccurs-or-maxoccurs-attributes"></a>發佈指定 minOccurs 或 maxOccurs 屬性值的結構描述  
- 如果您發行的結構描述包含**minOccurs**或**maxOccurs**具有特定值的屬性，這些值可能不同於已發行的 Web 服務所公開的結構描述。 一般的基本原則是，所有 minOccurs 屬性都會轉換成 0 (minOccurs=0)，而 maxOccurs 屬性會轉換成 1 或未繫結 (maxOccurs=1 或 maxOccurs=unbounded)。  
+## <a name="publishing-schemas-that-specify-values-for-minoccurs-or-maxoccurs-attributes"></a>minOccurs 또는 maxOccurs 특성의 값을 지정하는 스키마 게시  
+ 如果您要發行的結構描述包含 **minOccurs** 或 **maxOccurs** 具有特定值的屬性，這些值可能不同於已發行的 Web 服務所公開的結構描述。 경험을 바탕으로 한 일반적 규칙으로, 모든 minOccurs 특성은 0(minOccurs=0)으로 변환되고 maxOccurs 특성은 1 또는 unbounded(maxOccurs=1 or maxOccurs=unbounded)로 변환됩니다.  
   
-## <a name="publishing-envelope-schemas"></a>發佈信封結構描述  
- 如果您有將要發佈為 Web 服務的信封結構描述，則必須手動修改產生的 Web 專案。  
+## <a name="publishing-envelope-schemas"></a>봉투(Envelope) 스키마 게시  
+ 웹 서비스로 게시 중인 봉투(Envelope) 스키마가 있으면 생성된 웹 프로젝트를 수동으로 수정해야 합니다.  
   
-#### <a name="to-modify-the-generated-web-project-for-envelope-schemas"></a>若要針對信封結構描述修改所產生的 Web 專案  
+#### <a name="to-modify-the-generated-web-project-for-envelope-schemas"></a>봉투(Envelope) 스키마에 대해 생성된 웹 프로젝트를 수정하려면  
   
-1.  開啟 <`myWebService`>.asmx.cs 檔。  
+1.  <`myWebService`>.asmx.cs 파일을 엽니다.  
   
-2.  編輯檔案並且將 `bodyTypeAssemblyQualifiedName = <dll.name.version.>` 變更為 `bodyTypeAssemblyQualifiedName = null`。  
+2.  파일을 편집하여 `bodyTypeAssemblyQualifiedName = <dll.name.version.>`을 `bodyTypeAssemblyQualifiedName = null`로 변경합니다.  
   
 > [!NOTE]
->  如果先前的 .dll 檔案仍存在於 ASP.NET 背景工作處理序中，您可能需要重設 Internet Information Services (IIS)。  
+>  이전 .dll이 여전히 ASPNET 작업자 프로세스에 있는 경우 IIS(인터넷 정보 서비스)를 다시 설정해야 할 수 있습니다.  
   
-## <a name="web-service-and-web-method-attributes"></a>Web 服務和 Web 方法的屬性  
- [BizTalk Web 服務發佈精靈] 不允許您自訂 ASP.NET 中使用的 Web 服務或 Web 方法的屬性。 某些屬性會根據精靈提供的資訊自動設定。 精靈不會使用其他屬性。  
+## <a name="web-service-and-web-method-attributes"></a>웹 서비스 및 웹 메서드 특성  
+ [BizTalk Web 服務發佈精靈] 不允許您自訂 ASP.NET 中使用的 Web 服務或 Web 方法的屬性。 某些屬性會根據精靈提供的資訊自動設定。 나머지 특성은 마법사에서 사용되지 않습니다.  
   
- 修改現有的屬性或新增屬性至 [BizTalk Web 服務發佈精靈] 產生的 Web 服務，可能會造成 Web 服務運作不正常。  
+ 기존 특성을 수정하거나 BizTalk 웹 서비스 게시 마법사가 생성하는 웹 서비스에 새 특성을 추가하면 웹 서비스가 제대로 작동하지 않을 수 있습니다.  
   
- 如需 Web 服務和 Web 方法屬性的詳細資訊，請參閱**WebServiceAttribute**和**WebMethodAttribute** .NET Framework SDK 文件中的類別。  
+ 如需 Web 服務和 Web 方法屬性的詳細資訊，請參閱 **WebServiceAttribute** 和 **WebMethodAttribute** 的.NET Framework SDK 文件中的類別。  
   
-## <a name="web-method-required"></a>需要 Web 方法  
- Web 服務必須至少擁有一個 Web 方法。 如果沒有 Web 方法，連接埠類型將不會建立其作業。 XLANG/s 不支援未包含作業的連接埠類型。  
+## <a name="web-method-required"></a>웹 메서드 필요  
+ 웹 서비스 하나에는 적어도 하나의 웹 메서드가 필요합니다. 웹 메서드가 없으면 포트 유형이 작업을 만들지 못합니다. XLANG/s는 작업이 없는 포트 유형을 지원하지 않습니다.  
   
-## <a name="dbcs-character-support"></a>DBCS 字元支援  
- Web 服務不支援中文/日文/韓文 (CJK) Unified Ideograph Extension A 等字元。  
+## <a name="dbcs-character-support"></a>DBCS 문자 지원  
+ 웹 서비스는 CJK(중국어/일본어/한국어) 통합 표의 문자 확장 A 문자를 지원하지 않습니다.  
   
-## <a name="republishing-web-services-using-the-biztalk-web-services-publishing-wizard"></a>使用 BizTalk Web 服務發佈精靈重新發佈 Web 服務  
- 您可以使用 [BizTalk Web 服務發佈精靈] 重新發佈已發佈的 Web 服務。 在**Web * * * 服務 * * * 專案** 頁面上，您可以選取**覆寫 * * * Web * * * 服務**選項。  
+## <a name="republishing-web-services-using-the-biztalk-web-services-publishing-wizard"></a>BizTalk 웹 서비스 게시 마법사를 사용하여 웹 서비스 다시 게시  
+ BizTalk 웹 서비스 게시 마법사를 사용하여 게시된 웹 서비스를 다시 게시할 수 있습니다. 在 **Web * * * Service * * * 專案**  頁面上，您可以選取 **覆寫 * * * Web * * * 服務** 選項。  
   
- 精靈不會儲存之前使用的設定。 如果您在重新執行精靈時變更設定，任何使用 (呼叫) 已發佈服務的 Web 用戶端都可能會失敗。 您應該更新任何使用 (呼叫) 已發佈 Web 服務之用戶端的 Web 參考。  
+ 마법사는 이전에 사용한 설정을 저장하지 않습니다. 마법사를 다시 실행할 때 설정을 변경하면 게시된 웹 서비스를 소비(호출)하는 웹 클라이언트에서 오류가 발생합니다. 이를 해결하려면 다시 게시된 웹 서비스를 소비(호출)하는 클라이언트의 웹 참조를 업데이트해야 합니다.  
   
-## <a name="clients-of-published-web-services-may-not-receive-server-script-timeout-errors"></a>已發佈的 Web 服務用戶端可能無法接收伺服器指令碼逾時錯誤  
- 產生的 Web 服務發佈精靈，在 web 服務[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]設定預設的指令碼逾時值**110**秒。 這是 .NET Framework 的預設值。 **HttpServerUtility.ScriptTimeout**屬性。 使用.NET Framework 的 web 用戶端設定要求逾時值預設**100**秒。 這是.NET Framework 的預設值**HttpWebRequest.Timeout**屬性。  
+## <a name="clients-of-published-web-services-may-not-receive-server-script-timeout-errors"></a>게시된 웹 서비스의 클라이언트는 서버 스크립트 시간 제한 오류를 수신하지 않음  
+ 產生的 Web 服務發佈精靈，在 web 服務[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]設定預設的指令碼逾時值**110**秒。 .NET Framework의 기본값입니다. **HttpServerUtility.ScriptTimeout** 屬性。 使用.NET Framework 的 web 用戶端設定預設會使用要求的逾時值的 **100** 秒。 這是.NET Framework 的預設值 **HttpWebRequest.Timeout** 屬性。  
   
- 如果使用 .NET Framework 的 Web 用戶端將會呼叫以 [[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Web 服務發佈精靈] 所產生的 Web 服務，這時因為用戶端要求逾時依預設會先行發生，所以用戶端可能就無法接收到伺服器指令碼逾時錯誤。 若要解決這個問題，您可以執行下列其中一項工作：  
+ 如果使用 .NET Framework 的 Web 用戶端將會呼叫以 [[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Web 服務發佈精靈] 所產生的 Web 服務，這時因為用戶端要求逾時依預設會先行發生，所以用戶端可能就無法接收到伺服器指令碼逾時錯誤。 이 문제를 해결하려면 다음 중 하나를 수행합니다.  
   
--   用戶端要求逾時增加為大於伺服器指令碼逾時的值所增加的值**HttpWebRequest.Timeout**用戶端上的屬性。  
+-   增加用戶端要求逾時的值大於伺服器指令碼逾時的值 **HttpWebRequest.Timeout** 用戶端上的屬性。  
   
--   伺服器指令碼逾時的值減少到小於用戶端要求逾時減少可能的值**HttpServerUtility.ScriptTimeout**在伺服器上的屬性。  
+-   藉由減少的值減少為小於用戶端要求逾時的伺服器指令碼逾時值 **HttpServerUtility.ScriptTimeout** 伺服器上的屬性。  
   
 ## <a name="see-also"></a>另請參閱  
  [發佈 Web 服務](../core/publishing-web-services.md)

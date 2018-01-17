@@ -16,10 +16,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 6d341a7f03c70e1ddcd242d7804b162338798e94
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="message-repair-and-new-submission-troubleshooting"></a>訊息修復和新送出疑難排解
 ## <a name="a-repaired-message-cannot-be-submitted-if-the-envelope-schema-is-not-deployed"></a>無法送出修復的訊息，如果未部署信封結構描述  
@@ -74,7 +74,7 @@ ms.lasthandoff: 11/28/2017
   
 ##### <a name="to-change-the-login-account-for-the-web-application-that-the-a4swiftmrsr-web-service-runs-under"></a>若要變更 web 應用程式執行 A4SWIFT_MRSR web 服務的登入帳戶  
   
-1.  按一下**啟動**，指向 **所有程式**，指向 **系統管理工具**，然後按一下**網際網路資訊服務 (IIS) 管理員**.  
+1.  按一下  **啟動**, ，指向  **所有程式**, ，指向  **系統管理工具**, ，然後按一下  **網際網路資訊服務 (IIS) 管理員**。  
   
 2.  在 IIS 管理員 中，展開 ***\<伺服器名稱\>* （本機電腦）**  節點，**應用程式集區**節點和**Web站台**節點。 展開 [網站] 節點底下**Default Web Site**節點。  
   
@@ -219,5 +219,5 @@ ms.lasthandoff: 11/28/2017
 ### <a name="solution"></a>方案  
  執行**BTSharePointAdapterWSAppPool**和**DefaultAppPoolApplication** -> ，以及系統管理員帳戶的集區中 網際網路資訊 Services(IIS)。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [疑難排解：問題與解決方式](../../adapters-and-accelerators/accelerator-swift/troubleshooting-issues-and-resolutions1.md)

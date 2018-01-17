@@ -16,10 +16,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 03f7c1fa75b6fe7bb4c78e18c97fccd1404f89c9
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="how-to-delete-user-mappings"></a>如何刪除使用者對應
 使用下列命令可刪除在 XML 檔案中指定的一或多個使用者對應。 以下是 XML 檔案的範例。  
@@ -47,38 +47,38 @@ ms.lasthandoff: 11/28/2017
   
 ### <a name="to-delete-user-mappings-using-the-administration-utility"></a>使用管理公用程式刪除使用者對應  
   
-1.  在**啟動**功能表上，按一下 **執行**，然後輸入**cmd**。  
+1.  在 **啟動** ] 功能表上，按一下 [ **執行**, ，然後輸入 **cmd**。  
   
 2.  在命令列，移至「企業單一登入」安裝目錄。 預設安裝目錄是\<*磁碟機*\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-3.  型別**ssomanage – deletemappings *\<對應檔案名稱\>***，其中\<*對應檔案名稱*\>是包含您想要刪除之使用者對應的檔案名稱。  
+3.  型別 **ssomanage – deletemappings *\<對應檔案名稱\>* * *，其中\<*對應檔案名稱*\>是包含的檔案名稱您想要刪除的使用者對應。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
   
 ### <a name="to-delete-a-specific-user-mapping-using-the-administration-utility"></a>使用管理公用程式刪除特定使用者對應  
   
-1.  在**啟動**功能表上，按一下 **執行**，然後輸入**cmd**。  
+1.  在 **啟動** ] 功能表上，按一下 [ **執行**, ，然後輸入 **cmd**。  
   
 2.  在命令列，移至「企業單一登入」安裝目錄。 預設安裝目錄是*\<磁碟機*\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-3.  型別 **ssomanage-deletemapping *\<網域\>*\\*\<username\>*  *\<應用程式名稱\>***，其中*\<網域\>*是 Windows 網域使用者帳戶 *\<username\>* 是 Windows 使用者名稱和\<*應用程式名稱*\>是您想要的特定應用程式移除使用者對應。  
+3.  型別 **ssomanage-deletemapping *\<網域\>*\\*\<username\> *  *\<應用程式名稱\>* * *，其中*\<網域\>*是 Windows 網域使用者帳戶，  *\<的使用者名稱\>*是 Windows 使用者名稱和\<*應用程式名稱*\>是您要移除使用者對應的特定應用程式。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
   
 ### <a name="to-delete-a-user-mapping-using-the-client-utility"></a>使用用戶端公用程式刪除使用者對應  
   
-1.  在**啟動**功能表上，按一下 **執行**，然後輸入**cmd**。  
+1.  在 **啟動** ] 功能表上，按一下 [ **執行**, ，然後輸入 **cmd**。  
   
 2.  在命令列，移至「企業單一登入」安裝目錄。 預設安裝目錄是*\<磁碟機*\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-3.  型別**ssoclient – deletemapping *\<應用程式名稱\>***，其中*\<應用程式名稱\>*是您想要移除的使用者對應的分支機構應用程式名稱。  
+3.  型別 * * ssoclient – deletemapping *\<應用程式名稱\>* * *，其中*\<應用程式名稱\>*是您想要移除的使用者對應的分支機構應用程式的名稱。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [SSO 對應](../core/sso-mappings.md)   
  [管理分支機構應用程式](../core/managing-affiliate-applications.md)   
  [管理使用者對應](../core/managing-user-mappings.md)

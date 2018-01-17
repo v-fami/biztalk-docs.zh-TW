@@ -18,19 +18,19 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 64e4c8f15d167f5343089c11b92b0f373aa45576
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="distinguished-fields-in-disassembler-pipeline-components"></a>辨別的欄位在解譯器管線元件
 結構描述中定義的辨別欄位會由「XML 解譯器」、「BizTalk Framework 解譯器」或「一般檔案解譯器」管線元件以下列格式寫入訊息內容：  
   
- *使用名稱*是辨別的欄位 xpath  
+ *使用名稱* 是 XPath 中的辨別的欄位  
   
- *命名空間 URI*是"http://schemas.microsoft.com/BizTalk/2003/btsDistinguishedFields"  
+ *命名空間 URI* 是"http://schemas.microsoft.com/BizTalk/2003/btsDistinguishedFields"  
   
- 屬性的值是**System.String**指定 XPath 擷取自 XML 文件使用的值。  
+ 屬性的值是 **System.String** 指定 XPath 擷取自 XML 文件使用的值。  
   
  以下範例結構描述具有辨別欄位 Price。  
   
@@ -71,7 +71,7 @@ ms.lasthandoff: 09/20/2017
   
  屬性的命名空間：http://schemas.microsoft.com/BizTalk/2003/btsDistinguishedFields  
   
- 屬性的值： 10  
+ 屬性的值︰ 10  
   
 > [!NOTE]
 >  若任何 XML 文件項目值的大小超過 85KB，則處理這些文件時可能會發生效能降低的狀況。  

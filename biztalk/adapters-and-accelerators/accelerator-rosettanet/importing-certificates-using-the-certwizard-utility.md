@@ -23,10 +23,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 64be28927a49a1fc751870785ff3fc3f55a36cb1
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="importing-certificates-using-the-certwizard-utility"></a>使用 CertWizard 公用程式匯入憑證
 本主題描述如何使用 CertWizard 公用程式，逐步命令列公用程式中使用匯入憑證[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK。 此主題討論如何匯入私密、公開或根金鑰， 以及用來設定憑證的切換參數。  
@@ -37,7 +37,7 @@ ms.lasthandoff: 12/01/2017
   
 ### <a name="to-import-a-private-key"></a>匯入私密金鑰  
   
-1.  按一下**啟動**，按一下 **執行**，型別**cmd**，然後按一下**確定**。  
+1.  按一下  **啟動**, ，按一下  **執行**, ，型別 **cmd**, ，然後按一下  **確定**。  
   
 2.  在命令提示字元中，移至[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]SDK 資料夾，使用 MS-DOS **CD**命令，例如，輸入**cd C:\Program Files\Microsoft BizTalk\<版本\>Accelerator forRosettaNet\SDK** 。  
   
@@ -72,7 +72,7 @@ ms.lasthandoff: 12/01/2017
   
 ### <a name="to-import-a-public-key"></a>匯入公開金鑰  
   
-1.  按一下**啟動**，按一下 **執行**，型別**cmd**，然後按一下**確定**。  
+1.  按一下  **啟動**, ，按一下  **執行**, ，型別 **cmd**, ，然後按一下  **確定**。  
   
 2.  在命令提示字元中，移至[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]SDK 資料夾，使用 MS-DOS **CD**命令，例如，輸入**cd C:\Program Files\Microsoft BizTalk\<版本\>Accelerator forRosettaNet\SDK**。  
   
@@ -84,7 +84,7 @@ ms.lasthandoff: 12/01/2017
   
 ### <a name="to-import-a-root-key"></a>匯入根金鑰  
   
-1.  按一下**啟動**，按一下 **執行**，型別**cmd**，然後按一下**確定**。  
+1.  按一下  **啟動**, ，按一下  **執行**, ，型別 **cmd**, ，然後按一下  **確定**。  
   
 2.  在命令提示字元中，移至[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]SDK 資料夾，使用 MS-DOS **CD**命令，例如，輸入**cd C:\Program Files\Microsoft BizTalk\<版本\>Accelerator forRosettaNet\SDK**。  
   
@@ -94,6 +94,6 @@ ms.lasthandoff: 12/01/2017
   
      這個工具會將憑證匯入 [憑證 (本機電腦)]\Trusted Root Certification Authority\Certificates 存放區，並設定其組態。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [CertWizard](../../adapters-and-accelerators/accelerator-rosettanet/certwizard.md)   
  [管理憑證](../../adapters-and-accelerators/accelerator-rosettanet/managing-certificates1.md)

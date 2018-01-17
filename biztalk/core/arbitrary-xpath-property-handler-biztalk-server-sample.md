@@ -16,10 +16,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 3f2f59ce48a3d46ebf33889e31a55f9aa452fd17
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="arbitrary-xpath-property-handler-biztalk-server-sample"></a>任意 XPath 屬性處理常式 （BizTalk Server 範例）
 「任意 XPath 屬性處理常式」([!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 範例) 示範如何撰寫自訂管線元件，以針對提交給 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的 XML 文件升級特定屬性。 您可以使用範例中包含的功能來建立自訂規則、組合器和解譯器元件，以評估 XPath 運算式。  
@@ -46,7 +46,7 @@ ms.lasthandoff: 11/28/2017
   
  下表顯示此範例中的檔案，並描述其用途。  
   
-|檔案|Description|  
+|파일|Description|  
 |---------------|-----------------|  
 |ArbitraryXPathPropertyHandler.sln|自訂管線元件解決方案檔案。|  
 |ArbitraryXPathPropertyHandler.resX|資源檔。|  
@@ -82,7 +82,7 @@ ms.lasthandoff: 11/28/2017
   
 #### <a name="to-build-and-initialize-this-sample"></a>若要建置並初始化這個範例  
   
-1.  在命令視窗中，將目錄變更 (**cd**) 至下列資料夾：  
+1.  在命令視窗中，將目錄變更 (**cd**) 至下列資料夾︰  
   
      *\<範例路徑\>*\Pipelines\ArbitraryXPathPropertyHandler  
   
@@ -122,7 +122,7 @@ ms.lasthandoff: 11/28/2017
   
  任意 XPath 運算式則可以複雜如 "//element-name//*[local-name()='element-name' and position()=2]"。 事實上，如果您的結構描述在 XPath 主體或 XPath 屬性中使用非標準 XPath，便會收到執行階段錯誤，指出 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 不支援非標準 XPath 運算式。 要支援任意 XPath 運算式，解決方法是建立自訂解譯器和組合器元件，以支援任意 XPath 主體和任意 XPath 屬性運算式。  
   
- 這個範例會使用自訂管線元件中的下列一連串步驟時**IComponent.Execute**實作：  
+ 這個範例會使用自訂管線元件中的下列一連串步驟時 **IComponent.Execute** 實作︰  
   
 1.  透過輸入訊息內文部分資料流建立虛擬可搜尋資料流 (由於輸入訊息可能很大而且資料流可能無法搜尋，因此它應該只佔用少量的記憶體，而且能夠變更資料流位置)。  
   
@@ -130,7 +130,7 @@ ms.lasthandoff: 11/28/2017
   
 3.  取得輸入訊息的結構描述，或根據設計階段指定的結構描述。  
   
-4.  載入的執行個體中的資料流**System.Xml.XmlDocument**。  
+4.  載入的執行個體中的資料流 **System.Xml.XmlDocument**。  
   
 5.  逐一查看升級後的屬性和辨別欄位，再將它們升級或寫入至外寄訊息的訊息內容中。  
   
@@ -138,5 +138,5 @@ ms.lasthandoff: 11/28/2017
   
 7.  將外寄訊息寫入檔案。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [管線 (BizTalk Server Samples 資料夾)](../core/pipelines-biztalk-server-samples-folder.md)

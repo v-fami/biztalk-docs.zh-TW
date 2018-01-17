@@ -17,10 +17,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 3ce9ea850632327e257909e1c7d4b60117865e46
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="step-4-create-the-schemas"></a>步驟 4： 建立結構描述
 在此步驟中，您會建立新的專案 (**BTAHL7 專案**)，其中包含這個專案的成品： 結構描述、 對應和協調流程。 然後，您建立結構描述 (**Doorbell.xsd**) 內送的 XML 編碼訊息，然後選取現有的結構描述 (**ADT_A04_22_GLO_DEF.xsd**) 傳出 HL7 編碼訊息。 您可以使用這些結構描述來定義您在協調流程內交換訊息的結構。  
@@ -37,7 +37,7 @@ ms.lasthandoff: 11/28/2017
   
 5.  在**方案**欄位中，選取**將加入至方案**。  
   
-6.  在**位置**欄位中，確認  **\<*磁碟機*\>: \Tutorial\BTAHL7V22Common** 是的路徑。  
+6.  在**位置**欄位中，確認 **\<*磁碟機*\>: \Tutorial\BTAHL7V22Common**的路徑。  
   
 7.  按一下**確定**開啟新的專案。  
   
@@ -93,5 +93,5 @@ ms.lasthandoff: 11/28/2017
   
  若要繼續[步驟 5： 升級結構描述屬性](../../adapters-and-accelerators/accelerator-hl7/step-5-promote-schema-properties.md)。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [訊息擴充教學課程](../../adapters-and-accelerators/accelerator-hl7/message-enrichment-tutorial.md)

@@ -13,10 +13,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 2e9e799822c63cb78eda1b989cb157c71fd357d8
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="general-biztalk-server-optimizations"></a>一般 BizTalk Server 最佳化
 下列建議可以用於增加 BizTalk Server 效能。 安裝和設定 BizTalk Server 後，會套用本主題中列出的最佳化。  
@@ -98,9 +98,9 @@ ms.lasthandoff: 11/28/2017
   
  設定 maxconnection 屬性時，可以指定 HTTP、 HTTPS、 web 站台 IP 位址和連接埠號碼。 其他範例包括：  
   
- **\<新增位址 ="https://www.contoso.com"maxconnection = 「 24 」 /\>**   
-**\<新增位址 ="http://www.contoso.com:8080"maxconnection = 「 24 」 /\>**   
-**\<新增位址 ="http://*IPAddress*"maxconnection = 「 24 」 /\>* * 如需微調 IIS 和 ASP.NET Web 服務設定的詳細資訊，請參閱 < ASP.NET 設定，可能會影響 HTTP 配接器效能 > 一節[影響配接器效能的組態參數](http://go.microsoft.com/fwlink/?LinkID=154200)(http://go.microsoft.com/fwlink/?LinkID=154200) BizTalk Server 2010 說明中。  
+ **\<add address="https://www.contoso.com" maxconnection="24" /\>**   
+**\<add address="http://www.contoso.com:8080" maxconnection="24" /\>**   
+**\<新增位址 ="http://*IPAddress*"maxconnection = 「 24 」 /\>** 微調 IIS 和 ASP.NET Web 服務設定的詳細資訊，請參閱 < ASP.NET 設定，可能會影響 HTTP 配接器效能 」 一節[組態參數會影響配接器效能](http://go.microsoft.com/fwlink/?LinkID=154200)(http://go.microsoft.com/fwlink/?LinkID=154200) BizTalk Server 2010 說明中。  
   
 ## <a name="manage-aspnet-thread-usage-or-concurrently-executing-requests-for-web-applications-that-can-host--isolated-received-locations-back-end-web-services-and-wcf-services"></a>管理 ASP.NET 執行緒用法，或同時執行之要求的可裝載的 Web 應用程式隔離的接收的位置、 後端 Web 服務和 WCF 服務  
  背景工作和 I/O 執行緒 （IIS 7.5 和傳統模式中的 IIS 7.0） 或同時執行要求 （IIS 7.5 和 7.0 整合的模式） 的 ASP.NET Web 應用程式主機隔離接收的位置、 後端 Web 服務和 WCF 服務的數目的數目在下列情況下應修改：  
@@ -151,7 +151,7 @@ ms.lasthandoff: 11/28/2017
  **在登錄中設定 maxConcurrentRequestsPerCPU 值**  
   
 > [!WARNING]  
->  不正確使用登錄編輯程式可能會造成問題，需要重新安裝作業系統。 您必須自行負擔使用「登錄編輯程式」的風險。 如需如何備份、 還原和修改登錄的詳細資訊，請參閱 Microsoft 知識庫文章 256986[進階使用者的 Windows 登錄資訊](http://go.microsoft.com/fwlink/?LinkId=62729)(http://go.microsoft.com/fwlink/?LinkId=62729)。  
+>  不當使用登錄編輯程式可能會導致問題，需要重新安裝作業系統。 您必須自行負擔使用「登錄編輯程式」的風險。 如需如何備份、 還原和修改登錄的詳細資訊，請參閱 Microsoft 知識庫文章 256986[進階使用者的 Windows 登錄資訊](http://go.microsoft.com/fwlink/?LinkId=62729)(http://go.microsoft.com/fwlink/?LinkId=62729)。  
   
 > [!NOTE]  
 >  這項設定是全域設定，不能變更個別的應用程式集區或應用程式。  
@@ -196,7 +196,7 @@ ms.lasthandoff: 11/28/2017
  **在登錄中設定 maxConcurrentRequestsPerCPU 值**  
   
 > [!WARNING]  
->  不正確使用登錄編輯程式可能會造成問題，需要重新安裝作業系統。 您必須自行負擔使用「登錄編輯程式」的風險。 如需如何備份、 還原和修改登錄的詳細資訊，請參閱 Microsoft 知識庫文章 256986[進階使用者的 Windows 登錄資訊](http://go.microsoft.com/fwlink/?LinkId=62729)(http://go.microsoft.com/fwlink/?LinkId=62729)。  
+>  不當使用登錄編輯程式可能會導致問題，需要重新安裝作業系統。 您必須自行負擔使用「登錄編輯程式」的風險。 如需如何備份、 還原和修改登錄的詳細資訊，請參閱 Microsoft 知識庫文章 256986[進階使用者的 Windows 登錄資訊](http://go.microsoft.com/fwlink/?LinkId=62729)(http://go.microsoft.com/fwlink/?LinkId=62729)。  
   
 > [!NOTE]  
 >  這項設定是全域設定，不能變更個別的應用程式集區或應用程式。  
@@ -305,5 +305,5 @@ ms.lasthandoff: 11/28/2017
   
 -   [設定 EPM 執行緒集區大小](http://go.microsoft.com/fwlink/?LinkId=158020)(http://go.microsoft.com/fwlink/?LinkId=158020)  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [最佳化 BizTalk Server 效能](../technical-guides/optimizing-biztalk-server-performance.md)

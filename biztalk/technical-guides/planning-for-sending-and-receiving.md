@@ -13,10 +13,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: ca2b87964266b77629f7fa1d1156ace3cd048e7f
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="planning-for-sending-and-receiving"></a>規劃傳送和接收
 幾乎所有由處理的文件[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]收到[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]接收配接器，與寄件者[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]使用[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]傳送配接器。 因為[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]配接器，以突顯的方式圖中任何[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境中，請務必預先規劃，以判斷哪些配接器或加速器您將使用及如何正確地設定這些介面卡和/或加速器。  
@@ -152,17 +152,17 @@ ms.lasthandoff: 12/01/2017
   
  **設定訊息的排序的傳遞**  
   
- 可在下列位置設定訊息的排序傳遞：  
+ 순차적 메시지 전달은 다음 위치에서 구성할 수 있습니다.  
   
 -   在協調流程接收圖形  
   
 -   接收位置的特定介面卡  
   
--   傳送埠  
+-   송신 포트  
   
  **排序的傳遞具備現有傳輸**  
   
- 在特定傳輸之下的通訊協定，像是 FILE 和 HTTP，與排序傳遞的概念並不一致。 不過，即使具備這類傳輸，若與傳輸繫結的連接埠標示為排序的傳遞，則 BizTalk Server 會藉由保證除非已成功傳送目前的輸出訊息，否則傳輸不會取得下一個輸出訊息，以強制排序的傳遞。 若要達成此目的，BizTalk Server 會將每個訊息傳遞至傳輸的配接器，在單一批次並等待配接器已成功刪除之前訊息從 MessageBox 資料庫另一個批次中的下一個訊息，傳遞至配接器之前。  
+ FILE 및 HTTP와 같은 특정 전송에서는 순차적 전달 개념과 일치하지 않는 프로토콜을 사용합니다. 그러나 이러한 전송을 사용하는 경우에도 전송에 바인딩된 포트가 순차적 전달용으로 표시되어 있으면 BizTalk Server에서는 현재 아웃바운드 메시지가 성공적으로 송신될 때까지 다음 메시지가 전송되지 않도록 하여 순차적 전달을 적용합니다. 若要達成此目的，BizTalk Server 會將每個訊息傳遞至傳輸的配接器，在單一批次並等待配接器已成功刪除之前訊息從 MessageBox 資料庫另一個批次中的下一個訊息，傳遞至配接器之前。  
   
  **自訂配接器的排序傳遞**  
   
@@ -173,17 +173,17 @@ ms.lasthandoff: 12/01/2017
 -   如果訊息在管線中，它應該被擱置，最好是為不可繼續。 使用 BTS。SuspendAsNonResumable 訊息內容屬性中的[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]適當地加上旗標的訊息。  
   
     > [!NOTE]  
-    >  若在稍後繼續擱置的訊息，則會中斷訊息順序。 若不想使用此行為，擱置失敗的訊息為不可繼續。  
+    >  일시 중단된 메시지가 나중에 다시 시작되면 메시지 순서가 잘못될 수 있습니다. 若不想使用此行為，擱置失敗的訊息為不可繼續。  
   
  **條件的端對端排序的訊息處理**  
   
- 若要提供端對端排序的傳遞，必須符合下列條件：  
+ 종단 간 순차적 전달을 제공하려면 다음 조건을 충족해야 합니다.  
   
--   必須以保留提交訊息給 BizTalk Server 的訊息順序之配接器接收訊息。 在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中，這類配接器的範例包括 MSMQ 和 MQSeries。 此外，HTTP 或 SOAP 配接器可以用來提交訊息順序，但在此情況下 HTTP 或 SOAP 用戶端必須強制執行一次提交一個訊息的順序。  
+-   BizTalk Server로 메시지를 전송할 때 메시지 순서를 유지하는 어댑터를 사용하여 메시지를 수신해야 합니다. 在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中，這類配接器的範例包括 MSMQ 和 MQSeries。 또한 HTTP 또는 SOAP 어댑터를 사용하여 메시지를 순서대로 전송할 수도 있지만 이러한 경우 HTTP 또는 SOAP 클라이언트에서 메시지를 한 번에 하나씩 전송하여 메시지 순서를 유지해야 합니다.  
   
 -   您必須訂閱這些訊息的傳送埠**排序的傳遞**選項設定為**True**。  
   
--   如果應使用的訊息，協調流程中的單一執行個體的程序來協調流程，協調流程應該設定為使用循序群組，而**排序的傳遞**屬性協調流程的接收埠應該設定為**True**。  
+-   協調流程的訊息，協調流程中的單一執行個體應該使用的程序來協調流程，如果應該設定為使用循序群組，而 **排序的傳遞** 屬性的協調流程的接收連接埠應該設定為 **True**。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [規劃 BizTalk Server 的環境](../technical-guides/planning-the-environment-for-biztalk-server.md)

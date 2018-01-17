@@ -18,10 +18,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 3ca5a539fdaea9026a7c18cae6f076e72df9efe2
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="lesson-4-building-and-deploying-the-assembly"></a>第 4 課： 建立和部署組件
 在這一課，您會建置並部署此專案以產生包含您在先前的課程中建立的結構描述的組件。 這項工作可確保您到目前為止所建立的工作中沒有編譯錯誤。  
@@ -37,7 +37,7 @@ ms.lasthandoff: 11/28/2017
     > [!NOTE]
     >  確認**建置成功**會出現在畫面左下角。 在編譯過程中，您可能會看到某些狀態訊息。 這些訊息都是正常的處理 SWIFT 的結構描述時。 如果出現任何錯誤，請按一下 工具，然後按一下 BizTalk Server 管理 以開啟 BizTalk Server 管理主控台。 使用事件檢視器和健全狀況與活動追蹤 (HAT) 中的功能 BizTalk 管理主控台來更正錯誤，然後再重建。  
   
-2.  使用[!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)]總管 中，瀏覽至  **\<*磁碟機*\>: \labs\SWIFTProject\SWIFTSchemas\bin\Development** 資料夾，並確認**SWIFTSchemas.dll**檔案位於此資料夾。  
+2.  使用[!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)]總管 中，瀏覽至 **\<*磁碟機*\>: \labs\SWIFTProject\SWIFTSchemas\bin\Development**資料夾，並確認**SWIFTSchemas.dll**檔案位於此資料夾。  
   
 3.  在 方案總管 中，以滑鼠右鍵按一下**SWIFTSchemas**，然後按一下 **部署**。  
   

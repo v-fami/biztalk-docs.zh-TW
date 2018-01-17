@@ -13,15 +13,15 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 6d463823a7038e1ead7e2de323da97eda372db76
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="how-to-update-a-map-using-side-by-side-versioning"></a>如何更新對應，使用-並存版本控制
 某些 BizTalk 成品，例如對應，選擇完整強式名稱 (FQSN)，在這種情況下的繫結包括使用的版本。 這可讓以並存方式，並排在兩個或多個對應[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台。 如此一來，您可以選取其中一個輸入中的接收位置屬性的對應或輸出對應的對應中的傳送埠屬性。  
   
-## <a name="prerequisites"></a>必要條件  
+## <a name="prerequisites"></a>필수 구성 요소  
  若要執行這個主題中的程序，您必須使用「BizTalk Server 系統管理員」群組成員的帳戶登入。  
   
 ### <a name="to-add-a-second-map-side-by-side-to-an-existing-map"></a>將第二個對應以並排方式加入至現有的對應  
@@ -43,7 +43,7 @@ ms.lasthandoff: 09/20/2017
   
     4.  在**組件資訊**對話方塊方塊中，指定的值**組件版本**欄位來變更組件版本號碼。 您應該變更只有主要或次要版本號碼。 主要版本號碼是序列中的第一個數字 (***n***.0.0.0); 的次要版本號碼是序列中的第二位數 (0。***n*** .0.0)。  
   
-    5.  按一下**確定**關閉**組件資訊** 對話方塊。  
+    5.  按一下  **確定** 關閉 **組件資訊** 對話方塊。  
   
 4.  編譯組件。  
   
@@ -60,9 +60,9 @@ ms.lasthandoff: 09/20/2017
   
 1.  使用**啟動**功能表中，開啟**記事本**。  
   
-2.  在**記事本**上**檔案**功能表上，按一下 **開啟**。 在**開啟**對話方塊中，選取對應檔您想来修改，然後按一下**開啟**。  
+2.  在**記事本**上**檔案**功能表上，按一下 **開啟**。 在 **開啟** 對話方塊中，選取對應檔您想来修改，然後按一下 **開啟**。  
   
-3.  在 [編輯] 功能表上，按一下 [尋找]。 在**尋找**對話方塊方塊中，輸入**組件 =**，然後按一下 **找下一個**。  
+3.  在 [編輯] 功能表上，按一下 [尋找]。 在 **尋找** ] 對話方塊中，輸入 **組件 =**, ，然後按一下 [ **尋找下一個**。  
   
 4.  如果某個外部組件含有指令碼參考的話，則「記事本」應該會找到如下列所示的 XML 項目：  
   
@@ -72,7 +72,7 @@ ms.lasthandoff: 09/20/2017
     " Class="Contoso.Scripts" Function="CalculateValue" AssemblyPath="Contoso.Scripts.dll"/>  
     ```  
   
-5.  更新版本號碼。 如果有多個執行個體，請使用**取代**上**編輯**功能表。  
+5.  更新版本號碼。 如果有多個執行個體，請使用 **取代** 上 **編輯** 功能表。  
   
 6.  儲存檔案。  
   

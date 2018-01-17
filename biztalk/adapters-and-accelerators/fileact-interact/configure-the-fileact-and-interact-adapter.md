@@ -13,16 +13,16 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: ca2bc3aa739bf6914ea9943d84d58d44b1506323
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="configure-the-fileact-and-interact-adapter"></a>設定 FileAct 和互動配接器
 設定所使用的不同成品[!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)]執行階段。 
 
   
-## <a name="prerequisites"></a>必要條件  
+## <a name="prerequisites"></a>필수 구성 요소  
    
 -   安裝[!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)]
   
@@ -170,7 +170,7 @@ SET Path=%PATH%;C:\SWIFTAlliance\RA\lib
 ## <a name="see-some-examples"></a>請參閱一些範例
 FileAct 和 InterAct 訊息的範例，請參閱[範例進行互動，而且 FileAct 訊息](../../adapters-and-accelerators/fileact-interact/sample-interact-and-fileact-messages.md)。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
 
 [安裝 FileAct 和 InterAct 配接器](../../adapters-and-accelerators/fileact-interact/install-the-fileact-and-interact-adapter.md)  
 [解除安裝 FileAct 和 InterAct 配接器](../../adapters-and-accelerators/fileact-interact/uninstall-or-repair-the-fileact-and-interact-adapter.md)  

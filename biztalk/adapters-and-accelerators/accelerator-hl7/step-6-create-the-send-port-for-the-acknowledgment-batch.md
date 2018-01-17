@@ -13,10 +13,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 958746634776e9b01c32ff2425122312bc7a841c
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="step-6-create-the-send-port-for-the-acknowledgment-batch"></a>步驟 6： 建立通知批次的傳送埠
 在此步驟中，您可以建立傳送埠以將您建立的認可批次傳送到來源合作對象。 這是靜態單向連接埠與 FILE 配接器類型。 您指定檔案資料夾的來源 (\Tutorial_BatchACKDrop)，其中[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]將卸除認可批次檔。 您定義指出哪種類型的通知批次傳送連接埠的連接埠的篩選。 篩選器會指定來源 Tutorial_BatchSource 和 OutboundBatch 的訊息類型。  
@@ -37,7 +37,7 @@ ms.lasthandoff: 11/28/2017
   
     |使用|動作|  
     |--------------|----------------|  
-    |**目的地資料夾**|瀏覽至  **\<*磁碟機*:\>\Program Files\Microsoft BizTalk\<版本\>Accelerator for HL7\SDK\End 端對端 Tutorial\Tutorial_BatchACKDrop * *。 這是在檔案系統或公用共用的位置路徑[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]將撰寫包含認可批次的檔案。|  
+    |**目的地資料夾**|瀏覽至 **\<*磁碟機*:\>\Program Files\Microsoft BizTalk\<版本\>Accelerator for HL7\SDK\End 端對端 Tutorial\Tutorial_BatchACKDrop**. 這是在檔案系統或公用共用的位置路徑[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]將撰寫包含認可批次的檔案。|  
     |**檔案名稱**|型別**%MessageID%.txt** （副檔名為.txt 取代.xml 副檔名）。|  
     |**複製模式**|選取**建立新**。|  
   
@@ -45,14 +45,14 @@ ms.lasthandoff: 11/28/2017
   
 5.  在 [傳送埠屬性] 對話方塊的**傳送管線**，選取**BTAHL72XPipelines.BTAHL72XSendPipeline**。  
   
-6.  在主控台樹狀目錄中，按一下**篩選**，然後執行下列步驟：  
+6.  在主控台樹狀目錄中，按一下  **篩選**, ，然後執行下列一項︰  
   
     |使用|動作|  
     |--------------|----------------|  
     |**屬性**|按一下下方的欄位**屬性**，然後選取**Microsoft.Solutions.BTAHL7.BatchOrchestration.Party**從下拉式清單。|  
     |**運算子**|保留 **==** 做為運算子。|  
     |**值**|型別**Tutorial_BatchSource**。|  
-    |**Group By**|選取**和**從下拉式清單。|  
+    |**分組方式**|選取**和**從下拉式清單。|  
     |**屬性**|選取**BTAHL7Schemas.BTAHL7MessageType**。|  
     |**運算子**|保留 **==** 做為運算子。|  
     |**值**|型別**OutboundBatch**。|  

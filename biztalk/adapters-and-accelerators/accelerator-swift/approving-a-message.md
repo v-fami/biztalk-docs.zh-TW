@@ -16,10 +16,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: f3bdbd4845ddc1dff698274492f33ec69d659188
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="approving-a-message"></a>核准訊息
 本章節描述如何核准訊息修復和驗證。  
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/28/2017
   
 2.  在 [首頁] 視窗中，按一下**文件**。  
   
-3.  在文件視窗中，在**文件庫**，按一下    **\<*部門名稱*\>_Approver * *。  
+3.  在文件視窗中，在**文件庫**，按一下   **\<*部門名稱*\>_Approver**。  
   
 4.  在\<部門名稱\>_Approver 視窗中，按一下 **收件匣**。  
   

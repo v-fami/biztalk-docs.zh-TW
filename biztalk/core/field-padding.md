@@ -13,10 +13,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 56aa8490bd9e72677c9c8eefa73e7f6bd8438dfd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="field-padding"></a>欄位填補
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 09/20/2017
  若是輸入的執行個體訊息，因為要將執行個體訊息轉譯為其對等的 XML 格式，所以無論特定記錄是序數記錄或分隔記錄，一般檔案解譯器都會捨棄特定欄位的指定或預設填補字元之前置或尾端執行個體。 它是否前置或尾端會捨棄相關填補字元的執行個體取決於是否**理由**屬性對應**欄位項目**和**欄位屬性**節點設定為**右邊**或**左**分別。  
 
 ## <a name="outbound-instances"></a>輸出執行個體  
- 若是輸出的執行個體訊息，一般檔案解譯器會將適當數目的指定或預設填補字元插入欄位，使欄位的長度正確。 會插入填補字元，之前或之後的資料字元根據是否**理由**對應**欄位項目**和**的欄位屬性**節點設定為**右邊**或**左**分別。  
+ 若是輸出的執行個體訊息，一般檔案解譯器會將適當數目的指定或預設填補字元插入欄位，使欄位的長度正確。 之前或之後的資料字元根據是否會插入填補字元 **理由** 對應 **欄位項目** 和 **欄位屬性** 節點設定為 **右邊** 或 **左**, 分別。  
   
  當輸出執行個體訊息中被填補的欄位是否包含在位置記錄， **Positional Offset**和**Positional Length**屬性對應**欄位項目**或**欄位屬性**結合的欄位必須包含的資料字元數 節點，判斷是否有任何填補字元是必要的而且如果是，多少。 當輸出執行個體訊息中被填補的欄位包含在分隔記錄中時，只會填補字元插入時的值**Minimum Length with Pad Character**對應**欄位項目**或**欄位屬性**節點超過資料字元數。  
 
@@ -38,4 +38,4 @@ ms.lasthandoff: 09/20/2017
 ## <a name="see-also"></a>另請參閱  
  [欄位考量](../core/field-considerations.md)   
  [欄位左右對齊](../core/field-justification.md)   
- [在位置記錄中欄位位置的規格](../core/specification-of-field-positions-within-positional-records.md)  
+ [位置記錄中欄位位置的規格](../core/specification-of-field-positions-within-positional-records.md)  
