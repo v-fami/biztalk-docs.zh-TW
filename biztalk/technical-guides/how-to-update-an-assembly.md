@@ -13,10 +13,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 163b06706652b1f65b9a76e3feea8911a2ca4c88
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="how-to-update-an-assembly"></a>如何更新組件
 本主題說明如何更新組件和組件使用 Visual Studio 2010 部署的應用程式的版本。  
@@ -24,7 +24,7 @@ ms.lasthandoff: 09/20/2017
 > [!NOTE]  
 >  如果您是以新版本來更新組件，就不需要重新啟動應用程式。  
   
-## <a name="prerequisites"></a>必要條件  
+## <a name="prerequisites"></a>필수 구성 요소  
  若要執行這個主題中的程序，您必須使用「BizTalk Server 系統管理員」群組成員的帳戶登入。  
   
 ## <a name="updating-an-assembly"></a>更新組件  
@@ -39,7 +39,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  在**組件資訊**對話方塊方塊中，指定的值**組件版本**增加組件版本號碼的欄位。 您只應該增加主要或次要的版本號碼。 主要版本號碼是序列中的第一個數字 (***n***.0.0.0); 的次要版本號碼是序列中的第二位數 (0。***n*** .0.0)。 BizTalk Server 將無法辨識版本號碼變更為序列，例如 0.0 後面。 ***n*** .0 或 0.0.0。***n***.  
   
-5.  按一下**確定**關閉**組件資訊** 對話方塊。  
+5.  按一下  **確定** 關閉 **組件資訊** 對話方塊。  
   
 6.  儲存專案。  
   
