@@ -17,10 +17,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: f62a37da291bdc148369a28149cdfe29ed7fe446
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="step-7-sign-and-build-the-projects"></a>步驟 7： 簽署和建置的專案
 在此步驟中，您指派強式名稱，並建置專案來產生組件，其中包含您在中建立的資源 （結構描述）[步驟 6： 驗證結構描述](../../adapters-and-accelerators/accelerator-hl7/step-6-validate-the-schemas.md)。 這也可確保您到目前為止完成的工作中沒有編譯錯誤。  
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/28/2017
   
 3.  在右窗格中，向下捲動至**強式名稱**區段中，按一下右邊的欄位**組件金鑰檔案**，然後按一下省略符號 （...） 按鈕。  
   
-4.  在 [組件金鑰檔案] 對話方塊中，瀏覽至  **\<*磁碟機*\>: \Tutorial\BTAHL7V22Common\key.snk** (在中建立[步驟 3： 指派強式名稱組件](../../adapters-and-accelerators/accelerator-hl7/step-3-assign-a-strong-name-to-the-assembly.md))，然後按一下 **開啟**。  
+4.  在 [組件金鑰檔案] 對話方塊中，瀏覽至 **\<*磁碟機*\>: \Tutorial\BTAHL7V22Common\key.snk** (在中建立[步驟 3： 指派強式名稱組件](../../adapters-and-accelerators/accelerator-hl7/step-3-assign-a-strong-name-to-the-assembly.md))，然後按一下 **開啟**。  
   
 5.  按一下**確定**以儲存變更。  
   
@@ -43,5 +43,5 @@ ms.lasthandoff: 11/28/2017
   
  若要繼續[步驟 8： 使用 BizTalk 對應工具建立對應](../../adapters-and-accelerators/accelerator-hl7/step-8-create-a-map-with-biztalk-mapper.md)。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [訊息擴充教學課程](../../adapters-and-accelerators/accelerator-hl7/message-enrichment-tutorial.md)

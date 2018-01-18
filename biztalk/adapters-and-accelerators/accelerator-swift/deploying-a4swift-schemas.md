@@ -18,10 +18,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: bc89b26d0eee970268d5e9084cd0827d3100fd7b
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="deploying-a4swift-schemas"></a>部署 A4SWIFT 結構描述
 您必須部署 SWIFT 訊息要交換的結構描述。  
@@ -53,7 +53,7 @@ ms.lasthandoff: 11/28/2017
   
 7.  啟動 Visual Studio 命令提示字元。  
   
-8.  在 Visual Studio 命令提示字元中，瀏覽至  **\<*磁碟機*\>: \Program Files\Microsoft BizTalk Accelerator for SWIFT * *。  
+8.  在 Visual Studio 命令提示字元中，瀏覽至 **\<*磁碟機*\>: \Program Files\Microsoft BizTalk Accelerator for SWIFT**。  
   
 9. 在命令提示字元中，輸入**sn – k key.snk**，然後按 ENTER 鍵。 請指出金鑰組已寫入至 key.snk [命令提示字元] 視窗中會顯示訊息。  
   
@@ -63,7 +63,7 @@ ms.lasthandoff: 11/28/2017
   
 12. 在右窗格中**屬性頁**對話方塊中，向下捲動至**強式名稱**區段中，按一下右邊的欄位**組件金鑰檔案**，然後按一下省略符號 （...） 按鈕。  
   
-13. 在**組件金鑰檔案**對話方塊中，瀏覽至  **\<*磁碟機*\>: \Program Files\Microsoft**[!INCLUDE[btaA4SWIFTNoVersionui](../../includes/btaa4swiftnoversionui-md.md)]，按一下**key.snk**，然後按一下 **開啟**。  
+13. 在**組件金鑰檔案**對話方塊中，瀏覽至 **\<*磁碟機*\>: \Program Files\Microsoft**[!INCLUDE[btaA4SWIFTNoVersionui](../../includes/btaa4swiftnoversionui-md.md)]，按一下**key.snk**，然後按一下 **開啟**。  
   
 14. 在**屬性頁**對話方塊中，按一下 **確定**以儲存變更。  
   
@@ -71,7 +71,7 @@ ms.lasthandoff: 11/28/2017
   
 1.  在 Visual Studio 的方案總管中開啟您的專案。  
   
-2.  以滑鼠右鍵按一下您的專案，指向**新增**，然後按一下 **現有項目**。  
+2.  您的專案上按一下滑鼠右鍵，指向 **新增**, ，然後按一下  **現有項目**。  
   
 3.  在**加入現有項目**對話方塊:\\**Program Files\Microsoft BizTalk Accelerator for SWIFT\<版本\>訊息 Pack\SWIFT Messages\A4SWIFT-SRG\<版本\>\Base 結構描述**。 選取**SWIFT 基底 Types.xsd**和**SWIFT 常見資料 Types.xsd**結構描述，然後再按一下**新增**。  
   
@@ -82,6 +82,6 @@ ms.lasthandoff: 11/28/2017
     > [!NOTE]
     >  方案總管 中所示，A4SWIFT 將加入您專案的結構描述。  
   
-6.  在 [方案總管] 中，以滑鼠右鍵按一下專案名稱，然後**建置**。  
+6.  在 方案總管 中，以滑鼠右鍵按一下專案名稱，以及  **建置**。  
   
-7.  在 [方案總管] 中，以滑鼠右鍵按一下專案名稱，然後**部署**。
+7.  在 方案總管 中，以滑鼠右鍵按一下專案名稱，以及  **部署**。
