@@ -1,7 +1,8 @@
 ---
-title: "如何移除未完成的活動執行個體 |Microsoft 文件"
+title: "移除未完成的活動執行個體 |Microsoft 文件"
+description: "執行自訂的 RemoveDanglingInstances SQL 指令碼，以從 BizTalk Server 中的 BAM 主要匯入資料庫移除未完成的執行個體"
 ms.custom: 
-ms.date: 06/08/2017
+ms.date: 01/18/2018
 ms.prod: biztalk-server
 ms.reviewer: 
 ms.suite: 
@@ -12,13 +13,13 @@ caps.latest.revision: "13"
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2809fd4fcc1d94a96b158ffa46c3e217084a905d
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 542d92b838b1638a2d018c6325d4c40467545c42
+ms.sourcegitcommit: 9e7a7dc5544d30d4523c0b3cdaa59f4890e7a4e9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 01/19/2018
 ---
-# <a name="how-to-remove-incomplete-activity-instances"></a>如何移除未完成的活動執行個體
+# <a name="remove-incomplete-activity-instances"></a>移除未完成的活動執行個體
 部署 BAM 定義檔案時，會為定義檔案中所定義的每個活動，在 BAM 主要匯入資料庫中建立五個資料表， 分別是：  
   
 -   bam_`ActivityName`_Active  
@@ -33,49 +34,45 @@ ms.lasthandoff: 11/28/2017
   
  其中 `ActivityName` 是使用者定義的活動名稱。  
   
- 正常執行時，不完整的資料會保留在 bam_`ActivityName`_Active 資料表內。 如果資料含有關係與參考資料，則在 bam 中會有資料\_`ActivityName`_ActiveRelationships 資料表。  
+ 正常執行時，不完整的資料會保留在 bam_`ActivityName`_Active 資料表內。 如果資料含有關係與參考，則在 bam 中會有資料\_`ActivityName`_ActiveRelationships 資料表。  
   
  追蹤使用接續的活動期間，有時候在 BAM 資料庫中的活動可能處在未完成狀態。 您可以使用本主題最後的預存程序建立指令碼，來建立將清除不完整記錄的預存程序。  
   
- 如果要建立預存程序，使用 SQL Server Management 複製指令碼並針對 BAM 主要匯入資料庫執行指令碼。 此指令碼會產生名為預存程序**RemoveDanglingInstances**資料庫中。  
+ 如果要建立預存程序，使用 SQL Server Management 複製指令碼並針對 BAM 主要匯入資料庫執行指令碼。 此指令碼會產生名為預存程序 **RemoveDanglingInstances** 資料庫中。  
   
-### <a name="to-create-the-removedanglinginstances-stored-procedure"></a>建立 RemoveDanglingInstances 預存程序  
+## <a name="create-the-removedanglinginstances-stored-procedure"></a>建立 RemoveDanglingInstances 預存程序  
   
-1.  按一下**啟動**，按一下 **所有程式**，按一下  **Microsoft SQL Server 2008 SP1**或**Microsoft SQL Server 2008 R2**，然後按一下  **SQL Server Management Studio**。  
+1.  開啟**SQL Server Management Studio**，並連接到 SQL server。
   
-2.  在**連接到伺服器**對話方塊中，選取 SQL server 和適當的驗證方法，，然後按一下**連接**。  
+2.  依序展開伺服器名稱 **資料庫**, ，然後選取 BAM 主要匯入資料庫。  
   
-3.  依序展開伺服器名稱**資料庫**，然後選取 BAM 主要匯入資料庫。  
+3.  按一下 **[新增查詢]**。  
   
-4.  按一下 **[新增查詢]**。  
+4.  複製預存程序建立指令碼，並將它貼到 [查詢] 窗格。  
   
-5.  複製預存程序建立指令碼並將它貼到右窗格中。  
+5.  **執行**指令碼。 產生的預存程序會在預存程序清單中顯示為 dbo.RemoveDanglingInstances。  
   
-6.  按一下**Execute**執行指令碼。 產生的預存程序會在預存程序清單中顯示為 dbo.RemoveDanglingInstances。  
+## <a name="remove-incomplete-activity-instances"></a>移除未完成的活動執行個體  
   
-### <a name="to-remove-incomplete-activity-instances"></a>移除不完整的活動執行個體  
+1.  開啟**SQL Server Management Studio**，並連接到 SQL server。
   
-1.  按一下**啟動**，按一下 **所有程式**，按一下  **Microsoft SQL Server 2008 SP1**或**Microsoft SQL Server 2008 R2**，然後按一下  **SQL Server Management Studio**。  
+2.  依序展開伺服器名稱 **資料庫**, ，然後選取 BAM 主要匯入資料庫。  
   
-2.  在**連接到伺服器**對話方塊中，選取 SQL server 和適當的驗證方法，，然後按一下**連接**。  
+3.  按一下 **[新增查詢]**。  
   
-3.  依序展開伺服器名稱**資料庫**，然後選取 BAM 主要匯入資料庫。  
+4.  在 [查詢] 窗格中，輸入`exec RemoveDanglingInstances`和您正在執行之移除作業的適當參數。 例如，若要移除 Purchase Order 活動的所有未完成執行個體，請輸入 `exec RemoveDanglingInstances @ActivityName = 'PurchaseOrder'`。  
   
-4.  按一下 **[新增查詢]**。  
-  
-5.  在右窗格中，輸入`exec RemoveDanglingInstances`和您正在執行之移除作業的適當參數。 例如，若要移除 Purchase Order 活動的所有未完成執行個體，請輸入 `exec RemoveDanglingInstances @ActivityName = 'PurchaseOrder'`。  
-  
-6.  按一下**Execute**執行指令碼。  
+5.  **執行**指令碼。  
   
 ## <a name="removedanglinginstances-usage-examples"></a>RemoveDanglingInstances 使用範例  
  此預存程序可以接收 4 個參數：  
   
 |參數|Description|  
 |---------------|-----------------|  
-|@ActivityName nvarchar(128)|指定要移除的未完成活動執行個體名稱。|  
-|@ActivityId nvarchar(128)|(選擇性) 指定預存程序只移除具有指定之執行個體識別項的懸空執行個體。|  
-|@DateThreshold日期時間|(選擇性) 指定移除作用資料表中早於指定之日期 (不含等於此日期) 的所有作用中執行個體。|  
-|@NewTableExtensionnvarchar （30)|(選擇性) 指定預存程序藉由串連所提供的延伸模組與現有活動資料表，建立三個新資料表。<br /><br /> 產生的資料表為：<br /><br /> bam_ActivityName_Active_\<延伸模組\><br /><br /> bam_ActivityName_ActiveRelationships_\<延伸模組\><br /><br /> bam_ActivityName_Continuations_\<延伸模組\><br /><br /> 未完成的執行個體會移至新資料表，而不會從資料庫清除。<br /><br /> 如果資料表已存在，預存程序便會重複加以使用，否則會建立這些資料表。 **重要事項：**如果資料表已存在，預存程序會假設其結構描述符合建立時所要使用的項目。 如果結構描述不符合，預存程序將無法插入記錄，而且移除作業會失敗。|  
+|@ActivityName nvarchar （128)|指定要移除的未完成活動執行個體名稱。|  
+|@ActivityId nvarchar （128)|(選擇性) 指定預存程序只移除具有指定之執行個體識別項的懸空執行個體。|  
+|@DateThreshold 日期時間|(選擇性) 指定移除作用資料表中早於指定之日期 (不含等於此日期) 的所有作用中執行個體。|  
+|@NewTableExtension nvarchar （30)|(選擇性) 指定預存程序藉由串連所提供的延伸模組與現有活動資料表，建立三個新資料表。<br /><br /> 產生的資料表為：<br /><br /> bam_ActivityName_Active_\<Extension\><br /><br /> bam_ActivityName_ActiveRelationships_\<Extension\><br /><br /> bam_ActivityName_Continuations_\<Extension\><br /><br /> 未完成的執行個體會移至新資料表，而不會從資料庫清除。<br /><br /> 如果資料表已存在，預存程序便會重複加以使用，否則會建立這些資料表。 **重要事項︰**  如果資料表已存在，預存程序會假設其結構描述相符，會在建立時所使用的項目。 如果結構描述不符合，預存程序將無法插入記錄，而且移除作業會失敗。|  
   
  `exec RemoveDanglingInstances @ActivityName = 'PurchaseOrder'`  
   
@@ -235,6 +232,9 @@ AS
     COMMIT TRAN      
 GO  
 ```  
-  
-## <a name="see-also"></a>請參閱  
+
+## <a name="another-method-of-resolving-incomplete-instances"></a>解析不完整的執行個體的另一種方法
+您也可以使用 SQL 查詢，以解決從 BAMPrimaryImport 資料庫的未完成的活動執行個體。 請參閱[解析未完成的活動執行個體](how-to-resolve-incomplete-activity-instances.md)。
+
+## <a name="see-also"></a>另請參閱  
  [管理 BAM 資料庫](../core/managing-bam-databases.md)
