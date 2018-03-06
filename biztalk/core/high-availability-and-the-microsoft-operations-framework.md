@@ -7,33 +7,24 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- high availability, managing
-- service management functions (SMFs)
-- service continuity management
-- jobs, scheduling
-- MOF, high availability
-- change management
-- MOF, process model
-- high availability, MOF
 ms.assetid: 54d8bae3-b241-4371-b8fc-a9cbdca6b495
-caps.latest.revision: "16"
+caps.latest.revision: 
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b8361875cf34f14118fb93818c78a6ca7d12a86f
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: 1a06bdadb026617dc55ed40d03e0344584111a0c
+ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="high-availability-and-the-microsoft-operations-framework"></a>高可用性與 Microsoft Operations Framework
-將 Microsoft Operations Framework (MOF) 處理序模型套用至高度可用的 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 方案之規劃與實作，可協助您確定在發行生命週期的不同階段具有適當的程序。 藉由觀察所有出現高可用性的生命週期階段，您可以讓環境中的安裝、維護和疑難排解可用性問題更為容易。  
+Microsoft Operations Framework (MOF) 處理序模型套用之規劃與實作高可用性的 Microsoft BizTalk Server 解決方案可以幫助您確定在發行生命週期的不同階段具有適當的程序。 藉由觀察所有出現高可用性的生命週期階段，您可以讓環境中的安裝、維護和疑難排解可用性問題更為容易。  
   
  本節包含您必須考慮高可用性工作的 MOF 程序資訊。  
   
 ## <a name="microsoft-operations-framework-process-model"></a>Microsoft Operations Framework 程序模型  
- Microsoft Operations Framework (MOF) 提供可讓組織達成 Microsoft 產品和技術之關鍵系統的可靠性、可用性、支援性以及管理性的指導。 MOF 以下列方式提供操作指導：白皮書、作業指南、評估工具、最佳作法、案例研究、範本、支援工具以及服務。 此指導將討論與複雜、分散式和異質 IT 環境相關的人員、程序、技術和管理問題。 如需 Microsoft Operations Framework 的詳細資訊，請參閱[http://go.microsoft.com/fwlink/?LinkId=31988](http://go.microsoft.com/fwlink/?LinkId=31988)。  
+ [Microsoft Operations Framework (MOF)](https://technet.microsoft.com/solutionaccelerators/dd320379.aspx)提供指引，讓組織達成關鍵任務系統可靠性、 可用性、 可支援性和管理性的 Microsoft 產品和技術. MOF 以下列方式提供操作指導：白皮書、作業指南、評估工具、最佳作法、案例研究、範本、支援工具以及服務。 此指導將討論與複雜、分散式和異質 IT 環境相關的人員、程序、技術和管理問題。 
   
  MOF 程序模型可讓公司：  
   
@@ -59,8 +50,6 @@ ms.lasthandoff: 12/01/2017
   
 -   決定夥伴或客戶的服務等級協議，是否需要某個層級的可用性、執行時間以及載入處理能力。  
   
--   如果您要從升級[!INCLUDE[btsBizTalkServer2000](../includes/btsbiztalkserver2000-md.md)]或[!INCLUDE[btsBizTalkServer2002](../includes/btsbiztalkserver2002-md.md)]BizTalk Server 中，您必須判斷您現有的硬體是否符合 BizTalk Server 的最低硬體需求和服務等級協定的需求。  
-  
 -   為您的企業需求決定 BizTalk Server 資料庫的最佳叢集組態。 執行階段程序會寫入 BizTalk 管理資料庫、MessageBox 資料庫、追蹤 Analysis Services 資料庫、BAM 分析資料庫、BAM 星狀結構描述資料庫、BAM 主要匯入資料庫以及 BAM 封存資料庫。 因此，若發生嚴重損毀，這些資料庫就顯得特別重要，而且在決定要叢集哪些資料庫時必須有較高的優先順序。 只有使用者或工具會寫入其他資料庫。 就 MessageBox 資料庫而言，您可以考慮主動/主動/主動/被動的四個伺服器叢集以便將所需的硬體減到最少。  
   
 -   決定是否叢集主要密碼伺服器，或是，若在另一個「企業單一登入」伺服器上手動還原主要密碼伺服器是否符合您的實例。 此方案為可用，但不是高度可用。  
@@ -72,7 +61,7 @@ ms.lasthandoff: 12/01/2017
 ### <a name="configuration-management"></a>組態管理  
  組態管理負責在變更管理的控制下識別、控制和追蹤所有版本的軟體、硬體、文件、處理程序、程序以及 IT 環境中所有其他元件。  
   
- 在組態管理程序期間，您必須針對如何實作高度可用的 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 解決方案建立一個詳細的計劃。 您也必須記錄用以建立解決方案的步驟。 簡要說明這些步驟：  
+ 組態管理程序期間，您必須建立要如何為 BizTalk Server 實作高可用性方案的詳細計劃。 您也必須記錄用以建立解決方案的步驟。 簡要說明這些步驟：  
   
 -   網域控制站建立將用於 BizTalk Server 環境的網域群組和帳戶。  
   
@@ -82,7 +71,7 @@ ms.lasthandoff: 12/01/2017
   
 -   BizTalk Server 系統管理員設定主要密碼伺服器叢集。  
   
--   BizTalk Server 系統管理員在處理、接收和傳送伺服器時會安裝和設定 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。  
+-   BizTalk Server 系統管理員上安裝和設定 BizTalk Server 在處理、 接收和傳送伺服器。  
   
 -   BizTalk Server 系統管理員建立主控件並在適當的伺服器上安裝主控件執行個體，以提供高可用性、增加容量，或兩者。  
   
@@ -121,5 +110,5 @@ ms.lasthandoff: 12/01/2017
   
  在服務延續性功能期間，您必須檢查要實作的高可用性組態，以確保發生計劃或非計劃的停機時，您可以繼續提供客戶所需的服務。 非計劃的停機像是硬體失敗或自然行為。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [BizTalk Server 高可用性案例範例](../core/sample-biztalk-server-high-availability-scenarios.md)

@@ -7,34 +7,31 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- MQSeries Server
-- MQSeries adapters, MQSeries Server
 ms.assetid: 1e70399a-a582-4808-915f-8b7da62300aa
-caps.latest.revision: "10"
+caps.latest.revision: 
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: df331c5a72ece65d85d5c3ad086105700b81863d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a7e774a951ad13f4c0c6b9050cfc03358114fb6f
+ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="using-the-mqseries-adapter"></a>使用 MQSeries 配接器
-MQSeries 配接器可服務需要整合 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，並使用 MQSeries Server 做為主要傳訊系統的組織。  
+
+## <a name="overvew"></a>Overvew
+MQSeries 配接器是組織在需要與 BizTalk Server 的整合，並使用 MQSeries Server 做為主要傳訊系統。  
   
  通常由網路系統管理員部署和設定此配接器。 而軟體開發人員可以藉由建立配接器元件來擴充其功能。  
   
 > [!NOTE]
->  您可以使用 MQSeries 配接器來搭配為多部電腦設定的 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。  
+>  您可以使用的 MQSeries 配接器與 BizTalk Server 設定多部電腦。  
   
-## <a name="in-this-section"></a>本節內容  
+## <a name="next-steps"></a>後續的步驟
   
 -   [MQSeries 配接器部署選項](../core/mqseries-adapter-deployment-options.md)  
   
 -   [MQSeries 配接器訊息流程](../core/mqseries-adapter-message-flow.md)  
   
--   [以舊版配接器使用 MQSeries 配接器](../core/using-mqseries-adapter-with-an-earlier-version-of-the-adapter.md)  
-  
--   [MQSeries 配接器的高可用性](../core/mqseries-adapter-high-availability.md)
+-   [MQSeries 配接器高可用性](../core/mqseries-adapter-high-availability.md)

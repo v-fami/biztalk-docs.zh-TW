@@ -1,5 +1,5 @@
 ---
-title: "BAM API （BizTalk Server 範例） |Microsoft 文件"
+title: "BAM API 範例 |Microsoft 文件"
 ms.custom: 
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -7,21 +7,16 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- BAM, APIs
-- examples, BAM
-- BAM, examples
-- APIs, BAM
 ms.assetid: 32a925f2-c7f4-4111-9c59-8865f15c6a89
-caps.latest.revision: "20"
+caps.latest.revision: 
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f65b98871f054d96caa278e48de19ad669157b1f
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: 7e181af5766231ed9a7d828b49e2d840a47f216c
+ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="bam-api-biztalk-server-sample"></a>BAM API (BizTalk Server 範例)
 BAM API 範例示範如何將對 BAM API 的呼叫整合到應用程式，以儲存可供您監控的關鍵資訊。  
@@ -38,9 +33,9 @@ BAM API 範例示範如何將對 BAM API 的呼叫整合到應用程式，以儲
   
 -   使用接續以允許使用不同的 ID 存取相同的活動  
   
- BAM API 範例包含三個主要類別： 一個處理採購訂單、 一個處理出貨、，另一個處理發票。 每個類別都**RunOnce**從佇列擷取訊息，然後再處理訊息的方法。 每個類別也有**執行**不斷呼叫的方法**RunOnce**方法。  
+ BAM API 範例包含三個主要類別︰ 一個用來處理採購訂單、 一個處理出貨，而另一個處理發票。 每個類別都 **RunOnce** 從佇列擷取訊息，然後再處理訊息的方法。 每個類別也有 **執行** 不斷呼叫的方法 **RunOnce** 方法。  
   
- **RunOnce**方法**PoApplication**類別會進行下列作業：  
+ **RunOnce** 方法 **PoApplication** 類別會進行下列作業︰  
   
 1.  建立代表訂單的 XML 訊息。  
   
@@ -50,7 +45,7 @@ BAM API 範例示範如何將對 BAM API 的呼叫整合到應用程式，以儲
   
 4.  更新 BAMApiPo 活動以記錄訂單狀態 (已接受或已拒絕)。  
   
-5.  如果已接受訂單， **RunOnce**方法也會進行下列作業：  
+5.  如果已接受訂單， **RunOnce** 方法也會進行下列作業︰  
   
     1.  建立代表要出貨之包裝的 XML 訊息，並將該訊息新增到出貨佇列。  
   
@@ -60,7 +55,7 @@ BAM API 範例示範如何將對 BAM API 的呼叫整合到應用程式，以儲
   
     4.  結束 BAMApiPo 活動。  
   
- **RunOnce**方法**ShipmentApplication**類別會進行下列作業：  
+ **RunOnce** 方法 **ShipmentApplication** 類別會進行下列作業︰  
   
 1.  從其佇列中擷取代表要出貨之包裝的 XML 訊息。  
   
@@ -68,7 +63,7 @@ BAM API 範例示範如何將對 BAM API 的呼叫整合到應用程式，以儲
   
 3.  結束 BAMApiPo 活動。  
   
- **RunOnce**方法**InvoiceApplication**類別會進行下列作業：  
+ **RunOnce** 方法 **InvoiceApplication** 類別會進行下列作業︰  
   
 1.  從其佇列中擷取代表要開發票之訂單的 XML 訊息。  
   
@@ -82,19 +77,19 @@ BAM API 範例示範如何將對 BAM API 的呼叫整合到應用程式，以儲
   
 6.  結束 BAMApiInvoice 活動。  
   
- **Main**方法**MainApp**類別初始化應用程式。 它會執行下列工作：  
+ **Main** 方法 **MainApp** 類別初始化應用程式。 它會執行下列工作：  
   
-1.  建立**DirectEventStream**物件。  
+1.  建立 **DirectEventStream** 物件。  
   
-2.  啟動數個執行緒，並呼叫**執行**方法**POApplication**中每個執行緒的物件。  
+2.  啟動數個執行緒，並呼叫 **執行** 方法 **POApplication** 中每個執行緒的物件。  
   
-3.  啟動數個執行緒，並呼叫**執行**方法**ShipmentApplication**中每個執行緒的物件。  
+3.  啟動數個執行緒，並呼叫 **執行** 方法 **ShipmentApplication** 中每個執行緒的物件。  
   
-4.  啟動數個執行緒，並呼叫**執行**方法**InvoiceApplication**中每個執行緒的物件。  
+4.  啟動數個執行緒，並呼叫 **執行** 方法 **InvoiceApplication** 中每個執行緒的物件。  
   
- **Global**類別定義範例應用程式，例如要建立的執行緒數目和拒絕的訂單百分比所使用的常數。  
+ **Global** 類別會定義常數所使用的範例應用程式，例如要建立的執行緒數目和拒絕訂單的百分比。  
   
- 除了 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 方案外，範例也包含定義活動的 Microsoft [!INCLUDE[btsExcel](../includes/btsexcel-md.md)] 檔案。  
+ 除了 Visual Studio 方案，此範例也包含定義活動的 Microsoft Excel 檔案。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
  您可以找到此範例位於*\<範例路徑\>*\BAM\BamApiSample。  
@@ -119,14 +114,11 @@ BAM API 範例示範如何將對 BAM API 的呼叫整合到應用程式，以儲
 |Shipment_config.xml|出貨攔截器組態。|  
 |Shipment_interceptor.bin|已序列化的出貨攔截器。|  
   
-## <a name="how-to-use-this-sample"></a>如何使用此範例  
- 使用下列程序來執行 BAM API 範例並檢視結果。  
+## <a name="run-the-bam-api-sample"></a>執行 BAM API 範例  
   
-#### <a name="to-run-the-bam-api-sample"></a>執行 BAM API 範例  
+1.  開啟命令提示字元，以系統管理員身分，並執行*\<範例路徑\>*\BAM\ BamApiSample\setup.bat。  
   
-1.  開啟命令提示字元並執行*\<範例路徑\>*\BAM\ BamApiSample\setup.bat。 如果您使用[!INCLUDE[btsWinVista](../includes/btswinvista-md.md)]或[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]，開啟命令提示字元，以系統管理員身分。  
-  
-2.  啟動[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]，並開啟*\<範例路徑\>*BAMAPISAMPLE\BAMAPISAMPLE.SLN 方案。 如果您使用的是 [!INCLUDE[btsWinVista](../includes/btswinvista-md.md)] 或 [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]，請以系統管理員身分啟動 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]。  
+2.  系統管理員身分啟動 Visual Studio，並開啟*\<範例路徑\>*BAMAPISAMPLE\BAMAPISAMPLE.SLN 方案。 
   
     > [!IMPORTANT]
     >  必須在 BamApiSample.cs 檔案的 `//#define Interceptor` 該行前加上註解符號。請勿移除此行中的 “//”。 BAM API 範例僅使用不在 `#if Interceptor` 前置處理器指示詞內的程式碼。  
@@ -157,16 +149,16 @@ BAM API 範例示範如何將對 BAM API 的呼叫整合到應用程式，以儲
   
 5.  約 1 分鐘後，按下 CTRL+C 或關閉命令提示字元視窗以停止 BamApiSample 程式。  
   
-#### <a name="to-view-the-results-of-running-the-bam-api-sample"></a>檢視執行 BAM API 範例的結果  
+## <a name="view-the-results"></a>檢視結果
   
 1.  開啟 SQL Server Management Studio。  
   
-2.  在 SQL Server Management Studio，展開伺服器，展開 **資料庫**，依序展開**BAMPrimaryImport**，然後展開**資料表**。  
+2.  在 SQL Server Management Studio 中，展開伺服器，展開 **資料庫**, ，依序展開 **BAMPrimaryImport**, ，然後展開 **資料表**。  
   
-3.  以滑鼠右鍵按一下**dbo.bam_bamapiinvoice_active** ，然後按一下 **開啟資料表**。 如果您使用 SQL Server，請按一下**選取前 1000 個資料列**。  
+3.  以滑鼠右鍵按一下 **dbo.bam_BAMApiInvoice_Active** 然後按一下  **開啟資料表**。 如果您使用 SQL Server，請按一下**選取前 1000 個資料列**。  
   
      bam_BAMApiInvoice_Active 資料表的內容會顯示於右窗格。 資料表中的每個資料列各代表一個已啟動但尚未完成的 BAMApiInvoice 活動。  
   
-4.  以滑鼠右鍵按一下**dbo.bam_bamapipo_completed** ，然後按一下 **開啟資料表**。 如果您使用 SQL Server，請按一下**選取前 1000 個資料列**。  
+4.  以滑鼠右鍵按一下 **dbo.bam_BAMApiPo_Completed** 然後按一下  **開啟資料表**。 如果您使用 SQL Server，請按一下**選取前 1000 個資料列**。  
   
      bam_BAMApiPo_Completed 資料表的內容會顯示於右窗格。 資料表中的每個資料列各代表一個已完成的 BAMApiPo 活動。

@@ -9,15 +9,15 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: b3ff6cb9-44d0-46cd-9b4f-a346365afb7b
-caps.latest.revision: "10"
+caps.latest.revision: 
 author: tordgladnordahl
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7a6fe0c50527f51b599bca5f51c7b8ed8fb7313e
-ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
+ms.openlocfilehash: f5ddd60f72955c7196edfc8bf2310b73226d2abe
+ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="send-biztalk-tracking-data-to-azure-application-insights-or-event-hubs"></a>傳送 BizTalk 追蹤資料到 Azure Application Insights 或事件中心
 
@@ -30,10 +30,10 @@ ms.lasthandoff: 11/21/2017
 
 您可以使用這些 Azure 服務，從接收埠、 傳送埠和協調流程追蹤您的執行個體。
 
-## <a name="prerequisites"></a>必要條件
+## <a name="prerequisites"></a>필수 구성 요소
 * 建立的新執行個體[Application Insights](https://docs.microsoft.com/azure/application-insights/app-insights-create-new-resource)。 BizTalk Server 會使用**檢測金鑰**來驗證。
 * 建立[Azure 事件中樞命名空間和事件中樞](https://docs.microsoft.com/azure/event-hubs/event-hubs-create)。 BizTalk Server 會使用 SAS （命名空間層級） 或事件中心層級的原則來驗證。
-* 安裝[功能套件 2](https://aka.ms/bts2016fp2)上您[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]
+* 安裝[功能套件 2](https://aka.ms/bts2016fp2)上您 [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]
 
 ## <a name="enable-analytics-for-your-environment"></a>啟用分析為您的環境
 
@@ -54,7 +54,7 @@ ms.lasthandoff: 11/21/2017
 
     ![啟用分析為您的環境](../core/media/send-tracking-data-to-azure.png)
 
-5. 選取 [確定] 儲存您的變更。 
+5. 選取 **確定** 以儲存變更。 
 
 一旦啟用[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]已準備好傳送您的 Azure 資源的資料。 接下來，啟用您的連接埠和協調流程上的分析。 
 
@@ -65,7 +65,7 @@ ms.lasthandoff: 11/21/2017
     
     ![協調流程的追蹤資料](../core/media/orchestrationsettingsapplicationinsight.PNG)
 
-3. 選取 [確定] 儲存您的變更。
+3. 選取 **確定** 以儲存變更。
 4. 重新啟動追蹤主控件執行個體，並確認 BizTalk 應用程式已啟動。
 
 > [!TIP]
@@ -85,7 +85,7 @@ ms.lasthandoff: 11/21/2017
 4. 返回您的 Application Insights 資源，並選取**分析**。 在**使用量**，選取**執行**。 範例查詢會執行，而且結果會顯示在圖表中。  
 
 > [!TIP]
-> Azure 的 Application Insights 是功能強大的工具。 沒有可協助您撰寫查詢，在 Application Insights 中的資源[Application Insights 中的分析](https://docs.microsoft.com/azure/application-insights/app-insights-analytics)，以及甚至開始在[Application Insights 是什麼？](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-overview)。
+> Azure 的 Application Insights 是功能強大的工具。 沒有可協助您撰寫查詢，在 Application Insights 中的資源[Application Insights 中的分析](https://docs.microsoft.com/azure/application-insights/app-insights-analytics)，以及甚至開始在[Application Insights 是什麼？](https://docs.microsoft.com/azure/application-insights/app-insights-overview)。
 
 #### <a name="use-event-hubs"></a>使用事件中心
 一旦將資料傳送至事件中心時，有幾種方式，以查看資料。 許多事件中心的使用者都使用事件中心擷取資料流的資料載入至 Azure。 目的是讓您將重點放在資料處理，而不是在資料擷取。 [事件中心擷取](https://docs.microsoft.com/azure/event-hubs/event-hubs-capture-overview)說明運作方式以及如何加以設定。

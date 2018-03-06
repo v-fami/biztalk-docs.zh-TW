@@ -8,27 +8,27 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: 57d7c0bf-a707-4ebd-afab-e75dd80c3c34
-caps.latest.revision: "9"
+caps.latest.revision: 
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 23ec36d960173c9ce912bb89a38b1df9590f84e5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f7cee568cda6c869ede94e28bce441462c0c7cdc
+ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="orchestration-dehydration-and-rehydration"></a>協調流程凍結和解除凍結
 當許多長時間執行的商務程序同時執行時，記憶體和效能是可能發生的問題。 協調流程引擎透過「凍結」和「解除凍結」協調流程執行個體來解決這些問題。  
   
- 凍結是將協調流程狀態序列化到 SQL Server 資料庫中的程序。 解除凍結是此程序的反向： 還原序列化資料庫從協調流程的最後一個執行中狀態。 凍結是藉由減少必須一次在記憶體中產生的協調流程數目，來將系統資源的使用降至最低。  
+ 凍結是將協調流程狀態序列化到 SQL Server 資料庫中的程序。 解除凍結是此程序的反向︰ 還原序列化的協調流程從資料庫上次執行狀態。 凍結是藉由減少必須一次在記憶體中產生的協調流程數目，來將系統資源的使用降至最低。  
   
 ## <a name="dehydration"></a>Dehydration  
  協調流程引擎可能會判斷協調流程執行個體是否已經閒置相當長的一段時間。 它會計算閾值以決定各種動作發生之前應等待多久時間，若已超過這些閾值，則會凍結該執行個體。 這可能發生在下列情況下：  
   
 -   當協調流程等待接收訊息，且等待時間超過引擎決定的閾值。  
   
--   當協調流程會 「 接聽 」 訊息，如同您使用**接聽**圖形與任何分支之前不會觸發引擎決定的閾值。 唯一的例外是當**接聽**圖形包含啟動接收。  
+-   當協調流程 「 接聽 」 的訊息，當您使用一樣 **接聽** 圖形與任何分支之前不會觸發引擎決定的閾值。 唯一的例外是當 **接聽** 圖形包含啟動接收。  
   
 -   當協調流程中的延遲超過引擎決定的閾值。  
   
@@ -41,9 +41,7 @@ ms.lasthandoff: 09/20/2017
   
  協調流程可設定為在一個以上的伺服器中執行。 在某個協調流程執行個體已經凍結之後，可以在這些伺服器中的任何一個將它解除凍結。 如果某個伺服器關閉，則引擎會在其他伺服器中，從它先前的狀態繼續執行協調流程。 引擎也會利用此功能，實作伺服器之間的負載平衡。  
   
-## <a name="in-this-section"></a>本節內容  
-  
--   [從 BizTalk Server 2004 的凍結原則中的變更](../core/changes-in-dehydration-policy-from-biztalk-server-2004.md)  
+## <a name="next-steps"></a>後續的步驟
   
 -   [凍結預設屬性](../core/dehydration-default-properties.md)  
   
@@ -55,4 +53,4 @@ ms.lasthandoff: 09/20/2017
   
 -   [BTSNTSvc.exe.config 檔案](../core/btsntsvc-exe-config-file.md)  
   
--   [其他可能影響凍結行為的活動](../core/other-activities-that-can-affect-dehydration-behavior.md)
+-   [可能影響凍結行為的其他活動](../core/other-activities-that-can-affect-dehydration-behavior.md)

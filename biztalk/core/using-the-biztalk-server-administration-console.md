@@ -7,21 +7,16 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-helpviewer_keywords:
-- Administration Console [BizTalk Server], how to
-- Administration Console [BizTalk Server], about Administration Console
-- artifacts, list
-- groups, Hub
 ms.assetid: af00d9de-0f94-407b-b6f4-4da63a0867a0
-caps.latest.revision: "42"
+caps.latest.revision: 
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: de8b806c8a6f39608608a3eabc975cf606410abc
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: 52cc7b687dc081b84dbdd8079c314468580ad4b6
+ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="using-the-biztalk-server-administration-console"></a>使用 BizTalk Server 管理主控台
 BizTalk Server 管理主控台是您可以用來管理與監控 BizTalk Server 的 Microsoft Management Console (MMC)，您也可以用它來部署與管理您的 BizTalk Server 應用程式。  
@@ -30,7 +25,7 @@ BizTalk Server 管理主控台是您可以用來管理與監控 BizTalk Server �
   
  當您在主控台樹狀結構中選取節點時，管理主控台右窗格上的詳細資料窗格會顯示項目的相關資訊。  
   
- 在主控台樹狀目錄中選取 [BizTalk Server 管理] 節點會顯示 [開始] 頁面，其中包含您可以執行的動作，例如，連接到現有的 BizTalk Server 群組。 此外，[開始] 頁面包含 BizTalk Server 文件和線上社群網站的連結。  
+ 在主控台樹狀目錄中選取 [BizTalk Server 管理] 節點會顯示 [開始] 頁面，其中包含您可以執行的動作，例如，連接到現有的 BizTalk Server 群組。 此外，[開始] 頁面包含 BizTalk Server 文件與線上社群網站的連結。  
   
  如需使用管理主控台之鍵盤快速鍵，請參閱[管理主控台鍵盤快速鍵](../core/administration-console-keyboard-shortcuts.md)。  
   
@@ -79,52 +74,50 @@ BizTalk Server 管理主控台是您可以用來管理與監控 BizTalk Server �
   
     -   **配接器**。 配接器節點包含所有為 BizTalk Server 群組與相關配接器處理常式設定之傳送與接收配接器的子節點。 配接器是用來在端點之間傳送和接收訊息的傳訊中介軟體。 如需詳細資訊，請參閱[使用配接器](../core/using-adapters.md)。  
 
-## <a name="tips-and-tricks"></a>秘訣和訣竅
+## <a name="tips-and-tricks"></a>秘訣與技巧
 
-#### <a name="update-settings-for-multiple-hosts-and-host-instances-simultaneously"></a>同時更新多個主控件和主控件執行個體的設定
+#### <a name="update-settings-for-multiple-hosts-and-host-instances-simultaneously"></a>同時更新多個主機和主控件執行個體的設定
 從開始[!INCLUDE[bts2016_md](../includes/bts2016-md.md)]，您可以選取多個主控件和主控件執行個體，並更新設定中的某些**設定儀表板**。
 
 **步驟**:
 
-1. 在 BizTalk 管理中，依序展開**BizTalk 群組**，然後展開**平台設定**。
-2. 選取**主機**。 在主機清單中，使用 CTRL 或 SHIFT 鍵同時選取多個主機上。
-3. 以滑鼠右鍵按一下的主機，您選取，並選取**設定**。 或者，選取**設定**動作 窗格中。
-4. 設定儀表板 的一般和節流設定可設定，並套用至多部主機您已選取。 
-5. 接下來，選取**主控件執行個體**。 在主控件執行個體清單中，使用 CTRL 或 SHIFT 鍵同時選取多個主控件執行個體。 在**設定**，.NET CLR 與協調流程節流設定可以套用至您選取多個主控件執行個體。 
+1. 在 BizTalk 管理中，依序展開 **BizTalk 群組**, ，並展開 **平台設定**。
+2. 選取 **主機**。 在主機清單中，使用 CTRL 或 SHIFT 鍵同時選取多個主機上。
+3. 以滑鼠右鍵按一下的主機，您選取此選項，然後選取 **設定**。 或者，選取 **設定** 動作 窗格中。
+4. 設定儀表板的一般] 和 [節流設定可設定，及套用到多部主機您已選取。 
+5. 接下來，選取 **主控件執行個體**。 在主控件執行個體清單中，使用 CTRL 或 SHIFT 鍵同時選取多個主控件執行個體。 在 **設定**, ，.NET CLR 和協調流程節流設定可套用至您選取多個主控件執行個體。 
 
 > [!NOTE]
-> 您可以選取多個主機和主機類型相同的主控件執行個體。 如果主機類型不同，**設定**選項呈現灰色。例如，如果您複選內含式主控件和外掛式主控件，然後**設定**會變成灰色。
+> 您可以選取多個主機和主機類型相同的主控件執行個體。 如果主機類型並不相同， **設定** 選項呈現灰色。例如，如果您複選內含式主控件和外掛式主控件，然後**設定**會變成灰色。
 
 #### <a name="filter-artifacts-in-your-application"></a>篩選您的應用程式中的成品
 從開始[!INCLUDE[bts2016_md](../includes/bts2016-md.md)]，您可以在您的應用程式中搜尋成品。 例如，您可以搜尋特定的結構描述或協調流程的應用程式中。 
 
 **步驟**:
 
-1. 在 BizTalk 管理中，依序展開**BizTalk 群組**，依序展開**應用程式**，並展開其中一個應用程式的成品。 例如，展開  **BizTalk EDI 應用程式**。 
-2. 選取**結構描述**。 在結構描述清單中，使用**搜尋**方塊來搜尋結構描述，或篩選顯示的結構描述。 例如，輸入在**x12**在搜尋方塊中，然後按 enter 鍵。 會顯示所有在名稱中的 x12 結構描述。 清除您的搜尋。 
+1. 在 BizTalk 管理中，依序展開 **BizTalk 群組**, ，依序展開 **應用程式**, ，展開其中一個應用程式的成品。 例如，展開  **BizTalk EDI 應用程式**。 
+2. 選取 **結構描述**。 在結構描述清單中，使用 **搜尋** 方塊來搜尋結構描述，或篩選顯示的結構描述。 例如，輸入在 **x12** 在搜尋方塊中，並按下 enter 鍵。 X12 名稱中使用的所有結構描述會顯示。 清除您的搜尋。 
 
-    接著，輸入在**批次**在搜尋方塊中，然後按 enter 鍵。 批次結構描述會顯示。 
+    接下來，輸入 **批次** 在搜尋方塊中，並按下 enter 鍵。 批次結構描述會顯示。 
     
 您可以使用這項搜尋來尋找或篩選的任何成品與應用程式，包括傳送埠、 資源、 對應等等。 
 
-#### <a name="save-multiple-suspended-messages-simultaneously-to-a-file-within-group-hub"></a>同時將多個擱置的訊息儲存到中樞群組內的檔案 
+#### <a name="save-multiple-suspended-messages-simultaneously-to-a-file-within-group-hub"></a>群組中樞 」 內的檔案同時儲存多個擱置的訊息 
 從開始[!INCLUDE[bts2016_md](../includes/bts2016-md.md)]，您可以將多個擱置的訊息儲存至檔案的同時。
 
 **步驟**:
 
-1. 在 BizTalk 管理中，選取  **BizTalk 群組**
-2. 選取**新查詢**，並在查詢中，**的 搜尋**
+1. 在 BizTalk 管理中，選取 **BizTalk 群組**
+2. 選取 **新查詢**, ，並在查詢中， **的搜尋**
 
-    搜尋已歸檔的名稱：  
-    運算子： 等於  
-    值： 訊息
-3. 選取**執行查詢**。 在查詢結果中，使用 CTRL 或 SHIFT 鍵同時選取多個擱置的執行個體。 以滑鼠右鍵按一下，然後選取**檔案安全**。 
+    搜尋欄位的名稱︰  
+    運算子︰ 等於  
+    值︰ 訊息
+3. 選取 **執行查詢**。 在查詢結果中，使用 CTRL 或 SHIFT 鍵同時選取多個擱置的執行個體。 以滑鼠右鍵按一下，然後選取 **安全檔案**。 
 4. 選擇您要儲存檔案的資料夾。 儲存時，每個訊息建立 XML 檔案。
 
-## <a name="in-this-section"></a>本節內容  
+## <a name="next-steps"></a>後續的步驟
   
--   [如何開啟 BizTalk Server 管理主控台](../core/how-to-open-the-biztalk-server-administration-console.md)  
+-   [開啟 BizTalk Server 管理主控台](../core/how-to-open-the-biztalk-server-administration-console.md)  
   
--   [使用 BizTalk Server 管理主控台設定追蹤](http://msdn.microsoft.com/en-us/49b7f9d3-60b5-41bd-ba8b-029253926bef)  
-  
--   [使用群組中樞頁面](../core/using-the-group-hub-page.md)
+-   [使用 [群組中樞] 頁面](../core/using-the-group-hub-page.md)
