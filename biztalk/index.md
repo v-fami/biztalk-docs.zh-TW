@@ -1,11 +1,11 @@
 ---
 layout: HubPage
-hide_bc: True
+hide_bc: 
 title: "Microsoft BizTalk Server 文件"
 description: 
 services: biztalk-service
 documentationcenter: 
-caps.latest.revision: "31"
+caps.latest.revision: 
 author: MandiOhlinger
 manager: anneta
 editor: 
@@ -14,14 +14,14 @@ ms.prod: biztalk-server
 ms.workload: integration
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.topic: article
+ms.topic: hub-page
 ms.date: 06/19/2017
 ms.author: mandia
-ms.openlocfilehash: 46c086b7c0281b84bd234be773f063269197c9dc
-ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
+ms.openlocfilehash: 40c41d2aee768c43fb547b29f5a962027ad5bd9b
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 03/20/2018
 ---
 <div id="main" class="v2">
     <div class="container">
