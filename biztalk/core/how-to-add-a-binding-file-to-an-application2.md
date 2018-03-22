@@ -1,15 +1,15 @@
 ---
-title: "應用程式中加入繫結檔案 |Microsoft 文件"
-description: "新增繫結檔案，使用 BizTalk Server 管理，或使用 BizTalk Server 中的 命令提示字元"
-ms.custom: 
+title: 應用程式中加入繫結檔案 |Microsoft 文件
+description: 新增繫結檔案，使用 BizTalk Server 管理，或使用 BizTalk Server 中的 命令提示字元
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1543ee5f-9ae4-4683-b6fe-ee84028c381d
-caps.latest.revision: 
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -76,7 +76,7 @@ ms.lasthandoff: 02/28/2018
   
 2.  輸入下列命令，並以適當的值替代，如下表所述：  
   
-     **BTSTask AddResource** [**/ApplicationName:"***值***"**] **/Type:System.BizTalk:BizTalkBinding** [**/Overwrite**] **/Source:***值***/Property:TargetEnvironment ="***值***"** [**/Server: * **值*][**/: * **值*]  
+     **BTSTask AddResource** [**/ApplicationName:"***值***"**] **/Type:System.BizTalk:BizTalkBinding** [**/Overwrite**] **/Source:***值***/Property:TargetEnvironment="***值***"** [**/Server:***值*][**/:***值*]  
   
      範例：  
   
