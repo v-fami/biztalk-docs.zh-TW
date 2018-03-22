@@ -1,14 +1,14 @@
 ---
-title: "建立使用商務規則編輯器 」 的規則 |Microsoft 文件"
-ms.custom: 
+title: 建立使用商務規則編輯器 」 的規則 |Microsoft 文件
+ms.custom: ''
 ms.date: 02/01/2018
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0600a2b2-36a2-4496-8ba1-c5f6e2fa4760
-caps.latest.revision: 
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,9 +21,9 @@ ms.lasthandoff: 02/01/2018
 # <a name="create-business-rules-using-the-business-rule-composer"></a>建立使用商務規則編輯器 」 的商務規則
 
 ## <a name="overview"></a>概觀
-비즈니스 규칙 작성기를 사용하면 하나 이상의 비즈니스 규칙으로 비즈니스 정책을 만들 수 있으며 이러한 정책을 배포할 수 있습니다. 또한 팩트(XML, 데이터베이스 및 .NET)를 찾아보고 비즈니스 규칙에서 팩트를 사용할 수도 있습니다. 뿐만 아니라 팩트를 기반으로 비즈니스 어휘를 만들고 비즈니스 규칙에서 이러한 어휘를 사용할 수 있습니다.  
+「商務規則編輯器」可讓您建立含有一或多項商務規則的商務原則，並可讓您部署這些原則。 其也可讓您瀏覽事實 (XML、資料庫和 .NET)，並在商務規則中使用這些事實。 此外，其還可讓您根據事實建立商務詞彙，並在商務規則中使用這些詞彙。  
   
- 이 섹션에서는 비즈니스 규칙 작성기를 사용하여 비즈니스 규칙을 만드는 작업 관련 정보를 제공합니다.  
+ 本節提供有關使用「商務規則編輯器」以建立商務規則的工作特定資訊。  
   
 ## <a name="next-steps"></a>後續的步驟
   
