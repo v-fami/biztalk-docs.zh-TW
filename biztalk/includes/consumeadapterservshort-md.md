@@ -1,1 +1,1 @@
-<span data-ttu-id="f9b87-101">使用配接器服務增益集</span><span class="sxs-lookup"><span data-stu-id="f9b87-101">Consume Adapter Service Add-in</span></span>
+<span data-ttu-id="78fd7-101">使用配接器服務增益集</span><span class="sxs-lookup"><span data-stu-id="78fd7-101">Consume Adapter Service Add-in</span></span>

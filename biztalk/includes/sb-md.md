@@ -1,1 +1,1 @@
-<span data-ttu-id="ab07c-101">Service Bus</span><span class="sxs-lookup"><span data-stu-id="ab07c-101">Service Bus</span></span>
+<span data-ttu-id="da2da-101">Service Bus</span><span class="sxs-lookup"><span data-stu-id="da2da-101">Service Bus</span></span>

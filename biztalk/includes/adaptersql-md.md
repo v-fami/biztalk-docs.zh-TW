@@ -1,1 +1,1 @@
-<span data-ttu-id="b6057-101">Microsoft BizTalk Adapter for SQL Server</span><span class="sxs-lookup"><span data-stu-id="b6057-101">Microsoft BizTalk Adapter for SQL Server</span></span>
+<span data-ttu-id="82bba-101">Microsoft BizTalk Adapter for SQL Server</span><span class="sxs-lookup"><span data-stu-id="82bba-101">Microsoft BizTalk Adapter for SQL Server</span></span>
