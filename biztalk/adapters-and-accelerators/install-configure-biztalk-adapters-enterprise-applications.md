@@ -1,21 +1,21 @@
 ---
-title: "安裝 BizTalk Adapters for Enterprise Applications |Microsoft 文件"
-description: "需求和 JD Edwards OneWorld 中，JD Edwards EnterpriseOne，PeopleSoft Enterprise、 TIBCO Rendezvous 和 TIBCO Enterprise Message Service 在 BizTalk Server 上的安裝步驟"
-ms.custom: 
+title: 安裝 BizTalk Adapters for Enterprise Applications |Microsoft 文件
+description: 需求和 JD Edwards OneWorld 中，JD Edwards EnterpriseOne，PeopleSoft Enterprise、 TIBCO Rendezvous 和 TIBCO Enterprise Message Service 在 BizTalk Server 上的安裝步驟
+ms.custom: ''
 ms.date: 10/13/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 8fa1a09f3d9fa531cee51ecd0e94b99ab972ba13
-ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="install-and-configure-the-microsoft-biztalk-adapters-for-enterprise-applications"></a>安裝和設定 Microsoft BizTalk Adapters for Enterprise Applications 
   
@@ -44,7 +44,7 @@ ms.lasthandoff: 10/17/2017
 |支援的企業系統|[支援的特定業務 (LOB) 和企業系統](http://social.technet.microsoft.com/wiki/contents/articles/17631.biztalk-server-supported-line-of-business-lob-and-enterprise-systems.aspx)列出支援的版本 |
 |JD Edwards OneWorld XE | <ul><li>在 Windows 上的 JD Edwards 企業伺服器</li><li>在 Windows 上的 JD Edwards 部署伺服器</li></ul>|
 |JD Edwards EnterpriseOne | 配接器會呼叫 JD Edwards EnterpriseOne API 使用 JDBC 驅動程式所需要的資料庫。 如果您使用 SQL 資料庫安裝 JD Edwards EnterpriseOne，則需要 MS-SQL 驅動程式。 同樣地如果您使用 Oracle 資料庫安裝 JD Edwards EnterpriseOne，您需要 Oracle 驅動程式。或者，如果您安裝與 DB2 資料庫，則需要 DB2 驅動程式。 |
-|PeopleSoft Enterprise | <ul><li>Sun Systems Java Development Kit (JDK)</li><li>PeopleSoft 工具版本</li><li>PeopleSoft 應用程式版本</li><li>此配接器需要修改 PeopleSoft 應用程式。 若要使用的元件介面，請將自訂元件介面 GET_CI_INFO 上傳至 PeopleSoft。 GET_CI_INFO.pc 位於 Program Files\Common Files\Microsoft BizTalk Adapters for enterprise \Config\。</li></ul>|
+|PeopleSoft Enterprise | <ul><li>Sun Systems Java Development Kit (JDK)</li><li>PeopleSoft 工具版本</li><li>PeopleSoft 應用程式版本</li><li>此配接器需要修改 PeopleSoft 應用程式。 若要使用的元件介面，請將自訂元件介面 GET_CI_INFO 上傳至 PeopleSoft。 GET_CI_INFO.pc is in Program Files\Common Files\Microsoft BizTalk Adapters for Enterprise Applications\PeopleSoft Enterprise(r)\Config\.</li></ul>|
 |TIBCO Rendezvous | <ul><li>BizTalk Adapter for TIBCO Rendezvous 執行所在的電腦上必須安裝 TIBCO Rendezvous 執行階段元件</li><li>TIBCO Rendezvous 授權必須設定 BizTalk Adapter for TIBCO Rendezvous 執行所在的電腦上。</li><li>配接器必須能夠看到 TIBCO Rendezvous 二進位檔目錄：在環境變數 PATH 值中，或在 BizTalk Server 中的每個 Rendezvous 連接埠上指定。 這對於 Rendezvous 組件尋找其程式庫和可執行檔是必要的。</li></ul>|
 |TIBCO Enterprise Message Service | Enterprise Message Service (EMS) 版本 5.x 及更新版本包含用戶端 SDK （使用 TIBCO EMS C# API）。 BizTalk Adapter for TIBCO EMS 會使用此與伺服器通訊。 |
 
@@ -69,7 +69,7 @@ ms.lasthandoff: 10/17/2017
   
  您可以將這些檔案複製到任何位置；不過，您必須在 CLASSPATH 中指定 JAR 檔案的位置。 CLASSPATH 必須包含 JAR 檔案的完整檔案路徑和名稱 (以分號分隔)。  
   
- BizTalk Adapter for JD Edwards OneWorld 提供 JD Edwards OneWorld 搭配 JDEJAccess JAR 檔案。 根據預設，從參考 JDEJAccess.jar 檔案*Program Files\Common Files\Microsoft BizTalk Adapters for Enterprise applications\j.d.edwards。Edwards OneWorld(r) \classes\JDEJAccess.jar*。 
+ BizTalk Adapter for JD Edwards OneWorld 提供 JD Edwards OneWorld 搭配 JDEJAccess JAR 檔案。 根據預設，從參考 JDEJAccess.jar 檔案*Program Files\Common Files\Microsoft BizTalk Adapters for Enterprise applications\j.d.edwards。Edwards OneWorld(r)\classes\JDEJAccess.jar*. 
   
 > [!NOTE]
 >  您必須確認已註冊 jdeinterop.ini 檔案，才能使用 BizTalk Adapter for JD Edwards OneWorld。 請確定您包含在這個檔案的路徑**JDE Transport Property**頁面上，當您在 BizTalk Server 中建立傳送埠。 如需完整說明，請參閱 「 自訂 jdeinterop.ini 檔案。 」  
@@ -335,13 +335,13 @@ ms.lasthandoff: 10/17/2017
   
 -   D5500900G-測試字串  
   
--   D5500900H-測試日期  
+-   D5500900H - TEST DATE  
   
 -   D5500900I-測試 CHAR  
   
 -   D5500900J - 測試數學數值  
   
--   D5500900K-測試日期 2  
+-   D5500900K - TEST DATE 2  
   
 #### <a name="customize-the-jdeinteropini-file"></a>自訂 jdeinterop.ini 檔案  
  Connector.jar 和 Kernel.jar 中的 JD Edwards OneWorld XE 連接器類別會要求您使用 jdeinterop.ini 的組態檔。 這個檔案由 JD Edwards OneWorld 軟體所定義，並使用其術語。 JD Edwards 互通性手冊發行 OneWorld 可能提供之用途和術語，這個檔案的詳細資訊。 沒有範例 jdeinterop.ini 檔案*< 可 > \config\jde*。  
@@ -357,11 +357,11 @@ ms.lasthandoff: 10/17/2017
   
 |章節|參數和描述|  
 |-------------|-------------------------------|  
-|[JDENET]|**EnterpriseServerTimeout。** 企業伺服器要求的逾時值，以毫秒為單位。 預設大小是 120000。<br /><br /> **Sqlserversink。** JDENET 通訊端連接集區大小。 預設大小為 30。|  
-|[SERVER]|**glossaryTextServer。** 提供詞彙文字資訊的企業伺服器和連接埠。 這是傳回錯誤文字描述的伺服器。 通常是與 JD Edwards OneWorld 應用程式伺服器相同的主機和連接埠。 為了支援不同的語言編碼，可能會有多個詞彙伺服器。 例如，JDED:6010 或 actsrv1:6009。 這些值必須符合在 [系統定義] 中設定的值。<br /><br /> **字碼頁。** 編碼配置中。 預設為 1252年。<br /><br /> 1252 英文和西歐語系<br /><br /> -932 日文<br /><br /> -950 繁體中文<br /><br /> -936 中文 （簡體的)<br /><br /> -949 韓文|  
-|[記錄檔]|**記錄檔 = c:\jas.log。** 記錄檔的位置。 您可以放心地略過這個參數。<br /><br /> **debuglog = c:\jasdebug.log。** 偵錯記錄檔的位置。 您可以放心地略過這個參數。<br /><br /> **偵錯。** 判斷是否開啟 JDENET 偵錯功能。 預設值為 FALSE。|  
-|[DEBUG]|**JobFile = c:\Interop.log。** 錯誤檔的位置。 您可以放心地略過這個參數。<br /><br /> **DebugFile = c:\InteropDebug.log。** 偵錯檔案的位置。 您可以放心地略過這個參數。<br /><br /> **記錄檔 = c:\net.log。** 記錄檔的位置。 您可以放心地略過這個參數。<br /><br /> **debugLevel = 0-12。** 偵錯層級。 您可以放心地略過這個參數。 這會定義指定記錄檔中 COM 連接器和 Callobject 元件所提供的追蹤層級，僅適用於 COM 伺服器。<br /><br /> -無 0。 關閉記錄功能並僅將錯誤寫入 JobFile。<br /><br /> -2 的錯誤 （錯誤訊息）<br /><br /> -4 系統錯誤 （例外狀況訊息）<br /><br /> -6 警告資訊<br /><br /> -8 最小追蹤 （索引鍵作業。 例如登入、 登出、商務功能呼叫)。<br /><br /> -10 的疑難排解資訊 （說明）。<br /><br /> -12 完整的偵錯資訊 （記錄檔的所有項目）<br /><br /> -根據預設，您不必開啟追蹤功能，但在偵錯您的程式碼時，追蹤就很有用。<br /><br /> -NetTraceLevel = 0。 追蹤層級。 您可以放心地略過這個參數。 定義在指定的記錄檔中，COM 伺服器 ThinNet 元件所提供的追蹤層級。 奇數值則保留給未來要加入的層級。<br /><br /> -下列清單描述更多偵錯層級：<br /><br /> -0 無追蹤<br /><br /> -1 表示記錄處理序識別碼、 執行緒識別碼和可用的通訊端狀態時加入新的連接，並搜尋通訊端集區。<br /><br /> -2 包含追蹤層級 1 中的資訊，也會追蹤連接管理員類別中所做的每個呼叫。<br /><br /> -3 包含追蹤層級 2，以及追蹤 getport （） 呼叫和 gethost （） 呼叫中的所有資訊。|  
-|[INTEROP]|**enterpriseServer。** 這個值是主機伺服器的名稱。 請確定此值是您在中輸入的相同值**主機名稱**欄位**JDE [Credentials**一節中**系統定義**中**傳輸屬性**] 對話方塊。 預設為 JDED。<br /><br /> **連接埠。** 這個值是用來交換資料的連接埠編號。 請確定此值是您在中輸入的相同值**連接埠號碼**欄位在 JD Edwards**認證**一節中**傳輸屬性 系統定義**. 例如，6010 或 6009。 在中設定這些值必須符合**系統定義**。<br /><br /> **inactive_timeout**。 自動認可模式下的交易逾時值，以毫秒為單位。 如果使用者在這段時間 (毫秒) 內沒有活動，interop 伺服器會將使用者登出。 您可以將這個值變更為更短的時間。 預設為 1200000。<br /><br /> **manual_timeout。** 以毫秒為單位，在手動認可模式下的交易逾時值。 預設為 120000。<br /><br /> **儲存機制。** 指向包含 Connector.jar 和 Kernel.jar 的目錄位置。 在 UNIX 上，這是完整路徑。|  
+|[JDENET]|**EnterpriseServerTimeout.** 企業伺服器要求的逾時值，以毫秒為單位。 預設大小是 120000。<br /><br /> **maxPoolSize.** JDENET 通訊端連接集區大小。 預設大小為 30。|  
+|[SERVER]|**glossaryTextServer.** 提供詞彙文字資訊的企業伺服器和連接埠。 這是傳回錯誤文字描述的伺服器。 通常是與 JD Edwards OneWorld 應用程式伺服器相同的主機和連接埠。 為了支援不同的語言編碼，可能會有多個詞彙伺服器。 例如，JDED:6010 或 actsrv1:6009。 這些值必須符合在 [系統定義] 中設定的值。<br /><br /> **codePage.** 編碼配置中。 預設為 1252年。<br /><br /> 1252 英文和西歐語系<br /><br /> -932 日文<br /><br /> -950 繁體中文<br /><br /> -936 中文 （簡體的)<br /><br /> -949 韓文|  
+|[LOGS]|**log= c:\jas.log.** 記錄檔的位置。 您可以放心地略過這個參數。<br /><br /> **debuglog= c:\jasdebug.log.** 偵錯記錄檔的位置。 您可以放心地略過這個參數。<br /><br /> **偵錯。** 判斷是否開啟 JDENET 偵錯功能。 預設值為 FALSE。|  
+|[DEBUG]|**JobFile= c:\Interop.log.** 錯誤檔的位置。 您可以放心地略過這個參數。<br /><br /> **DebugFile= c:\InteropDebug.log.** 偵錯檔案的位置。 您可以放心地略過這個參數。<br /><br /> **log= c:\net.log.** 記錄檔的位置。 您可以放心地略過這個參數。<br /><br /> **debugLevel = 0-12。** 偵錯層級。 您可以放心地略過這個參數。 這會定義指定記錄檔中 COM 連接器和 Callobject 元件所提供的追蹤層級，僅適用於 COM 伺服器。<br /><br /> -無 0。 關閉記錄功能並僅將錯誤寫入 JobFile。<br /><br /> -2 的錯誤 （錯誤訊息）<br /><br /> -4 系統錯誤 （例外狀況訊息）<br /><br /> -6 警告資訊<br /><br /> -8 最小追蹤 （索引鍵作業。 例如登入、 登出、商務功能呼叫)。<br /><br /> -10 的疑難排解資訊 （說明）。<br /><br /> -12 完整的偵錯資訊 （記錄檔的所有項目）<br /><br /> -根據預設，您不必開啟追蹤功能，但在偵錯您的程式碼時，追蹤就很有用。<br /><br /> - NetTraceLevel=0. 追蹤層級。 您可以放心地略過這個參數。 定義在指定的記錄檔中，COM 伺服器 ThinNet 元件所提供的追蹤層級。 奇數值則保留給未來要加入的層級。<br /><br /> -下列清單描述更多偵錯層級：<br /><br /> -0 無追蹤<br /><br /> -1 表示記錄處理序識別碼、 執行緒識別碼和可用的通訊端狀態時加入新的連接，並搜尋通訊端集區。<br /><br /> -2 包含追蹤層級 1 中的資訊，也會追蹤連接管理員類別中所做的每個呼叫。<br /><br /> -3 包含追蹤層級 2，以及追蹤 getport （） 呼叫和 gethost （） 呼叫中的所有資訊。|  
+|[INTEROP]|**enterpriseServer.** 這個值是主機伺服器的名稱。 請確定此值是您在中輸入的相同值**主機名稱**欄位**JDE [Credentials**一節中**系統定義**中**傳輸屬性**] 對話方塊。 預設為 JDED。<br /><br /> **連接埠。** 這個值是用來交換資料的連接埠編號。 請確定此值是您在中輸入的相同值**連接埠號碼**欄位在 JD Edwards**認證**一節中**傳輸屬性 系統定義**. 例如，6010 或 6009。 在中設定這些值必須符合**系統定義**。<br /><br /> **inactive_timeout**。 自動認可模式下的交易逾時值，以毫秒為單位。 如果使用者在這段時間 (毫秒) 內沒有活動，interop 伺服器會將使用者登出。 您可以將這個值變更為更短的時間。 預設為 1200000。<br /><br /> **manual_timeout.** 以毫秒為單位，在手動認可模式下的交易逾時值。 預設為 120000。<br /><br /> **儲存機制。** 指向包含 Connector.jar 和 Kernel.jar 的目錄位置。 在 UNIX 上，這是完整路徑。|  
 |[CORBA]|您可以放心地略過這個參數。<br /><br /> **多執行緒。** 您可以忽略此設定。 設定為 1 表示提供多執行緒支援給 CORBA。<br /><br /> Objects= CORBA::Connector;CORBA::OneWorldVersion<br /><br /> 為 CORBA 伺服器定義要在啟動時建立的物件。 也會取代-DIORFILENAME = 命令列選項，例如： CORBA::Connector=connector.ior。|  
   
 ## <a name="jd-edwards-enterpriseone"></a>JD Edwards EnterpriseOne  
@@ -400,7 +400,7 @@ ms.lasthandoff: 10/17/2017
  如果您在記錄檔中收到 jdearglist.txt 警告訊息，其目的是通知您，找不到 jdearglist.txt。 不過，如果您執行 SalesOrder 或 PurchaseOrder 商務功能，您必須擁有該檔案在路徑中或無法運作。  
   
 ### <a name="understand-jdeinteropini"></a>了解 jdeinterop.ini  
- Connector.jar 和 Kernel.jar 中的 JD Edwards EnterpriseOne 連接器類別會要求您使用名為 jdeinterop.ini 的組態檔。 這個檔案是由 JD Edwards EnterpriseOne 軟體所定義，並使用其術語。 如需這個檔案之用途和術語的詳細資訊，請參閱 "JD Edwards Interoperability Guide"。 沒有範例 jdeinterop.ini 檔案： Program Files\ Microsoft BizTalk Adapters for Enterprise Applications\ J.D. Edwards EnterpriseOne(r) \config。  
+ Connector.jar 和 Kernel.jar 中的 JD Edwards EnterpriseOne 連接器類別會要求您使用名為 jdeinterop.ini 的組態檔。 這個檔案是由 JD Edwards EnterpriseOne 軟體所定義，並使用其術語。 如需這個檔案之用途和術語的詳細資訊，請參閱 "JD Edwards Interoperability Guide"。 沒有範例 jdeinterop.ini 檔案： Program Files\ Microsoft BizTalk Adapters for Enterprise Applications\ J.D. Edwards EnterpriseOne(r)\config.  
   
  不建議您先手動編輯此檔案因為與它互動**傳輸屬性**對話方塊的 傳送埠，例如這些欄位標記為  **< by Biztalk>\>**.  
   
@@ -434,7 +434,7 @@ ms.lasthandoff: 10/17/2017
   
 #### <a name="set-classpath-environment-variable"></a>設定 ClassPath 環境變數  
 
-**更新 JAVA_HOME**    
+**Update JAVA_HOME**    
   
  請將 JAVA_HOME 變數設定為指向 JDK 安裝，例如：  
   
@@ -499,7 +499,7 @@ and bc2.BCTYPE in (1, 2))
   
 3.  在 應用程式設計工具中，在**檔案**功能表上，選取**新增**。  
   
-4.  在**新增**對話方塊中，選取**元件介面**，然後按一下**確定**。  
+4.  在 **新增** 對話方塊中，選取 **元件介面**, ，然後按一下  **確定**。  
   
 5.  按一下 [選取]。  
   
@@ -538,13 +538,13 @@ select distinct BCNAME from PSBCITEM bc1 where not exists (select 1 from PSBCITE
   
 3.  在**權限清單**窗格的右邊按一下向右箭號旁**sign-on Times**索引標籤，顯示**元件介面** 索引標籤。  
   
-4.  按一下**元件介面** 索引標籤。  
+4.  按一下 [ **元件介面** ] 索引標籤。  
   
 5.  按一下加號 （+），加入新的資料列以**元件介面**清單。  
   
 6.  選取**GET_CI_INFO**元件介面，然後再按一下**編輯**。  
   
-7.  若要將方法設定為**完整存取**，按一下**Full Access (All)**，然後按一下 **[確定]**。  
+7.  若要將方法設定為**完整存取**，按一下**Full Access (All)**，然後按一下  **確定**。  
   
 8.  捲動至底部**元件介面**視窗中，然後再按一下**儲存**。  
   
@@ -616,7 +616,7 @@ select distinct BCNAME from PSBCITEM bc1 where not exists (select 1 from PSBCITE
   
 4.  選取從您輸入的名稱**配接器**清單，並選取**確定**。  
    
-## <a name="post-install---jd-edwards-oneworld"></a>後續安裝-JD Edwards OneWorld  
+## <a name="post-install---jd-edwards-oneworld"></a>Post-install - JD Edwards OneWorld  
  Microsoft BizTalk Adapter for JD Edwards OneWorld 介面支援的資料庫與 Microsoft BizTalk server 的伺服器系統傳輸配接器所組成。 傳輸配接器可讓您叫用從 BizTalk Server 的伺服器系統的呼叫。 傳輸配接器 (BizTalk Server 管理傳送處理常式) 組態會指定 SQL 資料庫的位置。  
   
  請參閱有關如何使用 BizTalk Adapter for JD Edwards OneWorld 以及其模型與 BizTalk Server 模型之間的對應資訊的配接器文件。  
@@ -653,7 +653,7 @@ select distinct BCNAME from PSBCITEM bc1 where not exists (select 1 from PSBCITE
     -   Microsoft.BizTalk.Adapters.JDEProperties.dll    
     -   jdecba.dll  
   
-## <a name="post-install---jd-edwards-enterpriseone"></a>後續安裝-JD Edwards EnterpriseOne  
+## <a name="post-install---jd-edwards-enterpriseone"></a>Post-install - JD Edwards EnterpriseOne  
  Microsoft BizTalk Adapter for JD Edwards EnterpriseOne 包含傳輸配接器，可與支援的資料庫和 BizTalk server 的伺服器系統。 傳輸配接器可讓您叫用從 BizTalk Server 的伺服器系統的呼叫。  
   
  BizTalk Adapter for JD Edwards EnterpriseOne 提供支援的企業單一登入 (SSO)。 如果您選取使用在 SSO**傳輸屬性**頁面上，認證會使用 SSO 認證資料庫中的分支機構應用程式。 分支機構應用程式代表需要認證的後端應用程式。  
@@ -683,7 +683,7 @@ select distinct BCNAME from PSBCITEM bc1 where not exists (select 1 from PSBCITE
     -   sdk  
   
  
-## <a name="post-install---peoplesoft-enterprise"></a>後續安裝-PeopleSoft Enterprise  
+## <a name="post-install---peoplesoft-enterprise"></a>Post-install - PeopleSoft Enterprise  
  Microsoft BizTalk Adapter for PeopleSoft Enterprise 包含傳輸配接器，可將支援的資料庫和伺服器系統連接到 BizTalk Server。 傳輸配接器可讓您叫用從 BizTalk Server 的伺服器系統的呼叫。 傳輸配接器 (BizTalk Server 管理傳送處理常式) 組態會指定 SQL 資料庫的位置。  
   
  BizTalk Adapter for PeopleSoft Enterprise 提供支援的企業單一登入 (SSO)。 如果您選取使用在 SSO**傳輸屬性**頁面上，認證會使用 SSO 認證資料庫中的分支機構應用程式。 分支機構應用程式代表需要認證的後端應用程式。  
@@ -704,7 +704,7 @@ select distinct BCNAME from PSBCITEM bc1 where not exists (select 1 from PSBCITE
     -   config\btaPeopleSoftTrace.mof    
     -   config\GET_CI_INFO.pc    
     -   config\GET_CI_INFO.pc    
-    -   sdk\<sdk  
+    -   sdk\  
   
 * *程式 Files\Common Files\Microsoft BizTalk Adapters for Enterprise Applications*包含下列檔案：  
   
@@ -748,7 +748,7 @@ select distinct BCNAME from PSBCITEM bc1 where not exists (select 1 from PSBCITE
     -   bin\Microsoft.BizTalk.Adapters.CoreTransmitter.dll    
     -   bin\Microsoft.BizTalk.Adapters.TibRV.Properties.dll    
     -   Config\btaTibcoRVTrace.mof    
-    -   sdk\<sdk  
+    -   sdk\  
   
 * *程式 Files\Common Files\Microsoft BizTalk Adapters for Enterprise Applications*包含下列檔案：  
   
@@ -758,7 +758,7 @@ select distinct BCNAME from PSBCITEM bc1 where not exists (select 1 from PSBCITE
     -   Microsoft.BizTalk.Adapters.CoreTransmitter.dll  
   
 ### <a name="add-tibcorendezvousdll-to-the-gac"></a>將 TIBCO。Rendezvous.dll gac  
- BizTalk Adapter for TIBCO Rendezvous 需要**TIBCO。Rendezvous.dll**檔案。 所需的最低版本是 1.0.3036.23330 FileVersion，隨附於產品 8.1 版。 配接器會觸發例外狀況，並記錄適當的訊息，如果未安裝這個組件。  
+ BizTalk Adapter for TIBCO Rendezvous 需要**TIBCO。Rendezvous.dll**檔案。 所需的最低版本是 1.0.3036.23330 FileVersion，隨附於產品 8.1 版。 配接器就會觸發例外狀況，並記錄適當的訊息，如果未安裝這個組件。  
   
  若要載入的組件，讓 TIBCO 的特定版本時，TIBCO Rendezvous 組件不會失敗，您必須使用晚期繫結。Rendezvous.dll 和 TIBCO。Rendezvous.net 模組不在目標電腦上。
   
@@ -793,7 +793,7 @@ C:\TIBCO\TIBRV\BIN > gacutil /i TIBCO.Rendezvous.dll
     -   bin\BTATibcoEMSTrace.cmd    
     -   Microsoft.BizTalk.Adapters.TibcoEMS.dll    
     -   Config\btaTibcoEMSTrace.mof    
-    -   sdk\<sdk  
+    -   sdk\  
   
 * *程式 Files\Common Files\Microsoft BizTalk Adapters for Enterprise Applications\bin*資料夾包含下列檔案：  
   
@@ -857,7 +857,7 @@ C:\TIBCO\TIBRV\BIN > gacutil /i TIBCO.Rendezvous.dll
   
     如果要讓取用者應用程式可讀取 .etl 檔案中的事件，「Windows 事件追蹤」必須將它們傾印到該檔案。 此動作通常是在控制器停用追蹤後完成的。  
   
-    若要使用取用者應用程式，而不停用追蹤，控制器必須啟動使用即時選項時，追蹤**< 即時\>=-rt**。  
+    若要使用的消費者應用程式，而不需要停用追蹤，控制器必須啟用使用即時選項時，追蹤 **< 即時\> =-rt**。  
   
 * **提供者：**用來提供事件。  
   
@@ -896,9 +896,9 @@ BTA<Adapter Name>Trace <Trace element> -stop
   
  **-開始、-停止：**啟用或停用提供者。  
   
- **-cir < MB\>:**檔案的大小與種類。 **-cir**是循環檔案。 **< MB\>:**大小以 mb 為單位。  
+ **-cir < MB\>:**檔案的大小與種類。 **-cir** 是循環檔案。 **< MB\>:**大小以 mb 為單位。  
   
- **-seq < MB\>:**檔案的大小與種類。 **-seq**是循序檔案。 **< MB\>:**大小以 mb 為單位。  
+ **-seq < MB\>:**檔案的大小與種類。 **-seq** 是循序檔案。 **< MB\>:**大小以 mb 為單位。  
   
  **-rt:**上設定的即時模式。  
   

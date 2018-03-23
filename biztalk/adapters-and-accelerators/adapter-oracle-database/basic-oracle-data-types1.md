@@ -1,25 +1,25 @@
 ---
-title: "基本的 Oracle 資料 Types1 |Microsoft 文件"
-ms.custom: 
+title: 基本的 Oracle 資料 Types1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - data types, supported
 - data types, unsupported
 ms.assetid: 491230b9-b946-4681-a048-5da46102c370
-caps.latest.revision: "11"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 86349adae1a3ae061cb07c6c770532cf92c74dc8
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="basic-oracle-data-types"></a>基本的 Oracle 資料類型
 本主題描述如何[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]呈現基本的 Oracle 資料型別。  
@@ -50,10 +50,10 @@ ms.lasthandoff: 11/28/2017
 |NVarchar2|xsd:string|字串|-|  
 |未經處理|xsd:base64Binary|Byte[]|支援資料表作業和程序。|  
 |RowID|xsd:string|字串|-|  
-|時間戳記 *<br /><br /> （沒有安全輸入如果 UDT 內）|xsd:dateTime 如果 prec < = 7<br />xsd: string 如果 prec > 7|DateTime<br />字串|時間戳記值不能包含時區資訊 （UTC 或 UTC 位移）：<br /><br /> -xsd:dateTime 值不能包含 UTC 或 UTC 位移<br />-   **DateTime.Kind**必須**DateTimeKind.Unspecified**<br /><br /> 如果指定的時區資訊時，配接器會擲回**XmlReaderParsingException**例外狀況，並指出欄位的訊息。|  
+|TimeStamp*<br /><br /> （沒有安全輸入如果 UDT 內）|xsd:dateTime if prec <= 7<br />xsd: string 如果 prec > 7|DateTime<br />字串|時間戳記值不能包含時區資訊 （UTC 或 UTC 位移）：<br /><br /> -xsd:dateTime 值不能包含 UTC 或 UTC 位移<br />-   **DateTime.Kind**必須**DateTimeKind.Unspecified**<br /><br /> 如果指定的時區資訊時，配接器會擲回**XmlReaderParsingException**例外狀況，並指出欄位的訊息。|  
 |TimeStampLTZ|xsd:string|字串|TimeStampLTZ Udt 內不支援。<br /><br /> **外部 UDT**： 此值應該 NLS_TIMESTAMP_TZ_FORMAT 中表示。|  
 |TimeStampTZ|xsd:string<br /><br /> 如果在 UDT xsd:dateTime|字串<br /><br /> 如果在 UDT 的日期時間|**外部 UDT**： 此值應該 NLS_TIMESTAMP_TZ_FORMAT 中表示。|  
-|Decimal * *|xsd:decimal 如果 prec < = 28<br />xsd: string 如果 prec > 28|Decimal<br />字串|-|  
+|Decimal**|xsd:decimal 如果 prec < = 28<br />xsd: string 如果 prec > 28|Decimal<br />字串|-|  
 |varchar2|xsd:string|字串|-|  
 |二進位 Float * *|xsd:float 如果 prec < = 7<br />xsd: string 如果 prec > 7|Float<br />字串|您必須在與您的地區設定一致表單中指定的值 (**System.Globalization.CultureInfo.CurrentCulture**)。 例如，英文地區設定使用句號字元 ('。 ') 來指定小數點。法文地區設定，請使用逗號字元 （'，'）。|  
 |二進位雙 * *|xsd:double 如果 prec < = 15<br />xsd: string 如果 prec > 15|Double<br />字串|-|  

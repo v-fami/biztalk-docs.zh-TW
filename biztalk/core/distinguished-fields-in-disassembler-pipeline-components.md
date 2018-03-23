@@ -1,11 +1,11 @@
 ---
-title: "辨別的欄位在解譯器管線元件 |Microsoft 文件"
-ms.custom: 
+title: 辨別的欄位在解譯器管線元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components, distinquished fields
@@ -13,22 +13,22 @@ helpviewer_keywords:
 - BizTalk Framework Disassembler [pipeline component], distinquished fields
 - XML Disassembler [pipeline component], distinquished fields
 ms.assetid: 7e51d2fe-0004-4a7b-9055-bd41e8a4b7ab
-caps.latest.revision: "7"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 64e4c8f15d167f5343089c11b92b0f373aa45576
-ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="distinguished-fields-in-disassembler-pipeline-components"></a>辨別的欄位在解譯器管線元件
 結構描述中定義的辨別欄位會由「XML 解譯器」、「BizTalk Framework 解譯器」或「一般檔案解譯器」管線元件以下列格式寫入訊息內容：  
   
  *使用名稱* 是 XPath 中的辨別的欄位  
   
- *命名空間 URI* 是"http://schemas.microsoft.com/BizTalk/2003/btsDistinguishedFields"  
+ *命名空間 URI*是 「http://schemas.microsoft.com/BizTalk/2003/btsDistinguishedFields"  
   
  屬性的值是 **System.String** 指定 XPath 擷取自 XML 文件使用的值。  
   
@@ -67,9 +67,9 @@ ms.lasthandoff: 01/17/2018
   
  XML 解譯器在訊息內容寫入辨別欄位，如下所示：  
   
- 在內容上的屬性名稱:"/ * [local-name = 'PO' and namespace-uri （) = 'http://SendHtmlMessage.PO'] /\*[local-name = 'Price' and namespace-uri （) = ']"  
+ 在內容上的屬性名稱:"/ * [local-name = 'PO' and namespace-uri （) ='http://SendHtmlMessage.PO'] /\*[local-name = 'Price' and namespace-uri （) =']"  
   
- 屬性的命名空間：http://schemas.microsoft.com/BizTalk/2003/btsDistinguishedFields  
+ 屬性的命名空間： http://schemas.microsoft.com/BizTalk/2003/btsDistinguishedFields  
   
  屬性的值︰ 10  
   

@@ -1,11 +1,11 @@
 ---
-title: "傳送和接收 ASPX 頁面 |Microsoft 文件"
-ms.custom: 
+title: 傳送和接收 ASPX 頁面 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BTARN, ASPX pages
@@ -27,15 +27,15 @@ helpviewer_keywords:
 - RNIFReceive.aspx
 - synchronous connections
 ms.assetid: 21e52390-35d8-44b1-a5cd-1cd60cfe6e61
-caps.latest.revision: "4"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 0782c421dfe771cd024b5ce4df893e2aaa45721d
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="send-and-receive-aspx-pages"></a>傳送和接收 ASPX 頁面
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] ASPX 頁面是之間的直接介面[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]和網際網路。 ASPX 頁面有兩種，分別是接收頁面 (RNIFReceive.aspx) 和傳送頁面 (RNIFSend.aspx)。 每個 ASPX 頁面都是對應的 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 管線的延伸。 管線需要 ASPX 頁面才能處理 RosettaNet 實作架構 (RNIF) 標頭。 管線執行大多數的 HTTP 處理，然而，每個 ASPX 頁面執行 RNIF 標頭的 HTTP 處理。 頁面能夠擴大 [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] HTTP 配接器的功能。  
@@ -140,7 +140,7 @@ http://localhost:<port number>/RNIFSend.aspx?<query string>
   
 2.  回應者接收頁面透過相同連線傳送要求信號訊息 (如果有問題的話，會傳送例外狀況) 至啟動者傳送頁面。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [BTARN 中的訊息處理](../../adapters-and-accelerators/accelerator-rosettanet/message-processing-in-btarn.md)   
  [BTARN 接收管線](../../adapters-and-accelerators/accelerator-rosettanet/btarn-receive-pipeline.md)   
  [BTARN 傳送管線](../../adapters-and-accelerators/accelerator-rosettanet/btarn-send-pipeline.md)

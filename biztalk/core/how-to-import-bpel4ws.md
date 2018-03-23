@@ -1,11 +1,11 @@
 ---
-title: "如何匯入 BPEL4WS |Microsoft 文件"
-ms.custom: 
+title: 如何匯入 BPEL4WS |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BPEL4WS, restrictions
@@ -13,15 +13,15 @@ helpviewer_keywords:
 - BPEL4WS, orchestrations
 - orchestrations, BPEL4WS
 ms.assetid: 3626fcb9-8e7d-4812-a0c9-bde6e7954ec8
-caps.latest.revision: "8"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 7b32a0044321ce6ac57d7bd49c14b40ba17430db
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="how-to-import-bpel4ws"></a>如何匯入 BPEL4WS
 您可以從現有的 BPEL4WS 匯入，以建立協調流程。  
@@ -57,7 +57,7 @@ ms.lasthandoff: 09/20/2017
   
      最好只匯入標準的 XPath，以達到最佳效能。 整個路徑從根節點到升級節點都必須使用 '/*[local-name()="someName" and namespace-uri()="someUri"]' 拼寫。  
   
-     如果您匯入非標準 XPath，您可以移除升級且 repromote 相同欄位，才能擁有結構描述編輯器建立正確的標準 XPath。  
+     如果您匯入非標準 XPath，可以移除升級，並保持在結構描述編輯器建立正確的標準 XPath repromote 的相同欄位。  
   
      範例：(targetNamespace = http://BizTalk_Server_Project3.Schema1)  
   
@@ -69,7 +69,7 @@ ms.lasthandoff: 09/20/2017
     </element>  
     ```  
   
-     XPath-/ * [local-name = 'Root' and namespace-uri （) = 'http://BizTalk_Server_Project3.Schema1'] /\*[local-name = 'promotedField' and namespace-uri （) = ']  
+     XPath 為 / * [local-name = 'Root' and namespace-uri （) = 'http://BizTalk_Server_Project3.Schema1'] /\*[local-name = 'promotedField' and namespace-uri （) = ']  
   
     |標準 XPath|非標準 XPath|  
     |---------------------|--------------------------|  
@@ -77,4 +77,4 @@ ms.lasthandoff: 09/20/2017
   
 ## <a name="see-also"></a>另請參閱  
  [如何匯出 BPEL4WS](../core/how-to-export-bpel4ws.md)   
- [XLANG-s 至 BPEL4WS 型別轉換](../core/xlang-s-to-bpel4ws-type-conversions.md)
+ [XLANG-s 至 BPEL4WS 類型轉換](../core/xlang-s-to-bpel4ws-type-conversions.md)

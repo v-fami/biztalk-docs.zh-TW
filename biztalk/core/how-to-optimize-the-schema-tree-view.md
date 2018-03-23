@@ -1,25 +1,25 @@
 ---
-title: "如何最佳化結構描述樹狀結構檢視 |Microsoft 文件"
-ms.custom: 
+title: 如何最佳化結構描述樹狀結構檢視 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ab4ad6b5-5bbd-443b-9041-6cddf9d64735
-caps.latest.revision: "9"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: aeeddd0893b80c1c7b37b2d0ee5f9f6cd68849d6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="how-to-optimize-the-schema-tree-view"></a>如何最佳化結構描述樹狀結構檢視
-您可以使用**相關性檢視**最佳化來源和 （或） 目標結構描述樹狀結構的 BizTalk 對應工具中。 本主題提供如何執行此作業的指示。  
+您可以使用 **相關性檢視** BizTalk 對應工具最佳化來源和/或目標結構描述樹狀結構中。 本主題提供如何執行此作業的指示。  
   
  相關性檢視使用同層級結合 (Sibling Coalescence) 將不相關的結構描述項目摺疊起來，以提供更簡潔的結構描述檢視。 這樣可進一步減少捲動需求，協助您將焦點放在使用結構描述與對應時的需求。  
   
@@ -39,7 +39,7 @@ ms.lasthandoff: 09/20/2017
     >  如需 infotip 的詳細資訊，請參閱[如何檢視資訊提示和工具提示](../core/how-to-view-infotip-and-tooltip.md)。  
   
 ## <a name="prerequisites"></a>必要條件  
- 此作業需要執行中的 BizTalk 對應工具。。  
+ 此作業需要執行中的 BizTalk 對應工具。  
   
 ## <a name="to-optimize-the-schema-tree-view"></a>若要最佳化結構描述樹狀結構  
  對應工具公用程式功能區中，開啟來源和 （或） 目標結構描述的相關性檢視，即可分別![切換至相關性檢視](../core/media/mapper-intellitree.gif "Mapper_IntelliTree")圖示。 下圖顯示相關性檢視開啟時的同一個結構描述。 所有不相關的節點會以取代![聯合隱藏的節點](../core/media/mapper-coalescence-on.gif "Mapper_Coalescence_On")圖示，以提供更簡潔的結構描述檢視。  

@@ -1,11 +1,11 @@
 ---
-title: "彙總工具 （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: 彙總工具 （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, examples
@@ -15,15 +15,15 @@ helpviewer_keywords:
 - examples, pipelines
 - messages, correlating to orchestrations
 ms.assetid: eb8121df-4f5b-4f36-8228-4b5ad1abfb4e
-caps.latest.revision: "20"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 493f4d28214a815aca88f214e5efb9cd883e7192
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="aggregator-biztalk-server-sample"></a>彙總工具 (BizTalk Server 範例)
 此範例的目的是要建置使用協調流程和管線的訊息彙總功能。 具體而言，我們將會建立可執行下列作業的協調流程：  
@@ -49,7 +49,7 @@ ms.lasthandoff: 11/28/2017
 |在 Aggregator 資料夾中：<br /><br /> Aggregate.odx|協調流程，其可將相互關聯的訊息收集在一起，然後執行傳送管線，將這些訊息組合成單一個交換。|  
 |在 [Aggregate] 資料夾中：<br /><br /> SuspendMessage.odx|協調流程，用於擱置無法在彙總協調流程內處理的訊息。|  
 |在 PipelinesAndSchemas 資料夾中：<br /><br /> FFReceivePipeline.btp|具有一般檔案解譯器的接收管線|  
-|在 PipelinesAndSchemas 資料夾中：<br /><br /> Instance1.txt、Instance2.txt、Instance3.txt、Instance4.txt|此範例的文件執行個體。 Instance1.txt 和 instance2.txt 都應該加入到目的地夥伴交換[http://www.contoso.com](http://www.contoso.com/)而 Instance3.txt 和 Instance4.txt 應該加入到目的地夥伴交換[http://www.northwind.com](http://www.northwind.com/)。|  
+|在 PipelinesAndSchemas 資料夾中：<br /><br /> Instance1.txt、Instance2.txt、Instance3.txt、Instance4.txt|此範例的文件執行個體。 Instance1.txt 和 instance2.txt 都應該加入到目的地夥伴交換[ http://www.contoso.com ](http://www.contoso.com/)而 Instance3.txt 和 Instance4.txt 應該加入到目的地夥伴交換[ http://www.northwind.com](http://www.northwind.com/).|  
 |在 PipelinesAndSchemas 資料夾中：<br /><br /> Invoice.xsd、InvoiceEnvelope.xsd|輸出交換的文件結構描述和信封結構描述。|  
 |在 PipelinesAndSchemas 資料夾中：<br /><br /> PipelinesAndSchemas.btproj|結構描述和管線的 BizTalk 專案。|  
 |在 PipelinesAndSchemas 資料夾中：<br /><br /> PropertySchema.xsd|此範例的屬性結構描述。|  
@@ -91,13 +91,13 @@ ms.lasthandoff: 11/28/2017
   
 1.  開啟位於 PipelinesAndSchemas 資料夾中的 Instance1.txt 和 Instance2.txt 檔案，檢查其內容。  
   
-     請注意，這兩個檔案中的 DestinationPartnerURI 項目都包含 http://www.contoso.com 的值。這個值會用來將這兩個訊息相互關聯，如此它們就可加入到同一個交換中。  
+     請注意，在檔案的 DestinationPartnerURI 項目包含值http://www.contoso.com。這個值會用來將這兩個訊息相互關聯，如此它們就可加入到同一個交換中。  
   
-     同樣地 Instance3.txt 和 Instance4.txt 檔案有 DestinationPatnerURI 項目設定為 http://www.northwind.com。  
+     同樣地 Instance3.txt 和 Instance4.txt 檔案具有 DestinationPatnerURI 項目設為http://www.northwind.com。  
   
      這兩個訊息會一起加入到另一個交換中。  
   
-2.  Instance1.txt、 Instance2.txt、 Instance3.txt、 和 Instance4.txt 的文字檔案複本貼入資料夾中。  
+2.  Instance1.txt、 Instance2.txt、 Instance3.txt、 和 Instance4.txt 的文字檔案的複本貼入資料夾中。  
   
 3.  彙總協調流程會在收集到 10 則訊息後立即產生輸出交換，或是在 1 分鐘逾時後產生輸出交換。 因此，在 Out 資料夾中的檔案可能會延遲出現。  
   
@@ -110,5 +110,5 @@ ms.lasthandoff: 11/28/2017
     > [!NOTE]
     >  此範例實作可能會於群組實例中的高負載情況下，造成「已傳遞，未使用訊息」或「完成並有捨棄的訊息」的問題。 每當訊息路由至已經在結束階段的商務程序時，或是每當有未預期的訊息抵達到商務程序時，就會發生這種情況。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [管線 (BizTalk Server Samples 資料夾)](../core/pipelines-biztalk-server-samples-folder.md)

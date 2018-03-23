@@ -1,22 +1,22 @@
 ---
-title: "使用 WCF LOB 配接器 SDK 配接器在 BizTalk Server 專案 |Microsoft 文件"
-ms.custom: 
+title: 使用 WCF LOB 配接器 SDK 配接器在 BizTalk Server 專案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 041f14cc-d00f-450d-b1e9-40a3e423c510
-caps.latest.revision: "15"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 84f81d23b56c2631879f366e6fe502840408a0d7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="consume-a-wcf-lob-adapter-sdk-adapter-in-a-biztalk-server-project"></a>使用 WCF LOB 配接器 SDK 配接器在 BizTalk Server 專案
 本主題描述如何使用配接器使用建置[!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)]從[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]使用[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]。  
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  開啟.NET 應用程式中的[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]。  
   
-2.  中[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]，請在**專案** 窗格中，以滑鼠右鍵按一下您[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]專案，然後再選擇**新增**&#124;**將產生的項目加入**&#124;**取用配接器服務**。  
+2.  在[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]，請在**專案** 窗格中，以滑鼠右鍵按一下您[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]專案，然後再選擇**新增**&#124;**新增產生的項目** &#124; **使用配接器服務**。  
   
 3.  在[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]畫面上，選取配接器繫結。  
   

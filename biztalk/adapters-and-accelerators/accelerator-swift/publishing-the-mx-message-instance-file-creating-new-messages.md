@@ -1,22 +1,22 @@
 ---
-title: "發行 （建立新的訊息） 的 MX 訊息執行個體檔案 |Microsoft 文件"
-ms.custom: 
+title: 發行 （建立新的訊息） 的 MX 訊息執行個體檔案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e7e6cdf4-b9db-42be-a92d-10a7471e2c2d
-caps.latest.revision: "2"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 4082174428f177905527d0c648b4d7ad000dde36
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="publishing-the-mx-message-instance-file-creating-new-messages"></a>發行 MX 訊息執行個體檔案 （建立新的訊息）
 **若要發行的 MX 訊息執行個體檔案：**  
@@ -33,4 +33,4 @@ ms.lasthandoff: 11/28/2017
   
 6.  在上傳文件視窗中，按一下 **確定**。  
   
-7.  在 新增 MX SWIFT 訊息： \<MessageType\>視窗中的，於命名空間中，輸入**http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMX _\<MessageType\>** ，然後按一下 **確定**。
+7.  新增 MX SWIFT 訊息中： \<MessageType\>視窗中的，於命名空間中，輸入 **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMX_ \<MessageType\>**，然後按一下 **確定**.

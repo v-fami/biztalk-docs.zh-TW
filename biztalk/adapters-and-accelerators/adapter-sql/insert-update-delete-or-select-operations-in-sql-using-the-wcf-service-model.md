@@ -1,22 +1,22 @@
 ---
-title: "插入、 更新、 刪除或選取 SQL 使用 WCF 服務模型中的作業 |Microsoft 文件"
-ms.custom: 
+title: 插入、 更新、 刪除或選取 SQL 使用 WCF 服務模型中的作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 340048ad-ce28-4acf-ae4e-f18bdb3b6f47
-caps.latest.revision: "14"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: d2bc522a1b0b60a9ba0b8407228dd1db65c4e6f0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="insert-update-delete-or-select-operations-in-sql-using-the-wcf-service-model"></a>插入、 更新、 刪除或 SQL 使用 WCF 服務模型中選取作業
 [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]會探索 SQL Server 資料庫資料表和檢視表的基本 Insert、 Select、 Update 和 Delete 作業的一組。 藉由使用這些作業，您可以執行簡單的 SQL Insert、 Select、 Update 和 Delete 陳述式 Where 所限定的目標資料表或檢視上的子句。 本主題提供有關如何執行這些作業使用 WCF 服務模型的指示。  
@@ -34,8 +34,8 @@ ms.lasthandoff: 09/20/2017
   
 |SQL Server 資料庫成品|WCF 用戶端名稱|  
 |----------------------------------|---------------------|  
-|Table|TableOp_ [Schema] _ [TABLE_NAME] 用戶端|  
-|檢視|ViewOp_ [Schema] _ [VIEW_NAME] 用戶端|  
+|Table|TableOp_[Schema]_[TABLE_NAME]Client|  
+|檢視|ViewOp_[Schema]_[VIEW_NAME]Client|  
   
  [SCHEMA] = 集合 SQL Server 成品。例如，dbo。  
   
@@ -46,12 +46,12 @@ ms.lasthandoff: 09/20/2017
 ### <a name="method-signature-for-invoking-operations-on-tables"></a>叫用資料表上的作業的方法簽章  
  下表顯示在資料表上的基本作業的方法簽章。 簽章是資料表的不相同的檢視，不同之處在於檢視命名空間和名稱取代。  
   
-|作業|方法簽章|  
+|運算|方法簽章|  
 |---------------|----------------------|  
-|Insert|長度 [插入] ([TABLE_NS]。 [TABLE_NAME] [資料列）。|  
-|Select|[TABLE_NS]。[名稱][] 選取 （字串資料行，查詢字串）;|  
-|Update|int 更新 ([TABLE_NS]。 [TABLE_NAME]。RowPair [] 資料列）。|  
-|DELETE|int Delete ([TABLE_NS]。 [TABLE_NAME] [資料列）。|  
+|Insert|long[] Insert([TABLE_NS].[TABLE_NAME][] Rows);|  
+|Select|[TABLE_NS].[TABLE_NAME][] Select(string COLUMNS, string QUERY);|  
+|Update|int Update([TABLE_NS].[TABLE_NAME].RowPair[] Rows);|  
+|Delete|int Delete([TABLE_NS].[TABLE_NAME][] Rows);|  
   
  [TABLE_NS] = 名稱的資料表命名空間中。例如，schemas.microsoft.com.Sql._2008._05.Types.Tables.dbo.Employee。  
   
@@ -130,7 +130,7 @@ public partial class TableOp_dbo_EmployeeClient : System.ServiceModel.ClientBase
     client.ClientCredentials.UserName.Password = "<Enter password here>";  
     ```  
   
-     在此程式碼片段， `TableOp_dbo_EmployeeClient` SqlAdapterBindingClient.cs 中定義之 WCF 用戶端。 這個檔案由產生[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]。 `SqlAdapterBinding_TableOp_dbo_Employee`用戶端端點組態的名稱，而定義在 app.config 中。這個檔案也會產生由[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]，其中包含繫結屬性和其他組態設定。  
+     在此程式碼片段， `TableOp_dbo_EmployeeClient` SqlAdapterBindingClient.cs 中定義之 WCF 用戶端。 這個檔案由產生[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]。 `SqlAdapterBinding_TableOp_dbo_Employee` 用戶端端點組態的名稱，而定義在 app.config 中。這個檔案也會產生由[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]，其中包含繫結屬性和其他組態設定。  
   
     > [!NOTE]
     >  在此片段中，您從組態檔使用的繫結和端點位址。 您可以同時也可以明確指定這些值，在程式碼中。 如需以不同的方式指定用戶端繫結的詳細資訊，請參閱[設定 SQL 配接器的用戶端繫結](../../adapters-and-accelerators/adapter-sql/configure-a-client-binding-for-the-sql-adapter.md)。  
@@ -296,4 +296,4 @@ catch (Exception ex)
 ```  
   
 ## <a name="see-also"></a>另請參閱  
-[開發應用程式使用 WCF 服務模型](../../adapters-and-accelerators/adapter-sql/develop-sql-applications-using-the-wcf-service-model.md)
+[使用 WCF 服務模型開發應用程式](../../adapters-and-accelerators/adapter-sql/develop-sql-applications-using-the-wcf-service-model.md)

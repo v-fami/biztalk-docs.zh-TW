@@ -1,26 +1,26 @@
 ---
-title: "使用 BizTalk adapter 的 ServiceModel Metadata Utility Tool for mySAP Business Suite |Microsoft 文件"
-description: "使用 svcutil.exe，非預設繫結，或使用 SAP 配接器-BizTalk 配接器組件 (BAP) 來建立 WCF 用戶端類別或 WCF 服務合約"
-ms.custom: 
+title: 使用 BizTalk adapter 的 ServiceModel Metadata Utility Tool for mySAP Business Suite |Microsoft 文件
+description: 使用 svcutil.exe，非預設繫結，或使用 SAP 配接器-BizTalk 配接器組件 (BAP) 來建立 WCF 用戶端類別或 WCF 服務合約
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - ServiceModel Metadata Utility Tool, creating a WCF Client Class or a WCF service contract with the tool
 - ServiceModel Metadata Utility Tool, configuring the tool for the adapter
 ms.assetid: 7ac08012-bb12-4983-9402-be84fe3997d8
-caps.latest.revision: "6"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 15c4612db6e3cde4e46385b1c5d1810fbb00eb70
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="using-the-servicemodel-metadata-utility-tool-with-the-biztalk-adapter-for-mysap-business-suite"></a>使用 BizTalk adapter 的 ServiceModel Metadata Utility Tool for mySAP Business Suite
 您可以使用 ServiceModel Metadata Utility Tool (svcutil.exe) 來產生 WCF 用戶端類別或作業的 WCF 服務合約 （介面），[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]公開。 執行 svcutil.exe 產生 WCF 用戶端類別或 WCF 服務合約之後，您可以在您的程式碼中包含所產生的檔案和建立所產生類別的執行個體或從實作 WCF 服務產生的介面上的 SAP 執行作業系統。  
@@ -29,7 +29,7 @@ ms.lasthandoff: 11/28/2017
   
  下列各節說明如何設定 svcutil.exe 以及如何使用 svcutil.exe 產生 WCF 用戶端程式碼或 WCF 服務合約有[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]。  
   
-##  <a name="BKMK_ConfigureSvcutil"></a>設定 SAP 配接器的 svcutil.exe  
+##  <a name="BKMK_ConfigureSvcutil"></a> 設定 SAP 配接器的 svcutil.exe  
  若要設定為使用非預設繫結的 svcutil.exe，您必須建立 svcutil.exe 的本機副本，然後建立或修改 svcutil.exe.config 組態檔的本機副本。  
   
 1.  建立資料夾，並將 svcutil.exe 複製到新的資料夾。 您通常可以找到 svcutil.exe 在 Windows SDK 安裝位置，特別是，C:\Program Files\Microsoft SDKs\Windows\v6.0\Bin。  
@@ -91,15 +91,15 @@ ms.lasthandoff: 11/28/2017
   
  這個範例會針對 RFC_CALCULATE_TAXES 建立 WCF 用戶端類別。  
   
- **。 \svcutil"sap://User=YourUserName;Passwd = YourPassword;用戶端 = 800;Lang = EN;@a/YourSAPHost/00？ wsdl （& s) op = http://Microsoft.LobServices.Sap/2007/03/Rfc/RFC_CALCULATE_TAXES"**  
+ **.\svcutil "sap://User=YourUserName;Passwd=YourPassword;Client=800;Lang=EN;@a/YourSAPHost/00?wsdl&op=http://Microsoft.LobServices.Sap/2007/03/Rfc/RFC_CALCULATE_TAXES"**  
   
  此範例會建立 WCF 用戶端類別 SALESORDER_CREATEFROMDAT201 和 SALESORDER_CREATEFROMDAT202 IDOC。  
   
- **。 \svcutil"sap://User=YourUserName;Passwd = YourPassword;用戶端 = 800;Lang = EN;@a/YourSAPHost/00？ wsdl （& s) op = http://Microsoft.LobServices.Sap/2007/03/Idoc/3/SALESORDER_CREATEFROMDAT201//620/Send & op = http://Microsoft.LobServices.Sap/2007/03/Idoc/3/SALESORDER_CREATEFROMDAT202//620/Send"**  
+ **.\svcutil "sap://User=YourUserName;Passwd=YourPassword;Client=800;Lang=EN;@a/YourSAPHost/00?wsdl&op=http://Microsoft.LobServices.Sap/2007/03/Idoc/3/SALESORDER_CREATEFROMDAT201//620/Send&op=http://Microsoft.LobServices.Sap/2007/03/Idoc/3/SALESORDER_CREATEFROMDAT202//620/Send"**  
   
  這個範例會建立從 SAP 系統接收 SALESORDER_CREATEFROMDAT201 IDOC 的 WCF 服務合約。 節點識別碼會指定接收作業。 此範例中處理的擷取中繼資料，因為沒有需要連線 URI query_string 中指定的接聽程式參數。  
   
- **。 \svcutil"sap://User=YourUserName;Passwd = YourPassword;用戶端 = 800;Lang = EN;@a/YourSAPHost/00？ wsdl （& s) op = http://Microsoft.LobServices.Sap/2007/03/Idoc/3/SALESORDER_CREATEFROMDAT201//620/Receive"**  
+ **.\svcutil "sap://User=YourUserName;Passwd=YourPassword;Client=800;Lang=EN;@a/YourSAPHost/00?wsdl&op=http://Microsoft.LobServices.Sap/2007/03/Idoc/3/SALESORDER_CREATEFROMDAT201//620/Receive"**  
   
 > [!IMPORTANT]
 >  您必須在引號內，在命令列上放置連線 URI。 否則，svcutil.exe 會嘗試擷取作業的中繼資料，[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]不支援。 這類的嘗試結果便未定義。  

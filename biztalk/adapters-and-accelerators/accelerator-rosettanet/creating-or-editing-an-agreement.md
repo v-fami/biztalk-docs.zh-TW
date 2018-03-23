@@ -1,11 +1,11 @@
 ---
-title: "建立或編輯協議 |Microsoft 文件"
-ms.custom: 
+title: 建立或編輯協議 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - agreements, about agreements
@@ -17,22 +17,22 @@ helpviewer_keywords:
 - modifying, agreements
 - agreements, trading partners
 ms.assetid: 4bbe4b57-d6ec-4448-9c80-2aecd98e0dc7
-caps.latest.revision: "6"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 1ea033770504b0e0024a831e0ad8d8727603046e
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="creating-or-editing-an-agreement"></a>建立或編輯協議
 本主題說明如何建立或編輯交易夥伴協議。 交易夥伴協議設定兩個交易夥伴之間的關係，包括其身份識別；交易夥伴介面程序 (PIP)；動作、信號與同步 URL；以及關聯的協定。  
   
- 交易夥伴協議包含程序組態、主要組織、交易夥伴與協議的設定。 這些皆為協議的必要設定。 您可以根據 RosettaNet PIP 或自訂結構描述來建立程序組態，但無論如何，您必須建立組態。 您也必須定義主要組織和夥伴組織。 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]不支援未知合作對象之間交換訊息。  
+ 交易夥伴協議包含程序組態、主要組織、交易夥伴與協議的設定。 這些皆為協議的必要設定。 您可以根據 RosettaNet PIP 或自訂結構描述來建立程序組態，但無論如何，您必須建立組態。 您也必須定義主要組織和夥伴組織。 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 不支援未知合作對象之間交換訊息。  
   
- [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 根據所有這些設定來處理與驗證訊息。 以 CIDX 訊息為例，[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 將根據 RosettaNet 實作架構 (RNIF) 版本 (僅限 1.1)、0A1 協議 (僅限 No 0A1) 與 `Is Single Action` 屬性 (僅限單向動作) 進行驗證。 只有當您將 RNIF 版本設為"1.1"，為 「 No 0A1 」，將 0A1 協議，將會驗證 CIDX 訊息和`Is Single Action`屬性`True`。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]也會驗證任何協議屬性與程序組態設定檔設定一致。 例如，它會驗證您是否將設定檔的 `Standard` 屬性設為 CIDX，並將協議的 0A1 協議屬性設為 No 0A1。  
+ [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 根據所有這些設定來處理與驗證訊息。 以 CIDX 訊息為例，[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 將根據 RosettaNet 實作架構 (RNIF) 版本 (僅限 1.1)、0A1 協議 (僅限 No 0A1) 與 `Is Single Action` 屬性 (僅限單向動作) 進行驗證。 只有當您將 RNIF 版本設為"1.1"，為 「 No 0A1 」，將 0A1 協議，將會驗證 CIDX 訊息和`Is Single Action`屬性`True`。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 也會驗證任何協議屬性與程序組態設定檔設定一致。 例如，它會驗證您是否將設定檔的 `Standard` 屬性設為 CIDX，並將協議的 0A1 協議屬性設為 No 0A1。  
   
  當程序仍在作用中時，若對協議作任何修改，就可能會發生無法預測的結果。 協議屬性變更會套用，當您按一下**套用**或**確定**接受，但您無法預測執行哪一個階段的程序。 當您更改了協議之後，目前程序或任何新程序中的任何新活動，都會使用變更過的協議屬性。 但在您變更協議的同時執行的程序，可能會對它正在處理的訊息使用先前的協議屬性。  
   
@@ -65,7 +65,7 @@ ms.lasthandoff: 11/28/2017
 |**通訊協定**|**編碼方式**|用來編碼所有部分的通訊協定 (如果**都編碼所有部分**方塊`True`) 或附件 (如果**都都編碼所有部分**方塊`False`)。<br /><br /> 可以是**8 位元**， **base 64** （預設值），或**加上引號的可列印**。|  
 |**通訊協定**|**加密演算法**|用來加密內送與外寄訊息的演算法。<br /><br /> **從開始[!INCLUDE[bts2016_md](../../includes/bts2016-md.md)]和較新版本**，AES 支援會自動包含。 選項包括**RC2-40**， **3DES**， **AES128** （預設）、 **AES192**，和**AES256**。 <br /><br />如先前[!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)]版本中，選項包括**RC2-40** （預設值） 或**3DES**。<br /><br /> 加密演算法才會生效，如果您已將`Is Persistent Confidentiality Required`屬性設為**裝載**或**Payload Container**在對應的處理序組態。|  
 |**通訊協定**|**加密方向**|決定系統將加密內送訊息或外寄訊息，或是兩者皆加密。<br /><br /> 可以是**輸入**，**輸出**，或**輸入/輸出**（預設值）。<br /><br /> 加密方向設定才會生效，如果您已將`Is Persistent Confidentiality Required`屬性設為**裝載**或**Payload Container**在對應的處理序組態。|  
-|**自訂屬性**|**名稱**|自訂屬性的名稱。<br /><br /> 您可以分別為每個協議設定自訂屬性名稱。 若您建立新的自訂私用程序，可使用這些自訂屬性來處理不同的協議。<br /><br /> 您可以使用 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] SDK 中的 `RuntimeConfig.GetTPACustomConfigValue` 方法，從 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 組態中擷取自訂屬性。<br /><br /> `Name` 屬性必須是唯一的，且不得為空白。<br /><br /> 您可以輸入以下的自訂值：<br /><br /> - **AAR**。 這是「需要接受通知」(Acceptance Acknowledgment Required) 自訂屬性， 僅適用於 RNIF 1.1。 將此設**false** （此為不區分大小寫） 要求只接收通知，不接受通知。 如果**AAR**以外設為  **false**、 然後回應者公開程序必須傳送接受通知，也無法啟動者公開程序會接受通知。 若 AAR 設定為 false，公開處理程序在接收通知之後就算完成。<br /><br /> - **HPCC**。 代表 Home Partner Classification Code (主要夥伴分類代碼)， 僅適用於 RNIF 1.1。 讓您可以將外寄訊息服務標頭中的主要夥伴 GlobalPartnerClassificationCode 項目設定為「值」欄位中的項目。 這個值覆寫了「主要組織」組態中的「主要」組織分類屬性。 當主要組織的分類不只一種時，可以使用這個自訂屬性。<br /><br /> - **PPCC**。 代表 Partner Profile Classification Code (夥伴設定檔分類代碼)， 僅適用於 RNIF 1.1。 讓您可以將外寄訊息服務標頭中的夥伴 GlobalPartnerClassificationCode 項目設定為「值」欄位中的項目。 這個值覆寫了「夥伴」組態中的「夥伴」分類屬性。 當夥伴的分類不只一種時，可以使用這個自訂屬性。|  
+|**自訂屬性**|**名稱**|自訂屬性的名稱。<br /><br /> 您可以分別為每個協議設定自訂屬性名稱。 若您建立新的自訂私用程序，可使用這些自訂屬性來處理不同的協議。<br /><br /> 您可以使用 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] SDK 中的 `RuntimeConfig.GetTPACustomConfigValue` 方法，從 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 組態中擷取自訂屬性。<br /><br /> `Name` 屬性必須是唯一的，且不得為空白。<br /><br /> 您可以輸入以下的自訂值：<br /><br /> - **AAR**。 這是「需要接受通知」(Acceptance Acknowledgment Required) 自訂屬性， 僅適用於 RNIF 1.1。 將此設**false** （此為不區分大小寫） 要求只接收通知，不接受通知。 如果**AAR**以外設為  **false**、 然後回應者公開程序必須傳送接受通知，也無法啟動者公開程序會接受通知。 若 AAR 設定為 false，公開處理程序在接收通知之後就算完成。<br /><br /> - **HPCC**. 代表 Home Partner Classification Code (主要夥伴分類代碼)， 僅適用於 RNIF 1.1。 讓您可以將外寄訊息服務標頭中的主要夥伴 GlobalPartnerClassificationCode 項目設定為「值」欄位中的項目。 這個值覆寫了「主要組織」組態中的「主要」組織分類屬性。 當主要組織的分類不只一種時，可以使用這個自訂屬性。<br /><br /> - **PPCC**. 代表 Partner Profile Classification Code (夥伴設定檔分類代碼)， 僅適用於 RNIF 1.1。 讓您可以將外寄訊息服務標頭中的夥伴 GlobalPartnerClassificationCode 項目設定為「值」欄位中的項目。 這個值覆寫了「夥伴」組態中的「夥伴」分類屬性。 當夥伴的分類不只一種時，可以使用這個自訂屬性。|  
 |**自訂屬性**|**值**|自訂屬性的值。|  
   
 ### <a name="to-create-a-trading-partner-agreement"></a>建立交易夥伴協議  
@@ -96,10 +96,10 @@ ms.lasthandoff: 11/28/2017
   
 3.  以滑鼠右鍵按一下您想要編輯，然後按一下 協議**屬性**。  
   
-4.  在 **\<** *協議名稱* **\>** 屬性對話方塊中，於**一般**和**連絡人屬性**索引標籤上，視需要變更設定。 如需有關這些設定的詳細資訊，請參閱上表。  
+4.  在**\<***協議名稱***\>**屬性對話方塊中，於**一般**和**連絡人屬性**索引標籤上，視需要變更設定。 如需有關這些設定的詳細資訊，請參閱上表。  
   
 5.  按一下 **[確定]**。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [管理設定、 憑證、 資料庫和安全性](manage-configuration-certificates-databases-security.md)   
  [管理 BTARN 設定](../../adapters-and-accelerators/accelerator-rosettanet/administering-the-btarn-configuration.md)

@@ -1,22 +1,22 @@
 ---
-title: "系統層級瓶頸 |Microsoft 文件"
-ms.custom: 
+title: 系統層級瓶頸 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/29/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0bdff435-76eb-495f-9fb6-1f1acef3921e
-caps.latest.revision: "11"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 058fd60e1c38a3045197b4a36bdcc81250ab5be5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="system-level-bottlenecks"></a>系統層級的瓶頸
 本主題描述如何解決常見的系統層級瓶頸，可能會影響 BizTalk Server 解決方案的效能。  
@@ -145,7 +145,7 @@ ms.lasthandoff: 09/20/2017
   
  下列效能計數器應該用來判斷是否您的系統發生磁碟 I/O 相關的瓶頸：  
   
--   **Physicaldisk\avg.磁碟佇列長度**  
+-   **PhysicalDisk\Avg.磁碟佇列長度**  
   
     -   臨界值： 不能高於磁針加上兩個數目。  
   
@@ -161,19 +161,19 @@ ms.lasthandoff: 09/20/2017
   
         -   主動接收從硬碟  
   
--   **Physicaldisk\avg.Disk Read Queue Length**  
+-   **PhysicalDisk\Avg.Disk Read Queue Length**  
   
     -   臨界值： 應該是少於兩個。  
   
     -   重要： 此計數器表示取樣間隔時間內在佇列中對於所選磁碟的讀取要求平均的數目。  
   
--   **Physicaldisk\avg.磁碟寫入佇列長度**  
+-   **PhysicalDisk\Avg.磁碟寫入佇列長度**  
   
     -   臨界值： 應該是少於兩個。  
   
     -   重要： 此計數器表示取樣間隔時間內在佇列中對於所選磁碟的寫入要求平均的數目。  
   
--   **Physicaldisk\avg.Disk sec/Read**  
+-   **PhysicalDisk\Avg.Disk sec/Read**  
   
     -   臨界值： 沒有特定的值。  
   
@@ -185,7 +185,7 @@ ms.lasthandoff: 09/20/2017
   
     -   重要： 此計數器表示的平均時間，以秒為單位的資料從磁碟讀取作業。 如果數目大於 25 毫秒 (ms) 為單位，表示磁碟系統從磁碟讀取時遇到延遲。 裝載 BizTalk Server 關鍵任務的伺服器，可接受的閾值是比較低，大約 10 毫秒。  
   
--   **Physicaldisk\avg.Disk sec/Write**  
+-   **PhysicalDisk\Avg.Disk sec/Write**  
   
     -   臨界值： 沒有特定的值。  
   
@@ -197,7 +197,7 @@ ms.lasthandoff: 09/20/2017
   
     -   重要： 此計數器表示的平均時間，以秒為單位，將資料寫入磁碟作業。 如果數目大於 25 毫秒，磁碟系統寫入磁碟時，就會發生延遲。 裝載 BizTalk Server 關鍵任務的伺服器，可接受的閾值是比較低，大約 10 毫秒。  
   
--   **Physicaldisk\avg.Disk sec/Transfer**  
+-   **PhysicalDisk\Avg.Disk sec/Transfer**  
   
     -   臨界值： 不應該超過 18 （毫秒）。  
   
@@ -218,7 +218,7 @@ ms.lasthandoff: 09/20/2017
 #### <a name="disk-io-tuning-options"></a>磁碟 I/O 的微調選項  
  如果您判斷磁碟 I/O 是您的環境中的瓶頸，可以使用下列技巧來減少瓶頸：  
   
--   **重組磁碟-**使用可在[PageDefrag 公用程式](http://go.microsoft.com/fwlink/?LinkId=108976)(http://go.microsoft.com/fwlink/?LinkId=108976) 重組 Windows 分頁檔，並預先配置主檔案表格。  
+-   **重組磁碟-**使用可在[PageDefrag 公用程式](http://go.microsoft.com/fwlink/?LinkId=108976)(http://go.microsoft.com/fwlink/?LinkId=108976)重組 Windows 分頁檔，並預先配置主檔案表格。  
   
 -   **使用等量集來同時處理 I/O 要求，透過多個磁碟-**使用鏡像磁碟區來提供容錯能力並提升 I/O 效能。 如果您不需要容錯功能，實作等量磁碟區設定為快速讀取和寫入，進而改善儲存體容量。 當使用等量磁碟區時，每個磁碟使用量會減少，因為工作會分散到磁碟區，並提高整體輸送量。 如果您在等量磁碟區中加入額外的磁碟設定不會增加輸送量，則您的系統可能會遇到瓶頸，因為磁碟的磁碟控制卡之間的競爭。 在此情況下，加入額外的磁碟控制器會協助分散負載，以及提高效能。  
   

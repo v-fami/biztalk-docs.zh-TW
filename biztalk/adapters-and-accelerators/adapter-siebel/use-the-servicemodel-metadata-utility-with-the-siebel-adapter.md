@@ -1,23 +1,23 @@
 ---
-title: "使用 BizTalk adapter 的 ServiceModel Metadata Utility Tool for Siebel eBusiness 應用程式 |Microsoft 文件"
-description: "使用 svcutil.exe，非預設繫結，或使用 Siebel 配接器-BizTalk 配接器組件 (BAP) 來建立 WCF 用戶端類別或 WCF 服務合約"
-ms.custom: 
+title: 使用 BizTalk adapter 的 ServiceModel Metadata Utility Tool for Siebel eBusiness 應用程式 |Microsoft 文件
+description: 使用 svcutil.exe，非預設繫結，或使用 Siebel 配接器-BizTalk 配接器組件 (BAP) 來建立 WCF 用戶端類別或 WCF 服務合約
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 03d16481-cc8b-4e28-a33c-92e48a9a7e8f
-caps.latest.revision: "5"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: a0bcf80d4a1ea9fc6b54403faa14084816e413be
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="using-the-servicemodel-metadata-utility-tool-with-the-biztalk-adapter-for-siebel-ebusiness-applications"></a>使用 BizTalk adapter 的 ServiceModel Metadata Utility Tool for Siebel eBusiness 應用程式
 您可以使用 ServiceModel Metadata Utility Tool (svcutil.exe) 來產生作業的 WCF 用戶端類別，[!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)]公開。 執行 svcutil.exe 產生 WCF 用戶端類別之後，您可以在您的程式碼中包含所產生的檔案，並建立 WCF 用戶端類別，在 Siebel 系統上執行作業的執行個體。  
@@ -65,7 +65,7 @@ ms.lasthandoff: 11/28/2017
 > [!NOTE]
 >  您可以設定的任何繫結屬性的[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]繫結組態中。  
   
- 如需有關設定非預設繫結 svcutil.exe 的詳細資訊，請參閱 「 自訂安全中繼資料端點 」 中的主題 WCF 文件，網址[http://go.microsoft.com/fwlink/?LinkId=96077](http://go.microsoft.com/fwlink/?LinkId=96077)。  
+ 如需有關設定非預設繫結 svcutil.exe 的詳細資訊，請參閱 「 自訂安全中繼資料端點 」 中的主題 WCF 文件，網址[ http://go.microsoft.com/fwlink/?LinkId=96077 ](http://go.microsoft.com/fwlink/?LinkId=96077)。  
   
 ## <a name="creating-a-wcf-client-class-with-svcutilexe"></a>使用 svcutil.exe 建立 WCF 用戶端類別  
  若要使用 svcutil.exe 產生 WCF 用戶端程式碼[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]，您必須提供連接 URI，指定**IMetadataExchange** (mex) 端點和作業或作業要為其產生 svcutil.exe程式碼。 您也必須在 連線 URI 中指定 Siebel 系統的連接認證。  
@@ -83,11 +83,11 @@ ms.lasthandoff: 11/28/2017
   
  這個範例會建立 ACCOUNT\ACCOUNT 商務物件上插入作業的 WCF 用戶端類別。  
   
- **.\svcutil "siebel://Username=YourUserName;密碼=YourPassword@Siebel_server:1234嗎？SiebelEnterpriseServer=ent_server&SiebelObjectManager=obj_mgr與語言=繁體中文wsdl&op=http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Insert"**  
+ **.\svcutil "siebel://Username=YourUserName;Password=YourPassword@Siebel_server:1234?SiebelEnterpriseServer=ent_server&SiebelObjectManager=obj_mgr&Language=enu&wsdl&op=http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Insert"**  
   
  這個範例會建立一個插入作業和刪除作業 ACCOUNT\ACCOUNT 商務物件上的 WCF 用戶端類別。  
   
- **.\svcutil " siebel://Username=YourUserName;密碼=YourPassword@Siebel_server:1234嗎？SiebelEnterpriseServer=ent_server&SiebelObjectManager=obj_mgr與語言=繁體中文wsdl&op=http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Insert&op=http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Delete"**  
+ **.\svcutil " siebel://Username=YourUserName;Password=YourPassword@Siebel_server:1234?SiebelEnterpriseServer=ent_server&SiebelObjectManager=obj_mgr&Language=enu&wsdl&op=http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Insert&op=http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Delete"**  
   
 > [!IMPORTANT]
 >  您必須在引號內，在命令列上放置連線 URI。 否則，svcutil.exe 會嘗試擷取作業的中繼資料，[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]不支援。 這類的嘗試結果便未定義。  

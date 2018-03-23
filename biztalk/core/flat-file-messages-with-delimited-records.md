@@ -1,22 +1,22 @@
 ---
-title: "具有分隔記錄的一般檔案訊息 |Microsoft 文件"
-ms.custom: 
+title: 具有分隔記錄的一般檔案訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7ad7119b-4e39-43df-9dba-a04382eb6db2
-caps.latest.revision: "11"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: a5dc9eb0253e2bfe8824f6395e1c619c23f0e551
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="flat-file-messages-with-delimited-records"></a>具有分隔記錄的一般檔案訊息
 在一般檔案執行個體訊息中的分隔記錄包含由預先定義的字元或字元集分隔的巢狀記錄和/或個別欄位 (資料項目)。 系統根據這些個別的分隔符號來剖析欄位。 例如，請考慮一般檔案執行個體訊息中的下列分隔記錄，其中包含一個假設性的訂單中的兩個產品項目：  
@@ -27,11 +27,11 @@ ITEMS,ITEM872-AA|Lawnmower|1|148.95|Electric-120vac,ITEM926-AA|Baby Monitor|1|39
   
 ```  
   
- 此記錄的一般檔案結構描述中的合理定義可如下所述：  
+ 此記錄中的一般檔案結構描述的合理定義描述如下︰  
   
 -   具有子分隔符號 (,)、子順序前置詞以及標記 ITEMS 之分隔記錄命名的項目。  
   
-    -   之分隔，重複記錄命名項目具有子分隔符號 &#124;、 子順序中置以及標記項目。  
+    -   分隔，名為項目具有子分隔符號 &#124;的重複記錄;、 子順序中置以及標記項目。  
   
     -   名為 "partNum" 的屬性。  
   
@@ -86,7 +86,7 @@ ITEMS,ITEM872-AA|Lawnmower|1|148.95|Electric-120vac,ITEM926-AA|Baby Monitor|1|39
  若要協助您深入了解如何使用分隔的一般檔案，請參閱位於的 FlatFileReceive 和 FlatFileSend 資料夾中的範例[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\Pipelines\AssemblerDisassembler\\。  
   
 > [!NOTE]
->  如果您的一般檔案包含分隔和位置記錄，您必須設定**結構**根節點屬性**分隔**和**結構**屬性附屬記錄節點設為 **分隔**或**Positional**依適當情況。  
+>  如果您的一般檔案包含分隔和位置記錄，您必須設定 **結構** 根節點屬性 **分隔** 和 **結構** 為附屬記錄節點屬性 **分隔** 或 **Positional** 視情況。  
   
 > [!NOTE]
 >  一般檔案中的分隔欄位長度限制為 50000000 個字元。  

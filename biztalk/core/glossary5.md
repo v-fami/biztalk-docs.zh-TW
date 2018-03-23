@@ -1,28 +1,28 @@
 ---
-title: "一般詞彙和定義 |Microsoft 文件"
-description: "詞彙解釋，以便讓 BizTalk Server 及其意義"
-ms.custom: 
+title: 一般詞彙和定義 |Microsoft 文件
+description: 詞彙解釋，以便讓 BizTalk Server 及其意義
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ac9c7c7d-a97e-425a-9666-02ca6edd8be6
-caps.latest.revision: "68"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 742b695338d7038f830b823af720bd3048399473
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="glossary"></a>詞彙
 以下是「Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 說明」中所採用的詞彙及其定義。  
   
-## <a name=""></a>執行個體時提供 SQL Server 登入。  
+## <a name=""></a>。  
   
 |詞彙|定義|  
 |----------|----------------|  
@@ -35,7 +35,7 @@ ms.lasthandoff: 11/28/2017
 |.xsd file (.xsd 檔)|BizTalk Server 結構描述檔。|  
 |||  
   
-## <a name="a"></a>只有在次要複本設定成手動容錯移轉模式，而且至少一個次要複本目前與主要複本 SYNCHRONIZED 時，  
+## <a name="a"></a>A  
   
 |詞彙|定義|  
 |----------|----------------|  
@@ -103,7 +103,7 @@ ms.lasthandoff: 11/28/2017
 |BizTalk Framework|一種平台中性電子商務架構，以延伸標記語言 (XML) 結構描述和產業標準為建構基礎。 這種架構可以整合產業和各種商務系統，無論平台、作業系統或基礎技術為何。|  
 |BizTalk 群組|包含 MessageBox、主控件、接收位置、傳送埠、傳送埠群組、協調流程、伺服器和配接器的群組。|  
 |BizTalk host (BizTalk 主控件)|BizTalk Server 中的邏輯程序與安全性界限。 每個主控件各有其指派的安全性群組，並且可能包含多個主控件執行個體，分別位於不同的電腦以執行該主控件的工作。 因而，每個主控件執行個體均隸屬於單一主控件，主控件執行個體的服務帳戶則隸屬於該主控件的安全性群組。 安全性群組可用來授與主控件的任一主控件執行個體使用實體資源 (如資料庫) 的權限。|  
-|BizTalk Management Pack alert (BizTalk 管理封包警示)|系統管理員可以在 BizTalk Server 管理封包中訂閱的通知。 訂閱某個警示之後，只要符合特定條件，系統管理員就會收到通知。 例如，若進行節流的主控件執行個體達到特定數目，即可能引發警示。|  
+|BizTalk Management Pack alert (BizTalk 管理封包警示)|系統管理員可以在 BizTalk Server 管理組件中訂閱通知。 訂閱某個警示之後，只要符合特定條件，系統管理員就會收到通知。 例如，若進行節流的主控件執行個體達到特定數目，即可能引發警示。|  
 |BizTalk Management Pack diagnostics (BizTalk 管理封包診斷)|系統管理員可以使用這項功能來查看某個問題的原因和疑難排解資訊。 例如，若傳送埠的健全狀況呈現紅色，則 Operations Manager 主控台的 [狀態變更事件] 索引標籤會顯示健全狀況由綠變紅的原因。|  
 |BizTalk Mapper (BizTalk 對應工具)|裝載於 Visual Studio 內的視覺化工具，用來建構 BizTalk 對應以定義資料轉換。|  
 |BizTalk 訊息佇列|BizTalk Server 中的訊息佇列傳輸元件。 它隨附為 BizTalk Server 產品的內部核心元件，也是 BizTalk Server 眾多配接器元件之一。|  
@@ -112,7 +112,7 @@ ms.lasthandoff: 11/28/2017
 |BizTalk project file (.btproj) (BizTalk 專案檔)|包含 BizTalk 專案之專案特有設定的檔案。|  
 |BizTalk project system (BizTalk 專案系統)|用來建立部分或整個 BizTalk Server 應用程式或商務方案的系統。 您可以用此系統新增、編輯或移除 BizTalk Server 項目 (協調流程、對應、結構描述和管線)。 該系統包含如編譯和部署之類的命令。|  
 |BizTalk Server 管理組件|一項 BizTalk 增強功能，有助於確保對 BizTalk 應用程式和基礎結構的完整監視能力。 其中包含診斷和警示等功能，可協助監視 BizTalk 部署的健全狀況。|  
-|BizTalk Server Administration (BizTalk Server 管理)|用來管理伺服器和其屬性，BizTalk Server 群組，監視的 Microsoft Management Console (MMC) 介面接收函式，並監視工作項目在 Microsoft SQL Server 佇列所使用的伺服器群組。|  
+|BizTalk Server Administration (BizTalk Server 管理)|用來管理伺服器和其屬性，BizTalk Server 群組，監視的 Microsoft Management Console (MMC) 介面接收函式，並監視工作項目在 Microsoft SQL server 群組所使用的伺服器佇列。|  
 |BizTalk Server map file (.btm) (BizTalk Server 對應檔案)|BizTalk 對應的永久格式，由 BizTalk 對應工具建立並編譯，以產生使用「可延伸樣式表語言轉換」(Extensible Stylesheet Language Transformations，XSLT) 指定的執行階段轉換指示詞。|  
 |BizTalk Mapper (BizTalk 對應工具)|這項功能可讓使用者以視覺化方式在 BizTalk 應用程式中建立兩個結構描述之間的轉換。 同時具有使用性增強功能，有助於處理複雜的對應。|  
 |BizTalk Server Messaging Engine (BizTalk Server 傳訊引擎)|中介軟體產品所需要的一組服務，幫助客戶實例執行解決方案。 這些執行階段服務是 BizTalk Server 平台的基本部分。 在這些服務間是訊息的可執行管線處理。 管理處理提供資料格式標準化和屬性擷取。|  
@@ -124,7 +124,7 @@ ms.lasthandoff: 11/28/2017
 |BTSTask|用於管理應用程式和組件的命令列工具。 您可以使用 BTSTask 將 BizTalk 應用程式加入 BizTalk 管理資料庫、在應用程式中加入資源、將應用程式匯出至 MSI 檔案、將繫結資訊匯出至檔案、從 MSI 檔案匯入應用程式、從檔案匯入繫結資訊、列出應用程式中的所有資源、列出 BizTalk 管理資料庫中的所有應用程式、列出 MSI 檔案的內容、從 BizTalk 管理資料庫和 BizTalk 管理主控台移除應用程式，以及從應用程式移除資源。|  
 |商務活動監控 (BAM)|BizTalk Server 功能，讓商務使用者即時檢視他們的不同商務程序，讓他們能夠制定重要的商業決策。|  
 |Business Activity view (商務活動檢視)|顯示商務程序的一組階層檢視，可為特定類別的商務使用者定義商務活動的檢視方式。 相同的商務活動資料 (BAM 追蹤) 可能有一種以上的解讀方式。|  
-|business analyst (商務分析師)|位使用者擁有商務管理和經濟分析技術。 商務分析師主要的責任是取用商業層級的資料並針對商務趨勢進行分析。|  
+|business analyst (商務分析師)|擁有企業管理和經濟分析技能的使用者。 商務分析師主要的責任是取用商業層級的資料並針對商務趨勢進行分析。|  
 |business end user (商務使用者)|負責監控和疑難排解商務程序及 (或) 商務訊息交換的知識工作者。 此使用者不需要是技術人員。|  
 |Business Process Configuration services (商務程序組態服務)|讓商務使用者透過商務原則來設定和管理較低層級協調流程項目的工具。 開發人員或 ISV 使用這些工具定義商務程序後，即可利用商務原則和參數設定這些程序。|  
 |Business Process Workspace (商務程序工作區)|讓商務經理人追蹤和管理 SharePoint Team Services 中所有商務程序的介面。|  
@@ -280,7 +280,7 @@ ms.lasthandoff: 11/28/2017
 |主機|代表一或多個 BizTalk Server 執行階段執行個體的邏輯容器。 這是成品相關資訊駐留的程序空間 (包括所有駐留在主控件內的協調流程、結構描述、接收位置和配接器等成品)。 主控件也做為 Windows 內的安全性網域 - 它代表主控件執行個體在一或多個伺服器上執行的虛擬程序邊界。|  
 |host instance (主控件執行個體)|Windows NT 服務。 主控件執行個體是特定伺服器上主控件的實體表示法。|  
 |host instance– level setting ( 主控件執行個體層級設定)|BizTalk 系統管理員可以在 [BizTalk 設定儀表板] 中修改的其中一項設定。 其範例包括與協調流程記憶體節流有關的 .NET CLR 設定和屬性。 主控件層級設定為一個主控件執行個體所專屬，基本上用於控管電腦資源 (如 RAM 或 I/O) 的使用。 例如，最大值。 I/O 執行緒。|  
-|host-level setting (主控件層級設定)|BizTalk 系統管理員可以在 [BizTalk 設定儀表板] 中修改的其中一項設定。 其範例包括主控件追蹤，以及與資源型節流、速率型節流和協調流程節流相關的屬性。 主控件層級設定可調整主控件的所有執行個體在某個部署中的行為方式。 例如，若 Host1 設定最大值。 引擎執行緒會變更為 200，Host1 的所有執行個體將會使用最多 200 個引擎執行緒。|  
+|host-level setting (主控件層級設定)|BizTalk 系統管理員可以在 [BizTalk 設定儀表板] 中修改的其中一項設定。 其範例包括主控件追蹤，以及與資源型節流、速率型節流和協調流程節流相關的屬性。 主控件層級設定可調整主控件的所有執行個體在某個部署中的行為方式。 例如，若 Host1 設定最大值。 引擎執行緒變更為 200，Host1 的所有執行個體將會使用最多 200 個引擎執行緒。|  
 |host load balancing (主控件負載平衡)|指將多個執行 BizTalk Server 的伺服器加入至 BizTalk 群組，然後將內含式主控件的多個執行個體設定為在這些伺服器上執行的程序。 這樣可將該主控件中所設定的服務和成品執行作業分散於該主控件的多個執行個體，以提高可用性和擴充性。|  
 |host type (主控件類型)|決定主控件是在 BizTalk Server 程序內或外部加以控制的屬性。 主控件類型為「內含式」或「外掛式」。|  
 |HTTP 配接器|可以在 BizTalk Server 與任何使用 HTTP 或 HTTPS 通訊協定的應用程式之間交換訊息的配接器。|  
@@ -359,7 +359,7 @@ ms.lasthandoff: 11/28/2017
 |Messaging Instance (傳訊執行個體)|在「群組中樞」頁面上，傳訊執行個體包含傳送埠和接收埠服務執行個體。 傳訊執行個體會參考傳訊服務執行個體。|  
 |中繼資料|如位置、時間、訊息大小和 (或) 例外資訊等資訊。|  
 |milestone alias (里程碑別名)|在 BAM 中，用於意指 BAM 活動所包含之里程碑或資料項目的名稱。 每個里程碑和資料項目可以有多個別名。|  
-|mixed content (混合內容)|特定 XML 項目的內容，同時包含子項目以及不在子項目內的資料。 HTML 的範例是： &lt;P&gt;moons &lt;EM&gt;一律&lt;/e m&gt;日落，增加或減少上升。&lt;/ P&gt;|  
+|mixed content (混合內容)|特定 XML 項目的內容，同時包含子項目以及不在子項目內的資料。 HTML 的範例是︰ &lt;P&gt;共 &lt;EM&gt;一律&lt;/e m&gt; 日落，增加或減少上升。&lt;/ P&gt;|  
 |multi-part message type (Multipart 訊息類型)|訊息結構的定義，包含其項目的資料類型。 Multipart 訊息類型可以包含單一部分或許多部分。|  
   
 ## <a name="n"></a>N  
@@ -398,7 +398,7 @@ ms.lasthandoff: 11/28/2017
 |Partner Agreement Management (PAM) (夥伴協議管理)|在 BizTalk Server 管理主控台的 [合作對象] 節點中，用來設定合作對象屬性的使用者介面。 您可以設定從事 EDI 文件交換、EDI 批次處理和 AS2 文件傳輸之合作對象的處理屬性，以及當合作對象不存在時所使用的全域屬性。|  
 |party (合作對象)|BizTalk Server 外部與協調流程互動的每個實體。 與貴組織合作的所有夥伴皆視為合作對象，而且貴組織可能有數千個合作對象。|  
 |party enlistment (合作對象登錄)|繫結合作對象到角色的機制。 您可以在角色中登錄合作對象，因而讓協調流程能夠與合作對象互動。|  
-|pass-through (通過)|BizTalk Server 連接埠的組態，在傳送埠上僅使用一個篩選條件運算式，將接收埠直接連接到傳送埠。 篩選條件運算式的格式應該為 BTS.ReceivePortName == "名稱或接收埠"。 在這種組態中，接收埠接收的任何訊息會直接傳送到傳送埠。 BizTalk 2004 中通過執行的意義與不同 BizTalk Server 2000 或 2002年中通過執行的意義。 在 BizTalk Server 2004 中通過執行訊息仍會在管線中處理，並可能在連接埠也會進行轉換。|  
+|pass-through (通過)|BizTalk Server 連接埠的組態，在傳送埠上僅使用一個篩選條件運算式，將接收埠直接連接到傳送埠。 篩選條件運算式的格式應該為 BTS.ReceivePortName == "名稱或接收埠"。 在這種組態中，接收埠接收的任何訊息會直接傳送到傳送埠。 BizTalk 2004 中通過執行的意義與 BizTalk Server 2000 或 2002年中通過執行的意義不同。 在 BizTalk Server 2004 中通過執行訊息仍在管線中處理，並可能在連接埠數目也會進行轉換。|  
 |效能監視|觀看訊息程序/接收速率、執行協調流程數、快取點擊數、一段時間的記憶使用狀況等的程序。|  
 |performance processing rules (效能處理規則)|管理程序效能或容量類型計數器的規則。|  
 |周邊網路|位於內部網路與網際網路之間的裝置和子網路的集合，可隔離未獲授權的網際網路使用者，以協助保護內部網路。 也稱為 DMZ (非軍事區域) 以及過濾的子網路。|  
@@ -413,7 +413,7 @@ ms.lasthandoff: 11/28/2017
 |private queue (私用佇列)|不是發佈為 Active Directory 物件的佇列。 BizTalk 訊息佇列完全支援在私用佇列中訊息的傳送和接收。|  
 |process surface (程序介面)|協調流程設計師中設計介面的中間區域。 這個區域用來設計協調流程。|  
 |Project Designer (專案設計師)|組成專案的服務、連接埠和繫結的視覺表示法。 新增和移除服務、建立和移除設計師內服務上相容連接埠之間的繫結，使用者即可在專案設計師中編輯視覺項目。|  
-|property promotion (屬性升級)|透過此特定訊息屬性都會寫入至訊息內容做為屬性欄位與訊息關聯的機制。 會寫入訊息內容與屬性欄位會被視為升級的屬性的屬性 ( **IsPromoted**欄位的屬性設定為**True**)，而且需要相關聯的屬性結構描述。  BizTalk Server 傳訊引擎的文件追蹤的訊息路由的指南，用於評估協調流程中使用屬性欄位。 訊息的訊息內容會儲存在 MessageBox 資料庫的多工緩衝處理表格中，該訊息所在資料列的 imgContext 一欄。|  
+|property promotion (屬性升級)|透過此特定的訊息屬性寫入訊息內容與訊息相關聯，做為屬性欄位機制。 寫入至訊息內容屬性欄位會被視為已提升的屬性的屬性 ( **IsPromoted** 欄位的屬性設定為 **True**)，而且需要相關聯的屬性結構描述。  BizTalk Server 傳訊引擎的文件追蹤的訊息路由的指南，用於評估協調流程中使用屬性欄位。 訊息的訊息內容會儲存在 MessageBox 資料庫的多工緩衝處理表格中，該訊息所在資料列的 imgContext 一欄。|  
 |屬性結構描述|與 BizTalk Server 結構描述關聯的結構描述，用於識別文件中即將升級至訊息內容做為屬性欄位的項目欄位。|  
 |protocol setting (通訊協定設定)|此設定定義使用特定 B2B 通訊協定來支援商務交易的方式。 每個商務設定檔都會針對夥伴可用於通訊的每個 B2B 通訊協定來定義各種設定，以便處理訊息 (編碼) 或傳送訊息 (傳輸)。 通訊協定設定可適用於編碼通訊協定或傳輸通訊協定。|  
 |public queue (公用佇列)|發佈為 Active Directory 物件的佇列。|  

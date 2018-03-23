@@ -1,32 +1,32 @@
 ---
-title: "BizTalk Adapter for mySAP Business Suite 的架構概觀 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Adapter for mySAP Business Suite 的架構概觀 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - architecture of SAP adapter
 - adapters, architecture
 ms.assetid: 1b45edb0-2476-427b-b6cd-41e38ed815e0
-caps.latest.revision: "9"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: d571cdd3beea2bc9a57ec7ad15f865e7ef51e53a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="architecture-overview-of-the-biztalk-adapter-for-mysap-business-suite"></a>BizTalk Adapter for mySAP Business Suite 的架構概觀
 [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]實作[!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)]自訂繫結，其中包含單一的自訂傳輸繫結項目，可讓與 SAP 系統的通訊。 [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]包裝[!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)]執行階段，並公開至應用程式可以透過[!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)]通道架構。 [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]會與透過 SAP Unicode RFC SDK (librfc32u.dll) 的 64 位元或 32 位元版本的 SAP 系統通訊。 
 
 下圖顯示使用開發解決方案的端對端架構[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]。  
   
- ![SAP 端 &#45; 若要 &#45;結束架構](../../adapters-and-accelerators/adapter-sap/media/9ba0c31f-90df-444d-8192-42743c893d51.gif "9ba0c31f-90df-444d-8192-42743c893d51")  
+ ![SAP 端&#45;至&#45;結束架構](../../adapters-and-accelerators/adapter-sap/media/9ba0c31f-90df-444d-8192-42743c893d51.gif "9ba0c31f-90df-444d-8192-42743c893d51")  
   
 ## <a name="consuming-the-adapter"></a>使用配接器  
  [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]公開為 SAP 系統[!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)]服務用戶端應用程式。 用戶端應用程式交換的 SOAP 訊息[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]透過[!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)]通道可執行作業，而且存取 SAP 系統上的資料。 上圖顯示四種方式在其中[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]可以取用。  
@@ -44,7 +44,7 @@ ms.lasthandoff: 09/20/2017
  [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]和 SAP RFC 程式庫一律裝載同處理序的應用程式或服務取用配接器。  
   
 ## <a name="sap-adapter-and-wcf"></a>SAP 配接器和 WCF  
- [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)]提供程式設計模型，根據 SOAP 訊息交換，透過用戶端和服務之間的通道。 通訊的用戶端和服務所公開的端點之間傳送這些訊息。  
+ [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] 提供程式設計模型，根據 SOAP 訊息交換，透過用戶端和服務之間的通道。 通訊的用戶端和服務所公開的端點之間傳送這些訊息。  
   
  端點包含*端點位址*速率接收訊息的位置指定*繫結*指定用來交換訊息，以及通訊協定*合約*指定端點所公開的作業和資料類型。 繫結堆疊在彼此的上方來定義與端點交換訊息的方式的一或多個繫結項目所組成。  
   
@@ -83,4 +83,4 @@ ms.lasthandoff: 09/20/2017
  如需有關如何[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]連接至 SAP 系統，請參閱[建立連接至 SAP 系統](../../adapters-and-accelerators/adapter-sap/create-a-connection-to-the-sap-system.md)。  
   
 ## <a name="see-also"></a>另請參閱  
- [瞭解 BizTalk Adapter for mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/understand-biztalk-adapter-for-mysap-business-suite.md)
+ [了解 BizTalk Adapter for mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/understand-biztalk-adapter-for-mysap-business-suite.md)

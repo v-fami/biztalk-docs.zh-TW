@@ -1,23 +1,23 @@
 ---
-title: "BizTalk Server 中的 Oracle 資料庫與 BizTalk 配接器使用 ServiceModel 中繼資料公用程式工具 |Microsoft 文件"
-description: "使用 svcutil.exe，非預設繫結，或建立 WCF 用戶端類別或 WCF 服務合約與 Oracle 資料庫配接器-BizTalk 配接器組件 (BAP)"
-ms.custom: 
+title: BizTalk Server 中的 Oracle 資料庫與 BizTalk 配接器使用 ServiceModel 中繼資料公用程式工具 |Microsoft 文件
+description: 使用 svcutil.exe，非預設繫結，或建立 WCF 用戶端類別或 WCF 服務合約與 Oracle 資料庫配接器-BizTalk 配接器組件 (BAP)
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f8660014-da04-4692-89e8-f14fcb419496
-caps.latest.revision: "3"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 9dfbdbd60333a2e5683b4f37a65edb928a451e46
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="using-the-servicemodel-metadata-utility-tool-with-the-biztalk-adapter-for-oracle-database"></a>ServiceModel 中繼資料公用程式工具與 BizTalk Adapter 用於 Oracle 資料庫
 您可以使用 ServiceModel Metadata Utility Tool (svcutil.exe) 來產生 WCF 用戶端類別或作業的 WCF 服務合約 （介面），[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]公開。 執行 svcutil.exe 產生 WCF 用戶端類別或 WCF 服務合約之後，在您的程式碼中包含所產生的檔案並建立產生之類別的執行個體或實作在 Oracle 上執行作業的合約的 WCF 服務資料庫。  
@@ -26,7 +26,7 @@ ms.lasthandoff: 11/28/2017
   
  下列各節說明如何設定 svcutil.exe 以及如何使用 svcutil.exe 產生 WCF 用戶端程式碼或 WCF 服務合約有[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]。  
   
-##  <a name="BKMK_ConfigureSvcutil"></a>設定非預設繫結的 svcutil.exe   
+##  <a name="BKMK_ConfigureSvcutil"></a> 設定非預設繫結的 svcutil.exe   
  若要設定為使用非預設繫結的 svcutil.exe，您必須建立 svcutil.exe 的本機副本，然後建立或修改 svcutil.exe.config 組態檔的本機副本。  
   
 1.  建立資料夾，並將 svcutil.exe 複製到新的資料夾。 您通常可以找到 svcutil.exe 在 Windows SDK 安裝位置，特別是，C:\Program Files\Microsoft SDKs\Windows\v6.0\Bin。  
@@ -63,7 +63,7 @@ ms.lasthandoff: 11/28/2017
 > [!NOTE]
 >  您可以設定的任何繫結屬性的[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]繫結組態中。  
   
- 如需有關設定非預設繫結 svcutil.exe 的詳細資訊，請參閱 「 自訂安全中繼資料端點 」 中的主題 WCF 文件，網址[http://go.microsoft.com/fwlink/?LinkId=96077](http://go.microsoft.com/fwlink/?LinkId=96077)。  
+ 如需有關設定非預設繫結 svcutil.exe 的詳細資訊，請參閱 「 自訂安全中繼資料端點 」 中的主題 WCF 文件，網址[ http://go.microsoft.com/fwlink/?LinkId=96077 ](http://go.microsoft.com/fwlink/?LinkId=96077)。  
   
 ### <a name="configure-a-non-default-binding-for-the-pollingstmt-operation"></a>設定非預設繫結 POLLINGSTMT 作業  
  若要使用 svcutil.exe 建立 WCF 服務合約 POLLINGSTMT 作業，您必須設定非預設繫結包含**pollingStatement**屬性，除了**acceptCredentialsInUri**. **PollingStatement**必須包含目標資料表的 SELECT 陳述式。 [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]會使用這個屬性，以產生類別，表示強型別結果設定 POLLINGSTMT 作業傳回。 下列範例會示範用來產生 WCF 服務合約 POLLINGSTMT 作業為目標的繫結組態 /SCOTT/EMP 資料表。  
@@ -106,11 +106,11 @@ ms.lasthandoff: 11/28/2017
 > [!IMPORTANT]
 >  您必須在引號內，在命令列上放置連線 URI。 否則，svcutil.exe 會嘗試擷取作業的中繼資料，[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]不支援。 這類的嘗試結果便未定義。  
   
- 根據預設，svcutil.exe 會將產生的程式碼 output.cs 檔案;不過，您可以變更輸出檔的名稱和許多其他選項，svcutil.exe 會使用藉由設定命令列參數。 該 svcutil.exe 支援的選項的詳細資訊，請參閱 < ServiceModel 中繼資料公用程式工具 (Svcutil.exe) > 中的主題 WCF 文件，網址[http://go.microsoft.com/fwlink/?LinkId=72777](http://go.microsoft.com/fwlink/?LinkId=72777)。  
+ 根據預設，svcutil.exe 會將產生的程式碼 output.cs 檔案;不過，您可以變更輸出檔的名稱和許多其他選項，svcutil.exe 會使用藉由設定命令列參數。 該 svcutil.exe 支援的選項的詳細資訊，請參閱 < ServiceModel 中繼資料公用程式工具 (Svcutil.exe) > 中的主題 WCF 文件，網址[ http://go.microsoft.com/fwlink/?LinkId=72777 ](http://go.microsoft.com/fwlink/?LinkId=72777)。  
   
  Svcutil.exe 不提供的功能來搜尋作業 （例如，透過使用萬用字元）。 您必須明確指定您要當做目標的特定作業的節點識別碼。 您無法指定節點只會參考類別目錄的識別碼。 如需有關節點識別碼，[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]介面，請參閱[中繼資料的節點識別碼](../../adapters-and-accelerators/adapter-oracle-database/metadata-node-ids3.md)。  
   
  [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]提供進階的瀏覽和搜尋功能，可大幅簡化產生 WCF 用戶端類別和 WCF 服務合約。 如需有關[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]，請參閱[產生的 Oracle 資料庫方案成品 WCF 用戶端或 WCF 服務合約](../../adapters-and-accelerators/adapter-oracle-database/create-a-wcf-client-or-wcf-service-contract-for-oracle-db-solution-artifacts.md)。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [BizTalk Adapter for Oracle Database 的訊息和訊息結構描述](../../adapters-and-accelerators/adapter-oracle-database/messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md)

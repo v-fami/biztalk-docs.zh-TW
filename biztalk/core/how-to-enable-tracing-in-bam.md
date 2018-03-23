@@ -1,22 +1,22 @@
 ---
-title: "如何在 BAM 中啟用追蹤 |Microsoft 文件"
-ms.custom: 
+title: 如何在 BAM 中啟用追蹤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4da99e74-a41d-4ab1-a07d-e3bee6187216
-caps.latest.revision: "10"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 084eaf8cd4ba1c251b1c196830f76ef9c6a8e33f
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="how-to-enable-tracing-in-bam"></a>如何在 BAM 中啟用追縱
 您可以在 BAM 中啟用追蹤，以便協助在下列五個 BAM 元件內疑難排解問題：  
@@ -35,16 +35,16 @@ ms.lasthandoff: 11/28/2017
  您可以啟用 [BAM 管理公用程式] 的追蹤，以取得部署失敗的相關資訊。 執行這項作業的方法有兩種。 您可以透過特定 BM.exe 命令的命令列啟用追蹤，或是可以修改 [BAM 管理公用程式] 組態檔以啟用所有 BM.exe 命令的追蹤。  
   
 ### <a name="using-the-command-line"></a>使用命令列  
- 使用啟動 BM.exe 命令列追蹤**-追蹤： 在 &#124; 關閉**切換。 使用 Trace 參數會覆寫組態檔中的設定。  
+ 使用啟動 BM.exe 命令列追蹤 **-追蹤︰ 在 &#124; 關閉** 切換。 使用 Trace 參數會覆寫組態檔中的設定。  
   
  此參數可以搭配任何一般 BM.exe 命令使用。  
   
  例如：  
   
- **bm.exe deploy-all-definitionfile-DefinitionFile:PO.xml – 追蹤： 在**  
+ **bm.exe deploy-all-definitionfile-DefinitionFile:PO.xml – 追蹤︰ 在**  
   
 ### <a name="using-the-configuration-file"></a>使用組態檔  
- 您可以修改位於 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking 資料夾中的 BM.exe.config 組態檔以啟用追蹤。 這個檔案包含**system.diagnostics** > 一節，其中包含追蹤項目。 請移除註解以啟用追蹤。 根據預設，並不會啟用追蹤。  
+ 您可以修改位於 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking 資料夾中的 BM.exe.config 組態檔以啟用追蹤。 這個檔案包含 **system.diagnostics** 區段，其中包含追蹤項目。 請移除註解以啟用追蹤。 根據預設，並不會啟用追蹤。  
   
  `<system.diagnostics>`  
   
@@ -183,7 +183,7 @@ ms.lasthandoff: 11/28/2017
 ## <a name="bam-alerting"></a>BAM 警示  
  啟用 BAM 警示的追蹤可協助您疑難排解警示傳遞失敗。  
   
- BAM 警示建立在 [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Notification Services 基礎結構上。 若要啟用 BAM 警示的追蹤，請參閱 Notification Services 疑難排解主題[http://go.microsoft.com/fwlink/?LinkId=79416](http://go.microsoft.com/fwlink/?LinkId=79416)。  
+ BAM 警示建立在 [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Notification Services 基礎結構上。 若要啟用 BAM 警示的追蹤，請參閱 Notification Services 疑難排解主題[ http://go.microsoft.com/fwlink/?LinkId=79416 ](http://go.microsoft.com/fwlink/?LinkId=79416)。  
   
 ## <a name="bam-interceptors"></a>BAM 攔截器  
  若要啟用 BAM 攔截器的端點對端點追蹤，您必須修改應用程式的組態檔。這對 Web 主控的應用程式會是 Web.config，對於自我主控的應用程式則會是 Appname.config。 下列是如何能夠修改檔案的範例：  
@@ -216,14 +216,14 @@ ms.lasthandoff: 11/28/2017
 |錯誤|記錄所有例外狀況。|  
 |警告|存在可能造成後續錯誤或重大失敗的狀況。|  
 |資訊|會產生有助於監視和診斷系統狀態、測量效能，或是設定資料的訊息。 您可以利用此種資訊進行容量計劃和效能管理。|  
-|[詳細資訊]|對使用者程式碼和服務進行偵錯層級追蹤。|  
+|Verbose|對使用者程式碼和服務進行偵錯層級追蹤。|  
 |全部|所有訊息。|  
   
 > [!NOTE]
 >  追蹤可能會對效能具有不利效果。 請只在執行疑難排解活動時啟用追蹤。  
   
 ### <a name="viewing-the-wcf-trace-file"></a>檢視 WCF 追蹤檔  
- 若要分析 WCF 追蹤，您可以使用 WCF Service Trace Viewer Tool。 如需 Service Trace Viewer Tool 的詳細資訊，請參閱[http://go.microsoft.com/fwlink/?LinkId=75218](http://go.microsoft.com/fwlink/?LinkId=75218)。  
+ 若要分析 WCF 追蹤，您可以使用 WCF Service Trace Viewer Tool。 如需 Service Trace Viewer Tool 的詳細資訊，請參閱[ http://go.microsoft.com/fwlink/?LinkId=75218 ](http://go.microsoft.com/fwlink/?LinkId=75218)。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [管理 BAM](../core/managing-bam.md)

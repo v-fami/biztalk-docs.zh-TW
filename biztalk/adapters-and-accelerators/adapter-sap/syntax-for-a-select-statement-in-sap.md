@@ -1,23 +1,24 @@
 ---
-title: "SAP 中的 SELECT 陳述式的語法 |Microsoft 文件"
-ms.custom: 
+title: SAP 中的 SELECT 陳述式的語法 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: SELECT statement, syntax for
+helpviewer_keywords:
+- SELECT statement, syntax for
 ms.assetid: 47120d74-bf41-4622-a6bc-7b8ddc959305
-caps.latest.revision: "8"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 5f57cac0673a6520de4b0d881527bbc7b670ca1b
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="syntax-for-a-select-statement-in-sap"></a>SAP 中的 SELECT 陳述式的語法
 下列章節說明實作針對 SELECT 查詢的文法規格[!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)]。 請注意，在數個情況下，語法與基底的 TRANSACT-SQL 語法稍有不同。  
@@ -32,15 +33,15 @@ SELECT {TOP <const> }[0,1] <select_list>  {INTO FILE [‘file_name’ | “file_
   
  其中：  
   
--   **< select_list >** = `[ {table_name.}[0,1]column_name { AS alias_name } [0,1] } [ 1, …n ]`  
+-   **<select_list>** = `[ {table_name.}[0,1]column_name { AS alias_name } [0,1] } [ 1, …n ]`  
   
--   **< Join_Condition >** = `[Alias_name.|table_name.]column_name <expr> [Alias_name.|table_name.]column_name`  
+-   **<Join_Condition>** = `[Alias_name.|table_name.]column_name <expr> [Alias_name.|table_name.]column_name`  
   
--   **\<述詞\>** = `[ predicate [AND|OR] predicate [between|not between] predicate |  NOT predicate |  ‘(‘ predicate ‘)’ | condition ]`  
+-   **\<predicate\>** = `[ predicate [AND|OR] predicate [between|not between] predicate |  NOT predicate |  ‘(‘ predicate ‘)’ | condition ]`  
   
  支援的條件運算式和運算式為：  
   
--   **\<條件\>** = `[ expr | expr [NOT | ] BETWEEN const AND const | expr [NOT | ] LIKE const ]`  
+-   **\<condition\>** = `[ expr | expr [NOT | ] BETWEEN const AND const | expr [NOT | ] LIKE const ]`  
   
 -   **\<expr\>** = `[ const | column_name [= | ! = | > | > = | ! > | < | < = | ! < ] const | column_name | - const  | const | column_name ]`  
   
@@ -48,7 +49,7 @@ SELECT {TOP <const> }[0,1] <select_list>  {INTO FILE [‘file_name’ | “file_
   
  **OPTION 關鍵字的值**  
   
- 您可以指定為選項`OPTION '<option>'`，其中`<option> = 'no_conversion' | 'batchsize <size>' | 'disabledatavalidation'`  
+ 您可以指定為選項`OPTION '<option>'`，其中 `<option> = 'no_conversion' | 'batchsize <size>' | 'disabledatavalidation'`  
   
 -   **No_conversion**選項：  
   
@@ -165,13 +166,13 @@ Table | '['Table']'
   
      `SELECT BUKRS from T001`  
   
--   [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]SELECT 陳述式中不支援重複的別名名稱。 因此，下列 SELECT 陳述式會擲回錯誤：  
+-   [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] SELECT 陳述式中不支援重複的別名名稱。 因此，下列 SELECT 陳述式會擲回錯誤：  
   
     ```  
     SELECT KUNNR AS [MYKNA1], JMJAH AS MYKNA1 from KNA1 where KUNNR LIKE 'T-S62A08' AND JMJAH=1995  
     ```  
   
--   [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]不支援重複的資料行名稱的 SELECT 陳述式。 因此，下列 SELECT 陳述式會擲回錯誤：  
+-   [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] 不支援重複的資料行名稱的 SELECT 陳述式。 因此，下列 SELECT 陳述式會擲回錯誤：  
   
     ```  
     SELECT KUNNR AS [MYKNA1], KUNNR AS MYKNA2 from KNA1 where MYKNA2='T-S62A08'  
@@ -183,13 +184,13 @@ Table | '['Table']'
     SELECT NAME1, PSTLZ  from KNA1 where CITY IS NULL AND NAME1 LIKE '%MODE%'  
     ```  
   
--   [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]不支援 ORDER BY 子句的 SELECT 陳述式中。 因此，下列 SELECT 陳述式會擲回錯誤：  
+-   [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] 不支援 ORDER BY 子句的 SELECT 陳述式中。 因此，下列 SELECT 陳述式會擲回錯誤：  
   
     ```  
     SELECT NAME1  AS [MYNAME],  LAND1, KUNNR  from KNA1 where NAME1 LIKE '%MODE%'  ORDER BY NAME1  ASC  
     ```  
   
--   [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]不支援指定星號 （*） 來選取 SAP 資料表中的所有欄位。 因此，下列 SELECT 陳述式會擲回錯誤：  
+-   [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] 不支援指定星號 （*） 來選取 SAP 資料表中的所有欄位。 因此，下列 SELECT 陳述式會擲回錯誤：  
   
     ```  
     SELECT spfli.* from spfli inner join sflight on spfli.carrid = sflight.carrid  
@@ -279,5 +280,5 @@ Table | '['Table']'
     select * from spfli inner join sflight on spfli.carrid = sflight.carrid  
     ```  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [關於 .NET Framework Data Provider for mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/about-the-net-framework-data-provider-for-mysap-business-suite.md)

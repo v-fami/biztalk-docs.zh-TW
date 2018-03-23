@@ -1,22 +1,22 @@
 ---
-title: "EDI 解譯器如何運作 |Microsoft 文件"
-ms.custom: 
+title: EDI 解譯器如何運作 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8da91ba4-e1c9-4e6b-bbd1-fe71ea880118
-caps.latest.revision: "43"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 4edf1353a9f06103205e1e6e4296c2aa77e74dc6
-ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="how-the-edi-disassembler-works"></a>EDI 解譯器如何運作
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會在 EDI 接收管線 (`Microsoft.BizTalk.DefaultPipelines.EDIReceivePipeline`) 中執行對所收到 EDI 編碼交換的大部分處理。 此管線包含 EDI 解譯器管線元件，可執行下列處理：  
@@ -37,7 +37,7 @@ ms.lasthandoff: 01/17/2018
   
 -   將整個交換轉換為 XML，如果 **輸入批次處理選項** 屬性設定為兩個的其中一個 **保留交換** 值。 這個屬性可以設定從 **本機主機設定** 頁面下 **交換設定** 雙向協議索引標籤的 **協議屬性** 對話方塊。 接收管線會升級 ReuseEnvelope 屬性，以識別保留的交換。  
   
--   產生「技術」和/或「功能」通知 (若已設定)。 這可包含批次處理通知 (若已設定)。 升級 BTS 的內容屬性。訊息類型，將它設定等於控制項中的結構描述 http://schemas.microsoft.com/EDI/\<X12 或 EDIFACT\>命名空間 （例如，997 通知就是 X12_997_Root）。 另外，升級 EDI.DestinationPartyName 內容屬性，可確保會挑選要傳送的通知。 如需詳細資訊，請參閱[傳送 EDI 通知](../core/sending-an-edi-acknowledgment.md)。  
+-   產生「技術」和/或「功能」通知 (若已設定)。 這可包含批次處理通知 (若已設定)。 升級 BTS 的內容屬性。訊息類型，將它設定等於中的控制結構描述http://schemas.microsoft.com/EDI/ \<X12 或 EDIFACT\>命名空間 （例如，997 通知就是 X12_997_Root）。 另外，升級 EDI.DestinationPartyName 內容屬性，可確保會挑選要傳送的通知。 如需詳細資訊，請參閱[傳送 EDI 通知](../core/sending-an-edi-acknowledgment.md)。  
   
 -   適用時，執行 HIPAA 276/277 (僅 5010 版) 834、835 (僅 4010 版) 和 837 文件分割。  
   

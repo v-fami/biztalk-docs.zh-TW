@@ -1,22 +1,22 @@
 ---
-title: "BizTalk Framework 結構描述和屬性 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Framework 結構描述和屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8986e4a7-0c0a-415f-8a74-4fca71d3f1b5
-caps.latest.revision: "6"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 992f0fb9c66ee00cf425609db4231a57bf5782c4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="biztalk-framework-schema-and-properties"></a>BizTalk Framework 結構描述和屬性
 **http://schemas.microsoft.com/BizTalk/2003/btf2-properties**命名空間包含可用來設定 BizTalk Framework 解譯器管線元件的訊息和部分內容屬性的屬性。 「BizTalk Framework 解譯器」管線元件使用這些屬性在建立的訊息中產生適當的標頭。 下表描述 BizTalk Framework 屬性。  
@@ -49,5 +49,5 @@ ms.lasthandoff: 09/20/2017
 |**commitmentRct_commitmentCode**|xs:QName|指定完整格式名稱 (以 XSD 格式)，此名稱指定有關處理決策更加特定的狀態。|  
   
 ## <a name="see-also"></a>另請參閱  
--  **訊息內容屬性**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]   
+-  **訊息內容屬性** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]   
 -  [設定原生管線元件](../core/configuring-native-pipeline-components.md)

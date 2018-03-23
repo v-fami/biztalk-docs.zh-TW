@@ -1,23 +1,23 @@
 ---
-title: "在 IDOC 作業的訊息結構描述在 BizTalk 我 SAP 配接器 |Microsoft 文件"
-description: "訊息作業、 結構和動作來傳送和接收 Idoc 使用 mySAP 配接器-BizTalk 配接器組件 (BAP)"
-ms.custom: 
+title: 在 IDOC 作業的訊息結構描述在 BizTalk 我 SAP 配接器 |Microsoft 文件
+description: 訊息作業、 結構和動作來傳送和接收 Idoc 使用 mySAP 配接器-BizTalk 配接器組件 (BAP)
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 601aa9f9-e42f-47aa-b020-7a1eed4f0780
-caps.latest.revision: "7"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 53da14ff55d427e3507273af4c991072cff26bec
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="message-schemas-for-idoc-operations"></a>IDOC 作業的訊息結構描述
 中繼文件 (IDOC) 是以非同步方式與 SAP 和非 SAP 系統通訊的 SAP 所支援的標準化的 EDI 類似文件。 IDOC 用來傳送和接收商務文件，例如銷售訂單與交易夥伴的 SAP 系統或外部程式。  
@@ -59,14 +59,14 @@ ms.lasthandoff: 11/28/2017
 ### <a name="message-structures-for-idoc-client-operations"></a>IDOC 用戶端作業的訊息結構  
  下表顯示在傳送及 SendIdoc 作業的訊息結構。  
   
-|作業|XML 結構|Description|  
+|運算|XML 結構|Description|  
 |---------------|-------------------|-----------------|  
 |Send|`<Send xmlns="[MSG_VERSION]/Idoc/[VERSION]/[IDOCTYP]/                    [CIMTYP]/[RELNO]/Send">   <idocData>     <[EDI_DC40/EDI_DC] xmlns="/Types/Idoc/      [VERSION]/[IDOCTYP]/[CIMTYP]/[RELNO]">       <EDIDC_FIELD1>value1</ EDIDC_FIELD1>       <EDIDC_FIELD2>value2</ EDIDC_FIELD2>       …     </EDI_DC40>     <[SEGMENT_DEFN]_1>       <[DATAHEADERCOLUMN_[SEGHDR_FLD1]>         header_value_1       </[DATAHEADERCOLUMN_[SEGHDR_FLD1]>       <[DATAHEADERCOLUMN_[SEGHDR_FLD2]>         header_value_2       </[DATAHEADERCOLUMN_[SEGHDR_FLD2]>       …       <SEG_FIELD1>value1</SEG_FIELD1>       <SEG_FIELD2>value2</SEG_FIELD2>       …     </[SEGMENT_DEFN]_1>     <[SEGMENT_DEFN]_2>       <[DATAHEADERCOLUMN_[SEGHDR_FLD1]>         header_value_1       </[DATAHEADERCOLUMN_[SEGHDR_FLD1]>       <[DATAHEADERCOLUMN_[SEGHDR_FLD2]>         header_value_2       </[DATAHEADERCOLUMN_[SEGHDR_FLD2]>       …       <SEG_FIELD1>value1</SEG_FIELD1>       <SEG_FIELD2>value2</SEG_FIELD2>       …     </[SEGMENT_DEFN]_2>     …     </[EDI_DC40/EDI_DC]>   </idocData>   <guid>guid</guid> </Send>`|傳送至 SAP 的強型別的 IDOC<br /><br /> -IDOC 結構描述是強型別。<br /><br /> -會公開控制記錄欄位。<br /><br /> -公開資料記錄的欄位，包括區段標頭和區段欄位。<br /><br /> [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]關聯 SAP 交易識別碼 (TID)，它會使用可傳送 IDOC 的 GUID。 您可以選擇是否要指定要求訊息中的 GUID。 如果未在要求訊息中包含 GUID[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]會產生一個。 GUID 會傳回回應訊息中。|  
 |傳送回應|`<SendResponse xmlns="[MSG_VERSION]/Idoc/[VERSION]/         [IDOCTYP]/[CIMTYP]/[RELNO]/Send">   <guid>guid</guid> </SendResponse>`|表示，已傳送 IDOC 至 SAP 系統。<br /><br /> 如果**AutoConfirmSentIdocs**繫結屬性是**true**、[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]自動確認 SAP 系統上的交易，您可以忽略在回應中傳回的 GUID。 如果**AutoConfirmSentIdocs**繫結屬性是**false**，您必須叫用**RfcConfirmTransID**所傳回的作業具有 GUID[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]至完成上 SAP 系統的異動。<br /><br /> 您可以叫用**SapAdapterUtilities.ConvertGuidToTid**方法，以取得 TID 相關聯的工作 (LUW) 邏輯單元。|  
 |SendIdoc|`<SendIdoc xmlns="[MSG_VERSION]/Idoc">   <idocData>docDataString</idocData>   <guid>guid</guid> </SendIdoc>`|傳送弱型別的 IDOC 至 SAP。<br /><br /> -IDOC 結構描述是弱型別。<br /><br /> -公開 IDOC 為控制記錄和資料記錄所組成的單一字串欄位。<br /><br /> [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]關聯 SAP TID，用來傳送 IDOC 的 GUID。 您可以選擇是否要指定要求訊息中的 GUID。 如果未在要求訊息中包含 GUID[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]產生一個。 回應訊息中傳回 GUID|  
 |SendIdoc 回應|`<SendIdocResponse xmlns="[MSG_VERSION]/Idoc">   <guid>guid</guid> </SendIdocResponse>`|表示，已傳送 IDOC 至 SAP 系統。<br /><br /> 如果**AutoConfirmSentIdocs**繫結屬性是**true**、[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]自動確認 SAP 系統上的交易，您可以忽略在回應中傳回的 GUID。 如果**AutoConfirmSentIdocs**繫結屬性是**false**，您必須叫用**RfcConfirmTransID**所傳回的作業具有 GUID[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]至完成上 SAP 系統的異動。<br /><br /> 您可以叫用**SapAdapterUtilities.ConvertGuidToTid**與 LUW 相關聯的方法，以取得 TID。|  
   
- [MSG_VERSION] = 訊息版本字串。例如，http://Microsoft.LobServices.Sap/2007/03。  
+ [MSG_VERSION] = 訊息版本字串。例如， http://Microsoft.LobServices.Sap/2007/03。  
   
  [版本] = IDOC 發行版本 （2 或 3）。  
   
@@ -91,14 +91,14 @@ ms.lasthandoff: 11/28/2017
 ### <a name="message-actions-for-idoc-client-operations"></a>IDOC 用戶端作業的訊息動作  
  下表顯示在傳送及 SendIdoc 作業的訊息動作。  
   
-|作業|動作|範例|  
+|運算|動作|範例|  
 |---------------|------------|-------------|  
-|Send|[MESSAGE_VERSION] /Idoc/ [VERSION] / [IDOCTYP] / [CIMTYP] / [RELNO] / 傳送|http://Microsoft.LobServices.Sap/2007/03/Idoc/3/ORDERS05//620/Send|  
-|傳送回應|[MESSAGE_VERSION] /Idoc/ [VERSION] / [IDOCTYP] / [CIMTYP] / [RELNO] / 傳送/回應|http://Microsoft.LobServices.Sap/2007/03/Idoc/3/ORDERS05//620/Send/response|  
-|SendIdoc|[MESSAGE_VERSION] / Idoc/SendIdoc|http://Microsoft.LobServices.Sap/2007/03/Idoc/SendIdoc|  
+|Send|[MESSAGE_VERSION]/Idoc/[VERSION] /[IDOCTYP]/[CIMTYP]/[RELNO]/Send|http://Microsoft.LobServices.Sap/2007/03/Idoc/3/ORDERS05//620/Send|  
+|傳送回應|[MESSAGE_VERSION]/Idoc/[VERSION] /[IDOCTYP]/[CIMTYP]/[RELNO]/Send/response|http://Microsoft.LobServices.Sap/2007/03/Idoc/3/ORDERS05//620/Send/response|  
+|SendIdoc|[MESSAGE_VERSION]/Idoc/SendIdoc|http://Microsoft.LobServices.Sap/2007/03/Idoc/SendIdoc|  
 |SendIdoc 回應|[MESSAGE_VERSION] / Idoc/SendIdoc 回應|http://Microsoft.LobServices.Sap/2007/03/Idoc/SendIdoc/response|  
   
- [MESSAGE_VERSION] = 訊息版本字串。例如，http://Microsoft.LobServices.Sap/2007/03。  
+ [MESSAGE_VERSION] = 訊息版本字串。例如， http://Microsoft.LobServices.Sap/2007/03。  
   
  [版本] = IDOC 發行版本 （2 或 3）。  
   
@@ -116,14 +116,14 @@ ms.lasthandoff: 11/28/2017
 ### <a name="message-structures-for-idoc-receive-operations"></a>訊息結構 IDOC 的接收作業  
  下表顯示 「 接收 」 和 「 ReceiveIdoc 作業的訊息結構。  
   
-|作業|XML 結構|Description|  
+|運算|XML 結構|Description|  
 |---------------|-------------------|-----------------|  
 |Receive|`<Receive xmlns="[MSG_VERSION]/Idoc/[VERSION]/[IDOCTYP]/                 [CIMTYP]/[RELNO]/Receive">   <idocData>     <[EDI_DC40/EDI_DC] xmlns="/Types/Idoc/      [VERSION]/[IDOCTYP]/[CIMTYP]/[RELNO]">       <EDIDC_FIELD1>value1</ EDIDC_FIELD1>       <EDIDC_FIELD2>value2</ EDIDC_FIELD2>       …     </EDI_DC40>     <[SEGMENT_DEFN]_1>       <[DATAHEADERCOLUMN_[SEGHDR_FLD1]>         header_value_1       </[DATAHEADERCOLUMN_[SEGHDR_FLD1]>       <[DATAHEADERCOLUMN_[SEGHDR_FLD2]>         header_value_2       </[DATAHEADERCOLUMN_[SEGHDR_FLD2]>       …       <SEG_FIELD1>value1</SEG_FIELD1>       <SEG_FIELD2>value2</SEG_FIELD2>       …     </[SEGMENT_DEFN]_1>     <[SEGMENT_DEFN]_2>       <[DATAHEADERCOLUMN_[SEGHDR_FLD1]>         header_value_1       </[DATAHEADERCOLUMN_[SEGHDR_FLD1]>       <[DATAHEADERCOLUMN_[SEGHDR_FLD2]>         header_value_2       </[DATAHEADERCOLUMN_[SEGHDR_FLD2]>       …       <SEG_FIELD1>value1</SEG_FIELD1>       <SEG_FIELD2>value2</SEG_FIELD2>       …     </[SEGMENT_DEFN]_2>     …     </[EDI_DC40/EDI_DC]>   </idocData> </Receive>`|從 SAP 接收強型別的 IDOC<br /><br /> -IDOC 結構描述是強型別。<br /><br /> -會公開控制記錄欄位。<br /><br /> -公開資料記錄的欄位，包括區段標頭和區段欄位。|  
 |接收回應|`<ReceiveResponse xmlns="[MSG_VERSION]/Idoc/[VERSION]/[IDOCTYP]/         [CIMTYP]/[RELNO]/Receive"> </ReceiveResponse>`|表示，已從 SAP 系統接收 IDOC。|  
 |ReceiveIdoc|`<ReceiveIdoc xmlns="[MSG_VERSION]/Idoc">   <idocData>docDataString</idocData> </ReceiveIdoc>`|從 SAP 接收弱型別的 IDOC。<br /><br /> -IDOC 結構描述是弱型別。<br /><br /> -公開 IDOC 為控制記錄和資料記錄所組成的單一字串欄位。|  
 |ReceiveIdoc 回應|`<ReceiveIdocResponse xmlns="[MSG_VERSION]/Idoc"> </ReceiveIdocResponse>`|表示，已從 SAP 系統接收 IDOC。|  
   
- [MSG_VERSION] = 訊息版本字串。例如，http://Microsoft.LobServices.Sap/2007/03。  
+ [MSG_VERSION] = 訊息版本字串。例如， http://Microsoft.LobServices.Sap/2007/03。  
   
  [版本] = IDOC 發行版本 （2 或 3）。  
   
@@ -181,10 +181,10 @@ ms.lasthandoff: 11/28/2017
 ### <a name="message-actions-for-idoc-receive-operations"></a>IDOC 的訊息動作接收作業  
  下表顯示 「 接收 」 和 「 ReceiveIdoc 作業的訊息動作。  
   
-|作業|動作|範例|  
+|運算|動作|範例|  
 |---------------|------------|-------------|  
-|Receive|[MESSAGE_VERSION] /Idoc/ [VERSION] / [IDOCTYP] / [CIMTYP] / [RELNO] / 接收|http://Microsoft.LobServices.Sap/2007/03/Idoc/3/ORDERS05//620/Receive|  
-|接收回應|[MESSAGE_VERSION] /Idoc/ [VERSION] / [IDOCTYP] / [CIMTYP] / [RELNO] / 接收/回應|http://Microsoft.LobServices.Sap/2007/03/Idoc/3/ORDERS05//620/Receive/response|  
-|ReceiveIdoc|[MESSAGE_VERSION] / Idoc/ReceiveIdoc|http://Microsoft.LobServices.Sap/2007/03/Idoc/ReceiveIdoc|  
+|Receive|[MESSAGE_VERSION]/Idoc/[VERSION] /[IDOCTYP]/[CIMTYP]/[RELNO]/Receive|http://Microsoft.LobServices.Sap/2007/03/Idoc/3/ORDERS05//620/Receive|  
+|接收回應|[MESSAGE_VERSION]/Idoc/[VERSION] /[IDOCTYP]/[CIMTYP]/[RELNO]/Receive/response|http://Microsoft.LobServices.Sap/2007/03/Idoc/3/ORDERS05//620/Receive/response|  
+|ReceiveIdoc|[MESSAGE_VERSION]/Idoc/ReceiveIdoc|http://Microsoft.LobServices.Sap/2007/03/Idoc/ReceiveIdoc|  
 |ReceiveIdoc 回應|[MESSAGE_VERSION] / Idoc/ReceiveIdoc 回應|http://Microsoft.LobServices.Sap/2007/03/Idoc/ReceiveIdoc/response|  
   

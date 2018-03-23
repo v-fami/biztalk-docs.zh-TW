@@ -1,21 +1,21 @@
 ---
-title: "步驟 3-建立組建和發行定義 |Microsoft 文件"
-description: "在 VSTS 中，會建立組建定義，以便建置您的 git 或 TFS 儲存機制中的專案，然後建立要部署 BizTalk Server 應用程式的發行定義"
-ms.custom: 
+title: 步驟 3-建立組建和發行定義 |Microsoft 文件
+description: 在 VSTS 中，會建立組建定義，以便建置您的 git 或 TFS 儲存機制中的專案，然後建立要部署 BizTalk Server 應用程式的發行定義
+ms.custom: ''
 ms.date: 11/20/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 5ce84071fbc105fd9faddd794792273aae2e76b9
-ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="step-3-create-the-build-and-release-definition"></a>步驟 3： 建立組建和發行定義
 
@@ -101,7 +101,7 @@ ms.lasthandoff: 11/21/2017
 
     **部署套件**： 選取您的應用程式專案，zip 檔案，然後選取**確定**。 
 
-8. 選取**代理程式階段**工作。 選取**預設**代理程式佇列。 **儲存**您的變更。
+8. 選取**代理程式階段**工作。 選取**預設**代理程式佇列。 **儲存** 您的變更。
 
 9. 選取**釋放** > **建立發行**:  
 

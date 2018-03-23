@@ -1,25 +1,25 @@
 ---
-title: "訊息函式和程序的結構描述 |Microsoft 文件"
-ms.custom: 
+title: 訊息函式和程序的結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - functions and procedures, message structure of
 - functions and procedures, message actions of
 ms.assetid: 90b77b15-a4c6-487d-a09e-a078ceddfd1e
-caps.latest.revision: "4"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 6fc8c09499914dd075fe6a46fbc230a4bed104e0
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="message-schemas-for-functions-and-procedures"></a>函數和程序的訊息結構描述
 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]介面 Oracle 資料庫函式和預存程序做為作業。 本章節描述的訊息結構及用來叫用函數和程序的動作。  
@@ -27,7 +27,7 @@ ms.lasthandoff: 11/28/2017
 ## <a name="message-structure-of-functions-and-procedures"></a>函數和程序的訊息結構  
  作業中顯示函式和預存程序會遵循要求-回應訊息交換模式。 下表顯示這些要求和回應訊息的結構。  
   
-|作業|XML 訊息|Description|  
+|運算|XML 訊息|Description|  
 |---------------|-----------------|-----------------|  
 |預存程序要求|`<[SP_NAME] xmlns="http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Procedure">   <[PRM1_NAME]>value1</[PRM1_NAME]>   <[PRM2_NAME]>value2</[PRM2_NAME]>   … </[SP_NAME]>`|訊息本文中支援 Oracle IN 和 OUT IN 參數|  
 |預存程序的回應|`<[SP_NAME]Response xmlns="http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Procedure">   <[PRM1_NAME]>value1<[PRM1_NAME]>   <[PRM2_NAME]>value2</[PRM2_NAME]>   … </[SP_NAME]Response>`|支援訊息內文中的 Oracle 出和 IN OUT 參數|  
@@ -69,16 +69,16 @@ Stored Procedure Overload 2:
   
 |訊息|動作|範例|  
 |-------------|------------|-------------|  
-|預存程序要求|http://Microsoft.LobServices.OracleDB/2007/03/ [SCHEMA] /Procedure/ [SP_NAME]|http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Procedure/SP_INSERT|  
-|預存程序的回應|http://Microsoft.LobServices.OracleDB/2007/03/ [SCHEMA] /Procedure/ [SP_NAME] / 回應|http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Procedure/SP_INSERT/response|  
-|函式要求|http://Microsoft.LobServices.OracleDB/2007/03/ [SCHEMA] /Function/ [FN_NAME]|http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Function/FN_GETID|  
-|函式的回應|http://Microsoft.LobServices.OracleDB/2007/03/ [SCHEMA] /Function/ [FN_NAME] / 回應|http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Function/FN_GETID/response|  
-|封裝的預存程序要求|http://Microsoft.LobServices.OracleDB/2007/03/ [SCHEMA] /Package/ [PACKAGE_NAME] / [SP_NAME]|http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/CUSTOMER/SP_INSERT|  
-|封裝預存程序的回應|http://Microsoft.LobServices.OracleDB/2007/03/ [SCHEMA] /Package/ [PACKAGE_NAME] / [SP_NAME] / 回應|http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/CUSTOMER/SP_INSERT/response|  
-|包裝函式要求|http://Microsoft.LobServices.OracleDB/2007/03/ [SCHEMA] /Package/ [PACKAGE_NAME] / [FN_NAME]|http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/CUSTOMER/FN_GETID|  
-|回應封裝函式|http://Microsoft.LobServices.OracleDB/2007/03/ [SCHEMA] /Package/ [PACKAGE_NAME] / [FN_NAME] / 回應|http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/CUSTOMER/FN_GETID/response|  
-|多載的預存程序要求|http://Microsoft.LobServices.OracleDB/2007/03/ [SCHEMA] /Procedure/ [SP_NAME] / [多載]|http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Procedure/SP_INSERT/overload1|  
-|預存程序回應的多載|http://Microsoft.LobServices.OracleDB/2007/03/ [SCHEMA] /Procedure/ [SP_NAME] / [多載] / 回應|http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Procedure/SP_INSERT/overload1/response|  
+|預存程序要求|http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Procedure/[SP_NAME]|http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Procedure/SP_INSERT|  
+|預存程序的回應|http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Procedure/[SP_NAME]/response|http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Procedure/SP_INSERT/response|  
+|函式要求|http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Function/[FN_NAME]|http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Function/FN_GETID|  
+|函式的回應|http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Function/[FN_NAME]/response|http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Function/FN_GETID/response|  
+|封裝的預存程序要求|http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Package/[PACKAGE_NAME]/[SP_NAME]|http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/CUSTOMER/SP_INSERT|  
+|封裝預存程序的回應|http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Package/[PACKAGE_NAME]/[SP_NAME]/response|http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/CUSTOMER/SP_INSERT/response|  
+|包裝函式要求|http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Package/[PACKAGE_NAME]/[FN_NAME]|http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/CUSTOMER/FN_GETID|  
+|回應封裝函式|http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Package/[PACKAGE_NAME]/[FN_NAME]/response|http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Package/CUSTOMER/FN_GETID/response|  
+|多載的預存程序要求|http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Procedure/[SP_NAME]/[OVERLOAD]|http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Procedure/SP_INSERT/overload1|  
+|預存程序回應的多載|http://Microsoft.LobServices.OracleDB/2007/03/[SCHEMA]/Procedure/[SP_NAME]/[OVERLOAD]/response|http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Procedure/SP_INSERT/overload1/response|  
   
  [SCHEMA] = 集合的 Oracle 成品。例如，SCOTT。  
   
@@ -90,5 +90,5 @@ Stored Procedure Overload 2:
   
  [多載] = 多載的參數。 可能的值為 overload1、 overload2，等等。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [BizTalk Adapter for Oracle Database 的訊息和訊息結構描述](../../adapters-and-accelerators/adapter-oracle-database/messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md)

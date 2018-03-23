@@ -1,23 +1,23 @@
 ---
-title: "基本的 Oracle 資料型別 Oracle EBS 配接器在 BizTalk 中 |Microsoft 文件"
-description: "資料和 XSD 類型、 安全的輸入，與 Oracle E-business Suite 中 BizTalk 配接器組件 (BAP) 中的驗證"
-ms.custom: 
+title: 基本的 Oracle 資料型別 Oracle EBS 配接器在 BizTalk 中 |Microsoft 文件
+description: 資料和 XSD 類型、 安全的輸入，與 Oracle E-business Suite 中 BizTalk 配接器組件 (BAP) 中的驗證
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 008bf621-8b4e-450d-b354-ee26b91592f2
-caps.latest.revision: "21"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 9012e2ef6adaf94f55b87bbccfc24b7fb889fbf3
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="basic-oracle-data-types"></a>基本的 Oracle 資料類型
 本主題描述如何[!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]呈現基本的 Oracle 資料型別。  
@@ -48,10 +48,10 @@ ms.lasthandoff: 11/28/2017
 |NVarchar2|xsd:string|字串|-|  
 |未經處理|xsd:base64Binary|Byte[]||  
 |RowID|xsd:string|字串|-|  
-|時間戳記 *<br /><br /> （沒有安全輸入如果 UDT 內）|xsd:dateTime 如果 prec < = 7<br /><br /> xsd: string 如果 prec > 7|DateTime<br /><br /> 字串|當公開為字串 (prec > 7)，此值應該表示 Oracle NLS_TIMESTAMP_FORMAT 中。 您可以指定時間戳記資料類型中的字串格式**TimeStampFormat**繫結屬性下的**MlsSettings**繫結屬性。 如果未不指定任何值，如**TimeStampFormat**繫結屬性，配接器使用 MLS 設定 ODP.NET 用戶端在同一部電腦上安裝配接器。<br /><br /> 時間戳記值不能包含時區資訊 （UTC 或 UTC 位移）：<br /><br /> -xsd:dateTime 值不能包含 UTC 或 UTC 位移<br />-   **DateTime.Kind**必須**DateTimeKind.Unspecified**<br /><br /> 如果指定的時區資訊時，配接器會擲回**XmlReaderParsingException**例外狀況，並指出欄位的訊息。|  
+|TimeStamp*<br /><br /> （沒有安全輸入如果 UDT 內）|xsd:dateTime if prec <= 7<br /><br /> xsd: string 如果 prec > 7|DateTime<br /><br /> 字串|當公開為字串 (prec > 7)，此值應該表示 Oracle NLS_TIMESTAMP_FORMAT 中。 您可以指定時間戳記資料類型中的字串格式**TimeStampFormat**繫結屬性下的**MlsSettings**繫結屬性。 如果未不指定任何值，如**TimeStampFormat**繫結屬性，配接器使用 MLS 設定 ODP.NET 用戶端在同一部電腦上安裝配接器。<br /><br /> 時間戳記值不能包含時區資訊 （UTC 或 UTC 位移）：<br /><br /> -xsd:dateTime 值不能包含 UTC 或 UTC 位移<br />-   **DateTime.Kind**必須**DateTimeKind.Unspecified**<br /><br /> 如果指定的時區資訊時，配接器會擲回**XmlReaderParsingException**例外狀況，並指出欄位的訊息。|  
 |TimeStampLTZ|xsd:string|字串|TimeStampLTZ Udt 內不支援。<br /><br /> **外部 UDT**： 此值應在 Oracle NLS_TIMESTAMP_TZ_FORMAT 表示。 您可以指定 TimeStampLTZ 中之資料類型的字串格式**TimeStampTZFormat**繫結屬性下的**MlsSettings**繫結屬性。 如果未不指定任何值，如**TimeStampTZFormat**繫結屬性，配接器使用 MLS 設定 ODP.NET 用戶端在同一部電腦上安裝配接器。|  
 |TimeStampTZ|xsd:string<br /><br /> 如果在 UDT xsd:dateTime|字串<br /><br /> 如果在 UDT 的日期時間|**外部 UDT**： 此值應在 Oracle NLS_TIMESTAMP_TZ_FORMAT 表示。 您可以指定 TimeStampTZ 中之資料類型的字串格式**TimeStampTZFormat**繫結屬性下的**MlsSettings**繫結屬性。 如果未不指定任何值，如**TimeStampTZFormat**繫結屬性，配接器使用 MLS 設定 ODP.NET 用戶端在同一部電腦上安裝配接器。|  
-|Decimal * *|xsd:decimal 如果 prec < = 28<br /><br /> xsd: string 如果 prec > 28|Decimal<br /><br /> 字串|-|  
+|Decimal**|xsd:decimal 如果 prec < = 28<br /><br /> xsd: string 如果 prec > 28|Decimal<br /><br /> 字串|-|  
 |varchar2|xsd:string|字串|-|  
 |二進位 Float * *|xsd:float 如果 prec < = 7<br /><br /> xsd: string 如果 prec > 7|Float<br /><br /> 字串|您必須指定值為十進位字元和群組分隔符號，在指定的格式一致**NumericCharacters**繫結屬性下的**MlsSettings**繫結屬性。 如果未不指定任何值，如**NumericCharacters**繫結屬性，配接器使用 MLS 設定 ODP.NET 用戶端在同一部電腦上安裝配接器。|  
 |二進位雙 * *|xsd:double 如果 prec < = 15<br /><br /> xsd: string 如果 prec > 15|Double<br /><br /> 字串|-|  
@@ -88,5 +88,5 @@ ms.lasthandoff: 11/28/2017
   
 -   由 ODP.NET 某些資料類型。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [BizTalk Adapter for Oracle E-Business Suite 的訊息和訊息結構描述](../../adapters-and-accelerators/adapter-oracle-ebs/messages-and-message-schemas-for-biztalk-adapter-for-oracle-e-business-suite.md)

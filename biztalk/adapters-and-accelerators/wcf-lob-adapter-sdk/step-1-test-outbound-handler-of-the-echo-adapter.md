@@ -1,22 +1,22 @@
 ---
-title: "步驟 1： 測試輸出回應配接器處理常式 |Microsoft 文件"
-ms.custom: 
+title: 步驟 1： 測試輸出回應配接器處理常式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ad4a8164-a584-436f-b20b-4c884f6e2b37
-caps.latest.revision: "21"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: ba2b1d6586588d17c58c0ca9a74cb11a7a9bd9f2
-ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="step-1-test-outbound-handler-of-the-echo-adapter"></a>步驟 1： 測試輸出回應配接器處理常式
 ![步驟 2 之 1](../../adapters-and-accelerators/adapter-sql/media/step-1of2.gif "Step_1of2")  
@@ -25,21 +25,21 @@ ms.lasthandoff: 10/17/2017
   
  在此步驟中，您將測試回應配接器所提供的三個輸出作業。 將您使用 Visual Studio 中，加入配接器服務參考 Visual Studio 外掛程式和自訂程式碼。  
   
-## <a name="prerequisites"></a>必要條件  
+## <a name="prerequisites"></a>필수 구성 요소  
  若要完成此步驟中，您必須先完成[教學課程 1： 開發回應配接器](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-1-develop-the-echo-adapter.md)。  
   
 ## <a name="create-a-visual-studio-project"></a>建立 Visual Studio 專案  
   
 1.  啟動 Visual Studio。  
   
-2.  在 Visual Studio 中，在**檔案**功能表上，指向**新增**，然後按一下**專案**。  
+2.  在 Visual Studio 中，在**檔案**功能表上，指向**新增**，然後按一下 **專案**。  
   
-3.  在**新專案**對話方塊方塊中，執行下列動作：  
+3.  在 **新的專案** 對話方塊方塊中，執行下列動作︰  
   
     |使用|動作|  
     |--------------|----------------|  
-    |**專案類型**|按一下**Visual C#**。|  
-    |**範本**|按一下**主控台應用程式**。|  
+    |**專案類型**|按一下  **Visual C#**。|  
+    |**範本**|按一下  **主控台應用程式**。|  
     |**名稱**|型別**ConsumeEchoAdapter_Outbound**。|  
     |**位置**|型別**C:\Tutorials**。|  
     |**方案名稱**|型別**ConsumeEchoAdapter_Outbound**。|  
@@ -99,7 +99,7 @@ ms.lasthandoff: 10/17/2017
   
 ## <a name="create-a-sample-xml-file"></a>建立範例 XML 檔案  
   
-1.  啟動 [記事本] 的執行個體。 使用 開始 功能表中，按一下 **所有程式**&#124;**附屬應用程式**，然後選擇 **記事本**。  
+1.  啟動 [記事本] 的執行個體。 使用 開始 功能表中，按一下 **所有程式** &#124; **附屬應用程式**，然後選擇 **記事本**。  
   
 2.  下列範例將資料複製到 [記事本] 編輯器。  
   
@@ -194,15 +194,15 @@ ms.lasthandoff: 10/17/2017
   
      **叫用配接器針對 EchoStrings() 方法...**  
   
-     **Bonjour ！**  
+     **Bonjour!**  
   
-     **Bonjour ！**  
+     **Bonjour!**  
   
-     **Bonjour ！**  
+     **Bonjour!**  
   
-     **Bonjour ！**  
+     **Bonjour!**  
   
-     **Bonjour ！**  
+     **Bonjour!**  
   
      **叫用配接器針對 EchoGreetings() 方法...**  
   

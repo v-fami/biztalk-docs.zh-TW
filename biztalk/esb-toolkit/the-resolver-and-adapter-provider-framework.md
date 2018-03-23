@@ -1,22 +1,22 @@
 ---
-title: "解析器和配接器提供者架構 |Microsoft 文件"
-ms.custom: 
+title: 解析器和配接器提供者架構 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fb7ea42e-b32c-40a8-b36b-c349f56f6edd
-caps.latest.revision: "4"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 6b97eec38f868a6d1aa00684d92166bb2759a51d
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="the-resolver-and-adapter-provider-framework"></a>解析器和配接器提供者架構
 解析器和配接器提供者架構支援路線、 轉換和端點解析和路由。 架構可以動態地解決端點，並設定輸出配接器屬性。 之後的解析程式元件會解析端點 （例如，傳出的 Web 服務端點上使用通用描述、 探索與整合 [UDDI] 來尋找），配接器提供者元件設定的已註冊的 BizTalk Server 的特定屬性配接器。 例如，Wcf-basichttp 配接器提供者負責設定 BizTalk 特定訊息的端點 URI，將會使用特定的 BizTalk 配接器; 內容屬性FTP 配接器提供者會負責設定 FTP 配接器的特定屬性。  
@@ -36,115 +36,115 @@ ms.lasthandoff: 12/01/2017
   
  連接字串的範例如下：  
   
--   **靜態**  
+-   **STATIC**  
   
-     靜態：\\\TransportType=;  
+     STATIC:\\\TransportType=;  
   
-     TransportLocation = http://localhost/ESB.CanadianServices/SubmitPOService.asmx;  
+     TransportLocation=http://localhost/ESB.CanadianServices/SubmitPOService.asmx;  
   
-     動作 =;  
+     Action=;  
   
-     EndPointConfig =;  
+     EndPointConfig=;  
   
-     JaxRpcResponse = false;  
+     JaxRpcResponse=false;  
   
-     MessageExchangePattern =;  
+     MessageExchangePattern=;  
   
-     TargetNamespace = http://globalbank.esb.dynamicresolution.com/canadianservices/;  
+     TargetNamespace=http://globalbank.esb.dynamicresolution.com/canadianservices/;  
   
-     TransformType =;  
+     TransformType=;  
   
 -   **UDDI**  
   
-     UDDI:\\\serverUrl= http://localhost: 9901/rmengine;  
+     UDDI:\\\serverUrl=http://localhost:9901/rmengine;  
   
-     serviceName = OrderPurchaseWebService;  
+     serviceName=OrderPurchaseWebService;  
   
-     serviceProvider = Microsoft 作法 ESB  
+     serviceProvider=Microsoft Practices ESB  
   
 -   **XPATH**  
   
      \\\TransportType=;  
   
-     TransportLocation = /*[local-name = 'OrderDoc' and namespace-uri （) = 'http://globalbank.esb.dynamicresolution.com/northamericanservices/'] /*[local-name = 'ID' and namespace-uri （) = 'http://globalbank.esb.dynamicresolution.com/northamericanservices/']。  
+     TransportLocation = /*[local-name = 'OrderDoc' and namespace-uri （) ='http://globalbank.esb.dynamicresolution.com/northamericanservices/'] /*[local-name = 'ID' and namespace-uri （) ='http://globalbank.esb.dynamicresolution.com/northamericanservices/']。  
   
-     動作 =;  
+     Action=;  
   
-     EndPointConfig =;  
+     EndPointConfig=;  
   
-     JaxRpcResponse =;  
+     JaxRpcResponse=;  
   
-     MessageExchangePattern =;  
+     MessageExchangePattern=;  
   
-     TargetNamespace = /*[local-name = 'OrderDoc' and namespace-uri （) = 'http://globalbank.esb.dynamicresolution.com/northamericanservices/'] /*[local-name = 'customerName' 和命名空間 uri （） ='http: / /globalbank.esb.dynamicresolution.com/northamericanservices/']。  
+     TargetNamespace=/*[local-name()='OrderDoc' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/']/*[local-name()='customerName' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/'];  
   
-     TransformType =;  
+     TransformType=;  
   
 -   **BRE**  
   
      BRE:\\\policy=GetCanadaEndPoint;  
   
-     版本 =;  
+     version=;  
   
-     useMsg =;  
+     useMsg=;  
   
 -   **BRI**  
   
      BRI:\\\policy=ResolveItinerary;  
   
-     版本 =;  
+     version=;  
   
-     useMsg =;  
+     useMsg=;  
   
 -   **路線**  
   
-     行程：\\\name=TwoWayTestItinerary;  
+     ITINERARY:\\\name=TwoWayTestItinerary;  
   
-     版本 =;  
+     version=;  
   
 -   **行程靜態**  
   
-     行程靜態：\\\name=TwoWayTestItinerary;  
+     ITINERARY-STATIC:\\\name=TwoWayTestItinerary;  
   
-     版本 =;  
+     version=;  
   
 -   **LDAP**  
   
      LDAP:\\\TransportType=SMTP;  
   
-     TransportLocation = {mail}  
+     TransportLocation={mail}  
   
-     篩選 = (&amp;(objectClass = User) (&#124; (userPrincipalName =yourname@domain.com)));  
+     Filter=(&amp;(objectClass=User)(&#124;(userPrincipalName=yourname@domain.com)));  
   
-     SearchRoot =;  
+     SearchRoot=;  
   
-     SearchScope = 樹狀子目錄。  
+     SearchScope=Subtree;  
   
      EndpointConfig = Subject = {mail} 行程測試訊息&amp;  
   
-     SMTPAuthenticate = 0&amp;  
+     SMTPAuthenticate=0&amp;  
   
-     SMTPHost = 127.0.0.1&amp;  
+     SMTPHost=127.0.0.1&amp;  
   
-     From =test@globalbank.com&amp;  
+     From=test@globalbank.com&amp;  
   
-     DeliveryReceipt = false&amp;  
+     DeliveryReceipt=false&amp;  
   
-     MessagePartsAttachments = 0&amp;  
+     MessagePartsAttachments=0&amp;  
   
-     ReadReceipt = false;  
+     ReadReceipt=false;  
   
-     ThrowErrorIfNotFound = false;  
+     ThrowErrorIfNotFound=false;  
   
-     動作 =;  
+     Action=;  
   
-     JaxRpcResponse = false;  
+     JaxRpcResponse=false;  
   
-     MessageExchangePattern =;  
+     MessageExchangePattern=;  
   
-     TargetNamespace =;  
+     TargetNamespace=;  
   
-     TransformType =;  
+     TransformType=;  
   
  並非所有的連接字串中的屬性是必要項。 此外， **EndPointConfig**是可以填入任何解析程式，並將傳回的特殊屬性。 （選擇性） 在解析程式可以儲存對應至特定的 BizTalk 配接器內容屬性，則亦可以寫入至 BizTalk 訊息內容的名稱/值組。  
   
