@@ -1,22 +1,22 @@
 ---
-title: "產生和發行 SharePoint 網站上的 MT MX Form |Microsoft 文件"
-ms.custom: 
+title: 產生和發行 SharePoint 網站上的 MT MX Form |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4adf7117-11ad-4a8e-8d6a-fd78c5e496a3
-caps.latest.revision: "3"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 1c8bd8248a916d1e98571551a8561119b6377329
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="generating-and-publishing-mtmx-forms-on-the-sharepoint-site"></a>產生和發行 SharePoint 網站上的 MT/MX 表單
 **若要產生並發佈在 SharePoint 網站上的 MT/MX 表單：**  
@@ -62,9 +62,9 @@ ms.lasthandoff: 11/28/2017
   
 18. 在範本：\< MessageType\>視窗中的，命名空間中：  
   
-    -   如果您正在產生 MT InfoPath 表單，請輸入： **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMTxxx**  
+    -   如果您正在產生 MT InfoPath 表單，請輸入︰ **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMTxxx**  
   
-    -   如果您正在產生 MX InfoPath 表單，請輸入： **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMX _\<MessageName\>**  
+    -   如果您正在產生 MX InfoPath 表單，請輸入：  **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMX_ \<MessageName\>**  
   
          這有助於識別訊息執行個體與對應的範本。  
   
