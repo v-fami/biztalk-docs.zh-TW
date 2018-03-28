@@ -1,1 +1,1 @@
-<span data-ttu-id="2e689-101">中的 UI 指引和開發人員參考</span><span class="sxs-lookup"><span data-stu-id="2e689-101">in the UI guidance and Developers reference</span></span>
+<span data-ttu-id="a24d3-101">中的 UI 指引和開發人員參考</span><span class="sxs-lookup"><span data-stu-id="a24d3-101">in the UI guidance and Developers reference</span></span>

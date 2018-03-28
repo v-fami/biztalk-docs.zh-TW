@@ -1,1 +1,1 @@
-<span data-ttu-id="6ce58-101">新增配接器中繼資料精靈</span><span class="sxs-lookup"><span data-stu-id="6ce58-101">Add Adapter Metadata Wizard</span></span>
+<span data-ttu-id="27257-101">新增配接器中繼資料精靈</span><span class="sxs-lookup"><span data-stu-id="27257-101">Add Adapter Metadata Wizard</span></span>
