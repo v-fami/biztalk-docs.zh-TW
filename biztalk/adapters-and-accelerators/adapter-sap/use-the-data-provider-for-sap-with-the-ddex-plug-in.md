@@ -1,33 +1,33 @@
 ---
-title: "使用資料提供者的 DDEX 外掛程式與 SAP |Microsoft 文件"
-ms.custom: 
+title: 使用資料提供者的 DDEX 外掛程式與 SAP |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - DDEX plug-in
 - DDEX plug-in, Data Provider for SAP
 - Data Provider for SAP, using with DDEX plug-in
 ms.assetid: b16c8634-172a-4630-87ed-2073a75afdec
-caps.latest.revision: "5"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: a2a1dd348b6d897e147d6add49499e9716a67aeb
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="use-the-data-provider-for-sap-with-the-ddex-plug-in"></a>使用資料提供者的 DDEX 外掛程式的 sap
 如果您選擇要安裝[!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)]連同[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]安裝，安裝程式安裝[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]DDEX 外掛程式。 您可以使用此外掛程式來瀏覽使用 SAP 物件[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]。 本節提供使用 DDEX 外掛程式的相關資訊。  
   
  您可以使用外掛程式，建立與 SAP 系統中，從 SAP 系統中，加入資料表，並從 SAP 系統加入函式模組。 加入資料表和函式的模組，使用 Visual Studio 外掛程式之後，新加入的資料表和函式的模組會反映在 SAPDiscoveredObjects.xml 檔案中。 如需有關這個檔案的詳細資訊，請參閱[有關 SAPDiscoveredObjects.xml File sap](../../adapters-and-accelerators/adapter-sap/about-the-sapdiscoveredobjects-xml-file-in-sap.md)。  
   
-## <a name="prerequisites"></a>必要條件  
+## <a name="prerequisites"></a>필수 구성 요소  
  請確定您選擇要安裝[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]連同[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]安裝。  
   
 ### <a name="to-connect-to-an-sap-system-using-the-ddex-plug-in"></a>若要連接至 SAP 系統使用 DDEX 外掛程式  
@@ -66,7 +66,7 @@ ms.lasthandoff: 11/28/2017
   
      在連線建立之後下, 圖顯示 [伺服器總管] 中。  
   
-     ![DDEX 外掛程式 &#45; 在 SAP ADO.NET 提供者](../../adapters-and-accelerators/adapter-sap/media/158afc11-9c90-4333-bc62-5901f8d0c794.gif "158afc11-9c90-4333-bc62-5901f8d0c794")  
+     ![DDEX 外掛程式&#45;中 SAP ADO.NET 提供者](../../adapters-and-accelerators/adapter-sap/media/158afc11-9c90-4333-bc62-5901f8d0c794.gif "158afc11-9c90-4333-bc62-5901f8d0c794")  
   
 ### <a name="to-add-tables-from-an-sap-system-using-the-ddex-plug-in"></a>若要加入使用 DDEX 外掛程式的 SAP 系統中的資料表  
   
@@ -79,7 +79,7 @@ ms.lasthandoff: 11/28/2017
   
 3.  **搜尋結果**方塊會列出符合搜尋準則的資料表名稱。  
   
-     ![DDEX 外掛程式 &#45; 在搜尋與新增資料表名稱對話方塊](../../adapters-and-accelerators/adapter-sap/media/737fc9c3-5258-4693-a2f3-5b5b8d2483e9.gif "737fc9c3-5258-4693-a2f3-5b5b8d2483e9")  
+     ![DDEX 外掛程式&#45;搜尋與新增資料表名稱對話方塊](../../adapters-and-accelerators/adapter-sap/media/737fc9c3-5258-4693-a2f3-5b5b8d2483e9.gif "737fc9c3-5258-4693-a2f3-5b5b8d2483e9")  
   
 4.  選取對應至您想要新增，然後按一下資料表的核取方塊**新增**。 若要選取所有資料表，請按一下**都全選**。 若要清除所有選取項目，請按一下**全部清除**。  
   
@@ -100,7 +100,7 @@ ms.lasthandoff: 11/28/2017
   
 3.  **搜尋結果**方塊會列出符合搜尋條件的函式模組。  
   
-     ![DDEX 外掛程式 &#45; 在搜尋與新增模組對話方塊](../../adapters-and-accelerators/adapter-sap/media/8c7f9081-80aa-4bfe-8f06-2c751758ddd0.gif "8c7f9081-80aa-4bfe-8f06-2c751758ddd0")  
+     ![DDEX 外掛程式&#45;中搜尋與新增模組對話方塊](../../adapters-and-accelerators/adapter-sap/media/8c7f9081-80aa-4bfe-8f06-2c751758ddd0.gif "8c7f9081-80aa-4bfe-8f06-2c751758ddd0")  
   
 4.  選取您想要新增，然後按一下函式模組對應的核取方塊**新增**。 若要選取所有的模組，請按一下**全選**。 若要清除所有選取項目，請按一下**全部清除**。  
   
@@ -112,5 +112,5 @@ ms.lasthandoff: 11/28/2017
   
 8.  展開**匯入**列出函式模組的匯入參數 節點。 同樣地，依序展開**匯出**和**資料表**節點，以查看函式模組匯出和資料表的參數清單。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [使用 .NET Framework Data Provider for mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/use-the-net-framework-data-provider-for-mysap-business-suite.md)

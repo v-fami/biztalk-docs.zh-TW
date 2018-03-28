@@ -1,25 +1,25 @@
 ---
-title: "移轉 BizTalk Server 專案 |Microsoft 文件"
-ms.custom: 
+title: 移轉 BizTalk Server 專案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5a4dde72-6555-4bf6-b90e-676aa65312ff
-caps.latest.revision: "23"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: d2752203b0498a6cd5a4a8b6df6bc558c444e355
-ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="migrating-a-biztalk-server-project"></a>移轉 BizTalk Server 專案
-[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]針對開發專案[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]可以移轉至較新的環境，利用[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]轉換。 如需支援的移轉版本，請參閱 [支援的升級路徑與安裝指南](http://social.technet.microsoft.com/wiki/contents/articles/28554.biztalk-server-supported-upgrade-paths-and-installation-guides.aspx)。  
+[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 針對開發專案[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]可以移轉至較新的環境，利用[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]轉換。 如需支援的移轉版本，請參閱 [支援的升級路徑與安裝指南](http://social.technet.microsoft.com/wiki/contents/articles/28554.biztalk-server-supported-upgrade-paths-and-installation-guides.aspx)。  
   
 ## <a name="biztalk-project-changes-after-running-the-conversion-wizard"></a>執行轉換精靈後 BizTalk 專案的變更  
  下表顯示如何[!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)]其中部分特定組態屬性重新放置在專案之後會轉換成較新和專案組態名稱變更，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]專案。 大部分的[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]-相關的專案設定都位於**部署**專案設計工具 索引標籤。  
@@ -40,7 +40,7 @@ ms.lasthandoff: 01/17/2018
 >  轉換期間將遺失對自動產生的項目 (例如 XSD 與 ODX 檔案) 所做的自訂設定。 對於將 Web 參考新增至 BizTalk 專案時產生的 XSD 檔案，結果也是一樣。  
   
 ## <a name="project-migration-and-delay-signing"></a>專案移轉與延遲簽章  
- [!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)]專案使用[延遲簽章](http://go.microsoft.com/fwlink/p/?LinkId=140992)後可能會失敗建置程序期間正在轉換為[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。 這可能因為發生 **產生序列化組件** 建置設定移轉的專案組態不會設定為 **關閉**。  
+ [!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)] 專案使用[延遲簽章](http://go.microsoft.com/fwlink/p/?LinkId=140992)後可能會失敗建置程序期間正在轉換為[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。 這可能因為發生 **產生序列化組件** 建置設定移轉的專案組態不會設定為 **關閉**。  
   
 ## <a name="project-migration-and-msmqt"></a>專案移轉與 MSMQT  
  MSMQT 不再是 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的一部分。 如需有關如何這可能會影響專案移轉的詳細資訊，請參閱主題[MSMQT 過時](../core/msmqt-deprecation.md)。  

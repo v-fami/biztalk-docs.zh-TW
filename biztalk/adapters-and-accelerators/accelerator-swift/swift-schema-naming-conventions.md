@@ -1,28 +1,28 @@
 ---
-title: "SWIFT 命名慣例的結構描述 |Microsoft 文件"
-ms.custom: 
+title: SWIFT 命名慣例的結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - naming conventions [schemas]
 - schemas, naming conventions
 ms.assetid: 3c1f2519-2575-4178-89c1-e97333c1e6bd
-caps.latest.revision: "5"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 14245a185adcccdfb1f2ea2ed9382820fb84177e
-ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="swift-schema-naming-conventions"></a>SWIFT 的結構描述的命名慣例
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]包括協會用於全球 Interbank 財務 Telecommunication (SWIFT) FIN 訊息使用 BizTalk 編輯器所建立的結構描述。 這些結構描述符合整個下列慣例：  
+[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] 使用 BizTalk 編輯器所建立的全球 Interbank 財務 Telecommunication (SWIFT) FIN 訊息協會包含結構描述。 這些結構描述符合整個下列慣例：  
   
 > [!NOTE]
 >  所有結構描述具有版本設定。 若要查看版本，開啟[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]，以滑鼠右鍵按一下方案總管 中的結構描述。 與\<結構描述\>在 BizTalk 編輯器中，選取屬性 窗格向下捲動到 標準版本 屬性中的節點。  

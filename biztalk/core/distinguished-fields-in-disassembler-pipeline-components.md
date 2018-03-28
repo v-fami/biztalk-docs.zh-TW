@@ -21,7 +21,7 @@ ms.openlocfilehash: 64e4c8f15d167f5343089c11b92b0f373aa45576
 ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="distinguished-fields-in-disassembler-pipeline-components"></a>辨別的欄位在解譯器管線元件
 結構描述中定義的辨別欄位會由「XML 解譯器」、「BizTalk Framework 解譯器」或「一般檔案解譯器」管線元件以下列格式寫入訊息內容：  

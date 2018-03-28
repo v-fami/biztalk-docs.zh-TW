@@ -1,22 +1,22 @@
 ---
-title: "支援的配接器 XSD 項目類型 |Microsoft 文件"
-ms.custom: 
+title: 支援的配接器 XSD 項目類型 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 00691a9e-434f-4baa-9a01-b6f452758ab3
-caps.latest.revision: "10"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 3992ecface8fafacb5e1e616c930178ad0ce33a7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="supported-adapter-xsd-element-types"></a>支援的配接器 XSD 項目類型
 下表列出配接器架構支援的項目。 在組態結構描述中定義新的項目時，請使用下列任何類型取代以下範例中的 `string`：  
@@ -25,7 +25,7 @@ ms.lasthandoff: 09/20/2017
 <xs:element name="uri" type="xs:string">  
 ```  
   
-|類型|XML 類型|UI 行為|其他特性|  
+|型別|XML 類型|UI 行為|其他特性|  
 |----------|--------------|-----------------|---------------------|  
 |string|無|僅限編輯方塊接受類型。|可限制最大/最小值的屬性|  
 |normalizedString|無|僅限編輯方塊接受類型。|可限制最大/最小值的屬性|  
@@ -57,8 +57,8 @@ ms.lasthandoff: 09/20/2017
 |anyURI|無|僅限編輯方塊接受類型。|無|  
 |序列|"Sequence" 結構描述項目|無|無|  
 |群組|無|可展開或摺疊群組中所有欄位的 "+" 或 "-" 符號。<br /><br /> 屬性頁右邊沒有編輯功能。|無|  
-|檔案名稱|FileName|省略符號會在欄位區域結尾出現。 按一下省略符號和**Windows FileOpen**對話方塊隨即出現，讓您選取的檔案。|無|  
-|資料夾名稱|FolderName|省略符號會在欄位區域結尾出現。 按一下省略符號和**Windows 資料夾開啟**會出現對話方塊讓您選取的資料夾。|無|  
+|檔案名稱|FileName|省略符號會在欄位區域結尾出現。 按一下省略符號和 **Windows FileOpen** 對話方塊隨即出現，讓您選取的檔案。|無|  
+|資料夾名稱|FolderName|省略符號會在欄位區域結尾出現。 按一下省略符號和 **Windows 資料夾開啟** 會出現對話方塊讓您選取的資料夾。|無|  
 |SSO 應用程式識別碼|SSOAppID|填入 SSO 應用程式清單的下拉式清單|無|  
 |密碼|密碼|顯示 "*" 而非純文字的編輯方塊。|無|  
   

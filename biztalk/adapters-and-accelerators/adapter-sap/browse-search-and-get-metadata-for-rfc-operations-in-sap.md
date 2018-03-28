@@ -1,11 +1,11 @@
 ---
-title: "瀏覽、 搜尋，並取得中繼資料中 SAP RFC 作業 |Microsoft 文件"
-ms.custom: 
+title: 瀏覽、 搜尋，並取得中繼資料中 SAP RFC 作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - browsing, RFCs
@@ -16,15 +16,15 @@ helpviewer_keywords:
 - searching, RFCs
 - WCF client, generating a
 ms.assetid: 68d9e7b2-b8ab-47f5-afda-2811f68e834b
-caps.latest.revision: "13"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 3aae3cb0963b4ccbc5c3e891af70706587f8e4b9
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="browse-search-and-get-metadata-for-rfc-operations-in-sap"></a>瀏覽、 搜尋和 sap RFC 作業取得中繼資料
 本節提供有關如何瀏覽、 搜尋和中繼資料擷取 RFC 作業使用的 SAP 指示[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]， [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]，或[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]。 大部分的指示會針對所有三種使用者介面相同。 只要適用的話，個別的程序提供相關的使用者介面。  
@@ -167,4 +167,4 @@ ms.lasthandoff: 09/20/2017
 5.  按一下 **[確定]**。 [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] WCF 用戶端類別 （或 WCF 服務介面） 會將儲存和協助程式程式碼的作業和專案目錄中所選取的類別。 根據預設，也會儲存組態檔。 輸入和輸出作業; 產生稍有不同的檔案如需詳細資訊，請參閱[產生 WCF 用戶端或 WCF 服務合約的 SAP 方案成品](../../adapters-and-accelerators/adapter-sap/generate-a-wcf-client-or-a-wcf-service-contract-for-sap-solution-artifacts.md)。  
   
 ## <a name="see-also"></a>另請參閱  
- [取得 Visual Studio 中的 SAP 作業的中繼資料](../../adapters-and-accelerators/adapter-sap/get-metadata-for-sap-operations-in-visual-studio.md)
+ [在 Visual Studio 中取得 SAP 作業的中繼資料](../../adapters-and-accelerators/adapter-sap/get-metadata-for-sap-operations-in-visual-studio.md)

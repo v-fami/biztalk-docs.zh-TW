@@ -1,22 +1,22 @@
 ---
-title: "設定應用程式內容 |Microsoft 文件"
-ms.custom: 
+title: 設定應用程式內容 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e9697155-70c0-4173-80d2-d02d103c397b
-caps.latest.revision: "25"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 88db982be92123a13084892bfc396cb1d89c46ac
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="set-application-context"></a>設定應用程式內容
 在[!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]，您可以對它們執行作業之前，會強制某些 Oracle E-business Suite 成品 （介面資料表、 介面檢視、 並行程式和要求） 設定應用程式內容。 [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]不允許您執行這些成品的作業，除非您已設定應用程式內容。 不過，基礎的 Oracle 資料庫中的成品，對於使用者他們是否想要設定應用程式內容。  
@@ -37,7 +37,7 @@ ms.lasthandoff: 09/20/2017
   
 -   **繫結屬性**:[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]會公開下列繫結屬性來設定應用程式內容： **OracleEBSOrganizationId**， **OracleUserName**， **OraclePassword**， **OracleEBSResponsibilityKey**， **OracleEBSResponsibilityName**，和**ApplicationShortName**。 您不需要指定來設定各種不同成品的應用程式內容的所有這些繫結屬性的值。 設定成品的應用程式內容所需的繫結屬性的相關資訊，請參閱[繫結屬性的 設定應用程式內容的各種不同成品](#Binding)本主題稍後。  
   
--   **訊息內容屬性**:[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]會公開下列訊息內容屬性，來設定應用程式內容： **ApplicationShortName**， **OrganizationID**， **ResponsibilityKey**，和**ResponsibilityName**。 指定使用者名稱和密碼，您必須使用的繫結屬性。 如需如何設定應用程式使用訊息內容屬性的內容資訊，請參閱[設定應用程式內容使用訊息內容屬性](../../adapters-and-accelerators/adapter-oracle-ebs/configure-application-context-using-message-context-properties-in-oracle-ebs.md)。  
+-   **訊息內容屬性**:[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]會公開下列訊息內容屬性，來設定應用程式內容： **ApplicationShortName**， **OrganizationID****ResponsibilityKey**，和**ResponsibilityName**。 指定使用者名稱和密碼，您必須使用的繫結屬性。 如需如何設定應用程式使用訊息內容屬性的內容資訊，請參閱[設定應用程式內容使用訊息內容屬性](../../adapters-and-accelerators/adapter-oracle-ebs/configure-application-context-using-message-context-properties-in-oracle-ebs.md)。  
   
 > [!IMPORTANT]
 >  指定的值**OracleEBSResponsibilityKey**繫結屬性的值覆寫的**OracleEBSResponsibilityName**繫結屬性。 同樣地，將指定的值**ResponsibilityKey**訊息內容屬性會覆寫指定的值**ResponsibilityName**訊息內容屬性。  
@@ -105,7 +105,7 @@ ms.lasthandoff: 09/20/2017
   
  指定的值**語言**訊息內容屬性的值覆寫的**語言**繫結屬性下的**MlsSettings**繫結屬性。 如需有關**MlsSettings**繫結屬性，請參閱[閱讀 BizTalk Adapter for Oracle E-business Suite 繫結屬性](../../adapters-and-accelerators/adapter-oracle-ebs/read-about-the-biztalk-adapter-for-oracle-e-business-suite-binding-properties.md)。  
   
-##  <a name="Binding"></a>繫結設定的各種不同成品的應用程式內容的屬性  
+##  <a name="Binding"></a> 繫結設定的各種不同成品的應用程式內容的屬性  
  下表提供您必須指定適當的值來設定各種不同成品的應用程式內容的繫結屬性的相關資訊：  
   
 |成品|OracleEBSOrganizationId|OracleUserName|OraclePassword|OracleEBSResponsibilityKey<br />或<br />OracleEBSResponsibilityName|ApplicationShortName|  

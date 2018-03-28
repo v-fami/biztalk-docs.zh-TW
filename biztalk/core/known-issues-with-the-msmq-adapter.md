@@ -1,22 +1,22 @@
 ---
-title: "MSMQ 配接器的已知問題 |Microsoft 文件"
-ms.custom: 
+title: MSMQ 配接器的已知問題 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ce77cdac-79c1-4529-8f09-0fb1f87ca037
-caps.latest.revision: "11"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 67f210d0e480a311aed0bed5d50f6a827bd6ea4e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="known-issues-with-the-msmq-adapter"></a>MSMQ 配接器的已知問題
 本節包含可幫助您避免錯誤的資訊。  
@@ -34,7 +34,7 @@ ms.lasthandoff: 09/20/2017
 ##### <a name="resolution"></a>解決方案  
  若要增加主控件執行個體的.NET 執行緒集區中的可用執行緒數目，請遵循**主應用程式的 CLR 裝載執行緒值**主題的章節[組態參數，會影響配接器效能](../core/configuration-parameters-that-affect-adapter-performance.md)。  
   
- 因為每個 MSMQ 接收位置繫結至 MSMQ 接收處理常式需要.NET 執行緒集區的執行緒，設定**MinIOThreads**和**MinWorkerThreads**的值大於或等於MSMQ 接收位置的個數繫結至接收處理常式。 因此，將值設定**MaxIOThreads**和**MaxWorkerThreads**等於 MSMQ 數目的值繫結接收位置的接收處理常式 * 2 以允許空餘空間：  
+ 由於每個 MSMQ 接收位置繫結至 MSMQ 接收處理常式必須使用.NET 執行緒集區的執行緒，設定 **MinIOThreads** 和 **MinWorkerThreads** 大於或等於 MSMQ 的數字的值繫結接收位置的接收處理常式。 因此，設定的值 **MaxIOThreads** 和 **MaxWorkerThreads** 等於 MSMQ 的數字的值繫結接收位置的接收處理常式 * 2 空餘空間︰  
   
 |DWORD 項目|建議值|  
 |-----------------|-----------------------|  
@@ -63,7 +63,7 @@ ms.lasthandoff: 09/20/2017
   
  **ControlService FAILED 1053:**  
   
- **服務未啟動或控制要求能夠及時回應。**  
+ **服務未啟動或控制要求及時回應。**  
   
  當您收到此錯誤訊息後，BizTalk 主控件執行個體的服務即會停止。 但 SC 工具可能需要兩分鐘或更久的時間來關閉服務。  
   
@@ -71,15 +71,15 @@ ms.lasthandoff: 09/20/2017
   
  此外，系統記錄檔中也可能會記錄如下的錯誤訊息：  
   
- **事件類型： 錯誤**  
+ **事件類型︰ 錯誤**  
   
- **事件來源： 服務控制管理員**  
+ **事件來源︰ 服務控制管理員**  
   
- **事件類別目錄： 無**  
+ **事件類別目錄︰ 無**  
   
- **事件識別碼： 7011**  
+ **事件識別碼︰ 7011**  
   
- **描述：**  
+ **描述︰**  
   
  **逾時 （30000 毫秒） 等候來自 BTSSvc$ BizTalkServerApplication 服務的交易回應。**  
   

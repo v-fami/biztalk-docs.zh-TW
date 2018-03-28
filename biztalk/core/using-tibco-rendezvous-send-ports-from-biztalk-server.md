@@ -1,22 +1,22 @@
 ---
-title: "使用 TIBCO Rendezvous 傳送埠從 BizTalk Server |Microsoft 文件"
-ms.custom: 
+title: 使用 TIBCO Rendezvous 傳送埠從 BizTalk Server |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 34e3edf7-cfc5-4c89-8069-63e8784bc9f9
-caps.latest.revision: "6"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 950c4c367fe053195ba14029405f5015381fc6be
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="using-tibco-rendezvous-send-ports"></a>使用 TIBCO Rendezvous 傳送埠
 傳輸埠可傳送任何種類的訊息。 當 BizTalk Server 透過 Microsoft BizTalk Adapter for TIBCO Rendezvous 傳送訊息時，配接器會依據訊息內容屬性值產生訊息，或是使用預設值並傳送到指定的主體。  
@@ -39,7 +39,7 @@ ms.lasthandoff: 11/07/2017
 ## <a name="using-biztalk-to-send-messages"></a>使用 BizTalk 傳送訊息
 Microsoft BizTalk Adapter for TIBCO Rendezvous 使用非同步 API (Transport.Send)。 您可以使用訊息內容屬性指定配接器傳送的訊息種類：  
   
--   **結構化**: 配接器會產生 TIBRVMSG_MSG 結構化的訊息時，根據從 BizTalk Server 接收的 XML 資料。 (*)  
+-   **結構化**︰ 配接器會產生 TIBRVMSG_MSG 結構化的訊息，BizTalk Server 收到 XML 資料為基礎。 (*)  
   
  如果 BizTalk Server 傳送的訊息中有欄位名稱超過 127 個字元，BizTalk Adapter for TIBCO Rendezvous 會將名稱截斷至 TIBCO Rendezvous 的欄位名稱大小上限 (即 127)。  
   

@@ -1,35 +1,35 @@
 ---
-title: "事件追蹤用於 Windows2 |Microsoft 文件"
-ms.custom: 
+title: 事件追蹤用於 Windows2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - ETW
 - Event Tracing for Windows
 ms.assetid: 88b91b74-2b2e-40e0-a3e9-1ebd6367abe8
-caps.latest.revision: "6"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 3c5f610d75048b250fc90aba7f723cee39c4f2e1
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="using-event-tracing-for-windows"></a>使用 Windows 事件追蹤
-Microsoft BizTalk Adapter for JD Edwards OneWorld 會將錯誤、警告和資訊訊息記錄至 Windows 事件檢視器。 您可以使用 Windows 事件追蹤 (ETW) 工具來檢視其他追蹤訊息。 啟動 ETW 時，它會建立一個 *.etl 檔案來接收訊息。 這個檔案是二進位格式，必須經過轉換才能讀取。 若要這樣做，您必須取用者應用程式可供解譯\*.etl 檔案： 例如，tracerpt.exe 或 tracedmp.exe。  
+Microsoft BizTalk Adapter for JD Edwards OneWorld 會將錯誤、警告和資訊訊息記錄至 Windows 事件檢視器。 您可以使用 Windows 事件追蹤 (ETW) 工具來檢視其他追蹤訊息。 啟動 ETW 時，它會建立一個 *.etl 檔案來接收訊息。 這個檔案是二進位格式，必須經過轉換才能讀取。 若要這樣做，您必須取用者應用程式可供解譯 \*.etl 檔案︰ 例如，tracerpt.exe 或 tracedmp.exe。  
   
 ## <a name="etw-components"></a>ETW 元件  
  「Windows 事件追蹤」有三個元件：  
   
 -   **控制器應用程式。** 啟用與停用提供者 (例如，tracelog.exe 或 logman.exe)。  
   
-     您會將 PATH 環境變數設定成指向 tracelog.exe 的位置。 這可確保 BTAJDEdwardsOneWorldTrace 呼叫可在您的系統中找出 tracelog.exe。 BTAJDEdwardsOneWorldTrace 預設會搜尋目前的路徑。  
+     您會將 PATH 環境變數設定成指向 tracelog.exe 的位置。 這可確保 BTAJDEdwardsOneWorldTrace 呼叫可以在您的系統中找到 tracelog.exe。 BTAJDEdwardsOneWorldTrace 預設會搜尋目前的路徑。  
   
     > [!NOTE]
     >  tracelog.exe 可從 Microsoft SDK 取得，而且與 BizTalk Adapter for JD Edwards OneWorld 提供的命令相容。 若要使用 logman.exe，請參閱 logman 文件。  
@@ -82,15 +82,15 @@ BTAJDEOneWorldTrace <Trace element> -stop
   
     -   **-管理**  
   
-    -   **-開始、-停止**： 啟用或停用提供者。  
+    -   **-start、-stop**︰ 啟用或停用提供者。  
   
     -   **-cir \<MB\>**： 檔案的大小與種類。 -cir 是循環檔案。 \<MB\>： 大小以 mb 表示。  
   
     -   **-seq \<MB\>**： 檔案的大小與種類。 -seq 是循序檔案。 \<MB\>： 大小以 mb 表示。  
   
-    -   **-rt**： 設定即時模式。  
+    -   **-rt**︰ 上設定的即時模式。  
   
-    -   **記錄檔**： 記錄檔的名稱 （c:\rtlog.etl 是預設值）。  
+    -   **記錄檔**︰ 記錄檔的名稱 （c:\rtlog.etl 是預設值）。  
   
  例如：  
   
@@ -99,5 +99,5 @@ BTAJDEOneWorldTrace -transmitter -start -cir 10 -rt c:\log\mylog.etl
 BTAJDEOneWorldTrace -transmitter -stop  
 ```  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [疑難排解 JD Edwards OneWorld](../core/troubleshooting-jd-edwards-oneworld.md)

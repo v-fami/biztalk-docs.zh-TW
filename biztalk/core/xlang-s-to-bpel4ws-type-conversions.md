@@ -1,11 +1,11 @@
 ---
-title: "XLANG-s 至 BPEL4WS 型別轉換 |Microsoft 文件"
-ms.custom: 
+title: XLANG-s 至 BPEL4WS 型別轉換 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - XLANG/s
@@ -13,15 +13,15 @@ helpviewer_keywords:
 - XLANG/s, BPEL4WS
 - XLANG/s, converting
 ms.assetid: a35d4dba-9344-43c8-86e6-a373a4452579
-caps.latest.revision: "6"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 02412b86b8649b73cadb4715793f085682a1de74
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="xlang-s-to-bpel4ws-type-conversions"></a>XLANG-s 至 BPEL4WS 型別轉換
 下表詳述各種 XLANG/s 建構和 BPEL4WS 建構之間的轉換。  
@@ -53,15 +53,15 @@ ms.lasthandoff: 11/28/2017
 |辨別欄位參考|bpws:getContainerData(%msgName%, %partName%, %locationPath%)|  
 |訊息資料屬性參考|bpws:getContainerProperty(%msgName%, %propertyQName%)|  
   
-## <a name="operators"></a>操作員  
+## <a name="operators"></a>運算子  
   
 |XLANG/s|BPEL4WS|  
 |--------------|-------------|  
 |一元 +|忽略|  
 |一元 -|XPath 一元 -|  
 |一元 !|XPath not() 函式|  
-|二進位 & &、 &#124; &#124;|XPath 'and'、'or' 運算子|  
-|二進位 ==、!=、<=、<、>=、>|XPath '='、'! ='，' < ='，' <'、 '> ='、' >' 運算子|  
+|二進位 & &、 &#124; & #124。|XPath 'and'、'or' 運算子|  
+|二進位 ==、!=、<=、<、>=、>|XPath '='、'! ='，' < ='，' <'、 ' > ='，' >' 運算子|  
 |二進位 +、-、*、% (含兩個整數運算元)|XPath '+'、'-'、'*'、'mod' 運算子|  
   
 ## <a name="xlangs-constructs-that-are-disallowed-in-bpel4ws"></a>BPEL4WS 中不允許的 XLANG/s 建構  
@@ -86,7 +86,7 @@ ms.lasthandoff: 11/28/2017
   
 -   二進位 <=、<、>=、> (含非字串運算元)  
   
--   位元運算子 &、 ^、 &#124;  
+-   位元運算子 &、 ^、 & #124。  
   
 -   移位運算子 <<、>>  
   

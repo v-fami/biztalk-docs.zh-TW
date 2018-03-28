@@ -1,28 +1,28 @@
 ---
-title: "JD Edwards EnterpriseOne 應用程式匯入 |Microsoft 文件"
-description: "確認安裝、 匯入應用程式的繫結檔案，以及檢閱 JD Edwards EnterpriseOne 配接器在 BizTalk 的限制"
-ms.custom: 
+title: JD Edwards EnterpriseOne 應用程式匯入 |Microsoft 文件
+description: 確認安裝、 匯入應用程式的繫結檔案，以及檢閱 JD Edwards EnterpriseOne 配接器在 BizTalk 的限制
+ms.custom: ''
 ms.date: 10/18/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 852f948b-48ba-4ae2-b1eb-7c88c1542a52
-caps.latest.revision: "4"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 55374c87192c993e26cc11cb496d89074d527868
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="import-the-jd-edwards-enterpriseone-application"></a>JD Edwards EnterpriseOne 應用程式匯入
   
 ## <a name="overview"></a>概觀
-與[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，您可以複製連接埠和組件的目標電腦上。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]傳送埠/接收位置將組態匯出成 XML 檔案。  
+與[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，您可以複製連接埠和組件的目標電腦上。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 傳送埠/接收位置將組態匯出成 XML 檔案。  
   
  您可以使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 執行下列工作：  
   

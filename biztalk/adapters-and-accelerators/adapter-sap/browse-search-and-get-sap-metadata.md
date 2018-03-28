@@ -1,11 +1,11 @@
 ---
-title: "瀏覽、 搜尋及取得 SAP 中繼資料 |Microsoft 文件"
-ms.custom: 
+title: 瀏覽、 搜尋及取得 SAP 中繼資料 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - metadata
@@ -17,15 +17,15 @@ helpviewer_keywords:
 - BAPI
 - IDOC
 ms.assetid: 5f0d7c1f-d6e1-4c56-8d8e-1f5d537aa3ce
-caps.latest.revision: "9"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 40cc1bd6592b38dbda9c9bff3ad01d6cdaf8a707
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="browse-search-and-get-sap-metadata"></a>瀏覽、 搜尋及取得 SAP 中繼資料
 [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]從 SAP 系統的表面中繼資料。 此中繼資料描述的訊息結構來與 SAP 系統使用配接器進行通訊。 [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]支援兩個介面來擷取中繼資料。  
@@ -45,7 +45,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="browsing-metadata"></a>瀏覽中繼資料  
  [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]讓配接器用戶端來瀏覽 Rfc、 tRFCs、 Bapi 和 SAP 系統所公開的 Idoc。 中繼資料瀏覽作業的一部分，配接器會提供諸如 Rfc 和 Bapi 做為作業。 Idoc，配接器會呈現傳送和接收 Idoc 的作業。 這些作業都是從[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]，[!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]或[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]。 SAP 中繼資料會分為下列節點：  
   
--   **RFC**。 這個節點包含由 SAP 系統的 Rfc 和表示 SAP 中的函式模組。 配接器會將 Rfc 分類至多個邏輯層級，並公開 （expose） 給配接器用戶端的階層式檢視。 RFC 在此階層的最低層級，而且會公開成為可以叫用外部應用程式的作業。 [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]使用 RFC SDK 來產生 Rfc 的中繼資料。 配接器可以叫用只在它可以產生中繼資料的 Rfc。  
+-   **RFC**. 這個節點包含由 SAP 系統的 Rfc 和表示 SAP 中的函式模組。 配接器會將 Rfc 分類至多個邏輯層級，並公開 （expose） 給配接器用戶端的階層式檢視。 RFC 在此階層的最低層級，而且會公開成為可以叫用外部應用程式的作業。 [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]使用 RFC SDK 來產生 Rfc 的中繼資料。 配接器可以叫用只在它可以產生中繼資料的 Rfc。  
   
      以外面對的 Rfc 做為作業，配接器也會提供諸如某些特定作業例如**RfcGetAttributes**。 如需有關這些作業的詳細資訊，請參閱[作業中 SAP Rfc](../../adapters-and-accelerators/adapter-sap/operations-on-rfcs-in-sap.md)。  
   
@@ -53,9 +53,9 @@ ms.lasthandoff: 09/20/2017
   
      以外面對做為作業 tRFCs，配接器也會提供諸如某些特定作業例如**RfcConfirmTransID**。 如需有關這些作業的詳細資訊，請參閱[tRFCs SAP 中的作業](../../adapters-and-accelerators/adapter-sap/operations-on-trfcs-in-sap.md)。  
   
--   **BAPI**。 這個節點包含 SAP 系統所公開的 Bapi。 配接器將 Bapi 分類至多個邏輯層級，並公開 （expose） 給配接器用戶端的階層式檢視。 BAPI 在此階層的最低層級，而且會公開成為可以叫用外部應用程式的作業。  
+-   **BAPI**. 這個節點包含 SAP 系統所公開的 Bapi。 配接器將 Bapi 分類至多個邏輯層級，並公開 （expose） 給配接器用戶端的階層式檢視。 BAPI 在此階層的最低層級，而且會公開成為可以叫用外部應用程式的作業。  
   
--   **IDOC**。 這個節點包含 SAP 系統所公開的 Idoc。 配接器來分類成多個邏輯層級的 Idoc，並公開 （expose） 給配接器用戶端的階層式檢視。 配接器會公開 Idoc 的作業為：  
+-   **IDOC**. 這個節點包含 SAP 系統所公開的 Idoc。 配接器來分類成多個邏輯層級的 Idoc，並公開 （expose） 給配接器用戶端的階層式檢視。 配接器會公開 Idoc 的作業為：  
   
     -   **傳送**和**接收**。 配接器用戶端可以使用這些作業來傳送和接收 Idoc 從 SAP 系統使用強型別結構描述。  
   
@@ -70,10 +70,10 @@ ms.lasthandoff: 09/20/2017
   
 |成品|在 GUI 中的節點下搜尋|  
 |--------------|------------------------------------|  
-|RFC|-/RFC<br />-/RFC/ [應用程式群組]|  
-|tRFC|-/TRFC<br />-/TRFC/ [應用程式群組]|  
-|BAPI|-/BAPI|  
-|IDOC|-/IDOC|  
+|RFC|-   /RFC<br />-   /RFC/[Application Group]|  
+|tRFC|-   /TRFC<br />-   /TRFC/[Application Group]|  
+|BAPI|-   /BAPI|  
+|IDOC|-   /IDOC|  
   
  下表列出可用於搜尋和由其解譯的特殊字元[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]。  
   

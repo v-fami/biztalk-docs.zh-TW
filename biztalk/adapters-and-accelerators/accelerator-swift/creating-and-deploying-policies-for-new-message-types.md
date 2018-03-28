@@ -1,22 +1,22 @@
 ---
-title: "建立和部署原則的新訊息類型 |Microsoft 文件"
-ms.custom: 
+title: 建立和部署原則的新訊息類型 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 43343238-ec45-44ed-a230-9e234bd22d05
-caps.latest.revision: "2"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: b826b3ee9408caf91fe5adcb2177d709f885a6e1
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="creating-and-deploying-policies-for-new-message-types"></a>建立和部署原則的新訊息類型
 若要建立並部署新的訊息類型的原則：  
@@ -59,4 +59,4 @@ ms.lasthandoff: 11/28/2017
   
     -   \<ruleset name="swift.if.ia.setr.004.001.02_Master_Policy"\>  
   
-    -   < 規則 name="swift.if.ia.setr.004.001.02_Policy_List"
+    -   <rule name="swift.if.ia.setr.004.001.02_Policy_List"

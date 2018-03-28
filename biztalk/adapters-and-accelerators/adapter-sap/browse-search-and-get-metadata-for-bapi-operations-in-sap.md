@@ -1,11 +1,11 @@
 ---
-title: "瀏覽、 搜尋，並取得中繼資料中 SAP 的 BAPI 作業 |Microsoft 文件"
-ms.custom: 
+title: 瀏覽、 搜尋，並取得中繼資料中 SAP 的 BAPI 作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BAPI operations
@@ -16,15 +16,15 @@ helpviewer_keywords:
 - BAPIs, searching
 - BAPI operations, generating schema
 ms.assetid: 2884215a-ddba-40c7-bf9f-bfc7831f90bb
-caps.latest.revision: "13"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: aaf2145bd288d844a3ad02e222a8d8193f32b7de
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="browse-search-and-get-metadata-for-bapi-operations-in-sap"></a>瀏覽、 搜尋和 SAP 中的 BAPI 作業取得中繼資料
 本節提供有關如何瀏覽、 搜尋和中繼資料擷取 BAPI 作業使用的 SAP 指示[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]， [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]，或[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]。 大部分的指示會針對所有三種使用者介面相同。 只要適用的話，個別的程序提供相關的使用者介面。  
@@ -167,5 +167,5 @@ ms.lasthandoff: 11/28/2017
   
 5.  按一下 **[確定]**。 [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]將 WCF 用戶端類別和協助程式程式碼儲存在您選取的作業和類別目錄的專案目錄中。 根據預設，也會儲存組態檔。 如需詳細資訊，請參閱[產生 WCF 用戶端或 WCF 服務合約的 SAP 方案成品](../../adapters-and-accelerators/adapter-sap/generate-a-wcf-client-or-a-wcf-service-contract-for-sap-solution-artifacts.md)。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [在 Visual Studio 中取得 SAP 作業的中繼資料](../../adapters-and-accelerators/adapter-sap/get-metadata-for-sap-operations-in-visual-studio.md)

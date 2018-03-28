@@ -18,7 +18,7 @@ ms.openlocfilehash: 27d0e731fd63ce01e9cc1c2604eb8f83141e024e
 ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="wcf-basichttp-adapter"></a>WCF-BasicHttp 配接器
 [!INCLUDE[btsCoName](../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 使用 Wcf-basichttp 配接器來接收和傳送 WCF 服務要求，透過[BasicHttpBinding 類別](https://msdn.microsoft.com/library/system.servicemodel.basichttpbinding.aspx)。 Wcf-basichttp 配接器可讓您發佈協調流程和結構描述為 WCF 服務，並使用外部 WCF 服務與 **BasicHttpBinding**。  
@@ -160,7 +160,7 @@ ms.lasthandoff: 03/23/2018
       
     |使用|動作|  
     |--------------|----------------|  
-    |**位址 (URI)**|必要。 指定此接收位置的完整格式 URI。 使用 **https** 或 **http** 根據安全性組態的配置。<br /><br /> 最大長度︰ 255<br /><br /> 預設值︰ http://localhost/|  
+    |**位址 (URI)**|必要。 指定此接收位置的完整格式 URI。 使用 **https** 或 **http** 根據安全性組態的配置。<br /><br /> 最大長度︰ 255<br /><br /> 預設值：http://localhost/|  
     |**端點身分識別**|選擇性。 指定此傳送埠所預期服務的識別。 這些設定可讓此傳送埠驗證服務。 在用戶端與服務之間的交握程序中，Windows Communication Foundation (WCF) 基礎結構可確保預期之服務的識別能夠與這個項目的值相符。 您可以指定的值 **識別** 屬性，則根據安全性組態而有所不同。<br /><br /> 預設值為清除核取方塊。| 
     |**動作**|指定 **SOAPAction** 外寄訊息的 HTTP 標頭欄位。 這個屬性也可以透過訊息內容屬性設定 **WCF。動作** 管線或協調流程中。 您可以將這個值指定兩個不同的方式︰ 單一動作格式和動作對應格式。 如果您在設定此屬性的單一動作格式-例如， http://contoso.com/Svc/Op1- **SOAPAction**標頭外寄訊息一定會設定這個屬性中指定的值。<br /><br /> 如果您設定此屬性以動作對應格式傳出 **SOAPAction** 標頭由 **BTS。作業** 內容屬性。 例如，如果此屬性設定為下列 XML 格式和**BTS。作業**屬性設定為 Op1，WCF 傳送配接器會使用http://contoso.com/Svc/Op1針對外寄**SOAPAction**標頭。<br /><br /> \<BtsActionMapping\><br /><br /> \<Operation Name="Op1" Action="http://contoso.com/Svc/Op1" \><br /><br /> \<Operation Name="Op2" Action="http://contoso.com/Svc/Op2" \><br /><br /> \</BtsActionMapping\><br /><br /> 協調流程執行個體如果外寄訊息是來自協調流程連接埠，以動態方式設定 **BTS。作業** 與連接埠的作業名稱的屬性。 如果外寄訊息會路由傳送，以內容為基礎的路由，您可以設定 **BTS。作業** 管線元件中的屬性。<br /><br /> 最小長度：00<br /><br /> 最大長度：32767<br /><br /> 預設為空字串。|
  
@@ -208,7 +208,7 @@ ms.lasthandoff: 03/23/2018
     |**使用處理常式的預設 proxy 設定**|指定此傳送埠是否要在裝載此傳送埠的傳送處理常式中，使用 Proxy 設定。<br /><br /> 這是預設值。|  
     |**不使用 proxy**|指出這個傳送埠是否要使用 Proxy 伺服器。<br /><br /> 預設值為清除核取方塊。|  
     |**使用 proxy**|指出此傳送埠是否使用指定的 proxy 伺服器 **位址** 屬性。<br /><br /> 預設值為清除核取方塊。|  
-    |**地址**|指定 Proxy 伺服器的位址。 使用 **https** 或 **http** 根據安全性組態的配置。 這個位址後面可以加上冒號和連接埠編號， 例如 http://127.0.0.1:8080。<br /><br /> 這個屬性的值才需要 **使用 proxy** 已選取。<br /><br /> 類型：字串<br /><br /> 最大長度：256<br /><br /> 預設為空字串。|  
+    |**地址**|指定 Proxy 伺服器的位址。 使用 **https** 或 **http** 根據安全性組態的配置。 這個位址後面可以加上冒號和連接埠編號， 例如， http://127.0.0.1:8080。<br /><br /> 這個屬性的值才需要 **使用 proxy** 已選取。<br /><br /> 類型：字串<br /><br /> 最大長度：256<br /><br /> 預設為空字串。|  
     |**使用者名稱**|指定要用於驗證的使用者名稱。 若使用整合式驗證，則使用者名稱會包括網域，即「網域\使用者名稱」。 如果使用基本或摘要式驗證，則使用者名稱不包含網域\\。 這個屬性的值才需要 **使用 proxy** 已選取。 **注意︰**  Wcf-basichttp 傳送配接器會使用 proxy 的基本驗證。 <br /><br /> 類型：字串<br /><br /> 최소 길이: 0<br /><br /> 最大長度：256<br /><br /> 預設為空字串。|  
     |**密碼**|指定要用於驗證的密碼。<br /><br /> 這個屬性的值才需要 **使用 proxy** 已選取。<br /><br /> 類型：字串<br /><br /> 최소 길이: 0<br /><br /> 最大長度：256<br /><br /> 預設為空字串。|  
   
@@ -241,7 +241,7 @@ ms.lasthandoff: 03/23/2018
     |使用|動作|  
     |--------------|----------------|  
     |**使用 proxy**|指出此傳送處理常式是否要使用 proxy 伺服器。<br /><br /> 預設值為清除核取方塊。|  
-    |**地址**|指定 Proxy 伺服器的位址。 使用 **https** 或 **http** 根據安全性組態的配置。 這個位址後面可以加上冒號和連接埠編號， 例如 http://127.0.0.1:8080。<br /><br /> 這個屬性的值才需要 **使用 proxy** 已選取。<br /><br /> 類型：字串<br /><br /> 最大長度：256<br /><br /> 預設為空字串。|  
+    |**地址**|指定 Proxy 伺服器的位址。 使用 **https** 或 **http** 根據安全性組態的配置。 這個位址後面可以加上冒號和連接埠編號， 例如， http://127.0.0.1:8080。<br /><br /> 這個屬性的值才需要 **使用 proxy** 已選取。<br /><br /> 類型：字串<br /><br /> 最大長度：256<br /><br /> 預設為空字串。|  
     |**使用者名稱**|指定要用於驗證的使用者名稱。 若使用整合式或基本驗證，則使用者名稱也包括網域，即「網域\使用者名稱」。 如果使用摘要式驗證，則使用者名稱不包含網域\\。<br /><br /> 這個屬性的值才需要 **使用 proxy** 已選取。<br /><br /> 類型：字串<br /><br /> 최소 길이: 0<br /><br /> 最大長度：256<br /><br /> 預設為空字串。|  
     |**密碼**|指定要用於驗證的密碼。<br /><br /> 這個屬性的值才需要 **使用 proxy** 已選取。<br /><br /> 類型：字串<br /><br /> 최소 길이: 0<br /><br /> 最大長度：256<br /><br /> 預設為空字串。|  
   

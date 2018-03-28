@@ -1,23 +1,23 @@
 ---
-title: "在 BizTalk Server 配接器 |Microsoft 文件"
-description: "所有的可用配接器在 BizTalk Server 中，包括內建配接器、 企業配接器，BizTalk 配接器組件的完整清單"
-ms.custom: 
+title: 在 BizTalk Server 配接器 |Microsoft 文件
+description: 所有的可用配接器在 BizTalk Server 中，包括內建配接器、 企業配接器，BizTalk 配接器組件的完整清單
+ms.custom: ''
 ms.date: 10/16/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8fd279fb-2c68-4de4-a586-5a8e42a685ff
-caps.latest.revision: "48"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 7834fe9f7365e9ed94bce82f353e1cd305a2863c
-ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="adapters-in-biztalk-server"></a>BizTalk Server 中的配接器
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的其中一個主要目標是用以協助交易夥伴之間的商業文件交換。 為了協助符合此目標，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 包含數個配接器，使用普遍認可的資料通訊協定和文件格式，來提供 BizTalk Server 與交易夥伴之間的連繫。 本主題將討論何謂配接器，以及您為何要使用配接器。  
@@ -25,7 +25,7 @@ ms.lasthandoff: 10/17/2017
 ## <a name="what-is-an-adapter"></a>何謂配接器？  
  配接器是一種軟體元件，可讓您在 BizTalk Server 上透過傳遞機制輕易地將訊息傳送出去或接收進來，這個傳遞機制符合普遍認可的標準，例如 SMTP、POP3、FTP 或是 Microsoft Message Queuing (MSMQ)。 由於 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的開發，對於可快速連接常用應用程式與技術的配接器需求也隨之提高。  
   
- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]包含下列配接器，稱為 「 原生 」 或 「 整合式 」 配接器： 檔案、 FTP、 HTTP、 MQSeries、 MSMQ、 POP3、 SMTP、 SOAP、 Windows Sharepoint Services 和七個 WCF 配接器 （Wcf-wshttp、 Wcf-basichttp、 Wcf-nettcp、 Wcf-netmsmq，WCF-NetNamedPipe、 Wcf-custom 和 Wcf-customisolated)。 原生配接器會隨 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 一起安裝。 您也可以使用 BizTalk 配接器架構，為特定解決方案建立自訂配接器。  
+ [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 包含下列配接器，稱為 「 原生 」 或 「 整合式 」 配接器： 檔案、 FTP、 HTTP、 MQSeries、 MSMQ、 POP3、 SMTP、 SOAP、 Windows Sharepoint Services 和七個 WCF 配接器 （Wcf-wshttp、 Wcf-basichttp、 Wcf-nettcp、 Wcf-netmsmq，WCF-NetNamedPipe、 Wcf-custom 和 Wcf-customisolated)。 原生配接器會隨 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 一起安裝。 您也可以使用 BizTalk 配接器架構，為特定解決方案建立自訂配接器。  
   
  每個原生配接器都會與一個接收位置關聯，這個接收位置是設計來聆聽來自某個位址之某個傳輸的訊息。 在接收位置收到訊息後，它會傳遞給配接器。 配接器會將資料流附加到訊息 (通常是在訊息的內文部分)、新增任何與接收資料之結束點相關的中繼資料，然後將該訊息提交至「BizTalk 傳訊引擎」。  
   
@@ -47,7 +47,7 @@ ms.lasthandoff: 10/17/2017
   
 -   **已啟用 SSO** ： 使用 SSO 驗證傳送或接收配接器的文件時的能力。  
   
--   **裝載處理序**： 執行配接器的程序。 *BizTalk IP* BTSNTSvc.exe 處理序內執行時*IIS OOP*在 Internet Information Server (IIS) 處理序中的 BizTalk Server 處理序之外執行。  
+-   **裝載處理序**： 執行配接器的程序。 *BizTalk IP* BTSNTSvc.exe 處理序內執行時 *IIS OOP* 在網際網路資訊伺服器 (IIS) 處理序中的 BizTalk Server 處理序之外執行。  
   
 |配接器|主要優點|交易支援|雙向通訊支援|依序接收支援|已啟用 SSO|主控處理序|  
 |---|---|---|---|---|---|---|  

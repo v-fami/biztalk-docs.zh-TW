@@ -1,34 +1,35 @@
 ---
-title: "修復訊息 |Microsoft 文件"
-ms.custom: 
+title: 修復訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: repairing messages
+helpviewer_keywords:
+- repairing messages
 ms.assetid: 3a61b73b-5433-4249-b580-6194ccb4aebc
-caps.latest.revision: "6"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 4489e463257f811fe2c71efea49880940751c66a
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="repairing-a-message"></a>修復訊息
 本章節描述如何修復驗證失敗的訊息。  
   
 ### <a name="to-repair-a-message"></a>若要修復的訊息  
   
-1.  在 Internet Explorer 中，開啟 MRSR http://localhost/sites/bassite 您的網站。  
+1.  在 Internet Explorer 中，開啟 MRSR 網站，網址http://localhost/sites/bassite。  
   
 2.  在 [首頁] 視窗中，按一下**文件**。  
   
-3.  在文件視窗中，在**文件庫**，按一下    **\<*部門名稱*\>**_**Repairer * *。  
+3.  在文件視窗中，在**文件庫**，按一下   **\<*部門名稱*\>**_**Repairer**.  
   
 4.  在\<*部門名稱*\>_Repair 視窗中，按一下 **收件匣**。  
   

@@ -1,22 +1,22 @@
 ---
-title: "檢查清單： HYPER-V 上測量效能 |Microsoft 文件"
-ms.custom: 
+title: 檢查清單： HYPER-V 上測量效能 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f32c95f4-a4eb-412b-9fa7-140e80b85e5a
-caps.latest.revision: "13"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 6aefa415bec4b996fa7b5cd4689c48f834dc36a2
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="checklist-measuring-performance-on-hyper-v"></a>檢查清單： HYPER-V 上測量效能
 雖然大部分的分析安裝在 HYPER-V 虛擬機器效能上的客體作業系統的效能準則相同分析實體機器上安裝作業系統的效能，許多集合方法是不同。 評估您在 HYPER-V 虛擬機器上安裝客體作業系統上執行的 BizTalk Server 解決方案的效能時，應該使用以下各節，快速參考。  
@@ -24,29 +24,29 @@ ms.lasthandoff: 12/01/2017
 ## <a name="measuring-disk-io-performance"></a>測量磁碟 I/O 效能  
  使用下列效能監視器計數器來測量在 HYPER-V 虛擬機器上安裝客體作業系統上的磁碟 I/O 效能：  
   
-|步驟|參考|  
+|步驟|참조|  
 |----------|---------------|  
-|**測量在 HYPER-V 主機的作業系統上的磁碟延遲**-HYPER-V 主機作業系統上的磁碟效能的最佳初始指標透過使用 「 \Logical 磁碟 （*） \Avg。Disk sec/Read"和"\Logical 磁碟 (\*) \Avg。Disk sec/Write"效能監視器計數器。 這些效能監視器計數器來測量讀取和寫入作業的時間來回應作業系統的時間的量。 為一般的經驗法則，平均回應時間大於 15ms年會被視為未最佳化。 為一般的經驗法則，平均回應時間大於 15ms年會被視為未最佳化。 這根據一般搜尋單一 7200 RPM 磁碟機沒有快取的時間。 建議的實體磁碟效能監視器計數器與邏輯磁碟使用，因為 Windows 應用程式和服務利用以向作業系統的實體磁碟 (LUN) 可以是其中的磁碟機代號的邏輯磁碟機組成磁碟陣列中的多個實體磁碟機。 測量使用 \Logical 磁碟之 HYPER-V 主機作業系統上的磁碟延遲時，請使用下列的基本原則 (\*) \Avg。磁碟 sec/Read] 或 [\Logical 磁碟 (\*) \Avg。Disk sec/Write 效能監視計數器：<br /><br /> 這根據一般搜尋單一 7200 RPM 磁碟機沒有快取的時間。 建議的實體磁碟效能監視器計數器與邏輯磁碟使用，因為 Windows 應用程式和服務利用以向作業系統的實體磁碟 (LUN) 可以是其中的磁碟機代號的邏輯磁碟機組成磁碟陣列中的多個實體磁碟機。 測量使用 \Logical 磁碟之 HYPER-V 主機作業系統上的磁碟延遲時，請使用下列的基本原則 (\*) \Avg。磁碟 sec/Read] 或 [\Logical 磁碟 (\*) \Avg。Disk sec/Write 效能監視計數器：<br /><br /> -1 毫秒來 15ms年 = 狀況良好<br />-15ms年 25 毫秒 = 警告或監視<br />-26ms年以上 = 重大，效能會受到負面影響**附註：**安裝在非虛擬化環境中的實體磁碟提供更佳的效能比透過 HYPER-V 主機作業系統的磁碟。 如果磁碟效能關鍵應用程式的整體效能，請考慮裝載在實際的硬體上的磁碟。 **注意：**時評估磁碟 I/O 效能，請確定您要排除的任何磁碟分割，會在評估掃描的防毒軟體設定。 防毒掃描導入了對造成負面影響效能和扭曲測試結果的額外負荷。 <br /><br /> **量值的客體作業系統的磁碟延遲**– 您可以使用相同的效能監視器計數器用來測量回應時間的 HYPER-V 主機作業系統使用的磁碟測量回應時間的客體作業系統所使用的磁碟系統。|如需磁碟效能分析的詳細資訊，請參閱下列資源：<br /><br /> -「 執行 SQL server 在 HYPER-V 中的效能負擔 」 一節的 < 執行 SQL Server 2008 in a HYPER-V 環境 – 最佳作法和效能考量 > 技術白皮書，在[http://go.microsoft.com/fwlink/?LinkId=144622](http://go.microsoft.com/fwlink/?LinkId=144622)。<br />層級的磁碟繫結問題出 ruling [http://go.microsoft.com/fwlink/?LinkId=120947](http://go.microsoft.com/fwlink/?LinkId=120947)。<br />SQL Server 前置部署 I/O 最佳作法在[http://go.microsoft.com/fwlink/?LinkId=120948](http://go.microsoft.com/fwlink/?LinkId=120948)。<br />-「 I/O 瓶頸 」 一節的 「 疑難排解效能問題，SQL Server 2008 」 白皮書位於[http://go.microsoft.com/fwlink/?LinkID=202135](http://go.microsoft.com/fwlink/?LinkID=202135)。<br />-如何識別使用 Microsoft 伺服器效能警告器 (SPA) 工具，在磁碟效能瓶頸[http://go.microsoft.com/fwlink/?LinkID=98096](http://go.microsoft.com/fwlink/?LinkID=98096)。|  
+|**測量在 HYPER-V 主機的作業系統上的磁碟延遲**-HYPER-V 主機作業系統上的磁碟效能的最佳初始指標透過使用 「 \Logical 磁碟 （*） \Avg。Disk sec/Read"和"\Logical 磁碟 (\*) \Avg。Disk sec/Write"效能監視器計數器。 這些效能監視器計數器來測量讀取和寫入作業的時間來回應作業系統的時間的量。 為一般的經驗法則，平均回應時間大於 15ms年會被視為未最佳化。 為一般的經驗法則，平均回應時間大於 15ms年會被視為未最佳化。 這根據一般搜尋單一 7200 RPM 磁碟機沒有快取的時間。 建議的實體磁碟效能監視器計數器與邏輯磁碟使用，因為 Windows 應用程式和服務利用以向作業系統的實體磁碟 (LUN) 可以是其中的磁碟機代號的邏輯磁碟機組成磁碟陣列中的多個實體磁碟機。 測量使用 \Logical 磁碟之 HYPER-V 主機作業系統上的磁碟延遲時，請使用下列的基本原則 (\*) \Avg。磁碟 sec/Read] 或 [\Logical 磁碟 (\*) \Avg。Disk sec/Write 效能監視計數器：<br /><br /> 這根據一般搜尋單一 7200 RPM 磁碟機沒有快取的時間。 建議的實體磁碟效能監視器計數器與邏輯磁碟使用，因為 Windows 應用程式和服務利用以向作業系統的實體磁碟 (LUN) 可以是其中的磁碟機代號的邏輯磁碟機組成磁碟陣列中的多個實體磁碟機。 測量使用 \Logical 磁碟之 HYPER-V 主機作業系統上的磁碟延遲時，請使用下列的基本原則 (\*) \Avg。磁碟 sec/Read] 或 [\Logical 磁碟 (\*) \Avg。Disk sec/Write 效能監視計數器：<br /><br /> -1 毫秒來 15ms年 = 狀況良好<br />-15ms年 25 毫秒 = 警告或監視<br />-26ms年以上 = 重大，效能會受到負面影響**附註：**安裝在非虛擬化環境中的實體磁碟提供更佳的效能比透過 HYPER-V 主機作業系統的磁碟。 如果磁碟效能關鍵應用程式的整體效能，請考慮裝載在實際的硬體上的磁碟。 **注意：**時評估磁碟 I/O 效能，請確定您要排除的任何磁碟分割，會在評估掃描的防毒軟體設定。 防毒掃描導入了對造成負面影響效能和扭曲測試結果的額外負荷。 <br /><br /> **量值的客體作業系統的磁碟延遲**– 您可以使用相同的效能監視器計數器用來測量回應時間的 HYPER-V 主機作業系統使用的磁碟測量回應時間的客體作業系統所使用的磁碟系統。|如需磁碟效能分析的詳細資訊，請參閱下列資源：<br /><br /> -「 執行 SQL server 在 HYPER-V 中的效能負擔 」 一節的 < 執行 SQL Server 2008 in a HYPER-V 環境 – 最佳作法和效能考量 > 技術白皮書，在[ http://go.microsoft.com/fwlink/?LinkId=144622 ](http://go.microsoft.com/fwlink/?LinkId=144622)。<br />層級的磁碟繫結問題出 ruling [ http://go.microsoft.com/fwlink/?LinkId=120947 ](http://go.microsoft.com/fwlink/?LinkId=120947)。<br />SQL Server 前置部署 I/O 最佳作法在[ http://go.microsoft.com/fwlink/?LinkId=120948 ](http://go.microsoft.com/fwlink/?LinkId=120948)。<br />-「 I/O 瓶頸 」 一節的 「 疑難排解效能問題，SQL Server 2008 」 白皮書位於[ http://go.microsoft.com/fwlink/?LinkID=202135 ](http://go.microsoft.com/fwlink/?LinkID=202135)。<br />-如何識別使用 Microsoft 伺服器效能警告器 (SPA) 工具，在磁碟效能瓶頸[ http://go.microsoft.com/fwlink/?LinkID=98096 ](http://go.microsoft.com/fwlink/?LinkID=98096)。|  
   
 ## <a name="measuring-memory-performance"></a>測量記憶體效能  
  使用下列效能監視器計數器來測量的可用記憶體的 HYPER-V 虛擬機器上安裝客體作業系統效能的影響：  
   
-|步驟|參考|  
+|步驟|참조|  
 |----------|---------------|  
-|**測量在 HYPER-V 主機作業系統上的可用記憶體**– 用於 HYPER-V 主機作業系統的實體記憶體數量由上監視 「 \Memory\Available MBytes 「 效能監視器計數器實體電腦。 此計數器會報告的可用實體記憶體可供主機作業系統。 評估可用主機作業系統可用實體記憶體時，請使用下列基本原則：<br /><br /> <ul><li>**\Memory\Available Mbytes** – Available MBytes 測量的電腦上安裝的實體記憶體百分比的電腦上，執行程序可用的實體記憶體數量。 測量此效能監視器計數器的值時，就會套用下列準則：<br /><br /> <ul><li>可用的記憶體的 50%或更 = 狀況良好</li><li>25%的可用的記憶體 = 監視器</li><li>可用的記憶體的 10%= 警告</li><li>可用的記憶體低於 5%= 重大，效能會受到負面影響</li></ul></li><li>**\Memory\Pages/sec** – 此效能監視器計數器會測量在讀取或寫入為解決硬體分頁錯誤而對磁碟頁面的速率。 若要解決硬體分頁錯誤，作業系統必須交換記憶體內容的磁碟，而效能受到負面影響。 實體可用的記憶體不足的相互關聯中每秒頁面數高的數目可能表示實體記憶體不足。 測量此效能監視器計數器的值時，就會套用下列準則：<br /><br /> <ul><li>少於 500 個 = 狀況良好</li><li>500-1000年 = 監視器或警告</li><li>大於 1000年 = 重大，效能會受到負面影響</li></ul></li></ul><br /> **測量來賓作業系統上的可用記憶體**– 客體作業系統可用的記憶體可以測量的相同效能監控計數器來測量記憶體可用來為 HYPER-V 主機作業系統使用。|需影響可用的實體記憶體的應用程式伺服器效能，請參閱 Exchange Server 2003 說明主題 < 統治出記憶體繫結的問題 >，網址[http://go.microsoft.com/fwlink/?LinkId=121056](http://go.microsoft.com/fwlink/?LinkId=121056)。|  
+|**測量在 HYPER-V 主機作業系統上的可用記憶體**– 用於 HYPER-V 主機作業系統的實體記憶體數量由上監視 「 \Memory\Available MBytes 「 效能監視器計數器實體電腦。 此計數器會報告的可用實體記憶體可供主機作業系統。 評估可用主機作業系統可用實體記憶體時，請使用下列基本原則：<br /><br /> <ul><li>**\Memory\Available Mbytes** – Available MBytes 測量的電腦上安裝的實體記憶體百分比的電腦上，執行程序可用的實體記憶體數量。 測量此效能監視器計數器的值時，就會套用下列準則：<br /><br /> <ul><li>可用的記憶體的 50%或更 = 狀況良好</li><li>25%的可用的記憶體 = 監視器</li><li>可用的記憶體的 10%= 警告</li><li>可用的記憶體低於 5%= 重大，效能會受到負面影響</li></ul></li><li>**\Memory\Pages/sec** – 此效能監視器計數器會測量在讀取或寫入為解決硬體分頁錯誤而對磁碟頁面的速率。 若要解決硬體分頁錯誤，作業系統必須交換記憶體內容的磁碟，而效能受到負面影響。 實體可用的記憶體不足的相互關聯中每秒頁面數高的數目可能表示實體記憶體不足。 測量此效能監視器計數器的值時，就會套用下列準則：<br /><br /> <ul><li>少於 500 個 = 狀況良好</li><li>500-1000年 = 監視器或警告</li><li>大於 1000年 = 重大，效能會受到負面影響</li></ul></li></ul><br /> **測量來賓作業系統上的可用記憶體**– 客體作業系統可用的記憶體可以測量的相同效能監控計數器來測量記憶體可用來為 HYPER-V 主機作業系統使用。|需影響可用的實體記憶體的應用程式伺服器效能，請參閱 Exchange Server 2003 說明主題 < 統治出記憶體繫結的問題 >，網址[ http://go.microsoft.com/fwlink/?LinkId=121056 ](http://go.microsoft.com/fwlink/?LinkId=121056)。|  
   
 ## <a name="measuring-network-performance"></a>測量網路效能  
  HYPER-V 可讓來賓電腦共用相同的實體網路介面卡。 這有助於將合併硬體，請注意不飽和的實體介面卡。 您可以使用下列方法來確保使用 HYPER-V 虛擬機器的網路的健全狀況：  
   
-|步驟|參考|  
+|步驟|참조|  
 |----------|---------------|  
 |**測試網路延遲**|Ping 每個虛擬機器，以確保適當的網路延遲。 在區域網路，應該會收到少於 1 毫秒的回應時間。|  
 |**封包遺失的測試**|您可以使用 pathping.exe 公用程式來測試虛擬機器之間的封包遺失。 Pathping.exe 測量網路上的封包遺失，並且只適用於所有版本的[!INCLUDE[btsWinNoVersion](../includes/btswinnoversion-md.md)]因為[!INCLUDE[btsWin2kSvr](../includes/btswin2ksvr-md.md)]。 Pathping.exe 送出一批突發之網路的每個節點的 100 個 ping 要求，並計算會傳回多少 ping。 在 區域網路上應該 ping 要求從 pathping.exe 公用程式不會遺失。|  
 |**測試網路檔案傳輸**|複製虛擬機器之間 100 MB 的檔案，並測量完成複製所需的時間長度。 在狀況良好的 100Mbit 100 MB (mb) 檔案應該複製 (mb) 網路，以 10 到 20 秒為單位。 在狀況良好的 1Gbit 網路 100 MB 的檔案應該複製約 3 到 5 秒。 這些參數之外的複製時間較長的網路問題。 網路介面卡具有 「 自動偵測到 」 時，就會發生不佳的網路傳輸的一個常見原因，導致無法充分運用可用的頻寬的網路介面卡的 10 MB 半雙工網路。|  
-|**量值在 HYPER-V 主機作業系統上的網路使用率**|使用下列效能監視器計數器來測量在 HYPER-V 主機作業系統上的網路使用率：<br /><br /> **\Network 介面 (\*) \Bytes Total/sec** – 網路使用率百分比的計算 Bytes Total/sec 乘以 8，將它轉換成位元，結果乘以 100，，然後除以網路介面卡的目前頻寬。 您可以使用下列的臨界值來評估網路頻寬使用量：<br /><br /> -低於 40%的耗用介面 = 狀況良好<br />-使用介面的 41%-64%= 監視器或警告<br />-65 100%的耗用介面 = 重大，效能會受到負面影響<br /><br /> **\Network 介面 (\*) \Output 佇列長度**– 輸出佇列長度測量等待網路介面卡上的執行緒數目。 如果有 2 個以上的執行緒等待網路介面卡上，網路可能是瓶頸。 常見的原因，這是不佳的網路延遲及/或網路上的高衝突率。 您可以使用下列的臨界值來評估輸出佇列長度：<br /><br /> -0 = 狀況良好<br />-1-2 = 監視器或警告<br />-Greater than 2 = 重大，效能會受到負面影響。<br /><br /> 確定方案中的所有電腦 （實體和虛擬） 的網路介面卡已設定要使用的最大傳輸單位 (MTU) 相同的值。 設定 MTU 值的詳細資訊，請參閱 < 附錄 a: TCP/IP 組態參數 >，網址[http://go.microsoft.com/fwlink/?LinkId=113716](http://go.microsoft.com/fwlink/?LinkId=113716)。<br /><br /> 如果以 2 或多個輸出佇列長度，請考慮將一個或多個實體網路介面卡新增至裝載的虛擬機器的實體電腦，並繫結客體作業系統，這些實體網路介面卡所使用的網路介面卡。|  
+|**量值在 HYPER-V 主機作業系統上的網路使用率**|使用下列效能監視器計數器來測量在 HYPER-V 主機作業系統上的網路使用率：<br /><br /> **\Network 介面 (\*) \Bytes Total/sec** – 網路使用率百分比的計算 Bytes Total/sec 乘以 8，將它轉換成位元，結果乘以 100，，然後除以網路介面卡的目前頻寬。 您可以使用下列的臨界值來評估網路頻寬使用量：<br /><br /> -低於 40%的耗用介面 = 狀況良好<br />-使用介面的 41%-64%= 監視器或警告<br />-65 100%的耗用介面 = 重大，效能會受到負面影響<br /><br /> **\Network 介面 (\*) \Output 佇列長度**– 輸出佇列長度測量等待網路介面卡上的執行緒數目。 如果有 2 個以上的執行緒等待網路介面卡上，網路可能是瓶頸。 常見的原因，這是不佳的網路延遲及/或網路上的高衝突率。 您可以使用下列的臨界值來評估輸出佇列長度：<br /><br /> -   0 = Healthy<br />-1-2 = 監視器或警告<br />-Greater than 2 = 重大，效能會受到負面影響。<br /><br /> 確定方案中的所有電腦 （實體和虛擬） 的網路介面卡已設定要使用的最大傳輸單位 (MTU) 相同的值。 設定 MTU 值的詳細資訊，請參閱 < 附錄 a: TCP/IP 組態參數 >，網址[ http://go.microsoft.com/fwlink/?LinkId=113716 ](http://go.microsoft.com/fwlink/?LinkId=113716)。<br /><br /> 如果以 2 或多個輸出佇列長度，請考慮將一個或多個實體網路介面卡新增至裝載的虛擬機器的實體電腦，並繫結客體作業系統，這些實體網路介面卡所使用的網路介面卡。|  
 |**量值的客體作業系統的網路使用率**|如果 HYPER-V 根磁碟分割上的網路介面卡忙碌上面提到的效能監視器計數器所指示，請考慮使用 「 \Hyper-V 虛擬網路介面卡 （*） \Bytes/sec 「 效能監視器計數器來識別虛擬網路配接器在耗用大部分的網路使用率。|  
   
- 網路效能分析的詳細資訊，請參閱 < 章 15-測量.NET 應用程式效能 >，網址[http://go.microsoft.com/fwlink/?LinkId=121073](http://go.microsoft.com/fwlink/?LinkId=121073)。  
+ 網路效能分析的詳細資訊，請參閱 < 章 15-測量.NET 應用程式效能 >，網址[ http://go.microsoft.com/fwlink/?LinkId=121073 ](http://go.microsoft.com/fwlink/?LinkId=121073)。  
   
 ## <a name="measuring-processor-performance"></a>測量處理器效能  
  您可以使用下列方法來評估在 HYPER-V 虛擬機器上安裝客體作業系統上的處理器效能：  
@@ -67,7 +67,7 @@ ms.lasthandoff: 12/01/2017
   
      如果 VPTR 很高，而且 LPTR 不足，請考慮是否有可用的邏輯處理器，以及額外的處理器支援客體作業系統配置額外的處理器給虛擬機器。 在其中 VPTR 很高的情況下，LPTR 不足、 配置、 可用的邏輯處理器，但是額外的處理器不支援客體作業系統，請考慮將其他虛擬機器加入至實體電腦向外延展和配置給這些虛擬機器可用的處理器。 其中 VPTR 和 LPTR 是高的情況下，設定在推入實體電腦的限制，以及應該考慮將另一部實體電腦和其他 HYPER-V 虛擬機器加入至環境向外延展。 下列流程圖說明疑難排解 HYPER-V 環境中的處理器效能時應使用的程序。  
   
-     ![疑難排解 Hyper-v 上的 CPU 效能 &#45;V](../technical-guides/media/623fdcd6-e80b-4ba9-bf46-5d9b92b6612b.gif "623fdcd6-e80b-4ba9-bf46-5d9b92b6612b")  
+     ![疑難排解 Hyper-v 上的 CPU 效能&#45;V](../technical-guides/media/623fdcd6-e80b-4ba9-bf46-5d9b92b6612b.gif "623fdcd6-e80b-4ba9-bf46-5d9b92b6612b")  
 疑難排解 HYPER-V 環境中的 CPU 效能  
   
     > [!NOTE]  
@@ -85,6 +85,6 @@ ms.lasthandoff: 12/01/2017
   
      如需有關處理器使用率，請檢閱下列資源：  
   
-    -   「 如何： 識別造成高的使用者模式 CPU 瓶頸的伺服器應用程式在生產環境中的函式 」 在[http://go.microsoft.com/fwlink/?LinkID=107047](http://go.microsoft.com/fwlink/?LinkID=107047)。  
+    -   「 如何： 識別造成高的使用者模式 CPU 瓶頸的伺服器應用程式在生產環境中的函式 」 在[ http://go.microsoft.com/fwlink/?LinkID=107047 ](http://go.microsoft.com/fwlink/?LinkID=107047)。  
   
-    -   」 章節 15-測量的.NET 應用程式效能 」，網址為[http://go.microsoft.com/fwlink/?LinkId=121073](http://go.microsoft.com/fwlink/?LinkId=121073)。
+    -   」 章節 15-測量的.NET 應用程式效能 」，網址為[ http://go.microsoft.com/fwlink/?LinkId=121073 ](http://go.microsoft.com/fwlink/?LinkId=121073)。

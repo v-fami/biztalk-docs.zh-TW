@@ -1,11 +1,11 @@
 ---
-title: "Web 服務的發行時的考量 |Microsoft 文件"
-ms.custom: 
+title: Web 服務的發行時的考量 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - schemas, publishing
@@ -13,15 +13,15 @@ helpviewer_keywords:
 - Web services, schemas
 - schemas, Web services
 ms.assetid: 3ace0260-a1cb-4e59-a820-36ee7d5cceda
-caps.latest.revision: "21"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 825a16555f0b0c82282ae4d85592567d2a19c073
-ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="considerations-when-publishing-web-services"></a>發佈 Web 服務的考量
 이 항목은 웹 서비스를 게시하기 전에 고려해야 할 정보를 제공합니다.  
@@ -33,13 +33,13 @@ ms.lasthandoff: 01/17/2018
   
 -   無法解析 **schemaLocation** 屬性會造成錯誤  
   
- 如需有關的限制包含項目，請參閱 < 包含項目繫結支援 >，網址 [http://go.microsoft.com/fwlink/?LinkId=62312](http://go.microsoft.com/fwlink/?LinkId=62312)。  
+ 如需有關的限制包含項目，請參閱 < 包含的項目繫結支援 >，網址[ http://go.microsoft.com/fwlink/?LinkId=62312 ](http://go.microsoft.com/fwlink/?LinkId=62312)。  
   
 ## <a name="publishing-schemas-and-the-import-element"></a>스키마 게시 및 import 요소  
- BizTalk 웹 서비스 게시 마법사에는 .NET Framework에 포함된 XSD.exe와 같은 제한 사항이 있습니다. 詳細資訊，請參閱 < 匯入項目繫結支援 >，網址 [http://go.microsoft.com/fwlink/?LinkId=62311](http://go.microsoft.com/fwlink/?LinkId=62311)。  
+ BizTalk 웹 서비스 게시 마법사에는 .NET Framework에 포함된 XSD.exe와 같은 제한 사항이 있습니다. 詳細資訊，請參閱 < 匯入項目繫結支援 >，網址[ http://go.microsoft.com/fwlink/?LinkId=62311 ](http://go.microsoft.com/fwlink/?LinkId=62311)。  
   
 ## <a name="publishing-schemas-and-the-redefine-element"></a>스키마 게시 및 redefine 요소  
- BizTalk 웹 서비스 게시 마법사에는 .NET Framework에 포함된 XSD.exe와 같은 제한 사항이 있습니다. 詳細資訊，請參閱 < Redefine 項目繫結支援 >，網址 [http://go.microsoft.com/fwlink/?LinkId=62313](http://go.microsoft.com/fwlink/?LinkId=62313)。  
+ BizTalk 웹 서비스 게시 마법사에는 .NET Framework에 포함된 XSD.exe와 같은 제한 사항이 있습니다. 詳細資訊，請參閱 < Redefine 項目繫結支援 >，網址[ http://go.microsoft.com/fwlink/?LinkId=62313 ](http://go.microsoft.com/fwlink/?LinkId=62313)。  
   
 ## <a name="publishing-schemas-that-specify-values-for-minoccurs-or-maxoccurs-attributes"></a>minOccurs 또는 maxOccurs 특성의 값을 지정하는 스키마 게시  
  如果您要發行的結構描述包含 **minOccurs** 或 **maxOccurs** 具有特定值的屬性，這些值可能不同於已發行的 Web 服務所公開的結構描述。 경험을 바탕으로 한 일반적 규칙으로, 모든 minOccurs 특성은 0(minOccurs=0)으로 변환되고 maxOccurs 특성은 1 또는 unbounded(maxOccurs=1 or maxOccurs=unbounded)로 변환됩니다.  

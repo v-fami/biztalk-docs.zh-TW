@@ -1,23 +1,23 @@
 ---
-title: "EXEC 陳述式的範例 mySAP 配接器在 BizTalk 中 |Microsoft 文件"
-description: "EXEC 範例和範例使用 mySAP 配接器在 BizTalk 配接器組件 (BAP)"
-ms.custom: 
+title: EXEC 陳述式的範例 mySAP 配接器在 BizTalk 中 |Microsoft 文件
+description: EXEC 範例和範例使用 mySAP 配接器在 BizTalk 配接器組件 (BAP)
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ad2691f4-34bb-423c-9b3e-4abe2d55ddac
-caps.latest.revision: "5"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 6eaae930d7d94d24bac9d484957ccf02718af60f
-ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="examples-for-exec-statement"></a>EXEC 陳述式的範例
 本主題說明各種 EXEC 陳述式的範例語法。
@@ -86,7 +86,7 @@ ms.lasthandoff: 01/17/2018
 ## <a name="support-for-complex-parameter-types"></a>複雜的參數類型的支援  
  有兩種方式來支援複雜的 RFC 參數 （資料表和結構） 當您使用[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]:  
   
--   複雜類型中提供內嵌的 XML 值。 這個範例示範如何將 XML 傳遞到複雜的參數型別*欄位*。 在下列範例中，  *@fields* 是資料表參數。  
+-   複雜類型中提供內嵌的 XML 值。 這個範例示範如何將 XML 傳遞到複雜的參數型別*欄位*。 在下列範例中， *@fields*是資料表參數。  
   
     ```  
     exec rfc_read_table @query_table='BNKA', @fields='<FIELDS xmlns='http://Microsoft.LobServices.Sap/2007/03/Rfc/'>  

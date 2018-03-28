@@ -1,11 +1,11 @@
 ---
-title: "安裝和設定疑難排解 |Microsoft 文件"
-ms.custom: 
+title: 安裝和設定疑難排解 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - installing, troubleshooting
@@ -13,15 +13,15 @@ helpviewer_keywords:
 - troubleshooting, configuring
 - troubleshooting, installing
 ms.assetid: 25a2f6c5-c049-4042-8e38-4f7a2556e066
-caps.latest.revision: "13"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 62cb7d6181c7be44f7095a6c1d1149132df4e21e
-ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="installation-and-configuration-troubleshooting"></a>安裝和設定疑難排解
 ## <a name="setup-is-unable-to-deploy-the-runtimeschemas-assembly"></a>安裝程式無法部署 RuntimeSchemas 組件  
@@ -34,7 +34,7 @@ ms.lasthandoff: 01/17/2018
   
 -   當您嘗試將執行 A4SWIFT 的初始安裝已部署的執行階段結構描述組件。  
   
--   [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)]並未啟動，您嘗試安裝 A4SWIFT 的電腦上。  
+-   [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] 未在您嘗試安裝 A4SWIFT 的電腦上啟動。  
   
 -   執行階段結構描述組件已經部署，當您嘗試升級 A4SWIFT，且已由另一個組件參考。 執行階段結構描述組件由 A4SWIFT 的這個予以防止解除部署升級的程式。  
   

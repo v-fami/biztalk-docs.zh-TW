@@ -1,26 +1,26 @@
 ---
-title: "安裝適用於 SAP 的資料提供者的自訂 Rfc |Microsoft 文件"
-ms.custom: 
+title: 安裝適用於 SAP 的資料提供者的自訂 Rfc |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - installation, custom RFCs for the Data Provider for SAP
 - installing, custom RFCs for the Data Provider for SAP
 - installing custom RFCs, how to
 ms.assetid: 7a99db70-fa5a-4c04-9dc7-b71613d4364e
-caps.latest.revision: "11"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 0aff501e5bf59d6ae22d9ad2a00e0e5ff5ad4605
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="install-custom-rfcs-for-the-data-provider-for-sap"></a>安裝適用於 SAP 的資料提供者的自訂 Rfc
 如果您想要使用.NET Framework Data Provider for mySAP Business Suite 存取 SAP 系統，請安裝自訂的 Rfc。
@@ -222,7 +222,7 @@ ms.lasthandoff: 11/28/2017
     |OUT_RECORDLENGTH|\<取決於 SAP 版本\>|  
     |OUT_RECORDCOUNT|\<在您的系統上 T000 SE16 確認用戶端數目\>|  
     |OUT_ZDATATABLE|\<確認此結果與使用 SE 16 T000 上的資料來源\>|  
-    |OUT_RETURN_TAB|S 001 成功|  
+    |OUT_RETURN_TAB|S 001 Success|  
   
 ## <a name="remove-the-rfc-for-the-data-provider-for-sap"></a>移除資料提供者適用於 SAP RFC  
   

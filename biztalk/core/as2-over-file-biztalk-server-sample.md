@@ -1,22 +1,22 @@
 ---
-title: "AS2 over File （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: AS2 over File （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1fed2344-8181-4c85-a2ef-a421fc40dce1
-caps.latest.revision: "14"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 14d4c077cce861e94f6c2cdc0bfc6f4a14669340
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="as2-over-file-biztalk-server-sample"></a>AS2 Over File (BizTalk Server 範例)
 AS2 Over File 範例示範如何透過 FILE 接收位置接收 AS2 訊息。 這可讓您使用 FILE 配接器來接收 AS2 訊息，而不是通常使用的 HTTP 配接器。 若要這樣做，此解決方案會在 AS2 解碼器要求時，將 AS2 訊息中的 HTTP 標頭寫入 InboundHTTPHeaders 內容屬性。  
@@ -40,7 +40,7 @@ AS2 Over File 範例示範如何透過 FILE 接收位置接收 AS2 訊息。 這
   
  下表顯示此範例中的檔案，並描述其用途。  
   
-|檔案|Description|  
+|파일|Description|  
 |---------------|-----------------|  
 |AS2OverFile.csproj|包含自訂管線元件程式碼的專案。|  
 |AS2OverFile.sln|包含 AS2OverFile.btproj 專案的解決方案。|  
@@ -106,7 +106,7 @@ AS2 Over File 範例示範如何透過 FILE 接收位置接收 AS2 訊息。 這
     |屬性|設定|  
     |--------------|-------------|  
     |名稱|AS2OverFile_Receive|  
-    |類型|FILE|  
+    |型別|FILE|  
     |接收資料夾|[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\AS2\AS2 Over File/In|  
     |檔案遮罩|*.txt|  
     |接收管線|AS2OverFile|  
@@ -118,7 +118,7 @@ AS2 Over File 範例示範如何透過 FILE 接收位置接收 AS2 訊息。 這
     |屬性|設定|  
     |--------------|-------------|  
     |名稱|AS2OverFile_Send|  
-    |類型|FILE|  
+    |型別|FILE|  
     |接收資料夾|[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\AS2\AS2 Over File/Out|  
     |檔案遮罩|%MessageID%.xml|  
     |傳送管線|Passthru|  
@@ -144,6 +144,6 @@ AS2 Over File 範例示範如何透過 FILE 接收位置接收 AS2 訊息。 這
 ## <a name="classes-or-methods-used-in-this-sample"></a>在此範例中使用的類別或方法  
  無  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [EDI 和 AS2 （BizTalk Server 範例資料夾）](../core/edi-and-as2-biztalk-server-samples-folder.md)   
  [透過 FILE 傳送埠傳送 AS2 訊息](../core/sending-an-as2-message-over-a-file-send-port.md)

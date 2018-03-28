@@ -1,26 +1,26 @@
 ---
-title: "如何停用使用者對應 |Microsoft 文件"
-ms.custom: 
+title: 如何停用使用者對應 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - disabling, maps
 - managing [SSO maps], disabling
 - maps [SSO], disabling
 ms.assetid: 9b6eaff2-674b-49f7-8d5c-3e040a7dc7f8
-caps.latest.revision: "8"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 6b17ab68356d5d39f3f839f736261d4a7ef79c78
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="how-to-disable-a-user-mapping"></a>如何停用使用者對應
 當您要關閉與特定對應關聯的所有作業時，可以停用使用者對應。 您必須先停用使用者對應，才能進行移除。  
@@ -29,27 +29,27 @@ ms.lasthandoff: 11/28/2017
   
 ### <a name="to-disable-a-user-mapping-using-the-administration-utility"></a>使用管理公用程式停用使用者對應  
   
-1.  在**啟動**功能表上，按一下 **執行**，然後輸入**cmd**。  
+1.  在 **啟動** ] 功能表上，按一下 [ **執行**, ，然後輸入 **cmd**。  
   
 2.  在命令列，移至「企業單一登入」安裝目錄。 預設安裝目錄是*\<磁碟機\>*: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-3.  型別 **ssomanage-disablemapping *\<網域\>*\\*\<username\> \<應用程式名稱\>** *，其中*\<網域\>*是 Windows 網域使用者帳戶和 *\<username\>* 是您要停用認證的 Windows 使用者名稱和*\<應用程式名稱\>*是您想要移除的使用者對應的分支機構應用程式的名稱。  
+3.  型別 **ssomanage-disablemapping *\<網域\>*\\*\<username\> \<應用程式名稱\>* * *，其中*\<網域\>*是 Windows 網域使用者帳戶和*\<username\>*是 Windows 使用者名稱您想要停用認證，和*\<應用程式名稱\>*是您想要移除的使用者對應的分支機構應用程式的名稱。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
   
 ### <a name="to-disable-a-user-mapping-using-the-client-utility"></a>使用用戶端公用程式停用使用者對應  
   
-1.  在**啟動**功能表上，按一下 **執行**，然後輸入**cmd**。  
+1.  在 **啟動** ] 功能表上，按一下 [ **執行**, ，然後輸入 **cmd**。  
   
 2.  在命令列，移至「企業單一登入」安裝目錄。 預設安裝目錄是*\<磁碟機\>*: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-3.  型別**ssoclient – disablemapping *\<應用程式名稱\>***，其中*\<應用程式名稱\>*是您想要移除的使用者對應的分支機構應用程式名稱。  
+3.  型別 * * ssoclient – disablemapping *\<應用程式名稱\>* * *，其中*\<應用程式名稱\>*是您想要移除的使用者對應的分支機構應用程式的名稱。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [SSO 對應](../core/sso-mappings.md)   
  [管理分支機構應用程式](../core/managing-affiliate-applications.md)   
  [管理使用者對應](../core/managing-user-mappings.md)

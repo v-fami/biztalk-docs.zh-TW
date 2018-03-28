@@ -17,7 +17,7 @@ ms.openlocfilehash: 9012e2ef6adaf94f55b87bbccfc24b7fb889fbf3
 ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="basic-oracle-data-types"></a>基本的 Oracle 資料類型
 本主題描述如何[!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]呈現基本的 Oracle 資料型別。  

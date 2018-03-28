@@ -1,11 +1,11 @@
 ---
-title: "建立分支機構 Applications4 |Microsoft 文件"
-ms.custom: 
+title: 建立分支機構 Applications4 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - tickets, Single Sign-On
@@ -14,15 +14,15 @@ helpviewer_keywords:
 - Single Sign-On, creating tickets
 - SSO tickets
 ms.assetid: 790fbe21-8081-4d57-803f-23014c8a3135
-caps.latest.revision: "7"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 87aa9be716e437e80c0e85bd9e462713e48090ad
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="creating-affiliate-applications"></a>建立分支機構應用程式
 下列步驟說明如何開始使用採用 SSO 的分支機構應用程式。  
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/07/2017
   
 ### <a name="to-create-an-affiliate-application"></a>若要建立分支機構應用程式  
   
-1.  在控制台中開啟**服務**，並確認企業單一登入服務正在執行。  
+1.  在 [控制台] 中開啟 **服務**, ，並確認企業單一登入服務正在執行。  
   
 2.  在命令提示中，將目錄變更為 [Enterprise Single Sign On] 資料夾。  
   
@@ -40,7 +40,7 @@ ms.lasthandoff: 11/07/2017
   
      **C:\Program Files\Common Files\Enterprise Single Sign-on >**  
   
-3.  使用 [企業單一登入] 命令。 如需命令清單，請使用**-協助**切換。  
+3.  使用 [企業單一登入] 命令。 對於命令清單，請使用 **-協助** 切換。  
   
 4.  若要以 *.XML 開始建立分支機構應用程式，請輸入下列命令：  
   
@@ -85,7 +85,7 @@ ms.lasthandoff: 11/07/2017
   
      一完成就會收到下列確認：  
   
-     **在此電腦使用 SSO 伺服器。已成功完成此作業。**  
+     **在此電腦使用 SSO 伺服器。作業順利完成。**  
   
 ### <a name="to-enable-affiliate-application-xml"></a>若要啟用分支機構應用程式 XML  
   
@@ -109,13 +109,13 @@ ms.lasthandoff: 11/07/2017
   
      例如，針對透過 SSO 伺服器進入系統的使用者，輸入使用者識別和密碼。  
   
-    -   使用者識別碼：**使用者**  
+    -   使用者識別碼︰ **使用者**  
   
-    -   密碼：`******`  
+    -   密碼︰ `******`  
   
-    -   確認？ 密碼：`******`  
+    -   確認？ 密碼︰ `******`  
   
-     分支機構應用程式會出現在 BizTalk Adapter for JD Edwards EnterpriseOne**傳輸屬性** 對話方塊。  
+     分支機構應用程式會出現在 BizTalk Adapter for JD Edwards EnterpriseOne **傳輸屬性** 對話方塊。  
   
 ## <a name="see-also"></a>另請參閱  
  [BizTalk Adapter for JD Edwards EnterpriseOne 中的安全性](../core/security-in-biztalk-adapter-for-jd-edwards-enterpriseone.md)

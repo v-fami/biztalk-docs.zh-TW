@@ -1,25 +1,25 @@
 ---
-title: "如何建立使用者對應 |Microsoft 文件"
-ms.custom: 
+title: 如何建立使用者對應 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - maps [SSO], creating
 - managing [SSO maps], creating user maps
 ms.assetid: c2e9f0db-920b-4d89-8e1e-5dc92805fd23
-caps.latest.revision: "11"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 019adf0cd41c643ac77790c96a3450bb967ddd6b
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="how-to-create-user-mappings"></a>如何建立使用者對應
 使用此命令可建立一或多個使用者對應，如 XML 檔案所指定。 以下是 XML 檔案的範例。  
@@ -51,27 +51,27 @@ ms.lasthandoff: 11/28/2017
   
 ### <a name="to-create-user-mappings-using-the-administration-utility"></a>使用管理公用程式建立使用者對應  
   
-1.  在**啟動**功能表上，按一下 **執行**，然後輸入**cmd**。  
+1.  在 **啟動** ] 功能表上，按一下 [ **執行**, ，然後輸入 **cmd**。  
   
 2.  在命令列，移至「企業單一登入」安裝目錄。 預設安裝目錄是\<*磁碟機*\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-3.  型別**ssomanage – createmappings *\<對應檔案名稱\>***，其中*\<對應檔案名稱\>*是包含您想要建立使用者對應的檔案名稱。  
+3.  型別 * * ssomanage – createmappings *\<對應檔案名稱\>* * *，其中*\<對應檔案名稱\>*是包含您想要建立使用者對應的檔案名稱。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
   
 ### <a name="to-create-user-mappings-using-the-client-utility"></a>使用用戶端公用程式建立使用者對應  
   
-1.  在**啟動**功能表上，按一下 **執行**，然後輸入**cmd**。  
+1.  在 **啟動** ] 功能表上，按一下 [ **執行**, ，然後輸入 **cmd**。  
   
 2.  在命令列，移至「企業單一登入」安裝目錄。 預設安裝目錄是\<*磁碟機*\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-3.  型別**ssoclient – setcredentials *\<應用程式名稱\>***  ，其中*\<應用程式名稱\>*是使用者想要建立對應的分支機構應用程式名稱。  
+3.  型別 * * ssoclient – setcredentials *\<應用程式名稱\>* * *，其中*\<應用程式名稱\>*是使用者想要建立對應的分支機構應用程式的名稱。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [SSO 對應](../core/sso-mappings.md)   
  [管理分支機構應用程式](../core/managing-affiliate-applications.md)   
  [管理使用者對應](../core/managing-user-mappings.md)

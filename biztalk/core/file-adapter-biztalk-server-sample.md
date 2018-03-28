@@ -1,25 +1,25 @@
 ---
-title: "File 配接器 （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: File 配接器 （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, File adapters
 - File adapters, examples
 ms.assetid: d59cecb4-6353-44d5-b8d6-316446758536
-caps.latest.revision: "46"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: de68c57c6b435f85edf630a7b224c5d58ffd0cd6
-ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="file-adapter-biztalk-server-sample"></a>File 配接器 （BizTalk Server 範例）
 File 配接器範例是以 Microsoft Visual C#.NET 才能使用 Microsoft BizTalk Server 撰寫的。 此範例提供可建置動態或靜態配接器的程式碼。  不過，下列程序僅概述靜態配接器。 靜態配接器具有一組靜態結構描述，且沒有自訂使用者介面。 動態配接器具有自訂使用者介面，並且可能有一組動態結構描述。 靜態和動態配接器都使用「新增配接器精靈」將結構描述新增至 BizTalk 專案。  

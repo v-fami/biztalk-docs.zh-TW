@@ -1,25 +1,25 @@
 ---
-title: "如何刪除使用者對應 |Microsoft 文件"
-ms.custom: 
+title: 如何刪除使用者對應 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - maps [SSO], deleting
 - managing [SSO maps], deleting user maps
 ms.assetid: de511113-b0b0-4920-91dc-4c9e380fda58
-caps.latest.revision: "10"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 03f7c1fa75b6fe7bb4c78e18c97fccd1404f89c9
-ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="how-to-delete-user-mappings"></a>如何刪除使用者對應
 使用下列命令可刪除在 XML 檔案中指定的一或多個使用者對應。 以下是 XML 檔案的範例。  

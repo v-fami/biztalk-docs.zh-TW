@@ -1,22 +1,22 @@
 ---
-title: "規劃傳送和接收 |Microsoft 文件"
-ms.custom: 
+title: 規劃傳送和接收 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3d67e5f7-5127-4c1d-be20-8d8dbb538286
-caps.latest.revision: "2"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: ca2b87964266b77629f7fa1d1156ace3cd048e7f
-ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="planning-for-sending-and-receiving"></a>規劃傳送和接收
 幾乎所有由處理的文件[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]收到[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]接收配接器，與寄件者[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]使用[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]傳送配接器。 因為[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]配接器，以突顯的方式圖中任何[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境中，請務必預先規劃，以判斷哪些配接器或加速器您將使用及如何正確地設定這些介面卡和/或加速器。  
@@ -92,7 +92,7 @@ ms.lasthandoff: 01/17/2018
 ## <a name="biztalk-accelerators"></a>BizTalk 加速器  
  BizTalk 配接器會配合特定的通訊協定傳送和接收的文件，而 BizTalk 加速器專門設計來容納根據特定的業界標準的文件的交換。 如需可用的 BizTalk 快速鍵的清單，請參閱[Microsoft BizTalk Server 加速器](http://go.microsoft.com/fwlink/?LinkId=103609)(http://go.microsoft.com/fwlink/?LinkId=103609)。  
   
-##  <a name="BKMK_InternetTrans"></a>公開到網際網路傳輸時，設定您的網域  
+##  <a name="BKMK_InternetTrans"></a> 公開到網際網路傳輸時，設定您的網域  
  為簡化傳送和接收的文件，您的組織和外部交易夥伴之間，可能需要公開可從網際網路存取的公用對向站台上的傳輸。 在這些情況下，建議使用下列網域的設定：  
   
 -   **周邊網路網域，（也稱為非軍事區域 (DMZ) 或過濾的子網路），採用到屋伺服器以提供網際網路相關服務，為您的組織**  

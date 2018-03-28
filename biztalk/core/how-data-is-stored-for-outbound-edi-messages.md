@@ -1,22 +1,22 @@
 ---
-title: "資料如何儲存輸出 EDI 訊息 |Microsoft 文件"
-ms.custom: 
+title: 資料如何儲存輸出 EDI 訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a6e576fc-37fd-417d-ae68-607a0a8bcc0a
-caps.latest.revision: "10"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: f98d5113c63e29f3f4b85834b7ca1aa0836d0a5d
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="how-data-is-stored-for-outbound-edi-messages"></a>如何儲存輸出 EDI 訊息的資料
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會針對輸出交換，進行下列作業以產生狀態報告項目：  
@@ -55,7 +55,7 @@ ms.lasthandoff: 11/28/2017
 -   交換傳送埠識別碼 = 資料  
   
 ## <a name="data-stored-by-the-receive-pipeline-for-each-technical-acknowledgment-received-in-response-to-an-outbound-interchange"></a>由接收管線針對回應輸出交換而接收之每個技術通知所儲存的資料  
- 接收管線會在狀態報告資料存放區中，針對其所接收的每個技術通知建立記錄。 接收管線就會建立每個交換狀態報告資料存放區中收到的記錄。 每個技術通知以回應傳送給交易夥伴交換接收的資料存放區中建立一個技術通知狀態報告項目。 X12 類型的技術通知是 TA1，EDIFACT 類型的技術通知為僅包含 UCI 區段的 CONTRL 訊息。 儲存的資料包括：  
+ 接收管線會在狀態報告資料存放區中，針對其所接收的每個技術通知建立記錄。 接收管線會建立每個交換狀態報告資料存放區中所收到的記錄。 每個技術通知以回應傳送給交易夥伴交換接收的資料存放區中建立一個技術通知狀態報告項目。 X12 類型的技術通知是 TA1，EDIFACT 類型的技術通知為僅包含 UCI 區段的 CONTRL 訊息。 儲存的資料包括：  
   
 -   記錄類型 = 交換通知狀態  
   
@@ -85,7 +85,7 @@ ms.lasthandoff: 11/28/2017
   
 |通知/動作代碼中的資料|報告的錯誤描述|註解 (適用性)|  
 |------------------------------|-------------------------------------|-------------------------------|  
-|只有在次要複本設定成手動容錯移轉模式，而且至少一個次要複本目前與主要複本 SYNCHRONIZED 時，|已接受|X12|  
+|A|已接受|X12|  
 |E|已接受，但已記錄錯誤|X12|  
 |P|已部分接受|X12|  
 |R|已拒絕|X12|  
@@ -171,7 +171,7 @@ ms.lasthandoff: 11/28/2017
   
 |通知/動作代碼中的資料|針對狀態報告對應|註解|  
 |------------------------------|---------------------------------|-------------|  
-|只有在次要複本設定成手動容錯移轉模式，而且至少一個次要複本目前與主要複本 SYNCHRONIZED 時，|已接受|X12|  
+|A|已接受|X12|  
 |P|已部分接受|X12|  
 |R、M、W、X|已拒絕|X12|  
 |E|已接受，發生錯誤|X12|  
@@ -264,7 +264,7 @@ ms.lasthandoff: 11/28/2017
   
 |通知/動作代碼中的資料|報告的錯誤描述|註解 (適用性)|  
 |------------------------------|-------------------------------------|-------------------------------|  
-|只有在次要複本設定成手動容錯移轉模式，而且至少一個次要複本目前與主要複本 SYNCHRONIZED 時，|已接受|X12|  
+|A|已接受|X12|  
 |E|已接受，發生錯誤|X12|  
 |P|已部分接受|X12|  
 |R|已拒絕|X12|  
@@ -278,7 +278,7 @@ ms.lasthandoff: 11/28/2017
 |2|語法版本或層級不支援|  
 |7|交換收件者不是實際收件者|  
 |12|無效值|  
-|13|Missing|  
+|13|遺漏|  
 |14|在這個位置中不支援的值|  
 |15|在這個位置中不支援|  
 |16|太多結構成分|  
@@ -314,7 +314,7 @@ ms.lasthandoff: 11/28/2017
 |47|不支援信封功能|  
 |48|違反相依性條件|  
 |70|交易集遺失或是交易集識別碼無效|  
-|71|交易集或群組控制編號不相符|  
+|71|設定或群組控制編號不相符的交易|  
 |72|無法辨識的區段識別碼|  
 |73|XML 不在正確的位置|  
 |74|區段群組的重複太少|  
@@ -395,7 +395,7 @@ ms.lasthandoff: 11/28/2017
   
 |通知/動作代碼中的資料|針對狀態報告對應|註解|  
 |------------------------------|---------------------------------|-------------|  
-|只有在次要複本設定成手動容錯移轉模式，而且至少一個次要複本目前與主要複本 SYNCHRONIZED 時，|已接受|X12|  
+|A|已接受|X12|  
 |P|已部分接受|X12|  
 |R、M、W、X|已拒絕|X12|  
 |E|已接受，發生錯誤|X12|  
@@ -409,7 +409,7 @@ ms.lasthandoff: 11/28/2017
 |2|語法版本或層級不支援|  
 |7|交換收件者不是實際收件者|  
 |12|無效值|  
-|13|Missing|  
+|13|遺漏|  
 |14|在這個位置中不支援的值|  
 |15|在這個位置中不支援|  
 |16|太多結構成分|  
@@ -445,7 +445,7 @@ ms.lasthandoff: 11/28/2017
 |47|不支援信封功能|  
 |48|違反相依性條件|  
 |70|交易集遺失或是交易集識別碼無效|  
-|71|交易集或群組控制編號不相符|  
+|71|設定或群組控制編號不相符的交易|  
 |72|無法辨識的區段識別碼|  
 |73|XML 不在正確的位置|  
 |74|區段群組的重複太少|  
@@ -463,6 +463,6 @@ ms.lasthandoff: 11/28/2017
 |5|包含的交易集數目不符合實際計數|  
 |6-26|其他不支援的驗證錯誤|  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [資料如何儲存 EDI 和 AS2 狀態報告](../core/how-data-is-stored-for-edi-and-as2-status-reports.md)   
  [如何儲存輸入 EDI 訊息的資料](../core/how-data-is-stored-for-inbound-edi-messages.md)

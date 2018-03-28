@@ -1,22 +1,22 @@
 ---
-title: "HYPER-V 上的系統資源成本 |Microsoft 文件"
-ms.custom: 
+title: HYPER-V 上的系統資源成本 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9f25a76c-1c41-41c0-b28d-d7473dbe1cd1
-caps.latest.revision: "8"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 491c71a446829ddddfc4d7c55053b94dcf7fc9d1
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="system-resource-costs-on-hyper-v"></a>HYPER-V 上的系統資源成本
 ## <a name="system-resource-costs-associated-with-running-a-guest-operating-system-on-hyper-v"></a>HYPER-V 上執行客體作業系統與相關聯的系統資源成本  
@@ -44,7 +44,7 @@ ms.lasthandoff: 12/01/2017
  設定為使用 SCSI 控制站的資料磁碟區的磁碟。 這樣會保證會安裝整合服務，因為如果而不需要安裝 HYPER-V 整合服務是使用模擬的 IDE 控制器，已安裝 HYPER-V 整合服務，可以只安裝 SCSI 控制器。 使用 SCSI 控制站或 integration services 提供 IDE 篩選器驅動程式執行磁碟 I/O 是明顯優於磁碟 I/O 效能所提供的模擬的 IDE 控制器。 因此，若要確保最佳的磁碟 I/O 效能中 HYPER-V 虛擬化環境中的資料檔案，在主機和客體作業系統上安裝 integration services 及設定資料磁碟區的磁碟與綜合 SCSI 控制器。 對於跨越多個資料磁碟機的極大量的儲存體 I/O 工作負載，每個 VHD 應該附加到另一個更佳的整體效能的綜合 SCSI 控制器。 此外，每個 VHD 應該儲存在個別的實體磁碟或 Lun 上。  
   
 #### <a name="measuring-passthrough-disk-performance"></a>測量穿通磁碟效能  
- 任何彙總練習期間是發揮最大可用的資源。 如先前所討論，SQL 資料磁碟區上的儲存體 I/O 會在 BizTalk Server 解決方案的整體效能中扮演重要部分。 因此本指南中，已通過測試的實體磁碟的 HYPER-V 中的直接存取磁碟效能的相對效能。 Physical_SQL01 中的相對效能的 MessageBox 資料磁碟機和 Virtual_SQL01 測量使用的 IOMeter 開放原始碼工具原本由 Intel Corporation 發展和現在維護由開啟來源開發實驗室 (OSDL)。 如需 IOMeter 的詳細資訊，請參閱[http://go.microsoft.com/fwlink/?LinkId=122412](http://go.microsoft.com/fwlink/?LinkId=122412)。  
+ 任何彙總練習期間是發揮最大可用的資源。 如先前所討論，SQL 資料磁碟區上的儲存體 I/O 會在 BizTalk Server 解決方案的整體效能中扮演重要部分。 因此本指南中，已通過測試的實體磁碟的 HYPER-V 中的直接存取磁碟效能的相對效能。 Physical_SQL01 中的相對效能的 MessageBox 資料磁碟機和 Virtual_SQL01 測量使用的 IOMeter 開放原始碼工具原本由 Intel Corporation 發展和現在維護由開啟來源開發實驗室 (OSDL)。 如需 IOMeter 的詳細資訊，請參閱[ http://go.microsoft.com/fwlink/?LinkId=122412 ](http://go.microsoft.com/fwlink/?LinkId=122412)。  
   
  下表說明在測試環境、 所使用的 IOMeter 設定選項、 執行、 測試的描述和結果的摘要使用的實體和虛擬的硬體組態。  
   
@@ -54,8 +54,8 @@ ms.lasthandoff: 12/01/2017
   
 |||  
 |-|-|  
-|**型號**|HP DL580|  
-|**處理器**|四處理器，顆四核心 Intel Xeon 2.4 Ghz|  
+|**模型**|HP DL580|  
+|**Processor**|四處理器，顆四核心 Intel Xeon 2.4 Ghz|  
 |**記憶體**|8 GB|  
 |**網路功能**|HP NC3T3i 多功能十億位元伺服器的配接器|  
 |**SAN 組態**|直接連接的 SAN 存放裝置 （請參閱下表）|  
@@ -72,12 +72,12 @@ ms.lasthandoff: 12/01/2017
 |L:|Logs_BtsMsgBox|100|RAID 0 + 1|  
 |M:|MSDTC|5|RAID 0 + 1|  
   
-### <a name="hyper-vhostsql01"></a>Hyper-v V_Host_SQL01  
+### <a name="hyper-vhostsql01"></a>Hyper-V_Host_SQL01  
   
 |||  
 |-|-|  
-|**型號**|HP DL580|  
-|**處理器**|四處理器，顆四核心 Intel Xeon 2.4 Ghz|  
+|**模型**|HP DL580|  
+|**Processor**|四處理器，顆四核心 Intel Xeon 2.4 Ghz|  
 |**記憶體**|32 GB|  
 |**網路功能**|Broadcom BCM5708C NetXtreme II GigEHP DL380 G5|  
   
@@ -90,7 +90,7 @@ ms.lasthandoff: 12/01/2017
 |**網路功能**|虛擬機器的網路連線到：<br />Broadcom BCM5708C NetXtreme II GigE|  
 |**硬碟設定**|**IDE 控制器**– 30 GB 的作業系統固定 vhd<br />**SCSI 控制器**-7 直接連接直接存取 SAN Lun （請參閱下表）|  
   
-### <a name="virtualsql01--san-configuration"></a>Virtual_SQL01 – SAN 組態  
+### <a name="virtualsql01--san-configuration"></a>Virtual_SQL01 – SAN Configuration  
   
 |磁碟機代號|Description|LUN 的大小|RAID 組態|  
 |------------------|-----------------|--------------|------------------------|  

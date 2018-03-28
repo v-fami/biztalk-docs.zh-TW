@@ -1,22 +1,22 @@
 ---
-title: "一般指導方針來改善作業系統效能 |Microsoft 文件"
-ms.custom: 
+title: 一般指導方針來改善作業系統效能 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bc9ca38e-1feb-4f34-a64b-d04566e85db9
-caps.latest.revision: "11"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: e7be3f8060bba20bc0ba127443095c228f954bba
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="general-guidelines-for-improving-operating-system-performance"></a>一般指導方針來改善作業系統效能
 若要改善作業系統效能，應遵循下列指導方針：  
@@ -133,21 +133,21 @@ ms.lasthandoff: 11/28/2017
   
 -   [BizTalk Server 所需的連接埠](http://go.microsoft.com/fwlink/?LinkID=153238)(http://go.microsoft.com/fwlink/?LinkID=153238)。  
   
--   若要設定 RPC 動態連接埠配置以使用防火牆，請參閱知識庫文章 929851， [「 TCP/IP 的預設動態通訊埠範圍已變更在 Windows Vista 和 Windows Server 2008 」](http://go.microsoft.com/fwlink/?LinkID=204568) （超連結"http://go.microsoft.com/fwlink/ 嗎？LinkID = 204568"http://go.microsoft.com/fwlink/?LinkID = 204568)。 如需如何設定 Windows 防火牆來容納必要的連接埠資訊，請參閱[Windows 防火牆與 IPsec 原則部署逐步指南](http://go.microsoft.com/fwlink/?LinkID=204569)(http://go.microsoft.com/fwlink/?LinkID=204569)。  
+-   若要設定 RPC 動態連接埠配置以使用防火牆，請參閱知識庫文章 929851， [「 TCP/IP 的預設動態通訊埠範圍已變更在 Windows Vista 和 Windows Server 2008 」](http://go.microsoft.com/fwlink/?LinkID=204568) (超連結"http://go.microsoft.com/fwlink/?LinkID=204568"http://go.microsoft.com/fwlink/?LinkID=204568). 如需如何設定 Windows 防火牆來容納必要的連接埠資訊，請參閱[Windows 防火牆與 IPsec 原則部署逐步指南](http://go.microsoft.com/fwlink/?LinkID=204569)(http://go.microsoft.com/fwlink/?LinkID=204569)。  
   
 ## <a name="install-appropriate-com-and-msdtc-hotfix-rollup-packages"></a>安裝適當的 COM + 與 MSDTC hotfix 彙總套件  
  檢閱要安裝適當的 COM + 與 MS DTC hotfix 彙總套件封裝的下列資訊：  
   
 -   MS DTC hotfix，請參閱 Microsoft Knowledge Base article978476 [「 Windows Server 2008 R2 MS DTC Hotfix 彙總套件 1 中修正 MS DTC 問題 」](http://go.microsoft.com/fwlink/?LinkID=204109) (http://go.microsoft.com/fwlink/?LinkID=204109)。  
   
--   可以藉由搜尋找到最新的 DTC hotfix 彙總套件知識庫文章[http://support.microsoft.com](http://go.microsoft.com/fwlink/?LinkID=96185) (http://go.microsoft.com/fwlink/?LinkID=96185) 一詞 （包括引號）：  
+-   可以藉由搜尋找到最新的 DTC hotfix 彙總套件知識庫文章[ http://support.microsoft.com ](http://go.microsoft.com/fwlink/?LinkID=96185) (http://go.microsoft.com/fwlink/?LinkID=96185)片語 （包括引號）：  
   
     ```  
     "MS DTC Hotfix Rollup Package"  
     ```  
   
      下列查詢會為您此搜尋。 選擇最新的密碼：   
-    [http://support.microsoft.com/search/default.aspx?query= [MS + DTC + Hotfix + 彙總套件 + 封裝]](http://support.microsoft.com/search/default.aspx?query="MS+DTC+Hotfix+Rollup+Package")  
+    [http://support.microsoft.com/search/default.aspx?query="MS+DTC+Hotfix+Rollup+Package"](http://support.microsoft.com/search/default.aspx?query="MS+DTC+Hotfix+Rollup+Package")  
   
 ## <a name="use-the-interrupt-affinity-policy-tool-to-bind-network-adapter-interrupts-to-specific-processors-on-multiprocessor-computers"></a>使用繫結至多處理器電腦上的特定處理器的網路介面卡插斷的中斷親合性原則工具  
  中斷親合性原則 (IntPolicy) 是一種工具，可讓您 [繫結]，或變更給定的裝置 （例如網路介面卡） 的 CPU 相似性的插斷的特定處理器或多處理器電腦上的處理器。 這個繫結也稱為資料分割。 從特定網路介面卡插斷，以在多處理器電腦上的特定處理器的繫結會強制執行延遲程序呼叫 (Dpc) 和網路介面卡上指定之處理器的中斷服務常式 (Isr)。 請注意，無法在單一處理器電腦上設定中斷親和性。  
@@ -155,12 +155,12 @@ ms.lasthandoff: 11/28/2017
 > [!NOTE]  
 >  DPC 被定義為佇列通常會在稍後執行的核心模式函式呼叫。 ISR 定義為常式，其目的是為了服務時就會產生插斷的裝置。 如需有關延遲程序呼叫和中斷服務常式的詳細資訊，請參閱[Windows Driver Kit 文件](http://go.microsoft.com/fwlink/?LinkId=84418)(http://go.microsoft.com/fwlink/?LinkId=84418)。  
   
- ![插斷 &#45;親和性原則工具](../technical-guides/media/interrupt-affinitypolicytool.gif "插斷 AffinityPolicyTool")  
+ ![插斷&#45;親和性原則工具](../technical-guides/media/interrupt-affinitypolicytool.gif "插斷 AffinityPolicyTool")  
 中斷親合性原則工具  
   
  在 Windows Server 2008 基礎多處理器電腦，是將裝置插斷指派給任何可用的處理器插斷控制器的預設行為。 當網路連線和指定的網路介面卡的檔案伺服器工作階段會繫結/分割成一組特定的處理器上執行，而任何可用的處理器、 效能和延展性的相關聯的網路處理已獲得改善。 大型 BizTalk Server 方案通常採用多處理器的 SQL Server 電腦有多個網路介面卡的插斷繫結可能會特別有幫助。   
 插斷繫結使用 IntPolicy 應該一律之前加以評估在測試環境中採用在生產環境中。 硬體、 作業系統和應用程式組態的測試環境應該接近實際執行環境十分接近。 這可讓您測試各種排列的插斷繫結，並決定範圍的插斷繫結就是增加效能。  
- 我們建議您停用超執行緒支援超執行緒與 Cpu 的電腦上設定 IntPolicy 之前。 這可確保插斷，會指派給實體處理器，而不是邏輯處理器。 指派的中斷親和性參考相同的實體處理器的邏輯處理器不會提高效能，甚至可能會降低系統效能。    超連結"The"[中斷親合性原則工具](http://go.microsoft.com/fwlink/?LinkID=204111)(http://go.microsoft.com/fwlink/?LinkID=204111) 是可從 WHDC 網站下載。  
+ 我們建議您停用超執行緒支援超執行緒與 Cpu 的電腦上設定 IntPolicy 之前。 這可確保插斷，會指派給實體處理器，而不是邏輯處理器。 指派的中斷親和性參考相同的實體處理器的邏輯處理器不會提高效能，甚至可能會降低系統效能。    超連結"The"[中斷親合性原則工具](http://go.microsoft.com/fwlink/?LinkID=204111)(http://go.microsoft.com/fwlink/?LinkID=204111)從 WHDC 網站下載。  
   
 ## <a name="use-the-ntfs-file-system-on-all-volumes"></a>使用 NTFS 檔案系統上所有磁碟區  
  Windows Server 用來格式化磁碟機，包括 NTFS、 FAT 以及 FAT32 提供多個檔案系統類型。 NTFS 應該永遠選擇伺服器的檔案系統。  
@@ -206,14 +206,14 @@ Windows Server 2008 會使用先佔式多工來排列優先順序就來參加 cp
 停用服務時請務必小心。 仔細研究服務的目的之前停用服務，因為 Windows Server 需要的特定服務正在執行。 如果已停用 Windows Server 2008 所需的服務，作業系統而變得無法運作甚至無法開機。  
 若要停用不需要專用的 BizTalk Server 的 Windows Server 2008 服務，請遵循下列步驟：  
   
-1.  按一下**啟動**，指向 **系統管理工具**，然後按一下 **電腦管理**。  
+1.  按一下  **啟動**, ，指向  **系統管理工具**, ，然後按一下  **電腦管理**。  
   
 2.  在下**電腦管理 （本機）**，依序展開**服務和應用程式**，然後按一下 **服務**。  
     在**狀態**資料行中，執行每個服務會標示為 「 已啟動 」。 停止並停用任何不必要地，啟動的服務，例如下列服務不需要專用的 BizTalk 伺服器上：  
   
     -   警訊器  
   
-    -   剪貼簿  
+    -   ClipBook  
   
     -   DHCP 伺服器  
   
@@ -249,7 +249,7 @@ Windows Server 2008 會使用先佔式多工來排列優先順序就來參加 cp
   
     1.  按兩下您想要停用的服務。  
   
-    2.  按一下**相依性** 索引標籤。  
+    2.  按一下 [ **相依性** ] 索引標籤。  
   
     3.  在**此服務相依於下列的系統元件**清單中，注意此服務依存於服務。  
   
@@ -275,7 +275,7 @@ Windows Server 2008 會使用先佔式多工來排列優先順序就來參加 cp
 ## <a name="manually-load-microsoft-certificate-revocation-lists"></a>手動載入 Microsoft 憑證撤銷清單  
  當啟動.NET 應用程式時，.NET Framework 會嘗試下載的憑證撤銷清單 (CRL) 的任何帶正負號的組件。 如果您的系統並沒有直接存取網際網路，或限制存取 Microsoft.com 網域，這可能會延遲啟動 BizTalk Server。 若要避免這種延遲應用程式啟動時，您可以使用下列步驟手動下載並安裝的程式碼簽署您的系統上的憑證撤銷清單。  
   
-1.  下載最新 CRL 更新從[http://crl.microsoft.com/pki/crl/products/CodeSignPCA.crl](http://go.microsoft.com/fwlink/?LinkID=117794) (http://go.microsoft.com/fwlink/?LinkID = 117794) 和[http://crl.microsoft.com/pki/crl/products/CodeSignPCA2.crl](http://go.microsoft.com/fwlink/?LinkId=117795) (http://go.microsoft.com/fwlink/?LinkId = 117795)。  
+1.  下載最新 CRL 更新從[ http://crl.microsoft.com/pki/crl/products/CodeSignPCA.crl ](http://go.microsoft.com/fwlink/?LinkID=117794) (http://go.microsoft.com/fwlink/?LinkID=117794)和[ http://crl.microsoft.com/pki/crl/products/CodeSignPCA2.crl ](http://go.microsoft.com/fwlink/?LinkId=117795) (http://go.microsoft.com/fwlink/?LinkId=117795)。  
   
 2.  將 CodeSignPCA.crl 和 CodeSignPCA2.crl 檔移到隔離的系統。  
   
@@ -309,5 +309,5 @@ Windows Server 2008 會使用先佔式多工來排列優先順序就來參加 cp
 ## <a name="remove-cpu-intensive-screen-savers"></a>移除需要大量 CPU 的螢幕保護裝置  
  並使用重要的系統資源，在執行時的 CPU 運算密集已知 3D 或 OpenGL 螢幕保護裝置。 建議您最好避免這些完全安裝在伺服器建置時，選擇，或如果已安裝加以移除。 基本的 Windows Server 2008 」 或空白的螢幕保護裝置會使用需要大量 CPU 的螢幕保護裝置的最佳替代方案。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [最佳化作業系統效能](../technical-guides/optimizing-operating-system-performance.md)

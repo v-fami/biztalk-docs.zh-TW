@@ -1,23 +1,23 @@
 ---
-title: "安裝和設定 Microsoft BizTalk ESB Toolkit |Microsoft 文件"
-description: "安裝和設定 BizTalk Server 上的 ESB Toolkit 的步驟-步驟指示"
-caps.latest.revision: "8"
+title: 安裝和設定 Microsoft BizTalk ESB Toolkit |Microsoft 文件
+description: 安裝和設定 BizTalk Server 上的 ESB Toolkit 的步驟-步驟指示
+caps.latest.revision: ''
 author: MandiOhlinger
 manager: anneta
-ms.custom: 
+ms.custom: ''
 ms.date: 08/10/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 698843f7-8361-4d02-9278-0e66f2a9f472
 ms.author: mandia
 ms.openlocfilehash: 33805fe58298e4f4729161a62742d3b204996b00
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="install-and-configure-the-microsoft-biztalk-esb-toolkit"></a>安裝和設定 Microsoft BizTalk ESB Toolkit
 從 BizTalk Server 2013 和較新版本，[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]與整合[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]安裝程式。 本主題說明如何安裝及設定[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]，而且也包含社群寫入升級 ESB Toolkit 連結。  
@@ -25,7 +25,7 @@ ms.lasthandoff: 09/20/2017
 > [!IMPORTANT]
 >  您必須先安裝 BizTalk Server，才能開始安裝 [!INCLUDE[esbToolkit_short](../includes/esbtoolkit-short-md.md)]。  
   
-## <a name="install"></a>Install 
+## <a name="install"></a>安裝 
   
 1.  執行[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]以系統管理員身分的 setup.exe 檔案。 在 [安裝] 選取**安裝[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]** 。  
   
@@ -37,7 +37,7 @@ ms.lasthandoff: 09/20/2017
   
 5.  選取 [完成] 以關閉安裝精靈。  
 
-安裝記錄檔會建立，類似於 ' C:\Users\yourUserName\AppData\Local\Temp\Setup(081017 175042).htm'。 
+An install log file is created, similar to `C:\Users\yourUserName\AppData\Local\Temp\Setup(081017 175042).htm'. 
   
 ## <a name="configure"></a>設定 
   
@@ -100,7 +100,7 @@ ms.lasthandoff: 09/20/2017
     -   選取**套用組態**建立您所選取的應用程式。 確認應用程式已在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台中建立。  
   
 ## <a name="upgrade-esb-toolkit--community-addition"></a>升級 ESB Toolkit – 社群補充  
- [In-place upgrade of ESB Toolkit 2.1 to 2.2](http://www.brianloesgen.com/blog/2013/10/10/in-place-upgrade-of-esb-toolkit-21-to-22.html) (http://www.brianloesgen.com/blog/2013/10/10/in-place-upgrade-of-esb-toolkit-21-to-22.html)
+ [就地升級至 2.2 ESB Toolkit 2.1](http://www.brianloesgen.com/blog/2013/10/10/in-place-upgrade-of-esb-toolkit-21-to-22.html) (http://www.brianloesgen.com/blog/2013/10/10/in-place-upgrade-of-esb-toolkit-21-to-22.html)
 
 ## <a name="see-also"></a>另請參閱
 [疑難排解安裝問題，以及一般錯誤和解析度](troubleshooting-the-biztalk-esb-toolkit.md)

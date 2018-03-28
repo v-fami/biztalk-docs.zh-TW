@@ -1,20 +1,20 @@
 ---
-title: "疑難排解和已知的問題與 BizTalk RosettaNet 加速器 (BTARN) 中安裝 BizTalk Server 上 |Microsoft 文件 」"
-description: "安裝 BTARN 安裝在 BizTalk Server 中的 SQL，主控件執行個體，以及已知的錯誤的服務帳戶建議"
+title: 疑難排解和已知的問題與 BizTalk RosettaNet 加速器 (BTARN) 中安裝 BizTalk Server 上 |Microsoft 文件 」
+description: 安裝 BTARN 安裝在 BizTalk Server 中的 SQL，主控件執行個體，以及已知的錯誤的服務帳戶建議
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-ms.assetid: 
+ms.assetid: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: cdca89c1a7a4ed3834103776f9f28c8631c5de0a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="troubleshoot-the-installation-and-see-the-known-install-issues"></a>安裝的疑難排解，並查看已知的安裝問題
 
@@ -89,7 +89,7 @@ BindingException: Could not validate TransportTypeData or Address properties for
   
  您可能會收到`Service Unavailable`錯誤時嘗試存取 BTARN HTTP 接收位置在 64 位元 Windows 作業系統上的。  
   
- **可能的原因**  
+ **原因**  
   
  這個問題可能是由 "RPCProxy.dll" ISAPI 篩選器所造成。  
   
@@ -103,7 +103,7 @@ BindingException: Could not validate TransportTypeData or Address properties for
   
 3.  重新啟動 IIS。  
   
-4.  重新啟動 IIS 後，請嘗試存取 http://localhost。 您應該會從網際網路瀏覽器收到 400 訊息。  
+4.  在您重新啟動 IIS 後，請再次嘗試存取http://localhost。 您應該會從網際網路瀏覽器收到 400 訊息。  
   
 ### <a name="sql-server-mixed-mode-not-supported"></a>不支援的 SQL Server 混合模式  
 BTARN 不支援 SQL Server 混合模式中。  

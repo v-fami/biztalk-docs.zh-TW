@@ -16,7 +16,7 @@ ms.openlocfilehash: 41d02fe0b7be1f53edaac4c18cfd7717a25c3a71
 ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="wcf-adapter-faq-using-wcf-services"></a>WCF 配接器 FAQ：使用 WCF 服務
 ## <a name="how-does-biztalk-server-use-its-wcf-adapters-to-access-wcf-services"></a>BizTalk Server 如何使用其 WCF 配接器存取 WCF 服務  

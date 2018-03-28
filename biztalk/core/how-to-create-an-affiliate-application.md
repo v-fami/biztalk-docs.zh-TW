@@ -1,26 +1,26 @@
 ---
-title: "如何建立分支機構應用程式 |Microsoft 文件"
-ms.custom: 
+title: 如何建立分支機構應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [SSO applications], creating
 - applications [SSO], creating
 - creating, applications [SSO]
 ms.assetid: d0967c4b-6201-416a-9d3a-23b5de5b83d6
-caps.latest.revision: "11"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: d2f621faef7694a3dba7885bab5641e0baa58e8f
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="how-to-create-an-affiliate-application"></a>如何建立分支機構應用程式
 您可以使用 MMC 嵌入式管理單元或此命令來建立一或多個應用程式，如 XML 檔案所指定。 Windows 初始化的 SSO 範例 XML 檔案如下：  
@@ -60,26 +60,26 @@ ms.lasthandoff: 11/28/2017
   
 ### <a name="to-create-an-affiliate-application-using-the-mmc-snap-in"></a>若要使用 MMC 嵌入式管理單元建立分支機構應用程式  
   
-1.  上**啟動**功能表上，按一下 **程式**，按一下  **Microsoft 企業單一登入**，然後按一下  **SSO 管理**。  
+1.  在 **啟動**  功能表上，按一下  **程式**, ，按一下  **Microsoft 企業單一登入**, ，然後按一下  **SSO 管理**。  
   
 2.  在 ENTSSO MMC 嵌入式管理單元的範圍窗格中，展開 **[企業單一登入]** 節點。  
   
-3.  以滑鼠右鍵按一下**分支機構應用程式**，然後按一下 **建立應用程式**。  
+3.  以滑鼠右鍵按一下 **分支機構應用程式**, ，然後按一下  **建立應用程式**。  
   
-4.  請依照下列中的指示**企業單一登入應用程式精靈**。  
+4.  依照 **企業單一登入應用程式精靈**。  
   
 ### <a name="to-create-an-affiliate-application-using-the-command-line"></a>使用命令列建立分支機構應用程式  
   
-1.  在**啟動**功能表上，按一下 **執行**，然後輸入**cmd**。  
+1.  在 **啟動** ] 功能表上，按一下 [ **執行**, ，然後輸入 **cmd**。  
   
 2.  在命令列，移至「企業單一登入」安裝目錄。 預設安裝目錄是*\<磁碟機\>*: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-3.  型別**ssomanage – createapps *\<應用程式檔案名稱\>***，其中*\<應用程式檔案名稱\>*是XML 檔案。  
+3.  型別 * * ssomanage – createapps *\<應用程式檔案名稱\>* * *，其中*\<應用程式檔案名稱\>*是 XML 檔案。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [SSO 分支機構應用程式](../core/sso-affiliate-applications.md)   
  [如何啟用分支機構應用程式](../core/how-to-enable-an-affiliate-application.md)   
  [如何刪除分支機構應用程式](../core/how-to-delete-an-affiliate-application.md)   

@@ -1,11 +1,11 @@
 ---
-title: "何謂持續性效能？ | Microsoft Docs"
-ms.custom: 
+title: 何謂持續性效能？ | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - reliability, sustainable performance
@@ -15,24 +15,24 @@ helpviewer_keywords:
 - performance, planning
 - sustainable performance
 ms.assetid: 4b18b976-7714-431f-8976-f40a1016d5f3
-caps.latest.revision: "11"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 276ce104d8667166d020b33b2f1fb4e7bfb98dbc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="what-is-sustainable-performance"></a>何謂持續性效能？
 在規劃和評估系統的持續性時，考慮長期持續性是很重要的。 主要考量為：  
   
--   **載入設定檔和效能目標**： 載入設定檔和效能目標時，不能有太多詳細資料。 測試與整備憑證將會以能夠長期處理這些負載為基礎。  
+-   **載入設定檔和效能目標**︰ 載入設定檔和效能目標時，不能有太多細節。 測試與整備憑證將會以能夠長期處理這些負載為基礎。  
   
--   **其他活動與程序競爭伺服器資源**： 它不是幾乎訊息負載。 伺服器上還有其他程序與活動，會影響像是資料庫維護與 MessageBox 查詢的效能。  
+-   **其他活動與競爭伺服器資源的處理程序**︰ 它不是只討論訊息負載。 伺服器上還有其他程序與活動，會影響像是資料庫維護與 MessageBox 查詢的效能。  
   
--   **規劃與未規劃的系統中斷與停機時間**： 大量事件與訊息待處理項目可以變更有效的負載設定檔。  
+-   **規劃與未規劃的系統中斷與停機時間**︰ 大量事件與訊息待處理項目可以變更有效的負載設定檔。  
   
  在考慮建置持續性系統及測試以認證這些系統時，請確定將這些因素納入考量並加以規劃。  
   
@@ -97,19 +97,19 @@ ms.lasthandoff: 09/20/2017
 #### <a name="a-performance-requirement-associated-with-the-performance-function"></a>與效能函式關聯的效能需求  
  繼續上述範例：  
   
--   **範例 1 （續）**： 系統對每個訊息，沒有特定的延遲需求，但它必須能夠處理此負載，加上載入的所有前一天的訊息 （例如發生 24 小時系統故障） 而不會有所落後。  
+-   **範例 1 （續）**︰ 系統沒有特定的延遲需求為每個訊息，但它必須能夠處理此負載，加上的所有前一天的訊息 （例如中斷 24 小時系統） 載入而不會有所落後。  
   
--   **範例 2 （續）**： 必須在 8 小時內完成處理批次中的所有訊息。  
+-   **範例 2 （續）**︰ 必須處理批次中的所有訊息，以便在 8 小時內完成。  
   
--   **範例 3 （續）**： 所有查詢都必須在 2 秒內傳回結果。  
+-   **範例 3 （續）**︰ 所有查詢都必須在 2 秒內傳回結果。  
   
 #### <a name="a-distribution-of-file-sizes-and-types"></a>檔案大小與類型的散佈  
   
--   **範例 1 （續）**： 有三種文件類型: 「 購物籃 」、 「 補貨 」 及 「 庫存要求。 「購物籃」文件的大小介於 2 到 10 KB 之間，並於任何指定時間中組成 75% 的訊息計數。 「補貨」與「庫存要求」文件的大小一律會接近 1 KB，並於任何指定時間中分別組成其餘 10% 與 15% 的訊息計數。  
+-   **範例 1 （續）**︰ 有三種文件類型: 「 購物籃 」、 「 補貨 」 及 「 庫存要求。 「購物籃」文件的大小介於 2 到 10 KB 之間，並於任何指定時間中組成 75% 的訊息計數。 「補貨」與「庫存要求」文件的大小一律會接近 1 KB，並於任何指定時間中分別組成其餘 10% 與 15% 的訊息計數。  
   
--   **範例 2 （續）**： 所有訊息都屬於相同類型，平均分散於 10 到 50 Kb （含) 之間。 此外，該批次一定包含 10 個目錄類型訊息，每個均為 10 MB，而且必須再分成個別的目錄項目才能處理。  
+-   **範例 2 （續）**︰ 所有訊息都屬於相同類型，平均分散於 10 kb 與 50 Kb，（含) 之間。 此外，該批次一定包含 10 個目錄類型訊息，每個均為 10 MB，而且必須再分成個別的目錄項目才能處理。  
   
--   **範例 3 （續）**： 所有查詢都是相同類型，平均分散於 500 到 1000 個位元組的大小，（含） 之間。  
+-   **範例 3 （續）**︰ 所有查詢都是相同的類型，平均分散於 500 到 1000 個位元組的大小 （含） 之間。  
   
 ## <a name="accounting-for-other-processes"></a>說明其他程序  
  除了直接透過 BizTalk 引擎傳送的負載設定檔之外，總是會有其他程序競爭相同硬體上的資源。  這些程序將降低系統之整體持續性效能的能力。 資料庫維護可能是這類程序的最常見範例。  
@@ -118,7 +118,7 @@ ms.lasthandoff: 09/20/2017
   
  下面是 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中通常對整體持續性最有影響的活動清單：  
   
--   **記錄傳送與備份**。 做為包含 SQL Server 之多數災害復原計劃的一部分，您必須定期對所有 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 群組資料庫執行記錄傳送與備份。 如需詳細資訊，請參閱[備份和還原 BizTalk Server 資料庫](../core/backing-up-and-restoring-biztalk-server-databases.md)。 另請參閱[記錄傳送](../core/log-shipping.md)。  
+-   **記錄傳送與備份**。 做為包含 SQL Server 之多數災害復原計劃的一部分，您必須定期對所有 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 群組資料庫執行記錄傳送與備份。 如需詳細資訊，請參閱 [備份和還原 BizTalk Server 資料庫](../core/backing-up-and-restoring-biztalk-server-databases.md)。 另請參閱[記錄傳送](../core/log-shipping.md)。  
   
 -   **封存和清除追蹤資料**。 除了整體記錄傳送與備份計劃，「 BizTalk 追蹤 (BizTalkDTADb) 資料庫有它自己的封存和清除區域;如需詳細資訊，請參閱[封存和清除 BizTalk 追蹤資料庫](../core/archiving-and-purging-the-biztalk-tracking-database.md)。 從 BizTalk 追蹤資料庫封存和清除資料的速度尤其重要，因為封存和清除 BizTalk 追蹤資料庫通常是使用追蹤時的瓶頸。  
   

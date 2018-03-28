@@ -1,11 +1,11 @@
 ---
-title: "考量發佈 WCF 服務使用 WCF 接收配接器 |Microsoft 文件"
-ms.custom: 
+title: 考量發佈 WCF 服務使用 WCF 接收配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - publishing, WCF services
@@ -14,15 +14,15 @@ helpviewer_keywords:
 - WCF services, publishing
 - best practices, WCF adapters
 ms.assetid: 797b7ffd-534c-4f09-9738-fb17b208bc96
-caps.latest.revision: "34"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 30175e7966d565306c45820f1a6c2e22e4611876
-ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="considerations-when-publishing-wcf-services-with-the-wcf-receive-adapters"></a>利用 WCF 接收配接器發佈 WCF 服務的考量
 本主題將提供您利用 WCF 接收配接器來發佈 WCF 服務時應該納入考量的相關資訊。  使用 WCF 配接器發佈服務後，WCF 用戶端將能夠把該服務當成一般 WCF 服務來呼叫。  
@@ -71,9 +71,9 @@ ms.lasthandoff: 01/17/2018
  WCF 配接器與 **內文--BizTalk 回應訊息內文** （預設值） 選項不允許傳送非 XML 訊息，例如字元資料和點陣圖影像。 您可以使用 **範本--由範本指定內容** WCF 配接器傳送非 XML 訊息的選項。 如需如何使用範本的詳細資訊，請參閱[指定 WCF 配接器的訊息本文](../core/specifying-the-message-body-for-the-wcf-adapters.md)。  
   
 ## <a name="setting-up-the-permissions-for-a-wcf-service-published-with-the-wcf-service-publishing-wizard"></a>設定透過 WCF 服務發佈精靈所發佈 WCF 服務的權限  
- 當使用 ASP.NET 應用程式上使用 WCF 服務發佈精靈建立[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]或[!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]平台，與 WCF 服務引動過程期間存取 Dll 可能會發生錯誤。 這些錯誤通常與預設的 [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] 和 [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] 安全性問題有關。 如需這些錯誤的詳細資訊，請參閱 Microsoft 說明及支援的發行項在說明及支援 」 網站上名為 「 您收到"System.IO.FileNotFoundException"錯誤時用戶端應用程式呼叫 Web 服務 」 [http://go.microsoft.com/fwlink/?LinkId=43659](http://go.microsoft.com/fwlink/?LinkId=43659)。  
+ 當使用 ASP.NET 應用程式上使用 WCF 服務發佈精靈建立[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]或[!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]平台，與 WCF 服務引動過程期間存取 Dll 可能會發生錯誤。 這些錯誤通常與預設的 [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] 和 [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] 安全性問題有關。 如需這些錯誤的詳細資訊，請參閱 Microsoft 說明及支援的發行項呼叫，會收到"System.IO.FileNotFoundException"錯誤時用戶端應用程式會呼叫 Web 服務 」 的 「 說明及支援 」 網站，網址[ http://go.microsoft.com/fwlink/?LinkId=43659](http://go.microsoft.com/fwlink/?LinkId=43659).  
   
- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]需要執行的 WCF 服務的程序授與適當的權限是否內含式主控件，或外掛式主控件執行服務。 在下[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]和[!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]外掛式主控件的預設 Windows 群組是外掛式主控件使用者群組，因此將權限加入外掛式主控件使用者群組應該解決此問題。  
+ [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 需要執行的 WCF 服務的程序授與適當的權限是否內含式主控件，或外掛式主控件執行服務。 在下[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]和[!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]外掛式主控件的預設 Windows 群組是外掛式主控件使用者群組，因此將權限加入外掛式主控件使用者群組應該解決此問題。  
   
 #### <a name="to-add-the-permissions-to-the-isolated-host-users-group"></a>若要加入外掛式主控件使用者群組的權限  
   
@@ -105,12 +105,12 @@ ms.lasthandoff: 01/17/2018
  如果您選取 **信封** 或 **主體** 選項，配接器無法建立 BizTalk 訊息的前一個內送訊息。 訊息不會遭擱置，因為輸入 SOAP 封送處理時失敗的訊息不會遭擱置。 如需有關如何使用內文路徑運算式上**訊息**索引標籤上，請參閱[指定 WCF 配接器的訊息本文](../core/specifying-the-message-body-for-the-wcf-adapters.md)。  
   
 > [!NOTE]
->  設定 BTSNTSvc.exe.config. 檔，即可使用 Windows SDK 內的 TraceViewer 工具 (SvcTraceViewer.exe)。 如需 Windows SDK 的詳細資訊，請參閱 「 什麼是 Windows SDK 中的 新增 」，在 [http://go.microsoft.com/fwlink/?LinkId=75219](http://go.microsoft.com/fwlink/?LinkId=75219)。 TraceViewer 工具的詳細資訊，請參閱 < TraceViewer 工具 (SvcTraceViewer.exe) >，網址 [http://go.microsoft.com/fwlink/?LinkId=75218](http://go.microsoft.com/fwlink/?LinkId=75218)。  
+>  設定 BTSNTSvc.exe.config. 檔，即可使用 Windows SDK 內的 TraceViewer 工具 (SvcTraceViewer.exe)。 如需 Windows SDK 的詳細資訊，請參閱 < 什麼是 Windows SDK 中的 新增 >，網址[ http://go.microsoft.com/fwlink/?LinkId=75219 ](http://go.microsoft.com/fwlink/?LinkId=75219)。 TraceViewer 工具的詳細資訊，請參閱 < TraceViewer 工具 (SvcTraceViewer.exe) >，網址[ http://go.microsoft.com/fwlink/?LinkId=75218 ](http://go.microsoft.com/fwlink/?LinkId=75218)。  
   
 ## <a name="using-schemas-that-reference-other-schemas"></a>使用參考其他結構描述的結構描述  
  您可以使用 **重新定義**, ，**包括**, ，和 **匯入** 項目時您的結構描述變大變複雜，或當代表您不同類型的執行個體訊息的結構描述的共通部分。 將較小的結構描述，組合成最後會定義打算用來與交易夥伴交換之執行個體訊息之結構的結構描述，是一種很有用的做法。 您可以使用「BizTalk WCF 服務發佈精靈」，將這些結構描述發佈為 WCF 服務。  
   
- 您應該使用「BizTalk WCF 服務使用精靈」，建立從 BizTalk 專案中使用 WCF 服務時所需要的 BizTalk 成品。 若要從 .NET 應用程式使用 WCF 服務，您應該要使用 ServiceModel Metadata Utility 工具 (Svcutil.exe)，建立該 WCF 服務適用的 Proxy 類別。 如需如何使用參考其他結構描述的結構描述的詳細資訊，請參閱[，使用其他結構描述](../core/schemas-that-use-other-schemas.md)和[如何建立可使用其他結構描述](../core/how-to-create-schemas-that-use-other-schemas.md)。 需 Svcutil.exe 的詳細資訊，請參閱 「 服務模型中繼資料公用程式工具 （Svcutil.exe) >，網址 [http://go.microsoft.com/fwlink/?LinkID=74696](http://go.microsoft.com/fwlink/?LinkID=74696)。  
+ 您應該使用「BizTalk WCF 服務使用精靈」，建立從 BizTalk 專案中使用 WCF 服務時所需要的 BizTalk 成品。 若要從 .NET 應用程式使用 WCF 服務，您應該要使用 ServiceModel Metadata Utility 工具 (Svcutil.exe)，建立該 WCF 服務適用的 Proxy 類別。 如需如何使用參考其他結構描述的結構描述的詳細資訊，請參閱[，使用其他結構描述](../core/schemas-that-use-other-schemas.md)和[如何建立可使用其他結構描述](../core/how-to-create-schemas-that-use-other-schemas.md)。 Svcutil.exe 的詳細資訊，請參閱 「 服務模型中繼資料公用程式工具 （Svcutil.exe) >，網址[ http://go.microsoft.com/fwlink/?LinkID=74696 ](http://go.microsoft.com/fwlink/?LinkID=74696)。  
   
  下表針對配合會應用到其他結構描述之結構描述所發佈的 WCF 服務，列出這類服務在使用時要注意到的限制和考量。  
   

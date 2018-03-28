@@ -17,7 +17,7 @@ ms.openlocfilehash: 742b695338d7038f830b823af720bd3048399473
 ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="glossary"></a>詞彙
 以下是「Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 說明」中所採用的詞彙及其定義。  

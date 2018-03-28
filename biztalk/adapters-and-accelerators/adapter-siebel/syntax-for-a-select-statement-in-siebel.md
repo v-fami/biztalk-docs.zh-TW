@@ -1,26 +1,26 @@
 ---
-title: "Siebel 中的 SELECT 陳述式的語法 |Microsoft 文件"
-ms.custom: 
+title: Siebel 中的 SELECT 陳述式的語法 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Data Provider for Siebel, searching and sorting data using
 - Data Provider for Siebel, SELECT statement
 - SELECT statement, syntax for
 ms.assetid: 8528b115-d6f3-420d-8617-0e56dc8922bf
-caps.latest.revision: "4"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: e3eeb0a6d4a1fceebe7e16b3f71566f848e4a20f
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="syntax-for-a-select-statement-in-siebel"></a>Siebel 中的 SELECT 陳述式的語法
 使用[!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]，ADO.NET 用戶端可以藉由指定 WHERE 子句，表示有效的 Siebel 搜尋規格在 Siebel 商務元件中執行 SELECT 查詢。 SELECT 陳述式的語法為：  
@@ -96,5 +96,5 @@ OPTION
   
 -   排序規格運算式必須是 255 個字元或更少。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [使用 .NET Framework Data Provider for Siebel eBusiness 應用程式](../../adapters-and-accelerators/adapter-siebel/use-the-net-framework-data-provider-for-siebel-ebusiness-applications.md)

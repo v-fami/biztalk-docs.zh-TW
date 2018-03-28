@@ -1,11 +1,11 @@
 ---
-title: "瀏覽、 搜尋及取得 Siebel 中繼資料 |Microsoft 文件"
-ms.custom: 
+title: 瀏覽、 搜尋及取得 Siebel 中繼資料 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - metadata, retrieving
@@ -16,15 +16,15 @@ helpviewer_keywords:
 - metadata, searching
 - searching, metadata
 ms.assetid: 48fc3bb1-b949-4b8d-ab62-a41cd8c2f0a0
-caps.latest.revision: "5"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: ef1ed7d74b4e69f56c53beda8273533bb6891a55
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="browse-search-and-get-siebel-metadata"></a>瀏覽、 搜尋及取得 Siebel 中繼資料
 [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]表面來自 Siebel 系統的說明與使用配接器的 Siebel 系統通訊的訊息結構的中繼資料。 [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]支援兩個介面來擷取中繼資料。  
@@ -72,4 +72,4 @@ ms.lasthandoff: 09/20/2017
  如需有關擷取的中繼資料的詳細資訊，請參閱[取得 Visual Studio 中的 Siebel 作業的中繼資料](../../adapters-and-accelerators/adapter-siebel/get-metadata-for-siebel-operations-in-visual-studio.md)。  
   
 ## <a name="see-also"></a>另請參閱  
- [BizTalk Adapter for Siebel eBusiness 應用程式中的概觀](../../adapters-and-accelerators/adapter-siebel/overview-of-biztalk-adapter-for-siebel-ebusiness-applications.md)
+ [BizTalk Adapter for Siebel eBusiness Applications 概觀](../../adapters-and-accelerators/adapter-siebel/overview-of-biztalk-adapter-for-siebel-ebusiness-applications.md)

@@ -1,25 +1,25 @@
 ---
-title: "任意 XPath 屬性處理常式 （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: 任意 XPath 屬性處理常式 （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components [custom], examples
 - examples, pipeline components [custom]
 ms.assetid: 4eb26c38-5ece-42b0-a28e-73214df1dc41
-caps.latest.revision: "14"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 3f2f59ce48a3d46ebf33889e31a55f9aa452fd17
-ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="arbitrary-xpath-property-handler-biztalk-server-sample"></a>任意 XPath 屬性處理常式 （BizTalk Server 範例）
 「任意 XPath 屬性處理常式」([!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 範例) 示範如何撰寫自訂管線元件，以針對提交給 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的 XML 文件升級特定屬性。 您可以使用範例中包含的功能來建立自訂規則、組合器和解譯器元件，以評估 XPath 運算式。  
@@ -118,7 +118,7 @@ ms.lasthandoff: 01/17/2018
 2.  檢視 \Output 目錄中的內容。 請注意，這時會建立新的檔案，其中包含您先前複製到 \Input 目錄之 DocInstance.xml 檔案的所有資訊。 在檔案中的差異在於現在\<TotalAmount\>項目已填入了 po 的總容量。  
   
 ## <a name="comments"></a>註解  
- 標準 XPath 運算式是簡單運算式，例如"/ * [local-name =' 項目名稱 'and = 'http://MyUri.org'] /\*[local-name =' 項目名稱'] / @\*[區域名稱 =' 屬性名稱 ']"。  
+ 標準 XPath 運算式是簡單運算式，例如"/ * [local-name =' 項目名稱 'and ='http://MyUri.org'] /\*[local-name =' 項目名稱 '] / @\*[區域名稱 =' 屬性名稱']"。  
   
  任意 XPath 運算式則可以複雜如 "//element-name//*[local-name()='element-name' and position()=2]"。 事實上，如果您的結構描述在 XPath 主體或 XPath 屬性中使用非標準 XPath，便會收到執行階段錯誤，指出 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 不支援非標準 XPath 運算式。 要支援任意 XPath 運算式，解決方法是建立自訂解譯器和組合器元件，以支援任意 XPath 主體和任意 XPath 屬性運算式。  
   

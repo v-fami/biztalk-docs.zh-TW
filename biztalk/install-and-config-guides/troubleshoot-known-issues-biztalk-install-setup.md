@@ -1,23 +1,23 @@
 ---
-title: "已知的安裝問題 |Microsoft 文件"
-description: "已知的問題和常見問題與安裝和設定 BizTalk Server 時的解決方式"
-ms.custom: 
+title: 已知的安裝問題 |Microsoft 文件
+description: 已知的問題和常見問題與安裝和設定 BizTalk Server 時的解決方式
+ms.custom: ''
 ms.date: 11/30/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e4d0e707-6b9e-49e1-9f17-19b3bac1229e
-caps.latest.revision: "27"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 90217a4e80df6f017b451dd7c40f6a1dfe3898ac
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="troubleshoot-biztalk-server-setup"></a>疑難排解 BizTalk Server 安裝程式
 
@@ -32,13 +32,13 @@ ms.lasthandoff: 12/01/2017
 1. 安裝先決條件軟體和程式：
 
     * [BizTalk Server 2016](set-up-and-install-prerequisites-for-biztalk-server-2016.md)
-    * [BizTalk Server 2013 R2 與 2013](prepare-your-computer-for-installation.md)
+    * [BizTalk Server 2013 R2 & 2013](prepare-your-computer-for-installation.md)
 
 2. 安裝和設定 BizTalk Server:  
 
     1. 安裝 BizTalk Server: [BizTalk 2016](install-biztalk-server-2016.md) ， [BizTalk 2013 R2 / 2013年](install-biztalk-server-2013-and-2013-r2.md)  
     2. [設定](configure-biztalk-server.md)BizTalk Server
-    3. [組態後步驟](post-configuration-steps-to-optimize-your-environment.md)
+    3. [設定的後續作業步驟](post-configuration-steps-to-optimize-your-environment.md)
   
 ## <a name="some-edias2-artifacts-are-still-active-after-unconfiguring"></a>取消設定後一些 EDI/AS2 成品仍然使用中  
   
@@ -133,7 +133,7 @@ Function: FieldInfoCreate
 **問題**   
  當防毒軟體錯誤判斷組態程式為病毒時，BizTalk Server 組態就會失敗。  
   
-**可能的原因**  
+**原因**  
  包含 BizTalk Server 組態程式當做合法 （非病毒） 程式尚未更新防毒軟體。  
   
 **解決方式**  
@@ -146,7 +146,7 @@ Function: FieldInfoCreate
   
  無法部署 BizTalk 系統組件"C:\Program Files\Microsoft\BizTalk Server 20xx\Microsoft.BizTalk.DefaultPipelines.dll。 未指定例外狀況： 找不到檔案或組件名稱 FileName.dll，或其相依性的其中一個。 」  
   
-**可能的原因**  
+**原因**  
  如果網路服務帳戶未具備執行 BizTalk Server 的電腦上的暫存資料夾寫入權限，就會發生此錯誤。 在設定期間，BizTalk Server 組態會使用 Windows Management Instrumentation (WMI)，將.NET 組件部署至 BizTalk 管理資料庫。 WMI 會模擬 Network Service 帳戶同時將這些組件部署到 BizTalk 管理資料庫，因此網路服務帳戶必須具有寫入存取權執行 BizTalk Server 的電腦上的暫存資料夾。  
   
 **解決方式**  
@@ -169,7 +169,7 @@ Cannot open database requested in login 'BAMPrimaryImport'
 Logon fails. Logon failed for user '*BizTalk\BizTalkUser*'  
 ```
   
-**可能的原因**  
+**原因**  
  會發生此錯誤，如果.mdf 檔案或.ldf 檔案已經存在具有相同名稱的.mdf 檔案或.ldf 檔案的 BizTalk Server 組態程式嘗試建立的 SQL Server 執行電腦的 \MSSQL\data 資料夾中。 針對資料庫所建立的.mdf 檔案和.ldf 檔案的名稱被衍生自指定了.mdf 和.ldf 副檔名附加 「 BizTalk Server 組態 」 程式中的資料庫名稱。  
   
 **解決方式**  
@@ -184,7 +184,7 @@ Logon fails. Logon failed for user '*BizTalk\BizTalkUser*'
 **問題**  
  當網域控制站上執行 BizTalk Server 組態程式，組態就會失敗 biztalkserverapplication 主控件或 BizTalkIsolatedHost 主機如果指定的本機群組 （例如，BizTalk 主控件使用者群組）。  
   
-**可能的原因**  
+**原因**  
  網域控制站會自動將本機 Windows 群組視為網域 Windows 群組 (也就是說，網域控制站上不會有本機 Windows 群組)。 如果您指定主機的本機 Windows 群組組態程式執行時，設定會在嘗試建立 SQL Server 登入群組時失敗。 當伺服器是網域控制站時，組態程式不會停用本機 Windows 群組選項。  
   
 **解決方式**  
@@ -209,7 +209,7 @@ Logon fails. Logon failed for user '*BizTalk\BizTalkUser*'
  connected to the server on which the file resides.  
 ```
   
-**可能的原因**  
+**原因**  
  組態程式無法判斷安裝 SQL Server Analysis Server 之電腦的新名稱。  
   
 **解決方式**  
@@ -217,24 +217,24 @@ Logon fails. Logon failed for user '*BizTalk\BizTalkUser*'
   
 1.  SQL Server 上開啟**Microsoft SQL Server**，選取**Analysis Services**，然後按一下  **Analysis Manager**。  
   
-2.  在**Analysis Manager**導覽面板中按兩下**Analysis Servers**節點來展開它。  
+2.  在 **分析管理員** 導覽面板中按兩下 **Analysis Server** 節點來展開它。  
   
-3.  以滑鼠右鍵按一下您想要編輯，然後選取 儲存機制連線字串伺服器**編輯儲存機制連線字串**。  
+3.  以滑鼠右鍵按一下您想要編輯，然後選取的儲存機制連接字串伺服器 **編輯儲存機制連接字串**。  
   
-4.  在**編輯儲存機制連線字串**對話方塊，確認伺服器名稱，這個字串中的，將其更新為新的電腦名稱是否正確。  
+4.  在 **編輯儲存機制連接字串**  對話方塊，確認這個字串中的伺服器名稱，其更新為新的電腦名稱，如果密碼不正確。  
   
-5.  瀏覽至下列位置： <*安裝目錄*> \Program Files\Microsoft Analysis Services\Bin。  
+5.  瀏覽至下列位置︰ <*安裝目錄*> files\microsoft Analysis Services\Bin。  
   
-6.  以滑鼠右鍵按一下**Bin**資料夾，然後再按一下**共用和安全性**。 **Bin 屬性** 對話方塊隨即出現。  
+6.  以滑鼠右鍵按一下 **Bin** 資料夾，然後再按一下 **共用和安全性**。 **紙匣內容**  對話方塊隨即出現。  
   
-7.  在**Bin 屬性**對話方塊中，按一下 **共用**索引標籤，以確認所有的線上分析處理 (OLAP) 系統管理員具有完整權限，此資料夾。  
+7.  在 **紙匣內容** 對話方塊中，按一下  **共用** 標籤，確認所有的線上分析處理 (OLAP) 系統管理員具有完整權限，此資料夾。  
   
 ### <a name="artifacts-disappear-from-configuration-database-on-redeployment-of-assemblies-from-visual-studio"></a>重新部署組件從 Visual Studio 的成品會消失從組態資料庫  
   
 **問題**  
  當 BizTalk Server 專案上重新部署專案內的層級 Visual Studio 中，參考重新部署專案，將會消失，重新整理 BizTalk Server MMC 時出現在專案內所包含的所有成品。  
   
-**可能的原因**  
+**原因**  
  為了說明這個問題的原因，假設以下範例是根據範例 BizTalk Server 解決方案，而使用者想要在其中重新部署 Maps 專案。 請注意，編譯專案會產生個別的組件。 下圖指示使用者執行重新部署之前的解決方案狀態， 成品之間的關係如下：  
   
 -   Orch1、Orch2、Maps、Pipelines 和 Schemas 都是專案。  
@@ -251,39 +251,39 @@ Logon fails. Logon failed for user '*BizTalk\BizTalkUser*'
   
 ![bcd_BizTalkSolutionWLostArtifactsc](../install-and-config-guides/media/bcd_BizTalkSolutionWLostArtifactsc.gif)  
   
- 重新部署 Maps 是一個兩個步驟的程序，要先解除部署目前已部署的 Maps.dll 組件，然後部署新的 Maps.dll 檔案。 Visual Studio 重新部署程序的一部分，請以自動執行這些步驟。  
+ 重新部署 Maps 是一個兩個步驟的程序，要先解除部署目前已部署的 Maps.dll 組件，然後部署新的 Maps.dll 檔案。 Visual Studio 會自動執行下列步驟重新部署程序的一部分。  
   
 > [!NOTE]
 >  上一個句子嚴格來說並不正確，因為 Visual Studio 一定會執行這些步驟，所以它不會意識到這是適當的作法。  
   
  重點，是為了要解除部署 BizTalk Server 組件，Visual Studio 解除部署所有組件相依於該組件包含設定部署旗標。 在這個範例中，若要執行重新部署的第一個解除部署步驟，BizTalk Server 需要解除部署 Orch1.dll (它相依於 Maps.dll)。 在 解除部署 maps.dll 時，Visual Studio 也會解除部署 Schemas.dll （假設它已設定部署旗標）。 為了要解除部署 Schemas.dll，Visual Studio 需要解除部署 Orch2.dll 和 Pipelines.dll (這兩者都相依於 Schemas.dll)。  
   
- 有問題存在，Visual Studio 重新部署，只有 Maps.dll 和它所依據的組件： 在此情況下，Schemas.dll。 讓使用者重新整理 BizTalk Server MMC 時，Orch1、 Orch2 和 Pipeline 組件似乎已消失，但是 Maps.dll 和 Schemas.dll 仍然可見。  
+ 有問題存在，Visual Studio 重新部署，只有 Maps.dll 和它所依據的組件： 在此情況下，Schemas.dll。 因此當使用者重新整理 BizTalk Server MMC 時，Orch1、 Orch2 和 Pipeline 組件似乎消失了，但 Maps.dll 和 Schemas.dll 仍然可見。  
   
 **解決方式**  
  如果是主要專案 (它會參考其他專案)，請執行以下作業：  
   
 1.  在 [方案總管] 中，以滑鼠右鍵按一下方案節點。  
   
-2.  按一下**屬性**開啟**方案屬性頁** 對話方塊。  
+2.  按一下  **屬性** 開啟 **方案屬性頁** 對話方塊。  
   
-3.  按一下**組態屬性**，然後按一下 **組態**。  
+3.  按一下  **組態屬性**, ，然後按一下  **組態**。  
   
-4.  清除**部署**參考之專案的核取方塊。  
+4.  清除 **部署** 參考之專案的核取方塊。  
   
-5.  在 [方案總管] 中，執行新的方案層級部署。 若要這樣做，以滑鼠右鍵按一下方案節點，然後按一下 **部署方案**。  
+5.  在 [方案總管] 中，執行新的方案層級部署。 若要這樣做，請以滑鼠右鍵按一下方案節點，然後按一下  **部署方案**。  
   
 ### <a name="supported-virtual-directory-types"></a>支援的虛擬目錄類型  
- 匯出作業時參考 Web 服務從協調流程，並嘗試進行 MSI 匯出，將會成功，相關聯的虛擬目錄為型別時，才**IIsWebVirtualDir**或**IIsWebDirectory**. **IIsWebVirtualDir**和**IIsWebDirectory**會出現在 IIS metabase 中的節點型別。 **IIsWebVirtualDir**是使用的虛擬目錄**路徑**指向絕對檔案資料夾的屬性。 **IIsWebDirectory**而不是虛擬目錄**路徑**屬性，因此是指相對檔案資料夾，通常是另一個子資料夾**IIsWebVirtualDir**或**IIsWebDirectory**節點。 在 Metabase 階層中，經常會看到用來描述資料夾的這兩個類型。  
+ 匯出作業時參考 Web 服務從協調流程，並嘗試進行 MSI 匯出時，將會成功相關聯的虛擬目錄都屬於型別時，才 **IIsWebVirtualDir** 或 **IIsWebDirectory**。 **IIsWebVirtualDir** 和 **IIsWebDirectory** 出現在 IIS metabase 中的節點型別。 **IIsWebVirtualDir** 是使用的虛擬目錄 **路徑** 指向絕對檔案資料夾的屬性。 **IIsWebDirectory** 而不是虛擬目錄 **路徑** 屬性，並因此參考相對檔案資料夾，通常是另一個子資料夾 **IIsWebVirtualDir** 或 **IIsWebDirectory** 節點。 在 Metabase 階層中，經常會看到用來描述資料夾的這兩個類型。  
   
- 類型的虛擬目錄**IIsConfigObject**不支援 MSI 匯出會在此情況下失敗。 **IIsConfigObject**非預期的 metabase 節點類型可以是 BizTalk Server 未適當處理的有效節點類型，或未適當建立的 （並因此它是無效的） metabase 項目的指示。 在此情況下，BizTalk Server 將會顯示類似下列的錯誤訊息： 類型 IIsConfigObject 的未預期的目錄項目"Iis: //lm/w3svc/1/root/badvdir/"。  
+ 類型的虛擬目錄 **IIsConfigObject** 不支援的 MSI 匯出會在此情況下失敗。 **IIsConfigObject** 的非預期的 metabase 節點類型，而 BizTalk Server 未適當處理可能是無效節點型別或未適當建立 （並因此無效） metabase 項目表示。 在此情況下，BizTalk Server 將會顯示如下所示的錯誤訊息︰ 類型 IIsConfigObject 的未預期的目錄項目"IIS://LM/W3SVC/1/ROOT/BadVdir/"。  
   
 ### <a name="unable-to-view-group-information-after-removing-stale-logons"></a>在移除過時的登入之後，無法檢視群組資訊  
   
 **問題**  
  如果在組態進行期間，您發現了過時的登入並將它刪除，您可能就無法檢視群組資訊。  
   
-**可能的原因**  
+**原因**  
  這是已知的組態問題。  
   
 **解決方式**  
@@ -294,7 +294,7 @@ Logon fails. Logon failed for user '*BizTalk\BizTalkUser*'
 **問題**  
  當您變更執行 BizTalk Server 的電腦上的電腦名稱，而且您重新啟動 （） 將電腦重新開機，錯誤訊息可能會發生。  
   
-**可能的原因**  
+**原因**  
  SQL Server 不支援變更電腦名稱，因此 BizTalk Server 不支援 BizTalk Server 會安裝和設定後變更電腦名稱。  
   
 **解決方式**  
@@ -308,7 +308,7 @@ Logon fails. Logon failed for user '*BizTalk\BizTalkUser*'
 **問題**  
  ENTSSO 服務無法啟動。  
   
-**可能的原因**  
+**原因**  
  如果 ENTSSO 服務不是以有效的 SSO 系統管理員帳戶執行，便無法啟動。  
   
 **解決方式**  
@@ -319,7 +319,7 @@ Logon fails. Logon failed for user '*BizTalk\BizTalkUser*'
 **問題**  
  BTSSvc$BizTalkServerApplication 相依於企業單一登入服務 (ENTSSO)，重新開機後可能會在啟動時發生逾時。  
   
-**可能的原因**  
+**原因**  
  企業單一登入服務可能需要約 3 分鐘的時間才能啟動。  
   
 **解決方式**  
@@ -330,7 +330,7 @@ Logon fails. Logon failed for user '*BizTalk\BizTalkUser*'
 **問題**  
  如果與分支機構應用程式相關聯的應用程式系統管理員帳戶無效，企業單一登入服務就會停用該分支機構應用程式。  
   
-**可能的原因**  
+**原因**  
  SSO 應用程式系統管理員帳戶無效。  
   
 **解決方式**  
@@ -341,7 +341,7 @@ Logon fails. Logon failed for user '*BizTalk\BizTalkUser*'
 **問題**  
  當您執行命令，例如**ssomanage-displayapp** *< applicationname\>*，其中電腦嘗試連線到遠端 SSO 伺服器以擷取資訊，您會收到下列錯誤： 錯誤： 0x800706BA: RPC 伺服器不存在。  
   
-**可能的原因**  
+**原因**  
  當您指定錯誤的伺服器資訊，或無法使用遠端伺服器上的 SSO 服務時，就會發生這個錯誤。  
   
 **解決方式**  
@@ -367,7 +367,7 @@ Severity=Error
 SSO_ERROR_SECRETS_NOT_LOADED  
 ```
 
-**可能的原因**  
+**原因**  
  如果密碼是在企業單一登入服務 (SSO) 使用某個服務帳戶執行時產生，但後來服務帳戶發生變更，就有可能發生這個問題。 此密碼是以加密的形式儲存在登錄中，加密時則是使用依據服務帳戶 (用來執行 ENTSSO 者) 的識別所產生的金鑰。  
   
 **解決方式**  
@@ -454,7 +454,7 @@ SSO_ERROR_SECRETS_NOT_LOADED
 |RBKRegsvcsSQLAdapter|執行給定二進位 regsvcs.exe。|  
 |RestoreBTSCounters|還原效能計數器.ini 檔案名稱與屬性。|  
 |RollbackBTSCounters|執行命令 unlodctr BTSSvc.3.0。|  
-|RollbackRegsvcsApplicationDeployment|設定 [FrameworkPath] &#124;[INSTALLDIR]Microsoft.BizTalk.ApplicationDeployment.Engine.dll 失敗的安裝案例。|  
+|RollbackRegsvcsApplicationDeployment|設定 [FrameworkPath]&#124;[INSTALLDIR]Microsoft.BizTalk.ApplicationDeployment.Engine.dll 失敗的安裝案例。|  
 |RollbackRegsvcsDeployment|在解除安裝/rollback 案例來叫用 regsvcs.exe。|  
 |WMI_Restore_MSBTS_Silent|呼叫 mofcomp 註冊 WMI 結構描述|  
 |WMI_Rollback_MSBTS|從 WMI 移除 BizTalk Server 的命名空間。|  
@@ -468,7 +468,7 @@ SSO_ERROR_SECRETS_NOT_LOADED
   
 |資料夾路徑|檔案名稱|使用者權限|  
 |-----------------|---------------|---------------------|  
-|\Program 檔案 (x86) \common shared\Help 9\Microsoft Document Explorer 2008|Install.exe|高可用權限|  
+|\Program Files (x86)\Common Files\Microsoft shared\Help 9\Microsoft Document Explorer 2008|Install.exe|高可用權限|  
 |\Program files (x86) \Microsoft BizTalk Server*您的版本*|BTSHatApp.exe|高可用權限|  
 |\Program files (x86) \Microsoft BizTalk Server*您的版本*|BTSMMCLauncher.exe|高可用權限|  
 |\Program files (x86) \Microsoft BizTalk Server*您的版本*|BtsWcfServicePublishingWizard.exe|高可用權限|  
@@ -477,6 +477,6 @@ SSO_ERROR_SECRETS_NOT_LOADED
 |\Program files (x86) \Microsoft BizTalk Server*您的版本*|REDeployWiz.exe|高可用權限|  
 |\Program files (x86) \Microsoft BizTalk Server*您的版本*|Setup.exe|系統管理權限|  
 |\Program files (x86) \Microsoft BizTalk Server*版本*\XSD Schema\EDI|MicrosoftEdiXSDTemplates.exe|自我解壓縮 .exe 檔案。|  
-|\Program 檔案 (x86) \Microsoft UDDI Services\config|組態 .exe|系統管理權限|  
-|Files\ Microsoft BizTalk RFID\bin|BTSMMCLauncher.exe|高可用權限|  
-|\Program Files\Microsoft BizTalk rfid\breconfiguration|組態 .exe|系統管理權限|  
+|\Program Files (x86)\Microsoft UDDI Services\config|組態 .exe|系統管理權限|  
+|\Program Files\ Microsoft BizTalk RFID\bin|BTSMMCLauncher.exe|高可用權限|  
+|\Program Files\Microsoft BizTalk RFID\BREConfi guration|組態 .exe|系統管理權限|  

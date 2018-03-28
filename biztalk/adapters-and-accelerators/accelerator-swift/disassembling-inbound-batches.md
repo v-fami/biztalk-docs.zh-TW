@@ -1,23 +1,23 @@
 ---
-title: "反組譯 SWIFT 與輸入批次 |Microsoft 文件"
-description: "Debatch 輸入的訊息，並自訂結構描述的批次在 BizTalk Server 中使用 SWIFT 加速器"
-ms.custom: 
+title: 反組譯 SWIFT 與輸入批次 |Microsoft 文件
+description: Debatch 輸入的訊息，並自訂結構描述的批次在 BizTalk Server 中使用 SWIFT 加速器
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 11cb5672-1155-4648-b1fd-c9a3bc30e351
-caps.latest.revision: "5"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 4f14a199e3422a45235727d2d16fc1464e2e4927
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="disassemble-inbound-batches"></a>反組譯輸入批次
 

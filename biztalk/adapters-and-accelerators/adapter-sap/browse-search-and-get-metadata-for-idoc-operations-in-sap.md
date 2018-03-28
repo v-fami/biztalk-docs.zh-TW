@@ -1,11 +1,11 @@
 ---
-title: "瀏覽、 搜尋，並取得中繼資料中 SAP IDOC 作業的 |Microsoft 文件"
-ms.custom: 
+title: 瀏覽、 搜尋，並取得中繼資料中 SAP IDOC 作業的 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF client, generating for IDOC operations
@@ -16,15 +16,15 @@ helpviewer_keywords:
 - IDOC operations, generating schema for
 - IDOC operations
 ms.assetid: 44d05129-ce06-4a10-bf28-9d3519a02a7a
-caps.latest.revision: "13"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: b4c82ecf945e85c8e4c9b5f365c808598fcbbf3a
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="browse-search-and-get-metadata-for-idoc-operations-in-sap"></a>瀏覽、 搜尋和 sap IDOC 作業取得中繼資料
 本節提供有關如何瀏覽、 搜尋，以及擷取中繼資料從 SAP IDOC 作業使用的指示[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]， [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]，或[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]。 大部分的指示會針對所有三種使用者介面相同。 只要適用的話，個別的程序提供相關的使用者介面。  
@@ -185,5 +185,5 @@ ms.lasthandoff: 11/28/2017
   
 5.  按一下 **[確定]**。 [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] WCF 用戶端類別 （或 WCF 服務介面） 會將儲存和協助程式程式碼的作業和專案目錄中所選取的類別。 根據預設，也會儲存組態檔。 輸入和輸出作業; 產生稍有不同的檔案如需詳細資訊，請參閱[產生 WCF 用戶端或 WCF 服務合約的 SAP 方案成品](../../adapters-and-accelerators/adapter-sap/generate-a-wcf-client-or-a-wcf-service-contract-for-sap-solution-artifacts.md)。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [在 Visual Studio 中取得 SAP 作業的中繼資料](../../adapters-and-accelerators/adapter-sap/get-metadata-for-sap-operations-in-visual-studio.md)

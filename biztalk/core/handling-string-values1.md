@@ -1,11 +1,11 @@
 ---
-title: "處理字串 Values1 |Microsoft 文件"
-ms.custom: 
+title: 處理字串 Values1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - jdearglist.txt, configuring strings
@@ -13,15 +13,15 @@ helpviewer_keywords:
 - strings, configuring
 - strings, right-justified
 ms.assetid: a180b818-1009-45f5-a503-d10ed7dd27fc
-caps.latest.revision: "6"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 6f32b29b9a8688fe8402730c1db8f12e42a67bab
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="handling-string-values"></a>處理字串值
 此主題說明如何將一些字串引數設定為靠右對齊 (填補左方)。  
@@ -29,7 +29,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="types-of-string-values"></a>字串值的類型  
  JD Edwards OneWorld 會透過其互通性層公開兩種字串值：  
   
--   Char： 單一字元  
+-   單一字元的字元︰  
   
 -   最大長度字串  
   
@@ -47,15 +47,15 @@ ms.lasthandoff: 09/20/2017
  利用空白填補至長度 40。 您不需要輸入填補字元，因為 Microsoft BizTalk Adapter for JD Edwards OneWorld 會自動為您填入。 您只需要在用戶端程式碼中輸入 "4567 Main St." 即可。  
   
 ### <a name="right-justified-values"></a>靠右對齊的值  
- 對於此型別的某些值，JD Edwards OneWorld 會預期靠右對齊且向左填補的值。 例如，對於 B4200310 來源模組中的商務函式，引數 szBusinessUnit 是長度為 12。 這個引數代表一個工廠，例如生產設備。 如果工廠編號為 30，J.D. Edwards OneWorld XE 預期的值：  
+ 對於此型別的某些值，JD Edwards OneWorld 會預期靠右對齊且向左填補的值。 例如，對於 B4200310 來源模組中的商務函式，引數 szBusinessUnit 是長度為 12。 這個引數代表一個工廠，例如生產設備。 如果工廠編號為 30，J.D. Edwards OneWorld XE 預期的值︰  
   
  "          30"  
   
- 若要輸入值，將會靠右對齊，您必須輸入參數呼叫 jdearglist.txt 檔案中。 當您產生結構描述時，會讀取 jdearglist.txt。 此文字檔中所列的值都會自動轉換為靠右對齊、並在左邊填滿空格的值。  
+ 輸入會靠右對齊的值，您必須在稱為 jdearglist.txt 檔案中輸入參數。 當您產生結構描述，會讀取 jdearglist.txt。 此文字檔中所列的值都會自動轉換為靠右對齊、並在左邊填滿空格的值。  
   
- 您必須建立 jdearglist.txt 使用文字編輯器 中，項目會描述這些參數，並將它儲存在下列資料夾： %BizTalk_Install_Adapter%\config\JDE\  
+ 您必須建立 jdearglist.txt 使用文字編輯器 中，項目會描述這些參數，並將它儲存在下列資料夾︰ %BizTalk_Install_Adapter%\config\JDE\  
   
- 其中**%biztalk_install_adapter**是您安裝 BizTalk Adapter for JD Edwards OneWorld 的目錄。  
+ 其中 **%biztalk_install_adapter%** 是您安裝 BizTalk Adapter for JD Edwards OneWorld 的目錄。  
   
  如果這個檔案不存在或內容空白，則 BizTalk Adapter for JD Edwards OneWorld 記錄檔中就會在配接器第一次開啟時出現一則資訊訊息。  
   
@@ -87,4 +87,4 @@ B4200310.*.szBusinessUnit
   
 ## <a name="see-also"></a>另請參閱  
  [在 Jdearglist 中設定字串左右對齊](../core/setting-string-justification-in-jdearglist.md)   
- [附錄 a： 資料類型](../core/appendix-a-data-types.md)
+ [附錄 A：資料類型](../core/appendix-a-data-types.md)

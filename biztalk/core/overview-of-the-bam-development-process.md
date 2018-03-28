@@ -1,22 +1,22 @@
 ---
-title: "BAM 開發程序的概觀 |Microsoft 文件"
-ms.custom: 
+title: BAM 開發程序的概觀 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 098db3f6-2a61-4cc8-88c7-2299c2e2a55e
-caps.latest.revision: "14"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 78ae5f1c61f2a00359e88acd75c093e2b6c2fb91
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="overview-of-the-bam-development-process"></a>BAM 開發程序概觀
 本主題描述開發程序和用來存放 BAM 資料的資料庫與資料表。  
@@ -48,7 +48,7 @@ ms.lasthandoff: 11/28/2017
 1.  使用 Excel 的 BAM 增益集建立 BAM 觀察模型。  
   
     > [!NOTE]
-    >  可以在 BAM API （BizTalk Server 範例） 中找到此程序中所述的步驟的範例[http://go.microsoft.com/fwlink/?LinkId=69968](http://go.microsoft.com/fwlink/?LinkId=69968)。  
+    >  可以在 BAM API （BizTalk Server 範例） 中找到此程序中所述的步驟的範例[ http://go.microsoft.com/fwlink/?LinkId=69968 ](http://go.microsoft.com/fwlink/?LinkId=69968)。  
   
 2.  使用 BAM 管理公用程式，將活動部署至 PID。  
   
@@ -60,7 +60,7 @@ ms.lasthandoff: 11/28/2017
   
     -   更新記錄中的資料項目。  
   
-    -   結束活動並將記錄移到 BAM_\<*活動名稱**\>_completed 資料表。  
+    -   結束活動並將記錄移到 BAM_\<* 活動名稱 * *\>_completed 資料表。  
   
 ## <a name="where-bam-data-is-stored"></a>儲存 BAM 資料的位置  
  BAM 提供 EventObservation 命名空間，其中包含可用來處理 BAM 事件的 EventStream 類別。  

@@ -1,22 +1,22 @@
 ---
-title: "升級至 BizTalk Server 2016 |Microsoft 文件"
-ms.custom: 
+title: 升級至 BizTalk Server 2016 |Microsoft 文件
+ms.custom: ''
 ms.prod: biztalk-server
 ms.date: 06/08/2017
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 975ec82b-ed27-4545-8e4a-0e567507c9ba
-caps.latest.revision: "2"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 39b5b6b6da7d97d3c763e5f45f215aa03d13c77c
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="upgrade-to-biztalk-server-2016"></a>升級到 BizTalk Server 2016
 從 [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)] 或 BizTalk Server 2013 升級至 [!INCLUDE[bts2016_md](../includes/bts2016-md.md)]。
@@ -244,7 +244,7 @@ ms.lasthandoff: 11/28/2017
 1. 關閉所有開啟的程式。
 2. 從安裝媒體執行 **Setup.exe**。
 3. 在 [開始] 功能表中，選取 [安裝 Microsoft BizTalk Server]。
-4. 在 [客戶資訊] 輸入您的使用者名稱、組織以及產品金鑰。 選取 [下一步]。
+4. 在 [客戶資訊] 輸入您的使用者名稱、組織以及產品金鑰。 選取 **[下一步]**。
 5. 接受授權合約，然後選取 [下一步]。
 6. 在客戶經驗改進計畫中輸入您的喜好設定。 請參閱本主題中的**附錄 A** 以取得相關資訊。
 7. 在 [元件安裝] 檢閱可用的元件，然後選取 [下一步]。

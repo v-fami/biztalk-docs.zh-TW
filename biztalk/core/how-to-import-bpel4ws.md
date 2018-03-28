@@ -21,7 +21,7 @@ ms.openlocfilehash: 7b32a0044321ce6ac57d7bd49c14b40ba17430db
 ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="how-to-import-bpel4ws"></a>如何匯入 BPEL4WS
 您可以從現有的 BPEL4WS 匯入，以建立協調流程。  
@@ -59,7 +59,7 @@ ms.lasthandoff: 03/23/2018
   
      如果您匯入非標準 XPath，可以移除升級，並保持在結構描述編輯器建立正確的標準 XPath repromote 的相同欄位。  
   
-     範例：(targetNamespace = http://BizTalk_Server_Project3.Schema1)  
+     範例: (targetNamespace = http://BizTalk_Server_Project3.Schema1)  
   
     ```  
     <element name=Root type=complexType>  
@@ -69,7 +69,7 @@ ms.lasthandoff: 03/23/2018
     </element>  
     ```  
   
-     XPath 為 / * [local-name = 'Root' and namespace-uri （) = 'http://BizTalk_Server_Project3.Schema1'] /\*[local-name = 'promotedField' and namespace-uri （) = ']  
+     XPath-/ * [local-name = 'Root' and namespace-uri （) ='http://BizTalk_Server_Project3.Schema1'] /\*[local-name = 'promotedField' and namespace-uri （) =']  
   
     |標準 XPath|非標準 XPath|  
     |---------------------|--------------------------|  

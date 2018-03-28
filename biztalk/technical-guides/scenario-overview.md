@@ -1,22 +1,22 @@
 ---
-title: "案例概觀 |Microsoft 文件"
-ms.custom: 
+title: 案例概觀 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ac14328d-c373-49da-a899-4b3ca7d6dc0a
-caps.latest.revision: "22"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: ab36aa51d2dd28651895818caa781c49bf366f50
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="scenario-overview"></a>案例概觀
 本主題提供的負載測試完成 BizTalk server 概觀現代企業類別硬體上執行時評估延展性的 BizTalk Server 的產品群組。  
@@ -48,7 +48,7 @@ ms.lasthandoff: 12/01/2017
 ## <a name="test-measurements-used"></a>使用測試測量  
 BizTalk Server 效能測量使用下列準則：  
   
-1.  **整體輸送量**– 來測量 **BizTalk： 傳訊 (*hostname*) \Documents 收到 / Sec * * 和 **BizTalk： 傳訊 (*hostname*) \Documents 處理 / Sec * * 效能計數器的 BizTalk server 接收和處理主控件。  
+1.  **整體輸送量**– 來測量**BizTalk： 傳訊 (*hostname*) \Documents received/Sec**和**BizTalk： 傳訊 (*的主機名稱*)\Documents processed/Sec**效能計數器，以便讓 BizTalk Server 接收和處理主控件。  
   
 2.  **CPU 使用率**– 測量與**\Processor(_Total)\\%Processor Time** BizTalk Server 上的效能計數器] 和 [SQL Server 電腦。 全面檢閱所有測試結果和任何效能瓶頸所述[觀察與建議](../technical-guides/observations-and-recommendations.md)。  
   
@@ -109,19 +109,19 @@ BizTalk Server 輕易地容納增加的處理層功能藉由一或多個 BizTalk
 |名稱|模型|CPU 類型|CPU 數|核心/CPU 的數目|CPU 架構|記憶體|作業系統|軟體|  
 |----------|-----------|--------------|--------------------|--------------------------|----------------------|------------|----------------------|--------------|  
 |R710-01|Dell PowerEdge R710|Intel Xeon X5570|2 x 2.93 GHz|4|x64|72 GB|Windows Server 2008 R2 Enterprise Edition|BizTalk Server|  
-|R710 02|Dell PowerEdge R710|Intel Xeon X5570|2 x 2.93 GHz|4|x64|72 GB|Windows Server 2008 R2 Enterprise Edition|BizTalk Server|  
+|R710-02|Dell PowerEdge R710|Intel Xeon X5570|2 x 2.93 GHz|4|x64|72 GB|Windows Server 2008 R2 Enterprise Edition|BizTalk Server|  
 |DL380G7-01|Hewlett Packard DL380 G7|Intel Xeon X5670|2 x 2.93 GHz|6|x64|192 GB|Windows Server 2008 R2 Enterprise Edition|BizTalk Server|  
-|DL380G7 02|Hewlett Packard DL380 G7|Intel Xeon X5670|2 x 2.93 GHz|6|x64|192 GB|Windows Server 2008 R2 Enterprise Edition|BizTalk Server|  
+|DL380G7-02|Hewlett Packard DL380 G7|Intel Xeon X5670|2 x 2.93 GHz|6|x64|192 GB|Windows Server 2008 R2 Enterprise Edition|BizTalk Server|  
 |DL380-01|Hewlett Packard DL380|Intel Xeon 5150|2 x 2.66 GHz|2|x64|8 GB|Windows Server 2008 R2 Enterprise Edition|SQL Server 2008 R2 的負載測試資料庫<br /><br /> Visual Studio 2010<br /><br /> WCF 後端服務|  
-|DL380 02|Hewlett Packard DL380|Intel Xeon E5335|2 x 2.00 GHz|4|x64|8 GB|Windows Server 2008 R2 Enterprise Edition|Visual Studio 2010 負載測試控制器|  
-|DL380 03|Hewlett Packard DL380|Intel Xeon E5335|2 x 2.00 GHz|4|x64|8 GB|Windows Server 2008 R2 Enterprise Edition|Visual Studio 2010 負載測試代理程式|  
-|DL380 04|Hewlett Packard DL380|Intel Xeon E5335|2 x 2.00 GHz|4|x64|8 GB|Windows Server 2008 R2 Enterprise Edition|Visual Studio 2010 負載測試代理程式。<br /><br /> Perfmon 命令列|  
-|R805 06|Dell PowerEdge R805|AMD 顆四核心 Opteron 2354|2 x 2.2 GHz|4|x64|32 GB|Windows Server 2008 R2 Enterprise Edition|Visual Studio 2010 負載測試代理程式|  
+|DL380-02|Hewlett Packard DL380|Intel Xeon E5335|2 x 2.00 GHz|4|x64|8 GB|Windows Server 2008 R2 Enterprise Edition|Visual Studio 2010 負載測試控制器|  
+|DL380-03|Hewlett Packard DL380|Intel Xeon E5335|2 x 2.00 GHz|4|x64|8 GB|Windows Server 2008 R2 Enterprise Edition|Visual Studio 2010 負載測試代理程式|  
+|DL380-04|Hewlett Packard DL380|Intel Xeon E5335|2 x 2.00 GHz|4|x64|8 GB|Windows Server 2008 R2 Enterprise Edition|Visual Studio 2010 負載測試代理程式。<br /><br /> Perfmon 命令列|  
+|R805-06|Dell PowerEdge R805|AMD 顆四核心 Opteron 2354|2 x 2.2 GHz|4|x64|32 GB|Windows Server 2008 R2 Enterprise Edition|Visual Studio 2010 負載測試代理程式|  
 |R805-07|Dell PowerEdge R805|AMD 顆四核心 Opteron 2354|2 x 2.2 GHz|4|x64|32 GB|Windows Server 2008 R2 Enterprise Edition|Visual Studio 2010 負載測試代理程式|  
-|R900 03|Dell PowerEdge R900|Intel Xeon E7330|4 x 2.4 GHz|4|x64|64 GB|Windows Server 2008 R2 Enterprise Edition|SQL Server 2008 R2 含累計更新 4|  
-|R900 04|Dell PowerEdge R900|Intel Xeon E7330|4 x 2.4 GHz|4|x64|64 GB|Windows Server 2008 R2 Enterprise Edition|SQL Server 2008 R2 含累計更新 4|  
-|R900 05|Dell PowerEdge R900|Intel Xeon E7330|4 x 2.4 GHz|4|x64|64 GB|Windows Server 2008 R2 Enterprise Edition|SQL Server 2008 R2 含累計更新 4|  
-|R900 06|Dell PowerEdge R900|Intel Xeon E7330|4 x 2.4 GHz|4|x64|64 GB|Windows Server 2008 R2 Enterprise Edition|SQL Server 2008 R2 含累計更新 4|  
+|R900-03|Dell PowerEdge R900|Intel Xeon E7330|4 x 2.4 GHz|4|x64|64 GB|Windows Server 2008 R2 Enterprise Edition|SQL Server 2008 R2 含累計更新 4|  
+|R900-04|Dell PowerEdge R900|Intel Xeon E7330|4 x 2.4 GHz|4|x64|64 GB|Windows Server 2008 R2 Enterprise Edition|SQL Server 2008 R2 含累計更新 4|  
+|R900-05|Dell PowerEdge R900|Intel Xeon E7330|4 x 2.4 GHz|4|x64|64 GB|Windows Server 2008 R2 Enterprise Edition|SQL Server 2008 R2 含累計更新 4|  
+|R900-06|Dell PowerEdge R900|Intel Xeon E7330|4 x 2.4 GHz|4|x64|64 GB|Windows Server 2008 R2 Enterprise Edition|SQL Server 2008 R2 含累計更新 4|  
   
 ### <a name="storage-area-network-configuration"></a>存放區域網路設定  
  下圖說明在實驗室環境所使用的存放區域網路 (SAN) 組態。  
@@ -146,7 +146,7 @@ BizTalk Server 輕易地容納增加的處理層功能藉由一或多個 BizTalk
   
  下列的 LUN 組態已針對每個測試環境中執行 SQL Server 的四部電腦使用。  
   
-|磁碟機代號|磁碟區名稱|檔案|LUN 的大小 (GB)|  
+|磁碟機代號|磁碟區名稱|파일|LUN 的大小 (GB)|  
 |------------------|-----------------|-----------|---------------------|  
 |C|本機 C 磁碟機|MASTER、 MSDB 和模型|136|  
 |H|Data_Tempdb|TempDB 資料檔案|50|  
@@ -176,7 +176,7 @@ BizTalk Server 輕易地容納增加的處理層功能藉由一或多個 BizTalk
   
 -   **針對讀取**: sqlio kR-s60 frandom-o8-t8-b8 LS-FParam.txt  
   
--   **對於寫入**: sqlio-千瓦-s60 frandom-o8-t8-b8 LS-FParam.txt  
+-   **For writes**: sqlio -kW -s60 -frandom -o8 -t8 -b8 -LS -FParam.txt  
   
  Param.txt 檔案包含下列內容：  
   
@@ -210,5 +210,5 @@ BizTalk Server 輕易地容納增加的處理層功能藉由一或多個 BizTalk
     |------------------------------------------------------|---------------------------------------|---------------------|  
     |31527.95|246.31|1 毫秒|  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [調整生產 BizTalk Server 環境](../technical-guides/scaling-a-production-biztalk-server-environment.md)

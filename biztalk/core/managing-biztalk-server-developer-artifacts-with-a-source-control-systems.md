@@ -1,22 +1,22 @@
 ---
-title: "管理 BizTalk Server 開發人員成品來源控制系統 |Microsoft 文件"
-ms.custom: 
+title: 管理 BizTalk Server 開發人員成品來源控制系統 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ce25b112-38c9-40c8-9a5f-a2855572aabb
-caps.latest.revision: "12"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 829749911bd4f3ca6aee1da42578a1aac28db7ae
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="managing-biztalk-server-developer-artifacts-with-a-source-control-systems"></a>管理原始檔控制系統與 BizTalk Server 開發人員成品
 保護您的 BizTalk 專案免於發生未預期的系統失敗，應做為第一優先的事項。 保護專案檔案的一個方式是使用原始程式碼控制系統，例如 Team Foundation Server Source Control 與 Microsoft Visual SourceSafe。 本主題說明一些基本策略，可將專案組織成與任何原始檔控制系統搭配使用時都能發揮最佳效果，並提供有關使用 Visual SourceSafe 的特定建議。  
@@ -100,11 +100,11 @@ ms.lasthandoff: 09/20/2017
   
 3.  在 **[工具]** 功能表上，按一下 **[選項]**。  
   
-4.  按一下**檔案類型** 索引標籤。  
+4.  按一下 [ **檔案類型** ] 索引標籤。  
   
 5.  將下列項目新增至二進位檔案清單的末端。 請確認以分號分隔每種檔案類型：  
   
-     *.btm;\*.btp;\*.xsd;\*.odx  
+     *.btm;\*。btp;\*。xsd;\*。odx  
   
 6.  按一下 **[確定]**。  
   
@@ -158,11 +158,11 @@ ms.lasthandoff: 09/20/2017
   
 ##### <a name="to-include-a-file-or-folder-into-an-existing-visual-studio-project"></a>若要將檔案或資料夾加入現有 Visual Studio 專案  
   
-1.  在 方案總管 中，按一下 **顯示所有檔案**。  
+1.  在 方案總管 中，按一下  **顯示所有檔案**。  
   
 2.  選取要加入解決方案的資料夾或檔案。  
   
-3.  以滑鼠右鍵按一下資料夾或檔案，然後**包含在專案**。  
+3.  以滑鼠右鍵按一下資料夾或檔案，然後按一下 **加入至專案**。  
   
 > [!NOTE]
 >  Visual SourceSafe Explorer「不應該」用來管理原始檔控制下 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 專案中的任何項目。  

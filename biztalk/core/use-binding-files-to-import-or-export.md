@@ -1,22 +1,22 @@
 ---
-title: "使用繫結檔案匯入或匯出 |Microsoft 文件"
-ms.custom: 
+title: 使用繫結檔案匯入或匯出 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f9a2a82a-f8d4-4ec2-b8c1-be6cda3f993a
-caps.latest.revision: "2"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: e3707726eb9e8e77e0536f36700fe098d83ad414
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="use-binding-files-to-import-or-export"></a>使用繫結檔案匯入或匯出
 
@@ -39,14 +39,14 @@ ms.lasthandoff: 09/20/2017
 * 應用程式匯入繫結精靈可讓您選擇要匯入的追蹤設定，或排除的合作對象。
 * BTSTask 包含`ImportParties`和`ExportParties`命令 
 
-## <a name="prerequisites"></a>必要條件
+## <a name="prerequisites"></a>필수 구성 요소
 
 * 您必須以成員的帳戶登入 * * BizTalk Server 系統管理員 * * 群組。 請參閱[部署及管理 BizTalk 應用程式所需的權限](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md)。  
 
-* 您必須新增參考**BizTalk EDI 應用程式**將做為 EDI 應用程式的 BizTalk 應用程式。 請參閱[後設定步驟](../install-and-config-guides/post-configuration-steps-to-optimize-your-environment.md)。
+* 您必須新增參考 **BizTalk EDI 應用程式** 從 BizTalk 應用程式將會做為 EDI 應用程式。 請參閱[後設定步驟](../install-and-config-guides/post-configuration-steps-to-optimize-your-environment.md)。
 
 ## <a name="import-or-export-all-the-trading-partners"></a>匯入或匯出所有交易夥伴
-1. 開啟 **[!INCLUDE[btsBizTalkServerAdminConsoleui_md](../includes/btsbiztalkserveradminconsoleui-md.md)]** ，再展開 BizTalk 群組。
+1. 開啟**[!INCLUDE[btsBizTalkServerAdminConsoleui_md](../includes/btsbiztalkserveradminconsoleui-md.md)]**，再展開 BizTalk 群組。
 2. 以滑鼠右鍵按一下**合作對象**，然後選取**匯出**。 
 
     當您匯出在**合作對象**-層級，您要匯出所有交易夥伴。 這也會匯出交易夥伴，包括商務設定檔和協議到 XML 檔案所使用的所有項目。 
@@ -63,7 +63,7 @@ ms.lasthandoff: 09/20/2017
 
     
 ## <a name="export-individual-partners"></a>匯出個別的夥伴
-1. 在 **[!INCLUDE[btsBizTalkServerAdminConsoleui_md](../includes/btsbiztalkserveradminconsoleui-md.md)]** ，選取**合作對象**。
+1. 在**[!INCLUDE[btsBizTalkServerAdminConsoleui_md](../includes/btsbiztalkserveradminconsoleui-md.md)]**，選取**合作對象**。
 2. 在**合作對象與商務設定檔** 窗格中，以滑鼠右鍵按一下合作對象，然後選取**匯出**。
 
     當您匯出特定合作對象時，您可以選擇要匯出所有的合作對象，與該合作對象所使用的所有合約。 您可以取消核取**匯出選取的合作對象與選取的合作對象內的所有合約**只匯出選取的合作對象。
@@ -84,7 +84,7 @@ ms.lasthandoff: 09/20/2017
 
 在應用程式層級，您可以將繫結檔案匯入與 EDI 和 AS2 合作對象。 
 
-1. 在 **[!INCLUDE[btsBizTalkServerAdminConsoleui_md](../includes/btsbiztalkserveradminconsoleui-md.md)]** ，依序展開**應用程式**
+1. 在**[!INCLUDE[btsBizTalkServerAdminConsoleui_md](../includes/btsbiztalkserveradminconsoleui-md.md)]**，依序展開**應用程式**
 2. 以滑鼠右鍵按一下您的應用程式，然後選取**匯入**。
 3. **追蹤設定匯入**和**排除合作對象**可用選項。 使用這些選項，您可以選擇要匯入任何現有的追蹤設定，或排除任何 EDI/AS2 合作對象繫結檔案中。
 

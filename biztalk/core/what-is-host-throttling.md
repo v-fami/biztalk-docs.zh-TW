@@ -1,26 +1,26 @@
 ---
-title: "何謂主控件節流？ | Microsoft Docs"
-ms.custom: 
+title: 何謂主控件節流？ | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - host throttling, outbound
 - host throttling, inbound
 - host throttling, about host throttling
 ms.assetid: 36d1818b-c8a2-4f23-bfb3-c034ee242f69
-caps.latest.revision: "29"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: c4730a93b6491f53fc06004ca8bb0dcb0d970cc7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="what-is-host-throttling"></a>何謂主控件節流？
 大部分在 BizTalk Server 上執行的處理會在稱為 BizTalk Server 主控件執行個體的邏輯實體中發生，當做 Windows 服務或外掛式主控件程序在 BizTalk Server 上執行。 為管理主控件執行個體程序對資源的使用，BizTalk Server 會利用一種透過主控件執行個體管理訊息流程和處理的可調式節流機制。  
@@ -40,13 +40,13 @@ ms.lasthandoff: 09/20/2017
 -   建立這個主控件的一或多個執行個體，以在您的 BizTalk Server 上執行。  
   
 ## <a name="inbound-host-throttling"></a>輸入主控件節流  
- 輸入主控件節流，也稱為*訊息發佈節流*在 BizTalk Server 中，會套用到主控件執行個體包含接收配接器或協調流程發佈訊息至 MessageBox 資料庫。 輸入主控件節流情況會在下列情況下觸發：  
+ 輸入主控件節流，也就 *訊息發佈節流* 在 BizTalk Server 中，會套用至主控件執行個體包含接收配接器或協調流程發佈訊息至 MessageBox 資料庫。 輸入主控件節流情況會在下列情況下觸發：  
   
--   記憶體數量、 執行緒數目或主控件執行個體所使用的資料庫連線數目超過節流閾值中定義**設定儀表板**可在 BizTalk 群組和選取**設定**。 這些值是可測量的效能監控計數器底下**biztalk： 訊息代理程式**效能物件類別。  
+-   記憶體、 執行緒數目或主控件執行個體所使用的資料庫連線數目超過節流閾值中定義 **設定儀表板** BizTalk 群組中，選取 **設定**。 這些值是可測量的效能監控計數器底下 **Messageagent** 效能物件類別。  
   
--   下游主控件無法處理已發佈的訊息。 這會增加的值**訊息 DB 中的計數**參數。 臨界值**訊息 DB 中的計數**值觸發程序的節流條件是可在**主機**選項**設定儀表板**。 在資料庫中的訊息計數可以測量與**資料庫大小**計數器下**biztalk： 訊息代理程式**效能物件類別。  
+-   下游主控件無法處理已發佈的訊息。 這會增加的值 **訊息計數和在 DB** 參數。 臨界值 **訊息計數和在 DB** 值觸發程序的節流條件是可在設定 **主機** 選項 **設定儀表板**。 在資料庫中的訊息計數可以測量與 **資料庫大小** 計數器底下 **Messageagent** 效能物件類別。  
   
--   **訊息發佈內送速率**主控件執行個體超過**訊息發佈外寄速率\***指定**速率增加因數**值。 **速率增加因數**值定義於**設定儀表板**，**主機**然後**根據速率的節流**。 訊息發佈內送和外寄速率可以測量與對應的效能監視器計數器下**biztalk： 訊息代理程式**效能物件類別。  
+-   **訊息發佈內送速率** 主控件執行個體超過 **訊息發佈外寄速率\*** 指定 **速率增加因數** 值。 **速率增加因數** 值以定義 **設定儀表板**, ，**主機** 然後 **根據速率的節流**。 訊息發佈的輸入和輸出速率可以測量與對應的效能監視器計數器底下 **Messageagent** 效能物件類別。  
   
 -   已修改預設節流行為。 [針對 BizTalk Server 效能調整使用設定儀表板](../core/using-settings-dashboard-for-biztalk-server-performance-tuning.md)說明影響節流行為的不同值。  
   
@@ -63,13 +63,13 @@ ms.lasthandoff: 09/20/2017
  ![輸入從配接器到 MessageBox 的訊息流程](../core/media/inboundmsgflow.gif "InboundMsgFlow")  
   
 ## <a name="outbound-host-throttling"></a>輸出主控件節流  
- 輸出主控件節流，也稱為*訊息處理節流*在 BizTalk Server 中，會套用到包含協調流程或傳送配接器的接收、 傳遞或處理訊息，已建立的主控件執行個體發佈至 MessageBox。 輸出主控件節流情況會在下列情況下觸發：  
+ 輸出主控件節流，也就 *訊息處理節流* 在 BizTalk Server 中，會套用至包含協調流程或傳送配接器的接收、 傳遞或處理已發佈至 MessageBox 的訊息的主控件執行個體。 輸出主控件節流情況會在下列情況下觸發：  
   
--   記憶體數量、 執行緒數目或主控件執行個體所使用的資料庫連線數目超過節流閾值中定義**資源型節流**中**設定儀表板**. 這些值是可測量的效能監控計數器底下**biztalk： 訊息代理程式**效能物件類別。  
+-   記憶體、 執行緒數目或主控件執行個體所使用的資料庫連線數目超過節流閾值中定義 **資源型節流** 中 **設定儀表板**。 這些值是可測量的效能監控計數器底下 **Messageagent** 效能物件類別。  
   
--   **訊息傳遞內送速率**主控件執行個體超過**訊息傳遞外寄速率**\*指定**速率增加因數**值. **速率增加因數**值定義在**根據速率的節流**索引標籤中**設定儀表板**。 訊息傳遞內送和外寄速率可以測量與對應的效能監控計數器下**biztalk： 訊息代理程式**效能物件類別。  
+-   **訊息傳遞內送速率** 主控件執行個體超過 **訊息傳遞外寄速率** \* 指定 **速率增加因數** 值。 **速率增加因數** 值定義在 **根據速率的節流** 索引標籤中 **設定儀表板**。 訊息傳遞輸入和輸出速率可以測量與對應的效能監控計數器底下 **Messageagent** 效能物件類別。  
   
--   同時處理的主控件執行個體的訊息數目超過**程序中的每一 CPU 訊息**\*方塊上可用的 Cpu 數目。 **內含式訊息**臨界值定義在**資源型節流**索引標籤中**設定儀表板**。 您可以測量同時處理的主控件執行個體的訊息數目與**內含式訊息計數**下的效能計數器**biztalk： 訊息代理程式**效能物件類別目錄。  
+-   同時處理的主控件執行個體的訊息數目超過 **程序中的每一 CPU 訊息** \* 方塊上可用的 Cpu 數目。 **內含式訊息** 臨界值定義在 **資源型節流** 索引標籤中 **設定儀表板**。 同時處理的主控件執行個體的訊息數目可以測量與 **內含式訊息計數** 下的效能計數器 **Messageagent** 效能物件類別。  
   
 -   已修改預設節流行為。 [針對 BizTalk Server 效能調整使用設定儀表板](../core/using-settings-dashboard-for-biztalk-server-performance-tuning.md)說明影響節流行為的不同值。  
   
@@ -81,7 +81,7 @@ ms.lasthandoff: 09/20/2017
   
 -   「訊息代理程式」執行緒集區大小是有限制的。 藉由限制「訊息代理程式」執行緒集區的大小，主控件節流機制可有效降低傳遞至 XLANG 與配接器的訊息數量。  
   
-     可以修改預設的訊息代理程式 」 執行緒集區大小變更**最大值的引擎執行緒**值**一般**索引標籤中**設定儀表板**。 如需有關如何修改此值的詳細資訊，請參閱[如何修改一般設定](../core/how-to-modify-general-settings.md)。  
+     預設訊息代理程式執行緒集區大小可以變更來修改 **最大值的引擎執行緒** 值 **一般** 索引標籤中 **設定儀表板**。 如需有關如何修改此值的詳細資訊，請參閱[如何修改一般設定](../core/how-to-modify-general-settings.md)。  
   
 -   當適用時，降低記憶體和其他資源的使用率。 BizTalk Server 可以傳送指示給其他服務類別，藉由凍結執行排程、縮小記憶體快取大小以及限制需要大量記憶體的執行緒之使用量，以限制記憶體使用率。  
   

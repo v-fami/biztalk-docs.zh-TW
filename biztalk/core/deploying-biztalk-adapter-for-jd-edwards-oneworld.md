@@ -1,23 +1,23 @@
 ---
-title: "匯 BizTalk Adapter for JD Edwards OneWorld |Microsoft 文件"
-description: "匯入應用程式的繫結檔案，並檢閱任何 JD Edwards OneWorld 配接器在 BizTalk 的限制"
-ms.custom: 
+title: 匯 BizTalk Adapter for JD Edwards OneWorld |Microsoft 文件
+description: 匯入應用程式的繫結檔案，並檢閱任何 JD Edwards OneWorld 配接器在 BizTalk 的限制
+ms.custom: ''
 ms.date: 10/18/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f308d2fe-39dd-4008-94ed-292c4c26fe06
-caps.latest.revision: "5"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: d4a452d61b3bdb5f5d0fee9e0916811645938d70
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="import-the-jd-edwards-enterpriseone-application"></a>JD Edwards EnterpriseOne 應用程式匯入
   
@@ -69,12 +69,12 @@ cscript RemoveSendPort.vbs \<Send port name\>
 ```
   
 ## <a name="limitations"></a>限制
-傳輸配接器 」 密碼會儲存為星號 (\*\*\*\*\*\*) 中繫結檔案匯出 BizTalk 部署精靈 」，並傳遞給管理以相同格式的元件。 匯入星號取代成隨機英數字元值 （也就是不正確的密碼） 之前編輯繫結檔案。 然後輸入正確的密碼使用**傳輸屬性**匯入繫結檔案後的頁面。  
+傳輸配接器密碼會儲存為星號 (\*\*\*\*\*\*) 繫結檔案匯出 BizTalk 部署精靈 」，並傳遞給管理元件相同的格式。 編輯繫結檔案，再匯入星號取代隨機的英數字元值 （也就是不正確的密碼）。 然後輸入正確的密碼使用 **傳輸屬性** 之後匯入繫結檔案的網頁。  
   
  當您匯出繫結資訊時，所產生的繫結檔案不會包含傳輸配接器在接收位置/傳送埠中使用的任何密碼。 這可防止密碼資訊以純文字方式出現。 下次您使用檔案匯入繫結資訊時，必須使用傳輸屬性頁使用者介面輸入密碼。 或者，您可以在匯入前先暫時修改繫結檔案，方法是將密碼輸入繫結檔案。 在這種情況下，您必須在匯入作業順利完成後刪除繫結檔案中的密碼。  
   
 > [!NOTE]
->  匯入到.msi 檔案時[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]包含企業配接器之繫結資訊的應用程式可能會收到匯入錯誤訊息。 支援的 hotfix 可從 Microsoft 以及在錯誤的完整說明[http://support.microsoft.com/kb/923733/en-us](http://support.microsoft.com/kb/923733/en-us)。  
+>  匯入到.msi 檔案時[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]包含企業配接器之繫結資訊的應用程式可能會收到匯入錯誤訊息。 支援的 hotfix 可從 Microsoft 以及在錯誤的完整說明[ http://support.microsoft.com/kb/923733/en-us ](http://support.microsoft.com/kb/923733/en-us)。  
   
 ### <a name="work-around-the-password-limitation"></a>解決密碼限制問題  
 

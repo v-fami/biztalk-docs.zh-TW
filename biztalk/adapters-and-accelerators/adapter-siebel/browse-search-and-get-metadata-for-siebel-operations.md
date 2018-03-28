@@ -1,11 +1,11 @@
 ---
-title: "瀏覽、 搜尋及取得 Siebel 作業的中繼資料 |Microsoft 文件"
-ms.custom: 
+title: 瀏覽、 搜尋及取得 Siebel 作業的中繼資料 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - metadata, retrieving
@@ -18,15 +18,15 @@ helpviewer_keywords:
 - how to, seach metadata
 - searching, metadata
 ms.assetid: 7e474d8e-b030-47ea-b1b6-8048cddbba8a
-caps.latest.revision: "13"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 68e7d8dc1b067096f118eb1145554edf0b11f605
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="browse-search-and-get-metadata-for-siebel-operations"></a>瀏覽、 搜尋及取得 Siebel 作業的中繼資料
 本節提供有關如何使用資訊[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]、 [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]，而[!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]。 使用這些[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]元件，您可以：  
@@ -42,7 +42,7 @@ ms.lasthandoff: 11/28/2017
 > [!NOTE]
 >  [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]、 [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]，而[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]呈現基本上相同的介面，當您瀏覽和搜尋作業，因此在相同主題中涵蓋所有的三個元件時。  
   
-## <a name="prerequisites"></a>必要條件  
+## <a name="prerequisites"></a>필수 구성 요소  
  您可以瀏覽、 搜尋，或擷取目標作業的中繼資料之前，您必須連接至 Siebel 系統。 如需有關如何連接至 Siebel 系統中，當您使用資訊[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]、 [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]，或[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]，請參閱[連接到 Visual Studio 中的 Siebel 系統](../../adapters-and-accelerators/adapter-siebel/connect-to-the-siebel-system-in-visual-studio.md)。  
   
 ## <a name="browsing-metadata"></a>瀏覽中繼資料  
@@ -193,5 +193,5 @@ ms.lasthandoff: 11/28/2017
   
 5.  按一下 **[確定]**。 [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]儲存 WCF 用戶端類別和協助程式程式碼的作業和專案目錄中所選取的類別。 根據預設，也會儲存組態檔。 如需詳細資訊，請參閱[產生 WCF 用戶端或 WCF 服務合約的 Siebel 方案成品](../../adapters-and-accelerators/adapter-siebel/generate-a-wcf-client-or-a-wcf-service-contract-for-siebel-solution-artifacts.md)。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [在 Visual Studio 中取得 Siebel 作業的中繼資料](../../adapters-and-accelerators/adapter-siebel/get-metadata-for-siebel-operations-in-visual-studio.md)

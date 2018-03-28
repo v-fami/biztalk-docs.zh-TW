@@ -1,23 +1,23 @@
 ---
-title: "基本的 SAP 資料型別 mySAP 配接器在 BizTalk 中 |Microsoft 文件"
-description: "MySAP 配接器在 BizTalk 配接器組件 (BAP) 的支援的 ABAP 和資料庫資料類型"
-ms.custom: 
+title: 基本的 SAP 資料型別 mySAP 配接器在 BizTalk 中 |Microsoft 文件
+description: MySAP 配接器在 BizTalk 配接器組件 (BAP) 的支援的 ABAP 和資料庫資料類型
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 296b4813-f175-4a02-8fd3-227ae301bc3d
-caps.latest.revision: "6"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: f40e7dc6f98e1de2ff0388a8e7e52fdabafc7681
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="basic-sap-data-types"></a>基本的 SAP 資料類型
 參數類型，[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]都受到支援:  
@@ -67,13 +67,13 @@ ms.lasthandoff: 09/20/2017
 ### <a name="support-for-date-and-time-fields"></a>日期和時間欄位的支援  
  ABAP 日期 (D) 和時間 (T) 型別時未啟用 「 安全輸入，當成 xsd:dateTime;不過，日期和時間類型中顯示模式 facet 都不同。  
   
--   模式 facet，日期是：`(\d\d\d\d-\d\d-\d\d)T(00:00:00)(.*)`  
+-   模式 facet，日期是： `(\d\d\d\d-\d\d-\d\d)T(00:00:00)(.*)`  
   
      例如，2007 年 7 月 7 日 (2007年-07-07) 會表示如下：  
   
      `(2007-07-07)T(00:00:00)`。  
   
--   模式 facet，時間是：`(0001-01-01)T(\d\d:\d\d:\d\d)(.*)`  
+-   模式 facet，時間是： `(0001-01-01)T(\d\d:\d\d:\d\d)(.*)`  
   
      例如，18:30:30 （下午 6:30 和 30 秒） 會表示如下：  
   
@@ -103,7 +103,7 @@ ms.lasthandoff: 09/20/2017
 |LANG （語言機碼）|RFC_CHAR|xsd:string|字串|  
 |LCHR|RFC_STRING|xsd:string|字串|  
 |LRAW (長位元組 seq)|RFC_BYTE|xsd:base64binary|Byte[]|  
-|NUMC *|RFC_NUM|xsd:int<br />xsd:long<br />xsd:string|Int32 如果長度 < = 9<br />Int64 如果長度 > 9 和 < = 19<br />如果字串長度 > 19|  
+|NUMC*|RFC_NUM|xsd:int<br />xsd:long<br />xsd:string|Int32 如果長度 < = 9<br />Int64 如果長度 > 9 和 < = 19<br />如果字串長度 > 19|  
 |PREC （精確度）|RFC_INT2|xsd:short|Int16|  
 |QUAN (Quantity)|RFC_BCD|xsd:decimal**附註：** [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]四捨五入小數參數定義為基礎的十進位值。 比方說，如果 DECIMAL 參數可以接受最多五個位數，小數點後面，例如 4.000028 值會四捨五入至 4.00003。|Decimal|  
 |RAW （位元組序列）|RFC_BYTE|xsd:base64binary|Byte[]|  
@@ -132,10 +132,10 @@ ms.lasthandoff: 09/20/2017
   
 |RFC 類型|XSD Facet (**EnableSafeTyping** = false)|XSD Facet (**EnableSafeTyping** = true)|  
 |--------------|-------------------------------------------------|------------------------------------------------|  
-|RFC_BCD|**XSD 模式 facet**<br /><br /> **零小數位數：**`"([\\-]{0,1})(([0-9]{1,"`  `+ digitsBeforeDecimal +`  `"}))"`<br /><br /> **一或多個小數位數：**`"([\\-]{0,1})(([0-9]{0,"` + `digitsBeforeDecimal +``"}\\.[0-9]{0,"``+ digitsAfterDecimal +``"})&#124;([0-9]{1,"``+ digitsBeforeDecimal +``"}))"`|相同|  
+|RFC_BCD|**XSD 模式 facet**<br /><br /> **零個小數位數：** `"([\\-]{0,1})(([0-9]{1,"`  `+ digitsBeforeDecimal +`  `"}))"`<br /><br /> **一或多個小數位數：** `"([\\-]{0,1})(([0-9]{0,"` + `digitsBeforeDecimal +``"}\\.[0-9]{0,"``+ digitsAfterDecimal +``"})&#124;([0-9]{1,"``+ digitsBeforeDecimal +``"}))"`|相同|  
 |RFC_NUM|**XSD totalDigits facet**如果長度 < = 19<br /><br /> **XSD 模式 facet**如果長度 > 19|**XSD maxLength facet （取決於 SAP 上值的長度）**|  
-|RFC_DATE|**XSD 模式 facet**<br /><br /> `"(\d\d\d\d-\d\d-\d\d)T(00:00:00)(.*)"`<br /><br /> 模式包含時間 00:00:00 與相容性`xsd:datetime`|**XSD maxLength facet = 8**|  
-|RFC_TIME|**XSD 模式 facet**<br /><br /> `"(0001-01-01)T(\d\d:\d\d:\d\d)(.*)"`<br /><br /> 模式包含可與相容的日期以 0001-01-01`xsd:datetime`|**XSD maxLength facet = 6**|  
+|RFC_DATE|**XSD 模式 facet**<br /><br /> `"(\d\d\d\d-\d\d-\d\d)T(00:00:00)(.*)"`<br /><br /> 模式包含時間 00:00:00 與相容性 `xsd:datetime`|**XSD maxLength facet = 8**|  
+|RFC_TIME|**XSD 模式 facet**<br /><br /> `"(0001-01-01)T(\d\d:\d\d:\d\d)(.*)"`<br /><br /> 模式包含可與相容的日期以 0001-01-01 `xsd:datetime`|**XSD maxLength facet = 6**|  
 |RFC_CHAR|**XSD maxLength facet**|相同|  
   
 ## <a name="unsupported-data-types"></a>不支援的資料類型  

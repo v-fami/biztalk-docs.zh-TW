@@ -1,11 +1,11 @@
 ---
-title: "建立分支機構 Applications3 |Microsoft 文件"
-ms.custom: 
+title: 建立分支機構 Applications3 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - affiliate applications
@@ -14,15 +14,15 @@ helpviewer_keywords:
 - affiliate applications, creating
 - SSO tickets
 ms.assetid: 800644fd-2286-4e59-894b-260f584dd29f
-caps.latest.revision: "6"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 857ee7edd623332e72176ac09082f0ec9fc460f4
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="creating-affiliate-applications"></a>建立分支機構應用程式
 下列步驟說明如何開始使用採用單一登入 (SSO) 的分支機構應用程式。  
@@ -34,7 +34,7 @@ ms.lasthandoff: 11/07/2017
   
 #### <a name="to-create-an-affiliate-application"></a>若要建立分支機構應用程式  
   
-1.  在**控制台**，開啟**服務**，並確認企業單一登入服務正在執行。  
+1.  在 **控制台**, ，開啟 **服務**, ，並確認企業單一登入服務正在執行。  
   
 2.  在命令提示中，將目錄變更為 [Enterprise Single Sign-On] 資料夾。  
   
@@ -89,7 +89,7 @@ ms.lasthandoff: 11/07/2017
   
      一完成就會收到確認：  
   
-     **在此電腦使用 SSO 伺服器。已成功完成此作業。**  
+     **在此電腦使用 SSO 伺服器。作業順利完成。**  
   
 ## <a name="enabling-the-affiliate-application-xml"></a>啟用分支機構應用程式 XML  
   
@@ -113,11 +113,11 @@ ms.lasthandoff: 11/07/2017
   
 4.  在提示下輸入使用者名稱和密碼。 輸入 JDEdwardsApp 分支機構應用程式的登入認證。 例如，針對透過 SSO 伺服器進入系統的使用者，輸入使用者識別和密碼。  
   
-    -   **使用者識別碼：**使用者  
+    -   **使用者識別碼︰** 使用者  
   
-    -   **密碼：** ******  
+    -   **密碼︰** ******  
   
-    -   **確認密碼：** ******  
+    -   **確認密碼︰** ******  
   
 5.  分支機構應用程式會出現在 BizTalk Adapter for JD Edwards OneWorld 的 [傳輸屬性] 對話方塊的下拉式清單中。  
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: a5fd32d865bd08fe1b8b8e7929f313626be3e662
 ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="using-biztalk-mapper-commands"></a>使用 BizTalk 對應工具命令
 當 BizTalkMapper 變成作用中時，它會加入稱為功能表**BizTalk** microsoft[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]殼層。 此功能表提供對 BizTalk 對應工具命令及其功能的存取。 BizTalk 對應工具為作用中，當 **BizTalk** 功能表可以提供編輯 BizTalk 對應特定的命令。  

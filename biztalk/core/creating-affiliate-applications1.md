@@ -1,22 +1,22 @@
 ---
-title: "建立分支機構應用程式的 TIBCO Rendezvous |Microsoft 文件"
-ms.custom: 
+title: 建立分支機構應用程式的 TIBCO Rendezvous |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f3603fcb-3594-460b-b74a-618e22d9c4e0
-caps.latest.revision: "11"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: a286a80ef2c867dd196fcdce414f2d0ff3c8255c
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="creating-affiliate-applications"></a>建立分支機構應用程式
 下列步驟說明如何開始使用分支機構應用程式和單一登入 (SSO)。 如需如何使用企業單一登入的完整資訊，請參閱 Microsoft 文件。  
@@ -26,13 +26,13 @@ ms.lasthandoff: 11/07/2017
   
 ## <a name="create-an-affiliate-application"></a>建立分支機構應用程式  
   
-1.  在控制台中開啟**服務**，並確認企業單一登入服務正在執行。  
+1.  在 [控制台] 中開啟 **服務**, ，並確認企業單一登入服務正在執行。  
   
 2.  在命令提示中，將目錄變更為 [Enterprise Single Sign-On] 資料夾。 例如：  
   
      **C:\Program Files\Common Files\Enterprise Single Sign-on >**  
   
-3.  使用 [企業單一登入] 命令。 如需命令清單，請使用**-協助**切換。  
+3.  使用 [企業單一登入] 命令。 對於命令清單，請使用 **-協助** 切換。  
   
 4.  若要使用 *.XML 為啟動程序來建立分支機構應用程式，請輸入下列命令：  
   
@@ -77,7 +77,7 @@ ms.lasthandoff: 11/07/2017
   
 3.  一完成就會收到下列確認：  
   
-     **在此電腦使用 SSO 伺服器。已成功完成此作業。**  
+     **在此電腦使用 SSO 伺服器。作業順利完成。**  
   
 ## <a name="enable-affiliate-application-xml"></a>啟用分支機構應用程式 XML  
   
@@ -109,7 +109,7 @@ ms.lasthandoff: 11/07/2017
   
     -   確認密碼: * * *  
   
-6.  分支機構應用程式會出現在 BizTalk Adapter for TIBCO Rendezvous**傳輸屬性** 對話方塊。  
+6.  分支機構應用程式會出現在 BizTalk Adapter for TIBCO Rendezvous **傳輸屬性** 對話方塊。  
   
 ## <a name="see-also"></a>另請參閱  
  [BizTalk Adapter for TIBCO Rendezvous 中的安全性](../core/security-in-biztalk-adapter-for-tibco-rendezvous.md)   

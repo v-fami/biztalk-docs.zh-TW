@@ -1,22 +1,22 @@
 ---
-title: "接收配接器的 SSO 支援 |Microsoft 文件"
-ms.custom: 
+title: 接收配接器的 SSO 支援 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4767387c-f24b-4986-aaed-6724c5d6b347
-caps.latest.revision: "7"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 8e3c992f47ad46b4a9d5ee095ad650f6cc492179
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="sso-support-for-receive-adapters"></a>接收配接器的 SSO 支援
 「企業單一登入」(SSO) 提供的服務能夠跨本機、網路及網域界限，來儲存和傳輸加密的使用者認證。 傳輸配接器寫入器可以利用 SSO API 來處理使用者認證，以便讓傳輸配接器用來存取後端應用程式。  
@@ -26,7 +26,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="how-receive-adapters-work-with-sso"></a>接收配接器如何搭配 SSO 運作  
  支援 SSO 的接收配接器會在接收訊息後，以及將其發佈到 BizTalk Server 前，執行下列步驟：  
   
-1.  配接器會模擬寄件者，並取得 SSO 票證，代表傳送者使用**ISSOTicket.IssueTicket**應用程式開發介面。  
+1.  配接器會模擬寄件者，並取得 SSO 票證代表寄件者使用 **ISSOTicket.IssueTicket** API。  
   
 2.  在成功取得 SSO 票證後，配接器便會將其儲存在系統命名空間下的訊息內容屬性 SSOTicket 中。  
   
@@ -90,11 +90,11 @@ public class MyAdapter : IBTTransport,
 ```  
   
 ## <a name="party-resolution"></a>合作對象解析  
- 合作對象解析管線元件負責將傳送者憑證或傳送者安全性識別碼 (SID) 對應至所對應的已設定 BizTalk Server 合作對象。 擁有這項資訊提供給他們的配接器應該設定兩個系統訊息內容屬性**WindowsUser**和**SignatureCertificate**，可供下游合作對象解析如果設定的元件。  
+ 合作對象解析管線元件負責將傳送者憑證或傳送者安全性識別碼 (SID) 對應至所對應的已設定 BizTalk Server 合作對象。 這項資訊提供給他們的介面卡應該設定兩個系統訊息內容屬性 **WindowsUser** 和 **SignatureCertificate**, ，而如果設定，可供下游合作對象解析元件。  
   
- **WindowsUser**屬性填入傳送者，例如 redmond\myBtsUser 的網域使用者。 **SignatureCertificate**屬性會填入用戶端驗證憑證的指紋。  
+ **WindowsUser** 屬性填入傳送者，例如 redmond\myBtsUser 的網域使用者。 **SignatureCertificate** 屬性填入用戶端驗證憑證的指紋。  
   
 ## <a name="managing-passwords"></a>管理密碼  
  如果您將認證直接放在端點的屬性中，當您需要匯出繫結檔案時，密碼欄位就會變成空白。 這樣您的使用者就需要重新輸入系統管理員的密碼。 您可以對認證使用 SSO 以避免這種困難狀況。  
   
- 如果配接器端點具有**密碼**屬性，請注意，實際的值會儲存在 SSO 設定存放區資料庫中的純文字。 即使在使用者介面中顯示為 "*"，依然會是如此。 這個屬性也可透過網路傳輸，而且使用 BizTalk Server 範例 ExplorerOM 的簡單指令碼即可加以讀取。
+ 如果配接器端點具有 **密碼** 屬性，請注意，實際值會儲存在 SSO 設定存放區資料庫中的純文字。 即使在使用者介面中顯示為 "*"，依然會是如此。 這個屬性也可透過網路傳輸，而且使用 BizTalk Server 範例 ExplorerOM 的簡單指令碼即可加以讀取。

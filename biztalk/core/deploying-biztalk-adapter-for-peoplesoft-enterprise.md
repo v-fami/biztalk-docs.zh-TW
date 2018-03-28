@@ -1,29 +1,29 @@
 ---
-title: "PeopleSoft 應用程式匯入 |Microsoft 文件"
-description: "您的 PeopleSoft 配接器應用程式匯入到 BizTalk Server 使用 XML 繫結檔案，而讀取的任何限制，當匯入"
-ms.custom: 
+title: PeopleSoft 應用程式匯入 |Microsoft 文件
+description: 您的 PeopleSoft 配接器應用程式匯入到 BizTalk Server 使用 XML 繫結檔案，而讀取的任何限制，當匯入
+ms.custom: ''
 ms.date: 10/19/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2f53d1b4-e1df-41ff-b554-1bb1d20b9111
-caps.latest.revision: "7"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: ed076bd238eff5106bb0b2f08449144d922fed4d
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="deploy-biztalk-adapter-for-peoplesoft-enterprise"></a>部署 BizTalk Adapter for PeopleSoft Enterprise
 本節提供有關部署 BizTalk Adapter for PeopleSoft Enterprise 的詳細資訊。  
 
 ## <a name="overview"></a>概觀
-您可以使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 在目標電腦上複製連接埠和組件。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]傳送埠/接收位置將組態匯出成 XML 檔案。  
+您可以使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 在目標電腦上複製連接埠和組件。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 傳送埠/接收位置將組態匯出成 XML 檔案。  
   
  您會使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 執行下列工作：  
   
@@ -41,7 +41,7 @@ ms.lasthandoff: 11/28/2017
 ## <a name="confirm-your-setup"></a>確認您的設定
 使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 匯入繫結檔案之前，請確認下列項目：  
   
--   CLASSPATH 指向 PeopleSoft 專屬檔案的特定位置。 確認這些檔案的位置在新電腦上相同，或編輯繫結檔案。  
+-   CLASSPATH 指向 PeopleSoft 專屬檔案的特定位置。 確認這些檔案的位置相同的新電腦上，或編輯繫結檔案。  
   
 -   在新電腦上回應的資料夾必須存在且相同，否則請編輯繫結檔案。  
   
@@ -59,7 +59,7 @@ ms.lasthandoff: 11/28/2017
   
 **\<Microsoft BizTalk Server\>\SDK\Samples\Admin\WMI\Remove 傳送 Port\VBScript\RemoveSendPort.vbs**  
   
-**\<Microsoft BizTalk Server\>\SDK\Samples\Admin\WMI\Remove 接收 Port\VBScript\RemoveReceivePort.vbs**  
+**\<Microsoft BizTalk Server\>\SDK\Samples\Admin\WMI\Remove Receive Port\VBScript\RemoveReceivePort.vbs**  
   
 例如，在命令提示字元下執行：  
   

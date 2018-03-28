@@ -16,7 +16,7 @@ ms.openlocfilehash: 9c9993092c0d798ae2d47f614a24da21c3a2df62
 ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="btswebsvcpub-command-line-reference"></a>BTSWebSvcPub 命令列參照
 本主題提供 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 所附 BTSWebSvcPub 命令列工具的參考資訊。 您可以使用 BTSWebSvcPub 建立 Web 服務 (.asmx) 以便透過該 Web 服務發佈協調流程，如下所示：  
@@ -37,7 +37,7 @@ ms.lasthandoff: 03/23/2018
 |參數|必要項|Description|  
 |---------------|--------------|-----------------|  
 |**路徑名稱**|是|BizTalk 組件 (*.dll) 或 web 服務描述的路徑和檔案名稱 (\*.xml) 檔案。|  
-|**位置**|否|要發佈的位置。 (語法："http://host[:port]/path")|  
+|**位置**|否|要發佈的位置。 (語法:"http://host[: 連接埠] / 路徑 」)|  
 |**-覆寫**|否|覆寫指定的位置。|  
 |**匿名**|否|允許匿名存取 Web 服務。|  
 |**-名稱**|否|要包含 Web 服務的解決方案和組件的名稱 (.sln 和 .dll 檔案)。|  

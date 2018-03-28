@@ -1,22 +1,22 @@
 ---
-title: "如何移動 BAM 主要匯入 Database2 |Microsoft 文件"
-ms.custom: 
+title: 如何移動 BAM 主要匯入 Database2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bc4f2656-2faa-4503-9551-05e1b6eceb1a
-caps.latest.revision: "2"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: fd6abeeb04521e95b32b4d6007dcc7f1f532bdbb
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="how-to-move-the-bam-primary-import-database"></a>如何移動 BAM 主要匯入資料庫
 您可以使用這個程序，將 BAM 主要匯入資料庫移動到其他伺服器。 端對端案例的觀點而言，移動 BAM 主要匯入資料庫包含兩個主要步驟：  
@@ -25,38 +25,38 @@ ms.lasthandoff: 12/01/2017
   
 -   [更新至新的 BAM 主要匯入資料庫的參考](../technical-guides/how-to-move-the-bam-primary-import-database2.md#BKMK_BAMPIRef)  
   
-## <a name="prerequisites"></a>必要條件  
+## <a name="prerequisites"></a>필수 구성 요소  
  您必須以成員的帳戶登入[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]sysadmin 固定的伺服器角色，才能執行此程序。  
   
-##  <a name="BKMK_MovingBAMPI"></a>移動 BAM 主要匯入資料庫  
+##  <a name="BKMK_MovingBAMPI"></a> 移動 BAM 主要匯入資料庫  
  執行下列程序移動 BAM 主要匯入資料庫中的步驟。  
   
 #### <a name="to-move-the-bam-primary-import-database"></a>移動 BAM 主要匯入資料庫  
   
 1.  停止任何 BAM cube 更新及資料維護 SSIS 封裝，或防止它們執行，直到您完成 BAM 主要匯入資料庫的還原。  
   
-2.  停止所有[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]服務。 如需詳細資訊，請參閱主題[如何啟動、 停止、 暫停、 繼續或重新啟動 BizTalk Server 服務](http://go.microsoft.com/fwlink/?LinkId=154394)(http://go.microsoft.com/fwlink/?LinkId=154394) 中[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]幫助。  
+2.  停止所有[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]服務。 如需詳細資訊，請參閱主題[如何啟動、 停止、 暫停、 繼續或重新啟動 BizTalk Server 服務](http://go.microsoft.com/fwlink/?LinkId=154394)(http://go.microsoft.com/fwlink/?LinkId=154394)中[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]幫助。  
   
 3.  停止 IIS 服務。  
   
 4.  停止 BAM 警示 Notification service:  
   
-    1.  按一下**啟動**，按一下 **執行**，型別**cmd**，然後按一下**確定**。  
+    1.  按一下  **啟動**, ，按一下  **執行**, ，型別 **cmd**, ，然後按一下  **確定**。  
   
     2.  在命令提示字元中，輸入：  
   
          **Net stop NS$ BamAlerts**  
   
-5.  備份 BAM 主要匯入在舊伺服器上的資料庫。 如需有關備份資料庫的指示，請遵循的指示如何備份的資料庫時[如何： 備份資料庫 (SQL Server Management Studio)](http://go.microsoft.com/fwlink/?LinkId=156510) (http://go.microsoft.com/fwlink/?LinkId=156510) 中[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]線上叢書 》。  
+5.  備份 BAM 主要匯入在舊伺服器上的資料庫。 如需有關備份資料庫的指示，請遵循的指示如何備份的資料庫時[如何： 備份資料庫 (SQL Server Management Studio)](http://go.microsoft.com/fwlink/?LinkId=156510) (http://go.microsoft.com/fwlink/?LinkId=156510)中[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]線上叢書 》。  
   
 6.  將 BAM 主要匯入資料庫複製到新[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]電腦。  
   
-7.  還原新的伺服器上的 BAM 主要匯入資料庫。 如需在還原資料庫的指示如何還原的資料庫時遵循[如何： 還原資料庫備份 (SQL Server Management Studio)](http://go.microsoft.com/fwlink/?LinkId=156511) (http://go.microsoft.com/fwlink/?LinkId=156511) 中[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]線上叢書 》。  
+7.  還原新的伺服器上的 BAM 主要匯入資料庫。 如需在還原資料庫的指示如何還原的資料庫時遵循[如何： 還原資料庫備份 (SQL Server Management Studio)](http://go.microsoft.com/fwlink/?LinkId=156511) (http://go.microsoft.com/fwlink/?LinkId=156511)中[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]線上叢書 》。  
   
     > [!NOTE]  
     >  如果您是從備份還原「BAM 主要匯入」資料庫，那麼您也應該使用比 BAM 主要備份還舊的備份，來還原「BAM 封存」、「BAM 星狀結構描述」及「BAM 分析」資料庫。  
   
-##  <a name="BKMK_BAMPIRef"></a>更新至新的 BAM 主要匯入資料庫的參考  
+##  <a name="BKMK_BAMPIRef"></a> 更新至新的 BAM 主要匯入資料庫的參考  
  移動資料庫之後，您必須更新至新的 BAM 主要匯入資料庫的所有參考。 必須更新下列參考：  
   
 -   新的伺服器名稱與更新所有的 BizTalk 資料庫。 您可以使用 UpdateDatabase.vbs 指令碼。 請參閱[，BizTalk 資料庫更新以新的伺服器名稱](../technical-guides/how-to-move-the-bam-primary-import-database2.md#BKMK_UpdateDB)。  
@@ -69,19 +69,19 @@ ms.lasthandoff: 12/01/2017
   
 -   更新的新伺服器和資料庫名稱在資料來源中所有的 OLAP cube。 請參閱[更新伺服器和資料來源中所有的 OLAP cube 的資料庫名稱](../technical-guides/how-to-move-the-bam-primary-import-database2.md#BKMK_UpdateDSOLAP)。  
   
-###  <a name="BKMK_UpdateDB"></a>若要使用新的伺服器名稱更新 BizTalk 資料庫  
+###  <a name="BKMK_UpdateDB"></a> 若要使用新的伺服器名稱更新 BizTalk 資料庫  
   
 1.  在上執行 BizTalk Server 的電腦，瀏覽至下列資料夾：  
   
     -   如果[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]安裝在 64 位元版本的 Windows Server:  
   
-         **%Programfiles (x86) %\Microsoft BizTalk Server 2010 \ bins32\schema\restore**  
+         **%ProgramFiles(x86)%\Microsoft BizTalk Server 2010\bins32\Schema\Restore**  
   
     -   如果[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]安裝在 32 位元版本的 Windows Server:  
   
          **%ProgramFiles%\Microsoft BizTalk Server 2010\Schema\Restore**  
   
-2.  以滑鼠右鍵按一下**SampleUpdateInfo.xml**，然後按一下 **編輯**。  
+2.  以滑鼠右鍵按一下 **SampleUpdateInfo.xml**, ，然後按一下  **編輯**。  
   
 3.  將除了 BizTalkMgmtDb、OldPrimaryImportDatabase、PrimaryImportDatabase、ArchivingDatabase、AnalysisDatabase、StarSchemaDatabase 和 Alert 以外的所有資料庫區段標記為註解。  
   
@@ -99,13 +99,13 @@ ms.lasthandoff: 12/01/2017
   
 7.  完成檔案的編輯後，請加以儲存並結束。  
   
-8.  按一下**啟動**，按一下 **執行**，型別**cmd**，然後按一下**確定**。  
+8.  按一下  **啟動**, ，按一下  **執行**, ，型別 **cmd**, ，然後按一下  **確定**。  
   
 9. 在命令提示字元中，瀏覽至下列目錄：  
   
     -   如果[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]安裝在 64 位元版本的 Windows Server:  
   
-         **%Programfiles (x86) %\Microsoft BizTalk Server 2010\Schema\Restore**  
+         **%ProgramFiles(x86)%\Microsoft BizTalk Server 2010\Schema\Restore**  
   
     -   如果[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]安裝在 32 位元版本的 Windows Server:  
   
@@ -115,7 +115,7 @@ ms.lasthandoff: 12/01/2017
   
      **cscript UpdateDatabase.vbs SampleUpdateInfo.xml**  
   
-###  <a name="BKMK_Config"></a>若要更新 BAM 入口網站的 Web.config 檔案  
+###  <a name="BKMK_Config"></a> 若要更新 BAM 入口網站的 Web.config 檔案  
   
 1.  在電腦上執行 BizTalk Server，更新 Web.config 檔案在**\<磁碟機\>: \Program Files\Microsoft BizTalk Server 2010\BAMPortal\BAMManagementService\Web.Config**。更新 Web.config 中的下列章節中的伺服器和資料庫名稱：  
   
@@ -138,23 +138,23 @@ ms.lasthandoff: 12/01/2017
   
 3.  儲存並關閉檔案。  
   
-###  <a name="BKMK_UpdateExcel"></a>若要更新 BAM Livedata Microsoft Excel 檔案中的參考  
+###  <a name="BKMK_UpdateExcel"></a> 若要更新 BAM Livedata Microsoft Excel 檔案中的參考  
   
 1.  開啟 Excel 即時資料檔案。 此檔案名稱是以 _LiveData.xls 結尾。  
   
-2.  在**BAM**功能表上，按一下  **BAM DB 連線**。  
+2.  在 **BAM** ] 功能表上，按一下 [ **BAM DB 連線**。  
   
 3.  在**選取 BAM 資料庫**對話方塊方塊中，輸入[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]電腦和 BAMPrimaryImport 資料庫，然後再按一下**確定**。  
   
-4.  在**檔案**功能表上，按一下 **關閉並返回 Microsoft Excel**。  
+4.  在 **檔案** ] 功能表上，按一下 [ **關閉並返回 Microsoft Excel**。  
   
 5.  在 [檔案] 功能表上，按一下 [儲存]。  
   
-###  <a name="BKMK_UpdatePckg"></a>若要更新的伺服器和所有 BAM SSIS 封裝中的資料庫名稱  
+###  <a name="BKMK_UpdatePckg"></a> 若要更新的伺服器和所有 BAM SSIS 封裝中的資料庫名稱  
   
 1.  更新所有 BAM 分析 SSIS 封裝，它會加上"BAM_AN_"或"BAM_DM_"中的伺服器和資料庫名稱。 若要這樣做，請按一下**啟動**，按一下 **所有程式**，按一下  **Microsoft SQL Server 2008 R2**或**Microsoft SQL Server 2008 SP1**，然後按一下**SQL Server Business Intelligence Development Studio**。  
   
-2.  在 SQL Server Business Intelligence Development Studio 中建立新專案。 按一下**檔案**，按一下 **新增**，然後按一下 **專案**。  
+2.  在 SQL Server Business Intelligence Development Studio 中建立新專案。 按一下  **檔案**, ，按一下  **新增**, ，然後按一下  **專案**。  
   
 3.  在**新專案**對話方塊中，於**專案類型**方塊中，按一下**商業智慧專案**。 在右窗格中，在**範本**方塊中，按一下**Integration Services 專案**，然後按一下 **確定**。  
   
@@ -162,7 +162,7 @@ ms.lasthandoff: 12/01/2017
   
 5.  在**加入現有封裝的副本**對話方塊中，於**伺服器**下拉式清單方塊中，選取包含 BAM_AN_ * 和 BAM_DM_ * 封裝的伺服器。  
   
-6.  在**封裝路徑**，按一下省略符號按鈕。  
+6.  在 **封裝路徑**, ，按一下省略符號按鈕。  
   
 7.  在**SSIS 封裝**對話方塊方塊中，選取您想要更新，請按一下的封裝**確定**，然後按一下  **確定**。  
   
@@ -198,11 +198,11 @@ ms.lasthandoff: 12/01/2017
     > [!NOTE]  
     >  您想要更新的所有封裝重複步驟 19 透過 16。  
   
-20. 按一下**確定**，然後按一下 **是**覆寫。  
+20. 按一下  **確定**, ，然後按一下  **是** 覆寫。  
   
 21. 啟用任何 BAM Cube 更新和資料維護 SSIS 封裝。  
   
-###  <a name="BKMK_UpdateDSOLAP"></a>更新伺服器和資料來源中所有的 OLAP cube 的資料庫名稱  
+###  <a name="BKMK_UpdateDSOLAP"></a> 更新伺服器和資料來源中所有的 OLAP cube 的資料庫名稱  
   
 1.  更新的伺服器和資料庫名稱在資料來源中所有的 OLAP cube。 若要這樣做，請按一下**啟動**，按一下 **所有程式**，按一下  **Microsoft SQL Server 2008 R2**或**Microsoft SQL Server 2008 SP1**，然後按一下**SQL Server Management Studio**。  
   
@@ -214,13 +214,13 @@ ms.lasthandoff: 12/01/2017
   
 5.  中**連接管理員**對話方塊中，於**伺服器名稱**方塊中，輸入裝載 BAMPrimaryImport 資料庫的伺服器名稱，按一下**確定**，然後按一下  **確定**。  
   
-6.  啟動所有[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]服務。 如需詳細資訊，請參閱主題[如何啟動、 停止、 暫停、 繼續或重新啟動 BizTalk Server 服務](http://go.microsoft.com/fwlink/?LinkId=154394)(http://go.microsoft.com/fwlink/?LinkId=154394) 中[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]幫助。  
+6.  啟動所有[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]服務。 如需詳細資訊，請參閱主題[如何啟動、 停止、 暫停、 繼續或重新啟動 BizTalk Server 服務](http://go.microsoft.com/fwlink/?LinkId=154394)(http://go.microsoft.com/fwlink/?LinkId=154394)中[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]幫助。  
   
 7.  啟動 IIS 服務。  
   
 8.  啟動 BAM 警示 Notification service:  
   
-    1.  按一下**啟動**，按一下 **執行**，型別**cmd**，然後按一下**確定**。  
+    1.  按一下  **啟動**, ，按一下  **執行**, ，型別 **cmd**, ，然後按一下  **確定**。  
   
     2.  在命令提示字元中，輸入：  
   
@@ -228,5 +228,5 @@ ms.lasthandoff: 12/01/2017
   
 9. 解決任何不完整的追蹤執行個體。  如需解決未完成的 BAM 活動執行個體的相關資訊，請參閱[如何解析未完成的活動執行個體](http://go.microsoft.com/fwlink/?LinkId=151475)(http://go.microsoft.com/fwlink/?LinkId=151475)。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [移動資料庫](../technical-guides/moving-databases.md)

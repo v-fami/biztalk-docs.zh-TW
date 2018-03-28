@@ -1,11 +1,11 @@
 ---
-title: "如何匯入原則 |Microsoft 文件"
-ms.custom: 
+title: 如何匯入原則 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - policies, requirements
@@ -13,15 +13,15 @@ helpviewer_keywords:
 - policies, importing
 - managing [policies], importing
 ms.assetid: 92f6ef18-279f-416d-b13e-8b9642539d27
-caps.latest.revision: "29"
+caps.latest.revision: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: ac21ad1348dbc934c81d87f3c477977eeecd2ccf
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="how-to-import-a-policy"></a>如何匯入原則
 本主題描述如何使用 [BizTalk Server 管理] 主控台將原則匯入到 BizTalk 群組，或是使用 BTSTask 命令列工具將原則匯入到 BizTalk 應用程式。  
@@ -58,29 +58,29 @@ ms.lasthandoff: 11/28/2017
   
 #### <a name="using-the-biztalk-server-administration-console"></a>使用 BizTalk Server 管理主控台  
   
-1.  按一下**啟動**，按一下 **所有程式**，按一下  [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]，然後按一下  **BizTalk Server 管理**。  
+1.  按一下  **啟動**, ，按一下  **所有程式**, ，按一下  [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], ，然後按一下  **BizTalk Server 管理**。  
   
 2.  在主控台樹狀目錄中，依序展開[!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]，要匯入原則，請依序展開 BizTalk 群組**應用程式**，然後展開**\<所有成品\>**.  
   
-3.  以滑鼠右鍵按一下**原則**，然後按一下 **匯入**。  
+3.  以滑鼠右鍵按一下 **原則**, ，然後按一下  **匯入**。  
   
-4.  .Xml 檔案包含原則，並按一下 瀏覽**開啟**。  
+4.  瀏覽至原則，然後按一下包含.xml 檔案 **開啟**。  
   
      原則匯入的群組，並顯示在**原則**資料夾**\<所有成品\>**。  
   
 #### <a name="using-the-command-line"></a>使用命令列  
   
-1.  開啟命令提示字元，如下所示： 按一下**啟動**，按一下**執行**，型別`cmd`，然後按一下 **確定**。  
+1.  開啟命令提示字元，如下所示︰ 按一下 **啟動**, ，按一下  **執行**, ，型別 `cmd`, ，然後按一下  **確定**。  
   
 2.  輸入下列命令，並以適當的值替代，如下表所述：  
   
-     **BTSTask 的 ImportApp /Package:** *值*[**/ApplicationName:***值*] [**/覆寫**] [**/ 伺服器：***值*] [**/database:***值*]  
+     **BTSTask 的 ImportApp /Package:** *值*[**/ApplicationName: * **值*] [**/覆寫**] [**/Server:***值 *] [* * / d a t:***值 *]  
   
      範例：  
   
-     **BTSTask 的 ImportApp /Package:"C:\MSI Files\MyApplication.msi"/Environment:Test /applicationname: myapplication / 覆寫**  
+     **BTSTask 的 ImportApp /Package: 「 C:\MSI Files\MyApplication.msi"/Environment:Test /applicationname: myapplication / 覆寫**  
   
-    |參數|值|  
+    |參數|Value|  
     |---------------|-----------|  
     |**/ 封裝**|包含要匯入之原則的 .msi 檔案的完整路徑。 如果路徑包含空格，您必須將它括在引號 (") 中。|  
     |**/ 應用程式名稱**|要將原則匯入其中的 BizTalk 應用程式名稱。 如果沒有指定，將會使用匯入 .msi 檔案時指定的應用程式名稱。 如果指定的應用程式不存在，則會建立該應用程式。 包含空格的應用程式名稱必須以雙引號 (") 圍住。|  
@@ -89,9 +89,9 @@ ms.lasthandoff: 11/28/2017
     |**/ 資料庫**|BizTalk 管理資料庫的名稱。 如果沒有指定，將會使用在 SQL Server 本機執行個體中執行的 BizTalk 管理資料庫。|  
   
     > [!NOTE]
-    >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。 若要這樣做，應用程式，以滑鼠右鍵按一下，然後選取**系統管理員身分執行**。  
+    >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。 若要這樣做，應用程式，以滑鼠右鍵按一下，然後選取 **系統管理員身分執行**。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [匯入 BizTalk 應用程式、 繫結和原則](../core/importing-biztalk-applications-bindings-and-policies.md)   
  [匯出 BizTalk 應用程式、 繫結和原則](../core/exporting-biztalk-applications-bindings-and-policies.md)   
  [管理原則](../core/managing-policies.md)
