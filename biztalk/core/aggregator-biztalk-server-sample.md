@@ -15,7 +15,7 @@ helpviewer_keywords:
 - examples, pipelines
 - messages, correlating to orchestrations
 ms.assetid: eb8121df-4f5b-4f36-8228-4b5ad1abfb4e
-caps.latest.revision: ''
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -91,9 +91,9 @@ ms.lasthandoff: 03/23/2018
   
 1.  開啟位於 PipelinesAndSchemas 資料夾中的 Instance1.txt 和 Instance2.txt 檔案，檢查其內容。  
   
-     請注意，在檔案的 DestinationPartnerURI 項目包含值http://www.contoso.com。這個值會用來將這兩個訊息相互關聯，如此它們就可加入到同一個交換中。  
+     請注意，在檔案的 DestinationPartnerURI 項目包含值http://www.contoso.com 。這個值會用來將這兩個訊息相互關聯，如此它們就可加入到同一個交換中。  
   
-     同樣地 Instance3.txt 和 Instance4.txt 檔案具有 DestinationPatnerURI 項目設為http://www.northwind.com。  
+     同樣地 Instance3.txt 和 Instance4.txt 檔案具有 DestinationPatnerURI 項目設為http://www.northwind.com 。  
   
      這兩個訊息會一起加入到另一個交換中。  
   

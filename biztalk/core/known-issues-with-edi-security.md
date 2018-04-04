@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9d7f68bc-8460-4656-b9f2-955337458d78
-caps.latest.revision: ''
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,7 +27,7 @@ ms.lasthandoff: 03/23/2018
  若您覆寫輸入訊息屬性 (位於 [做為 AS2 訊息傳送者的合作對象] 頁面上)，並清除 [訊息應該簽署] 屬性，則 BizTalk Server 會擱置已簽署的內送訊息。  
   
 ## <a name="access-to-program-files-folder-can-be-limited-to-prevent-file-tampering"></a>可限制程式檔案資料夾的存取，以防檔案遭竄改  
- 若含 BizTalk Server 可執行檔和 EDI 結構描述的 [程式檔案] 資料夾可供未經驗證的使用者使用，則這類使用者有可能修改那些檔案。 為了防止此等威脅，您可以使用 [程式檔案] 資料夾的 [存取控制清單] (ACL)，限制只讓信任的使用者存取資料夾。  
+ 若含 BizTalk Server 可執行檔和 EDI 結構描述的 [程式檔案] 資料夾可供未經驗證的使用者使用，則這類使用者有可能修改那些檔案。 為了防止此等威脅，您可以使用 [程式檔案] 資料夾的 [存取控制清單]\ (ACL)，限制只讓信任的使用者存取資料夾。  
   
 ## <a name="a-schema-with-a-long-field-can-be-susceptible-to-a-denial-of-service-attack"></a>含長欄位的結構描述，可能容易遭拒絕服務攻擊  
  自訂結構描述如果欄位太長，可能容易遭拒絕服務攻擊利用。 隨附的結構描述[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]不需要大費周章，有的欄位，因此通常不會遭受此等攻擊。  
