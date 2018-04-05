@@ -1,15 +1,16 @@
 ---
-title: "安全性增強功能 |Microsoft 文件"
-ms.custom: 
+title: 安全性增強功能 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: security
+helpviewer_keywords:
+- security
 ms.assetid: 660a73f7-902d-4150-b95f-0c2c3be00eab
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

@@ -1,15 +1,16 @@
 ---
-title: "TrackedSchemas （ModuleRef 節點） |Microsoft 文件"
-ms.custom: 
+title: TrackedSchemas （ModuleRef 節點） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: TrackedSchemas node [binding file]
+helpviewer_keywords:
+- TrackedSchemas node [binding file]
 ms.assetid: a2b99fbf-df6b-4a94-97b8-ac5eb819604f
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

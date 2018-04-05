@@ -1,15 +1,16 @@
 ---
-title: "核准階段 |Microsoft 文件"
-ms.custom: 
+title: 核准階段 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: stages, approval
+helpviewer_keywords:
+- stages, approval
 ms.assetid: a3d36956-dabc-4f8c-b61d-d7665289ca76
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

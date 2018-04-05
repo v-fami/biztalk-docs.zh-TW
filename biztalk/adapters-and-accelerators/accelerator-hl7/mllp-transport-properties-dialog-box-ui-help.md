@@ -1,15 +1,16 @@
 ---
-title: "MLLP 傳輸屬性對話方塊 UI 說明 |Microsoft 文件"
-ms.custom: 
+title: MLLP 傳輸屬性對話方塊 UI 說明 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: btahl7.mllp.transportproperties
+f1_keywords:
+- btahl7.mllp.transportproperties
 ms.assetid: 2a41aaeb-a91d-4d89-ac8a-1cfe48ab4cd4
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

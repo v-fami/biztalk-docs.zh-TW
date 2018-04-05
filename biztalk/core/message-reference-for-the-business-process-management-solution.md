@@ -1,15 +1,16 @@
 ---
-title: "商務程序管理解決方案的訊息參考 |Microsoft 文件"
-ms.custom: 
+title: 商務程序管理解決方案的訊息參考 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: process management solution tutorial, message reference
+helpviewer_keywords:
+- process management solution tutorial, message reference
 ms.assetid: 0595817e-da5d-426a-9ee1-0c5d04334de6
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

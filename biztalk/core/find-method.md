@@ -1,15 +1,16 @@
 ---
-title: "Find 方法 |Microsoft 文件"
-ms.custom: 
+title: Find 方法 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: Find method
+helpviewer_keywords:
+- Find method
 ms.assetid: 676827a6-82af-4922-bf9e-aca5bd23624b
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

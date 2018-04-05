@@ -1,15 +1,16 @@
 ---
-title: "實體圖 |Microsoft 文件"
-ms.custom: 
+title: 實體圖 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: deploying, network configuration
+helpviewer_keywords:
+- deploying, network configuration
 ms.assetid: 4291727b-8687-496a-8f03-0da4b3201967
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

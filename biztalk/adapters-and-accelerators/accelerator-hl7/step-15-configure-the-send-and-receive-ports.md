@@ -1,15 +1,16 @@
 ---
-title: "步驟 15： 設定傳送埠和接收埠 |Microsoft 文件"
-ms.custom: 
+title: 步驟 15： 設定傳送埠和接收埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: message enrichment tutorial, ports
+helpviewer_keywords:
+- message enrichment tutorial, ports
 ms.assetid: d532b196-473e-4c8f-b4ed-acef674fc698
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

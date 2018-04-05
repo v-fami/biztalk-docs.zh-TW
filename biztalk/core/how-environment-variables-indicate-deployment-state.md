@@ -1,15 +1,16 @@
 ---
-title: "環境變數如何指示部署狀態 |Microsoft 文件"
-ms.custom: 
+title: 環境變數如何指示部署狀態 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: scripts, variables
+helpviewer_keywords:
+- scripts, variables
 ms.assetid: 022b782b-008d-41a7-9880-d1c4e5e4015e
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

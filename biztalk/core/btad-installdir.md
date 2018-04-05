@@ -1,15 +1,16 @@
 ---
-title: "BTAD_InstallDir |Microsoft 文件"
-ms.custom: 
+title: BTAD_InstallDir |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: BTAD_InstallDir [environment variable]
+helpviewer_keywords:
+- BTAD_InstallDir [environment variable]
 ms.assetid: 3120f897-5501-4e99-8552-9d97e6314cd1
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

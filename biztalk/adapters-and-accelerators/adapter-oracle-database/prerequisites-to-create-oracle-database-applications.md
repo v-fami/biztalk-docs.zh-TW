@@ -1,15 +1,16 @@
 ---
-title: "若要建立 Oracle 資料庫應用程式的必要條件 |Microsoft 文件"
-ms.custom: 
+title: 若要建立 Oracle 資料庫應用程式的必要條件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: strong-name key file, creating a
+helpviewer_keywords:
+- strong-name key file, creating a
 ms.assetid: 7a6b2e50-8153-468c-a25e-c15612792773
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

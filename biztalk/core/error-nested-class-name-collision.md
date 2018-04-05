@@ -1,15 +1,16 @@
 ---
-title: "錯誤-巢狀的類別名稱衝突 |Microsoft 文件"
-ms.custom: 
+title: 錯誤-巢狀的類別名稱衝突 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.edit.error.nestedClassNameCollision
+f1_keywords:
+- bts10.edit.error.nestedClassNameCollision
 ms.assetid: dd636d25-d0c1-41be-a2ba-b38ea97b973d
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

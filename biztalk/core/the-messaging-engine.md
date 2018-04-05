@@ -1,15 +1,16 @@
 ---
-title: "傳訊引擎 |Microsoft 文件"
-ms.custom: 
+title: 傳訊引擎 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: Messaging Engine
+helpviewer_keywords:
+- Messaging Engine
 ms.assetid: 8bd25255-5eee-4666-b1f3-725782e05669
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

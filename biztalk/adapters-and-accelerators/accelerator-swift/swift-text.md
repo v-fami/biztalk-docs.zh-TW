@@ -1,15 +1,16 @@
 ---
-title: "SWIFT 文字 |Microsoft 文件"
-ms.custom: 
+title: SWIFT 文字 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: SWIFT, text
+helpviewer_keywords:
+- SWIFT, text
 ms.assetid: 90851d38-7789-4b1b-813b-7943f77ab984
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

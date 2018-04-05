@@ -1,15 +1,16 @@
 ---
-title: "SAP 配接器在 SAPParameterCollection 類別 |Microsoft 文件"
-ms.custom: 
+title: SAP 配接器在 SAPParameterCollection 類別 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: SAPParameterCollection, supported methods and classes
+helpviewer_keywords:
+- SAPParameterCollection, supported methods and classes
 ms.assetid: fd09355b-95f4-4d49-a643-b13058e63d74
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

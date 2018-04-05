@@ -1,15 +1,16 @@
 ---
-title: "TransmitPipeline （ReceivePort 節點） |Microsoft 文件"
-ms.custom: 
+title: TransmitPipeline （ReceivePort 節點） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: TransmitPipeline node [binding file]
+helpviewer_keywords:
+- TransmitPipeline node [binding file]
 ms.assetid: 0f3b728f-1e4a-40e5-9ca9-f7dcdf995cbe
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

@@ -1,15 +1,16 @@
 ---
-title: "Wcf-wshttp 配接器 |Microsoft 文件"
-ms.custom: 
+title: Wcf-wshttp 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: WCF-WSHttp adapters
+helpviewer_keywords:
+- WCF-WSHttp adapters
 ms.assetid: b0e5dbae-1eaf-4119-bf27-d95d144d0fa0
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

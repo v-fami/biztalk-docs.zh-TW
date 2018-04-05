@@ -1,15 +1,16 @@
 ---
-title: "TransportType （PrimaryTransport 節點） |Microsoft 文件"
-ms.custom: 
+title: TransportType （PrimaryTransport 節點） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: TransportType node [binding file]
+helpviewer_keywords:
+- TransportType node [binding file]
 ms.assetid: 9eb377ec-35d8-4b72-85f9-f264f6553c5a
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

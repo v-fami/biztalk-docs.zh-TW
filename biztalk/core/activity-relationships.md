@@ -1,15 +1,16 @@
 ---
-title: "活動關係 |Microsoft 文件"
-ms.custom: 
+title: 活動關係 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: activities [BAM], relationships
+helpviewer_keywords:
+- activities [BAM], relationships
 ms.assetid: da7c7205-18c6-44df-af03-3140214c84e6
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

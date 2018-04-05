@@ -1,19 +1,20 @@
 ---
-title: "驗證索引標籤 |Microsoft 文件"
-ms.custom: 
+title: 驗證索引標籤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: btahl7.configurationexplorer.tab.validation
+f1_keywords:
+- btahl7.configurationexplorer.tab.validation
 helpviewer_keywords:
 - validating, configuring
 - Validation tab [Configuration Explorer]
 - configuring, validating
 ms.assetid: 6d47d951-c70b-43f0-bde2-99978fa78709
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

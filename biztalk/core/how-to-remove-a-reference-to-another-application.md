@@ -1,15 +1,16 @@
 ---
-title: "如何移除另一個應用程式的參考 |Microsoft 文件"
-ms.custom: 
+title: 如何移除另一個應用程式的參考 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: applications, references
+helpviewer_keywords:
+- applications, references
 ms.assetid: cc867706-7c56-4386-b7ec-9fd7cf6c83a4
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

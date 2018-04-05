@@ -1,15 +1,16 @@
 ---
-title: "SOAP 配接器 |Microsoft 文件"
-ms.custom: 
+title: SOAP 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: SOAP adapters
+helpviewer_keywords:
+- SOAP adapters
 ms.assetid: a971b458-91a9-4096-96a3-54849dd0fe36
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

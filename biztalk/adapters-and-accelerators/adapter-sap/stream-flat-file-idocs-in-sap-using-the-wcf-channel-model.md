@@ -1,15 +1,16 @@
 ---
-title: "資料流中使用 WCF 通道模型的 SAP 的一般檔案 Idoc |Microsoft 文件"
-ms.custom: 
+title: 資料流中使用 WCF 通道模型的 SAP 的一般檔案 Idoc |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: WCF channel model, streaming flat-file IDOCs
+helpviewer_keywords:
+- WCF channel model, streaming flat-file IDOCs
 ms.assetid: 5010e215-d8d0-47c8-93a6-20cfdeff2951
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

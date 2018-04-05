@@ -1,15 +1,16 @@
 ---
-title: "BTAD_InstallMode |Microsoft 文件"
-ms.custom: 
+title: BTAD_InstallMode |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: BTAD_InstallMode [environment variable]
+helpviewer_keywords:
+- BTAD_InstallMode [environment variable]
 ms.assetid: b0ca48b8-c672-4704-9a04-2c6f159e57be
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

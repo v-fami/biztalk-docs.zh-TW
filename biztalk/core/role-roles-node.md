@@ -1,15 +1,16 @@
 ---
-title: "角色 （角色節點） |Microsoft 文件"
-ms.custom: 
+title: 角色 （角色節點） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: Role node [binding file]
+helpviewer_keywords:
+- Role node [binding file]
 ms.assetid: dfe2a579-7090-4d85-87e5-d627598c4ee8
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

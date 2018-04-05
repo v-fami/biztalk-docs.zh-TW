@@ -1,18 +1,19 @@
 ---
-title: "協調流程偵錯工具使用者介面 |Microsoft 文件"
-ms.custom: 
+title: 協調流程偵錯工具使用者介面 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.hat.orchdebugger
+f1_keywords:
+- bts10.hat.orchdebugger
 helpviewer_keywords:
 - Orchestration Debugger, debug mode
 - Orchestration Debugger, Interactive mode
 ms.assetid: ca18f1e2-63b7-4177-82ba-4accc3369a2a
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

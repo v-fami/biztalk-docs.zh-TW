@@ -1,13 +1,14 @@
 ---
-title: "JD Edwards OneWorld 新增配接器中繼資料精靈 |Microsoft 文件"
-ms.custom: 
+title: JD Edwards OneWorld 新增配接器中繼資料精靈 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: JDEOneWorldAdapter
+f1_keywords:
+- JDEOneWorldAdapter
 helpviewer_keywords:
 - Add Adapter Wizard, JD Edwards OneWorld adapters
 - adapters, Add Adapter Wizard
@@ -16,7 +17,7 @@ helpviewer_keywords:
 - JD Edwards OneWorld adapters, Add Adapter Wizard
 - tools, Add Adapter Wizard
 ms.assetid: 7452fe48-2c52-4181-9cad-950ae75e11f8
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

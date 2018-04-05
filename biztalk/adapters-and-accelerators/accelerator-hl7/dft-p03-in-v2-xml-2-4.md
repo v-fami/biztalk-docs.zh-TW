@@ -1,15 +1,16 @@
 ---
-title: "V2 中 DFT_P03。XML 2.4 |Microsoft 文件"
-ms.custom: 
+title: V2 中 DFT_P03。XML 2.4 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: DFT_P03 schema
+helpviewer_keywords:
+- DFT_P03 schema
 ms.assetid: 6735685a-2aac-4481-87d1-202b2178aeb5
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

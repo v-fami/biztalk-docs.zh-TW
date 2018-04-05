@@ -1,15 +1,16 @@
 ---
-title: "設定 Siebel 配接器的連線 URI |Microsoft 文件"
-ms.custom: 
+title: 設定 Siebel 配接器的連線 URI |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: connection URI, specifying
+helpviewer_keywords:
+- connection URI, specifying
 ms.assetid: b89b60e9-0f3b-4305-865e-9d3b40d04648
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

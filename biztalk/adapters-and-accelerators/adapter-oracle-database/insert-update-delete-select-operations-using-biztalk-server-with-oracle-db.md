@@ -1,15 +1,16 @@
 ---
-title: "插入、 更新、 刪除或選取 使用 BizTalk Server 與 Oracle 資料庫的作業 |Microsoft 文件"
-ms.custom: 
+title: 插入、 更新、 刪除或選取 使用 BizTalk Server 與 Oracle 資料庫的作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: operations, performing basic operations using BizTalk Server
+helpviewer_keywords:
+- operations, performing basic operations using BizTalk Server
 ms.assetid: debf450e-0936-42bb-b071-89d17e6e5da2
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

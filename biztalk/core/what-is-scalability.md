@@ -1,15 +1,16 @@
 ---
-title: "什麼是擴充性？ | Microsoft Docs"
-ms.custom: 
+title: 什麼是擴充性？ | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: scaling, scalability
+helpviewer_keywords:
+- scaling, scalability
 ms.assetid: ac6acefd-864a-4f22-a136-a1951fe71e96
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

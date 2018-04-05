@@ -1,15 +1,16 @@
 ---
-title: "設定 X12 後援協議屬性 |Microsoft 文件"
-ms.custom: 
+title: 設定 X12 後援協議屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.admin.x12fallback.properties
+f1_keywords:
+- bts10.admin.x12fallback.properties
 ms.assetid: fb780b54-e65c-4e85-852e-032e0af39654
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

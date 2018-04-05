@@ -1,15 +1,16 @@
 ---
-title: "使用 Oracle 資料庫配接器的 WCF 通道模型概觀 |Microsoft 文件"
-ms.custom: 
+title: 使用 Oracle 資料庫配接器的 WCF 通道模型概觀 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: WCF channel model, overview
+helpviewer_keywords:
+- WCF channel model, overview
 ms.assetid: 4712ba62-8360-475c-b2e4-422e499eca21
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -58,7 +59,7 @@ ms.lasthandoff: 11/28/2017
   
 -   <span data-ttu-id="3f5e2-143">訊息動作是 SOAP 訊息標頭的字串。</span><span class="sxs-lookup"><span data-stu-id="3f5e2-143">The message action is a string that is part of the SOAP message header.</span></span> <span data-ttu-id="3f5e2-144">訊息動作會識別應該要叫用的 Oracle 資料庫的作業。</span><span class="sxs-lookup"><span data-stu-id="3f5e2-144">The message action identifies the operation that should be invoked on the Oracle database.</span></span> <span data-ttu-id="3f5e2-145">下列範例示範叫用選取的作業/SCOTT/EMP 資料表上所指定的訊息動作： `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Select`。</span><span class="sxs-lookup"><span data-stu-id="3f5e2-145">The following shows the message action specified to invoke the Select operation on the /SCOTT/EMP table: `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Select`.</span></span>  
   
--   <span data-ttu-id="3f5e2-146">訊息內文包含作業的參數資料。</span><span class="sxs-lookup"><span data-stu-id="3f5e2-146">The message body contains the parameter data for the operation.</span></span> <span data-ttu-id="3f5e2-147">訊息本文由格式正確對應至所預期的訊息結構描述的 XML 組成[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]要求的作業。</span><span class="sxs-lookup"><span data-stu-id="3f5e2-147">The message body is composed of well-formed XML that corresponds to the message schema expected by the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] for the requested operation.</span></span> <span data-ttu-id="3f5e2-148">下列的訊息本文指定 SCOTT 上的選取作業。EMP 資料表 (選取 * 從 EMP)。</span><span class="sxs-lookup"><span data-stu-id="3f5e2-148">The following message body specifies a Select operation on the SCOTT.EMP table (SELECT * FROM EMP).</span></span>  
+-   <span data-ttu-id="3f5e2-146">訊息內文包含作業的參數資料。</span><span class="sxs-lookup"><span data-stu-id="3f5e2-146">The message body contains the parameter data for the operation.</span></span> <span data-ttu-id="3f5e2-147">訊息本文由格式正確對應至所預期的訊息結構描述的 XML 組成[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]要求的作業。</span><span class="sxs-lookup"><span data-stu-id="3f5e2-147">The message body is composed of well-formed XML that corresponds to the message schema expected by the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] for the requested operation.</span></span> <span data-ttu-id="3f5e2-148">下列的訊息本文指定 SCOTT 上的選取作業。EMP 資料表 (選取 \* 從 EMP)。</span><span class="sxs-lookup"><span data-stu-id="3f5e2-148">The following message body specifies a Select operation on the SCOTT.EMP table (SELECT \* FROM EMP).</span></span>  
   
     ```  
     <?xml version="1.0" encoding="utf-8" ?>  

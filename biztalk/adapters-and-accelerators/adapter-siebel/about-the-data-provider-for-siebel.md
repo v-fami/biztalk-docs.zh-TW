@@ -1,15 +1,16 @@
 ---
-title: "Siebel 的資料提供者相關 |Microsoft 文件"
-ms.custom: 
+title: Siebel 的資料提供者相關 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: Data Provider for Siebel, overview
+helpviewer_keywords:
+- Data Provider for Siebel, overview
 ms.assetid: 461fe4d8-75f2-49d5-9fc2-3baab4ccf13f
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

@@ -1,15 +1,16 @@
 ---
-title: "基本協調流程 Design2 |Microsoft 文件"
-ms.custom: 
+title: 基本協調流程 Design2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: orchestrations, design
+helpviewer_keywords:
+- orchestrations, design
 ms.assetid: fcdcb232-6a8f-41f3-b863-3b9e2cda28e3
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

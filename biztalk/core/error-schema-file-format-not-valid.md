@@ -1,15 +1,16 @@
 ---
-title: "錯誤-無效的結構描述檔案格式 |Microsoft 文件"
-ms.custom: 
+title: 錯誤-無效的結構描述檔案格式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.edit.error.schemaFileFormatNotValid
+f1_keywords:
+- bts10.edit.error.schemaFileFormatNotValid
 ms.assetid: ec070368-5724-4be8-86f0-5b1894989e6c
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

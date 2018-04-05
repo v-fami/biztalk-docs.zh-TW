@@ -1,15 +1,16 @@
 ---
-title: "步驟 1： 建立 Fabrikam 主要組織 |Microsoft 文件"
-ms.custom: 
+title: 步驟 1： 建立 Fabrikam 主要組織 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: double action tutorial, creating home organizations
+helpviewer_keywords:
+- double action tutorial, creating home organizations
 ms.assetid: ff715718-9f84-4737-a367-22e36321ccf6
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

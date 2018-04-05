@@ -1,15 +1,16 @@
 ---
-title: "BizTalk Accelerator for SWIFT 的部署指南 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Accelerator for SWIFT 的部署指南 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: deploying, deployment guide
+helpviewer_keywords:
+- deploying, deployment guide
 ms.assetid: 484563a2-19e0-437d-b33b-e4f0b4162981
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

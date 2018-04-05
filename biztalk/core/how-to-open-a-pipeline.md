@@ -1,15 +1,16 @@
 ---
-title: "如何開啟管線 |Microsoft 文件"
-ms.custom: 
+title: 如何開啟管線 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: pipelines, opening
+helpviewer_keywords:
+- pipelines, opening
 ms.assetid: ea9bb905-4363-4a46-ad04-855d6d9dc1b7
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

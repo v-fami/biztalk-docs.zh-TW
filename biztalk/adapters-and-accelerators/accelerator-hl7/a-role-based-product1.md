@@ -1,15 +1,16 @@
 ---
-title: "以角色為基礎的 Product1 |Microsoft 文件"
-ms.custom: 
+title: 以角色為基礎的 Product1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: roles
+helpviewer_keywords:
+- roles
 ms.assetid: 8f138f06-61bb-430f-8888-69721cf1f8bd
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

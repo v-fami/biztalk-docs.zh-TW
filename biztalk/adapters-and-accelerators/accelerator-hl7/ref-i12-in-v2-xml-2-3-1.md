@@ -1,15 +1,16 @@
 ---
-title: "V2 中 REF_I12。XML 2.3.1 |Microsoft 文件"
-ms.custom: 
+title: V2 中 REF_I12。XML 2.3.1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: REF_I12 schema
+helpviewer_keywords:
+- REF_I12 schema
 ms.assetid: de30b128-3c70-41ea-849f-16f4c6d55430
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

@@ -1,15 +1,16 @@
 ---
-title: "錯誤-一般原生剖析 |Microsoft 文件"
-ms.custom: 
+title: 錯誤-一般原生剖析 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.map.error.genericNativeParsing
+f1_keywords:
+- bts10.map.error.genericNativeParsing
 ms.assetid: a28a4c0f-b69b-448b-b305-3b06b4f061e4
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

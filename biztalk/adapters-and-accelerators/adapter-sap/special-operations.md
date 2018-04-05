@@ -1,15 +1,16 @@
 ---
-title: "特殊作業 |Microsoft 文件"
-ms.custom: 
+title: 特殊作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: operations, special operations surfaced by the SAP adapter
+helpviewer_keywords:
+- operations, special operations surfaced by the SAP adapter
 ms.assetid: 8725fe63-6ff4-49c8-b386-d4c67e2be440
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

@@ -1,15 +1,16 @@
 ---
-title: "訊息版本控制 Support1 |Microsoft 文件"
-ms.custom: 
+title: 訊息版本控制 Support1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: message versioning, support for
+helpviewer_keywords:
+- message versioning, support for
 ms.assetid: 650b966e-9fa6-4af8-a061-7852a892717a
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

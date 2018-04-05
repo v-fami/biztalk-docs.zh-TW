@@ -1,15 +1,16 @@
 ---
-title: "A4SWIFT 清理工具 |Microsoft 文件"
-ms.custom: 
+title: A4SWIFT 清理工具 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: A4SWIFT Cleanup tool
+helpviewer_keywords:
+- A4SWIFT Cleanup tool
 ms.assetid: e694f824-6097-4d60-bc7b-b4f1a40acea0
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

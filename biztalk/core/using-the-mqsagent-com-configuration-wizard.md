@@ -1,19 +1,20 @@
 ---
-title: "使用 MQSAgent COM + 組態精靈 |Microsoft 文件"
-ms.custom: 
+title: 使用 MQSAgent COM + 組態精靈 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.mqsagent.wizard
+f1_keywords:
+- bts10.mqsagent.wizard
 helpviewer_keywords:
 - MQSeries adapters, MQSAgent COM+ Configuration Wizard
 - configuring [MQSeries adapters], MQSAgent COM+ Configuration Wizard
 - MQSAgent COM+ Configuration Wizard
 ms.assetid: f106700a-7f57-4c83-9344-6525fc10544d
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

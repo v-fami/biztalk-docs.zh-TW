@@ -1,15 +1,16 @@
 ---
-title: "錯誤-原生輸入的檔案不存在 |Microsoft 文件"
-ms.custom: 
+title: 錯誤-原生輸入的檔案不存在 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.map.error.nativeInputFileDoesNotExist
+f1_keywords:
+- bts10.map.error.nativeInputFileDoesNotExist
 ms.assetid: 17713896-8557-4bf1-b5f0-871b905ae15e
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

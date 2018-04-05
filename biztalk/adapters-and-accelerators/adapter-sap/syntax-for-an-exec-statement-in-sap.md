@@ -1,15 +1,16 @@
 ---
-title: "SAP 的 EXEC 陳述式的語法 |Microsoft 文件"
-ms.custom: 
+title: SAP 的 EXEC 陳述式的語法 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: EXEC statement, syntax for
+helpviewer_keywords:
+- EXEC statement, syntax for
 ms.assetid: 406b1100-39a0-4321-89c9-ec1b8a3cfdc6
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

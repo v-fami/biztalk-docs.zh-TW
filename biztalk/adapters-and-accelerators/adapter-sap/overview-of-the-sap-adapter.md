@@ -1,15 +1,16 @@
 ---
-title: "SAP 配接器的概觀 |Microsoft 文件"
-ms.custom: 
+title: SAP 配接器的概觀 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: adapters, overview
+helpviewer_keywords:
+- adapters, overview
 ms.assetid: 2d078b13-d41f-476f-bfb4-82be4d35a769
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

@@ -1,15 +1,16 @@
 ---
-title: "取得中繼資料在 Oracle 資料庫中使用 IMetadataRetrievalContract |Microsoft 文件"
-ms.custom: 
+title: 取得中繼資料在 Oracle 資料庫中使用 IMetadataRetrievalContract |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: metadata, retrieving using IMetadataRetrievalContract
+helpviewer_keywords:
+- metadata, retrieving using IMetadataRetrievalContract
 ms.assetid: 7d32694f-4384-4c2f-be72-ac52c7b2e9f5
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

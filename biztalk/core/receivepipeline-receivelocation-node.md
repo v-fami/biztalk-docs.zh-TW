@@ -1,15 +1,16 @@
 ---
-title: "ReceivePipeline （ReceiveLocation 節點） |Microsoft 文件"
-ms.custom: 
+title: ReceivePipeline （ReceiveLocation 節點） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: ReceivePipeline node [binding file]
+helpviewer_keywords:
+- ReceivePipeline node [binding file]
 ms.assetid: bd90ca2d-21e4-4d21-bc67-f16a150053e4
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

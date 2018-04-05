@@ -1,16 +1,18 @@
 ---
-title: "開始使用 BizTalk Server |Microsoft 文件"
-ms.custom: 
+title: 開始使用 BizTalk Server |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.gettingstarted.main
-helpviewer_keywords: getting started
+f1_keywords:
+- bts10.gettingstarted.main
+helpviewer_keywords:
+- getting started
 ms.assetid: 7a91a0e4-9b1c-4cd2-a98b-337d6d42b08a
-caps.latest.revision: "38"
+caps.latest.revision: 38
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

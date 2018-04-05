@@ -1,15 +1,16 @@
 ---
-title: "轉換 （ReceivePort 節點） |Microsoft 文件"
-ms.custom: 
+title: 轉換 （ReceivePort 節點） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: Transforms node [binding file]
+helpviewer_keywords:
+- Transforms node [binding file]
 ms.assetid: cd32f2fe-b70a-4153-86ec-bb1aa9bad0e4
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

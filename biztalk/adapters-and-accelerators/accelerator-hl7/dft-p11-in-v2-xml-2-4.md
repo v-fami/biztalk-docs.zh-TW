@@ -1,15 +1,16 @@
 ---
-title: "V2 中 DFT_P11。XML 2.4 |Microsoft 文件"
-ms.custom: 
+title: V2 中 DFT_P11。XML 2.4 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: DFT_P11 schema
+helpviewer_keywords:
+- DFT_P11 schema
 ms.assetid: 3887a8bb-94df-4a3b-b828-f46013d1abb8
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

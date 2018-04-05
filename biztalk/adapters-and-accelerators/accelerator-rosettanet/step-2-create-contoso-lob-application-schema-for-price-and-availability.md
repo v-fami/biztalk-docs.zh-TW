@@ -1,15 +1,16 @@
 ---
-title: "步驟 2： 建立 Contoso LOB 應用程式的結構描述為價格與可用性專案使用 BizTalk 編輯器 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 建立 Contoso LOB 應用程式的結構描述為價格與可用性專案使用 BizTalk 編輯器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: private process tutorial, creating LOB schemas
+helpviewer_keywords:
+- private process tutorial, creating LOB schemas
 ms.assetid: 70e26dc9-4299-4d30-8f8b-5cc3469a2025
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

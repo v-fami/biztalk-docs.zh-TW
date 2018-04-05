@@ -1,19 +1,20 @@
 ---
-title: "如何連接到現有的群組 |Microsoft 文件"
-ms.custom: 
+title: 如何連接到現有的群組 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.admin.procedure.connecttogroup
+f1_keywords:
+- bts10.admin.procedure.connecttogroup
 helpviewer_keywords:
 - groups, existing
 - groups, connecting
 - managing [groups], connecting
 ms.assetid: 1eedbcd5-f3f1-4da5-b91c-67377131f889
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

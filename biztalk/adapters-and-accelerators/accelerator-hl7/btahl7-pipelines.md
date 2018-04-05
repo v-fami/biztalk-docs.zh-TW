@@ -1,15 +1,16 @@
 ---
-title: "BTAHL7 管線 |Microsoft 文件"
-ms.custom: 
+title: BTAHL7 管線 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: pipelines
+helpviewer_keywords:
+- pipelines
 ms.assetid: 31a39f1d-de9f-4078-ac6f-4f600d48abc6
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

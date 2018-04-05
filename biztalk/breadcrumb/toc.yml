@@ -48,6 +48,6 @@
     - name: ESB 工具組
       tocHref: /biztalk/esb-toolkit/
       topicHref: /biztalk/esb-toolkit/microsoft-biztalk-esb-toolkit
-    - name: Feature Pack 1
+    - name: 功能套件
       tocHref: /biztalk/feature-pack-1/
       topicHref: /biztalk/feature-pack-1/feature-pack-1-rest-api-reference

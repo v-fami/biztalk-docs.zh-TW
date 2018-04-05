@@ -1,15 +1,16 @@
 ---
-title: "SendPortRef （連接埠節點） |Microsoft 文件"
-ms.custom: 
+title: SendPortRef （連接埠節點） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: SendPortRef node [binding file]
+helpviewer_keywords:
+- SendPortRef node [binding file]
 ms.assetid: cd9c3bf7-10a4-4567-a70c-fd74e4a3dc2c
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

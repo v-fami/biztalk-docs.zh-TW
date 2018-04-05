@@ -1,15 +1,16 @@
 ---
-title: "錯誤-攔截到例外狀況 |Microsoft 文件"
-ms.custom: 
+title: 錯誤-攔截到例外狀況 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.map.error.exceptionCaught
+f1_keywords:
+- bts10.map.error.exceptionCaught
 ms.assetid: cadd8c19-f423-4b3d-bf0d-34ce07888286
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

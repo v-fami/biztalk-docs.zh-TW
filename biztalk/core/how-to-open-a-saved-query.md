@@ -1,15 +1,16 @@
 ---
-title: "如何開啟已儲存的查詢 |Microsoft 文件"
-ms.custom: 
+title: 如何開啟已儲存的查詢 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: Query tab [Administration Console], opening
+helpviewer_keywords:
+- Query tab [Administration Console], opening
 ms.assetid: d1bb7174-edbb-4181-8ebd-a46998033701
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

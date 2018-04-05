@@ -1,15 +1,16 @@
 ---
-title: "SendPipeline （ReceiveLocation 節點） |Microsoft 文件"
-ms.custom: 
+title: SendPipeline （ReceiveLocation 節點） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: SendPipeline node [binding file]
+helpviewer_keywords:
+- SendPipeline node [binding file]
 ms.assetid: 7dcad2f1-b11f-4015-9067-b7ba40ee6cda
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

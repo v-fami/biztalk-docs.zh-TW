@@ -1,15 +1,16 @@
 ---
-title: "錯誤-節點不適用於屬性欄位升級 |Microsoft 文件"
-ms.custom: 
+title: 錯誤-節點不適用於屬性欄位升級 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.edit.error.nodeNotValidForPropFieldProm
+f1_keywords:
+- bts10.edit.error.nodeNotValidForPropFieldProm
 ms.assetid: ee386309-d134-4e5f-b9fe-f7cb6cca2819
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

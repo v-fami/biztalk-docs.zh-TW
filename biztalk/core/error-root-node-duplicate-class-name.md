@@ -1,15 +1,16 @@
 ---
-title: "錯誤-根節點重複類別名稱 |Microsoft 文件"
-ms.custom: 
+title: 錯誤-根節點重複類別名稱 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.edit.error.rootNodeDupClassName
+f1_keywords:
+- bts10.edit.error.rootNodeDupClassName
 ms.assetid: 0c7c4d55-9311-4af6-ac26-60b1b943db91
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

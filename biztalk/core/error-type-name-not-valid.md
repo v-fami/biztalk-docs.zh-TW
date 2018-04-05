@@ -1,15 +1,16 @@
 ---
-title: "錯誤-無效的類型名稱 |Microsoft 文件"
-ms.custom: 
+title: 錯誤-無效的類型名稱 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.edit.error.typeNameNotValid
+f1_keywords:
+- bts10.edit.error.typeNameNotValid
 ms.assetid: 4c9bceeb-b009-4279-ad16-19af09e6b091
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

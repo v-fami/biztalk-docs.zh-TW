@@ -1,15 +1,16 @@
 ---
-title: "SQLEXECUTE 操作訊息結構描述 |Microsoft 文件"
-ms.custom: 
+title: SQLEXECUTE 操作訊息結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: SQLEXECUTE operations, message schemas for
+helpviewer_keywords:
+- SQLEXECUTE operations, message schemas for
 ms.assetid: 744645f4-0674-44e0-bf8d-8df70086b0f1
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -52,7 +53,7 @@ ms.lasthandoff: 11/28/2017
 </SQLEXECUTE>  
 ```  
   
- <span data-ttu-id="fa655-118">[陳述式] = 的 SQL 陳述式，才可執行，例如，「 選取 * 從 emp WHERE empno =: emp_no"。</span><span class="sxs-lookup"><span data-stu-id="fa655-118">[STATEMENT] = The SQL statement to execute; for example, "SELECT * from emp WHERE empno=:emp_no".</span></span>  
+ <span data-ttu-id="fa655-118">[陳述式] = 的 SQL 陳述式，才可執行，例如，「 選取 \* 從 emp WHERE empno =: emp_no"。</span><span class="sxs-lookup"><span data-stu-id="fa655-118">[STATEMENT] = The SQL statement to execute; for example, "SELECT \* from emp WHERE empno=:emp_no".</span></span>  
   
  <span data-ttu-id="fa655-119">[PARAM_SPEC] = 在 SQL 陳述式和其資料類型，在參數清單例如，"emp_no 數字 」。</span><span class="sxs-lookup"><span data-stu-id="fa655-119">[PARAM_SPEC] = The list of the IN parameters in the SQL statement and their data types; for example, "emp_no NUMBER".</span></span>  
   

@@ -1,15 +1,16 @@
 ---
-title: "使用 BizTalk 專案 |Microsoft 文件"
-ms.custom: 
+title: 使用 BizTalk 專案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: projects
+helpviewer_keywords:
+- projects
 ms.assetid: 694714d2-8f81-47b3-b03a-2ee6235a5e09
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

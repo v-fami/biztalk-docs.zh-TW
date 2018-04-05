@@ -1,15 +1,16 @@
 ---
-title: "BizTalk ESB 工具組簡介 |Microsoft 文件"
-ms.custom: 
+title: BizTalk ESB 工具組簡介 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: ESBToolkitV2.introduction
+f1_keywords:
+- ESBToolkitV2.introduction
 ms.assetid: 98a957b8-5855-4872-b7e7-58a2e1d6b2b8
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

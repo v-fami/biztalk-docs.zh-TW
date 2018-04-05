@@ -1,15 +1,16 @@
 ---
-title: "說明服務人員索引標籤 |Microsoft 文件"
-ms.custom: 
+title: 說明服務人員索引標籤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: btahl7.configurationexplorer.tab.helpdesk
+f1_keywords:
+- btahl7.configurationexplorer.tab.helpdesk
 ms.assetid: 5274030d-d422-4bf3-9f04-7a16064226ad
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

@@ -1,15 +1,16 @@
 ---
-title: "DeleteOnly 方法 |Microsoft 文件"
-ms.custom: 
+title: DeleteOnly 方法 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: DeleteOnly method
+helpviewer_keywords:
+- DeleteOnly method
 ms.assetid: 99e1d7af-1450-439b-882f-de677e593bee
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

@@ -1,19 +1,20 @@
 ---
-title: "開始使用 BizTalk Accelerator for HL7 |Microsoft 文件"
-ms.custom: 
+title: 開始使用 BizTalk Accelerator for HL7 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: btahl7.configurationexplorer.gettingstarted
+f1_keywords:
+- btahl7.configurationexplorer.gettingstarted
 helpviewer_keywords:
 - BizTalk Accelerator for HL7
 - BizTalk Accelerator for HL7, getting started
 - getting started
 ms.assetid: e842d501-2037-4fd6-a518-d29b25877250
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

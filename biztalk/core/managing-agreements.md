@@ -1,15 +1,16 @@
 ---
-title: "管理協議 |Microsoft 文件"
-ms.custom: 
+title: 管理協議 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.admin.resultsobject.agreement
+f1_keywords:
+- bts10.admin.resultsobject.agreement
 ms.assetid: e9c6cdd1-8c17-4b1e-a556-2b287593bb9d
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

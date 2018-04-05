@@ -1,15 +1,16 @@
 ---
-title: "協調流程識別碼中的有效字元 |Microsoft 文件"
-ms.custom: 
+title: 協調流程識別碼中的有效字元 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: orchestrations, characters
+helpviewer_keywords:
+- orchestrations, characters
 ms.assetid: e885895d-505a-460f-ac45-b0b8e50ad28d
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

@@ -1,15 +1,16 @@
 ---
-title: "錯誤-內嵌指令碼 |Microsoft 文件"
-ms.custom: 
+title: 錯誤-內嵌指令碼 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.map.error.inlineScript
+f1_keywords:
+- bts10.map.error.inlineScript
 ms.assetid: c9cb75b4-780c-4a58-960d-26b1f4281558
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

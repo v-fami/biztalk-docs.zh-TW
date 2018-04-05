@@ -1,15 +1,16 @@
 ---
-title: "警告-找不到記錄 Body XPath |Microsoft 文件"
-ms.custom: 
+title: 警告-找不到記錄 Body XPath |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.edit.error.recordBodyXPathNotFound
+f1_keywords:
+- bts10.edit.error.recordBodyXPathNotFound
 ms.assetid: d46e0732-08ce-4292-84d8-56dc020063e2
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

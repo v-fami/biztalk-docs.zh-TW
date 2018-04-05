@@ -1,15 +1,16 @@
 ---
-title: "使用失敗訊息路由 |Microsoft 文件"
-ms.custom: 
+title: 使用失敗訊息路由 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.ops.tsroutingfailure
+f1_keywords:
+- bts10.ops.tsroutingfailure
 ms.assetid: d081934c-600e-44ce-8ba4-fb646d494589
-caps.latest.revision: "33"
+caps.latest.revision: 33
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

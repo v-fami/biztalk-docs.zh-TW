@@ -1,15 +1,16 @@
 ---
-title: "使用 Visual Studio |Microsoft 文件"
-ms.custom: 
+title: 使用 Visual Studio |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: Visual Studio
+helpviewer_keywords:
+- Visual Studio
 ms.assetid: 1ef68df2-5205-4d96-9e0f-0ae78800a121
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

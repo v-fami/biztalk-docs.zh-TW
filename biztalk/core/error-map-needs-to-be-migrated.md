@@ -1,15 +1,16 @@
 ---
-title: "錯誤-對應需要移轉 |Microsoft 文件"
-ms.custom: 
+title: 錯誤-對應需要移轉 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.map.error.mapNeedsMigrating
+f1_keywords:
+- bts10.map.error.mapNeedsMigrating
 ms.assetid: f10af4a4-6e40-4eec-a2fd-e526821aebe6
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

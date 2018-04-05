@@ -1,15 +1,16 @@
 ---
-title: "如何使用做為資料來源的資料庫 |Microsoft 文件"
-ms.custom: 
+title: 如何使用做為資料來源的資料庫 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: Business Rule Composer, data sources
+helpviewer_keywords:
+- Business Rule Composer, data sources
 ms.assetid: a68057ed-836f-499f-bb80-f644d81bcfc5
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

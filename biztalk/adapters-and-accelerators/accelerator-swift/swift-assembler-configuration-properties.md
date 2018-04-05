@@ -1,15 +1,16 @@
 ---
-title: "SWIFT 組合器組態屬性 |Microsoft 文件"
-ms.custom: 
+title: SWIFT 組合器組態屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: assembler, configuration properties
+helpviewer_keywords:
+- assembler, configuration properties
 ms.assetid: ddea0103-e80b-42ac-b74d-ec477c606b6c
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

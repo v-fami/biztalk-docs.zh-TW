@@ -1,15 +1,16 @@
 ---
-title: "使用商務規則架構設計程式 |Microsoft 文件"
-ms.custom: 
+title: 使用商務規則架構設計程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: Business Rules Framework, programming
+helpviewer_keywords:
+- Business Rules Framework, programming
 ms.assetid: f0022287-0909-4a94-bd7b-e166c33ceced
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

@@ -1,15 +1,16 @@
 ---
-title: "保全及保護您的 BizTalk 訊息 |Microsoft 文件"
-ms.custom: 
+title: 保全及保護您的 BizTalk 訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: security
+helpviewer_keywords:
+- security
 ms.assetid: f2419d2a-57cf-435e-b0d0-0b0e1433d585
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

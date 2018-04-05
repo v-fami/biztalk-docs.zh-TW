@@ -1,15 +1,16 @@
 ---
-title: "訊息內容屬性來接收 Idoc |Microsoft 文件"
-ms.custom: 
+title: 訊息內容屬性來接收 Idoc |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: IDOCs, message context properties for receiving
+helpviewer_keywords:
+- IDOCs, message context properties for receiving
 ms.assetid: fadb2284-2f55-49c2-bae9-95325f1be539
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

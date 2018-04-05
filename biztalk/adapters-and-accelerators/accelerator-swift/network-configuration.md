@@ -1,15 +1,16 @@
 ---
-title: "網路設定 |Microsoft 文件"
-ms.custom: 
+title: 網路設定 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: deploying, network configuration
+helpviewer_keywords:
+- deploying, network configuration
 ms.assetid: fb6265b8-2e6d-4344-bb44-4f4fd995382d
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

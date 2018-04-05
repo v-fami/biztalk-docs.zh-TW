@@ -1,15 +1,16 @@
 ---
-title: "對應 （對應節點） |Microsoft 文件"
-ms.custom: 
+title: 對應 （對應節點） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: Mapping node [binding file]
+helpviewer_keywords:
+- Mapping node [binding file]
 ms.assetid: bc54c476-505c-4020-b7df-1d19f86329aa
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

@@ -1,15 +1,16 @@
 ---
-title: "步驟 3： 建立及部署觸發程序事件 （訊息） Project_hl7_main |Microsoft 文件"
-ms.custom: 
+title: 步驟 3： 建立及部署觸發程序事件 （訊息） Project_hl7_main |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: interrogative tutorial, trigger events
+helpviewer_keywords:
+- interrogative tutorial, trigger events
 ms.assetid: 90b65ad1-7953-4009-a1eb-1c2a85c7980a
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

@@ -1,15 +1,16 @@
 ---
-title: "File 配接器 |Microsoft 文件"
-ms.custom: 
+title: File 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: File adapters
+helpviewer_keywords:
+- File adapters
 ms.assetid: e4f6e94b-89b8-42ba-a4c2-a629f1107bb1
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

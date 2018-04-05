@@ -1,15 +1,16 @@
 ---
-title: "ReceiveHandler （ReceiveLocation 節點） |Microsoft 文件"
-ms.custom: 
+title: ReceiveHandler （ReceiveLocation 節點） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: ReceiveHandler node [binding file]
+helpviewer_keywords:
+- ReceiveHandler node [binding file]
 ms.assetid: dd105052-ec71-4762-aa74-e8cdb806a6bf
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

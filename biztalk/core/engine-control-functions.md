@@ -1,15 +1,16 @@
 ---
-title: "引擎控制函式 |Microsoft 文件"
-ms.custom: 
+title: 引擎控制函式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: Business Rules Engine, functions
+helpviewer_keywords:
+- Business Rules Engine, functions
 ms.assetid: a7900e59-c52c-4a6d-9ca3-ee4ec659f9b5
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

@@ -1,15 +1,16 @@
 ---
-title: "TransportType （SecondaryTransport 節點） |Microsoft 文件"
-ms.custom: 
+title: TransportType （SecondaryTransport 節點） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: TransportType node [binding file]
+helpviewer_keywords:
+- TransportType node [binding file]
 ms.assetid: ed66c7ef-32b6-4110-b932-f96a45a29618
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

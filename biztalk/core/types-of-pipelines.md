@@ -1,15 +1,16 @@
 ---
-title: "管線類型 |Microsoft 文件"
-ms.custom: 
+title: 管線類型 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: pipelines, pipeline types
+helpviewer_keywords:
+- pipelines, pipeline types
 ms.assetid: 1a8743fa-411d-4731-8029-299327d02c79
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

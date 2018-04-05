@@ -1,15 +1,16 @@
 ---
-title: "如何移動之間以及在格線頁內 |Microsoft 文件"
-ms.custom: 
+title: 如何移動之間以及在格線頁內 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.mapper.gridpreview
+f1_keywords:
+- bts10.mapper.gridpreview
 ms.assetid: 9553d9ad-1c57-4e73-bb77-0eaaa172090c
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

@@ -1,15 +1,16 @@
 ---
-title: "如何使用.NET 組件做為資料來源 |Microsoft 文件"
-ms.custom: 
+title: 如何使用.NET 組件做為資料來源 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: Business Rule Composer, data sources
+helpviewer_keywords:
+- Business Rule Composer, data sources
 ms.assetid: 14dbec48-acc9-4c3c-bd7f-737dabf29543
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

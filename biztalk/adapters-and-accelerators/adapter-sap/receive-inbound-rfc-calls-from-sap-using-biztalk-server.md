@@ -1,15 +1,16 @@
 ---
-title: "從 SAP 使用 BizTalk Server 接收輸入 RFC 呼叫 |Microsoft 文件"
-ms.custom: 
+title: 從 SAP 使用 BizTalk Server 接收輸入 RFC 呼叫 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: RFC calls, receiving using BizTalk Server
+helpviewer_keywords:
+- RFC calls, receiving using BizTalk Server
 ms.assetid: 822fd9fb-772f-4910-a11e-25c1d5dca6e1
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

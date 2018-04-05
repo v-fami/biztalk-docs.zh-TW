@@ -1,15 +1,16 @@
 ---
-title: "錯誤-沒有迴圈的多個輸入 |Microsoft 文件"
-ms.custom: 
+title: 錯誤-沒有迴圈的多個輸入 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.map.error.multipleInputsWithoutLooping
+f1_keywords:
+- bts10.map.error.multipleInputsWithoutLooping
 ms.assetid: 7e55ad22-06a8-4a56-839d-a30b82819a68
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

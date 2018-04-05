@@ -1,19 +1,20 @@
 ---
-title: "批次排程 索引標籤 |Microsoft 文件"
-ms.custom: 
+title: 批次排程 索引標籤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: btahl7.configurationexplorer.tab.batchschedule
+f1_keywords:
+- btahl7.configurationexplorer.tab.batchschedule
 helpviewer_keywords:
 - batching, scheduling
 - Batch Schedule tab [Configuration Explorer]
 - scheduling batching
 ms.assetid: 3792388b-6af2-41c2-8f41-bdfda7e17b2b
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

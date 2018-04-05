@@ -1,15 +1,16 @@
 ---
-title: "BTAD_Server |Microsoft 文件"
-ms.custom: 
+title: BTAD_Server |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: BTAD_Server [environment variable]
+helpviewer_keywords:
+- BTAD_Server [environment variable]
 ms.assetid: c55b64e5-ea70-447b-bb25-a99e7016f33f
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

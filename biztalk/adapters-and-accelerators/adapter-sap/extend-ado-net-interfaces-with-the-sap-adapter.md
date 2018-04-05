@@ -1,15 +1,16 @@
 ---
-title: "SAP 配接器以延伸的 ADO.NET 介面 |Microsoft 文件"
-ms.custom: 
+title: SAP 配接器以延伸的 ADO.NET 介面 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: ADO.NET interfaces, extending
+helpviewer_keywords:
+- ADO.NET interfaces, extending
 ms.assetid: ed7524ff-fc1a-4668-87a5-2d2e806a5d27
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
