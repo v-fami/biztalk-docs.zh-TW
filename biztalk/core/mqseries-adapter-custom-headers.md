@@ -1,15 +1,16 @@
 ---
-title: "MQSeries 配接器自訂標頭 |Microsoft 文件"
-ms.custom: 
+title: MQSeries 配接器自訂標頭 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: MQSeries adapters, custom headers
+helpviewer_keywords:
+- MQSeries adapters, custom headers
 ms.assetid: b0e18203-a33f-4d50-8483-396699cdff23
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

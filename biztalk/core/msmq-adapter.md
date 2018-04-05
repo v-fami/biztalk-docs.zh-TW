@@ -1,15 +1,16 @@
 ---
-title: "MSMQ 配接器 |Microsoft 文件"
-ms.custom: 
+title: MSMQ 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: MSMQ adapters
+helpviewer_keywords:
+- MSMQ adapters
 ms.assetid: 2602753b-4eaf-41b3-87bf-c9429cd3cfe1
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

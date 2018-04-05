@@ -1,15 +1,16 @@
 ---
-title: "錯誤-測試對應失敗 |Microsoft 文件"
-ms.custom: 
+title: 錯誤-測試對應失敗 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.map.error.testMapFailure
+f1_keywords:
+- bts10.map.error.testMapFailure
 ms.assetid: b211d08c-2db9-4483-b6ea-eb81ed19be06
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

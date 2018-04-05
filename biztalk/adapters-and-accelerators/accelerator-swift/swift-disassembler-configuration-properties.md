@@ -1,15 +1,16 @@
 ---
-title: "SWIFT 解譯器組態屬性 |Microsoft 文件"
-ms.custom: 
+title: SWIFT 解譯器組態屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: disassembler, configuration properties
+helpviewer_keywords:
+- disassembler, configuration properties
 ms.assetid: 610cc68f-521f-4a9f-9f81-823a2fe55eb1
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

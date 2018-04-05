@@ -1,15 +1,16 @@
 ---
-title: "錯誤-節點不適用於辨別欄位升級 |Microsoft 文件"
-ms.custom: 
+title: 錯誤-節點不適用於辨別欄位升級 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.edit.error.nodeNotValidForDistingFieldPromo
+f1_keywords:
+- bts10.edit.error.nodeNotValidForDistingFieldPromo
 ms.assetid: 14784291-a833-4768-a542-f237076c058d
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

@@ -1,15 +1,16 @@
 ---
-title: "服務 （服務節點） |Microsoft 文件"
-ms.custom: 
+title: 服務 （服務節點） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: Service node [binding file]
+helpviewer_keywords:
+- Service node [binding file]
 ms.assetid: 19e977b4-55bd-453f-9053-5590b9553b07
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

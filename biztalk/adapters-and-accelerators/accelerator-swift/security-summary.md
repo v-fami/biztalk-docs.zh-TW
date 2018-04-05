@@ -1,15 +1,16 @@
 ---
-title: "安全性摘要 |Microsoft 文件"
-ms.custom: 
+title: 安全性摘要 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: security
+helpviewer_keywords:
+- security
 ms.assetid: 357ebf63-a35e-4ce4-a754-be880946f9fc
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

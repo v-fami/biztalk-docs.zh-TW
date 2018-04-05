@@ -1,15 +1,16 @@
 ---
-title: "結構描述節點 |Microsoft 文件"
-ms.custom: 
+title: 結構描述節點 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.admin.node.schemas
+f1_keywords:
+- bts10.admin.node.schemas
 ms.assetid: 0a52bab9-20cb-4018-929c-8d5055e75d05
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

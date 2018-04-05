@@ -1,15 +1,16 @@
 ---
-title: "警告-欄位資料型別不符 |Microsoft 文件"
-ms.custom: 
+title: 警告-欄位資料型別不符 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.edit.error.fieldDataTypeMismatch
+f1_keywords:
+- bts10.edit.error.fieldDataTypeMismatch
 ms.assetid: 0c15d926-1d05-404b-bb16-a5fe8bc3575d
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

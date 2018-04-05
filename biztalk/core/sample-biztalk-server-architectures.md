@@ -1,15 +1,16 @@
 ---
-title: "範例 BizTalk Server 架構 |Microsoft 文件"
-ms.custom: 
+title: 範例 BizTalk Server 架構 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: architecture, examples
+helpviewer_keywords:
+- architecture, examples
 ms.assetid: 3e371771-55cf-4826-89cd-76b5537dd042
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

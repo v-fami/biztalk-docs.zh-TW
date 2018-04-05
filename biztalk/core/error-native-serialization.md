@@ -1,15 +1,16 @@
 ---
-title: "錯誤-原生序列化 |Microsoft 文件"
-ms.custom: 
+title: 錯誤-原生序列化 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.map.error.nativeSerialize
+f1_keywords:
+- bts10.map.error.nativeSerialize
 ms.assetid: 48f8d460-83a0-44ce-af9b-086fcad36cb8
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

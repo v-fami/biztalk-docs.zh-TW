@@ -1,15 +1,16 @@
 ---
-title: "Siebel 配接器支援哪些作業 |Microsoft 文件"
-ms.custom: 
+title: Siebel 配接器支援哪些作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: operations, performing by using the adapter
+helpviewer_keywords:
+- operations, performing by using the adapter
 ms.assetid: 800cf44b-357f-4850-8878-f49ceb549adf
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

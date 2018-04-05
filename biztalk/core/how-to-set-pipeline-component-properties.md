@@ -1,15 +1,16 @@
 ---
-title: "如何設定管線元件屬性 |Microsoft 文件"
-ms.custom: 
+title: 如何設定管線元件屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: pipelines, properties
+helpviewer_keywords:
+- pipelines, properties
 ms.assetid: 2df9a9a8-bf6c-4e9e-b074-af30f0daa599
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

@@ -1,15 +1,16 @@
 ---
-title: "檔案庫存服務導向解決方案 |Microsoft 文件"
-ms.custom: 
+title: 檔案庫存服務導向解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: service solution tutorial, file inventory
+helpviewer_keywords:
+- service solution tutorial, file inventory
 ms.assetid: 32c25372-31e1-4059-b4ed-f12e62f315d5
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

@@ -1,15 +1,16 @@
 ---
-title: "錯誤-XSLT 呼叫範本指令碼處理運算質不是有效的輸入計數 |Microsoft 文件"
-ms.custom: 
+title: 錯誤-XSLT 呼叫範本指令碼處理運算質不是有效的輸入計數 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.map.error.badParamCountForXSLTCallTemplate
+f1_keywords:
+- bts10.map.error.badParamCountForXSLTCallTemplate
 ms.assetid: 9fa54ce1-caaf-42d3-9170-c4036bc8f9de
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

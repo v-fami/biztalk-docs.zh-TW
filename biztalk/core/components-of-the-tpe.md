@@ -1,15 +1,16 @@
 ---
-title: "TPE 的元件 |Microsoft 文件"
-ms.custom: 
+title: TPE 的元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: Tracking Profile Editor
+helpviewer_keywords:
+- Tracking Profile Editor
 ms.assetid: 1491dbe7-a86b-47ea-9166-e4f88976a082
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

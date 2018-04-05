@@ -1,15 +1,16 @@
 ---
-title: "錯誤-一般輸出驗證 |Microsoft 文件"
-ms.custom: 
+title: 錯誤-一般輸出驗證 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.map.error.genericOutputValidation
+f1_keywords:
+- bts10.map.error.genericOutputValidation
 ms.assetid: 27fb2233-3add-42f8-a96b-872e2e38f797
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

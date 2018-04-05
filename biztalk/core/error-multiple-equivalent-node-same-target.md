@@ -1,15 +1,16 @@
 ---
-title: "錯誤-多個相等節點相同目標 |Microsoft 文件"
-ms.custom: 
+title: 錯誤-多個相等節點相同目標 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.map.error.multipleEquivNodeSameTarget
+f1_keywords:
+- bts10.map.error.multipleEquivNodeSameTarget
 ms.assetid: d8ca9f94-1d87-41bb-9479-6a01a5b6702d
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

@@ -1,15 +1,16 @@
 ---
-title: "使用 Oracle 資料庫配接器的 WCF 通道模型概觀 |Microsoft 文件"
-ms.custom: 
+title: 使用 Oracle 資料庫配接器的 WCF 通道模型概觀 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: WCF channel model, overview
+helpviewer_keywords:
+- WCF channel model, overview
 ms.assetid: 4712ba62-8360-475c-b2e4-422e499eca21
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

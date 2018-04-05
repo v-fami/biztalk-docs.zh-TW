@@ -1,15 +1,16 @@
 ---
-title: "轉換 （InboundTransforms 節點） |Microsoft 文件"
-ms.custom: 
+title: 轉換 （InboundTransforms 節點） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: Transform node [binding file]
+helpviewer_keywords:
+- Transform node [binding file]
 ms.assetid: c1bad23e-78a4-4fd4-95ef-30601393d53c
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

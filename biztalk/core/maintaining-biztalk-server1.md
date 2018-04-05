@@ -1,15 +1,16 @@
 ---
-title: "維護 BizTalk Server1 |Microsoft 文件"
-ms.custom: 
+title: 維護 BizTalk Server1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: BizTalk Server, maintaining
+helpviewer_keywords:
+- BizTalk Server, maintaining
 ms.assetid: dd1e4497-839a-4686-b213-da100b6b5226
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

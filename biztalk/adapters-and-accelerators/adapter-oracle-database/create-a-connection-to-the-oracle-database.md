@@ -1,15 +1,16 @@
 ---
-title: "建立連接到 Oracle 資料庫 |Microsoft 文件"
-ms.custom: 
+title: 建立連接到 Oracle 資料庫 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: adapter, connecting to the Oracle Database
+helpviewer_keywords:
+- adapter, connecting to the Oracle Database
 ms.assetid: 95f7905a-abad-4841-85c4-62cf0cc1e044
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

@@ -1,15 +1,16 @@
 ---
-title: "Siebel 配接器教學課程 |Microsoft 文件"
-ms.custom: 
+title: Siebel 配接器教學課程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: tutorials, BizTalk Server
+helpviewer_keywords:
+- tutorials, BizTalk Server
 ms.assetid: 873fbff6-1270-4f89-99f2-01f4814df635
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

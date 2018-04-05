@@ -1,15 +1,16 @@
 ---
-title: "如何重新排序格線頁 |Microsoft 文件"
-ms.custom: 
+title: 如何重新排序格線頁 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.mapper.reorderpages
+f1_keywords:
+- bts10.mapper.reorderpages
 ms.assetid: bbf45501-109f-4333-8d1f-1ad47b010db0
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

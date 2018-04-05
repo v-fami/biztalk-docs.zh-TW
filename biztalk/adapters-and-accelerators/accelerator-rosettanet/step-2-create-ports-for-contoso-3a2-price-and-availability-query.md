@@ -1,15 +1,16 @@
 ---
-title: "步驟 2： 建立 Contoso 3A2 價格與可用性查詢回應案例中使用 BizTalk 總管 中的連接埠 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 建立 Contoso 3A2 價格與可用性查詢回應案例中使用 BizTalk 總管 中的連接埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: private process tutorial, creating ports
+helpviewer_keywords:
+- private process tutorial, creating ports
 ms.assetid: e0b12a96-e799-47ac-8293-7de10662bdf0
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

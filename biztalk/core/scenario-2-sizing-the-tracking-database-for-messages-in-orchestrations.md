@@ -1,15 +1,16 @@
 ---
-title: "案例 2： 在協調流程中的訊息調整追蹤資料庫 |Microsoft 文件"
-ms.custom: 
+title: 案例 2： 在協調流程中的訊息調整追蹤資料庫 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: Tracking database, database size
+helpviewer_keywords:
+- Tracking database, database size
 ms.assetid: d1cfb8b9-d4e2-4069-8db3-18f72358652b
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

@@ -1,15 +1,16 @@
 ---
-title: "連接埠 （服務節點） |Microsoft 文件"
-ms.custom: 
+title: 連接埠 （服務節點） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: Ports node [binding file]
+helpviewer_keywords:
+- Ports node [binding file]
 ms.assetid: 498d4310-4e9e-4e74-bc3d-5cbf1319c4ff
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

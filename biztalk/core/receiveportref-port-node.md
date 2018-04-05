@@ -1,15 +1,16 @@
 ---
-title: "ReceivePortRef （連接埠節點） |Microsoft 文件"
-ms.custom: 
+title: ReceivePortRef （連接埠節點） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: ReceivePortRef node [binding file]
+helpviewer_keywords:
+- ReceivePortRef node [binding file]
 ms.assetid: dfdb4ab7-a6b7-44e3-ae45-efef27e4f875
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

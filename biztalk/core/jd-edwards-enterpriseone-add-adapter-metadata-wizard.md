@@ -1,13 +1,14 @@
 ---
-title: "JD Edwards EnterpriseOne 新增配接器中繼資料精靈 |Microsoft 文件"
-ms.custom: 
+title: JD Edwards EnterpriseOne 新增配接器中繼資料精靈 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: JDEAdapter
+f1_keywords:
+- JDEAdapter
 helpviewer_keywords:
 - JD Edwards EnterpriseOne adapters, Add Adapter Wizard
 - adapters, Add Adapter Wizard
@@ -15,7 +16,7 @@ helpviewer_keywords:
 - tools, Add Adapter Wizard
 - adapters [JD Edwards EnterpriseOne adapters], Add Adapter Wizard
 ms.assetid: eca3df7f-8ace-4b6f-a119-8ce047875e0b
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

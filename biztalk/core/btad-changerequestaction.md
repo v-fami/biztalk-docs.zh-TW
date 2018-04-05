@@ -1,15 +1,16 @@
 ---
-title: "BTAD_ChangeRequestAction |Microsoft 文件"
-ms.custom: 
+title: BTAD_ChangeRequestAction |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: BTAD_ChangeRequestAction [environment variable]
+helpviewer_keywords:
+- BTAD_ChangeRequestAction [environment variable]
 ms.assetid: bab40f20-2031-4830-989d-6bafea0a7968
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

@@ -1,15 +1,16 @@
 ---
-title: "BAM 入口網站元件 |Microsoft 文件"
-ms.custom: 
+title: BAM 入口網站元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: BAM portal, features
+helpviewer_keywords:
+- BAM portal, features
 ms.assetid: 5349e75e-4946-4ce4-a756-ac7914ddb7f2
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

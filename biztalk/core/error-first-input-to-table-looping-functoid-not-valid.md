@@ -1,15 +1,16 @@
 ---
-title: "錯誤-表格迴圈運算質不是有效的第一個輸入 |Microsoft 文件"
-ms.custom: 
+title: 錯誤-表格迴圈運算質不是有效的第一個輸入 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.map.error.firstInputForTableLoopingNotValid
+f1_keywords:
+- bts10.map.error.firstInputForTableLoopingNotValid
 ms.assetid: 3ece2c0c-bcac-42d5-9536-34f073937879
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

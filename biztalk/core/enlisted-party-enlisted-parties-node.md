@@ -1,15 +1,16 @@
 ---
-title: "已登錄合作對象 （已登錄合作對象節點） |Microsoft 文件"
-ms.custom: 
+title: 已登錄合作對象 （已登錄合作對象節點） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: Enlisted Parties node [binding file]
+helpviewer_keywords:
+- Enlisted Parties node [binding file]
 ms.assetid: 2ff7b563-17c5-48e9-b33e-62c821188448
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

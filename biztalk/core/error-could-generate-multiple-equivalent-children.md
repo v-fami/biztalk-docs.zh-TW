@@ -1,15 +1,16 @@
 ---
-title: "錯誤-可能產生多個 Equivalent 子系 |Microsoft 文件"
-ms.custom: 
+title: 錯誤-可能產生多個 Equivalent 子系 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.map.error.couldGenMultipleEquivChildren
+f1_keywords:
+- bts10.map.error.couldGenMultipleEquivChildren
 ms.assetid: ef3ea6db-6759-4f38-804c-e32a1f24d758
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

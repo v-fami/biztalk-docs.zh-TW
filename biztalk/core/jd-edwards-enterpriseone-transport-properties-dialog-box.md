@@ -1,16 +1,18 @@
 ---
-title: "JD Edwards EnterpriseOne 傳輸屬性對話方塊 |Microsoft 文件"
-ms.custom: 
+title: JD Edwards EnterpriseOne 傳輸屬性對話方塊 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: JDE
-helpviewer_keywords: Transport Properties dialog box [JD Edwards EnterpriseOne adapters
+f1_keywords:
+- JDE
+helpviewer_keywords:
+- Transport Properties dialog box [JD Edwards EnterpriseOne adapters
 ms.assetid: 6a37eeb2-af91-4f58-9699-7a7cbe296862
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

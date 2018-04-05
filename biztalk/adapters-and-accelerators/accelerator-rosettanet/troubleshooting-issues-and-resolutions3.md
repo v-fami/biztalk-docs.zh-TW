@@ -1,15 +1,16 @@
 ---
-title: "疑難排解： 問題與 Resolutions3 |Microsoft 文件"
-ms.custom: 
+title: 疑難排解： 問題與 Resolutions3 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: troubleshooting
+helpviewer_keywords:
+- troubleshooting
 ms.assetid: 40f59f54-183e-43db-afb5-0a45b437697f
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

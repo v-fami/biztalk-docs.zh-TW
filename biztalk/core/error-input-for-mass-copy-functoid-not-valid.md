@@ -1,15 +1,16 @@
 ---
-title: "錯誤-無效的大量複製運算質的輸入 |Microsoft 文件"
-ms.custom: 
+title: 錯誤-無效的大量複製運算質的輸入 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.map.error.massCopyInputNotValid
+f1_keywords:
+- bts10.map.error.massCopyInputNotValid
 ms.assetid: 141c45cd-79da-4f99-abb0-60a88dfcab76
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

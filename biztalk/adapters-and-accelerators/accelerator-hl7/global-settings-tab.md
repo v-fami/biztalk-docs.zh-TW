@@ -1,13 +1,14 @@
 ---
-title: "全域設定 索引標籤 |Microsoft 文件"
-ms.custom: 
+title: 全域設定 索引標籤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: btahl7.configurationexplorer.tab.globalsettings
+f1_keywords:
+- btahl7.configurationexplorer.tab.globalsettings
 helpviewer_keywords:
 - configuring, auditing
 - configuring, logging
@@ -15,7 +16,7 @@ helpviewer_keywords:
 - Global Settings tab [Configuration Explorer]
 - auditing, configuring
 ms.assetid: 057189f7-9072-4841-950f-371ba1f73a15
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

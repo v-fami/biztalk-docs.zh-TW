@@ -1,15 +1,16 @@
 ---
-title: "錯誤-結構描述檔案不在組建 |Microsoft 文件"
-ms.custom: 
+title: 錯誤-結構描述檔案不在組建 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.edit.error.schemaFileNotInBuild
+f1_keywords:
+- bts10.edit.error.schemaFileNotInBuild
 ms.assetid: 9190868d-a1ae-48bf-ac85-510086805887
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

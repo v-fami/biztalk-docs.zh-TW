@@ -1,15 +1,16 @@
 ---
-title: "錯誤-建立執行個體失敗 |Microsoft 文件"
-ms.custom: 
+title: 錯誤-建立執行個體失敗 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.edit.error.createInstanceFailure
+f1_keywords:
+- bts10.edit.error.createInstanceFailure
 ms.assetid: d0f2844f-73b6-4f32-9d77-f4a76e591b76
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

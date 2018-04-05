@@ -1,15 +1,16 @@
 ---
-title: "Wcf-netmsmq 配接器 |Microsoft 文件"
-ms.custom: 
+title: Wcf-netmsmq 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: WCF-NetMsmq adapters
+helpviewer_keywords:
+- WCF-NetMsmq adapters
 ms.assetid: 3a85e8f5-8089-4a38-94f1-0dd5f121c3fa
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

@@ -1,15 +1,16 @@
 ---
-title: "開發 SAP 應用程式使用 WCF 通道模型 |Microsoft 文件"
-ms.custom: 
+title: 開發 SAP 應用程式使用 WCF 通道模型 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: WCF channel model, developing applications by using
+helpviewer_keywords:
+- WCF channel model, developing applications by using
 ms.assetid: 1ce70c8b-5eeb-4585-97af-b0a7b4398dac
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

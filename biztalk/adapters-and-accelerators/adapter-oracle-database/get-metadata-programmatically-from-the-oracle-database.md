@@ -1,15 +1,16 @@
 ---
-title: "以程式設計方式取得中繼資料，從 Oracle 資料庫 |Microsoft 文件"
-ms.custom: 
+title: 以程式設計方式取得中繼資料，從 Oracle 資料庫 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: metadata, retrieving programmatically from the Oracle database
+helpviewer_keywords:
+- metadata, retrieving programmatically from the Oracle database
 ms.assetid: 28a55935-6078-41d0-abfa-ac86e9ca8471
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

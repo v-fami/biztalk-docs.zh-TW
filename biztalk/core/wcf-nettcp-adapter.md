@@ -1,15 +1,16 @@
 ---
-title: "Wcf-nettcp 配接器 |Microsoft 文件"
-ms.custom: 
+title: Wcf-nettcp 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: WCF-NetTcp adapters
+helpviewer_keywords:
+- WCF-NetTcp adapters
 ms.assetid: 6ad5ab0d-e666-4c25-8bd4-79d781e5d522
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

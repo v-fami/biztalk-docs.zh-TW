@@ -1,15 +1,16 @@
 ---
-title: "服務 （ModuleRef 節點） |Microsoft 文件"
-ms.custom: 
+title: 服務 （ModuleRef 節點） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: Services node [binding file]
+helpviewer_keywords:
+- Services node [binding file]
 ms.assetid: 4842d218-dc99-43f1-9d09-1cbcee3d1eb5
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

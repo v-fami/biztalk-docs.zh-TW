@@ -1,15 +1,16 @@
 ---
-title: "SSO 票證 |Microsoft 文件"
-ms.custom: 
+title: SSO 票證 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: tickets [SSO]
+helpviewer_keywords:
+- tickets [SSO]
 ms.assetid: acf01422-4696-4301-b85f-7026e792bb5c
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

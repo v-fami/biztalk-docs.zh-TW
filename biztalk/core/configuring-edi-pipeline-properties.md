@@ -1,15 +1,16 @@
 ---
-title: "設定 EDI 管線屬性 |Microsoft 文件"
-ms.custom: 
+title: 設定 EDI 管線屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.edir2.edi.pipeline.properties
+f1_keywords:
+- bts10.edir2.edi.pipeline.properties
 ms.assetid: 1b6229b6-a8b0-4824-86bd-39021844c5a8
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

@@ -1,15 +1,16 @@
 ---
-title: "如何處理 Null 和 DBNull |Microsoft 文件"
-ms.custom: 
+title: 如何處理 Null 和 DBNull |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: business rules, NULL
+helpviewer_keywords:
+- business rules, NULL
 ms.assetid: d235c265-4947-470b-9f2d-9936ae1b88a1
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

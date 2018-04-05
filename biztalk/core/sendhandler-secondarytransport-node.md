@@ -1,15 +1,16 @@
 ---
-title: "SendHandler （SecondaryTransport 節點） |Microsoft 文件"
-ms.custom: 
+title: SendHandler （SecondaryTransport 節點） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: SendHandler node [binding file]
+helpviewer_keywords:
+- SendHandler node [binding file]
 ms.assetid: 32eb3e87-25ac-461e-9c09-3d6d9bcba3b2
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

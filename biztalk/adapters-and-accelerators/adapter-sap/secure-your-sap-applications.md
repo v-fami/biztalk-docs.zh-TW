@@ -1,15 +1,16 @@
 ---
-title: "保護您的 SAP 應用程式 |Microsoft 文件"
-ms.custom: 
+title: 保護您的 SAP 應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: security and protection
+helpviewer_keywords:
+- security and protection
 ms.assetid: 9f0fb2a2-d6e2-4561-8472-c0bf682a4798
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

@@ -1,16 +1,18 @@
 ---
-title: "PeopleSoft 傳輸屬性對話方塊 |Microsoft 文件"
-ms.custom: 
+title: PeopleSoft 傳輸屬性對話方塊 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: PeopleSoft
-helpviewer_keywords: PeopleSoft Transport Properties dialog box
+f1_keywords:
+- PeopleSoft
+helpviewer_keywords:
+- PeopleSoft Transport Properties dialog box
 ms.assetid: 660f0a0b-e076-4f4e-8b2a-6d976acfc5ce
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

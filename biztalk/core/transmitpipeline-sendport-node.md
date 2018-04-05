@@ -1,15 +1,16 @@
 ---
-title: "TransmitPipeline （SendPort 節點） |Microsoft 文件"
-ms.custom: 
+title: TransmitPipeline （SendPort 節點） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: TransmitPipeline node [binding file]
+helpviewer_keywords:
+- TransmitPipeline node [binding file]
 ms.assetid: cee55451-6c3f-4e37-aef9-870d4b5d23aa
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

@@ -1,15 +1,16 @@
 ---
-title: "警告-找到自訂 XSLT 但沒有自訂延伸模組 XML |Microsoft 文件"
-ms.custom: 
+title: 警告-找到自訂 XSLT 但沒有自訂延伸模組 XML |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.map.warning.customXsltButNoCustomExtensionXML
+f1_keywords:
+- bts10.map.warning.customXsltButNoCustomExtensionXML
 ms.assetid: af008ac2-e9ae-4753-a5ba-bf4dbb711a4e
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

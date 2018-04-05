@@ -1,19 +1,20 @@
 ---
-title: "批次定義索引標籤 |Microsoft 文件"
-ms.custom: 
+title: 批次定義索引標籤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: btahl7.configurationexplorer.tab.batchdefinition
+f1_keywords:
+- btahl7.configurationexplorer.tab.batchdefinition
 helpviewer_keywords:
 - Batch Definition tab [Configuration Explorer]
 - batching, configuring
 - configuring, batching
 ms.assetid: fe8685ef-5de5-4337-8691-8e4094056ace
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

@@ -1,16 +1,17 @@
 ---
-title: "使用群組、 建立成品，最佳化效能，以及 BizTalk Server 中的多個 |Microsoft 文件"
-description: "快速連結，可以使用 BizTalk 管理中，建立群組、 部署應用程式，變更效能設定，然後重新啟動 BizTalk Server 中的 BizTalk 服務"
-ms.custom: 
+title: 使用群組、 建立成品，最佳化效能，以及 BizTalk Server 中的多個 |Microsoft 文件
+description: 快速連結，可以使用 BizTalk 管理中，建立群組、 部署應用程式，變更效能設定，然後重新啟動 BizTalk Server 中的 BizTalk 服務
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.ops.appandsrv
+f1_keywords:
+- bts10.ops.appandsrv
 ms.assetid: d4d38eca-05b8-49b3-aad2-5b32a012a5cc
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

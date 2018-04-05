@@ -1,15 +1,16 @@
 ---
-title: "UpdateEx 方法 |Microsoft 文件"
-ms.custom: 
+title: UpdateEx 方法 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: UpdateEx method
+helpviewer_keywords:
+- UpdateEx method
 ms.assetid: 2fa9c9cc-fd01-4765-8c31-facac188a19d
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

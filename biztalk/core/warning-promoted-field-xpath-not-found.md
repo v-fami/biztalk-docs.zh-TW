@@ -1,15 +1,16 @@
 ---
-title: "警告-升級欄位 XPath 找不到 |Microsoft 文件"
-ms.custom: 
+title: 警告-升級欄位 XPath 找不到 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.edit.error.promoFieldXPathNotFound
+f1_keywords:
+- bts10.edit.error.promoFieldXPathNotFound
 ms.assetid: 21b8c240-5d6f-499d-8211-6e3f2ce2a79c
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

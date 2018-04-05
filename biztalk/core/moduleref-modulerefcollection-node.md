@@ -1,15 +1,16 @@
 ---
-title: "ModuleRef （ModuleRefCollection 節點） |Microsoft 文件"
-ms.custom: 
+title: ModuleRef （ModuleRefCollection 節點） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: ModuleRef node [binding file]
+helpviewer_keywords:
+- ModuleRef node [binding file]
 ms.assetid: 61787779-33bd-499a-a5c1-c1e0bd306b48
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

@@ -1,15 +1,16 @@
 ---
-title: "使用 BizTalk 對應工具 |Microsoft 文件"
-ms.custom: 
+title: 使用 BizTalk 對應工具 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.mapper.grid
+f1_keywords:
+- bts10.mapper.grid
 ms.assetid: 07c69603-ee79-44b2-80b1-6ae4e4c8fb4e
-caps.latest.revision: "29"
+caps.latest.revision: 29
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

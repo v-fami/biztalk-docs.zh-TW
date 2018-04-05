@@ -1,15 +1,16 @@
 ---
-title: "錯誤-索引運算質有太多索引 |Microsoft 文件"
-ms.custom: 
+title: 錯誤-索引運算質有太多索引 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.map.error.indexFunctoidHasTooManyIndices
+f1_keywords:
+- bts10.map.error.indexFunctoidHasTooManyIndices
 ms.assetid: 5dd2d5b4-3f7a-45be-b6f4-708b0a76805a
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

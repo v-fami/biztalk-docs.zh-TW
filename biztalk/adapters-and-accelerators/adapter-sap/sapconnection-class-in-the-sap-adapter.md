@@ -1,15 +1,16 @@
 ---
-title: "SAP 配接器在 SAPConnection 類別 |Microsoft 文件"
-ms.custom: 
+title: SAP 配接器在 SAPConnection 類別 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: SAPConnection, supported methods, classes, and constructors
+helpviewer_keywords:
+- SAPConnection, supported methods, classes, and constructors
 ms.assetid: a700602d-8135-4f67-a38b-770357d4e28b
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

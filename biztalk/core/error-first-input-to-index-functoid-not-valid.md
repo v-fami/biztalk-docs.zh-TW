@@ -1,15 +1,16 @@
 ---
-title: "錯誤-索引運算質不是有效的第一個輸入 |Microsoft 文件"
-ms.custom: 
+title: 錯誤-索引運算質不是有效的第一個輸入 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.map.error.firstInputToIndexNotValid
+f1_keywords:
+- bts10.map.error.firstInputToIndexNotValid
 ms.assetid: f7dbe9cc-9cfa-4fc7-af3e-1241cb2b50a9
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

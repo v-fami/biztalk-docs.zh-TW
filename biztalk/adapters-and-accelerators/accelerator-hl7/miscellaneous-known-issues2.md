@@ -1,15 +1,16 @@
 ---
-title: "其他已知的 Issues2 |Microsoft 文件"
-ms.custom: 
+title: 其他已知的 Issues2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: known issues
+helpviewer_keywords:
+- known issues
 ms.assetid: 01cd896f-6c7f-4734-b953-81a92195a5c0
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

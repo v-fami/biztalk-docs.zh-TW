@@ -1,15 +1,16 @@
 ---
-title: "商務服務作業的訊息結構描述 |Microsoft 文件"
-ms.custom: 
+title: 商務服務作業的訊息結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: message schemas, for business service methods
+helpviewer_keywords:
+- message schemas, for business service methods
 ms.assetid: ba23248b-5d73-4de0-9f7c-987cd88a4b63
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

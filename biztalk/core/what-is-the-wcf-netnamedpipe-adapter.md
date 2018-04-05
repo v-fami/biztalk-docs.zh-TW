@@ -1,15 +1,16 @@
 ---
-title: "何謂 WCF-NetNamedPipe 配接器？ | Microsoft Docs"
-ms.custom: 
+title: 何謂 WCF-NetNamedPipe 配接器？ | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: WCF-NetNamedPipe adapters, about WCF-NetNamedPipe adapters
+helpviewer_keywords:
+- WCF-NetNamedPipe adapters, about WCF-NetNamedPipe adapters
 ms.assetid: b9f84256-e49d-4ee2-b0fa-d3f692ade1d4
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

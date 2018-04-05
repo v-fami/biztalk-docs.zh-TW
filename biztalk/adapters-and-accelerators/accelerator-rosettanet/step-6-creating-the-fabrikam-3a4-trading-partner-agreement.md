@@ -1,15 +1,16 @@
 ---
-title: "步驟 6： 建立 Fabrikam 3A4 交易夥伴協議 |Microsoft 文件"
-ms.custom: 
+title: 步驟 6： 建立 Fabrikam 3A4 交易夥伴協議 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: double action tutorial, creating agreements
+helpviewer_keywords:
+- double action tutorial, creating agreements
 ms.assetid: 6ccd2414-a1d4-460e-9529-65b2d30cfca6
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

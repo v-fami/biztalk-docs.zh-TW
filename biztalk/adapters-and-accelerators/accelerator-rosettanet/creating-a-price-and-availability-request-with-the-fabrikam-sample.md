@@ -1,15 +1,16 @@
 ---
-title: "建立價格與可用性要求使用 Fabrikam 範例 |Microsoft 文件"
-ms.custom: 
+title: 建立價格與可用性要求使用 Fabrikam 範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: private process tutorial, creating requests
+helpviewer_keywords:
+- private process tutorial, creating requests
 ms.assetid: 6e4f4589-8f01-4b9e-93ee-c9371f32e04a
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

@@ -1,15 +1,16 @@
 ---
-title: "錯誤-必要的目標具有選擇性來源 |Microsoft 文件"
-ms.custom: 
+title: 錯誤-必要的目標具有選擇性來源 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.map.error.reqdTargetWithOptionalSource
+f1_keywords:
+- bts10.map.error.reqdTargetWithOptionalSource
 ms.assetid: 3f342011-4577-4682-8324-8296615d5194
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

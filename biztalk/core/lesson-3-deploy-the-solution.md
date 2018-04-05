@@ -1,15 +1,16 @@
 ---
-title: "第 3 課： 部署方案 |Microsoft 文件"
-ms.custom: 
+title: 第 3 課： 部署方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: enterprise application integration tutorial, deploying solutions
+helpviewer_keywords:
+- enterprise application integration tutorial, deploying solutions
 ms.assetid: b2f50fe7-7636-45bf-a09b-776065dd8a33
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

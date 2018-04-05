@@ -1,15 +1,16 @@
 ---
-title: "處理通知 |Microsoft 文件"
-ms.custom: 
+title: 處理通知 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: acknowledgements, processing
+helpviewer_keywords:
+- acknowledgements, processing
 ms.assetid: 705bc12d-69ac-4641-a45e-4f1fab507e4a
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

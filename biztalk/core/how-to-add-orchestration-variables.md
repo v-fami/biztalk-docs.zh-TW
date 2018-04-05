@@ -1,15 +1,16 @@
 ---
-title: "如何新增協調流程變數 |Microsoft 文件"
-ms.custom: 
+title: 如何新增協調流程變數 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: orchestrations, variables
+helpviewer_keywords:
+- orchestrations, variables
 ms.assetid: c387cd56-5443-4de2-bbda-be34b95cbe71
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

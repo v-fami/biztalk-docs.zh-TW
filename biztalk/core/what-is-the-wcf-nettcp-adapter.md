@@ -1,15 +1,16 @@
 ---
-title: "何謂 WCF-NetTcp 配接器？ | Microsoft Docs"
-ms.custom: 
+title: 何謂 WCF-NetTcp 配接器？ | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: WCF-NetTcp adapters, about WCF-NetTcp adapters
+helpviewer_keywords:
+- WCF-NetTcp adapters, about WCF-NetTcp adapters
 ms.assetid: 94dc24df-19a1-4701-9012-59d05b0c8abd
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

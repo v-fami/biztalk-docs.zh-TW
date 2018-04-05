@@ -1,15 +1,16 @@
 ---
-title: "BindingInfo 節點 |Microsoft 文件"
-ms.custom: 
+title: BindingInfo 節點 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: BindingInfo node [binding file]
+helpviewer_keywords:
+- BindingInfo node [binding file]
 ms.assetid: a71d100c-cf8b-4a54-b239-ee0ca2d8148c
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

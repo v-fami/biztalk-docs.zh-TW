@@ -1,19 +1,20 @@
 ---
-title: "如何建立接收位置 |Microsoft 文件"
-ms.custom: 
+title: 如何建立接收位置 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.admin.procedure.createreceivelocation
+f1_keywords:
+- bts10.admin.procedure.createreceivelocation
 helpviewer_keywords:
 - receive locations, creating
 - managing [receive locations], creating
 - creating, receive locations
 ms.assetid: ec0202cf-0e69-4ae2-aba6-8cd2c3c77e82
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

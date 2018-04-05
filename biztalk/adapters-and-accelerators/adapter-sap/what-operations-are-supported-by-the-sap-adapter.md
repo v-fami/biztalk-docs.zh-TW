@@ -1,15 +1,16 @@
 ---
-title: "SAP 配接器支援哪些作業 |Microsoft 文件"
-ms.custom: 
+title: SAP 配接器支援哪些作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: adapters, performing operations
+helpviewer_keywords:
+- adapters, performing operations
 ms.assetid: 4b676336-526d-42b9-9ff2-1a4f27df1a78
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

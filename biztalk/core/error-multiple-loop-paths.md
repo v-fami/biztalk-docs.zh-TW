@@ -1,15 +1,16 @@
 ---
-title: "錯誤-多個迴圈路徑 |Microsoft 文件"
-ms.custom: 
+title: 錯誤-多個迴圈路徑 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.map.error.multipleLoopPaths
+f1_keywords:
+- bts10.map.error.multipleLoopPaths
 ms.assetid: 3f7c0c1c-5aaa-4da9-99ab-78bac536b8dd
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

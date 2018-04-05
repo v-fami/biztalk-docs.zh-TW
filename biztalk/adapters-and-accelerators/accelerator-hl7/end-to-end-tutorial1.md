@@ -1,19 +1,20 @@
 ---
-title: "端對端 Tutorial1 |Microsoft 文件"
-ms.custom: 
+title: 端對端 Tutorial1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: btahl7.endtoendtutorial
+f1_keywords:
+- btahl7.endtoendtutorial
 helpviewer_keywords:
 - end-to-end tutorial, about the tutorial
 - end-to-end tutorial
 - tutorials, end-to-end tutorial
 ms.assetid: 90625edc-70a0-42c9-a2fb-8eeb5465d766
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

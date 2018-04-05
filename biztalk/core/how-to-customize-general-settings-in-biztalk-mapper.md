@@ -1,15 +1,16 @@
 ---
-title: "如何自訂 BizTalk 對應工具中的一般設定 |Microsoft 文件"
-ms.custom: 
+title: 如何自訂 BizTalk 對應工具中的一般設定 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.mapper.options.general
+f1_keywords:
+- bts10.mapper.options.general
 ms.assetid: 461acefb-8620-46fa-bdf1-de96f819e382
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

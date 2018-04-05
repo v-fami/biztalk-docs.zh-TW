@@ -1,15 +1,16 @@
 ---
-title: "BizTalk Accelerator for RosettaNet 的運作方式 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Accelerator for RosettaNet 的運作方式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: BizTalk Accelerator for RosettaNet, about BizTalk Accelerator for RosettaNet
+helpviewer_keywords:
+- BizTalk Accelerator for RosettaNet, about BizTalk Accelerator for RosettaNet
 ms.assetid: 903ea95b-56f8-48b0-80cd-e051c8f4e713
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

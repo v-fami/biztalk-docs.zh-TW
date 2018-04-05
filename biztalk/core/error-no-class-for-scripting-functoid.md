@@ -1,15 +1,16 @@
 ---
-title: "錯誤-指令碼處理運算質沒有類別 |Microsoft 文件"
-ms.custom: 
+title: 錯誤-指令碼處理運算質沒有類別 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.map.error.noClassForScriptingFunctoid
+f1_keywords:
+- bts10.map.error.noClassForScriptingFunctoid
 ms.assetid: c02504d4-4e13-42dc-9446-869c9dca513a
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

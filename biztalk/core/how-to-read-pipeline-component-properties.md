@@ -1,15 +1,16 @@
 ---
-title: "如何讀取管線元件屬性 |Microsoft 文件"
-ms.custom: 
+title: 如何讀取管線元件屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: pipeline components, properties
+helpviewer_keywords:
+- pipeline components, properties
 ms.assetid: 10b1c59c-7ba4-453f-9aaa-1ce9ecf31fac
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

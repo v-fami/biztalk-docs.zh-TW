@@ -1,15 +1,16 @@
 ---
-title: "設定 EDIFACT 後援協議屬性 |Microsoft 文件"
-ms.custom: 
+title: 設定 EDIFACT 後援協議屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.admin.edifactfallback.properties
+f1_keywords:
+- bts10.admin.edifactfallback.properties
 ms.assetid: fee588db-9ae8-44be-8a8f-9be624dec825
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

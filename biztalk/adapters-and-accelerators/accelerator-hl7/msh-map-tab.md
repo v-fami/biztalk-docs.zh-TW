@@ -1,18 +1,19 @@
 ---
-title: "MSH 對應 索引標籤 |Microsoft 文件"
-ms.custom: 
+title: MSH 對應 索引標籤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: btahl7.configurationexplorer.tab.mshmap
+f1_keywords:
+- btahl7.configurationexplorer.tab.mshmap
 helpviewer_keywords:
 - MSH Map tab [Configuration Explorer]
 - messages, message headers
 ms.assetid: 2c9d81bd-1abc-463d-87d7-0bea77182432
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

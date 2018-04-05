@@ -1,15 +1,16 @@
 ---
-title: "何謂 WCF-WSHttp 配接器？ | Microsoft Docs"
-ms.custom: 
+title: 何謂 WCF-WSHttp 配接器？ | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: WCF-WSHttp adapters, about WCF-WSHttp adapters
+helpviewer_keywords:
+- WCF-WSHttp adapters, about WCF-WSHttp adapters
 ms.assetid: 183a19e3-10b1-403f-b274-34a441e774d1
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

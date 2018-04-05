@@ -1,15 +1,16 @@
 ---
-title: "如何加上標籤與註解的運算質 |Microsoft 文件"
-ms.custom: 
+title: 如何加上標籤與註解的運算質 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.mapper.functiod.general
+f1_keywords:
+- bts10.mapper.functiod.general
 ms.assetid: 58ff3a07-cbb6-4817-b301-d2b434ed2ad9
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

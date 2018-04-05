@@ -1,15 +1,16 @@
 ---
-title: "設定 FRR 延遲逾時 |Microsoft 文件"
-ms.custom: 
+title: 設定 FRR 延遲逾時 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: FIN Response Reconciliation, configuring delay time-out
+helpviewer_keywords:
+- FIN Response Reconciliation, configuring delay time-out
 ms.assetid: 62209bf6-56c8-483a-96d5-328bffc8b680
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

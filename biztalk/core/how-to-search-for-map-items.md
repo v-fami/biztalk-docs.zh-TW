@@ -1,15 +1,16 @@
 ---
-title: "如何搜尋對應項目 |Microsoft 文件"
-ms.custom: 
+title: 如何搜尋對應項目 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.mapper.search
+f1_keywords:
+- bts10.mapper.search
 ms.assetid: 3dbb089a-6aa8-4921-a82d-81d3a193e933
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

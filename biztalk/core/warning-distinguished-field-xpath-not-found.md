@@ -1,15 +1,16 @@
 ---
-title: "警告-找不到辨別的欄位 XPath |Microsoft 文件"
-ms.custom: 
+title: 警告-找不到辨別的欄位 XPath |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-f1_keywords: bts10.edit.error.distingFieldXPathNotFound
+f1_keywords:
+- bts10.edit.error.distingFieldXPathNotFound
 ms.assetid: a925c39c-9ae1-4334-b329-aa2f5afd97ce
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

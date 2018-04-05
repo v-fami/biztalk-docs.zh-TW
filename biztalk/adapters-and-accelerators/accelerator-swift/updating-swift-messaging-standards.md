@@ -1,15 +1,16 @@
 ---
-title: "更新 SWIFT 訊息標準 |Microsoft 文件"
-ms.custom: 
+title: 更新 SWIFT 訊息標準 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: SWIFT messages, updating standards
+helpviewer_keywords:
+- SWIFT messages, updating standards
 ms.assetid: c32710e3-d3c2-4517-9b97-ef8bfb68b546
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta

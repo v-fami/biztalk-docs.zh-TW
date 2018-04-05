@@ -1,15 +1,16 @@
 ---
-title: "取得 Visual Studio 中的 Siebel 作業的中繼資料 |Microsoft 文件"
-ms.custom: 
+title: 取得 Visual Studio 中的 Siebel 作業的中繼資料 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords: metadata, retrieving for Siebel operations in Visual Studio
+helpviewer_keywords:
+- metadata, retrieving for Siebel operations in Visual Studio
 ms.assetid: 63643942-6497-4891-ad7d-34b1df9acbc1
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
