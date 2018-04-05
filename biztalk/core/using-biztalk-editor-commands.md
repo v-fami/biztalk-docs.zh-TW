@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e216ae5d-5bad-48ef-87d1-8aa8ee20179b
-caps.latest.revision: ''
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/23/2018
   
 |Command<br /><br /> (功能表位置)|Description|  
 |------------------------------------|-----------------|  
-|**開啟結構描述**<br /><br /> (檔案 & #124。開啟 &#124;檔案 [...]）|開啟 BizTalk 結構描述以在 BizTalk 編輯器中編輯。<br /><br /> 結構描述選取時，您也可以從「方案總管」的捷徑功能表使用，只要在「方案總管」中按兩下結構描述即可。|  
+|**開啟結構描述**<br /><br /> (檔案 &#124;開啟 &#124;檔案 ...）|開啟 BizTalk 結構描述以在 BizTalk 編輯器中編輯。<br /><br /> 結構描述選取時，您也可以從「方案總管」的捷徑功能表使用，只要在「方案總管」中按兩下結構描述即可。|  
 |**關閉結構描述**<br /><br /> (檔案 &#124;請關閉）|關閉 BizTalk 編輯器中的目前結構描述，並提示儲存任何尚未儲存的變更。<br /><br /> 使用 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 主要編輯視窗右上角的標準「關閉」按鈕，也可以執行這個命令。|  
 |**新的結構描述**<br /><br /> (專案 &#124;加入新項目 &#124;結構描述）|建立要編輯的新 BizTalk 結構描述，並開啟 BizTalk 編輯器。<br /><br /> 您也可以在 [方案總管] 中的 BizTalk 專案的捷徑功能表 (新增 &#124;新的項目）。|  
 |**儲存結構描述**<br /><br /> (檔案 &#124;另存 schema.xsd）<br /><br /> (檔案 &#124;儲存為 schema.xsd...)<br /><br /> (檔案 &#124;全部儲存）|可將目前正在編輯的 BizTalk 結構描述分別依所屬名稱、新名稱儲存，或是將所有尚未儲存的變更另存新檔。|  
