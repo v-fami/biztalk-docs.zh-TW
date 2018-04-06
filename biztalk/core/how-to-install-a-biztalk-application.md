@@ -13,7 +13,7 @@ helpviewer_keywords:
 - installing, warnings
 - applications, installing
 ms.assetid: 99ee0b1a-d46a-4fb6-802b-6827dc740418
-caps.latest.revision: ''
+caps.latest.revision: 56
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -51,7 +51,7 @@ ms.lasthandoff: 03/23/2018
   
 -   **您應該停止您要更新的應用程式。** 如果您正在執行安裝來更新應用程式中的成品，則不需要停止應用程式，除非更新包含一或多個與現有組件相同版本的組件。 若為上述情況，您就必須停止應用程式後再安裝更新。 但是，Microsoft 建議您在任何情況下都先停止應用程式，除非您知道該項更新在執行時不會影響應用程式。 如需詳細資訊，請參閱[更新 BizTalk 應用程式](../core/updating-biztalk-applications.md)。  
   
--   **當您安裝多個相同的應用程式的.msi 檔案時，就會新增或移除程式 中所做的只有一個項目。** 舉例來說，您可以這樣做來更新現有的應用程式。 接著，您可使用 [新增或移除程式] (在 [控制台]) 完全解除安裝該應用程式，包含所有已更新的項目。 請注意，不支援按兩下 .msi 檔案或使用 msiexec 來解除安裝應用程式。 如需詳細資訊，請參閱[如何解除安裝 BizTalk 應用程式](../core/how-to-uninstall-a-biztalk-application.md)。  
+-   **當您安裝多個相同的應用程式的.msi 檔案時，就會新增或移除程式 中所做的只有一個項目。** 舉例來說，您可以這樣做來更新現有的應用程式。 接著，您可使用 [新增或移除程式] \(在 [控制台]) 完全解除安裝該應用程式，包含所有已更新的項目。 請注意，不支援按兩下 .msi 檔案或使用 msiexec 來解除安裝應用程式。 如需詳細資訊，請參閱[如何解除安裝 BizTalk 應用程式](../core/how-to-uninstall-a-biztalk-application.md)。  
   
 -   **憑證必須存在於裝載傳送埠，才能執行應用程式的所有電腦上。** 「其他人」憑證存放區包含傳送埠使用的憑證。  
   

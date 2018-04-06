@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fb4fb73f-b783-4a04-9bd6-a135b3dd2655
-caps.latest.revision: ''
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/23/2018
  若要使用 BAM 管理公用程式，您必須是要套用 BAM 定義之電腦的系統管理員，或是 BizTalk Server 系統管理員群組的成員。  
   
 > [!NOTE]
->  在支援 [使用者帳戶控制] (UAC) 的系統上，您必須以系統管理權限執行此工具。  
+>  在支援 [使用者帳戶控制] \(UAC) 的系統上，您必須以系統管理權限執行此工具。  
   
 ## <a name="see-also"></a>另請參閱  
  [管理 BAM 動態基礎結構](../core/managing-the-bam-dynamic-infrastructure.md)   

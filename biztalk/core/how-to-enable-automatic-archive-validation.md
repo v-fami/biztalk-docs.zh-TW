@@ -11,7 +11,7 @@ helpviewer_keywords:
 - validating, archives [Tracking database]
 - archiving [Tracking database], validating archive
 ms.assetid: 406ca54a-6b1f-4bdb-9bad-bea5ea0f6e66
-caps.latest.revision: ''
+caps.latest.revision: 30
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,7 +26,7 @@ ms.lasthandoff: 03/23/2018
   
  您可以使用封存驗證功能，確保封存 (備份) 已成功，而且可以還原。 建立封存之後，會通知驗證伺服器已經建立新的封存。 驗證伺服器會嘗試還原封存。 驗證伺服器必須是另一個執行個體[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]不同的作業在執行。 版本[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]驗證伺服器必須是相同的版本[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]用來主控資料庫。  
   
- 若還原成功，則驗證伺服器會將此資訊傳回到 [BizTalk 追蹤] (BizTalkDTADb) 資料庫。 在成功完成還原之前，清除工作不會再清除任何其他資料。  
+ 若還原成功，則驗證伺服器會將此資訊傳回到 [BizTalk 追蹤] \(BizTalkDTADb) 資料庫。 在成功完成還原之前，清除工作不會再清除任何其他資料。  
   
  若還原不成功，則驗證伺服器會將此資訊傳回到 [BizTalk 追蹤] 資料庫。 清除工作會建立另一個封存，然後等待驗證新封存。 如此可避免毀損的封存造成追蹤資料遺失的可能性。  
   
@@ -71,7 +71,7 @@ ms.lasthandoff: 03/23/2018
     -   在裝載 BizTalk MessageBox (BizTalkMsgBoxDb) 資料庫的電腦上，SQL Server 代理程式的服務帳戶必須對連結伺服器上的 BizTalk 追蹤 (BizTalkDTADb) 資料庫擁有 db_datareader 和 db_datawriter 權限。  
   
     > [!NOTE]
-    >  用來執行工作的帳戶應該同時擁有兩個資料庫的 [資料庫操作員] (DBO) 權限。  
+    >  用來執行工作的帳戶應該同時擁有兩個資料庫的 [資料庫操作員] \(DBO) 權限。  
   
 7.  在 **新增連結的伺服器** 對話方塊的  **一般** 頁面上，於 **連結的伺服器**, ，輸入您想要連結至伺服器的名稱。  
   
@@ -92,7 +92,7 @@ ms.lasthandoff: 03/23/2018
      **exec dtasp_ValidateArchive '** *\<TrackingServerName\>* **', '** *\<TrackingDatabaseName\>* **'**  
   
 > [!NOTE]
->  [ValidateArchive] 作業沒有排程，您不可設定它的排程。 而是由 [DTA 清除和封存] (BizTalkDTADb) 作業在建立封存時自動啟動此作業。  
+>  [ValidateArchive] 作業沒有排程，您不可設定它的排程。 而是由 [DTA 清除和封存] \(BizTalkDTADb) 作業在建立封存時自動啟動此作業。  
   
 ## <a name="see-also"></a>另請參閱  
  [封存和清除 BizTalk 追蹤資料庫](../core/archiving-and-purging-the-biztalk-tracking-database.md)
