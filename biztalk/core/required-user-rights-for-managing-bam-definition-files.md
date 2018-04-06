@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fb4fb73f-b783-4a04-9bd6-a135b3dd2655
-caps.latest.revision: ''
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,19 +18,19 @@ ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
 ---
-# <a name="required-user-rights-for-managing-bam-definition-files"></a><span data-ttu-id="04125-102">管理 BAM 定義檔案所需的使用者權限</span><span class="sxs-lookup"><span data-stu-id="04125-102">Required User Rights for Managing BAM Definition Files</span></span>
-<span data-ttu-id="04125-103">任何角色中的使用者都可以建立、管理和檢視 BAM 定義檔案。</span><span class="sxs-lookup"><span data-stu-id="04125-103">BAM definition files can be created, managed, and viewed by users in any role.</span></span> <span data-ttu-id="04125-104">管理 BAM 定義檔案包括了部署和移除定義檔案，以及管理與定義檔案關聯的活動、檢視、警示和成品。</span><span class="sxs-lookup"><span data-stu-id="04125-104">Managing BAM definition files includes deploying and removing them as well as managing the activities, views, alerts, and artifacts that are associated with the definition file.</span></span>  
+# <a name="required-user-rights-for-managing-bam-definition-files"></a><span data-ttu-id="9b2e4-102">管理 BAM 定義檔案所需的使用者權限</span><span class="sxs-lookup"><span data-stu-id="9b2e4-102">Required User Rights for Managing BAM Definition Files</span></span>
+<span data-ttu-id="9b2e4-103">任何角色中的使用者都可以建立、管理和檢視 BAM 定義檔案。</span><span class="sxs-lookup"><span data-stu-id="9b2e4-103">BAM definition files can be created, managed, and viewed by users in any role.</span></span> <span data-ttu-id="9b2e4-104">管理 BAM 定義檔案包括了部署和移除定義檔案，以及管理與定義檔案關聯的活動、檢視、警示和成品。</span><span class="sxs-lookup"><span data-stu-id="9b2e4-104">Managing BAM definition files includes deploying and removing them as well as managing the activities, views, alerts, and artifacts that are associated with the definition file.</span></span>  
   
- <span data-ttu-id="04125-105">系統管理員必須維護適當的資產保護，例如使用適當的存取權限建立共用資料夾。</span><span class="sxs-lookup"><span data-stu-id="04125-105">Administrators should maintain proper asset protection, such as creating shared folders with appropriate access permissions.</span></span> <span data-ttu-id="04125-106">使用 Excel 的 BAM 增益集時，我們建議使用者將巨集安全性層級設定為高。</span><span class="sxs-lookup"><span data-stu-id="04125-106">When using the BAM Add-In for Excel, we recommend that users set the macro security level to high.</span></span>  
+ <span data-ttu-id="9b2e4-105">系統管理員必須維護適當的資產保護，例如使用適當的存取權限建立共用資料夾。</span><span class="sxs-lookup"><span data-stu-id="9b2e4-105">Administrators should maintain proper asset protection, such as creating shared folders with appropriate access permissions.</span></span> <span data-ttu-id="9b2e4-106">使用 Excel 的 BAM 增益集時，我們建議使用者將巨集安全性層級設定為高。</span><span class="sxs-lookup"><span data-stu-id="9b2e4-106">When using the BAM Add-In for Excel, we recommend that users set the macro security level to high.</span></span>  
   
- <span data-ttu-id="04125-107">修改 BAM 定義檔不需要任何必要的使用者權限 (視存放定義檔案位置所設定的權限而定)。</span><span class="sxs-lookup"><span data-stu-id="04125-107">There are no required user rights needed to modify the BAM definition files (depending on permissions set on where the definition files are stored).</span></span> <span data-ttu-id="04125-108">對定義檔案所做的變更不會自動套用至 BAM 基礎結構。</span><span class="sxs-lookup"><span data-stu-id="04125-108">Changes to definition files are not automatically applied to the BAM infrastructure.</span></span> <span data-ttu-id="04125-109">若要套用變更，您必須使用 BAM 管理公用程式。</span><span class="sxs-lookup"><span data-stu-id="04125-109">To apply the changes you must use the BAM Management utility.</span></span>  
+ <span data-ttu-id="9b2e4-107">修改 BAM 定義檔不需要任何必要的使用者權限 (視存放定義檔案位置所設定的權限而定)。</span><span class="sxs-lookup"><span data-stu-id="9b2e4-107">There are no required user rights needed to modify the BAM definition files (depending on permissions set on where the definition files are stored).</span></span> <span data-ttu-id="9b2e4-108">對定義檔案所做的變更不會自動套用至 BAM 基礎結構。</span><span class="sxs-lookup"><span data-stu-id="9b2e4-108">Changes to definition files are not automatically applied to the BAM infrastructure.</span></span> <span data-ttu-id="9b2e4-109">若要套用變更，您必須使用 BAM 管理公用程式。</span><span class="sxs-lookup"><span data-stu-id="9b2e4-109">To apply the changes you must use the BAM Management utility.</span></span>  
   
- <span data-ttu-id="04125-110">若要使用 BAM 管理公用程式，您必須是要套用 BAM 定義之電腦的系統管理員，或是 BizTalk Server 系統管理員群組的成員。</span><span class="sxs-lookup"><span data-stu-id="04125-110">To use the BAM Management utility, you must be an administrator on the computer to which the BAM definition is being applied or a member of the BizTalk Server Administrators group.</span></span>  
+ <span data-ttu-id="9b2e4-110">若要使用 BAM 管理公用程式，您必須是要套用 BAM 定義之電腦的系統管理員，或是 BizTalk Server 系統管理員群組的成員。</span><span class="sxs-lookup"><span data-stu-id="9b2e4-110">To use the BAM Management utility, you must be an administrator on the computer to which the BAM definition is being applied or a member of the BizTalk Server Administrators group.</span></span>  
   
 > [!NOTE]
->  <span data-ttu-id="04125-111">在支援 [使用者帳戶控制] (UAC) 的系統上，您必須以系統管理權限執行此工具。</span><span class="sxs-lookup"><span data-stu-id="04125-111">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  
+>  <span data-ttu-id="9b2e4-111">在支援 [使用者帳戶控制] \(UAC) 的系統上，您必須以系統管理權限執行此工具。</span><span class="sxs-lookup"><span data-stu-id="9b2e4-111">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  
   
-## <a name="see-also"></a><span data-ttu-id="04125-112">另請參閱</span><span class="sxs-lookup"><span data-stu-id="04125-112">See Also</span></span>  
- <span data-ttu-id="04125-113">[管理 BAM 動態基礎結構](../core/managing-the-bam-dynamic-infrastructure.md) </span><span class="sxs-lookup"><span data-stu-id="04125-113">[Managing the BAM Dynamic Infrastructure](../core/managing-the-bam-dynamic-infrastructure.md) </span></span>  
- <span data-ttu-id="04125-114">[何謂 BAM 定義？](../core/what-is-a-bam-definition.md) </span><span class="sxs-lookup"><span data-stu-id="04125-114">[What Is a BAM Definition?](../core/what-is-a-bam-definition.md) </span></span>  
- [<span data-ttu-id="04125-115">如何部署 BAM 定義</span><span class="sxs-lookup"><span data-stu-id="04125-115">How to Deploy BAM Definitions</span></span>](../core/how-to-deploy-bam-definitions.md)
+## <a name="see-also"></a><span data-ttu-id="9b2e4-112">另請參閱</span><span class="sxs-lookup"><span data-stu-id="9b2e4-112">See Also</span></span>  
+ <span data-ttu-id="9b2e4-113">[管理 BAM 動態基礎結構](../core/managing-the-bam-dynamic-infrastructure.md) </span><span class="sxs-lookup"><span data-stu-id="9b2e4-113">[Managing the BAM Dynamic Infrastructure](../core/managing-the-bam-dynamic-infrastructure.md) </span></span>  
+ <span data-ttu-id="9b2e4-114">[何謂 BAM 定義？](../core/what-is-a-bam-definition.md) </span><span class="sxs-lookup"><span data-stu-id="9b2e4-114">[What Is a BAM Definition?](../core/what-is-a-bam-definition.md) </span></span>  
+ [<span data-ttu-id="9b2e4-115">如何部署 BAM 定義</span><span class="sxs-lookup"><span data-stu-id="9b2e4-115">How to Deploy BAM Definitions</span></span>](../core/how-to-deploy-bam-definitions.md)
