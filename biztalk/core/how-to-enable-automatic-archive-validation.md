@@ -66,7 +66,7 @@ ms.lasthandoff: 03/23/2018
   
     -   每一個 BizTalk MessageBox (BizTalkMsgBoxDb) 資料庫與 BizTalk 追蹤 (BizTalkDTADb) 資料庫 (如果兩者位於不同的伺服器)。  
   
-    -   [BizTalk 追蹤] (BizTalkDTADb) 資料庫與封存驗證的驗證伺服器。  
+    -   [BizTalk 追蹤] \(BizTalkDTADb) 資料庫與封存驗證的驗證伺服器。  
   
     -   在裝載 BizTalk MessageBox (BizTalkMsgBoxDb) 資料庫的電腦上，SQL Server 代理程式的服務帳戶必須對連結伺服器上的 BizTalk 追蹤 (BizTalkDTADb) 資料庫擁有 db_datareader 和 db_datawriter 權限。  
   
