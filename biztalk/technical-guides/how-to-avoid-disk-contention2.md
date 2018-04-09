@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 37bdf6bd-cb34-4540-819e-908d83a22d40
-caps.latest.revision: ''
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -42,7 +42,7 @@ BizTalk Server 設計為持續性的系統。 針對高輸送量、 MessageBox �
   
  如需磁碟效能分析的詳細資訊，請參閱下列資源：  
   
--   [繫結磁碟問題出 ruling](http://go.microsoft.com/fwlink/?LinkId=120947) (超連結"http://go.microsoft.com/fwlink/?LinkId=120947"\t"_blank"http://go.microsoft.com/fwlink/?LinkId=120947)。  
+-   [繫結磁碟問題出 ruling](http://go.microsoft.com/fwlink/?LinkId=120947) (超連結 "http://go.microsoft.com/fwlink/?LinkId=120947" \t "_blank"http://go.microsoft.com/fwlink/?LinkId=120947) 。  
   
 -   [SQL Server 前置部署 I/O 最佳做法](http://go.microsoft.com/fwlink/?LinkId=120948)(http://go.microsoft.com/fwlink/?LinkId=120948)。  
   
