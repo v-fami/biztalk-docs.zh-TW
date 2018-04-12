@@ -1,14 +1,14 @@
 ---
-title: "規劃高可用性和災害復原 |Microsoft 文件"
-ms.custom: 
+title: 規劃高可用性和災害復原 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a7efba36-6d9c-4ae0-a4f5-893eb5d62a05
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -37,7 +37,7 @@ ms.lasthandoff: 09/20/2017
      如需在周邊網路中安裝伺服器的詳細資訊，請參閱[設定您網域時公開傳輸到網際網路](../technical-guides/planning-for-sending-and-receiving.md#BKMK_InternetTrans)。  
   
     > [!NOTE]  
-    >  周邊網路。 也稱為 DMZ、 非軍事區域和遮蔽式子網路  
+    >  周邊網路。 也稱為 DMZ 和遮蔽式子網路  
   
 ## <a name="software-considerations"></a>軟體考量  
  若要確保高可用性[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境中，規劃軟體時，請考慮下列：  

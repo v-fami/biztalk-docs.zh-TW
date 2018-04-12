@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3d67e5f7-5127-4c1d-be20-8d8dbb538286
-caps.latest.revision: ''
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -95,7 +95,7 @@ ms.lasthandoff: 03/28/2018
 ##  <a name="BKMK_InternetTrans"></a> 公開到網際網路傳輸時，設定您的網域  
  為簡化傳送和接收的文件，您的組織和外部交易夥伴之間，可能需要公開可從網際網路存取的公用對向站台上的傳輸。 在這些情況下，建議使用下列網域的設定：  
   
--   **周邊網路網域，（也稱為非軍事區域 (DMZ) 或過濾的子網路），採用到屋伺服器以提供網際網路相關服務，為您的組織**  
+-   **周邊網路網域，（也稱為 DMZ 或過濾的子網路），採用到屋伺服器以提供網際網路相關服務，為您的組織**  
   
      周邊網路網域應該包含伺服器的存放位置網際網路對向傳輸文件路由傳送執行的電腦之間的實體位置[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]與交易夥伴。 周邊網路防火牆只應該開啟允許網際網路對向傳輸的通訊所需的連接埠。 不應該執行的任何電腦[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]周邊網路網域中接收位置或企業單一登入伺服器電腦。 文件傳送/接收至 azure 或從周邊網路網域中的傳輸應從網際網路對向防火牆路由至防火牆保護處理網域中使用 Internet Security and Acceleration Server (ISA) Server 網頁發佈和伺服器發佈。 如需使用 ISA Server Web 和伺服器發佈的詳細資訊，請參閱[ISA Server 2006 中的發行概念](http://go.microsoft.com/fwlink/?LinkID=86359)(http://go.microsoft.com/fwlink/?LinkID=86359)。  
   

@@ -1,11 +1,11 @@
 ---
-title: "範例架構： 基本 BizTalk Server |Microsoft 文件"
-ms.custom: 
+title: 範例架構： 基本 BizTalk Server |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - architecture, examples
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - BizTalk Server, architecture
 - architecture, security
 ms.assetid: 7ccc1ef3-670f-423f-b6ca-3d56b9bbeabf
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -40,7 +40,7 @@ ms.lasthandoff: 09/20/2017
   
 ## <a name="perimeter-networkinternet"></a>周邊網路─網際網路  
   
--   周邊網路 (也稱為 DMZ、非軍事區域，以及過濾的子網路) 包含提供網際網路相關服務的伺服器。 在此網域中沒有 BizTalk Server、BizTalk 接收位置或企業單一登入伺服器。  
+-   周邊網路 (也稱為 DMZ 以及過濾的子網路) 包含提供網際網路相關服務的伺服器。 在此網域中沒有 BizTalk Server、BizTalk 接收位置或企業單一登入伺服器。  
   
 ## <a name="perimeter-networkintranet"></a>周邊網路─內部網路  
  周邊網路包含提供內部網路相關服務的伺服器。 它會在內部網路 (例如企業網路) 和執行應用程式的伺服器之間，提供額外的安全性階層。 類似於網際網路周邊網路，內部網路周邊網路不包含 BizTalk Server、BizTalk 接收位置或「企業單一登入」(SSO) 伺服器。  

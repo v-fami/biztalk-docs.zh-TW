@@ -9,7 +9,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ac9c7c7d-a97e-425a-9666-02ca6edd8be6
-caps.latest.revision: ''
+caps.latest.revision: 68
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -189,7 +189,7 @@ ms.lasthandoff: 03/28/2018
 |disassembler pipeline component (解譯器管線元件)|將一批訊息分開到個別文件的管線元件。 BizTalk Server 所提供的解譯器管線元件包括：一般檔案解譯器、BizTalk Framework 解譯器和 XML 解譯器。|  
 |distinguished field (辨別欄位)|訊息中的 .NET 類別成員或 XML 結構描述定義語言 (XSD) 結構描述欄位，已明確提供給協調流程用於運算式及自訂管線元件中，做為寫入的屬性欄位。 不能用於篩選條件運算式中。|  
 |distributed transaction coordinator (DTC) (分散式交易協調器)|與 COM+ 整合的服務，讓分散式交易可以運作。  DTC 讓交易可以從一個電腦延展到許多電腦上，而不需要特別的程式碼。|  
-|DMZ|非軍事區域。 請參閱 perimeter network (周邊網路)。|  
+|DMZ|周邊網路。 請參閱 perimeter network (周邊網路)。|  
 |document (文件)|在 EDI 中為一組邏輯結合的區段。 文件類型包括：發票、運輸訂單、客戶宣告等。|  
 |文件類型定義 (DTD)|可以描述 XML 文件結構的數種方式之一。 BizTalk Server 可以開啟以 DTD 描述的結構描述，並在程序中將它轉換為 XSD。|  
 |DTC|請參閱 distributed transaction coordinator (DTC) (分散式交易協調器)。|  
@@ -401,7 +401,7 @@ ms.lasthandoff: 03/28/2018
 |pass-through (通過)|BizTalk Server 連接埠的組態，在傳送埠上僅使用一個篩選條件運算式，將接收埠直接連接到傳送埠。 篩選條件運算式的格式應該為 BTS.ReceivePortName == "名稱或接收埠"。 在這種組態中，接收埠接收的任何訊息會直接傳送到傳送埠。 BizTalk 2004 中通過執行的意義與 BizTalk Server 2000 或 2002年中通過執行的意義不同。 在 BizTalk Server 2004 中通過執行訊息仍在管線中處理，並可能在連接埠數目也會進行轉換。|  
 |效能監視|觀看訊息程序/接收速率、執行協調流程數、快取點擊數、一段時間的記憶使用狀況等的程序。|  
 |performance processing rules (效能處理規則)|管理程序效能或容量類型計數器的規則。|  
-|周邊網路|位於內部網路與網際網路之間的裝置和子網路的集合，可隔離未獲授權的網際網路使用者，以協助保護內部網路。 也稱為 DMZ (非軍事區域) 以及過濾的子網路。|  
+|周邊網路|位於內部網路與網際網路之間的裝置和子網路的集合，可隔離未獲授權的網際網路使用者，以協助保護內部網路。 也稱為 DMZ 以及過濾的子網路。|  
 |physical (early) binding (實體早期繫結)|做為組件中一部分的資訊，由部署程序使用來建立傳送埠和接收埠。|  
 |pipeline (管線)|定義及連結一或多個處理階段的軟體基礎結構，以指定的順序執行來完成特定工作。 管理將處理分成各個階段，描述工作類別的抽象概念。 它也決定執行每個工作類別的順序。|  
 |pipeline component (管線元件)|COM 或 .NET 相容元件，可放置在管線中，在訊息經過該管線時執行一些處理動作。|  

@@ -1,14 +1,14 @@
 ---
-title: "網際網路對向 Web 服務和 WCF 服務發佈 |Microsoft 文件"
-ms.custom: 
+title: 網際網路對向 Web 服務和 WCF 服務發佈 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e7553608-f57a-470e-91d4-75504b3fd52b
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,7 +21,7 @@ ms.lasthandoff: 12/01/2017
 # <a name="publishing-internet-facing-web-services-and-wcf-services"></a>發行的網際網路對向 Web 服務和 WCF 服務
 您可以使用多種發行[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]Web 服務和到網際網路的 WCF 服務：  
   
--   周邊網路 （也稱為 DMZ、 非軍事區域和遮蔽式子網路） 中使用反向 proxy 規則。  
+-   周邊網路 （也也稱為 DMZ 和遮蔽式子網路） 中使用反向 proxy 規則。  
   
 -   將執行的電腦[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，將 Web 服務或 WCF 服務發佈至周邊網路的網域。  
   
