@@ -13,15 +13,15 @@ helpviewer_keywords:
 - BizTalk Framework Disassembler [pipeline component], distinquished fields
 - XML Disassembler [pipeline component], distinquished fields
 ms.assetid: 7e51d2fe-0004-4a7b-9055-bd41e8a4b7ab
-caps.latest.revision: ''
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 64e4c8f15d167f5343089c11b92b0f373aa45576
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 20a9c79050b4489238ed94444eaebf8c3dac79d9
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="distinguished-fields-in-disassembler-pipeline-components"></a>辨別的欄位在解譯器管線元件
 結構描述中定義的辨別欄位會由「XML 解譯器」、「BizTalk Framework 解譯器」或「一般檔案解譯器」管線元件以下列格式寫入訊息內容：  
@@ -67,7 +67,7 @@ ms.lasthandoff: 03/28/2018
   
  XML 解譯器在訊息內容寫入辨別欄位，如下所示：  
   
- 在內容上的屬性名稱:"/ * [local-name = 'PO' and namespace-uri （) ='http://SendHtmlMessage.PO'] /\*[local-name = 'Price' and namespace-uri （) =']"  
+ 在內容上的屬性名稱： `"/*[local-name()='PO' and namespace-uri()='http://SendHtmlMessage.PO']/\*[local-name()='Price' and namespace-uri()='']"`  
   
  屬性的命名空間： http://schemas.microsoft.com/BizTalk/2003/btsDistinguishedFields  
   

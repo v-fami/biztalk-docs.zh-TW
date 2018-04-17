@@ -7,23 +7,18 @@ ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords:
-- BPEL4WS, restrictions
-- BPEL4WS, importing
-- BPEL4WS, orchestrations
-- orchestrations, BPEL4WS
 ms.assetid: 3626fcb9-8e7d-4812-a0c9-bde6e7954ec8
-caps.latest.revision: ''
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7b32a0044321ce6ac57d7bd49c14b40ba17430db
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 9e82dd80e280eff39ff5c1678b5c9751e378ee1b
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="how-to-import-bpel4ws"></a>如何匯入 BPEL4WS
+# <a name="import-bpel4ws-in-biztalk-server"></a>在 BizTalk Server 中匯入 BPEL4WS
 您可以從現有的 BPEL4WS 匯入，以建立協調流程。  
   
 > [!IMPORTANT]
@@ -31,7 +26,7 @@ ms.lasthandoff: 03/28/2018
   
  如需如何匯入 BPEL4WS 的範例，請參閱[BPEL 匯入 （BizTalk Server 範例）](../core/bpel-import-biztalk-server-sample.md)。  
   
-### <a name="to-import-bpel4ws-into-an-orchestration"></a>將 BPEL4WS 匯入協調流程  
+## <a name="import-bpel4ws-into-an-orchestration"></a>匯入 BPEL4WS 為協調流程  
   
 1.  建立新專案。  
   
@@ -69,7 +64,7 @@ ms.lasthandoff: 03/28/2018
     </element>  
     ```  
   
-     XPath-/ * [local-name = 'Root' and namespace-uri （) ='http://BizTalk_Server_Project3.Schema1'] /\*[local-name = 'promotedField' and namespace-uri （) =']  
+     `XPath - /*[local-name()='Root' and namespace-uri()='http://BizTalk_Server_Project3.Schema1']/\*[local-name()='promotedField' and namespace-uri()='']` 
   
     |標準 XPath|非標準 XPath|  
     |---------------------|--------------------------|  

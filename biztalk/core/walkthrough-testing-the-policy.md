@@ -8,15 +8,15 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 53ed915d-0f3a-48ea-bfd5-a1f89b9b689c
-caps.latest.revision: ''
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6a6f879111a28d5cbf9b2a75c7b3f3b3b865fb38
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 36d7ecf6e469ae6c3edd9b3d7cadc0068ba0d021
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="walkthrough-testing-the-policy"></a>逐步解說： 測試原則
 本逐步解說提供逐步程序以測試您中建立的原則[逐步解說： 建立簡單商務原則](../core/walkthrough-creating-a-simple-business-policy.md)逐步解說。  
@@ -185,7 +185,8 @@ ms.lasthandoff: 03/28/2018
 |欄位名稱|XPath 選取器|XPath 欄位|XPath 選取器 (簡化形式)|XPath 欄位<br /><br /> (簡化形式)|  
 |----------------|--------------------|-----------------|----------------------------------------|-----------------------------------------|  
 |Quantity|/ * [local-name = 'PurchaseOrder' and namespace-uri （) ='http://EAISolution.PurchaseOrder'] /\*[local-name = 'Item' and namespace-uri （) =']|*[local-name()='Quantity' and namespace-uri()='']|/PurchaseOrder/Item|Quantity|  
-|狀態|/ * [local-name = 'PurchaseOrder' and namespace-uri （) ='http://EAISolution.PurchaseOrder']|*[local-name()='Status' and namespace-uri()='']|/PurchaseOrder|狀態|  
+|狀態|/ * [local-name = 'PurchaseOrder' and namespace-uri （) ='http://EAISolution.PurchaseOrder']|*[local-name()='Status' and namespace-uri()='']|/PurchaseOrder|狀態|
+<!---Loc Comment: Please, verify strucutre in line 183 and 184--->
   
 #### <a name="to-view-the-xpath-selector-and-xpath-field-bindings-for-the-quantity-and-status-fields"></a>若要檢視 Quantity 和 Status 欄位的 Xpath 選取器和 Xpath 欄位繫結  
   
