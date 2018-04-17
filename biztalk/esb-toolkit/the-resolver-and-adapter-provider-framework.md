@@ -1,5 +1,5 @@
 ---
-title: 解析器和配接器提供者架構 |Microsoft 文件
+title: ESB 解析器和配接器提供者架構 |Microsoft 文件
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -8,15 +8,15 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fb7ea42e-b32c-40a8-b36b-c349f56f6edd
-caps.latest.revision: ''
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6b97eec38f868a6d1aa00684d92166bb2759a51d
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: a350ac19ac1fa95ffb8eb6782380bda78a457b75
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="the-resolver-and-adapter-provider-framework"></a>解析器和配接器提供者架構
 解析器和配接器提供者架構支援路線、 轉換和端點解析和路由。 架構可以動態地解決端點，並設定輸出配接器屬性。 之後的解析程式元件會解析端點 （例如，傳出的 Web 服務端點上使用通用描述、 探索與整合 [UDDI] 來尋找），配接器提供者元件設定的已註冊的 BizTalk Server 的特定屬性配接器。 例如，Wcf-basichttp 配接器提供者負責設定 BizTalk 特定訊息的端點 URI，將會使用特定的 BizTalk 配接器; 內容屬性FTP 配接器提供者會負責設定 FTP 配接器的特定屬性。  
@@ -36,11 +36,11 @@ ms.lasthandoff: 03/23/2018
   
  連接字串的範例如下：  
   
--   **STATIC**  
+-   **靜態**  
   
      STATIC:\\\TransportType=;  
   
-     TransportLocation=http://localhost/ESB.CanadianServices/SubmitPOService.asmx;  
+     TransportLocation =http://localhost/ESB.CanadianServices/SubmitPOService.asmx;  
   
      Action=;  
   
@@ -64,9 +64,9 @@ ms.lasthandoff: 03/23/2018
   
 -   **XPATH**  
   
-     \\\TransportType=;  
+     XPATH:\\\TransportType=;  
   
-     TransportLocation = /*[local-name = 'OrderDoc' and namespace-uri （) ='http://globalbank.esb.dynamicresolution.com/northamericanservices/'] /*[local-name = 'ID' and namespace-uri （) ='http://globalbank.esb.dynamicresolution.com/northamericanservices/']。  
+     `TransportLocation=/*[local-name()='OrderDoc' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/']/*[local-name()='ID' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/'];`  
   
      Action=;  
   
@@ -76,10 +76,10 @@ ms.lasthandoff: 03/23/2018
   
      MessageExchangePattern=;  
   
-     TargetNamespace=/*[local-name()='OrderDoc' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/']/*[local-name()='customerName' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/'];  
+     `TargetNamespace=/*[local-name()='OrderDoc' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/']/*[local-name()='customerName' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/'];`  
   
      TransformType=;  
-  
+
 -   **BRE**  
   
      BRE:\\\policy=GetCanadaEndPoint;  
@@ -104,7 +104,7 @@ ms.lasthandoff: 03/23/2018
   
 -   **行程靜態**  
   
-     ITINERARY-STATIC:\\\name=TwoWayTestItinerary;  
+     行程靜態：\\\name=TwoWayTestItinerary;  
   
      version=;  
   
@@ -114,23 +114,23 @@ ms.lasthandoff: 03/23/2018
   
      TransportLocation={mail}  
   
-     Filter=(&amp;(objectClass=User)(&#124;(userPrincipalName=yourname@domain.com)));  
+     篩選 = (&(objectClass=User) (| (userPrincipalName =yourname@domain.com)));  
   
      SearchRoot=;  
   
      SearchScope=Subtree;  
   
-     EndpointConfig = Subject = {mail} 行程測試訊息&amp;  
+     EndpointConfig = Subject = {mail} 行程測試訊息 （& s) 
   
-     SMTPAuthenticate=0&amp;  
+     SMTPAuthenticate = 0 （& s)
   
-     SMTPHost=127.0.0.1&amp;  
+     SMTPHost = 127.0.0.1 （& s)
   
-     From=test@globalbank.com&amp;  
+     從 =test@globalbank.com（& s)
   
-     DeliveryReceipt=false&amp;  
+     DeliveryReceipt = false （& s)
   
-     MessagePartsAttachments=0&amp;  
+     MessagePartsAttachments = 0 （& s)
   
      ReadReceipt=false;  
   

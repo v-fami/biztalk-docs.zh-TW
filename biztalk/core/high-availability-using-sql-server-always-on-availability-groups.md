@@ -1,22 +1,23 @@
 ---
-title: "使用 SQL Server Alwayson 可用性群組的高可用性 |Microsoft 文件"
-ms.custom: 
-ms.date: 06/08/2017
+title: 使用 SQL Server Alwayson 可用性群組的高可用性 |Microsoft 文件
+description: 群組的 BizTalk Server 資料庫，以取得高可用性 (HA) 解決方案，使用 SQL Server Alwayson 上可用群組 (AG)，包括系統需求和限制的不同節點上。 一律在 AG 需要 Windows Server 容錯移轉叢集 (WSFC)。
+ms.custom: ''
+ms.date: 04/10/2018
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4511a578-77d2-49ee-99bd-f0406ad625d0
-caps.latest.revision: 
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d065013cb4975e6d37e2ab50211c5207852ece64
-ms.sourcegitcommit: 6fe505d37e81dc2da43f89548e8977b60a6f5dbd
+ms.openlocfilehash: 5e7bc583cf64ab822cd785e73b3994e7f8e33a75
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="high-availability-using-sql-server-always-on-availability-groups"></a>使用 SQL Server Alwayson 可用性群組的高可用性
 設定使用 SQL Server AlwaysOn 可用性群組的高可用性。
@@ -259,7 +260,7 @@ BizTalk Server 實作資料庫待命功能，透過使用資料庫記錄傳送�
 * 登入、 SQL Agent 作業，SQL DB 郵件設定檔和帳戶，無法管理可用性群組內。 這需要手動修改，以確定它們執行的主要複本的工作。 
 * SQL Server Analysis Services 和 SQL Server Integration Services 不參與可用性群組。 如果不使用這項支援從 SQL Server，就沒有高可用性解決方案，這些 Azure 虛擬機器中。 BizTalk Server BAM 功能都依賴這些服務。 
 * 可用性群組不支援在相同的 SQL 執行個體上的資料庫之間的 MSDTC。 因此，最小 8 SQL 執行個體，需要將 BizTalk 設定。 
-* 若要解決 MSDTC 可用性群組，BizTalk 資料庫的限制可以使用至少兩部伺服器裝載四個 SQL 執行個體每個設定。 不過，在 Azure 虛擬機器中，ILB 不支援多個 IP 位址。 這會強制我們建立不同的伺服器上的每個 SQL 執行個體。 
+* 若要解決 MSDTC 可用性群組，BizTalk 資料庫的限制可以使用至少兩部伺服器裝載四個 SQL 執行個體每個設定。 您也可以使用[與 Azure 負載平衡器的多個 IP 位址](https://docs.microsoft.com/azure/load-balancer/load-balancer-multivip-overview)。 因此，如果您想要使用單一伺服器上的通訊埠 1433年上的四個預設 SQL 執行個體，您需要四個 IP 位址。 如果您僅限於一個 IP 位址，而且您想要裝載在相同伺服器上的多個 SQL 執行個體，請務必確定每個 SQL 執行個體中使用自訂連接埠。 
 * BizTalk Server 無法使用唯讀路由。 
 * BizTalk Server 不會設定 `MultiSubnetFailover` 連接屬性。 
 * BizTalk 使用記錄傳送的備份工作將會永遠目標無論設定可用性群組的備份喜好設定的主要複本。 
