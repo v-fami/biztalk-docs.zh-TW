@@ -27,15 +27,15 @@ helpviewer_keywords:
 - RNIFReceive.aspx
 - synchronous connections
 ms.assetid: 21e52390-35d8-44b1-a5cd-1cd60cfe6e61
-caps.latest.revision: ''
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 0782c421dfe771cd024b5ce4df893e2aaa45721d
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="send-and-receive-aspx-pages"></a>傳送和接收 ASPX 頁面
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] ASPX 頁面是之間的直接介面[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]和網際網路。 ASPX 頁面有兩種，分別是接收頁面 (RNIFReceive.aspx) 和傳送頁面 (RNIFSend.aspx)。 每個 ASPX 頁面都是對應的 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 管線的延伸。 管線需要 ASPX 頁面才能處理 RosettaNet 實作架構 (RNIF) 標頭。 管線執行大多數的 HTTP 處理，然而，每個 ASPX 頁面執行 RNIF 標頭的 HTTP 處理。 頁面能夠擴大 [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] HTTP 配接器的功能。  

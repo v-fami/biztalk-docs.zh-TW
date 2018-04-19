@@ -13,15 +13,15 @@ helpviewer_keywords:
 - configuring, WCF services
 - WCF Service Publishing Wizard
 ms.assetid: f51b86c0-8c19-453d-a66d-3f373e9f096e
-caps.latest.revision: ''
+caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 19383ca97f979d6932698d06eabd507b4a00954f
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="how-to-configure-wcf-services-published-with-the-biztalk-wcf-service-publishing-wizard"></a>如何用 BizTalk WCF 服務發佈精靈來設定已發佈 WCF 服務。
 在使用 [BizTalk WCF 服務發佈精靈] 發佈 WCF 服務之後，您還必須適當設定這些服務。 本主題會說明如何設定已發佈的 WCF 服務。  
@@ -56,7 +56,7 @@ ms.lasthandoff: 03/23/2018
 7.  如果您未選取 **建立 BizTalk 接收位置** 選項建立 WCF 服務時，在 **傳輸屬性** 對話方塊中，按一下 [ **一般** ] 索引標籤。在**一般**索引標籤上，針對這個接收位置中的，輸入 URI**位址**文字方塊。 指定虛擬目錄和.svc 檔案名稱 BizTalk WCF 服務發佈精靈產生之前程序中 — 例如，/path/service.svc。  
   
     > [!NOTE]
-    >  **位址** 屬性應該啟動以正斜線 （"/"），並以".svc"結束。 **位址** 屬性必須包含通訊協定配置、 電腦名稱，或是 http://host:port 之類的連接埠號碼。 這個屬性只能使用虛擬目錄路徑。 WCF 服務標記檔案必須具有 .svc 副檔名。  
+    >  **位址** 屬性應該啟動以正斜線 （"/"），並以".svc"結束。 **位址**屬性必須包含通訊協定配置、 電腦名稱或連接埠號碼例如http://host:port。 這個屬性只能使用虛擬目錄路徑。 WCF 服務標記檔案必須具有 .svc 副檔名。  
   
      ![WCF 中的 [一般] 索引標籤&#45;BasicHttp 配接器](../core/media/1126fa6a-e3e9-44ad-aeb0-90c78226aeeb.gif "1126fa6a-e3e9-44ad-aeb0-90c78226aeeb")  
   

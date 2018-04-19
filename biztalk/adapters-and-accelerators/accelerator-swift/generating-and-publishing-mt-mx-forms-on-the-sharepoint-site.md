@@ -8,15 +8,15 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4adf7117-11ad-4a8e-8d6a-fd78c5e496a3
-caps.latest.revision: ''
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 1c8bd8248a916d1e98571551a8561119b6377329
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="generating-and-publishing-mtmx-forms-on-the-sharepoint-site"></a>產生和發行 SharePoint 網站上的 MT/MX 表單
 **若要產生並發佈在 SharePoint 網站上的 MT/MX 表單：**  
@@ -50,7 +50,7 @@ ms.lasthandoff: 03/23/2018
   
 12. 在 [發行精靈] 視窗中，選取**至某個網路位置**按一下**下一步**。  
   
-13. 在 [表單範本路徑和檔案名稱] 文字方塊中輸入**http://localhost/sites/BASSite/Templates/\<MessageType\>.xsn**和型別 **\<MessageType\>**表單範本中將文字方塊中，按一下**下一步**。  
+13. 在 表單範本路徑和檔案名稱 文字方塊中輸入 **http://localhost/sites/BASSite/Templates/ \<MessageType\>.xsn**和型別**\<MessageType\>**格式範本名稱 文字方塊中，按一下**下一步**。  
   
 14. 按一下 **[下一步]**。  
   

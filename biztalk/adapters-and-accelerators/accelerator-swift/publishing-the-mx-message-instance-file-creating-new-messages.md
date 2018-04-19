@@ -8,15 +8,15 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e7e6cdf4-b9db-42be-a92d-10a7471e2c2d
-caps.latest.revision: ''
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 4082174428f177905527d0c648b4d7ad000dde36
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="publishing-the-mx-message-instance-file-creating-new-messages"></a>發行 MX 訊息執行個體檔案 （建立新的訊息）
 **若要發行的 MX 訊息執行個體檔案：**  
