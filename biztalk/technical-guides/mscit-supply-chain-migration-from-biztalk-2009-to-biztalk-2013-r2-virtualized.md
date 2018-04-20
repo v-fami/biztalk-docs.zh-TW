@@ -1,27 +1,27 @@
 ---
-title: "MSCIT： 從 BizTalk Server 2009 中樞到 BizTalk Server 2013 R2 虛擬化集線器供應鏈移轉 |Microsoft 文件"
-ms.custom: 
+title: MSCIT： 從 BizTalk Server 2009 中樞到 BizTalk Server 2013 R2 虛擬化集線器供應鏈移轉 |Microsoft 文件
+ms.custom: ''
 ms.prod: biztalk-server
 ms.date: 06/08/2017
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7366ffc2-d1f6-44df-b1f8-f07b99cf5d11
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 7a3cc49424ead924bdb98dd196f7792806d2702f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="mscit-supply-chain-migration-from-biztalk-server-2009-hub-to-biztalk-server-2013-r2-virtualized-hub"></a>MSCIT： 從 BizTalk Server 2009 中樞的供應鏈移轉至 BizTalk Server 2013 R2 虛擬化的中樞
 從 BizTalk Server 2010 應用程式移轉至 BizTalk Server 2013 R2。  
   
- **作者**: Arvind Chaudhary、 Microsoft &#124;Piyush Prasad Microsoft  
+ **作者**: Arvind Chaudhary、 Microsoft &#124; Piyush Prasad、 Microsoft  
   
  **發行**: 2015 年 9 月  
   

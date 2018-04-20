@@ -1,22 +1,22 @@
 ---
-title: "案例範例路線 |Microsoft 文件"
-ms.custom: 
+title: 案例範例路線 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6d438580-2b24-493c-a7d9-27632a75459c
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: c9359a6fb3d0ce4d4f0d8fbd787c0d6a30f0f499
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="the-sample-itinerary-scenarios"></a>路線案例的範例
 下表列出路線上手範例包含所有預先定義的行程檔案。 這些位於 \Source\Samples\Itinerary\Itineraries 資料夾中。  

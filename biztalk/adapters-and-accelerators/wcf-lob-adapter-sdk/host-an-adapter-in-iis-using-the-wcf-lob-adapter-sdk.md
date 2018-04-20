@@ -1,22 +1,22 @@
 ---
-title: "裝載於 IIS 使用 WCF LOB Adapter SDK 的配接器 |Microsoft 文件"
-ms.custom: 
+title: 裝載於 IIS 使用 WCF LOB Adapter SDK 的配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 90b6cd97-01b3-4c98-a190-c6e0ccf24d2b
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 326dc5f3102354c8f2aa6fa785b145b72014f3d3
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="host-an-adapter-in-iis-using-the-wcf-lob-adapter-sdk"></a>使用 WCF LOB Adapter SDK 的 IIS 中的配接器主機
 本章節包含有關裝載使用所建置的配接器的資訊[!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)]網際網路資訊服務 (IIS) 中。 如需有關其他裝載選項的詳細資訊，請參閱[裝載服務](https://msdn.microsoft.com/library/ms730158.aspx)。
@@ -59,7 +59,7 @@ ms.lasthandoff: 11/28/2017
         |**無**|不需要用戶端會出示認證。|  
         |**視窗**|用戶端會使用 Windows 認證。|  
         |**使用者名稱**|用戶端將會提供使用者名稱和密碼。|  
-        |**[MSSQLSERVER 的通訊協定內容]**|用戶端將會使用 X.509 憑證驗證。 如果此值設定，請按一下**瀏覽**中**用戶端憑證**區域中，，然後選取要使用的憑證。|  
+        |**憑證**|用戶端將會使用 X.509 憑證驗證。 如果此值設定，請按一下**瀏覽**中**用戶端憑證**區域中，，然後選取要使用的憑證。|  
   
     3.  在**URI 屬性**索引標籤上，指定所需的配接器 URI 參數。 此索引標籤中顯示的項目中公開的屬性視`ConnectionUri Properties`配接器的類別。  
   
@@ -85,8 +85,8 @@ ms.lasthandoff: 11/28/2017
         |**名稱**|服務行為組態名稱。|  
         |**UseServiceCertificate**|這個值會決定服務是否會使用 X.509 憑證來向用戶端處理序。 預設值是**True**。|  
         |**FindValue**|這個值用來搜尋特定的 X.509 憑證的憑證存放區。 也藉由修改設定\< **serviceCredentials findValue =""** \> web.config 中**附註：**指定這個屬性只有當值**UseServiceCertificate**設**True**。|  
-        |**StoreLocation**|這個值會指定系統存放區位置來搜尋指定的憑證。 這也可以設定藉由修改\< **serviceCredentials storeLocation =""** \> web.config 中。**注意：**指定的值為這個屬性才**UseServiceCertificate**設**True**。|  
-        |**StoreName**|這個值會指定特定的系統存放區，來搜尋指定的憑證。 也藉由修改設定\< **serviceCredentials storeName =""** \> web.config 中**附註：**指定這個屬性只有當值**UseServiceCertificate**設**True**。|  
+        |**storeLocation**|這個值會指定系統存放區位置來搜尋指定的憑證。 這也可以設定藉由修改\< **serviceCredentials storeLocation =""** \> web.config 中。**注意：**指定的值為這個屬性才**UseServiceCertificate**設**True**。|  
+        |**storeName**|這個值會指定特定的系統存放區，來搜尋指定的憑證。 也藉由修改設定\< **serviceCredentials storeName =""** \> web.config 中**附註：**指定這個屬性只有當值**UseServiceCertificate**設**True**。|  
         |**X509FindType**|搜尋用於 FindValue 的類型稍早指定，以便找出要使用的特定憑證。 也藉由修改設定\< **serviceCredentials x509FindType =""** \> web.config 中**附註：**指定這個屬性只有當值**UseServiceCertificate**設**True**。|  
   
     2.  **端點行為組態**區段控制端點行為。  
@@ -94,9 +94,9 @@ ms.lasthandoff: 11/28/2017
         |屬性|Description|  
         |--------------|-----------------|  
         |**名稱**|端點行為的名稱|  
-        |**AuthenticationType**|這個值會指示配接器來取得用戶端認證的內送文件的位置。 若要啟用用戶端指定要向服務驗證的用戶端憑證，將此設**ClientCredentialUsernamePassword**。 若要啟用用戶端指定的使用者名稱和密碼做為 HTTP 標頭的一部分，將此設**HTTPUsernamePassword**。 若要啟用用戶端指定認證，透過 ClientCredential 介面，將此設**自動**。如果失敗，用戶端才能將認證傳遞做為 HTTP 標頭的一部分。<br /><br /> 這個值也可以藉由修改設定\< **[endpointbehavior] adapterSecurityBridgeType** \> web.config 中。預設值是**自動**。|  
-        |**UsernameHeader**|這會指定將用來傳遞至服務的使用者名稱標頭名稱。 HTTP 標頭的詳細資訊，請參閱 < 自訂 HTTP 和 SOAP 標頭的支援 >，網址[http://go.microsoft.com/fwlink/?LinkId=106692](http://go.microsoft.com/fwlink/?LinkId=106692)<br /><br /> 這個值也可以藉由修改設定\< **[endpointbehavior] usernameHttpHeader** \> web.config 中。**注意：**您必須指定此屬性的值，如果**AuthenticationType**設**HTTPUserNamePassword**。  如果設定為**自動**，這是選擇性屬性。|  
-        |**PasswordHeader**|這會指定將用來將使用者密碼傳遞給服務的標頭名稱。 HTTP 標頭的詳細資訊，請參閱 < 支援的自訂 HTTP 和 SOAP 標頭 >，網址[http://go.microsoft.com/fwlink/?LinkId=106692](http://go.microsoft.com/fwlink/?LinkId=106692)<br /><br /> 這個值也可以藉由修改設定 <**[endpointbehavior] passwordHttpHeader**< web.config 中。**注意：**您必須指定此屬性的值，如果**AuthenticationType**設**HTTPUserNamePassword**。 如果設定為**自動**，這是選擇性屬性。|  
+        |**authenticationType**|這個值會指示配接器來取得用戶端認證的內送文件的位置。 若要啟用用戶端指定要向服務驗證的用戶端憑證，將此設**ClientCredentialUsernamePassword**。 若要啟用用戶端指定的使用者名稱和密碼做為 HTTP 標頭的一部分，將此設**HTTPUsernamePassword**。 若要啟用用戶端指定認證，透過 ClientCredential 介面，將此設**自動**。如果失敗，用戶端才能將認證傳遞做為 HTTP 標頭的一部分。<br /><br /> 這個值也可以藉由修改設定\< **[endpointbehavior] adapterSecurityBridgeType** \> web.config 中。預設值是**自動**。|  
+        |**UsernameHeader**|這會指定將用來傳遞至服務的使用者名稱標頭名稱。 HTTP 標頭的詳細資訊，請參閱 < 自訂 HTTP 和 SOAP 標頭的支援 > 網址 [http://go.microsoft.com/fwlink/?LinkId=106692](http://go.microsoft.com/fwlink/?LinkId=106692)<br /><br /> 這個值也可以藉由修改設定\< **[endpointbehavior] usernameHttpHeader** \> web.config 中。**注意：**您必須指定此屬性的值，如果**AuthenticationType**設**HTTPUserNamePassword**。  如果設定為**自動**，這是選擇性屬性。|  
+        |**PasswordHeader**|這會指定將用來將使用者密碼傳遞給服務的標頭名稱。 HTTP 標頭的詳細資訊，請參閱 < 支援的自訂 HTTP 和 SOAP 標頭 > 網址 [http://go.microsoft.com/fwlink/?LinkId=106692](http://go.microsoft.com/fwlink/?LinkId=106692)<br /><br /> 這個值也可以藉由修改設定 <**[endpointbehavior] passwordHttpHeader**< web.config 中。**注意：**您必須指定此屬性的值，如果**AuthenticationType**設**HTTPUserNamePassword**。 如果設定為**自動**，這是選擇性屬性。|  
   
     3.  設定所要的行為後, 按一下**下一步**才能繼續。  
   
@@ -138,11 +138,11 @@ ms.lasthandoff: 11/28/2017
   
     1.  啟動 IIS 管理主控台。  按一下**啟動**，指向 **系統管理工具**，然後按一下  **Internet Information Services**。  
   
-    2.  瀏覽至您用來發行服務的節點。  如果服務已發行為 http://localhost/myservice，瀏覽至**Internet Information Services**> **電腦名稱**> **網站** >  **Default Web Site**> **myservice**。  
+    2.  瀏覽至您用來發行服務的節點。  如果服務已發佈做為http://localhost/myservice，瀏覽至**Internet Information Services**> **電腦名稱**> **網站**>  **Default Web Site**> **myservice**。  
   
     3.  在右窗格中，.svc 檔案中，以滑鼠右鍵按一下，然後按一下 **瀏覽**。 Web 網頁會顯示與服務的相關資訊。 您現在可以使用從用戶端應用程式的 WCF 或 Web 服務呼叫，以使用此服務。 
 
-## <a name="security"></a>安全性
+## <a name="security"></a>Security
 當配接器裝載於服務中時，從用戶端應用程式的呼叫會使用配接器安全性橋接器將用戶端認證傳遞給配接器。  
   
  當 WCF 用戶端會傳送至 WCF 服務驗證時，服務通常會使用驗證。 不過，在配接器的情況下的觀念並擷取基礎 LOB 系統搭配使用的驗證資訊。 這被實作透過配接器安全性橋接器，會呈現為端點行為。 身為配接器開發人員，沒有任何需要實作，以充分利用這項功能。不過，在部署配接器時，您必須考慮如何在用戶端將提供認證給服務。  
@@ -160,5 +160,5 @@ ms.lasthandoff: 11/28/2017
 </endpointBehaviors>  
 ```      
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [開發活動](../../esb-toolkit/development-activities.md)

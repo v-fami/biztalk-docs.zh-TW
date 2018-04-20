@@ -1,23 +1,23 @@
 ---
-title: SFTP Adapter | Microsoft Docs
-description: "建立或設定接收位置和傳送埠使用 SFTP 配接器在 BizTalk Server 中，包括使用 SFTP 配接器的常見問題集"
-ms.custom: 
+title: SFTP 配接器 |Microsoft 文件
+description: 建立或設定接收位置和傳送埠使用 SFTP 配接器在 BizTalk Server 中，包括使用 SFTP 配接器的常見問題集
+ms.custom: ''
 ms.date: 02/26/2018
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6f64c4c8-64a0-4e43-9660-b5c2d75d28aa
-caps.latest.revision: 
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 0d28c3b453ab3e704ddbb06ed42b23dc641a6711
-ms.sourcegitcommit: 3bcf85356d43c3502e61fa801316dc12a4547406
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="sftp-adapter"></a>SFTP 配接器
 BizTalk Server 包含 **SFTP** 配接器傳送和接收訊息的安全 FTP 伺服器，使用 SSH 檔案傳輸通訊協定。 本主題包含設定的步驟 **SFTP** 接收位置，並設定 SFTP 傳送埠來接收和傳送訊息從安全 FTP 伺服器。 它也包含常見的問題和答案。
@@ -178,7 +178,7 @@ BizTalk Server 2013 R2 和先前的版本不支援 WinSCP。
 |SFTP 配接器是否支援 256 位元加密？|是-SFTP 配接器支援 256 位元加密。 支援的加密演算法包括︰<br /><br /> -AES 加密︰ SDCTR 或 CBC 256 位元、 192 位元或 128 位元<br /><br /> -3DES (Triple DES) 加密︰ 168 位元 SDCTR 或 CBC|  
 |配接器支援哪些 SSH 版本？|只有 SSH2。 無法與 SSH1 版本的 SFTP 伺服器建立連線。|  
 |檔案遮罩是區分大小寫的嗎？|資料分割 *.txt 和 \*。TXT 的運作方式很類似。 請安裝最新的 BizTalk Server 2013 累積更新。 BizTalk Server 2013 RTM 版本有區分大小寫的檔案遮罩。|  
-|匯出繫結有空白密碼欄位。 嘗試匯入這些繫結來建立接收位置時，到底需要做哪些變更？|藉由編輯 [密碼] 欄位中編輯繫結檔案。 此外，在 `<Password vt="1">MySecretPassword</Password>`, ，**vt ="1"** 表示 null 值。 將它變更成 **vt ="8"**, ，表示為字串。 例如：<br /><br /> `<Password vt="8">MySecretPassword</Password>`<br /><br /> 如需詳細資訊，請參閱 [http://msdn.microsoft.com/library/system.runtime.interopservices.varenum (v=vs.100).aspx](http://msdn.microsoft.com/library/system.runtime.interopservices.varenum\(v=vs.100\).aspx)|  
+|匯出繫結有空白密碼欄位。 嘗試匯入這些繫結來建立接收位置時，到底需要做哪些變更？|藉由編輯 [密碼] 欄位中編輯繫結檔案。 此外，在 `<Password vt="1">MySecretPassword</Password>`, ，**vt ="1"** 表示 null 值。 將它變更成 **vt ="8"**, ，表示為字串。 例如：<br /><br /> `<Password vt="8">MySecretPassword</Password>`<br /><br /> 如需詳細資訊，請參閱 [http://msdn.microsoft.com/library/system.runtime.interopservices.varenum(v=vs.100).aspx](http://msdn.microsoft.com/library/system.runtime.interopservices.varenum\(v=vs.100\).aspx)|  
 |如何指定檔案路徑？|一般而言，指定路徑的格式 `/folder/pathname`。 不過，不同的伺服器需要不同的格式，包含或不含開頭或尾端斜線。 因此，您也可以嘗試下列︰<br /><br /> -                   `/folder/pathname`<br /><br /> -                   `/folder/pathname/`<br /><br /> -                   `folder/pathname`<br /><br /> -                   `folder/pathname/`|  
   
 

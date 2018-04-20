@@ -1,31 +1,31 @@
 ---
-title: "威脅模型分析 |Microsoft 文件"
-ms.custom: 
+title: 威脅模型分析 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - TMA, about TMA
 - TMA
 - TMA, procedure steps
 ms.assetid: dfbf46aa-0a35-4925-8718-df8591efc279
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 06f5de73434d2c3a7bf67e659c6566b530b38aeb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="threat-model-analysis"></a>威脅模型分析
 威脅模型分析 (TMA) 是一種分析，可協助判斷對產品、應用程式或環境造成的安全性風險，以及攻擊會如何出現。 其目標是用以判斷哪些威脅需要防護以及如何減輕這些威脅。  
   
- 本節提供 TMA 程序的概要資訊。 如需詳細資訊，請參閱第 4 章*撰寫安全程式碼，第二版*，本書由 Michael Howard 與 David leblanc 所著。  
+ 本節提供 TMA 程序的概要資訊。 如需詳細資訊，請參閱第 4 章 *撰寫安全程式碼，第二版*, 、 Michael Howard 與 David LeBlanc。  
   
  TMA 的一些優點為：  
   
@@ -49,7 +49,7 @@ ms.lasthandoff: 09/20/2017
   
 -   步驟 4： 識別防護技術  
   
--   步驟 5： 文件安全性模型與部署考量  
+-   步驟 5： 文件安全性模型和部署考量  
   
 -   步驟 6： 實作和測試防護  
   
@@ -85,15 +85,15 @@ ms.lasthandoff: 09/20/2017
   
 -   請注意相關的資產。  
   
--   討論每個 DFD，並尋找下列 dfd 的所有項目的類別目錄中的威脅： **S**假冒識別， **T**取代資料，ampering **R**epudiation， **我**若資訊洩漏、 **D**拒絕服務，以及**E**提高權限。  
+-   討論每個 DFD，並尋找下列類別的 dfd 的所有項目中的威脅︰ **S**假冒識別， **T**ampering 資料， **R**否認， **我**資訊洩漏 **D**拒絕服務，以及 **E**提高權限。  
   
--   建立已識別威脅的清單。 我們建議此清單包含下列： 標題、 簡短描述 （包括威脅樹狀結構）、 資產、 影響、 風險、 防護技術、 防護狀態和錯誤數目。  
+-   建立已識別威脅的清單。 我們建議此清單包含下列︰ 標題、 簡短描述 （包括威脅樹狀圖）、 資產、 影響、 風險、 防護技術、 防護狀態和錯誤數目。  
   
     > [!NOTE]
     >  您可以在檢視威脅時新增風險、防護技術以及防護狀態。 在威脅模型會議期間，請勿花費太多時間在這些領域。  
   
 ## <a name="step-3-review-threats"></a>步驟 3： 檢視威脅  
- 在您識別對環境的威脅之後，必須將每個威脅的風險排名，並決定如何回應每個威脅。 您可以在其他小組會議或是透過電子郵件來執行此動作。 您可以使用下列影響類別來計算風險洩露： **D**損害潛在， **R**eproducibility， **E**xploitability， 受使用者和**D**iscoverability。  
+ 在您識別對環境的威脅之後，必須將每個威脅的風險排名，並決定如何回應每個威脅。 您可以在其他小組會議或是透過電子郵件來執行此動作。 您可以使用下列影響類別來計算風險洩露︰ **D**損害的可能性、 **R**eproducibility， **E**xploitability， **A**受使用者和 **D**iscoverability。  
   
  在您擁有依照風險優先順序排列的目標環境之威脅清單後，必須決定將如何回應每個威脅。 您的回應可以是不做任何動作 (通常不是好選擇)、警告使用者可能的問題、移除問題或是修正問題。  
   
@@ -113,7 +113,7 @@ ms.lasthandoff: 09/20/2017
   
 -   保持威脅模型與設計同步  
   
-## <a name="step-5-document-security-model-and-deployment-considerations"></a>步驟 5： 文件安全性模型與部署考量  
+## <a name="step-5-document-security-model-and-deployment-considerations"></a>步驟 5： 文件安全性模型和部署考量  
  在 TMA 期間記錄所發現的狀況，並決定如何降低對目標環境威脅的影響，是非常有用的。 本文件對於品質保證 (QA)、測試、支援以及作業人員是非常有用的。 包含與目標環境互動和介入目標環境的其他應用程式之資訊，以及防火牆與拓樸建議和需求之資訊。  
   
 ## <a name="step-6-implement-and-test-mitigations"></a>步驟 6： 實作和測試防護  

@@ -1,26 +1,26 @@
 ---
-title: "RosettaNet 加速器，BizTalk Server 中的詞彙 |Microsoft 文件"
-description: "一般詞彙和定義必須知道並了解如何使用 BizTalk Accelerator for RosettaNet"
-ms.custom: 
+title: RosettaNet 加速器，BizTalk Server 中的詞彙 |Microsoft 文件
+description: 一般詞彙和定義必須知道並了解如何使用 BizTalk Accelerator for RosettaNet
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d98a5ed4-adc5-4ca9-b9d9-38ab02a0bda6
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: bd89d75b0d36359fcf59f7edae0bb950a7196ca7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="glossary"></a>詞彙
-[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]使用下列字彙術語和定義。  
+[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 使用下列字彙術語和定義。  
 
   
 ## <a name="a"></a>只有在次要複本設定成手動容錯移轉模式，而且至少一個次要複本目前與主要複本 SYNCHRONIZED 時，  
@@ -28,13 +28,13 @@ ms.lasthandoff: 09/20/2017
  實作應用程式配接器介面的應用程式。 對於內送動作訊息 (要求或回應) 之認可的通知機制，會叫用應用程式配接器。 它會實作兩種方法：`BeginNotify`和`EndNotify`。 公用回應者會叫用 `BeginNotify` 方法，而現成的私用回應者則會叫用 `EndNotify` 方法。 只要呼叫 `Notify` 方法，就表示訊息已經成功儲存到 MessagesToLOB 資料表中。  
   
  **動作 URL**  
- 要為主要組織傳輸動作訊息的非同步處理序，例如 http://FabrikamServer/BTARNApp/RNIFReceive.aspx 期間交易夥伴 URL。  
+ 要為主要組織傳輸動作訊息在非同步的過程中，例如，交易夥伴 URL http://FabrikamServer/BTARNApp/RNIFReceive.aspx。  
   
 ## <a name="b"></a>B  
  **BizTalk Accelerator for RosettaNet**  
  BizTalk Server，可協助組織建立與 RosettaNet 實作架構 (RNIF) 的附加產品-相容解決方案。  
   
- **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]系統管理**  
+ **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] 系統管理**  
  可讓您描述程序範本及管理交易夥伴協議的 Microsoft [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] 應用程式。  
   
  **BizTalk 編輯器**  
@@ -103,7 +103,7 @@ ms.lasthandoff: 09/20/2017
  由全球資訊網協會 (W3C) 所開發的規格，讓程式設計人員能建立超越標準 HTML 功能的自訂標籤。 當 HTML 只能使用預先定義的標籤，描述頁面中的項目時，XML 卻能讓網頁開發人員自行定義標籤。 對於任何虛擬的資料項目 (例如產品或到期金額)，標籤都可以針對特定的應用程式來使用。 這讓網頁也可以具有和資料庫記錄相同的功能。  
   
  **可延伸樣式表語言 (XSL)**  
- 用於 XML 文件的樣式表格式。 XSL 用來定義 XML 的顯示，就像階層式樣式表 (CSS) 用來定義 HTML 的顯示。 [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]使用 XSL 當做翻譯語言，這兩種規格之間。  
+ 用於 XML 文件的樣式表格式。 XSL 用來定義 XML 的顯示，就像階層式樣式表 (CSS) 用來定義 HTML 的顯示。 [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] 使用 XSL 當做翻譯語言，這兩種規格之間。  
   
 ## <a name="g"></a>G  
  **全球商務識別碼 (GBI)**  
@@ -187,7 +187,7 @@ ms.lasthandoff: 09/20/2017
  包裝後要以 RosettaNet 實作架構 1.1 版之格式進行傳送的 RosettaNet 訊息。  
   
 ## <a name="s"></a>S  
- **結構描述**  
+ **schema**  
  XML 檔案結構的定義。 結構描述包含有屬性資訊，就像它屬於結構中的記錄和欄位一樣。  
   
  **服務內容**  
@@ -197,7 +197,7 @@ ms.lasthandoff: 09/20/2017
  用來識別與商務訊息有關部分的 XML 文件，這些部分包括 PIP、商務活動和動作、傳送和接收服務、交易夥伴，以及角色。  
   
  **信號 URL**  
- 主要組織傳輸信號訊息的目標 URL。 例如，http://FabrikamServer/BTARNApp/RNIFReceive.aspx。  
+ 主要組織傳輸信號訊息的目標 URL。 例如， http://FabrikamServer/BTARNApp/RNIFReceive.aspx。  
   
  **單向動作通知**  
  啟動者傳送單一動作訊息，然後回應者以訊息進行回覆的程序。  
@@ -206,7 +206,7 @@ ms.lasthandoff: 09/20/2017
  [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] 特有的 XML 結構描述。 您可以在 BizTalk 編輯器中，根據產業標準 (例如 EDIFACT、X12 和 XML) 或一般檔案 (分隔資料、位置資料，或是分隔和位置資料) 建立規格。 BizTalk 對應工具會使用規格建立對應，這些規格和來源規格以及目的規格一樣都屬於開放式。  
   
  **同步 URL**  
- 主要組織用來建立與交易夥伴間之同步交易的 URL，例如 http://FabikamServer/BTARNApp/RNIFReceive.aspx。  
+ 主要組織會使用來建立與夥伴，例如，同步交易的 URL http://FabikamServer/BTARNApp/RNIFReceive.aspx。  
   
  **同步交易**  
  啟動者在相同的 HTTP 狀態傳回回應 (雙向動作) 或信號 (單向動作)，而不關閉連線的程序。  

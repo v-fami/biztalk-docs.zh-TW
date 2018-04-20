@@ -1,22 +1,22 @@
 ---
-title: "設定 FileAct 和互動配接器 |Microsoft 文件"
-ms.custom: 
+title: 設定 FileAct 和互動配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0d3876ff-e8e4-47f4-9ca8-d4dad419ed67
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: ca2bc3aa739bf6914ea9943d84d58d44b1506323
-ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="configure-the-fileact-and-interact-adapter"></a>設定 FileAct 和互動配接器
 設定所使用的不同成品[!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)]執行階段。 
@@ -24,7 +24,7 @@ ms.lasthandoff: 01/17/2018
   
 ## <a name="prerequisites"></a>필수 구성 요소  
    
--   安裝[!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)]
+-   安裝 [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)]
   
 -   成員的身分登入[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]Administrators 群組
   

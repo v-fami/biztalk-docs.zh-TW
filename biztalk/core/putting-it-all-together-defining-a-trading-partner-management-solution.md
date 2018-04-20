@@ -1,22 +1,22 @@
 ---
-title: "整合在一起： 定義交易夥伴管理解決方案 |Microsoft 文件"
-ms.custom: 
+title: 整合在一起： 定義交易夥伴管理解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4219312a-c4b5-45f3-b77b-d5cc4f1a1ca4
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: ea32fba8e9e57d7a0549a680b06e08d5bf8e087f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="putting-it-all-together-defining-a-trading-partner-management-solution"></a>整合在一起： 定義交易夥伴管理解決方案
 在瞭解用來建立 TPM 方案的不同元件類型後，接著要介紹典型的 TPM 方案流程，以及如何合併使用不同的建置組塊。 本節也列示建立 TPM 方案模型的一些最佳做法。  
@@ -52,4 +52,4 @@ ms.lasthandoff: 09/20/2017
 -   建立合作對象、 設定檔，並依照指示在訊息的 AS2 合約[設定 AS2 屬性](../core/configuring-as2-properties.md)。  
   
 ## <a name="see-also"></a>另請參閱  
- [交易夥伴管理方案的建置組塊](../core/building-blocks-of-a-trading-partner-management-solution.md)
+ [交易夥伴管理解決方案的建置區塊](../core/building-blocks-of-a-trading-partner-management-solution.md)

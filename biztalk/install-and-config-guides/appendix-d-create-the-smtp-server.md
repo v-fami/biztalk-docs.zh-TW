@@ -1,22 +1,22 @@
 ---
-title: "附錄 d： 建立 SMTP 伺服器 |Microsoft 文件"
-ms.custom: 
+title: 附錄 d： 建立 SMTP 伺服器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f7441ba9-a498-42ec-a04d-7f2731407373
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 9f4d4acc35f5cb38be5f783ee7c4017c8ada83e2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="appendix-d-create-the-smtp-server"></a>附錄 D︰建立 SMTP 伺服器
 建立 SQL Server Database Mail 所使用的 SMTP 伺服器。  
@@ -151,7 +151,7 @@ ms.lasthandoff: 09/20/2017
   
   
 ## <a name="test-the-smtp-server"></a>測試 SMTP 伺服器  
- Telnet 可以用來測試 SMTP 伺服器組態。 下列步驟使用您設定的 SMTP 伺服器將訊息傳送至電子郵件地址。 [http://support.microsoft.com/kb/153119](http://support.microsoft.com/kb/153119) 提供 telnet 命令的描述。  
+ Telnet 可以用來測試 SMTP 伺服器組態。 下列步驟使用您設定的 SMTP 伺服器將訊息傳送至電子郵件地址。 [http://support.microsoft.com/kb/153119](http://support.microsoft.com/kb/153119) 提供的 telnet 命令的描述。  
   
 1.  以系統管理員身分開啟命令視窗。
   

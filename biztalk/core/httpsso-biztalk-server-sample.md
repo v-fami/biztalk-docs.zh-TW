@@ -1,11 +1,11 @@
 ---
-title: "HTTPSSO （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: HTTPSSO （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - HTTP adapters, examples
@@ -15,15 +15,15 @@ helpviewer_keywords:
 - HTTP adapters, SSO
 - examples, SSO
 ms.assetid: 322360df-81d2-4a73-9512-bda9382351a2
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 41956d9e10cba87e0e1a1f44d49dd8ec8b6039bc
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="httpsso-biztalk-server-sample"></a>HTTPSSO （BizTalk Server 範例）
 HTTPSSO 範例將示範如何搭配 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] HTTP 配接器使用「企業單一登入」(SSO) 功能。  
@@ -32,13 +32,13 @@ HTTPSSO 範例將示範如何搭配 Microsoft [!INCLUDE[btsBizTalkServerNoVersio
 >  64 位元作業系統不支援這個範例。  
   
 ## <a name="what-this-sample-does"></a>此範例的用途  
- 這個範例會示範使用 SSO 和 BizTalk HTTP 傳送和接收配接器模擬 SSO 如何允許使用者不需提供額外認證以登入非 Microsoft Windows 系統之後通過 Windows 驗證的端對端案例。  
+ 這個範例會示範使用 SSO 和 BizTalk HTTP 傳送和接收配接器模擬 SSO 如何允許使用者不需提供額外的認證之後通過 Windows 驗證登入非 Microsoft Windows 系統的端對端案例。  
   
  此範例還會使用 SSO 管理和對應模組，建立使用 SSO 之 interop 用戶端 DLL 的分支機構應用程式和 SSO 對應。  
   
  此範例將示範透過實作下列各方面的端對端實例使用 SSO：  
   
--   表示 Microsoft 網際網路資訊服務 (IIS) 虛擬目錄設定為使用 Windows 整合式的驗證的使用者介面。  
+-   代表的是 Microsoft 網際網路資訊服務 (IIS) 虛擬目錄設定為使用 Windows 整合式的驗證的使用者介面。  
   
 -   設定為使用基本驗證的 IIS 虛擬目錄所代表的後端系統。  
   
@@ -50,7 +50,7 @@ HTTPSSO 範例將示範如何搭配 Microsoft [!INCLUDE[btsBizTalkServerNoVersio
   
  在您完成設定之後，此範例的運作方式如下：  
   
-1.  當您按一下**完成**在此範例使用者介面的精靈應用程式，Internet Explorer 的執行個體啟動並傳遞 BizTalk HTTP 接收 DLL 的 URL。  
+1.  當您按一下 **完成** 包含此範例的使用者介面的精靈應用程式，在 Internet Explorer 的執行個體啟動並傳遞 BizTalk HTTP 接收 DLL 的 URL。  
   
 2.  BizTalk Server 搭配 SSO 便能有效地將 HTTP 要求轉寄至已設定為使用基本驗證的 IIS 虛擬目錄中的 EmployeeData.aspx 檔。 此 ASPX 檔會模擬進入非 Windows 後端系統的進入點。 由於您使用的是 SSO，因此 HTTP 要求會包含設定為模擬登入帳戶至所模擬後端系統的憑證。  
   
@@ -69,10 +69,10 @@ HTTPSSO 範例將示範如何搭配 Microsoft [!INCLUDE[btsBizTalkServerNoVersio
   
  下表顯示此範例中的檔案，並描述其用途。  
   
-|檔案|Description|  
+|파일|Description|  
 |---------------|-----------------|  
 |AssemblyInfo.cs，SsoSample.csproj|此 HTTP SSO 範例的專案及相關檔案。|  
-|SsoSample.cs|構成此範例大部分的 HTTP SSO 圖形應用程式的最上層 Microsoft Visual C# 原始程式檔。 這個檔案包含名為類別中的 SSO 組態程式碼**SsoConfigurator** ，最終都會是這個範例的點。|  
+|SsoSample.cs|構成此範例大部分的 HTTP SSO 圖形應用程式的最上層 Microsoft Visual C# 原始程式檔。 這個檔案包含名為的類別中的 SSO 組態程式碼 **SsoConfigurator** ，最後是本範例的重點。|  
 |在 \Scripts 資料夾中：<br /><br /> EmployeeData.aspx|當員工直接或使用 SSO 發出檢視個人資料的要求時，用來存取和查詢後端資料庫 (在此案例中為 SQL Northwind 資料庫)。|  
 |在 \Scripts 資料夾中：<br /><br /> ValidateUser.aspx|直接或使用 SSO 簡單進行測試以驗證使用者，並報告該使用者是否通過驗證。|  
 |在 \UI 資料夾中：<br /><br /> AddApplication.cs、AddApplication.resx、AddMapping.cs、AddMapping.resx、App.ico、BtsPage.cs、BtsPage.resx、ExecutePage.cs、ExecutePage.resx、FinishPage.cs、FinishPage.resx、IisPage.cs、IisPage.resx、InfoPage.cs、InfoPage.resx、PageBase.cs、PageBase.resx、SsoPage.cs、SsoPage.resx、SsoSampleWizard.cs、SsoSampleWizard.resx、WelcomePage.cs、WelcomePage.resx、WorkPage.cs、WorkPage.resx|輔助 Visual C# 原始程式檔及其相關的 XML 格式資源檔，用於構成此範例大部分的 HTTP SSO 圖形應用程式。|  
@@ -86,7 +86,7 @@ HTTPSSO 範例將示範如何搭配 Microsoft [!INCLUDE[btsBizTalkServerNoVersio
     > [!NOTE]
     >  如果您是在網域控制站上執行，則可以建立網域帳戶並將您的登入網域帳戶對應至此帳戶。  
   
-2.  使用 Microsoft SQL Server Enterprise Manager，開啟**員工**資料表中的 Northwind 範例資料庫，然後再加入對應至您剛剛建立，包括的各種範例資料的本機 Windows 帳戶的資料列資料行。 您新增至 [員工] 資料表中 [姓氏] 資料欄的值，必須與您在步驟 1 中新增的本機 Windows 帳戶的使用者名稱相同。  
+2.  使用 Microsoft SQL Server Enterprise Manager，開啟 **員工** Northwind 範例資料庫中的資料表，然後再加入資料列對應到您剛剛建立，包括各種不同的資料行的範例資料的本機 Windows 帳戶。 您新增至 [員工] 資料表中 [姓氏] 資料欄的值，必須與您在步驟 1 中新增的本機 Windows 帳戶的使用者名稱相同。  
   
 3.  確認 ASP.NET 帳戶 (ASPNET) 具備 Northwind 資料庫的讀取權限。  
   
@@ -120,29 +120,29 @@ HTTPSSO 範例將示範如何搭配 Microsoft [!INCLUDE[btsBizTalkServerNoVersio
   
      此範例的精靈應用程式隨即開啟。  
   
-2.  在 [歡迎使用] 頁面上，接受預設設定來設定 IIS、 SSO 和 BizTalk 中，，然後按**下一步**。  
+2.  在 歡迎使用頁面上，接受預設設定來設定 IIS、 SSO 和 BizTalk，以及  **下一步**。  
   
-3.  在 IIS 組態 頁面上，接受預設設定的兩個 IIS 虛擬目錄來建立，然後按一下您想**下一步**。  
+3.  在 IIS 設定頁面上，接受預設設定，您要建立，然後按一下兩個 IIS 虛擬目錄的 **下一步**。  
   
-4.  在 SSO 組態 頁面上，接受預設設定分支機構應用程式，也就是可存取使用**新增應用程式** 按鈕。  
+4.  在 SSO 組態 頁面上，接受預設設定分支機構應用程式，也就是可存取使用 **新增應用程式**  按鈕。  
   
-5.  在 SSO 組態 頁面上，接受大部分的使用者對應，預設設定可存取使用**新增對應** 按鈕。 根據建置和啟始此範例時新增的本機 Windows 帳戶，為下面兩個設定提供值。  
+5.  在 SSO 組態 頁面上，接受大部分的使用者對應的預設設定可存取使用 **新增對應**  按鈕。 根據建置和啟始此範例時新增的本機 Windows 帳戶，為下面兩個設定提供值。  
   
-    |設定|值|  
+    |設定|Value|  
     |-------------|-----------|  
     |外部使用者名稱|設定為新增的本機 Windows 使用者帳戶名稱。|  
     |外部使用者密碼|設定為新增的本機 Windows 使用者帳戶密碼。|  
   
-6.  在 SSO 組態] 頁面上，按一下 [**下一步**。  
+6.  在 SSO 組態 頁面中，按一下  **下一步**。  
   
-7.  在 BizTalk 組態 頁面上，接受預設設定為傳送和接收連接埠，並依此類推，，然後按一下**下一步**。  
+7.  在 BizTalk 組態頁面上，接受預設設定為傳送和接收連接埠，並依此類推，然後按一下  **下一步**。  
   
     > [!NOTE]
-    >  您可以變更預設的傳送埠設定，從**EmployeeData.aspx**至**ValidateUser.aspx**如果您想要看到簡單的使用者驗證，而非範例資料取自的 Employee 資料表Northwinds SQL 資料庫。 進行這項變更會改變之後按一下 瀏覽器中顯示的輸出**完成**在步驟 9。  
+    >  您可以變更預設的傳送埠設定，從 **EmployeeData.aspx** 至 **ValidateUser.aspx** 如果您想要看到簡單的使用者驗證，而不是從 Northwinds SQL 資料庫的 Employee 資料表中提取資料範例。 這項變更會改變的輸出會顯示在瀏覽器中按一下後 **完成** 在步驟 9。  
   
-8.  查閱對應至所執行 IIS、SSO 和 BizTalk 組態的狀態訊息。 您可以找到此階段中執行的程式碼**IisConfigurator**， **SsoConfigurator**，和**BtsConfigurator** ssosample.cs 中定義的類別。 組態完成之後，請按一下**下一步**。  
+8.  查閱對應至所執行 IIS、SSO 和 BizTalk 組態的狀態訊息。 您可以找到此階段中執行的程式碼 **IisConfigurator**, ，**SsoConfigurator**, ，和 **BtsConfigurator** ssosample.cs 中定義的類別。 組態完成之後，請按一下 **下一步**。  
   
-9. 在精靈應用程式的最後一個頁面上，接受預設設定**啟動瀏覽器在**(選取的核取方塊和 url http://localhost/SsoSampleBizTalkHttpReceive/BTSHttpReceive.dll? 文字方塊<message/>)，然後按一下 **完成**。  
+9. 精靈應用程式的最後一頁，接受預設設定**啟動瀏覽器在**(選取的核取方塊和含有 URL 的文字方塊http://localhost/SsoSampleBizTalkHttpReceive/BTSHttpReceive.dll? <message/>)，然後按一下 **完成**。  
   
      Internet Explorer 的執行個體將會開啟，並且很快地顯示您新增至 Northwinds SQL 資料庫的 [員工] 資料表中的範例員工資料。  
   
@@ -187,11 +187,11 @@ HTTPSSO 範例將示範如何搭配 Microsoft [!INCLUDE[btsBizTalkServerNoVersio
   
 3.  使用 [BizTalk 管理] 主控台取消登錄，然後刪除與此範例關聯的傳送埠。 接著刪除與此範例相關的接收埠 (及其接收位置)，  
   
-4.  使用 Ssomanage 應用程式 (位於 Files\Enterprise Single Sign-on \Program Files\Common\\) 若要刪除此範例的 SSO 應用程式：  
+4.  使用 Ssomanage 應用程式 (位於 Files\Enterprise Single Sign-on \Program Files\Common\\) 若要刪除此範例的 SSO 應用程式︰  
   
     ```  
     Ssomanage –deleteapp SsoSampleApplication  
     ```  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [SSO (BizTalk Server Samples 資料夾)](../core/sso-biztalk-server-samples-folder.md)

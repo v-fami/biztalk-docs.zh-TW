@@ -1,22 +1,22 @@
 ---
-title: "操作的整備檢查清單 |Microsoft 文件"
-ms.custom: 
+title: 操作的整備檢查清單 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c308a876-9872-43b3-a1fb-76e81396612f
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: f9e9297e5539fd95f316ebbf6239a5d017ec4ecf
-ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="operational-readiness-checklists"></a>操作的整備檢查清單
 操作的整備檢查清單包含您應該考慮的建議和部署 BizTalk 解決方案到實際執行環境之前，您應該執行的工作。 這些檢查清單包括資訊設定必要條件軟體，進而提高可用性，監視[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境，以及用於測試的程序。  

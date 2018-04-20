@@ -1,22 +1,22 @@
 ---
-title: "自動化建置流程 |Microsoft 文件"
-ms.custom: 
+title: 自動化建置流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 995dac20-82a1-46ed-b8a3-0aa6182cb821
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: d62380146f0bfba188843ed0e022340d88fcaceb
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="automating-the-build-process"></a>自動化建置程序
 自動化的建置程序會編譯、 部署和則會針對最新的原始碼專案的組建驗證測試 (Bvt) 執行一般的預先決定的間隔。 然後 「 組建報告，」 成功或失敗的建置程序會詳細說明，為該專案的專案關係人。 分析組建報告來判斷哪些區域的專案需要注意，如果專案應該會回復的較早的版本/組建。  
@@ -54,9 +54,9 @@ ms.lasthandoff: 12/01/2017
 > [!NOTE]  
 >  使用此工具不支援的 Microsoft，Microsoft 並不保證此程式的適用性。 請自行承擔使用這個程式的一切風險。  
   
- 如需有關如何自動化測試使用 Microsoft Test manager 的詳細資訊，請參閱[執行自動化測試](http://go.microsoft.com/fwlink/?LinkID=208368)(http://go.microsoft.com/fwlink/?LinkID=208368) 中的 Visual Studio 2010 的線上文件  
+ 如需有關如何自動化測試使用 Microsoft Test manager 的詳細資訊，請參閱[執行自動化測試](http://go.microsoft.com/fwlink/?LinkID=208368)(http://go.microsoft.com/fwlink/?LinkID=208368) Visual Studio 2010 的線上文件中  
   
- 如需有關如何自動化使用 Visual Studio 2010 建置程序的詳細資訊，請參閱[建置應用程式](http://go.microsoft.com/fwlink/?LinkID=208369)（超連結"http://go.microsoft.com/fwlink/?LinkID = 208369"http://go.microsoft.com/fwlink/?LinkID = 208369) 中的 Visual Studio 2010 文件。  
+ 如需有關如何自動化使用 Visual Studio 2010 建置程序的詳細資訊，請參閱[建置應用程式](http://go.microsoft.com/fwlink/?LinkID=208369)(超連結"http://go.microsoft.com/fwlink/?LinkID=208369" http://go.microsoft.com/fwlink/?LinkID=208369) Visual Studio 2010 文件中。  
   
 ## <a name="build-verification-testing"></a>組建驗證測試  
  組建驗證測試時，通常會包含下列項目：  
@@ -76,7 +76,7 @@ ms.lasthandoff: 12/01/2017
   
  很重要的功能測試設計來涵蓋所有可能的路徑，透過您的方案。 這應該包含不只的情況下您預期在生產環境中，但是也失敗路徑和例外狀況處理路徑，您已實作但永遠不會希望使用 – 一個詞彙，通常用來描述這個測試中的 < 錯誤天狀況 >。 您應該確定所有的協調流程、 所有允許的訊息類型，以及所有程式碼分支所運用的功能測試套件。 下列章節說明開發正數和負數功能測試案例涵蓋所有程式碼路徑。  
   
- 如功能測試的詳細資訊和其他測試類別應實作放入實際執行環境，BizTalk Server 解決方案之前，請參閱本主題[檢查清單： 測試操作整備](http://go.microsoft.com/fwlink/?LinkId=160138)中BizTalk Server 2010 操作指南 》，網址[http://go.microsoft.com/fwlink/?LinkId=160138](http://go.microsoft.com/fwlink/?LinkId=160138)。  
+ 如功能測試的詳細資訊和其他測試類別應實作放入實際執行環境，BizTalk Server 解決方案之前，請參閱本主題[檢查清單： 測試操作整備](http://go.microsoft.com/fwlink/?LinkId=160138)中BizTalk Server 2010 操作指南 》，網址[ http://go.microsoft.com/fwlink/?LinkId=160138 ](http://go.microsoft.com/fwlink/?LinkId=160138)。  
   
 ### <a name="positive-tests"></a>正向測試  
   
@@ -110,5 +110,5 @@ ms.lasthandoff: 12/01/2017
 ## <a name="msbuild-support-for-biztalk-server-projects"></a>BizTalk Server 專案的 MSBUILD 支援  
  BizTalk Server 提供的 Microsoft Build Engine (MSBUILD) 平台，可容納在未安裝 Visual Studio 的組建實驗室環境中的 managed 專案的建置支援。 MSBUILD 可容納從命令列] 和 [進階的功能，包括記錄和批次處理的 MSBUILD 建置專案。 如需 MSBUILD 的詳細資訊，請參閱[MSBuild 概觀](http://go.microsoft.com/fwlink/?LinkId=131739)(http://go.microsoft.com/fwlink/?LinkId=131739)。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [實作自動化的測試](../technical-guides/implementing-automated-testing.md)

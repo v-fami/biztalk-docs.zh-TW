@@ -1,28 +1,28 @@
 ---
-title: "配接器裝載模型 |Microsoft 文件"
-ms.custom: 
+title: 配接器裝載模型 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cf9a8e6b-8c8d-47ec-b2a3-aed58206121d
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 645a1fcd41650c98c442549a898f7083be770842
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="adapter-hosting-model"></a>配接器裝載模型
-一般 BizTalk 配接器被裝載在 BizTalk 服務 Btsntsvc.exe 中。 這表示[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理配接器的存留期間。 不過也有某些情況 (說明如下) 是由其他處理序負責管理配接器。  
+BizTalk 配接器通常裝載 BizTalk 服務 Btsntsvc.exe 中。 這表示[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理配接器的存留期間。 不過也有某些情況 (說明如下) 是由其他處理序負責管理配接器。  
   
 ## <a name="in-process-adapters"></a>內含式配接器  
- 配接器所管理的[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]稱為內含式配接器。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]會執行下列這些配接器：  
+ 配接器所管理的[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]稱為內含式配接器。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會執行下列這些配接器：  
   
 -   在啟動 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 時產生配接器  
   
@@ -44,7 +44,7 @@ ms.lasthandoff: 09/20/2017
 內含式配接器裝載模型  
   
 ## <a name="isolated-adapters"></a>外掛式配接器  
- 在某些情況下，在 BizTalk 服務中裝載接收配接器並不可行。 例如，Internet Information Services (IIS) 程序模型是由 IIS 負責管理 ASP.NET 應用程式和 ISAPI 延伸模組。. BizTalk SOAP 配接器必須與 IIS 在相同的程序空間中執行，因而導致 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 無法控制任何 SOAP 配接器執行個體的存留期間。  
+ 在某些情況下，在 BizTalk 服務中裝載接收配接器並不可行。 例如，Internet Information Services (IIS) 程序模型是由 IIS 負責管理 ASP.NET 應用程式和 ISAPI 延伸模組。 BizTalk SOAP 配接器必須與 IIS 在相同的程序空間中執行，因而導致 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 無法控制任何 SOAP 配接器執行個體的存留期間。  
   
  這種類型的配接器，有另外一種適用的裝載模型，稱為外接式接收配接器，或簡稱為外接式配接器 (並沒有外接式傳送配接器的概念)。  
   
@@ -56,4 +56,4 @@ ms.lasthandoff: 09/20/2017
 外接式配接器裝載模型  
   
 ## <a name="see-also"></a>另請參閱  
- [什麼是配接器架構？](../core/what-is-the-adapter-framework.md)
+ [何謂配接器架構？](../core/what-is-the-adapter-framework.md)

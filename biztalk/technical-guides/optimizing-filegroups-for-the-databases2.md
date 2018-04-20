@@ -1,22 +1,22 @@
 ---
-title: "最佳化檔案群組的資料庫 |Microsoft 文件"
-ms.custom: 
+title: 最佳化檔案群組的資料庫 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8d7fa4c9-e504-4f43-a308-517a4a574c26
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: 9333a88817e96b52ffe186f0a6a598b225ef5202
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="optimizing-filegroups-for-the-databases"></a>最佳化檔案群組的資料庫
 檔案輸入/輸出 (I/O) 競爭的情況通常是限制因素或在生產環境 BizTalk Server 環境中的瓶頸。 BizTalk Server 資料庫非常密集的應用程式，而接著，BizTalk Server 所使用的 SQL Server 資料庫檔案最需要大量 I/O。 本主題描述如何最有效地利用檔案及檔案群組功能的 SQL Server 檔案 I/O 競爭次數降到最低，並改善 BizTalk Server 解決方案的整體效能。  
@@ -39,7 +39,7 @@ ms.lasthandoff: 12/01/2017
 > [!NOTE]  
 >  此最佳化只應該由有經驗的 SQL Server 資料庫系統管理員和只有之後所有 BizTalk Server 資料庫已正確地備份。 應該在 BizTalk Server 環境中的所有 SQL Server 電腦上執行此最佳化。  
   
- SQL Server 的檔案和檔案群組可用來改善資料庫效能，因為這項功能可讓資料庫來建立跨多個磁碟、 多個磁碟控制卡或 RAID （獨立磁碟備援陣列） 系統。 例如，若電腦有 4 個磁碟，您可以建立由 3 個資料檔和 1 個記錄檔組成的資料庫，每一個檔案各在一個磁碟上。 存取資料時，四個讀寫頭可以同時存取平行的資料。 大幅加快資料庫作業。 如需有關實作 SQL Server 磁碟的硬體解決方案的詳細資訊，請參閱[資料庫效能](http://go.microsoft.com/fwlink/?LinkID=71419)(http://go.microsoft.com/fwlink/?LinkID=71419) 中 SQL Server 線上叢書 》。  
+ SQL Server 的檔案和檔案群組可用來改善資料庫效能，因為這項功能可讓資料庫來建立跨多個磁碟、 多個磁碟控制卡或 RAID （獨立磁碟備援陣列） 系統。 例如，若電腦有 4 個磁碟，您可以建立由 3 個資料檔和 1 個記錄檔組成的資料庫，每一個檔案各在一個磁碟上。 存取資料時，四個讀寫頭可以同時存取平行的資料。 大幅加快資料庫作業。 如需有關實作 SQL Server 磁碟的硬體解決方案的詳細資訊，請參閱[資料庫效能](http://go.microsoft.com/fwlink/?LinkID=71419)(http://go.microsoft.com/fwlink/?LinkID=71419)中 SQL Server 線上叢書 》。  
   
  此外，檔案和檔案群組啟用資料位置選項，可以在特定的檔案群組中建立資料表。 這可改善效能，因為指定資料表的所有檔案 I/O 都可都導向特定的磁碟。 比方說，經常使用的資料表可以放在檔案群組，在某個磁碟，並在資料庫中其他較少存取的資料表可以位於不同的檔案放在第二個磁碟上的另一個檔案群組中。  
   
@@ -56,7 +56,7 @@ ms.lasthandoff: 12/01/2017
 >  本主題也描述如何建立多個檔案和檔案群組的 BizTalk MessageBox 資料庫。 建議的檔案和檔案群組的所有 BizTalk Server 資料庫的完整清單，請參閱 「 附錄 B 「 [BizTalk Server 資料庫最佳化](http://go.microsoft.com/fwlink/?LinkID=101578)白皮書 (http://go.microsoft.com/fwlink/?LinkID=101578)。  
   
 > [!NOTE]  
->  即使[BizTalk Server 資料庫最佳化](http://go.microsoft.com/fwlink/?LinkID=101578)白皮書 (http://go.microsoft.com/fwlink/?LinkID=101578) 以寫入[!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)]納入考量，相同的原則套用至 BizTalk Server。  
+>  即使[BizTalk Server 資料庫最佳化](http://go.microsoft.com/fwlink/?LinkID=101578)白皮書 (http://go.microsoft.com/fwlink/?LinkID=101578)撰寫時[!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)]納入考量，相同的原則套用至 BizTalk Server。  
   
 ## <a name="databases-created-with-a-default-biztalk-server-configuration"></a>使用預設的 BizTalk Server 組態建立的資料庫  
  依據 13 不同資料庫中設定 BizTalk Server 中，可能會建立在 SQL Server 及所有的這些資料庫會建立預設檔案群組中時，會啟用功能。 SQL Server 的預設檔案群組是主要檔案群組，除非使用 ALTER DATABASE 命令來變更預設檔案群組。 下表列出的資料庫所建立的 SQL Server 中，如果設定 BizTalk Server 時，會啟用所有功能。  
@@ -141,5 +141,5 @@ ms.lasthandoff: 12/01/2017
 > [!IMPORTANT]  
 >  它是責 SQL 指令碼，例如本指南中的範例指令碼會徹底測試，才能在生產環境中執行。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [最佳化資料庫效能](../technical-guides/optimizing-database-performance.md)
