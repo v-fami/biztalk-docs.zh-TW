@@ -1,1 +1,1 @@
-<span data-ttu-id="eafba-101">Microsoft Windows Communication Foundation (WCF) 主要商務 (LOB) 配接器 SDK</span><span class="sxs-lookup"><span data-stu-id="eafba-101">Microsoft Windows Communication Foundation (WCF) Line of Business (LOB) Adapter SDK</span></span>
+<span data-ttu-id="a7676-101">Microsoft Windows Communication Foundation (WCF) 主要商務 (LOB) 配接器 SDK</span><span class="sxs-lookup"><span data-stu-id="a7676-101">Microsoft Windows Communication Foundation (WCF) Line of Business (LOB) Adapter SDK</span></span>

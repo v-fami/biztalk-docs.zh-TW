@@ -1,1 +1,1 @@
-<span data-ttu-id="567f0-101">新增配接器服務參考外掛程式</span><span class="sxs-lookup"><span data-stu-id="567f0-101">Add Adapter Service Reference Plug-in</span></span>
+<span data-ttu-id="54db8-101">新增配接器服務參考外掛程式</span><span class="sxs-lookup"><span data-stu-id="54db8-101">Add Adapter Service Reference Plug-in</span></span>
