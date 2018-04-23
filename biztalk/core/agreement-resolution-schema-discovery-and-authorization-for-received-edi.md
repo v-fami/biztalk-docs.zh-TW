@@ -127,7 +127,7 @@ ms.lasthandoff: 04/20/2018
  如果訊息中有 UNH2.5，EDI 解譯器會先嘗試使用結構描述名稱中的 UNH2.5 值 (例如，EFACT_D94A_CONTEN_TEST) 來尋找相符的結構描述。 如果找不到相符的結構描述，EDI 解譯器會回復為尋找不含 UNH2.5 值的結構描述。  
   
 ## <a name="authorization"></a>授權  
- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會將協議的授權和安全性欄位定義值與訊息中的欄位比對。 如果有不相符的項目，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會擱置交換。 若為 EDIFACT 編碼訊息，這些欄位是收件者參考密碼 (UNB6.1 和 UNB6.2)。 若為 X12 編碼訊息，這些欄位則是 [授權辨識符號和資訊] (ISA1-2) 以及 [安全性辨識符號和資訊] (ISA3-4)。  
+ [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會將協議的授權和安全性欄位定義值與訊息中的欄位比對。 如果有不相符的項目，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會擱置交換。 若為 EDIFACT 編碼訊息，這些欄位是收件者參考密碼 (UNB6.1 和 UNB6.2)。 若為 X12 編碼訊息，這些欄位則是 [授權辨識符號和資訊] \(ISA1-2) 以及 [安全性辨識符號和資訊] \(ISA3-4)。  
   
 ## <a name="see-also"></a>另請參閱  
  [BizTalk Server 如何接收 EDI 訊息](../core/how-biztalk-server-receives-edi-messages.md)

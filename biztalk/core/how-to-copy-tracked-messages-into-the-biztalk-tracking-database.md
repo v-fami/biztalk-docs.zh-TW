@@ -32,11 +32,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 04/20/2018
 ---
 # <a name="how-to-copy-tracked-messages-into-the-biztalk-tracking-database"></a>如何將追蹤的訊息複製到 BizTalk 追蹤資料庫
-因為封存與清除程序可能會存取並 (或) 更新不同 SQL Server 中的資料庫，所以您必須在相關 SQL Server 執行個體之間設定連結的伺服器。 您可以使用連結的伺服器，將追蹤的訊息從 [BizTalk MessageBox] (BizTalkMsgBoxDb) 資料庫伺服器直接複製到 [BizTalk 追蹤] (BizTalkDTADb) 資料庫。 您必須設定下列各項之間的連結伺服器：  
+因為封存與清除程序可能會存取並 (或) 更新不同 SQL Server 中的資料庫，所以您必須在相關 SQL Server 執行個體之間設定連結的伺服器。 您可以使用連結的伺服器，將追蹤的訊息從 [BizTalk MessageBox]\ (BizTalkMsgBoxDb) 資料庫伺服器直接複製到 [BizTalk 追蹤] \(BizTalkDTADb) 資料庫。 您必須設定下列各項之間的連結伺服器：  
   
--   每一個 [BizTalk MessageBox] (BizTalkMsgBoxDb) 資料庫與 [BizTalk 追蹤] (BizTalkDTADb) 資料庫。  
+-   每一個 [BizTalk MessageBox] \(BizTalkMsgBoxDb) 資料庫與 [BizTalk 追蹤] \(BizTalkDTADb) 資料庫。  
   
--   [BizTalk 追蹤] (BizTalkDTADb) 資料庫與封存驗證的驗證伺服器。  
+-   [BizTalk 追蹤] \(BizTalkDTADb) 資料庫與封存驗證的驗證伺服器。  
   
 -   在裝載 BizTalk MessageBox (BizTalkMsgBoxDb) 資料庫的電腦上，SQL Server 代理程式的服務帳戶必須對連結伺服器上的 BizTalk 追蹤 (BizTalkDTADb) 資料庫擁有 db_datareader 和 db_datawriter 權限。  
   

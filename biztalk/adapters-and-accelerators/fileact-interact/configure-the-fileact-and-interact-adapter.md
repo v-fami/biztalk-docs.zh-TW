@@ -94,7 +94,7 @@ ms.lasthandoff: 04/20/2018
 
 若要啟用 FileAct 和 InterAct 接收配接器初始化為值，必須輸入 SWIFTNet paramfile SAG 中建立的協力廠商伺服器訊息。 Paramfile 通常位於`c:\SWIFTAlliance\RA\<remote access instance name\>\cfg\paramfile`。 設定 paramfile 之後，請啟動**SnlReceiver.exe**。  
   
-1. 開啟**SWIFTNet paramfile**。 在以標記的位置 」 * * * 「 新增下列。 請注意，`AdapterType`值可以是`Interact`或`Fileact`。  
+1. 開啟**SWIFTNet paramfile**。 在以標記的位置 」 “***” 「 新增下列。 請注意，`AdapterType`值可以是`Interact`或`Fileact`。  
   
      ```spawn "snlreceiver -SagMessagePartner <Server MessagePartnerName\> -AdapterMode <AdapterType\>"```  
        
