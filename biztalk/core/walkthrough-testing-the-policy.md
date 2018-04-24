@@ -184,8 +184,8 @@ ms.lasthandoff: 04/16/2018
   
 |欄位名稱|XPath 選取器|XPath 欄位|XPath 選取器 (簡化形式)|XPath 欄位<br /><br /> (簡化形式)|  
 |----------------|--------------------|-----------------|----------------------------------------|-----------------------------------------|  
-|Quantity|/ * [local-name = 'PurchaseOrder' and namespace-uri （) ='http://EAISolution.PurchaseOrder'] /\*[local-name = 'Item' and namespace-uri （) =']|*[local-name()='Quantity' and namespace-uri()='']|/PurchaseOrder/Item|Quantity|  
-|狀態|/ * [local-name = 'PurchaseOrder' and namespace-uri （) ='http://EAISolution.PurchaseOrder']|*[local-name()='Status' and namespace-uri()='']|/PurchaseOrder|狀態|
+|Quantity|/*[local-name()='PurchaseOrder' and namespace-uri()='http://EAISolution.PurchaseOrder']/\*[local-name()='Item' and namespace-uri()='']|*[local-name()='Quantity' and namespace-uri()='']|/PurchaseOrder/Item|Quantity|  
+|狀態|/*[local-name()='PurchaseOrder' and namespace-uri()='http://EAISolution.PurchaseOrder']|*[local-name()='Status' and namespace-uri()='']|/PurchaseOrder|狀態|
 <!---Loc Comment: Please, verify strucutre in line 183 and 184--->
   
 #### <a name="to-view-the-xpath-selector-and-xpath-field-bindings-for-the-quantity-and-status-fields"></a>若要檢視 Quantity 和 Status 欄位的 Xpath 選取器和 Xpath 欄位繫結  
