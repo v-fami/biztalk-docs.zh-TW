@@ -39,7 +39,7 @@ ms.lasthandoff: 04/20/2018
   
      例如：  
   
-     http://localhost/SSODemo/BTSHTTPReceive.dll?<ns0:method_list_method%20xmlns:ns0=「http://microsoft.com/exposed/object/object1">< ns0:method_list_method >< ns1:method_list %20xmlns: ns1 ="http://microsoft.com/exposed/object">< ns1:comp_code >< / ns1:comp_code >< ns1:comp_name >< / ns1:comp_name >< / ns1:object_1 >< / ns0:method_清單 >< / ns0:method_list_method >  
+     http://localhost/SSODemo/BTSHTTPReceive.dll?<ns0:method_list_method%20xmlns:ns0="http://microsoft.com/exposed/object/object1"><ns0:method_list_method><ns1:method_list%20xmlns:ns1="http://microsoft.com/exposed/object"><ns1:comp_code></ns1:comp_code><ns1:comp_name></ns1:comp_name></ns1:object_1></ns0:method_list></ns0:method_list_method>  
   
      在這種情況下，您不需要提供認證。  
   
