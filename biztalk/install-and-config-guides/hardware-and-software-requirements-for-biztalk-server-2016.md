@@ -1,23 +1,23 @@
 ---
-title: "硬體和軟體需求適用於 BizTalk Server 2016 |Microsoft 文件"
-description: "軟體必要條件和支援的版本會列出安裝 BizTalk Server 2016"
-ms.custom: 
+title: 硬體和軟體需求適用於 BizTalk Server 2016 |Microsoft 文件
+description: 軟體必要條件和支援的版本會列出安裝 BizTalk Server 2016
+ms.custom: ''
 ms.prod: biztalk-server
-ms.date: 10/09/2017
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.date: 04/25/2018
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f6120afd-310e-4155-8c23-aadb5b9a1a35
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 63993b544aead238d28623ab291887535e2f06ab
-ms.sourcegitcommit: 85e816bcdeb3d66ea5018cf88aea7059f74f7d80
+ms.openlocfilehash: d473d3bf5be874edb430c80032935ddf2c7937bf
+ms.sourcegitcommit: 770523695b34cc54db81f7ab7eba46f2bc19baec
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="hardware-and-software-requirements-for-biztalk-server-2016"></a>BizTalk Server 2016 的硬體和軟體需求
 
@@ -50,11 +50,12 @@ ms.lasthandoff: 10/10/2017
 | SQL Server Database Mail  | 隨附於 SQL Server 的版本。 [設定 SQL Server Database Mail](https://msdn.microsoft.com/library/hh245116(v=sql.130).aspx)。| 選擇性。 <br/><br/>使用 BAM 警示時需要。 | 
 | SQL XML | SQL XML 4.0 (含 Service Pack 1)。 [下載 SqlXml 4.0 Service Pack 1 (SP1)](https://www.microsoft.com/en-us/download/details.aspx?id=30403)。 | BizTalk Server 執行階段、系統管理工具和 BAM 的必要項目。 <br/><br/> SQLXML 可以為您的 SQL Server 資料庫啟用 XML 支援。 它可讓開發人員銜接 XML 和關聯式資料的缺口。 您可以建立現有關聯式資料的 XML 檢視，然後如同 XML 檔案一樣使用該檢視。 <br/><br/>**注意**: <br/>可轉散發封包檔會自動安裝這個檢視。 SQL XML 可能會有自己的軟體需求 (例如 `.NET Framework 3.5` 和 `.NET Framework 2.0`)，這些需求未包含在封包檔中。 如果 BizTalk Server 可以存取網際網路，則可能會自動安裝 SQL XML 軟體需求。 如果 BizTalk Server 不能存取網際網路，則會手動安裝 SQL XML 軟體需求。| 
 | WinSCP | WinSCP 5.7.7 版。 [下載 WinSCP](http://winscp.net)。| 使用 SFTP 配接器時需要。 |
+| MQSeries 配接器 | <ul><li>IBM WebSphere MQ 8</li><li>IBM WebSphere MQ 9 （從 BizTalk 2016 CU4 起）</li></ul> | 選擇性。<br/>使用 IBM WebSphere MQ 時，才需要。 |
 |LOB 和企業系統 | [支援的特定業務 (LOB) 和企業系統](https://social.technet.microsoft.com/wiki/contents/articles/17631.biztalk-server-supported-line-of-business-lob-and-enterprise-systems.aspx)列出支援的版本。 | 需要： 當 BizTalk Adapter Pack 中使用配接器。 <br/><br/> [BizTalk Adapter Pack](../adapters-and-accelerators/biztalk-adapter-pack.md)列出可用的系統的配接器。 |
 
 ## <a name="service-pack-and-cumulative-update-support"></a>Service Pack 與累積更新支援
 
-BizTalk Server 支援所有的 Service Pack、累積更新、安全性更新和 Hot Fix 。 極力建議您安裝 Windows、SQL Server、Visual Studio 以及任何已安裝程式的最新更新。 Microsoft 產品的 Service Pack 支援比照該產品的標準支援。 請參閱 BizTalk Server、SQL Server、Visual Studio 以及其他 Microsoft 程式的[支援週期索引](http://go.microsoft.com/fwlink/p/?LinkID=151890)。
+BizTalk Server 上支援所有的 service pack、 累計更新、 安全性更新和 hotfix。 極力建議您安裝 Windows、SQL Server、Visual Studio 以及任何已安裝程式的最新更新。 Microsoft 產品的 Service Pack 支援比照該產品的標準支援。 請參閱 BizTalk Server、SQL Server、Visual Studio 以及其他 Microsoft 程式的[支援週期索引](http://go.microsoft.com/fwlink/p/?LinkID=151890)。
 
 [Service Pack 和累計更新清單，以便讓 BizTalk Server](https://support.microsoft.com/help/2555976)
 

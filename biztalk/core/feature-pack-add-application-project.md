@@ -1,21 +1,21 @@
 ---
-title: "步驟 1-新增應用程式專案和更新的 json |Microsoft 文件"
-description: "在 Visual Studio 中，將 BizTalk Server 應用程式專案，並更新 BizTalkServerInventory.json 檔使用的 Dll、 繫結檔案和應用程式-Visual Studio Team Services 的部署序列"
-ms.custom: 
+title: 步驟 1-新增應用程式專案和更新的 json |Microsoft 文件
+description: 在 Visual Studio 中，將 BizTalk Server 應用程式專案，並更新 BizTalkServerInventory.json 檔使用的 Dll、 繫結檔案和應用程式-Visual Studio Team Services 的部署序列
+ms.custom: ''
 ms.date: 11/20/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a8d4b9773c9c7b23715b5ddae29c3c97f381da5e
-ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
+ms.openlocfilehash: da1c4bb3cb12cf67e84bab7aa7f38c1a893eca00
+ms.sourcegitcommit: 770523695b34cc54db81f7ab7eba46f2bc19baec
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="step-1-add-the-biztalk-server-application-project-in-visual-studio"></a>步驟 1: Visual Studio 中加入 BizTalk Server 應用程式專案
 
@@ -39,7 +39,7 @@ BizTalk 應用程式專案包含`BizTalkServerInventory.json`檔案。 在此檔
 
 3. 以滑鼠右鍵按一下您的方案中，選取**新增**，然後選取**加入新的專案**。
 
-4. 選取**BizTalk 專案**索引標籤上，選取**.NET Framework 4.6.1**從下拉式清單中，然後選取**BizTalk Server 應用程式專案**。 輸入名稱 (例如 appProjectHelloWorld)，並選取**確定**:  
+4. 選取**BizTalk 專案**索引標籤上，選取 **.NET Framework 4.6.1**從下拉式清單中，然後選取**BizTalk Server 應用程式專案**。 輸入名稱 (例如 appProjectHelloWorld)，並選取**確定**:  
 
     ![新增應用程式專案](../core/media/add-application-project.png)
 
@@ -80,7 +80,7 @@ BizTalk 應用程式專案包含`BizTalkServerInventory.json`檔案。 在此檔
     ```
     "BizTalkAssemblies": [
         {
-            "Name": "AssemblyName"
+            "Name": "AssemblyName",
             "Path": "PathToAssembly
         }
     ]
@@ -91,7 +91,7 @@ BizTalk 應用程式專案包含`BizTalkServerInventory.json`檔案。 在此檔
     ```
     "BindingsFiles": [
         {
-            "Name": "Binding File Name"
+            "Name": "Binding File Name",
             "Path": "PathToBindingFile
         }
     ]
@@ -108,7 +108,7 @@ BizTalk 應用程式專案包含`BizTalkServerInventory.json`檔案。 在此檔
     ```
 
 
-6. **儲存**您的變更。 完成時，您的.json 檔案看起來如下： 
+6. **儲存** 您的變更。 完成時，您的.json 檔案看起來如下： 
 
     ```
     {
@@ -135,7 +135,7 @@ BizTalk 應用程式專案包含`BizTalkServerInventory.json`檔案。 在此檔
 
     ![設定偵錯或發行版本](../core/media/application-project-version.png)
 
-8. 以滑鼠右鍵按一下您的應用程式專案 (例如 appProjectHelloWorld)，然後選取**建置**。 如果成功，zip 檔案中建立 ***yourApplicationProject*\bin\debug**資料夾：  
+8. 以滑鼠右鍵按一下您的應用程式專案 (例如 appProjectHelloWorld)，然後選取**建置**。 如果成功，zip 檔案中建立 ***yourApplicationProject * \bin\debug**資料夾：  
 
     ![建立 zip 檔案](../core/media/application-project-zip-file.png)
 

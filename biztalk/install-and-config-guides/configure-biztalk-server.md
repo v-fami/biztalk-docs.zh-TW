@@ -1,23 +1,23 @@
 ---
-title: "使用基本或自訂組態進行設定 |Microsoft 文件"
-description: "步驟執行 BizTalk Server 中，基本或自訂設定，並了解每個組態會發生什麼事"
-ms.custom: 
+title: 使用基本或自訂組態進行設定 |Microsoft 文件
+description: 步驟執行 BizTalk Server 中，基本或自訂設定，並了解每個組態會發生什麼事
+ms.custom: ''
 ms.date: 08/14/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 861a1237-d77a-42db-b563-d83f7930add6
-caps.latest.revision: "26"
+caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f8989fd322fd9fc34e947a80b510619446a65f71
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cb5850c9dc32fd7b793e24cc08862d86a17abedd
+ms.sourcegitcommit: 770523695b34cc54db81f7ab7eba46f2bc19baec
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="configure-biztalk-server"></a>設定 BizTalk Server
 使用基本組態或自訂組態來設定 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。
@@ -28,7 +28,7 @@ ms.lasthandoff: 09/20/2017
 * 如果您要使用自訂的群組名稱進行設定，而不是預設的群組名稱，請採取自訂組態。
 * 如果您要使用自訂的資料庫名稱進行設定，而不是預設的資料庫名稱，請採取自訂組態。
 * 如果 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 和 SQL Server 是在不同電腦上，就必須使用網域群組。 因此，請採取自訂組態。
-* 您無法使用基本組態在 SQL Server 具名的執行個體上設定 BAM 分析。 如果您使用具名執行個體，又想要設定 BAM 分析，請採取自訂組態。
+* 您無法在 SQL Server 具名執行個體使用基本組態設定 BAM Analysis。 如果您使用具名執行個體，又想要設定 BAM 分析，請採取自訂組態。
 * 如果使用者要在單一伺服器上進行 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 和 SQL Server 的完整安裝設定，則建議採取基本組態。
 * 基本組態會使用預設名稱自動建立本機群組和資料庫，因此速度比較快。
 
@@ -194,7 +194,7 @@ BAM 警示必須啟用 BAM 工具。
     | 啟用 BAM 警示 | 如果您要使用 BAM 警示，請核取此選項。 <br/><br/>請注意，您必須已設好 SQL Database Mail，才能使用 BAM 警示。 |
     | Windows 服務 | 輸入用來執行 BAM 警示服務的帳戶。 如果 SQL Server 位於另一部電腦上，請輸入網域帳戶。 |
     | BAM 警示 SMTP 伺服器| 輸入您用來設定 SQL Database Mail 的 SMTP 伺服器名稱。 |
-    | BAM 警示檔案位置| 輸入要儲存 BAM 警示的網路共用。 <br/><br/>**注意** <br/>您必須先手動建立此共用，BAM 警示才能儲存檔案。|
+    | BAM 警示檔案位置| 輸入要儲存 BAM 警示的網路共用。 <br/><br/>**附註** <br/>您必須先手動建立此共用，BAM 警示才能儲存檔案。|
     | 警示資料庫的 SQL Server | 輸入裝載警示資料庫的 SQL Server 名稱。<br/><br/>**注意** <br/>不支援使用 IPv6 位址來指定警示資料庫的 NS SQL Server。 但是您可以使用電腦名稱，而 DNS 轉譯會處理此查閱。|
     |警示資料庫名稱的前置詞| 輸入警示資料庫要使用的前置詞。|  
 
@@ -270,19 +270,19 @@ C:\Users\username\AppData\Local\Temp\ConfigLog(1-12-2017 2h39m30s).log`。
   
 |虛擬應用程式|預設應用程式集區|Description|  
 |-------------------------|------------------------------|-----------------|  
-|BAM|BAMAppPool|裝載 BAM 入口網站元件 (頁面、圖像、先行編譯的程式碼及其他資源) 的虛擬應用程式。 此虛擬應用程式會呼叫 BAMManagementService 應用程式來與 BAM 資料庫進行通訊。 **注意：**品牌 BAM 入口網站，您可以修改此應用程式的內容。|  
+|BAM|BAMAppPool|裝載 BAM 入口網站元件 (頁面、圖像、先行編譯的程式碼及其他資源) 的虛擬應用程式。 此虛擬應用程式會呼叫 BAMManagementService 應用程式來與 BAM 資料庫進行通訊。 **注意︰**  品牌 BAM 入口網站，您可以修改此應用程式的內容。|  
 |BAMManagementService|BAMAppPool|裝載 BAMManagementService Web 服務的虛擬應用程式。 BAM 入口網站應用程式會使用此 Web 服務與 BAM 主要匯入資料表 (PIT) 通訊。 與資料庫的通訊會使用儲存在登錄中的模擬認證 (在組態期間建立) 來執行。 自訂用戶端也可以使用此 Web 服務公開的方法來取得任何使用者的檢視與其詳細資料、相關的活動以及樞紐分析表版面配置。 這些方法也可以用來管理資料庫中的警示。|  
 |BTSharePointAdapterWS|BTSSharePointAdapterWSAppPool|裝載 Windows SharePoint Service 配接器 Web 服務的虛擬應用程式。 適用於 BizTalk Server 2013 R2 和僅 2013年。|  
 
  
 ## <a name="more-configuration-topics"></a>更多設定主題  
   
- [在 Azure 虛擬機器上設定 BizTalk Server](http://msdn.microsoft.com/library/azure/jj248689.aspx)  
+ [在 Azure VM 上設定 BizTalk Server](http://msdn.microsoft.com/library/azure/jj248689.aspx)  
   
 [設定叢集中的 BizTalk Server](../install-and-config-guides/configure-biztalk-server-in-a-cluster.md)
 
 [環境最佳化的後續設定步驟](../install-and-config-guides/post-configuration-steps-to-optimize-your-environment.md)
 
- [保護 BizTalk Server 的部署安全](../install-and-config-guides/securing-your-biztalk-server-deployment.md)  
+ [保護 BizTalk Server 部署安全](../install-and-config-guides/securing-your-biztalk-server-deployment.md)  
   
  

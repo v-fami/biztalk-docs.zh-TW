@@ -4,7 +4,7 @@
   items:
     - name: 技術指南
       tocHref: /biztalk/technical-guides/
-      topicHref: /biztalk/technical-guides/biztalk-technical-guides
+      topicHref: /biztalk/technical-guides/
     - name: BizTalk Server 新功能、安裝、設定和升級
       tocHref: /biztalk/install-and-config-guides/
       topicHref: /biztalk/install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade
@@ -36,7 +36,7 @@
         - name: Siebel
           tocHref: /biztalk/adapters-and-accelerators/adapter-siebel/
           topicHref: /biztalk/adapters-and-accelerators/adapter-siebel/microsoft-biztalk-adapter-for-siebel-ebusiness-applications-documentation
-        - name: SQL Server
+        - name: '[SQL Server]'
           tocHref: /biztalk/adapters-and-accelerators/adapter-sql/
           topicHref: /biztalk/adapters-and-accelerators/adapter-sql/microsoft-biztalk-adapter-for-sql-server-documentation
         - name: FileAct
@@ -48,6 +48,6 @@
     - name: ESB 工具組
       tocHref: /biztalk/esb-toolkit/
       topicHref: /biztalk/esb-toolkit/microsoft-biztalk-esb-toolkit
-    - name: 功能套件
+    - name: Feature Pack 1
       tocHref: /biztalk/feature-pack-1/
       topicHref: /biztalk/feature-pack-1/feature-pack-1-rest-api-reference

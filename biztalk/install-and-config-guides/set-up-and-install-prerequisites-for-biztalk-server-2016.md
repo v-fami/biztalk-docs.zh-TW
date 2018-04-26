@@ -1,23 +1,23 @@
 ---
-title: "設定並安裝 BizTalk Server 2016 的必要條件 |Microsoft 文件"
-description: "安裝及設定必要的軟體和設定 BizTalk Server 2016 的逐步指示"
+title: 設定並安裝 BizTalk Server 2016 的必要條件 |Microsoft 文件
+description: 安裝及設定必要的軟體和設定 BizTalk Server 2016 的逐步指示
 author: MandiOhlinger
 manager: anneta
 ms.prod: biztalk-server
-ms.custom: 
-ms.date: 11/30/2017
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.custom: ''
+ms.date: 04/25/2018
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: aa70b621-903a-4cfa-9cb0-c6a82ed8f733
-caps.latest.revision: "11"
+caps.latest.revision: 11
 ms.author: mandia
-ms.openlocfilehash: 2f03aaf7d33cc494320d1ef0944b48286bc1b24c
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: 666cddaab4d23fa69b0ae488f665e2eda5182c05
+ms.sourcegitcommit: 770523695b34cc54db81f7ab7eba46f2bc19baec
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="set-up-and-install-prerequisites-for-biztalk-server-2016"></a>設定及安裝 BizTalk Server 2016 的必要元件
 設定伺服器，以及安裝與設定軟體必要條件。
@@ -284,7 +284,7 @@ BizTalk Server 需要 SQL Server。 SQL Server 和 BizTalk 可以安裝在同一
 
 1. 啟動 SQL Server 安裝。 
 2. 在安裝功能時，選取下列選項：
-    - Database Engine Services
+    - Database Engine 服務
         - SQL Server 複寫
         - R 服務 （資料庫） (**選擇性**; 在資訊[SQL Server R Services](https://docs.microsoft.com/sql/advanced-analytics/r/sql-server-r-services))
         - 搜尋的全文檢索和語意擷取
@@ -295,13 +295,13 @@ BizTalk Server 需要 SQL Server。 SQL Server 和 BizTalk 可以安裝在同一
         - Integration Services
 
     > [!NOTE]
-    > SQL Server 預設安裝不包含 **SQL Server Data Tools**。 它不是必要的，但可在 [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt) 下載。 下載適用於所有支援的 SQL Server 版本的 [**SQL Server Management Studio (SSMS)**](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms)，包括 Azure SQL Database。 
+    > SQL Server 預設安裝不包含 **SQL Server Data Tools**。 它不是必要項目，但可以在下載[SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt)。 下載適用於所有支援的 SQL Server 版本的 [**SQL Server Management Studio (SSMS)**](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms)，包括 Azure SQL Database。 不過，若要連接至遠端 SSIS 使用 BAM 時，您需要安裝相同版本的 SSMS 做為目的地的 SSIS 伺服器。 例如，[安裝 SSMS 16。*x* ](https://docs.microsoft.com/sql/ssms/sql-server-management-studio-changelog-ssms?view=sql-server-2017#previous-ssms-releases)安裝相關的驅動程式連接到 SQL 2016 SSIS。 SSMS 17。*x*無法連接到 SQL 2016 SSIS。 您可以有多個版本的安裝 SSMS。 
 
 3. 繼續安裝作業，並在出現提示時重新啟動電腦。
 
 ## <a name="disable-shared-memory"></a>停用共用的記憶體
 
-1. 開啟 **SQL Server 組態管理員**。
+1. 開啟 [SQL Server 組態管理員]。
 2. 在 「 SQL Server 組態管理員 」 中，展開**SQL Server 網路組態**，然後選取**MSSQLSERVER 的通訊協定**。
 3. 以滑鼠右鍵按一下 [共用記憶體]，然後選取 [停用]。
 4. 選取**SQL Server 服務**，以滑鼠右鍵按一下 SQL **Server (MSSQLSERVER)**，然後選取**停止**。 服務已停止之後，以滑鼠右鍵按一下**SQL Server (MSSQLSERVER)**，然後選取**啟動**。
