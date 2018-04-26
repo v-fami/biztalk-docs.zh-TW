@@ -53,7 +53,7 @@ ms.lasthandoff: 04/16/2018
 
     ![加入 VS 建置工作](../core/media/vsts-add-publish-build-task.png)
 
-7. <span data-ttu-id="a78fa-129">選取**發行成品**工作，並輸入慣用**顯示名稱**。</span><span class="sxs-lookup"><span data-stu-id="a78fa-129">Select the **Publish Artifact** task, and enter your preferred **Display name**.</span></span> <span data-ttu-id="a78fa-130">如**發行路徑**，選取**...**按鈕，然後選擇應用程式專案的資料夾 (例如 appProjectHelloWorld)。</span><span class="sxs-lookup"><span data-stu-id="a78fa-130">For **Path to publish**, select the **...**  button, and choose the application project folder (e.g. appProjectHelloWorld).</span></span> <span data-ttu-id="a78fa-131">選取 [確定]。</span><span class="sxs-lookup"><span data-stu-id="a78fa-131">Select **OK**.</span></span>
+7. <span data-ttu-id="a78fa-129">選取**發行成品**工作，並輸入慣用**顯示名稱**。</span><span class="sxs-lookup"><span data-stu-id="a78fa-129">Select the **Publish Artifact** task, and enter your preferred **Display name**.</span></span> <span data-ttu-id="a78fa-130">如**發行路徑**，選取 **...** 按鈕，然後選擇應用程式專案的資料夾 (例如 appProjectHelloWorld)。</span><span class="sxs-lookup"><span data-stu-id="a78fa-130">For **Path to publish**, select the **...**  button, and choose the application project folder (e.g. appProjectHelloWorld).</span></span> <span data-ttu-id="a78fa-131">選取 [確定]。</span><span class="sxs-lookup"><span data-stu-id="a78fa-131">Select **OK**.</span></span>
 
 8. <span data-ttu-id="a78fa-132">**成品名稱**可以是您想要的任何項目。</span><span class="sxs-lookup"><span data-stu-id="a78fa-132">The **Artifact Name** can be anything you want.</span></span> <span data-ttu-id="a78fa-133">選取**儲存**。</span><span class="sxs-lookup"><span data-stu-id="a78fa-133">Select **Save**.</span></span> 
 
