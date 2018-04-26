@@ -1,15 +1,15 @@
 ---
 layout: HubPage
-hide_bc: 
-title: "Microsoft BizTalk Server 文件"
-description: 
+hide_bc: true
+title: Microsoft BizTalk Server 文件
+description: ''
 services: biztalk-service
-documentationcenter: 
-caps.latest.revision: 
+documentationcenter: ''
+caps.latest.revision: 31
 author: MandiOhlinger
 manager: anneta
-editor: 
-ms.assetid: 
+editor: ''
+ms.assetid: ''
 ms.prod: biztalk-server
 ms.workload: integration
 ms.tgt_pltfrm: na
@@ -17,11 +17,11 @@ ms.devlang: na
 ms.topic: hub-page
 ms.date: 06/19/2017
 ms.author: mandia
-ms.openlocfilehash: 40c41d2aee768c43fb547b29f5a962027ad5bd9b
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 536e497cdb1cde65259254db0bcfd10804e90ffa
+ms.sourcegitcommit: 770523695b34cc54db81f7ab7eba46f2bc19baec
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 04/26/2018
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -65,7 +65,7 @@ ms.lasthandoff: 03/20/2018
                 </a>
             </li>
             <li>
-                <a href="/biztalk/technical-guides/biztalk-technical-guides">
+                <a href="/biztalk/technical-guides/">
                     <div class="cardSize">
                         <div class="cardPadding">
                             <div class="card">
@@ -462,7 +462,7 @@ ms.lasthandoff: 03/20/2018
                                                         </div>
                                                     </div>
                                                     <div class="cardText">
-                                                        <h3>&#64; logicappsio</h3>
+                                                        <h3>& #64; logicappsio</h3>
                                                         <p>Azure Logic Apps 官方經營。</p>
                                                     </div>
                                                 </div>
@@ -571,7 +571,7 @@ ms.lasthandoff: 03/20/2018
                                         </div>
                                     </div>
                                 </a>
-                            </li>                            
+                            </li>
                         </ul>
                     </li>
                 </ul>
