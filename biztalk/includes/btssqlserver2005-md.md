@@ -1,1 +1,0 @@
-<span data-ttu-id="c71a1-101">SQL Server 2005</span><span class="sxs-lookup"><span data-stu-id="c71a1-101">SQL Server 2005</span></span>
