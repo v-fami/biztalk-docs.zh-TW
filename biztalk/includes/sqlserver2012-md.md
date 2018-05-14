@@ -1,1 +1,1 @@
-<span data-ttu-id="47c69-101">SQL Server 2012</span><span class="sxs-lookup"><span data-stu-id="47c69-101">SQL Server 2012</span></span>
+SQL Server 2012

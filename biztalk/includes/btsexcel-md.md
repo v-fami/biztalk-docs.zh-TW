@@ -1,1 +1,1 @@
-<span data-ttu-id="46120-101">Excel</span><span class="sxs-lookup"><span data-stu-id="46120-101">Excel</span></span>
+Excel

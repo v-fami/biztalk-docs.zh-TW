@@ -1,1 +1,1 @@
-<span data-ttu-id="cdb3b-101">.NET Framework Data Provider for Siebel eBusiness Applications</span><span class="sxs-lookup"><span data-stu-id="cdb3b-101">.NET Framework Data Provider for Siebel eBusiness Applications</span></span>
+.NET Framework Data Provider for Siebel eBusiness Applications

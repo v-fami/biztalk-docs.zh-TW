@@ -1,1 +1,1 @@
-<span data-ttu-id="b0383-101">Oracle 資料庫配接器</span><span class="sxs-lookup"><span data-stu-id="b0383-101">Oracle Database adapter</span></span>
+Oracle 資料庫配接器

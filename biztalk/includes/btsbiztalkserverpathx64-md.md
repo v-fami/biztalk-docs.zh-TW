@@ -1,1 +1,1 @@
-<span data-ttu-id="ec2ca-101">\Program files (x86) \Microsoft BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="ec2ca-101">\Program Files (x86)\Microsoft BizTalk Server</span></span>
+\Program files (x86) \Microsoft BizTalk Server

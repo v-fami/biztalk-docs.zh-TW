@@ -1,1 +1,1 @@
-<span data-ttu-id="ce2d1-101">Microsoft BizTalk Adapter for Siebel eBusiness Applications</span><span class="sxs-lookup"><span data-stu-id="ce2d1-101">Microsoft BizTalk Adapter for Siebel eBusiness Applications</span></span>
+Microsoft BizTalk Adapter for Siebel eBusiness Applications

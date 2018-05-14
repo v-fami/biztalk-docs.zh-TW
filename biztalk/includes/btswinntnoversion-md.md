@@ -1,1 +1,1 @@
-<span data-ttu-id="dba89-101">Windows NT</span><span class="sxs-lookup"><span data-stu-id="dba89-101">Windows NT</span></span>
+Windows NT

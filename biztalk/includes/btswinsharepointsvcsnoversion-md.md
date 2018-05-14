@@ -1,1 +1,1 @@
-<span data-ttu-id="7d925-101">Windows SharePoint Services</span><span class="sxs-lookup"><span data-stu-id="7d925-101">Windows SharePoint Services</span></span>
+Windows SharePoint Services

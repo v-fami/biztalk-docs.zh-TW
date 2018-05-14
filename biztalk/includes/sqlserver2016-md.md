@@ -1,1 +1,1 @@
-<span data-ttu-id="d1112-101">SQL Server 2016</span><span class="sxs-lookup"><span data-stu-id="d1112-101">SQL Server 2016</span></span>
+SQL Server 2016

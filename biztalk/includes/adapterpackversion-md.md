@@ -1,1 +1,1 @@
-<span data-ttu-id="8e542-101">BizTalk 配接器封包版本</span><span class="sxs-lookup"><span data-stu-id="8e542-101">BizTalk Adapter Pack version</span></span>
+BizTalk 配接器封包版本

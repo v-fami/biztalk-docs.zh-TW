@@ -1,1 +1,1 @@
-<span data-ttu-id="fda50-101">BizTalk FileAct 和 InterAct Adapters</span><span class="sxs-lookup"><span data-stu-id="fda50-101">BizTalk FileAct and InterAct Adapters</span></span>
+BizTalk FileAct 和 InterAct Adapters

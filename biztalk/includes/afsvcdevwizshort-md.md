@@ -1,1 +1,1 @@
-<span data-ttu-id="023d3-101">配接器服務開發精靈</span><span class="sxs-lookup"><span data-stu-id="023d3-101">Adapter Service Development Wizard</span></span>
+配接器服務開發精靈

@@ -1,1 +1,1 @@
-<span data-ttu-id="2a5fb-101">SQL Server 2005 SP3</span><span class="sxs-lookup"><span data-stu-id="2a5fb-101">SQL Server 2005 SP3</span></span>
+SQL Server 2005 SP3
