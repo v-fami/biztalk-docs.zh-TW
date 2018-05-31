@@ -1,15 +1,15 @@
 ---
-title: "疑難排解和已知問題 |Microsoft 文件"
-description: "已知問題、 zombie，效能進行疑難排解、 疑難排解配接器、 疑難排解權限、 EDI 和 AS2 和多個 BizTalk Server 中的疑難排解"
-ms.custom: 
+title: 疑難排解和已知問題 |Microsoft 文件
+description: 已知問題、 zombie，效能進行疑難排解、 疑難排解配接器、 疑難排解權限、 EDI 和 AS2 和多個 BizTalk Server 中的疑難排解
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ecb934c6-3efa-40b6-949b-a04a73e60b07
-caps.latest.revision: "32"
+caps.latest.revision: 32
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286686"
 ---
 # <a name="troubleshooting"></a><span data-ttu-id="3cec0-103">疑難排解</span><span class="sxs-lookup"><span data-stu-id="3cec0-103">Troubleshooting</span></span>
 
