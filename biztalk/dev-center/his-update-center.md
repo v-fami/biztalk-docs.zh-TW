@@ -1,19 +1,20 @@
 ---
-title: "Host Integration server 更新中心 |Microsoft 文件"
-description: "請參閱所有可用的累計更新和 service pack 可用他和 OLE DB Provider for DB2"
+title: Host Integration server 更新中心 |Microsoft 文件
+description: 請參閱所有可用的累計更新和 service pack 可用他和 OLE DB Provider for DB2
 author: MandiOhlinger
 manager: anneta
 ms.date: 10/18/2017
 ms.prod: biztalk-server
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.author: mandia
-ms.openlocfilehash: 25a2b89e7048d957d8f54a2e897f59817281eff5
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: 896d9ac6e9a53e218791b37b9c581c74a76806c1
+ms.sourcegitcommit: ba3c4876acc1bf3ee2961ca80c18d930a42c6696
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 05/03/2018
+ms.locfileid: "32320934"
 ---
 # <a name="update-center-for-host-integration-server-and-ole-db-provider-for-db2"></a>Host Integration Server 和 OLE DB Provider for DB2 的更新中心
 
@@ -37,9 +38,9 @@ ms.lasthandoff: 11/07/2017
 
 ## <a name="his-latest-updates"></a>他最新的更新
 
-| 產品版本 | 最新版 Service Pack | 最新累計更新 |
+| 제품 버전 | 最新版 Service Pack | 最新累計更新 |
 | --- | --- | --- |
-| 他 2016 | n/a | CU 1 ([KB 3216544](https://support.microsoft.com/kb/3216544)) |
+| 他 2016 | n/a | CU 2 ([KB 4043569](https://support.microsoft.com/kb/4043569)) |
 | HIS 2013 | n/a | CU 4 ([KB 3108547](https://support.microsoft.com/kb/3108547)) |
 |  HIS 2010 | n/a | CU 10 ([KB 2917398](https://support.microsoft.com/kb/2917398)) |
 |  HIS 2009 | n/a | CU 7 ([KB 2975320](http://support.microsoft.com/kb/2975320)) |
@@ -48,7 +49,7 @@ ms.lasthandoff: 11/07/2017
 
 ## <a name="ole-db-provider-for-db2-latest-updates"></a>OLE DB Provider for DB2 最新的更新
 
-| 產品版本 | Version | 最新的更新與版本 |
+| 제품 버전 | 版本 | 最新的更新與版本 |
 | --- | --- | --- |
 | [Microsoft OLEDB Provider for DB2 v5.0 適用於 Microsoft SQL Server 2014](https://www.microsoft.com/download/details.aspx?id=42295) | 9.0.2148.0 |[KB 3104962](https://support.microsoft.com/kb/3104962) (9.0.2343.0) <br/><br/>請參閱附註 |
 | [Microsoft OLEDB Provider for DB2 v4.0 的重新整理 Microsoft SQL server 2012 SP1](https://www.microsoft.com/download/details.aspx?id=35580) | 9.0.1390.0  | [KB 2913611](http://support.microsoft.com/kb/2913611) (9.0.1404.2) <br/><br/>請參閱附註 |

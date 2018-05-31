@@ -10,15 +10,16 @@ ms.topic: article
 helpviewer_keywords:
 - SELECT statement, syntax for
 ms.assetid: 47120d74-bf41-4622-a6bc-7b8ddc959305
-caps.latest.revision: ''
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5f57cac0673a6520de4b0d881527bbc7b670ca1b
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 343e96bb25a062bd524f25c770137bc64227063d
+ms.sourcegitcommit: ba3c4876acc1bf3ee2961ca80c18d930a42c6696
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
+ms.locfileid: "32320958"
 ---
 # <a name="syntax-for-a-select-statement-in-sap"></a>SAP 中的 SELECT 陳述式的語法
 下列章節說明實作針對 SELECT 查詢的文法規格[!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)]。 請注意，在數個情況下，語法與基底的 TRANSACT-SQL 語法稍有不同。  
@@ -41,7 +42,7 @@ SELECT {TOP <const> }[0,1] <select_list>  {INTO FILE [‘file_name’ | “file_
   
  支援的條件運算式和運算式為：  
   
--   **\<condition\>** = `[ expr | expr [NOT | ] BETWEEN const AND const | expr [NOT | ] LIKE const ]`  
+-   **\<條件\>** = `[ expr | expr [NOT | ] BETWEEN const AND const | expr [NOT | ] LIKE const ]`  
   
 -   **\<expr\>** = `[ const | column_name [= | ! = | > | > = | ! > | < | < = | ! < ] const | column_name | - const  | const | column_name ]`  
   
@@ -59,7 +60,7 @@ SELECT {TOP <const> }[0,1] <select_list>  {INTO FILE [‘file_name’ | “file_
   
     -   當**no_conversion**未使用選項，如果欄位有轉換，並結束定義，則資料表中的欄位會公開為.NET 字串。  
   
--   當設定為**batchsize\<大小\>**，執行 SELECT 陳述式會導致多個呼叫進行至 SAP 系統，並在每個呼叫中，只有\<大小\>的記錄數目擷取。 例如，如果您指定 ' batchsize 100' 的 SELECT 查詢會擷取 100 筆記錄只能在每次呼叫 SAP 系統中的。 如果**batchsize\<大小\>**未指定，10000 的預設值會假設批次大小。 請注意，您應該指定根據 SAP 系統中的電腦和資料列數目的實體記憶體的批次大小的最佳值。 在指定批次大小的最佳值可能會導致記憶體不足例外狀況。  
+-   當設定為**batchsize\<大小\>**，執行 SELECT 陳述式會導致多個呼叫進行至 SAP 系統，並在每個呼叫中，只有\<大小\>的記錄數目擷取。 例如，如果您指定 ' batchsize 100' 的 SELECT 查詢會擷取 100 筆記錄只能在每次呼叫 SAP 系統中的。 如果**batchsize\<大小\>** 未指定，10000 的預設值會假設批次大小。 請注意，您應該指定根據 SAP 系統中的電腦和資料列數目的實體記憶體的批次大小的最佳值。 在指定批次大小的最佳值可能會導致記憶體不足例外狀況。  
   
 -   當設定為**disabledatavalidation**、[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]不會驗證 DATS、 TIMS 和 NUMC 資料行中存在的值，但改為將其公開成字串。  
   
@@ -208,9 +209,9 @@ Table | '['Table']'
   
 -   SELECT 陳述式使用[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]SELECT 查詢中支援的引數值參數名稱。 不過，請確定您遵循這些規則相對於參數名稱：  
   
-    -   在選取的查詢中，"@"符號必須在參數名稱前面。  
+    -   在選取的查詢中，「\@"符號必須在參數名稱前面。  
   
-    -   "@"符號後面必須接著字母字元 （A 到 Z 或 a 到 z）。  
+    -   「\@"符號後面必須接著字母字元 （A 到 Z 或 a 到 z）。  
   
     -   參數名稱只能包含英數字元 (A-Z、 a-z 或 0-9) 和特殊字元。 可以包含在參數名稱的唯一特殊字元是底線"_"、"#"的雜湊。  
   

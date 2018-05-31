@@ -11,11 +11,12 @@ ms.topic: article
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2df2cb82508a12e8e8d279204130d2deedd744f4
-ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
+ms.openlocfilehash: 37928509c255dbb2720ad393dfc0f1cee0386a85
+ms.sourcegitcommit: ba3c4876acc1bf3ee2961ca80c18d930a42c6696
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/03/2018
+ms.locfileid: "32320942"
 ---
 # <a name="step-3-create-the-build-and-release-definition"></a>步驟 3： 建立組建和發行定義
 
@@ -91,9 +92,10 @@ ms.lasthandoff: 04/16/2018
 
 7. 選取**部署**工作，並輸入值： 
 
-    **作業名稱**： 您的選項: ***建立新的 BizTalk 應用程式**： 將新的應用程式部署。 如果應用程式已經存在，它會解除安裝目前的應用程式 （完全停止），並會安裝新的應用程式。 如果已啟用持續整合，它會自動重新部署應用程式更新儲存機制中時。 
-        * **更新現有的 BizTalk 應用程式**： 將變更，例如結構描述、 附加至正在執行的應用程式。 它不需要完整的重新部署應用程式。
-        * **安裝 BizTalk Server 應用程式**:[安裝的應用程式](../core/how-to-install-a-biztalk-application.md)，輸入 BizTalk 管理的電腦名稱和部署封裝路徑。
+    **作業名稱**： 您的選項：   
+        - **建立新的 BizTalk 應用程式**： 將新的應用程式部署。 如果應用程式已經存在，它會解除安裝目前的應用程式 （完全停止），並會安裝新的應用程式。 如果已啟用持續整合，它會自動重新部署應用程式更新儲存機制中時。   
+        - **更新現有的 BizTalk 應用程式**： 將變更，例如結構描述、 附加至正在執行的應用程式。 它不需要完整的重新部署應用程式。  
+        - **安裝 BizTalk Server 應用程式**:[安裝的應用程式](../core/how-to-install-a-biztalk-application.md)，輸入 BizTalk 管理的電腦名稱和部署封裝路徑。  
 
      ![部署作業](../core/media/vsts-deploy-operations.png)
 
