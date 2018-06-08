@@ -1,67 +1,66 @@
 ---
 title: 使用辨別的欄位和屬性欄位 |Microsoft 文件
+description: 閱讀 [辨別] 欄位、 屬性欄位和屬性集之間的差異。 辨別的欄位使用的路徑，在 [訊息] 欄位中，屬性欄位會使用郵件名稱和結構描述命名空間，並且屬性集，將一則訊息 （屬性集） 的內容屬性指派給 BizTalk Server 中的另一個訊息的內容屬性
 ms.custom: ''
-ms.date: 06/08/2017
+ms.date: 05/02/2018
 ms.prod: biztalk-server
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
-helpviewer_keywords:
-- messages, distinquished fields
-- messages, properties
 ms.assetid: 264ee15e-be9a-4ba2-9c61-a1570b20378e
 caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 18b5d5ee3b29c068b3a37d248b9fb20f07bdfbb2
-ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
+ms.openlocfilehash: 2dc6233f71bb56fe831fded343e6557292cdb315
+ms.sourcegitcommit: 3371ffd8ceca02e2b3715d53a1e0c0a59045912e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/20/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "34848902"
 ---
 # <a name="using-distinguished-fields-and-property-fields"></a>使用辨別的欄位和屬性欄位
-고유 필드는 오케스트레이션에서 데이터를 조작하거나 판단하기 위해 기본적으로 사용하는 특별한 메시지 데이터입니다.  
+辨別欄位是您在協調流程中制定決策或是操控資料時，主要所使用的有用訊息資料。  
   
- 메시지 속성은 메시지 자체의 내용인 데이터이거나 타임스탬프 또는 라우팅 정보와 같은 메시지에 대한 컨텍스트 정보인 "메타데이터"입니다. 속성 스키마에서 스키마 필드에 대한 참조를 만들어 사용자 고유의 속성을 정의하거나 시스템에서 정의한 메시지 컨텍스트 속성 또는 전송 컨텍스트 속성을 사용할 수 있습니다. 속성은 등록 및 상관 관계에 사용됩니다.  
+ 訊息屬性是資料 (訊息本身的內容) 或「中繼資料」(訊息相關資訊的內容，例如時間戳記或路由資訊)。 您可以使用系統定義的訊息內容屬性或傳輸內容屬性，也可以從屬性結構描述中參考結構描述欄位來定義自己的屬性。 屬性會用於訂閱和相互關聯。  
   
--   您可以將結構描述中的欄位指定為辨別的欄位或屬性欄位使用 **升級屬性** 從對話方塊編輯器中的。 如需詳細資訊，請參閱[升級屬性](../core/promoting-properties.md)  
+-   您可以將結構描述中的欄位指定為辨別的欄位或屬性欄位使用**升級屬性**對話方塊編輯器中的。 如需詳細資訊，請參閱[升級屬性](../core/promoting-properties.md)  
   
--   .NET 유형의 필드를 DistinguishedField 특성으로 데코레이팅하여 고유 필드로 지정하거나 Property 특성을 사용하여 속성으로 지정할 수 있습니다.  
+-   您可以使用 DistinguishedField 屬性 (Attribute) 裝飾 .NET 類型中的欄位，將它指定為辨別欄位；或者以 Property 屬性來裝飾，將它指定為屬性 (Property)。  
   
-## <a name="using-distinguished-fields"></a>고유 필드 사용  
- 고유 필드는 메시지에 있는 필드에 대한 경로에서 참조하며 다음과 같이 마침표를 사용하여 메시지 이름, 필드를 둘러싸고 있는 모든 레코드의 이름, 필드 자체의 이름을 구분합니다.  
+## <a name="using-distinguished-fields"></a>使用辨別欄位  
+ 辨別欄位是由訊息中欄位的路徑所參考，並使用句號來分隔訊息名稱、任何包含欄位之記錄的名稱與欄位名稱本身：  
   
 ```  
 MyMessage.MyRecord.MySubrecord.MyDistinguishedField  
 ```  
   
-## <a name="using-property-fields"></a>속성 필드 사용  
- 속성 스키마에 필드를 추가하면 코드가 있는 오케스트레이션 및 필터 식에서 해당 값에 액세스할 수 있습니다. 如需屬性結構描述的詳細資訊，請參閱[屬性結構描述](../core/property-schemas.md)。  
+## <a name="using-property-fields"></a>使用屬性欄位  
+ 將某個欄位加入至屬性結構描述之後，您就可以利用程式碼和篩選條件運算式，在協調流程中存取其值。 如需屬性結構描述的詳細資訊，請參閱[屬性結構描述](../core/property-schemas.md)。  
   
 > [!NOTE]
->  訊息內容或資料屬性是基本上是基礎資料的捷徑︰ 如果您修改屬性，將會修改資料，反之亦然。  
+>  訊息內容或資料屬性是基本上是基礎資料的捷徑： 如果您修改屬性時，資料會被修改，反之亦然。  
   
- 메시지 속성은 다음과 같이 괄호로 묶인 네임스페이스(스키마)와 속성 이름의 앞에 나오는 메시지 이름에 의해 참조됩니다.  
+ 訊息屬性是由訊息名稱所參考，此名稱後面跟隨著以括號包住的命名空間 (結構描述) 及屬性名稱：  
   
 ```  
 MyMessage(Invoice.PropertySchema.InvoiceID)  
 ```  
   
 > [!NOTE]
->  當您使用保留的關鍵字做為結構描述中的欄位名稱和您選取 [快速升級] 升級欄位時，欄位的屬性名稱變更為 __\<保留的關鍵字\>。 여기서 이중 밑줄이 속성 이름 앞에 추가됩니다.그러나 이 속성 이름을 오케스트레이션 Expression에서 사용하면 오케스트레이션을 빌드할 때 컴파일러 오류가 발생합니다.  若要解決此錯誤，您必須以手動方式，在雙底線前面加上 @。 예:  
+>  當您使用保留的關鍵字做為結構描述中的欄位名稱和您選取 [快速升級] 升級欄位時，欄位的屬性名稱變更為 __\<保留的關鍵字\>。 (屬性名稱前會加上兩個底線)。不過，如果在協調流程運算式中使用這個屬性名稱，您將會在建置協調流程時收到編譯器錯誤。  若要解決這個錯誤，您必須手動加入\@在雙底線前面。 例如，  
 >   
 >  `MyMessage(Invoice.PropertySchema.@__Name) = "Product Name";`  
   
-## <a name="property-sets"></a>속성 집합  
- 또한 한 메시지의 모든 컨텍스트 속성(속성 집합)을 다른 메시지의 컨텍스트 속성에 할당할 수 있습니다. 속성 집합을 할당하려면 속성을 괄호로 묶는 방식처럼 다음과 같이 두 메시지 이름 뒤에 괄호로 묶인 별표를 입력합니다.  
+## <a name="property-sets"></a>屬性集  
+ 您也可以將一個訊息的所有內容屬性 (屬性集) 指派給另一個訊息的內容屬性。 若要指派屬性集，只需在兩個訊息名稱之後的括號中放置星號，就和您將屬性放在括號中一樣：  
   
 ```  
 MyMessage2(*)=MyMessage1(*);  
 ```  
   
- 이 예에서 속성 집합을 MyMessage2에 할당하면 MyMessage2의 모든 속성 값은 MyMessage1의 속성 값과 동일하게 됩니다.  
+ 將屬性集指派給範例中的 MyMessage2 之後，MyMessage2 中的所有屬性都會包含與 MyMessage1 之屬性相同的值。  
   
 ## <a name="see-also"></a>另請參閱  
  [升級屬性](../core/promoting-properties.md)   
