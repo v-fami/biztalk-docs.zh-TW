@@ -1,25 +1,26 @@
 ---
-title: "訊息與執行個體資料追蹤的最佳作法 |Microsoft 文件"
-ms.custom: 
+title: 訊息與執行個體資料追蹤的最佳作法 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - HAT, best practices
 - best practices, HAT
 ms.assetid: 2ac5c87b-2059-4912-9cec-2ae4eaac56df
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4a6f673b0a70903575918eb87dc4bd8edc9841e4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 680958d2950edffeaa56c7c3b8d7f8da40967173
+ms.sourcegitcommit: 3371ffd8ceca02e2b3715d53a1e0c0a59045912e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "34849014"
 ---
 # <a name="best-practices-for-message-and-instance-data-tracking"></a>訊息和執行個體資料追蹤的最佳作法
 檢閱使用歷程記錄和追蹤資料的下列最佳作法。  
@@ -38,7 +39,7 @@ ms.lasthandoff: 09/20/2017
   
 -   **針對您的商務需求適當地設定追蹤**  
   
-    -   您可以檢視歷程記錄和追蹤資料之前，您必須先設定使用 BizTalk Server 管理主控台的追蹤。 在啟用或停用追蹤選項時，必須牢記多個考量。 您追蹤的資料越多，「BizTalk 追蹤」(BizTalkDTADb) 資料庫的大小便會成長越快，這可能會對執行階段效能造成不良的影響。 如需詳細資訊，請參閱[設定追蹤使用 BizTalk Server 管理主控台](http://msdn.microsoft.com/en-us/49b7f9d3-60b5-41bd-ba8b-029253926bef)。  
+    -   您可以檢視歷程記錄和追蹤資料之前，您必須先設定使用 BizTalk Server 管理主控台的追蹤。 在啟用或停用追蹤選項時，必須牢記多個考量。 您追蹤的資料越多，「BizTalk 追蹤」(BizTalkDTADb) 資料庫的大小便會成長越快，這可能會對執行階段效能造成不良的影響。 如需詳細資訊，請參閱[設定追蹤使用 BizTalk Server 管理主控台](http://msdn.microsoft.com/49b7f9d3-60b5-41bd-ba8b-029253926bef)。  
   
 -   **選取適當類型的追蹤，以進行疑難排解或稽核**  
   

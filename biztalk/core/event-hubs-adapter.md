@@ -1,21 +1,22 @@
 ---
-title: "使用事件中心配接器 |Microsoft 文件"
-description: "傳送和接收 BizTalk Server 中使用 Azure 事件中心配接器的訊息"
-ms.custom: 
+title: 使用事件中心配接器 |Microsoft 文件
+description: 傳送和接收 BizTalk Server 中使用 Azure 事件中心配接器的訊息
+ms.custom: ''
 ms.date: 11/16/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 author: MandiOhlinger
 ms.author: plarsen
 manager: anneta
-ms.openlocfilehash: f394665a40b0a786ef6411b68ff8871e1a683614
-ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
+ms.openlocfilehash: cb9bbe26f07d87d7cccc084b6842b6d0974fdbb3
+ms.sourcegitcommit: 3371ffd8ceca02e2b3715d53a1e0c0a59045912e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "34848918"
 ---
 # <a name="event-hub-adapter-in-biztalk"></a>事件中樞的配接器在 BizTalk 中
 
@@ -26,7 +27,7 @@ Azure 事件中心是可高度擴充的資料流的平台，並可以接收和�
 
 ## <a name="prerequisites"></a>必要條件
 
-* 建立[Azure 事件中樞命名空間和事件中心](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-create)
+* 建立[Azure 事件中樞命名空間和事件中心](https://docs.microsoft.com/azure/event-hubs/event-hubs-create)
 * 建立[與容器的 Azure blob 儲存體帳戶](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account)
 * 安裝[功能套件 2](https://aka.ms/bts2016fp2) BizTalk 伺服器上
 
@@ -42,7 +43,7 @@ Azure 事件中心是可高度擴充的資料流的平台，並可以接收和�
 
 3. 設定**Azure 帳戶**屬性： 
 
-    |使用|動作|  
+    |使用|以進行此動作|  
     |---|---|  
     | **登入** | 登入您的 Azure 帳戶 |
     | **訂閱** | 選取具有您 EventHubs 命名空間的訂用帳戶 |
@@ -50,9 +51,9 @@ Azure 事件中心是可高度擴充的資料流的平台，並可以接收和�
 
 4. 設定**端點**屬性： 
 
-    |使用|動作|  
+    |使用|以進行此動作|  
     |---|---|  
-    | **命名空間** | 選取您的事件中樞命名空間，這不是像 sb: / /*youreventhubnamespace*.servicebus.windows.net/ |
+    | **Namespace** | 選取您的事件中樞命名空間，這不是像 sb: / /*youreventhubnamespace*.servicebus.windows.net/ |
     | **名稱** | 選取 （這建立事件中樞命名空間內） 事件中樞的名稱 |
     | **預設資料分割索引鍵** | 選擇性。 [事件中心程式設計指南](https://docs.microsoft.com/azure/event-hubs/event-hubs-programming-guide)上此金鑰提供更多詳細資料。 |
     | **驗證** | **命名空間的存取簽章**是預設值，並會自動使用 RootManageSharedAccessKey 時建立事件中樞命名空間所建立。<br/><br/>**實體的存取簽章**是 SAS 原則，您可以建立事件中心層級 （沒有事件中樞命名空間層級）。 <br/><br/>[事件中心功能概觀](https://docs.microsoft.com/azure/event-hubs/event-hubs-features)更多說明。 |
@@ -97,7 +98,7 @@ Azure 事件中心是可高度擴充的資料流的平台，並可以接收和�
 
 4. 設定**Azure 帳戶**屬性： 
 
-    |使用|動作|  
+    |使用|以進行此動作|  
     |---|---|  
     | **登入** | 登入您的 Azure 帳戶 |
     | **訂閱** | 選取具有您 EventHubs 命名空間的訂用帳戶 |
@@ -105,9 +106,9 @@ Azure 事件中心是可高度擴充的資料流的平台，並可以接收和�
 
 4. 設定**端點**屬性： 
 
-    |使用|動作|  
+    |使用|以進行此動作|  
     |---|---|  
-    | **命名空間** | 選取您的事件中樞命名空間，這不是像 sb: / /*youreventhubnamespace*.servicebus.windows.net/ |
+    | **Namespace** | 選取您的事件中樞命名空間，這不是像 sb: / /*youreventhubnamespace*.servicebus.windows.net/ |
     | **名稱** | 選取 （這建立事件中樞命名空間內） 事件中樞的名稱 |
     | **取用者群組** | 選取事件中心內的取用者群組。 預設群組會自動建立。 <br/><br/>[事件中心功能概觀](https://docs.microsoft.com/azure/event-hubs/event-hubs-features)提供更多詳細資料。 |
     | **驗證** | **命名空間的存取簽章**是預設值，並會自動使用 RootManageSharedAccessKey 時建立事件中樞命名空間所建立。<br/><br/>**實體的存取簽章**是 SAS 原則，您可以建立事件中心層級 （沒有事件中樞命名空間層級）。 <br/><br/>[事件中心功能概觀](https://docs.microsoft.com/azure/event-hubs/event-hubs-features)更多說明。 |
@@ -127,9 +128,9 @@ Azure 事件中心是可高度擴充的資料流的平台，並可以接收和�
 
 6. 設定**訊息**屬性： 
 
-    |使用|動作|  
+    |使用|以進行此動作|  
     |---|---|  
-    | **命名空間，使用者定義訊息屬性** | http://schemas.microsoft.com/BizTalk/EventHubAdapter/EventData/User 是預設的結構描述，但您可以輸入另一個結構描述。 這個值代表 BizTalk 訊息結構描述對應到事件中心的訊息屬性。 |
+    | **命名空間，使用者定義訊息屬性** | http://schemas.microsoft.com/BizTalk/EventHubAdapter/EventData/User 預設結構描述中，但您可以輸入另一個結構描述。 這個值代表 BizTalk 訊息結構描述對應到事件中心的訊息屬性。 |
     | **使用者定義屬性升級** | 選擇性。 如果您想要的話，您可以升級這些屬性。 <br/><br/>**注意**<br/>需要升級的屬性應有 porperty 結構描述部署*之前*接收事件。|
 
 7. 選取**確定**以儲存變更。 
@@ -138,7 +139,7 @@ Azure 事件中心是可高度擴充的資料流的平台，並可以接收和�
 
 您可以使用簡單的 File 傳送埠從您的 Azure 事件中心接收訊息。 
 
-1. 建立使用 File 配接器的傳送埠。 在傳送埠的屬性，設定**目的地資料夾**至 **C:\Temp\Out\**，並將設定和**檔案名稱**至**%MessageID%.xml**.
+1. 建立使用 File 配接器的傳送埠。 在傳送埠的屬性，設定**目的地資料夾**至 **C:\Temp\Out\**，並將設定和**檔案名稱**至 **%MessageID%.xml**.
 2. 在您的檔案傳送埠的屬性，設定**篩選**至`BTS.ReceivePortName == EHReceivePort`。
 3. 開始事件中心接收位置和 File 傳送埠。
 4. 尋找目的地資料夾 (c:\temp\out) 中的訊息。

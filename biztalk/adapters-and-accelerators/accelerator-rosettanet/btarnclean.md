@@ -17,15 +17,16 @@ helpviewer_keywords:
 - ports, deleting
 - BTARN, BtarnClean utility
 ms.assetid: fbecbb88-9b18-4b4b-a286-0bfa783f2320
-caps.latest.revision: ''
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0fa8e448d4799329a798cc7b33f222b42c4a28b4
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: dc3759d13498b6582eeb87fe162d287d64550044
+ms.sourcegitcommit: 436ebffd959a9c4bdaafd4da9a5843c59a018eb7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34855553"
 ---
 # <a name="btarnclean"></a>BtarnClean
 您可使用 BtarnClean 公用程式清除電腦的 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 成品。 這包含下列動作：  
@@ -37,7 +38,7 @@ ms.lasthandoff: 03/28/2018
 -   解除部署所有的 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)].Solutions.BTARN.* 組件  
   
 ## <a name="location-in-sdk"></a>SDK 中的位置  
- \<*drive*\>\Program Files\ Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK  
+ \<*磁碟機*\>\Program Files (x86) \ Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK  
   
 ## <a name="running-btarnclean"></a>執行 BtarnClean  
   
@@ -45,7 +46,7 @@ ms.lasthandoff: 03/28/2018
   
 1.  開啟命令提示字元。  
   
-2.  移至\<*磁碟機*\>\ Program Files\Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK\\。  
+2.  移至\<*磁碟機*\>\ Program Files (x86) \Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK\\。  
   
 3.  在命令提示字元中，輸入**BtarnClean**，然後按 ENTER 鍵。  
   

@@ -1,11 +1,11 @@
 ---
-title: "指派權限 |Microsoft 文件"
-ms.custom: 
+title: 指派權限 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - user accounts, assigning permissions
@@ -18,15 +18,16 @@ helpviewer_keywords:
 - unparsed document library
 - security, permissions
 ms.assetid: cee44240-aa00-4080-9e7f-728b2421102b
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a980fde1a4aea5d2e741fa576e55e659c0835f9d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5a0d152442bf375c43d371e5ca5c3fcfb9dc5939
+ms.sourcegitcommit: 3371ffd8ceca02e2b3715d53a1e0c0a59045912e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "34848958"
 ---
 # <a name="assigning-rights"></a>指派權限
 文件庫，針對上述主題中建立每個網站群組上，應該被授與下列權限：  
@@ -49,4 +50,4 @@ ms.lasthandoff: 09/20/2017
 ## <a name="new-swift-mt-mx-messages-document-library"></a>新的 SWIFT MT / MX 訊息文件庫  
  MRSR 網站部署時，會建立新 SWIFT MT 訊息和新 SWIFT MX 訊息文件庫。 新的 SWIFT MT 訊息及新 SWIFT MX 郵件的文件庫儲存新的 SWIFT XML 範本或 「 重複使用 」 訊息。 若要建立新的 SWIFT InfoPath XML 格式表示的訊息，您可以使用這些訊息。 這些訊息上傳到新的 SWIFT MT 訊息及新 SWIFT MX 郵件的文件庫使用者按一下文件庫中的 [上載] 按鈕。 您可以進一步散發新 SWIFT 訊息範本來限制對指定的使用者存取。 若要這樣做您會先建立新的文件庫，然後再複製所需的文件庫中的 XML 範本。  
   
- 如需 FormPublish 工具的詳細資訊，請參閱[FormPublish 工具](http://msdn.microsoft.com/en-us/09a6ed31-5917-4776-9a5e-955af440cdac)工具 > 一節中。
+ 如需 FormPublish 工具的詳細資訊，請參閱[FormPublish 工具](http://msdn.microsoft.com/09a6ed31-5917-4776-9a5e-955af440cdac)工具 > 一節中。

@@ -1,23 +1,24 @@
 ---
-title: "發行 SOAP 端點 API 管理 |Microsoft 文件"
-description: "使用 Feature Pack 1 和 Feature Pack 2 公開 BizTalk WCF 基本 HTTP 接收位置為 API 管理中的 SOAP 端點。 您可以使用 BizTalk 管理主控台中，執行此動作，或在 Azure 入口網站中貼上您直接在 API 管理中的端點。"
-ms.custom: 
+title: 發行 SOAP 端點 API 管理 |Microsoft 文件
+description: 使用 Feature Pack 1 和 Feature Pack 2 公開 BizTalk WCF 基本 HTTP 接收位置為 API 管理中的 SOAP 端點。 您可以使用 BizTalk 管理主控台中，執行此動作，或在 Azure 入口網站中貼上您直接在 API 管理中的端點。
+ms.custom: ''
 ms.date: 11/21/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a87bfb40-7e6f-46aa-8ac7-db6d13ce7eb2
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: valrobb
 manager: anneta
-ms.openlocfilehash: 8ac1e824ad11ef18eac6deb1252101bbd1ec187a
-ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
+ms.openlocfilehash: eb716729dcdbac07c5b17cf267866cf282046a70
+ms.sourcegitcommit: 3371ffd8ceca02e2b3715d53a1e0c0a59045912e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "34848950"
 ---
 # <a name="publish-biztalk-soap-endpoints-in-api-management"></a>在 API 管理中發佈 BizTalk SOAP 端點
 
@@ -28,10 +29,10 @@ ms.lasthandoff: 11/21/2017
 **從開始[!INCLUDE[bts2016_md](../includes/bts2016-md.md)]Feature Pack 2**，您可以公開 Wcf-basichttp 接收位置做為使用 BizTalk 管理 的 Azure API 管理中的端點。 
 
 > [!TIP]
-> [什麼是 API 管理？](https://docs.microsoft.com/en-us/azure/api-management/api-management-key-concepts)是了解，並深入了解這項 Azure 服務的絕佳資源。
+> [什麼是 API 管理？](https://docs.microsoft.com/azure/api-management/api-management-key-concepts)是了解，並深入了解這項 Azure 服務的絕佳資源。
 
 ## <a name="prerequisites"></a>必要條件
-* 設定並設定[Azure API 管理](https://docs.microsoft.com/en-us/azure/api-management/api-management-get-started)
+* 設定並設定[Azure API 管理](https://docs.microsoft.com/azure/api-management/api-management-get-started)
 * 建立[虛擬網路](https://docs.microsoft.com/azure/api-management/api-management-using-with-vnet)BizTalk 電腦與 API 管理執行個體之間
 * 安裝[功能套件 2](https://aka.ms/bts2016fp2) BizTalk 伺服器上
 
@@ -92,7 +93,7 @@ ms.lasthandoff: 11/21/2017
 3. 選取**發行**。 成功時，接收位置會顯示在 API 管理中的服務為[Azure 入口網站](https://portal.azure.com)。 
 
 ## <a name="do-more"></a>執行其他動作
-Azure API 管理是功能強大服務會使用有大量的 Azure 服務，包括邏輯應用程式。 API 管理包括許多功能，包括 速率限制和配額，可以存取您的應用程式開發介面，快取，以及更多。 請參閱[API 管理是什麼？](https://docs.microsoft.com/en-us/azure/api-management/api-management-key-concepts)若要開始使用。
+Azure API 管理是功能強大服務會使用有大量的 Azure 服務，包括邏輯應用程式。 API 管理包括許多功能，包括 速率限制和配額，可以存取您的應用程式開發介面，快取，以及更多。 請參閱[API 管理是什麼？](https://docs.microsoft.com/azure/api-management/api-management-key-concepts)若要開始使用。
 
 ## <a name="see-also"></a>另請參閱
 [設定 Feature Pack](configure-the-feature-pack.md)

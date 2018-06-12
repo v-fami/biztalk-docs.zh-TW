@@ -1,11 +1,11 @@
 ---
-title: "訊息偵測器管線元件 |Microsoft 文件"
-ms.custom: 
+title: 訊息偵測器管線元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, pipelines
@@ -14,15 +14,16 @@ helpviewer_keywords:
 - Message Inspector Pipeline Component
 - pipelines, creating
 ms.assetid: d9c00718-c8cd-4289-8f58-e4edc61b9a05
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fc9e1a520153220bcc86d844ca94203ff2b78548
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: bb6b8a2d9bcd503b1b295110665827ead3e85ee6
+ms.sourcegitcommit: 436ebffd959a9c4bdaafd4da9a5843c59a018eb7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34855617"
 ---
 # <a name="message-inspector-pipeline-component"></a>訊息偵測器管線元件
 此管線元件可讓您檢查多部分訊息的所有部分以及訊息內容，以判斷訊息是否有問題。 您可使用此元件進行疑難排解。  
@@ -40,27 +41,27 @@ ms.lasthandoff: 12/01/2017
   
 2.  在**檔案**功能表上，指向**開啟**，然後按一下 **專案**。  
   
-3.  移至 C:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\Message Inspector Pipeline Component，選取**MessageInspector.csproj**，然後按一下 **開啟**。  
+3.  移至 C:\Program Files (x86) \Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK\Message Inspector Pipeline Component，選取**MessageInspector.csproj**，然後按一下  **開啟**。  
   
 4.  開啟 Visual Studio 命令提示字元。  
   
-5.  在命令提示字元中，移至 C:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\Message Inspector Pipeline Component\obj\debug。  
+5.  在命令提示字元中，移至 C:\Program Files (x86) \Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK\Message Inspector Pipeline Component\obj\debug。  
   
-6.  在命令提示字元中，輸入**"sn-k MessageInspector.snk"** ，建立金鑰，然後按 ENTER。  
+6.  在命令提示字元中，輸入 **"sn-k MessageInspector.snk"** ，建立金鑰，然後按 ENTER。  
   
 7.  在[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]，在 [方案總管] 中，以滑鼠右鍵按一下**MessageInspector**，然後按一下 **屬性**。  
   
 8.  在**MessageInspector 屬性**頁面上，按一下**簽署**索引標籤，然後再按一下**簽署組件**核取方塊。  
   
-9. 在**選擇強式名稱金鑰檔**下拉式清單中，瀏覽至 C:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\Message Inspector Pipeline Component\obj\debug 並選取**MessageInspector.snk** ，然後按一下 **開啟**。  
+9. 在**選擇強式名稱金鑰檔**下拉式清單中，瀏覽至 C:\Program Files (x86) \Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK\Message Inspector Pipeline Component\obj\debug，然後選取**MessageInspector.snk** ，然後按一下 **開啟**。  
   
 10. 在 方案總管 中，以滑鼠右鍵按一下**MessageInspector**，然後按一下 **建置**。 在 [輸出] 窗格中，驗證組建是否成功。  
   
 11. 按一下**啟動**，指向 **所有程式**，指向 **附屬應用程式**，然後按一下**Windows 檔案總管**。  
   
-12. 在[!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)]總管] 中，移至 C:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\Message Inspector Pipeline Component\obj\debug，以滑鼠右鍵按一下**Microsoft.Solutions.BTARN.SDK.MessageInspector.dll**，然後按一下 [**複製**。  
+12. 在[!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)]總管] 中，移至 C:\Program Files (x86) \Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK\Message Inspector Pipeline Component\obj\debug，以滑鼠右鍵按一下**Microsoft.Solutions.BTARN.SDK.MessageInspector.dll**，然後按一下 [**複製**。  
   
-13. 移至 C:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\Pipeline 元件，以滑鼠右鍵按一下**管線元件**，然後按一下 **貼上**。  
+13. 移至 C:\Program Files (x86) \Microsoft BizTalk\<版本\>Accelerator for RosettaNet\Pipeline 元件，以滑鼠右鍵按一下**管線元件**，然後按一下 **貼上**.  
   
 14. 在[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]上**檔案**功能表上，指向**新增**，然後按一下 **專案**。  
   
@@ -83,7 +84,7 @@ ms.lasthandoff: 12/01/2017
   
 22. 在**屬性頁**對話方塊中，按一下 **通用屬性**，然後按一下 **組件**。  
   
-23. 在右窗格中，與相關聯的文字方塊中**組件金鑰檔案**中，按一下省略符號，移至 C:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\Message Inspector Pipeline Component\obj\debug，選取**MessageInspector.snk**，然後按一下 **確定**。  
+23. 在右窗格中，與相關聯的文字方塊中**組件金鑰檔案**中，按一下省略符號，請移至 C:\Program Files (x86) \Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK\Message InspectorPipeline Component\obj\debug，選取**MessageInspector.snk**，然後按一下 **確定**。  
   
 24. 在[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]管線設計師中，選取**BTARN 訊息偵測器元件**圖形。  
   
@@ -101,7 +102,7 @@ ms.lasthandoff: 12/01/2017
   
 31. 在**傳送埠屬性**對話方塊中，於**名稱**方塊中，輸入傳送埠的名稱與**主要**選取左窗格中，按一下**傳輸類型**右窗格中，然後選取**檔案**。  
   
-32. 在**傳送埠屬性**對話方塊中，於**位址 (URI)**方塊中，按一下省略符號按鈕 (**...**).  
+32. 在**傳送埠屬性**對話方塊中，於**位址 (URI)** 方塊中，按一下省略符號按鈕 (**...**).  
   
 33. 在**FILE 傳輸屬性**] 對話方塊中，輸入**目的地**資料夾名稱，按一下 [**傳送**左窗格中，然後再針對**傳送管線**在右窗格中，選取您剛才建立的自訂管線。  
   
@@ -114,5 +115,5 @@ ms.lasthandoff: 12/01/2017
 ## <a name="remarks"></a>備註  
  在一般的處理中，您一次只能檢查一個訊息 (您在協調流程中指定為訊息內文的部分)。 因此，您只能在 BizTalk 管理主控台中檢查其中一個部分，您進行疑難排解的能力是受限的。 「訊息偵測器管線元件」可幫助您克服這項限制。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [公用程式](../../adapters-and-accelerators/accelerator-rosettanet/utilities1.md)

@@ -1,23 +1,24 @@
 ---
-title: "效能工具 |Microsoft 文件"
-description: "調查使用 BizUnit、 IOMeter、 協調流程程式碼剖析工具、 記錄檔剖析器、 LoadGen 和 SQL 工具的 BizTalk Server 效能問題"
-ms.custom: 
+title: 效能工具 |Microsoft 文件
+description: 調查使用 BizUnit、 IOMeter、 協調流程程式碼剖析工具、 記錄檔剖析器、 LoadGen 和 SQL 工具的 BizTalk Server 效能問題
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6d26c17a-3eb9-41a5-b0dc-31b974bf3d9b
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 96bc63c4473d1a48b65024d4e9f7ee67bbb1d722
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: c5cff86a15aed9a131ed16086d1aebb33739f5f2
+ms.sourcegitcommit: 3371ffd8ceca02e2b3715d53a1e0c0a59045912e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "34848934"
 ---
 # <a name="performance-tools"></a>效能工具
 本主題提供資訊，您可以使用的工具來評估解決方案效能的 BizTalk Server 上。 本主題中所述的工具有不同的用途。某些專為評估端對端效能強調評估的 BizTalk Server 解決方案的特定層面的效能。  
@@ -31,7 +32,7 @@ ms.lasthandoff: 12/01/2017
 >  使用此工具不支援的 Microsoft，Microsoft 並不保證此程式的適用性。 請自行承擔使用這個程式的一切風險。  
   
 ## <a name="iometer"></a>IOMeter  
- IOMeter 是開放原始碼工具，可用來測量磁碟 I/O 效能。 請參閱[http://www.iometer.org](http://www.iometer.org/)。
+ IOMeter 是開放原始碼工具，可用來測量磁碟 I/O 效能。 請參閱[ http://www.iometer.org ](http://www.iometer.org/)。
   
 > [!NOTE]  
 >  使用此工具不支援的 Microsoft，Microsoft 並不保證此程式的適用性。 請自行承擔使用這個程式的一切風險。  
@@ -71,7 +72,7 @@ Windows 效能工具分析的各種不同的效能問題，包括應用程式啟
 請參閱[Windows 效能分析](https://docs.microsoft.com/windows-hardware/test/weg/performance-tools)。
   
 ## <a name="sql-server-tools-for-performance-monitoring-and-tuning"></a>SQL Server 工具的效能監視與微調  
- SQL Server 提供數個工具，用於監視 SQL Server 中的事件，以及用來微調實體資料庫設計。 請參閱[效能監視與微調工具](https://docs.microsoft.com/en-us/sql/relational-databases/performance/performance-monitoring-and-tuning-tools)。 
+ SQL Server 提供數個工具，用於監視 SQL Server 中的事件，以及用來微調實體資料庫設計。 請參閱[效能監視與微調工具](https://docs.microsoft.com/sql/relational-databases/performance/performance-monitoring-and-tuning-tools)。 
   
 ### <a name="sql-profiler"></a>SQL Profiler  
  Microsoft SQL Server Profiler 可以用來擷取傳送至 SQL Server 的 TRANSACT-SQL 陳述式，這些陳述式的 SQL Server 結果集。 SQL Server 與 SQL Server 緊密整合，因為 SQL Server Profiler 追蹤分析可能會很有用的工具，用於分析讀取和寫入至 SQL Server 資料庫時 BizTalk Server 中可能發生的問題。 請參閱[使用 SQL Server Profiler](https://docs.microsoft.com/sql/tools/sql-server-profiler/sql-server-profiler-templates-and-permissions)。
@@ -96,5 +97,5 @@ SQL Server 提供您可以使用來取得及儲存從數個來源蒐集資料的
 ### <a name="sqlio"></a>SQLIO  
  SQLIO 工具是由要評估指定組態的 I/O 容量的 Microsoft 開發的。 正如其名的工具，SQLIO 是測量的 SQL Server 效能上的檔案系統 I/O 影響的寶貴工具。 下載[SQLIO](https://www.microsoft.com/download/details.aspx?id=20163)。
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [尋找並排除瓶頸](../technical-guides/finding-and-eliminating-bottlenecks.md)

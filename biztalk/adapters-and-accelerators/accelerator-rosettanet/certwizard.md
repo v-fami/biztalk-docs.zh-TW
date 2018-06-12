@@ -1,32 +1,33 @@
 ---
-title: "CertWizard |Microsoft 文件"
-ms.custom: 
+title: CertWizard |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - certificates, CertWizard utility
 - CertWizard utility
 - certificates, importing
 ms.assetid: beeab3c0-d7b1-4bb9-8b19-f79b049d5aa1
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ea106299a734f79506823ca4a6951a3dad367553
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 2aa2f9dd1edc9a3541b3b0d9c9a2efe2dbbe6931
+ms.sourcegitcommit: 436ebffd959a9c4bdaafd4da9a5843c59a018eb7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34855633"
 ---
 # <a name="certwizard"></a>CertWizard
 您可使用 CertWizard 公用程式從 .pfx 或 .cer 檔案將憑證匯入到私用或公用存放區，以搭配 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 使用。  
   
 ## <a name="location-in-sdk"></a>SDK 中的位置  
- \<*磁碟機*\>\Program Files\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk\<版本\>Accelerator for RosettaNet\SDK\  
+ \<*磁碟機*\>\Program Files (x86)\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk\<版本\>Accelerator for RosettaNet\SDK\  
   
 ## <a name="running-certwizard"></a>執行 CertWizard  
   
@@ -34,7 +35,7 @@ ms.lasthandoff: 11/28/2017
   
 1.  開啟命令提示字元。  
   
-2.  移至\<*磁碟機*\>\ Program Files\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk\<版本\>Accelerator for RosettaNet\SDK\\。  
+2.  移至\<*磁碟機*\>\ Program Files (x86)\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk\<版本\>Accelerator for RosettaNet\SDK\\。  
   
 3.  在命令提示字元中，輸入**CertWizard**，輸入必要和適當的參數，然後按 ENTER 鍵。  
   
@@ -69,10 +70,10 @@ CertWizard /Rootkey <filename>.cer [/Thumbprint <thumbprint>]
 |**Rootkey**|用來匯入根金鑰—從憑證授權單位。|  
 |**filename.pfx （或.cer）**|.pfx (私密金鑰) 或 .cer (公開金鑰) 檔案的完整路徑。|  
 |**Filepassword**|解除鎖定 .pfx 檔案所需的密碼。|  
-|**Useridentity**|一或多個 BizTalk 主控件使用的服務識別。 如果您不想指定主控件，但想在使用者帳戶下匯入憑證，請輸入使用者帳戶。 **注意：**如果您需要新增**Useridentity**切換，公用程式匯入，並針對所有使用者設定的憑證。 **注意：**如果您將加入**Useridentity**參數，但未輸入值，WMI 會自動產生使用者識別。|  
+|**Useridentity**|一或多個 BizTalk 主控件使用的服務識別。 如果您不想指定主控件，但想在使用者帳戶下匯入憑證，請輸入使用者帳戶。 **注意：** 如果您需要新增**Useridentity**切換，公用程式匯入，並針對所有使用者設定的憑證。 **注意：** 如果您將加入**Useridentity**參數，但未輸入值，WMI 會自動產生使用者識別。|  
 |**密碼**|服務識別使用者的密碼。|  
-|**憑證指紋**|特定憑證的指紋，以防檔案包含一個以上的憑證。 **注意：**公開憑證檔案，如果該檔案包含一個以上的憑證，且您未指定指紋，此公用程式匯入檔案中的所有憑證。 對於私用憑證檔案，此公用程式會提示您選取要匯入的憑證。|  
-|**使用方式**|匯入之私用憑證的用途。 可為 sign (對於簽章憑證)、decrypt (對於解密憑證)、both (對於同時是簽章憑證又是解密憑證的憑證)，或 none (也是對於同時是簽章憑證又是解密憑證的憑證)。 **注意：**如果您設定**/Usage**參數設為 none，精靈就不在的 BizTalk 主控件或 BizTalk 群組上設定憑證的指紋。|  
+|**憑證指紋**|特定憑證的指紋，以防檔案包含一個以上的憑證。 **注意：** 公開憑證檔案，如果該檔案包含一個以上的憑證，且您未指定指紋，此公用程式匯入檔案中的所有憑證。 對於私用憑證檔案，此公用程式會提示您選取要匯入的憑證。|  
+|**Usage**|匯入之私用憑證的用途。 可為 sign (對於簽章憑證)、decrypt (對於解密憑證)、both (對於同時是簽章憑證又是解密憑證的憑證)，或 none (也是對於同時是簽章憑證又是解密憑證的憑證)。 **注意：** 如果您設定 **/Usage**參數設為 none，精靈就不在的 BizTalk 主控件或 BizTalk 群組上設定憑證的指紋。|  
 |**可匯出**|它可以是 `True` 或 `False`。 如果是 `True`，私密金鑰可能會再匯出一次。|  
   
 ## <a name="remarks"></a>備註  
@@ -80,6 +81,6 @@ CertWizard /Rootkey <filename>.cer [/Thumbprint <thumbprint>]
   
  如果您未在命令提示字元中提供完整的命令，CertWizard 會提示您輸入所需的值。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [公用程式](../../adapters-and-accelerators/accelerator-rosettanet/utilities1.md)   
  [使用 CertWizard 公用程式匯入憑證](../../adapters-and-accelerators/accelerator-rosettanet/importing-certificates-using-the-certwizard-utility.md)

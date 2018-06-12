@@ -1,23 +1,24 @@
 ---
-title: "在多重電腦環境中安裝 BizTalk Server |Microsoft 文件"
-description: "多伺服器安裝和設定指南 BizTalk 和 SQL Server 安裝在不同的電腦，包括 BAM 時"
-ms.custom: 
+title: 在多重電腦環境中安裝 BizTalk Server |Microsoft 文件
+description: 多伺服器安裝和設定指南 BizTalk 和 SQL Server 安裝在不同的電腦，包括 BAM 時
+ms.custom: ''
 ms.date: 11/30/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e4d0e707-6b9e-49e1-9f17-19b3bac1229e
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 26100e268e6dd657369bb044461c42a6ba0b5a9c
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: 22fd52c38d7c05fd91453900a26c048ba13bb9f4
+ms.sourcegitcommit: 3371ffd8ceca02e2b3715d53a1e0c0a59045912e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "34849006"
 ---
 # <a name="install-biztalk-server-in-a-multi-computer-environment"></a>在多電腦環境中安裝 BizTalk Server
 
@@ -124,7 +125,7 @@ BAM 包含下列層級：
 
 | 執行階段環境 | 設計階段環境 | 使用時間環境 |
 |---|---|---|
-| 基本的 BizTalk Server 執行階段環境可以包含下列伺服器： <ul><li>BizTalk Server</li><li>SQL Server</li><li>BizTalk BAM Server</li><li>網頁伺服器</li></ul> | BAM 開發和部署程序期間包含三個角色。 角色包括： <ul><li>商務分析師</li><li>商務系統管理員</li><li>應用程式開發人員</li></ul> | 實作並部署 BAM 解決方案之後，商務使用者可以檢視各種報告工具所產生的報告。 這些工具包括： <ul><li>BAM 入口網站 </li><li>SQL Server Reporting Services</li><li>Microsoft PerformancePoint 監控伺服器</li><li>自訂 BAM 報告應用程式</li></ul> |
+| 基本的 BizTalk Server 執行階段環境可以包含下列伺服器： <ul><li>BizTalk Server</li><li>[SQL Server]</li><li>BizTalk BAM Server</li><li>網頁伺服器</li></ul> | BAM 開發和部署程序期間包含三個角色。 角色包括： <ul><li>商務分析師</li><li>商務系統管理員</li><li>應用程式開發人員</li></ul> | 實作並部署 BAM 解決方案之後，商務使用者可以檢視各種報告工具所產生的報告。 這些工具包括： <ul><li>BAM 入口網站 </li><li>SQL Server Reporting Services</li><li>Microsoft PerformancePoint 監控伺服器</li><li>自訂 BAM 報告應用程式</li></ul> |
 
 下表描述要安裝的 BAM 元件：
 
@@ -178,7 +179,7 @@ BAM 包含下列層級：
 #### <a name="configure-bam-databases"></a>設定 BAM 資料庫
 您可以在不同的電腦上設定 BAM 主要匯入、BAM 封存、BAM 星狀結構描述、BAM 分析和 BAM Notification Services 應用程式資料庫。 以下是當 SQL Server 安裝在 BizTalk Server 以外的電腦上時的軟體需求：
 
-| BAM 功能 | 功能組態 | BizTalk Server | SQL Server | 
+| BAM 功能 | 功能組態 | BizTalk Server | [SQL Server] | 
 |---|---|---|---|
 |BAM 工具 | BAM 主要匯入資料表和 BAM 封存資料庫 | ADOMD.NET SQL Server Integration Services | 支援的 SQL Server 版本。 請參閱[新安裝、 設定及升級](biztalk-server-what-s-new-installation-configuration-and-upgrade.md)。|
 | BAM 工具| 啟用 BAM 彙總的 Analysis Services| SQL Server Integration Services| SQL Server Analysis Services| 
@@ -226,7 +227,7 @@ BAM 包含下列層級：
 4. 重新註冊 Notification Service，移轉程式 (bm.exe) 已被使用在伺服器以外的所有伺服器上。
 
     1. 在**程式**，按一下  **Microsoft SQL Server 2005**，按一下 **組態工具**，然後按一下  **Notification Services 命令提示字元**.
-    2. 在命令提示字元中，輸入：`nscontrol register -name BamAlerts -server <NS DB Server> -service -serviceusername "<NSServiceUserName>" -servicepassword "<NSServicePassword>"`
+    2. 在命令提示字元中，輸入： `nscontrol register -name BamAlerts -server <NS DB Server> -service -serviceusername "<NSServiceUserName>" -servicepassword "<NSServicePassword>"`
 
     如此可讓 Notification Services 登入正確的資料庫 (nscontrol 將這項資訊保存在服務電腦的登錄中)。
 
@@ -327,7 +328,7 @@ BAM 包含下列層級：
 ## <a name="databases-list"></a>資料庫清單
 以下是 BizTalk Server 中所使用的 SQL Server 資料庫清單：
 
-| 資料存放區名稱 | 預設資料庫名稱 | 數量 | 成長 | Description | 
+| 資料存放區名稱 | 預設資料庫名稱 | 數量 | 成長 | 描述 | 
 | ---|---|---|---|---|
 | SSO 資料庫 | SSODB | 低 | 低 | 這個「企業單一登入」認證資料庫會安全地儲存使用者名稱和密碼。| 
 | BizTalk 管理資料庫 | BizTalkMgmtDb | 低 | 低 | 這個資料庫是所有 BizTalk Server 執行個體的中央中繼資訊存放區。| 
@@ -342,7 +343,7 @@ BAM 包含下列層級：
 
 #### <a name="sql-server-databases-used-by-sharepoint"></a>SharePoint 所使用的 SQL Server 資料庫
 
-| 資料存放區名稱 | 預設資料庫名稱 | 數量 | 成長 | Description | 
+| 資料存放區名稱 | 預設資料庫名稱 | 數量 | 成長 | 描述 | 
 |---|---|---|---|---|
 | Windows SharePoint Services 組態資料庫 | 使用者自訂 | 低 | 低 | 這個資料庫包含伺服器的所有全域設定。 | 
 | Windows SharePoint Services 內容資料庫 | 使用者自訂 | 中 | 中 | 這個資料庫包含所有的網站內容，如清單項目及文件。 | 
@@ -351,7 +352,7 @@ BAM 包含下列層級：
 
 1. **安裝 Active Directory 網域服務**-在多重伺服器環境中安裝 BizTalk Server 所需的第一個步驟是安裝各種 BizTalk Server 群組和帳戶的 Active Directory 網域服務。 若要建立 Active Directory 網域，請參閱：
 
-    - Windows Server 2012 及更新版本：[安裝 Active Directory 網域服務](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/deploy/install-active-directory-domain-services--level-100-)
+    - Windows Server 2012 及更新版本：[安裝 Active Directory 網域服務](https://docs.microsoft.com/windows-server/identity/ad-ds/deploy/install-active-directory-domain-services--level-100-)
     - Windows Server 2008 R2: [AD DS 安裝與移除的逐步指南](https://technet.microsoft.com/library/cc755258(WS.10).aspx)
 
     > [!IMPORTANT]
@@ -388,7 +389,7 @@ BAM 包含下列層級：
 - **叢集檔案系統**– 請參閱[如何叢集化檔案系統](http://go.microsoft.com/fwlink/p/?LinkId=189517)。
 
 ## <a name="use-scom"></a>使用 SCOM
-適用於 Operations Manager 的 BizTalk Server 管理封包提供全方位探索及監控 BizTalk Server 元件和在多個機器中執行的應用程式。 如需有關 BizTalk Server 管理組件的詳細資訊，請參閱 http://www.microsoft.com/download/details.aspx?id=39617。
+適用於 Operations Manager 的 BizTalk Server 管理封包提供全方位探索及監控 BizTalk Server 元件和在多個機器中執行的應用程式。 如需有關 BizTalk Server 管理組件的詳細資訊，請參閱http://www.microsoft.com/download/details.aspx?id=39617。
   
 ## <a name="next"></a>下一個  
 [設定 BizTalk](configure-biztalk-server.md)

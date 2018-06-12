@@ -1,26 +1,27 @@
 ---
-title: "設定 Message Repair 和 New Submission |Microsoft 文件"
-ms.custom: 
+title: 設定 Message Repair 和 New Submission |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Message Repair and New Submission, configuring
 - A4SWIFT, Message Repair and New Submission
 - configuring, Message Repair and New Submission
 ms.assetid: e3e5e865-109c-469e-8b5b-c2675583d5a5
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 00e42bcfc5e744aa005e2e0a790dfc505b7a834d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0d2cdbad69b017a3927d3912de42053072d061b6
+ms.sourcegitcommit: 3371ffd8ceca02e2b3715d53a1e0c0a59045912e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "34848966"
 ---
 # <a name="configuring-message-repair-and-new-submission"></a>設定訊息修復和新送出
 您必須執行的步驟，在以下章節來設定的 Message Repair 和 New Submission 功能[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]，如下圖所示。  
@@ -35,10 +36,10 @@ ms.lasthandoff: 09/20/2017
   
 -   [設定 A4SWIFT 屬性](../../adapters-and-accelerators/accelerator-swift/setting-a4swift-properties.md)  
   
--   [新增 A4SWIFT 使用者及更新 Windows 群組](../../adapters-and-accelerators/accelerator-swift/adding-a4swift-users-and-updating-windows-groups.md)  
+-   [新增 A4SWIFT 使用者和更新 Windows 群組](../../adapters-and-accelerators/accelerator-swift/adding-a4swift-users-and-updating-windows-groups.md)  
   
--   [新增角色與部門](../../adapters-and-accelerators/accelerator-swift/adding-roles-and-departments.md)  
+-   [新增角色和部門](../../adapters-and-accelerators/accelerator-swift/adding-roles-and-departments.md)  
   
 -   [部署 A4SWIFT 信封結構描述](../../adapters-and-accelerators/accelerator-swift/deploying-a4swift-envelope-schemas.md)  
   
--   [發佈 InfoPath 表單範本](http://msdn.microsoft.com/en-us/2947e1ad-8c44-4cdb-bbde-7683e186b41b)
+-   [發佈 InfoPath 表單範本](http://msdn.microsoft.com/2947e1ad-8c44-4cdb-bbde-7683e186b41b)

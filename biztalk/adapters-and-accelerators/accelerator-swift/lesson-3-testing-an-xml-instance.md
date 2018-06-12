@@ -1,28 +1,29 @@
 ---
-title: "第 3 課： 測試 XML 執行個體 |Microsoft 文件"
-ms.custom: 
+title: 第 3 課： 測試 XML 執行個體 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - testing, XML instances
 - XML instances
 ms.assetid: 19d7dd18-17dc-4355-a4f1-5c5e6750faf3
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 948ea484b5cc3138a73a67b384705ed73d9478b2
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: dcb9d5ada3054219b1387d92f4244475037c26ac
+ms.sourcegitcommit: 3371ffd8ceca02e2b3715d53a1e0c0a59045912e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "34848894"
 ---
 # <a name="lesson-3-testing-an-xml-instance"></a>第 3 課： 測試 XML 執行個體
-在這一課，您可以提交有效 MT103，XML 格式檔案中的訊息接收在先前課程所建立的連接埠。 這個動作會測試您在前一個模組中建立的傳送管線。 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]以一般檔案中將輸出寫入您選取的前一個模組中的傳送埠的輸出資料夾中。  
+在這一課，您可以提交有效 MT103，XML 格式檔案中的訊息接收在先前課程所建立的連接埠。 這個動作會測試您在前一個模組中建立的傳送管線。 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] 以一般檔案中將輸出寫入您選取的前一個模組中的傳送埠的輸出資料夾中。  
   
  起始檔案接收配接器複製到輸入資料夾的 SWIFT XML 格式檔案。 這個動作會導致系統複製到輸出資料夾的有效 SWIFT 一般檔案。  
   
@@ -40,4 +41,4 @@ ms.lasthandoff: 11/28/2017
   
 6.  請確認 [記事本] 中的兩個檔案都包含相同的內容。  
   
- 若要繼續[單元 8： 修復無效的訊息](http://msdn.microsoft.com/en-us/fb531b22-ac7a-4620-b395-87aebf56077d)。
+ 若要繼續[單元 8： 修復無效的訊息](http://msdn.microsoft.com/fb531b22-ac7a-4620-b395-87aebf56077d)。

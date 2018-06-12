@@ -1,11 +1,11 @@
 ---
-title: "訊息編輯器管線元件 |Microsoft 文件"
-ms.custom: 
+title: 訊息編輯器管線元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, Message Editor Pipeline Component
@@ -13,15 +13,16 @@ helpviewer_keywords:
 - messages, editing
 - pipelines, Message Editor Pipeline Component
 ms.assetid: f2b22dea-54e8-410b-868f-2978139f438b
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9f5877fe04a87a8387340c8e4b004300f41e609e
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: 7f7685fbf800ad69b20eda31e9b64cb75ec7c511
+ms.sourcegitcommit: 436ebffd959a9c4bdaafd4da9a5843c59a018eb7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34855681"
 ---
 # <a name="message-editor-pipeline-component"></a>訊息編輯器管線元件
 此元件可讓您自動編輯傳送或接收管線中多部分訊息的任何部分。 您可將此元件新增至現有的管線中，設定取代做為一般處理的一部分。  
@@ -35,11 +36,11 @@ ms.lasthandoff: 12/01/2017
   
 2.  在**檔案**功能表上，指向**開啟**，然後按一下 **專案**。  
   
-3.  移至 C:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\Message Editor Pipeline Component，選取**MessageEditor.csproj**，然後按一下 **開啟**。  
+3.  移至 C:\Program Files (x86) \Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK\Message Editor Pipeline Component，選取**MessageEditor.csproj**，然後按一下 **開啟**.  
   
 4.  啟動 Visual Studio 命令提示字元。  
   
-5.  在命令提示字元上，移到 C:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\SDK\Message Editor Pipeline Component\obj\debug。  
+5.  在命令提示字元中，移至 C:\Program Files (x86) \Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK\Message Editor Pipeline Component\obj\debug。  
   
 6.  在命令提示字元中，輸入**sn-k MessageEditor.snk** ，建立金鑰，然後按 ENTER。  
   
@@ -47,7 +48,7 @@ ms.lasthandoff: 12/01/2017
   
 8.  在**MessageEditor 屬性**頁面上，按一下**簽署**索引標籤，然後再按一下**簽署組件**核取方塊。  
   
-9. 在**選擇強式名稱金鑰檔**下拉式清單中，瀏覽至 C:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet\ SDK\Message Editor Pipeline Component\obj\debug 並選取**MessageEditor.snk** ，然後按一下 **開啟**。  
+9. 在**選擇強式名稱金鑰檔**下拉式清單中，瀏覽至 C:\Program Files (x86) \Microsoft BizTalk\<版本\>Accelerator for RosettaNet\ SDK\Message Editor Pipeline Component\obj\debug，然後選取**MessageEditor.snk** ，然後按一下 **開啟**。  
   
 10. 在 方案總管 中，以滑鼠右鍵按一下**MessageEditor**，然後按一下 **建置**。 在 [輸出] 窗格中，驗證組建是否成功。  
   
@@ -93,5 +94,5 @@ ms.lasthandoff: 12/01/2017
   
  若要取得完整的 XPath 查詢，請在 BizTalk 編輯器中開啟結構描述，然後從 `Instance XPath` 屬性 ([屬性] 視窗底下) 複製 Xpath。 您提供的 XPath 查詢中應該具備所有的命名空間參考。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [公用程式](../../adapters-and-accelerators/accelerator-rosettanet/utilities1.md)

@@ -1,22 +1,23 @@
 ---
-title: "附錄 d： 工具以測量效能 |Microsoft 文件"
-ms.custom: 
+title: 附錄 d： 工具以測量效能 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 024f4a08-f3fd-4786-8549-0da5463c0bb9
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 19953e021a2416f777d9b28c14b1eb8516c70c81
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: f34e2bcda68a9ce2b56af5987f26f071378a52df
+ms.sourcegitcommit: 3371ffd8ceca02e2b3715d53a1e0c0a59045912e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "34848886"
 ---
 # <a name="appendix-d-tools-for-measuring-performance"></a>附錄 d： 工具，以測量效能
 本主題說明數個工具，可用來監視和評估 BizTalk Server 環境的效能。  
@@ -49,7 +50,7 @@ ms.lasthandoff: 12/01/2017
 >  使用此工具不支援的 Microsoft，Microsoft 並不保證此程式的適用性。 請自行承擔使用這個程式的一切風險。  
   
 ## <a name="iometer"></a>IOMeter  
- IOMeter 是開放原始碼工具，可用來測量磁碟 I/O 效能。 請參閱[http://www.iometer.org](http://www.iometer.org/)。
+ IOMeter 是開放原始碼工具，可用來測量磁碟 I/O 效能。 請參閱[ http://www.iometer.org ](http://www.iometer.org/)。
   
 > [!NOTE]  
 >  使用此工具不支援的 Microsoft，Microsoft 並不保證此程式的適用性。 請自行承擔使用這個程式的一切風險。  
@@ -59,7 +60,7 @@ ms.lasthandoff: 12/01/2017
  Pathping 提供的目標主機的方式，就可能發生資料遺失，在一或多個路由器躍點的相關資訊。 若要這樣做，pathping 會將網際網路控制訊息通訊協定 (ICMP) 封包傳送至路徑中的每個路由器。 
   
 ## <a name="sql-server-tools-for-performance-monitoring-and-tuning"></a>SQL Server 工具的效能監視與微調  
-SQL Server 提供數個工具，用於監視 SQL Server 中的事件，以及用來微調實體資料庫設計。 請參閱[效能監視與微調工具](https://docs.microsoft.com/en-us/sql/relational-databases/performance/performance-monitoring-and-tuning-tools)。 
+SQL Server 提供數個工具，用於監視 SQL Server 中的事件，以及用來微調實體資料庫設計。 請參閱[效能監視與微調工具](https://docs.microsoft.com/sql/relational-databases/performance/performance-monitoring-and-tuning-tools)。 
   
 ### <a name="sql-profiler"></a>SQL Profiler  
  Microsoft SQL Server Profiler 可以用來擷取傳送至 SQL Server 的 TRANSACT-SQL 陳述式，這些陳述式的 SQL Server 結果集。 SQL Server 與 SQL Server 緊密整合，因為 SQL Server Profiler 追蹤分析可能會很有用的工具，用於分析讀取和寫入至 SQL Server 資料庫時 BizTalk Server 中可能發生的問題。 請參閱[使用 SQL Server Profiler](https://docs.microsoft.com/sql/tools/sql-server-profiler/sql-server-profiler-templates-and-permissions)。

@@ -1,26 +1,27 @@
 ---
-title: "步驟 5： 建立鏡像協議 |Microsoft 文件"
-ms.custom: 
+title: 步驟 5： 建立鏡像協議 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, mirror agreements
 - loopback tutorial, creating mirror agreements
 - agreements, mirror agreements
 ms.assetid: 6aa70b1e-7d38-49f7-9d5f-f008cbe3df66
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 00697f159e2363611248000616610cacd03b9f4f
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 65fbb1c93b0401e8c6460c9df1f2313931c34950
+ms.sourcegitcommit: 436ebffd959a9c4bdaafd4da9a5843c59a018eb7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34855593"
 ---
 # <a name="step-5-create-a-mirror-agreement"></a>步驟 5： 建立鏡像協議
 在此步驟中，您將使用回送公用程式，在設定主要組織的相同電腦上，建立模擬交易夥伴的鏡像協議。 回送公用程式是命令列工具。  
@@ -29,7 +30,7 @@ ms.lasthandoff: 11/28/2017
   
 1.  按一下**啟動**，按一下 **執行**，型別**cmd**，然後按一下**確定**。  
   
-2.  在命令提示字元中，移至\<*磁碟機*\>: \Program Files\Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK。 輸入下列命令，然後按**Enter**:  
+2.  在命令提示字元中，移至\<*磁碟機*\>: \Program Files (x86) \Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK。 輸入下列命令，然後按**Enter**:  
   
     ```  
     Loopback /enable HOME  
@@ -46,5 +47,5 @@ ms.lasthandoff: 11/28/2017
 > [!NOTE]
 >  每當您更新原始交易協議，就必須重新建立鏡像交易協議。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [步驟 6：啟動協調流程](../../adapters-and-accelerators/accelerator-rosettanet/step-6-start-orchestrations.md)

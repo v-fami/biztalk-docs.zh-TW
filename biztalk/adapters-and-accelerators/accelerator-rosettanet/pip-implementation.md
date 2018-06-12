@@ -1,11 +1,11 @@
 ---
-title: "PIP 實作 |Microsoft 文件"
-ms.custom: 
+title: PIP 實作 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - PIPs
@@ -23,18 +23,19 @@ helpviewer_keywords:
 - DTDs, XSDs
 - schemas, XSDs
 ms.assetid: 0d964223-e0b6-4377-b26a-5fdc89ec81f4
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9eeadda11d70998eff676c38a1d21e618acd2762
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: ef7ab139b7efe94df33f393554814c8f7e59efcb
+ms.sourcegitcommit: 436ebffd959a9c4bdaafd4da9a5843c59a018eb7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34855545"
 ---
 # <a name="pip-implementation"></a>PIP 實作
-RosettaNet 夥伴介面程序 (Pip) 會定義供應鏈中的交易夥伴之間的商務程序。 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]提供一組 Pip 的方塊外，您可以建立其他的 Pip。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]支援 RosettaNet 組織所定義的所有 Pip。  
+RosettaNet 夥伴介面程序 (Pip) 會定義供應鏈中的交易夥伴之間的商務程序。 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 提供一組 Pip 的方塊外，您可以建立其他的 Pip。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 支援 RosettaNet 組織所定義的所有 Pip。  
   
  如需詳細資訊，請參閱[RosettaNet Pip](../../adapters-and-accelerators/accelerator-rosettanet/rosettanet-pips.md)。  
   
@@ -44,7 +45,7 @@ RosettaNet 夥伴介面程序 (Pip) 會定義供應鏈中的交易夥伴之間�
 > [!NOTE]
 >  [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 也支援 RosettaNet 組織最近所發佈，使用 XSD 規格的下一代 PIP。  
   
- 若要實作新的 PIP，您必須將 PIP 的 DTD 轉換為 XSD。 下載從 RosettaNet 網站，網址 PIP 相關聯的 DTD [http://go.microsoft.com/fwlink/?linkid=33859](http://go.microsoft.com/fwlink/?linkid=33859)。 然後，您可以根據 PIP 建立 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 程序組態設定檔。 如需詳細資訊，請參閱[納入新的交易夥伴介面程序](../../adapters-and-accelerators/accelerator-rosettanet/incorporating-a-new-partner-interface-process.md)。  
+ 若要實作新的 PIP，您必須將 PIP 的 DTD 轉換為 XSD。 下載從 RosettaNet 網站，網址 PIP 相關聯的 DTD [ http://go.microsoft.com/fwlink/?linkid=33859 ](http://go.microsoft.com/fwlink/?linkid=33859)。 然後，您可以根據 PIP 建立 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 程序組態設定檔。 如需詳細資訊，請參閱[納入新的交易夥伴介面程序](../../adapters-and-accelerators/accelerator-rosettanet/incorporating-a-new-partner-interface-process.md)。  
   
  您可以根據現有的設定檔建立新的程序組態設定檔。 如需詳細資訊，請參閱[如何建立或編輯程序組態](../../adapters-and-accelerators/accelerator-rosettanet/how-to-create-or-edit-a-process-configuration.md)。 您可以在相同交易夥伴之間根據相同的程序組態設定檔建立多重協議。 然而，您一次只能啟動其中一個協議。 若要建立和啟動協議，請參閱[建立或編輯協議](../../adapters-and-accelerators/accelerator-rosettanet/creating-or-editing-an-agreement.md)。  
   
@@ -59,7 +60,7 @@ RosettaNet 夥伴介面程序 (Pip) 會定義供應鏈中的交易夥伴之間�
 -   RNIF 1.1 及 RNIF 2.01 所有信號訊息的服務內容。  
   
 ## <a name="sample-schemas"></a>範例結構描述  
- [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]安裝程式會安裝一組 Pip 中\<*磁碟機*\>: \Program Files\Microsoft BizTalk\<版本\>Accelerator for rosettanet\sdk\schemas。 這些僅當做範例使用。 實際運用在執行環境之前，我們強烈建議您將這些結構描述與最近發佈的 RosettaNet PIP 規格和訊息指導方針進行比較。 BTARN 支援所有 RosettaNet PIP 的實作。  
+ [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 安裝程式會安裝一組 Pip 中\<*磁碟機*\>: \Program Files\Microsoft BizTalk\<版本\>Accelerator for rosettanet\sdk\schemas。 這些僅當做範例使用。 實際運用在執行環境之前，我們強烈建議您將這些結構描述與最近發佈的 RosettaNet PIP 規格和訊息指導方針進行比較。 BTARN 支援所有 RosettaNet PIP 的實作。  
   
 ## <a name="element-level-constraints-in-btarn"></a>BTARN 中的元素階層條件約束  
  在 BTARN 中，您可以將 PIP 訊息指導方針文件中指定的元素階層條件約束實作為程序組態設定。 執行階段元件會使用程序組態決定處理特定 PIP 的方式。  
@@ -68,7 +69,7 @@ RosettaNet 夥伴介面程序 (Pip) 會定義供應鏈中的交易夥伴之間�
   
  程序組態設定檔對應至 RosettaNet PIP 規格中所示[使用 PIP 規格建立程序組態](../../adapters-and-accelerators/accelerator-rosettanet/using-the-pip-specification-to-create-a-process-configuration.md)。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [BizTalk Accelerator for RosettaNet 新增至 BizTalk Server](../../adapters-and-accelerators/accelerator-rosettanet/what-biztalk-accelerator-for-rosettanet-adds-to-biztalk-server.md)   
  [交易夥伴協議](../../adapters-and-accelerators/accelerator-rosettanet/trading-partner-agreements.md)   
  [RosettaNet PIP](../../adapters-and-accelerators/accelerator-rosettanet/rosettanet-pips.md)
