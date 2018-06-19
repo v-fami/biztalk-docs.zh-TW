@@ -1,14 +1,14 @@
 ---
-title: "執行命名空間元件測試 |Microsoft 文件"
-ms.custom: 
+title: 執行命名空間元件測試 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 13768608-ade6-44c0-897f-d417c3408302
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294934"
 ---
 # <a name="running-the-namespace-component-tests"></a><span data-ttu-id="dd87b-102">執行測試命名空間元件</span><span class="sxs-lookup"><span data-stu-id="dd87b-102">Running the Namespace Component Tests</span></span>
 <span data-ttu-id="dd87b-103">下列程序顯示如何執行所有的四個測試案例，以供[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]命名空間元件 」 範例。</span><span class="sxs-lookup"><span data-stu-id="dd87b-103">The following procedure shows how you can run all four of the test scenarios for the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] Namespace Component sample.</span></span>  

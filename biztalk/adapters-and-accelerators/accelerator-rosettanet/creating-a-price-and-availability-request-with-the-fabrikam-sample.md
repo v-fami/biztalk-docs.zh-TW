@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965916"
 ---
 # <a name="creating-a-price-and-availability-request-with-the-fabrikam-sample"></a><span data-ttu-id="974ec-102">使用 Fabrikam 範例建立價格與可用性要求</span><span class="sxs-lookup"><span data-stu-id="974ec-102">Creating a Price and Availability Request with the Fabrikam Sample</span></span>
 <span data-ttu-id="974ec-103">在此步驟中，您將使用 LOBWebApplication 工具建立「3A2 價格與可用性」要求。</span><span class="sxs-lookup"><span data-stu-id="974ec-103">In this step, you create a 3A2 Price and Availability request using the LOBWebApplication tool.</span></span>  

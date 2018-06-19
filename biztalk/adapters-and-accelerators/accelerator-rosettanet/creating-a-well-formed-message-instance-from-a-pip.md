@@ -1,17 +1,17 @@
 ---
-title: "從 PIP 建立格式正確的訊息執行個體 |Microsoft 文件"
-ms.custom: 
+title: 從 PIP 建立格式正確的訊息執行個體 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - message templates
 - PIPs, message templates
 ms.assetid: fed3698c-25d9-40ca-878a-60171f425bec
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25960684"
 ---
 # <a name="creating-a-well-formed-message-instance-from-a-pip"></a><span data-ttu-id="e599a-102">從 PIP 建立格式正確的訊息執行個體</span><span class="sxs-lookup"><span data-stu-id="e599a-102">Creating a Well-Formed Message Instance from a PIP</span></span>
 <span data-ttu-id="e599a-103">本主題描述如何產生格式正確的訊息執行個體。</span><span class="sxs-lookup"><span data-stu-id="e599a-103">This topic describes how to produce a well-formed message instance.</span></span> <span data-ttu-id="e599a-104">您可從交易夥伴介面程序 (PIP) 產生訊息執行個體的範本。</span><span class="sxs-lookup"><span data-stu-id="e599a-104">You can generate a template for a message instance from the Partner Interface Process (PIP).</span></span> <span data-ttu-id="e599a-105">執行這個動作後，您必須修改該範本，使其格式正確，才可新增您的資料。</span><span class="sxs-lookup"><span data-stu-id="e599a-105">After doing this, you have to modify that template, so that it is well formed, before adding your data.</span></span>  

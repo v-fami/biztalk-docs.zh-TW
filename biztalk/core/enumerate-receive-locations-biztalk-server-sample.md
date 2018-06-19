@@ -1,18 +1,18 @@
 ---
-title: "列舉接收位置 （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: 列舉接收位置 （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive locations, examples
 - receive locations, enumerating
 - examples, receive locations
 ms.assetid: 27ff8ac6-7e8e-4dde-84d1-d21bf417ddd7
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969076"
 ---
 # <a name="enumerate-receive-locations-biztalk-server-sample"></a><span data-ttu-id="d415d-102">列舉接收位置 （BizTalk Server 範例）</span><span class="sxs-lookup"><span data-stu-id="d415d-102">Enumerate Receive Locations (BizTalk Server Sample)</span></span>
 <span data-ttu-id="d415d-103">「列舉接收位置」範例會示範如何擷取一或多個接收位置的詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="d415d-103">The Enumerate Receive Locations sample demonstrates how to retrieve details about one or more receive locations.</span></span>  

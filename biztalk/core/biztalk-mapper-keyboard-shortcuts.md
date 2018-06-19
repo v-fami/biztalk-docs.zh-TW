@@ -1,17 +1,17 @@
 ---
-title: "BizTalk 對應工具鍵盤快速鍵 |Microsoft 文件"
-ms.custom: 
+title: BizTalk 對應工具鍵盤快速鍵 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - keyboard shortcuts, BizTalk Mapper
 - BizTalk Mapper, keyboard shortcuts
 ms.assetid: aba4958d-9104-46da-8524-45a41e07c5e2
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966380"
 ---
 # <a name="biztalk-mapper-keyboard-shortcuts"></a><span data-ttu-id="e2c82-102">BizTalk 對應工具鍵盤快速鍵</span><span class="sxs-lookup"><span data-stu-id="e2c82-102">BizTalk Mapper Keyboard Shortcuts</span></span>
 <span data-ttu-id="e2c82-103">如同任何標準的 Microsoft Windows 應用程式，您可以使用鍵盤快速鍵在 BizTalk 對應工具中存取命令無法使用功能表。</span><span class="sxs-lookup"><span data-stu-id="e2c82-103">As in any standard Microsoft Windows application, you can use keyboard shortcuts in BizTalk Mapper to access commands otherwise available by using menus.</span></span> <span data-ttu-id="e2c82-104">下表描述可用的鍵盤快速鍵。</span><span class="sxs-lookup"><span data-stu-id="e2c82-104">The following table describes the available keyboard shortcuts.</span></span>  

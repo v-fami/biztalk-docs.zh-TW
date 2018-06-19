@@ -1,14 +1,14 @@
 ---
-title: "瀏覽、 搜尋及取得 SQL Server 中繼資料 |Microsoft 文件"
-ms.custom: 
+title: 瀏覽、 搜尋及取得 SQL Server 中繼資料 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 368dd5ca-456c-4cae-9e85-bcf504c4e7ed
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963940"
 ---
 # <a name="browse-search-and-get-sql-server-metadata"></a><span data-ttu-id="f38ba-102">瀏覽、 搜尋及取得 SQL Server 中繼資料</span><span class="sxs-lookup"><span data-stu-id="f38ba-102">Browse, search, and get SQL Server metadata</span></span>
 <span data-ttu-id="f38ba-103">中繼資料，[!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]從 SQL Server 資料庫的介面描述與使用配接器的 SQL Server 資料庫通訊的訊息結構。</span><span class="sxs-lookup"><span data-stu-id="f38ba-103">The metadata that [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] surfaces from the SQL Server database describes the message structure for communicating with the SQL Server database using the adapter.</span></span> <span data-ttu-id="f38ba-104">[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]支援兩個介面來擷取中繼資料。</span><span class="sxs-lookup"><span data-stu-id="f38ba-104">The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] supports two interfaces for retrieving metadata.</span></span>  

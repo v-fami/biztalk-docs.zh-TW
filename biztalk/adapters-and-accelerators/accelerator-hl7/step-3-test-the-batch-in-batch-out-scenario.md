@@ -1,14 +1,14 @@
 ---
-title: "步驟 3： 測試批次中的批次出案例 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3： 測試批次中的批次出案例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c487d39d-b2be-41d4-963e-d0ee9ba169fb
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25960796"
 ---
 # <a name="step-3-test-the-batch-inbatch-out-scenario"></a><span data-ttu-id="db748-102">步驟 3： 測試中的批次/批次出案例</span><span class="sxs-lookup"><span data-stu-id="db748-102">Step 3: Test the Batch In/Batch Out Scenario</span></span>
 <span data-ttu-id="db748-103">在此步驟中，您將測試批次中 / 批次出教學課程藉由卸除批次中的測試執行個體 / 批次訊息的資料夾。</span><span class="sxs-lookup"><span data-stu-id="db748-103">In this step, you test the Batch In/Batch Out tutorial by dropping a test instance of the batch in/batch out message into a folder.</span></span> <span data-ttu-id="db748-104">您設定的傳送埠會將訊息傳送、 接收埠會接收該和接收管線會處理它並拖放到目的資料夾。</span><span class="sxs-lookup"><span data-stu-id="db748-104">The send port that you set up will send the message, the receive port will receive it, and the receive pipeline will process it and drop it into the destination folder.</span></span>  

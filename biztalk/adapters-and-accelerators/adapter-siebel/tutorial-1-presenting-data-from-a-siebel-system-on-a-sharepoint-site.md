@@ -1,14 +1,14 @@
 ---
-title: "教學課程 1： 從 SharePoint 網站上的 Siebel 系統中呈現資料 |Microsoft 文件"
-ms.custom: 
+title: 教學課程 1： 從 SharePoint 網站上的 Siebel 系統中呈現資料 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9dd06f75-75d1-4fad-8f34-51c97c7790e3
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963084"
 ---
 # <a name="tutorial-1-presenting-data-from-a-siebel-system-on-a-sharepoint-site"></a><span data-ttu-id="8f2e0-102">教學課程 1： 從 SharePoint 網站上的 Siebel 系統中呈現資料</span><span class="sxs-lookup"><span data-stu-id="8f2e0-102">Tutorial 1: Presenting Data From a Siebel System on a SharePoint Site</span></span>
 <span data-ttu-id="8f2e0-103">本教學課程提供詳細的指示使用[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]與 Microsoft Office SharePoint Server，在 SharePoint 網站上呈現從 Siebel 系統的商務資料。</span><span class="sxs-lookup"><span data-stu-id="8f2e0-103">This tutorial provides detailed instructions on using the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] with Microsoft Office SharePoint Server to present business data from a Siebel system on a SharePoint portal.</span></span> <span data-ttu-id="8f2e0-104">若要示範如何使用[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]Office SharePoint Server，以建立應用程式中擷取一份客戶帳戶從 Siebel 儲存機制使用 Office SharePoint Server [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="8f2e0-104">To demonstrate how to use the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] with Office SharePoint Server, we create an application in Office SharePoint Server to retrieve a list of customer accounts from the Siebel repository using the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].</span></span>  

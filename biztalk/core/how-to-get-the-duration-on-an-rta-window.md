@@ -1,11 +1,11 @@
 ---
-title: "如何取得 RTA 視窗的持續時間 |Microsoft 文件"
-ms.custom: 
+title: 如何取得 RTA 視窗的持續時間 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [BAM], aggregations
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - managing [BAM], time intervals
 - Get-RTAWindow command [BAM]
 ms.assetid: 4e7ad0fd-e7ed-47f7-9435-ef01bbe17afa
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970004"
 ---
 # <a name="how-to-get-the-duration-on-an-rta-window"></a><span data-ttu-id="0cb38-102">如何取得 RTA 視窗上的持續時間</span><span class="sxs-lookup"><span data-stu-id="0cb38-102">How to Get the Duration on an RTA Window</span></span>
 <span data-ttu-id="0cb38-103">系統管理員使用**get rtawindow**命令，以取得指定之即時彙總 (RTA) 的持續時間。</span><span class="sxs-lookup"><span data-stu-id="0cb38-103">Administrators use the **get-rtawindow** command to get the duration for the specified real-time aggregation (RTA).</span></span> <span data-ttu-id="0cb38-104">這個命令會傳回持續時間的長度以及測量持續時間所用的單位。</span><span class="sxs-lookup"><span data-stu-id="0cb38-104">The command returns the length of the duration and the units by which the duration is measured.</span></span>  

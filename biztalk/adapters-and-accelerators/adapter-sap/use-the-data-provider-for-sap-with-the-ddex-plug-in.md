@@ -12,7 +12,7 @@ helpviewer_keywords:
 - DDEX plug-in, Data Provider for SAP
 - Data Provider for SAP, using with DDEX plug-in
 ms.assetid: b16c8634-172a-4630-87ed-2073a75afdec
-caps.latest.revision: ''
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25963460"
 ---
 # <a name="use-the-data-provider-for-sap-with-the-ddex-plug-in"></a><span data-ttu-id="3f737-102">使用資料提供者的 DDEX 外掛程式的 sap</span><span class="sxs-lookup"><span data-stu-id="3f737-102">Use the Data Provider for SAP with the DDEX Plug-in</span></span>
 <span data-ttu-id="3f737-103">如果您選擇要安裝[!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)]連同[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]安裝，安裝程式安裝[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]DDEX 外掛程式。</span><span class="sxs-lookup"><span data-stu-id="3f737-103">If you chose to install the [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] along with the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] installation, the setup program installs a [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] DDEX plug-in.</span></span> <span data-ttu-id="3f737-104">您可以使用此外掛程式來瀏覽使用 SAP 物件[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="3f737-104">You can use this plug-in to browse SAP objects using [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)].</span></span> <span data-ttu-id="3f737-105">本節提供使用 DDEX 外掛程式的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="3f737-105">This section provides information about using the DDEX plug-in.</span></span>  
@@ -40,7 +41,7 @@ ms.lasthandoff: 03/28/2018
   
 4.  <span data-ttu-id="3f737-115">在**變更資料來源**對話方塊中，從**資料來源**方塊中，選取**\<其他\>**。</span><span class="sxs-lookup"><span data-stu-id="3f737-115">In the **Change Data Source** dialog box, from the **Data source** box, select **\<other\>**.</span></span>  
   
-5.  <span data-ttu-id="3f737-116">從**資料提供者**下拉式清單中，選取**.NET Framework Data Provider for mySAP Business Suite**按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="3f737-116">From the **Data provider** drop-down list, select **.NET Framework Data Provider for mySAP Business Suite** and click **OK**.</span></span> <span data-ttu-id="3f737-117">**加入連接**對話方塊隨即開啟。</span><span class="sxs-lookup"><span data-stu-id="3f737-117">The **Add Connection** dialog box opens.</span></span>  
+5.  <span data-ttu-id="3f737-116">從**資料提供者**下拉式清單中，選取 **.NET Framework Data Provider for mySAP Business Suite**按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="3f737-116">From the **Data provider** drop-down list, select **.NET Framework Data Provider for mySAP Business Suite** and click **OK**.</span></span> <span data-ttu-id="3f737-117">**加入連接**對話方塊隨即開啟。</span><span class="sxs-lookup"><span data-stu-id="3f737-117">The **Add Connection** dialog box opens.</span></span>  
   
 6.  <span data-ttu-id="3f737-118">**加入連接**對話方塊會列出不同的連線參數，以連接至 SAP 系統。</span><span class="sxs-lookup"><span data-stu-id="3f737-118">The **Add Connection** dialog box lists the different connection parameters to connect to an SAP system.</span></span> <span data-ttu-id="3f737-119">一般連接字串來連接 SAP 系統使用[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]需要：</span><span class="sxs-lookup"><span data-stu-id="3f737-119">A typical connection string to connect to an SAP system using the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] requires:</span></span>  
   

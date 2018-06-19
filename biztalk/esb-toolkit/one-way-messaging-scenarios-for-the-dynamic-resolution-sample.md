@@ -1,14 +1,14 @@
 ---
-title: "動態解析範例單向傳訊案例 |Microsoft 文件"
-ms.custom: 
+title: 動態解析範例單向傳訊案例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 38237840-e957-4298-84c9-700ec72f2bc5
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22296670"
 ---
 # <a name="one-way-messaging-scenarios-for-the-dynamic-resolution-sample"></a><span data-ttu-id="bceeb-102">動態解析範例單向傳訊的案例</span><span class="sxs-lookup"><span data-stu-id="bceeb-102">One-Way Messaging Scenarios for the Dynamic Resolution Sample</span></span>
 <span data-ttu-id="bceeb-103">本主題說明如何執行單向傳訊案例的[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]動態解析 」 範例。</span><span class="sxs-lookup"><span data-stu-id="bceeb-103">This topic shows how you can run the one-way messaging scenarios for the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] Dynamic Resolution sample.</span></span>  

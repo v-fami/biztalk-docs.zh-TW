@@ -1,11 +1,11 @@
 ---
-title: "部署 A4SWIFT 結構描述 |Microsoft 文件"
-ms.custom: 
+title: 部署 A4SWIFT 結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - schemas, A4SWIFT
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - A4SWIFT, deploying schemas
 - schemas, deploying
 ms.assetid: a6aed2cd-3578-442e-ab1e-8284cc5f7b72
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25966420"
 ---
 # <a name="deploying-a4swift-schemas"></a><span data-ttu-id="3b6f6-102">部署 A4SWIFT 結構描述</span><span class="sxs-lookup"><span data-stu-id="3b6f6-102">Deploying A4SWIFT Schemas</span></span>
 <span data-ttu-id="3b6f6-103">您必須部署 SWIFT 訊息要交換的結構描述。</span><span class="sxs-lookup"><span data-stu-id="3b6f6-103">You must deploy schemas for the SWIFT messages that you want to exchange.</span></span>  

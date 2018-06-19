@@ -1,14 +1,14 @@
 ---
-title: "處理通知訊息，以便完成特定工作在 SQL 中使用 BizTalk Server |Microsoft 文件"
-ms.custom: 
+title: 處理通知訊息，以便完成特定工作在 SQL 中使用 BizTalk Server |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8538cb89-1cca-45ad-b6f4-041e117963ff
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967340"
 ---
 # <a name="process-notification-messages-to-complete-specific-tasks-in-sql-using-biztalk-server"></a><span data-ttu-id="13eaf-102">處理通知訊息，以便完成特定工作中使用 BizTalk Server 的 SQL</span><span class="sxs-lookup"><span data-stu-id="13eaf-102">Process notification messages to complete specific tasks in SQL using BizTalk Server</span></span>
 <span data-ttu-id="13eaf-103">您可以使用[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]接收通知的 SQL Server 資料庫資料表的變更。</span><span class="sxs-lookup"><span data-stu-id="13eaf-103">You can use the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to receive notifications for changes to SQL Server database tables.</span></span> <span data-ttu-id="13eaf-104">不過，配接器只會傳送一些記錄已插入、 更新或刪除特定資料庫資料表中的通知。</span><span class="sxs-lookup"><span data-stu-id="13eaf-104">However, the adapter only sends you a notification that some records were inserted, updated, or deleted in a certain database table.</span></span> <span data-ttu-id="13eaf-105">用戶端應用程式本身必須處理這些記錄的任何後續處理。</span><span class="sxs-lookup"><span data-stu-id="13eaf-105">Any post-processing on those records must be handled by the client applications themselves.</span></span> <span data-ttu-id="13eaf-106">本主題顯示如何處理從 SQL Server 資料庫接收通知的種類為基礎的資料表中的記錄以案例為基礎的描述。</span><span class="sxs-lookup"><span data-stu-id="13eaf-106">This topic presents a scenario-based description on how to process the records in the table based on the kind of notification received from the SQL Server database.</span></span>  
@@ -147,7 +148,7 @@ ms.lasthandoff: 11/28/2017
   
 |<span data-ttu-id="13eaf-222">形狀圖</span><span class="sxs-lookup"><span data-stu-id="13eaf-222">Shape</span></span>|<span data-ttu-id="13eaf-223">圖形類型</span><span class="sxs-lookup"><span data-stu-id="13eaf-223">Shape Type</span></span>|<span data-ttu-id="13eaf-224">屬性</span><span class="sxs-lookup"><span data-stu-id="13eaf-224">Properties</span></span>|  
 |-----------|----------------|----------------|  
-|<span data-ttu-id="13eaf-225">ReceiveNotification</span><span class="sxs-lookup"><span data-stu-id="13eaf-225">ReceiveNotification</span></span>|<span data-ttu-id="13eaf-226">Receive</span><span class="sxs-lookup"><span data-stu-id="13eaf-226">Receive</span></span>|<span data-ttu-id="13eaf-227">-設定**名稱**至*ReceiveNotification*</span><span class="sxs-lookup"><span data-stu-id="13eaf-227">- Set **Name** to *ReceiveNotification*</span></span><br /><br /> <span data-ttu-id="13eaf-228">-設定**啟動**至*，則為 True*</span><span class="sxs-lookup"><span data-stu-id="13eaf-228">- Set **Activate** to *True*</span></span>|  
+|<span data-ttu-id="13eaf-225">ReceiveNotification</span><span class="sxs-lookup"><span data-stu-id="13eaf-225">ReceiveNotification</span></span>|<span data-ttu-id="13eaf-226">Receive</span><span class="sxs-lookup"><span data-stu-id="13eaf-226">Receive</span></span>|<span data-ttu-id="13eaf-227">-設定**名稱**至*ReceiveNotification*</span><span class="sxs-lookup"><span data-stu-id="13eaf-227">- Set **Name** to *ReceiveNotification*</span></span><br /><br /> <span data-ttu-id="13eaf-228">-設定**啟動**至 *，則為 True*</span><span class="sxs-lookup"><span data-stu-id="13eaf-228">- Set **Activate** to *True*</span></span>|  
   
 ### <a name="adding-an-expression-shape"></a><span data-ttu-id="13eaf-229">新增 「 運算式 」 圖形</span><span class="sxs-lookup"><span data-stu-id="13eaf-229">Adding an Expression Shape</span></span>  
  <span data-ttu-id="13eaf-230">協調流程中包括 「 運算式 」 圖形的用途是將 xpath 查詢來擷取收到的通知訊息的類型。</span><span class="sxs-lookup"><span data-stu-id="13eaf-230">The purpose of including an Expression shape in the orchestration is to have an xpath query to extract the kind of notification message received.</span></span> <span data-ttu-id="13eaf-231">在之前建立 xpath 查詢，讓我們看看通知訊息的格式。</span><span class="sxs-lookup"><span data-stu-id="13eaf-231">Before creating an xpath query, let us look at the format of a notification message.</span></span> <span data-ttu-id="13eaf-232">典型的通知訊息如下所示：</span><span class="sxs-lookup"><span data-stu-id="13eaf-232">A typical notification message resembles the following:</span></span>  
@@ -232,7 +233,7 @@ NotificationType.Equals("Insert") | NotificationType.Equals("Update")
         |<span data-ttu-id="13eaf-309">繫結屬性</span><span class="sxs-lookup"><span data-stu-id="13eaf-309">Binding Property</span></span>|<span data-ttu-id="13eaf-310">值</span><span class="sxs-lookup"><span data-stu-id="13eaf-310">Value</span></span>|  
         |----------------------|-----------|  
         |<span data-ttu-id="13eaf-311">**InboundOperationType**</span><span class="sxs-lookup"><span data-stu-id="13eaf-311">**InboundOperationType**</span></span>|<span data-ttu-id="13eaf-312">將此設**通知**。</span><span class="sxs-lookup"><span data-stu-id="13eaf-312">Set this to **Notification**.</span></span>|  
-        |<span data-ttu-id="13eaf-313">**NotificationStatement**</span><span class="sxs-lookup"><span data-stu-id="13eaf-313">**NotificationStatement**</span></span>|<span data-ttu-id="13eaf-314">將此值設定為：</span><span class="sxs-lookup"><span data-stu-id="13eaf-314">Set this to:</span></span><br /><br /> `SELECT Employee_ID, Name FROM dbo.Employee WHERE Status=0`<br /><br /> <span data-ttu-id="13eaf-315">**注意：**您必須明確指定資料行名稱的陳述式中這個 SELECT 陳述式中所示。</span><span class="sxs-lookup"><span data-stu-id="13eaf-315">**Note:** You must specifically specify the column names in the statement as shown in this SELECT statement.</span></span> <span data-ttu-id="13eaf-316">此外，您永遠必須指定資料表名稱，以及結構描述名稱。</span><span class="sxs-lookup"><span data-stu-id="13eaf-316">Also, you must always specify the table name along with the schema name.</span></span> <span data-ttu-id="13eaf-317">例如， `dbo.Employee`。</span><span class="sxs-lookup"><span data-stu-id="13eaf-317">For example, `dbo.Employee`.</span></span>|  
+        |<span data-ttu-id="13eaf-313">**NotificationStatement**</span><span class="sxs-lookup"><span data-stu-id="13eaf-313">**NotificationStatement**</span></span>|<span data-ttu-id="13eaf-314">將此值設定為：</span><span class="sxs-lookup"><span data-stu-id="13eaf-314">Set this to:</span></span><br /><br /> `SELECT Employee_ID, Name FROM dbo.Employee WHERE Status=0`<br /><br /> <span data-ttu-id="13eaf-315">**注意：** 您必須明確指定資料行名稱的陳述式中這個 SELECT 陳述式中所示。</span><span class="sxs-lookup"><span data-stu-id="13eaf-315">**Note:** You must specifically specify the column names in the statement as shown in this SELECT statement.</span></span> <span data-ttu-id="13eaf-316">此外，您永遠必須指定資料表名稱，以及結構描述名稱。</span><span class="sxs-lookup"><span data-stu-id="13eaf-316">Also, you must always specify the table name along with the schema name.</span></span> <span data-ttu-id="13eaf-317">例如， `dbo.Employee`。</span><span class="sxs-lookup"><span data-stu-id="13eaf-317">For example, `dbo.Employee`.</span></span>|  
         |<span data-ttu-id="13eaf-318">**NotifyOnListenerStart**</span><span class="sxs-lookup"><span data-stu-id="13eaf-318">**NotifyOnListenerStart**</span></span>|<span data-ttu-id="13eaf-319">將此設**True**。</span><span class="sxs-lookup"><span data-stu-id="13eaf-319">Set this to **True**.</span></span>|  
   
          <span data-ttu-id="13eaf-320">如需不同的繫結屬性的詳細資訊，請參閱[閱讀 BizTalk Adapter for SQL Server 配接器繫結屬性](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md)。</span><span class="sxs-lookup"><span data-stu-id="13eaf-320">For more information about the different binding properties, see [Read about the BizTalk Adapter for SQL Server adapter Binding Properties](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md).</span></span>  

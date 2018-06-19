@@ -1,17 +1,17 @@
 ---
-title: "步驟 4： 建立 HeaderHelper 專案 |Microsoft 文件"
-ms.custom: 
+title: 步驟 4： 建立 HeaderHelper 專案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - projects, helper projects
 - private process tutorial, creating helper projects
 ms.assetid: 82413537-032a-4368-8d77-d024a7c83b0b
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965524"
 ---
 # <a name="step-4-creating-the-headerhelper-project"></a><span data-ttu-id="dbbde-102">步驟 4： 建立 HeaderHelper 專案</span><span class="sxs-lookup"><span data-stu-id="dbbde-102">Step 4: Creating the HeaderHelper Project</span></span>
 <span data-ttu-id="dbbde-103">在此步驟中，您將建立 [!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)] 類別庫。</span><span class="sxs-lookup"><span data-stu-id="dbbde-103">In this step, you create a [!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)] class library.</span></span> <span data-ttu-id="dbbde-104">當私用程序協調流程接收到內送訊息時，HeaderHelper 類別庫會判斷是否需要轉換文件，並在需要轉換時，執行轉換。</span><span class="sxs-lookup"><span data-stu-id="dbbde-104">When a private process orchestration receives an incoming message, the HeaderHelper library determines whether a document conversion is required and if it is required, performs that conversion.</span></span> <span data-ttu-id="dbbde-105">這讓您的協調流程能夠搭配使用不同版本的 RosettaNet 實作架構 (RNIF) 文件。</span><span class="sxs-lookup"><span data-stu-id="dbbde-105">This lets your orchestration work with different versions of RosettaNet Implementation Framework (RNIF) documents.</span></span> <span data-ttu-id="dbbde-106">此外，在傳送 3A2 回應訊息時，HeaderHelper 類別庫會在傳送訊息前執行其他的文件轉換。</span><span class="sxs-lookup"><span data-stu-id="dbbde-106">Additionally, when a 3A2 response message is sent, the HeaderHelper library performs an additional document conversion before transmitting the message.</span></span>  
@@ -112,7 +113,7 @@ ms.lasthandoff: 11/28/2017
   
 3.  <span data-ttu-id="dbbde-120">在右窗格中，按一下 **簽署組件**。</span><span class="sxs-lookup"><span data-stu-id="dbbde-120">In the right pane, click **Sign the Assembly**.</span></span>  
   
-4.  <span data-ttu-id="dbbde-121">按一下**選擇強式名稱金鑰檔**文字方塊中，然後選取**\<瀏覽\>**從下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="dbbde-121">Click the **Choose a strong name key file** text box, and then select **\<Browse\>** from the drop-down list.</span></span>  
+4.  <span data-ttu-id="dbbde-121">按一下**選擇強式名稱金鑰檔**文字方塊中，然後選取**\<瀏覽\>** 從下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="dbbde-121">Click the **Choose a strong name key file** text box, and then select **\<Browse\>** from the drop-down list.</span></span>  
   
 5.  <span data-ttu-id="dbbde-122">在 [選取檔案] 對話方塊中，移至 Contoso 組件的位置，然後按兩下**FabConPriceAvail.snk**。</span><span class="sxs-lookup"><span data-stu-id="dbbde-122">In the Select File dialog box, move to the location of your Contoso assembly, and double-click **FabConPriceAvail.snk**.</span></span>  
   

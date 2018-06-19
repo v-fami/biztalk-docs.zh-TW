@@ -1,14 +1,14 @@
 ---
-title: "Attribute 群組 節點 |Microsoft 文件"
-ms.custom: 
+title: Attribute 群組 節點 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ea02fae8-4e03-486a-8d9d-185ae230d3a0
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965332"
 ---
 # <a name="attribute-group-nodes"></a><span data-ttu-id="f2bd4-102">[Attribute 群組] 節點</span><span class="sxs-lookup"><span data-stu-id="f2bd4-102">Attribute Group Nodes</span></span>
 

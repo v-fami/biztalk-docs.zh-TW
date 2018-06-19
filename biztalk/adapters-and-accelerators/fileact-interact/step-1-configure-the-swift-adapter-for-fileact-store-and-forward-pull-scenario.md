@@ -1,14 +1,14 @@
 ---
-title: "步驟 1： 設定 FileAct 存放與轉寄提取實例 SWIFT 配接器 |Microsoft 文件"
-ms.custom: 
+title: 步驟 1： 設定 FileAct 存放與轉寄提取實例 SWIFT 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fc271544-6bc8-4d62-aba0-3fe3295f2a2a
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965196"
 ---
 # <a name="step-1-configure-the-swift-adapter-for-fileact-store-and-forward-pull-scenario"></a><span data-ttu-id="43c16-102">步驟 1： 設定 FileAct 存放與轉寄提取實例 SWIFT 配接器</span><span class="sxs-lookup"><span data-stu-id="43c16-102">Step 1: Configure the SWIFT Adapter for FileAct Store and Forward pull scenario</span></span>
 <span data-ttu-id="43c16-103">完成[準備使用本教學課程](../../adapters-and-accelerators/fileact-interact/preparing-to-use-the-tutorial1.md)開始此步驟之前。</span><span class="sxs-lookup"><span data-stu-id="43c16-103">Complete [Preparing to Use the Tutorial](../../adapters-and-accelerators/fileact-interact/preparing-to-use-the-tutorial1.md) before you begin this step.</span></span>
@@ -33,7 +34,7 @@ ms.lasthandoff: 11/28/2017
   
     |<span data-ttu-id="43c16-109">**使用此選項**</span><span class="sxs-lookup"><span data-stu-id="43c16-109">**Use this**</span></span>|<span data-ttu-id="43c16-110">**若要這樣做**</span><span class="sxs-lookup"><span data-stu-id="43c16-110">**To do this**</span></span>|  
     |------------------|--------------------|  
-    |<span data-ttu-id="43c16-111">**引數**</span><span class="sxs-lookup"><span data-stu-id="43c16-111">**Arguments**</span></span>|<span data-ttu-id="43c16-112">輸入下列引數:-SagMessagePartner \<Fileact 用戶端訊息的夥伴建立 SAG\> **附註：**引數中的用戶端是 MessagePartner SAG 中進行設定。</span><span class="sxs-lookup"><span data-stu-id="43c16-112">Type the following argument: -SagMessagePartner \<Fileact Client Message Partner created in SAG\> **Note:**  The client in the argument is the MessagePartner you configured in SAG.</span></span>|  
+    |<span data-ttu-id="43c16-111">**引數**</span><span class="sxs-lookup"><span data-stu-id="43c16-111">**Arguments**</span></span>|<span data-ttu-id="43c16-112">輸入下列引數:-SagMessagePartner \<Fileact 用戶端訊息的夥伴建立 SAG\> **附註：** 引數中的用戶端是 MessagePartner SAG 中進行設定。</span><span class="sxs-lookup"><span data-stu-id="43c16-112">Type the following argument: -SagMessagePartner \<Fileact Client Message Partner created in SAG\> **Note:**  The client in the argument is the MessagePartner you configured in SAG.</span></span>|  
     |<span data-ttu-id="43c16-113">**密碼編譯模式**</span><span class="sxs-lookup"><span data-stu-id="43c16-113">**Crypto Mode**</span></span>|<span data-ttu-id="43c16-114">從下拉式清單選取**進階**。</span><span class="sxs-lookup"><span data-stu-id="43c16-114">From the drop-down list, select **Advanced**.</span></span>|  
     |<span data-ttu-id="43c16-115">**FACryptoMode**</span><span class="sxs-lookup"><span data-stu-id="43c16-115">**FACryptoMode**</span></span>|<span data-ttu-id="43c16-116">從下拉式清單選取**進階**。</span><span class="sxs-lookup"><span data-stu-id="43c16-116">From the drop-down list, select **Advanced**.</span></span>|  
     |<span data-ttu-id="43c16-117">**記錄訊息**</span><span class="sxs-lookup"><span data-stu-id="43c16-117">**LogMessages**</span></span>|<span data-ttu-id="43c16-118">從下拉式清單選取**TRUE**。</span><span class="sxs-lookup"><span data-stu-id="43c16-118">From the drop-down list, select **TRUE**.</span></span> <span data-ttu-id="43c16-119">這可讓要擷取，並在 BAM 入口網站中追蹤的訊息事件。</span><span class="sxs-lookup"><span data-stu-id="43c16-119">This enables the message events to be captured and tracked in the BAM portal.</span></span>|  
@@ -58,9 +59,9 @@ ms.lasthandoff: 11/28/2017
   
     |<span data-ttu-id="43c16-142">**使用此選項**</span><span class="sxs-lookup"><span data-stu-id="43c16-142">**Use this**</span></span>|<span data-ttu-id="43c16-143">**若要這樣做**</span><span class="sxs-lookup"><span data-stu-id="43c16-143">**To do this**</span></span>|  
     |------------------|--------------------|  
-    |<span data-ttu-id="43c16-144">**引數**</span><span class="sxs-lookup"><span data-stu-id="43c16-144">**Arguments**</span></span>|<span data-ttu-id="43c16-145">輸入下列引數: – SagMessagePartner \<Fileact 用戶端訊息的夥伴建立 SAG\> **附註：**引數中的用戶端是 MessagePartner SAG 中進行設定。</span><span class="sxs-lookup"><span data-stu-id="43c16-145">Type the following argument: –SagMessagePartner \<Fileact Client Message Partner created in SAG\> **Note:**  The client in the argument is the MessagePartner you configured in SAG.</span></span>|  
+    |<span data-ttu-id="43c16-144">**引數**</span><span class="sxs-lookup"><span data-stu-id="43c16-144">**Arguments**</span></span>|<span data-ttu-id="43c16-145">輸入下列引數: – SagMessagePartner \<Fileact 用戶端訊息的夥伴建立 SAG\> **附註：** 引數中的用戶端是 MessagePartner SAG 中進行設定。</span><span class="sxs-lookup"><span data-stu-id="43c16-145">Type the following argument: –SagMessagePartner \<Fileact Client Message Partner created in SAG\> **Note:**  The client in the argument is the MessagePartner you configured in SAG.</span></span>|  
     |<span data-ttu-id="43c16-146">**密碼編譯模式**</span><span class="sxs-lookup"><span data-stu-id="43c16-146">**Crypto Mode**</span></span>|<span data-ttu-id="43c16-147">從下拉式清單選取**進階**。</span><span class="sxs-lookup"><span data-stu-id="43c16-147">From the drop-down list, select **Advanced**.</span></span>|  
-    |<span data-ttu-id="43c16-148">**LogMessageBody**</span><span class="sxs-lookup"><span data-stu-id="43c16-148">**LogMessageBody**</span></span>|<span data-ttu-id="43c16-149">從下拉式清單選取**TRUE**。</span><span class="sxs-lookup"><span data-stu-id="43c16-149">From the drop-down list, select **TRUE**.</span></span> <span data-ttu-id="43c16-150">這可讓要擷取，並在 BAM 入口網站中追蹤的訊息事件。</span><span class="sxs-lookup"><span data-stu-id="43c16-150">This enables the message events to be captured and tracked in the BAM portal.</span></span> <span data-ttu-id="43c16-151">**注意：**如果設為 TRUE 時，它會保留的訊息本文的 「 BizTalk 追蹤資料庫。</span><span class="sxs-lookup"><span data-stu-id="43c16-151">**Note:**  If you set to TRUE, it preserves the message body in the BizTalk Tracking database.</span></span> <span data-ttu-id="43c16-152">不過，基於安全性理由，訊息本文可以永遠不會在檢視 BAM 入口網站。</span><span class="sxs-lookup"><span data-stu-id="43c16-152">However, for security reasons, the message body can never be viewed in the BAM portal.</span></span>|  
+    |<span data-ttu-id="43c16-148">**LogMessageBody**</span><span class="sxs-lookup"><span data-stu-id="43c16-148">**LogMessageBody**</span></span>|<span data-ttu-id="43c16-149">從下拉式清單選取**TRUE**。</span><span class="sxs-lookup"><span data-stu-id="43c16-149">From the drop-down list, select **TRUE**.</span></span> <span data-ttu-id="43c16-150">這可讓要擷取，並在 BAM 入口網站中追蹤的訊息事件。</span><span class="sxs-lookup"><span data-stu-id="43c16-150">This enables the message events to be captured and tracked in the BAM portal.</span></span> <span data-ttu-id="43c16-151">**注意：** 如果設為 TRUE 時，它會保留的訊息本文的 「 BizTalk 追蹤資料庫。</span><span class="sxs-lookup"><span data-stu-id="43c16-151">**Note:**  If you set to TRUE, it preserves the message body in the BizTalk Tracking database.</span></span> <span data-ttu-id="43c16-152">不過，基於安全性理由，訊息本文可以永遠不會在檢視 BAM 入口網站。</span><span class="sxs-lookup"><span data-stu-id="43c16-152">However, for security reasons, the message body can never be viewed in the BAM portal.</span></span>|  
     |<span data-ttu-id="43c16-153">**記錄訊息**</span><span class="sxs-lookup"><span data-stu-id="43c16-153">**LogMessages**</span></span>|<span data-ttu-id="43c16-154">從下拉式清單選取**TRUE**。</span><span class="sxs-lookup"><span data-stu-id="43c16-154">From the drop-down list, select **TRUE**.</span></span> <span data-ttu-id="43c16-155">這可讓要擷取，並在 BAM 入口網站中追蹤的訊息事件。</span><span class="sxs-lookup"><span data-stu-id="43c16-155">This enables the message events to be captured and tracked in the BAM portal.</span></span>|  
     |<span data-ttu-id="43c16-156">**啟用**</span><span class="sxs-lookup"><span data-stu-id="43c16-156">**Enable**</span></span>|<span data-ttu-id="43c16-157">**True**</span><span class="sxs-lookup"><span data-stu-id="43c16-157">**True**</span></span>|  
     |<span data-ttu-id="43c16-158">**事件端點**</span><span class="sxs-lookup"><span data-stu-id="43c16-158">**Event end-point**</span></span>|<span data-ttu-id="43c16-159">輸入適當的 SAG 端點。</span><span class="sxs-lookup"><span data-stu-id="43c16-159">Type the appropriate SAG end-point.</span></span>|  

@@ -17,7 +17,7 @@ helpviewer_keywords:
 - modifying, agreements
 - agreements, trading partners
 ms.assetid: 4bbe4b57-d6ec-4448-9c80-2aecd98e0dc7
-caps.latest.revision: ''
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25962228"
 ---
 # <a name="creating-or-editing-an-agreement"></a><span data-ttu-id="57516-102">建立或編輯協議</span><span class="sxs-lookup"><span data-stu-id="57516-102">Creating or Editing an Agreement</span></span>
 <span data-ttu-id="57516-103">本主題說明如何建立或編輯交易夥伴協議。</span><span class="sxs-lookup"><span data-stu-id="57516-103">This topic describes how to create or edit a trading partner agreement.</span></span> <span data-ttu-id="57516-104">交易夥伴協議設定兩個交易夥伴之間的關係，包括其身份識別；交易夥伴介面程序 (PIP)；動作、信號與同步 URL；以及關聯的協定。</span><span class="sxs-lookup"><span data-stu-id="57516-104">A trading partner agreement configures the relationship between two trading partners, including their identities; the Partner Interface Process (PIP); the action, signal, and sync URLs; and the associated protocols.</span></span>  
@@ -96,7 +97,7 @@ ms.lasthandoff: 03/23/2018
   
 3.  <span data-ttu-id="57516-294">以滑鼠右鍵按一下您想要編輯，然後按一下 協議**屬性**。</span><span class="sxs-lookup"><span data-stu-id="57516-294">Right-click the agreement that you want to edit, and then click **Properties**.</span></span>  
   
-4.  <span data-ttu-id="57516-295">在**\<***協議名稱***\>**屬性對話方塊中，於**一般**和**連絡人屬性**索引標籤上，視需要變更設定。</span><span class="sxs-lookup"><span data-stu-id="57516-295">In the **\<***agreement name***\>** Properties dialog box, on the **General** and **Contact Properties** tabs, change settings as needed.</span></span> <span data-ttu-id="57516-296">如需有關這些設定的詳細資訊，請參閱上表。</span><span class="sxs-lookup"><span data-stu-id="57516-296">For information about these settings, see the preceding table.</span></span>  
+4.  <span data-ttu-id="57516-295">在**\<***協議名稱***\>** 屬性對話方塊中，於**一般**和**連絡人屬性**索引標籤上，視需要變更設定。</span><span class="sxs-lookup"><span data-stu-id="57516-295">In the **\<***agreement name***\>** Properties dialog box, on the **General** and **Contact Properties** tabs, change settings as needed.</span></span> <span data-ttu-id="57516-296">如需有關這些設定的詳細資訊，請參閱上表。</span><span class="sxs-lookup"><span data-stu-id="57516-296">For information about these settings, see the preceding table.</span></span>  
   
 5.  <span data-ttu-id="57516-297">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="57516-297">Click **OK**.</span></span>  
   

@@ -1,18 +1,18 @@
 ---
-title: "如何設定 SSO 票證 |Microsoft 文件"
-ms.custom: 
+title: 如何設定 SSO 票證 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [SSO], configuring tickets
 - SSO, tickets
 - tickets [SSO], configuring
 ms.assetid: 32f0384b-ac79-4cce-b3f5-f4f8a73a673a
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968644"
 ---
 # <a name="how-to-configure-the-sso-tickets"></a><span data-ttu-id="7e691-102">如何設定 SSO 票證</span><span class="sxs-lookup"><span data-stu-id="7e691-102">How to Configure the SSO Tickets</span></span>
 <span data-ttu-id="7e691-103">您可以使用 [MMC 嵌入式管理單元] 或命令列來控制整個「單一登入」系統的票證行為，包括是否允許票證以及系統是否必須驗證票證。</span><span class="sxs-lookup"><span data-stu-id="7e691-103">You can use the MMC Snap-In or the command line to control ticket behavior for the entire Single Sign-On system, including whether to allow tickets, and whether the system must validate the tickets.</span></span>  
@@ -43,7 +44,7 @@ ms.lasthandoff: 11/28/2017
   
 ### <a name="to-configure-the-enterprise-single-sign-on-tickets-using-the-mmc-snap-in-for-the-affiliate-application"></a><span data-ttu-id="7e691-116">使用 MMC 嵌入式管理單元為分支機構應用程式設定企業單一登入票證</span><span class="sxs-lookup"><span data-stu-id="7e691-116">To configure the Enterprise Single Sign-On tickets using the MMC Snap-In for the Affiliate Application</span></span>  
   
-1.  <span data-ttu-id="7e691-117">在 **[開始]** 功能表上，依序按一下 **[所有程式]**及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。</span><span class="sxs-lookup"><span data-stu-id="7e691-117">On the **Start** menu, click **All Programs**, click **Microsoft Enterprise Single Sign-On**, and then click **SSO Administration**.</span></span>  
+1.  <span data-ttu-id="7e691-117">在 **[開始]** 功能表上，依序按一下 **[所有程式]** 及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。</span><span class="sxs-lookup"><span data-stu-id="7e691-117">On the **Start** menu, click **All Programs**, click **Microsoft Enterprise Single Sign-On**, and then click **SSO Administration**.</span></span>  
   
 2.  <span data-ttu-id="7e691-118">在 範圍 窗格的 ENTSSO MMC 嵌入式管理單元，依序展開**分支機構應用程式**節點。</span><span class="sxs-lookup"><span data-stu-id="7e691-118">In the scope pane of the ENTSSO MMC Snap-In, expand the **Affiliate Applications** node.</span></span>  
   
@@ -59,7 +60,7 @@ ms.lasthandoff: 11/28/2017
   
 2.  <span data-ttu-id="7e691-124">在命令列，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="7e691-124">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="7e691-125">預設安裝目錄是*\<磁碟機\>*: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="7e691-125">The default installation directory is *\<drive\>*:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-3.  <span data-ttu-id="7e691-126">型別**ssomanage – 票證\<允許是/否\> *\<驗證是/否\>***，其中*\<允許是/否\>* 表示，系統是否允許票證和*\<驗證是/否\>*指出是否需要重新驗證後贖回票證.</span><span class="sxs-lookup"><span data-stu-id="7e691-126">Type **ssomanage –tickets \<allowed yes/no\> *\<validate yes/no\>***, where *\<allowed yes/no\>* indicates whether tickets will be allowed or not, and *\<validate yes/no\>* indicates whether tickets will need to be validated after they are redeemed.</span></span>  
+3.  <span data-ttu-id="7e691-126">型別**ssomanage – 票證\<允許是/否\> *\<驗證是/否\>***，其中*\<允許是/否\>* 表示，系統是否允許票證和*\<驗證是/否\>* 指出是否需要重新驗證後贖回票證.</span><span class="sxs-lookup"><span data-stu-id="7e691-126">Type **ssomanage –tickets \<allowed yes/no\> *\<validate yes/no\>***, where *\<allowed yes/no\>* indicates whether tickets will be allowed or not, and *\<validate yes/no\>* indicates whether tickets will need to be validated after they are redeemed.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="7e691-127">您可以使用 [yes]、[no]、[on] 或 [off] 來表示是否允許和/或驗證票證。</span><span class="sxs-lookup"><span data-stu-id="7e691-127">You can use yes, no, on, or off to indicate whether to allow and/or validate tickets.</span></span> <span data-ttu-id="7e691-128">這些字與大小寫無關，不論您的語言設定為何都必須使用。</span><span class="sxs-lookup"><span data-stu-id="7e691-128">These words are case independent, and must be used regardless of your language settings.</span></span>  

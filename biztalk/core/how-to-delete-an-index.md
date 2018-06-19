@@ -1,18 +1,18 @@
 ---
-title: "如何刪除索引 |Microsoft 文件"
-ms.custom: 
+title: 如何刪除索引 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - indexes [BAM], deleting
 - Get-Index command [BAM]
 - aggregations [BAM], indexes
 ms.assetid: 5f9c7989-3357-451f-8565-1d4b01c1d16a
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970468"
 ---
 # <a name="how-to-delete-an-index"></a><span data-ttu-id="5ff20-102">如何刪除索引</span><span class="sxs-lookup"><span data-stu-id="5ff20-102">How to Delete an Index</span></span>
 <span data-ttu-id="5ff20-103">系統管理員使用**刪除索引**命令來刪除指定的活動，在指定的檢查點的索引。</span><span class="sxs-lookup"><span data-stu-id="5ff20-103">Administrators use the **delete-index** command to delete an index on the specified activity at the specified checkpoints.</span></span>  

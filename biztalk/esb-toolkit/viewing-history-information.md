@@ -1,14 +1,14 @@
 ---
-title: "檢視歷程記錄資訊 |Microsoft 文件"
-ms.custom: 
+title: 檢視歷程記錄資訊 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7f2cd70e-8830-4956-8291-585d76f9e24b
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294974"
 ---
 # <a name="viewing-history-information"></a><span data-ttu-id="495dc-102">檢視歷程記錄資訊</span><span class="sxs-lookup"><span data-stu-id="495dc-102">Viewing History Information</span></span>
 <span data-ttu-id="495dc-103">ESB 管理入口網站會維護一份記錄的通用描述、 探索與整合 (UDDI) 登錄的所有要求。</span><span class="sxs-lookup"><span data-stu-id="495dc-103">The ESB Management Portal maintains a history of all requests for Universal Description, Discovery, and Integration (UDDI) registration.</span></span> <span data-ttu-id="495dc-104">系統管理員可以檢視在入口網站中的這份清單。</span><span class="sxs-lookup"><span data-stu-id="495dc-104">Administrators can view this list within the portal.</span></span>  

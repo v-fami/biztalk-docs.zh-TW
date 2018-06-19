@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 99bd7fbb-64f2-4327-a8ae-ccb574e56150
-caps.latest.revision: ''
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25963988"
 ---
 # <a name="syntax-for-an-execquery-statement-in-sap"></a><span data-ttu-id="fce02-102">SAP 中 EXECQUERY 陳述式語法</span><span class="sxs-lookup"><span data-stu-id="fce02-102">Syntax for an EXECQUERY Statement in SAP</span></span>
 <span data-ttu-id="fce02-103">您可以使用 SAP GUI 來建立查詢，以圖形方式來選取您想要查詢之資料行和排序的次序，您想要包含在結果集，等資料表。[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]可讓使用者從 ADO.NET 應用程式中執行這類的查詢，藉由提供使用者可用來執行查詢，在 SAP 系統中定義的 EXECQUERY 作業。</span><span class="sxs-lookup"><span data-stu-id="fce02-103">You can use the SAP GUI to create queries by graphically selecting the tables you want to query, the columns and sort order you want included in the result set, etc. The [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] enables users to execute such queries from an ADO.NET application by providing an EXECQUERY operation that users can use to execute a query defined in the SAP system.</span></span>  
@@ -93,7 +94,7 @@ EXECQUERY <QueryName> @USERGROUP='usergroup' [, @WORKSPACE='X'] [, @VARIANT='var
     EXECQUERY ZTEST3 @USERGROUP='SYSTQV000024',  @P1 = '0000003262',@P2 = '*&*'  
     ```  
   
-     <span data-ttu-id="fce02-145">在此範例中，您可能會收到錯誤，指出已找到任何資料。</span><span class="sxs-lookup"><span data-stu-id="fce02-145">In this example, you might get an error stating that no data was found.</span></span> <span data-ttu-id="fce02-146">這是因為查詢會搜尋**'\*&\*'**做為字串，並不考慮星號 （\*） 做為萬用字元。</span><span class="sxs-lookup"><span data-stu-id="fce02-146">This is because the query searches for **'\*&\*'** as a string and does not consider asterisk (\*) as a wildcard character.</span></span>  
+     <span data-ttu-id="fce02-145">在此範例中，您可能會收到錯誤，指出已找到任何資料。</span><span class="sxs-lookup"><span data-stu-id="fce02-145">In this example, you might get an error stating that no data was found.</span></span> <span data-ttu-id="fce02-146">這是因為查詢會搜尋 **'\*&\*'** 做為字串，並不考慮星號 （\*） 做為萬用字元。</span><span class="sxs-lookup"><span data-stu-id="fce02-146">This is because the query searches for **'\*&\*'** as a string and does not consider asterisk (\*) as a wildcard character.</span></span>  
   
 -   <span data-ttu-id="fce02-147">您永遠必須指定日期值格式為 YYYYMMDD。</span><span class="sxs-lookup"><span data-stu-id="fce02-147">You must always specify a date values in YYYYMMDD format.</span></span>  
   

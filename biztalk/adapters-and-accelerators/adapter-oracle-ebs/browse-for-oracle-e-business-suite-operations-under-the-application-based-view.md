@@ -1,14 +1,14 @@
 ---
-title: "瀏覽 Oracle E-business Suite 作業的應用程式為基礎的檢視之下 |Microsoft 文件"
-ms.custom: 
+title: 瀏覽 Oracle E-business Suite 作業的應用程式為基礎的檢視之下 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fb207869-1a19-4e19-ba47-c78d2a29b36d
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963652"
 ---
 # <a name="browse-for-oracle-e-business-suite-operations-under-the-application-based-view"></a><span data-ttu-id="7e8a9-102">瀏覽 Oracle E-business Suite 作業下應用程式為基礎的檢視</span><span class="sxs-lookup"><span data-stu-id="7e8a9-102">Browse for Oracle E-Business Suite operations under the application-based view</span></span>
 <span data-ttu-id="7e8a9-103">您可以使用[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]或[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]瀏覽一概無法對 Oracle E-business Suite 的傳出和傳入作業使用[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="7e8a9-103">You can use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] or the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] to browse for outbound and inbound operations that can be performed on Oracle E-Business Suite using the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].</span></span> <span data-ttu-id="7e8a9-104">本主題提供有關如何瀏覽應用程式為基礎的檢視之下的傳出和傳入作業的資訊。</span><span class="sxs-lookup"><span data-stu-id="7e8a9-104">This topic provides information on how to browse for outbound and inbound operations under the application-based view.</span></span>  

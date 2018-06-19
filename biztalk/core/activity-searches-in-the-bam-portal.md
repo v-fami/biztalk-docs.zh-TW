@@ -1,11 +1,11 @@
 ---
-title: "BAM 入口網站中的活動搜尋 |Microsoft 文件"
-ms.custom: 
+title: BAM 入口網站中的活動搜尋 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - activities [BAM], searching
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - BAM portal, Query Builder
 - BAM portal, activity searches
 ms.assetid: 60ab8deb-ebe2-4959-97fd-261ff64d500c
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966596"
 ---
 # <a name="activity-searches-in-the-bam-portal"></a><span data-ttu-id="00532-102">BAM 入口網站中的活動搜尋</span><span class="sxs-lookup"><span data-stu-id="00532-102">Activity Searches in the BAM Portal</span></span>
 <span data-ttu-id="00532-103">活動搜尋可讓您對 BAM 資料執行搜尋，根據 BAM 檢視中的追蹤值和項目尋找符合您指定之準則的活動，並顯示這些活動讓您進行編輯或根據這些活動建立警示。</span><span class="sxs-lookup"><span data-stu-id="00532-103">An activity search allows you to perform searches against BAM data to find activities that match the criteria you specify based on tracked values and items available in a BAM view, and to display these activities so that you can edit them or create alerts based on them.</span></span>  
@@ -62,7 +63,7 @@ ms.lasthandoff: 11/28/2017
   
 |<span data-ttu-id="00532-124">運算子</span><span class="sxs-lookup"><span data-stu-id="00532-124">Operator</span></span>|<span data-ttu-id="00532-125">Description</span><span class="sxs-lookup"><span data-stu-id="00532-125">Description</span></span>|  
 |--------------|-----------------|  
-|<span data-ttu-id="00532-126">**在**</span><span class="sxs-lookup"><span data-stu-id="00532-126">**At**</span></span>|<span data-ttu-id="00532-127">指定完全相符的項目。</span><span class="sxs-lookup"><span data-stu-id="00532-127">Specifies an exact match.</span></span> <span data-ttu-id="00532-128">相當於布林值的等於 (=) 運算。</span><span class="sxs-lookup"><span data-stu-id="00532-128">Equivalent to a Boolean Equals (=) operation.</span></span> <span data-ttu-id="00532-129">**注意：**如果您選取**在**運算子，然後在入口網站會使用午夜做為預設值沒有時間部分指定日期。</span><span class="sxs-lookup"><span data-stu-id="00532-129">**Note:**  If you select the **At** operator and specify a date with no time part the portal uses midnight as the default value.</span></span> <span data-ttu-id="00532-130">如果這不是您的目的，使用**當時或之前**或**在或之後**運算子取得所需的結果。</span><span class="sxs-lookup"><span data-stu-id="00532-130">If this is not your intent, use the **At or before** or the **At or after** operators to obtain the desired results.</span></span>|  
+|<span data-ttu-id="00532-126">**在**</span><span class="sxs-lookup"><span data-stu-id="00532-126">**At**</span></span>|<span data-ttu-id="00532-127">指定完全相符的項目。</span><span class="sxs-lookup"><span data-stu-id="00532-127">Specifies an exact match.</span></span> <span data-ttu-id="00532-128">相當於布林值的等於 (=) 運算。</span><span class="sxs-lookup"><span data-stu-id="00532-128">Equivalent to a Boolean Equals (=) operation.</span></span> <span data-ttu-id="00532-129">**注意：** 如果您選取**在**運算子，然後在入口網站會使用午夜做為預設值沒有時間部分指定日期。</span><span class="sxs-lookup"><span data-stu-id="00532-129">**Note:**  If you select the **At** operator and specify a date with no time part the portal uses midnight as the default value.</span></span> <span data-ttu-id="00532-130">如果這不是您的目的，使用**當時或之前**或**在或之後**運算子取得所需的結果。</span><span class="sxs-lookup"><span data-stu-id="00532-130">If this is not your intent, use the **At or before** or the **At or after** operators to obtain the desired results.</span></span>|  
 |<span data-ttu-id="00532-131">**在或之前**</span><span class="sxs-lookup"><span data-stu-id="00532-131">**On or before**</span></span>|<span data-ttu-id="00532-132">指定只有在指定日期當天或之前的交易才符合。</span><span class="sxs-lookup"><span data-stu-id="00532-132">Specifies that only transactions on or before the specified date are matched.</span></span> <span data-ttu-id="00532-133">相當於布林值的小於或等於 (≤ 運算。</span><span class="sxs-lookup"><span data-stu-id="00532-133">Equivalent to a Boolean less than or equals (≤) operation.</span></span>|  
 |<span data-ttu-id="00532-134">**在或之後**</span><span class="sxs-lookup"><span data-stu-id="00532-134">**On or after**</span></span>|<span data-ttu-id="00532-135">指定只有在指定日期當天或之後的交易才符合。</span><span class="sxs-lookup"><span data-stu-id="00532-135">Specifies that only transactions on or after the specified date are matched.</span></span> <span data-ttu-id="00532-136">相當於布林值的大於或等於 (≥ 運算。</span><span class="sxs-lookup"><span data-stu-id="00532-136">Equivalent to a Boolean greater than or equals (≥) operation.</span></span>|  
 |<span data-ttu-id="00532-137">**之前**</span><span class="sxs-lookup"><span data-stu-id="00532-137">**Before**</span></span>|<span data-ttu-id="00532-138">指定只有在指定日期之前的交易才符合。</span><span class="sxs-lookup"><span data-stu-id="00532-138">Specifies that only transactions before the specified date are matched.</span></span> <span data-ttu-id="00532-139">相當於布林值的小於 (<) 運算。</span><span class="sxs-lookup"><span data-stu-id="00532-139">Equivalent to a Boolean less than (<) operation.</span></span>|  

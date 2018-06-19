@@ -1,11 +1,11 @@
 ---
-title: "第 1 課： 將 XML 新增接收埠和位置 |Microsoft 文件"
-ms.custom: 
+title: 第 1 課： 將 XML 新增接收埠和位置 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive locations, creating
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - receive ports, creating
 - creating, receive ports
 ms.assetid: 252bc080-3820-44cc-8749-715869f3f684
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961260"
 ---
 # <a name="lesson-1-adding-xml-receive-port-and-location"></a><span data-ttu-id="f1774-102">第 1 課： 加入 XML 接收埠和位置</span><span class="sxs-lookup"><span data-stu-id="f1774-102">Lesson 1: Adding XML Receive Port and Location</span></span>
 <span data-ttu-id="f1774-103">接收埠是相似接收位置的邏輯群組。</span><span class="sxs-lookup"><span data-stu-id="f1774-103">A receive port is a logical grouping of similar receive locations.</span></span> <span data-ttu-id="f1774-104">接收位置內送訊息，並將用來處理訊息的管線會定義特定位址 （例如 URL 或檔案的位置）。</span><span class="sxs-lookup"><span data-stu-id="f1774-104">A receive location defines a specific address (such as a URL or file location) for an incoming message and the pipeline that is used to process the message.</span></span>  
@@ -39,7 +40,7 @@ ms.lasthandoff: 11/28/2017
   
 4.  <span data-ttu-id="f1774-110">在 [接收埠屬性] 對話方塊中**名稱**方塊中，輸入**MT103_XML_ReceivePort**。</span><span class="sxs-lookup"><span data-stu-id="f1774-110">In the Receive Port Properties dialog box, in the **Name** box, type **MT103_XML_ReceivePort**.</span></span>  
   
-5.  <span data-ttu-id="f1774-111">按一下**套用**來繫結連接埠，然後按一下**[確定]。**</span><span class="sxs-lookup"><span data-stu-id="f1774-111">Click **Apply** to bind the port, and then click **OK.**</span></span>  
+5.  <span data-ttu-id="f1774-111">按一下**套用**來繫結連接埠，然後按一下 **[確定]。**</span><span class="sxs-lookup"><span data-stu-id="f1774-111">Click **Apply** to bind the port, and then click **OK.**</span></span>  
   
 6.  <span data-ttu-id="f1774-112">以滑鼠右鍵按一下**接收位置**，指向 **新增**，然後按一下 **單向接收位置**。</span><span class="sxs-lookup"><span data-stu-id="f1774-112">Right-click **Receive Locations**, point to **New**, and then click **One-way Receive Location**.</span></span>  
   

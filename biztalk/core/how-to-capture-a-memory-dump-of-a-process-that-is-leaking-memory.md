@@ -1,14 +1,14 @@
 ---
-title: "如何擷取發生記憶體溢位的處理程序的記憶體傾印 |Microsoft 文件"
-ms.custom: 
+title: 如何擷取發生記憶體溢位的處理程序的記憶體傾印 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 67404919-33a6-40ac-b1c4-09841db12fcf
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969124"
 ---
 # <a name="how-to-capture-a-memory-dump-of-a-process-that-is-leaking-memory"></a><span data-ttu-id="43989-102">如何擷取已發生記憶體溢位之程序的記憶體傾印</span><span class="sxs-lookup"><span data-stu-id="43989-102">How to Capture a Memory Dump of a Process that is Leaking Memory</span></span>
 <span data-ttu-id="43989-103">當 BizTalk 程序 BTSNTSvc.exe 無法釋放不再需要的記憶體，因此導致一段時間後可用記憶體數量減少，就會定義為記憶體溢位。</span><span class="sxs-lookup"><span data-stu-id="43989-103">The BizTalk process BTSNTSvc.exe is defined as having a memory leak when it fails to release memory that it no longer needs, thereby reducing the amount of available memory over time.</span></span> <span data-ttu-id="43989-104">程序的記憶體使用量可以藉由檢視底下的值判斷**記憶體使用量**資料行**處理程序** 索引標籤位於**工作管理員**。</span><span class="sxs-lookup"><span data-stu-id="43989-104">The memory usage of the process can be determined by viewing the value under the **Mem Usage** column of the **Processes** tab available in **Task Manager**.</span></span> <span data-ttu-id="43989-105">如果程序在一段時間後持續使用記憶體，而未釋放記憶體，便會嚴重影響整體系統效能。</span><span class="sxs-lookup"><span data-stu-id="43989-105">If the process continues to consume memory over time without releasing memory then overall system performance will be adversely impacted.</span></span>  

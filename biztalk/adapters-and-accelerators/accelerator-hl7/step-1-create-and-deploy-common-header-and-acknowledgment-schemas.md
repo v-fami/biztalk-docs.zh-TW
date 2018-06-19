@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25960396"
 ---
 # <a name="step-1-create-and-deploy-common-header-and-acknowledgment-schemas"></a><span data-ttu-id="cf374-102">步驟 1： 建立及部署通用標頭和通知結構描述</span><span class="sxs-lookup"><span data-stu-id="cf374-102">Step 1: Create and Deploy Common Header and Acknowledgment Schemas</span></span>
 <span data-ttu-id="cf374-103">您可以使用標頭結構描述來驗證訊息執行個體的標頭 （MSH 區段）。</span><span class="sxs-lookup"><span data-stu-id="cf374-103">You use the header schema to validate the header (MSH segment) of the message instance.</span></span> <span data-ttu-id="cf374-104">您可以使用通知結構描述來產生訊息執行個體的通知。</span><span class="sxs-lookup"><span data-stu-id="cf374-104">You use the acknowledgment schema to generate the acknowledgment for the message instance.</span></span> <span data-ttu-id="cf374-105">此程序適用於所有 HL7 結構描述版本。</span><span class="sxs-lookup"><span data-stu-id="cf374-105">This process is common across all HL7 schema versions.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "如何設定密碼同步化 |Microsoft 文件"
-ms.custom: 
+title: 如何設定密碼同步化 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Password Synchronization [SSO], replay files
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Password Synchronization [SSO], configuring
 - configuring, Password Synchronization [SSO]
 ms.assetid: 04000dfc-02b9-4d50-babe-8bc8a07a33b7
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968908"
 ---
 # <a name="how-to-configure-password-synchronization"></a><span data-ttu-id="558d3-102">如何設定密碼同步化</span><span class="sxs-lookup"><span data-stu-id="558d3-102">How to Configure Password Synchronization</span></span>
 <span data-ttu-id="558d3-103">使用 SSOCONFIG 命令列公用程式可設定您的密碼同步設定。</span><span class="sxs-lookup"><span data-stu-id="558d3-103">Use the SSOCONFIG command line utility to configure your password synchronization settings.</span></span>  
@@ -49,7 +50,7 @@ ms.lasthandoff: 11/28/2017
   
 3.  <span data-ttu-id="558d3-115">在命令列，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="558d3-115">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="558d3-116">預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="558d3-116">The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-4.  <span data-ttu-id="558d3-117">型別**ssoconfig-syncage\<小時內的密碼最長有效期\>**按下 Enter。</span><span class="sxs-lookup"><span data-stu-id="558d3-117">Type **ssoconfig -syncage \<maximum password age in hours\>** and press Enter.</span></span>  
+4.  <span data-ttu-id="558d3-117">型別**ssoconfig-syncage\<小時內的密碼最長有效期\>** 按下 Enter。</span><span class="sxs-lookup"><span data-stu-id="558d3-117">Type **ssoconfig -syncage \<maximum password age in hours\>** and press Enter.</span></span>  
   
 > [!NOTE]
 >  <span data-ttu-id="558d3-118">SSOCONFIG 公用程式會使用 SQL Server 電腦上的時間做為系統時間。</span><span class="sxs-lookup"><span data-stu-id="558d3-118">The SSOCONFIG utility uses the time on the SQL Server computer as its system time.</span></span> <span data-ttu-id="558d3-119">使用任何與時間有關的命令時請謹記這點。</span><span class="sxs-lookup"><span data-stu-id="558d3-119">Remember this when using any commands related to time.</span></span>  

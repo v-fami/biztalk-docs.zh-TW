@@ -1,14 +1,14 @@
 ---
-title: "步驟 1： 設定 FileAct 即時案例 SWIFT 配接器 |Microsoft 文件"
-ms.custom: 
+title: 步驟 1： 設定 FileAct 即時案例 SWIFT 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: afc52c63-9f83-4e90-9269-e90834b792bf
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966077"
 ---
 # <a name="step-1-configure-the-swift-adapter-for-the-fileact-real-time-scenario"></a><span data-ttu-id="c3735-102">步驟 1： 設定 FileAct 即時案例 SWIFT 配接器</span><span class="sxs-lookup"><span data-stu-id="c3735-102">Step 1: Configure the SWIFT Adapter for the FileAct Real-Time Scenario</span></span>
 <span data-ttu-id="c3735-103">在開始此步驟之前，必須先完成[準備使用本教學課程](../../adapters-and-accelerators/fileact-interact/preparing-to-use-the-tutorial1.md)。</span><span class="sxs-lookup"><span data-stu-id="c3735-103">Before you begin this step, you must complete [Preparing to Use the Tutorial](../../adapters-and-accelerators/fileact-interact/preparing-to-use-the-tutorial1.md).</span></span>  
@@ -33,7 +34,7 @@ ms.lasthandoff: 11/28/2017
   
     |<span data-ttu-id="c3735-109">**使用此選項**</span><span class="sxs-lookup"><span data-stu-id="c3735-109">**Use this**</span></span>|<span data-ttu-id="c3735-110">**若要這樣做**</span><span class="sxs-lookup"><span data-stu-id="c3735-110">**To do this**</span></span>|  
     |------------------|--------------------|  
-    |<span data-ttu-id="c3735-111">**引數**</span><span class="sxs-lookup"><span data-stu-id="c3735-111">**Arguments**</span></span>|<span data-ttu-id="c3735-112">輸入下列引數:-SagMessagePartner \<Fileact 用戶端訊息的夥伴建立 SAG\> **附註：**引數中的用戶端是 MessagePartner SAG 中進行設定。</span><span class="sxs-lookup"><span data-stu-id="c3735-112">Type the following argument: -SagMessagePartner \<Fileact Client Message Partner created in SAG\> **Note:**  The client in the argument is the MessagePartner you configured in SAG.</span></span>|  
+    |<span data-ttu-id="c3735-111">**引數**</span><span class="sxs-lookup"><span data-stu-id="c3735-111">**Arguments**</span></span>|<span data-ttu-id="c3735-112">輸入下列引數:-SagMessagePartner \<Fileact 用戶端訊息的夥伴建立 SAG\> **附註：** 引數中的用戶端是 MessagePartner SAG 中進行設定。</span><span class="sxs-lookup"><span data-stu-id="c3735-112">Type the following argument: -SagMessagePartner \<Fileact Client Message Partner created in SAG\> **Note:**  The client in the argument is the MessagePartner you configured in SAG.</span></span>|  
     |<span data-ttu-id="c3735-113">**密碼編譯模式**</span><span class="sxs-lookup"><span data-stu-id="c3735-113">**Crypto Mode**</span></span>|<span data-ttu-id="c3735-114">從下拉式清單選取**進階**。</span><span class="sxs-lookup"><span data-stu-id="c3735-114">From the drop-down list, select **Advanced**.</span></span>|  
     |<span data-ttu-id="c3735-115">**FACryptoMode**</span><span class="sxs-lookup"><span data-stu-id="c3735-115">**FACryptoMode**</span></span>|<span data-ttu-id="c3735-116">從下拉式清單選取**進階**。</span><span class="sxs-lookup"><span data-stu-id="c3735-116">From the drop-down list, select **Advanced**.</span></span>|  
     |<span data-ttu-id="c3735-117">**記錄訊息**</span><span class="sxs-lookup"><span data-stu-id="c3735-117">**LogMessages**</span></span>|<span data-ttu-id="c3735-118">從下拉式清單選取**TRUE**。</span><span class="sxs-lookup"><span data-stu-id="c3735-118">From the drop-down list, select **TRUE**.</span></span> <span data-ttu-id="c3735-119">這可讓要擷取，並在 BAM 入口網站中追蹤的訊息事件。</span><span class="sxs-lookup"><span data-stu-id="c3735-119">This enables the message events to be captured and tracked in the BAM portal.</span></span>|  

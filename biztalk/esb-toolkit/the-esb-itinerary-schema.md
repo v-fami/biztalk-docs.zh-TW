@@ -1,14 +1,14 @@
 ---
-title: "ESB 路線結構描述 |Microsoft 文件"
-ms.custom: 
+title: ESB 路線結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 168e7b98-6282-494e-bde8-3171e0be7d59
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295222"
 ---
 # <a name="the-esb-itinerary-schema"></a><span data-ttu-id="2e248-102">ESB 路線結構描述</span><span class="sxs-lookup"><span data-stu-id="2e248-102">The ESB Itinerary Schema</span></span>
 <span data-ttu-id="2e248-103">名為 Itinerary.xsd ESB 行程結構描述會定義成一組處理指示，通常稱為路線服務的路線。</span><span class="sxs-lookup"><span data-stu-id="2e248-103">The ESB Itinerary schema named Itinerary.xsd defines an itinerary as a set of processing instructions, generally referred to as itinerary services.</span></span> <span data-ttu-id="2e248-104">路線的服務可能包含一或多個路線的服務和對應的解析程式連接字串，如下列的結構描述定義中所示。</span><span class="sxs-lookup"><span data-stu-id="2e248-104">An itinerary service may contain one or more itinerary services and the corresponding resolver connection strings, as shown in the following schema definition.</span></span>  

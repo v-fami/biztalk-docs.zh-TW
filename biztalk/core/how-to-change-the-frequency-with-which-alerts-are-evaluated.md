@@ -1,14 +1,14 @@
 ---
-title: "如何變更警示的頻率會評估 |Microsoft 文件"
-ms.custom: 
+title: 如何變更警示的頻率會評估 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 68f326ed-2017-4853-89b9-146cb0785554
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969068"
 ---
 # <a name="how-to-change-the-frequency-with-which-alerts-are-evaluated"></a><span data-ttu-id="9a21c-102">如何變更評估警示的頻率</span><span class="sxs-lookup"><span data-stu-id="9a21c-102">How to Change the Frequency With Which Alerts Are Evaluated</span></span>
 <span data-ttu-id="9a21c-103">以預設設定部署時，有時候 SQL Notification Services 產生器可能無法跟上 BAM 事件提供者引發事件的速度。</span><span class="sxs-lookup"><span data-stu-id="9a21c-103">There are cases in which the SQL Notifications services generator may not keep up with events being raised by the BAM event provider when deployed with the default settings.</span></span> <span data-ttu-id="9a21c-104">您可以修改 Notification Services 的 adf.xml 檔案，針對警示增加評估事件的頻率 (配量持續時間)。</span><span class="sxs-lookup"><span data-stu-id="9a21c-104">You can increase the frequency (the quantum duration) with which events are evaluated for alerts by modifying the Notification Services adf.xml file.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "配接器架構組態結構描述裝飾標記 |Microsoft 文件"
-ms.custom: 
+title: 配接器架構組態結構描述裝飾標記 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3d5d7f6b-2273-45a6-ba9d-43201760cf22
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965372"
 ---
 # <a name="adapter-framework-configuration-schema-decoration-tags"></a><span data-ttu-id="674ad-102">配接器架構組態結構描述裝飾標記</span><span class="sxs-lookup"><span data-stu-id="674ad-102">Adapter Framework Configuration Schema Decoration Tags</span></span>
 <span data-ttu-id="674ad-103">您可以使用在此主題中描述，組態結構描述檔案內的標記，來顯示和組織配接器屬性頁上的資料。</span><span class="sxs-lookup"><span data-stu-id="674ad-103">You can use the tags described in this topic within the configuration schema files to display and organize data on the adapter property pages.</span></span>  
@@ -47,7 +48,7 @@ ms.lasthandoff: 11/28/2017
 ## <a name="readonly"></a><span data-ttu-id="674ad-121">\<readonly\></span><span class="sxs-lookup"><span data-stu-id="674ad-121">\<readonly\></span></span>  
  <span data-ttu-id="674ad-122">\<Fixed =""\>裝飾可控制是否可編輯欄位。</span><span class="sxs-lookup"><span data-stu-id="674ad-122">The \<readonly fixed=""\> decoration controls whether a field may be edited.</span></span> <span data-ttu-id="674ad-123">`true` 的 "fixed" 屬性值 (預設值) 會使欄位變成唯讀。</span><span class="sxs-lookup"><span data-stu-id="674ad-123">A "fixed" attribute value of `true` (the default) makes a field read-only.</span></span>  
   
- <span data-ttu-id="674ad-124">當實作外部編輯器時，實作外部**TypeConverter**類別並覆寫**getstandardvaluesexclusive （itypedescriptorcontext)**方法改為。</span><span class="sxs-lookup"><span data-stu-id="674ad-124">When implementing an external editor, implement an external **TypeConverter** class and override the **GetStandardValuesExclusive(ITypeDescriptorContext)** method instead.</span></span> <span data-ttu-id="674ad-125">傳回 `true` 會使欄位變成唯讀，不過卻會保留對自訂編輯器的存取。</span><span class="sxs-lookup"><span data-stu-id="674ad-125">Returning `true` makes a field read-only but preserves access to the custom editor.</span></span>  
+ <span data-ttu-id="674ad-124">當實作外部編輯器時，實作外部**TypeConverter**類別並覆寫**getstandardvaluesexclusive （itypedescriptorcontext)** 方法改為。</span><span class="sxs-lookup"><span data-stu-id="674ad-124">When implementing an external editor, implement an external **TypeConverter** class and override the **GetStandardValuesExclusive(ITypeDescriptorContext)** method instead.</span></span> <span data-ttu-id="674ad-125">傳回 `true` 會使欄位變成唯讀，不過卻會保留對自訂編輯器的存取。</span><span class="sxs-lookup"><span data-stu-id="674ad-125">Returning `true` makes a field read-only but preserves access to the custom editor.</span></span>  
   
 ## <a name="browsable"></a><span data-ttu-id="674ad-126">\<可瀏覽\></span><span class="sxs-lookup"><span data-stu-id="674ad-126">\<browsable\></span></span>  
  <span data-ttu-id="674ad-127">\<可瀏覽顯示 =""\>裝飾可控制是否在屬性方格中顯示的欄位。</span><span class="sxs-lookup"><span data-stu-id="674ad-127">The \<browsable show=""\> decoration controls whether a field appears in the property grid.</span></span> <span data-ttu-id="674ad-128">`True` 的 "show" 屬性值 (預設值) 會使欄位出現在方格中。</span><span class="sxs-lookup"><span data-stu-id="674ad-128">A "show" attribute value of `True` (the default) makes a field appear in the grid.</span></span>  

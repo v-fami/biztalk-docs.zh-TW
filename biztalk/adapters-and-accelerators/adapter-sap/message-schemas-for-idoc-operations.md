@@ -9,7 +9,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 601aa9f9-e42f-47aa-b020-7a1eed4f0780
-caps.latest.revision: ''
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25967412"
 ---
 # <a name="message-schemas-for-idoc-operations"></a><span data-ttu-id="c27f6-103">IDOC 作業的訊息結構描述</span><span class="sxs-lookup"><span data-stu-id="c27f6-103">Message Schemas for IDOC Operations</span></span>
 <span data-ttu-id="c27f6-104">中繼文件 (IDOC) 是以非同步方式與 SAP 和非 SAP 系統通訊的 SAP 所支援的標準化的 EDI 類似文件。</span><span class="sxs-lookup"><span data-stu-id="c27f6-104">Intermediate documents (IDOCS) are standardized EDI-like documents supported by SAP for asynchronously communicating with both SAP and non-SAP systems.</span></span> <span data-ttu-id="c27f6-105">IDOC 用來傳送和接收商務文件，例如銷售訂單與交易夥伴的 SAP 系統或外部程式。</span><span class="sxs-lookup"><span data-stu-id="c27f6-105">IDOCS are used to send and receive business documents like sales orders to or from a trading partner’s SAP system or external program.</span></span>  

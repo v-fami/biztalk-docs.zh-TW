@@ -1,14 +1,14 @@
 ---
-title: "叫用資料表值函式中使用 BizTalk Server 的 SQL Server |Microsoft 文件"
-ms.custom: 
+title: 叫用資料表值函式中使用 BizTalk Server 的 SQL Server |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0d360c15-699e-4859-8143-798c1de821db
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965636"
 ---
 # <a name="invoke-table-valued-functions-in-sql-server-using-biztalk-server"></a><span data-ttu-id="14c4a-102">叫用使用 BizTalk Server 的 SQL Server 中的資料表值函式</span><span class="sxs-lookup"><span data-stu-id="14c4a-102">Invoke Table-Valued Functions in SQL Server using BizTalk Server</span></span>
 <span data-ttu-id="14c4a-103">您可以使用[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]與[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]叫用 SQL Server 中的資料表值函式。</span><span class="sxs-lookup"><span data-stu-id="14c4a-103">You can use the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] to invoke table-valued functions in SQL Server.</span></span> <span data-ttu-id="14c4a-104">配接器會公開的資料表值函式做為 SQL Server 直接叫用的作業。</span><span class="sxs-lookup"><span data-stu-id="14c4a-104">The adapter exposes the table-valued functions as operations that can be invoked directly on SQL Server.</span></span> <span data-ttu-id="14c4a-105">如需配接器如何支援資料表值函式的詳細資訊，請參閱[Executing Table-Valued 函式中使用 SQL 配接器的 SQL Server](../../adapters-and-accelerators/adapter-sql/execute-table-valued-functions-in-sql-server-using-the-sql-adapter.md)。</span><span class="sxs-lookup"><span data-stu-id="14c4a-105">For more information about how the adapter supports table-valued functions, see [Executing Table-Valued Functions in SQL Server using the SQL adapter](../../adapters-and-accelerators/adapter-sql/execute-table-valued-functions-in-sql-server-using-the-sql-adapter.md).</span></span> <span data-ttu-id="14c4a-106">叫用資料表值函式的 SOAP 訊息結構的相關資訊，請參閱[訊息結構描述的程序和函式](../../adapters-and-accelerators/adapter-sql/message-schemas-for-procedures-and-functions.md)。</span><span class="sxs-lookup"><span data-stu-id="14c4a-106">For information about the structure of the SOAP message for invoking table-valued functions, see [Message Schemas for Procedures and Functions](../../adapters-and-accelerators/adapter-sql/message-schemas-for-procedures-and-functions.md).</span></span>  
@@ -84,7 +85,7 @@ ms.lasthandoff: 11/28/2017
   
 |<span data-ttu-id="14c4a-167">形狀圖</span><span class="sxs-lookup"><span data-stu-id="14c4a-167">Shape</span></span>|<span data-ttu-id="14c4a-168">圖形類型</span><span class="sxs-lookup"><span data-stu-id="14c4a-168">Shape Type</span></span>|<span data-ttu-id="14c4a-169">屬性</span><span class="sxs-lookup"><span data-stu-id="14c4a-169">Properties</span></span>|  
 |-----------|----------------|----------------|  
-|<span data-ttu-id="14c4a-170">ReceiveMessage</span><span class="sxs-lookup"><span data-stu-id="14c4a-170">ReceiveMessage</span></span>|<span data-ttu-id="14c4a-171">Receive</span><span class="sxs-lookup"><span data-stu-id="14c4a-171">Receive</span></span>|<span data-ttu-id="14c4a-172">-設定**名稱**至*ReceiveMessage*</span><span class="sxs-lookup"><span data-stu-id="14c4a-172">-   Set **Name** to *ReceiveMessage*</span></span><br /><span data-ttu-id="14c4a-173">-設定**啟動**至*，則為 True*</span><span class="sxs-lookup"><span data-stu-id="14c4a-173">-   Set **Activate** to *True*</span></span>|  
+|<span data-ttu-id="14c4a-170">ReceiveMessage</span><span class="sxs-lookup"><span data-stu-id="14c4a-170">ReceiveMessage</span></span>|<span data-ttu-id="14c4a-171">Receive</span><span class="sxs-lookup"><span data-stu-id="14c4a-171">Receive</span></span>|<span data-ttu-id="14c4a-172">-設定**名稱**至*ReceiveMessage*</span><span class="sxs-lookup"><span data-stu-id="14c4a-172">-   Set **Name** to *ReceiveMessage*</span></span><br /><span data-ttu-id="14c4a-173">-設定**啟動**至 *，則為 True*</span><span class="sxs-lookup"><span data-stu-id="14c4a-173">-   Set **Activate** to *True*</span></span>|  
 |<span data-ttu-id="14c4a-174">SendMessage</span><span class="sxs-lookup"><span data-stu-id="14c4a-174">SendMessage</span></span>|<span data-ttu-id="14c4a-175">Send</span><span class="sxs-lookup"><span data-stu-id="14c4a-175">Send</span></span>|<span data-ttu-id="14c4a-176">-設定**名稱**至*SendMessage*</span><span class="sxs-lookup"><span data-stu-id="14c4a-176">-   Set **Name** to *SendMessage*</span></span>|  
 |<span data-ttu-id="14c4a-177">ReceiveResponse</span><span class="sxs-lookup"><span data-stu-id="14c4a-177">ReceiveResponse</span></span>|<span data-ttu-id="14c4a-178">Receive</span><span class="sxs-lookup"><span data-stu-id="14c4a-178">Receive</span></span>|<span data-ttu-id="14c4a-179">-設定**名稱**至*ReceiveResponse*</span><span class="sxs-lookup"><span data-stu-id="14c4a-179">-   Set **Name** to *ReceiveResponse*</span></span><br /><span data-ttu-id="14c4a-180">-設定**啟動**至*False*</span><span class="sxs-lookup"><span data-stu-id="14c4a-180">-   Set **Activate** to *False*</span></span>|  
 |<span data-ttu-id="14c4a-181">SendResponse</span><span class="sxs-lookup"><span data-stu-id="14c4a-181">SendResponse</span></span>|<span data-ttu-id="14c4a-182">Send</span><span class="sxs-lookup"><span data-stu-id="14c4a-182">Send</span></span>|<span data-ttu-id="14c4a-183">-設定**名稱**至*SendResponse*</span><span class="sxs-lookup"><span data-stu-id="14c4a-183">-   Set **Name** to *SendResponse*</span></span>|  

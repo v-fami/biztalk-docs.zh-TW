@@ -1,14 +1,14 @@
 ---
-title: "在 Visual Studio 中使用連接至 SAP 使用配接器服務增益集 |Microsoft 文件"
-ms.custom: 
+title: 在 Visual Studio 中使用連接至 SAP 使用配接器服務增益集 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b4f7d57a-fd88-4420-b893-49f42b449597
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965036"
 ---
 # <a name="connecting-to-sap-in-visual-studio-using-consume-adapter-service-add-in"></a><span data-ttu-id="5e5f8-102">在 Visual Studio 中使用連接至 SAP 使用配接器服務增益集</span><span class="sxs-lookup"><span data-stu-id="5e5f8-102">Connecting to SAP in Visual Studio Using Consume Adapter Service Add-in</span></span>
 <span data-ttu-id="5e5f8-103">[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]安裝 WCF LOB 配接器 SDK 時安裝。</span><span class="sxs-lookup"><span data-stu-id="5e5f8-103">The [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] is installed when you install WCF LOB Adapter SDK.</span></span> <span data-ttu-id="5e5f8-104">[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]載入電腦上安裝的所有 WCF 自訂繫結。</span><span class="sxs-lookup"><span data-stu-id="5e5f8-104">The [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] loads all the WCF-Custom bindings installed on the computer.</span></span> <span data-ttu-id="5e5f8-105">若要連接到 SAP 系統使用 WCF 型[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]在 BizTalk 專案中，您必須使用**sapbinding**。</span><span class="sxs-lookup"><span data-stu-id="5e5f8-105">To connect to SAP system using the WCF-based [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] in a BizTalk project, you must use the **sapbinding**.</span></span>  

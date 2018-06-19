@@ -1,15 +1,15 @@
 ---
-title: "SQL 配接器在 BizTalk Adapter Pack 中的中繼資料節點識別碼 |Microsoft 文件"
-description: "中繼資料、 搜尋、 擷取節點類型及用於公開 SQL Server 配接器-BizTalk 配接器組件 (BAP) 中的 SQL 元件的識別碼"
-ms.custom: 
+title: SQL 配接器在 BizTalk Adapter Pack 中的中繼資料節點識別碼 |Microsoft 文件
+description: 中繼資料、 搜尋、 擷取節點類型及用於公開 SQL Server 配接器-BizTalk 配接器組件 (BAP) 中的 SQL 元件的識別碼
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8601a328-5380-4577-a121-c926e0fd3140
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967988"
 ---
 # <a name="node-types-and-ids-for-the-sql-server-adapter"></a><span data-ttu-id="03da6-103">節點型別與 SQL Server 配接器的識別碼</span><span class="sxs-lookup"><span data-stu-id="03da6-103">Node types and IDs for the SQL Server adapter</span></span>
 
