@@ -1,14 +1,14 @@
 ---
-title: "配接器組態的自訂強制回應對話方塊編輯器 |Microsoft 文件"
-ms.custom: 
+title: 配接器組態的自訂強制回應對話方塊編輯器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 213d5d47-80c1-4b2d-8194-1426982be137
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239230"
 ---
 # <a name="custom-modal-dialog-editor-for-adapter-configuration"></a>配接器組態的自訂強制回應對話方塊編輯器
 自訂編輯器的程式碼會示範衍生自編輯器**System.Drawing.Design.UITypeEditor**類別，可顯示強制回應的快顯對話方塊方塊中，供您輸入密碼。 **GetEditStyle**方法覆寫會傳回**UIEditorEditStyle.Modal**表示強制回應表單子控制項。 此服務方法**ShowDialog**管理與建立控制項**CreatePassword**。 **ShowDialog**傳回**DialogResult**負責以一般方式 （例如，switch 陳述式） 與**DialogResult.OK**值只變更。  

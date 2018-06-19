@@ -1,14 +1,14 @@
 ---
-title: "逐步解說 (EDIFACT): 接收 EDI 交換並傳回通知 |Microsoft 文件"
-ms.custom: 
+title: '逐步解說 (EDIFACT): 接收 EDI 交換並傳回通知 |Microsoft 文件'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 02751f0c-8e7e-4879-93e4-8bc475640756
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22291934"
 ---
 # <a name="walkthrough-edifact-receiving-edi-interchanges-and-sending-back-an-acknowledgement"></a>逐步解說 (EDIFACT)：接收 EDI 交換並傳回通知
 本逐步解說提供一組逐步執行的程序，來使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 建立可接收 EDIFACT 交換的解決方案。 在這個解決方案中，EDIFACT 交換會從一個交易夥伴 (Fabrikam) 傳送至另一個交易夥伴 (Contoso)。  
@@ -221,7 +222,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  以滑鼠右鍵按一下合作對象名稱，指向**新增**，然後按一下 **商務設定檔**。  
   
-4.  在**設定檔屬性**對話方塊**一般**頁面上，輸入**[fabrikam_profile]**中**名稱**文字方塊。  
+4.  在**設定檔屬性**對話方塊**一般**頁面上，輸入 **[fabrikam_profile]** 中**名稱**文字方塊。  
   
     > [!NOTE]
     >  當您建立合作對象時，會同時建立設定檔。 您可以重新命名再使用該設定檔，而不需建立新設定檔。 若要重新命名設定檔，以滑鼠右鍵按一下 設定檔，然後選取**屬性**。 在**一般**頁面上，指定設定檔的名稱。  
@@ -237,7 +238,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  以滑鼠右鍵按一下合作對象名稱，指向**新增**，然後按一下 **商務設定檔**。  
   
-4.  在**設定檔屬性**對話方塊**一般**頁面上，輸入**[contoso_profile]**中**名稱**文字方塊。  
+4.  在**設定檔屬性**對話方塊**一般**頁面上，輸入 **[contoso_profile]** 中**名稱**文字方塊。  
   
     > [!NOTE]
     >  當您建立合作對象時，會同時建立設定檔。 您可以重新命名再使用該設定檔，而不需建立新設定檔。 若要重新命名設定檔，以滑鼠右鍵按一下 設定檔，然後選取**屬性**。 在**一般**頁面上，指定設定檔的名稱。  
@@ -268,14 +269,14 @@ ms.lasthandoff: 09/20/2017
         > [!NOTE]
         >  如果您使用做為測試訊息本主題稍早提供的範例訊息，設定**UNB2.1**至**7654321**， **UNB2.2**至**ZZZ – 使用者相互定義**， **UNB3.1**至**1234567**，和**UNB3.2**至**ZZZ – 使用者相互定義**。  
   
-    2.  在**通知**頁面**交換設定**區段中，按一下**訊息回條 (CONTRL 必須是)**和**通知 (CONTRL) 必須是**。  
+    2.  在**通知**頁面**交換設定**區段中，按一下**訊息回條 (CONTRL 必須是)** 和**通知 (CONTRL) 必須是**。  
   
-    3.  在**信封**頁面**交換設定**區段中，按一下**套用 UNA 區段 （字串服務建議）**和**套用 UNG 區段 （功能群組標頭）**。  
+    3.  在**信封**頁面**交換設定**區段中，按一下**套用 UNA 區段 （字串服務建議）** 和**套用 UNG 區段 （功能群組標頭）**。  
   
-    4.  在**驗證**頁面**交換設定**區段中，請確定**交換控制編號 (UNB5)**未選項。  
+    4.  在**驗證**頁面**交換設定**區段中，請確定**交換控制編號 (UNB5)** 未選項。  
   
         > [!NOTE]
-        >  清除**交換控制編號 (UNB5)**屬性可讓您接收相同訊息的多個執行個體。  
+        >  清除**交換控制編號 (UNB5)** 屬性可讓您接收相同訊息的多個執行個體。  
   
     5.  在**字元集和分隔符號**頁面**交換設定**區段中，選取**CR LF**選項**UNA6 尾碼**。  
   

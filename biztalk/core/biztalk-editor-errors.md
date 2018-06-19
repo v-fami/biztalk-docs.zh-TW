@@ -1,11 +1,11 @@
 ---
-title: "BizTalk 編輯器錯誤 |Microsoft 文件"
-ms.custom: 
+title: BizTalk 編輯器錯誤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BizTalk Editor, error messages
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - troubleshooting, error messages [BizTalk Editor]
 - error messages, BizTalk Editor
 ms.assetid: d044af11-708a-4365-a105-dd19a2c610a4
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232846"
 ---
 # <a name="biztalk-editor-errors"></a>BizTalk 編輯器錯誤
 此章節提供與 BizTalk 編輯器關聯之編譯訊息的增補資訊。 在 Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 的 [工作清單] 視窗選取相關訊息時，可使用 F1 鍵來存取此資訊。 概念和程序資訊關於 BizTalk 編輯器，請參閱[建立結構描述使用 BizTalk 編輯器](../core/creating-schemas-using-biztalk-editor.md)。  

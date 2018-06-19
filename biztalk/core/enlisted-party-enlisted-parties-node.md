@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239950"
 ---
 # <a name="enlisted-party-enlisted-parties-node"></a>已登錄的合作對象 (已登錄的合作對象節點)
 繫結檔案的 [已登錄的合作對象] 節點包含與隨著繫結檔案匯出之角色關聯的已登錄之合作對象的特定資訊。  

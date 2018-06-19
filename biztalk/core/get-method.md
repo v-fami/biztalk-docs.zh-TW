@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246518"
 ---
 # <a name="get-method"></a>Get 方法
 用來擷取屬性，根據輸入金鑰參數 (key1、 key2、... ...keyn)。 輸出參數是一個結構，裡面包含符合索引鍵參數之記錄的屬性。 如果元件介面只有一個執行個體 （也就是沒有任何索引鍵），Get 函式不包含任何索引鍵參數。 另請參閱[Find 方法](../core/find-method.md)。  

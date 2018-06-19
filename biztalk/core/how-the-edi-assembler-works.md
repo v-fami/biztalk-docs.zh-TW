@@ -1,14 +1,14 @@
 ---
-title: "EDI 組合器如何運作 |Microsoft 文件"
-ms.custom: 
+title: EDI 組合器如何運作 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c3785870-08ab-4fc2-8f7e-7c5a37639a7a
-caps.latest.revision: "33"
+caps.latest.revision: 33
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "22250486"
 ---
 # <a name="how-the-edi-assembler-works"></a>EDI 組合器如何運作
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會在 EDI 傳送管線 (`Microsoft.BizTalk.DefaultPipelines.EDISendPipeline`) 中執行對待傳送 EDI 編碼交換的大部分處理。 這個管線包含可執行下列處理的 EDI 組合器管線元件：  
@@ -98,7 +99,7 @@ ms.lasthandoff: 01/17/2018
 |群組控制編號|GS6|UNG5|  
 |交易集控制編號 (X12)<br /><br /> 交易集參考編號 (EDIFACT)|ST2|UNH1|  
   
- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]將根據您在輸入的值的範圍上傳送的下一個交換的交換控制編號**交換控制編號 (ISA13)**屬性**本機主機設定**頁面 （在下**交換設定**) 的單向協議索引標籤中**協議屬性** 對話方塊。 它會將每個後續交換的此編號遞增，直到達到最大值為止。  
+ [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]將根據您在輸入的值的範圍上傳送的下一個交換的交換控制編號**交換控制編號 (ISA13)** 屬性**本機主機設定**頁面 （在下**交換設定**) 的單向協議索引標籤中**協議屬性** 對話方塊。 它會將每個後續交換的此編號遞增，直到達到最大值為止。  
   
  如果使用 EdiOverride 內容屬性指定交換控制編號，指定的值將會用於此交換，且不會影響到協議中所指定的交換控制編號。  
   

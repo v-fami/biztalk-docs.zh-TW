@@ -1,14 +1,14 @@
 ---
-title: "如何備份和還原 SQL 代理程式作業 |Microsoft 文件"
-ms.custom: 
+title: 如何備份和還原 SQL 代理程式作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f82fc5a5-5ea5-476c-bed1-c5d41a50e673
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247198"
 ---
 # <a name="how-to-back-up-and-restore-sql-agent-jobs"></a>如何備份和還原 SQL 代理程式作業
 本主題描述如何備份和還原 SQL Server Agent 作業。 您在設定之後，您應該先備份您的 SQL 作業。  
@@ -62,11 +63,11 @@ ms.lasthandoff: 09/20/2017
   
 3.  以滑鼠右鍵按一下您想要建立的備份指令碼，然後再選取的作業**與指令碼工作**。  
   
-4.  選取**CREATE 至**或**DROP To**，然後選取**新增查詢編輯器視窗**，**檔案**，或**剪貼簿**若要選取指令碼的目的地。 通常，目的地是檔案之**.sql**延伸模組。  
+4.  選取**CREATE 至**或**DROP To**，然後選取**新增查詢編輯器視窗**，**檔案**，或**剪貼簿**若要選取指令碼的目的地。 通常，目的地是檔案之 **.sql**延伸模組。  
   
 5.  重複此程序，從步驟 3 的每個您要編寫指令碼的工作。 清單，請參閱 BizTalk Server 的相關工作，以判斷其作業您需要指令碼。  
   
-     最少，您應該先備份**備份 BizTalk Server (BizTalkMgmtDb)**作業之後設定。  
+     最少，您應該先備份**備份 BizTalk Server (BizTalkMgmtDb)** 作業之後設定。  
   
 ## <a name="restore-a-job-from-a-script"></a>還原作業，從指令碼  
   

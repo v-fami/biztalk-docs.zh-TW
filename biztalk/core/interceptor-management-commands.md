@@ -1,14 +1,14 @@
 ---
-title: "攔截器管理命令 |Microsoft 文件"
-ms.custom: 
+title: 攔截器管理命令 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a2be6460-1f81-4bc3-a831-34ff24d65d34
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974388"
 ---
 # <a name="interceptor-management-commands"></a>攔截器管理命令
 為了支援新的 BAM 攔截器功能，BAM 管理公用程式中已加入四個新的命令。  
@@ -32,7 +33,7 @@ ms.lasthandoff: 11/28/2017
 -   移除攔截器： 移除攔截器組態。  
   
 > [!NOTE]
->  您可以藉由啟用任何 BM 公用程式命令的追蹤**-追蹤： 在 &#124; 關閉**切換參數。 使用追蹤參數會覆寫組態檔中的追蹤設定。 此參數可以搭配任何一般 BM 命令使用。  
+>  您可以藉由啟用任何 BM 公用程式命令的追蹤 **-追蹤： 在 &#124; 關閉**切換參數。 使用追蹤參數會覆寫組態檔中的追蹤設定。 此參數可以搭配任何一般 BM 命令使用。  
   
 > [!NOTE]
 >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
@@ -57,10 +58,10 @@ ms.lasthandoff: 11/28/2017
   
 -   此活動存在 (在主要匯入資料庫中部署) 且檢查點有效 (存在而且有相符的資料類型) 的驗證。  
   
- 如果在事件來源名稱中偵測到衝突，會擲回一則警告來描述此衝突。 如果發生衝突，部署將會失敗除非**– Force: True**參數旗標。  
+ 如果在事件來源名稱中偵測到衝突，會擲回一則警告來描述此衝突。 如果發生衝突，部署將會失敗除非 **– Force: True**參數旗標。  
   
 > [!NOTE]
->  **– Force: True**參數可能會移除參考具有相同名稱的事件來源的攔截器組態。 您應該使用**get 攔截器**命令建立現有攔截器組態的備份之前使用**– Force: True**參數。  
+>  **– Force: True**參數可能會移除參考具有相同名稱的事件來源的攔截器組態。 您應該使用**get 攔截器**命令建立現有攔截器組態的備份之前使用 **– Force: True**參數。  
   
  **範例**  
   

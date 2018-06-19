@@ -1,14 +1,14 @@
 ---
-title: "EDI 交換和相互關聯的 ACK 狀態報表 |Microsoft 文件"
-ms.custom: 
+title: EDI 交換和相互關聯的 ACK 狀態報表 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a112cc3d-d34c-4652-a8ee-3355a31d4a03
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22242366"
 ---
 # <a name="edi-interchange-and-correlated-ack-status-report"></a>EDI 交換和相互關聯的 ACK 狀態報告
 此報告會顯示 EDI 傳送和接收管線處理的所有 EDI 交換，以及與這些交換相互關聯的通知。  

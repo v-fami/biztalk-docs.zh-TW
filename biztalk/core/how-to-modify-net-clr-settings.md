@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254294"
 ---
 # <a name="how-to-modify-net-clr-settings"></a>如何修改.NET CLR 設定
 若要更新 Windows 與 BizTalk 主控件執行個體相關聯的.NET 執行緒集區中可用的執行緒數目，您可以修改適當的 Common Runtime Language (CLR) Hosting 值使用 BizTalk 設定儀表板。 本主題提供修改這些設定的逐步程序。  

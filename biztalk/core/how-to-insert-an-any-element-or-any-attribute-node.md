@@ -1,14 +1,14 @@
 ---
-title: "如何插入 Any 項目或 Any 屬性 節點 |Microsoft 文件"
-ms.custom: 
+title: 如何插入 Any 項目或 Any 屬性 節點 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4cbfdc04-6c83-4639-82de-169b6f009a2e
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22253958"
 ---
 # <a name="how-to-insert-an-any-element-or-any-attribute-node"></a>如何插入 Any 項目或 Any 屬性 節點
 BizTalk 編輯器支援兩種 any 節點： **Any 項目**和**Any 屬性**。 這些節點可讓您建立您的結構描述對應至您不知道什麼項目或屬性會出現在對應執行個體訊息中位置的位置。 如需有關處理執行個體訊息時如何解譯這些節點的詳細資訊，請直接參考網站上 XML 結構描述定義 (XSD) 語言的相關資訊。 如需這項資訊的連結，請參閱[在網站上的 XSD 資源](../core/xsd-resources-on-the-web.md)。  

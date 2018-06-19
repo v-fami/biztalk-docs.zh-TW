@@ -1,11 +1,11 @@
 ---
-title: "設定 SSO |Microsoft 文件"
-ms.custom: 
+title: 設定 SSO |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SSO, command line utilities
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - SSO, tools
 - SSOManage [SSO]
 ms.assetid: 6f755735-9b48-4771-beec-ced844f3d532
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233038"
 ---
 # <a name="configuring-sso"></a>設定 SSO
 您可以使用命令列公用程式、UI 工具、COM 或 Microsoft .NET 介面，以設定「企業單一登入」。  

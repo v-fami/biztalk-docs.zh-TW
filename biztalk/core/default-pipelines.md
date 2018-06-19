@@ -1,11 +1,11 @@
 ---
-title: "預設管線 |Microsoft 文件"
-ms.custom: 
+title: 預設管線 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipelines, PassThruTransmit
@@ -20,7 +20,7 @@ helpviewer_keywords:
 - Microsoft.BizTalk.DefaultPipelines assembly
 - pipelines, default
 ms.assetid: 7d82bb2c-c7f1-44a1-9e1b-89b0bb806845
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -29,6 +29,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239302"
 ---
 # <a name="default-pipelines"></a>預設管線
 當您建立新的應用程式時，依照預設會建立和部署預設管線，並顯示在每個 BizTalk 專案的 \References 資料夾的 Microsoft.BizTalk.DefaultPipelines 組件中。 在「管線設計師」中不能修改預設管線。 在 [BizTalk 總管] 中設定傳送埠或接收位置時會選取這些管線。 本主題描述預設管線及其使用時機。  

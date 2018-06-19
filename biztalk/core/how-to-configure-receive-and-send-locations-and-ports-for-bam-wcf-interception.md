@@ -1,14 +1,14 @@
 ---
-title: "如何設定接收和傳送位置以及連接埠的 BAM WCF 攔截 |Microsoft 文件"
-ms.custom: 
+title: 如何設定接收和傳送位置以及連接埠的 BAM WCF 攔截 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 501194dc-427a-4910-88c9-19cf47daeaad
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248438"
 ---
 # <a name="how-to-configure-receive-and-send-locations-and-ports-for-bam-wcf-interception"></a>如何設定 BAM WCF 攔截的接收和傳送位置及連接埠
 在這個程序中，您將在根據訊息內容決定路由 (CBR) 的情況下設定接收和傳送位置，以最直接的方式說明重要概念。 此處說明的概念適用於做為 [!INCLUDE[firstref_btsWinCommFoundation](../includes/firstref-btswincommfoundation-md.md)] 服務公開的協調流程。  
@@ -40,7 +41,7 @@ ms.lasthandoff: 09/20/2017
   
 5.  按一下**繫結**索引標籤上，選取您想要使用的繫結。  
   
-6.  按一下**行為**索引標籤上，以滑鼠右鍵按一下**[endpointbehavior]**節點，然後再選取**加入擴充**。  
+6.  按一下**行為**索引標籤上，以滑鼠右鍵按一下 **[endpointbehavior]** 節點，然後再選取**加入擴充**。  
   
 7.  選取 （這是您加入至 machine.config 檔案的副檔名） [bamendpointextension]，然後再按一下**確定**。  
   

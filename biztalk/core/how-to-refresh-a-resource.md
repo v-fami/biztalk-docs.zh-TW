@@ -1,18 +1,18 @@
 ---
-title: "如何重新整理資源 |Microsoft 文件"
-ms.custom: 
+title: 如何重新整理資源 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [resources], refreshing
 - refreshing resources
 - resources, refreshing
 ms.assetid: d6ff7c9d-8aaf-42a4-b1a3-00c05f6ac869
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254542"
 ---
 # <a name="how-to-refresh-a-resource"></a>如何重新整理資源
 本主題描述如何使用 BizTalk Server 管理主控台來重新整理資源成品。 此作業會更新 BizTalk 管理資料庫中的成品資訊。 若要這樣做的另一個方法是將成品新增至應用程式使用 BTSTask [AddResource 命令](../core/addresource-command.md)與覆寫選項。  

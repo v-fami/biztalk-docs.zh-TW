@@ -14,7 +14,7 @@ helpviewer_keywords:
 - service instances, searching
 - instances, services
 ms.assetid: 48cb885c-aaf1-44e8-9810-2e70cf63db81
-caps.latest.revision: ''
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22255118"
 ---
 # <a name="how-to-search-for-all-service-instances"></a>如何搜尋所有服務執行個體
 您可以使用 **查詢** 在 BizTalk Server 管理主控台，來搜尋所有服務執行個體 索引標籤。 若有任何執行中或擱置的執行個體，就無法取消登錄特定服務類型。 例如，取消登錄特定服務類型之前，可以搜尋所有的服務執行個體，以確保沒有執行中或擱置的執行個體。  

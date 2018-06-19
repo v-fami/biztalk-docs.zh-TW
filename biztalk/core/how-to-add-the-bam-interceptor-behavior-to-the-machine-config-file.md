@@ -1,14 +1,14 @@
 ---
-title: "如何新增 BAM 攔截器行為至 Machine.config 檔 |Microsoft 文件"
-ms.custom: 
+title: 如何新增 BAM 攔截器行為至 Machine.config 檔 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2ea09925-264f-4976-8e34-f63bad70f886
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248822"
 ---
 # <a name="how-to-add-the-bam-interceptor-behavior-to-the-machineconfig-file"></a>如何新增 BAM 攔截器行為至 Machine.config 檔
 若要在 BAM 中攔截資料，您必須將 BAM 攔截器行為新增至 Microsoft .NET machine.config 檔。 執行這項作業的方法有兩種：  

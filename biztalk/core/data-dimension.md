@@ -1,17 +1,17 @@
 ---
-title: "資料維度 |Microsoft 文件"
-ms.custom: 
+title: 資料維度 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Data dimension [BAM]
 - aggregations [BAM], data dimensions
 ms.assetid: 07b5e56a-4fd5-4c88-a98a-758e514d0621
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238350"
 ---
 # <a name="data-dimension"></a>資料維度
 定義資料維度以允許將 BAM 活動中部分文字項目的值使用在資料列或資料行上。 例如，名為「產品」的資料維度可以用來建立下列資料表：  
@@ -29,7 +30,7 @@ ms.lasthandoff: 09/20/2017
 |網球拍|100|  
 |足球|200|  
   
- 此外，您也可以在 BAM 檢視精靈中定義一個以上的資料維度。 例如，定義名為的資料維度**位置**的層級**狀態**和**縣 （市)**可用來建立下列資料表：  
+ 此外，您也可以在 BAM 檢視精靈中定義一個以上的資料維度。 例如，定義名為的資料維度**位置**的層級**狀態**和**縣 （市)** 可用來建立下列資料表：  
   
 |||||  
 |-|-|-|-|  

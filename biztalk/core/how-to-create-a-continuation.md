@@ -1,11 +1,11 @@
 ---
-title: "如何建立接續 |Microsoft 文件"
-ms.custom: 
+title: 如何建立接續 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - activities, relating events
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - tracking profiles, continuations
 - tracking profiles, connecting activities
 ms.assetid: 31d6fc24-676e-418c-8e78-1a46b045905d
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248846"
 ---
 # <a name="how-to-create-a-continuation"></a>如何建立接續
 您可以建立接續，以指出在一或多個協調流程中，哪些商務事件是經由建構連接的活動而相互關聯。  
@@ -45,7 +46,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  開啟現有的追蹤設定檔或建立追蹤設定檔。 如需建立追蹤設定檔的資訊，請參閱[如何建立追蹤設定檔](../core/how-to-create-a-tracking-profile.md)。  
   
-2.  識別*接續 token、*這是一段唯一資訊提供給這兩個活動。 例如，如果**CreditHistory**活動所發出的訊息啟動**LoanProcess**活動內**EquityLoan**協調流程、 的 SSN 欄位訊息可用來當作接續 token，所以這兩個活動通用的。  
+2.  識別*接續 token、* 這是一段唯一資訊提供給這兩個活動。 例如，如果**CreditHistory**活動所發出的訊息啟動**LoanProcess**活動內**EquityLoan**協調流程、 的 SSN 欄位訊息可用來當作接續 token，所以這兩個活動通用的。  
   
 3.  以滑鼠右鍵按一下活動，然後選取**新的接續**來建立接續 (CreditHistory)。 請為新建立的接續節點命名。  
   

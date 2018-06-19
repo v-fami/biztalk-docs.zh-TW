@@ -1,14 +1,14 @@
 ---
-title: "設定靜態傳送埠以傳送 EDI 交換和通知 |Microsoft 文件"
-ms.custom: 
+title: 設定靜態傳送埠以傳送 EDI 交換和通知 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5b432c5e-ea0c-4174-bb4a-958b061c1827
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234454"
 ---
 # <a name="configuring-a-static-send-port-to-send-edi-interchanges-and-acknowledgments"></a>設定靜態傳送埠以傳送 EDI 交換和通知
 若要傳送 EDI 通知或交換，您可以使用靜態單向傳送埠或靜態請求-回應 (雙向) 傳送埠。  

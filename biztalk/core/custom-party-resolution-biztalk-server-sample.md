@@ -1,11 +1,11 @@
 ---
-title: "自訂合作對象解析 （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: 自訂合作對象解析 （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, parties
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - parties, pipeline components [custom]
 - parties, custom
 ms.assetid: 1f88450f-5fe9-486d-bfb8-fd11181c78b4
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238694"
 ---
 # <a name="custom-party-resolution-biztalk-server-sample"></a>自訂合作對象解析 （BizTalk Server 範例）
 此「自訂合作對象解析」範例示範如何解析自訂合作對象。  
@@ -38,7 +39,7 @@ ms.lasthandoff: 09/20/2017
 3.  將 XML 訊息寫入資料夾中。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- *\<範例路徑 >*\Pipelines\CustomPartyResolution\  
+ *\<範例路徑 >* \Pipelines\CustomPartyResolution\  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -66,7 +67,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  在命令視窗中，將目錄變更 (**cd**) 至下列資料夾：  
   
-     *\<範例路徑 >*\Pipelines\CustomPartyResolution\  
+     *\<範例路徑 >* \Pipelines\CustomPartyResolution\  
   
 2.  執行 Setup.bat 檔案，這會執行下列動作：  
   
@@ -76,7 +77,7 @@ ms.lasthandoff: 09/20/2017
   
     -   建置及部署「自訂合作對象解析」管線元件。  
   
-    -   若要建置的管線元件會將複製*\<安裝路徑 >*\Pipeline Components 目錄。  
+    -   若要建置的管線元件會將複製*\<安裝路徑 >* \Pipeline Components 目錄。  
   
     -   建立傳送埠和接收埠。  
   

@@ -1,14 +1,14 @@
 ---
-title: "其他活動可能會影響凍結行為 |Microsoft 文件"
-ms.custom: 
+title: 其他活動可能會影響凍結行為 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ed940448-d3b1-4308-9b38-887904e03bd0
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264038"
 ---
 # <a name="other-activities-that-can-affect-dehydration-behavior"></a>可能影響凍結行為的其他活動
 下列活動會直接或間接影響凍結及整體效能，所以應該列入任何測試案例的考量項目。  

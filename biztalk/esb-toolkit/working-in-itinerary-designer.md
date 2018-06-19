@@ -1,14 +1,14 @@
 ---
-title: "在路線設計工具中工作 |Microsoft 文件"
-ms.custom: 
+title: 在路線設計工具中工作 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 06742cb8-f6d6-46e2-adc0-6be9a3d6a447
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976780"
 ---
 # <a name="working-in-itinerary-designer"></a>在路線設計工具中工作
 建立 Microsoft Visual C# 專案之後，您可以建立新的路線模型並加入專案中現有的行程。 下列步驟說明如何建立新的行程、 加入現有的路線模型，或變更行程的名稱。  

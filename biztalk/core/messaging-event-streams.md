@@ -1,14 +1,14 @@
 ---
-title: "訊息事件資料流 |Microsoft 文件"
-ms.custom: 
+title: 訊息事件資料流 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2dc56aff-c093-4c79-9cc7-f72079ee927f
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262782"
 ---
 # <a name="messaging-event-streams"></a>訊息事件資料流
 當您的應用程式在安裝 BizTalk Server 的電腦上執行，而且您在追蹤做為 BizTalk 管線交易之部分的項目時，您就會使用訊息事件資料流 (Messaging Event Streams，MES)。 使用 EMS 可以確保您的 BAM 事件持續性會與 BizTalk 管線交易維持同步。  

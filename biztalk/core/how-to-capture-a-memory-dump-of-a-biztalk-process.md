@@ -1,14 +1,14 @@
 ---
-title: "如何擷取 BizTalk 程序的記憶體傾印 |Microsoft 文件"
-ms.custom: 
+title: 如何擷取 BizTalk 程序的記憶體傾印 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8053fcf3-b331-4245-b3c3-21290463e0c0
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247574"
 ---
 # <a name="how-to-capture-a-memory-dump-of-a-biztalk-process"></a>如何擷取 BizTalk 程序的記憶體傾印
 在特定情況下，您必須擷取執行於 BizTalk Server 之程序的記憶體傾印，以便深入分析程序。 下列情況可能必須分析記憶體傾印：  
@@ -34,7 +35,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  下載 IIS Diagnostics Toolkit 從[Internet Information Services 診斷工具](http://go.microsoft.com/fwlink/?LinkId=64426)。  
   
-2.  按兩下**[iisdiag.msi]**封裝啟動 IIS Diagnostics Toolkit 安裝程式並選擇**自訂**安裝類型。  
+2.  按兩下 **[iisdiag.msi]** 封裝啟動 IIS Diagnostics Toolkit 安裝程式並選擇**自訂**安裝類型。  
   
 3.  在**自訂安裝程式** 對話方塊中，請確認選項**Debug Diagnostics Tool 1.0**已啟用，並完成安裝程式中的步驟。  
   

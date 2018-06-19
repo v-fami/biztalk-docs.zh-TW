@@ -1,11 +1,11 @@
 ---
-title: "如何套用和移除追蹤設定檔 |Microsoft 文件"
-ms.custom: 
+title: 如何套用和移除追蹤設定檔 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deleting, tracking profiles
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - tracking profiles, deleting
 - testing, tracking profiles
 ms.assetid: 77cef14b-c390-4da7-a383-b3abe414a168
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248294"
 ---
 # <a name="how-to-apply-and-remove-a-tracking-profile"></a>如何套用和移除追蹤設定檔
 在建立或修改追蹤設定檔之後，下一個步驟就是將它套用到測試資料庫，並透過整合測試驗證結果。 您可從追蹤設定檔編輯器 (TPE) 本身或使用命令列套用追蹤設定檔。  

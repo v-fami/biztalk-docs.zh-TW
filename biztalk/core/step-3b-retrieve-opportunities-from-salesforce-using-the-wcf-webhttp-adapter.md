@@ -1,14 +1,14 @@
 ---
-title: "步驟 3b： 擷取商機的詳細資料來自使用 Wcf-webhttp 配接器的 Salesforce |Microsoft 文件"
-ms.custom: 
+title: 步驟 3b： 擷取商機的詳細資料來自使用 Wcf-webhttp 配接器的 Salesforce |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 115c908f-777b-4c51-85ea-71d639b01775
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279550"
 ---
 # <a name="step-3b-retrieve-opportunity-details-from-salesforce-using-the-wcf-webhttp-adapter"></a>步驟 3b： 擷取來自 Salesforce 使用 Wcf-webhttp 配接器的機會詳細資料
 在本節中，我們會著重於處理內送商機通知的協調流程、從通知擷取商機名稱，並用來建立要求查詢以傳送至 Salesforce。 這樣會擷取與商機關聯的產品相關特定詳細資料。 來自 Salesforce 的查詢回應會由 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 接收。 若要達到此目標，我們會執行下列步驟：  
@@ -65,7 +66,7 @@ SELECT Amount, Id, Name,(SELECT Quantity, ListPrice, PricebookEntry.UnitPrice, P
     |-|-|  
     |Input [0]|選取量、 識別碼、 名稱 (選取 Quantity、 ListPrice PricebookEntry.UnitPrice，PricebookEntry.Name 從 OpportunityLineItems) 從有機會 Where Name = '|  
     |Input [1]|若要使用名稱元素的值做為第二個輸入的運算質連接來源結構描述中的名稱項目。|  
-    |輸入 [2]|'**附註：**最後一個的輸入值，指定只右單引號 （'）。|  
+    |輸入 [2]|'**附註：** 最後一個的輸入值，指定只右單引號 （'）。|  
   
      下列螢幕擷取畫面說明的組態**字串串連**運算質。  
   

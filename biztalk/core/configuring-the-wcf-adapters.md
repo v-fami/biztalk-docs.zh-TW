@@ -1,11 +1,11 @@
 ---
-title: "設定 WCF 配接器 |Microsoft 文件"
-ms.custom: 
+title: 設定 WCF 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - NetTcpBinding [WCF adapters]
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - bindings, pre-defined [WCF adapters]
 - WCF adapters, configuring
 ms.assetid: af01e2d4-303d-407a-b853-dd90b0246a8a
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233158"
 ---
 # <a name="configuring-the-wcf-adapters"></a>設定 WCF 配接器
 適用於 Windows Communication Foundation (WCF) 的 BizTalk 配接器讓 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 能與 WCF 應用程式通訊。 BizTalk WCF 配接器包括表示 WCF 預先定義繫結的五個實體配接器 —**BasicHttpBinding**， **WsHttpBinding**， **NetTcpBinding**， **NetNamedPipeBinding**，和**NetMsmqBinding**。 提供這些表示預先定義繫結之 WCF 配接器的目的，是要讓您能夠輕鬆設定多數應用程式需求的必要資訊。  

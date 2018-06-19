@@ -1,14 +1,14 @@
 ---
-title: "BizTalk 商務活動監控尚未設定 EDI AS2 狀態報告 |Microsoft 文件"
-ms.custom: 
+title: BizTalk 商務活動監控尚未設定 EDI AS2 狀態報告 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2f46c1c8-2771-4b16-8fb1-71952792ac4a
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241350"
 ---
 # <a name="biztalk-business-activity-monitoring-has-not-been-configured-for-edi-as2-status-reporting"></a>BizTalk 商務活動監控尚未設定 EDI AS2 狀態報告
 ## <a name="details"></a>詳細資料  

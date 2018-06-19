@@ -1,11 +1,11 @@
 ---
-title: "識別遺失的追蹤資料 |Microsoft 文件"
-ms.custom: 
+title: 識別遺失的追蹤資料 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - data loss, HAT
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - MessageBox database, Operation View tool
 - Operation View tool, data loss
 ms.assetid: 1ac13e2c-cd5e-437e-b924-d4547931874e
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256702"
 ---
 # <a name="identifying-lost-tracking-data"></a>識別遺失的追蹤資料
 您可以使用 BizTalk Server 管理主控台，幫助您識別哪些追蹤資料因為硬體失敗而遺失。 您可以使用 BizTalk Server 管理主控台的即時或封存資料。  

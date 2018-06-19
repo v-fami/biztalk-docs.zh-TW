@@ -1,17 +1,17 @@
 ---
-title: "安全性和 Windows Installer |Microsoft 文件"
-ms.custom: 
+title: 安全性和 Windows Installer |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, Windows installer
 - Windows installer
 ms.assetid: efa68c3e-2006-4665-bd41-07defaf4e2e2
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269782"
 ---
 # <a name="security-and-windows-installer"></a>安全性與 Windows Installer
 Windows Installer 是強大的工具，可用來安裝和更新 BizTalk 應用程式。 在使用 Windows Installer 時，您應該注意可能由惡意的 Windows Installer (.msi) 檔案建立者製造的安全性問題，並採取步驟加以防止。  

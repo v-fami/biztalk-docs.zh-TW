@@ -1,17 +1,17 @@
 ---
-title: "循序群組 |Microsoft 文件"
-ms.custom: 
+title: 循序群組 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - convoy sets
 - correlation sets, sequential receive tasks
 ms.assetid: f05ff42c-2236-42a3-8166-19700e0c3d97
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271582"
 ---
 # <a name="sequential-convoys"></a>循序群組
 循序群組可讓多個單一訊息聯結在一起，以達成所需的結果。 循序群組是具有預先定義順序的相關訊息組。 雖然訊息不需要完全相同，但 BizTalk Server 必須以循序方式接收這些訊息。  

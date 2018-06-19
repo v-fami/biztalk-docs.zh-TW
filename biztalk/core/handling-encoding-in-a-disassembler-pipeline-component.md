@@ -1,17 +1,17 @@
 ---
-title: "處理解譯器管線元件中的編碼 |Microsoft 文件"
-ms.custom: 
+title: 處理解譯器管線元件中的編碼 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components [custom], encoding
 - pipeline components [custom], disassembling
 ms.assetid: 33420357-421f-4ad0-8eee-d445376676db
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246702"
 ---
 # <a name="handling-encoding-in-a-disassembler-pipeline-component"></a>處理解譯器管線元件中的編碼
 確定您的自訂解譯器元件使用下列其中一種格式為輸出文件編碼：  

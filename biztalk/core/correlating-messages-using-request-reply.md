@@ -1,18 +1,18 @@
 ---
-title: "相互關聯使用要求-回覆訊息 |Microsoft 文件"
-ms.custom: 
+title: 相互關聯使用要求-回覆訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, MQSeries adapters
 - messages, correlating
 - MQSeries adapters, correlating messages
 ms.assetid: 4615b586-663b-41d8-949c-fefb6143c590
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22237990"
 ---
 # <a name="correlating-messages-using-request-reply"></a>使用要求-回應相互關聯訊息
 有兩種方式可將 IBM WebSphere MQ 的 BizTalk 協調流程中的訊息，和 Windows 平台要求-回應實例的伺服器元件中的訊息相互關聯。 第一個方法是將 messageid 來提供相互關聯識別項 (**MQMD_MSGID**) 與 CorrelationID (**MQMD_CorrelId**) 為相同的值。 第二個是使用**BizTalk_CorrelationId**內容屬性。  

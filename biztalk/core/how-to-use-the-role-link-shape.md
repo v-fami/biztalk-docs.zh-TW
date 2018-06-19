@@ -1,11 +1,11 @@
 ---
-title: "如何使用角色連結圖形 |Microsoft 文件"
-ms.custom: 
+title: 如何使用角色連結圖形 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Role Link shape [Orchestration Designer], adding links
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Role Link shape [Orchestration Designer]
 - Role Link shape [Orchestration Designer], deleting links
 ms.assetid: 857d493e-ef08-4a2f-b11d-0471932b8671
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255742"
 ---
 # <a name="how-to-use-the-role-link-shape"></a>如何使用角色連結圖形
 A**角色連結**圖形包含供實作角色提供者角色和使用角色或取用者角色的預留位置。 它可以包含上述其中一種角色，或兩者皆包含。  

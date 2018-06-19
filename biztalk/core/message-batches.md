@@ -1,14 +1,14 @@
 ---
-title: "訊息批次 |Microsoft 文件"
-ms.custom: 
+title: 訊息批次 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5f893d16-2670-4463-9a89-6f5be912a045
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262718"
 ---
 # <a name="message-batches"></a>訊息批次
 需要同時處理配接器的訊息群組時，您應該批次處理這些訊息，以最佳化效能。 就程式設計來說，訊息批次是具有關聯作業的訊息集合。 將批次中的訊息分組，而不個別提交每個訊息，您可以最佳化使用資源和處理工作。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]使用批次處理，以：  

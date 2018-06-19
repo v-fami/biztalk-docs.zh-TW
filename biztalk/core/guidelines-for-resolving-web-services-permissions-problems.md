@@ -1,14 +1,14 @@
 ---
-title: "解決 Web 服務權限問題的指導方針 |Microsoft 文件"
-ms.custom: 
+title: 解決 Web 服務權限問題的指導方針 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e29543e9-9b87-437b-ac91-8f1cce01fab4
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246774"
 ---
 # <a name="guidelines-for-resolving-web-services-permissions-problems"></a>解決 Web 服務權限問題的指導方針
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 在使用 SOAP 配接器以及將協調流程發佈為 Web 服務時，均大量使用 Web 服務。 本主題包含一些一般指導方針，可用來儘可能減少 Web 服務的權限問題，另外也包含疑難排解步驟，可用於解決對 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 造成影響的 Web 服務權限的問題。  

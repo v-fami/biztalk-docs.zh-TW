@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271190"
 ---
 # <a name="sample-architecture-base-biztalk-server"></a>範例架構： 基本 BizTalk Server
 本主題討論基本範例架構。 其中描述與配接器無關的 BizTalk Server 部署中的元件。 建議任何 BizTalk Server 部署至少都要有這些元件。  

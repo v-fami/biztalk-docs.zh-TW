@@ -1,15 +1,15 @@
 ---
-title: "更新群組設定 |Microsoft 文件"
-description: "變更使用 BizTalk Server 管理 群組的效能設定"
-ms.custom: 
+title: 更新群組設定 |Microsoft 文件
+description: 變更使用 BizTalk Server 管理 群組的效能設定
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fe0cbeb8-23d6-45cf-8535-c989914f5124
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254806"
 ---
 # <a name="how-to-update-the-biztalk-group-settings"></a>如何更新 BizTalk 群組設定
 使用「設定儀表板」，您可以修改在所指定 BizTalk 群組中的所有電腦上使用的組態資訊。 本主題提供在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中修改群組層級效能設定的逐步程序。 這些設定適用指定群組中的所有電腦。  
@@ -43,7 +44,7 @@ ms.lasthandoff: 09/20/2017
     |**大型訊息大小**|設定閾值大小以觸發批次和 （或） 在轉換期間，資料流處理的個別訊息。|1 - 10000000|1000000|最大的現有**大型訊息大小**和**LargeMessageFragmentSize**值。|  
     |**追蹤和報告**||-|-|-|  
     |**訊息方塊效能計數器取樣間隔**|設定效能計數器重新整理的間隔。<br /><br /> 設定此間隔時，需在對資料庫的負擔會不會太重與計數器的資料夠不夠新之間做取捨。 值越高表示越少更新資料，但是對資料庫的負擔也越輕。|1 – 整數型別的最大值|-|BizTalk 群組中任何電腦上的最大值 (如果有的話)。 否則為預設值。|  
-    |**啟用群組層級追蹤。**|選取此選項會開啟 BizTalk Server 的群組層級追蹤功能。<br /><br /> 關閉全域追蹤功能會停用整個 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 群組的追蹤攔截器。 這表示 BizTalk Server 將不會在其追蹤表格中追蹤事件。 **注意：**這項設定不會影響 BAM 追蹤。|開啟、關閉|開啟|-|  
+    |**啟用群組層級追蹤。**|選取此選項會開啟 BizTalk Server 的群組層級追蹤功能。<br /><br /> 關閉全域追蹤功能會停用整個 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 群組的追蹤攔截器。 這表示 BizTalk Server 將不會在其追蹤表格中追蹤事件。 **注意：** 這項設定不會影響 BAM 追蹤。|開啟、關閉|開啟|-|  
   
 3.  按一下**套用**以套用所做的修改，並前進到另一個索引標籤。或按一下**確定**以套用變更並結束 設定儀表板。  
   

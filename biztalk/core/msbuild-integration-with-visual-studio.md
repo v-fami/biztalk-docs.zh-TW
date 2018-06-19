@@ -1,14 +1,14 @@
 ---
-title: "與 Visual Studio 的 MSBUILD 整合 |Microsoft 文件"
-ms.custom: 
+title: 與 Visual Studio 的 MSBUILD 整合 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: aedcabf7-b2cf-482a-9ade-7311e104bff9
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262830"
 ---
 # <a name="msbuild-integration-with-visual-studio"></a>與 Visual Studio 的 MSBUILD 整合
 Visual Studio 使用 MSBUILD 專案檔案格式來儲存有關受管理專案 (包含 BizTalk 專案) 的建置資訊。 透過 Visual Studio 新增及變更的專案設定會反映在為每個專案產生的 .btproj 檔案中。 Visual Studio 會使用 MSBUILD 的受主控執行個體來建置 BizTalk 專案，這表示可以在 Visual Studio 中或從命令列建置 BizTalk 專案，兩者結果都一樣。  

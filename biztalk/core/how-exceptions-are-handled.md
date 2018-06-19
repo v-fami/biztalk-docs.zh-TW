@@ -1,11 +1,11 @@
 ---
-title: "例外狀況處理的方式 |Microsoft 文件"
-ms.custom: 
+title: 例外狀況處理的方式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - errors, handlers
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - errors, scopes
 - handlers [adapters], errors
 ms.assetid: 30b88d8a-8737-4700-b856-1b49fdf6b6d0
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246662"
 ---
 # <a name="how-exceptions-are-handled"></a>如何處理例外狀況
 當例外狀況在某個範圍內發生時，在該範圍中執行的每個邏輯執行緒都會停止。 執行階段引擎便會嘗試尋找適當例外狀況的例外狀況處理常式。  

@@ -1,14 +1,14 @@
 ---
-title: "如何建立密碼同步配接器 |Microsoft 文件"
-ms.custom: 
+title: 如何建立密碼同步配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: caa5bd13-efd9-4544-b5df-17d01c6ac5d8
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249366"
 ---
 # <a name="how-to-create-a-password-sync-adapter"></a>如何建立密碼同步配接器
 密碼同步 (PS) 配接器是一套應用軟體，它使用「密碼同步協助程式」(Password Sync Helper) 元件傳送往來於「企業單一登入」(SSO) 的通知。 請注意，雖然 PS 協助程式元件使用 COM 介面和 .NET Framework 介面，但您的配接器不一定要是 COM 元件。 您可以將配接器設計為獨立程序、COM+ 應用程式或 Windows 服務。  

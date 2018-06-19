@@ -1,11 +1,11 @@
 ---
-title: "如何使用角色連結精靈 |Microsoft 文件"
-ms.custom: 
+title: 如何使用角色連結精靈 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - links [roles]
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - role links, Role Link Wizard [Orchestration Designer]
 - links [roles], about links
 ms.assetid: ddc33d87-c08d-4193-9483-4644ef302853
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255854"
 ---
 # <a name="how-to-use-the-role-link-wizard"></a>如何使用角色連結精靈
 [角色連結精靈] 可以讓您建立新角色連結或修改現有的角色連結。 您可以使用它來設定或檢視角色連結的名稱、類型與存取限制，以及構成角色連結類型的實作角色與使用角色。 若要了解角色連結運作，請參閱[協調流程中使用角色連結](../core/using-role-links-in-orchestrations.md)。  

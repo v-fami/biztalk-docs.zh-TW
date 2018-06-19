@@ -1,14 +1,14 @@
 ---
-title: "交易式非同步批次支援傳送配接器的介面，|Microsoft 文件"
-ms.custom: 
+title: 交易式非同步批次支援傳送配接器的介面，|Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e5b2dbdf-e6ba-4b58-a0a5-fc78feaf5c35
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257710"
 ---
 # <a name="interfaces-for-a-transactional-asynchronous-batch-supported-send-adapter"></a>交易式非同步批次支援傳送配接器介面
 傳送配接器可以在需要交易式的訊息傳輸時建立及控制交易。 若要支援交易式的傳送，配接器必須實作下列介面：  

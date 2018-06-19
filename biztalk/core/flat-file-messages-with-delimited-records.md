@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7ad7119b-4e39-43df-9dba-a04382eb6db2
-caps.latest.revision: ''
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22246710"
 ---
 # <a name="flat-file-messages-with-delimited-records"></a>具有分隔記錄的一般檔案訊息
 在一般檔案執行個體訊息中的分隔記錄包含由預先定義的字元或字元集分隔的巢狀記錄和/或個別欄位 (資料項目)。 系統根據這些個別的分隔符號來剖析欄位。 例如，請考慮一般檔案執行個體訊息中的下列分隔記錄，其中包含一個假設性的訂單中的兩個產品項目：  

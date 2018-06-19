@@ -1,14 +1,14 @@
 ---
-title: "EDI 訊息結構 |Microsoft 文件"
-ms.custom: 
+title: EDI 訊息結構 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0c9a0447-447f-483c-825d-547c06ad691e
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239630"
 ---
 # <a name="edi-message-structure"></a>EDI 訊息結構
 EDI 訊息由一個信封和一系列階層式的結構元素組成。 信封中包含一組標頭和結尾；各組標頭和結尾分別描述及包含一個結構元素。 這些結構元素如下：  

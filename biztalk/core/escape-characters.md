@@ -1,14 +1,14 @@
 ---
-title: "逸出字元 |Microsoft 文件"
-ms.custom: 
+title: 逸出字元 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3af800b9-d31b-487a-9a06-6eda47d1574e
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246126"
 ---
 # <a name="escape-characters"></a>逸出字元
 
@@ -59,7 +60,7 @@ RECORD1,testfield1\,testfield1,testfield2
   
  當一般檔案組合器執行反向作業，將記錄的 XML 版本轉換為其對等的一般檔案記錄時，會將逸出字元插入 Field1 中間的逗號之前，以此表示應該將它解譯為資料，而不是欄位分隔符號。  
   
- 在建立時使用 「 BizTalk 編輯器的一般檔案結構描述，您可以定義預設的逸出字元整個結構描述使用**預設逸出字元**和**預設逸出字元類型**屬性**結構描述**節點。 然後，您可以設定為使用此預設逸出字元，或自訂的特定記錄的逸出字元使用結構描述中的每個個別記錄**逸出字元]**和**逸出字元類型**屬性**記錄**節點。  
+ 在建立時使用 「 BizTalk 編輯器的一般檔案結構描述，您可以定義預設的逸出字元整個結構描述使用**預設逸出字元**和**預設逸出字元類型**屬性**結構描述**節點。 然後，您可以設定為使用此預設逸出字元，或自訂的特定記錄的逸出字元使用結構描述中的每個個別記錄**逸出字元]** 和**逸出字元類型**屬性**記錄**節點。  
   
 ## <a name="see-also"></a>另請參閱  
 - [如何將特殊字元解譯為欄位值的一部分](../core/ways-to-interpret-special-characters-as-part-of-a-field-value.md)  

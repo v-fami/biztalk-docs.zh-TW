@@ -1,18 +1,18 @@
 ---
-title: "如何設定整合閘道和 HTTP 輸出連接器 |Microsoft 文件"
-ms.custom: 
+title: 如何設定整合閘道和 HTTP 輸出連接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Integration Gateway
 - gateway nodes, creating
 - HTTP Output Connector
 ms.assetid: a02ee533-07a8-42fa-a72a-7e5359b18f40
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247918"
 ---
 # <a name="how-to-configure-the-integration-gateway-and-http-output-connector"></a>如何設定整合閘道和 HTTP 輸出連接器
 依照下列步驟設定「整合閘道」和「HTTP 輸出連接器」。  

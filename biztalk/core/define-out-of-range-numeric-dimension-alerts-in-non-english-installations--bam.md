@@ -1,14 +1,14 @@
 ---
-title: "如何在非英文的安裝中定義超出範圍的數字維度警示 |Microsoft 文件"
-ms.custom: 
+title: 如何在非英文的安裝中定義超出範圍的數字維度警示 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7f1e0373-eadf-4c6d-9a38-a34d847f310f
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238686"
 ---
 # <a name="how-to-define-out-of-range-numeric-dimension-alerts-in-non-english-installations"></a>如何在非英文的安裝中定義超過範圍的數字維度警示
 當設定包含超出定義的數字範圍維度，在非英文的安裝上的值條件的警示，您必須手動修改 BAM 定義的當地語系化版本字串的**超出範圍**.  

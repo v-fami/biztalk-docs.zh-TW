@@ -1,11 +1,11 @@
 ---
-title: "如何移除 SSO |Microsoft 文件"
-ms.custom: 
+title: 如何移除 SSO |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Master Secret server, deleting
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - deleting, SSO
 - deleting, Master Secret server
 ms.assetid: 0e1ad8e3-0938-4f36-b85b-4631d0eeb8c9
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254654"
 ---
 # <a name="how-to-remove-sso"></a>如何移除 SSO
 若您移除 BizTalk Server，就不會再設定「企業單一登入」(SSO)，除非相依產品正在使用它。 但不會將它移除。 您必須個別移除 SSO。 您也可以還原組態資訊 (包括主要密碼)，以重複使用現有的資料。 如需詳細資訊，請參閱[如何還原主要密碼](../core/how-to-restore-the-master-secret.md)。  

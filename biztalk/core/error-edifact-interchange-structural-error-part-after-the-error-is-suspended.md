@@ -1,14 +1,14 @@
 ---
-title: "交換有結構的錯誤。 錯誤處於暫停狀態後的部分 |Microsoft 文件"
-ms.custom: 
+title: 交換有結構的錯誤。 錯誤處於暫停狀態後的部分 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9071825d-7b90-42bf-bcf9-2a15ae36086d
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241294"
 ---
 # <a name="the-interchange-had-structural-error-the-part-after-the-error-is-being-suspended"></a>交換有結構的錯誤。 錯誤後的部分正在遭到擱置
 ## <a name="details"></a>詳細資料  

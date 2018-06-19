@@ -1,14 +1,14 @@
 ---
-title: "佇列管理支援 |Microsoft 文件"
-ms.custom: 
+title: 佇列管理支援 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d60d06ba-8cf3-46d6-af59-626f12fc572a
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278694"
 ---
 # <a name="support-for-queue-management"></a>佇列管理支援
 有了 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] MQSeries 配接器，現在您可以使用 MQSeries 佇列管理員，在遠端建立與刪除佇列。 這是因為 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 使用遠端 MQSAgent COM+ 物件直接與 MQSeries 佇列管理員通訊所致。 通常此 MQSAgent 是在執行階段用來讀取與寫入遠端 MQSeries Server 佇列的訊息。 此遠端服務同時可支援一個以上的 BizTalk Server 作為其用戶端。 此外，佇列的建立與刪除功能都是由此 MQSAgent 提供，可以從協調流程或配接器中直接呼叫。 這樣一來，協調流程或配接器可以建立臨時佇列，然後用它來傳送訊息、接收另一個佇列的回應，並最終刪除臨時佇列，形成一個高度動態的實例。  

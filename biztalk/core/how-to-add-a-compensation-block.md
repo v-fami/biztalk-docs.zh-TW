@@ -1,17 +1,17 @@
 ---
-title: "如何新增補償區塊 |Microsoft 文件"
-ms.custom: 
+title: 如何新增補償區塊 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - compensations, compensation blocks
 - compensation blocks, adding
 ms.assetid: 1bdeed92-3144-44ef-ad0d-1c6976f46a36
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246534"
 ---
 # <a name="how-to-add-a-compensation-block"></a>如何新增補償區塊
 如果您不新增自己的補償，執行階段引擎便會執行預設的補償，叫用目前交易內任何巢狀交易的補償。 它首先會叫用最近完成之交易的補償，然後回溯處理直到補償了所有的巢狀交易為止。  

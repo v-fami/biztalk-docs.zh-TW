@@ -1,14 +1,14 @@
 ---
-title: "如何設定單一登入 |Microsoft 文件"
-ms.custom: 
+title: 如何設定單一登入 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 511edc1d-de82-4d17-88ea-6cacfccde10d
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247766"
 ---
 # <a name="how-to-configure-single-sign-on"></a>如何設定單一登入
 在存取「企業單一登入」之前，您應該確認目前的使用者已正確設定「企業單一登入」。 對於多數組態，您會使用兩個介面的其中一個。 `ISSOAdmin`是可讓您建立新的分支機構應用程式的一般系統管理介面。 不過，藉由使用 ISSOAdmin.GetGlobalInfo 和 ISSOAdmin.UpdateGlobalInfo，您可以設定各種旗標和管理值。 如下所述的一項可能工作就是確保已經啟用 SSO 票證。  

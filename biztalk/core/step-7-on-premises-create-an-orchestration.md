@@ -1,14 +1,14 @@
 ---
-title: "步驟 7 （內部部署）： 建立協調流程 |Microsoft 文件"
-ms.custom: 
+title: 步驟 7 （內部部署）： 建立協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7c0b6d0e-cf00-4eee-9b89-28210bad46f4
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22280222"
 ---
 # <a name="step-7-on-premises-create-an-orchestration"></a>步驟 7 （內部部署）： 建立協調流程
 根據商務案例之後,[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]接收銷售訂單訊息的服務匯流排佇列，以便檢查是否有訊息中所訂購的數量大於 100。 如果數量大於 100 時，將訊息插入**SalesOrder**資料表。 否則，訊息會傳送至共用的檔案位置。 Northwind 會藉由建立協調流程來達成此商務邏輯。 本主題提供有關如何建立協調流程的逐步指引。  
@@ -34,7 +35,7 @@ ms.lasthandoff: 09/20/2017
 |------------------|---------------------------|  
 |Message1_SO_Inbound|這個訊息是的執行個體**ECommerceSalesOrder.xsd**結構描述。|  
 |Message2_SO_Inbound|這個訊息是一份**Message1_SO_Inbound**。 最佳做法，您必須建立訊息的複本，並修改新訊息，並完整留下原始訊息。 如需詳細資訊，請參閱[BizTalk Server 訊息](http://msdn.microsoft.com/library/aa560436)。|  
-|Message1_SO_Outbound|這個訊息是的執行個體**TableOperations.dbo.SalesOrder (Insert)**結構描述。|  
+|Message1_SO_Outbound|這個訊息是的執行個體**TableOperations.dbo.SalesOrder (Insert)** 結構描述。|  
   
 #### <a name="to-create-the-messages"></a>建立訊息  
   
@@ -111,7 +112,7 @@ ms.lasthandoff: 09/20/2017
   
         |屬性名稱|值|  
         |-------------------|-----------|  
-        |識別碼|輸入`Yes`。 **注意：**其他路由的預設名稱為**Else**。|  
+        |識別碼|輸入`Yes`。 **注意：** 其他路由的預設名稱為**Else**。|  
         |運算式|輸入`quantityOrdered > 100`。|  
   
          您現在有兩個可用的路由。 如果中的值**quantityOrdered**變數大於 100，訊息會**是**路由。 否則，它會將**Else**路由。 您現在必須定義要執行內的每一個路由動作。  
@@ -158,8 +159,8 @@ ms.lasthandoff: 09/20/2017
   
     |連接埠名稱|屬性|  
     |---------------|----------------|  
-    |[Sendtosql]|-設定**名稱**至**[sendtosql]**<br />-選取**建立新的連接埠類型**<br />設定通訊模式，以**單向**<br />-若要設定連接埠方向**我將總是傳送訊息在此連接埠**|  
-    |[Sendtofile]|-設定**名稱**至**[sendtofile]**<br />-選取**建立新的連接埠類型**<br />設定通訊模式，以**單向**<br />-若要設定連接埠方向**我將總是傳送訊息在此連接埠**|  
+    |[Sendtosql]|-設定**名稱**至 **[sendtosql]**<br />-選取**建立新的連接埠類型**<br />設定通訊模式，以**單向**<br />-若要設定連接埠方向**我將總是傳送訊息在此連接埠**|  
+    |[Sendtofile]|-設定**名稱**至 **[sendtofile]**<br />-選取**建立新的連接埠類型**<br />設定通訊模式，以**單向**<br />-若要設定連接埠方向**我將總是傳送訊息在此連接埠**|  
   
 ## <a name="connect-ports-and-message-shapes"></a>連接連接埠和訊息圖形  
  您現在必須連接連接埠和訊息圖形，以完成協調流程。 收到訊息時，會啟動協調流程**ReceiveOrder**圖形與協調流程會結束時由兩個傳送圖形會將訊息傳出。 您必須使用此準則，來連接的連接埠和訊息圖形  

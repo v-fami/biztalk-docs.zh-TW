@@ -1,11 +1,11 @@
 ---
-title: "如何設定 SOAP 傳送埠 |Microsoft 文件"
-ms.custom: 
+title: 如何設定 SOAP 傳送埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SOAP adapters, send ports
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - configuring [SOAP adapters], send ports
 - send ports, SOAP adapters
 ms.assetid: 3a0622f4-d25d-4449-a063-d8ba217e9729
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250590"
 ---
 # <a name="how-to-configure-a-soap-send-port"></a>如何設定 SOAP 傳送埠
 您可以使用程式設計的方式或 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台來設定 SOAP 傳送埠。  
@@ -93,7 +94,7 @@ ms.lasthandoff: 09/20/2017
     |**不使用 proxy**|指示 SOAP 傳送處理常式是否要使用 Proxy 伺服器。|  
     |**使用 Proxy**|指示 SOAP 傳送處理常式是否要使用 Proxy 伺服器。 Proxy 伺服器可由所有 SOAP 傳送埠共用。|  
     |**Server**|指定 Proxy 伺服器的名稱。<br /><br /> 這個屬性只需要一個值，如果**使用 proxy**已選取。<br /><br /> 類型：字串<br /><br /> 最小長度：00<br /><br /> 最大長度：256|  
-    |**[通訊埠]**|指定 SOAP 傳送處理常式使用的連接埠。<br /><br /> 這個屬性只需要一個值，如果**使用 proxy**已選取。<br /><br /> 預設值： 80<br /><br /> 類型：Long<br /><br /> 最小值：0<br /><br /> 最大值： 65535**附註：**指定值為 0 表示使用預設值，這是連接埠 80。|  
+    |**[通訊埠]**|指定 SOAP 傳送處理常式使用的連接埠。<br /><br /> 這個屬性只需要一個值，如果**使用 proxy**已選取。<br /><br /> 預設值： 80<br /><br /> 類型：Long<br /><br /> 最小值：0<br /><br /> 最大值： 65535**附註：** 指定值為 0 表示使用預設值，這是連接埠 80。|  
     |**使用者名稱**|指定要用於驗證的使用者名稱。 如果您使用 Windows 整合式的驗證時，使用者名稱包括網域， **domain\username**。 如果您使用基本或摘要式驗證的使用者名稱不包含**網域\\**。<br /><br /> 這個屬性只需要一個值，如果**使用 proxy**已選取。<br /><br /> 類型：字串<br /><br /> 最小長度：00<br /><br /> 最大長度：256|  
     |**密碼**|指定要用於驗證的密碼。<br /><br /> 這個屬性只需要一個值，如果**使用 proxy**已選取。<br /><br /> 類型：字串<br /><br /> 最小長度：00<br /><br /> 最大長度：256|  
   
@@ -102,7 +103,7 @@ ms.lasthandoff: 09/20/2017
     |使用|動作|  
     |--------------|----------------|  
     |**協調流程 Web 連接埠**|指定要在所列的 Web 服務 URL 中使用 Web 服務公開**一般** 索引標籤。<br /><br /> 這是預設值。|  
-    |**組件名稱**|指定包含 Web 服務 Proxy 的組件名稱。 您可以按一下 [瀏覽] 按鈕找出組件，填入此欄位。 在選取組件後，會以組件的完整格式名稱填入此方塊。 **注意：**指定組件必須存在於所有[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]s 在執行階段。|  
+    |**組件名稱**|指定包含 Web 服務 Proxy 的組件名稱。 您可以按一下 [瀏覽] 按鈕找出組件，填入此欄位。 在選取組件後，會以組件的完整格式名稱填入此方塊。 **注意：** 指定組件必須存在於所有[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]s 在執行階段。|  
     |**型別名稱**|指定包含要叫用的 Web 方法的類別名稱。 可以從組件中包含的類型清單中選取此項。|  
     |**方法名稱**|指定清單方塊中的一個方法，或選擇 [稍後指定] 選項。 若選擇 [稍後指定] 選項，則必須藉由其他方式設定 Web 方法，例如，管線元件。 在此案例中，web 方法必須寫入 Soap 配接器**MethodName**內容屬性。|  
     |**SOAP 1.2**|指定產生支援 SOAP 1.2 通訊協定的 Proxy 程式碼。 若此選項為已清除，則會產生 SOAP 1.1 相容的 Proxy 程式碼。<br /><br /> 預設值： 清除|  

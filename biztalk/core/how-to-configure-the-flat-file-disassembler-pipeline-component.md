@@ -1,18 +1,18 @@
 ---
-title: "如何設定一般檔案解譯器管線元件 |Microsoft 文件"
-ms.custom: 
+title: 如何設定一般檔案解譯器管線元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Flat File Disassembler [pipeline component], configuring
 - pipeline components, Flat File Disassembler
 - messages, flat files
 ms.assetid: c09996f6-6035-42a3-a75f-4def4ac39a95
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249046"
 ---
 # <a name="how-to-configure-the-flat-file-disassembler-pipeline-component"></a>如何設定一般檔案解譯器管線元件
 一般檔案解譯器管線元件是用來解譯一般檔案格式的文件，並將這些文件轉換為 XML 格式。  
@@ -33,7 +34,7 @@ ms.lasthandoff: 09/20/2017
   
     |使用|動作|  
     |--------------|----------------|  
-    |**文件結構描述**|選取將訊息從一般檔案剖析為 XML 格式的一般檔案文件結構描述。 一般檔案文件的剖析結構描述可以在 BizTalk 編輯器中建立。<br /><br /> 預設值： None**附註：**您必須指定為此屬性，結構描述，或將會發生編譯時期錯誤。|  
+    |**文件結構描述**|選取將訊息從一般檔案剖析為 XML 格式的一般檔案文件結構描述。 一般檔案文件的剖析結構描述可以在 BizTalk 編輯器中建立。<br /><br /> 預設值： None**附註：** 您必須指定為此屬性，結構描述，或將會發生編譯時期錯誤。|  
     |**標頭結構描述**|選取做為一般檔案訊息標頭部分的結構描述。 一般檔案訊息標頭部分的結構描述可以在 BizTalk 編輯器中建立。<br /><br /> 預設值：無|  
     |**保留標頭**|將此屬性設定為**True**如果您需要儲存在訊息內容的一般檔案訊息標頭。 保留一般檔案訊息的標頭可以讓標題結構與內容和訊息一起透過 BizTalk Server 傳送。 在一般檔案組合器管線元件中將訊息序列化回一般檔案格式時，可以使用這個標頭。<br /><br /> 在一般檔案組合器序列化保留的標頭時，由於可在執行階段動態取得標頭結構描述名稱，因此標頭文件設計階段屬性可能會缺少該項資訊。 這可以使用保留標頭的訊息類型來完成。<br /><br /> 預設值： **False**|  
     |**結尾結構描述**|選取作為一般檔案訊息結尾部分的結構描述。 一般檔案訊息結尾部分的結構描述可以在 BizTalk 編輯器中建立。<br /><br /> 預設值：無|  

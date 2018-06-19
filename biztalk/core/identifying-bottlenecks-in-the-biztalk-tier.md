@@ -1,14 +1,14 @@
 ---
-title: "識別 BizTalk 層中的瓶頸 |Microsoft 文件"
-ms.custom: 
+title: 識別 BizTalk 層中的瓶頸 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f38ade78-8af3-4485-9b2a-5e4cdba965d2
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22258182"
 ---
 # <a name="identifying-bottlenecks-in-the-biztalk-tier"></a>識別 BizTalk 層中的瓶頸
 BizTalk 層可以區分為下列功能區域：  

@@ -1,11 +1,11 @@
 ---
-title: "如何管理多個接收位置使用 MSMQ 配接器 |Microsoft 文件"
-ms.custom: 
+title: 如何管理多個接收位置使用 MSMQ 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - MSMQ adapters, receive locations
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - receive locations, threads
 - configuring [MSMQ adapters], receive locations
 ms.assetid: 5b2ee043-bcc9-443b-84b0-df7f487159eb
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22253806"
 ---
 # <a name="how-to-manage-multiple-receive-locations-using-the-msmq-adapter"></a>如何使用 MSMQ 配接器管理多個接收位置
 為了要增加效能，MSMQ 配接器為多執行緒。 若您有多個接收位置，可能沒有足夠的執行緒供所有接收位置使用。 如此會使部分接收位置無法提取訊息。 有三種方式可解決此問題：  

@@ -1,18 +1,18 @@
 ---
-title: "如何設定原則的事實擷取器 |Microsoft 文件"
-ms.custom: 
+title: 如何設定原則的事實擷取器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Business Rule Composer, policies
 - Business Rule Composer, facts
 - policies, facts
 ms.assetid: a7bcf3e5-3f28-4f0e-b112-8c97dee072a1
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247094"
 ---
 # <a name="how-to-configure-a-fact-retriever-for-a-policy"></a>如何設定原則的事實擷取器
 您可以儲存不會經常變更的事實，這樣就可以在主控件應用程式的第一次執行循環之前從儲存區中擷取事實，接著將這些呈現至規則引擎以供快取，如此便可以在多個執行循環中重複使用。  

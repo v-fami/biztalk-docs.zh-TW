@@ -1,14 +1,14 @@
 ---
-title: "設定後援本機主機設定 （EDIFACT-交換設定） |Microsoft 文件"
-ms.custom: 
+title: 設定後援本機主機設定 （EDIFACT-交換設定） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: eecf5abb-9c12-44b0-bc58-94cb138515c3
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234110"
 ---
 # <a name="configuring-fallback-local-host-settings-edifact-interchange-settings"></a>設定後援本機主機設定 (EDIFACT 交換設定)
 本機主機設定控制了處理 EDI 交換的方式。 此頁面上的設定可分成兩個類別 - 接收者的設定 (用於內送交換) 與傳送者的設定 (用於外寄交換)。 在接收者的設定中，您可以指定通知控制編號的產生方式。 在傳送者的設定中，您可以指定為外寄訊息產生控制編號的方式。  

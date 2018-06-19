@@ -1,11 +1,11 @@
 ---
-title: "如何從應用程式移除.NET 組件、 憑證或其他資源成品 |Microsoft 文件"
-ms.custom: 
+title: 如何從應用程式移除.NET 組件、 憑證或其他資源成品 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - virtual directories, deleting
@@ -27,7 +27,7 @@ helpviewer_keywords:
 - deleting, artifacts
 - deleting, certificates
 ms.assetid: b84eebac-261d-495f-80cd-ddda5bb08bef
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -36,6 +36,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008311"
 ---
 # <a name="how-to-remove-a-net-assembly-certificate-or-other-resource-artifact-from-an-application"></a>如何從應用程式移除 .NET 組件、憑證或其他資源成品
 本主題說明如何使用 BizTalk Server 管理主控台或命令列，從 BizTalk 應用程式移除下列資源成品。 使用本主題提供的程序可以從 BizTalk 管理資料庫移除成品， 但是不會從檔案系統、憑證存放區、Internet Information Services (IIS) 或 Windows 登錄等任何位置中，移除現有的成品。 此外，如果您移除繫結檔案，繫結仍將原封不動，而只會移除繫結檔案而已。  

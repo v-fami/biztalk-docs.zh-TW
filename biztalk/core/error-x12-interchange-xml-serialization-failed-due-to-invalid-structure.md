@@ -1,14 +1,14 @@
 ---
-title: "X12 交換 Xml 序列化失敗，因為無效的結構。 尋找 TransactionSet 或 GE，但找不到 |Microsoft 文件"
-ms.custom: 
+title: X12 交換 Xml 序列化失敗，因為無效的結構。 尋找 TransactionSet 或 GE，但找不到 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d058fdbb-6be5-499f-86f7-0eb8a85c5fb2
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241718"
 ---
 # <a name="x12-interchange-xml-serialization-failed-due-to-invalid-structure-looking-for-transactionset-or-ge-but-not-found"></a>X12 交換 Xml 序列化失敗，因為無效的結構。 尋找 TransactionSet 或 GE，但找不到
 ## <a name="details"></a>詳細資料  

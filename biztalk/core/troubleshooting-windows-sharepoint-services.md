@@ -1,14 +1,14 @@
 ---
-title: "疑難排解 Windows SharePoint Services |Microsoft 文件"
-ms.custom: 
+title: 疑難排解 Windows SharePoint Services |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9acf9a0d-2c92-4227-80f8-b2d0cca0c232
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286990"
 ---
 # <a name="troubleshooting-windows-sharepoint-services"></a>Windows SharePoint Services 配接器疑難排解
 Microsoft [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)] 是由 Windows SharePoint Services 配接器使用。 本主題描述在使用 Windows SharePoint Services 時可能遇到的一些已知問題，以及這些問題的可能解決方法。  

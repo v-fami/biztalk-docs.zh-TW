@@ -1,14 +1,14 @@
 ---
-title: "設定 SharePoint Services 傳送埠 |Microsoft 文件"
-ms.custom: 
+title: 設定 SharePoint Services 傳送埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 36aadbc2-316f-4e1c-a5a8-b162470acf9e
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "22235030"
 ---
 # <a name="configure-sharepoint-services-send-port"></a>設定 SharePoint Services 傳送埠
 本主題比較靜態傳送埠與動態傳送埠，還列出了用於建立 [!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)] 傳送埠的步驟。 具體來說：  

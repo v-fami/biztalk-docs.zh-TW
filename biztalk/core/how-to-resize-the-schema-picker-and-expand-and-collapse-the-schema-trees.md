@@ -1,14 +1,14 @@
 ---
-title: "如何調整結構描述選擇器中，以及展開和摺疊結構描述樹狀結構 |Microsoft 文件"
-ms.custom: 
+title: 如何調整結構描述選擇器中，以及展開和摺疊結構描述樹狀結構 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 267ea17d-54fe-4031-a044-719606489f24
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254814"
 ---
 # <a name="how-to-resize-the-schema-picker-and-expand-and-collapse-the-schema-trees"></a>如何調整結構描述選擇器中，以及展開和摺疊結構描述樹狀結構
 開發 BizTalk 對應時，您往往需要展開和摺疊來源與目的結構描述樹狀結構，以顯示或隱藏各個結構描述節點。 本主題提供逐步指示，調整結構描述選擇器中，並且將展開和摺疊結構描述樹狀結構。  

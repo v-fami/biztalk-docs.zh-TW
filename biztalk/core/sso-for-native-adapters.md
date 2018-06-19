@@ -1,17 +1,17 @@
 ---
-title: "原生配接器的 SSO |Microsoft 文件"
-ms.custom: 
+title: 原生配接器的 SSO |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapters, SSO
 - SSO, adapters
 ms.assetid: d8527f0f-910c-42ce-9bd3-83ab6d4349c0
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278054"
 ---
 # <a name="sso-for-native-adapters"></a>原生配接器的 SSO
 「企業單一登入」(SSO) 可讓您在與不同電腦系統或網站互通時，只需登入一次即可。 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的這項功能讓 BizTalk 配接器能夠提供適當的使用者識別碼和認證給網路中的多個應用程式，這些應用程式都使用以 Microsoft Windows 認證為基礎的通用驗證機制。 Windows 驗證您的認證之後，您不必提供其他認證來連接應用程式。  

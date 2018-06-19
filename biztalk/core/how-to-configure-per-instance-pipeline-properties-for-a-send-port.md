@@ -1,11 +1,11 @@
 ---
-title: "如何設定傳送埠的每個執行個體管線屬性 |Microsoft 文件"
-ms.custom: 
+title: 如何設定傳送埠的每個執行個體管線屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipelines, properties
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - send ports, pipelines
 - pipelines, configuring
 ms.assetid: c58faa9e-0dfb-458b-8f1b-d3c91bce0436
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249262"
 ---
 # <a name="how-to-configure-per-instance-pipeline-properties-for-a-send-port"></a>如何設定傳送埠的個別執行個體管線屬性
 本主題描述如何在將管線部署到 BizTalk 群組後，使用 BizTalk Server 管理主控台來設定傳送埠的管線屬性。 您所做的變更只會覆寫這個傳送埠的預設管線屬性，因此您也可以為 BizTalk 群組中的每個傳送埠設定不同的管線屬性。  

@@ -1,15 +1,15 @@
 ---
-title: "管理協調流程 |Microsoft 文件"
-description: "使用協調流程在 BizTalk Server 中，包括啟動、 停止、 繫結、 設定、 啟用追蹤、 暫止的連結等等"
-ms.custom: 
+title: 管理協調流程 |Microsoft 文件
+description: 使用協調流程在 BizTalk Server 中，包括啟動、 停止、 繫結、 設定、 啟用追蹤、 暫止的連結等等
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2553eec3-b863-45fb-90af-7eddcfa7add7
-caps.latest.revision: "31"
+caps.latest.revision: 31
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262646"
 ---
 # <a name="manage-orchestrations"></a>管理協調流程
 

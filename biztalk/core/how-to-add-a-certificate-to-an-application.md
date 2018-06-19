@@ -1,11 +1,11 @@
 ---
-title: "如何將憑證新增至應用程式 |Microsoft 文件"
-ms.custom: 
+title: 如何將憑證新增至應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - applications, certificates
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - managing [certificates], applications
 - managing [resources], certificates
 ms.assetid: 7c615002-6627-4134-9c2b-bf1c89d626c2
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248174"
 ---
 # <a name="how-to-add-a-certificate-to-an-application"></a>如何將憑證新增至應用程式
 本主題說明如何使用命令列，將憑證加入至 BizTalk 應用程式。 BizTalk Server 管理主控台上無法使用這個選項。 您可以將憑證加入至 BizTalk 應用程式，如此就可以將憑證封裝於應用程式中，從一個 BizTalk 群組傳輸到另一個群組。 您可以使用憑證，確認識別並建立傳送埠和接收位置的安全連結。 如需詳細資訊，請參閱[如何指派憑證給傳送埠](../core/how-to-assign-a-certificate-to-a-send-port.md)和[如何指派憑證給接收位置](../core/how-to-assign-a-certificate-to-a-receive-location.md)。  

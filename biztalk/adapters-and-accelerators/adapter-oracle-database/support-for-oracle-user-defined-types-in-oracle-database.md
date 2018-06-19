@@ -1,14 +1,14 @@
 ---
-title: "Oracle 資料庫中的 Oracle 使用者定義型別支援 |Microsoft 文件"
-ms.custom: 
+title: Oracle 資料庫中的 Oracle 使用者定義型別支援 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 68edf0f2-a798-4096-86ca-85d2cfa9088a
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006919"
 ---
 # <a name="support-for-oracle-user-defined-types-in-oracle-database"></a>Oracle 資料庫中的 Oracle 使用者定義型別支援
 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]支援 Oracle 資料庫中執行作業的成品包含 Oracle User-Defined 型別 (Udt)。 Udt 中可以存在的下列成品：  

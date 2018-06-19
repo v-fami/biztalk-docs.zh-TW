@@ -1,11 +1,11 @@
 ---
-title: "定義彙總 |Microsoft 文件"
-ms.custom: 
+title: 定義彙總 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - aggregations [BAM], creating
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - aggregations [BAM], Excel add-in
 - aggregations [BAM], about aggregations
 ms.assetid: d5bf22d5-f491-4b08-a604-c7158e6e282f
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238446"
 ---
 # <a name="defining-aggregations"></a>定義彙總
 Excel 則定義**彙總**答案準備在問題提出之前為預先計算的資料摘要，改善查詢回應時間。 例如，當資料倉儲事實資料表包含數以萬計的資料列時，如果要查詢兩個特定產品的出貨排程，其必須掃描事實資料表進行計算，這可能需要花很長時間才能得到結果。 但是，如果已經預先計算好要回應的摘要資料，就幾乎可以立即做出回應。  

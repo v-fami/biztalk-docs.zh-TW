@@ -1,14 +1,14 @@
 ---
-title: "步驟 1： 將 EAIOrchestration 專案加入方案 |Microsoft 文件"
-ms.custom: 
+title: 步驟 1： 將 EAIOrchestration 專案加入方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1c9aa0d9-2075-4c7e-8baf-1ecd2721859a
-caps.latest.revision: "42"
+caps.latest.revision: 42
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,15 +17,16 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22276862"
 ---
 # <a name="step-1-add-eaiorchestration-project-to-the-solution"></a>步驟 1：將 EAIOrchestration 專案加入解決方案中
 ![步驟 4 之 1](../adapters-and-accelerators/adapter-oracle-ebs/media/step-1of4.gif "Step_1of4")  
   
  **若要完成的時間：** 5 分鐘  
   
- **目標：**在此步驟中，您必須加入第二個專案到 EAI 方案。 然後新增協調流程至新專案。  
+ **目標：** 在此步驟中，您必須加入第二個專案到 EAI 方案。 然後新增協調流程至新專案。  
   
- **用途：**建立協調流程的個別專案。 當有幾個不同的人在處理方案時，這是有所助益的。 您使用新協調流程自動化本課程的商務程序。  
+ **用途：** 建立協調流程的個別專案。 當有幾個不同的人在處理方案時，這是有所助益的。 您使用新協調流程自動化本課程的商務程序。  
   
 ## <a name="prerequisites"></a>必要條件  
  開始此步驟之前，請注意下列需求：  

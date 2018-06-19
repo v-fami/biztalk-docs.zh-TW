@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 68c59def-d73b-4880-9884-ccbe5d982f4b
-caps.latest.revision: ''
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22242486"
 ---
 # <a name="dehydration-default-properties"></a>凍結預設屬性
 以下是凍結屬性名稱及其預設值。 這些屬性可在 [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)] 中設定，也可在 BTSNTSvc.exe.config 檔 (BTSNTSvc.exe.config 或 BTSNTSvc64.exe.config) 中設定為 XML。 BizTalk 組態檔中的值將先套用。 然後 [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)] 設定才會套用。 所有包含協調流程的主控件執行個體啟動時，將讀取凍結屬性。  

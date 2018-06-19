@@ -1,17 +1,17 @@
 ---
-title: "建立交易式協調流程 |Microsoft 文件"
-ms.custom: 
+title: 建立交易式協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, transactional
 - Scope shape [Orchestration Designer]
 ms.assetid: ae41eafe-5390-4d79-9c2d-6f60e41ab396
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22261830"
 ---
 # <a name="making-orchestrations-transactional"></a>建立交易式協調流程
 您可以設定您的協調流程為異動，非常類似您可以設定的相同方式**範圍**圖形做為交易。  

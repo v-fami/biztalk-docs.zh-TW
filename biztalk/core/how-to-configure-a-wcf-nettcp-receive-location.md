@@ -1,14 +1,14 @@
 ---
-title: "如何設定 Wcf-nettcp 接收位置 |Microsoft 文件"
-ms.custom: 
+title: 如何設定 Wcf-nettcp 接收位置 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 937862ca-14cb-4eda-8176-38c15423679e
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250766"
 ---
 # <a name="how-to-configure-a-wcf-nettcp-receive-location"></a>如何設定 WCF-NetTcp 接收位置
 您可以用程式設計方式或使用 BizTalk 管理主控台來設定 WCF-NetTcp 接收位置。  
@@ -45,7 +46,7 @@ ms.lasthandoff: 09/20/2017
 |**TransportProtectionLevel**|Enum<br /><br /> -   **無**： 無保護。<br />-   **符號**： 簽署訊息。<br />-   **EncryptAndSign**： 加密及簽署訊息。|定義在 TCP 傳輸層的安全性。 簽署訊息可以降低訊息在傳輸時遭到第三者竄改的風險。 加密可在傳輸時提供資料等級的隱私權。<br /><br /> 預設值： **EncryptAndSign**|  
 |**MessageClientCredentialType**|Enum<br /><br /> -   **無**<br />-   **Windows**<br />-   **使用者名稱**<br />-   **憑證**<br /><br /> 如需有關成員名稱的**MessageClientCredentialType**屬性，請參閱**訊息用戶端認證類型**屬性**Wcf-nettcp 傳輸屬性對話方塊方塊中，接收、 安全性** 索引標籤[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。|指定當使用以訊息為基礎的安全性來執行用戶端驗證時，所要使用的認證類型。<br /><br /> 預設值： **Windows**|  
 |**AlgorithmSuite**|Enum<br /><br /> 如需有關成員名稱的**AlgorithmSuite**屬性，請參閱**演算法套件**屬性**Wcf-nettcp 傳輸屬性對話方塊、 接收、 安全性**  索引標籤[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。|指定訊息加密和 Key Wrap 演算法。 這些演算法會對應到安全性原則語言 (WS-SecurityPolicy) 規格中所指定的演算法。<br /><br /> 預設值： **Basic256**|  
-|**ServiceCertificate**|字串|針對此接收位置指定用戶端用來驗證服務之 X.509 憑證的憑證指紋。 要用於此屬性的憑證必須安裝到**我**存放**目前使用者**位置。 **注意：**您必須將服務憑證安裝到**目前使用者**裝載此接收位置的接收處理常式的使用者帳戶的位置。 <br /><br /> 預設為空字串。|  
+|**ServiceCertificate**|字串|針對此接收位置指定用戶端用來驗證服務之 X.509 憑證的憑證指紋。 要用於此屬性的憑證必須安裝到**我**存放**目前使用者**位置。 **注意：** 您必須將服務憑證安裝到**目前使用者**裝載此接收位置的接收處理常式的使用者帳戶的位置。 <br /><br /> 預設為空字串。|  
 |**UseSSO**|布林|指定是否使用「企業單一登入」(SSO) 來擷取用戶端認證，以便發出 SSO 票證。 如需有關安全性組態支援 SSO，請參閱 「 企業單一登入可支援性的 Wcf-nettcp 接收配接器 > 一節中**Wcf-nettcp 傳輸屬性對話方塊、 接收、 安全性**  索引標籤[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。|  
 |**InboundBodyLocation**|Enum<br /><br /> -   **UseBodyElement** -使用內容的 SOAP**主體**內送訊息建立 BizTalk 訊息內文部分的項目。 如果 **Body** 元素有一個以上的子元素，則只有第一個元素會成為 BizTalk 訊息內文部分。<br />-   **UseEnvelope** -建立 BizTalk 訊息內文部分的整個 SOAP 從**信封**內送訊息。<br />-   **UseBodyPath** -使用中的內文路徑運算式**InboundBodyPathExpression**屬性以建立 BizTalk 訊息內文部分。 內文路徑運算式會依照內送訊息 SOAP **Body** 元素的直系子元素來進行評估。 此屬性只對請求-回應連接埠有效。<br /><br /> 如需有關如何使用**InboundBodyLocation**屬性，請參閱[指定 WCF 配接器的訊息本文](../core/specifying-the-message-body-for-the-wcf-adapters.md)。|指定資料選取範圍，soap**主體**內送 WCF 訊息的項目。<br /><br /> 預設值： **UseBodyElement**|  
 |**InboundBodyPathExpression**|字串<br /><br /> 如需有關如何使用**InboundBodyPathExpression**屬性，請參閱[WCF 配接器屬性結構描述和屬性](../core/wcf-adapters-property-schema-and-properties.md)。|指定內文路徑運算式來識別用於建立 BizTalk 訊息內文部分之內送訊息的特定部分。 此內文路徑運算式評估的 soap 的直系子元素**主體**節點內送訊息。 如果此內文路徑運算式傳回一個以上的節點，則只會為 BizTalk 訊息內文部分選擇第一個節點。 如果這個屬性，則需要**InboundBodyLocation**屬性設定為**UseBodyPath**。<br /><br /> 預設為空字串。|  

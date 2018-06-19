@@ -1,14 +1,14 @@
 ---
-title: "結構描述 Validation2 |Microsoft 文件"
-ms.custom: 
+title: 結構描述 Validation2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2f9d1576-10df-4c5a-9ae0-618f0dd54b4e
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269238"
 ---
 # <a name="schema-validation"></a>結構描述驗證
 EDI 接收管線和 EDI 傳送管線會使用下列結構描述驗證訊息：  

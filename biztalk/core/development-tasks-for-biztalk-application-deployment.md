@@ -1,11 +1,11 @@
 ---
-title: "BizTalk 應用程式部署的開發工作 |Microsoft 文件"
-ms.custom: 
+title: BizTalk 應用程式部署的開發工作 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - developing, deploying
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - applications, developing
 - developing, tasks
 ms.assetid: b441d4f4-122e-4caf-8381-723c6142b0b6
-caps.latest.revision: "28"
+caps.latest.revision: 28
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22242550"
 ---
 # <a name="development-tasks-for-biztalk-application-deployment"></a>BizTalk 應用程式部署的開發工作
 以下是從 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 將 BizTalk 組件部署到 BizTalk 應用程式、完成此應用程式，以及準備將它部署到測試環境的相關步驟。 這個部署案例在開發環境中極為常見，在此環境下，程式設計人員會開發及偵錯特定的 BizTalk 商務方案。  

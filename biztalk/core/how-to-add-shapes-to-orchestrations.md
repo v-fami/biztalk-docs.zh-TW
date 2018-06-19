@@ -1,11 +1,11 @@
 ---
-title: "如何新增圖形至協調流程 |Microsoft 文件"
-ms.custom: 
+title: 如何新增圖形至協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - shapes, orchestrations
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Message Assignment shape [Orchestration Designer]
 - Scope shape [Orchestration Designer]
 ms.assetid: d39eb12c-cdc6-4918-93d9-536db1dfb889
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246950"
 ---
 # <a name="how-to-add-shapes-to-orchestrations"></a>如何新增圖形至協調流程
 本節描述在您的協調流程中新增及移除圖形的程序。 如需可用圖形的詳細資訊，請參閱[協調流程圖形](../core/orchestration-shapes.md)。  

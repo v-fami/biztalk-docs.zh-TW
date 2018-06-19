@@ -1,11 +1,11 @@
 ---
-title: "SOAP 標頭與已使用的 Web 服務 |Microsoft 文件"
-ms.custom: 
+title: SOAP 標頭與已使用的 Web 服務 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SOAP headers, code samples
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - SOAP headers, Web services
 - Web services, code samples
 ms.assetid: 7be2eee1-ce1c-4611-985c-91dbc8492d6e
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22276566"
 ---
 # <a name="soap-headers-with-consumed-web-services"></a>SOAP 標頭與已使用的 Web 服務
 您將 Web 服務加入至您的協調流程使用之後**加入 Web 參考**對話方塊中，您可以使用 Web 服務中的 Web 服務描述語言 (WSDL) 定義的 SOAP 標頭。  

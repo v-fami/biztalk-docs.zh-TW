@@ -1,14 +1,14 @@
 ---
-title: "安裝 Bam-eventing 軟體 |Microsoft 文件"
-ms.custom: 
+title: 安裝 Bam-eventing 軟體 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a3638d34-f5a8-4ffd-99eb-d38aed4c0732
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257446"
 ---
 # <a name="installing-the-bam-eventing-software"></a>安裝 BAM-Eventing 軟體
 若要使用 BAM-Eventing API 來實作 BAM 方案，或是設定您的 Windows Workflow Foundation 或 Windows Communication Foundation 應用程式來使用 Windows Workflow Foundation 適用的 BAM 攔截器，您必須使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 安裝程式來安裝 BAM-Eventing 軟體。 這個軟體可以安裝為 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 執行階段的一部分，或是在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 安裝應用程式中選取 [其他軟體] 底下的 [BAM Eventing Support] 來個別安裝。  

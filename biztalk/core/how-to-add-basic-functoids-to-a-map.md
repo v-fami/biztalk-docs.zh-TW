@@ -1,14 +1,14 @@
 ---
-title: "如何新增基本運算質至對應 |Microsoft 文件"
-ms.custom: 
+title: 如何新增基本運算質至對應 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6a81fb73-cccf-4f74-af92-39e4af13e255
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248982"
 ---
 # <a name="how-to-add-basic-functoids-to-a-map"></a>如何新增基本運算質至對應
 許多運算質都很易於使用。 這些稱為這裡以便區別中的運算質的基本運算質**進階**類別目錄。 基本運算質組成其餘的類別，例如轉換、 累計、 資料庫、 日期和時間、 邏輯、 數學、 科學，以及字串運算質。  

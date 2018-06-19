@@ -1,17 +1,17 @@
 ---
-title: "如何新增 Catch 例外狀況 Block2 |Microsoft 文件"
-ms.custom: 
+title: 如何新增 Catch 例外狀況 Block2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Catch Exception blocks
 - exceptions, Catch Exception blocks
 ms.assetid: 7c8b6024-e8dc-4417-83f9-bf4032644b91
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246838"
 ---
 # <a name="how-to-add-a-catch-exception-block"></a>如何新增 Catch 例外狀況區塊
 **Catch 例外狀況**區塊代表例外狀況處理常式。 **攔截例外狀況**區塊會附加至結尾**範圍**協調流程設計師中的圖形。 您可以附加多個**Catch 例外狀況**視需要會封鎖。  

@@ -1,14 +1,14 @@
 ---
-title: "交換狀態和通知詳細資料狀態報告 |Microsoft 文件"
-ms.custom: 
+title: 交換狀態和通知詳細資料狀態報告 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ebba4af5-6dff-4bb8-9c63-739ef49bbbb8
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257638"
 ---
 # <a name="interchange-status-and-ack-details-status-report"></a>交換狀態和通知詳細資料狀態報告
 這份狀態報告會顯示交換的詳細資料，以及與其相關的交換 (技術) 通知和功能通知。 顯示此報表的交換內 交換/通知狀態報告，以滑鼠右鍵按一下，然後按一下 **交換狀態和通知詳細資料**。  

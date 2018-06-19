@@ -1,14 +1,14 @@
 ---
-title: "無效的位址 (相對 uri 需要斜線 (&quot;-&quot;)) |Microsoft 文件"
-ms.custom: 
+title: 無效的位址 (相對 uri 需要斜線 (&quot;-&quot;)) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1376f924-f119-4ba8-9be1-eea7ba5f3eb6
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257566"
 ---
 # <a name="invalid-address-relative-uri-needs-slash-quot-quot"></a>無效的位址 (相對 uri 需要斜線 (&quot;-&quot;))
 ## <a name="details"></a>詳細資料  
@@ -55,7 +56,7 @@ ms.lasthandoff: 09/20/2017
   
 8.  在**WCF [***傳輸類型***] 傳輸屬性**對話方塊中，按一下 [**一般**] 索引標籤。  
   
-9. 在**位址 (URI)**文字方塊中，變更地址。 舉例來說，語式正確的相對位址是 /path/service.svc。  
+9. 在**位址 (URI)** 文字方塊中，變更地址。 舉例來說，語式正確的相對位址是 /path/service.svc。  
   
  如需有關接收位置，請參閱下列內容：  
   

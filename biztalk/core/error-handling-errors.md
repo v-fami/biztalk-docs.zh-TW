@@ -1,14 +1,14 @@
 ---
-title: "處理錯誤的錯誤 |Microsoft 文件"
-ms.custom: 
+title: 處理錯誤的錯誤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 602be8a5-1f28-457d-8e12-ba06cff65491
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240822"
 ---
 # <a name="error-handling-errors"></a>錯誤處理錯誤
 診斷及解決 WCF 錯誤處理錯誤的資訊。  

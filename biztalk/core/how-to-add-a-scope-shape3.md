@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248062"
 ---
 # <a name="how-to-add-a-scope-shape"></a>如何新增範圍圖形
 使用下列程序來新增「範圍」圖形。  

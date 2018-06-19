@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262046"
 ---
 # <a name="lesson-2-define-the-business-process"></a>課程 2：定義商務程序
 在這一課，您要在「企業應用程式整合」(EAI) 方案中建立第二個專案。 此專案包含一個協調流程。  

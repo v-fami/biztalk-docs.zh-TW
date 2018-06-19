@@ -1,14 +1,14 @@
 ---
-title: "單一登入： 事件 10680 |Microsoft 文件"
-ms.custom: 
+title: 單一登入： 事件 10680 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 88ea12ff-d181-423f-9054-b0c656cc4558
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270678"
 ---
 # <a name="single-sign-on-event-10680"></a>單一登入： 事件 10680
 ## <a name="details"></a>詳細資料  

@@ -1,17 +1,17 @@
 ---
-title: "如何建立應用程式 |Microsoft 文件"
-ms.custom: 
+title: 如何建立應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - applications, creating
 - creating, applications
 ms.assetid: 6a8682a7-3bef-4978-996f-5a9c5154ce62
-caps.latest.revision: "28"
+caps.latest.revision: 28
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250134"
 ---
 # <a name="how-to-create-an-application"></a>如何建立應用程式
 有三個方法可建立新的 BizTalk 應用程式：  

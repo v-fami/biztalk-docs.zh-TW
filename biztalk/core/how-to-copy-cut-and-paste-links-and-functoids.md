@@ -1,14 +1,14 @@
 ---
-title: "如何複製、 剪下及貼上連結與運算質 |Microsoft 文件"
-ms.custom: 
+title: 如何複製、 剪下及貼上連結與運算質 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 80b4792a-5ff6-4603-96cd-b3d3d530c12f
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250366"
 ---
 # <a name="how-to-copy-cut-and-paste-links-and-functoids"></a>如何複製、剪下與貼上連結和運算質
 「BizTalk 對應工具」中的複製/剪下/貼上功能可讓人重複使用關係。 本主題提供在對應中複製、剪下及貼上運算質和/或連結的逐步指示。  

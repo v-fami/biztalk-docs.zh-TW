@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239854"
 ---
 # <a name="engine-control-functions"></a>引擎控制函式
 本節會說明與數個商務規則引擎控制函式相關的行為，這些函式可允許應用程式或原則來控制規則引擎工作記憶體中的事實。 工作記憶體中出現的事實會驅動要評估的條件及要執行的動作。  

@@ -1,11 +1,11 @@
 ---
-title: "如何設定 Wcf-nettcp 傳送處理常式 |Microsoft 文件"
-ms.custom: 
+title: 如何設定 Wcf-nettcp 傳送處理常式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - send handlers, WCF-NetTcp adapters
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - WCF-NetTcp adapters, global variables
 - configuring [WCF-NetTcp adapters], global variables
 ms.assetid: c60fe03d-7e11-4e08-9a24-8ff443eee9c1
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247910"
 ---
 # <a name="how-to-configure-a-wcf-nettcp-send-handler"></a>如何設定 WCF-NetTcp 傳送處理常式
 使用下列程序，定 WCF-NetTcp 傳送處理常式。  

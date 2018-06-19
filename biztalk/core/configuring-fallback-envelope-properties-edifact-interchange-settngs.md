@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22233030"
 ---
 # <a name="configuring-fallback-envelope-properties-edifact-interchange-settngs"></a>設定後援信封屬性 (EDIFACT-交換設定)
 本節提供如何設定外寄 EDIFACT 訊息之信封的指示。  
@@ -34,7 +35,7 @@ ms.lasthandoff: 04/20/2018
   
 4.  如 **通訊協議 (UNB10)**, ，輸入最少一個字元，最多 35 個字元的英數字元值。 這是選擇性欄位。  
   
-5.  選取**測試指示符號 (UNB11)**表示所產生的交換[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]是測試資料。  
+5.  選取**測試指示符號 (UNB11)** 表示所產生的交換[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]是測試資料。  
   
 6.  選取 **套用 UNA 區段 （字串服務建議）** 來產生要傳送交換的 UNA 區段。 如果已核取此選項，然後 **UNA6** 不可為空白， **UNA 6 尾碼** 無法 **無**。  
   

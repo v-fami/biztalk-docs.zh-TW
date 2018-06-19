@@ -1,14 +1,14 @@
 ---
-title: "步驟 10： 設定 X12 和 AS2 交易夥伴協議 |Microsoft 文件"
-ms.custom: 
+title: 步驟 10： 設定 X12 和 AS2 交易夥伴協議 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8fcdb3af-727a-4d20-9dcf-cf162e7d3398
-caps.latest.revision: "46"
+caps.latest.revision: 46
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279198"
 ---
 # <a name="step-10-configure-the-x12-and-as2-trading-partner-agreement"></a>步驟 10： 設定 X12 和 AS2 交易夥伴協議
 ![步驟 10 的 11](../core/media/tut-step10-of-11.gif "Tut_Step10_of_11")  
@@ -30,7 +31,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  按一下**啟動**，按一下 **所有程式**，按一下  **Microsoft BizTalk Server**，然後按一下 **BizTalk Server 管理**。  
   
-2.  在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，按一下 **合作對象**的主控台樹狀目錄中，然後在**合作對象與商務設定檔**頁面上，以滑鼠右鍵按一下**[fabrikam_profile]**，指向 **新增**，然後按一下**協議**。  
+2.  在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，按一下 **合作對象**的主控台樹狀目錄中，然後在**合作對象與商務設定檔**頁面上，以滑鼠右鍵按一下 **[fabrikam_profile]**，指向 **新增**，然後按一下**協議**。  
   
 3.  在**一般屬性** 頁面上，針對**名稱**文字方塊中，輸入協議的名稱。  
   
@@ -53,7 +54,7 @@ ms.lasthandoff: 09/20/2017
         > [!NOTE]
         >  設定此屬性可確保產生 MDN 時使用的是合作對象屬性，而不是使用已接收之 AS2 訊息的 AS2 標頭。  
   
-    3.  在**通知 (Mdn)**頁面上，執行下列動作：  
+    3.  在**通知 (Mdn)** 頁面上，執行下列動作：  
   
         1.  選取**要求 MDN**核取方塊。  
   
@@ -61,7 +62,7 @@ ms.lasthandoff: 09/20/2017
   
         3.  選取**要求非同步 MDN**核取方塊。  
   
-        4.  在**回條傳遞選項 (URL)**文字方塊中，輸入`http://localhost/Fabrikam/Default.aspx?Destination=_MDNToFabrikam`。  
+        4.  在**回條傳遞選項 (URL)** 文字方塊中，輸入`http://localhost/Fabrikam/Default.aspx?Destination=_MDNToFabrikam`。  
   
 9. 在上執行下列工作**Contoso-> Fabrikam**  索引標籤。  
   
@@ -121,15 +122,15 @@ ms.lasthandoff: 09/20/2017
   
         |使用|動作|  
         |--------------|----------------|  
-        |**預設值**|選取**預設**。 **注意：**當您選取這個資料列的預設值為**GS1**， **GS2**， **GS3**， **GS7**，和**GS8**可用即使值**交易類型**，**版本/版次**，和**目標命名空間**都不符合訊息。|  
+        |**預設值**|選取**預設**。 **注意：** 當您選取這個資料列的預設值為**GS1**， **GS2**， **GS3**， **GS7**，和**GS8**可用即使值**交易類型**，**版本/版次**，和**目標命名空間**都不符合訊息。|  
         |**交易類型**|例如，選取您的測試訊息的訊息類型**864-文字訊息**。|  
         |**版本/版次**|輸入**00401**。|  
         |**目標命名空間**|選取**http://schemas.microsoft.com/BizTalk/EDI/X12/2006**。|  
         |**GS1**|確認已選取測試訊息的訊息類型，例如**TX-簡訊 (864)**。|  
         |**GS2**|輸入**01**。|  
         |**GS3**|輸入**7654321**。|  
-        |**GS4**|選取您想要的日期格式。 選取**CCYYMMDD**。 **注意：**您必須在下拉式清單中選取值，不只是按一下欄位以顯示預設值。 如果您按一下欄位而未從下拉式清單中選取值，實際上不會選取值。|  
-        |**GS5**|選擇您要的時間格式。 選取**[hhmmssdd]**。|  
+        |**GS4**|選取您想要的日期格式。 選取**CCYYMMDD**。 **注意：** 您必須在下拉式清單中選取值，不只是按一下欄位以顯示預設值。 如果您按一下欄位而未從下拉式清單中選取值，實際上不會選取值。|  
+        |**GS5**|選擇您要的時間格式。 選取 **[hhmmssdd]**。|  
         |**GS7**|選取**T-Transportation Data Coordinating Committee (TDCC)**。|  
         |**GS8**|請確認已輸入 EDI 版本做**00401**。|  
   

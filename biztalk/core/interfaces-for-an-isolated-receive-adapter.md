@@ -1,14 +1,14 @@
 ---
-title: "介面的外掛式接收配接器 |Microsoft 文件"
-ms.custom: 
+title: 介面的外掛式接收配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5c6b195e-76bf-4c3e-a324-5513bc24fed1
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257766"
 ---
 # <a name="interfaces-for-an-isolated-receive-adapter"></a>外掛式接收配接器介面
 外掛式接收配接器是裝載於 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 程序之外的程序空間內。 若要與「傳訊引擎」互動，外掛式接收配接器會在啟動時進行註冊，讓引擎能對它進行設定和控制。 配接器會建立傳輸 proxy、 查詢介面**IBTTransportProxy**，並呼叫**IBTTransportProxy.RegisterIsolatedReceiver**註冊其**IBTTransportConfig**與傳訊引擎回呼介面。 此同步呼叫發生後，配接器才會提交其第一個訊息至 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。 這可讓傳訊引擎回呼配接器，告訴它哪些結束點作用中並應接聽是否有內送訊息。 外掛式配接器必須實作下列介面：  

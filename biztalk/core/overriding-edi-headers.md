@@ -1,14 +1,14 @@
 ---
-title: "覆寫 EDI 標頭 |Microsoft 文件"
-ms.custom: 
+title: 覆寫 EDI 標頭 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 16c19d3d-eab2-4d44-8752-25aeadb537a4
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22265438"
 ---
 # <a name="overriding-edi-headers"></a>覆寫 EDI 標頭
 傳送 EDI 編碼交換時，套用至訊息的 EDI 信封通常是根據接收端協議的 EDI 屬性，或是後援協議屬性。 不過，根據執行階段產生的值來設定 EDI 信封屬性通常會很有用。  

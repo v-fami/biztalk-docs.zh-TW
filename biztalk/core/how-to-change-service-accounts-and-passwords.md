@@ -1,14 +1,14 @@
 ---
-title: "如何變更服務帳戶和密碼 |Microsoft 文件"
-ms.custom: 
+title: 如何變更服務帳戶和密碼 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dff53d6b-c262-4b66-b822-1c61f54ae105
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248886"
 ---
 # <a name="how-to-change-service-accounts-and-passwords"></a>如何變更服務帳戶和密碼
 設定 BizTalk Server 之後，組織通常需要依據帳戶原則 (例如，密碼原則和帳戶鎖定原則) 變更服務帳戶或密碼。 如需有關帳戶原則的詳細資訊，請參閱 Microsoft TechNet 網站，網址[http://go.microsoft.com/fwlink/?LinkId=62172](http://go.microsoft.com/fwlink/?LinkId=62172)。  
@@ -37,7 +38,7 @@ ms.lasthandoff: 09/20/2017
     |主要密碼伺服器上的企業單一登入 (SSO) 服務|1.請確定您具有主要密碼的備份。 如需詳細資訊，請參閱[如何重新設定主要密碼](../core/how-to-back-up-the-master-secret.md)。<br />2.使用 [服務] 主控台變更服務帳戶。<br />3.還原主要密碼。 如需詳細資訊，請參閱[如何還原主要密碼](../core/how-to-restore-the-master-secret.md)。|重新啟動服務|使用 [服務] 主控台變更帳戶密碼。|重新啟動服務|  
     |企業單一登入服務|使用 [服務] 主控台變更服務帳戶。|重新啟動服務|使用 [服務] 主控台變更帳戶密碼。|重新啟動服務|  
     |BizTalk 主控件執行個體|使用 BizTalk Server 管理主控台變更服務帳戶|重新啟動 BizTalk 主控件執行個體。|使用 [BizTalk Server 管理] 主控台或 [服務] 主控台變更帳戶的密碼。|重新啟動 BizTalk 主控件執行個體|  
-    |BizTalk 外掛式主控件執行個體以及裝載 SOAP 接收配接器的對應應用程式集區|1.使用 BizTalk Server 管理主控台變更服務帳戶<br />2.變更使用 IIS 管理主控台應用程式集區帳戶**附註：**應用程式集區的服務帳戶應該符合對應的外掛式主控件服務帳戶。|1.使用 [IIS 管理] 主控台變更對應應用程式集區的服務帳戶。<br />2.使用 [IIS 管理] 主控台重新啟動應用程式集區。|變更執行應用程式集區之帳戶的密碼。 使用 IIS 管理主控台**附註：**您不需要變更密碼之後變更 BizTalk Server 管理主控台中的密碼。|1.使用 [IIS 管理] 主控台變更執行對應應用程式集區之帳戶的密碼。<br />2.使用 [IIS 管理] 主控台重新啟動應用程式集區。|  
+    |BizTalk 外掛式主控件執行個體以及裝載 SOAP 接收配接器的對應應用程式集區|1.使用 BizTalk Server 管理主控台變更服務帳戶<br />2.變更使用 IIS 管理主控台應用程式集區帳戶**附註：** 應用程式集區的服務帳戶應該符合對應的外掛式主控件服務帳戶。|1.使用 [IIS 管理] 主控台變更對應應用程式集區的服務帳戶。<br />2.使用 [IIS 管理] 主控台重新啟動應用程式集區。|變更執行應用程式集區之帳戶的密碼。 使用 IIS 管理主控台**附註：** 您不需要變更密碼之後變更 BizTalk Server 管理主控台中的密碼。|1.使用 [IIS 管理] 主控台變更執行對應應用程式集區之帳戶的密碼。<br />2.使用 [IIS 管理] 主控台重新啟動應用程式集區。|  
     |規則引擎更新服務|使用 [組態管理員] 或 [服務] 主控台變更服務帳戶。<br /><br /> 「組態管理員」會自動重新啟動服務。|如果您使用 [服務] 主控台，則必須手動重新啟動服務。|使用 [組態管理員] 或 [服務] 主控台變更帳戶的密碼。<br /><br /> 「組態管理員」會自動重新啟動服務。|如果您使用 [服務] 主控台，則必須手動重新啟動服務。|  
     |BAM Notification Services|1.將新帳戶新增至安裝 BAM Notification Service 所在的 SQL Server。<br />2.將權限授與新帳戶。 如需必要權限的詳細資訊，請參閱[Windows 群組和 BizTalk Server 中的使用者帳戶](../core/windows-groups-and-user-accounts-in-biztalk-server.md)<br />3.使用 [服務] 主控台變更服務帳戶。|重新啟動服務|使用 [服務] 主控台變更帳戶的密碼|重新啟動服務|  
     |BAM 管理 Web 服務|1.將新的帳戶新增至適當的 SQL server，並授與的權限中[Windows 群組和 BizTalk Server 中的使用者帳戶](../core/windows-groups-and-user-accounts-in-biztalk-server.md)。<br />2.使用 [組態管理員] 變更使用者帳戶。||使用 [組態管理員] 變更使用者帳戶密碼。||  

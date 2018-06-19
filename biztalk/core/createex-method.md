@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238286"
 ---
 # <a name="createex-method"></a>CreateEx 方法
 建立新的記錄，使用一組的唯一索引鍵和指定的內容。  

@@ -1,18 +1,18 @@
 ---
-title: "商務規則引擎中的資料存取 |Microsoft 文件"
-ms.custom: 
+title: 商務規則引擎中的資料存取 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Business Rules Engine, data access
 - Business Rules Engine, helper classes
 - data, data access
 ms.assetid: 38da32af-1e0d-43fb-b946-fb49a11f1681
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238614"
 ---
 # <a name="data-access-in-the-business-rule-engine"></a>商務規則引擎中的資料存取
 規則引擎原生支援僅限.NET 物件。 若要處理資料庫的資料，您可以直接使用 ADO.NET，不過，引擎可提供一些協助程式類別，以規則簡化資料庫資料的使用。 規則引擎藉由公開三個資料庫相關的類型以延伸支援： **TypedDataRow**， **TypedDataTable**，和**DataConnection**。 本節描述這些協助程式類別、提供各種類型使用時機的建議，並討論使用這些類型時的部分效能影響。  

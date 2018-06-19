@@ -1,11 +1,11 @@
 ---
-title: "資料項目節點 |Microsoft 文件"
-ms.custom: 
+title: 資料項目節點 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - definition files [BAM], data items
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Tracking Profile Editor, node descriptions
 - Tracking Profile Editor, definition files [BAM]
 ms.assetid: 95856bfa-90e3-49d9-b55b-5f1b35a23f78
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238022"
 ---
 # <a name="data-item-nodes"></a>資料項目節點
 資料項目節點存在於開發人員從商務分析師所建立觀察模型匯入的活動定義檔案中。 追蹤設定檔編輯器 (TPE) 將這些節點命名為節點所追蹤的資料項目，例如 Customer Name。 接著，您將「訊息結構描述檢視」(Message Schema View) 中的一或多個資料項目放到對應於 Customer Name 的節點。  

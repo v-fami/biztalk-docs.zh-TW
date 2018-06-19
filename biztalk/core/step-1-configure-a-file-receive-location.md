@@ -1,14 +1,14 @@
 ---
-title: "步驟 1： 設定檔案接收位置 |Microsoft 文件"
-ms.custom: 
+title: 步驟 1： 設定檔案接收位置 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: df591263-964a-4ad8-bc3a-a553de8dae4f
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278254"
 ---
 # <a name="step-1-configure-a-file-receive-location"></a>步驟 1： 設定檔案接收位置
 本主題中，您可以設定讓檔案接收位置使用拖放到檔案資料夾，即可叫用傳送埠的虛擬要求訊息。  

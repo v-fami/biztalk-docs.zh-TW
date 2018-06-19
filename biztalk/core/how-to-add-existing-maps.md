@@ -1,14 +1,14 @@
 ---
-title: "如何新增現有的對應 |Microsoft 文件"
-ms.custom: 
+title: 如何新增現有的對應 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fbeaea05-016e-488c-90f3-af8c6b9a3d84
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247454"
 ---
 # <a name="how-to-add-existing-maps"></a>如何新增現有的對應
 您可能時常要新增現有的對應到 BizTalk 專案。 在進行之前，您必須確定對應的來源與目的結構描述都包含在您要新增對應的 BizTalk 專案中；或者，由對應的 .NET 組件所參考。  

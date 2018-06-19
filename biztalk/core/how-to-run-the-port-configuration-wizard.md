@@ -1,11 +1,11 @@
 ---
-title: "如何執行連接埠組態精靈 |Microsoft 文件"
-ms.custom: 
+title: 如何執行連接埠組態精靈 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Port Configuration Wizard [Orchestration Designer], starting
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - ports, Port Configuration Wizard [Orchestration Designer]
 - Port Configuration Wizard [Orchestration Designer]
 ms.assetid: 8035ce32-5ed4-49cb-b6f0-998b0460751e
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255790"
 ---
 # <a name="how-to-run-the-port-configuration-wizard"></a>如何執行連接埠組態精靈
 您可以使用 [連接埠組態精靈] 來建立和設定「協調流程設計師」中的連接埠。 連接埠必須具有與其相關聯的連接埠類型，您可以使用精靈選取現有的連接埠類型或建立新的連接埠類型。 如需連接埠和連接埠類型的詳細資訊，請參閱[協調流程中使用連接埠](../core/using-ports-in-orchestrations.md)。  

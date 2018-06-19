@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269630"
 ---
 # <a name="sendports-distributionlist-node"></a>SendPorts (DistributionList 節點)
 繫結檔案之 DistributionList 節點的 SendPorts 節點是通訊群組清單中傳送埠參考的容器節點。  

@@ -1,14 +1,14 @@
 ---
-title: "欄位考量 |Microsoft 文件"
-ms.custom: 
+title: 欄位考量 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8d7f1853-60ed-49c2-a592-61bde5445d36
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22245782"
 ---
 # <a name="field-considerations"></a>欄位考量
 有許多考量使用時，應謹記在心**欄位項目**和**欄位屬性**節點在結構描述內。 這包括有關使用這些節點類型之時機的基本區別，以及與欄位長度、欄位對齊和欄位填補等規格相關的特定考量。 本節提供這些考量的相關資訊。  

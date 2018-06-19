@@ -1,14 +1,14 @@
 ---
-title: "分隔符號不是唯一的欄位與元件分隔符號相同 |Microsoft 文件"
-ms.custom: 
+title: 分隔符號不是唯一的欄位與元件分隔符號相同 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cba15b30-b07d-4caa-8c43-6b4d8c4ca81c
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238550"
 ---
 # <a name="delimiters-are-not-unique-field-and-component-separator-are-the-same"></a>分隔符號不是唯一、 欄位和元件分隔符號相同
 ## <a name="details"></a>詳細資料  

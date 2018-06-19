@@ -1,14 +1,14 @@
 ---
-title: "如何驗證在 Visual Studio 中的結構描述 |Microsoft 文件"
-ms.custom: 
+title: 如何驗證在 Visual Studio 中的結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5dc82fb5-c5f6-4bbd-a133-458d95f30271
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256590"
 ---
 # <a name="how-to-validate-schemas-in-visual-studio"></a>如何驗證在 Visual Studio 中的結構描述
 建構結構描述之後，您可以使用隔離方式驗證結構描述本身，以檢查您的工作。  

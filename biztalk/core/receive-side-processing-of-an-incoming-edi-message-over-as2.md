@@ -1,14 +1,14 @@
 ---
-title: "接收端處理透過 AS2 內送的 EDI 訊息 |Microsoft 文件"
-ms.custom: 
+title: 接收端處理透過 AS2 內送的 EDI 訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 118451ab-d847-4f87-80ab-3cf812d71ac3
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270062"
 ---
 # <a name="receive-side-processing-of-an-incoming-edi-message-over-as2"></a>透過 AS2 從接收端處理內送 EDI 訊息
 透過 AS2 從接收端處理 EDI 訊息的作業包括接收 AS2 訊息、傳送 MDN、處理 EDI 內容，以及傳送 EDI 通知 (若已啟用)。  

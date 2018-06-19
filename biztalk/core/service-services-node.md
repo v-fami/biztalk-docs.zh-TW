@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270246"
 ---
 # <a name="service-services-node"></a>服務 (服務節點)
 繫結檔案的 [服務] 節點，包含與該繫結檔案一起匯出之服務的相關資訊。 服務節點也包含一些描述與服務關聯之連接埠和角色的節點，以及一個描述與服務關聯之主控件的節點。  

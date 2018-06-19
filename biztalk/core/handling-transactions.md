@@ -1,14 +1,14 @@
 ---
-title: "處理交易 |Microsoft 文件"
-ms.custom: 
+title: 處理交易 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1d360742-e969-4651-b364-9edc6a93b8d4
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248150"
 ---
 # <a name="handling-transactions"></a>處理交易
 ## <a name="transacted-receivers"></a>交易接收方  
@@ -45,7 +46,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="transacted-transmitters"></a>交易傳輸器  
  交易配接器絕大部分都和非交易配接器非常相似。 主要的差異，在於交易配接器會將訊息中的資料傳送至已經登錄於 MSDTC 交易中的資源。  
   
- **實作秘訣：**對於交易傳送，配接器應該使用相同的 MSDTC 交易將資料寫入目的地，以及刪除它透過**IBTTransportBatch.DeleteMessage**方法呼叫。 只需要交易這兩項作業即可。 任何其他作業，例如**IBTTransportBatch.Resubmit**， **IBTTransportBatch.MoveToNextTransport**，和**IBTTransportBatch.MoveToSuspendQ**不需要是交易。 這是因為引擎會隱含地使用交易，而這些作業類型對目的地而言，不必是不可部分完成的。  
+ **實作秘訣：** 對於交易傳送，配接器應該使用相同的 MSDTC 交易將資料寫入目的地，以及刪除它透過**IBTTransportBatch.DeleteMessage**方法呼叫。 只需要交易這兩項作業即可。 任何其他作業，例如**IBTTransportBatch.Resubmit**， **IBTTransportBatch.MoveToNextTransport**，和**IBTTransportBatch.MoveToSuspendQ**不需要是交易。 這是因為引擎會隱含地使用交易，而這些作業類型對目的地而言，不必是不可部分完成的。  
   
  底下的物件互動示意圖說明配接器與引擎之間的互動。 事件的順序如下：  
   

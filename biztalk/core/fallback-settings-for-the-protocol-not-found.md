@@ -1,14 +1,14 @@
 ---
-title: "找不到通訊協定的後援設定 |Microsoft 文件"
-ms.custom: 
+title: 找不到通訊協定的後援設定 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d93e5db1-16a3-4796-8fa2-fef934508034
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22245902"
 ---
 # <a name="fallback-settings-for-the-protocol-not-found"></a>找不到通訊協定的後援設定
 ## <a name="details"></a>詳細資料  

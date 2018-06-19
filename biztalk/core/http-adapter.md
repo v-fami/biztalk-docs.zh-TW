@@ -1,11 +1,11 @@
 ---
-title: "HTTP 配接器 |Microsoft 文件"
-ms.custom: 
+title: HTTP 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - HTTP adapters, receive adapters
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - send adapters, HTTP adapters
 - HTTP adapters, about HTTP adapters
 ms.assetid: a9423052-8392-4006-ab46-79834169c796
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256046"
 ---
 # <a name="http-adapter"></a>HTTP 配接器
 您使用 HTTP 配接器在 Microsoft BizTalk Server 與使用 HTTP 通訊協定的應用程式之間交換資訊。 HTTP 是內部商務訊息交換的主要通訊協定。 應用程式可以藉由傳送 HTTP POST 或 HTTP GET 要求到指定的 HTTP URL 來傳送訊息到伺服器。 HTTP 配接器接收 HTTP 要求，然後提交到 BizTalk Server 進行處理。 同樣地，BizTalk Server 可以藉由傳送 HTTP POST 要求到指定的 HTTP URL 來傳輸訊息到遠端應用程式。  

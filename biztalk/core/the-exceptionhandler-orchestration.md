@@ -1,11 +1,11 @@
 ---
-title: "ExceptionHandler 協調流程 |Microsoft 文件"
-ms.custom: 
+title: ExceptionHandler 協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - errors, systems
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - orchestrations, errors [process management solutions]
 - process management solution tutorial, errors
 ms.assetid: ac154e76-9dfe-433a-948b-e098df705fe5
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22280022"
 ---
 # <a name="the-exceptionhandler-orchestration"></a>ExceptionHandler 協調流程
 商務程序管理解決方案會使用兩種類型的例外狀況： 系統例外狀況和應用程式例外狀況。 系統例外狀況像是資源錯誤—例如網路連線失敗。 在一段時間後，這些問題有可能會自己解決，所以解決方案會重試造成系統例外狀況的所有作業。 應用程式例外狀況產生的問題較不易自行解決，如邏輯錯誤或某種形式的不一致。 解決方案會使用**ExceptionHandlerOrch**協調流程來處理系統和應用程式錯誤。  

@@ -1,11 +1,11 @@
 ---
-title: "內容屬性檢視 |Microsoft 文件"
-ms.custom: 
+title: 內容屬性檢視 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Tracking Profile Editor, message schemas
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Tracking Profile Editor, Context Property view
 - message schemas, XML messages
 ms.assetid: 17a21b86-995c-4dc2-9a3c-1309837d0b9b
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22237878"
 ---
 # <a name="context-property-view"></a>內容屬性檢視
 [內容屬性] 檢視會顯示與屬性相關聯的 XML 訊息結構描述。 您可以從 [協調流程排程] 檢視中某些圖形的捷徑功能表存取該檢視。  

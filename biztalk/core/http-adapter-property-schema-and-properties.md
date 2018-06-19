@@ -1,11 +1,11 @@
 ---
-title: "HTTP 配接器屬性結構描述和屬性 |Microsoft 文件"
-ms.custom: 
+title: HTTP 配接器屬性結構描述和屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - AffiliateApplicationName property [HTTP adapters]
@@ -30,7 +30,7 @@ helpviewer_keywords:
 - ProxyUsername property [HTTP adapters]
 - UserName property, HTTP adapters
 ms.assetid: c9b50a82-8cb1-4521-9cf3-5fd77a3531e1
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -39,6 +39,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257422"
 ---
 # <a name="http-adapter-property-schema-and-properties"></a>HTTP 配接器屬性結構描述和屬性
 下表列出 HTTP 配接器屬性結構描述中的屬性。  

@@ -1,18 +1,18 @@
 ---
-title: "如何設定例外狀況圖形 |Microsoft 文件"
-ms.custom: 
+title: 如何設定例外狀況圖形 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Throw Exception shape [Orchestration Designer]
 - orchestrations, errors
 - Orchestration Designer, errors
 ms.assetid: d3190f1b-db5e-4988-bff6-f7a276760ece
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248078"
 ---
 # <a name="how-to-configure-the-throw-exception-shape"></a>如何設定例外狀況圖形
 您可以明確擲回例外狀況的協調流程中使用**擲回的例外狀況**圖形。 執行擲回動作時，執行階段引擎會搜尋最接近且可以處理擲回之例外狀況類型的例外處理常式。  

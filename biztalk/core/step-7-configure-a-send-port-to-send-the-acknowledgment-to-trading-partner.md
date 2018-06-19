@@ -1,14 +1,14 @@
 ---
-title: "步驟 7： 設定傳送埠來傳送通知給交易夥伴 |Microsoft 文件"
-ms.custom: 
+title: 步驟 7： 設定傳送埠來傳送通知給交易夥伴 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3a082870-894c-4f64-a575-3681d8a5c4ea
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279062"
 ---
 # <a name="step-7-configure-a-send-port-to-send-the-acknowledgment-to-your-trading-partner"></a>步驟 7： 設定要傳送給交易夥伴的通知的傳送埠
 ![步驟 7 9](../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-7of9.gif "Step_7of9")  

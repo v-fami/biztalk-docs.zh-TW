@@ -1,14 +1,14 @@
 ---
-title: "活動的安全性考量 |Microsoft 文件"
-ms.custom: 
+title: 活動的安全性考量 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2fc49afd-a1c3-4ac7-8b89-11be667221e2
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270054"
 ---
 # <a name="security-considerations-for-activities"></a>活動的安全性考量
 您在攔截 WCF 配接器時使用的安全性角色，與用於其他 BAM 解決方案的角色相同。 攔截 WCF 配接器的額外考量包括選取要使用的正確使用者和事件寫入者角色。  

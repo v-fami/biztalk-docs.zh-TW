@@ -1,14 +1,14 @@
 ---
-title: "如何判斷目前的單一登入存取 |Microsoft 文件"
-ms.custom: 
+title: 如何判斷目前的單一登入存取 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cab68dfc-27cd-4f7c-a0df-20c670306358
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249254"
 ---
 # <a name="how-to-determine-current-single-sign-on-access"></a>如何判斷目前的單一登入存取
 您需要為使用者執行的其中一個首要工作，就是判斷已為目前的使用者設定哪些附屬應用程式。 您可以呼叫 ISSOMapper.GetApplications 以執行此查詢。  

@@ -1,14 +1,14 @@
 ---
-title: "設定 AS2 方案的通訊埠 |Microsoft 文件"
-ms.custom: 
+title: 設定 AS2 方案的通訊埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 715358b1-4226-476b-b0de-2b91434aa24c
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233582"
 ---
 # <a name="configuring-ports-for-an-as2-solution"></a>設定 AS2 方案的連接埠
 您可以使用下列接收埠和傳送埠，透過 AS2 來傳輸 EDI 訊息和非 EDI 訊息：  

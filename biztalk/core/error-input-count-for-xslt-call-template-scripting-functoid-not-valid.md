@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241030"
 ---
 # <a name="error---input-count-for-xslt-call-template-scripting-functoid-not-valid"></a>錯誤-XSLT 呼叫範本指令碼處理運算質不是有效的輸入計數
 **錯誤碼**  

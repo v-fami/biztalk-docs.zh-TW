@@ -1,17 +1,17 @@
 ---
-title: "在 Excel 中定義商務活動和檢視 |Microsoft 文件"
-ms.custom: 
+title: 在 Excel 中定義商務活動和檢視 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Excel add-in [BAM], creating business activities
 - monitoring business activities [BAM], creating business activities
 ms.assetid: 000532f0-cb9a-40ac-a6c5-a8bd4e49f8d0
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239678"
 ---
 # <a name="defining-business-activities-and-views-in-excel"></a>在 Excel 中定義商務活動和檢視
 建立任何 BAM 解決方案時的第一個步驟是，找出您有興趣的資料，並釐清解譯此項資料所應採用的方式。 若要這樣做，您可以使用 Excel 的 BAM 增益集。 此增益集可讓您藉由定義商務活動來定義您希望的「感興趣資料」清單。 您也可以定義解譯資料以及向不同類別的商務使用者顯示資料的方式。  

@@ -1,11 +1,11 @@
 ---
-title: "如何建立原則和規則 |Microsoft 文件"
-ms.custom: 
+title: 如何建立原則和規則 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, business rules
@@ -20,7 +20,7 @@ helpviewer_keywords:
 - policies, arguments
 - policies, creating
 ms.assetid: 59f06a67-edde-443b-9fbb-55ec4429837a
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -29,6 +29,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250326"
 ---
 # <a name="how-to-create-policies-and-rules"></a>如何建立原則和規則
 您可以使用邏輯群組的邏輯運算子的條件建立規則 (**AND**， **OR**，和**不**) 套用到述詞 （內建或使用者定義函式或運算子），不接受引數 （內建或使用者定義的事實參考）。 您也可以以滑鼠右鍵按一下**條件**或邏輯運算子，從內容功能表中選取邏輯運算子或內建述詞。  
@@ -44,7 +45,7 @@ ms.lasthandoff: 09/20/2017
   
      新的資料夾， **[policy1]**，下方會建立**原則**。 依照預設，會為您建立版本 1 的新原則。  
   
-2.  按一下**[policy1]**。  
+2.  按一下 **[policy1]**。  
   
 3.  在 [名稱] 屬性窗格中輸入名稱。  
   

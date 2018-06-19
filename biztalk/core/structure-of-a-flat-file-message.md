@@ -1,14 +1,14 @@
 ---
-title: "一般檔案訊息的結構 |Microsoft 文件"
-ms.custom: 
+title: 一般檔案訊息的結構 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 00f2adf6-a47c-498b-b5ae-c6bd55bafceb
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278934"
 ---
 # <a name="structure-of-a-flat-file-message"></a>一般檔案訊息的結構
 在 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的內容中，一般檔案執行個體訊息是包含三種邏輯部分的文字檔：依序為標頭、內文及結尾。 標頭和結尾為選擇性。 下列範例將顯示包含這三個部分的一般檔案執行個體訊息，其中內文是以粗體顯示。  

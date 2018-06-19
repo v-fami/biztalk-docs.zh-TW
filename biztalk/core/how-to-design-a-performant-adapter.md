@@ -1,14 +1,14 @@
 ---
-title: "如何設計高效能的配接器 |Microsoft 文件"
-ms.custom: 
+title: 如何設計高效能的配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b5a1f338-fd7c-41c8-a181-8da8b293c4cc
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250534"
 ---
 # <a name="how-to-design-a-performant-adapter"></a>如何設計更具效能的配接器
 基於效能的目的，所有配接器在對於提交訊息批次、傳輸批次及在各批次的訊息上執行一般性作業等方面，都應該具備批次感知的能力。 配接器應該嘗試公開可設定的效能相關屬性，例如，批次的大小或批次中的位元組數目 (這些屬性可從配接器的設計階段使用者介面進行設定)。  

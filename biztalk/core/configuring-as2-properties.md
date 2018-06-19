@@ -1,14 +1,14 @@
 ---
-title: "設定 AS2 屬性 |Microsoft 文件"
-ms.custom: 
+title: 設定 AS2 屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1a28531d-da25-4f31-a822-734644d4bbd8
-caps.latest.revision: "36"
+caps.latest.revision: 36
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232750"
 ---
 # <a name="configuring-as2-properties"></a>設定 AS2 屬性
 BizTalk Server 使用 AS2 屬性，透過 HTTP/HTTPS 傳輸處理內送和外寄的 EDIINT/AS2 編碼訊息。 本節說明如何建立 AS2 訊息傳輸的合作對象，以及如何建立合作對象之間的 AS2 協議。  

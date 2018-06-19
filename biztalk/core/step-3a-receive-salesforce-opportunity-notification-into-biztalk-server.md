@@ -1,14 +1,14 @@
 ---
-title: "步驟 3a: Salesforce 接收機會通知到 BizTalk Server |Microsoft 文件"
-ms.custom: 
+title: '步驟 3a: Salesforce 接收機會通知到 BizTalk Server |Microsoft 文件'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: be9de6e3-6bd9-4275-b2fb-0a756c51aabf
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279406"
 ---
 # <a name="step-3a-receive-salesforce-opportunity-notification-into-biztalk-server"></a>步驟 3a: Salesforce 接收機會通知到 BizTalk Server
 在此步驟中，我們開始建立[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。 首先，我們應該包含商機通知訊息，我們會用來取得從 Salesforce，然後再啟動 建立協調流程處理訊息的訊息結構描述。  
@@ -42,7 +43,7 @@ ms.lasthandoff: 09/20/2017
   
 8.  在**新增產生的項目**對話方塊中，按一下 **取用 WCF 服務**，然後按一下 **新增**啟動**BizTalk WCF 服務取用**精靈。 在 歡迎使用 頁面上，按一下 **下一步**。  
   
-9. 在**中繼資料來源**頁面上，選取**中繼資料檔案 （WSDL 和 XSD）**選項，然後再按一下**下一步**。  
+9. 在**中繼資料來源**頁面上，選取**中繼資料檔案 （WSDL 和 XSD）** 選項，然後再按一下**下一步**。  
   
 10. 在**中繼資料檔案**頁面上，按一下**新增**，然後瀏覽至您用來儲存從 Salesforce 入口網站下載的 WSDL 檔案的位置。 選取的 WSDL 檔案，然後按一下**下一步**。  
   

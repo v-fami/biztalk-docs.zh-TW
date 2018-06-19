@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246478"
 ---
 # <a name="how-to-add-a-component-to-a-pipeline"></a>如何新增元件至管線
 從工具箱拖曳元件至設計介面以新增元件至管線。  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239758"
 ---
 # <a name="error---functoid-has-no-output"></a>錯誤-運算質有沒有輸出
 **錯誤碼**  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249382"
 ---
 # <a name="how-to-create-a-new-gateway-node"></a>如何建立新的 Gateway 節點
 請遵循以下步驟，在 PeopleSoft Enterprise 中建立及設定新的 Gateway 節點。  
@@ -33,19 +34,19 @@ ms.lasthandoff: 09/20/2017
   
 4.  按一下**節點**索引標籤，然後輸入下列資訊：  
   
-    1.  **描述：**輸入節點的描述。  
+    1.  **描述：** 輸入節點的描述。  
   
-    2.  **節點型別：**選取**外部**。  
+    2.  **節點型別：** 選取**外部**。  
   
-    3.  **路由類型：**選取**隱含**。  
+    3.  **路由類型：** 選取**隱含**。  
   
      ![](../core/media/psadapter-34-task-gatewaynodeconnector.gif "PSAdapter_34_Task_GatewayNodeConnector")  
   
 5.  按一下**連接器**索引標籤，然後輸入下列資訊：  
   
-    1.  **閘道識別碼：**輸入`LOCAL`。  
+    1.  **閘道識別碼：** 輸入`LOCAL`。  
   
-    2.  **連接器識別碼：**輸入`HTTPTARGET`。  
+    2.  **連接器識別碼：** 輸入`HTTPTARGET`。  
   
      ![](../core/media/psadapter-35-task-gatewayhttptarget.gif "PSAdapter_35_Task_GatewayHTTPTarget")  
   
@@ -57,11 +58,11 @@ ms.lasthandoff: 09/20/2017
   
 8.  在**屬性**索引標籤上，輸入下列資訊：  
   
-    1.  **標頭：**輸入`Y`。  
+    1.  **標頭：** 輸入`Y`。  
   
-    2.  **[Httpproperty]:**輸入`POST`。  
+    2.  **[Httpproperty]:** 輸入`POST`。  
   
-    3.  **[Primaryurl]:**輸入 IP 位址和連接埠的目標電腦 （開發電腦）。  
+    3.  **[Primaryurl]:** 輸入 IP 位址和連接埠的目標電腦 （開發電腦）。  
   
     > [!NOTE]
     >  **接收埠**先前設定。  

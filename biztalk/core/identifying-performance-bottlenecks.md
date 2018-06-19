@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256638"
 ---
 # <a name="identifying-performance-bottlenecks"></a>識別效能瓶頸
 理想情況下，當系統以將近滿載的條件執行 (充分利用可用的資源) 時，便可達到維持輸送量的目標，從而降低整體擁有成本 (TCO)。  

@@ -1,14 +1,14 @@
 ---
-title: "如何建立不含對應 |Microsoft 文件"
-ms.custom: 
+title: 如何建立不含對應 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 520ec44f-5aca-4271-8835-b8e784214061
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248790"
 ---
 # <a name="how-to-create-a-map-without-maps"></a>如何建立不含對應的對應
 若您擁有已經用來轉換執行個體訊息的 XSLT 程式碼，則可直接使用該程式碼而不需建立對應。  

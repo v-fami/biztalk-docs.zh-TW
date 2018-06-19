@@ -1,11 +1,11 @@
 ---
-title: "設定原生管線元件 |Microsoft 文件"
-ms.custom: 
+title: 設定原生管線元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Pipeline Designer, pipeline components
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Pipeline Designer, code sample
 - IPersistPropertyBag interface
 ms.assetid: a3332a60-8cd6-43fa-9ecf-e1e54e71fef7
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233174"
 ---
 # <a name="configuring-native-pipeline-components"></a>設定原生管線元件
 管線元件能在設計階段時顯示其自訂屬性。 任何在元件中定義的公用屬性將於「管線設計師」中呈現，只要該屬性的讀取和寫入存取子已經實作即可。 「管線設計師」將根據它們的宣告來顯示元件屬性；例如，若屬性宣告為唯讀，在「管線設計師」中也會如此顯示。  

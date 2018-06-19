@@ -1,14 +1,14 @@
 ---
-title: "如何重新命名節點 |Microsoft 文件"
-ms.custom: 
+title: 如何重新命名節點 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ed703a3f-7e47-4adf-aed4-e5133470a979
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255246"
 ---
 # <a name="how-to-rename-nodes"></a>如何重新命名的節點
 您有時可能會想要重新命名現有的節點。 本主題描述此工作的兩個變化。  

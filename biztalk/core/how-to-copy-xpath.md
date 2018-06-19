@@ -1,14 +1,14 @@
 ---
-title: "如何複製 XPath |Microsoft 文件"
-ms.custom: 
+title: 如何複製 XPath |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 404599d4-0fb3-4c7c-91e6-1295d9d0965e
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248526"
 ---
 # <a name="how-to-copy-xpath"></a>如何複製 XPath
 XML 結構描述定義 (XSD) 語言提供在 BizTalk Server 中定義之訊息結構描述的基礎語法。 雖然 BizTalk 對應工具中的樹狀檢視會使用記錄和欄位節點 (在其他類型節點之間) 之 BizTalk 特定的圖形階層，但其各自的屬性集 (如階層) 均是以 XSD 建構與保存。  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26004959"
 ---
 # <a name="how-biztalk-server-solves-the-business-need"></a>BizTalk Server 如何解決商務需求
 若要解決您的系統整合需要[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]®[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]增強的功能[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server 的高科技製造系統。 因為[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]安裝程式會安裝在 BizTalk Server 加速器，本節提供 BizTalk Server 的功能和功能的說明概觀說明相關技術[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]加入BizTalk Server。  

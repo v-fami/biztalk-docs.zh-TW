@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255710"
 ---
 # <a name="how-to-use-a-database-as-a-data-source"></a>如何將資料庫做為資料來源使用
 您可以將資料庫指定為資料來源。 然後，您可以從資料庫中選取資料表或資料行，並將其拖曳至某個詞彙定義或規則，以作為事實使用。  

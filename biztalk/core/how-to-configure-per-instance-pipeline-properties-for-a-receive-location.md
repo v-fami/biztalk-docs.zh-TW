@@ -1,11 +1,11 @@
 ---
-title: "如何設定每個執行個體管線屬性的接收位置 |Microsoft 文件"
-ms.custom: 
+title: 如何設定每個執行個體管線屬性的接收位置 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipelines, properties
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - receive locations, pipelines
 - managing [receive locations], configuring
 ms.assetid: e1ed3b10-2f39-479b-a3e6-22b4b2872192
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248838"
 ---
 # <a name="how-to-configure-per-instance-pipeline-properties-for-a-receive-location"></a>如何設定接收位置的個別執行個體管線屬性
 本主題描述如何在將管線部署到 BizTalk 群組後，使用 BizTalk Server 管理主控台來設定接收位置的管線屬性。 您所做的變更只會覆寫這個接收位置的預設管線屬性，因此您也可以為 BizTalk 群組中的每個接收位置設定不同的管線屬性。  

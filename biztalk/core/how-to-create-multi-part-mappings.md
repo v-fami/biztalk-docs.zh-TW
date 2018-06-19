@@ -1,14 +1,14 @@
 ---
-title: "如何建立多部分對應 |Microsoft 文件"
-ms.custom: 
+title: 如何建立多部分對應 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1f1d4385-3d95-442c-b2b9-bfe09ce3d5fd
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248558"
 ---
 # <a name="how-to-create-multi-part-mappings"></a>如何建立多部分對應
 若您有多個需共同使用的對應，則必須將它們結合為一個協調流程一起測試。 **測試對應**命令適用於只有一個對應一次。  

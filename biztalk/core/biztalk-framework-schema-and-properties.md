@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8986e4a7-0c0a-415f-8a74-4fca71d3f1b5
-caps.latest.revision: ''
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22232718"
 ---
 # <a name="biztalk-framework-schema-and-properties"></a>BizTalk Framework 結構描述和屬性
 **http://schemas.microsoft.com/BizTalk/2003/btf2-properties**命名空間包含可用來設定 BizTalk Framework 解譯器管線元件的訊息和部分內容屬性的屬性。 「BizTalk Framework 解譯器」管線元件使用這些屬性在建立的訊息中產生適當的標頭。 下表描述 BizTalk Framework 屬性。  

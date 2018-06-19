@@ -1,14 +1,14 @@
 ---
-title: "傳送配接器的 SSO 支援 |Microsoft 文件"
-ms.custom: 
+title: 傳送配接器的 SSO 支援 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 45dc2597-0036-4444-8b35-d18621b003d8
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278430"
 ---
 # <a name="sso-support-for-send-adapters"></a>傳送配接器的 SSO 支援
 「企業單一登入」(SSO) 提供的服務能夠跨本機、網路及網域界限，來儲存和傳輸加密的使用者認證。 當您建立傳輸配接器時，便可利用 SSO API 來處理使用者認證 (傳輸配接器使用者會使用該認證來存取後端應用程式)。  

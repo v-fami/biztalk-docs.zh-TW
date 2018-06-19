@@ -1,11 +1,11 @@
 ---
-title: "如何控制結果清單的大小 |Microsoft 文件"
-ms.custom: 
+title: 如何控制結果清單的大小 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - results list [Orchestration Debugger], deleting columns
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - results list [Orchestration Designer]
 - results list [Orchestration Debugger], adding columns
 ms.assetid: 4d41003f-5ea9-4599-8ec0-737c342ffdbd
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249734"
 ---
 # <a name="how-to-control-the-size-of-the-results-list"></a>如何控制結果清單的大小
 在**群組中樞**頁面[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，查詢結果 窗格包含這麼多的資料行的資訊，您需要捲動來檢視它們。 您可以新增或移除窗格中的欄位，只顯示您需要的資訊。 若要新增或移除資料行，以滑鼠右鍵按一下 [查詢結果] 窗格，然後按一下的任何部分**新增/移除欄位**操作功能表上。  

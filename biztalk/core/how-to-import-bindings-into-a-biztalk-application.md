@@ -1,11 +1,11 @@
 ---
-title: "如何將繫結匯入到 BizTalk 應用程式 |Microsoft 文件"
-ms.custom: 
+title: 如何將繫結匯入到 BizTalk 應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - bindings, applications
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - applications, bindings
 - bindings, importing
 ms.assetid: 89841b23-4e1b-46ff-8f00-cdad65d6216d
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254134"
 ---
 # <a name="how-to-import-bindings-into-a-biztalk-application"></a>如何將繫結匯入到 BizTalk 應用程式
 本主題描述如何使用 [BizTalk Server 管理] 主控台或命令列，從 .xml 檔案將繫結匯入到 BizTalk 應用程式。 您也可以匯入繫結至 BizTalk 群組，如中所述[如何匯入到 BizTalk 群組的繫結](../core/how-to-import-bindings-into-a-biztalk-group.md)。  

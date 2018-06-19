@@ -1,18 +1,18 @@
 ---
-title: "實作會反白顯示的服務導向解決方案 |Microsoft 文件"
-ms.custom: 
+title: 實作會反白顯示的服務導向解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - service solution tutorial, performance
 - performance, service solutions
 - service solution tutorial, implementing
 ms.assetid: 3dbd8dfd-45b7-4290-ba07-b0c5e6264629
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257750"
 ---
 # <a name="implementation-highlights-of-the-service-oriented-solution"></a>實作會反白顯示的服務導向解決方案
 解決特定內容中的特定問題之解決方案。 服務導向解決方案也不例外，且專用於 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 和此實例。 如需 Woodgrove Bank 案例的詳細資訊，請參閱[瞭解服務導向解決方案](../core/understanding-the-service-oriented-solution.md)。  

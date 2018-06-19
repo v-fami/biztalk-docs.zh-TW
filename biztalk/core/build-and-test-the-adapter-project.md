@@ -1,14 +1,14 @@
 ---
-title: "建置和測試配接器專案 |Microsoft 文件"
-ms.custom: 
+title: 建置和測試配接器專案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0b5eb486-99ae-4661-b0d0-d2d363d97b73
-caps.latest.revision: "26"
+caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,11 +17,12 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233054"
 ---
 # <a name="build-and-test-the-adapter-project"></a>建置和測試配接器專案
 若要測試對 AdapterManagement 專案進行的所有變更，請重新建置該專案。 建置成功後，執行「新增配接器中繼資料精靈」，確認已將所有的內部及外部 XSD 檔案加入 AdapterManagement 專案。 如需使用 新增配接器中繼資料精靈的指示，請參閱[如何新增至 BizTalk 專案的配接器中繼資料](../core/how-to-add-adapter-metadata-to-a-biztalk-project.md)。  
   
- 若要測試的組態結構描述所做的變更，開啟每一個 XSD 檔案，以確保它會要求輸入並接受正確的資料所產生的屬性頁。 您可以設定傳送埠、 接收位置、 傳送處理常式和接收處理常式中的[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台**。**  
+ 若要測試的組態結構描述所做的變更，開啟每一個 XSD 檔案，以確保它會要求輸入並接受正確的資料所產生的屬性頁。 您可以設定傳送埠、 接收位置、 傳送處理常式和接收處理常式中的[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台 **。**  
   
 > [!NOTE]
 >  配接器可能只有部分的組態結構描述。 例如，不支援接收訊息的傳送配接器可能只有 TransmitLocation.xsd 和 TransmitHandler.xsd 結構描述。  
@@ -46,7 +47,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  在**接收位置屬性**對話方塊中，於**名稱**方塊中，輸入接收位置的名稱。  
   
-5.  在**接收位置屬性**對話方塊，在右窗格中，在**傳輸類型]**方塊中，選取**靜態**，然後按一下 [**設定**. 顯示的畫面應該會包含您在 ReceiveLocation.xsd 檔案中指定的欄位。  
+5.  在**接收位置屬性**對話方塊，在右窗格中，在**傳輸類型]** 方塊中，選取**靜態**，然後按一下 [**設定**. 顯示的畫面應該會包含您在 ReceiveLocation.xsd 檔案中指定的欄位。  
   
 ### <a name="to-test-the-receivehandlerxsd-file"></a>測試 ReceiveHandler.xsd 檔案  
   

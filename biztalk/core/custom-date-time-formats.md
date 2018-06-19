@@ -1,14 +1,14 @@
 ---
-title: "自訂日期時間格式 |Microsoft 文件"
-ms.custom: 
+title: 自訂日期時間格式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b5efbec4-3138-44d7-bc76-f9c21547e1d5
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238470"
 ---
 # <a name="custom-date-time-formats"></a>自訂日期時間格式
 
@@ -29,10 +30,10 @@ ms.lasthandoff: 09/20/2017
  一般檔案解譯器會轉譯成其對等 XML 這類欄位時，將值格式化的**自訂日期/時間格式**屬性會用來允許轉換成它的 ISO 8601 相容的一般檔案日期/時間格式對等項目。 同樣地，當一般檔案組合器會轉譯為相等的一般檔案的 ISO 8601 相容日期/時間值，指定的格式字串中**自訂日期/時間格式**屬性會用於建構適當的日期 /一般檔案中預期的時間格式。  
   
 > [!NOTE]
->  依照預設，與 XSD 日期和時間資料型別對應的值 (有數個) 都必須符合 ISO 8601 格式。 簡單地說，日期以**YYYY MM DD**和小時會表示為**hh: mm:**使用 24 小時制標記法。 當一起出現時的日期和時間值會以"T"字元分隔： **YYYY:MM:DDThh:mm:ss**。  
+>  依照預設，與 XSD 日期和時間資料型別對應的值 (有數個) 都必須符合 ISO 8601 格式。 簡單地說，日期以**YYYY MM DD**和小時會表示為**hh: mm:** 使用 24 小時制標記法。 當一起出現時的日期和時間值會以"T"字元分隔： **YYYY:MM:DDThh:mm:ss**。  
   
  您可以設定**自訂日期/時間格式**使用幾乎任何時間和日期的格式，除了儒屬性。 下拉式清單提供各種選擇，但您可以選擇自行輸入不同的格式。 日期和時間格式使用 Common Language Runtime (CLR) **DateTime**設備。 唯一的例外是單一字元 d、m 或 M 開頭會自動加上百分比符號 (%)，以產生對應的 DateTime 值單一項目。 自訂日期/時間格式允許的分隔符號為虛線 (-)、斜線及句號 (.)。 如需有關**DateTime**格式，在 Visual Studio 文件集合中搜尋"Datetimeformatinfo"。  
   
 ## <a name="see-also"></a>另請參閱  
 -  [欄位考量](../core/field-considerations.md)   
--  **資料型別 （所有結構描述的節點屬性）**和**自訂日期時間格式 （一般檔案結構描述中的節點屬性）**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]
+-  **資料型別 （所有結構描述的節點屬性）** 和**自訂日期時間格式 （一般檔案結構描述中的節點屬性）**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

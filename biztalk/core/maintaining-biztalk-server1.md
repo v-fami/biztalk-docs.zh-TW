@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262014"
 ---
 # <a name="maintaining-biztalk-server1"></a>維護 BizTalk Server1
 本節提供有關如何備份與還原 BizTalk Server 及 Microsoft BizTalk Server 資料庫、如何封存及清除 [BizTalk 追蹤] (BizTalkDTADb) 資料庫中的資料，以及如何移動某些較常被移動的 BizTalk Server 資料庫之詳細資訊。 它會提供備份和還原程序的概觀，以及維護 BizTalk 追蹤資料庫的建議。 它提供有關以手動方式從測試環境中的 BizTalk MessageBox 資料庫清除資料。  

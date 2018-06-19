@@ -1,11 +1,11 @@
 ---
-title: "HTTP 配接器組態和調整參數 |Microsoft 文件"
-ms.custom: 
+title: HTTP 配接器組態和調整參數 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - HTTP adapters, parameters
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - DisableChunkEncoding key [HTTP adapters]
 - HttpOutCompleteSize key [HTTP adapters]
 ms.assetid: c8989a88-722a-40b5-94cf-4b6840add02e
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257782"
 ---
 # <a name="http-adapter-configuration-and-tuning-parameters"></a>HTTP 配接器組態和調整參數
 HTTP 配接器可以透過登錄機碼項目和修改位於 BizTalk Server 安裝根目錄的 BTSNTSvc.exe.config 檔案，來存取組態和調整參數。  
@@ -38,11 +39,11 @@ HTTP 配接器可以透過登錄機碼項目和修改位於 BizTalk Server 安�
   
 -   **DisableChunkEncoding**， **RequestQueueSize**，和**HttpReceiveThreadsPerCpu**必須定義在**碼BTSSvc.3.0\HttpReceive**。  
   
--   **HttpOutTimeoutInterval**， **HttpOutInflightSize**，和**HttpOutCompleteSize**必須定義在**碼BTSSvc {GUID}**其中**GUID**是 HTTP 傳送處理常式主控件的識別碼。  
+-   **HttpOutTimeoutInterval**， **HttpOutInflightSize**，和**HttpOutCompleteSize**必須定義在**碼BTSSvc {GUID}** 其中**GUID**是 HTTP 傳送處理常式主控件的識別碼。  
   
 |機碼名稱|類型|預設值|說明|  
 |--------------|----------|-------------|-----------------|  
-|**DisableChunkEncoding**|DWORD|0|控制 HTTP 接收配接器在傳送回應給用戶端時是否使用區塊編碼。<br /><br /> 設成非零值以關閉 HTTP 接收配接器回應的區塊編碼。<br /><br /> **最小值：** 0<br /><br /> **最大值：**任何非零值|  
+|**DisableChunkEncoding**|DWORD|0|控制 HTTP 接收配接器在傳送回應給用戶端時是否使用區塊編碼。<br /><br /> 設成非零值以關閉 HTTP 接收配接器回應的區塊編碼。<br /><br /> **最小值：** 0<br /><br /> **最大值：** 任何非零值|  
 |**Requestqueuesize 機**|DWORD|256|定義 HTTP 接收配接器一次處理的並行要求數目。<br /><br /> **最小值：** 10<br /><br /> **最大值：** 2048年|  
 |**Httpreceivethreadspercpu 機**|DWORD|2|定義配置給 HTTP 接收配接器的每個 CPU 的執行緒數目。<br /><br /> **最小值：** 1<br /><br /> **最大值：** 10|  
 |**HttpOutTimeoutInterval**|DWORD|2000|定義 HTTP 傳送配接器在逾時前等候的間隔 (以秒為單位)。<br /><br /> **最小值：** 500<br /><br /> **最大值：** 10000000|  

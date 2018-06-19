@@ -1,14 +1,14 @@
 ---
-title: "傳送配接器的交換模式 |Microsoft 文件"
-ms.custom: 
+title: 傳送配接器的交換模式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5ad65fb5-640d-4bd2-aabe-946210f58a22
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248350"
 ---
 # <a name="exchange-patterns-for-send-adapters"></a>傳送配接器的交換模式
 BizTalk 傳訊引擎是透過網路傳輸，將訊息傳遞給傳送配接器。 這些訊息可能採用單向或雙向的訊息交換模式來傳送。 處理這類雙向訊息交換模式的配接器稱為「請求-回應」配接器。  
@@ -32,9 +33,9 @@ BizTalk 傳訊引擎是透過網路傳輸，將訊息傳遞給傳送配接器。
   
  ![](../core/media/io-cpu-bound-threadpools.gif "Io_cpu_bound_threadpools")  
   
- **效能提示：**為了達到最佳效能，傳送配接器應封鎖可識別批次。 BizTalk 傳送配接器若從不能識別批次的封鎖式變更為可識別批次的非封鎖式，效能將顯著提升三倍。  
+ **效能提示：** 為了達到最佳效能，傳送配接器應封鎖可識別批次。 BizTalk 傳送配接器若從不能識別批次的封鎖式變更為可識別批次的非封鎖式，效能將顯著提升三倍。  
   
- **疑難排解秘訣：**封鎖傳輸可能會導致整個主控件執行個體的效能降低。 如果配接器過度封鎖了**TransmitMessage**它將使得引擎執行緒無法傳遞訊息給其他配接器。  
+ **疑難排解秘訣：** 封鎖傳輸可能會導致整個主控件執行個體的效能降低。 如果配接器過度封鎖了**TransmitMessage**它將使得引擎執行緒無法傳遞訊息給其他配接器。  
   
 ## <a name="non-batched-sends"></a>非批次傳送  
  不是批次的配接器應該實作**IBTTransmitter**中所詳述[非同步傳送配接器的介面](../core/interfaces-for-an-asynchronous-send-adapter.md)。 針對每個訊息，配接器需要傳輸，傳訊引擎會呼叫**IBTTransmitter.TransmitMessage**。 底下的物件互動示意圖詳盡說明慣常的訊息傳輸方式，其中包含下列步驟：  

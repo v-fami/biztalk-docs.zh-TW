@@ -1,14 +1,14 @@
 ---
-title: "開發自訂參考運算質 |Microsoft 文件"
-ms.custom: 
+title: 開發自訂參考運算質 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1e26d726-240c-4dfc-baa2-77451b8dc6c5
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239222"
 ---
 # <a name="developing-a-custom-referenced-functoid"></a>開發自訂參考運算質
 自訂參考運算質不會複製實作程式碼內嵌到對應中。 相反地，組件、類別和方法的參考會放入與產生之樣式表相關聯的延伸模組物件檔案，且在執行階段呼叫這些參考。  

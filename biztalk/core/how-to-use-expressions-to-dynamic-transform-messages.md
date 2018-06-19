@@ -1,14 +1,14 @@
 ---
-title: "如何使用運算式動態地轉換訊息 |Microsoft 文件"
-ms.custom: 
+title: 如何使用運算式動態地轉換訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 48387d97-9312-4df5-b614-727ea9035bf8
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256934"
 ---
 # <a name="how-to-use-expressions-to-dynamic-transform-messages"></a>如何使用運算式動態地轉換訊息
 您可使用運算式在協調流程中動態地轉換訊息。 XLANG 公開可以呼叫內的轉換方法**訊息指派**圖形內**建構訊息**圖形。 這是相同的方法時，會呼叫**轉換**圖形會使用，但可讓您以程式設計方式轉換訊息使用您指定在協調流程中的對應。 當您進行類型不可知的訊息處理時，這點便會相當有用。 例如，如果您有商務程序需要從一系列對應中選擇，以便根據接收之輸入訊息所提供的參數轉換輸入訊息，可使用「運算式」圖形中的轉換方法來進行，而且同時可維持整體商務程序的完整。  

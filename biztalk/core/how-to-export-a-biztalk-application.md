@@ -1,11 +1,11 @@
 ---
-title: "如何匯出 BizTalk 應用程式 |Microsoft 文件"
-ms.custom: 
+title: 如何匯出 BizTalk 應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, exporting
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - applications, warnings
 - exporting, security
 ms.assetid: a1d6ffca-3d29-44c7-a811-6cf8b42e23f6
-caps.latest.revision: "50"
+caps.latest.revision: 50
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255950"
 ---
 # <a name="how-to-export-a-biztalk-application"></a>如何匯出 BizTalk 應用程式
 本主題描述如何使用[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台或命令列匯入應用程式。 匯出 BizTalk 應用程式會產生 Windows Installer (.msi) 檔案，此檔案包含該應用程式及其中您選擇匯出的任何成品。 預設選項為選取該應用程式的所有成品，但您可選取其子集。 然後您可將 .msi 檔案匯入另一個 BizTalk 群組，將成品新增至新群組中的現有應用程式、更新現有應用程式中的成品，或在包含要匯入之成品的群組中建立新的應用程式。 如需詳細資訊，請參閱[如何匯入 BizTalk 應用程式](../core/how-to-import-a-biztalk-application.md)。 您也使用.msi 檔案中所述，將執行它，在電腦上安裝應用程式[如何安裝 BizTalk 應用程式](../core/how-to-install-a-biztalk-application.md)。 如果應用程式包含以檔案為基礎的成品，您還必須先安裝它之後才能開始運作。  

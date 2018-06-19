@@ -1,14 +1,14 @@
 ---
-title: "設定 AS2 的憑證 |Microsoft 文件"
-ms.custom: 
+title: 設定 AS2 的憑證 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c160f294-7529-4e0a-876c-5827feaed067
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234654"
 ---
 # <a name="configuring-certificates-for-as2"></a>設定 AS2 的憑證
 為了使用加密和數位簽章來保護 AS2 資料傳輸，除了在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 適當設定 AS2 之外，您還必須安裝適當的憑證。 本主題會描述所需的憑證、如何設定憑證，以及憑證的常見問題。  
@@ -30,7 +31,7 @@ ms.lasthandoff: 09/20/2017
 |憑證使用方式|憑證類型|管線元件|使用者內容|憑證存放區|定義於|  
 |-----------------------|----------------------|------------------------|------------------|-----------------------|-------------------|  
 |簽章 (輸出)|自有私密金鑰 (.pfx)|AS2 編碼器|與傳送處理常式相關聯之主控件執行個體所使用的帳戶|每個以主控件執行個體服務帳戶身分裝載 AS2 編碼器管線的 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的目前使用者\個人存放區。|-   **憑證**頁面**群組內容** 對話方塊。 這是傳送已簽署的文件時所使用的預設簽署憑證。<br />-您可以覆寫預設的憑證設定，並針對不同的合作對象改用不同的憑證。 您可以藉由選取**覆寫群組簽章憑證**中**簽章憑證**單向協議索引標籤的頁面**協議屬性**對話方塊方塊中，並指定簽署憑證。 如果設定這個屬性，無論 AS2 訊息會解析為協議將會使用憑證簽署中提供**簽章憑證**頁面上，並不是由憑證提供做為 BizTalk 群組屬性的一部分。|  
-|簽章驗證 (輸入)|交易夥伴的公開金鑰 (.cer)|AS2 解碼器|與接收處理常式相關聯之主控件執行個體所使用的帳戶|每個以主控件執行個體服務帳戶身分裝載 AS2 解碼器管線的 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的本機電腦\其他人存放區。|**憑證**頁面**合作對象屬性**對話方塊**附註：**用來驗證合作對象必須是唯一從用來驗證簽章憑證的簽章的憑證其他合作對象。|  
+|簽章驗證 (輸入)|交易夥伴的公開金鑰 (.cer)|AS2 解碼器|與接收處理常式相關聯之主控件執行個體所使用的帳戶|每個以主控件執行個體服務帳戶身分裝載 AS2 解碼器管線的 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的本機電腦\其他人存放區。|**憑證**頁面**合作對象屬性**對話方塊**附註：** 用來驗證合作對象必須是唯一從用來驗證簽章憑證的簽章的憑證其他合作對象。|  
 |加密 (輸出)|交易夥伴的公開金鑰 (.cer)|AS2 編碼器|與傳送處理常式相關聯之主控件執行個體所使用的帳戶|每個裝載 AS2 編碼器管線的 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的本機電腦\其他人存放區|**憑證**頁面**傳送埠屬性**對話方塊|  
 |解密 (輸入)|自有私密金鑰 (.pfx)|AS2 解碼器|與接收處理常式相關聯之主控件執行個體所使用的帳戶|每個以主控件執行個體服務帳戶身分裝載 AS2 解碼器管線的 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的目前使用者\個人存放區。|「AS2 解碼器」會根據訊息中的憑證資訊來判斷憑證。<br /><br /> 對於 BizTalk MIME 解碼器，憑證必須位於**憑證**用來接收訊息的主控件的頁面。 這不一定適用於「AS2 解碼器」。|  
   

@@ -1,14 +1,14 @@
 ---
-title: "開發和設定 BizTalk Server AS2 解決方案 |Microsoft 文件"
-ms.custom: 
+title: 開發和設定 BizTalk Server AS2 解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 62aa76f2-b692-41d9-862a-3e0089635800
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239342"
 ---
 # <a name="developing-and-configuring-biztalk-server-as2-solutions"></a>開發和設定 BizTalk Server AS2 解決方案
 ## <a name="overview"></a>概觀

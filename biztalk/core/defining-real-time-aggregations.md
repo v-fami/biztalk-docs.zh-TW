@@ -1,17 +1,17 @@
 ---
-title: "定義即時彙總 |Microsoft 文件"
-ms.custom: 
+title: 定義即時彙總 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - real-time data, aggregating
 - aggregations [BAM], real-time data
 ms.assetid: cb3d7124-1663-4af2-9540-4171cc51568a
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238678"
 ---
 # <a name="defining-real-time-aggregations"></a>定義即時彙總
 在某些情況下，多維度彙總的特定配量會講求時效而分秒必爭，以致您希望能即時取得該資訊。 例如，您的業務是銷售容易腐壞的產品，所以希望即時取得各個出貨階段的產品數量彙總。 同時，您也有其他想要看到的彙總，如典型客戶的年齡彙總，但是這只有在月底進行商業智慧分析時才需要。  

@@ -1,14 +1,14 @@
 ---
-title: "如何管理結構描述樹狀結構檢視 |Microsoft 文件"
-ms.custom: 
+title: 如何管理結構描述樹狀結構檢視 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 97fb7a88-e38a-4abb-93bc-a5be1bd091e6
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254902"
 ---
 # <a name="how-to-manage-the-schema-tree-view"></a>如何管理結構描述樹狀結構檢視
 與結構描述樹狀結構檢視相關的管理工作可分為四類：變更大小、變更背景色彩與字型、變更警告對話方塊的使用，以及展開和摺疊其樹狀結構。 本主題提供這些不同工作的逐步說明。  

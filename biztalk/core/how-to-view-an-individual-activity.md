@@ -1,18 +1,18 @@
 ---
-title: "如何檢視個別活動 |Microsoft 文件"
-ms.custom: 
+title: 如何檢視個別活動 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - activities [BAM], viewing
 - BAM portal, activities
 - viewing, activities [BAM portal]
 ms.assetid: 090b6c81-8093-44d9-b50c-a98702d2fbcd
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255974"
 ---
 # <a name="how-to-view-an-individual-activity"></a>如何檢視個別活動
 您可以在 BAM Web 入口網站的 [商務活動搜尋結果] 頁面中檢視活動。 如需搜尋活動的步驟，請參閱[如何搜尋活動](../core/how-to-search-for-activities.md)。  

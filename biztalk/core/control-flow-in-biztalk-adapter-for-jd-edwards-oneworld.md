@@ -1,11 +1,11 @@
 ---
-title: "控制流程中 BizTalk Adapter for JD Edwards OneWorld |Microsoft 文件"
-ms.custom: 
+title: 控制流程中 BizTalk Adapter for JD Edwards OneWorld |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - connection pooling
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - apartment threading
 - apartment threading, business functions
 ms.assetid: 1ec865d0-2257-453b-9230-1f3787ebac38
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22237974"
 ---
 # <a name="control-flow-in-biztalk-adapter-for-jd-edwards-oneworld"></a>BizTalk Adapter for JD Edwards OneWorld 中的控制流程
 本主題將討論設計階段和執行階段控制流程，在 Microsoft BizTalk Adapter for JD Edwards OneWorld。  

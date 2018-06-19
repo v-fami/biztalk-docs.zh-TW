@@ -1,11 +1,11 @@
 ---
-title: "如何建立運算式 |Microsoft 文件"
-ms.custom: 
+title: 如何建立運算式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, expressions [Expression Editor]
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Expression Editor, editing expressions
 - Expression Editor, creating expressions
 ms.assetid: 48f8b00f-6ef1-4145-ad17-15c95518fc8a
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248862"
 ---
 # <a name="how-to-create-expressions"></a>如何建立運算式
 「BizTalk 運算式編輯器」可讓您建立 XLANG/s 運算式，以擴充各種「協調流程設計師」圖形的功能。 您可以建立 XLANG/s 運算式以進行決定、設定延遲、進行 .NET 呼叫，以及測試 while 迴圈條件。  

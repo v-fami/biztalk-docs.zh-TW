@@ -1,11 +1,11 @@
 ---
-title: "要求協助 |Microsoft 文件"
-ms.custom: 
+title: 要求協助 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Query Builder [BAM portal], technical assistance
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Query Builder [BAM portal], viewing details
 - queries [BAM], viewing details
 ms.assetid: d41de170-f497-47dc-896d-e79c04f0649b
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268590"
 ---
 # <a name="request-assistance"></a>要求協助
 當您需要協助從您的系統管理員或其他支援人員與您[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]實作中，您可以使用**協助**底部的按鈕**結果**詳細資料若要以提出協助要求的頁面。  

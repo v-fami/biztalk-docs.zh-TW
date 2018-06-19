@@ -1,14 +1,14 @@
 ---
-title: "如何新增判斷提示運算質至對應 |Microsoft 文件"
-ms.custom: 
+title: 如何新增判斷提示運算質至對應 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ccdd79a2-b70f-489b-8711-e00a50d8e2d8
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247758"
 ---
 # <a name="how-to-add-assert-functoids-to-a-map"></a>如何新增判斷提示運算質至對應
 **Assert**運算質可讓您測試對應中條件的相關假設。 例如，如果您執行幾項計算來確定產品採購時，您可能會判斷提示額外折扣，是使用邏輯運算質不能超過 $100 (**Greater Than**或**Less Than**)。  

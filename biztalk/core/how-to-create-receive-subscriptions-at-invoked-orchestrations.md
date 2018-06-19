@@ -1,14 +1,14 @@
 ---
-title: "如何建立接收端叫用的協調流程訂閱 |Microsoft 文件"
-ms.custom: 
+title: 如何建立接收端叫用的協調流程訂閱 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3423309a-cb5a-40a5-9582-6ee3ac82b538
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250142"
 ---
 # <a name="how-to-create-receive-subscriptions-at-invoked-orchestrations"></a>如何在叫用的協調流程建立接收訂閱
 雖然您可以將訊息傳遞做為參數透過**啟動協調流程**當您啟動協調流程，在某些情況下，您可能想要從呼叫端協調流程傳送訊息至之後叫用的協調流程圖形引動過程。 例如，您可能不知道會在叫用時傳遞何種訊息，或者其他協調流程可能需要動態地將訊息傳送到叫用的協調流程。  

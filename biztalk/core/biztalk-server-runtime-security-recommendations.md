@@ -1,11 +1,11 @@
 ---
-title: "BizTalk Server 執行階段安全性建議 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Server 執行階段安全性建議 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, runtime
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - DACLs
 - .NET Framework Code Access Security Mechanism
 ms.assetid: 1933789d-b79a-47ad-8f70-6f1e99bc2be0
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232230"
 ---
 # <a name="biztalk-server-runtime-security-recommendations"></a>BizTalk Server 執行階段安全性建議
 您必須將 BizTalk Server 執行階段或引擎安裝在用來接收、傳送、處理和追蹤訊息的所有電腦上。 換句話說，您必須將執行階段元件安裝在建立 BizTalk 主控件執行個體 (處理伺服器) 的電腦上。 建議您依照這些指導方針來保護和部署您作業環境中的 BizTalk Server 執行階段。  

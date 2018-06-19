@@ -1,14 +1,14 @@
 ---
-title: "疑難排解 BizTalk Server 配接器 |Microsoft 文件"
-ms.custom: 
+title: 疑難排解 BizTalk Server 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 428b127f-df1e-4c41-9cc8-486519f15fa1
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278950"
 ---
 # <a name="troubleshooting-biztalk-server-adapters"></a>BizTalk Server 配接器疑難排解
 本主題所敘述的一般疑難排解步驟可用來識別及解決 BizTalk 整合配接器可能發生的問題。  

@@ -1,18 +1,18 @@
 ---
-title: "如何對應多個組件 |Microsoft 文件"
-ms.custom: 
+title: 如何對應多個組件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - assemblies, tracking profiles
 - tracking profiles, mapping assemblies
 - assemblies, maps
 ms.assetid: 136f1943-9643-4551-8b5b-150c4b4bfebe
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254350"
 ---
 # <a name="how-to-map-multiple-assemblies"></a>如何對應多個組件
 BizTalk 應用程式可能由多個組件所組成，其中存有 BAM 活動參考的資料項目。 下列程序說明如何將多個組件對應到追蹤設定檔。  

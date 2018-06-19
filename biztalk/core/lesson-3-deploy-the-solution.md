@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22261910"
 ---
 # <a name="lesson-3-deploy-the-solution"></a>課程 3：部署方案
 部署 EAISolution 的第一步是將組件加入至 BizTalk 管理資料庫和全域組件快取中。  

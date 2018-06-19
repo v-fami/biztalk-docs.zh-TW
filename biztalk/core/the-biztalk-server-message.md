@@ -1,17 +1,17 @@
 ---
-title: "BizTalk Server 訊息 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Server 訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, properties
 - messages, about messages
 ms.assetid: 6048c191-b495-4fdc-b547-e3e322340a49
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279894"
 ---
 # <a name="the-biztalk-server-message"></a>BizTalk Server 訊息
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的核心為訊息處理引擎。 若要瞭解 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的詳細資料，則有必要瞭解訊息，以及 BizTalk Server 如何顯示、儲存和處理它們。 在您瞭解何謂訊息之後，就會比較容易理解 BizTalk Server 如何使用訊息的詳細資料。  

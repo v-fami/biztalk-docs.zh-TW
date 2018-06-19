@@ -1,11 +1,11 @@
 ---
-title: "使用模式進行設計： 服務導向解決方案 |Microsoft 文件"
-ms.custom: 
+title: 使用模式進行設計： 服務導向解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - patterns [service solutions], examples
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - patterns [service solutions], designing
 - designing, programming patterns
 ms.assetid: c196cd9d-2b2d-4548-bc7d-26196f7c2878
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240190"
 ---
 # <a name="designing-with-patterns-the-service-oriented-solution"></a>使用模式進行設計： 服務導向解決方案
 服務導向解決方案會示範如何將 BizTalk 應用程式公開為供其他應用程式使用的服務。 將應用程式當作服務使用，可讓其他應用程式更輕易地使用資訊以及在它們提供的服務中使用資訊。 如需有關服務介面查看 「 服務介面 」 [http://go.microsoft.com/fwlink/?LinkId=46185](http://go.microsoft.com/fwlink/?LinkId=46185)。 如需服務導向整合的詳細資訊請參閱 < Service-Oriented Integration 網址[http://go.microsoft.com/fwlink/?LinkId=46186](http://go.microsoft.com/fwlink/?LinkId=46186)。  

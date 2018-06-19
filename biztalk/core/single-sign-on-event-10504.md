@@ -1,14 +1,14 @@
 ---
-title: "單一登入： 事件 10504 |Microsoft 文件"
-ms.custom: 
+title: 單一登入： 事件 10504 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cc381b7e-c78c-439a-9822-8d531a9a2430
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270270"
 ---
 # <a name="single-sign-on-event-10504"></a>單一登入： 事件 10504
 ## <a name="details"></a>詳細資料  

@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22261774"
 ---
 # <a name="jd-edwards-oneworld-add-adapter-metadata-wizard"></a>JD Edwards OneWorld 新增配接器中繼資料精靈
 使用「新增配接器中繼資料精靈」存取 JD Edwards OneWorld 系統的中繼資料資訊。  

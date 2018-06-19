@@ -1,14 +1,14 @@
 ---
-title: "如何識別 MessageBox Database2 中的瓶頸 |Microsoft 文件"
-ms.custom: 
+title: 如何識別 MessageBox Database2 中的瓶頸 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 10b2eb1e-541c-457d-9735-ac6fb069b209
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254198"
 ---
 # <a name="how-to-identify-bottlenecks-in-the-messagebox-database"></a>如何識別 MessageBox 資料庫中的瓶頸
 若要識別 MessageBox 資料庫中的瓶頸，請先確認 SQL Server Agent 服務已啟動。 將服務的啟動狀態從「手動」變更為「自動」，如此一來，即使重新啟動伺服器，服務也會自動重新啟動。  

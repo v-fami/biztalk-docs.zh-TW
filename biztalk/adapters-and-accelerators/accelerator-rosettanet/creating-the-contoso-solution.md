@@ -19,6 +19,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26004511"
 ---
 # <a name="creating-the-contoso-solution"></a>建立 Contoso 解決方案
 本節描述您應該在 Contoso 組織中遵循的步驟。 第一個步驟是使用 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 管理主控台，為兩個組織新增連絡人資訊和夥伴協議。 然後，建立商務營運系統 (LOB) 結構描述，並在那些結構描述及其各自的 RosettaNet 架構交易夥伴介面程序 (PIP) 結構描述之間建構對應。 接著，使用 SQL 配接器設定連接埠資訊，以便與 ERP 系統進行通訊，並使用 HTTP 配接器將資訊傳送至 Fabrikam。 最後一個步驟是自訂私用程序協調流程在 BizTalk Server 中使用商務規則引擎 (BRE)。  

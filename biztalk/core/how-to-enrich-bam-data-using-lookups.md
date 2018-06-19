@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22253910"
 ---
 # <a name="how-to-enrich-bam-data-using-lookups"></a>如何利用查閱修飾 BAM 資料
 有時候，作業期間所提供的資料不盡然包含報表所需的一切。 例如，執行階段可能只提供 ProductID (產品識別碼) 卻沒有 ProductName (產品名稱)。 由於 BAM 活動代表的是與資料實際收集方式無關的抽象概念，活動理應如同報表最終呈現的資料也包含 "ProductName" 項目。 就像任何其他項目，您可以將此項目納入里程碑群組、持續時間、維度和量值等說明性質的概念中。 由於執行階段並未提供 ProductName，您必須額外取得足以執行查閱的若干資料，例如 ProductID。  

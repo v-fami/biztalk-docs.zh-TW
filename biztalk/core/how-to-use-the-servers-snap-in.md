@@ -1,14 +1,14 @@
 ---
-title: "如何使用伺服器嵌入式管理單元 |Microsoft 文件"
-ms.custom: 
+title: 如何使用伺服器嵌入式管理單元 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4f520692-9606-41f5-98ed-5a4962bd1f09
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256558"
 ---
 # <a name="how-to-use-the-servers-snap-in"></a>如何使用伺服器嵌入式管理單元
 此版本的「企業單一登入」(SSO) 包含 ENTSSO「伺服器嵌入式管理單元」，可讓您透過 Windows 介面對 ENTSSO 伺服器進行檢視、監控以及執行某些動作。  

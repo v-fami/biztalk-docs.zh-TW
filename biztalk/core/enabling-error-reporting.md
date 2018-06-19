@@ -1,14 +1,14 @@
 ---
-title: "啟用錯誤報告 |Microsoft 文件"
-ms.custom: 
+title: 啟用錯誤報告 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1131bbd5-7ab3-4422-b6df-747c722f0b2c
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241246"
 ---
 # <a name="enabling-error-reporting"></a>啟用錯誤報告
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 可讓您選擇是否要在 Windows 事件檢視器中顯示增強型錯誤和警告。  

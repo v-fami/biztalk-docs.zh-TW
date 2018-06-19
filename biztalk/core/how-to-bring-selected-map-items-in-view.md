@@ -1,14 +1,14 @@
 ---
-title: "如何將選取的對應項目在檢視 |Microsoft 文件"
-ms.custom: 
+title: 如何將選取的對應項目在檢視 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3e287b22-5738-428a-aa35-cced877e51ea
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005543"
 ---
 # <a name="how-to-bring-selected-map-items-in-view"></a>如何在檢視中顯示選取的對應項目
 使用舊版的 BizTalk 對應工具時，如果對應包含大型的結構描述，您必須手動捲動來源結構描述窗格、格線頁和目標結構描述窗格，才能在單一檢視中包含所有相關的對應項目。 BizTalk Server 與 BizTalk 對應工具可讓您選取的運算質/連結的所有相關對應項目帶入自動捲動格線頁的單一檢視。 本主題提供如何執行此作業的相關資訊。  

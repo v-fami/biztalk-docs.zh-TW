@@ -1,14 +1,14 @@
 ---
-title: "一般檔案訊息內文 |Microsoft 文件"
-ms.custom: 
+title: 一般檔案訊息內文 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 097e49a1-75d2-44a4-9372-d78de7b7597c
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246782"
 ---
 # <a name="flat-file-message-bodies"></a>一般檔案訊息內文
 一般檔案執行個體訊息內文為必要項目，一般檔案解譯器會將其處理為一或多個 XML 執行個體訊息。 若要知道在內送一般檔案執行個體訊息內文中有哪些資料，您必須使用與內文對應的一般檔案結構描述來設定一般檔案解譯器。 您可以使用指定的結構描述**文件結構描述**的一般檔案解譯器的設計階段屬性或**XMLNORM。DocumentSpecName**訊息內容屬性。 因為一般檔案執行個體訊息必須要有內文部分，所以，您必須使用這兩個方法其中一個來設定適當的結構描述。  

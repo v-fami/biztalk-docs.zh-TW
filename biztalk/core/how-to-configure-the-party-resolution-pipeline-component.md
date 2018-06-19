@@ -1,11 +1,11 @@
 ---
-title: "如何設定合作對象解析管線元件 |Microsoft 文件"
-ms.custom: 
+title: 如何設定合作對象解析管線元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - authenticating, Partner Management
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Partner Management, authenticating
 - pipeline components, Party Resolution
 ms.assetid: 0ebd30f7-3a6b-4457-8e30-80bf81fbd28d
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248214"
 ---
 # <a name="how-to-configure-the-party-resolution-pipeline-component"></a>如何設定合作對象解析管線元件
 合作對象解析管線元件可用以將使用者安全性識別碼與用戶端的憑證主旨對應到 BizTalk Server 合作對象。 對應可用以強制驗證傳送訊息至 BizTalk Server 的合作對象。 如需有關夥伴管理的詳細資訊，請參閱[如何建立協議](http://msdn.microsoft.com/library/f8608cf7-8ac5-4f02-805e-5a0bdf19ca8c)。  

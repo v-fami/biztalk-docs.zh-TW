@@ -1,14 +1,14 @@
 ---
-title: "開發自訂配接器 |Microsoft 文件"
-ms.custom: 
+title: 開發自訂配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 44765fbb-b24d-43b6-a40c-d28e319b90a5
-caps.latest.revision: "29"
+caps.latest.revision: 29
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239910"
 ---
 # <a name="developing-custom-adapters"></a>開發自訂配接器
 為了與外部系統、應用程式和實體交換訊息，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會使用配接器的概念。 配接器都是 COM 或[!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)]傳送商務結束訊息的元件。 點 （例如檔案系統、 資料庫和自訂商務應用程式） 使用各種通訊協定。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]提供支援各種通訊協定的原生配接器。 其中包括：  

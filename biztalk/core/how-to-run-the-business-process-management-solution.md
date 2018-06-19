@@ -1,11 +1,11 @@
 ---
-title: "如何執行商務程序管理解決方案 |Microsoft 文件"
-ms.custom: 
+title: 如何執行商務程序管理解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - process management solution tutorial, validating
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - process management solution tutorial, stopping orders
 - process management solution tutorial, updating orders
 ms.assetid: cb77651e-e16c-49dc-9f8a-88584cd68a8b
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257622"
 ---
 # <a name="how-to-run-the-business-process-management-solution"></a>如何執行商務程序管理解決方案
 下列步驟描述如何在單一電腦上執行和驗證商務程序管理解決方案。  

@@ -1,14 +1,14 @@
 ---
-title: "無效的元件元素分隔符號 |Microsoft 文件"
-ms.custom: 
+title: 無效的元件元素分隔符號 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 738a1107-86e6-4475-a61d-ed1d9ab7e5d2
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257254"
 ---
 # <a name="invalid-component-element-separator"></a>無效的元件元素分隔符號
 ## <a name="details"></a>詳細資料  

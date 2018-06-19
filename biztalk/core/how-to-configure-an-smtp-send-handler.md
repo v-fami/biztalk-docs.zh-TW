@@ -1,18 +1,18 @@
 ---
-title: "如何設定 SMTP 傳送處理常式 |Microsoft 文件"
-ms.custom: 
+title: 如何設定 SMTP 傳送處理常式 |Microsoft 文件
+ms.custom: ''
 ms.date: 2015-10-22
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - send handlers, SMTP adapters
 - SMTP adapters, send handlers
 - configuring [SMTP adapters], send handlers
 ms.assetid: b68a36ce-f0a5-4302-a405-bb154c935f47
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "22248494"
 ---
 # <a name="how-to-configure-an-smtp-send-handler"></a>如何設定 SMTP 傳送處理常式
 您可以在「BizTalk 管理」主控台中設定 SMTP 傳送處理常式屬性。 若屬性不是在個別 SMTP 傳送埠中設定，這些傳送處理常式屬性就會當作傳送埠組態值。  

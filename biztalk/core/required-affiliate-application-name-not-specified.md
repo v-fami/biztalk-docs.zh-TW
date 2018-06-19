@@ -1,14 +1,14 @@
 ---
-title: "未指定必要的分支機構應用程式名稱 |Microsoft 文件"
-ms.custom: 
+title: 未指定必要的分支機構應用程式名稱 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b3e82a39-b052-4702-bfe2-700756a0ee6a
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268462"
 ---
 # <a name="required-affiliate-application-name-not-specified"></a>未指定必要的分支機構應用程式名稱
 ## <a name="details"></a>詳細資料  

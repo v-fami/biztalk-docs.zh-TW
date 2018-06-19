@@ -1,18 +1,18 @@
 ---
-title: "訊息表示為 XSD 結構描述 |Microsoft 文件"
-ms.custom: 
+title: 訊息表示為 XSD 結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Message Assignment shape [Orchestration Designer], maps
 - maps, transforms
 - Expression Editor, assigning maps
 ms.assetid: 646e84d4-1dcc-4f92-9205-84cb6c7df297
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262966"
 ---
 # <a name="messages-represented-as-xsd-schemas"></a>表示為 XSD 結構描述的訊息
 XSD 訊息的範本 XML 執行個體是在設計階段定義，接著儲存在磁碟上。 在執行階段，.NET 元件會從磁碟收取 XML，並將它當做 XmlDocument 傳回。 協調流程程式碼可將此 XmlDocument 結果指定至協調流程中宣告的訊息執行個體。  

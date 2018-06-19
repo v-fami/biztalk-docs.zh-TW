@@ -1,14 +1,14 @@
 ---
-title: "如何新增值對應運算質至對應 |Microsoft 文件"
-ms.custom: 
+title: 如何新增值對應運算質至對應 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cc70067a-67a1-4a0e-95e5-b0cb327d2cee
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247838"
 ---
 # <a name="how-to-add-value-mapping-functoids-to-a-map"></a>如何新增值對應運算質至對應
 **值對應**運算質會傳回其第二個參數的值，如果第一個參數為 true。 運算質的一般用途是將欄位的屬性變更為記錄的屬性。  

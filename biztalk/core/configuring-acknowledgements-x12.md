@@ -1,14 +1,14 @@
 ---
-title: "設定通知 (X12) |Microsoft 文件"
-ms.custom: 
+title: 設定通知 (X12) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: eec2dbff-5d04-4a38-bad0-33d040b6dd12
-caps.latest.revision: "26"
+caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233622"
 ---
 # <a name="configuring-acknowledgements-x12"></a>設定通知 (X12)
 在夥伴協議中，您可以指定 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 在收到來自合作對象的 X12 編碼交換後，應如何產生通知，以及應對合作對象傳回哪種類型的通知。 您可以指定是否要批次處理通知，以及是否要針對接受的交易集產生 AK2 迴圈。 本節提供如何執行此作業的指示。  

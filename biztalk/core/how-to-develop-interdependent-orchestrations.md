@@ -1,14 +1,14 @@
 ---
-title: "如何開發具有相依性的協調流程 |Microsoft 文件"
-ms.custom: 
+title: 如何開發具有相依性的協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5464096e-66d8-48de-bc02-c754c5cfbada
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249478"
 ---
 # <a name="how-to-develop-interdependent-orchestrations"></a>如何開發具有相依性的協調流程
 您可以使用 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 開發一組具有相依性 Web 服務的協調流程。 當第一個協調流程呼叫第二個協調流程，而且第二個協調流程參考第一個協調流程中的資料型別和 (或) 連接埠時，會發生這種情況。 這種實例的範例有下列特性：  

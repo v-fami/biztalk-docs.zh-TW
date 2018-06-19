@@ -1,11 +1,11 @@
 ---
-title: "在 BizTalk Server 中的安全性功能 |Microsoft 文件"
-ms.custom: 
+title: 在 BizTalk Server 中的安全性功能 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BizTalk Server, security
@@ -25,7 +25,7 @@ helpviewer_keywords:
 - data, security
 - messages, security
 ms.assetid: 5ab15023-fa71-439e-b3aa-420fe28806fa
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -34,6 +34,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269902"
 ---
 # <a name="security-features-in-biztalk-server"></a>BizTalk Server 中的安全性功能
 Microsoft® BizTalk® Server 提供標準閘道，可以同時在內部網路中以及透過網際網路來傳送和接收文件。 由於往返 BizTalk Server 所傳送的訊息可能在商務上具有重大性質，請務必考量因應措施，在這些訊息的傳輸過程中，以及在 BizTalk Server 加以處理和儲存時，協助保護訊息及其所含資訊的安全性。 本節將提供有關 BizTalk Server 安全性功能的詳細資訊，以及如何使用這些功能協助保護資料和環境的安全。  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246494"
 ---
 # <a name="how-environment-variables-indicate-deployment-state"></a>環境變數如何指示部署狀態
 前置或後置處理指令碼一旦被叫用，便會檢查環境變數 BTAD_ChangeRequestAction、BTAD_InstallMode 與 BTAD_HostClass 以判斷目前所處的部署狀態 (安裝、匯入、刪除、解除安裝、匯入回復，或者安裝回復)。  

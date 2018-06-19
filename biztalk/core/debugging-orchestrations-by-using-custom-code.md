@@ -1,17 +1,17 @@
 ---
-title: "使用自訂程式碼偵錯協調流程 |Microsoft 文件"
-ms.custom: 
+title: 使用自訂程式碼偵錯協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, debugging
 - building, debugging
 ms.assetid: 94e569fa-8dea-4027-abb5-37b4a8015621
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239886"
 ---
 # <a name="debugging-orchestrations-by-using-custom-code"></a>使用自訂程式碼偵錯協調流程
 如果您的協調流程會在測試環境中執行，或您正在建立原型並想要修改訊息欄位和協調流程變數的值，您可以將輸出寫入[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]主控台中使用下列程式碼**運算式**圖形：  
@@ -45,9 +46,9 @@ System.Diagnostics.Debug.WriteLine(iResult);
   
 3.  按一下**偵錯**功能表，然後選取**附加至處理序...** 若要顯示**附加至處理序**對話方塊。  
   
-4.  按一下**選取...** 下一步按鈕**附加至：**文字方塊中，以顯示**選取程式碼類型**對話方塊。  
+4.  按一下**選取...** 下一步按鈕**附加至：** 文字方塊中，以顯示**選取程式碼類型**對話方塊。  
   
-5.  按一下以選取的選項**偵錯這些程式碼類型：**並選取**Managed** ，然後按一下 **確定**按鈕。  
+5.  按一下以選取的選項**偵錯這些程式碼類型：** 並選取**Managed** ，然後按一下 **確定**按鈕。  
   
 6.  按一下以選取**BTSNTSvc.exe**處理序**可用的處理序**，然後按一下 [**附加**] 按鈕。  
   

@@ -1,18 +1,18 @@
 ---
-title: "如何定義商務活動 |Microsoft 文件"
-ms.custom: 
+title: 如何定義商務活動 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - business activities, creating [Excel add-in]
 - monitoring business activities [BAM], creating business activities [Excel add-in]
 - monitoring business activities [BAM], Excel add-in
 ms.assetid: 305e3718-46b4-45df-bd52-f7ae36621576
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249830"
 ---
 # <a name="how-to-define-a-business-activity"></a>如何定義商務活動
 若要指示您必須為報告收集的資料，則必須定義 BAM 活動。 這個定義包含您想要 BAM 追蹤的重要里程碑及資料項目的清單。請使用 BAM Excel 增益集來建立活動，如下列程序所示。  

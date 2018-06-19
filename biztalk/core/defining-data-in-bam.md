@@ -1,11 +1,11 @@
 ---
-title: "在 BAM 中定義資料 |Microsoft 文件"
-ms.custom: 
+title: 在 BAM 中定義資料 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - aggregations [BAM], dimensions
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - monitoring business activities [BAM], milestone groups
 - aggregations [BAM], real-time data
 ms.assetid: 501a1c08-3979-4a99-94d9-0d1b5ec4266b
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22242934"
 ---
 # <a name="defining-data-in-bam"></a>在 BAM 中定義資料
 您可以使用 BAM Excel 增益集來定義想要 BAM 收集的資料，並定義資料共用的方式。 您可以使用 BAM 活動來定義資料，也可以使用 BAM 檢視來定義其他使用者可查看的資料。  

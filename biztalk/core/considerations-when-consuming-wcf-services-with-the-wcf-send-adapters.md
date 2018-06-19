@@ -1,11 +1,11 @@
 ---
-title: "考量使用 WCF 服務使用 WCF 傳送配接器 |Microsoft 文件"
-ms.custom: 
+title: 考量使用 WCF 服務使用 WCF 傳送配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - consuming, WCF services
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - consuming, best practices
 - WCF services, consuming
 ms.assetid: 8bbcfd99-3495-458d-bd7a-6d170a29dde2
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238798"
 ---
 # <a name="considerations-when-consuming-wcf-services-with-the-wcf-send-adapters"></a>利用 WCF 傳送配接器使用 WCF 服務的考量
 本主題提供您利用 WCF 配接器使用 Web 服務時應該納入之考量的相關資訊。  

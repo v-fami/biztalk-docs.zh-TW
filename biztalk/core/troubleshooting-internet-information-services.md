@@ -1,14 +1,14 @@
 ---
-title: "疑難排解 Internet Information Services |Microsoft 文件"
-ms.custom: 
+title: 疑難排解 Internet Information Services |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f77084f1-5797-42ab-bbf6-fe815144232e
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22280102"
 ---
 # <a name="troubleshooting-internet-information-services"></a>Internet Information Services 疑難排解
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 經常使用 Microsoft Internet Information Services (IIS) 提供各種功能，包括 HTTP、SOAP 和 Windows SharePoint Services 配接器。 本主題描述在使用 IIS 時可能遇到的一些已知問題，以及這些問題的可能解決方案。  
@@ -133,7 +134,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
      *%Windir%\\*system32\LogFiles\W3SVC1\  
   
     > [!NOTE]
-    >  *%Windir%*是 IIS 伺服器上的 Windows 目錄位置的預留位置。  
+    >  *%Windir%* 是 IIS 伺服器上的 Windows 目錄位置的預留位置。  
   
      根據預設，在執行 Windows Server 2008 或 Windows Vista 的電腦上，IIS 記錄檔位於下列目錄：  
   
@@ -141,7 +142,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
   
      根據預設，[!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] 上的 HTTPERR 記錄檔位於下列目錄：  
   
-     *%Windir%*system32LogFilesHTTPERR  
+     *%Windir%* system32LogFilesHTTPERR  
   
     > [!NOTE]
     >  才能使用 HTTPERR 記錄檔上才有[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]，或 Windows Vista 的電腦。  

@@ -1,11 +1,11 @@
 ---
-title: "如何設定 MQSeries 配接器傳送和接收處理常式 |Microsoft 文件"
-ms.custom: 
+title: 如何設定 MQSeries 配接器傳送和接收處理常式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive handlers, MQSeries adapters
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - send handlers, MQSeries adapters
 - configuring [MQSeries adapters], send handlers
 ms.assetid: e1cfc415-50d2-440b-9301-ad69da28ad3e
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248230"
 ---
 # <a name="how-to-configure-mqseries-adapter-send-and-receive-handlers"></a>如何設定 MQSeries 配接器傳送和接收處理常式
 您可以透過 [BizTalk Server 管理] 主控台，為 MQSeries 配接器的傳送與接收處理常式設定一些屬性。 描述的程序[如何設定 MQSeries 配接器接收位置和傳送埠](../core/how-to-configure-mqseries-adapter-receive-locations-and-send-ports.md)建立大多數傳送處理常式屬性的值。  

@@ -1,11 +1,11 @@
 ---
-title: "如何修改規則 |Microsoft 文件"
-ms.custom: 
+title: 如何修改規則 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - business rules, activating
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - modifying, business rules
 - business rules, modifying
 ms.assetid: 661b2637-b5d6-4bde-9c42-24cd9e9d241c
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254230"
 ---
 # <a name="how-to-modify-rules"></a>如何修改規則
 變更規則的能力是商務規則範例的重要部分。 您可以使用兩種方式來修改原則中的規則：建立原則的新版本或是直接修改未發佈的原則版本。  

@@ -1,14 +1,14 @@
 ---
-title: "設定識別項 (X12) |Microsoft 文件"
-ms.custom: 
+title: 設定識別項 (X12) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 665698d1-c46c-4149-9715-381b4966dd92
-caps.latest.revision: "28"
+caps.latest.revision: 28
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234134"
 ---
 # <a name="configuring-identifiers-x12"></a>設定識別項 (X12)
 在夥伴協議中，您必須設定 X12 驗證和安全性等屬性，才可以確認該交換的接收者不會是未經授權的使用者。  
@@ -40,16 +41,16 @@ ms.lasthandoff: 09/20/2017
   
 2.  在單向協議索引標籤底下**交換設定**區段中，按一下**識別碼**。  
   
-3.  輸入的值**ISA1-2 （授權辨識符號和資訊）**。 選取的值**授權辨識符號 (ISA1)**從相關聯的下拉式清單。 如果此值不是**00**，如**值 (ISA2)**文字方塊中，輸入最少一個英數字元，最多 10 個。 這是選擇性欄位。 如果您指定這些值，請確定它們和已接收交換中的 ISA1 與 ISA2 欄位相符，否則 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會擱置交換。  
+3.  輸入的值**ISA1-2 （授權辨識符號和資訊）**。 選取的值**授權辨識符號 (ISA1)** 從相關聯的下拉式清單。 如果此值不是**00**，如**值 (ISA2)** 文字方塊中，輸入最少一個英數字元，最多 10 個。 這是選擇性欄位。 如果您指定這些值，請確定它們和已接收交換中的 ISA1 與 ISA2 欄位相符，否則 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會擱置交換。  
   
-4.  輸入的值**ISA3-4 （安全性辨識符號和資訊）**。 選取的值**安全性辨識符號 (ISA3)**從下拉式清單。 如果此值不是**00**，如**值 (ISA4)**文字方塊中，輸入最少一個英數值，最多 10 個。 這是選擇性欄位。 如果這些值與所接收交換中的 ISA3 和 ISA4 欄位值不相符，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 將會擱置交換。  
+4.  輸入的值**ISA3-4 （安全性辨識符號和資訊）**。 選取的值**安全性辨識符號 (ISA3)** 從下拉式清單。 如果此值不是**00**，如**值 (ISA4)** 文字方塊中，輸入最少一個英數值，最多 10 個。 這是選擇性欄位。 如果這些值與所接收交換中的 ISA3 和 ISA4 欄位值不相符，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 將會擱置交換。  
   
     > [!NOTE]
     >  值**03-密碼 （用於回溯相容性）**，是為了回溯相容性的[!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)]將在未來版本中移除。  
   
-5.  輸入的值**ISA5-6 （傳送者辨識符號和識別項）**。 選取從辨識符號的值**寄件者識別碼辨識符號 (ISA5)**下拉式清單。 針對該識別碼，在**值 (ISA6)**文字方塊中，輸入最少一個英數字元，最多 15 個字元。  
+5.  輸入的值**ISA5-6 （傳送者辨識符號和識別項）**。 選取從辨識符號的值**寄件者識別碼辨識符號 (ISA5)** 下拉式清單。 針對該識別碼，在**值 (ISA6)** 文字方塊中，輸入最少一個英數字元，最多 15 個字元。  
   
-6.  輸入的值**ISA7-8 （接收者辨識符號和識別項）**。 選取從辨識符號的值**寄件者識別碼辨識符號 (ISA7)**下拉式清單。 針對該識別碼，在**值 (ISA8)**文字方塊中，輸入最少一個英數字元，最多 15 個字元。  
+6.  輸入的值**ISA7-8 （接收者辨識符號和識別項）**。 選取從辨識符號的值**寄件者識別碼辨識符號 (ISA7)** 下拉式清單。 針對該識別碼，在**值 (ISA8)** 文字方塊中，輸入最少一個英數字元，最多 15 個字元。  
   
 7.  在**其他協議解析程式** 區段中，針對**DestinationPartyName**屬性，指定目的合作對象的值。 此值也用來將外寄訊息解析為協議。 如需詳細資訊，請參閱[協議解析和外寄 EDI 訊息的結構描述判斷](../core/agreement-resolution-and-schema-determination-for-outgoing-edi-messages.md)。  
   

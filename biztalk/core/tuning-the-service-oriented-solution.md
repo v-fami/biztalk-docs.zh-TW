@@ -1,11 +1,11 @@
 ---
-title: "調整服務導向解決方案 |Microsoft 文件"
-ms.custom: 
+title: 調整服務導向解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - tuning
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - performance, service solutions
 - service solution tutorial, tuning
 ms.assetid: 55ca4e9f-9f8b-4ef9-9757-0d0edf252504
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286478"
 ---
 # <a name="tuning-the-service-oriented-solution"></a>調整服務導向解決方案
 協調流程會透過「商務活動監控」(BAM) API，收集有關應用程式許多部分的效能資訊。 您可以在調整應用程式時找到可用的資料。 當然您也可以使用內建效能計數器。  

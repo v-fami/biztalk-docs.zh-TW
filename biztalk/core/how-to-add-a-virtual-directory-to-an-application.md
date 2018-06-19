@@ -1,11 +1,11 @@
 ---
-title: "如何將虛擬目錄新增至應用程式 |Microsoft 文件"
-ms.custom: 
+title: 如何將虛擬目錄新增至應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - virtual directories
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - applications, virtual directories
 - virtual directories, applications
 ms.assetid: a5726696-bd65-49d9-8814-a078afe8c067
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248878"
 ---
 # <a name="how-to-add-a-virtual-directory-to-an-application"></a>如何將虛擬目錄新增至應用程式
 本主題描述如何使用 BTSTask 命令列工具，將虛擬目錄加入到 BizTalk 應用程式。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台上無法使用這個選項。 如果您已經撰寫自訂 Web 服務或建立 ASP.NET 網站來與 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 互動，而且您想要搭配此應用程式部署虛擬目錄，此時您可能會想要新增虛擬目錄。  

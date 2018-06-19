@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250390"
 ---
 # <a name="how-to-customize-colors-and-font-in-biztalk-mapper"></a>如何在 BizTalk 對應工具中自訂色彩和字型
 您可以變更 [格線] 檢視中與各種連結類型關聯的色彩以及所選取物件的色彩。 也可以變更用以顯示結構描述樹狀結構節點的字型。 本主題提供進行這類變更的逐步指示。  

@@ -1,11 +1,11 @@
 ---
-title: "如何設定排程的接收位置 |Microsoft 文件"
-ms.custom: 
+title: 如何設定排程的接收位置 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring, receive locations
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - scheduling, receive locations
 - managing [receive locations], configuring
 ms.assetid: 2653e1c3-ddbd-4d3f-be64-2a5fcd7cf267
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248702"
 ---
 # <a name="how-to-configure-scheduling-for-a-receive-location"></a>如何設定接收位置的排程
 本主題描述如何使用 BizTalk Server 管理主控台來設定接收位置的排程屬性。 您可以指定想要接收位置開始和停止處理訊息的日期。 您也可以指定您想要接收位置在一天當中處理訊息的特定時間。  

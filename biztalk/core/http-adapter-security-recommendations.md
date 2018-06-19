@@ -1,18 +1,18 @@
 ---
-title: "HTTP 配接器安全性建議 |Microsoft 文件"
-ms.custom: 
+title: HTTP 配接器安全性建議 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, HTTP adapters
 - configuring [HTTP adapters], security
 - HTTP adapters, security
 ms.assetid: ef6043c2-c62a-40e5-b2e1-53e60f87a761
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256758"
 ---
 # <a name="http-adapter-security-recommendations"></a>HTTP 配接器安全性建議
 您可以使用 HTTP 配接器透過「超文字傳輸通訊協定」(HTTP) 在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 與應用程式之間交換資訊。 應用程式可以藉由傳送 HTTP POST 或 HTTP GET 要求到指定的 HTTP URL 來傳送訊息到伺服器。 如需 HTTP 配接器的詳細資訊，請參閱[HTTP 配接器](../core/http-adapter.md)。 建議您使用下列指導方針在環境中部署 HTTP 配接器並保護其安全：  

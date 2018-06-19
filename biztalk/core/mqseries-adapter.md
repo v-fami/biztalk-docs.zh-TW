@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263174"
 ---
 # <a name="mqseries-adapter"></a>MQSeries 配接器
 MQSeries 配接器扮演 Microsoft BizTalk Server 與 IBM MQSeries 伺服器之間的橋樑，讓您可以使用建立商務程序的所有選項。  

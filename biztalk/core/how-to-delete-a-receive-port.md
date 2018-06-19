@@ -1,18 +1,18 @@
 ---
-title: "如何刪除接收埠 |Microsoft 文件"
-ms.custom: 
+title: 如何刪除接收埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [receive ports], deleting
 - deleting, receive ports
 - receive ports, deleting
 ms.assetid: 69cd86f7-e3cc-4a50-8d15-5f978c94a6be
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249070"
 ---
 # <a name="how-to-delete-a-receive-port"></a>如何刪除接收埠
 本主題描述如何使用 BizTalk Server 管理主控台從 BizTalk 應用程式刪除接收埠。 在執行此工作時，也會從群組的 BizTalk 管理資料庫刪除接收埠，以及該接收埠上的所有接收位置。  

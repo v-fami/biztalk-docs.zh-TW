@@ -1,11 +1,11 @@
 ---
-title: "SSO 分支機構應用程式 |Microsoft 文件"
-ms.custom: 
+title: SSO 分支機構應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SSO, designing applications
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - SSO, applications
 - applications [SSO], designing
 ms.assetid: 002ecf7e-4d52-425a-9498-0e7bd6545047
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975728"
 ---
 # <a name="sso-affiliate-applications"></a>SSO 分支機構應用程式
 「企業單一登入」(SSO) 分支機構應用程式是代表系統或子系統 (如主控件、後端系統或您使用 SSO 連接的商務應用程式產品線) 的邏輯實體。 分支機構應用程式代表後端系統，如大型主機或 UNIX 電腦。 它也可以代表應用程式 (如 SAP)，或系統的子部分 (如 Benefits 或 Pay stub 子系統)。  
@@ -81,7 +82,7 @@ ms.lasthandoff: 11/28/2017
 |Description|分支機構應用程式的簡短說明|  
 |連絡人|使用者可使用的此分支機構應用程式之主要連絡資訊。 (可能為電子郵件地址。)|  
 |appUserAccount|包含一般使用者的使用者帳戶之 Windows 群組，這些使用者將使用此分支機構應用程式。|  
-|appAdminAccount|包含系統管理員帳戶的 Windows 群組，這些系統管理員將管理此分支機構應用程式。 **注意：**您不需要定義此屬性，如果您將 adminAccountSame 設定為 [是]。|  
+|appAdminAccount|包含系統管理員帳戶的 Windows 群組，這些系統管理員將管理此分支機構應用程式。 **注意：** 您不需要定義此屬性，如果您將 adminAccountSame 設定為 [是]。|  
   
 |應用程式旗標|Description|  
 |----------------------|-----------------|  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288478"
 ---
 # <a name="wcf-custom-adapter"></a>WCF-Custom 配接器
 Wcf-custom 配接器是內含式配接器來設定接收位置和傳送埠的任何繫結和行為設定 Windows Communication Foundation (WCF) 適用於[!INCLUDE[btsCoName](../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。 WCF-Custom 配接器可以用於標準 WCF 配接器不支援的實例。 WCF-Custom 配接器也可以讓您使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的 WCF 擴充點。  

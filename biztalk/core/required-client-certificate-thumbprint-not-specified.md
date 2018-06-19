@@ -1,14 +1,14 @@
 ---
-title: "需要未指定的用戶端憑證指紋 |Microsoft 文件"
-ms.custom: 
+title: 需要未指定的用戶端憑證指紋 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 19307bdb-29d7-4a79-9472-dda24dd8b263
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269366"
 ---
 # <a name="required-client-certificate-thumbprint-not-specified"></a>未指定必要的用戶端憑證指紋
 ## <a name="details"></a>詳細資料  

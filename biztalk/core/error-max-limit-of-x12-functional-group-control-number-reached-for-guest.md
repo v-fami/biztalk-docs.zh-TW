@@ -1,14 +1,14 @@
 ---
-title: "可接受的 X12 功能群組控制編號已達到 Guest 設定的最高上限 |Microsoft 文件"
-ms.custom: 
+title: 可接受的 X12 功能群組控制編號已達到 Guest 設定的最高上限 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 05cba774-fa35-4694-aa34-d7151f8cd75c
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241630"
 ---
 # <a name="max-limit-of-acceptable-x12-functional-group-control-number-has-reached-for-guest-settings"></a>可接受的 X12 功能群組控制編號已達到 Guest 設定的最高上限
 ## <a name="details"></a>詳細資料  

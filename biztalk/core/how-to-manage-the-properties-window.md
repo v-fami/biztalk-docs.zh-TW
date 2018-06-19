@@ -1,14 +1,14 @@
 ---
-title: "如何管理 [屬性] 視窗 |Microsoft 文件"
-ms.custom: 
+title: 如何管理 [屬性] 視窗 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f5277f9e-1043-4e68-883f-056d0ea633f3
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254062"
 ---
 # <a name="how-to-manage-the-properties-window"></a>如何管理屬性視窗
 BizTalk 編輯器使用 [Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 屬性] 視窗，以顯示結構描述樹狀結構檢視中與節點關聯的屬性值，並提供變更這些值的介面。 本主題針對管理 [屬性] 視窗的某些特性，提供逐步解說。  

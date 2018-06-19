@@ -1,14 +1,14 @@
 ---
-title: "交換模式的接收配接器 |Microsoft 文件"
-ms.custom: 
+title: 交換模式的接收配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e505559e-66be-4c32-a2a8-a242cba10000
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246294"
 ---
 # <a name="exchange-patterns-for-receive-adapters"></a>接收配接器的交換模式
 接收配接器會從「纜線」接收資料，然後當作訊息提交給 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。 此提交流程可以是單向或雙向的訊息交換模式。  

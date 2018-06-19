@@ -1,11 +1,11 @@
 ---
-title: "商務規則引擎 |Microsoft 文件"
-ms.custom: 
+title: 商務規則引擎 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - business rules, Business Rules Engine
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Business Rules Engine, rules
 - Business Rules Engine, about Business Rules Engine
 ms.assetid: 87b38507-9f6d-4863-88a6-9c20f15a4e55
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232614"
 ---
 # <a name="business-rules-engine"></a>商務規則引擎
 「商務規則架構」是一個 Microsoft .NET 相容的類別庫。 它提供一個有效的推斷引擎，可將易讀、宣告式且語意豐富的規則連結到任何商務物件 (.NET 元件)、XML文件或資料庫資料表。 應用程式開發人員可從小型的商務邏輯建置區塊 (小型的規則集) 開始建構規則，以執行 .NET 物件、資料庫資料表和 XML 文件中包含的資訊 (事實)，以建立商務規則。 此設計模式可提升程式碼重複使用率、簡化設計和商務邏輯的模組化程序。 此外，規則引擎並非利用商務應用程式的架構或設計。 事實上，您可以直接叫用規則引擎將規則技術加入商務應用程式，或是取得叫用您的商務物件的外部邏輯，無需修改。 總之，開發人員若採用該技術，只需耗費最少的精力便能建立和維護應用程式。  

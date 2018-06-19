@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271302"
 ---
 # <a name="secondarytransport-sendport-node"></a>SecondaryTransport (傳送埠節點)
 [傳送埠] 節點的 [SecondaryTransport] 節點，針對繫結至繫結檔案所匯出之傳送埠的次要傳輸而提供特定資訊。 如果有指定次要傳輸，則在耗盡主要傳輸的所有重試嘗試時便會使用次要傳輸。  

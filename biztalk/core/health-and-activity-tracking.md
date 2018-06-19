@@ -1,14 +1,14 @@
 ---
-title: "健全狀況與活動追蹤 |Microsoft 文件"
-ms.custom: 
+title: 健全狀況與活動追蹤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0c5d7415-38da-47b5-8dbc-0a2ea74548d9
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,9 +17,10 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246598"
 ---
 # <a name="health-and-activity-tracking"></a>狀況與活動追蹤
-**健全狀況與活動追蹤 (HAT)**工具已移除[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]2009年。  HAT 工具的角色是追蹤和顯示即時的相關資訊和歷史訊息資料儲存在 「 BizTalk 追蹤資料庫中。  此工具可讓您針對協調流程的流程進行偵錯，也可以讓您透過循序畫面來檢視訊息的流程。  [查詢建立器] 允許對追蹤資料執行標準和自訂的查詢。  
+**健全狀況與活動追蹤 (HAT)** 工具已移除[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]2009年。  HAT 工具的角色是追蹤和顯示即時的相關資訊和歷史訊息資料儲存在 「 BizTalk 追蹤資料庫中。  此工具可讓您針對協調流程的流程進行偵錯，也可以讓您透過循序畫面來檢視訊息的流程。  [查詢建立器] 允許對追蹤資料執行標準和自訂的查詢。  
   
  雖然無法再從 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 功能表直接叫用 [狀況與活動追蹤] 工具，但其追蹤功能仍然間接存在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 環境內。  健全狀況與活動資訊也可透過改良式整合其他追蹤 BizTalk Server 管理主控台中的 [群組中樞] 頁面中的查詢。  
   

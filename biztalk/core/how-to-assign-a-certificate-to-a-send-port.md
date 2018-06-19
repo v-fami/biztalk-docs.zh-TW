@@ -1,11 +1,11 @@
 ---
-title: "如何指派憑證給傳送埠 |Microsoft 文件"
-ms.custom: 
+title: 如何指派憑證給傳送埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - certificates, assigning
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - assigning certificates
 - certificates, send ports
 ms.assetid: ba9e9c8b-f5b6-4fee-9e89-31b0f1df6ed4
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247478"
 ---
 # <a name="how-to-assign-a-certificate-to-a-send-port"></a>如何指派憑證給傳送埠
 本主題描述如何使用 BizTalk Server 管理主控台來指派安全性憑證給傳送埠。 憑證必須存在於執行 BizTalk Server 之電腦的「其他人」憑證存放區，否則無法處理與此傳送埠相關的訊息，並且會有錯誤列入記錄。  

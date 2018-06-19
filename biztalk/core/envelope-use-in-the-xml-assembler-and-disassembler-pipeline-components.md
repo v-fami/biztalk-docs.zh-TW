@@ -1,11 +1,11 @@
 ---
-title: "XML 組合器和解譯器管線元件中的使用信封 |Microsoft 文件"
-ms.custom: 
+title: XML 組合器和解譯器管線元件中的使用信封 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - XMLNorm.EnvelopeSpecNames property
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - XML Assembler [pipeline component], envelopes
 - Envelope Specification Names property
 ms.assetid: ccffd2f7-c7b1-4103-a914-ae9b4b19bee3
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240390"
 ---
 # <a name="envelope-use-in-the-xml-assembler-and-disassembler-pipeline-components"></a>XML 組合器和解譯器管線元件中使用的信封
 XML 訊息可以包含零或更多信封。 下列範例顯示包裝 XML 文件的信封 (粗體)。  

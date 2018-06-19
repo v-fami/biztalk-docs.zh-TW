@@ -1,17 +1,17 @@
 ---
-title: "如何定義持續時間 |Microsoft 文件"
-ms.custom: 
+title: 如何定義持續時間 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - business activities, time intervals
 - BAM View Wizard, configuring time intervals
 ms.assetid: 82bb742a-0271-4ece-8a5c-0260322ac545
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248782"
 ---
 # <a name="how-to-define-durations"></a>如何定義持續時間
 持續時間可以指定時間量 (由特定活動項目的開始和結束里程碑所定義)。 例如，訂單的有效日數。  

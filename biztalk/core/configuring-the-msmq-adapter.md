@@ -1,17 +1,17 @@
 ---
-title: "設定 MSMQ 配接器 |Microsoft 文件"
-ms.custom: 
+title: 設定 MSMQ 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - MSMQ adapters, configuring
 - configuring [MSMQ adapters]
 ms.assetid: 8f873ee1-4eaa-43d2-948d-aecc406a0bfb
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232950"
 ---
 # <a name="configuring-the-msmq-adapter"></a>設定 MSMQ 配接器
 本節包含關於設定 MSMQ 配接器的資訊。 您可以為接收位置和傳送埠設定 MSMQ 配接器。  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255054"
 ---
 # <a name="how-to-save-a-pipeline"></a>如何儲存管線
 將管線組態的管線存放區資訊儲存至 .btp 檔案中，其中指定：  

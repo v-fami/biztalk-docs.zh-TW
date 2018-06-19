@@ -1,14 +1,14 @@
 ---
-title: "在升級的批次協調流程的執行期間發生例外狀況 |Microsoft 文件"
-ms.custom: 
+title: 在升級的批次協調流程的執行期間發生例外狀況 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2221a498-98aa-43ab-bc4e-34dcbd92dcf0
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006663"
 ---
 # <a name="an-exception-has-occurred-during-the-execution-of-the-upgrade-batch-orchestration"></a>在升級的批次協調流程的執行期間發生例外狀況
 ## <a name="details"></a>詳細資料  

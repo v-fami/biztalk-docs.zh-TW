@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239750"
 ---
 # <a name="distributionlistref-port-node"></a>DistributionListRef (連接埠節點)
 繫結檔案之 [連接埠] 節點的 [DistributionListRef] 節點包含由服務所參考之通訊群組清單的相關資訊。  

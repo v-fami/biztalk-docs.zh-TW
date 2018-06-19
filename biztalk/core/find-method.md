@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22245966"
 ---
 # <a name="find-method"></a>Find 方法
 用來傳回滿足提供的部分搜尋索引鍵的索引鍵清單。 請注意，對於只有一個執行個體的元件介面 (即沒有索引鍵)，則不會產生 `Find()` 函數。 另請參閱[Get 方法](../core/get-method.md)。  

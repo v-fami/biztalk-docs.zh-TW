@@ -1,11 +1,11 @@
 ---
-title: "建立前置或後置處理指令碼 |Microsoft 文件"
-ms.custom: 
+title: 建立前置或後置處理指令碼 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - scripts, post-processing
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - scripts, deploying
 - deploying, scripts
 ms.assetid: d5fbaec8-fbfe-4ceb-8ba8-0933baa37a1f
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239294"
 ---
 # <a name="creating-a-pre--or-post-processing-script"></a>建立前置或後置處理指令碼
 您可以在部署應用程式時建立指令碼來執行動作，然後定義該指定碼在部署階段的執行時機。 您可以利用環境變數來分隔程式碼，以便在同一個指令碼中同時包含安裝與清除程式碼。 您也可以將命令列引數傳送至指令碼中。  

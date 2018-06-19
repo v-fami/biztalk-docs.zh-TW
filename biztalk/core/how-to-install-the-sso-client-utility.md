@@ -1,11 +1,11 @@
 ---
-title: "如何安裝 SSO 用戶端公用程式 |Microsoft 文件"
-ms.custom: 
+title: 如何安裝 SSO 用戶端公用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - installing, SSO
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - client utility [SSO]
 - SSO, installing
 ms.assetid: e14d257e-2fde-46af-b90c-5dbc0884536b
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254246"
 ---
 # <a name="how-to-install-the-sso-client-utility"></a>如何安裝 SSO 用戶端公用程式
 獨立的 SSO 用戶端公用程式 (命令列公用程式，以使用者介面為基礎) 讓一般使用者可以在 SSO 資料庫中設定其用戶端對應。 SSO 用戶端公用程式是以自我解壓縮檔 (SSOClientInstall.exe) 的方式安裝，並且會隨 SSO 管理功能一併安裝。 系統管理員也可將安裝程式封裝放在網路共用上，讓用戶端使用者使用安裝程式封裝。  

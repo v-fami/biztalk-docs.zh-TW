@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ab4ad6b5-5bbd-443b-9041-6cddf9d64735
-caps.latest.revision: ''
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22255342"
 ---
 # <a name="how-to-optimize-the-schema-tree-view"></a>如何最佳化結構描述樹狀結構檢視
 您可以使用 **相關性檢視** BizTalk 對應工具最佳化來源和/或目標結構描述樹狀結構中。 本主題提供如何執行此作業的指示。  

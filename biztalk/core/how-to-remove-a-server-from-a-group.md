@@ -1,11 +1,11 @@
 ---
-title: "如何從群組移除伺服器 |Microsoft 文件"
-ms.custom: 
+title: 如何從群組移除伺服器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - groups, servers
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - servers, groups
 - deleting, servers
 ms.assetid: 85596e18-fa17-4f44-bc20-2e4cb578e109
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255382"
 ---
 # <a name="how-to-remove-a-server-from-a-group"></a>如何從群組移除伺服器
 一部伺服器僅能與一個 BizTalk 群組關聯。 如果伺服器已經屬於其他群組，您必須先從目前的群組移除該伺服器，才可將其新增至新群組。  

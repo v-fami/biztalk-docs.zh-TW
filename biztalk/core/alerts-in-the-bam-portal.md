@@ -1,11 +1,11 @@
 ---
-title: "BAM 入口網站中的警示 |Microsoft 文件"
-ms.custom: 
+title: BAM 入口網站中的警示 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BAM portal, alerts
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Alert Management page [BAM portal]
 - alerts, subscriptions
 ms.assetid: 715a4187-aafa-46be-8b00-8eaba2e569e5
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232710"
 ---
 # <a name="alerts-in-the-bam-portal"></a>BAM 入口網站中的警示
 警示可讓您定義可即時傳遞給使用者有關您商務程序的重要事件，例如關鍵效能指標 (KPI)。 使用者可訂閱警示，接收警示所監視之商務事件的通知。  
@@ -58,7 +59,7 @@ ms.lasthandoff: 09/20/2017
   
 |欄位名稱|目錄|  
 |----------------|--------------|  
-|名稱|警示的名稱。 警示的名稱會當成以電子郵件方式傳遞之警示的主旨，以及以檔案方式傳遞之警示的檔案名稱。 **注意：**名稱限制為 100 個字元，且不可包含下列字元: ~！@#$%^&amp;* ();|  
+|名稱|警示的名稱。 警示的名稱會當成以電子郵件方式傳遞之警示的主旨，以及以檔案方式傳遞之警示的檔案名稱。 **注意：** 名稱限制為 100 個字元，且不可包含下列字元: ~！@#$%^&amp;* ();|  
 |訊息|將隨警示傳遞的訊息文字。|  
 |優先權|表示警示所報告之問題的嚴重性。 優先順序層級分為高、中和低。 對於以電子郵件傳遞的警示，這項設定會決定電子郵件訊息上之重要性旗標的類型。|  
 |擁有者|警示的擁有者。 擁有者的預設值即為警示的建立者， 如果有多個擁有者，可利用分號分隔的清單方式輸入。|  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249326"
 ---
 # <a name="how-to-customize-general-settings-in-biztalk-mapper"></a>如何自訂 BizTalk 對應工具中的一般設定
 您可以變更對應中的特定檢視選項的預設設定。 每當您開啟 Visual Studio 時，都可以使用這些設定。 本主題提供這些選項的資訊。  

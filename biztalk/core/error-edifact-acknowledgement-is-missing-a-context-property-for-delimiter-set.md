@@ -1,14 +1,14 @@
 ---
-title: "EDIFACT 通知由系統產生。 不過，它的分隔符號設定遺失的內容屬性。 無法序列化 |Microsoft 文件"
-ms.custom: 
+title: EDIFACT 通知由系統產生。 不過，它的分隔符號設定遺失的內容屬性。 無法序列化 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8d7b1e62-3230-4cdc-830f-3267de1efd1c
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241558"
 ---
 # <a name="the-edifact-acknowledgement-was-generated-by-the-system-however-it-is-missing-a-context-property-for-delimiter-set-it-cannot-be-serialized"></a>EDIFACT 通知由系統產生。 不過，它的分隔符號設定遺失的內容屬性。 無法序列化
 ## <a name="details"></a>詳細資料  

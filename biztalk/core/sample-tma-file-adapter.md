@@ -1,11 +1,11 @@
 ---
-title: "範例 TMA: File 配接器 |Microsoft 文件"
-ms.custom: 
+title: '範例 TMA: File 配接器 |Microsoft 文件'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - architecture, examples
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - examples, File adapters
 - security examples [TMA], File adapters
 ms.assetid: bcb862c0-fe02-4335-8b59-242d28049e3f
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271886"
 ---
 # <a name="sample-tma-file-adapter"></a>範例 TMA: File 配接器
 本主題呈現範例架構的 File 配接器實例之威脅模型分析 (TMA)。 下圖顯示 File 配接器實例的範例架構。  
@@ -58,9 +59,9 @@ ms.lasthandoff: 09/20/2017
 ## <a name="step-2-create-and-analyze-the-threat-model-file-adapter-scenario"></a>步驟 2： 建立和分析威脅模型 （File 配接器實例）  
  本節提供我們為範例架構的 FILE 配接器實例所做的 TMA 結果。  
   
--   **識別進入點、 信任界限以及的資料流-**查看背景資訊稍早所述"收集背景資訊的 File 配接器實例 」 和 「 所有實例的背景資訊 」。  
+-   **識別進入點、 信任界限以及的資料流-** 查看背景資訊稍早所述"收集背景資訊的 File 配接器實例 」 和 「 所有實例的背景資訊 」。  
   
--   **建立一份識別的威脅-**我們針對 dfd 的所有項目使用下列分類來識別潛在的威脅： **S**假冒識別， **T**ampering 取代資料， **R**epudiation，**我**若資訊洩漏、 **D**拒絕服務，以及**E**身分權限。 下表列出當您使用 File 配接器傳送和接收 BizTalk Server 訊息時識別的威脅。  
+-   **建立一份識別的威脅-** 我們針對 dfd 的所有項目使用下列分類來識別潛在的威脅： **S**假冒識別， **T**ampering 取代資料， **R**epudiation，**我**若資訊洩漏、 **D**拒絕服務，以及**E**身分權限。 下表列出當您使用 File 配接器傳送和接收 BizTalk Server 訊息時識別的威脅。  
   
  **表 1 識別的威脅清單**  
   

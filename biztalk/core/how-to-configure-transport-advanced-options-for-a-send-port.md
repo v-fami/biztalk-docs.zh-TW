@@ -1,11 +1,11 @@
 ---
-title: "如何設定傳送埠的傳輸進階選項 |Microsoft 文件"
-ms.custom: 
+title: 如何設定傳送埠的傳輸進階選項 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring, transport options [send ports]
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - managing [send ports], configuring
 - managing [send ports], transport options
 ms.assetid: b0033e09-3c18-4e53-a470-e12978e61ba1
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250678"
 ---
 # <a name="how-to-configure-transport-advanced-options-for-a-send-port"></a>如何設定傳送埠的傳輸進階選項
 使用 BizTalk Server 管理主控台來設定傳送埠的傳輸進階選項。 這些選項可決定傳送埠如何處理訊息，例如訊息失敗時重試傳送訊息的次數，以及該連接埠的服務窗口排程。  

@@ -1,11 +1,11 @@
 ---
-title: "XML 組合器管線元件中的字元編碼 |Microsoft 文件"
-ms.custom: 
+title: XML 組合器管線元件中的字元編碼 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - IBaseMessagePart.Charset property
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Target Charset property
 - XML Assembler [pipeline component], character encoding
 ms.assetid: c031fbbf-f00f-41ba-8ac9-cec7d625cef6
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232102"
 ---
 # <a name="character-encoding-in-the-xml-assembler-pipeline-component"></a>XML 組合器管線元件中的字元編碼
 XML 組合器管線元件可以根據使用者指定的字元編碼來產生訊息，下表顯示這兩種方式：  
@@ -31,7 +32,7 @@ XML 組合器管線元件可以根據使用者指定的字元編碼來產生訊�
 |編碼層級|編碼方法|  
 |--------------------|---------------------|  
 |元件|設定**目標字元集**管線設計師 」 中的元件屬性。|  
-|訊息|設定**XMLNorm.TargetCharset**在訊息內容屬性。 **注意：**的訊息內容屬性永遠會覆寫在管線設計師 」 中設定任何內容屬性。|  
+|訊息|設定**XMLNorm.TargetCharset**在訊息內容屬性。 **注意：** 的訊息內容屬性永遠會覆寫在管線設計師 」 中設定任何內容屬性。|  
   
  XML 組合器會使用下列演算法來判斷輸出訊息的編碼：  
   

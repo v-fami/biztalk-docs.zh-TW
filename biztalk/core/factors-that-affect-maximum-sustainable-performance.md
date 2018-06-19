@@ -1,11 +1,11 @@
 ---
-title: "影響最大持續性效能的因素 |Microsoft 文件"
-ms.custom: 
+title: 影響最大持續性效能的因素 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - maximum sustainable throughput (MST), maintenance
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - maximum sustainable throughput (MST), sustainable load test
 - sustainable performance
 ms.assetid: 99b99655-bc77-425c-a133-204781d7c430
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22245838"
 ---
 # <a name="factors-that-affect-maximum-sustainable-performance"></a>影響可維持之效能上限的因素
 可維持的最大輸送量直接受廣泛的因素影響，如可用的伺服器資源、解決方案使用的功能類型、訊息大小和整體訊息負載等因素。 當然還需考量其他因素，但是並非顯而易見。 預估可維持之效能的上限時也應該考慮下列因素：  

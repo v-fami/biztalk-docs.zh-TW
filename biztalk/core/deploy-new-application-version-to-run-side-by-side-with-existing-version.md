@@ -1,14 +1,14 @@
 ---
-title: "如何部署新版應用程式與現有版本執行的並行 |Microsoft 文件"
-ms.custom: 
+title: 如何部署新版應用程式與現有版本執行的並行 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1677c6a5-2c4c-4d70-ab83-f7e0bb3aaf6e
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241582"
 ---
 # <a name="how-to-deploy-a-new-version-of-an-application-to-run-side-by-side-with-an-existing-version"></a>如何部署應用程式的新版本，使其與現有版本並存執行。
 如何部署將會執行由並行的應用程式的新版本與現有版本。 

@@ -1,14 +1,14 @@
 ---
-title: "開發 BizTalk Server 應用程式 |Microsoft 文件"
-ms.custom: 
+title: 開發 BizTalk Server 應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 99b56f86-d8e4-4f4a-9ce9-9f476ba88ea8
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239598"
 ---
 # <a name="developing-biztalk-server-applications"></a>開發 BizTalk Server 應用程式
 本節包含的資訊可供負責建立 BizTalk 專案的開發人員使用。 專案是使用 BizTalk 專案系統設計環境建立的，可用以設計、組織和建置 BizTalk 應用程式的各種項目。 以下各節詳細描述此程序。  

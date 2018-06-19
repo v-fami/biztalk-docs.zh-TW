@@ -1,11 +1,11 @@
 ---
-title: "如何選取即時或封存資料來源 |Microsoft 文件"
-ms.custom: 
+title: 如何選取即時或封存資料來源 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Management database, archived data
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - real-time data, Management database
 - archived data, HAT
 ms.assetid: e2325823-22e1-4a1a-865b-15757b215b29
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255286"
 ---
 # <a name="how-to-select-a-live-or-archived-data-source"></a>如何選取即時或封存的資料來源
 BizTalktracking 可讓您存取封存資料和即時資料。 您可以選取即時或封存資料來源從主要**BizTalk Server 管理**節點 BizTalk Server 管理主控台。  預設來源是從「BizTalk 管理」資料庫擷取的即時資料。 若您選擇使用封存的資料，則必須選取要使用的適當伺服器與資料庫。  

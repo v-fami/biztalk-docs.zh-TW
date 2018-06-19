@@ -1,14 +1,14 @@
 ---
-title: "分隔記錄中的最小欄位長度 |Microsoft 文件"
-ms.custom: 
+title: 分隔記錄中的最小欄位長度 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 24272d0d-34c8-487a-9334-683c65c159b8
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,9 +17,10 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263638"
 ---
 # <a name="minimum-field-lengths-within-delimited-records"></a>分隔記錄中的最小欄位長度
-依照定義，序數記錄中的欄位都定義為具有指定的長度。 分隔記錄中的欄位也可以定義為具有最小長度。 這項特性由定義**[Minimum Length with Pad Character**屬性**欄位項目**和**欄位屬性**節點。  
+依照定義，序數記錄中的欄位都定義為具有指定的長度。 分隔記錄中的欄位也可以定義為具有最小長度。 這項特性由定義 **[Minimum Length with Pad Character**屬性**欄位項目**和**欄位屬性**節點。  
   
  當您提供非零值給**Minimum Length with Pad Character**屬性，一般檔案組合器將會決定欄位相關聯的資料字元數目是否小於設定**Minimum Length with Pad Character**屬性相關的填補字元會用來補足差距。  
   
@@ -29,4 +30,4 @@ ms.lasthandoff: 09/20/2017
   
 ## <a name="see-also"></a>另請參閱  
 -  [欄位考量](../core/field-considerations.md)   
--  **對齊方式 （一般檔案結構描述中的節點屬性）**和**Minimum Length with Pad Character （一般檔案結構描述中的節點屬性）**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]
+-  **對齊方式 （一般檔案結構描述中的節點屬性）** 和**Minimum Length with Pad Character （一般檔案結構描述中的節點屬性）**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

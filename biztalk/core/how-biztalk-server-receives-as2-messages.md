@@ -1,14 +1,14 @@
 ---
-title: "BizTalk Server 如何接收 AS2 訊息 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Server 如何接收 AS2 訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ccfb4f6c-1fec-4af5-99e5-12634071dd3a
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246638"
 ---
 # <a name="how-biztalk-server-receives-as2-messages"></a>BizTalk Server 如何接收 AS2 訊息
 本節說明 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中的 AS2 元件如何處理外寄 AS2 訊息。  

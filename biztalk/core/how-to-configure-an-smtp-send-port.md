@@ -1,18 +1,18 @@
 ---
-title: "如何設定 SMTP 傳送埠 |Microsoft 文件"
-ms.custom: 
+title: 如何設定 SMTP 傳送埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring [SMTP adapters], send ports
 - send ports, SMTP adapters
 - SMTP adapters, send ports
 ms.assetid: b2291378-718d-4d1a-9d54-cd34c1b2e000
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250614"
 ---
 # <a name="how-to-configure-an-smtp-send-port"></a>如何設定 SMTP 傳送埠
 您可以使用程式設計的方式，或使用 [BizTalk Server 管理] 主控台，來設定 SMTP 傳送埠。  

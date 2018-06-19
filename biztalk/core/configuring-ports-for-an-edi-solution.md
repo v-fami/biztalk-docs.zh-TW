@@ -1,14 +1,14 @@
 ---
-title: "設定 EDI 解決方案的連接埠 |Microsoft 文件"
-ms.custom: 
+title: 設定 EDI 解決方案的連接埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 94445da5-9ee0-4006-a8c2-3919f128a575
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233134"
 ---
 # <a name="configuring-ports-for-an-edi-solution"></a>設定 EDI 解決方案的連接埠
 若要接收和傳送 EDI 訊息與通知，請建立下列接收埠與傳送埠：  

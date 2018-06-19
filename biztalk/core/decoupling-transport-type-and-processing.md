@@ -1,11 +1,11 @@
 ---
-title: "減少傳輸類型與處理 |Microsoft 文件"
-ms.custom: 
+title: 減少傳輸類型與處理 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - transport types, decoupling processing
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - MQSeries adapters, correlations
 - MQSeries adapters, service solutions
 ms.assetid: 0b2c733a-e2c7-42ff-a733-f712fde38f7e
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238598"
 ---
 # <a name="decoupling-transport-type-and-processing"></a>減少傳輸類型與處理
 在服務導向解決方案中，清除線段經常存在於商務程序與特定的傳輸及接收訊息之間。 這讓您能單獨變更解決方案的商務程序或訊息部分。  

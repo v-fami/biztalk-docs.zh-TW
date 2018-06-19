@@ -1,11 +1,11 @@
 ---
-title: "如何設定補償圖形 |Microsoft 文件"
-ms.custom: 
+title: 如何設定補償圖形 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Compensate shape [Orchestration Designer], about Compensate shape
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - configuring [Orchestration Designer], Compensate shape
 - Compensate shape [Orchestration Designer], configuring
 ms.assetid: 9f06289e-4d11-4864-9851-c210276865a7
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248278"
 ---
 # <a name="how-to-configure-the-compensate-shape"></a>如何設定補償圖形
 如果您在協調流程中使用巢狀的交易，您可以加入**補償**補償區塊或例外狀況區塊的交易範圍中的圖形。 如此可讓您的協調流程能明確地在巢狀交易執行補償。 指定您想要在補償的交易**補償**形狀和巢狀交易中的任何補償程式碼將會執行，提供已成功認可交易。  

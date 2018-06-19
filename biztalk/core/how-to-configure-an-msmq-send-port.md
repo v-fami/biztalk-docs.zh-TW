@@ -1,18 +1,18 @@
 ---
-title: "如何設定 MSMQ 傳送埠 |Microsoft 文件"
-ms.custom: 
+title: 如何設定 MSMQ 傳送埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - MSMQ adapters, send ports
 - send ports, MSMQ adapters
 - configuring [MSMQ adapters], send ports
 ms.assetid: 37313d45-8148-4aaf-a3f2-ea05b3b8b448
-caps.latest.revision: "29"
+caps.latest.revision: 29
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249774"
 ---
 # <a name="how-to-configure-an-msmq-send-port"></a>如何設定 MSMQ 傳送埠
 您可以設定 MSMQ 傳送埠配接器變數[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台。 若未設定傳送埠的屬性，會使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台中所設定的預設傳送處理常式值。  

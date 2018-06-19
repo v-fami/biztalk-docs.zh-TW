@@ -1,18 +1,18 @@
 ---
-title: "MIME SMIME 編碼器管線元件 |Microsoft 文件"
-ms.custom: 
+title: MIME SMIME 編碼器管線元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components, MIME/SMIME Encoder
 - MIME/SMIME Encoder [pipeline component]
 - BTS.EncryptionCert property
 ms.assetid: 397505e6-47d0-4b63-9197-814ee4388369
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263062"
 ---
 # <a name="mime-smime-encoder-pipeline-component"></a>MIME SMIME 編碼器管線元件
 MIME/SMIME 編碼器元件可以放置在傳送管線的編碼階段中。 它支援 7 位元、8 位元、二進位、quoted-printable、base64 以及 UUencode 編碼。 當地語系化資料字元集變更不會影響編碼。  

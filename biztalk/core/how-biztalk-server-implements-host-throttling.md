@@ -17,7 +17,7 @@ helpviewer_keywords:
 - host throttling, user controlled throttling
 - host throttling, strategies
 ms.assetid: 46d3c3de-66b9-4c8a-8369-e68563fc9c40
-caps.latest.revision: ''
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22250654"
 ---
 # <a name="how-biztalk-server-implements-host-throttling"></a>BizTalk Server 如何實作主控件節流
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 主控件節流機制可持續監控節流狀況、計算節流狀況的嚴重性，然後根據計算的嚴重性逐步套用主控件節流。 節流機制會自行調整而且適用於大部分的預設組態選項[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]處理實例。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 主控件節流會公開數個設定選項，可用來微調特定案例的節流。 如需變更這些組態選項的詳細資訊，請參閱[如何修改主控件設定](../core/how-to-modify-host-settings.md)。  
@@ -116,6 +117,6 @@ ms.lasthandoff: 03/28/2018
 |-------------------------------------------|--------------------------------------|------------------------------|-------------------------|------------------------|-------------------------|  
 |1|**訊息傳遞內送速率** 主控件執行個體超過 **訊息傳遞外寄速率 \*** 指定 **速率增加因數 （百分比）** 值<br /><br /> 可能的原因包括高處理複雜性、慢速輸出配接器，或暫時性系統資源不足。|封鎖動態計算的時間週期訊息傳遞內送速率相當於之前的傳遞執行緒 **訊息傳遞外寄速率 \*** 指定 **速率增加因數 （百分比）** 值。|使用效能計數器，來決定訊息傳遞內送與訊息傳遞外寄速率。 考慮適合您環境的增加因素。<br /><br /> 確認值提供給 **取樣視窗持續期間** 和 **最小取樣數目** 參數是否適合您的案例。<br /><br /> 如需有關這些參數的詳細資訊，請參閱[如何修改速率型節流設定](../core/how-to-modify-rate-based-throttling-settings.md)。|BizTalk:MessageAgent|訊息傳遞內送速率<br /><br /> 訊息發佈外寄速率|  
 |4|程序記憶體超過指定的閾值。<br /><br /> 這可能發生於記憶體耗用處理實例中、處理大型訊息時，或是傳送配接器嘗試同時處理大量訊息時。|降低訊息傳遞至配接器或 XLANG 的速度。<br /><br /> 若適用，可藉由凍結服務執行個體與壓縮快取，來縮減處理程序記憶體消耗。<br /><br /> 縮減 EPM 和/或訊息代理程式所使用的執行緒集區大小。<br /><br /> 定期強制 .NET 記憶體回收 (GC)。|若系統並未因根據以程序記憶體為主的節流而成為閒置，則可能不需要其他動作。<br /><br /> 如果 **內含式訊息計數** 計數器很高，而且 CPU 使用率也不會過量即使沒有處理序記憶體為主的節流，可能需要採取任何其他動作。<br /><br /> 若系統出現過度節流，請考慮增加與關聯的值 **程序虛擬** 主機的閾值，並確認主控件執行個體不會產生 「 記憶體不足 」 錯誤。 如果藉由增加產生 「 記憶體不足 」 錯誤 **程序虛擬** 臨界值，則請考慮減少的值 **內部訊息佇列大小** 和 **內含式訊息** 臨界值。 此策略特別會與大型訊息處理實例有關。<br /><br /> 如需有關這些參數的詳細資訊，請參閱[如何修改資源基礎節流設定](../core/how-to-modify-resource-based-throttling-settings.md)。|BizTalk:MessageAgent|高程序記憶體<br /><br /> 處理記憶體 usage(MB)<br /><br /> 程序記憶體使用量閾值 (MB)<br /><br /> 內含式訊息計數<br /><br /> 作用中執行個體計數|  
-|3|已傳遞之內含式訊息的數目超過指定的閾值。<br /><br /> 可能的原因包括高處理複雜性、慢速輸出配接器，或暫時性系統資源不足。|降低訊息傳遞至配接器或 XLANG 的速度。<br /><br /> 縮減訊息代理程式所使用的執行緒集區大小。|若發生過度節流，請考慮增加與關聯的值 **內含式訊息** 臨界值。<br /><br /> 如需有關此參數的詳細資訊，請參閱[如何修改資源基礎節流設定](../core/how-to-modify-resource-based-throttling-settings.md)**附註：**增加此值可能會造成不良影響配接器效能和 （或) 增加記憶體處理程序的使用方式。|BizTalk:MessageAgent|內含式訊息計數<br /><br /> 內含式訊息計數閾值|  
+|3|已傳遞之內含式訊息的數目超過指定的閾值。<br /><br /> 可能的原因包括高處理複雜性、慢速輸出配接器，或暫時性系統資源不足。|降低訊息傳遞至配接器或 XLANG 的速度。<br /><br /> 縮減訊息代理程式所使用的執行緒集區大小。|若發生過度節流，請考慮增加與關聯的值 **內含式訊息** 臨界值。<br /><br /> 如需有關此參數的詳細資訊，請參閱[如何修改資源基礎節流設定](../core/how-to-modify-resource-based-throttling-settings.md)**附註：** 增加此值可能會造成不良影響配接器效能和 （或) 增加記憶體處理程序的使用方式。|BizTalk:MessageAgent|內含式訊息計數<br /><br /> 內含式訊息計數閾值|  
 |9|處理程序執行緒計數超過指定的閾值。|縮減 EPM 和 (或) 訊息代理程式所使用的執行緒集區大小。|考慮調整不同的執行緒集區大小，以確定系統不會建立大量的執行緒。<br /><br /> 如需修改執行緒集區大小的詳細資訊，請參閱[如何修改一般設定](../core/how-to-modify-general-settings.md)和[如何修改資源基礎節流設定](../core/how-to-modify-resource-based-throttling-settings.md)。|BizTalk:MessageAgent|執行緒計數<br /><br /> 執行緒計數閾值|  
 |5|系統記憶體超過閾值。|降低訊息傳遞至配接器或 XLANG 的速度。<br /><br /> 若適用，可藉由凍結服務執行個體與壓縮快取，來縮減處理程序記憶體消耗。<br /><br /> 縮減 EPM 和/或訊息代理程式所使用的執行緒集區大小。|考慮藉由縮減 EPM 執行緒集區和/或配接器批次大小，來降低負載。<br /><br /> 如果處理程序並未耗用過多的記憶體，請考慮增加 **全域實體** 主機的閾值。<br /><br /> 如需有關變更**全域實體**臨界值，請參閱[如何修改資源基礎節流設定](../core/how-to-modify-resource-based-throttling-settings.md)。|BizTalk:MessageAgent|實體記憶體使用量 (MB)|

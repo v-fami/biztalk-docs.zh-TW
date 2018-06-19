@@ -1,18 +1,18 @@
 ---
-title: "開發探查管線元件 |Microsoft 文件"
-ms.custom: 
+title: 開發探查管線元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components [custom], probing
 - IProbeMessage interface
 - pipeline interfaces, IProbeMessage
 ms.assetid: c3da467d-5270-4c7f-9c38-ce9989bf1b63
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240678"
 ---
 # <a name="developing-a-probing-pipeline-component"></a>開發探查管線元件
 可實作任何管線元件 （一般、 組合或解譯）`IProbeMessage`介面必須支援訊息探查功能。 探查元件會用於具有管線階段**FirstMatch**執行模式。 在這種階段中，BizTalk 傳訊引擎會提供訊息的開頭部分給元件，以確定該元件是否可識別訊息的格式。 若元件可識別格式，則會傳送完整的訊息給此元件進行處理。  

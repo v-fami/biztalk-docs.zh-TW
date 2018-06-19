@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241270"
 ---
 # <a name="error---output-link-for-xslt-scripting-functoid-not-valid"></a>錯誤-XSLT 指令碼處理運算質不是有效的輸出連結
 **錯誤碼**  

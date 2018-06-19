@@ -1,14 +1,14 @@
 ---
-title: "啟用 EDI 和 AS2 狀態報告 |Microsoft 文件"
-ms.custom: 
+title: 啟用 EDI 和 AS2 狀態報告 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: aa40fbad-51ad-40e0-9fe3-68e54beb11a5
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22242910"
 ---
 # <a name="enabling-edi-and-as2-status-reports"></a>啟用 EDI 和 AS2 狀態報告
 本主題描述如何設定 EDI 和 AS2 狀態報告中的**群組概觀**頁面[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台。  
@@ -91,9 +92,9 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  這個步驟會讓訊息項目輸入到 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台中的狀態報告 UI。  
   
-5.  在單向協議索引標籤的**協議屬性**對話方塊中，按一下 **接收者訊息追蹤 (NRR)**頁面。  
+5.  在單向協議索引標籤的**協議屬性**對話方塊中，按一下 **接收者訊息追蹤 (NRR)** 頁面。  
   
-6.  在**接收者訊息追蹤 (NRR)**頁面上，按一下**為輸入的編碼 AS2 訊息啟用 NRR**以啟用內送訊息的電傳格式顯示。  
+6.  在**接收者訊息追蹤 (NRR)** 頁面上，按一下**為輸入的編碼 AS2 訊息啟用 NRR**以啟用內送訊息的電傳格式顯示。  
   
     > [!NOTE]
     >  當您以滑鼠右鍵按一下 [AS2 訊息和相互關聯的 MDN 狀態] 頁面中的訊息，然後按一下時，將會顯示訊息的電傳格式**訊息電傳格式**。  
@@ -101,17 +102,17 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  **開啟報告**必須選取屬性，您才能啟用不可否認性資料庫中的任何資料的儲存體。 如果您選取這個屬性或其他啟用不可否認性資料庫中之儲存區的屬性，就會顯示快顯提示您啟動 AS2 報告。 如果您按一下**是**，將會為您啟動 AS2 報告。  
   
-7.  在**接收者訊息追蹤 (NRR)**頁面上，按一下**為輸入的解碼 AS2 訊息啟用 NRR**以啟用內送訊息的解碼格式顯示。  
+7.  在**接收者訊息追蹤 (NRR)** 頁面上，按一下**為輸入的解碼 AS2 訊息啟用 NRR**以啟用內送訊息的解碼格式顯示。  
   
-8.  在**接收者訊息追蹤 (NRR)**頁面上，按一下**為輸出的 MDN 啟用 NRR**以啟用內送訊息 MDN 回應的顯示。  
+8.  在**接收者訊息追蹤 (NRR)** 頁面上，按一下**為輸出的 MDN 啟用 NRR**以啟用內送訊息 MDN 回應的顯示。  
   
-9. 在單向協議索引標籤的**協議屬性**對話方塊中，按一下 **寄件者訊息追蹤 (NRR)**頁面。  
+9. 在單向協議索引標籤的**協議屬性**對話方塊中，按一下 **寄件者訊息追蹤 (NRR)** 頁面。  
   
-10. 在**寄件者訊息追蹤 (NRR)**頁面上，按一下**為輸出的編碼 AS2 訊息啟用 NRR**以啟用外寄訊息的電傳格式顯示。  
+10. 在**寄件者訊息追蹤 (NRR)** 頁面上，按一下**為輸出的編碼 AS2 訊息啟用 NRR**以啟用外寄訊息的電傳格式顯示。  
   
-11. 在**寄件者訊息追蹤 (NRR)**頁面上，按一下**為輸出的解碼 AS2 訊息啟用 NRR**以啟用外寄訊息的解碼格式顯示。  
+11. 在**寄件者訊息追蹤 (NRR)** 頁面上，按一下**為輸出的解碼 AS2 訊息啟用 NRR**以啟用外寄訊息的解碼格式顯示。  
   
-12. 在**寄件者訊息追蹤 (NRR)**頁面上，按一下**為輸入的 MDN 啟用 NRR**以啟用外寄訊息 MDN 回應的顯示。  
+12. 在**寄件者訊息追蹤 (NRR)** 頁面上，按一下**為輸入的 MDN 啟用 NRR**以啟用外寄訊息 MDN 回應的顯示。  
   
 13. 按一下 **[確定]**。  
   

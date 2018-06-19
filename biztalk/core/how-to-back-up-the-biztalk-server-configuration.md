@@ -1,14 +1,14 @@
 ---
-title: "如何備份 BizTalk Server 組態 |Microsoft 文件"
-ms.custom: 
+title: 如何備份 BizTalk Server 組態 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 14f89050-c204-4d44-a875-299e690489ef
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247654"
 ---
 # <a name="how-to-back-up-the-biztalk-server-configuration"></a>如何備份 BizTalk Server 組態
 做為備份的一部分[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，您應該備份執行的電腦相關聯的組態設定[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。 當您遇到硬體失敗而需要更換電腦時，如果預先備有原始組態檔的複本，就能大幅簡化還原程序。  

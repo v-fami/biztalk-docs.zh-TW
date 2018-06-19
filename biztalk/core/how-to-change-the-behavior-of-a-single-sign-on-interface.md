@@ -1,14 +1,14 @@
 ---
-title: "如何變更單一登入介面的行為 |Microsoft 文件"
-ms.custom: 
+title: 如何變更單一登入介面的行為 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f4a4946a-e345-4c7e-835d-a3f7f72ebaca
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247854"
 ---
 # <a name="how-to-change-the-behavior-of-a-single-sign-on-interface"></a>如何變更單一登入介面的行為
 「企業單一登入」(SSO) 物件模型中的許多物件都會公開 IPropertyBag 介面，此介面可讓您修改指定物件的行為。 如果在 SSO 物件上呼叫 QueryInterface，則可以擷取 IPropertyBag 介面，並將其用來變更目前物件的行為。  

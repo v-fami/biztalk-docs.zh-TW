@@ -1,14 +1,14 @@
 ---
-title: "如何將資料複製到訊息內容做為屬性欄位 |Microsoft 文件"
-ms.custom: 
+title: 如何將資料複製到訊息內容做為屬性欄位 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4fdfe475-d9b4-4cf9-898f-dbd7e719c27c
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249982"
 ---
 # <a name="how-to-copy-data-to-the-message-context-as-property-fields"></a>如何將資料複製到訊息內容做為屬性欄位
 您可以升級為屬性**屬性欄位**很多相同方式將屬性升級為**辨別欄位**，而且您也可以使用**快速升級**功能簡化程序。  
@@ -62,7 +63,7 @@ ms.lasthandoff: 09/20/2017
   
 9. 按兩下**屬性**剛加入的資料列的資料行儲存格**屬性欄位清單**，然後在下拉式清單中，選取**屬性結構描述**和對應**欄位項目**您要升級所選取的節點的節點。 下拉式清單值有格式為 X:Y，其中 X 是中的屬性結構描述的命名空間前置詞**屬性結構描述清單**，而 Y 是節點名稱的**欄位項目**該屬性結構描述中的節點。  
   
-     下拉式清單中的預設值是第一個屬性結構描述**（欄位項目）**具有不尚未升級的節點會依字母順序排序跨所有相關的屬性結構描述。 這很少會是您想要在其中升級指定的結構描述節點之屬性結構描述節點。  
+     下拉式清單中的預設值是第一個屬性結構描述 **（欄位項目）** 具有不尚未升級的節點會依字母順序排序跨所有相關的屬性結構描述。 這很少會是您想要在其中升級指定的結構描述節點之屬性結構描述節點。  
   
 10. 您可以在對話方塊中按一下左邊的結構描述樹狀目錄中選取用於升級的其他節點**新增**然後執行步驟 9 之後每個選取項目。  
   

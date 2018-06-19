@@ -1,11 +1,11 @@
 ---
-title: "使用通知 |Microsoft 文件"
-ms.custom: 
+title: 使用通知 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - acknowledgements, publishing
@@ -30,7 +30,7 @@ helpviewer_keywords:
 - positive acknowledgements (ACK)
 - BTS.AckOwnerID property
 ms.assetid: 2e5986d4-9633-4b7b-8ff3-fa3da93c5400
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -39,6 +39,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288182"
 ---
 # <a name="using-acknowledgments"></a>使用通知
 「BizTalk 傳訊引擎」會產生正值通知 (ACK) 和負值通知 (NACK)，以回應透過連接埠處理訊息期間發生的狀況。 BizTalk Server 發佈正值通知表示訊息傳輸成功，發佈負值通知表示訊息傳輸失敗與訊息擱置。  

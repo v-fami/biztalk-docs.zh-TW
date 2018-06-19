@@ -1,11 +1,11 @@
 ---
-title: "如何從應用程式移除前置或後置處理指令碼 |Microsoft 文件"
-ms.custom: 
+title: 如何從應用程式移除前置或後置處理指令碼 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [scripts], deleting
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - scripts, deleting
 - applications, scripts
 ms.assetid: 7911f098-97f2-4a5d-87fe-20b55231113e
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254758"
 ---
 # <a name="how-to-remove-a-pre--or-post-processing-script-from-an-application"></a>如何從應用程式移除前置或後置處理指令碼
 本主題說明如何使用 BizTalk Server 管理主控台或命令列，將前置或後置處理指令碼從應用程式移除。 這會從 BizTalk 管理資料庫移除指令碼，所以它不會匯出到應用程式 .msi 檔案中。 如果在本機檔案系統中有此指令碼，則不會移除它。  

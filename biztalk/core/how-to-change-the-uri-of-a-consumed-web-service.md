@@ -1,11 +1,11 @@
 ---
-title: "如何變更已使用的 Web 服務的 URI |Microsoft 文件"
-ms.custom: 
+title: 如何變更已使用的 Web 服務的 URI |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Web services, modifying
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - consuming [Web services]
 - modifying, Web services
 ms.assetid: 907de565-8c99-4d34-939f-fd3dba37dd11
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247398"
 ---
 # <a name="how-to-change-the-uri-of-a-consumed-web-service"></a>如何變更已使用的 Web 服務的 URI
 部署協調流程後，BizTalk Server 會為協調流程參考的每個 Web 服務設定傳送埠。 依照預設，BizTalk 在執行階段使用的 Web 服務 URL，和匯入的 Web 服務 URL 相同。 您可以使用 BizTalk Server 管理主控台來變更此 URL。  

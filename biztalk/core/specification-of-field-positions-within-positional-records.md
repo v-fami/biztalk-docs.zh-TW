@@ -1,14 +1,14 @@
 ---
-title: "在位置記錄中欄位位置的規格 |Microsoft 文件"
-ms.custom: 
+title: 在位置記錄中欄位位置的規格 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 33c2eee3-ec30-46c5-a143-a3d2e2f265a6
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279342"
 ---
 # <a name="specification-of-field-positions-within-positional-records"></a>在位置記錄中欄位位置的規格
 若要定義序數記錄，您必須提供該記錄中欄位的位置和長度之相關資訊。 若記錄包含子記錄，則子記錄中欄位的位置和長度會納入包含記錄之相關資訊。  

@@ -1,14 +1,14 @@
 ---
-title: "如何診斷 SMTP 配接器問題 |Microsoft 文件"
-ms.custom: 
+title: 如何診斷 SMTP 配接器問題 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: eaf39fd8-b662-4b0c-b5e8-1af02cb4f79b
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249670"
 ---
 # <a name="how-to-diagnose-problems-with-the-smtp-adapter"></a>如何診斷 SMTP 配接器問題
 本節包含的步驟可協助您診斷 SMTP 配接器的問題。  
@@ -28,7 +29,7 @@ ms.lasthandoff: 09/20/2017
      *%Windir%\\*system32\LogFiles\SMTPSVC1\  
   
     > [!NOTE]
-    >  *%Windir%*是 SMTP 伺服器上的 Windows 目錄位置的預留位置。  
+    >  *%Windir%* 是 SMTP 伺服器上的 Windows 目錄位置的預留位置。  
   
     > [!NOTE]
     >  SMTP 記錄功能預設為停用上[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]。 如需啟用 SMTP 記錄功能的詳細資訊，請參閱 Windows Server 文件。  

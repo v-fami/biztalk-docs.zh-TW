@@ -1,14 +1,14 @@
 ---
-title: "如何新增表格迴圈和表格擷取程式運算質至對應 |Microsoft 文件"
-ms.custom: 
+title: 如何新增表格迴圈和表格擷取程式運算質至對應 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3c837ab8-55db-471a-af26-9fbd0497d7d4
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249790"
 ---
 # <a name="how-to-add-table-looping-and-table-extractor-functoids-to-a-map"></a>如何新增表格迴圈和表格擷取程式運算質至對應
 **表格迴圈**和**表格抽選程式**運算質一起使用。 **表格迴圈**運算質有您所設定的內部資料表。 每個輸入記錄或欄位，**表格迴圈**運算質會輸出一次一個資料表的資料列。 **表格抽選程式**運算質從一個資料列擷取所需的項目，並將它傳遞到輸出執行個體訊息。  

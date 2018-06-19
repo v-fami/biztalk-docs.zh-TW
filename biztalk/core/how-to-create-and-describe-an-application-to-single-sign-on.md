@@ -1,14 +1,14 @@
 ---
-title: "如何建立和描述應用程式單一登入 |Microsoft 文件"
-ms.custom: 
+title: 如何建立和描述應用程式單一登入 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7d717885-b132-4ba0-a93b-03377ac5eb97
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249086"
 ---
 # <a name="how-to-create-and-describe-an-application-to-single-sign-on"></a>如何建立和描述應用程式單一登入
 您需要執行的常見管理工作是將分支機構應用程式新增至「企業單一登入」(SSO) 資料庫。 新增分支機構應用程式到「企業 SSO」資料庫可讓您將使用者和認證與分支機構應用程式建立關聯。  

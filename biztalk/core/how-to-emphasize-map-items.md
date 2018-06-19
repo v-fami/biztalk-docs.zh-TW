@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a2732b36-ca57-4566-ba26-da27a3082f32
-caps.latest.revision: ''
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22255438"
 ---
 # <a name="how-to-emphasize-map-items"></a>如何強調對應項目
 在 BizTalk 對應工具中，當您選取對應項目時，所有相關聯的連結和運算質都會強調顯示。 當對應含有許多連結，而令人難以識別關係和相關的結構描述項目時，這項功能非常有用。  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254334"
 ---
 # <a name="how-to-open-a-pipeline"></a>如何開啟管線
 開啟管線檔會顯示「管線設計師」，並在設計區域中顯示已定義的管線及其階段。 此外，若尚未開啟 [管線設計師工具箱與屬性] 視窗，則會顯示該視窗。  

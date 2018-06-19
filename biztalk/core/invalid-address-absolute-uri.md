@@ -1,14 +1,14 @@
 ---
-title: "無效的位址 (也就是絕對 uri) |Microsoft 文件"
-ms.custom: 
+title: 無效的位址 (也就是絕對 uri) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5db292ad-9105-492d-a6c5-a7108159901a
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256958"
 ---
 # <a name="invalid-address-absolute-uri"></a>無效的位址 (也就是絕對 uri)
 ## <a name="details"></a>詳細資料  
@@ -53,4 +54,4 @@ ms.lasthandoff: 09/20/2017
   
 8.  在**WCF [***傳輸類型***] 傳輸屬性**對話方塊中，按一下 [**一般**] 索引標籤。  
   
-9. 在**位址 (URI)**文字方塊。 變更的位址。 格式正確的絕對位址的範例是 http://localhost/path/service.svc
+9. 在**位址 (URI)** 文字方塊。 變更的位址。 格式正確的絕對位址的範例是 http://localhost/path/service.svc
