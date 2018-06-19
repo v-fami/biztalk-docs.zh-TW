@@ -1,14 +1,14 @@
 ---
-title: "叢集接收主控件 |Microsoft 文件"
-ms.custom: 
+title: 叢集接收主控件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 93544f39-836f-4a4f-9587-230bfa3a9d4e
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008303"
 ---
 # <a name="clustering-receiving-hosts"></a><span data-ttu-id="2e03a-102">叢集接收主控件</span><span class="sxs-lookup"><span data-stu-id="2e03a-102">Clustering Receiving Hosts</span></span>
 <span data-ttu-id="2e03a-103">BizTalk Server 提供的功能，可讓您將 BizTalk 主控件設定為叢集資源內[!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)]叢集群組。</span><span class="sxs-lookup"><span data-stu-id="2e03a-103">BizTalk Server provides functionality that allows you to configure a BizTalk Host as a clustered resource within a [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] cluster group.</span></span> <span data-ttu-id="2e03a-104">主控件叢集支援可為以支援高可用性的整合式 BizTalk 接收配接器應該不會在多個主控件執行個體中同時執行，例如 FTP 接收處理常式，或在某些情況下，POP3 接收處理常式。</span><span class="sxs-lookup"><span data-stu-id="2e03a-104">Host cluster support is provided to support high availability for integrated BizTalk receive adapters that should not be run in multiple host instances simultaneously, such as the FTP receive handler or, under certain circumstances, the POP3 receive handler.</span></span> <span data-ttu-id="2e03a-105">在需要叢集 MSMQ 服務的實例中，主控件叢集支援也可確保 MSMQ 配接器所傳送或所接收訊息的交易一致性。</span><span class="sxs-lookup"><span data-stu-id="2e03a-105">Host cluster support is also provided to ensure transactional consistency for messages sent or received by the MSMQ adapter in scenarios that require that the MSMQ service is clustered.</span></span>  

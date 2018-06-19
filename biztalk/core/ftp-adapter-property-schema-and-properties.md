@@ -1,11 +1,11 @@
 ---
-title: "FTP 配接器屬性結構描述和屬性 |Microsoft 文件"
-ms.custom: 
+title: FTP 配接器屬性結構描述和屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring [FTP adapters], schemas
@@ -26,7 +26,7 @@ helpviewer_keywords:
 - Password property [FTP adapters]
 - MaxConnections property [FTP adapters]
 ms.assetid: 677fdb61-c2b0-4df2-a826-840113e61e8b
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -35,6 +35,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006135"
 ---
 # <a name="ftp-adapter-property-schema-and-properties"></a><span data-ttu-id="de143-102">FTP 配接器屬性結構描述和屬性</span><span class="sxs-lookup"><span data-stu-id="de143-102">FTP Adapter Property Schema and Properties</span></span>
 <span data-ttu-id="de143-103">下表包含 FTP 配接器屬性結構描述中的屬性。</span><span class="sxs-lookup"><span data-stu-id="de143-103">The following table contains the properties in the FTP adapter property schema.</span></span>  
@@ -43,7 +44,7 @@ ms.lasthandoff: 12/01/2017
   
 |<span data-ttu-id="de143-105">名稱</span><span class="sxs-lookup"><span data-stu-id="de143-105">Name</span></span>|<span data-ttu-id="de143-106">型別</span><span class="sxs-lookup"><span data-stu-id="de143-106">Type</span></span>|<span data-ttu-id="de143-107">Description</span><span class="sxs-lookup"><span data-stu-id="de143-107">Description</span></span>|  
 |----------|----------|-----------------|  
-|<span data-ttu-id="de143-108">**RepresentationType**</span><span class="sxs-lookup"><span data-stu-id="de143-108">**RepresentationType**</span></span>|<span data-ttu-id="de143-109">xs:string</span><span class="sxs-lookup"><span data-stu-id="de143-109">xs:string</span></span>|<span data-ttu-id="de143-110">指定 FTP 配接器如何傳送資料。</span><span class="sxs-lookup"><span data-stu-id="de143-110">Specifies how the FTP adapter sends data.</span></span><br /><br /> <span data-ttu-id="de143-111">**有效值：**二進位或 ASCII</span><span class="sxs-lookup"><span data-stu-id="de143-111">**Valid values:** binary or ASCII</span></span>|  
+|<span data-ttu-id="de143-108">**RepresentationType**</span><span class="sxs-lookup"><span data-stu-id="de143-108">**RepresentationType**</span></span>|<span data-ttu-id="de143-109">xs:string</span><span class="sxs-lookup"><span data-stu-id="de143-109">xs:string</span></span>|<span data-ttu-id="de143-110">指定 FTP 配接器如何傳送資料。</span><span class="sxs-lookup"><span data-stu-id="de143-110">Specifies how the FTP adapter sends data.</span></span><br /><br /> <span data-ttu-id="de143-111">**有效值：** 二進位或 ASCII</span><span class="sxs-lookup"><span data-stu-id="de143-111">**Valid values:** binary or ASCII</span></span>|  
 |<span data-ttu-id="de143-112">**SSOAffiliateApplication**</span><span class="sxs-lookup"><span data-stu-id="de143-112">**SSOAffiliateApplication**</span></span>|<span data-ttu-id="de143-113">xs:string</span><span class="sxs-lookup"><span data-stu-id="de143-113">xs:string</span></span>|<span data-ttu-id="de143-114">指定要用於 FTP 傳送埠的「企業單一登入」分支機構應用程式。</span><span class="sxs-lookup"><span data-stu-id="de143-114">Specifies the Enterprise Single Sign-On affiliate application to use on the FTP send port.</span></span>|  
 |<span data-ttu-id="de143-115">**UserName**</span><span class="sxs-lookup"><span data-stu-id="de143-115">**UserName**</span></span>|<span data-ttu-id="de143-116">xs:string</span><span class="sxs-lookup"><span data-stu-id="de143-116">xs:string</span></span>|<span data-ttu-id="de143-117">指定傳送訊息時，用來登入 FTP 伺服器的使用者名稱。</span><span class="sxs-lookup"><span data-stu-id="de143-117">Specifies the user name to log on to the FTP server when sending messages.</span></span>|  
 |<span data-ttu-id="de143-118">**密碼**</span><span class="sxs-lookup"><span data-stu-id="de143-118">**Password**</span></span>|<span data-ttu-id="de143-119">xs:string</span><span class="sxs-lookup"><span data-stu-id="de143-119">xs:string</span></span>|<span data-ttu-id="de143-120">指定傳送訊息時，用來登入 FTP 伺服器的密碼。</span><span class="sxs-lookup"><span data-stu-id="de143-120">Specifies the password to use when logging on to the FTP server when sending messages.</span></span>|  
@@ -57,7 +58,7 @@ ms.lasthandoff: 12/01/2017
 |<span data-ttu-id="de143-150">**SpoolingFolder**</span><span class="sxs-lookup"><span data-stu-id="de143-150">**SpoolingFolder**</span></span>|<span data-ttu-id="de143-151">xs:string</span><span class="sxs-lookup"><span data-stu-id="de143-151">xs:string</span></span>|<span data-ttu-id="de143-152">指定 FTP 伺服器上的暫存資料夾位置。</span><span class="sxs-lookup"><span data-stu-id="de143-152">Specifies the location for a temporary folder on the FTP server.</span></span> <span data-ttu-id="de143-153">使用此選項可確保從傳輸失敗復原。</span><span class="sxs-lookup"><span data-stu-id="de143-153">You use this to ensure recovery from a transfer failure.</span></span>|  
 |<span data-ttu-id="de143-154">**UseSsl**</span><span class="sxs-lookup"><span data-stu-id="de143-154">**UseSsl**</span></span>|<span data-ttu-id="de143-155">xs:boolean</span><span class="sxs-lookup"><span data-stu-id="de143-155">xs:boolean</span></span>|<span data-ttu-id="de143-156">指定 FTP 配接器是否需使用 SSL 以和 FTPS 伺服器通訊。</span><span class="sxs-lookup"><span data-stu-id="de143-156">Specifies whether the FTP adapter must use SSL to communicate with the FTPS server.</span></span>|  
 |<span data-ttu-id="de143-157">**UseDataProtection**</span><span class="sxs-lookup"><span data-stu-id="de143-157">**UseDataProtection**</span></span>|<span data-ttu-id="de143-158">xs:boolean</span><span class="sxs-lookup"><span data-stu-id="de143-158">xs:boolean</span></span>|<span data-ttu-id="de143-159">指定是否針對檔案傳輸使用 SSL 加密。</span><span class="sxs-lookup"><span data-stu-id="de143-159">Specifies whether SSL encryption is used for file transfers.</span></span> <span data-ttu-id="de143-160">如果配接器傳送或接收來自 FTPS 伺服器的資料檔時必須使用 SSL 加密，請選擇 True。</span><span class="sxs-lookup"><span data-stu-id="de143-160">Choose true if the adapter must use SSL encryption when it sends and receives data files from the FTPS server.</span></span> <span data-ttu-id="de143-161">若選擇 False，配接器會以純文字格式傳送和接收資料檔。</span><span class="sxs-lookup"><span data-stu-id="de143-161">Choose false for the adapter to send and receive data files as plaintext.</span></span>|  
-|<span data-ttu-id="de143-162">**FtpsConnectionMode**</span><span class="sxs-lookup"><span data-stu-id="de143-162">**FtpsConnectionMode**</span></span>|<span data-ttu-id="de143-163">xs:string</span><span class="sxs-lookup"><span data-stu-id="de143-163">xs:string</span></span>|<span data-ttu-id="de143-164">指定與 FTP 伺服器建立的 SSL 連線模式。</span><span class="sxs-lookup"><span data-stu-id="de143-164">Specifies the mode of SSL connection made to the FTPS server.</span></span><br /><br /> <span data-ttu-id="de143-165">**有效值：**隱含或明確</span><span class="sxs-lookup"><span data-stu-id="de143-165">**Valid Values:** Implicit or Explicit</span></span>|  
+|<span data-ttu-id="de143-162">**FtpsConnectionMode**</span><span class="sxs-lookup"><span data-stu-id="de143-162">**FtpsConnectionMode**</span></span>|<span data-ttu-id="de143-163">xs:string</span><span class="sxs-lookup"><span data-stu-id="de143-163">xs:string</span></span>|<span data-ttu-id="de143-164">指定與 FTP 伺服器建立的 SSL 連線模式。</span><span class="sxs-lookup"><span data-stu-id="de143-164">Specifies the mode of SSL connection made to the FTPS server.</span></span><br /><br /> <span data-ttu-id="de143-165">**有效值：** 隱含或明確</span><span class="sxs-lookup"><span data-stu-id="de143-165">**Valid Values:** Implicit or Explicit</span></span>|  
 |<span data-ttu-id="de143-166">**ClientCertificateHash**</span><span class="sxs-lookup"><span data-stu-id="de143-166">**ClientCertificateHash**</span></span>|<span data-ttu-id="de143-167">xs:string</span><span class="sxs-lookup"><span data-stu-id="de143-167">xs:string</span></span>|<span data-ttu-id="de143-168">指定必須用於安全通訊端層 (SSL) 交涉的用戶端憑證 SHA1 雜湊。</span><span class="sxs-lookup"><span data-stu-id="de143-168">Specifies the SHA1 hash of the client certificate that must be used in the Secure Sockets Layer (SSL) negotiation.</span></span><br /><br /> <span data-ttu-id="de143-169">系統會根據此雜湊，從用於執行 BizTalk 主控件執行個體之使用者帳戶的個人存放區挑選用戶端憑證。</span><span class="sxs-lookup"><span data-stu-id="de143-169">Based on this hash, the client certificate is picked up from the personal store of the user account under which the BizTalk host instance is running.</span></span>|  
   
 ## <a name="see-also"></a><span data-ttu-id="de143-170">請參閱</span><span class="sxs-lookup"><span data-stu-id="de143-170">See Also</span></span>  

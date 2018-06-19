@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a6832ac2-c8c5-4515-883e-26d125d6ace0
-caps.latest.revision: ''
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26010567"
 ---
 # <a name="how-to-move-the-bam-star-schema-database"></a><span data-ttu-id="032c1-102">如何移動 BAM 星狀結構描述資料庫</span><span class="sxs-lookup"><span data-stu-id="032c1-102">How to Move the BAM Star Schema Database</span></span>
 <span data-ttu-id="032c1-103">您可以使用這個程序將「BAM 星狀結構描述」資料庫移動到其他伺服器。</span><span class="sxs-lookup"><span data-stu-id="032c1-103">You can use this procedure to move the BAM Star Schema database to another server.</span></span>  <span data-ttu-id="032c1-104">端對端案例的觀點而言，移動 BAM 星狀結構描述資料庫包含兩個主要步驟：</span><span class="sxs-lookup"><span data-stu-id="032c1-104">From an end-to-end scenario perspective, moving the BAM Star Schema database involves two major steps:</span></span>  
@@ -172,7 +173,7 @@ ms.lasthandoff: 03/28/2018
   
 3.  <span data-ttu-id="032c1-195">在 [物件總管] 中，依序展開**資料庫**，依序展開**BAMAnalysis**，依序展開**資料來源**，然後按兩下資料來源。</span><span class="sxs-lookup"><span data-stu-id="032c1-195">In the Object Explorer, expand **Databases**, expand **BAMAnalysis**, expand **Data Sources**, and then double-click a data source.</span></span>  
   
-4.  <span data-ttu-id="032c1-196">在**資料來源屬性**對話方塊方塊中，按一下省略符號按鈕**（...）**針對**連接字串**屬性。</span><span class="sxs-lookup"><span data-stu-id="032c1-196">In the **Data Source Properties** dialog box, click the ellipsis button **(…)** against the **Connection String** property.</span></span>  
+4.  <span data-ttu-id="032c1-196">在**資料來源屬性**對話方塊方塊中，按一下省略符號按鈕 **（...）** 針對**連接字串**屬性。</span><span class="sxs-lookup"><span data-stu-id="032c1-196">In the **Data Source Properties** dialog box, click the ellipsis button **(…)** against the **Connection String** property.</span></span>  
   
 5.  <span data-ttu-id="032c1-197">中**連接管理員**對話方塊中，於**伺服器名稱**方塊中，輸入裝載 BAMStarSchema 資料庫的伺服器名稱，按一下**確定**，然後按一下  **確定**。</span><span class="sxs-lookup"><span data-stu-id="032c1-197">In the **Connection Manager** dialog box, in the **Server name** box, enter the name of the server hosting the BAMStarSchema database, click **OK**, and then click **OK**.</span></span>  
   

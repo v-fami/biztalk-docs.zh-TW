@@ -1,14 +1,14 @@
 ---
-title: "步驟 2： 部署 Web 專案 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 部署 Web 專案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cb775a89-2e2d-43e5-94ae-f75c1756dbd7
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 10/17/2017
+ms.locfileid: "23450287"
 ---
 # <a name="step-2-deploy-the-web-project"></a><span data-ttu-id="960a4-102">步驟 2： 部署 Web 專案</span><span class="sxs-lookup"><span data-stu-id="960a4-102">Step 2: Deploy the Web Project</span></span>
 <span data-ttu-id="960a4-103">![步驟 4 之 2](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")</span><span class="sxs-lookup"><span data-stu-id="960a4-103">![Step 2 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")</span></span>  
@@ -44,9 +45,9 @@ ms.lasthandoff: 10/17/2017
   
 5.  <span data-ttu-id="960a4-116">在**方案總管 中**，EchoWeb 專案上按一下滑鼠右鍵，然後選取**發行網站**。</span><span class="sxs-lookup"><span data-stu-id="960a4-116">In **Solution Explorer**, right click the EchoWeb project, and then select **Publish Web Site**.</span></span>  
   
-6.  <span data-ttu-id="960a4-117">在**發行網站**對話方塊中，針對**目標位置**，輸入**http://machinename/EchoWeb**。</span><span class="sxs-lookup"><span data-stu-id="960a4-117">In the **Publish Web Site** dialog box, for **Target location**, enter **http://machinename/EchoWeb**.</span></span> <span data-ttu-id="960a4-118">選取**讓這個先行編譯的網站成為可更新**，**使用固定命名和單一網頁組件**，和**啟用強式命名的先行編譯的組件**。</span><span class="sxs-lookup"><span data-stu-id="960a4-118">Select **Allow this precompiled site to be updatable**, **Use fixed naming and single page assemblies**, and **Enable strong naming on precompiled assemblies**.</span></span> <span data-ttu-id="960a4-119">在**金鑰檔案位置**欄位中，按一下省略符號**（...）**按鈕、 選取先前建立的 EchoWebKey.snk 檔案，然後按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="960a4-119">In the **Key file location** field, click the ellipsis **(…)** button, select the EchoWebKey.snk file created previously, and then click **OK**.</span></span>  
+6.  <span data-ttu-id="960a4-117">在**發行網站**對話方塊中，針對**目標位置**，輸入**http://machinename/EchoWeb**。</span><span class="sxs-lookup"><span data-stu-id="960a4-117">In the **Publish Web Site** dialog box, for **Target location**, enter **http://machinename/EchoWeb**.</span></span> <span data-ttu-id="960a4-118">選取**讓這個先行編譯的網站成為可更新**，**使用固定命名和單一網頁組件**，和**啟用強式命名的先行編譯的組件**。</span><span class="sxs-lookup"><span data-stu-id="960a4-118">Select **Allow this precompiled site to be updatable**, **Use fixed naming and single page assemblies**, and **Enable strong naming on precompiled assemblies**.</span></span> <span data-ttu-id="960a4-119">在**金鑰檔案位置**欄位中，按一下省略符號 **（...）** 按鈕、 選取先前建立的 EchoWebKey.snk 檔案，然後按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="960a4-119">In the **Key file location** field, click the ellipsis **(…)** button, select the EchoWebKey.snk file created previously, and then click **OK**.</span></span>  
   
-7.  <span data-ttu-id="960a4-120">若要確認已正確建立的網站，請啟動 Internet Explorer 中，輸入**"http://localhost/EchoWeb/EchoOutboundContract.svc"**網址列中，然後按 ENTER 鍵。</span><span class="sxs-lookup"><span data-stu-id="960a4-120">To verify that the Web site was correctly created, start Internet Explorer, enter  **"http://localhost/EchoWeb/EchoOutboundContract.svc"** in the address bar, and then press ENTER.</span></span> <span data-ttu-id="960a4-121">說明 EchoOutboundContractClient Web 頁面應該會出現。</span><span class="sxs-lookup"><span data-stu-id="960a4-121">A Web page that describes the EchoOutboundContractClient should appear.</span></span>  
+7.  <span data-ttu-id="960a4-120">若要確認已正確建立的網站，請啟動 Internet Explorer 中，輸入 **"http://localhost/EchoWeb/EchoOutboundContract.svc"** 網址列中，然後按 ENTER 鍵。</span><span class="sxs-lookup"><span data-stu-id="960a4-120">To verify that the Web site was correctly created, start Internet Explorer, enter  **"http://localhost/EchoWeb/EchoOutboundContract.svc"** in the address bar, and then press ENTER.</span></span> <span data-ttu-id="960a4-121">說明 EchoOutboundContractClient Web 頁面應該會出現。</span><span class="sxs-lookup"><span data-stu-id="960a4-121">A Web page that describes the EchoOutboundContractClient should appear.</span></span>  
   
 ## <a name="what-did-i-just-do"></a><span data-ttu-id="960a4-122">我剛剛做了什麼？</span><span class="sxs-lookup"><span data-stu-id="960a4-122">What did I just do?</span></span>  
  <span data-ttu-id="960a4-123">您剛才已發行您的 Web 專案到 IIS。</span><span class="sxs-lookup"><span data-stu-id="960a4-123">You have just published your Web project to IIS.</span></span>  

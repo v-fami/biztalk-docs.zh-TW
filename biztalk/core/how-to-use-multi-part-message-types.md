@@ -1,11 +1,11 @@
 ---
-title: "如何使用多部分訊息類型 |Microsoft 文件"
-ms.custom: 
+title: 如何使用多部分訊息類型 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - multi-part message types, parts
@@ -21,7 +21,7 @@ helpviewer_keywords:
 - creating, multi-part messages
 - messages, about messages
 ms.assetid: 009a39bd-cfc4-42d9-918c-88ac24bfc370
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -30,6 +30,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972076"
 ---
 # <a name="how-to-use-multi-part-message-types"></a><span data-ttu-id="404ac-102">如何使用多部分訊息類型</span><span class="sxs-lookup"><span data-stu-id="404ac-102">How to Use Multi-part Message Types</span></span>
 <span data-ttu-id="404ac-103">每個訊息都有多部分訊息類型，即是由零或多個訊息部分所組成的訊息的結構描述。</span><span class="sxs-lookup"><span data-stu-id="404ac-103">Each message has a multi-part message type, a description of the message structure that consists of zero or more message parts.</span></span> <span data-ttu-id="404ac-104">這些部分是由 XML 結構描述定義 (XSD) 語言結構描述或 .NET 類別所定義。</span><span class="sxs-lookup"><span data-stu-id="404ac-104">The parts are defined by XML Schema Definition (XSD) language schemas or .NET classes.</span></span> <span data-ttu-id="404ac-105">您可以定義自己的多部分訊息類型，也可以使用現有的 .NET 類別和結構描述。</span><span class="sxs-lookup"><span data-stu-id="404ac-105">You can define your own multi-part message types, or you can use existing .NET classes and schemas.</span></span>  
@@ -79,7 +80,7 @@ ms.lasthandoff: 11/28/2017
   
     |<span data-ttu-id="404ac-127">屬性</span><span class="sxs-lookup"><span data-stu-id="404ac-127">Property</span></span>|<span data-ttu-id="404ac-128">Description</span><span class="sxs-lookup"><span data-stu-id="404ac-128">Description</span></span>|  
     |--------------|-----------------|  
-    |<span data-ttu-id="404ac-129">**型別修飾詞**</span><span class="sxs-lookup"><span data-stu-id="404ac-129">**Type Modifier**</span></span>|<span data-ttu-id="404ac-130">決定多部分訊息類型的範圍：</span><span class="sxs-lookup"><span data-stu-id="404ac-130">Determines the scope of the multi-part message type:</span></span><br /><br /> <span data-ttu-id="404ac-131">-   **私用 —**存取此多部分訊息類型僅限於包含的模組。</span><span class="sxs-lookup"><span data-stu-id="404ac-131">-   **Private—**Access to this multi-part message type is limited to the containing module.</span></span><br /><span data-ttu-id="404ac-132">-   **公用 —**存取此多部分訊息類型不受任何限制。</span><span class="sxs-lookup"><span data-stu-id="404ac-132">-   **Public—**Access to this multi-part message type is not limited.</span></span><br /><span data-ttu-id="404ac-133">-   **內部 —**存取此多部分訊息類型限於相同專案中的模組。</span><span class="sxs-lookup"><span data-stu-id="404ac-133">-   **Internal—**Access to this multi-part message type is limited to modules within the same project.</span></span>|  
+    |<span data-ttu-id="404ac-129">**型別修飾詞**</span><span class="sxs-lookup"><span data-stu-id="404ac-129">**Type Modifier**</span></span>|<span data-ttu-id="404ac-130">決定多部分訊息類型的範圍：</span><span class="sxs-lookup"><span data-stu-id="404ac-130">Determines the scope of the multi-part message type:</span></span><br /><br /> <span data-ttu-id="404ac-131">-   **私用 —** 存取此多部分訊息類型僅限於包含的模組。</span><span class="sxs-lookup"><span data-stu-id="404ac-131">-   **Private—** Access to this multi-part message type is limited to the containing module.</span></span><br /><span data-ttu-id="404ac-132">-   **公用 —** 存取此多部分訊息類型不受任何限制。</span><span class="sxs-lookup"><span data-stu-id="404ac-132">-   **Public—** Access to this multi-part message type is not limited.</span></span><br /><span data-ttu-id="404ac-133">-   **內部 —** 存取此多部分訊息類型限於相同專案中的模組。</span><span class="sxs-lookup"><span data-stu-id="404ac-133">-   **Internal—** Access to this multi-part message type is limited to modules within the same project.</span></span>|  
   
 ## <a name="add-parts-to-an-existing-multi-part-message"></a><span data-ttu-id="404ac-134">將組件加入至現有的多部分訊息</span><span class="sxs-lookup"><span data-stu-id="404ac-134">Add parts to an existing multi-part message</span></span>  
   
@@ -89,10 +90,10 @@ ms.lasthandoff: 11/28/2017
   
 -   <span data-ttu-id="404ac-139">建立的變數 (例如*xlangPart*) 型別的**Microsoft.XLANGs.BaseTypes.XLANGMessage**。</span><span class="sxs-lookup"><span data-stu-id="404ac-139">Create a variable (for example *xlangPart*) of type **Microsoft.XLANGs.BaseTypes.XLANGMessage**.</span></span>  
   
--   <span data-ttu-id="404ac-140">呼叫*xlangPart***。AddPart(...)**使用適當的引數，從 「 運算式 」 圖形。</span><span class="sxs-lookup"><span data-stu-id="404ac-140">Call *xlangPart***.AddPart(…)** using the appropriate arguments from an Expression shape.</span></span>  
+-   <span data-ttu-id="404ac-140">呼叫*xlangPart***。AddPart(...)** 使用適當的引數，從 「 運算式 」 圖形。</span><span class="sxs-lookup"><span data-stu-id="404ac-140">Call *xlangPart***.AddPart(…)** using the appropriate arguments from an Expression shape.</span></span>  
   
     > [!NOTE]
-    >  <span data-ttu-id="404ac-141">新增的部分為型別的**XmlDocument**因此您無法加入自訂格式化的訊息部分使用**addpart （)**方法。</span><span class="sxs-lookup"><span data-stu-id="404ac-141">The added parts are of type **XmlDocument** so you cannot add a custom formatted message part using the **AddPart()** method.</span></span>  
+    >  <span data-ttu-id="404ac-141">新增的部分為型別的**XmlDocument**因此您無法加入自訂格式化的訊息部分使用**addpart （)** 方法。</span><span class="sxs-lookup"><span data-stu-id="404ac-141">The added parts are of type **XmlDocument** so you cannot add a custom formatted message part using the **AddPart()** method.</span></span>  
   
 > [!NOTE]
 >  <span data-ttu-id="404ac-142">如果收到包含大於宣告的部分數目的多部分訊息時，有多少部分是在訊息中的協調流程引擎讀取然後建構適當的部分類型符合的組件中宣告的訊息數目的組件類型，然後建構**XmlDocument**組件的其餘部分。</span><span class="sxs-lookup"><span data-stu-id="404ac-142">If a multi part message that contains greater than the number of declared parts is received, the orchestration engine reads how many parts there are in the message, then constructs the proper part types for the parts that match the number of parts in the declared message type and then constructs **XmlDocument** parts for the remaining parts.</span></span>  

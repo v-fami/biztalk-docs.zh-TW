@@ -1,14 +1,14 @@
 ---
-title: "逐步解說 (X12)： 傳送批次 EDI 交換 |Microsoft 文件"
-ms.custom: 
+title: 逐步解說 (X12)： 傳送批次 EDI 交換 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b80ea79b-6112-49bd-90e8-9a0a0e604df8
-caps.latest.revision: "54"
+caps.latest.revision: 54
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22292030"
 ---
 # <a name="walkthrough-x12-sending-batched-edi-interchanges"></a><span data-ttu-id="dd4d2-102">逐步解說 (X12)：傳送批次 EDI 交換</span><span class="sxs-lookup"><span data-stu-id="dd4d2-102">Walkthrough (X12): Sending Batched EDI Interchanges</span></span>
 <span data-ttu-id="dd4d2-103">本逐步解說提供一組逐步程序，說明如何使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 建立可在合作對象之間傳送批次 EDI 交換的解決方案。</span><span class="sxs-lookup"><span data-stu-id="dd4d2-103">This walkthrough provides a set of step-by-step procedures that creates a solution for sending batched EDI interchanges from one party to another using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  
@@ -239,14 +240,14 @@ ms.lasthandoff: 09/20/2017
   
         |<span data-ttu-id="dd4d2-236">使用</span><span class="sxs-lookup"><span data-stu-id="dd4d2-236">Use this</span></span>|<span data-ttu-id="dd4d2-237">動作</span><span class="sxs-lookup"><span data-stu-id="dd4d2-237">To do this</span></span>|  
         |--------------|----------------|  
-        |<span data-ttu-id="dd4d2-238">**預設值**</span><span class="sxs-lookup"><span data-stu-id="dd4d2-238">**Default**</span></span>|<span data-ttu-id="dd4d2-239">選取**預設**。</span><span class="sxs-lookup"><span data-stu-id="dd4d2-239">Select **Default**.</span></span> <span data-ttu-id="dd4d2-240">**注意：**當您選取這個資料列的預設值為**GS1**， **GS2**， **GS3**， **GS7**，和**GS8**可用即使值**交易類型**，**版本/版次**，和**目標命名空間**都不符合訊息。</span><span class="sxs-lookup"><span data-stu-id="dd4d2-240">**Note:**  When you select this row as the default, the values for **GS1**, **GS2**, **GS3**, **GS7**, and **GS8** are used even if the values for **Transaction Type**, **Version/Release**, and **Target namespace** are not a match for the message.</span></span>|  
+        |<span data-ttu-id="dd4d2-238">**預設值**</span><span class="sxs-lookup"><span data-stu-id="dd4d2-238">**Default**</span></span>|<span data-ttu-id="dd4d2-239">選取**預設**。</span><span class="sxs-lookup"><span data-stu-id="dd4d2-239">Select **Default**.</span></span> <span data-ttu-id="dd4d2-240">**注意：** 當您選取這個資料列的預設值為**GS1**， **GS2**， **GS3**， **GS7**，和**GS8**可用即使值**交易類型**，**版本/版次**，和**目標命名空間**都不符合訊息。</span><span class="sxs-lookup"><span data-stu-id="dd4d2-240">**Note:**  When you select this row as the default, the values for **GS1**, **GS2**, **GS3**, **GS7**, and **GS8** are used even if the values for **Transaction Type**, **Version/Release**, and **Target namespace** are not a match for the message.</span></span>|  
         |<span data-ttu-id="dd4d2-241">**交易類型**</span><span class="sxs-lookup"><span data-stu-id="dd4d2-241">**Transaction Type**</span></span>|<span data-ttu-id="dd4d2-242">選取的測試訊息，訊息類型**850-Purchase Order**。</span><span class="sxs-lookup"><span data-stu-id="dd4d2-242">Select the message type of your test message, **850 - Purchase Order**.</span></span>|  
         |<span data-ttu-id="dd4d2-243">**版本/版次**</span><span class="sxs-lookup"><span data-stu-id="dd4d2-243">**Version/Release**</span></span>|<span data-ttu-id="dd4d2-244">輸入 EDI 版本， **00401**。</span><span class="sxs-lookup"><span data-stu-id="dd4d2-244">Enter the EDI version, **00401**.</span></span>|  
         |<span data-ttu-id="dd4d2-245">**目標命名空間**</span><span class="sxs-lookup"><span data-stu-id="dd4d2-245">**Target namespace**</span></span>|<span data-ttu-id="dd4d2-246">選取**http://schemas.microsoft.com/BizTalk/Edi/X12/2006**。</span><span class="sxs-lookup"><span data-stu-id="dd4d2-246">Select **http://schemas.microsoft.com/BizTalk/Edi/X12/2006**.</span></span>|  
         |<span data-ttu-id="dd4d2-247">**GS1**</span><span class="sxs-lookup"><span data-stu-id="dd4d2-247">**GS1**</span></span>|<span data-ttu-id="dd4d2-248">確認已選取測試訊息的訊息類型， **PO-Purchase Order (850)**。</span><span class="sxs-lookup"><span data-stu-id="dd4d2-248">Verify that the message type of the test message is selected, **PO - Purchase Order (850)**.</span></span>|  
         |<span data-ttu-id="dd4d2-249">**GS2**</span><span class="sxs-lookup"><span data-stu-id="dd4d2-249">**GS2**</span></span>|<span data-ttu-id="dd4d2-250">例如，輸入應用程式傳送者的值**Purchasing**。</span><span class="sxs-lookup"><span data-stu-id="dd4d2-250">Enter a value for the Application sender, for example, **Purchasing**.</span></span>|  
-        |<span data-ttu-id="dd4d2-251">**GS3**</span><span class="sxs-lookup"><span data-stu-id="dd4d2-251">**GS3**</span></span>|<span data-ttu-id="dd4d2-252">例如，應用程式接收者中，輸入的值**[ordercontrol]**。</span><span class="sxs-lookup"><span data-stu-id="dd4d2-252">Enter a value for the Application receiver, for example, **OrderControl**.</span></span>|  
-        |<span data-ttu-id="dd4d2-253">**GS4**</span><span class="sxs-lookup"><span data-stu-id="dd4d2-253">**GS4**</span></span>|<span data-ttu-id="dd4d2-254">選取您想要的日期格式。</span><span class="sxs-lookup"><span data-stu-id="dd4d2-254">Select the date format that you want.</span></span> <span data-ttu-id="dd4d2-255">**注意：**您必須在下拉式清單中選取值，不只是按一下欄位以顯示預設值。</span><span class="sxs-lookup"><span data-stu-id="dd4d2-255">**Note:**  You have to select the value in the drop-down list, not just click in the field to display the default.</span></span> <span data-ttu-id="dd4d2-256">如果您按一下欄位而未從下拉式清單中選取值，實際上不會選取值。</span><span class="sxs-lookup"><span data-stu-id="dd4d2-256">If you click in the field without selecting the value from the drop-down list, the value will not actually be selected.</span></span>|  
+        |<span data-ttu-id="dd4d2-251">**GS3**</span><span class="sxs-lookup"><span data-stu-id="dd4d2-251">**GS3**</span></span>|<span data-ttu-id="dd4d2-252">例如，應用程式接收者中，輸入的值 **[ordercontrol]**。</span><span class="sxs-lookup"><span data-stu-id="dd4d2-252">Enter a value for the Application receiver, for example, **OrderControl**.</span></span>|  
+        |<span data-ttu-id="dd4d2-253">**GS4**</span><span class="sxs-lookup"><span data-stu-id="dd4d2-253">**GS4**</span></span>|<span data-ttu-id="dd4d2-254">選取您想要的日期格式。</span><span class="sxs-lookup"><span data-stu-id="dd4d2-254">Select the date format that you want.</span></span> <span data-ttu-id="dd4d2-255">**注意：** 您必須在下拉式清單中選取值，不只是按一下欄位以顯示預設值。</span><span class="sxs-lookup"><span data-stu-id="dd4d2-255">**Note:**  You have to select the value in the drop-down list, not just click in the field to display the default.</span></span> <span data-ttu-id="dd4d2-256">如果您按一下欄位而未從下拉式清單中選取值，實際上不會選取值。</span><span class="sxs-lookup"><span data-stu-id="dd4d2-256">If you click in the field without selecting the value from the drop-down list, the value will not actually be selected.</span></span>|  
         |<span data-ttu-id="dd4d2-257">**GS5**</span><span class="sxs-lookup"><span data-stu-id="dd4d2-257">**GS5**</span></span>|<span data-ttu-id="dd4d2-258">選擇您要的時間格式。</span><span class="sxs-lookup"><span data-stu-id="dd4d2-258">Select the time format that you want.</span></span>|  
         |<span data-ttu-id="dd4d2-259">**GS7**</span><span class="sxs-lookup"><span data-stu-id="dd4d2-259">**GS7**</span></span>|<span data-ttu-id="dd4d2-260">選取**X-Accredited 的 Standards Committee X12**。</span><span class="sxs-lookup"><span data-stu-id="dd4d2-260">Select **X - Accredited Standards Committee X12**.</span></span>|  
         |<span data-ttu-id="dd4d2-261">**GS8**</span><span class="sxs-lookup"><span data-stu-id="dd4d2-261">**GS8**</span></span>|<span data-ttu-id="dd4d2-262">確認已輸入 EDI 版本， **00401**。</span><span class="sxs-lookup"><span data-stu-id="dd4d2-262">Verify that the EDI version has been entered, **00401**.</span></span>|  
@@ -278,7 +279,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  <span data-ttu-id="dd4d2-279">在**傳輸**區段中，選取**檔案**如**類型**，然後按一下 **設定**。</span><span class="sxs-lookup"><span data-stu-id="dd4d2-279">In the **Transport** section, select **FILE** for **Type**, and then click **Configure**.</span></span>  
   
-5.  <span data-ttu-id="dd4d2-280">輸入的資料夾**目的地資料夾**，和**檔案名稱**，例如**%MessageID%.txt**。</span><span class="sxs-lookup"><span data-stu-id="dd4d2-280">Enter a folder for **Destination folder**, and a **File name**, such as **%MessageID%.txt**.</span></span>  
+5.  <span data-ttu-id="dd4d2-280">輸入的資料夾**目的地資料夾**，和**檔案名稱**，例如 **%MessageID%.txt**。</span><span class="sxs-lookup"><span data-stu-id="dd4d2-280">Enter a folder for **Destination folder**, and a **File name**, such as **%MessageID%.txt**.</span></span>  
   
 6.  <span data-ttu-id="dd4d2-281">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="dd4d2-281">Click **OK**.</span></span>  
   

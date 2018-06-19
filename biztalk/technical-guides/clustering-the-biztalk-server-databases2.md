@@ -1,14 +1,14 @@
 ---
-title: "叢集資料庫 |Microsoft 文件"
-ms.custom: 
+title: 叢集資料庫 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1b68bc3f-c0c4-4050-8ca3-df6dd1927637
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009471"
 ---
 # <a name="clustering-the-biztalk-server-databases"></a><span data-ttu-id="f5920-102">叢集 BizTalk Server 資料庫</span><span class="sxs-lookup"><span data-stu-id="f5920-102">Clustering the BizTalk Server Databases</span></span>
 <span data-ttu-id="f5920-103">若 BizTalk Server 資料庫變成無法使用，則 BizTalk Server 環境將無法正確運作。</span><span class="sxs-lookup"><span data-stu-id="f5920-103">If the BizTalk Server databases become unavailable, the BizTalk Server environment will not function correctly.</span></span> <span data-ttu-id="f5920-104">若要提供高可用性，您可以為 BizTalk Server 資料庫建立 Microsoft SQL Server 叢集，如下圖所示。</span><span class="sxs-lookup"><span data-stu-id="f5920-104">To provide high availability, you can create a Microsoft SQL Server cluster for the BizTalk Server databases, as shown in the following figure.</span></span>  

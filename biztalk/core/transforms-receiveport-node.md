@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279238"
 ---
 # <a name="transforms-receiveport-node"></a><span data-ttu-id="0c435-102">轉換 (ReceivePort 節點)</span><span class="sxs-lookup"><span data-stu-id="0c435-102">Transforms (ReceivePort Node)</span></span>
 <span data-ttu-id="0c435-103">繫結檔案之 [ReceivePort] 節點的 [轉換] 節點包含隨同該繫結檔案一起匯出之單向接收埠的輸入轉換集合。</span><span class="sxs-lookup"><span data-stu-id="0c435-103">The Transforms node of the ReceivePort node of a binding file contains the collection of inbound transforms of a one way receive port that is exported with the binding file.</span></span>  

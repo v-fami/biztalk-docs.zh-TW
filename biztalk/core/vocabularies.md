@@ -1,11 +1,11 @@
 ---
-title: "詞彙 |Microsoft 文件"
-ms.custom: 
+title: 詞彙 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - business rules, vocabularies
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - vocabularies
 - Business Rules Engine, vocabularies
 ms.assetid: 591673a0-2c4d-41ca-9997-b363c086dd66
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288006"
 ---
 # <a name="vocabularies"></a><span data-ttu-id="fdf15-102">詞彙</span><span class="sxs-lookup"><span data-stu-id="fdf15-102">Vocabularies</span></span>
 <span data-ttu-id="fdf15-103">用以定義規則條件與動作的詞彙通常是以網域或業界特定的術語來表達。</span><span class="sxs-lookup"><span data-stu-id="fdf15-103">The terms used to define rule conditions and actions are usually expressed by domain or industry-specific nomenclature.</span></span> <span data-ttu-id="fdf15-104">例如，電子郵件使用者會根據「寄件者」訊息與「下列日期之後」訊息來撰寫規則，而保險商業分析師會根據「風險因素」與「保險金額」來撰寫規則。</span><span class="sxs-lookup"><span data-stu-id="fdf15-104">For example, an e-mail user writes rules in terms of messages "received from" and messages "received after," while an insurance business analyst writes rules in terms of "risk factors" and "coverage amount."</span></span>  

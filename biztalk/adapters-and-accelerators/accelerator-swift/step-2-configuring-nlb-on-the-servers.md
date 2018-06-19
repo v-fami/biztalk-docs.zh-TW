@@ -1,18 +1,18 @@
 ---
-title: "步驟 2： 設定伺服器上的 NLB |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 設定伺服器上的 NLB |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Network Load Balancing
 - configuring, NLB
 - NLB
 ms.assetid: 30b2f645-b495-49a5-852b-cf89d25fd2b7
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006519"
 ---
 # <a name="step-2-configuring-nlb-on-the-servers"></a><span data-ttu-id="8300b-102">步驟 2： 在伺服器上設定 NLB</span><span class="sxs-lookup"><span data-stu-id="8300b-102">Step 2: Configuring NLB on the Servers</span></span>
 <span data-ttu-id="8300b-103">您已安裝的基礎平台，並設定適當的網路設定的伺服器之後 (請參閱[步驟 1： 安裝基底平台](../../adapters-and-accelerators/accelerator-swift/step-1-installing-the-base-platform.md))，您可能需要啟用 BizTalk HTTP 前端伺服器和 BizTalk 上的負載平衡訊息的伺服器。</span><span class="sxs-lookup"><span data-stu-id="8300b-103">After you have installed the base platform and configured the servers with the proper network settings (see [Step 1: Installing the Base Platform](../../adapters-and-accelerators/accelerator-swift/step-1-installing-the-base-platform.md)), you may need to enable load balancing on BizTalk HTTP front-end servers and the BizTalk Messaging servers.</span></span> <span data-ttu-id="8300b-104">只有當您擁有一個或多個 BizTalk HTTP 前端伺服器安裝在一或多個 BizTalk 傳訊的伺服器從另一部電腦上，則需要這個步驟。</span><span class="sxs-lookup"><span data-stu-id="8300b-104">This step is needed only if you have one or more BizTalk HTTP front-end servers installed on a separate computer from one or more BizTalk Messaging servers.</span></span>  

@@ -1,15 +1,15 @@
 ---
-title: "建立應用程式成品的 TIBCO EMS |Microsoft 文件"
-description: "若要使用 BizTalk Adapter for TIBCO Enterprise Message Service，BizTalk Server 中的 Visual Studio 和 BizTalk Server 管理中建立的成品"
-ms.custom: 
+title: 建立應用程式成品的 TIBCO EMS |Microsoft 文件
+description: 若要使用 BizTalk Adapter for TIBCO Enterprise Message Service，BizTalk Server 中的 Visual Studio 和 BizTalk Server 管理中建立的成品
+ms.custom: ''
 ms.date: 10/23/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0c31dad4-bf5b-4c59-9cea-431122040d9d
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014893"
 ---
 # <a name="create-your-application"></a><span data-ttu-id="d6b51-103">建立您的應用程式</span><span class="sxs-lookup"><span data-stu-id="d6b51-103">Create your application</span></span>
 

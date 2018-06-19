@@ -1,11 +1,11 @@
 ---
-title: "Windows 的商務規則編輯器 |Microsoft 文件"
-ms.custom: 
+title: Windows 的商務規則編輯器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Business Rule Composer
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - business rules, Business Rule Composer
 - Business Rule Composer, about Business Rule Composer
 ms.assetid: 7e763b2a-6c34-46bd-a7b9-fa4c9c7f96af
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289942"
 ---
 # <a name="windows-of-the-business-rule-composer"></a><span data-ttu-id="f6a25-102">商務規則編輯器的視窗</span><span class="sxs-lookup"><span data-stu-id="f6a25-102">Windows of the Business Rule Composer</span></span>
 <span data-ttu-id="f6a25-103">「商務規則編輯器」是用於撰寫、版本管理和部署原則與詞彙的圖形化工具。</span><span class="sxs-lookup"><span data-stu-id="f6a25-103">The Business Rule Composer is a graphical tool used for authoring, versioning, and deploying policies and vocabularies.</span></span> <span data-ttu-id="f6a25-104">本節提供「商務規則編輯器」不同視窗的資訊。</span><span class="sxs-lookup"><span data-stu-id="f6a25-104">This section provides information about different windows of the Business Rule Composer.</span></span>  

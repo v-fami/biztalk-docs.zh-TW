@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269830"
 ---
 # <a name="scenario-2-sizing-the-tracking-database--for-messages-in-orchestrations"></a><span data-ttu-id="1fe5e-102">實例 2：為協調流程中的訊息調整追蹤資料庫的大小</span><span class="sxs-lookup"><span data-stu-id="1fe5e-102">Scenario 2: Sizing the Tracking Database  for Messages in Orchestrations</span></span>
 <span data-ttu-id="1fe5e-103">讓我們看一個包括協調流程的範例。</span><span class="sxs-lookup"><span data-stu-id="1fe5e-103">Let's look at an example that includes an orchestration.</span></span> <span data-ttu-id="1fe5e-104">下圖顯示整個商務程序。</span><span class="sxs-lookup"><span data-stu-id="1fe5e-104">The following figure displays the entire business process.</span></span> <span data-ttu-id="1fe5e-105">在此實例中，一個訊息進入 BizTalk Server，透過協調流程傳送，在協調流程中變更，然後透過傳送埠傳送出去。</span><span class="sxs-lookup"><span data-stu-id="1fe5e-105">In this scenario, a message comes into BizTalk Server, is sent through an orchestration, is changed within the orchestration, and is then sent out through a send port.</span></span>  

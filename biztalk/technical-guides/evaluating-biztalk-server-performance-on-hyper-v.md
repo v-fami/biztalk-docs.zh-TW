@@ -1,14 +1,14 @@
 ---
-title: "評估 HYPER-V 上的 BizTalk Server 效能 |Microsoft 文件"
-ms.custom: 
+title: 評估 HYPER-V 上的 BizTalk Server 效能 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 10fd8b7a-c524-47c2-936c-8aa6f748e3e9
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010671"
 ---
 # <a name="evaluating-biztalk-server-performance-on-hyper-v"></a><span data-ttu-id="1e0d5-102">評估 HYPER-V 上的 BizTalk Server 效能</span><span class="sxs-lookup"><span data-stu-id="1e0d5-102">Evaluating BizTalk Server Performance on Hyper-V</span></span>
 <span data-ttu-id="1e0d5-103">本節提供檢查清單來評估並最佳化效能的 HYPER-V 虛擬機器的系統資源成本摘要上安裝客體作業系統上執行的 BizTalk Server 應用程式與執行 HYPER-V 相關聯。</span><span class="sxs-lookup"><span data-stu-id="1e0d5-103">This section provides checklists for evaluating and optimizing performance of a BizTalk Server application running on a guest operating system installed on a Hyper-V virtual machine and a summary of the system resource costs associated with running Hyper-V.</span></span>  

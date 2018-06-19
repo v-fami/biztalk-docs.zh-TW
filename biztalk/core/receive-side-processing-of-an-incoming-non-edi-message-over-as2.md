@@ -1,14 +1,14 @@
 ---
-title: "接收端處理透過 AS2 內送的非 EDI 訊息 |Microsoft 文件"
-ms.custom: 
+title: 接收端處理透過 AS2 內送的非 EDI 訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fee10cba-8b1a-4d2c-b9d9-efbb74c3f461
-caps.latest.revision: "31"
+caps.latest.revision: 31
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269446"
 ---
 # <a name="receive-side-processing-of-an-incoming-non-edi-message-over-as2"></a><span data-ttu-id="38f08-102">透過 AS2 內送之非 EDI 訊息的接收端處理</span><span class="sxs-lookup"><span data-stu-id="38f08-102">Receive-Side Processing of an Incoming Non-EDI Message over AS2</span></span>
 <span data-ttu-id="38f08-103">隨附於 AS2 管線[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]可以用來處理透過 AS2 傳輸的 EDI 訊息或非 EDI 訊息。</span><span class="sxs-lookup"><span data-stu-id="38f08-103">The AS2 pipelines shipped with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] can be used to process an EDI message or a non-EDI message over AS2 transport.</span></span> <span data-ttu-id="38f08-104">這兩種不同的內容類型會使用不同的管線。</span><span class="sxs-lookup"><span data-stu-id="38f08-104">Different pipelines are used for the two different types of payloads.</span></span> <span data-ttu-id="38f08-105">您會使用 AS2EdiReceive 管線來處理透過 AS2 內送的 EDI 訊息，而使用 AS2Send 管線傳回關聯的 MDN (如果有啟用)。</span><span class="sxs-lookup"><span data-stu-id="38f08-105">You use the AS2EdiReceive pipeline to process an incoming EDI message over AS2, and the AS2Send pipeline to return the associated MDN (if enabled).</span></span> <span data-ttu-id="38f08-106">您會使用 AS2Receive 管線來處理透過 AS2 內送的非 EDI 訊息，而使用 AS2Send 管線來傳回關聯的 MDN (如果有啟用)。</span><span class="sxs-lookup"><span data-stu-id="38f08-106">You use the AS2Receive pipeline to process an incoming non-EDI message over AS2, and the AS2Send pipeline to return the associated MDN (if enabled).</span></span> <span data-ttu-id="38f08-107">非 EDI 訊息可以是任何二進位內容。</span><span class="sxs-lookup"><span data-stu-id="38f08-107">The non-EDI message can be any binary payload.</span></span>  

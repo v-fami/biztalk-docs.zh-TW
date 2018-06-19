@@ -1,14 +1,14 @@
 ---
-title: "設定一般合作對象屬性 |Microsoft 文件"
-ms.custom: 
+title: 設定一般合作對象屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bbabf7e5-6388-4900-ad47-cf5d5af396b5
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005647"
 ---
 # <a name="configuring-general-party-properties"></a><span data-ttu-id="f182b-102">設定一般合作對象屬性</span><span class="sxs-lookup"><span data-stu-id="f182b-102">Configuring General Party Properties</span></span>
 <span data-ttu-id="f182b-103">合作對象或交易夥伴代表商務關係中的參與組織。</span><span class="sxs-lookup"><span data-stu-id="f182b-103">A party or trading partner represents a participating organization in a business relationship.</span></span> <span data-ttu-id="f182b-104">合作對象屬性包含下列資訊：</span><span class="sxs-lookup"><span data-stu-id="f182b-104">Party properties contain the following information:</span></span>  
@@ -41,8 +42,8 @@ ms.lasthandoff: 12/01/2017
     |<span data-ttu-id="f182b-114">使用</span><span class="sxs-lookup"><span data-stu-id="f182b-114">Use this</span></span>|<span data-ttu-id="f182b-115">動作</span><span class="sxs-lookup"><span data-stu-id="f182b-115">To do this</span></span>|  
     |--------------|----------------|  
     |<span data-ttu-id="f182b-116">**名稱**</span><span class="sxs-lookup"><span data-stu-id="f182b-116">**Name**</span></span>|<span data-ttu-id="f182b-117">輸入合作對象名稱。</span><span class="sxs-lookup"><span data-stu-id="f182b-117">Enter a party name.</span></span>|  
-    |<span data-ttu-id="f182b-118">**本機 BizTalk 會處理合作對象或支援此合作對象傳送訊息所收到的訊息**</span><span class="sxs-lookup"><span data-stu-id="f182b-118">**Local BizTalk processes messages received by the party or supports sending messages from this party**</span></span>|<span data-ttu-id="f182b-119">選取此核取方塊，以指定合作對象代表同時裝載了 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的同一個交易夥伴。</span><span class="sxs-lookup"><span data-stu-id="f182b-119">Select this checkbox to specify that the party represents the same trading partner that also hosts [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="f182b-120">**重要事項：**對於兩個合作對象 TPM 解決方案會使用管線的方塊外，隨附於[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，您必須選取此核取方塊，至少一個合作對象。</span><span class="sxs-lookup"><span data-stu-id="f182b-120">**Important:**  For a two-party TPM solution that uses out-of-the-box pipelines shipped with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], you must select this check box for at least one party.</span></span> <span data-ttu-id="f182b-121">**注意：**某些屬性如果您清除此核取方塊，將會停用時建立此合作對象的協議。</span><span class="sxs-lookup"><span data-stu-id="f182b-121">**Note:**  If you clear this check box, some properties will be disabled while creating the agreements for this party.</span></span>|  
-    |<span data-ttu-id="f182b-122">**其他屬性 – 名稱/值**</span><span class="sxs-lookup"><span data-stu-id="f182b-122">**Additional Properties – Name / Value**</span></span>|<span data-ttu-id="f182b-123">請輸入名稱-值組來儲存合作對象的任何資訊。</span><span class="sxs-lookup"><span data-stu-id="f182b-123">Enter a name-value pair to store any information about the party.</span></span> <span data-ttu-id="f182b-124">您可以視需要新增任意數目的名稱-值組。</span><span class="sxs-lookup"><span data-stu-id="f182b-124">You can add as many name-value pairs as you want.</span></span> <span data-ttu-id="f182b-125">**注意：**名稱 / 值組不會由 BizTalk Server 進行任何處理; 此資料僅供資訊。</span><span class="sxs-lookup"><span data-stu-id="f182b-125">**Note:**  The name-value pairs are not used by the BizTalk Server for any processing; this data is for information purposes only.</span></span>|  
+    |<span data-ttu-id="f182b-118">**本機 BizTalk 會處理合作對象或支援此合作對象傳送訊息所收到的訊息**</span><span class="sxs-lookup"><span data-stu-id="f182b-118">**Local BizTalk processes messages received by the party or supports sending messages from this party**</span></span>|<span data-ttu-id="f182b-119">選取此核取方塊，以指定合作對象代表同時裝載了 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的同一個交易夥伴。</span><span class="sxs-lookup"><span data-stu-id="f182b-119">Select this checkbox to specify that the party represents the same trading partner that also hosts [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="f182b-120">**重要事項：** 對於兩個合作對象 TPM 解決方案會使用管線的方塊外，隨附於[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，您必須選取此核取方塊，至少一個合作對象。</span><span class="sxs-lookup"><span data-stu-id="f182b-120">**Important:**  For a two-party TPM solution that uses out-of-the-box pipelines shipped with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], you must select this check box for at least one party.</span></span> <span data-ttu-id="f182b-121">**注意：** 某些屬性如果您清除此核取方塊，將會停用時建立此合作對象的協議。</span><span class="sxs-lookup"><span data-stu-id="f182b-121">**Note:**  If you clear this check box, some properties will be disabled while creating the agreements for this party.</span></span>|  
+    |<span data-ttu-id="f182b-122">**其他屬性 – 名稱/值**</span><span class="sxs-lookup"><span data-stu-id="f182b-122">**Additional Properties – Name / Value**</span></span>|<span data-ttu-id="f182b-123">請輸入名稱-值組來儲存合作對象的任何資訊。</span><span class="sxs-lookup"><span data-stu-id="f182b-123">Enter a name-value pair to store any information about the party.</span></span> <span data-ttu-id="f182b-124">您可以視需要新增任意數目的名稱-值組。</span><span class="sxs-lookup"><span data-stu-id="f182b-124">You can add as many name-value pairs as you want.</span></span> <span data-ttu-id="f182b-125">**注意：** 名稱 / 值組不會由 BizTalk Server 進行任何處理; 此資料僅供資訊。</span><span class="sxs-lookup"><span data-stu-id="f182b-125">**Note:**  The name-value pairs are not used by the BizTalk Server for any processing; this data is for information purposes only.</span></span>|  
     |<span data-ttu-id="f182b-126">**Delete**</span><span class="sxs-lookup"><span data-stu-id="f182b-126">**Delete**</span></span>|<span data-ttu-id="f182b-127">按一下選取的名稱-值組，加以刪除。</span><span class="sxs-lookup"><span data-stu-id="f182b-127">Click to delete the selected name-value pair.</span></span>|  
   
 3.  <span data-ttu-id="f182b-128">在**傳送埠**頁面**合作對象屬性**對話方塊方塊中，執行下列動作。</span><span class="sxs-lookup"><span data-stu-id="f182b-128">On the **Send Ports** page of the **Party Properties** dialog box, do the following.</span></span>  

@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 66d9badd-00c6-43a3-807e-0ad313983adc
-caps.latest.revision: ''
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22278326"
 ---
 # <a name="splitting-hipaa-subdocuments"></a><span data-ttu-id="f3107-102">分割 HIPAA 子文件</span><span class="sxs-lookup"><span data-stu-id="f3107-102">Splitting HIPAA Subdocuments</span></span>
 <span data-ttu-id="f3107-103">HIPAA 的 EDI 交換通常會在單一交易集中，使用由 ST/SE 標頭繫結的多重子 (child/sub) 文件。</span><span class="sxs-lookup"><span data-stu-id="f3107-103">EDI interchanges for HIPAA commonly have multiple child/sub documents within a single transaction set, as bounded by the ST/SE headers.</span></span> <span data-ttu-id="f3107-104">EDI 接收管線，可支援從該等交易集建立不同的 HIPAA 子文件。</span><span class="sxs-lookup"><span data-stu-id="f3107-104">The EDI receive pipeline supports creation of separate HIPAA subdocuments from such an transaction set.</span></span> <span data-ttu-id="f3107-105">這種方式不同於「非 HIPAA EDI 交換」將單一交易集當作單一訊息來處理的方式。</span><span class="sxs-lookup"><span data-stu-id="f3107-105">This is different from non-HIPAA EDI interchanges, in which a single transaction set is processed as a single message.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "規劃追蹤 |Microsoft 文件"
-ms.custom: 
+title: 規劃追蹤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8ffc8573-1b4a-47c7-96ab-0471f43facf5
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302078"
 ---
 # <a name="planning-for-tracking"></a><span data-ttu-id="e2385-102">規劃追蹤</span><span class="sxs-lookup"><span data-stu-id="e2385-102">Planning for Tracking</span></span>
 <span data-ttu-id="e2385-103">追蹤的訊息是部分的訊息執行個體，例如訊息本文、 訊息屬性和中繼資料儲存的資料庫中，通常為封存之用的程序。</span><span class="sxs-lookup"><span data-stu-id="e2385-103">Message tracking is the process by which parts of a message instance, such as the message body, message properties, and metadata are stored in a database, typically for archival purposes.</span></span> <span data-ttu-id="e2385-104">後續可以檢視追蹤的訊息執行個體部分執行查詢，從 [群組中樞] 頁面中[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台。</span><span class="sxs-lookup"><span data-stu-id="e2385-104">Message instance parts that are tracked can subsequently be viewed by running queries from the Group Hub page in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console.</span></span> <span data-ttu-id="e2385-105">除了存取封存的資料，您也可以檢視即時資料，可以識別並修正開發中的問題或預備環境的有力工具。</span><span class="sxs-lookup"><span data-stu-id="e2385-105">In addition to accessing archived data, you can also view live data, which can be a helpful tool for identifying and fixing problems in a development or staging environment.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "使用單元測試功能的結構描述和對應 |Microsoft 文件"
-ms.custom: 
+title: 使用單元測試功能的結構描述和對應 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 29bcb159-ffdb-44b9-a3ff-565973d41797
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288990"
 ---
 # <a name="using-the-unit-testing-feature-with-schemas-and-maps"></a><span data-ttu-id="2c02b-102">利用結構描述與對應來使用單元測試功能</span><span class="sxs-lookup"><span data-stu-id="2c02b-102">Using the Unit Testing Feature with Schemas and Maps</span></span>
 <span data-ttu-id="2c02b-103">此主題示範如何使用單元測試功能，以在 HelloWorld 協調流程範例中新增結構描述與對應的單元測試。</span><span class="sxs-lookup"><span data-stu-id="2c02b-103">This topic demonstrates how to use the unit testing feature to add a unit test for the schemas and map in the HelloWorld orchestration example.</span></span>  
@@ -45,13 +46,13 @@ ms.lasthandoff: 09/20/2017
   
 8.  <span data-ttu-id="2c02b-117">在**新的測試專案**對話方塊方塊中，保留相同的專案名稱**TestProject1**按一下**建立**。</span><span class="sxs-lookup"><span data-stu-id="2c02b-117">In the **New Test Project** dialog box, leave the project name as **TestProject1** and click **Create**.</span></span>  
   
-9. <span data-ttu-id="2c02b-118">在**建立單元測試**對話方塊方塊中，展開型別，然後選取**POSchema()**下的建構函式**Microsoft.Samples.BizTalk.HelloWorld.POSchema**節點。</span><span class="sxs-lookup"><span data-stu-id="2c02b-118">In the **Create Unit Tests** dialog box, expand the types and select the **POSchema()** constructor under the **Microsoft.Samples.BizTalk.HelloWorld.POSchema** node.</span></span> <span data-ttu-id="2c02b-119">也選取**potoinvoice ()**下的建構函式**Microsoft.Samples.BizTalk.HelloWorld.POToInvoice**節點。</span><span class="sxs-lookup"><span data-stu-id="2c02b-119">Also select **POToInvoice()** constructor under the **Microsoft.Samples.BizTalk.HelloWorld.POToInvoice** node.</span></span> <span data-ttu-id="2c02b-120">下圖顯示應要選取的項目。</span><span class="sxs-lookup"><span data-stu-id="2c02b-120">The figure below shows the selections that should be made.</span></span> <span data-ttu-id="2c02b-121">如下所示的選取項目之後，請按**確定**。</span><span class="sxs-lookup"><span data-stu-id="2c02b-121">After making the selections shown below, press **OK**.</span></span>  
+9. <span data-ttu-id="2c02b-118">在**建立單元測試**對話方塊方塊中，展開型別，然後選取**POSchema()** 下的建構函式**Microsoft.Samples.BizTalk.HelloWorld.POSchema**節點。</span><span class="sxs-lookup"><span data-stu-id="2c02b-118">In the **Create Unit Tests** dialog box, expand the types and select the **POSchema()** constructor under the **Microsoft.Samples.BizTalk.HelloWorld.POSchema** node.</span></span> <span data-ttu-id="2c02b-119">也選取**potoinvoice ()** 下的建構函式**Microsoft.Samples.BizTalk.HelloWorld.POToInvoice**節點。</span><span class="sxs-lookup"><span data-stu-id="2c02b-119">Also select **POToInvoice()** constructor under the **Microsoft.Samples.BizTalk.HelloWorld.POToInvoice** node.</span></span> <span data-ttu-id="2c02b-120">下圖顯示應要選取的項目。</span><span class="sxs-lookup"><span data-stu-id="2c02b-120">The figure below shows the selections that should be made.</span></span> <span data-ttu-id="2c02b-121">如下所示的選取項目之後，請按**確定**。</span><span class="sxs-lookup"><span data-stu-id="2c02b-121">After making the selections shown below, press **OK**.</span></span>  
   
      ![](../core/media/schemaandmapsunittestwizardselection.gif "SchemaAndMapsUnitTestWizardSelection")  
   
 ### <a name="adding-test-code-to-test-the-schemas-and-map"></a><span data-ttu-id="2c02b-122">新增測試程式碼以測試結構描述與對應</span><span class="sxs-lookup"><span data-stu-id="2c02b-122">Adding Test Code to Test the Schemas and Map</span></span>  
   
-1.  <span data-ttu-id="2c02b-123">將下列參考加入**TestProject1**從專案**.NET**  索引標籤中加入參考 對話方塊：</span><span class="sxs-lookup"><span data-stu-id="2c02b-123">Add the following references to the **TestProject1** project from the **.NET** tab in the Add Reference dialog:</span></span>  
+1.  <span data-ttu-id="2c02b-123">將下列參考加入**TestProject1**從專案 **.NET**  索引標籤中加入參考 對話方塊：</span><span class="sxs-lookup"><span data-stu-id="2c02b-123">Add the following references to the **TestProject1** project from the **.NET** tab in the Add Reference dialog:</span></span>  
   
     -   <span data-ttu-id="2c02b-124">Microsoft.BizTalk.TestTools</span><span class="sxs-lookup"><span data-stu-id="2c02b-124">Microsoft.BizTalk.TestTools</span></span>  
   

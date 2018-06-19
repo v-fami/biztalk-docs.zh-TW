@@ -1,14 +1,14 @@
 ---
-title: "步驟 1： 參考結構描述 DLL1 |Microsoft 文件"
-ms.custom: 
+title: 步驟 1： 參考結構描述 DLL1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 47e4b773-e484-4931-9ab2-b8dd0080ea1c
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279438"
 ---
 # <a name="step-1-reference-the-schema-dll"></a><span data-ttu-id="27f2a-102">步驟 1： 參考結構描述 DLL</span><span class="sxs-lookup"><span data-stu-id="27f2a-102">Step 1: Reference the Schema DLL</span></span>
 <span data-ttu-id="27f2a-103">在 BizTalk 中，訊息都是不變的。</span><span class="sxs-lookup"><span data-stu-id="27f2a-103">In BizTalk, messages are immutable.</span></span> <span data-ttu-id="27f2a-104">因此，若要變更屬性值，您必須建立新訊息並加以修改。</span><span class="sxs-lookup"><span data-stu-id="27f2a-104">Therefore, to change a property value you must create and modify a new message.</span></span> <span data-ttu-id="27f2a-105">在接收和傳送圖形之間插入訊息指派圖形，就可以建立新訊息和加以修改。</span><span class="sxs-lookup"><span data-stu-id="27f2a-105">You create and modify the new message by inserting a message assignment shape between the Receive and Send shapes.</span></span>  
@@ -37,7 +38,7 @@ ms.lasthandoff: 09/20/2017
   
     2.  <span data-ttu-id="27f2a-115">選取 Microsoft BizTalk Adapter for J.D.</span><span class="sxs-lookup"><span data-stu-id="27f2a-115">Select the Microsoft BizTalk Adapter for J.D.</span></span> <span data-ttu-id="27f2a-116">Edwards EnterpriseOne 以及您剛才建立的連接埠。</span><span class="sxs-lookup"><span data-stu-id="27f2a-116">Edwards EnterpriseOne and the port you just created.</span></span>  
   
-    3.  <span data-ttu-id="27f2a-117">在**新增配接器精靈**，選取**[csales\b4200310]**。</span><span class="sxs-lookup"><span data-stu-id="27f2a-117">In the **Add Adapter Wizard**, select **CSALES\B4200310**.</span></span>  
+    3.  <span data-ttu-id="27f2a-117">在**新增配接器精靈**，選取 **[csales\b4200310]**。</span><span class="sxs-lookup"><span data-stu-id="27f2a-117">In the **Add Adapter Wizard**, select **CSALES\B4200310**.</span></span>  
   
     4.  <span data-ttu-id="27f2a-118">按一下**完成**產生結構描述包含訊息的格式。</span><span class="sxs-lookup"><span data-stu-id="27f2a-118">Click **Finish** to generate the schema containing the format for the Message.</span></span>  
   

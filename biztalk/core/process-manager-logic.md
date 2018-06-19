@@ -1,17 +1,17 @@
 ---
-title: "程序管理員邏輯 |Microsoft 文件"
-ms.custom: 
+title: 程序管理員邏輯 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - process management solution tutorial, processing
 - processing, processing logic
 ms.assetid: 6b69fc71-0f01-4513-9361-d7787d0cde6d
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264478"
 ---
 # <a name="process-manager-logic"></a><span data-ttu-id="7f220-102">程序管理員邏輯</span><span class="sxs-lookup"><span data-stu-id="7f220-102">Process Manager Logic</span></span>
 <span data-ttu-id="7f220-103">本章節描述如何處理序管理員， **OrderManager**協調流程、 處理訂單。</span><span class="sxs-lookup"><span data-stu-id="7f220-103">This section describes how the process manager, the **OrderManager** orchestration, processes orders.</span></span> <span data-ttu-id="7f220-104">它描述不同訂單訊息中的索引鍵欄位，並在整個協調流程中追蹤新訂單和更新的訂單。</span><span class="sxs-lookup"><span data-stu-id="7f220-104">It describes key fields in the various order messages and follows new and updated orders through the orchestration.</span></span>  

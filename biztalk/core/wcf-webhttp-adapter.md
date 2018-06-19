@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 67a353e7-1ba3-427a-8e99-c9b8d83061cb
-caps.latest.revision: ''
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25976068"
 ---
 # <a name="wcf-webhttp-adapter"></a><span data-ttu-id="888a9-102">WCF-WebHttp 配接器</span><span class="sxs-lookup"><span data-stu-id="888a9-102">WCF-WebHttp Adapter</span></span>
 [!INCLUDE[btsCoName](../includes/btsconame-md.md)]<span data-ttu-id="888a9-103"> [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 使用**Wcf-webhttp**配接器將訊息傳送至 RESTful 服務。</span><span class="sxs-lookup"><span data-stu-id="888a9-103"> [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses the **WCF-WebHttp** adapter to send messages to RESTful services.</span></span> <span data-ttu-id="888a9-104">**Wcf-webhttp** 傳送配接器傳送至服務的 HTTP 訊息的 BizTalk 訊息。</span><span class="sxs-lookup"><span data-stu-id="888a9-104">The **WCF-WebHttp** send adapter sends HTTP messages to a service from a BizTalk message.</span></span> <span data-ttu-id="888a9-105">接收位置接收訊息從一種 RESTful 服務。</span><span class="sxs-lookup"><span data-stu-id="888a9-105">The receive location receives messages from a RESTful service.</span></span> <span data-ttu-id="888a9-106">GET 和 DELETE 要求，配接器所使用的任何內容。</span><span class="sxs-lookup"><span data-stu-id="888a9-106">For GET and DELETE request, the adapter does not use any payload.</span></span> <span data-ttu-id="888a9-107">POST 和 PUT 要求，配接器會使用 HTTP 內容/裝載 BizTalk 訊息內文部分。</span><span class="sxs-lookup"><span data-stu-id="888a9-107">For POST and PUT request, the adapter uses the BizTalk message body part to the HTTP content/payload.</span></span>  

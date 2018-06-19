@@ -1,14 +1,14 @@
 ---
-title: "步驟 9： 設定 EDI 內容傳送埠 |Microsoft 文件"
-ms.custom: 
+title: 步驟 9： 設定 EDI 內容傳送埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 71a8a4a7-7c3e-4e33-a9c0-a6445a3cc236
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277046"
 ---
 # <a name="step-9-configure-the-edi-payload-send-port"></a><span data-ttu-id="ddefc-102">步驟 9： 設定 EDI 內容傳送埠</span><span class="sxs-lookup"><span data-stu-id="ddefc-102">Step 9: Configure the EDI Payload Send Port</span></span>
 <span data-ttu-id="ddefc-103">![步驟 11-9](../core/media/tut-step9-of-11.gif "Tut_Step9_of_11")</span><span class="sxs-lookup"><span data-stu-id="ddefc-103">![Step 9 of 11](../core/media/tut-step9-of-11.gif "Tut_Step9_of_11")</span></span>  
@@ -35,7 +36,7 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  <span data-ttu-id="ddefc-112">因為傳送管線並不會針對該內容檔案執行 AS2 處理，所以要設定 FILE 類型。</span><span class="sxs-lookup"><span data-stu-id="ddefc-112">The FILE type is specified because the send pipeline is not performing AS2 processing on the payload file.</span></span> <span data-ttu-id="ddefc-113">該管線只是將內容檔案路由到本機資料夾，以便您可以檢視 EDI 交易集。</span><span class="sxs-lookup"><span data-stu-id="ddefc-113">It is just routing the payload file to a local folder so you can see the EDI transaction set.</span></span>  
   
-3.  <span data-ttu-id="ddefc-114">在**FILE 傳輸屬性**對話方塊中，針對**目的地資料夾**、 瀏覽並選取[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\AS2 Tutorial\\_EDIXMLToContoso。</span><span class="sxs-lookup"><span data-stu-id="ddefc-114">In the **FILE Transport Properties** dialog box, for **Destination folder**, browse to and select [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\AS2 Tutorial\\_EDIXMLToContoso.</span></span> <span data-ttu-id="ddefc-115">保留**檔案名稱**為**%MessageID%.xml**。</span><span class="sxs-lookup"><span data-stu-id="ddefc-115">Leave **File name** as **%MessageID%.xml**.</span></span> <span data-ttu-id="ddefc-116">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="ddefc-116">Click **OK**.</span></span>  
+3.  <span data-ttu-id="ddefc-114">在**FILE 傳輸屬性**對話方塊中，針對**目的地資料夾**、 瀏覽並選取[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\AS2 Tutorial\\_EDIXMLToContoso。</span><span class="sxs-lookup"><span data-stu-id="ddefc-114">In the **FILE Transport Properties** dialog box, for **Destination folder**, browse to and select [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\AS2 Tutorial\\_EDIXMLToContoso.</span></span> <span data-ttu-id="ddefc-115">保留**檔案名稱**為 **%MessageID%.xml**。</span><span class="sxs-lookup"><span data-stu-id="ddefc-115">Leave **File name** as **%MessageID%.xml**.</span></span> <span data-ttu-id="ddefc-116">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="ddefc-116">Click **OK**.</span></span>  
   
 4.  <span data-ttu-id="ddefc-117">接受預設值是**PassThruTransmit**如**傳送管線**。</span><span class="sxs-lookup"><span data-stu-id="ddefc-117">Accept the default of **PassThruTransmit** for **Send Pipeline**.</span></span>  
   

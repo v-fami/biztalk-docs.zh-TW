@@ -1,14 +1,14 @@
 ---
-title: "設計工具擴充性範例的運作方式 |Microsoft 文件"
-ms.custom: 
+title: 設計工具擴充性範例的運作方式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8f4dc622-28b8-498d-961f-df969cff9dcb
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975869"
 ---
 # <a name="how-the-designer-extensibility-sample-works"></a><span data-ttu-id="4e376-102">設計工具擴充性範例的運作方式</span><span class="sxs-lookup"><span data-stu-id="4e376-102">How the Designer Extensibility Sample Works</span></span>
 <span data-ttu-id="4e376-103">每個專案，在設計工具擴充性範例包含兩個類別： **Extender**類別和**擴充提供者**類別。</span><span class="sxs-lookup"><span data-stu-id="4e376-103">Each project in the Designer Extensibility sample contains two classes: an **Extender** class and an **Extension Provider** class.</span></span> <span data-ttu-id="4e376-104">這些類別設計用來擴充功能，以及定義屬性的**ItineraryDsl**模型項目。</span><span class="sxs-lookup"><span data-stu-id="4e376-104">These classes are designed to extend the capabilities and define the properties of the **ItineraryDsl** model elements.</span></span>  

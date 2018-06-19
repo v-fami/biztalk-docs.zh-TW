@@ -1,11 +1,11 @@
 ---
-title: "管線工具 |Microsoft 文件"
-ms.custom: 
+title: 管線工具 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline tools, XMLAsm.exe
@@ -24,7 +24,7 @@ helpviewer_keywords:
 - utilities, pipeline tools
 - XMLDasm.exe
 ms.assetid: ca4d053a-1473-4d40-8cd0-1ed3a3af988a
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -33,6 +33,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974396"
 ---
 # <a name="pipeline-tools"></a><span data-ttu-id="489b2-102">管線工具</span><span class="sxs-lookup"><span data-stu-id="489b2-102">Pipeline Tools</span></span>
 <span data-ttu-id="489b2-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 軟體開發套件 (SDK) 所提供的管線工具可以讓您驗證管線是否正常運作，而不需要設定 BizTalk Server 環境，例如傳送埠/接收埠。</span><span class="sxs-lookup"><span data-stu-id="489b2-103">The pipeline tools supplied with the Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Software Development Kit (SDK) enable you to verify that a pipeline is functioning correctly without having to configure the BizTalk Server environment, such as send/receive ports.</span></span> <span data-ttu-id="489b2-104">您也可以使用管線工具執行下列工作：</span><span class="sxs-lookup"><span data-stu-id="489b2-104">You can also use the pipeline tools to:</span></span>  

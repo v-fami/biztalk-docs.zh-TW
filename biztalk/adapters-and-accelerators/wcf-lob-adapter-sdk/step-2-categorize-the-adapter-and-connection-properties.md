@@ -1,14 +1,14 @@
 ---
-title: "步驟 2： 分類的介面卡和連接屬性 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 分類的介面卡和連接屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 45b3dc64-2078-4008-878b-501f727f4a11
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226822"
 ---
 # <a name="step-2-categorize-the-adapter-and-connection-properties"></a><span data-ttu-id="66e5f-102">步驟 2： 分類的介面卡和連接屬性</span><span class="sxs-lookup"><span data-stu-id="66e5f-102">Step 2: Categorize the Adapter and Connection Properties</span></span>
 <span data-ttu-id="66e5f-103">![步驟 2 的 9](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-2of9.gif "Step_2of9")</span><span class="sxs-lookup"><span data-stu-id="66e5f-103">![Step 2 of 9](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-2of9.gif "Step_2of9")</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "如何使用密碼篩選器 |Microsoft 文件"
-ms.custom: 
+title: 如何使用密碼篩選器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: eb429f8b-c301-45a3-8a4f-bbe6f2c566a3
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255934"
 ---
 # <a name="how-to-use-password-filters"></a><span data-ttu-id="fb948-102">如何使用密碼篩選條件</span><span class="sxs-lookup"><span data-stu-id="fb948-102">How to Use Password Filters</span></span>
 <span data-ttu-id="fb948-103">「ENTSSO 密碼同步處理」功能，可以同步處理 Microsoft Windows Active Directory 和非 Windows 系統之間的密碼。</span><span class="sxs-lookup"><span data-stu-id="fb948-103">The ENTSSO Password Synchronization feature synchronizes passwords between Microsoft Windows Active Directory and non-Windows systems.</span></span> <span data-ttu-id="fb948-104">然而，許多外部系統都有不同於 Active Directory 的密碼原則需求</span><span class="sxs-lookup"><span data-stu-id="fb948-104">However, many external systems have password policy requirements which differ from those in Active Directory.</span></span> <span data-ttu-id="fb948-105">(例如，某個 IBM 系統可能會要求密碼都為大寫，而且僅限於 8 個字元)。這樣便會強制 ENTSSO 在兩個系統之間使用「最低公分母」來限制密碼安全性。</span><span class="sxs-lookup"><span data-stu-id="fb948-105">(For example, an IBM system may require a password to be upper case and limited to 8 characters.) This forces ENTSSO to use the “lowest common denominator” between the two systems, limiting password security.</span></span>  

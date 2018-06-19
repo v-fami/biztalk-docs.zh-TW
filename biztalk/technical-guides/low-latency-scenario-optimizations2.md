@@ -1,14 +1,14 @@
 ---
-title: "低延遲案例 Optimizations2 |Microsoft 文件"
-ms.custom: 
+title: 低延遲案例 Optimizations2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 19cd78ce-ad7d-4e4b-8188-a63d707905d5
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22297990"
 ---
 # <a name="low-latency-scenario-optimizations"></a><span data-ttu-id="5596d-102">低延遲案例最佳化</span><span class="sxs-lookup"><span data-stu-id="5596d-102">Low-Latency Scenario Optimizations</span></span>
 <span data-ttu-id="5596d-103">根據預設，BizTalk Server 已最佳化輸送量，而不是低度延遲。</span><span class="sxs-lookup"><span data-stu-id="5596d-103">By default, BizTalk Server is optimized for throughput rather than low-latency.</span></span> <span data-ttu-id="5596d-104">下列最佳化可以套用至 BizTalk Server 中，在案例中需要減少的延遲的地方。</span><span class="sxs-lookup"><span data-stu-id="5596d-104">The following optimizations can be applied to BizTalk Server in scenarios where reduced latency is required.</span></span>  

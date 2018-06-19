@@ -1,15 +1,15 @@
 ---
-title: "Siebel BizTalk 配接器疑難排解操作問題 |Microsoft 文件"
-description: "常見問題和 Siebel 配接器在 BizTalk 配接器組件 (BAP) 中的解決方式"
-ms.custom: 
+title: Siebel BizTalk 配接器疑難排解操作問題 |Microsoft 文件
+description: 常見問題和 Siebel 配接器在 BizTalk 配接器組件 (BAP) 中的解決方式
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 74d152d9-9893-4f93-894a-350bae8be7bd
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009631"
 ---
 # <a name="troubleshoot-operational-issues-with-the-siebel-adapter"></a><span data-ttu-id="96cfa-103">使用 Siebel 配接器疑難排解操作問題</span><span class="sxs-lookup"><span data-stu-id="96cfa-103">Troubleshoot Operational Issues with the Siebel adapter</span></span>
 <span data-ttu-id="96cfa-104">本節提供使用時，可能會遇到操作問題的相關資訊的集中式的位置[!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="96cfa-104">This section provides a centralized location for information about operational issues you might encounter when using the [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)].</span></span>  

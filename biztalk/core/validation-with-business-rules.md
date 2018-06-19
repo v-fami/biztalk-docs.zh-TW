@@ -1,11 +1,11 @@
 ---
-title: "使用商務規則驗證 |Microsoft 文件"
-ms.custom: 
+title: 使用商務規則驗證 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - validating, process management solutions
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - business rules, validating
 - process management solution tutorial, business rules
 ms.assetid: a67f3781-629a-4157-9a27-3b73d7a5a3a8
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287774"
 ---
 # <a name="validation-with-business-rules"></a><span data-ttu-id="43f6b-102">使用商務規則驗證</span><span class="sxs-lookup"><span data-stu-id="43f6b-102">Validation with Business Rules</span></span>
 <span data-ttu-id="43f6b-103">進行驗證的一個常用方法是使用商務規則架構來建構一組商務規則。</span><span class="sxs-lookup"><span data-stu-id="43f6b-103">A common way to do validation is to construct a set of business rules using the Business Rules Framework.</span></span> <span data-ttu-id="43f6b-104">然後在您要執行驗證的協調流程中使用「呼叫規則」圖形。</span><span class="sxs-lookup"><span data-stu-id="43f6b-104">Then you use the Call Rules shape in the orchestration where you want to perform validation.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "執行設計工具擴充性範例 |Microsoft 文件"
-ms.custom: 
+title: 執行設計工具擴充性範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 05ac3b50-5bf2-4566-8654-472391476d1f
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007583"
 ---
 # <a name="running-the-designer-extensibility-sample"></a><span data-ttu-id="c0334-102">執行設計工具擴充性範例</span><span class="sxs-lookup"><span data-stu-id="c0334-102">Running the Designer Extensibility Sample</span></span>
 <span data-ttu-id="c0334-103">設計工具擴充性範例會示範如何提供設計階段組態選項，對於自訂解析程式與路線服務使用兩個範例擴充項。</span><span class="sxs-lookup"><span data-stu-id="c0334-103">The Designer Extensibility sample uses two sample extenders to demonstrate how you can provide design-time configuration options for custom resolvers and for itinerary services.</span></span>  

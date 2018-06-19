@@ -1,14 +1,14 @@
 ---
-title: "VisualStudioHostRestart （應用程式部署範例） |Microsoft 文件"
-ms.custom: 
+title: VisualStudioHostRestart （應用程式部署範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d0b82627-1552-479d-a083-cdc9fe4843c3
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974100"
 ---
 # <a name="visualstudiohostrestart-application-deployment-sample"></a><span data-ttu-id="b7d51-102">VisualStudioHostRestart (應用程式部署範例)</span><span class="sxs-lookup"><span data-stu-id="b7d51-102">VisualStudioHostRestart (Application Deployment Sample)</span></span>
 <span data-ttu-id="b7d51-103">本主題會說明如何使用 VisualStudioHostRestart 範例指令碼，重新啟動本機電腦上 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 所執行的主控件執行個體。</span><span class="sxs-lookup"><span data-stu-id="b7d51-103">This topic explains how to use the VisualStudioHostRestart sample script to restart a host instance running under [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] on the local computer.</span></span> <span data-ttu-id="b7d51-104">您可以在重新部署 Visual Studio 中的組件時使用這個指令碼，以便 BizTalk Server 執行階段立即接受變更。</span><span class="sxs-lookup"><span data-stu-id="b7d51-104">You can use this script when redeploying assemblies in Visual Studio so that the BizTalk Server runtime immediately picks up the changes.</span></span> <span data-ttu-id="b7d51-105">此外，您可以用這個選項來重新啟動主控件執行個體，這個選項可在專案的 [部署] 屬性中加以設定。</span><span class="sxs-lookup"><span data-stu-id="b7d51-105">Alternatively, you can use the option to restart host instances, which you can set in Deployment properties for the project.</span></span> <span data-ttu-id="b7d51-106">如需詳細資訊，請參閱[如何在 Visual Studio 中設定部署屬性](../core/how-to-set-deployment-properties-in-visual-studio.md)。</span><span class="sxs-lookup"><span data-stu-id="b7d51-106">For more information, see [How to Set Deployment Properties in Visual Studio](../core/how-to-set-deployment-properties-in-visual-studio.md).</span></span>  
@@ -29,7 +30,7 @@ ms.lasthandoff: 11/28/2017
 2.  <span data-ttu-id="b7d51-110">啟動本機電腦上的所有內含式主控件執行個體。</span><span class="sxs-lookup"><span data-stu-id="b7d51-110">Starts all in-process host instances on the local computer.</span></span>  
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="b7d51-111">可在何處找到此範例</span><span class="sxs-lookup"><span data-stu-id="b7d51-111">Where to Find This Sample</span></span>  
- <span data-ttu-id="b7d51-112">此範例位於[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，如下所示的安裝資料夾： *\<範例路徑\>*\Application Deployment\VisualStudioHostRestart。</span><span class="sxs-lookup"><span data-stu-id="b7d51-112">The sample is located in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] installation folder, as follows: *\<Samples path\>*\Application Deployment\VisualStudioHostRestart.</span></span>  
+ <span data-ttu-id="b7d51-112">此範例位於[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，如下所示的安裝資料夾： *\<範例路徑\>* \Application Deployment\VisualStudioHostRestart。</span><span class="sxs-lookup"><span data-stu-id="b7d51-112">The sample is located in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] installation folder, as follows: *\<Samples path\>* \Application Deployment\VisualStudioHostRestart.</span></span>  
   
  <span data-ttu-id="b7d51-113">此範例包含下列檔案：</span><span class="sxs-lookup"><span data-stu-id="b7d51-113">The sample includes the following file:</span></span>  
   

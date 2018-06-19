@@ -1,15 +1,15 @@
 ---
-title: "若要重新啟動服務，或關閉的步驟 |Microsoft 文件"
-description: "啟動、 停止、 暫停、 繼續或重新啟動 BizTalk Server 服務，或關閉 BizTalk Server 電腦"
-ms.custom: 
+title: 若要重新啟動服務，或關閉的步驟 |Microsoft 文件
+description: 啟動、 停止、 暫停、 繼續或重新啟動 BizTalk Server 服務，或關閉 BizTalk Server 電腦
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3d6449ba-2892-49c6-a697-847608d10ec5
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973404"
 ---
 # <a name="restart-biztalk-services-or-shut-down-the-biztalk-server"></a><span data-ttu-id="96027-103">重新啟動 BizTalk 服務，或關閉 BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="96027-103">Restart BizTalk services, or shut down the BizTalk Server</span></span>
 

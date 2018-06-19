@@ -1,14 +1,14 @@
 ---
-title: "安裝例外狀況管理範例 |Microsoft 文件"
-ms.custom: 
+title: 安裝例外狀況管理範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 46431a8a-29d1-488d-9b16-fedaba2300d9
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294182"
 ---
 # <a name="installing-the-exception-management-samples"></a><span data-ttu-id="e3729-102">安裝例外狀況管理範例</span><span class="sxs-lookup"><span data-stu-id="e3729-102">Installing the Exception Management Samples</span></span>
 <span data-ttu-id="e3729-103">本章節描述 ESB 例外狀況管理範例安裝到 Microsoft BizTalk Server GlobalBank.ESB 應用程式的程序。</span><span class="sxs-lookup"><span data-stu-id="e3729-103">This section describes the process for installing the ESB Exception Management samples into the Microsoft BizTalk Server GlobalBank.ESB application.</span></span> <span data-ttu-id="e3729-104">您可以使用隨附的安裝指令碼將 ESB 例外狀況管理範例的安裝[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="e3729-104">You can install the ESB Exception Management samples using the install scripts included with the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)].</span></span> <span data-ttu-id="e3729-105">本節包含下列主題：</span><span class="sxs-lookup"><span data-stu-id="e3729-105">This section contains the following topics:</span></span>  

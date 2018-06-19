@@ -1,17 +1,17 @@
 ---
 redirect_url: /biztalk/core/feature-pack-add-application-project/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
-title: "設定自動部署的 JSON 範本 |Microsoft 文件"
-ms.custom: 
+title: 設定自動部署的 JSON 範本 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.prod: biztalk-server
 ms.topic: article
 ms.assetid: 0b7755a6-5a5a-4a6b-8f99-ac12a5fbf3d4
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: tordgladnordahl
 ms.author: tonordah
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: a0165ec2f1e8b58545638666b7bfa2bf440036fd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/09/2017
+ms.locfileid: "24054518"
 ---
 # <a name="configure-the-json-template-for-automatic-deployment"></a><span data-ttu-id="71792-102">設定自動部署的 JSON 範本</span><span class="sxs-lookup"><span data-stu-id="71792-102">Configure the JSON template for automatic deployment</span></span>
 

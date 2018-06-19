@@ -1,14 +1,14 @@
 ---
-title: "組件和成品安裝路線上手範例 |Microsoft 文件"
-ms.custom: 
+title: 組件和成品安裝路線上手範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f90ce354-4be9-439d-ba0b-d22706be359b
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290126"
 ---
 # <a name="assemblies-and-artifacts-installed-by-the-itinerary-on-ramp-sample"></a><span data-ttu-id="3c611-102">組件和成品路線上手範例的安裝</span><span class="sxs-lookup"><span data-stu-id="3c611-102">Assemblies and Artifacts Installed by the Itinerary On-Ramp Sample</span></span>
 <span data-ttu-id="3c611-103">下表列出的組件和成品安裝[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]路線上手範例。</span><span class="sxs-lookup"><span data-stu-id="3c611-103">The following table lists the assemblies and artifacts installed by the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] Itinerary On-Ramp sample.</span></span>  

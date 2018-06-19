@@ -1,17 +1,17 @@
 ---
-title: "步驟 3： 設定網域控制站 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3： 設定網域控制站 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring, domain controller
 - domain controller
 ms.assetid: 1c513225-378b-4e57-ba29-7532b6cbcc9a
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007263"
 ---
 # <a name="step-3-configuring-the-domain-controller"></a><span data-ttu-id="67049-102">步驟 3： 設定網域控制站</span><span class="sxs-lookup"><span data-stu-id="67049-102">Step 3: Configuring the Domain Controller</span></span>
 <span data-ttu-id="67049-103">本章節描述如何設定網域控制站，在您[!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]部署。</span><span class="sxs-lookup"><span data-stu-id="67049-103">This section describes how to configure the domain controller in your [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] deployment.</span></span> <span data-ttu-id="67049-104">具體來說，本章節描述如何安裝及設定[!INCLUDE[btsAD](../../includes/btsad-md.md)]執行下列步驟：</span><span class="sxs-lookup"><span data-stu-id="67049-104">Specifically, this section describes how to install and configure [!INCLUDE[btsAD](../../includes/btsad-md.md)] by doing the following:</span></span>  

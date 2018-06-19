@@ -17,7 +17,7 @@ helpviewer_keywords:
 - TypedDataRow class
 - TypedXmlDocument class
 ms.assetid: 8207bfd5-ebd2-45ac-8992-795acdf3ba4c
-caps.latest.revision: ''
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22287222"
 ---
 # <a name="typed-facts"></a><span data-ttu-id="31d01-102">型別事實</span><span class="sxs-lookup"><span data-stu-id="31d01-102">Typed Facts</span></span>
 <span data-ttu-id="31d01-103">*型別事實* 是類別，實作 **ITypedFact** 介面︰ **TypedXmlDocument**, ，**DataConnection**, ，**TypedDataTable**, ，和 **TypedDataRow**。</span><span class="sxs-lookup"><span data-stu-id="31d01-103">*Typed facts* are classes that implement the **ITypedFact** interface: **TypedXmlDocument**, **DataConnection**, **TypedDataTable**, and **TypedDataRow**.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "將 PeopleSoft 結構描述匯入 Visual Studio |Microsoft 文件"
-ms.custom: 
+title: 將 PeopleSoft 結構描述匯入 Visual Studio |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 411f25f4-4431-44e4-84cf-5c515b3e32db
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013533"
 ---
 # <a name="import-peoplesoft-schemas-into-biztalk-server-projects"></a><span data-ttu-id="4c015-102">PeopleSoft 結構描述匯入至 BizTalk Server 專案</span><span class="sxs-lookup"><span data-stu-id="4c015-102">Import PeopleSoft Schemas into BizTalk Server Projects</span></span>
 <span data-ttu-id="4c015-103">當您建立 PeopleSoft Enterprise 系統後，可以瀏覽伺服器並將結構描述匯入至 BizTalk Server 專案。</span><span class="sxs-lookup"><span data-stu-id="4c015-103">When you have created the PeopleSoft Enterprise system, you can browse the server and import schemas into a BizTalk Server project.</span></span>  

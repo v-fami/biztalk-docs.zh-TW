@@ -11,7 +11,7 @@ helpviewer_keywords:
 - maps [SSO], deleting
 - managing [SSO maps], deleting user maps
 ms.assetid: de511113-b0b0-4920-91dc-4c9e380fda58
-caps.latest.revision: ''
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25970660"
 ---
 # <a name="how-to-delete-user-mappings"></a><span data-ttu-id="7030c-102">如何刪除使用者對應</span><span class="sxs-lookup"><span data-stu-id="7030c-102">How to Delete User Mappings</span></span>
 <span data-ttu-id="7030c-103">使用下列命令可刪除在 XML 檔案中指定的一或多個使用者對應。</span><span class="sxs-lookup"><span data-stu-id="7030c-103">Use these commands to delete one or more user mappings, as specified in the XML file.</span></span> <span data-ttu-id="7030c-104">以下是 XML 檔案的範例。</span><span class="sxs-lookup"><span data-stu-id="7030c-104">The following is an example XML file.</span></span>  
@@ -51,7 +52,7 @@ ms.lasthandoff: 03/28/2018
   
 2.  <span data-ttu-id="7030c-110">在命令列，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="7030c-110">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="7030c-111">預設安裝目錄是\<*磁碟機*\>: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="7030c-111">The default installation directory is \<*drive*\>:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-3.  <span data-ttu-id="7030c-112">型別 **ssomanage – deletemappings *\<對應檔案名稱\>* * *，其中\<*對應檔案名稱*\>是包含的檔案名稱您想要刪除的使用者對應。</span><span class="sxs-lookup"><span data-stu-id="7030c-112">Type **ssomanage –deletemappings *\<mappings file name\>***, where \<*mappings file name*\> is the name of the file that contains the user mapping(s) you want to delete.</span></span>  
+3.  <span data-ttu-id="7030c-112">型別 **ssomanage – deletemappings *\<對應檔案名稱\>* * *，其中\<* 對應檔案名稱*\>是包含的檔案名稱您想要刪除的使用者對應。</span><span class="sxs-lookup"><span data-stu-id="7030c-112">Type **ssomanage –deletemappings *\<mappings file name\>***, where \<* mappings file name*\> is the name of the file that contains the user mapping(s) you want to delete.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="7030c-113">在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。</span><span class="sxs-lookup"><span data-stu-id="7030c-113">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  
@@ -62,7 +63,7 @@ ms.lasthandoff: 03/28/2018
   
 2.  <span data-ttu-id="7030c-116">在命令列，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="7030c-116">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="7030c-117">預設安裝目錄是*\<磁碟機*\>: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="7030c-117">The default installation directory is *\<drive*\>:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-3.  <span data-ttu-id="7030c-118">型別 **ssomanage-deletemapping *\<網域\>*\\*\<username\> *  *\<應用程式名稱\>* * *，其中*\<網域\>*是 Windows 網域使用者帳戶，  *\<的使用者名稱\>*是 Windows 使用者名稱和\<*應用程式名稱*\>是您要移除使用者對應的特定應用程式。</span><span class="sxs-lookup"><span data-stu-id="7030c-118">Type **ssomanage –deletemapping *\<domain\>*\\*\<username\>* *\<application name\>***, where *\<domain\>* is the Windows domain for the user account, *\<username\>* is the Windows user name, and \<*application name*\> is the specific application for which you want to remove the user mapping.</span></span>  
+3.  <span data-ttu-id="7030c-118">型別 **ssomanage-deletemapping *\<網域\>*\\*\<username\> *  *\<應用程式名稱\>* * *，其中*\<網域\>* 是 Windows 網域使用者帳戶，  *\<的使用者名稱\>* 是 Windows 使用者名稱和\<* 應用程式名稱*\>是您要移除使用者對應的特定應用程式。</span><span class="sxs-lookup"><span data-stu-id="7030c-118">Type **ssomanage –deletemapping *\<domain\>*\\*\<username\>* *\<application name\>***, where *\<domain\>* is the Windows domain for the user account, *\<username\>* is the Windows user name, and \<* application name*\> is the specific application for which you want to remove the user mapping.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="7030c-119">在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。</span><span class="sxs-lookup"><span data-stu-id="7030c-119">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  
@@ -73,7 +74,7 @@ ms.lasthandoff: 03/28/2018
   
 2.  <span data-ttu-id="7030c-122">在命令列，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="7030c-122">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="7030c-123">預設安裝目錄是*\<磁碟機*\>: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="7030c-123">The default installation directory is *\<drive*\>:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-3.  <span data-ttu-id="7030c-124">型別 * * ssoclient – deletemapping *\<應用程式名稱\>* * *，其中*\<應用程式名稱\>*是您想要移除的使用者對應的分支機構應用程式的名稱。</span><span class="sxs-lookup"><span data-stu-id="7030c-124">Type **ssoclient –deletemapping *\<application name\>***, where *\<application name\>* is the name of the affiliate application you want to remove the user mapping for.</span></span>  
+3.  <span data-ttu-id="7030c-124">型別 * * ssoclient – deletemapping *\<應用程式名稱\>* * *，其中*\<應用程式名稱\>* 是您想要移除的使用者對應的分支機構應用程式的名稱。</span><span class="sxs-lookup"><span data-stu-id="7030c-124">Type **ssoclient –deletemapping *\<application name\>***, where *\<application name\>* is the name of the affiliate application you want to remove the user mapping for.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="7030c-125">在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。</span><span class="sxs-lookup"><span data-stu-id="7030c-125">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "步驟 1： 使用 WCF LOB 配接器開發精靈來建立回應配接器專案 |Microsoft 文件"
-ms.custom: 
+title: 步驟 1： 使用 WCF LOB 配接器開發精靈來建立回應配接器專案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 634a6498-55b0-462d-a5ca-16507b3787f5
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22227326"
 ---
 # <a name="step-1-use-the-wcf-lob-adapter-development-wizard-to-create-the-echo-adapter-project"></a><span data-ttu-id="c63be-102">步驟 1： 使用 WCF LOB 配接器開發精靈來建立回應配接器專案</span><span class="sxs-lookup"><span data-stu-id="c63be-102">Step 1: Use the WCF LOB Adapter Development Wizard to Create the Echo Adapter Project</span></span>
 <span data-ttu-id="c63be-103">![步驟 1 的 9](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-1of9.gif "Step_1of9")</span><span class="sxs-lookup"><span data-stu-id="c63be-103">![Step 1 of 9](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-1of9.gif "Step_1of9")</span></span>  

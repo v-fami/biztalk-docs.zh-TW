@@ -1,17 +1,17 @@
 ---
-title: "若要建立 Siebel 配接器的 BizTalk 應用程式的建置組塊 |Microsoft 文件"
-ms.custom: 
+title: 若要建立 Siebel 配接器的 BizTalk 應用程式的建置組塊 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - developing BizTalk applicatons, run-time tasks
 - developing BizTalk applications, design-time tasks
 ms.assetid: 76204181-18ad-43b5-b589-539aafd66835
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222590"
 ---
 # <a name="building-blocks-to-create-biztalk-applications-with-the-siebel-adapter"></a><span data-ttu-id="1199f-102">若要建立 Siebel 配接器的 BizTalk 應用程式的建置組塊</span><span class="sxs-lookup"><span data-stu-id="1199f-102">Building blocks to create BizTalk applications with the Siebel adapter</span></span>
 <span data-ttu-id="1199f-103">使用 Siebel 系統上執行的作業[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]牽涉到兩個一組活動： 設計階段活動和執行階段活動。</span><span class="sxs-lookup"><span data-stu-id="1199f-103">Performing operations on a Siebel system using [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] involves two set of activities: design-time activities and run-time activities.</span></span> <span data-ttu-id="1199f-104">若要使用執行 Siebel 系統上的作業[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]與[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]，您必須執行一組使用的設計階段和執行階段工作[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]和[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]管理主控台分別。</span><span class="sxs-lookup"><span data-stu-id="1199f-104">To perform operations on a Siebel system by using the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], you must perform a set of design-time and run-time tasks using [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] and [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console respectively.</span></span> <span data-ttu-id="1199f-105">本節提供這些工作的概觀。</span><span class="sxs-lookup"><span data-stu-id="1199f-105">This section provides an overview of these tasks.</span></span> <span data-ttu-id="1199f-106">中的所有主題本節中，可示範如何執行特定作業上使用 Siebel 系統[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]，這些高階的工作建立模型。</span><span class="sxs-lookup"><span data-stu-id="1199f-106">All the topics in this section, which demonstrate how to perform specific operations on a Siebel system using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], are modeled on these high-level tasks.</span></span>  

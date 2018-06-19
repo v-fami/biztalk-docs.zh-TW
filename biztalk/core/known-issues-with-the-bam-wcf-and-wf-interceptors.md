@@ -1,14 +1,14 @@
 ---
-title: "使用 BAM WCF 和 WF 攔截器的已知問題 |Microsoft 文件"
-ms.custom: 
+title: 使用 BAM WCF 和 WF 攔截器的已知問題 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f2407809-1f71-41a9-b305-722a7f86af5b
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262022"
 ---
 # <a name="known-issues-with-the-bam-wcf-and-wf-interceptors"></a><span data-ttu-id="428a9-102">BAM WCF 與 WF 攔截器的已知問題</span><span class="sxs-lookup"><span data-stu-id="428a9-102">Known Issues with the BAM WCF and WF Interceptors</span></span>
 <span data-ttu-id="428a9-103">本節會提供在使用 Windows Workflow Foundation 或 Windows Communication Foundation 的 BAM 攔截器時，可能發生之已知問題的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="428a9-103">This section provides information about known issues that you may experience when using the BAM interceptors for Windows Workflow Foundation or Windows Communication Foundation.</span></span>  

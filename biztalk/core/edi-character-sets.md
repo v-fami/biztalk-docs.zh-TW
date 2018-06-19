@@ -1,14 +1,14 @@
 ---
-title: "EDI 字元集 |Microsoft 文件"
-ms.custom: 
+title: EDI 字元集 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 57fae748-d66e-4ecf-be00-70147078ef93
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971388"
 ---
 # <a name="edi-character-sets"></a><span data-ttu-id="be647-102">EDI 字元集</span><span class="sxs-lookup"><span data-stu-id="be647-102">EDI Character Sets</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="be647-103">會使用字元集來驗證整個 EDI 交換。</span><span class="sxs-lookup"><span data-stu-id="be647-103"> uses a character set to validate an entire EDI interchange.</span></span> <span data-ttu-id="be647-104">用於 X12 編碼訊息以及 EDIFACT 或 KEDIFACT 編碼訊息的字元集會以不同方式決定。</span><span class="sxs-lookup"><span data-stu-id="be647-104">The character sets used for an X12-encoded message and an EDIFACT- or KEDIFACT-encoded message are determined in different ways.</span></span>  
@@ -38,7 +39,7 @@ ms.lasthandoff: 11/28/2017
  <span data-ttu-id="be647-124">[UNA 區段] 和 [區段名稱 UNB] 限制只能使用 ASCII 字元集中的值。</span><span class="sxs-lookup"><span data-stu-id="be647-124">The UNA Segment and Segment Name UNB are limited to the values in the ASCII character set.</span></span>  
   
 ## <a name="kedifact-character-set"></a><span data-ttu-id="be647-125">KEDIFACT 字元集</span><span class="sxs-lookup"><span data-stu-id="be647-125">KEDIFACT Character Set</span></span>  
- <span data-ttu-id="be647-126">如同 EDIFACT，KEDIFACT 編碼交換的字元集也是在 UNB1 資料項目中建立。</span><span class="sxs-lookup"><span data-stu-id="be647-126">As with EDIFACT, the character set for a KEDIFACT-encoded interchange is established in the UNB1 data element.</span></span> <span data-ttu-id="be647-127">對於 EDIFACT 字元集要套用的[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]資料元素中的處理 KEDIFACT 交換建立時**UNB1**的**字元集和分隔符號**中雙向頁面協議索引標籤 （如果已定義了協議） 或**字元集和分隔符號**的協議索引標籤中的頁面**EDIFACT 後援設定**對話方塊 （若未定義協議是）。</span><span class="sxs-lookup"><span data-stu-id="be647-127">As for EDIFACT, the character set to be applied by [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] when processing a KEDIFACT interchange is established in data element **UNB1** of **Charset and Separators** page in the bi-directional agreement tabs (if an agreement is defined) or the **Charset and Separators** page in the agreement tab of the **EDIFACT Fallback Settings** dialog box (if no agreement is defined).</span></span> <span data-ttu-id="be647-128">值**識別項 (UNB1.1)**元素必須設定為 KECA。</span><span class="sxs-lookup"><span data-stu-id="be647-128">The value for the **Identifier (UNB1.1)** element must be set to KECA.</span></span>  
+ <span data-ttu-id="be647-126">如同 EDIFACT，KEDIFACT 編碼交換的字元集也是在 UNB1 資料項目中建立。</span><span class="sxs-lookup"><span data-stu-id="be647-126">As with EDIFACT, the character set for a KEDIFACT-encoded interchange is established in the UNB1 data element.</span></span> <span data-ttu-id="be647-127">對於 EDIFACT 字元集要套用的[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]資料元素中的處理 KEDIFACT 交換建立時**UNB1**的**字元集和分隔符號**中雙向頁面協議索引標籤 （如果已定義了協議） 或**字元集和分隔符號**的協議索引標籤中的頁面**EDIFACT 後援設定**對話方塊 （若未定義協議是）。</span><span class="sxs-lookup"><span data-stu-id="be647-127">As for EDIFACT, the character set to be applied by [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] when processing a KEDIFACT interchange is established in data element **UNB1** of **Charset and Separators** page in the bi-directional agreement tabs (if an agreement is defined) or the **Charset and Separators** page in the agreement tab of the **EDIFACT Fallback Settings** dialog box (if no agreement is defined).</span></span> <span data-ttu-id="be647-128">值**識別項 (UNB1.1)** 元素必須設定為 KECA。</span><span class="sxs-lookup"><span data-stu-id="be647-128">The value for the **Identifier (UNB1.1)** element must be set to KECA.</span></span>  
   
 ## <a name="x12-character-set"></a><span data-ttu-id="be647-129">X12 字元集</span><span class="sxs-lookup"><span data-stu-id="be647-129">X12 Character Set</span></span>  
  <span data-ttu-id="be647-130">當 BizTalk 接收管線或傳送管線會執行 EDI 驗證的 X12 編碼訊息時，它會使用 X12 字元集管線的 CharacterSet 屬性中選取。</span><span class="sxs-lookup"><span data-stu-id="be647-130">When the BizTalk receive pipeline or send pipeline performs EDI validation of an X12-encoded message, it uses the X12 character set selected in the CharacterSet property of the pipeline.</span></span> <span data-ttu-id="be647-131">若要設定這個屬性，請開啟接收位置或傳送埠的 [屬性] 對話方塊，然後按一下接收或傳送管線旁邊的省略符號，再設定「解譯器」或「組合器」的 [CharacterSet] 屬性。</span><span class="sxs-lookup"><span data-stu-id="be647-131">To set this property, open the Properties dialog box for the receive location or send port, click the ellipses next to the receive or send pipeline, and then set the CharacterSet property for the Disassembler or Assembler.</span></span>  
@@ -55,7 +56,7 @@ ms.lasthandoff: 11/28/2017
 > [!NOTE]
 >  <span data-ttu-id="be647-142">雙向協議或後援協議中的資料元素分隔符號、 元件元素分隔符號以及區段結束字元輸入值會限制為 ASCII 字元集中的值。</span><span class="sxs-lookup"><span data-stu-id="be647-142">The values entered for the data-element separator, component-element separator, and segment terminator in the bi-directional agreement or fallback agreement are limited to the values in the ASCII character set.</span></span> <span data-ttu-id="be647-143">驗證時，並不會針對 X12 字元集驗證這些屬性。</span><span class="sxs-lookup"><span data-stu-id="be647-143">These properties are not validated against the X12 character set.</span></span>  
   
- <span data-ttu-id="be647-144">基本 」 字元集包括下列大寫字母、 數字、 空格和特殊字元： A 到 Z、 0 至 9、 ！</span><span class="sxs-lookup"><span data-stu-id="be647-144">The Basic character set includes the following uppercase letters, digits, space, and special characters: A through Z, 0 through 9, !</span></span> <span data-ttu-id="be647-145">“ & ’ ( ) * + , - .</span><span class="sxs-lookup"><span data-stu-id="be647-145">“ & ’ ( ) * + , - .</span></span> <span data-ttu-id="be647-146">/ : ; ?</span><span class="sxs-lookup"><span data-stu-id="be647-146">/ : ; ?</span></span> <span data-ttu-id="be647-147">= （空格）。</span><span class="sxs-lookup"><span data-stu-id="be647-147">= (space).</span></span>  
+ <span data-ttu-id="be647-144">基本 」 字元集包括下列大寫字母、 數字、 空格和特殊字元： A 到 Z、 0 至 9、 ！</span><span class="sxs-lookup"><span data-stu-id="be647-144">The Basic character set includes the following uppercase letters, digits, space, and special characters: A through Z, 0 through 9, !</span></span> <span data-ttu-id="be647-145">“ & ’ ( ) \* + , - .</span><span class="sxs-lookup"><span data-stu-id="be647-145">“ & ’ ( ) \* + , - .</span></span> <span data-ttu-id="be647-146">/ : ; ?</span><span class="sxs-lookup"><span data-stu-id="be647-146">/ : ; ?</span></span> <span data-ttu-id="be647-147">= （空格）。</span><span class="sxs-lookup"><span data-stu-id="be647-147">= (space).</span></span>  
   
  <span data-ttu-id="be647-148">擴充字元集包括基本的字元組，以及小寫字母、 特定語言字元和其他特殊字元的字元： a 到 z、 %@ [] _ {} \ &#124;\< \> ~ # $.</span><span class="sxs-lookup"><span data-stu-id="be647-148">The Extended character set includes the characters in the Basic character set, and lowercase letters, select language characters, and other special characters: a through z, % @ [ ] _ { } \ &#124; \< \> ~ # $.</span></span>  
   

@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/installing-biztalk-adapter-for-tibco-rendezvous/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: 4e4209c75ca52585c0a11141dbe0d9841fa6a5ba
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24016017"
 ---
 # <a name="schema-generation-in-the-adapter"></a><span data-ttu-id="da93f-101">在配接器中產生結構描述</span><span class="sxs-lookup"><span data-stu-id="da93f-101">Schema Generation in the Adapter</span></span>
 <span data-ttu-id="da93f-102">TIBCO Rendezvous 系統不包含訊息類型儲存機制。</span><span class="sxs-lookup"><span data-stu-id="da93f-102">A TIBCO Rendezvous system does not include a message types repository.</span></span> <span data-ttu-id="da93f-103">所有訊息建構和剖析都是在嵌入在 Rendezvous 應用程式層級。</span><span class="sxs-lookup"><span data-stu-id="da93f-103">All the message construction and parsing is buried at the Rendezvous application level.</span></span> <span data-ttu-id="da93f-104">由於此限制，Microsoft BizTalk Adapter for TIBCO Rendezvous 無法提供結構描述產生功能。</span><span class="sxs-lookup"><span data-stu-id="da93f-104">Because of this limitation, Microsoft BizTalk Adapter for TIBCO Rendezvous cannot provide schema-generation capabilities.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "EDIFACT 交易集 IFTSAI WKGRRE |Microsoft 文件"
-ms.custom: 
+title: EDIFACT 交易集 IFTSAI WKGRRE |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e0ba9321-4ee6-44d2-837c-2e43bedabcb0
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010519"
 ---
 # <a name="edifact-transaction-sets-iftsai-wkgrre"></a><span data-ttu-id="03afd-102">EDIFACT 交易集 IFTSAI WKGRRE</span><span class="sxs-lookup"><span data-stu-id="03afd-102">EDIFACT Transaction Sets IFTSAI-WKGRRE</span></span>
 <span data-ttu-id="03afd-103">本主題列出 BizTalk Server 所支援的 EDIFACT 交易集。</span><span class="sxs-lookup"><span data-stu-id="03afd-103">This topic lists the EDIFACT transaction sets that are supported by BizTalk Server.</span></span>  

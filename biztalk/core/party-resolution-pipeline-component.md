@@ -1,14 +1,14 @@
 ---
-title: "合作對象解析管線元件 |Microsoft 文件"
-ms.custom: 
+title: 合作對象解析管線元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6ad728ff-4d7c-4ab3-af0e-76006576dce5
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971580"
 ---
 # <a name="party-resolution-pipeline-component"></a><span data-ttu-id="c8f49-102">合作對象解析管線元件</span><span class="sxs-lookup"><span data-stu-id="c8f49-102">Party Resolution Pipeline Component</span></span>
 

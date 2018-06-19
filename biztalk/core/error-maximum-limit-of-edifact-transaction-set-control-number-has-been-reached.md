@@ -1,14 +1,14 @@
 ---
-title: "通知產生失敗，因為已達到上限的 Edifact 交易集控制編號的合作對象設定 |Microsoft 文件"
-ms.custom: 
+title: 通知產生失敗，因為已達到上限的 Edifact 交易集控制編號的合作對象設定 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bcbb6374-0403-42b0-892b-b35157a2c74a
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005847"
 ---
 # <a name="acknowledgement-generation-has-failed-as-maximum-limit-of-edifact-transaction-set-control-number-has-been-reached-for-party-settings"></a><span data-ttu-id="0f447-102">通知產生失敗，因為已達到上限的 Edifact 交易集控制編號的合作對象設定</span><span class="sxs-lookup"><span data-stu-id="0f447-102">Acknowledgement generation has failed as maximum limit of Edifact transaction set control number has been reached for party settings</span></span>
 ## <a name="details"></a><span data-ttu-id="0f447-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="0f447-103">Details</span></span>  

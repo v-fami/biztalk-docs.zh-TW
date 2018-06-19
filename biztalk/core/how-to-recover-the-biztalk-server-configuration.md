@@ -1,14 +1,14 @@
 ---
-title: "如何復原 BizTalk Server 組態 |Microsoft 文件"
-ms.custom: 
+title: 如何復原 BizTalk Server 組態 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c1d39e50-4296-49c7-bd1e-63b1325af168
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254326"
 ---
 # <a name="how-to-recover-the-biztalk-server-configuration"></a><span data-ttu-id="82e60-102">如何復原 BizTalk Server 組態</span><span class="sxs-lookup"><span data-stu-id="82e60-102">How to Recover the BizTalk Server Configuration</span></span>
 <span data-ttu-id="82e60-103">在復原 BizTalk Server 的過程中，您還必須匯入當初安裝 BizTalk Server 時所建立的組態檔。</span><span class="sxs-lookup"><span data-stu-id="82e60-103">As part of recovering your BizTalk server, you must also import the configuration file that you created when you installed BizTalk Server.</span></span>  

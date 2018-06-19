@@ -1,11 +1,11 @@
 ---
-title: "輸入訊息驗證 |Microsoft 文件"
-ms.custom: 
+title: 輸入訊息驗證 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, authenticating
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - security, messages
 - inbound messages
 ms.assetid: 34c06283-667d-4498-8544-dea6e87f276f
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22258062"
 ---
 # <a name="inbound-message-authentication"></a><span data-ttu-id="b42c7-102">輸入訊息驗證</span><span class="sxs-lookup"><span data-stu-id="b42c7-102">Inbound Message Authentication</span></span>
 <span data-ttu-id="b42c7-103">BizTalk Server 可以驗證訊息的傳送者 (使用憑證資訊或 Windows 整合安全性)，以驗證訊息傳送者的識別。</span><span class="sxs-lookup"><span data-stu-id="b42c7-103">BizTalk Server can authenticate the sender of a message (either by using the certificate information or Windows integrated security) in order to validate the identity of the sender of the message.</span></span> <span data-ttu-id="b42c7-104">下圖顯示可在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中用來驗證輸入訊息的安全性功能。</span><span class="sxs-lookup"><span data-stu-id="b42c7-104">The following figure shows the security features in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] that you can use to authenticate inbound messages.</span></span>  

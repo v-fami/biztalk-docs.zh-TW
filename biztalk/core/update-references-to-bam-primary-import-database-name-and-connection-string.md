@@ -1,14 +1,14 @@
 ---
-title: "更新 BAM 主要匯入資料庫名稱和連接字串 |Microsoft 文件"
-ms.custom: 
+title: 更新 BAM 主要匯入資料庫名稱和連接字串 |Microsoft 文件
+ms.custom: ''
 ms.date: 02/01/2018
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e3c58db0-f14f-429a-813c-bae29f6950d3
-caps.latest.revision: 
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: c670558deccec266f90ae7ed042dba1105b15596
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 02/03/2018
+ms.locfileid: "28956648"
 ---
 # <a name="update-references-to-the-bam-primary-import-database-name-and-connection-string"></a><span data-ttu-id="a05db-102">更新 BAM 主要匯入資料庫名稱和連接字串的參考</span><span class="sxs-lookup"><span data-stu-id="a05db-102">Update References to the BAM Primary Import Database Name and Connection String</span></span>
 <span data-ttu-id="a05db-103">如果備份 BAMPrimaryImport 資料庫發生系統或資料失敗時，您可以將該備份還原到不同的電腦，並重新命名此備份。</span><span class="sxs-lookup"><span data-stu-id="a05db-103">If you backed up your BAMPrimaryImport database in the event of a system or data failure, you can restore that backup to a different computer and rename the backup.</span></span>  
@@ -50,7 +51,7 @@ ms.lasthandoff: 02/03/2018
   
     -   [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]<span data-ttu-id="a05db-121">\BAMPortal\BamManagementService\Web.Config.</span><span class="sxs-lookup"><span data-stu-id="a05db-121">\BAMPortal\BamManagementService\Web.Config.</span></span>  
   
-         <span data-ttu-id="a05db-122">取代*\<ServerName\>*新的伺服器名稱的字串和*\<DatabaseName\>*與新的資料庫名稱。</span><span class="sxs-lookup"><span data-stu-id="a05db-122">Replace the *\<ServerName\>* string with the new server name, and *\<DatabaseName\>* with the new database name.</span></span> <span data-ttu-id="a05db-123">更新下列連接字串：</span><span class="sxs-lookup"><span data-stu-id="a05db-123">Update the following connection strings:</span></span>  
+         <span data-ttu-id="a05db-122">取代*\<ServerName\>* 新的伺服器名稱的字串和*\<DatabaseName\>* 與新的資料庫名稱。</span><span class="sxs-lookup"><span data-stu-id="a05db-122">Replace the *\<ServerName\>* string with the new server name, and *\<DatabaseName\>* with the new database name.</span></span> <span data-ttu-id="a05db-123">更新下列連接字串：</span><span class="sxs-lookup"><span data-stu-id="a05db-123">Update the following connection strings:</span></span>  
   
          <span data-ttu-id="a05db-124">\<appSettings\></span><span class="sxs-lookup"><span data-stu-id="a05db-124">\<appSettings\></span></span>  
   
@@ -64,7 +65,7 @@ ms.lasthandoff: 02/03/2018
   
     -   [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]<span data-ttu-id="a05db-129">\BAMPortal\BamQueryService\Web.Config.</span><span class="sxs-lookup"><span data-stu-id="a05db-129">\BAMPortal\BamQueryService\Web.Config.</span></span>  
   
-         <span data-ttu-id="a05db-130">取代*\<ServerName\>*新的伺服器名稱的字串和*\<DatabaseName\>*與新的資料庫名稱。</span><span class="sxs-lookup"><span data-stu-id="a05db-130">Replace the *\<ServerName\>* string with the new server name and *\<DatabaseName\>* with the new database name.</span></span> <span data-ttu-id="a05db-131">更新下列連接字串：</span><span class="sxs-lookup"><span data-stu-id="a05db-131">Update the following connection strings:</span></span>  
+         <span data-ttu-id="a05db-130">取代*\<ServerName\>* 新的伺服器名稱的字串和*\<DatabaseName\>* 與新的資料庫名稱。</span><span class="sxs-lookup"><span data-stu-id="a05db-130">Replace the *\<ServerName\>* string with the new server name and *\<DatabaseName\>* with the new database name.</span></span> <span data-ttu-id="a05db-131">更新下列連接字串：</span><span class="sxs-lookup"><span data-stu-id="a05db-131">Update the following connection strings:</span></span>  
   
          <span data-ttu-id="a05db-132">\<appSettings\></span><span class="sxs-lookup"><span data-stu-id="a05db-132">\<appSettings\></span></span>  
   

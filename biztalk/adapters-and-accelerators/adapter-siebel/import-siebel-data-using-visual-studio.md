@@ -1,14 +1,14 @@
 ---
-title: "使用 Visual Studio 的 Siebel 資料匯入 |Microsoft 文件"
-ms.custom: 
+title: 使用 Visual Studio 的 Siebel 資料匯入 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 33701361-eca2-4795-a5e0-78162a98e9ba
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 10/17/2017
+ms.locfileid: "23450503"
 ---
 # <a name="import-siebel-data-using-visual-studio"></a><span data-ttu-id="34410-102">使用 Visual Studio 的 Siebel 資料匯入</span><span class="sxs-lookup"><span data-stu-id="34410-102">Import Siebel Data Using Visual Studio</span></span>
 <span data-ttu-id="34410-103">本節提供有關如何使用 Microsoft 的資訊[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]Siebel 系統的資料匯入至 SQL Server 資料庫。</span><span class="sxs-lookup"><span data-stu-id="34410-103">This section provides information about how to use Microsoft [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] to import data from a Siebel system into a SQL Server database.</span></span> <span data-ttu-id="34410-104">它也會提供有關如何建立和執行 SSIS 封裝，此資料匯入的指示。</span><span class="sxs-lookup"><span data-stu-id="34410-104">It also provides instructions on how to create and execute an SSIS package to import this data.</span></span>  

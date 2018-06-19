@@ -1,14 +1,14 @@
 ---
-title: "步驟 3： 設定合作對象與商務設定檔為您 Organization2 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3： 設定合作對象與商務設定檔為您 Organization2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 024d1ec7-237a-43cb-8159-90f9c71a670e
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277630"
 ---
 # <a name="step-3-configure-a-party-and-business-profile-for-your-organization"></a><span data-ttu-id="a6e8a-102">步驟 3： 為您的組織設定合作對象與商務設定檔</span><span class="sxs-lookup"><span data-stu-id="a6e8a-102">Step 3: Configure a Party and Business Profile for Your Organization</span></span>
 <span data-ttu-id="a6e8a-103">![步驟 3 之 11](../core/media/tut-step3-of-11.gif "Tut_Step3_of_11")</span><span class="sxs-lookup"><span data-stu-id="a6e8a-103">![Step 3 of 11](../core/media/tut-step3-of-11.gif "Tut_Step3_of_11")</span></span>  

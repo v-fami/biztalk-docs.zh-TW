@@ -1,17 +1,17 @@
 ---
-title: "BAM 效能計數器 |Microsoft 文件"
-ms.custom: 
+title: BAM 效能計數器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [BAM], performance counters
 - performance, counters [BAM]
 ms.assetid: e23f7038-36a5-4957-bc73-47011763d109
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230910"
 ---
 # <a name="bam-performance-counters"></a><span data-ttu-id="f7dfd-102">BAM 效能計數器</span><span class="sxs-lookup"><span data-stu-id="f7dfd-102">BAM Performance Counters</span></span>
 <span data-ttu-id="f7dfd-103">效能計數器可以讓您針對 BAM 事件匯流排服務所執行的特定工作進行監控。</span><span class="sxs-lookup"><span data-stu-id="f7dfd-103">Performance counters allow you to monitor specific aspects of work performed by the BAM Event Bus Service.</span></span> <span data-ttu-id="f7dfd-104">效能計數器也可以幫助您識別和疑難排解伺服器的效能問題。</span><span class="sxs-lookup"><span data-stu-id="f7dfd-104">Performance counters can help you identify and troubleshoot server performance issues.</span></span>  

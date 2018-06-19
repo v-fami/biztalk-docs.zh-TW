@@ -1,14 +1,14 @@
 ---
-title: "教學課程： 使用 BizTalk Adapter for PeopleSoft Enterprise |Microsoft 文件"
-ms.custom: 
+title: 教學課程： 使用 BizTalk Adapter for PeopleSoft Enterprise |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: aff6611c-9f5f-432e-9f46-9471837dd015
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286550"
 ---
 # <a name="tutorials-using-biztalk-adapter-for-peoplesoft-enterprise"></a><span data-ttu-id="c3cdb-102">教學課程： 使用 BizTalk Adapter for PeopleSoft Enterprise</span><span class="sxs-lookup"><span data-stu-id="c3cdb-102">Tutorials: Using BizTalk Adapter for PeopleSoft Enterprise</span></span>
 <span data-ttu-id="c3cdb-103">Microsoft BizTalk Adapter for PeopleSoft Enterprise 是專為商務程序管理及自動化而設的開發與執行階段環境。</span><span class="sxs-lookup"><span data-stu-id="c3cdb-103">Microsoft BizTalk Adapter for PeopleSoft Enterprise is a development and run-time environment for line-of-business process management and automation.</span></span> <span data-ttu-id="c3cdb-104">本節以兩個 SDK 範例來呈現設定與部署配接器的端對端練習，方便您快速入門。</span><span class="sxs-lookup"><span data-stu-id="c3cdb-104">This section describes two SDK samples that present an end-to-end exercise in setting up and deploying the adapter so that you can get a quick start.</span></span>  

@@ -1,17 +1,17 @@
 ---
-title: "記錄計數運算質 |Microsoft 文件"
-ms.custom: 
+title: 記錄計數運算質 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Max Occurs property
 - Record Count functoids
 ms.assetid: e6aab13f-afbe-4401-abbe-020570e2ff16
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268742"
 ---
 # <a name="record-count-functoid"></a><span data-ttu-id="daceb-102">記錄計數運算質</span><span class="sxs-lookup"><span data-stu-id="daceb-102">Record Count Functoid</span></span>
 <span data-ttu-id="daceb-103">**記錄計數**運算質會計算在輸入執行個體訊息中的記錄。</span><span class="sxs-lookup"><span data-stu-id="daceb-103">The **Record Count** functoid counts records in the input instance message.</span></span>  

@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009071"
 ---
 # <a name="publishing-internet-facing-web-services-and-wcf-services"></a><span data-ttu-id="9ba72-102">發行的網際網路對向 Web 服務和 WCF 服務</span><span class="sxs-lookup"><span data-stu-id="9ba72-102">Publishing Internet-facing Web Services and WCF Services</span></span>
 <span data-ttu-id="9ba72-103">您可以使用多種發行[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]Web 服務和到網際網路的 WCF 服務：</span><span class="sxs-lookup"><span data-stu-id="9ba72-103">You can use multiple approaches for publishing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Web services and WCF services to the Internet:</span></span>  

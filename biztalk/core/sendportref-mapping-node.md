@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269966"
 ---
 # <a name="sendportref-mapping-node"></a><span data-ttu-id="d85ad-102">SendPortRef (對應節點)</span><span class="sxs-lookup"><span data-stu-id="d85ad-102">SendPortRef (Mapping Node)</span></span>
 <span data-ttu-id="d85ad-103">繫結檔案的 [對應] 節點的 SendPortRef 節點會列出父對應節點所參考的傳送埠的名稱。</span><span class="sxs-lookup"><span data-stu-id="d85ad-103">The SendPortRef node of the Mapping node of a binding file lists the names of the send ports referenced by the parent mapping node.</span></span>  

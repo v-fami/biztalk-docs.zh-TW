@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2d280198-ba55-4937-91c9-19d6d0ed3194
-caps.latest.revision: ''
+caps.latest.revision: 49
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "26010975"
 ---
 # <a name="walkthrough-consuming-wcf-services-with-the-wcf-basichttp-adapter"></a><span data-ttu-id="a6330-102">逐步解說： 使用 Wcf-basichttp 配接器的 WCF 服務</span><span class="sxs-lookup"><span data-stu-id="a6330-102">Walkthrough: Consuming WCF Services with the WCF-BasicHttp Adapter</span></span>
   
@@ -108,7 +109,7 @@ ms.lasthandoff: 03/23/2018
   
 ## <a name="add-the-schemas-and-types-for-the-wcf-basichttp-adapter-to-the-sample-biztalk-application"></a><span data-ttu-id="a6330-184">將結構描述和 Wcf-basichttp 配接器的類型加入至範例 BizTalk 應用程式</span><span class="sxs-lookup"><span data-stu-id="a6330-184">Add the schemas and types for the WCF-BasicHttp adapter to the sample BizTalk application</span></span>  
   
-1.  <span data-ttu-id="a6330-185">因為配接器會呼叫[!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]服務的方法需要從結構描述和類型如何呼叫該服務使用中繼資料的資訊。</span><span class="sxs-lookup"><span data-stu-id="a6330-185">Since the adapter will call the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service it needs information from schemas and types about how to make that call to that service using the metadata.</span></span> <span data-ttu-id="a6330-186">**[Biztalkapp]**提供要使用的成品[!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]服務。</span><span class="sxs-lookup"><span data-stu-id="a6330-186">**BizTalkApp** provides the artifacts to consume the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service.</span></span> <span data-ttu-id="a6330-187">在 Visual Studio，在 方案總管中以滑鼠右鍵按一下**biztalkapp**，按一下 **新增**，然後按一下 **新增產生的項目**。</span><span class="sxs-lookup"><span data-stu-id="a6330-187">In Visual Studio, in Solution Explorer, right-click **BizTalkApp**, click **Add**, and then click **Add Generated Items**.</span></span>  
+1.  <span data-ttu-id="a6330-185">因為配接器會呼叫[!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]服務的方法需要從結構描述和類型如何呼叫該服務使用中繼資料的資訊。</span><span class="sxs-lookup"><span data-stu-id="a6330-185">Since the adapter will call the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service it needs information from schemas and types about how to make that call to that service using the metadata.</span></span> <span data-ttu-id="a6330-186">**[Biztalkapp]** 提供要使用的成品[!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]服務。</span><span class="sxs-lookup"><span data-stu-id="a6330-186">**BizTalkApp** provides the artifacts to consume the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service.</span></span> <span data-ttu-id="a6330-187">在 Visual Studio，在 方案總管中以滑鼠右鍵按一下**biztalkapp**，按一下 **新增**，然後按一下 **新增產生的項目**。</span><span class="sxs-lookup"><span data-stu-id="a6330-187">In Visual Studio, in Solution Explorer, right-click **BizTalkApp**, click **Add**, and then click **Add Generated Items**.</span></span>  
   
 2.  <span data-ttu-id="a6330-188">在 **加入產生的項目** 對話方塊中，於 **範本** 區段中，選取 **取用 WCF 服務**, ，然後按一下  **新增**。</span><span class="sxs-lookup"><span data-stu-id="a6330-188">In the **Add Generated Items** dialog box, in the **Templates** section, select **Consume WCF Service**, and then click **Add**.</span></span>  
   
@@ -229,7 +230,7 @@ ms.lasthandoff: 03/23/2018
   
 6.  <span data-ttu-id="a6330-287">指定範例應用程式的主控件名稱和繫結，如下所示：</span><span class="sxs-lookup"><span data-stu-id="a6330-287">Specify the host name and bindings for the sample application as follows:</span></span>  
   
-     <span data-ttu-id="a6330-288">在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統管理主控台中，展開**WCFBasicHttpSendAdapter**，依序展開**協調流程**，以滑鼠右鍵按一下**Microsoft.Samples.BizTalk.WCF.BasicHttpSendAdapter.BizTalkApp.OrderProcessServiceTypeClient**協調流程中，按一下 **屬性**，按一下 **繫結**，設定**主機**至**[biztalkserverapplication]**，然後按一下 **確定**儲存設定。</span><span class="sxs-lookup"><span data-stu-id="a6330-288">In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, expand **WCFBasicHttpSendAdapter**, expand **Orchestrations**, right-click the **Microsoft.Samples.BizTalk.WCF.BasicHttpSendAdapter.BizTalkApp.OrderProcessServiceTypeClient** orchestration, click **Properties**, click **Bindings**, set **Host** to **BizTalkServerApplication**, and then click **OK** to save the configuration.</span></span>  
+     <span data-ttu-id="a6330-288">在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統管理主控台中，展開**WCFBasicHttpSendAdapter**，依序展開**協調流程**，以滑鼠右鍵按一下**Microsoft.Samples.BizTalk.WCF.BasicHttpSendAdapter.BizTalkApp.OrderProcessServiceTypeClient**協調流程中，按一下 **屬性**，按一下 **繫結**，設定**主機**至 **[biztalkserverapplication]**，然後按一下 **確定**儲存設定。</span><span class="sxs-lookup"><span data-stu-id="a6330-288">In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, expand **WCFBasicHttpSendAdapter**, expand **Orchestrations**, right-click the **Microsoft.Samples.BizTalk.WCF.BasicHttpSendAdapter.BizTalkApp.OrderProcessServiceTypeClient** orchestration, click **Properties**, click **Bindings**, set **Host** to **BizTalkServerApplication**, and then click **OK** to save the configuration.</span></span>  
   
 ## <a name="test-the-sample-solution-with-the-wcf-basichttp-send-adapter"></a><span data-ttu-id="a6330-289">測試範例解決方案使用 Wcf-basichttp 傳送配接器</span><span class="sxs-lookup"><span data-stu-id="a6330-289">Test the sample solution with the WCF-BasicHttp send adapter</span></span>  
   

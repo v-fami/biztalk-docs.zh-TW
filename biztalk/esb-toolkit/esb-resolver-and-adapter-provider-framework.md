@@ -1,14 +1,14 @@
 ---
-title: "ESB 解析器和配接器提供者架構 |Microsoft 文件"
-ms.custom: 
+title: ESB 解析器和配接器提供者架構 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c82c2247-1f0a-48bd-98c2-9c816f4d68d7
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007367"
 ---
 # <a name="esb-resolver-and-adapter-provider-framework"></a><span data-ttu-id="51062-102">ESB 解析器和配接器提供者架構</span><span class="sxs-lookup"><span data-stu-id="51062-102">ESB Resolver and Adapter Provider Framework</span></span>
 <span data-ttu-id="51062-103">解析器和配接器提供者架構提供完整、 可插式架構以動態方式解決端點資訊和 BizTalk Server 對應型別。</span><span class="sxs-lookup"><span data-stu-id="51062-103">The Resolver and Adapter Provider Framework provides a comprehensive, pluggable architecture for dynamically resolving endpoint information and BizTalk Server map types.</span></span> <span data-ttu-id="51062-104">它會使用可延伸的元件，可讓開發人員若要變更行為，以符合自己的需求，並擴充以支援替代的解決方式和路由方法的機制。</span><span class="sxs-lookup"><span data-stu-id="51062-104">It uses extensible components, which allow developers to change the behavior to suit their own requirements and extend the mechanism to support alternative resolution and routing methods.</span></span>  

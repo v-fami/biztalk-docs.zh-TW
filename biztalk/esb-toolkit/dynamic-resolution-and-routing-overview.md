@@ -1,14 +1,14 @@
 ---
-title: "動態解析和路由概觀 |Microsoft 文件"
-ms.custom: 
+title: 動態解析和路由概觀 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a9a32491-132b-4b25-ac8c-4a927052f0be
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22293990"
 ---
 # <a name="dynamic-resolution-and-routing-overview"></a><span data-ttu-id="7c0b8-102">動態解析和路由概觀</span><span class="sxs-lookup"><span data-stu-id="7c0b8-102">Dynamic Resolution and Routing Overview</span></span>
 <span data-ttu-id="7c0b8-103">ESB 解析程式類別支援下列執行階段解析：</span><span class="sxs-lookup"><span data-stu-id="7c0b8-103">The ESB Resolver classes support run-time resolution of the following:</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "組態錯誤。 訊息簽章不 &#39; t 符合預期值。 | Microsoft Docs"
-ms.custom: 
+title: 組態錯誤。 訊息簽章不 &#39; t 符合預期值。 | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1f067351-b6b0-479d-b2ff-81e9f45b5924
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005864"
 ---
 # <a name="configuration-error-the-message-signing-doesn39t-match-the-expected-value"></a><span data-ttu-id="57df1-104">組態錯誤。</span><span class="sxs-lookup"><span data-stu-id="57df1-104">Configuration error.</span></span> <span data-ttu-id="57df1-105">訊息簽章不 &#39; t 符合預期值。</span><span class="sxs-lookup"><span data-stu-id="57df1-105">The message signing doesn&#39;t match the expected value.</span></span>
 ## <a name="details"></a><span data-ttu-id="57df1-106">詳細資料</span><span class="sxs-lookup"><span data-stu-id="57df1-106">Details</span></span>  

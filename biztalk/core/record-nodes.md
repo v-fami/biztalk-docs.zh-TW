@@ -1,14 +1,14 @@
 ---
-title: "記錄節點 |Microsoft 文件"
-ms.custom: 
+title: 記錄節點 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 43af077d-5db8-43ca-8bd0-e3a9e3ebe2b0
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268494"
 ---
 # <a name="record-nodes"></a><span data-ttu-id="ceab4-102">記錄節點</span><span class="sxs-lookup"><span data-stu-id="ceab4-102">Record Nodes</span></span>
 <span data-ttu-id="ceab4-103">在 「 BizTalk 編輯器 」 中，使用**記錄**節點表示資訊的集合，其中個別的項目可以是：</span><span class="sxs-lookup"><span data-stu-id="ceab4-103">In BizTalk Editor, you use a **Record** node to represent a collection of information, the individual items of which can be:</span></span>  
@@ -42,7 +43,7 @@ ms.lasthandoff: 09/20/2017
   
  <span data-ttu-id="ceab4-114">當其中三個屬性節點以外的任何子節點 (**欄位屬性**，**屬性群組**，和**Any 屬性**) 加入至**記錄**節點，根據預設，它會放在**順序**內的項目**complexType**項目。</span><span class="sxs-lookup"><span data-stu-id="ceab4-114">When any child node other than one of the three attribute nodes (**Field Attribute**, **Attribute Group**, and **Any Attribute**) is added to a **Record** node, by default it is placed within a **sequence** element within the **complexType** element.</span></span> <span data-ttu-id="ceab4-115">**順序**時加入，並移除所有非屬性子節點已刪除，如果第一個非屬性子節點，就會加入項目。</span><span class="sxs-lookup"><span data-stu-id="ceab4-115">The **sequence** element is added when the first nonattribute child node is added, and removed if all the nonattribute child nodes are deleted.</span></span> <span data-ttu-id="ceab4-116">新增的所有三種類型的屬性節點**complexType**項目，但之外和之後任何**順序**項目。</span><span class="sxs-lookup"><span data-stu-id="ceab4-116">All three types of attribute nodes are added within the **complexType** element, but outside and after any **sequence** element.</span></span>  
   
- <span data-ttu-id="ceab4-117">**順序**內的非屬性子節點會加入項目也可以**選擇**或**所有**項目，如果您變更**群組順序類型 （節點所有結構描述的屬性）**對應結構描述樹狀結構中節點的屬性**選擇**或**所有**分別。</span><span class="sxs-lookup"><span data-stu-id="ceab4-117">The **sequence** element within which nonattribute child nodes are added can also be a **choice** or **all** element if you change the **Group Order Type (Node Property of All Schemas)** property of the corresponding node in the schema tree to **Choice** or **All**, respectively.</span></span>  
+ <span data-ttu-id="ceab4-117">**順序**內的非屬性子節點會加入項目也可以**選擇**或**所有**項目，如果您變更**群組順序類型 （節點所有結構描述的屬性）** 對應結構描述樹狀結構中節點的屬性**選擇**或**所有**分別。</span><span class="sxs-lookup"><span data-stu-id="ceab4-117">The **sequence** element within which nonattribute child nodes are added can also be a **choice** or **all** element if you change the **Group Order Type (Node Property of All Schemas)** property of the corresponding node in the schema tree to **Choice** or **All**, respectively.</span></span>  
   
  <span data-ttu-id="ceab4-118">在下列範例中，**記錄**節點已重新命名的 shipTo。</span><span class="sxs-lookup"><span data-stu-id="ceab4-118">In the following example, the **Record** node has been renamed shipTo.</span></span> <span data-ttu-id="ceab4-119">內的位置**記錄**其中加入屬性和非屬性節點的節點會顯示在括號中。</span><span class="sxs-lookup"><span data-stu-id="ceab4-119">The locations within the **Record** node where attribute and nonattribute nodes are added are shown in brackets.</span></span>  
   

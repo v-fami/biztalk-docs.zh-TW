@@ -1,14 +1,14 @@
 ---
-title: "更新應用程式和成品 |Microsoft 文件"
-ms.custom: 
+title: 更新應用程式和成品 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6bc15e32-5230-4022-8b34-b9c579446cf7
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22303022"
 ---
 # <a name="updating-applications-and-artifacts"></a><span data-ttu-id="2ee49-102">更新應用程式和成品</span><span class="sxs-lookup"><span data-stu-id="2ee49-102">Updating Applications and Artifacts</span></span>
 <span data-ttu-id="2ee49-103">本節說明如何更新執行的應用程式。</span><span class="sxs-lookup"><span data-stu-id="2ee49-103">This section describes how to update a running application.</span></span>  

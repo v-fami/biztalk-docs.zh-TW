@@ -1,18 +1,18 @@
 ---
-title: "如何檢視相關的活動和相關文件 |Microsoft 文件"
-ms.custom: 
+title: 如何檢視相關的活動和相關文件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - activities [BAM], viewing
 - BAM portal, related documents
 - BAM portal, activities
 ms.assetid: 503463f2-09ed-4b73-9230-416c3d01e7e4
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256534"
 ---
 # <a name="how-to-view-related-activities-and-related-documents"></a><span data-ttu-id="437c5-102">如何檢視相關活動和相關文件</span><span class="sxs-lookup"><span data-stu-id="437c5-102">How to View Related Activities and Related Documents</span></span>
 <span data-ttu-id="437c5-103">在 BAM Web 入口網站中，您可以透過 [商務活動搜尋結果] 頁面檢視相關活動和文件。</span><span class="sxs-lookup"><span data-stu-id="437c5-103">In the BAM Web portal, you can view related activities and documents through the Business Activity Search Results page.</span></span> <span data-ttu-id="437c5-104">您可以從一個相關活動巡覽至另一個；例如，如果您搜尋到特定訂單，就能查看訂單上的多批出貨。</span><span class="sxs-lookup"><span data-stu-id="437c5-104">You can navigate from one related activity to another, for example, if you search for a specific Purchase Order, you can look at the multiple shipments on the PO.</span></span> <span data-ttu-id="437c5-105">您也可以檢查相關文件；例如，就上述訂單而言，您可以查看相關的銷貨單。</span><span class="sxs-lookup"><span data-stu-id="437c5-105">You can also check for related documents, for example, for that same PO, you can look at the related sales order.</span></span>  

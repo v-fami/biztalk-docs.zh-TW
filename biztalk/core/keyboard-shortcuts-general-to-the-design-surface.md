@@ -1,17 +1,17 @@
 ---
-title: "鍵盤快速鍵一般至設計介面 |Microsoft 文件"
-ms.custom: 
+title: 鍵盤快速鍵一般至設計介面 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - keyboard shortcuts, Orchestration Designer
 - Orchestration Designer, keyboard shortcuts
 ms.assetid: a096cb14-7e41-4231-810e-be3f3f098a84
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262542"
 ---
 # <a name="keyboard-shortcuts-general-to-the-design-surface"></a><span data-ttu-id="d7d6d-102">鍵盤快速鍵一般至設計介面</span><span class="sxs-lookup"><span data-stu-id="d7d6d-102">Keyboard Shortcuts General to the Design Surface</span></span>
 <span data-ttu-id="d7d6d-103">下表描述設計介面之 [處理區域] 及 [連接埠介面] 區域通用的鍵盤巡覽方式。</span><span class="sxs-lookup"><span data-stu-id="d7d6d-103">The following table describes the keyboard navigation that is general to both the Process Area and Port Surfaces areas of the design surface.</span></span>  

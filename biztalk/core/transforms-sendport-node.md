@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278222"
 ---
 # <a name="transforms-sendport-node"></a><span data-ttu-id="7899a-102">Transforms (SendPort 節點)</span><span class="sxs-lookup"><span data-stu-id="7899a-102">Transforms (SendPort Node)</span></span>
 <span data-ttu-id="7899a-103">繫結檔案之 [SendPort] 節點的 [Transforms] 節點包含與該繫結檔案一起匯出之單向傳送埠的輸出轉換集合。</span><span class="sxs-lookup"><span data-stu-id="7899a-103">The Transforms node of the SendPort node of a binding file contains the collection of outbound transforms of a one way send port that is exported with the binding file.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "EDI 移轉公用程式 |Microsoft 文件"
-ms.custom: 
+title: EDI 移轉公用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8c594811-609a-42f7-9357-c29da76be15a
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005079"
 ---
 # <a name="edi-migration-utilities"></a><span data-ttu-id="96789-102">EDI 移轉公用程式</span><span class="sxs-lookup"><span data-stu-id="96789-102">EDI Migration Utilities</span></span>
 <span data-ttu-id="96789-103">EDI 移轉公用程式隨附的舊版[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]用來移轉基底 EDI 應用程式可以使用 BizTalk Server 2006 R2 或 BizTalk Server 2009 的一部分提供的 EDI 解決方案。</span><span class="sxs-lookup"><span data-stu-id="96789-103">The EDI migration utilities shipped with previous versions of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] were used to migrate Base EDI applications to use the EDI solution provided as part of BizTalk Server 2006 R2 or BizTalk Server 2009.</span></span> <span data-ttu-id="96789-104">不支援移轉基底 EDI 應用程式直接與 BizTalk Server。</span><span class="sxs-lookup"><span data-stu-id="96789-104">Migrating Base EDI applications directly to BizTalk Server is not supported.</span></span> <span data-ttu-id="96789-105">您必須先移轉至 BizTalk Sever 2006 R2 或 BizTalk Server 2009 使用的這些版本所隨附的 EDI 移轉公用程式的基底 EDI 應用程式[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]然後使用隨附於 BizTalk Server 合作對象移轉工具移轉合作對象定義從 BizTalk Server 2006 R2 或 BizTalk Server 2009 到 BizTalk Server。</span><span class="sxs-lookup"><span data-stu-id="96789-105">You must first migrate the Base EDI applications to BizTalk Sever 2006 R2 or BizTalk Server 2009 using the EDI migration utilities shipped with these versions of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and then use the Party Migration Tool shipped with BizTalk Server to migrate the party definitions from BizTalk Server 2006 R2 or BizTalk Server 2009 to BizTalk Server.</span></span>  

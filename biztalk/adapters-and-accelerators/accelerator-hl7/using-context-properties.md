@@ -1,11 +1,11 @@
 ---
-title: "使用內容屬性 |Microsoft 文件"
-ms.custom: 
+title: 使用內容屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, context properties
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - promoted properties, context properties
 - context properties, messages
 ms.assetid: 306127a9-df03-4aaf-8dd8-76df51eb193d
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006751"
 ---
 # <a name="using-context-properties"></a><span data-ttu-id="d4d54-102">使用內容屬性</span><span class="sxs-lookup"><span data-stu-id="d4d54-102">Using Context Properties</span></span>
 <span data-ttu-id="d4d54-103">BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 傳訊引擎和其元件內容屬性在內部使用。</span><span class="sxs-lookup"><span data-stu-id="d4d54-103">The BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) Messaging Engine and its components use context properties internally.</span></span> <span data-ttu-id="d4d54-104">不建議變更引擎的部分內容屬性所設定的值，因為它可能會影響引擎的執行邏輯。</span><span class="sxs-lookup"><span data-stu-id="d4d54-104">Changing the values set by the engine for some context properties is not recommended, because it may affect the execution logic of the engine.</span></span> <span data-ttu-id="d4d54-105">不過，您可以變更大量的未由引擎所設定的屬性。</span><span class="sxs-lookup"><span data-stu-id="d4d54-105">However, you can change a large number of properties not set by the engine.</span></span> <span data-ttu-id="d4d54-106">您可以使用內容屬性來建立傳送埠篩選條件運算式 (如需詳細資訊，請參閱[設定傳送埠的篩選條件運算式](../../adapters-and-accelerators/accelerator-hl7/setting-filter-expressions-on-send-ports.md))。</span><span class="sxs-lookup"><span data-stu-id="d4d54-106">You can use the context properties for creation of filter expressions on send ports (for more information, see [Setting Filter Expressions on Send Ports](../../adapters-and-accelerators/accelerator-hl7/setting-filter-expressions-on-send-ports.md)).</span></span> <span data-ttu-id="d4d54-107">您也可以在篩選運算式中使用內容屬性，如協調流程。</span><span class="sxs-lookup"><span data-stu-id="d4d54-107">You can also use context properties in filter expressions for orchestrations.</span></span> <span data-ttu-id="d4d54-108">屬性可用於篩選運算式，只要專案有參考的全域屬性結構描述 (其中[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]時您可以使用其中一個常見的範本建立)。</span><span class="sxs-lookup"><span data-stu-id="d4d54-108">The properties are available for filter expressions as long as a project has a reference to the global properties schemas (which [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] creates when you use one of the common templates).</span></span>  

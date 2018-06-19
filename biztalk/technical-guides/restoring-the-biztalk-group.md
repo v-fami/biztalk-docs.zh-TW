@@ -1,14 +1,14 @@
 ---
-title: "還原 BizTalk 群組 |Microsoft 文件"
-ms.custom: 
+title: 還原 BizTalk 群組 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 14a9af44-d6de-49c7-9600-21ece389727f
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008111"
 ---
 # <a name="restoring-the-biztalk-group"></a><span data-ttu-id="92bdf-102">還原 BizTalk 群組</span><span class="sxs-lookup"><span data-stu-id="92bdf-102">Restoring the BizTalk Group</span></span>
 <span data-ttu-id="92bdf-103">BizTalk 群組由一組[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]和[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]Analysis Services 資料庫、 SSIS 封裝和 SQL 代理程式作業。</span><span class="sxs-lookup"><span data-stu-id="92bdf-103">The BizTalk group is represented by the set of [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] and [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Analysis Services databases, SSIS packages, and SQL Agent Jobs.</span></span> <span data-ttu-id="92bdf-104">本章節描述還原 BizTalk 群組的程序。</span><span class="sxs-lookup"><span data-stu-id="92bdf-104">This section describes the process for restoring the BizTalk group.</span></span>  

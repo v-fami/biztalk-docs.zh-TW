@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/creating-peoplesoft-send-handlers/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: ec518c16383d847bf13706a6469b038b447c1543
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013653"
 ---
 # <a name="how-to-create-send-ports-for-peoplesoft-enterprise"></a><span data-ttu-id="faeeb-101">如何建立 PeopleSoft Enterprise 的傳送埠</span><span class="sxs-lookup"><span data-stu-id="faeeb-101">How to Create Send Ports for PeopleSoft Enterprise</span></span>
 <span data-ttu-id="faeeb-102">請依照下列步驟使用 BizTalk Server 管理主控台建立傳送埠。</span><span class="sxs-lookup"><span data-stu-id="faeeb-102">Follow these steps to create a send port using BizTalk Server Administration Console.</span></span>  
@@ -29,7 +30,7 @@ ms.lasthandoff: 11/07/2017
   
     4.  <span data-ttu-id="faeeb-111">從 傳送管線 下拉式清單中，選取  **Microsoft.BizTalk.DefaultPipelines.XMLTransmit**。</span><span class="sxs-lookup"><span data-stu-id="faeeb-111">From the Send Pipeline drop-down list, select **Microsoft.BizTalk.DefaultPipelines.XMLTransmit**.</span></span>  
   
-    5.  <span data-ttu-id="faeeb-112">從**接收管線**下拉式清單中，選取**[microsoft.biztalk.defaultpiplelines.xmlreceive]**。</span><span class="sxs-lookup"><span data-stu-id="faeeb-112">From the **Receive Pipeline** drop-down list, select **Microsoft.BizTalk.DefaultPiplelines.XMLReceive**.</span></span>  
+    5.  <span data-ttu-id="faeeb-112">從**接收管線**下拉式清單中，選取 **[microsoft.biztalk.defaultpiplelines.xmlreceive]**。</span><span class="sxs-lookup"><span data-stu-id="faeeb-112">From the **Receive Pipeline** drop-down list, select **Microsoft.BizTalk.DefaultPiplelines.XMLReceive**.</span></span>  
   
     6.  <span data-ttu-id="faeeb-113">按一下**設定**以設定傳送埠。</span><span class="sxs-lookup"><span data-stu-id="faeeb-113">Click **Configure** to configure the send port.</span></span>  
   

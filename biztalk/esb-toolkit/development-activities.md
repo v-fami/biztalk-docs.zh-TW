@@ -1,14 +1,14 @@
 ---
-title: "開發活動 |Microsoft 文件"
-ms.custom: 
+title: 開發活動 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1617fa8c-6560-4c1e-aa8a-8ce558a8db04
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294310"
 ---
 # <a name="development-activities"></a><span data-ttu-id="d3a60-102">開發活動</span><span class="sxs-lookup"><span data-stu-id="d3a60-102">Development Activities</span></span>
 <span data-ttu-id="d3a60-103">本章節描述的開發活動[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]案例使用路線設計工具，其中包含下列主題：</span><span class="sxs-lookup"><span data-stu-id="d3a60-103">This section describes development activities for [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] scenarios that use the Itinerary Designer and contains the following topics:</span></span>  

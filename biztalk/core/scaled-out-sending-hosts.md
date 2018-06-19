@@ -1,11 +1,11 @@
 ---
-title: "向外延展傳送主控件 |Microsoft 文件"
-ms.custom: 
+title: 向外延展傳送主控件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - hosts, sending
@@ -24,7 +24,7 @@ helpviewer_keywords:
 - hosts, scaling
 - adapters, scaling
 ms.assetid: a3d79e0b-8c1e-471c-88e2-623600dfd81a
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -33,6 +33,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007743"
 ---
 # <a name="scaled-out-sending-hosts"></a><span data-ttu-id="d7b48-102">向外擴充的傳送主控件</span><span class="sxs-lookup"><span data-stu-id="d7b48-102">Scaled-Out Sending Hosts</span></span>
 <span data-ttu-id="d7b48-103">向外擴充的傳送主控件可確保 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中的傳送功能為高度可用。</span><span class="sxs-lookup"><span data-stu-id="d7b48-103">A scaled-out sending host makes sure that the sending functionality in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is highly available.</span></span> <span data-ttu-id="d7b48-104">若您將多部電腦新增至傳送訊息的主控件，則可執行多個傳送主控件執行個體以獲得備援與高可用性。</span><span class="sxs-lookup"><span data-stu-id="d7b48-104">If you add multiple computers to a host for sending messages, you can run multiple sending host instances for redundancy and high availability.</span></span>  

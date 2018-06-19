@@ -1,18 +1,18 @@
 ---
-title: "規劃持續效能 |Microsoft 文件"
-ms.custom: 
+title: 規劃持續效能 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - performance, sustained
 - planning, performance
 - performance, planning
 ms.assetid: 907e850c-26a4-41ec-9ef7-3a8706147578
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264326"
 ---
 # <a name="planning-for-sustained-performance"></a><span data-ttu-id="52ddb-102">持續性效能的規劃</span><span class="sxs-lookup"><span data-stu-id="52ddb-102">Planning for Sustained Performance</span></span>
 <span data-ttu-id="52ddb-103">本節說明要如何規劃、測試 BizTalk Server 系統以及如何調整其規模，才能讓您獲致最佳效能。</span><span class="sxs-lookup"><span data-stu-id="52ddb-103">This section describes how to plan, test, and scale your BizTalk Server system so you have optimal performance.</span></span>  

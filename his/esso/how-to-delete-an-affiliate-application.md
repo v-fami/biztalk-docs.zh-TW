@@ -8,15 +8,16 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ec290d38-0220-4bf2-b596-2d6453e51c8d
-caps.latest.revision: ''
+caps.latest.revision: 3
 author: gplarsen
 ms.author: hisdocs; plarsen
 manager: anneta
 ms.openlocfilehash: d0632f7e4217cb9bbccd2ee604688f22eb6de348
 ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "30250978"
 ---
 # <a name="how-to-delete-an-affiliate-application"></a><span data-ttu-id="b947f-102">如何刪除分支機構應用程式</span><span class="sxs-lookup"><span data-stu-id="b947f-102">How to Delete an Affiliate Application</span></span>
 <span data-ttu-id="b947f-103">使用 MMC 嵌入式管理單元或**deleteapps**認證資料庫中刪除指定的分支機構應用程式的命令。</span><span class="sxs-lookup"><span data-stu-id="b947f-103">Use the MMC Snap-In or the **deleteapps** command to delete the specified affiliate application from the Credential database.</span></span>  
@@ -43,7 +44,7 @@ ms.lasthandoff: 03/28/2018
   
      <span data-ttu-id="b947f-113">預設安裝目錄是*\<磁碟機 >*: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="b947f-113">The default installation directory is *\<drive>*:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-3.  <span data-ttu-id="b947f-114">型別`ssomanage –deleteapp <application name>`，其中*\<應用程式名稱 >*是您想要移除認證資料庫中的分支機構應用程式的名稱。</span><span class="sxs-lookup"><span data-stu-id="b947f-114">Type `ssomanage –deleteapp <application name>`, where *\<application name>* is the name of the affiliate application you want to remove from the Credential database.</span></span>  
+3.  <span data-ttu-id="b947f-114">型別`ssomanage –deleteapp <application name>`，其中*\<應用程式名稱 >* 是您想要移除認證資料庫中的分支機構應用程式的名稱。</span><span class="sxs-lookup"><span data-stu-id="b947f-114">Type `ssomanage –deleteapp <application name>`, where *\<application name>* is the name of the affiliate application you want to remove from the Credential database.</span></span>  
   
 ## <a name="see-also"></a><span data-ttu-id="b947f-115">另請參閱</span><span class="sxs-lookup"><span data-stu-id="b947f-115">See Also</span></span>  
  <span data-ttu-id="b947f-116">[SSO 分支機構應用程式](../esso/sso-affiliate-applications.md) </span><span class="sxs-lookup"><span data-stu-id="b947f-116">[SSO Affiliate Applications](../esso/sso-affiliate-applications.md) </span></span>  

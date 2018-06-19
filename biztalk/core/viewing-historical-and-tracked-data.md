@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287686"
 ---
 # <a name="viewing-historical-and-tracked-data"></a><span data-ttu-id="790f6-102">檢視歷程記錄和追蹤資料</span><span class="sxs-lookup"><span data-stu-id="790f6-102">Viewing Historical and Tracked Data</span></span>
 <span data-ttu-id="790f6-103">本節提供使用如何在 BizTalk Server 管理主控台中檢視歷程記錄和追蹤資料，從 [群組中樞] 頁面的特定工作的資訊。</span><span class="sxs-lookup"><span data-stu-id="790f6-103">This section provides task-specific information about using how to view historical and tracked data from the Group Hub page in the BizTalk Server Administration Console.</span></span>  

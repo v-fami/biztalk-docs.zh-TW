@@ -1,14 +1,14 @@
 ---
-title: "ListTypes 命令 |Microsoft 文件"
-ms.custom: 
+title: ListTypes 命令 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 94febe8a-4c1e-4581-a6d1-ef579633e745
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262214"
 ---
 # <a name="listtypes-command"></a><span data-ttu-id="c23e7-102">ListTypes 命令</span><span class="sxs-lookup"><span data-stu-id="c23e7-102">ListTypes Command</span></span>
 <span data-ttu-id="c23e7-103">列出所有的成品類型，您可以加入[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]使用**AddResource**命令。</span><span class="sxs-lookup"><span data-stu-id="c23e7-103">Lists all of the artifact types that you can add to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] by using the **AddResource** command.</span></span> <span data-ttu-id="c23e7-104">如需有關**AddResource**命令，請參閱[AddResource 命令](../core/addresource-command.md)。</span><span class="sxs-lookup"><span data-stu-id="c23e7-104">For more information about the **AddResource** command, see [AddResource Command](../core/addresource-command.md).</span></span>  

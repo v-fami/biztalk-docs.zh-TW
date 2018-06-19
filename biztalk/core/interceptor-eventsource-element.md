@@ -1,14 +1,14 @@
 ---
-title: "攔截器 EventSource 項目 |Microsoft 文件"
-ms.custom: 
+title: 攔截器 EventSource 項目 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d78846c1-3984-43af-a13f-9d5c0a66d3b5
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257470"
 ---
 # <a name="interceptor-eventsource-element"></a><span data-ttu-id="2a288-102">攔截器 EventSource 項目</span><span class="sxs-lookup"><span data-stu-id="2a288-102">Interceptor EventSource Element</span></span>
 <span data-ttu-id="2a288-103">**EventSource**項目會提供一或多個出現在攔截器組態檔中的事件來源的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="2a288-103">The **EventSource** element provides information about the source of one or more of the events appearing in the interceptor configuration file.</span></span> <span data-ttu-id="2a288-104">除了事件來源名稱，您還必須指出技術和來源的資訊清單。</span><span class="sxs-lookup"><span data-stu-id="2a288-104">In addition to an event source name, you need to indicate the technology and a manifest for the source.</span></span>  

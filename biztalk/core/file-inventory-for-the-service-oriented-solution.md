@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975452"
 ---
 # <a name="file-inventory-for-the-service-oriented-solution"></a><span data-ttu-id="2cd16-102">檔案庫存服務導向解決方案</span><span class="sxs-lookup"><span data-stu-id="2cd16-102">File Inventory for the Service Oriented Solution</span></span>
 <span data-ttu-id="2cd16-103">本節列出服務導向解決方案的子目錄與原始程式檔。</span><span class="sxs-lookup"><span data-stu-id="2cd16-103">This section lists subdirectories and source files for the Service Oriented solution.</span></span> <span data-ttu-id="2cd16-104">Service Oriented 方案原始程式檔的預設安裝目錄是 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Scenarios\SO。</span><span class="sxs-lookup"><span data-stu-id="2cd16-104">The default installation directory for the Service Oriented solution source files is [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Scenarios\SO.</span></span> <span data-ttu-id="2cd16-105">下表會取代此路徑與之前的描述\<安裝目錄\>。</span><span class="sxs-lookup"><span data-stu-id="2cd16-105">Descriptions before the following tables replace this path with \<Install Directory\>.</span></span>  

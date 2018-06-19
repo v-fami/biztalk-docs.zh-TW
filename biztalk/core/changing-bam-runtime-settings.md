@@ -1,17 +1,17 @@
 ---
-title: "變更 BAM 執行階段設定 |Microsoft 文件"
-ms.custom: 
+title: 變更 BAM 執行階段設定 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - runtime, settings [BAM]
 - managing [BAM], modifying runtime settings
 ms.assetid: 25f53c20-c3af-40d7-9bf2-7eeee9cc3f5e
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26004319"
 ---
 # <a name="changing-bam-runtime-settings"></a><span data-ttu-id="22fee-102">變更 BAM 執行階段設定</span><span class="sxs-lookup"><span data-stu-id="22fee-102">Changing BAM Runtime Settings</span></span>
 <span data-ttu-id="22fee-103">一般情況下，當您安裝 Microsoft® BizTalk Server 設定 BAM 執行階段元件。</span><span class="sxs-lookup"><span data-stu-id="22fee-103">In general, you configure the BAM Runtime components when you install Microsoft® BizTalk Server.</span></span> <span data-ttu-id="22fee-104">您或許有意變更 BAM 執行階段設定，例如為了擴充系統規模或修改密碼到期原則。</span><span class="sxs-lookup"><span data-stu-id="22fee-104">You may want to change the BAM Runtime settings, for example to scale up your system or if you have password expiration policy.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "第 4 個階段： 建立評估環境 |Microsoft 文件"
-ms.custom: 
+title: 第 4 個階段： 建立評估環境 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3b90d7c5-60ca-4a81-b3d9-6d4e9d91e684
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008671"
 ---
 # <a name="phase-4-building-the-assessment-environment"></a><span data-ttu-id="8e203-102">第 4 個階段： 建立評估環境</span><span class="sxs-lookup"><span data-stu-id="8e203-102">Phase 4: Building the Assessment Environment</span></span>
 <span data-ttu-id="8e203-103">建立實驗室效能評估階段用來安裝的硬體和軟體環境中前一個階段中的設計決策的一致性。</span><span class="sxs-lookup"><span data-stu-id="8e203-103">The Build lab phase of a performance assessment is used to install the hardware and software for the environment in conformance to the design decisions made in previous phases.</span></span> <span data-ttu-id="8e203-104">建立實驗室階段可能會很費時，因為它不重疊稍早階段的此階段不尋常。</span><span class="sxs-lookup"><span data-stu-id="8e203-104">Because the Build lab phase can be time consuming, it is not unusual for this phase to overlap earlier phases.</span></span> <span data-ttu-id="8e203-105">在許多情況下，硬體和作業系統可能會先安裝最終決定對於應用程式架構。</span><span class="sxs-lookup"><span data-stu-id="8e203-105">In many scenarios, the hardware and operating system may be installed before a final decision has been made as to the application architecture.</span></span> <span data-ttu-id="8e203-106">效能評定的組建實驗室階段通常包括本主題中討論的工作。</span><span class="sxs-lookup"><span data-stu-id="8e203-106">The Build lab phase of a performance assessment typically includes the tasks discussed in this topic.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "結構描述不包含根項目 |Microsoft 文件"
-ms.custom: 
+title: 結構描述不包含根項目 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: efc33f2b-9e14-4d2e-8c8a-32b7696f80ea
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279302"
 ---
 # <a name="the-schema-does-not-contain-the-root-element"></a><span data-ttu-id="6e021-102">結構描述不包含根元素</span><span class="sxs-lookup"><span data-stu-id="6e021-102">The schema does not contain the root element</span></span>
 ## <a name="details"></a><span data-ttu-id="6e021-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="6e021-103">Details</span></span>  

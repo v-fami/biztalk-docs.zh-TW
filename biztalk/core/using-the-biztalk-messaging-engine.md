@@ -1,11 +1,11 @@
 ---
-title: "使用 BizTalk 傳訊引擎 |Microsoft 文件"
-ms.custom: 
+title: 使用 BizTalk 傳訊引擎 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapters, Messaging Engine
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - architecture, Messaging Engine
 - messages, Messaging Engine
 ms.assetid: e6b6d1ec-38cd-4721-9673-ae40da003dec
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288038"
 ---
 # <a name="using-the-biztalk-messaging-engine"></a><span data-ttu-id="8a118-102">使用 BizTalk 傳訊引擎</span><span class="sxs-lookup"><span data-stu-id="8a118-102">Using the BizTalk Messaging Engine</span></span>
 <span data-ttu-id="8a118-103">下列圖表說明傳訊引擎的架構。</span><span class="sxs-lookup"><span data-stu-id="8a118-103">The following diagram illustrates the architecture of the Messaging Engine.</span></span> <span data-ttu-id="8a118-104">它顯示配接器收到訊息並將它提交至 BizTalk Server 的實例。</span><span class="sxs-lookup"><span data-stu-id="8a118-104">It shows a scenario in which a message is received by an adapter and submitted into BizTalk Server.</span></span>  

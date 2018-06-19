@@ -1,14 +1,14 @@
 ---
-title: "常見的錯誤 |Microsoft 文件"
-ms.custom: 
+title: 常見的錯誤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4fe48a8e-def0-4a00-aa7f-9a49ae555351
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971532"
 ---
 # <a name="common-errors"></a><span data-ttu-id="1610c-102">一般錯誤</span><span class="sxs-lookup"><span data-stu-id="1610c-102">Common Errors</span></span>
 <span data-ttu-id="1610c-103">本主題列出使用 BizTalk 對應工具建立對應時可能會遇到的常見錯誤訊息。</span><span class="sxs-lookup"><span data-stu-id="1610c-103">This topic lists out common error messages you may encounter while creating maps using BizTalk Mapper.</span></span>  
@@ -24,7 +25,7 @@ ms.lasthandoff: 11/28/2017
 ## <a name="you-receive-error-event-id-324-when-parsing-dates"></a><span data-ttu-id="1610c-104">您在剖析日期時接收到錯誤事件識別碼 324。</span><span class="sxs-lookup"><span data-stu-id="1610c-104">You receive error event ID 324 when parsing dates</span></span>  
   
 ### <a name="problem"></a><span data-ttu-id="1610c-105">問題</span><span class="sxs-lookup"><span data-stu-id="1610c-105">Problem</span></span>  
- <span data-ttu-id="1610c-106">當您使用資料庫**值擷取程式 」**運算質擷取日期欄位，您的文件引導模式中可能會針對輸出文件定義的驗證失敗。</span><span class="sxs-lookup"><span data-stu-id="1610c-106">When you use the Database **Value Extractor** functoid in a map to extract a date field, your document may fail validation against the outbound document definition.</span></span> [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="1610c-107">可能會記錄事件記錄檔中的驗證錯誤，如下所示：</span><span class="sxs-lookup"><span data-stu-id="1610c-107"> may log a validation error similar to the following in the event log:</span></span>  
+ <span data-ttu-id="1610c-106">當您使用資料庫**值擷取程式 」** 運算質擷取日期欄位，您的文件引導模式中可能會針對輸出文件定義的驗證失敗。</span><span class="sxs-lookup"><span data-stu-id="1610c-106">When you use the Database **Value Extractor** functoid in a map to extract a date field, your document may fail validation against the outbound document definition.</span></span> [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="1610c-107">可能會記錄事件記錄檔中的驗證錯誤，如下所示：</span><span class="sxs-lookup"><span data-stu-id="1610c-107"> may log a validation error similar to the following in the event log:</span></span>  
   
  <span data-ttu-id="1610c-108">事件來源： BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="1610c-108">Event Source: BizTalk Server</span></span>  
   
@@ -52,7 +53,7 @@ ms.lasthandoff: 11/28/2017
   
 -   <span data-ttu-id="1610c-120">編輯您的輸出文件定義以使用字串資料型別而非日期資料型別。</span><span class="sxs-lookup"><span data-stu-id="1610c-120">Edit your outbound document definition to use a string datatype instead of a date datatype.</span></span>  
   
--   <span data-ttu-id="1610c-121">建立自訂[!INCLUDE[btsCoName](../includes/btsconame-md.md)] [!INCLUDE[btsVBNoVersion](../includes/btsvbnoversion-md.md)]**指令碼**將資料庫的輸出轉換的運算質**值擷取程式 」**成 ISO 8601 格式的運算質。</span><span class="sxs-lookup"><span data-stu-id="1610c-121">Create a custom [!INCLUDE[btsCoName](../includes/btsconame-md.md)][!INCLUDE[btsVBNoVersion](../includes/btsvbnoversion-md.md)]**Script** functoid that will convert the output of the Database **Value Extractor** functoid into the ISO 8601 format.</span></span>  
+-   <span data-ttu-id="1610c-121">建立自訂[!INCLUDE[btsCoName](../includes/btsconame-md.md)] [!INCLUDE[btsVBNoVersion](../includes/btsvbnoversion-md.md)]**指令碼**將資料庫的輸出轉換的運算質**值擷取程式 」** 成 ISO 8601 格式的運算質。</span><span class="sxs-lookup"><span data-stu-id="1610c-121">Create a custom [!INCLUDE[btsCoName](../includes/btsconame-md.md)][!INCLUDE[btsVBNoVersion](../includes/btsvbnoversion-md.md)]**Script** functoid that will convert the output of the Database **Value Extractor** functoid into the ISO 8601 format.</span></span>  
   
  <span data-ttu-id="1610c-122">如需詳細資訊，請參閱知識庫文章[278737](http://support.microsoft.com/kb/278737/en-us)。</span><span class="sxs-lookup"><span data-stu-id="1610c-122">For more information, see KB article [278737](http://support.microsoft.com/kb/278737/en-us).</span></span>  
   
@@ -108,7 +109,7 @@ ms.lasthandoff: 11/28/2017
   
 -   <span data-ttu-id="1610c-156">是否有多個成品具有相同的檔案名稱。</span><span class="sxs-lookup"><span data-stu-id="1610c-156">Multiple artifacts have the same filename.</span></span> <span data-ttu-id="1610c-157">如例如**Map1.xsd**和**Map1.btm**。</span><span class="sxs-lookup"><span data-stu-id="1610c-157">For e.g., **Map1.xsd** and**Map1.btm**.</span></span>  
   
--   <span data-ttu-id="1610c-158">檔案名稱包含特殊字元只 (**~**， **！**，  **@**等。)。</span><span class="sxs-lookup"><span data-stu-id="1610c-158">The filename comprises of only special characters (**~**, **!**, **@**, etc.).</span></span>  
+-   <span data-ttu-id="1610c-158">檔案名稱包含特殊字元只 (**~**， **！**，  **@** 等。)。</span><span class="sxs-lookup"><span data-stu-id="1610c-158">The filename comprises of only special characters (**~**, **!**, **@**, etc.).</span></span>  
   
 ### <a name="resolution"></a><span data-ttu-id="1610c-159">解決方案</span><span class="sxs-lookup"><span data-stu-id="1610c-159">Resolution</span></span>  
  <span data-ttu-id="1610c-160">若要解決此問題，您可以使用下列任一個因應措施：</span><span class="sxs-lookup"><span data-stu-id="1610c-160">To resolve this issue, you can follow any of these workarounds:</span></span>  

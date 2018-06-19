@@ -1,11 +1,11 @@
 ---
-title: "逐步解說： 建立 BizTalk 應用程式使用 POP3 配接器 |Microsoft 文件"
-ms.custom: 
+title: 逐步解說： 建立 BizTalk 應用程式使用 POP3 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - tutorials, POP3 adapters
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - POP3 adapters, tutorials
 - configuring [POP3 adapters], Outlook Express
 ms.assetid: b44c3b1d-7b4f-425c-831a-1ce5f6379595
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975940"
 ---
 # <a name="walkthrough-creating-a-biztalk-application-that-uses-the-pop3-adapter"></a><span data-ttu-id="6e051-102">逐步解說： 建立使用 POP3 配接器的 BizTalk 應用程式</span><span class="sxs-lookup"><span data-stu-id="6e051-102">Walkthrough: Creating a BizTalk Application That Uses the POP3 Adapter</span></span>
 <span data-ttu-id="6e051-103">本節將帶領您使用 POP3 配接器來建立簡單的 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 應用程式。</span><span class="sxs-lookup"><span data-stu-id="6e051-103">This section takes you through creating a simple Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application using the POP3 adapter.</span></span>  
@@ -103,7 +104,7 @@ ms.lasthandoff: 11/28/2017
   
 6.  <span data-ttu-id="6e051-151">旁邊**目的地資料夾**方塊中，按一下**瀏覽**，選取您在建立的資料夾[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，然後按一下  **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="6e051-151">Next to the **Destination folder** box, click **Browse**, select the folder that you created on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], and then click **OK**.</span></span>  
   
-7.  <span data-ttu-id="6e051-152">在**檔案名稱**方塊中，輸入**%MessageID%.txt**，然後按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="6e051-152">In the **File name** box, type **%MessageID%.txt**, and then click **OK**.</span></span>  
+7.  <span data-ttu-id="6e051-152">在**檔案名稱**方塊中，輸入 **%MessageID%.txt**，然後按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="6e051-152">In the **File name** box, type **%MessageID%.txt**, and then click **OK**.</span></span>  
   
 8.  <span data-ttu-id="6e051-153">在**傳送管線**方塊中，選取**Microsoft.BizTalk.DefaultPipelines.PassThruTransmit**。</span><span class="sxs-lookup"><span data-stu-id="6e051-153">In the **Send Pipeline** box, select **Microsoft.BizTalk.DefaultPipelines.PassThruTransmit**.</span></span>  
   
@@ -135,7 +136,7 @@ ms.lasthandoff: 11/28/2017
   
 5.  <span data-ttu-id="6e051-168">在**網際網路電子郵件地址**對話方塊中，於**電子郵件地址**方塊中，輸入**EmailTest @< 網域名稱 >**，然後按一下 **下一步**.</span><span class="sxs-lookup"><span data-stu-id="6e051-168">In the **Internet E-mail address** dialog box, in the **E-mail address** box, type **EmailTest@<domain_name>**, and then click **Next**.</span></span>  
   
-     <span data-ttu-id="6e051-169">請務必輸入適當的值給*< 網域名稱 >*。</span><span class="sxs-lookup"><span data-stu-id="6e051-169">Make sure to enter the appropriate value for *<domain_name>*.</span></span> <span data-ttu-id="6e051-170">這個值應該符合在 Windows 伺服器上的 POP3 服務管理介面中建立此信箱時所依據的網域名稱。</span><span class="sxs-lookup"><span data-stu-id="6e051-170">This value should match the name of the domain under which this mailbox was created in the POP3 Service Administration interface on the Windows server.</span></span>  
+     <span data-ttu-id="6e051-169">請務必輸入適當的值給 *< 網域名稱 >*。</span><span class="sxs-lookup"><span data-stu-id="6e051-169">Make sure to enter the appropriate value for *<domain_name>*.</span></span> <span data-ttu-id="6e051-170">這個值應該符合在 Windows 伺服器上的 POP3 服務管理介面中建立此信箱時所依據的網域名稱。</span><span class="sxs-lookup"><span data-stu-id="6e051-170">This value should match the name of the domain under which this mailbox was created in the POP3 Service Administration interface on the Windows server.</span></span>  
   
 6.  <span data-ttu-id="6e051-171">在**電子郵件伺服器名稱**對話方塊中，於**內送郵件**和**外寄郵件**] 方塊中，輸入伺服器名稱或 Windows server 的 IP 位址，然後按一下 [ **下一步**。</span><span class="sxs-lookup"><span data-stu-id="6e051-171">In the **E-mail Server names** dialog box, in the **Incoming mail** and **Outgoing mail** boxes, type the server name or IP address of the Windows server, and then click **Next**.</span></span>  
   
@@ -149,7 +150,7 @@ ms.lasthandoff: 11/28/2017
   
 11. <span data-ttu-id="6e051-176">在**網際網路帳戶**對話方塊中，按一下 **關閉**。</span><span class="sxs-lookup"><span data-stu-id="6e051-176">In the **Internet Accounts** dialog box, click **Close**.</span></span>  
   
-12. <span data-ttu-id="6e051-177">使用 Outlook Express 來編輯測試訊息，型別**測試**到**主旨** 欄位中，然後輸入**EmailTest @< 網域名稱 >**到**至**欄位。</span><span class="sxs-lookup"><span data-stu-id="6e051-177">Use Outlook Express to compose a test message, type **Test** into the **Subject** field, and type **EmailTest@<domain_name>** into the **To** field.</span></span>  
+12. <span data-ttu-id="6e051-177">使用 Outlook Express 來編輯測試訊息，型別**測試**到**主旨** 欄位中，然後輸入**EmailTest @< 網域名稱 >** 到**至**欄位。</span><span class="sxs-lookup"><span data-stu-id="6e051-177">Use Outlook Express to compose a test message, type **Test** into the **Subject** field, and type **EmailTest@<domain_name>** into the **To** field.</span></span>  
   
 13. <span data-ttu-id="6e051-178">按一下**傳送**傳送測試訊息。</span><span class="sxs-lookup"><span data-stu-id="6e051-178">Click **Send** to send the test message.</span></span> <span data-ttu-id="6e051-179">若要確定可 Outlook Express 會測試訊息傳送立即，**傳送/接收**Outlook Express 工具列中的按鈕。</span><span class="sxs-lookup"><span data-stu-id="6e051-179">To ensure that Outlook Express sends the test message immediately, click the **Send/Recv** button in the Outlook Express toolbar.</span></span>  
   

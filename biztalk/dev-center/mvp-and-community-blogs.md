@@ -1,12 +1,12 @@
 ---
-title: "撰寫的整合和 Azure Mvp 和社群部落格 清單 |Microsoft 文件"
-description: "部落格和網站的整合和 Azure Mvp 和社群的成員，BizTalk Server、 邏輯應用程式，以及其他更多資訊"
+title: 撰寫的整合和 Azure Mvp 和社群部落格 清單 |Microsoft 文件
+description: 部落格和網站的整合和 Azure Mvp 和社群的成員，BizTalk Server、 邏輯應用程式，以及其他更多資訊
 author: MandiOhlinger
 manager: anneta
 ms.date: 08/23/2017
 ms.prod: biztalk-server
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.author: mandia
 ms.openlocfilehash: ea6ec410696c1e1f7325c610eb7770e64a574101
@@ -14,6 +14,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290830"
 ---
 # <a name="mvp-and-community-written-blogs"></a><span data-ttu-id="35b9d-103">MVP 和社群所撰寫的部落格</span><span class="sxs-lookup"><span data-stu-id="35b9d-103">MVP and community-written blogs</span></span>
 

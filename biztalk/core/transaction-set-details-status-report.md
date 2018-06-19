@@ -1,14 +1,14 @@
 ---
-title: "交易集詳細資料狀態報告 |Microsoft 文件"
-ms.custom: 
+title: 交易集詳細資料狀態報告 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d81367c7-c74e-42cb-b856-748962b727ec
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279510"
 ---
 # <a name="transaction-set-details-status-report"></a><span data-ttu-id="ebf7b-102">交易集詳細資料狀態報告</span><span class="sxs-lookup"><span data-stu-id="ebf7b-102">Transaction Set Details Status Report</span></span>
 <span data-ttu-id="ebf7b-103">這個報告會針對選自「交換/通知狀態」報告其中之特定 EDI 交換的交易集，顯示詳細資料。</span><span class="sxs-lookup"><span data-stu-id="ebf7b-103">This report shows the details for transaction sets in a specific EDI interchange selected from within the Interchange/ACK Status report.</span></span> <span data-ttu-id="ebf7b-104">若要顯示此狀態報告，以滑鼠右鍵按一下 [交換/通知狀態] 報告中，查詢結果] 窗格中所列的交換，然後按一下 [**交易集詳細資料**。</span><span class="sxs-lookup"><span data-stu-id="ebf7b-104">To display this status report, right-click an interchange listed in the Query results pane of the Interchange/ACK Status report, and then click **Transaction Set Details**.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "疑難排解 SQL Server |Microsoft 文件"
-ms.custom: 
+title: 疑難排解 SQL Server |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7f6707c5-7c6e-4375-bfa6-9b1a86ec5e81
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975780"
 ---
 # <a name="troubleshooting-sql-server"></a><span data-ttu-id="579ce-102">疑難排解 SQL Server</span><span class="sxs-lookup"><span data-stu-id="579ce-102">Troubleshooting SQL Server</span></span>
 <span data-ttu-id="579ce-103">大多數會影響 Microsoft [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] 的 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 問題分為下列類別：</span><span class="sxs-lookup"><span data-stu-id="579ce-103">The majority of Microsoft [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] issues that affect Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] fall into one of the following categories:</span></span>  

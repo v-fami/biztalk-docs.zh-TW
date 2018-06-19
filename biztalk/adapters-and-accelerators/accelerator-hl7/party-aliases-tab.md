@@ -23,6 +23,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005583"
 ---
 # <a name="party-aliases-tab"></a><span data-ttu-id="3a3c8-102">合作對象別名 索引標籤</span><span class="sxs-lookup"><span data-stu-id="3a3c8-102">Party Aliases Tab</span></span>
 <span data-ttu-id="3a3c8-103">您使用**合作對象別名**索引標籤來檢視選取的合作對象的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="3a3c8-103">You use the **Party Aliases** tab to view information about the selected party.</span></span>  

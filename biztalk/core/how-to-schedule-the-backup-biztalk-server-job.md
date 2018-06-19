@@ -1,15 +1,15 @@
 ---
-title: "排程備份 BizTalk Server 作業 |Microsoft 文件"
-description: "設定備份 BizTalk Server 的工作參數，並將排程設定為執行每月、 每週、 日或每小時"
-ms.custom: 
+title: 排程備份 BizTalk Server 作業 |Microsoft 文件
+description: 設定備份 BizTalk Server 的工作參數，並將排程設定為執行每月、 每週、 日或每小時
+ms.custom: ''
 ms.date: 11/02/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6e89fff4-da87-4cdc-acc4-46f03c3269fc
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 9aaed443492b74729171fef79c634bff561af929
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/03/2017
+ms.locfileid: "23980750"
 ---
 # <a name="schedule-the-backup-biztalk-server-job"></a><span data-ttu-id="9bbb5-103">排程備份 BizTalk Server 作業</span><span class="sxs-lookup"><span data-stu-id="9bbb5-103">Schedule the Backup BizTalk Server Job</span></span>
 <span data-ttu-id="9bbb5-104">備份[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]作業執行依排程由 SQL Server Agent 服務。</span><span class="sxs-lookup"><span data-stu-id="9bbb5-104">The Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job runs as scheduled by the SQL Server Agent service.</span></span> <span data-ttu-id="9bbb5-105">如果您想要建立較頻繁或較不頻繁的備份，您可以使用 SQL Server Management Studio 來變更「備份 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]」作業的排程。</span><span class="sxs-lookup"><span data-stu-id="9bbb5-105">If you want to create more frequent or less frequent backups, you can change the schedule of the Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job by using SQL Server Management Studio.</span></span>  
@@ -35,7 +36,7 @@ ms.lasthandoff: 11/03/2017
   
 4.  <span data-ttu-id="9bbb5-112">在詳細資料窗格中，以滑鼠右鍵按一下**備份 BizTalk Server (BizTalkMgmtDb)**，然後選取**屬性**。</span><span class="sxs-lookup"><span data-stu-id="9bbb5-112">In the details pane, right-click **Backup BizTalk Server (BizTalkMgmtDb)**, and then select **Properties**.</span></span>  
   
-5.  <span data-ttu-id="9bbb5-113">在**作業屬性-備份 BizTalk Server (BizTalkMgmtDb)**下**選取頁面**，選取**步驟**。</span><span class="sxs-lookup"><span data-stu-id="9bbb5-113">In the **Job Properties - Backup BizTalk Server (BizTalkMgmtDb)**, under **Select a page**, select **Steps**.</span></span>  
+5.  <span data-ttu-id="9bbb5-113">在**作業屬性-備份 BizTalk Server (BizTalkMgmtDb)** 下**選取頁面**，選取**步驟**。</span><span class="sxs-lookup"><span data-stu-id="9bbb5-113">In the **Job Properties - Backup BizTalk Server (BizTalkMgmtDb)**, under **Select a page**, select **Steps**.</span></span>  
   
 6.  <span data-ttu-id="9bbb5-114">在**作業步驟清單**，選取**BackupFull**，然後選取**編輯**。</span><span class="sxs-lookup"><span data-stu-id="9bbb5-114">In the **Job step list**, select **BackupFull**, and then select **Edit**.</span></span>  
   
@@ -58,7 +59,7 @@ ms.lasthandoff: 11/03/2017
   
     - <span data-ttu-id="9bbb5-131">**@UseLocalTime**： 一種額外的參數，使用本地時間表示。</span><span class="sxs-lookup"><span data-stu-id="9bbb5-131">**@UseLocalTime**: An extra parameter that states to use local time.</span></span> <span data-ttu-id="9bbb5-132">根據預設，工作會使用 UTC 時間。</span><span class="sxs-lookup"><span data-stu-id="9bbb5-132">By default, the job works with UTC time.</span></span> <span data-ttu-id="9bbb5-133">因此如果您住在澳洲 （此為 UTC + 10 小時），您的備份會在上午 10，而不是午夜執行。</span><span class="sxs-lookup"><span data-stu-id="9bbb5-133">So if you live in Australia (which is UTC + 10 hours), your backup runs at 10am rather than midnight.</span></span> <span data-ttu-id="9bbb5-134">最佳做法，建議您將此設**1** (true)。</span><span class="sxs-lookup"><span data-stu-id="9bbb5-134">As a best practice, it is recommended to set this to **1** (true).</span></span>  
   
-9.  <span data-ttu-id="9bbb5-135">在**作業屬性-備份 BizTalk Server (BizTalkMgmtDb)**下**選取頁面**，按一下 **排程**。</span><span class="sxs-lookup"><span data-stu-id="9bbb5-135">In the **Job Properties - Backup BizTalk Server (BizTalkMgmtDb)**, under **Select a page**, click **Schedules**.</span></span>  
+9.  <span data-ttu-id="9bbb5-135">在**作業屬性-備份 BizTalk Server (BizTalkMgmtDb)** 下**選取頁面**，按一下 **排程**。</span><span class="sxs-lookup"><span data-stu-id="9bbb5-135">In the **Job Properties - Backup BizTalk Server (BizTalkMgmtDb)**, under **Select a page**, click **Schedules**.</span></span>  
   
 10. <span data-ttu-id="9bbb5-136">在**排程清單**，按一下  **MarkAndBackupLogSched**，然後按一下 **編輯**。</span><span class="sxs-lookup"><span data-stu-id="9bbb5-136">In the **Schedule list**, click **MarkAndBackupLogSched**, and then click **Edit**.</span></span>  
   

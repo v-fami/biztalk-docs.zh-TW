@@ -1,14 +1,14 @@
 ---
-title: "工作 5： 設定轉換 Shape2 |Microsoft 文件"
-ms.custom: 
+title: 工作 5： 設定轉換 Shape2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3e92874e-9021-4cf6-bab6-d4173308c469
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279630"
 ---
 # <a name="task-5-configure-the-transform-shape"></a><span data-ttu-id="a5210-102">工作 5： 設定轉換圖形</span><span class="sxs-lookup"><span data-stu-id="a5210-102">Task 5: Configure the Transform Shape</span></span>
 <span data-ttu-id="a5210-103">請使用下列程序設定「轉換」圖形。</span><span class="sxs-lookup"><span data-stu-id="a5210-103">Use the following procedure to configure the Transform shape.</span></span>  
@@ -47,7 +48,7 @@ ms.lasthandoff: 09/20/2017
   
          <span data-ttu-id="a5210-117">![轉換目的](../core/media/transform-destination.gif "transform_destination")</span><span class="sxs-lookup"><span data-stu-id="a5210-117">![Transform Destination](../core/media/transform-destination.gif "transform_destination")</span></span>  
   
-3.  <span data-ttu-id="a5210-118">在 [方案總管] 中，按兩下**[transform_1.btm]**開啟對應工具。</span><span class="sxs-lookup"><span data-stu-id="a5210-118">In the Solution Explorer, double-click **Transform_1.btm** to open the mapping tool.</span></span> <span data-ttu-id="a5210-119">連結下列四個項目：</span><span class="sxs-lookup"><span data-stu-id="a5210-119">Link the following four items:</span></span>  
+3.  <span data-ttu-id="a5210-118">在 [方案總管] 中，按兩下 **[transform_1.btm]** 開啟對應工具。</span><span class="sxs-lookup"><span data-stu-id="a5210-118">In the Solution Explorer, double-click **Transform_1.btm** to open the mapping tool.</span></span> <span data-ttu-id="a5210-119">連結下列四個項目：</span><span class="sxs-lookup"><span data-stu-id="a5210-119">Link the following four items:</span></span>  
   
     -   <span data-ttu-id="a5210-120">mnCMJobNo</span><span class="sxs-lookup"><span data-stu-id="a5210-120">mnCMJobNo</span></span>  
   
@@ -93,7 +94,7 @@ ms.lasthandoff: 09/20/2017
   
     2.  <span data-ttu-id="a5210-134">選取**目的地**按一下底下的 加入資料列中的 **變數名稱**，選取**EndDocMsg**，按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="a5210-134">Select **Destination** and click in the Add row under **Variable Name**, select **EndDocMsg**, and click **OK**.</span></span>  
   
-6.  <span data-ttu-id="a5210-135">在 [方案總管] 中，按兩下**[transform_2.btm]**開啟對應工具。</span><span class="sxs-lookup"><span data-stu-id="a5210-135">In the Solution Explorer, double-click **Transform_2.btm** to open the mapping tool.</span></span> <span data-ttu-id="a5210-136">連結下列四個項目：</span><span class="sxs-lookup"><span data-stu-id="a5210-136">Link the following four items:</span></span>  
+6.  <span data-ttu-id="a5210-135">在 [方案總管] 中，按兩下 **[transform_2.btm]** 開啟對應工具。</span><span class="sxs-lookup"><span data-stu-id="a5210-135">In the Solution Explorer, double-click **Transform_2.btm** to open the mapping tool.</span></span> <span data-ttu-id="a5210-136">連結下列四個項目：</span><span class="sxs-lookup"><span data-stu-id="a5210-136">Link the following four items:</span></span>  
   
     -   <span data-ttu-id="a5210-137">mnCMJobNo</span><span class="sxs-lookup"><span data-stu-id="a5210-137">mnCMJobNo</span></span>  
   

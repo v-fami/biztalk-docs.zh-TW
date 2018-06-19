@@ -1,14 +1,14 @@
 ---
-title: "如何部署 BizTalk 組件從 Visual Studio |Microsoft 文件"
-ms.custom: 
+title: 如何部署 BizTalk 組件從 Visual Studio |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 69d70c52-3e71-4eb2-876e-b467c7ca24b7
-caps.latest.revision: "39"
+caps.latest.revision: 39
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007399"
 ---
 # <a name="how-to-deploy-a-biztalk-assembly-from-visual-studio"></a><span data-ttu-id="3b566-102">如何從 Visual Studio 部署 BizTalk 組件</span><span class="sxs-lookup"><span data-stu-id="3b566-102">How to Deploy a BizTalk Assembly from Visual Studio</span></span>
 <span data-ttu-id="3b566-103">本主題提供有關如何使用 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 的「方案總管」或 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 的命令提示字元，從 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 將 BizTalk 組件部署至 BizTalk 應用程式的指示。</span><span class="sxs-lookup"><span data-stu-id="3b566-103">This topic provides instructions on using [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Solution Explorer or the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] command prompt to deploy the BizTalk assemblies from [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] into a BizTalk application.</span></span> <span data-ttu-id="3b566-104">您可以選擇從專案層級部署單一組件 (例如以滑鼠右鍵按一下專案，然後按一下 [部署])，或從方案層級同時部署方案中的所有組件 (例如以滑鼠右鍵按一下方案，然後按一下 [部署])，但強烈建議從方案層級同時部署所有組件。</span><span class="sxs-lookup"><span data-stu-id="3b566-104">Although you can deploy a single assembly from the project level (such as by right-clicking the project and clicking Deploy) or deploy all of the assemblies in the solution at once from the solution level (such as by right-clicking the solution and clicking Deploy), we strongly recommend deploying all of the assemblies at once from the solution level.</span></span>  

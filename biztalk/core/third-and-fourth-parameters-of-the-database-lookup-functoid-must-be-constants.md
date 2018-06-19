@@ -1,14 +1,14 @@
 ---
-title: "錯誤 - 資料庫尋查運算質的第三和第四個參數必須為常數 | Microsoft Docs"
-ms.custom: 
+title: 錯誤 - 資料庫尋查運算質的第三和第四個參數必須為常數 | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fb2b4859-2b8b-4864-8791-f8c4656f734e
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278470"
 ---
 # <a name="error---third-and-fourth-parameters-of-the-database-lookup-functoid-must-be-constants"></a><span data-ttu-id="bccd5-103">錯誤 - 資料庫尋查運算質的第三和第四個參數必須為常數</span><span class="sxs-lookup"><span data-stu-id="bccd5-103">Error - Third and Fourth Parameters of the Database Lookup Functoid Must Be Constants.</span></span>
 <span data-ttu-id="bccd5-104">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="bccd5-104">**Error Code**</span></span>  

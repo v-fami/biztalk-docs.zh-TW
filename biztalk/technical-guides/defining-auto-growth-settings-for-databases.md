@@ -1,14 +1,14 @@
 ---
-title: "定義資料庫的自動成長設定 |Microsoft 文件"
-ms.custom: 
+title: 定義資料庫的自動成長設定 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dd86dd49-6505-4673-b413-d3af729dfca9
-caps.latest.revision: 
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710785"
 ---
 # <a name="define-auto-growth-settings-for-databases"></a><span data-ttu-id="f8480-102">定義資料庫的自動成長設定</span><span class="sxs-lookup"><span data-stu-id="f8480-102">Define Auto-Growth Settings for Databases</span></span>
 <span data-ttu-id="f8480-103">您應該將資料庫自動成長設 mb，而不是百分比，特別是針對 MessageBox 和 「 BizTalk 追蹤資料庫的固定數。</span><span class="sxs-lookup"><span data-stu-id="f8480-103">You should set database auto-growth to a fixed number of megabytes instead of to a percentage, especially for the MessageBox and BizTalk Tracking databases.</span></span> <span data-ttu-id="f8480-104">根據您的 BizTalk 應用程式和輸送量，MessageBox 與追蹤資料庫可以變得很大。</span><span class="sxs-lookup"><span data-stu-id="f8480-104">Depending on your BizTalk application and throughput, the MessageBox and Tracking databases can get quite large.</span></span> <span data-ttu-id="f8480-105">如果您將設定自動成長百分比，然後自動成長也很嚴重。</span><span class="sxs-lookup"><span data-stu-id="f8480-105">If you set auto-growth to a percentage, then the auto-growth can be substantial as well.</span></span>  

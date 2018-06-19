@@ -1,14 +1,14 @@
 ---
-title: "介面的請求-回應傳送配接器 |Microsoft 文件"
-ms.custom: 
+title: 介面的請求-回應傳送配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c54650e8-dbfb-4c66-843b-0b82c8183dd4
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257598"
 ---
 # <a name="interfaces-for-a-solicit-response-send-adapter"></a><span data-ttu-id="63456-102">請求-回應傳送配接器介面</span><span class="sxs-lookup"><span data-stu-id="63456-102">Interfaces for a Solicit-Response Send Adapter</span></span>
 <span data-ttu-id="63456-103">傳送配接器使用與接收配接器相同的批次機制，將回應訊息提交回伺服器。</span><span class="sxs-lookup"><span data-stu-id="63456-103">Send adapters use the same batch mechanism as receive adapters to submit response messages back into the server.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "逐步解說： 使用 Wcf-nettcp 配接器處理的自訂訊息 |Microsoft 文件"
-ms.custom: 
+title: 逐步解說： 使用 Wcf-nettcp 配接器處理的自訂訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b56b7492-2ea0-4c63-8f1b-430eb277517d
-caps.latest.revision: "32"
+caps.latest.revision: 32
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "26009767"
 ---
 # <a name="walkthrough-custom-message-processing-with-the-wcf-nettcp-adapter"></a><span data-ttu-id="2cffb-102">逐步解說： 使用 Wcf-nettcp 配接器處理的自訂訊息</span><span class="sxs-lookup"><span data-stu-id="2cffb-102">Walkthrough: Custom Message Processing with the WCF-NetTcp Adapter</span></span>
 <span data-ttu-id="2cffb-103">在本逐步解說[!INCLUDE[firstref_btsWinCommFoundation](../includes/firstref-btswincommfoundation-md.md)]用戶端提交[!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]訊息，其中包含內嵌二進位 JPEG 影像資料的 BizTalk 接收位置使用 Wcf-nettcp 配接器。</span><span class="sxs-lookup"><span data-stu-id="2cffb-103">In this walkthrough a [!INCLUDE[firstref_btsWinCommFoundation](../includes/firstref-btswincommfoundation-md.md)] client submits a [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] message containing embedded binary JPEG image data to a BizTalk receive location using the WCF-NetTcp adapter.</span></span> <span data-ttu-id="2cffb-104">透過使用 XPath 陳述式 （具有節點 Base64 編碼） 擷取二進位編碼的 JPEG 影像，取得 **輸入訊息內文** 配接器的組態中的設定。</span><span class="sxs-lookup"><span data-stu-id="2cffb-104">The binary encoded JPEG image gets extracted by using an XPath statement (with Base64 Node encoding) through the **Inbound Message Body** settings in the adapter’s configuration.</span></span> <span data-ttu-id="2cffb-105">XPath 處理不同於預設方法，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]用來處理內送訊息。</span><span class="sxs-lookup"><span data-stu-id="2cffb-105">XPath processing differs from the default method that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses to handle incoming messages.</span></span> <span data-ttu-id="2cffb-106">在預設方法中，配接器取得的整個內容**主體**元素[!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]訊息、，然後將它提交到 BizTalk MessageBox 資料庫。</span><span class="sxs-lookup"><span data-stu-id="2cffb-106">In the default method, the adapter obtains the entire contents of the **Body** element of the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] message, and then submits it to the BizTalk MessageBox database.</span></span> <span data-ttu-id="2cffb-107">XPath 訊息處理會擷取特定的傳入部分[!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]訊息以建立自訂的 BizTalk 訊息。</span><span class="sxs-lookup"><span data-stu-id="2cffb-107">XPath message processing extracts specific parts of an incoming [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] message to create a custom BizTalk message.</span></span> <span data-ttu-id="2cffb-108">在此範例中 XPath 處理尋找名為 XML 項目**SendPicture**傳入[!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]訊息 （這是以 XML 格式）。</span><span class="sxs-lookup"><span data-stu-id="2cffb-108">In this sample XPath processing locates an XML element named **SendPicture** in the incoming [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] message (which is in XML format).</span></span> <span data-ttu-id="2cffb-109">在發現該元素，XPath 擷取的項目值做為二進位 Base64 編碼物件，並將該二進位值放入 BizTalk 訊息。</span><span class="sxs-lookup"><span data-stu-id="2cffb-109">After finding that element, XPath extracts the element's value as a binary Base64 encoded object, and places that binary value into a BizTalk message.</span></span> <span data-ttu-id="2cffb-110">訊息會發佈到 MessageBox 資料庫，然後輸出至檔案傳送埠的傳送埠篩選訂閱幫助。</span><span class="sxs-lookup"><span data-stu-id="2cffb-110">The message is published to the MessageBox database, then output to a FILE send port with the help of a send port filter subscription.</span></span> <span data-ttu-id="2cffb-111">在此範例中，使用沒有協調流程和所有處理都都透過 BizTalk 傳訊，其使用 XPath。</span><span class="sxs-lookup"><span data-stu-id="2cffb-111">No orchestrations are used in this sample, and all the processing is done through BizTalk messaging using XPath.</span></span>  

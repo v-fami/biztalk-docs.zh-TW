@@ -1,14 +1,14 @@
 ---
-title: "高可用性的主要密碼伺服器 |Microsoft 文件"
-ms.custom: 
+title: 高可用性的主要密碼伺服器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9b99cb04-61a5-41cc-a409-35897c17b789
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008839"
 ---
 # <a name="high-availability-for-the-master-secret-server"></a><span data-ttu-id="7b87f-102">主要密碼伺服器的高可用性</span><span class="sxs-lookup"><span data-stu-id="7b87f-102">High Availability for the Master Secret Server</span></span>
 <span data-ttu-id="7b87f-103">即使您未使用 「 企業單一登入 (SSO) 功能來對應認證和單一登入，SSO 是很重要的一部分整體的 Microsoft BizTalk Server 基礎結構，因為[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]會使用 SSO 協助保護連接埠的資訊組態設定。</span><span class="sxs-lookup"><span data-stu-id="7b87f-103">Even if you do not use the Enterprise Single Sign-On (SSO) functionality for mapping credentials and single sign-on, SSO is a critical part of the overall Microsoft BizTalk Server infrastructure, because [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses SSO to help secure information for port configuration.</span></span> <span data-ttu-id="7b87f-104">連接埠組態資料已加密，並儲存在 SSO 資料庫中。</span><span class="sxs-lookup"><span data-stu-id="7b87f-104">The port configuration data is encrypted and stored in the SSO database.</span></span> <span data-ttu-id="7b87f-105">每個 BizTalk server 已用於加密及解密連接埠組態資料的 SSO 服務 (ENTSSO.exe)。</span><span class="sxs-lookup"><span data-stu-id="7b87f-105">Each BizTalk server has an SSO service (ENTSSO.exe) that is used for encrypting and decrypting the port configuration data.</span></span>  

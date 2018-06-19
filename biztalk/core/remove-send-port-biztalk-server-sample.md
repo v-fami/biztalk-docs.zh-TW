@@ -1,11 +1,11 @@
 ---
-title: "移除傳送埠 （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: 移除傳送埠 （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - send ports, examples
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - send ports, deleting
 - deleting, send ports
 ms.assetid: e6643525-fa9f-4d39-880f-314749a68471
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971444"
 ---
 # <a name="remove-send-port-biztalk-server-sample"></a><span data-ttu-id="fc18a-102">移除傳送埠 （BizTalk Server 範例）</span><span class="sxs-lookup"><span data-stu-id="fc18a-102">Remove Send Port (BizTalk Server Sample)</span></span>
 <span data-ttu-id="fc18a-103">「移除傳送埠」範例會示範如何取消登錄一或多個傳送埠，並且將其移除。</span><span class="sxs-lookup"><span data-stu-id="fc18a-103">The Remove Send Port sample demonstrates how to unenlist and remove one or more send ports.</span></span>  

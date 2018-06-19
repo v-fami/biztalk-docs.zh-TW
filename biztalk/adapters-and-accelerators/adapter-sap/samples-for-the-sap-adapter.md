@@ -1,15 +1,15 @@
 ---
-title: "SAP 配接器範例 |Microsoft 文件"
-description: "可以搭配 BizTalk Server、 WCF 服務模型中，WCF 通道模型和資料提供者適用於 SAP mySAP WCF 配接器範例"
-ms.custom: 
+title: SAP 配接器範例 |Microsoft 文件
+description: 可以搭配 BizTalk Server、 WCF 服務模型中，WCF 通道模型和資料提供者適用於 SAP mySAP WCF 配接器範例
+ms.custom: ''
 ms.date: 10/18/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4654c458-83be-417f-ae54-5c3a8f6ab81f
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014917"
 ---
 # <a name="samples-for-the-sap-adapter"></a><span data-ttu-id="a86c5-103">適用於 SAP 配接器範例</span><span class="sxs-lookup"><span data-stu-id="a86c5-103">Samples for the SAP adapter</span></span>
 <span data-ttu-id="a86c5-104">範例如[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]分類成：</span><span class="sxs-lookup"><span data-stu-id="a86c5-104">Samples for [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] are categorized into:</span></span>  

@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e1389284-a2ec-44e7-a2f1-8d26f83fd31d
-caps.latest.revision: ''
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26005303"
 ---
 # <a name="hipaa-schema-trigger-field-annotations"></a><span data-ttu-id="dd2c5-102">HIPAA 結構描述的觸發程序欄位註解</span><span class="sxs-lookup"><span data-stu-id="dd2c5-102">HIPAA Schema Trigger Field Annotations</span></span>
 <span data-ttu-id="dd2c5-103">EDI 區段通常包含修飾區段意義的辨識符號。</span><span class="sxs-lookup"><span data-stu-id="dd2c5-103">EDI segments often contain qualifier values that modify the meaning of the segment.</span></span> <span data-ttu-id="dd2c5-104">例如，N1 區段可能包含 “BT” 辨識元素以表示「帳單收件人」，或可能包含 “ST” 辨識元素以表示「出貨收件人」。</span><span class="sxs-lookup"><span data-stu-id="dd2c5-104">For example, an N1 segment can contain a qualifying element of “BT” to signify a “bill-to name,” or it may contain a qualifying element of “ST” to indicate a “ship-to name.”</span></span> <span data-ttu-id="dd2c5-105">商務邏輯決定如何解譯這些欄位通常會維持和解譯器會將 N1 區段的所有執行個體解析成相同的 XML 記錄名稱。不過，BizTalk Server 所隨附的 HIPAA 結構描述包含註解可讓 EDI 解譯器來建立根據存在的辨識元素的唯一 XML 記錄。</span><span class="sxs-lookup"><span data-stu-id="dd2c5-105">Normally it is left to business logic to determine how to interpret these fields and the disassembler resolves all instances of the N1 segment to the same XML record name; however, the HIPAA schemas shipped with BizTalk Server contain annotations that allow the EDI disassembler to create unique XML records based on the presence of a qualifying element.</span></span>  

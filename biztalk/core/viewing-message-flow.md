@@ -1,11 +1,11 @@
 ---
-title: "檢視訊息流程 |Microsoft 文件"
-ms.custom: 
+title: 檢視訊息流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - processing, messages
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - HAT, Message Flow view
 - messages, HAT
 ms.assetid: 08d2c052-98d0-43ca-99e5-48d0754411df
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289310"
 ---
 # <a name="viewing-message-flow"></a><span data-ttu-id="38936-102">檢視訊息流程</span><span class="sxs-lookup"><span data-stu-id="38936-102">Viewing Message Flow</span></span>
 <span data-ttu-id="38936-103">訊息流程是訊息採取的一組連續處理步驟。</span><span class="sxs-lookup"><span data-stu-id="38936-103">A message flow is the set of contiguous processing steps taken by a message.</span></span> <span data-ttu-id="38936-104">您透過 BizTalk Server 管理主控台的 [群組概觀] 頁面上的服務或訊息執行個體上按一下滑鼠右鍵時出現的捷徑功能表存取 [訊息] 檢視。</span><span class="sxs-lookup"><span data-stu-id="38936-104">You access the message view through the shortcut menu that appears when you right-click a service or message instance in the Group Overview page in the BizTalk Server Administration Console.</span></span> <span data-ttu-id="38936-105">一旦進入 [訊息流程] 檢視，您便可在 [訊息流程] 檢視與 [協調流程偵錯工具] 間來回切換。</span><span class="sxs-lookup"><span data-stu-id="38936-105">Once in the Message Flow view, you can switch back and forth between the Message Flow view and the Orchestration Debugger.</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289878"
 ---
 # <a name="windows-sharepoint-services-adapter"></a><span data-ttu-id="f82c2-102">Windows SharePoint Services 配接器</span><span class="sxs-lookup"><span data-stu-id="f82c2-102">Windows SharePoint Services Adapter</span></span>
 <span data-ttu-id="f82c2-103">Microsoft Windows SharePoint Services 的 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 配接器為 BizTalk Server 與 Windows SharePoint Services 和 Microsoft Office 提供更緊密的整合。</span><span class="sxs-lookup"><span data-stu-id="f82c2-103">The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adapter for Microsoft Windows SharePoint Services provides a tighter integration of BizTalk Server with Windows SharePoint Services and Microsoft Office.</span></span> <span data-ttu-id="f82c2-104">在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 解決方案中使用 Windows SharePoint Services 配接器，可提供您下列功能：</span><span class="sxs-lookup"><span data-stu-id="f82c2-104">Using the Windows SharePoint Services adapter in your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solution provides you with the following capabilities:</span></span>  

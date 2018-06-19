@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Query tab [Administration Console], searching
 - Query tab [Administration Console], messages
 ms.assetid: c751d23f-913a-4325-81da-a36d61c07e8b
-caps.latest.revision: ''
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22255278"
 ---
 # <a name="how-to-search-for-messages"></a><span data-ttu-id="94710-102">如何搜尋訊息</span><span class="sxs-lookup"><span data-stu-id="94710-102">How to Search for Messages</span></span>
 <span data-ttu-id="94710-103">您可以使用 **查詢** 在 BizTalk Server 管理主控台，來搜尋特定類別的訊息 索引標籤。</span><span class="sxs-lookup"><span data-stu-id="94710-103">You can use the **Query** tab in the BizTalk Server Administration Console to search for a specific class of messages.</span></span>  

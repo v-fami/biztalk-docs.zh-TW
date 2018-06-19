@@ -1,17 +1,17 @@
 ---
-title: "檢視的記錄備份還原 |Microsoft 文件"
-ms.custom: 
+title: 檢視的記錄備份還原 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - restoring, history
 - backing up, history
 ms.assetid: 8852befa-b8e7-469d-b014-75c881907442
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288150"
 ---
 # <a name="viewing-the-history-of-restored-backups"></a><span data-ttu-id="a6ba1-102">檢視所還原備份的歷程記錄</span><span class="sxs-lookup"><span data-stu-id="a6ba1-102">Viewing the History of Restored Backups</span></span>
 <span data-ttu-id="a6ba1-103">若要判斷上一個已還原的成功備份集，請檢視 Master.dbo.bts_LogShippingHistory 資料表的內容。</span><span class="sxs-lookup"><span data-stu-id="a6ba1-103">To determine the last successful backup set restored, review the contents of the Master.dbo.bts_LogShippingHistory table.</span></span> <span data-ttu-id="a6ba1-104">這個資料表是由「取得備份歷程記錄」工作填入，並且由「還原資料庫」工作更新。</span><span class="sxs-lookup"><span data-stu-id="a6ba1-104">This table is populated by the Get Backup History job and updated by the Restore Databases job.</span></span> <span data-ttu-id="a6ba1-105">成功還原備份時，會將 [已還原] 欄設定為 1，並將 RestoredDateTime 設定為目前的日期和時間。</span><span class="sxs-lookup"><span data-stu-id="a6ba1-105">When a backup is successfully restored, the Restored column is set to 1 and the RestoredDateTime is set to the current date and time.</span></span>  

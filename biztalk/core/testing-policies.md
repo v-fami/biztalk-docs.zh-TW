@@ -1,11 +1,11 @@
 ---
-title: "測試原則 |Microsoft 文件"
-ms.custom: 
+title: 測試原則 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - policies, tracking
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - testing, policies
 - policies, testing
 ms.assetid: 73f8286f-326d-42b3-b0b0-1586f63bd3db
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278294"
 ---
 # <a name="testing-policies"></a><span data-ttu-id="96ee3-102">測試原則</span><span class="sxs-lookup"><span data-stu-id="96ee3-102">Testing Policies</span></span>
 <span data-ttu-id="96ee3-103">本節描述測試原則的方式並說明追蹤資訊。</span><span class="sxs-lookup"><span data-stu-id="96ee3-103">This section describes how you can test policies and explains the tracking information.</span></span>  

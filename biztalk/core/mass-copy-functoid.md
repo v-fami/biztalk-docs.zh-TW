@@ -1,11 +1,11 @@
 ---
-title: "大量複製運算質 |Microsoft 文件"
-ms.custom: 
+title: 大量複製運算質 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - anyAttribute node
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - any node
 - Mass Copy functoids
 ms.assetid: 228ff569-2e21-4e81-b564-6936241cdf6b
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262654"
 ---
 # <a name="mass-copy-functoid"></a><span data-ttu-id="ebcde-102">大量複製運算質</span><span class="sxs-lookup"><span data-stu-id="ebcde-102">Mass Copy Functoid</span></span>
 <span data-ttu-id="ebcde-103">**大量複製**運算質可讓您使用包含的結構描述的對應**任何**和**anyAttribute**項目。</span><span class="sxs-lookup"><span data-stu-id="ebcde-103">The **Mass Copy** functoid enables your maps to use schemas that include **any** and **anyAttribute** elements.</span></span> <span data-ttu-id="ebcde-104">這些項目實際上是以 XML 結構描述定義語言提供的萬用字元對應未知的結構或屬性。</span><span class="sxs-lookup"><span data-stu-id="ebcde-104">These elements are, in essence, wildcards provided in the XML Schema definition language to match unknown structures or attributes.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "BizTalk Adapter Pack 的常見問題集 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Adapter Pack 的常見問題集 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0cdaf09a-50fe-4f30-bd9d-60e316351846
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22227086"
 ---
 # <a name="frequently-asked-questions"></a><span data-ttu-id="0c765-102">常見問題集</span><span class="sxs-lookup"><span data-stu-id="0c765-102">Frequently Asked Questions</span></span>
 <span data-ttu-id="0c765-103">關於常見問題集 (Faq) [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="0c765-103">Frequently asked questions (FAQs) about the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)].</span></span>  
@@ -55,7 +56,7 @@ ms.lasthandoff: 09/20/2017
 [<span data-ttu-id="0c765-131">SQL 配接器進行疑難排解</span><span class="sxs-lookup"><span data-stu-id="0c765-131">Troubleshoot the SQL adapter</span></span>](../adapters-and-accelerators/adapter-sql/troubleshoot-the-sql-adapter.md)  
   
 ### <a name="are-performance-counters-available-for-the-adapters"></a><span data-ttu-id="0c765-132">是適用於配接器效能計數器嗎？</span><span class="sxs-lookup"><span data-stu-id="0c765-132">Are performance counters available for the adapters?</span></span>  
-<span data-ttu-id="0c765-133">是的。</span><span class="sxs-lookup"><span data-stu-id="0c765-133">Yes.</span></span> <span data-ttu-id="0c765-134">[!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]提供**LOB 的時間 （累計）**效能計數器來測量時間 （毫秒），以完成某個動作，起始配接器所採用的 LOB 用戶端程式庫。</span><span class="sxs-lookup"><span data-stu-id="0c765-134">The [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] provides a **LOB Time (Cumulative)** performance counter to measure the time, in milliseconds, that the LOB client library takes to complete an action initiated by the adapter.</span></span>  <span data-ttu-id="0c765-135">您可以藉由設定啟用效能計數器`EnablePerformanceCounters`內容繫結至**True**。</span><span class="sxs-lookup"><span data-stu-id="0c765-135">You can enable the performance counters by setting the `EnablePerformanceCounters` binding property to **True**.</span></span> <span data-ttu-id="0c765-136">若要停用效能計數器，請設定`EnablePerformanceCounters`至**False** （預設值）。</span><span class="sxs-lookup"><span data-stu-id="0c765-136">To disable performance counters, set `EnablePerformanceCounters` to **False** (the default value).</span></span>   
+<span data-ttu-id="0c765-133">是的。</span><span class="sxs-lookup"><span data-stu-id="0c765-133">Yes.</span></span> <span data-ttu-id="0c765-134">[!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]提供**LOB 的時間 （累計）** 效能計數器來測量時間 （毫秒），以完成某個動作，起始配接器所採用的 LOB 用戶端程式庫。</span><span class="sxs-lookup"><span data-stu-id="0c765-134">The [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] provides a **LOB Time (Cumulative)** performance counter to measure the time, in milliseconds, that the LOB client library takes to complete an action initiated by the adapter.</span></span>  <span data-ttu-id="0c765-135">您可以藉由設定啟用效能計數器`EnablePerformanceCounters`內容繫結至**True**。</span><span class="sxs-lookup"><span data-stu-id="0c765-135">You can enable the performance counters by setting the `EnablePerformanceCounters` binding property to **True**.</span></span> <span data-ttu-id="0c765-136">若要停用效能計數器，請設定`EnablePerformanceCounters`至**False** （預設值）。</span><span class="sxs-lookup"><span data-stu-id="0c765-136">To disable performance counters, set `EnablePerformanceCounters` to **False** (the default value).</span></span>   
 
 ## <a name="biztalk-server-questions"></a><span data-ttu-id="0c765-137">BizTalk Server 的問題</span><span class="sxs-lookup"><span data-stu-id="0c765-137">BizTalk Server questions</span></span>
 

@@ -1,14 +1,14 @@
 ---
-title: "TA1 區段功能群組後，仍找到 |Microsoft 文件"
-ms.custom: 
+title: TA1 區段功能群組後，仍找到 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ee3d090a-0916-4a0e-82dc-2c9af9f97683
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278518"
 ---
 # <a name="ta1-segment-found-after-a-functional-group"></a><span data-ttu-id="7dc7c-102">功能群組後，仍找到 TA1 區段</span><span class="sxs-lookup"><span data-stu-id="7dc7c-102">TA1 segment found after a functional group</span></span>
 ## <a name="details"></a><span data-ttu-id="7dc7c-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="7dc7c-103">Details</span></span>  

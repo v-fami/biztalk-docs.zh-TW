@@ -1,14 +1,14 @@
 ---
-title: "步驟 5： 測試方案 |Microsoft 文件"
-ms.custom: 
+title: 步驟 5： 測試方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a5ca5301-2ee4-4024-a90a-396ed681d12a
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22276886"
 ---
 # <a name="step-5-test-the-solution"></a><span data-ttu-id="fdff1-102">步驟 5： 測試方案</span><span class="sxs-lookup"><span data-stu-id="fdff1-102">Step 5: Test the Solution</span></span>
 <span data-ttu-id="fdff1-103">此解決方案旨在自動化程序傳送通知給[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，每當在 Salesforce 中關閉新商機的設定當做商機的階段**Closed Won**。</span><span class="sxs-lookup"><span data-stu-id="fdff1-103">This solution aims at automating the process of sending notifications to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], every time a new opportunity is closed in Salesforce by setting the stage of the opportunity as **Closed Won**.</span></span> <span data-ttu-id="fdff1-104">在收到通知之後[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]傳送查詢到 Salesforce 擷取與商機相關的產品詳細資料，然後將回應從 Salesforce 插入呼叫的 SQL Server 資料庫資料表**OrderDetails**.</span><span class="sxs-lookup"><span data-stu-id="fdff1-104">After the notification is received [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] sends a query to Salesforce to retrieve product details related to the opportunity, and then inserts the response from Salesforce into a SQL Server database table called **OrderDetails**.</span></span> <span data-ttu-id="fdff1-105">因此，若要測試此解決方案，我們將更新的機會階段**Closed Won** ，如此一來，您必須取得相關的記錄插入 OrderDetails 資料表中 「 訂單 」 資料庫中。</span><span class="sxs-lookup"><span data-stu-id="fdff1-105">So, to test this solution, we will update the stage of an opportunity to **Closed Won** and as a result, relevant records must get inserted in the OrderDetails table in the Orders database.</span></span>  

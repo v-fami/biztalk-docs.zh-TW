@@ -1,14 +1,14 @@
 ---
-title: "EDI 移轉的已知問題 |Microsoft 文件"
-ms.custom: 
+title: EDI 移轉的已知問題 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cc5d0a7e-974d-4e3b-a406-412420779456
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005967"
 ---
 # <a name="known-issues-with-edi-migration"></a><span data-ttu-id="64aca-102">EDI 移轉的已知問題</span><span class="sxs-lookup"><span data-stu-id="64aca-102">Known Issues with EDI Migration</span></span>
 <span data-ttu-id="64aca-103">本主題說明中的 EDI/HIPAA 配接器模型移轉的已知的問題[!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)]至 BizTalk Server。</span><span class="sxs-lookup"><span data-stu-id="64aca-103">This topic describes known issues with migration from the EDI/HIPAA adapter model in [!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)] to BizTalk Server.</span></span>  

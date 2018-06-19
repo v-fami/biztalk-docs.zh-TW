@@ -8,15 +8,16 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b331c9c5-ca90-4a05-b3f6-59db88bf73dc
-caps.latest.revision: ''
+caps.latest.revision: 3
 author: gplarsen
 ms.author: hisdocs; plarsen
 manager: anneta
 ms.openlocfilehash: 5e640f2762ed9f9cc03a7795062c98a6aa76a59d
 ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "30250946"
 ---
 # <a name="how-to-restore-the-master-secret"></a><span data-ttu-id="b3621-102">如何還原主要密碼</span><span class="sxs-lookup"><span data-stu-id="b3621-102">How to Restore the Master Secret</span></span>
 <span data-ttu-id="b3621-103">資料復原程序的一部分，您可能必須還原主要密碼，才能重複使用現有的資料。</span><span class="sxs-lookup"><span data-stu-id="b3621-103">As part of data recovery procedures, you might have to restore the master secret to reuse existing data.</span></span> <span data-ttu-id="b3621-104">若要執行這項工作中，您必須登入主要密碼伺服器使用的是 Windows 系統管理員和單一登入 (SSO) 系統管理員的帳戶。</span><span class="sxs-lookup"><span data-stu-id="b3621-104">To perform this task, you must log on to the master secret server by using an account that is both a Windows administrator and a Single Sign-On (SSO) administrator.</span></span>  
@@ -39,7 +40,7 @@ ms.lasthandoff: 03/28/2018
   
      <span data-ttu-id="b3621-114">預設安裝目錄是*\<磁碟機 >*: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="b3621-114">The default installation directory is *\<drive>*:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-4.  <span data-ttu-id="b3621-115">型別`ssoconfig –restoresecret <restore file>`，其中*\<還原檔案 >*是儲存主要密碼的檔案名稱與路徑。</span><span class="sxs-lookup"><span data-stu-id="b3621-115">Type `ssoconfig –restoresecret <restore file>`, where *\<restore file>* is the path and name of the file where the master secret is stored.</span></span>  
+4.  <span data-ttu-id="b3621-115">型別`ssoconfig –restoresecret <restore file>`，其中*\<還原檔案 >* 是儲存主要密碼的檔案名稱與路徑。</span><span class="sxs-lookup"><span data-stu-id="b3621-115">Type `ssoconfig –restoresecret <restore file>`, where *\<restore file>* is the path and name of the file where the master secret is stored.</span></span>  
   
 ## <a name="see-also"></a><span data-ttu-id="b3621-116">另請參閱</span><span class="sxs-lookup"><span data-stu-id="b3621-116">See Also</span></span>  
  <span data-ttu-id="b3621-117">[如何產生主要密碼](../esso/how-to-generate-the-master-secret.md) </span><span class="sxs-lookup"><span data-stu-id="b3621-117">[How to Generate the Master Secret](../esso/how-to-generate-the-master-secret.md) </span></span>  

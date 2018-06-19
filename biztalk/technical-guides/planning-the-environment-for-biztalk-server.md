@@ -1,14 +1,14 @@
 ---
-title: "規劃 BizTalk Server 環境 |Microsoft 文件"
-ms.custom: 
+title: 規劃 BizTalk Server 環境 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3e9ef0b4-eccb-47e2-bbb5-e859ffa0468c
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010575"
 ---
 # <a name="planning-the-environment-for-biztalk-server"></a><span data-ttu-id="77e30-102">規劃 BizTalk Server 環境</span><span class="sxs-lookup"><span data-stu-id="77e30-102">Planning the Environment for BizTalk Server</span></span>
 <span data-ttu-id="77e30-103">操作指南中的規劃 > 一節說明角色和責任聯[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境。</span><span class="sxs-lookup"><span data-stu-id="77e30-103">The planning section of the operations guide describes roles and responsibilities associated with a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment.</span></span> <span data-ttu-id="77e30-104">它包含規劃建議的應用程式和資料層[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境中，並可提供發行計劃建議的 BizTalk 解決方案的管理階段。</span><span class="sxs-lookup"><span data-stu-id="77e30-104">It includes planning recommendations for the application and data tiers of a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment, and it provides planning recommendations for the release management stages of a BizTalk solution.</span></span>  

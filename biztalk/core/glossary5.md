@@ -18,6 +18,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25975841"
 ---
 # <a name="glossary"></a><span data-ttu-id="cc989-103">詞彙</span><span class="sxs-lookup"><span data-stu-id="cc989-103">Glossary</span></span>
 <span data-ttu-id="cc989-104">以下是「Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 說明」中所採用的詞彙及其定義。</span><span class="sxs-lookup"><span data-stu-id="cc989-104">The following terms and definitions are used in Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.</span></span>  

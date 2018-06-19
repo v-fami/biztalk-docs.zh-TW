@@ -1,15 +1,15 @@
 ---
-title: "啟用 [追蹤傳送埠] |Microsoft 文件"
-description: "開啟訊息內文追蹤，並在 BizTalk Server 中的傳送埠上追蹤訊息屬性"
-ms.custom: 
+title: 啟用 [追蹤傳送埠] |Microsoft 文件
+description: 開啟訊息內文追蹤，並在 BizTalk Server 中的傳送埠上追蹤訊息屬性
+ms.custom: ''
 ms.date: 12/13/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f32e97b0-244c-4acc-8f3f-b18cdb9ec0da
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/13/2017
+ms.locfileid: "26686629"
 ---
 # <a name="configure-send-port-tracking-in-biztalk-server"></a><span data-ttu-id="db470-103">在 BizTalk Server 中設定傳送埠的追蹤</span><span class="sxs-lookup"><span data-stu-id="db470-103">Configure send port tracking in BizTalk Server</span></span>
 <span data-ttu-id="db470-104">使用[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台來設定追蹤傳送埠，例如選項，以檢視訊息內文和升級屬性。</span><span class="sxs-lookup"><span data-stu-id="db470-104">Use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console to configure tracking for a send port, such as options to view message bodies and promoted properties.</span></span> <span data-ttu-id="db470-105">這可以協助您監控 BizTalk 實作的狀況並找出任何瓶頸。</span><span class="sxs-lookup"><span data-stu-id="db470-105">This helps you monitor the health of your BizTalk implementation and identify any bottlenecks.</span></span> <span data-ttu-id="db470-106">您設定的追蹤設定適用於傳送埠的所有執行個體。</span><span class="sxs-lookup"><span data-stu-id="db470-106">The tracking settings that you configure apply to all of the instances of the send port.</span></span>  

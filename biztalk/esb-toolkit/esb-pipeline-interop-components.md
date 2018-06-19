@@ -1,14 +1,14 @@
 ---
-title: "ESB 管線 Interop 元件 |Microsoft 文件"
-ms.custom: 
+title: ESB 管線 Interop 元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 25f9fb9d-d3d4-4df8-8e81-38b432f42ccf
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294126"
 ---
 # <a name="esb-pipeline-interop-components"></a><span data-ttu-id="b3b59-102">ESB 管線 Interop 元件</span><span class="sxs-lookup"><span data-stu-id="b3b59-102">ESB Pipeline Interop Components</span></span>
 <span data-ttu-id="b3b59-103">[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]提供支援元件和服務，包括下列：</span><span class="sxs-lookup"><span data-stu-id="b3b59-103">The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] provides support components and services, including the following:</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "如何更新執行階段電腦 |Microsoft 文件"
-ms.custom: 
+title: 如何更新執行階段電腦 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 576a7065-04b6-436c-acf9-28c8d6e40107
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010895"
 ---
 # <a name="how-to-update-the-runtime-computers"></a><span data-ttu-id="ec8ea-102">如何更新執行階段電腦</span><span class="sxs-lookup"><span data-stu-id="ec8ea-102">How to Update the Runtime Computers</span></span>
 <span data-ttu-id="ec8ea-103">在目的系統[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]設定執行階段電腦[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]組態精靈，在實際執行環境中執行的生產環境 BizTalk 群組的一部分。</span><span class="sxs-lookup"><span data-stu-id="ec8ea-103">The destination system [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] runtime computers are configured with the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Configuration Wizard as part of the production BizTalk group running in the production environment.</span></span> <span data-ttu-id="ec8ea-104">嚴重損壞修復環境中還原的實際執行的 BizTalk 群組時，必須在每個更新設定[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]讓它指向嚴重損壞修復的執行階段電腦[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]時若嘗試連接到已還原的執行個體實際執行的 BizTalk 群組。</span><span class="sxs-lookup"><span data-stu-id="ec8ea-104">When the production BizTalk group is restored in the disaster recovery environment, settings must be updated on each [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] runtime computer so that it points to the disaster recovery [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] instance(s) when it attempts to connect to the restored production BizTalk group.</span></span> <span data-ttu-id="ec8ea-105">在目的系統還原 BizTalk 群組之後，使用下列程序來更新[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]執行階段電腦。</span><span class="sxs-lookup"><span data-stu-id="ec8ea-105">After the BizTalk group is restored in the destination system, use the following procedure to update the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] runtime computers.</span></span>  

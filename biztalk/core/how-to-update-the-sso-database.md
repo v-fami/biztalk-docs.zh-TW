@@ -1,11 +1,11 @@
 ---
-title: "如何更新 SSO 資料庫 |Microsoft 文件"
-ms.custom: 
+title: 如何更新 SSO 資料庫 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - tickets [SSO], modifying
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - managing [SSO], modifying ticket timeouts
 - SSO database, modifying
 ms.assetid: 45eb6a77-d91a-44a8-b26d-05508c288c36
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971316"
 ---
 # <a name="how-to-update-the-sso-database"></a><span data-ttu-id="73a42-102">如何更新 SSO 資料庫</span><span class="sxs-lookup"><span data-stu-id="73a42-102">How to Update the SSO Database</span></span>
 <span data-ttu-id="73a42-103">使用 MMC 嵌入式管理單元或命令列，可以變更 SSO 資料庫中的全域資訊，像是主要密碼伺服器識別碼、帳戶名稱、資料庫中的稽核、票證逾時以及認證快取逾時。</span><span class="sxs-lookup"><span data-stu-id="73a42-103">You can change the global information in the SSO database, such as the master secret server identification, the account names, auditing in the database, ticket timeout, and credential cache timeout, by using either the MMC Snap-In or the command line.</span></span>  
@@ -57,7 +58,7 @@ ms.lasthandoff: 11/28/2017
   
 #### <a name="to-change-timeouts-using-the-mmc-snap-in"></a><span data-ttu-id="73a42-117">使用 MMC 嵌入式管理單元變更逾時</span><span class="sxs-lookup"><span data-stu-id="73a42-117">To change timeouts using the MMC Snap-In</span></span>  
   
-1.  <span data-ttu-id="73a42-118">在 **[開始]** 功能表上，依序按一下 **[所有程式]**及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。</span><span class="sxs-lookup"><span data-stu-id="73a42-118">On the **Start** menu, click **All Programs**, click **Microsoft Enterprise Single Sign-On**, and then click **SSO Administration**.</span></span>  
+1.  <span data-ttu-id="73a42-118">在 **[開始]** 功能表上，依序按一下 **[所有程式]** 及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。</span><span class="sxs-lookup"><span data-stu-id="73a42-118">On the **Start** menu, click **All Programs**, click **Microsoft Enterprise Single Sign-On**, and then click **SSO Administration**.</span></span>  
   
 2.  <span data-ttu-id="73a42-119">在 ENTSSO MMC 嵌入式管理單元的範圍窗格中，展開 **[企業單一登入]** 節點。</span><span class="sxs-lookup"><span data-stu-id="73a42-119">In the scope pane of the ENTSSO MMC Snap-In, expand the **Enterprise Single Sign-On** node.</span></span>  
   
@@ -69,7 +70,7 @@ ms.lasthandoff: 11/28/2017
   
 #### <a name="to-update-the-sso-database-using-the-mmc-snap-in"></a><span data-ttu-id="73a42-123">若要使用 MMC 嵌入式管理單元更新 SSO 資料庫</span><span class="sxs-lookup"><span data-stu-id="73a42-123">To update the SSO database using the MMC Snap-In</span></span>  
   
-1.  <span data-ttu-id="73a42-124">在 **[開始]** 功能表上，依序按一下 **[所有程式]**及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。</span><span class="sxs-lookup"><span data-stu-id="73a42-124">On the **Start** menu, click **All Programs**, click **Microsoft Enterprise Single Sign-On**, and then click **SSO Administration**.</span></span>  
+1.  <span data-ttu-id="73a42-124">在 **[開始]** 功能表上，依序按一下 **[所有程式]** 及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。</span><span class="sxs-lookup"><span data-stu-id="73a42-124">On the **Start** menu, click **All Programs**, click **Microsoft Enterprise Single Sign-On**, and then click **SSO Administration**.</span></span>  
   
 2.  <span data-ttu-id="73a42-125">在 ENTSSO MMC 嵌入式管理單元的範圍窗格中，展開 **[企業單一登入]** 節點。</span><span class="sxs-lookup"><span data-stu-id="73a42-125">In the scope pane of the ENTSSO MMC Snap-In, expand the **Enterprise Single Sign-On** node.</span></span>  
   
@@ -77,11 +78,11 @@ ms.lasthandoff: 11/28/2017
   
 #### <a name="to-update-the-sso-database-using-the-command-line"></a><span data-ttu-id="73a42-127">使用命令列更新 SSO 資料庫</span><span class="sxs-lookup"><span data-stu-id="73a42-127">To update the SSO database using the command line</span></span>  
   
-1.  <span data-ttu-id="73a42-128">依序按一下 **[開始]**及 **[執行]**，然後輸入 **cmd**。</span><span class="sxs-lookup"><span data-stu-id="73a42-128">Click **Start**, click **Run**, and then type **cmd**.</span></span>  
+1.  <span data-ttu-id="73a42-128">依序按一下 **[開始]** 及 **[執行]**，然後輸入 **cmd**。</span><span class="sxs-lookup"><span data-stu-id="73a42-128">Click **Start**, click **Run**, and then type **cmd**.</span></span>  
   
 2.  <span data-ttu-id="73a42-129">在命令列提示字元中，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="73a42-129">At the command line prompt, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="73a42-130">預設安裝目錄是*\<磁碟機\>*: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="73a42-130">The default installation directory is *\<drive\>*:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-3.  <span data-ttu-id="73a42-131">型別**ssomanage – updatedb\<更新檔案\>**，其中**\<更新檔案\>**路徑和檔案名稱。</span><span class="sxs-lookup"><span data-stu-id="73a42-131">Type **ssomanage –updatedb \<update file\>**, where **\<update file\>** is the path and name of the file.</span></span>  
+3.  <span data-ttu-id="73a42-131">型別**ssomanage – updatedb\<更新檔案\>**，其中**\<更新檔案\>** 路徑和檔案名稱。</span><span class="sxs-lookup"><span data-stu-id="73a42-131">Type **ssomanage –updatedb \<update file\>**, where **\<update file\>** is the path and name of the file.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="73a42-132">在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。</span><span class="sxs-lookup"><span data-stu-id="73a42-132">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  

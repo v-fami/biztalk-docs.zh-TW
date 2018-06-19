@@ -1,14 +1,14 @@
 ---
-title: "如何識別 BAM 主要匯入資料庫中的瓶頸 |Microsoft 文件"
-ms.custom: 
+title: 如何識別 BAM 主要匯入資料庫中的瓶頸 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0372f1f1-d892-4f7d-b6c4-e0f2b5a02f1c
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976556"
 ---
 # <a name="how-to-identify-bottlenecks-in-the-bam-primary-import-database"></a><span data-ttu-id="c3691-102">如何識別 BAM 主要匯入資料庫中的瓶頸</span><span class="sxs-lookup"><span data-stu-id="c3691-102">How to Identify Bottlenecks in the BAM Primary Import Database</span></span>
 <span data-ttu-id="c3691-103">若要識別商務活動監控 (BAM) 資料庫中的瓶頸，請執行下列步驟：</span><span class="sxs-lookup"><span data-stu-id="c3691-103">To identify bottlenecks in the Business Activity Monitoring (BAM) database, perform the following steps:</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "結構描述節點 |Microsoft 文件"
-ms.custom: 
+title: 結構描述節點 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7ea02c2a-ee00-4f44-9086-83d7ac4a8832
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972228"
 ---
 # <a name="schema-node"></a><span data-ttu-id="0013b-102">結構描述節點</span><span class="sxs-lookup"><span data-stu-id="0013b-102">Schema Node</span></span>
 
@@ -31,7 +32,7 @@ ms.lasthandoff: 11/28/2017
  <span data-ttu-id="0013b-110">當您在 「 BizTalk 編輯器 」 中，建立新的 XML 結構描述**結構描述**節點和一個**根**節點會自動建立。</span><span class="sxs-lookup"><span data-stu-id="0013b-110">When you create a new XML schema in BizTalk Editor, the **Schema** node and one **Root** node are created automatically.</span></span>  
   
 ## <a name="xsd-representation"></a><span data-ttu-id="0013b-111">XSD 表示法</span><span class="sxs-lookup"><span data-stu-id="0013b-111">XSD representation</span></span>  
- <span data-ttu-id="0013b-112">下列範例所示，以粗體類型，對應至結構描述之 XSD 表示法中的線條**\<結構描述\>**的結構描述樹狀檢視中的節點。</span><span class="sxs-lookup"><span data-stu-id="0013b-112">The following example shows, in bold type, the lines in the XSD representation of the schema that correspond to the **\<Schema\>** node in the tree view of the schema.</span></span>  
+ <span data-ttu-id="0013b-112">下列範例所示，以粗體類型，對應至結構描述之 XSD 表示法中的線條**\<結構描述\>** 的結構描述樹狀檢視中的節點。</span><span class="sxs-lookup"><span data-stu-id="0013b-112">The following example shows, in bold type, the lines in the XSD representation of the schema that correspond to the **\<Schema\>** node in the tree view of the schema.</span></span>  
   
 ```  
 <?xml version="1.0" encoding="utf-16" ?>  

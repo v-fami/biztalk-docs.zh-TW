@@ -1,14 +1,14 @@
 ---
-title: "設定傳送埠關聯 (X12) |Microsoft 文件"
-ms.custom: 
+title: 設定傳送埠關聯 (X12) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 496beb0a-fabf-416e-bc3c-d8537097b50e
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005559"
 ---
 # <a name="configuring-send-port-association-x12"></a><span data-ttu-id="fc81a-102">設定傳送埠關聯 (X12)</span><span class="sxs-lookup"><span data-stu-id="fc81a-102">Configuring Send Port Association (X12)</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="fc81a-103"> 使用傳送埠關聯以解析外寄 EDI 交換的協議。</span><span class="sxs-lookup"><span data-stu-id="fc81a-103"> uses send port association to resolve an agreement for an outgoing EDI interchange.</span></span> <span data-ttu-id="fc81a-104">解析 EDI 交換所用協議的方法是，將訂閱該訊息的傳送埠和與協議相關聯的傳送埠進行比對。</span><span class="sxs-lookup"><span data-stu-id="fc81a-104">An EDI interchange is resolved to an agreement by matching the send port that subscribed to the message with the send port associated with an agreement.</span></span> <span data-ttu-id="fc81a-105">本主題提供如何將傳送埠關聯至協議的指示。</span><span class="sxs-lookup"><span data-stu-id="fc81a-105">This topic provides instructions on how to associate send ports to an agreement.</span></span>  

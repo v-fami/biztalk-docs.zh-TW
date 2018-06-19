@@ -1,14 +1,14 @@
 ---
-title: "EDI 狀態報告的儲存資料 |Microsoft 文件"
-ms.custom: 
+title: EDI 狀態報告的儲存資料 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ec66e4d7-2694-499f-a60c-2f80fe643e12
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970620"
 ---
 # <a name="data-stored-for-edi-status-reports"></a><span data-ttu-id="ad4fc-102">EDI 狀態報告的儲存資料</span><span class="sxs-lookup"><span data-stu-id="ad4fc-102">Data Stored for EDI Status Reports</span></span>
 <span data-ttu-id="ad4fc-103">EDI 狀態報告中有兩個層級的報告： 第一個 if**開啟報告**協議，和第二個如果選取屬性**儲存交易集/內容報告**選取協議屬性。</span><span class="sxs-lookup"><span data-stu-id="ad4fc-103">Two levels of reporting are available in EDI status reporting: the first if the **Turn ON Reporting** property is selected for an agreement, and the second if the **Store transaction set/payload reporting** property is selected for an agreement.</span></span> <span data-ttu-id="ad4fc-104">這些屬性可用於**一般屬性**頁面**一般**索引標籤中**協議屬性** 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="ad4fc-104">These properties are available in the **General Properties** page of the **General** tab in the **Agreement Properties** dialog box.</span></span>  
@@ -77,7 +78,7 @@ ms.lasthandoff: 11/28/2017
 |<span data-ttu-id="ad4fc-154">TransactionSetStatus</span><span class="sxs-lookup"><span data-stu-id="ad4fc-154">TransactionSetStatus</span></span>|<span data-ttu-id="ad4fc-155">Accepted、AcceptedWithError 或 Rejected</span><span class="sxs-lookup"><span data-stu-id="ad4fc-155">Accepted, AcceptedWithError, or Rejected</span></span>|  
 |<span data-ttu-id="ad4fc-156">方向</span><span class="sxs-lookup"><span data-stu-id="ad4fc-156">Direction</span></span>|<span data-ttu-id="ad4fc-157">傳送或接收</span><span class="sxs-lookup"><span data-stu-id="ad4fc-157">Send or Receive</span></span>|  
 |<span data-ttu-id="ad4fc-158">BtsProcessingTime</span><span class="sxs-lookup"><span data-stu-id="ad4fc-158">BtsProcessingTime</span></span>|<span data-ttu-id="ad4fc-159">在接收端：做為管線中戳記的 BTSReceiveTime (本地時間)</span><span class="sxs-lookup"><span data-stu-id="ad4fc-159">On receive side: BTSReceiveTime (local time) as stamped in the Pipeline</span></span><br /><br /> <span data-ttu-id="ad4fc-160">在傳送端：由 ASM 元件加上做為信封上戳記的 BTSSendTime (本地時間)</span><span class="sxs-lookup"><span data-stu-id="ad4fc-160">On send side: BTSSendTime as (local time) stamped on the envelope by the ASM component</span></span>|  
-|<span data-ttu-id="ad4fc-161">BTS.MessageId</span><span class="sxs-lookup"><span data-stu-id="ad4fc-161">BTS.MessageId</span></span>|<span data-ttu-id="ad4fc-162">在接收端：來自訊息屬性的 BTSMessageId</span><span class="sxs-lookup"><span data-stu-id="ad4fc-162">On receive side: BTSMessageId from message properties</span></span><br /><br /> <span data-ttu-id="ad4fc-163">在傳送端：</span><span class="sxs-lookup"><span data-stu-id="ad4fc-163">On send side:</span></span><br /><br /> <span data-ttu-id="ad4fc-164">對於單一交易集：BTSMessageId</span><span class="sxs-lookup"><span data-stu-id="ad4fc-164">For single Transaction Set: BTSMessageId</span></span><br /><br /> <span data-ttu-id="ad4fc-165">對於輸出批次： 批次 (不是批次訊息的 BTSMessageId) 中的每個個別訊息的 TransactionSet BTSMessageId**附註：**儲存體只 – 將不會顯示在 UI 中。</span><span class="sxs-lookup"><span data-stu-id="ad4fc-165">For outbound batch: TransactionSet BTSMessageId for each individual message in batch (not the BTSMessageId for the batch message) **Note:**  Storage only – will not be displayed in UI.</span></span>|  
+|<span data-ttu-id="ad4fc-161">BTS.MessageId</span><span class="sxs-lookup"><span data-stu-id="ad4fc-161">BTS.MessageId</span></span>|<span data-ttu-id="ad4fc-162">在接收端：來自訊息屬性的 BTSMessageId</span><span class="sxs-lookup"><span data-stu-id="ad4fc-162">On receive side: BTSMessageId from message properties</span></span><br /><br /> <span data-ttu-id="ad4fc-163">在傳送端：</span><span class="sxs-lookup"><span data-stu-id="ad4fc-163">On send side:</span></span><br /><br /> <span data-ttu-id="ad4fc-164">對於單一交易集：BTSMessageId</span><span class="sxs-lookup"><span data-stu-id="ad4fc-164">For single Transaction Set: BTSMessageId</span></span><br /><br /> <span data-ttu-id="ad4fc-165">對於輸出批次： 批次 (不是批次訊息的 BTSMessageId) 中的每個個別訊息的 TransactionSet BTSMessageId**附註：** 儲存體只 – 將不會顯示在 UI 中。</span><span class="sxs-lookup"><span data-stu-id="ad4fc-165">For outbound batch: TransactionSet BTSMessageId for each individual message in batch (not the BTSMessageId for the batch message) **Note:**  Storage only – will not be displayed in UI.</span></span>|  
   
 ## <a name="see-also"></a><span data-ttu-id="ad4fc-166">請參閱</span><span class="sxs-lookup"><span data-stu-id="ad4fc-166">See Also</span></span>  
  <span data-ttu-id="ad4fc-167">[EDI 和 AS2 狀態報告的儲存資料](../core/data-stored-for-edi-and-as2-status-reports.md) </span><span class="sxs-lookup"><span data-stu-id="ad4fc-167">[Data Stored for EDI and AS2 Status Reports](../core/data-stored-for-edi-and-as2-status-reports.md) </span></span>  

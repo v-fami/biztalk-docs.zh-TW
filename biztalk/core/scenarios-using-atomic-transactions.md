@@ -1,11 +1,11 @@
 ---
-title: "使用不可部分完成交易的案例 |Microsoft 文件"
-ms.custom: 
+title: 使用不可部分完成交易的案例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Scope shape [Orchestration Designer], examples
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - atomic transactions, examples
 - examples, atomic transactions
 ms.assetid: f3481b4e-7e7e-47f0-b8f4-6012a2fc5310
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270942"
 ---
 # <a name="scenarios-using-atomic-transactions"></a><span data-ttu-id="e3acf-102">使用不可部分完成交易的案例</span><span class="sxs-lookup"><span data-stu-id="e3acf-102">Scenarios Using Atomic Transactions</span></span>
 <span data-ttu-id="e3acf-103">下列案例將描述不可部分完成交易的用法。</span><span class="sxs-lookup"><span data-stu-id="e3acf-103">The following scenarios describe the use of atomic transactions.</span></span>  

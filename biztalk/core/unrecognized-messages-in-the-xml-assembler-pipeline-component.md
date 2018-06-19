@@ -1,18 +1,18 @@
 ---
-title: "無法辨識的訊息，在 XML 組合器管線元件 |Microsoft 文件"
-ms.custom: 
+title: 無法辨識的訊息，在 XML 組合器管線元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - XMLNorm.AllowUnrecognizedMessage property
 - XML Assembler [pipeline component], unrecognized messages
 - pipeline components, XML Assembler
 ms.assetid: dd98512a-33a4-4b2e-977e-1b3a30747c6a
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286806"
 ---
 # <a name="unrecognized-messages-in-the-xml-assembler-pipeline-component"></a><span data-ttu-id="a6b84-102">XML 組合器管線元件中無法辨識的訊息</span><span class="sxs-lookup"><span data-stu-id="a6b84-102">Unrecognized Messages in the XML Assembler Pipeline Component</span></span>
 <span data-ttu-id="a6b84-103">如果訊息發生下列情況，則 XML 組合器元件會將訊息視為「無法辨識」：</span><span class="sxs-lookup"><span data-stu-id="a6b84-103">The XML Assembler component treats a message as "unrecognized" if a message has:</span></span>  

@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22291590"
 ---
 # <a name="walkthrough-creating-a-flat-file-schema-from-a-document-instance"></a><span data-ttu-id="b3d8d-102">逐步解說：從文件執行個體建立一般檔案結構描述</span><span class="sxs-lookup"><span data-stu-id="b3d8d-102">Walkthrough: Creating a Flat File Schema From a Document Instance</span></span>
 <span data-ttu-id="b3d8d-103">此逐步解說為您顯示如何根據下列範例訂單，使用 BizTalk 一般檔案結構描述精靈從文件執行個體建立一般檔案結構描述。</span><span class="sxs-lookup"><span data-stu-id="b3d8d-103">This walkthrough shows you how to create a flat file schema from a document instance using the BizTalk Flat File Schema Wizard based on the following sample purchase order.</span></span> <span data-ttu-id="b3d8d-104">如需 BizTalk 一般檔案結構描述精靈的簡介，請參閱[如何使用 BizTalk 一般檔案結構描述精靈](../core/how-to-use-biztalk-flat-file-schema-wizard.md)。</span><span class="sxs-lookup"><span data-stu-id="b3d8d-104">For an introduction to the BizTalk Flat File Schema Wizard, see [How to Use BizTalk Flat File Schema Wizard](../core/how-to-use-biztalk-flat-file-schema-wizard.md).</span></span>  
@@ -70,7 +71,7 @@ ITEMS,ITEM872-AA|Lawnmower|1|148.95|Confirm this is electric,ITEM926-AA|Baby Mon
   
     -   <span data-ttu-id="b3d8d-133">**記錄名稱︰** 類型 **PO** 作為結構描述根名稱。</span><span class="sxs-lookup"><span data-stu-id="b3d8d-133">**Record name:** Type **PO** as it will be the schema root name.</span></span>  
   
-    -   <span data-ttu-id="b3d8d-134">**目標命名空間：**類型**http://Flat_File_Project.PurchaseOrder**結構描述目標命名空間。</span><span class="sxs-lookup"><span data-stu-id="b3d8d-134">**Target namespace:** Type **http://Flat_File_Project.PurchaseOrder** for schema target namespace.</span></span>  
+    -   <span data-ttu-id="b3d8d-134">**目標命名空間：** 類型**http://Flat_File_Project.PurchaseOrder**結構描述目標命名空間。</span><span class="sxs-lookup"><span data-stu-id="b3d8d-134">**Target namespace:** Type **http://Flat_File_Project.PurchaseOrder** for schema target namespace.</span></span>  
   
     -   <span data-ttu-id="b3d8d-135">**字碼頁︰** 選取 **utf-8 (65001)** 從下拉式清單選取項目。</span><span class="sxs-lookup"><span data-stu-id="b3d8d-135">**Code page:** Select **UTF-8 (65001)** from the drop down selection list.</span></span>  
   

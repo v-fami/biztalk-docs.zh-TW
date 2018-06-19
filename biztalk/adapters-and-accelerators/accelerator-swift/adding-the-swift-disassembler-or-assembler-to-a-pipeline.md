@@ -1,11 +1,11 @@
 ---
-title: "加入 SWIFT 解譯器 」 或 「 組合器管線 |Microsoft 文件"
-ms.custom: 
+title: 加入 SWIFT 解譯器 」 或 「 組合器管線 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipelines, adding assembler
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - pipelines, adding disassembler
 - disassembler, adding to pipelines
 ms.assetid: f39eb340-fe58-4c8f-b3f2-f7686a245095
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005247"
 ---
 # <a name="adding-the-swift-disassembler-or-assembler-to-a-pipeline"></a><span data-ttu-id="2b31b-102">管線中新增 SWIFT 解譯器或組譯工具</span><span class="sxs-lookup"><span data-stu-id="2b31b-102">Adding the SWIFT Disassembler or Assembler to a Pipeline</span></span>
 <span data-ttu-id="2b31b-103">您可以使用與 BizTalk 管線設計師[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] [!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)]以建立自訂的 BizTalk 接收和傳送管線。</span><span class="sxs-lookup"><span data-stu-id="2b31b-103">You can use BizTalk Pipeline Designer with [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)][!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)] to create custom BizTalk receive and send pipelines.</span></span> <span data-ttu-id="2b31b-104">您可以使用 SWIFT 解譯器的自訂接收管線的 「 解譯 」 階段。</span><span class="sxs-lookup"><span data-stu-id="2b31b-104">You can use the SWIFT disassembler for the "disassemble" stage in a custom receive pipeline.</span></span> <span data-ttu-id="2b31b-105">同樣地，您可以使用 SWIFT 組譯工具中自訂傳送管線的 「 組合 」 階段。</span><span class="sxs-lookup"><span data-stu-id="2b31b-105">Similarly, you can use the SWIFT assembler for the "assemble" stage in a custom send pipeline.</span></span> <span data-ttu-id="2b31b-106">要叫用的 SWIFT 解譯器 」 或 「 組合器 [管線設計師工具箱] 中，您將解譯器 」 或組譯工具拖曳至對應的管線階段管線設計工具畫布上。</span><span class="sxs-lookup"><span data-stu-id="2b31b-106">To invoke the SWIFT disassembler or assembler from the Pipeline Designer toolbox, you drag the disassembler or assembler onto the corresponding pipeline stage on the Pipeline Designer canvas.</span></span> <span data-ttu-id="2b31b-107">如需叫用的解譯器 」 或 「 組合器的逐步指示，請參閱[模組 3： 新增管線專案](../../adapters-and-accelerators/accelerator-swift/module-3-adding-a-pipeline-project.md)在端對端教學課程。</span><span class="sxs-lookup"><span data-stu-id="2b31b-107">For step-by-step instructions about invoking the disassembler or assembler, see [Module 3: Adding a Pipeline Project](../../adapters-and-accelerators/accelerator-swift/module-3-adding-a-pipeline-project.md) in the End-to-End Tutorial.</span></span> <span data-ttu-id="2b31b-108">如 「 管線設計師 」 的詳細資訊或使用管線專案，請參閱 BizTalk Server 說明。</span><span class="sxs-lookup"><span data-stu-id="2b31b-108">For more information about the Pipeline Designer or working with pipeline projects, see BizTalk Server Help.</span></span>  

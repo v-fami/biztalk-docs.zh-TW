@@ -1,18 +1,18 @@
 ---
-title: "實作 BAM 活動與事件資料流 |Microsoft 文件"
-ms.custom: 
+title: 實作 BAM 活動與事件資料流 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - activities [BAM], about activities
 - activities [BAM]
 - BAM, activities
 ms.assetid: 94e6d9dd-93c3-4ab0-9de7-a860dd1e3406
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257342"
 ---
 # <a name="implementing-bam-activities-with-event-streams"></a><span data-ttu-id="620c7-102">使用事件資料流實作 BAM 活動</span><span class="sxs-lookup"><span data-stu-id="620c7-102">Implementing BAM Activities with Event Streams</span></span>
 <span data-ttu-id="620c7-103">BAM 活動代表商務中的工作單位，例如訂單或貸款申請。</span><span class="sxs-lookup"><span data-stu-id="620c7-103">A BAM activity represents a unit of work in the business, such as purchase order or loan application.</span></span> <span data-ttu-id="620c7-104">活動會對商務使用者或資訊工作者顯示，有關此工作單位的歷程記錄 (里程碑) 和資料。</span><span class="sxs-lookup"><span data-stu-id="620c7-104">The activity shows the history (milestones) and data about this unit of work to the business end user, or information worker.</span></span> <span data-ttu-id="620c7-105">例如，貸款申請活動可能包含如「已核准貸款」的里程碑，以及如「申請者名稱」和「貸款金額」等資料。</span><span class="sxs-lookup"><span data-stu-id="620c7-105">For example, a loan application activity might contain milestones such as “Loan approved” and data such as “Applicant name” and “Loan amount.”</span></span> <span data-ttu-id="620c7-106">BAM 活動通常會直接對應到商務程序，但是在高階抽象概念中，活動與您 IT 基礎結構的實際實作無關。</span><span class="sxs-lookup"><span data-stu-id="620c7-106">BAM activities often map directly to a business process, although as a high-level abstraction an activity is independent of the actual implementation of your IT infrastructure.</span></span>  

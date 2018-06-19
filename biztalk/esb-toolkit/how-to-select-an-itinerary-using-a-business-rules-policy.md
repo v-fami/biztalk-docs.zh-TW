@@ -1,14 +1,14 @@
 ---
-title: "如何： 選取 使用商務規則原則路線 |Microsoft 文件"
-ms.custom: 
+title: 如何： 選取 使用商務規則原則路線 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9f6373a8-d9d6-46c6-95e3-f62dd33c342a
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010583"
 ---
 # <a name="how-to-select-an-itinerary-using-a-business-rules-policy"></a><span data-ttu-id="d4d01-102">如何： 選取 使用商務規則原則路線</span><span class="sxs-lookup"><span data-stu-id="d4d01-102">How to: Select an Itinerary Using a Business Rules Policy</span></span>
 ## <a name="goal"></a><span data-ttu-id="d4d01-103">目標</span><span class="sxs-lookup"><span data-stu-id="d4d01-103">Goal</span></span>  

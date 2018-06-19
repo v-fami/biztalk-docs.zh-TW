@@ -1,14 +1,14 @@
 ---
-title: "規劃效能 |Microsoft 文件"
-ms.custom: 
+title: 規劃效能 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 267a8bc6-a0ab-4335-bc04-c22d5a56792f
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302998"
 ---
 # <a name="planning-for-performance"></a><span data-ttu-id="96d24-102">規劃效能</span><span class="sxs-lookup"><span data-stu-id="96d24-102">Planning for Performance</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="96d24-103">是應用程式平台。</span><span class="sxs-lookup"><span data-stu-id="96d24-103"> is an application platform.</span></span> <span data-ttu-id="96d24-104">它不只伺服器產品或只在開發人員的產品。</span><span class="sxs-lookup"><span data-stu-id="96d24-104">It is not just a server product or just a developer product.</span></span> <span data-ttu-id="96d24-105">它是用來建立商務程序管理系統，來整合企業應用程式，來將工作流程，自動化應用程式平台，而且若要啟用服務導向架構。</span><span class="sxs-lookup"><span data-stu-id="96d24-105">It is an application platform that is used to build business process management systems, to integrate enterprise applications, to automate workflows, and to enable service oriented architectures.</span></span>  

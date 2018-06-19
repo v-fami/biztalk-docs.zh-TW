@@ -1,17 +1,17 @@
 ---
 redirect_url: /biztalk/core/feature-pack-add-build-release-definitions/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
-title: "設定要部署 BizTalk Server 方案或專案的 Visual Studio Team Services |Microsoft 文件"
-ms.custom: 
+title: 設定要部署 BizTalk Server 方案或專案的 Visual Studio Team Services |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2555712a-dfe4-420e-9a61-1d1a6d98c322
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: tordgladnordahl
 ms.author: tonordah
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: a0165ec2f1e8b58545638666b7bfa2bf440036fd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/09/2017
+ms.locfileid: "24054582"
 ---
 # <a name="configure-visual-studio-team-services-to-deploy-biztalk-server-solutions-or-projects"></a><span data-ttu-id="e4fb6-102">設定 Visual Studio Team Services 部署 BizTalk Server 方案或專案</span><span class="sxs-lookup"><span data-stu-id="e4fb6-102">Configure Visual Studio Team Services to deploy BizTalk Server solutions or projects</span></span>
 <span data-ttu-id="e4fb6-103">若要自動部署設定 VSTS[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]專案。</span><span class="sxs-lookup"><span data-stu-id="e4fb6-103">Set up VSTS to automatically deploy [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] projects.</span></span> 

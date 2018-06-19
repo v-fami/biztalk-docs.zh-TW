@@ -1,11 +1,11 @@
 ---
-title: "範圍 |Microsoft 文件"
-ms.custom: 
+title: 範圍 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - scopes, exception handling
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - scopes, nesting
 - Scope shape [Orchestration Designer], transactions
 ms.assetid: 51d81ce4-0034-4415-b6ab-4c952737c1bd
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269774"
 ---
 # <a name="scopes"></a><span data-ttu-id="ab514-102">範圍</span><span class="sxs-lookup"><span data-stu-id="ab514-102">Scopes</span></span>
 <span data-ttu-id="ab514-103">範圍是群組動作的架構。</span><span class="sxs-lookup"><span data-stu-id="ab514-103">A scope is a framework for grouping actions.</span></span> <span data-ttu-id="ab514-104">範圍主要用於交易式執行和例外狀況處理。</span><span class="sxs-lookup"><span data-stu-id="ab514-104">It is primarily used for transactional execution and exception handling.</span></span>  
