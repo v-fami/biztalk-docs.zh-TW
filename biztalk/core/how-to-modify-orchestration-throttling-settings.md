@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254622"
 ---
 # <a name="how-to-modify-orchestration-throttling-settings"></a><span data-ttu-id="3b07a-102">如何修改協調流程節流設定</span><span class="sxs-lookup"><span data-stu-id="3b07a-102">How to Modify Orchestration Throttling Settings</span></span>
 <span data-ttu-id="3b07a-103">您可以使用「BizTalk 設定儀表板」來修改 BizTalk 群組中指定主控件的協調流程節流組態設定。</span><span class="sxs-lookup"><span data-stu-id="3b07a-103">Using the BizTalk Settings Dashboard, you can modify the orchestration throttling configuration settings of a given host, across the BizTalk Group.</span></span> <span data-ttu-id="3b07a-104">這些設定會套用至指派給指定主控件的所有主控件執行個體。</span><span class="sxs-lookup"><span data-stu-id="3b07a-104">These settings apply to all host instances assigned to the given host.</span></span> <span data-ttu-id="3b07a-105">本主題提供修改這些設定的逐步程序。</span><span class="sxs-lookup"><span data-stu-id="3b07a-105">This topic provides the step-by-step procedure to modify these settings.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "如何叢集化 SSO 與 BizTalk 主控件在相同的叢集 Group1 |Microsoft 文件"
-ms.custom: 
+title: 如何叢集化 SSO 與 BizTalk 主控件在相同的叢集 Group1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 413cc8f4-f343-4c1c-8b79-3b15cb4c101d
-caps.latest.revision: "44"
+caps.latest.revision: 44
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250622"
 ---
 # <a name="how-to-cluster-sso-and-a-biztalk-host-in-the-same-cluster-group"></a><span data-ttu-id="be803-102">如何叢集化 SSO 與 BizTalk 主控件使其位於相同的叢集群組</span><span class="sxs-lookup"><span data-stu-id="be803-102">How to Cluster SSO and a BizTalk Host in the Same Cluster Group</span></span>
 <span data-ttu-id="be803-103">與[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]您可以在相同的 Windows 伺服器叢集上叢集一或多個 BizTalk 主控件和 「 企業單一登入 (SSO) 服務。</span><span class="sxs-lookup"><span data-stu-id="be803-103">With [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] you can cluster one or more BizTalk hosts and the Enterprise Single Sign-On (SSO) service on the same Windows Server cluster.</span></span>  
@@ -143,10 +144,10 @@ ms.lasthandoff: 09/20/2017
   
     9. <span data-ttu-id="be803-188">按一下**相依性** 索引標籤的內容 對話方塊中，然後按一下**插入**。</span><span class="sxs-lookup"><span data-stu-id="be803-188">Click the **Dependencies** tab of the properties dialog box and click **Insert**.</span></span>  
   
-    10. <span data-ttu-id="be803-189">按一下下拉式方塊底下**資源**，選取**名稱：**資源，然後按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="be803-189">Click the drop down box under **Resource**, select the **Name:** resource and click **OK**.</span></span>  
+    10. <span data-ttu-id="be803-189">按一下下拉式方塊底下**資源**，選取**名稱：** 資源，然後按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="be803-189">Click the drop down box under **Resource**, select the **Name:** resource and click **OK**.</span></span>  
   
         > [!IMPORTANT]
-        >  <span data-ttu-id="be803-190">如果您不會加入至相依性**名稱：**資源，當使用者嘗試連絡 SSO 服務的這個叢集執行個體 SSO 用戶端電腦會產生類似下面的錯誤：</span><span class="sxs-lookup"><span data-stu-id="be803-190">If you do not add the dependency to the **Name:** resource, SSO client computers will generate an error similar to the following when they try to contact this clustered instance of the SSO service:</span></span>  
+        >  <span data-ttu-id="be803-190">如果您不會加入至相依性**名稱：** 資源，當使用者嘗試連絡 SSO 服務的這個叢集執行個體 SSO 用戶端電腦會產生類似下面的錯誤：</span><span class="sxs-lookup"><span data-stu-id="be803-190">If you do not add the dependency to the **Name:** resource, SSO client computers will generate an error similar to the following when they try to contact this clustered instance of the SSO service:</span></span>  
         >   
         >  <span data-ttu-id="be803-191">無法擷取主要密碼。</span><span class="sxs-lookup"><span data-stu-id="be803-191">Failed to retrieve master secrets.</span></span>  
         >   

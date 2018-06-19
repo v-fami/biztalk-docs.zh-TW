@@ -1,17 +1,17 @@
 ---
-title: "如何新增範圍 Shape2 |Microsoft 文件"
-ms.custom: 
+title: 如何新增範圍 Shape2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Scope shapes, adding
 - adding, Scope shapes
 ms.assetid: 9449210f-1f29-4b86-a14b-148caa06ac6b
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,13 +20,14 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246798"
 ---
 # <a name="how-to-add-a-scope-shape"></a><span data-ttu-id="31f9c-102">如何新增範圍圖形</span><span class="sxs-lookup"><span data-stu-id="31f9c-102">How to Add a Scope Shape</span></span>
 <span data-ttu-id="31f9c-103">使用下列程序新增**範圍**圖形。</span><span class="sxs-lookup"><span data-stu-id="31f9c-103">Use the following procedure to add a **Scope** shape.</span></span>  
   
 ### <a name="to-add-a-scope-shape"></a><span data-ttu-id="31f9c-104">若要新增範圍圖形</span><span class="sxs-lookup"><span data-stu-id="31f9c-104">To add a scope shape</span></span>  
   
-1.  <span data-ttu-id="31f9c-105">以滑鼠右鍵按一下下方的箭號**[receivefromin]**通訊埠，請指向**插入圖形**，然後選取**範圍**。</span><span class="sxs-lookup"><span data-stu-id="31f9c-105">Right-click the arrow below the **ReceiveFromIn** port, point to **Insert Shape**, and select **Scope**.</span></span>  
+1.  <span data-ttu-id="31f9c-105">以滑鼠右鍵按一下下方的箭號 **[receivefromin]** 通訊埠，請指向**插入圖形**，然後選取**範圍**。</span><span class="sxs-lookup"><span data-stu-id="31f9c-105">Right-click the arrow below the **ReceiveFromIn** port, point to **Insert Shape**, and select **Scope**.</span></span>  
   
      <span data-ttu-id="31f9c-106">在**範圍**」 圖形，設定可能有錯誤的作業。</span><span class="sxs-lookup"><span data-stu-id="31f9c-106">In the **Scope** shape, you set operations that might have a fault.</span></span>  
   

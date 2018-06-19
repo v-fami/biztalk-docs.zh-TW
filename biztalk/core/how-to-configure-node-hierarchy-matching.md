@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22248670"
 ---
 # <a name="how-to-configure-node-hierarchy-matching"></a><span data-ttu-id="9efe4-102">如何設定節點階層比對</span><span class="sxs-lookup"><span data-stu-id="9efe4-102">How to Configure Node Hierarchy Matching</span></span>
 <span data-ttu-id="9efe4-103">在對應中建立連結時，BizTalk 對應工具會自動建立編譯器連結以實作已建立的連結。</span><span class="sxs-lookup"><span data-stu-id="9efe4-103">When you create a link in a map, the BizTalk Mapper automatically creates compiler links to implement the link you have drawn.</span></span> <span data-ttu-id="9efe4-104">**目標連結** 連結的屬性會控制 BizTalk 對應工具建立編譯器連結的方式。</span><span class="sxs-lookup"><span data-stu-id="9efe4-104">The **Target Links** property of a link controls how the BizTalk Mapper draws the compiler links.</span></span> <span data-ttu-id="9efe4-105">本主題提供如何設定目標連結的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="9efe4-105">This topic provides information about how to set the target links.</span></span>  

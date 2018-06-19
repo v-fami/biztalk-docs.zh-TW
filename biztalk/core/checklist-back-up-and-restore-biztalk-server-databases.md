@@ -1,11 +1,11 @@
 ---
-title: "檢查清單： 備份和還原 BizTalk Server 資料庫 |Microsoft 文件"
-ms.custom: 
+title: 檢查清單： 備份和還原 BizTalk Server 資料庫 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - backing up, BizTalk Server
@@ -20,7 +20,7 @@ helpviewer_keywords:
 - checklists, restoring
 - BizTalk Server, restoring
 ms.assetid: 12f7e02e-57b1-4e55-8e44-7fe2d7920f5a
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -29,6 +29,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232702"
 ---
 # <a name="checklist-back-up-and-restore-biztalk-server-databases"></a><span data-ttu-id="a774b-102">檢查清單： 備份和還原 BizTalk Server 資料庫</span><span class="sxs-lookup"><span data-stu-id="a774b-102">Checklist: Back Up and Restore BizTalk Server Databases</span></span>
 <span data-ttu-id="a774b-103">在嘗試備份或還原 BizTalk Server 之前，務必讓自己先熟悉相關的程序。</span><span class="sxs-lookup"><span data-stu-id="a774b-103">Before attempting to back up or restore BizTalk Server, be sure to familiarize yourself with the processes involved.</span></span>  

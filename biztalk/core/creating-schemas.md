@@ -1,14 +1,14 @@
 ---
-title: "建立結構描述 |Microsoft 文件"
-ms.custom: 
+title: 建立結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 20b88194-b400-4ebc-8882-d493fbf30e0f
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238534"
 ---
 # <a name="creating-schemas"></a><span data-ttu-id="2d070-102">建立結構描述</span><span class="sxs-lookup"><span data-stu-id="2d070-102">Creating Schemas</span></span>
 <span data-ttu-id="2d070-103">您可以使用 BizTalk 編輯器來建立兩種類型的結構描述： 訊息結構描述與屬性結構描述。</span><span class="sxs-lookup"><span data-stu-id="2d070-103">You can use BizTalk Editor to create two types of schemas: message schemas and property schemas.</span></span>  

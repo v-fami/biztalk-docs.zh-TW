@@ -1,14 +1,14 @@
 ---
-title: "如何在本機伺服器上檢視組件和類型 |Microsoft 文件"
-ms.custom: 
+title: 如何在本機伺服器上檢視組件和類型 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6ddf6f60-9fef-4997-8b42-24eefd7ab0d1
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257318"
 ---
 # <a name="how-to-view-assemblies-and-types-on-the-local-server"></a><span data-ttu-id="06a43-102">如何在本機伺服器上檢視組件和類型</span><span class="sxs-lookup"><span data-stu-id="06a43-102">How to View Assemblies and Types on the Local Server</span></span>
 <span data-ttu-id="06a43-103">您可以使用「BizTalk 組件檢視工具」，檢視在本機伺服器上安裝的所有 BizTalk 組件和類型。</span><span class="sxs-lookup"><span data-stu-id="06a43-103">You can use the BizTalk Assembly Viewer to examine all BizTalk assemblies and types installed on the local server.</span></span>  

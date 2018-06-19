@@ -1,14 +1,14 @@
 ---
-title: "資料庫容錯移轉支援 |Microsoft 文件"
-ms.custom: 
+title: 資料庫容錯移轉支援 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 09347fdd-2929-4ed9-b0d8-698508663ecd
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238630"
 ---
 # <a name="database-failover-support"></a><span data-ttu-id="acdc3-102">對資料庫容錯移轉的支援</span><span class="sxs-lookup"><span data-stu-id="acdc3-102">Database Failover Support</span></span>
 <span data-ttu-id="acdc3-103">您可以將傳遞的執行個體**PolicyFetchErrorHandler**委派做為參數的多載建構函式**原則**類別。</span><span class="sxs-lookup"><span data-stu-id="acdc3-103">You can pass an instance of the **PolicyFetchErrorHandler** delegate as a parameter to overloaded constructors of the **Policy** class.</span></span> <span data-ttu-id="acdc3-104">從資料庫提取原則詳細資訊而發生錯誤時，便會叫用委派執行個體。</span><span class="sxs-lookup"><span data-stu-id="acdc3-104">When an error occurs while fetching the policy details from the database, the delegate instance is invoked.</span></span> <span data-ttu-id="acdc3-105">您也可以使用 try-catch 區塊來捕捉**RuleStoreConnectionException**和**RuleStoreCompatibilityException**規則引擎無法連線至規則引擎時引發的例外狀況資料庫。</span><span class="sxs-lookup"><span data-stu-id="acdc3-105">You can also use a try-catch block to trap **RuleStoreConnectionException** and **RuleStoreCompatibilityException** exceptions that are raised when the rule engine fails to connect to the Rule Engine database.</span></span>  

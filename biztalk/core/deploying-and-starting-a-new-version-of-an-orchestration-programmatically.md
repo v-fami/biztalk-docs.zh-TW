@@ -1,14 +1,14 @@
 ---
-title: "部署和啟動協調流程的新版本，以程式設計的方式 |Microsoft 文件"
-ms.custom: 
+title: 部署和啟動協調流程的新版本，以程式設計的方式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f90025ec-3641-49ef-8918-88238d6ad420
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239022"
 ---
 # <a name="deploying-and-starting-a-new-version-of-an-orchestration-programmatically"></a><span data-ttu-id="a40e1-102">以程式設計的方式部署和啟動新版本的協調流程</span><span class="sxs-lookup"><span data-stu-id="a40e1-102">Deploying and Starting a New Version of an Orchestration Programmatically</span></span>
 <span data-ttu-id="a40e1-103">本主題中的程式碼說明如何快速部署和啟動新版本的協調流程。</span><span class="sxs-lookup"><span data-stu-id="a40e1-103">The code in this topic illustrates how to quickly deploy and start a new version of the orchestration.</span></span> <span data-ttu-id="a40e1-104">由於手動作業可能要花費數秒鐘才能執行，所以如果用手動方式取消登錄協調流程，然後再啟動新版本的協調流程，可能會導致訊息擱置或重複。</span><span class="sxs-lookup"><span data-stu-id="a40e1-104">Because manual operations can take a few seconds to perform, manually unenlisting an orchestration and then starting a new version of it can result in suspended or duplicate messages.</span></span> <span data-ttu-id="a40e1-105">本主題所說明的程式設計方法，可讓您用快上許多的速度來執行這些作業 (並降低訊息擱置或重複的可能性)，而且會以單一交易的方式完成作業，所以如果一項作業失敗，則兩個協調流程都會保留為初始時的相同狀態。</span><span class="sxs-lookup"><span data-stu-id="a40e1-105">The programmatic method illustrated in this topic allows you to perform these operations much more quickly – reducing the likelihood of suspended and duplicate messages – and as a single transaction, so that if one operation fails, both orchestrations are left in the same state as they were at the beginning.</span></span>  

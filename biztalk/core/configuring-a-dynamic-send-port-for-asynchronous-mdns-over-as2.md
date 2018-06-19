@@ -1,14 +1,14 @@
 ---
-title: "設定透過 AS2 之非同步 Mdn 的動態傳送埠 |Microsoft 文件"
-ms.custom: 
+title: 設定透過 AS2 之非同步 Mdn 的動態傳送埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 72646c90-89db-4884-824b-6921bb824f8d
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233446"
 ---
 # <a name="configuring-a-dynamic-send-port-for-asynchronous-mdns-over-as2"></a><span data-ttu-id="d3483-102">設定透過 AS2 之非同步 MDN 的動態傳送埠</span><span class="sxs-lookup"><span data-stu-id="d3483-102">Configuring a Dynamic Send Port for Asynchronous MDNs over AS2</span></span>
 <span data-ttu-id="d3483-103">若要透過 HTTP/HTTPS 傳送非同步的 EDIINT/AS2 編碼 MDN 訊息，請建立包含下列組態的動態 HTTP 傳送埠：</span><span class="sxs-lookup"><span data-stu-id="d3483-103">To send an asynchronous EDIINT/AS2-encoded MDN message over HTTP/HTTPS, create a dynamic HTTP send port with the following configuration:</span></span>  

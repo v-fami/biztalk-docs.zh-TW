@@ -1,17 +1,17 @@
 ---
-title: "如何建立連結的伺服器 |Microsoft 文件"
-ms.custom: 
+title: 如何建立連結的伺服器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - servers, linking for backups
 - backing up, linking servers
 ms.assetid: 7d4aba3d-77c0-4cdf-8547-71e821ce34a1
-caps.latest.revision: "26"
+caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249806"
 ---
 # <a name="how-to-create-a-linked-server"></a><span data-ttu-id="b5546-102">如何建立連結的伺服器</span><span class="sxs-lookup"><span data-stu-id="b5546-102">How to Create a Linked Server</span></span>
 <span data-ttu-id="b5546-103">以分散式拓撲安裝 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 時，屬於 BizTalk 群組的資料庫會存在於多個 [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] 上。</span><span class="sxs-lookup"><span data-stu-id="b5546-103">When [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is installed in a distributed topology, the databases that belong to a BizTalk Group exist on multiple [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)].</span></span> <span data-ttu-id="b5546-104">您必須先設定每個遠端伺服器的連結伺服器連線，才能從 BizTalk 管理伺服器備份整個 BizTalk 環境。</span><span class="sxs-lookup"><span data-stu-id="b5546-104">You must configure a linked server connection to each of the remote servers before you can back up the entire BizTalk environment from the BizTalk Management server.</span></span> <span data-ttu-id="b5546-105">連結的伺服器是 OLE DB 資料來源中所使用[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]分散式查詢。</span><span class="sxs-lookup"><span data-stu-id="b5546-105">A linked server is an OLE DB data source that is used in [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] distributed queries.</span></span>  
@@ -71,7 +72,7 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  <span data-ttu-id="b5546-142">若要使用模擬，您[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]組態和登入帳戶必須符合委派的需求。</span><span class="sxs-lookup"><span data-stu-id="b5546-142">To use impersonation, your [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] configuration and login accounts must meet the requirements for delegation.</span></span> <span data-ttu-id="b5546-143">請參閱[委派設定連結伺服器](https://msdn.microsoft.com/library/ms189580.aspx)如需詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="b5546-143">See [Configuring Linked Servers for Delegation](https://msdn.microsoft.com/library/ms189580.aspx) for more details.</span></span>  
 
-7. <span data-ttu-id="b5546-144">在左窗格中，選擇 **伺服器選項**。</span><span class="sxs-lookup"><span data-stu-id="b5546-144">In the left pane, choose **Server Options**.</span></span> <span data-ttu-id="b5546-145">設定**RPC**和**RPC 輸出**參數**True**，然後選取**[確定]**。</span><span class="sxs-lookup"><span data-stu-id="b5546-145">Set the **RPC** and **RPC Out** parameters to **True**, and then select **OK**.</span></span> 
+7. <span data-ttu-id="b5546-144">在左窗格中，選擇 **伺服器選項**。</span><span class="sxs-lookup"><span data-stu-id="b5546-144">In the left pane, choose **Server Options**.</span></span> <span data-ttu-id="b5546-145">設定**RPC**和**RPC 輸出**參數**True**，然後選取 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="b5546-145">Set the **RPC** and **RPC Out** parameters to **True**, and then select **OK**.</span></span> 
  
 > [!TIP]
 > <span data-ttu-id="b5546-146">如需詳細資訊和建立連結的伺服器時建議使用 includig`sp_addlinkedserver`儲存 procedcure，請參閱[建立連結的伺服器](https://docs.microsoft.com/sql/relational-databases/linked-servers/create-linked-servers-sql-server-database-engine)。</span><span class="sxs-lookup"><span data-stu-id="b5546-146">For more details and recommendations when creating linked servers, includig using the `sp_addlinkedserver` stored procedcure, see [Create Linked Servers](https://docs.microsoft.com/sql/relational-databases/linked-servers/create-linked-servers-sql-server-database-engine).</span></span>

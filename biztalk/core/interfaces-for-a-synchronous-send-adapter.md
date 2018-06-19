@@ -1,14 +1,14 @@
 ---
-title: "傳送配接器介面同步 |Microsoft 文件"
-ms.custom: 
+title: 傳送配接器介面同步 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0e1b397a-3a35-4447-8522-d8a5f39a42d7
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256910"
 ---
 # <a name="interfaces-for-a-synchronous-send-adapter"></a><span data-ttu-id="ce6c2-102">同步傳送配接器介面</span><span class="sxs-lookup"><span data-stu-id="ce6c2-102">Interfaces for a Synchronous Send Adapter</span></span>
 <span data-ttu-id="ce6c2-103">配接器在執行傳送作業當中阻止內送傳訊引擎呼叫執行緒時，它會同步傳送訊息。</span><span class="sxs-lookup"><span data-stu-id="ce6c2-103">An adapter sends messages synchronously when it blocks the incoming Messaging Engine calling thread while performing its send operation.</span></span> <span data-ttu-id="ce6c2-104">為了能夠同步傳送訊息，配接器必須實作下列介面：</span><span class="sxs-lookup"><span data-stu-id="ce6c2-104">To be able to send messages synchronously, an adapter needs to implement the following interfaces:</span></span>  

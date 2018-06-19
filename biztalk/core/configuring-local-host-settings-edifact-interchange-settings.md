@@ -1,14 +1,14 @@
 ---
-title: "設定本機主機設定 （EDIFACT-交換設定） |Microsoft 文件"
-ms.custom: 
+title: 設定本機主機設定 （EDIFACT-交換設定） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f1cf8696-d1f4-49aa-aa0a-ecf66f55e01d
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234686"
 ---
 # <a name="configuring-local-host-settings-edifact-interchange-settings"></a><span data-ttu-id="83b17-102">設定本機主機設定 (EDIFACT 交換設定)</span><span class="sxs-lookup"><span data-stu-id="83b17-102">Configuring Local Host Settings (EDIFACT-Interchange Settings)</span></span>
 <span data-ttu-id="83b17-103">本機主機設定控制了處理 EDI 交換的方式。</span><span class="sxs-lookup"><span data-stu-id="83b17-103">The local host settings govern how the EDI interchanges are processed.</span></span> <span data-ttu-id="83b17-104">此頁面上的設定可分成兩個類別 - 接收者的設定 (用於內送交換) 與傳送者的設定 (用於外寄交換)。</span><span class="sxs-lookup"><span data-stu-id="83b17-104">The settings on this page can be divided into two categories – receiver’s settings (for incoming interchanges) and sender’s settings (for outgoing interchanges).</span></span> <span data-ttu-id="83b17-105">在接收者的設定中，您可以指定輸入批次要分割為交易集或是保留。</span><span class="sxs-lookup"><span data-stu-id="83b17-105">As part of the receiver’s settings, you can specify whether an incoming batch will be split into transaction sets or preserved.</span></span> <span data-ttu-id="83b17-106">若是保留，您就可以指定發生錯誤時，BizTalk Server 要暫停交換或交易集。</span><span class="sxs-lookup"><span data-stu-id="83b17-106">If preserved, you can specify whether BizTalk Server suspends the interchange or transaction set if an error occurs.</span></span> <span data-ttu-id="83b17-107">在傳送者的設定中，您可以指定為外寄訊息產生控制編號的方式。</span><span class="sxs-lookup"><span data-stu-id="83b17-107">As part of the sender’s settings, you can specify how the control numbers are generated for outgoing messages.</span></span>  

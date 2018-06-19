@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233046"
 ---
 # <a name="configuring-as2-agreement-properties"></a><span data-ttu-id="b51ac-102">設定 AS2 協議屬性</span><span class="sxs-lookup"><span data-stu-id="b51ac-102">Configuring AS2 Agreement Properties</span></span>
 <span data-ttu-id="b51ac-103">本 節將說明 AS2 傳輸協議屬性 。</span><span class="sxs-lookup"><span data-stu-id="b51ac-103">This section describes AS2 transport agreement properties.</span></span> <span data-ttu-id="b51ac-104">在傳輸通訊協定設定當中，您還可以定義訊息是否應該經過簽章、加密等等。</span><span class="sxs-lookup"><span data-stu-id="b51ac-104">As part of the transport protocol settings, you can also define whether the message should be signed, whether the message should be encrypted, etc.</span></span>  

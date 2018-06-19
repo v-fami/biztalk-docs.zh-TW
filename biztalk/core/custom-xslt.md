@@ -1,11 +1,11 @@
 ---
-title: "自訂 XSLT |Microsoft 文件"
-ms.custom: 
+title: 自訂 XSLT |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - functoid types, Scripting
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - customizing, maps
 - maps, replacing
 ms.assetid: e254d16d-4d16-4c23-a3ed-cc98eea9939a
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238342"
 ---
 # <a name="custom-xslt"></a><span data-ttu-id="e4cb1-102">自訂 XSLT</span><span class="sxs-lookup"><span data-stu-id="e4cb1-102">Custom XSLT</span></span>
 <span data-ttu-id="e4cb1-103">若您熟悉「可延伸樣式表語言轉換」(XSLT) 程式碼，可以用它來自訂、延伸或取代 BizTalk 對應。</span><span class="sxs-lookup"><span data-stu-id="e4cb1-103">If you are familiar with Extensible Stylesheet Language Transformations (XSLT) code, you can use it to customize, extend, or replace BizTalk maps.</span></span> <span data-ttu-id="e4cb1-104">若要使用 XSLT 最簡單的方法是使用**指令碼處理**運算質。</span><span class="sxs-lookup"><span data-stu-id="e4cb1-104">The simplest way to use XSLT is with the **Scripting** functoid.</span></span> <span data-ttu-id="e4cb1-105">**指令碼處理**運算質接受的許多指令碼。啟用.NET 的語言，包括 XSLT。</span><span class="sxs-lookup"><span data-stu-id="e4cb1-105">The **Scripting** functoid accepts scripts in many .NET-enabled languages, including XSLT.</span></span> <span data-ttu-id="e4cb1-106">如需有關使用 XSLT 與**指令碼處理**運算質，請參閱[指令碼使用的內嵌 XSLT 與 XSLT 呼叫範本](../core/scripting-using-inline-xslt-and-xslt-call-templates.md)。</span><span class="sxs-lookup"><span data-stu-id="e4cb1-106">For more information about using XSLT with the **Scripting** functoid, see [Scripting Using Inline XSLT and XSLT Call Templates](../core/scripting-using-inline-xslt-and-xslt-call-templates.md).</span></span>  

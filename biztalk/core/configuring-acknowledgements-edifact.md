@@ -1,14 +1,14 @@
 ---
-title: "設定通知 (EDIFACT) |Microsoft 文件"
-ms.custom: 
+title: 設定通知 (EDIFACT) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9436feb7-4c29-4b7c-b5c2-991660e6c1a9
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233494"
 ---
 # <a name="configuring-acknowledgements-edifact"></a><span data-ttu-id="ba894-102">設定通知 (EDIFACT)</span><span class="sxs-lookup"><span data-stu-id="ba894-102">Configuring Acknowledgements (EDIFACT)</span></span>
 <span data-ttu-id="ba894-103">在夥伴協議中，您可以指定要將何種類型的通知傳回給合作對象，以及要在傳送通知時使用何種傳送埠。</span><span class="sxs-lookup"><span data-stu-id="ba894-103">In the partner agreement, you can specify what type of acknowledgment to return to a party and what kind of send port to use in sending the acknowledgment.</span></span> <span data-ttu-id="ba894-104">您也可以指定是否要批次處理通知、通知的開始交易集參考編號為何，以及是否要針對接受的交易集產生 SG1/SG4 迴圈。</span><span class="sxs-lookup"><span data-stu-id="ba894-104">You also specify whether to batch an acknowledgment, what the starting transaction set reference number is for the acknowledgment, and whether SG1/SG4 loops are generated for accepted transaction sets.</span></span>  
@@ -39,9 +40,9 @@ ms.lasthandoff: 09/20/2017
   
 3.  <span data-ttu-id="ba894-115">在**EDIFACT ACK （控制） 區段**，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="ba894-115">In the **EDIFACT ACK (Control) section**, do the following:</span></span>  
   
-    1.  <span data-ttu-id="ba894-116">選取**訊息回條 (CONTRL 必須是)**技術 (CONTRL) 通知傳回給交換傳送者。</span><span class="sxs-lookup"><span data-stu-id="ba894-116">Select **Receipt of message (CONTRL) expected** to return a technical (CONTRL) acknowledgment to the interchange sender.</span></span> <span data-ttu-id="ba894-117">如果**訊息回條 (CONTRL 必須是)**選取，請選取**不要批次處理訊息 (CONTRL) 訊息回條**可分別傳送每個通知，或是不選取該項即可批次處理通知。</span><span class="sxs-lookup"><span data-stu-id="ba894-117">If **Receipt of message (CONTRL) expected** is selected, select **Do not batch receipt of message (CONTRL) message** to send each acknowledgment separately, or leave cleared to batch the acknowledgments.</span></span>  
+    1.  <span data-ttu-id="ba894-116">選取**訊息回條 (CONTRL 必須是)** 技術 (CONTRL) 通知傳回給交換傳送者。</span><span class="sxs-lookup"><span data-stu-id="ba894-116">Select **Receipt of message (CONTRL) expected** to return a technical (CONTRL) acknowledgment to the interchange sender.</span></span> <span data-ttu-id="ba894-117">如果**訊息回條 (CONTRL 必須是)** 選取，請選取**不要批次處理訊息 (CONTRL) 訊息回條**可分別傳送每個通知，或是不選取該項即可批次處理通知。</span><span class="sxs-lookup"><span data-stu-id="ba894-117">If **Receipt of message (CONTRL) expected** is selected, select **Do not batch receipt of message (CONTRL) message** to send each acknowledgment separately, or leave cleared to batch the acknowledgments.</span></span>  
   
-    2.  <span data-ttu-id="ba894-118">選取**通知 (CONTRL) 必須是**功能 (CONTRL) 通知傳回給交換傳送者。</span><span class="sxs-lookup"><span data-stu-id="ba894-118">Select **Acknowledgement (CONTRL) expected** to return a functional (CONTRL) acknowledgment to the interchange sender.</span></span> <span data-ttu-id="ba894-119">如果**通知 (CONTRL) 必須是**選取，請選取**不要批次處理通知 (CONTRL)**分別傳送每個功能通知，或不選取可批次處理功能通知。</span><span class="sxs-lookup"><span data-stu-id="ba894-119">If **Acknowledgement (CONTRL) expected** is selected, select **Do not batch Acknowledgement (CONTRL)** to send each functional acknowledgment separately, or leave cleared to batch the functional acknowledgments.</span></span>  
+    2.  <span data-ttu-id="ba894-118">選取**通知 (CONTRL) 必須是**功能 (CONTRL) 通知傳回給交換傳送者。</span><span class="sxs-lookup"><span data-stu-id="ba894-118">Select **Acknowledgement (CONTRL) expected** to return a functional (CONTRL) acknowledgment to the interchange sender.</span></span> <span data-ttu-id="ba894-119">如果**通知 (CONTRL) 必須是**選取，請選取**不要批次處理通知 (CONTRL)** 分別傳送每個功能通知，或不選取可批次處理功能通知。</span><span class="sxs-lookup"><span data-stu-id="ba894-119">If **Acknowledgement (CONTRL) expected** is selected, select **Do not batch Acknowledgement (CONTRL)** to send each functional acknowledgment separately, or leave cleared to batch the functional acknowledgments.</span></span>  
   
 4.  <span data-ttu-id="ba894-120">在**交易集狀態認可報告**區段中，若要接受的交易集功能 CONTRL 通知中強制產生 SG1/SG4 迴圈選取**產生 SG1/SG4 迴圈的接受交易集 （如果未選取，會產生迴圈在 UCM.5 不等於 7 時，才）**。</span><span class="sxs-lookup"><span data-stu-id="ba894-120">In the **Transaction set status acceptance reporting** section, to force generation of SG1/SG4 loops in functional CONTRL acknowledgments for accepted transaction sets, select **Generate SG1/SG4 loop for accepted transaction sets (If unchecked, loop will be generated only if UCM.5 is not equal to 7)**.</span></span> <span data-ttu-id="ba894-121">如需 SG1/SG4 迴圈的詳細資訊，請參閱[EDIFACT CONTRL 訊息做為功能通知](../core/edifact-contrl-message-as-functional-acknowledgment.md)。</span><span class="sxs-lookup"><span data-stu-id="ba894-121">For more information about SG1/SG4 loops, see [EDIFACT CONTRL Message as Functional Acknowledgment](../core/edifact-contrl-message-as-functional-acknowledgment.md).</span></span>  
   

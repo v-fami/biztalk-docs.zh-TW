@@ -1,14 +1,14 @@
 ---
-title: "在剖析期間發生錯誤。 Edifact 交易集包含在功能群組中處於暫停狀態，錯誤如下 |Microsoft 文件"
-ms.custom: 
+title: 在剖析期間發生錯誤。 Edifact 交易集包含在功能群組中處於暫停狀態，錯誤如下 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 986a7220-d35a-4047-8996-7d44c7d2b823
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239942"
 ---
 # <a name="error-encountered-during-parsing-the-edifact-transaction-set-contained-in-functional-group-is-being-suspended-with-following-errors"></a><span data-ttu-id="759ac-103">在剖析期間發生錯誤。</span><span class="sxs-lookup"><span data-stu-id="759ac-103">Error encountered during parsing.</span></span> <span data-ttu-id="759ac-104">功能群組中包含的 Edifact 交易集處於暫停狀態，錯誤如下</span><span class="sxs-lookup"><span data-stu-id="759ac-104">The Edifact transaction set contained in functional group is being suspended with following errors</span></span>
 ## <a name="details"></a><span data-ttu-id="759ac-105">詳細資料</span><span class="sxs-lookup"><span data-stu-id="759ac-105">Details</span></span>  

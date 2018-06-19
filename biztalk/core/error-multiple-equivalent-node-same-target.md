@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239798"
 ---
 # <a name="error---multiple-equivalent-node-same-target"></a><span data-ttu-id="edfe8-102">錯誤-多個相等節點相同目標</span><span class="sxs-lookup"><span data-stu-id="edfe8-102">Error - Multiple Equivalent Node Same Target</span></span>
 <span data-ttu-id="edfe8-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="edfe8-103">**Error Code**</span></span>  

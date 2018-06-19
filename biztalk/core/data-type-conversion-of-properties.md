@@ -1,11 +1,11 @@
 ---
-title: "資料類型轉換的屬性 |Microsoft 文件"
-ms.custom: 
+title: 資料類型轉換的屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - MQSeries adapters, data type conversion
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - MQCHAR property [MQSeries adapters]
 - configuring [MQSeries adapters], data type conversion
 ms.assetid: 5b81eab0-f7a1-42f3-b212-a211b2893fd5
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238662"
 ---
 # <a name="data-type-conversion-of-properties"></a><span data-ttu-id="c9190-102">屬性的資料類型轉換</span><span class="sxs-lookup"><span data-stu-id="c9190-102">Data Type Conversion of Properties</span></span>
 <span data-ttu-id="c9190-103">MQSeries 訊息中的標頭屬性是包含在訊息本身的資料結構。</span><span class="sxs-lookup"><span data-stu-id="c9190-103">Header properties in an MQSeries message are data structures contained in the message itself.</span></span> <span data-ttu-id="c9190-104">MQSeries 配接器在傳送和接收訊息時，會自動驗證和轉換 MQSeries 訊息標頭中的特定值。</span><span class="sxs-lookup"><span data-stu-id="c9190-104">The MQSeries adapter automatically validates and converts certain values in MQSeries message headers when sending and receiving messages.</span></span>  

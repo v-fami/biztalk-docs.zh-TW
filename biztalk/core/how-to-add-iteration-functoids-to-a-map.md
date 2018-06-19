@@ -1,14 +1,14 @@
 ---
-title: "如何新增反覆項目運算質至對應 |Microsoft 文件"
-ms.custom: 
+title: 如何新增反覆項目運算質至對應 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1eaea929-e352-447d-b119-bd69b6b24e6c
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247030"
 ---
 # <a name="how-to-add-iteration-functoids-to-a-map"></a><span data-ttu-id="adff7-102">如何新增重複項目運算質至對應</span><span class="sxs-lookup"><span data-stu-id="adff7-102">How to Add Iteration Functoids to a Map</span></span>
 <span data-ttu-id="adff7-103">**反覆項目**運算質的輸出中迴圈的目前記錄的索引結構，在第一筆記錄，而第二個資料錄，2 的 1 開始等等。</span><span class="sxs-lookup"><span data-stu-id="adff7-103">The **Iteration** functoid outputs the index of the current record in a looping structure, beginning at 1 for the first record, 2 for the second record, and so on.</span></span>  

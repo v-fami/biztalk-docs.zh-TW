@@ -1,17 +1,17 @@
 ---
-title: "如何測試元件介面 |Microsoft 文件"
-ms.custom: 
+title: 如何測試元件介面 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - testing component interfaces
 - component interfaces, testing
 ms.assetid: d637f76d-170d-4543-a2b2-a4ac4001386b
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256566"
 ---
 # <a name="how-to-test-component-interfaces"></a><span data-ttu-id="dfcb5-102">如何測試元件介面</span><span class="sxs-lookup"><span data-stu-id="dfcb5-102">How to Test Component Interfaces</span></span>
 <span data-ttu-id="dfcb5-103">Microsoft BizTalk Adapter for PeopleSoft Enterprise 使用 PeopleSoft 中繼資料和元件介面；因此，它可以處理新的或已修改的元件介面。</span><span class="sxs-lookup"><span data-stu-id="dfcb5-103">Microsoft BizTalk Adapter for PeopleSoft Enterprise uses PeopleSoft metadata and component interfaces; therefore, it can handle new or modified component interfaces.</span></span> <span data-ttu-id="dfcb5-104">配接器對元件介面不做任何限制性規定，但是除了元件介面必須符合邏輯且有效。</span><span class="sxs-lookup"><span data-stu-id="dfcb5-104">The adapter makes no assumptions about component interfaces except that they are logical and valid.</span></span> <span data-ttu-id="dfcb5-105">因此，每個元件介面做為配接器的來源之前，都必須先進行測試。</span><span class="sxs-lookup"><span data-stu-id="dfcb5-105">Therefore, each component interface must be tested before it is used as a source for the adapter.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "設定動態傳送埠以傳送 EDI 交換和通知 |Microsoft 文件"
-ms.custom: 
+title: 設定動態傳送埠以傳送 EDI 交換和通知 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a124059c-c29c-4a7f-a8a3-13dffc09ae5c
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232814"
 ---
 # <a name="configuring-a-dynamic-send-port-to-send-edi-interchanges-and-acknowledgments"></a><span data-ttu-id="83eb9-102">將動態傳送埠設定為傳送 EDI 交換和通知</span><span class="sxs-lookup"><span data-stu-id="83eb9-102">Configuring a Dynamic Send Port to Send EDI Interchanges and Acknowledgments</span></span>
 <span data-ttu-id="83eb9-103">若要傳送 EDI 交換或通知，您可以使用靜態傳送埠或動態傳送埠。</span><span class="sxs-lookup"><span data-stu-id="83eb9-103">To send an EDI acknowledgment or interchange, you can use either a static send port or a dynamic send port.</span></span> <span data-ttu-id="83eb9-104">動態傳送埠可讓您交換傳送至多個目的地，其中，因為它以解析協議，並決定目的地址根據 DestinationPartyName 內容屬性中的值。</span><span class="sxs-lookup"><span data-stu-id="83eb9-104">A dynamic send port enables you to send an interchange to any one of multiple destinations, because it resolves the agreement and determines the destination address based upon the value in the DestinationPartyName context property.</span></span>  

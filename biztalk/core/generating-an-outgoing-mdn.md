@@ -1,14 +1,14 @@
 ---
-title: "產生外寄 MDN |Microsoft 文件"
-ms.custom: 
+title: 產生外寄 MDN |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 12d7da1c-0d3c-42d4-9388-29f499353d13
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247950"
 ---
 # <a name="generating-an-outgoing-mdn"></a><span data-ttu-id="8750e-102">產生外寄 MDN</span><span class="sxs-lookup"><span data-stu-id="8750e-102">Generating an Outgoing MDN</span></span>
 <span data-ttu-id="8750e-103">AS2 接收管線會針對內送訊息產生 MDN (訊息處理通知) 回應。</span><span class="sxs-lookup"><span data-stu-id="8750e-103">The AS2 receive pipelines generate an MDN (Message Disposition Notification) response for an incoming message.</span></span> <span data-ttu-id="8750e-104">這項工作是由 AS2EDIReceive 接收管線中的 EDI 解譯器 (回應 EDI 編碼的訊息) 或 AS2Receive 接收管線中的 AS2 解譯器 (回應非 EDI 編碼的訊息) 負責執行。</span><span class="sxs-lookup"><span data-stu-id="8750e-104">This is performed by the EDI Disassembler pipeline component in the AS2EDIReceive receive pipeline (in response to an EDI-encoded message) or the AS2 Disassembler pipeline component in the AS2Receive receive pipeline (in response to a non-EDI-encoded message).</span></span>  
@@ -38,7 +39,7 @@ ms.lasthandoff: 09/20/2017
   
 -   <span data-ttu-id="8750e-116">如果會傳送 MDN**要求 MDN**選取屬性。</span><span class="sxs-lookup"><span data-stu-id="8750e-116">An MDN will be sent if the **Request MDN** property is selected.</span></span>  
   
--   <span data-ttu-id="8750e-117">如果**要求 MDN**選取屬性，而**要求非同步 MDN**屬性，將會以非同步方式傳送 MDN。</span><span class="sxs-lookup"><span data-stu-id="8750e-117">If the **Request MDN** property is selected, and the **Request asynchronous MDN** property is selected, the MDN will be sent asynchronously.</span></span> <span data-ttu-id="8750e-118">MDN 會傳送到的 URL，**回條傳遞選項 (URL)**屬性設定為，透過與原始訊息不同的連線。</span><span class="sxs-lookup"><span data-stu-id="8750e-118">The MDN will be sent to the URL that the **Receipt-Delivery-Option (URL)** property is set to, over a different connection than the original message.</span></span>  
+-   <span data-ttu-id="8750e-117">如果**要求 MDN**選取屬性，而**要求非同步 MDN**屬性，將會以非同步方式傳送 MDN。</span><span class="sxs-lookup"><span data-stu-id="8750e-117">If the **Request MDN** property is selected, and the **Request asynchronous MDN** property is selected, the MDN will be sent asynchronously.</span></span> <span data-ttu-id="8750e-118">MDN 會傳送到的 URL，**回條傳遞選項 (URL)** 屬性設定為，透過與原始訊息不同的連線。</span><span class="sxs-lookup"><span data-stu-id="8750e-118">The MDN will be sent to the URL that the **Receipt-Delivery-Option (URL)** property is set to, over a different connection than the original message.</span></span>  
   
 -   <span data-ttu-id="8750e-119">如果**要求 MDN**選取屬性，但**要求非同步 MDN**未選取屬性，將以同步方式傳送 MDN，透過與原始訊息相同的連線。</span><span class="sxs-lookup"><span data-stu-id="8750e-119">If the **Request MDN** property is selected, but the **Request asynchronous MDN** property is not selected, the MDN will be sent synchronously over the same connection as the original message.</span></span>  
   

@@ -1,14 +1,14 @@
 ---
-title: "AS2 訊息和相互關聯的 MDN 狀態報告 |Microsoft 文件"
-ms.custom: 
+title: AS2 訊息和相互關聯的 MDN 狀態報告 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 48ed0ee3-c844-4cb9-a84d-32b719ab8fab
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232974"
 ---
 # <a name="as2-message-and-correlated-mdn-status-report"></a><span data-ttu-id="0b96b-102">AS2 訊息和相互關聯的 MDN 狀態報告</span><span class="sxs-lookup"><span data-stu-id="0b96b-102">AS2 Message and Correlated MDN Status Report</span></span>
 <span data-ttu-id="0b96b-103">此報告會顯示 AS2 傳送和接收管線處理的所有 AS2 訊息，以及與這些交換相互關聯的 MDN。</span><span class="sxs-lookup"><span data-stu-id="0b96b-103">This report shows all AS2 messages that are processed by the AS2 send and receive pipelines, and the MDNs correlated to those interchanges.</span></span>  

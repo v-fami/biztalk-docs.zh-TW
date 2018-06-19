@@ -1,14 +1,14 @@
 ---
-title: "設定一般本機主機設定 (AS2) |Microsoft 文件"
-ms.custom: 
+title: 設定一般本機主機設定 (AS2) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 980daac2-8387-44cc-ae55-38639f759668
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233814"
 ---
 # <a name="configuring-general-local-host-settings-as2"></a><span data-ttu-id="0e395-102">設定一般本機主機設定 (AS2)</span><span class="sxs-lookup"><span data-stu-id="0e395-102">Configuring General Local Host Settings (AS2)</span></span>
 <span data-ttu-id="0e395-103">在本機主機一般設定中，您可以指定 AS2 訊息的內容類型，以及是否保留檔案名稱做為 AS2 訊息標頭的一部分。</span><span class="sxs-lookup"><span data-stu-id="0e395-103">As part of the local host general settings, you can specify the content type of the AS2 messages and whether the file name is preserved as part of the AS2 message header.</span></span>  
@@ -47,7 +48,7 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  <span data-ttu-id="0e395-121">選取**具有系統產生的檔案名稱**會產生新的 GUID 值做為 AS2 訊息中傳送的每個附件的檔案名稱。</span><span class="sxs-lookup"><span data-stu-id="0e395-121">Selecting **Have system generate file name** will generate a new GUID value as the file name of each attachment sent in the AS2 message.</span></span>  
   
-6.  <span data-ttu-id="0e395-122">如果您選取**指定檔案名稱**，將字串值或內容屬性中的輸入**指定檔案名稱**欄位。</span><span class="sxs-lookup"><span data-stu-id="0e395-122">If you selected **Specify file name**, enter a string value or context property in the **Specify file name** field.</span></span> <span data-ttu-id="0e395-123">您也可以啟用**暫止訊息，如果找不到內容屬性 （如 %property%)**來擱置訊息，如果選取的內容屬性不存在的傳出訊息。</span><span class="sxs-lookup"><span data-stu-id="0e395-123">You can also enable **Suspend message if context property (e.g. %property%) not found** to suspend the message if the selected context property does not exist for the outbound message.</span></span>  
+6.  <span data-ttu-id="0e395-122">如果您選取**指定檔案名稱**，將字串值或內容屬性中的輸入**指定檔案名稱**欄位。</span><span class="sxs-lookup"><span data-stu-id="0e395-122">If you selected **Specify file name**, enter a string value or context property in the **Specify file name** field.</span></span> <span data-ttu-id="0e395-123">您也可以啟用**暫止訊息，如果找不到內容屬性 （如 %property%)** 來擱置訊息，如果選取的內容屬性不存在的傳出訊息。</span><span class="sxs-lookup"><span data-stu-id="0e395-123">You can also enable **Suspend message if context property (e.g. %property%) not found** to suspend the message if the selected context property does not exist for the outbound message.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="0e395-124">若要指定內容屬性，請用 %字元括住屬性名稱。</span><span class="sxs-lookup"><span data-stu-id="0e395-124">To specify a context-property, enclose the property name with the % character.</span></span> <span data-ttu-id="0e395-125">例如， `%FILE.ReceivedFileName%`。</span><span class="sxs-lookup"><span data-stu-id="0e395-125">For example, `%FILE.ReceivedFileName%`.</span></span>  

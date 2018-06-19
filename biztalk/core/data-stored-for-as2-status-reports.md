@@ -1,14 +1,14 @@
 ---
-title: "AS2 狀態報告的儲存資料 |Microsoft 文件"
-ms.custom: 
+title: AS2 狀態報告的儲存資料 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c6aa4077-3768-436b-99b9-d203a86a7e69
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238510"
 ---
 # <a name="data-stored-for-as2-status-reports"></a><span data-ttu-id="f988f-102">AS2 狀態報告的儲存資料</span><span class="sxs-lookup"><span data-stu-id="f988f-102">Data Stored for AS2 Status Reports</span></span>
 <span data-ttu-id="f988f-103">AS2 狀態報告中有兩個層級的報告： 第一個 if**開啟報告**選取協議屬性 (從**一般屬性**頁面**一般**索引標籤中**協議屬性**對話方塊)，而第二個如果針對協議選取不可否認性資料庫儲存體屬性。</span><span class="sxs-lookup"><span data-stu-id="f988f-103">Two levels of reporting are available in AS2 status reporting: the first if the **Turn ON Reporting** property is selected for an agreement (from the **General Properties** page of the **General** tab in the **Agreement Properties** dialog box), and the second if a non-repudiation database storage property is selected for an agreement.</span></span>  

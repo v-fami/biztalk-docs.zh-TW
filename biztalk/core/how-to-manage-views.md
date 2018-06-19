@@ -1,14 +1,14 @@
 ---
-title: "如何管理檢視 |Microsoft 文件"
-ms.custom: 
+title: 如何管理檢視 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c4a865d7-b319-4264-a085-15f2155bdb2d
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254638"
 ---
 # <a name="how-to-manage-views"></a><span data-ttu-id="f003a-102">如何管理檢視</span><span class="sxs-lookup"><span data-stu-id="f003a-102">How to Manage Views</span></span>
 <span data-ttu-id="f003a-103">在開發 BizTalk 對應，您可能想要變更來源或目的結構描述樹狀檢視的大小或格線檢視的大小。</span><span class="sxs-lookup"><span data-stu-id="f003a-103">In the process of developing BizTalk maps, you may want to change the sizes of the source or destination schema tree views, or the size of the grid view.</span></span> <span data-ttu-id="f003a-104">有時候，您可能需要在先前關閉的檢視中開啟對應。</span><span class="sxs-lookup"><span data-stu-id="f003a-104">Sometimes, you may want to open your map in the same view you had closed earlier.</span></span> <span data-ttu-id="f003a-105">本主題提供這些工作的逐步解說。</span><span class="sxs-lookup"><span data-stu-id="f003a-105">This topic provides step-by-step instructions for these tasks.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "設定驗證 （X12 交換設定） |Microsoft 文件"
-ms.custom: 
+title: 設定驗證 （X12 交換設定） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fdad7016-1d66-4d11-b620-c28368f00133
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233270"
 ---
 # <a name="configuring-validation-x12-interchange-settings"></a><span data-ttu-id="5dc60-102">設定驗證 (X12 交換設定)</span><span class="sxs-lookup"><span data-stu-id="5dc60-102">Configuring Validation (X12-Interchange Settings)</span></span>
 <span data-ttu-id="5dc60-103">X12 交換驗證產生設定會定義 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 如何在收到的交換中檢查重複的交換控制編號。</span><span class="sxs-lookup"><span data-stu-id="5dc60-103">X12 interchange validation generation settings define how [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] checks for duplicate control numbers in the received interchange.</span></span>  

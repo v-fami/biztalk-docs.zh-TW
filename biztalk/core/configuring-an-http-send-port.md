@@ -1,17 +1,17 @@
 ---
-title: "設定 HTTP 傳送埠 |Microsoft 文件"
-ms.custom: 
+title: 設定 HTTP 傳送埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - HTTP adapters, send ports
 - configuring [HTTP adapters], send ports
 ms.assetid: a86dbbb9-008b-4f59-b390-5447ffe9c87c
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232326"
 ---
 # <a name="configuring-an-http-send-port"></a><span data-ttu-id="e39c8-102">設定 HTTP 傳送埠</span><span class="sxs-lookup"><span data-stu-id="e39c8-102">Configuring an HTTP Send Port</span></span>
 <span data-ttu-id="e39c8-103">本節描述如何設定 HTTP 傳送埠。</span><span class="sxs-lookup"><span data-stu-id="e39c8-103">This section describes how to configure an HTTP send port.</span></span>  

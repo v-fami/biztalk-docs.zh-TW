@@ -1,17 +1,17 @@
 ---
-title: "組態資訊 |Microsoft 文件"
-ms.custom: 
+title: 組態資訊 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Call Rules shape [Orchestration Designer], planning
 - Call Rules shape [Orchestration Designer], configuring
 ms.assetid: aa4924c6-4270-473b-aa0a-6d8b18375a39
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233462"
 ---
 # <a name="configuration-information"></a><span data-ttu-id="954da-102">組態資訊</span><span class="sxs-lookup"><span data-stu-id="954da-102">Configuration Information</span></span>
 <span data-ttu-id="954da-103">本主題描述如何設定**呼叫規則**圖形。</span><span class="sxs-lookup"><span data-stu-id="954da-103">This topic describes how to configure the **Call Rules** shape.</span></span>  
@@ -38,7 +39,7 @@ ms.lasthandoff: 09/20/2017
     ```  
   
 > [!NOTE]
->  <span data-ttu-id="954da-116">如果沒有相符的事實類型的變數，這些類型不會出現在參數**指定原則參數**清單方塊中的**[CallRules 原則組態**] 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="954da-116">If you do not have variables matching the fact types, these types will not appear as parameters in the **Specify policy parameters** list box in the **CallRules policy configuration** dialog box.</span></span>  
+>  <span data-ttu-id="954da-116">如果沒有相符的事實類型的變數，這些類型不會出現在參數**指定原則參數**清單方塊中的 **[CallRules 原則組態**] 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="954da-116">If you do not have variables matching the fact types, these types will not appear as parameters in the **Specify policy parameters** list box in the **CallRules policy configuration** dialog box.</span></span>  
   
 > [!NOTE]
 >  <span data-ttu-id="954da-117">協調流程引擎會自動轉換做為參數，BRE 原則到您指定的訊息變數**TypedXmlDocument**物件，並將它們判斷提示至規則引擎執行原則之前的工作記憶體。</span><span class="sxs-lookup"><span data-stu-id="954da-117">The orchestration engine automatically converts the message variables you specify as parameters to a BRE policy into **TypedXmlDocument** objects, and asserts them into working memory of the rule engine prior to executing the policy.</span></span> <span data-ttu-id="954da-118">因此，您不需要像處理 .NET 和資料庫事實一樣，宣告 TypedXmlDocument 型別的變數。</span><span class="sxs-lookup"><span data-stu-id="954da-118">Therefore, you do not need to declare variables of type TypedXmlDocument as you did for .NET and database facts.</span></span>  
@@ -48,4 +49,4 @@ ms.lasthandoff: 09/20/2017
   
  <span data-ttu-id="954da-121">例如，如果您在 BizTalk 專案中，定義訂單 (PO) XML 結構描述**MessageType**針對此結構描述定義**BTSProject.PO** (如果**BTSProject**是命名空間或使用預設命名空間的專案名稱）。</span><span class="sxs-lookup"><span data-stu-id="954da-121">For example, if you define a purchase order (PO) XML schema in a BizTalk project, the **MessageType** defined for this schema is **BTSProject.PO** (if **BTSProject** is the namespace or the project name using the default namespace).</span></span>  
   
- <span data-ttu-id="954da-122">如果是**PO\Amount**項目，才能卸除到規則定義，您必須變更其**DocumentType**屬性**BTSProject.PO**中 [屬性] 視窗.</span><span class="sxs-lookup"><span data-stu-id="954da-122">In the case of the **PO\Amount** element, before you drop it into a rule definition, you must change its **DocumentType**property to **BTSProject.PO** in the properties window.</span></span> <span data-ttu-id="954da-123">選取結構描述中的任何節點上時，您可以存取 屬性 視窗**XML 結構描述** 索引標籤 事實總管 中的。</span><span class="sxs-lookup"><span data-stu-id="954da-123">You can access the properties window when any node in the schema is selected on the **XML Schemas** tab in the Facts Explorer.</span></span> <span data-ttu-id="954da-124">此變更會套用至結構描述中的所有項目，但並不會隨著結構描述而儲存。</span><span class="sxs-lookup"><span data-stu-id="954da-124">This change is applied for all elements in the schema, but is not persisted with the schema.</span></span> <span data-ttu-id="954da-125">在啟動「商務規則編輯器」或重新載入結構描述後，必須將它重設。</span><span class="sxs-lookup"><span data-stu-id="954da-125">It must be reset when the Business Rule Composer is launched or the schema is reloaded.</span></span> <span data-ttu-id="954da-126">根據 XML 結構描述或直接從 XML 結構描述建置的規則，此動作對於詞彙定義而言是必要的。</span><span class="sxs-lookup"><span data-stu-id="954da-126">This is required for vocabulary definitions based either on XML schemas or on rules built directly from XML schemas.</span></span> <span data-ttu-id="954da-127">如果不這麼做，您仍然可以執行原則，但**呼叫規則**圖形將無法正常運作，並不會出現在訊息類型**指定原則參數**清單方塊中的**[CallRules 原則組態**] 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="954da-127">If you do not do this, you can still execute the policy, but the **Call Rules** shape will not work correctly, and message type will not appear in the **Specify policy parameters** list box in the **CallRules policy configuration** dialog box.</span></span>
+ <span data-ttu-id="954da-122">如果是**PO\Amount**項目，才能卸除到規則定義，您必須變更其**DocumentType**屬性**BTSProject.PO**中 [屬性] 視窗.</span><span class="sxs-lookup"><span data-stu-id="954da-122">In the case of the **PO\Amount** element, before you drop it into a rule definition, you must change its **DocumentType**property to **BTSProject.PO** in the properties window.</span></span> <span data-ttu-id="954da-123">選取結構描述中的任何節點上時，您可以存取 屬性 視窗**XML 結構描述** 索引標籤 事實總管 中的。</span><span class="sxs-lookup"><span data-stu-id="954da-123">You can access the properties window when any node in the schema is selected on the **XML Schemas** tab in the Facts Explorer.</span></span> <span data-ttu-id="954da-124">此變更會套用至結構描述中的所有項目，但並不會隨著結構描述而儲存。</span><span class="sxs-lookup"><span data-stu-id="954da-124">This change is applied for all elements in the schema, but is not persisted with the schema.</span></span> <span data-ttu-id="954da-125">在啟動「商務規則編輯器」或重新載入結構描述後，必須將它重設。</span><span class="sxs-lookup"><span data-stu-id="954da-125">It must be reset when the Business Rule Composer is launched or the schema is reloaded.</span></span> <span data-ttu-id="954da-126">根據 XML 結構描述或直接從 XML 結構描述建置的規則，此動作對於詞彙定義而言是必要的。</span><span class="sxs-lookup"><span data-stu-id="954da-126">This is required for vocabulary definitions based either on XML schemas or on rules built directly from XML schemas.</span></span> <span data-ttu-id="954da-127">如果不這麼做，您仍然可以執行原則，但**呼叫規則**圖形將無法正常運作，並不會出現在訊息類型**指定原則參數**清單方塊中的 **[CallRules 原則組態**] 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="954da-127">If you do not do this, you can still execute the policy, but the **Call Rules** shape will not work correctly, and message type will not appear in the **Specify policy parameters** list box in the **CallRules policy configuration** dialog box.</span></span>

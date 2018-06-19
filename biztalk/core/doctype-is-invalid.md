@@ -1,14 +1,14 @@
 ---
-title: "不正確的 Doctype |Microsoft 文件"
-ms.custom: 
+title: 不正確的 Doctype |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 67233aae-65c0-4689-a4b3-60a48132343a
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239142"
 ---
 # <a name="doctype-is-invalid"></a><span data-ttu-id="b9802-102">文件類型不正確</span><span class="sxs-lookup"><span data-stu-id="b9802-102">Doctype is invalid</span></span>
 ## <a name="details"></a><span data-ttu-id="b9802-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="b9802-103">Details</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "不可部分完成交易 |Microsoft 文件"
-ms.custom: 
+title: 不可部分完成交易 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - atomic transactions
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - scopes, transactions
 - scopes
 ms.assetid: 5030e1fd-943f-42bc-9296-4f315bd5f733
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233542"
 ---
 # <a name="atomic-transactions"></a><span data-ttu-id="c1c54-102">不可部分完成交易</span><span class="sxs-lookup"><span data-stu-id="c1c54-102">Atomic Transactions</span></span>
 <span data-ttu-id="c1c54-103">BizTalk 協調流程的設計按照傳統的 'ACID' 交易概念，可執行離散的工作片段。</span><span class="sxs-lookup"><span data-stu-id="c1c54-103">BizTalk orchestrations can be designed to run discrete pieces of work, following the classic 'ACID' concept of a transaction.</span></span> <span data-ttu-id="c1c54-104">當執行這些離散或不可部分完成的工作單位時，便會將商務程序從一個一致的狀態移到新的一致、耐用狀態，而且該狀態會是與其他工作單位隔離的。</span><span class="sxs-lookup"><span data-stu-id="c1c54-104">These discrete or atomic units of work, when performed, move the business process from one consistent state to a new, consistent and durable state that is isolated from other units of work.</span></span> <span data-ttu-id="c1c54-105">這通常是使用**範圍**建構封裝使用交易式語意的單位。</span><span class="sxs-lookup"><span data-stu-id="c1c54-105">This is typically done by using the **Scope** construct that encapsulates the units of work with the transactional semantics.</span></span> <span data-ttu-id="c1c54-106">整個協調流程也可以定義為不可部分完成的交易，而不需要使用範圍。</span><span class="sxs-lookup"><span data-stu-id="c1c54-106">The entire orchestration can also be defined as an atomic transaction without the use of scopes.</span></span> <span data-ttu-id="c1c54-107">不過，除非協調流程本身被標記為長時間執行或不可部分完成的交易類型，否則不能將範圍標記為交易式的。</span><span class="sxs-lookup"><span data-stu-id="c1c54-107">The scopes, however, cannot be marked as transactional unless the orchestration itself is marked as a long running or atomic transaction type.</span></span> <span data-ttu-id="c1c54-108">不可部分完成的交易可保證任何部分更新在交易更新期間作業失敗時都會自動復原，且會清除交易的結果 (在交易中進行的任何 .NET 呼叫結果除外)。</span><span class="sxs-lookup"><span data-stu-id="c1c54-108">Atomic transactions guarantee that any partial updates are rolled back automatically in the event of a failure during the transactional update, and that the effects of the transaction are erased (except for the effects of any .NET calls that are made in the transaction).</span></span> <span data-ttu-id="c1c54-109">在 BizTalk 協調流程中的不可部分完成交易與分散式交易協調器 (DTC) 交易的相似處在於，它們通常都是短時間的，而且都具有四個「ACID」屬性 (不可部分完成性、一致性、隔離性與耐用性)：</span><span class="sxs-lookup"><span data-stu-id="c1c54-109">Atomic transactions in BizTalk orchestrations are similar to distributed transaction coordinator (DTC) transactions in that they are generally short-lived and have the four "ACID" attributes (atomicity, consistency, isolation, and durability):</span></span>  

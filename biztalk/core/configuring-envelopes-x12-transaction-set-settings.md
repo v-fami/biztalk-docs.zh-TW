@@ -1,14 +1,14 @@
 ---
-title: "設定信封 （X12-交易集設定） |Microsoft 文件"
-ms.custom: 
+title: 設定信封 （X12-交易集設定） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9313a7b9-72fa-4071-8c65-007371643179
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234334"
 ---
 # <a name="configuring-envelopes-x12-transaction-set-settings"></a><span data-ttu-id="7a041-102">設定信封 (X12 交易集設定)</span><span class="sxs-lookup"><span data-stu-id="7a041-102">Configuring Envelopes (X12-Transaction Set Settings)</span></span>
 <span data-ttu-id="7a041-103">在**可以**頁面**交易集設定** 區段中，您可以定義 BizTalk Server 如何產生傳送至合作對象的 X12 編碼交換的 GS 和 ST 區段。</span><span class="sxs-lookup"><span data-stu-id="7a041-103">In the **Envelops** page of the **Transaction Set Settings** section, you define how BizTalk Server generates the GS and ST segments for an X12-encoded interchange that it sends to the party.</span></span> <span data-ttu-id="7a041-104">GS 區段可識別並指定 X12 編碼交換的功能群組。</span><span class="sxs-lookup"><span data-stu-id="7a041-104">A GS segment identifies and specifies a functional group for an X12-encoded interchange.</span></span> <span data-ttu-id="7a041-105">ST 區段則是 X12 編碼交換的訊息標頭。</span><span class="sxs-lookup"><span data-stu-id="7a041-105">An ST segment is the message header for an X12-encoded interchange.</span></span>  
@@ -62,7 +63,7 @@ ms.lasthandoff: 09/20/2017
   
     -   <span data-ttu-id="7a041-130">如**GS4**，選取**CCYYMMDD**或**YYMMDD**。</span><span class="sxs-lookup"><span data-stu-id="7a041-130">For **GS4**, select **CCYYMMDD** or **YYMMDD**.</span></span> <span data-ttu-id="7a041-131">這是選擇性欄位。</span><span class="sxs-lookup"><span data-stu-id="7a041-131">This is an optional field</span></span>  
   
-    -   <span data-ttu-id="7a041-132">如**GS5**，選取**HHMM**， **HHMMSS**，或**[hhmmssdd]**。</span><span class="sxs-lookup"><span data-stu-id="7a041-132">For **GS5**, select **HHMM**, **HHMMSS**, or **HHMMSSdd**.</span></span> <span data-ttu-id="7a041-133">這是選擇性欄位。</span><span class="sxs-lookup"><span data-stu-id="7a041-133">This is an optional field</span></span>  
+    -   <span data-ttu-id="7a041-132">如**GS5**，選取**HHMM**， **HHMMSS**，或 **[hhmmssdd]**。</span><span class="sxs-lookup"><span data-stu-id="7a041-132">For **GS5**, select **HHMM**, **HHMMSS**, or **HHMMSSdd**.</span></span> <span data-ttu-id="7a041-133">這是選擇性欄位。</span><span class="sxs-lookup"><span data-stu-id="7a041-133">This is an optional field</span></span>  
   
     -   <span data-ttu-id="7a041-134">如**GS7**，從下拉式清單中選取負責單位的值。</span><span class="sxs-lookup"><span data-stu-id="7a041-134">For **GS7**, select a value for the responsible agency from the drop-down list.</span></span> <span data-ttu-id="7a041-135">這是選擇性欄位。</span><span class="sxs-lookup"><span data-stu-id="7a041-135">This is an optional field.</span></span>  
   

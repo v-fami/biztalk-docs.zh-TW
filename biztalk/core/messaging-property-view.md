@@ -1,11 +1,11 @@
 ---
-title: "傳訊屬性檢視 |Microsoft 文件"
-ms.custom: 
+title: 傳訊屬性檢視 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Tracking Profile Editor, message schemas
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Tracking Profile Editor, Messaging Property view
 - message schemas, XML messages
 ms.assetid: 80d040e9-d58b-41d1-b26d-19aff4d3126b
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262894"
 ---
 # <a name="messaging-property-view"></a><span data-ttu-id="7a27e-102">傳訊屬性檢視</span><span class="sxs-lookup"><span data-stu-id="7a27e-102">Messaging Property View</span></span>
 <span data-ttu-id="7a27e-103">[傳訊屬性] 檢視會顯示與屬性相關聯的 XML 訊息結構描述。</span><span class="sxs-lookup"><span data-stu-id="7a27e-103">The Messaging Property view displays the schema of the XML message associated with the property.</span></span> <span data-ttu-id="7a27e-104">您可以從 [協調流程排程] 檢視中某些圖形的捷徑功能表存取該檢視。</span><span class="sxs-lookup"><span data-stu-id="7a27e-104">The view is available from the shortcut menu for some of the shapes in the Orchestration Schedule view.</span></span>  

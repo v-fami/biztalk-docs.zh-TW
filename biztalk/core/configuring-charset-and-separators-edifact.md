@@ -1,14 +1,14 @@
 ---
-title: "設定字元集和分隔符號 (EDIFACT) |Microsoft 文件"
-ms.custom: 
+title: 設定字元集和分隔符號 (EDIFACT) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d4764938-0968-4536-9eb6-d600c03a0428
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234246"
 ---
 # <a name="configuring-charset-and-separators-edifact"></a><span data-ttu-id="8a253-102">設定字元集和分隔符號 (EDIFACT)</span><span class="sxs-lookup"><span data-stu-id="8a253-102">Configuring Charset and Separators (EDIFACT)</span></span>
 <span data-ttu-id="8a253-103">在夥伴協議中，您可以指定之字元集 (UNA)[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]將用於建立外寄 EDIFACT 訊息的信封時，驗證合作對象屬性。</span><span class="sxs-lookup"><span data-stu-id="8a253-103">In the partner agreement, you can specify the character set (UNA) that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will use to validate party properties when creating the envelope for an outgoing EDIFACT message.</span></span> <span data-ttu-id="8a253-104">您也可以指定要對交換中的區段使用的分隔符號和結束字元 (UNB)。</span><span class="sxs-lookup"><span data-stu-id="8a253-104">You can also specify what separators and terminators (UNB) will be used for the segments in the interchange.</span></span>  
@@ -39,7 +40,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  <span data-ttu-id="8a253-117">在單向協議索引標籤底下**交換設定**區段中，按一下**字元集和分隔符號**。</span><span class="sxs-lookup"><span data-stu-id="8a253-117">On a one-way agreement tab, under **Interchange Settings** section, click **Charset and Separators**.</span></span>  
   
-3.  <span data-ttu-id="8a253-118">在**語法 (UNB1)**區段中，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="8a253-118">In the **Syntax (UNB1)** section, do the following:</span></span>  
+3.  <span data-ttu-id="8a253-118">在**語法 (UNB1)** 區段中，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="8a253-118">In the **Syntax (UNB1)** section, do the following:</span></span>  
   
     1.  <span data-ttu-id="8a253-119">如**識別項 (UNB1.1)**，輸入要套用到外寄交換的 EDIFACT 字元集。</span><span class="sxs-lookup"><span data-stu-id="8a253-119">For **Identifier (UNB1.1)**, enter the EDIFACT character set to be applied on the outgoing interchange.</span></span> <span data-ttu-id="8a253-120">這是必要的欄位。</span><span class="sxs-lookup"><span data-stu-id="8a253-120">This is a required field.</span></span>  
   

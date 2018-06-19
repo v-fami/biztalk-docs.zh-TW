@@ -1,14 +1,14 @@
 ---
-title: "動態配接器 DisplayUI 方法 |Microsoft 文件"
-ms.custom: 
+title: 動態配接器 DisplayUI 方法 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9183d2ee-4265-4fee-9d1d-7e2462d8ff37
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238670"
 ---
 # <a name="dynamic-adapter-displayui-method"></a><span data-ttu-id="3589e-102">動態配接器 DisplayUI 方法</span><span class="sxs-lookup"><span data-stu-id="3589e-102">Dynamic Adapter DisplayUI Method</span></span>
 <span data-ttu-id="3589e-103">這個方法在**IDynamicAdapterConfig**介面會顯示自訂配接器的自訂使用者介面。</span><span class="sxs-lookup"><span data-stu-id="3589e-103">This method on the **IDynamicAdapterConfig** interface displays the custom user interface for the custom adapter.</span></span> <span data-ttu-id="3589e-104">如此可讓使用者根據其 BizTalk 專案中選取的服務來檢視、選取及匯入相關的支援檔案。</span><span class="sxs-lookup"><span data-stu-id="3589e-104">This enables the user to view, select, and import the related supporting files based upon the selected services into their BizTalk project.</span></span>  

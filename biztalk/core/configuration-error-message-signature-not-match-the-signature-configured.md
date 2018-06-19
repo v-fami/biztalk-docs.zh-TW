@@ -1,14 +1,14 @@
 ---
-title: "組態錯誤。 訊息簽章不 &#39; 與此合作對象設定簽章相符的 t |Microsoft 文件"
-ms.custom: 
+title: 組態錯誤。 訊息簽章不 &#39; 與此合作對象設定簽章相符的 t |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7cea0016-12e8-4ee8-ac44-11024b5e74ef
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232486"
 ---
 # <a name="configuration-error-the-message-signature-doesn39t-match-the-signature-configured-for-this-party"></a><span data-ttu-id="e0a6e-103">組態錯誤。</span><span class="sxs-lookup"><span data-stu-id="e0a6e-103">Configuration error.</span></span> <span data-ttu-id="e0a6e-104">訊息簽章不 &#39; t 符合此合作對象設定簽章</span><span class="sxs-lookup"><span data-stu-id="e0a6e-104">The message signature doesn&#39;t match the signature configured for this party</span></span>
 ## <a name="details"></a><span data-ttu-id="e0a6e-105">詳細資料</span><span class="sxs-lookup"><span data-stu-id="e0a6e-105">Details</span></span>  

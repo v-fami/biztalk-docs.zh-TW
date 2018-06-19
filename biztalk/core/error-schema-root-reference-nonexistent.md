@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240606"
 ---
 # <a name="error---schema-root-reference-nonexistent"></a><span data-ttu-id="da198-102">錯誤-結構描述根參考不存在</span><span class="sxs-lookup"><span data-stu-id="da198-102">Error - Schema Root Reference Nonexistent</span></span>
 <span data-ttu-id="da198-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="da198-103">**Error Code**</span></span>  

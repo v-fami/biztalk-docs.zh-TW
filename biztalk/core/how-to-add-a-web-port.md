@@ -1,17 +1,17 @@
 ---
-title: "如何新增 Web 連接埠 |Microsoft 文件"
-ms.custom: 
+title: 如何新增 Web 連接埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Web ports, creating
 - creating, Web ports
 ms.assetid: da94d98e-10ca-437a-ba34-7aa6efc68f3d
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248006"
 ---
 # <a name="how-to-add-a-web-port"></a><span data-ttu-id="4b348-102">如何新增 Web 連接埠</span><span class="sxs-lookup"><span data-stu-id="4b348-102">How to Add a Web Port</span></span>
 <span data-ttu-id="4b348-103">您可以使用 [協調流程設計師]，在連接埠介面上新增 Web 連接埠。</span><span class="sxs-lookup"><span data-stu-id="4b348-103">You add a Web port on the port surface in Orchestration Designer.</span></span> <span data-ttu-id="4b348-104">不同於其他已設定的連接埠，Web 連接埠支援混合要求 (單向) 和要求-回應 (雙向) 的作業。</span><span class="sxs-lookup"><span data-stu-id="4b348-104">Unlike other configured ports, Web ports support a mixture of request (one-way) and request/response (two-way) operations.</span></span> <span data-ttu-id="4b348-105">Web 連接埠中的每個作業都代表一個 Web 方法。</span><span class="sxs-lookup"><span data-stu-id="4b348-105">Each operation in the Web port represents a Web method.</span></span> <span data-ttu-id="4b348-106">如果 Web 方法包含*輸入*和*輸出*參數，BizTalk 會建立要求/回應作業。</span><span class="sxs-lookup"><span data-stu-id="4b348-106">If the Web method contains *input* and *output* parameters, BizTalk creates a request/response operation.</span></span> <span data-ttu-id="4b348-107">如果 Web 服務僅包含*輸入*參數，BizTalk 只會建立單向作業。</span><span class="sxs-lookup"><span data-stu-id="4b348-107">If the Web service contains only an *input* parameter, BizTalk only creates a one-way operation.</span></span>  

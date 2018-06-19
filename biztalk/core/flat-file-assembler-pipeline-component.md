@@ -1,17 +1,17 @@
 ---
-title: "一般檔案組合器管線元件 |Microsoft 文件"
-ms.custom: 
+title: 一般檔案組合器管線元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components, Flat File Assembler
 - Flat File Assembler [pipeline component]
 ms.assetid: 3c851771-55b2-4d21-9291-d707dd66837c
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22245862"
 ---
 # <a name="flat-file-assembler-pipeline-component"></a><span data-ttu-id="3cd9e-102">一般檔案組合器管線元件</span><span class="sxs-lookup"><span data-stu-id="3cd9e-102">Flat File Assembler Pipeline Component</span></span>
 <span data-ttu-id="3cd9e-103">一般檔案組合器將個別文件組合成一批檔案，並可以選擇是否在上面加入標頭或結尾 (或兩者)。</span><span class="sxs-lookup"><span data-stu-id="3cd9e-103">A Flat File Assembler combines individual documents into a batch and optionally adds a header or trailer (or both) to it.</span></span> <span data-ttu-id="3cd9e-104">如需一般檔案的詳細資訊，請參閱[具有分隔記錄的一般檔案訊息](../core/flat-file-messages-with-delimited-records.md)。</span><span class="sxs-lookup"><span data-stu-id="3cd9e-104">For more information about flat files, see [Flat File Messages with Delimited Records](../core/flat-file-messages-with-delimited-records.md).</span></span> <span data-ttu-id="3cd9e-105">另請參閱[具有位置記錄的一般檔案訊息](../core/flat-file-messages-with-positional-records.md)。</span><span class="sxs-lookup"><span data-stu-id="3cd9e-105">Also see [Flat File Messages with Positional Records](../core/flat-file-messages-with-positional-records.md).</span></span>  

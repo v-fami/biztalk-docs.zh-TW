@@ -1,14 +1,14 @@
 ---
-title: "一般檔案訊息標頭 |Microsoft 文件"
-ms.custom: 
+title: 一般檔案訊息標頭 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1981daaf-149a-426d-9a2f-5fcf64bce185
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246350"
 ---
 # <a name="flat-file-message-headers"></a><span data-ttu-id="79546-102">一般檔案訊息標頭</span><span class="sxs-lookup"><span data-stu-id="79546-102">Flat File Message Headers</span></span>
 <span data-ttu-id="79546-103">選擇性的一般檔案執行個體訊息標頭，一般檔案解譯器剖析由您在設定一般檔案結構描述**標頭結構描述**的一般檔案解譯器的設計階段屬性或**XMLNORM。HeaderSpecName**訊息內容屬性。</span><span class="sxs-lookup"><span data-stu-id="79546-103">The parsing of the optional flat file instance message header by the flat file disassembler is controlled by the flat file schema that you have configured in the **Header schema** design-time property of the flat file disassembler or the **XMLNORM.HeaderSpecName** message context property.</span></span> <span data-ttu-id="79546-104">若您並未使用這兩種方法的其中一種來指定結構描述，則一般檔案解譯器就會假設一般檔案執行個體訊息沒有包含標頭。</span><span class="sxs-lookup"><span data-stu-id="79546-104">If you have not specified a schema using one of these two methods, the flat file disassembler assumes that the flat file instance message does not contain a header.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "如何建構不含訊息部分的 Web 訊息 |Microsoft 文件"
-ms.custom: 
+title: 如何建構不含訊息部分的 Web 訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, Web messages
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Web messages, creating
 - Web messages, parts
 ms.assetid: de17566d-be29-4af0-bf9f-6df3bc316013
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248614"
 ---
 # <a name="how-to-construct-a-web-message-with-no-message-parts"></a><span data-ttu-id="4f25b-102">如何建構不含訊息部分的 Web 訊息</span><span class="sxs-lookup"><span data-stu-id="4f25b-102">How to Construct a Web Message with No Message Parts</span></span>
 <span data-ttu-id="4f25b-103">不含訊息部分的 Web 訊息是沒有輸入參數的方法。</span><span class="sxs-lookup"><span data-stu-id="4f25b-103">A Web message that does not have message parts is a method that does not have input parameters.</span></span>  

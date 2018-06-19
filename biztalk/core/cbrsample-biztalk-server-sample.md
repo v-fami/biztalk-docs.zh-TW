@@ -17,7 +17,7 @@ helpviewer_keywords:
 - examples, filters
 - messages, examples
 ms.assetid: 8fba494c-9257-4eed-8b6a-867056147c2c
-caps.latest.revision: ''
+caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22234726"
 ---
 # <a name="cbrsample-biztalk-server-sample"></a><span data-ttu-id="3c499-102">CBRSample （BizTalk Server 範例）</span><span class="sxs-lookup"><span data-stu-id="3c499-102">CBRSample (BizTalk Server Sample)</span></span>
 <span data-ttu-id="3c499-103">CBRSample 範例會示範如何套用篩選條件和輸出對應，以轉換並根據內容來路由執行個體訊息。</span><span class="sxs-lookup"><span data-stu-id="3c499-103">The CBRSample sample demonstrates how to apply filters and an outbound map to transform and route instance messages based on content.</span></span>  
@@ -143,7 +144,7 @@ ms.lasthandoff: 03/23/2018
   
 2.  <span data-ttu-id="3c499-193">觀察每個檔案如何轉換和路由傳送至下列其中兩個輸出的值為基礎的資料夾其 **CountryCode** 項目 (100 和 200):</span><span class="sxs-lookup"><span data-stu-id="3c499-193">Observe how each of these files is transformed and routed to one of the following two output folders based on the value of their **CountryCode** element (100 versus 200):</span></span>  
   
-    -   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="3c499-194"> 轉換和路由的輸入的檔**[cbrdatacan.xml]**至資料夾：</span><span class="sxs-lookup"><span data-stu-id="3c499-194"> transforms and routes the input file **CBRDataCAN.xml** to the folder:</span></span>  
+    -   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="3c499-194"> 轉換和路由的輸入的檔 **[cbrdatacan.xml]** 至資料夾：</span><span class="sxs-lookup"><span data-stu-id="3c499-194"> transforms and routes the input file **CBRDataCAN.xml** to the folder:</span></span>  
   
          <span data-ttu-id="3c499-195">`<Samples Path>` **\Messaging\CBRSample\CAN**</span><span class="sxs-lookup"><span data-stu-id="3c499-195">`<Samples Path>` **\Messaging\CBRSample\CAN**</span></span>  
   

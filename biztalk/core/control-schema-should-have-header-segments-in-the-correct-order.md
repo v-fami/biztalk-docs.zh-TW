@@ -1,14 +1,14 @@
 ---
-title: "控制結構描述應以正確的順序有標頭區段 |Microsoft 文件"
-ms.custom: 
+title: 控制結構描述應以正確的順序有標頭區段 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 88f38e8f-243a-467f-84bd-a232ef148b4b
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22237854"
 ---
 # <a name="control-schema-should-have-header-segments-in-the-correct-order"></a><span data-ttu-id="d94d6-102">控制結構描述應以正確的順序有標頭區段</span><span class="sxs-lookup"><span data-stu-id="d94d6-102">Control schema should have header segments in the correct order</span></span>
 ## <a name="details"></a><span data-ttu-id="d94d6-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="d94d6-103">Details</span></span>  

@@ -1,18 +1,18 @@
 ---
-title: "建立管線使用管線設計師 |Microsoft 文件"
-ms.custom: 
+title: 建立管線使用管線設計師 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipelines, processing messages
 - pipelines, Pipeline Designer
 - Pipeline Designer, about Pipeline Designer
 ms.assetid: 858302d8-a912-4199-95e5-4322db789b4e
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238046"
 ---
 # <a name="creating-pipelines-using-pipeline-designer"></a><span data-ttu-id="2f627-102">建立管線使用管線設計師</span><span class="sxs-lookup"><span data-stu-id="2f627-102">Creating Pipelines Using Pipeline Designer</span></span>
 <span data-ttu-id="2f627-103">Microsoft BizTalk Server 主要處理 XML 文件格式。</span><span class="sxs-lookup"><span data-stu-id="2f627-103">Microsoft BizTalk Server works mainly with the XML document format.</span></span> <span data-ttu-id="2f627-104">為能充分利用 BizTalk Server 處理優點，必須經常將訊息由其原生格式轉換為 XML 表示法。</span><span class="sxs-lookup"><span data-stu-id="2f627-104">For a message to take full advantage of BizTalk Server processing, it must often be transformed from its native format into its XML representation.</span></span> <span data-ttu-id="2f627-105">BizTalk Server 管線會針對內送與外寄訊息執行此轉換，以及其他資料特定動作 (例如，資料加密或解密、屬性升級等)。</span><span class="sxs-lookup"><span data-stu-id="2f627-105">BizTalk Server pipelines perform this transformation, as well as other data-specific actions (such as data encryption or decryption, property promotion, and so on) on incoming and outgoing messages.</span></span> <span data-ttu-id="2f627-106">本節提供關於管線和「管線設計師」的概念性和工作特定資訊。</span><span class="sxs-lookup"><span data-stu-id="2f627-106">This section provides conceptual and task-specific information about pipelines and Pipeline Designer.</span></span>  

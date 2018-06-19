@@ -1,14 +1,14 @@
 ---
-title: "在處理交易 Set(s) 因為沒有設定文件類型之後所發生的錯誤 |Microsoft 文件"
-ms.custom: 
+title: 在處理交易 Set(s) 因為沒有設定文件類型之後所發生的錯誤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a323658c-77d8-4059-aa15-d88c08e5450d
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240262"
 ---
 # <a name="error-encountered-after-processing-transaction-sets-because-doctype-was-not-set"></a><span data-ttu-id="33998-102">在處理交易 Set(s) 因為沒有設定文件類型之後所發生的錯誤</span><span class="sxs-lookup"><span data-stu-id="33998-102">Error encountered after processing Transaction Set(s) because DocType was not set</span></span>
 ## <a name="details"></a><span data-ttu-id="33998-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="33998-103">Details</span></span>  

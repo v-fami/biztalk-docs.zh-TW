@@ -1,14 +1,14 @@
 ---
-title: "如何設定 BizTalk Server 來接收加密的訊息 |Microsoft 文件"
-ms.custom: 
+title: 如何設定 BizTalk Server 來接收加密的訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bd1e7e4c-f80c-468e-aa86-7c18406feead
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249766"
 ---
 # <a name="how-to-configure-biztalk-server-for-receiving-encrypted-messages"></a><span data-ttu-id="e446d-102">如何設定 BizTalk Server 來接收加密訊息</span><span class="sxs-lookup"><span data-stu-id="e446d-102">How to Configure BizTalk Server for Receiving Encrypted Messages</span></span>
 <span data-ttu-id="e446d-103">下列程序列出在設定 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 以接收加密訊息時，所必須遵循的步驟。</span><span class="sxs-lookup"><span data-stu-id="e446d-103">The following procedure lists the steps that you have to follow to configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to receive encrypted messages.</span></span>  

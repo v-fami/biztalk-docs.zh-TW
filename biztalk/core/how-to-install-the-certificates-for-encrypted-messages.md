@@ -1,14 +1,14 @@
 ---
-title: "如何安裝加密訊息的憑證 |Microsoft 文件"
-ms.custom: 
+title: 如何安裝加密訊息的憑證 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e11fdb81-041c-4ba6-849d-d511ead0e8be
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254774"
 ---
 # <a name="how-to-install-the-certificates-for-encrypted-messages"></a><span data-ttu-id="a3d65-102">如何安裝加密訊息的憑證</span><span class="sxs-lookup"><span data-stu-id="a3d65-102">How to Install the Certificates for Encrypted Messages</span></span>
 <span data-ttu-id="a3d65-103">下列程序列出在安裝憑證來接收及傳送加密訊息時，所必須遵循的高層級步驟。</span><span class="sxs-lookup"><span data-stu-id="a3d65-103">The following procedure lists the high-level steps that you have to follow to install the certificates for receiving and sending encrypted messages.</span></span>  

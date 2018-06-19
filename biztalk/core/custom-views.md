@@ -1,14 +1,14 @@
 ---
-title: "自訂檢視 |Microsoft 文件"
-ms.custom: 
+title: 自訂檢視 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9084cc07-be98-4c57-afea-4fa369a38bad
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238166"
 ---
 # <a name="custom-views"></a><span data-ttu-id="a69a2-102">自訂檢視</span><span class="sxs-lookup"><span data-stu-id="a69a2-102">Custom Views</span></span>
 <span data-ttu-id="a69a2-103">自訂檢視，通常是唯讀視窗控制項物件 (衍生自**System.Windows.Forms.Control**)，提供用來代表自訂的檔案或支援的檔案類型的顯示格式中的結構描述擴充功能BizTalk 編輯器延伸模組。</span><span class="sxs-lookup"><span data-stu-id="a69a2-103">A custom view is typically a read-only window control object (derived from **System.Windows.Forms.Control**), and is provided by an extension to represent the schema in a display format customized for the type of file or files supported by the BizTalk Editor extension.</span></span> <span data-ttu-id="a69a2-104">延伸模組可實作多個自訂檢視，不過，它並不需要任何自訂檢視。</span><span class="sxs-lookup"><span data-stu-id="a69a2-104">An extension can implement multiple custom views, though it need not have any custom view.</span></span>  

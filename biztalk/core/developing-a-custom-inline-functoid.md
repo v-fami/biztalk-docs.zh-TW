@@ -1,14 +1,14 @@
 ---
-title: "開發自訂內嵌運算質 |Microsoft 文件"
-ms.custom: 
+title: 開發自訂內嵌運算質 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4533f09f-b62d-4b09-b7de-44541c6cf053
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22242014"
 ---
 # <a name="developing-a-custom-inline-functoid"></a><span data-ttu-id="1a512-102">開發自訂內嵌運算質</span><span class="sxs-lookup"><span data-stu-id="1a512-102">Developing a Custom Inline Functoid</span></span>
 <span data-ttu-id="1a512-103">自訂內嵌運算質藉由直接複製實作程式碼到對應中，以提供功能，而不是像自訂參考運算質一樣參考組件、類別和方法名稱。</span><span class="sxs-lookup"><span data-stu-id="1a512-103">Custom inline functoids provide functionality by copying implementation code directly into a map and not by referencing an assembly, class, and method name like a custom referenced functoid.</span></span>  
@@ -37,7 +38,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  <span data-ttu-id="1a512-115">叫用**SetScriptBuffer**設定要用於自訂運算質程式碼。</span><span class="sxs-lookup"><span data-stu-id="1a512-115">Invoke **SetScriptBuffer** to set the code to use for the custom functoid.</span></span> <span data-ttu-id="1a512-116">您將以 `functionNumber` 參數，為自訂累計運算質呼叫此函式三次，並為自訂非累計運算質呼叫此函式一次。</span><span class="sxs-lookup"><span data-stu-id="1a512-116">You will call this function three times with the `functionNumber` parameter for custom cumulative functoids and once for custom noncumulative functoids.</span></span>  
   
-3.  <span data-ttu-id="1a512-117">使用**[setscriptglobalbuffer]**以宣告您的內嵌程式碼會使用任何全域變數。</span><span class="sxs-lookup"><span data-stu-id="1a512-117">Use **SetScriptGlobalBuffer** to declare any global variables that your inline code uses.</span></span>  
+3.  <span data-ttu-id="1a512-117">使用 **[setscriptglobalbuffer]** 以宣告您的內嵌程式碼會使用任何全域變數。</span><span class="sxs-lookup"><span data-stu-id="1a512-117">Use **SetScriptGlobalBuffer** to declare any global variables that your inline code uses.</span></span>  
   
 4.  <span data-ttu-id="1a512-118">使用**RequiredGlobalHelperFunctions**表示您的自訂內嵌運算質所需要的 helper 函式。</span><span class="sxs-lookup"><span data-stu-id="1a512-118">Use **RequiredGlobalHelperFunctions** to indicate the helper functions that your custom inline functoid requires.</span></span>  
   
@@ -52,7 +53,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  <span data-ttu-id="1a512-126">覆寫**GetInlineScriptBuffer**建構及傳回自訂運算質的對應中所使用的程式碼。</span><span class="sxs-lookup"><span data-stu-id="1a512-126">Override **GetInlineScriptBuffer** to construct and return the code to use in the map for your custom functoid.</span></span> <span data-ttu-id="1a512-127">檢查 `scriptType` 和 `numParams`，以使用參數建置正確的程式碼。</span><span class="sxs-lookup"><span data-stu-id="1a512-127">Use the parameters to build the correct code by checking the `scriptType` and `numParams`.</span></span> <span data-ttu-id="1a512-128">最後一個參數， `functionNumber`，應該是 0。</span><span class="sxs-lookup"><span data-stu-id="1a512-128">The final parameter, `functionNumber`, should be 0.</span></span> <span data-ttu-id="1a512-129">這是因為累計函式有固定的數目的輸入，而且不會使用這個機制。</span><span class="sxs-lookup"><span data-stu-id="1a512-129">This is because cumulative functions have a fixed number of inputs and do not use this mechanism.</span></span>  
   
-4.  <span data-ttu-id="1a512-130">使用**[setscriptglobalbuffer]**以宣告您的內嵌程式碼使用全域變數。</span><span class="sxs-lookup"><span data-stu-id="1a512-130">Use **SetScriptGlobalBuffer** to declare global variables that your inline code uses.</span></span>  
+4.  <span data-ttu-id="1a512-130">使用 **[setscriptglobalbuffer]** 以宣告您的內嵌程式碼使用全域變數。</span><span class="sxs-lookup"><span data-stu-id="1a512-130">Use **SetScriptGlobalBuffer** to declare global variables that your inline code uses.</span></span>  
   
 5.  <span data-ttu-id="1a512-131">使用**RequiredGlobalHelperFunctions**表示您的自訂內嵌運算質所需要的 helper 函式。</span><span class="sxs-lookup"><span data-stu-id="1a512-131">Use **RequiredGlobalHelperFunctions** to indicate the helper functions that your custom inline functoid requires.</span></span>  
   

@@ -1,11 +1,11 @@
 ---
-title: "元件的商務處理管理解決方案 |Microsoft 文件"
-ms.custom: 
+title: 元件的商務處理管理解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - process management solution tutorial, back-end systems, process management solutions
@@ -21,7 +21,7 @@ helpviewer_keywords:
 - assemblies, process management solutions
 - process management solution tutorial, assemblies
 ms.assetid: e3ccebb9-b677-4c17-acd2-0f986f7bd3f0
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -30,6 +30,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234142"
 ---
 # <a name="components-of-the-business-process-management-solution"></a><span data-ttu-id="d0f65-102">商務程序管理解決方案的元件</span><span class="sxs-lookup"><span data-stu-id="d0f65-102">Components of the Business Process Management Solution</span></span>
 <span data-ttu-id="d0f65-103">本節描述商務程序管理解決方案的主要 BizTalk Server 元件。</span><span class="sxs-lookup"><span data-stu-id="d0f65-103">This section describes the major BizTalk Server components of the Business Process Management Solution.</span></span> <span data-ttu-id="d0f65-104">來源檔案的相關資訊，請參閱[商務程序管理解決方案的檔案庫存](../core/file-inventory-for-the-business-process-management-solution.md)。</span><span class="sxs-lookup"><span data-stu-id="d0f65-104">For information about the source files, see [File Inventory for the Business Process Management Solution](../core/file-inventory-for-the-business-process-management-solution.md).</span></span>  

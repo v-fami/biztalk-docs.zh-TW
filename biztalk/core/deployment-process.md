@@ -1,11 +1,11 @@
 ---
-title: "部署程序 |Microsoft 文件"
-ms.custom: 
+title: 部署程序 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SSO, deploying
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - SSO, LogonExternalUser test
 - SSO, security
 ms.assetid: 7dd4c022-c70b-467a-bf94-dc4ac6029f81
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240662"
 ---
 # <a name="deployment-process"></a><span data-ttu-id="53ef9-102">部署程序</span><span class="sxs-lookup"><span data-stu-id="53ef9-102">Deployment Process</span></span>
 <span data-ttu-id="53ef9-103">下列步驟提供安全部署「企業單一登入」的高層級概觀。</span><span class="sxs-lookup"><span data-stu-id="53ef9-103">The following steps give a high-level overview of secure deployment of Enterprise Single Sign-On.</span></span> <span data-ttu-id="53ef9-104">如需在 SQL Server 中執行之動作的詳細程序，請參閱您的 SQL Server 手冊。</span><span class="sxs-lookup"><span data-stu-id="53ef9-104">For detailed procedures on the actions to take in SQL Server, see your SQL Server documentation.</span></span>  
@@ -32,33 +33,33 @@ ms.lasthandoff: 09/20/2017
   
     -   <span data-ttu-id="53ef9-106">**名稱：** ORCH.com</span><span class="sxs-lookup"><span data-stu-id="53ef9-106">**Name:** ORCH.com</span></span>  
   
-    -   <span data-ttu-id="53ef9-107">**方向：**雙向</span><span class="sxs-lookup"><span data-stu-id="53ef9-107">**Direction:** Two-way</span></span>  
+    -   <span data-ttu-id="53ef9-107">**方向：** 雙向</span><span class="sxs-lookup"><span data-stu-id="53ef9-107">**Direction:** Two-way</span></span>  
   
-    -   <span data-ttu-id="53ef9-108">**側邊：**僅此網域</span><span class="sxs-lookup"><span data-stu-id="53ef9-108">**Sides:** This domain only</span></span>  
+    -   <span data-ttu-id="53ef9-108">**側邊：** 僅此網域</span><span class="sxs-lookup"><span data-stu-id="53ef9-108">**Sides:** This domain only</span></span>  
   
-    -   <span data-ttu-id="53ef9-109">**連出信任驗證等級-本機網域：**選擇性驗證</span><span class="sxs-lookup"><span data-stu-id="53ef9-109">**Outgoing Trust Authentication Level - Local Domain:** Selective authentication</span></span>  
+    -   <span data-ttu-id="53ef9-109">**連出信任驗證等級-本機網域：** 選擇性驗證</span><span class="sxs-lookup"><span data-stu-id="53ef9-109">**Outgoing Trust Authentication Level - Local Domain:** Selective authentication</span></span>  
   
-    -   <span data-ttu-id="53ef9-110">**密碼：**選擇的密碼</span><span class="sxs-lookup"><span data-stu-id="53ef9-110">**Password:** Choose a password</span></span>  
+    -   <span data-ttu-id="53ef9-110">**密碼：** 選擇的密碼</span><span class="sxs-lookup"><span data-stu-id="53ef9-110">**Password:** Choose a password</span></span>  
   
     -   <span data-ttu-id="53ef9-111">**確認連出信任：** [是]</span><span class="sxs-lookup"><span data-stu-id="53ef9-111">**Confirm Outgoing Trust:** Yes</span></span>  
   
-    -   <span data-ttu-id="53ef9-112">**確認連入信任：**否</span><span class="sxs-lookup"><span data-stu-id="53ef9-112">**Confirm Incoming Trust:** No</span></span>  
+    -   <span data-ttu-id="53ef9-112">**確認連入信任：** 否</span><span class="sxs-lookup"><span data-stu-id="53ef9-112">**Confirm Incoming Trust:** No</span></span>  
   
 2.  <span data-ttu-id="53ef9-113">在 ORCH.com 網域控制站，使用「新增信任精靈」建立包含以下屬性的信任：</span><span class="sxs-lookup"><span data-stu-id="53ef9-113">On the ORCH.com domain controller, use the New Trust Wizard to create a trust with the following properties:</span></span>  
   
     -   <span data-ttu-id="53ef9-114">**名稱：** SQL.com</span><span class="sxs-lookup"><span data-stu-id="53ef9-114">**Name:** SQL.com</span></span>  
   
-    -   <span data-ttu-id="53ef9-115">**方向：**雙向</span><span class="sxs-lookup"><span data-stu-id="53ef9-115">**Direction:** Two-way</span></span>  
+    -   <span data-ttu-id="53ef9-115">**方向：** 雙向</span><span class="sxs-lookup"><span data-stu-id="53ef9-115">**Direction:** Two-way</span></span>  
   
-    -   <span data-ttu-id="53ef9-116">**側邊：**僅此網域</span><span class="sxs-lookup"><span data-stu-id="53ef9-116">**Sides:** This domain only</span></span>  
+    -   <span data-ttu-id="53ef9-116">**側邊：** 僅此網域</span><span class="sxs-lookup"><span data-stu-id="53ef9-116">**Sides:** This domain only</span></span>  
   
-    -   <span data-ttu-id="53ef9-117">**連出信任驗證等級-本機網域：**選擇性驗證</span><span class="sxs-lookup"><span data-stu-id="53ef9-117">**Outgoing Trust Authentication Level - Local Domain:** Selective authentication</span></span>  
+    -   <span data-ttu-id="53ef9-117">**連出信任驗證等級-本機網域：** 選擇性驗證</span><span class="sxs-lookup"><span data-stu-id="53ef9-117">**Outgoing Trust Authentication Level - Local Domain:** Selective authentication</span></span>  
   
-    -   <span data-ttu-id="53ef9-118">**密碼：**必須是 ORCH.com 的密碼相同</span><span class="sxs-lookup"><span data-stu-id="53ef9-118">**Password:** Must be the same as password for ORCH.com</span></span>  
+    -   <span data-ttu-id="53ef9-118">**密碼：** 必須是 ORCH.com 的密碼相同</span><span class="sxs-lookup"><span data-stu-id="53ef9-118">**Password:** Must be the same as password for ORCH.com</span></span>  
   
     -   <span data-ttu-id="53ef9-119">**確認連出信任：** [是]</span><span class="sxs-lookup"><span data-stu-id="53ef9-119">**Confirm Outgoing Trust:** Yes</span></span>  
   
-    -   <span data-ttu-id="53ef9-120">**確認連入信任：**否</span><span class="sxs-lookup"><span data-stu-id="53ef9-120">**Confirm Incoming Trust:** No</span></span>  
+    -   <span data-ttu-id="53ef9-120">**確認連入信任：** 否</span><span class="sxs-lookup"><span data-stu-id="53ef9-120">**Confirm Incoming Trust:** No</span></span>  
   
 3.  <span data-ttu-id="53ef9-121">在 ORCH.com 網域控制站，設定從 SQL.COM 連入的網域整體信任。</span><span class="sxs-lookup"><span data-stu-id="53ef9-121">On the ORCH.com domain controller, set the domain wide trust for Incoming from SQL.COM.</span></span>  
   

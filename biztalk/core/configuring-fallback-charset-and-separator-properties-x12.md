@@ -1,14 +1,14 @@
 ---
-title: "設定後援字元集與分隔符號屬性 (X12) |Microsoft 文件"
-ms.custom: 
+title: 設定後援字元集與分隔符號屬性 (X12) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 477f4952-6a4e-4e98-a37f-f6e1fe7db3d3
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233838"
 ---
 # <a name="configuring-fallback-charset-and-separator-properties-x12"></a><span data-ttu-id="42b5e-102">設定後援字元集與分隔符號屬性 (X12)</span><span class="sxs-lookup"><span data-stu-id="42b5e-102">Configuring Fallback Charset and Separator Properties (X12)</span></span>
 <span data-ttu-id="42b5e-103">在後援協議中，您可以指定建立 X12 外寄訊息的信封時，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 用來驗證合作對象屬性的字元集。</span><span class="sxs-lookup"><span data-stu-id="42b5e-103">In the fallback agreement, you can specify the character set that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will use to validate party properties when creating the envelope for an outgoing X12 message.</span></span> <span data-ttu-id="42b5e-104">您也可以指定要在交換的區段中使用的分隔字元與結束字元。</span><span class="sxs-lookup"><span data-stu-id="42b5e-104">You can also specify what separators and terminators will be used for the segments in the interchange.</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255038"
 ---
 # <a name="how-to-handle-null-and-dbnull"></a><span data-ttu-id="7bc65-102">如何處理 Null 和 DBNull</span><span class="sxs-lookup"><span data-stu-id="7bc65-102">How to Handle Null and DBNull</span></span>
 <span data-ttu-id="7bc65-103">本主題描述處理與不同型別關聯之 Null 值時的預期行為，並討論用來檢查特定欄位或成員是否為 Null 或是否存在的選項。</span><span class="sxs-lookup"><span data-stu-id="7bc65-103">This topic describes the expected behaviors when dealing with null values associated with different types, and discusses options for checking null or existence of a particular field or member.</span></span>  

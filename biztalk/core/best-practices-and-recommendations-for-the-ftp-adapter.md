@@ -1,17 +1,17 @@
 ---
-title: "最佳作法和 FTP 配接器的建議 |Microsoft 文件"
-ms.custom: 
+title: 最佳作法和 FTP 配接器的建議 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - best practices, FTP adapters
 - FTP adapters, best practices
 ms.assetid: f73b2016-d48c-48d8-9ba0-96e26b694d1e
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234486"
 ---
 # <a name="best-practices-and-recommendations-for-the-ftp-adapter"></a><span data-ttu-id="bca27-102">最佳做法和建議，FTP 配接器</span><span class="sxs-lookup"><span data-stu-id="bca27-102">Best practices and recommendations for the FTP Adapter</span></span>
 <span data-ttu-id="bca27-103">閱讀有關的最佳做法、 安全性建議和 FTP 配接器的增強功能。</span><span class="sxs-lookup"><span data-stu-id="bca27-103">Read about the best practices, security recommendations, and enhancements for the FTP adapter.</span></span>

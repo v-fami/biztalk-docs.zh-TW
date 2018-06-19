@@ -1,14 +1,14 @@
 ---
-title: "設定外寄批次 |Microsoft 文件"
-ms.custom: 
+title: 設定外寄批次 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 75e6f41a-0e24-47bf-9234-125791c62044
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234614"
 ---
 # <a name="configuring-an-outgoing-batch"></a><span data-ttu-id="f99ad-102">設定外寄批次</span><span class="sxs-lookup"><span data-stu-id="f99ad-102">Configuring an Outgoing Batch</span></span>
 <span data-ttu-id="f99ad-103">若要定義 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 將交易集批次處理成 EDI 交換的方式，您必須為協議建立一或多個批次組態。</span><span class="sxs-lookup"><span data-stu-id="f99ad-103">To define the way that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] batches transaction sets into an EDI interchange, you must create one or more batch configurations for an agreement.</span></span> <span data-ttu-id="f99ad-104">所有由 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 關聯至該協議且符合批次篩選條件準則的交換，都會根據該批次組態的相同釋放準則進行批次處理和釋放。</span><span class="sxs-lookup"><span data-stu-id="f99ad-104">All interchanges that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] associates to that agreement and that meet the filter criteria for a batch will be batched and released according to the same release criteria for that batch configuration.</span></span>  

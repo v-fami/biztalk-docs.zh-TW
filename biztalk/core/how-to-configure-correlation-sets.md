@@ -1,11 +1,11 @@
 ---
-title: "如何設定相互關聯集 |Microsoft 文件"
-ms.custom: 
+title: 如何設定相互關聯集 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - correlation sets, send activities
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - correlation sets, configuring
 - correlation types, assigning
 ms.assetid: 060bf2ba-c173-4dca-a8c4-4c5341e5ceaa
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248166"
 ---
 # <a name="how-to-configure-correlation-sets"></a><span data-ttu-id="d1a7a-102">如何設定相互關聯集</span><span class="sxs-lookup"><span data-stu-id="d1a7a-102">How to Configure Correlation Sets</span></span>
 <span data-ttu-id="d1a7a-103">若要設定相互關聯集，您可以選取現有的相互關聯類型、建立新的相互關聯類型，或修改現有的相互關聯類型。</span><span class="sxs-lookup"><span data-stu-id="d1a7a-103">To configure your correlation set, you can select an existing correlation type, create a new correlation type, or modify an existing correlation type.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "在剖析期間發生錯誤。 在交換的 Edifact 功能群組發生下列錯誤 |Microsoft 文件"
-ms.custom: 
+title: 在剖析期間發生錯誤。 在交換的 Edifact 功能群組發生下列錯誤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 77ca78b3-8a1f-4da5-9c15-524ab6802457
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241054"
 ---
 # <a name="error-encountered-during-parsing-the-edifact-functional-group-in-interchange-had-the-following-errors"></a><span data-ttu-id="94034-103">在剖析期間發生錯誤。</span><span class="sxs-lookup"><span data-stu-id="94034-103">Error encountered during parsing.</span></span> <span data-ttu-id="94034-104">交換中的 Edifact 功能群組發生下列錯誤</span><span class="sxs-lookup"><span data-stu-id="94034-104">The Edifact functional group in interchange had the following errors</span></span>
 ## <a name="details"></a><span data-ttu-id="94034-105">詳細資料</span><span class="sxs-lookup"><span data-stu-id="94034-105">Details</span></span>  

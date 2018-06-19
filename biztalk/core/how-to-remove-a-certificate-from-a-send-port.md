@@ -1,11 +1,11 @@
 ---
-title: "如何從傳送埠移除憑證 |Microsoft 文件"
-ms.custom: 
+title: 如何從傳送埠移除憑證 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - send ports, certificates
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - certificates, deleting
 - deleting, certificates
 ms.assetid: fd93a83f-c2aa-4de2-9996-4ca4ec6d4a4c
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254502"
 ---
 # <a name="how-to-remove-a-certificate-from-a-send-port"></a><span data-ttu-id="737cd-102">如何從傳送埠移除憑證</span><span class="sxs-lookup"><span data-stu-id="737cd-102">How to Remove a Certificate from a Send Port</span></span>
 <span data-ttu-id="737cd-103">本主題描述如何使用 BizTalk Server 管理主控台，從傳送埠移除安全性憑證。</span><span class="sxs-lookup"><span data-stu-id="737cd-103">This topic describes how to use the BizTalk Server Administration console to remove a security certificate from a send port.</span></span> <span data-ttu-id="737cd-104">這樣做之後，傳送埠就再也不會將訊息加密；訊息將會以純文字傳送。</span><span class="sxs-lookup"><span data-stu-id="737cd-104">When you do this, the send port will no longer encrypt messages; messages will be sent in clear text.</span></span> <span data-ttu-id="737cd-105">從傳送埠移除憑證並不會將它從憑證存放區中移除。</span><span class="sxs-lookup"><span data-stu-id="737cd-105">Removing a certificate from a send port does not remove it from the certificate store.</span></span>  

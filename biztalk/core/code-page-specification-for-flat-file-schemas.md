@@ -1,14 +1,14 @@
 ---
-title: "程式碼頁規格，如一般檔案結構描述 |Microsoft 文件"
-ms.custom: 
+title: 程式碼頁規格，如一般檔案結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 825e75f1-893c-4c61-b566-f893d732a907
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232262"
 ---
 # <a name="code-page-specification-for-flat-file-schemas"></a><span data-ttu-id="86b04-102">一般檔案結構描述的字碼頁規格</span><span class="sxs-lookup"><span data-stu-id="86b04-102">Code Page Specification for Flat File Schemas</span></span>
 
@@ -42,7 +43,7 @@ ms.lasthandoff: 09/20/2017
   
 -   <span data-ttu-id="86b04-117">如果**XMLNorm.TargetCharset**訊息內容屬性設定，則會使用該值。</span><span class="sxs-lookup"><span data-stu-id="86b04-117">If the **XMLNorm.TargetCharset** message context property is set, its value is used.</span></span>  
   
--   <span data-ttu-id="86b04-118">否則，如果**[TargetCharset**組譯工具 （設計階段） 屬性設定，則會使用該值。</span><span class="sxs-lookup"><span data-stu-id="86b04-118">Otherwise, if the **TargetCharset** assembler (design-time) property is set, its value is used.</span></span>  
+-   <span data-ttu-id="86b04-118">否則，如果 **[TargetCharset**組譯工具 （設計階段） 屬性設定，則會使用該值。</span><span class="sxs-lookup"><span data-stu-id="86b04-118">Otherwise, if the **TargetCharset** assembler (design-time) property is set, its value is used.</span></span>  
   
 -   <span data-ttu-id="86b04-119">否則，如果信封 （或文件） 結構描述指定使用程式碼頁面**字碼頁**使用屬性，其值。</span><span class="sxs-lookup"><span data-stu-id="86b04-119">Otherwise, if the envelope (or document) schema specifies a code page using the **Code Page** property, its value is used.</span></span>  
   

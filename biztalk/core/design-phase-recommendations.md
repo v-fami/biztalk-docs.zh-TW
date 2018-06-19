@@ -1,14 +1,14 @@
 ---
-title: "設計階段建議 |Microsoft 文件"
-ms.custom: 
+title: 設計階段建議 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ee3d183e-a6f3-47d0-90ac-99b12c064607
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239742"
 ---
 # <a name="design-phase-recommendations"></a><span data-ttu-id="99a16-102">設計階段建議</span><span class="sxs-lookup"><span data-stu-id="99a16-102">Design Phase Recommendations</span></span>
 <span data-ttu-id="99a16-103">設計階段的主要產物，是為了驗證系統功能和效能而提供的系統和測試案例設計規格。</span><span class="sxs-lookup"><span data-stu-id="99a16-103">The primary deliverables for the design phase are design specifications for both the system and the test cases for validating system functionality and performance.</span></span> <span data-ttu-id="99a16-104">調查功能及測試的可行性是設計程序常見的一部分，其中包含初始的開發以及一些概念証明實作的一些早期測試 (在驗證設計的情況下)，如以下章節所述。</span><span class="sxs-lookup"><span data-stu-id="99a16-104">Investigations of the feasibility of features and tests are a typical part of the design process, involving initial development and, in the case of validation design, some early testing of proof-of-concept implementations as discussed in this section below.</span></span>  

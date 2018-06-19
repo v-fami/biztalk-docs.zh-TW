@@ -1,18 +1,18 @@
 ---
-title: "如何建立詞彙定義 |Microsoft 文件"
-ms.custom: 
+title: 如何建立詞彙定義 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, vocabularies
 - vocabularies, creating
 - vocabularies, definitions
 ms.assetid: 6f8fc4c2-2c46-4a7d-a02f-89de0396e3e2
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250558"
 ---
 # <a name="how-to-create-vocabulary-definitions"></a><span data-ttu-id="15e53-102">如何建立詞彙定義</span><span class="sxs-lookup"><span data-stu-id="15e53-102">How to Create Vocabulary Definitions</span></span>
 <span data-ttu-id="15e53-103">您可以使用「詞彙定義精靈」來建立詞彙定義。</span><span class="sxs-lookup"><span data-stu-id="15e53-103">You can use the Vocabulary Definition Wizard to create vocabulary definitions.</span></span> <span data-ttu-id="15e53-104">您可以定義詞彙定義為常數值、值的範圍、值的集合或是 .NET 組件的項目、XML 文件或資料庫資料表。</span><span class="sxs-lookup"><span data-stu-id="15e53-104">You can define a vocabulary definition as a constant value, a range of values, a set of values, or elements of a .NET assembly, XML document, or database table.</span></span> <span data-ttu-id="15e53-105">如果您選取公開變數時，會有**取得**和**設定**選項就像在資料庫和 XML 定義精靈。</span><span class="sxs-lookup"><span data-stu-id="15e53-105">If you select a public variable, there will be **Get** and **Set** options just like in Database and XML definition wizard.</span></span>  
@@ -108,16 +109,16 @@ ms.lasthandoff: 09/20/2017
   
 1.  <span data-ttu-id="15e53-146">以滑鼠右鍵按一下詞彙版本，然後**新增定義**。</span><span class="sxs-lookup"><span data-stu-id="15e53-146">Right-click the vocabulary version, and then click **Add New Definition**.</span></span>  
   
-2.  <span data-ttu-id="15e53-147">在 詞彙定義精靈 中，選取**.NET 類別或類別成員**，然後按一下 **下一步**。</span><span class="sxs-lookup"><span data-stu-id="15e53-147">In the Vocabulary Definition Wizard, select **.NET Class or Class Member**, and then click **Next**.</span></span>  
+2.  <span data-ttu-id="15e53-147">在 詞彙定義精靈 中，選取 **.NET 類別或類別成員**，然後按一下 **下一步**。</span><span class="sxs-lookup"><span data-stu-id="15e53-147">In the Vocabulary Definition Wizard, select **.NET Class or Class Member**, and then click **Next**.</span></span>  
   
 3.  <span data-ttu-id="15e53-148">編輯**定義名稱**和**描述**欄位。</span><span class="sxs-lookup"><span data-stu-id="15e53-148">Edit the **Definition Name** and **Description** fields.</span></span>  
   
 4.  <span data-ttu-id="15e53-149">按一下 **[瀏覽]**。</span><span class="sxs-lookup"><span data-stu-id="15e53-149">Click **Browse**.</span></span>  
   
-5.  <span data-ttu-id="15e53-150">在**.NET 組件**對話方塊中，選取組件，然後按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="15e53-150">In the **.NET Assemblies** dialog box, select an assembly, and then click **OK**.</span></span>  
+5.  <span data-ttu-id="15e53-150">在 **.NET 組件**對話方塊中，選取組件，然後按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="15e53-150">In the **.NET Assemblies** dialog box, select an assembly, and then click **OK**.</span></span>  
   
     > [!NOTE]
-    >  <span data-ttu-id="15e53-151">組件必須位在全域組件快取 (GAC) 中。</span><span class="sxs-lookup"><span data-stu-id="15e53-151">The assemblies have to be in the global assembly cache (GAC).</span></span> <span data-ttu-id="15e53-152">當您瀏覽.NET 組件中，「 商務規則編輯器 」 會載入.NET 組件**事實總管**視窗或在**.NET 類別或類別成員定義**頁面**詞彙定義**視窗。</span><span class="sxs-lookup"><span data-stu-id="15e53-152">The business rule composer loads a .NET assembly when you browse for the .NET assembly in the **Facts Explorer** window or in the **.NET Class or Class Member Definition** page of the **Vocabulary Definition** window.</span></span>  <span data-ttu-id="15e53-153">如果您在 GAC 中更新此組件，請關閉商務規則編輯器並將它重新啟動，以載入更新的 .NET 組件。</span><span class="sxs-lookup"><span data-stu-id="15e53-153">If you update the assembly in the GAC, close the business rule composer and restart it to load the updated .NET assembly.</span></span> <span data-ttu-id="15e53-154">商務規則編輯器並不會自動重新整理此組件。</span><span class="sxs-lookup"><span data-stu-id="15e53-154">The business rule composer does not refresh the assembly automatically.</span></span>  
+    >  <span data-ttu-id="15e53-151">組件必須位在全域組件快取 (GAC) 中。</span><span class="sxs-lookup"><span data-stu-id="15e53-151">The assemblies have to be in the global assembly cache (GAC).</span></span> <span data-ttu-id="15e53-152">當您瀏覽.NET 組件中，「 商務規則編輯器 」 會載入.NET 組件**事實總管**視窗或在 **.NET 類別或類別成員定義**頁面**詞彙定義**視窗。</span><span class="sxs-lookup"><span data-stu-id="15e53-152">The business rule composer loads a .NET assembly when you browse for the .NET assembly in the **Facts Explorer** window or in the **.NET Class or Class Member Definition** page of the **Vocabulary Definition** window.</span></span>  <span data-ttu-id="15e53-153">如果您在 GAC 中更新此組件，請關閉商務規則編輯器並將它重新啟動，以載入更新的 .NET 組件。</span><span class="sxs-lookup"><span data-stu-id="15e53-153">If you update the assembly in the GAC, close the business rule composer and restart it to load the updated .NET assembly.</span></span> <span data-ttu-id="15e53-154">商務規則編輯器並不會自動重新整理此組件。</span><span class="sxs-lookup"><span data-stu-id="15e53-154">The business rule composer does not refresh the assembly automatically.</span></span>  
   
 6.  <span data-ttu-id="15e53-155">展開組件節點。</span><span class="sxs-lookup"><span data-stu-id="15e53-155">Expand the assembly node.</span></span>  
   

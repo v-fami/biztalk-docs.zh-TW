@@ -1,14 +1,14 @@
 ---
-title: "設定字元集和分隔符號 (X12) |Microsoft 文件"
-ms.custom: 
+title: 設定字元集和分隔符號 (X12) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6249f2e1-70b0-4960-bbc4-0c3fefd26faa
-caps.latest.revision: "29"
+caps.latest.revision: 29
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234494"
 ---
 # <a name="configuring-charset-and-separators-x12"></a><span data-ttu-id="9a7fb-102">設定字元集與分隔符號 (X12)</span><span class="sxs-lookup"><span data-stu-id="9a7fb-102">Configuring Charset and Separators (X12)</span></span>
 <span data-ttu-id="9a7fb-103">在夥伴協議中，您可以指定建立 X12 外寄訊息的信封時，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 用來驗證合作對象屬性的字元集。</span><span class="sxs-lookup"><span data-stu-id="9a7fb-103">In the partner agreement, you can specify the character set that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will use to validate party properties when creating the envelope for an outgoing X12 message.</span></span> <span data-ttu-id="9a7fb-104">您也可以指定要在交換的區段中使用的分隔字元與結束字元。</span><span class="sxs-lookup"><span data-stu-id="9a7fb-104">You can also specify what separators and terminators will be used for the segments in the interchange.</span></span>  
@@ -83,11 +84,11 @@ ms.lasthandoff: 09/20/2017
   
     -   <span data-ttu-id="9a7fb-146">**任何**區段結束字元 + **CR LF**尾碼</span><span class="sxs-lookup"><span data-stu-id="9a7fb-146">**Any** Segment Terminator + **CR LF** Suffix</span></span>  
   
-    -   <span data-ttu-id="9a7fb-147">**D （十六進位）**區段結束字元 +**無**尾碼： 這個組合就如同區段結束字元空白且尾碼設定為 CR。</span><span class="sxs-lookup"><span data-stu-id="9a7fb-147">**D (Hex)** Segment Terminator + **None** Suffix: This combination behaves as if Segment Terminator is blank and Suffix is set to CR.</span></span>  
+    -   <span data-ttu-id="9a7fb-147">**D （十六進位）** 區段結束字元 +**無**尾碼： 這個組合就如同區段結束字元空白且尾碼設定為 CR。</span><span class="sxs-lookup"><span data-stu-id="9a7fb-147">**D (Hex)** Segment Terminator + **None** Suffix: This combination behaves as if Segment Terminator is blank and Suffix is set to CR.</span></span>  
   
     -   <span data-ttu-id="9a7fb-148">（十六進位） 區段結束字元 +**無**尾碼： 這個組合就如同區段結束字元空白且尾碼設定為 LF。</span><span class="sxs-lookup"><span data-stu-id="9a7fb-148">A (Hex) Segment Terminator + **None** Suffix: This combination behaves as if Segment Terminator is blank and Suffix is set to LF.</span></span>  
   
-    -   <span data-ttu-id="9a7fb-149">**D （十六進位）**區段結束字元 + **LF**尾碼： 這個組合就如同區段結束字元為 CR 且尾碼設定為 LF。</span><span class="sxs-lookup"><span data-stu-id="9a7fb-149">**D (Hex)** Segment Terminator + **LF** Suffix: This combination behaves as if Segment Terminator is CR and Suffix is set to LF.</span></span>  
+    -   <span data-ttu-id="9a7fb-149">**D （十六進位）** 區段結束字元 + **LF**尾碼： 這個組合就如同區段結束字元為 CR 且尾碼設定為 LF。</span><span class="sxs-lookup"><span data-stu-id="9a7fb-149">**D (Hex)** Segment Terminator + **LF** Suffix: This combination behaves as if Segment Terminator is CR and Suffix is set to LF.</span></span>  
   
 8.  <span data-ttu-id="9a7fb-150">如果裝載資料含有也用來當做資料、 區段或元件分隔字元，請檢查**取代內容中的分隔符號**並指定取代字元。</span><span class="sxs-lookup"><span data-stu-id="9a7fb-150">If the payload data contains characters that are also used as data, segment, or component separators, check **Replace separators in payload with** and specify a replacement character.</span></span> <span data-ttu-id="9a7fb-151">產生 X12 外寄訊息時，內容資料中的所有分隔符號字元都將被取代為指定的字元。</span><span class="sxs-lookup"><span data-stu-id="9a7fb-151">When generating the outbound X12 message, all instances of separator characters in the payload data will be replaced with the specified character.</span></span> <span data-ttu-id="9a7fb-152">選取**Char**字元資料元素或**Hex**十六進位資料元素。</span><span class="sxs-lookup"><span data-stu-id="9a7fb-152">Select **Char** for a character data element or **Hex** for a hexadecimal data element.</span></span> <span data-ttu-id="9a7fb-153">當您變更格式時，您所輸入的字元將自動變更**Char**至**Hex** ，反之亦然。</span><span class="sxs-lookup"><span data-stu-id="9a7fb-153">The character you entered will automatically change when you change the format from **Char** to **Hex** or vice-versa.</span></span>  
   

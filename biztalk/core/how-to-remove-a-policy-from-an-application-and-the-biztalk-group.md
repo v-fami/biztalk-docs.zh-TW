@@ -1,11 +1,11 @@
 ---
-title: "如何從應用程式和 BizTalk 群組移除原則 |Microsoft 文件"
-ms.custom: 
+title: 如何從應用程式和 BizTalk 群組移除原則 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deleting, policies
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - managing [policies], groups
 - applications, policies
 ms.assetid: e9882cb3-8808-4258-a107-a24905290288
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254510"
 ---
 # <a name="how-to-remove-a-policy-from-an-application-and-the-biztalk-group"></a><span data-ttu-id="5e698-102">如何從應用程式和 BizTalk 群組移除原則</span><span class="sxs-lookup"><span data-stu-id="5e698-102">How to Remove a Policy from an Application and the BizTalk Group</span></span>
 <span data-ttu-id="5e698-103">本主題描述如何使用 [BizTalk Server 管理] 主控台或命令列將原則從應用程式以及 BizTalk 群組的「規則引擎」資料庫移除。</span><span class="sxs-lookup"><span data-stu-id="5e698-103">This topic describes how to use the BizTalk Server Administration console or the command-line to remove a policy from an application and the Rule Engine database for the BizTalk group.</span></span>  

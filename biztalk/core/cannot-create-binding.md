@@ -1,14 +1,14 @@
 ---
-title: "無法建立繫結 |Microsoft 文件"
-ms.custom: 
+title: 無法建立繫結 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fbe1bd54-6031-4f90-a445-c1647b382a1a
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232046"
 ---
 # <a name="cannot-create-binding"></a><span data-ttu-id="723d3-102">無法建立繫結</span><span class="sxs-lookup"><span data-stu-id="723d3-102">Cannot create binding</span></span>
 ## <a name="details"></a><span data-ttu-id="723d3-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="723d3-103">Details</span></span>  

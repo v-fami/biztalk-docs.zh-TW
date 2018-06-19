@@ -1,14 +1,14 @@
 ---
-title: "開發和設定 BizTalk Server EDI 解決方案 |Microsoft 文件"
-ms.custom: 
+title: 開發和設定 BizTalk Server EDI 解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 65629eb1-8e08-4233-9331-c53ae0abaed4
-caps.latest.revision: "29"
+caps.latest.revision: 29
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240198"
 ---
 # <a name="developing-and-configuring-biztalk-server-edi-solutions"></a><span data-ttu-id="d661e-102">開發和設定 BizTalk Server EDI 解決方案</span><span class="sxs-lookup"><span data-stu-id="d661e-102">Developing and Configuring BizTalk Server EDI Solutions</span></span>
 <span data-ttu-id="d661e-103">若要建立開發人員的資訊[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]EDI 解決方案。</span><span class="sxs-lookup"><span data-stu-id="d661e-103">Information for developers to create [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI solutions.</span></span> <span data-ttu-id="d661e-104">這些解決方案使用建立的 BizTalk 專案系統設計環境和[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台。</span><span class="sxs-lookup"><span data-stu-id="d661e-104">These solutions are created using the BizTalk project system design environment and the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console.</span></span>  

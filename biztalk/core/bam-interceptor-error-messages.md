@@ -1,14 +1,14 @@
 ---
-title: "BAM 攔截器錯誤訊息 |Microsoft 文件"
-ms.custom: 
+title: BAM 攔截器錯誤訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 270dd5b7-33bf-4847-86f1-8798d63421b8
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234646"
 ---
 # <a name="bam-interceptor-error-messages"></a><span data-ttu-id="257c7-102">BAM 攔截器錯誤訊息</span><span class="sxs-lookup"><span data-stu-id="257c7-102">BAM Interceptor Error Messages</span></span>
 <span data-ttu-id="257c7-103">使用 WF 或 WCF BAM 攔截器時，您可能會遭遇一些問題，範圍從無效的攔截器組態檔到執行階段問題，包括擷取內容屬性或嘗試追蹤來自單向 WCF 作業的回應事件。</span><span class="sxs-lookup"><span data-stu-id="257c7-103">When using the WF or WCF BAM interceptors, you may experience issues ranging from an invalid interceptor configuration file to runtime issues extracting context properties or trying to track events from the reply of a one-way WCF operation.</span></span>  

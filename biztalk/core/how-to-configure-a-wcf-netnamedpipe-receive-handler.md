@@ -1,11 +1,11 @@
 ---
-title: "如何設定 Wcf-netnamedpipe 接收處理常式 |Microsoft 文件"
-ms.custom: 
+title: 如何設定 Wcf-netnamedpipe 接收處理常式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring [WCF-NetNamedPipe adapters], global variables
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - configuring [WCF-NetNamedPipe adapters], receive handlers
 - WCF-NetNamedPipe adapters, global variables
 ms.assetid: f7ab2228-1049-40f0-87f7-6330a8f40cfe
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248606"
 ---
 # <a name="how-to-configure-a-wcf-netnamedpipe-receive-handler"></a><span data-ttu-id="fae8d-102">如何設定 WCF-NetNamedPipe 接收處理常式</span><span class="sxs-lookup"><span data-stu-id="fae8d-102">How to Configure a WCF-NetNamedPipe Receive Handler</span></span>
 <span data-ttu-id="fae8d-103">請使用下列程序設定 WCF-NetNamedPipe 接收處理常式。</span><span class="sxs-lookup"><span data-stu-id="fae8d-103">Use the following procedure to configure a WCF-NetNamedPipe receive handler.</span></span>  

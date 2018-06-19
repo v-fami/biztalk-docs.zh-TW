@@ -1,14 +1,14 @@
 ---
-title: "設定簽章憑證 (AS2) |Microsoft 文件"
-ms.custom: 
+title: 設定簽章憑證 (AS2) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8539e210-1656-4fff-b026-36b81689061f
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233262"
 ---
 # <a name="configuring-signature-certificates-as2"></a><span data-ttu-id="b96b9-102">設定簽章憑證 (AS2)</span><span class="sxs-lookup"><span data-stu-id="b96b9-102">Configuring Signature Certificates (AS2)</span></span>
 <span data-ttu-id="b96b9-103">在此頁面的設定中，您可以指定當外送訊息和 MDN 解析為此協議時，要用於簽署這些外送訊息和 MDN 的憑證。</span><span class="sxs-lookup"><span data-stu-id="b96b9-103">As part of the settings on this page, you can specify the certificates to be used for signing all outgoing messages and MDN that resolve to this agreement.</span></span> <span data-ttu-id="b96b9-104">此頁面上的設定會覆寫 BizTalk 群組屬性中提供的憑證設定。</span><span class="sxs-lookup"><span data-stu-id="b96b9-104">The settings on this page override the certificate settings provided as part of the BizTalk Group properties.</span></span> <span data-ttu-id="b96b9-105">如需有關如何使用憑證的詳細資訊，請參閱[Configuring certificates for AS2 憑證](../core/configuring-certificates-for-as2.md)。</span><span class="sxs-lookup"><span data-stu-id="b96b9-105">For more information on how certificates are used, see [Configuring Certificates for AS2](../core/configuring-certificates-for-as2.md).</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "錯誤-寫入 CSharp 檔案時失敗 (&lt;file:---{0}&gt;)。 錯誤： {1} |Microsoft 文件"
-ms.custom: 
+title: 錯誤-寫入 CSharp 檔案時失敗 (&lt;file:---{0}&gt;)。 錯誤： {1} |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b8342be9-b19e-4eb3-9da4-b1cb0fb54bd9
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240862"
 ---
 # <a name="error---failure-writing-csharp-file-ltfile---0gt-error-1"></a><span data-ttu-id="d1670-103">錯誤-寫入 CSharp 檔案時失敗 (&lt;file:---{0}&gt;)。</span><span class="sxs-lookup"><span data-stu-id="d1670-103">Error - Failure writing CSharp file (&lt;file:---{0}&gt;).</span></span> <span data-ttu-id="d1670-104">錯誤： {1}</span><span class="sxs-lookup"><span data-stu-id="d1670-104">Error: {1}</span></span>
 <span data-ttu-id="d1670-105">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="d1670-105">**Error Code**</span></span>  

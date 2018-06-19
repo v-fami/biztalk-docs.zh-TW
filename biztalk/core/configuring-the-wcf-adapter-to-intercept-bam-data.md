@@ -1,14 +1,14 @@
 ---
-title: "設定 WCF 配接器攔截 BAM 資料 |Microsoft 文件"
-ms.custom: 
+title: 設定 WCF 配接器攔截 BAM 資料 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cd705c27-5d04-47e5-9bb2-61235f8fe544
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232766"
 ---
 # <a name="configuring-the-wcf-adapter-to-intercept-bam-data"></a><span data-ttu-id="aa06a-102">設定 WCF 配接器攔截 BAM 資料</span><span class="sxs-lookup"><span data-stu-id="aa06a-102">Configuring the WCF Adapter to Intercept BAM Data</span></span>
 <span data-ttu-id="aa06a-103">本節將針對您必須執行才可以將 BAM WCF 攔截器設定成配合 BAM WCF 攔截器執行的必要步驟，提供相關資訊。</span><span class="sxs-lookup"><span data-stu-id="aa06a-103">This section contains information about the steps you must take to configure the BizTalk WCF adapter to work with the BAM WCF interceptor.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "設定本機主機設定 （X12 交換設定） |Microsoft 文件"
-ms.custom: 
+title: 設定本機主機設定 （X12 交換設定） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c66c1e63-c654-4ccb-b424-34c06f1ce94e
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234750"
 ---
 # <a name="configuring-local-host-settings-x12-interchange-settings"></a><span data-ttu-id="5eb93-102">設定本機主機設定 (X12 交換設定)</span><span class="sxs-lookup"><span data-stu-id="5eb93-102">Configuring Local Host Settings (X12-Interchange Settings)</span></span>
 <span data-ttu-id="5eb93-103">本機主機設定控制了處理 EDI 交換的方式。</span><span class="sxs-lookup"><span data-stu-id="5eb93-103">The local host settings govern how the EDI interchanges are processed.</span></span> <span data-ttu-id="5eb93-104">此頁面上的設定可分成兩個類別 - 接收者的設定 (用於內送交換) 與傳送者的設定 (用於外寄交換)。</span><span class="sxs-lookup"><span data-stu-id="5eb93-104">The settings on this page can be divided into two categories – receiver’s settings (for incoming interchanges) and sender’s settings (for outgoing interchanges).</span></span> <span data-ttu-id="5eb93-105">在接收者的設定中，您可以指定輸入批次要分割為交易集或是保留。</span><span class="sxs-lookup"><span data-stu-id="5eb93-105">As part of the receiver’s settings, you can specify whether an incoming batch will be split into transaction sets or preserved.</span></span> <span data-ttu-id="5eb93-106">若是保留，您就可以指定發生錯誤時，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 是否暫停交換或交易集。</span><span class="sxs-lookup"><span data-stu-id="5eb93-106">If preserved, you can specify whether [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] suspends the interchange or transaction set if an error occurs.</span></span> <span data-ttu-id="5eb93-107">在傳送者的設定中，您可以指定為外寄訊息產生控制編號的方式。</span><span class="sxs-lookup"><span data-stu-id="5eb93-107">As part of the sender’s settings, you can specify how the control numbers are generated for outgoing messages</span></span>  
@@ -44,7 +45,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  <span data-ttu-id="5eb93-119">清除**通知的路由設定為傳送管線在要求-回應接收埠**由不同通知傳送埠傳回。</span><span class="sxs-lookup"><span data-stu-id="5eb93-119">Clear the **Route ACK to send pipeline on request-response receive port** to return the acknowledgment by a separate send port.</span></span> <span data-ttu-id="5eb93-120">將此屬性保持為選取狀態，即可在與雙向要求-回應接收埠關聯的傳送埠傳回通知。</span><span class="sxs-lookup"><span data-stu-id="5eb93-120">Leave the property selected to return the acknowledgment on the send port associated with the two-way request-response receive port.</span></span>  
   
-4.  <span data-ttu-id="5eb93-121">若要指定通知中使用的交易集控制編號範圍，請輸入中的值**ACK 控制編號 (ST02)**欄位。</span><span class="sxs-lookup"><span data-stu-id="5eb93-121">To designate the range of transaction set control numbers used in an acknowledgment, enter values in the **ACK Control number (ST02)** fields.</span></span> <span data-ttu-id="5eb93-122">在中間兩個欄位中輸入數值，並在必要時於前置詞和尾碼欄位中輸入英數字元值。</span><span class="sxs-lookup"><span data-stu-id="5eb93-122">Enter a numeric value for the middle two fields, and an alphanumeric value (if desired) for the prefix and suffix fields.</span></span> <span data-ttu-id="5eb93-123">中間幾個欄位是必要欄位，其中包含控制編號的最小值與最大值；前置詞和尾碼則是選用欄位。</span><span class="sxs-lookup"><span data-stu-id="5eb93-123">The middle fields are required and contain the minimum and maximum values for the control number; the prefix and suffix are optional.</span></span> <span data-ttu-id="5eb93-124">這三個欄位的最大長度都是 9 個字元。</span><span class="sxs-lookup"><span data-stu-id="5eb93-124">The maximum length for all three fields is nine characters.</span></span>  
+4.  <span data-ttu-id="5eb93-121">若要指定通知中使用的交易集控制編號範圍，請輸入中的值**ACK 控制編號 (ST02)** 欄位。</span><span class="sxs-lookup"><span data-stu-id="5eb93-121">To designate the range of transaction set control numbers used in an acknowledgment, enter values in the **ACK Control number (ST02)** fields.</span></span> <span data-ttu-id="5eb93-122">在中間兩個欄位中輸入數值，並在必要時於前置詞和尾碼欄位中輸入英數字元值。</span><span class="sxs-lookup"><span data-stu-id="5eb93-122">Enter a numeric value for the middle two fields, and an alphanumeric value (if desired) for the prefix and suffix fields.</span></span> <span data-ttu-id="5eb93-123">中間幾個欄位是必要欄位，其中包含控制編號的最小值與最大值；前置詞和尾碼則是選用欄位。</span><span class="sxs-lookup"><span data-stu-id="5eb93-123">The middle fields are required and contain the minimum and maximum values for the control number; the prefix and suffix are optional.</span></span> <span data-ttu-id="5eb93-124">這三個欄位的最大長度都是 9 個字元。</span><span class="sxs-lookup"><span data-stu-id="5eb93-124">The maximum length for all three fields is nine characters.</span></span>  
   
      <span data-ttu-id="5eb93-125">若要重設目前的交易集控制編號的最小值，請按一下**重設**。</span><span class="sxs-lookup"><span data-stu-id="5eb93-125">To reset the current transaction set control number to the minimum value, click **Reset**.</span></span> <span data-ttu-id="5eb93-126">請檢查**重設為下限超出範圍時**控制編號重設下限，一旦已超過最大值。</span><span class="sxs-lookup"><span data-stu-id="5eb93-126">Check **Reset to lower limit when out of bound** to reset the control number to the lower limit once the maximum value has been exceeded.</span></span>  
   

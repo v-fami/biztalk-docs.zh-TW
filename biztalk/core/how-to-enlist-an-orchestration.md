@@ -1,18 +1,18 @@
 ---
-title: "如何登錄協調流程 |Microsoft 文件"
-ms.custom: 
+title: 如何登錄協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [orchestrations], enlisting
 - orchestrations, enlisting
 - enlisting, orchestrations
 ms.assetid: b21a398b-8c9a-42ae-aac0-de35dbfd8176
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255838"
 ---
 # <a name="how-to-enlist-an-orchestration"></a><span data-ttu-id="5dae8-102">如何登錄協調流程。</span><span class="sxs-lookup"><span data-stu-id="5dae8-102">How to Enlist an Orchestration</span></span>
 <span data-ttu-id="5dae8-103">這個主題說明如何使用 BizTalk Server 管理主控台，將協調流程登錄到主控件中。</span><span class="sxs-lookup"><span data-stu-id="5dae8-103">This topic describes how to use the BizTalk Server Administration console to enlist an orchestration into a host.</span></span> <span data-ttu-id="5dae8-104">您必須登錄協調流程，才能將它啟動。</span><span class="sxs-lookup"><span data-stu-id="5dae8-104">The orchestration must be enlisted before you can start it.</span></span>  

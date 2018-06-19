@@ -1,14 +1,14 @@
 ---
-title: "BizTalk Server 專案版本設定 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Server 專案版本設定 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dcdd5354-6335-4320-adbf-28ac934c9ce6
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234190"
 ---
 # <a name="biztalk-server-project-versioning"></a><span data-ttu-id="9eb04-102">BizTalk Server 專案版本管理</span><span class="sxs-lookup"><span data-stu-id="9eb04-102">BizTalk Server Project Versioning</span></span>
 <span data-ttu-id="9eb04-103">在使用 [!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)] 進行開發時，版本管理是由一組規則標準所規範，用來降低變更版本號碼的影響。</span><span class="sxs-lookup"><span data-stu-id="9eb04-103">When developing with the [!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)], versioning is governed by a standard set of rules that work to minimize the impact of version number changes.</span></span> <span data-ttu-id="9eb04-104">如何根據[!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)]應用程式或元件的部署、 相依性可以透過 XCOPY 安裝應用程式組態檔或其他處理[!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)]部署機制。</span><span class="sxs-lookup"><span data-stu-id="9eb04-104">Depending on how a [!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)]application or component is deployed, dependencies can be handled by an application configuration file, through XCOPY installation, or by other [!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)] deployment mechanisms.</span></span> <span data-ttu-id="9eb04-105">如下列章節所示，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會將其他複雜性新增至版本管理與相依性上。</span><span class="sxs-lookup"><span data-stu-id="9eb04-105">As the following sections will show, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adds additional complexity to versioning and dependencies.</span></span>  

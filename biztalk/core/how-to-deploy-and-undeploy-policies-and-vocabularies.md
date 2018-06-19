@@ -1,11 +1,11 @@
 ---
-title: "如何部署和解除部署原則和詞彙 |Microsoft 文件"
-ms.custom: 
+title: 如何部署和解除部署原則和詞彙 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, policies
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - policies, undeploying
 - vocabularies, deploying
 ms.assetid: 9a7e3310-54b7-482c-8210-b4b11fde4c49
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249566"
 ---
 # <a name="how-to-deploy-and-undeploy-policies-and-vocabularies"></a><span data-ttu-id="4e255-102">如何部署和解除部署原則與詞彙</span><span class="sxs-lookup"><span data-stu-id="4e255-102">How to Deploy and Undeploy Policies and Vocabularies</span></span>
 <span data-ttu-id="4e255-103">您可以使用「規則引擎部署精靈」以部署或解除部署原則。</span><span class="sxs-lookup"><span data-stu-id="4e255-103">You can use the Rule Engine Deployment Wizard to deploy or undeploy a policy.</span></span>  

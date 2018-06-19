@@ -1,14 +1,14 @@
 ---
-title: "配接器如何處理大型訊息 |Microsoft 文件"
-ms.custom: 
+title: 配接器如何處理大型訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c48671fd-b6cf-4507-92b4-35a4cd135714
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247014"
 ---
 # <a name="how-adapters-handle-large-messages"></a><span data-ttu-id="e7d53-102">配接器如何處理大型訊息</span><span class="sxs-lookup"><span data-stu-id="e7d53-102">How Adapters Handle Large Messages</span></span>
 <span data-ttu-id="e7d53-103">「BizTalk 傳訊引擎」可處理非常大型的訊息，且不會限制訊息的最大大小。</span><span class="sxs-lookup"><span data-stu-id="e7d53-103">The BizTalk Messaging Engine can process very large messages and imposes no restriction on the maximum size of a message.</span></span> <span data-ttu-id="e7d53-104">但是，您應考慮限制訊息的大小，以維護最佳效能及資源管理。</span><span class="sxs-lookup"><span data-stu-id="e7d53-104">However, you should consider limits to message size to maintain optimum performance and resource management.</span></span> <span data-ttu-id="e7d53-105">隨著訊息大小的增加，每秒鐘可處理的訊息數量會跟著減少。</span><span class="sxs-lookup"><span data-stu-id="e7d53-105">As message size increases the number of messages processed per second decreases.</span></span> <span data-ttu-id="e7d53-106">在設計您的案例及規劃容量時，請考慮 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 所處理的平均訊息大小、訊息類型以及訊息數量。</span><span class="sxs-lookup"><span data-stu-id="e7d53-106">Consider the average message size, message type, and number of messages being processed by [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] when designing your scenario and planning for capacity.</span></span>  
@@ -34,7 +35,7 @@ ms.lasthandoff: 09/20/2017
   
  <span data-ttu-id="e7d53-119">配接器在提交訊息到引擎時，應會將其資料流附加到 BizTalk 訊息。</span><span class="sxs-lookup"><span data-stu-id="e7d53-119">When an adapter submits a message to the engine it should attach its data stream to the BizTalk message.</span></span> <span data-ttu-id="e7d53-120">對某些配接器而言，這可能表示實作網路資料流。</span><span class="sxs-lookup"><span data-stu-id="e7d53-120">For some adapters this may mean implementing a network stream.</span></span> <span data-ttu-id="e7d53-121">訊息提交之後，引擎就會執行接收管線。</span><span class="sxs-lookup"><span data-stu-id="e7d53-121">When the message is submitted, the engine executes the receive pipeline.</span></span> <span data-ttu-id="e7d53-122">在管線執行時，想要變更資料的管線元件會複製該資料，將資料流從新訊息連線到上一個訊息上的資料流。</span><span class="sxs-lookup"><span data-stu-id="e7d53-122">During pipeline execution, the pipeline components that want to change the data clone the message, wiring up the stream from the new message to the stream on the previous message.</span></span> <span data-ttu-id="e7d53-123">管線執行之後，「傳訊引擎」會從管線取出訊息，並執行迴圈，讀取該訊息上的資料流。</span><span class="sxs-lookup"><span data-stu-id="e7d53-123">After the pipeline has been executed, the Messaging Engine takes a message out of the pipeline and executes a loop reading the stream on that message.</span></span> <span data-ttu-id="e7d53-124">這個讀取資料流的動作會在上一個資料流上叫用讀取，接著又在上一個資料流叫用讀取，依此類推，一直回到網路資料流。</span><span class="sxs-lookup"><span data-stu-id="e7d53-124">This reading of the stream invokes a read on the previous stream, which in turn invokes a read on the previous stream, and so on back to the network stream.</span></span> <span data-ttu-id="e7d53-125">引擎會定期排清資料到 MessageBox，以維護一般記憶體模型。</span><span class="sxs-lookup"><span data-stu-id="e7d53-125">The engine periodically flushes the data to the MessageBox to maintain a flat memory model.</span></span>  
   
- <span data-ttu-id="e7d53-126">**疑難排解秘訣：**在傳送端，配接器會負責讀取資料流。</span><span class="sxs-lookup"><span data-stu-id="e7d53-126">**Troubleshooting Tip:** On the send side, the adapter is responsible for reading the stream.</span></span> <span data-ttu-id="e7d53-127">如果傳送配接器想要讀取任何在傳送管線中升級或寫入的訊息內容屬性，在讀取整個資料流之前，這些屬性可能不會被寫入。</span><span class="sxs-lookup"><span data-stu-id="e7d53-127">If the send adapter wants to read any message context properties that are promoted or written in the send pipeline, these properties may not be written until the entire stream is read.</span></span> <span data-ttu-id="e7d53-128">只有當資料流已完全讀取時，配接器才可確定所有管線元件都已完成執行。</span><span class="sxs-lookup"><span data-stu-id="e7d53-128">Only when the stream has been completely read can the adapter be sure that all of the pipeline components have finished executing.</span></span>  
+ <span data-ttu-id="e7d53-126">**疑難排解秘訣：** 在傳送端，配接器會負責讀取資料流。</span><span class="sxs-lookup"><span data-stu-id="e7d53-126">**Troubleshooting Tip:** On the send side, the adapter is responsible for reading the stream.</span></span> <span data-ttu-id="e7d53-127">如果傳送配接器想要讀取任何在傳送管線中升級或寫入的訊息內容屬性，在讀取整個資料流之前，這些屬性可能不會被寫入。</span><span class="sxs-lookup"><span data-stu-id="e7d53-127">If the send adapter wants to read any message context properties that are promoted or written in the send pipeline, these properties may not be written until the entire stream is read.</span></span> <span data-ttu-id="e7d53-128">只有當資料流已完全讀取時，配接器才可確定所有管線元件都已完成執行。</span><span class="sxs-lookup"><span data-stu-id="e7d53-128">Only when the stream has been completely read can the adapter be sure that all of the pipeline components have finished executing.</span></span>  
   
 ## <a name="locating-a-specific-byte-in-the-stream"></a><span data-ttu-id="e7d53-129">找出資料流中的特定位元組</span><span class="sxs-lookup"><span data-stu-id="e7d53-129">Locating a Specific Byte in the Stream</span></span>  
  <span data-ttu-id="e7d53-130">在某些案例中，配接器可能需要從頭找回資料流，處理需要擱置的失敗訊息。</span><span class="sxs-lookup"><span data-stu-id="e7d53-130">There are scenarios in which an adapter may need to locate the stream back to the beginning to handle failed messages that need to be suspended.</span></span> <span data-ttu-id="e7d53-131">舉例來說，HTTP 配接器會使用區塊編碼接收資料，提交請求-回應組中的回應訊息。</span><span class="sxs-lookup"><span data-stu-id="e7d53-131">An example of this is an HTTP adapter that is receiving data using chunked encoding to submit the response message in a solicit-response pair.</span></span>  

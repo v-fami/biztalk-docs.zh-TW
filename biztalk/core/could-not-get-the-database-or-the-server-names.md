@@ -1,14 +1,14 @@
 ---
-title: "無法取得資料庫或伺服器名稱 |Microsoft 文件"
-ms.custom: 
+title: 無法取得資料庫或伺服器名稱 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0590f43b-0aec-491f-bca5-c50ab12552a5
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22237846"
 ---
 # <a name="could-not-get-the-database-or-the-server-names"></a><span data-ttu-id="10255-102">無法取得資料庫或伺服器名稱</span><span class="sxs-lookup"><span data-stu-id="10255-102">Could not get the database or the server names</span></span>
 ## <a name="details"></a><span data-ttu-id="10255-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="10255-103">Details</span></span>  

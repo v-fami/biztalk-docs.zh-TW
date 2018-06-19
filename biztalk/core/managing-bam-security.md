@@ -1,17 +1,17 @@
 ---
-title: "管理 BAM 安全性 |Microsoft 文件"
-ms.custom: 
+title: 管理 BAM 安全性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, BAM
 - managing [BAM], security
 ms.assetid: 21749ae3-b42a-43c2-b85e-1f958bd78170
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262318"
 ---
 # <a name="managing-bam-security"></a><span data-ttu-id="f9cd0-102">管理 BAM 安全性</span><span class="sxs-lookup"><span data-stu-id="f9cd0-102">Managing BAM Security</span></span>
 <span data-ttu-id="f9cd0-103">本節提供 BAM 安全性的相關資訊，</span><span class="sxs-lookup"><span data-stu-id="f9cd0-103">This section provides information about BAM security.</span></span> <span data-ttu-id="f9cd0-104">其中包括了管理 BAM 檢視使用者帳戶以及管理警示訂閱的程序。</span><span class="sxs-lookup"><span data-stu-id="f9cd0-104">It includes procedures for managing user accounts for BAM views and managing subscriptions to alerts.</span></span>  

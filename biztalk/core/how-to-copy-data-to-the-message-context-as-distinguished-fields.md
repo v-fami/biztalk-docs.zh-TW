@@ -1,14 +1,14 @@
 ---
-title: "如何將資料複製到訊息內容，做為辨別欄位 |Microsoft 文件"
-ms.custom: 
+title: 如何將資料複製到訊息內容，做為辨別欄位 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 004a13ca-a162-4a5e-9f72-8a5c55bbb7a6
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248966"
 ---
 # <a name="how-to-copy-data-to-the-message-context-as-distinguished-fields"></a><span data-ttu-id="f5bb0-102">如何將資料複製到訊息內容做為辨別欄位</span><span class="sxs-lookup"><span data-stu-id="f5bb0-102">How to Copy Data to the Message Context as Distinguished Fields</span></span>
 <span data-ttu-id="f5bb0-103">本主題提供逐步指示將屬性升級為**辨別欄位**。</span><span class="sxs-lookup"><span data-stu-id="f5bb0-103">This topic provides step-by-step instructions for promoting a property as a **Distinguished Field**.</span></span>  

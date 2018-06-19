@@ -1,14 +1,14 @@
 ---
-title: "啟用 System.Net 記錄功能 |Microsoft 文件"
-ms.custom: 
+title: 啟用 System.Net 記錄功能 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5eea50b9-1f46-45fc-a327-585adb4583a0
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239934"
 ---
 # <a name="enabling-systemnet-logging"></a><span data-ttu-id="6111f-102">啟用 System.Net 記錄功能</span><span class="sxs-lookup"><span data-stu-id="6111f-102">Enabling System.Net Logging</span></span>
 <span data-ttu-id="6111f-103">您可以啟用為記錄`System.Net`和`System.Net.Sockets` [!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)] BTSNtSvc.exe 服務命名空間。</span><span class="sxs-lookup"><span data-stu-id="6111f-103">You can enable logging for the `System.Net` and `System.Net.Sockets`[!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)] namespace for the BTSNtSvc.exe service.</span></span> <span data-ttu-id="6111f-104">這會建立詳細的記錄檔，其中的資訊有助於您識別 BizTalk Server 安裝的相關問題。</span><span class="sxs-lookup"><span data-stu-id="6111f-104">This will cause a detailed log file to be created containing information that may help you identify issues with your BizTalk Server installation.</span></span>  

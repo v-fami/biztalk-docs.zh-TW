@@ -1,11 +1,11 @@
 ---
-title: "如何擱置、 繼續和終止協調流程執行個體 |Microsoft 文件"
-ms.custom: 
+title: 如何擱置、 繼續和終止協調流程執行個體 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [orchestrations], resuming
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - orchestrations, suspending
 - managing [orchestrations], terminating
 ms.assetid: 7b373dad-57d5-4696-9b29-a6c351d44fa8
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256766"
 ---
 # <a name="how-to-suspend-resume-and-terminate-orchestration-instances"></a><span data-ttu-id="03450-102">如何擱置、繼續和終止協調流程執行個體</span><span class="sxs-lookup"><span data-stu-id="03450-102">How to Suspend, Resume, and Terminate Orchestration Instances</span></span>
 <span data-ttu-id="03450-103">本主題說明如何使用 BizTalk Server 管理主控台來擱置、繼續和終止協調流程的一或多個執行中的服務執行個體。</span><span class="sxs-lookup"><span data-stu-id="03450-103">This topic describes how to suspend, resume, and terminate one or more running service instances of an orchestration by using the BizTalk Server Administration console.</span></span> <span data-ttu-id="03450-104">服務執行個體是 BizTalk Server 正在處理或已經序列化至 MessageBox 做進一步處理或追蹤的協調流程執行個體。</span><span class="sxs-lookup"><span data-stu-id="03450-104">A service instance is an instance of an orchestration that BizTalk Server is either processing or that has been serialized into the MessageBox for further processing or tracking.</span></span>  

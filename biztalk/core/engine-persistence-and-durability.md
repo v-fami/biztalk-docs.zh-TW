@@ -1,14 +1,14 @@
 ---
-title: "引擎保存性與耐久性 |Microsoft 文件"
-ms.custom: 
+title: 引擎保存性與耐久性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9bd209e9-75d2-422f-b3b2-377986f41f2f
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22242590"
 ---
 # <a name="engine-persistence-and-durability"></a><span data-ttu-id="56b99-102">引擎保存性與耐久性</span><span class="sxs-lookup"><span data-stu-id="56b99-102">Engine Persistence and Durability</span></span>
 <span data-ttu-id="56b99-103">本節說明 BizTalk Server 如何透過 SQL Server 將程序狀態存放至磁碟，可靠的整合鬆散耦合的商務程序。</span><span class="sxs-lookup"><span data-stu-id="56b99-103">This section explains how BizTalk Server reliably integrates loosely coupled business processes by persisting process state to disk via SQL Server.</span></span> <span data-ttu-id="56b99-104">藉由在適當的時間保存狀態、利用交易，系統能確保即使發生硬體或軟體故障，程序狀態也不會遺失。</span><span class="sxs-lookup"><span data-stu-id="56b99-104">By persisting state at appropriate times, leveraging transactions, the system guarantees that no process state is lost even in the event of a hardware or software outage.</span></span> <span data-ttu-id="56b99-105">這稱為系統耐久性。</span><span class="sxs-lookup"><span data-stu-id="56b99-105">This is referred to as system durability.</span></span>  

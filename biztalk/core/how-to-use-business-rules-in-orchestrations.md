@@ -1,11 +1,11 @@
 ---
-title: "如何使用商務規則在協調流程中 |Microsoft 文件"
-ms.custom: 
+title: 如何使用商務規則在協調流程中 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - atomic transactions, business rules
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - business rules, orchestrations
 - orchestrations, business rules
 ms.assetid: d20473c2-267f-4a44-93c3-df6ef655020c
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255566"
 ---
 # <a name="how-to-use-business-rules-in-orchestrations"></a><span data-ttu-id="a1d48-102">如何在協調流程中使用商務規則</span><span class="sxs-lookup"><span data-stu-id="a1d48-102">How to Use Business Rules in Orchestrations</span></span>
 <span data-ttu-id="a1d48-103">您可以建立商務規則原則的執行個體，並在協調流程中執行它。</span><span class="sxs-lookup"><span data-stu-id="a1d48-103">You can create an instance of a Business Rules policy and execute it in your orchestration.</span></span> <span data-ttu-id="a1d48-104">若要這麼做，請在不可部分完成的交易範圍中新增「呼叫規則」圖形，並在此圖形上設定原則。</span><span class="sxs-lookup"><span data-stu-id="a1d48-104">To do this, add a Call Rules shape inside an atomic transaction scope, and configure a policy on it.</span></span>  

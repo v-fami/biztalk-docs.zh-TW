@@ -1,18 +1,18 @@
 ---
-title: "如何匯出 BPEL4WS |Microsoft 文件"
-ms.custom: 
+title: 如何匯出 BPEL4WS |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BPEL4WS, exporting
 - BPEL4WS, restrictions
 - orchestrations, BPEL4WS
 ms.assetid: 4648dfcf-cf48-4471-b088-07252c080fb8
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22253830"
 ---
 # <a name="how-to-export-bpel4ws"></a><span data-ttu-id="531e2-102">如何匯出 BPEL4WS</span><span class="sxs-lookup"><span data-stu-id="531e2-102">How to Export BPEL4WS</span></span>
 <span data-ttu-id="531e2-103">您可以將現有的 BizTalk 協調流程匯出至 BPEL4WS。</span><span class="sxs-lookup"><span data-stu-id="531e2-103">You can export an existing BizTalk orchestration to BPEL4WS.</span></span>  

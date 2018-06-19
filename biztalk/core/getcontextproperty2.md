@@ -1,14 +1,14 @@
 ---
-title: "GetContextProperty2 |Microsoft 文件"
-ms.custom: 
+title: GetContextProperty2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2554a210-cfb4-4b63-9afa-ffe2a853ba7b
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246142"
 ---
 # <a name="getcontextproperty"></a><span data-ttu-id="528dc-102">GetContextProperty</span><span class="sxs-lookup"><span data-stu-id="528dc-102">GetContextProperty</span></span>
 <span data-ttu-id="528dc-103">將要求的內容屬性推入到堆疊上。</span><span class="sxs-lookup"><span data-stu-id="528dc-103">Pushes the requested context property onto the stack.</span></span>  

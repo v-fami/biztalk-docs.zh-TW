@@ -20,7 +20,7 @@ helpviewer_keywords:
 - suspending, instances
 - ports, suspending
 ms.assetid: cacc7e58-7d3e-4d6b-adb0-618fdc4f0d89
-caps.latest.revision: ''
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -29,6 +29,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22256694"
 ---
 # <a name="how-to-suspend-orchestration-instances-or-ports"></a><span data-ttu-id="a7dec-102">如何擱置協調流程執行個體或連接埠</span><span class="sxs-lookup"><span data-stu-id="a7dec-102">How to Suspend Orchestration Instances or Ports</span></span>
 <span data-ttu-id="a7dec-103">您可以從 BizTalk Server 管理主控台的查詢結果清單中擱置協調流程執行個體或連接埠。</span><span class="sxs-lookup"><span data-stu-id="a7dec-103">You can suspend orchestration instances or ports from a query results list in the BizTalk Server Administration Console.</span></span>  

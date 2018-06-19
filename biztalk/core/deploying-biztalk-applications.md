@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239070"
 ---
 # <a name="deploying-biztalk-applications"></a><span data-ttu-id="26835-102">部署 BizTalk 應用程式</span><span class="sxs-lookup"><span data-stu-id="26835-102">Deploying BizTalk Applications</span></span>
 <span data-ttu-id="26835-103">本節提供下列有關部署 BizTalk 應用程式的資訊：</span><span class="sxs-lookup"><span data-stu-id="26835-103">This section provides the following information about deploying BizTalk applications:</span></span>  

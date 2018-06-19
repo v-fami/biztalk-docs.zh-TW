@@ -1,18 +1,18 @@
 ---
-title: "文件參考 URL 節點 |Microsoft 文件"
-ms.custom: 
+title: 文件參考 URL 節點 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Document Reference URL nodes [Tracking Profile Editor]
 - Tracking Profile Editor, node descriptions
 - definition files [BAM], related documents
 ms.assetid: 38c8ae50-ed56-451c-9549-db852d4770e5
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238966"
 ---
 # <a name="document-reference-url-nodes"></a><span data-ttu-id="f7124-102">Document Reference URL 節點</span><span class="sxs-lookup"><span data-stu-id="f7124-102">Document Reference URL Nodes</span></span>
 <span data-ttu-id="f7124-103">Document Reference URL 節點存在於開發人員從知識工作者建立的觀察模型中匯入的活動定義檔。</span><span class="sxs-lookup"><span data-stu-id="f7124-103">Document Reference URL nodes exist in the activity definition file that the developer imports from the knowledge worker created observation model.</span></span> <span data-ttu-id="f7124-104">Document Reference URL 節點含有與此活動關聯之文件所在位置的參考。</span><span class="sxs-lookup"><span data-stu-id="f7124-104">Document Reference URL nodes contain references to a location that contains a document that is related to this activity.</span></span> <span data-ttu-id="f7124-105">這可以是任意類型的文件，例如，如果是代表訂單核准工作流程的活動，則 Document Reference URL 可能指向基礎訂單文件。</span><span class="sxs-lookup"><span data-stu-id="f7124-105">This can be any type of document, for example an activity that represents a purchase order approval work flow, the Document Reference URL might point to the underlying purchase order document.</span></span>  

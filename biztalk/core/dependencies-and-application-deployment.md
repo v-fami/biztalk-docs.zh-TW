@@ -1,11 +1,11 @@
 ---
-title: "相依性和應用程式部署 |Microsoft 文件"
-ms.custom: 
+title: 相依性和應用程式部署 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying [applications], dependencies
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - artifacts, dependencies
 - applications, dependencies
 ms.assetid: b78c5a0d-b042-4862-bce7-59469365b369
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22242206"
 ---
 # <a name="dependencies-and-application-deployment"></a><span data-ttu-id="c50d9-102">相依性和應用程式部署</span><span class="sxs-lookup"><span data-stu-id="c50d9-102">Dependencies and Application Deployment</span></span>
 <span data-ttu-id="c50d9-103">本主題描述兩個或多個 BizTalk 應用程式內成品之間的相依性如何影響應用程式部署和維護。</span><span class="sxs-lookup"><span data-stu-id="c50d9-103">This topic describes how dependencies between artifacts in two or more BizTalk applications affect application deployment and maintenance.</span></span>  

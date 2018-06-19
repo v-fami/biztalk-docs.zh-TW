@@ -1,14 +1,14 @@
 ---
-title: "如何管理其他 Visual Studio 視窗 |Microsoft 文件"
-ms.custom: 
+title: 如何管理其他 Visual Studio 視窗 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b86f50e2-ca25-4521-b31a-06ac16f129b1
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254438"
 ---
 # <a name="how-to-manage-other-visual-studio-windows"></a><span data-ttu-id="892a5-102">如何管理其他 Visual Studio 視窗</span><span class="sxs-lookup"><span data-stu-id="892a5-102">How to Manage Other Visual Studio Windows</span></span>
 <span data-ttu-id="892a5-103">「BizTalk 編輯器」中的某些作業使用其他 Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 視窗，即 [輸出] 視窗和 [工作清單] 視窗。</span><span class="sxs-lookup"><span data-stu-id="892a5-103">Certain operations in BizTalk Editor use other Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] windows, namely the Output window and the Task List window.</span></span> <span data-ttu-id="892a5-104">這些視窗是用來顯示作業的輸出，例如產生範例執行個體訊息或驗證結構描述及執行個體。</span><span class="sxs-lookup"><span data-stu-id="892a5-104">These windows are used to display output from operations, such as generating sample instance messages and validating schemas and instances.</span></span> <span data-ttu-id="892a5-105">本主題提供管理這些視窗的逐步說明。</span><span class="sxs-lookup"><span data-stu-id="892a5-105">This topic provides step-by-step instructions about managing these windows.</span></span>  

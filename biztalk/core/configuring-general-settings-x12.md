@@ -1,14 +1,14 @@
 ---
-title: "設定一般設定 (X12) |Microsoft 文件"
-ms.custom: 
+title: 設定一般設定 (X12) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 75c1ca3e-19a0-42f7-910e-dd07c24d1ed4
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234670"
 ---
 # <a name="configuring-general-settings-x12"></a><span data-ttu-id="1887f-102">設定一般設定 (X12)</span><span class="sxs-lookup"><span data-stu-id="1887f-102">Configuring General Settings (X12)</span></span>
 <span data-ttu-id="1887f-103">在一般設定中，您要指定協議名稱、協議將使用的通訊協定 (X12 或 EDIFACT)、協議的合作對象與設定檔，以及是否為透過協議處理的所有訊息啟用報告功能。</span><span class="sxs-lookup"><span data-stu-id="1887f-103">As part of the general settings, you specify agreement name, the protocol it will use (X12 or EDIFACT), the parties and profiles that the agreement is between, and whether to have reporting enabled for all messages processed through the agreement.</span></span> <span data-ttu-id="1887f-104">您也可以在協議中指定合作對象連絡資訊。</span><span class="sxs-lookup"><span data-stu-id="1887f-104">You can also specify the party contact information as part of the agreement.</span></span>  

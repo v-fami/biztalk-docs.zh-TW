@@ -1,14 +1,14 @@
 ---
-title: "EDI 解譯器中發生嚴重錯誤 |Microsoft 文件"
-ms.custom: 
+title: EDI 解譯器中發生嚴重錯誤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: da562612-c27a-49b6-8334-3b410a6e025e
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22245758"
 ---
 # <a name="fatal-error-encountered-in-edi-disassembler"></a><span data-ttu-id="d6af3-102">在 EDI 解譯器中發生嚴重錯誤</span><span class="sxs-lookup"><span data-stu-id="d6af3-102">Fatal error encountered in EDI Disassembler</span></span>
 ## <a name="details"></a><span data-ttu-id="d6af3-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="d6af3-103">Details</span></span>  

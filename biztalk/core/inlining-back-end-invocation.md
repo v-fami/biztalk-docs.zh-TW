@@ -1,11 +1,11 @@
 ---
-title: "內嵌後端引動過程 |Microsoft 文件"
-ms.custom: 
+title: 內嵌後端引動過程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - MessageBox database, performance
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Inline Invocation of Back-End Processes [service solutions], performance
 - performance, MessageBox database
 ms.assetid: 991d080f-a4cc-4f14-bab3-3b8b74636daf
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257182"
 ---
 # <a name="inlining-back-end-invocation"></a><span data-ttu-id="ba6b8-102">內嵌後端叫用</span><span class="sxs-lookup"><span data-stu-id="ba6b8-102">Inlining Back-end Invocation</span></span>
 <span data-ttu-id="ba6b8-103">完整解決方案的內嵌呼叫版本可提供最快速的處理次數。</span><span class="sxs-lookup"><span data-stu-id="ba6b8-103">The inline call version, of the full solutions, provides the fastest processing times.</span></span> <span data-ttu-id="ba6b8-104">內嵌版本消除了對 MessageBox 資料庫中後端系統持續傳送要求及取得回應的負擔。</span><span class="sxs-lookup"><span data-stu-id="ba6b8-104">The inline version eliminates the overhead of persisting the request and response messages to and from the backend systems in the MessageBox database.</span></span> <span data-ttu-id="ba6b8-105">在配接器版本中，訊息會從傳送協調流程到 MessageBox。</span><span class="sxs-lookup"><span data-stu-id="ba6b8-105">In the adapter version, the message goes from the sending orchestration to the MessageBox.</span></span> <span data-ttu-id="ba6b8-106">執行配接器的主控件會取出訊息，並透過訊息再次發佈到 MessageBox 的方式，將訊息傳送到後端程序。</span><span class="sxs-lookup"><span data-stu-id="ba6b8-106">The host running the adapter picks up the message, and sends the message to the back-end process by again posting it to the message box.</span></span>  

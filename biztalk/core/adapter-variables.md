@@ -1,14 +1,14 @@
 ---
-title: "配接器變數 |Microsoft 文件"
-ms.custom: 
+title: 配接器變數 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: aeda96bc-5141-4c42-8a29-b0a28bc47aa4
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233878"
 ---
 # <a name="adapter-variables"></a><span data-ttu-id="35006-102">配接器變數</span><span class="sxs-lookup"><span data-stu-id="35006-102">Adapter Variables</span></span>
 <span data-ttu-id="35006-103">任何自訂配接器都需要處理一些變數，</span><span class="sxs-lookup"><span data-stu-id="35006-103">There are a number of variables that any custom adapter needs to handle.</span></span> <span data-ttu-id="35006-104">指派給這些變數的值會影響該配接器所實作的自訂邏輯。</span><span class="sxs-lookup"><span data-stu-id="35006-104">Values assigned to these variables influence custom logic that the adapter implements.</span></span> <span data-ttu-id="35006-105">傳輸專用或應用程式專用的組態屬性也有助於支援您的解決方案。</span><span class="sxs-lookup"><span data-stu-id="35006-105">Transport-specific or application-specific configuration properties can also help to support your solution.</span></span> <span data-ttu-id="35006-106">下表列出這些常用的變數。</span><span class="sxs-lookup"><span data-stu-id="35006-106">The following table lists these common variables.</span></span> <span data-ttu-id="35006-107">您必須決定您是否想要在自訂配接器中支援每一個變數。</span><span class="sxs-lookup"><span data-stu-id="35006-107">You must decide if you want to support each one in your custom adapter.</span></span>  

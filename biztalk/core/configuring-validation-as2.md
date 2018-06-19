@@ -1,14 +1,14 @@
 ---
-title: "設定驗證 (AS2) |Microsoft 文件"
-ms.custom: 
+title: 設定驗證 (AS2) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1ff22dc8-a544-46f9-86fb-f6845e2dfe46
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234214"
 ---
 # <a name="configuring-validation-as2"></a><span data-ttu-id="a592b-102">設定驗證 (AS2)</span><span class="sxs-lookup"><span data-stu-id="a592b-102">Configuring Validation (AS2)</span></span>
 <span data-ttu-id="a592b-103">在夥伴協議中，您必須指定驗證設定來驗證輸入 AS2 訊息。</span><span class="sxs-lookup"><span data-stu-id="a592b-103">In the partner agreement, you must specify the validation settings to validate the inbound AS2 message.</span></span>  

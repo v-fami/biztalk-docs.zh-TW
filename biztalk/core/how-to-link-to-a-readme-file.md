@@ -1,11 +1,11 @@
 ---
-title: "如何連結到讀我檔案 |Microsoft 文件"
-ms.custom: 
+title: 如何連結到讀我檔案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - linking, readme files
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - linking, applications
 - applications, linking
 ms.assetid: 7ddbfe77-c8b5-4f90-80ee-8fd5ba57170b
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254886"
 ---
 # <a name="how-to-link-to-a-readme-file"></a><span data-ttu-id="3dc3a-102">如何連結到讀我檔案</span><span class="sxs-lookup"><span data-stu-id="3dc3a-102">How to Link to a Readme File</span></span>
 <span data-ttu-id="3dc3a-103">本主題說明如何使用 BizTalk Server 管理主控台或命令列加入 Readme.htm 檔案，以便使用者按一下 [控制台] 中 [新增或移除程式] 的連結時會出現這個檔案。</span><span class="sxs-lookup"><span data-stu-id="3dc3a-103">This topic describes how to use the BizTalk Server Administration console or the command line to add a Readme.htm file that will appear when a user clicks a link in Add or Remove Programs in Control Panel.</span></span>  

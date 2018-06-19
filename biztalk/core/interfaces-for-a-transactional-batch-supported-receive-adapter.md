@@ -1,14 +1,14 @@
 ---
-title: "交易式批次支援接收配接器介面 |Microsoft 文件"
-ms.custom: 
+title: 交易式批次支援接收配接器介面 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5289e8b8-4447-4196-9f7c-5e60c6598d8d
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257574"
 ---
 # <a name="interfaces-for-a-transactional-batch-supported-receive-adapter"></a><span data-ttu-id="452bd-102">支援交易式批次的接收配接器介面</span><span class="sxs-lookup"><span data-stu-id="452bd-102">Interfaces for a Transactional Batch-Supported Receive Adapter</span></span>
 <span data-ttu-id="452bd-103">接收配接器可以在需要交易式的訊息提交時建立及控制交易。</span><span class="sxs-lookup"><span data-stu-id="452bd-103">A receive adapter creates and controls transactions when the transactional submission of messages is required.</span></span>  

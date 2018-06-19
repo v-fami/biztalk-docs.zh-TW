@@ -1,17 +1,17 @@
 ---
-title: "設定 BizTalk 專案屬性 |Microsoft 文件"
-ms.custom: 
+title: 設定 BizTalk 專案屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - projects, property pages
 - projects, configuring
 ms.assetid: 2cd8bbf0-1cba-462a-8e26-a761dc067765
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232254"
 ---
 # <a name="configuring-biztalk-project-properties"></a><span data-ttu-id="523bc-102">設定 BizTalk 專案屬性</span><span class="sxs-lookup"><span data-stu-id="523bc-102">Configuring BizTalk Project Properties</span></span>
 <span data-ttu-id="523bc-103">專案屬性可為您在 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 中所建立的專案設定全域設定。</span><span class="sxs-lookup"><span data-stu-id="523bc-103">Project properties configure global settings for projects that you create in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].</span></span> <span data-ttu-id="523bc-104">BizTalk 專案共用許多其他 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 專案的專案屬性。</span><span class="sxs-lookup"><span data-stu-id="523bc-104">BizTalk projects share many of the project properties of other [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] projects.</span></span> <span data-ttu-id="523bc-105">您可以在專案設計工具中，設定大部分這些屬性。</span><span class="sxs-lookup"><span data-stu-id="523bc-105">You configure most of these properties in the Project Designer.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "如何最佳化連結顯示 |Microsoft 文件"
-ms.custom: 
+title: 如何最佳化連結顯示 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2a9e16ff-01d3-4b7d-91c4-59d17266ee6d
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254382"
 ---
 # <a name="how-to-optimize-the-display-of-links"></a><span data-ttu-id="0fa1a-102">如何最佳化連結的顯示</span><span class="sxs-lookup"><span data-stu-id="0fa1a-102">How to Optimize the Display of Links</span></span>
 <span data-ttu-id="0fa1a-103">當結構描述很大時，對應中可能包括來源與目的結構描述間的大量連結。</span><span class="sxs-lookup"><span data-stu-id="0fa1a-103">When the schemas are big, your maps might include a large number of links between the source and the destination schemas.</span></span> <span data-ttu-id="0fa1a-104">對應介面中若有許多連結，您會發現難以追蹤您需要使用的連結或物件。</span><span class="sxs-lookup"><span data-stu-id="0fa1a-104">With many links across the map surface, you may find it difficult to track a link or an object you need to work on.</span></span> <span data-ttu-id="0fa1a-105">此外，您不容易追蹤來源結構描述、連結、運算質以及目的結構描述之間的端對端關係。</span><span class="sxs-lookup"><span data-stu-id="0fa1a-105">Also, it can be difficult for you to track an end-to-end relationship between a source schema, the links, the functoids, and the destination schema.</span></span> <span data-ttu-id="0fa1a-106">在 BizTalk 對應工具中，您可以更妥善地管理複雜和大型的結構描述，並讓對應中的連結顯示呈現最佳狀態。</span><span class="sxs-lookup"><span data-stu-id="0fa1a-106">In the BizTalk Mapper, you can better manage complex and large schemas, and bring out an optimized display of links in the map.</span></span> <span data-ttu-id="0fa1a-107">此主題提供如何檢視連結的詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="0fa1a-107">This topic provides details about how to view links.</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240398"
 ---
 # <a name="error---inputs-to-cumulative-functoid-from-different-parent-records"></a><span data-ttu-id="df681-102">錯誤-從不同的父記錄輸入累計運算質</span><span class="sxs-lookup"><span data-stu-id="df681-102">Error - Inputs to Cumulative Functoid from Different Parent Records</span></span>
 <span data-ttu-id="df681-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="df681-103">**Error Code**</span></span>  

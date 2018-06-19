@@ -1,18 +1,18 @@
 ---
-title: "例外狀況的原因 |Microsoft 文件"
-ms.custom: 
+title: 例外狀況的原因 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, errors
 - errors, orchestrations
 - errors, causes
 ms.assetid: b0422382-d034-4c58-87c6-fc269dbbfe43
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232462"
 ---
 # <a name="causes-of-exceptions"></a><span data-ttu-id="4c818-102">造成例外狀況的原因</span><span class="sxs-lookup"><span data-stu-id="4c818-102">Causes of Exceptions</span></span>
 <span data-ttu-id="4c818-103">可透過下列方式在協調流程中產生例外狀況：</span><span class="sxs-lookup"><span data-stu-id="4c818-103">Exceptions can be generated within an orchestration in the following ways:</span></span>  

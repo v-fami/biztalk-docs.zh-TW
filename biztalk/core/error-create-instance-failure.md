@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239710"
 ---
 # <a name="error---create-instance-failure"></a><span data-ttu-id="d3d97-102">錯誤-建立執行個體失敗</span><span class="sxs-lookup"><span data-stu-id="d3d97-102">Error - Create Instance Failure</span></span>
 <span data-ttu-id="d3d97-103">**說明**</span><span class="sxs-lookup"><span data-stu-id="d3d97-103">**Explanation**</span></span>  

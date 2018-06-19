@@ -1,14 +1,14 @@
 ---
-title: "設定後援通知屬性 (EDIFACT) |Microsoft 文件"
-ms.custom: 
+title: 設定後援通知屬性 (EDIFACT) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6062b881-3214-4e68-acbc-1f8c255fd86b
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233014"
 ---
 # <a name="configuring-fallback-acknowledgement-properties-edifact"></a><span data-ttu-id="63eda-102">設定後援通知屬性 (EDIFACT)</span><span class="sxs-lookup"><span data-stu-id="63eda-102">Configuring Fallback Acknowledgement Properties (EDIFACT)</span></span>
 <span data-ttu-id="63eda-103">在後援協議中，您可以指定要傳回給合作對象的通知類型。</span><span class="sxs-lookup"><span data-stu-id="63eda-103">In the fallback agreement, you can specify what type of acknowledgment to return to a party.</span></span>  
@@ -30,7 +31,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  <span data-ttu-id="63eda-108">在**EDIFACT 後援設定**對話方塊中，於**EDIFACT 協議頁面**索引標籤，下方**交換設定**區段中，按一下**通知**。</span><span class="sxs-lookup"><span data-stu-id="63eda-108">In the **EDIFACT Fallback Settings** dialog box, in the **EDIFACT Agreement Pages** tab, under the **Interchange Settings** section, click **Acknowledgements**.</span></span>  
   
-3.  <span data-ttu-id="63eda-109">選取**訊息回條 (CONTRL 必須是)**技術 (CONTRL) 通知傳回給交換傳送者。</span><span class="sxs-lookup"><span data-stu-id="63eda-109">Select **Receipt of message (CONTRL) expected** to return a technical (CONTRL) acknowledgment to the interchange sender.</span></span>  
+3.  <span data-ttu-id="63eda-109">選取**訊息回條 (CONTRL 必須是)** 技術 (CONTRL) 通知傳回給交換傳送者。</span><span class="sxs-lookup"><span data-stu-id="63eda-109">Select **Receipt of message (CONTRL) expected** to return a technical (CONTRL) acknowledgment to the interchange sender.</span></span>  
   
 4.  <span data-ttu-id="63eda-110">選取**通知 (CONTRL) 必須是**功能 (CONTRL) 通知傳回給交換傳送者。</span><span class="sxs-lookup"><span data-stu-id="63eda-110">Select **Acknowledgement (CONTRL) expected** to return a functional (CONTRL) acknowledgment to the interchange sender.</span></span>  
   

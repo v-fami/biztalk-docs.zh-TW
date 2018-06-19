@@ -1,14 +1,14 @@
 ---
-title: "如何選取多個連結與運算質 |Microsoft 文件"
-ms.custom: 
+title: 如何選取多個連結與運算質 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f9ae50cb-c212-48f3-9dfb-74df282645c5
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255222"
 ---
 # <a name="how-to-select-multiple-links-and-functoids"></a><span data-ttu-id="8cd8f-102">如何選取多個連結與運算質</span><span class="sxs-lookup"><span data-stu-id="8cd8f-102">How to Select Multiple Links and Functoids</span></span>
 <span data-ttu-id="8cd8f-103">當您想要在對應中執行類似的運算質和/或連結的群組上的作業時，您可以選取該運算質和/或連結的群組，所有在相同的時間。</span><span class="sxs-lookup"><span data-stu-id="8cd8f-103">When you want to perform a similar operation on a group of functoids and/or links in a map, you can select that group of functoids and/or links all at the same time.</span></span> <span data-ttu-id="8cd8f-104">本主題提供如何執行此作業的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="8cd8f-104">This topic provides information about how to perform this operation.</span></span>  
