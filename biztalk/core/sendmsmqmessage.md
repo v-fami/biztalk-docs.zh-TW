@@ -1,17 +1,17 @@
 ---
-title: "SendMSMQMessage |Microsoft 文件"
-ms.custom: 
+title: SendMSMQMessage |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - MSMQ adapters, examples
 - examples, MSMQ adapters
 ms.assetid: 398bc396-0c66-4d55-886a-0d9bdab6476f
-caps.latest.revision: "26"
+caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975508"
 ---
 # <a name="sendmsmqmessage"></a><span data-ttu-id="f8080-102">SendMSMQMessage</span><span class="sxs-lookup"><span data-stu-id="f8080-102">SendMSMQMessage</span></span>
 <span data-ttu-id="f8080-103">SendMSMQMessage 範例將示範如何從 .NET 架構的應用程式將訊息傳送至 MSMQ 連接埠。</span><span class="sxs-lookup"><span data-stu-id="f8080-103">The SendMSMQMessage sample demonstrates how to send a message to an MSMQ port from a .NET-based application.</span></span> <span data-ttu-id="f8080-104">此外還提供如何設定 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 使用 MSMQ 接收位置的指示。</span><span class="sxs-lookup"><span data-stu-id="f8080-104">It also provides instructions about how to configure Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to use an MSMQ receive location.</span></span>  

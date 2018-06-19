@@ -1,11 +1,11 @@
 ---
-title: "如何建立.NET 應用程式來測試 WCF 服務使用 BizTalk WCF 服務發佈精靈所發佈 |Microsoft 文件"
-ms.custom: 
+title: 如何建立.NET 應用程式來測試 WCF 服務使用 BizTalk WCF 服務發佈精靈所發佈 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF services, .NET applications
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - creating, .NET applications [WCF services]
 - WCF Service Publishing Wizard
 ms.assetid: 17e39db2-8471-4f6f-a7f1-833023cdbc39
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287230"
 ---
 # <a name="how-to-create-a-net-application-to-test-a-wcf-service-published-with-the-biztalk-wcf-service-publishing-wizard"></a><span data-ttu-id="a7742-102">如何建立 .NET 應用程式以測試使用 BizTalk WCF 服務發佈精靈發佈的 WCF 服務</span><span class="sxs-lookup"><span data-stu-id="a7742-102">How to Create a .NET Application to Test a WCF Service Published with the BizTalk WCF Service Publishing Wizard</span></span>
 <span data-ttu-id="a7742-103">若要測試已發佈的 WCF 服務，您可以建立 .NET 應用程式，讓它使用您已發佈的 WCF 服務的。</span><span class="sxs-lookup"><span data-stu-id="a7742-103">To test your published WCF service, you can create a .NET application that consumes your published WCF service.</span></span> <span data-ttu-id="a7742-104">本主題說明如何建立 .NET 應用程式來測試已發佈的 WCF 服務。</span><span class="sxs-lookup"><span data-stu-id="a7742-104">This topic describes how to create a .NET application to test a published WCF service.</span></span>  

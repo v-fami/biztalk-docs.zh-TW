@@ -1,14 +1,14 @@
 ---
-title: "迴圈包含分葉節點。 它只可以包含其他迴圈或區段 |Microsoft 文件"
-ms.custom: 
+title: 迴圈包含分葉節點。 它只可以包含其他迴圈或區段 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2a0ee5e6-519d-4c95-8681-de5a37741d56
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278830"
 ---
 # <a name="the-loop-contains-a-leaf-node-it-can-only-contain-other-loops-or-segments"></a><span data-ttu-id="4ac92-103">迴圈包含分葉節點。</span><span class="sxs-lookup"><span data-stu-id="4ac92-103">The loop contains a leaf node.</span></span> <span data-ttu-id="4ac92-104">它只能包含其他迴圈或區段</span><span class="sxs-lookup"><span data-stu-id="4ac92-104">It can only contain other Loops or Segments</span></span>
 ## <a name="details"></a><span data-ttu-id="4ac92-105">詳細資料</span><span class="sxs-lookup"><span data-stu-id="4ac92-105">Details</span></span>  

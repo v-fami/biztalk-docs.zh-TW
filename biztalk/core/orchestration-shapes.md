@@ -1,11 +1,11 @@
 ---
-title: "協調流程圖形 |Microsoft 文件"
-ms.custom: 
+title: 協調流程圖形 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Delay shape [Orchestration Designer]
@@ -36,7 +36,7 @@ helpviewer_keywords:
 - Orchestration Designer, shapes
 - Insufficient Configuration Smart Tag [Orchestration Designer]
 ms.assetid: a1d03baa-a267-499d-94fc-700b3e959458
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -45,6 +45,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264294"
 ---
 # <a name="orchestration-shapes"></a><span data-ttu-id="b5b3a-102">協調流程圖形</span><span class="sxs-lookup"><span data-stu-id="b5b3a-102">Orchestration Shapes</span></span>
 <span data-ttu-id="b5b3a-103">協調流程設計師是用來建立協調流程的視覺化工具，</span><span class="sxs-lookup"><span data-stu-id="b5b3a-103">Orchestration Designer is a visual tool for creating orchestrations.</span></span> <span data-ttu-id="b5b3a-104">它提供了幾個圖形，讓您以基礎動作的視覺化表示方式將這些圖形放在設計介面上，這些圖形也可讓您有效率地設計及實作協調流程。</span><span class="sxs-lookup"><span data-stu-id="b5b3a-104">It provides several shapes that you can place on the design surface as visual representations of underlying actions, and they can help you to efficiently design and implement an orchestration.</span></span>  

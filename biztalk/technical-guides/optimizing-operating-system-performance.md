@@ -1,14 +1,14 @@
 ---
-title: "作業系統效能最佳化 |Microsoft 文件"
-ms.custom: 
+title: 作業系統效能最佳化 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 44975fb4-2bdd-4fde-b6fc-2b2ea9d036b9
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298870"
 ---
 # <a name="optimizing-operating-system-performance"></a><span data-ttu-id="e845b-102">作業系統效能最佳化</span><span class="sxs-lookup"><span data-stu-id="e845b-102">Optimizing Operating System Performance</span></span>
 <span data-ttu-id="e845b-103">本節提供在生產環境 BizTalk Server 環境中使用的 BizTalk Server 電腦的最佳化效能的建議。</span><span class="sxs-lookup"><span data-stu-id="e845b-103">This section provides recommendations for optimizing performance of the BizTalk Server computers used in a production BizTalk Server environment.</span></span> <span data-ttu-id="e845b-104">安裝和設定 BizTalk Server 後，會套用此章節所列的最佳化。</span><span class="sxs-lookup"><span data-stu-id="e845b-104">The optimizations listed in this section are applied after BizTalk Server has been installed and configured.</span></span>  

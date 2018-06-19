@@ -1,14 +1,14 @@
 ---
-title: "逐步解說： 修改的原則 |Microsoft 文件"
-ms.custom: 
+title: 逐步解說： 修改的原則 |Microsoft 文件
+ms.custom: ''
 ms.date: 2016-04-05
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9dd74440-2a45-4a1a-8e36-98796e1e1392
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289670"
 ---
 # <a name="walkthrough-modifying-the-policy"></a><span data-ttu-id="d637f-102">逐步解說： 修改原則</span><span class="sxs-lookup"><span data-stu-id="d637f-102">Walkthrough: Modifying the Policy</span></span>
 <span data-ttu-id="d637f-103">本逐步解說提供建立新版的逐步指示**POVocabulary**，建立新版本的**ProcessPurchaseOrder**原則，並使用最新版**POVocabulary**在新版的**ProcessPurchaseOrder**原則。</span><span class="sxs-lookup"><span data-stu-id="d637f-103">This walkthrough provides step-by-step instructions for creating a new version of the **POVocabulary**, creating a new version of the **ProcessPurchaseOrder** policy, and using the latest version of the **POVocabulary** in the new version of the **ProcessPurchaseOrder** policy.</span></span>  
@@ -46,7 +47,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  <span data-ttu-id="d637f-123">以滑鼠右鍵按一下**POVocabulary**，然後按一下 **貼上詞彙版本**。</span><span class="sxs-lookup"><span data-stu-id="d637f-123">Right-click **POVocabulary**, and then click **Paste Vocabulary Version**.</span></span>  
   
-5.  <span data-ttu-id="d637f-124">按兩下**數目的項目允許的最大**中**版本 1.1 （未儲存）**啟動 [詞彙定義精靈]。</span><span class="sxs-lookup"><span data-stu-id="d637f-124">Double-click **Maximum Number of Items Allowed** in **Version 1.1 (not saved)** to start the Vocabulary Definition Wizard.</span></span>  
+5.  <span data-ttu-id="d637f-124">按兩下**數目的項目允許的最大**中**版本 1.1 （未儲存）** 啟動 [詞彙定義精靈]。</span><span class="sxs-lookup"><span data-stu-id="d637f-124">Double-click **Maximum Number of Items Allowed** in **Version 1.1 (not saved)** to start the Vocabulary Definition Wizard.</span></span>  
   
 6.  <span data-ttu-id="d637f-125">按一下 **[下一步]**。</span><span class="sxs-lookup"><span data-stu-id="d637f-125">Click **Next**.</span></span>  
   
@@ -68,7 +69,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  <span data-ttu-id="d637f-134">以滑鼠右鍵按一下**ProcessPurchaseOrder**，然後按一下  **pastepolicyversion**。</span><span class="sxs-lookup"><span data-stu-id="d637f-134">Right-click **ProcessPurchaseOrder**, and then click **PastePolicyVersion**.</span></span>  
   
-4.  <span data-ttu-id="d637f-135">按一下**ApprovalRule**中**（未儲存） 1.3 版**。</span><span class="sxs-lookup"><span data-stu-id="d637f-135">Click **ApprovalRule** in **Version 1.3 (not saved)**.</span></span>  
+4.  <span data-ttu-id="d637f-135">按一下**ApprovalRule**中 **（未儲存） 1.3 版**。</span><span class="sxs-lookup"><span data-stu-id="d637f-135">Click **ApprovalRule** in **Version 1.3 (not saved)**.</span></span>  
   
 5.  <span data-ttu-id="d637f-136">在 [事實總管] 中，展開**詞彙**，依序展開**POVocabulary**，然後展開**1.1 版-已發佈**。</span><span class="sxs-lookup"><span data-stu-id="d637f-136">In Facts Explorer, expand **Vocabularies**, expand **POVocabulary**, and then expand **Version 1.1 - Published**.</span></span>  
   
@@ -76,7 +77,7 @@ ms.lasthandoff: 09/20/2017
   
 7.  <span data-ttu-id="d637f-138">重複步驟 4-6 **DeniedRule**。</span><span class="sxs-lookup"><span data-stu-id="d637f-138">Repeat steps 4-6 with **DeniedRule**.</span></span>  
   
-8.  <span data-ttu-id="d637f-139">以滑鼠右鍵按一下**（未儲存） 1.3 版**，然後按一下 **儲存**。</span><span class="sxs-lookup"><span data-stu-id="d637f-139">Right-click **Version 1.3 (not saved)**, and then click **Save**.</span></span>  
+8.  <span data-ttu-id="d637f-139">以滑鼠右鍵按一下 **（未儲存） 1.3 版**，然後按一下 **儲存**。</span><span class="sxs-lookup"><span data-stu-id="d637f-139">Right-click **Version 1.3 (not saved)**, and then click **Save**.</span></span>  
   
 9. <span data-ttu-id="d637f-140">以滑鼠右鍵按一下**1.3 版**，然後按一下 **發行**。</span><span class="sxs-lookup"><span data-stu-id="d637f-140">Right-click **Version 1.3**, and then click **Publish**.</span></span>  
   

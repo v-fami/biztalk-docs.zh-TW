@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216542"
 ---
 # <a name="configure-the-sign-in-credentials-for-the-oracle-database"></a><span data-ttu-id="a5000-102">設定登入認證，Oracle 資料庫</span><span class="sxs-lookup"><span data-stu-id="a5000-102">Configure the sign in credentials for the Oracle Database</span></span>
 <span data-ttu-id="a5000-103">[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]需要配接器用戶端提供用戶端認證。</span><span class="sxs-lookup"><span data-stu-id="a5000-103">The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] requires the adapter clients to provide client credentials.</span></span> <span data-ttu-id="a5000-104">配接器使用這些認證來驗證與 Oracle 資料庫使用者，並建立連接。</span><span class="sxs-lookup"><span data-stu-id="a5000-104">The adapter uses these credentials to authenticate the user with the Oracle database and to establish a connection.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "何謂追蹤設定檔？ | Microsoft Docs"
-ms.custom: 
+title: 何謂追蹤設定檔？ | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - tracking profiles, about tracking profiles
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Tracking Profile Editor, tracking profiles
 - tracking profiles
 ms.assetid: b579bdc4-7c69-4fa0-bbc1-f98170c13d4f
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289702"
 ---
 # <a name="what-is-a-tracking-profile"></a><span data-ttu-id="7ebed-103">何謂追蹤設定檔？</span><span class="sxs-lookup"><span data-stu-id="7ebed-103">What Is a Tracking Profile?</span></span>
 <span data-ttu-id="7ebed-104">設定檔是定義商務程序的一組特性。</span><span class="sxs-lookup"><span data-stu-id="7ebed-104">A profile is a set of characteristics that define a business process.</span></span> <span data-ttu-id="7ebed-105">追蹤設定檔包含從活動到協調流程和連接埠這些特性的對應。</span><span class="sxs-lookup"><span data-stu-id="7ebed-105">A tracking profile contains the mapping of these characteristics from an activity to orchestrations and ports.</span></span> <span data-ttu-id="7ebed-106">追蹤設定檔的副檔名為 .btt。</span><span class="sxs-lookup"><span data-stu-id="7ebed-106">A tracking profile is a file with a .btt file name extension.</span></span>  

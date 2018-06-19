@@ -1,11 +1,11 @@
 ---
-title: "在協調流程中使用 SOAP 標頭 |Microsoft 文件"
-ms.custom: 
+title: 在協調流程中使用 SOAP 標頭 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SOAP headers, orchestrations
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - orchestrations, SOAP headers
 - creating, SOAP headers
 ms.assetid: 4754dd23-386b-4093-8ea4-4da6b4d9279c
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288534"
 ---
 # <a name="using-soap-headers-in-orchestrations"></a><span data-ttu-id="9581b-102">在協調流程中使用 SOAP 標頭</span><span class="sxs-lookup"><span data-stu-id="9581b-102">Using SOAP Headers in Orchestrations</span></span>
 <span data-ttu-id="9581b-103">協調流程會使用屬性結構描述來定義 SOAP 標頭內容屬性。</span><span class="sxs-lookup"><span data-stu-id="9581b-103">Orchestrations use property schemas to define SOAP header context properties.</span></span> <span data-ttu-id="9581b-104">您可以使用 BizTalk 編輯器設定 SOAP 標頭內容屬性。</span><span class="sxs-lookup"><span data-stu-id="9581b-104">You use the BizTalk Editor to set SOAP header context properties.</span></span>  

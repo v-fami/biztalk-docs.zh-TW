@@ -1,11 +1,11 @@
 ---
-title: "如何修改.NET 組件、 COM 元件、 檔案或 BAM 成品的部署選項 |Microsoft 文件"
-ms.custom: 
+title: 如何修改.NET 組件、 COM 元件、 檔案或 BAM 成品的部署選項 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [.NET assemblies], deploying
@@ -25,7 +25,7 @@ helpviewer_keywords:
 - virtual directories, modifying
 - deploying, COM components
 ms.assetid: 4955d420-d9ff-4d5a-82f4-fb16477a828c
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -34,6 +34,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263974"
 ---
 # <a name="how-to-modify-the-deployment-options-of-a-net-assembly-com-component-file-or-bam-artifact"></a><span data-ttu-id="54af6-102">如何修改 .NET 組件、COM 組件、檔案或 BAM 成品的部署選項</span><span class="sxs-lookup"><span data-stu-id="54af6-102">How to Modify the Deployment Options of a .NET Assembly, COM Component, File, or BAM Artifact</span></span>
 <span data-ttu-id="54af6-103">本主題描述如何使用 [BizTalk Server 管理主控台] 來修改下列資源成品的部署選項：</span><span class="sxs-lookup"><span data-stu-id="54af6-103">This topic describes how to use the BizTalk Server Administration console to modify the deployment options of the following resource artifacts:</span></span>  

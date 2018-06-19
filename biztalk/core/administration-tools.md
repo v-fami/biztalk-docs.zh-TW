@@ -1,15 +1,15 @@
 ---
-title: "系統管理] 和 [效能工具 |Microsoft 文件"
-description: "常見的工具來管理工作、 效能和 BizTalk Server 中的追蹤"
-ms.custom: 
+title: 系統管理] 和 [效能工具 |Microsoft 文件
+description: 常見的工具來管理工作、 效能和 BizTalk Server 中的追蹤
+ms.custom: ''
 ms.date: 11/29/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 932814f7-2ab3-45cb-8bbc-eaf00fcb24a0
-caps.latest.revision: "28"
+caps.latest.revision: 28
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006575"
 ---
 # <a name="administrative-and-performance-tools"></a><span data-ttu-id="e8051-103">系統管理] 和 [效能工具</span><span class="sxs-lookup"><span data-stu-id="e8051-103">Administrative and performance tools</span></span> 
 

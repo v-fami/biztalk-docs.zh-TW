@@ -1,14 +1,14 @@
 ---
-title: "設定實體連接埠繫結使用連接埠繫結檔案至 Oracle E-business Suite |Microsoft 文件"
-ms.custom: 
+title: 設定實體連接埠繫結使用連接埠繫結檔案至 Oracle E-business Suite |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5c3c468e-815c-4611-879c-8da9111eeb3b
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218262"
 ---
 # <a name="configure-a-physical-port-binding-using-a-port-binding-file-to-oracle-e-business-suite"></a><span data-ttu-id="fb57d-102">設定使用連接埠繫結檔案至 Oracle E-business Suite 實體連接埠繫結</span><span class="sxs-lookup"><span data-stu-id="fb57d-102">Configure a physical port binding using a port binding file to Oracle E-Business Suite</span></span>
 <span data-ttu-id="fb57d-103">當您使用[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]產生中繼資料以外的結構描述檔案，Oracle E-business Suite 成品[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]也會產生連接埠繫結檔案。</span><span class="sxs-lookup"><span data-stu-id="fb57d-103">When you use the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] to generate metadata for Oracle E-Business Suite artifacts, other than the schema files, the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] also generates a port binding file.</span></span> <span data-ttu-id="fb57d-104">您可以將此繫結檔案匯 BizTalk 應用程式來建立實體傳送或接收埠。</span><span class="sxs-lookup"><span data-stu-id="fb57d-104">You can import this binding file into your BizTalk application to create a physical send or receive port.</span></span> <span data-ttu-id="fb57d-105">如需匯入繫結檔案的指示，請參閱[重複使用配接器繫結與 Oracle E-business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/reuse-adapter-bindings-with-oracle-e-business-suite.md)。</span><span class="sxs-lookup"><span data-stu-id="fb57d-105">For instructions on importing binding files, see [Reuse Adapter Bindings with Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/reuse-adapter-bindings-with-oracle-e-business-suite.md).</span></span> <span data-ttu-id="fb57d-106">如果您匯入此繫結檔案，您不必手動建立實體傳送或接收埠。</span><span class="sxs-lookup"><span data-stu-id="fb57d-106">If you import this binding file, you do not have to manually create a physical send or receive port.</span></span>  

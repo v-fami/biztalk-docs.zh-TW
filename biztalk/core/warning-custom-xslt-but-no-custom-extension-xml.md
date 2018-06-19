@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288358"
 ---
 # <a name="warning---custom-xslt-but-no-custom-extension-xml"></a><span data-ttu-id="15f0b-102">警告-找到自訂 XSLT 但沒有自訂延伸模組 XML</span><span class="sxs-lookup"><span data-stu-id="15f0b-102">Warning - Custom XSLT but No Custom Extension XML</span></span>
 <span data-ttu-id="15f0b-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="15f0b-103">**Error Code**</span></span>  

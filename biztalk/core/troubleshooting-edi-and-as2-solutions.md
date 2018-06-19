@@ -1,14 +1,14 @@
 ---
-title: "疑難排解 EDI 和 AS2 解決方案 |Microsoft 文件"
-ms.custom: 
+title: 疑難排解 EDI 和 AS2 解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 841f6f4e-e8ea-493e-b1c3-9189a1a9ba47
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006207"
 ---
 # <a name="troubleshooting-edi-and-as2-solutions"></a><span data-ttu-id="0519b-102">疑難排解 EDI 和 AS2 解決方案</span><span class="sxs-lookup"><span data-stu-id="0519b-102">Troubleshooting EDI and AS2 Solutions</span></span>
 <span data-ttu-id="0519b-103">本節中的主題描述 BizTalk Server 中的 EDI 和 AS2 解決方案的已知的問題，並說明可用來識別及解決 EDI 和 AS2 解決方案可能發生的問題的一般疑難排解步驟。</span><span class="sxs-lookup"><span data-stu-id="0519b-103">The topics in this section describe known issues with the EDI and AS2 solutions in BizTalk Server, and describe common troubleshooting steps that can be used to identify and resolve problems that may be occurring in EDI and AS2 solutions.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "驗證對應 (EDI) |Microsoft 文件"
-ms.custom: 
+title: 驗證對應 (EDI) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: caf58ecf-ed10-4c13-8d7d-e007b9158b0e
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288422"
 ---
 # <a name="validating-a-map-edi"></a><span data-ttu-id="87d7a-102">驗證對應 (EDI)</span><span class="sxs-lookup"><span data-stu-id="87d7a-102">Validating a Map (EDI)</span></span>
 <span data-ttu-id="87d7a-103">您可以在設計階段驗證對應。</span><span class="sxs-lookup"><span data-stu-id="87d7a-103">You can validate a map at design time.</span></span> <span data-ttu-id="87d7a-104">若要這樣做，您使用的 XML 工具延伸模組[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]中[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]環境。</span><span class="sxs-lookup"><span data-stu-id="87d7a-104">To do so, you use the XML Tool extensions to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] environment.</span></span> <span data-ttu-id="87d7a-105">這項作業會產生兩個檔案：一個檔案包含對應的基礎 XSLT，一個檔案包含延伸模組物件。</span><span class="sxs-lookup"><span data-stu-id="87d7a-105">This operation generates a file containing the underlying XSLT of the map and a file containing extension objects.</span></span>  

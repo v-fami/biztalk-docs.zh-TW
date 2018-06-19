@@ -1,14 +1,14 @@
 ---
-title: "EDI 支援中 BizTalk Server1 |Microsoft 文件"
-ms.custom: 
+title: EDI 支援中 BizTalk Server1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7cddab7a-99ef-4dbb-bb74-9e3d03df3996
-caps.latest.revision: "37"
+caps.latest.revision: 37
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006967"
 ---
 # <a name="edi-support-in-biztalk-server"></a><span data-ttu-id="22dd9-102">BizTalk Server 中的 EDI 支援</span><span class="sxs-lookup"><span data-stu-id="22dd9-102">EDI Support in BizTalk Server</span></span>
 <span data-ttu-id="22dd9-103">本主題提供 EDI 和 BizTalk Server 如何支援 EDI 的簡短一般概觀。</span><span class="sxs-lookup"><span data-stu-id="22dd9-103">This topic provides a brief general overview of EDI and how BizTalk Server supports EDI.</span></span>  

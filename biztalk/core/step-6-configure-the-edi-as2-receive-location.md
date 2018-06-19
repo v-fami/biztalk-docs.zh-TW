@@ -1,14 +1,14 @@
 ---
-title: "步驟 6： 設定 EDI AS2 接收位置 |Microsoft 文件"
-ms.custom: 
+title: 步驟 6： 設定 EDI AS2 接收位置 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 167f8ba2-d38b-4088-863b-2bd90c2a12a2
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22276254"
 ---
 # <a name="step-6-configure-the-edi-as2-receive-location"></a><span data-ttu-id="f905d-102">步驟 6： 設定 EDI AS2 接收位置</span><span class="sxs-lookup"><span data-stu-id="f905d-102">Step 6: Configure the EDI-AS2 Receive Location</span></span>
 <span data-ttu-id="f905d-103">![步驟 11-6](../core/media/tut-step6-of-11.gif "Tut_Step6_of_11")</span><span class="sxs-lookup"><span data-stu-id="f905d-103">![Step 6 of 11](../core/media/tut-step6-of-11.gif "Tut_Step6_of_11")</span></span>  
@@ -38,7 +39,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  <span data-ttu-id="f905d-118">在**接收位置屬性**對話方塊中，名稱您接收位置**Receive_AS2**，選取**HTTP**如**類型**，然後按一下**設定**。</span><span class="sxs-lookup"><span data-stu-id="f905d-118">In the **Receive Location Properties** dialog box, name your receive location **Receive_AS2**, select **HTTP** for **Type**, and then click **Configure**.</span></span>  
   
-5.  <span data-ttu-id="f905d-119">在**HTTP 傳輸屬性**對話方塊方塊中，輸入**/Contoso/BTSHTTPReceive.dll**如**虛擬目錄加 ISAPI 延伸模組**。</span><span class="sxs-lookup"><span data-stu-id="f905d-119">In the **HTTP Transport Properties** dialog box, enter **/Contoso/BTSHTTPReceive.dll** for **Virtual directory plus ISAPI extension**.</span></span> <span data-ttu-id="f905d-120">清除**成功時傳回相互關聯控制代碼**選取**擱置失敗的要求**。</span><span class="sxs-lookup"><span data-stu-id="f905d-120">Clear **Return correlation handle on success** and select **Suspend failed requests**.</span></span> <span data-ttu-id="f905d-121">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="f905d-121">Click **OK**.</span></span>  
+5.  <span data-ttu-id="f905d-119">在**HTTP 傳輸屬性**對話方塊方塊中，輸入 **/Contoso/BTSHTTPReceive.dll**如**虛擬目錄加 ISAPI 延伸模組**。</span><span class="sxs-lookup"><span data-stu-id="f905d-119">In the **HTTP Transport Properties** dialog box, enter **/Contoso/BTSHTTPReceive.dll** for **Virtual directory plus ISAPI extension**.</span></span> <span data-ttu-id="f905d-120">清除**成功時傳回相互關聯控制代碼**選取**擱置失敗的要求**。</span><span class="sxs-lookup"><span data-stu-id="f905d-120">Clear **Return correlation handle on success** and select **Suspend failed requests**.</span></span> <span data-ttu-id="f905d-121">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="f905d-121">Click **OK**.</span></span>  
   
 6.  <span data-ttu-id="f905d-122">選取**AS2EdiReceive**如**接收管線**。</span><span class="sxs-lookup"><span data-stu-id="f905d-122">Select **AS2EdiReceive** for the **Receive Pipeline**.</span></span> <span data-ttu-id="f905d-123">按一下**確定**，然後按一下**確定**一次。</span><span class="sxs-lookup"><span data-stu-id="f905d-123">Click **OK**, and then click **OK** again.</span></span>  
   

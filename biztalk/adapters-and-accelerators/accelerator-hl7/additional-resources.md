@@ -19,6 +19,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26004199"
 ---
 # <a name="additional-resources"></a><span data-ttu-id="40584-102">其他資源</span><span class="sxs-lookup"><span data-stu-id="40584-102">Additional Resources</span></span>
 <span data-ttu-id="40584-103">除了[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]和[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server 說明有程式設計討論這個平台的其他資源。</span><span class="sxs-lookup"><span data-stu-id="40584-103">In addition to [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] and [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server Help, there are additional resources that discuss programming on this platform.</span></span> <span data-ttu-id="40584-104">如需有關這些資源的詳細資訊，請移至下列網站：</span><span class="sxs-lookup"><span data-stu-id="40584-104">For more information about these resources, go to the following Web sites:</span></span>  

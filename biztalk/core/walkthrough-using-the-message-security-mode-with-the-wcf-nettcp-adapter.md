@@ -1,14 +1,14 @@
 ---
-title: "逐步解說： 使用 Wcf-nettcp 配接器使用訊息安全性模式 |Microsoft 文件"
-ms.custom: 
+title: 逐步解說： 使用 Wcf-nettcp 配接器使用訊息安全性模式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c7f6e892-34ce-4132-8867-54cc3bbfe507
-caps.latest.revision: "47"
+caps.latest.revision: 47
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010607"
 ---
 # <a name="walkthrough-using-the-message-security-mode-with-the-wcf-nettcp-adapter"></a><span data-ttu-id="0e019-102">逐步解說： 使用訊息安全性模式，Wcf-nettcp 配接器</span><span class="sxs-lookup"><span data-stu-id="0e019-102">Walkthrough: Using the Message Security Mode with the WCF-NetTcp Adapter</span></span>
   
@@ -73,7 +74,7 @@ ms.lasthandoff: 12/01/2017
     1.  <span data-ttu-id="0e019-144">在 Internet Explorer 中瀏覽的網站`http://localhost/certsrv`。</span><span class="sxs-lookup"><span data-stu-id="0e019-144">In Internet Explorer, visit the Web site `http://localhost/certsrv`.</span></span> <span data-ttu-id="0e019-145">在**歡迎**頁面上，按一下**要求憑證**，然後按一下 **進階的憑證要求**上**要求憑證**頁面。</span><span class="sxs-lookup"><span data-stu-id="0e019-145">On the **Welcome** page, click **Request a Certificate**, and then click **Advanced certificate request** on the **Request a Certificate** page.</span></span>  
   
         > [!NOTE]
-        >  <span data-ttu-id="0e019-146">當使用[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]與憑證授權單位要求憑證要求從[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]電腦，您可能會收到錯誤**「 為了完成憑證註冊，ca 的網站必須設定為使用 HTTPS驗證 」**。</span><span class="sxs-lookup"><span data-stu-id="0e019-146">When using [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] as the certificate authority and requesting a certificate request from a [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] computer, you may get the error **“In order to complete certificate enrollment, the Web site for the CA must be configured to use HTTPS authentication”**.</span></span> <span data-ttu-id="0e019-147">如果發生這個錯誤，就必須設定使用 Web 憑證 (SSL) 註冊網站。</span><span class="sxs-lookup"><span data-stu-id="0e019-147">If this error occurs, the enrollment website needs to be configured with a Web Certificate (SSL).</span></span> <span data-ttu-id="0e019-148">如需完成此工作的詳細資訊，請參閱下列連結：</span><span class="sxs-lookup"><span data-stu-id="0e019-148">Refer to these links for details in accomplishing this task:</span></span>  
+        >  <span data-ttu-id="0e019-146">當使用[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]與憑證授權單位要求憑證要求從[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]電腦，您可能會收到錯誤 **「 為了完成憑證註冊，ca 的網站必須設定為使用 HTTPS驗證 」**。</span><span class="sxs-lookup"><span data-stu-id="0e019-146">When using [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] as the certificate authority and requesting a certificate request from a [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] computer, you may get the error **“In order to complete certificate enrollment, the Web site for the CA must be configured to use HTTPS authentication”**.</span></span> <span data-ttu-id="0e019-147">如果發生這個錯誤，就必須設定使用 Web 憑證 (SSL) 註冊網站。</span><span class="sxs-lookup"><span data-stu-id="0e019-147">If this error occurs, the enrollment website needs to be configured with a Web Certificate (SSL).</span></span> <span data-ttu-id="0e019-148">如需完成此工作的詳細資訊，請參閱下列連結：</span><span class="sxs-lookup"><span data-stu-id="0e019-148">Refer to these links for details in accomplishing this task:</span></span>  
         >   
         >  [<span data-ttu-id="0e019-149">AD CS： 網頁註冊</span><span class="sxs-lookup"><span data-stu-id="0e019-149">AD CS: Web Enrollment</span></span>](http://technet.microsoft.com/library/cc732517.aspx)  
         >   
@@ -160,7 +161,7 @@ ms.lasthandoff: 12/01/2017
   
     5.  <span data-ttu-id="0e019-197">在**接收位置屬性**對話方塊中，於**傳輸**區段旁邊**類型**，選取**Wcf-nettcp**從下拉式清單清單，然後再按**設定**。</span><span class="sxs-lookup"><span data-stu-id="0e019-197">In the **Receive Location Properties** dialog box, in the **Transport** section next to **Type**, select **WCF-NetTcp** from the drop-down list, and then click **Configure**.</span></span>  
   
-    6.  <span data-ttu-id="0e019-198">在**Wcf-nettcp 傳輸屬性**對話方塊**一般**索引標籤的**位址 (URI)**文字方塊中，輸入`net.tcp://localhost/WcfMessageSecurity`。</span><span class="sxs-lookup"><span data-stu-id="0e019-198">In the **WCF-NetTcp Transport Properties** dialog box, on the **General** tab, in the **Address (URI)** text box, type `net.tcp://localhost/WcfMessageSecurity`.</span></span>  
+    6.  <span data-ttu-id="0e019-198">在**Wcf-nettcp 傳輸屬性**對話方塊**一般**索引標籤的**位址 (URI)** 文字方塊中，輸入`net.tcp://localhost/WcfMessageSecurity`。</span><span class="sxs-lookup"><span data-stu-id="0e019-198">In the **WCF-NetTcp Transport Properties** dialog box, on the **General** tab, in the **Address (URI)** text box, type `net.tcp://localhost/WcfMessageSecurity`.</span></span>  
   
     7.  <span data-ttu-id="0e019-199">在**Wcf-nettcp 傳輸屬性**對話方塊**安全性**索引標籤上，選取**訊息**從**安全性模式**下拉式清單清單，然後再選取**憑證**從**訊息用戶端認證類型**下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="0e019-199">In the **WCF-NetTcp Transport Properties** dialog box, on the **Security** tab, select **Message** from the **Security mode** drop-down list, and then select **Certificate** from the **Message client credential type** drop-down list.</span></span> <span data-ttu-id="0e019-200">這會設定 Wcf-nettcp 配接器使用訊息安全性模式。</span><span class="sxs-lookup"><span data-stu-id="0e019-200">This configures the WCF-NetTcp adapter to use the Message security mode.</span></span>  
   
@@ -179,7 +180,7 @@ ms.lasthandoff: 12/01/2017
   
     3.  <span data-ttu-id="0e019-211">在**傳送埠屬性**對話方塊中，於**傳輸**區段旁邊**類型**，選取**檔案**從下拉式清單中，然後按一下**設定**。</span><span class="sxs-lookup"><span data-stu-id="0e019-211">In the **Send Port Properties** dialog box, in the **Transport** section next to **Type**, select **FILE** from the drop-down list, and then click **Configure**.</span></span>  
   
-    4.  <span data-ttu-id="0e019-212">在**FILE 傳輸屬性**對話方塊**一般**索引標籤上，輸入`C:\WCFMessageSecurity\OrderRequestOut`中**目的地資料夾**文字方塊，然後再按一下**[確定]**.</span><span class="sxs-lookup"><span data-stu-id="0e019-212">In the **FILE Transport Properties** dialog box, on the **General**  tab, type `C:\WCFMessageSecurity\OrderRequestOut` in the **Destination folder** text box, and then click **OK**.</span></span>  
+    4.  <span data-ttu-id="0e019-212">在**FILE 傳輸屬性**對話方塊**一般**索引標籤上，輸入`C:\WCFMessageSecurity\OrderRequestOut`中**目的地資料夾**文字方塊，然後再按一下 **[確定]**.</span><span class="sxs-lookup"><span data-stu-id="0e019-212">In the **FILE Transport Properties** dialog box, on the **General**  tab, type `C:\WCFMessageSecurity\OrderRequestOut` in the **Destination folder** text box, and then click **OK**.</span></span>  
   
     5.  <span data-ttu-id="0e019-213">在**傳送埠屬性**對話方塊**篩選**索引標籤上，選取**BTS。ReceivePortName**如**屬性**欄位中，輸入`WcfMessageSecurity.OrderRequest.Receive`如**值**欄位，，然後按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="0e019-213">In the **Send Port Properties** dialog box, on the **Filters** tab, select **BTS.ReceivePortName** for the **Property** field, enter `WcfMessageSecurity.OrderRequest.Receive` for the **Value** field, and then click **OK**.</span></span> <span data-ttu-id="0e019-214">這個篩選條件運算式會路由傳送傳入[!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]到用戶端的訊息**WcfMessageSecurity.OrderRequest.Receive**接收這個傳送埠的連接埠。</span><span class="sxs-lookup"><span data-stu-id="0e019-214">This filter expression routes the incoming [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] messages from the client into the **WcfMessageSecurity.OrderRequest.Receive** receive port to this send port.</span></span>  
   

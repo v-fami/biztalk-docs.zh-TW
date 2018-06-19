@@ -1,14 +1,14 @@
 ---
-title: "建立和發佈錯誤訊息 |Microsoft 文件"
-ms.custom: 
+title: 建立和發佈錯誤訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cc7ba1d9-b647-4cba-a3dc-4400505ff51f
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290678"
 ---
 # <a name="creating-and-publishing-fault-messages"></a><span data-ttu-id="44606-102">建立並發佈錯誤訊息</span><span class="sxs-lookup"><span data-stu-id="44606-102">Creating and Publishing Fault Messages</span></span>
 <span data-ttu-id="44606-103">為了協助您了解如何使用來管理例外狀況的例外狀況管理架構的功能，本節會說明常見的案例，根據訊息提交至 ESB 應用程式。</span><span class="sxs-lookup"><span data-stu-id="44606-103">To help you understand how to use the features of the Exception Management Framework to manage exceptions, this section presents a common scenario based on the submission of a message to an ESB application.</span></span>  
@@ -65,7 +66,7 @@ ms.lasthandoff: 09/20/2017
   
 5.  <span data-ttu-id="44606-121">ESB 例外狀況機制會自動將序列化目前**例外狀況**成為錯誤訊息物件。</span><span class="sxs-lookup"><span data-stu-id="44606-121">The ESB Exception mechanism automatically serializes the current **Exception** object into the fault message.</span></span>  
   
-6.  <span data-ttu-id="44606-122">例外狀況處理常式中的程式碼可以選擇性地將目前的協調流程訊息 ESB 錯誤訊息使用**AddMessage （faultMsg、 messageToAdd）**方法。</span><span class="sxs-lookup"><span data-stu-id="44606-122">Optionally, code in the exception handler can add current orchestration messages to the ESB fault message using the **AddMessage(faultMsg, messageToAdd)** method.</span></span> <span data-ttu-id="44606-123">這個方法會序列化，並保存訊息，包括所有的內容屬性，如下列程式碼範例所示。</span><span class="sxs-lookup"><span data-stu-id="44606-123">This method serializes and persists the message, including all the context properties, as shown in the following code example.</span></span>  
+6.  <span data-ttu-id="44606-122">例外狀況處理常式中的程式碼可以選擇性地將目前的協調流程訊息 ESB 錯誤訊息使用**AddMessage （faultMsg、 messageToAdd）** 方法。</span><span class="sxs-lookup"><span data-stu-id="44606-122">Optionally, code in the exception handler can add current orchestration messages to the ESB fault message using the **AddMessage(faultMsg, messageToAdd)** method.</span></span> <span data-ttu-id="44606-123">這個方法會序列化，並保存訊息，包括所有的內容屬性，如下列程式碼範例所示。</span><span class="sxs-lookup"><span data-stu-id="44606-123">This method serializes and persists the message, including all the context properties, as shown in the following code example.</span></span>  
   
     ```csharp  
     // Add other current orchestration messages to the fault message.  

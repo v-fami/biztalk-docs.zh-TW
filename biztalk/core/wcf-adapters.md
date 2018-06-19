@@ -1,14 +1,14 @@
 ---
-title: "WCF 配接器 |Microsoft 文件"
-ms.custom: 
+title: WCF 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e64cd189-8805-4209-bd06-971363f38585
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290022"
 ---
 # <a name="wcf-adapters"></a><span data-ttu-id="60bf3-102">WCF 配接器</span><span class="sxs-lookup"><span data-stu-id="60bf3-102">WCF Adapters</span></span>
 
@@ -27,11 +28,11 @@ ms.lasthandoff: 09/20/2017
 
 ## <a name="available-wcf-adapters"></a><span data-ttu-id="60bf3-108">可用的 WCF 配接器</span><span class="sxs-lookup"><span data-stu-id="60bf3-108">Available WCF adapters</span></span>
     
--   <span data-ttu-id="60bf3-109">**Wcf-wshttp 配接器**。</span><span class="sxs-lookup"><span data-stu-id="60bf3-109">**WCF-WSHttp adapter**.</span></span> <span data-ttu-id="60bf3-110">提供透過 HTTP 傳輸的 WS-* 標準支援。</span><span class="sxs-lookup"><span data-stu-id="60bf3-110">Provides the WS-* standards support over the HTTP transport.</span></span> <span data-ttu-id="60bf3-111">WCF-WSHttp 配接器會實作下列規格：外部應用程式和 MessageBox 資料庫之間的交易式互動適用的 WS-Transaction，以及訊息安全性和驗證適用的 WS-Security。</span><span class="sxs-lookup"><span data-stu-id="60bf3-111">The WCF-WSHttp adapter implements the following specifications: WS-Transaction for the transactional interactions between external applications and the MessageBox database, and WS-Security for message security and authentication.</span></span> <span data-ttu-id="60bf3-112">傳輸方式是 HTTP 或 HTTPS，訊息編碼方式則是「文字」或「訊息傳輸最佳化機制」(Message Transmission Optimization Mechanism，MTOM) 編碼。</span><span class="sxs-lookup"><span data-stu-id="60bf3-112">The transport is HTTP or HTTPS, and message encoding is a Text or Message Transmission Optimization Mechanism (MTOM) encoding.</span></span>  
+-   <span data-ttu-id="60bf3-109">**Wcf-wshttp 配接器**。</span><span class="sxs-lookup"><span data-stu-id="60bf3-109">**WCF-WSHttp adapter**.</span></span> <span data-ttu-id="60bf3-110">提供透過 HTTP 傳輸的 WS-\* 標準支援。</span><span class="sxs-lookup"><span data-stu-id="60bf3-110">Provides the WS-\* standards support over the HTTP transport.</span></span> <span data-ttu-id="60bf3-111">WCF-WSHttp 配接器會實作下列規格：外部應用程式和 MessageBox 資料庫之間的交易式互動適用的 WS-Transaction，以及訊息安全性和驗證適用的 WS-Security。</span><span class="sxs-lookup"><span data-stu-id="60bf3-111">The WCF-WSHttp adapter implements the following specifications: WS-Transaction for the transactional interactions between external applications and the MessageBox database, and WS-Security for message security and authentication.</span></span> <span data-ttu-id="60bf3-112">傳輸方式是 HTTP 或 HTTPS，訊息編碼方式則是「文字」或「訊息傳輸最佳化機制」(Message Transmission Optimization Mechanism，MTOM) 編碼。</span><span class="sxs-lookup"><span data-stu-id="60bf3-112">The transport is HTTP or HTTPS, and message encoding is a Text or Message Transmission Optimization Mechanism (MTOM) encoding.</span></span>  
   
 -   <span data-ttu-id="60bf3-113">**Wcf-basichttp 配接器**。</span><span class="sxs-lookup"><span data-stu-id="60bf3-113">**WCF-BasicHttp adapter**.</span></span> <span data-ttu-id="60bf3-114">與 ASMX 架構 Web 服務和用戶端，以及其他符合 WS-I 基本設定檔 1.1 的服務和用戶端進行通訊。</span><span class="sxs-lookup"><span data-stu-id="60bf3-114">Communicates with ASMX-based Web services and clients and other services that conform to the WS-I Basic Profile 1.1.</span></span> <span data-ttu-id="60bf3-115">傳輸方式是 HTTP 或 HTTPS，訊息編碼方式則是文字編碼。</span><span class="sxs-lookup"><span data-stu-id="60bf3-115">The transport is HTTP or HTTPS, and message encoding is a text encoding.</span></span>  
   
--   <span data-ttu-id="60bf3-116">**Wcf-nettcp 配接器**。</span><span class="sxs-lookup"><span data-stu-id="60bf3-116">**WCF-NetTcp adapter**.</span></span> <span data-ttu-id="60bf3-117">提供透過 TCP 傳輸的 WS-* 標準支援。</span><span class="sxs-lookup"><span data-stu-id="60bf3-117">Provides the WS-* standards support over the TCP transport.</span></span> <span data-ttu-id="60bf3-118">WCF-NetTcp 配接器在 WCF-to-WCF 環境中提供有效率的通訊。</span><span class="sxs-lookup"><span data-stu-id="60bf3-118">The WCF-NetTcp adapter provides efficient communication in a WCF-to-WCF environment.</span></span> <span data-ttu-id="60bf3-119">配接器實作下列規格： 交易的交易之間的互動外部應用程式和 MessageBox 資料庫，以及 Ws-security 用於訊息安全性和驗證。</span><span class="sxs-lookup"><span data-stu-id="60bf3-119">The adapter implements the following specifications: WS-Transaction for the transactional interactions between external applications and the MessageBox database, and WS-Security for message security and authentication.</span></span> <span data-ttu-id="60bf3-120">傳輸方式是 TCP，訊息編碼方式則是二進位編碼。</span><span class="sxs-lookup"><span data-stu-id="60bf3-120">The transport is TCP, and message encoding is binary encoding.</span></span>  
+-   <span data-ttu-id="60bf3-116">**Wcf-nettcp 配接器**。</span><span class="sxs-lookup"><span data-stu-id="60bf3-116">**WCF-NetTcp adapter**.</span></span> <span data-ttu-id="60bf3-117">提供透過 TCP 傳輸的 WS-\* 標準支援。</span><span class="sxs-lookup"><span data-stu-id="60bf3-117">Provides the WS-\* standards support over the TCP transport.</span></span> <span data-ttu-id="60bf3-118">WCF-NetTcp 配接器在 WCF-to-WCF 環境中提供有效率的通訊。</span><span class="sxs-lookup"><span data-stu-id="60bf3-118">The WCF-NetTcp adapter provides efficient communication in a WCF-to-WCF environment.</span></span> <span data-ttu-id="60bf3-119">配接器實作下列規格： 交易的交易之間的互動外部應用程式和 MessageBox 資料庫，以及 Ws-security 用於訊息安全性和驗證。</span><span class="sxs-lookup"><span data-stu-id="60bf3-119">The adapter implements the following specifications: WS-Transaction for the transactional interactions between external applications and the MessageBox database, and WS-Security for message security and authentication.</span></span> <span data-ttu-id="60bf3-120">傳輸方式是 TCP，訊息編碼方式則是二進位編碼。</span><span class="sxs-lookup"><span data-stu-id="60bf3-120">The transport is TCP, and message encoding is binary encoding.</span></span>  
   
 -   <span data-ttu-id="60bf3-121">**Wcf-netmsmq 配接器**。</span><span class="sxs-lookup"><span data-stu-id="60bf3-121">**WCF-NetMsmq adapter**.</span></span> <span data-ttu-id="60bf3-122">提供利用 [!INCLUDE[btsCoName](../includes/btsconame-md.md)] 訊息佇列 (Message Queuing，MSMQ) 為傳輸方式的佇列支援，並支援鬆散偶合的應用程式、失敗隔離、負載調節，以及已中斷連線作業。</span><span class="sxs-lookup"><span data-stu-id="60bf3-122">Provides support for queuing by leveraging [!INCLUDE[btsCoName](../includes/btsconame-md.md)] Message Queuing (MSMQ) as a transport and enables support for loosely coupled applications, failure isolation, load leveling, and disconnected operations.</span></span>  
   

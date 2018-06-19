@@ -1,14 +1,14 @@
 ---
-title: "逐步解說 (AS2): 使用同步 MDN 透過 AS2 接收 EDI |Microsoft 文件"
-ms.custom: 
+title: '逐步解說 (AS2): 使用同步 MDN 透過 AS2 接收 EDI |Microsoft 文件'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0b63395f-03f4-45e8-a68a-9bbbd8dfa344
-caps.latest.revision: "53"
+caps.latest.revision: 53
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22291958"
 ---
 # <a name="walkthrough-as2-receiving-edi-over-as2-with-a-synchronous-mdn"></a><span data-ttu-id="1c537-102">逐步解說 AS2)：使用同步 MDN 透過 AS2 接收 EDI</span><span class="sxs-lookup"><span data-stu-id="1c537-102">Walkthrough (AS2): Receiving EDI over AS2 with a Synchronous MDN</span></span>
 <span data-ttu-id="1c537-103">本逐步解說提供一組逐步執行的程序，可建立透過 AS2 傳輸接收 EDI 訊息並傳回同步 MDN 的解決方案。</span><span class="sxs-lookup"><span data-stu-id="1c537-103">This walkthrough provides a set of step-by-step procedures that creates a solution for receiving EDI messages over AS2 transport, returning synchronous MDNs.</span></span>  
@@ -122,7 +123,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  <span data-ttu-id="1c537-169">在**新增指令碼對應**對話方塊方塊中，輸入`BtsHttpReceive.dll`中**要求路徑**欄位。</span><span class="sxs-lookup"><span data-stu-id="1c537-169">In the **Add Script Map** dialog box, enter `BtsHttpReceive.dll` in the **Request path** field.</span></span>  
   
-4.  <span data-ttu-id="1c537-170">在**可執行檔**欄位中，按一下**省略符號 （...）**按鈕並瀏覽至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]HttpReceive。</span><span class="sxs-lookup"><span data-stu-id="1c537-170">In the **Executable** field, click the **ellipsis (…)** button and browse to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]HttpReceive.</span></span> <span data-ttu-id="1c537-171">選取 BtsHttpReceive.dll，然後按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="1c537-171">Select BtsHttpReceive.dll and click **OK**.</span></span>  
+4.  <span data-ttu-id="1c537-170">在**可執行檔**欄位中，按一下**省略符號 （...）** 按鈕並瀏覽至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]HttpReceive。</span><span class="sxs-lookup"><span data-stu-id="1c537-170">In the **Executable** field, click the **ellipsis (…)** button and browse to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]HttpReceive.</span></span> <span data-ttu-id="1c537-171">選取 BtsHttpReceive.dll，然後按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="1c537-171">Select BtsHttpReceive.dll and click **OK**.</span></span>  
   
 5.  <span data-ttu-id="1c537-172">輸入`BizTalk HTTP Receive`中**名稱**欄位，，然後按一下**要求限制**。</span><span class="sxs-lookup"><span data-stu-id="1c537-172">Enter `BizTalk HTTP Receive` in the **Name** field, and then click **Request Restrictions**.</span></span>  
   
@@ -136,7 +137,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  <span data-ttu-id="1c537-178">在 [IIS 管理員] 中，以滑鼠右鍵按一下**應用程式集區**選取**新增應用程式集區**。</span><span class="sxs-lookup"><span data-stu-id="1c537-178">In IIS Manager, right-click **Application Pools** and select **Add Application Pool**.</span></span>  
   
-2.  <span data-ttu-id="1c537-179">在**新增應用程式集區**對話方塊方塊中，輸入**BizTalkAppPool**中**名稱**，然後選取**.NET Framework v4.0.30210**中**.NET framework 版本**下拉式清單中。</span><span class="sxs-lookup"><span data-stu-id="1c537-179">In the **Add Application Pool** dialog box, enter **BizTalkAppPool** in **Name**, and then select **.NET Framework V4.0.30210** in the **.NET Framework version** dropdown list.</span></span> <span data-ttu-id="1c537-180">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="1c537-180">Click **OK**.</span></span>  
+2.  <span data-ttu-id="1c537-179">在**新增應用程式集區**對話方塊方塊中，輸入**BizTalkAppPool**中**名稱**，然後選取 **.NET Framework v4.0.30210**中 **.NET framework 版本**下拉式清單中。</span><span class="sxs-lookup"><span data-stu-id="1c537-179">In the **Add Application Pool** dialog box, enter **BizTalkAppPool** in **Name**, and then select **.NET Framework V4.0.30210** in the **.NET Framework version** dropdown list.</span></span> <span data-ttu-id="1c537-180">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="1c537-180">Click **OK**.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="1c537-181">版本號碼可能會依據電腦上安裝的 [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)] 版本而有所不同。</span><span class="sxs-lookup"><span data-stu-id="1c537-181">The version number may vary depending on the version of [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)] installed on the machine.</span></span>  
@@ -155,7 +156,7 @@ ms.lasthandoff: 09/20/2017
   
 9. <span data-ttu-id="1c537-189">中**選取應用程式集區**對話方塊中，選取**BizTalkAppPool**按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="1c537-189">In the **Select Application Pool** dialog box, select **BizTalkAppPool** and click **OK**.</span></span>  
   
-10. <span data-ttu-id="1c537-190">如**實體路徑**，按一下 **省略符號 （...）**按鈕並瀏覽至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]HttpReceive。</span><span class="sxs-lookup"><span data-stu-id="1c537-190">For the **Physical Path**, click the **ellipsis (…)** button and browse to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]HttpReceive.</span></span>  
+10. <span data-ttu-id="1c537-190">如**實體路徑**，按一下 **省略符號 （...）** 按鈕並瀏覽至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]HttpReceive。</span><span class="sxs-lookup"><span data-stu-id="1c537-190">For the **Physical Path**, click the **ellipsis (…)** button and browse to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]HttpReceive.</span></span>  
   
 11. <span data-ttu-id="1c537-191">按一下**測試設定**並確認沒有顯示在錯誤**測試連接** 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="1c537-191">Click **Test Settings** and verify that there are no errors displayed in the **Test Connection** dialog box.</span></span> <span data-ttu-id="1c537-192">按一下 [關閉]，然後按一下 [確定]。</span><span class="sxs-lookup"><span data-stu-id="1c537-192">Click **Close**, and then click **OK**.</span></span>  
   
@@ -206,7 +207,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  <span data-ttu-id="1c537-218">在**傳送埠屬性**對話方塊中，將傳送埠，例如**Send_Payload**。</span><span class="sxs-lookup"><span data-stu-id="1c537-218">In the **Send Port Properties** dialog box, name your send port, for example, **Send_Payload**.</span></span> <span data-ttu-id="1c537-219">選取**檔案**如**類型**，然後按一下 **設定**。</span><span class="sxs-lookup"><span data-stu-id="1c537-219">Select **FILE** for **Type**, and then click **Configure**.</span></span>  
   
-4.  <span data-ttu-id="1c537-220">在**FILE 傳輸屬性**對話方塊中，針對**目的地資料夾**、 瀏覽並選取**EDI_to_Contoso**您在步驟 1 中建立的資料夾。</span><span class="sxs-lookup"><span data-stu-id="1c537-220">In the **FILE Transport Properties** dialog box, for **Destination folder**, browse to and select the **EDI_to_Contoso** folder that you created in step 1.</span></span> <span data-ttu-id="1c537-221">保留**檔案名稱**為**%MessageID%.xml**。</span><span class="sxs-lookup"><span data-stu-id="1c537-221">Leave **File name** as **%MessageID%.xml**.</span></span> <span data-ttu-id="1c537-222">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="1c537-222">Click **OK**.</span></span>  
+4.  <span data-ttu-id="1c537-220">在**FILE 傳輸屬性**對話方塊中，針對**目的地資料夾**、 瀏覽並選取**EDI_to_Contoso**您在步驟 1 中建立的資料夾。</span><span class="sxs-lookup"><span data-stu-id="1c537-220">In the **FILE Transport Properties** dialog box, for **Destination folder**, browse to and select the **EDI_to_Contoso** folder that you created in step 1.</span></span> <span data-ttu-id="1c537-221">保留**檔案名稱**為 **%MessageID%.xml**。</span><span class="sxs-lookup"><span data-stu-id="1c537-221">Leave **File name** as **%MessageID%.xml**.</span></span> <span data-ttu-id="1c537-222">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="1c537-222">Click **OK**.</span></span>  
   
 5.  <span data-ttu-id="1c537-223">如**傳送管線**下拉式清單中，接受預設值**PassThruTransmit**。</span><span class="sxs-lookup"><span data-stu-id="1c537-223">For the **Send Pipeline** drop-down, accept the default **PassThruTransmit**.</span></span>  
   
@@ -227,7 +228,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  <span data-ttu-id="1c537-236">以滑鼠右鍵按一下合作對象名稱，指向**新增**，然後按一下 **商務設定檔**。</span><span class="sxs-lookup"><span data-stu-id="1c537-236">Right-click the party name, point to **New**, and then click **Business Profile**.</span></span>  
   
-4.  <span data-ttu-id="1c537-237">在**設定檔屬性**對話方塊**一般**頁面上，輸入**[fabrikam_profile]**中**名稱**文字方塊。</span><span class="sxs-lookup"><span data-stu-id="1c537-237">In the **Profile Properties** dialog box, on the **General** page, enter **Fabrikam_Profile** in the **Name** text box.</span></span>  
+4.  <span data-ttu-id="1c537-237">在**設定檔屬性**對話方塊**一般**頁面上，輸入 **[fabrikam_profile]** 中**名稱**文字方塊。</span><span class="sxs-lookup"><span data-stu-id="1c537-237">In the **Profile Properties** dialog box, on the **General** page, enter **Fabrikam_Profile** in the **Name** text box.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="1c537-238">當您建立合作對象時，會同時建立設定檔。</span><span class="sxs-lookup"><span data-stu-id="1c537-238">When you create a party, a profile is also created.</span></span> <span data-ttu-id="1c537-239">您可以重新命名再使用該設定檔，而不需建立新設定檔。</span><span class="sxs-lookup"><span data-stu-id="1c537-239">You can rename and use that profile instead of creating a new one.</span></span> <span data-ttu-id="1c537-240">若要重新命名設定檔，以滑鼠右鍵按一下 設定檔，然後選取**屬性**。</span><span class="sxs-lookup"><span data-stu-id="1c537-240">To rename a profile, right-click the profile and select **Properties**.</span></span> <span data-ttu-id="1c537-241">在**一般**頁面上，指定設定檔的名稱。</span><span class="sxs-lookup"><span data-stu-id="1c537-241">In the **General** page, specify a name for the profile.</span></span>  
@@ -243,7 +244,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  <span data-ttu-id="1c537-248">以滑鼠右鍵按一下合作對象名稱，指向**新增**，然後按一下 **商務設定檔**。</span><span class="sxs-lookup"><span data-stu-id="1c537-248">Right-click the party name, point to **New**, and then click **Business Profile**.</span></span>  
   
-4.  <span data-ttu-id="1c537-249">在**設定檔屬性**對話方塊**一般**頁面上，輸入**[contoso_profile]**中**名稱**文字方塊。</span><span class="sxs-lookup"><span data-stu-id="1c537-249">In the **Profile Properties** dialog box, on the **General** page, enter **Contoso_Profile** in the **Name** text box.</span></span>  
+4.  <span data-ttu-id="1c537-249">在**設定檔屬性**對話方塊**一般**頁面上，輸入 **[contoso_profile]** 中**名稱**文字方塊。</span><span class="sxs-lookup"><span data-stu-id="1c537-249">In the **Profile Properties** dialog box, on the **General** page, enter **Contoso_Profile** in the **Name** text box.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="1c537-250">當您建立合作對象時，會同時建立設定檔。</span><span class="sxs-lookup"><span data-stu-id="1c537-250">When you create a party, a profile is also created.</span></span> <span data-ttu-id="1c537-251">您可以重新命名再使用該設定檔，而不需建立新設定檔。</span><span class="sxs-lookup"><span data-stu-id="1c537-251">You can rename and use that profile instead of creating a new one.</span></span> <span data-ttu-id="1c537-252">若要重新命名設定檔，以滑鼠右鍵按一下 設定檔，然後選取**屬性**。</span><span class="sxs-lookup"><span data-stu-id="1c537-252">To rename a profile, right-click the profile and select **Properties**.</span></span> <span data-ttu-id="1c537-253">在**一般**頁面上，指定設定檔的名稱。</span><span class="sxs-lookup"><span data-stu-id="1c537-253">In the **General** page, specify a name for the profile.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "何謂 BAM WCF 和 WF 攔截器？ | Microsoft Docs"
-ms.custom: 
+title: 何謂 BAM WCF 和 WF 攔截器？ | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 198bfdc9-86ff-4017-b65f-19616deeb9f4
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288886"
 ---
 # <a name="what-are-the-bam-wcf-and-wf-interceptors"></a><span data-ttu-id="a9bee-103">何謂 BAM WCF 和 WF 攔截器？</span><span class="sxs-lookup"><span data-stu-id="a9bee-103">What Are the BAM WCF and WF Interceptors?</span></span>
 <span data-ttu-id="a9bee-104">商務活動監控 (Business Activity Monitoring，BAM) 是一組工具、API 和服務的集合，可以讓您管理彙總、警示與設定檔，並進行自動化的程序來傳送事件，以監控相關的商務計量。</span><span class="sxs-lookup"><span data-stu-id="a9bee-104">Business Activity Monitoring (BAM) is a collection of tools, APIs, and services that allow you to manage aggregations, alerts, and profiles, and to instrument automated processes to send events to monitor relevant business metrics.</span></span> <span data-ttu-id="a9bee-105">這些功能結合在一起後，可以為商務程序提供了端對端的可見性，而且可以讓您持續掌握商務程序的狀態和結果。</span><span class="sxs-lookup"><span data-stu-id="a9bee-105">Together, these provide end-to-end visibility into business processes and enable you to stay abreast of business process status and results.</span></span>  

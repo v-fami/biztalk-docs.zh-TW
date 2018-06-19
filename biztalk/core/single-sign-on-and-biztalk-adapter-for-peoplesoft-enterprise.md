@@ -1,18 +1,18 @@
 ---
-title: "單一登入與 BizTalk Adapter for PeopleSoft Enterprise |Microsoft 文件"
-ms.custom: 
+title: 單一登入與 BizTalk Adapter for PeopleSoft Enterprise |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - processing HTTP requests
 - Single Sign-On, using with the adapter
 - HTTP requests, processing
 ms.assetid: d8ad75f1-a83f-4722-a43f-50dc95df2f9d
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015597"
 ---
 # <a name="single-sign-on-and-biztalk-adapter-for-peoplesoft-enterprise"></a><span data-ttu-id="32d27-102">單一登入與 BizTalk Adapter for PeopleSoft Enterprise</span><span class="sxs-lookup"><span data-stu-id="32d27-102">Single Sign-On and BizTalk Adapter for PeopleSoft Enterprise</span></span>
 <span data-ttu-id="32d27-103">當您使用單一登入 (SSO) 搭配 Microsoft BizTalk Adapter for PeopleSoft Enterprise 時，配接器會從 SSO 認證資料庫取得認證因此，您沒有在伺服器系統輸入登入認證**傳輸屬性** 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="32d27-103">When you use Single Sign-On (SSO) with Microsoft BizTalk Adapter for PeopleSoft Enterprise, the adapter obtains the credentials from the SSO Credentials database; therefore, you do not have to enter the logon credentials for the server system in the **Transport Properties** dialog box.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "逐步解說 (X12)： 傳送 EDI 交換 |Microsoft 文件"
-ms.custom: 
+title: 逐步解說 (X12)： 傳送 EDI 交換 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 05533821-b9eb-44bc-af65-b6fb0b545137
-caps.latest.revision: "36"
+caps.latest.revision: 36
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22292014"
 ---
 # <a name="walkthrough-x12-sending-edi-interchanges"></a><span data-ttu-id="7e307-102">逐步解說 (X12)：傳送 EDI 交換</span><span class="sxs-lookup"><span data-stu-id="7e307-102">Walkthrough (X12): Sending EDI Interchanges</span></span>
 <span data-ttu-id="7e307-103">本逐步解說提供一組逐步執行的程序，來使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 建立可傳送 EDI 交換的解決方案。</span><span class="sxs-lookup"><span data-stu-id="7e307-103">This walkthrough provides a set of step-by-step procedures that creates a solution for sending EDI interchanges using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  
@@ -135,7 +136,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  <span data-ttu-id="7e307-173">在**傳輸**區段中，選取**類型**，例如**檔案**。</span><span class="sxs-lookup"><span data-stu-id="7e307-173">In the **Transport** section, select the **Type**, for example, **FILE**.</span></span>  
   
-5.  <span data-ttu-id="7e307-174">如果使用的檔案類型，按一下**設定**。</span><span class="sxs-lookup"><span data-stu-id="7e307-174">If using a FILE type, click **Configure**.</span></span> <span data-ttu-id="7e307-175">在**目的地資料夾**，瀏覽至要傳送交換的資料夾。</span><span class="sxs-lookup"><span data-stu-id="7e307-175">In **Destination folder**, browse to a folder to send the interchange to.</span></span> <span data-ttu-id="7e307-176">如**檔案名稱**，輸入**%MessageID%.edi**。</span><span class="sxs-lookup"><span data-stu-id="7e307-176">For **File name**, enter **%MessageID%.edi**.</span></span> <span data-ttu-id="7e307-177">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="7e307-177">Click **OK**.</span></span>  
+5.  <span data-ttu-id="7e307-174">如果使用的檔案類型，按一下**設定**。</span><span class="sxs-lookup"><span data-stu-id="7e307-174">If using a FILE type, click **Configure**.</span></span> <span data-ttu-id="7e307-175">在**目的地資料夾**，瀏覽至要傳送交換的資料夾。</span><span class="sxs-lookup"><span data-stu-id="7e307-175">In **Destination folder**, browse to a folder to send the interchange to.</span></span> <span data-ttu-id="7e307-176">如**檔案名稱**，輸入 **%MessageID%.edi**。</span><span class="sxs-lookup"><span data-stu-id="7e307-176">For **File name**, enter **%MessageID%.edi**.</span></span> <span data-ttu-id="7e307-177">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="7e307-177">Click **OK**.</span></span>  
   
 6.  <span data-ttu-id="7e307-178">在**傳送管線**，選取**EdiSend**。</span><span class="sxs-lookup"><span data-stu-id="7e307-178">In **Send pipeline**, select **EdiSend**.</span></span>  
   
@@ -159,7 +160,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  <span data-ttu-id="7e307-191">以滑鼠右鍵按一下合作對象名稱，指向**新增**，然後按一下 **商務設定檔**。</span><span class="sxs-lookup"><span data-stu-id="7e307-191">Right-click the party name, point to **New**, and then click **Business Profile**.</span></span>  
   
-4.  <span data-ttu-id="7e307-192">在**設定檔屬性**對話方塊**一般**頁面上，輸入**[fabrikam_profile]**中**名稱**文字方塊。</span><span class="sxs-lookup"><span data-stu-id="7e307-192">In the **Profile Properties** dialog box, on the **General** page, enter **Fabrikam_Profile** in the **Name** text box.</span></span>  
+4.  <span data-ttu-id="7e307-192">在**設定檔屬性**對話方塊**一般**頁面上，輸入 **[fabrikam_profile]** 中**名稱**文字方塊。</span><span class="sxs-lookup"><span data-stu-id="7e307-192">In the **Profile Properties** dialog box, on the **General** page, enter **Fabrikam_Profile** in the **Name** text box.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="7e307-193">當您建立合作對象時，會同時建立設定檔。</span><span class="sxs-lookup"><span data-stu-id="7e307-193">When you create a party, a profile is also created.</span></span> <span data-ttu-id="7e307-194">您可以重新命名再使用該設定檔，而不需建立新設定檔。</span><span class="sxs-lookup"><span data-stu-id="7e307-194">You can rename and use that profile instead of creating a new one.</span></span> <span data-ttu-id="7e307-195">若要重新命名設定檔，以滑鼠右鍵按一下 設定檔，然後選取**屬性**。</span><span class="sxs-lookup"><span data-stu-id="7e307-195">To rename a profile, right-click the profile and select **Properties**.</span></span> <span data-ttu-id="7e307-196">在**一般**頁面上，指定設定檔的名稱。</span><span class="sxs-lookup"><span data-stu-id="7e307-196">In the **General** page, specify a name for the profile.</span></span>  
@@ -175,7 +176,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  <span data-ttu-id="7e307-203">以滑鼠右鍵按一下合作對象名稱，指向**新增**，然後按一下 **商務設定檔**。</span><span class="sxs-lookup"><span data-stu-id="7e307-203">Right-click the party name, point to **New**, and then click **Business Profile**.</span></span>  
   
-4.  <span data-ttu-id="7e307-204">在**設定檔屬性**對話方塊**一般**頁面上，輸入**[contoso_profile]**中**名稱**文字方塊。</span><span class="sxs-lookup"><span data-stu-id="7e307-204">In the **Profile Properties** dialog box, on the **General** page, enter **Contoso_Profile** in the **Name** text box.</span></span>  
+4.  <span data-ttu-id="7e307-204">在**設定檔屬性**對話方塊**一般**頁面上，輸入 **[contoso_profile]** 中**名稱**文字方塊。</span><span class="sxs-lookup"><span data-stu-id="7e307-204">In the **Profile Properties** dialog box, on the **General** page, enter **Contoso_Profile** in the **Name** text box.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="7e307-205">當您建立合作對象時，會同時建立設定檔。</span><span class="sxs-lookup"><span data-stu-id="7e307-205">When you create a party, a profile is also created.</span></span> <span data-ttu-id="7e307-206">您可以重新命名再使用該設定檔，而不需建立新設定檔。</span><span class="sxs-lookup"><span data-stu-id="7e307-206">You can rename and use that profile instead of creating a new one.</span></span> <span data-ttu-id="7e307-207">若要重新命名設定檔，以滑鼠右鍵按一下 設定檔，然後選取**屬性**。</span><span class="sxs-lookup"><span data-stu-id="7e307-207">To rename a profile, right-click the profile and select **Properties**.</span></span> <span data-ttu-id="7e307-208">在**一般**頁面上，指定設定檔的名稱。</span><span class="sxs-lookup"><span data-stu-id="7e307-208">In the **General** page, specify a name for the profile.</span></span>  
@@ -233,14 +234,14 @@ ms.lasthandoff: 09/20/2017
   
         |<span data-ttu-id="7e307-244">使用</span><span class="sxs-lookup"><span data-stu-id="7e307-244">Use this</span></span>|<span data-ttu-id="7e307-245">動作</span><span class="sxs-lookup"><span data-stu-id="7e307-245">To do this</span></span>|  
         |--------------|----------------|  
-        |<span data-ttu-id="7e307-246">**預設值**</span><span class="sxs-lookup"><span data-stu-id="7e307-246">**Default**</span></span>|<span data-ttu-id="7e307-247">選取核取方塊**預設**資料行。</span><span class="sxs-lookup"><span data-stu-id="7e307-247">Select the checkbox in the **Default** column.</span></span> <span data-ttu-id="7e307-248">**注意：**當您選取這個資料列的預設值為**GS1**， **GS2**， **GS3**， **GS7**，和**GS8**可用即使值**交易類型**，**版本/版次**，和**目標命名空間**都不符合訊息。</span><span class="sxs-lookup"><span data-stu-id="7e307-248">**Note:**  When you select this row as the default, the values for **GS1**, **GS2**, **GS3**, **GS7**, and **GS8** are used even if the values for **Transaction Type**, **Version/Release**, and **Target namespace** are not a match for the message.</span></span>|  
+        |<span data-ttu-id="7e307-246">**預設值**</span><span class="sxs-lookup"><span data-stu-id="7e307-246">**Default**</span></span>|<span data-ttu-id="7e307-247">選取核取方塊**預設**資料行。</span><span class="sxs-lookup"><span data-stu-id="7e307-247">Select the checkbox in the **Default** column.</span></span> <span data-ttu-id="7e307-248">**注意：** 當您選取這個資料列的預設值為**GS1**， **GS2**， **GS3**， **GS7**，和**GS8**可用即使值**交易類型**，**版本/版次**，和**目標命名空間**都不符合訊息。</span><span class="sxs-lookup"><span data-stu-id="7e307-248">**Note:**  When you select this row as the default, the values for **GS1**, **GS2**, **GS3**, **GS7**, and **GS8** are used even if the values for **Transaction Type**, **Version/Release**, and **Target namespace** are not a match for the message.</span></span>|  
         |<span data-ttu-id="7e307-249">**交易類型**</span><span class="sxs-lookup"><span data-stu-id="7e307-249">**Transaction Type**</span></span>|<span data-ttu-id="7e307-250">選取的測試訊息，訊息類型**850-Purchase Order**。</span><span class="sxs-lookup"><span data-stu-id="7e307-250">Select the message type of your test message, **850 - Purchase Order**.</span></span>|  
         |<span data-ttu-id="7e307-251">**版本/版次**</span><span class="sxs-lookup"><span data-stu-id="7e307-251">**Version/Release**</span></span>|<span data-ttu-id="7e307-252">輸入 EDI 版本， **00401**。</span><span class="sxs-lookup"><span data-stu-id="7e307-252">Enter the EDI version, **00401**.</span></span>|  
         |<span data-ttu-id="7e307-253">**目標命名空間**</span><span class="sxs-lookup"><span data-stu-id="7e307-253">**Target namespace**</span></span>|<span data-ttu-id="7e307-254">選取**http://schemas.microsoft.com/BizTalk/Edi/X12/2006**。</span><span class="sxs-lookup"><span data-stu-id="7e307-254">Select **http://schemas.microsoft.com/BizTalk/Edi/X12/2006**.</span></span>|  
         |<span data-ttu-id="7e307-255">**GS1**</span><span class="sxs-lookup"><span data-stu-id="7e307-255">**GS1**</span></span>|<span data-ttu-id="7e307-256">確認已選取測試訊息的訊息類型， **PO-Purchase Order (850)**。</span><span class="sxs-lookup"><span data-stu-id="7e307-256">Verify that the message type of the test message is selected, **PO - Purchase Order (850)**.</span></span>|  
         |<span data-ttu-id="7e307-257">**GS2**</span><span class="sxs-lookup"><span data-stu-id="7e307-257">**GS2**</span></span>|<span data-ttu-id="7e307-258">輸入應用程式傳送者的值。</span><span class="sxs-lookup"><span data-stu-id="7e307-258">Enter a value for the Application sender.</span></span>|  
         |<span data-ttu-id="7e307-259">**GS3**</span><span class="sxs-lookup"><span data-stu-id="7e307-259">**GS3**</span></span>|<span data-ttu-id="7e307-260">輸入應用程式接收者的值。</span><span class="sxs-lookup"><span data-stu-id="7e307-260">Enter a value for the Application receiver.</span></span>|  
-        |<span data-ttu-id="7e307-261">**GS4**</span><span class="sxs-lookup"><span data-stu-id="7e307-261">**GS4**</span></span>|<span data-ttu-id="7e307-262">選取您想要的日期格式。</span><span class="sxs-lookup"><span data-stu-id="7e307-262">Select the date format that you want.</span></span> <span data-ttu-id="7e307-263">**注意：**您必須在下拉式清單中選取值，不只是按一下欄位以顯示預設值。</span><span class="sxs-lookup"><span data-stu-id="7e307-263">**Note:**  You have to select the value in the drop-down list, not just click in the field to display the default.</span></span> <span data-ttu-id="7e307-264">如果您按一下欄位而未從下拉式清單中選取值，實際上不會選取值。</span><span class="sxs-lookup"><span data-stu-id="7e307-264">If you click in the field without selecting the value from the drop-down list, the value will not actually be selected.</span></span>|  
+        |<span data-ttu-id="7e307-261">**GS4**</span><span class="sxs-lookup"><span data-stu-id="7e307-261">**GS4**</span></span>|<span data-ttu-id="7e307-262">選取您想要的日期格式。</span><span class="sxs-lookup"><span data-stu-id="7e307-262">Select the date format that you want.</span></span> <span data-ttu-id="7e307-263">**注意：** 您必須在下拉式清單中選取值，不只是按一下欄位以顯示預設值。</span><span class="sxs-lookup"><span data-stu-id="7e307-263">**Note:**  You have to select the value in the drop-down list, not just click in the field to display the default.</span></span> <span data-ttu-id="7e307-264">如果您按一下欄位而未從下拉式清單中選取值，實際上不會選取值。</span><span class="sxs-lookup"><span data-stu-id="7e307-264">If you click in the field without selecting the value from the drop-down list, the value will not actually be selected.</span></span>|  
         |<span data-ttu-id="7e307-265">**GS5**</span><span class="sxs-lookup"><span data-stu-id="7e307-265">**GS5**</span></span>|<span data-ttu-id="7e307-266">選擇您要的時間格式。</span><span class="sxs-lookup"><span data-stu-id="7e307-266">Select the time format that you want.</span></span>|  
         |<span data-ttu-id="7e307-267">**GS7**</span><span class="sxs-lookup"><span data-stu-id="7e307-267">**GS7**</span></span>|<span data-ttu-id="7e307-268">選取**X-Accredited 的 Standards Committee X12**。</span><span class="sxs-lookup"><span data-stu-id="7e307-268">Select **X - Accredited Standards Committee X12**.</span></span>|  
         |<span data-ttu-id="7e307-269">**GS8**</span><span class="sxs-lookup"><span data-stu-id="7e307-269">**GS8**</span></span>|<span data-ttu-id="7e307-270">確認已輸入 EDI 版本， **00401**。</span><span class="sxs-lookup"><span data-stu-id="7e307-270">Verify that the EDI version has been entered, **00401**.</span></span>|  

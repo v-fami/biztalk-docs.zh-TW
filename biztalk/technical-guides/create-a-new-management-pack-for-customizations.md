@@ -1,14 +1,14 @@
 ---
-title: "建立用於自訂的新管理組件 |Microsoft 文件"
-ms.custom: 
+title: 建立用於自訂的新管理組件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4ce1ffa0-57c7-41ce-b459-48c36522889e
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22297590"
 ---
 # <a name="create-a-new-management-pack-for-customizations"></a><span data-ttu-id="8e79e-102">建立用於自訂的新管理組件</span><span class="sxs-lookup"><span data-stu-id="8e79e-102">Create a New Management Pack for Customizations</span></span>
 <span data-ttu-id="8e79e-103">大部分的廠商管理組件是密封格式，因此您無法變更任何管理組件檔案中的原始設定。</span><span class="sxs-lookup"><span data-stu-id="8e79e-103">Most vendor management packs are sealed so that you cannot change any of the original settings in the management pack file.</span></span> <span data-ttu-id="8e79e-104">不過，您可以建立自訂，例如覆寫或新的監視物件，並將它們儲存至不同的管理組件。</span><span class="sxs-lookup"><span data-stu-id="8e79e-104">However, you can create customizations, such as overrides or new monitoring objects, and save them to a different management pack.</span></span> <span data-ttu-id="8e79e-105">根據預設，Operations Manager 2007 R2/2012年會將所有自訂都儲存至預設管理組件。</span><span class="sxs-lookup"><span data-stu-id="8e79e-105">By default, Operations Manager 2007 R2/2012 saves all customizations to the Default Management Pack.</span></span> <span data-ttu-id="8e79e-106">最佳做法，您應該改為建立您想要自訂每個密封的管理組件的個別管理組件。</span><span class="sxs-lookup"><span data-stu-id="8e79e-106">As a best practice, you should instead create a separate management pack for each sealed management pack that you want to customize.</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271102"
 ---
 # <a name="scenario-3-sizing-the-tracking-database--for-messages-sent-out-to-distribution-lists"></a><span data-ttu-id="a98b1-102">實例 3：為外送到通訊群組清單之訊息的追蹤資料庫設定大小</span><span class="sxs-lookup"><span data-stu-id="a98b1-102">Scenario 3: Sizing the Tracking Database  for Messages Sent Out to Distribution Lists</span></span>
 <span data-ttu-id="a98b1-103">在下圖中，有一個透過協調流程繼續的訊息在協調流程中變更了，而且已透過通訊群組清單傳送到數個不同的傳送埠。</span><span class="sxs-lookup"><span data-stu-id="a98b1-103">In the following figure, you have a message that proceeds through an orchestration, is changed within the orchestration, and is then sent out to several different send ports through a distribution list.</span></span>  

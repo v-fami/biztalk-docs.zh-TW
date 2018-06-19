@@ -8,15 +8,16 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 82c4cdff-b82d-4cfd-8e20-220a2fe78656
-caps.latest.revision: ''
+caps.latest.revision: 3
 author: gplarsen
 ms.author: hisdocs; plarsen
 manager: anneta
 ms.openlocfilehash: a9d0a31c3dbc9d5980f59d9f30d20ec15f603a38
 ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "30251082"
 ---
 # <a name="how-to-delete-user-mappings"></a><span data-ttu-id="e773d-102">如何刪除使用者對應</span><span class="sxs-lookup"><span data-stu-id="e773d-102">How to Delete User Mappings</span></span>
 <span data-ttu-id="e773d-103">使用下列命令可刪除在 XML 檔案中指定的一或多個使用者對應。</span><span class="sxs-lookup"><span data-stu-id="e773d-103">Use these commands to delete one or more user mappings, as specified in the XML file.</span></span> <span data-ttu-id="e773d-104">以下是 XML 檔案的範例。</span><span class="sxs-lookup"><span data-stu-id="e773d-104">The following is an example XML file.</span></span>  
@@ -60,7 +61,7 @@ ms.lasthandoff: 03/28/2018
   
      <span data-ttu-id="e773d-116">預設安裝目錄是*\<磁碟機 >*: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="e773d-116">The default installation directory is *\<drive>*:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-3.  <span data-ttu-id="e773d-117">型別`ssomanage –deletemapping <domain>\<username> <application name>`，其中*\<網域 >*是 Windows 網域使用者帳戶， *\<使用者名稱 >*是 Windows 使用者名稱和\< *應用程式名稱*> 是您要移除使用者對應的特定應用程式。</span><span class="sxs-lookup"><span data-stu-id="e773d-117">Type `ssomanage –deletemapping <domain>\<username> <application name>`, where *\<domain>* is the Windows domain for the user account, *\<username>* is the Windows user name, and \<*application name*> is the specific application for which you want to remove the user mapping.</span></span>  
+3.  <span data-ttu-id="e773d-117">型別`ssomanage –deletemapping <domain>\<username> <application name>`，其中*\<網域 >* 是 Windows 網域使用者帳戶， *\<使用者名稱 >* 是 Windows 使用者名稱和\< *應用程式名稱*> 是您要移除使用者對應的特定應用程式。</span><span class="sxs-lookup"><span data-stu-id="e773d-117">Type `ssomanage –deletemapping <domain>\<username> <application name>`, where *\<domain>* is the Windows domain for the user account, *\<username>* is the Windows user name, and \<*application name*> is the specific application for which you want to remove the user mapping.</span></span>  
   
 ### <a name="to-delete-a-user-mapping-using-the-client-utility"></a><span data-ttu-id="e773d-118">使用用戶端公用程式刪除使用者對應</span><span class="sxs-lookup"><span data-stu-id="e773d-118">To delete a user mapping using the client utility</span></span>  
   
@@ -70,7 +71,7 @@ ms.lasthandoff: 03/28/2018
   
      <span data-ttu-id="e773d-121">預設安裝目錄是*\<磁碟機 >*: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="e773d-121">The default installation directory is *\<drive>*:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-3.  <span data-ttu-id="e773d-122">型別`ssoclient –deletemapping <application name>`，其中*\<應用程式名稱 >*是您要移除使用者對應的分支機構應用程式的名稱。</span><span class="sxs-lookup"><span data-stu-id="e773d-122">Type `ssoclient –deletemapping <application name>`, where *\<application name>* is the name of the affiliate application for which you want to remove the user mapping.</span></span>  
+3.  <span data-ttu-id="e773d-122">型別`ssoclient –deletemapping <application name>`，其中*\<應用程式名稱 >* 是您要移除使用者對應的分支機構應用程式的名稱。</span><span class="sxs-lookup"><span data-stu-id="e773d-122">Type `ssoclient –deletemapping <application name>`, where *\<application name>* is the name of the affiliate application for which you want to remove the user mapping.</span></span>  
   
 ## <a name="see-also"></a><span data-ttu-id="e773d-123">另請參閱</span><span class="sxs-lookup"><span data-stu-id="e773d-123">See Also</span></span>  
  <span data-ttu-id="e773d-124">[SSO 對應](../esso/sso-mappings.md) </span><span class="sxs-lookup"><span data-stu-id="e773d-124">[SSO Mappings](../esso/sso-mappings.md) </span></span>  

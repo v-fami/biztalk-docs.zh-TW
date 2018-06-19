@@ -1,11 +1,11 @@
 ---
-title: "步驟 13： 建立和設定連接埠 |Microsoft 文件"
-ms.custom: 
+title: 步驟 13： 建立和設定連接埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - ports, creating
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - configuring, ports
 - ports, configuring
 ms.assetid: cc0540d7-46fc-4d9f-bcf3-0b0e0179fd51
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006383"
 ---
 # <a name="step-13-create-and-configure-ports"></a><span data-ttu-id="ed2f3-102">步驟 13： 建立和設定連接埠</span><span class="sxs-lookup"><span data-stu-id="ed2f3-102">Step 13: Create and Configure Ports</span></span>
 <span data-ttu-id="ed2f3-103">在此步驟中，您可以使用連接埠組態精靈來建立及設定協調流程設計師中的連接埠。</span><span class="sxs-lookup"><span data-stu-id="ed2f3-103">In this step, you use the Port Configuration Wizard to create and configure ports in Orchestration Designer.</span></span> <span data-ttu-id="ed2f3-104">連接埠指定您的協調流程傳送和接收訊息，並從商務程序的方式。</span><span class="sxs-lookup"><span data-stu-id="ed2f3-104">Ports specify how your orchestration sends and receives messages to and from business processes.</span></span> <span data-ttu-id="ed2f3-105">每個連接埠都有類型、 方向和繫結。</span><span class="sxs-lookup"><span data-stu-id="ed2f3-105">Each port has a type, a direction, and a binding.</span></span> <span data-ttu-id="ed2f3-106">屬性可同時決定通訊的通訊模式、 位置或從中方向[!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]傳送或接收訊息，以及如何的通訊會發生。</span><span class="sxs-lookup"><span data-stu-id="ed2f3-106">The properties together determine the direction of communication, the pattern of communication, the location to or from which [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] sends or receives the message, and how the communication takes place.</span></span> [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]<span data-ttu-id="ed2f3-107">使用最小值較低層通訊協定 (MLLP) 配接器做為傳送埠。</span><span class="sxs-lookup"><span data-stu-id="ed2f3-107"> uses the Minimum Lower Layer Protocol (MLLP) adapter as a send port.</span></span> <span data-ttu-id="ed2f3-108">MLLP 配接器介面與其他應用程式，例如實驗室儀器應用程式、 保險的應用程式和繼承的特定業務應用程式使用 TCP 通訊端通訊。</span><span class="sxs-lookup"><span data-stu-id="ed2f3-108">The MLLP adapter uses TCP sockets communication to interface with other applications, such as laboratory applications, insurance applications, and legacy line-of-business applications.</span></span> <span data-ttu-id="ed2f3-109">代表 MLLP 傳送配接器[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]配接器：</span><span class="sxs-lookup"><span data-stu-id="ed2f3-109">The MLLP Send Adapter represents a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] adapter that is:</span></span>  

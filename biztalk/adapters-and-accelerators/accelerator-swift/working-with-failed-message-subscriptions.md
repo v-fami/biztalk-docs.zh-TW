@@ -1,18 +1,18 @@
 ---
-title: "使用失敗訊息的訂用帳戶 |Microsoft 文件"
-ms.custom: 
+title: 使用失敗訊息的訂用帳戶 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - failed messages, subscriptions
 - failed messages, developing
 - developing, failed message subscriptions
 ms.assetid: 8dee0aa8-53bf-40be-866b-f1b83960dc99
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,9 +21,10 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005607"
 ---
 # <a name="working-with-failed-message-subscriptions"></a><span data-ttu-id="19325-102">使用失敗的訊息的訂閱</span><span class="sxs-lookup"><span data-stu-id="19325-102">Working with Failed Message Subscriptions</span></span>
-<span data-ttu-id="19325-103">當[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]解譯器處理序 （剖析及驗證） 訊息時，它會升級屬性，該訊息。</span><span class="sxs-lookup"><span data-stu-id="19325-103">When the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] disassembler processes (parses and validates) a message, it promotes properties for that message.</span></span> <span data-ttu-id="19325-104">如果 A4SWIFT 收到訊息做為輸入的批次的一部分，這些升級的屬性會提供資訊的正確性與有效的訊息，以及批次相關資訊。</span><span class="sxs-lookup"><span data-stu-id="19325-104">These promoted properties provide information about the correctness and validity of the message, as well as batch-related information if A4SWIFT received the message as part of an inbound batch.</span></span> <span data-ttu-id="19325-105">如需這些屬性的完整清單，請參閱[A4SWIFT_ * 升級屬性](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md)。</span><span class="sxs-lookup"><span data-stu-id="19325-105">For a complete list of these properties, see [A4SWIFT_* Promoted Properties](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md).</span></span>  
+<span data-ttu-id="19325-103">當[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]解譯器處理序 （剖析及驗證） 訊息時，它會升級屬性，該訊息。</span><span class="sxs-lookup"><span data-stu-id="19325-103">When the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] disassembler processes (parses and validates) a message, it promotes properties for that message.</span></span> <span data-ttu-id="19325-104">如果 A4SWIFT 收到訊息做為輸入的批次的一部分，這些升級的屬性會提供資訊的正確性與有效的訊息，以及批次相關資訊。</span><span class="sxs-lookup"><span data-stu-id="19325-104">These promoted properties provide information about the correctness and validity of the message, as well as batch-related information if A4SWIFT received the message as part of an inbound batch.</span></span> <span data-ttu-id="19325-105">如需這些屬性的完整清單，請參閱[A4SWIFT_ \* 升級屬性](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md)。</span><span class="sxs-lookup"><span data-stu-id="19325-105">For a complete list of these properties, see [A4SWIFT_\* Promoted Properties](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md).</span></span>  
   
  <span data-ttu-id="19325-106">不像原生 BizTalk 解譯 A4SWIFT 解譯器不會暫停訊息處理，便會產生錯誤或失敗時。</span><span class="sxs-lookup"><span data-stu-id="19325-106">Unlike native BizTalk Disassemblers, the A4SWIFT disassembler does not suspend a message when processing produces errors or failures.</span></span> <span data-ttu-id="19325-107">相反地，它失敗將訊息發佈到 MessageBox 資料庫就像是有效的訊息。</span><span class="sxs-lookup"><span data-stu-id="19325-107">Instead, it publishes the failed message to the MessageBox database just as it would a valid message.</span></span> <span data-ttu-id="19325-108">如此一來，失敗的訊息可包含至 MessageBox 資料庫的錯誤詳細資料。</span><span class="sxs-lookup"><span data-stu-id="19325-108">As a result, failed messages can carry error details into the MessageBox database.</span></span> <span data-ttu-id="19325-109">您可以從 MessageBox 資料庫擷取訊息、 處理和修復訊息，且即使重新提交訊息到 MessageBox 資料庫。</span><span class="sxs-lookup"><span data-stu-id="19325-109">You can retrieve the message from the MessageBox database, handle and repair the message, and even resubmit the message back into the MessageBox database.</span></span> <span data-ttu-id="19325-110">您不能執行大部分的這些工作，如果訊息是實際*暫停*。</span><span class="sxs-lookup"><span data-stu-id="19325-110">You would not be able to perform most of these tasks if the message was actually *suspended*.</span></span>  
   
@@ -37,7 +38,7 @@ ms.lasthandoff: 12/01/2017
   
 -   <span data-ttu-id="19325-116">**A4SWIFT_Failed**是**true**計數時的任何上述屬性小於或等於零，或**false**當計數等於零。</span><span class="sxs-lookup"><span data-stu-id="19325-116">**A4SWIFT_Failed** is **true** when the count of any the above properties is greater than zero, or **false** when the count is equal to zero.</span></span>  
   
- <span data-ttu-id="19325-117">這些屬性都是屬於[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]。Solutions.A4SWIFT.Property 命名空間。</span><span class="sxs-lookup"><span data-stu-id="19325-117">These properties are all part of the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)].Solutions.A4SWIFT.Property namespace.</span></span> <span data-ttu-id="19325-118">如需有關這些和其他升級的屬性的詳細資訊，請參閱[A4SWIFT_ * 升級屬性](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md)。</span><span class="sxs-lookup"><span data-stu-id="19325-118">For more information about these and other promoted properties, see [A4SWIFT_* Promoted Properties](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md).</span></span>  
+ <span data-ttu-id="19325-117">這些屬性都是屬於[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]。Solutions.A4SWIFT.Property 命名空間。</span><span class="sxs-lookup"><span data-stu-id="19325-117">These properties are all part of the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)].Solutions.A4SWIFT.Property namespace.</span></span> <span data-ttu-id="19325-118">如需有關這些和其他升級的屬性的詳細資訊，請參閱[A4SWIFT_ \* 升級屬性](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md)。</span><span class="sxs-lookup"><span data-stu-id="19325-118">For more information about these and other promoted properties, see [A4SWIFT_\* Promoted Properties](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md).</span></span>  
   
  <span data-ttu-id="19325-119">若要攔截或擷取失敗的訊息，您需要建立篩選條件運算式 （訂閱） 傳送埠或協調流程接收圖形包含某些上面所列的屬性做為**AND**子句的運算式。</span><span class="sxs-lookup"><span data-stu-id="19325-119">To catch or retrieve failed messages, you need to create filter expressions (subscriptions) for send ports or orchestration receive shapes that include some of the properties listed above, as **AND** clauses of the expression.</span></span>  
   

@@ -1,11 +1,11 @@
 ---
-title: "傳送和接收訊息的安全性 |Microsoft 文件"
-ms.custom: 
+title: 傳送和接收訊息的安全性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, receiving
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - security, message processing
 - messages, security
 ms.assetid: 9bcd01e4-245a-4f4c-b65c-89d7cd3d1b68
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270598"
 ---
 # <a name="security-for-sending-and-receiving-messages"></a><span data-ttu-id="54d88-102">傳送與接收訊息的安全性</span><span class="sxs-lookup"><span data-stu-id="54d88-102">Security for Sending and Receiving Messages</span></span>
 <span data-ttu-id="54d88-103">下圖顯示當 BizTalk Server 接收、處理訊息以及將其傳送至其他應用程式或夥伴時，會發生的狀況。</span><span class="sxs-lookup"><span data-stu-id="54d88-103">The following figure shows what happens to a message as BizTalk Server receives it, processes it, and sends it to another application or partner.</span></span>  

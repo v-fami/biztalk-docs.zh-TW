@@ -1,14 +1,14 @@
 ---
-title: "規劃 BizTalk 解決方案 |Microsoft 文件"
-ms.custom: 
+title: 規劃 BizTalk 解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 30d56a04-966a-46b1-861d-f5be4e58b7d2
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014293"
 ---
 # <a name="plan-for-your-biztalk-solution"></a><span data-ttu-id="fe15d-102">BizTalk 解決方案的計劃</span><span class="sxs-lookup"><span data-stu-id="fe15d-102">Plan for your BizTalk Solution</span></span>
 <span data-ttu-id="fe15d-103">主要設計目標之一[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]是容納最多處理的案例中，盡可能提供最大的彈性。</span><span class="sxs-lookup"><span data-stu-id="fe15d-103">One of the primary design goals of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is to provide maximum flexibility for accommodating as many processing scenarios as possible.</span></span> <span data-ttu-id="fe15d-104">此絕佳的彈性，因為主要的 BizTalk 解決方案的開發人員所面臨的挑戰之一就是要判斷如何在中提供的功能的最佳使用[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]最符合其商務需求。</span><span class="sxs-lookup"><span data-stu-id="fe15d-104">Because of this great flexibility, one of the primary challenges facing developers of a BizTalk solution is to determine how to make best use of the features available in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to best meet their business needs.</span></span> <span data-ttu-id="fe15d-105">規劃[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]可以分成不同階段的以下摘要說明。</span><span class="sxs-lookup"><span data-stu-id="fe15d-105">Planning the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] can be broken down into distinct phases which are summarized below.</span></span>  

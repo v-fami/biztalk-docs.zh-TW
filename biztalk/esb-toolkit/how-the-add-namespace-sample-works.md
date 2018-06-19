@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c76a90a9-5898-43b3-98af-ff546dd97153
-caps.latest.revision: ''
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22294382"
 ---
 # <a name="how-the-add-namespace-sample-works"></a><span data-ttu-id="70f91-102">如何新增命名空間範例的運作方式</span><span class="sxs-lookup"><span data-stu-id="70f91-102">How the Add Namespace Sample Works</span></span>
 <span data-ttu-id="70f91-103">第二，第一個和第四個測試會使用**加入命名空間**元件位於 NamespaceSampleReceivePipeline 管線。</span><span class="sxs-lookup"><span data-stu-id="70f91-103">The first, second, and fourth tests use the **Add Namespace** component located in the NamespaceSampleReceivePipeline pipeline.</span></span> <span data-ttu-id="70f91-104">它會採用做為輸入的文件沒有命名空間的根節點上，如下所示：</span><span class="sxs-lookup"><span data-stu-id="70f91-104">It takes as input a document with no namespace on the root node, such as the following:</span></span>  

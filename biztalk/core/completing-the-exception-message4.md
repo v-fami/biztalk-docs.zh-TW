@@ -1,17 +1,17 @@
 ---
-title: "完成例外狀況 Message4 |Microsoft 文件"
-ms.custom: 
+title: 完成例外狀況 Message4 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, completing exception flow
 - exceptions, completing message
 ms.assetid: 689ccfff-d4c3-415f-93df-00785a3882a9
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231342"
 ---
 # <a name="completing-the-exception-message"></a><span data-ttu-id="b26be-102">完成例外狀況訊息</span><span class="sxs-lookup"><span data-stu-id="b26be-102">Completing the Exception Message</span></span>
 ### <a name="to-complete-the-exception-message"></a><span data-ttu-id="b26be-103">完成例外狀況訊息</span><span class="sxs-lookup"><span data-stu-id="b26be-103">To complete the exception message</span></span>  

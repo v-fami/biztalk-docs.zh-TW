@@ -1,14 +1,14 @@
 ---
-title: "無法匯入組態 |Microsoft 文件"
-ms.custom: 
+title: 無法匯入組態 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2887da50-4f74-4259-a7d6-c87bc9b9fc58
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286678"
 ---
 # <a name="unable-to-import-configuration"></a><span data-ttu-id="7976a-102">無法匯入組態</span><span class="sxs-lookup"><span data-stu-id="7976a-102">Unable to import configuration</span></span>
 ## <a name="details"></a><span data-ttu-id="7976a-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="7976a-103">Details</span></span>  
@@ -66,4 +67,4 @@ ms.lasthandoff: 09/20/2017
   
 9. <span data-ttu-id="7976a-133">按一下 **[匯入]**。</span><span class="sxs-lookup"><span data-stu-id="7976a-133">Click **Import**.</span></span> <span data-ttu-id="7976a-134">匯入有效的完整組態檔。</span><span class="sxs-lookup"><span data-stu-id="7976a-134">Import a valid and complete configuration file.</span></span>  
   
- <span data-ttu-id="7976a-135">您也可以藉由使用服務組態編輯器中將它開啟來確認組態檔的有效性**(開始 > 所有程式 > Windows SDK)** （此步驟中假設您已安裝 Windows SDK）。開啟**svcConfigEditor.exe**並確認每一個屬性的組態檔。</span><span class="sxs-lookup"><span data-stu-id="7976a-135">You can also verify the validity of the configuration file by opening it with the Service Configuration Editor **(Start > All Programs > Windows SDK)** (this step assumes you have the Windows SDK installed.) Open **svcConfigEditor.exe** and verify each property of the configuration file.</span></span>
+ <span data-ttu-id="7976a-135">您也可以藉由使用服務組態編輯器中將它開啟來確認組態檔的有效性 **(開始 > 所有程式 > Windows SDK)** （此步驟中假設您已安裝 Windows SDK）。開啟**svcConfigEditor.exe**並確認每一個屬性的組態檔。</span><span class="sxs-lookup"><span data-stu-id="7976a-135">You can also verify the validity of the configuration file by opening it with the Service Configuration Editor **(Start > All Programs > Windows SDK)** (this step assumes you have the Windows SDK installed.) Open **svcConfigEditor.exe** and verify each property of the configuration file.</span></span>

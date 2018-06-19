@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278982"
 ---
 # <a name="transporttype-sendhandler-node"></a><span data-ttu-id="0d821-102">TransportType (SendHandler 節點)</span><span class="sxs-lookup"><span data-stu-id="0d821-102">TransportType (SendHandler Node)</span></span>
 <span data-ttu-id="0d821-103">繫結檔案之 SendHandler 節點的 TransportType 節點，包含與該繫結檔案一起匯出之傳輸有關之配接器的特定資訊。</span><span class="sxs-lookup"><span data-stu-id="0d821-103">The TransportType node of the SendHandler node of a binding file contains specific information about the adapter associated with a send handler that is exported with the binding file.</span></span>  

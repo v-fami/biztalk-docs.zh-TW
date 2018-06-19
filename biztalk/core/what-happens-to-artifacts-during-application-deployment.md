@@ -1,17 +1,17 @@
 ---
-title: "會發生什麼事成品至應用程式部署期間 |Microsoft 文件"
-ms.custom: 
+title: 會發生什麼事成品至應用程式部署期間 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - artifacts, deploying
 - deploying [artifacts]
 ms.assetid: afd77251-c3bd-454b-907f-a841911abe47
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288486"
 ---
 # <a name="what-happens-to-artifacts-during-application-deployment"></a><span data-ttu-id="f4da4-102">應用程式部署期間成品所發生的狀況</span><span class="sxs-lookup"><span data-stu-id="f4da4-102">What Happens to Artifacts During Application Deployment</span></span>
 <span data-ttu-id="f4da4-103">本章節的主題說明當您新增和移除成品、匯出和匯入應用程式和成品及安裝和解除安裝應用程式時，與應用程式相關的成品所發生的狀況。</span><span class="sxs-lookup"><span data-stu-id="f4da4-103">The topics in this section describe what happens to the artifacts associated with an application when you add and remove artifacts, export and import applications and artifacts, and install and uninstall applications.</span></span> <span data-ttu-id="f4da4-104">本章節涵蓋的主題如下：</span><span class="sxs-lookup"><span data-stu-id="f4da4-104">It covers subjects such as the following:</span></span>  

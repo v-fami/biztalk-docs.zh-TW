@@ -1,14 +1,14 @@
 ---
-title: "WCF 接收配接器發佈服務中繼資料 |Microsoft 文件"
-ms.custom: 
+title: WCF 接收配接器發佈服務中繼資料 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4df09e8f-e0c9-41c5-bd71-13bb0e96cd97
-caps.latest.revision: 
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710245"
 ---
 # <a name="publishing-service-metadata-for-the-wcf-receive-adapters"></a><span data-ttu-id="1ad2b-102">發佈 WCF 接收配接器的服務中繼資料</span><span class="sxs-lookup"><span data-stu-id="1ad2b-102">Publishing Service Metadata for the WCF Receive Adapters</span></span>
 <span data-ttu-id="1ad2b-103">您可以使用「BizTalk WCF 服務發佈精靈」建立 WCF 服務，以發佈現有 WCF 接收位置的服務中繼資料。</span><span class="sxs-lookup"><span data-stu-id="1ad2b-103">You can use the BizTalk WCF Service Publishing Wizard to create WCF services for publishing service metadata for existing WCF receive locations.</span></span> <span data-ttu-id="1ad2b-104">若要從已發行中繼資料文件產生用戶端服務模型程式碼中，您可以使用隨附的 Windows 軟體開發套件 (SDK) 和.NET Framework 執行階段元件中的 Service Model Metadata Utility 工具 (SvcUtil.exe)。</span><span class="sxs-lookup"><span data-stu-id="1ad2b-104">To generate client service model code from the published metadata documents you can use the Service Model Metadata Utility tool (SvcUtil.exe) included in the Windows Software Development Kit (SDK) and .NET Framework Runtime Components.</span></span>  

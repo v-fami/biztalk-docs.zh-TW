@@ -1,14 +1,14 @@
 ---
-title: "登錄設定 頁面 |Microsoft 文件"
-ms.custom: 
+title: 登錄設定 頁面 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1f964200-516a-48e7-aa95-e3df968bc743
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294550"
 ---
 # <a name="registry-settings-page"></a><span data-ttu-id="c9ff9-102">[登錄設定] 頁面</span><span class="sxs-lookup"><span data-stu-id="c9ff9-102">Registry Settings Page</span></span>
 <span data-ttu-id="c9ff9-103">圖 1 顯示登錄設定 頁面上，您可以在其中修改設定入口網站時使用它與通用描述、 探索與整合 (UDDI) 服務互動。</span><span class="sxs-lookup"><span data-stu-id="c9ff9-103">Figure 1 shows the Registry Settings page, where you can modify the settings the portal uses when it interacts with the Universal Description, Discovery, and Integration (UDDI) service.</span></span>  

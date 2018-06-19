@@ -1,11 +1,11 @@
 ---
-title: "範例 TMA: HTTP 與 SOAP 配接器 |Microsoft 文件"
-ms.custom: 
+title: '範例 TMA: HTTP 與 SOAP 配接器 |Microsoft 文件'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - architecture, examples
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - SOAP adapters, TMA
 - HTTP adapters, TMA
 ms.assetid: d9a40cff-92a1-4bc9-ae45-3a5857f70222
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22272102"
 ---
 # <a name="sample-tma-http-and-soap-adapters"></a><span data-ttu-id="485e3-102">範例 TMA: HTTP 與 SOAP 配接器</span><span class="sxs-lookup"><span data-stu-id="485e3-102">Sample TMA: HTTP and SOAP Adapters</span></span>
 <span data-ttu-id="485e3-103">本主題會介紹威脅模型分析 (TMA) 的 HTTP 與 SOAP （Web 服務） 配接器實例的範例架構。</span><span class="sxs-lookup"><span data-stu-id="485e3-103">This topic presents the threat model analysis (TMA) for the HTTP and SOAP (Web services) adapter scenario for the sample architecture.</span></span> <span data-ttu-id="485e3-104">下圖顯示 HTTP 與 SOAP 配接器實例的範例架構。</span><span class="sxs-lookup"><span data-stu-id="485e3-104">The following figure shows the sample architecture for the HTTP and SOAP adapters scenario.</span></span>  
@@ -65,9 +66,9 @@ ms.lasthandoff: 09/20/2017
 ## <a name="step-2-create-and-analyze-the-threat-model-http-and-soap-adapters-scenario"></a><span data-ttu-id="485e3-125">步驟 2：</span><span class="sxs-lookup"><span data-stu-id="485e3-125">Step 2.</span></span> <span data-ttu-id="485e3-126">建立和分析威脅模型 （HTTP 與 SOAP 配接器實例）</span><span class="sxs-lookup"><span data-stu-id="485e3-126">Create and Analyze the Threat Model (HTTP and SOAP Adapters Scenario)</span></span>  
  <span data-ttu-id="485e3-127">本節提供我們為範例架構的 HTTP 與 SOAP (Web 服務) 配接器實例所做的 TMA 結果。</span><span class="sxs-lookup"><span data-stu-id="485e3-127">This section provides the results of the TMA we did for the HTTP and SOAP (Web services) adapters scenario for the sample architecture.</span></span>  
   
--   <span data-ttu-id="485e3-128">**識別進入點、 信任界限以及的資料流-**請參閱稍早在步驟 1 中描述的背景資訊和[範例實例的背景資訊](../core/background-information-for-sample-scenarios.md)。</span><span class="sxs-lookup"><span data-stu-id="485e3-128">**Identify Entry Points, Trust Boundaries, and Flow of Data -** See background information described earlier in step 1 and [Background Information for Sample Scenarios](../core/background-information-for-sample-scenarios.md).</span></span>  
+-   <span data-ttu-id="485e3-128">**識別進入點、 信任界限以及的資料流-** 請參閱稍早在步驟 1 中描述的背景資訊和[範例實例的背景資訊](../core/background-information-for-sample-scenarios.md)。</span><span class="sxs-lookup"><span data-stu-id="485e3-128">**Identify Entry Points, Trust Boundaries, and Flow of Data -** See background information described earlier in step 1 and [Background Information for Sample Scenarios](../core/background-information-for-sample-scenarios.md).</span></span>  
   
--   <span data-ttu-id="485e3-129">**建立一份識別的威脅-**我們針對 dfd 的所有項目使用下列分類來識別潛在的威脅： **S**假冒識別， **T**ampering 取代資料， **R**epudiation，**我**若資訊洩漏、 **D**拒絕服務，以及**E**身分權限。</span><span class="sxs-lookup"><span data-stu-id="485e3-129">**Create a List of the Identified Threats -** We used the following categorization for all entries in the DFD to identify potential threats to the scenario: **S**poofing identify, **T**ampering with data, **R**epudiation, **I**nformation disclosure, **D**enial of service, and **E**levation of privileges.</span></span> <span data-ttu-id="485e3-130">下表列出當您使用 HTTP 與 SOAP 配接器從 BizTalk Server 傳送和接收訊息時，我們所識別的威脅清單。</span><span class="sxs-lookup"><span data-stu-id="485e3-130">The following table lists the threats we identified when you use the HTTP and SOAP adapters to send and receive messages to and from BizTalk Server.</span></span>  
+-   <span data-ttu-id="485e3-129">**建立一份識別的威脅-** 我們針對 dfd 的所有項目使用下列分類來識別潛在的威脅： **S**假冒識別， **T**ampering 取代資料， **R**epudiation，**我**若資訊洩漏、 **D**拒絕服務，以及**E**身分權限。</span><span class="sxs-lookup"><span data-stu-id="485e3-129">**Create a List of the Identified Threats -** We used the following categorization for all entries in the DFD to identify potential threats to the scenario: **S**poofing identify, **T**ampering with data, **R**epudiation, **I**nformation disclosure, **D**enial of service, and **E**levation of privileges.</span></span> <span data-ttu-id="485e3-130">下表列出當您使用 HTTP 與 SOAP 配接器從 BizTalk Server 傳送和接收訊息時，我們所識別的威脅清單。</span><span class="sxs-lookup"><span data-stu-id="485e3-130">The following table lists the threats we identified when you use the HTTP and SOAP adapters to send and receive messages to and from BizTalk Server.</span></span>  
   
  <span data-ttu-id="485e3-131">**表 1 威脅的清單**</span><span class="sxs-lookup"><span data-stu-id="485e3-131">**Table 1 List of threats**</span></span>  
   

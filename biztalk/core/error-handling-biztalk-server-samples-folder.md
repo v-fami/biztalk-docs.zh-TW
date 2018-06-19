@@ -1,11 +1,11 @@
 ---
-title: "錯誤處理 （BizTalk Server 範例資料夾） |Microsoft 文件"
-ms.custom: 
+title: 錯誤處理 （BizTalk Server 範例資料夾） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, errors
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - messages, examples
 - messages, errors
 ms.assetid: b39791ed-277b-4625-b9a9-72480a1b6ff6
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971476"
 ---
 # <a name="error-handling-biztalk-server-samples-folder"></a><span data-ttu-id="38ace-102">錯誤處理 (BizTalk Server Samples 資料夾)</span><span class="sxs-lookup"><span data-stu-id="38ace-102">Error Handling (BizTalk Server Samples Folder)</span></span>
 <span data-ttu-id="38ace-103">此範例的目的是要建立「根據訊息內容決定路由」(CBR) 應用程式的錯誤處理功能。</span><span class="sxs-lookup"><span data-stu-id="38ace-103">The purpose of this sample is to build an error-handling functionality for the content-based routing (CBR) application.</span></span>  

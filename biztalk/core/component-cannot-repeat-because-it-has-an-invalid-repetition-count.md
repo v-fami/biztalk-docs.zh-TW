@@ -1,14 +1,14 @@
 ---
-title: "元件無法重複，因為它有無效的重複計數 |Microsoft 文件"
-ms.custom: 
+title: 元件無法重複，因為它有無效的重複計數 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 040d7ea4-60a9-495f-91d7-b5b868957e2d
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231678"
 ---
 # <a name="component-cannot-repeat-because-it-has-an-invalid-repetition-count"></a><span data-ttu-id="27f2d-102">元件無法重複，因為它有無效的重複計數</span><span class="sxs-lookup"><span data-stu-id="27f2d-102">Component cannot repeat because it has an invalid repetition count</span></span>
 ## <a name="details"></a><span data-ttu-id="27f2d-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="27f2d-103">Details</span></span>  

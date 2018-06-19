@@ -1,14 +1,14 @@
 ---
-title: "WCF 配接器 FAQ: WCF 端點 |Microsoft 文件"
-ms.custom: 
+title: 'WCF 配接器 FAQ: WCF 端點 |Microsoft 文件'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ccc94b7d-b8a6-4c24-907e-922fd885b874
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974292"
 ---
 # <a name="wcf-adapter-faq-wcf-endpoints"></a><span data-ttu-id="bd9f6-102">WCF 配接器常見問題集：WCF 端點</span><span class="sxs-lookup"><span data-stu-id="bd9f6-102">WCF Adapter FAQ: WCF Endpoints</span></span>
 ## <a name="what-are-two-endpoints-options-can-be-created-by-the-biztalk-wcf-service-publishing-wizard"></a><span data-ttu-id="bd9f6-103">BizTalk WCF 服務發佈精靈可以建立哪兩個端點選項？</span><span class="sxs-lookup"><span data-stu-id="bd9f6-103">What are two endpoints options can be created by the BizTalk WCF Service Publishing Wizard?</span></span>  

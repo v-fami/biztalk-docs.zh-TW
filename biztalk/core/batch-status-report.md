@@ -1,14 +1,14 @@
 ---
-title: "批次狀態報告 |Microsoft 文件"
-ms.custom: 
+title: 批次狀態報告 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 04dad016-e7bb-45cd-b36a-a9c83d073501
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231798"
 ---
 # <a name="batch-status-report"></a><span data-ttu-id="8e6e3-102">批次狀態報告</span><span class="sxs-lookup"><span data-stu-id="8e6e3-102">Batch Status Report</span></span>
 <span data-ttu-id="8e6e3-103">這份報告會顯示批次協調流程的執行個體活動。</span><span class="sxs-lookup"><span data-stu-id="8e6e3-103">This report shows the activity of instances of the batching orchestration.</span></span> <span data-ttu-id="8e6e3-104">報告中的每一列表示批次協調流程單一執行個體所處理的批次狀態。</span><span class="sxs-lookup"><span data-stu-id="8e6e3-104">Each row in the report indicates the status of the batches being processed by a single instance of the batching orchestration.</span></span>  

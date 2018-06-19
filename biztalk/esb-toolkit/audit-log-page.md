@@ -1,14 +1,14 @@
 ---
-title: "稽核記錄檔 頁面 |Microsoft 文件"
-ms.custom: 
+title: 稽核記錄檔 頁面 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9970cf9e-4e48-4952-aea2-967a151d2cdf
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289830"
 ---
 # <a name="audit-log-page"></a><span data-ttu-id="00252-102">稽核記錄檔 頁面</span><span class="sxs-lookup"><span data-stu-id="00252-102">Audit Log Page</span></span>
 <span data-ttu-id="00252-103">圖 1 顯示稽核記錄檔 頁面。</span><span class="sxs-lookup"><span data-stu-id="00252-103">Figure 1 shows the Audit Log page.</span></span> <span data-ttu-id="00252-104">此頁面會顯示稽核事件的清單。</span><span class="sxs-lookup"><span data-stu-id="00252-104">This page displays a list of audited events.</span></span>  

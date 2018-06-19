@@ -1,18 +1,18 @@
 ---
-title: "WCF 配接器效能計數器 |Microsoft 文件"
-ms.custom: 
+title: WCF 配接器效能計數器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - performance, WCF adapters
 - performance, performance counters
 - WCF adapters, performance
 ms.assetid: 9feb052f-5674-419f-84ab-9b5d312a04a5
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289470"
 ---
 # <a name="wcf-adapters-performance-counters"></a><span data-ttu-id="ea56c-102">WCF 配接器效能計數器</span><span class="sxs-lookup"><span data-stu-id="ea56c-102">WCF Adapters Performance Counters</span></span>
 <span data-ttu-id="ea56c-103">效能計數器可讓您針對服務在網站或系統上所執行的工作，監控其特定層面。</span><span class="sxs-lookup"><span data-stu-id="ea56c-103">Performance counters enable you to monitor specific aspects of work performed on the site or system by a service.</span></span> <span data-ttu-id="ea56c-104">效能計數器也可以幫助您識別和疑難排解伺服器的效能問題。</span><span class="sxs-lookup"><span data-stu-id="ea56c-104">Performance counters can help you identify and troubleshoot server performance issues.</span></span> <span data-ttu-id="ea56c-105">WCF 配接器本身並未提供效能計數器。</span><span class="sxs-lookup"><span data-stu-id="ea56c-105">The WCF adapters do not provide their own performance counters.</span></span> <span data-ttu-id="ea56c-106">然而，監控 Windows Communication Foundation (WCF) 的效能計數器，即可量測 WCF 接收位置的效能。</span><span class="sxs-lookup"><span data-stu-id="ea56c-106">However, you can monitor the performance counters of Windows Communication Foundation (WCF) to gauge the performance of the WCF receive locations.</span></span> <span data-ttu-id="ea56c-107">若要針對 WCF 接收位置使用 WCF 效能計數器，您必須為執行接收位置之主控件執行個體啟用效能計數器。</span><span class="sxs-lookup"><span data-stu-id="ea56c-107">To use the WCF performance counters for the WCF receive locations, you have to enable the performance counters for the host instances running the receive locations.</span></span>  
@@ -54,7 +55,7 @@ ms.lasthandoff: 09/20/2017
   
 -   <span data-ttu-id="ea56c-120">**ServiceOnly**： 只有**ServiceModelService**啟用類別的計數器。</span><span class="sxs-lookup"><span data-stu-id="ea56c-120">**ServiceOnly**: Only **ServiceModelService** category counters are enabled.</span></span>  
   
--   <span data-ttu-id="ea56c-121">**關閉**: ServiceModel * 效能計數器已停用。</span><span class="sxs-lookup"><span data-stu-id="ea56c-121">**Off**: ServiceModel* performance counters are disabled.</span></span> <span data-ttu-id="ea56c-122">這是預設值。</span><span class="sxs-lookup"><span data-stu-id="ea56c-122">This is the default value.</span></span>  
+-   <span data-ttu-id="ea56c-121">**關閉**: ServiceModel \* 效能計數器已停用。</span><span class="sxs-lookup"><span data-stu-id="ea56c-121">**Off**: ServiceModel\* performance counters are disabled.</span></span> <span data-ttu-id="ea56c-122">這是預設值。</span><span class="sxs-lookup"><span data-stu-id="ea56c-122">This is the default value.</span></span>  
   
  <span data-ttu-id="ea56c-123">修改 BTSNTSvc.exe.config 檔案後，您必須重新啟動執行內含式 WCF 接收位置的主控件執行個體。</span><span class="sxs-lookup"><span data-stu-id="ea56c-123">After modifying the BTSNTSvc.exe.config file, you must restart the host instances running the in-process WCF receive locations.</span></span>  
   

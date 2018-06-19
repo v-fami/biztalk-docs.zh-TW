@@ -1,11 +1,11 @@
 ---
-title: "何謂 BAM 攔截器？ | Microsoft Docs"
-ms.custom: 
+title: 何謂 BAM 攔截器？ | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BAM Interceptor object
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - BAM, Interceptor object
 - data, collecting [BAM]
 ms.assetid: e0213c4e-e2f4-4bb0-bd27-e5810f7e39d9
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289798"
 ---
 # <a name="what-is-the-bam-interceptor"></a><span data-ttu-id="bc91d-103">何謂 BAM 攔截器？</span><span class="sxs-lookup"><span data-stu-id="bc91d-103">What Is the BAM Interceptor?</span></span>
 ## <a name="overview"></a><span data-ttu-id="bc91d-104">概觀</span><span class="sxs-lookup"><span data-stu-id="bc91d-104">Overview</span></span> 

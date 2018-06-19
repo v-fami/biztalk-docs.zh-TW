@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231254"
 ---
 # <a name="completing-the-exception-message"></a><span data-ttu-id="70715-102">完成例外狀況訊息</span><span class="sxs-lookup"><span data-stu-id="70715-102">Completing the Exception Message</span></span>
 <span data-ttu-id="70715-103">若要完成例外狀況流程，請新增「傳送」圖形以將錯誤 Message_3 重新導向至監控的資料夾。</span><span class="sxs-lookup"><span data-stu-id="70715-103">To complete the flow of the exception, create a Send shape to redirect the fault Message_3 to a monitored folder.</span></span>  

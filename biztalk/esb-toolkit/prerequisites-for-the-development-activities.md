@@ -1,14 +1,14 @@
 ---
-title: "開發活動的必要條件 |Microsoft 文件"
-ms.custom: 
+title: 開發活動的必要條件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 54c91405-f9a4-4676-b5c5-fe90b3b51b45
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006255"
 ---
 # <a name="prerequisites-for-the-development-activities"></a><span data-ttu-id="6a1ca-102">開發活動的必要條件</span><span class="sxs-lookup"><span data-stu-id="6a1ca-102">Prerequisites for the Development Activities</span></span>
 <span data-ttu-id="6a1ca-103">本章節描述如何準備您的環境，完成的一部分的開發活動中的步驟[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="6a1ca-103">This section describes how to prepare your environment to complete the steps in the development activities that are included as part of the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)].</span></span> <span data-ttu-id="6a1ca-104">才能嘗試進行任何開發活動中的程序，請完成下列設定：</span><span class="sxs-lookup"><span data-stu-id="6a1ca-104">Complete the following setup before you attempt any of the procedures in the development activities:</span></span>  

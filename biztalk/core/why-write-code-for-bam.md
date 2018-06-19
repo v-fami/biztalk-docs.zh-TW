@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4434f50a-e0a9-45e0-8c68-a059011e1296
-caps.latest.revision: ''
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22289886"
 ---
 # <a name="why-write-code-for-bam"></a><span data-ttu-id="d4bab-103">為何為 BAM 撰寫程式碼？</span><span class="sxs-lookup"><span data-stu-id="d4bab-103">Why Write Code For BAM?</span></span>
 <span data-ttu-id="d4bab-104">在多數狀況下，您都可以使用 BAM 工具，而不需要撰寫自己的程式碼以執行追蹤功能。</span><span class="sxs-lookup"><span data-stu-id="d4bab-104">In most circumstances you can use the BAM tools without writing your own code to perform your tracking functions.</span></span> <span data-ttu-id="d4bab-105">這些工具包括適用於 Excel 的 BAM 增益集、[BAM 管理公用程式]，以及 [追蹤設定檔編輯器] \(TPE)。</span><span class="sxs-lookup"><span data-stu-id="d4bab-105">These tools are the BAM Add-in for Excel, the BAM Management utility, and the Tracking Profile Editor (TPE).</span></span> <span data-ttu-id="d4bab-106">[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中的 BAM 提供 BizTalk 協調流程和傳訊元件 (管線和連接埠) 的攔截器。</span><span class="sxs-lookup"><span data-stu-id="d4bab-106">BAM in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides interceptors for BizTalk orchestrations and messaging components (pipelines and ports).</span></span> <span data-ttu-id="d4bab-107">攔截器是一種檢測應用程式的軟體，使其能夠根據組態檔而以一般方式收集資料。</span><span class="sxs-lookup"><span data-stu-id="d4bab-107">An interceptor is software that instruments an application so that it can collect data in a generic way based on a configuration file.</span></span> <span data-ttu-id="d4bab-108">您可以使用 [追蹤設定檔編輯器] 來檢測應用程式，以便使用這些攔截器。</span><span class="sxs-lookup"><span data-stu-id="d4bab-108">You can instrument your application to use these interceptors by using the Tracking Profile Editor.</span></span> <span data-ttu-id="d4bab-109">如需追蹤設定檔編輯器的詳細資訊，請參閱[追蹤設定檔編輯器](../core/tracking-profile-editor.md)。</span><span class="sxs-lookup"><span data-stu-id="d4bab-109">For more information about the Tracking Profile Editor, see [Tracking Profile Editor](../core/tracking-profile-editor.md).</span></span>  

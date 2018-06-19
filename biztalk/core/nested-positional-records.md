@@ -1,14 +1,14 @@
 ---
-title: "巢狀位置記錄 |Microsoft 文件"
-ms.custom: 
+title: 巢狀位置記錄 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3e205e9d-f740-4177-b45a-5e1baadae99a
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263238"
 ---
 # <a name="nested-positional-records"></a><span data-ttu-id="56e0e-102">巢狀序數記錄</span><span class="sxs-lookup"><span data-stu-id="56e0e-102">Nested Positional Records</span></span>
 <span data-ttu-id="56e0e-103">如果允許巢狀序數記錄**Max Occurs**子記錄的屬性設定為正整數。</span><span class="sxs-lookup"><span data-stu-id="56e0e-103">Nested positional records are allowed if the **Max Occurs** property of child records is set to a positive integer.</span></span> <span data-ttu-id="56e0e-104">欄位自動計算應該能夠處理新的深度。</span><span class="sxs-lookup"><span data-stu-id="56e0e-104">Field autocalculation should be able to handle the new depth.</span></span> <span data-ttu-id="56e0e-105">不過，此行為的方式有些修改。</span><span class="sxs-lookup"><span data-stu-id="56e0e-105">However, there is a modification to the way this behaves.</span></span> <span data-ttu-id="56e0e-106">特別是因為可能有空值分隔符號，所以只會在符合下列其中一個條件時，欄位位置的自動計算才會運作：</span><span class="sxs-lookup"><span data-stu-id="56e0e-106">Specifically, because of the possibility for null delimiters, autocalculation of field positions will function only if one of the following conditions is met:</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "檢視 BizTalk 組件檢視器的組件 |Microsoft 文件"
-ms.custom: 
+title: 檢視 BizTalk 組件檢視器的組件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9831eb88-84bc-4d18-8174-43c3baab83fe
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287742"
 ---
 # <a name="viewing-assemblies-with-the-biztalk-assembly-viewer"></a><span data-ttu-id="fbcfc-102">使用 BizTalk 組件檢視工具檢視組件</span><span class="sxs-lookup"><span data-stu-id="fbcfc-102">Viewing Assemblies with the BizTalk Assembly Viewer</span></span>
 <span data-ttu-id="fbcfc-103">當您要開發應用程式或部署組件時，您需要查看哪些組件已經部署，而且可供您使用。</span><span class="sxs-lookup"><span data-stu-id="fbcfc-103">When you are developing applications or deploying assemblies, you need to see which assemblies are deployed and available to you.</span></span> <span data-ttu-id="fbcfc-104">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 針對這個用途提供了一個方便的工具 - BizTalk 組件檢視工具。</span><span class="sxs-lookup"><span data-stu-id="fbcfc-104">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides a convenient tool for this purpose - BizTalk Assembly Viewer.</span></span>  

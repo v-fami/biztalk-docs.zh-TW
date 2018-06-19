@@ -1,14 +1,14 @@
 ---
-title: "逐步解說 (AS2): 透過 AS2 傳送非 EDI 訊息 |Microsoft 文件"
-ms.custom: 
+title: '逐步解說 (AS2): 透過 AS2 傳送非 EDI 訊息 |Microsoft 文件'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6120b81e-bdd5-44ad-9040-26be88c71258
-caps.latest.revision: "33"
+caps.latest.revision: 33
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22292110"
 ---
 # <a name="walkthrough-as2-sending-a-non-edi-message-over-as2"></a><span data-ttu-id="fa1fe-102">逐步解說 (AS2)：透過 AS2 傳送非 EDI 訊息</span><span class="sxs-lookup"><span data-stu-id="fa1fe-102">Walkthrough (AS2): Sending a Non-EDI Message over AS2</span></span>
 <span data-ttu-id="fa1fe-103">本逐步解說提供一組逐步執行的程序，建立透過 AS2 傳送非 EDI 訊息的解決方案。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-103">This walkthrough provides a set of step-by-step procedures that creates a solution for sending non-EDI messages over AS2.</span></span> <span data-ttu-id="fa1fe-104">本逐步解說會透過 AS2 傳送 PIDX 訊息。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-104">In this walkthrough, a PIDX message is sent over AS2.</span></span> <span data-ttu-id="fa1fe-105">此方案使用含一個 AS2Send 傳送管線和一個 AS2Receive 接收管線的雙向傳送埠。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-105">This solution uses a two-way send port with an AS2Send send pipeline and an AS2Receive receive pipeline.</span></span> <span data-ttu-id="fa1fe-106">您可以在單一電腦上，建立並測試此逐步解說中的整個解決方案。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-106">You can create and test the full solution in this walkthrough on a single computer.</span></span>  
@@ -137,7 +138,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  <span data-ttu-id="fa1fe-182">在**新增指令碼對應**對話方塊方塊中，輸入`BtsHttpReceive.dll`中**要求路徑**欄位。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-182">In the **Add Script Map** dialog box, enter `BtsHttpReceive.dll` in the **Request path** field.</span></span>  
   
-4.  <span data-ttu-id="fa1fe-183">在**可執行檔**欄位中，按一下**省略符號 （...）**按鈕並瀏覽至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]HttpReceive。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-183">In the **Executable** field, click the **ellipsis (…)** button and browse to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]HttpReceive.</span></span> <span data-ttu-id="fa1fe-184">選取 BtsHttpReceive.dll，然後按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-184">Select BtsHttpReceive.dll and click **OK**.</span></span>  
+4.  <span data-ttu-id="fa1fe-183">在**可執行檔**欄位中，按一下**省略符號 （...）** 按鈕並瀏覽至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]HttpReceive。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-183">In the **Executable** field, click the **ellipsis (…)** button and browse to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]HttpReceive.</span></span> <span data-ttu-id="fa1fe-184">選取 BtsHttpReceive.dll，然後按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-184">Select BtsHttpReceive.dll and click **OK**.</span></span>  
   
 5.  <span data-ttu-id="fa1fe-185">輸入`BizTalk HTTP Receive`中`Name`欄位，，然後按一下**要求限制**。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-185">Enter `BizTalk HTTP Receive` in the `Name` field, and then click **Request Restrictions**.</span></span>  
   
@@ -151,7 +152,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  <span data-ttu-id="fa1fe-191">在 [IIS 管理員] 中，以滑鼠右鍵按一下**應用程式集區**選取**新增應用程式集區**。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-191">In IIS Manager, right-click **Application Pools** and select **Add Application Pool**.</span></span>  
   
-2.  <span data-ttu-id="fa1fe-192">在**新增應用程式集區**對話方塊方塊中，輸入**BizTalkAppPool**中**名稱**，然後選取**.NET Framework v4.0.30210**中**.NET framework 版本**下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-192">In **the Add Application Pool** dialog box, enter **BizTalkAppPool** in **Name**, and then select **.NET Framework V4.0.30210** in the **.NET Framework version** drop-down list.</span></span> <span data-ttu-id="fa1fe-193">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-193">Click **OK**.</span></span>  
+2.  <span data-ttu-id="fa1fe-192">在**新增應用程式集區**對話方塊方塊中，輸入**BizTalkAppPool**中**名稱**，然後選取 **.NET Framework v4.0.30210**中 **.NET framework 版本**下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-192">In **the Add Application Pool** dialog box, enter **BizTalkAppPool** in **Name**, and then select **.NET Framework V4.0.30210** in the **.NET Framework version** drop-down list.</span></span> <span data-ttu-id="fa1fe-193">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-193">Click **OK**.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="fa1fe-194">版本號碼可能會依據電腦上安裝的 [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)] 版本而有所不同。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-194">The version number may vary depending on the version of [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)] installed on the machine.</span></span>  
@@ -256,7 +257,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  <span data-ttu-id="fa1fe-252">在**接收位置屬性**對話方塊中，名稱您接收位置中，選取**HTTP**如**類型**，然後按一下 **設定**。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-252">In the **Receive Location Properties** dialog box, name your receive location, select **HTTP** for **Type**, and then click **Configure**.</span></span>  
   
-5.  <span data-ttu-id="fa1fe-253">在**HTTP 傳輸屬性**對話方塊方塊中，輸入**/Fabrikam/BTSHttpReceive.dll**如**虛擬目錄加 ISAPI 延伸模組**。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-253">In the **HTTP Transport Properties** dialog box, enter **/Fabrikam/BTSHttpReceive.dll** for **Virtual directory plus ISAPI extension**.</span></span> <span data-ttu-id="fa1fe-254">清除**成功時傳回相互關聯控制代碼**選取**擱置失敗的要求**。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-254">Clear **Return correlation handle on success** and select **Suspend failed requests**.</span></span> <span data-ttu-id="fa1fe-255">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-255">Click **OK**.</span></span>  
+5.  <span data-ttu-id="fa1fe-253">在**HTTP 傳輸屬性**對話方塊方塊中，輸入 **/Fabrikam/BTSHttpReceive.dll**如**虛擬目錄加 ISAPI 延伸模組**。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-253">In the **HTTP Transport Properties** dialog box, enter **/Fabrikam/BTSHttpReceive.dll** for **Virtual directory plus ISAPI extension**.</span></span> <span data-ttu-id="fa1fe-254">清除**成功時傳回相互關聯控制代碼**選取**擱置失敗的要求**。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-254">Clear **Return correlation handle on success** and select **Suspend failed requests**.</span></span> <span data-ttu-id="fa1fe-255">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-255">Click **OK**.</span></span>  
   
 6.  <span data-ttu-id="fa1fe-256">選取**AS2Receive**如**接收管線**，和**AS2Send**如**傳送管線**。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-256">Select **AS2Receive** for the **Receive Pipeline**, and **AS2Send** for the **Send Pipeline**.</span></span> <span data-ttu-id="fa1fe-257">按一下**確定**，然後按一下 **確定**一次。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-257">Click **OK**, and then click **OK** again.</span></span>  
   
@@ -272,7 +273,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  <span data-ttu-id="fa1fe-264">在**FILE 傳輸屬性**對話方塊中，針對**目的地資料夾**，輸入您為 EDI 內容所建立的本機資料夾。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-264">In the **FILE Transport Properties** dialog box, for **Destination folder**, enter the local folder that you created for the EDI payload.</span></span>  
   
-5.  <span data-ttu-id="fa1fe-265">如**檔案名稱**，輸入檔案名稱。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-265">For **File name**, enter the file name.</span></span> <span data-ttu-id="fa1fe-266">如果您使用 XML 檔案做為測試訊息，請輸入**%MessageID%.xml**。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-266">If you are using an XML file as your test message, enter **%MessageID%.xml**.</span></span> <span data-ttu-id="fa1fe-267">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-267">Click **OK**.</span></span>  
+5.  <span data-ttu-id="fa1fe-265">如**檔案名稱**，輸入檔案名稱。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-265">For **File name**, enter the file name.</span></span> <span data-ttu-id="fa1fe-266">如果您使用 XML 檔案做為測試訊息，請輸入 **%MessageID%.xml**。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-266">If you are using an XML file as your test message, enter **%MessageID%.xml**.</span></span> <span data-ttu-id="fa1fe-267">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-267">Click **OK**.</span></span>  
   
 6.  <span data-ttu-id="fa1fe-268">接受預設值是**PassThruTransmit**如**傳送管線**。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-268">Accept the default of **PassThruTransmit** for **Send Pipeline**.</span></span>  
   
@@ -292,7 +293,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  <span data-ttu-id="fa1fe-279">在**FILE 傳輸屬性**對話方塊中，針對**目的地資料夾**，輸入您要建立為 MDN 傳送目標的本機資料夾。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-279">In the **FILE Transport Properties** dialog box, for **Destination folder**, enter the local folder you created to send the MDN to.</span></span>  
   
-5.  <span data-ttu-id="fa1fe-280">如**檔案名稱**，輸入**%MessageID%.msg**。按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-280">For **File name**, enter **%MessageID%.msg**. Click **OK**.</span></span>  
+5.  <span data-ttu-id="fa1fe-280">如**檔案名稱**，輸入 **%MessageID%.msg**。按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-280">For **File name**, enter **%MessageID%.msg**. Click **OK**.</span></span>  
   
 6.  <span data-ttu-id="fa1fe-281">接受預設值是**PassThruTransmit**如**傳送管線**。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-281">Accept the default of **PassThruTransmit** for **Send Pipeline**.</span></span>  
   
@@ -313,7 +314,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  <span data-ttu-id="fa1fe-295">以滑鼠右鍵按一下合作對象名稱，指向**新增**，然後按一下 **商務設定檔**。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-295">Right-click the party name, point to **New**, and then click **Business Profile**.</span></span>  
   
-4.  <span data-ttu-id="fa1fe-296">在**設定檔屬性**對話方塊**一般**頁面上，輸入**[fabrikam_profile]**中**名稱**文字方塊。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-296">In the **Profile Properties** dialog box, on the **General** page, enter **Fabrikam_Profile** in the **Name** text box.</span></span>  
+4.  <span data-ttu-id="fa1fe-296">在**設定檔屬性**對話方塊**一般**頁面上，輸入 **[fabrikam_profile]** 中**名稱**文字方塊。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-296">In the **Profile Properties** dialog box, on the **General** page, enter **Fabrikam_Profile** in the **Name** text box.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="fa1fe-297">當您建立合作對象時，會同時建立設定檔。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-297">When you create a party, a profile is also created.</span></span> <span data-ttu-id="fa1fe-298">您可以重新命名再使用該設定檔，而不需建立新設定檔。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-298">You can rename and use that profile instead of creating a new one.</span></span> <span data-ttu-id="fa1fe-299">若要重新命名設定檔，以滑鼠右鍵按一下 設定檔，然後選取**屬性**。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-299">To rename a profile, right-click the profile and select **Properties**.</span></span> <span data-ttu-id="fa1fe-300">在**一般**頁面上，指定設定檔的名稱。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-300">In the **General** page, specify a name for the profile.</span></span>  
@@ -329,7 +330,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  <span data-ttu-id="fa1fe-307">以滑鼠右鍵按一下合作對象名稱，指向**新增**，然後按一下 **商務設定檔**。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-307">Right-click the party name, point to **New**, and then click **Business Profile**.</span></span>  
   
-4.  <span data-ttu-id="fa1fe-308">在**設定檔屬性**對話方塊**一般**頁面上，輸入**[contoso_profile]**中**名稱**文字方塊。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-308">In the **Profile Properties** dialog box, on the **General** page, enter **Contoso_Profile** in the **Name** text box.</span></span>  
+4.  <span data-ttu-id="fa1fe-308">在**設定檔屬性**對話方塊**一般**頁面上，輸入 **[contoso_profile]** 中**名稱**文字方塊。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-308">In the **Profile Properties** dialog box, on the **General** page, enter **Contoso_Profile** in the **Name** text box.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="fa1fe-309">當您建立合作對象時，會同時建立設定檔。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-309">When you create a party, a profile is also created.</span></span> <span data-ttu-id="fa1fe-310">您可以重新命名再使用該設定檔，而不需建立新設定檔。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-310">You can rename and use that profile instead of creating a new one.</span></span> <span data-ttu-id="fa1fe-311">若要重新命名設定檔，以滑鼠右鍵按一下 設定檔，然後選取**屬性**。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-311">To rename a profile, right-click the profile and select **Properties**.</span></span> <span data-ttu-id="fa1fe-312">在**一般**頁面上，指定設定檔的名稱。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-312">In the **General** page, specify a name for the profile.</span></span>  
@@ -352,7 +353,7 @@ ms.lasthandoff: 09/20/2017
   
     1.  <span data-ttu-id="fa1fe-321">在**識別碼**頁面上，輸入的值**AS2-從**和**AS2-要**。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-321">On the **Identifiers** page, enter values for **AS2-From** and **AS2-To**.</span></span> <span data-ttu-id="fa1fe-322">如**AS2-從**，輸入`Contoso`。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-322">For **AS2-From**, enter `Contoso`.</span></span> <span data-ttu-id="fa1fe-323">如**AS2-To**，輸入`Fabrikam`。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-323">For **AS2- To**, enter `Fabrikam`.</span></span>  
   
-    2.  <span data-ttu-id="fa1fe-324">在**通知 (Mdn)**頁面上，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="fa1fe-324">In the **Acknowledgements (MDNs)** page, do the following:</span></span>  
+    2.  <span data-ttu-id="fa1fe-324">在**通知 (Mdn)** 頁面上，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="fa1fe-324">In the **Acknowledgements (MDNs)** page, do the following:</span></span>  
   
         1.  <span data-ttu-id="fa1fe-325">選取**針對路由/傳遞選項處理 MessageBox 中的輸入的 MDN**核取方塊。</span><span class="sxs-lookup"><span data-stu-id="fa1fe-325">Select the **Process inbound MDN into MessageBox for routing/delivery options** check box.</span></span>  
   

@@ -1,11 +1,11 @@
 ---
-title: "轉譯商務程序管理解決方案的模式 |Microsoft 文件"
-ms.custom: 
+title: 轉譯商務程序管理解決方案的模式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - artifacts, patterns
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - orchestrations, patterns
 - orchestrations, boundaries
 ms.assetid: 69f37732-f235-4bbb-bc85-31b4971c95ce
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279094"
 ---
 # <a name="translating-the-patterns-of-the-business-process-management-solution"></a><span data-ttu-id="b1d91-102">轉譯商務程序管理解決方案的模式</span><span class="sxs-lookup"><span data-stu-id="b1d91-102">Translating the Patterns of the Business Process Management Solution</span></span>
 <span data-ttu-id="b1d91-103">本節描述解決方案如何將模式圖轉譯為 BizTalk Server 成品。</span><span class="sxs-lookup"><span data-stu-id="b1d91-103">This section describes how the solution translates the pattern diagram into BizTalk Server artifacts.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "插入、 更新、 刪除或選取介面資料表和檢視表使用 WCF 服務模型的作業 |Microsoft 文件"
-ms.custom: 
+title: 插入、 更新、 刪除或選取介面資料表和檢視表使用 WCF 服務模型的作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ae613c0e-4d9a-4c66-99e4-dd0443f1d495
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218142"
 ---
 # <a name="insert-update-delete-or-select-operations-on-interface-tables-and-views-using-the-wcf-service-model"></a><span data-ttu-id="e06f3-102">插入、 更新、 刪除或選取介面資料表和檢視表使用 WCF 服務模型的作業</span><span class="sxs-lookup"><span data-stu-id="e06f3-102">Insert, update, delete, or select operations on interface tables and views using the WCF service model</span></span>
 <span data-ttu-id="e06f3-103">[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]探索一組介面資料表的基本 Insert、 Select、 Update 和 Delete 作業。</span><span class="sxs-lookup"><span data-stu-id="e06f3-103">The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] discovers a set of basic Insert, Select, Update, and Delete operations on interface tables.</span></span> <span data-ttu-id="e06f3-104">藉由使用這些作業，您可以執行簡單的 Insert、 Select、 Update 和 Delete 陳述式 WHERE 子句的目標介面資料表上所限定。</span><span class="sxs-lookup"><span data-stu-id="e06f3-104">By using these operations, you can perform simple Insert, Select, Update, and Delete statements qualified by a WHERE clause on a target interface table.</span></span> <span data-ttu-id="e06f3-105">本主題提供有關如何執行這些作業使用 WCF 服務模型的指示。</span><span class="sxs-lookup"><span data-stu-id="e06f3-105">This topic provides instructions on how to perform these operations using the WCF service model.</span></span>  

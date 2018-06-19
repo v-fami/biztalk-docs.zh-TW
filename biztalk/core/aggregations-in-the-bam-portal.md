@@ -1,11 +1,11 @@
 ---
-title: "BAM 入口網站中的彙總 |Microsoft 文件"
-ms.custom: 
+title: BAM 入口網站中的彙總 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BAM portal, pivot tables
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - charts, BAM portal
 - BAM portal, aggregations
 ms.assetid: 1c689563-714b-4573-9c18-a5b0efe97fb8
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230542"
 ---
 # <a name="aggregations-in-the-bam-portal"></a><span data-ttu-id="5a0ba-102">BAM 入口網站中的彙總</span><span class="sxs-lookup"><span data-stu-id="5a0ba-102">Aggregations in the BAM Portal</span></span>
 <span data-ttu-id="5a0ba-103">彙總是預先計算好的資料表格，您可以搭配 OLAP Cube 進行分析處理。</span><span class="sxs-lookup"><span data-stu-id="5a0ba-103">Aggregations are tables of precalculated data you can use for analytical processing with an OLAP cube.</span></span> <span data-ttu-id="5a0ba-104">彙總有助於提升多維度資料庫的查詢效率。</span><span class="sxs-lookup"><span data-stu-id="5a0ba-104">Aggregations facilitate the efficient querying of multidimensional databases.</span></span> <span data-ttu-id="5a0ba-105">當您使用 Excel 的 BAM 增益集建立和部署觀察模型 (商務資料的高階定義) 時，便會建立彙總以利迅速評估與關鍵效能指標 (KPI) 相關的資料集合。</span><span class="sxs-lookup"><span data-stu-id="5a0ba-105">When you create and deploy your observation model (the high-level definition of your business data) using the BAM Add-In for Excel, you create aggregations that you can use to quickly evaluate collections of data relating your Key Performance Indicators (KPIs).</span></span>  

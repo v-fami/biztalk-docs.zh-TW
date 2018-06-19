@@ -1,14 +1,14 @@
 ---
-title: "繫結錯誤 |Microsoft 文件"
-ms.custom: 
+title: 繫結錯誤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e8659786-bf2d-4260-a38c-6be1620b3cb6
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230726"
 ---
 # <a name="binding-errors"></a><span data-ttu-id="40433-102">繫結錯誤</span><span class="sxs-lookup"><span data-stu-id="40433-102">Binding Errors</span></span>
 <span data-ttu-id="40433-103">本節包含診斷及解決 WCF 繫結錯誤的詳細的資訊。</span><span class="sxs-lookup"><span data-stu-id="40433-103">This section contains detailed information for diagnosing and resolving WCF Binding errors.</span></span>  

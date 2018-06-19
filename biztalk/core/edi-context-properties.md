@@ -1,14 +1,14 @@
 ---
-title: "EDI 內容屬性 |Microsoft 文件"
-ms.custom: 
+title: EDI 內容屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d6a408af-daf5-4e9e-afb3-9fd1795e8c16
-caps.latest.revision: "30"
+caps.latest.revision: 30
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010615"
 ---
 # <a name="edi-context-properties"></a><span data-ttu-id="259a8-102">EDI 內容屬性</span><span class="sxs-lookup"><span data-stu-id="259a8-102">EDI Context Properties</span></span>
 <span data-ttu-id="259a8-103">EDI 全域屬性結構描述中的訊息內容屬性都是公開屬性，因此您可以在像是訊息路由等作業中使用這些內容屬性。</span><span class="sxs-lookup"><span data-stu-id="259a8-103">The message context properties in the EDI global property schema are publicly exposed so you can use them in operations such as message routing.</span></span> <span data-ttu-id="259a8-104">這些內容屬性都是定義在 Microsoft.BizTalk.Edi.BaseArtifacts 組件的 PropertySchema.xsd 結構描述中。</span><span class="sxs-lookup"><span data-stu-id="259a8-104">These context properties are defined in PropertySchema.xsd in the Microsoft.BizTalk.Edi.BaseArtifacts assembly.</span></span> <span data-ttu-id="259a8-105">屬性的命名空間是 `http://schemas.microsoft.com/ Edi/PropertySchema`。</span><span class="sxs-lookup"><span data-stu-id="259a8-105">The namespace for the properties is `http://schemas.microsoft.com/ Edi/PropertySchema`.</span></span> <span data-ttu-id="259a8-106">如果升級，這些訊息內容屬性就可做為 Edi。\<*屬性名稱*\>中**篩選**頁面**傳送埠屬性 對話方塊** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。</span><span class="sxs-lookup"><span data-stu-id="259a8-106">If they are promoted, these message context properties are available as Edi.\<*Property Name*\> in the **Filters** page of the **Send Port Properties Dialog Box** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].</span></span>

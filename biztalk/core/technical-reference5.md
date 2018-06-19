@@ -1,15 +1,15 @@
 ---
-title: "UI 指導方針和開發人員參考 |Microsoft 文件"
-description: "配接器，BizTalk 對應工具中，協調流程設計師 」 中，規則引擎部署精靈，Web 服務發佈精靈 」，且更有 BizTalk Server 使用者介面 (UI) 說明"
-ms.custom: 
+title: UI 指導方針和開發人員參考 |Microsoft 文件
+description: 配接器，BizTalk 對應工具中，協調流程設計師 」 中，規則引擎部署精靈，Web 服務發佈精靈 」，且更有 BizTalk Server 使用者介面 (UI) 說明
+ms.custom: ''
 ms.date: 09/04/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b8539fc6-35fb-4c9c-bdc6-c7aefb5efe0a
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279750"
 ---
 # <a name="biztalk-server-ui-help--developers-reference"></a><span data-ttu-id="64b4f-103">BizTalk Server UI 說明與開發人員參考</span><span class="sxs-lookup"><span data-stu-id="64b4f-103">BizTalk Server UI help & Developers reference</span></span>
 

@@ -1,14 +1,14 @@
 ---
-title: "無法辨認封送處理類型的輸出訊息 |Microsoft 文件"
-ms.custom: 
+title: 無法辨認封送處理類型的輸出訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e675112b-12f3-47ff-95f7-ce1a05db120e
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286654"
 ---
 # <a name="unrecognized-outbound-message-marshalling-type"></a><span data-ttu-id="7cf4b-102">無法辨認封送處理類型的輸出訊息</span><span class="sxs-lookup"><span data-stu-id="7cf4b-102">Unrecognized outbound message marshalling type</span></span>
 ## <a name="details"></a><span data-ttu-id="7cf4b-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="7cf4b-103">Details</span></span>  

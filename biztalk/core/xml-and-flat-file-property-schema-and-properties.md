@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1d917b82-62c6-489f-99a9-97e429b6f7c0
-caps.latest.revision: ''
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22290414"
 ---
 # <a name="xml-and-flat-file-property-schema-and-properties"></a><span data-ttu-id="e63e9-102">XML 和一般檔案屬性結構描述與屬性</span><span class="sxs-lookup"><span data-stu-id="e63e9-102">XML and Flat File Property Schema and Properties</span></span>
 <span data-ttu-id="e63e9-103">**http://schemas.microsoft.com/BizTalk/2003/xmlnorm-properties**命名空間包含可用來設定一般檔案組合器和一般檔案解譯器管線元件的屬性。</span><span class="sxs-lookup"><span data-stu-id="e63e9-103">The **http://schemas.microsoft.com/BizTalk/2003/xmlnorm-properties** namespace contains properties you can use to configure Flat File Assembler and Flat File Disassembler pipeline components.</span></span> <span data-ttu-id="e63e9-104">下表說明這些屬性。</span><span class="sxs-lookup"><span data-stu-id="e63e9-104">The properties are described in the following table.</span></span>  

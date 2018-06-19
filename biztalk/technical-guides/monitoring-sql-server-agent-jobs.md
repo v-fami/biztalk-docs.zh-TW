@@ -1,14 +1,14 @@
 ---
-title: "監視 SQL Server Agent 作業 |Microsoft 文件"
-ms.custom: 
+title: 監視 SQL Server Agent 作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 60d0a377-c86d-429b-9e48-c37bd5b0f912
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298958"
 ---
 # <a name="monitoring-sql-server-agent-jobs"></a><span data-ttu-id="28cb6-102">監視 SQL Server Agent 作業</span><span class="sxs-lookup"><span data-stu-id="28cb6-102">Monitoring SQL Server Agent Jobs</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="28cb6-103"> 包含多項 SQL Server Agent 作業，可執行重要功能以維持伺服器運作正常且狀況良好。</span><span class="sxs-lookup"><span data-stu-id="28cb6-103"> includes multiple SQL Server Agent jobs that perform important functions to keep your servers operational and healthy.</span></span> <span data-ttu-id="28cb6-104">您應該監視這些作業的狀況，確保它們在沒有錯誤的情況下執行。</span><span class="sxs-lookup"><span data-stu-id="28cb6-104">You should monitor the health of these jobs and ensure that they are running without errors.</span></span>  

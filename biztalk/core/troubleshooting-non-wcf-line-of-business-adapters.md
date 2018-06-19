@@ -1,14 +1,14 @@
 ---
-title: "疑難排解非-WCF 線條的商務配接器 |Microsoft 文件"
-ms.custom: 
+title: 疑難排解非-WCF 線條的商務配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4d5f7877-656f-406e-9edb-d6b9a0705b02
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279742"
 ---
 # <a name="troubleshooting-non-wcf-line-of-business-adapters"></a><span data-ttu-id="ed1fb-102">疑難排解非 WCF 商務營運系統配接器</span><span class="sxs-lookup"><span data-stu-id="ed1fb-102">Troubleshooting non-WCF Line of Business Adapters</span></span>
 ## <a name="failed-to-retrieve-error"></a><span data-ttu-id="ed1fb-103">「無法擷取」錯誤</span><span class="sxs-lookup"><span data-stu-id="ed1fb-103">“Failed to retrieve” error</span></span>  

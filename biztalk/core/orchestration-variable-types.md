@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264574"
 ---
 # <a name="orchestration-variable-types"></a><span data-ttu-id="39df9-102">協調流程變數類型</span><span class="sxs-lookup"><span data-stu-id="39df9-102">Orchestration Variable Types</span></span>
 <span data-ttu-id="39df9-103">您可以宣告下列預先定義型別的變數：</span><span class="sxs-lookup"><span data-stu-id="39df9-103">You can declare variables of the following predefined types:</span></span>  

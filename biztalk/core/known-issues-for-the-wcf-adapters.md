@@ -1,14 +1,14 @@
 ---
-title: "WCF 配接器的已知問題 |Microsoft 文件"
-ms.custom: 
+title: WCF 配接器的已知問題 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 423c6021-5fb7-48c9-9319-11e7a18c775c
-caps.latest.revision: "54"
+caps.latest.revision: 54
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009751"
 ---
 # <a name="known-issues-for-the-wcf-adapters"></a><span data-ttu-id="a7e35-102">WCF 配接器的已知問題</span><span class="sxs-lookup"><span data-stu-id="a7e35-102">Known Issues for the WCF Adapters</span></span>
 <span data-ttu-id="a7e35-103">本主題描述 BizTalk Server 隨附的 WCF 配接器的已知的問題。</span><span class="sxs-lookup"><span data-stu-id="a7e35-103">This topic describes the known issues for the WCF adapters included with BizTalk Server.</span></span>  
@@ -87,7 +88,7 @@ svcutil.exe /t:metadata http://service/metadataendpoint
  <span data-ttu-id="a7e35-171">BizTalk WCF 服務使用精靈不允許您匯入有單向與要求-回應組合作業的連接埠類型。</span><span class="sxs-lookup"><span data-stu-id="a7e35-171">The BizTalk WCF Service Consuming Wizard does not allow you to import the port types that have a combination of one-way and request-response operations.</span></span> <span data-ttu-id="a7e35-172">若要解決這個問題，您可以使用 ServiceModel 中繼資料公用程式工具來產生連接埠類型。</span><span class="sxs-lookup"><span data-stu-id="a7e35-172">To work around this, you can use the ServiceModel Metadata Utility Tool to generate the port types.</span></span>  
   
 ## <a name="the-biztalk-wcf-service-consuming-wizard-does-not-allow-you-to-set-certificate-credentials-when-retrieving-the-wsdl"></a><span data-ttu-id="a7e35-173">擷取 WSDL 時，BizTalk WCF 服務使用精靈不允許您設定憑證認證</span><span class="sxs-lookup"><span data-stu-id="a7e35-173">The BizTalk WCF Service Consuming Wizard does not allow you to set certificate credentials when retrieving the WSDL</span></span>  
- <span data-ttu-id="a7e35-174">擷取 WSDL 時，BizTalk WCF 服務使用精靈不允許您設定憑證認證。</span><span class="sxs-lookup"><span data-stu-id="a7e35-174">The BizTalk WCF Service Consuming Wizard does not allow you to set certificate credentials when retrieving the WSDL.</span></span> <span data-ttu-id="a7e35-175">若要解決這個問題，您可以使用 ServiceModel 中繼資料公用程式工具產生的 WSDL 與 XSD 檔案，您想要使用的憑證認證的 WCF 服務集合中的其他 svcutil.exe.config 檔，然後再匯入 BizTalk WCF 服務使用精靈選擇**中繼資料檔案 （WSDL 和 XSD）**選項**中繼資料來源**頁面。</span><span class="sxs-lookup"><span data-stu-id="a7e35-175">To work around this, you can use the ServiceModel Metadata Utility Tool to generate the WSDL and XSD files from the WCF services you wish to consume with the certificate credentials set in the svcutil.exe.config file, and then import them into the BizTalk WCF Service Consuming Wizard by choosing **Metadata Files (WSDL and XSD)** option in the **Metadata source** page.</span></span>  
+ <span data-ttu-id="a7e35-174">擷取 WSDL 時，BizTalk WCF 服務使用精靈不允許您設定憑證認證。</span><span class="sxs-lookup"><span data-stu-id="a7e35-174">The BizTalk WCF Service Consuming Wizard does not allow you to set certificate credentials when retrieving the WSDL.</span></span> <span data-ttu-id="a7e35-175">若要解決這個問題，您可以使用 ServiceModel 中繼資料公用程式工具產生的 WSDL 與 XSD 檔案，您想要使用的憑證認證的 WCF 服務集合中的其他 svcutil.exe.config 檔，然後再匯入 BizTalk WCF 服務使用精靈選擇**中繼資料檔案 （WSDL 和 XSD）** 選項**中繼資料來源**頁面。</span><span class="sxs-lookup"><span data-stu-id="a7e35-175">To work around this, you can use the ServiceModel Metadata Utility Tool to generate the WSDL and XSD files from the WCF services you wish to consume with the certificate credentials set in the svcutil.exe.config file, and then import them into the BizTalk WCF Service Consuming Wizard by choosing **Metadata Files (WSDL and XSD)** option in the **Metadata source** page.</span></span>  
   
 ## <a name="wcf-adapters-do-not-support-one-way-operations"></a><span data-ttu-id="a7e35-176">WCF 配接器不支援單向作業</span><span class="sxs-lookup"><span data-stu-id="a7e35-176">WCF adapters do not support one-way operations</span></span>  
  <span data-ttu-id="a7e35-177">您會收到類似下面的錯誤訊息使用 WCF 服務發佈 WCF 配接器 （除了 Wcf-netmsmq 接收配接器） 時如果**IsOneWay**屬性設定為**true**在用戶端。</span><span class="sxs-lookup"><span data-stu-id="a7e35-177">You will receive an error message similar to the following when consuming WCF services published with the WCF adapters (except for the WCF-NetMsmq receive adapter) if the **IsOneWay** property is set to **true** at client side.</span></span> <span data-ttu-id="a7e35-178">這是因為**System.ServiceModel.OperationContractAttribute.IsOneWay** （除非服務發行使用 Wcf-netmsmq 接收配接器） 的 WCF 配接器發佈之 WCF 服務的屬性設定為**false**即使是單向接收位置。</span><span class="sxs-lookup"><span data-stu-id="a7e35-178">This is because the **System.ServiceModel.OperationContractAttribute.IsOneWay** property of WCF services published with the WCF adapters (except for services published with the WCF-NetMsmq receive adapter) is set to **false** even for the one-way receive locations.</span></span>  

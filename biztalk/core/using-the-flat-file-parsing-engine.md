@@ -1,18 +1,18 @@
 ---
-title: "使用一般檔案剖析引擎 |Microsoft 文件"
-ms.custom: 
+title: 使用一般檔案剖析引擎 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components [custom], flat file documents
 - pipeline components [custom], engines
 - pipeline components [custom], parsing
 ms.assetid: b65607bc-61ba-4dbd-9b84-61b033514a21
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287518"
 ---
 # <a name="using-the-flat-file-parsing-engine"></a><span data-ttu-id="aac40-102">使用一般檔案剖析引擎</span><span class="sxs-lookup"><span data-stu-id="aac40-102">Using the Flat File Parsing Engine</span></span>
 <span data-ttu-id="aac40-103">本節包含與一般檔案剖析引擎有關之一般工作的程式碼範例。</span><span class="sxs-lookup"><span data-stu-id="aac40-103">This section contains code examples for common tasks associated with the flat file parsing engine.</span></span>  

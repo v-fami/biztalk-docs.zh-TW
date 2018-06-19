@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230630"
 ---
 # <a name="btadserver"></a><span data-ttu-id="1a3c0-102">BTAD_Server</span><span class="sxs-lookup"><span data-stu-id="1a3c0-102">BTAD_Server</span></span>
 <span data-ttu-id="1a3c0-103">在應用程式匯入期間執行前置和後置處理指令碼時，會設定 BTAD_Server 環境變數。</span><span class="sxs-lookup"><span data-stu-id="1a3c0-103">When pre- and post-processing scripts run on application import, the BTAD_Server environment variable is set.</span></span> <span data-ttu-id="1a3c0-104">它會為群組指定執行 BizTalk 管理資料庫之 SQL Server 執行個體的名稱。</span><span class="sxs-lookup"><span data-stu-id="1a3c0-104">It specifies the name of the SQL Server instance running the BizTalk Management database for the group.</span></span>  

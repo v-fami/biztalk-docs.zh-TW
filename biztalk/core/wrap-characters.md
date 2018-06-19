@@ -1,14 +1,14 @@
 ---
-title: "換行字元 |Microsoft 文件"
-ms.custom: 
+title: 換行字元 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d7268f46-9bf6-4c76-9b3a-b4ee0e8db997
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290030"
 ---
 # <a name="wrap-characters"></a><span data-ttu-id="46b79-102">換行字元</span><span class="sxs-lookup"><span data-stu-id="46b79-102">Wrap Characters</span></span>
 

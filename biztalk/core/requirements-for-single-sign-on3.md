@@ -1,14 +1,14 @@
 ---
-title: "TIBCO 會合配接器的 SSO 需求 |Microsoft 文件"
-ms.custom: 
+title: TIBCO 會合配接器的 SSO 需求 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7d5c406b-f548-4df0-8644-fdf6a812a989
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015993"
 ---
 # <a name="requirements-for-single-sign-on"></a><span data-ttu-id="8a056-102">單一登入的需求</span><span class="sxs-lookup"><span data-stu-id="8a056-102">Requirements for Single Sign-On</span></span>
 

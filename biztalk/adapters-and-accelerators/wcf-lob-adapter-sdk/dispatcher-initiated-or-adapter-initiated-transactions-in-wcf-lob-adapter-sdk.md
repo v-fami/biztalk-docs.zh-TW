@@ -1,14 +1,14 @@
 ---
-title: "使用 WCF LOB 配接器 SDK 設定發送器起始或配接器起始交易 |Microsoft 文件"
-ms.custom: 
+title: 使用 WCF LOB 配接器 SDK 設定發送器起始或配接器起始交易 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 85b9ef8d-3922-4838-a41a-32db5e005dc0
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225758"
 ---
 # <a name="configure-dispatcher-initiated-or-adapter-initiated-transactions-with-the-wcf-lob-adapter-sdk"></a><span data-ttu-id="985f0-102">使用 WCF LOB 配接器 SDK 設定發送器起始或配接器起始交易</span><span class="sxs-lookup"><span data-stu-id="985f0-102">Configure dispatcher-initiated or adapter-initiated transactions with the WCF LOB Adapter SDK</span></span>
 ## <a name="inbound-transactions"></a><span data-ttu-id="985f0-103">輸入的交易</span><span class="sxs-lookup"><span data-stu-id="985f0-103">Inbound Transactions</span></span>  
@@ -26,7 +27,7 @@ ms.lasthandoff: 09/20/2017
   
 |<span data-ttu-id="985f0-108">SupportsTransactedInbound</span><span class="sxs-lookup"><span data-stu-id="985f0-108">SupportsTransactedInbound</span></span>|<span data-ttu-id="985f0-109">交易式行為</span><span class="sxs-lookup"><span data-stu-id="985f0-109">Transactional Behavior</span></span>|  
 |-------------------------------|----------------------------|  
-|<span data-ttu-id="985f0-110">True （發送器啟動）</span><span class="sxs-lookup"><span data-stu-id="985f0-110">True (dispatcher-initiated)</span></span>|<span data-ttu-id="985f0-111">-TryReceive 一律會在交易內容中呼叫。</span><span class="sxs-lookup"><span data-stu-id="985f0-111">-   TryReceive will always be called within the context of a transaction.</span></span><br /><span data-ttu-id="985f0-112">的之後的訊息傳回至服務實作，將會認可交易。</span><span class="sxs-lookup"><span data-stu-id="985f0-112">-   The transaction will be committed after the message is returned to the service implementation.</span></span><br /><span data-ttu-id="985f0-113">-新的交易將會建立每個 IInputChannel.Receive 呼叫。</span><span class="sxs-lookup"><span data-stu-id="985f0-113">-   A new transaction will be created for each IInputChannel.Receive call.</span></span> <span data-ttu-id="985f0-114">跨多個跨越交易接收依存於服務主機，而不是配接器開發。</span><span class="sxs-lookup"><span data-stu-id="985f0-114">Spanning a transaction across multiple receives is dependent on the service host and not the adapter developer.</span></span> <span data-ttu-id="985f0-115">**注意：**如果主機不使用 WCF 發送器 （服務主機），且會改為使用通道層級的程式設計，主應用程式應該接受**TransactedReceiveEnabled**屬性的 WCF 繫結，並應該讓所有在交易內 IInputChannel.Receive 呼叫。</span><span class="sxs-lookup"><span data-stu-id="985f0-115">**Note:**  If the host is not using the WCF dispatcher (service host) and is instead using channel level programming, the host should honor the **TransactedReceiveEnabled** property of the WCF binding, and should make all calls to IInputChannel.Receive within a transaction.</span></span> <span data-ttu-id="985f0-116">**注意：**如果配接器使用發送器起始交易，並使用與 Biztalk Server，設定`SupportedInboundChannels`屬性`SupportedInboundChannels.IInputChannel`表示配接器只支援單向通道。</span><span class="sxs-lookup"><span data-stu-id="985f0-116">**Note:**  If the adapter uses dispatcher-initiated transactions, and is used with Biztalk Server, set the `SupportedInboundChannels` property to `SupportedInboundChannels.IInputChannel` to indicate that the adapter only supports one-way channels.</span></span> <span data-ttu-id="985f0-117">如果未設定，BizTalk Server 會嘗試使用雙向通道。</span><span class="sxs-lookup"><span data-stu-id="985f0-117">If this is not set, BizTalk Server will attempt to use two-way channels.</span></span>|  
+|<span data-ttu-id="985f0-110">True （發送器啟動）</span><span class="sxs-lookup"><span data-stu-id="985f0-110">True (dispatcher-initiated)</span></span>|<span data-ttu-id="985f0-111">-TryReceive 一律會在交易內容中呼叫。</span><span class="sxs-lookup"><span data-stu-id="985f0-111">-   TryReceive will always be called within the context of a transaction.</span></span><br /><span data-ttu-id="985f0-112">的之後的訊息傳回至服務實作，將會認可交易。</span><span class="sxs-lookup"><span data-stu-id="985f0-112">-   The transaction will be committed after the message is returned to the service implementation.</span></span><br /><span data-ttu-id="985f0-113">-新的交易將會建立每個 IInputChannel.Receive 呼叫。</span><span class="sxs-lookup"><span data-stu-id="985f0-113">-   A new transaction will be created for each IInputChannel.Receive call.</span></span> <span data-ttu-id="985f0-114">跨多個跨越交易接收依存於服務主機，而不是配接器開發。</span><span class="sxs-lookup"><span data-stu-id="985f0-114">Spanning a transaction across multiple receives is dependent on the service host and not the adapter developer.</span></span> <span data-ttu-id="985f0-115">**注意：** 如果主機不使用 WCF 發送器 （服務主機），且會改為使用通道層級的程式設計，主應用程式應該接受**TransactedReceiveEnabled**屬性的 WCF 繫結，並應該讓所有在交易內 IInputChannel.Receive 呼叫。</span><span class="sxs-lookup"><span data-stu-id="985f0-115">**Note:**  If the host is not using the WCF dispatcher (service host) and is instead using channel level programming, the host should honor the **TransactedReceiveEnabled** property of the WCF binding, and should make all calls to IInputChannel.Receive within a transaction.</span></span> <span data-ttu-id="985f0-116">**注意：** 如果配接器使用發送器起始交易，並使用與 Biztalk Server，設定`SupportedInboundChannels`屬性`SupportedInboundChannels.IInputChannel`表示配接器只支援單向通道。</span><span class="sxs-lookup"><span data-stu-id="985f0-116">**Note:**  If the adapter uses dispatcher-initiated transactions, and is used with Biztalk Server, set the `SupportedInboundChannels` property to `SupportedInboundChannels.IInputChannel` to indicate that the adapter only supports one-way channels.</span></span> <span data-ttu-id="985f0-117">如果未設定，BizTalk Server 會嘗試使用雙向通道。</span><span class="sxs-lookup"><span data-stu-id="985f0-117">If this is not set, BizTalk Server will attempt to use two-way channels.</span></span>|  
 |<span data-ttu-id="985f0-118">False （配接器啟動）</span><span class="sxs-lookup"><span data-stu-id="985f0-118">False (adapter-initiated)</span></span>|<span data-ttu-id="985f0-119">-配接器開發人員必須實作配接器內的交易邏輯。</span><span class="sxs-lookup"><span data-stu-id="985f0-119">-   The adapter developer must implement transaction logic within the adapter.</span></span><br /><span data-ttu-id="985f0-120">配接器-起始交易只能使用雙向的訊息 （回覆通道） 模型。</span><span class="sxs-lookup"><span data-stu-id="985f0-120">-   Adapter-initiated transactions can only work with a two-way messaging (Reply Channel) model.</span></span><br /><span data-ttu-id="985f0-121">-一筆交易可以跨越多個訊息，因為每個訊息的發送器所建立相依的複製品。</span><span class="sxs-lookup"><span data-stu-id="985f0-121">-   One transaction can span multiple messages, since dependent clones will be created for each message by the dispatcher.</span></span>|  
   
 ### <a name="dispatcher-initiated-transactions"></a><span data-ttu-id="985f0-122">發送器起始的交易</span><span class="sxs-lookup"><span data-stu-id="985f0-122">Dispatcher-initiated Transactions</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "傳送保留批次與 XML 傳送管線 |Microsoft 文件"
-ms.custom: 
+title: 傳送保留批次與 XML 傳送管線 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6765576a-134f-4856-911c-2f603b6479bd
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269822"
 ---
 # <a name="sending-a-preserved-batch-with-an-xml-send-pipeline"></a><span data-ttu-id="aca09-102">透過 XML 傳送管線來傳送保留批次</span><span class="sxs-lookup"><span data-stu-id="aca09-102">Sending a Preserved Batch with an XML Send Pipeline</span></span>
 <span data-ttu-id="aca09-103">通常保留批次會透過 EDI 傳送管線來傳送。</span><span class="sxs-lookup"><span data-stu-id="aca09-103">Normally, a preserved batch is sent using an EDI send pipeline.</span></span> <span data-ttu-id="aca09-104">但是，您也可以使用 XML 傳送管線來傳送保留批次。</span><span class="sxs-lookup"><span data-stu-id="aca09-104">However, you can also use an XML send pipeline to send a preserved batch.</span></span> <span data-ttu-id="aca09-105">因為 EDI 接收管線所產生和放入 MessageBox 中的保留批次具有 XML 格式，所以 XML 傳送管線可以逐一處理 XML 格式的批次。</span><span class="sxs-lookup"><span data-stu-id="aca09-105">Since the preserved batch that is generated and dropped in the MessageBox by the EDI receive pipeline is in the XML format, the XML send pipeline would pass along the batch in XML format.</span></span>  

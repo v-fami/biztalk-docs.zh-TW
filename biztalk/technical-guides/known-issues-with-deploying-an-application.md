@@ -1,14 +1,14 @@
 ---
-title: "部署應用程式的已知問題 |Microsoft 文件"
-ms.custom: 
+title: 部署應用程式的已知問題 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7e5fb4f6-f9bd-4322-93f9-723e9e3c3317
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008231"
 ---
 # <a name="known-issues-with-deploying-an-application"></a><span data-ttu-id="95df6-102">部署應用程式的已知的問題</span><span class="sxs-lookup"><span data-stu-id="95df6-102">Known Issues with Deploying an Application</span></span>
 ## <a name="deploying-a-biztalk-application"></a><span data-ttu-id="95df6-103">部署 BizTalk 應用程式</span><span class="sxs-lookup"><span data-stu-id="95df6-103">Deploying a BizTalk Application</span></span>  

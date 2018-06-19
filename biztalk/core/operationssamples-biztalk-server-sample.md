@@ -1,14 +1,14 @@
 ---
-title: "OperationsSamples （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: OperationsSamples （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3c9e3f3e-a570-4edd-aa2e-3f8e2e37c8a0
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010247"
 ---
 # <a name="operationssamples-biztalk-server-sample"></a><span data-ttu-id="7e43d-102">OperationsSamples (BizTalk Server 範例)</span><span class="sxs-lookup"><span data-stu-id="7e43d-102">OperationsSamples (BizTalk Server Sample)</span></span>
 <span data-ttu-id="7e43d-103">OperationsSamples 範例示範如何利用 Operations 物件模型來執行操作活動。</span><span class="sxs-lookup"><span data-stu-id="7e43d-103">The OperationsSamples sample demonstrates how to perform operational activities using the Operations object model.</span></span>  
@@ -148,7 +149,7 @@ foreach (BizTalkMessage msg in messages)
   
      `<Samples Path>\Admin\OperationsOM\OperationSamples`  
   
-5.  <span data-ttu-id="7e43d-192">按兩下**[operationsom.sln]**載入 Visual Studio 專案檔。</span><span class="sxs-lookup"><span data-stu-id="7e43d-192">Double-click the **OperationsOM.sln** project file to load it into Visual Studio.</span></span>  
+5.  <span data-ttu-id="7e43d-192">按兩下 **[operationsom.sln]** 載入 Visual Studio 專案檔。</span><span class="sxs-lookup"><span data-stu-id="7e43d-192">Double-click the **OperationsOM.sln** project file to load it into Visual Studio.</span></span>  
   
 6.  <span data-ttu-id="7e43d-193">按 F5 執行範例。</span><span class="sxs-lookup"><span data-stu-id="7e43d-193">Press F5 to run the sample.</span></span>  
   

@@ -1,14 +1,14 @@
 ---
-title: "使用 JD Edwards OneWorld 系統 |Microsoft 文件"
-ms.custom: 
+title: 使用 JD Edwards OneWorld 系統 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5346aa04-ebd7-4545-9062-b349fd73b7f1
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287470"
 ---
 # <a name="using-a-jd-edwards-oneworld-system"></a><span data-ttu-id="e6203-102">使用 JD Edwards OneWorld 系統</span><span class="sxs-lookup"><span data-stu-id="e6203-102">Using a JD Edwards OneWorld System</span></span>
 <span data-ttu-id="e6203-103">您可以使用 JD Edwards OneWorld 配接器從 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 系統存取 JD Edwards OneWorld 系統。</span><span class="sxs-lookup"><span data-stu-id="e6203-103">The JD Edwards OneWorld system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] system by using the JD Edwards OneWorld adapter.</span></span> <span data-ttu-id="e6203-104">此配接器是一群八個 Microsoft 隨附以供搭配使用的特定業務 (LOB) 配接器的其中一個[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="e6203-104">This adapter is one of a group of eight line-of-business (LOB) adapters shipped by Microsoft for use with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  
@@ -57,7 +58,7 @@ ms.lasthandoff: 09/20/2017
   
      ![](../core/media/2f58413f-41a9-4ed9-ba5c-1d6d59eafb01.gif "2f58413f-41a9-4ed9-ba5c-1d6d59eafb01")  
   
-     <span data-ttu-id="e6203-128">在**通訊錄修訂-[使用位址]**對話方塊中，做為搜尋結果不會顯示兩個記錄。</span><span class="sxs-lookup"><span data-stu-id="e6203-128">In the **Address Book Revisions - [Work With Addresses]** dialog box, two records are displayed as a result of the search.</span></span>  
+     <span data-ttu-id="e6203-128">在**通訊錄修訂-[使用位址]** 對話方塊中，做為搜尋結果不會顯示兩個記錄。</span><span class="sxs-lookup"><span data-stu-id="e6203-128">In the **Address Book Revisions - [Work With Addresses]** dialog box, two records are displayed as a result of the search.</span></span>  
   
      ![](../core/media/9284df4e-ca9b-48ab-b2bf-a90d765d4a05.gif "9284df4e-ca9b-48ab-b2bf-a90d765d4a05")  
   

@@ -1,14 +1,14 @@
 ---
-title: "批次處理外寄 EDI 訊息 |Microsoft 文件"
-ms.custom: 
+title: 批次處理外寄 EDI 訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 93a2bd68-4974-4927-938a-8eaf8f007566
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006559"
 ---
 # <a name="batching-outgoing-edi-messages"></a><span data-ttu-id="c208d-102">批次處理外寄 EDI 訊息</span><span class="sxs-lookup"><span data-stu-id="c208d-102">Batching Outgoing EDI Messages</span></span>
 <span data-ttu-id="c208d-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 將會批次處理 EDI 交易集，前提是已經針對與接收它之商業夥伴相關聯的協議來啟用批次處理。</span><span class="sxs-lookup"><span data-stu-id="c208d-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will batch EDI transaction sets if batching has been enabled for the agreement associated with the business partner that will be receiving it.</span></span> <span data-ttu-id="c208d-104">協議的 EDI 屬性可讓您執行下列作業：</span><span class="sxs-lookup"><span data-stu-id="c208d-104">The EDI properties for an agreement enable you to do the following:</span></span>  

@@ -1,17 +1,17 @@
 ---
-title: "BizTalk Server 架構 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Server 架構 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - architecture
 - BizTalk Server, architecture
 ms.assetid: e09ffc98-b6e2-45c6-8fde-0e95c4dc71ec
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230550"
 ---
 # <a name="biztalk-server-architecture"></a><span data-ttu-id="9d552-102">BizTalk Server 架構</span><span class="sxs-lookup"><span data-stu-id="9d552-102">BizTalk Server Architecture</span></span>
 <span data-ttu-id="9d552-103">本節提供有關 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 架構與內部運作的詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="9d552-103">This section provides detailed information on the architecture and internal workings of Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  

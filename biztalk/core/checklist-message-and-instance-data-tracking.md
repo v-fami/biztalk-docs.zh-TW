@@ -1,15 +1,15 @@
 ---
-title: "檢查清單： 訊息執行個體和資料追蹤功能 |Microsoft 文件"
-description: "追蹤訊息、 執行個體，以及 BizTalk Server 中的成品時的最佳作法"
-ms.custom: 
+title: 檢查清單： 訊息執行個體和資料追蹤功能 |Microsoft 文件
+description: 追蹤訊息、 執行個體，以及 BizTalk Server 中的成品時的最佳作法
+ms.custom: ''
 ms.date: 02/26/2018
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d4b5b614-23e5-4895-9c66-417b55dee43c
-caps.latest.revision: 
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710401"
 ---
 # <a name="checklist-message-and-instance-data-tracking"></a><span data-ttu-id="d2d6a-103">檢查清單： 訊息及執行個體資料追蹤</span><span class="sxs-lookup"><span data-stu-id="d2d6a-103">Checklist: Message and Instance Data Tracking</span></span>
 |<span data-ttu-id="d2d6a-104">步驟</span><span class="sxs-lookup"><span data-stu-id="d2d6a-104">Step</span></span>|<span data-ttu-id="d2d6a-105">참조</span><span class="sxs-lookup"><span data-stu-id="d2d6a-105">Reference</span></span>|  

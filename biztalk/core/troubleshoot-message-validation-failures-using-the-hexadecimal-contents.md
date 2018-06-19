@@ -1,14 +1,14 @@
 ---
-title: "疑難排解訊息驗證失敗，藉由檢視十六進位內容的擱置訊息 |Microsoft 文件"
-ms.custom: 
+title: 疑難排解訊息驗證失敗，藉由檢視十六進位內容的擱置訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5cf14cd9-2d4b-43a3-9738-52bfd879e1e4
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279566"
 ---
 # <a name="troubleshooting-message-validation-failures-by-viewing-the-hexadecimal-contents-of-suspended-messages"></a><span data-ttu-id="730be-102">透過檢視十六進位內容的擱置訊息，對訊息驗證失敗的疑難排解</span><span class="sxs-lookup"><span data-stu-id="730be-102">Troubleshooting Message Validation Failures by Viewing the Hexadecimal Contents of Suspended Messages</span></span>
 <span data-ttu-id="730be-103">如果因驗證失敗而擱置訊息，檢視十六進位表示的訊息部分，可能有助於判斷驗證失敗的原因。</span><span class="sxs-lookup"><span data-stu-id="730be-103">If a message is suspended due to validation failures, it may be helpful to view the hexadecimal representation of the message parts to determine the cause of the validation failure.</span></span> <span data-ttu-id="730be-104">本主題列出執行步驟來檢視十六進位表示的擱置訊息部分。</span><span class="sxs-lookup"><span data-stu-id="730be-104">This topic lists steps that can be followed to view the hexadecimal representation of the parts of a suspended message.</span></span>  

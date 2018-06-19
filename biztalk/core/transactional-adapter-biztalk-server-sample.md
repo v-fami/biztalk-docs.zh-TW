@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 31a13377-cc89-4763-ad1b-508a16fc9708
-caps.latest.revision: ''
+caps.latest.revision: 36
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26009887"
 ---
 # <a name="transactional-adapter-biztalk-server-sample"></a><span data-ttu-id="2b834-102">交易式配接器 （BizTalk Server 範例）</span><span class="sxs-lookup"><span data-stu-id="2b834-102">Transactional Adapter (BizTalk Server Sample)</span></span>
 <span data-ttu-id="2b834-103">交易式配接器範例示範如何建立和使用在處理期間針對資料庫明確 Microsoft 分散式交易協調器 (MSDTC) 交易[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]訊息。</span><span class="sxs-lookup"><span data-stu-id="2b834-103">The Transactional Adapter sample demonstrates how to create and use an explicit Microsoft Distributed Transaction Coordinator (MSDTC) transaction against a database during processing of a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] message.</span></span>  
@@ -127,7 +128,7 @@ ms.lasthandoff: 03/28/2018
   
 #### <a name="create-a-receive-port-and-location-that-uses-the-adapter"></a><span data-ttu-id="2b834-188">建立使用配接器的接收埠和接收位置</span><span class="sxs-lookup"><span data-stu-id="2b834-188">Create a Receive Port and Location that uses the Adapter</span></span>  
   
-1.  <span data-ttu-id="2b834-189">展開**BizTalk 群組 [伺服器名稱]**節點[!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]，依序展開**應用程式**] 節點，展開 [ **BizTalk Application 1**節點。</span><span class="sxs-lookup"><span data-stu-id="2b834-189">Expand the **BizTalk Group[server name]** node in [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand **Applications** node, expand **BizTalk Application 1** node.</span></span>  
+1.  <span data-ttu-id="2b834-189">展開**BizTalk 群組 [伺服器名稱]** 節點[!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]，依序展開**應用程式**] 節點，展開 [ **BizTalk Application 1**節點。</span><span class="sxs-lookup"><span data-stu-id="2b834-189">Expand the **BizTalk Group[server name]** node in [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand **Applications** node, expand **BizTalk Application 1** node.</span></span>  
   
 2.  <span data-ttu-id="2b834-190">以滑鼠右鍵按一下 **接收埠**, ，然後按一下  **新增**, ，請選取 **單向接收埠。**</span><span class="sxs-lookup"><span data-stu-id="2b834-190">Right-click **Receive Ports**, and then click **New**, select **One-Way Receive Port.**</span></span>  
   
@@ -153,7 +154,7 @@ ms.lasthandoff: 03/28/2018
     |<span data-ttu-id="2b834-211">輪詢間隔單位</span><span class="sxs-lookup"><span data-stu-id="2b834-211">Polling Interval Unit</span></span>|<span data-ttu-id="2b834-212">資料輪詢的時間量值單位數。</span><span class="sxs-lookup"><span data-stu-id="2b834-212">The number of units of time measure for the polling of the data.</span></span> <span data-ttu-id="2b834-213">設定為秒數。</span><span class="sxs-lookup"><span data-stu-id="2b834-213">Set this to seconds.</span></span>|  
     |<span data-ttu-id="2b834-214">輪詢間隔</span><span class="sxs-lookup"><span data-stu-id="2b834-214">Polling Interval</span></span>|<span data-ttu-id="2b834-215">資料輪詢的時間量值單位。</span><span class="sxs-lookup"><span data-stu-id="2b834-215">The unit of time measure for the polling of the data.</span></span> <span data-ttu-id="2b834-216">設定為 15 秒。</span><span class="sxs-lookup"><span data-stu-id="2b834-216">Set this to 15 seconds.</span></span>|  
   
-10. <span data-ttu-id="2b834-217">按一下**[確定]**關閉 [設定] 對話方塊中，然後**確定**] 以關閉 [**接收位置屬性**對話方塊，即可返回[!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="2b834-217">Click **OK** to close the Configure dialog box, then **OK** again to close the **Receive Location Properties** dialog box to return to the [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)].</span></span>  
+10. <span data-ttu-id="2b834-217">按一下 **[確定]** 關閉 [設定] 對話方塊中，然後**確定**] 以關閉 [**接收位置屬性**對話方塊，即可返回[!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="2b834-217">Click **OK** to close the Configure dialog box, then **OK** again to close the **Receive Location Properties** dialog box to return to the [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)].</span></span>  
   
 #### <a name="create-a-send-port-and-send-handler-that-use-the-adapter"></a><span data-ttu-id="2b834-218">建立使用配接器的傳送埠和傳送處理常式</span><span class="sxs-lookup"><span data-stu-id="2b834-218">Create a Send Port and Send Handler that use the Adapter</span></span>  
   
@@ -221,7 +222,7 @@ ms.lasthandoff: 03/28/2018
   
 4.  <span data-ttu-id="2b834-249">在[!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]，依序展開**傳送埠**節點中，選取**TxnSendPort1**傳送埠，然後選取**啟動**。</span><span class="sxs-lookup"><span data-stu-id="2b834-249">In [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand the **Send Ports** node, select the **TxnSendPort1** send port, and select **Start**.</span></span>  
   
-5.  <span data-ttu-id="2b834-250">在[!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]，依序展開**ReceiveLocations**節點中，選取**[txnrecievelocation1]**接收位置，然後再選取**啟用**。</span><span class="sxs-lookup"><span data-stu-id="2b834-250">In [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand the **ReceiveLocations** node, select the **TxnRecieveLocation1** receive location, and then select **Enable**.</span></span>  
+5.  <span data-ttu-id="2b834-250">在[!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]，依序展開**ReceiveLocations**節點中，選取 **[txnrecievelocation1]** 接收位置，然後再選取**啟用**。</span><span class="sxs-lookup"><span data-stu-id="2b834-250">In [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand the **ReceiveLocations** node, select the **TxnRecieveLocation1** receive location, and then select **Enable**.</span></span>  
   
 6.  <span data-ttu-id="2b834-251">一旦啟用接收位置，它會自動輪詢資料庫，在指定的時間間隔的資料。</span><span class="sxs-lookup"><span data-stu-id="2b834-251">Once the receive location is enabled, it will automatically poll the database at the designated intervals for data.</span></span>  
   

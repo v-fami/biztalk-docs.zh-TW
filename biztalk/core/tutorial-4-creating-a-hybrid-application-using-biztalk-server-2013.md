@@ -1,14 +1,14 @@
 ---
-title: "教學課程 4： 建立使用 BizTalk Server 2013 的混合式應用程式 |Microsoft 文件"
-ms.custom: 
+title: 教學課程 4： 建立使用 BizTalk Server 2013 的混合式應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3a9de95f-7d2c-437d-be5b-0062592f32c6
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287342"
 ---
 # <a name="tutorial-4-creating-a-hybrid-application-using-biztalk-server-2013"></a><span data-ttu-id="bf018-102">教學課程 4： 建立使用 BizTalk Server 2013 的混合式應用程式</span><span class="sxs-lookup"><span data-stu-id="bf018-102">Tutorial 4: Creating a Hybrid Application Using BizTalk Server 2013</span></span>
 <span data-ttu-id="bf018-103">本節提供的逐步解說說明如何建立與 [!INCLUDE[appfabricintegration](../includes/appfabricintegration-md.md)] 及 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 有關的混合式應用程式。</span><span class="sxs-lookup"><span data-stu-id="bf018-103">This section provides a step-by-step walkthrough on how to create a hybrid application involving [!INCLUDE[appfabricintegration](../includes/appfabricintegration-md.md)] and [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  

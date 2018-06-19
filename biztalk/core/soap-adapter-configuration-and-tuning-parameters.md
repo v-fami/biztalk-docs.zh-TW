@@ -1,17 +1,17 @@
 ---
-title: "SOAP 配接器組態和調整參數 |Microsoft 文件"
-ms.custom: 
+title: SOAP 配接器組態和調整參數 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring [SOAP adapters], tuning
 - SOAP adapters, tuning
 ms.assetid: 73c175aa-16b9-4620-b303-9092ae29af21
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277342"
 ---
 # <a name="soap-adapter-configuration-and-tuning-parameters"></a><span data-ttu-id="6e474-102">SOAP 配接器組態和調整參數</span><span class="sxs-lookup"><span data-stu-id="6e474-102">SOAP Adapter Configuration and Tuning Parameters</span></span>
 <span data-ttu-id="6e474-103">您可透過在根 BizTalk Server 安裝目錄的 BTSNTSvc.exe 組態檔建立一個項目，以設定 SOAP 配接器為特定目的地伺服器開啟的並行連線數目。</span><span class="sxs-lookup"><span data-stu-id="6e474-103">You can configure the number of concurrent connections that the SOAP adapter opens for a particular destination server by making an entry in the BTSNTSvc.exe.config file that is located in the root BizTalk Server installation directory.</span></span>  

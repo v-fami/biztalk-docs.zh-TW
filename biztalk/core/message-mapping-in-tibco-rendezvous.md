@@ -1,15 +1,15 @@
 ---
-title: "訊息 TIBCO Rendezvous 中的對應 |Microsoft 文件"
-description: "訊息欄位和 XML 在 BizTalk Adapter for TIBCO Rendezvous 訊息對應"
-ms.custom: 
+title: 訊息 TIBCO Rendezvous 中的對應 |Microsoft 文件
+description: 訊息欄位和 XML 在 BizTalk Adapter for TIBCO Rendezvous 訊息對應
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 62793bec-f076-425c-b25e-c4be5bd93cc8
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014949"
 ---
 # <a name="message-mapping-in-tibco-rendezvous"></a><span data-ttu-id="56ba5-103">TIBCO Rendezvous 中的訊息對應</span><span class="sxs-lookup"><span data-stu-id="56ba5-103">Message Mapping in TIBCO Rendezvous</span></span>
 <span data-ttu-id="56ba5-104">TIBCO Rendezvous 訊息是由標頭資訊與一系列訊息欄位所組成。</span><span class="sxs-lookup"><span data-stu-id="56ba5-104">TIBCO Rendezvous messages are composed of header information and a set of message fields.</span></span> <span data-ttu-id="56ba5-105">標頭資訊直接對應訊息內容屬性。</span><span class="sxs-lookup"><span data-stu-id="56ba5-105">The header information is directly mapped to message context properties.</span></span>  

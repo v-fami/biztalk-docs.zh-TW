@@ -1,17 +1,17 @@
 ---
-title: "從舊版的 SSO 升級 |Microsoft 文件"
-ms.custom: 
+title: 從舊版的 SSO 升級 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - upgrading, SSO
 - SSO, upgrading
 ms.assetid: 78b99d99-9a10-4453-9db5-ae1bacd7de50
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286966"
 ---
 # <a name="upgrading-from-a-previous-version-of-sso"></a><span data-ttu-id="55c16-102">從舊版的 SSO 升級</span><span class="sxs-lookup"><span data-stu-id="55c16-102">Upgrading from a Previous Version of SSO</span></span>
 <span data-ttu-id="55c16-103">如果您要安裝 「 企業單一登入 」 功能，而且您已經在電腦上 （例如，從 Microsoft BizTalk Server 2009) 部署舊版本，您必須完成下列步驟。</span><span class="sxs-lookup"><span data-stu-id="55c16-103">If you are installing the Enterprise Single Sign-on feature and you already have a previous version deployed on your computer (for example, from Microsoft BizTalk Server 2009), you must complete the steps below.</span></span>  

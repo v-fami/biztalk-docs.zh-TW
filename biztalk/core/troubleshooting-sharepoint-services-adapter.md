@@ -1,14 +1,14 @@
 ---
-title: "疑難排解 SharePoint Services 配接器 |Microsoft 文件"
-ms.custom: 
+title: 疑難排解 SharePoint Services 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 77f88174-118d-4ed6-8449-c89ca195ce5c
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22280230"
 ---
 # <a name="troubleshooting-sharepoint-services-adapter"></a><span data-ttu-id="8ef3e-102">SharePoint Services 配接器疑難排解</span><span class="sxs-lookup"><span data-stu-id="8ef3e-102">Troubleshooting SharePoint Services Adapter</span></span>
 <span data-ttu-id="8ef3e-103">本主題著重在疑難排解[!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)](WSS) 配接器。</span><span class="sxs-lookup"><span data-stu-id="8ef3e-103">This topic focuses on troubleshooting the [!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)] (WSS) adapter.</span></span>  

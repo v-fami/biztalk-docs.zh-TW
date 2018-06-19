@@ -1,14 +1,14 @@
 ---
-title: "入口網站管理頁面 |Microsoft 文件"
-ms.custom: 
+title: 入口網站管理頁面 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f2b511d1-b252-41d3-9aac-74a2ee4b69a8
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294470"
 ---
 # <a name="portal-admin-pages"></a><span data-ttu-id="c500e-102">入口網站管理頁面</span><span class="sxs-lookup"><span data-stu-id="c500e-102">Portal Admin Pages</span></span>
 <span data-ttu-id="c500e-103">當您將滑鼠移**Admin**索引標籤上，快顯功能表提供入口網站的系統管理工作的清單。</span><span class="sxs-lookup"><span data-stu-id="c500e-103">When you move the mouse over the **Admin** tab, a pop-up menu provides a list of portal administration tasks.</span></span> <span data-ttu-id="c500e-104">**Admin**  索引標籤，只會顯示擁有 （Microsoft BizTalk Server 系統管理員帳戶群組的成員） 的系統管理權限的使用者。</span><span class="sxs-lookup"><span data-stu-id="c500e-104">The **Admin** tab is only visible to users who have administrative permission (members of the Microsoft BizTalk Server Administrators account group).</span></span> <span data-ttu-id="c500e-105">在快顯功能表上，選項如下：</span><span class="sxs-lookup"><span data-stu-id="c500e-105">The following options are on the pop-up menu:</span></span>  

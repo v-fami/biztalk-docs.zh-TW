@@ -1,14 +1,14 @@
 ---
-title: "使用的 Helper 類別 |Microsoft 文件"
-ms.custom: 
+title: 使用的 Helper 類別 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 593d6e41-8fef-4355-a779-800e8b3298dd
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294854"
 ---
 # <a name="using-the-helper-classes"></a><span data-ttu-id="d4214-102">使用的 Helper 類別</span><span class="sxs-lookup"><span data-stu-id="d4214-102">Using the Helper Classes</span></span>
 [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]<span data-ttu-id="d4214-103">包含一組的其他處理程序、 服務和工具組中的元件所使用的 helper 類別。</span><span class="sxs-lookup"><span data-stu-id="d4214-103"> includes a set of helper classes used by the other processes, services, and components in the toolkit.</span></span> <span data-ttu-id="d4214-104">因為這些 helper 類別也是公用的您可以使用自己所需的程式碼中。</span><span class="sxs-lookup"><span data-stu-id="d4214-104">Because these helper classes are also public, you can use them in your own code as required.</span></span>  

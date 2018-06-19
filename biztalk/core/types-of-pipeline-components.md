@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286774"
 ---
 # <a name="types-of-pipeline-components"></a><span data-ttu-id="e8ccb-102">類型的管線元件</span><span class="sxs-lookup"><span data-stu-id="e8ccb-102">Types of Pipeline Components</span></span>
 <span data-ttu-id="e8ccb-103">[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 包含三種管線元件類型：一般、組合和解譯。</span><span class="sxs-lookup"><span data-stu-id="e8ccb-103">Three types of pipeline components are included with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]: general, assembling, and disassembling.</span></span> <span data-ttu-id="e8ccb-104">這三種類型也能實作探查功能。</span><span class="sxs-lookup"><span data-stu-id="e8ccb-104">Any of these three types can also implement probing functionality.</span></span> <span data-ttu-id="e8ccb-105">此主題描述每種元件類型以及通常會使用各個元件的階段。</span><span class="sxs-lookup"><span data-stu-id="e8ccb-105">This topic describes each type of component and the stages in which each component is generally used.</span></span>  

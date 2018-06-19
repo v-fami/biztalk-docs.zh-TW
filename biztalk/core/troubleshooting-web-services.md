@@ -1,14 +1,14 @@
 ---
-title: "Web 服務疑難排解 |Microsoft 文件"
-ms.custom: 
+title: Web 服務疑難排解 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c32bf542-dcc6-4727-b31f-52bb19d4b89d
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287486"
 ---
 # <a name="troubleshooting-web-services"></a><span data-ttu-id="7851c-102">Web 服務疑難排解</span><span class="sxs-lookup"><span data-stu-id="7851c-102">Troubleshooting Web Services</span></span>
 <span data-ttu-id="7851c-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 在使用 SOAP 配接器以及將協調流程發佈為 Web 服務時，均大量使用 Web 服務。</span><span class="sxs-lookup"><span data-stu-id="7851c-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] makes extensive use of Web services for use with the SOAP adapter and when publishing orchestrations as Web services.</span></span> <span data-ttu-id="7851c-104">本主題提供可供您進行 Web 服務疑難排解的一些步驟，並說明某些常見的 Web 服務問題以及解決這些問題的方式。</span><span class="sxs-lookup"><span data-stu-id="7851c-104">This topic provides some steps that you can follow to troubleshoot Web services, as well as some common Web services problems and how to resolve those problems.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "公開介面卡設定為繫結屬性使用 WCF LOB 配接器 SDK |Microsoft 文件"
-ms.custom: 
+title: 公開介面卡設定為繫結屬性使用 WCF LOB 配接器 SDK |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 59728113-917e-4bca-8e1a-609cd6558944
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224182"
 ---
 # <a name="expose-adapter-settings-as-a-binding-property-using-the-wcf-lob-adapter-sdk"></a><span data-ttu-id="89cf1-102">公開介面卡設定為使用 WCF LOB Adapter SDK 的繫結屬性</span><span class="sxs-lookup"><span data-stu-id="89cf1-102">Expose adapter settings as a binding property using the WCF LOB Adapter SDK</span></span>
 <span data-ttu-id="89cf1-103">[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]使用來設定連接集區、 中繼資料快取，以及其他配接器行為的不同類別中定義的屬性。</span><span class="sxs-lookup"><span data-stu-id="89cf1-103">The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] uses the properties defined in different classes for configuring the connection pool, metadata cache, and other adapter behaviors.</span></span> <span data-ttu-id="89cf1-104">本主題描述如何呈現這些屬性，以及在繫結屬性為配接器取用者可透過組態檔設定它們。</span><span class="sxs-lookup"><span data-stu-id="89cf1-104">This topic describes how you can surface these properties as binding properties, so that the adapter consumer can set them through a configuration file.</span></span>  

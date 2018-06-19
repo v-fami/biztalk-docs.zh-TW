@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4767387c-f24b-4986-aaed-6724c5d6b347
-caps.latest.revision: ''
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22276662"
 ---
 # <a name="sso-support-for-receive-adapters"></a><span data-ttu-id="0840c-102">接收配接器的 SSO 支援</span><span class="sxs-lookup"><span data-stu-id="0840c-102">SSO Support for Receive Adapters</span></span>
 <span data-ttu-id="0840c-103">「企業單一登入」(SSO) 提供的服務能夠跨本機、網路及網域界限，來儲存和傳輸加密的使用者認證。</span><span class="sxs-lookup"><span data-stu-id="0840c-103">Enterprise Single Sign-On (SSO) provides services to store and transmit encrypted user credentials across local, network, and domain boundaries.</span></span> <span data-ttu-id="0840c-104">傳輸配接器寫入器可以利用 SSO API 來處理使用者認證，以便讓傳輸配接器用來存取後端應用程式。</span><span class="sxs-lookup"><span data-stu-id="0840c-104">Transport adapter writers can leverage SSO APIs to handle the user credentials that a transport adapter uses to access back-end applications.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "X12 997 通知 |Microsoft 文件"
-ms.custom: 
+title: X12 997 通知 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 62a352fb-635c-4f0e-9844-4b250159333d
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290886"
 ---
 # <a name="x12-997-acknowledgment"></a><span data-ttu-id="6a24a-102">X12 997 通知</span><span class="sxs-lookup"><span data-stu-id="6a24a-102">X12 997 Acknowledgment</span></span>
 <span data-ttu-id="6a24a-103">X12 997 功能通知會報告所接收交換的狀態。</span><span class="sxs-lookup"><span data-stu-id="6a24a-103">The X12 997 functional acknowledgment reports the status of a received interchange.</span></span> <span data-ttu-id="6a24a-104">它會報告處理所接收文件時遇到的每個錯誤。</span><span class="sxs-lookup"><span data-stu-id="6a24a-104">It reports each error encountered while processing the received document.</span></span> <span data-ttu-id="6a24a-105">BizTalk EDI 接收管線永遠會產生 4010 相容的 997；但是，EDI 接收管線與 EDI 傳送管線也可以驗證 5010 相容的 997。</span><span class="sxs-lookup"><span data-stu-id="6a24a-105">BizTalk EDI Receive pipeline always generates a 4010 compliant 997; however, EDI Receive pipeline and EDI Send pipelines can also validate a 5010 compliant 997.</span></span>  

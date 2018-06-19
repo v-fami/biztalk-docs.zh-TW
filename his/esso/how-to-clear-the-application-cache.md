@@ -8,15 +8,16 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6a897791-d32f-46a4-8c5d-2b2161e92bd9
-caps.latest.revision: ''
+caps.latest.revision: 3
 author: gplarsen
 ms.author: hisdocs; plarsen
 manager: anneta
 ms.openlocfilehash: 24954e8314bc94d4570eb57acbf1d4b03bebb65b
 ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "30250938"
 ---
 # <a name="how-to-clear-the-application-cache"></a><span data-ttu-id="570d7-102">如何清除應用程式快取</span><span class="sxs-lookup"><span data-stu-id="570d7-102">How to Clear the Application Cache</span></span>
 <span data-ttu-id="570d7-103">使用 MMC 嵌入式管理單元或**purgecache**命令可移除的認證快取 （所有的資訊與分支機構應用程式相關聯） 的所有單一登入 (SSO) 伺服器上指定的應用程式。</span><span class="sxs-lookup"><span data-stu-id="570d7-103">Use the MMC Snap-In or the **purgecache** command to remove the contents of the credential cache (all the information that is associated with the affiliate application) for the specified application on all Single Sign-On (SSO) servers.</span></span>  

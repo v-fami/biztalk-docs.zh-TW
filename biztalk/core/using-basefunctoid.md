@@ -1,14 +1,14 @@
 ---
-title: "使用 BaseFunctoid |Microsoft 文件"
-ms.custom: 
+title: 使用 BaseFunctoid |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fb26a54d-20bf-4302-a5cb-b38e4091002b
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288710"
 ---
 # <a name="using-basefunctoid"></a><span data-ttu-id="a0bce-102">使用 BaseFunctoid</span><span class="sxs-lookup"><span data-stu-id="a0bce-102">Using BaseFunctoid</span></span>
 <span data-ttu-id="a0bce-103">所有的自訂運算質都必須從 **BaseFunctoid** 類別衍生。</span><span class="sxs-lookup"><span data-stu-id="a0bce-103">All custom functoids must derive from the **BaseFunctoid** class.</span></span> <span data-ttu-id="a0bce-104">您必須先覆寫建構函式，然後進行一組呼叫，告知 BizTalk 對應工具有關自訂運算質的資訊。</span><span class="sxs-lookup"><span data-stu-id="a0bce-104">You must first override the constructor and make a set of calls that tell BizTalk Mapper about your custom functoid.</span></span> <span data-ttu-id="a0bce-105">然後您需要寫入運算質邏輯。</span><span class="sxs-lookup"><span data-stu-id="a0bce-105">Then you need to write the functoid logic.</span></span>  

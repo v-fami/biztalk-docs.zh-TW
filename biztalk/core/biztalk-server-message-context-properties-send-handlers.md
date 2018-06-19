@@ -1,14 +1,14 @@
 ---
-title: "BizTalk Server 訊息內容屬性 （傳送處理常式） |Microsoft 文件"
-ms.custom: 
+title: BizTalk Server 訊息內容屬性 （傳送處理常式） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a065ba89-9fdb-47dc-9021-fb95cf347cdc
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013837"
 ---
 # <a name="biztalk-server-message-context-properties-send-handlers"></a><span data-ttu-id="3c22f-102">BizTalk Server 訊息內容屬性 （傳送處理常式）</span><span class="sxs-lookup"><span data-stu-id="3c22f-102">BizTalk Server Message Context Properties (Send Handlers)</span></span>
 <span data-ttu-id="3c22f-103">在執行階段，必須可從 BizTalk Server 協調流程存取的，除了有訊息內容以外，還有訊息包含的補充資訊。</span><span class="sxs-lookup"><span data-stu-id="3c22f-103">In addition to the message payload, the supplementary information that a message contains must be accessible from the BizTalk Server orchestration at run time.</span></span>  
@@ -29,9 +30,9 @@ ms.lasthandoff: 11/07/2017
 |<span data-ttu-id="3c22f-115">回覆主體</span><span class="sxs-lookup"><span data-stu-id="3c22f-115">Reply Subject</span></span>|<span data-ttu-id="3c22f-116">string</span><span class="sxs-lookup"><span data-stu-id="3c22f-116">string</span></span>|<span data-ttu-id="3c22f-117">是</span><span class="sxs-lookup"><span data-stu-id="3c22f-117">Yes</span></span>|<span data-ttu-id="3c22f-118">協調流程會 提供用於回覆訊息的相關主體 。</span><span class="sxs-lookup"><span data-stu-id="3c22f-118">Orchestration provides a subject for reply messages, when pertinent.</span></span> <span data-ttu-id="3c22f-119">預設值是空值。</span><span class="sxs-lookup"><span data-stu-id="3c22f-119">Default value is Null.</span></span>|  
   
 ## <a name="getting-a-tibco-reply"></a><span data-ttu-id="3c22f-120">取得 TIBCO 回覆</span><span class="sxs-lookup"><span data-stu-id="3c22f-120">Getting a TIBCO Reply</span></span>  
- <span data-ttu-id="3c22f-121">**問題：**如何執行 BizTalk Adapter for TIBCO Rendezvous 讀取及操作的協調流程內的回覆主旨，以便讓使用的傳送主體做為回應？</span><span class="sxs-lookup"><span data-stu-id="3c22f-121">**Question:** How does BizTalk Adapter for TIBCO Rendezvous read and manipulate the reply subject inside an orchestration so that you can use it as the send subject for the response?</span></span> <span data-ttu-id="3c22f-122">配接器如何找到來自 Rendezvous 之內送訊息的訊息內容？</span><span class="sxs-lookup"><span data-stu-id="3c22f-122">How does the adapter get to the message context of an incoming message from Rendezvous?</span></span>  
+ <span data-ttu-id="3c22f-121">**問題：** 如何執行 BizTalk Adapter for TIBCO Rendezvous 讀取及操作的協調流程內的回覆主旨，以便讓使用的傳送主體做為回應？</span><span class="sxs-lookup"><span data-stu-id="3c22f-121">**Question:** How does BizTalk Adapter for TIBCO Rendezvous read and manipulate the reply subject inside an orchestration so that you can use it as the send subject for the response?</span></span> <span data-ttu-id="3c22f-122">配接器如何找到來自 Rendezvous 之內送訊息的訊息內容？</span><span class="sxs-lookup"><span data-stu-id="3c22f-122">How does the adapter get to the message context of an incoming message from Rendezvous?</span></span>  
   
- <span data-ttu-id="3c22f-123">**回答：**內送訊息的內容中填入回覆主體及協調流程可以讀取它。</span><span class="sxs-lookup"><span data-stu-id="3c22f-123">**Answer:** The reply subject is populated in the context of the incoming message, and the orchestration can read it.</span></span> <span data-ttu-id="3c22f-124">如果協調流程最終會產生回覆，即可使用該值來設定回覆訊息的傳送主體。</span><span class="sxs-lookup"><span data-stu-id="3c22f-124">If the orchestration ultimately produces a reply, it can use that value to set the send subject of the reply message.</span></span>  
+ <span data-ttu-id="3c22f-123">**回答：** 內送訊息的內容中填入回覆主體及協調流程可以讀取它。</span><span class="sxs-lookup"><span data-stu-id="3c22f-123">**Answer:** The reply subject is populated in the context of the incoming message, and the orchestration can read it.</span></span> <span data-ttu-id="3c22f-124">如果協調流程最終會產生回覆，即可使用該值來設定回覆訊息的傳送主體。</span><span class="sxs-lookup"><span data-stu-id="3c22f-124">If the orchestration ultimately produces a reply, it can use that value to set the send subject of the reply message.</span></span>  
   
 1.  <span data-ttu-id="3c22f-125">在 BizTalk Server 專案中，新增 <install_directory>\TibcoRV\bin\Microsoft.BizTalk.Adapters.TibRV.Properties.dll 的參考。</span><span class="sxs-lookup"><span data-stu-id="3c22f-125">In a BizTalk Server project, add a reference to <install_directory>\TibcoRV\bin\Microsoft.BizTalk.Adapters.TibRV.Properties.dll.</span></span>  
   

@@ -1,14 +1,14 @@
 ---
-title: "設定警示的佇列選項和通知 |Microsoft 文件"
-ms.custom: 
+title: 設定警示的佇列選項和通知 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f78afbf9-6e27-4887-8424-f265fbd8448a
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290150"
 ---
 # <a name="configuring-alert-queue-options-and-notifications"></a><span data-ttu-id="f43b5-102">設定警示的佇列選項和通知</span><span class="sxs-lookup"><span data-stu-id="f43b5-102">Configuring Alert Queue Options and Notifications</span></span>
 <span data-ttu-id="f43b5-103">ESB 管理入口網站會產生警示的錯誤訊息抵達入口網站中，以及它使用 ESB 通知服務佇列，並將警示通知傳送給訂閱警示的使用者使用 ESB 警示服務。</span><span class="sxs-lookup"><span data-stu-id="f43b5-103">The ESB Management Portal uses the ESB Alert Service to generate alerts as fault messages arrive at the portal, and it uses the ESB Notification Service to queue and send alert notifications to users that subscribe to alerts.</span></span> <span data-ttu-id="f43b5-104">您可以編輯這些 ESB 管理入口網站中的服務所使用的設定。</span><span class="sxs-lookup"><span data-stu-id="f43b5-104">You can edit the settings used by these services in the ESB Management Portal.</span></span>  

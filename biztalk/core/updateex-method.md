@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287422"
 ---
 # <a name="updateex-method"></a><span data-ttu-id="13715-102">UpdateEx 方法</span><span class="sxs-lookup"><span data-stu-id="13715-102">UpdateEx Method</span></span>
 <span data-ttu-id="13715-103">用來更新屬性，根據輸入金鑰參數 (key1、 key2、...</span><span class="sxs-lookup"><span data-stu-id="13715-103">Used to update properties based on the input key parameters (key1, key2, …</span></span> <span data-ttu-id="13715-104">...keyn)。</span><span class="sxs-lookup"><span data-stu-id="13715-104">keyn).</span></span> <span data-ttu-id="13715-105">使用 `UpdateEx` 時，您無法刪除集合中的項目。</span><span class="sxs-lookup"><span data-stu-id="13715-105">When using `UpdateEx`, you cannot delete items in a collection.</span></span> <span data-ttu-id="13715-106">有一種個別的方法可協助刪除。</span><span class="sxs-lookup"><span data-stu-id="13715-106">A separate method facilitates deletion.</span></span> <span data-ttu-id="13715-107">如需詳細資訊，請參閱[DeleteOnly 方法](../core/deleteonly-method.md)。</span><span class="sxs-lookup"><span data-stu-id="13715-107">For more information, see [DeleteOnly Method](../core/deleteonly-method.md).</span></span>  

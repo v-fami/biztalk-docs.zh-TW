@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230430"
 ---
 # <a name="artifacts"></a><span data-ttu-id="18508-102">成品</span><span class="sxs-lookup"><span data-stu-id="18508-102">Artifacts</span></span>
 <span data-ttu-id="18508-103">本主題討論各種 BizTalk Server 成品。</span><span class="sxs-lookup"><span data-stu-id="18508-103">This topic discusses the various BizTalk Server artifacts.</span></span> <span data-ttu-id="18508-104">成品包含供 BizTalk 應用程式運作所需的組件、安全性憑證、商務規則原則、BAM 組態檔、繫結等等。</span><span class="sxs-lookup"><span data-stu-id="18508-104">Artifacts include the assemblies, security certificates, business rules policies, BAM configuration files, bindings, and so forth that are necessary for a BizTalk application to function.</span></span> <span data-ttu-id="18508-105">您可以從「BizTalk 管理」主控台中檢視和管理應用程式的成品。</span><span class="sxs-lookup"><span data-stu-id="18508-105">You view and manage an application's artifacts from within the BizTalk Administration Console.</span></span>  

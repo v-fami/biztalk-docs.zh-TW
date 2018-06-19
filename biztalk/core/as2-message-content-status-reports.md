@@ -1,14 +1,14 @@
 ---
-title: "AS2 訊息內容狀態報告 |Microsoft 文件"
-ms.custom: 
+title: AS2 訊息內容狀態報告 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6244aa59-a80d-450b-ab95-9a5e14c0c40e
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230486"
 ---
 # <a name="as2-message-content-status-reports"></a><span data-ttu-id="a76c5-102">AS2 訊息內容狀態報告</span><span class="sxs-lookup"><span data-stu-id="a76c5-102">AS2 Message Content Status Reports</span></span>
 

@@ -1,11 +1,11 @@
 ---
-title: "逐步解說： 模組 3-從協調流程存取 SharePoint 屬性 |Microsoft 文件"
-ms.custom: 
+title: 逐步解說： 模組 3-從協調流程存取 SharePoint 屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, Windows SharePoint Services adapters
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Windows SharePoint Services adapters, orchestrations
 - Windows SharePoint Services adapter tutorials, accessing SharePoint properties
 ms.assetid: 310c4002-3416-44c6-b409-1d5467063e28
-caps.latest.revision: "45"
+caps.latest.revision: 45
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010959"
 ---
 # <a name="walkthrough-module-3---accessing-sharepoint-properties-from-an-orchestration"></a><span data-ttu-id="0ae9d-102">逐步解說： 模組 3-從協調流程存取 SharePoint 屬性</span><span class="sxs-lookup"><span data-stu-id="0ae9d-102">Walkthrough: Module 3 - Accessing SharePoint Properties from an Orchestration</span></span>
 <span data-ttu-id="0ae9d-103">這個逐步解說是工作的接續[逐步解說： 模組 2-整合 Office 與 Windows SharePoint Services 配接器](../core/walkthrough-module-2--integrate-office-with-the-sharepoint-adapter-in-biztalk.md)，並示範如何存取內送訊息在 Windows SharePoint Services 內容屬性執行階段，然後決定該使用動態連接埠的協調流程中的屬性為基礎的訊息的目的地。</span><span class="sxs-lookup"><span data-stu-id="0ae9d-103">This walkthrough is a continuation of [Walkthrough: Module 2 - Integrating Office with the Windows SharePoint Services Adapter](../core/walkthrough-module-2--integrate-office-with-the-sharepoint-adapter-in-biztalk.md) and shows you how to access the Windows SharePoint Services context properties of an incoming message at run time and then determine the destination of that message based on a property using dynamic ports in an orchestration.</span></span> <span data-ttu-id="0ae9d-104">如需 Windows SharePoint Services 配接器的簡介，請參閱[什麼是 Windows SharePoint Services 配接器？](../core/what-is-the-windows-sharepoint-services-adapter.md)。</span><span class="sxs-lookup"><span data-stu-id="0ae9d-104">For an introduction to the Windows SharePoint Services adapter see [What Is the Windows SharePoint Services Adapter?](../core/what-is-the-windows-sharepoint-services-adapter.md).</span></span>  

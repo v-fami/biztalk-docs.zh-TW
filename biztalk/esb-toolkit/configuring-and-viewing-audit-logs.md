@@ -1,14 +1,14 @@
 ---
-title: "設定及檢視稽核記錄檔 |Microsoft 文件"
-ms.custom: 
+title: 設定及檢視稽核記錄檔 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c725bf04-d59f-42c1-b327-b4268421689c
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289838"
 ---
 # <a name="configuring-and-viewing-audit-logs"></a><span data-ttu-id="8d1ce-102">設定及檢視稽核記錄檔</span><span class="sxs-lookup"><span data-stu-id="8d1ce-102">Configuring and Viewing Audit Logs</span></span>
 <span data-ttu-id="8d1ce-103">ESB 管理入口網站會維護稽核記錄的動作可協助您監視使用量和追蹤問題。</span><span class="sxs-lookup"><span data-stu-id="8d1ce-103">The ESB Management Portal maintains an audit log of actions that help you to monitor usage and track problems.</span></span> <span data-ttu-id="8d1ce-104">系統管理員可以指定在入口網站會將寫入稽核記錄的事件。</span><span class="sxs-lookup"><span data-stu-id="8d1ce-104">Administrators can specify which events the portal will write to the audit log.</span></span>  

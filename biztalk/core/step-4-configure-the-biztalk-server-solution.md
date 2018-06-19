@@ -1,14 +1,14 @@
 ---
-title: "步驟 4： 設定 BizTalk Server 解決方案 |Microsoft 文件"
-ms.custom: 
+title: 步驟 4： 設定 BizTalk Server 解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d60e6a82-51af-41e5-a755-5f337492ba2f
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22280182"
 ---
 # <a name="step-4-configure-the-biztalk-server-solution"></a><span data-ttu-id="487cc-102">步驟 4： 設定 BizTalk Server 解決方案</span><span class="sxs-lookup"><span data-stu-id="487cc-102">Step 4: Configure the BizTalk Server Solution</span></span>
 <span data-ttu-id="487cc-103">在上一個步驟中，建立並部署[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]應用程式接收到 Salesforce 通知[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]並插入一個在內部部署 SQL Server 資料庫的詳細資料。</span><span class="sxs-lookup"><span data-stu-id="487cc-103">In the previous step, you created and deployed a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application to receive Salesforce notification into [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and insert the details into an on-premise SQL Server database.</span></span> <span data-ttu-id="487cc-104">在此步驟中，我們會將設定中的應用程式[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台。</span><span class="sxs-lookup"><span data-stu-id="487cc-104">In this step, we’ll configure the application in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console.</span></span> <span data-ttu-id="487cc-105">主要設定應用程式，包括建立實體連接埠對應到協調流程中建立的邏輯連接埠。</span><span class="sxs-lookup"><span data-stu-id="487cc-105">Configuring the application primarily involves creating physical ports corresponding to the logical ports we created in the orchestration.</span></span> <span data-ttu-id="487cc-106">它還包含了繫結至邏輯連接埠的實體連接埠。</span><span class="sxs-lookup"><span data-stu-id="487cc-106">It also involves binding the physical port to the logical ports.</span></span> <span data-ttu-id="487cc-107">我們會執行下列步驟來設定[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]應用程式：</span><span class="sxs-lookup"><span data-stu-id="487cc-107">We’ll perform the following steps to configure the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application:</span></span>  
@@ -41,7 +42,7 @@ ms.lasthandoff: 09/20/2017
     |-|-|  
     |<span data-ttu-id="487cc-120">名稱</span><span class="sxs-lookup"><span data-stu-id="487cc-120">Name</span></span>|<span data-ttu-id="487cc-121">輸入`ReceiveOppNotification`。</span><span class="sxs-lookup"><span data-stu-id="487cc-121">Enter `ReceiveOppNotification`.</span></span>|  
     |<span data-ttu-id="487cc-122">類型</span><span class="sxs-lookup"><span data-stu-id="487cc-122">Type</span></span>|<span data-ttu-id="487cc-123">選取**Wcf-basichttprelay**</span><span class="sxs-lookup"><span data-stu-id="487cc-123">Select **WCF-BasicHttpRelay**</span></span>|  
-    |<span data-ttu-id="487cc-124">接收處理常式</span><span class="sxs-lookup"><span data-stu-id="487cc-124">Receive Handler</span></span>|<span data-ttu-id="487cc-125">選取**[biztalkserverapplication]**</span><span class="sxs-lookup"><span data-stu-id="487cc-125">Select **BizTalkServerApplication**</span></span>|  
+    |<span data-ttu-id="487cc-124">接收處理常式</span><span class="sxs-lookup"><span data-stu-id="487cc-124">Receive Handler</span></span>|<span data-ttu-id="487cc-125">選取 **[biztalkserverapplication]**</span><span class="sxs-lookup"><span data-stu-id="487cc-125">Select **BizTalkServerApplication**</span></span>|  
     |<span data-ttu-id="487cc-126">接收管線</span><span class="sxs-lookup"><span data-stu-id="487cc-126">Receive Pipeline</span></span>|<span data-ttu-id="487cc-127">選取**XMLReceive**</span><span class="sxs-lookup"><span data-stu-id="487cc-127">Select **XMLReceive**</span></span>|  
     |<span data-ttu-id="487cc-128">傳送管線</span><span class="sxs-lookup"><span data-stu-id="487cc-128">Send Pipeline</span></span>|<span data-ttu-id="487cc-129">選取**PassThruTransmit**</span><span class="sxs-lookup"><span data-stu-id="487cc-129">Select **PassThruTransmit**</span></span>|  
   
@@ -71,7 +72,7 @@ ms.lasthandoff: 09/20/2017
     |-|-|  
     |<span data-ttu-id="487cc-151">名稱</span><span class="sxs-lookup"><span data-stu-id="487cc-151">Name</span></span>|<span data-ttu-id="487cc-152">輸入`SalesforceREST`。</span><span class="sxs-lookup"><span data-stu-id="487cc-152">Enter `SalesforceREST`.</span></span>|  
     |<span data-ttu-id="487cc-153">類型</span><span class="sxs-lookup"><span data-stu-id="487cc-153">Type</span></span>|<span data-ttu-id="487cc-154">選取**Wcf-webhttp**</span><span class="sxs-lookup"><span data-stu-id="487cc-154">Select **WCF-WebHttp**</span></span>|  
-    |<span data-ttu-id="487cc-155">傳送處理常式</span><span class="sxs-lookup"><span data-stu-id="487cc-155">Send Handler</span></span>|<span data-ttu-id="487cc-156">選取**[biztalkserverapplication]**</span><span class="sxs-lookup"><span data-stu-id="487cc-156">Select **BizTalkServerApplication**</span></span>|  
+    |<span data-ttu-id="487cc-155">傳送處理常式</span><span class="sxs-lookup"><span data-stu-id="487cc-155">Send Handler</span></span>|<span data-ttu-id="487cc-156">選取 **[biztalkserverapplication]**</span><span class="sxs-lookup"><span data-stu-id="487cc-156">Select **BizTalkServerApplication**</span></span>|  
     |<span data-ttu-id="487cc-157">傳送管線</span><span class="sxs-lookup"><span data-stu-id="487cc-157">Send Pipeline</span></span>|<span data-ttu-id="487cc-158">選取**PassThruTransmit**</span><span class="sxs-lookup"><span data-stu-id="487cc-158">Select **PassThruTransmit**</span></span>|  
     |<span data-ttu-id="487cc-159">接收管線</span><span class="sxs-lookup"><span data-stu-id="487cc-159">Receive Pipeline</span></span>|<span data-ttu-id="487cc-160">選取**AddNamespace** ，然後按一下省略符號按鈕，針對來設定管線的管線。</span><span class="sxs-lookup"><span data-stu-id="487cc-160">Select **AddNamespace** and click the ellipsis button against the pipeline to configure the pipeline.</span></span><br /><br /> <span data-ttu-id="487cc-161">-在**階段 1： 解碼**，如**NamespaceBase**，輸入`http://BtsSalesforceIntegration.QueryResult`。</span><span class="sxs-lookup"><span data-stu-id="487cc-161">-   Under **Stage 1: Decode**, for **NamespaceBase**, enter `http://BtsSalesforceIntegration.QueryResult`.</span></span> <span data-ttu-id="487cc-162">這是您在建立 QueryResult.xsd 結構描述的命名空間[步驟 3b： 擷取機會詳細資料來自使用 Wcf-webhttp 配接器的 Salesforce](../core/step-3b-retrieve-opportunities-from-salesforce-using-the-wcf-webhttp-adapter.md)。</span><span class="sxs-lookup"><span data-stu-id="487cc-162">This is the namespace of the QueryResult.xsd schema that you created in [Step 3b: Retrieve Opportunity Details from Salesforce using the WCF-WebHttp Adapter](../core/step-3b-retrieve-opportunities-from-salesforce-using-the-wcf-webhttp-adapter.md).</span></span> <span data-ttu-id="487cc-163">當**AddNamespace**接收管線接收來自 Salesforce 的回應，它會將此命名空間加入至回應訊息。</span><span class="sxs-lookup"><span data-stu-id="487cc-163">When the **AddNamespace** receive pipeline receives the response from Salesforce, it adds this namespace to the response message.</span></span> <span data-ttu-id="487cc-164">根據預設，來自 Salesforce 的回應訊息不包含任何命名空間。</span><span class="sxs-lookup"><span data-stu-id="487cc-164">By default, the response message from Salesforce does not include any namespace.</span></span><br />     <span data-ttu-id="487cc-165">如**NamespacePrefix**，輸入`sf`。</span><span class="sxs-lookup"><span data-stu-id="487cc-165">For **NamespacePrefix**, enter `sf`.</span></span><br /><span data-ttu-id="487cc-166">-在**階段 2： 解譯**，接受預設值，然後按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="487cc-166">-   Under **Stage 2: Disassemble**, accept the default values and then click **OK**.</span></span>|  
   
@@ -97,9 +98,9 @@ ms.lasthandoff: 09/20/2017
             https://na15.salesforce.com/services/data/v24.0/query?q=<query_string>  
             ```  
   
-             <span data-ttu-id="487cc-176">我們已經有 Salesforce REST 端點的一部分**位址 (URI)**欄位。</span><span class="sxs-lookup"><span data-stu-id="487cc-176">We already have the Salesforce REST endpoint as part of the **Address (URI)** field.</span></span> <span data-ttu-id="487cc-177">因此，部分**HTTP 方法和 URL 對應**屬性，我們在此指定使用 GET 方法和附加**{VAR}**為變數。</span><span class="sxs-lookup"><span data-stu-id="487cc-177">So, as part of **HTTP Method and URL Mapping** property, we specify using the GET method and appending the **{VAR}** as a variable.</span></span>  
+             <span data-ttu-id="487cc-176">我們已經有 Salesforce REST 端點的一部分**位址 (URI)** 欄位。</span><span class="sxs-lookup"><span data-stu-id="487cc-176">We already have the Salesforce REST endpoint as part of the **Address (URI)** field.</span></span> <span data-ttu-id="487cc-177">因此，部分**HTTP 方法和 URL 對應**屬性，我們在此指定使用 GET 方法和附加 **{VAR}** 為變數。</span><span class="sxs-lookup"><span data-stu-id="487cc-177">So, as part of **HTTP Method and URL Mapping** property, we specify using the GET method and appending the **{VAR}** as a variable.</span></span>  
   
-        -   <span data-ttu-id="487cc-178">在**變數對應**方塊中，按一下**編輯**。</span><span class="sxs-lookup"><span data-stu-id="487cc-178">In the **Variable Mapping** box, click **Edit**.</span></span> <span data-ttu-id="487cc-179">在此方塊，您可以指定如何值**{VAR}**變數會在執行階段推算出來。</span><span class="sxs-lookup"><span data-stu-id="487cc-179">In this box you specify how the value for the **{VAR}** variable is deduced at runtime.</span></span>  
+        -   <span data-ttu-id="487cc-178">在**變數對應**方塊中，按一下**編輯**。</span><span class="sxs-lookup"><span data-stu-id="487cc-178">In the **Variable Mapping** box, click **Edit**.</span></span> <span data-ttu-id="487cc-179">在此方塊，您可以指定如何值 **{VAR}** 變數會在執行階段推算出來。</span><span class="sxs-lookup"><span data-stu-id="487cc-179">In this box you specify how the value for the **{VAR}** variable is deduced at runtime.</span></span>  
   
              <span data-ttu-id="487cc-180">在[步驟 3b： 擷取機會詳細資料來自使用 Wcf-webhttp 配接器的 Salesforce](../core/step-3b-retrieve-opportunities-from-salesforce-using-the-wcf-webhttp-adapter.md)，我們必須升級 [查詢] 屬性，導致建立**PropertySchema.xsd**。</span><span class="sxs-lookup"><span data-stu-id="487cc-180">In [Step 3b: Retrieve Opportunity Details from Salesforce using the WCF-WebHttp Adapter](../core/step-3b-retrieve-opportunities-from-salesforce-using-the-wcf-webhttp-adapter.md), we had promoted the Query property, which resulted in creating a **PropertySchema.xsd**.</span></span> <span data-ttu-id="487cc-181">我們將使用**查詢**該結構描述將由該元素對應至 {VAR} 變數，在 URL 中傳遞查詢字串中的項目。</span><span class="sxs-lookup"><span data-stu-id="487cc-181">We’ll use the **Query** element in that schema to pass the query string by mapping that element to the {VAR} variable in the URL.</span></span>  
   
@@ -141,7 +142,7 @@ ms.lasthandoff: 09/20/2017
     |-|-|  
     |<span data-ttu-id="487cc-215">名稱</span><span class="sxs-lookup"><span data-stu-id="487cc-215">Name</span></span>|<span data-ttu-id="487cc-216">輸入`SendToSQL`。</span><span class="sxs-lookup"><span data-stu-id="487cc-216">Enter `SendToSQL`.</span></span>|  
     |<span data-ttu-id="487cc-217">類型</span><span class="sxs-lookup"><span data-stu-id="487cc-217">Type</span></span>|<span data-ttu-id="487cc-218">選取**WCF-SQL**</span><span class="sxs-lookup"><span data-stu-id="487cc-218">Select **WCF-SQL**</span></span>|  
-    |<span data-ttu-id="487cc-219">傳送處理常式</span><span class="sxs-lookup"><span data-stu-id="487cc-219">Send Handler</span></span>|<span data-ttu-id="487cc-220">選取**[biztalkserverapplication]**</span><span class="sxs-lookup"><span data-stu-id="487cc-220">Select **BizTalkServerApplication**</span></span>|  
+    |<span data-ttu-id="487cc-219">傳送處理常式</span><span class="sxs-lookup"><span data-stu-id="487cc-219">Send Handler</span></span>|<span data-ttu-id="487cc-220">選取 **[biztalkserverapplication]**</span><span class="sxs-lookup"><span data-stu-id="487cc-220">Select **BizTalkServerApplication**</span></span>|  
     |<span data-ttu-id="487cc-221">傳送管線</span><span class="sxs-lookup"><span data-stu-id="487cc-221">Send Pipeline</span></span>|<span data-ttu-id="487cc-222">選取**XMLTransmit**</span><span class="sxs-lookup"><span data-stu-id="487cc-222">Select **XMLTransmit**</span></span>|  
   
      <span data-ttu-id="487cc-223">在 傳送埠屬性 對話方塊中，按一下 **設定**針對連接埠類型。</span><span class="sxs-lookup"><span data-stu-id="487cc-223">On the Send Port Properties dialog box, click **Configure** against the port type.</span></span>  

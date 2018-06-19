@@ -1,14 +1,14 @@
 ---
-title: "HubScenario 範例 |Microsoft 文件"
-ms.custom: 
+title: HubScenario 範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: eb6990ec-aea2-4362-8573-7f737a4fc7f1
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006343"
 ---
 # <a name="hubscenario-sample"></a><span data-ttu-id="14db8-102">HubScenario 範例</span><span class="sxs-lookup"><span data-stu-id="14db8-102">HubScenario Sample</span></span>
 <span data-ttu-id="14db8-103">HubScenario 範例示範如何在集線器實例中管理訊息傳輸。</span><span class="sxs-lookup"><span data-stu-id="14db8-103">The HubScenario sample demonstrates how to manage message transmission in a hub scenario.</span></span> <span data-ttu-id="14db8-104">它會將傳送到中繼集線器的訊息轉換成要傳送給最後收件者的訊息。</span><span class="sxs-lookup"><span data-stu-id="14db8-104">It transforms a message sent to an intermediary hub into a message to be sent to the final recipient.</span></span>  

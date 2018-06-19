@@ -1,11 +1,11 @@
 ---
-title: "追蹤資料庫大小的指導方針 |Microsoft 文件"
-ms.custom: 
+title: 追蹤資料庫大小的指導方針 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Tracking database, performance
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Tracking Analysis Server database [BAM]
 - performance, Tracking database
 ms.assetid: 2188bee5-c0dd-4448-bd4a-4ffb2a0c79f1
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279694"
 ---
 # <a name="tracking-database-sizing-guidelines"></a><span data-ttu-id="5f5f9-102">調整追蹤資料庫大小的指導方針</span><span class="sxs-lookup"><span data-stu-id="5f5f9-102">Tracking Database Sizing Guidelines</span></span>
 <span data-ttu-id="5f5f9-103">本節描述調整 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中 BizTalk 追蹤 (BizTalkDTADb) 資料庫大小的考量。</span><span class="sxs-lookup"><span data-stu-id="5f5f9-103">This section describes sizing considerations for the BizTalk Tracking (BizTalkDTADb) database in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="5f5f9-104">它說明如何使用方程式與訊息變數來決定 BizTalk 追蹤資料庫在經過一段指定時間後的大小，並提供如何套用方程式的特定範例。</span><span class="sxs-lookup"><span data-stu-id="5f5f9-104">It explains how to use equations and message variables to determine how large the BizTalk Tracking database will become over a given period of time, and provides specific examples of how to apply the equations.</span></span> <span data-ttu-id="5f5f9-105">如此概略提供了 BizTalk 訊息、追蹤設定及追蹤資料庫大小之間的關聯性。</span><span class="sxs-lookup"><span data-stu-id="5f5f9-105">This provides the rough co-relation between BizTalk messages, tracking settings and the tracking database size.</span></span> <span data-ttu-id="5f5f9-106">它並未考慮其他 SQL Server 因數，像是追蹤資料表中的索引大小，您可能需要針對這些因數考慮合理的倍數。</span><span class="sxs-lookup"><span data-stu-id="5f5f9-106">It does not take into account other SQL Server factors such as index size in the tracking tables; you may want to consider reasonable multipliers to account for those factors.</span></span>  

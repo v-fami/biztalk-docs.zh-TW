@@ -1,14 +1,14 @@
 ---
-title: "設計您的配接器的秘訣 |Microsoft 文件"
-ms.custom: 
+title: 設計您的配接器的秘訣 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0bb60988-4e48-4654-9cf4-512dd7c97239
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279862"
 ---
 # <a name="tips-for-designing-your-adapter"></a><span data-ttu-id="0a2e0-102">設計配接器的秘訣</span><span class="sxs-lookup"><span data-stu-id="0a2e0-102">Tips for Designing Your Adapter</span></span>
 <span data-ttu-id="0a2e0-103">本節包含配接器開發人員在設計配接器時所學習到的提示及秘訣。</span><span class="sxs-lookup"><span data-stu-id="0a2e0-103">This section contains hints and tips that adapter developers have learned while designing adapters.</span></span>  
@@ -26,7 +27,7 @@ ms.lasthandoff: 09/20/2017
   
  <span data-ttu-id="0a2e0-107">問題在於我們不知道是否應該覆寫這個提供給執行階段的值。</span><span class="sxs-lookup"><span data-stu-id="0a2e0-107">The problem comes with not knowing whether the value presented to the runtime is to be overridden or not.</span></span> <span data-ttu-id="0a2e0-108">這麼做的方法，通常是先瞭解定義這個值的 NULL，然後再對該值執行測試。</span><span class="sxs-lookup"><span data-stu-id="0a2e0-108">The typical way of doing this is to have some notion of NULL defined for values and then run a test against that value.</span></span> <span data-ttu-id="0a2e0-109">在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中使用 XSD 屬性工作表時，之所以產生問題，是因為只有字串才支援 NULL。</span><span class="sxs-lookup"><span data-stu-id="0a2e0-109">The problem when using the XSD-based property sheets in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is that NULL is only supported for strings.</span></span> <span data-ttu-id="0a2e0-110">即使您希望透過使用這種 NULL 測試，將配接器設定為預設設定，而且願意將配接器限制為字串類型，這還是會在使用者介面上，讓人有格格不入的感覺。</span><span class="sxs-lookup"><span data-stu-id="0a2e0-110">Even if you want your adapter to have default settings through the use of this NULL test and are willing to restrict the adapter to string types, it is still exposed to a very odd piece of user interface.</span></span>  
   
- <span data-ttu-id="0a2e0-111">XSD 產生的屬性工作表只支援 NULL 屬性的設定，以滑鼠右鍵按一下屬性，此時**使合約失效？**就會出現內容功能表，這個屬性可以設定為 NULL。</span><span class="sxs-lookup"><span data-stu-id="0a2e0-111">The XSD-generated property sheets only support the setting of a property back to NULL by right-clicking the property, at which point a **nullify?** context menu appears and the property can be set to NULL.</span></span> <span data-ttu-id="0a2e0-112">至於該屬性是否為 NULL，並沒有視覺回應可供參考。</span><span class="sxs-lookup"><span data-stu-id="0a2e0-112">There is no visual feedback as to whether a property is NULL.</span></span>  
+ <span data-ttu-id="0a2e0-111">XSD 產生的屬性工作表只支援 NULL 屬性的設定，以滑鼠右鍵按一下屬性，此時**使合約失效？** 就會出現內容功能表，這個屬性可以設定為 NULL。</span><span class="sxs-lookup"><span data-stu-id="0a2e0-111">The XSD-generated property sheets only support the setting of a property back to NULL by right-clicking the property, at which point a **nullify?** context menu appears and the property can be set to NULL.</span></span> <span data-ttu-id="0a2e0-112">至於該屬性是否為 NULL，並沒有視覺回應可供參考。</span><span class="sxs-lookup"><span data-stu-id="0a2e0-112">There is no visual feedback as to whether a property is NULL.</span></span>  
   
 ## <a name="considerations-for-implementing-schema-generation-wizards"></a><span data-ttu-id="0a2e0-113">實作結構描述產生精靈的考量</span><span class="sxs-lookup"><span data-stu-id="0a2e0-113">Considerations for Implementing Schema Generation Wizards</span></span>  
  <span data-ttu-id="0a2e0-114">程式設計人員還是喜歡針對強型別 (Strongly Typed) 物件模型撰寫程式碼。</span><span class="sxs-lookup"><span data-stu-id="0a2e0-114">Programmers like to code against strongly typed object models.</span></span> <span data-ttu-id="0a2e0-115">在程式碼中操作 XML，起初可能很麻煩，而且容易出錯。</span><span class="sxs-lookup"><span data-stu-id="0a2e0-115">Manipulating XML in code can at first seem awkward and prone to error.</span></span> <span data-ttu-id="0a2e0-116">但是藉助一些訣竅並巧妙運用 .NET Framework 提供的支援，事情可以在大幅簡化之後迎刃而解。</span><span class="sxs-lookup"><span data-stu-id="0a2e0-116">But some tricks and smart use of the support offered by the .NET Framework can dramatically simplify matters.</span></span>  

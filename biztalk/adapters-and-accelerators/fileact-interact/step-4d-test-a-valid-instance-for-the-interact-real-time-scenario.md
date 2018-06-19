@@ -1,14 +1,14 @@
 ---
-title: "步驟 4d： 測試的有效執行個體互動即時案例 |Microsoft 文件"
-ms.custom: 
+title: 步驟 4d： 測試的有效執行個體互動即時案例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e163c3ac-a00d-40cf-b1b8-4a38f74ab0e8
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223766"
 ---
 # <a name="step-4d-test-a-valid-instance-for-the-interact-real-time-scenario"></a><span data-ttu-id="94777-102">步驟 4d： 測試的有效執行個體互動即時案例</span><span class="sxs-lookup"><span data-stu-id="94777-102">Step 4D: Test a Valid Instance for the InterAct Real-Time Scenario</span></span>
 <span data-ttu-id="94777-103">在開始此步驟之前，必須先完成[步驟 4c： 建立測試執行個體互動的即時案例](../../adapters-and-accelerators/fileact-interact/step-4c-create-a-test-instance-for-the-interact-real-time-scenario.md)。</span><span class="sxs-lookup"><span data-stu-id="94777-103">Before you begin this step, you must complete [Step 4C: Create a Test Instance for the InterAct Real-Time Scenario](../../adapters-and-accelerators/fileact-interact/step-4c-create-a-test-instance-for-the-interact-real-time-scenario.md).</span></span>  

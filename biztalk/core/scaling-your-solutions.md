@@ -1,11 +1,11 @@
 ---
-title: "擴充您的解決方案 |Microsoft 文件"
-ms.custom: 
+title: 擴充您的解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - performance, scaling
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - scaling, scaling up
 - scaling
 ms.assetid: e2acbaa4-29d3-4c89-ac1f-c0641cfa0442
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269974"
 ---
 # <a name="scaling-your-solutions"></a><span data-ttu-id="554e9-102">擴充您的解決方案</span><span class="sxs-lookup"><span data-stu-id="554e9-102">Scaling Your Solutions</span></span>
 <span data-ttu-id="554e9-103">BizTalk Server 架構針對擴充性提供非常良好的支援。</span><span class="sxs-lookup"><span data-stu-id="554e9-103">BizTalk Server architecture provides a very good support for scalability.</span></span> <span data-ttu-id="554e9-104">您所選擇的擴充模式，則會根據實例的複雜度、硬體，以及輸送量/延遲需求而定。</span><span class="sxs-lookup"><span data-stu-id="554e9-104">The scaling patterns that you choose depend on complexity of your scenario, hardware and the throughput/Latency requirements.</span></span> <span data-ttu-id="554e9-105">您應該從較小的拓樸開始，然後根據本節的指導方針嘗試擴充或縮小。</span><span class="sxs-lookup"><span data-stu-id="554e9-105">You should start with a smaller topology initially and try to scale-up or down based on the guidelines in this section.</span></span>  

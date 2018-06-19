@@ -1,11 +1,11 @@
 ---
-title: "向外擴充 BizTalk Server 層 |Microsoft 文件"
-ms.custom: 
+title: 向外擴充 BizTalk Server 層 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, scaling
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - NLB system, scaling
 - scaling, host instances
 ms.assetid: 01d1ab20-d7a9-4d0b-a61e-65e56fe5010e
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271966"
 ---
 # <a name="scaling-out-the-biztalk-server-tier"></a><span data-ttu-id="48796-102">向外擴充 BizTalk Server 層</span><span class="sxs-lookup"><span data-stu-id="48796-102">Scaling Out the BizTalk Server Tier</span></span>
 <span data-ttu-id="48796-103">若要向外擴充 BizTalk 層，請新增更多硬體至現有的拓撲。</span><span class="sxs-lookup"><span data-stu-id="48796-103">To scale out the BizTalk tier, add more hardware to the existing topology.</span></span> <span data-ttu-id="48796-104">建議您在下列情況下新增硬體：</span><span class="sxs-lookup"><span data-stu-id="48796-104">It is recommended that you add hardware in the following scenarios:</span></span>  

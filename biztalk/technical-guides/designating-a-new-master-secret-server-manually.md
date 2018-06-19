@@ -1,14 +1,14 @@
 ---
-title: "手動指定新的主要密碼伺服器 |Microsoft 文件"
-ms.custom: 
+title: 手動指定新的主要密碼伺服器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3fa44143-8d29-49ba-9c71-96be2c9ded67
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299798"
 ---
 # <a name="designating-a-new-master-secret-server-manually"></a><span data-ttu-id="8ecfe-102">手動指定新的主要密碼伺服器</span><span class="sxs-lookup"><span data-stu-id="8ecfe-102">Designating a New Master Secret Server Manually</span></span>
 <span data-ttu-id="8ecfe-103">叢集硬體費不貲。</span><span class="sxs-lookup"><span data-stu-id="8ecfe-103">Cluster hardware can be expensive.</span></span> <span data-ttu-id="8ecfe-104">如果硬體成本是一項考量，您可以考慮手動指定期間所要主要密碼伺服器失敗的情況下的另一個企業單一登入 (SSO) 伺服器。</span><span class="sxs-lookup"><span data-stu-id="8ecfe-104">If hardware cost is a concern, you can consider manually designating another Enterprise Single Sign-On (SSO) server to be the master secret server during failure scenarios.</span></span> <span data-ttu-id="8ecfe-105">使用此選項，SSO 群組中的其他 SSO 伺服器可提升為主要密碼伺服器。</span><span class="sxs-lookup"><span data-stu-id="8ecfe-105">Using this option, any other SSO server in the SSO group can be promoted to the master secret server.</span></span> <span data-ttu-id="8ecfe-106">當主要已關閉時，您可以手動升級其中一部 SSO 伺服器，為主要密碼伺服器。</span><span class="sxs-lookup"><span data-stu-id="8ecfe-106">When the master is down, you can manually promote one of the SSO servers to be the master secret server.</span></span> <span data-ttu-id="8ecfe-107">這項技術的最大的缺點是，您無法編輯現有的部署，重新啟動現有[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]服務，或部署新的 BizTalk 應用程式，直到您升級新的主要密碼伺服器。</span><span class="sxs-lookup"><span data-stu-id="8ecfe-107">The biggest disadvantage of this technique is that you cannot edit the existing deployments, restart the existing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] services, or deploy new BizTalk applications until you promote a new master secret server.</span></span>  

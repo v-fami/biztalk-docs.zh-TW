@@ -1,14 +1,14 @@
 ---
-title: "選擇性設定 |Microsoft 文件"
-ms.custom: 
+title: 選擇性設定 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3f4b0b51-2cad-4cb5-b6cd-4db92bd199fa
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976756"
 ---
 # <a name="optional-configurations"></a><span data-ttu-id="c61d2-102">選擇性設定</span><span class="sxs-lookup"><span data-stu-id="c61d2-102">Optional Configurations</span></span>
 <span data-ttu-id="c61d2-103">您匯入 BizTalk Server 管理組件之後，瀏覽窗格的 [監視] 窗格會顯示自動探索的物件類型。</span><span class="sxs-lookup"><span data-stu-id="c61d2-103">After you import the BizTalk Server Management Pack, the navigation pane of the Monitoring pane displays the object types that are discovered automatically.</span></span> <span data-ttu-id="c61d2-104">如需物件類型的清單，請參閱[物件管理組件會探索](../technical-guides/objects-the-management-pack-discovers.md)> 一節。</span><span class="sxs-lookup"><span data-stu-id="c61d2-104">For a list of object types, see [Objects the Management Pack Discovers](../technical-guides/objects-the-management-pack-discovers.md) section.</span></span> <span data-ttu-id="c61d2-105">您可以修改所探索之物件的預設探索組態[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理組件。</span><span class="sxs-lookup"><span data-stu-id="c61d2-105">You can modify the default discovery configuration of objects discovered by the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management Pack.</span></span> <span data-ttu-id="c61d2-106">您可以使用 Operations Manager 2007 R2/2012年的覆寫功能來變更組態設定。</span><span class="sxs-lookup"><span data-stu-id="c61d2-106">You use the overrides feature of Operations Manager 2007 R2/2012 to change configuration settings.</span></span>  

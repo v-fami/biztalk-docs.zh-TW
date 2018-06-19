@@ -1,18 +1,18 @@
 ---
-title: "XML 工具 （BizTalk Server 範例資料夾） |Microsoft 文件"
-ms.custom: 
+title: XML 工具 （BizTalk Server 範例資料夾） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - XML tools
 - SDK examples
 - examples, XML tools
 ms.assetid: f241910d-0e73-4725-a3c1-df4940a38c01
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289526"
 ---
 # <a name="xml-tools-biztalk-server-samples-folder"></a><span data-ttu-id="6aeae-102">XML 工具 （BizTalk Server 範例資料夾）</span><span class="sxs-lookup"><span data-stu-id="6aeae-102">XML Tools (BizTalk Server Samples Folder)</span></span>
 <span data-ttu-id="6aeae-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 在其軟體開發套件 (SDK) 中包含了兩個「可延伸標記語言」(XML) 工具範例。</span><span class="sxs-lookup"><span data-stu-id="6aeae-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes two Extensible Markup Language (XML) Tools samples in its software development kit (SDK).</span></span> <span data-ttu-id="6aeae-104">本節會就這些 XML 工具範例所示範的功能、建置和執行這些範例的指示，以及可預期結果提供詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="6aeae-104">This section provides detailed information about the functionality that the XML Tools samples demonstrate, instructions for building and running the samples, and the results you can expect.</span></span>  

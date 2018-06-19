@@ -1,14 +1,14 @@
 ---
-title: "準備您的電腦安裝 |Microsoft 文件"
-ms.custom: 
+title: 準備您的電腦安裝 |Microsoft 文件
+ms.custom: ''
 ms.date: 03/15/2016
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 53df7a2f-638b-4921-a97f-736760248526
-caps.latest.revision: 
+caps.latest.revision: 32
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710457"
 ---
 # <a name="prepare-your-computer-for-installation"></a><span data-ttu-id="8a54a-102">準備安裝電腦</span><span class="sxs-lookup"><span data-stu-id="8a54a-102">Prepare Your Computer for Installation</span></span>
 <span data-ttu-id="8a54a-103">本主題列出藉由安裝和設定所有必要軟體，然後建立帳戶並設定權限，以便備妥電腦的步驟。</span><span class="sxs-lookup"><span data-stu-id="8a54a-103">This topic lists the steps to prepare your computer by installing and configuring all software prerequisites, and then creating accounts and setting permissions.</span></span>  

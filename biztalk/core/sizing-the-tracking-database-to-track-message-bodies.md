@@ -1,11 +1,11 @@
 ---
-title: "調整大小以追蹤訊息內文追蹤資料庫 |Microsoft 文件"
-ms.custom: 
+title: 調整大小以追蹤訊息內文追蹤資料庫 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Tracking database, database size
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - HAT, orchestrations
 - tracking, ports
 ms.assetid: ee75e530-f15d-4ceb-ba67-0b0b24d9df6b
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277918"
 ---
 # <a name="sizing-the-tracking-database-to-track-message-bodies"></a><span data-ttu-id="1998c-102">將追蹤資料庫的大小調整為追蹤訊息內文</span><span class="sxs-lookup"><span data-stu-id="1998c-102">Sizing the Tracking Database to Track Message Bodies</span></span>
 <span data-ttu-id="1998c-103">若您計劃追蹤 BizTalk 追蹤資料庫中的訊息內文，也需要將這些內文的大小納入計算。</span><span class="sxs-lookup"><span data-stu-id="1998c-103">If you plan to track the message bodies in the BizTalk Tracking database, then you will also need to account for the size of these bodies in your calculation.</span></span> <span data-ttu-id="1998c-104">使用以下方程式：</span><span class="sxs-lookup"><span data-stu-id="1998c-104">Use the following equation:</span></span>  

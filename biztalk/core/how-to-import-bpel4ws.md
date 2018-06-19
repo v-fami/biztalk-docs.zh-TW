@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/16/2018
+ms.locfileid: "31008473"
 ---
 # <a name="import-bpel4ws-in-biztalk-server"></a><span data-ttu-id="49717-102">在 BizTalk Server 中匯入 BPEL4WS</span><span class="sxs-lookup"><span data-stu-id="49717-102">Import BPEL4WS in BizTalk Server</span></span>
 <span data-ttu-id="49717-103">您可以從現有的 BPEL4WS 匯入，以建立協調流程。</span><span class="sxs-lookup"><span data-stu-id="49717-103">You can import from existing BPEL4WS to create an orchestration.</span></span>  

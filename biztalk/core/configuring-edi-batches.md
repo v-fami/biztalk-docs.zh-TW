@@ -1,14 +1,14 @@
 ---
-title: "設定 EDI 批次 |Microsoft 文件"
-ms.custom: 
+title: 設定 EDI 批次 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8be06e5c-603a-4f93-b018-105314666157
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232798"
 ---
 # <a name="configuring-edi-batches"></a><span data-ttu-id="78080-102">設定 EDI 批次</span><span class="sxs-lookup"><span data-stu-id="78080-102">Configuring EDI Batches</span></span>
 <span data-ttu-id="78080-103">此章節的主題描述如何接收分割或保留批次的交換，如何透過 XML 管線，傳送保留的交換以及如何實作外部批次的釋放機制。</span><span class="sxs-lookup"><span data-stu-id="78080-103">The topics in this section describe how to receive a split or preserved batched interchange, how to send a preserved interchange over an XML pipeline, and how to implement an external batch release mechanism.</span></span>  

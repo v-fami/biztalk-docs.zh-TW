@@ -1,17 +1,17 @@
 ---
-title: "鍵盤快速鍵 |Microsoft 文件"
-ms.custom: 
+title: 鍵盤快速鍵 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - keyboard shortcuts
 - technical reference, keyboard shortcuts
 ms.assetid: 180faf4b-8e86-4520-9cd0-89a4409da47c
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006360"
 ---
 # <a name="keyboard-shortcuts"></a><span data-ttu-id="cbcae-102">鍵盤快速鍵</span><span class="sxs-lookup"><span data-stu-id="cbcae-102">Keyboard Shortcuts</span></span>
 <span data-ttu-id="cbcae-103">本節列出 Microsoft BizTalk Server 的鍵盤快速鍵。</span><span class="sxs-lookup"><span data-stu-id="cbcae-103">This section lists the keyboard shortcuts for Microsoft BizTalk Server.</span></span>  

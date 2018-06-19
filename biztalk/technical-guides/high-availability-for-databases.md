@@ -1,14 +1,14 @@
 ---
-title: "資料庫的高可用性 |Microsoft 文件"
-ms.custom: 
+title: 資料庫的高可用性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 63813d87-1ce4-4645-bb2a-d55e413fcace
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009359"
 ---
 # <a name="high-availability-for-databases"></a><span data-ttu-id="b5b21-102">資料庫的高可用性</span><span class="sxs-lookup"><span data-stu-id="b5b21-102">High Availability for Databases</span></span>
 <span data-ttu-id="b5b21-103">BizTalk Server 高度依賴 SQL Server 資料存放區和資料持續性。</span><span class="sxs-lookup"><span data-stu-id="b5b21-103">BizTalk Server relies heavily on SQL Server for data store and data persistence.</span></span> <span data-ttu-id="b5b21-104">在 BizTalk Server 中所有其他元件和主控件在整合不同的商業應用程式的程序中都有特定的角色 (例如，接收、處理或路由訊息)，但是資料庫電腦會擷取此工作並將它保存到磁碟中。</span><span class="sxs-lookup"><span data-stu-id="b5b21-104">All other components and hosts in BizTalk Server have specific roles in the process of integrating disparate business applications (for example, receiving, processing, or routing messages), but the database computer captures this work and persists it to disk.</span></span> <span data-ttu-id="b5b21-105">例如，當 BizTalk Server 接收內送訊息，接收主控件它保存到 MessageBox 資料庫之前其他主控件擷取協調流程處理和傳送的訊息。</span><span class="sxs-lookup"><span data-stu-id="b5b21-105">For example, when BizTalk Server receives an incoming message, the receive host persists it to the MessageBox database before other hosts retrieve the message for orchestration processing and sending.</span></span> <span data-ttu-id="b5b21-106">如果您的 BizTalk 方案包含協調流程，BizTalk Server 會將訊息路由的主控件執行商務程序 （處理主控件），並在協調流程完成之後，將訊息儲存到 MessageBox 資料庫。</span><span class="sxs-lookup"><span data-stu-id="b5b21-106">If your BizTalk solution involves orchestration, BizTalk Server routes the message to the host that executes the business process (processing host), and saves the message to the MessageBox database after the orchestration finishes.</span></span> <span data-ttu-id="b5b21-107">傳送主控件接著會從資料庫擷取訊息，再透過適當的傳送配接器將它傳送到外部應用程式。</span><span class="sxs-lookup"><span data-stu-id="b5b21-107">The sending host then retrieves the message from the database before sending it to the external application through the appropriate send adapter.</span></span>  

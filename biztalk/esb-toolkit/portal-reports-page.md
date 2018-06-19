@@ -1,14 +1,14 @@
 ---
-title: "入口網站的報表頁面 |Microsoft 文件"
-ms.custom: 
+title: 入口網站的報表頁面 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 51d793cc-dcea-4c29-883b-a5045d39d4f6
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294598"
 ---
 # <a name="portal-reports-page"></a><span data-ttu-id="9c750-102">入口網站的報表 頁面</span><span class="sxs-lookup"><span data-stu-id="9c750-102">Portal Reports Page</span></span>
 <span data-ttu-id="9c750-103">入口網站的報表頁面上，顯示在圖 1 中，會顯示下列圖表：</span><span class="sxs-lookup"><span data-stu-id="9c750-103">The Portal Reports page, shown in Figure 1, displays the following charts:</span></span>  
@@ -43,7 +44,7 @@ ms.lasthandoff: 09/20/2017
   
 -   <span data-ttu-id="9c750-121">按一下**SelectApplications**連結上方的第一個圖表，然後選取或清除核取方塊會顯示已安裝 Microsoft BizTalk Server 應用程式清單中。</span><span class="sxs-lookup"><span data-stu-id="9c750-121">Click the **SelectApplications** link above the first chart, and then select or clear the check boxes in the list of installed Microsoft BizTalk Server applications that appears.</span></span> <span data-ttu-id="9c750-122">您也可以使用顯示來選取所有或任何應用程式的連結。</span><span class="sxs-lookup"><span data-stu-id="9c750-122">You can also use the links that appear to select all or none of the applications.</span></span> <span data-ttu-id="9c750-123">按一下**儲存**以顯示所選的應用程式的資訊，或按一下**取消**放棄變更。</span><span class="sxs-lookup"><span data-stu-id="9c750-123">Click **Save** to show the information for the selected applications, or click **Cancel** to abandon your changes.</span></span>  
   
--   <span data-ttu-id="9c750-124">使用上述的第一個圖表的下拉式清單，選取您想要的圖表，以顯示資料的間隔。</span><span class="sxs-lookup"><span data-stu-id="9c750-124">Use the drop-down list above the first chart to select the interval over which you want the charts to show data.</span></span> <span data-ttu-id="9c750-125">您可以選擇包含先前資料**小時、 天、 週、 月、 季、 年、**或**所有**。</span><span class="sxs-lookup"><span data-stu-id="9c750-125">You can choose to include data for the previous **Hour, Day, Week, Month, Quarter, Year,** or **ALL**.</span></span>  
+-   <span data-ttu-id="9c750-124">使用上述的第一個圖表的下拉式清單，選取您想要的圖表，以顯示資料的間隔。</span><span class="sxs-lookup"><span data-stu-id="9c750-124">Use the drop-down list above the first chart to select the interval over which you want the charts to show data.</span></span> <span data-ttu-id="9c750-125">您可以選擇包含先前資料**小時、 天、 週、 月、 季、 年、** 或**所有**。</span><span class="sxs-lookup"><span data-stu-id="9c750-125">You can choose to include data for the previous **Hour, Day, Week, Month, Quarter, Year,** or **ALL**.</span></span>  
   
 -   <span data-ttu-id="9c750-126">按一下其中一個服務應用程式中所顯示的資料分析網頁中的圖表。</span><span class="sxs-lookup"><span data-stu-id="9c750-126">Click one of the charts in the page to show a breakdown of the data by service within the application.</span></span> <span data-ttu-id="9c750-127">根據圖表您所選取這會顯示個別的錯誤、 警示、 錯誤類型、 resubmissions 或為每個服務的警示訂閱的計數或趨勢線。</span><span class="sxs-lookup"><span data-stu-id="9c750-127">Depending on the chart you select, this shows a count or trend line for the individual faults, alerts, error types, resubmissions, or alert subscriptions for each service.</span></span>  
   

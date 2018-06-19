@@ -1,14 +1,14 @@
 ---
-title: "同步處理密碼 |Microsoft 文件"
-ms.custom: 
+title: 同步處理密碼 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 398d149a-5d72-445e-a79f-927b3b923c46
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278182"
 ---
 # <a name="synchronizing-passwords"></a><span data-ttu-id="feb94-102">同步處理密碼</span><span class="sxs-lookup"><span data-stu-id="feb94-102">Synchronizing Passwords</span></span>
 <span data-ttu-id="feb94-103">您可以使用密碼同步配接器同步處理密碼。</span><span class="sxs-lookup"><span data-stu-id="feb94-103">You synchronize a password by using a password sync adapter.</span></span> <span data-ttu-id="feb94-104">此配接器應該能夠與特定、遠端、非 Windows 的系統通訊，也應該能夠指示該系統更新密碼資訊。</span><span class="sxs-lookup"><span data-stu-id="feb94-104">This adapter should be able to communicate with a specific, remote, non-Windows system, and should also be able to instruct that system to update password information.</span></span>  

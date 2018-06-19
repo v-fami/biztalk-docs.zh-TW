@@ -1,14 +1,14 @@
 ---
-title: "步驟 6： 設定傳送埠，以便將資料傳送至您的組織 |Microsoft 文件"
-ms.custom: 
+title: 步驟 6： 設定傳送埠，以便將資料傳送至您的組織 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 796570ca-8178-4679-9213-d67a2a189bf9
-caps.latest.revision: "26"
+caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277006"
 ---
 # <a name="step-6-configure-a-send-port-to-send-data-to-your-organization"></a><span data-ttu-id="07b9e-102">步驟 6： 設定傳送埠，以便將資料傳送至您的組織</span><span class="sxs-lookup"><span data-stu-id="07b9e-102">Step 6: Configure a Send Port to Send Data to Your Organization</span></span>
 <span data-ttu-id="07b9e-103">![步驟 6 的 9](../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-6of9.gif "Step_6of9")</span><span class="sxs-lookup"><span data-stu-id="07b9e-103">![Step 6 of 9](../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-6of9.gif "Step_6of9")</span></span>  
@@ -70,13 +71,13 @@ ms.lasthandoff: 09/20/2017
     |<span data-ttu-id="07b9e-140">**值**</span><span class="sxs-lookup"><span data-stu-id="07b9e-140">**Value**</span></span>|<span data-ttu-id="07b9e-141">輸入`ReceiveEDI_fromTHEM_A`。</span><span class="sxs-lookup"><span data-stu-id="07b9e-141">Enter `ReceiveEDI_fromTHEM_A`.</span></span>|  
     |<span data-ttu-id="07b9e-142">**群組依據**</span><span class="sxs-lookup"><span data-stu-id="07b9e-142">**Group by**</span></span>|<span data-ttu-id="07b9e-143">選取**和**。</span><span class="sxs-lookup"><span data-stu-id="07b9e-143">Select **And**.</span></span>|  
     |<span data-ttu-id="07b9e-144">**屬性**</span><span class="sxs-lookup"><span data-stu-id="07b9e-144">**Property**</span></span>|<span data-ttu-id="07b9e-145">在下一行中，選取**BTS。MessageType**。</span><span class="sxs-lookup"><span data-stu-id="07b9e-145">On the next line, select **BTS.MessageType**.</span></span>|  
-    |<span data-ttu-id="07b9e-146">**運算子**</span><span class="sxs-lookup"><span data-stu-id="07b9e-146">**Operator**</span></span>|<span data-ttu-id="07b9e-147">選取**！ =**。</span><span class="sxs-lookup"><span data-stu-id="07b9e-147">Select **!=**.</span></span>|  
+    |<span data-ttu-id="07b9e-146">**運算子**</span><span class="sxs-lookup"><span data-stu-id="07b9e-146">**Operator**</span></span>|<span data-ttu-id="07b9e-147">選取 **！ =**。</span><span class="sxs-lookup"><span data-stu-id="07b9e-147">Select **!=**.</span></span>|  
     |<span data-ttu-id="07b9e-148">**值**</span><span class="sxs-lookup"><span data-stu-id="07b9e-148">**Value**</span></span>|<span data-ttu-id="07b9e-149">輸入`http://schemas.microsoft.com/Edi/X12#X12_997_Root`。</span><span class="sxs-lookup"><span data-stu-id="07b9e-149">Enter `http://schemas.microsoft.com/Edi/X12#X12_997_Root`.</span></span>|  
   
     > [!NOTE]
     >  <span data-ttu-id="07b9e-150">篩選器將確保此傳送埠將收取由 Receive_EDI_fromTHEM_A 接收位置所收到的訊息，而該傳送埠將不會收取 997 通知，而只收取 850 訊息。</span><span class="sxs-lookup"><span data-stu-id="07b9e-150">The filter ensures that the send port will pick up messages that were received by the Receive_EDI_fromTHEM_A receive location, and that the send port will not pick up 997 acknowledgments, but will pick only 850 messages.</span></span>  
   
-7.  <span data-ttu-id="07b9e-151">在主控台樹狀目錄中，按一下**[輸出對應]**。</span><span class="sxs-lookup"><span data-stu-id="07b9e-151">In the console tree, click **OutboundMaps**.</span></span> <span data-ttu-id="07b9e-152">在**輸出對應**窗格，請在**對應**資料行，第一個資料列上，選取**Inbound4010850_to_OrderFile**。</span><span class="sxs-lookup"><span data-stu-id="07b9e-152">In the **Outbound Maps** pane, in the **Map** column, on the first row, select **Inbound4010850_to_OrderFile**.</span></span> <span data-ttu-id="07b9e-153">(中的項目**來源文件**資料行都將是 X12_00401_850。)</span><span class="sxs-lookup"><span data-stu-id="07b9e-153">(The entry in the **Source Document** column will be X12_00401_850.)</span></span>  
+7.  <span data-ttu-id="07b9e-151">在主控台樹狀目錄中，按一下 **[輸出對應]**。</span><span class="sxs-lookup"><span data-stu-id="07b9e-151">In the console tree, click **OutboundMaps**.</span></span> <span data-ttu-id="07b9e-152">在**輸出對應**窗格，請在**對應**資料行，第一個資料列上，選取**Inbound4010850_to_OrderFile**。</span><span class="sxs-lookup"><span data-stu-id="07b9e-152">In the **Outbound Maps** pane, in the **Map** column, on the first row, select **Inbound4010850_to_OrderFile**.</span></span> <span data-ttu-id="07b9e-153">(中的項目**來源文件**資料行都將是 X12_00401_850。)</span><span class="sxs-lookup"><span data-stu-id="07b9e-153">(The entry in the **Source Document** column will be X12_00401_850.)</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="07b9e-154">這個步驟可確保輸出訊息將會包含只對應來源為根據的輸入訊息資料的**Inbound4010850_to_OrderFile**對應。</span><span class="sxs-lookup"><span data-stu-id="07b9e-154">This step ensures that the output message will consist only of the data mapped from the input message according to the **Inbound4010850_to_OrderFile** map.</span></span>  

@@ -1,17 +1,17 @@
 ---
-title: "應用程式部署程序 |Microsoft 文件"
-ms.custom: 
+title: 應用程式部署程序 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - applications, deploying
 - deploying [applications], how to
 ms.assetid: 29486c37-6aa7-46fd-a457-916fd235f448
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279734"
 ---
 # <a name="the-application-deployment-process"></a><span data-ttu-id="67857-102">應用程式部署程序</span><span class="sxs-lookup"><span data-stu-id="67857-102">The Application Deployment Process</span></span>
 <span data-ttu-id="67857-103">下列圖表描述部署 BizTalk 應用程式所牽涉到的一般步驟。</span><span class="sxs-lookup"><span data-stu-id="67857-103">This following diagram depicts the general steps involved in deploying a BizTalk application.</span></span> <span data-ttu-id="67857-104">相關工作的開發、 測試、 預備及實際執行階段的應用程式部署相關的詳細資訊，請參閱[應用程式部署工作](../core/application-deployment-tasks.md)。</span><span class="sxs-lookup"><span data-stu-id="67857-104">For detailed information about the tasks involved during the development, testing, staging, and production phases of application deployment, see [Application Deployment Tasks](../core/application-deployment-tasks.md).</span></span>  

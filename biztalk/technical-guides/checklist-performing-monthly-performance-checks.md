@@ -1,14 +1,14 @@
 ---
-title: "檢查清單： 執行每月效能檢查 |Microsoft 文件"
-ms.custom: 
+title: 檢查清單： 執行每月效能檢查 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fa103777-af4d-480d-abc7-3c4718f493c1
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,13 +17,14 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22300726"
 ---
 # <a name="checklist-performing-monthly-performance-checks"></a><span data-ttu-id="2417d-102">檢查清單： 執行每月效能檢查</span><span class="sxs-lookup"><span data-stu-id="2417d-102">Checklist: Performing Monthly Performance Checks</span></span>
 <span data-ttu-id="2417d-103">本主題列出為避免效能問題的每月為基礎，您應該遵循的最佳作法[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統。</span><span class="sxs-lookup"><span data-stu-id="2417d-103">This topic lists best practices that you should follow on a monthly basis to avoid performance issues with a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] system.</span></span>  
   
 |<span data-ttu-id="2417d-104">步驟</span><span class="sxs-lookup"><span data-stu-id="2417d-104">Steps</span></span>|<span data-ttu-id="2417d-105">參考</span><span class="sxs-lookup"><span data-stu-id="2417d-105">Reference</span></span>|  
 |-----------|---------------|  
-|<span data-ttu-id="2417d-106">判斷您需要在計劃期間追蹤的資訊</span><span class="sxs-lookup"><span data-stu-id="2417d-106">Determine the information you need to track during planning</span></span>|<span data-ttu-id="2417d-107">您應該在規劃階段決定需要追蹤哪些資訊，如此在您部署專案之後便可設定追蹤選項，並限制追蹤資料量，僅取得您所需的資訊。</span><span class="sxs-lookup"><span data-stu-id="2417d-107">You should decide during the planning stages which information you need to track, so that after you deploy the project you can set the tracking options and limit the amount of tracked data to give you only the information you need.</span></span> <span data-ttu-id="2417d-108">**注意：**與追蹤相關的最佳作法的詳細資訊，請參閱[規劃追蹤](../technical-guides/planning-for-tracking.md)本指南中和[健全狀況與活動追蹤](http://go.microsoft.com/fwlink/?LinkId=154187)(http://go.microsoft.com/fwlink/?LinkId = 154187) 中[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]文件。</span><span class="sxs-lookup"><span data-stu-id="2417d-108">**Note:**  For more information about best practices related to tracking, see [Planning for Tracking](../technical-guides/planning-for-tracking.md) in this guide and [Health and Activity Tracking](http://go.microsoft.com/fwlink/?LinkId=154187) (http://go.microsoft.com/fwlink/?LinkId=154187) in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] documentation.</span></span>|  
+|<span data-ttu-id="2417d-106">判斷您需要在計劃期間追蹤的資訊</span><span class="sxs-lookup"><span data-stu-id="2417d-106">Determine the information you need to track during planning</span></span>|<span data-ttu-id="2417d-107">您應該在規劃階段決定需要追蹤哪些資訊，如此在您部署專案之後便可設定追蹤選項，並限制追蹤資料量，僅取得您所需的資訊。</span><span class="sxs-lookup"><span data-stu-id="2417d-107">You should decide during the planning stages which information you need to track, so that after you deploy the project you can set the tracking options and limit the amount of tracked data to give you only the information you need.</span></span> <span data-ttu-id="2417d-108">**注意：** 與追蹤相關的最佳作法的詳細資訊，請參閱[規劃追蹤](../technical-guides/planning-for-tracking.md)本指南中和[健全狀況與活動追蹤](http://go.microsoft.com/fwlink/?LinkId=154187)(http://go.microsoft.com/fwlink/?LinkId = 154187) 中[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]文件。</span><span class="sxs-lookup"><span data-stu-id="2417d-108">**Note:**  For more information about best practices related to tracking, see [Planning for Tracking](../technical-guides/planning-for-tracking.md) in this guide and [Health and Activity Tracking](http://go.microsoft.com/fwlink/?LinkId=154187) (http://go.microsoft.com/fwlink/?LinkId=154187) in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] documentation.</span></span>|  
 |<span data-ttu-id="2417d-109">不要追蹤所有訊息</span><span class="sxs-lookup"><span data-stu-id="2417d-109">Do not track all messages</span></span>|<span data-ttu-id="2417d-110">我們建議您在不追蹤所有訊息，因為每次觸及訊息時，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]會製作另一個複本。</span><span class="sxs-lookup"><span data-stu-id="2417d-110">We recommend that you not track all messages, because each time a message is touched, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] makes another copy.</span></span> <span data-ttu-id="2417d-111">您可以改為縮小範圍，藉由追蹤特定連接埠。</span><span class="sxs-lookup"><span data-stu-id="2417d-111">You can instead narrow the scope by tracking only a specific port.</span></span> <span data-ttu-id="2417d-112">這有助於將您的系統效能最大化，並保持資料庫的整齊。</span><span class="sxs-lookup"><span data-stu-id="2417d-112">This helps to maximize the performance of your system and to keep the databases uncluttered.</span></span>|  
 |<span data-ttu-id="2417d-113">不要追蹤 」 的協調流程的所有事件</span><span class="sxs-lookup"><span data-stu-id="2417d-113">Do not track all events for orchestrations</span></span>|<span data-ttu-id="2417d-114">追蹤協調流程的所有事件，可能會增加 dta_DebugTrace 和 dta_MessageInoutEvents 資料表的大小。</span><span class="sxs-lookup"><span data-stu-id="2417d-114">Tracking all events for an orchestration might increase the size of dta_DebugTrace and dta_MessageInoutEvents tables.</span></span> <span data-ttu-id="2417d-115">如需有關如何停用協調流程的追蹤的指示，請參閱[停用協調流程的追蹤](../technical-guides/how-to-disable-tracking.md#BKMK_DisableOrchTracking)。</span><span class="sxs-lookup"><span data-stu-id="2417d-115">For instructions on how to disable tracking for an orchestration, see [To disable tracking for an orchestration](../technical-guides/how-to-disable-tracking.md#BKMK_DisableOrchTracking).</span></span>|  
 |<span data-ttu-id="2417d-116">設定追蹤傳送埠和接收埠而不是在管線</span><span class="sxs-lookup"><span data-stu-id="2417d-116">Set tracking on send ports and receive ports instead of on a pipeline</span></span>|<span data-ttu-id="2417d-117">如果您設定管線的追蹤選項，您也會設定每個管線所使用的連接埠全域追蹤選項。</span><span class="sxs-lookup"><span data-stu-id="2417d-117">If you set tracking options on pipelines, you will also set the tracking options globally for every port that uses the pipeline.</span></span> <span data-ttu-id="2417d-118">這又可能會導致更多正在追蹤資料比您想要這會拖慢系統效能。</span><span class="sxs-lookup"><span data-stu-id="2417d-118">This in turn may result in far more data being tracked than you intend, which will slow system performance.</span></span> <span data-ttu-id="2417d-119">相反地，您可以設定追蹤選項，傳送連接埠和接收埠。</span><span class="sxs-lookup"><span data-stu-id="2417d-119">Instead, you can set tracking options on send ports and receive ports.</span></span>|  

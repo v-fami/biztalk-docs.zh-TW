@@ -1,17 +1,17 @@
 ---
-title: "SOAP 接收配接器 |Microsoft 文件"
-ms.custom: 
+title: SOAP 接收配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SOAP adapters, receive adapters
 - receive adapters, SOAP adapters
 ms.assetid: bb968fa8-0515-4f3a-bb39-9effb83e960c
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278390"
 ---
 # <a name="soap-receive-adapter"></a><span data-ttu-id="58b79-102">SOAP 接收配接器</span><span class="sxs-lookup"><span data-stu-id="58b79-102">SOAP Receive Adapter</span></span>
 <span data-ttu-id="58b79-103">您可以使用 SOAP 接收配接器來接收 Web 服務要求。</span><span class="sxs-lookup"><span data-stu-id="58b79-103">You use the SOAP receive adapter to receive Web service requests.</span></span> <span data-ttu-id="58b79-104">SOAP 接收配接器會建立 BizTalk 訊息物件，並將關聯的屬性升級為訊息內容。</span><span class="sxs-lookup"><span data-stu-id="58b79-104">The SOAP receive adapter creates a BizTalk Message object, and promotes the associated properties to the message context.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "靜態配接器 IStaticAdapterConfig 介面 |Microsoft 文件"
-ms.custom: 
+title: 靜態配接器 IStaticAdapterConfig 介面 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 52f5de01-0cfc-456a-a52b-28f8f076bdfc
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277382"
 ---
 # <a name="static-adapter-istaticadapterconfig-interface"></a><span data-ttu-id="bd6bf-102">靜態配接器 IStaticAdapterConfig 介面</span><span class="sxs-lookup"><span data-stu-id="bd6bf-102">Static Adapter IStaticAdapterConfig Interface</span></span>
 <span data-ttu-id="bd6bf-103">靜態設計階段配接器必須實作**IStaticAdapterConfig**介面。</span><span class="sxs-lookup"><span data-stu-id="bd6bf-103">A static design-time adapter must implement the **IStaticAdapterConfig** interface.</span></span> <span data-ttu-id="bd6bf-104">這可讓它和「新增配接器中繼資料精靈」進行互動，並從配接器取得服務組織和個別的服務描述。</span><span class="sxs-lookup"><span data-stu-id="bd6bf-104">This allows it to interact with the Add Adapter Metadata Wizard and obtain service organizations and individual service descriptions from the adapter.</span></span> <span data-ttu-id="bd6bf-105">此精靈會呼叫**GetServiceOrganization**和**GetServiceDescription**方法來提取與配接器互動的中繼資料資訊，並將它新增至 BizTalk 專案中[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="bd6bf-105">The wizard calls the **GetServiceOrganization** and **GetServiceDescription** methods to pull in metadata information with which the adapter interacts and add it to a BizTalk project in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].</span></span>  

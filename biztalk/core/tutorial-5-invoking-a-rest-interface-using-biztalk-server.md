@@ -1,14 +1,14 @@
 ---
-title: "教學課程 5： 叫用 REST 介面使用 BizTalk Server |Microsoft 文件"
-ms.custom: 
+title: 教學課程 5： 叫用 REST 介面使用 BizTalk Server |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 73871ca3-abd0-45ae-b379-6df76a967a80
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287294"
 ---
 # <a name="tutorial-5-invoking-a-rest-interface-using-biztalk-server"></a><span data-ttu-id="c4b12-102">教學課程 5： 叫用 REST 介面使用 BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="c4b12-102">Tutorial 5: Invoking a REST Interface Using BizTalk Server</span></span>
 <span data-ttu-id="c4b12-103">此章節提供如何叫用 REST 端點使用的逐步解說[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="c4b12-103">This section provides a step-by-step walkthrough on how to invoke a REST endpoint using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="c4b12-104">在本教學課程叫用 REST 端點可從[!INCLUDE[winazure](../includes/winazure-md.md)]Marketplace 傳回延遲班機美式空中承運業者寄送。</span><span class="sxs-lookup"><span data-stu-id="c4b12-104">In this tutorial you invoke a REST endpoint available from the [!INCLUDE[winazure](../includes/winazure-md.md)] Marketplace that returns the delays in flights of US air carriers.</span></span> <span data-ttu-id="c4b12-105">本教學課程會使用新**Wcf-webhttp**配接器中導入[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]叫用 REST 端點。</span><span class="sxs-lookup"><span data-stu-id="c4b12-105">The tutorial uses the new **WCF-WebHttp** adapter introduced in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to invoke the REST endpoint.</span></span>  

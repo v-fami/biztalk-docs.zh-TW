@@ -11,7 +11,7 @@ helpviewer_keywords:
 - examples, File adapters
 - File adapters, examples
 ms.assetid: d59cecb4-6353-44d5-b8d6-316446758536
-caps.latest.revision: ''
+caps.latest.revision: 46
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26010335"
 ---
 # <a name="file-adapter-biztalk-server-sample"></a><span data-ttu-id="b8ed4-102">File 配接器 （BizTalk Server 範例）</span><span class="sxs-lookup"><span data-stu-id="b8ed4-102">File Adapter (BizTalk Server Sample)</span></span>
 <span data-ttu-id="b8ed4-103">File 配接器範例是以 Microsoft Visual C#.NET 才能使用 Microsoft BizTalk Server 撰寫的。</span><span class="sxs-lookup"><span data-stu-id="b8ed4-103">The File Adapter sample is written in Microsoft Visual C# .NET to work with Microsoft BizTalk Server.</span></span> <span data-ttu-id="b8ed4-104">此範例提供可建置動態或靜態配接器的程式碼。</span><span class="sxs-lookup"><span data-stu-id="b8ed4-104">It provides code to build either a dynamic or a static adapter.</span></span>  <span data-ttu-id="b8ed4-105">不過，下列程序僅概述靜態配接器。</span><span class="sxs-lookup"><span data-stu-id="b8ed4-105">However, the following procedure only outlines the static adapter.</span></span> <span data-ttu-id="b8ed4-106">靜態配接器具有一組靜態結構描述，且沒有自訂使用者介面。</span><span class="sxs-lookup"><span data-stu-id="b8ed4-106">A static adapter is an adapter with a static set of schemas and no custom user interface.</span></span> <span data-ttu-id="b8ed4-107">動態配接器具有自訂使用者介面，並且可能有一組動態結構描述。</span><span class="sxs-lookup"><span data-stu-id="b8ed4-107">A dynamic adapter has a custom user interface and potentially a dynamic set of schemas.</span></span> <span data-ttu-id="b8ed4-108">靜態和動態配接器都使用「新增配接器精靈」將結構描述新增至 BizTalk 專案。</span><span class="sxs-lookup"><span data-stu-id="b8ed4-108">Both static and dynamic adapters use the Add Adapter Wizard to add their schemas to a BizTalk project.</span></span>  
@@ -38,7 +39,7 @@ ms.lasthandoff: 03/28/2018
  <span data-ttu-id="b8ed4-121">\<*範例路徑*\>**\AdaptersDevelopment\File 配接器**</span><span class="sxs-lookup"><span data-stu-id="b8ed4-121">\<*Samples Path*\>**\AdaptersDevelopment\File Adapter**</span></span>  
   
 > [!NOTE]
->  <span data-ttu-id="b8ed4-122">預設位置\<*範例路徑*\>是*%programfiles%*\Microsoft BizTalk Server\SDK\Samples 時執行 32 位元的電腦上安裝 BizTalk ServerWindows 版本。</span><span class="sxs-lookup"><span data-stu-id="b8ed4-122">The default location for \<*Samples Path*\> is *%ProgramFiles%*\Microsoft BizTalk Server\SDK\Samples when BizTalk Server is installed on a computer running a 32-bit version of Windows.</span></span> <span data-ttu-id="b8ed4-123">預設位置\<*範例路徑*\>是*%programfiles （x86） %*\Microsoft BizTalk Server\SDK\Samples 時執行 64 位的電腦上安裝 BizTalk Server位元版本的 Windows。</span><span class="sxs-lookup"><span data-stu-id="b8ed4-123">The default location for \<*Samples Path*\> is *%ProgramFiles(x86)%*\Microsoft BizTalk Server\SDK\Samples when BizTalk Server is installed on a computer running a 64-bit version of Windows.</span></span> <span data-ttu-id="b8ed4-124">若要判斷相關聯的值 *%programfiles%* 或 *%programfiles （x86） %* 環境變數類型 **echo %programfiles%** 或 **echo %programfiles （x86） %** 在命令提示字元並按下 ENTER 鍵。</span><span class="sxs-lookup"><span data-stu-id="b8ed4-124">To determine the values associated with the *%ProgramFiles%* or *%ProgramFiles(x86)%* environment variables type **echo %ProgramFiles%** or **echo %ProgramFiles(x86)%** at a command prompt and press ENTER.</span></span> <span data-ttu-id="b8ed4-125">如果在 64 位元作業系統上執行此範例，您必須變更任何的.reg 檔案中的所有參考 **%programfiles%** 至 **%programfiles （x86） %** 之前執行.reg 檔案。</span><span class="sxs-lookup"><span data-stu-id="b8ed4-125">If running this sample on a 64-bit operating system, you will need to change all references in any of the .reg files from **%ProgramFiles%** to **%ProgramFiles(x86)%** before running the .reg files.</span></span>  
+>  <span data-ttu-id="b8ed4-122">預設位置\<*範例路徑*\>是 *%programfiles%* \Microsoft BizTalk Server\SDK\Samples 時執行 32 位元的電腦上安裝 BizTalk ServerWindows 版本。</span><span class="sxs-lookup"><span data-stu-id="b8ed4-122">The default location for \<*Samples Path*\> is *%ProgramFiles%* \Microsoft BizTalk Server\SDK\Samples when BizTalk Server is installed on a computer running a 32-bit version of Windows.</span></span> <span data-ttu-id="b8ed4-123">預設位置\<*範例路徑*\>是 *%programfiles （x86） %* \Microsoft BizTalk Server\SDK\Samples 時執行 64 位的電腦上安裝 BizTalk Server位元版本的 Windows。</span><span class="sxs-lookup"><span data-stu-id="b8ed4-123">The default location for \<*Samples Path*\> is *%ProgramFiles(x86)%* \Microsoft BizTalk Server\SDK\Samples when BizTalk Server is installed on a computer running a 64-bit version of Windows.</span></span> <span data-ttu-id="b8ed4-124">若要判斷相關聯的值 *%programfiles%* 或 *%programfiles （x86） %* 環境變數類型 **echo %programfiles%** 或 **echo %programfiles （x86） %** 在命令提示字元並按下 ENTER 鍵。</span><span class="sxs-lookup"><span data-stu-id="b8ed4-124">To determine the values associated with the *%ProgramFiles%* or *%ProgramFiles(x86)%* environment variables type **echo %ProgramFiles%** or **echo %ProgramFiles(x86)%** at a command prompt and press ENTER.</span></span> <span data-ttu-id="b8ed4-125">如果在 64 位元作業系統上執行此範例，您必須變更任何的.reg 檔案中的所有參考 **%programfiles%** 至 **%programfiles （x86） %** 之前執行.reg 檔案。</span><span class="sxs-lookup"><span data-stu-id="b8ed4-125">If running this sample on a 64-bit operating system, you will need to change all references in any of the .reg files from **%ProgramFiles%** to **%ProgramFiles(x86)%** before running the .reg files.</span></span>  
   
  <span data-ttu-id="b8ed4-126">下表顯示此範例中的檔案，並說明其用途。</span><span class="sxs-lookup"><span data-stu-id="b8ed4-126">The following tables show the files in this sample and describe their purpose.</span></span>  
   
@@ -106,7 +107,7 @@ ms.lasthandoff: 03/28/2018
   
 1.  <span data-ttu-id="b8ed4-207">按一下  **啟動**, ，指向  **所有程式**, ，指向 **附屬應用程式**, ，然後按一下  **Windows 檔案總管**。</span><span class="sxs-lookup"><span data-stu-id="b8ed4-207">Click **Start**, point to **All Programs**, point to **Accessories**, and then click **Windows Explorer**.</span></span>  
   
-2.  <span data-ttu-id="b8ed4-208">瀏覽至\<*範例路徑*\>**"\AdaptersDevelopment\File Adapter\Runtime"**目錄，然後再按兩下**DotNetFile.sln**.</span><span class="sxs-lookup"><span data-stu-id="b8ed4-208">Navigate to the \<*Samples Path*\>**”\AdaptersDevelopment\File Adapter\Runtime”** directory, and then double-click **DotNetFile.sln**.</span></span>  
+2.  <span data-ttu-id="b8ed4-208">瀏覽至\<*範例路徑*\>**"\AdaptersDevelopment\File Adapter\Runtime"** 目錄，然後再按兩下**DotNetFile.sln**.</span><span class="sxs-lookup"><span data-stu-id="b8ed4-208">Navigate to the \<*Samples Path*\>**”\AdaptersDevelopment\File Adapter\Runtime”** directory, and then double-click **DotNetFile.sln**.</span></span>  
   
 3.  <span data-ttu-id="b8ed4-209">重新建置配接器接收器執行階段專案，在方案總管] 中，以滑鼠右鍵按一下 **DotNetFile**, ，然後按一下 [ **重建**。</span><span class="sxs-lookup"><span data-stu-id="b8ed4-209">To rebuild the Adapter Receiver run-time project, in Solution Explorer, right-click **DotNetFile**, and then click **Rebuild**.</span></span>  
   
@@ -114,7 +115,7 @@ ms.lasthandoff: 03/28/2018
   
 #### <a name="to-build-the-adapter-design-time-project"></a><span data-ttu-id="b8ed4-211">建置配接器執行階段專案</span><span class="sxs-lookup"><span data-stu-id="b8ed4-211">To build the adapter design-time project</span></span>  
   
-1.  <span data-ttu-id="b8ed4-212">在 Windows 檔案總管，瀏覽至\<*範例路徑*\>**"\AdaptersDevelopment\File Adapter\Design Time\Adapter Management"**目錄，然後再按兩下**AdapterManagement.sln**。</span><span class="sxs-lookup"><span data-stu-id="b8ed4-212">In Windows Explorer, navigate to the \<*Samples Path*\>**”\AdaptersDevelopment\File Adapter\Design Time\Adapter Management”** directory, and then double-click **AdapterManagement.sln**.</span></span>  
+1.  <span data-ttu-id="b8ed4-212">在 Windows 檔案總管，瀏覽至\<*範例路徑*\>**"\AdaptersDevelopment\File Adapter\Design Time\Adapter Management"** 目錄，然後再按兩下**AdapterManagement.sln**。</span><span class="sxs-lookup"><span data-stu-id="b8ed4-212">In Windows Explorer, navigate to the \<*Samples Path*\>**”\AdaptersDevelopment\File Adapter\Design Time\Adapter Management”** directory, and then double-click **AdapterManagement.sln**.</span></span>  
   
 2.  <span data-ttu-id="b8ed4-213">在 方案總管 中，以滑鼠右鍵按一下 **AdapterManagement**, ，然後按一下  **重建**。</span><span class="sxs-lookup"><span data-stu-id="b8ed4-213">In Solution Explorer, right-click **AdapterManagement**, and then click **Rebuild**.</span></span>  
   
@@ -122,7 +123,7 @@ ms.lasthandoff: 03/28/2018
   
 #### <a name="to-register-the-sample-static-adapter"></a><span data-ttu-id="b8ed4-215">註冊範例靜態配接器</span><span class="sxs-lookup"><span data-stu-id="b8ed4-215">To register the sample static adapter</span></span>  
   
-1.  <span data-ttu-id="b8ed4-216">在 Windows 檔案總管，瀏覽至\<*範例路徑*\>**"\AdaptersDevelopment\File 配接器 」**目錄。</span><span class="sxs-lookup"><span data-stu-id="b8ed4-216">In Windows Explorer, navigate to the \<*Samples Path*\>**”\AdaptersDevelopment\File Adapter”** directory.</span></span>  
+1.  <span data-ttu-id="b8ed4-216">在 Windows 檔案總管，瀏覽至\<*範例路徑*\>**"\AdaptersDevelopment\File 配接器 」** 目錄。</span><span class="sxs-lookup"><span data-stu-id="b8ed4-216">In Windows Explorer, navigate to the \<*Samples Path*\>**”\AdaptersDevelopment\File Adapter”** directory.</span></span>  
   
 2.  <span data-ttu-id="b8ed4-217">若要將範例配接器新增至登錄中，按兩下 **StaticAdapterManagement.reg**。</span><span class="sxs-lookup"><span data-stu-id="b8ed4-217">To add the sample adapter to the registry, double-click **StaticAdapterManagement.reg**.</span></span>  
   
@@ -196,7 +197,7 @@ ms.lasthandoff: 03/28/2018
   
 7.  <span data-ttu-id="b8ed4-265">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="b8ed4-265">Click **OK**.</span></span>  
   
-8.  <span data-ttu-id="b8ed4-266">展開**BizTalk 群組 [*伺服器名稱*]**節點[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統管理主控台中，展開**應用程式**] 節點，展開 [ **BizTalk Application 1**節點。</span><span class="sxs-lookup"><span data-stu-id="b8ed4-266">Expand the **BizTalk Group[*server name*]** node in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, expand the **Applications** node, expand the  **BizTalk Application 1** node.</span></span>  
+8.  <span data-ttu-id="b8ed4-266">展開**BizTalk 群組 [*伺服器名稱*]** 節點[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統管理主控台中，展開**應用程式**] 節點，展開 [ **BizTalk Application 1**節點。</span><span class="sxs-lookup"><span data-stu-id="b8ed4-266">Expand the **BizTalk Group[*server name*]** node in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, expand the **Applications** node, expand the  **BizTalk Application 1** node.</span></span>  
   
 9. <span data-ttu-id="b8ed4-267">以滑鼠右鍵按一下 **傳送埠** 節點，然後再按一下 **新增**, ，請選取 **靜態單向傳送埠**, ，然後按一下  **確定**。</span><span class="sxs-lookup"><span data-stu-id="b8ed4-267">Right-click the **Send Ports** node, and then click **New**, select **Static One-Way Send Port**, and then click **OK**.</span></span>  
   
@@ -318,7 +319,7 @@ ms.lasthandoff: 03/28/2018
   
 ##### <a name="to-test-the-sample-add-adapter-wizard-functionality-for-the-sample-static-adapter"></a><span data-ttu-id="b8ed4-358">測試範例靜態配接器的範例新增配接器精靈功能</span><span class="sxs-lookup"><span data-stu-id="b8ed4-358">To test the sample Add Adapter Wizard functionality for the sample static adapter</span></span>  
   
-1.  <span data-ttu-id="b8ed4-359">在[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]，在 [方案總管] 中，以滑鼠右鍵按一下**[adapterharnessproject]**，指向**新增**，然後按一下 **新增產生的項目**。</span><span class="sxs-lookup"><span data-stu-id="b8ed4-359">In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], in Solution Explorer, right-click **AdapterHarnessProject**, point to **Add**, and then click **Add Generated Items**.</span></span>  
+1.  <span data-ttu-id="b8ed4-359">在[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]，在 [方案總管] 中，以滑鼠右鍵按一下 **[adapterharnessproject]**，指向**新增**，然後按一下 **新增產生的項目**。</span><span class="sxs-lookup"><span data-stu-id="b8ed4-359">In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], in Solution Explorer, right-click **AdapterHarnessProject**, point to **Add**, and then click **Add Generated Items**.</span></span>  
   
 2.  <span data-ttu-id="b8ed4-360">在 **加入產生的項目-adapterharnessproject** 對話方塊中，按一下  **新增配接器中繼資料**, ，然後按一下  **開啟**。</span><span class="sxs-lookup"><span data-stu-id="b8ed4-360">In the **Add Generated Items - AdapterHarnessProject** dialog box, click **Add Adapter Metadata**, and then click **Open**.</span></span>  
   

@@ -1,14 +1,14 @@
 ---
-title: "步驟 4B： 啟動傳送埠和接收埠以進行 FileAct 即時案例 |Microsoft 文件"
-ms.custom: 
+title: 步驟 4B： 啟動傳送埠和接收埠以進行 FileAct 即時案例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c56b5f7b-551a-4bd2-97c7-0996f5d1b1a2
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225422"
 ---
 # <a name="step-4b-start-the-send-ports-and-receive-ports-for-the-fileact-real-time-scenario"></a><span data-ttu-id="06949-102">步驟 4B： 啟動傳送埠和接收埠以進行 FileAct 即時案例</span><span class="sxs-lookup"><span data-stu-id="06949-102">Step 4B: Start the Send Ports and Receive Ports for the FileAct Real-Time Scenario</span></span>
 <span data-ttu-id="06949-103">在開始此步驟之前，必須先完成[步驟 4A： 啟動 SWIFTNet 服務 FileAct 即時案例](../../adapters-and-accelerators/fileact-interact/step-4a-start-the-swiftnet-service-for-the-fileact-real-time-scenario.md)。</span><span class="sxs-lookup"><span data-stu-id="06949-103">Before you begin this step, you must complete [Step 4A: Start the SWIFTNet Service for the FileAct Real-Time Scenario](../../adapters-and-accelerators/fileact-interact/step-4a-start-the-swiftnet-service-for-the-fileact-real-time-scenario.md).</span></span>  

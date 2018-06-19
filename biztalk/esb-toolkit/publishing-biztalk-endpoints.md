@@ -1,14 +1,14 @@
 ---
-title: "發佈 BizTalk 端點 |Microsoft 文件"
-ms.custom: 
+title: 發佈 BizTalk 端點 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c8e8cc81-c6c7-4269-81e3-8725082a0c98
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294286"
 ---
 # <a name="publishing-biztalk-endpoints"></a><span data-ttu-id="fd7e3-102">發佈 BizTalk 端點</span><span class="sxs-lookup"><span data-stu-id="fd7e3-102">Publishing BizTalk Endpoints</span></span>
 <span data-ttu-id="fd7e3-103">您可以使用 ESB 管理入口網站建立和發行項目變成目前設定的通用描述、 探索與整合 (UDDI) 伺服器。</span><span class="sxs-lookup"><span data-stu-id="fd7e3-103">You can use the ESB Management Portal to create and publish entries into the currently configured Universal Description, Discovery, and Integration (UDDI) server.</span></span>  

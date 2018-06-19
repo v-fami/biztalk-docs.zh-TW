@@ -1,14 +1,14 @@
 ---
-title: "追蹤 BizTalk Server 應用程式中成品之間的相依性 |Microsoft 文件"
-ms.custom: 
+title: 追蹤 BizTalk Server 應用程式中成品之間的相依性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 503cadfc-08e5-4b34-94a2-3b0ea6ad6228
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279950"
 ---
 # <a name="tracking-dependencies-between-artifacts-in-a-biztalk-server-application"></a><span data-ttu-id="1334e-102">追蹤 BizTalk Server 應用程式中成品之間的依存性</span><span class="sxs-lookup"><span data-stu-id="1334e-102">Tracking Dependencies Between Artifacts in a BizTalk Server Application</span></span>
 <span data-ttu-id="1334e-103">典型的 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 應用程式包含各種成品，例如協調流程、傳送埠、接收位置、管線、結構描述、對應等等。</span><span class="sxs-lookup"><span data-stu-id="1334e-103">A typical [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application involves various artifacts such as orchestrations, send ports, receive locations, pipelines, schemas, maps, and the likes.</span></span> <span data-ttu-id="1334e-104">這些成品相互依存。</span><span class="sxs-lookup"><span data-stu-id="1334e-104">All these artifacts have dependencies on each other.</span></span> <span data-ttu-id="1334e-105">下表列出這些依存性。</span><span class="sxs-lookup"><span data-stu-id="1334e-105">The following table lists these dependencies.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "步驟 4： 測試方案 |Microsoft 文件"
-ms.custom: 
+title: 步驟 4： 測試方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 60c39521-eee2-49f7-a9f9-2dfb9ab468e9
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277406"
 ---
 # <a name="step-4-test-the-solution"></a><span data-ttu-id="142de-102">步驟 4： 測試方案</span><span class="sxs-lookup"><span data-stu-id="142de-102">Step 4: Test the Solution</span></span>
 <span data-ttu-id="142de-103">本主題，您會測試方案，藉由在您與檔案相關聯的資料夾中放置虛擬要求訊息在接收埠。</span><span class="sxs-lookup"><span data-stu-id="142de-103">In this topic you test the solution by dropping a dummy request message in the folder you associated with the FILE receive port.</span></span> <span data-ttu-id="142de-104">中所述，而叫用虛擬要求訊息置放**Wcf-webhttp**傳送埠。</span><span class="sxs-lookup"><span data-stu-id="142de-104">As explained in, you drop a dummy request message only to invoke the **WCF-WebHttp** send port.</span></span> <span data-ttu-id="142de-105">您可以建立虛擬要求訊息，如下所示：</span><span class="sxs-lookup"><span data-stu-id="142de-105">You can create a dummy request message like the following:</span></span>  

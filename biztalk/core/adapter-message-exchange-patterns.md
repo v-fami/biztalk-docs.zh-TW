@@ -1,14 +1,14 @@
 ---
-title: "配接器訊息交換模式 |Microsoft 文件"
-ms.custom: 
+title: 配接器訊息交換模式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 54a3fc8f-33d0-4b7e-ad4c-b00912dc3328
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230174"
 ---
 # <a name="adapter-message-exchange-patterns"></a><span data-ttu-id="88a25-102">配接器訊息交換模式</span><span class="sxs-lookup"><span data-stu-id="88a25-102">Adapter Message Exchange Patterns</span></span>
 <span data-ttu-id="88a25-103">BizTalk「配接器架構」支援豐富的訊息交換模式，可供配接器在許多功能強大的傳訊實例中使用。</span><span class="sxs-lookup"><span data-stu-id="88a25-103">The BizTalk Adapter Framework supports a rich set of message exchange patterns that adapters can use in many powerful messaging scenarios.</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230558"
 ---
 # <a name="btadapplicationname"></a><span data-ttu-id="eef4d-102">BTAD_ApplicationName</span><span class="sxs-lookup"><span data-stu-id="eef4d-102">BTAD_ApplicationName</span></span>
 <span data-ttu-id="eef4d-103">BTAD_ApplicationName 包含 BizTalk 應用程式的名稱。</span><span class="sxs-lookup"><span data-stu-id="eef4d-103">BTAD_ApplicationName contains the name of the BizTalk application.</span></span>  

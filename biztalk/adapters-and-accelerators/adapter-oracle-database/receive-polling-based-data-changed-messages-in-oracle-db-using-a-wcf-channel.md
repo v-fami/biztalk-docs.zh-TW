@@ -1,17 +1,17 @@
 ---
-title: "使用 WCF 通道模型的 Oracle 資料庫中收到輪詢基礎資料變更的訊息 |Microsoft 文件"
-ms.custom: 
+title: 使用 WCF 通道模型的 Oracle 資料庫中收到輪詢基礎資料變更的訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF channel model, receiving polling-based messages
 - how to, receive polling-based messages by using the WCF channel model
 ms.assetid: 13f501e4-cff7-497c-a9da-fdd6382c779f
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216950"
 ---
 # <a name="receive-polling-based-data-changed-messages-in-oracle-database-using-the-wcf-channel-model"></a><span data-ttu-id="e7ae5-102">使用 WCF 通道模型的 Oracle 資料庫中收到輪詢基礎資料變更的訊息</span><span class="sxs-lookup"><span data-stu-id="e7ae5-102">Receive Polling-based Data-changed Messages in Oracle Database using the WCF Channel Model</span></span>
 <span data-ttu-id="e7ae5-103">您可以設定[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]輪詢 Oracle 資料庫資料表或檢視之任何資料變更。</span><span class="sxs-lookup"><span data-stu-id="e7ae5-103">You can configure the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] to poll an Oracle database table or view for any data changes.</span></span> <span data-ttu-id="e7ae5-104">若要執行這類輪詢作業時，配接器會定期執行的 Oracle 資料表或檢視，後面接著選擇性的 PL/SQL 程式碼區塊的 SQL 查詢。</span><span class="sxs-lookup"><span data-stu-id="e7ae5-104">To perform such a polling operation, the adapter periodically executes a SQL query against an Oracle table or view followed by an optional PL/SQL code block.</span></span> <span data-ttu-id="e7ae5-105">SQL 查詢的結果則會傳回由[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]為強類型的結果集，傳入的 POLLINGSTMT 作業程式碼。</span><span class="sxs-lookup"><span data-stu-id="e7ae5-105">The results of the SQL query are then returned by the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] to your code as a strongly-typed result set in an inbound POLLINGSTMT operation.</span></span> <span data-ttu-id="e7ae5-106">如需有關用來設定和執行 oracle 輪詢機制資料庫使用[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]，請參閱[在 Oracle 資料庫配接器收到輪詢基礎資料變更的訊息](../../adapters-and-accelerators/adapter-oracle-database/receive-polling-based-data-changed-messages-in-oracle-database-adapter.md)。</span><span class="sxs-lookup"><span data-stu-id="e7ae5-106">For more information about the mechanism used to configure and perform polling on an Oracle database using the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], see [Receive polling-based data-changed messages in Oracle Database adapter](../../adapters-and-accelerators/adapter-oracle-database/receive-polling-based-data-changed-messages-in-oracle-database-adapter.md).</span></span> <span data-ttu-id="e7ae5-107">強烈建議您先閱讀本主題後再繼續。</span><span class="sxs-lookup"><span data-stu-id="e7ae5-107">It is strongly recommended that you read this topic before proceeding.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "建立 PeopleSoft Enterprise 的分支機構應用程式 |Microsoft 文件"
-ms.custom: 
+title: 建立 PeopleSoft Enterprise 的分支機構應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 95151163-5aaf-4683-afb7-02949ccda3e1
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015969"
 ---
 # <a name="creating-affiliate-applications"></a><span data-ttu-id="7d9fe-102">建立分支機構應用程式</span><span class="sxs-lookup"><span data-stu-id="7d9fe-102">Creating Affiliate Applications</span></span>
 <span data-ttu-id="7d9fe-103">下列步驟說明，如何開始使用分支機構應用程式和單一登入 (SSO)。</span><span class="sxs-lookup"><span data-stu-id="7d9fe-103">The following steps show how to start using affiliate applications and Single Sign-On (SSO).</span></span>  
@@ -34,11 +35,11 @@ ms.lasthandoff: 11/07/2017
   
      <span data-ttu-id="7d9fe-110">**C:\Program Files\Common Files\Enterprise Single Sign-on >**</span><span class="sxs-lookup"><span data-stu-id="7d9fe-110">**C:\Program Files\Common Files\Enterprise Single Sign-On>**</span></span>  
   
-3.  <span data-ttu-id="7d9fe-111">使用 [企業單一登入] 命令。</span><span class="sxs-lookup"><span data-stu-id="7d9fe-111">Use the Enterprise Single Sign-On commands.</span></span> <span data-ttu-id="7d9fe-112">如需命令清單，請使用**-協助**切換。</span><span class="sxs-lookup"><span data-stu-id="7d9fe-112">For a list of commands, use the **-help** switch.</span></span>  
+3.  <span data-ttu-id="7d9fe-111">使用 [企業單一登入] 命令。</span><span class="sxs-lookup"><span data-stu-id="7d9fe-111">Use the Enterprise Single Sign-On commands.</span></span> <span data-ttu-id="7d9fe-112">如需命令清單，請使用 **-協助**切換。</span><span class="sxs-lookup"><span data-stu-id="7d9fe-112">For a list of commands, use the **-help** switch.</span></span>  
   
      ![](../core/media/siebeladapter-23-sso-commands.gif "SiebelAdapter_23_SSO_Commands")  
   
-4.  <span data-ttu-id="7d9fe-113">若要使用 *.XML 為啟動程序來建立分支機構應用程式，請輸入下列命令：</span><span class="sxs-lookup"><span data-stu-id="7d9fe-113">To create the affiliate application by using *.XML as a start, type the following command:</span></span>  
+4.  <span data-ttu-id="7d9fe-113">若要使用 \*.XML 為啟動程序來建立分支機構應用程式，請輸入下列命令：</span><span class="sxs-lookup"><span data-stu-id="7d9fe-113">To create the affiliate application by using \*.XML as a start, type the following command:</span></span>  
   
      `ssomanage.exe -createapps C:\SSOtest\AffiliateApplication.xml`  
   

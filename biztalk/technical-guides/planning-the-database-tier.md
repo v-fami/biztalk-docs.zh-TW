@@ -1,14 +1,14 @@
 ---
-title: "規劃資料庫層 |Microsoft 文件"
-ms.custom: 
+title: 規劃資料庫層 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3f2738e4-e621-4882-b80b-92d0f390e5a7
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302174"
 ---
 # <a name="planning-the-database-tier"></a><span data-ttu-id="9fe1b-102">規劃資料庫層</span><span class="sxs-lookup"><span data-stu-id="9fe1b-102">Planning the Database Tier</span></span>
 <span data-ttu-id="9fe1b-103">本節包含與規劃之資料庫層的 BizTalk 解決方案的建議主題。</span><span class="sxs-lookup"><span data-stu-id="9fe1b-103">This section contains topics with planning recommendations for the database tier of a BizTalk solution.</span></span>  

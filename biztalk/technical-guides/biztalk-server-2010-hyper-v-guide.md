@@ -1,14 +1,14 @@
 ---
-title: "BizTalk Server 2010 HYPER-V 指南 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Server 2010 HYPER-V 指南 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3c38ecdd-de72-41d9-b639-2aa6bbfee917
-caps.latest.revision: "29"
+caps.latest.revision: 29
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26011007"
 ---
 # <a name="biztalk-server-2010-hyper-v-guide"></a><span data-ttu-id="a40bc-102">BizTalk Server 2010 HYPER-V 指南</span><span class="sxs-lookup"><span data-stu-id="a40bc-102">BizTalk Server 2010 Hyper-V Guide</span></span>
 <span data-ttu-id="a40bc-103">本指南的目的是要提供使用 Microsoft BizTalk Server 與 Microsoft 的實用指南[!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]HYPER-V。</span><span class="sxs-lookup"><span data-stu-id="a40bc-103">The purpose of this guide is to provide practical guidance for using Microsoft BizTalk Server with Microsoft [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] Hyper-V.</span></span> <span data-ttu-id="a40bc-104">重點在於[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，但適用於分析的虛擬化的伺服器應用程式效能的一般效能評估方法和測試案例的效能。</span><span class="sxs-lookup"><span data-stu-id="a40bc-104">The emphasis is on [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], but the performance evaluation methods and performance testing scenarios are useful for analyzing the performance of virtualized server applications in general.</span></span> <span data-ttu-id="a40bc-105">本指南會感興趣的 IT 專業人員和開發人員社群。</span><span class="sxs-lookup"><span data-stu-id="a40bc-105">This guidance will be of interest to both the IT Pro and Developer communities.</span></span>  

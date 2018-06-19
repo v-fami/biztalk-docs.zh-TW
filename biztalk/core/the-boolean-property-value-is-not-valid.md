@@ -1,14 +1,14 @@
 ---
-title: "布林屬性值無效。 |Microsoft 文件"
-ms.custom: 
+title: 布林屬性值無效。 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 62b6c178-f8ea-451a-b2dc-9396c24c0f5b
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279158"
 ---
 # <a name="the-boolean-property-value-is-not-valid"></a><span data-ttu-id="f619e-102">不是有效的布林屬性值</span><span class="sxs-lookup"><span data-stu-id="f619e-102">The boolean property value is not valid</span></span>
 ## <a name="details"></a><span data-ttu-id="f619e-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="f619e-103">Details</span></span>  

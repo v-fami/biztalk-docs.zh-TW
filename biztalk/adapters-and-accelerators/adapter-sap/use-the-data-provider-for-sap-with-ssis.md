@@ -1,17 +1,17 @@
 ---
-title: "使用此資料提供者適用於 SAP 與 SSIS |Microsoft 文件"
-ms.custom: 
+title: 使用此資料提供者適用於 SAP 與 SSIS |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Data Provider for SAP, using with SSIS
 - SSIS, Data Provider for SAP
 ms.assetid: e8c50cc1-ac25-4993-9aee-7fd88268d65d
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217342"
 ---
 # <a name="use-the-data-provider-for-sap-with-ssis"></a><span data-ttu-id="a0cc8-102">適用於 SAP 使用 SSIS 中使用資料提供者</span><span class="sxs-lookup"><span data-stu-id="a0cc8-102">Use the Data Provider for SAP with SSIS</span></span>
 <span data-ttu-id="a0cc8-103">您可以使用[!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)]以及 SQL Server 整合服務 (SSIS) 從 SAP 系統的資料匯入到 SQL Server 資料庫資料表，一般檔案或其他相容的目的地類型。</span><span class="sxs-lookup"><span data-stu-id="a0cc8-103">You can use the [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] along with SQL Server Integration Service (SSIS) to import data from an SAP system into SQL Server database tables, flat files, or other compatible destination types.</span></span> <span data-ttu-id="a0cc8-104">您可以建立的 SSIS 封裝，可以執行的 SAP 系統從匯入資料。</span><span class="sxs-lookup"><span data-stu-id="a0cc8-104">You can create an SSIS package that can be executed to import data from an SAP system.</span></span>  

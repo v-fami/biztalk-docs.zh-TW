@@ -1,14 +1,14 @@
 ---
-title: "定義路由和訊息透過多個協調流程，使用行程轉換 |Microsoft 文件"
-ms.custom: 
+title: 定義路由和訊息透過多個協調流程，使用行程轉換 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 63141b83-798e-40d0-908d-6b7649923e69
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294014"
 ---
 # <a name="defining-routing-and-message-transformation-through-multiple-orchestrations-using-itineraries"></a><span data-ttu-id="36648-102">定義路由和訊息的轉換，透過多個協調流程，使用行程</span><span class="sxs-lookup"><span data-stu-id="36648-102">Defining Routing and Message Transformation Through Multiple Orchestrations Using Itineraries</span></span>
 <span data-ttu-id="36648-103">在此使用案例，提交進行處理的訊息會包含路線的 SOAP 標頭描述要執行的服務和其解析需求的清單。</span><span class="sxs-lookup"><span data-stu-id="36648-103">In this use case, a message submitted for processing contains an itinerary SOAP header that describes the list of services to execute and their resolution requirements.</span></span> <span data-ttu-id="36648-104">路線指定一或多個 Microsoft BizTalk Server 協調流程，訊息將會用來傳遞處理週期。</span><span class="sxs-lookup"><span data-stu-id="36648-104">The itinerary specifies one or more Microsoft BizTalk Server orchestrations through which the message will pass during the processing cycle.</span></span> <span data-ttu-id="36648-105">（選擇性） 路線可以包含用來決定端點或訊息的轉換需求的動態路由資訊。</span><span class="sxs-lookup"><span data-stu-id="36648-105">Optionally, the itinerary can contain dynamic routing information used to determine endpoints or transformation requirements for the message.</span></span> <span data-ttu-id="36648-106">圖 1 所示處理程序的圖解的檢視。</span><span class="sxs-lookup"><span data-stu-id="36648-106">Figure 1 illustrates a schematic view of the process.</span></span>  

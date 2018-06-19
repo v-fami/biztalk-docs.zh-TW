@@ -1,14 +1,14 @@
 ---
-title: "步驟 2： 設定並啟動 Application1 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 設定並啟動 Application1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5cb061ca-acf4-4de4-a634-b3bb98876989
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,15 +17,16 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22280006"
 ---
 # <a name="step-2-configure-and-start-the-application"></a><span data-ttu-id="d1cbd-102">步驟 2： 設定並啟動應用程式</span><span class="sxs-lookup"><span data-stu-id="d1cbd-102">Step 2: Configure and Start the Application</span></span>
 <span data-ttu-id="d1cbd-103">![步驟 3 之 2](../adapters-and-accelerators/adapter-oracle-database/media/step-2of3.gif "Step_2of3")</span><span class="sxs-lookup"><span data-stu-id="d1cbd-103">![Step 2 of 3](../adapters-and-accelerators/adapter-oracle-database/media/step-2of3.gif "Step_2of3")</span></span>  
   
  <span data-ttu-id="d1cbd-104">**若要完成的時間：** 10 分鐘</span><span class="sxs-lookup"><span data-stu-id="d1cbd-104">**Time to complete:** 10 minutes</span></span>  
   
- <span data-ttu-id="d1cbd-105">**目標：**在此步驟中，設定並啟動 EAISolution 應用程式。</span><span class="sxs-lookup"><span data-stu-id="d1cbd-105">**Objective:** In this step, you configure and start the EAISolution application.</span></span>  
+ <span data-ttu-id="d1cbd-105">**目標：** 在此步驟中，設定並啟動 EAISolution 應用程式。</span><span class="sxs-lookup"><span data-stu-id="d1cbd-105">**Objective:** In this step, you configure and start the EAISolution application.</span></span>  
   
- <span data-ttu-id="d1cbd-106">**用途：**是多半關於繫結的組態。</span><span class="sxs-lookup"><span data-stu-id="d1cbd-106">**Purpose:** The configuration is mostly about binding.</span></span>  <span data-ttu-id="d1cbd-107">繫結會在邏輯端點 (例如協調流程連接埠或角色連結) 與實體端點 (例如傳送和接收埠或合作對象) 之間建立對應。</span><span class="sxs-lookup"><span data-stu-id="d1cbd-107">A binding creates a mapping between a logical endpoint, such as an orchestration port or a role link, and a physical endpoint, such as a send and receive port or party.</span></span> <span data-ttu-id="d1cbd-108">這讓通訊能在不同的 BizTalk 商務方案元件之間進行。</span><span class="sxs-lookup"><span data-stu-id="d1cbd-108">This enables communication between different components of a BizTalk business solution.</span></span> <span data-ttu-id="d1cbd-109">您可以使用 [BizTalk Server 管理主控台] 建立繫結。</span><span class="sxs-lookup"><span data-stu-id="d1cbd-109">You can create bindings by using the BizTalk Server Administration console.</span></span>  
+ <span data-ttu-id="d1cbd-106">**用途：** 是多半關於繫結的組態。</span><span class="sxs-lookup"><span data-stu-id="d1cbd-106">**Purpose:** The configuration is mostly about binding.</span></span>  <span data-ttu-id="d1cbd-107">繫結會在邏輯端點 (例如協調流程連接埠或角色連結) 與實體端點 (例如傳送和接收埠或合作對象) 之間建立對應。</span><span class="sxs-lookup"><span data-stu-id="d1cbd-107">A binding creates a mapping between a logical endpoint, such as an orchestration port or a role link, and a physical endpoint, such as a send and receive port or party.</span></span> <span data-ttu-id="d1cbd-108">這讓通訊能在不同的 BizTalk 商務方案元件之間進行。</span><span class="sxs-lookup"><span data-stu-id="d1cbd-108">This enables communication between different components of a BizTalk business solution.</span></span> <span data-ttu-id="d1cbd-109">您可以使用 [BizTalk Server 管理主控台] 建立繫結。</span><span class="sxs-lookup"><span data-stu-id="d1cbd-109">You can create bindings by using the BizTalk Server Administration console.</span></span>  
   
 ## <a name="prerequisites"></a><span data-ttu-id="d1cbd-110">必要條件</span><span class="sxs-lookup"><span data-stu-id="d1cbd-110">Prerequisites</span></span>  
  <span data-ttu-id="d1cbd-111">開始此步驟之前，請注意下列需求：</span><span class="sxs-lookup"><span data-stu-id="d1cbd-111">Note the following requirements before you begin this step:</span></span>  
@@ -138,7 +139,7 @@ ms.lasthandoff: 09/20/2017
     |<span data-ttu-id="d1cbd-204">使用</span><span class="sxs-lookup"><span data-stu-id="d1cbd-204">Use this</span></span>|<span data-ttu-id="d1cbd-205">動作</span><span class="sxs-lookup"><span data-stu-id="d1cbd-205">To do this</span></span>|  
     |--------------|----------------|  
     |<span data-ttu-id="d1cbd-206">**Host**</span><span class="sxs-lookup"><span data-stu-id="d1cbd-206">**Host**</span></span>|<span data-ttu-id="d1cbd-207">選取 **[BizTalkServerApplication]**。</span><span class="sxs-lookup"><span data-stu-id="d1cbd-207">Select **BizTalkServerApplication**.</span></span>|  
-    |<span data-ttu-id="d1cbd-208">**接收埠**如**ReceiveRequestPort**</span><span class="sxs-lookup"><span data-stu-id="d1cbd-208">**Receive Port** for **ReceiveRequestPort**</span></span>|<span data-ttu-id="d1cbd-209">選取**[eaisolutionreceivereqeustport]**。</span><span class="sxs-lookup"><span data-stu-id="d1cbd-209">Select **EAISolutionReceiveReqeustPort**.</span></span>|  
+    |<span data-ttu-id="d1cbd-208">**接收埠**如**ReceiveRequestPort**</span><span class="sxs-lookup"><span data-stu-id="d1cbd-208">**Receive Port** for **ReceiveRequestPort**</span></span>|<span data-ttu-id="d1cbd-209">選取 **[eaisolutionreceivereqeustport]**。</span><span class="sxs-lookup"><span data-stu-id="d1cbd-209">Select **EAISolutionReceiveReqeustPort**.</span></span>|  
     |<span data-ttu-id="d1cbd-210">**傳送埠與傳送埠群組**如**ReceiveRequestPort**</span><span class="sxs-lookup"><span data-stu-id="d1cbd-210">**Send PortsSend Port Groups** for **ReceiveRequestPort**</span></span>|<span data-ttu-id="d1cbd-211">選取**EAISolutionSendDeclinePort**。</span><span class="sxs-lookup"><span data-stu-id="d1cbd-211">Select **EAISolutionSendDeclinePort**.</span></span>|  
     |<span data-ttu-id="d1cbd-212">**接收埠**如**ReceiveRequestPort**</span><span class="sxs-lookup"><span data-stu-id="d1cbd-212">**Receive Port** for **ReceiveRequestPort**</span></span>|<span data-ttu-id="d1cbd-213">選取**EAISolutionSendToERPPort**。</span><span class="sxs-lookup"><span data-stu-id="d1cbd-213">Select **EAISolutionSendToERPPort**.</span></span>|  
   

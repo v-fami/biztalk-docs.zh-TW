@@ -1,14 +1,14 @@
 ---
-title: "步驟 3： 設定單向 FILE 傳送埠 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3： 設定單向 FILE 傳送埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c52c6b6b-6f9c-48f2-8732-450fe3a15eae
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277326"
 ---
 # <a name="step-3-configure-a-one-way-file-send-port"></a><span data-ttu-id="c07d7-102">步驟 3： 設定單向 FILE 傳送埠</span><span class="sxs-lookup"><span data-stu-id="c07d7-102">Step 3: Configure a One-way FILE Send Port</span></span>
 <span data-ttu-id="c07d7-103">在此步驟中，您會設定單向 FILE 傳送埠取用 REST 介面從收到的回應訊息，並將它複製到檔案位置。</span><span class="sxs-lookup"><span data-stu-id="c07d7-103">In this step you configure a one-way FILE send port that consumes the response message received from the REST interface and copies it to a file location.</span></span>  

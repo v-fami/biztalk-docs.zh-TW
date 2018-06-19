@@ -1,14 +1,14 @@
 ---
-title: "使用 BizTalk Server 管理主控台 |Microsoft 文件"
-ms.custom: 
+title: 使用 BizTalk Server 管理主控台 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: af00d9de-0f94-407b-b6f4-4da63a0867a0
-caps.latest.revision: 
+caps.latest.revision: 42
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710589"
 ---
 # <a name="using-the-biztalk-server-administration-console"></a><span data-ttu-id="a6c64-102">使用 BizTalk Server 管理主控台</span><span class="sxs-lookup"><span data-stu-id="a6c64-102">Using the BizTalk Server Administration Console</span></span>
 <span data-ttu-id="a6c64-103">BizTalk Server 管理主控台是您可以用來管理與監控 BizTalk Server 的 Microsoft Management Console (MMC)，您也可以用它來部署與管理您的 BizTalk Server 應用程式。</span><span class="sxs-lookup"><span data-stu-id="a6c64-103">The BizTalk Server Administration Console is a Microsoft Management Console (MMC) that you can use to manage and monitor BizTalk Server, and that you can use to deploy and manage your BizTalk Server applications.</span></span>  

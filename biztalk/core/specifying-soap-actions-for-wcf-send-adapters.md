@@ -1,11 +1,11 @@
 ---
-title: "指定的 SOAP 動作，wcf 傳送配接器 |Microsoft 文件"
-ms.custom: 
+title: 指定的 SOAP 動作，wcf 傳送配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - send adapters, mapping
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - mapping, send adapters
 - mapping, WCF send adapters
 ms.assetid: fa9878eb-65b5-4ccc-b727-ff7e09ba6302
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22276638"
 ---
 # <a name="specifying-soap-actions-for-wcf-send-adapters"></a><span data-ttu-id="58140-102">指定 WCF 傳送配接器的 SOAP 動作</span><span class="sxs-lookup"><span data-stu-id="58140-102">Specifying SOAP Actions for WCF Send Adapters</span></span>
 <span data-ttu-id="58140-103">您可以設定**WCF。動作**WCF 傳送配接器傳輸屬性 對話方塊中，或在協調流程中的內容屬性**運算式**圖形。</span><span class="sxs-lookup"><span data-stu-id="58140-103">You can set the **WCF.Action** context property in the WCF send adapter transport properties dialog box or in the orchestration **Expression** shapes.</span></span> <span data-ttu-id="58140-104">如果您設定**WCF。動作**協調流程中的內容屬性，您需要讓**動作**WCF 配接器傳輸屬性對話方塊中的靜態傳送埠的空白欄位。</span><span class="sxs-lookup"><span data-stu-id="58140-104">If you set the **WCF.Action** context property in the orchestration, you need to leave the **Action** field blank in the WCF adapter transport properties dialog box for the static send ports.</span></span> <span data-ttu-id="58140-105">如果也指定動作之靜態傳送埠中， **WCF。動作**將會覆寫您在協調流程中設定的內容屬性。</span><span class="sxs-lookup"><span data-stu-id="58140-105">If you also specify an action in the static send ports, the **WCF.Action** context property you set in the orchestration will be overridden.</span></span>  

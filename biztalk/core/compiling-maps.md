@@ -1,11 +1,11 @@
 ---
-title: "編譯對應 |Microsoft 文件"
-ms.custom: 
+title: 編譯對應 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - maps, compiling
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - BizTalk Mapper, compiling
 - BizTalk Mapper, validating
 ms.assetid: 967181d6-22a9-4a76-ae45-3317c0c6321b
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231862"
 ---
 # <a name="compiling-maps"></a><span data-ttu-id="16af4-102">編譯對應</span><span class="sxs-lookup"><span data-stu-id="16af4-102">Compiling Maps</span></span>
 <span data-ttu-id="16af4-103">當您驗證對應時，BizTalk 對應工具編譯器元件會產生「可延伸樣式表語言轉換」(XSLT) 樣式表。</span><span class="sxs-lookup"><span data-stu-id="16af4-103">When you validate maps, the BizTalk Mapper compiler component generates an Extensible Stylesheet Language Transformations (XSLT) style sheet.</span></span> <span data-ttu-id="16af4-104">這會建立經過編譯的對應，可將來源結構描述定義的執行個體訊息轉換為目的結構描述定義的執行個體訊息。</span><span class="sxs-lookup"><span data-stu-id="16af4-104">This creates a compiled map that transforms an instance message defined by the source schema to an instance message defined by the destination schema.</span></span> <span data-ttu-id="16af4-105">編譯對應可強制使用格線頁中指定的結構化規則與轉換。</span><span class="sxs-lookup"><span data-stu-id="16af4-105">Compiling a map enforces the structural rules and transformations specified in the grid pages.</span></span>  

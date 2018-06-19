@@ -1,14 +1,14 @@
 ---
-title: "逐步解說： 使用資料庫和.NET 事實 |Microsoft 文件"
-ms.custom: 
+title: 逐步解說： 使用資料庫和.NET 事實 |Microsoft 文件
+ms.custom: ''
 ms.date: 2016-04-05
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 676d6e46-d9f8-477e-979e-1ac051ad4451
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976044"
 ---
 # <a name="walkthrough-using-database-and-net-facts"></a><span data-ttu-id="347e0-102">逐步解說： 使用資料庫和.NET 事實</span><span class="sxs-lookup"><span data-stu-id="347e0-102">Walkthrough: Using Database and .NET Facts</span></span>
 <span data-ttu-id="347e0-103">此逐步解說提供逐步程序，說明如何透過「商務規則編輯器」建立使用資料庫和 .NET 事實的原則。</span><span class="sxs-lookup"><span data-stu-id="347e0-103">This walkthrough provides step-by-step procedures for using the Business Rule Composer to create a policy that uses database and .NET facts.</span></span>  
@@ -103,7 +104,7 @@ ms.lasthandoff: 11/28/2017
     }  
     ```  
   
-7.  <span data-ttu-id="347e0-163">加入名為的靜態方法**[getmaxallowed]**至**POUtility**類別，如下列程式碼所示：</span><span class="sxs-lookup"><span data-stu-id="347e0-163">Add a static method named **GetMaxAllowed** to the **POUtility** class as shown in the following code:</span></span>  
+7.  <span data-ttu-id="347e0-163">加入名為的靜態方法 **[getmaxallowed]** 至**POUtility**類別，如下列程式碼所示：</span><span class="sxs-lookup"><span data-stu-id="347e0-163">Add a static method named **GetMaxAllowed** to the **POUtility** class as shown in the following code:</span></span>  
   
     ```  
     public static int GetMaxAllowed()  
@@ -147,9 +148,9 @@ ms.lasthandoff: 11/28/2017
   
 5.  <span data-ttu-id="347e0-181">展開**TestDB**，然後展開**PO**。</span><span class="sxs-lookup"><span data-stu-id="347e0-181">Expand **TestDB**, and then expand **PO**.</span></span>  
   
-6.  <span data-ttu-id="347e0-182">在 [事實總管] 視窗中，按一下**.NET 類別**。</span><span class="sxs-lookup"><span data-stu-id="347e0-182">In the Facts Explorer window, click **.NET Classes**.</span></span>  
+6.  <span data-ttu-id="347e0-182">在 [事實總管] 視窗中，按一下 **.NET 類別**。</span><span class="sxs-lookup"><span data-stu-id="347e0-182">In the Facts Explorer window, click **.NET Classes**.</span></span>  
   
-7.  <span data-ttu-id="347e0-183">以滑鼠右鍵按一下**。NETAssemblies**，然後按一下 **瀏覽**。</span><span class="sxs-lookup"><span data-stu-id="347e0-183">Right-click **.NETAssemblies**, and then click **Browse**.</span></span>  
+7.  <span data-ttu-id="347e0-183">以滑鼠右鍵按一下 **。NETAssemblies**，然後按一下 **瀏覽**。</span><span class="sxs-lookup"><span data-stu-id="347e0-183">Right-click **.NETAssemblies**, and then click **Browse**.</span></span>  
   
 8.  <span data-ttu-id="347e0-184">選取**POUtility**，然後按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="347e0-184">Select **POUtility**, and then click **OK**.</span></span>  
   
@@ -157,7 +158,7 @@ ms.lasthandoff: 11/28/2017
   
 10. <span data-ttu-id="347e0-186">在原則總管] 視窗中，以滑鼠右鍵按一下**原則**，然後按一下 [**新增原則**。</span><span class="sxs-lookup"><span data-stu-id="347e0-186">In the Policy Explorer window, right-click **Policies**, and then click **Add New Policy**.</span></span>  
   
-11. <span data-ttu-id="347e0-187">從原則的名稱變更**[policy1]**至**ProcessPurchaseOrderDbNet**然後按 ENTER 鍵。</span><span class="sxs-lookup"><span data-stu-id="347e0-187">Change the name of the policy from **Policy1** to **ProcessPurchaseOrderDbNet** and then press ENTER.</span></span> <span data-ttu-id="347e0-188">您也可以在 [屬性] 視窗中變更原則的名稱。</span><span class="sxs-lookup"><span data-stu-id="347e0-188">You can also change the name of the policy in the Properties window.</span></span>  
+11. <span data-ttu-id="347e0-187">從原則的名稱變更 **[policy1]** 至**ProcessPurchaseOrderDbNet**然後按 ENTER 鍵。</span><span class="sxs-lookup"><span data-stu-id="347e0-187">Change the name of the policy from **Policy1** to **ProcessPurchaseOrderDbNet** and then press ENTER.</span></span> <span data-ttu-id="347e0-188">您也可以在 [屬性] 視窗中變更原則的名稱。</span><span class="sxs-lookup"><span data-stu-id="347e0-188">You can also change the name of the policy in the Properties window.</span></span>  
   
 12. <span data-ttu-id="347e0-189">以滑鼠右鍵按一下**1.0 版**，然後按一下  **AddNewRule**。</span><span class="sxs-lookup"><span data-stu-id="347e0-189">Right-click **Version 1.0**, and then click **AddNewRule**.</span></span>  
   
@@ -169,9 +170,9 @@ ms.lasthandoff: 11/28/2017
   
 16. <span data-ttu-id="347e0-194">拖曳**數量**節點從 [事實總管] 視窗**引數 1** [IF] 窗格中。</span><span class="sxs-lookup"><span data-stu-id="347e0-194">Drag the **Quantity** node from the Facts Explorer window to **argument1** in the IF pane.</span></span>  
   
-17. <span data-ttu-id="347e0-195">在 [事實總管] 視窗中，按一下**.NET 類別**。</span><span class="sxs-lookup"><span data-stu-id="347e0-195">In the Facts Explorer window, click **.NET Classes**.</span></span>  
+17. <span data-ttu-id="347e0-195">在 [事實總管] 視窗中，按一下 **.NET 類別**。</span><span class="sxs-lookup"><span data-stu-id="347e0-195">In the Facts Explorer window, click **.NET Classes**.</span></span>  
   
-18. <span data-ttu-id="347e0-196">拖曳**[getmaxallowed]**節點從 [事實總管] 視窗**引數 2** [IF] 窗格中。</span><span class="sxs-lookup"><span data-stu-id="347e0-196">Drag **GetMaxAllowed** node from the Facts Explorer window to **argument2** in the IF pane.</span></span>  
+18. <span data-ttu-id="347e0-196">拖曳 **[getmaxallowed]** 節點從 [事實總管] 視窗**引數 2** [IF] 窗格中。</span><span class="sxs-lookup"><span data-stu-id="347e0-196">Drag **GetMaxAllowed** node from the Facts Explorer window to **argument2** in the IF pane.</span></span>  
   
 19. <span data-ttu-id="347e0-197">在 [事實總管] 視窗中，按一下**資料庫**。</span><span class="sxs-lookup"><span data-stu-id="347e0-197">In the Facts Explorer window, click **Databases**.</span></span>  
   
@@ -189,9 +190,9 @@ ms.lasthandoff: 11/28/2017
   
 26. <span data-ttu-id="347e0-205">拖曳**數量**節點從 [事實總管] 視窗**引數 1** [IF] 窗格中。</span><span class="sxs-lookup"><span data-stu-id="347e0-205">Drag the **Quantity** node from the Facts Explorer window to **argument1** in the IF pane.</span></span>  
   
-27. <span data-ttu-id="347e0-206">在 [事實總管] 視窗中，按一下**.NET 類別**。</span><span class="sxs-lookup"><span data-stu-id="347e0-206">In the Facts Explorer window, click **.NET Classes**.</span></span>  
+27. <span data-ttu-id="347e0-206">在 [事實總管] 視窗中，按一下 **.NET 類別**。</span><span class="sxs-lookup"><span data-stu-id="347e0-206">In the Facts Explorer window, click **.NET Classes**.</span></span>  
   
-28. <span data-ttu-id="347e0-207">拖曳**[getmaxallowed]**節點從 [事實總管] 視窗**引數 2** [IF] 窗格中。</span><span class="sxs-lookup"><span data-stu-id="347e0-207">Drag the **GetMaxAllowed** node from the Facts Explorer window to **argument2** in the IF pane.</span></span>  
+28. <span data-ttu-id="347e0-207">拖曳 **[getmaxallowed]** 節點從 [事實總管] 視窗**引數 2** [IF] 窗格中。</span><span class="sxs-lookup"><span data-stu-id="347e0-207">Drag the **GetMaxAllowed** node from the Facts Explorer window to **argument2** in the IF pane.</span></span>  
   
 29. <span data-ttu-id="347e0-208">在 [事實總管] 視窗中，按一下**資料庫**。</span><span class="sxs-lookup"><span data-stu-id="347e0-208">In the Facts Explorer window, click **Databases**.</span></span>  
   

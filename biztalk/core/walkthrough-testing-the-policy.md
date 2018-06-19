@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/16/2018
+ms.locfileid: "31008596"
 ---
 # <a name="walkthrough-testing-the-policy"></a><span data-ttu-id="1bf4f-102">逐步解說： 測試原則</span><span class="sxs-lookup"><span data-stu-id="1bf4f-102">Walkthrough: Testing the Policy</span></span>
 <span data-ttu-id="1bf4f-103">本逐步解說提供逐步程序以測試您中建立的原則[逐步解說： 建立簡單商務原則](../core/walkthrough-creating-a-simple-business-policy.md)逐步解說。</span><span class="sxs-lookup"><span data-stu-id="1bf4f-103">This walkthrough provides step-by-step procedures for testing the policy you created in the [Walkthrough: Creating a Simple Business Policy](../core/walkthrough-creating-a-simple-business-policy.md) walkthrough.</span></span>  

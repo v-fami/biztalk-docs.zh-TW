@@ -1,14 +1,14 @@
 ---
-title: "使用限制機制的簡單型別衍生 |Microsoft 文件"
-ms.custom: 
+title: 使用限制機制的簡單型別衍生 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e4ca712e-9563-4917-9bfc-1033a36773e8
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271726"
 ---
 # <a name="simple-type-derivation-using-the-restriction-mechanism"></a><span data-ttu-id="33021-102">使用限制機制的簡單型別衍生</span><span class="sxs-lookup"><span data-stu-id="33021-102">Simple Type Derivation Using the Restriction Mechanism</span></span>
 

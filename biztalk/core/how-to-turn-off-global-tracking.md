@@ -1,14 +1,14 @@
 ---
-title: "如何關閉全域追蹤 |Microsoft 文件"
-ms.custom: 
+title: 如何關閉全域追蹤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: eae3059a-cbdd-47c4-84cd-edfb5480b9fa
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007095"
 ---
 # <a name="how-to-turn-off-global-tracking"></a><span data-ttu-id="46879-102">如何關閉全域追蹤</span><span class="sxs-lookup"><span data-stu-id="46879-102">How to Turn Off Global Tracking</span></span>
 <span data-ttu-id="46879-103">根據預設，當您安裝 BizTalk Server 時，會啟用全域追蹤。</span><span class="sxs-lookup"><span data-stu-id="46879-103">By default, global tracking is enabled when you install BizTalk Server.</span></span> <span data-ttu-id="46879-104">BizTalk 追蹤 (BizTalkDTADb) 資料庫成長的大小為[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]處理您的系統上的資料。</span><span class="sxs-lookup"><span data-stu-id="46879-104">The BizTalk Tracking (BizTalkDTADb) database grows in size as [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] processes data on your system.</span></span> <span data-ttu-id="46879-105">如果 BizTalk 追蹤資料庫導致磁碟效能低落，您可以從追蹤資料庫清除資料。</span><span class="sxs-lookup"><span data-stu-id="46879-105">If the size of the BizTalk Tracking database causes poor disk performance, you can purge the data from the Tracking database.</span></span> <span data-ttu-id="46879-106">如果效能問題是藉由清除 BizTalk 追蹤資料庫而暫時解決，而您想要將 BizTalk 設定為不再收集追蹤資訊，則您可以考慮關閉全域追蹤。</span><span class="sxs-lookup"><span data-stu-id="46879-106">If you are having performance issues that are momentarily addressed by purging the BizTalk tracking database, and you want to configure BizTalk to no longer collect tracking information, you may want to consider turning off global tracking.</span></span>  
@@ -35,11 +36,11 @@ ms.lasthandoff: 12/01/2017
   
 2.  <span data-ttu-id="46879-116">在**連接到伺服器**對話方塊中，確認伺服器名稱和驗證，然後按一下**連接**。</span><span class="sxs-lookup"><span data-stu-id="46879-116">In the **Connect to Server** dialog box, verify the server name and authentication, and then click **Connect**.</span></span>  
   
-3.  <span data-ttu-id="46879-117">在 Microsoft SQL Server Management Studio 中**物件總管] 中**，依序展開\<*電腦名稱*\>，依序展開**資料庫**，展開**BizTalkMgmtDb**，依序展開**資料表**，以滑鼠右鍵按一下**[adm_group]**，然後按一下 [**開啟資料表**。</span><span class="sxs-lookup"><span data-stu-id="46879-117">In Microsoft SQL Server Management Studio, in **Object Explorer**, expand \<*computer name*\>, expand **Databases**, expand **BizTalkMgmtDb**, expand **Tables**, right-click **adm_Group**, and then click **Open Table**.</span></span>  
+3.  <span data-ttu-id="46879-117">在 Microsoft SQL Server Management Studio 中**物件總管] 中**，依序展開\<*電腦名稱*\>，依序展開**資料庫**，展開**BizTalkMgmtDb**，依序展開**資料表**，以滑鼠右鍵按一下 **[adm_group]**，然後按一下 [**開啟資料表**。</span><span class="sxs-lookup"><span data-stu-id="46879-117">In Microsoft SQL Server Management Studio, in **Object Explorer**, expand \<*computer name*\>, expand **Databases**, expand **BizTalkMgmtDb**, expand **Tables**, right-click **adm_Group**, and then click **Open Table**.</span></span>  
   
-4.  <span data-ttu-id="46879-118">在資料表檢視器中水平捲動，直到您找到**[globaltrackingoption]**。</span><span class="sxs-lookup"><span data-stu-id="46879-118">In the table viewer, scroll horizontally until you find **GlobalTrackingOption**.</span></span>  
+4.  <span data-ttu-id="46879-118">在資料表檢視器中水平捲動，直到您找到 **[globaltrackingoption]**。</span><span class="sxs-lookup"><span data-stu-id="46879-118">In the table viewer, scroll horizontally until you find **GlobalTrackingOption**.</span></span>  
   
-5.  <span data-ttu-id="46879-119">在**[globaltrackingoption]**資料行，將值從 1 變更為 0 時，若要關閉此功能，然後按 ENTER。</span><span class="sxs-lookup"><span data-stu-id="46879-119">In the **GlobalTrackingOption** column, change the value from 1 to 0, to turn off this feature, and then press ENTER.</span></span>  
+5.  <span data-ttu-id="46879-119">在 **[globaltrackingoption]** 資料行，將值從 1 變更為 0 時，若要關閉此功能，然後按 ENTER。</span><span class="sxs-lookup"><span data-stu-id="46879-119">In the **GlobalTrackingOption** column, change the value from 1 to 0, to turn off this feature, and then press ENTER.</span></span>  
   
 6.  <span data-ttu-id="46879-120">關閉 Microsoft SQL Server Management Studio。</span><span class="sxs-lookup"><span data-stu-id="46879-120">Close Microsoft SQL Server Management Studio.</span></span>  
   

@@ -1,11 +1,11 @@
 ---
-title: "XML 解譯器管線元件中的字元編碼 |Microsoft 文件"
-ms.custom: 
+title: XML 解譯器管線元件中的字元編碼 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - IBaseMessagePart.Charset property
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - XML Disassembler [pipeline component], character encoding
 - XMLNorm.SourceCharset property
 ms.assetid: 37962bdc-cbcb-4559-9ae8-6c4be49b4822
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231662"
 ---
 # <a name="character-encoding-in-xml-disassembler-pipeline-component"></a><span data-ttu-id="5532e-102">XML 解譯器管線元件中的字元編碼</span><span class="sxs-lookup"><span data-stu-id="5532e-102">Character Encoding in XML Disassembler Pipeline Component</span></span>
 <span data-ttu-id="5532e-103">XML 解譯器使用以下演算法以判斷使用哪種編碼處理內送訊息：</span><span class="sxs-lookup"><span data-stu-id="5532e-103">The XML Disassembler uses the following algorithm to determine which encoding to use for processing incoming messages:</span></span>  

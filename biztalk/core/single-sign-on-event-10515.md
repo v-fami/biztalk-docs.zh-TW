@@ -1,14 +1,14 @@
 ---
-title: "單一登入： 事件 10515 |Microsoft 文件"
-ms.custom: 
+title: 單一登入： 事件 10515 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 41edc008-b6d3-401d-97af-80b36ab0ba55
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269886"
 ---
 # <a name="single-sign-on-event-10515"></a><span data-ttu-id="0bb8b-102">單一登入： 事件 10515</span><span class="sxs-lookup"><span data-stu-id="0bb8b-102">Single Sign-On: Event 10515</span></span>
 ## <a name="details"></a><span data-ttu-id="0bb8b-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="0bb8b-103">Details</span></span>  

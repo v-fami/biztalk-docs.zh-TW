@@ -1,14 +1,14 @@
 ---
-title: "新增及移除命名空間中的 XML 訊息文件 |Microsoft 文件"
-ms.custom: 
+title: 新增及移除命名空間中的 XML 訊息文件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dbf2f209-13b9-42e0-b0f2-b53ec705e84b
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289438"
 ---
 # <a name="adding-and-removing-namespaces-in-an-xml-message-document"></a><span data-ttu-id="70b7b-102">新增及移除命名空間中的 XML 訊息文件</span><span class="sxs-lookup"><span data-stu-id="70b7b-102">Adding and Removing Namespaces in an XML Message Document</span></span>
 <span data-ttu-id="70b7b-103">在此使用案例中，命名空間元件提供[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]將命名空間，或移除命名空間、 文件和訊息，如圖 1 所示。</span><span class="sxs-lookup"><span data-stu-id="70b7b-103">In this use case, the Namespace component provided with the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] adds namespaces to, or removes namespaces from, documents and messages, as illustrated in Figure 1.</span></span> <span data-ttu-id="70b7b-104">這可避免命名空間衝突或文件會使用預設的命名空間時，所引發的錯誤。</span><span class="sxs-lookup"><span data-stu-id="70b7b-104">This prevents namespace clashes or errors arising when documents use default namespaces.</span></span>  

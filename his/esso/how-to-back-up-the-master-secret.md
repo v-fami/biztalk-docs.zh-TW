@@ -8,15 +8,16 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0841c52a-7b15-45f8-9900-f5c9e3abd90b
-caps.latest.revision: ''
+caps.latest.revision: 3
 author: gplarsen
 ms.author: hisdocs; plarsen
 manager: anneta
 ms.openlocfilehash: 124c077d7a15a4938f94239518ad02c8268074a4
 ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "30250994"
 ---
 # <a name="how-to-back-up-the-master-secret"></a><span data-ttu-id="1dc93-102">如何備份主要密碼</span><span class="sxs-lookup"><span data-stu-id="1dc93-102">How to Back Up the Master Secret</span></span>
 <span data-ttu-id="1dc93-103">您可以從主要密碼伺服器將主要密碼備份至 NTFS 檔案系統或卸除式媒體 (例如磁片)。</span><span class="sxs-lookup"><span data-stu-id="1dc93-103">You can back up the master secret from the master secret server onto an NTFS file system or removable media, such as a floppy disk.</span></span>  
@@ -44,7 +45,7 @@ ms.lasthandoff: 03/28/2018
   
      <span data-ttu-id="1dc93-118">預設安裝目錄是*\<磁碟機 >*: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="1dc93-118">The default installation directory is *\<drive>*:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-4.  <span data-ttu-id="1dc93-119">型別`ssoconfig –backupsecret <backup file>`，其中*\<備份檔案 >*是其中的主要密碼將備份，例如，檔案的名稱與路徑`A:\ssobackup.bak`。</span><span class="sxs-lookup"><span data-stu-id="1dc93-119">Type `ssoconfig –backupsecret <backup file>`, where *\<backup file>* is the path and name of the file where the master secret will be backed up, for example, `A:\ssobackup.bak`.</span></span>  
+4.  <span data-ttu-id="1dc93-119">型別`ssoconfig –backupsecret <backup file>`，其中*\<備份檔案 >* 是其中的主要密碼將備份，例如，檔案的名稱與路徑`A:\ssobackup.bak`。</span><span class="sxs-lookup"><span data-stu-id="1dc93-119">Type `ssoconfig –backupsecret <backup file>`, where *\<backup file>* is the path and name of the file where the master secret will be backed up, for example, `A:\ssobackup.bak`.</span></span>  
   
 5.  <span data-ttu-id="1dc93-120">提供密碼來保護這個檔案。</span><span class="sxs-lookup"><span data-stu-id="1dc93-120">Provide a password to help protect this file.</span></span>  
   

@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975356"
 ---
 # <a name="message-reference-for-the-business-process-management-solution"></a><span data-ttu-id="401d2-102">商務程序管理解決方案的訊息參考</span><span class="sxs-lookup"><span data-stu-id="401d2-102">Message Reference for the Business Process Management Solution</span></span>
 <span data-ttu-id="401d2-103">本節列出解決方案中每個協調流程所用的訊息與訊息類型。</span><span class="sxs-lookup"><span data-stu-id="401d2-103">This section lists the messages and message types used by each orchestration in the solution.</span></span>  

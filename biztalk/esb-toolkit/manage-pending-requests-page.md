@@ -1,14 +1,14 @@
 ---
-title: "管理暫止的要求頁面 |Microsoft 文件"
-ms.custom: 
+title: 管理暫止的要求頁面 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f5cdeb6e-71fc-45af-a24d-731c9a459a76
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294254"
 ---
 # <a name="manage-pending-requests-page"></a><span data-ttu-id="24b9a-102">[管理擱置的要求] 頁面</span><span class="sxs-lookup"><span data-stu-id="24b9a-102">Manage Pending Requests Page</span></span>
 <span data-ttu-id="24b9a-103">圖 1 顯示 管理擱置的要求頁面上，顯示一份暫止的註冊要求，並提供連結以檢視要求歷程記錄。</span><span class="sxs-lookup"><span data-stu-id="24b9a-103">Figure 1 shows the Manage Pending Requests page, which shows a list of pending registration requests and provides a link to view the request history.</span></span>  

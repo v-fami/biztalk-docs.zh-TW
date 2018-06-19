@@ -1,17 +1,17 @@
 ---
-title: "測試已發佈 Web 服務 |Microsoft 文件"
-ms.custom: 
+title: 測試已發佈 Web 服務 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - testing, Web services
 - Web services, testing
 ms.assetid: f33f89be-601a-4348-8e3e-1378e1881e89
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279126"
 ---
 # <a name="testing-published-web-services"></a><span data-ttu-id="444ec-102">測試已發佈 Web 服務</span><span class="sxs-lookup"><span data-stu-id="444ec-102">Testing Published Web Services</span></span>
 <span data-ttu-id="444ec-103">開發 Web 服務時，您可能會想要藉由重新發佈 Web 服務來予以測試。</span><span class="sxs-lookup"><span data-stu-id="444ec-103">As you develop your Web service, you may want to test it by republishing your Web service.</span></span> <span data-ttu-id="444ec-104">每次重新發佈 Web 服務之後，您都必須重設 Internet Information Services (IIS)。</span><span class="sxs-lookup"><span data-stu-id="444ec-104">Each time you republish your Web service, you must reset Internet Information Services (IIS).</span></span>  

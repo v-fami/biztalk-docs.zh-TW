@@ -1,11 +1,11 @@
 ---
-title: "檢查清單： 更新 BizTalk 應用程式中的成品 |Microsoft 文件"
-ms.custom: 
+title: 檢查清單： 更新 BizTalk 應用程式中的成品 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, redeploying
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - applications, checklists
 - checklists, redeploying
 ms.assetid: 07ea4a2b-4ada-4d04-9eec-604b63b77415
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233022"
 ---
 # <a name="checklist-update-the-artifacts-in-a-biztalk-application"></a><span data-ttu-id="9c711-102">檢查清單： 更新 BizTalk 應用程式中的成品</span><span class="sxs-lookup"><span data-stu-id="9c711-102">Checklist: Update the Artifacts in a BizTalk Application</span></span>
 <span data-ttu-id="9c711-103">如果您想要變更或更新已部署應用程式中的一或多個成品，然後重新部署該應用程式，請依照這份檢查清單中的步驟執行。</span><span class="sxs-lookup"><span data-stu-id="9c711-103">Follow the steps in this checklist if you want to change or update one or more artifacts in an application that has already been deployed, and then redeploy the application.</span></span>  
@@ -40,7 +41,7 @@ ms.lasthandoff: 09/20/2017
 |<span data-ttu-id="9c711-115">測試任何新成品或已變更的成品，此外也務必測試任何可能相依於新成品或已變更成品的成品。</span><span class="sxs-lookup"><span data-stu-id="9c711-115">Test any new or changed artifacts, ensuring that any artifacts that may depend on the new or changed artifact are also tested.</span></span> <span data-ttu-id="9c711-116">測試時，請務必要考慮可能存在於此應用程式與其他應用程式之間的相依性。</span><span class="sxs-lookup"><span data-stu-id="9c711-116">While testing, be sure to consider dependencies that may exist between this application and other applications.</span></span>|[<span data-ttu-id="9c711-117">BizTalk 應用程式部署的測試工作</span><span class="sxs-lookup"><span data-stu-id="9c711-117">Testing Tasks for BizTalk Application Deployment</span></span>](../core/testing-tasks-for-biztalk-application-deployment.md)|  
 |<span data-ttu-id="9c711-118">視需要在應用程式中新增、移除或重新設定成品。</span><span class="sxs-lookup"><span data-stu-id="9c711-118">Add, remove, or reconfigure artifacts in the application as necessary.</span></span>|<span data-ttu-id="9c711-119">[如何建立或新增成品](../core/how-to-create-or-add-an-artifact.md)，[如何從應用程式移除成品](../core/how-to-remove-an-artifact-from-an-application.md)，[管理成品](../core/managing-artifacts.md)</span><span class="sxs-lookup"><span data-stu-id="9c711-119">[How to Create or Add an Artifact](../core/how-to-create-or-add-an-artifact.md), [How to Remove an Artifact from an Application](../core/how-to-remove-an-artifact-from-an-application.md), [Managing Artifacts](../core/managing-artifacts.md)</span></span>|  
 |<span data-ttu-id="9c711-120">將包含新成品或已變更成品的應用程式匯出至 .msi 檔案。</span><span class="sxs-lookup"><span data-stu-id="9c711-120">Export the application containing the new or changed artifacts into an .msi file.</span></span> <span data-ttu-id="9c711-121">您可以匯出應用程式中的所有成品，或者只限於您想要加入或更新的成品。</span><span class="sxs-lookup"><span data-stu-id="9c711-121">You may either export all of the artifacts in the application or only the artifacts you want to add or update.</span></span> <span data-ttu-id="9c711-122">請注意，檔案成品可能會被覆寫。</span><span class="sxs-lookup"><span data-stu-id="9c711-122">Be aware that file artifacts can be overwritten.</span></span> <span data-ttu-id="9c711-123">如果您匯出檔案成品，請確定它是您想要在應用程式中使用的版本。</span><span class="sxs-lookup"><span data-stu-id="9c711-123">If you export a file artifact, make sure that it is the version that you want to use in the application.</span></span>|[<span data-ttu-id="9c711-124">匯出 BizTalk 應用程式、 繫結和原則</span><span class="sxs-lookup"><span data-stu-id="9c711-124">Exporting BizTalk Applications, Bindings, and Policies</span></span>](../core/exporting-biztalk-applications-bindings-and-policies.md)|  
-|<span data-ttu-id="9c711-125">如果更新會影響執行中的應用程式，請先停止您要更新的應用程式。</span><span class="sxs-lookup"><span data-stu-id="9c711-125">If the update will interfere with the application as it runs, stop the application that you want to update.</span></span> <span data-ttu-id="9c711-126">如果您是以新版本來更新組件，就不需要重新啟動應用程式。</span><span class="sxs-lookup"><span data-stu-id="9c711-126">If you are updating an assembly with a new version, you do not need to restart the application.</span></span> <span data-ttu-id="9c711-127">**注意：**雖然不需要停止應用程式，才能更新成品或安裝應用程式，我們建議您一律停止應用程式，當您更新成品。</span><span class="sxs-lookup"><span data-stu-id="9c711-127">**Note:**  Although it is not required to stop an application in order to update an artifact or install the application, we recommend that you always stop an application when you update an artifact.</span></span>|[<span data-ttu-id="9c711-128">如何啟動和停止 BizTalk 應用程式</span><span class="sxs-lookup"><span data-stu-id="9c711-128">How to Start and Stop a BizTalk Application</span></span>](../core/how-to-start-and-stop-a-biztalk-application.md)|  
+|<span data-ttu-id="9c711-125">如果更新會影響執行中的應用程式，請先停止您要更新的應用程式。</span><span class="sxs-lookup"><span data-stu-id="9c711-125">If the update will interfere with the application as it runs, stop the application that you want to update.</span></span> <span data-ttu-id="9c711-126">如果您是以新版本來更新組件，就不需要重新啟動應用程式。</span><span class="sxs-lookup"><span data-stu-id="9c711-126">If you are updating an assembly with a new version, you do not need to restart the application.</span></span> <span data-ttu-id="9c711-127">**注意：** 雖然不需要停止應用程式，才能更新成品或安裝應用程式，我們建議您一律停止應用程式，當您更新成品。</span><span class="sxs-lookup"><span data-stu-id="9c711-127">**Note:**  Although it is not required to stop an application in order to update an artifact or install the application, we recommend that you always stop an application when you update an artifact.</span></span>|[<span data-ttu-id="9c711-128">如何啟動和停止 BizTalk 應用程式</span><span class="sxs-lookup"><span data-stu-id="9c711-128">How to Start and Stop a BizTalk Application</span></span>](../core/how-to-start-and-stop-a-biztalk-application.md)|  
 |<span data-ttu-id="9c711-129">將已變更的或更新的成品從 .msi 檔案匯入至要更新的應用程式。</span><span class="sxs-lookup"><span data-stu-id="9c711-129">Import the changed or updated artifacts from the .msi file into the application that you want to update.</span></span> <span data-ttu-id="9c711-130">請務必指定覆寫現有成品的選項。</span><span class="sxs-lookup"><span data-stu-id="9c711-130">Be sure to specify the option to overwrite existing artifacts.</span></span>|[<span data-ttu-id="9c711-131">如何匯入 BizTalk 應用程式</span><span class="sxs-lookup"><span data-stu-id="9c711-131">How to Import a BizTalk Application</span></span>](../core/how-to-import-a-biztalk-application.md)|  
 |<span data-ttu-id="9c711-132">將已更新的應用程式或成品從 .msi 檔案安裝到執行該應用程式的所有電腦，以及任何執行相依於此應用程式之應用程式的電腦。</span><span class="sxs-lookup"><span data-stu-id="9c711-132">Install the updated application or artifacts from the .msi file onto all of the computers that run the application as well as any computers running applications that depend on this application.</span></span> <span data-ttu-id="9c711-133">如果您是更新 BizTalk 組件，請檢查是否已在每台要執行該組件之電腦的全域組件快取 (GAC) 中安裝新版的組件。</span><span class="sxs-lookup"><span data-stu-id="9c711-133">If you are updating a BizTalk assembly, verify that the new version of the assembly is installed in the global assembly cache (GAC) on each computer that is to run the assembly.</span></span> <span data-ttu-id="9c711-134">如果尚未安裝，請在每一個 GAC 中安裝該組件。</span><span class="sxs-lookup"><span data-stu-id="9c711-134">If not, install the assembly in each GAC.</span></span>|<span data-ttu-id="9c711-135">[如何安裝 BizTalk 應用程式](../core/how-to-install-a-biztalk-application.md)，[如何在 GAC 中安裝組件](../core/how-to-install-an-assembly-in-the-gac.md)</span><span class="sxs-lookup"><span data-stu-id="9c711-135">[How to Install a BizTalk Application](../core/how-to-install-a-biztalk-application.md), [How to Install an Assembly in the GAC](../core/how-to-install-an-assembly-in-the-gac.md)</span></span>|  
 |<span data-ttu-id="9c711-136">啟動應用程式。</span><span class="sxs-lookup"><span data-stu-id="9c711-136">Start the application.</span></span>|[<span data-ttu-id="9c711-137">如何啟動和停止 BizTalk 應用程式</span><span class="sxs-lookup"><span data-stu-id="9c711-137">How to Start and Stop a BizTalk Application</span></span>](../core/how-to-start-and-stop-a-biztalk-application.md)|  

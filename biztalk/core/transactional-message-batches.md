@@ -1,14 +1,14 @@
 ---
-title: "交易式訊息批次 |Microsoft 文件"
-ms.custom: 
+title: 交易式訊息批次 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b1790c05-e3f7-4667-8a9e-f6f208e55e40
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279526"
 ---
 # <a name="transactional-message-batches"></a><span data-ttu-id="c9bc8-102">交易式訊息批次</span><span class="sxs-lookup"><span data-stu-id="c9bc8-102">Transactional Message Batches</span></span>
 <span data-ttu-id="c9bc8-103">某些配接器必須協調外部交易與內部 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 交易。</span><span class="sxs-lookup"><span data-stu-id="c9bc8-103">Some adapters must coordinate an external transaction with an internal [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] transaction.</span></span> <span data-ttu-id="c9bc8-104">例如，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 提供的 SQL 配接器必須協調 [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] 交易與 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 交易。</span><span class="sxs-lookup"><span data-stu-id="c9bc8-104">For example, the SQL adapter supplied with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] must coordinate a [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] transaction with a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] transaction.</span></span> <span data-ttu-id="c9bc8-105">若要這樣做，此配接器必須存取 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 交易物件。</span><span class="sxs-lookup"><span data-stu-id="c9bc8-105">To do this, the adapter needs access to the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] transaction object.</span></span> <span data-ttu-id="c9bc8-106">將批次提交給 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 之前，要明確建立交易物件並讓它與此批次產生關聯。</span><span class="sxs-lookup"><span data-stu-id="c9bc8-106">A transaction object is explicitly created and associated with the batch before the batch is submitted to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="c9bc8-107">具有關聯交易物件的批次稱為交易式批次。</span><span class="sxs-lookup"><span data-stu-id="c9bc8-107">A batch that has an associated transaction object is called a transactional batch.</span></span> <span data-ttu-id="c9bc8-108">您可以藉由提供您自己的 Microsoft Distributed Transaction Coordinator (MSDTC) 交易物件，與 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 之間達成「只有一次保證」的資料往來傳遞。</span><span class="sxs-lookup"><span data-stu-id="c9bc8-108">By supplying your own Microsoft Distributed Transaction Coordinator (MSDTC) transaction object, you can achieve the "guaranteed, once and once only", delivery of data into and out of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  

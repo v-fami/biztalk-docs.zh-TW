@@ -1,14 +1,14 @@
 ---
-title: "雙精度屬性值無效。 |Microsoft 文件"
-ms.custom: 
+title: 雙精度屬性值無效。 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d5e799d8-5fbb-4262-9d1f-4954ba0e0237
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279470"
 ---
 # <a name="the-double-property-value-is-not-valid"></a><span data-ttu-id="0ab2f-102">雙精度屬性值無效</span><span class="sxs-lookup"><span data-stu-id="0ab2f-102">The double property value is not valid</span></span>
 ## <a name="details"></a><span data-ttu-id="0ab2f-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="0ab2f-103">Details</span></span>  

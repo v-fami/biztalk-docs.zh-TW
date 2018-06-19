@@ -1,17 +1,17 @@
 ---
-title: "WCF 配接器逐步解說 |Microsoft 文件"
-ms.custom: 
+title: WCF 配接器逐步解說 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF adapters, tutorials
 - tutorials, WCF adapters
 ms.assetid: 84262b2b-e91a-477c-984f-863f9cd11f6b
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288638"
 ---
 # <a name="wcf-adapter-walkthroughs"></a><span data-ttu-id="688ff-102">WCF 配接器逐步解說</span><span class="sxs-lookup"><span data-stu-id="688ff-102">WCF Adapter Walkthroughs</span></span>
 <span data-ttu-id="688ff-103">本節中的逐步解說將協助您了解如何使用 WCF 配接器在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="688ff-103">The walkthroughs in this section will help you learn how to use the WCF adapters in  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="688ff-104">這些逐步解說將提供逐步指示，說明如何使用 WCF 配接器執行工作，以及如何使用配接器功能。</span><span class="sxs-lookup"><span data-stu-id="688ff-104">These walkthroughs provide step-by-step instructions for performing a task by using the WCF adapters, or for using a feature of the adapters.</span></span>  

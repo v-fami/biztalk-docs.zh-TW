@@ -1,14 +1,14 @@
 ---
-title: "專用的追蹤主控件設定 |Microsoft 文件"
-ms.custom: 
+title: 專用的追蹤主控件設定 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f997bcc2-08fd-4e9a-ba44-542ec8460d6d
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010839"
 ---
 # <a name="configuring-a-dedicated-tracking-host"></a><span data-ttu-id="bb887-102">專用的追蹤主控件設定</span><span class="sxs-lookup"><span data-stu-id="bb887-102">Configuring a Dedicated Tracking Host</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="bb887-103">最佳化輸送量，因此主要協調流程和傳訊引擎不要實際上不會移動事件或訊息直接到 BizTalk 追蹤 (DTA) 或商務活動監控 (BAM) 資料庫，因為這會將這些引擎從其主要轉向至執行商務程序的工作。</span><span class="sxs-lookup"><span data-stu-id="bb887-103"> is optimized for throughput, so the main orchestration and messaging engines do not actually move events or messages directly to the BizTalk Tracking (DTA) or Business Activity Monitoring (BAM) databases, since this would divert these engines from their primary job of executing business processes.</span></span> <span data-ttu-id="bb887-104">相反地，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]離開事件和訊息在 MessageBox 資料庫，並將其標示為需要移至 BizTalk 追蹤 」 或 「 BAM 資料庫。</span><span class="sxs-lookup"><span data-stu-id="bb887-104">Instead, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] leaves the events and messages in the MessageBox database and marks them as requiring a move to the BizTalk Tracking or BAM databases.</span></span> <span data-ttu-id="bb887-105">背景處理序 （追蹤主控件），然後到 BizTalk 追蹤和 BAM 資料庫，SQL Server Agent 作業複製追蹤的訊息到 BizTalk 追蹤資料庫時移動事件。</span><span class="sxs-lookup"><span data-stu-id="bb887-105">A background process (the tracking host) then moves the events to the BizTalk Tracking and BAM databases, while a SQL Server Agent job copies tracked messages to the BizTalk Tracking database.</span></span>  

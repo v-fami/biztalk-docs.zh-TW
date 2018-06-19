@@ -1,14 +1,14 @@
 ---
-title: "ESB Management 入口網站功能參考 |Microsoft 文件"
-ms.custom: 
+title: ESB Management 入口網站功能參考 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8470b3af-8124-401b-b80f-3dc7346fed96
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294406"
 ---
 # <a name="esb-management-portal-feature-reference"></a><span data-ttu-id="85e83-102">ESB Management 入口網站功能參考</span><span class="sxs-lookup"><span data-stu-id="85e83-102">ESB Management Portal Feature Reference</span></span>
 <span data-ttu-id="85e83-103">ESB 管理入口網站提供錯誤資訊的檢視，可讓您輕鬆監視、 管理和偵錯 ESB 應用程式。</span><span class="sxs-lookup"><span data-stu-id="85e83-103">The ESB Management Portal provides views of fault information that make it easy to monitor, manage, and debug ESB applications.</span></span> <span data-ttu-id="85e83-104">它也提供可用來管理警示、 將 UDDI 資訊發佈和管理在入口網站的功能。</span><span class="sxs-lookup"><span data-stu-id="85e83-104">It also provides features that you can use to manage alerts, publish UDDI information, and administer the portal.</span></span> <span data-ttu-id="85e83-105">若要開啟 入口網站，請移至 http://localhost/ESB.Portal/。</span><span class="sxs-lookup"><span data-stu-id="85e83-105">To open the portal, go to http://localhost/ESB.Portal/.</span></span>  

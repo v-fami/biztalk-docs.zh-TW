@@ -1,17 +1,17 @@
 ---
-title: "匯出成品時，會發生什麼情況 |Microsoft 文件"
-ms.custom: 
+title: 匯出成品時，會發生什麼情況 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - exporting, artifacts
 - artifacts, exporting
 ms.assetid: accc9a81-01fb-4da7-a5a5-167835d393a2
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289382"
 ---
 # <a name="what-happens-when-artifacts-are-exported"></a><span data-ttu-id="130b5-102">匯出成品時所產生的狀況</span><span class="sxs-lookup"><span data-stu-id="130b5-102">What Happens When Artifacts Are Exported</span></span>
 <span data-ttu-id="130b5-103">本主題描述匯出成品時所產生的狀況。</span><span class="sxs-lookup"><span data-stu-id="130b5-103">This topic describes what happens when you export artifacts.</span></span> <span data-ttu-id="130b5-104">匯出成品的方法有三種，本主題將涵蓋這三種方法：</span><span class="sxs-lookup"><span data-stu-id="130b5-104">There are three ways to export artifacts, which are covered in this topic:</span></span>  

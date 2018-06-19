@@ -1,14 +1,14 @@
 ---
-title: "設定傳送埠關聯 (AS2) |Microsoft 文件"
-ms.custom: 
+title: 設定傳送埠關聯 (AS2) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e8624d4c-cee8-4072-bff7-2468d83a06de
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006647"
 ---
 # <a name="configuring-send-port-association-as2"></a><span data-ttu-id="0e7ee-102">設定傳送埠關聯 (AS2)</span><span class="sxs-lookup"><span data-stu-id="0e7ee-102">Configuring Send Port Association (AS2)</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="0e7ee-103"> 會使用傳送埠關聯來解析外寄 AS2 訊息的協議。</span><span class="sxs-lookup"><span data-stu-id="0e7ee-103"> uses send port association to resolve an agreement for an outgoing AS2 message.</span></span> <span data-ttu-id="0e7ee-104">解析 AS2 訊息所用協議的方法是，將訂閱該訊息的傳送埠和與協議相關聯的傳送埠進行比對。</span><span class="sxs-lookup"><span data-stu-id="0e7ee-104">An AS2 message is resolved to an agreement by matching the send port that subscribed to the message with the send port associated with an agreement.</span></span> <span data-ttu-id="0e7ee-105">本主題提供如何將傳送埠關聯至協議的指示。</span><span class="sxs-lookup"><span data-stu-id="0e7ee-105">This topic provides instructions on how to associate send ports to an agreement.</span></span>  

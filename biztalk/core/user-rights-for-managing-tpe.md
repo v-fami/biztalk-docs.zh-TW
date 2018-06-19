@@ -1,17 +1,17 @@
 ---
-title: "管理 TPE 的使用者權限 |Microsoft 文件"
-ms.custom: 
+title: 管理 TPE 的使用者權限 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, Tracking Profile Editor
 - Tracking Profile Editor, security
 ms.assetid: a0353c4d-2aaa-49ac-8e50-88885962abba
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286926"
 ---
 # <a name="user-rights-for-managing-tpe"></a><span data-ttu-id="3d0b3-102">管理 TPE 的使用者權限</span><span class="sxs-lookup"><span data-stu-id="3d0b3-102">User Rights for Managing TPE</span></span>
 <span data-ttu-id="3d0b3-103">方案開發人員、系統管理員或 IT/操作人員必須擁有系統管理權限，才能擷取追蹤設定檔，或將追蹤設定檔部署至與組件關聯的資料庫。</span><span class="sxs-lookup"><span data-stu-id="3d0b3-103">Solution developers, system administrators, or IT/Operations personnel must have administrative rights to retrieve or deploy the tracking profile into a database associated with an assembly.</span></span>  

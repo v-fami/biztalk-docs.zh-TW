@@ -1,11 +1,11 @@
 ---
-title: "建構 Web 訊息 |Microsoft 文件"
-ms.custom: 
+title: 建構 Web 訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Web messages, about Web messages
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Web messages
 - messages, Web messages
 ms.assetid: ca1792be-5fba-4f5d-a88e-b854f6a8ce33
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22237982"
 ---
 # <a name="constructing-web-messages"></a><span data-ttu-id="006ae-102">建構 Web 訊息</span><span class="sxs-lookup"><span data-stu-id="006ae-102">Constructing Web Messages</span></span>
 <span data-ttu-id="006ae-103">您會從 Web 訊息類型建構 Web 訊息。</span><span class="sxs-lookup"><span data-stu-id="006ae-103">You construct a Web message from a Web message type.</span></span> <span data-ttu-id="006ae-104">新增 Web 參考時，BizTalk 會根據所新增 Web 服務的 Web 方法，自動建立 Web 訊息類型。</span><span class="sxs-lookup"><span data-stu-id="006ae-104">When you add a Web reference, BizTalk automatically creates Web message types, which BizTalk creates based on the Web methods from the added Web service.</span></span> <span data-ttu-id="006ae-105">您會在協調流程中新增 Web 訊息，並將訊息類型設定為其中一個 Web 訊息類型。</span><span class="sxs-lookup"><span data-stu-id="006ae-105">You add a Web message to your orchestration, setting the message type to one of the Web message types.</span></span> <span data-ttu-id="006ae-106">您會根據基本 .NET 或結構描述類型，建立個別的訊息部分。</span><span class="sxs-lookup"><span data-stu-id="006ae-106">You create individual message parts based on primitive .NET or schema types.</span></span> <span data-ttu-id="006ae-107">您也可以建構不含任何訊息部分的 Web 訊息。</span><span class="sxs-lookup"><span data-stu-id="006ae-107">You can construct a Web message that contains no message parts.</span></span>  

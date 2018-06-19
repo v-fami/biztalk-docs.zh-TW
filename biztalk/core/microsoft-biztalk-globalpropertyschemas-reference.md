@@ -1,14 +1,14 @@
 ---
-title: "Microsoft.BizTalk.GlobalPropertySchemas 參考 |Microsoft 文件"
-ms.custom: 
+title: Microsoft.BizTalk.GlobalPropertySchemas 參考 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2acf3083-a0a9-483f-88bf-8023d9933e1e
-caps.latest.revision: 
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710393"
 ---
 # <a name="microsoftbiztalkglobalpropertyschemas-reference"></a><span data-ttu-id="aec2d-102">Microsoft.BizTalk.GlobalPropertySchemas Reference</span><span class="sxs-lookup"><span data-stu-id="aec2d-102">Microsoft.BizTalk.GlobalPropertySchemas Reference</span></span>
 <span data-ttu-id="aec2d-103">**Microsoft.BizTalk.GlobalPropertySchemas** 命名空間包含各種 BizTalk Server 元件所使用之屬性的屬性結構描述。</span><span class="sxs-lookup"><span data-stu-id="aec2d-103">The **Microsoft.BizTalk.GlobalPropertySchemas** namespace contains property schemas for the properties that various BizTalk Server components use.</span></span> <span data-ttu-id="aec2d-104">這個命名空間包含 BizTalk 引擎使用的系統屬性、每個傳輸用來處理組態的傳輸特定屬性，以及設定管線元件的屬性。</span><span class="sxs-lookup"><span data-stu-id="aec2d-104">This namespace contains system properties that the BizTalk engine uses, transport specific properties that each transport uses for handling the configuration, and properties for configuring pipeline components.</span></span>  

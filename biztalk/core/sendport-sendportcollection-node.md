@@ -1,14 +1,14 @@
 ---
-title: "SendPort （SendPortCollection 節點） |Microsoft 文件"
-ms.custom: 
+title: SendPort （SendPortCollection 節點） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5cf7a6f9-9240-48b9-b196-8838afd4f41e
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22272238"
 ---
 # <a name="sendport-sendportcollection-node"></a><span data-ttu-id="48f37-102">SendPort (SendPortCollection 節點)</span><span class="sxs-lookup"><span data-stu-id="48f37-102">SendPort (SendPortCollection Node)</span></span>
 <span data-ttu-id="48f37-103">繫結檔案的 SendPort 節點包含與該繫結檔案一起匯出之傳送埠有關的特定資訊。</span><span class="sxs-lookup"><span data-stu-id="48f37-103">The SendPort node of a binding file contains specific information about a send port that is exported with the binding file.</span></span>  

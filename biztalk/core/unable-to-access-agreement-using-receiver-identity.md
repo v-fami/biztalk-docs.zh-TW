@@ -1,14 +1,14 @@
 ---
-title: "無法存取使用接收者識別的協議 |Microsoft 文件"
-ms.custom: 
+title: 無法存取使用接收者識別的協議 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 470325f4-abc4-40bb-9109-9ffc73b496df
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286510"
 ---
 # <a name="unable-to-access-agreement-using-receiver-identity"></a><span data-ttu-id="01726-102">無法存取使用接收者識別的協議</span><span class="sxs-lookup"><span data-stu-id="01726-102">Unable to access agreement using receiver identity</span></span>
 ## <a name="details"></a><span data-ttu-id="01726-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="01726-103">Details</span></span>  

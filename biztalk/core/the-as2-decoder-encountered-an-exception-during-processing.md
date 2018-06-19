@@ -1,14 +1,14 @@
 ---
-title: "AS2 解碼器發生例外狀況處理期間 |Microsoft 文件"
-ms.custom: 
+title: AS2 解碼器發生例外狀況處理期間 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b5f16d2e-e83c-4e2c-84be-41b5ed012dce
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278318"
 ---
 # <a name="the-as2-decoder-encountered-an-exception-during-processing"></a><span data-ttu-id="f8ae6-102">AS2 解碼器發生在處理期間的例外狀況</span><span class="sxs-lookup"><span data-stu-id="f8ae6-102">The AS2 Decoder encountered an exception during processing</span></span>
 ## <a name="details"></a><span data-ttu-id="f8ae6-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="f8ae6-103">Details</span></span>  

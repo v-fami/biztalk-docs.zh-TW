@@ -1,14 +1,14 @@
 ---
-title: "登錄入口網站頁面 |Microsoft 文件"
-ms.custom: 
+title: 登錄入口網站頁面 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 78488c67-293c-4f20-9fd5-705eab2bc324
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294326"
 ---
 # <a name="portal-registry-pages"></a><span data-ttu-id="d4f7e-102">登錄入口網站頁面</span><span class="sxs-lookup"><span data-stu-id="d4f7e-102">Portal Registry Pages</span></span>
 <span data-ttu-id="d4f7e-103">當您將滑鼠移**登錄**索引標籤上，快顯功能表提供的下列登錄入口網站工作清單：</span><span class="sxs-lookup"><span data-stu-id="d4f7e-103">When you move the mouse over the **Registry** tab, a pop-up menu provides a list of the following portal registry tasks:</span></span>  

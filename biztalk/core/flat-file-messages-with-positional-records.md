@@ -1,14 +1,14 @@
 ---
-title: "具有位置記錄的一般檔案訊息 |Microsoft 文件"
-ms.custom: 
+title: 具有位置記錄的一般檔案訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 72c17c25-3847-458e-a43e-0dbdc42db749
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005591"
 ---
 # <a name="flat-file-messages-with-positional-records"></a><span data-ttu-id="c037a-102">具有位置記錄的一般檔案訊息</span><span class="sxs-lookup"><span data-stu-id="c037a-102">Flat File Messages with Positional Records</span></span>
 <span data-ttu-id="c037a-103">在一般檔案執行個體訊息中的位置記錄包含每個均有預先定義長度的個別欄位 (資料項目)。</span><span class="sxs-lookup"><span data-stu-id="c037a-103">Positional records within a flat file instance message contain individual fields (items of data) that are each of a predefined length.</span></span> <span data-ttu-id="c037a-104">會根據這些長度來剖析欄位。</span><span class="sxs-lookup"><span data-stu-id="c037a-104">The fields are parsed according to these lengths.</span></span> <span data-ttu-id="c037a-105">例如，請考慮下列一般檔案執行個體訊息的位置記錄，其中包含送貨地址 (第一行顯示為每個欄位保留的字元數目)。</span><span class="sxs-lookup"><span data-stu-id="c037a-105">For example, consider the following positional record from a flat file instance message, which contains a ship to address (the first line shows the number of characters reserved for each field).</span></span>  

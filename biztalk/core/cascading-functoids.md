@@ -1,17 +1,17 @@
 ---
-title: "串聯運算質 |Microsoft 文件"
-ms.custom: 
+title: 串聯運算質 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - functoid types, Cascading
 - Cascading functoids
 ms.assetid: 03c46e7b-be1c-475e-b68b-f9d1d7732fce
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231006"
 ---
 # <a name="cascading-functoids"></a><span data-ttu-id="97e01-102">串聯運算質</span><span class="sxs-lookup"><span data-stu-id="97e01-102">Cascading Functoids</span></span>
 <span data-ttu-id="97e01-103">當一個運算質在連結到目的結構描述中的記錄或欄位之前，先連結到另一個運算質時，稱為串連運算質。</span><span class="sxs-lookup"><span data-stu-id="97e01-103">Functoids are said to be cascaded when one functoid is linked to another functoid before it is linked to a record or field in the destination schema.</span></span> <span data-ttu-id="97e01-104">例如，您可以建立串連運算質，其中兩個串連的字串會產生要傳送至目的結構描述的欄位中的第三個字串。</span><span class="sxs-lookup"><span data-stu-id="97e01-104">For example, you can create cascading functoids in which two concatenated strings produce a third string fed into a field in the destination schema.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "新的登錄項目頁面 |Microsoft 文件"
-ms.custom: 
+title: 新的登錄項目頁面 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 204c547c-ed0e-4a1f-a0b2-ce5da00d9c42
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294390"
 ---
 # <a name="new-registry-entry-page"></a><span data-ttu-id="95c8a-102">[新的登錄項目] 頁面</span><span class="sxs-lookup"><span data-stu-id="95c8a-102">New Registry Entry Page</span></span>
 <span data-ttu-id="95c8a-103">圖 1 顯示 ESB Management 入口網站新登錄項目頁面，讓您可以檢視現有端點的清單中指定的 Microsoft BizTalk Server ESB 應用程式。</span><span class="sxs-lookup"><span data-stu-id="95c8a-103">Figure 1 shows the ESB Management Portal New Registry Entry page where you can view a list of the existing endpoints in a specified Microsoft BizTalk Server ESB application.</span></span>  
@@ -33,7 +34,7 @@ ms.lasthandoff: 09/20/2017
   
     -   <span data-ttu-id="95c8a-109">在第一個 （端點型別） 下拉式清單中，您可以選取**接收位置、 傳送埠**或**所有端點**。</span><span class="sxs-lookup"><span data-stu-id="95c8a-109">In the first (endpoint type) drop-down list, you can select **Receive Locations, Send Ports,** or **All Endpoints**.</span></span>  
   
-    -   <span data-ttu-id="95c8a-110">在第二個 （狀態） 下拉式清單中，您可以選取**已註冊、 NotRegistered，暫止，**或**所有**。</span><span class="sxs-lookup"><span data-stu-id="95c8a-110">In the second (status) drop-down list, you can select **Registered, NotRegistered, Pending,** or **All**.</span></span>  
+    -   <span data-ttu-id="95c8a-110">在第二個 （狀態） 下拉式清單中，您可以選取**已註冊、 NotRegistered，暫止，** 或**所有**。</span><span class="sxs-lookup"><span data-stu-id="95c8a-110">In the second (status) drop-down list, you can select **Registered, NotRegistered, Pending,** or **All**.</span></span>  
   
     -   <span data-ttu-id="95c8a-111">在第三個 （BizTalk 應用程式） 下拉式清單中，您可以選取其中一個目前已安裝的 BizTalk 應用程式。</span><span class="sxs-lookup"><span data-stu-id="95c8a-111">In the third (BizTalk application) drop-down list, you can select one of the currently installed BizTalk applications.</span></span>  
   

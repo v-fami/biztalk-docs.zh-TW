@@ -1,14 +1,14 @@
 ---
-title: "沒有公開使用沒有協調流程中此 BizTalk 組件的接收埠 |Microsoft 文件"
-ms.custom: 
+title: 沒有公開使用沒有協調流程中此 BizTalk 組件的接收埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fb901d49-ce3c-4bc6-806a-eb5964d32bb4
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279638"
 ---
 # <a name="there-are-no-orchestrations-with-public-receive-ports-in-this-biztalk-assembly"></a><span data-ttu-id="82936-102">沒有公開使用沒有協調流程中此 BizTalk 組件的接收埠</span><span class="sxs-lookup"><span data-stu-id="82936-102">There are no orchestrations with public receive ports in this BizTalk assembly</span></span>
 ## <a name="details"></a><span data-ttu-id="82936-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="82936-103">Details</span></span>  

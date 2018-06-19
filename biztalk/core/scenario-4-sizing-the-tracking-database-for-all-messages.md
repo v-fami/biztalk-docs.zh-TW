@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269838"
 ---
 # <a name="scenario-4-sizing-the-tracking-database-for-all-messages"></a><span data-ttu-id="db3fb-102">實例 4：為所有訊息調整追蹤資料庫的大小</span><span class="sxs-lookup"><span data-stu-id="db3fb-102">Scenario 4: Sizing the Tracking Database for all Messages</span></span>
 <span data-ttu-id="db3fb-103">若您在 Microsoft® BizTalk Server® 2004 實作中共有三個訊息實例，您將需要將所有實例結果相加以決定 BizTalk 追蹤資料庫的大小。</span><span class="sxs-lookup"><span data-stu-id="db3fb-103">If you had all three message scenarios present in a Microsoft® BizTalk Server® 2004 implementation, you would need to add together all of the scenario results to determine the size of the BizTalk Tracking database.</span></span>  

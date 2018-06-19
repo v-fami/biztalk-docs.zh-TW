@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 00691a9e-434f-4baa-9a01-b6f452758ab3
-caps.latest.revision: ''
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22279390"
 ---
 # <a name="supported-adapter-xsd-element-types"></a><span data-ttu-id="0049c-102">支援的配接器 XSD 項目類型</span><span class="sxs-lookup"><span data-stu-id="0049c-102">Supported Adapter XSD Element Types</span></span>
 <span data-ttu-id="0049c-103">下表列出配接器架構支援的項目。</span><span class="sxs-lookup"><span data-stu-id="0049c-103">The following table lists the elements supported by the Adapter Framework.</span></span> <span data-ttu-id="0049c-104">在組態結構描述中定義新的項目時，請使用下列任何類型取代以下範例中的 `string`：</span><span class="sxs-lookup"><span data-stu-id="0049c-104">When defining a new element in your configuration schema, use any of the following types to replace `string` in the following example:</span></span>  

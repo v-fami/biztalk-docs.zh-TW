@@ -1,14 +1,14 @@
 ---
-title: "使用清單機制衍生簡單型別 |Microsoft 文件"
-ms.custom: 
+title: 使用清單機制衍生簡單型別 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 14f3c7b7-7585-4297-9177-2deaef8355f0
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270958"
 ---
 # <a name="simple-type-derivation-using-the-list-mechanism"></a><span data-ttu-id="9a3d2-102">使用清單機制的簡單型別衍生</span><span class="sxs-lookup"><span data-stu-id="9a3d2-102">Simple Type Derivation Using the List Mechanism</span></span>
 <span data-ttu-id="9a3d2-103">當您使用清單機制從現有的簡單型別衍生新的簡單型別時，即是指定此屬性或項目的值做為指定型別之以空格分隔的值清單。</span><span class="sxs-lookup"><span data-stu-id="9a3d2-103">When you derive a new simple type from an existing simple type by using the list mechanism, you are specifying that the value for this attribute or element can be a space-separated list of values of the specified type.</span></span> <span data-ttu-id="9a3d2-104">例如，您可以指定屬性或項目值為以空格分隔的整數清單。</span><span class="sxs-lookup"><span data-stu-id="9a3d2-104">For example, you can specify that an attribute or element value is a space-separated list of integers.</span></span>  

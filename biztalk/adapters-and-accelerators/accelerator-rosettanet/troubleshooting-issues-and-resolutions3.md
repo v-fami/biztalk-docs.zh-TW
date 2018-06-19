@@ -19,6 +19,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010327"
 ---
 # <a name="troubleshooting-issues-and-resolutions"></a><span data-ttu-id="2b0a0-102">疑難排解： 問題與解決方式</span><span class="sxs-lookup"><span data-stu-id="2b0a0-102">Troubleshooting: Issues and Resolutions</span></span>
 <span data-ttu-id="2b0a0-103">本主題將處理與執行 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 有關的問題。</span><span class="sxs-lookup"><span data-stu-id="2b0a0-103">This topic addresses issues related to running [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)].</span></span> <span data-ttu-id="2b0a0-104">每個問題的說明都會詳細描述其特殊徵狀、可能的原因以及解決方式。</span><span class="sxs-lookup"><span data-stu-id="2b0a0-104">The individual issues detail a specific symptom, a possible cause, and a solution.</span></span>  

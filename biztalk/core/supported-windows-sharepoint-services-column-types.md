@@ -1,17 +1,17 @@
 ---
-title: "支援 Windows SharePoint Services 資料行類型 |Microsoft 文件"
-ms.custom: 
+title: 支援 Windows SharePoint Services 資料行類型 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring [Windows SharePoint Services adapters], supported column types
 - Windows SharePoint Services adapters, supported column types
 ms.assetid: 14992f52-9d18-4321-9152-83c8a37751bc
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278870"
 ---
 # <a name="supported-windows-sharepoint-services-column-types"></a><span data-ttu-id="39e82-102">支援的 Windows SharePoint Services 資料行類型</span><span class="sxs-lookup"><span data-stu-id="39e82-102">Supported Windows SharePoint Services Column Types</span></span>
 <span data-ttu-id="39e82-103">本主題描述 Windows SharePoint Services 配接器支援的 Windows SharePoint Services 資料行類型。</span><span class="sxs-lookup"><span data-stu-id="39e82-103">This topic describes the Windows SharePoint Services column types that are supported by the Windows SharePoint Services adapter.</span></span> <span data-ttu-id="39e82-104">這些資料行類型的值可以在訊息中設定。</span><span class="sxs-lookup"><span data-stu-id="39e82-104">The values of these column types can be set in the message.</span></span>  

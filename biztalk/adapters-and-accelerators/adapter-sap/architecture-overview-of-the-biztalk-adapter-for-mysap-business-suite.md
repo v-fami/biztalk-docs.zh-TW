@@ -11,7 +11,7 @@ helpviewer_keywords:
 - architecture of SAP adapter
 - adapters, architecture
 ms.assetid: 1b45edb0-2476-427b-b6cd-41e38ed815e0
-caps.latest.revision: ''
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22218414"
 ---
 # <a name="architecture-overview-of-the-biztalk-adapter-for-mysap-business-suite"></a><span data-ttu-id="64f88-102">BizTalk Adapter for mySAP Business Suite 的架構概觀</span><span class="sxs-lookup"><span data-stu-id="64f88-102">Architecture overview of the BizTalk Adapter for mySAP Business Suite</span></span>
 <span data-ttu-id="64f88-103">[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]實作[!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)]自訂繫結，其中包含單一的自訂傳輸繫結項目，可讓與 SAP 系統的通訊。</span><span class="sxs-lookup"><span data-stu-id="64f88-103">The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] implements a [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] custom binding, which contains a single custom transport binding element that enables communication with an SAP system.</span></span> <span data-ttu-id="64f88-104">[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]包裝[!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)]執行階段，並公開至應用程式可以透過[!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)]通道架構。</span><span class="sxs-lookup"><span data-stu-id="64f88-104">The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] is wrapped by the [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)] runtime and is exposed to applications through the [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] channel architecture.</span></span> <span data-ttu-id="64f88-105">[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]會與透過 SAP Unicode RFC SDK (librfc32u.dll) 的 64 位元或 32 位元版本的 SAP 系統通訊。</span><span class="sxs-lookup"><span data-stu-id="64f88-105">The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] communicates with the SAP system through either the 64-bit or 32-bit version of the SAP Unicode RFC SDK (librfc32u.dll).</span></span> 

@@ -1,17 +1,17 @@
 ---
-title: "使用挑選清單欄位使用 BizTalk Server 和 Siebel 配接器執行商務元件上的作業 |Microsoft 文件"
-ms.custom: 
+title: 使用挑選清單欄位使用 BizTalk Server 和 Siebel 配接器執行商務元件上的作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - how to, perform operations with picklist fields by using BizTalk Server
 - business components, performing operations with picklist fields by using BizTalk Server
 ms.assetid: b62d32fa-903a-442b-951b-2343ef719bd0
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226830"
 ---
 # <a name="run-operations-on-business-components-with-picklist-fields-using-biztalk-server-and-the-siebel-adapter"></a><span data-ttu-id="cfcaf-102">使用挑選清單欄位使用 BizTalk Server 和 Siebel 配接器執行商務元件上的作業</span><span class="sxs-lookup"><span data-stu-id="cfcaf-102">Run Operations on Business Components with Picklist Fields Using BizTalk Server and the Siebel adapter</span></span>
 <span data-ttu-id="cfcaf-103">Siebel 挑選清單的欄位類型構成的可能值的集合從用戶端可以指定要傳遞到 Siebel 系統為某個值。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-103">A Siebel picklist field type constitutes a collection of possible values from which client may specify a certain value to be passed onto the Siebel system.</span></span> <span data-ttu-id="cfcaf-104">換句話說，挑選清單欄位包含一份可接受的欄位值。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-104">In other words, a picklist field contains a list of accepted values for a field.</span></span> <span data-ttu-id="cfcaf-105">如需挑選清單和其類型的詳細資訊，請參閱 Siebel 文件。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-105">For more information about picklist and their types, refer to Siebel documentation.</span></span> <span data-ttu-id="cfcaf-106">如需有關如何[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]挑選清單欄位的商務元件上的支援作業[在 Siebel 商務元件上的作業](../../adapters-and-accelerators/adapter-siebel/operations-on-business-components-in-siebel.md)。</span><span class="sxs-lookup"><span data-stu-id="cfcaf-106">For more information about how the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] supports operations on business components with picklist fields, see [Operations on Business Components in Siebel](../../adapters-and-accelerators/adapter-siebel/operations-on-business-components-in-siebel.md).</span></span>  
@@ -104,7 +105,7 @@ ms.lasthandoff: 09/20/2017
   
 |<span data-ttu-id="cfcaf-170">形狀圖</span><span class="sxs-lookup"><span data-stu-id="cfcaf-170">Shape</span></span>|<span data-ttu-id="cfcaf-171">圖形類型</span><span class="sxs-lookup"><span data-stu-id="cfcaf-171">Shape Type</span></span>|<span data-ttu-id="cfcaf-172">屬性</span><span class="sxs-lookup"><span data-stu-id="cfcaf-172">Properties</span></span>|  
 |-----------|----------------|----------------|  
-|<span data-ttu-id="cfcaf-173">ReceiveXML</span><span class="sxs-lookup"><span data-stu-id="cfcaf-173">ReceiveXML</span></span>|<span data-ttu-id="cfcaf-174">Receive</span><span class="sxs-lookup"><span data-stu-id="cfcaf-174">Receive</span></span>|<span data-ttu-id="cfcaf-175">-設定**名稱**至*ReceiveXML*</span><span class="sxs-lookup"><span data-stu-id="cfcaf-175">-   Set **Name** to *ReceiveXML*</span></span><br /><span data-ttu-id="cfcaf-176">-設定**啟動**至*，則為 True*</span><span class="sxs-lookup"><span data-stu-id="cfcaf-176">-   Set **Activate** to *True*</span></span>|  
+|<span data-ttu-id="cfcaf-173">ReceiveXML</span><span class="sxs-lookup"><span data-stu-id="cfcaf-173">ReceiveXML</span></span>|<span data-ttu-id="cfcaf-174">Receive</span><span class="sxs-lookup"><span data-stu-id="cfcaf-174">Receive</span></span>|<span data-ttu-id="cfcaf-175">-設定**名稱**至*ReceiveXML*</span><span class="sxs-lookup"><span data-stu-id="cfcaf-175">-   Set **Name** to *ReceiveXML*</span></span><br /><span data-ttu-id="cfcaf-176">-設定**啟動**至 *，則為 True*</span><span class="sxs-lookup"><span data-stu-id="cfcaf-176">-   Set **Activate** to *True*</span></span>|  
 |<span data-ttu-id="cfcaf-177">SendToLOB</span><span class="sxs-lookup"><span data-stu-id="cfcaf-177">SendToLOB</span></span>|<span data-ttu-id="cfcaf-178">Send</span><span class="sxs-lookup"><span data-stu-id="cfcaf-178">Send</span></span>|<span data-ttu-id="cfcaf-179">-設定**名稱**至*SendToLOB*</span><span class="sxs-lookup"><span data-stu-id="cfcaf-179">-   Set **Name** to *SendToLOB*</span></span>|  
 |<span data-ttu-id="cfcaf-180">ReceiveResponse</span><span class="sxs-lookup"><span data-stu-id="cfcaf-180">ReceiveResponse</span></span>|<span data-ttu-id="cfcaf-181">Receive</span><span class="sxs-lookup"><span data-stu-id="cfcaf-181">Receive</span></span>|<span data-ttu-id="cfcaf-182">-設定**名稱**至*ReceiveResponse*</span><span class="sxs-lookup"><span data-stu-id="cfcaf-182">-   Set **Name** to *ReceiveResponse*</span></span><br /><span data-ttu-id="cfcaf-183">-設定**啟動**至*False*</span><span class="sxs-lookup"><span data-stu-id="cfcaf-183">-   Set **Activate** to *False*</span></span>|  
 |<span data-ttu-id="cfcaf-184">SendResponse</span><span class="sxs-lookup"><span data-stu-id="cfcaf-184">SendResponse</span></span>|<span data-ttu-id="cfcaf-185">Send</span><span class="sxs-lookup"><span data-stu-id="cfcaf-185">Send</span></span>|<span data-ttu-id="cfcaf-186">-設定**名稱**至*SendResponse*</span><span class="sxs-lookup"><span data-stu-id="cfcaf-186">-   Set **Name** to *SendResponse*</span></span>|  

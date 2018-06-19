@@ -1,11 +1,11 @@
 ---
-title: "何謂事件追蹤？ | Microsoft Docs"
-ms.custom: 
+title: 何謂事件追蹤？ | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring [HAT tracking], events
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - Tracking database, DTA_Services audit table
 - events, HAT
 ms.assetid: dd211752-d1af-4287-967a-908b8d067ebb
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289190"
 ---
 # <a name="what-is-event-tracking"></a><span data-ttu-id="c2e72-103">何謂事件追蹤？</span><span class="sxs-lookup"><span data-stu-id="c2e72-103">What is Event Tracking?</span></span>
 <span data-ttu-id="c2e72-104">追蹤的訊息事件資料為基礎的事件 （例如，當服務開始或結束，或當傳送或接收訊息時）。</span><span class="sxs-lookup"><span data-stu-id="c2e72-104">Tracked message event data is based upon events (for example, when a service begins or ends, or when a message is sent or received).</span></span> <span data-ttu-id="c2e72-105">訊息事件追蹤處理序傳回之事件的發生，您便可以看到發生的每個根據您設定追蹤篩選清單。</span><span class="sxs-lookup"><span data-stu-id="c2e72-105">The message event tracking process returns a list of the events that have occurred, enabling you to see everything that happened based on the tracking filters you have set.</span></span>  

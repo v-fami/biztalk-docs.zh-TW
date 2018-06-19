@@ -1,14 +1,14 @@
 ---
-title: "MSDTC 問題疑難排解 |Microsoft 文件"
-ms.custom: 
+title: MSDTC 問題疑難排解 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f39cde52-da8f-4cc1-bdc5-e4b828891a79
-caps.latest.revision: "36"
+caps.latest.revision: 36
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22280502"
 ---
 # <a name="troubleshooting-problems-with-msdtc"></a><span data-ttu-id="e5320-102">MSDTC 問題疑難排解</span><span class="sxs-lookup"><span data-stu-id="e5320-102">Troubleshooting Problems with MSDTC</span></span>
 <span data-ttu-id="e5320-103">大部分 BizTalk Server 執行階段作業都需要 Microsoft 分散式交易協調器 (MSDTC) 支援，以確保作業在交易上的一致。</span><span class="sxs-lookup"><span data-stu-id="e5320-103">Most BizTalk Server runtime operations require Microsoft Distributed Transaction Coordinator (MSDTC) support to ensure that the operations are transactionally consistent.</span></span> <span data-ttu-id="e5320-104">如果沒有 MSDTC 交易支援，則關聯的 BizTalk Server 執行階段作業將無法繼續。</span><span class="sxs-lookup"><span data-stu-id="e5320-104">If MSDTC transaction support is not available, then the associated BizTalk Server runtime operations cannot proceed.</span></span> <span data-ttu-id="e5320-105">未正確設定 MSDTC 交易支援時，通常會受到影響的 BizTalk 元件包括 (但不限於) 單一登入服務、BizTalk 主控件執行個體，以及任何經由 BizTalk Server 所連接的 SQL Server 執行個體。</span><span class="sxs-lookup"><span data-stu-id="e5320-105">The components of BizTalk that are commonly affected when MSDTC transaction support is not configured correctly include (but are not limited to) the Single Sign-On Service, BizTalk host instances, and any SQL Server instances that are connected to by BizTalk Server.</span></span> <span data-ttu-id="e5320-106">本節包含描述 MSDTC 相關錯誤的資訊，以及可供遵循以診斷和解決 MSDTC 問題的步驟。</span><span class="sxs-lookup"><span data-stu-id="e5320-106">This section contains information that describes MSDTC related errors and steps that can be followed to diagnose and resolve problems with MSDTC.</span></span>  
@@ -226,7 +227,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="if-windows-firewall-is-running-add-an-exception-for-the-msdtc-service"></a><span data-ttu-id="e5320-253">如果 Windows 防火牆正在執行，請為 MSDTC 服務新增例外。</span><span class="sxs-lookup"><span data-stu-id="e5320-253">If Windows Firewall is running, add an exception for the MSDTC service</span></span>  
  <span data-ttu-id="e5320-254">Windows 防火牆服務可以封鎖電腦之間的 MSDTC 通訊。</span><span class="sxs-lookup"><span data-stu-id="e5320-254">The Windows Firewall service may block MSDTC communications between computers.</span></span> <span data-ttu-id="e5320-255">為了確保電腦之間的 MSDTC 通訊不會封鎖，請將 msdtc.exe 新增至 Windows 防火牆的例外清單 (如果 Windows 防火牆服務正在執行)。</span><span class="sxs-lookup"><span data-stu-id="e5320-255">To ensure that MSDTC communications are not blocked between computers, add msdtc.exe to the Windows Firewall exception list if the Windows Firewall service is running.</span></span>  
   
-1.  <span data-ttu-id="e5320-256">依序按一下 **[開始]**和 **[執行]**，輸入 **firewall.cpl**，再按一下 **[確定]** 顯示 **[Windows 防火牆]** 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="e5320-256">Click **Start**, click **Run**, type **firewall.cpl**, and then click **OK** to display the **Windows Firewall** dialog box.</span></span>  
+1.  <span data-ttu-id="e5320-256">依序按一下 **[開始]** 和 **[執行]**，輸入 **firewall.cpl**，再按一下 **[確定]** 顯示 **[Windows 防火牆]** 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="e5320-256">Click **Start**, click **Run**, type **firewall.cpl**, and then click **OK** to display the **Windows Firewall** dialog box.</span></span>  
   
 2.  <span data-ttu-id="e5320-257">按一下 [允許程式通過 Windows 防火牆]  ，以顯示 [Windows 防火牆設定]  對話方塊。</span><span class="sxs-lookup"><span data-stu-id="e5320-257">Click **Allow a program through the Windows Firewall** to display the **Windows Firewall Settings** dialog box.</span></span>  
   
@@ -234,7 +235,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  <span data-ttu-id="e5320-259">按一下 **[新增程式]** ，顯示 **[新增程式]** 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="e5320-259">Click **Add Program** to display the **Add a Program** dialog box.</span></span>  
   
-5.  <span data-ttu-id="e5320-260">按一下 **[瀏覽]** ，並瀏覽到 *%system32%*\msdtc.exe。</span><span class="sxs-lookup"><span data-stu-id="e5320-260">Click **Browse** and navigate to *%system32%*\msdtc.exe.</span></span>  
+5.  <span data-ttu-id="e5320-260">按一下 **[瀏覽]** ，並瀏覽到 *%system32%* \msdtc.exe。</span><span class="sxs-lookup"><span data-stu-id="e5320-260">Click **Browse** and navigate to *%system32%* \msdtc.exe.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="e5320-261">啟動命令提示字元，輸入 **echo %system32%** ，然後按 **ENTER** 以判斷此電腦上的 \System32 目錄位置。</span><span class="sxs-lookup"><span data-stu-id="e5320-261">Launch a command prompt, type **echo %system32%** and press **Enter** to determine the location of the \System32 directory on this computer.</span></span>  

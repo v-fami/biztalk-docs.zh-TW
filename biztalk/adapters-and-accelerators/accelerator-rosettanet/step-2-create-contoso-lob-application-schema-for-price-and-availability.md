@@ -19,6 +19,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005759"
 ---
 # <a name="step-2-creating-the-contoso-lob-application-schemas-for-the-price-and-availability-project-using-biztalk-editor"></a><span data-ttu-id="73fd2-102">步驟 2： 建立 Contoso LOB 應用程式的結構描述的價格與可用性專案中使用 [BizTalk 編輯器]</span><span class="sxs-lookup"><span data-stu-id="73fd2-102">Step 2: Creating the Contoso LOB Application Schemas for the Price and Availability Project Using BizTalk Editor</span></span>
 <span data-ttu-id="73fd2-103">在此步驟中，您將產生結構描述，用來向 Contoso ERP 系統查詢特定產品的價格與可用性。</span><span class="sxs-lookup"><span data-stu-id="73fd2-103">In this step, you generate the schema to use to query the Contoso ERP system for the price and availability of a particular product.</span></span> <span data-ttu-id="73fd2-104">使用產生此結構描述[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® BizTalk Server 的 SQL 配接器。</span><span class="sxs-lookup"><span data-stu-id="73fd2-104">You generate this schema by using the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® SQL Adapter for BizTalk Server.</span></span>  

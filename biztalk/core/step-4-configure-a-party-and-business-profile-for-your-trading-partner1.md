@@ -1,14 +1,14 @@
 ---
-title: "步驟 4： 設定您的交易 partner1 的合作對象與商務設定檔 |Microsoft 文件"
-ms.custom: 
+title: 步驟 4： 設定您的交易 partner1 的合作對象與商務設定檔 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: db50d0f6-e838-4e92-8548-a63a2c445d55
-caps.latest.revision: "40"
+caps.latest.revision: 40
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277414"
 ---
 # <a name="step-4-configure-a-party-and-business-profile-for-your-trading-partner"></a><span data-ttu-id="cdaf4-102">步驟 4： 為交易夥伴設定合作對象與商務設定檔</span><span class="sxs-lookup"><span data-stu-id="cdaf4-102">Step 4: Configure a Party and Business Profile for Your Trading Partner</span></span>
 <span data-ttu-id="cdaf4-103">![步驟 4 的 9](../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-4of9.gif "Step_4of9")</span><span class="sxs-lookup"><span data-stu-id="cdaf4-103">![Step 4 of 9](../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-4of9.gif "Step_4of9")</span></span>  

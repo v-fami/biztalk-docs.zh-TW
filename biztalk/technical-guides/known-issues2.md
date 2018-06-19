@@ -1,14 +1,14 @@
 ---
-title: "已知 Issues2 |Microsoft 文件"
-ms.custom: 
+title: 已知 Issues2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 709c19ea-1138-49f8-8898-c2d2c60c3923
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298734"
 ---
 # <a name="known-issues"></a><span data-ttu-id="0b0b4-102">已知問題</span><span class="sxs-lookup"><span data-stu-id="0b0b4-102">Known Issues</span></span>
 <span data-ttu-id="0b0b4-103">下表列出所有已知的問題的[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]Operations Manager 2007 R2/2012年管理組件。</span><span class="sxs-lookup"><span data-stu-id="0b0b4-103">The following table lists all the known issues with the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management Pack for Operations Manager 2007 R2/2012.</span></span>  

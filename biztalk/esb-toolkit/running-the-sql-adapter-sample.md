@@ -1,14 +1,14 @@
 ---
-title: "執行 SQL 配接器範例 |Microsoft 文件"
-ms.custom: 
+title: 執行 SQL 配接器範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 13566d08-7a59-4065-b0d7-19ae2765555e
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294790"
 ---
 # <a name="running-the-sql-adapter-sample"></a><span data-ttu-id="da867-102">執行 SQL 配接器範例</span><span class="sxs-lookup"><span data-stu-id="da867-102">Running the SQL Adapter Sample</span></span>
 <span data-ttu-id="da867-103">SQL 配接器範例會使用路線上手範例隨附的 Windows Form 測試用戶端應用程式。</span><span class="sxs-lookup"><span data-stu-id="da867-103">The SQL Adapter sample uses a Windows Forms test client application provided with the Itinerary On-Ramp sample.</span></span>  

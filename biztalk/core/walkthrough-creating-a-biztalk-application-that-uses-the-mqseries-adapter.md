@@ -1,11 +1,11 @@
 ---
-title: "逐步解說： 建立 BizTalk 應用程式使用 MQSeries 配接器 |Microsoft 文件"
-ms.custom: 
+title: 逐步解說： 建立 BizTalk 應用程式使用 MQSeries 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - IBM WebSphere MQ queues
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - MQSeries adapters, queues
 - configuring [MQSeries adapters], tutorial
 ms.assetid: e9e169e4-d41c-4e5d-b165-7bd36b481f24
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290470"
 ---
 # <a name="walkthrough-creating-a-biztalk-application-that-uses-the-mqseries-adapter"></a><span data-ttu-id="cfe68-102">逐步解說： 建立使用 MQSeries 配接器的 BizTalk 應用程式</span><span class="sxs-lookup"><span data-stu-id="cfe68-102">Walkthrough: Creating a BizTalk Application That Uses the MQSeries Adapter</span></span>
 <span data-ttu-id="cfe68-103">本節將帶領您建立使用 MQSeries 配接器的簡單 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 應用程式。</span><span class="sxs-lookup"><span data-stu-id="cfe68-103">This section takes you through creating a simple Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application that uses the MQSeries adapter.</span></span>  
@@ -44,7 +45,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  <span data-ttu-id="cfe68-116">按一下**啟動**，指向 **程式**，指向  **IBM WebSphere MQ**，然後按一下  **WebSphere MQ Explorer**。</span><span class="sxs-lookup"><span data-stu-id="cfe68-116">Click **Start**, point to **Programs**, point to **IBM WebSphere MQ**, and then click **WebSphere MQ Explorer**.</span></span>  
   
-2.  <span data-ttu-id="cfe68-117">按兩下**佇列管理員**，然後按兩下預設佇列管理員。</span><span class="sxs-lookup"><span data-stu-id="cfe68-117">Double-click **Queue Managers**, and then double-click the default queue manager.</span></span> <span data-ttu-id="cfe68-118">預設佇列管理員通常會命名為**Qm_<***< machine_name >*其中*machine_name*是您的電腦名稱。</span><span class="sxs-lookup"><span data-stu-id="cfe68-118">The default queue manager is typically named **QM_***<machine_name>* where *machine_name* is the name of your computer.</span></span>  
+2.  <span data-ttu-id="cfe68-117">按兩下**佇列管理員**，然後按兩下預設佇列管理員。</span><span class="sxs-lookup"><span data-stu-id="cfe68-117">Double-click **Queue Managers**, and then double-click the default queue manager.</span></span> <span data-ttu-id="cfe68-118">預設佇列管理員通常會命名為**Qm_<***< machine_name >* 其中*machine_name*是您的電腦名稱。</span><span class="sxs-lookup"><span data-stu-id="cfe68-118">The default queue manager is typically named **QM_***<machine_name>* where *machine_name* is the name of your computer.</span></span>  
   
 3.  <span data-ttu-id="cfe68-119">以滑鼠右鍵按一下**佇列**，指向 **新增**，然後按一下 **本機佇列**。</span><span class="sxs-lookup"><span data-stu-id="cfe68-119">Right-click **Queues**, point to **New**, and then click **Local Queue**.</span></span>  
   
@@ -83,7 +84,7 @@ ms.lasthandoff: 09/20/2017
   
 12. <span data-ttu-id="cfe68-138">在**佇列**方塊中，輸入**MQStoBTS**，然後按一下 **匯出**。</span><span class="sxs-lookup"><span data-stu-id="cfe68-138">In the **Queue** box, type **MQStoBTS**, and then click **Export**.</span></span>  
   
-13. <span data-ttu-id="cfe68-139">中**匯出**對話方塊中，按一下**Create Queue**，然後按一下 [**確定**和**[確定]** ，以返回**接收位置屬性**] 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="cfe68-139">In the **Export** dialog box, click **Create Queue**,and then click **OK** and **OK** again to return to the **Receive Location Properties** dialog box.</span></span>  
+13. <span data-ttu-id="cfe68-139">中**匯出**對話方塊中，按一下**Create Queue**，然後按一下 [**確定**和 **[確定]** ，以返回**接收位置屬性**] 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="cfe68-139">In the **Export** dialog box, click **Create Queue**,and then click **OK** and **OK** again to return to the **Receive Location Properties** dialog box.</span></span>  
   
 14. <span data-ttu-id="cfe68-140">在**接收處理常式**方塊中，選取**BizTalkServerApplication**。</span><span class="sxs-lookup"><span data-stu-id="cfe68-140">In the **Receive Handler** box, select **BizTalkServerApplication**.</span></span>  
   
@@ -110,7 +111,7 @@ ms.lasthandoff: 09/20/2017
   
 8.  <span data-ttu-id="cfe68-152">在**佇列**方塊中，輸入**BTStoMQS**，然後按一下 **匯出**。</span><span class="sxs-lookup"><span data-stu-id="cfe68-152">In the **Queue** box, type **BTStoMQS**, and then click **Export**.</span></span>  
   
-9. <span data-ttu-id="cfe68-153">中**匯出**對話方塊中，按一下**Create Queue**，然後按一下 [**確定**和**[確定]** ，以返回**傳送埠屬性**] 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="cfe68-153">In the **Export** dialog box, click **Create Queue**, and then click **OK** and **OK** again to return to the **Send Port Properties** dialog box.</span></span>  
+9. <span data-ttu-id="cfe68-153">中**匯出**對話方塊中，按一下**Create Queue**，然後按一下 [**確定**和 **[確定]** ，以返回**傳送埠屬性**] 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="cfe68-153">In the **Export** dialog box, click **Create Queue**, and then click **OK** and **OK** again to return to the **Send Port Properties** dialog box.</span></span>  
   
 10. <span data-ttu-id="cfe68-154">在**傳送管線**方塊中，選取**PassThruTransmit**。</span><span class="sxs-lookup"><span data-stu-id="cfe68-154">In the **Send Pipeline** box, select **PassThruTransmit**.</span></span>  
   

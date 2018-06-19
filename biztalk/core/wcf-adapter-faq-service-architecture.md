@@ -1,14 +1,14 @@
 ---
-title: "WCF 配接器 FAQ： 服務架構 |Microsoft 文件"
-ms.custom: 
+title: WCF 配接器 FAQ： 服務架構 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8bad0063-ccff-41f4-b4e0-a02b49403c2d
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288718"
 ---
 # <a name="wcf-adapter-faq-service-architecture"></a><span data-ttu-id="28710-102">WCF 配接器 FAQ： 服務架構</span><span class="sxs-lookup"><span data-stu-id="28710-102">WCF Adapter FAQ: Service Architecture</span></span>
 ## <a name="what-is-the-difference-between-a-wcf-custom-behavior-and-a-biztalk-pipeline-component"></a><span data-ttu-id="28710-103">WCF 自訂行為與 BizTalk 管線元件之間的差異為何？</span><span class="sxs-lookup"><span data-stu-id="28710-103">What is the difference between a WCF custom behavior and a BizTalk pipeline component?</span></span>  

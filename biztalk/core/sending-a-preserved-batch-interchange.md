@@ -1,14 +1,14 @@
 ---
-title: "傳送保留批次交換 |Microsoft 文件"
-ms.custom: 
+title: 傳送保留批次交換 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d9bc2207-e34d-4d06-a224-bd7f8e498c27
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974844"
 ---
 # <a name="sending-a-preserved-batch-interchange"></a><span data-ttu-id="21562-102">傳送保留的批次交換</span><span class="sxs-lookup"><span data-stu-id="21562-102">Sending a Preserved Batch Interchange</span></span>
 <span data-ttu-id="21562-103">當 EDI 傳送管線處理保留的輸出批次交換時，它會將該批次交換一起處理。</span><span class="sxs-lookup"><span data-stu-id="21562-103">When the EDI send pipeline processes an outbound preserved batch interchange, it processes the batched interchange as a whole.</span></span> <span data-ttu-id="21562-104">它通常會建立 EDI 交換，而不是套用信封根據協議中的現有信封 （控制項） 區段重複使用。</span><span class="sxs-lookup"><span data-stu-id="21562-104">It normally reuses the existing envelope (control) segments in creating the EDI interchange, rather than applying an envelope based upon the agreement.</span></span> <span data-ttu-id="21562-105">發生這種情況時**輸入批次處理選項**屬性設定為**保留交換-發生錯誤時暫停交換**或**保留交換-發生時暫停交易集錯誤**。</span><span class="sxs-lookup"><span data-stu-id="21562-105">This occurs when the **Inbound batch processing option** property is set to **Preserve Interchange - suspend Interchange on Error** or **Preserve Interchange - suspend Transaction Sets on Error**.</span></span>  

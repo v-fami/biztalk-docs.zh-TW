@@ -9,7 +9,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 11cb5672-1155-4648-b1fd-c9a3bc30e351
-caps.latest.revision: ''
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26007799"
 ---
 # <a name="disassemble-inbound-batches"></a><span data-ttu-id="d78b4-103">反組譯輸入批次</span><span class="sxs-lookup"><span data-stu-id="d78b4-103">Disassemble Inbound Batches</span></span>
 
@@ -47,7 +48,7 @@ ms.lasthandoff: 03/28/2018
   
  <span data-ttu-id="d78b4-120">**批次結尾**</span><span class="sxs-lookup"><span data-stu-id="d78b4-120">**Batch Trailer**</span></span>  
   
- <span data-ttu-id="d78b4-121">在此結構中，您可以考慮使用 「 訊息區塊 」 是**– SWIFT 交換 – 訊息標頭訊息結尾**組件。</span><span class="sxs-lookup"><span data-stu-id="d78b4-121">Within this structure, you can consider a "message block" to be the **Message Header – SWIFT Interchange – Message Trailer** parts.</span></span> <span data-ttu-id="d78b4-122">一系列的多個 「 訊息區塊 」 是由批次中的多個 SWIFT 訊息所組成。</span><span class="sxs-lookup"><span data-stu-id="d78b4-122">A series of multiple "message blocks" makes up the multiple SWIFT messages in a batch.</span></span> <span data-ttu-id="d78b4-123">批次標頭、 訊息標頭、 訊息結尾和批次結尾是選擇性的但重複項目之間必須一致。</span><span class="sxs-lookup"><span data-stu-id="d78b4-123">The Batch Header, Message Header, Message Trailer, and Batch Trailer are optional, but must be consistent across repetitions.</span></span>  
+ <span data-ttu-id="d78b4-121">在此結構中，您可以考慮使用 「 訊息區塊 」 是 **– SWIFT 交換 – 訊息標頭訊息結尾**組件。</span><span class="sxs-lookup"><span data-stu-id="d78b4-121">Within this structure, you can consider a "message block" to be the **Message Header – SWIFT Interchange – Message Trailer** parts.</span></span> <span data-ttu-id="d78b4-122">一系列的多個 「 訊息區塊 」 是由批次中的多個 SWIFT 訊息所組成。</span><span class="sxs-lookup"><span data-stu-id="d78b4-122">A series of multiple "message blocks" makes up the multiple SWIFT messages in a batch.</span></span> <span data-ttu-id="d78b4-123">批次標頭、 訊息標頭、 訊息結尾和批次結尾是選擇性的但重複項目之間必須一致。</span><span class="sxs-lookup"><span data-stu-id="d78b4-123">The Batch Header, Message Header, Message Trailer, and Batch Trailer are optional, but must be consistent across repetitions.</span></span>  
   
 > [!NOTE]
 >  <span data-ttu-id="d78b4-124">請勿混淆 SWIFT 的標頭和結尾區塊的訊息信封 （訊息標頭和訊息結尾）。</span><span class="sxs-lookup"><span data-stu-id="d78b4-124">Do not confuse the message envelope (Message Header and Message Trailer) with the SWIFT header and trailer blocks.</span></span> <span data-ttu-id="d78b4-125">在批次內容中，您應該檢視 SWIFT 訊息 （交換），做為一個整體 (atomic) 的單位包括 SWIFT 標頭和結尾區塊。</span><span class="sxs-lookup"><span data-stu-id="d78b4-125">In the context of batches, you should view the SWIFT message (interchange), including the SWIFT header and trailer blocks, as a holistic (atomic) unit.</span></span> <span data-ttu-id="d78b4-126">在此情況下，訊息標頭和訊息結尾指包裝批次中的每個 SWIFT 訊息的信封。</span><span class="sxs-lookup"><span data-stu-id="d78b4-126">In this context, the Message Header and Message Trailer refer to the envelope that wraps each SWIFT message in a batch.</span></span>  

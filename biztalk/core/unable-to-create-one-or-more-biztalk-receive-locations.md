@@ -1,14 +1,14 @@
 ---
-title: "無法建立一或多個 BizTalk 接收位置 |Microsoft 文件"
-ms.custom: 
+title: 無法建立一或多個 BizTalk 接收位置 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b564f87b-34ba-400e-9a71-bd66081fc1b8
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286734"
 ---
 # <a name="unable-to-create-one-or-more-biztalk-receive-locations"></a><span data-ttu-id="d5ba5-102">無法建立一或多個 BizTalk 接收位置</span><span class="sxs-lookup"><span data-stu-id="d5ba5-102">Unable to create one or more BizTalk receive locations</span></span>
 ## <a name="details"></a><span data-ttu-id="d5ba5-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="d5ba5-103">Details</span></span>  

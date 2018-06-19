@@ -1,15 +1,15 @@
 ---
-title: "什麼是 BizTalk Server 2013 和 2013 R2 的新功能 |Microsoft 文件"
-description: "新功能和變更 BizTalk Server 2013 R2 和 2013年中的完整清單"
-caps.latest.revision: "67"
+title: 什麼是 BizTalk Server 2013 和 2013 R2 的新功能 |Microsoft 文件
+description: 新功能和變更 BizTalk Server 2013 R2 和 2013年中的完整清單
+caps.latest.revision: 67
 author: MandiOhlinger
 manager: anneta
-ms.custom: 
+ms.custom: ''
 ms.date: 2017-08-10
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bdb841f7-4aa9-45c9-a6f1-d527089fcc09
 ms.author: mandia
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22300006"
 ---
 # <a name="whats-new-in-biztalk-server-2013-and-2013-r2"></a><span data-ttu-id="c1cad-103">BizTalk Server 2013 和 2013 R2 有哪些新功能？</span><span class="sxs-lookup"><span data-stu-id="c1cad-103">What's New in BizTalk Server 2013 and 2013 R2</span></span>
 <span data-ttu-id="c1cad-104">請參閱 [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)] 和 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013 的新功能及取代的項目。</span><span class="sxs-lookup"><span data-stu-id="c1cad-104">See what's new and what is deprecated in [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)] and [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013.</span></span>

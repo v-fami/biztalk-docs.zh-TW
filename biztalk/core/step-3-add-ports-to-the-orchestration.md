@@ -1,14 +1,14 @@
 ---
-title: "步驟 3： 新增至協調流程連接埠 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3： 新增至協調流程連接埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 245df16e-d327-4c79-be85-004134d5ea6f
-caps.latest.revision: "45"
+caps.latest.revision: 45
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,15 +17,16 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279830"
 ---
 # <a name="step-3-add-ports-to-the-orchestration"></a><span data-ttu-id="405c8-102">步驟 3：將連接埠加入協調流程</span><span class="sxs-lookup"><span data-stu-id="405c8-102">Step 3: Add Ports to the Orchestration</span></span>
 <span data-ttu-id="405c8-103">![步驟 4 之 3](../adapters-and-accelerators/adapter-oracle-ebs/media/step-3of4.gif "Step_3of4")</span><span class="sxs-lookup"><span data-stu-id="405c8-103">![Step 3 of 4](../adapters-and-accelerators/adapter-oracle-ebs/media/step-3of4.gif "Step_3of4")</span></span>  
   
  <span data-ttu-id="405c8-104">**若要完成的時間：** 10 分鐘</span><span class="sxs-lookup"><span data-stu-id="405c8-104">**Time to complete:** 10 minutes</span></span>  
   
- <span data-ttu-id="405c8-105">**目標：**在此步驟中，新增三個連接埠到 EAIProcess 協調流程，並設定它們。</span><span class="sxs-lookup"><span data-stu-id="405c8-105">**Objective:** In this step, you add three ports to the EAIProcess orchestration and configure them.</span></span>  
+ <span data-ttu-id="405c8-105">**目標：** 在此步驟中，新增三個連接埠到 EAIProcess 協調流程，並設定它們。</span><span class="sxs-lookup"><span data-stu-id="405c8-105">**Objective:** In this step, you add three ports to the EAIProcess orchestration and configure them.</span></span>  
   
- <span data-ttu-id="405c8-106">**用途：**連接埠指定您的協調流程的傳送訊息及接收來自其他商務程序的訊息。</span><span class="sxs-lookup"><span data-stu-id="405c8-106">**Purpose:** Ports specify how your orchestration will send messages to and receive messages from other business processes.</span></span> <span data-ttu-id="405c8-107">每個連接埠都具有類型、方向和繫結，由這些決定通訊的方向、通訊的模式、傳送和接受訊息的位置，以及通訊進行的方式。</span><span class="sxs-lookup"><span data-stu-id="405c8-107">Each port has a type, a direction, and a binding, which together determine the direction of communication, the pattern of communication, the location to or from which the message is sent or received, and how the communication takes place.</span></span> <span data-ttu-id="405c8-108">您在此步驟中建立和設定的 3 個連接埠會執行下列角色：</span><span class="sxs-lookup"><span data-stu-id="405c8-108">The three ports you create and configure in this step fulfill the following roles:</span></span>  
+ <span data-ttu-id="405c8-106">**用途：** 連接埠指定您的協調流程的傳送訊息及接收來自其他商務程序的訊息。</span><span class="sxs-lookup"><span data-stu-id="405c8-106">**Purpose:** Ports specify how your orchestration will send messages to and receive messages from other business processes.</span></span> <span data-ttu-id="405c8-107">每個連接埠都具有類型、方向和繫結，由這些決定通訊的方向、通訊的模式、傳送和接受訊息的位置，以及通訊進行的方式。</span><span class="sxs-lookup"><span data-stu-id="405c8-107">Each port has a type, a direction, and a binding, which together determine the direction of communication, the pattern of communication, the location to or from which the message is sent or received, and how the communication takes place.</span></span> <span data-ttu-id="405c8-108">您在此步驟中建立和設定的 3 個連接埠會執行下列角色：</span><span class="sxs-lookup"><span data-stu-id="405c8-108">The three ports you create and configure in this step fulfill the following roles:</span></span>  
   
 -   <span data-ttu-id="405c8-109">**ReceiveRequestPort**接收倉儲的庫存補充要求訊息。</span><span class="sxs-lookup"><span data-stu-id="405c8-109">**ReceiveRequestPort** receives inventory replenishment request messages from the warehouse.</span></span>  
   

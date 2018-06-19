@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269406"
 ---
 # <a name="services-moduleref-node"></a><span data-ttu-id="a725a-102">服務 (ModuleRef 節點)</span><span class="sxs-lookup"><span data-stu-id="a725a-102">Services (ModuleRef Node)</span></span>
 <span data-ttu-id="a725a-103">繫結檔案的 [服務] 節點包含隨著繫結檔案匯出之每項服務的特定資訊。</span><span class="sxs-lookup"><span data-stu-id="a725a-103">The Services node of a binding file contains specific information about each service that is exported with the binding file.</span></span>  

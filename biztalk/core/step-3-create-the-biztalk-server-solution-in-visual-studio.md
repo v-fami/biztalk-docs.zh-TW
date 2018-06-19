@@ -1,14 +1,14 @@
 ---
-title: "步驟 3： 建立 Visual Studio 中的 BizTalk Server 解決方案 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3： 建立 Visual Studio 中的 BizTalk Server 解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a4da3333-e430-4caf-bc29-44a60ebac385
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278014"
 ---
 # <a name="step-3-create-the-biztalk-server-solution-in-visual-studio"></a><span data-ttu-id="18815-102">步驟 3： 建立 Visual Studio 中的 BizTalk Server 解決方案</span><span class="sxs-lookup"><span data-stu-id="18815-102">Step 3: Create the BizTalk Server Solution in Visual Studio</span></span>
 <span data-ttu-id="18815-103">在本節中，我們查看建立[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]用於接收來自 Salesforce 的商機通知、 查詢 Salesforce 以取得更多有關機會，以及最後將該資訊插入在內部部署 SQL 方案伺服器資料庫。</span><span class="sxs-lookup"><span data-stu-id="18815-103">In this section, we look at creating the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solution for receiving opportunity notifications from Salesforce, querying Salesforce to get additional information about the opportunity, and finally inserting that information into an on-premise SQL Server database.</span></span> <span data-ttu-id="18815-104">本節會進一步分類根據每一個更廣泛的步驟。</span><span class="sxs-lookup"><span data-stu-id="18815-104">This section is further categorized according to each of these broader steps.</span></span>  

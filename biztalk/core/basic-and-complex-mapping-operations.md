@@ -1,14 +1,14 @@
 ---
-title: "基本和複雜對應作業 |Microsoft 文件"
-ms.custom: 
+title: 基本和複雜對應作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: da864b48-6255-4847-9a6f-13e489e8658d
-caps.latest.revision: 
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710309"
 ---
 # <a name="basic-and-complex-mapping-operations"></a><span data-ttu-id="a9a57-102">基本和複雜對應作業</span><span class="sxs-lookup"><span data-stu-id="a9a57-102">Basic and Complex Mapping Operations</span></span>
 <span data-ttu-id="a9a57-103">BizTalk 對應工具提供各種對應實例的解決方案，範圍從簡單父-子樹狀結構類型作業到涉及迴圈記錄和階層的詳細複雜作業。</span><span class="sxs-lookup"><span data-stu-id="a9a57-103">BizTalk Mapper provides solutions for a variety of mapping scenarios ranging from simple parent-child tree-type operations to detailed, complex operations involving looping records and hierarchies.</span></span> <span data-ttu-id="a9a57-104">對應實例的複雜度是根據您的喜好設定和商務需求；XML 結構描述定義 (XSD) 語言提供相當大的彈性讓您定義結構格式。</span><span class="sxs-lookup"><span data-stu-id="a9a57-104">The complexity of a mapping scenario depends on your preferences and business needs—XML Schema definition (XSD) language gives you considerable flexibility in defining structured formats.</span></span> <span data-ttu-id="a9a57-105">幾乎所有對應實例都可分為兩種類別：基本對應和複雜對應。</span><span class="sxs-lookup"><span data-stu-id="a9a57-105">Almost all mapping scenarios fall into one of two categories: basic mapping and complex mapping.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "移轉一般檔案記錄 |Microsoft 文件"
-ms.custom: 
+title: 移轉一般檔案記錄 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 75cd5fbc-66c1-4c8b-b81a-1d028e9647b4
-caps.latest.revision: 
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710817"
 ---
 # <a name="migrate-flat-file-records"></a><span data-ttu-id="289c6-102">移轉一般檔案記錄</span><span class="sxs-lookup"><span data-stu-id="289c6-102">Migrate Flat File Records</span></span>
 

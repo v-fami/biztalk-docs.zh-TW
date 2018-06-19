@@ -1,14 +1,14 @@
 ---
-title: "BizTalk Server 2010 效能最佳化指南 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Server 2010 效能最佳化指南 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9a56b27f-3e57-47db-a776-520f2d67d65e
-caps.latest.revision: "31"
+caps.latest.revision: 31
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010727"
 ---
 # <a name="biztalk-server-2010-performance-optimization-guide"></a><span data-ttu-id="6b5b0-102">BizTalk Server 2010 效能最佳化指南</span><span class="sxs-lookup"><span data-stu-id="6b5b0-102">BizTalk Server 2010 Performance Optimization Guide</span></span>
 <span data-ttu-id="6b5b0-103">歡迎使用 Microsoft® BizTalk® Server 2010 效能最佳化指南。</span><span class="sxs-lookup"><span data-stu-id="6b5b0-103">Welcome to the Microsoft® BizTalk® Server 2010 Performance Optimization Guide.</span></span> <span data-ttu-id="6b5b0-104">我們建立了本指南提供的最佳化 BizTalk Server 解決方案的效能的深入資訊。</span><span class="sxs-lookup"><span data-stu-id="6b5b0-104">We created this guide to provide in-depth information for optimizing the performance of a BizTalk Server solution.</span></span> <span data-ttu-id="6b5b0-105">企業應用程式部署期間經常忽略完整端對端效能測試。</span><span class="sxs-lookup"><span data-stu-id="6b5b0-105">Full end-to-end performance testing is frequently overlooked during enterprise application deployment.</span></span> <span data-ttu-id="6b5b0-106">了解 Microsoft 已建置可擴充的傳訊基礎結構，使用 BizTalk Server 的許多組織縮短對幾乎不執行效能測試的自己的應用程式的時間。</span><span class="sxs-lookup"><span data-stu-id="6b5b0-106">Knowing that Microsoft has built a scalable messaging infrastructure, many organizations that use BizTalk Server spend little or no time conducting performance testing of their own applications.</span></span> <span data-ttu-id="6b5b0-107">BizTalk Server 應用程式含有許多部分，其中可能包含自訂元件，以及 Microsoft 所提供。</span><span class="sxs-lookup"><span data-stu-id="6b5b0-107">BizTalk Server applications consist of many parts, which may include custom-built components as well as those provided by Microsoft.</span></span> <span data-ttu-id="6b5b0-108">Microsoft 在效能測試所有可能組合，這些元件，所以不可能。</span><span class="sxs-lookup"><span data-stu-id="6b5b0-108">It is impossible for Microsoft to performance test every possible combination of these components.</span></span> <span data-ttu-id="6b5b0-109">因此，完整及正確執行程式的效能測試是應用的任何部署的重要步驟。</span><span class="sxs-lookup"><span data-stu-id="6b5b0-109">Therefore, fully and properly conducting a performance test of your application is a critical step of any deployment.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "疑難排解 BAM |Microsoft 文件"
-ms.custom: 
+title: 疑難排解 BAM |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e63299a8-5c74-4337-ba20-3213e0c6ea1f
-caps.latest.revision: 
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710253"
 ---
 # <a name="troubleshooting-bam"></a><span data-ttu-id="9c186-102">疑難排解 BAM</span><span class="sxs-lookup"><span data-stu-id="9c186-102">Troubleshooting BAM</span></span>
 <span data-ttu-id="9c186-103">本主題提供使用商務活動監控 (BAM) 時，可能會遇到的資訊可協助您疑難排解問題。</span><span class="sxs-lookup"><span data-stu-id="9c186-103">This topic provides information to help you troubleshoot problems you might encounter when using Business Activity Monitoring (BAM).</span></span>  
@@ -67,7 +68,7 @@ ms.lasthandoff: 02/28/2018
   
 2.  <span data-ttu-id="9c186-130">在 **使用者帳戶控制** 對話方塊中，按一下  **繼續**。</span><span class="sxs-lookup"><span data-stu-id="9c186-130">In the **User Account Control** dialog box, click **Continue**.</span></span>  
   
-3.  <span data-ttu-id="9c186-131">在 Internet Explorer 網址列中，輸入`http://<server>/BAM`，其中*\<伺服器\>*執行 BAM 入口網站之電腦的名稱。</span><span class="sxs-lookup"><span data-stu-id="9c186-131">In the Internet Explorer address bar, type `http://<server>/BAM`, where *\<server\>* is the name of the computer that is running the BAM portal.</span></span>  
+3.  <span data-ttu-id="9c186-131">在 Internet Explorer 網址列中，輸入`http://<server>/BAM`，其中*\<伺服器\>* 執行 BAM 入口網站之電腦的名稱。</span><span class="sxs-lookup"><span data-stu-id="9c186-131">In the Internet Explorer address bar, type `http://<server>/BAM`, where *\<server\>* is the name of the computer that is running the BAM portal.</span></span>  
   
 ## <a name="bam-portal-does-not-work-if-invalid-users-are-granted-permissions"></a><span data-ttu-id="9c186-132">無效的使用者權限，如果 BAM 入口網站無法運作</span><span class="sxs-lookup"><span data-stu-id="9c186-132">BAM portal does not work if invalid users are granted permissions</span></span>  
  <span data-ttu-id="9c186-133">如果從 AD 移除 AD 使用者擁有 BAM 檢視權限，則 BAM 入口網站未正確載入的任何使用者 （除了 DBO)。</span><span class="sxs-lookup"><span data-stu-id="9c186-133">If an AD user who has the BAM view permissions is removed from the AD, then the BAM portal does not load properly for any user (except DBO).</span></span>  

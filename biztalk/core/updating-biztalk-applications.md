@@ -1,11 +1,11 @@
 ---
-title: "更新 BizTalk 應用程式 |Microsoft 文件"
-ms.custom: 
+title: 更新 BizTalk 應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - code samples, versioning
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - versioning, code sample
 - assemblies, versioning
 ms.assetid: 5d316594-12c9-4fa8-8dab-58c2c285eec4
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286838"
 ---
 # <a name="updating-biztalk-applications"></a><span data-ttu-id="b9899-102">更新 BizTalk 應用程式</span><span class="sxs-lookup"><span data-stu-id="b9899-102">Updating BizTalk Applications</span></span>
 <span data-ttu-id="b9899-103">本節中的主題提供如何在將 BizTalk 應用程式部署至實際執行環境後更新這些應用程式的指示。</span><span class="sxs-lookup"><span data-stu-id="b9899-103">The topics in this section provide instructions on updating BizTalk applications after they have been deployed into a production environment.</span></span> <span data-ttu-id="b9899-104">如需更新應用程式的相關工作的清單，請參閱[檢查清單： 更新 BizTalk 應用程式中的成品](../core/checklist-update-the-artifacts-in-a-biztalk-application.md)。</span><span class="sxs-lookup"><span data-stu-id="b9899-104">For a list of tasks involved in updating an application, see [Checklist: Update the Artifacts in a BizTalk Application](../core/checklist-update-the-artifacts-in-a-biztalk-application.md).</span></span>  

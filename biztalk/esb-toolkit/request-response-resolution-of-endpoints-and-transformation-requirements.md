@@ -1,14 +1,14 @@
 ---
-title: "要求-回應的解析度，端點並轉換需求 |Microsoft 文件"
-ms.custom: 
+title: 要求-回應的解析度，端點並轉換需求 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1a1bfdae-2651-402c-b164-16db663aaa95
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294566"
 ---
 # <a name="request-response-resolution-of-endpoints-and-transformation-requirements"></a><span data-ttu-id="0e943-102">要求-回應的端點和轉換需求的解決方式</span><span class="sxs-lookup"><span data-stu-id="0e943-102">Request-Response Resolution of Endpoints and Transformation Requirements</span></span>
 <span data-ttu-id="0e943-103">在此使用情況下，用戶端應用程式會提交要求訊息至上手，並接收回應。</span><span class="sxs-lookup"><span data-stu-id="0e943-103">In this use case, a client application submits a request message to an on-ramp and receives a response.</span></span> <span data-ttu-id="0e943-104">[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]做為用戶端和目標服務端點之間的暫留處理器，並使用 ESB 解析器和配接器架構，執行動態訊息轉換和路由符合上手組態，如圖所示1。</span><span class="sxs-lookup"><span data-stu-id="0e943-104">The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] acts as mediator between the client and the target service endpoint and uses the ESB Resolver and Adapter Framework to perform the dynamic message transformation and routing in accordance with the on-ramp configuration, as illustrated in Figure 1.</span></span>  

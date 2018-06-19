@@ -1,14 +1,14 @@
 ---
-title: "工作 5： 設定轉換 Shape1 |Microsoft 文件"
-ms.custom: 
+title: 工作 5： 設定轉換 Shape1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 93a73fd2-0f34-4681-8aed-7d54d69c86d3
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278742"
 ---
 # <a name="task-5-configure-the-transform-shape"></a><span data-ttu-id="39d60-102">工作 5： 設定轉換圖形</span><span class="sxs-lookup"><span data-stu-id="39d60-102">Task 5: Configure the Transform Shape</span></span>
 <span data-ttu-id="39d60-103">請使用下列程序設定「轉換」圖形。</span><span class="sxs-lookup"><span data-stu-id="39d60-103">Use the following procedure to configure the Transform shape.</span></span>  
@@ -37,7 +38,7 @@ ms.lasthandoff: 09/20/2017
   
      <span data-ttu-id="39d60-110">針對您的工作環境，您可能會傳送文件 (而非 BeginDoc)，其中包含可讓您建構所有可能訊息、BeginDoc、EditLine 和 EndDoc 的所有值。</span><span class="sxs-lookup"><span data-stu-id="39d60-110">For your work environment you would send a document (instead of BeginDoc) with all values possible allowing you to construct all possible messages, BeginDoc, EditLine, and EndDoc.</span></span> <span data-ttu-id="39d60-111">不過，此範例只有硬式編碼資料。</span><span class="sxs-lookup"><span data-stu-id="39d60-111">For this example, however, there is only hard coded data.</span></span>  
   
-2.  <span data-ttu-id="39d60-112">按兩下**[transform_1]**開啟。</span><span class="sxs-lookup"><span data-stu-id="39d60-112">Double-click **Transform_1** to open.</span></span>  
+2.  <span data-ttu-id="39d60-112">按兩下 **[transform_1]** 開啟。</span><span class="sxs-lookup"><span data-stu-id="39d60-112">Double-click **Transform_1** to open.</span></span>  
   
     1.  <span data-ttu-id="39d60-113">選取來源，在 加入資料列中按一下**變數名稱**選取**begindocresponsemsg**。</span><span class="sxs-lookup"><span data-stu-id="39d60-113">Select Source and click in the Add row under **Variable Name** and select **BeginDocResponseMsg**.</span></span>  
   
@@ -47,7 +48,7 @@ ms.lasthandoff: 09/20/2017
   
          ![](../core/media/jde-transform-destination.gif "JDE_transform_destination")  
   
-3.  <span data-ttu-id="39d60-115">在 [方案總管] 中，按兩下**[transform_1.btm]**開啟對應工具。</span><span class="sxs-lookup"><span data-stu-id="39d60-115">In the Solution Explorer, double-click **Transform_1.btm** to open the mapping tool.</span></span> <span data-ttu-id="39d60-116">連結下列四個項目：</span><span class="sxs-lookup"><span data-stu-id="39d60-116">Link the following four items:</span></span>  
+3.  <span data-ttu-id="39d60-115">在 [方案總管] 中，按兩下 **[transform_1.btm]** 開啟對應工具。</span><span class="sxs-lookup"><span data-stu-id="39d60-115">In the Solution Explorer, double-click **Transform_1.btm** to open the mapping tool.</span></span> <span data-ttu-id="39d60-116">連結下列四個項目：</span><span class="sxs-lookup"><span data-stu-id="39d60-116">Link the following four items:</span></span>  
   
     -   <span data-ttu-id="39d60-117">mnCMJobNo</span><span class="sxs-lookup"><span data-stu-id="39d60-117">mnCMJobNo</span></span>  
   
@@ -87,13 +88,13 @@ ms.lasthandoff: 09/20/2017
   
      <span data-ttu-id="39d60-126">以滑鼠右鍵按一下中央並選取**插入圖形**，然後選取**轉換**。</span><span class="sxs-lookup"><span data-stu-id="39d60-126">Right-click in the middle and select **Insert Shape**, and then select **Transform**.</span></span>  
   
-5.  <span data-ttu-id="39d60-127">按兩下**[transform_2]**開啟。</span><span class="sxs-lookup"><span data-stu-id="39d60-127">Double-click **Transform_2** to open.</span></span>  
+5.  <span data-ttu-id="39d60-127">按兩下 **[transform_2]** 開啟。</span><span class="sxs-lookup"><span data-stu-id="39d60-127">Double-click **Transform_2** to open.</span></span>  
   
     1.  <span data-ttu-id="39d60-128">選取**來源**按一下底下的 加入資料列中的 **變數名稱**選取**begindocresponsemsg**。</span><span class="sxs-lookup"><span data-stu-id="39d60-128">Select **Source** and click in the Add row under **Variable Name** and select **BeginDocResponseMsg**.</span></span>  
   
     2.  <span data-ttu-id="39d60-129">選取**目的地**按一下底下的 加入資料列中的 **變數名稱**，選取**EndDocMsg**，按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="39d60-129">Select **Destination** and click in the Add row under **Variable Name**, select **EndDocMsg**, and click **OK**.</span></span>  
   
-6.  <span data-ttu-id="39d60-130">在 [方案總管] 中，按兩下**[transform_2.btm]**開啟對應工具。</span><span class="sxs-lookup"><span data-stu-id="39d60-130">In the Solution Explorer, double-click **Transform_2.btm** to open the mapping tool.</span></span> <span data-ttu-id="39d60-131">連結下列四個項目：</span><span class="sxs-lookup"><span data-stu-id="39d60-131">Link the following four items:</span></span>  
+6.  <span data-ttu-id="39d60-130">在 [方案總管] 中，按兩下 **[transform_2.btm]** 開啟對應工具。</span><span class="sxs-lookup"><span data-stu-id="39d60-130">In the Solution Explorer, double-click **Transform_2.btm** to open the mapping tool.</span></span> <span data-ttu-id="39d60-131">連結下列四個項目：</span><span class="sxs-lookup"><span data-stu-id="39d60-131">Link the following four items:</span></span>  
   
     -   <span data-ttu-id="39d60-132">mnCMJobNo</span><span class="sxs-lookup"><span data-stu-id="39d60-132">mnCMJobNo</span></span>  
   

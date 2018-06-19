@@ -1,14 +1,14 @@
 ---
-title: "分割批次的交換 |Microsoft 文件"
-ms.custom: 
+title: 分割批次的交換 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e67bef19-77fb-47a9-88f3-ee20043b3691
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278942"
 ---
 # <a name="splitting-a-batched-interchange"></a><span data-ttu-id="ed966-102">分割批次交換</span><span class="sxs-lookup"><span data-stu-id="ed966-102">Splitting a Batched Interchange</span></span>
 <span data-ttu-id="ed966-103">本主題會說明如何藉由分割交換中的交易集，來設定處理批次 EDI 交換的協議。</span><span class="sxs-lookup"><span data-stu-id="ed966-103">This topic describes how to configure an agreement for processing a batched EDI interchange by splitting the transaction sets from the interchange.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "多個 Web 服務範例運作的方式 |Microsoft 文件"
-ms.custom: 
+title: 多個 Web 服務範例運作的方式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 16680ca7-16cc-47df-8c39-a3311d468a46
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294158"
 ---
 # <a name="how-the-multiple-web-services-sample-works"></a><span data-ttu-id="1d3df-102">多個 Web 服務範例運作的方式</span><span class="sxs-lookup"><span data-stu-id="1d3df-102">How the Multiple Web Services Sample Works</span></span>
 <span data-ttu-id="1d3df-103">多個 Web 服務範例會使用兩種不同技術來呼叫序列中的多個 Web 服務，同時仍然能夠正確的結果傳回給原始呼叫端。</span><span class="sxs-lookup"><span data-stu-id="1d3df-103">The Multiple Web Services sample uses two separate techniques to call multiple Web services in serial while still being able to return a proper result to the original caller.</span></span> <span data-ttu-id="1d3df-104">一種方法會在回應管線中，使用自訂管線元件和其他方法使用自訂雙向路由協調流程為基礎路線服務會略過匝道引動過程完成 Web 要求/回應呼叫的需求服務。</span><span class="sxs-lookup"><span data-stu-id="1d3df-104">One method uses a custom pipeline component in the response pipeline, and the other method uses a custom two-way routing orchestration-based itinerary service that bypasses the requirement of an off-ramp invocation to complete a request/response call to a Web service.</span></span>  

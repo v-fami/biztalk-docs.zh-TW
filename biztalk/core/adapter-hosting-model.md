@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22225166"
 ---
 # <a name="adapter-hosting-model"></a><span data-ttu-id="00ba7-102">配接器裝載模型</span><span class="sxs-lookup"><span data-stu-id="00ba7-102">Adapter Hosting Model</span></span>
 <span data-ttu-id="00ba7-103">BizTalk 配接器通常裝載 BizTalk 服務 Btsntsvc.exe 中。</span><span class="sxs-lookup"><span data-stu-id="00ba7-103">In general BizTalk adapters are hosted in the BizTalk service, Btsntsvc.exe.</span></span> <span data-ttu-id="00ba7-104">這表示[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理配接器的存留期間。</span><span class="sxs-lookup"><span data-stu-id="00ba7-104">This means that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] manages the lifetime of the adapter.</span></span> <span data-ttu-id="00ba7-105">不過也有某些情況 (說明如下) 是由其他處理序負責管理配接器。</span><span class="sxs-lookup"><span data-stu-id="00ba7-105">There are also situations, described below, where other processes manage the adapter.</span></span>  

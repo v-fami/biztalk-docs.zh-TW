@@ -1,14 +1,14 @@
 ---
-title: "AS2 方案架構 |Microsoft 文件"
-ms.custom: 
+title: AS2 方案架構 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 41e493ba-919b-4520-9c12-92d6757984ef
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230046"
 ---
 # <a name="as2-solution-architecture"></a><span data-ttu-id="3abb3-102">AS2 方案架構</span><span class="sxs-lookup"><span data-stu-id="3abb3-102">AS2 Solution Architecture</span></span>
 <span data-ttu-id="3abb3-103">AS2 處理與 EDI 處理是分開的。</span><span class="sxs-lookup"><span data-stu-id="3abb3-103">AS2 processing is performed separately from EDI processing.</span></span> <span data-ttu-id="3abb3-104">AS2 訊息的接收、處理和通知傳送，都是與 EDI 內容的處理分開。</span><span class="sxs-lookup"><span data-stu-id="3abb3-104">AS2 messages are received, processed, and an acknowledgment sent apart from the processing of the EDI payload.</span></span> <span data-ttu-id="3abb3-105">因此，AS2 處理的設計和設定都與 EDI 處理分開進行。</span><span class="sxs-lookup"><span data-stu-id="3abb3-105">As a result, AS2 processing is designed and configured apart from EDI processing.</span></span> <span data-ttu-id="3abb3-106">此外，您可以使用 AS2 傳輸 EDI 訊息或非 EDI 訊息。</span><span class="sxs-lookup"><span data-stu-id="3abb3-106">In addition, you can use AS2 to transport either EDI messages or non-EDI messages.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "BTARN 中的 SQL 處理 |Microsoft 文件"
-ms.custom: 
+title: BTARN 中的 SQL 處理 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - line-of-business applications (LOBs)
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - messages, message flow
 - BTARN, SQL processing
 ms.assetid: cfaf804f-3803-438e-a22e-50f487fe21c3
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005055"
 ---
 # <a name="sql-processing-in-btarn"></a><span data-ttu-id="38155-102">BTARN 中的 SQL 處理</span><span class="sxs-lookup"><span data-stu-id="38155-102">SQL Processing in BTARN</span></span>
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="38155-103">[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]使用 SQL 配接器的特定業務 (LOB) 應用程式將訊息路由傳送。</span><span class="sxs-lookup"><span data-stu-id="38155-103"> [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] uses a SQL adapter to route a message from the line-of-business (LOB) application.</span></span> <span data-ttu-id="38155-104">並使用 SQL 傳送埠將訊息傳送到 LOB 應用程式。</span><span class="sxs-lookup"><span data-stu-id="38155-104">It uses a SQL send port to route a message to the LOB application.</span></span>  

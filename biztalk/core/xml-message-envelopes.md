@@ -1,14 +1,14 @@
 ---
-title: "XML 訊息信封 |Microsoft 文件"
-ms.custom: 
+title: XML 訊息信封 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d01cd85d-7bf7-49fa-aa25-322213bce066
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290110"
 ---
 # <a name="xml-message-envelopes"></a><span data-ttu-id="54858-102">XML 訊息信封</span><span class="sxs-lookup"><span data-stu-id="54858-102">XML Message Envelopes</span></span>
 <span data-ttu-id="54858-103">XML 信封在 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 所傳送和接收的 XML 執行個體訊息中有兩個目的：</span><span class="sxs-lookup"><span data-stu-id="54858-103">XML envelopes serve two purposes within XML instance messages sent and received by Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]:</span></span>  

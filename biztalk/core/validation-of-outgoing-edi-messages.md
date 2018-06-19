@@ -1,14 +1,14 @@
 ---
-title: "驗證外寄 EDI 訊息 |Microsoft 文件"
-ms.custom: 
+title: 驗證外寄 EDI 訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 491303c0-b585-409e-a289-a2f6f9f82469
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287990"
 ---
 # <a name="validation-of-outgoing-edi-messages"></a><span data-ttu-id="f6fc0-102">驗證外寄 EDI 訊息</span><span class="sxs-lookup"><span data-stu-id="f6fc0-102">Validation of Outgoing EDI Messages</span></span>
 <span data-ttu-id="f6fc0-103">EDI 傳送管線處理外寄訊息時，會對信封和訊息資料執行一系列驗證。</span><span class="sxs-lookup"><span data-stu-id="f6fc0-103">When the EDI send pipeline processes a message to be sent, it performs a series of validations on the envelope and message data.</span></span> <span data-ttu-id="f6fc0-104">有些驗證處理是固定會執行的，而有些需經啟用才會執行。</span><span class="sxs-lookup"><span data-stu-id="f6fc0-104">Some of these processes are always performed; some are performed only if you enable them.</span></span> <span data-ttu-id="f6fc0-105">這些驗證包括下列項目：</span><span class="sxs-lookup"><span data-stu-id="f6fc0-105">These validations include the following:</span></span>  

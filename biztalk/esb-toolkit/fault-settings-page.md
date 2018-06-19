@@ -1,14 +1,14 @@
 ---
-title: "設定 頁面上會發生錯誤 |Microsoft 文件"
-ms.custom: 
+title: 設定 頁面上會發生錯誤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 67f10b8b-9a32-40ca-9ce4-0b69e159c36c
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294142"
 ---
 # <a name="fault-settings-page"></a><span data-ttu-id="f3b99-102">[錯誤設定] 頁面</span><span class="sxs-lookup"><span data-stu-id="f3b99-102">Fault Settings Page</span></span>
 <span data-ttu-id="f3b99-103">圖 1 顯示 [錯誤設定] 頁面。</span><span class="sxs-lookup"><span data-stu-id="f3b99-103">Figure 1 shows the Fault Settings page.</span></span> <span data-ttu-id="f3b99-104">此頁面會顯示一系列的系統管理設定，您可以進行修改。</span><span class="sxs-lookup"><span data-stu-id="f3b99-104">This page displays a range of administrative settings that you can modify.</span></span>  

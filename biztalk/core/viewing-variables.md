@@ -1,14 +1,14 @@
 ---
-title: "檢視變數 |Microsoft 文件"
-ms.custom: 
+title: 檢視變數 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3a563f98-aa77-4dd8-9516-89cbcf1f40ef
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287726"
 ---
 # <a name="viewing-variables"></a><span data-ttu-id="8e343-102">檢視變數</span><span class="sxs-lookup"><span data-stu-id="8e343-102">Viewing Variables</span></span>
 <span data-ttu-id="8e343-103">您可以使用兩種模式來檢視變數：</span><span class="sxs-lookup"><span data-stu-id="8e343-103">You can view variables in two modes:</span></span>  

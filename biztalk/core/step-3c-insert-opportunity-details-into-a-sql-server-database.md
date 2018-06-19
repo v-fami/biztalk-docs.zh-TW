@@ -1,14 +1,14 @@
 ---
-title: "步驟 3c： 機會詳細資料插入 SQL Server 資料庫 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3c： 機會詳細資料插入 SQL Server 資料庫 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3f6f9bbe-6f25-4393-8f92-aeeba9736acf
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22280086"
 ---
 # <a name="step-3c-insert-opportunity-details-into-a-sql-server-database"></a><span data-ttu-id="db37a-102">步驟 3c： 機會詳細資料插入 SQL Server 資料庫</span><span class="sxs-lookup"><span data-stu-id="db37a-102">Step 3c: Insert Opportunity Details into a SQL Server Database</span></span>
 <span data-ttu-id="db37a-103">現在我們已經建立的協調流程以傳送查詢到 Salesforce 並接收回應。</span><span class="sxs-lookup"><span data-stu-id="db37a-103">By now we have built the orchestration to send a query to Salesforce and receive a response.</span></span> <span data-ttu-id="db37a-104">在本節中，我們會將更新該協調流程以回應插入至 Salesforce **OrderDetails**在內部部署 SQL Server 資料庫中的資料表**訂單**。</span><span class="sxs-lookup"><span data-stu-id="db37a-104">In this section, we’ll update that orchestration to insert the response from Salesforce into an **OrderDetails** table in an on-premise SQL Server database, **Orders**.</span></span> <span data-ttu-id="db37a-105">若要達成此目的，我們會執行下列一組廣泛的步驟：</span><span class="sxs-lookup"><span data-stu-id="db37a-105">To achieve this, we’ll perform the following broad set of steps:</span></span>  

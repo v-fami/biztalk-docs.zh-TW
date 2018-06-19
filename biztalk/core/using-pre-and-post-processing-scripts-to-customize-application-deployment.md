@@ -1,11 +1,11 @@
 ---
-title: "使用前置和後置處理指令碼自訂應用程式部署 |Microsoft 文件"
-ms.custom: 
+title: 使用前置和後置處理指令碼自訂應用程式部署 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - customizing, applications
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - scripts, applications
 - scripts, customizing
 ms.assetid: 47627394-d594-491b-9098-38c5d028a378
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287166"
 ---
 # <a name="using-pre--and-post-processing-scripts-to-customize-application-deployment"></a><span data-ttu-id="364e7-102">使用前置和後置處理指令碼自訂應用程式部署</span><span class="sxs-lookup"><span data-stu-id="364e7-102">Using Pre- and Post-processing Scripts to Customize Application Deployment</span></span>
 <span data-ttu-id="364e7-103">本節中的主題描述如何建立前置或後置處理指令碼，以便在匯入、安裝或解除安裝應用程式時執行動作。</span><span class="sxs-lookup"><span data-stu-id="364e7-103">The topics in this section describe how to create pre- or post-processing scripts to perform actions when an application is imported, installed, or uninstalled.</span></span> <span data-ttu-id="364e7-104">前置處理指令碼會在應用程式匯入或安裝開始前，以及在解除安裝完成後，執行一項動作或一組動作。</span><span class="sxs-lookup"><span data-stu-id="364e7-104">Pre-processing scripts perform an action or set of actions before application import or installation starts, and after uninstallation completes.</span></span> <span data-ttu-id="364e7-105">後置處理指令碼會在應用程式匯入或安裝完成後，或在解除安裝開始前，執行一項動作或一組動作。</span><span class="sxs-lookup"><span data-stu-id="364e7-105">Post-processing scripts perform an action or set of actions after application import or installation completes, or before uninstallation starts.</span></span>  

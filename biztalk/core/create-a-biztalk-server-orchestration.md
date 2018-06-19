@@ -1,14 +1,14 @@
 ---
-title: "建立 BizTalk Server 協調流程 |Microsoft 文件"
-ms.custom: 
+title: 建立 BizTalk Server 協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 16c637ae-f94f-40f8-8ce7-73a7b7df9f8f
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008978"
 ---
 # <a name="create-a-biztalk-server-orchestration"></a><span data-ttu-id="a7a34-102">建立 BizTalk Server 協調流程</span><span class="sxs-lookup"><span data-stu-id="a7a34-102">Create a BizTalk Server orchestration</span></span>
 > [!NOTE]

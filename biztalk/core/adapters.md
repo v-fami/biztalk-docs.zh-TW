@@ -1,11 +1,11 @@
 ---
-title: "配接器 |Microsoft 文件"
-ms.custom: 
+title: 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapters, receive adapters
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - receive adapters
 - adapters, send adapters
 ms.assetid: 7803a806-3396-4662-877f-eae11cb5e3e4
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230094"
 ---
 # <a name="adapters"></a><span data-ttu-id="f3288-102">配接器</span><span class="sxs-lookup"><span data-stu-id="f3288-102">Adapters</span></span>
 <span data-ttu-id="f3288-103">Microsoft BizTalk Server 使用配接器的概念與外部系統、應用程式和實體交換訊息。</span><span class="sxs-lookup"><span data-stu-id="f3288-103">To exchange messages with external systems, applications, and entities Microsoft BizTalk Server uses the concept of an adapter.</span></span> <span data-ttu-id="f3288-104">*配接器*都是 COM 或。傳輸訊息與商務端點 （例如檔案系統、 資料庫和自訂商務應用程式） 以網路為基礎的元件使用各種通訊協定。</span><span class="sxs-lookup"><span data-stu-id="f3288-104">*Adapters* are COM or .NET-based components that transfer messages to and from business endpoints (such as file systems, databases, and custom business applications) using various communication protocols.</span></span>  

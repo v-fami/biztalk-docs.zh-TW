@@ -1,14 +1,14 @@
 ---
-title: "步驟 4： 建置 EAIOrchestration 專案 |Microsoft 文件"
-ms.custom: 
+title: 步驟 4： 建置 EAIOrchestration 專案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 66e4b161-c5ac-404c-9ee5-4c0322fc40f3
-caps.latest.revision: "34"
+caps.latest.revision: 34
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,13 +17,14 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22276670"
 ---
 # <a name="step-4-build-the-eaiorchestration-project"></a><span data-ttu-id="fbc5e-102">步驟 4：建置 EAIOrchestration 專案</span><span class="sxs-lookup"><span data-stu-id="fbc5e-102">Step 4: Build the EAIOrchestration Project</span></span>
 <span data-ttu-id="fbc5e-103">![步驟 4 之 4](../adapters-and-accelerators/adapter-oracle-ebs/media/step-4of4.gif "Step_4of4")</span><span class="sxs-lookup"><span data-stu-id="fbc5e-103">![Step 4 of 4](../adapters-and-accelerators/adapter-oracle-ebs/media/step-4of4.gif "Step_4of4")</span></span>  
   
  <span data-ttu-id="fbc5e-104">**若要完成的時間：** 5 分鐘</span><span class="sxs-lookup"><span data-stu-id="fbc5e-104">**Time to complete:** 5 minutes</span></span>  
   
- <span data-ttu-id="fbc5e-105">**目標：**在此步驟中，您將 EAIOrchestration 專案編譯成組件。</span><span class="sxs-lookup"><span data-stu-id="fbc5e-105">**Objective:** In this step, you compile the EAIOrchestration project into an assembly.</span></span>  
+ <span data-ttu-id="fbc5e-105">**目標：** 在此步驟中，您將 EAIOrchestration 專案編譯成組件。</span><span class="sxs-lookup"><span data-stu-id="fbc5e-105">**Objective:** In this step, you compile the EAIOrchestration project into an assembly.</span></span>  
   
  <span data-ttu-id="fbc5e-106">**用途：** BizTalk Server 需要的所有成品編譯到.NET 組件。</span><span class="sxs-lookup"><span data-stu-id="fbc5e-106">**Purpose:** BizTalk Server requires all the artifacts to be compiled into .NET assemblies.</span></span>  
   

@@ -1,14 +1,14 @@
 ---
-title: "行程為基礎的路由 |Microsoft 文件"
-ms.custom: 
+title: 行程為基礎的路由 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 28028721-798c-4302-a532-d863ed8ea88b
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294510"
 ---
 # <a name="itinerary-based-routing"></a><span data-ttu-id="df18c-102">行程為基礎的路由</span><span class="sxs-lookup"><span data-stu-id="df18c-102">Itinerary-Based Routing</span></span>
 <span data-ttu-id="df18c-103">其中一個核心功能的[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]是佈建的行程為基礎的路由，簡化了企業層級的訊息應用程式開發並降低成本的維護大量的靜態傳送埠和接收位置。</span><span class="sxs-lookup"><span data-stu-id="df18c-103">One of the core features of the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] is the provision of itinerary-based routing that simplifies the development of enterprise-level messaging applications and reduces the costs of maintaining a large number of static send ports and receive locations.</span></span>  

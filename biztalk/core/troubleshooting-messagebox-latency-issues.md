@@ -1,14 +1,14 @@
 ---
-title: "MessageBox 延遲問題疑難排解 |Microsoft 文件"
-ms.custom: 
+title: MessageBox 延遲問題疑難排解 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e9eb5789-80bd-40d4-8c27-7ae117fd9232
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279870"
 ---
 # <a name="troubleshooting-messagebox-latency-issues"></a><span data-ttu-id="32836-102">MessageBox 延遲問題疑難排解</span><span class="sxs-lookup"><span data-stu-id="32836-102">Troubleshooting MessageBox Latency Issues</span></span>
 <span data-ttu-id="32836-103">在理想的世界裡，所有的訊息都應該在發佈到 MessageBox 資料庫時就進行處理和傳遞，這樣 MessageBox 資料庫的大小永遠都不會過度膨脹。</span><span class="sxs-lookup"><span data-stu-id="32836-103">In a perfect world, all messages would be processed and delivered as soon as they were published to the MessageBox database and the MessageBox database would never grow to an excessive size.</span></span> <span data-ttu-id="32836-104">負責定期清除 MessageBox 資料庫資料表的 SQL 代理程式工作，會將 MessageBox 中不再受到參考的訊息立即移除。</span><span class="sxs-lookup"><span data-stu-id="32836-104">Any messages in the MessageBox that were no longer referenced would immediately be removed by the SQL agent jobs that periodically clean up the MessageBox database tables.</span></span>  

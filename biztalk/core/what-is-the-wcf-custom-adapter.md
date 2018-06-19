@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288894"
 ---
 # <a name="what-is-the-wcf-custom-adapter"></a><span data-ttu-id="b852e-103">何謂 WCF-Custom 配接器？</span><span class="sxs-lookup"><span data-stu-id="b852e-103">What Is the WCF-Custom Adapter?</span></span>
 <span data-ttu-id="b852e-104">WCF-Custom 配接器是用來啟用 BizTalk Server 中的 WCF 擴充性元件。</span><span class="sxs-lookup"><span data-stu-id="b852e-104">The WCF-Custom adapter is used to enable the use of WCF extensibility components in BizTalk Server.</span></span> <span data-ttu-id="b852e-105">此配接器可以發揮 WCF 架構的完整彈性。</span><span class="sxs-lookup"><span data-stu-id="b852e-105">The adapter enables complete flexibility of the WCF framework.</span></span> <span data-ttu-id="b852e-106">它可以讓使用者針對接收位置和傳送埠選取及設定 WCF 繫結，</span><span class="sxs-lookup"><span data-stu-id="b852e-106">It allows users to select and configure a WCF binding for the receive location and send port.</span></span> <span data-ttu-id="b852e-107">也能讓使用者設定結束點行為和安全性設定。</span><span class="sxs-lookup"><span data-stu-id="b852e-107">It also allows users to set the endpoint behaviors and security settings.</span></span>  

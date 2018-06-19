@@ -1,14 +1,14 @@
 ---
-title: "步驟 3： 建立拒絕要求結構描述 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3： 建立拒絕要求結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e1ce166c-1be1-4ef4-9d00-3da7038d4ada
-caps.latest.revision: "39"
+caps.latest.revision: 39
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,15 +17,16 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278550"
 ---
 # <a name="step-3-create-the-request-decline-schema"></a><span data-ttu-id="2a2ae-102">步驟 3：建立拒絕要求結構描述</span><span class="sxs-lookup"><span data-stu-id="2a2ae-102">Step 3: Create the Request Decline Schema</span></span>
 <span data-ttu-id="2a2ae-103">![步驟 5 的 3](../core/media/step-3of5.gif "Step_3of5")</span><span class="sxs-lookup"><span data-stu-id="2a2ae-103">![Step 3 of 5](../core/media/step-3of5.gif "Step_3of5")</span></span>  
   
  <span data-ttu-id="2a2ae-104">**若要完成的時間：** 7 分鐘</span><span class="sxs-lookup"><span data-stu-id="2a2ae-104">**Time to complete:** 7 minutes</span></span>  
   
- <span data-ttu-id="2a2ae-105">**目標：**在此步驟中，您會建立訊息的結構描述[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]傳送傳回倉儲的商務程序拒絕庫存補充要求的情況。</span><span class="sxs-lookup"><span data-stu-id="2a2ae-105">**Objective:** In this step, you create the schema for the message [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] sends back to the warehouse if the business process rejects the inventory replenishment request.</span></span>  
+ <span data-ttu-id="2a2ae-105">**目標：** 在此步驟中，您會建立訊息的結構描述[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]傳送傳回倉儲的商務程序拒絕庫存補充要求的情況。</span><span class="sxs-lookup"><span data-stu-id="2a2ae-105">**Objective:** In this step, you create the schema for the message [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] sends back to the warehouse if the business process rejects the inventory replenishment request.</span></span>  
   
- <span data-ttu-id="2a2ae-106">**用途：**結構描述會定義資料的要求拒絕訊息結構。</span><span class="sxs-lookup"><span data-stu-id="2a2ae-106">**Purpose:** The schema defines the data and the structure of the request decline message.</span></span> [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="2a2ae-107">使用結構描述來識別及訊息中的資料互動。</span><span class="sxs-lookup"><span data-stu-id="2a2ae-107"> uses the schema to identify and interact with the data in the message.</span></span>  
+ <span data-ttu-id="2a2ae-106">**用途：** 結構描述會定義資料的要求拒絕訊息結構。</span><span class="sxs-lookup"><span data-stu-id="2a2ae-106">**Purpose:** The schema defines the data and the structure of the request decline message.</span></span> [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="2a2ae-107">使用結構描述來識別及訊息中的資料互動。</span><span class="sxs-lookup"><span data-stu-id="2a2ae-107"> uses the schema to identify and interact with the data in the message.</span></span>  
   
 ## <a name="prerequisites"></a><span data-ttu-id="2a2ae-108">必要條件</span><span class="sxs-lookup"><span data-stu-id="2a2ae-108">Prerequisites</span></span>  
  <span data-ttu-id="2a2ae-109">開始此步驟之前，請注意下列需求：</span><span class="sxs-lookup"><span data-stu-id="2a2ae-109">Note the following requirements before you begin this step:</span></span>  

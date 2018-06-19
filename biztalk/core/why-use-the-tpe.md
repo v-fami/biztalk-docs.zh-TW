@@ -1,14 +1,14 @@
 ---
-title: "為什麼要使用 TPE？ | Microsoft Docs"
-ms.custom: 
+title: 為什麼要使用 TPE？ | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8a198e0a-517e-4254-ac2b-177f49ef0174
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289078"
 ---
 # <a name="why-use-the-tpe"></a><span data-ttu-id="162c0-103">為什麼要使用 TPE？</span><span class="sxs-lookup"><span data-stu-id="162c0-103">Why Use the TPE?</span></span>
 <span data-ttu-id="162c0-104">類似訂單處理、發票處理和庫存追蹤等商務程序是電子商務的基礎動作。</span><span class="sxs-lookup"><span data-stu-id="162c0-104">Business processes such as ordering, invoicing, and inventory tracking are the fundamental actions of e-commerce.</span></span> <span data-ttu-id="162c0-105">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 讓知識工作者能夠蒐集有關商務程序狀態的特定或彙總的即時資訊。</span><span class="sxs-lookup"><span data-stu-id="162c0-105">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] enables knowledge workers to gather specific or aggregated real-time information about the state of a business process.</span></span> <span data-ttu-id="162c0-106">例如，您可以查明為何某個特定的客戶訂單已經處理但卻未出貨，或是查明在過去 48 小時中，已經售出及出貨的產品單位數量。</span><span class="sxs-lookup"><span data-stu-id="162c0-106">For example, they can find out why a specific customer order was processed but not shipped, or how many units of a product were sold and shipped in the previous 48-hour period.</span></span>  

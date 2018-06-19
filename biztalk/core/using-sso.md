@@ -1,17 +1,17 @@
 ---
-title: "使用 SSO |Microsoft 文件"
-ms.custom: 
+title: 使用 SSO |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [SSO]
 - SSO, managing
 ms.assetid: e7245632-9c71-4b1f-836d-a4ea1dd6e5ee
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287814"
 ---
 # <a name="using-sso"></a><span data-ttu-id="8b01b-102">使用 SSO</span><span class="sxs-lookup"><span data-stu-id="8b01b-102">Using SSO</span></span>
 <span data-ttu-id="8b01b-103">您可以使用 MMC 嵌入式管理單元或是命令列管理公用程式 (ssomanage)，以管理 SSO 系統。</span><span class="sxs-lookup"><span data-stu-id="8b01b-103">You can use either the MMC Snap-in or the command line management utility (ssomanage) to manage the SSO system.</span></span> <span data-ttu-id="8b01b-104">這包括像是更新 SSO 資料庫、新增、刪除和管理應用程式以及管理使用者對應等活動。</span><span class="sxs-lookup"><span data-stu-id="8b01b-104">This includes activities such as updating the SSO database, adding, deleting, and managing applications, and administering user mappings.</span></span>  

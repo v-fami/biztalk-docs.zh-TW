@@ -1,14 +1,14 @@
 ---
-title: "協調流程凍結和解除凍結 |Microsoft 文件"
-ms.custom: 
+title: 協調流程凍結和解除凍結 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 57d7c0bf-a707-4ebd-afab-e75dd80c3c34
-caps.latest.revision: 
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710613"
 ---
 # <a name="orchestration-dehydration-and-rehydration"></a><span data-ttu-id="2f5bd-102">協調流程凍結和解除凍結</span><span class="sxs-lookup"><span data-stu-id="2f5bd-102">Orchestration Dehydration and Rehydration</span></span>
 <span data-ttu-id="2f5bd-103">當許多長時間執行的商務程序同時執行時，記憶體和效能是可能發生的問題。</span><span class="sxs-lookup"><span data-stu-id="2f5bd-103">When many long-running business processes are running at the same time, memory and performance are potential issues.</span></span> <span data-ttu-id="2f5bd-104">協調流程引擎透過「凍結」和「解除凍結」協調流程執行個體來解決這些問題。</span><span class="sxs-lookup"><span data-stu-id="2f5bd-104">The orchestration engine addresses these issues by "dehydrating" and "rehydrating" orchestration instances.</span></span>  

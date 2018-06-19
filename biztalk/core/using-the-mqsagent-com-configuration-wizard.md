@@ -23,6 +23,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010431"
 ---
 # <a name="using-the-mqsagent-com-configuration-wizard"></a><span data-ttu-id="29f4b-102">使用 MQSAgent COM + 組態精靈</span><span class="sxs-lookup"><span data-stu-id="29f4b-102">Using the MQSAgent COM+ Configuration Wizard</span></span>
 <span data-ttu-id="29f4b-103">[MQSAgent COM+ 組態精靈] 可以設定 MQSAgent、配接器的 COM+ 應用程式 (MQSeries 元件) 部分。</span><span class="sxs-lookup"><span data-stu-id="29f4b-103">The MQSAgent COM+ Configuration Wizard configures the MQSAgent, the COM+ application (MQSeries component) part of the adapter.</span></span> <span data-ttu-id="29f4b-104">精靈會設定元件的應用程式識別，以及角色中包含的角色名稱和使用者。</span><span class="sxs-lookup"><span data-stu-id="29f4b-104">The wizard sets the application identity of the component, and the role name and users included in the role.</span></span> <span data-ttu-id="29f4b-105">使用 MQSAgent COM + 組態精靈所建立的 MQSAgent COM + 元件的名稱是**MQSAgent2**。</span><span class="sxs-lookup"><span data-stu-id="29f4b-105">The name of the MQSAgent COM+ component created with the MQSAgent COM+ Configuration Wizard is **MQSAgent2**.</span></span>  
@@ -127,7 +128,7 @@ ms.lasthandoff: 12/01/2017
   
     -   <span data-ttu-id="29f4b-175">選取**MQSAgent2RunTime**下**請選取目的地**按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="29f4b-175">Select **MQSAgent2RunTime** under **Please select a destination** and click **OK**.</span></span>  
   
-    -   <span data-ttu-id="29f4b-176">重複這些步驟**[mqsagent2.mqsbroker.1]**和**[mqsagent2.mqsproxy.1]**元件。</span><span class="sxs-lookup"><span data-stu-id="29f4b-176">Repeat these steps for the **MQSAgent2.MQSBroker.1** and **MQSAgent2.MQSProxy.1** components.</span></span>  
+    -   <span data-ttu-id="29f4b-176">重複這些步驟 **[mqsagent2.mqsbroker.1]** 和 **[mqsagent2.mqsproxy.1]** 元件。</span><span class="sxs-lookup"><span data-stu-id="29f4b-176">Repeat these steps for the **MQSAgent2.MQSBroker.1** and **MQSAgent2.MQSProxy.1** components.</span></span>  
   
 ## <a name="see-also"></a><span data-ttu-id="29f4b-177">請參閱</span><span class="sxs-lookup"><span data-stu-id="29f4b-177">See Also</span></span>  
  <span data-ttu-id="29f4b-178">[如何設定 MQSeries 配接器傳送和接收處理常式](../core/how-to-configure-mqseries-adapter-send-and-receive-handlers.md) </span><span class="sxs-lookup"><span data-stu-id="29f4b-178">[How to Configure MQSeries Adapter Send and Receive Handlers](../core/how-to-configure-mqseries-adapter-send-and-receive-handlers.md) </span></span>  

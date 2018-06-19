@@ -1,14 +1,14 @@
 ---
-title: "X12 997 通知錯誤碼 |Microsoft 文件"
-ms.custom: 
+title: X12 997 通知錯誤碼 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9f73ca2c-cfff-444b-ae80-fb724f067fcc
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22291038"
 ---
 # <a name="x12-997-acknowledgment-error-codes"></a><span data-ttu-id="fab6d-102">X12 997 通知錯誤碼</span><span class="sxs-lookup"><span data-stu-id="fab6d-102">X12 997 Acknowledgment Error Codes</span></span>
 <span data-ttu-id="fab6d-103">本主題列出 X12 997 通知區段中所使用的錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="fab6d-103">This topic lists the error codes used within the segments of an X12 997 acknowledgment.</span></span> <span data-ttu-id="fab6d-104">如需有關這些區段的詳細資訊，請參閱[X12 997 通知](../core/x12-997-acknowledgment.md)。</span><span class="sxs-lookup"><span data-stu-id="fab6d-104">For more information about these segments, see [X12 997 Acknowledgment](../core/x12-997-acknowledgment.md).</span></span>  

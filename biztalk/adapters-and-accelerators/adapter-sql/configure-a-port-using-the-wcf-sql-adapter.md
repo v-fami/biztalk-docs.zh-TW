@@ -1,15 +1,15 @@
 ---
-title: "設定連接埠使用 WCF-SQL 配接器在 BizTalk |Microsoft 文件"
-description: "建立 WCF SQL 傳送和接收 BizTalk Server 中使用 SQL Server 配接器的連接埠"
-ms.custom: 
+title: 設定連接埠使用 WCF-SQL 配接器在 BizTalk |Microsoft 文件
+description: 建立 WCF SQL 傳送和接收 BizTalk Server 中使用 SQL Server 配接器的連接埠
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f8cdc032-3160-43de-9510-7ca69506083e
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226406"
 ---
 # <a name="configure-a-port-using-the-wcf-sql-adapter"></a><span data-ttu-id="18270-103">設定使用 WCF-SQL 配接器的連接埠</span><span class="sxs-lookup"><span data-stu-id="18270-103">Configure a port using the WCF-SQL adapter</span></span>
 <span data-ttu-id="18270-104">本主題提供有關如何設定 WCF SQL 傳送和接收連接埠，以執行 SQL Server 使用的傳出和傳入作業[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="18270-104">This topic provides instructions on how to configure WCF-SQL send and receive ports to perform outbound and inbound operations on SQL Server using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].</span></span>  

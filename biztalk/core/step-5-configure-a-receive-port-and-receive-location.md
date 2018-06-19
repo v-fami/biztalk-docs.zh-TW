@@ -1,14 +1,14 @@
 ---
-title: "步驟 5： 設定接收埠和接收位置 |Microsoft 文件"
-ms.custom: 
+title: 步驟 5： 設定接收埠和接收位置 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 43fc8d12-5fde-4ddf-a7f0-770f078ba66b
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277950"
 ---
 # <a name="step-5-configure-a-receive-port-and-receive-location"></a><span data-ttu-id="fc3b8-102">步驟 5： 設定接收埠和接收位置</span><span class="sxs-lookup"><span data-stu-id="fc3b8-102">Step 5: Configure a Receive Port and Receive Location</span></span>
 <span data-ttu-id="fc3b8-103">![步驟 5 之 9](../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-5of9.gif "Step_5of9")</span><span class="sxs-lookup"><span data-stu-id="fc3b8-103">![Step 5 of 9](../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-5of9.gif "Step_5of9")</span></span>  
@@ -43,10 +44,10 @@ ms.lasthandoff: 09/20/2017
   
 6.  <span data-ttu-id="fc3b8-115">在**FILE 傳輸屬性**對話方塊中，按一下 **瀏覽**旁邊**接收資料夾**欄位。</span><span class="sxs-lookup"><span data-stu-id="fc3b8-115">In the **FILE Transport Properties** dialog box, click the **Browse** button next to the **Receive folder** field.</span></span> <span data-ttu-id="fc3b8-116">在**瀏覽資料夾**對話方塊中，移至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\EDI Interface Developer Tutorial\ProcessEDI_TestLocations\Scenario A\fromTHEM，然後再按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="fc3b8-116">In the **Browse for Folder** dialog box, move to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\EDI Interface Developer Tutorial\ProcessEDI_TestLocations\Scenario A\fromTHEM, and then click **OK**.</span></span>  
   
-7.  <span data-ttu-id="fc3b8-117">在**FILE 傳輸屬性**對話方塊中，變更**檔案遮罩**至 **\*.txt**按一下**[確定]**。</span><span class="sxs-lookup"><span data-stu-id="fc3b8-117">In the **FILE Transport Properties** dialog box, change the **File mask** to **\*.txt** and click **OK**.</span></span>  
+7.  <span data-ttu-id="fc3b8-117">在**FILE 傳輸屬性**對話方塊中，變更**檔案遮罩**至 **\*.txt**按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="fc3b8-117">In the **FILE Transport Properties** dialog box, change the **File mask** to **\*.txt** and click **OK**.</span></span>  
   
     > [!NOTE]
-    >  <span data-ttu-id="fc3b8-118">檔案遮罩之所以設為 *.txt，是因為輸入測試訊息是文字檔案 SamplePO.txt。</span><span class="sxs-lookup"><span data-stu-id="fc3b8-118">The file mask is set to *.txt because the input test message is a text file, SamplePO.txt.</span></span>  
+    >  <span data-ttu-id="fc3b8-118">檔案遮罩之所以設為 \*.txt，是因為輸入測試訊息是文字檔案 SamplePO.txt。</span><span class="sxs-lookup"><span data-stu-id="fc3b8-118">The file mask is set to \*.txt because the input test message is a text file, SamplePO.txt.</span></span>  
   
 8.  <span data-ttu-id="fc3b8-119">在**接收位置屬性**對話方塊中，於**接收管線**欄位中，選取**EdiReceive**。</span><span class="sxs-lookup"><span data-stu-id="fc3b8-119">In the **Receive Location Properties** dialog box, in the **Receive Pipeline** field, select **EdiReceive**.</span></span>  
   

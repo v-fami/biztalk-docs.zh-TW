@@ -1,14 +1,14 @@
 ---
-title: "逐步解說： 使用發佈 WCF 服務 Wcf-netmsmq 配接器 |Microsoft 文件"
-ms.custom: 
+title: 逐步解說： 使用發佈 WCF 服務 Wcf-netmsmq 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e623b6dc-32e5-467c-bb7d-68b7a75723c1
-caps.latest.revision: "46"
+caps.latest.revision: 46
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010719"
 ---
 # <a name="walkthrough-publishing-wcf-services-with-the-wcf-netmsmq-adapter"></a><span data-ttu-id="ee0bf-102">逐步解說： 使用發佈 WCF 服務 Wcf-netmsmq 配接器</span><span class="sxs-lookup"><span data-stu-id="ee0bf-102">Walkthrough: Publishing WCF Services with the WCF-NetMsmq Adapter</span></span>
   
@@ -62,13 +63,13 @@ ms.lasthandoff: 12/01/2017
   
 2.  <span data-ttu-id="ee0bf-136">在 Visual Studio 中開啟**Wcfnetmsmqadapterpublishing**檔案。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-136">In Visual Studio, open the **WCFNetMsmqAdapterPublishing.sln** file.</span></span>  
   
-3.  <span data-ttu-id="ee0bf-137">在 [方案總管] 中，展開**[biztalkapp]**，然後開啟**OrderProcess.odx**檢閱。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-137">In Solution Explorer, expand **BizTalkApp**, and then open **OrderProcess.odx** to review.</span></span> <span data-ttu-id="ee0bf-138">範例協調流程接收訂單要求訊息，並只再傳回訂單回應訊息。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-138">The sample orchestration receives order request messages, and simply returns the order response messages.</span></span>  
+3.  <span data-ttu-id="ee0bf-137">在 [方案總管] 中，展開 **[biztalkapp]**，然後開啟**OrderProcess.odx**檢閱。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-137">In Solution Explorer, expand **BizTalkApp**, and then open **OrderProcess.odx** to review.</span></span> <span data-ttu-id="ee0bf-138">範例協調流程接收訂單要求訊息，並只再傳回訂單回應訊息。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-138">The sample orchestration receives order request messages, and simply returns the order response messages.</span></span>  
   
-4.  <span data-ttu-id="ee0bf-139">因為**[biztalkapp]**該組件必須安裝在 GAC 中，它將需要強式名稱金鑰檔案，以完成部署程序。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-139">Because the **BizTalkApp** assembly must be installed in the GAC, it will need a strong name key file to complete the deployment process.</span></span> <span data-ttu-id="ee0bf-140">以滑鼠右鍵按一下**[biztalkapp]**專案，然後再按一下**屬性**。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-140">Right-click the **BizTalkApp** project, and then click **Properties**.</span></span> <span data-ttu-id="ee0bf-141">在**屬性**頁面上，按一下**簽署**，然後選取**簽署組件**。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-141">On the **Properties** page, click **Signing**, and select **Sign the assembly**.</span></span> <span data-ttu-id="ee0bf-142">按一下向下的箭號，在**選擇強式名稱金鑰檔**下拉式清單中，按一下  **\<新增\>**輸入`keyfile.snk`中**金鑰檔名稱**文字方塊。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-142">Click the down arrow in the **Choose a strong name key file** drop-down list, click **\<New\>** and enter `keyfile.snk` in the **key file name** textbox.</span></span> <span data-ttu-id="ee0bf-143">取消核取**保護我的密碼金鑰檔**，然後按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-143">Uncheck **Protect my key file with a password**, and then click **OK**.</span></span>  
+4.  <span data-ttu-id="ee0bf-139">因為 **[biztalkapp]** 該組件必須安裝在 GAC 中，它將需要強式名稱金鑰檔案，以完成部署程序。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-139">Because the **BizTalkApp** assembly must be installed in the GAC, it will need a strong name key file to complete the deployment process.</span></span> <span data-ttu-id="ee0bf-140">以滑鼠右鍵按一下 **[biztalkapp]** 專案，然後再按一下**屬性**。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-140">Right-click the **BizTalkApp** project, and then click **Properties**.</span></span> <span data-ttu-id="ee0bf-141">在**屬性**頁面上，按一下**簽署**，然後選取**簽署組件**。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-141">On the **Properties** page, click **Signing**, and select **Sign the assembly**.</span></span> <span data-ttu-id="ee0bf-142">按一下向下的箭號，在**選擇強式名稱金鑰檔**下拉式清單中，按一下  **\<新增\>** 輸入`keyfile.snk`中**金鑰檔名稱**文字方塊。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-142">Click the down arrow in the **Choose a strong name key file** drop-down list, click **\<New\>** and enter `keyfile.snk` in the **key file name** textbox.</span></span> <span data-ttu-id="ee0bf-143">取消核取**保護我的密碼金鑰檔**，然後按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-143">Uncheck **Protect my key file with a password**, and then click **OK**.</span></span>  
   
 5.  <span data-ttu-id="ee0bf-144">按一下**部署**索引標籤，然後再變更**伺服器**屬性，如果您使用不同的資料庫伺服器的 「 BizTalk 管理 」 資料庫，除了**LOCALHOST**。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-144">Click the **Deployment** tab, and then change the **Server** property if you use a different database server for the BizTalk Management database besides **LOCALHOST**.</span></span>  <span data-ttu-id="ee0bf-145">請確定**BizTalk 應用程式**值設定為**WCFNetMsmqAdapterPublishing**。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-145">Ensure **BizTalk Application** value is set to **WCFNetMsmqAdapterPublishing**.</span></span> <span data-ttu-id="ee0bf-146">請確定**安裝到全域組件快取**設**True**。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-146">Ensure **Install to Global Assembly Cache** is set to **True**.</span></span>  
   
-6.  <span data-ttu-id="ee0bf-147">在 [方案總管] 中，以滑鼠右鍵按一下**[biztalkapp]**專案，然後按一下**重建**。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-147">In Solution Explorer, right-click the **BizTalkApp**  project and then click **Rebuild**.</span></span>  
+6.  <span data-ttu-id="ee0bf-147">在 [方案總管] 中，以滑鼠右鍵按一下 **[biztalkapp]** 專案，然後按一下**重建**。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-147">In Solution Explorer, right-click the **BizTalkApp**  project and then click **Rebuild**.</span></span>  
   
 7.  <span data-ttu-id="ee0bf-148">在 方案總管 中，以滑鼠右鍵按一下**biztalkapp**，然後按一下 **部署**。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-148">In Solution Explorer, right-click **BizTalkApp**, and then click **Deploy**.</span></span>  
   
@@ -108,7 +109,7 @@ ms.lasthandoff: 12/01/2017
   
     6.  <span data-ttu-id="ee0bf-169">在**接收位置屬性**對話方塊中，於**傳輸**區段旁邊**類型**，選取**Wcf-netmsmq**從下拉式清單，然後按一下**設定**。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-169">In the **Receive Location Properties** dialog box, in the **Transport** section next to **Type**, select **WCF-NetMsmq** from the drop-down list, and then click **Configure**.</span></span>  
   
-    7.  <span data-ttu-id="ee0bf-170">在**Wcf-netmsmq 傳輸屬性**對話方塊**一般**索引標籤的**位址 (URI)**文字方塊中，輸入`net.msmq://localhost/private/WCFNetMsmqAdapterPublishing`。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-170">In the **WCF-NetMsmq Transport Properties** dialog box, on the **General**  tab, in the **Address (URI)** text box, type `net.msmq://localhost/private/WCFNetMsmqAdapterPublishing`.</span></span>  
+    7.  <span data-ttu-id="ee0bf-170">在**Wcf-netmsmq 傳輸屬性**對話方塊**一般**索引標籤的**位址 (URI)** 文字方塊中，輸入`net.msmq://localhost/private/WCFNetMsmqAdapterPublishing`。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-170">In the **WCF-NetMsmq Transport Properties** dialog box, on the **General**  tab, in the **Address (URI)** text box, type `net.msmq://localhost/private/WCFNetMsmqAdapterPublishing`.</span></span>  
   
     8.  <span data-ttu-id="ee0bf-171">在**Wcf-netmsmq 傳輸屬性**對話方塊**繫結**索引標籤上，請確定**交易式**選取核取方塊。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-171">In the **WCF-NetMsmq Transport Properties** dialog box, on the **Binding**  tab, make sure that the **Transactional** check box is selected.</span></span>  
   
@@ -140,7 +141,7 @@ ms.lasthandoff: 12/01/2017
   
     2.  <span data-ttu-id="ee0bf-187">在**協調流程屬性**對話方塊中，選取**WCFNetMsmqAdapterPublishing.ReceivePurchaseOrder**從**接收埠**的下拉式清單**PurchaseOrderRequestPort**。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-187">In the **Orchestration Properties** dialog box, select **WCFNetMsmqAdapterPublishing.ReceivePurchaseOrder** from the **Receive Ports** drop-down list for the **PurchaseOrderRequestPort**.</span></span>  
   
-    3.  <span data-ttu-id="ee0bf-188">在**協調流程屬性**對話方塊中，選取**WCFNetMsmqAdapterPublishing.SendPurchaseOrder.File**從**傳送埠/傳送埠群組**下拉式清單如**[wcfnetmsmqadapterpublishing.sendpurchaseorder.file]**。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-188">In the **Orchestration Properties** dialog box, select **WCFNetMsmqAdapterPublishing.SendPurchaseOrder.File** from the **Send Ports/Send Port Groups** drop-down list for the **PurchaseOrderResponsePort**.</span></span>  
+    3.  <span data-ttu-id="ee0bf-188">在**協調流程屬性**對話方塊中，選取**WCFNetMsmqAdapterPublishing.SendPurchaseOrder.File**從**傳送埠/傳送埠群組**下拉式清單如 **[wcfnetmsmqadapterpublishing.sendpurchaseorder.file]**。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-188">In the **Orchestration Properties** dialog box, select **WCFNetMsmqAdapterPublishing.SendPurchaseOrder.File** from the **Send Ports/Send Port Groups** drop-down list for the **PurchaseOrderResponsePort**.</span></span>  
   
     4.  <span data-ttu-id="ee0bf-189">在**協調流程屬性**對話方塊中，按一下 **確定**儲存設定。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-189">In the **Orchestration Properties** dialog box, click **OK** to save the configuration.</span></span>  
   
@@ -150,7 +151,7 @@ ms.lasthandoff: 12/01/2017
   
 2.  <span data-ttu-id="ee0bf-192">在**歡迎使用 BizTalk WCF 服務發佈精靈**頁面上，按一下**下一步**。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-192">On the **Welcome to the BizTalk WCF Service Publishing Wizard** page, click **Next**.</span></span>  
   
-3.  <span data-ttu-id="ee0bf-193">在**WCF 服務類型**頁面上，選取**中繼資料唯一端點 (MEX)**核取方塊以發行中繼資料的 WCFNetMsmq 接收位置。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-193">On the **WCF Service Type** page, select the **Metadata only endpoint (MEX)** check box to publish the metadata for the WCFNetMsmq receive location.</span></span> <span data-ttu-id="ee0bf-194">選取**WCFNetMsmqAdapterPublishing.ReceivePurchaseOrder.NetMsmq**從**發行中繼資料的接收位置**下拉式清單，然後按一下**下一步**。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-194">Select **WCFNetMsmqAdapterPublishing.ReceivePurchaseOrder.NetMsmq** from the **Publish metadata for receive location** drop-down list, and then click **Next**.</span></span>  
+3.  <span data-ttu-id="ee0bf-193">在**WCF 服務類型**頁面上，選取**中繼資料唯一端點 (MEX)** 核取方塊以發行中繼資料的 WCFNetMsmq 接收位置。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-193">On the **WCF Service Type** page, select the **Metadata only endpoint (MEX)** check box to publish the metadata for the WCFNetMsmq receive location.</span></span> <span data-ttu-id="ee0bf-194">選取**WCFNetMsmqAdapterPublishing.ReceivePurchaseOrder.NetMsmq**從**發行中繼資料的接收位置**下拉式清單，然後按一下**下一步**。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-194">Select **WCFNetMsmqAdapterPublishing.ReceivePurchaseOrder.NetMsmq** from the **Publish metadata for receive location** drop-down list, and then click **Next**.</span></span>  
   
 4.  <span data-ttu-id="ee0bf-195">在**建立 WCF 服務**頁面上，選取**BizTalk 協調流程發佈為 WCF 服務**，然後按一下 **下一步**。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-195">On the **Create WCF Service** page, select **Publish BizTalk orchestrations as WCF service**, and then click **Next**.</span></span>  
   
@@ -211,7 +212,7 @@ ms.lasthandoff: 12/01/2017
   
 3.  <span data-ttu-id="ee0bf-233">在 Visual Studio，在 方案總管中以滑鼠右鍵按一下**WCFClient**，指向 **新增**，然後按一下 **現有項目**。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-233">In Visual Studio, in Solution Explorer, right-click **WCFClient**, point to **Add**, and then click **Existing Item**.</span></span>  
   
-4.  <span data-ttu-id="ee0bf-234">在**加入現有項目**對話方塊中，瀏覽至**WCFClient**資料夾中，選取**所有檔案 (\*。\*)**中**檔案類型**下拉式清單中，選取**BizTalkServiceInstance.cs**和**output.config**檔案、，然後按一下  **新增**。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-234">In the **Add Existing Item** dialog box, browse to the **WCFClient** folder, select **All Files (\*.\*)** in the **Files of type** drop-down list, select the **BizTalkServiceInstance.cs** and **output.config** files, and then click **Add**.</span></span>  
+4.  <span data-ttu-id="ee0bf-234">在**加入現有項目**對話方塊中，瀏覽至**WCFClient**資料夾中，選取**所有檔案 (\*。\*)** 中**檔案類型**下拉式清單中，選取**BizTalkServiceInstance.cs**和**output.config**檔案、，然後按一下  **新增**。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-234">In the **Add Existing Item** dialog box, browse to the **WCFClient** folder, select **All Files (\*.\*)** in the **Files of type** drop-down list, select the **BizTalkServiceInstance.cs** and **output.config** files, and then click **Add**.</span></span>  
   
 5.  <span data-ttu-id="ee0bf-235">展開**WCFClient**，以滑鼠右鍵按一下**output.config**，按一下 **重新命名**，然後輸入`App.config`做為新的名稱。</span><span class="sxs-lookup"><span data-stu-id="ee0bf-235">Expand **WCFClient**, right-click **output.config**, click **Rename**, and then type `App.config` as the new name.</span></span>  
   

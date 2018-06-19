@@ -1,14 +1,14 @@
 ---
-title: "叢集主要密碼伺服器 |Microsoft 文件"
-ms.custom: 
+title: 叢集主要密碼伺服器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 14aa3622-8462-4ed9-abde-40090d4f96ff
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008695"
 ---
 # <a name="clustering-the-master-secret-server"></a><span data-ttu-id="890bb-102">叢集主要密碼伺服器</span><span class="sxs-lookup"><span data-stu-id="890bb-102">Clustering the Master Secret Server</span></span>
 <span data-ttu-id="890bb-103">BizTalk Server 應用程式服務會維護硬式編碼相依性會隨企業單一登入 (SSO) 服務[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="890bb-103">The BizTalk Server application service maintains a hard-coded dependency upon the Enterprise Single Sign-On (SSO) service that is installed with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="890bb-104">SSO 服務必須能夠與啟動主要密碼伺服器進行通訊。</span><span class="sxs-lookup"><span data-stu-id="890bb-104">The SSO service must be able to communicate with the master secret server to start.</span></span> <span data-ttu-id="890bb-105">我們建議您在主要密碼伺服器提供容錯功能的主要密碼伺服器上叢集化 SSO 服務。</span><span class="sxs-lookup"><span data-stu-id="890bb-105">We recommend that you cluster the SSO service on the master secret server to provide fault tolerance for the master secret server.</span></span> <span data-ttu-id="890bb-106">如需詳細資訊，請參閱[高可用性 SSO 安裝選項](http://go.microsoft.com/fwlink/?LinkId=156838)(http://go.microsoft.com/fwlink/?LinkId=156838) 在 BizTalk Server 說明中。</span><span class="sxs-lookup"><span data-stu-id="890bb-106">For more information, see [High-Availability SSO Installation Options](http://go.microsoft.com/fwlink/?LinkId=156838) (http://go.microsoft.com/fwlink/?LinkId=156838) in BizTalk Server Help.</span></span>  
