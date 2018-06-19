@@ -1,14 +1,14 @@
 ---
-title: "步驟 1： 建立要求訊息 Purchase_Order 資料表的 Insert 作業 |Microsoft 文件"
-ms.custom: 
+title: 步驟 1： 建立要求訊息 Purchase_Order 資料表的 Insert 作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fde018d8-9d9a-42ea-8ee9-e3632450b9d7
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,13 +17,14 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966004"
 ---
 # <a name="step-1-create-the-request-message-for-insert-operation-on-purchaseorder-table"></a><span data-ttu-id="679dd-102">步驟 1： 建立要求訊息 Purchase_Order 資料表的 Insert 作業</span><span class="sxs-lookup"><span data-stu-id="679dd-102">Step 1: Create the Request Message for Insert Operation on Purchase_Order Table</span></span>
 <span data-ttu-id="679dd-103">![步驟 4 之 1](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-1of4.gif "Step_1of4")</span><span class="sxs-lookup"><span data-stu-id="679dd-103">![Step 1 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-1of4.gif "Step_1of4")</span></span>  
   
  <span data-ttu-id="679dd-104">**若要完成的時間：** 10 分鐘</span><span class="sxs-lookup"><span data-stu-id="679dd-104">**Time to complete:** 10 minutes</span></span>  
   
- <span data-ttu-id="679dd-105">**目標：**在此步驟中，您必須將 C# 類別庫專案加入至方案。</span><span class="sxs-lookup"><span data-stu-id="679dd-105">**Objective:** In this step, you add a C# class library project to your solution.</span></span> <span data-ttu-id="679dd-106">此文件庫上建立記憶體中要求訊息的 Insert 作業**Purchase_Order**資料表。</span><span class="sxs-lookup"><span data-stu-id="679dd-106">This library creates an in-memory request message for the Insert operation on the **Purchase_Order** table.</span></span> <span data-ttu-id="679dd-107">在稍後步驟中，協調流程會將此訊息傳送到 SQL Server 資料表中插入記錄。</span><span class="sxs-lookup"><span data-stu-id="679dd-107">In later steps, the orchestration sends this message to SQL Server to insert records in the table.</span></span>  
+ <span data-ttu-id="679dd-105">**目標：** 在此步驟中，您必須將 C# 類別庫專案加入至方案。</span><span class="sxs-lookup"><span data-stu-id="679dd-105">**Objective:** In this step, you add a C# class library project to your solution.</span></span> <span data-ttu-id="679dd-106">此文件庫上建立記憶體中要求訊息的 Insert 作業**Purchase_Order**資料表。</span><span class="sxs-lookup"><span data-stu-id="679dd-106">This library creates an in-memory request message for the Insert operation on the **Purchase_Order** table.</span></span> <span data-ttu-id="679dd-107">在稍後步驟中，協調流程會將此訊息傳送到 SQL Server 資料表中插入記錄。</span><span class="sxs-lookup"><span data-stu-id="679dd-107">In later steps, the orchestration sends this message to SQL Server to insert records in the table.</span></span>  
   
 ## <a name="prerequisites"></a><span data-ttu-id="679dd-108">必要條件</span><span class="sxs-lookup"><span data-stu-id="679dd-108">Prerequisites</span></span>  
  <span data-ttu-id="679dd-109">您必須先完成中的步驟[第 3 課： 執行預存程序來選取新加入的員工](../../adapters-and-accelerators/adapter-sql/lesson-3-execute-a-stored-procedure-to-select-new-employees-added.md)。</span><span class="sxs-lookup"><span data-stu-id="679dd-109">You must have completed the steps in [Lesson 3: Execute a Stored Procedure to Select New Employees Added](../../adapters-and-accelerators/adapter-sql/lesson-3-execute-a-stored-procedure-to-select-new-employees-added.md).</span></span>  

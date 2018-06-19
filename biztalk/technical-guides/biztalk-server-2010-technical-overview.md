@@ -1,14 +1,14 @@
 ---
-title: "BizTalk Server 2010 技術概觀 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Server 2010 技術概觀 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cdbc2052-4407-45f0-8a57-1272f9a1f266
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22300614"
 ---
 # <a name="biztalk-server-2010-technical-overview"></a><span data-ttu-id="bd492-102">BizTalk Server 2010 技術概觀</span><span class="sxs-lookup"><span data-stu-id="bd492-102">BizTalk Server 2010 Technical Overview</span></span>
 <span data-ttu-id="bd492-103">若要下載這份文件的複本，請移至[http://go.microsoft.com/fwlink/?LinkId=197294](http://go.microsoft.com/fwlink/?LinkId=197294)。</span><span class="sxs-lookup"><span data-stu-id="bd492-103">To download a copy of this paper, go to [http://go.microsoft.com/fwlink/?LinkId=197294](http://go.microsoft.com/fwlink/?LinkId=197294).</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "設定 Oracle E-business Suite 中使用訊息內容屬性的應用程式內容 |Microsoft 文件"
-ms.custom: 
+title: 設定 Oracle E-business Suite 中使用訊息內容屬性的應用程式內容 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 51b76788-5c81-4bb4-8ef6-b1439955ea97
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962028"
 ---
 # <a name="configure-the-application-context-using-message-context-properties-in-oracle-e-business-suite"></a><span data-ttu-id="f2874-102">設定 Oracle E-business Suite 中使用訊息內容屬性的應用程式內容</span><span class="sxs-lookup"><span data-stu-id="f2874-102">Configure the application context using message context properties in Oracle E-Business Suite</span></span>
 <span data-ttu-id="f2874-103">若要使用的 Oracle E-business Suite 成品上執行作業[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]，則必須適當設定的應用程式內容。</span><span class="sxs-lookup"><span data-stu-id="f2874-103">To perform operations on Oracle E-Business Suite artifacts using the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)], you must set the application context appropriately.</span></span> <span data-ttu-id="f2874-104">您可以下列方式來設定應用程式內容：</span><span class="sxs-lookup"><span data-stu-id="f2874-104">You can set the application context in the following ways:</span></span>  

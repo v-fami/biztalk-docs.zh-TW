@@ -24,6 +24,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25965252"
 ---
 # <a name="aggregator-biztalk-server-sample"></a><span data-ttu-id="25ff8-102">彙總工具 (BizTalk Server 範例)</span><span class="sxs-lookup"><span data-stu-id="25ff8-102">Aggregator (BizTalk Server Sample)</span></span>
 <span data-ttu-id="25ff8-103">此範例的目的是要建置使用協調流程和管線的訊息彙總功能。</span><span class="sxs-lookup"><span data-stu-id="25ff8-103">The purpose of this sample is to build a message aggregation functionality using orchestration and pipelines.</span></span> <span data-ttu-id="25ff8-104">具體而言，我們將會建立可執行下列作業的協調流程：</span><span class="sxs-lookup"><span data-stu-id="25ff8-104">Specifically we will build an orchestration that:</span></span>  
@@ -35,7 +36,7 @@ ms.lasthandoff: 03/23/2018
 3.  <span data-ttu-id="25ff8-108">每分鐘產生一次 XML 交換訊息，或是在有足夠彙總數量的訊息時立即產生。</span><span class="sxs-lookup"><span data-stu-id="25ff8-108">Produces an XML interchange message every minute or as soon as it has enough messages to aggregate.</span></span>  
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="25ff8-109">可在何處找到此範例</span><span class="sxs-lookup"><span data-stu-id="25ff8-109">Where to Find This Sample</span></span>  
- <span data-ttu-id="25ff8-110">*\<範例路徑\>*\Pipelines\Aggregator</span><span class="sxs-lookup"><span data-stu-id="25ff8-110">*\<Samples Path\>*\Pipelines\Aggregator</span></span>  
+ <span data-ttu-id="25ff8-110">*\<範例路徑\>* \Pipelines\Aggregator</span><span class="sxs-lookup"><span data-stu-id="25ff8-110">*\<Samples Path\>* \Pipelines\Aggregator</span></span>  
   
  <span data-ttu-id="25ff8-111">下表列出此範例使用的檔案。</span><span class="sxs-lookup"><span data-stu-id="25ff8-111">The following table lists the files for this sample.</span></span>  
   

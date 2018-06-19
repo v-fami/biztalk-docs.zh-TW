@@ -1,14 +1,14 @@
 ---
-title: "步驟 9： 建置並部署回應配接器 |Microsoft 文件"
-ms.custom: 
+title: 步驟 9： 建置並部署回應配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1ead10ab-1acf-47c5-ad16-dc6938601906
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967236"
 ---
 # <a name="step-9-build-and-deploy-the-echo-adapter"></a><span data-ttu-id="2614a-102">步驟 9： 建置並部署回應配接器</span><span class="sxs-lookup"><span data-stu-id="2614a-102">Step 9: Build and Deploy the Echo Adapter</span></span>
 <span data-ttu-id="2614a-103">![步驟 9 / 9](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-9of9.gif "Step_9of9")</span><span class="sxs-lookup"><span data-stu-id="2614a-103">![Step 9 of 9](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-9of9.gif "Step_9of9")</span></span>  

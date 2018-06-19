@@ -1,18 +1,18 @@
 ---
-title: "建立的自訂處理常式已拒絕訊息 |Microsoft 文件"
-ms.custom: 
+title: 建立的自訂處理常式已拒絕訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - custom handlers
 - Message Repair and New Submission, rejected messages
 - Message Repair and New Submission, custom handlers
 ms.assetid: 28d74504-6c62-427a-b75d-456fbe43ec3a
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963780"
 ---
 # <a name="creating-a-custom-handler-for-rejected-messages"></a><span data-ttu-id="3e07a-102">拒絕的訊息建立自訂的處理常式</span><span class="sxs-lookup"><span data-stu-id="3e07a-102">Creating a Custom Handler for Rejected Messages</span></span>
 <span data-ttu-id="3e07a-103">如果您拒絕訊息中的驗證或認可階段，[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]將訊息傳回至第一個階段中定義的工作流程 （在此情況下是一律修復，即使建立工作流程中的第一個階段）。</span><span class="sxs-lookup"><span data-stu-id="3e07a-103">If you reject a message in the verification or approval stage, [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] returns the message to the first stage defined for the workflow (which in this case is always repair, even if Create is the first stage in the workflow).</span></span> <span data-ttu-id="3e07a-104">不過，如果工作流程的第一個階段拒絕訊息時，修復協調流程將訊息發佈到 MessageBox 與升級屬性指出 MrsrRepair 協調流程會拒絕訊息。</span><span class="sxs-lookup"><span data-stu-id="3e07a-104">However, if the first stage of the workflow rejects the message, the repair orchestration publishes the message to the MessageBox with promoted properties indicating that the MrsrRepair orchestration rejected the message.</span></span> <span data-ttu-id="3e07a-105">若要處理這些訊息，您可以建立自訂處理常式 （協調流程），訂閱這些升級的屬性，並處理所需的訊息。</span><span class="sxs-lookup"><span data-stu-id="3e07a-105">To handle these messages, you can create a custom handler (orchestration) that subscribes to these promoted properties and processes the messages as required.</span></span>  

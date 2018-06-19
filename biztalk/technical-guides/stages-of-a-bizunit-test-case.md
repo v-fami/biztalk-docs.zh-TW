@@ -1,14 +1,14 @@
 ---
-title: "BizUnit 測試案例的階段 |Microsoft 文件"
-ms.custom: 
+title: BizUnit 測試案例的階段 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ed0e725f-2c52-43f7-ae30-343413a703c2
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302374"
 ---
 # <a name="stages-of-a-bizunit-test-case"></a><span data-ttu-id="31ab0-102">BizUnit 測試案例的階段</span><span class="sxs-lookup"><span data-stu-id="31ab0-102">Stages of a BizUnit Test Case</span></span>
 <span data-ttu-id="31ab0-103">BizUnit 測試的每個案例包含三個階段： **TestSetup**， **TestExecution**，和**TestCleanup**。</span><span class="sxs-lookup"><span data-stu-id="31ab0-103">Each BizUnit test case consists of three stages: **TestSetup**, **TestExecution**, and **TestCleanup**.</span></span> <span data-ttu-id="31ab0-104">每個階段都包含一或多個測試步驟是負責執行單一不連續的工作單位;例如， **FileCreateStep**負責在您使用指定的檔名指定的位置中建立檔案。</span><span class="sxs-lookup"><span data-stu-id="31ab0-104">Each stage contains one or more test steps that are responsible for performing a single discrete unit of work; for example, the **FileCreateStep** is responsible for creating a file in a location you specify with a given filename.</span></span>  <span data-ttu-id="31ab0-105">BizUnit 包含超過 70 種測試步驟，並提供擴充功能，讓新的測試步驟，來輕鬆地新增到架構中。</span><span class="sxs-lookup"><span data-stu-id="31ab0-105">BizUnit includes over 70 test steps and also provides extension capabilities which allow new test steps to be easily added to the framework.</span></span> <span data-ttu-id="31ab0-106">將新的步驟新增至架構的功能可讓 BizUnit 跨廣泛的案例使用。</span><span class="sxs-lookup"><span data-stu-id="31ab0-106">The ability to add new steps to the framework allows BizUnit to be used across a broad range of scenarios.</span></span> <span data-ttu-id="31ab0-107">本主題說明的 BizUnit 測試階段中進一步的詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="31ab0-107">This topic describes the BizUnit test stages in further detail.</span></span>  

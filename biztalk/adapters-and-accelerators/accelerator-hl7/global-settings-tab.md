@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204894"
 ---
 # <a name="global-settings-tab"></a><span data-ttu-id="06bbd-102">全域設定 索引標籤</span><span class="sxs-lookup"><span data-stu-id="06bbd-102">Global Settings Tab</span></span>
 <span data-ttu-id="06bbd-103">您使用**通用設定**索引標籤以設定所使用的記錄存放區[!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="06bbd-103">You use the **Global Settings** tab to configure the logging store used by [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)].</span></span>  

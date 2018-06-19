@@ -1,18 +1,18 @@
 ---
-title: "使用 HL7 2.XML 結構描述 |Microsoft 文件"
-ms.custom: 
+title: 使用 HL7 2.XML 結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - HL7, 2.XML schemas
 - schemas, 2.XML schemas
 - 2.XML schemas
 ms.assetid: 3718f68c-3202-4d35-aca3-acbba91cf8f2
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206294"
 ---
 # <a name="using-hl7-2xml-schemas"></a><span data-ttu-id="8167b-102">使用 HL7 2.XML 結構描述</span><span class="sxs-lookup"><span data-stu-id="8167b-102">Using HL7 2.XML Schemas</span></span>
 <span data-ttu-id="8167b-103">本節討論所支援的健全狀況層級七 (HL7) 標準的 2.XML 版本[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="8167b-103">This section discusses the 2.XML versions of the Health Level Seven (HL7) standard supported by [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)].</span></span>  

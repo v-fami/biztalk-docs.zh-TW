@@ -1,18 +1,18 @@
 ---
-title: "MllpSend 工具 |Microsoft 文件"
-ms.custom: 
+title: MllpSend 工具 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - MllpSend tool
 - MLLP-encoded messages, receive adapters
 - MLLP-encoded messages, MllpSend tool
 ms.assetid: b1723d52-4909-4543-8215-4f73802b6c4f
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25960724"
 ---
 # <a name="mllpsend-tool"></a><span data-ttu-id="71dbb-102">MllpSend 工具</span><span class="sxs-lookup"><span data-stu-id="71dbb-102">MllpSend Tool</span></span>
 <span data-ttu-id="71dbb-103">您可以使用 MllpSend 工具來傳送資料至 MLLP 的接收位置。</span><span class="sxs-lookup"><span data-stu-id="71dbb-103">You can use the MllpSend tool to send data to an MLLP receive location.</span></span>  

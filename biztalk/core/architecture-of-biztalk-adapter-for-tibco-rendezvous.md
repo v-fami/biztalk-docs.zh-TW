@@ -1,15 +1,15 @@
 ---
-title: "TIBCO Rendezvous 配接器架構 |Microsoft 文件"
-description: "深入了解 BizTalk Adapter for TIBCO Rendezvous 的運作方式，包括在 BizTalk Server 中傳遞的訊息，"
-ms.custom: 
+title: TIBCO Rendezvous 配接器架構 |Microsoft 文件
+description: 深入了解 BizTalk Adapter for TIBCO Rendezvous 的運作方式，包括在 BizTalk Server 中傳遞的訊息，
+ms.custom: ''
 ms.date: 10/23/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 174d6ceb-8e1d-4c93-827d-8155cfe47836
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013429"
 ---
 # <a name="architecture-of-the-tibco-rendezvous-adapter"></a><span data-ttu-id="4c02e-103">TIBCO Rendezvous 配接器的架構</span><span class="sxs-lookup"><span data-stu-id="4c02e-103">Architecture of the TIBCO Rendezvous adapter</span></span>
 

@@ -1,14 +1,14 @@
 ---
-title: "執行 SAP 使用 BizTalk Server 中的 BAPI 交易 |Microsoft 文件"
-ms.custom: 
+title: 執行 SAP 使用 BizTalk Server 中的 BAPI 交易 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 75ff5cf7-5e98-4d74-a13f-4de65c215d41
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967948"
 ---
 # <a name="run-bapi-transactions-in-sap-using-biztalk-server"></a><span data-ttu-id="6c712-102">執行 SAP 使用 BizTalk Server 中的 BAPI 交易</span><span class="sxs-lookup"><span data-stu-id="6c712-102">Run BAPI Transactions in SAP using BizTalk Server</span></span>
 <span data-ttu-id="6c712-103">[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]可讓配接器用戶端使用 SAP 系統上執行的交易[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="6c712-103">The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] enables adapter clients to perform transactions on an SAP system by using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="6c712-104">建立之前的交易協調流程，您必須先了解基本的案例將在其中執行的交易。</span><span class="sxs-lookup"><span data-stu-id="6c712-104">Before creating an orchestration for a transaction, you must first understand a basic scenario in which transactions will be performed.</span></span> <span data-ttu-id="6c712-105">在一般交易案例中，多個作業 （例如，叫用 BAPI） 的要求訊息傳送至 SAP 系統。</span><span class="sxs-lookup"><span data-stu-id="6c712-105">In a typical transaction scenario, a request message with multiple operations (such as invoking a BAPI) is sent to the SAP system.</span></span> <span data-ttu-id="6c712-106">這將被稱為 「 作業訊息 」。</span><span class="sxs-lookup"><span data-stu-id="6c712-106">This will be referred to as an "operation message."</span></span> <span data-ttu-id="6c712-107">協調流程必須從要求訊息中擷取每個作業訊息，並傳送至 SAP 系統的個別作業訊息。</span><span class="sxs-lookup"><span data-stu-id="6c712-107">The orchestration must extract each operation message from the request message and send the individual operation messages to the SAP system.</span></span> <span data-ttu-id="6c712-108">協調流程傳送一個接著一個使用相同的連接。</span><span class="sxs-lookup"><span data-stu-id="6c712-108">The orchestration sends them one after the other using the same connection.</span></span> <span data-ttu-id="6c712-109">協調流程會使用透過 BizTalk 對應的 XML 轉換中擷取個別的訊息中的 「 作業訊息 」。</span><span class="sxs-lookup"><span data-stu-id="6c712-109">The orchestration extracts the individual messages from the "operation message" by using an XML transform via a BizTalk map.</span></span>  
@@ -167,7 +168,7 @@ ms.lasthandoff: 11/28/2017
   
 |<span data-ttu-id="6c712-263">形狀圖</span><span class="sxs-lookup"><span data-stu-id="6c712-263">Shape</span></span>|<span data-ttu-id="6c712-264">圖形類型</span><span class="sxs-lookup"><span data-stu-id="6c712-264">Shape Type</span></span>|<span data-ttu-id="6c712-265">屬性</span><span class="sxs-lookup"><span data-stu-id="6c712-265">Properties</span></span>|  
 |-----------|----------------|----------------|  
-|<span data-ttu-id="6c712-266">ReceiveInputXML</span><span class="sxs-lookup"><span data-stu-id="6c712-266">ReceiveInputXML</span></span>|<span data-ttu-id="6c712-267">Receive</span><span class="sxs-lookup"><span data-stu-id="6c712-267">Receive</span></span>|<span data-ttu-id="6c712-268">-設定**名稱**至*ReceiveInputXML*</span><span class="sxs-lookup"><span data-stu-id="6c712-268">- Set **Name** to *ReceiveInputXML*</span></span><br /><br /> <span data-ttu-id="6c712-269">-設定**啟動**至*，則為 True*</span><span class="sxs-lookup"><span data-stu-id="6c712-269">- Set **Activate** to *True*</span></span>|  
+|<span data-ttu-id="6c712-266">ReceiveInputXML</span><span class="sxs-lookup"><span data-stu-id="6c712-266">ReceiveInputXML</span></span>|<span data-ttu-id="6c712-267">Receive</span><span class="sxs-lookup"><span data-stu-id="6c712-267">Receive</span></span>|<span data-ttu-id="6c712-268">-設定**名稱**至*ReceiveInputXML*</span><span class="sxs-lookup"><span data-stu-id="6c712-268">- Set **Name** to *ReceiveInputXML*</span></span><br /><br /> <span data-ttu-id="6c712-269">-設定**啟動**至 *，則為 True*</span><span class="sxs-lookup"><span data-stu-id="6c712-269">- Set **Activate** to *True*</span></span>|  
 |<span data-ttu-id="6c712-270">SendToLOB</span><span class="sxs-lookup"><span data-stu-id="6c712-270">SendToLOB</span></span>|<span data-ttu-id="6c712-271">Send</span><span class="sxs-lookup"><span data-stu-id="6c712-271">Send</span></span>|<span data-ttu-id="6c712-272">-設定**名稱**至*SendToLOB*</span><span class="sxs-lookup"><span data-stu-id="6c712-272">- Set **Name** to *SendToLOB*</span></span>|  
 |<span data-ttu-id="6c712-273">ReceiveResponse</span><span class="sxs-lookup"><span data-stu-id="6c712-273">ReceiveResponse</span></span>|<span data-ttu-id="6c712-274">Receive</span><span class="sxs-lookup"><span data-stu-id="6c712-274">Receive</span></span>|<span data-ttu-id="6c712-275">-設定**名稱**至*ReceiveResponse*</span><span class="sxs-lookup"><span data-stu-id="6c712-275">- Set **Name** to *ReceiveResponse*</span></span><br /><br /> <span data-ttu-id="6c712-276">-設定**啟動**至*False*</span><span class="sxs-lookup"><span data-stu-id="6c712-276">- Set **Activate** to *False*</span></span>|  
 |<span data-ttu-id="6c712-277">SendResponse</span><span class="sxs-lookup"><span data-stu-id="6c712-277">SendResponse</span></span>|<span data-ttu-id="6c712-278">Send</span><span class="sxs-lookup"><span data-stu-id="6c712-278">Send</span></span>|<span data-ttu-id="6c712-279">-設定**名稱**至*SendResponse*</span><span class="sxs-lookup"><span data-stu-id="6c712-279">- Set **Name** to *SendResponse*</span></span>|  

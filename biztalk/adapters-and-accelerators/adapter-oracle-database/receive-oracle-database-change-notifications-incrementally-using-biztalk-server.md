@@ -1,14 +1,14 @@
 ---
-title: "接收以累加方式使用 BizTalk Server 的 Oracle 資料庫變更通知 |Microsoft 文件"
-ms.custom: 
+title: 接收以累加方式使用 BizTalk Server 的 Oracle 資料庫變更通知 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 17cef39f-a1aa-4f46-993f-620008f3890d
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967324"
 ---
 # <a name="receive-oracle-database-change-notifications-incrementally-using-biztalk-server"></a><span data-ttu-id="f4692-102">接收以累加方式使用 BizTalk Server 的 Oracle 資料庫變更通知</span><span class="sxs-lookup"><span data-stu-id="f4692-102">Receive Oracle Database change notifications incrementally using BizTalk Server</span></span>
 > [!IMPORTANT]
@@ -167,7 +168,7 @@ ms.lasthandoff: 11/28/2017
   
 |<span data-ttu-id="f4692-233">形狀圖</span><span class="sxs-lookup"><span data-stu-id="f4692-233">Shape</span></span>|<span data-ttu-id="f4692-234">圖形類型</span><span class="sxs-lookup"><span data-stu-id="f4692-234">Shape Type</span></span>|<span data-ttu-id="f4692-235">屬性</span><span class="sxs-lookup"><span data-stu-id="f4692-235">Properties</span></span>|  
 |-----------|----------------|----------------|  
-|<span data-ttu-id="f4692-236">ReceiveNotification</span><span class="sxs-lookup"><span data-stu-id="f4692-236">ReceiveNotification</span></span>|<span data-ttu-id="f4692-237">Receive</span><span class="sxs-lookup"><span data-stu-id="f4692-237">Receive</span></span>|<span data-ttu-id="f4692-238">-設定**名稱**至*ReceiveNotification*</span><span class="sxs-lookup"><span data-stu-id="f4692-238">- Set **Name** to *ReceiveNotification*</span></span><br /><br /> <span data-ttu-id="f4692-239">-設定**啟動**至*，則為 True*</span><span class="sxs-lookup"><span data-stu-id="f4692-239">- Set **Activate** to *True*</span></span>|  
+|<span data-ttu-id="f4692-236">ReceiveNotification</span><span class="sxs-lookup"><span data-stu-id="f4692-236">ReceiveNotification</span></span>|<span data-ttu-id="f4692-237">Receive</span><span class="sxs-lookup"><span data-stu-id="f4692-237">Receive</span></span>|<span data-ttu-id="f4692-238">-設定**名稱**至*ReceiveNotification*</span><span class="sxs-lookup"><span data-stu-id="f4692-238">- Set **Name** to *ReceiveNotification*</span></span><br /><br /> <span data-ttu-id="f4692-239">-設定**啟動**至 *，則為 True*</span><span class="sxs-lookup"><span data-stu-id="f4692-239">- Set **Activate** to *True*</span></span>|  
 |<span data-ttu-id="f4692-240">SaveNotification</span><span class="sxs-lookup"><span data-stu-id="f4692-240">SaveNotification</span></span>|<span data-ttu-id="f4692-241">Send</span><span class="sxs-lookup"><span data-stu-id="f4692-241">Send</span></span>|<span data-ttu-id="f4692-242">-設定**名稱**至*SaveNotification*</span><span class="sxs-lookup"><span data-stu-id="f4692-242">- Set **Name** to *SaveNotification*</span></span>|  
 |<span data-ttu-id="f4692-243">SendProcMessage</span><span class="sxs-lookup"><span data-stu-id="f4692-243">SendProcMessage</span></span>|<span data-ttu-id="f4692-244">Send</span><span class="sxs-lookup"><span data-stu-id="f4692-244">Send</span></span>|<span data-ttu-id="f4692-245">-設定**名稱**至*SendProcMessage*</span><span class="sxs-lookup"><span data-stu-id="f4692-245">- Set **Name** to *SendProcMessage*</span></span>|  
 |<span data-ttu-id="f4692-246">ReceiveProcResponse</span><span class="sxs-lookup"><span data-stu-id="f4692-246">ReceiveProcResponse</span></span>|<span data-ttu-id="f4692-247">Receive</span><span class="sxs-lookup"><span data-stu-id="f4692-247">Receive</span></span>|<span data-ttu-id="f4692-248">-設定**名稱**至*ReceiveProcResponse*</span><span class="sxs-lookup"><span data-stu-id="f4692-248">- Set **Name** to *ReceiveProcResponse*</span></span>|  
@@ -265,8 +266,8 @@ Procedure(WCF.Action) = "http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Pac
         |<span data-ttu-id="f4692-328">繫結屬性</span><span class="sxs-lookup"><span data-stu-id="f4692-328">Binding Property</span></span>|<span data-ttu-id="f4692-329">值</span><span class="sxs-lookup"><span data-stu-id="f4692-329">Value</span></span>|  
         |----------------------|-----------|  
         |<span data-ttu-id="f4692-330">**InboundOperationType**</span><span class="sxs-lookup"><span data-stu-id="f4692-330">**InboundOperationType**</span></span>|<span data-ttu-id="f4692-331">將此設**通知**。</span><span class="sxs-lookup"><span data-stu-id="f4692-331">Set this to **Notification**.</span></span>|  
-        |<span data-ttu-id="f4692-332">**NotificationPort**</span><span class="sxs-lookup"><span data-stu-id="f4692-332">**NotificationPort**</span></span>|<span data-ttu-id="f4692-333">指定 ODP.NET 必須開啟從 Oracle 資料庫的資料庫變更通知所接聽的通訊埠編號。</span><span class="sxs-lookup"><span data-stu-id="f4692-333">Specifies the port number that ODP.NET must open to listen for database change notification from Oracle database.</span></span> <span data-ttu-id="f4692-334">設定為相同的連接埠號碼，您必須已加入 Windows 防火牆例外清單。</span><span class="sxs-lookup"><span data-stu-id="f4692-334">Set this to the same port number that you must have added to the Windows Firewall exceptions list.</span></span> <span data-ttu-id="f4692-335">如需如何將連接埠新增至 Windows 防火牆例外清單的指示，請參閱[http://go.microsoft.com/fwlink/?LinkID=196959](http://go.microsoft.com/fwlink/?LinkID=196959)。</span><span class="sxs-lookup"><span data-stu-id="f4692-335">For instructions on how to add ports to Windows Firewall exceptions list, see [http://go.microsoft.com/fwlink/?LinkID=196959](http://go.microsoft.com/fwlink/?LinkID=196959).</span></span><br /><br /> <span data-ttu-id="f4692-336">**重要事項：**如果您設定為預設值-1，您必須完全停用 Windows 防火牆來接收通知訊息。</span><span class="sxs-lookup"><span data-stu-id="f4692-336">**Important:** If you set this to the default value of -1, you will have to completely disable Windows Firewall to receive notification messages.</span></span>|  
-        |<span data-ttu-id="f4692-337">**NotificationStatement**</span><span class="sxs-lookup"><span data-stu-id="f4692-337">**NotificationStatement**</span></span>|<span data-ttu-id="f4692-338">將此值設定為：</span><span class="sxs-lookup"><span data-stu-id="f4692-338">Set this to:</span></span><br /><br /> `SELECT TID,ACCOUNT,PROCESSED FROM SCOTT.ACCOUNTACTIVITY WHERE PROCESSED = ‘n’`<br /><br /> <span data-ttu-id="f4692-339">**注意：**您必須指定資料表名稱，以及結構描述名稱。</span><span class="sxs-lookup"><span data-stu-id="f4692-339">**Note:** You must specify the table name along with the schema name.</span></span> <span data-ttu-id="f4692-340">例如， `SCOTT.ACCOUNTACTIVITY`。</span><span class="sxs-lookup"><span data-stu-id="f4692-340">For example, `SCOTT.ACCOUNTACTIVITY`.</span></span>|  
+        |<span data-ttu-id="f4692-332">**NotificationPort**</span><span class="sxs-lookup"><span data-stu-id="f4692-332">**NotificationPort**</span></span>|<span data-ttu-id="f4692-333">指定 ODP.NET 必須開啟從 Oracle 資料庫的資料庫變更通知所接聽的通訊埠編號。</span><span class="sxs-lookup"><span data-stu-id="f4692-333">Specifies the port number that ODP.NET must open to listen for database change notification from Oracle database.</span></span> <span data-ttu-id="f4692-334">設定為相同的連接埠號碼，您必須已加入 Windows 防火牆例外清單。</span><span class="sxs-lookup"><span data-stu-id="f4692-334">Set this to the same port number that you must have added to the Windows Firewall exceptions list.</span></span> <span data-ttu-id="f4692-335">如需如何將連接埠新增至 Windows 防火牆例外清單的指示，請參閱[http://go.microsoft.com/fwlink/?LinkID=196959](http://go.microsoft.com/fwlink/?LinkID=196959)。</span><span class="sxs-lookup"><span data-stu-id="f4692-335">For instructions on how to add ports to Windows Firewall exceptions list, see [http://go.microsoft.com/fwlink/?LinkID=196959](http://go.microsoft.com/fwlink/?LinkID=196959).</span></span><br /><br /> <span data-ttu-id="f4692-336">**重要事項：** 如果您設定為預設值-1，您必須完全停用 Windows 防火牆來接收通知訊息。</span><span class="sxs-lookup"><span data-stu-id="f4692-336">**Important:** If you set this to the default value of -1, you will have to completely disable Windows Firewall to receive notification messages.</span></span>|  
+        |<span data-ttu-id="f4692-337">**NotificationStatement**</span><span class="sxs-lookup"><span data-stu-id="f4692-337">**NotificationStatement**</span></span>|<span data-ttu-id="f4692-338">將此值設定為：</span><span class="sxs-lookup"><span data-stu-id="f4692-338">Set this to:</span></span><br /><br /> `SELECT TID,ACCOUNT,PROCESSED FROM SCOTT.ACCOUNTACTIVITY WHERE PROCESSED = ‘n’`<br /><br /> <span data-ttu-id="f4692-339">**注意：** 您必須指定資料表名稱，以及結構描述名稱。</span><span class="sxs-lookup"><span data-stu-id="f4692-339">**Note:** You must specify the table name along with the schema name.</span></span> <span data-ttu-id="f4692-340">例如， `SCOTT.ACCOUNTACTIVITY`。</span><span class="sxs-lookup"><span data-stu-id="f4692-340">For example, `SCOTT.ACCOUNTACTIVITY`.</span></span>|  
         |<span data-ttu-id="f4692-341">**NotifyOnListenerStart**</span><span class="sxs-lookup"><span data-stu-id="f4692-341">**NotifyOnListenerStart**</span></span>|<span data-ttu-id="f4692-342">將此設**True**。</span><span class="sxs-lookup"><span data-stu-id="f4692-342">Set this to **True**.</span></span>|  
   
          <span data-ttu-id="f4692-343">如需不同的繫結屬性的詳細資訊，請參閱[使用 BizTalk Adapter for Oracle 資料庫繫結屬性](https://msdn.microsoft.com/library/dd788467.aspx)。</span><span class="sxs-lookup"><span data-stu-id="f4692-343">For more information about the different binding properties, see [Working with BizTalk Adapter for Oracle Database Binding Properties](https://msdn.microsoft.com/library/dd788467.aspx).</span></span>  

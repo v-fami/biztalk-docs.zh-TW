@@ -1,17 +1,17 @@
 ---
-title: "從交易內容，使用 BizTalk Server 中的 SAP 接收 Idoc |Microsoft 文件"
-ms.custom: 
+title: 從交易內容，使用 BizTalk Server 中的 SAP 接收 Idoc |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - transactional context
 - IDOCs, receiving in a transactional context using BizTalk Server
 ms.assetid: 6a01bb82-7292-4b70-8ad7-996d389a9365
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962740"
 ---
 # <a name="receive-idocs-from-sap-in-a-transactional-context-using-biztalk-server"></a><span data-ttu-id="02ec2-102">從交易內容，使用 BizTalk Server 中的 SAP 接收 Idoc</span><span class="sxs-lookup"><span data-stu-id="02ec2-102">Receive IDOCs from SAP in a Transactional Context using BizTalk Server</span></span>
 <span data-ttu-id="02ec2-103">交易內容中接收 IDOC 是相似接收 tRFCs 交易內容中。</span><span class="sxs-lookup"><span data-stu-id="02ec2-103">Receiving IDOC in a transactional context is similar to receiving tRFCs in a transactional context.</span></span> <span data-ttu-id="02ec2-104">在這種情況下，從 SAP 系統接收的 IDOC 包含 TID 一部分 *\<TransactionalRfcOperationIdentifier\>* 項目。</span><span class="sxs-lookup"><span data-stu-id="02ec2-104">In such a case, the IDOC received from the SAP system contains a TID as part of the *\<TransactionalRfcOperationIdentifier\>* element.</span></span> <span data-ttu-id="02ec2-105">此 TID 保存於 SQL 資料庫中的配接器。</span><span class="sxs-lookup"><span data-stu-id="02ec2-105">This TID is persisted in a SQL database by the adapter.</span></span> <span data-ttu-id="02ec2-106">如果 ABAP 程式碼會傳送 IDOC 之 SAP 系統中的有 「 認可工作 」 陳述式，TID 會刪除從 SQL database，將回應傳送到 SAP 系統之後。</span><span class="sxs-lookup"><span data-stu-id="02ec2-106">If the ABAP code in the SAP system that sends the IDOC has a "COMMIT WORK" statement, the TID is deleted from the SQL database after a response is sent back to the SAP system.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "解析程式的 Web 服務 |Microsoft 文件"
-ms.custom: 
+title: 解析程式的 Web 服務 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 236cff15-562a-41d5-bfdc-d250186fb616
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,18 +17,19 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295214"
 ---
 # <a name="the-resolver-web-service"></a><span data-ttu-id="02e69-102">解析程式的 Web 服務</span><span class="sxs-lookup"><span data-stu-id="02e69-102">The Resolver Web Service</span></span>
 <span data-ttu-id="02e69-103">解析程式 Web 服務是一個閘道到 ESB 動態解析機制。</span><span class="sxs-lookup"><span data-stu-id="02e69-103">The Resolver Web service is a gateway into the ESB dynamic resolution mechanism.</span></span> [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]<span data-ttu-id="02e69-104">包含此服務的兩個版本： ASP.NET (ASMX) 版本和 Windows Communication Foundation (WCF) 版本。</span><span class="sxs-lookup"><span data-stu-id="02e69-104"> includes two versions of this service: an ASP.NET (ASMX) version and a Windows Communication Foundation (WCF) version.</span></span> <span data-ttu-id="02e69-105">服務名稱就是**ESB。ResolverServices**和**ESB。ResolverServices.WCF**分別和服務會公開下列方法：</span><span class="sxs-lookup"><span data-stu-id="02e69-105">The service names are **ESB.ResolverServices** and **ESB.ResolverServices.WCF**, respectively, and the services expose the following methods:</span></span>  
   
--   <span data-ttu-id="02e69-106">**解決。**</span><span class="sxs-lookup"><span data-stu-id="02e69-106">**Resolve.**</span></span> <span data-ttu-id="02e69-107">這個方法會採用做為其單一參數**字串**，其中包含解析程式的連接字串，針對要求符合標準的連接字串的已註冊的解析程式例如**靜態、 BRE、 UDDI，XPATH、 路線、 路線靜態、 BRI，**或**LDAP。**</span><span class="sxs-lookup"><span data-stu-id="02e69-107">This method takes as its single parameter a **String** that contains the resolver connection string for the request, which conforms to the standard connection strings for registered resolvers such as **STATIC, BRE, UDDI, XPATH, ITINERARY, ITINERARY-STATIC, BRI,** or **LDAP.**</span></span>  
+-   <span data-ttu-id="02e69-106">**解決。**</span><span class="sxs-lookup"><span data-stu-id="02e69-106">**Resolve.**</span></span> <span data-ttu-id="02e69-107">這個方法會採用做為其單一參數**字串**，其中包含解析程式的連接字串，針對要求符合標準的連接字串的已註冊的解析程式例如**靜態、 BRE、 UDDI，XPATH、 路線、 路線靜態、 BRI，** 或**LDAP。**</span><span class="sxs-lookup"><span data-stu-id="02e69-107">This method takes as its single parameter a **String** that contains the resolver connection string for the request, which conforms to the standard connection strings for registered resolvers such as **STATIC, BRE, UDDI, XPATH, ITINERARY, ITINERARY-STATIC, BRI,** or **LDAP.**</span></span>  
   
--   <span data-ttu-id="02e69-108">**ResolveMessage。**</span><span class="sxs-lookup"><span data-stu-id="02e69-108">**ResolveMessage.**</span></span> <span data-ttu-id="02e69-109">這個方法會採用做為其第一個參數包含要求中，符合標準的連接字串的已註冊的解析程式這類的解析程式連接字串的字串**靜態、 BRE、 UDDI、 XPATH、 路線，行程靜態、 BRI，**或**LDAP**。</span><span class="sxs-lookup"><span data-stu-id="02e69-109">This method takes as its first parameter a String that contains the resolver connection string for the request, which conforms to the standard connection strings for registered resolvers such as  **STATIC, BRE, UDDI, XPATH, ITINERARY, ITINERARY-STATIC, BRI,** or **LDAP**.</span></span> <span data-ttu-id="02e69-110">此外，該方法會接受選擇性的第二個參數，做為**字串**包含服務可以使用做為選擇性的事實，以協助解決的 XML 訊息文件; 例如，BRE 解析程式可能需要訊息本文封裝事實。</span><span class="sxs-lookup"><span data-stu-id="02e69-110">In addition, the method accepts an optional second parameter as a **String** that contains an XML message document that the service can use as optional facts to assist in a resolution; for example, the BRE resolver may require a message body that encapsulates facts.</span></span>  
+-   <span data-ttu-id="02e69-108">**ResolveMessage。**</span><span class="sxs-lookup"><span data-stu-id="02e69-108">**ResolveMessage.**</span></span> <span data-ttu-id="02e69-109">這個方法會採用做為其第一個參數包含要求中，符合標準的連接字串的已註冊的解析程式這類的解析程式連接字串的字串**靜態、 BRE、 UDDI、 XPATH、 路線，行程靜態、 BRI，** 或**LDAP**。</span><span class="sxs-lookup"><span data-stu-id="02e69-109">This method takes as its first parameter a String that contains the resolver connection string for the request, which conforms to the standard connection strings for registered resolvers such as  **STATIC, BRE, UDDI, XPATH, ITINERARY, ITINERARY-STATIC, BRI,** or **LDAP**.</span></span> <span data-ttu-id="02e69-110">此外，該方法會接受選擇性的第二個參數，做為**字串**包含服務可以使用做為選擇性的事實，以協助解決的 XML 訊息文件; 例如，BRE 解析程式可能需要訊息本文封裝事實。</span><span class="sxs-lookup"><span data-stu-id="02e69-110">In addition, the method accepts an optional second parameter as a **String** that contains an XML message document that the service can use as optional facts to assist in a resolution; for example, the BRE resolver may require a message body that encapsulates facts.</span></span>  
   
  <span data-ttu-id="02e69-111">如需解析器和 ResolverDictionary 類別和其使用方式的詳細資訊，請參閱[使用協助程式類別](../esb-toolkit/using-the-helper-classes.md)。</span><span class="sxs-lookup"><span data-stu-id="02e69-111">For more information about the Resolver and ResolverDictionary classes and their usage, see [Using the Helper Classes](../esb-toolkit/using-the-helper-classes.md).</span></span>  
   
 ## <a name="resolver-connection-strings"></a><span data-ttu-id="02e69-112">解析程式的連接字串</span><span class="sxs-lookup"><span data-stu-id="02e69-112">Resolver Connection Strings</span></span>  
- <span data-ttu-id="02e69-113">ESB 動態解析機制會使用連接字串，加上表示的解析度來執行類型的 moniker。</span><span class="sxs-lookup"><span data-stu-id="02e69-113">The ESB dynamic resolution mechanism uses a connection string preceded by a moniker that indicates the type of resolution to perform.</span></span> <span data-ttu-id="02e69-114">包含支援的 moniker**靜態、 BRE、 UDDI、 UDDI3、 XPATH、 路線、 路線靜態、 BRI，**和**LDAP**。</span><span class="sxs-lookup"><span data-stu-id="02e69-114">The supported monikers include **STATIC, BRE, UDDI, UDDI3, XPATH, ITINERARY, ITINERARY-STATIC, BRI,** and **LDAP**.</span></span> <span data-ttu-id="02e69-115">下列連接字串示範**UDDI** moniker:</span><span class="sxs-lookup"><span data-stu-id="02e69-115">The following connection string shows an example of a **UDDI** moniker:</span></span>  
+ <span data-ttu-id="02e69-113">ESB 動態解析機制會使用連接字串，加上表示的解析度來執行類型的 moniker。</span><span class="sxs-lookup"><span data-stu-id="02e69-113">The ESB dynamic resolution mechanism uses a connection string preceded by a moniker that indicates the type of resolution to perform.</span></span> <span data-ttu-id="02e69-114">包含支援的 moniker**靜態、 BRE、 UDDI、 UDDI3、 XPATH、 路線、 路線靜態、 BRI，** 和**LDAP**。</span><span class="sxs-lookup"><span data-stu-id="02e69-114">The supported monikers include **STATIC, BRE, UDDI, UDDI3, XPATH, ITINERARY, ITINERARY-STATIC, BRI,** and **LDAP**.</span></span> <span data-ttu-id="02e69-115">下列連接字串示範**UDDI** moniker:</span><span class="sxs-lookup"><span data-stu-id="02e69-115">The following connection string shows an example of a **UDDI** moniker:</span></span>  
   
 ```  
   

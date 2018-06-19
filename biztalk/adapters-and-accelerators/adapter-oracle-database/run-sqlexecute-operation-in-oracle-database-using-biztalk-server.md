@@ -1,17 +1,17 @@
 ---
-title: "使用 BizTalk Server 的 Oracle 資料庫中執行 SQLEXECUTE 操作 |Microsoft 文件"
-ms.custom: 
+title: 使用 BizTalk Server 的 Oracle 資料庫中執行 SQLEXECUTE 操作 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SQLEXECUTE operation, performing by using BizTalk Server
 - SQLEXECUTE operation
 ms.assetid: 7fdd1ead-0bf0-46cf-86fc-db513f76f6b3
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962260"
 ---
 # <a name="run-sqlexecute-operation-in-oracle-database-using-biztalk-server"></a><span data-ttu-id="cf951-102">使用 BizTalk Server 的 Oracle 資料庫中執行 SQLEXECUTE 操作</span><span class="sxs-lookup"><span data-stu-id="cf951-102">Run SQLEXECUTE operation in Oracle Database using BizTalk Server</span></span>
 <span data-ttu-id="cf951-103">[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]可讓用戶端上的 Oracle 資料庫執行參數化的 SQL 陳述式。</span><span class="sxs-lookup"><span data-stu-id="cf951-103">The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] enables clients to run parameterized SQL statement on an Oracle database.</span></span> <span data-ttu-id="cf951-104">若要支援這類作業，[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]呈現 SQLEXECUTE 操作。</span><span class="sxs-lookup"><span data-stu-id="cf951-104">To support such operations, the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] surfaces a SQLEXECUTE operation.</span></span> <span data-ttu-id="cf951-105">SQLEXECUTE 作業支援的參數集可讓您執行相同的 SQL 陳述式，一次針對每組所組成的輸入的參數區塊。</span><span class="sxs-lookup"><span data-stu-id="cf951-105">SQLEXECUTE operation supports an input parameter block comprised of parameter sets that enable you to execute the same SQL statement once for each set.</span></span> <span data-ttu-id="cf951-106">SQLEXECUTE 操作傳回泛型的記錄組中的 SQL 陳述式的結果。</span><span class="sxs-lookup"><span data-stu-id="cf951-106">The SQLEXECUTE operation returns the results of the SQL statement in a generic record set.</span></span> <span data-ttu-id="cf951-107">如需作業的詳細資訊，請參閱[SQLEXECUTE 操作 Oracle 資料庫中](../../adapters-and-accelerators/adapter-oracle-database/sqlexecute-operation-in-oracle-database.md)。</span><span class="sxs-lookup"><span data-stu-id="cf951-107">For more information about the operation, see [SQLEXECUTE Operation in Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/sqlexecute-operation-in-oracle-database.md).</span></span> <span data-ttu-id="cf951-108">SQLEXECUTE 操作的 SOAP 訊息結構的相關資訊，請參閱[SQLEXECUTE 操作的訊息結構描述](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-the-sqlexecute-operation.md)。</span><span class="sxs-lookup"><span data-stu-id="cf951-108">For information about the structure of the SOAP message for SQLEXECUTE operation, see [Message Schemas for the SQLEXECUTE Operation](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-the-sqlexecute-operation.md).</span></span>  
@@ -96,7 +97,7 @@ ms.lasthandoff: 11/28/2017
   
 |<span data-ttu-id="cf951-168">形狀圖</span><span class="sxs-lookup"><span data-stu-id="cf951-168">Shape</span></span>|<span data-ttu-id="cf951-169">圖形類型</span><span class="sxs-lookup"><span data-stu-id="cf951-169">Shape Type</span></span>|<span data-ttu-id="cf951-170">屬性</span><span class="sxs-lookup"><span data-stu-id="cf951-170">Properties</span></span>|  
 |-----------|----------------|----------------|  
-|<span data-ttu-id="cf951-171">ReceiveMessage</span><span class="sxs-lookup"><span data-stu-id="cf951-171">ReceiveMessage</span></span>|<span data-ttu-id="cf951-172">Receive</span><span class="sxs-lookup"><span data-stu-id="cf951-172">Receive</span></span>|<span data-ttu-id="cf951-173">-設定**名稱**至*ReceiveMessage*</span><span class="sxs-lookup"><span data-stu-id="cf951-173">-   Set **Name** to *ReceiveMessage*</span></span><br /><span data-ttu-id="cf951-174">-設定**啟動**至*，則為 True*</span><span class="sxs-lookup"><span data-stu-id="cf951-174">-   Set **Activate** to *True*</span></span>|  
+|<span data-ttu-id="cf951-171">ReceiveMessage</span><span class="sxs-lookup"><span data-stu-id="cf951-171">ReceiveMessage</span></span>|<span data-ttu-id="cf951-172">Receive</span><span class="sxs-lookup"><span data-stu-id="cf951-172">Receive</span></span>|<span data-ttu-id="cf951-173">-設定**名稱**至*ReceiveMessage*</span><span class="sxs-lookup"><span data-stu-id="cf951-173">-   Set **Name** to *ReceiveMessage*</span></span><br /><span data-ttu-id="cf951-174">-設定**啟動**至 *，則為 True*</span><span class="sxs-lookup"><span data-stu-id="cf951-174">-   Set **Activate** to *True*</span></span>|  
 |<span data-ttu-id="cf951-175">SendMessage</span><span class="sxs-lookup"><span data-stu-id="cf951-175">SendMessage</span></span>|<span data-ttu-id="cf951-176">Send</span><span class="sxs-lookup"><span data-stu-id="cf951-176">Send</span></span>|<span data-ttu-id="cf951-177">-設定**名稱**至*SendMessage*</span><span class="sxs-lookup"><span data-stu-id="cf951-177">-   Set **Name** to *SendMessage*</span></span>|  
 |<span data-ttu-id="cf951-178">ReceiveResponse</span><span class="sxs-lookup"><span data-stu-id="cf951-178">ReceiveResponse</span></span>|<span data-ttu-id="cf951-179">Receive</span><span class="sxs-lookup"><span data-stu-id="cf951-179">Receive</span></span>|<span data-ttu-id="cf951-180">-設定**名稱**至*ReceiveResponse*</span><span class="sxs-lookup"><span data-stu-id="cf951-180">-   Set **Name** to *ReceiveResponse*</span></span><br /><span data-ttu-id="cf951-181">-設定**啟動**至*False*</span><span class="sxs-lookup"><span data-stu-id="cf951-181">-   Set **Activate** to *False*</span></span>|  
 |<span data-ttu-id="cf951-182">SendResponse</span><span class="sxs-lookup"><span data-stu-id="cf951-182">SendResponse</span></span>|<span data-ttu-id="cf951-183">Send</span><span class="sxs-lookup"><span data-stu-id="cf951-183">Send</span></span>|<span data-ttu-id="cf951-184">-設定**名稱**至*SendResponse*</span><span class="sxs-lookup"><span data-stu-id="cf951-184">-   Set **Name** to *SendResponse*</span></span>|  

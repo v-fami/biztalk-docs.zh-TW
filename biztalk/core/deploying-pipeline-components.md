@@ -1,17 +1,17 @@
 ---
-title: "將管線元件部署 |Microsoft 文件"
-ms.custom: 
+title: 將管線元件部署 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, pipeline components [custom]
 - pipeline components [custom], deploying
 ms.assetid: 98b47fbf-62c0-4012-a406-58c4d56b305a
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969028"
 ---
 # <a name="deploying-pipeline-components"></a><span data-ttu-id="52e58-102">部署管線元件</span><span class="sxs-lookup"><span data-stu-id="52e58-102">Deploying Pipeline Components</span></span>
 <span data-ttu-id="52e58-103">所有.NET 管線元件組件 （原生和自訂） 必須都位於\<*安裝目錄*\>\Pipeline Components 資料夾執行的伺服器。</span><span class="sxs-lookup"><span data-stu-id="52e58-103">All the .NET pipeline component assemblies (native and custom) must be located in the \<*installation directory*\>\Pipeline Components folder to be executed by the server.</span></span> <span data-ttu-id="52e58-104">如果具有自訂元件的管線將要在數台伺服器之間部署，該元件的二進位檔必須存在於每一部伺服器上的指定資料夾中。</span><span class="sxs-lookup"><span data-stu-id="52e58-104">If the pipeline with a custom component will be deployed across several servers, the component's binaries must be present in the specified folder on every server.</span></span>  

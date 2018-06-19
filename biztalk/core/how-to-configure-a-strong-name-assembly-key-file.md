@@ -1,14 +1,14 @@
 ---
-title: "如何設定強式名稱組件金鑰檔案 |Microsoft 文件"
-ms.custom: 
+title: 如何設定強式名稱組件金鑰檔案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5778a8ec-f5f7-4ae1-a57e-99f6503f044c
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968804"
 ---
 # <a name="how-to-configure-a-strong-name-assembly-key-file"></a><span data-ttu-id="8fb43-102">如何設定強式名稱組件金鑰檔案</span><span class="sxs-lookup"><span data-stu-id="8fb43-102">How to Configure a Strong Name Assembly Key File</span></span>
 <span data-ttu-id="8fb43-103">在部署 BizTalk 解決方案的程序中，[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 會先建置組件。</span><span class="sxs-lookup"><span data-stu-id="8fb43-103">In the process of deploying a BizTalk solution, [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] first builds the assemblies.</span></span> <span data-ttu-id="8fb43-104">部署程序要求每個組件都應經過強式簽署。</span><span class="sxs-lookup"><span data-stu-id="8fb43-104">The deployment process requires that each assembly is strongly signed.</span></span> <span data-ttu-id="8fb43-105">您可以將專案與強式名稱組件金鑰檔案產生關聯，即可強式簽署組件。</span><span class="sxs-lookup"><span data-stu-id="8fb43-105">You can strongly sign your assemblies by associating the project with a strong name assembly key file.</span></span> <span data-ttu-id="8fb43-106">如果您還沒有，部署從解決方案之前[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]，來產生強式名稱組件金鑰檔案，並將它指派給每個專案方案中使用下列程序。</span><span class="sxs-lookup"><span data-stu-id="8fb43-106">If you haven't already done so, before deploying a solution from [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], use the following procedure to generate a strong name assembly key file and assign it to each project in the solution.</span></span>  

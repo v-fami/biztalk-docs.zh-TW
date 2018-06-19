@@ -1,14 +1,14 @@
 ---
-title: "網域群組 |Microsoft 文件"
-ms.custom: 
+title: 網域群組 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9adc090e-e18c-46b6-b985-49b200d42966
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968284"
 ---
 # <a name="domain-groups-in-biztalk"></a><span data-ttu-id="16f3a-102">在 BIzTalk 網域群組</span><span class="sxs-lookup"><span data-stu-id="16f3a-102">Domain Groups in BIzTalk</span></span>
 <span data-ttu-id="16f3a-103">BizTalk Server 在單一電腦組態和多電腦組態中都支援網域群組和使用者帳戶。</span><span class="sxs-lookup"><span data-stu-id="16f3a-103">BizTalk Server supports domain group and user accounts in both single and multiple computer configurations.</span></span> <span data-ttu-id="16f3a-104">對於多電腦組態，您必須遵守本節以及《安裝指南》中的＜多伺服器環境的考量＞所規定的要求。</span><span class="sxs-lookup"><span data-stu-id="16f3a-104">For multiple computer configurations, you must observe the requirements provided in this section and in the Considerations for Multiserver Environments in the Installation Guide.</span></span> <span data-ttu-id="16f3a-105">如需詳細資訊，請參閱[安裝概觀](../install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md)。</span><span class="sxs-lookup"><span data-stu-id="16f3a-105">For more information, see the [installation overview](../install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md).</span></span>  

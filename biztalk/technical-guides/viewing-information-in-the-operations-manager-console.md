@@ -1,14 +1,14 @@
 ---
-title: "檢視 Operations Manager 主控台中的資訊 |Microsoft 文件"
-ms.custom: 
+title: 檢視 Operations Manager 主控台中的資訊 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6acdf425-4c36-4d89-9493-81b33481fe6d
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302558"
 ---
 # <a name="viewing-information-in-the-operations-manager-console"></a><span data-ttu-id="dda55-102">檢視 Operations Manager 主控台中的資訊</span><span class="sxs-lookup"><span data-stu-id="dda55-102">Viewing Information in the Operations Manager Console</span></span>
 <span data-ttu-id="dda55-103">使用所提供的檢視[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理組件以了解目前的可用性、 設定、 健全狀況，以及 BizTalk Server 環境的效能。</span><span class="sxs-lookup"><span data-stu-id="dda55-103">Use the views provided with the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management Pack to understand the current availability, configuration, health, and performance of your BizTalk Server environment.</span></span> <span data-ttu-id="dda55-104">檢視可能會包含冗長的物件清單。</span><span class="sxs-lookup"><span data-stu-id="dda55-104">A view can contain a lengthy list of objects.</span></span> <span data-ttu-id="dda55-105">若要尋找特定的物件或物件群組，可以使用 Operations Manager 工具列上的 [領域]、[搜尋] 和 [尋找] 按鈕。</span><span class="sxs-lookup"><span data-stu-id="dda55-105">To find a specific object or group of objects, you can use the Scope, Search, and Find buttons on the Operations Manager toolbar.</span></span> <span data-ttu-id="dda55-106">如需詳細資訊，請參閱 「 如何管理監視資料使用領域、 搜尋和尋找 Operations Manager 2007 R2\2012 說明中的主題。</span><span class="sxs-lookup"><span data-stu-id="dda55-106">For more information, see the How to Manage Monitoring Data Using Scope, Search, and Find topic in Operations Manager 2007 R2\2012 Help.</span></span>  

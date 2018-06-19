@@ -1,14 +1,14 @@
 ---
-title: "TIBCO EMS 訊息描述元屬性 |Microsoft 文件"
-ms.custom: 
+title: TIBCO EMS 訊息描述元屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fc164c12-6dc3-4b74-9aa9-024e18faf80a
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014821"
 ---
 # <a name="tibco-enterprise-message-service-message-descriptor-properties"></a><span data-ttu-id="7ea34-102">TIBCO Enterprise Message Service 訊息描述元屬性</span><span class="sxs-lookup"><span data-stu-id="7ea34-102">TIBCO Enterprise Message Service Message Descriptor Properties</span></span>
 

@@ -1,14 +1,14 @@
 ---
-title: "TIBCO Rendezvous 中的資料類型的傳送處理常式對應 |Microsoft 文件"
-ms.custom: 
+title: TIBCO Rendezvous 中的資料類型的傳送處理常式對應 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fa1a9233-8781-45a8-9c55-a18ecaa0f456
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015237"
 ---
 # <a name="data-type-mapping-for-send-handlers-in-tibco-rendezvous"></a><span data-ttu-id="2f06d-102">TIBCO Rendezvous 中的傳送處理常式資料型別對應</span><span class="sxs-lookup"><span data-stu-id="2f06d-102">Data Type Mapping for Send Handlers in TIBCO Rendezvous</span></span>
 <span data-ttu-id="2f06d-103">只有當 TIBCO Rendezvous 提供了型別資訊 (xsi:type=) 時，才能從 XML 結構描述型別對應至 TIBCO Rendezvous 型別。</span><span class="sxs-lookup"><span data-stu-id="2f06d-103">The mapping from XML schema types to TIBCO Rendezvous types is only possible if TIBCO Rendezvous provides type information (xsi:type=).</span></span> <span data-ttu-id="2f06d-104">任何 不支援的型別都會對應至字串 (如果可以的話)。</span><span class="sxs-lookup"><span data-stu-id="2f06d-104">Any unsupported types are mapped to strings if it is possible.</span></span> <span data-ttu-id="2f06d-105">若無法進行對應，或傳送埠組態中已停用對應選項，即會產生錯誤。</span><span class="sxs-lookup"><span data-stu-id="2f06d-105">If mapping is not possible, or if the option is disabled in the port configuration, an error is generated.</span></span>  

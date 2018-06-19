@@ -1,18 +1,18 @@
 ---
-title: "若要建立的 SAP 應用程式的建置組塊 |Microsoft 文件"
-ms.custom: 
+title: 若要建立的 SAP 應用程式的建置組塊 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - design-time tasks
 - run-time tasks
 - developing, fundamentals of (BizTalk applications)
 ms.assetid: 591a5597-5e7d-44b0-8bee-e1c987c5e6c3
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218166"
 ---
 # <a name="building-blocks-to-create-sap-applications"></a><span data-ttu-id="e4ce3-102">若要建立的 SAP 應用程式的建置組塊</span><span class="sxs-lookup"><span data-stu-id="e4ce3-102">Building blocks to create SAP applications</span></span>
 <span data-ttu-id="e4ce3-103">對 SAP 系統使用執行作業[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]牽涉到兩個一組活動： 設計階段活動和執行階段活動。</span><span class="sxs-lookup"><span data-stu-id="e4ce3-103">Performing operations on an SAP system using [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] involves two set of activities: design-time activities and run-time activities.</span></span> <span data-ttu-id="e4ce3-104">若要使用執行 SAP 系統上的作業[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]與[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]，您必須執行一組使用的設計階段和執行階段工作[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]和[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]管理主控台分別。</span><span class="sxs-lookup"><span data-stu-id="e4ce3-104">To perform operations on an SAP system by using the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], you must perform a set of design-time and run-time tasks using [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] and [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console respectively.</span></span> <span data-ttu-id="e4ce3-105">本節提供這些工作的概觀。</span><span class="sxs-lookup"><span data-stu-id="e4ce3-105">This section provides an overview of these tasks.</span></span> <span data-ttu-id="e4ce3-106">中的所有主題本節中，可示範如何執行 SAP 系統使用的特定作業[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]，這些高階的工作建立模型。</span><span class="sxs-lookup"><span data-stu-id="e4ce3-106">All the topics in this section, which demonstrate how to perform specific operations on an SAP system using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], are modeled on these high-level tasks.</span></span>  

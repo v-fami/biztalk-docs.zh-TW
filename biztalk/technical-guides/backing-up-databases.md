@@ -1,14 +1,14 @@
 ---
-title: "備份資料庫 |Microsoft 文件"
-ms.custom: 
+title: 備份資料庫 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0524a8f0-15a3-4731-a7bd-c0c935fff6c8
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22300534"
 ---
 # <a name="backing-up-databases"></a><span data-ttu-id="75fdb-102">備份資料庫</span><span class="sxs-lookup"><span data-stu-id="75fdb-102">Backing Up Databases</span></span>
 <span data-ttu-id="75fdb-103">因為[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]使用分散式交易，跨多個資料庫時，「 備份 BizTalk Server 」 工作建立的所有同步的備份[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]資料庫。</span><span class="sxs-lookup"><span data-stu-id="75fdb-103">Because[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses distributed transactions across multiple databases, the Backup BizTalk Server job creates synchronized backups of all [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases.</span></span> <span data-ttu-id="75fdb-104">這被透過使用標示的交易具有 「 完整 」 資料庫復原模式。</span><span class="sxs-lookup"><span data-stu-id="75fdb-104">This is accomplished by using marked transactions with the “Full” database recovery model.</span></span> <span data-ttu-id="75fdb-105">這是必要的備份，以跨資料庫交易一致。</span><span class="sxs-lookup"><span data-stu-id="75fdb-105">This is required for the backups to be transactionally consistent across databases.</span></span> <span data-ttu-id="75fdb-106">如需詳細資訊，請參閱["標示的交易、 完整備份和記錄備份 」](http://go.microsoft.com/fwlink/?LinkId=151565) (http://go.microsoft.com/fwlink/?LinkId=151565) 中的 BizTalk Server 文件。</span><span class="sxs-lookup"><span data-stu-id="75fdb-106">For more information, see ["Marked Transactions, Full Backups, and Log Backups"](http://go.microsoft.com/fwlink/?LinkId=151565) (http://go.microsoft.com/fwlink/?LinkId=151565) in the BizTalk Server documentation.</span></span>  

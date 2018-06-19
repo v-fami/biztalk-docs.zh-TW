@@ -1,18 +1,18 @@
 ---
-title: "步驟 4： 建立交易協議 |Microsoft 文件"
-ms.custom: 
+title: 步驟 4： 建立交易協議 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, trade agreeements
 - loopback tutorial, creating trade agreements
 - agreements, creating
 ms.assetid: 9bcb80b1-fefc-4f1c-ae03-fb736cdfd524
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964261"
 ---
 # <a name="step-4-create-a-trade-agreement"></a><span data-ttu-id="6b4a9-102">步驟 4： 建立交易協議</span><span class="sxs-lookup"><span data-stu-id="6b4a9-102">Step 4: Create a Trade Agreement</span></span>
 <span data-ttu-id="6b4a9-103">在此步驟中，您將使用 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 管理主控台，建立主要組織和夥伴組織之間的交易協議。</span><span class="sxs-lookup"><span data-stu-id="6b4a9-103">In this step, you create a trade agreement between the home and partner organization using the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Management Console.</span></span>  

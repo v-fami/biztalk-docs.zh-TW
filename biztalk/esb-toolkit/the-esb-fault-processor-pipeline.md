@@ -1,14 +1,14 @@
 ---
-title: "ESB 錯誤處理器管線 |Microsoft 文件"
-ms.custom: 
+title: ESB 錯誤處理器管線 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a57752b1-8bca-4534-9e5b-7ce721a9490a
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22296166"
 ---
 # <a name="the-esb-fault-processor-pipeline"></a><span data-ttu-id="0db17-102">ESB 錯誤處理器管線</span><span class="sxs-lookup"><span data-stu-id="0db17-102">The ESB Fault Processor Pipeline</span></span>
 <span data-ttu-id="0db17-103">[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]安裝名為所有的傳送埠。使用 ESBFaultProcessor 的例外狀況傳送管線。</span><span class="sxs-lookup"><span data-stu-id="0db17-103">The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] installs a send port named ALL.Exceptions that uses the ESBFaultProcessor send pipeline.</span></span> <span data-ttu-id="0db17-104">圖 1 顯示所有的屬性。例外狀況傳送埠。</span><span class="sxs-lookup"><span data-stu-id="0db17-104">Figure 1 shows the properties of the ALL.Exceptions send port.</span></span>  

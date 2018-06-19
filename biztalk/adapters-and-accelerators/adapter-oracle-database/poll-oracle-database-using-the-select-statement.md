@@ -1,17 +1,17 @@
 ---
-title: "使用 SELECT 陳述式的輪詢 Oracle 資料庫 |Microsoft 文件"
-ms.custom: 
+title: 使用 SELECT 陳述式的輪詢 Oracle 資料庫 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - polling-based notifications, receiving from Oracle
 - polling query, configuring a
 ms.assetid: d2689eb9-6f17-498f-8a32-07f43a368833
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965092"
 ---
 # <a name="poll-oracle-database-using-the-select-statement"></a><span data-ttu-id="96ab4-102">使用 SELECT 陳述式的輪詢 Oracle 資料庫</span><span class="sxs-lookup"><span data-stu-id="96ab4-102">Poll Oracle Database using the SELECT statement</span></span>
 <span data-ttu-id="96ab4-103">您可以設定[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]接收定期的資料變更訊息，若要連續輪詢的資料表和檢視 Oracle 與 Oracle 資料庫中的使用 SELECT 陳述式。</span><span class="sxs-lookup"><span data-stu-id="96ab4-103">You can configure the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] to receive periodic data-change messages by using a SELECT statement to continuously poll the tables and views in Oracle the Oracle database.</span></span> <span data-ttu-id="96ab4-104">您可以指定 SELECT 陳述式，為配接器執行定期輪詢 Oracle 資料庫的輪詢陳述式。</span><span class="sxs-lookup"><span data-stu-id="96ab4-104">You can specify a SELECT statement as a polling statement that the adapter executes periodically to poll the Oracle database.</span></span> <span data-ttu-id="96ab4-105">（選擇性） 您也可以指定的資料變更時，執行配接器的後輪詢 PL/SQL 程式碼區塊。</span><span class="sxs-lookup"><span data-stu-id="96ab4-105">Optionally, you can also specify a post-poll PL/SQL code block that the adapter executes if there is a change in data.</span></span> <span data-ttu-id="96ab4-106">此區塊會經常更新目標中的查詢記錄中的欄位，或將查詢的記錄移到另一個資料表或檢視表。</span><span class="sxs-lookup"><span data-stu-id="96ab4-106">This block is often used to update a field on the queried records in the target or to move the queried records to another table or view.</span></span>  
@@ -149,7 +150,7 @@ SELECT * FROM ACCOUNTACTIVITY FOR UPDATE
   
 |<span data-ttu-id="96ab4-228">形狀圖</span><span class="sxs-lookup"><span data-stu-id="96ab4-228">Shape</span></span>|<span data-ttu-id="96ab4-229">圖形類型</span><span class="sxs-lookup"><span data-stu-id="96ab4-229">Shape Type</span></span>|<span data-ttu-id="96ab4-230">屬性</span><span class="sxs-lookup"><span data-stu-id="96ab4-230">Properties</span></span>|  
 |-----------|----------------|----------------|  
-|<span data-ttu-id="96ab4-231">ReceiveMessage</span><span class="sxs-lookup"><span data-stu-id="96ab4-231">ReceiveMessage</span></span>|<span data-ttu-id="96ab4-232">Receive</span><span class="sxs-lookup"><span data-stu-id="96ab4-232">Receive</span></span>|<span data-ttu-id="96ab4-233">-設定**名稱**至*ReceiveMessage*</span><span class="sxs-lookup"><span data-stu-id="96ab4-233">- Set **Name** to *ReceiveMessage*</span></span><br /><br /> <span data-ttu-id="96ab4-234">-設定**啟動**至*，則為 True*</span><span class="sxs-lookup"><span data-stu-id="96ab4-234">- Set **Activate** to *True*</span></span>|  
+|<span data-ttu-id="96ab4-231">ReceiveMessage</span><span class="sxs-lookup"><span data-stu-id="96ab4-231">ReceiveMessage</span></span>|<span data-ttu-id="96ab4-232">Receive</span><span class="sxs-lookup"><span data-stu-id="96ab4-232">Receive</span></span>|<span data-ttu-id="96ab4-233">-設定**名稱**至*ReceiveMessage*</span><span class="sxs-lookup"><span data-stu-id="96ab4-233">- Set **Name** to *ReceiveMessage*</span></span><br /><br /> <span data-ttu-id="96ab4-234">-設定**啟動**至 *，則為 True*</span><span class="sxs-lookup"><span data-stu-id="96ab4-234">- Set **Activate** to *True*</span></span>|  
 |<span data-ttu-id="96ab4-235">SaveMessage</span><span class="sxs-lookup"><span data-stu-id="96ab4-235">SaveMessage</span></span>|<span data-ttu-id="96ab4-236">Send</span><span class="sxs-lookup"><span data-stu-id="96ab4-236">Send</span></span>|<span data-ttu-id="96ab4-237">-設定**名稱**至*SaveMessage*</span><span class="sxs-lookup"><span data-stu-id="96ab4-237">- Set **Name** to *SaveMessage*</span></span>|  
   
 ### <a name="adding-ports"></a><span data-ttu-id="96ab4-238">新增連接埠</span><span class="sxs-lookup"><span data-stu-id="96ab4-238">Adding Ports</span></span>  

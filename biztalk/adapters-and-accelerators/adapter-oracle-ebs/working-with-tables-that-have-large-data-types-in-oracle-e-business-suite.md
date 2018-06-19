@@ -1,14 +1,14 @@
 ---
-title: "使用 Oracle E-business Suite 中具有大型資料類型的資料表，|Microsoft 文件"
-ms.custom: 
+title: 使用 Oracle E-business Suite 中具有大型資料類型的資料表，|Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 501aa302-0f82-4221-b99f-423bc8621a6a
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968108"
 ---
 # <a name="working-with-tables-that-have-large-data-types-in-oracle-e-business-suite"></a><span data-ttu-id="f58d5-102">使用 Oracle E-business Suite 中具有大型資料類型的資料表</span><span class="sxs-lookup"><span data-stu-id="f58d5-102">Working with tables that have large data types in Oracle E-Business Suite</span></span>
 <span data-ttu-id="f58d5-103">[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]可讓配接器用戶端執行具有大型資料類型，例如 BLOB、 CLOB、 NCLOB、 和 BFILE 介面資料表和檢視表上的作業。</span><span class="sxs-lookup"><span data-stu-id="f58d5-103">The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] enables adapter clients to perform operations on interface tables and views with large data types such as BLOB, CLOB, NCLOB, and BFILE.</span></span>  
@@ -117,7 +118,7 @@ ms.lasthandoff: 11/28/2017
   
 |<span data-ttu-id="f58d5-188">形狀圖</span><span class="sxs-lookup"><span data-stu-id="f58d5-188">Shape</span></span>|<span data-ttu-id="f58d5-189">圖形類型</span><span class="sxs-lookup"><span data-stu-id="f58d5-189">Shape Type</span></span>|<span data-ttu-id="f58d5-190">屬性</span><span class="sxs-lookup"><span data-stu-id="f58d5-190">Properties</span></span>|  
 |-----------|----------------|----------------|  
-|<span data-ttu-id="f58d5-191">ReceiveUpdateMessage</span><span class="sxs-lookup"><span data-stu-id="f58d5-191">ReceiveUpdateMessage</span></span>|<span data-ttu-id="f58d5-192">Receive</span><span class="sxs-lookup"><span data-stu-id="f58d5-192">Receive</span></span>|<span data-ttu-id="f58d5-193">-設定**名稱**至*ReceiveUpdateMessage*</span><span class="sxs-lookup"><span data-stu-id="f58d5-193">-   Set **Name** to *ReceiveUpdateMessage*</span></span><br /><span data-ttu-id="f58d5-194">-設定**啟動**至*，則為 True*</span><span class="sxs-lookup"><span data-stu-id="f58d5-194">-   Set **Activate** to *True*</span></span>|  
+|<span data-ttu-id="f58d5-191">ReceiveUpdateMessage</span><span class="sxs-lookup"><span data-stu-id="f58d5-191">ReceiveUpdateMessage</span></span>|<span data-ttu-id="f58d5-192">Receive</span><span class="sxs-lookup"><span data-stu-id="f58d5-192">Receive</span></span>|<span data-ttu-id="f58d5-193">-設定**名稱**至*ReceiveUpdateMessage*</span><span class="sxs-lookup"><span data-stu-id="f58d5-193">-   Set **Name** to *ReceiveUpdateMessage*</span></span><br /><span data-ttu-id="f58d5-194">-設定**啟動**至 *，則為 True*</span><span class="sxs-lookup"><span data-stu-id="f58d5-194">-   Set **Activate** to *True*</span></span>|  
 |<span data-ttu-id="f58d5-195">SendUpdateMessage</span><span class="sxs-lookup"><span data-stu-id="f58d5-195">SendUpdateMessage</span></span>|<span data-ttu-id="f58d5-196">Send</span><span class="sxs-lookup"><span data-stu-id="f58d5-196">Send</span></span>|<span data-ttu-id="f58d5-197">-設定**名稱**至*SendUpdateMessage*</span><span class="sxs-lookup"><span data-stu-id="f58d5-197">-   Set **Name** to *SendUpdateMessage*</span></span>|  
 |<span data-ttu-id="f58d5-198">ReceiveUpdateResponse</span><span class="sxs-lookup"><span data-stu-id="f58d5-198">ReceiveUpdateResponse</span></span>|<span data-ttu-id="f58d5-199">Receive</span><span class="sxs-lookup"><span data-stu-id="f58d5-199">Receive</span></span>|<span data-ttu-id="f58d5-200">-設定**名稱**至*ReceiveUpdateResponse*</span><span class="sxs-lookup"><span data-stu-id="f58d5-200">-   Set **Name** to *ReceiveUpdateResponse*</span></span>|  
 |<span data-ttu-id="f58d5-201">SendUpdateResponse</span><span class="sxs-lookup"><span data-stu-id="f58d5-201">SendUpdateResponse</span></span>|<span data-ttu-id="f58d5-202">Receive</span><span class="sxs-lookup"><span data-stu-id="f58d5-202">Receive</span></span>|<span data-ttu-id="f58d5-203">-設定**名稱**至*SendUpdateResponse*</span><span class="sxs-lookup"><span data-stu-id="f58d5-203">-   Set **Name** to *SendUpdateResponse*</span></span>|  

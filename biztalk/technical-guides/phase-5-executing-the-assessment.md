@@ -1,14 +1,14 @@
 ---
-title: "第 5 個階段： 執行評定 |Microsoft 文件"
-ms.custom: 
+title: 第 5 個階段： 執行評定 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3d40fc64-b6cb-448b-8ea1-a6ad7302ab8b
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302686"
 ---
 # <a name="phase-5-executing-the-assessment"></a><span data-ttu-id="473f6-102">第 5 個階段： 執行評估</span><span class="sxs-lookup"><span data-stu-id="473f6-102">Phase 5: Executing the Assessment</span></span>
 <span data-ttu-id="473f6-103">執行階段是透過自動化的負載測試和其中的效能瓶頸會探索及定址，產生的效能資料的位置。</span><span class="sxs-lookup"><span data-stu-id="473f6-103">The Execute phase is where the performance data is generated through automated load testing and where performance bottlenecks are discovered and addressed.</span></span> <span data-ttu-id="473f6-104">這個階段中具有反覆的程序效能瓶頸是減少或消除藉由測試，藉此評估效能、 最佳化及測試一次。</span><span class="sxs-lookup"><span data-stu-id="473f6-104">This phase has an iterative process whereby performance bottlenecks are reduced or eliminated by testing, evaluating performance, optimizing, and testing again.</span></span>  

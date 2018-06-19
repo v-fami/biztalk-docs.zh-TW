@@ -1,14 +1,14 @@
 ---
-title: "BizTalk 結構描述表示法 |Microsoft 文件"
-ms.custom: 
+title: BizTalk 結構描述表示法 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f0460a37-1f4f-4c0b-91db-bb457f434fe9
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966532"
 ---
 # <a name="biztalk-representation-of-schemas"></a><span data-ttu-id="3c3eb-102">BizTalk 結構描述表示法</span><span class="sxs-lookup"><span data-stu-id="3c3eb-102">BizTalk Representation of Schemas</span></span>
 
@@ -38,8 +39,8 @@ ms.lasthandoff: 11/28/2017
 |<span data-ttu-id="3c3eb-132">**Choice 群組**</span><span class="sxs-lookup"><span data-stu-id="3c3eb-132">**Choice Group**</span></span>|<span data-ttu-id="3c3eb-133">插入**Choice 群組**節點 (\<選擇\>樹狀檢視中) 選取的節點中順序的結尾。</span><span class="sxs-lookup"><span data-stu-id="3c3eb-133">Inserts a **Choice Group** node (\<Choice\> in the tree view) at the end of the sequence within the selected node.</span></span> <span data-ttu-id="3c3eb-134">如需有關**Choice 群組**節點，請參閱[Choice 群組節點](../core/choice-group-nodes.md)。</span><span class="sxs-lookup"><span data-stu-id="3c3eb-134">For more information about **Choice Group** nodes, see [Choice Group Nodes](../core/choice-group-nodes.md).</span></span>|  
 |<span data-ttu-id="3c3eb-135">**所有群組**</span><span class="sxs-lookup"><span data-stu-id="3c3eb-135">**All Group**</span></span>|<span data-ttu-id="3c3eb-136">插入**All 群組**節點 (\<所有\>樹狀檢視中) 的非屬性子節點的**記錄**節點，取代預設使用的**順序**內的項目**記錄**節點與使用**所有**項目。</span><span class="sxs-lookup"><span data-stu-id="3c3eb-136">Inserts an **All Group** node (\<All\> in the tree view) as the only non-attribute child node of a **Record** node, replacing the default use of a **sequence** element within the **Record** node with the use of an **all** element.</span></span> <span data-ttu-id="3c3eb-137">您可以插入之前**All 群組** 節點，您必須變更**內容類型**屬性包含**記錄**節點**ComplexContent**.</span><span class="sxs-lookup"><span data-stu-id="3c3eb-137">Before you can insert an **All Group** node, you must change the **Content Type** property of the containing **Record** node to **ComplexContent**.</span></span> <span data-ttu-id="3c3eb-138">如需有關**All 群組**節點，請參閱[All 群組 節點](../core/all-group-nodes.md)。</span><span class="sxs-lookup"><span data-stu-id="3c3eb-138">For more information about **All Group** nodes, see [All Group Nodes](../core/all-group-nodes.md).</span></span>|  
 |<span data-ttu-id="3c3eb-139">**屬性群組**</span><span class="sxs-lookup"><span data-stu-id="3c3eb-139">**Attribute Group**</span></span>|<span data-ttu-id="3c3eb-140">插入**屬性群組**節點 (\<AttrGroup:attrGroup*N* \>在樹狀結構檢視中，其中*N*是單純遞增的數字) 在所選的結尾**記錄**或**屬性群組**節點。</span><span class="sxs-lookup"><span data-stu-id="3c3eb-140">Inserts an **Attribute Group** node (\<AttrGroup:attrGroup*N*\> in the tree view, where *N* is a monotonically increasing numeral) at the end of the selected **Record** or **Attribute Group** node.</span></span> <span data-ttu-id="3c3eb-141">如需有關**屬性群組**節點，請參閱[屬性群組節點](../core/attribute-group-nodes.md)。</span><span class="sxs-lookup"><span data-stu-id="3c3eb-141">For more information about **Attribute Group** nodes, see [Attribute Group Nodes](../core/attribute-group-nodes.md).</span></span>|  
-|<span data-ttu-id="3c3eb-142">**任何項目**</span><span class="sxs-lookup"><span data-stu-id="3c3eb-142">**Any Element**</span></span>|<span data-ttu-id="3c3eb-143">插入**Any 項目**節點 (**\<**任何**\>** 樹狀檢視中) 中所選取順序的結尾**記錄**， **sequence 群組**， **Choice 群組**，或**All 群組**節點。</span><span class="sxs-lookup"><span data-stu-id="3c3eb-143">Inserts an **Any Element** node (**\<**Any**\>** in the tree view) at the end of the sequence within the selected **Record**, **Sequence Group**, **Choice Group**, or **All Group** node.</span></span> <span data-ttu-id="3c3eb-144">如需有關**Any 項目**節點，請參閱[Any 項目節點](../core/any-element-nodes.md)。</span><span class="sxs-lookup"><span data-stu-id="3c3eb-144">For more information about **Any Element** nodes, see [Any Element Nodes](../core/any-element-nodes.md).</span></span>|  
-|<span data-ttu-id="3c3eb-145">**任何屬性**</span><span class="sxs-lookup"><span data-stu-id="3c3eb-145">**Any Attribute**</span></span>|<span data-ttu-id="3c3eb-146">插入**Any 屬性**節點 (**\<**AnyAttribute **\>** 樹狀檢視中) 中選取順序的結尾**記錄**或**屬性群組**節點。</span><span class="sxs-lookup"><span data-stu-id="3c3eb-146">Inserts an **Any Attribute** node (**\<**AnyAttribute**\>** in the tree view) at the end of the sequence within the selected **Record** or **Attribute Group** node.</span></span> <span data-ttu-id="3c3eb-147">如需有關**Any 屬性**節點，請參閱[Any 屬性節點](../core/any-attribute-nodes.md)。</span><span class="sxs-lookup"><span data-stu-id="3c3eb-147">For more information about **Any Attribute** nodes, see [Any Attribute Nodes](../core/any-attribute-nodes.md).</span></span>|  
+|<span data-ttu-id="3c3eb-142">**任何項目**</span><span class="sxs-lookup"><span data-stu-id="3c3eb-142">**Any Element**</span></span>|<span data-ttu-id="3c3eb-143">插入**Any 項目**節點 (**\<** 任何**\>** 樹狀檢視中) 中所選取順序的結尾**記錄**， **sequence 群組**， **Choice 群組**，或**All 群組**節點。</span><span class="sxs-lookup"><span data-stu-id="3c3eb-143">Inserts an **Any Element** node (**\<** Any**\>** in the tree view) at the end of the sequence within the selected **Record**, **Sequence Group**, **Choice Group**, or **All Group** node.</span></span> <span data-ttu-id="3c3eb-144">如需有關**Any 項目**節點，請參閱[Any 項目節點](../core/any-element-nodes.md)。</span><span class="sxs-lookup"><span data-stu-id="3c3eb-144">For more information about **Any Element** nodes, see [Any Element Nodes](../core/any-element-nodes.md).</span></span>|  
+|<span data-ttu-id="3c3eb-145">**任何屬性**</span><span class="sxs-lookup"><span data-stu-id="3c3eb-145">**Any Attribute**</span></span>|<span data-ttu-id="3c3eb-146">插入**Any 屬性**節點 (**\<** AnyAttribute **\>** 樹狀檢視中) 中選取順序的結尾**記錄**或**屬性群組**節點。</span><span class="sxs-lookup"><span data-stu-id="3c3eb-146">Inserts an **Any Attribute** node (**\<** AnyAttribute**\>** in the tree view) at the end of the sequence within the selected **Record** or **Attribute Group** node.</span></span> <span data-ttu-id="3c3eb-147">如需有關**Any 屬性**節點，請參閱[Any 屬性節點](../core/any-attribute-nodes.md)。</span><span class="sxs-lookup"><span data-stu-id="3c3eb-147">For more information about **Any Attribute** nodes, see [Any Attribute Nodes](../core/any-attribute-nodes.md).</span></span>|  
   
  <span data-ttu-id="3c3eb-148">在許多情況下，在「BizTalk 編輯器」中新增單一節點會造成在結構描述的對應 XSD 表示法中新增多個巢狀項目。</span><span class="sxs-lookup"><span data-stu-id="3c3eb-148">In many cases, adding a single node in BizTalk Editor results in the addition of multiple nested elements within the corresponding XSD representation of the schema.</span></span> <span data-ttu-id="3c3eb-149">由於這些巢狀項目有可能包含複雜的語法，因此，使用「BizTalk 編輯器」以圖形方式排列節點是一種比手動編輯 XSD 以建構 XSD 結構描述的方式較少發生錯誤的方法。</span><span class="sxs-lookup"><span data-stu-id="3c3eb-149">Because these nested elements can have complex syntax, using BizTalk Editor to graphically arrange nodes is a much less error-prone approach to constructing XSD schemas than hand-editing the XSD.</span></span> <span data-ttu-id="3c3eb-150">另一個要考慮的因素是，若總是使用「BizTalk 編輯器」來建構 XSD 結構描述，則可以讓更多受控制的 XSD 子集使用在結構描述的描述中。</span><span class="sxs-lookup"><span data-stu-id="3c3eb-150">Another factor to consider is that always using BizTalk Editor to construct XSD schemas results in a more controlled subset of XSD being used in the schema descriptions.</span></span>  
   

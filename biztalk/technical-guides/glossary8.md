@@ -1,14 +1,14 @@
 ---
-title: "Glossary8 |Microsoft 文件"
-ms.custom: 
+title: Glossary8 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7d271fe0-1b54-4a83-87e6-20aa1c37df97
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299462"
 ---
 # <a name="glossary"></a><span data-ttu-id="6dac2-102">詞彙</span><span class="sxs-lookup"><span data-stu-id="6dac2-102">Glossary</span></span>
 <span data-ttu-id="6dac2-103">本主題會定義索引鍵用於本指南中使用的詞彙。</span><span class="sxs-lookup"><span data-stu-id="6dac2-103">This topic defines key terms used throughout this guide.</span></span>  
@@ -27,7 +28,7 @@ ms.lasthandoff: 09/20/2017
 |----------|----------------|  
 |<span data-ttu-id="6dac2-107">**進階可程式化插斷控制器 (APIC)**</span><span class="sxs-lookup"><span data-stu-id="6dac2-107">**advanced programmable interrupt controller (APIC)**</span></span>|<span data-ttu-id="6dac2-108">控制器會從各種來源接收插斷，並將它們傳送到處理器核心，以進行處理。</span><span class="sxs-lookup"><span data-stu-id="6dac2-108">A controller that receives interrupts from various sources and sends them to a processor core for handling.</span></span> <span data-ttu-id="6dac2-109">在多處理器系統中，這可以 VM 或實體電腦，APIC 會傳送和接收來自其他系統匯流排上的邏輯處理器的 interprocessor 中斷訊息。</span><span class="sxs-lookup"><span data-stu-id="6dac2-109">In a multiprocessor system, which can be either a VM or a physical computer, the APIC sends and receive interprocessor interrupt messages to and from other logical processors on the system bus.</span></span> <span data-ttu-id="6dac2-110">如需有關進階可程式化插斷控制器，請參閱本文第章 8 [Intel® 64 和 ia-32 架構軟體開發人員的手動大量 3A: System 程式設計指南 》，第 1 部分](http://go.microsoft.com/fwlink/?LinkId=148923)(http://go.microsoft.com/fwlink /？LinkId = 148923)。</span><span class="sxs-lookup"><span data-stu-id="6dac2-110">For more information about the advanced programmable interrupt controller see chapter 8 of the [Intel® 64 and IA-32 Architectures Software Developer’s Manual Volume 3A: System Programming Guide, Part 1](http://go.microsoft.com/fwlink/?LinkId=148923) (http://go.microsoft.com/fwlink/?LinkId=148923).</span></span>|  
 |<span data-ttu-id="6dac2-111">**子資料分割**</span><span class="sxs-lookup"><span data-stu-id="6dac2-111">**child partition**</span></span>|<span data-ttu-id="6dac2-112">父代 （或根） 的資料分割所建立的任何磁碟分割。</span><span class="sxs-lookup"><span data-stu-id="6dac2-112">Any partition that is created by the parent (or root) partition.</span></span>|  
-|<span data-ttu-id="6dac2-113">**核心**</span><span class="sxs-lookup"><span data-stu-id="6dac2-113">**core**</span></span>|<span data-ttu-id="6dac2-114">請參閱**邏輯處理器**。</span><span class="sxs-lookup"><span data-stu-id="6dac2-114">See **logical processor**.</span></span> <span data-ttu-id="6dac2-115">**注意：**在本指南中，核心有時候會交換使用與虛擬處理器，尤其是在圖形中。</span><span class="sxs-lookup"><span data-stu-id="6dac2-115">**Note:**  In this guide, core is sometimes used interchangeably with virtual processor, especially in graphics.</span></span> <span data-ttu-id="6dac2-116">本指南的未來版本中，將會更正這種使用方式。</span><span class="sxs-lookup"><span data-stu-id="6dac2-116">This usage will be corrected in a future edition of this guide.</span></span>|  
+|<span data-ttu-id="6dac2-113">**核心**</span><span class="sxs-lookup"><span data-stu-id="6dac2-113">**core**</span></span>|<span data-ttu-id="6dac2-114">請參閱**邏輯處理器**。</span><span class="sxs-lookup"><span data-stu-id="6dac2-114">See **logical processor**.</span></span> <span data-ttu-id="6dac2-115">**注意：** 在本指南中，核心有時候會交換使用與虛擬處理器，尤其是在圖形中。</span><span class="sxs-lookup"><span data-stu-id="6dac2-115">**Note:**  In this guide, core is sometimes used interchangeably with virtual processor, especially in graphics.</span></span> <span data-ttu-id="6dac2-116">本指南的未來版本中，將會更正這種使用方式。</span><span class="sxs-lookup"><span data-stu-id="6dac2-116">This usage will be corrected in a future edition of this guide.</span></span>|  
 |<span data-ttu-id="6dac2-117">**裝置虛擬化**</span><span class="sxs-lookup"><span data-stu-id="6dac2-117">**device virtualization**</span></span>|<span data-ttu-id="6dac2-118">軟體技術可讓硬體抽取並且在多個取用者之間共用資源。</span><span class="sxs-lookup"><span data-stu-id="6dac2-118">A software technology that lets a hardware resource be abstracted and shared among multiple consumers.</span></span>|  
 |<span data-ttu-id="6dac2-119">**模擬的裝置**</span><span class="sxs-lookup"><span data-stu-id="6dac2-119">**emulated device**</span></span>|<span data-ttu-id="6dac2-120">虛擬的裝置，以模擬實際的實體硬體裝置，以便遊客可以使用該硬體裝置的一般的驅動程式。</span><span class="sxs-lookup"><span data-stu-id="6dac2-120">A virtualized device that mimics an actual physical hardware device so that guests can use the typical drivers for that hardware device.</span></span> <span data-ttu-id="6dac2-121">比較沒有效率並沒有安裝整合元件 」 unenlightened"作業系統提供支援的綜合的裝置，但模擬的裝置的模擬的裝置。</span><span class="sxs-lookup"><span data-stu-id="6dac2-121">Emulated devices are less efficient than synthetic devices, but emulated devices provide support for “unenlightened” operating systems that do not have integration components installed.</span></span>|  
 |<span data-ttu-id="6dac2-122">**啟蒙**</span><span class="sxs-lookup"><span data-stu-id="6dac2-122">**enlightenment**</span></span>|<span data-ttu-id="6dac2-123">客體作業系統，請留意 VM 的環境，並調整其行為的 Vm 來最佳化。</span><span class="sxs-lookup"><span data-stu-id="6dac2-123">An optimization to a guest operating system to make it aware of VM environments and tune its behavior for VMs.</span></span> <span data-ttu-id="6dac2-124">強化套件協助降低特定的作業系統函式，例如記憶體管理的成本。</span><span class="sxs-lookup"><span data-stu-id="6dac2-124">Enlightenments help to reduce the cost of certain operating system functions such as memory management.</span></span> <span data-ttu-id="6dac2-125">強化套件是透過 hypercall 介面存取。</span><span class="sxs-lookup"><span data-stu-id="6dac2-125">Enlightenments are accessed through the hypercall interface.</span></span> <span data-ttu-id="6dac2-126">啟發的 I/O，可以利用 VMBus 直接，略過任何裝置的模擬層。</span><span class="sxs-lookup"><span data-stu-id="6dac2-126">Enlightened I/O can utilize the VMBus directly, bypassing any device emulation layer.</span></span> <span data-ttu-id="6dac2-127">採用所有可能的強化套件作業系統即稱為 「 完全啟用。"</span><span class="sxs-lookup"><span data-stu-id="6dac2-127">An operating system that takes advantage of all possible enlightenments is said to be “fully enlightened.”</span></span>|  

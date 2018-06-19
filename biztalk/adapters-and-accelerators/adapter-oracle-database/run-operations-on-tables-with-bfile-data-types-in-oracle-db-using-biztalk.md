@@ -1,17 +1,17 @@
 ---
-title: "使用 BFILE 資料型別使用 BizTalk Server 的 Oracle 資料庫中執行的資料表上的作業 |Microsoft 文件"
-ms.custom: 
+title: 使用 BFILE 資料型別使用 BizTalk Server 的 Oracle 資料庫中執行的資料表上的作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - operations on tables with BFILE data types, performing by using BizTalk Server
 - BFILE data types
 ms.assetid: 2e4af5a9-acde-419b-a99c-3eaa0c72daa8
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962548"
 ---
 # <a name="run-operations-on-tables-with-bfile-data-types-in-oracle-database-using-biztalk-server"></a><span data-ttu-id="dcbd3-102">使用 BFILE 資料型別使用 BizTalk Server 的 Oracle 資料庫中執行的資料表上的作業</span><span class="sxs-lookup"><span data-stu-id="dcbd3-102">Run operations on Tables with BFILE Data Types in Oracle Database using BizTalk Server</span></span>
 <span data-ttu-id="dcbd3-103">[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]資料表和預存程序中支援 BFILE 資料型別。</span><span class="sxs-lookup"><span data-stu-id="dcbd3-103">The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] supports the BFILE data type in tables and stored procedures.</span></span> <span data-ttu-id="dcbd3-104">本節提供如何有 BFILE 資料型別的一個資料行的資料表上執行作業的資訊。</span><span class="sxs-lookup"><span data-stu-id="dcbd3-104">This section provides information on how to perform operations on tables that have a column of BFILE data type.</span></span> <span data-ttu-id="dcbd3-105">如需有關如何[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]支援 BFILE，請參閱[資料表 BFILE 資料類型的 Oracle 資料庫中的作業](../../adapters-and-accelerators/adapter-oracle-database/operations-on-tables-with-bfile-data-types-in-oracle-database.md)。</span><span class="sxs-lookup"><span data-stu-id="dcbd3-105">For more information about how the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] supports BFILE, see [Operations on Tables With BFILE Data Types in Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/operations-on-tables-with-bfile-data-types-in-oracle-database.md).</span></span>  
@@ -124,7 +125,7 @@ ms.lasthandoff: 11/28/2017
   
 |<span data-ttu-id="dcbd3-187">形狀圖</span><span class="sxs-lookup"><span data-stu-id="dcbd3-187">Shape</span></span>|<span data-ttu-id="dcbd3-188">圖形類型</span><span class="sxs-lookup"><span data-stu-id="dcbd3-188">Shape Type</span></span>|<span data-ttu-id="dcbd3-189">屬性</span><span class="sxs-lookup"><span data-stu-id="dcbd3-189">Properties</span></span>|  
 |-----------|----------------|----------------|  
-|<span data-ttu-id="dcbd3-190">ReceiveMessage</span><span class="sxs-lookup"><span data-stu-id="dcbd3-190">ReceiveMessage</span></span>|<span data-ttu-id="dcbd3-191">Receive</span><span class="sxs-lookup"><span data-stu-id="dcbd3-191">Receive</span></span>|<span data-ttu-id="dcbd3-192">-設定**名稱**至*ReceiveMessage*</span><span class="sxs-lookup"><span data-stu-id="dcbd3-192">-   Set **Name** to *ReceiveMessage*</span></span><br /><span data-ttu-id="dcbd3-193">-設定**啟動**至*，則為 True*</span><span class="sxs-lookup"><span data-stu-id="dcbd3-193">-   Set **Activate** to *True*</span></span>|  
+|<span data-ttu-id="dcbd3-190">ReceiveMessage</span><span class="sxs-lookup"><span data-stu-id="dcbd3-190">ReceiveMessage</span></span>|<span data-ttu-id="dcbd3-191">Receive</span><span class="sxs-lookup"><span data-stu-id="dcbd3-191">Receive</span></span>|<span data-ttu-id="dcbd3-192">-設定**名稱**至*ReceiveMessage*</span><span class="sxs-lookup"><span data-stu-id="dcbd3-192">-   Set **Name** to *ReceiveMessage*</span></span><br /><span data-ttu-id="dcbd3-193">-設定**啟動**至 *，則為 True*</span><span class="sxs-lookup"><span data-stu-id="dcbd3-193">-   Set **Activate** to *True*</span></span>|  
 |<span data-ttu-id="dcbd3-194">SendMessage</span><span class="sxs-lookup"><span data-stu-id="dcbd3-194">SendMessage</span></span>|<span data-ttu-id="dcbd3-195">Send</span><span class="sxs-lookup"><span data-stu-id="dcbd3-195">Send</span></span>|<span data-ttu-id="dcbd3-196">-設定**名稱**至*SendMessage*</span><span class="sxs-lookup"><span data-stu-id="dcbd3-196">-   Set **Name** to *SendMessage*</span></span>|  
 |<span data-ttu-id="dcbd3-197">ReceiveResponse</span><span class="sxs-lookup"><span data-stu-id="dcbd3-197">ReceiveResponse</span></span>|<span data-ttu-id="dcbd3-198">Receive</span><span class="sxs-lookup"><span data-stu-id="dcbd3-198">Receive</span></span>|<span data-ttu-id="dcbd3-199">-設定**名稱**至*ReceiveResponse*</span><span class="sxs-lookup"><span data-stu-id="dcbd3-199">-   Set **Name** to *ReceiveResponse*</span></span><br /><span data-ttu-id="dcbd3-200">-設定**啟動**至*False*</span><span class="sxs-lookup"><span data-stu-id="dcbd3-200">-   Set **Activate** to *False*</span></span>|  
 |<span data-ttu-id="dcbd3-201">SendResponse</span><span class="sxs-lookup"><span data-stu-id="dcbd3-201">SendResponse</span></span>|<span data-ttu-id="dcbd3-202">Send</span><span class="sxs-lookup"><span data-stu-id="dcbd3-202">Send</span></span>|<span data-ttu-id="dcbd3-203">-設定**名稱**至*SendResponse*</span><span class="sxs-lookup"><span data-stu-id="dcbd3-203">-   Set **Name** to *SendResponse*</span></span>|  

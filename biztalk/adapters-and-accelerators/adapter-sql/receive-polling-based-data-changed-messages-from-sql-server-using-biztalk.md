@@ -1,14 +1,14 @@
 ---
-title: "使用 BizTalk Server 從 SQL Server 接收輪詢基礎資料變更的訊息 |Microsoft 文件"
-ms.custom: 
+title: 使用 BizTalk Server 從 SQL Server 接收輪詢基礎資料變更的訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9ecaf6f7-974b-4487-8c65-d1ab628cbfeb
-caps.latest.revision: "26"
+caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967873"
 ---
 # <a name="receive-polling-based-data-changed-messages-from-sql-server-using-biztalk-server"></a><span data-ttu-id="d746a-102">使用 BizTalk Server 從 SQL Server 接收輪詢基礎資料變更的訊息</span><span class="sxs-lookup"><span data-stu-id="d746a-102">Receive Polling-based Data-changed Messages from SQL Server using BizTalk Server</span></span>
 <span data-ttu-id="d746a-103">您可以設定[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]接收 SQL Server 資料表或檢視表的週期性的資料變更訊息。</span><span class="sxs-lookup"><span data-stu-id="d746a-103">You can configure the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to receive periodic data-change messages for SQL Server tables or views.</span></span> <span data-ttu-id="d746a-104">您可以指定執行以輪詢資料庫配接器的輪詢陳述式。</span><span class="sxs-lookup"><span data-stu-id="d746a-104">You can specify a polling statement that the adapter executes to poll the database.</span></span> <span data-ttu-id="d746a-105">輪詢陳述式可以是 SELECT 陳述式或預存程序會傳回結果集。</span><span class="sxs-lookup"><span data-stu-id="d746a-105">The polling statement can be a SELECT statement or a stored procedure that returns a result set.</span></span>  
@@ -147,7 +148,7 @@ SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100
   
 |<span data-ttu-id="d746a-226">形狀圖</span><span class="sxs-lookup"><span data-stu-id="d746a-226">Shape</span></span>|<span data-ttu-id="d746a-227">圖形類型</span><span class="sxs-lookup"><span data-stu-id="d746a-227">Shape Type</span></span>|<span data-ttu-id="d746a-228">屬性</span><span class="sxs-lookup"><span data-stu-id="d746a-228">Properties</span></span>|  
 |-----------|----------------|----------------|  
-|<span data-ttu-id="d746a-229">ReceiveMessage</span><span class="sxs-lookup"><span data-stu-id="d746a-229">ReceiveMessage</span></span>|<span data-ttu-id="d746a-230">Receive</span><span class="sxs-lookup"><span data-stu-id="d746a-230">Receive</span></span>|<span data-ttu-id="d746a-231">-設定**名稱**至*ReceiveMessage*</span><span class="sxs-lookup"><span data-stu-id="d746a-231">- Set **Name** to *ReceiveMessage*</span></span><br /><br /> <span data-ttu-id="d746a-232">-設定**啟動**至*，則為 True*</span><span class="sxs-lookup"><span data-stu-id="d746a-232">- Set **Activate** to *True*</span></span>|  
+|<span data-ttu-id="d746a-229">ReceiveMessage</span><span class="sxs-lookup"><span data-stu-id="d746a-229">ReceiveMessage</span></span>|<span data-ttu-id="d746a-230">Receive</span><span class="sxs-lookup"><span data-stu-id="d746a-230">Receive</span></span>|<span data-ttu-id="d746a-231">-設定**名稱**至*ReceiveMessage*</span><span class="sxs-lookup"><span data-stu-id="d746a-231">- Set **Name** to *ReceiveMessage*</span></span><br /><br /> <span data-ttu-id="d746a-232">-設定**啟動**至 *，則為 True*</span><span class="sxs-lookup"><span data-stu-id="d746a-232">- Set **Activate** to *True*</span></span>|  
 |<span data-ttu-id="d746a-233">SaveMessage</span><span class="sxs-lookup"><span data-stu-id="d746a-233">SaveMessage</span></span>|<span data-ttu-id="d746a-234">Send</span><span class="sxs-lookup"><span data-stu-id="d746a-234">Send</span></span>|<span data-ttu-id="d746a-235">-設定**名稱**至*SaveMessage*</span><span class="sxs-lookup"><span data-stu-id="d746a-235">- Set **Name** to *SaveMessage*</span></span>|  
   
 ### <a name="adding-ports"></a><span data-ttu-id="d746a-236">新增連接埠</span><span class="sxs-lookup"><span data-stu-id="d746a-236">Adding Ports</span></span>  

@@ -1,17 +1,17 @@
 ---
-title: "SWIFT 的標頭 |Microsoft 文件"
-ms.custom: 
+title: SWIFT 的標頭 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SWIFT, headers
 - headers [SWIFT]
 ms.assetid: b599cca2-8ae6-42db-b3a2-712ba12c1017
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214374"
 ---
 # <a name="swift-headers"></a><span data-ttu-id="dc4ff-102">SWIFT 的標頭</span><span class="sxs-lookup"><span data-stu-id="dc4ff-102">SWIFT Headers</span></span>
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="dc4ff-103">[!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]提供 SWIFT 標頭和結尾結構描述。</span><span class="sxs-lookup"><span data-stu-id="dc4ff-103"> [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] provides the SWIFT header and trailer schemas.</span></span> <span data-ttu-id="dc4ff-104">A4SWIFT 已經已納入這些各種財務 (FIN) 訊息交換的結構描述。</span><span class="sxs-lookup"><span data-stu-id="dc4ff-104">A4SWIFT has already incorporated these into the interchange schemas for the various financial (FIN) messages.</span></span> <span data-ttu-id="dc4ff-105">如果您想要建立自訂 SWIFT FIN 格式樣式訊息類型 （例如，N98 訊息），您可以在標頭和結尾結構描述併入您自己的格式。</span><span class="sxs-lookup"><span data-stu-id="dc4ff-105">If you want to create a custom SWIFT FIN format style message type (for example, an N98 message), you can incorporate the header and trailer schemas into your own format.</span></span>  

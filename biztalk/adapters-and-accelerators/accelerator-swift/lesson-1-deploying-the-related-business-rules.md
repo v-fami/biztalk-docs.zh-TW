@@ -1,17 +1,17 @@
 ---
-title: "第 1 課： 部署相關的商務規則 |Microsoft 文件"
-ms.custom: 
+title: 第 1 課： 部署相關的商務規則 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - business rules, deploying
 - deploying, business rules
 ms.assetid: f8f5b103-4b66-4836-8165-99692574961a
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25960764"
 ---
 # <a name="lesson-1-deploying-the-related-business-rules"></a><span data-ttu-id="3b11c-102">第 1 課： 部署相關的商務規則</span><span class="sxs-lookup"><span data-stu-id="3b11c-102">Lesson 1: Deploying the Related Business Rules</span></span>
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="3b11c-103">[!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]包含程式在 A4SWIFT 軟體開發套件 (SDK) 稱為 「 商務規則引擎 (BRE) 部署公用程式。</span><span class="sxs-lookup"><span data-stu-id="3b11c-103"> [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] includes a program in the A4SWIFT Software Development Kit (SDK) called the Business Rule Engine (BRE) Deployment Utility.</span></span> <span data-ttu-id="3b11c-104">在這一課，您可以使用此公用程式檢查組件以取得部署的結構描述、 決定所需的規則，及部署必要的詞彙和每個結構描述的原則。</span><span class="sxs-lookup"><span data-stu-id="3b11c-104">In this lesson, you use this utility to inspect an assembly for deployed schemas, determine the required rules, and deploy the necessary vocabularies and policies for each schema.</span></span>  
@@ -50,6 +51,6 @@ ms.lasthandoff: 11/28/2017
     > [!NOTE]
     >  <span data-ttu-id="3b11c-117">您可以開啟記錄檔，以確認部署步驟的每個使用文字編輯器。</span><span class="sxs-lookup"><span data-stu-id="3b11c-117">You can open the log file using a text editor to confirm each of the deployment steps.</span></span>  
   
-7.  <span data-ttu-id="3b11c-118">重新啟動 「 規則引擎更新服務。</span><span class="sxs-lookup"><span data-stu-id="3b11c-118">Restart the Rule Engine Update Service.</span></span> <span data-ttu-id="3b11c-119">這樣即可**啟動**，然後按一下**執行**、 輸入**services.msc**，然後按一下**[確定]**。</span><span class="sxs-lookup"><span data-stu-id="3b11c-119">Do so by clicking **Start**, clicking **Run**, entering **services.msc**, and clicking **OK**.</span></span> <span data-ttu-id="3b11c-120">在**服務 （本機）**視窗中，以滑鼠右鍵按一下**規則引擎更新服務**，然後按一下 **重新啟動**。</span><span class="sxs-lookup"><span data-stu-id="3b11c-120">In the **Services (Local)** window, right-click **Rule Engine Update Service**, and then click **Restart**.</span></span>  
+7.  <span data-ttu-id="3b11c-118">重新啟動 「 規則引擎更新服務。</span><span class="sxs-lookup"><span data-stu-id="3b11c-118">Restart the Rule Engine Update Service.</span></span> <span data-ttu-id="3b11c-119">這樣即可**啟動**，然後按一下**執行**、 輸入**services.msc**，然後按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="3b11c-119">Do so by clicking **Start**, clicking **Run**, entering **services.msc**, and clicking **OK**.</span></span> <span data-ttu-id="3b11c-120">在**服務 （本機）** 視窗中，以滑鼠右鍵按一下**規則引擎更新服務**，然後按一下 **重新啟動**。</span><span class="sxs-lookup"><span data-stu-id="3b11c-120">In the **Services (Local)** window, right-click **Rule Engine Update Service**, and then click **Restart**.</span></span>  
   
  <span data-ttu-id="3b11c-121">若要繼續[第 2 課： 確認部署使用 「 商務規則編輯器 」 工具](../../adapters-and-accelerators/accelerator-swift/lesson-2-confirming-the-deployment-using-the-business-rule-composer-tool.md)。</span><span class="sxs-lookup"><span data-stu-id="3b11c-121">Proceed to [Lesson 2: Confirming the Deployment Using the Business Rule Composer Tool](../../adapters-and-accelerators/accelerator-swift/lesson-2-confirming-the-deployment-using-the-business-rule-composer-tool.md).</span></span>

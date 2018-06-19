@@ -1,14 +1,14 @@
 ---
-title: "執行預存程序，具有 FOR XML 子句中使用 BizTalk Server 的 SQL Server |Microsoft 文件"
-ms.custom: 
+title: 執行預存程序，具有 FOR XML 子句中使用 BizTalk Server 的 SQL Server |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1d8fe927-90bf-48fc-a418-63b920b409ed
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967620"
 ---
 # <a name="execute-stored-procedures-having-a-for-xml-clause-in-sql-server-using-biztalk-server"></a><span data-ttu-id="b8797-102">執行預存程序在使用 BizTalk Server 的 SQL Server 中具有 FOR XML 子句</span><span class="sxs-lookup"><span data-stu-id="b8797-102">Execute stored procedures having a FOR XML clause in SQL Server using BizTalk Server</span></span>
 <span data-ttu-id="b8797-103">SQL SELECT 陳述式可以有傳回 XML 形式的查詢結果，而不是資料列集的 FOR XML 子句。</span><span class="sxs-lookup"><span data-stu-id="b8797-103">An SQL SELECT statement can have a FOR XML clause that returns the query result as XML instead of a rowset.</span></span> <span data-ttu-id="b8797-104">您也可以具有 FOR XML 子句的 SELECT 陳述式的預存程序。</span><span class="sxs-lookup"><span data-stu-id="b8797-104">You can also have a stored procedure that has a SELECT statement with a FOR XML clause.</span></span> <span data-ttu-id="b8797-105">[FOR XML (SQL Server)](https://msdn.microsoft.com/library/ms178107.aspx)更多詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="b8797-105">[FOR XML (SQL Server)](https://msdn.microsoft.com/library/ms178107.aspx) has more information.</span></span>
@@ -131,7 +132,7 @@ FROM [Adapt_Doc].[dbo].[Employee] for xml auto, xmlschema
   
 |<span data-ttu-id="b8797-203">形狀圖</span><span class="sxs-lookup"><span data-stu-id="b8797-203">Shape</span></span>|<span data-ttu-id="b8797-204">圖形類型</span><span class="sxs-lookup"><span data-stu-id="b8797-204">Shape Type</span></span>|<span data-ttu-id="b8797-205">屬性</span><span class="sxs-lookup"><span data-stu-id="b8797-205">Properties</span></span>|  
 |-----------|----------------|----------------|  
-|<span data-ttu-id="b8797-206">ReceiveMessage</span><span class="sxs-lookup"><span data-stu-id="b8797-206">ReceiveMessage</span></span>|<span data-ttu-id="b8797-207">Receive</span><span class="sxs-lookup"><span data-stu-id="b8797-207">Receive</span></span>|<span data-ttu-id="b8797-208">-設定**名稱**至*ReceiveMessage*</span><span class="sxs-lookup"><span data-stu-id="b8797-208">-   Set **Name** to *ReceiveMessage*</span></span><br /><span data-ttu-id="b8797-209">-設定**啟動**至*，則為 True*</span><span class="sxs-lookup"><span data-stu-id="b8797-209">-   Set **Activate** to *True*</span></span>|  
+|<span data-ttu-id="b8797-206">ReceiveMessage</span><span class="sxs-lookup"><span data-stu-id="b8797-206">ReceiveMessage</span></span>|<span data-ttu-id="b8797-207">Receive</span><span class="sxs-lookup"><span data-stu-id="b8797-207">Receive</span></span>|<span data-ttu-id="b8797-208">-設定**名稱**至*ReceiveMessage*</span><span class="sxs-lookup"><span data-stu-id="b8797-208">-   Set **Name** to *ReceiveMessage*</span></span><br /><span data-ttu-id="b8797-209">-設定**啟動**至 *，則為 True*</span><span class="sxs-lookup"><span data-stu-id="b8797-209">-   Set **Activate** to *True*</span></span>|  
 |<span data-ttu-id="b8797-210">SendMessage</span><span class="sxs-lookup"><span data-stu-id="b8797-210">SendMessage</span></span>|<span data-ttu-id="b8797-211">Send</span><span class="sxs-lookup"><span data-stu-id="b8797-211">Send</span></span>|<span data-ttu-id="b8797-212">-設定**名稱**至*SendMessage*</span><span class="sxs-lookup"><span data-stu-id="b8797-212">-   Set **Name** to *SendMessage*</span></span>|  
 |<span data-ttu-id="b8797-213">ReceiveResponse</span><span class="sxs-lookup"><span data-stu-id="b8797-213">ReceiveResponse</span></span>|<span data-ttu-id="b8797-214">Receive</span><span class="sxs-lookup"><span data-stu-id="b8797-214">Receive</span></span>|<span data-ttu-id="b8797-215">-設定**名稱**至*ReceiveResponse*</span><span class="sxs-lookup"><span data-stu-id="b8797-215">-   Set **Name** to *ReceiveResponse*</span></span><br /><span data-ttu-id="b8797-216">-設定**啟動**至*False*</span><span class="sxs-lookup"><span data-stu-id="b8797-216">-   Set **Activate** to *False*</span></span>|  
 |<span data-ttu-id="b8797-217">SendResponse</span><span class="sxs-lookup"><span data-stu-id="b8797-217">SendResponse</span></span>|<span data-ttu-id="b8797-218">Send</span><span class="sxs-lookup"><span data-stu-id="b8797-218">Send</span></span>|<span data-ttu-id="b8797-219">-設定**名稱**至*SendResponse*</span><span class="sxs-lookup"><span data-stu-id="b8797-219">-   Set **Name** to *SendResponse*</span></span>|  

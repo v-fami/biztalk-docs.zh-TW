@@ -12,7 +12,7 @@ helpviewer_keywords:
 - managing [SSO applications], deleting
 - deleting, applications [SSO]
 ms.assetid: c7ec065e-ef10-49ff-a350-105dd08dc4a9
-caps.latest.revision: ''
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25968764"
 ---
 # <a name="how-to-delete-an-affiliate-application"></a><span data-ttu-id="45736-102">如何刪除分支機構應用程式</span><span class="sxs-lookup"><span data-stu-id="45736-102">How to Delete an Affiliate Application</span></span>
 <span data-ttu-id="45736-103">您可以使用 MMC 嵌入式管理單元或命令列，從 SSO 資料庫刪除指定的分支機構應用程式。</span><span class="sxs-lookup"><span data-stu-id="45736-103">You can use the MMC Snap-In or the command line to delete the specified affiliate application from the SSO database.</span></span>  
@@ -45,7 +46,7 @@ ms.lasthandoff: 03/28/2018
   
 2.  <span data-ttu-id="45736-112">在命令列，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="45736-112">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="45736-113">預設安裝目錄是*\<磁碟機\>*: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="45736-113">The default installation directory is *\<drive\>*:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-3.  <span data-ttu-id="45736-114">型別 * * ssomanage-deleteapp *\<應用程式名稱\>* * *，其中*\<應用程式名稱\>*是您想要從 SSO 資料庫中移除的分支機構應用程式的名稱。</span><span class="sxs-lookup"><span data-stu-id="45736-114">Type **ssomanage –deleteapp *\<application name\>***, where *\<application name\>* is the name of the affiliate application you want to remove from the SSO database.</span></span>  
+3.  <span data-ttu-id="45736-114">型別 * * ssomanage-deleteapp *\<應用程式名稱\>* * *，其中*\<應用程式名稱\>* 是您想要從 SSO 資料庫中移除的分支機構應用程式的名稱。</span><span class="sxs-lookup"><span data-stu-id="45736-114">Type **ssomanage –deleteapp *\<application name\>***, where *\<application name\>* is the name of the affiliate application you want to remove from the SSO database.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="45736-115">在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。</span><span class="sxs-lookup"><span data-stu-id="45736-115">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  

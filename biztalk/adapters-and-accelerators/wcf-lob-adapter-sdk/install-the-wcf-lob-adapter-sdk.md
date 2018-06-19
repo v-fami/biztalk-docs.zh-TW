@@ -1,14 +1,14 @@
 ---
-title: "安裝 WCF LOB Adapter SDK |Microsoft 文件"
-ms.custom: 
+title: 安裝 WCF LOB Adapter SDK |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 41b9b34b-3fbb-480f-a335-a218eab33693
-caps.latest.revision: "40"
+caps.latest.revision: 40
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966508"
 ---
 # <a name="install-the-wcf-lob-adapter-sdk"></a><span data-ttu-id="174ec-102">安裝 WCF LOB 配接器 SDK</span><span class="sxs-lookup"><span data-stu-id="174ec-102">Install the WCF LOB Adapter SDK</span></span>
 <span data-ttu-id="174ec-103">安裝和設定[!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="174ec-103">Install and configure the [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)].</span></span> 

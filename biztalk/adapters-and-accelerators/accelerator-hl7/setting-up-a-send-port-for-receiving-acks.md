@@ -1,11 +1,11 @@
 ---
-title: "設定傳送埠來接收 Ack |Microsoft 文件"
-ms.custom: 
+title: 設定傳送埠來接收 Ack |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - send ports, acknowledgements
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - acknowledgements, send ports
 - send ports, creating
 ms.assetid: bb683e72-36e2-4a8f-acc2-8b37ed23746f
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25961604"
 ---
 # <a name="setting-up-a-send-port-for-receiving-acks"></a><span data-ttu-id="0919b-102">設定傳送埠來接收通知</span><span class="sxs-lookup"><span data-stu-id="0919b-102">Setting Up a Send Port for Receiving ACKs</span></span>
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="0919b-103">BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 即可單向傳送埠上接收通知 (ACK)。</span><span class="sxs-lookup"><span data-stu-id="0919b-103"> BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) can receive acknowledgments (ACK) on a one-way send port.</span></span> <span data-ttu-id="0919b-104">當您設定新的單向傳送埠來接收相同的連接上認可時，您必須使該傳送埠為單向接收埠。</span><span class="sxs-lookup"><span data-stu-id="0919b-104">When you set up a new one-way send port for receiving ACKs on the same connection, you must associate that send port with a one-way receive port.</span></span>  

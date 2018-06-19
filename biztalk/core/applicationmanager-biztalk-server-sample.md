@@ -1,14 +1,14 @@
 ---
-title: "ApplicationManager （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: ApplicationManager （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 51ebe7a8-a0ca-4d2a-bf40-ec6421ba5a95
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965580"
 ---
 # <a name="applicationmanager-biztalk-server-sample"></a><span data-ttu-id="98f7d-102">ApplicationManager （BizTalk Server 範例）</span><span class="sxs-lookup"><span data-stu-id="98f7d-102">ApplicationManager (BizTalk Server Sample)</span></span>
 <span data-ttu-id="98f7d-103">ApplicationManager 範例示範如何啟動或停止 BizTalk 應用程式使用系統管理物件。</span><span class="sxs-lookup"><span data-stu-id="98f7d-103">The ApplicationManager sample demonstrates how to start or stop a  BizTalk application by using the administration objects.</span></span>  

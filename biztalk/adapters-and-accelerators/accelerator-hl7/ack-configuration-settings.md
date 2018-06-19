@@ -1,17 +1,17 @@
 ---
-title: "通知設定的設定 |Microsoft 文件"
-ms.custom: 
+title: 通知設定的設定 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - acknowledgements, configuring
 - configuring, acknowledgements
 ms.assetid: 46e92560-7b1e-4d53-9de8-8ded4de90695
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204406"
 ---
 # <a name="ack-configuration-settings"></a><span data-ttu-id="4d10d-102">通知設定</span><span class="sxs-lookup"><span data-stu-id="4d10d-102">ACK Configuration Settings</span></span>
 <span data-ttu-id="4d10d-103">[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]剖析器產生根據交易夥伴管理 (TPM) 設定的通知。</span><span class="sxs-lookup"><span data-stu-id="4d10d-103">The [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] parser generates acknowledgments based on Trading Partner Management (TPM) settings.</span></span> <span data-ttu-id="4d10d-104">這些是相依於交易夥伴資訊通知 (ACK) 設定。</span><span class="sxs-lookup"><span data-stu-id="4d10d-104">The acknowledgment (ACK) settings are dependent on partner information.</span></span> <span data-ttu-id="4d10d-105">不使用結構描述型別。</span><span class="sxs-lookup"><span data-stu-id="4d10d-105">Schema type is not used.</span></span> <span data-ttu-id="4d10d-106">當[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]接收通知訊息與 MSH15 欄位包含 AL、 SU 或增，[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]可能會傳送此訊息的 ACK 標頭和 TPM 設定剖析的結果為基礎的通知。</span><span class="sxs-lookup"><span data-stu-id="4d10d-106">When [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] receives an ACK message with the MSH15 field containing AL, SU or ER, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] may send an ACK for this message based on the result of parsing the ACK header and TPM configuration.</span></span> [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]<span data-ttu-id="4d10d-107">擷取夥伴通知設定，並傳回下列五個值之一：</span><span class="sxs-lookup"><span data-stu-id="4d10d-107"> retrieves the partner ACK settings and returns one of the following five values:</span></span>  

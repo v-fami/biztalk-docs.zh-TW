@@ -1,14 +1,14 @@
 ---
-title: "檢查清單： 更新應用程式使用的並存版本設定 |Microsoft 文件"
-ms.custom: 
+title: 檢查清單： 更新應用程式使用的並存版本設定 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3adee8da-18d4-4b9e-a22e-148b90d18179
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299350"
 ---
 # <a name="checklist-updating-an-application-using-side-by-side-versioning"></a><span data-ttu-id="bc240-102">檢查清單： 更新應用程式使用的並存版本控制</span><span class="sxs-lookup"><span data-stu-id="bc240-102">Checklist: Updating an Application Using Side-by-Side Versioning</span></span>
 <span data-ttu-id="bc240-103">下列檢查清單描述部署 BizTalk 應用程式將會執行由並行的更新的版本的程序與現有版本。</span><span class="sxs-lookup"><span data-stu-id="bc240-103">The following checklist describes the process of deploying an updated version of a BizTalk application that will run side-by-side with an existing version.</span></span>  

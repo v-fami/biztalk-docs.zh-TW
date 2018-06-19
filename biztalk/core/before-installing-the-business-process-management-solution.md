@@ -1,14 +1,14 @@
 ---
-title: "Installg 商務程序管理解決方案的需求 |Microsoft 文件"
-ms.custom: 
+title: Installg 商務程序管理解決方案的需求 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: addb3178-c64c-43da-9f25-68b2adb6e305
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 10/17/2017
+ms.locfileid: "23450583"
 ---
 # <a name="before-installing-the-business-process-management-solution"></a><span data-ttu-id="123ce-102">安裝商務程序管理解決方案之前</span><span class="sxs-lookup"><span data-stu-id="123ce-102">Before Installing the Business Process Management Solution</span></span>
 

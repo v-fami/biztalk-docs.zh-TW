@@ -1,14 +1,14 @@
 ---
-title: "步驟 1： 設定批次的批次中超出的合作對象資訊 |Microsoft 文件"
-ms.custom: 
+title: 步驟 1： 設定批次的批次中超出的合作對象資訊 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a93d774b-1282-40d9-836f-44abeb65f78e
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25960508"
 ---
 # <a name="step-1-configure-party-information-for-batch-inbatch-out"></a><span data-ttu-id="0aabe-102">步驟 1： 設定批次中的合作對象資訊/出批次</span><span class="sxs-lookup"><span data-stu-id="0aabe-102">Step 1: Configure Party Information for Batch In/Batch Out</span></span>
 <span data-ttu-id="0aabe-103">在此步驟中，您關閉片段的合作對象啟用批次的批次中 / 出案例批次。</span><span class="sxs-lookup"><span data-stu-id="0aabe-103">In this step, you turn off fragmentation of batching for the party, enabling the Batch In/Batch Out scenario.</span></span> <span data-ttu-id="0aabe-104">然後重新啟動[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]來啟用組態變更才會生效。</span><span class="sxs-lookup"><span data-stu-id="0aabe-104">You then restart [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] to enable the configuration change to take effect.</span></span>  

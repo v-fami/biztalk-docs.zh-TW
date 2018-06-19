@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/adding-biztalk-adapter-for-jd-edwards-oneworld/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: 5290f424bbeb5cf54e78c903c50a6c2d945bc8cc
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014125"
 ---
 # <a name="how-to-set-jd-edwards-oneworld-transport-properties"></a><span data-ttu-id="0212d-101">如何設定 JD Edwards OneWorld 傳輸屬性</span><span class="sxs-lookup"><span data-stu-id="0212d-101">How to Set JD Edwards OneWorld Transport Properties</span></span>
 

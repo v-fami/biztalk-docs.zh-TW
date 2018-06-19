@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22205990"
 ---
 # <a name="preparing-to-use-the-tutorialhl7main"></a><span data-ttu-id="f9343-102">準備使用 Tutorial_hl7_main</span><span class="sxs-lookup"><span data-stu-id="f9343-102">Preparing to Use the Tutorial_hl7_main</span></span>
 <span data-ttu-id="f9343-103">您必須執行本節中的工作，才能使用本教學課程。</span><span class="sxs-lookup"><span data-stu-id="f9343-103">You need to perform the tasks in this section before you use the tutorial.</span></span>  

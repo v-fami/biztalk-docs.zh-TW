@@ -1,14 +1,14 @@
 ---
-title: "如何顯示效能集合規則 |Microsoft 文件"
-ms.custom: 
+title: 如何顯示效能集合規則 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 546aa853-c372-4e26-a1ed-19294c658583
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298182"
 ---
 # <a name="how-to-display-performance-collection-rules"></a><span data-ttu-id="e3a52-102">如何顯示效能集合規則</span><span class="sxs-lookup"><span data-stu-id="e3a52-102">How to Display Performance Collection Rules</span></span>
 <span data-ttu-id="e3a52-103">若要顯示效能集合規則，請使用本節中的指令碼。</span><span class="sxs-lookup"><span data-stu-id="e3a52-103">To display performance collection rules, use the script in this section.</span></span> <span data-ttu-id="e3a52-104">此指令碼適用於大部分的規則。</span><span class="sxs-lookup"><span data-stu-id="e3a52-104">This script works for the majority of rules.</span></span> <span data-ttu-id="e3a52-105">它會建立.csv 檔案，其中包含下表中列出的資料行，並且可以使用 Office Excel 加以檢視。</span><span class="sxs-lookup"><span data-stu-id="e3a52-105">It creates a .csv file that includes the columns listed in the following table, and can be viewed using Office Excel.</span></span>  

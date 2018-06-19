@@ -1,11 +1,11 @@
 ---
-title: "協調流程發佈為 Web 服務 |Microsoft 文件"
-ms.custom: 
+title: 協調流程發佈為 Web 服務 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Web services, publishing
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - BizTalk Web Services Publishing Wizard, prerequisites
 - orchestrations, publishing
 ms.assetid: f209310d-c265-4c37-8424-c9b287e713ca
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269062"
 ---
 # <a name="publishing-an-orchestration-as-a-web-service"></a><span data-ttu-id="fd623-102">協調流程發佈為 Web 服務</span><span class="sxs-lookup"><span data-stu-id="fd623-102">Publishing an Orchestration as a Web Service</span></span>
 <span data-ttu-id="fd623-103">您可以使用 [BizTalk Web 服務發佈精靈] 將協調流程發佈為 Web 服務。</span><span class="sxs-lookup"><span data-stu-id="fd623-103">You use the BizTalk Web Services Publishing Wizard to publish an orchestration as a Web service.</span></span> <span data-ttu-id="fd623-104">精靈會根據 BizTalk 組件中的協調流程來建立 Web 服務。</span><span class="sxs-lookup"><span data-stu-id="fd623-104">The wizard creates a Web service based on an orchestration in a BizTalk assembly.</span></span> <span data-ttu-id="fd623-105">使用此精靈，即可選取協調流程和接收埠來發佈 Web 服務。</span><span class="sxs-lookup"><span data-stu-id="fd623-105">Using the wizard, you select orchestrations and receive ports to publish Web services.</span></span> <span data-ttu-id="fd623-106">您可以定義目標命名空間、SOAP 標頭需求，以及精靈所產生 Web 服務專案的位置。</span><span class="sxs-lookup"><span data-stu-id="fd623-106">You can define target namespaces, SOAP header requirements, and locations for the Web service project the wizard generates.</span></span>  

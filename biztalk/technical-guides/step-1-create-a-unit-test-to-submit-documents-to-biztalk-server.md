@@ -1,14 +1,14 @@
 ---
-title: "步驟 1： 建立單元測試，提交至 BizTalk Server 文件 |Microsoft 文件"
-ms.custom: 
+title: 步驟 1： 建立單元測試，提交至 BizTalk Server 文件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 688b14e4-bb16-4d12-86b8-37b8b6808472
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302694"
 ---
 # <a name="step-1-create-a-unit-test-to-submit-documents-to-biztalk-server"></a><span data-ttu-id="90052-102">步驟 1： 建立單元測試，提交至 BizTalk Server 文件</span><span class="sxs-lookup"><span data-stu-id="90052-102">Step 1: Create a Unit Test to Submit Documents to BizTalk Server</span></span>
 <span data-ttu-id="90052-103">電腦的應用程式伺服器，例如 BizTalk Server 專為執行特定工作，代表使用者。</span><span class="sxs-lookup"><span data-stu-id="90052-103">Computer application servers such as BizTalk Server are designed to perform particular tasks on behalf of users.</span></span> <span data-ttu-id="90052-104">這些工作都會起始為以符合應用程式伺服器了解，了解應用程式伺服器的通訊協定透過標準的訊息傳送至應用程式伺服器的用戶端要求。</span><span class="sxs-lookup"><span data-stu-id="90052-104">These tasks are initiated as client requests sent to the application server as messages that conform to a standard that the application server understands, via a protocol that the application server understands.</span></span> <span data-ttu-id="90052-105">比方說，用戶端可能會起始處理的電子郵件透過 SMTP 通訊協定的電子郵件伺服器傳送網際網路電子郵件訊息。</span><span class="sxs-lookup"><span data-stu-id="90052-105">For example, clients may initiate processing of email by sending internet e-mail messages to an email server via the SMTP protocol.</span></span> <span data-ttu-id="90052-106">同樣地，web 伺服器處理用戶端 HTML 或 ASP 要求，資料庫伺服器處理的 SQL 用戶端要求，而且 BizTalk Server 可以處理用戶端符合使用許多業界標準通訊協定的多個產業訊息標準格式化的訊息。</span><span class="sxs-lookup"><span data-stu-id="90052-106">Likewise, web servers process client HTML or ASP requests, database servers process client SQL requests and BizTalk Server can process client messages formatted in compliance with multiple industry message standards using numerous industry standard protocols.</span></span> <span data-ttu-id="90052-107">應用程式伺服器的工作負載容量通常會測量在指定的時段內可以處理應用程式伺服器的訊息數目。</span><span class="sxs-lookup"><span data-stu-id="90052-107">The workload capacity of an application server is typically measured by the number of messages that the application server can process in a given time period.</span></span> <span data-ttu-id="90052-108">BizTalk Server 的工作負載容量同樣的時間，例如忙碌 workday 或甚至是長測量為 「 每秒接收的文件 」、 「 每秒處理的文件 」 和/或 「 每秒完成的協調流程 」 的平均數目工作週。</span><span class="sxs-lookup"><span data-stu-id="90052-108">The workload capacity of BizTalk Server is likewise measured as the average number of “documents received per second”, “documents processed per second” and/or “orchestrations completed per second” over an extended period of time, such as a busy workday or even a work week.</span></span> <span data-ttu-id="90052-109">Visual Studio 2010 負載測試功能，可以模擬多達數百個使用者同時存取伺服器應用程式的負載設定檔。</span><span class="sxs-lookup"><span data-stu-id="90052-109">Visual Studio 2010 load test functionality can simulate a load profile of up to hundreds of users simultaneously accessing a server application.</span></span> <span data-ttu-id="90052-110">這個負載測試功能提供即時的度量資訊。 選取的關鍵效能指標，以及供未來分析資料庫中儲存這些度量的能力。</span><span class="sxs-lookup"><span data-stu-id="90052-110">This load testing functionality provides real time metrics for selected key performance indicators as well as the ability to store these metrics in a database for future analysis.</span></span> <span data-ttu-id="90052-111">此文件描述使用 Visual Studio 測試專案，以進行負載測試 BizTalk Server 應用程式，包括如何建立單元測試時，如何建立負載測試，以及如何設定負載測試來擷取效能計數器資料所需判斷最大持續輸送量 (MST) 的 BizTalk Server 應用程式。</span><span class="sxs-lookup"><span data-stu-id="90052-111">This document desribes the use of Visual Studio Test projects for the purpose of load testing a BizTalk Server application, including how to create unit tests, how to create load tests and how to configure load tests to capture performance counter data required to determine the Maximum Sustainable Throughput (MST) of a BizTalk Server application.</span></span>  
@@ -38,9 +39,9 @@ ms.lasthandoff: 09/20/2017
   
 3.  <span data-ttu-id="90052-126">按一下以展開**測試工具**，然後按一下 **測試專案**以顯示選項來建立新的測試專案。</span><span class="sxs-lookup"><span data-stu-id="90052-126">Click to expand **Test Tools** and then click **Test Project** to display options for creation of new test projects.</span></span>  
   
-4.  <span data-ttu-id="90052-127">設定**預設測試專案語言：**至**Visual C# 測試專案**。</span><span class="sxs-lookup"><span data-stu-id="90052-127">Set the **Default test project language:** to **Visual C# test project**.</span></span>  
+4.  <span data-ttu-id="90052-127">設定**預設測試專案語言：** 至**Visual C# 測試專案**。</span><span class="sxs-lookup"><span data-stu-id="90052-127">Set the **Default test project language:** to **Visual C# test project**.</span></span>  
   
-5.  <span data-ttu-id="90052-128">下方的選項**選取的檔案，將會依預設加入至每個新的測試專案：**選取**Visual C# 測試專案**，並取消核取 所有測試類型的 Visual C# 中的測試專案除外**單元測試**。</span><span class="sxs-lookup"><span data-stu-id="90052-128">Under the option to **Select the files that will be added to each new test project, by default:** select **Visual C# test project**, and uncheck all of the test types for Visual C# test projects except for **Unit Test**.</span></span>  
+5.  <span data-ttu-id="90052-128">下方的選項**選取的檔案，將會依預設加入至每個新的測試專案：** 選取**Visual C# 測試專案**，並取消核取 所有測試類型的 Visual C# 中的測試專案除外**單元測試**。</span><span class="sxs-lookup"><span data-stu-id="90052-128">Under the option to **Select the files that will be added to each new test project, by default:** select **Visual C# test project**, and uncheck all of the test types for Visual C# test projects except for **Unit Test**.</span></span>  
   
 6.  <span data-ttu-id="90052-129">按一下 **[確定]** 關閉 **[選項]** 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="90052-129">Click **OK** to close the **Options** dialog box.</span></span>  
   
@@ -389,7 +390,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  <span data-ttu-id="90052-163">在 [方案總管] 中，以滑鼠右鍵按一下**參考**BTSLoad 專案，然後按一下資料夾**加入參考**。</span><span class="sxs-lookup"><span data-stu-id="90052-163">In Solution Explorer, right-click the **References** folder for the BTSLoad project and then click **Add Reference**.</span></span>  
   
-2.  <span data-ttu-id="90052-164">在 加入參考 對話方塊中，按一下**.NET**索引標籤，然後使用 CTRL + 按一下鍵盤/滑鼠組合來同時選取 下列.NET 命名空間：</span><span class="sxs-lookup"><span data-stu-id="90052-164">In the Add Reference dialog box, click the **.NET** tab and use the CTRL+Click keyboard/mouse combination to simultaneously select the following .NET namespaces:</span></span>  
+2.  <span data-ttu-id="90052-164">在 加入參考 對話方塊中，按一下 **.NET**索引標籤，然後使用 CTRL + 按一下鍵盤/滑鼠組合來同時選取 下列.NET 命名空間：</span><span class="sxs-lookup"><span data-stu-id="90052-164">In the Add Reference dialog box, click the **.NET** tab and use the CTRL+Click keyboard/mouse combination to simultaneously select the following .NET namespaces:</span></span>  
   
     -   <span data-ttu-id="90052-165">System.Configuration</span><span class="sxs-lookup"><span data-stu-id="90052-165">System.Configuration</span></span>  
   

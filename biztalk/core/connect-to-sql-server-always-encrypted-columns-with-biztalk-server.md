@@ -1,14 +1,14 @@
 ---
-title: "連接至 BizTalk Server 與 SQL Server 永遠加密的資料行 |Microsoft 文件"
-ms.custom: 
+title: 連接至 BizTalk Server 與 SQL Server 永遠加密的資料行 |Microsoft 文件
+ms.custom: ''
 ms.date: 11/20/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fcc20a2b-daf9-4b7f-ae61-cb408e4bd04c
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/21/2017
+ms.locfileid: "25497745"
 ---
 # <a name="connect-to-sql-server-always-encrypted-columns-with-biztalk-server"></a><span data-ttu-id="b1fc0-102">連接至 BizTalk Server 與 SQL Server 永遠加密的資料行</span><span class="sxs-lookup"><span data-stu-id="b1fc0-102">Connect to SQL Server Always Encrypted columns with BizTalk Server</span></span>
 <span data-ttu-id="b1fc0-103">在 WCF-SQL 配接器中啟用 永遠加密[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]查詢加密資料行。</span><span class="sxs-lookup"><span data-stu-id="b1fc0-103">Enable Always Encrypted in the WCF-SQL adapter in [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] to query encrypted columns.</span></span>  

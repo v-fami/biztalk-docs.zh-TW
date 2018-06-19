@@ -1,14 +1,14 @@
 ---
-title: "ValidationAdapter |Microsoft 文件"
-ms.custom: 
+title: ValidationAdapter |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5fe99350-14c0-4ddb-b257-af9a0c4258f6
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966436"
 ---
 # <a name="validationadapter"></a><span data-ttu-id="13f41-102">ValidationAdapter</span><span class="sxs-lookup"><span data-stu-id="13f41-102">ValidationAdapter</span></span>
 <span data-ttu-id="13f41-103">ValidationAdapter 範例會示範如何對回應者公開程序的訊息執行特殊驗證規則。</span><span class="sxs-lookup"><span data-stu-id="13f41-103">The ValidationAdapter sample demonstrates how to run special validation rules on a message in a responder public process.</span></span> [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="13f41-104">® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 本身會在傳送管線或接收管線及協調流程中執行驗證。</span><span class="sxs-lookup"><span data-stu-id="13f41-104">® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] natively performs validation in the send or receive pipeline, and in orchestrations.</span></span> <span data-ttu-id="13f41-105">如果您想要執行其他驗證，可以建立驗證配接器。</span><span class="sxs-lookup"><span data-stu-id="13f41-105">If you want to perform additional validation, you can create a validation adapter.</span></span> <span data-ttu-id="13f41-106">其他驗證可能包含跨欄位或特定業務的驗證規則，而您無法使用 XSD 實作這些規則。</span><span class="sxs-lookup"><span data-stu-id="13f41-106">The additional validation could include cross-field validation or business-specific validation rules that you cannot implement using an XSD.</span></span>  

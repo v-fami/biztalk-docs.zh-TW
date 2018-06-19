@@ -1,14 +1,14 @@
 ---
-title: "Accessibility for People with Disabilities3 |Microsoft 文件"
-ms.custom: 
+title: Accessibility for People with Disabilities3 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2dd0f8d9-b6d4-4568-a632-a004b8349b7a
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206718"
 ---
 # <a name="accessibility-for-people-with-disabilities"></a><span data-ttu-id="b6a85-102">行動不便人士的協助工具</span><span class="sxs-lookup"><span data-stu-id="b6a85-102">Accessibility for People with Disabilities</span></span>
 <span data-ttu-id="b6a85-103">Microsoft 致力於讓每一個人輕鬆使用它的產品和服務。</span><span class="sxs-lookup"><span data-stu-id="b6a85-103">Microsoft is committed to making its products and services easier for everyone to use.</span></span> <span data-ttu-id="b6a85-104">如需協助工具功能和 Microsoft 服務的一般資訊，請參閱 Microsoft 協助工具網站，網址[http://go.microsoft.com/fwlink/?LinkId=56272](http://go.microsoft.com/fwlink/?LinkId=56272)。</span><span class="sxs-lookup"><span data-stu-id="b6a85-104">For general information about accessibility features and services from Microsoft, see the Microsoft Accessibility Web site at [http://go.microsoft.com/fwlink/?LinkId=56272](http://go.microsoft.com/fwlink/?LinkId=56272).</span></span>  

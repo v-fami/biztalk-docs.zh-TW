@@ -1,14 +1,14 @@
 ---
-title: "如何開啟升級屬性對話方塊 |Microsoft 文件"
-ms.custom: 
+title: 如何開啟升級屬性對話方塊 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 23fce94a-d5dc-4b1a-93c7-a459785cfeb1
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970500"
 ---
 # <a name="how-to-open-the-promote-properties-dialog-box"></a><span data-ttu-id="51f70-102">如何開啟 [升級屬性] 對話方塊</span><span class="sxs-lookup"><span data-stu-id="51f70-102">How to Open the Promote Properties Dialog Box</span></span>
 <span data-ttu-id="51f70-103">屬性升級在管理**升級屬性** 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="51f70-103">Property promotion is managed in the **Promote Properties** dialog box.</span></span> <span data-ttu-id="51f70-104">本主題會提供開啟此對話方塊以管理升級屬性的逐步指示。</span><span class="sxs-lookup"><span data-stu-id="51f70-104">This topic provides step-by-step instructions for opening this dialog box to manage your promoted properties.</span></span>  
@@ -28,7 +29,7 @@ ms.lasthandoff: 11/28/2017
   
 ### <a name="to-open-the-promote-properties-dialog-box-from-the-schema-node"></a><span data-ttu-id="51f70-107">從結構描述節點開啟升級屬性對話方塊</span><span class="sxs-lookup"><span data-stu-id="51f70-107">To open the Promote Properties dialog box from the Schema node</span></span>  
   
-1.  <span data-ttu-id="51f70-108">在結構描述樹狀目錄中，選取**\<結構描述\>**節點。</span><span class="sxs-lookup"><span data-stu-id="51f70-108">In the schema tree, select the **\<Schema\>** node.</span></span>  
+1.  <span data-ttu-id="51f70-108">在結構描述樹狀目錄中，選取**\<結構描述\>** 節點。</span><span class="sxs-lookup"><span data-stu-id="51f70-108">In the schema tree, select the **\<Schema\>** node.</span></span>  
   
 2.  <span data-ttu-id="51f70-109">在 [屬性] 視窗中，按一下省略符號 (**...**) 中的值欄位按鈕**升級屬性**屬性。</span><span class="sxs-lookup"><span data-stu-id="51f70-109">In the Properties window, click the ellipsis (**...**) button in the value field of the **Promote Properties** property.</span></span>  
   

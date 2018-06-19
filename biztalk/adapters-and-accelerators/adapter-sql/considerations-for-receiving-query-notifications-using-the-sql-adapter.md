@@ -1,14 +1,14 @@
 ---
-title: "使用 SQL 配接器接收查詢通知的考量 |Microsoft 文件"
-ms.custom: 
+title: 使用 SQL 配接器接收查詢通知的考量 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0142f385-3d55-41a7-a50e-dda94b96d0a4
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963004"
 ---
 # <a name="considerations-for-receiving-query-notifications-using-the-sql-adapter"></a><span data-ttu-id="8431e-102">使用 SQL 配接器接收查詢通知的考量</span><span class="sxs-lookup"><span data-stu-id="8431e-102">Considerations for Receiving Query Notifications Using the SQL adapter</span></span>
 <span data-ttu-id="8431e-103">本主題提供一些考量和最佳作法，以使用時請記住[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]要從 SQL Server 資料庫接收查詢通知。</span><span class="sxs-lookup"><span data-stu-id="8431e-103">This topic provides some considerations and best practices to keep in mind while using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to receive query notifications from a SQL Server database.</span></span>  
@@ -28,7 +29,7 @@ ms.lasthandoff: 11/28/2017
   
 -   <span data-ttu-id="8431e-108">作業的通知訊息不會受到該作業所影響的記錄數目。</span><span class="sxs-lookup"><span data-stu-id="8431e-108">The notification message for an operation is not affected by the number of records affected by that operation.</span></span> <span data-ttu-id="8431e-109">例如，插入、 更新或刪除 SQL Server 資料庫資料表中的記錄數目，不論配接器用戶端收到只有一個通知訊息。</span><span class="sxs-lookup"><span data-stu-id="8431e-109">For example, regardless of the number of records inserted, updated, or deleted in a SQL Server database table, the adapter client receives only one notification message.</span></span>  
   
--   <span data-ttu-id="8431e-110">我們建議配接器用戶端應用程式包含的邏輯來解譯收到來自 SQL Server 通知的類型。</span><span class="sxs-lookup"><span data-stu-id="8431e-110">We recommend that the adapter client application contain the logic to interpret the type of notification received from SQL Server.</span></span> <span data-ttu-id="8431e-111">通知類型可以決定所擷取的資訊，從**\<資訊\>**接收的通知訊息的項目。</span><span class="sxs-lookup"><span data-stu-id="8431e-111">The notification type can be determined by extracting the information from, the **\<Info\>** element of the received notification message.</span></span> <span data-ttu-id="8431e-112">插入作業接收通知訊息的範例如下：</span><span class="sxs-lookup"><span data-stu-id="8431e-112">Here’s an example of a notification message received for an Insert operation:</span></span>  
+-   <span data-ttu-id="8431e-110">我們建議配接器用戶端應用程式包含的邏輯來解譯收到來自 SQL Server 通知的類型。</span><span class="sxs-lookup"><span data-stu-id="8431e-110">We recommend that the adapter client application contain the logic to interpret the type of notification received from SQL Server.</span></span> <span data-ttu-id="8431e-111">通知類型可以決定所擷取的資訊，從**\<資訊\>** 接收的通知訊息的項目。</span><span class="sxs-lookup"><span data-stu-id="8431e-111">The notification type can be determined by extracting the information from, the **\<Info\>** element of the received notification message.</span></span> <span data-ttu-id="8431e-112">插入作業接收通知訊息的範例如下：</span><span class="sxs-lookup"><span data-stu-id="8431e-112">Here’s an example of a notification message received for an Insert operation:</span></span>  
   
     ```  
     <Notification xmlns="http://schemas.microsoft.com/Sql/2008/05/Notification/">  
@@ -38,7 +39,7 @@ ms.lasthandoff: 11/28/2017
     </Notification>  
     ```  
   
-     <span data-ttu-id="8431e-113">請注意內的值**\<資訊\>**項目。</span><span class="sxs-lookup"><span data-stu-id="8431e-113">Notice the value within the **\<Info\>** element.</span></span> <span data-ttu-id="8431e-114">此值會提供資訊在收到通知訊息的作業。</span><span class="sxs-lookup"><span data-stu-id="8431e-114">This value provides information on the operation for which the notification message was received.</span></span> <span data-ttu-id="8431e-115">您的應用程式應該有的功能來擷取內的值**\<資訊\>**項目，然後根據的值，執行後續的工作。</span><span class="sxs-lookup"><span data-stu-id="8431e-115">Your application should have the functionality to extract the value within the **\<Info\>** element and then based on the value, perform subsequent tasks.</span></span> <span data-ttu-id="8431e-116">本主題[處理通知訊息，以便完成特定工作中使用 BizTalk Server 的 SQL](../../adapters-and-accelerators/adapter-sql/process-notification-messages-to-complete-specific-tasks-in-sql-using-biztalk.md)如何擷取內的值中的指示**\<資訊\>**項目.</span><span class="sxs-lookup"><span data-stu-id="8431e-116">The topic [Process Notification Messages to complete Specific Tasks in SQL using BizTalk Server](../../adapters-and-accelerators/adapter-sql/process-notification-messages-to-complete-specific-tasks-in-sql-using-biztalk.md) has instructions on how to extract the value within the **\<Info\>** element.</span></span> <span data-ttu-id="8431e-117">詳細的教學課程，執行類似的工作也會提供在[教學課程 2： 員工-訂單程序使用 SQL 配接器](../../adapters-and-accelerators/adapter-sql/tutorial-2-employee-purchase-order-process-using-the-sql-adapter.md)。</span><span class="sxs-lookup"><span data-stu-id="8431e-117">A detailed tutorial that performs similar tasks is also available at [Tutorial 2: Employee - Purchase Order Process using the SQL adapter](../../adapters-and-accelerators/adapter-sql/tutorial-2-employee-purchase-order-process-using-the-sql-adapter.md).</span></span>  
+     <span data-ttu-id="8431e-113">請注意內的值**\<資訊\>** 項目。</span><span class="sxs-lookup"><span data-stu-id="8431e-113">Notice the value within the **\<Info\>** element.</span></span> <span data-ttu-id="8431e-114">此值會提供資訊在收到通知訊息的作業。</span><span class="sxs-lookup"><span data-stu-id="8431e-114">This value provides information on the operation for which the notification message was received.</span></span> <span data-ttu-id="8431e-115">您的應用程式應該有的功能來擷取內的值**\<資訊\>** 項目，然後根據的值，執行後續的工作。</span><span class="sxs-lookup"><span data-stu-id="8431e-115">Your application should have the functionality to extract the value within the **\<Info\>** element and then based on the value, perform subsequent tasks.</span></span> <span data-ttu-id="8431e-116">本主題[處理通知訊息，以便完成特定工作中使用 BizTalk Server 的 SQL](../../adapters-and-accelerators/adapter-sql/process-notification-messages-to-complete-specific-tasks-in-sql-using-biztalk.md)如何擷取內的值中的指示**\<資訊\>** 項目.</span><span class="sxs-lookup"><span data-stu-id="8431e-116">The topic [Process Notification Messages to complete Specific Tasks in SQL using BizTalk Server](../../adapters-and-accelerators/adapter-sql/process-notification-messages-to-complete-specific-tasks-in-sql-using-biztalk.md) has instructions on how to extract the value within the **\<Info\>** element.</span></span> <span data-ttu-id="8431e-117">詳細的教學課程，執行類似的工作也會提供在[教學課程 2： 員工-訂單程序使用 SQL 配接器](../../adapters-and-accelerators/adapter-sql/tutorial-2-employee-purchase-order-process-using-the-sql-adapter.md)。</span><span class="sxs-lookup"><span data-stu-id="8431e-117">A detailed tutorial that performs similar tasks is also available at [Tutorial 2: Employee - Purchase Order Process using the SQL adapter](../../adapters-and-accelerators/adapter-sql/tutorial-2-employee-purchase-order-process-using-the-sql-adapter.md).</span></span>  
   
 -   <span data-ttu-id="8431e-118">在理想情況下，用戶端應用程式會收到通知的特定記錄後，該記錄應該會更新，讓沒有收到其他通知。</span><span class="sxs-lookup"><span data-stu-id="8431e-118">Ideally, after the client application receives a notification for a specific record, that record should be updated so that additional notifications are not received.</span></span> <span data-ttu-id="8431e-119">例如，請考慮**員工**資料表具有**狀態**資料行。</span><span class="sxs-lookup"><span data-stu-id="8431e-119">For example, consider an **Employee** table that has a **Status** column.</span></span> <span data-ttu-id="8431e-120">針對所有新記錄插入至**員工**資料表中的值**狀態**資料行一律是"0"，資料表看起來像下面：</span><span class="sxs-lookup"><span data-stu-id="8431e-120">For all new records inserted into the **Employee** table, the value in the **Status** column is always “0” so the table will look like the following:</span></span>  
   

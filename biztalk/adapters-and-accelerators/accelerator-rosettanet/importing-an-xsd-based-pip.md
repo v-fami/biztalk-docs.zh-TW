@@ -1,18 +1,18 @@
 ---
-title: "匯入以 XSD 為基礎的 PIP |Microsoft 文件"
-ms.custom: 
+title: 匯入以 XSD 為基礎的 PIP |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - PIPs, importing
 - XSD-based PIPs
 - PIPs, XSD-based PIPs
 ms.assetid: d12441d4-79bf-4c24-9360-4b78c1da0d34
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961652"
 ---
 # <a name="importing-an-xsd-based-pip"></a><span data-ttu-id="0651d-102">匯入以 XSD 為基礎的 PIP</span><span class="sxs-lookup"><span data-stu-id="0651d-102">Importing an XSD-based PIP</span></span>
 <span data-ttu-id="0651d-103">雖然由 RosettaNet.org 提供的 PIP 大部分是以 DTD 為基礎，但較新的 PIP 則是以 XSD 為基礎。</span><span class="sxs-lookup"><span data-stu-id="0651d-103">While the majority of PIPS provided by RosettaNet.org are DTD-based, newer PIPS are XSD-based.</span></span> <span data-ttu-id="0651d-104">下列程序說明如何匯入以 XSD 為基礎的 PIP。</span><span class="sxs-lookup"><span data-stu-id="0651d-104">The following procedure describes how to import XSD-based PIPS.</span></span>  

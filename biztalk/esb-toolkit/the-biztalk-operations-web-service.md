@@ -1,14 +1,14 @@
 ---
-title: "BizTalk 作業 Web 服務 |Microsoft 文件"
-ms.custom: 
+title: BizTalk 作業 Web 服務 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: af38815f-f643-4598-9148-6499071d12e4
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22296910"
 ---
 # <a name="the-biztalk-operations-web-service"></a><span data-ttu-id="89c14-102">BizTalk 作業 Web 服務</span><span class="sxs-lookup"><span data-stu-id="89c14-102">The BizTalk Operations Web Service</span></span>
 <span data-ttu-id="89c14-103">Microsoft BizTalk 作業 Web 服務公開的物件和 BizTalk Server 訊息相關資訊。</span><span class="sxs-lookup"><span data-stu-id="89c14-103">The Microsoft BizTalk Operations Web service exposes information about the objects and messages in BizTalk Server.</span></span> <span data-ttu-id="89c14-104">服務名稱是**ESB.BizTalkOperationsService**，與此服務會公開各種不同的方法會傳回項目，例如清單主機、 協調流程、 應用程式和 BizTalk 應用程式狀態。</span><span class="sxs-lookup"><span data-stu-id="89c14-104">The service name is **ESB.BizTalkOperationsService**, and the service exposes a wide range of methods that return items such as a list of hosts, orchestrations, applications, and the BizTalk application status.</span></span>  

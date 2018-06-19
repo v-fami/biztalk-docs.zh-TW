@@ -1,14 +1,14 @@
 ---
-title: "後續安裝步驟，BizTalk Server 2013 和 2013 R2 |Microsoft 文件"
-ms.custom: 
+title: 後續安裝步驟，BizTalk Server 2013 和 2013 R2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c3b47843-9da5-4144-8b84-135494b8ab43
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299902"
 ---
 # <a name="post-installation-steps-for-biztalk-server-2013-and-2013-r2"></a><span data-ttu-id="e42a6-102">BizTalk Server 2013 和 2013 R2 的後續安裝步驟</span><span class="sxs-lookup"><span data-stu-id="e42a6-102">Post-installation Steps for BizTalk Server 2013 and 2013 R2</span></span>
   

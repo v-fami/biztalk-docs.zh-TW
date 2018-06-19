@@ -1,14 +1,14 @@
 ---
-title: "路線上手 Web Services |Microsoft 文件"
-ms.custom: 
+title: 路線上手 Web Services |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d7551974-b9d2-4ae3-b54c-3aa5ba058e95
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295430"
 ---
 # <a name="the-itinerary-on-ramp-web-services"></a><span data-ttu-id="6ecd9-102">路線上手 Web 服務</span><span class="sxs-lookup"><span data-stu-id="6ecd9-102">The Itinerary On-Ramp Web Services</span></span>
 <span data-ttu-id="6ecd9-103">路線上手，公開的方法，可讓用戶端將訊息提交以處理路線服務，然後向前目標 Microsoft BizTalk 或 ESB 作業路線 Web 服務。</span><span class="sxs-lookup"><span data-stu-id="6ecd9-103">The Itinerary Web service is an itinerary on-ramp that exposes a method that allows clients to submit messages for processing by the Itinerary Service and then onward to the target Microsoft BizTalk or ESB operations.</span></span>  

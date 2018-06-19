@@ -1,17 +1,17 @@
 ---
-title: "商務規則 Hello World2 （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: 商務規則 Hello World2 （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, business rules
 - business rules, examples
 ms.assetid: 2a88a2a0-8cb6-4373-8441-0ab04345a477
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967300"
 ---
 # <a name="business-rules-hello-world2-biztalk-server-sample"></a><span data-ttu-id="fcbd9-102">商務規則 Hello World2 （BizTalk Server 範例）</span><span class="sxs-lookup"><span data-stu-id="fcbd9-102">Business Rules Hello World2 (BizTalk Server Sample)</span></span>
 <span data-ttu-id="fcbd9-103">商務規則 Hello World2 範例會擴充 「 商務規則 Hello world1 」 範例示範如何為版本時，發佈和部署 XML 規則集至共用的 SQL 規則存放區，以及如何執行原則使用**原則**物件「 商務規則架構所提供。</span><span class="sxs-lookup"><span data-stu-id="fcbd9-103">The Business Rules Hello World2 sample extends the Business Rules Hello World1 sample by demonstrating how to version, publish, and deploy the XML rule set to the shared SQL rule store, and how to run the policy using the **Policy** object provided by the Business Rules Framework.</span></span> <span data-ttu-id="fcbd9-104">這個範例還會示範動態原則更新的實際操作。</span><span class="sxs-lookup"><span data-stu-id="fcbd9-104">The sample also demonstrates dynamic policy updates in action.</span></span>  
@@ -55,7 +56,7 @@ ms.lasthandoff: 11/28/2017
 >  <span data-ttu-id="fcbd9-119">如需在此 SDK 中的所有範例的重要資訊，請參閱[範例](../core/samples-in-the-sdk.md)。</span><span class="sxs-lookup"><span data-stu-id="fcbd9-119">For important information about all samples in this SDK, see [Samples](../core/samples-in-the-sdk.md).</span></span>  
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="fcbd9-120">可在何處找到此範例</span><span class="sxs-lookup"><span data-stu-id="fcbd9-120">Where to Find This Sample</span></span>  
- <span data-ttu-id="fcbd9-121">*\<範例路徑\>*\Business Rules\Business 規則 Hello World2\\</span><span class="sxs-lookup"><span data-stu-id="fcbd9-121">*\<Samples Path\>*\Business Rules\Business Rules Hello World2\\</span></span>  
+ <span data-ttu-id="fcbd9-121">*\<範例路徑\>* \Business Rules\Business 規則 Hello World2\\</span><span class="sxs-lookup"><span data-stu-id="fcbd9-121">*\<Samples Path\>* \Business Rules\Business Rules Hello World2\\</span></span>  
   
  <span data-ttu-id="fcbd9-122">下表顯示此範例中的檔案，並描述其用途。</span><span class="sxs-lookup"><span data-stu-id="fcbd9-122">The following table shows the files in this sample and describes their purpose.</span></span>  
   
@@ -74,7 +75,7 @@ ms.lasthandoff: 11/28/2017
   
 1.  <span data-ttu-id="fcbd9-146">在命令視窗中，瀏覽至下列資料夾：</span><span class="sxs-lookup"><span data-stu-id="fcbd9-146">In a command window, navigate to the following folder:</span></span>  
   
-     <span data-ttu-id="fcbd9-147">*\<範例路徑\>*\Business Rules\Business 規則 Hello World2\\</span><span class="sxs-lookup"><span data-stu-id="fcbd9-147">*\<Samples Path\>*\Business Rules\Business Rules Hello World2\\</span></span>  
+     <span data-ttu-id="fcbd9-147">*\<範例路徑\>* \Business Rules\Business 規則 Hello World2\\</span><span class="sxs-lookup"><span data-stu-id="fcbd9-147">*\<Samples Path\>* \Business Rules\Business Rules Hello World2\\</span></span>  
   
 2.  <span data-ttu-id="fcbd9-148">執行檔案 Setup.bat，這會執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="fcbd9-148">Run the file Setup.bat, which performs the following actions:</span></span>  
   
@@ -93,7 +94,7 @@ ms.lasthandoff: 11/28/2017
   
 1.  <span data-ttu-id="fcbd9-156">在命令視窗中，瀏覽至下列資料夾：</span><span class="sxs-lookup"><span data-stu-id="fcbd9-156">In a command window, navigate to the following folder:</span></span>  
   
-     <span data-ttu-id="fcbd9-157">*\<範例路徑\>*\Business Rules\Business 規則 Hello World2\bin\Debug\\</span><span class="sxs-lookup"><span data-stu-id="fcbd9-157">*\<Samples Path\>*\Business Rules\Business Rules Hello World2\bin\Debug\\</span></span>  
+     <span data-ttu-id="fcbd9-157">*\<範例路徑\>* \Business Rules\Business 規則 Hello World2\bin\Debug\\</span><span class="sxs-lookup"><span data-stu-id="fcbd9-157">*\<Samples Path\>* \Business Rules\Business Rules Hello World2\bin\Debug\\</span></span>  
   
 2.  <span data-ttu-id="fcbd9-158">在 [命令] 視窗中，輸入此範例的檔案名稱 (**BusinessRulesHelloWorld2.exe**)，然後按 ENTER 鍵。</span><span class="sxs-lookup"><span data-stu-id="fcbd9-158">In the command window, type the name of the file for this sample (**BusinessRulesHelloWorld2.exe**), and then press ENTER.</span></span>  
   

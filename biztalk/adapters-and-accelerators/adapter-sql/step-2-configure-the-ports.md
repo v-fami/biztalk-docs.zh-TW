@@ -1,14 +1,14 @@
 ---
-title: "步驟 2： 設定的連接埠 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 設定的連接埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e804da96-26ae-482d-b6e1-67af24d639d9
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,13 +17,14 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967284"
 ---
 # <a name="step-2-configure-the-ports"></a><span data-ttu-id="d0e1b-102">步驟 2： 設定的連接埠</span><span class="sxs-lookup"><span data-stu-id="d0e1b-102">Step 2: Configure the Ports</span></span>
 <span data-ttu-id="d0e1b-103">![步驟 4 之 2](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")</span><span class="sxs-lookup"><span data-stu-id="d0e1b-103">![Step 2 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")</span></span>  
   
  <span data-ttu-id="d0e1b-104">**若要完成的時間：** 15 分鐘</span><span class="sxs-lookup"><span data-stu-id="d0e1b-104">**Time to complete:** 15 minutes</span></span>  
   
- <span data-ttu-id="d0e1b-105">**目標：**在此步驟中，您建立的實體連接埠[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]管理主控台。</span><span class="sxs-lookup"><span data-stu-id="d0e1b-105">**Objective:** In this step, you create the physical ports in [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.</span></span> <span data-ttu-id="d0e1b-106">您建立每個邏輯連接埠在協調流程中所建立的實體連接埠。</span><span class="sxs-lookup"><span data-stu-id="d0e1b-106">You create a physical port for each logical port you created in the orchestration.</span></span> <span data-ttu-id="d0e1b-107">您將建立下列連接埠：</span><span class="sxs-lookup"><span data-stu-id="d0e1b-107">You will create the following ports:</span></span>  
+ <span data-ttu-id="d0e1b-105">**目標：** 在此步驟中，您建立的實體連接埠[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]管理主控台。</span><span class="sxs-lookup"><span data-stu-id="d0e1b-105">**Objective:** In this step, you create the physical ports in [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.</span></span> <span data-ttu-id="d0e1b-106">您建立每個邏輯連接埠在協調流程中所建立的實體連接埠。</span><span class="sxs-lookup"><span data-stu-id="d0e1b-106">You create a physical port for each logical port you created in the orchestration.</span></span> <span data-ttu-id="d0e1b-107">您將建立下列連接埠：</span><span class="sxs-lookup"><span data-stu-id="d0e1b-107">You will create the following ports:</span></span>  
   
 -   <span data-ttu-id="d0e1b-108">單向 WCF 自訂接收埠以接收通知訊息變更**員工**SQL Server 資料庫中的資料表。</span><span class="sxs-lookup"><span data-stu-id="d0e1b-108">A one-way WCF-Custom receive port to receive notification messages for changes to **Employee** table in a SQL Server database.</span></span>  
   
@@ -49,7 +50,7 @@ ms.lasthandoff: 11/28/2017
     |<span data-ttu-id="d0e1b-124">繫結屬性</span><span class="sxs-lookup"><span data-stu-id="d0e1b-124">Binding property</span></span>|<span data-ttu-id="d0e1b-125">值</span><span class="sxs-lookup"><span data-stu-id="d0e1b-125">Value</span></span>|  
     |----------------------|-----------|  
     |<span data-ttu-id="d0e1b-126">**InboundOperationType**</span><span class="sxs-lookup"><span data-stu-id="d0e1b-126">**InboundOperationType**</span></span>|<span data-ttu-id="d0e1b-127">將此設**通知**。</span><span class="sxs-lookup"><span data-stu-id="d0e1b-127">Set this to **Notification**.</span></span>|  
-    |<span data-ttu-id="d0e1b-128">**NotificationStatement**</span><span class="sxs-lookup"><span data-stu-id="d0e1b-128">**NotificationStatement**</span></span>|<span data-ttu-id="d0e1b-129">將此值設定為：</span><span class="sxs-lookup"><span data-stu-id="d0e1b-129">Set this to:</span></span><br /><br /> `SELECT Employee_ID, Name FROM dbo.Employee WHERE Status=0`<br /><br /> <span data-ttu-id="d0e1b-130">**注意：**您必須明確指定資料行名稱的陳述式中這個 Select 陳述式中所示。</span><span class="sxs-lookup"><span data-stu-id="d0e1b-130">**Note:** You must specifically specify the column names in the statement as shown in this Select statement.</span></span> <span data-ttu-id="d0e1b-131">此外，您必須一律指定資料表名稱，以及結構描述名稱，例如`dbo.Employee`。</span><span class="sxs-lookup"><span data-stu-id="d0e1b-131">Also, you must always specify the table name along with the schema name, for example, `dbo.Employee`.</span></span>|  
+    |<span data-ttu-id="d0e1b-128">**NotificationStatement**</span><span class="sxs-lookup"><span data-stu-id="d0e1b-128">**NotificationStatement**</span></span>|<span data-ttu-id="d0e1b-129">將此值設定為：</span><span class="sxs-lookup"><span data-stu-id="d0e1b-129">Set this to:</span></span><br /><br /> `SELECT Employee_ID, Name FROM dbo.Employee WHERE Status=0`<br /><br /> <span data-ttu-id="d0e1b-130">**注意：** 您必須明確指定資料行名稱的陳述式中這個 Select 陳述式中所示。</span><span class="sxs-lookup"><span data-stu-id="d0e1b-130">**Note:** You must specifically specify the column names in the statement as shown in this Select statement.</span></span> <span data-ttu-id="d0e1b-131">此外，您必須一律指定資料表名稱，以及結構描述名稱，例如`dbo.Employee`。</span><span class="sxs-lookup"><span data-stu-id="d0e1b-131">Also, you must always specify the table name along with the schema name, for example, `dbo.Employee`.</span></span>|  
     |<span data-ttu-id="d0e1b-132">**NotifyOnListenerStart**</span><span class="sxs-lookup"><span data-stu-id="d0e1b-132">**NotifyOnListenerStart**</span></span>|<span data-ttu-id="d0e1b-133">將此設**True**。</span><span class="sxs-lookup"><span data-stu-id="d0e1b-133">Set this to **True**.</span></span>|  
   
      <span data-ttu-id="d0e1b-134">如需不同的繫結屬性的詳細資訊，請參閱[閱讀 BizTalk Adapter for SQL Server 配接器繫結屬性](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md)。</span><span class="sxs-lookup"><span data-stu-id="d0e1b-134">For more information about the different binding properties, see [Read about the BizTalk Adapter for SQL Server adapter binding properties](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md).</span></span>  
@@ -75,7 +76,7 @@ ms.lasthandoff: 11/28/2017
   
     2.  <span data-ttu-id="d0e1b-147">從**SQLOutboundPort-傳送埠屬性**對話方塊中的，從左窗格中，按一下**輸出對應**。</span><span class="sxs-lookup"><span data-stu-id="d0e1b-147">From the **SQLOutboundPort – Send Port Properties** dialog box, from the left pane, click **Outbound Maps**.</span></span>  
   
-    3.  <span data-ttu-id="d0e1b-148">從右窗格中，在**輸出對應**方塊中，按一下下方的儲存格**對應**資料行，然後從下拉式清單中，選取**[transform_1]**。</span><span class="sxs-lookup"><span data-stu-id="d0e1b-148">From the right-pane, in the **Outbound Maps** box, click the cell under the **Map** column, and from the drop-down list, select **Transform_1**.</span></span> <span data-ttu-id="d0e1b-149">這是您建立 BizTalk 協調流程中之對應的名稱[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d0e1b-149">This is the name of the map you created in the BizTalk orchestration in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)].</span></span>  
+    3.  <span data-ttu-id="d0e1b-148">從右窗格中，在**輸出對應**方塊中，按一下下方的儲存格**對應**資料行，然後從下拉式清單中，選取 **[transform_1]**。</span><span class="sxs-lookup"><span data-stu-id="d0e1b-148">From the right-pane, in the **Outbound Maps** box, click the cell under the **Map** column, and from the drop-down list, select **Transform_1**.</span></span> <span data-ttu-id="d0e1b-149">這是您建立 BizTalk 協調流程中之對應的名稱[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d0e1b-149">This is the name of the map you created in the BizTalk orchestration in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)].</span></span>  
   
          <span data-ttu-id="d0e1b-150">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="d0e1b-150">Click **OK**.</span></span>  
   

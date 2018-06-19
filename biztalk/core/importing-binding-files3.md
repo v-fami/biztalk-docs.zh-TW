@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/deploying-biztalk-adapter-for-jd-edwards-oneworld/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: 5c5cce40f3fbeb580ec7ba854d02cb243e1742b4
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013461"
 ---
 # <a name="importing-binding-files"></a><span data-ttu-id="8c51a-101">匯入繫結檔案</span><span class="sxs-lookup"><span data-stu-id="8c51a-101">Importing Binding Files</span></span>
 
@@ -17,7 +18,7 @@ ms.lasthandoff: 11/07/2017
   
 -   <span data-ttu-id="8c51a-106">在新電腦上用於存放回應的資料夾存在且相同，否則請編輯繫結檔案。</span><span class="sxs-lookup"><span data-stu-id="8c51a-106">The folders for the responses exist and are identical on the new computer, or edit the binding file.</span></span>  
   
--   <span data-ttu-id="8c51a-107">JD Edwards 系統密碼 (如果出現在組態中) 會以 ***** 格式儲存在繫結檔案中。</span><span class="sxs-lookup"><span data-stu-id="8c51a-107">JD Edwards system passwords, if present in the configuration, are saved as ***** in the binding file.</span></span> 
+-   <span data-ttu-id="8c51a-107">JD Edwards 系統密碼 (如果出現在組態中) 會以 \*\*\*\*\* 格式儲存在繫結檔案中。</span><span class="sxs-lookup"><span data-stu-id="8c51a-107">JD Edwards system passwords, if present in the configuration, are saved as \*\*\*\*\* in the binding file.</span></span> 
   
 > [!NOTE]
 >  <span data-ttu-id="8c51a-108">部署會覆寫接收位置組態。</span><span class="sxs-lookup"><span data-stu-id="8c51a-108">Deployment overwrites Receive Location configuration.</span></span> <span data-ttu-id="8c51a-109">在目標電腦上部署繫結檔案 (和組件) 時，傳送埠和接收位置會在匯入時被取代為 XML 繫結檔案中的傳送埠和接收位置。</span><span class="sxs-lookup"><span data-stu-id="8c51a-109">When deploying a binding file (and assembly) on a target computer, the send ports and receive locations are replaced with those in the XML binding file when they are imported.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "FileAct 配接器支援資訊傳輸 |Microsoft 文件"
-ms.custom: 
+title: FileAct 配接器支援資訊傳輸 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0fc27561-9abb-4496-9db7-f221a6c90738
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222814"
 ---
 # <a name="fileact-adapter-supporting-information-transfer"></a><span data-ttu-id="ac095-102">FileAct 配接器支援資訊傳輸</span><span class="sxs-lookup"><span data-stu-id="ac095-102">FileAct Adapter Supporting Information Transfer</span></span>
 <span data-ttu-id="ac095-103">FileAct 配接器允許選擇性的支援資訊的檔案傳輸。</span><span class="sxs-lookup"><span data-stu-id="ac095-103">The FileAct adapter permits the optional transfer of supporting information with files.</span></span> <span data-ttu-id="ac095-104">這項資訊會傳送一種應用程式。</span><span class="sxs-lookup"><span data-stu-id="ac095-104">This information is transferred at the discretion of the application.</span></span> <span data-ttu-id="ac095-105">配接器不會進行這項資訊在起始端除了驗證它的正確格式的任何特殊處理。</span><span class="sxs-lookup"><span data-stu-id="ac095-105">The adapter does not do any special processing of this information on the originating side except to validate that it is in the correct format.</span></span> <span data-ttu-id="ac095-106">構成的支援資訊的元件包括：</span><span class="sxs-lookup"><span data-stu-id="ac095-106">The elements which comprise supporting information include:</span></span>  

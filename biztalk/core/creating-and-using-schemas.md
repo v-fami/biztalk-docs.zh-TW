@@ -1,15 +1,15 @@
 ---
-title: "建立和使用結構描述中 TIBCO |Microsoft 文件"
-description: "使用 BizTalk 編輯器來建立的結構描述 BizTalk Adapter for TIBCO Enterprise Message Service，和設定 BizTalk Server 結構描述中的目標命名空間"
-ms.custom: 
+title: 建立和使用結構描述中 TIBCO |Microsoft 文件
+description: 使用 BizTalk 編輯器來建立的結構描述 BizTalk Adapter for TIBCO Enterprise Message Service，和設定 BizTalk Server 結構描述中的目標命名空間
+ms.custom: ''
 ms.date: 10/23/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3927b0b3-db3b-4494-b003-d930af734e58
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968716"
 ---
 # <a name="create-and-use-tibco-schemas"></a><span data-ttu-id="246a1-103">建立和使用 TIBCO 結構描述</span><span class="sxs-lookup"><span data-stu-id="246a1-103">Create and use TIBCO schemas</span></span>
 

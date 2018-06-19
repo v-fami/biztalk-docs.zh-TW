@@ -1,14 +1,14 @@
 ---
-title: "請務必測試為何 |Microsoft 文件"
-ms.custom: 
+title: 請務必測試為何 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ce91aca5-56d3-4fb8-abe2-af0039804706
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302302"
 ---
 # <a name="why-it-is-important-to-test"></a><span data-ttu-id="34bf5-102">它為何如此重要至測試</span><span class="sxs-lookup"><span data-stu-id="34bf5-102">Why It Is Important to Test</span></span>
 <span data-ttu-id="34bf5-103">本主題提供足夠的測試時，會導致心態概觀描述測試 BizTalk 解決方案的相關風險，並對照的手動測試自動化測試的優點與陷阱。</span><span class="sxs-lookup"><span data-stu-id="34bf5-103">This topic provides an overview of the mindset that leads to insufficient testing, describes the risks associated with failing to test BizTalk solutions, and contrasts the pitfalls of manual testing with the benefits of automated testing.</span></span>  

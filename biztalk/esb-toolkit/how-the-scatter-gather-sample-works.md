@@ -1,14 +1,14 @@
 ---
-title: "分散-集中範例的運作方式 |Microsoft 文件"
-ms.custom: 
+title: 分散-集中範例的運作方式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5ccfacb7-4fd2-4a1a-bece-27eedd86bbe9
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294918"
 ---
 # <a name="how-the-scatter-gather-sample-works"></a><span data-ttu-id="c6f53-102">分散-集中範例的運作方式</span><span class="sxs-lookup"><span data-stu-id="c6f53-102">How the Scatter-Gather Sample Works</span></span>
 <span data-ttu-id="c6f53-103">範例應用程式會建立一組 SOAP 標頭包含從分散-集中路線檔案載入路線、 從磁碟載入指定的訊息檔案、 路線標頭附加至訊息，和將它提交至透過上手的 ESB處理程序。</span><span class="sxs-lookup"><span data-stu-id="c6f53-103">The sample application builds a set of SOAP headers containing the itinerary loaded from the Scatter-Gather itinerary file, loads the specified message file from disk, appends the itinerary headers to the message, and submits it to the ESB through an on-ramp for processing.</span></span> <span data-ttu-id="c6f53-104">路線，都產生回應，如果應用程式會收集此，並顯示在應用程式視窗。</span><span class="sxs-lookup"><span data-stu-id="c6f53-104">If the itinerary generates a response, the application collects this and displays it in the application window.</span></span>  

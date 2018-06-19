@@ -1,14 +1,14 @@
 ---
-title: "啟用配接器架構組態延伸模組 |Microsoft 文件"
-ms.custom: 
+title: 啟用配接器架構組態延伸模組 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 851f4a20-502d-45f8-9647-13bec33fa460
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970145"
 ---
 # <a name="enabling-adapter-framework-configuration-extensions"></a><span data-ttu-id="8cf4a-102">啟用配接器架構組態延伸模組</span><span class="sxs-lookup"><span data-stu-id="8cf4a-102">Enabling Adapter Framework Configuration Extensions</span></span>
 <span data-ttu-id="8cf4a-103">「BizTalk 配接器架構」提供數個可改善使用者體驗的延伸模組。</span><span class="sxs-lookup"><span data-stu-id="8cf4a-103">The BizTalk Adapter Framework provides several extensions to improve the user experience.</span></span> <span data-ttu-id="8cf4a-104">若要使用這些擴充功能，匯入架構的結構描述 BiztalkAdapterFramework.xsd。</span><span class="sxs-lookup"><span data-stu-id="8cf4a-104">To use these extensions, import the framework's schema, BiztalkAdapterFramework.xsd.</span></span> <span data-ttu-id="8cf4a-105">匯入結構描述可讓您可以存取裝飾和特定的類型，並將它們用於配接器的組態結構描述，如下所述。</span><span class="sxs-lookup"><span data-stu-id="8cf4a-105">Importing the schema enables you to access decorations and specialized types and to use them in the adapter's configuration schema, as described below.</span></span> <span data-ttu-id="8cf4a-106">下列程式碼顯示如何匯入此結構描述：</span><span class="sxs-lookup"><span data-stu-id="8cf4a-106">The following code shows how to import the schema:</span></span>  

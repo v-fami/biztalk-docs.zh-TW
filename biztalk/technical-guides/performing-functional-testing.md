@@ -1,14 +1,14 @@
 ---
-title: "執行功能測試 |Microsoft 文件"
-ms.custom: 
+title: 執行功能測試 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6b9c8c95-5a25-4255-a4c2-e26c67b7a620
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302318"
 ---
 # <a name="performing-functional-testing"></a><span data-ttu-id="68f6f-102">執行功能測試</span><span class="sxs-lookup"><span data-stu-id="68f6f-102">Performing Functional Testing</span></span>
 <span data-ttu-id="68f6f-103">若要測試特定的端對端案例或指定的使用案例特定的 BizTalk 應用程式的內容中使用的功能測試。</span><span class="sxs-lookup"><span data-stu-id="68f6f-103">You use functional testing to test a specific end-to-end scenario or a given use case in the context of a particular BizTalk application.</span></span> <span data-ttu-id="68f6f-104">功能測試應該涵蓋所有可能的途徑給定的狀況中，包括失敗路徑。</span><span class="sxs-lookup"><span data-stu-id="68f6f-104">A functional test should cover all the possible paths through a given scenario, including the failure paths.</span></span> <span data-ttu-id="68f6f-105">應該評估失敗的路徑，以確保應用程式適當地處理失敗的狀況。</span><span class="sxs-lookup"><span data-stu-id="68f6f-105">Failure paths should be evaluated to ensure that the application deals with failure conditions appropriately.</span></span>  

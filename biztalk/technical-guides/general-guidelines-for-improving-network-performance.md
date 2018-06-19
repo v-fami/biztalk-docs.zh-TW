@@ -1,14 +1,14 @@
 ---
-title: "一般指導方針，改善網路效能 |Microsoft 文件"
-ms.custom: 
+title: 一般指導方針，改善網路效能 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 286c10d2-9262-4e3c-adde-f7b5780c2736
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298446"
 ---
 # <a name="general-guidelines-for-improving-network-performance"></a><span data-ttu-id="c7df1-102">改善網路效能的一般指導方針</span><span class="sxs-lookup"><span data-stu-id="c7df1-102">General Guidelines for Improving Network Performance</span></span>
 <span data-ttu-id="c7df1-103">調整網路設定，以最佳值可能會有效地解決網路瓶頸，並改善在 BizTalk Server 解決方案的整體網路效能。</span><span class="sxs-lookup"><span data-stu-id="c7df1-103">Adjusting network settings to optimal values has been shown to effectively address network bottlenecks and improve overall network performance in BizTalk Server solutions.</span></span> <span data-ttu-id="c7df1-104">這應該在方案中，包括 BizTalk Server 電腦、 SQL Server 電腦，以及任何其他伺服器的電腦所涉及的所有電腦上。</span><span class="sxs-lookup"><span data-stu-id="c7df1-104">This should be done on all computers involved in the solution, including BizTalk Server computers, SQL Server computers, and any other server computers.</span></span>  

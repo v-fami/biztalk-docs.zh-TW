@@ -1,17 +1,17 @@
 ---
-title: "測試安裝 |Microsoft 文件"
-ms.custom: 
+title: 測試安裝 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - testing installation
 - installing, testing installation
 ms.assetid: db27a75c-db7f-46ff-b8ef-2624ff18dcc8
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961060"
 ---
 # <a name="testing-your-installation"></a><span data-ttu-id="9b50c-102">測試您的安裝</span><span class="sxs-lookup"><span data-stu-id="9b50c-102">Testing Your Installation</span></span>
 <span data-ttu-id="9b50c-103">您可以設定您[!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]進行測試以手動方式執行端對端教學課程，或執行端對端教學課程程式的安裝。</span><span class="sxs-lookup"><span data-stu-id="9b50c-103">You can set up your [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] installation for testing either by manually running through the end-to-end tutorial or by executing the end-to-end tutorial program.</span></span> <span data-ttu-id="9b50c-104">若要執行程式，請按一下**啟動教學課程**按鈕在安裝期間，或是執行 C:\Program Files\Microsoft BizTalk EndToEndTutorial.exe\<版本\>Accelerator for HL7\SDK\端對端教學課程的資料夾 （如果您之後執行安裝和設定）。</span><span class="sxs-lookup"><span data-stu-id="9b50c-104">To exercise the program, either click the **Launch Tutorial** button during setup or execute EndToEndTutorial.exe in the C:\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\End-to-End Tutorial folder (after running installation and configuration).</span></span> <span data-ttu-id="9b50c-105">這些自動化的動作將會執行相同的設定步驟，您必須手動執行透過本教學課程執行。</span><span class="sxs-lookup"><span data-stu-id="9b50c-105">Either of these automated actions will perform the same setup steps that you would manually perform by running through the tutorial.</span></span> <span data-ttu-id="9b50c-106">端對端教學課程程式會執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="9b50c-106">The end-to-end tutorial program does the following:</span></span>  

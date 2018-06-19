@@ -1,11 +1,11 @@
 ---
-title: "如何備份 BAM 分析和追蹤 Analysis Server 資料庫 |Microsoft 文件"
-ms.custom: 
+title: 如何備份 BAM 分析和追蹤 Analysis Server 資料庫 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - backing up, DTS packages
@@ -25,7 +25,7 @@ helpviewer_keywords:
 - Tracking Analysis Server database [BAM], backing up
 - Star Schema database [BAM], backing up
 ms.assetid: d39e3491-ab54-44f2-990a-7b8ee86f0501
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -34,6 +34,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970268"
 ---
 # <a name="how-to-back-up-the-bam-analysis-and-tracking-analysis-server-databases"></a><span data-ttu-id="a2924-102">如何備份 BAM 分析和追蹤 Analysis Server 資料庫</span><span class="sxs-lookup"><span data-stu-id="a2924-102">How to Back Up the BAM Analysis and Tracking Analysis Server Databases</span></span>
 <span data-ttu-id="a2924-103">商務活動監控 (BAM) 分析資料庫和追蹤 Analysis Server 資料庫會將內容儲存在 SQL Server Analysis Services Cube 中。</span><span class="sxs-lookup"><span data-stu-id="a2924-103">The Business Activity Monitoring (BAM) Analysis database and the Tracking Analysis Server database store content in SQL Server Analysis Services cubes.</span></span> <span data-ttu-id="a2924-104">「備份 BizTalk Server」工作不會備份這些資料庫。</span><span class="sxs-lookup"><span data-stu-id="a2924-104">The Backup BizTalk Server job does not back up these databases.</span></span> <span data-ttu-id="a2924-105">相反的，若要備份這些資料庫，您必須使用 SQL Server 分析管理員。</span><span class="sxs-lookup"><span data-stu-id="a2924-105">Instead, to backup these databases, you must use SQL Server Analysis Manager.</span></span>  

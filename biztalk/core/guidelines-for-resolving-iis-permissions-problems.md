@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970572"
 ---
 # <a name="guidelines-for-resolving-iis-permissions-problems"></a><span data-ttu-id="98ab1-102">解決 IIS 權限問題的指導方針</span><span class="sxs-lookup"><span data-stu-id="98ab1-102">Guidelines for Resolving IIS Permissions Problems</span></span>
 <span data-ttu-id="98ab1-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 在使用 HTTP、SOAP 和 Windows SharePoint Services 配接器時，會大量使用 Microsoft Internet Information Services (IIS) 以提供 Web 服務支援。</span><span class="sxs-lookup"><span data-stu-id="98ab1-103">[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] makes extensive use of Microsoft Internet Information Services (IIS) for Web services support and for use with the HTTP, SOAP, and Windows SharePoint Services adapters.</span></span>  
@@ -41,7 +42,7 @@ ms.lasthandoff: 11/28/2017
   
 1.  <span data-ttu-id="98ab1-116">按一下**啟動**，然後**所有程式**，然後按一下**Internet Information Services (IIS) 7 Manager**。</span><span class="sxs-lookup"><span data-stu-id="98ab1-116">Click **Start**, then **All Programs**, and click **Internet Information Services (IIS) 7 Manager**.</span></span>  
   
-2.  <span data-ttu-id="98ab1-117">在 [網際網路資訊服務 (IIS) 管理員] 中，展開*\<電腦名稱\>***（使用者帳戶）**按一下**應用程式集區**。</span><span class="sxs-lookup"><span data-stu-id="98ab1-117">In Internet Information Services (IIS) Manager, expand *\<computer name\>***(User account)** and click **Application Pools**.</span></span>  
+2.  <span data-ttu-id="98ab1-117">在 [網際網路資訊服務 (IIS) 管理員] 中，展開*\<電腦名稱\>***（使用者帳戶）** 按一下**應用程式集區**。</span><span class="sxs-lookup"><span data-stu-id="98ab1-117">In Internet Information Services (IIS) Manager, expand *\<computer name\>***(User account)** and click **Application Pools**.</span></span>  
   
 3.  <span data-ttu-id="98ab1-118">以滑鼠右鍵按一下應用程式集區，然後按一下**檢視應用程式**以查看應用程式集區相關聯的應用程式。</span><span class="sxs-lookup"><span data-stu-id="98ab1-118">Right-click an application pool and click **View Applications** to see the applications associated with the application pool.</span></span>  
   
@@ -54,17 +55,17 @@ ms.lasthandoff: 11/28/2017
   
  <span data-ttu-id="98ab1-124">IIS 7.0 支援下列使用者驗證方法：</span><span class="sxs-lookup"><span data-stu-id="98ab1-124">IIS 7.0 supports the following user authentication methods:</span></span>  
   
--   <span data-ttu-id="98ab1-125">**匿名存取：**可讓使用者建立匿名連線。</span><span class="sxs-lookup"><span data-stu-id="98ab1-125">**Anonymous access:** Allows users to establish an anonymous connection.</span></span> <span data-ttu-id="98ab1-126">IIS 伺服器會以指定的訪客帳戶來登入使用者。</span><span class="sxs-lookup"><span data-stu-id="98ab1-126">The IIS server logs on the user with the specified guest account.</span></span>  
+-   <span data-ttu-id="98ab1-125">**匿名存取：** 可讓使用者建立匿名連線。</span><span class="sxs-lookup"><span data-stu-id="98ab1-125">**Anonymous access:** Allows users to establish an anonymous connection.</span></span> <span data-ttu-id="98ab1-126">IIS 伺服器會以指定的訪客帳戶來登入使用者。</span><span class="sxs-lookup"><span data-stu-id="98ab1-126">The IIS server logs on the user with the specified guest account.</span></span>  
   
 -   <span data-ttu-id="98ab1-127">**ASP.NET 模擬**允許應用程式在其中兩個不同內容中執行： 由 IIS 驗證的使用者或您設定的任意帳戶。</span><span class="sxs-lookup"><span data-stu-id="98ab1-127">**ASP.NET Impersonation** Allows an application to run in one of two different contexts: either as the user authenticated by IIS or as an arbitrary account that you set up.</span></span>  
   
--   <span data-ttu-id="98ab1-128">**基本驗證：**純文字、 未加密的形式在網路上傳輸密碼。</span><span class="sxs-lookup"><span data-stu-id="98ab1-128">**Basic authentication:** Transmits passwords across the network in plaintext, an unencrypted form.</span></span>  
+-   <span data-ttu-id="98ab1-128">**基本驗證：** 純文字、 未加密的形式在網路上傳輸密碼。</span><span class="sxs-lookup"><span data-stu-id="98ab1-128">**Basic authentication:** Transmits passwords across the network in plaintext, an unencrypted form.</span></span>  
   
--   <span data-ttu-id="98ab1-129">**摘要式驗證：**只適用於 Active Directory 帳戶，傳送透過網路，而不是純文字密碼的雜湊值。</span><span class="sxs-lookup"><span data-stu-id="98ab1-129">**Digest authentication:** Works only with Active Directory accounts, sending a hash value over the network, rather than a plaintext password.</span></span> <span data-ttu-id="98ab1-130">摘要式驗證可跨 Proxy 伺服器和其他防火牆運作，而且可在「網路分散式撰寫及版本處理」(WebDAV) 目錄上使用。</span><span class="sxs-lookup"><span data-stu-id="98ab1-130">Digest authentication works across proxy servers and other firewalls and is available on Web Distributed Authoring and Versioning (WebDAV) directories.</span></span> <span data-ttu-id="98ab1-131">使用摘要式驗證需要先停用匿名驗證。</span><span class="sxs-lookup"><span data-stu-id="98ab1-131">Use of Digest authentication requires that Anonymous authentication is disabled first.</span></span>  
+-   <span data-ttu-id="98ab1-129">**摘要式驗證：** 只適用於 Active Directory 帳戶，傳送透過網路，而不是純文字密碼的雜湊值。</span><span class="sxs-lookup"><span data-stu-id="98ab1-129">**Digest authentication:** Works only with Active Directory accounts, sending a hash value over the network, rather than a plaintext password.</span></span> <span data-ttu-id="98ab1-130">摘要式驗證可跨 Proxy 伺服器和其他防火牆運作，而且可在「網路分散式撰寫及版本處理」(WebDAV) 目錄上使用。</span><span class="sxs-lookup"><span data-stu-id="98ab1-130">Digest authentication works across proxy servers and other firewalls and is available on Web Distributed Authoring and Versioning (WebDAV) directories.</span></span> <span data-ttu-id="98ab1-131">使用摘要式驗證需要先停用匿名驗證。</span><span class="sxs-lookup"><span data-stu-id="98ab1-131">Use of Digest authentication requires that Anonymous authentication is disabled first.</span></span>  
   
 -   <span data-ttu-id="98ab1-132">**表單驗證**Accommodates 高流量網站或公用伺服器上的應用程式的驗證。</span><span class="sxs-lookup"><span data-stu-id="98ab1-132">**Forms Authentication** Accommodates authentication for high-traffic sites or applications on public servers.</span></span> <span data-ttu-id="98ab1-133">表單驗證可讓您管理應用程式層級的用戶端登錄與驗證，而非依賴作業系統提供的驗證機制。</span><span class="sxs-lookup"><span data-stu-id="98ab1-133">Forms authentication lets you manage client registration and authentication at the application level, instead of relying on the authentication mechanisms provided by the operating system.</span></span>  
   
--   <span data-ttu-id="98ab1-134">**Windows 驗證：**使用驗證來驗證用戶端連線在 Windows 網域上的。</span><span class="sxs-lookup"><span data-stu-id="98ab1-134">**Windows authentication:** Uses authentication on your Windows domain to authenticate client connections.</span></span>  
+-   <span data-ttu-id="98ab1-134">**Windows 驗證：** 使用驗證來驗證用戶端連線在 Windows 網域上的。</span><span class="sxs-lookup"><span data-stu-id="98ab1-134">**Windows authentication:** Uses authentication on your Windows domain to authenticate client connections.</span></span>  
   
 #### <a name="to-set-user-access-rights-for-a-virtual-directory-in-iis-70"></a><span data-ttu-id="98ab1-135">若要在 IIS 7.0 中設定虛擬目錄的使用者存取權限</span><span class="sxs-lookup"><span data-stu-id="98ab1-135">To set user access rights for a virtual directory in IIS 7.0</span></span>  
   

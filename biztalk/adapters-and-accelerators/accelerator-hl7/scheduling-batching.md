@@ -1,17 +1,17 @@
 ---
-title: "排程批次 |Microsoft 文件"
-ms.custom: 
+title: 排程批次 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - batching, scheduling
 - scheduling batching
 ms.assetid: 037626f1-1b3b-43e6-80eb-5fb900cdbd46
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961532"
 ---
 # <a name="scheduling-batching"></a><span data-ttu-id="aa19a-102">排程批次</span><span class="sxs-lookup"><span data-stu-id="aa19a-102">Scheduling Batching</span></span>
 <span data-ttu-id="aa19a-103">您使用[!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]Configuration 總管來啟動、 要求或終止輸出批次。</span><span class="sxs-lookup"><span data-stu-id="aa19a-103">You use [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] Configuration Explorer to activate, request, or terminate an outbound batch.</span></span> <span data-ttu-id="aa19a-104">啟用輸出批次包含兩個步驟： 設定以時間為基礎或訊息計數準則，然後啟動輸出批次處理協調流程。</span><span class="sxs-lookup"><span data-stu-id="aa19a-104">Activating an outbound batch consists of two steps: configuring time-based or message count criteria and then starting the outbound batching orchestration.</span></span>  

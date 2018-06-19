@@ -1,14 +1,14 @@
 ---
-title: "Oracle E-business Suite 配接器疑難排解安裝問題 |Microsoft 文件"
-ms.custom: 
+title: Oracle E-business Suite 配接器疑難排解安裝問題 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 09b3af20-ab87-44e8-8ded-c19432552be7
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965628"
 ---
 # <a name="troubleshoot-installation-issues-with-the-oracle-e-business-suite-adapter"></a><span data-ttu-id="005a9-102">Oracle E-business Suite 配接器疑難排解安裝問題</span><span class="sxs-lookup"><span data-stu-id="005a9-102">Troubleshoot Installation Issues with the Oracle E-Business Suite adapter</span></span>
 <span data-ttu-id="005a9-103">安裝 Microsoft[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]複製產品二進位編碼檔案的電腦上，並註冊每個配接器的繫結。</span><span class="sxs-lookup"><span data-stu-id="005a9-103">Installation of the Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] copies the product binaries on the computer and registers the bindings for each adapter.</span></span> <span data-ttu-id="005a9-104">本節將討論使用來解決安裝錯誤的疑難排解技術。</span><span class="sxs-lookup"><span data-stu-id="005a9-104">This section discusses using troubleshooting techniques to resolve installation errors.</span></span>  

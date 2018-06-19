@@ -1,15 +1,15 @@
 ---
-title: "在協調流程中實作的設計模式 |Microsoft 文件"
-description: "彙總工具、 內容為基礎的路由、 動態路由器、 錯誤處理、 訊息代理人和 BizTalk Server 中的多個設計模式"
-ms.custom: 
+title: 在協調流程中實作的設計模式 |Microsoft 文件
+description: 彙總工具、 內容為基礎的路由、 動態路由器、 錯誤處理、 訊息代理人和 BizTalk Server 中的多個設計模式
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f62ba955-018a-40e7-b303-497acc906019
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014245"
 ---
 # <a name="implement-design-patterns-in-orchestrations"></a><span data-ttu-id="39f9c-103">在協調流程中實作的設計模式</span><span class="sxs-lookup"><span data-stu-id="39f9c-103">Implement Design Patterns in Orchestrations</span></span>
 <span data-ttu-id="39f9c-104">本節討論 BizTalk Server 程式設計的常見模式以及企業整合模式。</span><span class="sxs-lookup"><span data-stu-id="39f9c-104">This section discusses the common patterns of BizTalk Server programming as well as enterprise integration patterns.</span></span> <span data-ttu-id="39f9c-105">您可以利用單一模式或結合數個模式來設計您的商務程序，然後再使用 BizTalk 協調流程設計師中的圖形來實作設計。</span><span class="sxs-lookup"><span data-stu-id="39f9c-105">You can leverage a single pattern or combine multiple patterns to design your business process and then implement the design by using shapes in BizTalk Orchestration Designer.</span></span>  

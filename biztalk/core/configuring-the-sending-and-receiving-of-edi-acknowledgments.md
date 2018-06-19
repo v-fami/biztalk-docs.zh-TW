@@ -1,14 +1,14 @@
 ---
-title: "設定傳送和接收 EDI 通知 |Microsoft 文件"
-ms.custom: 
+title: 設定傳送和接收 EDI 通知 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3db1c9f7-bafa-4659-a3c4-0faa56606081
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969756"
 ---
 # <a name="configuring-the-sending-and-receiving-of-edi-acknowledgments"></a><span data-ttu-id="67fa4-102">設定傳送及接收 EDI 通知</span><span class="sxs-lookup"><span data-stu-id="67fa4-102">Configuring the Sending and Receiving of EDI Acknowledgments</span></span>
 <span data-ttu-id="67fa4-103">如果要設定傳送 EDI 通知來回應收到的交換，您必須執行下列工作：</span><span class="sxs-lookup"><span data-stu-id="67fa4-103">To configure the sending of an EDI acknowledgment in response to a received interchange, you need to do the following:</span></span>  
@@ -54,9 +55,9 @@ ms.lasthandoff: 11/28/2017
   
     2.  <span data-ttu-id="67fa4-135">在**通知**頁面上，選取 屬性定義的傳送者合作對象預期之通知種類：</span><span class="sxs-lookup"><span data-stu-id="67fa4-135">In the **Acknowledgements** page, select properties defining the kind of acknowledgement that the sender party expects:</span></span>  
   
-         <span data-ttu-id="67fa4-136">對於 X12 通知，選取**預期 TA1**及/或**預期 997**應根據哪一個通知。</span><span class="sxs-lookup"><span data-stu-id="67fa4-136">For X12 acknowledgements, select **TA1 Expected** and/or **997 Expected** depending on which acknowledgements are expected.</span></span> <span data-ttu-id="67fa4-137">每個通知類型 選取**不要批次處理\<通知類型\>**如果您想要當做個別的交換傳送通知的每個執行個體。</span><span class="sxs-lookup"><span data-stu-id="67fa4-137">For each acknowledgement type, select **Do not batch \<ACK type\>** if you want each instance of an acknowledgment to be sent as a separate interchange.</span></span>  
+         <span data-ttu-id="67fa4-136">對於 X12 通知，選取**預期 TA1**及/或**預期 997**應根據哪一個通知。</span><span class="sxs-lookup"><span data-stu-id="67fa4-136">For X12 acknowledgements, select **TA1 Expected** and/or **997 Expected** depending on which acknowledgements are expected.</span></span> <span data-ttu-id="67fa4-137">每個通知類型 選取**不要批次處理\<通知類型\>** 如果您想要當做個別的交換傳送通知的每個執行個體。</span><span class="sxs-lookup"><span data-stu-id="67fa4-137">For each acknowledgement type, select **Do not batch \<ACK type\>** if you want each instance of an acknowledgment to be sent as a separate interchange.</span></span>  
   
-         <span data-ttu-id="67fa4-138">對於 EDIFACT 通知選取**訊息回條 (CONTRL 必須是)**及/或**通知 (CONTRL) 必須是**應根據哪一個通知。</span><span class="sxs-lookup"><span data-stu-id="67fa4-138">For EDIFACT acknowledgements, select **Receipt of message (CONTRL) expected** and/or **Acknowledgement (CONTRL) expected** depending on which acknowledgements are expected.</span></span> <span data-ttu-id="67fa4-139">每個通知類型 選取**不要批次處理\<通知類型\>**如果您想要當做個別的交換傳送通知的每個執行個體。</span><span class="sxs-lookup"><span data-stu-id="67fa4-139">For each acknowledgement type, select **Do not batch \<ACK type\>** if you want each instance of an acknowledgment to be sent as a separate interchange.</span></span>  
+         <span data-ttu-id="67fa4-138">對於 EDIFACT 通知選取**訊息回條 (CONTRL 必須是)** 及/或**通知 (CONTRL) 必須是**應根據哪一個通知。</span><span class="sxs-lookup"><span data-stu-id="67fa4-138">For EDIFACT acknowledgements, select **Receipt of message (CONTRL) expected** and/or **Acknowledgement (CONTRL) expected** depending on which acknowledgements are expected.</span></span> <span data-ttu-id="67fa4-139">每個通知類型 選取**不要批次處理\<通知類型\>** 如果您想要當做個別的交換傳送通知的每個執行個體。</span><span class="sxs-lookup"><span data-stu-id="67fa4-139">For each acknowledgement type, select **Do not batch \<ACK type\>** if you want each instance of an acknowledgment to be sent as a separate interchange.</span></span>  
   
     3.  <span data-ttu-id="67fa4-140">在**本機主機設定**頁面**交換設定**區段中，清除**通知的路由設定為傳送管線在要求-回應接收埠**傳回以非同步方式透過單向傳送埠的通知。</span><span class="sxs-lookup"><span data-stu-id="67fa4-140">In the **Local Host Settings** page under the **Interchange Settings** section, clear the **Route ACK to send pipeline on request-response receive port** to return the acknowledgment asynchronously over a one-way send port.</span></span> <span data-ttu-id="67fa4-141">讓此屬性維持選取狀態，則會透過雙向接收埠同步傳回通知。</span><span class="sxs-lookup"><span data-stu-id="67fa4-141">Keep this property as selected to return the acknowledgment synchronously over a two-way receive port.</span></span>  
   

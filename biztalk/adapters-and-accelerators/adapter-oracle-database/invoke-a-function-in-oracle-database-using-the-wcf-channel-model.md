@@ -1,11 +1,11 @@
 ---
-title: "叫用的函式在 Oracle 資料庫中使用 WCF 通道模型 |Microsoft 文件"
-ms.custom: 
+title: 叫用的函式在 Oracle 資料庫中使用 WCF 通道模型 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - channel programming, executing a function
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - how to, execute a function using a channel
 - executing a function, using a channel
 ms.assetid: 6c15c352-3086-44f6-b265-4c7a7aee47ff
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961748"
 ---
 # <a name="invoke-a-function-in-oracle-database-using-the-wcf-channel-model"></a><span data-ttu-id="da95b-102">叫用使用 WCF 通道模型的 Oracle 資料庫中的函式</span><span class="sxs-lookup"><span data-stu-id="da95b-102">Invoke a Function in Oracle Database using the WCF Channel Model</span></span>
 <span data-ttu-id="da95b-103">本節示範如何使用通道中建立 Oracle 資料庫中執行函式[建立使用 Oracle 資料庫的通道](../../adapters-and-accelerators/adapter-oracle-database/create-a-channel-using-oracle-database.md)。</span><span class="sxs-lookup"><span data-stu-id="da95b-103">This section demonstrates how to execute a function in an Oracle database using the channel created in [Create a Channel using Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/create-a-channel-using-oracle-database.md).</span></span>  

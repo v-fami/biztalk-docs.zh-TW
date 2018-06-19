@@ -1,15 +1,15 @@
 ---
-title: "開發 BizTalk Server 中的 Oracle 資料庫應用程式 |Microsoft 文件"
-description: "建立 Oracle DB 應用程式使用 WCF，或在 BizTalk Server 與 BizTalk 配接器組件 (BAP)"
-ms.custom: 
+title: 開發 BizTalk Server 中的 Oracle 資料庫應用程式 |Microsoft 文件
+description: 建立 Oracle DB 應用程式使用 WCF，或在 BizTalk Server 與 BizTalk 配接器組件 (BAP)
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d4a685b2-ac17-4949-bc77-001f56450847
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215622"
 ---
 # <a name="develop-your-oracle-database-applications"></a><span data-ttu-id="75cb0-103">開發應用程式的 Oracle 資料庫</span><span class="sxs-lookup"><span data-stu-id="75cb0-103">Develop your Oracle Database applications</span></span>
 

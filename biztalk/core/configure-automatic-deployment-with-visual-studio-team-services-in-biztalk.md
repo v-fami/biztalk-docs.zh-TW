@@ -1,15 +1,15 @@
 ---
-title: "使用 Visual Studio Team Services 中設定自動部署 |Microsoft 文件"
-description: "安裝 BizTalk 功能套件部署至不同的 BizTalk 環境的應用程式中使用 VSTS 應用程式生命週期管理"
-ms.custom: 
+title: 使用 Visual Studio Team Services 中設定自動部署 |Microsoft 文件
+description: 安裝 BizTalk 功能套件部署至不同的 BizTalk 環境的應用程式中使用 VSTS 應用程式生命週期管理
+ms.custom: ''
 ms.date: 11/20/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 57f769bb-5105-43e2-9096-ed54cdf82b90
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25497879"
 ---
 # <a name="configure-automatic-deployment-with-visual-studio-team-services-in-biztalk-server"></a><span data-ttu-id="1e281-103">使用 BizTalk Server 中的 Visual Studio Team Services 中設定自動部署</span><span class="sxs-lookup"><span data-stu-id="1e281-103">Configure automatic deployment with Visual Studio Team Services in BizTalk Server</span></span>
 

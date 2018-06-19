@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/security-in-biztalk-adapter-for-peoplesoft-enterprise/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: 2c278864c45e045cd04c539ad8b077c998242fe9
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014613"
 ---
 # <a name="using-single-sign-on"></a><span data-ttu-id="00130-101">使用單一登入</span><span class="sxs-lookup"><span data-stu-id="00130-101">Using Single Sign-On</span></span>
 <span data-ttu-id="00130-102">Microsoft BizTalk Adapter for PeopleSoft Enterprise 提供單一登入 (SSO) 支援 。</span><span class="sxs-lookup"><span data-stu-id="00130-102">Microsoft BizTalk Adapter for PeopleSoft Enterprise provides Single Sign-On (SSO) support.</span></span> <span data-ttu-id="00130-103">由企業單一登入工具所建立的分支機構應用程式，代表像是 PeopleSoft 的伺服器系統。</span><span class="sxs-lookup"><span data-stu-id="00130-103">An affiliate application created by Enterprise Single Sign-On tools represents a server system such as PeopleSoft.</span></span>  

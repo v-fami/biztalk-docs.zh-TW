@@ -1,17 +1,17 @@
 ---
-title: "步驟 5： 修改 Contoso 私用程序協調流程 |Microsoft 文件"
-ms.custom: 
+title: 步驟 5： 修改 Contoso 私用程序協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - private processes, orchestrations
 - private process tutorial, modifying private process orchestration
 ms.assetid: a5430db8-e5f0-48a6-abb9-e268d8ec2ec4
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967756"
 ---
 # <a name="step-5-modifying-the-contoso-private-process-orchestration"></a><span data-ttu-id="c3ad9-102">步驟 5： 修改 Contoso 私用程序協調流程</span><span class="sxs-lookup"><span data-stu-id="c3ad9-102">Step 5: Modifying the Contoso Private Process Orchestration</span></span>
 <span data-ttu-id="c3ad9-103">在此步驟中，您將修改私用程序協調流程，以便與 Contoso 的「企業資源規劃」(Enterprise Resource Planning，ERP) 系統進行整合。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-103">In this step, you modify the private process orchestration to integrate with the Enterprise Resource Planning (ERP) system for Contoso.</span></span> <span data-ttu-id="c3ad9-104">Contoso 的 ERP 系統使用內部定義的產品價格與可用性結構描述。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-104">The ERP system for Contoso uses internally defined schemas for product price and availability.</span></span> <span data-ttu-id="c3ad9-105">自訂「3A2 - 價格與可用性交易夥伴介面程序 (PIP)」的私用程序之後，您就能夠使用結構描述對應資訊與 ERP 系統進行整合。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-105">By customizing the private process for the 3A2 - Price and Availability Partner Interface Process (PIP), you will be able to integrate with the ERP system by using schema-mapping information.</span></span>  
@@ -28,7 +29,7 @@ ms.lasthandoff: 11/28/2017
   
 1.  <span data-ttu-id="c3ad9-107">Contoso 方案顯示在 [方案總管] 中，以滑鼠右鍵按一下**PrivateResponder**專案，然後再按一下**加入參考**。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-107">With the Contoso solution displayed in Solution Explorer, right-click the **PrivateResponder** project, and then click **Add Reference**.</span></span>  
   
-2.  <span data-ttu-id="c3ad9-108">在 [加入參考] 對話方塊中，按一下**瀏覽**。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-108">In the Add Reference dialog box, click **Browse**.</span></span> <span data-ttu-id="c3ad9-109">移至*\<磁碟機\>*: \Program Files\Microsoft BizTalk\<版本\>Accelerator for RosettaNet\Bin 資料夾，然後再選取下列組件**:**</span><span class="sxs-lookup"><span data-stu-id="c3ad9-109">Move to *\<drive\>*:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\Bin folder, and then select the following assemblies**:**</span></span>  
+2.  <span data-ttu-id="c3ad9-108">在 [加入參考] 對話方塊中，按一下**瀏覽**。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-108">In the Add Reference dialog box, click **Browse**.</span></span> <span data-ttu-id="c3ad9-109">移至*\<磁碟機\>*: \Program Files\Microsoft BizTalk\<版本\>Accelerator for RosettaNet\Bin 資料夾，然後再選取下列組件 **:**</span><span class="sxs-lookup"><span data-stu-id="c3ad9-109">Move to *\<drive\>*:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\Bin folder, and then select the following assemblies **:**</span></span>  
   
     -   <span data-ttu-id="c3ad9-110">Microsoft.Solutions.BTARN.CommonTypes.dll</span><span class="sxs-lookup"><span data-stu-id="c3ad9-110">Microsoft.Solutions.BTARN.CommonTypes.dll</span></span>  
   
@@ -64,7 +65,7 @@ ms.lasthandoff: 11/28/2017
   
 5.  <span data-ttu-id="c3ad9-126">在**訊息類型**方塊中，按一下下拉箭號，展開 **結構描述**，然後選取**\<從參考組件選取\>**。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-126">In the **Message Type** box, click the drop-down arrow, expand **Schemas**, and then select **\<Select from referenced assembly\>**.</span></span>  
   
-6.  <span data-ttu-id="c3ad9-127">在 選取成品 Typedialog 方塊中，選取  **Microsoft.Solutions.BTARN.Schemas.RNPIPs**在左窗格中，選取**_3a2priceandavailabilityquerymessageguideline_v1_3**在右窗格中，並然後按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-127">In the Select Artifact Typedialog box, select **Microsoft.Solutions.BTARN.Schemas.RNPIPs** in the left pane, select **_3A2PriceAndAvailabilityQueryMessageGuideline_v1_3** in the right pane, and then click **OK**.</span></span>  
+6.  <span data-ttu-id="c3ad9-127">在 選取成品 Typedialog 方塊中，選取  **Microsoft.Solutions.BTARN.Schemas.RNPIPs**在左窗格中，選取 **_3a2priceandavailabilityquerymessageguideline_v1_3**在右窗格中，並然後按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-127">In the Select Artifact Typedialog box, select **Microsoft.Solutions.BTARN.Schemas.RNPIPs** in the left pane, select **_3A2PriceAndAvailabilityQueryMessageGuideline_v1_3** in the right pane, and then click **OK**.</span></span>  
   
 7.  <span data-ttu-id="c3ad9-128">重複執行步驟 3 至 6，使用下列資訊建立方案的所有訊息類型：</span><span class="sxs-lookup"><span data-stu-id="c3ad9-128">Repeat steps 3 through 6 to create all the message types for the solution using the following information:</span></span>  
   
@@ -82,7 +83,7 @@ ms.lasthandoff: 11/28/2017
   
 2.  <span data-ttu-id="c3ad9-146">在 [屬性] 視窗中**識別碼**方塊中，輸入**contosoResponseXML**。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-146">In the Properties window, in the **Identifier** box, type **contosoResponseXML**.</span></span>  
   
-3.  <span data-ttu-id="c3ad9-147">在**類型**方塊中，選取 **\<.NET 類別\>**從下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-147">In the **Type** box, select **\<.NET Class\>** from the drop-down list.</span></span>  
+3.  <span data-ttu-id="c3ad9-147">在**類型**方塊中，選取 **\<.NET 類別\>** 從下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-147">In the **Type** box, select **\<.NET Class\>** from the drop-down list.</span></span>  
   
 4.  <span data-ttu-id="c3ad9-148">在 [選取成品類型] 對話方塊，在左窗格中，在**目前專案**和**參考**節點下，選取**System.Xml**，選取**XmlDocument**從清單中的右窗格中，然後按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-148">In the Select Artifact Type dialog box, in the left pane, under the **Current Project** and **References** nodes, select **System.Xml**, select **XmlDocument** from the list in the right pane, and then click **OK**.</span></span>  
   
@@ -90,7 +91,7 @@ ms.lasthandoff: 11/28/2017
   
 6.  <span data-ttu-id="c3ad9-150">在 [屬性] 視窗中**識別碼**方塊中，輸入**submitMessage**。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-150">In the Properties window, in the **Identifier** box, type **submitMessage**.</span></span>  
   
-7.  <span data-ttu-id="c3ad9-151">在**類型**方塊中，選取 **\<.NET 類別\>**從下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-151">In the **Type** box, select **\<.NET Class\>** from the drop-down list.</span></span>  
+7.  <span data-ttu-id="c3ad9-151">在**類型**方塊中，選取 **\<.NET 類別\>** 從下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-151">In the **Type** box, select **\<.NET Class\>** from the drop-down list.</span></span>  
   
 8.  <span data-ttu-id="c3ad9-152">在 [選取成品類型] 對話方塊的左窗格中，展開**目前專案**和**參考**節點下，選取**Microsoft.Solutions.BTARN.Shared**，選取**SubmitRNIF**從清單中的右窗格中，然後按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-152">In the Select Artifact Type dialog box, in the left pane, expand **Current Project** and **References** nodes, select **Microsoft.Solutions.BTARN.Shared**, select **SubmitRNIF** from the list in the right pane, and then click **OK**.</span></span>  
   
@@ -104,7 +105,7 @@ ms.lasthandoff: 11/28/2017
   
 4.  <span data-ttu-id="c3ad9-157">在 [篩選運算式] 對話方塊中，按一下**按一下此處以加入新的資料列**，然後選取**Microsoft.Solutions.BTARN.GlobalSchemas.SCPIPCode**從下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-157">In the Filter Expression dialog box, click **Click here to add a new row**, and then select **Microsoft.Solutions.BTARN.GlobalSchemas.SCPIPCode** from the drop-down list.</span></span>  
   
-5.  <span data-ttu-id="c3ad9-158">在相同的資料列中，按一下**值**，然後鍵入**"3A2"**。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-158">In the same row, click **Value**, and then type in **"3A2"**.</span></span>  
+5.  <span data-ttu-id="c3ad9-158">在相同的資料列中，按一下**值**，然後鍵入 **"3A2"**。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-158">In the same row, click **Value**, and then type in **"3A2"**.</span></span>  
   
 6.  <span data-ttu-id="c3ad9-159">在相同的資料列中，按一下**AND**中**Group By**方塊，並選取**或**從下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-159">In the same row, click **AND** in the **Group By** box, and then select **OR** from the drop-down list.</span></span>  
   
@@ -112,19 +113,19 @@ ms.lasthandoff: 11/28/2017
   
 8.  <span data-ttu-id="c3ad9-161">按一下**按一下此處以加入新的資料列**，然後選取**Microsoft.Solutions.BTARN.GlobalSchemas.SCPIPCode**從下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-161">Click **Click here to add a new row**, and then select **Microsoft.Solutions.BTARN.GlobalSchemas.SCPIPCode** from the drop-down list.</span></span>  
   
-9. <span data-ttu-id="c3ad9-162">在相同的資料列中，按一下**值**，然後鍵入**"3A2"**。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-162">In the same row, click **Value**, and then type in **"3A2"**.</span></span>  
+9. <span data-ttu-id="c3ad9-162">在相同的資料列中，按一下**值**，然後鍵入 **"3A2"**。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-162">In the same row, click **Value**, and then type in **"3A2"**.</span></span>  
   
 10. <span data-ttu-id="c3ad9-163">按一下 [確定]。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-163">Click OK.</span></span>  
   
 ### <a name="to-modify-the-business-process-workflow"></a><span data-ttu-id="c3ad9-164">修改商務程序工作流程</span><span class="sxs-lookup"><span data-stu-id="c3ad9-164">To modify the business process workflow</span></span>  
   
-1.  <span data-ttu-id="c3ad9-165">拖曳**訊息指派**圖形從工具箱拖曳至設計介面，然後放在**ReceiveFromPublicProcessResponder**圖形。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-165">Drag a **Message Assignment** shape from the Toolbox to the design surface and drop it under the **ReceiveFromPublicProcessResponder** shape.</span></span> <span data-ttu-id="c3ad9-166">選取**[constructmessage_1]**所建立的圖形和**屬性**視窗，請在**名稱**方塊中，輸入**ConstructPIP3A2RequestMessage**.</span><span class="sxs-lookup"><span data-stu-id="c3ad9-166">Select the **ConstructMessage_1** shape that was created and in the **Properties** window, in the **Name** box, type **ConstructPIP3A2RequestMessage**.</span></span>  
+1.  <span data-ttu-id="c3ad9-165">拖曳**訊息指派**圖形從工具箱拖曳至設計介面，然後放在**ReceiveFromPublicProcessResponder**圖形。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-165">Drag a **Message Assignment** shape from the Toolbox to the design surface and drop it under the **ReceiveFromPublicProcessResponder** shape.</span></span> <span data-ttu-id="c3ad9-166">選取 **[constructmessage_1]** 所建立的圖形和**屬性**視窗，請在**名稱**方塊中，輸入**ConstructPIP3A2RequestMessage**.</span><span class="sxs-lookup"><span data-stu-id="c3ad9-166">Select the **ConstructMessage_1** shape that was created and in the **Properties** window, in the **Name** box, type **ConstructPIP3A2RequestMessage**.</span></span>  
   
-2.  <span data-ttu-id="c3ad9-167">拖曳**轉換**圖形至設計介面，然後放在**ConstructPIP3A2RequestMessage**圖形。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-167">Drag a **Transform** shape to the design surface and drop it under the **ConstructPIP3A2RequestMessage** shape.</span></span> <span data-ttu-id="c3ad9-168">選取**[constructmessage_1]**所建立的圖形和**屬性**視窗，請在**名稱**方塊中，輸入**ConstructContoso3A2RequestMessage**.</span><span class="sxs-lookup"><span data-stu-id="c3ad9-168">Select the **ConstructMessage_1** shape that was created and in the **Properties** window, in the **Name** box, type **ConstructContoso3A2RequestMessage**.</span></span>  
+2.  <span data-ttu-id="c3ad9-167">拖曳**轉換**圖形至設計介面，然後放在**ConstructPIP3A2RequestMessage**圖形。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-167">Drag a **Transform** shape to the design surface and drop it under the **ConstructPIP3A2RequestMessage** shape.</span></span> <span data-ttu-id="c3ad9-168">選取 **[constructmessage_1]** 所建立的圖形和**屬性**視窗，請在**名稱**方塊中，輸入**ConstructContoso3A2RequestMessage**.</span><span class="sxs-lookup"><span data-stu-id="c3ad9-168">Select the **ConstructMessage_1** shape that was created and in the **Properties** window, in the **Name** box, type **ConstructContoso3A2RequestMessage**.</span></span>  
   
 3.  <span data-ttu-id="c3ad9-169">拖曳**傳送**圖形至設計介面，然後放在**ConstructContoso3A2RequestMessage**圖形。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-169">Drag a **Send** shape to the design surface and drop it under the **ConstructContoso3A2RequestMessage** shape.</span></span>  
   
-4.  <span data-ttu-id="c3ad9-170">拖曳**接收**圖形至設計介面，然後放在**[send_1]**圖形。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-170">Drag a **Receive** shape to the design surface and drop it under the **Send_1** shape.</span></span>  
+4.  <span data-ttu-id="c3ad9-170">拖曳**接收**圖形至設計介面，然後放在 **[send_1]** 圖形。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-170">Drag a **Receive** shape to the design surface and drop it under the **Send_1** shape.</span></span>  
   
 5.  <span data-ttu-id="c3ad9-171">按一下協調流程設計介面的空白區域。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-171">On the orchestration design surface, click an empty area.</span></span>  
   
@@ -136,7 +137,7 @@ ms.lasthandoff: 11/28/2017
   
 9. <span data-ttu-id="c3ad9-175">拖曳**呼叫規則**圖形至設計介面並將它放的標籤上，該處會指示**從 [工具箱] 拖曳圖形**內**範圍**圖形。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-175">Drag a **Call Rules** shape to the design surface and drop it on the label that says **Drop a shape from the toolbox here** inside the **Scope** shape.</span></span> <span data-ttu-id="c3ad9-176">在 [屬性] 視窗中**呼叫規則**圖形，在**名稱**方塊中，輸入**Execute3A2Vocabulary**。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-176">In the Properties window for the **Call Rules** shape, in the **Name** box, type **Execute3A2Vocabulary**.</span></span>  
   
-10. <span data-ttu-id="c3ad9-177">拖曳**轉換**圖形至設計介面，然後放在**Scope_1**圖形。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-177">Drag a **Transform** shape to the design surface and drop it under the **Scope_1** shape.</span></span> <span data-ttu-id="c3ad9-178">按一下**[constructmessage_1]**圖形。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-178">Click the **ConstructMessage_1** shape.</span></span> <span data-ttu-id="c3ad9-179">在 [屬性] 視窗中**名稱**方塊中，輸入**Construct3A2ResponseMessage**。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-179">In the Properties window, in the **Name** box, type **Construct3A2ResponseMessage**.</span></span>  
+10. <span data-ttu-id="c3ad9-177">拖曳**轉換**圖形至設計介面，然後放在**Scope_1**圖形。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-177">Drag a **Transform** shape to the design surface and drop it under the **Scope_1** shape.</span></span> <span data-ttu-id="c3ad9-178">按一下 **[constructmessage_1]** 圖形。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-178">Click the **ConstructMessage_1** shape.</span></span> <span data-ttu-id="c3ad9-179">在 [屬性] 視窗中**名稱**方塊中，輸入**Construct3A2ResponseMessage**。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-179">In the Properties window, in the **Name** box, type **Construct3A2ResponseMessage**.</span></span>  
   
 11. <span data-ttu-id="c3ad9-180">拖曳**運算式**圖形至設計介面，然後放在**Construct3A2ResponseMessageTransform**圖形。</span><span class="sxs-lookup"><span data-stu-id="c3ad9-180">Drag an **Expression** shape to the design surface and drop it under the **Construct3A2ResponseMessageTransform** shape.</span></span>  
   

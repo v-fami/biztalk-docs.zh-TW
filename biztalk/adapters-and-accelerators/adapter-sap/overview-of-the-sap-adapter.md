@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963028"
 ---
 # <a name="overview-of-the-sap-adapter"></a><span data-ttu-id="25a25-102">SAP 配接器的概觀</span><span class="sxs-lookup"><span data-stu-id="25a25-102">Overview of the SAP adapter</span></span>
 <span data-ttu-id="25a25-103">[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]公開為 WCF 服務的 SAP 系統。</span><span class="sxs-lookup"><span data-stu-id="25a25-103">The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] exposes the SAP system as a WCF service.</span></span> <span data-ttu-id="25a25-104">配接器用戶端可以交換 SOAP 訊息的配接器，以執行 SAP 系統上的作業。</span><span class="sxs-lookup"><span data-stu-id="25a25-104">Adapter clients can perform operations on the SAP system by exchanging SOAP messages with the adapter.</span></span> <span data-ttu-id="25a25-105">配接器會取用 WCF 訊息，並使適當地呼叫 SAP 系統執行的作業。</span><span class="sxs-lookup"><span data-stu-id="25a25-105">The adapter consumes the WCF message and makes appropriate calls to the SAP system to perform the operation.</span></span> <span data-ttu-id="25a25-106">配接器傳回從 SAP 系統的回應傳回給用戶端的 SOAP 訊息格式。</span><span class="sxs-lookup"><span data-stu-id="25a25-106">The adapter returns the response from the SAP system back to the client in the form of SOAP messages.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "BAM 管理公用程式 |Microsoft 文件"
-ms.custom: 
+title: BAM 管理公用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c55aabe2-f38b-4917-863c-b408a4eef98e
-caps.latest.revision: "50"
+caps.latest.revision: 50
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965460"
 ---
 # <a name="bam-management-utility"></a><span data-ttu-id="712a1-102">BAM 管理公用程式</span><span class="sxs-lookup"><span data-stu-id="712a1-102">BAM Management Utility</span></span>
 <span data-ttu-id="712a1-103">商務活動監控 (BAM) 定義的管理員可使用 BAM 管理公用程式，來管理和維護 BAM 基礎結構的所有層面。</span><span class="sxs-lookup"><span data-stu-id="712a1-103">Administrators of Business Activity Monitoring (BAM) definitions use the BAM Management utility to manage and maintain all aspects of the BAM infrastructure.</span></span>  
@@ -82,7 +83,7 @@ ms.lasthandoff: 11/28/2017
 -   [<span data-ttu-id="712a1-139">攔截器管理命令</span><span class="sxs-lookup"><span data-stu-id="712a1-139">Interceptor Management Commands</span></span>](../core/interceptor-management-commands.md)  
   
 ## <a name="displaying-the-bam-management-utility-help"></a><span data-ttu-id="712a1-140">顯示 BAM 管理公用程式說明</span><span class="sxs-lookup"><span data-stu-id="712a1-140">Displaying the BAM Management Utility Help</span></span>  
- <span data-ttu-id="712a1-141">您使用**/？**</span><span class="sxs-lookup"><span data-stu-id="712a1-141">You use the **/?**</span></span> <span data-ttu-id="712a1-142">或**協助 BAM 管理公用程式**命令，以顯示 BAM 管理公用程式的說明檔。</span><span class="sxs-lookup"><span data-stu-id="712a1-142">or the **help BAM Management utility** command to display the Help file for the BAM Management utility.</span></span>  
+ <span data-ttu-id="712a1-141">您使用 **/？**</span><span class="sxs-lookup"><span data-stu-id="712a1-141">You use the **/?**</span></span> <span data-ttu-id="712a1-142">或**協助 BAM 管理公用程式**命令，以顯示 BAM 管理公用程式的說明檔。</span><span class="sxs-lookup"><span data-stu-id="712a1-142">or the **help BAM Management utility** command to display the Help file for the BAM Management utility.</span></span>  
   
 #### <a name="to-display-the-help-file-for-the-bam-management-utility"></a><span data-ttu-id="712a1-143">若要顯示 BAM 管理公用程式的說明檔</span><span class="sxs-lookup"><span data-stu-id="712a1-143">To display the Help file for the BAM Management utility</span></span>  
   

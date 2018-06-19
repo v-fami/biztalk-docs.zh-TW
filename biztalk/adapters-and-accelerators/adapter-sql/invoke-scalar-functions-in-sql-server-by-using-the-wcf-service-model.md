@@ -1,14 +1,14 @@
 ---
-title: "使用 WCF 服務模型來叫用 SQL Server 中的純量函數 |Microsoft 文件"
-ms.custom: 
+title: 使用 WCF 服務模型來叫用 SQL Server 中的純量函數 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a331e275-3c81-41a8-9ba1-3a801ebc259a
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964244"
 ---
 # <a name="invoke-scalar-functions-in-sql-server-by-using-the-wcf-service-model"></a><span data-ttu-id="130b2-102">使用 WCF 服務模型來叫用 SQL Server 中的純量函式</span><span class="sxs-lookup"><span data-stu-id="130b2-102">Invoke Scalar Functions in SQL Server by Using the WCF Service Model</span></span>
 <span data-ttu-id="130b2-103">您可以使用[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].NET 應用程式使用 WCF 服務模型來叫用 SQL Server 中的純量函式中。</span><span class="sxs-lookup"><span data-stu-id="130b2-103">You can use the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] in a .NET application using the WCF service model to invoke scalar functions in SQL Server.</span></span> <span data-ttu-id="130b2-104">配接器會公開為可直接在 SQL Server 上叫用方法的純量函數。</span><span class="sxs-lookup"><span data-stu-id="130b2-104">The adapter exposes the scalar functions as methods that can be invoked directly on SQL Server.</span></span> <span data-ttu-id="130b2-105">如需配接器如何支援純量函數的詳細資訊，請參閱[執行 SQL Server 使用 SQL 配接器中的純量函式](../../adapters-and-accelerators/adapter-sql/execute-scalar-functions-in-sql-server-using-the-sql-adapter.md)。</span><span class="sxs-lookup"><span data-stu-id="130b2-105">For more information about how the adapter supports scalar functions, see [Execute Scalar Functions in SQL Server using the SQL adapter](../../adapters-and-accelerators/adapter-sql/execute-scalar-functions-in-sql-server-using-the-sql-adapter.md).</span></span>  
@@ -41,7 +42,7 @@ ms.lasthandoff: 11/28/2017
   
 |<span data-ttu-id="130b2-126">作業</span><span class="sxs-lookup"><span data-stu-id="130b2-126">Operation</span></span>|<span data-ttu-id="130b2-127">方法簽章</span><span class="sxs-lookup"><span data-stu-id="130b2-127">Method Signature</span></span>|  
 |---------------|----------------------|  
-|<span data-ttu-id="130b2-128">純量函數名稱</span><span class="sxs-lookup"><span data-stu-id="130b2-128">Scalar function name</span></span>|<span data-ttu-id="130b2-129">公用*< return_type >**< scalar_function_name >*(參數 1，參數 2，...)</span><span class="sxs-lookup"><span data-stu-id="130b2-129">public *<return_type>**<scalar_function_name>*(param1, param2, …)</span></span>|  
+|<span data-ttu-id="130b2-128">純量函數名稱</span><span class="sxs-lookup"><span data-stu-id="130b2-128">Scalar function name</span></span>|<span data-ttu-id="130b2-129">公用 *< return_type >**< scalar_function_name >*(參數 1，參數 2，...)</span><span class="sxs-lookup"><span data-stu-id="130b2-129">public *<return_type>**<scalar_function_name>*(param1, param2, …)</span></span>|  
   
  <span data-ttu-id="130b2-130">\<*retrun_type* \> = 函式定義中所定義的傳回型別</span><span class="sxs-lookup"><span data-stu-id="130b2-130">\<*retrun_type*\> = Return type defined in the function definition</span></span>  
   

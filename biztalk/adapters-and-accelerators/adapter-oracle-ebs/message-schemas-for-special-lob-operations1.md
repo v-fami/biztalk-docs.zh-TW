@@ -1,14 +1,14 @@
 ---
-title: "訊息結構描述的特殊 LOB Operations1 |Microsoft 文件"
-ms.custom: 
+title: 訊息結構描述的特殊 LOB Operations1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a2e418a6-8bc7-42d9-9672-a9c149f32778
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962580"
 ---
 # <a name="message-schemas-for-special-lob-operations"></a><span data-ttu-id="f05d3-102">特殊 LOB 作業的訊息結構描述</span><span class="sxs-lookup"><span data-stu-id="f05d3-102">Message Schemas for Special LOB Operations</span></span>
 <span data-ttu-id="f05d3-103">Read_\<LOBColName\>和 Update_\<LOBColName\>作業便會顯示資料表和檢視表包含 LOB 資料行，其中\<LOBColName\>是資料表中的 LOB 資料行或檢視表。</span><span class="sxs-lookup"><span data-stu-id="f05d3-103">The Read_\<LOBColName\> and Update_\<LOBColName\> operations are surfaced for tables and views that contain LOB columns, where \<LOBColName\> is the LOB column in the table or view.</span></span> <span data-ttu-id="f05d3-104">這些作業可讓您讀取或寫入 base64Binary 編碼資料的資料流的形式的 LOB 資料。</span><span class="sxs-lookup"><span data-stu-id="f05d3-104">These operations enable you to read or write the LOB data as a stream of base64Binary-encoded data.</span></span> <span data-ttu-id="f05d3-105">它們是在單一資料列的 LOB 資料的單一資料行上運作。</span><span class="sxs-lookup"><span data-stu-id="f05d3-105">They operate on a single column of LOB data in a single row.</span></span>  

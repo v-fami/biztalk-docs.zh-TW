@@ -1,18 +1,18 @@
 ---
-title: "在結構描述中建立自訂資料型別 |Microsoft 文件"
-ms.custom: 
+title: 在結構描述中建立自訂資料型別 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - 2.X schemas, creating Z data types [Z objects]
 - data types, creating [Z objects]
 - Z objects, creating Z data types
 ms.assetid: e545c849-d414-4d5d-bb56-d3f9d5238c70
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25960676"
 ---
 # <a name="creating-custom-data-types-in-schemas"></a><span data-ttu-id="28076-102">在結構描述中建立自訂資料型別</span><span class="sxs-lookup"><span data-stu-id="28076-102">Creating Custom Data Types in Schemas</span></span>
 <span data-ttu-id="28076-103">您可以建立自訂資料類型中 datatypes_\<*版本*\>.xsd 通用的結構描述。</span><span class="sxs-lookup"><span data-stu-id="28076-103">You can create a custom data type in the datatypes_\<*version*\>.xsd common schema.</span></span> <span data-ttu-id="28076-104">您可以根據自訂資料類型，現有的資料類型，基底資料型別或列舉型別資料表中定義。</span><span class="sxs-lookup"><span data-stu-id="28076-104">You can base a custom data type on an existing data type, a base data type, or on an enumeration defined in a table.</span></span>  

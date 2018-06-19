@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7789316d-f2c4-4018-a8e8-dd9359f1664f
-caps.latest.revision: ''
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22294886"
 ---
 # <a name="how-the-dynamic-resolution-sample-works"></a><span data-ttu-id="f4b83-102">動態解析範例的運作方式</span><span class="sxs-lookup"><span data-stu-id="f4b83-102">How the Dynamic Resolution Sample Works</span></span>
 <span data-ttu-id="f4b83-103">動態解析範例會使用上一節中所述的所有傳訊範例 ESB 發送器解譯器管線元件。</span><span class="sxs-lookup"><span data-stu-id="f4b83-103">The Dynamic Resolution sample uses the ESB Dispatcher Disassembler pipeline component for all the messaging examples described in the previous section.</span></span>  

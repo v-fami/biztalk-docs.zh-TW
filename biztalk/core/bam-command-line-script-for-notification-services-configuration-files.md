@@ -1,14 +1,14 @@
 ---
-title: "BAM 通知的命令列指令碼服務組態檔 |Microsoft 文件"
-ms.custom: 
+title: BAM 通知的命令列指令碼服務組態檔 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6aa4a460-58f9-439d-af28-0a9cb2288236
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965796"
 ---
 # <a name="bam-command-line-script-for-notification-services-configuration-files"></a><span data-ttu-id="c3e30-102">用於處理 Notification Services 組態檔的 BAM 命令列指令碼</span><span class="sxs-lookup"><span data-stu-id="c3e30-102">BAM Command-Line Script for Notification Services Configuration Files</span></span>
 <span data-ttu-id="c3e30-103">系統管理員可使用 ProcessBamNSFiles.vbs 指令碼，以針對 BAM 警示自訂 SQL Server Notification Services 的行為。</span><span class="sxs-lookup"><span data-stu-id="c3e30-103">Administrators use the ProcessBamNSFiles.vbs script to customize the behavior of SQL Server Notification Services for BAM alerts.</span></span> <span data-ttu-id="c3e30-104">使用這個指令碼可以取得 Notification Services 應用程式定義檔 (ADF) 及 Notification Services 組態檔。</span><span class="sxs-lookup"><span data-stu-id="c3e30-104">You can use the script to obtain the Notification Services application definition file (ADF) and Notification Services configuration file.</span></span> <span data-ttu-id="c3e30-105">而在修改這些檔案後，您也可以利用指令碼套用變更。</span><span class="sxs-lookup"><span data-stu-id="c3e30-105">These files can be modified and then the script can be used to apply the changes.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "EDI 類型 （資料元素） 驗證 |Microsoft 文件"
-ms.custom: 
+title: EDI 類型 （資料元素） 驗證 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cd53685f-a49c-41c8-813e-29700fc0b62b
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969556"
 ---
 # <a name="edi-type-data-element-validation"></a><span data-ttu-id="5b1f6-102">EDI 類型 (資料元素) 驗證</span><span class="sxs-lookup"><span data-stu-id="5b1f6-102">EDI Type (Data Element) Validation</span></span>
 <span data-ttu-id="5b1f6-103">EDI 接收管線和 EDI 傳送管線，可以對交易集資料元素執行 EDI 驗證。</span><span class="sxs-lookup"><span data-stu-id="5b1f6-103">The EDI receive pipeline and EDI send pipeline perform EDI validation on transaction-set data elements.</span></span> <span data-ttu-id="5b1f6-104">這項驗證來自或通往特定合作對象，透過該合作對象的協議屬性的所有訊息上設定**驗證**頁面 (在**交易集設定**任一 X12 區段或 EDIFACT 協議）。</span><span class="sxs-lookup"><span data-stu-id="5b1f6-104">This validation is configured for all messages from or to a specific party, through that party's agreement properties on the **Validation** page (under the **Transaction Set Settings** section for either X12 or EDIFACT agreements).</span></span> <span data-ttu-id="5b1f6-105">如果**EDI 類型驗證**屬性中未選取**驗證**頁面上，將不會執行驗證，本主題所描述的資料。</span><span class="sxs-lookup"><span data-stu-id="5b1f6-105">If the **EDI Type Validation** property is not selected in the **Validation** page, the data validations described in this topic will not be performed.</span></span>  

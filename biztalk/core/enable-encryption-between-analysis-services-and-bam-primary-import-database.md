@@ -1,11 +1,11 @@
 ---
-title: "如何啟用 Analysis Services 與 BAM 主要匯入資料庫之間的加密 |Microsoft 文件"
-ms.custom: 
+title: 如何啟用 Analysis Services 與 BAM 主要匯入資料庫之間的加密 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SQL Server Analysis Services, enabling encryption
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Primary Import database [BAM], enabling encryption
 - SQL Server Analysis Services, Primary Import database [BAM]
 ms.assetid: 8107c557-e57c-4569-9ff7-abcb7a8e5243
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968900"
 ---
 # <a name="how-to-enable-encryption-between-analysis-services-and-the-bam-primary-import-database"></a><span data-ttu-id="c8443-102">如何啟用 Analysis Services 與 BAM 主要匯入資料庫之間的加密</span><span class="sxs-lookup"><span data-stu-id="c8443-102">How to Enable Encryption Between Analysis Services and the BAM Primary Import Database</span></span>
 <span data-ttu-id="c8443-103">安裝或升級 BAM 期間，預設不會啟用加密。</span><span class="sxs-lookup"><span data-stu-id="c8443-103">Encryption is not enabled by default during an installation or upgrade of BAM.</span></span> <span data-ttu-id="c8443-104">若要啟用加密，您必須將 BAM 組態 XML 檔案中 UseEncryption 旗標的值設定為 1。</span><span class="sxs-lookup"><span data-stu-id="c8443-104">To enable encryption, you must set the UseEncryption flag in the BAM configuration XML file to a value of 1.</span></span>  

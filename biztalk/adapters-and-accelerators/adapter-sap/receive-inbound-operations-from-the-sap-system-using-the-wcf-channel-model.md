@@ -1,18 +1,18 @@
 ---
-title: "接收來自 SAP 系統使用 WCF 通道模型的輸入的操作 |Microsoft 文件"
-ms.custom: 
+title: 接收來自 SAP 系統使用 WCF 通道模型的輸入的操作 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF channel model, streaming inbound flat-file IDOCs
 - WCF channel model, receiving inbound operations from the SAP system
 - WCF channel model, raising an exception
 ms.assetid: d71d0537-fda4-44ab-85dc-6e27aad23caf
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966196"
 ---
 # <a name="receive-inbound-operations-from-the-sap-system-using-the-wcf-channel-model"></a><span data-ttu-id="d0dc2-102">接收來自 SAP 系統使用 WCF 通道模型的輸入的操作</span><span class="sxs-lookup"><span data-stu-id="d0dc2-102">Receive Inbound Operations from the SAP System Using the WCF Channel Model</span></span>
 <span data-ttu-id="d0dc2-103">做為 RFC 伺服器，並接收 SAP 系統 （例如傳送 IDOC，或叫用 RFC） 叫用的作業，您必須建立通道接聽程式可以接聽來自 SAP 程式 ID 的訊息，透過**System.ServiceModel.Channels.IReplyChannel**通道圖案。</span><span class="sxs-lookup"><span data-stu-id="d0dc2-103">To act as an RFC server and receive operations invoked by the SAP system (such as sending an IDOC or invoking an RFC), you must create a channel listener that can listen for messages from a SAP Program ID over a **System.ServiceModel.Channels.IReplyChannel** channel shape.</span></span>  

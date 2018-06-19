@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 34e3edf7-cfc5-4c89-8069-63e8784bc9f9
-caps.latest.revision: ''
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "24013733"
 ---
 # <a name="using-tibco-rendezvous-send-ports"></a><span data-ttu-id="fedd6-102">使用 TIBCO Rendezvous 傳送埠</span><span class="sxs-lookup"><span data-stu-id="fedd6-102">Using TIBCO Rendezvous Send Ports</span></span>
 <span data-ttu-id="fedd6-103">傳輸埠可傳送任何種類的訊息。</span><span class="sxs-lookup"><span data-stu-id="fedd6-103">A transmit port can send any kind of message.</span></span> <span data-ttu-id="fedd6-104">當 BizTalk Server 透過 Microsoft BizTalk Adapter for TIBCO Rendezvous 傳送訊息時，配接器會依據訊息內容屬性值產生訊息，或是使用預設值並傳送到指定的主體。</span><span class="sxs-lookup"><span data-stu-id="fedd6-104">When BizTalk Server sends a message through Microsoft BizTalk Adapter for TIBCO Rendezvous, the adapter generates the message based on message context properties values, or it uses the default and sends it to the specified subject.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "步驟 3： 測試已移轉的應用程式至 Oracle 資料庫配接器 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3： 測試已移轉的應用程式至 Oracle 資料庫配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 495efc4f-9d9e-450f-a03a-628bb54e658f
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,13 +17,14 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962892"
 ---
 # <a name="step-3-test-the-migrated-application-to-oracle-database-adapter"></a><span data-ttu-id="3689e-102">步驟 3： 測試已移轉的應用程式至 Oracle 資料庫配接器</span><span class="sxs-lookup"><span data-stu-id="3689e-102">Step 3: Test the migrated application to Oracle Database adapter</span></span>
 <span data-ttu-id="3689e-103">![步驟 3 之 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-3of3.gif "Step_3of3")</span><span class="sxs-lookup"><span data-stu-id="3689e-103">![Step 3 of 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-3of3.gif "Step_3of3")</span></span>  
   
  <span data-ttu-id="3689e-104">**若要完成的時間：** 5 分鐘</span><span class="sxs-lookup"><span data-stu-id="3689e-104">**Time to complete:** 5 minutes</span></span>  
   
- <span data-ttu-id="3689e-105">**目標：**在此步驟中，您會測試已移轉的應用程式執行插入作業上 SCOTT。CUSTOMER 資料表。</span><span class="sxs-lookup"><span data-stu-id="3689e-105">**Objective:** In this step, you will test the migrated application by performing an Insert operation on the SCOTT.CUSTOMER table.</span></span> <span data-ttu-id="3689e-106">若要這樣做，您卸除使用 vPrev Oracle 資料庫配接器所產生的結構描述的要求訊息。</span><span class="sxs-lookup"><span data-stu-id="3689e-106">To do this, you drop a request message that conforms to the schema generated using the vPrev Oracle Database adapter.</span></span>  
+ <span data-ttu-id="3689e-105">**目標：** 在此步驟中，您會測試已移轉的應用程式執行插入作業上 SCOTT。CUSTOMER 資料表。</span><span class="sxs-lookup"><span data-stu-id="3689e-105">**Objective:** In this step, you will test the migrated application by performing an Insert operation on the SCOTT.CUSTOMER table.</span></span> <span data-ttu-id="3689e-106">若要這樣做，您卸除使用 vPrev Oracle 資料庫配接器所產生的結構描述的要求訊息。</span><span class="sxs-lookup"><span data-stu-id="3689e-106">To do this, you drop a request message that conforms to the schema generated using the vPrev Oracle Database adapter.</span></span>  
   
 ## <a name="prerequisites"></a><span data-ttu-id="3689e-107">必要條件</span><span class="sxs-lookup"><span data-stu-id="3689e-107">Prerequisites</span></span>  
   

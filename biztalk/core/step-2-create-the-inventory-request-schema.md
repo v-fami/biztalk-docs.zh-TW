@@ -1,14 +1,14 @@
 ---
-title: "步驟 2： 建立庫存要求結構描述 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 建立庫存要求結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0fa9ad9f-b815-4baf-8299-556869b8dde7
-caps.latest.revision: "45"
+caps.latest.revision: 45
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,13 +17,14 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014285"
 ---
 # <a name="step-2-create-the-inventory-request-schema"></a><span data-ttu-id="d2a65-102">步驟 2：建立庫存要求結構描述</span><span class="sxs-lookup"><span data-stu-id="d2a65-102">Step 2: Create the Inventory Request Schema</span></span>
 <span data-ttu-id="d2a65-103">![步驟 2，5 個](../core/media/step-2of5.gif "Step_2of5")</span><span class="sxs-lookup"><span data-stu-id="d2a65-103">![Step 2 of 5](../core/media/step-2of5.gif "Step_2of5")</span></span>  
   
  <span data-ttu-id="d2a65-104">**若要完成的時間：** 7 分鐘</span><span class="sxs-lookup"><span data-stu-id="d2a65-104">**Time to complete:** 7 minutes</span></span>  
   
- <span data-ttu-id="d2a65-105">**目標：**在此步驟中，您會定義庫存補充訊息的結構描述。</span><span class="sxs-lookup"><span data-stu-id="d2a65-105">**Objective:** In this step, you define the schema of the inventory replenishment message.</span></span>  <span data-ttu-id="d2a65-106">倉儲系統會傳送這個訊息，以便要求庫存補充。</span><span class="sxs-lookup"><span data-stu-id="d2a65-106">The warehouse system sends this message for requesting inventory replenishment.</span></span>  <span data-ttu-id="d2a65-107">這是您必須針對此專案建立的其中一個結構描述。</span><span class="sxs-lookup"><span data-stu-id="d2a65-107">This is one of the two schemas you must create for this project.</span></span>  
+ <span data-ttu-id="d2a65-105">**目標：** 在此步驟中，您會定義庫存補充訊息的結構描述。</span><span class="sxs-lookup"><span data-stu-id="d2a65-105">**Objective:** In this step, you define the schema of the inventory replenishment message.</span></span>  <span data-ttu-id="d2a65-106">倉儲系統會傳送這個訊息，以便要求庫存補充。</span><span class="sxs-lookup"><span data-stu-id="d2a65-106">The warehouse system sends this message for requesting inventory replenishment.</span></span>  <span data-ttu-id="d2a65-107">這是您必須針對此專案建立的其中一個結構描述。</span><span class="sxs-lookup"><span data-stu-id="d2a65-107">This is one of the two schemas you must create for this project.</span></span>  
   
  <span data-ttu-id="d2a65-108">**用途：** XML 不僅會結構和識別資訊與標準化的標記程式碼，不過也會使用結構描述的能力。</span><span class="sxs-lookup"><span data-stu-id="d2a65-108">**Purpose:** XML not only structures and identifies information with standardized markup codes, but also has the ability to use schemas.</span></span> <span data-ttu-id="d2a65-109">結構描述是一種 XML 文件，其運作方式就如同字典，而且會由其他 XML 文件當做參考使用。</span><span class="sxs-lookup"><span data-stu-id="d2a65-109">A schema is an XML document that works like a dictionary and is used as a reference by other XML documents.</span></span> <span data-ttu-id="d2a65-110">結構描述程式碼會定義 XML 項目的拼字以及這些項目所包含的資料類型。</span><span class="sxs-lookup"><span data-stu-id="d2a65-110">The schema code defines the spelling of XML elements and the type of data enclosed by those elements.</span></span> <span data-ttu-id="d2a65-111">使用結構描述可讓程式輕易地處理 XML 文件並確保資訊的結構和類型正確無誤。</span><span class="sxs-lookup"><span data-stu-id="d2a65-111">Using schemas provides an easy way for a program to process XML documents and ensures that the structure and type of information is correct.</span></span>  
   

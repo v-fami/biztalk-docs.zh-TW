@@ -1,11 +1,11 @@
 ---
-title: "回應者公開程序 |Microsoft 文件"
-ms.custom: 
+title: 回應者公開程序 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, message flow
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - public processes, message flow
 - public processes, responder
 ms.assetid: 78d83954-2998-44ac-a527-5e5858c61009
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210862"
 ---
 # <a name="responder-public-process"></a><span data-ttu-id="3a339-102">回應者公開程序</span><span class="sxs-lookup"><span data-stu-id="3a339-102">Responder Public Process</span></span>
 <span data-ttu-id="3a339-103">回應者的這個公開程序會接收來自啟動者的 RosettaNet 實作架構 (RNIF) 訊息並依此回應。</span><span class="sxs-lookup"><span data-stu-id="3a339-103">This public process on the responder receives the RosettaNet Implementation Framework (RNIF) message from the initiator, and responds accordingly.</span></span>  

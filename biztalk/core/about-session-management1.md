@@ -1,14 +1,14 @@
 ---
-title: "關於工作階段 Management1 |Microsoft 文件"
-ms.custom: 
+title: 關於工作階段 Management1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d1848619-d97a-4f1e-ba94-59861bd7aedf
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225646"
 ---
 # <a name="about-session-management"></a><span data-ttu-id="1ea4b-102">關於工作階段管理</span><span class="sxs-lookup"><span data-stu-id="1ea4b-102">About Session Management</span></span>
 <span data-ttu-id="1ea4b-103">Microsoft BizTalk Adapter for JD Edwards OneWorld 建立連線工作階段，以傳送呼叫給 JD Edwards OneWorld 伺服器。</span><span class="sxs-lookup"><span data-stu-id="1ea4b-103">The Microsoft BizTalk Adapter for JD Edwards OneWorld creates a connection session to send a call to the JD Edwards OneWorld server.</span></span> <span data-ttu-id="1ea4b-104">當呼叫終止時，工作階段會放在集區中，供後續呼叫重複使用。</span><span class="sxs-lookup"><span data-stu-id="1ea4b-104">When the call terminates, the session is put in a pool to be re-used by a subsequent call.</span></span> <span data-ttu-id="1ea4b-105">配接器會建立多個連線工作階段，以處理對 JD Edwards OneWorld 伺服器的並行呼叫。</span><span class="sxs-lookup"><span data-stu-id="1ea4b-105">The adapter creates multiple connection sessions to handle concurrent calls to the JD Edwards OneWorld server.</span></span> <span data-ttu-id="1ea4b-106">集區會定期清除，以移除不再需要的工作階段。</span><span class="sxs-lookup"><span data-stu-id="1ea4b-106">The pool is periodically cleaned to remove sessions that are no longer necessary.</span></span>  

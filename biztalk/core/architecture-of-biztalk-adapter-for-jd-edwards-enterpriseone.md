@@ -1,15 +1,15 @@
 ---
-title: "BizTalk Adapter for JD Edwards EnterpriseOne 的架構 |Microsoft 文件"
-description: "在設計階段和執行的階段在 JD Edwards EnterpriseOne 配接器在 BizTalk 中，在設計階段和執行的階段，以及輸出的事件描述輸入的服務"
-ms.custom: 
+title: BizTalk Adapter for JD Edwards EnterpriseOne 的架構 |Microsoft 文件
+description: 在設計階段和執行的階段在 JD Edwards EnterpriseOne 配接器在 BizTalk 中，在設計階段和執行的階段，以及輸出的事件描述輸入的服務
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0441c5d2-6a46-45b6-8ab5-0bdac3590f56
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013757"
 ---
 # <a name="architecture-of-biztalk-adapter-for-jd-edwards-enterpriseone"></a><span data-ttu-id="01844-103">BizTalk Adapter for JD Edwards EnterpriseOne 的架構</span><span class="sxs-lookup"><span data-stu-id="01844-103">Architecture of BizTalk Adapter for JD Edwards EnterpriseOne</span></span>
 <span data-ttu-id="01844-104">Microsoft BizTalk Adapter for JD Edwards EnterpriseOne 可讓您存取 JD Edwards EnterpriseOne 商務功能。</span><span class="sxs-lookup"><span data-stu-id="01844-104">Microsoft BizTalk Adapter for JD Edwards EnterpriseOne provides access to JD Edwards EnterpriseOne business functions.</span></span> <span data-ttu-id="01844-105">JD Edwards EnterpriseOne 會使用名為 JDENet 的專屬傳訊架構，在用戶端與伺服器電腦之間通訊。</span><span class="sxs-lookup"><span data-stu-id="01844-105">JD Edwards EnterpriseOne communicates between client and server machines using a proprietary messaging architecture called JDENet.</span></span> <span data-ttu-id="01844-106">JDENet 是由 JAR 檔案 Connector.jar 和 Kernel.jar 中的 JD Edwards EnterpriseOne 連接器類別實作。</span><span class="sxs-lookup"><span data-stu-id="01844-106">JDENet is implemented by the JD Edwards EnterpriseOne connector classes found in the JAR files, Connector.jar and Kernel.jar.</span></span> <span data-ttu-id="01844-107">以 TCP/IP 做為傳輸通訊協定，與預設連接埠 6009 或 6010 來實作通訊。</span><span class="sxs-lookup"><span data-stu-id="01844-107">Communication is implemented using TCP/IP as a transport protocol, with a default port of 6009 or 6010.</span></span> <span data-ttu-id="01844-108">此值設定為位置的描述，請參閱[將成品新增至 BizTalk 管理](../core/adding-biztalk-adapter-for-jd-edwards-oneworld.md)。</span><span class="sxs-lookup"><span data-stu-id="01844-108">For a description of where this value is set, see [Add the artifacts to BizTalk Administration](../core/adding-biztalk-adapter-for-jd-edwards-oneworld.md).</span></span>  

@@ -1,15 +1,15 @@
 ---
-title: "使用 BizTalk Server 中 ESB Toolkit 的 SOA 控管整合 |Microsoft 文件"
-description: "SOA 基礎系統及協力廠商與整合 BizTalk Server 中的 ESB Toolkit 的挑戰的清單"
-caps.latest.revision: "3"
+title: 使用 BizTalk Server 中 ESB Toolkit 的 SOA 控管整合 |Microsoft 文件
+description: SOA 基礎系統及協力廠商與整合 BizTalk Server 中的 ESB Toolkit 的挑戰的清單
+caps.latest.revision: 3
 author: MandiOhlinger
 manager: anneta
-ms.custom: 
+ms.custom: ''
 ms.date: 08/10/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ccb5ac2d-cd90-414d-a6c7-045a8fe9450b
 ms.author: mandia
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295014"
 ---
 # <a name="soa-governance-integration"></a><span data-ttu-id="08926-103">SOA 控管整合</span><span class="sxs-lookup"><span data-stu-id="08926-103">SOA Governance Integration</span></span>
 <span data-ttu-id="08926-104">企業級應用程式必須支援穩定且可靠的管理功能，能夠以符合商務需求、 政府法規、 服務等級協定 (Sla)，以及客戶及交易夥伴的期望。</span><span class="sxs-lookup"><span data-stu-id="08926-104">Enterprise-level applications must support robust and reliable management features to be able to comply with business requirements, government legislation, service level agreements (SLAs), and customer and trading partner expectations.</span></span> <span data-ttu-id="08926-105">執行階段控管著重於特別的挑戰之一和需求，成功地執行服務導向架構 (SOA) – 架構的系統符合這些需求。</span><span class="sxs-lookup"><span data-stu-id="08926-105">Run-time governance focuses specifically on the challenges of, and requirements for, successfully running service-oriented architecture (SOA)–based systems that meet these requirements.</span></span> <span data-ttu-id="08926-106">商務系統所傳遞品質是服務的定義其成功或失敗的主要因素。</span><span class="sxs-lookup"><span data-stu-id="08926-106">The quality of service delivered by a business system is the predominant factor that defines its success or failure.</span></span>  

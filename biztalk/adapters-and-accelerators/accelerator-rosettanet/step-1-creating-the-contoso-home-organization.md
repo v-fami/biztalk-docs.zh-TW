@@ -1,18 +1,18 @@
 ---
-title: "步驟 1： 建立 Contoso 主要組織 |Microsoft 文件"
-ms.custom: 
+title: 步驟 1： 建立 Contoso 主要組織 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - double action tutorial, creating home organizations
 - creating, home organizations
 - home organizations, creating
 ms.assetid: 0e7a53b9-ae59-4cd1-88bd-0ada7e65acba
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961444"
 ---
 # <a name="step-1-creating-the-contoso-home-organization"></a><span data-ttu-id="a8b43-102">步驟 1： 建立 Contoso 主要組織</span><span class="sxs-lookup"><span data-stu-id="a8b43-102">Step 1: Creating the Contoso Home Organization</span></span>
 <span data-ttu-id="a8b43-103">在這個步驟中，您會使用 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 管理主控台來建立 Contoso 主要組織。</span><span class="sxs-lookup"><span data-stu-id="a8b43-103">In this step, you use the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Management Console to create the Contoso home organization.</span></span>  
@@ -38,7 +39,7 @@ ms.lasthandoff: 11/28/2017
     |<span data-ttu-id="a8b43-109">使用</span><span class="sxs-lookup"><span data-stu-id="a8b43-109">Use this</span></span>|<span data-ttu-id="a8b43-110">動作</span><span class="sxs-lookup"><span data-stu-id="a8b43-110">To do this</span></span>|  
     |--------------|----------------|  
     |<span data-ttu-id="a8b43-111">**名稱**</span><span class="sxs-lookup"><span data-stu-id="a8b43-111">**Name**</span></span>|<span data-ttu-id="a8b43-112">型別**CONTOSO**。</span><span class="sxs-lookup"><span data-stu-id="a8b43-112">Type **CONTOSO**.</span></span>|  
-    |<span data-ttu-id="a8b43-113">**GBI**</span><span class="sxs-lookup"><span data-stu-id="a8b43-113">**GBI**</span></span>|<span data-ttu-id="a8b43-114">型別**123456789**。</span><span class="sxs-lookup"><span data-stu-id="a8b43-114">Type **123456789**.</span></span> <span data-ttu-id="a8b43-115">**注意：**如果您在同一部電腦上執行回送教學課程，您必須輸入"123456789"以外的 GBI 值。</span><span class="sxs-lookup"><span data-stu-id="a8b43-115">**Note:**  If you have run the Loopback tutorial on the same computer, you will have to enter a value for GBI that is different than "123456789".</span></span>|  
+    |<span data-ttu-id="a8b43-113">**GBI**</span><span class="sxs-lookup"><span data-stu-id="a8b43-113">**GBI**</span></span>|<span data-ttu-id="a8b43-114">型別**123456789**。</span><span class="sxs-lookup"><span data-stu-id="a8b43-114">Type **123456789**.</span></span> <span data-ttu-id="a8b43-115">**注意：** 如果您在同一部電腦上執行回送教學課程，您必須輸入"123456789"以外的 GBI 值。</span><span class="sxs-lookup"><span data-stu-id="a8b43-115">**Note:**  If you have run the Loopback tutorial on the same computer, you will have to enter a value for GBI that is different than "123456789".</span></span>|  
     |<span data-ttu-id="a8b43-116">**主要組織分類**</span><span class="sxs-lookup"><span data-stu-id="a8b43-116">**Home Organization Classification**</span></span>|<span data-ttu-id="a8b43-117">選取**製造商**從下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="a8b43-117">Select **Manufacturer** from the drop-down list.</span></span>|  
   
 3.  <span data-ttu-id="a8b43-118">按一下**連絡人屬性**索引標籤，然後再執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="a8b43-118">Click the **Contact Properties** tab, and then do the following:</span></span>  

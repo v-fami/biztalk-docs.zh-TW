@@ -1,14 +1,14 @@
 ---
-title: "正在準備嚴重損壞修復 BizTalk Server |Microsoft 文件"
-ms.custom: 
+title: 正在準備嚴重損壞修復 BizTalk Server |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 14c2c25d-30c5-4e90-a744-f084befa2c1d
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302142"
 ---
 # <a name="preparing-the-disaster-recovery-biztalk-servers"></a><span data-ttu-id="dce02-102">正在準備嚴重損壞修復 BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="dce02-102">Preparing the Disaster Recovery BizTalk Servers</span></span>
 <span data-ttu-id="dce02-103">安裝[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]遵循中的建議的災害復原站台執行階段伺服器[BizTalk Server 2010 安裝和升級指南](http://go.microsoft.com/fwlink/?LinkID=194815)(http://go.microsoft.com/fwlink/?LinkID=194815)。</span><span class="sxs-lookup"><span data-stu-id="dce02-103">Install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] run-time servers at the disaster recovery site following the recommendations in [BizTalk Server 2010 Installation and Upgrade Guides](http://go.microsoft.com/fwlink/?LinkID=194815) (http://go.microsoft.com/fwlink/?LinkID=194815).</span></span> <span data-ttu-id="dce02-104">設定這些[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]加入實際執行的 BizTalk 群組中使用 BizTalk 組態精靈的執行階段伺服器。</span><span class="sxs-lookup"><span data-stu-id="dce02-104">Configure these [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] run-time servers using the BizTalk Configuration Wizard to join them to the production BizTalk group.</span></span> <span data-ttu-id="dce02-105">設定時[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]在災害復原站台 （包括災害復原企業單一登入主要密碼伺服器） 的執行階段伺服器，請務必：</span><span class="sxs-lookup"><span data-stu-id="dce02-105">When configuring the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] run-time servers at the disaster recovery site (including the disaster recovery Enterprise Single Sign-On Master Secret server) make sure to:</span></span>  

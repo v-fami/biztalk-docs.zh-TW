@@ -1,17 +1,17 @@
 ---
-title: "訊息通知區段 |Microsoft 文件"
-ms.custom: 
+title: 訊息通知區段 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - segments, acknowledgements
 - acknowledgements, segments
 ms.assetid: 6f2b9f6f-a328-4a0f-9e7d-edba32cc045a
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204934"
 ---
 # <a name="message-acknowledgment-segment"></a><span data-ttu-id="04547-102">訊息通知區段</span><span class="sxs-lookup"><span data-stu-id="04547-102">Message Acknowledgment Segment</span></span>
 <span data-ttu-id="04547-103">通知 (ACK) 訊息的訊息通知 (MSA) 區段會識別哪些類型的通知系統傳送，並指出哪些訊息認可通知。</span><span class="sxs-lookup"><span data-stu-id="04547-103">The Message Acknowledgment (MSA) segment of an acknowledgment (ACK) message identifies what type of acknowledgment the system is sending, and indicates what message the ACK is acknowledging.</span></span> <span data-ttu-id="04547-104">它包含兩個必要區段： 認可程式碼和訊息的控制項識別碼。</span><span class="sxs-lookup"><span data-stu-id="04547-104">It consists of two required segments: an acknowledgment code and a message control ID.</span></span>  

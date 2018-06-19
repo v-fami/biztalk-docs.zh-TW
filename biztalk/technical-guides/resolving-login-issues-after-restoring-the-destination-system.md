@@ -1,15 +1,15 @@
 ---
-title: "登入問題解決之後還原目的地系統 |Microsoft 文件"
-description: "若要解決被遺棄的使用者，在 BizTalk Server 中的指令碼 SQL Server 登入記錄傳送"
-ms.custom: 
+title: 登入問題解決之後還原目的地系統 |Microsoft 文件
+description: 若要解決被遺棄的使用者，在 BizTalk Server 中的指令碼 SQL Server 登入記錄傳送
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e9232ca3-dadb-4b3c-8ec4-4e307c32d2e5
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013797"
 ---
 # <a name="resolving-login-issues-after-restoring-the-destination-system"></a><span data-ttu-id="e308a-103">登入問題解決之後還原目的地系統</span><span class="sxs-lookup"><span data-stu-id="e308a-103">Resolving Login Issues After Restoring the Destination System</span></span>
 

@@ -1,14 +1,14 @@
 ---
-title: "ESB 發送器元件 |Microsoft 文件"
-ms.custom: 
+title: ESB 發送器元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 85655b5f-4717-42d1-b005-0a5592d5653b
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294902"
 ---
 # <a name="the-esb-dispatcher-component"></a><span data-ttu-id="b6d05-102">ESB 發送器元件</span><span class="sxs-lookup"><span data-stu-id="b6d05-102">The ESB Dispatcher Component</span></span>
 <span data-ttu-id="b6d05-103">傳訊架構路線服務會在 ESB 發送器元件內執行。</span><span class="sxs-lookup"><span data-stu-id="b6d05-103">Messaging-based itinerary services are executed inside the ESB Dispatcher component.</span></span> <span data-ttu-id="b6d05-104">發送器元件可以也會動態地設定輸出訊息的端點位置屬性，並以動態方式將訊息轉換。</span><span class="sxs-lookup"><span data-stu-id="b6d05-104">The Dispatcher component can also dynamically set endpoint location properties for outbound messages and dynamically transform messages.</span></span>  

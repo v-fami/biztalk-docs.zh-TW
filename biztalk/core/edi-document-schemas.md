@@ -1,14 +1,14 @@
 ---
-title: "EDI 文件結構描述 |Microsoft 文件"
-ms.custom: 
+title: EDI 文件結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fc3a30b8-0686-4c06-985b-13f2c95f8e99
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968300"
 ---
 # <a name="edi-document-schemas"></a><span data-ttu-id="7aac7-102">EDI 文件結構描述</span><span class="sxs-lookup"><span data-stu-id="7aac7-102">EDI Document Schemas</span></span>
 <span data-ttu-id="7aac7-103">文件結構描述定義了 EDI 交易文件類型的內文。</span><span class="sxs-lookup"><span data-stu-id="7aac7-103">Document schemas define the body of an EDI transaction document type.</span></span>  

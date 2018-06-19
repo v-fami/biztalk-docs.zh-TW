@@ -1,14 +1,14 @@
 ---
-title: "如何管理現有連結 |Microsoft 文件"
-ms.custom: 
+title: 如何管理現有連結 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0db213b9-df84-4ebd-a59f-7691774d5031
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970140"
 ---
 # <a name="how-to-manage-existing-links"></a><span data-ttu-id="4d0c1-102">如何管理現有連結</span><span class="sxs-lookup"><span data-stu-id="4d0c1-102">How to Manage Existing Links</span></span>
 <span data-ttu-id="4d0c1-103">您有時可能需要變更連結的來源或目的、命名或重新命名連結，或刪除連結。</span><span class="sxs-lookup"><span data-stu-id="4d0c1-103">Sometimes you may need to change the source or destination of a link, name or rename a link, or delete a link.</span></span> <span data-ttu-id="4d0c1-104">本主題針對執行這些類型的連結作業，提供逐步指示。</span><span class="sxs-lookup"><span data-stu-id="4d0c1-104">This topic provides step-by-step instructions for performing these types of link operations.</span></span>  

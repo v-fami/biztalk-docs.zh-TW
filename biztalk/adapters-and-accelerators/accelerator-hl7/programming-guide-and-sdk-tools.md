@@ -1,18 +1,18 @@
 ---
-title: "程式設計指南和 SDK 工具 |Microsoft 文件"
-ms.custom: 
+title: 程式設計指南和 SDK 工具 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - documentation, tips
 - BTAHL7, developing
 - developing
 ms.assetid: 040ba1b6-d0bf-4477-a564-20e18231aee7
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206158"
 ---
 # <a name="programming-guide-and-sdk-tools"></a><span data-ttu-id="cf333-102">程式設計指南和 SDK 工具</span><span class="sxs-lookup"><span data-stu-id="cf333-102">Programming guide and SDK tools</span></span>
 <span data-ttu-id="cf333-103">此軟體開發套件 (SDK) 提供的開發人員要建立應用程式使用的工具中的任何資訊[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)]、 公用應用程式發展介面 (API)，或在提供的範例與公用程式BTAHL7 SDK。</span><span class="sxs-lookup"><span data-stu-id="cf333-103">This Software Development Kit (SDK) provides information for developers who are creating applications using any of the tools in [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)], the public application programming interfaces (API), or the samples and utilities provided in the BTAHL7 SDK.</span></span>  

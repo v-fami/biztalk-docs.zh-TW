@@ -1,14 +1,14 @@
 ---
-title: "建立傳送 Ports1 |Microsoft 文件"
-ms.custom: 
+title: 建立傳送 Ports1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bdb437bd-890d-4997-ae59-cd0151301153
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014645"
 ---
 # <a name="creating-send-ports"></a><span data-ttu-id="79f3f-102">建立傳送埠</span><span class="sxs-lookup"><span data-stu-id="79f3f-102">Creating Send Ports</span></span>
 

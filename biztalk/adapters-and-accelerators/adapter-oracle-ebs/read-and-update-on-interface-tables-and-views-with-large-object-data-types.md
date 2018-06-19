@@ -1,14 +1,14 @@
 ---
-title: "介面資料表、 介面檢視、 資料表和檢視表包含 LOB 資料的作業 |Microsoft 文件"
-ms.custom: 
+title: 介面資料表、 介面檢視、 資料表和檢視表包含 LOB 資料的作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0f6e8db6-ba68-4e3f-84b2-1cc31ce89bcb
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964700"
 ---
 # <a name="operations-on-interface-tables-interface-views-tables-and-views-that-contain-lob-data"></a><span data-ttu-id="44f52-102">介面資料表、 介面檢視、 資料表和檢視表包含 LOB 資料的作業</span><span class="sxs-lookup"><span data-stu-id="44f52-102">Operations on Interface Tables, Interface Views, Tables, and Views That Contain LOB Data</span></span>
 <span data-ttu-id="44f52-103">[!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]提供 Oracle 大型物件 (LOB) 資料類型的支援：</span><span class="sxs-lookup"><span data-stu-id="44f52-103">The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] provides support for the Oracle large object (LOB) data types:</span></span>  

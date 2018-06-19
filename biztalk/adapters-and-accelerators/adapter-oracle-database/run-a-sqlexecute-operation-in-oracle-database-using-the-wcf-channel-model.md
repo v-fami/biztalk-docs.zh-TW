@@ -1,18 +1,18 @@
 ---
-title: "使用 WCF 通道模型的 Oracle 資料庫中執行 SQLEXECUTE 操作 |Microsoft 文件"
-ms.custom: 
+title: 使用 WCF 通道模型的 Oracle 資料庫中執行 SQLEXECUTE 操作 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - running a SQLEXECUTE statement, using a channel
 - how to, run a SQLEXECUTE statement by using a channel
 - WCF channel model, running a SQLEXECUTE statement
 ms.assetid: e1af11ef-3f44-4726-99ca-d6961d79e651
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25960804"
 ---
 # <a name="run-a-sqlexecute-operation-in-oracle-database-using-the-wcf-channel-model"></a><span data-ttu-id="21bfd-102">使用 WCF 通道模型的 Oracle 資料庫中執行 SQLEXECUTE 操作</span><span class="sxs-lookup"><span data-stu-id="21bfd-102">Run a SQLEXECUTE Operation in Oracle Database using the WCF Channel Model</span></span>
 <span data-ttu-id="21bfd-103">本節說明如何透過通道執行 SQLEXECUTE 操作的 Oracle 資料庫。</span><span class="sxs-lookup"><span data-stu-id="21bfd-103">This section shows how to perform a SQLEXECUTE operation on an Oracle database over a channel.</span></span> <span data-ttu-id="21bfd-104">您必須在 SOAP 訊息指定訊息和訊息動作。</span><span class="sxs-lookup"><span data-stu-id="21bfd-104">You must specify both a message and a message action on the SOAP message.</span></span> <span data-ttu-id="21bfd-105">如需 SQLEXECUTE 操作的詳細資訊，請參閱[在 Oracle 資料庫中使用 WCF 服務模型執行 SQLEXECUTE 操作](../../adapters-and-accelerators/adapter-oracle-database/run-sqlexecute-operation-in-oracle-database-using-the-wcf-service-model.md)。</span><span class="sxs-lookup"><span data-stu-id="21bfd-105">For more information about the SQLEXECUTE operation, see [Run SQLEXECUTE operation in Oracle Database using the WCF Service Model](../../adapters-and-accelerators/adapter-oracle-database/run-sqlexecute-operation-in-oracle-database-using-the-wcf-service-model.md).</span></span>  

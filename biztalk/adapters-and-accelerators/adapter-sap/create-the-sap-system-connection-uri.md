@@ -1,11 +1,11 @@
 ---
-title: "建立 SAP 系統連接 URI |Microsoft 文件"
-ms.custom: 
+title: 建立 SAP 系統連接 URI |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - connection URI
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - connecting using connection URI
 - connecting to SAP, using the connection URI
 ms.assetid: e41ed488-07a7-4fb7-97c0-6d626e041e95
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22219310"
 ---
 # <a name="create-the-sap-system-connection-uri"></a><span data-ttu-id="1a772-102">建立 SAP 系統連線 URI</span><span class="sxs-lookup"><span data-stu-id="1a772-102">Create the SAP system connection URI</span></span>
 <span data-ttu-id="1a772-103">[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]連線 URI 包含用來連接到 SAP 系統的配接器屬性。</span><span class="sxs-lookup"><span data-stu-id="1a772-103">The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] connection URI contains properties that the adapter uses to establish a connection to the SAP system.</span></span>  

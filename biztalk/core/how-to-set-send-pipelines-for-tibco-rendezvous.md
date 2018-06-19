@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/creating-tibco-rendezvous-send-handlers/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: 72cdd3553289df39442b71730a61e3271db381e7
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013141"
 ---
 # <a name="how-to-set-send-pipelines-for-tibco-rendezvous"></a><span data-ttu-id="e10d5-101">如何設定 TIBCO Rendezvous 傳送管線</span><span class="sxs-lookup"><span data-stu-id="e10d5-101">How to Set Send Pipelines for TIBCO Rendezvous</span></span>
 <span data-ttu-id="e10d5-102">Microsoft BizTalk Adapter for TIBCO Rendezvous 要求您分別針對傳送和接收管線選取 XMLTransmit 和 XMLReceive。</span><span class="sxs-lookup"><span data-stu-id="e10d5-102">Microsoft BizTalk Adapter for TIBCO Rendezvous requires that you select XMLTransmit and XMLReceive for the send and receive pipelines respectively.</span></span>  
@@ -27,7 +28,7 @@ ms.lasthandoff: 11/07/2017
   
     4.  <span data-ttu-id="e10d5-110">從 傳送管線 下拉式清單中，選取  **Microsoft.BizTalk.DefaultPipelines.XMLTransmit**。</span><span class="sxs-lookup"><span data-stu-id="e10d5-110">From the Send Pipeline drop-down list, select **Microsoft.BizTalk.DefaultPipelines.XMLTransmit**.</span></span>  
   
-    5.  <span data-ttu-id="e10d5-111">從**接收管線**下拉式清單中，選取**[microsoft.biztalk.defaultpiplelines.xmlreceive]**。</span><span class="sxs-lookup"><span data-stu-id="e10d5-111">From the **Receive Pipeline** drop-down list, select **Microsoft.BizTalk.DefaultPiplelines.XMLReceive**.</span></span>  
+    5.  <span data-ttu-id="e10d5-111">從**接收管線**下拉式清單中，選取 **[microsoft.biztalk.defaultpiplelines.xmlreceive]**。</span><span class="sxs-lookup"><span data-stu-id="e10d5-111">From the **Receive Pipeline** drop-down list, select **Microsoft.BizTalk.DefaultPiplelines.XMLReceive**.</span></span>  
   
 4.  <span data-ttu-id="e10d5-112">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="e10d5-112">Click **OK**.</span></span>  
   

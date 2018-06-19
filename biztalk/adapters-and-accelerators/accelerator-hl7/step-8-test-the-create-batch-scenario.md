@@ -1,14 +1,14 @@
 ---
-title: "步驟 8： 測試建立批次案例 |Microsoft 文件"
-ms.custom: 
+title: 步驟 8： 測試建立批次案例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fc7fac40-fd3e-413b-82cc-7ad08226094c
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25961132"
 ---
 # <a name="step-8-test-the-create-batch-scenario"></a><span data-ttu-id="fdfe9-102">步驟 8： 測試建立批次案例</span><span class="sxs-lookup"><span data-stu-id="fdfe9-102">Step 8: Test the Create-Batch Scenario</span></span>
 <span data-ttu-id="fdfe9-103">在此步驟中，您可以測試建立批次案例卸除的訊息要批次處理成來源 Tutorial_BTAHL7Pickup 資料夾的測試執行個體。</span><span class="sxs-lookup"><span data-stu-id="fdfe9-103">In this step, you test the Create-Batch scenario by dropping test instances of the messages you want to batch into the source Tutorial_BTAHL7Pickup folder.</span></span> <span data-ttu-id="fdfe9-104">您設定的傳送埠拾取訊息的來源資料夾，並將它; 傳送接收埠會接收。與接收管線處理它，並將它放置到目的 Tutorial_BTAHL7Drop 資料夾。</span><span class="sxs-lookup"><span data-stu-id="fdfe9-104">The send port that you set up picks up the message from the source folder and sends it; the receive port receives it; and the receive pipeline processes it and drops it into the destination Tutorial_BTAHL7Drop folder.</span></span>  

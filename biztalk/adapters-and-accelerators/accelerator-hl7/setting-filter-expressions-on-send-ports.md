@@ -1,11 +1,11 @@
 ---
-title: "設定傳送埠篩選條件運算式 |Microsoft 文件"
-ms.custom: 
+title: 設定傳送埠篩選條件運算式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - send ports, context properties
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - context properties, filtering
 - filtering, context properties
 ms.assetid: 48c7c83b-9464-4ed9-bd8d-cf5b75e16702
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206078"
 ---
 # <a name="setting-filter-expressions-on-send-ports"></a><span data-ttu-id="d0cf8-102">設定傳送埠的篩選條件運算式</span><span class="sxs-lookup"><span data-stu-id="d0cf8-102">Setting Filter Expressions on Send Ports</span></span>
 <span data-ttu-id="d0cf8-103">您設定篩選條件運算式中的內容屬性來控制連接埠所傳送的內容傳送埠上。</span><span class="sxs-lookup"><span data-stu-id="d0cf8-103">You set context properties in filter expressions on the send port to control what the port sends.</span></span> <span data-ttu-id="d0cf8-104">您可以設定篩選條件運算式，以提供您在篩選屬性的方式彈性的運算子的數字 (相等或不等，存在，大於、 大於或等於、 小於且小於或等於)。</span><span class="sxs-lookup"><span data-stu-id="d0cf8-104">You can set the filter expressions with a number of operators that offer you flexibility in how you filter the property (equality or inequality, exists, greater than, great than or equal to, less than, and less than or equal to).</span></span>  

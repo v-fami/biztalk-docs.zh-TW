@@ -1,14 +1,14 @@
 ---
-title: "叫用函數和程序與使用 BizTalk Server 的 Oracle 資料庫中的記錄類型 |Microsoft 文件"
-ms.custom: 
+title: 叫用函數和程序與使用 BizTalk Server 的 Oracle 資料庫中的記錄類型 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ccdc150e-055a-47df-af3e-64931946455d
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963036"
 ---
 # <a name="invoke-functions-and-procedures-with-record-types-in-oracle-database-using-biztalk-server"></a><span data-ttu-id="84666-102">叫用函數和程序與使用 BizTalk Server 的 Oracle 資料庫中的記錄類型</span><span class="sxs-lookup"><span data-stu-id="84666-102">Invoke Functions and Procedures with RECORD Types in Oracle Database using BizTalk Server</span></span>
 <span data-ttu-id="84666-103">Oracle 記錄類型可用來代表階層式參數傳遞至 PL/SQL 函數和程序中的資訊。</span><span class="sxs-lookup"><span data-stu-id="84666-103">Oracle RECORD types are used to represent hierarchical information in parameters passed to PL/SQL functions and procedures.</span></span> <span data-ttu-id="84666-104">[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]呈現記錄類型為複雜的 XML 型別。</span><span class="sxs-lookup"><span data-stu-id="84666-104">The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] surfaces RECORD types as complex XML types.</span></span> <span data-ttu-id="84666-105">如需有關如何[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]支援記錄類型，請參閱[函式和 Oracle 資料庫中的記錄類型的程序上的作業。](../../adapters-and-accelerators/adapter-oracle-database/operations-on-functions-and-procedures-with-record-types-in-oracle-database.md)。</span><span class="sxs-lookup"><span data-stu-id="84666-105">For more information about how the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] supports RECORD Types, see [Operations on Functions and Procedures with RECORD Types in Oracle Database.](../../adapters-and-accelerators/adapter-oracle-database/operations-on-functions-and-procedures-with-record-types-in-oracle-database.md).</span></span> <span data-ttu-id="84666-106">記錄類型的 XML 結構的相關資訊，請參閱[記錄類型的訊息結構描述](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-record-types.md)。</span><span class="sxs-lookup"><span data-stu-id="84666-106">For information about the XML structure for RECORD Types, see [Message Schemas for RECORD Types](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-record-types.md).</span></span>  
@@ -108,7 +109,7 @@ ms.lasthandoff: 11/28/2017
   
 |<span data-ttu-id="84666-179">形狀圖</span><span class="sxs-lookup"><span data-stu-id="84666-179">Shape</span></span>|<span data-ttu-id="84666-180">圖形類型</span><span class="sxs-lookup"><span data-stu-id="84666-180">Shape Type</span></span>|<span data-ttu-id="84666-181">屬性</span><span class="sxs-lookup"><span data-stu-id="84666-181">Properties</span></span>|  
 |-----------|----------------|----------------|  
-|<span data-ttu-id="84666-182">ReceiveMessage</span><span class="sxs-lookup"><span data-stu-id="84666-182">ReceiveMessage</span></span>|<span data-ttu-id="84666-183">Receive</span><span class="sxs-lookup"><span data-stu-id="84666-183">Receive</span></span>|<span data-ttu-id="84666-184">-設定**名稱**至*ReceiveMessage*</span><span class="sxs-lookup"><span data-stu-id="84666-184">-   Set **Name** to *ReceiveMessage*</span></span><br /><span data-ttu-id="84666-185">-設定**啟動**至*，則為 True*</span><span class="sxs-lookup"><span data-stu-id="84666-185">-   Set **Activate** to *True*</span></span>|  
+|<span data-ttu-id="84666-182">ReceiveMessage</span><span class="sxs-lookup"><span data-stu-id="84666-182">ReceiveMessage</span></span>|<span data-ttu-id="84666-183">Receive</span><span class="sxs-lookup"><span data-stu-id="84666-183">Receive</span></span>|<span data-ttu-id="84666-184">-設定**名稱**至*ReceiveMessage*</span><span class="sxs-lookup"><span data-stu-id="84666-184">-   Set **Name** to *ReceiveMessage*</span></span><br /><span data-ttu-id="84666-185">-設定**啟動**至 *，則為 True*</span><span class="sxs-lookup"><span data-stu-id="84666-185">-   Set **Activate** to *True*</span></span>|  
 |<span data-ttu-id="84666-186">SendMessage</span><span class="sxs-lookup"><span data-stu-id="84666-186">SendMessage</span></span>|<span data-ttu-id="84666-187">Send</span><span class="sxs-lookup"><span data-stu-id="84666-187">Send</span></span>|<span data-ttu-id="84666-188">-設定**名稱**至*SendMessage*</span><span class="sxs-lookup"><span data-stu-id="84666-188">-   Set **Name** to *SendMessage*</span></span>|  
 |<span data-ttu-id="84666-189">ReceiveResponse</span><span class="sxs-lookup"><span data-stu-id="84666-189">ReceiveResponse</span></span>|<span data-ttu-id="84666-190">Receive</span><span class="sxs-lookup"><span data-stu-id="84666-190">Receive</span></span>|<span data-ttu-id="84666-191">-設定**名稱**至*ReceiveResponse*</span><span class="sxs-lookup"><span data-stu-id="84666-191">-   Set **Name** to *ReceiveResponse*</span></span><br /><span data-ttu-id="84666-192">-設定**啟動**至*False*</span><span class="sxs-lookup"><span data-stu-id="84666-192">-   Set **Activate** to *False*</span></span>|  
 |<span data-ttu-id="84666-193">SendResponse</span><span class="sxs-lookup"><span data-stu-id="84666-193">SendResponse</span></span>|<span data-ttu-id="84666-194">Send</span><span class="sxs-lookup"><span data-stu-id="84666-194">Send</span></span>|<span data-ttu-id="84666-195">-設定**名稱**至*SendResponse*</span><span class="sxs-lookup"><span data-stu-id="84666-195">-   Set **Name** to *SendResponse*</span></span>|  
@@ -117,7 +118,7 @@ ms.lasthandoff: 11/28/2017
   
 |<span data-ttu-id="84666-197">形狀圖</span><span class="sxs-lookup"><span data-stu-id="84666-197">Shape</span></span>|<span data-ttu-id="84666-198">圖形類型</span><span class="sxs-lookup"><span data-stu-id="84666-198">Shape Type</span></span>|<span data-ttu-id="84666-199">屬性</span><span class="sxs-lookup"><span data-stu-id="84666-199">Properties</span></span>|  
 |-----------|----------------|----------------|  
-|<span data-ttu-id="84666-200">ReceiveMessage2</span><span class="sxs-lookup"><span data-stu-id="84666-200">ReceiveMessage2</span></span>|<span data-ttu-id="84666-201">Receive</span><span class="sxs-lookup"><span data-stu-id="84666-201">Receive</span></span>|<span data-ttu-id="84666-202">-設定**名稱**至*ReceiveMessage2*</span><span class="sxs-lookup"><span data-stu-id="84666-202">-   Set **Name** to *ReceiveMessage2*</span></span><br /><span data-ttu-id="84666-203">-設定**啟動**至*，則為 True*</span><span class="sxs-lookup"><span data-stu-id="84666-203">-   Set **Activate** to *True*</span></span>|  
+|<span data-ttu-id="84666-200">ReceiveMessage2</span><span class="sxs-lookup"><span data-stu-id="84666-200">ReceiveMessage2</span></span>|<span data-ttu-id="84666-201">Receive</span><span class="sxs-lookup"><span data-stu-id="84666-201">Receive</span></span>|<span data-ttu-id="84666-202">-設定**名稱**至*ReceiveMessage2*</span><span class="sxs-lookup"><span data-stu-id="84666-202">-   Set **Name** to *ReceiveMessage2*</span></span><br /><span data-ttu-id="84666-203">-設定**啟動**至 *，則為 True*</span><span class="sxs-lookup"><span data-stu-id="84666-203">-   Set **Activate** to *True*</span></span>|  
 |<span data-ttu-id="84666-204">SendMessage2</span><span class="sxs-lookup"><span data-stu-id="84666-204">SendMessage2</span></span>|<span data-ttu-id="84666-205">Send</span><span class="sxs-lookup"><span data-stu-id="84666-205">Send</span></span>|<span data-ttu-id="84666-206">-設定**名稱**至*SendMessage2*</span><span class="sxs-lookup"><span data-stu-id="84666-206">-   Set **Name** to *SendMessage2*</span></span>|  
 |<span data-ttu-id="84666-207">ReceiveResponse2</span><span class="sxs-lookup"><span data-stu-id="84666-207">ReceiveResponse2</span></span>|<span data-ttu-id="84666-208">Receive</span><span class="sxs-lookup"><span data-stu-id="84666-208">Receive</span></span>|<span data-ttu-id="84666-209">-設定**名稱**至*ReceiveResponse2*</span><span class="sxs-lookup"><span data-stu-id="84666-209">-   Set **Name** to *ReceiveResponse2*</span></span><br /><span data-ttu-id="84666-210">-設定**啟動**至*False*</span><span class="sxs-lookup"><span data-stu-id="84666-210">-   Set **Activate** to *False*</span></span>|  
 |<span data-ttu-id="84666-211">SendResponse2</span><span class="sxs-lookup"><span data-stu-id="84666-211">SendResponse2</span></span>|<span data-ttu-id="84666-212">Send</span><span class="sxs-lookup"><span data-stu-id="84666-212">Send</span></span>|<span data-ttu-id="84666-213">-設定**名稱**至*SendResponse2*</span><span class="sxs-lookup"><span data-stu-id="84666-213">-   Set **Name** to *SendResponse2*</span></span>|  

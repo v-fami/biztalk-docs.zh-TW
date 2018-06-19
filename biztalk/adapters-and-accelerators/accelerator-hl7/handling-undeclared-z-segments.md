@@ -1,11 +1,11 @@
 ---
-title: "處理未宣告的 Z 區段 |Microsoft 文件"
-ms.custom: 
+title: 處理未宣告的 Z 區段 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Z segments, 2.X schemas
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - segments, undeclared [Z objects]
 - Z objects, undeclared segments
 ms.assetid: 8878bc93-1833-4bfc-b80e-305e4144739e
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204670"
 ---
 # <a name="handling-undeclared-z-segments"></a><span data-ttu-id="9e2ff-102">處理未宣告的 Z 區段</span><span class="sxs-lookup"><span data-stu-id="9e2ff-102">Handling Undeclared Z Segments</span></span>
 <span data-ttu-id="9e2ff-103">有兩種類型的 Z 區段： 宣告 Z 線段，而未宣告的 Z 線段。</span><span class="sxs-lookup"><span data-stu-id="9e2ff-103">There are two types of Z segments: declared Z segments and undeclared Z segments.</span></span> <span data-ttu-id="9e2ff-104">時，您可以使用這些本機進行，它們很相似，它們是在您使用的方式大不相同。</span><span class="sxs-lookup"><span data-stu-id="9e2ff-104">While they are similar in that you use them for local purposes, they are very different in how you use them.</span></span>  

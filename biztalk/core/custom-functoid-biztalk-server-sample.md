@@ -1,11 +1,11 @@
 ---
-title: "自訂運算質 （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: 自訂運算質 （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - functoids, customizing
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - XML tools
 - examples, XML tools
 ms.assetid: 9f1eb260-ff62-46f5-a517-57f4e9172b35
-caps.latest.revision: "30"
+caps.latest.revision: 30
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970516"
 ---
 # <a name="custom-functoid-biztalk-server-sample"></a><span data-ttu-id="6eae7-102">自訂運算質 （BizTalk Server 範例）</span><span class="sxs-lookup"><span data-stu-id="6eae7-102">Custom Functoid (BizTalk Server Sample)</span></span>
 <span data-ttu-id="6eae7-103">「自訂運算質」範例示範如何為 BizTalk 對應工具撰寫自訂運算質。</span><span class="sxs-lookup"><span data-stu-id="6eae7-103">The Custom Functoid sample demonstrates how to write a custom functoid for BizTalk Mapper.</span></span> <span data-ttu-id="6eae7-104">您可以新增至運算質[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]工具箱。</span><span class="sxs-lookup"><span data-stu-id="6eae7-104">You can add the functoid to the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Toolbox.</span></span> <span data-ttu-id="6eae7-105">BizTalk 對應工具在焦點時，[工具箱] 中會顯示運算質。</span><span class="sxs-lookup"><span data-stu-id="6eae7-105">The functoid will be displayed in the Toolbox when BizTalk Mapper is in focus.</span></span>  
@@ -42,7 +43,7 @@ ms.lasthandoff: 11/28/2017
 >  <span data-ttu-id="6eae7-119">若您重複使用「自訂運算質」範例程式碼實作自己的運算質，務必將 GUID 屬性變更為唯一的屬性。</span><span class="sxs-lookup"><span data-stu-id="6eae7-119">If you reuse the Custom Functoid sample code to implement your own functoid(s), you must be sure to change the GUID attribute to one that is unique.</span></span>  
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="6eae7-120">可在何處找到此範例</span><span class="sxs-lookup"><span data-stu-id="6eae7-120">Where to Find This Sample</span></span>  
- <span data-ttu-id="6eae7-121">*\<範例路徑\>*\XmlTools\CustomFunctoid</span><span class="sxs-lookup"><span data-stu-id="6eae7-121">*\<Samples Path\>*\XmlTools\CustomFunctoid</span></span>  
+ <span data-ttu-id="6eae7-121">*\<範例路徑\>* \XmlTools\CustomFunctoid</span><span class="sxs-lookup"><span data-stu-id="6eae7-121">*\<Samples Path\>* \XmlTools\CustomFunctoid</span></span>  
   
  <span data-ttu-id="6eae7-122">下表顯示此範例中的檔案，並描述其用途。</span><span class="sxs-lookup"><span data-stu-id="6eae7-122">The following table shows the files in this sample and describes their purpose.</span></span>  
   
@@ -88,7 +89,7 @@ ms.lasthandoff: 11/28/2017
   
 1.  <span data-ttu-id="6eae7-162">從[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]BizTalk 專案中，按一下 **工具**功能表，然後選取**選擇工具箱項目**。</span><span class="sxs-lookup"><span data-stu-id="6eae7-162">From a [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] BizTalk project, click the **Tools** menu, and select **Choose Toolbox Items**.</span></span>  
   
-2.  <span data-ttu-id="6eae7-163">在**[選擇工具箱項目**對話方塊中，選取**BizTalk 對應工具運算質**] 索引標籤。</span><span class="sxs-lookup"><span data-stu-id="6eae7-163">In the **Choose Toolbox items** dialog box, select the **BizTalk Mapper Functoids** tab.</span></span>  
+2.  <span data-ttu-id="6eae7-163">在 **[選擇工具箱項目**對話方塊中，選取**BizTalk 對應工具運算質**] 索引標籤。</span><span class="sxs-lookup"><span data-stu-id="6eae7-163">In the **Choose Toolbox items** dialog box, select the **BizTalk Mapper Functoids** tab.</span></span>  
   
 3.  <span data-ttu-id="6eae7-164">按一下**重設**，然後按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="6eae7-164">Click **Reset**, and then click **OK**.</span></span>  
   
@@ -117,7 +118,7 @@ ms.lasthandoff: 11/28/2017
   
     1.  <span data-ttu-id="6eae7-176">從[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]BizTalk 專案中，按一下 **工具**功能表，然後選取**選擇工具箱項目**。</span><span class="sxs-lookup"><span data-stu-id="6eae7-176">From a [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] BizTalk project, click the **Tools** menu, and select **Choose Toolbox Items**.</span></span>  
   
-    2.  <span data-ttu-id="6eae7-177">在**[選擇工具箱項目**對話方塊中，選取**BizTalk 對應工具運算質**] 索引標籤。</span><span class="sxs-lookup"><span data-stu-id="6eae7-177">In the **Choose Toolbox items** dialog box, select the **BizTalk Mapper Functoids** tab.</span></span>  
+    2.  <span data-ttu-id="6eae7-177">在 **[選擇工具箱項目**對話方塊中，選取**BizTalk 對應工具運算質**] 索引標籤。</span><span class="sxs-lookup"><span data-stu-id="6eae7-177">In the **Choose Toolbox items** dialog box, select the **BizTalk Mapper Functoids** tab.</span></span>  
   
     3.  <span data-ttu-id="6eae7-178">在清單中尋找自訂運算質 （自訂串連運算質、 最長字串、 組建陣列運算質、 擷取陣列 」 運算質和累計乘法）。</span><span class="sxs-lookup"><span data-stu-id="6eae7-178">Find the custom functoids (Custom concatenate functoid, Longest String, Build array functoid, Extract array functoid, and Cumulative Multiply) in the list.</span></span> <span data-ttu-id="6eae7-179">按一下對應**核取方塊**以移除運算質，然後按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="6eae7-179">Click the respective **check box** to remove the functoids, and then click **OK**.</span></span>  
   

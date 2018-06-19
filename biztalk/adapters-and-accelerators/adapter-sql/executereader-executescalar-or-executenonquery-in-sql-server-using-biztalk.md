@@ -1,14 +1,14 @@
 ---
-title: "ExecuteReader、 ExecuteScalar 或使用 BizTalk Server 的 SQL 中的 ExecuteNonQuery 作業 |Microsoft 文件"
-ms.custom: 
+title: ExecuteReader、 ExecuteScalar 或使用 BizTalk Server 的 SQL 中的 ExecuteNonQuery 作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d8def133-cbe1-4648-ae41-6b8ce6640cb3
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968076"
 ---
 # <a name="executereader-executescalar-or-executenonquery-operations-in-sql-using-biztalk-server"></a><span data-ttu-id="37bbc-102">ExecuteReader、 ExecuteScalar 或使用 BizTalk Server 的 SQL 中的 ExecuteNonQuery 作業</span><span class="sxs-lookup"><span data-stu-id="37bbc-102">ExecuteReader, ExecuteScalar, or ExecuteNonQuery Operations in SQL using BizTalk Server</span></span>
 <span data-ttu-id="37bbc-103">[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]公開一般 SQL Server 作業，例如**ExecuteNonQuery**， **ExecuteReader**，和**ExecuteScalar**。</span><span class="sxs-lookup"><span data-stu-id="37bbc-103">The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] exposes generic SQL Server operations such as **ExecuteNonQuery**, **ExecuteReader**, and **ExecuteScalar**.</span></span> <span data-ttu-id="37bbc-104">您可以在 SQL Server 資料庫上執行任何 SQL 陳述式中使用這些作業。</span><span class="sxs-lookup"><span data-stu-id="37bbc-104">You can use these operations to execute any SQL statement on a SQL Server database.</span></span> <span data-ttu-id="37bbc-105">這些作業根據回應您取得 SQL 陳述式的類型而有所不同。</span><span class="sxs-lookup"><span data-stu-id="37bbc-105">These operations differ based on the kind of response you get for the SQL statement.</span></span> <span data-ttu-id="37bbc-106">如需配接器如何支援這些作業的詳細資訊，請參閱[ExecuteNonQuery、 ExecuteReader 和 ExecuteScalar 作業支援](../../adapters-and-accelerators/adapter-oracle-ebs/support-for-executenonquery-executereader-and-executescalar-operations.md)。</span><span class="sxs-lookup"><span data-stu-id="37bbc-106">For more information about how the adapter supports these operations, see [Support for ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations](../../adapters-and-accelerators/adapter-oracle-ebs/support-for-executenonquery-executereader-and-executescalar-operations.md).</span></span>  
@@ -86,7 +87,7 @@ ms.lasthandoff: 11/28/2017
   
 |<span data-ttu-id="37bbc-170">形狀圖</span><span class="sxs-lookup"><span data-stu-id="37bbc-170">Shape</span></span>|<span data-ttu-id="37bbc-171">圖形類型</span><span class="sxs-lookup"><span data-stu-id="37bbc-171">Shape Type</span></span>|<span data-ttu-id="37bbc-172">屬性</span><span class="sxs-lookup"><span data-stu-id="37bbc-172">Properties</span></span>|  
 |-----------|----------------|----------------|  
-|<span data-ttu-id="37bbc-173">ReceiveMessage</span><span class="sxs-lookup"><span data-stu-id="37bbc-173">ReceiveMessage</span></span>|<span data-ttu-id="37bbc-174">Receive</span><span class="sxs-lookup"><span data-stu-id="37bbc-174">Receive</span></span>|<span data-ttu-id="37bbc-175">-設定**名稱**至*ReceiveMessage*</span><span class="sxs-lookup"><span data-stu-id="37bbc-175">-   Set **Name** to *ReceiveMessage*</span></span><br /><span data-ttu-id="37bbc-176">-設定**啟動**至*，則為 True*</span><span class="sxs-lookup"><span data-stu-id="37bbc-176">-   Set **Activate** to *True*</span></span>|  
+|<span data-ttu-id="37bbc-173">ReceiveMessage</span><span class="sxs-lookup"><span data-stu-id="37bbc-173">ReceiveMessage</span></span>|<span data-ttu-id="37bbc-174">Receive</span><span class="sxs-lookup"><span data-stu-id="37bbc-174">Receive</span></span>|<span data-ttu-id="37bbc-175">-設定**名稱**至*ReceiveMessage*</span><span class="sxs-lookup"><span data-stu-id="37bbc-175">-   Set **Name** to *ReceiveMessage*</span></span><br /><span data-ttu-id="37bbc-176">-設定**啟動**至 *，則為 True*</span><span class="sxs-lookup"><span data-stu-id="37bbc-176">-   Set **Activate** to *True*</span></span>|  
 |<span data-ttu-id="37bbc-177">SendMessage</span><span class="sxs-lookup"><span data-stu-id="37bbc-177">SendMessage</span></span>|<span data-ttu-id="37bbc-178">Send</span><span class="sxs-lookup"><span data-stu-id="37bbc-178">Send</span></span>|<span data-ttu-id="37bbc-179">-設定**名稱**至*SendMessage*</span><span class="sxs-lookup"><span data-stu-id="37bbc-179">-   Set **Name** to *SendMessage*</span></span>|  
 |<span data-ttu-id="37bbc-180">ReceiveResponse</span><span class="sxs-lookup"><span data-stu-id="37bbc-180">ReceiveResponse</span></span>|<span data-ttu-id="37bbc-181">Receive</span><span class="sxs-lookup"><span data-stu-id="37bbc-181">Receive</span></span>|<span data-ttu-id="37bbc-182">-設定**名稱**至*ReceiveResponse*</span><span class="sxs-lookup"><span data-stu-id="37bbc-182">-   Set **Name** to *ReceiveResponse*</span></span><br /><span data-ttu-id="37bbc-183">-設定**啟動**至*False*</span><span class="sxs-lookup"><span data-stu-id="37bbc-183">-   Set **Activate** to *False*</span></span>|  
 |<span data-ttu-id="37bbc-184">SendResponse</span><span class="sxs-lookup"><span data-stu-id="37bbc-184">SendResponse</span></span>|<span data-ttu-id="37bbc-185">Send</span><span class="sxs-lookup"><span data-stu-id="37bbc-185">Send</span></span>|<span data-ttu-id="37bbc-186">-設定**名稱**至*SendResponse*</span><span class="sxs-lookup"><span data-stu-id="37bbc-186">-   Set **Name** to *SendResponse*</span></span>|  

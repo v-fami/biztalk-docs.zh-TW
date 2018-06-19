@@ -1,14 +1,14 @@
 ---
-title: "叫用中使用 WCF 服務模型的 SQL 弱式型別的預存程序 |Microsoft 文件"
-ms.custom: 
+title: 叫用中使用 WCF 服務模型的 SQL 弱式型別的預存程序 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: aaf74a40-4c03-4a4a-9b91-c21babe154fa
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225062"
 ---
 # <a name="invoke-weakly-typed-stored-procedures-in-sql-using-the-wcf-service-model"></a><span data-ttu-id="6bbc9-102">叫用中使用 WCF 服務模型的 SQL 弱式型別的預存程序</span><span class="sxs-lookup"><span data-stu-id="6bbc9-102">Invoke Weakly-typed Stored Procedures in SQL using the WCF Service Model</span></span>
 <span data-ttu-id="6bbc9-103">當您叫用底下所列的程序**程序**節點[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]，輸出為資料集陣列的格式。</span><span class="sxs-lookup"><span data-stu-id="6bbc9-103">When you invoke a procedure listed under the **Procedures** node in the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)], the output is in the form of a DataSet array.</span></span> <span data-ttu-id="6bbc9-104">本主題提供有關如何建立 WCF 用戶端來叫用傳回的資料集陣列的 SQL Server 中的預存程序的指示。</span><span class="sxs-lookup"><span data-stu-id="6bbc9-104">This topic provides instructions on how to create a WCF client to invoke a stored procedure in SQL Server that returns a DataSet array.</span></span>  

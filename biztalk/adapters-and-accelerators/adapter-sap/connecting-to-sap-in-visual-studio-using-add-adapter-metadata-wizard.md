@@ -1,14 +1,14 @@
 ---
-title: "在 Visual Studio 中使用連接至 SAP 新增配接器中繼資料精靈 |Microsoft 文件"
-ms.custom: 
+title: 在 Visual Studio 中使用連接至 SAP 新增配接器中繼資料精靈 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a442837b-e7d8-4edb-9c5e-5603d4c58fe5
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966236"
 ---
 # <a name="connecting-to-sap-in-visual-studio-using-add-adapter-metadata-wizard"></a><span data-ttu-id="28664-102">在 Visual Studio 中使用連接至 SAP 新增配接器中繼資料精靈</span><span class="sxs-lookup"><span data-stu-id="28664-102">Connecting to SAP in Visual Studio Using Add Adapter Metadata Wizard</span></span>
 <span data-ttu-id="28664-103">[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]也會公開成 BizTalk 配接器，因此，您可以使用[!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]產生結構描述您想要在使用配接器的 SAP 系統上執行的作業。</span><span class="sxs-lookup"><span data-stu-id="28664-103">The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] is also exposed as a BizTalk adapter and hence, you can use the [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)] to generate schema for the operations you want to perform on an SAP system using the adapter.</span></span>  

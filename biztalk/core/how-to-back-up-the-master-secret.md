@@ -12,7 +12,7 @@ helpviewer_keywords:
 - backing up, Master Secret server
 - Master Secret server, backing up
 ms.assetid: 22c23f66-b7df-4379-8a9f-065406ba8aa8
-caps.latest.revision: ''
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25969580"
 ---
 # <a name="how-to-back-up-the-master-secret"></a><span data-ttu-id="28190-102">如何備份主要密碼</span><span class="sxs-lookup"><span data-stu-id="28190-102">How to Back Up the Master Secret</span></span>
 <span data-ttu-id="28190-103">您可以從主要密碼伺服器將主要密碼備份至 NTFS 檔案系統或卸除式媒體 (例如磁片)。</span><span class="sxs-lookup"><span data-stu-id="28190-103">You can back up the master secret from the master secret server onto an NTFS file system or removable media, such as a floppy disk.</span></span>  
@@ -32,7 +33,7 @@ ms.lasthandoff: 03/28/2018
   
 ### <a name="to-back-up-the-master-secret-using-the-mmc-snap-in"></a><span data-ttu-id="28190-109">使用 MMC 嵌入式管理單元備份主要密碼</span><span class="sxs-lookup"><span data-stu-id="28190-109">To back up the master secret using the MMC Snap-In</span></span>  
   
-1.  <span data-ttu-id="28190-110">在 **[開始]** 功能表上，依序按一下 **[所有程式]**及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。</span><span class="sxs-lookup"><span data-stu-id="28190-110">On the **Start** menu, click **All Programs**, click **Microsoft Enterprise Single Sign-On**, and then click **SSO Administration**.</span></span>  
+1.  <span data-ttu-id="28190-110">在 **[開始]** 功能表上，依序按一下 **[所有程式]** 及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。</span><span class="sxs-lookup"><span data-stu-id="28190-110">On the **Start** menu, click **All Programs**, click **Microsoft Enterprise Single Sign-On**, and then click **SSO Administration**.</span></span>  
   
 2.  <span data-ttu-id="28190-111">在 ENTSSO MMC 嵌入式管理單元的範圍窗格中，展開 **[企業單一登入]** 節點。</span><span class="sxs-lookup"><span data-stu-id="28190-111">In the scope pane of the ENTSSO MMC Snap-In, expand the **Enterprise Single Sign-On** node.</span></span>  
   
@@ -46,7 +47,7 @@ ms.lasthandoff: 03/28/2018
   
 3.  <span data-ttu-id="28190-117">在命令列，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="28190-117">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="28190-118">預設安裝目錄是*\<磁碟機\>*: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="28190-118">The default installation directory is *\<drive\>*:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-4.  <span data-ttu-id="28190-119">型別 * * ssoconfig – backupSecret *\<備份檔案\>* * *，其中*\<備份檔案\>*是其中的主要密碼將備份的檔案的名稱與路徑。</span><span class="sxs-lookup"><span data-stu-id="28190-119">Type **ssoconfig –backupSecret *\<backup file\>***, where *\<backup file\>* is the path and name of the file where the master secret will be backed up.</span></span> <span data-ttu-id="28190-120">例如，A:\ssobackup.bak</span><span class="sxs-lookup"><span data-stu-id="28190-120">For example, A:\ssobackup.bak</span></span>  
+4.  <span data-ttu-id="28190-119">型別 * * ssoconfig – backupSecret *\<備份檔案\>* * *，其中*\<備份檔案\>* 是其中的主要密碼將備份的檔案的名稱與路徑。</span><span class="sxs-lookup"><span data-stu-id="28190-119">Type **ssoconfig –backupSecret *\<backup file\>***, where *\<backup file\>* is the path and name of the file where the master secret will be backed up.</span></span> <span data-ttu-id="28190-120">例如，A:\ssobackup.bak</span><span class="sxs-lookup"><span data-stu-id="28190-120">For example, A:\ssobackup.bak</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="28190-121">在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。</span><span class="sxs-lookup"><span data-stu-id="28190-121">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  

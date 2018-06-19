@@ -9,7 +9,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 008bf621-8b4e-450d-b354-ee26b91592f2
-caps.latest.revision: ''
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25967100"
 ---
 # <a name="basic-oracle-data-types"></a><span data-ttu-id="e9c73-103">基本的 Oracle 資料類型</span><span class="sxs-lookup"><span data-stu-id="e9c73-103">Basic Oracle Data Types</span></span>
 <span data-ttu-id="e9c73-104">本主題描述如何[!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]呈現基本的 Oracle 資料型別。</span><span class="sxs-lookup"><span data-stu-id="e9c73-104">This topic describes how the [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] surfaces basic Oracle data types.</span></span>  
@@ -57,7 +58,7 @@ ms.lasthandoff: 03/28/2018
 |<span data-ttu-id="e9c73-238">二進位雙 * *</span><span class="sxs-lookup"><span data-stu-id="e9c73-238">Binary Double**</span></span>|<span data-ttu-id="e9c73-239">xsd:double 如果 prec < = 15</span><span class="sxs-lookup"><span data-stu-id="e9c73-239">xsd:double if prec <=15</span></span><br /><br /> <span data-ttu-id="e9c73-240">xsd: string 如果 prec > 15</span><span class="sxs-lookup"><span data-stu-id="e9c73-240">xsd:string if prec > 15</span></span>|<span data-ttu-id="e9c73-241">Double</span><span class="sxs-lookup"><span data-stu-id="e9c73-241">Double</span></span><br /><br /> <span data-ttu-id="e9c73-242">字串</span><span class="sxs-lookup"><span data-stu-id="e9c73-242">String</span></span>|-|  
 |<span data-ttu-id="e9c73-243">二進位整數 * *</span><span class="sxs-lookup"><span data-stu-id="e9c73-243">Binary Integer**</span></span>|<span data-ttu-id="e9c73-244">xsd:integer</span><span class="sxs-lookup"><span data-stu-id="e9c73-244">xsd:integer</span></span>|<span data-ttu-id="e9c73-245">Int32</span><span class="sxs-lookup"><span data-stu-id="e9c73-245">Int32</span></span>||  
 |<span data-ttu-id="e9c73-246">布林</span><span class="sxs-lookup"><span data-stu-id="e9c73-246">Boolean</span></span>|<span data-ttu-id="e9c73-247">xsd:boolean</span><span class="sxs-lookup"><span data-stu-id="e9c73-247">xsd:boolean</span></span>|<span data-ttu-id="e9c73-248">可為 null 的布林值</span><span class="sxs-lookup"><span data-stu-id="e9c73-248">Nullable boolean</span></span>||  
-|<span data-ttu-id="e9c73-249">XMLTYPE</span><span class="sxs-lookup"><span data-stu-id="e9c73-249">XMLTYPE</span></span>|<span data-ttu-id="e9c73-250">xsd:string</span><span class="sxs-lookup"><span data-stu-id="e9c73-250">xsd:string</span></span>|<span data-ttu-id="e9c73-251">字串</span><span class="sxs-lookup"><span data-stu-id="e9c73-251">String</span></span>|<span data-ttu-id="e9c73-252">支援最上層的層級程序參數。</span><span class="sxs-lookup"><span data-stu-id="e9c73-252">Supported for top level procedure parameters.</span></span><br /><br /> <span data-ttu-id="e9c73-253">保留的 XML 字元，例如 '**\<**'、'**\>**' 必須使用其實體表示法取代**(&lt;， &gt;)**開發 biztalk 應用程式時，並使用 WCF 通道模型。</span><span class="sxs-lookup"><span data-stu-id="e9c73-253">Reserved XML characters like ‘**\<**’, ‘**\>**’ must be replaced with their entity representation **(&lt;, &gt;)** when developing applications in BizTalk, and when using WCF channel Model.</span></span> <span data-ttu-id="e9c73-254">這不需要在 WCF 服務模型的情況下。</span><span class="sxs-lookup"><span data-stu-id="e9c73-254">This is not required in the case of WCF Service Model.</span></span>|  
+|<span data-ttu-id="e9c73-249">XMLTYPE</span><span class="sxs-lookup"><span data-stu-id="e9c73-249">XMLTYPE</span></span>|<span data-ttu-id="e9c73-250">xsd:string</span><span class="sxs-lookup"><span data-stu-id="e9c73-250">xsd:string</span></span>|<span data-ttu-id="e9c73-251">字串</span><span class="sxs-lookup"><span data-stu-id="e9c73-251">String</span></span>|<span data-ttu-id="e9c73-252">支援最上層的層級程序參數。</span><span class="sxs-lookup"><span data-stu-id="e9c73-252">Supported for top level procedure parameters.</span></span><br /><br /> <span data-ttu-id="e9c73-253">保留的 XML 字元，例如 '**\<**'、'**\>**' 必須使用其實體表示法取代 **(&lt;， &gt;)** 開發 biztalk 應用程式時，並使用 WCF 通道模型。</span><span class="sxs-lookup"><span data-stu-id="e9c73-253">Reserved XML characters like ‘**\<**’, ‘**\>**’ must be replaced with their entity representation **(&lt;, &gt;)** when developing applications in BizTalk, and when using WCF channel Model.</span></span> <span data-ttu-id="e9c73-254">這不需要在 WCF 服務模型的情況下。</span><span class="sxs-lookup"><span data-stu-id="e9c73-254">This is not required in the case of WCF Service Model.</span></span>|  
   
  <span data-ttu-id="e9c73-255">\*形式出現這些 Oracle 資料類型的方式會受到**EnableSafeTyping**繫結屬性。</span><span class="sxs-lookup"><span data-stu-id="e9c73-255">\*The way in which these Oracle data types are surfaced is affected by the **EnableSafeTyping** binding property.</span></span>  
   

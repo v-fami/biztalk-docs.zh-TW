@@ -1,17 +1,17 @@
 ---
-title: "步驟 11： 建立協調流程變數 |Microsoft 文件"
-ms.custom: 
+title: 步驟 11： 建立協調流程變數 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, variables
 - message enrichment tutorial, orchestrations
 ms.assetid: 3d1f792d-fe74-4373-86fa-3debda55e732
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962244"
 ---
 # <a name="step-11-create-orchestration-variables"></a><span data-ttu-id="19616-102">步驟 11： 建立協調流程變數</span><span class="sxs-lookup"><span data-stu-id="19616-102">Step 11: Create Orchestration Variables</span></span>
 <span data-ttu-id="19616-103">在此步驟中，您會建立訊息執行個體傳送和接收的協調流程的協調流程變數。</span><span class="sxs-lookup"><span data-stu-id="19616-103">In this step, you create the orchestration variables for the message instances sent and received by the orchestration.</span></span>  
@@ -67,7 +68,7 @@ ms.lasthandoff: 11/28/2017
     > [!NOTE]
     >  <span data-ttu-id="19616-129">一旦您建立並命名為訊息部分，請勿重新命名它們。</span><span class="sxs-lookup"><span data-stu-id="19616-129">Once you have created and named the message parts, do not rename them.</span></span> <span data-ttu-id="19616-130">如有必要，刪除舊的內文部分，並以新名稱建立新的內文部分。</span><span class="sxs-lookup"><span data-stu-id="19616-130">If necessary, delete the old body part, and create a new body part with a new name.</span></span>  
   
-9. <span data-ttu-id="19616-131">在**類型**視窗底下**多部分訊息類型**，依序展開**DoorbellFinalMessageType**，然後按一下  **MessagePart_1**。</span><span class="sxs-lookup"><span data-stu-id="19616-131">In the **Types** window, under **Multi-part Message Types**, expand **DoorbellFinalMessageType**, and then click **MessagePart_1**.</span></span> <span data-ttu-id="19616-132">在**屬性** 窗格中，輸入**MSHSegment**如**識別碼**，然後按下**Enter**。</span><span class="sxs-lookup"><span data-stu-id="19616-132">In the **Properties** pane, enter **MSHSegment** for **Identifier**, and then press **Enter**.</span></span> <span data-ttu-id="19616-133">在下拉式清單中**類型**，依序展開**.NET 類別**，然後按一下  \<**從參考的組件中選取\>**。</span><span class="sxs-lookup"><span data-stu-id="19616-133">In the drop-down list for **Type**, expand **.NET Classes**, and then click \<**Select from referenced assemblies\>**.</span></span>  
+9. <span data-ttu-id="19616-131">在**類型**視窗底下**多部分訊息類型**，依序展開**DoorbellFinalMessageType**，然後按一下  **MessagePart_1**。</span><span class="sxs-lookup"><span data-stu-id="19616-131">In the **Types** window, under **Multi-part Message Types**, expand **DoorbellFinalMessageType**, and then click **MessagePart_1**.</span></span> <span data-ttu-id="19616-132">在**屬性** 窗格中，輸入**MSHSegment**如**識別碼**，然後按下**Enter**。</span><span class="sxs-lookup"><span data-stu-id="19616-132">In the **Properties** pane, enter **MSHSegment** for **Identifier**, and then press **Enter**.</span></span> <span data-ttu-id="19616-133">在下拉式清單中**類型**，依序展開 **.NET 類別**，然後按一下  \<**從參考的組件中選取\>**。</span><span class="sxs-lookup"><span data-stu-id="19616-133">In the drop-down list for **Type**, expand **.NET Classes**, and then click \<**Select from referenced assemblies\>**.</span></span>  
   
 10. <span data-ttu-id="19616-134">在**選取成品類型**] 對話方塊的左窗格中，按一下 [ **System.Xml**。</span><span class="sxs-lookup"><span data-stu-id="19616-134">In the **Select Artifact Type** dialog box, in the left pane, click **System.Xml**.</span></span> <span data-ttu-id="19616-135">在右窗格中，按一下  **XmlDocument**，然後按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="19616-135">In the right pane, click **XmlDocument**, and then click **OK**.</span></span>  
   
@@ -79,7 +80,7 @@ ms.lasthandoff: 11/28/2017
   
 14. <span data-ttu-id="19616-140">在**協調流程檢視**視窗中，以滑鼠右鍵按一下**DoorbellFinalMessageType**，然後按一下 **新訊息部分**。</span><span class="sxs-lookup"><span data-stu-id="19616-140">In the **Orchestration View** window, right-click **DoorbellFinalMessageType**, and then click **New Message Part**.</span></span>  
   
-15. <span data-ttu-id="19616-141">在**屬性** 窗格中，輸入**ZSegments**如**識別碼**，然後按下**Enter**。</span><span class="sxs-lookup"><span data-stu-id="19616-141">In the **Properties** pane, enter **ZSegments** for **Identifier**, and then press **Enter**.</span></span> <span data-ttu-id="19616-142">按一下**類型**，依序展開**.NET 類別**，然後按一下  **System.String**從下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="19616-142">Click **Type**, expand **.NET Classes**, and then click **System.String** from the drop-down list.</span></span>  
+15. <span data-ttu-id="19616-141">在**屬性** 窗格中，輸入**ZSegments**如**識別碼**，然後按下**Enter**。</span><span class="sxs-lookup"><span data-stu-id="19616-141">In the **Properties** pane, enter **ZSegments** for **Identifier**, and then press **Enter**.</span></span> <span data-ttu-id="19616-142">按一下**類型**，依序展開 **.NET 類別**，然後按一下  **System.String**從下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="19616-142">Click **Type**, expand **.NET Classes**, and then click **System.String** from the drop-down list.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="19616-143">您使用**System.String** Z 區段訊息部分，因為 Z 區段包含不需要符合結構描述的字串資料。</span><span class="sxs-lookup"><span data-stu-id="19616-143">You use **System.String** for the Z segments message part, because a Z segment contains string data that does not need to conform to a schema.</span></span>  

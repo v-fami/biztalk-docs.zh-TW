@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 43343238-ec45-44ed-a230-9e234bd22d05
-caps.latest.revision: ''
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25966308"
 ---
 # <a name="creating-and-deploying-policies-for-new-message-types"></a><span data-ttu-id="59247-102">建立和部署原則的新訊息類型</span><span class="sxs-lookup"><span data-stu-id="59247-102">Creating and Deploying Policies for New Message Types</span></span>
 <span data-ttu-id="59247-103">若要建立並部署新的訊息類型的原則：</span><span class="sxs-lookup"><span data-stu-id="59247-103">To create and deploy policies for new message types:</span></span>  

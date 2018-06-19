@@ -1,14 +1,14 @@
 ---
-title: "TIBCO Enterprise Message Service 配接器功能 |Microsoft 文件"
-ms.custom: 
+title: TIBCO Enterprise Message Service 配接器功能 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ede748ce-3f28-4942-b2bd-e38e5f1b0f54
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015133"
 ---
 # <a name="tibco-ems-adapter-features"></a><span data-ttu-id="1b895-102">TIBCO EMS 配接器功能</span><span class="sxs-lookup"><span data-stu-id="1b895-102">TIBCO EMS Adapter Features</span></span>
 <span data-ttu-id="1b895-103">Microsoft BizTalk Adapter for TIBCO Enterprise Message Service (EMS) 可讓您使用 BizTalk Server 和 TIBCO SDK 來發佈和訂閱由 TIBCO EMS 所管理的佇列和主題。</span><span class="sxs-lookup"><span data-stu-id="1b895-103">Microsoft BizTalk Adapter for TIBCO Enterprise Message Service (EMS) enables you to publish and subscribe to queues and topics managed by TIBCO EMS, using BizTalk Server and the TIBCO SDK.</span></span> <span data-ttu-id="1b895-104">此配接器以快速、 簡易而可靠的方式與 TIBCO EMS 訊息整合。</span><span class="sxs-lookup"><span data-stu-id="1b895-104">The adapter integrates TIBCO EMS messages in a fast, easy, and reliable way.</span></span> <span data-ttu-id="1b895-105">其在 TIBCO EMS 伺服器與 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 之間交換 XML 資料格式，以提供緊密整合而可靠的應用程式基礎結構。</span><span class="sxs-lookup"><span data-stu-id="1b895-105">It exchanges XML data formats between TIBCO EMS servers and Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to provide a tightly integrated and reliable application infrastructure.</span></span> <span data-ttu-id="1b895-106">它會提供傳輸和接收配接器整合作業提供端對端商務程序管理使用 XML 結構描述。</span><span class="sxs-lookup"><span data-stu-id="1b895-106">It provides transmit and receive adapter integration operations providing end-to-end business-process management using XML schemas.</span></span>  

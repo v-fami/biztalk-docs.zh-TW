@@ -1,11 +1,11 @@
 ---
-title: "FRR 協調流程 |Microsoft 文件"
-ms.custom: 
+title: FRR 協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, promoted properties
@@ -28,7 +28,7 @@ helpviewer_keywords:
 - messages, outbound
 - MessageBox database
 ms.assetid: ea8d31c2-ac3b-44ac-8064-d008da4f7f72
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -37,6 +37,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967876"
 ---
 # <a name="frr-orchestration"></a><span data-ttu-id="cc6f9-102">FRR 協調流程</span><span class="sxs-lookup"><span data-stu-id="cc6f9-102">FRR Orchestration</span></span>
 [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]<span data-ttu-id="cc6f9-103">實作 FRR 透過 FRR 協調流程。</span><span class="sxs-lookup"><span data-stu-id="cc6f9-103"> implements FRR through the FRR orchestration.</span></span> <span data-ttu-id="cc6f9-104">協調流程判斷是否相互關聯語彙基元 FIN 回應符合原始訊息的訊息識別碼。</span><span class="sxs-lookup"><span data-stu-id="cc6f9-104">The orchestration determines whether the Correlation Token of the FIN response matches the message ID of the original message.</span></span> <span data-ttu-id="cc6f9-105">傳送埠將訊息傳送至 SAA，所執行的傳送函式與 SAA 從接收訊息的接收位置所執行的接收函式，它就會處理該訊息以平行方式。</span><span class="sxs-lookup"><span data-stu-id="cc6f9-105">It processes the message in parallel with the send functions performed by the send port that sends the message to SAA, and with the receive functions performed by the receive location that receives the message from SAA.</span></span>  

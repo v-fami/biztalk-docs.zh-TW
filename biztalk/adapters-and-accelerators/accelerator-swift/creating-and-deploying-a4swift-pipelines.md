@@ -1,11 +1,11 @@
 ---
-title: "建立及部署 A4SWIFT 管線 |Microsoft 文件"
-ms.custom: 
+title: 建立及部署 A4SWIFT 管線 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, pipelines
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - pipelines, deploying
 - pipelines, creating
 ms.assetid: 2a614510-7e15-4e88-9012-fc019d3aefee
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210950"
 ---
 # <a name="creating-and-deploying-a4swift-pipelines"></a><span data-ttu-id="175b6-102">建立及部署 A4SWIFT 管線</span><span class="sxs-lookup"><span data-stu-id="175b6-102">Creating and Deploying A4SWIFT Pipelines</span></span>
 <span data-ttu-id="175b6-103">執行下列步驟來建立及部署 SWIFT 訊息修復和新送出，管線中，如下圖所示。</span><span class="sxs-lookup"><span data-stu-id="175b6-103">Perform the following steps to create and deploy SWIFT pipelines for message repair and new submission, as shown in the following figure.</span></span>  
@@ -70,7 +71,7 @@ ms.lasthandoff: 09/20/2017
 7.  <span data-ttu-id="175b6-128">在**屬性**，確認**BRE 驗證**和**XML 驗證**屬性會設為**True**。</span><span class="sxs-lookup"><span data-stu-id="175b6-128">In **Properties**, verify that the **BRE Validation** and **XML Validation** properties are set to **True**.</span></span>  
   
     > [!NOTE]
-    >  <span data-ttu-id="175b6-129">SWIFT 標頭結構描述屬性應該設定為**（無）**。</span><span class="sxs-lookup"><span data-stu-id="175b6-129">The SWIFT Header Schema property should be set to **(None)**.</span></span>  
+    >  <span data-ttu-id="175b6-129">SWIFT 標頭結構描述屬性應該設定為 **（無）**。</span><span class="sxs-lookup"><span data-stu-id="175b6-129">The SWIFT Header Schema property should be set to **(None)**.</span></span>  
   
 8.  <span data-ttu-id="175b6-130">在[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]，按一下 **檔案**，然後**全部儲存**。</span><span class="sxs-lookup"><span data-stu-id="175b6-130">In [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], click **File**, and then **Save All**.</span></span>  
   

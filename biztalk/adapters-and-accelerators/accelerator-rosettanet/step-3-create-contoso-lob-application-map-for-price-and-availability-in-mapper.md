@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964988"
 ---
 # <a name="step-3-creating-the-contoso-lob-application-maps-for-the-price-and-availability-project-using-biztalk-mapper"></a><span data-ttu-id="fa51a-102">步驟 3： 建立 Contoso LOB 應用程式對應的價格與可用性專案使用 BizTalk 對應工具</span><span class="sxs-lookup"><span data-stu-id="fa51a-102">Step 3: Creating the Contoso LOB Application Maps for the Price and Availability Project Using BizTalk Mapper</span></span>
 <span data-ttu-id="fa51a-103">在此步驟中，您將建立兩種對應，用以定義兩個交易夥伴之間成功交換訊息所需的轉換。</span><span class="sxs-lookup"><span data-stu-id="fa51a-103">In this step, you create two maps that define the transformation required to successfully exchange messages between the two trading partners.</span></span> <span data-ttu-id="fa51a-104">就本實例而言，Contoso ERP 系統已經標準化「價格與可用性」要求的訊息格式。</span><span class="sxs-lookup"><span data-stu-id="fa51a-104">For this scenario, the Contoso ERP system has already standardized on a message format for a Price and Availability request.</span></span> <span data-ttu-id="fa51a-105">這兩種對應會在交易夥伴 Fabrikam 傳來的要求及回應訊息與內部定義的 Contoso 訊息之間建立對應關係。</span><span class="sxs-lookup"><span data-stu-id="fa51a-105">The two maps will map the request and response messages from the trading partner, Fabrikam, to and from those internally defined Contoso messages, respectively.</span></span>  
@@ -59,9 +60,9 @@ ms.lasthandoff: 11/28/2017
   
 ### <a name="to-link-schema-fields-in-the-pip3a2requesttocontosopricerequest-map"></a><span data-ttu-id="fa51a-124">連結 PIP3A2RequestToContosoPriceRequest 對應中的結構描述欄位</span><span class="sxs-lookup"><span data-stu-id="fa51a-124">To link schema fields in the PIP3A2RequestToContosoPriceRequest map</span></span>  
   
-1.  <span data-ttu-id="fa51a-125">在目的結構描述窗格中，以滑鼠右鍵按一下**\<結構描述\>**節點，然後再按一下**展開樹狀結構節點**。</span><span class="sxs-lookup"><span data-stu-id="fa51a-125">In the Destination Schema pane, right-click the **\<Schema\>** node, and then click **Expand Tree Node**.</span></span>  
+1.  <span data-ttu-id="fa51a-125">在目的結構描述窗格中，以滑鼠右鍵按一下**\<結構描述\>** 節點，然後再按一下**展開樹狀結構節點**。</span><span class="sxs-lookup"><span data-stu-id="fa51a-125">In the Destination Schema pane, right-click the **\<Schema\>** node, and then click **Expand Tree Node**.</span></span>  
   
-2.  <span data-ttu-id="fa51a-126">在來源結構描述窗格中，以滑鼠右鍵按一下**\<結構描述\>**節點，然後再按一下**展開樹狀結構節點**。</span><span class="sxs-lookup"><span data-stu-id="fa51a-126">In the Source Schema pane, right-click the **\<Schema\>** node, and then click **Expand Tree Node**.</span></span>  
+2.  <span data-ttu-id="fa51a-126">在來源結構描述窗格中，以滑鼠右鍵按一下**\<結構描述\>** 節點，然後再按一下**展開樹狀結構節點**。</span><span class="sxs-lookup"><span data-stu-id="fa51a-126">In the Source Schema pane, right-click the **\<Schema\>** node, and then click **Expand Tree Node**.</span></span>  
   
 3.  <span data-ttu-id="fa51a-127">拖曳**GlobalProductIdentifier**欄位設為**ProductID**在目的結構描述 窗格中的欄位。</span><span class="sxs-lookup"><span data-stu-id="fa51a-127">Drag the **GlobalProductIdentifier** field to the **ProductID** field in the Destination Schema pane.</span></span>  
   

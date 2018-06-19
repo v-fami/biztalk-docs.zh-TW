@@ -1,14 +1,14 @@
 ---
-title: "步驟 6： 執行常數負載模式測試，以確認最大持續輸送量 |Microsoft 文件"
-ms.custom: 
+title: 步驟 6： 執行常數負載模式測試，以確認最大持續輸送量 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dd790354-be9f-4278-bd15-493eac8970c9
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302094"
 ---
 # <a name="step-6-perform-constant-load-pattern-tests-to-verify-maximum-sustainable-throughput"></a><span data-ttu-id="5314e-102">步驟 6： 執行常數負載模式測試，以確認最大持續輸送量</span><span class="sxs-lookup"><span data-stu-id="5314e-102">Step 6: Perform Constant Load Pattern Tests to Verify Maximum Sustainable Throughput</span></span>
 <span data-ttu-id="5314e-103">負載測試使用 Visual Studio 2010 的 BizTalk Server 方案時，應該執行的常數負載模式測試，一旦中所述，決定大約最大持續輸送量 (MST) 解決方案的[步驟 5： 執行步驟載入模式測試，以判斷最大持續輸送量](../technical-guides/step-5-complete-step-load-tests-to-determine-maximum-sustainable-throughput.md)。</span><span class="sxs-lookup"><span data-stu-id="5314e-103">When load testing a BizTalk Server solution using Visual Studio 2010, a constant load pattern test should be performed once the approximate Maximum Sustainable Throughput (MST) of the solution is determined as described in [Step 5: Perform Step Load Pattern Tests to Determine Maximum Sustainable Throughput](../technical-guides/step-5-complete-step-load-tests-to-determine-maximum-sustainable-throughput.md).</span></span> <span data-ttu-id="5314e-104">這應該確認 MST 事實上持續一段時間，以建立基準負載測試向前移到評估的任何效能調整套用至 BizTalk Server 應用程式或環境。</span><span class="sxs-lookup"><span data-stu-id="5314e-104">This should be done to confirm that the MST is in fact sustainable over time and also so as to create a baseline load test moving forward to evaluate the effects of any performance tuning applied to the BizTalk Server application or environment.</span></span>  
@@ -40,7 +41,7 @@ ms.lasthandoff: 09/20/2017
   
 8.  <span data-ttu-id="5314e-116">在**屬性**下**參數**，變更的值**常數使用者計數**稍微小於的使用者數目的值至步驟負載模式測試已成為現象 (也就是值**BizTalk:Messaging\Documents 每秒接收到**持續超過的值開始**BizTalk:Messaging\Documents processed/Sec**和值**biztalk: Message Box: General Counters\Spool Size**開始增加 unbounded)。</span><span class="sxs-lookup"><span data-stu-id="5314e-116">In the **Properties** section, under **Parameters**, change the value for **Constant User Count** to a value slightly less than the number of users at which the Step Load Pattern test was becoming unsustainable (i.e. the value for the **BizTalk:Messaging\Documents received per/Sec** began to consistently exceed the value for **BizTalk:Messaging\Documents processed/Sec** and the value of the **BizTalk:Message Box:General Counters\Spool Size** began to increase unbounded).</span></span>  
   
-9. <span data-ttu-id="5314e-117">在下**回合設定**資料夾中，以滑鼠右鍵按一下**執行 Setting1 [Active]**選取**屬性**。</span><span class="sxs-lookup"><span data-stu-id="5314e-117">Under the **Run Settings** folder, right-click **Run Setting1 [Active]** and select **Properties**.</span></span>  
+9. <span data-ttu-id="5314e-117">在下**回合設定**資料夾中，以滑鼠右鍵按一下**執行 Setting1 [Active]** 選取**屬性**。</span><span class="sxs-lookup"><span data-stu-id="5314e-117">Under the **Run Settings** folder, right-click **Run Setting1 [Active]** and select **Properties**.</span></span>  
   
 10. <span data-ttu-id="5314e-118">向下的捲動清單屬性，以**計時**區段，並輸入的值**執行持續期間**至少 10 分鐘 (00: 10:00)，並驗證的值**取樣率**已設定為 5 秒 (00: 00:05)。</span><span class="sxs-lookup"><span data-stu-id="5314e-118">Scroll down the list of properties to the **Timing** section and enter a value for **Run Duration** of at least 10 minutes (00:10:00) and verify that the value for **Sample Rate** is still set to 5 seconds (00:00:05).</span></span>  
   

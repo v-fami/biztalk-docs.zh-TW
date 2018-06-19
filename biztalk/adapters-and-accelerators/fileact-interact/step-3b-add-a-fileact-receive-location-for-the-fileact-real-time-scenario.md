@@ -1,14 +1,14 @@
 ---
-title: "步驟 3B： 新增 FILEACT 接收位置 FileAct 即時案例 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3B： 新增 FILEACT 接收位置 FileAct 即時案例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7e086c86-1525-4cef-b7e5-a66e14bd8d4f
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965820"
 ---
 # <a name="step-3b-add-a-fileact-receive-location-for-the-fileact-real-time-scenario"></a><span data-ttu-id="a41db-102">步驟 3B： 新增 FILEACT 接收位置 FileAct 即時案例</span><span class="sxs-lookup"><span data-stu-id="a41db-102">Step 3B: Add a FILEACT Receive Location for the FileAct Real-Time Scenario</span></span>
 <span data-ttu-id="a41db-103">在開始此步驟之前，必須先完成[步驟 3A: FILE 接收位置新增 FileAct 即時案例](../../adapters-and-accelerators/fileact-interact/step-3a-add-a-file-receive-location-for-the-fileact-real-time-scenario.md)。</span><span class="sxs-lookup"><span data-stu-id="a41db-103">Before you begin this step, you must complete [Step 3A: Add a FILE Receive Location for the FileAct Real-Time Scenario](../../adapters-and-accelerators/fileact-interact/step-3a-add-a-file-receive-location-for-the-fileact-real-time-scenario.md).</span></span>  

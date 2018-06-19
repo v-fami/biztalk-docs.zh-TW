@@ -1,11 +1,11 @@
 ---
-title: "關於 sap SAPDiscoveredObjects.xml 檔案 |Microsoft 文件"
-ms.custom: 
+title: 關於 sap SAPDiscoveredObjects.xml 檔案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SAPDiscoveredObjects.xml
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Data Provider for SAP
 - Visual Studio DDEX plug-in
 ms.assetid: 46ef600d-57ae-4c42-94ce-3099e42482f1
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25960716"
 ---
 # <a name="about-the-sapdiscoveredobjectsxml-file-in-sap"></a><span data-ttu-id="1b213-102">關於 sap SAPDiscoveredObjects.xml 檔案</span><span class="sxs-lookup"><span data-stu-id="1b213-102">About the SAPDiscoveredObjects.xml File in SAP</span></span>
 <span data-ttu-id="1b213-103">如果您選擇要安裝[!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] ([!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]) 連同[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]安裝，安裝程式會複製 SAPDiscoveredObjects.xml 檔案通常位於\<安裝磁碟機\>: \Program Files\Common 檔案\Microsoft Shared\Adapters\SAP。</span><span class="sxs-lookup"><span data-stu-id="1b213-103">If you chose to install the [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] ([!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]) along with the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] installation, the setup program copies the SAPDiscoveredObjects.xml file typically at \<installation drive\>:\Program Files\Common Files\Microsoft Shared\Adapters\SAP.</span></span> <span data-ttu-id="1b213-104">全新安裝之後的檔案內容[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]，如下所示。</span><span class="sxs-lookup"><span data-stu-id="1b213-104">The contents of the file, after a fresh installation of the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)], resemble the following.</span></span>  

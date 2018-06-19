@@ -1,14 +1,14 @@
 ---
-title: "如何自訂 web 組件使用 Oracle E-business Suite |Microsoft 文件"
-ms.custom: 
+title: 如何自訂 web 組件使用 Oracle E-business Suite |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bf420061-41d1-4d97-9be1-403cd101e41c
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963900"
 ---
 # <a name="how-to-use-a-custom-web-part-with-oracle-e-business-suite"></a><span data-ttu-id="39ea0-102">如何使用 Oracle E-business Suite 中的自訂 web 組件</span><span class="sxs-lookup"><span data-stu-id="39ea0-102">How to use a custom web part with Oracle E-Business Suite</span></span>
 <span data-ttu-id="39ea0-103">本節提供與 Microsoft Office SharePoint Server 中使用自訂的 Web 組件的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="39ea0-103">This section provides information about using a custom Web Part with Microsoft Office SharePoint Server.</span></span> <span data-ttu-id="39ea0-104">若要使用自訂的 Web 組件，您必須執行下列作業：</span><span class="sxs-lookup"><span data-stu-id="39ea0-104">To use a custom Web Part, you must do the following:</span></span>  
@@ -42,7 +43,7 @@ ms.lasthandoff: 11/28/2017
   
 3.  <span data-ttu-id="39ea0-118">指定的名稱和位置的方案。</span><span class="sxs-lookup"><span data-stu-id="39ea0-118">Specify a name and location for the solution.</span></span> <span data-ttu-id="39ea0-119">本主題中，指定`CustomWebPart`中**名稱**和**方案名稱**方塊。</span><span class="sxs-lookup"><span data-stu-id="39ea0-119">For this topic, specify `CustomWebPart` in the **Name** and **Solution Name** boxes.</span></span> <span data-ttu-id="39ea0-120">指定的位置，然後按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="39ea0-120">Specify a location, and then click **OK**.</span></span>  
   
-4.  <span data-ttu-id="39ea0-121">將 System.Web 元件的參考加入至專案。</span><span class="sxs-lookup"><span data-stu-id="39ea0-121">Add a reference to the System.Web component into the project.</span></span> <span data-ttu-id="39ea0-122">以滑鼠右鍵按一下專案名稱中的**方案總管] 中**，然後按一下 [**加入參考**。</span><span class="sxs-lookup"><span data-stu-id="39ea0-122">Right-click the project name in **Solution Explorer**, and then click **Add Reference**.</span></span> <span data-ttu-id="39ea0-123">在**加入參考**對話方塊中，選取**System.Web**中**.NET**索引標籤，然後再按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="39ea0-123">In the **Add Reference** dialog box, select **System.Web** in the **.NET** tab, and then click **OK**.</span></span> <span data-ttu-id="39ea0-124">System.Web 元件包含 System.Web.UI.WebControls.WebParts 必要的命名的空間。</span><span class="sxs-lookup"><span data-stu-id="39ea0-124">The System.Web component contains the required namespace of System.Web.UI.WebControls.WebParts.</span></span>  
+4.  <span data-ttu-id="39ea0-121">將 System.Web 元件的參考加入至專案。</span><span class="sxs-lookup"><span data-stu-id="39ea0-121">Add a reference to the System.Web component into the project.</span></span> <span data-ttu-id="39ea0-122">以滑鼠右鍵按一下專案名稱中的**方案總管] 中**，然後按一下 [**加入參考**。</span><span class="sxs-lookup"><span data-stu-id="39ea0-122">Right-click the project name in **Solution Explorer**, and then click **Add Reference**.</span></span> <span data-ttu-id="39ea0-123">在**加入參考**對話方塊中，選取**System.Web**中 **.NET**索引標籤，然後再按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="39ea0-123">In the **Add Reference** dialog box, select **System.Web** in the **.NET** tab, and then click **OK**.</span></span> <span data-ttu-id="39ea0-124">System.Web 元件包含 System.Web.UI.WebControls.WebParts 必要的命名的空間。</span><span class="sxs-lookup"><span data-stu-id="39ea0-124">The System.Web component contains the required namespace of System.Web.UI.WebControls.WebParts.</span></span>  
   
 5.  <span data-ttu-id="39ea0-125">加入必要的程式碼，根據您在專案中的問題。</span><span class="sxs-lookup"><span data-stu-id="39ea0-125">Add the required code based on your issue in the project.</span></span> <span data-ttu-id="39ea0-126">有關特定問題的程式碼範例，請參閱 「 問題涉及自訂 Web 組件 」，在[搭配 SharePoint 使用 Oracle Business Suite 介面卡的考量](../../adapters-and-accelerators/adapter-oracle-ebs/considerations-using-the-oracle-business-suite-adapter-with-sharepoint.md)。</span><span class="sxs-lookup"><span data-stu-id="39ea0-126">For the code sample that is relevant to a certain issue, see “Issues Involving Custom Web Parts” in [Considerations using the Oracle-Business Suite adapter with SharePoint](../../adapters-and-accelerators/adapter-oracle-ebs/considerations-using-the-oracle-business-suite-adapter-with-sharepoint.md).</span></span>  
   

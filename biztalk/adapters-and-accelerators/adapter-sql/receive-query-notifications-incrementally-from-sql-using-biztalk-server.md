@@ -1,14 +1,14 @@
 ---
-title: "使用 BizTalk Server 的 sql 查詢通知以累加的方式接收 |Microsoft 文件"
-ms.custom: 
+title: 使用 BizTalk Server 的 sql 查詢通知以累加的方式接收 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a6972e01-80be-47be-986a-c2e4e0fb0cd1
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967924"
 ---
 # <a name="receive-query-notifications-incrementally-from-sql-using-biztalk-server"></a><span data-ttu-id="b3b3d-102">使用 BizTalk Server 的 sql 查詢通知以累加的方式接收</span><span class="sxs-lookup"><span data-stu-id="b3b3d-102">Receive Query Notifications Incrementally from SQL using BizTalk Server</span></span>
 > [!IMPORTANT]
@@ -172,7 +173,7 @@ ms.lasthandoff: 11/28/2017
   
 |<span data-ttu-id="b3b3d-231">形狀圖</span><span class="sxs-lookup"><span data-stu-id="b3b3d-231">Shape</span></span>|<span data-ttu-id="b3b3d-232">圖形類型</span><span class="sxs-lookup"><span data-stu-id="b3b3d-232">Shape Type</span></span>|<span data-ttu-id="b3b3d-233">屬性</span><span class="sxs-lookup"><span data-stu-id="b3b3d-233">Properties</span></span>|  
 |-----------|----------------|----------------|  
-|<span data-ttu-id="b3b3d-234">ReceiveNotification</span><span class="sxs-lookup"><span data-stu-id="b3b3d-234">ReceiveNotification</span></span>|<span data-ttu-id="b3b3d-235">Receive</span><span class="sxs-lookup"><span data-stu-id="b3b3d-235">Receive</span></span>|<span data-ttu-id="b3b3d-236">-設定**名稱**至*ReceiveNotification*</span><span class="sxs-lookup"><span data-stu-id="b3b3d-236">- Set **Name** to *ReceiveNotification*</span></span><br /><br /> <span data-ttu-id="b3b3d-237">-設定**啟動**至*，則為 True*</span><span class="sxs-lookup"><span data-stu-id="b3b3d-237">- Set **Activate** to *True*</span></span>|  
+|<span data-ttu-id="b3b3d-234">ReceiveNotification</span><span class="sxs-lookup"><span data-stu-id="b3b3d-234">ReceiveNotification</span></span>|<span data-ttu-id="b3b3d-235">Receive</span><span class="sxs-lookup"><span data-stu-id="b3b3d-235">Receive</span></span>|<span data-ttu-id="b3b3d-236">-設定**名稱**至*ReceiveNotification*</span><span class="sxs-lookup"><span data-stu-id="b3b3d-236">- Set **Name** to *ReceiveNotification*</span></span><br /><br /> <span data-ttu-id="b3b3d-237">-設定**啟動**至 *，則為 True*</span><span class="sxs-lookup"><span data-stu-id="b3b3d-237">- Set **Activate** to *True*</span></span>|  
 |<span data-ttu-id="b3b3d-238">SaveNotification</span><span class="sxs-lookup"><span data-stu-id="b3b3d-238">SaveNotification</span></span>|<span data-ttu-id="b3b3d-239">Send</span><span class="sxs-lookup"><span data-stu-id="b3b3d-239">Send</span></span>|<span data-ttu-id="b3b3d-240">-設定**名稱**至*SaveNotification*</span><span class="sxs-lookup"><span data-stu-id="b3b3d-240">- Set **Name** to *SaveNotification*</span></span>|  
 |<span data-ttu-id="b3b3d-241">SendSelectMessage</span><span class="sxs-lookup"><span data-stu-id="b3b3d-241">SendSelectMessage</span></span>|<span data-ttu-id="b3b3d-242">Send</span><span class="sxs-lookup"><span data-stu-id="b3b3d-242">Send</span></span>|<span data-ttu-id="b3b3d-243">-設定**名稱**至*SendSelectMessage*</span><span class="sxs-lookup"><span data-stu-id="b3b3d-243">- Set **Name** to *SendSelectMessage*</span></span>|  
 |<span data-ttu-id="b3b3d-244">ReceiveSelectResponse</span><span class="sxs-lookup"><span data-stu-id="b3b3d-244">ReceiveSelectResponse</span></span>|<span data-ttu-id="b3b3d-245">Receive</span><span class="sxs-lookup"><span data-stu-id="b3b3d-245">Receive</span></span>|<span data-ttu-id="b3b3d-246">-設定**名稱**至*ReceiveSelectResponse*</span><span class="sxs-lookup"><span data-stu-id="b3b3d-246">- Set **Name** to *ReceiveSelectResponse*</span></span>|  
@@ -269,7 +270,7 @@ Select(WCF.Action) = "TableOp/Select/dbo/Employee";
         |<span data-ttu-id="b3b3d-326">繫結屬性</span><span class="sxs-lookup"><span data-stu-id="b3b3d-326">Binding Property</span></span>|<span data-ttu-id="b3b3d-327">值</span><span class="sxs-lookup"><span data-stu-id="b3b3d-327">Value</span></span>|  
         |----------------------|-----------|  
         |<span data-ttu-id="b3b3d-328">**InboundOperationType**</span><span class="sxs-lookup"><span data-stu-id="b3b3d-328">**InboundOperationType**</span></span>|<span data-ttu-id="b3b3d-329">將此設**通知**。</span><span class="sxs-lookup"><span data-stu-id="b3b3d-329">Set this to **Notification**.</span></span>|  
-        |<span data-ttu-id="b3b3d-330">**NotificationStatement**</span><span class="sxs-lookup"><span data-stu-id="b3b3d-330">**NotificationStatement**</span></span>|<span data-ttu-id="b3b3d-331">將此值設定為：</span><span class="sxs-lookup"><span data-stu-id="b3b3d-331">Set this to:</span></span><br /><br /> `SELECT Employee_ID, Name FROM dbo.Employee WHERE Status=0`<br /><br /> <span data-ttu-id="b3b3d-332">**注意：**您必須明確指定資料行名稱的陳述式中這個 SELECT 陳述式中所示。</span><span class="sxs-lookup"><span data-stu-id="b3b3d-332">**Note:** You must specifically specify the column names in the statement as shown in this SELECT statement.</span></span> <span data-ttu-id="b3b3d-333">此外，您永遠必須指定資料表名稱，以及結構描述名稱。</span><span class="sxs-lookup"><span data-stu-id="b3b3d-333">Also, you must always specify the table name along with the schema name.</span></span> <span data-ttu-id="b3b3d-334">例如， `dbo.Employee`。</span><span class="sxs-lookup"><span data-stu-id="b3b3d-334">For example, `dbo.Employee`.</span></span>|  
+        |<span data-ttu-id="b3b3d-330">**NotificationStatement**</span><span class="sxs-lookup"><span data-stu-id="b3b3d-330">**NotificationStatement**</span></span>|<span data-ttu-id="b3b3d-331">將此值設定為：</span><span class="sxs-lookup"><span data-stu-id="b3b3d-331">Set this to:</span></span><br /><br /> `SELECT Employee_ID, Name FROM dbo.Employee WHERE Status=0`<br /><br /> <span data-ttu-id="b3b3d-332">**注意：** 您必須明確指定資料行名稱的陳述式中這個 SELECT 陳述式中所示。</span><span class="sxs-lookup"><span data-stu-id="b3b3d-332">**Note:** You must specifically specify the column names in the statement as shown in this SELECT statement.</span></span> <span data-ttu-id="b3b3d-333">此外，您永遠必須指定資料表名稱，以及結構描述名稱。</span><span class="sxs-lookup"><span data-stu-id="b3b3d-333">Also, you must always specify the table name along with the schema name.</span></span> <span data-ttu-id="b3b3d-334">例如， `dbo.Employee`。</span><span class="sxs-lookup"><span data-stu-id="b3b3d-334">For example, `dbo.Employee`.</span></span>|  
         |<span data-ttu-id="b3b3d-335">**NotifyOnListenerStart**</span><span class="sxs-lookup"><span data-stu-id="b3b3d-335">**NotifyOnListenerStart**</span></span>|<span data-ttu-id="b3b3d-336">將此設**True**。</span><span class="sxs-lookup"><span data-stu-id="b3b3d-336">Set this to **True**.</span></span>|  
   
          <span data-ttu-id="b3b3d-337">如需不同的繫結屬性的詳細資訊，請參閱[閱讀 BizTalk Adapter for SQL Server 配接器繫結屬性](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md)。</span><span class="sxs-lookup"><span data-stu-id="b3b3d-337">For more information about the different binding properties, see [Read about the BizTalk Adapter for SQL Server adapter binding properties](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md).</span></span>  

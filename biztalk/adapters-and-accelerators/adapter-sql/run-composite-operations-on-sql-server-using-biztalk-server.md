@@ -1,14 +1,14 @@
 ---
-title: "執行複合操作 SQL Server 上使用 BizTalk Server |Microsoft 文件"
-ms.custom: 
+title: 執行複合操作 SQL Server 上使用 BizTalk Server |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 86fd2aa1-20c7-4b58-9f35-83ba0c959cf1
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968020"
 ---
 # <a name="run-composite-operations-on-sql-server-using-biztalk-server"></a><span data-ttu-id="3de49-102">執行複合操作 SQL Server 上使用 BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="3de49-102">Run composite operations on SQL Server using BizTalk Server</span></span>
 <span data-ttu-id="3de49-103">[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]可讓配接器用戶端執行複合操作上的 SQL Server 資料庫。</span><span class="sxs-lookup"><span data-stu-id="3de49-103">The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] enables adapter clients to perform composite operations on the SQL Server database.</span></span> <span data-ttu-id="3de49-104">複合作業可包括：</span><span class="sxs-lookup"><span data-stu-id="3de49-104">A composite operation can include:</span></span>  
@@ -82,9 +83,9 @@ ms.lasthandoff: 11/28/2017
   
      <span data-ttu-id="3de49-152">若要加入的參考：</span><span class="sxs-lookup"><span data-stu-id="3de49-152">To add references:</span></span>  
   
-    1.  <span data-ttu-id="3de49-153">以滑鼠右鍵按一下根**\<結構描述\>**中 CompositeSchema.xsd，按一下節點**屬性**。</span><span class="sxs-lookup"><span data-stu-id="3de49-153">Right-click the root **\<Schema\>** node in the CompositeSchema.xsd, and click **Properties**.</span></span>  
+    1.  <span data-ttu-id="3de49-153">以滑鼠右鍵按一下根**\<結構描述\>** 中 CompositeSchema.xsd，按一下節點**屬性**。</span><span class="sxs-lookup"><span data-stu-id="3de49-153">Right-click the root **\<Schema\>** node in the CompositeSchema.xsd, and click **Properties**.</span></span>  
   
-    2.  <span data-ttu-id="3de49-154">在**屬性**方塊中，按一下省略符號按鈕**（...）**針對**匯入**屬性。</span><span class="sxs-lookup"><span data-stu-id="3de49-154">In the **Property** box, click the ellipsis button **(…)** against the **Imports** property.</span></span>  
+    2.  <span data-ttu-id="3de49-154">在**屬性**方塊中，按一下省略符號按鈕 **（...）** 針對**匯入**屬性。</span><span class="sxs-lookup"><span data-stu-id="3de49-154">In the **Property** box, click the ellipsis button **(…)** against the **Imports** property.</span></span>  
   
          <span data-ttu-id="3de49-155">![匯入結構描述定義](../../adapters-and-accelerators/adapter-oracle-database/media/d084d0f0-60b5-4ae8-9e80-7ed2c9e3ecca.gif "d084d0f0-60b5-4ae8-9e80-7ed2c9e3ecca")</span><span class="sxs-lookup"><span data-stu-id="3de49-155">![Import schema definitions](../../adapters-and-accelerators/adapter-oracle-database/media/d084d0f0-60b5-4ae8-9e80-7ed2c9e3ecca.gif "d084d0f0-60b5-4ae8-9e80-7ed2c9e3ecca")</span></span>  
   
@@ -101,9 +102,9 @@ ms.lasthandoff: 11/28/2017
     > [!NOTE]
     >  <span data-ttu-id="3de49-169">根據預設，**根**節點也會加入至新的結構描述檔案。</span><span class="sxs-lookup"><span data-stu-id="3de49-169">By default, a **Root** node is also added to a new schema file.</span></span> <span data-ttu-id="3de49-170">您可以重新命名**根**節點**要求**。</span><span class="sxs-lookup"><span data-stu-id="3de49-170">You can rename the **Root** node to **Request**.</span></span> <span data-ttu-id="3de49-171">若要重新命名的節點，以滑鼠右鍵按一下節點名稱，然後按一下**重新命名**。</span><span class="sxs-lookup"><span data-stu-id="3de49-171">To rename a node, right-click the node name and click **Rename**.</span></span>  
   
-     <span data-ttu-id="3de49-172">若要加入的節點下**\<結構描述\>**節點：</span><span class="sxs-lookup"><span data-stu-id="3de49-172">To add a node under the **\<Schema\>** node:</span></span>  
+     <span data-ttu-id="3de49-172">若要加入的節點下**\<結構描述\>** 節點：</span><span class="sxs-lookup"><span data-stu-id="3de49-172">To add a node under the **\<Schema\>** node:</span></span>  
   
-    1.  <span data-ttu-id="3de49-173">以滑鼠右鍵按一下**\<結構描述\>**節點，指向**插入結構描述節點**，然後按一下**子記錄**。</span><span class="sxs-lookup"><span data-stu-id="3de49-173">Right-click the **\<Schema\>** node, point to **Insert Schema Node**, and click **Child Record**.</span></span>  
+    1.  <span data-ttu-id="3de49-173">以滑鼠右鍵按一下**\<結構描述\>** 節點，指向**插入結構描述節點**，然後按一下**子記錄**。</span><span class="sxs-lookup"><span data-stu-id="3de49-173">Right-click the **\<Schema\>** node, point to **Insert Schema Node**, and click **Child Record**.</span></span>  
   
     2.  <span data-ttu-id="3de49-174">重新命名新的節點**RequestResponse**。</span><span class="sxs-lookup"><span data-stu-id="3de49-174">Rename the new node to **RequestResponse**.</span></span>  
   
@@ -198,7 +199,7 @@ ms.lasthandoff: 11/28/2017
   
 |<span data-ttu-id="3de49-259">形狀圖</span><span class="sxs-lookup"><span data-stu-id="3de49-259">Shape</span></span>|<span data-ttu-id="3de49-260">圖形類型</span><span class="sxs-lookup"><span data-stu-id="3de49-260">Shape Type</span></span>|<span data-ttu-id="3de49-261">屬性</span><span class="sxs-lookup"><span data-stu-id="3de49-261">Properties</span></span>|  
 |-----------|----------------|----------------|  
-|<span data-ttu-id="3de49-262">ReceiveMessage</span><span class="sxs-lookup"><span data-stu-id="3de49-262">ReceiveMessage</span></span>|<span data-ttu-id="3de49-263">Receive</span><span class="sxs-lookup"><span data-stu-id="3de49-263">Receive</span></span>|<span data-ttu-id="3de49-264">-設定**名稱**至*ReceiveMessage*</span><span class="sxs-lookup"><span data-stu-id="3de49-264">-   Set **Name** to *ReceiveMessage*</span></span><br /><span data-ttu-id="3de49-265">-設定**啟動**至*，則為 True*</span><span class="sxs-lookup"><span data-stu-id="3de49-265">-   Set **Activate** to *True*</span></span>|  
+|<span data-ttu-id="3de49-262">ReceiveMessage</span><span class="sxs-lookup"><span data-stu-id="3de49-262">ReceiveMessage</span></span>|<span data-ttu-id="3de49-263">Receive</span><span class="sxs-lookup"><span data-stu-id="3de49-263">Receive</span></span>|<span data-ttu-id="3de49-264">-設定**名稱**至*ReceiveMessage*</span><span class="sxs-lookup"><span data-stu-id="3de49-264">-   Set **Name** to *ReceiveMessage*</span></span><br /><span data-ttu-id="3de49-265">-設定**啟動**至 *，則為 True*</span><span class="sxs-lookup"><span data-stu-id="3de49-265">-   Set **Activate** to *True*</span></span>|  
 |<span data-ttu-id="3de49-266">SendMessage</span><span class="sxs-lookup"><span data-stu-id="3de49-266">SendMessage</span></span>|<span data-ttu-id="3de49-267">Send</span><span class="sxs-lookup"><span data-stu-id="3de49-267">Send</span></span>|<span data-ttu-id="3de49-268">-設定**名稱**至*SendMessage*</span><span class="sxs-lookup"><span data-stu-id="3de49-268">-   Set **Name** to *SendMessage*</span></span>|  
 |<span data-ttu-id="3de49-269">ReceiveResponse</span><span class="sxs-lookup"><span data-stu-id="3de49-269">ReceiveResponse</span></span>|<span data-ttu-id="3de49-270">Receive</span><span class="sxs-lookup"><span data-stu-id="3de49-270">Receive</span></span>|<span data-ttu-id="3de49-271">-設定**名稱**至*ReceiveResponse*</span><span class="sxs-lookup"><span data-stu-id="3de49-271">-   Set **Name** to *ReceiveResponse*</span></span><br /><span data-ttu-id="3de49-272">-設定**啟動**至*False*</span><span class="sxs-lookup"><span data-stu-id="3de49-272">-   Set **Activate** to *False*</span></span>|  
 |<span data-ttu-id="3de49-273">SendResponse</span><span class="sxs-lookup"><span data-stu-id="3de49-273">SendResponse</span></span>|<span data-ttu-id="3de49-274">Send</span><span class="sxs-lookup"><span data-stu-id="3de49-274">Send</span></span>|<span data-ttu-id="3de49-275">-設定**名稱**至*SendResponse*</span><span class="sxs-lookup"><span data-stu-id="3de49-275">-   Set **Name** to *SendResponse*</span></span>|  

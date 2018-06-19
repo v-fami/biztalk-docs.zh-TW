@@ -1,14 +1,14 @@
 ---
-title: "步驟 2： 將 SWIFTNet 組態新增至為 FileAct 存放與轉寄實例 Paramfile |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 將 SWIFTNet 組態新增至為 FileAct 存放與轉寄實例 Paramfile |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 088ab41f-8325-4330-b6f2-0164aa1911b1
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966412"
 ---
 # <a name="step-2-add-swiftnet-configuration-to-the-paramfile-for-the-fileact-store-and-forward-scenario"></a><span data-ttu-id="b8388-102">步驟 2： 加入為 FileAct 存放與轉寄實例 Paramfile SWIFTNet 組態</span><span class="sxs-lookup"><span data-stu-id="b8388-102">Step 2: Add SWIFTNet Configuration to the Paramfile for the FileAct Store and Forward Scenario</span></span>
 <span data-ttu-id="b8388-103">若要啟用以這些值來初始化接收者 SWIFTNet paramfile 中必須指定 SAG 中建立的伺服器訊息協力廠商。</span><span class="sxs-lookup"><span data-stu-id="b8388-103">The Server message partners created in SAG must be specified in the SWIFTNet paramfile to enable Receivers to initialize with these values.</span></span>  
@@ -45,19 +46,19 @@ ms.lasthandoff: 11/28/2017
   
      <span data-ttu-id="b8388-115">**繁衍"snlreceiver-SagMessagePartner \<fileact SnF 的伺服器 MessagePartnerName\> -AdapterMode fileact"**</span><span class="sxs-lookup"><span data-stu-id="b8388-115">**spawn "snlreceiver -SagMessagePartner \<Server MessagePartnerName for fileact SnF\> -AdapterMode fileact"**</span></span>  
   
-     <span data-ttu-id="b8388-116">* 結束</span><span class="sxs-lookup"><span data-stu-id="b8388-116">*END</span></span>  
+     <span data-ttu-id="b8388-116">\* 結束</span><span class="sxs-lookup"><span data-stu-id="b8388-116">\*END</span></span>  
   
      <span data-ttu-id="b8388-117">subsystem_stop:</span><span class="sxs-lookup"><span data-stu-id="b8388-117">subsystem_stop:</span></span>  
   
-     <span data-ttu-id="b8388-118">* KILL9:snlreceiver</span><span class="sxs-lookup"><span data-stu-id="b8388-118">*KILL9:snlreceiver</span></span>  
+     <span data-ttu-id="b8388-118">\* KILL9:snlreceiver</span><span class="sxs-lookup"><span data-stu-id="b8388-118">\*KILL9:snlreceiver</span></span>  
   
-     <span data-ttu-id="b8388-119">* 結束</span><span class="sxs-lookup"><span data-stu-id="b8388-119">*END</span></span>  
+     <span data-ttu-id="b8388-119">\* 結束</span><span class="sxs-lookup"><span data-stu-id="b8388-119">\*END</span></span>  
   
      <span data-ttu-id="b8388-120">subsystem_status:</span><span class="sxs-lookup"><span data-stu-id="b8388-120">subsystem_status:</span></span>  
   
-     <span data-ttu-id="b8388-121">* NB:1:snlreceiver</span><span class="sxs-lookup"><span data-stu-id="b8388-121">*NB:1:snlreceiver</span></span>  
+     <span data-ttu-id="b8388-121">\* NB:1:snlreceiver</span><span class="sxs-lookup"><span data-stu-id="b8388-121">\*NB:1:snlreceiver</span></span>  
   
-     <span data-ttu-id="b8388-122">* 結束</span><span class="sxs-lookup"><span data-stu-id="b8388-122">*END</span></span>  
+     <span data-ttu-id="b8388-122">\* 結束</span><span class="sxs-lookup"><span data-stu-id="b8388-122">\*END</span></span>  
   
      <span data-ttu-id="b8388-123">start_event:SNL001:subsystem FileactStubSnF 已啟動</span><span class="sxs-lookup"><span data-stu-id="b8388-123">start_event:SNL001:subsystem FileactStubSnF is up</span></span>  
   
@@ -73,15 +74,15 @@ ms.lasthandoff: 11/28/2017
   
      <span data-ttu-id="b8388-129">\#subsystem_start:</span><span class="sxs-lookup"><span data-stu-id="b8388-129">\#subsystem_start:</span></span>  
   
-     <span data-ttu-id="b8388-130">\#* 結束</span><span class="sxs-lookup"><span data-stu-id="b8388-130">\#*END</span></span>  
+     <span data-ttu-id="b8388-130">\#\* 結束</span><span class="sxs-lookup"><span data-stu-id="b8388-130">\#\*END</span></span>  
   
      <span data-ttu-id="b8388-131">\#subsystem_stop:</span><span class="sxs-lookup"><span data-stu-id="b8388-131">\#subsystem_stop:</span></span>  
   
-     <span data-ttu-id="b8388-132">\#* 結束</span><span class="sxs-lookup"><span data-stu-id="b8388-132">\#*END</span></span>  
+     <span data-ttu-id="b8388-132">\#\* 結束</span><span class="sxs-lookup"><span data-stu-id="b8388-132">\#\*END</span></span>  
   
      <span data-ttu-id="b8388-133">\#subsystem_status:</span><span class="sxs-lookup"><span data-stu-id="b8388-133">\#subsystem_status:</span></span>  
   
-     <span data-ttu-id="b8388-134">\#* 結束</span><span class="sxs-lookup"><span data-stu-id="b8388-134">\#*END</span></span>  
+     <span data-ttu-id="b8388-134">\#\* 結束</span><span class="sxs-lookup"><span data-stu-id="b8388-134">\#\*END</span></span>  
   
      #<a name="starteventsnl001subsystem-user-is-up"></a><span data-ttu-id="b8388-135">start_event:SNL001:subsystem 使用者已啟動</span><span class="sxs-lookup"><span data-stu-id="b8388-135">start_event:SNL001:subsystem User is up</span></span>  
   

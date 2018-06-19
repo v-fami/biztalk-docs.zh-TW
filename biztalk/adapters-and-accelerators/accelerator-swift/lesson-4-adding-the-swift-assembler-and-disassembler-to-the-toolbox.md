@@ -1,11 +1,11 @@
 ---
-title: "第 4 課： 加入至工具箱的 SWIFT 組合器和解譯器 |Microsoft 文件"
-ms.custom: 
+title: 第 4 課： 加入至工具箱的 SWIFT 組合器和解譯器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - toolbox, adding disassembler
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - toolbox, adding assembler
 - disassembler, adding to toolbox
 ms.assetid: 8c9c9b1e-48fc-4af0-b7c5-bd54e2de9951
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207670"
 ---
 # <a name="lesson-4-adding-the-swift-assembler-and-disassembler-to-the-toolbox"></a><span data-ttu-id="6825f-102">第 4 課： SWIFT 組合器和解譯器新增至工具箱</span><span class="sxs-lookup"><span data-stu-id="6825f-102">Lesson 4: Adding the SWIFT Assembler and Disassembler to the Toolbox</span></span>
 <span data-ttu-id="6825f-103">在這一課，您會新增 SWIFT 組譯工具 (ASM) 和反組譯工具 (DASM) 的參考，以便這些元件時，可以使用工具箱 中使用 BizTalk 管線設計師 」。</span><span class="sxs-lookup"><span data-stu-id="6825f-103">In this lesson, you add references to the SWIFT assembler (ASM) and disassembler (DASM) so that these components are available in the toolbox when using BizTalk Pipeline Designer.</span></span>  

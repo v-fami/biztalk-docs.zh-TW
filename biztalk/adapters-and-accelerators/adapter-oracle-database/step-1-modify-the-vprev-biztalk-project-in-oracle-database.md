@@ -1,14 +1,14 @@
 ---
-title: "步驟 1： 修改 vPrev Oracle 資料庫中的 BizTalk 專案 |Microsoft 文件"
-ms.custom: 
+title: 步驟 1： 修改 vPrev Oracle 資料庫中的 BizTalk 專案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6e3e22ac-126b-46ec-a6dc-3421ad721392
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,13 +17,14 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216190"
 ---
 # <a name="step-1-modify-the-vprev-biztalk-project-in-oracle-database"></a><span data-ttu-id="ca40d-102">步驟 1： 修改 vPrev Oracle 資料庫中的 BizTalk 專案</span><span class="sxs-lookup"><span data-stu-id="ca40d-102">Step 1: Modify the vPrev BizTalk Project in Oracle Database</span></span>
 <span data-ttu-id="ca40d-103">![步驟 3 之 1](../../adapters-and-accelerators/adapter-oracle-database/media/step-1of3.gif "Step_1of3")</span><span class="sxs-lookup"><span data-stu-id="ca40d-103">![Step 1 of 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-1of3.gif "Step_1of3")</span></span>  
   
  <span data-ttu-id="ca40d-104">**若要完成的時間：** 10 分鐘</span><span class="sxs-lookup"><span data-stu-id="ca40d-104">**Time to complete:** 10 minutes</span></span>  
   
- <span data-ttu-id="ca40d-105">**目標：**在此步驟中，您必須進行下列變更現有 vPrev BizTalk 專案：</span><span class="sxs-lookup"><span data-stu-id="ca40d-105">**Objective:** In this step, you make the following changes to the existing vPrev BizTalk project:</span></span>  
+ <span data-ttu-id="ca40d-105">**目標：** 在此步驟中，您必須進行下列變更現有 vPrev BizTalk 專案：</span><span class="sxs-lookup"><span data-stu-id="ca40d-105">**Objective:** In this step, you make the following changes to the existing vPrev BizTalk project:</span></span>  
   
 -   <span data-ttu-id="ca40d-106">產生 SCOTT 的 Insert 作業的中繼資料。使用 WCF 為基礎的 CUSTOMER 資料表[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="ca40d-106">Generate metadata for the Insert operation on the SCOTT.CUSTOMER table using the WCF-based [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)].</span></span>  
   

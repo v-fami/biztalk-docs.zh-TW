@@ -1,14 +1,14 @@
 ---
-title: "使用 SQL 配接器效能計數器 |Microsoft 文件"
-ms.custom: 
+title: 使用 SQL 配接器效能計數器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ae381b78-d89e-4cf2-810b-821e49422463
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965516"
 ---
 # <a name="use-performance-counters-with-the-sql-adapter"></a><span data-ttu-id="d669b-102">使用 SQL 配接器效能計數器</span><span class="sxs-lookup"><span data-stu-id="d669b-102">Use Performance Counters with the SQL adapter</span></span>
 [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]<span data-ttu-id="d669b-103">用戶端可以用於量測計的配接器效能的效能計數器。</span><span class="sxs-lookup"><span data-stu-id="d669b-103"> clients can use the performance counters to gauge the performance of the adapters.</span></span> <span data-ttu-id="d669b-104">[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]安裝程式會建立效能計數器分類"[!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]」 以及 Adapter Pack 安裝。</span><span class="sxs-lookup"><span data-stu-id="d669b-104">The [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] setup program creates the performance counter category "[!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]" along with the Adapter Pack installation.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "TIBCO Rendezvous 概念 |Microsoft 文件"
-ms.custom: 
+title: TIBCO Rendezvous 概念 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 36060091-57dc-4125-8dca-23058d813deb
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013741"
 ---
 # <a name="tibco-rendezvous-concepts"></a><span data-ttu-id="3d9b5-102">TIBCO Rendezvous 概念</span><span class="sxs-lookup"><span data-stu-id="3d9b5-102">TIBCO Rendezvous Concepts</span></span>
 

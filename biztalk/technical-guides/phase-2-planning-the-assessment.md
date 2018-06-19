@@ -1,14 +1,14 @@
 ---
-title: "階段 2： 規劃評估 |Microsoft 文件"
-ms.custom: 
+title: 階段 2： 規劃評估 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fd67e9fb-afc9-48c7-91c9-eea5b66423a7
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22301998"
 ---
 # <a name="phase-2-planning-the-assessment"></a><span data-ttu-id="5d2e8-102">階段 2： 規劃評估</span><span class="sxs-lookup"><span data-stu-id="5d2e8-102">Phase 2: Planning the Assessment</span></span>
 <span data-ttu-id="5d2e8-103">大部分效能評定的計劃階段包含設定特定的 「 範圍 」 階段期間所識別的交付項目完成里程碑。</span><span class="sxs-lookup"><span data-stu-id="5d2e8-103">The Plan phase of a performance assessment largely consists of setting up specific milestones for the completion of the deliverables identified during the Scope phase.</span></span> <span data-ttu-id="5d2e8-104">計劃階段是以 「 範圍 」 階段"when"的 「 內容 」。</span><span class="sxs-lookup"><span data-stu-id="5d2e8-104">The Plan phase is the “when” to the Scope phase’s “what.”</span></span> <span data-ttu-id="5d2e8-105">第三方軟體和實體的邏輯是 「 如何 」 和 「 位置 」 也應該考慮為這些層面規劃階段的層面可能需要額外的前置時間，來實作。</span><span class="sxs-lookup"><span data-stu-id="5d2e8-105">Third-party software and physical logistics are “how” and “where” aspects that should also be considered during the planning phase as these aspects may require additional lead time to implement.</span></span>  

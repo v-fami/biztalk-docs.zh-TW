@@ -1,14 +1,14 @@
 ---
-title: "探索 |Microsoft 文件"
-ms.custom: 
+title: 探索 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5350c4b3-ecc5-487e-a75a-16af090ffa06
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299454"
 ---
 # <a name="discoveries"></a><span data-ttu-id="d30d8-102">探索</span><span class="sxs-lookup"><span data-stu-id="d30d8-102">Discoveries</span></span>
 <span data-ttu-id="d30d8-103">[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理組件提供集中式的管理和 BizTalk Server 相關成品的監視體驗。</span><span class="sxs-lookup"><span data-stu-id="d30d8-103">The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management Pack provides a centralized management and monitoring experience for BizTalk Server related artifacts.</span></span>  

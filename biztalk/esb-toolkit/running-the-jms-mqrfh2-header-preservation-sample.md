@@ -1,14 +1,14 @@
 ---
-title: "執行 JMS MQRFH2 標頭保留範例 |Microsoft 文件"
-ms.custom: 
+title: 執行 JMS MQRFH2 標頭保留範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 65982dca-77e1-4267-9528-26c59237e9b1
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295126"
 ---
 # <a name="running-the-jms-mqrfh2-header-preservation-sample"></a><span data-ttu-id="abc5c-102">執行 JMS MQRFH2 標頭保留範例</span><span class="sxs-lookup"><span data-stu-id="abc5c-102">Running the JMS MQRFH2 Header Preservation Sample</span></span>
 <span data-ttu-id="abc5c-103">此範例的這個部分會將訊息插入 WebSphere 佇列。</span><span class="sxs-lookup"><span data-stu-id="abc5c-103">This part of this sample deposits a message into a WebSphere queue.</span></span> <span data-ttu-id="abc5c-104">ESB 拾取此訊息，並將輸出的 WebSphere 佇列。</span><span class="sxs-lookup"><span data-stu-id="abc5c-104">The ESB picks up this message and deposits it into an outbound WebSphere queue.</span></span> <span data-ttu-id="abc5c-105">這示範了 ESB 和 Microsoft BizTalk 保留失真 RFH2 標頭如下的訊息是透過 BizTalk Server。</span><span class="sxs-lookup"><span data-stu-id="abc5c-105">This demonstrates that the ESB and Microsoft BizTalk preserve full-fidelity RFH2 headers as a message travels through BizTalk Server.</span></span>  
@@ -53,4 +54,4 @@ ms.lasthandoff: 09/20/2017
   
 9. <span data-ttu-id="abc5c-122">在延遲之後應用程式執行，而 ESB 輸出訊息會出現在 ESB。JMS。範例。DYNAMICQ1 和 ESB。JMS。範例。DYNAMICQ1 佇列。</span><span class="sxs-lookup"><span data-stu-id="abc5c-122">After a delay while the application executes, the ESB output message appears in the ESB.JMS.SAMPLE.DYNAMICQ1 and ESB.JMS.SAMPLE.DYNAMICQ1 queues.</span></span> <span data-ttu-id="abc5c-123">開啟 WebSphere 佇列總管並瀏覽佇列，確認這個項目。</span><span class="sxs-lookup"><span data-stu-id="abc5c-123">Open the WebSphere Queue Explorer and browse the queues to confirm this.</span></span>  
   
-10. <span data-ttu-id="abc5c-124">返回 RfhUtil 公用程式，並連接到看到的訊息佇列。</span><span class="sxs-lookup"><span data-stu-id="abc5c-124">Go back to the RfhUtil utility and connect to the queues to see the messages.</span></span> <span data-ttu-id="abc5c-125">按一下**MQMD、 RFH，**和**jms**驗證輸入和輸出值會變更該目的地佇列中的訊息，而且回覆佇列中的訊息是相同的索引標籤除外，而不是標準的 JMS 訊息，訊息會標示為 「 其他 」。</span><span class="sxs-lookup"><span data-stu-id="abc5c-125">Click the **MQMD, RFH,** and **jms** tabs to verify that the input and output values are unchanged for the message in the Destination Queue, and that the message in the Reply To queue is the same except that, instead of being a standard JMS message, the message is marked as "other".</span></span>
+10. <span data-ttu-id="abc5c-124">返回 RfhUtil 公用程式，並連接到看到的訊息佇列。</span><span class="sxs-lookup"><span data-stu-id="abc5c-124">Go back to the RfhUtil utility and connect to the queues to see the messages.</span></span> <span data-ttu-id="abc5c-125">按一下**MQMD、 RFH，** 和**jms**驗證輸入和輸出值會變更該目的地佇列中的訊息，而且回覆佇列中的訊息是相同的索引標籤除外，而不是標準的 JMS 訊息，訊息會標示為 「 其他 」。</span><span class="sxs-lookup"><span data-stu-id="abc5c-125">Click the **MQMD, RFH,** and **jms** tabs to verify that the input and output values are unchanged for the message in the Destination Queue, and that the message in the Reply To queue is the same except that, instead of being a standard JMS message, the message is marked as "other".</span></span>

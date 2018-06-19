@@ -16,6 +16,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "23450527"
 ---
 # <a name="install-and-configure-the-microsoft-biztalk-adapters-for-enterprise-applications"></a><span data-ttu-id="fd208-103">安裝和設定 Microsoft BizTalk Adapters for Enterprise Applications</span><span class="sxs-lookup"><span data-stu-id="fd208-103">Install and configure the Microsoft BizTalk Adapters for Enterprise Applications</span></span> 
   
@@ -344,7 +345,7 @@ ms.lasthandoff: 03/28/2018
 -   <span data-ttu-id="fd208-328">D5500900K - TEST DATE 2</span><span class="sxs-lookup"><span data-stu-id="fd208-328">D5500900K - TEST DATE 2</span></span>  
   
 #### <a name="customize-the-jdeinteropini-file"></a><span data-ttu-id="fd208-329">自訂 jdeinterop.ini 檔案</span><span class="sxs-lookup"><span data-stu-id="fd208-329">Customize the jdeinterop.ini file</span></span>  
- <span data-ttu-id="fd208-330">Connector.jar 和 Kernel.jar 中的 JD Edwards OneWorld XE 連接器類別會要求您使用 jdeinterop.ini 的組態檔。</span><span class="sxs-lookup"><span data-stu-id="fd208-330">The JD Edwards OneWorld XE connector classes in Connector.jar and Kernel.jar require that you use the jdeinterop.ini configuration file.</span></span> <span data-ttu-id="fd208-331">這個檔案由 JD Edwards OneWorld 軟體所定義，並使用其術語。</span><span class="sxs-lookup"><span data-stu-id="fd208-331">This file is defined by the JD Edwards OneWorld software and uses its terminology.</span></span> <span data-ttu-id="fd208-332">JD Edwards 互通性手冊發行 OneWorld 可能提供之用途和術語，這個檔案的詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="fd208-332">The JD Edwards Interoperability Guide Release OneWorld may provide more information about the purpose and terminology of this file.</span></span> <span data-ttu-id="fd208-333">沒有範例 jdeinterop.ini 檔案*< 可 > \config\jde*。</span><span class="sxs-lookup"><span data-stu-id="fd208-333">There is a sample jdeinterop.ini file in *<Adapter_Installation>\config\jde*.</span></span>  
+ <span data-ttu-id="fd208-330">Connector.jar 和 Kernel.jar 中的 JD Edwards OneWorld XE 連接器類別會要求您使用 jdeinterop.ini 的組態檔。</span><span class="sxs-lookup"><span data-stu-id="fd208-330">The JD Edwards OneWorld XE connector classes in Connector.jar and Kernel.jar require that you use the jdeinterop.ini configuration file.</span></span> <span data-ttu-id="fd208-331">這個檔案由 JD Edwards OneWorld 軟體所定義，並使用其術語。</span><span class="sxs-lookup"><span data-stu-id="fd208-331">This file is defined by the JD Edwards OneWorld software and uses its terminology.</span></span> <span data-ttu-id="fd208-332">JD Edwards 互通性手冊發行 OneWorld 可能提供之用途和術語，這個檔案的詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="fd208-332">The JD Edwards Interoperability Guide Release OneWorld may provide more information about the purpose and terminology of this file.</span></span> <span data-ttu-id="fd208-333">沒有範例 jdeinterop.ini 檔案 *< 可 > \config\jde*。</span><span class="sxs-lookup"><span data-stu-id="fd208-333">There is a sample jdeinterop.ini file in *<Adapter_Installation>\config\jde*.</span></span>  
   
 <span data-ttu-id="fd208-334">更新以符合您在中定義的參數值的 jdeinterop.ini**傳輸屬性**螢幕。</span><span class="sxs-lookup"><span data-stu-id="fd208-334">Update jdeinterop.ini to match the parameter values that you defined in the **Transport Properties** screen.</span></span> <span data-ttu-id="fd208-335">如果其參數相容，則多個 JD Edwards OneWorld 邏輯系統可以共用同一個 jdeinterop.ini 檔案。</span><span class="sxs-lookup"><span data-stu-id="fd208-335">Multiple JD Edwards OneWorld logical systems can share the same jdeinterop.ini file if their parameters are compatible.</span></span> <span data-ttu-id="fd208-336">一般而言，如果兩個邏輯系統指向兩部不同的 JD Edwards OneWorld 電腦，它們需要兩個不同的 jdeinterop.ini 複本。</span><span class="sxs-lookup"><span data-stu-id="fd208-336">Generally, if two logical systems point to two different JD Edwards OneWorld computers, they need two different copies of jdeinterop.ini.</span></span>  
   
@@ -846,20 +847,20 @@ C:\TIBCO\TIBRV\BIN > gacutil /i TIBCO.Rendezvous.dll
   
  <span data-ttu-id="fd208-800">「Windows 事件追蹤」有三個元件：</span><span class="sxs-lookup"><span data-stu-id="fd208-800">Event Tracing for Windows has three components:</span></span>  
   
-* <span data-ttu-id="fd208-801">**控制器應用程式：**啟動與停用提供者。</span><span class="sxs-lookup"><span data-stu-id="fd208-801">**Controller application:** Activates and deactivates a provider.</span></span> <span data-ttu-id="fd208-802">例如，tracelog.exe 或 logman.exe。</span><span class="sxs-lookup"><span data-stu-id="fd208-802">For example, tracelog.exe or logman.exe.</span></span>  
+* <span data-ttu-id="fd208-801">**控制器應用程式：** 啟動與停用提供者。</span><span class="sxs-lookup"><span data-stu-id="fd208-801">**Controller application:** Activates and deactivates a provider.</span></span> <span data-ttu-id="fd208-802">例如，tracelog.exe 或 logman.exe。</span><span class="sxs-lookup"><span data-stu-id="fd208-802">For example, tracelog.exe or logman.exe.</span></span>  
   
     <span data-ttu-id="fd208-803">您會將 PATH 環境變數設定成指向 tracelog.exe 的位置。</span><span class="sxs-lookup"><span data-stu-id="fd208-803">You set your PATH environment variable to point to the location of tracelog.exe.</span></span> <span data-ttu-id="fd208-804">這可確保該 BTA < 配接器名稱\>追蹤呼叫可在系統中找到 tracelog.exe。</span><span class="sxs-lookup"><span data-stu-id="fd208-804">This makes sure that BTA<Adapter Name\>Trace calls can locate tracelog.exe in the system.</span></span> <span data-ttu-id="fd208-805">根據預設，BTA < 配接器名稱\>追蹤搜尋目前的路徑。</span><span class="sxs-lookup"><span data-stu-id="fd208-805">By default, BTA<Adapter Name\>Trace searches the current path.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="fd208-806">tracelog.exe 可以從 Microsoft SDK，並提供 Microsoft BizTalk Adapters for Enterprise Applications 的命令相容。</span><span class="sxs-lookup"><span data-stu-id="fd208-806">tracelog.exe is available from the Microsoft SDK and is compatible with the commands provided by Microsoft BizTalk Adapters for Enterprise Applications.</span></span> <span data-ttu-id="fd208-807">如果要使用 logman.exe，請參閱 logman 文件。</span><span class="sxs-lookup"><span data-stu-id="fd208-807">To use logman.exe, see the logman documentation.</span></span>  
   
-* <span data-ttu-id="fd208-808">**取用者應用程式：**讀取記錄的事件。</span><span class="sxs-lookup"><span data-stu-id="fd208-808">**Consumer application:** Reads logged events.</span></span>  
+* <span data-ttu-id="fd208-808">**取用者應用程式：** 讀取記錄的事件。</span><span class="sxs-lookup"><span data-stu-id="fd208-808">**Consumer application:** Reads logged events.</span></span>  
   
     <span data-ttu-id="fd208-809">如果要讓取用者應用程式可讀取 .etl 檔案中的事件，「Windows 事件追蹤」必須將它們傾印到該檔案。</span><span class="sxs-lookup"><span data-stu-id="fd208-809">For the consumer application to be able to read the event in the .etl file, Event Tracing for Windows must dump them into that file.</span></span> <span data-ttu-id="fd208-810">此動作通常是在控制器停用追蹤後完成的。</span><span class="sxs-lookup"><span data-stu-id="fd208-810">Typically this is done when the controller deactivates the tracing.</span></span>  
   
     <span data-ttu-id="fd208-811">若要使用的消費者應用程式，而不需要停用追蹤，控制器必須啟用使用即時選項時，追蹤 **< 即時\> =-rt**。</span><span class="sxs-lookup"><span data-stu-id="fd208-811">To use the consumer application without deactivating the trace, the controller must activate the trace with the real-time option, **<Real time\> = -rt**.</span></span>  
   
-* <span data-ttu-id="fd208-812">**提供者：**用來提供事件。</span><span class="sxs-lookup"><span data-stu-id="fd208-812">**Provider:** Used to provide the event.</span></span>  
+* <span data-ttu-id="fd208-812">**提供者：** 用來提供事件。</span><span class="sxs-lookup"><span data-stu-id="fd208-812">**Provider:** Used to provide the event.</span></span>  
   
     <span data-ttu-id="fd208-813">每個配接器包含五個不同的提供者。</span><span class="sxs-lookup"><span data-stu-id="fd208-813">Each adapter includes five different providers.</span></span> <span data-ttu-id="fd208-814">它們是在 Windows Management Instrumentation (WMI) 中註冊的。</span><span class="sxs-lookup"><span data-stu-id="fd208-814">They are registered in Windows Management Instrumentation (WMI).</span></span> <span data-ttu-id="fd208-815">若要在 root\WMI\EventTrace 路經中尋找已登錄的提供者，您可以使用諸如 WMI CIM Studio 這類的工具。</span><span class="sxs-lookup"><span data-stu-id="fd208-815">To find the registered providers in the root\WMI\EventTrace path, you can use tools such as WMI CIM Studio.</span></span>  
   
@@ -894,15 +895,15 @@ BTA<Adapter Name>Trace <Trace element> -stop
   
  <span data-ttu-id="fd208-826">**-管理**</span><span class="sxs-lookup"><span data-stu-id="fd208-826">**-management**</span></span>  
   
- <span data-ttu-id="fd208-827">**-開始、-停止：**啟用或停用提供者。</span><span class="sxs-lookup"><span data-stu-id="fd208-827">**-start, -stop:** Activate or deactivate the provider.</span></span>  
+ <span data-ttu-id="fd208-827">**-開始、-停止：** 啟用或停用提供者。</span><span class="sxs-lookup"><span data-stu-id="fd208-827">**-start, -stop:** Activate or deactivate the provider.</span></span>  
   
- <span data-ttu-id="fd208-828">**-cir < MB\>:**檔案的大小與種類。</span><span class="sxs-lookup"><span data-stu-id="fd208-828">**-cir <MB\>:** Size and kind of file.</span></span> <span data-ttu-id="fd208-829">**-cir** 是循環檔案。</span><span class="sxs-lookup"><span data-stu-id="fd208-829">**-cir** is a circular file.</span></span> <span data-ttu-id="fd208-830">**< MB\>:**大小以 mb 為單位。</span><span class="sxs-lookup"><span data-stu-id="fd208-830">**<MB\>:** Size in megabytes.</span></span>  
+ <span data-ttu-id="fd208-828">**-cir < MB\>:** 檔案的大小與種類。</span><span class="sxs-lookup"><span data-stu-id="fd208-828">**-cir <MB\>:** Size and kind of file.</span></span> <span data-ttu-id="fd208-829">**-cir** 是循環檔案。</span><span class="sxs-lookup"><span data-stu-id="fd208-829">**-cir** is a circular file.</span></span> <span data-ttu-id="fd208-830">**< MB\>:** 大小以 mb 為單位。</span><span class="sxs-lookup"><span data-stu-id="fd208-830">**<MB\>:** Size in megabytes.</span></span>  
   
- <span data-ttu-id="fd208-831">**-seq < MB\>:**檔案的大小與種類。</span><span class="sxs-lookup"><span data-stu-id="fd208-831">**-seq <MB\>:** Size and kind of file.</span></span> <span data-ttu-id="fd208-832">**-seq** 是循序檔案。</span><span class="sxs-lookup"><span data-stu-id="fd208-832">**-seq** is a sequential file.</span></span> <span data-ttu-id="fd208-833">**< MB\>:**大小以 mb 為單位。</span><span class="sxs-lookup"><span data-stu-id="fd208-833">**<MB\>:** Size in megabytes.</span></span>  
+ <span data-ttu-id="fd208-831">**-seq < MB\>:** 檔案的大小與種類。</span><span class="sxs-lookup"><span data-stu-id="fd208-831">**-seq <MB\>:** Size and kind of file.</span></span> <span data-ttu-id="fd208-832">**-seq** 是循序檔案。</span><span class="sxs-lookup"><span data-stu-id="fd208-832">**-seq** is a sequential file.</span></span> <span data-ttu-id="fd208-833">**< MB\>:** 大小以 mb 為單位。</span><span class="sxs-lookup"><span data-stu-id="fd208-833">**<MB\>:** Size in megabytes.</span></span>  
   
- <span data-ttu-id="fd208-834">**-rt:**上設定的即時模式。</span><span class="sxs-lookup"><span data-stu-id="fd208-834">**-rt:** Set the real-time mode on.</span></span>  
+ <span data-ttu-id="fd208-834">**-rt:** 上設定的即時模式。</span><span class="sxs-lookup"><span data-stu-id="fd208-834">**-rt:** Set the real-time mode on.</span></span>  
   
- <span data-ttu-id="fd208-835">**記錄檔：**記錄檔的名稱 （c:\rtlog.etl 是預設值）。</span><span class="sxs-lookup"><span data-stu-id="fd208-835">**Logfile:** Name of the log file (c:\rtlog.etl is the default).</span></span>  
+ <span data-ttu-id="fd208-835">**記錄檔：** 記錄檔的名稱 （c:\rtlog.etl 是預設值）。</span><span class="sxs-lookup"><span data-stu-id="fd208-835">**Logfile:** Name of the log file (c:\rtlog.etl is the default).</span></span>  
   
  <span data-ttu-id="fd208-836">例如：</span><span class="sxs-lookup"><span data-stu-id="fd208-836">For example:</span></span>  
   

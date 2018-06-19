@@ -1,14 +1,14 @@
 ---
-title: "使用管線元件，選取現有的行程 |Microsoft 文件"
-ms.custom: 
+title: 使用管線元件，選取現有的行程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b93c5cb6-071f-485d-b0bb-22f95bafa3d0
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295886"
 ---
 # <a name="using-a-pipeline-component-to-select-an-existing-itinerary"></a><span data-ttu-id="e89d7-102">選取現有的行程中使用的管線元件</span><span class="sxs-lookup"><span data-stu-id="e89d7-102">Using a Pipeline Component to Select an Existing Itinerary</span></span>
 ## <a name="esb-itinerary-selector-pipeline-component"></a><span data-ttu-id="e89d7-103">ESB 路線的選取器管線元件</span><span class="sxs-lookup"><span data-stu-id="e89d7-103">ESB Itinerary Selector Pipeline Component</span></span>  

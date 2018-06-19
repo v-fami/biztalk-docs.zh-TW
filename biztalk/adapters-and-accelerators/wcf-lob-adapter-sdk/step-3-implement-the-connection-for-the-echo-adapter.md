@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dc223901-3ad3-4e71-8672-fea6bb4efe65
-caps.latest.revision: ''
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22227262"
 ---
 # <a name="step-3-implement-the-connection-for-the-echo-adapter"></a><span data-ttu-id="3d23f-102">步驟 3： 實作 Echo 介面卡的連線</span><span class="sxs-lookup"><span data-stu-id="3d23f-102">Step 3: Implement the Connection for the Echo Adapter</span></span>
 <span data-ttu-id="3d23f-103">![步驟 3 的 9](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-3of9.gif "Step_3of9")</span><span class="sxs-lookup"><span data-stu-id="3d23f-103">![Step 3 of 9](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-3of9.gif "Step_3of9")</span></span>  
@@ -264,13 +265,13 @@ ms.lasthandoff: 03/23/2018
   
 2.  <span data-ttu-id="3d23f-232">在 Visual Studio 編輯器中，以滑鼠右鍵按一下任何位置內編輯器] 的內容功能表，指向**大綱**，然後按一下 [**取消大綱**。</span><span class="sxs-lookup"><span data-stu-id="3d23f-232">In the Visual Studio editor, right-click anywhere within the editor, in the context menu, point to **Outlining**, and then click **Stop Outlining**.</span></span>  
   
-3.  <span data-ttu-id="3d23f-233">在 Visual Studio 編輯器中，尋找**建構函式**區域。</span><span class="sxs-lookup"><span data-stu-id="3d23f-233">In the Visual Studio editor, find the **Constructors** region.</span></span> <span data-ttu-id="3d23f-234">內部**EchoAdapterConnectionUri()**預設建構函式中，加入下列陳述式：</span><span class="sxs-lookup"><span data-stu-id="3d23f-234">Inside the **EchoAdapterConnectionUri()** default constructor, add the following statement:</span></span>  
+3.  <span data-ttu-id="3d23f-233">在 Visual Studio 編輯器中，尋找**建構函式**區域。</span><span class="sxs-lookup"><span data-stu-id="3d23f-233">In the Visual Studio editor, find the **Constructors** region.</span></span> <span data-ttu-id="3d23f-234">內部**EchoAdapterConnectionUri()** 預設建構函式中，加入下列陳述式：</span><span class="sxs-lookup"><span data-stu-id="3d23f-234">Inside the **EchoAdapterConnectionUri()** default constructor, add the following statement:</span></span>  
   
     ```csharp  
     Uri = new Uri("echov2://lobhostname/lobapplication?enableauthentication=False");  
     ```  
   
-4.  <span data-ttu-id="3d23f-235">在 Visual Studio 編輯器中，內部**EchoAdapterConnectionUri (Uri uri)**多載建構函式，並加入下列陳述式：</span><span class="sxs-lookup"><span data-stu-id="3d23f-235">In the Visual Studio editor, inside the **EchoAdapterConnectionUri(Uri uri)** overloaded constructor, and add the following statement:</span></span>  
+4.  <span data-ttu-id="3d23f-235">在 Visual Studio 編輯器中，內部**EchoAdapterConnectionUri (Uri uri)** 多載建構函式，並加入下列陳述式：</span><span class="sxs-lookup"><span data-stu-id="3d23f-235">In the Visual Studio editor, inside the **EchoAdapterConnectionUri(Uri uri)** overloaded constructor, and add the following statement:</span></span>  
   
     ```csharp  
     Uri = uri;  

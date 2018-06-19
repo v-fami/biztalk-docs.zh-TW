@@ -1,17 +1,17 @@
 ---
-title: "第 2 課： 加入 XML 傳送埠 |Microsoft 文件"
-ms.custom: 
+title: 第 2 課： 加入 XML 傳送埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - send ports, XML ports
 - XML ports
 ms.assetid: 03b2ee43-7874-4ef9-b716-8e16e96d8382
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25960700"
 ---
 # <a name="lesson-2-adding-an-xml-send-port"></a><span data-ttu-id="98474-102">第 2 課： 加入 XML 傳送埠</span><span class="sxs-lookup"><span data-stu-id="98474-102">Lesson 2: Adding an XML Send Port</span></span>
 <span data-ttu-id="98474-103">您可以使用傳送埠定義您想要傳送的訊息的方式。</span><span class="sxs-lookup"><span data-stu-id="98474-103">You use a send port to define how you want the messages sent.</span></span> <span data-ttu-id="98474-104">在這一課，您可以建立傳送埠，以便定義傳送 XML 訊息的方式。</span><span class="sxs-lookup"><span data-stu-id="98474-104">In this lesson, you create a send port to define how XML messages should be sent.</span></span>  
@@ -38,9 +39,9 @@ ms.lasthandoff: 11/28/2017
   
 6.  <span data-ttu-id="98474-111">在 [瀏覽資料夾] 對話方塊中，移至**\<磁碟機\>: \Labs\Outbound**資料夾，然後再按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="98474-111">In the Browse For Folder dialog box, move to the **\<drive\>:\Labs\Outbound** folder, and then click **OK**.</span></span>  
   
-7.  <span data-ttu-id="98474-112">在 [FILE 傳輸屬性] 對話方塊中，確定**%MessageID%.xml**輸入**檔案名稱**方塊，然後再按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="98474-112">In the FILE Transport Properties dialog box, ensure that **%MessageID%.xml** is entered in the **File Name** box, and then click **OK**.</span></span>  
+7.  <span data-ttu-id="98474-112">在 [FILE 傳輸屬性] 對話方塊中，確定 **%MessageID%.xml**輸入**檔案名稱**方塊，然後再按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="98474-112">In the FILE Transport Properties dialog box, ensure that **%MessageID%.xml** is entered in the **File Name** box, and then click **OK**.</span></span>  
   
-8.  <span data-ttu-id="98474-113">在 [傳送埠屬性] 對話方塊中，確定**[biztalkserverapplication]**選取**傳送處理常式**中，且**PassThruTransmit**選取**傳送管線**方塊。</span><span class="sxs-lookup"><span data-stu-id="98474-113">In the Send Port Properties dialog box, ensure that **BizTalkServerApplication** is selected for the **Send handler** box, and that **PassThruTransmit** is selected for the **Send pipeline** box.</span></span>  
+8.  <span data-ttu-id="98474-113">在 [傳送埠屬性] 對話方塊中，確定 **[biztalkserverapplication]** 選取**傳送處理常式**中，且**PassThruTransmit**選取**傳送管線**方塊。</span><span class="sxs-lookup"><span data-stu-id="98474-113">In the Send Port Properties dialog box, ensure that **BizTalkServerApplication** is selected for the **Send handler** box, and that **PassThruTransmit** is selected for the **Send pipeline** box.</span></span>  
   
 9. <span data-ttu-id="98474-114">在左窗格中，按一下 **篩選**，然後執行下列步驟：</span><span class="sxs-lookup"><span data-stu-id="98474-114">In the left pane, click **Filters**, and then do the following:</span></span>  
   
@@ -60,7 +61,7 @@ ms.lasthandoff: 11/28/2017
     |<span data-ttu-id="98474-132">**值**</span><span class="sxs-lookup"><span data-stu-id="98474-132">**Value**</span></span>|<span data-ttu-id="98474-133">型別**False**有效的訊息。</span><span class="sxs-lookup"><span data-stu-id="98474-133">Type **False** for valid messages.</span></span>|  
   
     > [!NOTE]
-    >  <span data-ttu-id="98474-134">您將加入**"Microsoft.Solutions.A4SWIFT.Property.A4SWIFT_Failed = = False"**篩選運算式子句，讓傳送埠傳送僅成功剖析及驗證訊息。</span><span class="sxs-lookup"><span data-stu-id="98474-134">You add the **"Microsoft.Solutions.A4SWIFT.Property.A4SWIFT_Failed == False"** filter expression clause so that the send port sends only successfully parsed and validated messages.</span></span> <span data-ttu-id="98474-135">不同於接收管線中使用原生[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]解譯[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]解譯器不會擱置失敗 （錯誤） 的訊息，但改為將其發佈至 MessageBox 和標記為失敗，將使用升級的屬性。</span><span class="sxs-lookup"><span data-stu-id="98474-135">Unlike a receive pipeline using native [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] disassemblers, the [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] disassembler will not suspend a failed (erroneous) message, but instead publishes it to the MessageBox and marks it as failed, using promoted properties.</span></span> <span data-ttu-id="98474-136">A4SWIFT 附加失敗的訊息發佈到 MessageBox 之前收集到的錯誤的 XML 表示法。</span><span class="sxs-lookup"><span data-stu-id="98474-136">A4SWIFT attaches an XML representation of the errors that were collected to the failed message before publishing it to the MessageBox.</span></span>  
+    >  <span data-ttu-id="98474-134">您將加入 **"Microsoft.Solutions.A4SWIFT.Property.A4SWIFT_Failed = = False"** 篩選運算式子句，讓傳送埠傳送僅成功剖析及驗證訊息。</span><span class="sxs-lookup"><span data-stu-id="98474-134">You add the **"Microsoft.Solutions.A4SWIFT.Property.A4SWIFT_Failed == False"** filter expression clause so that the send port sends only successfully parsed and validated messages.</span></span> <span data-ttu-id="98474-135">不同於接收管線中使用原生[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]解譯[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]解譯器不會擱置失敗 （錯誤） 的訊息，但改為將其發佈至 MessageBox 和標記為失敗，將使用升級的屬性。</span><span class="sxs-lookup"><span data-stu-id="98474-135">Unlike a receive pipeline using native [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] disassemblers, the [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] disassembler will not suspend a failed (erroneous) message, but instead publishes it to the MessageBox and marks it as failed, using promoted properties.</span></span> <span data-ttu-id="98474-136">A4SWIFT 附加失敗的訊息發佈到 MessageBox 之前收集到的錯誤的 XML 表示法。</span><span class="sxs-lookup"><span data-stu-id="98474-136">A4SWIFT attaches an XML representation of the errors that were collected to the failed message before publishing it to the MessageBox.</span></span>  
     > <span data-ttu-id="98474-137">不包括"Microsoft.Solutions.A4SWIFT.Property.A4SWIFT_Failed = = False"篩選運算式子句中，您的傳送埠會將傳送所有訊息： 成功或失敗。</span><span class="sxs-lookup"><span data-stu-id="98474-137">Without including the "Microsoft.Solutions.A4SWIFT.Property.A4SWIFT_Failed == False" filter expression clause, your send port will send all messages: passed or failed.</span></span> <span data-ttu-id="98474-138">如需失敗的訊息訂閱的詳細資訊，請參閱[處理失敗的訊息訂閱](../../adapters-and-accelerators/accelerator-swift/working-with-failed-message-subscriptions.md)。</span><span class="sxs-lookup"><span data-stu-id="98474-138">For more information about failed message subscriptions, see [Working with Failed Message Subscriptions](../../adapters-and-accelerators/accelerator-swift/working-with-failed-message-subscriptions.md).</span></span>  
   
 11. <span data-ttu-id="98474-139">按一下**套用**，然後按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="98474-139">Click **Apply**, and then click **OK**.</span></span>  

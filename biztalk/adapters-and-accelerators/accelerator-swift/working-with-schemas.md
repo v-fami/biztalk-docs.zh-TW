@@ -1,17 +1,17 @@
 ---
-title: "使用結構描述 |Microsoft 文件"
-ms.custom: 
+title: 使用結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - developing, schemas
 - schemas, developing
 ms.assetid: 123c4b43-34e4-41c7-980d-5d518b1479c1
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963092"
 ---
 # <a name="working-with-schemas"></a><span data-ttu-id="974c1-102">使用結構描述</span><span class="sxs-lookup"><span data-stu-id="974c1-102">Working with Schemas</span></span>
 <span data-ttu-id="974c1-103">中提供的結構描述[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]是[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]協會全球 Interbank 財務 Telecommunication (SWIFT) FIN 訊息的 XSD 表示法。</span><span class="sxs-lookup"><span data-stu-id="974c1-103">The schemas provided in [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] are the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] XSD representation of the Society for Worldwide Interbank Financial Telecommunication (SWIFT) FIN messages.</span></span> <span data-ttu-id="974c1-104">每個訊息類型都有自己的結構描述，包括 SWIFT 標頭和 SWIFT trailer （交換格式）。</span><span class="sxs-lookup"><span data-stu-id="974c1-104">Each message type has its own schema, including the SWIFT header and SWIFT trailer (interchange format).</span></span> <span data-ttu-id="974c1-105">此結構描述便可傳送或接收 SWIFT 的訊息。</span><span class="sxs-lookup"><span data-stu-id="974c1-105">This schema is sufficient to send or receive a SWIFT message.</span></span> <span data-ttu-id="974c1-106">這些結構描述是唯一的分隔和位置記錄，以提供詳細的 XML 表示法，一般檔案 FIN 結構的混合。</span><span class="sxs-lookup"><span data-stu-id="974c1-106">These schemas are a unique mixture of delimited and positional records, providing a detailed XML representation of the flat-file FIN structures.</span></span>  

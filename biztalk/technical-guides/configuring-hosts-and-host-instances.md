@@ -1,14 +1,14 @@
 ---
-title: "設定主控件和主控件執行個體 |Microsoft 文件"
-ms.custom: 
+title: 設定主控件和主控件執行個體 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a36a73a4-cc5f-47d6-b56f-7871684c4489
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22300110"
 ---
 # <a name="configuring-hosts-and-host-instances"></a><span data-ttu-id="657bf-102">設定主控件和主控件執行個體</span><span class="sxs-lookup"><span data-stu-id="657bf-102">Configuring Hosts and Host Instances</span></span>
 <span data-ttu-id="657bf-103">BizTalk 主控件代表零個或多個執行階段處理序中，您可以部署一組邏輯[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]服務和成品 （例如配接器處理常式，接收位置，以及協調流程）。</span><span class="sxs-lookup"><span data-stu-id="657bf-103">A BizTalk Host represents a logical set of zero or more run-time processes in which you can deploy [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] services and artifacts (such as adapter handlers, receive locations, and orchestrations).</span></span> <span data-ttu-id="657bf-104">主控件執行個體是執行的電腦上的主機的實體執行個體[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="657bf-104">A host instance is the physical instance of a host on a computer running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="657bf-105">如需 BizTalk 主控件和主控件執行個體的詳細資訊，請參閱[主機](http://go.microsoft.com/fwlink/?LinkId=154189)(http://go.microsoft.com/fwlink/?LinkId=154189) 和[主控件執行個體](http://go.microsoft.com/fwlink/?LinkId=154190)(http://go.microsoft.com/fwlink/?LinkId=154190)。</span><span class="sxs-lookup"><span data-stu-id="657bf-105">For more information about BizTalk Hosts and host instances, see [Hosts](http://go.microsoft.com/fwlink/?LinkId=154189) (http://go.microsoft.com/fwlink/?LinkId=154189) and [Host Instances](http://go.microsoft.com/fwlink/?LinkId=154190) (http://go.microsoft.com/fwlink/?LinkId=154190).</span></span>  

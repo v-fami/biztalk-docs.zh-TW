@@ -1,15 +1,15 @@
 ---
-title: "接收結構描述和處理事件的 TIBCO Rendezvous 配接器 |Microsoft 文件"
-description: "使用 TIBCO Rendezvous 結構描述，在接收端，而使用 BizTalk Adapter for TIBCO Rendezvous 在 BizTalk 中的事件處理"
-ms.custom: 
+title: 接收結構描述和處理事件的 TIBCO Rendezvous 配接器 |Microsoft 文件
+description: 使用 TIBCO Rendezvous 結構描述，在接收端，而使用 BizTalk Adapter for TIBCO Rendezvous 在 BizTalk 中的事件處理
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 26cb20f9-4d26-48f6-a5e9-a51348a56538
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014093"
 ---
 # <a name="using-tibco-rendezvous-receive-ports-from-biztalk-server"></a><span data-ttu-id="67f9f-103">從 BizTalk Server 使用 TIBCO Rendezvous 接收埠</span><span class="sxs-lookup"><span data-stu-id="67f9f-103">Using TIBCO Rendezvous Receive Ports from BizTalk Server</span></span>
 

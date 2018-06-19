@@ -1,11 +1,11 @@
 ---
-title: "管線 |Microsoft 文件"
-ms.custom: 
+title: 管線 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipelines
@@ -21,7 +21,7 @@ helpviewer_keywords:
 - pipelines, send pipelines
 - receive pipelines, stages
 ms.assetid: 76947dd8-728a-4fa3-bd33-7a708ae82cac
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -30,6 +30,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22265270"
 ---
 # <a name="pipelines"></a><span data-ttu-id="da8c3-102">管線</span><span class="sxs-lookup"><span data-stu-id="da8c3-102">Pipelines</span></span>
 <span data-ttu-id="da8c3-103">管線是 Microsoft BizTalk Server 的一個元件，可實作「管線」和「篩選條件」整合模式。</span><span class="sxs-lookup"><span data-stu-id="da8c3-103">Pipelines are a component of Microsoft BizTalk Server that provides an implementation of the Pipes and Filters integration pattern.</span></span> <span data-ttu-id="da8c3-104">基於商務因素，在接收和傳送訊息期間，會對訊息執行轉換以準備進入或離開 BizTalk Server。</span><span class="sxs-lookup"><span data-stu-id="da8c3-104">During the receiving and sending of messages, there are business reasons to perform transformations on messages to prepare them to enter or leave BizTalk Server.</span></span>  

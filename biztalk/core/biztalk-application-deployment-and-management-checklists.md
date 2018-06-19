@@ -1,11 +1,11 @@
 ---
-title: "BizTalk 應用程式部署和管理檢查清單 |Microsoft 文件"
-ms.custom: 
+title: BizTalk 應用程式部署和管理檢查清單 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - checklists, managing
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - applications, managing
 - applications, checklists
 ms.assetid: b6b00518-44a9-497c-b48d-ff7203796379
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230606"
 ---
 # <a name="biztalk-application-deployment-and-management-checklists"></a><span data-ttu-id="0cdc7-102">BizTalk 應用程式部署和管理檢查清單</span><span class="sxs-lookup"><span data-stu-id="0cdc7-102">BizTalk Application Deployment and Management Checklists</span></span>
 <span data-ttu-id="0cdc7-103">本章節提供了您可能想要針對 BizTalk 應用程式執行之基本部署和維護工作的檢查清單。</span><span class="sxs-lookup"><span data-stu-id="0cdc7-103">This section provides checklists for the basic deployment and maintenance tasks that you may want to perform for BizTalk applications.</span></span> <span data-ttu-id="0cdc7-104">每一個檢查清單都會提供一份清單，其中包含相關的子工作以及描述如何執行這些子工作之主題的連結。</span><span class="sxs-lookup"><span data-stu-id="0cdc7-104">Each checklist provides a list of the subtasks involved and links to the topics that describe how to perform them.</span></span>  

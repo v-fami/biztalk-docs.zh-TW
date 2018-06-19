@@ -12,7 +12,7 @@ helpviewer_keywords:
 - applications [SSO], creating
 - creating, applications [SSO]
 ms.assetid: d0967c4b-6201-416a-9d3a-23b5de5b83d6
-caps.latest.revision: ''
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25969020"
 ---
 # <a name="how-to-create-an-affiliate-application"></a><span data-ttu-id="95e29-102">如何建立分支機構應用程式</span><span class="sxs-lookup"><span data-stu-id="95e29-102">How to Create an Affiliate Application</span></span>
 <span data-ttu-id="95e29-103">您可以使用 MMC 嵌入式管理單元或此命令來建立一或多個應用程式，如 XML 檔案所指定。</span><span class="sxs-lookup"><span data-stu-id="95e29-103">You can use the MMC Snap-In or this command to create one or more applications, as specified by the XML file.</span></span> <span data-ttu-id="95e29-104">Windows 初始化的 SSO 範例 XML 檔案如下：</span><span class="sxs-lookup"><span data-stu-id="95e29-104">An example XML file for Windows Initiated SSO is:</span></span>  
@@ -74,7 +75,7 @@ ms.lasthandoff: 03/28/2018
   
 2.  <span data-ttu-id="95e29-123">在命令列，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="95e29-123">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="95e29-124">預設安裝目錄是*\<磁碟機\>*: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="95e29-124">The default installation directory is *\<drive\>*:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-3.  <span data-ttu-id="95e29-125">型別 * * ssomanage – createapps *\<應用程式檔案名稱\>* * *，其中*\<應用程式檔案名稱\>*是 XML 檔案。</span><span class="sxs-lookup"><span data-stu-id="95e29-125">Type **ssomanage –createapps *\<application file name\>***, where *\<application file name\>* is the XML file.</span></span>  
+3.  <span data-ttu-id="95e29-125">型別 * * ssomanage – createapps *\<應用程式檔案名稱\>* * *，其中*\<應用程式檔案名稱\>* 是 XML 檔案。</span><span class="sxs-lookup"><span data-stu-id="95e29-125">Type **ssomanage –createapps *\<application file name\>***, where *\<application file name\>* is the XML file.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="95e29-126">在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。</span><span class="sxs-lookup"><span data-stu-id="95e29-126">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  

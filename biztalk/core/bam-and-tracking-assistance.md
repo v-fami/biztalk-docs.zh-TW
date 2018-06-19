@@ -1,17 +1,17 @@
 ---
-title: "BAM 和追蹤協助 |Microsoft 文件"
-ms.custom: 
+title: BAM 和追蹤協助 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - HAT, BAM integration
 - BAM, HAT integration
 ms.assetid: b224cd7d-78db-432a-821a-728eabbf6403
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230190"
 ---
 # <a name="bam-and-tracking-assistance"></a><span data-ttu-id="fd6c9-102">BAM 和追蹤協助</span><span class="sxs-lookup"><span data-stu-id="fd6c9-102">BAM and Tracking Assistance</span></span>
 <span data-ttu-id="fd6c9-103">您可以要求透過 BAM 入口網站的協助，依序按一下**協助**活動狀態 頁面上的按鈕。</span><span class="sxs-lookup"><span data-stu-id="fd6c9-103">You can request assistance through the BAM portal by clicking the **Assistance** button on the Activity Status page.</span></span>  

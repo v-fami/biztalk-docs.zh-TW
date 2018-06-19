@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969644"
 ---
 # <a name="error---first-input-to-index-functoid-not-valid"></a><span data-ttu-id="d2b1c-102">錯誤-索引運算質不是有效的第一個輸入</span><span class="sxs-lookup"><span data-stu-id="d2b1c-102">Error - First Input to Index Functoid Not Valid</span></span>
 <span data-ttu-id="d2b1c-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="d2b1c-103">**Error Code**</span></span>  

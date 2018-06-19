@@ -1,14 +1,14 @@
 ---
-title: "其他重要任務的檢查清單 |Microsoft 文件"
-ms.custom: 
+title: 其他重要任務的檢查清單 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8a88a248-fcb8-44dc-896a-62f380b7a310
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299254"
 ---
 # <a name="checklists-for-other-important-tasks"></a><span data-ttu-id="c6963-102">其他重要任務的檢查清單</span><span class="sxs-lookup"><span data-stu-id="c6963-102">Checklists for Other Important Tasks</span></span>
 <span data-ttu-id="c6963-103">本章節包含其他重要的工作，您可能需要執行臨機操作為基礎的檢查的清單。</span><span class="sxs-lookup"><span data-stu-id="c6963-103">This section contains checklists for other important tasks that you might need to perform on an ad-hoc basis.</span></span> <span data-ttu-id="c6963-104">其中包括與部署中的應用程式的這類工作[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]、 匯出繫結的應用程式，並將應用程式更新。</span><span class="sxs-lookup"><span data-stu-id="c6963-104">These include such tasks as deploying an application in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], exporting bindings for an application, and updating an application.</span></span>  

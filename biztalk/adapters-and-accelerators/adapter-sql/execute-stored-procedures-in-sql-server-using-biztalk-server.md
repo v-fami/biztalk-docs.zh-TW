@@ -1,14 +1,14 @@
 ---
-title: "執行預存程序中使用 BizTalk Server 的 SQL Server |Microsoft 文件"
-ms.custom: 
+title: 執行預存程序中使用 BizTalk Server 的 SQL Server |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4329a5c1-4df9-4bf7-8a9f-e3c19cb368fb
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966692"
 ---
 # <a name="execute-stored-procedures-in-sql-server-using-biztalk-server"></a><span data-ttu-id="adc83-102">使用 BizTalk Server 的 SQL Server 中執行預存程序</span><span class="sxs-lookup"><span data-stu-id="adc83-102">Execute stored procedures in SQL Server using BizTalk Server</span></span>
 <span data-ttu-id="adc83-103">[!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]介面上做為作業 SQL Server 資料庫中的程序。</span><span class="sxs-lookup"><span data-stu-id="adc83-103">The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] surfaces the procedures in SQL Server database as operations.</span></span> <span data-ttu-id="adc83-104">配接器用戶端可以使用叫用程序[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]與[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="adc83-104">Adapter clients can invoke the procedures by using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="adc83-105">如需配接器如何支援這些作業的詳細資訊，請參閱[使用 SQL 配接器的 SQL Server 中執行預存程序](../../adapters-and-accelerators/adapter-sql/execute-stored-procedures-in-sql-server-using-the-sql-adapter.md)。</span><span class="sxs-lookup"><span data-stu-id="adc83-105">For more information about how the adapter supports these operations, see [Execute Stored Procedures in SQL Server using the SQL adapter](../../adapters-and-accelerators/adapter-sql/execute-stored-procedures-in-sql-server-using-the-sql-adapter.md).</span></span> <span data-ttu-id="adc83-106">這些作業的 SOAP 訊息結構的相關資訊，請參閱[訊息結構描述的程序和函式](../../adapters-and-accelerators/adapter-sql/message-schemas-for-procedures-and-functions.md)。</span><span class="sxs-lookup"><span data-stu-id="adc83-106">For information about the structure of the SOAP message for these operations, see [Message Schemas for Procedures and Functions](../../adapters-and-accelerators/adapter-sql/message-schemas-for-procedures-and-functions.md).</span></span>  
@@ -92,7 +93,7 @@ ms.lasthandoff: 11/28/2017
   
 |<span data-ttu-id="adc83-172">形狀圖</span><span class="sxs-lookup"><span data-stu-id="adc83-172">Shape</span></span>|<span data-ttu-id="adc83-173">圖形類型</span><span class="sxs-lookup"><span data-stu-id="adc83-173">Shape Type</span></span>|<span data-ttu-id="adc83-174">屬性</span><span class="sxs-lookup"><span data-stu-id="adc83-174">Properties</span></span>|  
 |-----------|----------------|----------------|  
-|<span data-ttu-id="adc83-175">ReceiveMessage</span><span class="sxs-lookup"><span data-stu-id="adc83-175">ReceiveMessage</span></span>|<span data-ttu-id="adc83-176">Receive</span><span class="sxs-lookup"><span data-stu-id="adc83-176">Receive</span></span>|<span data-ttu-id="adc83-177">-設定**名稱**至*ReceiveMessage*</span><span class="sxs-lookup"><span data-stu-id="adc83-177">-   Set **Name** to *ReceiveMessage*</span></span><br /><span data-ttu-id="adc83-178">-設定**啟動**至*，則為 True*</span><span class="sxs-lookup"><span data-stu-id="adc83-178">-   Set **Activate** to *True*</span></span>|  
+|<span data-ttu-id="adc83-175">ReceiveMessage</span><span class="sxs-lookup"><span data-stu-id="adc83-175">ReceiveMessage</span></span>|<span data-ttu-id="adc83-176">Receive</span><span class="sxs-lookup"><span data-stu-id="adc83-176">Receive</span></span>|<span data-ttu-id="adc83-177">-設定**名稱**至*ReceiveMessage*</span><span class="sxs-lookup"><span data-stu-id="adc83-177">-   Set **Name** to *ReceiveMessage*</span></span><br /><span data-ttu-id="adc83-178">-設定**啟動**至 *，則為 True*</span><span class="sxs-lookup"><span data-stu-id="adc83-178">-   Set **Activate** to *True*</span></span>|  
 |<span data-ttu-id="adc83-179">SendMessage</span><span class="sxs-lookup"><span data-stu-id="adc83-179">SendMessage</span></span>|<span data-ttu-id="adc83-180">Send</span><span class="sxs-lookup"><span data-stu-id="adc83-180">Send</span></span>|<span data-ttu-id="adc83-181">-設定**名稱**至*SendMessage*</span><span class="sxs-lookup"><span data-stu-id="adc83-181">-   Set **Name** to *SendMessage*</span></span>|  
 |<span data-ttu-id="adc83-182">ReceiveResponse</span><span class="sxs-lookup"><span data-stu-id="adc83-182">ReceiveResponse</span></span>|<span data-ttu-id="adc83-183">Receive</span><span class="sxs-lookup"><span data-stu-id="adc83-183">Receive</span></span>|<span data-ttu-id="adc83-184">-設定**名稱**至*ReceiveResponse*</span><span class="sxs-lookup"><span data-stu-id="adc83-184">-   Set **Name** to *ReceiveResponse*</span></span><br /><span data-ttu-id="adc83-185">-設定**啟動**至*False*</span><span class="sxs-lookup"><span data-stu-id="adc83-185">-   Set **Activate** to *False*</span></span>|  
 |<span data-ttu-id="adc83-186">SendResponse</span><span class="sxs-lookup"><span data-stu-id="adc83-186">SendResponse</span></span>|<span data-ttu-id="adc83-187">Send</span><span class="sxs-lookup"><span data-stu-id="adc83-187">Send</span></span>|<span data-ttu-id="adc83-188">-設定**名稱**至*SendResponse*</span><span class="sxs-lookup"><span data-stu-id="adc83-188">-   Set **Name** to *SendResponse*</span></span>|  

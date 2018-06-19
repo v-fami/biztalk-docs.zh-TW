@@ -1,14 +1,14 @@
 ---
-title: "清除目的地環境 |Microsoft 文件"
-ms.custom: 
+title: 清除目的地環境 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8585853b-e625-48c3-a241-81ebf1be0e1e
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299862"
 ---
 # <a name="cleaning-the-destination-environment"></a><span data-ttu-id="e6b25-102">清除目的地環境</span><span class="sxs-lookup"><span data-stu-id="e6b25-102">Cleaning the Destination Environment</span></span>
 <span data-ttu-id="e6b25-103">如果還原作業遇到無法解決的錯誤狀況，清除目的地環境，好讓它能夠開始從空的環境。</span><span class="sxs-lookup"><span data-stu-id="e6b25-103">If the restore job encounters error conditions that cannot be resolved, clean the destination environment so that it can start from an empty environment.</span></span> <span data-ttu-id="e6b25-104">執行預存程序**sp_LogShippingClean**位於 master 資料庫的目的地上[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]執行個體將會 「 清除 」 目的地環境。</span><span class="sxs-lookup"><span data-stu-id="e6b25-104">Running the stored procedure **sp_LogShippingClean** located in the master database on the destination [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] instance will “clean” the destination environment.</span></span> <span data-ttu-id="e6b25-105">此程序會卸除所有資料庫，並刪除指定之來源的最後一個還原的資料集。</span><span class="sxs-lookup"><span data-stu-id="e6b25-105">This procedure drops all databases and deletes the last restored data set for the specified source.</span></span>  

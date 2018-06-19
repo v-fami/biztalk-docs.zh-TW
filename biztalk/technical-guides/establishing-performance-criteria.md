@@ -1,14 +1,14 @@
 ---
-title: "建立效能準則 |Microsoft 文件"
-ms.custom: 
+title: 建立效能準則 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 181011d1-aa74-43fe-b05a-30b043956d70
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299982"
 ---
 # <a name="establishing-performance-criteria"></a><span data-ttu-id="f9f0f-102">建立效能準則</span><span class="sxs-lookup"><span data-stu-id="f9f0f-102">Establishing Performance Criteria</span></span>
 <span data-ttu-id="f9f0f-103">BizTalk Server 解決方案的效能目標通常會歸類到其中的兩個類別目錄、 輸送量或延遲。</span><span class="sxs-lookup"><span data-stu-id="f9f0f-103">The performance goals of a BizTalk Server solution typically fall into one of two categories, throughput or latency.</span></span> <span data-ttu-id="f9f0f-104">本主題說明評估輸送量或延遲的 BizTalk Server 解決方案時，應考量的因素。</span><span class="sxs-lookup"><span data-stu-id="f9f0f-104">This topic describes the factors that should be considered when evaluating the throughput or latency of a BizTalk Server solution.</span></span>  

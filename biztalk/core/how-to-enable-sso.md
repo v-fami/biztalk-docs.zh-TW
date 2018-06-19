@@ -17,7 +17,7 @@ helpviewer_keywords:
 - creating, applications [SSO]
 - managing [SSO], creating affiliate applications
 ms.assetid: dda89d15-6b70-4c40-b658-2f6cbdd545c8
-caps.latest.revision: ''
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25970404"
 ---
 # <a name="how-to-enable-sso"></a><span data-ttu-id="fcce8-102">如何啟用 SSO</span><span class="sxs-lookup"><span data-stu-id="fcce8-102">How to Enable SSO</span></span>
 <span data-ttu-id="fcce8-103">使用 MMC 嵌入式管理單元或命令列，可以啟用整個企業單一登入 (SSO) 系統。</span><span class="sxs-lookup"><span data-stu-id="fcce8-103">You can enable the entire Enterprise Single Sign-On (SSO) system by using either the MMC Snap-In or the command line.</span></span>  
@@ -44,7 +45,7 @@ ms.lasthandoff: 03/28/2018
   
 ### <a name="to-enable-the-sso-system-using-the-command-line"></a><span data-ttu-id="fcce8-112">使用命令列啟用 SSO 系統</span><span class="sxs-lookup"><span data-stu-id="fcce8-112">To enable the SSO system using the command line</span></span>  
   
-1.  <span data-ttu-id="fcce8-113">依序按一下 **[開始]**及 **[執行]**，然後輸入 **cmd**。</span><span class="sxs-lookup"><span data-stu-id="fcce8-113">Click **Start**, click **Run**, and then type **cmd**.</span></span>  
+1.  <span data-ttu-id="fcce8-113">依序按一下 **[開始]** 及 **[執行]**，然後輸入 **cmd**。</span><span class="sxs-lookup"><span data-stu-id="fcce8-113">Click **Start**, click **Run**, and then type **cmd**.</span></span>  
   
 2.  <span data-ttu-id="fcce8-114">在命令列提示字元中，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="fcce8-114">At the command line prompt, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="fcce8-115">預設安裝目錄是**\<磁碟機\>**: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="fcce8-115">The default installation directory is **\<drive\>**:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   

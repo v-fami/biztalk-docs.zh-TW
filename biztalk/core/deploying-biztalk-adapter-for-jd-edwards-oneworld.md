@@ -9,7 +9,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f308d2fe-39dd-4008-94ed-292c4c26fe06
-caps.latest.revision: ''
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25969980"
 ---
 # <a name="import-the-jd-edwards-enterpriseone-application"></a><span data-ttu-id="6e26c-103">JD Edwards EnterpriseOne 應用程式匯入</span><span class="sxs-lookup"><span data-stu-id="6e26c-103">Import the JD Edwards EnterpriseOne application</span></span>
   

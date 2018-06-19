@@ -1,18 +1,18 @@
 ---
-title: "如何顯示 SSO 資料庫資訊 |Microsoft 文件"
-ms.custom: 
+title: 如何顯示 SSO 資料庫資訊 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [SSO], viewing SSO database
 - SSO database, viewing
 - viewing, SSO database
 ms.assetid: 0ebadd2e-6ea5-460c-b0a8-f48589e6bf1c
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,13 +21,14 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969324"
 ---
 # <a name="how-to-display-the-sso-database-information"></a><span data-ttu-id="4cd37-102">如何顯示 SSO 資料庫資訊</span><span class="sxs-lookup"><span data-stu-id="4cd37-102">How to Display the SSO Database Information</span></span>
 <span data-ttu-id="4cd37-103">您可以使用 MMC 嵌入式管理單元或是命令列 (ssomanage) 公用程式，以檢視 SSO 資料庫資訊。</span><span class="sxs-lookup"><span data-stu-id="4cd37-103">You can view SSO database information by using the MMC Snap-In or the command line (ssomanage) utility.</span></span>  
   
 ### <a name="to-display-the-sso-database-information-using-the-mmc-snap-in"></a><span data-ttu-id="4cd37-104">若要使用 MMC 嵌入式管理單元顯示 SSO 資料庫資訊</span><span class="sxs-lookup"><span data-stu-id="4cd37-104">To display the SSO database information using the MMC Snap-In</span></span>  
   
-1.  <span data-ttu-id="4cd37-105">在 **[開始]** 功能表上，依序按一下 **[所有程式]**及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。</span><span class="sxs-lookup"><span data-stu-id="4cd37-105">On the **Start** menu, click **All Programs**, click **Microsoft Enterprise Single Sign-On**, and then click **SSO Administration**.</span></span>  
+1.  <span data-ttu-id="4cd37-105">在 **[開始]** 功能表上，依序按一下 **[所有程式]** 及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。</span><span class="sxs-lookup"><span data-stu-id="4cd37-105">On the **Start** menu, click **All Programs**, click **Microsoft Enterprise Single Sign-On**, and then click **SSO Administration**.</span></span>  
   
 2.  <span data-ttu-id="4cd37-106">在 ENTSSO MMC 嵌入式管理單元的範圍窗格中，展開 **[企業單一登入]** 節點。</span><span class="sxs-lookup"><span data-stu-id="4cd37-106">In the scope pane of the ENTSSO MMC Snap-In, expand the **Enterprise Single Sign-On** node.</span></span>  
   

@@ -1,14 +1,14 @@
 ---
-title: "如何建立屬性結構描述 |Microsoft 文件"
-ms.custom: 
+title: 如何建立屬性結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 24086dea-62b8-4ef6-8af8-eb4ab7c3c018
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970476"
 ---
 # <a name="how-to-create-property-schemas"></a><span data-ttu-id="4ddcc-102">如何建立屬性結構描述</span><span class="sxs-lookup"><span data-stu-id="4ddcc-102">How to Create Property Schemas</span></span>
 <span data-ttu-id="4ddcc-103">如果您選擇要升級為屬性欄位的欄位，您必須先定義屬性結構描述。</span><span class="sxs-lookup"><span data-stu-id="4ddcc-103">If you choose to promote fields as property fields, you will need to define a property schema first.</span></span> <span data-ttu-id="4ddcc-104">此屬性結構描述將指定未結構化的欄位集合，您可以將欄位從與屬性結構描述相關之結構描述所定義的執行個體訊息升級至其中。</span><span class="sxs-lookup"><span data-stu-id="4ddcc-104">This property schema specifies an unstructured collection of fields into which you can promote fields from within an instance message defined by a schema associated with your property schema.</span></span>  

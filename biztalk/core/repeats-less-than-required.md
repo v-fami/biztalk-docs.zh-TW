@@ -1,14 +1,14 @@
 ---
-title: "重複少於所需 |Microsoft 文件"
-ms.custom: 
+title: 重複少於所需 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d5bebc13-0e70-4f73-99c0-fed917d79fba
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268526"
 ---
 # <a name="repeats-less-than-required"></a><span data-ttu-id="22141-102">重複少於所需的次數</span><span class="sxs-lookup"><span data-stu-id="22141-102">Repeats less than required</span></span>
 ## <a name="details"></a><span data-ttu-id="22141-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="22141-103">Details</span></span>  

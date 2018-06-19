@@ -1,15 +1,15 @@
 ---
-title: "使用 TIBCO EMS 訊息內容屬性 |Microsoft 文件"
-description: "使用 BizTalk Server 協調流程中的 TIBCO Enterprise Message System 訊息描述元欄位"
-ms.custom: 
+title: 使用 TIBCO EMS 訊息內容屬性 |Microsoft 文件
+description: 使用 BizTalk Server 協調流程中的 TIBCO Enterprise Message System 訊息描述元欄位
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 163ac2cf-0e2d-4780-b398-baa825f92b00
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970436"
 ---
 # <a name="message-context-properties-in-tibco-ems"></a><span data-ttu-id="cf52c-103">在 TIBCO EMS 的訊息內容屬性</span><span class="sxs-lookup"><span data-stu-id="cf52c-103">Message Context Properties in TIBCO EMS</span></span>
 

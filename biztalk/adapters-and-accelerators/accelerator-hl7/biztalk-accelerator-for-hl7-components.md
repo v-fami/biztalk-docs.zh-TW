@@ -1,17 +1,17 @@
 ---
-title: "BizTalk Accelerator for HL7 元件 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Accelerator for HL7 元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - components
 - BTAHL7, components
 ms.assetid: 1dc23c9a-b11d-4931-ade8-9bfcf8a53b6d
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204390"
 ---
 # <a name="biztalk-accelerator-for-hl7-components"></a><span data-ttu-id="356d8-102">BizTalk Accelerator for HL7 元件</span><span class="sxs-lookup"><span data-stu-id="356d8-102">BizTalk Accelerator for HL7 Components</span></span>
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="356d8-103">BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 元件包括 HL7 和 XML 解譯器 HL7 和 XML 組合器，接收和傳送埠、 管線和批次協調流程。</span><span class="sxs-lookup"><span data-stu-id="356d8-103"> BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) components include HL7 and XML disassemblers, HL7 and XML assemblers, receive and send ports, pipelines, and a batch orchestration.</span></span> <span data-ttu-id="356d8-104">這些元件放入[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]系統，以提供無縫式的醫療保健方案。</span><span class="sxs-lookup"><span data-stu-id="356d8-104">These components fit into the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] system to provide a seamless health care solution.</span></span>  

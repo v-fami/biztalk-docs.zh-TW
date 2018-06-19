@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "25966460"
 ---
 # <a name="configure-the-fileact-and-interact-adapter"></a><span data-ttu-id="9701b-102">設定 FileAct 和互動配接器</span><span class="sxs-lookup"><span data-stu-id="9701b-102">Configure the FileAct and InterAct Adapter</span></span>
 <span data-ttu-id="9701b-103">設定所使用的不同成品[!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)]執行階段。</span><span class="sxs-lookup"><span data-stu-id="9701b-103">Configure the different artifacts used by the [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)] runtime.</span></span> 

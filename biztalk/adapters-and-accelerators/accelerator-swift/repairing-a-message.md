@@ -10,7 +10,7 @@ ms.topic: article
 helpviewer_keywords:
 - repairing messages
 ms.assetid: 3a61b73b-5433-4249-b580-6194ccb4aebc
-caps.latest.revision: ''
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -19,6 +19,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25961556"
 ---
 # <a name="repairing-a-message"></a><span data-ttu-id="420db-102">修復訊息</span><span class="sxs-lookup"><span data-stu-id="420db-102">Repairing a Message</span></span>
 <span data-ttu-id="420db-103">本章節描述如何修復驗證失敗的訊息。</span><span class="sxs-lookup"><span data-stu-id="420db-103">This section describes how to repair a message that has failed validation.</span></span>  

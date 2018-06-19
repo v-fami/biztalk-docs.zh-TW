@@ -1,14 +1,14 @@
 ---
-title: "Choice 群組節點 |Microsoft 文件"
-ms.custom: 
+title: Choice 群組節點 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 466b525d-4d8c-4b8e-830d-eee27845c0dc
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970396"
 ---
 # <a name="choice-group-nodes"></a><span data-ttu-id="a8369-102">Choice 群組節點</span><span class="sxs-lookup"><span data-stu-id="a8369-102">Choice Group Nodes</span></span>
 <span data-ttu-id="a8369-103">在 [BizTalk 編輯器] 中，您可以插入**Choice 群組**節點，以包含其他節點 （或整個子樹狀結構的節點），其中只有一個可以出現在執行個體訊息。</span><span class="sxs-lookup"><span data-stu-id="a8369-103">In BizTalk Editor, you can insert a **Choice Group** node to contain other nodes (or entire subtrees of nodes), only one of which can appear in an instance message.</span></span> <span data-ttu-id="a8369-104">指定的執行個體訊息若有效，將只有其中一個選擇存在。</span><span class="sxs-lookup"><span data-stu-id="a8369-104">A given instance message, if valid, will have only one of the choices present.</span></span> <span data-ttu-id="a8369-105">包含的節點必須是對應到 XML 項目的節點，但不能是對應到 XML 屬性的節點。</span><span class="sxs-lookup"><span data-stu-id="a8369-105">The contained nodes must be nodes that correspond to XML elements, but cannot be nodes that correspond to XML attributes.</span></span>  

@@ -1,17 +1,17 @@
 ---
-title: "設定實體連接埠繫結使用連接埠繫結檔案至 SAP |Microsoft 文件"
-ms.custom: 
+title: 設定實體連接埠繫結使用連接埠繫結檔案至 SAP |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - port binding file
 - physical port binding, configuring using a port binding file
 ms.assetid: c637971c-3ecd-4026-8f74-bd5173774438
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217590"
 ---
 # <a name="configure-a-physical-port-binding-using-a-port-binding-file-to-sap"></a><span data-ttu-id="164d5-102">設定使用連接埠繫結檔案至 SAP 的實體連接埠繫結</span><span class="sxs-lookup"><span data-stu-id="164d5-102">Configure a physical port binding using a port binding file to SAP</span></span>
 <span data-ttu-id="164d5-103">當您使用[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]產生中繼資料的 SAP 成品，以外的結構描述檔案，[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]也會產生連接埠繫結檔案。</span><span class="sxs-lookup"><span data-stu-id="164d5-103">When you use the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] to generate metadata for an SAP artifact, other than the schema files, the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] also generates a port binding file.</span></span> <span data-ttu-id="164d5-104">您可以將此繫結檔案匯 BizTalk 應用程式來建立實體傳送或接收埠。</span><span class="sxs-lookup"><span data-stu-id="164d5-104">You can import this binding file into your BizTalk application to create a physical send or receive port.</span></span> <span data-ttu-id="164d5-105">[重複使用 SAP 配接器繫結](../../adapters-and-accelerators/adapter-sap/reuse-sap-adapter-bindings.md)包括步驟來匯入繫結檔案。</span><span class="sxs-lookup"><span data-stu-id="164d5-105">[Reuse SAP adapter bindings](../../adapters-and-accelerators/adapter-sap/reuse-sap-adapter-bindings.md) includes steps to import binding files.</span></span> <span data-ttu-id="164d5-106">如果您匯入此繫結檔案，您不必手動建立實體傳送或接收埠。</span><span class="sxs-lookup"><span data-stu-id="164d5-106">If you import this binding file, you do not have to manually create a physical send or receive port.</span></span>  

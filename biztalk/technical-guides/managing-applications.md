@@ -1,14 +1,14 @@
 ---
-title: "管理應用程式 |Microsoft 文件"
-ms.custom: 
+title: 管理應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ef1039fb-7460-444b-a45e-2783bdc7c109
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298670"
 ---
 # <a name="managing-applications"></a><span data-ttu-id="0f3d1-102">管理應用程式</span><span class="sxs-lookup"><span data-stu-id="0f3d1-102">Managing Applications</span></span>
 <span data-ttu-id="0f3d1-103">BizTalk 應用程式是應用程式成品，例如協調流程、 管線、 結構描述、 對應和連接埠的邏輯容器。</span><span class="sxs-lookup"><span data-stu-id="0f3d1-103">A BizTalk application is a logical container for application artifacts, such as orchestrations, pipelines, schemas, maps, and ports.</span></span> <span data-ttu-id="0f3d1-104">BizTalk 應用程式可讓您在相同的容器中包含相關的元件。</span><span class="sxs-lookup"><span data-stu-id="0f3d1-104">BizTalk applications enable you to include related components in the same container.</span></span> <span data-ttu-id="0f3d1-105">在應用程式內的任何成品可能會在該應用程式的其他成品，或任何參考的應用程式中的任何成品參考。</span><span class="sxs-lookup"><span data-stu-id="0f3d1-105">Any artifact within an application may refer to any other artifacts within that application, or to any artifact in any referenced application.</span></span> <span data-ttu-id="0f3d1-106">如需可以在 BizTalk 應用程式的成品的完整清單，請參閱[什麼是 BizTalk 應用程式？](http://go.microsoft.com/fwlink/?LinkId=154994)</span><span class="sxs-lookup"><span data-stu-id="0f3d1-106">For a complete list of artifacts that can be in a BizTalk application, see [What is a BizTalk Application?](http://go.microsoft.com/fwlink/?LinkId=154994)</span></span> <span data-ttu-id="0f3d1-107">(http://go.microsoft.com/fwlink/?LinkId=154994)。</span><span class="sxs-lookup"><span data-stu-id="0f3d1-107">(http://go.microsoft.com/fwlink/?LinkId=154994).</span></span>  

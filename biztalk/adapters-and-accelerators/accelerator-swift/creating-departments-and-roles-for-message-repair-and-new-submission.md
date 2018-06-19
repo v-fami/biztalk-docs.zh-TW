@@ -1,11 +1,11 @@
 ---
-title: "建立部門和角色 Message Repair 和 New Submission |Microsoft 文件"
-ms.custom: 
+title: 建立部門和角色 Message Repair 和 New Submission |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - departments, creating
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - certificates, messages
 - messages, certificates
 ms.assetid: 6337bd57-63c5-4d97-b558-ac27d5eb60d7
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210534"
 ---
 # <a name="creating-departments-and-roles-for-message-repair-and-new-submission"></a><span data-ttu-id="1663b-102">Message Repair 和 New Submission 建立部門和角色</span><span class="sxs-lookup"><span data-stu-id="1663b-102">Creating Departments and Roles for Message Repair and New Submission</span></span>
 <span data-ttu-id="1663b-103">Message Repair 和 New Submission 牽涉到下列四個不同的作業：</span><span class="sxs-lookup"><span data-stu-id="1663b-103">Message Repair and New Submission involves the following four different operations:</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Oracle EBS 配接器疑難排解 |Microsoft 文件"
-ms.custom: 
+title: Oracle EBS 配接器疑難排解 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d78d5335-b860-47d9-9f3a-7f74d628d8ff
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216174"
 ---
 # <a name="troubleshooting-the-oracle-ebs-adapter"></a><span data-ttu-id="637cf-102">Oracle EBS 配接器疑難排解</span><span class="sxs-lookup"><span data-stu-id="637cf-102">Troubleshooting the Oracle EBS adapter</span></span>
 ## <a name="overview"></a><span data-ttu-id="637cf-103">概觀</span><span class="sxs-lookup"><span data-stu-id="637cf-103">Overview</span></span>

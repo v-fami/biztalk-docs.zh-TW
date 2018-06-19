@@ -1,17 +1,17 @@
 ---
-title: "步驟 2： 設定 Wcf-custom 單向傳送埠 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 設定 Wcf-custom 單向傳送埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF-Custom one-way send port, configuring
 - migration
 ms.assetid: ae13222e-42e7-45a7-9b2a-0a6779b21736
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,13 +20,14 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962788"
 ---
 # <a name="step-2-configure-a-wcf-custom-one-way-send-port"></a><span data-ttu-id="90b91-102">步驟 2： 設定 Wcf-custom 單向傳送埠</span><span class="sxs-lookup"><span data-stu-id="90b91-102">Step 2: Configure a WCF-Custom One-way Send Port</span></span>
 <span data-ttu-id="90b91-103">![步驟 3 之 2](../../adapters-and-accelerators/adapter-oracle-database/media/step-2of3.gif "Step_2of3")</span><span class="sxs-lookup"><span data-stu-id="90b91-103">![Step 2 of 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-2of3.gif "Step_2of3")</span></span>  
   
  <span data-ttu-id="90b91-104">**若要完成的時間：** 10 分鐘</span><span class="sxs-lookup"><span data-stu-id="90b91-104">**Time to complete:** 10 minutes</span></span>  
   
- <span data-ttu-id="90b91-105">**目標：**在此步驟中，您可以設定 WCF 自訂連接埠來傳送一般檔案 IDOC 到 SAP 系統。</span><span class="sxs-lookup"><span data-stu-id="90b91-105">**Objective:** In this step, you configure a WCF-Custom port to send the flat-file IDOC to an SAP system.</span></span> <span data-ttu-id="90b91-106">設定連接埠之後, 您可以設定使用 Wcf-custom 傳送埠的 BizTalk 應用程式。</span><span class="sxs-lookup"><span data-stu-id="90b91-106">After configuring the port, you configure the BizTalk application to use the WCF-Custom send port.</span></span>  
+ <span data-ttu-id="90b91-105">**目標：** 在此步驟中，您可以設定 WCF 自訂連接埠來傳送一般檔案 IDOC 到 SAP 系統。</span><span class="sxs-lookup"><span data-stu-id="90b91-105">**Objective:** In this step, you configure a WCF-Custom port to send the flat-file IDOC to an SAP system.</span></span> <span data-ttu-id="90b91-106">設定連接埠之後, 您可以設定使用 Wcf-custom 傳送埠的 BizTalk 應用程式。</span><span class="sxs-lookup"><span data-stu-id="90b91-106">After configuring the port, you configure the BizTalk application to use the WCF-Custom send port.</span></span>  
   
 ## <a name="prerequisites"></a><span data-ttu-id="90b91-107">必要條件</span><span class="sxs-lookup"><span data-stu-id="90b91-107">Prerequisites</span></span>  
  <span data-ttu-id="90b91-108">您必須建立和部署 vPrev BizTalk 專案，以傳送 Idoc 至 SAP 系統。</span><span class="sxs-lookup"><span data-stu-id="90b91-108">You must have built and deployed your vPrev BizTalk project to send IDOCs to an SAP system.</span></span>  
@@ -47,7 +48,7 @@ ms.lasthandoff: 11/28/2017
   
 7.  <span data-ttu-id="90b91-116">在**Wcf-custom 傳輸屬性**對話方塊方塊中，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="90b91-116">In the **WCF-Custom Transport Properties** dialog box, do the following:</span></span>  
   
-    1.  <span data-ttu-id="90b91-117">按一下**一般** 索引標籤，然後在**位址 (URI)**欄位中，指定連線將訊息傳送至 SAP 系統的 URI。</span><span class="sxs-lookup"><span data-stu-id="90b91-117">Click the **General** tab, and in the **Address (URI)** field, specify the connection URI to send messages to the SAP system.</span></span> <span data-ttu-id="90b91-118">如需連線 URI 的詳細資訊，請參閱[建立 SAP 系統連接 URI](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md)。</span><span class="sxs-lookup"><span data-stu-id="90b91-118">For more information about the connection URI, see [Create the SAP System Connection URI](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md).</span></span>  
+    1.  <span data-ttu-id="90b91-117">按一下**一般** 索引標籤，然後在**位址 (URI)** 欄位中，指定連線將訊息傳送至 SAP 系統的 URI。</span><span class="sxs-lookup"><span data-stu-id="90b91-117">Click the **General** tab, and in the **Address (URI)** field, specify the connection URI to send messages to the SAP system.</span></span> <span data-ttu-id="90b91-118">如需連線 URI 的詳細資訊，請參閱[建立 SAP 系統連接 URI](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md)。</span><span class="sxs-lookup"><span data-stu-id="90b91-118">For more information about the connection URI, see [Create the SAP System Connection URI](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md).</span></span>  
   
          <span data-ttu-id="90b91-119">![指定傳送埠中的連線 URI](../../adapters-and-accelerators/adapter-sap/media/53ae71e1-89ec-49c5-8096-ff04a2c94c0a.gif "53ae71e1-89ec-49c5-8096-ff04a2c94c0a")</span><span class="sxs-lookup"><span data-stu-id="90b91-119">![Connection URI specified in the send port](../../adapters-and-accelerators/adapter-sap/media/53ae71e1-89ec-49c5-8096-ff04a2c94c0a.gif "53ae71e1-89ec-49c5-8096-ff04a2c94c0a")</span></span>  
   

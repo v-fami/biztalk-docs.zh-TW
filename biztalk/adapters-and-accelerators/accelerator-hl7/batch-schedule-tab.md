@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204486"
 ---
 # <a name="batch-schedule-tab"></a><span data-ttu-id="b3eeb-102">批次排程 索引標籤</span><span class="sxs-lookup"><span data-stu-id="b3eeb-102">Batch Schedule Tab</span></span>
 <span data-ttu-id="b3eeb-103">您使用**批次排程**索引標籤來啟動、 要求或終止輸出批次。</span><span class="sxs-lookup"><span data-stu-id="b3eeb-103">You use the **Batch Schedule** tab to activate, request, or terminate an outbound batch.</span></span> <span data-ttu-id="b3eeb-104">啟用輸出批次包含兩個步驟： 設定以時間為基礎或訊息計數準則，然後啟動輸出批次處理協調流程。</span><span class="sxs-lookup"><span data-stu-id="b3eeb-104">Activating an outbound batch consists of two steps: configuring time-based or message count criteria and then starting the outbound batching orchestration.</span></span>  

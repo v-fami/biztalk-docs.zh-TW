@@ -1,14 +1,14 @@
 ---
-title: "EDIFACT CONTRL 通知 |Microsoft 文件"
-ms.custom: 
+title: EDIFACT CONTRL 通知 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 95e1c244-d700-48d3-9416-032ead6d4d6d
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968708"
 ---
 # <a name="edifact-contrl-acknowledgment"></a><span data-ttu-id="9883c-102">EDIFACT CONTRL 通知</span><span class="sxs-lookup"><span data-stu-id="9883c-102">EDIFACT CONTRL Acknowledgment</span></span>
 <span data-ttu-id="9883c-103">CONTRL 通知 (ACK) 可以做為 EDIFACT 編碼訊息的技術和功能通知。</span><span class="sxs-lookup"><span data-stu-id="9883c-103">The CONTRL acknowledgment (ACK) serves as both technical and functional acknowledgment for EDIFACT-encoded messages.</span></span> <span data-ttu-id="9883c-104">如果是做為技術通知，CONTRL 訊息會指示接收交換。</span><span class="sxs-lookup"><span data-stu-id="9883c-104">As a technical acknowledgment, the CONTRL message indicates receipt of an interchange.</span></span> <span data-ttu-id="9883c-105">如果是做為功能通知，CONTRL 訊息會指示接收或拒絕已接收的交換、群組或訊息，並列出錯誤或不支援的功能。</span><span class="sxs-lookup"><span data-stu-id="9883c-105">As a functional acknowledgment, the CONTRL message indicates acceptance or rejection of the received interchange, group, or message, with a list of errors or unsupported functionality.</span></span>  

@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1fed2344-8181-4c85-a2ef-a421fc40dce1
-caps.latest.revision: ''
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25966788"
 ---
 # <a name="as2-over-file-biztalk-server-sample"></a><span data-ttu-id="d71a1-102">AS2 Over File (BizTalk Server 範例)</span><span class="sxs-lookup"><span data-stu-id="d71a1-102">AS2 over File (BizTalk Server Sample)</span></span>
 <span data-ttu-id="d71a1-103">AS2 Over File 範例示範如何透過 FILE 接收位置接收 AS2 訊息。</span><span class="sxs-lookup"><span data-stu-id="d71a1-103">The AS2 Over File sample demonstrates how to receive an AS2 message over a FILE receive location.</span></span> <span data-ttu-id="d71a1-104">這可讓您使用 FILE 配接器來接收 AS2 訊息，而不是通常使用的 HTTP 配接器。</span><span class="sxs-lookup"><span data-stu-id="d71a1-104">This enables you to use a FILE adapter to receive the AS2 message, rather than an HTTP adapter, which is normally used.</span></span> <span data-ttu-id="d71a1-105">若要這樣做，此解決方案會在 AS2 解碼器要求時，將 AS2 訊息中的 HTTP 標頭寫入 InboundHTTPHeaders 內容屬性。</span><span class="sxs-lookup"><span data-stu-id="d71a1-105">To do so, this solution writes the HTTP headers in the AS2 message to the InboundHTTPHeaders context property, as required by the AS2 Decoder.</span></span>  

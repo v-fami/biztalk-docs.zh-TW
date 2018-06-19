@@ -1,14 +1,14 @@
 ---
-title: "AS2 安全性 |Microsoft 文件"
-ms.custom: 
+title: AS2 安全性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d15cb27f-e57f-4aa4-be72-4f1f14175fd9
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230142"
 ---
 # <a name="as2-security"></a><span data-ttu-id="8f81a-102">AS2 安全性</span><span class="sxs-lookup"><span data-stu-id="8f81a-102">AS2 Security</span></span>
 <span data-ttu-id="8f81a-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的原生 AS2 功能，可讓您使用加密金鑰、數位簽章和憑證來保護 AS2 訊息。</span><span class="sxs-lookup"><span data-stu-id="8f81a-103">The native AS2 feature of Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] enables you to help secure AS2 messages using encryption keys, digital signatures, and certificates.</span></span> <span data-ttu-id="8f81a-104">這項功能需要正確設定 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 和憑證。</span><span class="sxs-lookup"><span data-stu-id="8f81a-104">This requires the correct configuration of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], and the correct configuration of certificates.</span></span>  

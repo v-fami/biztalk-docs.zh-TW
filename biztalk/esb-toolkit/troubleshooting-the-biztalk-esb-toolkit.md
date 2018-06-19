@@ -1,15 +1,15 @@
 ---
-title: "疑難排解 BizTalk ESB 工具組 |Microsoft 文件"
-description: "疑難排解安裝問題，以及在 BizTalk Server ESB Toolkit 的常見錯誤"
-caps.latest.revision: "2"
+title: 疑難排解 BizTalk ESB 工具組 |Microsoft 文件
+description: 疑難排解安裝問題，以及在 BizTalk Server ESB Toolkit 的常見錯誤
+caps.latest.revision: 2
 author: MandiOhlinger
 manager: anneta
-ms.custom: 
+ms.custom: ''
 ms.date: 08/10/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e1ea2d56-2ace-40f2-80df-8a7489bbfc2e
 ms.author: mandia
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295342"
 ---
 # <a name="troubleshoot-the-biztalk-esb-toolkit"></a><span data-ttu-id="5800b-103">疑難排解 BizTalk ESB 工具組</span><span class="sxs-lookup"><span data-stu-id="5800b-103">Troubleshoot the BizTalk ESB Toolkit</span></span>
 
@@ -35,5 +36,5 @@ ms.lasthandoff: 09/20/2017
 |<span data-ttu-id="5800b-120">問題</span><span class="sxs-lookup"><span data-stu-id="5800b-120">Issue</span></span>|<span data-ttu-id="5800b-121">解決方案</span><span class="sxs-lookup"><span data-stu-id="5800b-121">Resolution</span></span>|  
 |-----------|----------------|  
 |<span data-ttu-id="5800b-122">將訊息傳送至泛型 ESB 行程上手 Web 服務時，您會收到 「 內部 SOAP 處理 」 的例外狀況。</span><span class="sxs-lookup"><span data-stu-id="5800b-122">You receive an "Internal SOAP Processing" exception when sending a message to the generic ESB Itinerary On-Ramp Web service.</span></span>|<span data-ttu-id="5800b-123">使用 BizTalk Server 管理主控台確認 Microsoft.Practices.ESB 應用程式正在執行。如果未執行，，啟動它。</span><span class="sxs-lookup"><span data-stu-id="5800b-123">Use the BizTalk Server Administration Console to ensure that the Microsoft.Practices.ESB application is running; if it is not running, start it.</span></span>|  
-|<span data-ttu-id="5800b-124">ESB 管理入口網站中沒有出現例外狀況訊息。</span><span class="sxs-lookup"><span data-stu-id="5800b-124">Exception messages are not appearing in the ESB Management Portal site.</span></span>|<span data-ttu-id="5800b-125">請檢查 [BizTalk 系統管理員群組概觀] 頁面和 Windows 應用程式事件記錄檔，表示傳送訊息失敗的項目。</span><span class="sxs-lookup"><span data-stu-id="5800b-125">Check the BizTalk Administrator Group Overview page and the Windows Application Event Log for entries that indicate failures to send messages.</span></span> <span data-ttu-id="5800b-126">您可能需要重新傳送配接器 （Microsoft.Practices.ESB 應用程式的一部分） 的例外狀況設定以符合您的環境。</span><span class="sxs-lookup"><span data-stu-id="5800b-126">You may need to reconfigure the exception Send Adapter (part of the Microsoft.Practices.ESB application) to match your environment.</span></span> <span data-ttu-id="5800b-127">此外，請注意 BizTalk 失敗訊息路由的功能和 BizTalk ESB Toolkit 例外狀況管理架構產生的例外狀況訊息。</span><span class="sxs-lookup"><span data-stu-id="5800b-127">In addition, be aware that both the BizTalk Failed Message Routing feature and the BizTalk ESB Toolkit Exception Management Framework generate exceptions messages.</span></span> <span data-ttu-id="5800b-128">因此，請確定您啟用**失敗訊息路由，**選項傳送和接收埠。</span><span class="sxs-lookup"><span data-stu-id="5800b-128">Therefore, ensure that you enable the **Route on Failed Messages** option for send and receive ports.</span></span>|  
+|<span data-ttu-id="5800b-124">ESB 管理入口網站中沒有出現例外狀況訊息。</span><span class="sxs-lookup"><span data-stu-id="5800b-124">Exception messages are not appearing in the ESB Management Portal site.</span></span>|<span data-ttu-id="5800b-125">請檢查 [BizTalk 系統管理員群組概觀] 頁面和 Windows 應用程式事件記錄檔，表示傳送訊息失敗的項目。</span><span class="sxs-lookup"><span data-stu-id="5800b-125">Check the BizTalk Administrator Group Overview page and the Windows Application Event Log for entries that indicate failures to send messages.</span></span> <span data-ttu-id="5800b-126">您可能需要重新傳送配接器 （Microsoft.Practices.ESB 應用程式的一部分） 的例外狀況設定以符合您的環境。</span><span class="sxs-lookup"><span data-stu-id="5800b-126">You may need to reconfigure the exception Send Adapter (part of the Microsoft.Practices.ESB application) to match your environment.</span></span> <span data-ttu-id="5800b-127">此外，請注意 BizTalk 失敗訊息路由的功能和 BizTalk ESB Toolkit 例外狀況管理架構產生的例外狀況訊息。</span><span class="sxs-lookup"><span data-stu-id="5800b-127">In addition, be aware that both the BizTalk Failed Message Routing feature and the BizTalk ESB Toolkit Exception Management Framework generate exceptions messages.</span></span> <span data-ttu-id="5800b-128">因此，請確定您啟用**失敗訊息路由，** 選項傳送和接收埠。</span><span class="sxs-lookup"><span data-stu-id="5800b-128">Therefore, ensure that you enable the **Route on Failed Messages** option for send and receive ports.</span></span>|  
 |<span data-ttu-id="5800b-129">當具有靜態解析程式使用 WCF 服務，您會收到 「 無效的 SOAP 動作例外狀況。</span><span class="sxs-lookup"><span data-stu-id="5800b-129">When consuming a WCF service with a static resolver, you receive an invalid SOAP action exception.</span></span>|<span data-ttu-id="5800b-130">如果 WCF 服務的 SOAP 動作不包括目標命名空間，設定的 SOAP 動作值解析程式設定中使用下列格式: {action} 指示的目標命名空間不串連 ESB Toolkit 核心引擎在執行階段。</span><span class="sxs-lookup"><span data-stu-id="5800b-130">If the WCF service SOAP action does not include the target namespace, set the value of the SOAP action in the following format in the resolver setting: {action} to indicate that the target namespace will not be concatenated by the ESB Toolkit core engine at runtime.</span></span>|

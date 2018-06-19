@@ -1,14 +1,14 @@
 ---
-title: "使用動態路由 |Microsoft 文件"
-ms.custom: 
+title: 使用動態路由 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: caa3a35f-cafa-4524-8b96-f8a333b7ff87
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295694"
 ---
 # <a name="using-dynamic-routing"></a><span data-ttu-id="a0b4f-102">使用動態路由</span><span class="sxs-lookup"><span data-stu-id="a0b4f-102">Using Dynamic Routing</span></span>
 <span data-ttu-id="a0b4f-103">[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]支援動態路由的訊息使用內建的程序和泛型傳遞代理程式; 它也支援動態路由使用 ESB 發送器或 ESB 發送器解譯管線元件在訊息層級的訊息。</span><span class="sxs-lookup"><span data-stu-id="a0b4f-103">The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] supports dynamic routing of messages using a built-in process and a generic delivery agent; it also supports dynamic routing of messages at the messaging layer using the ESB Dispatcher or ESB Dispatcher Disassemble pipeline components.</span></span>  

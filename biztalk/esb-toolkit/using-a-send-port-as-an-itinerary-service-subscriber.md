@@ -1,14 +1,14 @@
 ---
-title: "為路線服務的訂閱者使用傳送埠 |Microsoft 文件"
-ms.custom: 
+title: 為路線服務的訂閱者使用傳送埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 898b461c-4d0d-4703-a8ca-7f52f3f15f70
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295486"
 ---
 # <a name="using-a-send-port-as-an-itinerary-service-subscriber"></a><span data-ttu-id="cc4e4-102">為路線服務的訂閱者使用傳送埠</span><span class="sxs-lookup"><span data-stu-id="cc4e4-102">Using a Send Port as an Itinerary Service Subscriber</span></span>
 <span data-ttu-id="cc4e4-103">如需如何為路線服務的訂閱者使用的傳送埠的範例，圖 1 所示動態單向傳送埠拾取訊息符合下列條件的篩選條件：</span><span class="sxs-lookup"><span data-stu-id="cc4e4-103">As an example of how to use a send port as an itinerary service subscriber, Figure 1 shows the filter conditions for a dynamic one-way sent port that picks up messages that meet the following conditions:</span></span>  

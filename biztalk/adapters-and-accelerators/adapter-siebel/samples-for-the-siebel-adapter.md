@@ -1,15 +1,15 @@
 ---
-title: "Siebel 配接器範例 |Microsoft 文件"
-description: "可以搭配 BizTalk Server、 WCF 服務模型和資料提供者 siebel 的 Siebel WCF 配接器範例"
-ms.custom: 
+title: Siebel 配接器範例 |Microsoft 文件
+description: 可以搭配 BizTalk Server、 WCF 服務模型和資料提供者 siebel 的 Siebel WCF 配接器範例
+ms.custom: ''
 ms.date: 10/18/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 069d676e-211e-474c-9cf5-c660fdd22014
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015221"
 ---
 # <a name="samples-for-the-siebel-adapter"></a><span data-ttu-id="1a97f-103">Siebel 配接器的範例</span><span class="sxs-lookup"><span data-stu-id="1a97f-103">Samples for the Siebel adapter</span></span>
 <span data-ttu-id="1a97f-104">範例如[!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)]分類成：</span><span class="sxs-lookup"><span data-stu-id="1a97f-104">Samples for [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] are categorized into:</span></span>  

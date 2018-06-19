@@ -1,14 +1,14 @@
 ---
-title: "SSO 和 BizTalk Adapter for TIBCO 企業訊息服務 |Microsoft 文件"
-ms.custom: 
+title: SSO 和 BizTalk Adapter for TIBCO 企業訊息服務 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 68e85ceb-bf4c-489a-a2c2-1558e718ceed
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013413"
 ---
 # <a name="single-sign-on-and-biztalk-adapter-for-tibco-enterprise-message-service"></a><span data-ttu-id="bf07f-102">單一登入與 BizTalk Adapter for TIBCO Enterprise Message Service</span><span class="sxs-lookup"><span data-stu-id="bf07f-102">Single Sign-On and BizTalk Adapter for TIBCO Enterprise Message Service</span></span>
 

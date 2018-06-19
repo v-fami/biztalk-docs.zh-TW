@@ -1,15 +1,15 @@
 ---
-title: "SQL 配接器範例 |Microsoft 文件"
-description: "可以使用 BizTalk Server、 WCF 服務模型時，與 WCF 通道模型的 SQL WCF 配接器範例"
-ms.custom: 
+title: SQL 配接器範例 |Microsoft 文件
+description: 可以使用 BizTalk Server、 WCF 服務模型時，與 WCF 通道模型的 SQL WCF 配接器範例
+ms.custom: ''
 ms.date: 10/18/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f2438696-bc51-46df-81ca-00c17a52736e
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013941"
 ---
 # <a name="samples-for-the-sql-adapter"></a><span data-ttu-id="0910e-103">SQL 配接器範例</span><span class="sxs-lookup"><span data-stu-id="0910e-103">Samples for the SQL adapter</span></span>
 

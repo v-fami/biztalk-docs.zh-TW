@@ -1,15 +1,15 @@
 ---
-title: "安裝、 結構描述和限制的 TIBCO Rendezvous 配接器 |Microsoft 文件"
-description: "安裝、 產生和結構描述，BizTalk adapter for TIBCO Rendezvous 在 BizTalk Server 中的限制"
-ms.custom: 
+title: 安裝、 結構描述和限制的 TIBCO Rendezvous 配接器 |Microsoft 文件
+description: 安裝、 產生和結構描述，BizTalk adapter for TIBCO Rendezvous 在 BizTalk Server 中的限制
+ms.custom: ''
 ms.date: 10/23/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c6404e7e-f671-4c57-a222-0bbe7cbc334f
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013597"
 ---
 # <a name="install-schemas-and-limitations-of-the-tibco-rendezvous-adapter"></a><span data-ttu-id="72530-103">安裝、 結構描述和 TIBCO Rendezvous 配接器的限制</span><span class="sxs-lookup"><span data-stu-id="72530-103">Install, schemas, and limitations of the TIBCO Rendezvous adapter</span></span>
 

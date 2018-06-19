@@ -1,17 +1,17 @@
 ---
-title: "執行與 Oracle 資料庫中的大型物件資料類型的資料表上的作業 |Microsoft 文件"
-ms.custom: 
+title: 執行與 Oracle 資料庫中的大型物件資料類型的資料表上的作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - operations, performing on tables
 - operations, performing on LOB data
 ms.assetid: 74276b85-daf1-4d0f-92f9-46d5c27a95a6
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967844"
 ---
 # <a name="run-operations-on-tables-with-large-object-data-types-in-oracle-database"></a><span data-ttu-id="105a7-102">執行與 Oracle 資料庫中的大型物件資料類型的資料表上的作業</span><span class="sxs-lookup"><span data-stu-id="105a7-102">Run operations on tables with large object data types in Oracle Database</span></span>
 <span data-ttu-id="105a7-103">[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]提供 Oracle 大型物件 (LOB) 資料類型的支援：</span><span class="sxs-lookup"><span data-stu-id="105a7-103">The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] provides support for the Oracle large object (LOB) data types:</span></span>  
@@ -80,7 +81,7 @@ ms.lasthandoff: 11/28/2017
     |<span data-ttu-id="105a7-147">使用</span><span class="sxs-lookup"><span data-stu-id="105a7-147">Use this</span></span>|<span data-ttu-id="105a7-148">動作</span><span class="sxs-lookup"><span data-stu-id="105a7-148">To do this</span></span>|  
     |--------------|----------------|  
     |<span data-ttu-id="105a7-149">識別碼</span><span class="sxs-lookup"><span data-stu-id="105a7-149">Identifier</span></span>|<span data-ttu-id="105a7-150">型別**要求**。</span><span class="sxs-lookup"><span data-stu-id="105a7-150">Type **Request**.</span></span>|  
-    |<span data-ttu-id="105a7-151">訊息類型</span><span class="sxs-lookup"><span data-stu-id="105a7-151">Message Type</span></span>|<span data-ttu-id="105a7-152">從下拉式清單中，展開 **結構描述**，然後選取*Operate_LOB。OracleDBBindingSchema.ReadLOB**，*其中*Operate_LOB*是您的 BizTalk 專案的名稱。</span><span class="sxs-lookup"><span data-stu-id="105a7-152">From the drop-down list, expand **Schemas**, and select *Operate_LOB.OracleDBBindingSchema.ReadLOB**,* where *Operate_LOB* is the name of your BizTalk project.</span></span> <span data-ttu-id="105a7-153">*OracleDBBindingSchema*是 CUSTOMER 資料表的 ReadLOB 和 UpdateLOB 作業產生的結構描述。</span><span class="sxs-lookup"><span data-stu-id="105a7-153">*OracleDBBindingSchema* is the schema generated for the ReadLOB and UpdateLOB operations on the CUSTOMER table.</span></span>|  
+    |<span data-ttu-id="105a7-151">訊息類型</span><span class="sxs-lookup"><span data-stu-id="105a7-151">Message Type</span></span>|<span data-ttu-id="105a7-152">從下拉式清單中，展開 **結構描述**，然後選取*Operate_LOB。OracleDBBindingSchema.ReadLOB**，* 其中*Operate_LOB*是您的 BizTalk 專案的名稱。</span><span class="sxs-lookup"><span data-stu-id="105a7-152">From the drop-down list, expand **Schemas**, and select *Operate_LOB.OracleDBBindingSchema.ReadLOB**,* where *Operate_LOB* is the name of your BizTalk project.</span></span> <span data-ttu-id="105a7-153">*OracleDBBindingSchema*是 CUSTOMER 資料表的 ReadLOB 和 UpdateLOB 作業產生的結構描述。</span><span class="sxs-lookup"><span data-stu-id="105a7-153">*OracleDBBindingSchema* is the schema generated for the ReadLOB and UpdateLOB operations on the CUSTOMER table.</span></span>|  
   
 5.  <span data-ttu-id="105a7-154">重複上述步驟，建立三個的多個訊息。</span><span class="sxs-lookup"><span data-stu-id="105a7-154">Repeat the previous step to create three more messages.</span></span> <span data-ttu-id="105a7-155">在**屬性**窗格，以新的訊息，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="105a7-155">In the **Properties** pane for the new messages, do the following:</span></span>  
   
@@ -112,7 +113,7 @@ ms.lasthandoff: 11/28/2017
   
 |<span data-ttu-id="105a7-184">形狀圖</span><span class="sxs-lookup"><span data-stu-id="105a7-184">Shape</span></span>|<span data-ttu-id="105a7-185">圖形類型</span><span class="sxs-lookup"><span data-stu-id="105a7-185">Shape Type</span></span>|<span data-ttu-id="105a7-186">屬性</span><span class="sxs-lookup"><span data-stu-id="105a7-186">Properties</span></span>|  
 |-----------|----------------|----------------|  
-|<span data-ttu-id="105a7-187">ReceiveMessage</span><span class="sxs-lookup"><span data-stu-id="105a7-187">ReceiveMessage</span></span>|<span data-ttu-id="105a7-188">Receive</span><span class="sxs-lookup"><span data-stu-id="105a7-188">Receive</span></span>|<span data-ttu-id="105a7-189">-設定**名稱**至*ReceiveMessage*</span><span class="sxs-lookup"><span data-stu-id="105a7-189">-   Set **Name** to *ReceiveMessage*</span></span><br /><span data-ttu-id="105a7-190">-設定**啟動**至*，則為 True*</span><span class="sxs-lookup"><span data-stu-id="105a7-190">-   Set **Activate** to *True*</span></span>|  
+|<span data-ttu-id="105a7-187">ReceiveMessage</span><span class="sxs-lookup"><span data-stu-id="105a7-187">ReceiveMessage</span></span>|<span data-ttu-id="105a7-188">Receive</span><span class="sxs-lookup"><span data-stu-id="105a7-188">Receive</span></span>|<span data-ttu-id="105a7-189">-設定**名稱**至*ReceiveMessage*</span><span class="sxs-lookup"><span data-stu-id="105a7-189">-   Set **Name** to *ReceiveMessage*</span></span><br /><span data-ttu-id="105a7-190">-設定**啟動**至 *，則為 True*</span><span class="sxs-lookup"><span data-stu-id="105a7-190">-   Set **Activate** to *True*</span></span>|  
 |<span data-ttu-id="105a7-191">SendMessage</span><span class="sxs-lookup"><span data-stu-id="105a7-191">SendMessage</span></span>|<span data-ttu-id="105a7-192">Send</span><span class="sxs-lookup"><span data-stu-id="105a7-192">Send</span></span>|<span data-ttu-id="105a7-193">-設定**名稱**至*SendMessage*</span><span class="sxs-lookup"><span data-stu-id="105a7-193">-   Set **Name** to *SendMessage*</span></span>|  
 |<span data-ttu-id="105a7-194">ReceiveResponse</span><span class="sxs-lookup"><span data-stu-id="105a7-194">ReceiveResponse</span></span>|<span data-ttu-id="105a7-195">Receive</span><span class="sxs-lookup"><span data-stu-id="105a7-195">Receive</span></span>|<span data-ttu-id="105a7-196">-設定**名稱**至*ReceiveResponse*</span><span class="sxs-lookup"><span data-stu-id="105a7-196">-   Set **Name** to *ReceiveResponse*</span></span><br /><span data-ttu-id="105a7-197">-設定**啟動**至*False*</span><span class="sxs-lookup"><span data-stu-id="105a7-197">-   Set **Activate** to *False*</span></span>|  
 |<span data-ttu-id="105a7-198">SendResponse</span><span class="sxs-lookup"><span data-stu-id="105a7-198">SendResponse</span></span>|<span data-ttu-id="105a7-199">Send</span><span class="sxs-lookup"><span data-stu-id="105a7-199">Send</span></span>|<span data-ttu-id="105a7-200">-設定**名稱**至*SendResponse*</span><span class="sxs-lookup"><span data-stu-id="105a7-200">-   Set **Name** to *SendResponse*</span></span>|  
@@ -121,7 +122,7 @@ ms.lasthandoff: 11/28/2017
   
 |<span data-ttu-id="105a7-202">形狀圖</span><span class="sxs-lookup"><span data-stu-id="105a7-202">Shape</span></span>|<span data-ttu-id="105a7-203">圖形類型</span><span class="sxs-lookup"><span data-stu-id="105a7-203">Shape Type</span></span>|<span data-ttu-id="105a7-204">屬性</span><span class="sxs-lookup"><span data-stu-id="105a7-204">Properties</span></span>|  
 |-----------|----------------|----------------|  
-|<span data-ttu-id="105a7-205">ReceiveMessage2</span><span class="sxs-lookup"><span data-stu-id="105a7-205">ReceiveMessage2</span></span>|<span data-ttu-id="105a7-206">Receive</span><span class="sxs-lookup"><span data-stu-id="105a7-206">Receive</span></span>|<span data-ttu-id="105a7-207">-設定**名稱**至*ReceiveMessage2*</span><span class="sxs-lookup"><span data-stu-id="105a7-207">-   Set **Name** to *ReceiveMessage2*</span></span><br /><span data-ttu-id="105a7-208">-設定**啟動**至*，則為 True*</span><span class="sxs-lookup"><span data-stu-id="105a7-208">-   Set **Activate** to *True*</span></span>|  
+|<span data-ttu-id="105a7-205">ReceiveMessage2</span><span class="sxs-lookup"><span data-stu-id="105a7-205">ReceiveMessage2</span></span>|<span data-ttu-id="105a7-206">Receive</span><span class="sxs-lookup"><span data-stu-id="105a7-206">Receive</span></span>|<span data-ttu-id="105a7-207">-設定**名稱**至*ReceiveMessage2*</span><span class="sxs-lookup"><span data-stu-id="105a7-207">-   Set **Name** to *ReceiveMessage2*</span></span><br /><span data-ttu-id="105a7-208">-設定**啟動**至 *，則為 True*</span><span class="sxs-lookup"><span data-stu-id="105a7-208">-   Set **Activate** to *True*</span></span>|  
 |<span data-ttu-id="105a7-209">SendMessage2</span><span class="sxs-lookup"><span data-stu-id="105a7-209">SendMessage2</span></span>|<span data-ttu-id="105a7-210">Send</span><span class="sxs-lookup"><span data-stu-id="105a7-210">Send</span></span>|<span data-ttu-id="105a7-211">-設定**名稱**至*SendMessage2*</span><span class="sxs-lookup"><span data-stu-id="105a7-211">-   Set **Name** to *SendMessage2*</span></span>|  
 |<span data-ttu-id="105a7-212">ReceiveResponse2</span><span class="sxs-lookup"><span data-stu-id="105a7-212">ReceiveResponse2</span></span>|<span data-ttu-id="105a7-213">Receive</span><span class="sxs-lookup"><span data-stu-id="105a7-213">Receive</span></span>|<span data-ttu-id="105a7-214">-設定**名稱**至*ReceiveResponse2*</span><span class="sxs-lookup"><span data-stu-id="105a7-214">-   Set **Name** to *ReceiveResponse2*</span></span><br /><span data-ttu-id="105a7-215">-設定**啟動**至*False*</span><span class="sxs-lookup"><span data-stu-id="105a7-215">-   Set **Activate** to *False*</span></span>|  
 |<span data-ttu-id="105a7-216">SendResponse2</span><span class="sxs-lookup"><span data-stu-id="105a7-216">SendResponse2</span></span>|<span data-ttu-id="105a7-217">Send</span><span class="sxs-lookup"><span data-stu-id="105a7-217">Send</span></span>|<span data-ttu-id="105a7-218">-設定**名稱**至*SendResponse2*</span><span class="sxs-lookup"><span data-stu-id="105a7-218">-   Set **Name** to *SendResponse2*</span></span>|  

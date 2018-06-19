@@ -1,18 +1,18 @@
 ---
-title: "步驟 2： 建立交易夥伴組織 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 建立交易夥伴組織 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - partner organization
 - trading partners, partner organization
 - loopback tutorial, creating partner organization
 ms.assetid: 489bc961-dcb6-4610-989d-c06ba9f71b02
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963580"
 ---
 # <a name="step-2-create-the-partner-organization"></a><span data-ttu-id="213fc-102">步驟 2： 建立交易夥伴組織</span><span class="sxs-lookup"><span data-stu-id="213fc-102">Step 2: Create the Partner Organization</span></span>
 <span data-ttu-id="213fc-103">在此步驟中，您會使用 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 管理主控台來建立夥伴組織。</span><span class="sxs-lookup"><span data-stu-id="213fc-103">In this step, you create the partner organization using the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Management Console.</span></span>  

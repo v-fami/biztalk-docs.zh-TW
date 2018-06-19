@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209398"
 ---
 # <a name="how-biztalk-accelerator-for-rosettanet-works"></a><span data-ttu-id="cda57-102">BizTalk Accelerator for RosettaNet 的運作方式</span><span class="sxs-lookup"><span data-stu-id="cda57-102">How BizTalk Accelerator for RosettaNet Works</span></span>
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="cda57-103">®[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]建置來提供高科技製造解決方案[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="cda57-103">® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] provides a high-technology manufacturing solution by building on [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="cda57-104">它支援 RosettaNet 實作架構 (RNIF) 與「交易夥伴介面程序」(PIP)，並在高科技製造應用程式新增可自訂訊息處理的元件。</span><span class="sxs-lookup"><span data-stu-id="cda57-104">It does so by providing support for RosettaNet Implementation Framework (RNIF) and Partner Interface Processes (PIPs), and adding components that customize the message processing to high-technology manufacturing applications.</span></span>  

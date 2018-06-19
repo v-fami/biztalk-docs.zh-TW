@@ -1,17 +1,17 @@
 ---
-title: "啟用或停用 BAM 追蹤 |Microsoft 文件"
-ms.custom: 
+title: 啟用或停用 BAM 追蹤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Message Repair and New Submission, BAM tracking
 - BAM tracking
 ms.assetid: 07896fab-88a0-4759-8547-16edcd1eebc0
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207390"
 ---
 # <a name="enabling-or-disabling-bam-tracking"></a><span data-ttu-id="cd570-102">啟用或停用 BAM 追蹤</span><span class="sxs-lookup"><span data-stu-id="cd570-102">Enabling or Disabling BAM Tracking</span></span>
 <span data-ttu-id="cd570-103">您可以啟用或停用 BAM 追蹤的任何一點，即使訊息修復和新的傳輸處理序在程序中有交易。</span><span class="sxs-lookup"><span data-stu-id="cd570-103">You can enable or disable BAM tracking at any point, even while the Message Repair and New Transmission process has transactions in process.</span></span> <span data-ttu-id="cd570-104">不過，如果您停用 BAM 追蹤的交易中處理程序時，BAM 資料可能不完整，這些交易。</span><span class="sxs-lookup"><span data-stu-id="cd570-104">However, if you disable BAM tracking while transactions are in process, the BAM data may be incomplete for those transactions.</span></span> <span data-ttu-id="cd570-105">如果發生這種情況，歷程記錄資料表仍然會包含所有執行個體的正確資料。</span><span class="sxs-lookup"><span data-stu-id="cd570-105">If this occurs, the history table will still contain accurate data for all instances.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "如何將 BizTalk 主控件設定為叢集 Resource1 |Microsoft 文件"
-ms.custom: 
+title: 如何將 BizTalk 主控件設定為叢集 Resource1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - installation, high availability
@@ -23,7 +23,7 @@ helpviewer_keywords:
 - clustering, configuring
 - installation, clustering
 ms.assetid: bcd656d2-8dd6-49fc-9c42-ef5c884e52c4
-caps.latest.revision: "36"
+caps.latest.revision: 36
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -32,6 +32,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970556"
 ---
 # <a name="how-to-configure-a-biztalk-host-as-a-cluster-resource"></a><span data-ttu-id="e99be-102">如何將 BizTalk 主控件設定為叢集資源</span><span class="sxs-lookup"><span data-stu-id="e99be-102">How to Configure a BizTalk Host as a Cluster Resource</span></span>
 <span data-ttu-id="e99be-103">本主題討論要將 BizTalk 主控件設定為叢集資源所必須依循的步驟。</span><span class="sxs-lookup"><span data-stu-id="e99be-103">This topic discusses the steps that you must follow to configure a BizTalk host as a cluster resource.</span></span> <span data-ttu-id="e99be-104">若要完成本主題中的步驟，您必須已經設定至少兩部 BizTalk Server 在 BizTalk 群組中為 Windows Server 叢集的成員。</span><span class="sxs-lookup"><span data-stu-id="e99be-104">To complete the steps in this topic, you must have already configured at least two BizTalk Servers in a BizTalk group as members of a Windows Server cluster.</span></span> <span data-ttu-id="e99be-105">如需有關如何設定 Windows Server 叢集的詳細資訊，請參閱 Windows 伺服器線上說明。</span><span class="sxs-lookup"><span data-stu-id="e99be-105">For more information about configuring a Windows Server cluster, see the Windows Server online Help.</span></span>  
@@ -70,7 +71,7 @@ ms.lasthandoff: 11/28/2017
     |------------|-----------|  
     |<span data-ttu-id="e99be-134">如果資源失敗，嘗試重新啟動目前的節點上。</span><span class="sxs-lookup"><span data-stu-id="e99be-134">If resource fails, attempt restart on current node.</span></span>|<span data-ttu-id="e99be-135">**True**</span><span class="sxs-lookup"><span data-stu-id="e99be-135">**True**</span></span> <br /><span data-ttu-id="e99be-136">若資源失敗，叢集服務會嘗試重新啟動該資源。</span><span class="sxs-lookup"><span data-stu-id="e99be-136">The Cluster service will attempt to restart the resource if it fails.</span></span>|  
     |<span data-ttu-id="e99be-137">重新啟動 (mm: ss) 的期間：</span><span class="sxs-lookup"><span data-stu-id="e99be-137">Period for restarts (mm:ss):</span></span>|<span data-ttu-id="e99be-138">**15:00**</span><span class="sxs-lookup"><span data-stu-id="e99be-138">**15:00**</span></span> <br /><span data-ttu-id="e99be-139">指定計入重新啟動嘗試的期間。</span><span class="sxs-lookup"><span data-stu-id="e99be-139">Specifies the time period during which restart attempts are counted.</span></span>|  
-    |<span data-ttu-id="e99be-140">將重新啟動次數上限，在指定期間內：</span><span class="sxs-lookup"><span data-stu-id="e99be-140">Maximum restarts in the specified period:</span></span>|<span data-ttu-id="e99be-141">**1**</span><span class="sxs-lookup"><span data-stu-id="e99be-141">**1**</span></span> <br /><span data-ttu-id="e99be-142">指定的期間允許的重新啟動嘗試次數上限**(mm: ss) 重新啟動的期間**。</span><span class="sxs-lookup"><span data-stu-id="e99be-142">Specifies the maximum number of restart attempts allowed during the **Period for restarts (mm:ss)** .</span></span>|  
+    |<span data-ttu-id="e99be-140">將重新啟動次數上限，在指定期間內：</span><span class="sxs-lookup"><span data-stu-id="e99be-140">Maximum restarts in the specified period:</span></span>|<span data-ttu-id="e99be-141">**1**</span><span class="sxs-lookup"><span data-stu-id="e99be-141">**1**</span></span> <br /><span data-ttu-id="e99be-142">指定的期間允許的重新啟動嘗試次數上限 **(mm: ss) 重新啟動的期間**。</span><span class="sxs-lookup"><span data-stu-id="e99be-142">Specifies the maximum number of restart attempts allowed during the **Period for restarts (mm:ss)** .</span></span>|  
     |<span data-ttu-id="e99be-143">如果重新啟動不成功，容錯移轉這個服務或應用程式中的所有資源。</span><span class="sxs-lookup"><span data-stu-id="e99be-143">If restart is unsuccessful, fail over all resources in this service or application.</span></span>|<span data-ttu-id="e99be-144">**True**</span><span class="sxs-lookup"><span data-stu-id="e99be-144">**True**</span></span> <br /><span data-ttu-id="e99be-145">叢集服務會藉由將整個資源群組容錯移轉到另一個叢集節點，嘗試重新啟動資源。</span><span class="sxs-lookup"><span data-stu-id="e99be-145">The Cluster service will attempt to restart the resource by failing over the entire resource group to another cluster node.</span></span>|  
     |<span data-ttu-id="e99be-146">如果重新啟動都失敗，開始在指定的時間 (hh: mm) 後再重新啟動：</span><span class="sxs-lookup"><span data-stu-id="e99be-146">If all the restart attempts fail, begin restarting again after the specified period (hh:mm):</span></span>|<span data-ttu-id="e99be-147">**1:00**</span><span class="sxs-lookup"><span data-stu-id="e99be-147">**1:00**</span></span> <br /><span data-ttu-id="e99be-148">指定延伸的等待期間之後，叢集服務會開始另一系列的重新啟動嘗試。</span><span class="sxs-lookup"><span data-stu-id="e99be-148">Specifies an extended waiting period after which the Cluster service will begin another series of restart attempts.</span></span>|  
     |<span data-ttu-id="e99be-149">暫止的逾時 (mm: ss):</span><span class="sxs-lookup"><span data-stu-id="e99be-149">Pending timeout (mm:ss):</span></span>|<span data-ttu-id="e99be-150">**3:00**</span><span class="sxs-lookup"><span data-stu-id="e99be-150">**3:00**</span></span> <br /><span data-ttu-id="e99be-151">指定資源可能需要變更之間線上及離線狀態，才能在叢集服務將資源處於失敗狀態的時間的長度。</span><span class="sxs-lookup"><span data-stu-id="e99be-151">Specifies the length of time the resource can take to change states between Online and Offline before the Cluster service puts the resource in the Failed state.</span></span>|  

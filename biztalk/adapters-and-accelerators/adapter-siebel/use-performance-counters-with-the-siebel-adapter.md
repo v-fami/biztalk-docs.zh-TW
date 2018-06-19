@@ -1,18 +1,18 @@
 ---
-title: "使用 Siebel 配接器的效能計數器 |Microsoft 文件"
-ms.custom: 
+title: 使用 Siebel 配接器的效能計數器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - performance counters, troubleshooting
 - troubleshooting, performance counters
 - performance counters, using
 ms.assetid: 7930e8f6-5099-4a9c-b38a-13c9902635a6
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962476"
 ---
 # <a name="use-performance-counters-with-the-siebel-adapter"></a><span data-ttu-id="d4c99-102">使用 Siebel 配接器的效能計數器</span><span class="sxs-lookup"><span data-stu-id="d4c99-102">Use Performance Counters with the Siebel adapter</span></span>
 [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]<span data-ttu-id="d4c99-103">用戶端可以用於量測計的配接器效能的效能計數器。</span><span class="sxs-lookup"><span data-stu-id="d4c99-103"> clients can use the performance counters to gauge the performance of the adapters.</span></span> <span data-ttu-id="d4c99-104">[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]安裝程式會建立效能計數器分類"[!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)]」 以及 Adapter Pack 安裝。</span><span class="sxs-lookup"><span data-stu-id="d4c99-104">The [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] setup program creates the performance counter category "[!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)]" along with the Adapter Pack installation.</span></span>  

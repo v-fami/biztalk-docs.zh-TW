@@ -12,7 +12,7 @@ helpviewer_keywords:
 - managing [SSO applications], disabling
 - applications [SSO], disabling
 ms.assetid: febf1687-f0d0-4f87-b462-23535bbddf6d
-caps.latest.revision: ''
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25969484"
 ---
 # <a name="how-to-disable-an-affiliate-application"></a><span data-ttu-id="24873-102">如何停用分支機構應用程式</span><span class="sxs-lookup"><span data-stu-id="24873-102">How to Disable an Affiliate Application</span></span>
 <span data-ttu-id="24873-103">您可以使用 MMC 嵌入式管理單元或命令列，來停用指定的分支機構應用程式。</span><span class="sxs-lookup"><span data-stu-id="24873-103">You can use the MMC Snap-In or the command line to disable the specified affiliate application.</span></span>  
@@ -39,7 +40,7 @@ ms.lasthandoff: 03/28/2018
   
 2.  <span data-ttu-id="24873-110">在命令列，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="24873-110">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="24873-111">預設安裝目錄是\<*磁碟機*\>: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="24873-111">The default installation directory is \<*drive*\>:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-3.  <span data-ttu-id="24873-112">型別 **ssomanage-disableapp *\<應用程式名稱\>* * *，其中\<*應用程式名稱*\>的分支機構應用程式名稱您要停用。</span><span class="sxs-lookup"><span data-stu-id="24873-112">Type **ssomanage –disableapp *\<application name\>***, where \<*application name*\> is the name of the affiliate application you want to disable.</span></span>  
+3.  <span data-ttu-id="24873-112">型別 **ssomanage-disableapp *\<應用程式名稱\>* * *，其中\<* 應用程式名稱*\>的分支機構應用程式名稱您要停用。</span><span class="sxs-lookup"><span data-stu-id="24873-112">Type **ssomanage –disableapp *\<application name\>***, where \<* application name*\> is the name of the affiliate application you want to disable.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="24873-113">在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。</span><span class="sxs-lookup"><span data-stu-id="24873-113">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  

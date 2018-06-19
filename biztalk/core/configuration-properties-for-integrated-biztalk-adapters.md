@@ -1,11 +1,11 @@
 ---
-title: "整合式的 BizTalk 配接器的組態屬性 |Microsoft 文件"
-ms.custom: 
+title: 整合式的 BizTalk 配接器的組態屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapters, security
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - adapters, properties
 - binding files, security
 ms.assetid: 4780a558-4322-428a-aa4a-0c32913faded
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969956"
 ---
 # <a name="configuration-properties-for-integrated-biztalk-adapters"></a><span data-ttu-id="3df78-102">整合式 BizTalk 配接器的組態屬性</span><span class="sxs-lookup"><span data-stu-id="3df78-102">Configuration Properties for Integrated BizTalk Adapters</span></span>
 <span data-ttu-id="3df78-103">「 BizTalk 總管物件模型公開**IReceiveLocation.CustomData**和**ISendPort.CustomData**包含配接器組態屬性包形式的名稱/值的屬性組 XML 字串。</span><span class="sxs-lookup"><span data-stu-id="3df78-103">The BizTalk Explorer object model exposes the **IReceiveLocation.CustomData** and **ISendPort.CustomData** properties that contain the adapter configuration property bag in the form of a name/value pair XML string.</span></span> <span data-ttu-id="3df78-104">此名稱/值組 XML 字串會儲存在\<CustomProps\>內的項目\<TransportTypeData\>繫結檔案中的項目。</span><span class="sxs-lookup"><span data-stu-id="3df78-104">This name/value pair XML string is stored in a \<CustomProps\> element within a \<TransportTypeData\> element in a binding file.</span></span> <span data-ttu-id="3df78-105">中的資訊，大部分\<CustomProps\>項目對應到配接器可以設定 BizTalk Server 使用者介面 （例如 BizTalk 管理主控台或 BizTalk 總管 中） 中的資訊。</span><span class="sxs-lookup"><span data-stu-id="3df78-105">Most of the information in the \<CustomProps\> element corresponds to information that can be set for an adapter in the BizTalk Server user interface (such as the BizTalk Administration Console or BizTalk Explorer).</span></span> <span data-ttu-id="3df78-106">如果這些值存在於繫結檔案中，當匯入繫結檔案時，它們便會套用至指定之接收位置和傳送埠的配接器組態。</span><span class="sxs-lookup"><span data-stu-id="3df78-106">If these values are present in a binding file then they are applied to the adapter configuration for the specified receive locations and send ports when the binding file is imported.</span></span> <span data-ttu-id="3df78-107">所有配接器的組態資訊都會儲存在「單一登入」資料庫中。</span><span class="sxs-lookup"><span data-stu-id="3df78-107">Configuration information for all adapters is stored in the Single Sign-On database.</span></span>  

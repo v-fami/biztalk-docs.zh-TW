@@ -1,11 +1,11 @@
 ---
-title: "BPEL 匯入 （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: BPEL 匯入 （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BPEL, orchestrations
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - BPEL Import Wizard, examples
 - BPEL Import Wizard, orchestrations
 ms.assetid: 3fc70608-ccd9-4249-b238-c09fc6551db1
-caps.latest.revision: "31"
+caps.latest.revision: 31
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967740"
 ---
 # <a name="bpel-import-biztalk-server-sample"></a><span data-ttu-id="f40da-102">BPEL 匯入 （BizTalk Server 範例）</span><span class="sxs-lookup"><span data-stu-id="f40da-102">BPEL Import (BizTalk Server Sample)</span></span>
 <span data-ttu-id="f40da-103">BPEL 匯入範例示範如何從商務程序執行語言 (Business Process Execution Language, BPEL) 程序描述及其相關成品建立協調流程。</span><span class="sxs-lookup"><span data-stu-id="f40da-103">The BPEL Import sample demonstrates how to create an orchestration from a Business Process Execution Language (BPEL) process description and its related artifacts.</span></span>  
@@ -118,7 +119,7 @@ ms.lasthandoff: 11/28/2017
     > [!NOTE]
     >  <span data-ttu-id="f40da-155">＜建置和初始化 ShipperProcess 應用程式＞一節中包含如何建置此檔案的指示。</span><span class="sxs-lookup"><span data-stu-id="f40da-155">The section "To build and initialize the ShipperProcess application" has instructions on how to build this.</span></span>  
   
-17. <span data-ttu-id="f40da-156">在 [方案總管] 中，按兩下**[ordershippingprocess.bpel.odx]**。</span><span class="sxs-lookup"><span data-stu-id="f40da-156">In Solution Explorer, double-click **OrderShippingProcess.bpel.odx**.</span></span>  
+17. <span data-ttu-id="f40da-156">在 [方案總管] 中，按兩下 **[ordershippingprocess.bpel.odx]**。</span><span class="sxs-lookup"><span data-stu-id="f40da-156">In Solution Explorer, double-click **OrderShippingProcess.bpel.odx**.</span></span>  
   
 18. <span data-ttu-id="f40da-157">在**檢視**功能表上，選取**其他視窗/協調流程檢視**。</span><span class="sxs-lookup"><span data-stu-id="f40da-157">On the **View** menu, select **Other Windows/Orchestration View**.</span></span>  
   
@@ -126,7 +127,7 @@ ms.lasthandoff: 11/28/2017
   
 20. <span data-ttu-id="f40da-159">在 [屬性] 視窗中，設定**協調流程可匯出**屬性**False**。</span><span class="sxs-lookup"><span data-stu-id="f40da-159">In the Properties window, set the **Orchestration Exportable** property to **False**.</span></span>  
   
-21. <span data-ttu-id="f40da-160">在 [方案總管] 中，按兩下**[ordershipping.wsdl.odx]**。</span><span class="sxs-lookup"><span data-stu-id="f40da-160">In Solution Explorer, double-click **OrderShipping.wsdl.odx**.</span></span>  
+21. <span data-ttu-id="f40da-160">在 [方案總管] 中，按兩下 **[ordershipping.wsdl.odx]**。</span><span class="sxs-lookup"><span data-stu-id="f40da-160">In Solution Explorer, double-click **OrderShipping.wsdl.odx**.</span></span>  
   
 22. <span data-ttu-id="f40da-161">在 [協調流程檢視] 視窗中，依序展開**類型/多部分訊息類型**。</span><span class="sxs-lookup"><span data-stu-id="f40da-161">In the Orchestration View window, expand **Types/Multipart Message Types**.</span></span>  
   
@@ -215,11 +216,11 @@ ms.lasthandoff: 11/28/2017
   
      <span data-ttu-id="f40da-242">ship_status(ShippingSchemas.ShipStatus) == "DONE"</span><span class="sxs-lookup"><span data-stu-id="f40da-242">ship_status(ShippingSchemas.ShipStatus) == "DONE"</span></span>  
   
-44. <span data-ttu-id="f40da-243">在 [協調流程] 檢視中，依序展開**類型/相互關聯類型**按一下**_OrderCorrelationSet_Type\_**。</span><span class="sxs-lookup"><span data-stu-id="f40da-243">In the Orchestration View, expand **Types/Correlation Types** and click **_OrderCorrelationSet_Type\_**.</span></span>  
+44. <span data-ttu-id="f40da-243">在 [協調流程] 檢視中，依序展開**類型/相互關聯類型**按一下 **_OrderCorrelationSet_Type\_**。</span><span class="sxs-lookup"><span data-stu-id="f40da-243">In the Orchestration View, expand **Types/Correlation Types** and click **_OrderCorrelationSet_Type\_**.</span></span>  
   
 45. <span data-ttu-id="f40da-244">在 屬性 視窗中，按一下 省略符號按鈕 (**...**) 上**相互關聯屬性**。</span><span class="sxs-lookup"><span data-stu-id="f40da-244">In the Properties window, click the ellipsis button (**…**) on **Correlation Properties**.</span></span>  
   
-46. <span data-ttu-id="f40da-245">在相互關聯屬性] 窗格中，按一下**[bpelshipping.orderid]**，然後按一下 [**移除**。</span><span class="sxs-lookup"><span data-stu-id="f40da-245">In the Properties to correlate on pane, click **BPELShipping.OrderID**, and then click **Remove**.</span></span>  
+46. <span data-ttu-id="f40da-245">在相互關聯屬性] 窗格中，按一下 **[bpelshipping.orderid]**，然後按一下 [**移除**。</span><span class="sxs-lookup"><span data-stu-id="f40da-245">In the Properties to correlate on pane, click **BPELShipping.OrderID**, and then click **Remove**.</span></span>  
   
 47. <span data-ttu-id="f40da-246">在 可用屬性 窗格中，依序展開**出貨結構描述**，選取**訂單 ID**，然後按一下 **新增**。</span><span class="sxs-lookup"><span data-stu-id="f40da-246">In the Available Properties pane, expand **Shipping Schemas**, select **Order ID**, and then click **Add**.</span></span>  
   
@@ -232,7 +233,7 @@ ms.lasthandoff: 11/28/2017
 51. <span data-ttu-id="f40da-250">瀏覽至位置\<*範例路徑*\>\Orchestrations\BPELImport\Solution\BPELShipping 並按兩下**BindAndStartOnly.bat**繫結並啟動協調流程。</span><span class="sxs-lookup"><span data-stu-id="f40da-250">Browse to the location \<*Samples Path*\>\Orchestrations\BPELImport\Solution\BPELShipping and double-click **BindAndStartOnly.bat** to bind and start the orchestration.</span></span>  
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="f40da-251">可在何處找到此範例</span><span class="sxs-lookup"><span data-stu-id="f40da-251">Where to Find This Sample</span></span>  
- <span data-ttu-id="f40da-252">*\<範例路徑\>*\Orchestrations\BPELImport</span><span class="sxs-lookup"><span data-stu-id="f40da-252">*\<Samples Path\>*\Orchestrations\BPELImport</span></span>  
+ <span data-ttu-id="f40da-252">*\<範例路徑\>* \Orchestrations\BPELImport</span><span class="sxs-lookup"><span data-stu-id="f40da-252">*\<Samples Path\>* \Orchestrations\BPELImport</span></span>  
   
  <span data-ttu-id="f40da-253">下表顯示此範例中的檔案，並描述其用途。</span><span class="sxs-lookup"><span data-stu-id="f40da-253">The following table shows the files in this sample and describes their purpose.</span></span>  
   
@@ -277,7 +278,7 @@ ms.lasthandoff: 11/28/2017
   
 2.  <span data-ttu-id="f40da-318">從[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]命令提示字元，變更目錄 (**cd**) 至下列資料夾：</span><span class="sxs-lookup"><span data-stu-id="f40da-318">From the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] command prompt, change directory (**cd**) to the following folder:</span></span>  
   
-     <span data-ttu-id="f40da-319">*\<範例路徑\>*\Orchestrations\BPELImport\Solution\ShipperProcess</span><span class="sxs-lookup"><span data-stu-id="f40da-319">*\<Samples Path\>*\Orchestrations\BPELImport\Solution\ShipperProcess</span></span>  
+     <span data-ttu-id="f40da-319">*\<範例路徑\>* \Orchestrations\BPELImport\Solution\ShipperProcess</span><span class="sxs-lookup"><span data-stu-id="f40da-319">*\<Samples Path\>* \Orchestrations\BPELImport\Solution\ShipperProcess</span></span>  
   
 3.  <span data-ttu-id="f40da-320">執行檔案 Setup.bat，這會執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="f40da-320">Run the file Setup.bat, which performs the following actions:</span></span>  
   
@@ -312,7 +313,7 @@ The 'http://contoso.org/samples/Fragments:XXXX' element is not declared. An erro
   
      <span data-ttu-id="f40da-332">從[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]命令提示字元，變更目錄 (**cd**) 至下列資料夾：</span><span class="sxs-lookup"><span data-stu-id="f40da-332">From the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] command prompt, change directory (**cd**) to the following folder:</span></span>  
   
-     <span data-ttu-id="f40da-333">*\<範例路徑\>*\Orchestrations\BPELImport\Solution\BPELShipping</span><span class="sxs-lookup"><span data-stu-id="f40da-333">*\<Samples Path\>*\Orchestrations\BPELImport\Solution\BPELShipping</span></span>  
+     <span data-ttu-id="f40da-333">*\<範例路徑\>* \Orchestrations\BPELImport\Solution\BPELShipping</span><span class="sxs-lookup"><span data-stu-id="f40da-333">*\<Samples Path\>* \Orchestrations\BPELImport\Solution\BPELShipping</span></span>  
   
 2.  <span data-ttu-id="f40da-334">執行檔案 Setup.bat，這會執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="f40da-334">Run the file Setup.bat, which performs the following actions:</span></span>  
   
@@ -330,7 +331,7 @@ The 'http://contoso.org/samples/Fragments:XXXX' element is not declared. An erro
   
 #### <a name="to-run-the-bpel-import-sample"></a><span data-ttu-id="f40da-341">執行 BPEL 匯入範例</span><span class="sxs-lookup"><span data-stu-id="f40da-341">To run the BPEL Import sample</span></span>  
   
-1.  <span data-ttu-id="f40da-342">複製**Order.xml**檔案從*\<範例路徑\>*\Orchestrations\BPELImport\Solution 資料夾\<*範例路徑\>*\Orchestrations\BPELImport\Solution\Ports\ReceiveOrder 資料夾。</span><span class="sxs-lookup"><span data-stu-id="f40da-342">Copy the **Order.xml** file from the *\<Samples Path\>*\Orchestrations\BPELImport\Solution folder to the \<*Samples Path\>*\Orchestrations\BPELImport\Solution\Ports\ReceiveOrder folder.</span></span>  
+1.  <span data-ttu-id="f40da-342">複製**Order.xml**檔案從*\<範例路徑\>* \Orchestrations\BPELImport\Solution 資料夾\<*範例路徑\>* \Orchestrations\BPELImport\Solution\Ports\ReceiveOrder 資料夾。</span><span class="sxs-lookup"><span data-stu-id="f40da-342">Copy the **Order.xml** file from the *\<Samples Path\>* \Orchestrations\BPELImport\Solution folder to the \<*Samples Path\>* \Orchestrations\BPELImport\Solution\Ports\ReceiveOrder folder.</span></span>  
   
 2.  <span data-ttu-id="f40da-343">BPELShipping 協調流程此檔案收取為訂單從客戶訂單處理系統中，執行透過出貨程序，並產生一個檔案中的每個\<*範例路徑*\>\Orchestrations\BPELImport\Solution\Ports\SendOrder 資料夾和\<*範例路徑*\>\Orchestrations\BPELImport\Solution\Ports\FinalConfirmation 資料夾。</span><span class="sxs-lookup"><span data-stu-id="f40da-343">The BPELShipping orchestration picks up this file as an order from the customer order processing system, runs through the shipping process, and produces one file each in the \<*Samples Path*\>\Orchestrations\BPELImport\Solution\Ports\SendOrder folder and the \<*Samples Path*\>\Orchestrations\BPELImport\Solution\Ports\FinalConfirmation folder.</span></span> <span data-ttu-id="f40da-344">這些檔案的名稱的格式是\< *MessageID*\>.xml，其中 *\<MessageID\>* 產生來唯一識別的 GUID訊息。</span><span class="sxs-lookup"><span data-stu-id="f40da-344">The format of the name of these files is \<*MessageID*\>.xml, where *\<MessageID\>* is the GUID generated to uniquely identify the message.</span></span>  
   

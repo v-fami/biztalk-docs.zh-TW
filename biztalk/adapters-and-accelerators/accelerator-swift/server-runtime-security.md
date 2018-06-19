@@ -1,18 +1,18 @@
 ---
-title: "伺服器執行階段安全性 |Microsoft 文件"
-ms.custom: 
+title: 伺服器執行階段安全性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, server runtime
 - servers, security
 - servers, runtime
 ms.assetid: 40f5ca3e-d9d3-4543-bd38-82283c343b76
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214126"
 ---
 # <a name="server-runtime-security"></a><span data-ttu-id="98d99-102">伺服器執行階段安全性</span><span class="sxs-lookup"><span data-stu-id="98d99-102">Server Runtime Security</span></span>
 [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]<span data-ttu-id="98d99-103">Message Repair 和 New Submission 控管 SWIFT 訊息商務使用者、 後端系統和 SWIFT 網路端點之間的流量以安全且具有決定性的方式。</span><span class="sxs-lookup"><span data-stu-id="98d99-103"> Message Repair and New Submission governs the flow of SWIFT messages between business users, back-end systems, and SWIFT network endpoints in a secure and deterministic manner.</span></span> <span data-ttu-id="98d99-104">它會驗證商務使用者所提交的訊息，會驗證訊息的資料和商務規則正確，並將訊息路由傳送至後端系統或最終傳遞到 SWIFT 網路。</span><span class="sxs-lookup"><span data-stu-id="98d99-104">It authenticates messages submitted by business users, validates messages for data and business-rule correctness, and routes messages to back-end systems or for final delivery to the SWIFT network.</span></span> <span data-ttu-id="98d99-105">多個數位簽章的詳細資訊，請參閱 < 加密和簽署憑證 >，MSDN Library 網站上[http://go.microsoft.com/fwlink/?linkid=50285](http://go.microsoft.com/fwlink/?linkid=50285)。</span><span class="sxs-lookup"><span data-stu-id="98d99-105">For more information about digital certificates, see "Encryption and Signing Certificates" on the MSDN Library Web site at [http://go.microsoft.com/fwlink/?linkid=50285](http://go.microsoft.com/fwlink/?linkid=50285).</span></span>  

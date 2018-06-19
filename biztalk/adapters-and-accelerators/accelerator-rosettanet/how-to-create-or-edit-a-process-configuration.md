@@ -1,11 +1,11 @@
 ---
-title: "如何建立或編輯程序組態 |Microsoft 文件"
-ms.custom: 
+title: 如何建立或編輯程序組態 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - process configuration, modifying
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - creating, process configuration
 - modifying, process configuration
 ms.assetid: ef6160f1-f2f0-42ff-a516-7818c9d79d26
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962604"
 ---
 # <a name="how-to-create-or-edit-a-process-configuration"></a><span data-ttu-id="4a4f2-102">如何建立或編輯程序組態</span><span class="sxs-lookup"><span data-stu-id="4a4f2-102">How to Create or Edit a Process Configuration</span></span>
 <span data-ttu-id="4a4f2-103">本主題描述如何建立或編輯程序組態。</span><span class="sxs-lookup"><span data-stu-id="4a4f2-103">This topic describes how to create or edit a process configuration.</span></span>  
@@ -93,7 +94,7 @@ ms.lasthandoff: 11/28/2017
   
 4.  <span data-ttu-id="4a4f2-359">以滑鼠右鍵按一下您想要編輯，然後按一下 程序組態**屬性**。</span><span class="sxs-lookup"><span data-stu-id="4a4f2-359">Right-click the process configuration that you want to edit, and then click **Properties**.</span></span>  
   
-5.  <span data-ttu-id="4a4f2-360">在*\<程序組態\>*屬性對話方塊中，於**一般**和**連絡人屬性**索引標籤中，變更的設定必要項。</span><span class="sxs-lookup"><span data-stu-id="4a4f2-360">In the *\<process configuration\>* Properties dialog box, on the **General** and **Contact Properties** tabs, change the settings as required.</span></span> <span data-ttu-id="4a4f2-361">如需有關這些設定的詳細資訊，請參閱上表。</span><span class="sxs-lookup"><span data-stu-id="4a4f2-361">For information about these settings, see the preceding table.</span></span>  
+5.  <span data-ttu-id="4a4f2-360">在*\<程序組態\>* 屬性對話方塊中，於**一般**和**連絡人屬性**索引標籤中，變更的設定必要項。</span><span class="sxs-lookup"><span data-stu-id="4a4f2-360">In the *\<process configuration\>* Properties dialog box, on the **General** and **Contact Properties** tabs, change the settings as required.</span></span> <span data-ttu-id="4a4f2-361">如需有關這些設定的詳細資訊，請參閱上表。</span><span class="sxs-lookup"><span data-stu-id="4a4f2-361">For information about these settings, see the preceding table.</span></span>  
   
 6.  <span data-ttu-id="4a4f2-362">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="4a4f2-362">Click **OK**.</span></span>  
   

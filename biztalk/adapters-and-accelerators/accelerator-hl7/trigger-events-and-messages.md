@@ -1,11 +1,11 @@
 ---
-title: "觸發事件和訊息 |Microsoft 文件"
-ms.custom: 
+title: 觸發事件和訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - health care organizations, HL7 messages
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - messages, trigger events
 - messages, about messages
 ms.assetid: e93b397c-8cbe-4589-aa88-e474d7722174
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206534"
 ---
 # <a name="trigger-events-and-messages"></a><span data-ttu-id="16fd7-102">觸發程序事件和訊息</span><span class="sxs-lookup"><span data-stu-id="16fd7-102">Trigger Events and Messages</span></span>
 <span data-ttu-id="16fd7-103">在數位醫療保健系統中，應用程式會建立 HL7 訊息，因為真實世界的事件，例如實驗室順序或藥物順序放置。</span><span class="sxs-lookup"><span data-stu-id="16fd7-103">In a digital health care system, applications create HL7 messages because of a real-world event, such as the placing of a laboratory order or drug order.</span></span> <span data-ttu-id="16fd7-104">HL7 組織已寫入 HL7 標準根據健康照護真實世界中的事件建立資料流在應用程式，即使這些應用程式跨異質系統需要的假設。</span><span class="sxs-lookup"><span data-stu-id="16fd7-104">The HL7 organization has written the HL7 standard based on the assumption that an event in the real world of health care creates the need for data to flow among applications, even when these applications span heterogeneous systems.</span></span> <span data-ttu-id="16fd7-105">HL7 標準呼叫此真實世界事件*觸發程序事件*。</span><span class="sxs-lookup"><span data-stu-id="16fd7-105">The HL7 standard calls this real-world event a *trigger event*.</span></span> <span data-ttu-id="16fd7-106">自動化的系統必須有系統地辨識觸發程序事件。</span><span class="sxs-lookup"><span data-stu-id="16fd7-106">An automated system must systematically recognize the trigger event.</span></span>  

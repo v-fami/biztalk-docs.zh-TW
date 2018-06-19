@@ -1,15 +1,15 @@
 ---
-title: "更新或解除安裝 BizTalk 配接器組件 2016年 |Microsoft 文件"
-description: "使用安裝精靈 」 或 msiexec 變更或解除安裝 BizTalk Server; 隨附的 BAP 2016包括移除繫結和移除自訂 Rfc"
-ms.custom: 
+title: 更新或解除安裝 BizTalk 配接器組件 2016年 |Microsoft 文件
+description: 使用安裝精靈 」 或 msiexec 變更或解除安裝 BizTalk Server; 隨附的 BAP 2016包括移除繫結和移除自訂 Rfc
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d3d6c001-1005-4d7b-a143-eaa37b48f898
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967996"
 ---
 # <a name="update-or-uninstall-the-biztalk-adapter-pack-2016"></a><span data-ttu-id="2f336-103">更新或解除安裝 BizTalk 配接器組件 2016</span><span class="sxs-lookup"><span data-stu-id="2f336-103">Update or uninstall the BizTalk Adapter Pack 2016</span></span>
 <span data-ttu-id="2f336-104">如何變更或解除安裝[!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="2f336-104">How to change or uninstall the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)].</span></span>

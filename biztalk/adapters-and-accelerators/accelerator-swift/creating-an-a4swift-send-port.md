@@ -1,17 +1,17 @@
 ---
-title: "建立 A4SWIFT 傳送埠 |Microsoft 文件"
-ms.custom: 
+title: 建立 A4SWIFT 傳送埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, send ports
 - send ports, creating
 ms.assetid: d1ee18f8-a6aa-4cd5-9e65-fb2e0fa2d0c2
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210246"
 ---
 # <a name="creating-an-a4swift-send-port"></a><span data-ttu-id="f0253-102">建立 A4SWIFT 傳送埠</span><span class="sxs-lookup"><span data-stu-id="f0253-102">Creating an A4SWIFT Send Port</span></span>
 <span data-ttu-id="f0253-103">您必須建立傳送埠以啟用[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]SWIFT 網路時，傳送訊息，如下圖所示。</span><span class="sxs-lookup"><span data-stu-id="f0253-103">You must create a send port to enable [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] to send a message to the SWIFT network, as shown in the following figure.</span></span> <span data-ttu-id="f0253-104">此傳送埠會傳送至輸出檔案資料夾的一般檔案訊息。</span><span class="sxs-lookup"><span data-stu-id="f0253-104">This send port will send flat file messages to an outbound file folder.</span></span> <span data-ttu-id="f0253-105">此傳送埠被為了與 Message Repair 和 New Submission 功能運作。</span><span class="sxs-lookup"><span data-stu-id="f0253-105">This send port is designed to work with the Message Repair and New Submission feature.</span></span>  
@@ -55,7 +56,7 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  <span data-ttu-id="f0253-128">如果此資料夾不存在，您可以建立使用**建立新資料夾**命令。</span><span class="sxs-lookup"><span data-stu-id="f0253-128">If this folder does not exist, you can create it using the **Make New Folder** command.</span></span>  
   
-7.  <span data-ttu-id="f0253-129">在**檔案名稱**方塊中，輸入**%MessageID%.txt**，然後按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="f0253-129">In the **File name** box, type **%MessageID%.txt**, and then click **OK**.</span></span>  
+7.  <span data-ttu-id="f0253-129">在**檔案名稱**方塊中，輸入 **%MessageID%.txt**，然後按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="f0253-129">In the **File name** box, type **%MessageID%.txt**, and then click **OK**.</span></span>  
   
 8.  <span data-ttu-id="f0253-130">在**傳送埠屬性**對話方塊方塊中，按一下下拉式清單，如**傳送管線**] 方塊中，然後選取 [自訂傳送管線。</span><span class="sxs-lookup"><span data-stu-id="f0253-130">In the **Send Port Properties** dialog box, click the drop-down list for the **Send pipeline** box, and then select your custom send pipeline.</span></span>  
   

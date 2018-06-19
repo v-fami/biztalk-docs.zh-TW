@@ -1,11 +1,11 @@
 ---
-title: "第 1 課： 加入一般檔案接收埠和位置 |Microsoft 文件"
-ms.custom: 
+title: 第 1 課： 加入一般檔案接收埠和位置 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive locations, creating
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - receive ports, creating
 - creating, receive ports
 ms.assetid: 881f58d8-f541-4a85-b534-cb1ca627c002
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961116"
 ---
 # <a name="lesson-1-adding-flat-file-receive-port-and-location"></a><span data-ttu-id="ac263-102">第 1 課： 加入一般檔案接收埠和位置</span><span class="sxs-lookup"><span data-stu-id="ac263-102">Lesson 1: Adding Flat File Receive Port and Location</span></span>
 <span data-ttu-id="ac263-103">接收埠一律會有新增接收埠時，您必須設定相關聯的接收位置。</span><span class="sxs-lookup"><span data-stu-id="ac263-103">The receive port always has an associated receive location that you must configure when you add the receive port.</span></span> <span data-ttu-id="ac263-104">接收位置會定義特定位址的內送訊息和您用來處理訊息的管線。</span><span class="sxs-lookup"><span data-stu-id="ac263-104">A receive location defines a specific address for an incoming message and the pipeline that you use to process the message.</span></span>  

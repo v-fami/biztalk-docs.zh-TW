@@ -1,14 +1,14 @@
 ---
-title: "檢查清單： 執行每週效能檢查 |Microsoft 文件"
-ms.custom: 
+title: 檢查清單： 執行每週效能檢查 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c36fe78d-1be8-49f2-97ce-b6d0cadffab8
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22300294"
 ---
 # <a name="checklist-performing-weekly-performance-checks"></a><span data-ttu-id="b9fe5-102">檢查清單： 執行每週效能檢查</span><span class="sxs-lookup"><span data-stu-id="b9fe5-102">Checklist: Performing Weekly Performance Checks</span></span>
 <span data-ttu-id="b9fe5-103">本主題列出與避免效能問題時，所應遵循於每週的最佳作法[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統。</span><span class="sxs-lookup"><span data-stu-id="b9fe5-103">This topic lists best practices that you should follow on a weekly basis when to avoid performance issues with a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] system.</span></span>  

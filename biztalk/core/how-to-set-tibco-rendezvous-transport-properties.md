@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/creating-tibco-rendezvous-send-handlers/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: b4fabb9146b4f559dd1a41b6e3b7da5ce9489d1f
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015269"
 ---
 # <a name="how-to-set-tibco-rendezvous-transport-properties"></a><span data-ttu-id="13db7-101">如何設定 TIBCO Rendezvous 傳輸內容</span><span class="sxs-lookup"><span data-stu-id="13db7-101">How to Set TIBCO Rendezvous Transport Properties</span></span>
 <span data-ttu-id="13db7-102">TIBCO Rendezvous 傳輸屬性用於執行階段。</span><span class="sxs-lookup"><span data-stu-id="13db7-102">The TIBCO Rendezvous Transport property is used for run time.</span></span> <span data-ttu-id="13db7-103">在**傳輸屬性** 畫面上，設定連線參數來識別您要將產生的訊息發佈的 TIBCO Rendezvous 網域。</span><span class="sxs-lookup"><span data-stu-id="13db7-103">In the **Transport Properties** screen, you set the connection parameters that identify the TIBCO Rendezvous domain where you want to publish the generated messages.</span></span>  

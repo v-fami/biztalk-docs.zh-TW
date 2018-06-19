@@ -1,17 +1,17 @@
 ---
-title: "工作清單中的建置錯誤 |Microsoft 文件"
-ms.custom: 
+title: 工作清單中的建置錯誤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - building, errors
 - errors, building
 ms.assetid: 05b36511-3031-4e13-ac2f-bfdbec0f48cb
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967220"
 ---
 # <a name="build-errors-in-the-task-list"></a><span data-ttu-id="a4d0e-102">建置工作清單中的錯誤</span><span class="sxs-lookup"><span data-stu-id="a4d0e-102">Build Errors in the Task List</span></span>
 <span data-ttu-id="a4d0e-103">當您建置專案或解決方案時，結果會出現在 [輸出] 視窗中，至於個別錯誤和警告則會出現在工作清單中。</span><span class="sxs-lookup"><span data-stu-id="a4d0e-103">When you build your project, or solution, the results will appear in the Output window, while individual errors and warnings will appear in the task list.</span></span>  

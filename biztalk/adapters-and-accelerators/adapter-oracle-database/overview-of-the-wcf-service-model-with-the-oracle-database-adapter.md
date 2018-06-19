@@ -1,18 +1,18 @@
 ---
-title: "Oracle 資料庫配接器之 WCF 服務模型的概觀 |Microsoft 文件"
-ms.custom: 
+title: Oracle 資料庫配接器之 WCF 服務模型的概觀 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF service model, overview
 - invoking operations
 - WCF service, creating and implementing
 ms.assetid: 8ed765e5-b5e6-46bd-bcd6-282219caf75d
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214382"
 ---
 # <a name="overview-of-the-wcf-service-model-with-the-oracle-database-adapter"></a><span data-ttu-id="02b77-102">使用 Oracle 資料庫配接器的 WCF 服務模型概觀</span><span class="sxs-lookup"><span data-stu-id="02b77-102">Overview of the WCF service model with the Oracle Database adapter</span></span>
 <span data-ttu-id="02b77-103">當您使用作業的[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]介面，您的程式碼做為用戶端或服務給配接器。</span><span class="sxs-lookup"><span data-stu-id="02b77-103">When you consume operations that the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] surfaces, your code acts either as a client or a service to the adapter.</span></span> <span data-ttu-id="02b77-104">幾乎所有的作業，[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]介面，您的程式碼是用戶端。</span><span class="sxs-lookup"><span data-stu-id="02b77-104">For almost all of the operations that the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] surfaces, your code is the client.</span></span> <span data-ttu-id="02b77-105">也就是您的應用程式會叫用配接器; 上的作業例如，將記錄插入 Oracle 資料表。</span><span class="sxs-lookup"><span data-stu-id="02b77-105">That is, your application invokes the operation on the adapter; for example to insert records into an Oracle table.</span></span> <span data-ttu-id="02b77-106">只有作業的程式碼做為服務[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]是 POLLINGSMT 作業。</span><span class="sxs-lookup"><span data-stu-id="02b77-106">The only operation for which your code acts as a service to the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] is for the POLLINGSMT operation.</span></span> <span data-ttu-id="02b77-107">在此情況下，配接器會傳送至您的應用程式的輪詢查詢作業結果。</span><span class="sxs-lookup"><span data-stu-id="02b77-107">In this case, the adapter sends the results of the polling query operation to your application.</span></span>  

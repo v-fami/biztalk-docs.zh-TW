@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22301966"
 ---
 # <a name="updating-using-side-by-side-versioning"></a><span data-ttu-id="0d880-102">更新使用-並存版本控制</span><span class="sxs-lookup"><span data-stu-id="0d880-102">Updating Using Side-by-Side Versioning</span></span>
 <span data-ttu-id="0d880-103">如果您不能以排定停機時間，或有非常長時間執行協調流程執行個體，無法終止，可能需要的並存版本控制。</span><span class="sxs-lookup"><span data-stu-id="0d880-103">If you are not able to schedule downtime, or have very long-running orchestration instances that cannot be terminated, side-by-side versioning may be required.</span></span> <span data-ttu-id="0d880-104">在這種升級，相同應用程式或應用程式成品的兩個版本會執行的並行。</span><span class="sxs-lookup"><span data-stu-id="0d880-104">In this type of upgrade, two versions of the same application or application artifacts run side-by-side.</span></span> <span data-ttu-id="0d880-105">.NET 執行階段原本可相同名稱但不同版本的組件部署且正在執行，而且 BizTalk Server 也可讓它。</span><span class="sxs-lookup"><span data-stu-id="0d880-105">The .NET runtime inherently allows for same-named but differently versioned assemblies to be deployed and running, and BizTalk Server also allows it.</span></span>  

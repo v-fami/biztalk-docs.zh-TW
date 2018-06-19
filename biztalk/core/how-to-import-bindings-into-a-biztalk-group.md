@@ -1,11 +1,11 @@
 ---
-title: "如何將繫結匯入到 BizTalk 群組 |Microsoft 文件"
-ms.custom: 
+title: 如何將繫結匯入到 BizTalk 群組 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - groups, importing
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - groups, bindings
 - bindings, groups
 ms.assetid: 38da14fb-3522-4274-a633-2ff24e4bd574
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970132"
 ---
 # <a name="how-to-import-bindings-into-a-biztalk-group"></a><span data-ttu-id="1eca9-102">如何將繫結匯入到 BizTalk 群組</span><span class="sxs-lookup"><span data-stu-id="1eca9-102">How to Import Bindings into a BizTalk Group</span></span>
 <span data-ttu-id="1eca9-103">本主題描述如何使用 [BizTalk Server 管理主控台] 或命令列，從 .xml 檔案將繫結匯入到 BizTalk 群組。</span><span class="sxs-lookup"><span data-stu-id="1eca9-103">This topic describes how to use the BizTalk Server Administration console or the command line to import bindings into a BizTalk group from an .xml file.</span></span> <span data-ttu-id="1eca9-104">如需從 BizTalk 群組匯出繫結，可以匯入的.xml 檔案的指示，請參閱[如何匯出 BizTalk 群組的繫結](../core/how-to-export-bindings-for-a-biztalk-group.md)。</span><span class="sxs-lookup"><span data-stu-id="1eca9-104">For instructions on exporting the bindings from a BizTalk group into an .xml file that you can import, see [How to Export Bindings for a BizTalk Group](../core/how-to-export-bindings-for-a-biztalk-group.md).</span></span>  

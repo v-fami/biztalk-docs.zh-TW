@@ -1,14 +1,14 @@
 ---
-title: "ExecuteNonQuery、 ExecuteReader，和 ExecuteScalar Operations2 訊息結構描述 |Microsoft 文件"
-ms.custom: 
+title: ExecuteNonQuery、 ExecuteReader，和 ExecuteScalar Operations2 訊息結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 51f8cb98-8da8-40c1-bf87-4aad5a24bba2
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222470"
 ---
 # <a name="message-schemas-for-the-executenonquery-executereader-and-executescalar-operations"></a><span data-ttu-id="0320f-102">ExecuteNonQuery、 ExecuteReader 和 ExecuteScalar 作業的訊息結構描述</span><span class="sxs-lookup"><span data-stu-id="0320f-102">Message Schemas for the ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations</span></span>
 <span data-ttu-id="0320f-103">[!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]公開根層級執行 SQL Server 中的任何任意的 SQL 陳述式的 ExecuteNonQuery、 ExecuteReader 和 ExecuteScalar 輸出作業。</span><span class="sxs-lookup"><span data-stu-id="0320f-103">The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] exposes the ExecuteNonQuery, ExecuteReader, and ExecuteScalar outbound operations at the root level to execute any arbitrary SQL statements in SQL Server.</span></span>  

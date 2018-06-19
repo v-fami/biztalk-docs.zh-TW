@@ -1,17 +1,17 @@
 ---
-title: "Message Repair 和 New Submission 升級屬性 |Microsoft 文件"
-ms.custom: 
+title: Message Repair 和 New Submission 升級屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - promoted properties, Message Repair and New Submission
 - Message Repair and New Submission, promoted properties
 ms.assetid: e980c905-d07f-4fc2-89ca-05e597410733
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22208654"
 ---
 # <a name="message-repair-and-new-submission-promoted-properties"></a><span data-ttu-id="0e259-102">Message Repair 和 New Submission 升級屬性</span><span class="sxs-lookup"><span data-stu-id="0e259-102">Message Repair and New Submission Promoted Properties</span></span>
 <span data-ttu-id="0e259-103">[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] Message Repair 和 New Submission 對帳包含下列的升級的屬性。</span><span class="sxs-lookup"><span data-stu-id="0e259-103">The [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] Message Repair and New Submission reconciliation includes the following promoted properties.</span></span>  
@@ -35,5 +36,5 @@ ms.lasthandoff: 09/20/2017
 |<span data-ttu-id="0e259-149">**Microsoft.Solutions.A4SWIFT。MRSRProperty.A4SWIFT_ MRSRFailedReason**</span><span class="sxs-lookup"><span data-stu-id="0e259-149">**Microsoft.Solutions.A4SWIFT. MRSRProperty.A4SWIFT_ MRSRFailedReason**</span></span>|<span data-ttu-id="0e259-150">表示訊息修復和新送出程序失敗的原因。</span><span class="sxs-lookup"><span data-stu-id="0e259-150">Indicates why the message repair and new submission process failed.</span></span> <span data-ttu-id="0e259-151">可以是下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="0e259-151">Can be one of the following:</span></span><br /><br /> <span data-ttu-id="0e259-152">拒絕表示使用者已拒絕的訊息內[!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]表單。</span><span class="sxs-lookup"><span data-stu-id="0e259-152">Rejected indicates that the user rejected the message from within the [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] form.</span></span><br /><br /> <span data-ttu-id="0e259-153">InvalidDigitalSignature 表示使用者的憑證無效。</span><span class="sxs-lookup"><span data-stu-id="0e259-153">InvalidDigitalSignature indicates that the user's certificate is invalid.</span></span><br /><br /> <span data-ttu-id="0e259-154">Timeout 表示已達到 MRSROrchestration 逾時值。</span><span class="sxs-lookup"><span data-stu-id="0e259-154">Timeout indicates that the MRSROrchestration timeout value has been reached.</span></span><br /><br /> <span data-ttu-id="0e259-155">InvalidWorkFlow 指出部門所定義的工作流程無效。</span><span class="sxs-lookup"><span data-stu-id="0e259-155">InvalidWorkFlow indicates that the workflow defined for a department is invalid.</span></span><br /><br /> <span data-ttu-id="0e259-156">CantRepairIn[!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]不可以在中開啟內送 XML 訊息會指出[!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="0e259-156">CantRepairIn[!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] indicates that the incoming XML message could not be opened in [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)].</span></span><br /><br /> <span data-ttu-id="0e259-157">一般例外狀況</span><span class="sxs-lookup"><span data-stu-id="0e259-157">General Exception</span></span>|<span data-ttu-id="0e259-158">字串</span><span class="sxs-lookup"><span data-stu-id="0e259-158">String</span></span>|<span data-ttu-id="0e259-159">-拒絕</span><span class="sxs-lookup"><span data-stu-id="0e259-159">-   Rejected</span></span><br /><span data-ttu-id="0e259-160">-InvalidDigitalSignature</span><span class="sxs-lookup"><span data-stu-id="0e259-160">-   InvalidDigitalSignature</span></span><br /><span data-ttu-id="0e259-161">逾時</span><span class="sxs-lookup"><span data-stu-id="0e259-161">-   Timeout</span></span><br /><span data-ttu-id="0e259-162">-InvalidWorkFlow</span><span class="sxs-lookup"><span data-stu-id="0e259-162">-   InvalidWorkFlow</span></span><br /><span data-ttu-id="0e259-163">-一般例外狀況</span><span class="sxs-lookup"><span data-stu-id="0e259-163">-   General Exception</span></span><br /><span data-ttu-id="0e259-164">-CantRepairIn[!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]</span><span class="sxs-lookup"><span data-stu-id="0e259-164">-   CantRepairIn[!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]</span></span>|<span data-ttu-id="0e259-165">設定由訊息修復和新送出的協調流程之後的處理序失敗。</span><span class="sxs-lookup"><span data-stu-id="0e259-165">Set by the Message Repair and New Submission orchestration after the process has failed.</span></span>|  
   
 ## <a name="see-also"></a><span data-ttu-id="0e259-166">另請參閱</span><span class="sxs-lookup"><span data-stu-id="0e259-166">See Also</span></span>  
- <span data-ttu-id="0e259-167">[A4SWIFT_ * 升級屬性](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md) </span><span class="sxs-lookup"><span data-stu-id="0e259-167">[A4SWIFT_* Promoted Properties](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md) </span></span>  
+ <span data-ttu-id="0e259-167">[A4SWIFT_ \* 升級屬性](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md) </span><span class="sxs-lookup"><span data-stu-id="0e259-167">[A4SWIFT_\* Promoted Properties](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md) </span></span>  
  [<span data-ttu-id="0e259-168">FIN 回應對帳升級屬性</span><span class="sxs-lookup"><span data-stu-id="0e259-168">FIN Response Reconciliation Promoted Properties</span></span>](../../adapters-and-accelerators/accelerator-swift/fin-response-reconciliation-promoted-properties.md)

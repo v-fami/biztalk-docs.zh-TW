@@ -1,18 +1,18 @@
 ---
-title: "開發 BizTalk 應用程式與 Oracle 資料庫的建置組塊 |Microsoft 文件"
-ms.custom: 
+title: 開發 BizTalk 應用程式與 Oracle 資料庫的建置組塊 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - developing, BizTalk applications
 - run-time tasks
 - design-time tasks
 ms.assetid: ad9ca856-5569-41ab-8617-ae6db5e3b4d7
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214838"
 ---
 # <a name="building-blocks-to-develop-biztalk-applications-with-oracle-database"></a><span data-ttu-id="d8ed3-102">開發 BizTalk 應用程式與 Oracle 資料庫的建置組塊</span><span class="sxs-lookup"><span data-stu-id="d8ed3-102">Building Blocks to develop BizTalk Applications with Oracle Database</span></span>
 <span data-ttu-id="d8ed3-103">執行 Oracle 資料庫上的作業使用[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]牽涉到兩組工作： 設計階段和執行階段。</span><span class="sxs-lookup"><span data-stu-id="d8ed3-103">Performing operations on an Oracle database by using the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] involves two sets of tasks: design-time and run-time.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "如何顯示所有管理組件規則 |Microsoft 文件"
-ms.custom: 
+title: 如何顯示所有管理組件規則 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7fdec550-6713-4f5f-8c04-d9218bf2df3c
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298214"
 ---
 # <a name="how-to-display-all-management-pack-rules"></a><span data-ttu-id="5fc06-102">如何顯示所有管理組件規則</span><span class="sxs-lookup"><span data-stu-id="5fc06-102">How to Display All Management Pack Rules</span></span>
 <span data-ttu-id="5fc06-103">您可以使用下列程序來顯示您匯入的管理組件的規則清單。</span><span class="sxs-lookup"><span data-stu-id="5fc06-103">Use the following procedure to display a list of rules for the management packs that you imported.</span></span> <span data-ttu-id="5fc06-104">在 Office Excel 中，您可以檢視的規則清單。</span><span class="sxs-lookup"><span data-stu-id="5fc06-104">The list of rules can be viewed in Office Excel.</span></span>  

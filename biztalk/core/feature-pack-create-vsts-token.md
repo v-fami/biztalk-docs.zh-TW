@@ -1,12 +1,12 @@
 ---
-title: "步驟 2-建立 VSTS 權杖並安裝代理程式 |Microsoft 文件"
-description: "Visual studio，建立 VSTS 安全性存取語彙基元，複製 VSTS 專案，並安裝來自動化部署的 BizTalk Server 專案的組建代理程式"
-ms.custom: 
+title: 步驟 2-建立 VSTS 權杖並安裝代理程式 |Microsoft 文件
+description: Visual studio，建立 VSTS 安全性存取語彙基元，複製 VSTS 專案，並安裝來自動化部署的 BizTalk Server 專案的組建代理程式
+ms.custom: ''
 ms.date: 11/20/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 author: MandiOhlinger
 ms.author: mandia
@@ -16,6 +16,7 @@ ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/21/2017
+ms.locfileid: "25497687"
 ---
 # <a name="step-2-create-the-token--install-the-agent"></a><span data-ttu-id="4fd1e-103">步驟 2： 建立權杖，並安裝代理程式</span><span class="sxs-lookup"><span data-stu-id="4fd1e-103">Step 2: Create the token & install the agent</span></span>
 
@@ -41,7 +42,7 @@ ms.lasthandoff: 11/21/2017
 
     ![開啟您的帳戶安全性](../core/media/vsts-account-security.png)
 
-3. <span data-ttu-id="4fd1e-125">**個人存取權杖**會自動開啟。</span><span class="sxs-lookup"><span data-stu-id="4fd1e-125">**Personal access tokens** automatically opens.</span></span> <span data-ttu-id="4fd1e-126">如果您有現有的代理程式時，加以選取，並確認**代理程式集區 （讀取、 管理）**選取：</span><span class="sxs-lookup"><span data-stu-id="4fd1e-126">If you have an existing agent, select it, and confirm **Agent Pools (read, manage)** is selected:</span></span>
+3. <span data-ttu-id="4fd1e-125">**個人存取權杖**會自動開啟。</span><span class="sxs-lookup"><span data-stu-id="4fd1e-125">**Personal access tokens** automatically opens.</span></span> <span data-ttu-id="4fd1e-126">如果您有現有的代理程式時，加以選取，並確認**代理程式集區 （讀取、 管理）** 選取：</span><span class="sxs-lookup"><span data-stu-id="4fd1e-126">If you have an existing agent, select it, and confirm **Agent Pools (read, manage)** is selected:</span></span>
 
     ![代理程式集區的讀取及管理](../core/media/agent-pools-read-manage.png)
 

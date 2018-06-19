@@ -1,14 +1,14 @@
 ---
-title: "使用管線支援元件 |Microsoft 文件"
-ms.custom: 
+title: 使用管線支援元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: df0346ea-15d4-49c5-98d8-f9ec06f4e036
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295598"
 ---
 # <a name="using-the-pipeline-support-components"></a><span data-ttu-id="3417f-102">使用管線支援元件</span><span class="sxs-lookup"><span data-stu-id="3417f-102">Using the Pipeline Support Components</span></span>
 <span data-ttu-id="3417f-103">[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]包含下列管線元件：</span><span class="sxs-lookup"><span data-stu-id="3417f-103">The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] includes the following pipeline components:</span></span>  

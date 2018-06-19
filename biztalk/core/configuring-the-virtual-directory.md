@@ -1,17 +1,17 @@
 ---
-title: "設定虛擬目錄 |Microsoft 文件"
-ms.custom: 
+title: 設定虛擬目錄 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - virtual directory, configuring
 - configuring virtual directory
 ms.assetid: 548e3bee-66bc-424c-895d-e8672a3d6301
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968812"
 ---
 # <a name="configuring-the-virtual-directory"></a><span data-ttu-id="07a5a-102">設定虛擬目錄</span><span class="sxs-lookup"><span data-stu-id="07a5a-102">Configuring the Virtual Directory</span></span>
 <span data-ttu-id="07a5a-103">此主題說明設定虛擬目錄與為使用者驗證應用程式的程序。</span><span class="sxs-lookup"><span data-stu-id="07a5a-103">This topic shows the procedures for configuring the virtual directory and verifying the application for a user.</span></span>  
@@ -38,7 +39,7 @@ ms.lasthandoff: 11/28/2017
   
 5.  <span data-ttu-id="07a5a-110">在**新增虛擬目錄**對話方塊方塊中，輸入別名。</span><span class="sxs-lookup"><span data-stu-id="07a5a-110">In the **Add Virtual Directory** dialog box, type the alias.</span></span>  
   
-6.  <span data-ttu-id="07a5a-111">輸入步驟 1 中建立之資料夾的路徑。</span><span class="sxs-lookup"><span data-stu-id="07a5a-111">Type the path of the folder created in step 1.</span></span> <span data-ttu-id="07a5a-112">或者，按一下**（...）**瀏覽至資料夾位置。</span><span class="sxs-lookup"><span data-stu-id="07a5a-112">Alternatively, click **(…)** to browse to the folder location.</span></span>  
+6.  <span data-ttu-id="07a5a-111">輸入步驟 1 中建立之資料夾的路徑。</span><span class="sxs-lookup"><span data-stu-id="07a5a-111">Type the path of the folder created in step 1.</span></span> <span data-ttu-id="07a5a-112">或者，按一下 **（...）** 瀏覽至資料夾位置。</span><span class="sxs-lookup"><span data-stu-id="07a5a-112">Alternatively, click **(…)** to browse to the folder location.</span></span>  
   
 7.  <span data-ttu-id="07a5a-113">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="07a5a-113">Click **OK**.</span></span> <span data-ttu-id="07a5a-114">資料夾會顯示在**Default Web Site**資料夾。</span><span class="sxs-lookup"><span data-stu-id="07a5a-114">The folder is displayed under the **Default Web Site** folder.</span></span>  
   

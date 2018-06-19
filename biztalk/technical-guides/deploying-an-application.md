@@ -1,14 +1,14 @@
 ---
-title: "將應用程式部署 |Microsoft 文件"
-ms.custom: 
+title: 將應用程式部署 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 04bb4496-b1e9-400b-a849-a355381849ff
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22300414"
 ---
 # <a name="deploying-an-application"></a><span data-ttu-id="5085e-102">部署應用程式</span><span class="sxs-lookup"><span data-stu-id="5085e-102">Deploying an Application</span></span>
 <span data-ttu-id="5085e-103">部署是應用程式成品，以確保所有必要元件都需要這些系統可以填入對數成長分佈。</span><span class="sxs-lookup"><span data-stu-id="5085e-103">Deployment is the logistical distribution of application artifacts to ensure all necessary components are available to the systems that require them.</span></span> <span data-ttu-id="5085e-104">這些成品包括 BizTalk Server 組件、.NET 組件、 結構描述、 對應、 繫結、 商務規則和憑證。</span><span class="sxs-lookup"><span data-stu-id="5085e-104">These artifacts include BizTalk Server assemblies, .NET assemblies, schemas, maps, bindings, business rules, and certificates.</span></span> <span data-ttu-id="5085e-105">BizTalk 應用程式可以用來協助推出成品至其他電腦加入到群組或臨時區域 （當傳輸至另一個環境的應用程式）。</span><span class="sxs-lookup"><span data-stu-id="5085e-105">The BizTalk application can be leveraged to help roll out artifacts to other computers added to the group or for staging (when transporting an application to another environment).</span></span>  

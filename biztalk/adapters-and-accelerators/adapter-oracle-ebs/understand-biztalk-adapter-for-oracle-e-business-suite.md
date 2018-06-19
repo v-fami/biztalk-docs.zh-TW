@@ -1,14 +1,14 @@
 ---
-title: "瞭解 BizTalk Adapter for Oracle E-business Suite |Microsoft 文件"
-ms.custom: 
+title: 瞭解 BizTalk Adapter for Oracle E-business Suite |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 77a3f0a8-fc64-42cd-bb7c-0a6f527622e4
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964588"
 ---
 # <a name="understand-biztalk-adapter-for-oracle-e-business-suite"></a><span data-ttu-id="57ddc-102">瞭解 BizTalk Adapter for Oracle E-business Suite</span><span class="sxs-lookup"><span data-stu-id="57ddc-102">Understand BizTalk Adapter for Oracle E-Business Suite</span></span>
 ## <a name="biztalk-adapter-pack-features"></a><span data-ttu-id="57ddc-103">BizTalk Adapter Pack 功能</span><span class="sxs-lookup"><span data-stu-id="57ddc-103">BizTalk Adapter Pack features</span></span>

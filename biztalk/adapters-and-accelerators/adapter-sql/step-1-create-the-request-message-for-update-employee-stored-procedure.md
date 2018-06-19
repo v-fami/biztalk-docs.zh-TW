@@ -1,14 +1,14 @@
 ---
-title: "步驟 1： 建立要求訊息的 UPDATE_EMPLOYEE 預存程序 |Microsoft 文件"
-ms.custom: 
+title: 步驟 1： 建立要求訊息的 UPDATE_EMPLOYEE 預存程序 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4dd975d9-4b38-46e0-a926-4b325b0d7b5e
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,13 +17,14 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965988"
 ---
 # <a name="step-1-create-the-request-message-for-updateemployee-stored-procedure"></a><span data-ttu-id="bc248-102">步驟 1： 建立要求訊息的 UPDATE_EMPLOYEE 預存程序</span><span class="sxs-lookup"><span data-stu-id="bc248-102">Step 1: Create the Request Message for UPDATE_EMPLOYEE Stored Procedure</span></span>
 <span data-ttu-id="bc248-103">![步驟 2 之 1](../../adapters-and-accelerators/adapter-sql/media/step-1of2.gif "Step_1of2")</span><span class="sxs-lookup"><span data-stu-id="bc248-103">![Step 1 of 2](../../adapters-and-accelerators/adapter-sql/media/step-1of2.gif "Step_1of2")</span></span>  
   
  <span data-ttu-id="bc248-104">**若要完成的時間：** 10 分鐘</span><span class="sxs-lookup"><span data-stu-id="bc248-104">**Time to complete:** 10 minutes</span></span>  
   
- <span data-ttu-id="bc248-105">**目標：**在此步驟中，您必須將 C# 類別庫專案加入至方案。</span><span class="sxs-lookup"><span data-stu-id="bc248-105">**Objective:** In this step, you add a C# class library project to your solution.</span></span> <span data-ttu-id="bc248-106">此程式庫會建立非記憶體中的要求訊息**UPDATE_EMPLOYEE**預存程序。</span><span class="sxs-lookup"><span data-stu-id="bc248-106">This library creates an in-memory request message for the **UPDATE_EMPLOYEE** stored procedure.</span></span> <span data-ttu-id="bc248-107">在稍後步驟中，協調流程會將此訊息傳送到 SQL Server 來執行預存程序。</span><span class="sxs-lookup"><span data-stu-id="bc248-107">In later steps, the orchestration sends this message to SQL Server to execute the stored procedure.</span></span>  
+ <span data-ttu-id="bc248-105">**目標：** 在此步驟中，您必須將 C# 類別庫專案加入至方案。</span><span class="sxs-lookup"><span data-stu-id="bc248-105">**Objective:** In this step, you add a C# class library project to your solution.</span></span> <span data-ttu-id="bc248-106">此程式庫會建立非記憶體中的要求訊息**UPDATE_EMPLOYEE**預存程序。</span><span class="sxs-lookup"><span data-stu-id="bc248-106">This library creates an in-memory request message for the **UPDATE_EMPLOYEE** stored procedure.</span></span> <span data-ttu-id="bc248-107">在稍後步驟中，協調流程會將此訊息傳送到 SQL Server 來執行預存程序。</span><span class="sxs-lookup"><span data-stu-id="bc248-107">In later steps, the orchestration sends this message to SQL Server to execute the stored procedure.</span></span>  
   
 ## <a name="prerequisites"></a><span data-ttu-id="bc248-108">必要條件</span><span class="sxs-lookup"><span data-stu-id="bc248-108">Prerequisites</span></span>  
  <span data-ttu-id="bc248-109">您必須先完成中的步驟[第 2 課： 接收和篩選器通知](../../adapters-and-accelerators/adapter-sql/lesson-2-receive-and-filter-notifications.md)。</span><span class="sxs-lookup"><span data-stu-id="bc248-109">You must have completed the steps in [Lesson 2: Receive and Filter Notifications](../../adapters-and-accelerators/adapter-sql/lesson-2-receive-and-filter-notifications.md).</span></span>  

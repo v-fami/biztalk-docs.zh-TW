@@ -1,17 +1,17 @@
 ---
-title: "步驟 7： 建置與部署 LOBWebApplication SDK 範例 |Microsoft 文件"
-ms.custom: 
+title: 步驟 7： 建置與部署 LOBWebApplication SDK 範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - double action tutorial, building solutions
 - double action tutorial, deploying solutions
 ms.assetid: f61de666-ebda-4831-9669-598e9284e4c1
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966316"
 ---
 # <a name="step-7-building-and-deploying-the-lobwebapplication-sdk-sample"></a><span data-ttu-id="cf245-102">步驟 7： 建置與部署 LOBWebApplication SDK 範例</span><span class="sxs-lookup"><span data-stu-id="cf245-102">Step 7: Building and Deploying the LOBWebApplication SDK Sample</span></span>
 <span data-ttu-id="cf245-103">在此步驟中，您將建立 Fabrikam 用來提交夥伴介面程序 (PIP) 要求到 Contoso 的商務營運系統 (LOB) 應用程式。</span><span class="sxs-lookup"><span data-stu-id="cf245-103">In this step, you create the line-of-business (LOB) application that Fabrikam uses to submit Partner Interface Process (PIP) requests to Contoso.</span></span> <span data-ttu-id="cf245-104">您可以在 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK 資料夾中找到 LOBWebApplication 專案。</span><span class="sxs-lookup"><span data-stu-id="cf245-104">You can find the LOBWebApplication project in the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK folder.</span></span> <span data-ttu-id="cf245-105">若要執行 Web 應用程式，您必須建立 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Internet Information Services (IIS) 虛擬目錄，然後建置 LOBWebApplication 專案。</span><span class="sxs-lookup"><span data-stu-id="cf245-105">To run the Web application, you have to create a [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Internet Information Services (IIS) virtual directory, and then build the LOBWebApplication project.</span></span>  
@@ -28,7 +29,7 @@ ms.lasthandoff: 11/28/2017
   
 1.  <span data-ttu-id="cf245-107">按一下**啟動**，指向 **所有程式**，指向 **系統管理工具**，然後按一下**網際網路資訊服務 (IIS) 管理員**.</span><span class="sxs-lookup"><span data-stu-id="cf245-107">Click **Start**, point to **All Programs**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.</span></span>  
   
-2.  <span data-ttu-id="cf245-108">在 [Internet Information Services 管理員] 視窗中，依序展開**< 電腦名稱 > （本機電腦）**，然後展開**網站**。</span><span class="sxs-lookup"><span data-stu-id="cf245-108">In the Internet Information Services Manager window, expand **<computer_name> (local computer)**, and then expand **Web Sites**.</span></span>  
+2.  <span data-ttu-id="cf245-108">在 [Internet Information Services 管理員] 視窗中，依序展開 **< 電腦名稱 > （本機電腦）**，然後展開**網站**。</span><span class="sxs-lookup"><span data-stu-id="cf245-108">In the Internet Information Services Manager window, expand **<computer_name> (local computer)**, and then expand **Web Sites**.</span></span>  
   
 3.  <span data-ttu-id="cf245-109">以滑鼠右鍵按一下**Default Web Site**，指向 **新增**，然後按一下 **虛擬目錄**。</span><span class="sxs-lookup"><span data-stu-id="cf245-109">Right-click **Default Web Site**, point to **New**, and then click **Virtual Directory**.</span></span>  
   
@@ -54,7 +55,7 @@ ms.lasthandoff: 11/28/2017
   
 5.  <span data-ttu-id="cf245-122">在**虛擬伺服器管理**區段中，按一下**定義管理的路徑**。</span><span class="sxs-lookup"><span data-stu-id="cf245-122">In the **Virtual Server Management** section, click **Define managed paths**.</span></span>  
   
-6.  <span data-ttu-id="cf245-123">在**新增路徑**區段的**路徑**方塊中，輸入**/LOBWebApplication**。</span><span class="sxs-lookup"><span data-stu-id="cf245-123">In the **Add New Path** section, in the **Path** box, type **/LOBWebApplication**.</span></span>  
+6.  <span data-ttu-id="cf245-123">在**新增路徑**區段的**路徑**方塊中，輸入 **/LOBWebApplication**。</span><span class="sxs-lookup"><span data-stu-id="cf245-123">In the **Add New Path** section, in the **Path** box, type **/LOBWebApplication**.</span></span>  
   
 7.  <span data-ttu-id="cf245-124">如**類型**，選取**排除的路徑**，然後按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="cf245-124">For **Type**, select **Excluded Path**, and then click **OK**.</span></span>  
   

@@ -1,18 +1,18 @@
 ---
-title: "訊息模式 |Microsoft 文件"
-ms.custom: 
+title: 訊息模式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - message modes, about message modes
 - messages, message modes
 - message modes, HL7 messages
 ms.assetid: 2d832b67-6f0e-45e1-95ac-cb80b74a7831
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22205054"
 ---
 # <a name="message-modes"></a><span data-ttu-id="ad22c-102">訊息模式</span><span class="sxs-lookup"><span data-stu-id="ad22c-102">Message Modes</span></span>
 <span data-ttu-id="ad22c-103">有兩個構成所有 HL7 訊息的基本概念。</span><span class="sxs-lookup"><span data-stu-id="ad22c-103">There are two basic concepts that underlie all HL7 messages.</span></span> <span data-ttu-id="ad22c-104">這些概念位址不同方式交換資料的獨立系統可以互動，並提供一段時間內分散式醫療保健系統支援的互通性需求的結構。</span><span class="sxs-lookup"><span data-stu-id="ad22c-104">These concepts address different ways in which independent systems that exchange data can interact, and provide a structure that supports the requirements of interoperability over time within a distributed health care system.</span></span> <span data-ttu-id="ad22c-105">下面所列的概念定義 HL7 設計背後的基礎佈景主題：</span><span class="sxs-lookup"><span data-stu-id="ad22c-105">The concepts listed below define the underlying themes behind the HL7 design:</span></span>  

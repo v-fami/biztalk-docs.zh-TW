@@ -12,7 +12,7 @@ helpviewer_keywords:
 - managing [SSO applications], viewing servers
 - SSOClient [SSO], viewing servers
 ms.assetid: af79ad96-6d94-48e0-9c80-6f0e38a3b8ac
-caps.latest.revision: ''
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25970124"
 ---
 # <a name="how-to-display-the-sso-server-using-the-client-utility"></a><span data-ttu-id="036db-102">如何顯示 SSO 伺服器使用用戶端公用程式</span><span class="sxs-lookup"><span data-stu-id="036db-102">How to Display the SSO Server Using the Client Utility</span></span>
 <span data-ttu-id="036db-103">使用此命令以顯示使用者目前指向的「單一登入伺服器」。</span><span class="sxs-lookup"><span data-stu-id="036db-103">Use this command to display the Single Sign-On Server to which the user is currently pointing.</span></span>  

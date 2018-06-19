@@ -1,14 +1,14 @@
 ---
-title: "互動配接器端對端可靠傳遞 |Microsoft 文件"
-ms.custom: 
+title: 互動配接器端對端可靠傳遞 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ac7c22f2-ee4a-4e9b-af40-da7eb58daf51
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222990"
 ---
 # <a name="interact-adapter-end-to-end-reliable-delivery"></a><span data-ttu-id="4a612-102">互動配接器端對端可靠傳遞</span><span class="sxs-lookup"><span data-stu-id="4a612-102">InterAct Adapter End-to-End Reliable Delivery</span></span>
 <span data-ttu-id="4a612-103">將訊息或檔案傳送給收件者中，我們建議您確認已傳遞的訊息或檔案，以及的商務交易包含在這些執行沒有更多的時間比預期。</span><span class="sxs-lookup"><span data-stu-id="4a612-103">When sending messages or files to a recipient, we recommend that you ensure that the message or file is delivered, and that the business transaction(s) contained in these are executed no more times than anticipated.</span></span>  

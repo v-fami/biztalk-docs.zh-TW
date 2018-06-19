@@ -12,7 +12,7 @@ helpviewer_keywords:
 - installing, custom RFCs for the Data Provider for SAP
 - installing custom RFCs, how to
 ms.assetid: 7a99db70-fa5a-4c04-9dc7-b71613d4364e
-caps.latest.revision: ''
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25966709"
 ---
 # <a name="install-custom-rfcs-for-the-data-provider-for-sap"></a><span data-ttu-id="5f6cc-102">安裝適用於 SAP 的資料提供者的自訂 Rfc</span><span class="sxs-lookup"><span data-stu-id="5f6cc-102">Install Custom RFCs for the Data Provider for SAP</span></span>
 <span data-ttu-id="5f6cc-103">如果您想要使用.NET Framework Data Provider for mySAP Business Suite 存取 SAP 系統，請安裝自訂的 Rfc。</span><span class="sxs-lookup"><span data-stu-id="5f6cc-103">Install the custom RFCs if you want to use the .NET Framework Data Provider for mySAP Business Suite to access the SAP system.</span></span>

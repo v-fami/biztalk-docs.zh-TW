@@ -1,14 +1,14 @@
 ---
-title: "訊息結構描述的 Insert、 Update、 Delete，然後選取資料表和檢視表上的作業 |Microsoft 文件"
-ms.custom: 
+title: 訊息結構描述的 Insert、 Update、 Delete，然後選取資料表和檢視表上的作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4fff9cd3-26c0-4d5c-8162-3fd7966a5020
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25967212"
 ---
 # <a name="message-schemas-for-insert-update-delete-and-select-operations-on-tables-and-views"></a><span data-ttu-id="effcf-102">訊息結構描述，插入、 更新、 刪除和選取資料表和檢視表上的作業</span><span class="sxs-lookup"><span data-stu-id="effcf-102">Message Schemas for Insert, Update, Delete, and Select Operations on Tables and Views</span></span>
 <span data-ttu-id="effcf-103">[!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]呈現 Insert、 Update、 Delete 和 Select 作業的每個資料表和檢視 SQL Server 資料庫中的。</span><span class="sxs-lookup"><span data-stu-id="effcf-103">The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] surfaces Insert, Update, Delete, and Select operations for each table and view in the SQL Server database.</span></span> <span data-ttu-id="effcf-104">這些作業執行適當的 SQL 陳述式 WHERE 子句所限定。</span><span class="sxs-lookup"><span data-stu-id="effcf-104">These operations perform the appropriate SQL statement qualified by a WHERE clause.</span></span> <span data-ttu-id="effcf-105">[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]使用這些作業中的強型別記錄和資料錄集。</span><span class="sxs-lookup"><span data-stu-id="effcf-105">The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] uses strongly-typed records and record sets in these operations.</span></span>  

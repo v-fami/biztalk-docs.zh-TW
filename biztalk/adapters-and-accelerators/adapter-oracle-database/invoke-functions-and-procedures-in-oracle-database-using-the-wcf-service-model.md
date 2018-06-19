@@ -1,17 +1,17 @@
 ---
-title: "叫用函式和 Oracle 資料庫使用 WCF 服務模型中的程序 |Microsoft 文件"
-ms.custom: 
+title: 叫用函式和 Oracle 資料庫使用 WCF 服務模型中的程序 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - how to, invoke functions and procedures using the WCF service model
 - WCF service model, invoking functions and procedures
 ms.assetid: 806fc803-3640-42d6-bdf9-53b08f9c7c50
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966356"
 ---
 # <a name="invoke-functions-and-procedures-in-oracle-database-using-the-wcf-service-model"></a><span data-ttu-id="b72bc-102">叫用函式和 Oracle 資料庫使用 WCF 服務模型中的程序</span><span class="sxs-lookup"><span data-stu-id="b72bc-102">Invoke Functions and Procedures in Oracle Database using the WCF Service Model</span></span>
 <span data-ttu-id="b72bc-103">[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]呈現程序、 函數和封裝做為作業。</span><span class="sxs-lookup"><span data-stu-id="b72bc-103">The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] surfaces procedures, functions, and packages as operations.</span></span> <span data-ttu-id="b72bc-104">WCF 服務模型中的 WCF 用戶端上的方法以表示這些作業。</span><span class="sxs-lookup"><span data-stu-id="b72bc-104">In the WCF service model these operations are represented as methods on a WCF client.</span></span> <span data-ttu-id="b72bc-105">WCF 服務模型和[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]:</span><span class="sxs-lookup"><span data-stu-id="b72bc-105">The WCF service model and the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]:</span></span>  

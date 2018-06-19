@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968516"
 ---
 # <a name="error---second-input-to-cumulative-functoid-not-valid"></a><span data-ttu-id="2b146-102">錯誤-第二個輸入無效的累計運算質</span><span class="sxs-lookup"><span data-stu-id="2b146-102">Error - Second Input to Cumulative Functoid Not Valid</span></span>
 <span data-ttu-id="2b146-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="2b146-103">**Error Code**</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "檢查清單： 監視操作整備 |Microsoft 文件"
-ms.custom: 
+title: 檢查清單： 監視操作整備 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ef77ccc2-1d39-4e78-8fea-5c17d05c8174
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22300014"
 ---
 # <a name="checklist-monitoring-operational-readiness"></a><span data-ttu-id="0283a-102">檢查清單： 監視操作整備</span><span class="sxs-lookup"><span data-stu-id="0283a-102">Checklist: Monitoring Operational Readiness</span></span>
 <span data-ttu-id="0283a-103">本主題列出監視生產環境時，您應該遵循的步驟[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境。</span><span class="sxs-lookup"><span data-stu-id="0283a-103">This topic lists the steps that you should follow when monitoring a production [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment.</span></span>  

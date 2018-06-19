@@ -1,17 +1,17 @@
 ---
-title: "錯誤抽選程式範例類別 |Microsoft 文件"
-ms.custom: 
+title: 錯誤抽選程式範例類別 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Error Extractor Sample class
 - errors, Error Extractor Sample class
 ms.assetid: d0d59b21-d80a-4466-a77a-1d3b7df1bc2a
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965124"
 ---
 # <a name="error-extractor-sample-class"></a><span data-ttu-id="bfc75-102">錯誤抽選程式範例類別</span><span class="sxs-lookup"><span data-stu-id="bfc75-102">Error Extractor Sample Class</span></span>
 <span data-ttu-id="bfc75-103">[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]解譯器將序列化為 XML 物件，錯誤，並將 XML 物件附加至多部分訊息的錯誤區段。</span><span class="sxs-lookup"><span data-stu-id="bfc75-103">The [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] disassembler serializes errors to an XML object, and attaches the XML object to the error section of a multipart message.</span></span> <span data-ttu-id="bfc75-104">解譯器接著會將失敗的訊息發佈到 MessageBox 資料庫，就像是有效的訊息。</span><span class="sxs-lookup"><span data-stu-id="bfc75-104">The disassembler then publishes the failed message to the MessageBox database just as it would a valid message.</span></span> <span data-ttu-id="bfc75-105">因此，無法至 MessageBox 資料庫的訊息包含錯誤詳細資料。</span><span class="sxs-lookup"><span data-stu-id="bfc75-105">Therefore, failed messages carry error details into the MessageBox database.</span></span> <span data-ttu-id="bfc75-106">您可以使用錯誤抽選程式範例類別從失敗的訊息中擷取錯誤詳細資料，以及產生一個檔案包含錯誤詳細資料和另一個具有原始訊息的檔案。</span><span class="sxs-lookup"><span data-stu-id="bfc75-106">You can use the Error Extractor Sample Class to extract the error details from a failed message, and generate one file that has the error details and another file that has the original message.</span></span>  

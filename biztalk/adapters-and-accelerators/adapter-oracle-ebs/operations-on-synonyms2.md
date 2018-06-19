@@ -1,14 +1,14 @@
 ---
-title: "Synonyms2 上的作業 |Microsoft 文件"
-ms.custom: 
+title: Synonyms2 上的作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3bc9b2c4-ac22-491b-bc64-95e08a39b74d
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964012"
 ---
 # <a name="operations-on-synonyms"></a><span data-ttu-id="86b7f-102">在同義字上的作業</span><span class="sxs-lookup"><span data-stu-id="86b7f-102">Operations on Synonyms</span></span>
 <span data-ttu-id="86b7f-103">[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]可讓您在同義字上執行作業。</span><span class="sxs-lookup"><span data-stu-id="86b7f-103">The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] allows you to perform operations on synonyms.</span></span> <span data-ttu-id="86b7f-104">同義字是別名或資料庫物件 （例如資料表、 檢視、 預存程序、 函數和封裝） 的好記名稱。</span><span class="sxs-lookup"><span data-stu-id="86b7f-104">A synonym is an alias or friendly name for the database objects (such as tables, views, stored procedures, functions, and packages).</span></span> <span data-ttu-id="86b7f-105">如需在 Oracle 中的同義字的詳細資訊，請參閱[http://go.microsoft.com/fwlink/?LinkId=138058](http://go.microsoft.com/fwlink/?LinkId=138058)。</span><span class="sxs-lookup"><span data-stu-id="86b7f-105">For more information about synonyms in Oracle, see [http://go.microsoft.com/fwlink/?LinkId=138058](http://go.microsoft.com/fwlink/?LinkId=138058).</span></span>  

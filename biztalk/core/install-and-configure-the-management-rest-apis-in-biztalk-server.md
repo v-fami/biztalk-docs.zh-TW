@@ -1,15 +1,15 @@
 ---
-title: "安裝和設定管理 REST Api |Microsoft 文件"
-description: "查詢您使用管理資料 REST Api 與 BizTalk Server 中的功能組件的 BizTalk 環境中的成品"
+title: 安裝和設定管理 REST Api |Microsoft 文件
+description: 查詢您使用管理資料 REST Api 與 BizTalk Server 中的功能組件的 BizTalk 環境中的成品
 ms.custom: fp1
 ms.date: 11/06/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 39442756-5886-4ddd-b700-3800a237de4a
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/21/2017
+ms.locfileid: "25497895"
 ---
 # <a name="install-and-configure-the-management-rest-apis-in-biztalk-server"></a><span data-ttu-id="ce3c8-103">安裝和設定 BizTalk Server 中的管理 REST Api</span><span class="sxs-lookup"><span data-stu-id="ce3c8-103">Install and configure the management REST APIs in BizTalk Server</span></span>
 

@@ -1,14 +1,14 @@
 ---
-title: "產生 WCF 用戶端或 Oracle E-business Suite 方案成品的 WCF 服務合約 |Microsoft 文件"
-ms.custom: 
+title: 產生 WCF 用戶端或 Oracle E-business Suite 方案成品的 WCF 服務合約 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c7ffd857-a177-423a-ae83-685d11b7aec6
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217462"
 ---
 # <a name="generate-a-wcf-client-or-a-wcf-service-contract-for-oracle-e-business-suite-solution-artifacts"></a><span data-ttu-id="7c527-102">產生 WCF 用戶端或 Oracle E-business Suite 方案成品的 WCF 服務合約</span><span class="sxs-lookup"><span data-stu-id="7c527-102">Generate a WCF client or a WCF service contract for Oracle E-Business Suite solution artifacts</span></span>
 <span data-ttu-id="7c527-103">您可以使用[!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]產生 WCF 用戶端類別或 WCF 服務合約 （介面） 為目標的 Oracle E-business Suite 成品中選取的作業。</span><span class="sxs-lookup"><span data-stu-id="7c527-103">You can use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] to generate a WCF client class or a WCF service contract (interface) targeted at selected operations on Oracle E-Business Suite artifacts.</span></span> <span data-ttu-id="7c527-104">您也可以使用 ServiceModel Metadata Utility Tool (svcutil.exe) 來產生 WCF 用戶端類別或 WCF 服務合約。不過，[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]公開 ServiceModel Metadata Utility Tool，透過標準的 Microsoft Windows 介面的功能。</span><span class="sxs-lookup"><span data-stu-id="7c527-104">You can also use the ServiceModel Metadata Utility Tool (svcutil.exe) to generate the WCF client class or WCF service contract; however, the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] exposes the functionality of the ServiceModel Metadata Utility Tool through a standard Microsoft Windows interface.</span></span> <span data-ttu-id="7c527-105">它也提供不是使用 svcutil.exe 工具，可用的瀏覽和搜尋功能，並在產生組態檔，根據您選取當您連接到 Oracle E-business Suite 繫結屬性。</span><span class="sxs-lookup"><span data-stu-id="7c527-105">It also provides browse and search capabilities that are not available with the svcutil.exe tool, and it generates a configuration file based on the binding properties that you select when you connect to the Oracle E-Business Suite.</span></span>  
@@ -28,7 +29,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  <span data-ttu-id="7c527-109">在[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]方案總管 中，以滑鼠右鍵按一下您的專案，然後**新增配接器服務參考**。</span><span class="sxs-lookup"><span data-stu-id="7c527-109">In [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] Solution Explorer, right-click your project, and then click **Add Adapter Service Reference**.</span></span>  
   
-2.  <span data-ttu-id="7c527-110">之後**新增配接器服務參考**對話方塊隨即開啟，請依照下列中的步驟[擷取 Oracle E-business Suite 作業在 Visual Studio 中的中繼資料](../../adapters-and-accelerators/adapter-oracle-ebs/get-metadata-for-oracle-e-business-suite-operations-in-visual-studio.md)連接到 Oracle E-business Suite 和瀏覽和搜尋作業。</span><span class="sxs-lookup"><span data-stu-id="7c527-110">After the **Add Adapter Service Reference** dialog box opens, follow the steps in [Retrieving Metadata for Oracle E-Business Suite Operations in Visual Studio](../../adapters-and-accelerators/adapter-oracle-ebs/get-metadata-for-oracle-e-business-suite-operations-in-visual-studio.md) to connect to the Oracle E-Business Suite and browse and search for operations.</span></span> <span data-ttu-id="7c527-111">若要建立的作業，您選取的 WCF 用戶端類別，務必**用戶端 （輸出作業）**選取從**選取合約型別**下拉式清單 （這是預設值）。</span><span class="sxs-lookup"><span data-stu-id="7c527-111">To create a WCF client class for the operations that you select, be sure that **Client (Outbound operations)** is selected from the **Select contract type** drop-down list (this is the default).</span></span>  
+2.  <span data-ttu-id="7c527-110">之後**新增配接器服務參考**對話方塊隨即開啟，請依照下列中的步驟[擷取 Oracle E-business Suite 作業在 Visual Studio 中的中繼資料](../../adapters-and-accelerators/adapter-oracle-ebs/get-metadata-for-oracle-e-business-suite-operations-in-visual-studio.md)連接到 Oracle E-business Suite 和瀏覽和搜尋作業。</span><span class="sxs-lookup"><span data-stu-id="7c527-110">After the **Add Adapter Service Reference** dialog box opens, follow the steps in [Retrieving Metadata for Oracle E-Business Suite Operations in Visual Studio](../../adapters-and-accelerators/adapter-oracle-ebs/get-metadata-for-oracle-e-business-suite-operations-in-visual-studio.md) to connect to the Oracle E-Business Suite and browse and search for operations.</span></span> <span data-ttu-id="7c527-111">若要建立的作業，您選取的 WCF 用戶端類別，務必**用戶端 （輸出作業）** 選取從**選取合約型別**下拉式清單 （這是預設值）。</span><span class="sxs-lookup"><span data-stu-id="7c527-111">To create a WCF client class for the operations that you select, be sure that **Client (Outbound operations)** is selected from the **Select contract type** drop-down list (this is the default).</span></span>  
   
 3.  <span data-ttu-id="7c527-112">在您選取的所有作業，您要為目標，請按一下之後**確定**產生 WCF 用戶端類別。</span><span class="sxs-lookup"><span data-stu-id="7c527-112">After you select all of the operations that you want to target, click **OK** to generate the WCF client class.</span></span>  
   
@@ -52,7 +53,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  <span data-ttu-id="7c527-127">之後**新增配接器服務參考**對話方塊隨即開啟，請依照下列中的步驟[擷取 Oracle E-business Suite 作業在 Visual Studio 中的中繼資料](../../adapters-and-accelerators/adapter-oracle-ebs/get-metadata-for-oracle-e-business-suite-operations-in-visual-studio.md)來連接到 Oracle E-business Suite 的資訊。</span><span class="sxs-lookup"><span data-stu-id="7c527-127">After the **Add Adapter Service Reference** dialog box opens, follow the steps in [Retrieving Metadata for Oracle E-Business Suite Operations in Visual Studio](../../adapters-and-accelerators/adapter-oracle-ebs/get-metadata-for-oracle-e-business-suite-operations-in-visual-studio.md) to connect to the Oracle E-Business Suite.</span></span> <span data-ttu-id="7c527-128">有數個繫結屬性和您可能想要您連接到 Oracle E-business Suite 的資訊時，將 URI 屬性。</span><span class="sxs-lookup"><span data-stu-id="7c527-128">There are several binding properties and a URI property that you may want to set when you connect to the Oracle E-Business Suite.</span></span>  
   
-3.  <span data-ttu-id="7c527-129">您已經連接到 Oracle E-business Suite 的資訊之後，請選取**服務 （輸入操作）**從**選取合約型別**下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="7c527-129">After you have connected to the Oracle E-Business Suite, select **Service (Inbound operations)** from the **Select contract type** drop-down list.</span></span>  
+3.  <span data-ttu-id="7c527-129">您已經連接到 Oracle E-business Suite 的資訊之後，請選取**服務 （輸入操作）** 從**選取合約型別**下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="7c527-129">After you have connected to the Oracle E-Business Suite, select **Service (Inbound operations)** from the **Select contract type** drop-down list.</span></span>  
   
 4.  <span data-ttu-id="7c527-130">在**選取類別目錄**方塊中，瀏覽至 輸入您要產生服務合約的作業。</span><span class="sxs-lookup"><span data-stu-id="7c527-130">In the **Select a category** box, browse to the inbound operation for which you want to generate the service contract.</span></span> <span data-ttu-id="7c527-131">例如，對於**通知**作業中，按一下根節點 (**/**)，請選取**通知**從**可用的類別和作業**方塊，然後再按一下**新增**。</span><span class="sxs-lookup"><span data-stu-id="7c527-131">For example, for **Notification** operation, click the root node (**/**), select **Notification** from the **Available categories and operations** box, and then click **Add**.</span></span> <span data-ttu-id="7c527-132">如需有關如何瀏覽的輸入操作的指示，請參閱[瀏覽、 搜尋及擷取 Oracle E-business Suite 作業的中繼資料](../../adapters-and-accelerators/adapter-oracle-ebs/browse-search-and-get-metadata-for-oracle-e-business-suite-operations.md)。</span><span class="sxs-lookup"><span data-stu-id="7c527-132">For instructions on how to browse for inbound operations, see [Browse, Search, and Retrieving Metadata for Oracle E-Business Suite Operations](../../adapters-and-accelerators/adapter-oracle-ebs/browse-search-and-get-metadata-for-oracle-e-business-suite-operations.md).</span></span>  
   

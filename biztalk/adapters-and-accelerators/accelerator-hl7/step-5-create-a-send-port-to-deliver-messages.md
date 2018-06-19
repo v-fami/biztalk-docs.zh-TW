@@ -1,14 +1,14 @@
 ---
-title: "步驟 5： 建立傳送埠將訊息傳遞 |Microsoft 文件"
-ms.custom: 
+title: 步驟 5： 建立傳送埠將訊息傳遞 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f56ad7a7-5c77-4191-a001-691e5e0652a1
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207598"
 ---
 # <a name="step-5-create-a-send-port-to-deliver-messages"></a><span data-ttu-id="c1ae5-102">步驟 5： 建立傳送埠將訊息傳遞</span><span class="sxs-lookup"><span data-stu-id="c1ae5-102">Step 5: Create a Send Port to Deliver Messages</span></span>
 <span data-ttu-id="c1ae5-103">在此步驟中，您可以建立和設定傳送接收之批次中包含的個別訊息的連接埠。</span><span class="sxs-lookup"><span data-stu-id="c1ae5-103">In this step, you create and configure a port for sending the individual messages contained in the received batch.</span></span> <span data-ttu-id="c1ae5-104">稍後在教學課程中，將原始的合作對象 (Tutorial_BatchSource) 片段中啟用[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]Configuration 總管。</span><span class="sxs-lookup"><span data-stu-id="c1ae5-104">Later in the tutorial, you will enable fragmentation for the originating party (Tutorial_BatchSource) in [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] Configuration Explorer.</span></span> <span data-ttu-id="c1ae5-105">如此一來，BizTalk 整合引擎時，會為個別的訊息片段批次和[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]會透過您在此步驟中建立的傳送埠傳送這些訊息。</span><span class="sxs-lookup"><span data-stu-id="c1ae5-105">As a result, the BizTalk integration engine will fragment the batch into individual messages, and [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] will send those messages over the send port that you create in this step.</span></span>  
@@ -56,15 +57,15 @@ ms.lasthandoff: 09/20/2017
     |<span data-ttu-id="c1ae5-140">使用</span><span class="sxs-lookup"><span data-stu-id="c1ae5-140">Use this</span></span>|<span data-ttu-id="c1ae5-141">動作</span><span class="sxs-lookup"><span data-stu-id="c1ae5-141">To do this</span></span>|  
     |--------------|----------------|  
     |<span data-ttu-id="c1ae5-142">**屬性**（第一次換行）</span><span class="sxs-lookup"><span data-stu-id="c1ae5-142">**Property** (first line)</span></span>|<span data-ttu-id="c1ae5-143">按一下下方的欄位**屬性**，然後選取**BTS。MessageType**從下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="c1ae5-143">Click the field under **Property**, and then select **BTS.MessageType** from the drop-down list.</span></span>|  
-    |<span data-ttu-id="c1ae5-144">**運算子**</span><span class="sxs-lookup"><span data-stu-id="c1ae5-144">**Operator**</span></span>|<span data-ttu-id="c1ae5-145">選取**！ =**從下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="c1ae5-145">Select **!=** from the drop-down list.</span></span>|  
+    |<span data-ttu-id="c1ae5-144">**運算子**</span><span class="sxs-lookup"><span data-stu-id="c1ae5-144">**Operator**</span></span>|<span data-ttu-id="c1ae5-145">選取 **！ =** 從下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="c1ae5-145">Select **!=** from the drop-down list.</span></span>|  
     |<span data-ttu-id="c1ae5-146">**值**</span><span class="sxs-lookup"><span data-stu-id="c1ae5-146">**Value**</span></span>|<span data-ttu-id="c1ae5-147">型別**http://microsoft.com/HealthCare/HL7/2X#ACK_24_GLO_DEF**。</span><span class="sxs-lookup"><span data-stu-id="c1ae5-147">Type **http://microsoft.com/HealthCare/HL7/2X#ACK_24_GLO_DEF**.</span></span>|  
     |<span data-ttu-id="c1ae5-148">**Group By**</span><span class="sxs-lookup"><span data-stu-id="c1ae5-148">**Group By**</span></span>|<span data-ttu-id="c1ae5-149">選取**AND**從下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="c1ae5-149">Select **AND** from the drop-down list.</span></span>|  
     |<span data-ttu-id="c1ae5-150">**屬性**（第二行）</span><span class="sxs-lookup"><span data-stu-id="c1ae5-150">**Property** (second line)</span></span>|<span data-ttu-id="c1ae5-151">按一下下方的欄位**屬性**，然後選取**BTS。MessageType**從下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="c1ae5-151">Click the field under **Property**, and then select **BTS.MessageType** from the drop-down list.</span></span>|  
-    |<span data-ttu-id="c1ae5-152">**運算子**</span><span class="sxs-lookup"><span data-stu-id="c1ae5-152">**Operator**</span></span>|<span data-ttu-id="c1ae5-153">選取**！ =**從下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="c1ae5-153">Select **!=** from the drop-down list.</span></span>|  
+    |<span data-ttu-id="c1ae5-152">**運算子**</span><span class="sxs-lookup"><span data-stu-id="c1ae5-152">**Operator**</span></span>|<span data-ttu-id="c1ae5-153">選取 **！ =** 從下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="c1ae5-153">Select **!=** from the drop-down list.</span></span>|  
     |<span data-ttu-id="c1ae5-154">**值**</span><span class="sxs-lookup"><span data-stu-id="c1ae5-154">**Value**</span></span>|<span data-ttu-id="c1ae5-155">型別**http://microsoft.com/HealthCare/HL7/2X#ACK_25_GLO_DEF。**</span><span class="sxs-lookup"><span data-stu-id="c1ae5-155">Type **http://microsoft.com/HealthCare/HL7/2X#ACK_25_GLO_DEF.**</span></span>|  
     |<span data-ttu-id="c1ae5-156">**Group By**</span><span class="sxs-lookup"><span data-stu-id="c1ae5-156">**Group By**</span></span>|<span data-ttu-id="c1ae5-157">選取**和**從下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="c1ae5-157">Select **And** from the drop-down list.</span></span>|  
     |<span data-ttu-id="c1ae5-158">**屬性**（第三個行）</span><span class="sxs-lookup"><span data-stu-id="c1ae5-158">**Property** (third line)</span></span>|<span data-ttu-id="c1ae5-159">按一下底下的第二列的欄位**屬性**，然後選取**BTS。MessageType**從下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="c1ae5-159">Click the field on the second line under **Property**, and then select **BTS.MessageType** from the drop-down list.</span></span>|  
-    |<span data-ttu-id="c1ae5-160">**運算子**</span><span class="sxs-lookup"><span data-stu-id="c1ae5-160">**Operator**</span></span>|<span data-ttu-id="c1ae5-161">選取**！ =**從下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="c1ae5-161">Select **!=** from the drop-down list.</span></span>|  
+    |<span data-ttu-id="c1ae5-160">**運算子**</span><span class="sxs-lookup"><span data-stu-id="c1ae5-160">**Operator**</span></span>|<span data-ttu-id="c1ae5-161">選取 **！ =** 從下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="c1ae5-161">Select **!=** from the drop-down list.</span></span>|  
     |<span data-ttu-id="c1ae5-162">**值**</span><span class="sxs-lookup"><span data-stu-id="c1ae5-162">**Value**</span></span>|<span data-ttu-id="c1ae5-163">型別**StaticAck**。</span><span class="sxs-lookup"><span data-stu-id="c1ae5-163">Type **StaticAck**.</span></span>|  
   
 7.  <span data-ttu-id="c1ae5-164">按一下 **[輸入]**。</span><span class="sxs-lookup"><span data-stu-id="c1ae5-164">Click **Enter**.</span></span> <span data-ttu-id="c1ae5-165">在對話方塊底部窗格中，確認正確地輸入篩選運算式，然後按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="c1ae5-165">In the pane at the bottom of the dialog box, verify that you entered the filter expression correctly, and then click **OK**.</span></span>  

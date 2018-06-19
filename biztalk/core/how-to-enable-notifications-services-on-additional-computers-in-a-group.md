@@ -1,14 +1,14 @@
 ---
-title: "如何啟用群組中的其他電腦上的通知服務 |Microsoft 文件"
-ms.custom: 
+title: 如何啟用群組中的其他電腦上的通知服務 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 571d6b45-b0cc-47f2-bed3-7c6f3e70decc
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969252"
 ---
 # <a name="how-to-enable-notifications-services-on-additional-computers-in-a-group"></a><span data-ttu-id="b8584-102">如何在群組中的其他電腦啟用 Notification Services</span><span class="sxs-lookup"><span data-stu-id="b8584-102">How to Enable Notifications Services on Additional Computers In A Group</span></span>
 <span data-ttu-id="b8584-103">當多重電腦環境中執行 BAM，您必須啟用 Notification Services 會在您執行 BAM 管理公用程式來部署活動的每一部電腦上。</span><span class="sxs-lookup"><span data-stu-id="b8584-103">When running BAM in a multi-computer environment, you must enable Notification Services on each computer on which you will run the BAM Management Utility to deploy an activity.</span></span>  

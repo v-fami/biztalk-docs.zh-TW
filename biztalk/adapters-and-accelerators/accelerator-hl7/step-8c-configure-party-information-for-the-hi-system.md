@@ -1,14 +1,14 @@
 ---
-title: "步驟 8 C： 設定合作對象資訊 HI 系統 |Microsoft 文件"
-ms.custom: 
+title: 步驟 8 C： 設定合作對象資訊 HI 系統 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4ac5c113-7ee7-4009-8ca3-d263f74c7a8d
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961066"
 ---
 # <a name="step-8c-configure-party-information-for-the-hi-system"></a><span data-ttu-id="a2f4a-102">步驟 8 C： 設定 HI 系統的合作對象資訊</span><span class="sxs-lookup"><span data-stu-id="a2f4a-102">Step 8C: Configure Party Information for the HI System</span></span>
 <span data-ttu-id="a2f4a-103">在此步驟中，您可以設定 HI 系統的合作對象資訊。</span><span class="sxs-lookup"><span data-stu-id="a2f4a-103">In this step, you configure the party information for the HI System.</span></span>  

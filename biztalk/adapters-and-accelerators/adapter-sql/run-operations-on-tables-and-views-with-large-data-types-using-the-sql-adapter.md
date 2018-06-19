@@ -1,14 +1,14 @@
 ---
-title: "使用 SQL 配接器的大型資料類型執行資料表和檢視表上的作業 |Microsoft 文件"
-ms.custom: 
+title: 使用 SQL 配接器的大型資料類型執行資料表和檢視表上的作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cec15b01-7a57-4917-8c21-44a1cfaadc59
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967188"
 ---
 # <a name="run-operations-on-tables-and-views-with-large-data-types-using-the-sql-adapter"></a><span data-ttu-id="e430b-102">使用 SQL 配接器的大型資料類型執行資料表和檢視表上的作業</span><span class="sxs-lookup"><span data-stu-id="e430b-102">Run operations on tables and views with large data types using the SQL adapter</span></span>
 <span data-ttu-id="e430b-103">[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]可讓讀取及更新大型資料類型的資料行中的資料，也就是配接器用戶端、 varchar （max）、 nvarchar （max） 或 varbinary （max）。</span><span class="sxs-lookup"><span data-stu-id="e430b-103">The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] enables adapter clients to read and update data in columns of large data types, that is, varchar(max), nvarchar(max), or varbinary(max).</span></span> <span data-ttu-id="e430b-104">若要從這類資料行讀取資料，配接器用戶端可以使用選取的作業。</span><span class="sxs-lookup"><span data-stu-id="e430b-104">To read data from such columns, adapter clients can use the Select operation.</span></span> <span data-ttu-id="e430b-105">若要插入或更新到這類資料行的資料，配接器會公開 < column_name > 設定作業中，其中 < column_name > 是類型 varchar （max）、 nvarchar （max），或 varbinary （max） 資料行的名稱。</span><span class="sxs-lookup"><span data-stu-id="e430b-105">To insert or update data into such columns, the adapter exposes a Set<column_name> operation, where <column_name> is the name of the column of type varchar(max), nvarchar(max), or varbinary(max).</span></span>  
@@ -116,7 +117,7 @@ ms.lasthandoff: 11/28/2017
   
 |<span data-ttu-id="e430b-196">形狀圖</span><span class="sxs-lookup"><span data-stu-id="e430b-196">Shape</span></span>|<span data-ttu-id="e430b-197">圖形類型</span><span class="sxs-lookup"><span data-stu-id="e430b-197">Shape Type</span></span>|<span data-ttu-id="e430b-198">屬性</span><span class="sxs-lookup"><span data-stu-id="e430b-198">Properties</span></span>|  
 |-----------|----------------|----------------|  
-|<span data-ttu-id="e430b-199">ReceiveMessage</span><span class="sxs-lookup"><span data-stu-id="e430b-199">ReceiveMessage</span></span>|<span data-ttu-id="e430b-200">Receive</span><span class="sxs-lookup"><span data-stu-id="e430b-200">Receive</span></span>|<span data-ttu-id="e430b-201">-設定**名稱**至*ReceiveMessage*</span><span class="sxs-lookup"><span data-stu-id="e430b-201">-   Set **Name** to *ReceiveMessage*</span></span><br /><span data-ttu-id="e430b-202">-設定**啟動**至*，則為 True*</span><span class="sxs-lookup"><span data-stu-id="e430b-202">-   Set **Activate** to *True*</span></span>|  
+|<span data-ttu-id="e430b-199">ReceiveMessage</span><span class="sxs-lookup"><span data-stu-id="e430b-199">ReceiveMessage</span></span>|<span data-ttu-id="e430b-200">Receive</span><span class="sxs-lookup"><span data-stu-id="e430b-200">Receive</span></span>|<span data-ttu-id="e430b-201">-設定**名稱**至*ReceiveMessage*</span><span class="sxs-lookup"><span data-stu-id="e430b-201">-   Set **Name** to *ReceiveMessage*</span></span><br /><span data-ttu-id="e430b-202">-設定**啟動**至 *，則為 True*</span><span class="sxs-lookup"><span data-stu-id="e430b-202">-   Set **Activate** to *True*</span></span>|  
 |<span data-ttu-id="e430b-203">SendMessage</span><span class="sxs-lookup"><span data-stu-id="e430b-203">SendMessage</span></span>|<span data-ttu-id="e430b-204">Send</span><span class="sxs-lookup"><span data-stu-id="e430b-204">Send</span></span>|<span data-ttu-id="e430b-205">-設定**名稱**至*SendMessage*</span><span class="sxs-lookup"><span data-stu-id="e430b-205">-   Set **Name** to *SendMessage*</span></span>|  
 |<span data-ttu-id="e430b-206">ReceiveResponse</span><span class="sxs-lookup"><span data-stu-id="e430b-206">ReceiveResponse</span></span>|<span data-ttu-id="e430b-207">Receive</span><span class="sxs-lookup"><span data-stu-id="e430b-207">Receive</span></span>|<span data-ttu-id="e430b-208">-設定**名稱**至*ReceiveResponse*</span><span class="sxs-lookup"><span data-stu-id="e430b-208">-   Set **Name** to *ReceiveResponse*</span></span><br /><span data-ttu-id="e430b-209">-設定**啟動**至*False*</span><span class="sxs-lookup"><span data-stu-id="e430b-209">-   Set **Activate** to *False*</span></span>|  
 |<span data-ttu-id="e430b-210">SendResponse</span><span class="sxs-lookup"><span data-stu-id="e430b-210">SendResponse</span></span>|<span data-ttu-id="e430b-211">Send</span><span class="sxs-lookup"><span data-stu-id="e430b-211">Send</span></span>|<span data-ttu-id="e430b-212">-設定**名稱**至*SendResponse*</span><span class="sxs-lookup"><span data-stu-id="e430b-212">-   Set **Name** to *SendResponse*</span></span>|  
@@ -201,7 +202,7 @@ ms.lasthandoff: 11/28/2017
 <SetDocumentResponse xmlns="http://schemas.microsoft.com/Sql/2008/05/TableOp/dbo/Records" />  
 ```  
   
- <span data-ttu-id="e430b-293">配接器傳送空的回應**設定 < column_name >**作業。</span><span class="sxs-lookup"><span data-stu-id="e430b-293">The adapter sends an empty response for the **Set<column_name>** operation.</span></span>  
+ <span data-ttu-id="e430b-293">配接器傳送空的回應**設定 < column_name >** 作業。</span><span class="sxs-lookup"><span data-stu-id="e430b-293">The adapter sends an empty response for the **Set<column_name>** operation.</span></span>  
   
 ## <a name="best-practices"></a><span data-ttu-id="e430b-294">最佳作法</span><span class="sxs-lookup"><span data-stu-id="e430b-294">Best Practices</span></span>  
  <span data-ttu-id="e430b-295">您部署和設定 BizTalk 專案之後，您可以為 XML 檔案，稱為繫結檔案匯出組態設定。</span><span class="sxs-lookup"><span data-stu-id="e430b-295">After you have deployed and configured the BizTalk project, you can export configuration settings to an XML file called the binding file.</span></span> <span data-ttu-id="e430b-296">一旦產生繫結檔案時，可以組態設定匯入檔案，使您不需要建立項目，例如傳送埠和接收相同的協調流程連接埠。</span><span class="sxs-lookup"><span data-stu-id="e430b-296">Once you generate a binding file, you can import the configuration settings from the file, so that you do not need to create items such as the send ports and receive ports for the same orchestration.</span></span> <span data-ttu-id="e430b-297">如需繫結檔案的詳細資訊，請參閱[重複使用配接器繫結](../../adapters-and-accelerators/adapter-sql/reuse-sql-adapter-bindings.md)。</span><span class="sxs-lookup"><span data-stu-id="e430b-297">For more information about binding files, see [Reuse adapter bindings](../../adapters-and-accelerators/adapter-sql/reuse-sql-adapter-bindings.md).</span></span>

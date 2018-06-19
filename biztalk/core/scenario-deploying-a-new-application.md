@@ -1,11 +1,11 @@
 ---
-title: "案例： 將新的應用程式部署 |Microsoft 文件"
-ms.custom: 
+title: 案例： 將新的應用程式部署 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, applications
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - applications, examples
 - examples, deploying
 ms.assetid: 6d34a626-9fd4-4c33-a067-b66333eec01f
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269206"
 ---
 # <a name="scenario-deploying-a-new-application"></a><span data-ttu-id="31aac-102">案例： 部署新的應用程式</span><span class="sxs-lookup"><span data-stu-id="31aac-102">Scenario: Deploying a New Application</span></span>
 <span data-ttu-id="31aac-103">本主題說明將應用程式部署至從未部署之新環境的實例，例如，將執行環境中設定的應用程式部署至實際執行環境。</span><span class="sxs-lookup"><span data-stu-id="31aac-103">This topic describes the scenario of deploying an application into a new environment where it has not been deployed before; for example, deploying an application that has been configured in a staging environment into a production environment.</span></span>  

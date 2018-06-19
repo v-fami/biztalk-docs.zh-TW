@@ -1,14 +1,14 @@
 ---
-title: "教學課程： 將 BizTalk 專案移轉至 Oracle 資料庫配接器 |Microsoft 文件"
-ms.custom: 
+title: 教學課程： 將 BizTalk 專案移轉至 Oracle 資料庫配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9a393219-bae8-4e08-acc8-76986600d0de
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215342"
 ---
 # <a name="tutorial-migrate-biztalk-projects-to-the-oracle-database-adapter"></a><span data-ttu-id="ad2f3-102">教學課程： 將 BizTalk 專案移轉至 Oracle 資料庫配接器</span><span class="sxs-lookup"><span data-stu-id="ad2f3-102">Tutorial: Migrate BizTalk Projects to the Oracle Database adapter</span></span>
 <span data-ttu-id="ad2f3-103">BizTalk ODBC 配接器，為 Microsoft BizTalk server 隨附 Oracle 資料庫與 WCF 架構[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]在許多方面，包括：</span><span class="sxs-lookup"><span data-stu-id="ad2f3-103">The BizTalk ODBC Adapter for Oracle Database that shipped with Microsoft BizTalk Server differs from the WCF-based [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] in many aspects, including:</span></span>  

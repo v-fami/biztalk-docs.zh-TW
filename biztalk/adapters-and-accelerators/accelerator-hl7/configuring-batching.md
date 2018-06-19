@@ -1,17 +1,17 @@
 ---
-title: "設定批次處理 |Microsoft 文件"
-ms.custom: 
+title: 設定批次處理 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - batching, configuring
 - configuring, batching
 ms.assetid: 33c72d5e-31dd-44a8-8418-1faab3239e8e
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204566"
 ---
 # <a name="configuring-batching"></a><span data-ttu-id="b639c-102">設定批次處理</span><span class="sxs-lookup"><span data-stu-id="b639c-102">Configuring Batching</span></span>
 <span data-ttu-id="b639c-103">您使用[!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]Configuration 總管來建立批次，在批次 / 出批次處理，並選取可用的結構描述的輸出批次的批次。</span><span class="sxs-lookup"><span data-stu-id="b639c-103">You use [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] Configuration Explorer to create batch, batch in/batch out batching, and to select available schemas for outbound batching.</span></span>  
@@ -59,7 +60,7 @@ ms.lasthandoff: 09/20/2017
   
     |<span data-ttu-id="b639c-120">使用</span><span class="sxs-lookup"><span data-stu-id="b639c-120">Use this</span></span>|<span data-ttu-id="b639c-121">動作</span><span class="sxs-lookup"><span data-stu-id="b639c-121">To do this</span></span>|  
     |--------------|----------------|  
-    |<span data-ttu-id="b639c-122">**所需的片段**</span><span class="sxs-lookup"><span data-stu-id="b639c-122">**Fragmentation required**</span></span>|<span data-ttu-id="b639c-123">選取下列其中一個選項：</span><span class="sxs-lookup"><span data-stu-id="b639c-123">Select one of the following options:</span></span><br /><br /> <span data-ttu-id="b639c-124">-   **[是]**。</span><span class="sxs-lookup"><span data-stu-id="b639c-124">-   **Yes**.</span></span> <span data-ttu-id="b639c-125">若要啟用片段。</span><span class="sxs-lookup"><span data-stu-id="b639c-125">To enable fragmentation.</span></span><br /><span data-ttu-id="b639c-126">-   **否**。</span><span class="sxs-lookup"><span data-stu-id="b639c-126">-   **No**.</span></span> <span data-ttu-id="b639c-127">若要停用片段。</span><span class="sxs-lookup"><span data-stu-id="b639c-127">To disable fragmentation.</span></span> <span data-ttu-id="b639c-128">**注意：**新合作對象，**片段所需**預設為**否**。</span><span class="sxs-lookup"><span data-stu-id="b639c-128">**Note:**  For a new party, **Fragmentation Required** defaults to **No**.</span></span>|  
+    |<span data-ttu-id="b639c-122">**所需的片段**</span><span class="sxs-lookup"><span data-stu-id="b639c-122">**Fragmentation required**</span></span>|<span data-ttu-id="b639c-123">選取下列其中一個選項：</span><span class="sxs-lookup"><span data-stu-id="b639c-123">Select one of the following options:</span></span><br /><br /> <span data-ttu-id="b639c-124">-   **[是]**。</span><span class="sxs-lookup"><span data-stu-id="b639c-124">-   **Yes**.</span></span> <span data-ttu-id="b639c-125">若要啟用片段。</span><span class="sxs-lookup"><span data-stu-id="b639c-125">To enable fragmentation.</span></span><br /><span data-ttu-id="b639c-126">-   **否**。</span><span class="sxs-lookup"><span data-stu-id="b639c-126">-   **No**.</span></span> <span data-ttu-id="b639c-127">若要停用片段。</span><span class="sxs-lookup"><span data-stu-id="b639c-127">To disable fragmentation.</span></span> <span data-ttu-id="b639c-128">**注意：** 新合作對象，**片段所需**預設為**否**。</span><span class="sxs-lookup"><span data-stu-id="b639c-128">**Note:**  For a new party, **Fragmentation Required** defaults to **No**.</span></span>|  
     |<span data-ttu-id="b639c-129">**選取訊息**</span><span class="sxs-lookup"><span data-stu-id="b639c-129">**Select Messages**</span></span>|<span data-ttu-id="b639c-130">選取您想要以從批次傳送的訊息類型**可用訊息**視窗中，然後按一下 向右箭號來移動 (**>>**)。</span><span class="sxs-lookup"><span data-stu-id="b639c-130">Select the message types you want to send as a batch from the **Available Messages** window, and then click the Move to the right arrow (**>>**).</span></span>|  
     |<span data-ttu-id="b639c-131">**選取訊息通知**</span><span class="sxs-lookup"><span data-stu-id="b639c-131">**Select Message Acknowledgments**</span></span>|<span data-ttu-id="b639c-132">選取您想要以從批次傳送通知的訊息類型**可用訊息 Ack**視窗中，然後按一下 向右移動 (**>>**)。</span><span class="sxs-lookup"><span data-stu-id="b639c-132">Select the message types for which you want the acknowledgments to send as a batch from the **Available Message Acks** window, and then click the Move to the right (**>>**).</span></span>|  
   

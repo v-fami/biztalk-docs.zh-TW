@@ -1,18 +1,18 @@
 ---
-title: "傳送 Idoc 至 SAP 使用 BizTalk Server |Microsoft 文件"
-ms.custom: 
+title: 傳送 Idoc 至 SAP 使用 BizTalk Server |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - IDOCs, sample for sending
 - IDOCs, sending to SAP using BizTalk Server
 - IDOCs, business scenarios for sending
 ms.assetid: 92042623-ffbf-472f-9515-e9a77eb320fb
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967580"
 ---
 # <a name="send-idocs-to-sap-using-biztalk-server"></a><span data-ttu-id="2e0a5-102">傳送 Idoc 至 SAP 使用 BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="2e0a5-102">Send IDOCs to SAP using BizTalk Server</span></span>
 <span data-ttu-id="2e0a5-103">所有 SAP IDOC 呼叫在內部都視為 tRFC 呼叫配接器做為 tRFC 用戶端，並呼叫中傳送 IDOC 到 SAP RFC。</span><span class="sxs-lookup"><span data-stu-id="2e0a5-103">All IDOC calls to SAP are internally treated as tRFC calls where the adapter acts as a tRFC client and calls an RFC in SAP to send an IDOC.</span></span> <span data-ttu-id="2e0a5-104">本節提供資訊使用傳送 Idoc 到 SAP[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]與[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="2e0a5-104">This section provides information on sending IDOCs to SAP by using the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="2e0a5-105">[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]呈現傳送 Idoc 的兩個不同作業：</span><span class="sxs-lookup"><span data-stu-id="2e0a5-105">The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] surfaces two different operations to send IDOCs:</span></span>  
@@ -115,7 +116,7 @@ ms.lasthandoff: 11/28/2017
   
 |<span data-ttu-id="2e0a5-213">形狀圖</span><span class="sxs-lookup"><span data-stu-id="2e0a5-213">Shape</span></span>|<span data-ttu-id="2e0a5-214">圖形類型</span><span class="sxs-lookup"><span data-stu-id="2e0a5-214">Shape Type</span></span>|<span data-ttu-id="2e0a5-215">屬性</span><span class="sxs-lookup"><span data-stu-id="2e0a5-215">Properties</span></span>|  
 |-----------|----------------|----------------|  
-|<span data-ttu-id="2e0a5-216">ReceiveFile</span><span class="sxs-lookup"><span data-stu-id="2e0a5-216">ReceiveFile</span></span>|<span data-ttu-id="2e0a5-217">Receive</span><span class="sxs-lookup"><span data-stu-id="2e0a5-217">Receive</span></span>|<span data-ttu-id="2e0a5-218">-設定**名稱**至*ReceiveFile*</span><span class="sxs-lookup"><span data-stu-id="2e0a5-218">-   Set **Name** to *ReceiveFile*</span></span><br /><span data-ttu-id="2e0a5-219">-設定**啟動**至*，則為 True*</span><span class="sxs-lookup"><span data-stu-id="2e0a5-219">-   Set **Activate** to *True*</span></span>|  
+|<span data-ttu-id="2e0a5-216">ReceiveFile</span><span class="sxs-lookup"><span data-stu-id="2e0a5-216">ReceiveFile</span></span>|<span data-ttu-id="2e0a5-217">Receive</span><span class="sxs-lookup"><span data-stu-id="2e0a5-217">Receive</span></span>|<span data-ttu-id="2e0a5-218">-設定**名稱**至*ReceiveFile*</span><span class="sxs-lookup"><span data-stu-id="2e0a5-218">-   Set **Name** to *ReceiveFile*</span></span><br /><span data-ttu-id="2e0a5-219">-設定**啟動**至 *，則為 True*</span><span class="sxs-lookup"><span data-stu-id="2e0a5-219">-   Set **Activate** to *True*</span></span>|  
 |<span data-ttu-id="2e0a5-220">SendToLOB</span><span class="sxs-lookup"><span data-stu-id="2e0a5-220">SendToLOB</span></span>|<span data-ttu-id="2e0a5-221">Send</span><span class="sxs-lookup"><span data-stu-id="2e0a5-221">Send</span></span>|<span data-ttu-id="2e0a5-222">-設定**名稱**至*SendToLOB*</span><span class="sxs-lookup"><span data-stu-id="2e0a5-222">-   Set **Name** to *SendToLOB*</span></span>|  
 |<span data-ttu-id="2e0a5-223">ReceiveResponse</span><span class="sxs-lookup"><span data-stu-id="2e0a5-223">ReceiveResponse</span></span>|<span data-ttu-id="2e0a5-224">Receive</span><span class="sxs-lookup"><span data-stu-id="2e0a5-224">Receive</span></span>|<span data-ttu-id="2e0a5-225">-設定**名稱**至*ReceiveResponse*</span><span class="sxs-lookup"><span data-stu-id="2e0a5-225">-   Set **Name** to *ReceiveResponse*</span></span><br /><span data-ttu-id="2e0a5-226">-設定**啟動**至*False*</span><span class="sxs-lookup"><span data-stu-id="2e0a5-226">-   Set **Activate** to *False*</span></span>|  
 |<span data-ttu-id="2e0a5-227">SendResponse</span><span class="sxs-lookup"><span data-stu-id="2e0a5-227">SendResponse</span></span>|<span data-ttu-id="2e0a5-228">Send</span><span class="sxs-lookup"><span data-stu-id="2e0a5-228">Send</span></span>|<span data-ttu-id="2e0a5-229">-設定**名稱**至*SendResponse*</span><span class="sxs-lookup"><span data-stu-id="2e0a5-229">-   Set **Name** to *SendResponse*</span></span>|  

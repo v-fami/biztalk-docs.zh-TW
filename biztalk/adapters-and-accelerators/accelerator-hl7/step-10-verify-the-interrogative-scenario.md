@@ -10,7 +10,7 @@ ms.topic: article
 helpviewer_keywords:
 - interrogative tutorial, verifying solution
 ms.assetid: 1f28800b-4a1d-4f29-8123-5cdea4b4a365
-caps.latest.revision: ''
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -19,6 +19,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25961244"
 ---
 # <a name="step-10-verify-the-interrogative-scenario"></a><span data-ttu-id="dce9e-102">步驟 10： 確認 Interrogative 案例</span><span class="sxs-lookup"><span data-stu-id="dce9e-102">Step 10: Verify the Interrogative Scenario</span></span>
 <span data-ttu-id="dce9e-103">在此步驟中，您可以確認端對端案例本教學課程。</span><span class="sxs-lookup"><span data-stu-id="dce9e-103">In this step, you verify the end-to-end scenario for this tutorial.</span></span>  

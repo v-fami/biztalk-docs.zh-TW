@@ -1,18 +1,18 @@
 ---
-title: "步驟 1： 建立主要組織 |Microsoft 文件"
-ms.custom: 
+title: 步驟 1： 建立主要組織 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, home organizations
 - loopback tutorial, creating home organizations
 - home organizations, creating
 ms.assetid: 5277d50f-d499-4efa-99e5-d97dad7d65fc
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25963596"
 ---
 # <a name="step-1-create-the-home-organization"></a><span data-ttu-id="9971d-102">步驟 1： 建立主要組織</span><span class="sxs-lookup"><span data-stu-id="9971d-102">Step 1: Create the Home Organization</span></span>
 <span data-ttu-id="9971d-103">在此步驟中，您會使用 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 管理主控台來建立主要組織。</span><span class="sxs-lookup"><span data-stu-id="9971d-103">In this step, you create your home organization using the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Management Console.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "Any 項目節點 |Microsoft 文件"
-ms.custom: 
+title: Any 項目節點 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c7e30fcf-31bc-4d48-9bc7-0be90e927127
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963692"
 ---
 # <a name="any-element-nodes"></a><span data-ttu-id="859da-102">Any 項目節點</span><span class="sxs-lookup"><span data-stu-id="859da-102">Any Element Nodes</span></span>
 <span data-ttu-id="859da-103">在 [BizTalk 編輯器] 中，您可以使用**Any 項目**節點來指示的位置執行個體訊息中未知的項目可能出現的位置。</span><span class="sxs-lookup"><span data-stu-id="859da-103">In BizTalk Editor, you can use an **Any Element** node to indicate a location within an instance message where unknown elements may appear.</span></span> <span data-ttu-id="859da-104">這適用於您知道某個項目可能出現在執行個體訊息中的特定位置，但是您不知道項目的名稱，或是它的複雜程度。</span><span class="sxs-lookup"><span data-stu-id="859da-104">This accommodates situations in which you know that some element might appear at a particular location within an instance message, but you do not know the name of the element, or how complicated it might be.</span></span> <span data-ttu-id="859da-105">如果您將放入**Any 項目**BizTalk 結構描述內的適當位置的節點可以處理訊息的這類未知的部分。</span><span class="sxs-lookup"><span data-stu-id="859da-105">If you place an **Any Element** node at the appropriate location within the schema, BizTalk can process such unknown portions of a message.</span></span> <span data-ttu-id="859da-106">唯一的要求是對應的 XML 必須格式正確。</span><span class="sxs-lookup"><span data-stu-id="859da-106">The only requirement is that the corresponding XML is well-formed.</span></span>  
@@ -43,7 +44,7 @@ ms.lasthandoff: 11/28/2017
 </xs:element>  
 ```  
   
- <span data-ttu-id="859da-115">假設**Process Contents**屬性**Any 項目**節點設定為**略過**內的執行個體訊息是由這個結構描述片段中， **ExistingRecord**元素必須包含**[existingfieldelement]**項目，包含字串資料，後面接著任意複雜度的任何單一項目。</span><span class="sxs-lookup"><span data-stu-id="859da-115">Assuming that the **Process Contents** property of the **Any Element** node is set to **Skip**, within an instance message governed by this schema fragment, an **ExistingRecord** element is expected to contain an **ExistingFieldElement** element containing string data, followed by any single element of arbitrary complexity.</span></span>  
+ <span data-ttu-id="859da-115">假設**Process Contents**屬性**Any 項目**節點設定為**略過**內的執行個體訊息是由這個結構描述片段中， **ExistingRecord**元素必須包含 **[existingfieldelement]** 項目，包含字串資料，後面接著任意複雜度的任何單一項目。</span><span class="sxs-lookup"><span data-stu-id="859da-115">Assuming that the **Process Contents** property of the **Any Element** node is set to **Skip**, within an instance message governed by this schema fragment, an **ExistingRecord** element is expected to contain an **ExistingFieldElement** element containing string data, followed by any single element of arbitrary complexity.</span></span>  
   
 ## <a name="see-also"></a><span data-ttu-id="859da-116">請參閱</span><span class="sxs-lookup"><span data-stu-id="859da-116">See Also</span></span>  
  <span data-ttu-id="859da-117">[BizTalk 結構描述表示法](../core/biztalk-representation-of-schemas.md) </span><span class="sxs-lookup"><span data-stu-id="859da-117">[BizTalk Representation of Schemas](../core/biztalk-representation-of-schemas.md) </span></span>  

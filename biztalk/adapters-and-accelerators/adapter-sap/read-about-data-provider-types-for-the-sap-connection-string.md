@@ -1,17 +1,17 @@
 ---
-title: "閱讀有關資料提供者型別在 SAP 連接字串 |Microsoft 文件"
-ms.custom: 
+title: 閱讀有關資料提供者型別在 SAP 連接字串 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Data Provider for SAP, connection string
 - ADO, connection string
 ms.assetid: 7a46eaae-604f-4bae-924b-9f6d43a6e8a0
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963340"
 ---
 # <a name="read-about-data-provider-types-for-the-sap-connection-string"></a><span data-ttu-id="79d31-102">閱讀有關資料提供者型別在 SAP 連接字串</span><span class="sxs-lookup"><span data-stu-id="79d31-102">Read about Data Provider types for the SAP Connection String</span></span>
 <span data-ttu-id="79d31-103">若要建立 SAP 系統的連接能力，ADO.NET 用戶端必須在連接字串的形式指定 SAP 連接屬性。</span><span class="sxs-lookup"><span data-stu-id="79d31-103">To establish connectivity to an SAP system, ADO.NET clients must specify the SAP connection properties in the form of a connection string.</span></span> <span data-ttu-id="79d31-104">在 SAP ADO 連接字串的格式看起來像：</span><span class="sxs-lookup"><span data-stu-id="79d31-104">The format for the SAP ADO connection string looks like:</span></span>  
@@ -30,11 +31,11 @@ ms.lasthandoff: 11/28/2017
   
  <span data-ttu-id="79d31-105">連接字串來連接 SAP 系統使用[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]可以有下列類型：</span><span class="sxs-lookup"><span data-stu-id="79d31-105">The connection string to connect to an SAP system using the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] can have the following types:</span></span>  
   
--   <span data-ttu-id="79d31-106">**類型 a:**應用程式主機型的連線所在連接 URI 會指定透過此應用程式伺服器[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]連接到 SAP 系統。</span><span class="sxs-lookup"><span data-stu-id="79d31-106">**TYPE A:** An application host–based connection in which the connection URI specifies an application server through which the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] connects to the SAP system.</span></span>  
+-   <span data-ttu-id="79d31-106">**類型 a:** 應用程式主機型的連線所在連接 URI 會指定透過此應用程式伺服器[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]連接到 SAP 系統。</span><span class="sxs-lookup"><span data-stu-id="79d31-106">**TYPE A:** An application host–based connection in which the connection URI specifies an application server through which the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] connects to the SAP system.</span></span>  
   
--   <span data-ttu-id="79d31-107">**類型 b:**連線 URI 中指定的郵件伺服器的負載平衡的連接[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]連接到 SAP 系統。</span><span class="sxs-lookup"><span data-stu-id="79d31-107">**TYPE B:** A load-balanced connection in which the connection URI specifies a message server through which the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] connects to the SAP system.</span></span>  
+-   <span data-ttu-id="79d31-107">**類型 b:** 連線 URI 中指定的郵件伺服器的負載平衡的連接[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]連接到 SAP 系統。</span><span class="sxs-lookup"><span data-stu-id="79d31-107">**TYPE B:** A load-balanced connection in which the connection URI specifies a message server through which the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] connects to the SAP system.</span></span>  
   
--   <span data-ttu-id="79d31-108">**類型 d:**目的地型的連線，連線 URI 中指定包含 SAP 系統的連接參數 saprfc.ini 檔案中的目的地。</span><span class="sxs-lookup"><span data-stu-id="79d31-108">**TYPE D:** A destination-based connection in which the connection URI specifies a destination in the saprfc.ini file that contains the connection parameters for the SAP system.</span></span>  
+-   <span data-ttu-id="79d31-108">**類型 d:** 目的地型的連線，連線 URI 中指定包含 SAP 系統的連接參數 saprfc.ini 檔案中的目的地。</span><span class="sxs-lookup"><span data-stu-id="79d31-108">**TYPE D:** A destination-based connection in which the connection URI specifies a destination in the saprfc.ini file that contains the connection parameters for the SAP system.</span></span>  
   
  <span data-ttu-id="79d31-109">下表描述這些連線指定連線 URI 中的方式。</span><span class="sxs-lookup"><span data-stu-id="79d31-109">The following table describes how these connections are specified in the connection URI.</span></span>  
   
@@ -42,7 +43,7 @@ ms.lasthandoff: 11/28/2017
 |----------|----------------|----------------|-----------------|  
 |<span data-ttu-id="79d31-114">只有在次要複本設定成手動容錯移轉模式，而且至少一個次要複本目前與主要複本 SYNCHRONIZED 時，</span><span class="sxs-lookup"><span data-stu-id="79d31-114">A</span></span>|<span data-ttu-id="79d31-115">ASHOST （應用程式伺服器主控件）</span><span class="sxs-lookup"><span data-stu-id="79d31-115">ASHOST (Application Server Host)</span></span>|<span data-ttu-id="79d31-116">SYSNR （SAP 系統編號）</span><span class="sxs-lookup"><span data-stu-id="79d31-116">SYSNR (SAP System Number)</span></span>|<span data-ttu-id="79d31-117">指定應用程式的主機型連接。</span><span class="sxs-lookup"><span data-stu-id="79d31-117">Specifies an application host-based connection.</span></span>|  
 |<span data-ttu-id="79d31-118">B</span><span class="sxs-lookup"><span data-stu-id="79d31-118">B</span></span>|<span data-ttu-id="79d31-119">MSHOST （郵件伺服器主機）</span><span class="sxs-lookup"><span data-stu-id="79d31-119">MSHOST (Message Server Host)</span></span>|<span data-ttu-id="79d31-120">R3NAME （SAP R3 名稱）</span><span class="sxs-lookup"><span data-stu-id="79d31-120">R3NAME (SAP R3 Name)</span></span>|<span data-ttu-id="79d31-121">指定負載平衡到郵件伺服器的連線。</span><span class="sxs-lookup"><span data-stu-id="79d31-121">Specifies a load balancing connection through a message server.</span></span> <span data-ttu-id="79d31-122">對負載平衡連接，您可以指定選用的伺服器群組。</span><span class="sxs-lookup"><span data-stu-id="79d31-122">For a load balancing connection, an optional server group can be specified.</span></span>|  
-|<span data-ttu-id="79d31-123">D</span><span class="sxs-lookup"><span data-stu-id="79d31-123">D</span></span>|<span data-ttu-id="79d31-124">目的地 （包含 saprfc.ini 檔案中的連接參數的目的地）</span><span class="sxs-lookup"><span data-stu-id="79d31-124">DEST (Destination that contains the connection parameters in the saprfc.ini file)</span></span>|-|<span data-ttu-id="79d31-125">指定目的地型連線。</span><span class="sxs-lookup"><span data-stu-id="79d31-125">Specifies a destination-based connection.</span></span> <span data-ttu-id="79d31-126">SAP 連接參數會包含在 saprfc.ini 檔案中指定的目的地。</span><span class="sxs-lookup"><span data-stu-id="79d31-126">The SAP connection parameters are contained in the specified destination in the saprfc.ini file.</span></span> <span data-ttu-id="79d31-127">目的地中，可以指定只有類型 A 和 B 類型的連線。</span><span class="sxs-lookup"><span data-stu-id="79d31-127">Only TYPE A and TYPE B connections can be specified in the destination.</span></span> <span data-ttu-id="79d31-128">**注意：**如果 saprfc.ini 檔案中指定連接值，請確定此檔案位於相同的資料夾以存取檔案的.exe 或所需的 SAP 系統的標準位置。</span><span class="sxs-lookup"><span data-stu-id="79d31-128">**Note:**  If you specify connection values in the saprfc.ini file, make sure the file is located in the same folder as the .exe that accesses the file or at a standard location as required by the SAP system.</span></span> <span data-ttu-id="79d31-129">如需詳細資訊，請參閱 SAP 文件集。</span><span class="sxs-lookup"><span data-stu-id="79d31-129">For more information, see the SAP documentation.</span></span>|  
+|<span data-ttu-id="79d31-123">D</span><span class="sxs-lookup"><span data-stu-id="79d31-123">D</span></span>|<span data-ttu-id="79d31-124">目的地 （包含 saprfc.ini 檔案中的連接參數的目的地）</span><span class="sxs-lookup"><span data-stu-id="79d31-124">DEST (Destination that contains the connection parameters in the saprfc.ini file)</span></span>|-|<span data-ttu-id="79d31-125">指定目的地型連線。</span><span class="sxs-lookup"><span data-stu-id="79d31-125">Specifies a destination-based connection.</span></span> <span data-ttu-id="79d31-126">SAP 連接參數會包含在 saprfc.ini 檔案中指定的目的地。</span><span class="sxs-lookup"><span data-stu-id="79d31-126">The SAP connection parameters are contained in the specified destination in the saprfc.ini file.</span></span> <span data-ttu-id="79d31-127">目的地中，可以指定只有類型 A 和 B 類型的連線。</span><span class="sxs-lookup"><span data-stu-id="79d31-127">Only TYPE A and TYPE B connections can be specified in the destination.</span></span> <span data-ttu-id="79d31-128">**注意：** 如果 saprfc.ini 檔案中指定連接值，請確定此檔案位於相同的資料夾以存取檔案的.exe 或所需的 SAP 系統的標準位置。</span><span class="sxs-lookup"><span data-stu-id="79d31-128">**Note:**  If you specify connection values in the saprfc.ini file, make sure the file is located in the same folder as the .exe that accesses the file or at a standard location as required by the SAP system.</span></span> <span data-ttu-id="79d31-129">如需詳細資訊，請參閱 SAP 文件集。</span><span class="sxs-lookup"><span data-stu-id="79d31-129">For more information, see the SAP documentation.</span></span>|  
   
  <span data-ttu-id="79d31-130">根據連接字串來連接 SAP 系統使用的連接類型[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]可以包含下列屬性。</span><span class="sxs-lookup"><span data-stu-id="79d31-130">Based on the type of connection, the connection string to connect to an SAP system using the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] can contain the following properties.</span></span>  
   

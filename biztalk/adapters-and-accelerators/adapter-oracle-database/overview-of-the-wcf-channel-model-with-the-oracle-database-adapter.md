@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964262"
 ---
 # <a name="overview-of-the-wcf-channel-model-with-the-oracle-database-adapter"></a><span data-ttu-id="3f5e2-102">使用 Oracle 資料庫配接器的 WCF 通道模型概觀</span><span class="sxs-lookup"><span data-stu-id="3f5e2-102">Overview of the WCF channel model with the Oracle Database adapter</span></span>
 <span data-ttu-id="3f5e2-103">在叫用作業[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]，您的程式碼做為 WCF 用戶端，並將傳出作業傳送至配接器。</span><span class="sxs-lookup"><span data-stu-id="3f5e2-103">To invoke operations on the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)], your code acts as a WCF client and sends outbound operations to the adapter.</span></span> <span data-ttu-id="3f5e2-104">在 WCF 通道模型中，您的程式碼會透過通道傳送的要求訊息叫用的介面卡上的作業。</span><span class="sxs-lookup"><span data-stu-id="3f5e2-104">In the WCF channel model, your code invokes operations on the adapter by sending a request message over a channel.</span></span>  

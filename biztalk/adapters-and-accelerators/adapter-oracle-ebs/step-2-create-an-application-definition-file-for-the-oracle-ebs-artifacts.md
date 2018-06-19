@@ -1,14 +1,14 @@
 ---
-title: "步驟 2： 建立 Oracle E-business Suite 成品的應用程式定義檔 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 建立 Oracle E-business Suite 成品的應用程式定義檔 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2665afde-0337-4795-ab4c-6223d39fdf9c
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22219302"
 ---
 # <a name="step-2-create-an-application-definition-file-for-the-oracle-e-business-suite-artifacts"></a><span data-ttu-id="29677-102">步驟 2： 建立 Oracle E-business Suite 成品的應用程式定義檔</span><span class="sxs-lookup"><span data-stu-id="29677-102">Step 2: Create an application definition file for the Oracle E-Business Suite artifacts</span></span>
 <span data-ttu-id="29677-103">![步驟 4 之 2](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")</span><span class="sxs-lookup"><span data-stu-id="29677-103">![Step 2 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")</span></span>  
@@ -187,7 +188,7 @@ ms.lasthandoff: 09/20/2017
   
     3.  <span data-ttu-id="29677-206">展開**篩選**參數，然後按一下第二個**篩選**節點。</span><span class="sxs-lookup"><span data-stu-id="29677-206">Expand the **FILTER** parameter, and then click the second **FILTER** node.</span></span>  
   
-    4.  <span data-ttu-id="29677-207">在 [屬性] 窗格中，選取**員工姓名 [員工]**從**識別碼**清單。</span><span class="sxs-lookup"><span data-stu-id="29677-207">In the Properties pane, select **EmployeeName[Employee]** from the **Identifier** list.</span></span>  
+    4.  <span data-ttu-id="29677-207">在 [屬性] 窗格中，選取**員工姓名 [員工]** 從**識別碼**清單。</span><span class="sxs-lookup"><span data-stu-id="29677-207">In the Properties pane, select **EmployeeName[Employee]** from the **Identifier** list.</span></span>  
   
          <span data-ttu-id="29677-208">![設定 FILTER 參數的識別項](../../adapters-and-accelerators/adapter-oracle-ebs/media/16-set-identifier.gif "16_Set_Identifier")</span><span class="sxs-lookup"><span data-stu-id="29677-208">![Setting identifier for the FILTER parameter](../../adapters-and-accelerators/adapter-oracle-ebs/media/16-set-identifier.gif "16_Set_Identifier")</span></span>  
   
@@ -199,7 +200,7 @@ ms.lasthandoff: 09/20/2017
   
     3.  <span data-ttu-id="29677-212">展開**傳回**節點，然後第二個**傳回** 節點，然後在**項目**節點，然後再按一下**名稱**節點。</span><span class="sxs-lookup"><span data-stu-id="29677-212">Expand the **Return** node, then the second **Return** node, then the **Item** node, and then click the **Name** node.</span></span>  
   
-    4.  <span data-ttu-id="29677-213">在 [屬性] 窗格中，選取**員工姓名 [員工]**從**識別碼**清單。</span><span class="sxs-lookup"><span data-stu-id="29677-213">In the Properties pane, select **EmployeeName[Employee]** from the **Identifier** list.</span></span>  
+    4.  <span data-ttu-id="29677-213">在 [屬性] 窗格中，選取**員工姓名 [員工]** 從**識別碼**清單。</span><span class="sxs-lookup"><span data-stu-id="29677-213">In the Properties pane, select **EmployeeName[Employee]** from the **Identifier** list.</span></span>  
   
 #### <a name="to-create-a-specific-finder-method-instance-for-the-select-method"></a><span data-ttu-id="29677-214">若要建立特定的 Finder 方法執行個體，如 Select 方法</span><span class="sxs-lookup"><span data-stu-id="29677-214">To create a Specific Finder method instance for the Select method</span></span>  
   

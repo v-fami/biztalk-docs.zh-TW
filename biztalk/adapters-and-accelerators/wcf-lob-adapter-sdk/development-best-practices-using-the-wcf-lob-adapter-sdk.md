@@ -1,14 +1,14 @@
 ---
-title: "使用 WCF LOB 配接器 SDK 開發最佳作法 |Microsoft 文件"
-ms.custom: 
+title: 使用 WCF LOB 配接器 SDK 開發最佳作法 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8ea3a13b-e41f-4920-bf0d-26f7bb145aa3
-caps.latest.revision: "28"
+caps.latest.revision: 28
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967980"
 ---
 # <a name="development-best-practices-using-the-wcf-lob-adapter-sdk"></a><span data-ttu-id="5f8a3-102">使用 WCF LOB 配接器 SDK 開發最佳作法</span><span class="sxs-lookup"><span data-stu-id="5f8a3-102">Development best practices using the WCF LOB Adapter SDK</span></span>
 <span data-ttu-id="5f8a3-103">您可以使用本主題中的最佳作法，以改善您的應用程式和配接器。</span><span class="sxs-lookup"><span data-stu-id="5f8a3-103">You can use the best practices in this topic to improve your applications and adapters.</span></span>  

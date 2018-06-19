@@ -1,11 +1,11 @@
 ---
-title: "HL7 訊息結構 |Microsoft 文件"
-ms.custom: 
+title: HL7 訊息結構 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, segments
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - segments, messages
 - messages, message structure
 ms.assetid: 4dbef56d-97ae-466d-bc8a-dc96c40896f6
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22205086"
 ---
 # <a name="hl7-message-structure"></a><span data-ttu-id="64f25-102">HL7 訊息結構</span><span class="sxs-lookup"><span data-stu-id="64f25-102">HL7 Message Structure</span></span>
 <span data-ttu-id="64f25-103">HL7 訊息是觸發程序事件相關聯的階層式結構。</span><span class="sxs-lookup"><span data-stu-id="64f25-103">An HL7 message is a hierarchical structure associated with a trigger event.</span></span> <span data-ttu-id="64f25-104">標準 HL7 「 健康照護 （，），建立資料流系統之間需要真實世界中的事件 」 定義觸發程序事件。</span><span class="sxs-lookup"><span data-stu-id="64f25-104">The HL7 standard defines trigger event as "an event in the real world of health care (that) creates the need for data to flow among systems".</span></span> <span data-ttu-id="64f25-105">每個觸發程序事件是與定義的訊息需要支援觸發程序事件的資料類型的抽象訊息相關聯。</span><span class="sxs-lookup"><span data-stu-id="64f25-105">Each trigger event is associated with an abstract message that defines the type of data that the message needs to support the trigger event.</span></span> <span data-ttu-id="64f25-106">抽象的訊息片段的集合，而且包含重複和這些區段包含的規則。</span><span class="sxs-lookup"><span data-stu-id="64f25-106">The abstract message is a collection of segments, and includes the rules of repetition and inclusion for those segments.</span></span> <span data-ttu-id="64f25-107">下表顯示與觸發程序事件 A04 – 註冊病患相關聯的抽象訊息的範例。</span><span class="sxs-lookup"><span data-stu-id="64f25-107">The following table shows an example of an abstract message associated with the trigger event A04 – Register Patient.</span></span>  

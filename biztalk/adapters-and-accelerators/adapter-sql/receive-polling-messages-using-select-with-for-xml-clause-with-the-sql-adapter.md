@@ -1,14 +1,14 @@
 ---
-title: "接收使用 FOR XML 子句中使用 BizTalk Server 的 SQL SELECT 陳述式的輪詢訊息 |Microsoft 文件"
-ms.custom: 
+title: 接收使用 FOR XML 子句中使用 BizTalk Server 的 SQL SELECT 陳述式的輪詢訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 65c629c1-9ef7-4aa1-8ec1-f94a3cb41cb0
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967700"
 ---
 # <a name="receive-polling-messages-using-select-statements-with-for-xml-clause-from-sql-using-biztalk-server"></a><span data-ttu-id="d28fa-102">接收輪詢訊息使用 FOR XML 子句中使用 BizTalk Server 的 SQL SELECT 陳述式</span><span class="sxs-lookup"><span data-stu-id="d28fa-102">Receive polling messages using SELECT statements with FOR XML Clause from SQL using BizTalk Server</span></span>
 <span data-ttu-id="d28fa-103">您可以設定[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]接收使用 SELECT 陳述式或包含 FOR XML 子句的預存程序的 SQL Server 資料表或檢視表的週期性的資料變更訊息。</span><span class="sxs-lookup"><span data-stu-id="d28fa-103">You can configure the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to receive periodic data-change messages for SQL Server tables or views by using SELECT statements or stored procedures that include a FOR XML clause.</span></span> <span data-ttu-id="d28fa-104">您可以指定這些陳述式與執行以輪詢資料庫配接器的輪詢陳述式。</span><span class="sxs-lookup"><span data-stu-id="d28fa-104">You can specify these statements as polling statement that the adapter executes to poll the database.</span></span> <span data-ttu-id="d28fa-105">輪詢陳述式可以是 SELECT 陳述式或預存程序會傳回結果集。</span><span class="sxs-lookup"><span data-stu-id="d28fa-105">The polling statement can be a SELECT statement or a stored procedure that returns a result set.</span></span>  
@@ -133,7 +134,7 @@ SELECT Employee_ID ,Name ,Designation FROM Employee for xml auto, xmlschema
   
 |<span data-ttu-id="d28fa-201">形狀圖</span><span class="sxs-lookup"><span data-stu-id="d28fa-201">Shape</span></span>|<span data-ttu-id="d28fa-202">圖形類型</span><span class="sxs-lookup"><span data-stu-id="d28fa-202">Shape Type</span></span>|<span data-ttu-id="d28fa-203">屬性</span><span class="sxs-lookup"><span data-stu-id="d28fa-203">Properties</span></span>|  
 |-----------|----------------|----------------|  
-|<span data-ttu-id="d28fa-204">ReceiveMessage</span><span class="sxs-lookup"><span data-stu-id="d28fa-204">ReceiveMessage</span></span>|<span data-ttu-id="d28fa-205">Receive</span><span class="sxs-lookup"><span data-stu-id="d28fa-205">Receive</span></span>|<span data-ttu-id="d28fa-206">-設定**名稱**至*ReceiveMessage*</span><span class="sxs-lookup"><span data-stu-id="d28fa-206">- Set **Name** to *ReceiveMessage*</span></span><br /><br /> <span data-ttu-id="d28fa-207">-設定**啟動**至*，則為 True*</span><span class="sxs-lookup"><span data-stu-id="d28fa-207">- Set **Activate** to *True*</span></span>|  
+|<span data-ttu-id="d28fa-204">ReceiveMessage</span><span class="sxs-lookup"><span data-stu-id="d28fa-204">ReceiveMessage</span></span>|<span data-ttu-id="d28fa-205">Receive</span><span class="sxs-lookup"><span data-stu-id="d28fa-205">Receive</span></span>|<span data-ttu-id="d28fa-206">-設定**名稱**至*ReceiveMessage*</span><span class="sxs-lookup"><span data-stu-id="d28fa-206">- Set **Name** to *ReceiveMessage*</span></span><br /><br /> <span data-ttu-id="d28fa-207">-設定**啟動**至 *，則為 True*</span><span class="sxs-lookup"><span data-stu-id="d28fa-207">- Set **Activate** to *True*</span></span>|  
 |<span data-ttu-id="d28fa-208">SaveMessage</span><span class="sxs-lookup"><span data-stu-id="d28fa-208">SaveMessage</span></span>|<span data-ttu-id="d28fa-209">Send</span><span class="sxs-lookup"><span data-stu-id="d28fa-209">Send</span></span>|<span data-ttu-id="d28fa-210">-設定**名稱**至*SaveMessage*</span><span class="sxs-lookup"><span data-stu-id="d28fa-210">- Set **Name** to *SaveMessage*</span></span>|  
   
 ### <a name="adding-ports"></a><span data-ttu-id="d28fa-211">新增連接埠</span><span class="sxs-lookup"><span data-stu-id="d28fa-211">Adding Ports</span></span>  
@@ -176,7 +177,7 @@ SELECT Employee_ID ,Name ,Designation FROM Employee for xml auto, xmlschema
         |----------------------|-----------|  
         |<span data-ttu-id="d28fa-259">**InboundOperationType**</span><span class="sxs-lookup"><span data-stu-id="d28fa-259">**InboundOperationType**</span></span>|<span data-ttu-id="d28fa-260">請確定您設定為**XmlPolling**。</span><span class="sxs-lookup"><span data-stu-id="d28fa-260">Make sure you set this to **XmlPolling**.</span></span>|  
         |<span data-ttu-id="d28fa-261">**PolledDataAvailableStatement**</span><span class="sxs-lookup"><span data-stu-id="d28fa-261">**PolledDataAvailableStatement**</span></span>|<span data-ttu-id="d28fa-262">請確定您指定 SQL 陳述式。</span><span class="sxs-lookup"><span data-stu-id="d28fa-262">Make sure you specify a SQL statement.</span></span> <span data-ttu-id="d28fa-263">本主題中，指定：</span><span class="sxs-lookup"><span data-stu-id="d28fa-263">For this topic, specify:</span></span><br /><br /> `SELECT COUNT(*) FROM Employee`|  
-        |<span data-ttu-id="d28fa-264">**PollingStatement**</span><span class="sxs-lookup"><span data-stu-id="d28fa-264">**PollingStatement**</span></span>|<span data-ttu-id="d28fa-265">請確定您提供相同的陳述式，而不`xmlschema`子句，您指定在產生結構描述中所述[接收輪詢訊息使用 FOR XML 子句中使用 BizTalk ServerSQLSELECT陳述式](../../adapters-and-accelerators/adapter-sql/receive-polling-messages-using-select-with-for-xml-clause-with-the-sql-adapter.md).</span><span class="sxs-lookup"><span data-stu-id="d28fa-265">Make sure you provide the same statement, without the `xmlschema` clause, that you specified while generating the schema as described in [Receive polling messages using SELECT statements with FOR XML Clause from SQL using BizTalk Server](../../adapters-and-accelerators/adapter-sql/receive-polling-messages-using-select-with-for-xml-clause-with-the-sql-adapter.md).</span></span><br /><br /> `SELECT Employee_ID ,Name ,Designation FROM Employee for xml auto`<br /><br /> <span data-ttu-id="d28fa-266">**注意：**請注意，SELECT 陳述式不包含`xmlschema`子句。</span><span class="sxs-lookup"><span data-stu-id="d28fa-266">**Note:** Note that the SELECT statement does not contain the `xmlschema` clause.</span></span>|  
+        |<span data-ttu-id="d28fa-264">**PollingStatement**</span><span class="sxs-lookup"><span data-stu-id="d28fa-264">**PollingStatement**</span></span>|<span data-ttu-id="d28fa-265">請確定您提供相同的陳述式，而不`xmlschema`子句，您指定在產生結構描述中所述[接收輪詢訊息使用 FOR XML 子句中使用 BizTalk ServerSQLSELECT陳述式](../../adapters-and-accelerators/adapter-sql/receive-polling-messages-using-select-with-for-xml-clause-with-the-sql-adapter.md).</span><span class="sxs-lookup"><span data-stu-id="d28fa-265">Make sure you provide the same statement, without the `xmlschema` clause, that you specified while generating the schema as described in [Receive polling messages using SELECT statements with FOR XML Clause from SQL using BizTalk Server](../../adapters-and-accelerators/adapter-sql/receive-polling-messages-using-select-with-for-xml-clause-with-the-sql-adapter.md).</span></span><br /><br /> `SELECT Employee_ID ,Name ,Designation FROM Employee for xml auto`<br /><br /> <span data-ttu-id="d28fa-266">**注意：** 請注意，SELECT 陳述式不包含`xmlschema`子句。</span><span class="sxs-lookup"><span data-stu-id="d28fa-266">**Note:** Note that the SELECT statement does not contain the `xmlschema` clause.</span></span>|  
         |<span data-ttu-id="d28fa-267">**XmlStoredProcedureRootNodeName**</span><span class="sxs-lookup"><span data-stu-id="d28fa-267">**XmlStoredProcedureRootNodeName**</span></span>|<span data-ttu-id="d28fa-268">指定的根節點底下所述，您加入至您的 SELECT 陳述式中，所產生的回應結構描述名稱[產生回應訊息的 SELECT 陳述式的結構描述](#BKMK_RespSchema)。</span><span class="sxs-lookup"><span data-stu-id="d28fa-268">Specify the name of the root node that you added to the response schema you generated for the SELECT statement, as described under [Generating Schema for the Response Message for SELECT Statement](#BKMK_RespSchema).</span></span> <span data-ttu-id="d28fa-269">如本主題中，將此設**根**。</span><span class="sxs-lookup"><span data-stu-id="d28fa-269">For this topic, set this to **Root**.</span></span>|  
         |<span data-ttu-id="d28fa-270">**XmlStoredProcedureRootNodeNamespace**</span><span class="sxs-lookup"><span data-stu-id="d28fa-270">**XmlStoredProcedureRootNodeNamespace**</span></span>|<span data-ttu-id="d28fa-271">指定您的 SELECT 陳述式中，所產生的回應結構描述的目標命名空間，如底下所述[產生回應訊息的 SELECT 陳述式的結構描述](#BKMK_RespSchema)。</span><span class="sxs-lookup"><span data-stu-id="d28fa-271">Specify the target namespace for the response schema you generated for the SELECT statement, as described under [Generating Schema for the Response Message for SELECT Statement](#BKMK_RespSchema).</span></span> <span data-ttu-id="d28fa-272">如本主題中，將此設`http://ForXmlPolling/namespace`。</span><span class="sxs-lookup"><span data-stu-id="d28fa-272">For this topic, set this to `http://ForXmlPolling/namespace`.</span></span>|  
   

@@ -1,11 +1,11 @@
 ---
-title: "結構描述匯入到 BizTalk Server Projects1 |Microsoft 文件"
-ms.custom: 
+title: 結構描述匯入到 BizTalk Server Projects1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - importing schemas
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - schemas, importing into BizTalk Server
 - orchestration types, port types
 ms.assetid: fa640195-a735-4201-a893-48f3405ddcb5
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015445"
 ---
 # <a name="importing-schemas-into-biztalk-server-projects"></a><span data-ttu-id="5d548-102">結構描述匯入至 BizTalk Server 專案</span><span class="sxs-lookup"><span data-stu-id="5d548-102">Importing Schemas into BizTalk Server Projects</span></span>
 <span data-ttu-id="5d548-103">下列資訊說明如何將結構描述匯入至 BizTalk Server 專案。</span><span class="sxs-lookup"><span data-stu-id="5d548-103">The following information describes how to import schemas into a BizTalk Server project.</span></span>  
@@ -34,7 +35,7 @@ ms.lasthandoff: 11/07/2017
   
 2.  <span data-ttu-id="5d548-107">按一下**新增配接器**，然後選取**開啟**。</span><span class="sxs-lookup"><span data-stu-id="5d548-107">Click **Add adapter**, and then select **Open**.</span></span>  
   
-3.  <span data-ttu-id="5d548-108">選取的介面卡**，J.D.Edwards OneWorld XE**。</span><span class="sxs-lookup"><span data-stu-id="5d548-108">Select the adapter**, J.D. Edwards OneWorld XE**.</span></span>  
+3.  <span data-ttu-id="5d548-108">選取的介面卡 **，J.D.Edwards OneWorld XE**。</span><span class="sxs-lookup"><span data-stu-id="5d548-108">Select the adapter **, J.D. Edwards OneWorld XE**.</span></span>  
   
 4.  <span data-ttu-id="5d548-109">在下拉式清單中，選取 連接埠**SSOSendToJD Edwards OneWorld XE**，然後按一下 **下一步**。</span><span class="sxs-lookup"><span data-stu-id="5d548-109">In the drop-down list, select the port **SSOSendToJD Edwards OneWorld XE**, and then click **Next**.</span></span>  
   
@@ -50,7 +51,7 @@ ms.lasthandoff: 11/07/2017
   
 8.  <span data-ttu-id="5d548-117">以滑鼠右鍵按一下**BizTalk orchestration.odx**，然後按一下 **刪除**。</span><span class="sxs-lookup"><span data-stu-id="5d548-117">Right-click **BizTalk orchestration.odx**, and then click **Delete**.</span></span>  
   
-9. <span data-ttu-id="5d548-118">在 [方案總管] 中，按兩下**[getlist.odx]**檢查協調流程。</span><span class="sxs-lookup"><span data-stu-id="5d548-118">In Solution Explorer, double-click **GetList.odx** to inspect the orchestration.</span></span>  
+9. <span data-ttu-id="5d548-118">在 [方案總管] 中，按兩下 **[getlist.odx]** 檢查協調流程。</span><span class="sxs-lookup"><span data-stu-id="5d548-118">In Solution Explorer, double-click **GetList.odx** to inspect the orchestration.</span></span>  
   
 ## <a name="orchestration-types---port-types"></a><span data-ttu-id="5d548-119">協調流程類型 - 連接埠類型</span><span class="sxs-lookup"><span data-stu-id="5d548-119">Orchestration Types - Port Types</span></span>  
   

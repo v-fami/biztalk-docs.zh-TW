@@ -1,17 +1,17 @@
 ---
-title: "設定 Oracle 資料庫配接器的連線 URI |Microsoft 文件"
-ms.custom: 
+title: 設定 Oracle 資料庫配接器的連線 URI |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - connection URI, specifying at design time
 - connection URI, specifying at run time
 ms.assetid: 9f302b67-0bcc-44d1-9517-10d402873540
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216942"
 ---
 # <a name="configure-the-connection-uri-for-the-oracle-database-adapter"></a><span data-ttu-id="f94bf-102">設定 Oracle 資料庫配接器的連線 URI</span><span class="sxs-lookup"><span data-stu-id="f94bf-102">Configure the connection URI for the Oracle Database adapter</span></span>
 <span data-ttu-id="f94bf-103">連線 URI 是連接字串，其中包含連接到 Oracle 資料庫所需的參數。</span><span class="sxs-lookup"><span data-stu-id="f94bf-103">A connection URI is a connection string that contains parameters required to connect to the Oracle database.</span></span> <span data-ttu-id="f94bf-104">同時使用[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]或[!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]中[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]，您必須指定要連接到 Oracle 資料庫產生的中繼資料的 URI。</span><span class="sxs-lookup"><span data-stu-id="f94bf-104">While using the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] or [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)] in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], you must specify the URI to connect to the Oracle database to generate the metadata.</span></span> <span data-ttu-id="f94bf-105">設定協調流程使用時[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]管理主控台中，您必須指定要連接到 Oracle 資料庫執行作業的 URI。</span><span class="sxs-lookup"><span data-stu-id="f94bf-105">While configuring an orchestration using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console, you must specify the URI to connect to the Oracle database to perform operations.</span></span>  

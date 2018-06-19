@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968828"
 ---
 # <a name="how-to-add-orchestration-variables"></a><span data-ttu-id="d169d-102">如何新增協調流程變數</span><span class="sxs-lookup"><span data-stu-id="d169d-102">How to Add Orchestration Variables</span></span>
 <span data-ttu-id="d169d-103">[協調流程檢視] 視窗可讓您管理協調流程的屬性 (也稱為**服務**屬性)、 參數、 連接埠、 訊息，以及其他變數。</span><span class="sxs-lookup"><span data-stu-id="d169d-103">The Orchestration View window enables you to manage an orchestration's properties (also known as **Service** properties), parameters, ports, messages, and other variables.</span></span> <span data-ttu-id="d169d-104">除了連接埠和訊息之外，您還可以建立整數變數、布林值變數、字串變數或 .NET 類別的變數。</span><span class="sxs-lookup"><span data-stu-id="d169d-104">In addition to ports and messages, you can create integer variables, Boolean variables, string variables, or variables of a .NET class.</span></span>  

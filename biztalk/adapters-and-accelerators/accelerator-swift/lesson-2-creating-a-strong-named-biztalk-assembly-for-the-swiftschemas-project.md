@@ -1,17 +1,17 @@
 ---
-title: "第 2 課： 建立強式名稱 BizTalk 組件 SWIFTSchemas 專案 |Microsoft 文件"
-ms.custom: 
+title: 第 2 課： 建立強式名稱 BizTalk 組件 SWIFTSchemas 專案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - assemblies, creating strong-names
 - strong-named assemblies
 ms.assetid: 2aacbf38-8b1d-46ea-89ae-5207327bedc1
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25961010"
 ---
 # <a name="lesson-2-creating-a-strong-named-biztalk-assembly-for-the-swiftschemas-project"></a><span data-ttu-id="2eb90-102">第 2 課： 建立強式名稱 BizTalk 組件 SWIFTSchemas 專案</span><span class="sxs-lookup"><span data-stu-id="2eb90-102">Lesson 2: Creating a Strong-Named BizTalk Assembly for the SWIFTSchemas Project</span></span>
 <span data-ttu-id="2eb90-103">在這一課，您可以建立強式名稱的編譯和部署 BizTalk 組件。</span><span class="sxs-lookup"><span data-stu-id="2eb90-103">In this lesson, you create a strong name upon which the BizTalk assemblies are compiled and deployed.</span></span> <span data-ttu-id="2eb90-104">強式名稱組件提供數個安全性優點：</span><span class="sxs-lookup"><span data-stu-id="2eb90-104">A strong-named assembly provides several security benefits:</span></span>  

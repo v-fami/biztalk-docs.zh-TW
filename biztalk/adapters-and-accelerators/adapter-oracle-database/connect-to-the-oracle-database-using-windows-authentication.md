@@ -1,14 +1,14 @@
 ---
-title: "連接到 Oracle 資料庫使用 Windows 驗證 |Microsoft 文件"
-ms.custom: 
+title: 連接到 Oracle 資料庫使用 Windows 驗證 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 73b42a1b-1105-4278-bf8a-62cf0cffb08f
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961940"
 ---
 # <a name="connect-to-the-oracle-database-using-windows-authentication"></a><span data-ttu-id="f8d60-102">連接到 Oracle 資料庫使用 Windows 驗證</span><span class="sxs-lookup"><span data-stu-id="f8d60-102">Connect to the Oracle Database Using Windows Authentication</span></span>
 <span data-ttu-id="f8d60-103">[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]可讓配接器用戶端使用 Windows 驗證來與 Oracle 資料庫建立連線。</span><span class="sxs-lookup"><span data-stu-id="f8d60-103">The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] enables adapter clients to use Windows Authentication to establish a connection with the Oracle database.</span></span> <span data-ttu-id="f8d60-104">若要使用 Windows 驗證，配接器用戶端必須指定"/"的使用者名稱與保留密碼空白。</span><span class="sxs-lookup"><span data-stu-id="f8d60-104">To use Windows Authentication, the adapter clients must specify “/” for user name and leave the password blank.</span></span> <span data-ttu-id="f8d60-105">如需有關如何連接到 Oracle 資料庫使用 Windows 驗證的詳細資訊，請參閱[連接到 Oracle 資料庫，在 Visual Studio 中使用 取用配接器服務](../../adapters-and-accelerators/adapter-oracle-database/connect-to-oracle-database-in-visual-studio-using-the-consume-adapter-service.md)。</span><span class="sxs-lookup"><span data-stu-id="f8d60-105">For more information about connecting to the Oracle database using Windows Authentication, see [Connect to Oracle Database in Visual Studio using the Consume Adapter Service](../../adapters-and-accelerators/adapter-oracle-database/connect-to-oracle-database-in-visual-studio-using-the-consume-adapter-service.md).</span></span>  

@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/creating-peoplesoft-send-handlers/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: e5f68232aa0cb59835523df0afac01f3d1949489
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013877"
 ---
 # <a name="how-to-set-pipelines-for-peoplesoft-enterprise"></a><span data-ttu-id="0865c-101">如何設定 PeopleSoft Enterprise 的管線</span><span class="sxs-lookup"><span data-stu-id="0865c-101">How to Set Pipelines for PeopleSoft Enterprise</span></span>
 <span data-ttu-id="0865c-102">Microsoft BizTalk Adapter for PeopleSoft Enterprise 需要您選取適當的管線。</span><span class="sxs-lookup"><span data-stu-id="0865c-102">Microsoft BizTalk Adapter for PeopleSoft Enterprise requires that you select an appropriate pipeline.</span></span>  
@@ -29,7 +30,7 @@ ms.lasthandoff: 11/07/2017
   
     4.  <span data-ttu-id="0865c-111">從 [傳送管線] 下拉式清單中，選取 [ **Microsoft.BizTalk.DefaultPipelines.XMLTransmit**。</span><span class="sxs-lookup"><span data-stu-id="0865c-111">From the Send Pipeline drop-down list, select **Microsoft.BizTalk.DefaultPipelines.XMLTransmit**.</span></span>  
   
-    5.  <span data-ttu-id="0865c-112">從**接收管線**下拉式清單中，選取**[microsoft.biztalk.defaultpiplelines.xmlreceive]**。</span><span class="sxs-lookup"><span data-stu-id="0865c-112">From the **Receive Pipeline** drop-down list, select **Microsoft.BizTalk.DefaultPiplelines.XMLReceive**.</span></span>  
+    5.  <span data-ttu-id="0865c-112">從**接收管線**下拉式清單中，選取 **[microsoft.biztalk.defaultpiplelines.xmlreceive]**。</span><span class="sxs-lookup"><span data-stu-id="0865c-112">From the **Receive Pipeline** drop-down list, select **Microsoft.BizTalk.DefaultPiplelines.XMLReceive**.</span></span>  
   
 4.  <span data-ttu-id="0865c-113">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="0865c-113">Click **OK**.</span></span>  
   

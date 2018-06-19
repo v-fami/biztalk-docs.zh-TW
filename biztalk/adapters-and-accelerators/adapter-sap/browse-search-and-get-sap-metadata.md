@@ -17,7 +17,7 @@ helpviewer_keywords:
 - BAPI
 - IDOC
 ms.assetid: 5f0d7c1f-d6e1-4c56-8d8e-1f5d537aa3ce
-caps.latest.revision: ''
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22218438"
 ---
 # <a name="browse-search-and-get-sap-metadata"></a><span data-ttu-id="644f0-102">瀏覽、 搜尋及取得 SAP 中繼資料</span><span class="sxs-lookup"><span data-stu-id="644f0-102">Browse, search, and get SAP metadata</span></span>
 <span data-ttu-id="644f0-103">[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]從 SAP 系統的表面中繼資料。</span><span class="sxs-lookup"><span data-stu-id="644f0-103">The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] surfaces metadata from the SAP system.</span></span> <span data-ttu-id="644f0-104">此中繼資料描述的訊息結構來與 SAP 系統使用配接器進行通訊。</span><span class="sxs-lookup"><span data-stu-id="644f0-104">This metadata describes the message structure for communicating with an SAP system using the adapter.</span></span> <span data-ttu-id="644f0-105">[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]支援兩個介面來擷取中繼資料。</span><span class="sxs-lookup"><span data-stu-id="644f0-105">The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] supports two interfaces for retrieving metadata.</span></span>  

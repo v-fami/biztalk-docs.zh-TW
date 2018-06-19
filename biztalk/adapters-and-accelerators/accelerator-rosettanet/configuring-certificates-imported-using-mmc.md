@@ -1,11 +1,11 @@
 ---
-title: "設定使用 MMC 匯入憑證 |Microsoft 文件"
-ms.custom: 
+title: 設定使用 MMC 匯入憑證 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - decryption certificates
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - signing certificates
 - certificates, importing
 ms.assetid: 64dbfbcf-6026-4c68-a93a-f483ec52deac
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961668"
 ---
 # <a name="configuring-certificates-imported-using-mmc"></a><span data-ttu-id="cf04e-102">設定使用 MMC 匯入的憑證</span><span class="sxs-lookup"><span data-stu-id="cf04e-102">Configuring Certificates Imported Using MMC</span></span>
 <span data-ttu-id="cf04e-103">使用 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Management Console (MMC) 中的「憑證」嵌入式管理單元匯入憑證後，必須設定憑證的使用方式。</span><span class="sxs-lookup"><span data-stu-id="cf04e-103">After you have imported certificates using the Certificates snap-in for the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Management Console (MMC), you must configure their use.</span></span> <span data-ttu-id="cf04e-104">這包括設定 BizTalk 群組、BizTalk 主控件與外掛式主控件服務帳戶、「交易夥伴介面程序」(PIP)、交易夥伴協議與交易夥伴。</span><span class="sxs-lookup"><span data-stu-id="cf04e-104">This requires configuring the BizTalk Group, the BizTalk Host and Isolated Host service accounts, Partner Interface Processes (PIPs), trading partner agreements, and partners.</span></span> <span data-ttu-id="cf04e-105">您必須執行下列步驟：</span><span class="sxs-lookup"><span data-stu-id="cf04e-105">You must perform the following steps:</span></span>  

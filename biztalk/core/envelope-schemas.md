@@ -1,14 +1,14 @@
 ---
-title: "信封結構描述 |Microsoft 文件"
-ms.custom: 
+title: 信封結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: af296c30-95dc-4fef-9aa3-bea2f2cd8caf
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970604"
 ---
 # <a name="envelope-schemas"></a><span data-ttu-id="8fd6e-102">信封結構描述</span><span class="sxs-lookup"><span data-stu-id="8fd6e-102">Envelope Schemas</span></span>
 
@@ -33,7 +34,7 @@ ms.lasthandoff: 11/28/2017
   
 -   <span data-ttu-id="8fd6e-115">若信封結構描述具有多重根目錄和**根參考**屬性時，您必須設定**Body XPath**屬性對應根**記錄**節點。</span><span class="sxs-lookup"><span data-stu-id="8fd6e-115">If an envelope schema has multiple roots and the **Root Reference** property is set, you must set the **Body XPath** property of the corresponding root **Record** node.</span></span> <span data-ttu-id="8fd6e-116">您可以選擇設定**Body XPath**剩餘根節點的屬性。</span><span class="sxs-lookup"><span data-stu-id="8fd6e-116">You can optionally set the **Body XPath** property for the remaining roots.</span></span>  
   
--   <span data-ttu-id="8fd6e-117">不論信封結構描述是否有單一根節點或多個根節點，設定**[根參考**不是必要屬性。</span><span class="sxs-lookup"><span data-stu-id="8fd6e-117">Regardless of whether an envelope schema has a single root or multiple roots, setting the **[Root Reference** property is not required.</span></span>  
+-   <span data-ttu-id="8fd6e-117">不論信封結構描述是否有單一根節點或多個根節點，設定 **[根參考**不是必要屬性。</span><span class="sxs-lookup"><span data-stu-id="8fd6e-117">Regardless of whether an envelope schema has a single root or multiple roots, setting the **[Root Reference** property is not required.</span></span>  
 
 <span data-ttu-id="8fd6e-118">這些屬性的詳細[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。</span><span class="sxs-lookup"><span data-stu-id="8fd6e-118">More details on these properties [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].</span></span>
   

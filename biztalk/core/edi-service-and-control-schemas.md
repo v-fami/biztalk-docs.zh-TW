@@ -1,14 +1,14 @@
 ---
-title: "EDI 服務和控制結構描述 |Microsoft 文件"
-ms.custom: 
+title: EDI 服務和控制結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4866571b-b12d-446c-8d27-a72fe7e479ef
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969148"
 ---
 # <a name="edi-service-and-control-schemas"></a><span data-ttu-id="868dd-102">EDI 服務和控制結構描述</span><span class="sxs-lookup"><span data-stu-id="868dd-102">EDI Service and Control Schemas</span></span>
 <span data-ttu-id="868dd-103">控制結構描述是處理訊息信封 (標頭控制結構描述) 和通知的要件。</span><span class="sxs-lookup"><span data-stu-id="868dd-103">Control schemas are required to process message envelopes (header control schemas) and acknowledgments.</span></span> <span data-ttu-id="868dd-104">安裝程式將這些結構描述部署在 Microsoft.BizTalk.Edi.BaseArtifacts.dll 中。</span><span class="sxs-lookup"><span data-stu-id="868dd-104">These schemas are deployed in Microsoft.BizTalk.Edi.BaseArtifacts.dll by the setup program.</span></span> <span data-ttu-id="868dd-105">這些結構描述不一定要加入至 BizTalk 專案，因為它們是部署在 BaseArtifacts.dll 中。</span><span class="sxs-lookup"><span data-stu-id="868dd-105">These schemas do not have to be added to BizTalk projects because they are deployed in BaseArtifacts.dll.</span></span> <span data-ttu-id="868dd-106">您必須將 BaseArtifacts.dll 組件的參考加入至包含結構描述的專案，才能使用這些結構描述。</span><span class="sxs-lookup"><span data-stu-id="868dd-106">You need to add a reference to the BaseArtifacts.dll assembly to the project containing your schemas for these schemas to be used.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "如何識別 MessageBox Database1 中的瓶頸 |Microsoft 文件"
-ms.custom: 
+title: 如何識別 MessageBox Database1 中的瓶頸 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1a039164-5ca6-4cbc-b307-c5d4ae800689
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22297654"
 ---
 # <a name="how-to-identify-bottlenecks-in-the-messagebox-database"></a><span data-ttu-id="48b6d-102">如何識別 MessageBox 資料庫中的瓶頸</span><span class="sxs-lookup"><span data-stu-id="48b6d-102">How to Identify Bottlenecks in the MessageBox Database</span></span>
 <span data-ttu-id="48b6d-103">若要識別 MessageBox 資料庫中的瓶頸，請先確認 SQL Server Agent 服務已啟動。</span><span class="sxs-lookup"><span data-stu-id="48b6d-103">To identify bottlenecks in the MessageBox database, first ensure that the SQL-Server-Agent Service is started.</span></span> <span data-ttu-id="48b6d-104">變更服務的啟動狀態從 「 手動為自動，以重新啟動伺服器，會自動重新啟動服務。</span><span class="sxs-lookup"><span data-stu-id="48b6d-104">Change the Service startup state from Manual to Auto so that if the server is restarted, the service will automatically restart.</span></span>  

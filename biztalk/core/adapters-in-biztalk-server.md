@@ -9,7 +9,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8fd279fb-2c68-4de4-a586-5a8e42a685ff
-caps.latest.revision: ''
+caps.latest.revision: 48
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "23450295"
 ---
 # <a name="adapters-in-biztalk-server"></a><span data-ttu-id="c2ad4-103">BizTalk Server 中的配接器</span><span class="sxs-lookup"><span data-stu-id="c2ad4-103">Adapters in BizTalk Server</span></span>
 <span data-ttu-id="c2ad4-104">[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的其中一個主要目標是用以協助交易夥伴之間的商業文件交換。</span><span class="sxs-lookup"><span data-stu-id="c2ad4-104">One of the primary design goals of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is to facilitate the exchange of business documents between trading partners.</span></span> <span data-ttu-id="c2ad4-105">為了協助符合此目標，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 包含數個配接器，使用普遍認可的資料通訊協定和文件格式，來提供 BizTalk Server 與交易夥伴之間的連繫。</span><span class="sxs-lookup"><span data-stu-id="c2ad4-105">To help meet this goal, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes several adapters that provide connectivity between BizTalk Server and trading partners using commonly recognized data protocols and document formats.</span></span> <span data-ttu-id="c2ad4-106">本主題將討論何謂配接器，以及您為何要使用配接器。</span><span class="sxs-lookup"><span data-stu-id="c2ad4-106">This topic discusses what an adapter is and why you use an adapter.</span></span>  

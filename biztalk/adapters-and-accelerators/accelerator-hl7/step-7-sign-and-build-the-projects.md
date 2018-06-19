@@ -1,18 +1,18 @@
 ---
-title: "步驟 7： 簽署和建置的專案 |Microsoft 文件"
-ms.custom: 
+title: 步驟 7： 簽署和建置的專案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - message enrichment tutorial, projects
 - projects, building
 - projects, signing
 ms.assetid: b66e4dc1-4ec6-4ec0-a69a-419b116b19c1
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25961764"
 ---
 # <a name="step-7-sign-and-build-the-projects"></a><span data-ttu-id="b453c-102">步驟 7： 簽署和建置的專案</span><span class="sxs-lookup"><span data-stu-id="b453c-102">Step 7: Sign and Build the Projects</span></span>
 <span data-ttu-id="b453c-103">在此步驟中，您指派強式名稱，並建置專案來產生組件，其中包含您在中建立的資源 （結構描述）[步驟 6： 驗證結構描述](../../adapters-and-accelerators/accelerator-hl7/step-6-validate-the-schemas.md)。</span><span class="sxs-lookup"><span data-stu-id="b453c-103">In this step, you assign a strong name and build the project to generate an assembly that contains the resources (the schema) that you created in [Step 6: Validate the Schemas](../../adapters-and-accelerators/accelerator-hl7/step-6-validate-the-schemas.md).</span></span> <span data-ttu-id="b453c-104">這也可確保您到目前為止完成的工作中沒有編譯錯誤。</span><span class="sxs-lookup"><span data-stu-id="b453c-104">This also ensures that there are no compile errors in the work you have completed so far.</span></span>  

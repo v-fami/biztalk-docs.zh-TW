@@ -1,11 +1,11 @@
 ---
-title: "訊息編碼 |Microsoft 文件"
-ms.custom: 
+title: 訊息編碼 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, encodings
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - encoding [messages]
 - code samples
 ms.assetid: 360638c0-4094-428f-a7c7-306a5f95a6bf
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204790"
 ---
 # <a name="message-encodings"></a><span data-ttu-id="49c3f-102">訊息編碼</span><span class="sxs-lookup"><span data-stu-id="49c3f-102">Message Encodings</span></span>
 <span data-ttu-id="49c3f-103">您不足夠定義訊息語意，為了讓 HL7 才能發揮作用。</span><span class="sxs-lookup"><span data-stu-id="49c3f-103">It is not sufficient to define message semantics in order for HL7 to be useful.</span></span> <span data-ttu-id="49c3f-104">一旦尚未決定訊息的內容，以說明如何代表實際的介面中該內容具有標準。</span><span class="sxs-lookup"><span data-stu-id="49c3f-104">Once message content has been determined, the standard has to explain how to represent that content in an actual interface.</span></span> <span data-ttu-id="49c3f-105">也就是說，必須有指定 「 訊息編碼方式 」。</span><span class="sxs-lookup"><span data-stu-id="49c3f-105">That is to say, there must be a specified "message encoding".</span></span> <span data-ttu-id="49c3f-106">HL7 第 2 版支援兩種形式的訊息編碼、 自訂分隔符號為基礎的編碼方式，以及 XML 編碼方式。</span><span class="sxs-lookup"><span data-stu-id="49c3f-106">HL7 Version 2 supports two forms of message encoding, a custom delimiter-based encoding, and an XML encoding.</span></span>  

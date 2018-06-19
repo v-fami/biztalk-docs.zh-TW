@@ -1,11 +1,11 @@
 ---
-title: "瀏覽、 搜尋，並取得中繼資料的 Oracle 資料庫作業 |Microsoft 文件"
-ms.custom: 
+title: 瀏覽、 搜尋，並取得中繼資料的 Oracle 資料庫作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF client, generating a
@@ -20,7 +20,7 @@ helpviewer_keywords:
 - WCF service contract, generating a
 - metadata, browsing, searching, and retrieving
 ms.assetid: 65bd59e0-771d-40fe-966c-8cc8a629ce47
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -29,6 +29,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967692"
 ---
 # <a name="browse-search-and-get-metadata-for-oracle-database-operations"></a><span data-ttu-id="d5d91-102">瀏覽、 搜尋和 Oracle 資料庫作業，取得中繼資料</span><span class="sxs-lookup"><span data-stu-id="d5d91-102">Browse, search, and get metadata for Oracle Database operations</span></span>
 <span data-ttu-id="d5d91-103">本節提供有關如何使用資訊[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]， [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]，和[!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d5d91-103">This section provides information about how to use [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)], [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)], and [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)].</span></span> <span data-ttu-id="d5d91-104">使用這些[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]元件，您可以：</span><span class="sxs-lookup"><span data-stu-id="d5d91-104">By using these [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] components, you can:</span></span>  
@@ -146,13 +147,13 @@ ms.lasthandoff: 11/28/2017
   
 3.  <span data-ttu-id="d5d91-188">在**選取類別目錄**方塊中，按一下資料表、 程序、 函數、 封裝及您想要搜尋的檢視所包含的結構描述。</span><span class="sxs-lookup"><span data-stu-id="d5d91-188">In the **Select a category** box, click the schema containing the tables, procedures, functions, packages, and views that you want to search.</span></span> <span data-ttu-id="d5d91-189">如果您不確定要按一下結構描述，請按一下根節點。</span><span class="sxs-lookup"><span data-stu-id="d5d91-189">If you are not sure which schema to click, click the root node.</span></span>  
   
-4.  <span data-ttu-id="d5d91-190">在**類別目錄中的搜尋**文字方塊中，輸入要搜尋特定的結構描述的搜尋運算式。</span><span class="sxs-lookup"><span data-stu-id="d5d91-190">In the **Search in category** text box, enter a search expression to search for a specific schema.</span></span> <span data-ttu-id="d5d91-191">例如，若要搜尋其名稱中含有"SC"的結構描述，請輸入**%sc**在文字方塊中。</span><span class="sxs-lookup"><span data-stu-id="d5d91-191">For example, to search for schemas that have "SC" in their name, type **%SC%** in the text box.</span></span>  
+4.  <span data-ttu-id="d5d91-190">在**類別目錄中的搜尋**文字方塊中，輸入要搜尋特定的結構描述的搜尋運算式。</span><span class="sxs-lookup"><span data-stu-id="d5d91-190">In the **Search in category** text box, enter a search expression to search for a specific schema.</span></span> <span data-ttu-id="d5d91-191">例如，若要搜尋其名稱中含有"SC"的結構描述，請輸入 **%sc**在文字方塊中。</span><span class="sxs-lookup"><span data-stu-id="d5d91-191">For example, to search for schemas that have "SC" in their name, type **%SC%** in the text box.</span></span>  
   
 5.  <span data-ttu-id="d5d91-192">按一下向右箭號圖示，開始搜尋 按鈕。</span><span class="sxs-lookup"><span data-stu-id="d5d91-192">Click the button with the right-arrow icon to start the search.</span></span> <span data-ttu-id="d5d91-193">搜尋完成之後，**可用的類別和作業**方塊會列出符合搜尋準則的結構描述。</span><span class="sxs-lookup"><span data-stu-id="d5d91-193">After the search is complete, the **Available categories and operations** box lists the schemas that satisfy the search criteria.</span></span>  
   
 6.  <span data-ttu-id="d5d91-194">在**選取類別目錄**方塊，展開節點，對應結構描述，然後再按一下 資料庫項目，您要搜尋。</span><span class="sxs-lookup"><span data-stu-id="d5d91-194">In the **Select a category** box, expand the node that corresponds to the schema, and then and click the database item that you want to search within.</span></span> <span data-ttu-id="d5d91-195">在**類別目錄中的搜尋**文字方塊中，輸入要搜尋的特定資料庫項目搜尋運算式。</span><span class="sxs-lookup"><span data-stu-id="d5d91-195">In the **Search in category** text box, enter a search expression to search for a specific database item.</span></span>  
   
-     <span data-ttu-id="d5d91-196">例如，若要搜尋名稱中有"EMP 」 的資料表，請選取**資料表**，型別**%emp**中**類別目錄中的搜尋**文字方塊，然後再按一下按鈕向右箭號圖示。</span><span class="sxs-lookup"><span data-stu-id="d5d91-196">For example, to search for tables that have "EMP" in their names, select **Table**, type **%EMP%** in the **Search in category** text box, and then click the button with the right-arrow icon.</span></span>  
+     <span data-ttu-id="d5d91-196">例如，若要搜尋名稱中有"EMP 」 的資料表，請選取**資料表**，型別 **%emp**中**類別目錄中的搜尋**文字方塊，然後再按一下按鈕向右箭號圖示。</span><span class="sxs-lookup"><span data-stu-id="d5d91-196">For example, to search for tables that have "EMP" in their names, select **Table**, type **%EMP%** in the **Search in category** text box, and then click the button with the right-arrow icon.</span></span>  
   
      <span data-ttu-id="d5d91-197">下圖顯示[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]，其中會列出搜尋結果。</span><span class="sxs-lookup"><span data-stu-id="d5d91-197">The following figure shows the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)], which lists the search result.</span></span>  
   

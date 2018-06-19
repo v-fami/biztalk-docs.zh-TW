@@ -1,17 +1,17 @@
 ---
-title: "修改 2.使用 [BizTalk 編輯器] 中的 XML 結構描述 |Microsoft 文件"
-ms.custom: 
+title: 修改 2.使用 [BizTalk 編輯器] 中的 XML 結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - 2.XML schemas, modifying
 - modifying, 2.XML schemas
 ms.assetid: 07316826-84b6-494e-81b9-f64a3d46ffb0
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206102"
 ---
 # <a name="modifying-2xml-schemas-to-work-with-biztalk-editor"></a><span data-ttu-id="7b185-102">修改 2.若要使用 [BizTalk 編輯器] 中的 XML 結構描述</span><span class="sxs-lookup"><span data-stu-id="7b185-102">Modifying 2.XML Schemas to Work with BizTalk Editor</span></span>
 <span data-ttu-id="7b185-103">HL7 2.XML 結構描述需要使用適當的修改[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)])。</span><span class="sxs-lookup"><span data-stu-id="7b185-103">HL7 2.XML schemas require modification to work properly with [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]).</span></span> <span data-ttu-id="7b185-104">以下描述如何修改 HL7 V2。XML 結構描述，您可以使用 BizTalk 編輯器中使用它們。</span><span class="sxs-lookup"><span data-stu-id="7b185-104">The following describes how to modify HL7 V2.XML schemas to enable you to use them with BizTalk Editor.</span></span>  
@@ -28,7 +29,7 @@ ms.lasthandoff: 09/20/2017
 >  <span data-ttu-id="7b185-105">Update2XMLSchema 工具會自動執行這些步驟。</span><span class="sxs-lookup"><span data-stu-id="7b185-105">The Update2XMLSchema tool performs these steps automatically.</span></span> <span data-ttu-id="7b185-106">請參閱[Update2XMLSchema 工具](../../adapters-and-accelerators/accelerator-hl7/update2xmlschema-tool.md)如需詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="7b185-106">See [Update2XMLSchema Tool](../../adapters-and-accelerators/accelerator-hl7/update2xmlschema-tool.md) for more information.</span></span>  
   
 > [!NOTE]
->  <span data-ttu-id="7b185-107">**Nillable**屬性可能會發生在結構描述中的項目上。</span><span class="sxs-lookup"><span data-stu-id="7b185-107">The **nillable** attribute can occur in a schema on an element.</span></span> <span data-ttu-id="7b185-108">如果設定為**true**，它會指出父項目的執行個體可以有**xsi: nil ="true"**屬性。</span><span class="sxs-lookup"><span data-stu-id="7b185-108">If set to **true**, it indicates that the instance of the parent element can have an **xsi:nil="true"** attribute.</span></span> [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]<span data-ttu-id="7b185-109">在編譯和剖析/序列化期間，會忽略這個屬性。</span><span class="sxs-lookup"><span data-stu-id="7b185-109"> ignores this attribute during compilation and during parsing/serialization.</span></span>  
+>  <span data-ttu-id="7b185-107">**Nillable**屬性可能會發生在結構描述中的項目上。</span><span class="sxs-lookup"><span data-stu-id="7b185-107">The **nillable** attribute can occur in a schema on an element.</span></span> <span data-ttu-id="7b185-108">如果設定為**true**，它會指出父項目的執行個體可以有**xsi: nil ="true"** 屬性。</span><span class="sxs-lookup"><span data-stu-id="7b185-108">If set to **true**, it indicates that the instance of the parent element can have an **xsi:nil="true"** attribute.</span></span> [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]<span data-ttu-id="7b185-109">在編譯和剖析/序列化期間，會忽略這個屬性。</span><span class="sxs-lookup"><span data-stu-id="7b185-109"> ignores this attribute during compilation and during parsing/serialization.</span></span>  
   
 ### <a name="to-modify-2xml-schemas"></a><span data-ttu-id="7b185-110">若要修改 2.XML 結構描述</span><span class="sxs-lookup"><span data-stu-id="7b185-110">To modify 2.XML schemas</span></span>  
   

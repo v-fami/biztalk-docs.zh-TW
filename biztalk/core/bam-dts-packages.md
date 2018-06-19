@@ -1,17 +1,17 @@
 ---
-title: "BAM DTS 封裝 |Microsoft 文件"
-ms.custom: 
+title: BAM DTS 封裝 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - DTS packages, BAM
 - BAM, DTS packages
 ms.assetid: bba70d81-6ddf-4f1f-a1f7-d5a5bf453bae
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965060"
 ---
 # <a name="bam-dts-packages"></a><span data-ttu-id="59a58-102">BAM DTS 封裝</span><span class="sxs-lookup"><span data-stu-id="59a58-102">BAM DTS Packages</span></span>
 <span data-ttu-id="59a58-103">系統管理員可以更新下列 BAM DTS 封裝的參數：</span><span class="sxs-lookup"><span data-stu-id="59a58-103">An administrator can update parameters for the following BAM DTS packages:</span></span>  

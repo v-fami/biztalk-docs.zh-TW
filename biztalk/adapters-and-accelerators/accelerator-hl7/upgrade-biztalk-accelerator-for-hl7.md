@@ -1,14 +1,14 @@
 ---
-title: "升級 BizTalk Accelerator for HL7 |Microsoft 文件"
-ms.custom: 
+title: 升級 BizTalk Accelerator for HL7 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 91b6747f-e560-4cf8-99b5-af0d150599bf
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961078"
 ---
 # <a name="upgrade-biztalk-accelerator-for-hl7"></a><span data-ttu-id="e23fa-102">升級 BizTalk Accelerator for HL7</span><span class="sxs-lookup"><span data-stu-id="e23fa-102">Upgrade BizTalk Accelerator for HL7</span></span>
 <span data-ttu-id="e23fa-103">概觀[!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)]升級程序。</span><span class="sxs-lookup"><span data-stu-id="e23fa-103">Overview of the [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] upgrade process.</span></span> 

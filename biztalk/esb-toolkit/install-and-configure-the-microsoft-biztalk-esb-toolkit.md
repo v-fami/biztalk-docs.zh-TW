@@ -1,7 +1,7 @@
 ---
 title: 安裝和設定 Microsoft BizTalk ESB Toolkit |Microsoft 文件
 description: 安裝和設定 BizTalk Server 上的 ESB Toolkit 的步驟-步驟指示
-caps.latest.revision: ''
+caps.latest.revision: 8
 author: MandiOhlinger
 manager: anneta
 ms.custom: ''
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22296998"
 ---
 # <a name="install-and-configure-the-microsoft-biztalk-esb-toolkit"></a><span data-ttu-id="1ac13-103">安裝和設定 Microsoft BizTalk ESB Toolkit</span><span class="sxs-lookup"><span data-stu-id="1ac13-103">Install and configure the Microsoft BizTalk ESB Toolkit</span></span>
 <span data-ttu-id="1ac13-104">從 BizTalk Server 2013 和較新版本，[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]與整合[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]安裝程式。</span><span class="sxs-lookup"><span data-stu-id="1ac13-104">Starting with BizTalk Server 2013 and newer versions, [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] is integrated with the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] setup.</span></span> <span data-ttu-id="1ac13-105">本主題說明如何安裝及設定[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]，而且也包含社群寫入升級 ESB Toolkit 連結。</span><span class="sxs-lookup"><span data-stu-id="1ac13-105">This topic shows you how to install and configure [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)], and also includes a community-written link to upgrade the ESB Toolkit.</span></span>  
@@ -79,15 +80,15 @@ ms.lasthandoff: 03/28/2018
   
     -   <span data-ttu-id="1ac13-142">**SSO 伺服器**： 輸入 SSO 伺服器名稱</span><span class="sxs-lookup"><span data-stu-id="1ac13-142">**SSO Server**: Enter the name of the SSO server</span></span>
   
-    -   <span data-ttu-id="1ac13-143">**組態檔**： 選取省略符號**（...）**，然後瀏覽至 esb.config 檔案 (\Program Files (x86) \Microsoft BizTalk ESB Toolkit)</span><span class="sxs-lookup"><span data-stu-id="1ac13-143">**Configuration file**: Select the ellipsis **(…)**, and then browse to the esb.config file (\Program Files (x86)\Microsoft BizTalk ESB Toolkit)</span></span>
+    -   <span data-ttu-id="1ac13-143">**組態檔**： 選取省略符號 **（...）**，然後瀏覽至 esb.config 檔案 (\Program Files (x86) \Microsoft BizTalk ESB Toolkit)</span><span class="sxs-lookup"><span data-stu-id="1ac13-143">**Configuration file**: Select the ellipsis **(…)**, and then browse to the esb.config file (\Program Files (x86)\Microsoft BizTalk ESB Toolkit)</span></span>
   
     -   <span data-ttu-id="1ac13-144">**應用程式名稱**： 輸入 SSO 應用程式的名稱。</span><span class="sxs-lookup"><span data-stu-id="1ac13-144">**Application Name**: Enter a name for the SSO application.</span></span> <span data-ttu-id="1ac13-145">例如，輸入`ESB Toolkit`。</span><span class="sxs-lookup"><span data-stu-id="1ac13-145">For example,  enter `ESB Toolkit`.</span></span>  
   
     -   <span data-ttu-id="1ac13-146">**連絡資訊**： 以下列格式輸入有效的電子郵件地址的適當的連絡資訊： `someone@example.com`。</span><span class="sxs-lookup"><span data-stu-id="1ac13-146">**Contact Information**: Enter a valid email address the appropriate contact information in the following format: `someone@example.com`.</span></span>  
   
-    -   <span data-ttu-id="1ac13-147">**系統管理員群組名稱**： 選取省略符號**（...）**，然後瀏覽至適當的系統管理員群組</span><span class="sxs-lookup"><span data-stu-id="1ac13-147">**Administrator Group Name**: Select the ellipsis **(…)**, and then browse to the appropriate admin group</span></span>  
+    -   <span data-ttu-id="1ac13-147">**系統管理員群組名稱**： 選取省略符號 **（...）**，然後瀏覽至適當的系統管理員群組</span><span class="sxs-lookup"><span data-stu-id="1ac13-147">**Administrator Group Name**: Select the ellipsis **(…)**, and then browse to the appropriate admin group</span></span>  
   
-    -   <span data-ttu-id="1ac13-148">**使用者群組名稱**： 選取省略符號**（...）**，然後瀏覽至適當的群組</span><span class="sxs-lookup"><span data-stu-id="1ac13-148">**User Group Name**: Select the ellipsis **(…)**, and then browse to the appropriate group</span></span>  
+    -   <span data-ttu-id="1ac13-148">**使用者群組名稱**： 選取省略符號 **（...）**，然後瀏覽至適當的群組</span><span class="sxs-lookup"><span data-stu-id="1ac13-148">**User Group Name**: Select the ellipsis **(…)**, and then browse to the appropriate group</span></span>  
 
 8.  <span data-ttu-id="1ac13-149">選取**套用組態**。</span><span class="sxs-lookup"><span data-stu-id="1ac13-149">Select **Apply Configuration**.</span></span> <span data-ttu-id="1ac13-150">開啟 IIS，您會發現在設定 [!INCLUDE[esbToolkit_short](../includes/esbtoolkit-short-md.md)] 時指定的網站下方，現已建立 [!INCLUDE[esbToolkit_short](../includes/esbtoolkit-short-md.md)] 所需的應用程式。</span><span class="sxs-lookup"><span data-stu-id="1ac13-150">Open IIS and notice that the applications required for [!INCLUDE[esbToolkit_short](../includes/esbtoolkit-short-md.md)] are now created under the website you specified while configuring [!INCLUDE[esbToolkit_short](../includes/esbtoolkit-short-md.md)].</span></span>  
   

@@ -1,15 +1,15 @@
 ---
-title: "訊息和訊息結構描述，BizTalk adapter for mySAP Business Suite |Microsoft 文件"
-description: "MySAP 配接器的 BizTalk Server 使用的訊息和資料類型的 XML 結構"
-ms.custom: 
+title: 訊息和訊息結構描述，BizTalk adapter for mySAP Business Suite |Microsoft 文件
+description: MySAP 配接器的 BizTalk Server 使用的訊息和資料類型的 XML 結構
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 75ea5c27-8297-47bf-bcfd-503870349189
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216342"
 ---
 # <a name="messages-and-message-schemas-for-biztalk-adapter-for-mysap-business-suite"></a><span data-ttu-id="9c37e-103">訊息和訊息結構描述，BizTalk adapter for mySAP Business Suite</span><span class="sxs-lookup"><span data-stu-id="9c37e-103">Messages and Message Schemas for BizTalk Adapter for mySAP Business Suite</span></span>
 

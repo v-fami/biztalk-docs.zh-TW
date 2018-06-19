@@ -1,18 +1,18 @@
 ---
-title: "建立 FRR 傳送埠以傳送到自訂處理常式 |Microsoft 文件"
-ms.custom: 
+title: 建立 FRR 傳送埠以傳送到自訂處理常式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, send ports
 - send ports, creating
 - FRR, creating send ports
 ms.assetid: 036f1f97-17a2-4e02-a85a-a52739a48528
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966540"
 ---
 # <a name="creating-the-frr-send-ports-for-sending-to-the-custom-handlers"></a><span data-ttu-id="3a768-102">建立 FRR 傳送埠以傳送到自訂處理常式</span><span class="sxs-lookup"><span data-stu-id="3a768-102">Creating the FRR Send Ports for Sending to the Custom Handlers</span></span>
 <span data-ttu-id="3a768-103">若要執行 FIN 回應重新調整，您需要建立的一連串的傳送埠，其中每個傳送訊息 （原始訊息或回應） 從[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]處理的相互關聯的訊息的自訂處理常式。</span><span class="sxs-lookup"><span data-stu-id="3a768-103">To perform FIN Response Reconciliation, you need to create a series of send ports, each of which sends a message (original message or response) from [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] to the custom handlers that process the correlated messages.</span></span>  
@@ -57,7 +58,7 @@ ms.lasthandoff: 11/28/2017
     > [!NOTE]
     >  <span data-ttu-id="3a768-130">如果此資料夾不存在，您可以建立使用**建立新資料夾**命令。</span><span class="sxs-lookup"><span data-stu-id="3a768-130">If this folder does not exist, you can create it using the **Make New Folder** command.</span></span>  
   
-7.  <span data-ttu-id="3a768-131">在**檔案名稱**方塊中，輸入**%MessageID%.txt**，然後按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="3a768-131">In the **File name** box, type **%MessageID%.txt**, and then click **OK**.</span></span>  
+7.  <span data-ttu-id="3a768-131">在**檔案名稱**方塊中，輸入 **%MessageID%.txt**，然後按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="3a768-131">In the **File name** box, type **%MessageID%.txt**, and then click **OK**.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="3a768-132">您可以建立不同的資料夾，每種類型的訊息。</span><span class="sxs-lookup"><span data-stu-id="3a768-132">You can create a different folder for each type of message.</span></span>  

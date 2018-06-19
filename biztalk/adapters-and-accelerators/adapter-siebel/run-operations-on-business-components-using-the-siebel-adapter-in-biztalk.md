@@ -1,17 +1,17 @@
 ---
-title: "在商務元件使用 BizTalk Server 和 Siebel 配接器上執行作業 |Microsoft 文件"
-ms.custom: 
+title: 在商務元件使用 BizTalk Server 和 Siebel 配接器上執行作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - business components, performing operations by using BizTalk Server
 - how to, perform operations on a business component by using BizTalk Server
 ms.assetid: 5bd0f4d7-60ec-42ea-84c0-618aeef9688f
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966044"
 ---
 # <a name="run-operations-on-business-components-using-biztalk-server-and-the-siebel-adapter"></a><span data-ttu-id="7d25d-102">在商務元件使用 BizTalk Server 和 Siebel 配接器上執行作業</span><span class="sxs-lookup"><span data-stu-id="7d25d-102">Run Operations on Business Components Using BizTalk Server and the Siebel adapter</span></span>
 <span data-ttu-id="7d25d-103">[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]商務元件會呈現可叫用的作業。</span><span class="sxs-lookup"><span data-stu-id="7d25d-103">The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] surfaces operations that can be invoked on a business component.</span></span> <span data-ttu-id="7d25d-104">商務元件上的作業可分類為：</span><span class="sxs-lookup"><span data-stu-id="7d25d-104">The operations on business components can be categorized as:</span></span>  
@@ -106,7 +107,7 @@ ms.lasthandoff: 11/28/2017
   
 |<span data-ttu-id="7d25d-173">形狀圖</span><span class="sxs-lookup"><span data-stu-id="7d25d-173">Shape</span></span>|<span data-ttu-id="7d25d-174">圖形類型</span><span class="sxs-lookup"><span data-stu-id="7d25d-174">Shape Type</span></span>|<span data-ttu-id="7d25d-175">屬性</span><span class="sxs-lookup"><span data-stu-id="7d25d-175">Properties</span></span>|  
 |-----------|----------------|----------------|  
-|<span data-ttu-id="7d25d-176">ReceiveXML</span><span class="sxs-lookup"><span data-stu-id="7d25d-176">ReceiveXML</span></span>|<span data-ttu-id="7d25d-177">Receive</span><span class="sxs-lookup"><span data-stu-id="7d25d-177">Receive</span></span>|<span data-ttu-id="7d25d-178">-設定**名稱**至*ReceiveXML*</span><span class="sxs-lookup"><span data-stu-id="7d25d-178">-   Set **Name** to *ReceiveXML*</span></span><br /><span data-ttu-id="7d25d-179">-設定**啟動**至*，則為 True*</span><span class="sxs-lookup"><span data-stu-id="7d25d-179">-   Set **Activate** to *True*</span></span>|  
+|<span data-ttu-id="7d25d-176">ReceiveXML</span><span class="sxs-lookup"><span data-stu-id="7d25d-176">ReceiveXML</span></span>|<span data-ttu-id="7d25d-177">Receive</span><span class="sxs-lookup"><span data-stu-id="7d25d-177">Receive</span></span>|<span data-ttu-id="7d25d-178">-設定**名稱**至*ReceiveXML*</span><span class="sxs-lookup"><span data-stu-id="7d25d-178">-   Set **Name** to *ReceiveXML*</span></span><br /><span data-ttu-id="7d25d-179">-設定**啟動**至 *，則為 True*</span><span class="sxs-lookup"><span data-stu-id="7d25d-179">-   Set **Activate** to *True*</span></span>|  
 |<span data-ttu-id="7d25d-180">SendToLOB</span><span class="sxs-lookup"><span data-stu-id="7d25d-180">SendToLOB</span></span>|<span data-ttu-id="7d25d-181">Send</span><span class="sxs-lookup"><span data-stu-id="7d25d-181">Send</span></span>|<span data-ttu-id="7d25d-182">-設定**名稱**至*SendToLOB*</span><span class="sxs-lookup"><span data-stu-id="7d25d-182">-   Set **Name** to *SendToLOB*</span></span>|  
 |<span data-ttu-id="7d25d-183">ReceiveResponse</span><span class="sxs-lookup"><span data-stu-id="7d25d-183">ReceiveResponse</span></span>|<span data-ttu-id="7d25d-184">Receive</span><span class="sxs-lookup"><span data-stu-id="7d25d-184">Receive</span></span>|<span data-ttu-id="7d25d-185">-設定**名稱**至*ReceiveResponse*</span><span class="sxs-lookup"><span data-stu-id="7d25d-185">-   Set **Name** to *ReceiveResponse*</span></span><br /><span data-ttu-id="7d25d-186">-設定**啟動**至*False*</span><span class="sxs-lookup"><span data-stu-id="7d25d-186">-   Set **Activate** to *False*</span></span>|  
 |<span data-ttu-id="7d25d-187">SendResponse</span><span class="sxs-lookup"><span data-stu-id="7d25d-187">SendResponse</span></span>|<span data-ttu-id="7d25d-188">Send</span><span class="sxs-lookup"><span data-stu-id="7d25d-188">Send</span></span>|<span data-ttu-id="7d25d-189">-設定**名稱**至*SendResponse*</span><span class="sxs-lookup"><span data-stu-id="7d25d-189">-   Set **Name** to *SendResponse*</span></span>|  

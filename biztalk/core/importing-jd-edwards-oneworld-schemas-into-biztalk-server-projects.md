@@ -1,11 +1,11 @@
 ---
-title: "JD Edwards OneWorld 結構描述匯入至 BizTalk Server 專案 |Microsoft 文件"
-ms.custom: 
+title: JD Edwards OneWorld 結構描述匯入至 BizTalk Server 專案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - generating schemas
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - schemas, generating
 - schemas, importing into BizTalk Server projects
 ms.assetid: 5bcaa276-8c76-4212-b373-de86e3008a69
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013821"
 ---
 # <a name="importing-jd-edwards-oneworld-schemas-into-biztalk-server-projects"></a><span data-ttu-id="3428a-102">將 JD Edwards OneWorld 結構描述匯入至 BizTalk Server 專案</span><span class="sxs-lookup"><span data-stu-id="3428a-102">Importing JD Edwards OneWorld Schemas into BizTalk Server Projects</span></span>
 <span data-ttu-id="3428a-103">本主題討論瀏覽 JD Edwards OneWorld 伺服器，以及將結構描述匯入 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 專案。</span><span class="sxs-lookup"><span data-stu-id="3428a-103">This topic discusses browsing a JD Edwards OneWorld server and importing the schemas into a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] project.</span></span>  

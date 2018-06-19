@@ -1,15 +1,15 @@
 ---
-title: "使用 BizTalk Server 例外狀況處理在 PeopleSoft Enterprise |Microsoft 文件"
-description: "例外狀況處理和更新 jdearglist.txt 檔案使用 PeopleSoft Enterprise 配接器在 BizTalk Server 協調流程的概觀"
-ms.custom: 
+title: 使用 BizTalk Server 例外狀況處理在 PeopleSoft Enterprise |Microsoft 文件
+description: 例外狀況處理和更新 jdearglist.txt 檔案使用 PeopleSoft Enterprise 配接器在 BizTalk Server 協調流程的概觀
+ms.custom: ''
 ms.date: 10/19/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a5c3ca81-a2f7-45f0-a0de-ea299633cf4a
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015911"
 ---
 # <a name="use-biztalk-server-exception-handling"></a><span data-ttu-id="7cc14-103">使用 BizTalk Server 例外狀況處理</span><span class="sxs-lookup"><span data-stu-id="7cc14-103">Use BizTalk Server Exception Handling</span></span>
 

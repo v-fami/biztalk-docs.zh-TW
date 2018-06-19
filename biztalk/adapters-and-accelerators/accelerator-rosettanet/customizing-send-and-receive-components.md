@@ -1,12 +1,12 @@
 ---
-title: "自訂傳送和接收 BizTalk Server 中使用 RosettaNet 加速器的元件 |Microsoft 文件"
-description: "建立、 自訂或設定屬性的 RosettaNet acclerator (BTARN) 上的傳送和接收 BizTalk Server 中的連接埠"
-ms.custom: 
+title: 自訂傳送和接收 BizTalk Server 中使用 RosettaNet 加速器的元件 |Microsoft 文件
+description: 建立、 自訂或設定屬性的 RosettaNet acclerator (BTARN) 上的傳送和接收 BizTalk Server 中的連接埠
+ms.custom: ''
 ms.date: 08/09/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - send components
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - developing, receive components
 - receive components
 ms.assetid: 78224a31-4eff-4a48-bcb9-deed388299f1
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209534"
 ---
 # <a name="customizing-send-and-receive-components"></a><span data-ttu-id="80f55-103">自訂傳送和接收元件</span><span class="sxs-lookup"><span data-stu-id="80f55-103">Customizing Send and Receive Components</span></span>
 <span data-ttu-id="80f55-104">本章節的主題說明如何建立、自訂或設定 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 傳送和接收元件的屬性。</span><span class="sxs-lookup"><span data-stu-id="80f55-104">The topics in this section describe how to create, customize, or set the properties of [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] send and receive components.</span></span> <span data-ttu-id="80f55-105">這些元件包括 ASPX 頁面、傳送埠和接收埠以及配接器。</span><span class="sxs-lookup"><span data-stu-id="80f55-105">These components include ASPX pages, send and receive ports, and adapters.</span></span>  

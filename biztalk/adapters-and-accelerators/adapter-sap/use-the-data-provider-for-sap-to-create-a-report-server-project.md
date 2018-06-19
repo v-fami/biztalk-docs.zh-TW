@@ -1,14 +1,14 @@
 ---
-title: "若要建立報表伺服器專案中使用的 Data Provider for SAP |Microsoft 文件"
-ms.custom: 
+title: 若要建立報表伺服器專案中使用的 Data Provider for SAP |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5fe985b5-ba67-4179-a31c-4f41106c32be
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962756"
 ---
 # <a name="use-the-data-provider-for-sap-to-create-a-report-server-project"></a><span data-ttu-id="6480c-102">若要建立報表伺服器專案中使用 SAP 的資料提供者</span><span class="sxs-lookup"><span data-stu-id="6480c-102">Use the Data Provider for SAP to Create a Report Server Project</span></span>
 <span data-ttu-id="6480c-103">您必須建立報表伺服器專案、 使用[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]，以產生報告的 SAP 系統中可用的資料。</span><span class="sxs-lookup"><span data-stu-id="6480c-103">You must create a Report Server project, using the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)], to generate reports for the data available in an SAP system.</span></span> <span data-ttu-id="6480c-104">本主題說明如何建立報表伺服器專案。</span><span class="sxs-lookup"><span data-stu-id="6480c-104">This topic provides instructions on how to create a Report Server project.</span></span>  
@@ -54,7 +55,7 @@ ms.lasthandoff: 11/28/2017
         |<span data-ttu-id="6480c-126">使用</span><span class="sxs-lookup"><span data-stu-id="6480c-126">Use this</span></span>|<span data-ttu-id="6480c-127">動作</span><span class="sxs-lookup"><span data-stu-id="6480c-127">To do this</span></span>|  
         |--------------|----------------|  
         |<span data-ttu-id="6480c-128">**使用特定的使用者名稱和密碼**</span><span class="sxs-lookup"><span data-stu-id="6480c-128">**Use a specific user name and password**</span></span>|<span data-ttu-id="6480c-129">指定使用者名稱和密碼以連接到 SAP 系統。</span><span class="sxs-lookup"><span data-stu-id="6480c-129">Specify a user name and password to connect to the SAP system.</span></span>|  
-        |<span data-ttu-id="6480c-130">**提示認證**</span><span class="sxs-lookup"><span data-stu-id="6480c-130">**Prompt for credentials**</span></span>|<span data-ttu-id="6480c-131">產生報表時，輸入 SAP 系統的認證。</span><span class="sxs-lookup"><span data-stu-id="6480c-131">Enter the credentials for the SAP system while the report is generated.</span></span> <span data-ttu-id="6480c-132">**注意：**認證您指定這個選項會覆寫認證，如果指定，做為連接字串的一部分。</span><span class="sxs-lookup"><span data-stu-id="6480c-132">**Note:**  The credentials you specify for this option will override the credentials, if specified, as part of the connection string.</span></span>|  
+        |<span data-ttu-id="6480c-130">**提示認證**</span><span class="sxs-lookup"><span data-stu-id="6480c-130">**Prompt for credentials**</span></span>|<span data-ttu-id="6480c-131">產生報表時，輸入 SAP 系統的認證。</span><span class="sxs-lookup"><span data-stu-id="6480c-131">Enter the credentials for the SAP system while the report is generated.</span></span> <span data-ttu-id="6480c-132">**注意：** 認證您指定這個選項會覆寫認證，如果指定，做為連接字串的一部分。</span><span class="sxs-lookup"><span data-stu-id="6480c-132">**Note:**  The credentials you specify for this option will override the credentials, if specified, as part of the connection string.</span></span>|  
         |<span data-ttu-id="6480c-133">**無認證**</span><span class="sxs-lookup"><span data-stu-id="6480c-133">**No credentials**</span></span>|<span data-ttu-id="6480c-134">如果您要提供使用者名稱和密碼做為連接字串的一部分，請選擇此選項。</span><span class="sxs-lookup"><span data-stu-id="6480c-134">Choose this option if you are providing the user name and password as part of the connection string.</span></span>|  
   
         > [!NOTE]

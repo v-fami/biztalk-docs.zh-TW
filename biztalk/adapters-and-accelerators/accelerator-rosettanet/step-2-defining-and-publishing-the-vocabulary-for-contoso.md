@@ -1,18 +1,18 @@
 ---
-title: "步驟 2： 定義與發佈 Contoso 的詞彙 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 定義與發佈 Contoso 的詞彙 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - vocabularies, creating
 - vocabularies, publishing
 - private process tutorial, creating vocabularies
 ms.assetid: e23880c0-772c-48c6-a6b5-32eb951527c8
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22211086"
 ---
 # <a name="step-2-defining-and-publishing-the-vocabulary-for-contoso"></a><span data-ttu-id="41700-102">步驟 2： 定義與發佈 Contoso 的詞彙</span><span class="sxs-lookup"><span data-stu-id="41700-102">Step 2: Defining and Publishing the Vocabulary for Contoso</span></span>
 <span data-ttu-id="41700-103">在此實例中，Contoso 會實作商務原則，以確保即使發生緊急狀況，也一定有足夠的存貨。</span><span class="sxs-lookup"><span data-stu-id="41700-103">In this scenario, Contoso implements a business policy that makes sure that inventory is always on hand if an emergency occurs.</span></span> <span data-ttu-id="41700-104">您將使用 [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] 中的「商務規則編輯器」建立商務原則。</span><span class="sxs-lookup"><span data-stu-id="41700-104">You create business policies using the Business Rule Composer in [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="41700-105">在此步驟中，您將建立在定義商務原則時要使用的詞彙。</span><span class="sxs-lookup"><span data-stu-id="41700-105">In this step, you create the vocabulary to use when you define the business policy.</span></span>  
@@ -47,7 +48,7 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-define-an-xml-document-get-element"></a><span data-ttu-id="41700-116">定義 XML 文件的 Get 項目</span><span class="sxs-lookup"><span data-stu-id="41700-116">To define an XML document 'Get' element</span></span>  
   
-1.  <span data-ttu-id="41700-117">商務規則編輯器 中的事實總管 窗格中，以滑鼠右鍵按一下**版本 1.0 （未儲存）**下**3A2PriceAvailabilityVocabulary**，然後按一下 **新增定義**.</span><span class="sxs-lookup"><span data-stu-id="41700-117">In Business Rule Composer, in the Facts Explorer pane, right-click **Version 1.0 (not saved)** under **3A2PriceAvailabilityVocabulary**, and then click **Add New Definition**.</span></span>  
+1.  <span data-ttu-id="41700-117">商務規則編輯器 中的事實總管 窗格中，以滑鼠右鍵按一下**版本 1.0 （未儲存）** 下**3A2PriceAvailabilityVocabulary**，然後按一下 **新增定義**.</span><span class="sxs-lookup"><span data-stu-id="41700-117">In Business Rule Composer, in the Facts Explorer pane, right-click **Version 1.0 (not saved)** under **3A2PriceAvailabilityVocabulary**, and then click **Add New Definition**.</span></span>  
   
 2.  <span data-ttu-id="41700-118">在**VocabularyDefinition 精靈**頁面上，選取**XML 文件項目或屬性**，然後按一下 **下一步**。</span><span class="sxs-lookup"><span data-stu-id="41700-118">On the **VocabularyDefinition Wizard** page, select **XML Document Element or Attribute**, and then click **Next**.</span></span>  
   
@@ -63,7 +64,7 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-define-an-xml-document-set-element"></a><span data-ttu-id="41700-124">定義 XML 文件的 Set 項目</span><span class="sxs-lookup"><span data-stu-id="41700-124">To define an XML document 'Set' element</span></span>  
   
-1.  <span data-ttu-id="41700-125">商務規則編輯器 中的事實總管 窗格中，以滑鼠右鍵按一下**版本 1.0 （未儲存）**下**3A2PriceAvailabilityVocabulary**，然後按一下 **新增定義**.</span><span class="sxs-lookup"><span data-stu-id="41700-125">In Business Rule Composer, in the Facts Explorer pane, right-click **Version 1.0 (not saved)** under **3A2PriceAvailabilityVocabulary**, and then click **Add New Definition**.</span></span>  
+1.  <span data-ttu-id="41700-125">商務規則編輯器 中的事實總管 窗格中，以滑鼠右鍵按一下**版本 1.0 （未儲存）** 下**3A2PriceAvailabilityVocabulary**，然後按一下 **新增定義**.</span><span class="sxs-lookup"><span data-stu-id="41700-125">In Business Rule Composer, in the Facts Explorer pane, right-click **Version 1.0 (not saved)** under **3A2PriceAvailabilityVocabulary**, and then click **Add New Definition**.</span></span>  
   
 2.  <span data-ttu-id="41700-126">在**VocabularyDefinition 精靈**頁面上，選取**XML 文件項目或屬性**，然後按一下 **下一步**。</span><span class="sxs-lookup"><span data-stu-id="41700-126">On the **VocabularyDefinition Wizard** page, select **XML Document Element or Attribute**, and then click **Next**.</span></span>  
   
@@ -81,7 +82,7 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-save-and-publish-the-vocabulary"></a><span data-ttu-id="41700-134">儲存和發佈詞彙</span><span class="sxs-lookup"><span data-stu-id="41700-134">To save and publish the vocabulary</span></span>  
   
-1.  <span data-ttu-id="41700-135">商務規則編輯器 中的事實總管 窗格中，以滑鼠右鍵按一下**版本 1.0 （未儲存）**下**3A2PriceAvailabilityVocabulary**，然後按一下 **儲存**。</span><span class="sxs-lookup"><span data-stu-id="41700-135">In Business Rule Composer, in the Facts Explorer pane, right-click **Version 1.0 (not saved)** under **3A2PriceAvailabilityVocabulary**, and then click **Save**.</span></span>  
+1.  <span data-ttu-id="41700-135">商務規則編輯器 中的事實總管 窗格中，以滑鼠右鍵按一下**版本 1.0 （未儲存）** 下**3A2PriceAvailabilityVocabulary**，然後按一下 **儲存**。</span><span class="sxs-lookup"><span data-stu-id="41700-135">In Business Rule Composer, in the Facts Explorer pane, right-click **Version 1.0 (not saved)** under **3A2PriceAvailabilityVocabulary**, and then click **Save**.</span></span>  
   
 2.  <span data-ttu-id="41700-136">以滑鼠右鍵按一下該相同**1.0 版**節點，然後按一下**發行**。</span><span class="sxs-lookup"><span data-stu-id="41700-136">Right-click that same **Version 1.0** node and then click **Publish**.</span></span>  
   

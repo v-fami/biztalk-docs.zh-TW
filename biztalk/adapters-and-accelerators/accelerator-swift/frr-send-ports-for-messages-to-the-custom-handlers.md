@@ -1,11 +1,11 @@
 ---
-title: "訊息的自訂處理常式的 FRR 傳送埠 |Microsoft 文件"
-ms.custom: 
+title: 訊息的自訂處理常式的 FRR 傳送埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - FRR, send ports
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - send ports, FRR
 - send ports, custom handlers
 ms.assetid: 486d7410-fde1-4a9b-a9c2-64c1ed85ebc0
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207830"
 ---
 # <a name="frr-send-ports-for-messages-to-the-custom-handlers"></a><span data-ttu-id="48240-102">訊息的自訂處理常式的 FRR 傳送埠</span><span class="sxs-lookup"><span data-stu-id="48240-102">FRR Send Ports for Messages to the Custom Handlers</span></span>
 <span data-ttu-id="48240-103">若要啟用 FRR 自訂處理常式，您必須建立一系列 FRR 傳送埠，其中每個將特定類型的原始訊息複本路由傳送至的自訂處理常式。</span><span class="sxs-lookup"><span data-stu-id="48240-103">To enable custom handlers for FRR, you must create a series of FRR send ports, each one of which routes a copy of an original message of a certain type to the custom handlers.</span></span> <span data-ttu-id="48240-104">這兩個傳送埠都必須具有下列管線元件：</span><span class="sxs-lookup"><span data-stu-id="48240-104">These send ports must have the following pipeline components:</span></span>  

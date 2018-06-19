@@ -1,14 +1,14 @@
 ---
-title: "維護效能 |Microsoft 文件"
-ms.custom: 
+title: 維護效能 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ae7e63ed-4e28-45b1-ab00-be9f9488a2e6
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298142"
 ---
 # <a name="maintaining-performance"></a><span data-ttu-id="31ccb-102">維護效能</span><span class="sxs-lookup"><span data-stu-id="31ccb-102">Maintaining Performance</span></span>
 <span data-ttu-id="31ccb-103">本節旨在協助您解決例行維護檢查期間所發現的效能問題的資訊。</span><span class="sxs-lookup"><span data-stu-id="31ccb-103">This section provides information that is intended to help you resolve performance issues discovered during your routine maintenance checks.</span></span> <span data-ttu-id="31ccb-104">您也可以使用的工具和技術此處所述主動，嚴重的問題之前就識別潛在問題。</span><span class="sxs-lookup"><span data-stu-id="31ccb-104">You can also use the tools and techniques described here proactively, to identify potential problems before they become critical issues.</span></span>  

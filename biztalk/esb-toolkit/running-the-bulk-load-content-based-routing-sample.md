@@ -1,14 +1,14 @@
 ---
-title: "執行大量載入以內容為基礎的路由範例 |Microsoft 文件"
-ms.custom: 
+title: 執行大量載入以內容為基礎的路由範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7e981567-7c6c-4c13-bd5b-597efdd3fb50
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294942"
 ---
 # <a name="running-the-bulk-load-content-based-routing-sample"></a><span data-ttu-id="b18bf-102">執行大量載入內容架構路由範例</span><span class="sxs-lookup"><span data-stu-id="b18bf-102">Running the Bulk Load Content-Based Routing Sample</span></span>
 <span data-ttu-id="b18bf-103">此範例的一部分示範大量載入的佇列訊息的 ESB 和 Microsoft BizTalk 會路由傳送至不同的目的地佇列，根據每個訊息中指定的佇列名稱。</span><span class="sxs-lookup"><span data-stu-id="b18bf-103">This part of the sample demonstrates bulk loading a queue with messages that the ESB and Microsoft BizTalk will route to different destination queues based on the queue name specified in each message.</span></span> <span data-ttu-id="b18bf-104">它先前的兩個部分中使用的功能，您所見的範例。</span><span class="sxs-lookup"><span data-stu-id="b18bf-104">It uses the features of the sample that you have seen in the previous two parts.</span></span>  

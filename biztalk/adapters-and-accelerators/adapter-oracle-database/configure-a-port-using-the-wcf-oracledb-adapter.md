@@ -1,15 +1,15 @@
 ---
-title: "設定連接埠使用 Wcf-oracledb 配接器在 BizTalk |Microsoft 文件"
-description: "建立 Wcf-oracledb 傳送和接收 BizTalk Server 中使用 Oracle 資料庫配接器的連接埠"
-ms.custom: 
+title: 設定連接埠使用 Wcf-oracledb 配接器在 BizTalk |Microsoft 文件
+description: 建立 Wcf-oracledb 傳送和接收 BizTalk Server 中使用 Oracle 資料庫配接器的連接埠
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e9eafefb-9b30-4801-9be9-6034ae0d3b7d
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215870"
 ---
 # <a name="configure-a-port-using-the-wcf-oracledb-adapter"></a><span data-ttu-id="8421a-103">設定使用 Wcf-oracledb 配接器的連接埠</span><span class="sxs-lookup"><span data-stu-id="8421a-103">Configure a port using the WCF-OracleDB adapter</span></span>
 <span data-ttu-id="8421a-104">如何設定 Wcf-oracledb 傳送和接收連接埠，以在傳出和傳入上執行作業 Oracle 資料庫使用[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="8421a-104">How to configure WCF-OracleDB send and receive ports to perform outbound and inbound operations on the Oracle database using the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)].</span></span>  

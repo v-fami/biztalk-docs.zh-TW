@@ -1,17 +1,17 @@
 ---
-title: "傳送 Idoc 至 SAP 使用 WCF 服務模型 |Microsoft 文件"
-ms.custom: 
+title: 傳送 Idoc 至 SAP 使用 WCF 服務模型 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF service model, sending IDOCs to SAP
 - IDOCs, sending to SAP by using the WCF service model
 ms.assetid: 84077234-b82b-4e88-b858-ce2cb1383fb4
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966588"
 ---
 # <a name="send-idocs-to-sap-using-the-wcf-service-model"></a><span data-ttu-id="4d18b-102">傳送 Idoc 至 SAP 使用 WCF 服務模型</span><span class="sxs-lookup"><span data-stu-id="4d18b-102">Send IDOCs to SAP using the WCF Service Model</span></span>
 <span data-ttu-id="4d18b-103">就內部而言，[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]傳送 Idoc 至 SAP 系統，藉由叫用的兩個的下列 Rfc 的其中一個：</span><span class="sxs-lookup"><span data-stu-id="4d18b-103">Internally, the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] sends IDOCs to the SAP system by invoking one of the two following RFCs:</span></span>  

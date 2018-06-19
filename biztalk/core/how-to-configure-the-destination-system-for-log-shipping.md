@@ -1,11 +1,11 @@
 ---
-title: "如何設定記錄傳送目的地系統 |Microsoft 文件"
-ms.custom: 
+title: 如何設定記錄傳送目的地系統 |Microsoft 文件
+ms.custom: ''
 ms.date: 2015-12-03
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - backing up, log shipping
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - system failures, backing up
 - backing up, system failures
 ms.assetid: 7b4425f5-b105-4fb2-a503-94ca1e75ad55
-caps.latest.revision: "54"
+caps.latest.revision: 54
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969492"
 ---
 # <a name="how-to-configure-the-destination-system-for-log-shipping"></a><span data-ttu-id="9052e-102">如何設定記錄傳送的目的系統</span><span class="sxs-lookup"><span data-stu-id="9052e-102">How to Configure the Destination System for Log Shipping</span></span>
 <span data-ttu-id="9052e-103">記錄傳送提供待命伺服器功能，發生系統錯誤時可減少停機時間。</span><span class="sxs-lookup"><span data-stu-id="9052e-103">Log shipping provides standby server capabilities to reduce downtime in the event of a system failure.</span></span> <span data-ttu-id="9052e-104">記錄傳送可讓您自動從來源系統的交易記錄檔傳送至目的地系統。</span><span class="sxs-lookup"><span data-stu-id="9052e-104">Log shipping allows you to automatically send transaction logs from the source system to the destination system.</span></span> <span data-ttu-id="9052e-105">在目的系統，交易記錄會還原到 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 資料庫中，使這些資料庫與來源資料庫緊密同步。</span><span class="sxs-lookup"><span data-stu-id="9052e-105">At the destination system, the transaction logs are restored to the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases; keeping them closely synchronized with the source databases.</span></span>  
@@ -125,9 +126,9 @@ ms.lasthandoff: 11/28/2017
   
 11. <span data-ttu-id="9052e-161">以滑鼠右鍵按一下**SampleUpdateInfo.xml**，然後選取**編輯**。</span><span class="sxs-lookup"><span data-stu-id="9052e-161">Right-click **SampleUpdateInfo.xml**, and select **Edit**.</span></span> <span data-ttu-id="9052e-162">執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="9052e-162">Do the following:</span></span>  
   
-    -   <span data-ttu-id="9052e-163">所有執行個體**"SourceServer"**來源系統的名稱。</span><span class="sxs-lookup"><span data-stu-id="9052e-163">Replace all instances of **"SourceServer"** with the name of the source system.</span></span>  
+    -   <span data-ttu-id="9052e-163">所有執行個體 **"SourceServer"** 來源系統的名稱。</span><span class="sxs-lookup"><span data-stu-id="9052e-163">Replace all instances of **"SourceServer"** with the name of the source system.</span></span>  
   
-    -   <span data-ttu-id="9052e-164">所有執行個體**"DestinationServer"**目的系統的名稱。</span><span class="sxs-lookup"><span data-stu-id="9052e-164">Replace all instances of **"DestinationServer"** with the name of the destination system.</span></span>  
+    -   <span data-ttu-id="9052e-164">所有執行個體 **"DestinationServer"** 目的系統的名稱。</span><span class="sxs-lookup"><span data-stu-id="9052e-164">Replace all instances of **"DestinationServer"** with the name of the destination system.</span></span>  
   
     > [!IMPORTANT]
     >  <span data-ttu-id="9052e-165">在來源及目的系統的名稱兩端加上引號。</span><span class="sxs-lookup"><span data-stu-id="9052e-165">Include the quotation marks around the name of the source and destination systems.</span></span>  
@@ -142,7 +143,7 @@ ms.lasthandoff: 11/28/2017
     >   
     >  <span data-ttu-id="9052e-168">如果您變更這兩個資料庫的預設名稱，請使用實際的資料庫名稱。</span><span class="sxs-lookup"><span data-stu-id="9052e-168">If you changed the default name for these two databases, please use the actual database names.</span></span>  
   
-12. <span data-ttu-id="9052e-169">如果您有一個以上的 MessageBox 資料庫您[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統中，加入清單中，加入另一行 MessageBoxDB，然後設定**IsMaster ="0"**非主要資料庫。</span><span class="sxs-lookup"><span data-stu-id="9052e-169">If you have more than one MessageBox database in your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] system, add another MessageBoxDB line to the list, and then set **IsMaster="0"** for the non-master databases.</span></span>  
+12. <span data-ttu-id="9052e-169">如果您有一個以上的 MessageBox 資料庫您[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統中，加入清單中，加入另一行 MessageBoxDB，然後設定**IsMaster ="0"** 非主要資料庫。</span><span class="sxs-lookup"><span data-stu-id="9052e-169">If you have more than one MessageBox database in your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] system, add another MessageBoxDB line to the list, and then set **IsMaster="0"** for the non-master databases.</span></span>  
   
 13. <span data-ttu-id="9052e-170">如果您使用 BAM 或 「 規則引擎，請視需要這些行取消註解。</span><span class="sxs-lookup"><span data-stu-id="9052e-170">If you are using BAM or the Rules Engine, uncomment these lines as appropriate.</span></span>  
   

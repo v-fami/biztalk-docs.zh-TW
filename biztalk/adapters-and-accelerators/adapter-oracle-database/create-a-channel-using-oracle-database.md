@@ -1,11 +1,11 @@
 ---
-title: "建立通道使用 Oracle 資料庫 |Microsoft 文件"
-ms.custom: 
+title: 建立通道使用 Oracle 資料庫 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating a channel
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - how to, create a channel
 - channel programming, creating a channel
 ms.assetid: a30156a0-5a5a-4418-be17-2e23c3716fc1
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963676"
 ---
 # <a name="create-a-channel-using-oracle-database"></a><span data-ttu-id="e897a-102">建立通道使用 Oracle 資料庫</span><span class="sxs-lookup"><span data-stu-id="e897a-102">Create a channel using Oracle Database</span></span>
 <span data-ttu-id="e897a-103">在 WCF 通道模型中，叫用 Oracle 資料庫上的作業，接收交換的 SOAP 訊息來輪詢查詢的結果[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]透過 WCF 通道。</span><span class="sxs-lookup"><span data-stu-id="e897a-103">In the WCF channel model, you invoke operations on the Oracle database and receive the results of a polling query by exchanging SOAP messages with the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] over a WCF channel.</span></span>  

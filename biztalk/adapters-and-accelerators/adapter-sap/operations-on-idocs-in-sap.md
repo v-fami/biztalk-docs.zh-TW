@@ -1,11 +1,11 @@
 ---
-title: "在 SAP Idoc 的作業 |Microsoft 文件"
-ms.custom: 
+title: 在 SAP Idoc 的作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - IDOC, operations to receive an
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - IDOC, operations to send an
 - RFC server
 ms.assetid: 6abcc646-c7a3-48cf-a09e-01f516dcef97
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964548"
 ---
 # <a name="operations-on-idocs-in-sap"></a><span data-ttu-id="45357-102">在 SAP Idoc 的作業</span><span class="sxs-lookup"><span data-stu-id="45357-102">Operations on IDOCs in SAP</span></span>
 <span data-ttu-id="45357-103">Idoc 是 SAP 支援以非同步方式進行通訊與 SAP 和非 SAP 系統的標準化的 EDI 類似文件。</span><span class="sxs-lookup"><span data-stu-id="45357-103">IDOCs are standardized EDI-like documents that SAP supports for asynchronously communicating with SAP and non-SAP systems.</span></span> <span data-ttu-id="45357-104">Idoc 是用來傳送和接收"business"文件，例如銷售訂單，與交易夥伴的 SAP 系統或外部程式。</span><span class="sxs-lookup"><span data-stu-id="45357-104">IDOCs are used for sending and receiving “business” documents such as sales orders, for example, to or from a trading partner’s SAP system or an external program.</span></span>  

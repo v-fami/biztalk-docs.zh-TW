@@ -1,11 +1,11 @@
 ---
-title: "步驟 3： 定義、 發佈與部署 Contoso 的商務原則 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3： 定義、 發佈與部署 Contoso 的商務原則 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - policies, deploying
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - private process tutorial, creating policies
 - policies, creating
 ms.assetid: 529b16d8-226b-4046-a95d-64162ebd59a3
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210662"
 ---
 # <a name="step-3-defining-publishing-and-deploying-the-business-policy-for-contoso"></a><span data-ttu-id="25eb1-102">步驟 3： 定義、 發佈與部署 Contoso 的商務原則</span><span class="sxs-lookup"><span data-stu-id="25eb1-102">Step 3: Defining, Publishing, and Deploying the Business Policy for Contoso</span></span>
 <span data-ttu-id="25eb1-103">在此步驟中，您將建立可保留每個產品一定單位數量的商務原則，讓 Contoso 製造商可以在緊急時使用這些存貨。</span><span class="sxs-lookup"><span data-stu-id="25eb1-103">In this step, you create a business policy that reserves a set quantity of units for each product that Contoso manufactures to be used in case of an emergency.</span></span>  
@@ -34,7 +35,7 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-add-a-policy-rule-to-enforce-the-emergency-quantity-needs"></a><span data-ttu-id="25eb1-107">新增原則規則以強制執行緊急數量需求</span><span class="sxs-lookup"><span data-stu-id="25eb1-107">To add a policy rule to enforce the emergency quantity needs</span></span>  
   
-1.  <span data-ttu-id="25eb1-108">以滑鼠右鍵按一下**版本 1.0 （未儲存）**下**3A2PriceAvailabilityPolicy**，然後按一下 **新增規則**。</span><span class="sxs-lookup"><span data-stu-id="25eb1-108">Right-click **Version 1.0 (not saved)** under **3A2PriceAvailabilityPolicy**, and then click **Add New Rule**.</span></span>  
+1.  <span data-ttu-id="25eb1-108">以滑鼠右鍵按一下**版本 1.0 （未儲存）** 下**3A2PriceAvailabilityPolicy**，然後按一下 **新增規則**。</span><span class="sxs-lookup"><span data-stu-id="25eb1-108">Right-click **Version 1.0 (not saved)** under **3A2PriceAvailabilityPolicy**, and then click **Add New Rule**.</span></span>  
   
 2.  <span data-ttu-id="25eb1-109">命名規則**Emergency Supply Rule-Quantity Exhausted**，然後按下**Enter**。</span><span class="sxs-lookup"><span data-stu-id="25eb1-109">Name the rule **Emergency Supply Rule - Quantity Exhausted**, and then press **Enter**.</span></span>  
   
@@ -48,7 +49,7 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-add-a-policy-to-revise-the-number-available-field-in-the-response"></a><span data-ttu-id="25eb1-114">新增原則以修訂回應中的可用數目欄位</span><span class="sxs-lookup"><span data-stu-id="25eb1-114">To add a policy to revise the Number Available field in the response</span></span>  
   
-1.  <span data-ttu-id="25eb1-115">以滑鼠右鍵按一下**版本 1.0 （未儲存）**下**3A2PriceAvailabilityPolicy**，然後按一下 **新增規則**。</span><span class="sxs-lookup"><span data-stu-id="25eb1-115">Right-click **Version 1.0 (not saved)** under **3A2PriceAvailabilityPolicy**, and then click **Add New Rule**.</span></span>  
+1.  <span data-ttu-id="25eb1-115">以滑鼠右鍵按一下**版本 1.0 （未儲存）** 下**3A2PriceAvailabilityPolicy**，然後按一下 **新增規則**。</span><span class="sxs-lookup"><span data-stu-id="25eb1-115">Right-click **Version 1.0 (not saved)** under **3A2PriceAvailabilityPolicy**, and then click **Add New Rule**.</span></span>  
   
 2.  <span data-ttu-id="25eb1-116">將新的規則**Emergency Supply Rule-Quantity Available**，然後按下**Enter**。</span><span class="sxs-lookup"><span data-stu-id="25eb1-116">Name the new rule **Emergency Supply Rule - Quantity Available**, and then press **Enter**.</span></span>  
   
@@ -68,7 +69,7 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-save-publish-and-deploy-the-business-policy"></a><span data-ttu-id="25eb1-124">若要儲存、發佈和部署商務原則</span><span class="sxs-lookup"><span data-stu-id="25eb1-124">To save, publish, and deploy the business policy</span></span>  
   
-1.  <span data-ttu-id="25eb1-125">在 原則總管 窗格中，以滑鼠右鍵按一下**版本 1.0 （未儲存）**下**3A2PriceAvailabilityPolicy**，然後按一下 **儲存**。</span><span class="sxs-lookup"><span data-stu-id="25eb1-125">In the Policy Explorer pane, right-click **Version 1.0 (not saved)** under **3A2PriceAvailabilityPolicy**, and then click **Save**.</span></span>  
+1.  <span data-ttu-id="25eb1-125">在 原則總管 窗格中，以滑鼠右鍵按一下**版本 1.0 （未儲存）** 下**3A2PriceAvailabilityPolicy**，然後按一下 **儲存**。</span><span class="sxs-lookup"><span data-stu-id="25eb1-125">In the Policy Explorer pane, right-click **Version 1.0 (not saved)** under **3A2PriceAvailabilityPolicy**, and then click **Save**.</span></span>  
   
 2.  <span data-ttu-id="25eb1-126">以滑鼠右鍵按一下相同節點，然後**發行**。</span><span class="sxs-lookup"><span data-stu-id="25eb1-126">Right-click that same node, and then click **Publish**.</span></span>  
   

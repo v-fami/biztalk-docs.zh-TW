@@ -1,14 +1,14 @@
 ---
-title: "SWIFTNet 用戶端和伺服器 |Microsoft 文件"
-ms.custom: 
+title: SWIFTNet 用戶端和伺服器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 89d9f54f-af16-4f14-bbe4-8306758320d8
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224654"
 ---
 # <a name="swiftnet-client-and-server"></a><span data-ttu-id="90ded-102">SWIFTNet 用戶端和伺服器</span><span class="sxs-lookup"><span data-stu-id="90ded-102">SWIFTNet Client and Server</span></span>
 <span data-ttu-id="90ded-103">SWIFT 使用規定用戶端和伺服器來描述傳送和接收。</span><span class="sxs-lookup"><span data-stu-id="90ded-103">SWIFT uses the terms client and server to describe sending and receiving.</span></span> <span data-ttu-id="90ded-104">SWIFT 的用戶端會呼叫 SWIFTNet 連結 (SNL) 透過 SWIFTNet 啟始通訊的程序。</span><span class="sxs-lookup"><span data-stu-id="90ded-104">A SWIFT client is a process that calls the SWIFTNet Link (SNL) to initiate communication over SWIFTNet.</span></span> <span data-ttu-id="90ded-105">在 BizTalk Server 中，這稱為傳送配接器。</span><span class="sxs-lookup"><span data-stu-id="90ded-105">In BizTalk Server, this is called the send adapter.</span></span> <span data-ttu-id="90ded-106">SWIFT 的伺服器是由 SNL 流量流入透過 SWIFTNet 時呼叫的程式。</span><span class="sxs-lookup"><span data-stu-id="90ded-106">A SWIFT server is a program that is called by the SNL when traffic comes in over SWIFTNet.</span></span> <span data-ttu-id="90ded-107">在 BizTalk Server 中，這稱為接收配接器。</span><span class="sxs-lookup"><span data-stu-id="90ded-107">In BizTalk Server, this is called the receive adapter.</span></span>  
@@ -58,7 +59,7 @@ Callback(Request):
   
  <span data-ttu-id="90ded-128">伺服器應用程式可以呼叫的回呼函式中 SwCall API。</span><span class="sxs-lookup"><span data-stu-id="90ded-128">The server application can call the SwCall API while in the callback function.</span></span> <span data-ttu-id="90ded-129">在某些情況下，它必須呼叫 SwCall 能夠產生想要的結果或回應。</span><span class="sxs-lookup"><span data-stu-id="90ded-129">In some cases it must call SwCall to be able to produce the desired result or response.</span></span> <span data-ttu-id="90ded-130">不過，伺服器應用程式可以永遠不會透過網路初始通訊。</span><span class="sxs-lookup"><span data-stu-id="90ded-130">However, a server application can never initiate a communication over the network.</span></span> <span data-ttu-id="90ded-131">伺服器應用程式不可以用戶端應用程式。</span><span class="sxs-lookup"><span data-stu-id="90ded-131">A server application can never be a client application.</span></span>  
   
- <span data-ttu-id="90ded-132">在下圖中，呼叫標示**初始化**是 SNL API 初始化程序，需要多次呼叫的抽象概念。</span><span class="sxs-lookup"><span data-stu-id="90ded-132">In the following figure, the call labeled **Initialize** is an abstraction for the SNL API initialization process, which requires multiple calls.</span></span> <span data-ttu-id="90ded-133">標示為呼叫**SwCallback()**重複數次，而且呼叫標示**SwCall()**是選擇性的。</span><span class="sxs-lookup"><span data-stu-id="90ded-133">The call labeled **SwCallback()** will be repeated several times, and the call labeled **SwCall()** is optional.</span></span>  
+ <span data-ttu-id="90ded-132">在下圖中，呼叫標示**初始化**是 SNL API 初始化程序，需要多次呼叫的抽象概念。</span><span class="sxs-lookup"><span data-stu-id="90ded-132">In the following figure, the call labeled **Initialize** is an abstraction for the SNL API initialization process, which requires multiple calls.</span></span> <span data-ttu-id="90ded-133">標示為呼叫**SwCallback()** 重複數次，而且呼叫標示**SwCall()** 是選擇性的。</span><span class="sxs-lookup"><span data-stu-id="90ded-133">The call labeled **SwCallback()** will be repeated several times, and the call labeled **SwCall()** is optional.</span></span>  
   
  <span data-ttu-id="90ded-134">![SNL 伺服器功能](../../adapters-and-accelerators/fileact-interact/media/42395775-cdbc-4e36-8b36-566caefa2aaf.gif "42395775-cdbc-4e36-8b36-566caefa2aaf")</span><span class="sxs-lookup"><span data-stu-id="90ded-134">![SNL Server functionality](../../adapters-and-accelerators/fileact-interact/media/42395775-cdbc-4e36-8b36-566caefa2aaf.gif "42395775-cdbc-4e36-8b36-566caefa2aaf")</span></span>  
   

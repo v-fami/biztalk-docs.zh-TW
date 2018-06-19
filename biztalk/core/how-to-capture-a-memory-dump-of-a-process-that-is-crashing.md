@@ -1,14 +1,14 @@
 ---
-title: "如何擷取損毀程序的記憶體傾印 |Microsoft 文件"
-ms.custom: 
+title: 如何擷取損毀程序的記憶體傾印 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5f436b72-2b6a-4519-acc3-e7ba978651fe
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969564"
 ---
 # <a name="how-to-capture-a-memory-dump-of-a-process-that-is-crashing"></a><span data-ttu-id="c7e47-102">如何擷取損毀程序的記憶體傾印</span><span class="sxs-lookup"><span data-stu-id="c7e47-102">How to Capture a Memory Dump of a Process that is Crashing</span></span>
 <span data-ttu-id="c7e47-103">BizTalk 處理序 BTSNTSvc.exe 定義為**損毀**windows 已意外終止程序。</span><span class="sxs-lookup"><span data-stu-id="c7e47-103">The BizTalk process BTSNTSvc.exe is defined as **crashing** when the process is unexpectedly terminated by Windows.</span></span> <span data-ttu-id="c7e47-104">損毀一般是由程序中未處理的例外狀況造成的，例如存取違規或堆疊溢位。</span><span class="sxs-lookup"><span data-stu-id="c7e47-104">A crash is typically caused by an unhandled exception in the process such as an access violation or a stack overflow.</span></span> <span data-ttu-id="c7e47-105">在這些情況下，Windows 預設偵錯工具，Dr。Watson (drwtsn32.exe) 攔截例外狀況和終止處理序。</span><span class="sxs-lookup"><span data-stu-id="c7e47-105">In these situations, the Windows default debugger, Dr. Watson (drwtsn32.exe) catches the exception and terminates the process.</span></span>  

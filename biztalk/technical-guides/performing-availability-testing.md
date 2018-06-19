@@ -1,14 +1,14 @@
 ---
-title: "執行可用性測試 |Microsoft 文件"
-ms.custom: 
+title: 執行可用性測試 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 10b543dd-ba85-40da-8c6f-485eddb59158
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298302"
 ---
 # <a name="performing-availability-testing"></a><span data-ttu-id="f75f2-102">執行可用性測試</span><span class="sxs-lookup"><span data-stu-id="f75f2-102">Performing Availability Testing</span></span>
 <span data-ttu-id="f75f2-103">您應該測試系統，以確認它能夠從各種層級失敗時，範圍介於小規模失敗 （例如網路卡失敗） 至實際執行伺服器遺失復原的嚴重損壞修復。</span><span class="sxs-lookup"><span data-stu-id="f75f2-103">You should test your system for disaster recovery to verify its ability to recover from various levels of failure, ranging from small-scale failures (such as a network card failure) to the loss of a production server.</span></span> <span data-ttu-id="f75f2-104">您損毀修復測試應該包含下列步驟：</span><span class="sxs-lookup"><span data-stu-id="f75f2-104">Your disaster recovery testing should include the following steps:</span></span>  

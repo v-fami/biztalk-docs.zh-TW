@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969540"
 ---
 # <a name="how-to-configure-functoid-input-parameters"></a><span data-ttu-id="1be6e-102">如何設定運算質輸入參數</span><span class="sxs-lookup"><span data-stu-id="1be6e-102">How to Configure Functoid Input Parameters</span></span>
 <span data-ttu-id="1be6e-103">正確的設定對應中的運算質輸入參數，是在使用運算質時最重要也是最可能防止發生錯誤的其中一個方式。</span><span class="sxs-lookup"><span data-stu-id="1be6e-103">Properly configuring the input parameters to the functoids in your map is one of the most important, and potentially error-prone, aspects of using functoids.</span></span> <span data-ttu-id="1be6e-104">您可以設定運算質輸入參數，如下所示：</span><span class="sxs-lookup"><span data-stu-id="1be6e-104">You can configure the functoid input parameters as follows:</span></span>  

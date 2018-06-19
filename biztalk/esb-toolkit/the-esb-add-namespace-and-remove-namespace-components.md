@@ -1,14 +1,14 @@
 ---
-title: "ESB 加入命名空間移除命名空間的元件和 |Microsoft 文件"
-ms.custom: 
+title: ESB 加入命名空間移除命名空間的元件和 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 21df1b21-b73c-4e31-a234-49a1a6b53cc7
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22296246"
 ---
 # <a name="the-esb-add-namespace-and-remove-namespace-components"></a><span data-ttu-id="607e7-102">ESB 加入命名空間移除命名空間元件</span><span class="sxs-lookup"><span data-stu-id="607e7-102">The ESB Add Namespace and Remove Namespace Components</span></span>
 <span data-ttu-id="607e7-103">許多公司時的 XML 技術的早期採用者時仍然新標準和共用文件很常見。</span><span class="sxs-lookup"><span data-stu-id="607e7-103">Many companies were early adopters of XML technologies at the time when standards were still emerging and document sharing was uncommon.</span></span> <span data-ttu-id="607e7-104">因此，它們並未嚴格強制執行包括唯一的根命名空間，這通常如此今天的需求。</span><span class="sxs-lookup"><span data-stu-id="607e7-104">Therefore, they did not strictly enforce the requirements for including unique root namespaces, which is usually the case today.</span></span>  
@@ -47,7 +48,7 @@ ms.lasthandoff: 09/20/2017
   
  <span data-ttu-id="607e7-123">移除命名空間 」 元件從 XML 文件中移除所有的根命名空間。</span><span class="sxs-lookup"><span data-stu-id="607e7-123">The Remove Namespace component removes all root namespaces from an XML document.</span></span> <span data-ttu-id="607e7-124">元件可以移除單一文件的命名空間數目受限於可用來保存在處理期間的目前節點的實體記憶體。</span><span class="sxs-lookup"><span data-stu-id="607e7-124">The number of namespaces that the component can remove from a single document is constrained by the physical memory available to hold the current node during processing.</span></span> <span data-ttu-id="607e7-125">不過，元件會使用標準的 BizTalk Server 2009 管線訊息串流處理程序，將只在文件中的目前節點載入至記憶體，而不必載入整個文件。</span><span class="sxs-lookup"><span data-stu-id="607e7-125">However, the component uses standard BizTalk Server 2009 pipeline message streaming processes and loads only the current node in the document into memory instead of loading the entire document.</span></span>  
   
- <span data-ttu-id="607e7-126">移除命名空間元件也重新編碼指定的編碼方式的文件 (**ascii、 unicode/utf16，**或**utf8**)，並可以從資料流，開始移除位元組順序標記 (BOM)，若必要項。</span><span class="sxs-lookup"><span data-stu-id="607e7-126">The Remove Namespace component also re-encodes the document to the specified encoding (**ascii, unicode/utf16,** or **utf8**) and can remove the Byte Order Mark (BOM) from the beginning of the stream, if required.</span></span>  
+ <span data-ttu-id="607e7-126">移除命名空間元件也重新編碼指定的編碼方式的文件 (**ascii、 unicode/utf16，** 或**utf8**)，並可以從資料流，開始移除位元組順序標記 (BOM)，若必要項。</span><span class="sxs-lookup"><span data-stu-id="607e7-126">The Remove Namespace component also re-encodes the document to the specified encoding (**ascii, unicode/utf16,** or **utf8**) and can remove the Byte Order Mark (BOM) from the beginning of the stream, if required.</span></span>  
   
 ## <a name="using-the-add-namespace-and-remove-namespace-components"></a><span data-ttu-id="607e7-127">使用新增命名空間移除命名空間元件</span><span class="sxs-lookup"><span data-stu-id="607e7-127">Using the Add Namespace and Remove Namespace Components</span></span>  
  <span data-ttu-id="607e7-128">開發人員可能會在下列情況下使用新增的命名空間元件：</span><span class="sxs-lookup"><span data-stu-id="607e7-128">Developers might use the Add Namespace component in any of the following circumstances:</span></span>  
@@ -65,7 +66,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="component-properties"></a><span data-ttu-id="607e7-137">元件屬性</span><span class="sxs-lookup"><span data-stu-id="607e7-137">Component Properties</span></span>  
  <span data-ttu-id="607e7-138">新增命名空間元件會公開五個公用屬性：</span><span class="sxs-lookup"><span data-stu-id="607e7-138">The Add Namespace component exposes five public properties:</span></span>  
   
--   <span data-ttu-id="607e7-139">**NamespacePrefix**。</span><span class="sxs-lookup"><span data-stu-id="607e7-139">**NamespacePrefix**.</span></span> <span data-ttu-id="607e7-140">這是之間插入命名空間前置詞**xmlns:**部分，並在下列的等號 （=）。</span><span class="sxs-lookup"><span data-stu-id="607e7-140">This is the prefix of the namespace, inserted between the **xmlns:** part and the following equals sign ( = ).</span></span> <span data-ttu-id="607e7-141">若要避免與標準的 BizTalk 結構描述命名空間前置詞衝突，請避免使用值**ns0**透過**ns9**。</span><span class="sxs-lookup"><span data-stu-id="607e7-141">To avoid conflicts with standard BizTalk Schema namespace prefixes, avoid using the values **ns0** through **ns9**.</span></span>  
+-   <span data-ttu-id="607e7-139">**NamespacePrefix**。</span><span class="sxs-lookup"><span data-stu-id="607e7-139">**NamespacePrefix**.</span></span> <span data-ttu-id="607e7-140">這是之間插入命名空間前置詞**xmlns:** 部分，並在下列的等號 （=）。</span><span class="sxs-lookup"><span data-stu-id="607e7-140">This is the prefix of the namespace, inserted between the **xmlns:** part and the following equals sign ( = ).</span></span> <span data-ttu-id="607e7-141">若要避免與標準的 BizTalk 結構描述命名空間前置詞衝突，請避免使用值**ns0**透過**ns9**。</span><span class="sxs-lookup"><span data-stu-id="607e7-141">To avoid conflicts with standard BizTalk Schema namespace prefixes, avoid using the values **ns0** through **ns9**.</span></span>  
   
 -   <span data-ttu-id="607e7-142">**NamespaceBase**。</span><span class="sxs-lookup"><span data-stu-id="607e7-142">**NamespaceBase**.</span></span> <span data-ttu-id="607e7-143">這是將前置詞中的值所產生的結果的命名空間的靜態區段**分隔符號**和**Xpath**屬性。</span><span class="sxs-lookup"><span data-stu-id="607e7-143">This is the static section of the namespace that will prefix the result generated by the values in the **Separator** and **XPaths** properties.</span></span>  
   
@@ -80,8 +81,8 @@ ms.lasthandoff: 09/20/2017
   
  <span data-ttu-id="607e7-152">移除命名空間元件會公開兩個公用屬性：</span><span class="sxs-lookup"><span data-stu-id="607e7-152">The Remove Namespace component exposes two public properties:</span></span>  
   
--   <span data-ttu-id="607e7-153">**編碼**。</span><span class="sxs-lookup"><span data-stu-id="607e7-153">**Encoding**.</span></span> <span data-ttu-id="607e7-154">這是編碼輸出訊息時，下列值之一： **ascii、 unicode/utf16，**或**utf8**。</span><span class="sxs-lookup"><span data-stu-id="607e7-154">This is the encoding for the output message, one of the following values: **ascii, unicode/utf16,** or **utf8**.</span></span>  
+-   <span data-ttu-id="607e7-153">**編碼**。</span><span class="sxs-lookup"><span data-stu-id="607e7-153">**Encoding**.</span></span> <span data-ttu-id="607e7-154">這是編碼輸出訊息時，下列值之一： **ascii、 unicode/utf16，** 或**utf8**。</span><span class="sxs-lookup"><span data-stu-id="607e7-154">This is the encoding for the output message, one of the following values: **ascii, unicode/utf16,** or **utf8**.</span></span>  
   
--   <span data-ttu-id="607e7-155">**RemoveByteOrderMark**。</span><span class="sxs-lookup"><span data-stu-id="607e7-155">**RemoveByteOrderMark**.</span></span> <span data-ttu-id="607e7-156">這是布林值屬性，指出元件是否應該移除位元組順序標記 (通常**0xEFBB、 0xBFFFFE，**或**0xFEFF**) 從 XML 文件資料流的開頭。</span><span class="sxs-lookup"><span data-stu-id="607e7-156">This is a Boolean property that indicates whether the component should remove the byte order mark (usually **0xEFBB, 0xBFFFFE,** or **0xFEFF**) from the beginning of the XML document stream.</span></span>  
+-   <span data-ttu-id="607e7-155">**RemoveByteOrderMark**。</span><span class="sxs-lookup"><span data-stu-id="607e7-155">**RemoveByteOrderMark**.</span></span> <span data-ttu-id="607e7-156">這是布林值屬性，指出元件是否應該移除位元組順序標記 (通常**0xEFBB、 0xBFFFFE，** 或**0xFEFF**) 從 XML 文件資料流的開頭。</span><span class="sxs-lookup"><span data-stu-id="607e7-156">This is a Boolean property that indicates whether the component should remove the byte order mark (usually **0xEFBB, 0xBFFFFE,** or **0xFEFF**) from the beginning of the XML document stream.</span></span>  
   
  <span data-ttu-id="607e7-157">如需如何使用這些元件的範例，請參閱[安裝及執行 「 命名空間元件 」 範例](../esb-toolkit/installing-and-running-the-namespace-component-sample.md)。</span><span class="sxs-lookup"><span data-stu-id="607e7-157">For an example of how to use these components, see [Installing and Running the Namespace Component Sample](../esb-toolkit/installing-and-running-the-namespace-component-sample.md).</span></span>

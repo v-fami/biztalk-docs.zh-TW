@@ -1,11 +1,11 @@
 ---
-title: "CustomComponent （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: CustomComponent （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components [custom], examples
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - messages, streamed
 - pipeline components [custom], configuring
 ms.assetid: ed0da9f5-8cc7-4528-be8c-35b80744fd38
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969732"
 ---
 # <a name="customcomponent-biztalk-server-sample"></a><span data-ttu-id="c64c9-102">CustomComponent （BizTalk Server 範例）</span><span class="sxs-lookup"><span data-stu-id="c64c9-102">CustomComponent (BizTalk Server Sample)</span></span>
 <span data-ttu-id="c64c9-103">此 CustomComponent 範例會示範如何建立和使用會修改資料流處理訊息的自訂管線元件。</span><span class="sxs-lookup"><span data-stu-id="c64c9-103">The CustomComponent sample demonstrates how to create and use a custom pipeline component that modifies a streamed message.</span></span> <span data-ttu-id="c64c9-104">這個範例也會示範使用「管線設計師」對自訂管線元件的設定。</span><span class="sxs-lookup"><span data-stu-id="c64c9-104">This sample also demonstrates the configuration of a custom pipeline component in Pipeline Designer.</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968526"
 ---
 # <a name="error---table-looping-data-not-valid"></a><span data-ttu-id="ffb5f-102">錯誤-表格迴圈資料無效</span><span class="sxs-lookup"><span data-stu-id="ffb5f-102">Error - Table Looping Data Not Valid</span></span>
 <span data-ttu-id="ffb5f-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="ffb5f-103">**Error Code**</span></span>  

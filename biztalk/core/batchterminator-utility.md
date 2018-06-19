@@ -1,14 +1,14 @@
 ---
-title: "BatchTerminator 公用程式 |Microsoft 文件"
-ms.custom: 
+title: BatchTerminator 公用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 771241fa-7df5-4882-8430-c2f36200cc9d
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967348"
 ---
 # <a name="batchterminator-utility"></a><span data-ttu-id="d1dc4-102">BatchTerminator 公用程式</span><span class="sxs-lookup"><span data-stu-id="d1dc4-102">BatchTerminator Utility</span></span>
 <span data-ttu-id="d1dc4-103">BatchTerminator 公用程式可讓您終止所有用來批次處理 EDI 交換的即時批次處理協調流程。</span><span class="sxs-lookup"><span data-stu-id="d1dc4-103">The BatchTerminator utility enables you to terminate all live batching orchestrations being used to batch EDI interchanges.</span></span> <span data-ttu-id="d1dc4-104">當您擁有大量正在執行的批次處理協調流程執行個體，而您需要終止所有的批次才可以針對 BizTalk 伺服器系統執行維護作業時，這個公用程式保證可發揮其功用。</span><span class="sxs-lookup"><span data-stu-id="d1dc4-104">This utility could prove useful if you have a large number of batching orchestration instances running, and you need to terminate all the batches in order to perform maintenance on the BizTalk server system.</span></span>  

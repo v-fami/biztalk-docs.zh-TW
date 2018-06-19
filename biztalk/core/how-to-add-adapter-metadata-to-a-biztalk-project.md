@@ -1,14 +1,14 @@
 ---
-title: "如何將配接器中繼資料新增至 BizTalk 專案 |Microsoft 文件"
-ms.custom: 
+title: 如何將配接器中繼資料新增至 BizTalk 專案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e439e5bf-94b3-4582-bacc-b058e6eb8e17
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969060"
 ---
 # <a name="how-to-add-adapter-metadata-to-a-biztalk-project"></a><span data-ttu-id="50fa9-102">如何將配接器中繼資料新增至 BizTalk 專案</span><span class="sxs-lookup"><span data-stu-id="50fa9-102">How to Add Adapter Metadata to a BizTalk Project</span></span>
 <span data-ttu-id="50fa9-103">「新增配接器中繼資料精靈」可讓您新增配接器中繼資料到 BizTalk 專案。</span><span class="sxs-lookup"><span data-stu-id="50fa9-103">The Add Adapter Metadata Wizard enables you to add adapter metadata to a BizTalk project.</span></span> <span data-ttu-id="50fa9-104">這項資料包含從協調流程與配接器通訊所需的配置、訊息類型以及連接埠類型。</span><span class="sxs-lookup"><span data-stu-id="50fa9-104">This data includes schemas, message types, and port types needed to communicate with an adapter from an orchestration.</span></span> <span data-ttu-id="50fa9-105">對 應用程式配接器 (例如 FTP) 使用 「 新增配接器中繼資料精靈 」 ，可將這些應用程式配接器的對應結構描述提取至系統中 。</span><span class="sxs-lookup"><span data-stu-id="50fa9-105">Use the Add Adapter Metadata Wizard with application adapters, such as FTP, to pull schemas corresponding to these application adapters into the system.</span></span> <span data-ttu-id="50fa9-106">請注意，一般而言，HTTP 之類的傳輸配接器並不會使用結構描述。</span><span class="sxs-lookup"><span data-stu-id="50fa9-106">Note that transport adapters such as HTTP do not typically use schemas.</span></span>  

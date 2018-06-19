@@ -1,17 +1,17 @@
 ---
-title: "疑難排解問題的 Data Provider for Siebel |Microsoft 文件"
-ms.custom: 
+title: 疑難排解問題的 Data Provider for Siebel |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Data Provider for Siebel, troubleshooting
 - troubleshooting, Data Provider for Siebel
 ms.assetid: 2bfe69a2-d6de-466d-9f36-f11c386c771c
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22221998"
 ---
 # <a name="troubleshoot-issues-with-the-data-provider-for-siebel"></a><span data-ttu-id="f4dcd-102">疑難排解問題的 siebel 資料提供者</span><span class="sxs-lookup"><span data-stu-id="f4dcd-102">Troubleshoot Issues with the Data Provider for Siebel</span></span>
 <span data-ttu-id="f4dcd-103">本章節將討論使用來解決使用時可能遭遇的錯誤的疑難排解技巧[!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)] ([!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)])。</span><span class="sxs-lookup"><span data-stu-id="f4dcd-103">This section discusses using troubleshooting techniques to resolve errors that you might encounter when using the [!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)] ([!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]).</span></span>  

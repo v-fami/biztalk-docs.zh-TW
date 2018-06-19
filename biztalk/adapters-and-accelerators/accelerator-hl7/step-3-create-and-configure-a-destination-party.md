@@ -1,14 +1,14 @@
 ---
-title: "步驟 3： 建立及設定目的合作對象 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3： 建立及設定目的合作對象 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8746f115-9f69-4593-9943-9ccda45cd900
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961340"
 ---
 # <a name="step-3-create-and-configure-a-destination-party"></a><span data-ttu-id="6b15b-102">步驟 3： 建立及設定目的合作對象</span><span class="sxs-lookup"><span data-stu-id="6b15b-102">Step 3: Create and Configure a Destination Party</span></span>
 <span data-ttu-id="6b15b-103">在此步驟中，您可以建立並設定建立批次案例的目的合作對象。</span><span class="sxs-lookup"><span data-stu-id="6b15b-103">In this step, you create and configure a destination party for the Create-Batch scenario.</span></span> <span data-ttu-id="6b15b-104">您也可以選取訊息的[!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]批次和批次排程時，針對該合作對象所定義。</span><span class="sxs-lookup"><span data-stu-id="6b15b-104">You also select the messages that [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] batches and the batch schedules, as defined for that party.</span></span> <span data-ttu-id="6b15b-105">您會排程批次傳送時間為一小時之後將檔案複製到資料夾。</span><span class="sxs-lookup"><span data-stu-id="6b15b-105">You schedule the batch send time as one hour after copying the files into the folder.</span></span> [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]<span data-ttu-id="6b15b-106">批次的頻率為一小時之後收到任何訊息。</span><span class="sxs-lookup"><span data-stu-id="6b15b-106"> batches any messages received thereafter with a frequency of one hour.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "執行預存程序中使用 SQL 配接器的 SQL Server |Microsoft 文件"
-ms.custom: 
+title: 執行預存程序中使用 SQL 配接器的 SQL Server |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 245626a7-f546-4aca-90df-c0579139a872
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224054"
 ---
 # <a name="execute-stored-procedures-in-sql-server-using-the-sql-adapter"></a><span data-ttu-id="43a89-102">使用 SQL 配接器的 SQL Server 中執行預存程序</span><span class="sxs-lookup"><span data-stu-id="43a89-102">Execute Stored Procedures in SQL Server using the SQL adapter</span></span>
 <span data-ttu-id="43a89-103">TRANSACT-SQL 和 SQL Server 中的 CLR 預存程序當成作業[!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]下**程序**時使用的節點[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]或[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="43a89-103">The Transact-SQL and CLR stored procedures in SQL Server are surfaced as operations in [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] under the **Procedures** node while using the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] or [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)].</span></span> <span data-ttu-id="43a89-104">所公開的作業名稱[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]SQL Server 中的預存程序的名稱相同。</span><span class="sxs-lookup"><span data-stu-id="43a89-104">The operation names exposed by the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] are the same as the name of the stored procedure in SQL Server.</span></span> <span data-ttu-id="43a89-105">預存程序中的所有參數會都公開在對應的作業。</span><span class="sxs-lookup"><span data-stu-id="43a89-105">All the parameters in the stored procedure are exposed in the corresponding operation.</span></span> <span data-ttu-id="43a89-106">OUT 參數會包含預存程序的傳回值。</span><span class="sxs-lookup"><span data-stu-id="43a89-106">The OUT parameter contains the return value of the stored procedure.</span></span> <span data-ttu-id="43a89-107">預存程序的結果集是資料集的陣列。</span><span class="sxs-lookup"><span data-stu-id="43a89-107">The result set of the stored procedure is an array of DataSet.</span></span> <span data-ttu-id="43a89-108">如需有關資料集的詳細資訊，請參閱[http://go.microsoft.com/fwlink/?LinkId=196853](http://go.microsoft.com/fwlink/?LinkId=196853)。</span><span class="sxs-lookup"><span data-stu-id="43a89-108">For more information about DataSet, see [http://go.microsoft.com/fwlink/?LinkId=196853](http://go.microsoft.com/fwlink/?LinkId=196853).</span></span> <span data-ttu-id="43a89-109">目標物件的結構描述資訊會在執行階段取得做為回應訊息的一部分。</span><span class="sxs-lookup"><span data-stu-id="43a89-109">The schema information of the target object is obtained as part of the response message at run time.</span></span>  
@@ -44,7 +45,7 @@ ms.lasthandoff: 09/20/2017
 |<span data-ttu-id="43a89-130">結果集包含...</span><span class="sxs-lookup"><span data-stu-id="43a89-130">Result set contains…</span></span>|<span data-ttu-id="43a89-131">預存程序</span><span class="sxs-lookup"><span data-stu-id="43a89-131">Stored Procedure</span></span>|<span data-ttu-id="43a89-132">強型別的預存程序</span><span class="sxs-lookup"><span data-stu-id="43a89-132">Strongly-Typed Stored Procedure</span></span>|  
 |--------------------------|----------------------|--------------------------------------|  
 |<span data-ttu-id="43a89-133">**沒有名稱的資料行**</span><span class="sxs-lookup"><span data-stu-id="43a89-133">**Columns without names**</span></span>|<span data-ttu-id="43a89-134">[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]會以下列方式產生資料行的名稱： 沒有資料行產生唯一識別碼 (GUID)"-"（連字號），然後 GUID 字串前面加上"C"，因為產生的 GUID 可能會以數字開頭，但 XML 標記名稱不能和。</span><span class="sxs-lookup"><span data-stu-id="43a89-134">The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] generates a name for the column in the following way: a unique ID (GUID) is generated for the column without "-" (hyphen), and then the GUID string is prefixed by "C" because the generated GUID might start with a digit but an XML tag name cannot.</span></span>|<span data-ttu-id="43a89-135">[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]會產生下列資料行名稱:"UnNamedColumn [column_index]"，從 '0' column_index 開始的位置。</span><span class="sxs-lookup"><span data-stu-id="43a89-135">The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] generates the following name for the column: “UnNamedColumn[column_index]”,  where column_index starts from ‘0’.</span></span>|  
-|<span data-ttu-id="43a89-136">**具有相同名稱的資料行**</span><span class="sxs-lookup"><span data-stu-id="43a89-136">**Columns with same names**</span></span>|<span data-ttu-id="43a89-137">第一個以外的資料行名稱會附加"_"（底線） 後面跟著隨機 GUID 不含"-"（連字號）。</span><span class="sxs-lookup"><span data-stu-id="43a89-137">The names of the columns other than the first one are appended with “_” (underscore) followed by a random GUID without "-" (hyphen).</span></span> <span data-ttu-id="43a89-138">例如:"\_[GUID]"。</span><span class="sxs-lookup"><span data-stu-id="43a89-138">For example: “\_[GUID]”.</span></span>|<span data-ttu-id="43a89-139">[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]不支援具有相同名稱的資料行中的結果集，並擲回例外狀況。</span><span class="sxs-lookup"><span data-stu-id="43a89-139">The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] does not support columns with same names in the result sets, and throws an exception.</span></span> <span data-ttu-id="43a89-140">**重要事項：**您必須確定結果集中的資料行名稱有唯一的名稱。</span><span class="sxs-lookup"><span data-stu-id="43a89-140">**Important:**  You must ensure that the column names in a result set have unique names.</span></span>|  
+|<span data-ttu-id="43a89-136">**具有相同名稱的資料行**</span><span class="sxs-lookup"><span data-stu-id="43a89-136">**Columns with same names**</span></span>|<span data-ttu-id="43a89-137">第一個以外的資料行名稱會附加"_"（底線） 後面跟著隨機 GUID 不含"-"（連字號）。</span><span class="sxs-lookup"><span data-stu-id="43a89-137">The names of the columns other than the first one are appended with “_” (underscore) followed by a random GUID without "-" (hyphen).</span></span> <span data-ttu-id="43a89-138">例如:"\_[GUID]"。</span><span class="sxs-lookup"><span data-stu-id="43a89-138">For example: “\_[GUID]”.</span></span>|<span data-ttu-id="43a89-139">[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]不支援具有相同名稱的資料行中的結果集，並擲回例外狀況。</span><span class="sxs-lookup"><span data-stu-id="43a89-139">The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] does not support columns with same names in the result sets, and throws an exception.</span></span> <span data-ttu-id="43a89-140">**重要事項：** 您必須確定結果集中的資料行名稱有唯一的名稱。</span><span class="sxs-lookup"><span data-stu-id="43a89-140">**Important:**  You must ensure that the column names in a result set have unique names.</span></span>|  
   
 > [!NOTE]
 >  <span data-ttu-id="43a89-141">一般情況下，建議在結果中的所有資料行設定預存程序和強型別的預存程序必須命名，並具有唯一的名稱。</span><span class="sxs-lookup"><span data-stu-id="43a89-141">In general, it is recommended that all the columns in a result set for stored procedures and strongly-typed stored procedures must be named, and have unique names.</span></span>  

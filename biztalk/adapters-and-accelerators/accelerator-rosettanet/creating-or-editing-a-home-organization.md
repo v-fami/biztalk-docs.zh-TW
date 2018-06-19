@@ -1,11 +1,11 @@
 ---
-title: "建立或編輯主要組織 |Microsoft 文件"
-ms.custom: 
+title: 建立或編輯主要組織 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - home organizations, about home organizations
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - home organizations
 - home organizations, creating
 ms.assetid: b54afb84-2f16-4516-8701-b03301476362
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964956"
 ---
 # <a name="creating-or-editing-a-home-organization"></a><span data-ttu-id="6ef04-102">建立或編輯主要組織</span><span class="sxs-lookup"><span data-stu-id="6ef04-102">Creating or Editing a Home Organization</span></span>
 <span data-ttu-id="6ef04-103">本主題描述如何建立或編輯主要組織。</span><span class="sxs-lookup"><span data-stu-id="6ef04-103">This topic describes how to create or edit a home organization.</span></span> <span data-ttu-id="6ef04-104">主要組織組態描述與分類主要組織、設定來源不可否認性的時段，以及提供連絡人資訊。</span><span class="sxs-lookup"><span data-stu-id="6ef04-104">The home organization configuration describes and classifies the organization, sets the non-repudiation of origin period, and provides contact information.</span></span>  
@@ -68,7 +69,7 @@ ms.lasthandoff: 11/28/2017
   
 4.  <span data-ttu-id="6ef04-166">以滑鼠右鍵按一下您想要編輯，然後按一下 主要組織**屬性**。</span><span class="sxs-lookup"><span data-stu-id="6ef04-166">Right-click the home organization you want to edit, and then click **Properties**.</span></span>  
   
-5.  <span data-ttu-id="6ef04-167">在 *\<home 組織\>*屬性對話方塊中，於**一般**和**連絡人屬性**索引標籤上，視需要變更設定。</span><span class="sxs-lookup"><span data-stu-id="6ef04-167">In the *\<home organization\>* Properties dialog box, on the **General** and **Contact Properties** tabs, change the settings as needed.</span></span> <span data-ttu-id="6ef04-168">如需有關這些設定的詳細資訊，請參閱上表。</span><span class="sxs-lookup"><span data-stu-id="6ef04-168">For information about these settings, see the preceding table.</span></span>  
+5.  <span data-ttu-id="6ef04-167">在 *\<home 組織\>* 屬性對話方塊中，於**一般**和**連絡人屬性**索引標籤上，視需要變更設定。</span><span class="sxs-lookup"><span data-stu-id="6ef04-167">In the *\<home organization\>* Properties dialog box, on the **General** and **Contact Properties** tabs, change the settings as needed.</span></span> <span data-ttu-id="6ef04-168">如需有關這些設定的詳細資訊，請參閱上表。</span><span class="sxs-lookup"><span data-stu-id="6ef04-168">For information about these settings, see the preceding table.</span></span>  
   
 6.  <span data-ttu-id="6ef04-169">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="6ef04-169">Click **OK**.</span></span>  
   

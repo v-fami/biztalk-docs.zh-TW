@@ -1,14 +1,14 @@
 ---
-title: "使用 SELECT 陳述式搭配 WCF 通道模型輪詢 Oracle E-business Suite |Microsoft 文件"
-ms.custom: 
+title: 使用 SELECT 陳述式搭配 WCF 通道模型輪詢 Oracle E-business Suite |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 495b9010-856f-4782-bd19-1522bc3eb950
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965740"
 ---
 # <a name="poll-oracle-e-business-suite-using-select-statement-with-the-wcf-channel-model"></a><span data-ttu-id="9580b-102">輪詢 Oracle E-business Suite 搭配 WCF 通道模型中使用 SELECT 陳述式</span><span class="sxs-lookup"><span data-stu-id="9580b-102">Poll Oracle E-Business Suite using SELECT statement with the WCF channel model</span></span>
 <span data-ttu-id="9580b-103">您可以設定[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]接收定期的資料變更訊息，若要連續輪詢介面資料表使用 SELECT 陳述式，介面檢視、 資料表以及 Oracle E-business Suite 中的檢視。</span><span class="sxs-lookup"><span data-stu-id="9580b-103">You can configure the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] to receive periodic data-change messages by using a SELECT statement to continuously poll the interface tables, interface views, tables and views in Oracle E-Business Suite.</span></span> <span data-ttu-id="9580b-104">您可以指定 SELECT 陳述式為輪詢 Oracle E-business Suite 會定期執行配接器的輪詢陳述式。</span><span class="sxs-lookup"><span data-stu-id="9580b-104">You can specify a SELECT statement as a polling statement that the adapter executes periodically to poll Oracle E-Business Suite.</span></span> <span data-ttu-id="9580b-105">您也可以指定後續輪詢 PL/SQL 程式碼區塊後輪詢陳述式執行配接器。</span><span class="sxs-lookup"><span data-stu-id="9580b-105">You can also specify a post-poll PL/SQL code block that the adapter executes after the polling statement is executed.</span></span>  

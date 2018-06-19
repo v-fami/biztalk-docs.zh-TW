@@ -1,15 +1,15 @@
 ---
-title: "HTTP 接收位置設定 IIS |Microsoft 文件"
-description: "在 IIS 中，建立 BTS HTTP 接收應用程式和 BizTalk Server 中的測試應用程式集區設定"
-ms.custom: 
+title: HTTP 接收位置設定 IIS |Microsoft 文件
+description: 在 IIS 中，建立 BTS HTTP 接收應用程式和 BizTalk Server 中的測試應用程式集區設定
+ms.custom: ''
 ms.date: 10/10/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1c420f46-01f1-4c9c-9144-d8d2acc8b0c4
-caps.latest.revision: "26"
+caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 75d35f6f230f0846c29a4b146c6d5b074e60b13c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 10/11/2017
+ms.locfileid: "22645170"
 ---
 # <a name="configure-iis-for-an-http-receive-location"></a><span data-ttu-id="5c543-103">HTTP 接收位置設定 IIS</span><span class="sxs-lookup"><span data-stu-id="5c543-103">Configure IIS for an HTTP Receive Location</span></span>
 <span data-ttu-id="5c543-104">HTTP 接收位置所使用的網際網路資訊服務 (IIS) 中的應用程式。</span><span class="sxs-lookup"><span data-stu-id="5c543-104">The HTTP receive location uses an application within Internet Information Services (IIS).</span></span> <span data-ttu-id="5c543-105">本主題列出的步驟來啟用 HTTP 接收位置在 IIS 中。</span><span class="sxs-lookup"><span data-stu-id="5c543-105">This topic lists the steps to enable the HTTP receive location within IIS.</span></span> 

@@ -1,14 +1,14 @@
 ---
-title: "處理通知訊息，以便完成特定工作在 Oracle E-business Suite |Microsoft 文件"
-ms.custom: 
+title: 處理通知訊息，以便完成特定工作在 Oracle E-business Suite |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4bddeb5a-3819-40cc-aae0-c49963f0beb1
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968084"
 ---
 # <a name="process-notification-messages-to-complete-specific-tasks-in-oracle-e-business-suite"></a><span data-ttu-id="a8f92-102">處理程序來完成 Oracle E-business Suite 中的特定工作的通知訊息</span><span class="sxs-lookup"><span data-stu-id="a8f92-102">Process notification messages to complete specific tasks in Oracle E-Business Suite</span></span>
 <span data-ttu-id="a8f92-103">您可以使用[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]接收通知的 Oracle 資料庫資料表的變更。</span><span class="sxs-lookup"><span data-stu-id="a8f92-103">You can use the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] to receive notifications for changes to the Oracle database tables.</span></span> <span data-ttu-id="a8f92-104">不過，配接器只會傳送一些記錄已插入、 更新或刪除特定資料庫資料表中的通知。</span><span class="sxs-lookup"><span data-stu-id="a8f92-104">However, the adapter only sends you a notification that some records were inserted, updated, or deleted in a certain database table.</span></span> <span data-ttu-id="a8f92-105">用戶端應用程式本身必須處理這些記錄的任何後續處理。</span><span class="sxs-lookup"><span data-stu-id="a8f92-105">Any post-processing on those records must be handled by the client applications themselves.</span></span> <span data-ttu-id="a8f92-106">本主題顯示如何處理從 Oracle 資料庫接收通知的種類為基礎的資料表中的記錄以案例為基礎的描述。</span><span class="sxs-lookup"><span data-stu-id="a8f92-106">This topic presents a scenario-based description on how to process the records in the table based on the kind of notification received from the Oracle database.</span></span>  
@@ -150,7 +151,7 @@ ms.lasthandoff: 11/28/2017
   
 |<span data-ttu-id="a8f92-226">形狀圖</span><span class="sxs-lookup"><span data-stu-id="a8f92-226">Shape</span></span>|<span data-ttu-id="a8f92-227">圖形類型</span><span class="sxs-lookup"><span data-stu-id="a8f92-227">Shape Type</span></span>|<span data-ttu-id="a8f92-228">屬性</span><span class="sxs-lookup"><span data-stu-id="a8f92-228">Properties</span></span>|  
 |-----------|----------------|----------------|  
-|<span data-ttu-id="a8f92-229">ReceiveNotification</span><span class="sxs-lookup"><span data-stu-id="a8f92-229">ReceiveNotification</span></span>|<span data-ttu-id="a8f92-230">Receive</span><span class="sxs-lookup"><span data-stu-id="a8f92-230">Receive</span></span>|<span data-ttu-id="a8f92-231">-設定**名稱**至*ReceiveNotification*</span><span class="sxs-lookup"><span data-stu-id="a8f92-231">- Set **Name** to *ReceiveNotification*</span></span><br /><br /> <span data-ttu-id="a8f92-232">-設定**啟動**至*，則為 True*</span><span class="sxs-lookup"><span data-stu-id="a8f92-232">- Set **Activate** to *True*</span></span>|  
+|<span data-ttu-id="a8f92-229">ReceiveNotification</span><span class="sxs-lookup"><span data-stu-id="a8f92-229">ReceiveNotification</span></span>|<span data-ttu-id="a8f92-230">Receive</span><span class="sxs-lookup"><span data-stu-id="a8f92-230">Receive</span></span>|<span data-ttu-id="a8f92-231">-設定**名稱**至*ReceiveNotification*</span><span class="sxs-lookup"><span data-stu-id="a8f92-231">- Set **Name** to *ReceiveNotification*</span></span><br /><br /> <span data-ttu-id="a8f92-232">-設定**啟動**至 *，則為 True*</span><span class="sxs-lookup"><span data-stu-id="a8f92-232">- Set **Activate** to *True*</span></span>|  
   
 ### <a name="adding-an-expression-shape"></a><span data-ttu-id="a8f92-233">新增 「 運算式 」 圖形</span><span class="sxs-lookup"><span data-stu-id="a8f92-233">Adding an Expression Shape</span></span>  
  <span data-ttu-id="a8f92-234">協調流程中包括 「 運算式 」 圖形的用途是將 xpath 查詢來擷取收到的通知訊息的類型。</span><span class="sxs-lookup"><span data-stu-id="a8f92-234">The purpose of including an Expression shape in the orchestration is to have an xpath query to extract the kind of notification message received.</span></span> <span data-ttu-id="a8f92-235">在之前建立 xpath 查詢，讓我們看看通知訊息的格式。</span><span class="sxs-lookup"><span data-stu-id="a8f92-235">Before creating an xpath query, let us look at the format of a notification message.</span></span> <span data-ttu-id="a8f92-236">典型的通知訊息如下所示：</span><span class="sxs-lookup"><span data-stu-id="a8f92-236">A typical notification message resembles the following:</span></span>  

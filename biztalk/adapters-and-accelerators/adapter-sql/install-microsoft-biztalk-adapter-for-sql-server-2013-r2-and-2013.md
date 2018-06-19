@@ -1,14 +1,14 @@
 ---
-title: "安裝 Microsoft BizTalk Adapter for SQL Server-2013 R2 和 2013年 |Microsoft 文件"
-ms.custom: 
+title: 安裝 Microsoft BizTalk Adapter for SQL Server-2013 R2 和 2013年 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 56c31d0d-783b-41ee-8265-56c9547e9dca
-caps.latest.revision: "31"
+caps.latest.revision: 31
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967860"
 ---
 # <a name="install-microsoft-biztalk-adapter-for-sql-server---2013-r2-and-2013"></a><span data-ttu-id="f76bf-102">安裝 Microsoft BizTalk Adapter for SQL Server-2013 R2 和 2013</span><span class="sxs-lookup"><span data-stu-id="f76bf-102">Install Microsoft BizTalk Adapter for SQL Server - 2013 R2 and 2013</span></span>
 <span data-ttu-id="f76bf-103">安裝[!INCLUDE[adaptersql_md](../../includes/adaptersql-md.md)]隨附[!INCLUDE[bts2013r2_md](../../includes/bts2013r2-md.md)]，或隨附[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]2013年。</span><span class="sxs-lookup"><span data-stu-id="f76bf-103">Install the [!INCLUDE[adaptersql_md](../../includes/adaptersql-md.md)] included with [!INCLUDE[bts2013r2_md](../../includes/bts2013r2-md.md)], or included with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] 2013.</span></span>

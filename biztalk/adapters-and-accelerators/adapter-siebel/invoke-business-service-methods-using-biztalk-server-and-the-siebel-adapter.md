@@ -1,17 +1,17 @@
 ---
-title: "叫用商務服務方法使用 BizTalk Server 和 Siebel 配接器 |Microsoft 文件"
-ms.custom: 
+title: 叫用商務服務方法使用 BizTalk Server 和 Siebel 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - how to, invoke business service methods
 - business service methods, invoking
 ms.assetid: cf437c4f-fa65-4f89-a197-c83869930b2c
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966156"
 ---
 # <a name="invoke-business-service-methods-using-biztalk-server-and-the-siebel-adapter"></a><span data-ttu-id="2b74b-102">叫用商務服務方法使用 BizTalk Server 和 Siebel 配接器</span><span class="sxs-lookup"><span data-stu-id="2b74b-102">Invoke Business Service Methods Using BizTalk Server and the Siebel adapter</span></span>
 <span data-ttu-id="2b74b-103">Siebel 商務服務是可以在 Siebel 中直接叫用的商務方法的集合。</span><span class="sxs-lookup"><span data-stu-id="2b74b-103">A Siebel business service is a collection of business methods that can be directly invoked in Siebel.</span></span> <span data-ttu-id="2b74b-104">如需有關如何[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]支援叫用商務服務在 Siebel 系統中，請參閱[在 Siebel 商務服務的相關作業](../../adapters-and-accelerators/adapter-siebel/operations-on-business-services-in-siebel.md)。</span><span class="sxs-lookup"><span data-stu-id="2b74b-104">For more information about how the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] supports invoking business services in a Siebel system, see [Operations on Business Services in Siebel](../../adapters-and-accelerators/adapter-siebel/operations-on-business-services-in-siebel.md).</span></span> <span data-ttu-id="2b74b-105">執行商務服務作業，訊息的 SOAP 結構的詳細資訊，請參閱[商務服務作業的訊息結構描述](../../adapters-and-accelerators/adapter-siebel/message-schemas-for-business-service-operations.md)。</span><span class="sxs-lookup"><span data-stu-id="2b74b-105">For more information about the structure of SOAP messages for performing business service operations, see [Message Schemas for Business Service Operations](../../adapters-and-accelerators/adapter-siebel/message-schemas-for-business-service-operations.md).</span></span>  
@@ -96,7 +97,7 @@ ms.lasthandoff: 11/28/2017
   
 |<span data-ttu-id="2b74b-164">形狀圖</span><span class="sxs-lookup"><span data-stu-id="2b74b-164">Shape</span></span>|<span data-ttu-id="2b74b-165">圖形類型</span><span class="sxs-lookup"><span data-stu-id="2b74b-165">Shape Type</span></span>|<span data-ttu-id="2b74b-166">屬性</span><span class="sxs-lookup"><span data-stu-id="2b74b-166">Properties</span></span>|  
 |-----------|----------------|----------------|  
-|<span data-ttu-id="2b74b-167">ReceiveXML</span><span class="sxs-lookup"><span data-stu-id="2b74b-167">ReceiveXML</span></span>|<span data-ttu-id="2b74b-168">Receive</span><span class="sxs-lookup"><span data-stu-id="2b74b-168">Receive</span></span>|<span data-ttu-id="2b74b-169">-設定**名稱**至*ReceiveXML*</span><span class="sxs-lookup"><span data-stu-id="2b74b-169">-   Set **Name** to *ReceiveXML*</span></span><br /><span data-ttu-id="2b74b-170">-設定**啟動**至*，則為 True*</span><span class="sxs-lookup"><span data-stu-id="2b74b-170">-   Set **Activate** to *True*</span></span>|  
+|<span data-ttu-id="2b74b-167">ReceiveXML</span><span class="sxs-lookup"><span data-stu-id="2b74b-167">ReceiveXML</span></span>|<span data-ttu-id="2b74b-168">Receive</span><span class="sxs-lookup"><span data-stu-id="2b74b-168">Receive</span></span>|<span data-ttu-id="2b74b-169">-設定**名稱**至*ReceiveXML*</span><span class="sxs-lookup"><span data-stu-id="2b74b-169">-   Set **Name** to *ReceiveXML*</span></span><br /><span data-ttu-id="2b74b-170">-設定**啟動**至 *，則為 True*</span><span class="sxs-lookup"><span data-stu-id="2b74b-170">-   Set **Activate** to *True*</span></span>|  
 |<span data-ttu-id="2b74b-171">SendToLOB</span><span class="sxs-lookup"><span data-stu-id="2b74b-171">SendToLOB</span></span>|<span data-ttu-id="2b74b-172">Send</span><span class="sxs-lookup"><span data-stu-id="2b74b-172">Send</span></span>|<span data-ttu-id="2b74b-173">-設定**名稱**至*SendToLOB*</span><span class="sxs-lookup"><span data-stu-id="2b74b-173">-   Set **Name** to *SendToLOB*</span></span>|  
 |<span data-ttu-id="2b74b-174">ReceiveResponse</span><span class="sxs-lookup"><span data-stu-id="2b74b-174">ReceiveResponse</span></span>|<span data-ttu-id="2b74b-175">Receive</span><span class="sxs-lookup"><span data-stu-id="2b74b-175">Receive</span></span>|<span data-ttu-id="2b74b-176">-設定**名稱**至*ReceiveResponse*</span><span class="sxs-lookup"><span data-stu-id="2b74b-176">-   Set **Name** to *ReceiveResponse*</span></span><br /><span data-ttu-id="2b74b-177">-設定**啟動**至*False*</span><span class="sxs-lookup"><span data-stu-id="2b74b-177">-   Set **Activate** to *False*</span></span>|  
 |<span data-ttu-id="2b74b-178">SendResponse</span><span class="sxs-lookup"><span data-stu-id="2b74b-178">SendResponse</span></span>|<span data-ttu-id="2b74b-179">Send</span><span class="sxs-lookup"><span data-stu-id="2b74b-179">Send</span></span>|<span data-ttu-id="2b74b-180">-設定**名稱**至*SendResponse*</span><span class="sxs-lookup"><span data-stu-id="2b74b-180">-   Set **Name** to *SendResponse*</span></span>|  
