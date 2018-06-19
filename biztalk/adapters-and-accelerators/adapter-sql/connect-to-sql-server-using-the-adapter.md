@@ -1,14 +1,14 @@
 ---
-title: "連接到 SQL Server 使用配接器 |Microsoft 文件"
-ms.custom: 
+title: 連接到 SQL Server 使用配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 727d73e6-fb84-48ce-ae72-5de70dcae8b8
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222134"
 ---
 # <a name="connect-to-sql-server-using-the-adapter"></a>連接到 SQL Server 使用配接器
 [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]需要配接器用戶端提供的連接字串，呼叫統一資源識別元 (URI)，連接到 SQL Server 資料庫的連接。 就內部而言，[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]對應連接到 SQL Server 資料庫的資料庫連接字串的 URI。 使用 連線 URI，配接器用戶端可以指定連線參數，以連接到外部系統。 如需連線 URI 的詳細資訊，請參閱[建立 SQL Server 連接 URI](../../adapters-and-accelerators/adapter-sql/create-the-sql-server-connection-uri.md)。  

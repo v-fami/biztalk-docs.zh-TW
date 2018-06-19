@@ -1,15 +1,15 @@
 ---
-title: "設定 「 備份 BizTalk Server 」 工作 |Microsoft 文件"
-description: 
-ms.custom: 
+title: 設定 「 備份 BizTalk Server 」 工作 |Microsoft 文件
+description: ''
+ms.custom: ''
 ms.date: 11/22/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 026622c9-fcb4-4db0-af48-1379feb30372
-caps.latest.revision: "42"
+caps.latest.revision: 42
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972844"
 ---
 # <a name="configure-the-backup-biztalk-server-job"></a>設定 「 備份 BizTalk Server 」 工作
 安裝和設定 BizTalk Server 之後，設定備份[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]作業來備份您的資料。 
@@ -26,7 +27,7 @@ ms.lasthandoff: 11/28/2017
 
 
 ## <a name="overview"></a>概觀
-**備份 BizTalk Server (BizTalkMgmtDb)**工作包含下列步驟：
+**備份 BizTalk Server (BizTalkMgmtDb)** 工作包含下列步驟：
 
 -   步驟 1 –**集壓縮選項**： 啟用或停用備份期間的壓縮
 
@@ -95,7 +96,7 @@ ms.lasthandoff: 11/28/2017
         > [!IMPORTANT]
         > - 如果您輸入的本機路徑，則您必須手動將所有檔案都複製到目的系統上相同的資料夾時備份[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]作業建立新檔案。  
         >   
-        >      若要使用遠端路徑，請輸入 UNC 共用例如\\ \\  *\<ServerName\>*\\*\<機\>* \\，其中 *\<ServerName\>* 是您要檔案伺服器的名稱和*\<機\>*是共用磁碟機或資料夾的名稱。  
+        >      若要使用遠端路徑，請輸入 UNC 共用例如\\ \\  *\<ServerName\>*\\*\<機\>* \\，其中 *\<ServerName\>* 是您要檔案伺服器的名稱和*\<機\>* 是共用磁碟機或資料夾的名稱。  
         >   
         >      透過網路備份資料可能會因為網路問題而受限。 當使用遠端位置，驗證備份成功時備份[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]作業結束。  
         > - 若要避免資料遺失，請將備份磁碟設定為資料庫資料與記錄磁碟以外的其他磁碟。 此做法可確保您在資料或記錄磁碟故障時存取備份。  
@@ -134,12 +135,12 @@ ms.lasthandoff: 11/28/2017
   
     1.  **@MarkName**： 這是備份檔案的命名慣例：\<伺服器名稱\>\_\<資料庫名稱\>**\_記錄\_** \<記錄標示名稱\> \_\<時間戳記\>  
     
-    2.  **@BackupPath**： 完整目的地路徑 （包含單引號） 之電腦和資料夾來儲存[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]資料庫記錄檔，或 Azure blob 儲存體帳戶和容器。 *\<目的地路徑\>*也可以是本機或另一部伺服器的 UNC 路徑。  
+    2.  **@BackupPath**： 完整目的地路徑 （包含單引號） 之電腦和資料夾來儲存[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]資料庫記錄檔，或 Azure blob 儲存體帳戶和容器。 *\<目的地路徑\>* 也可以是本機或另一部伺服器的 UNC 路徑。  
   
      MarkAndBackupLog 步驟會標記要備份的記錄檔，然後加以備份。  
   
     > [!IMPORTANT]
-    >  若要避免**潛在資料遺失**和**效能改進**、 *\<目的地路徑\>*應該設定為在不同的電腦或硬碟機，不同於並用來儲存原始的資料庫記錄檔。  
+    >  若要避免**潛在資料遺失**和**效能改進**、 *\<目的地路徑\>* 應該設定為在不同的電腦或硬碟機，不同於並用來儲存原始的資料庫記錄檔。  
   
      選取 [確定]。  
   
@@ -167,7 +168,7 @@ ms.lasthandoff: 11/28/2017
 
 ## <a name="execute-backupsetupallprocssql-and-logshippingdestinationlogicsql"></a>執行 Backup_Setup_All_Procs.sql 和 LogShipping_Destination_Logic.sql
 
-**[!INCLUDE[bts2016_md](../includes/bts2016-md.md)]功能 Pack 2 (FP2)**使用中的 Backup_Setup_All_Procs.sql 和 LogShipping_Destination_Logic.sql 指令碼`\Program Files (x86)\Microsoft BizTalk Server *your version*\Schema`。 
+**[!INCLUDE[bts2016_md](../includes/bts2016-md.md)]功能 Pack 2 (FP2)** 使用中的 Backup_Setup_All_Procs.sql 和 LogShipping_Destination_Logic.sql 指令碼`\Program Files (x86)\Microsoft BizTalk Server *your version*\Schema`。 
 
 如果已設定備份 BizTalk Server 作業，而且您想要切換使用 Azure blob （而不是磁碟），則也請執行下列： 
 

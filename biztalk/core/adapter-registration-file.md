@@ -1,14 +1,14 @@
 ---
-title: "配接器登錄檔案 |Microsoft 文件"
-ms.custom: 
+title: 配接器登錄檔案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6750f0ed-4411-4a63-a7fe-f66132cd1e22
-caps.latest.revision: "35"
+caps.latest.revision: 35
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "26009103"
 ---
 # <a name="adapter-registration-file"></a>配接器登錄檔案
 順利建立自訂配接器程式碼之後，必須向 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 註冊。 若要執行此作業，可將登錄更新為適當配接器設定。 您可以手動寫入登錄檔案，但由於輸入精確和複雜資訊容易發生錯誤， 更好的選擇是要執行配接器登錄精靈。 配接器登錄精靈 」 可讓您所有相同選項與從頭建立登錄檔，並降低檔案發生錯誤的可能性。 如需配接器登錄精靈 」 的詳細資訊，請參閱[配接器登錄精靈](../core/adapter-registry-wizard.md)。  

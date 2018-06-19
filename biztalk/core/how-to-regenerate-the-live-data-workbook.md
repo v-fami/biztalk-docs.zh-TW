@@ -1,14 +1,14 @@
 ---
-title: "重新產生即時資料活頁簿 |Microsoft 文件"
-ms.custom: 
+title: 重新產生即時資料活頁簿 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4bd3a3fa-a550-4363-bbc0-2153226509ad
-caps.latest.revision: 
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710581"
 ---
 # <a name="regenerate-the-live-data-workbook"></a>重新產生即時資料活頁簿
 在 BAM 即時資料活頁簿所在遺失或損毀的情況下，您可以重新產生活頁簿使用 BAM 管理 utiprolity。 從升級從舊版 BizTalk Server 時，此程序也很有用。

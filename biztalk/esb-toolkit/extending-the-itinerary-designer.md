@@ -1,14 +1,14 @@
 ---
-title: "擴充路線設計工具 |Microsoft 文件"
-ms.custom: 
+title: 擴充路線設計工具 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f26b825b-ebab-4dac-b7ed-0608c79e146a
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974476"
 ---
 # <a name="extending-the-itinerary-designer"></a>擴充路線設計工具
 路線設計工具是 visual 的特定領域語言 (DSL) for Microsoft Visual Studio 可讓旅搭配使用圖形化模型[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]。 在設計工具會公開各種擴充點，開發人員可以撰寫自訂延伸模組，以啟用新功能及/或新的組態選項。  

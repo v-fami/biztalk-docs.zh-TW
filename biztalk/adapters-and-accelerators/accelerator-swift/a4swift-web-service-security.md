@@ -1,11 +1,11 @@
 ---
-title: "A4SWIFT Web 服務安全性 |Microsoft 文件"
-ms.custom: 
+title: A4SWIFT Web 服務安全性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - IIS security
@@ -20,7 +20,7 @@ helpviewer_keywords:
 - security, Web service
 - messages, security
 ms.assetid: e6c7d275-569f-47f6-81fb-10bcd86ff417
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -29,6 +29,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006471"
 ---
 # <a name="a4swift-web-service-security"></a>A4SWIFT Web 服務安全性
 [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)]Web 服務，依預設會安裝在高度安全的混合式安全性模型。 在 ASP.NET 模型中有 Web 服務之間的信任界限[!INCLUDE[btsWinSharePointSvcsNoVersion](../../includes/btswinsharepointsvcsnoversion-md.md)]站台，而[!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)]資料庫。  

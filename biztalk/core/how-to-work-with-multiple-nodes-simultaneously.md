@@ -1,14 +1,14 @@
 ---
-title: "如何同時使用多個節點 |Microsoft 文件"
-ms.custom: 
+title: 如何同時使用多個節點 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0a44d11c-c6f9-4825-b89d-d1b3c3357931
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256398"
 ---
 # <a name="how-to-work-with-multiple-nodes-simultaneously"></a>如何同時使用多個節點
 有些作業可以同時在多個節點上執行，但是必須選取所有相關的節點。 本主題提供如何同時使用多個節點的指示。  

@@ -1,14 +1,14 @@
 ---
-title: "處理組態架構 |Microsoft 文件"
-ms.custom: 
+title: 處理組態架構 |Microsoft 文件
+ms.custom: ''
 ms.date: 2015-10-28
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 18ec869d-6e81-42f5-9961-29b06e03fa54
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976620"
 ---
 # <a name="working-with-the-configuration-framework"></a>處理組態架構
 「組態架構」可以讓您在安裝過程中快速輕鬆地變更 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 組態。 若搭配使用 Microsoft Windows Installer (MSI)，「組態架構」還可讀取及報告電腦的狀態以及需要採取行動的組態工作。  
@@ -31,7 +32,7 @@ ms.lasthandoff: 11/28/2017
   
 |命令列參數|描述|  
 |----------------------------|-----------------|  
-|**/U**|取消設定所有功能。 **注意：**取消設定 BizTalk Server 功能之後，才能刪除 BizTalk Server 資料庫。 執行此命令之前，請勿刪除 BizTalk Server 資料庫。 **注意：**如果您想要在取消設定 BizTalk Server 功能之後刪除 BizTalk Server 資料庫，建議您使用 **net stop winmgmt** 命令，停止可能仍在執行的 Windows Management Instrumentation (WMI) 服務。|  
+|**/U**|取消設定所有功能。 **注意：** 取消設定 BizTalk Server 功能之後，才能刪除 BizTalk Server 資料庫。 執行此命令之前，請勿刪除 BizTalk Server 資料庫。 **注意：** 如果您想要在取消設定 BizTalk Server 功能之後刪除 BizTalk Server 資料庫，建議您使用 **net stop winmgmt** 命令，停止可能仍在執行的 Windows Management Instrumentation (WMI) 服務。|  
 |**/S**|無訊息組態。<br /><br /> 您也必須將包含要安裝和設定之功能的完整路徑傳送至組態 XML。 若未傳遞 **/s**，則會在「使用者介面」(UI) 模式下執行工具。|  
 |**/L**|-   設定記錄檔的完整路徑 (選擇性)。|  
 |**/H**|-   顯示有效的命令列參數。|  

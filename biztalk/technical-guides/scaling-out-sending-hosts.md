@@ -1,14 +1,14 @@
 ---
-title: "向外延展傳送主控件 |Microsoft 文件"
-ms.custom: 
+title: 向外延展傳送主控件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d89a843d-c14f-43fa-94ab-5bb3e82578dc
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302958"
 ---
 # <a name="scaling-out-sending-hosts"></a>向外延展傳送主控件
 如需有關向外延展傳送主控件的詳細資訊，請參閱[Scaled-Out 傳送主機](http://go.microsoft.com/fwlink/?LinkId=151286)(http://go.microsoft.com/fwlink/?LinkId=151286)。  

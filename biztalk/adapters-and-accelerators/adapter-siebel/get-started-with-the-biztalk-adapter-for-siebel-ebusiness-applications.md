@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222054"
 ---
 # <a name="get-started-with-the-biztalk-adapter-for-siebel-ebusiness-applications"></a>開始使用 BizTalk Adapter for Siebel eBusiness 應用程式
 本節提供使用者熟悉的 Microsoft 配接器、 必要條件和主題的總覽[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]。 其中也會討論的功能[!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)]以及可對使用配接器的 Siebel 系統的不同作業。  

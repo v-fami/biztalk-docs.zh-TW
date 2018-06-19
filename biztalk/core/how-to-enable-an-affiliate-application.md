@@ -12,7 +12,7 @@ helpviewer_keywords:
 - managing [SSO applications], enabling
 - enabling, applications [SSO]
 ms.assetid: 81c94e1b-cd3d-482e-9a78-9b1476af9e5f
-caps.latest.revision: ''
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,13 +21,14 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25971196"
 ---
 # <a name="how-to-enable-an-affiliate-application"></a>如何啟用分支機構應用程式
 您可以使用 MMC 嵌入式管理單元或命令列，啟用指定的分支機構應用程式。  
   
 ### <a name="to-enable-an-affiliate-application-using-the-mmc-snap-in"></a>若要使用 MMC 嵌入式管理單元啟用分支機構應用程式  
   
-1.  在 **[開始]** 功能表上，依序按一下 **[所有程式]**及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。  
+1.  在 **[開始]** 功能表上，依序按一下 **[所有程式]** 及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。  
   
 2.  在 ENTSSO MMC 嵌入式管理單元的範圍窗格中，展開 **[企業單一登入]** 節點。  
   
@@ -39,7 +40,7 @@ ms.lasthandoff: 03/28/2018
   
 2.  在命令列，移至「企業單一登入」安裝目錄。 預設安裝目錄是\<*磁碟機*\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-3.  型別 **ssomanage-enableapp *\<應用程式名稱\>* * *，其中\<*應用程式名稱*\>是您想要的分支機構應用程式的名稱若要啟用。  
+3.  型別 **ssomanage-enableapp *\<應用程式名稱\>* * *，其中\<* 應用程式名稱*\>是您想要的分支機構應用程式的名稱若要啟用。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  

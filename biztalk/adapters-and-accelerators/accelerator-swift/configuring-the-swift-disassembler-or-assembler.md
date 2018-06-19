@@ -1,11 +1,11 @@
 ---
-title: "設定 SWIFT 解譯器和組合器 |Microsoft 文件"
-ms.custom: 
+title: 設定 SWIFT 解譯器和組合器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - assembler, configuring
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - disassembler, configuring
 - configuring, assembler
 ms.assetid: 56e421f2-0292-40af-b878-0cba1b034e19
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005063"
 ---
 # <a name="configuring-the-swift-disassembler-or-assembler"></a>設定 SWIFT 解譯器或組譯工具
 SWIFT 解譯器或 SWIFT 組譯工具加入自訂管線後，您必須將它提供您想要用於特定案例 （例如啟用/停用動態訊息類型探索、 輸入解除批次處理即將、 XML 驗證的功能設定商務規則引擎 (BRE) 驗證，等等）。 您必須設定 SWIFT 解譯器和組合器開發期間才能編譯和部署叫用的自訂管線。 若要設定 SWIFT 的解譯器/組合器，在管線設計師中選取的元件，並編輯 [屬性] 視窗中的組態屬性。  

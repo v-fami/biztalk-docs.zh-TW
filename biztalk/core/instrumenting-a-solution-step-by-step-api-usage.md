@@ -1,14 +1,14 @@
 ---
-title: "檢測解決方案： 逐步 API 用量 |Microsoft 文件"
-ms.custom: 
+title: 檢測解決方案： 逐步 API 用量 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e9e027ab-1927-4905-8970-8061ac55d591
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22258230"
 ---
 # <a name="instrumenting-a-solution-step-by-step-api-usage"></a>檢測解決方案： 逐步 API 使用方式
 這個主題會說明如何使用重要的 BAM API 類別來檢測應用程式。 在下列的程式碼片段中，我們藉由使用常數以及檢測應用程式所需的最少程式碼，將範例程式碼簡化。  

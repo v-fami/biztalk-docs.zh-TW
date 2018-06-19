@@ -1,11 +1,11 @@
 ---
-title: "如何更新 BAM 成品 |Microsoft 文件"
-ms.custom: 
+title: 如何更新 BAM 成品 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Update-All command [BAM]
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - updating, artifacts
 - artifacts, updating
 ms.assetid: bc28159e-df51-499b-bd51-7b682b849891
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971044"
 ---
 # <a name="how-to-update-bam-artifacts"></a>如何更新 BAM 成品
 系統管理員使用**更新所有**命令，以更新部署到 BAM 主要匯入資料庫中的成品。 提供的 BAM 定義檔案必須是包含所要更新之成品相關資訊的 XML 檔案或 Excel 活頁簿。  

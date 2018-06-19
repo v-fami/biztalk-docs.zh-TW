@@ -1,14 +1,14 @@
 ---
-title: "如何將本機使用者登入非 Windows 應用程式 |Microsoft 文件"
-ms.custom: 
+title: 如何將本機使用者登入非 Windows 應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b55957f4-22c4-48b5-827a-ab41d8f846ac
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22253870"
 ---
 # <a name="how-to-log-a-local-user-on-to-a-non-windows-application"></a>如何登入非 Windows 應用程式的本機使用者
 當您以分支機構應用程式設定使用者之後，就可以使用「單一登入」(SSO) 存取外部使用者名稱和目前使用者的認證。 然後您可以使用這些認證將使用者登入在主控件伺服器上執行的分支機構應用程式。  

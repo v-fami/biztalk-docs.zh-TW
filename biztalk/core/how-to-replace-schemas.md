@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 104e60d3-1303-4e56-b13a-c10ab14ba383
-caps.latest.revision: ''
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25972628"
 ---
 # <a name="how-to-replace-schemas"></a>如何取代結構描述
 您有時候可能想要取代現有對應中的來源或目的結構描述，例如當您收到來自交易夥伴的已更新結構描述時。  

@@ -1,14 +1,14 @@
 ---
-title: "如何更新管線中使用的並存版本控制 |Microsoft 文件"
-ms.custom: 
+title: 如何更新管線中使用的並存版本控制 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fd884a76-71dd-4c90-b4ba-f1cd7f48eb04
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008375"
 ---
 # <a name="how-to-update-a-pipeline-using-side-by-side-versioning"></a>如何更新管線中使用的並存版本控制
 使用新加入的並存版本控制的管線的簡單方式是選取的新部署的管線版本中的傳送埠或接收位置。 這將會以新的取代舊的管線。 不過，如果您需要則為 true 來並行功能的回溯相容性，然後您必須建立新傳送埠和接收位置和繫結至指定的新管線版本。  

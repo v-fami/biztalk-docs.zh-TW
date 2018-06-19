@@ -1,11 +1,11 @@
 ---
-title: "管理主機和服務帳戶 |Microsoft 文件"
-ms.custom: 
+title: 管理主機和服務帳戶 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, managing
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - Windows groups, managing
 - user accounts, managing
 ms.assetid: 25797571-f1f9-42a4-8fff-5b03076bbe36
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262382"
 ---
 # <a name="managing-hosts-and-service-accounts"></a>管理主控件和服務帳戶
 在設定 BizTalk Server 之後，您必須管理 Windows 群組和使用者帳戶。 本節提供有關管理這些 BizTalk Server 帳戶的資訊。  

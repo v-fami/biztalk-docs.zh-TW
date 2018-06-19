@@ -1,14 +1,14 @@
 ---
-title: "在坡道提升和關閉坡道提升 |Microsoft 文件"
-ms.custom: 
+title: 在坡道提升和關閉坡道提升 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c0cce5d2-f16f-4bda-94ac-20c4f457cfc7
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294558"
 ---
 # <a name="on-ramps-and-off-ramps"></a>在坡道提升和關閉坡道提升
 在環境中其中[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]是部署，BizTalk 接收位置負責接收 ESB 目的地的訊息指 「 上手。 」 若要設定 ESB 上手的標準 BizTalk 接收位置，接收位置關聯其中一個管線工具組的一部分，並正確設定來決定，或讀取的行程該管線元件輸入的訊息，根據您的案例。  

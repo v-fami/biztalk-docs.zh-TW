@@ -1,11 +1,11 @@
 ---
-title: "了解追蹤的資料 |Microsoft 文件"
-ms.custom: 
+title: 了解追蹤的資料 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - instances, viewing
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - suspended instances
 - instances, suspended
 ms.assetid: dcc3fbd5-cd2c-4780-a577-0ccd521cf5eb
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286582"
 ---
 # <a name="understanding-tracked-data"></a>瞭解追蹤資料
 當您執行的追蹤查詢時，追蹤的資訊會出現在 [查詢結果] 視窗底部的 [結果] 清單中。  

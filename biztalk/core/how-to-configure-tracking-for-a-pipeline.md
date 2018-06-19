@@ -1,15 +1,15 @@
 ---
-title: "啟用追蹤的管線 |Microsoft 文件"
-description: "追蹤訊息內文和在管線處理訊息，BizTalk Server 中的事件"
-ms.custom: 
+title: 啟用追蹤的管線 |Microsoft 文件
+description: 追蹤訊息內文和在管線處理訊息，BizTalk Server 中的事件
+ms.custom: ''
 ms.date: 12/13/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4f7f3c4a-4464-4170-a580-b4ce9296a097
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/13/2017
+ms.locfileid: "26686621"
 ---
 # <a name="configure-pipeline-tracking-in-biztalk-server"></a>設定追蹤 BizTalk Server 中的管線
 您可以使用 BizTalk Server 管理來設定管線追蹤。 您可能需要設定追蹤做為疑難排解和稽核之用。 您可以檢視訊息屬性、 連接埠事件和訊息事件。 您也可以追蹤訊息事件和訊息的連接埠事件。  

@@ -1,14 +1,14 @@
 ---
-title: "獨立式 MSBUILD |Microsoft 文件"
-ms.custom: 
+title: 獨立式 MSBUILD |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 21aa3693-3788-4874-b506-6f4584fb4fd5
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007695"
 ---
 # <a name="standalone-msbuild"></a>獨立式 MSBUILD
 **專案建置**元件[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]可讓您建立 BizTalk Server solutions 不含[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]。 若要安裝**專案建置**您在伺服器上，選取元件**專案建置元件**選項**其他軟體類別**在安裝期間。 您應該取消選取**開發者工具與 SDK**安裝[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]沒有的電腦上[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]。  

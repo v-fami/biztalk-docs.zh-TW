@@ -1,14 +1,14 @@
 ---
-title: "處理接收的通知 |Microsoft 文件"
-ms.custom: 
+title: 處理接收的通知 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 67f67a95-7368-40c2-a162-6ffc9de076fc
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,9 +17,10 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971180"
 ---
 # <a name="processing-a-received-acknowledgment"></a>處理接收的通知
-如果協議中指定相關屬性，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會預期技術通知。 對於 X12，這是**預期 TA1**屬性**通知**頁面中，單向協議**協議屬性**對話方塊或從後援協議屬性。 對於 EDIFACT，這是**訊息回條 (CONTRL 必須是)**屬性**通知**頁面中，單向協議**協議屬性**對話方塊方塊或從後援協議屬性。 當接收端協議處理接收的訊息時，它根據訊息中的 ISA14 或 UNB9 值而產生技術通知。  
+如果協議中指定相關屬性，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會預期技術通知。 對於 X12，這是**預期 TA1**屬性**通知**頁面中，單向協議**協議屬性**對話方塊或從後援協議屬性。 對於 EDIFACT，這是**訊息回條 (CONTRL 必須是)** 屬性**通知**頁面中，單向協議**協議屬性**對話方塊方塊或從後援協議屬性。 當接收端協議處理接收的訊息時，它根據訊息中的 ISA14 或 UNB9 值而產生技術通知。  
   
  如果協議中指定相關屬性，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會預期 X12 或 EDIFACT 編碼的功能通知。 對於 X12，這個屬性是**預期 997**中**通知**頁面中，單向協議**協議屬性**對話方塊或從後援協議屬性。 對於 EDIFACT，這個屬性是**通知 (CONTRL) 必須是**屬性**通知**頁面中，單向協議**協議屬性**對話方塊中或從後援協議屬性。 當接收端協議處理接收的訊息時，它根據訊息中的 ISA14 或 UNB9 值而產生技術通知。  
   

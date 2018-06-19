@@ -1,17 +1,17 @@
 ---
-title: "管理彙總 |Microsoft 文件"
-ms.custom: 
+title: 管理彙總 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [BAM], aggregations
 - aggregations [BAM], managing
 ms.assetid: 54b11cec-1bc4-4c40-a8f8-9f3a40f3161f
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262134"
 ---
 # <a name="managing-aggregations"></a>管理彙總
 彙總是資料集衍生一般代表特性或資料集本身描述的累計作業。 本節說明如何管理不同的彙總項目，例如索引、活動與即時彙總 (RTA)。  

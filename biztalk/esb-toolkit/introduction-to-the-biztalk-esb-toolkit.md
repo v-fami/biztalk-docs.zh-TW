@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976204"
 ---
 # <a name="introduction-to-the-biztalk-esb-toolkit"></a>BizTalk ESB 工具組簡介
 說明的架構和 Microsoft 內容[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]。 文件也會示範如何套用開發企業應用程式，請啟用彈性且更安全的企業服務匯流排 (ESB) 架構模式和可重複使用的服務，以及快速組織現有服務的新端對端商務程序。  

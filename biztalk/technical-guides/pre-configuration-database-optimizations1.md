@@ -1,14 +1,14 @@
 ---
-title: "預先設定資料庫 Optimizations1 |Microsoft 文件"
-ms.custom: 
+title: 預先設定資料庫 Optimizations1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ebd0b32a-490d-4db2-a1fc-bf3bef93aeea
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010551"
 ---
 # <a name="pre-configuration-database-optimizations"></a>預先設定資料庫最佳化
 BizTalk Server 是可能需要多達 13 個不同的資料庫，Microsoft SQL Server 中建立的極大量資料庫的應用程式。 SQL Server 在任何 BizTalk Server 環境中扮演重要的角色，因為它最重要的是 SQL Server 已經設定/調整為適用於最佳效能。 如果 SQL Server 無法執行也微調，BizTalk Server 所使用的資料庫會成為瓶頸，以及 BizTalk Server 環境的整體效能會降低。 本主題說明安裝 BizTalk Server 和設定 BizTalk Server 資料庫之前，應遵循的數個 SQL Server 效能最佳化。  

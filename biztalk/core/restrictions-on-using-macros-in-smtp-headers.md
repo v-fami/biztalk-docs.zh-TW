@@ -1,11 +1,11 @@
 ---
-title: "在 SMTP 標頭使用巨集的限制 |Microsoft 文件"
-ms.custom: 
+title: 在 SMTP 標頭使用巨集的限制 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring [SMTP adapters], restrictions
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - configuring [SMTP adapters], macros
 - SMTP headers
 ms.assetid: ceab0917-cb3c-423b-a15f-63747ab1d8da
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268638"
 ---
 # <a name="restrictions-on-using-macros-in-smtp-headers"></a>在 SMTP 標頭使用巨集的限制
 您可以使用預先定義的一組巨集，在 SMTP 訊息標頭上動態形成 **主旨**、 **收件者**、 **寄件者**及 **副本** 屬性。 傳送訊息前，SMTP 傳送處理常式會將標頭中的所有巨集以巨集的值取代。 您可以使用數個不同的巨集來形成一個標頭。  
@@ -38,7 +39,7 @@ ms.lasthandoff: 09/20/2017
   
 -   巨集的值包含 SMTP 標頭無效的符號。  
   
- 如果符合上述任何情況，SMTP 傳送處理常式會保留巨集時，例如**%sourceparty%@somedomain.com** 或**from %sourceparty%訊息**。  
+ 如果符合上述任何情況，SMTP 傳送處理常式會保留巨集時，例如 **%sourceparty%@somedomain.com** 或**from %sourceparty%訊息**。  
   
  下表列出您可用來建置 **收件者**、 **副本**及 **主旨** 等標頭的巨集。  
   

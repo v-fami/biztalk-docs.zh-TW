@@ -13,7 +13,7 @@ helpviewer_keywords:
 - policies, importing
 - managing [policies], importing
 ms.assetid: 92f6ef18-279f-416d-b13e-8b9642539d27
-caps.latest.revision: ''
+caps.latest.revision: 29
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25972332"
 ---
 # <a name="how-to-import-a-policy"></a>如何匯入原則
 本主題描述如何使用 [BizTalk Server 管理] 主控台將原則匯入到 BizTalk 群組，或是使用 BTSTask 命令列工具將原則匯入到 BizTalk 應用程式。  
@@ -74,7 +75,7 @@ ms.lasthandoff: 03/28/2018
   
 2.  輸入下列命令，並以適當的值替代，如下表所述：  
   
-     **BTSTask 的 ImportApp /Package:** *值*[**/ApplicationName: * **值*] [**/覆寫**] [**/Server:***值 *] [* * / d a t:***值 *]  
+     **BTSTask 的 ImportApp /Package:** *值*[**/ApplicationName: * **值*] [**/覆寫 **] [**/Server:***值 *] [* * / d a t:*** 值 *]  
   
      範例：  
   

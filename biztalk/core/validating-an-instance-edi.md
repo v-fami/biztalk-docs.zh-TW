@@ -1,14 +1,14 @@
 ---
-title: "驗證執行個體 (EDI) |Microsoft 文件"
-ms.custom: 
+title: 驗證執行個體 (EDI) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e0fe4e87-5ab4-41e4-8ceb-8f6cf40cae0b
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288910"
 ---
 # <a name="validating-an-instance-edi"></a>驗證執行個體 (EDI)
 執行個體可以在設計階段時依據其 EDI 結構描述加以驗證。 若要執行此動作，請在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 環境中使用 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 的 XML 工具延伸模組。 進行驗證的執行個體可以是單一交易集 (不含交換和群組標頭)、包含單一交易集的交換 (含交換和群組標頭)，或是包含多個交易集的完整批次交換 (含交換和群組標頭)。  

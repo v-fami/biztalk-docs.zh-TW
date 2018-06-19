@@ -12,7 +12,7 @@ helpviewer_keywords:
 - BTAJDEEnterpriseOneTrace command
 - Event Tracing for Windows
 ms.assetid: 5f07d317-5ae2-4d1e-a343-941f3079dc4b
-caps.latest.revision: ''
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25973676"
 ---
 # <a name="using-event-tracing-for-windows"></a>使用 Windows 事件追蹤
 Microsoft BizTalk Adapter for JD Edwards EnterpriseOne 會將錯誤、警告與資訊訊息記錄到 Windows 事件檢視器中。 您可以使用 Windows 事件追蹤 (ETW) 工具來檢視其他追蹤訊息。 啟動 ETW 時，它會建立一個 *.etl 檔案來接收訊息。 這個檔案是二進位格式，必須經過轉換才能讀取。 若要這樣做，您必須取用者應用程式可供解譯 \*.etl 檔案; 例如，tracerpt.exe 或 tracedmp.ex。 Tracept.exe 應用程式將轉換 \*.etl 成兩個文字檔︰ summary.txt 與 dumpfile.csv。  
@@ -43,11 +44,11 @@ Microsoft BizTalk Adapter for JD Edwards EnterpriseOne 會將錯誤、警告與�
   
  BizTalk Adapter  for JD Edwards EnterpriseOne 有三個提供者，可讓您記錄不同種類的訊息：  
   
--   **接收器記錄提供者**:\<追蹤項目\>交換器**-接收者**。 使用 **-接收者** 可在執行階段接收配接器的記錄檔中取得任何訊息。  
+-   **接收器記錄提供者**:\<追蹤項目\>交換器 **-接收者**。 使用 **-接收者** 可在執行階段接收配接器的記錄檔中取得任何訊息。  
   
--   **傳輸器記錄提供者**:\<追蹤項目\>交換器**-傳輸器**。 使用 **-transmitter** 從傳輸配接器在執行階段的記錄檔中取得任何訊息。  
+-   **傳輸器記錄提供者**:\<追蹤項目\>交換器 **-傳輸器**。 使用 **-transmitter** 從傳輸配接器在執行階段的記錄檔中取得任何訊息。  
   
--   **管理記錄提供者**:\<追蹤項目\>交換器**-管理**使用**-管理**從產生的記錄檔中取得任何訊息在瀏覽伺服器系統。  
+-   **管理記錄提供者**:\<追蹤項目\>交換器 **-管理**使用 **-管理**從產生的記錄檔中取得任何訊息在瀏覽伺服器系統。  
   
 ### <a name="btajdeenterpriseonetrace-command"></a>BTAJDEEnterpriseOneTrace 命令  
  若要使用 ETW，請執行 BizTalk Adapter for JD Edwards EnterpriseOne 命令 **BTAJDEEnterpriseOneTrace.cmd**。 您可以下列方式使用此命令：  

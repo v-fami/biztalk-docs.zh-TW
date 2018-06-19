@@ -1,14 +1,14 @@
 ---
-title: "步驟 2： 定義商務程序 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 定義商務程序 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b37bd9f1-5ee2-434d-950a-cf12967b6fc2
-caps.latest.revision: "49"
+caps.latest.revision: 49
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,15 +17,16 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974700"
 ---
 # <a name="step-2-define-the-business-process"></a>步驟 2：定義商務程序
 ![步驟 4 之 2](../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")  
   
  **若要完成的時間：** 8 分鐘  
   
- **目標：**在此步驟中，您可以使用協調流程設計師 」 定義商務程序。  
+ **目標：** 在此步驟中，您可以使用協調流程設計師 」 定義商務程序。  
   
- **用途：**協調流程的工作流程代表及自動化您的公司核准庫存補充要求的商務程序。  
+ **用途：** 協調流程的工作流程代表及自動化您的公司核准庫存補充要求的商務程序。  
   
 ## <a name="prerequisites"></a>必要條件  
  開始此步驟之前，請注意下列需求：  
@@ -75,7 +76,7 @@ ms.lasthandoff: 11/28/2017
   
     |使用|動作|  
     |--------------|----------------|  
-    |**識別碼**|型別**[requestdeclinemessage]**。|  
+    |**識別碼**|型別 **[requestdeclinemessage]**。|  
     |**訊息類型**|按一下**結構描述**，然後按一下  **\<選取 從參考組件...\>**. 從 選取成品類型 視窗中，按一下  **EAISchemas**，然後按一下 **拒絕**。 按一下 **[確定]**。|  
   
 #### <a name="to-configure-the-properties-of-the-shapes"></a>若要設定的圖形屬性  
@@ -120,7 +121,7 @@ ms.lasthandoff: 11/28/2017
     |使用|動作|  
     |--------------|----------------|  
     |**名稱**|型別**ConstructRequestDeclineMessage**。|  
-    |**建構的訊息**|選取**[requestdeclinemessage]**。|  
+    |**建構的訊息**|選取 **[requestdeclinemessage]**。|  
   
 9. 設計介面上，按一下  **transform_1**圖形。  
   
@@ -129,7 +130,7 @@ ms.lasthandoff: 11/28/2017
     |使用|動作|  
     |--------------|----------------|  
     |**名稱**|型別**TransformRequestToRequestDeclineMessage**。|  
-    |**對應名稱**|按一下**...**. 從 [轉換組態] 中，執行下列動作：<br /><br /> 輸入組態資訊：<br /><br /> -按一下**現有對應**。<br /><br /> 完整格式的對應名稱：<br /><br /> -選取**\<從參考組件選取\>**。  從左窗格中，選取**EAISchemas**。  從右窗格選取 [EAISchemas.MapToReqDecline]。  按一下 **[確定]**。<br /><br /> Source<br /><br /> -RequestMessage<br /><br /> 目的地<br /><br /> -[Requestdeclinemessage]|  
+    |**對應名稱**|按一下 **...**. 從 [轉換組態] 中，執行下列動作：<br /><br /> 輸入組態資訊：<br /><br /> -按一下**現有對應**。<br /><br /> 完整格式的對應名稱：<br /><br /> -選取**\<從參考組件選取\>**。  從左窗格中，選取**EAISchemas**。  從右窗格選取 [EAISchemas.MapToReqDecline]。  按一下 **[確定]**。<br /><br /> Source<br /><br /> -RequestMessage<br /><br /> 目的地<br /><br /> -[Requestdeclinemessage]|  
   
 11. 設計介面上，按一下  **send_1**圖形。  
   
@@ -138,7 +139,7 @@ ms.lasthandoff: 11/28/2017
     |使用|動作|  
     |--------------|----------------|  
     |**名稱**|型別**SendRequestDecline**。|  
-    |**訊息**|選取**[requestdeclinemessage]**。|  
+    |**訊息**|選取 **[requestdeclinemessage]**。|  
   
 13. 設計介面上，按一下  **send_2**圖形。  
   

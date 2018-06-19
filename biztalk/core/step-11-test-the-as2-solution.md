@@ -1,14 +1,14 @@
 ---
-title: "步驟 11： 測試 AS2 方案 |Microsoft 文件"
-ms.custom: 
+title: 步驟 11： 測試 AS2 方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 184ed8ee-6778-4bb9-b265-a94a1fed03cb
-caps.latest.revision: "34"
+caps.latest.revision: 34
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975084"
 ---
 # <a name="step-11-test-the-as2-solution"></a>步驟 11： 測試 AS2 方案
 ![步驟 11-11](../core/media/tut-step11-of-11.gif "Tut_Step11_of_11")  

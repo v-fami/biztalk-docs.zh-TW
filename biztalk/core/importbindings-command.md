@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22257998"
 ---
 # <a name="importbindings-command"></a>ImportBindings 命令
 從 XML 格式的繫結檔案匯入繫結至 BizTalk 應用程式或群組。 繫結可能已從匯出的組件、 應用程式或群組中所述[匯出繫結](../core/exporting-bindings6.md)。 根據繫結是從何處匯出而定，ApplicationName 和 GroupLevel 參數的影響將有所不同。 如需詳細資訊，請參閱此主題稍後的「備註」。  

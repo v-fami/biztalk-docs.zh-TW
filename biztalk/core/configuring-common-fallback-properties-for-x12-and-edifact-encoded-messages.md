@@ -1,14 +1,14 @@
 ---
-title: "設定通用的後援屬性的 X12 和 EDIFACT 編碼訊息 |Microsoft 文件"
-ms.custom: 
+title: 設定通用的後援屬性的 X12 和 EDIFACT 編碼訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7393d6ac-b901-43ef-a8d6-c5b0b3033257
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006031"
 ---
 # <a name="configuring-common-fallback-properties-for-x12-and-edifact-encoded-messages"></a>設定通用的後援屬性的 X12 和 EDIFACT 編碼的訊息
 後援屬性套用至 （包括 HIPAA）-X12 和 EDIFACT 編碼交換。 當所有後援協議屬性，這些屬性會套用時，才[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]尚未判斷出協議的外寄訊息解析為傳入。  

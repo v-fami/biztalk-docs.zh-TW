@@ -1,11 +1,11 @@
 ---
-title: "如何設定相互關聯類型 |Microsoft 文件"
-ms.custom: 
+title: 如何設定相互關聯類型 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deleting, correlation types
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - correlation types, deleting
 - configuring, correlation types
 ms.assetid: cfae4d2e-ec79-45c8-93b3-799dc5e0576e
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248566"
 ---
 # <a name="how-to-configure-correlation-types"></a>如何設定相互關聯類型
 您使用**相互關聯屬性**對話方塊來加入或移除的相互關聯類型的屬性。 相互關聯類型會列出相互關聯集中的屬性；在執行階段中，傳送和接收活動會使用這些屬性，確定內送訊息是否與協調流程之正確執行個體相關。  

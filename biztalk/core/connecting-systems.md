@@ -1,14 +1,14 @@
 ---
-title: "系統連線 |Microsoft 文件"
-ms.custom: 
+title: 系統連線 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4c4895e5-7272-415f-a0de-905256fa0a43
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008647"
 ---
 # <a name="connecting-systems"></a>連接系統
 進行整合的首要條件是能在不同機器上使用不同軟體有效地交換訊息。 存在的通訊樣式的多樣性，BizTalk Server 必須支援各種不同的通訊協定和訊息格式。 下面將描述一種新的引擎，能夠適用此種多元化的溝通方式。 不過，必須記住一項重要的概念就是，這種引擎內部只能使用 XML 文件。 不管接收到何種格式的訊息，接收後都必須將訊息轉換為 XML 文件。 同樣地，若文件的接收者無法接受 XML 文件，該引擎也會將文件轉換為目標接受的格式。  

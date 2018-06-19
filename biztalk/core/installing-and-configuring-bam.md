@@ -1,15 +1,15 @@
 ---
-title: "安裝和設定 BizTalk Server 上的 BAM |Microsoft 文件"
-description: "安裝和設定 BizTalk Server 上的單一或多部電腦環境中的 商務活動監控"
-ms.custom: 
+title: 安裝和設定 BizTalk Server 上的 BAM |Microsoft 文件
+description: 安裝和設定 BizTalk Server 上的單一或多部電腦環境中的 商務活動監控
+ms.custom: ''
 ms.date: 06/14/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 01986f8f-5117-40d1-a477-b7184721864c
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257118"
 ---
 # <a name="install-and-configure-bam"></a>安裝和設定 BAM
 商務活動監控 (BAM) 是隨附於 BizTalk Server 安裝。 您可以安裝和設定 BAM，在單一伺服器上，或在多重電腦環境中，如同 BizTalk Server: 

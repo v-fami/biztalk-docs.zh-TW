@@ -1,11 +1,11 @@
 ---
-title: "MQSCorrelationSetOrchestration （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: MQSCorrelationSetOrchestration （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, MQSeries adapters
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - messages, examples
 - MQSeries adapters, examples
 ms.assetid: fcda65d0-e3ec-4ead-978d-3904903b8762
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974980"
 ---
 # <a name="mqscorrelationsetorchestration-biztalk-server-sample"></a>MQSCorrelationSetOrchestration (BizTalk Server 範例)
 MQSCorrelationSetOrchestration 範例會示範如何使用 MQSeries 相互關聯識別項，將傳送至 MQSeries 佇列的相互關聯訊息送回到執行中的協調流程。 協調流程設定 MQSeries 相互關聯識別項和訊息使用的識別碼值**MQMD_CorrelId**和**MQMD_MsgID**屬性。 MQSeries 佇列管理員會將 MessageID 值複製到訊息的 CorrelationID 屬性。  
@@ -38,7 +39,7 @@ MQSCorrelationSetOrchestration 範例會示範如何使用 MQSeries 相互關聯
  這個範例所示範的實例中，將由協調流程處理的文件可以傳送至 MQSeries 佇列 (假設會進行其他處理)，並會傳回到執行中的協調流程。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- *\<範例路徑\>*\AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestration  
+ *\<範例路徑\>* \AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestration  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -56,7 +57,7 @@ MQSCorrelationSetOrchestration 範例會示範如何使用 MQSeries 相互關聯
   
 1.  按一下**啟動**，指向 **程式**，指向  **IBM WebSphere MQ**，然後按一下  **WebSphere MQ Explorer**。  
   
-2.  按兩下**佇列管理員**，然後按兩下預設佇列管理員。 預設佇列管理員通常會命名為**Qm_< < machine_name >**其中*machine_name*是您的電腦名稱。  
+2.  按兩下**佇列管理員**，然後按兩下預設佇列管理員。 預設佇列管理員通常會命名為**Qm_< < machine_name >** 其中*machine_name*是您的電腦名稱。  
   
 3.  以滑鼠右鍵按一下**佇列**，指向 **新增**，然後按一下 **本機佇列**。  
   
@@ -165,7 +166,7 @@ MQSCorrelationSetOrchestration 範例會示範如何使用 MQSeries 相互關聯
   
 5.  在**主機**方塊中，選取**BizTalkServerApplication**，按一下**確定**。  
   
-6.  在**傳送埠**，以滑鼠右鍵按一下**[mqscorrelationsetorchestration.filesendport]**，然後選取**啟動**。  
+6.  在**傳送埠**，以滑鼠右鍵按一下 **[mqscorrelationsetorchestration.filesendport]**，然後選取**啟動**。  
   
 7.  在**接收位置**，以滑鼠右鍵按一下**mqscorrelationsetorchestration.filereceiveport** ，然後選取 **啟用**。  
   

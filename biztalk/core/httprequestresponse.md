@@ -1,17 +1,17 @@
 ---
-title: "HTTPRequestResponse |Microsoft 文件"
-ms.custom: 
+title: HTTPRequestResponse |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - HTTP adapters, examples
 - examples, HTTP adapters
 ms.assetid: 81c66f61-d86c-49cf-8d24-21c67c68bc5a
-caps.latest.revision: "35"
+caps.latest.revision: 35
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973748"
 ---
 # <a name="httprequestresponse"></a>HTTPRequestResponse
 HTTPRequestResponse 範例會示範如何使用 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 網際網路伺服器應用程式發展介面 (Internet Server Application Programming Interface，ISAPI) 篩選器，讓 ASP.NET 應用程式與 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 協調流程進行通訊。  
@@ -36,7 +37,7 @@ HTTPRequestResponse 範例會示範如何使用 Microsoft [!INCLUDE[btsBizTalkSe
  ASP.NET 應用程式收到 XML PO 通知回應後，會使用從回應中擷取的狀態資訊來重新整理 Web 表單。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- *\<範例路徑\>*\AdaptersUsage\HTTPRequestResponse\  
+ *\<範例路徑\>* \AdaptersUsage\HTTPRequestResponse\  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -64,7 +65,7 @@ HTTPRequestResponse 範例會示範如何使用 Microsoft [!INCLUDE[btsBizTalkSe
     -   編譯及設定用來驅動此範例的 ASP.NET 應用程式。  
   
         > [!NOTE]
-        >  在 IIS 管理員中建立應用程式集區，設定**DefaultAppPool**以.NET Framework 版本**.Net Framework v4.0**。  
+        >  在 IIS 管理員中建立應用程式集區，設定**DefaultAppPool**以.NET Framework 版本 **.Net Framework v4.0**。  
   
     -   編譯及部署此範例中所使用的 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 協調流程。  
   
@@ -91,7 +92,7 @@ HTTPRequestResponse 範例會示範如何使用 Microsoft [!INCLUDE[btsBizTalkSe
         > [!NOTE]
         >  您必須設定和啟用 IIS 才能使用 HTTP 接收配接器。 如需詳細資訊，請參閱[如何設定 HTTP 接收位置的 IIS](../core/how-to-configure-iis-for-an-http-receive-location.md)。  
   
-3.  setup.bat 檔會設定此範例的虛擬目錄，以在與預設網站關聯的 IIS 應用程式集區中執行。  若要設定讓此範例中的使用者內容下執行的虛擬目錄**BizTalk Isolated Host Users**和**「 iis_iurs 」**使用者群組，您應該設定執行新的虛擬目錄IIS 應用程式集區。 請依照下列步驟執行，將虛擬目錄設定為在新的 IIS 應用程式集區中執行：  
+3.  setup.bat 檔會設定此範例的虛擬目錄，以在與預設網站關聯的 IIS 應用程式集區中執行。  若要設定讓此範例中的使用者內容下執行的虛擬目錄**BizTalk Isolated Host Users**和 **「 iis_iurs 」** 使用者群組，您應該設定執行新的虛擬目錄IIS 應用程式集區。 請依照下列步驟執行，將虛擬目錄設定為在新的 IIS 應用程式集區中執行：  
   
     > [!NOTE]
     >  如果您已經為其他 SDK 範例建立新的應用程式集區，則可以繼續執行下面最後一項步驟。  
@@ -106,7 +107,7 @@ HTTPRequestResponse 範例會示範如何使用 Microsoft [!INCLUDE[btsBizTalkSe
   
     5.  以滑鼠右鍵按一下新的應用程式集區，然後按一下 **屬性**。  
   
-    6.  按一下**識別** 索引標籤的 屬性 對話方塊並變更這個應用程式集區執行使用者為成員的身分識別**BizTalk Isolated Host Users**使用者群組。  此使用者也應該屬於本機**「 iis_iurs 」**使用者群組。  
+    6.  按一下**識別** 索引標籤的 屬性 對話方塊並變更這個應用程式集區執行使用者為成員的身分識別**BizTalk Isolated Host Users**使用者群組。  此使用者也應該屬於本機 **「 iis_iurs 」** 使用者群組。  
   
     7.  設定這個 SDK 範例的虛擬目錄為在新的應用程式集區下執行。 **應用程式集區**設定位在**虛擬目錄**] 索引標籤的 [虛擬目錄的 [內容] 對話方塊。 為此範例所建立的虛擬目錄為 HttpRequestResponseSample。  
   

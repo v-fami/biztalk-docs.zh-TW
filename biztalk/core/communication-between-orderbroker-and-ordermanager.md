@@ -1,17 +1,17 @@
 ---
-title: "OrderBroker 與 OrderManager 之間的通訊 |Microsoft 文件"
-ms.custom: 
+title: OrderBroker 與 OrderManager 之間的通訊 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - process management solution tutorial, publishing [MessageBox database]
 - MessageBox database, publishing
 ms.assetid: 1b77dcd2-f7a5-4013-b9a2-c06ace161792
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231870"
 ---
 # <a name="communication-between-orderbroker-and-ordermanager"></a>OrderBroker 與 OrderManager 之間的通訊
 訂單仲介和訂單管理員協調流程 (**OrderBroker**， **OrderManager**) 透過 MessageBox 資料庫，而不是正在直接夥伴繫結進行通訊。 這樣可確保仲介及管理員鬆散組合，如此一來，他們可以位於不同的 BizTalk 群組及不同地域位置 (如有必要)。 以這種方式分隔協調流程僅需要管理組態，而不需要變更任何程式碼。  

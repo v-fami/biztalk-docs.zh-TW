@@ -1,14 +1,14 @@
 ---
-title: "如何使用對應精靈 |Microsoft 文件"
-ms.custom: 
+title: 如何使用對應精靈 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 35b96cea-ead7-43de-8411-62d2c7d6620e
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257358"
 ---
 # <a name="how-to-use-the-mapping-wizard"></a>如何使用對應精靈
 此版本的「企業單一登入」包含對應精靈，可讓您輕鬆建立分支機構應用程式的對應。  

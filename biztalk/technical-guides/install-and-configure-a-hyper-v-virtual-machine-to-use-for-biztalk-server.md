@@ -1,14 +1,14 @@
 ---
-title: "安裝和設定 BizTalk Server 與 HYPER-V 虛擬機器使用 |Microsoft 文件"
-ms.custom: 
+title: 安裝和設定 BizTalk Server 與 HYPER-V 虛擬機器使用 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 86add392-3cde-432d-95d6-c81d68716537
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010967"
 ---
 # <a name="installing-and-configuring-a-hyper-v-virtual-machine-for-use-with-biztalk-server"></a>安裝和設定 BizTalk Server 與 HYPER-V 虛擬機器使用
 本主題提供安裝和設定 BizTalk Server 在 HYPER-V 環境中，包括進行安裝和設定 HYPER-V 虛擬機器的建議和建議上安裝 BizTalk Server 的建議HYPER-V 虛擬機器。  
@@ -55,7 +56,7 @@ ms.lasthandoff: 12/01/2017
   
 |**使用 HYPER-V 的儲存類型**|**專業人員**|**缺點**|**BizTalk Server 的考量**|  
 |-------------------------------|--------------|--------------|-------------------------------------------|  
-|**固定的大小磁碟**|因為是在其最大可能大小已初始化的 VHD 檔案建立實體硬碟機上時其效能優於動態 VHD。<br /><br /> 這會讓分散程度小於可能與，因此、 降低的案例單一 I/O 分裂成數個 I/o 的位置。 這有 VHD 類型的最低的 CPU 額外負荷，因為讀取和寫入不需要查閱區塊的對應。|需要完整的磁碟空間足夠的事前量配置。|使用對作業系統磁碟區進行[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]和[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]。 **重要事項：**啟動磁碟的 HYPER-V 客體磁碟分割必須連接到 IDE 控制器。|  
+|**固定的大小磁碟**|因為是在其最大可能大小已初始化的 VHD 檔案建立實體硬碟機上時其效能優於動態 VHD。<br /><br /> 這會讓分散程度小於可能與，因此、 降低的案例單一 I/O 分裂成數個 I/o 的位置。 這有 VHD 類型的最低的 CPU 額外負荷，因為讀取和寫入不需要查閱區塊的對應。|需要完整的磁碟空間足夠的事前量配置。|使用對作業系統磁碟區進行[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]和[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]。 **重要事項：** 啟動磁碟的 HYPER-V 客體磁碟分割必須連接到 IDE 控制器。|  
 |**動態擴充磁碟**|VHD 檔案的大小會增加至指定建立磁碟時，為虛擬機器本身上儲存更多資料的大小。 這適用於最有效地使用可用的存放裝置。|效能不比固定大小的 VHD。 這是因為磁碟的區塊開始為歸區塊，但不是受任何實際的空間放在 VHD 檔案。 從這類區塊傳回讀取零的區塊。 第一個區塊時寫入，虛擬化堆疊必須配置區塊的 VHD 檔案內的空間，然後更新對應的中繼資料。 除了這每次參考現有區塊的區塊對應必須查閱中繼資料中。 這會增加的讀取和寫入活動，也會導致增加 CPU 使用量。<br /><br /> 動態成長，也需要伺服器系統管理員監視以確保足夠的磁碟儲存體與儲存體需求增加的磁碟容量。|效能不比固定大小的 VHD。<br /><br /> 如果效能不是問題，例如在開發環境中，這就可能是作業系統的硬碟最適合的選項。<br /><br /> 會造成額外的 CPU 額外負荷，因為區塊對應查閱。|  
 |**差異磁碟**|此差異磁碟儲存所有變更，相對於基底 VHD 和基底 VHD 的父-子系組態保持不變。 因此必須儲存在差異 VHD 的子系也就是從父不同區塊。|因為需要存取固定/動態父 VHD 以及差異磁碟的讀取/寫入，則可能會降低效能。 這會增加 CPU 使用率和磁碟 I/O 額外負荷。|大量電腦特定的組態需要的 BizTalk Server 安裝，而子 VHD 檔案可能會成長本質上這會使用此磁碟組態的優點最小化。 讀取多個 VHD 在此案例中會產生額外的 CPU 和磁碟 I/O 額外負荷。|  
 |**傳遞磁碟**|這些是實體磁碟設定為*離線*根磁碟分割和啟用 HYPER-V 具有獨佔的讀寫存取權的實體磁碟中。|需要完全專用的磁碟或 LUN，才能讓它可配置給虛擬機器。<br /><br /> 實體磁碟是更難比 VHD 檔案的電腦之間移動。|如果您[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]執行個體在 HYPER-V 上執行，您可能會使用傳遞磁碟，透過使用 BizTalk Server 的資料磁碟區的固定虛擬硬碟 (VHD) 必須取得累加式的效能改進。<br /><br /> 如果您裝載本機檔案接收 BizTalk Server 上的位置，或大型訊息串流至磁碟，在處理期間，您可能會取得使用傳遞磁碟，透過使用固定虛擬硬碟 (VHD) 的累加效能改進。|  
@@ -67,7 +68,7 @@ ms.lasthandoff: 12/01/2017
   
  在設定虛擬機器時，請確定您使用網路介面卡，而不是傳統網路介面卡。 傳統網路介面卡被供作業系統不支援整合元件。  
   
- 若要測量使用網路效能**"\Network 介面 \Bytes Total/sec"**和**\Network 介面 (\*) \Output 佇列長度**操作主機上的效能監視器計數器要測量的網路卡的整體效能的系統。 如果實體的網路已被識別為忙碌中，使用**"\Hyper-V 虛擬網路介面卡 (\*) \Bytes/sec"**是/是在主機作業系統，以識別哪些虛擬機器網路介面卡上的計數器正在產生高負載。  
+ 若要測量使用網路效能 **"\Network 介面 \Bytes Total/sec"** 和**\Network 介面 (\*) \Output 佇列長度**操作主機上的效能監視器計數器要測量的網路卡的整體效能的系統。 如果實體的網路已被識別為忙碌中，使用 **"\Hyper-V 虛擬網路介面卡 (\*) \Bytes/sec"** 是/是在主機作業系統，以識別哪些虛擬機器網路介面卡上的計數器正在產生高負載。  
   
  如需有關評估在 HYPER-V 環境中的網路效能，請參閱**測量網路效能**區段[檢查清單： 測量的效能，在 HYPER-V 上](../technical-guides/checklist-measuring-performance-on-hyper-v.md)。  
   

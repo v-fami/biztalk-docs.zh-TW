@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255374"
 ---
 # <a name="how-to-save-a-query"></a>如何儲存查詢
 您可以儲存查詢以備將來重複使用。 根據預設，儲存的查詢會儲存在**我的文件**資料夾建立及儲存的使用者。  

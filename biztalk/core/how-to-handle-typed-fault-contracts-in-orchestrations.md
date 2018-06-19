@@ -13,7 +13,7 @@ helpviewer_keywords:
 - orchestrations, typed fault contracts
 - orchestrations, WCF services
 ms.assetid: 5a1a7d22-b0ff-4d09-bebf-4995229784b0
-caps.latest.revision: ''
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25970764"
 ---
 # <a name="how-to-handle-typed-fault-contracts-in-orchestrations"></a>如何在協調流程中處理類型錯誤的合約
 本主題描述如何在使用 WCF 服務時，從協調流程內處理類型錯誤的合約。 若要處理協調流程中的具類型的錯誤例外狀況，您使用的 WCF 服務必須具有**FaultContractAttribute**套用至服務作業; 因此，則會發生錯誤，可能會擲回使用**FaultException**\<T\>其中 T 可以是任何有效的資料合約或可序列化的型別從 WCF 服務。  

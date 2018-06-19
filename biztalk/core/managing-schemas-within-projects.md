@@ -1,14 +1,14 @@
 ---
-title: "管理專案中的結構描述 |Microsoft 文件"
-ms.custom: 
+title: 管理專案中的結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1af8d360-ccda-4e0e-824f-4ace242b5aa7
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262486"
 ---
 # <a name="managing-schemas-within-projects"></a>管理專案中的結構描述
 本節提供使用整個結構描述的逐步指示，例如，建立結構描述、共同使用多個結構描述，以及儲存結構描述等步驟。 如需有關使用結構描述中節點的資訊，請參閱[管理內結構描述節點](../core/managing-the-nodes-within-a-schema.md)。  

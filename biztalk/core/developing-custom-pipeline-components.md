@@ -1,11 +1,11 @@
 ---
-title: "開發自訂管線元件 |Microsoft 文件"
-ms.custom: 
+title: 開發自訂管線元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components [custom]
@@ -23,7 +23,7 @@ helpviewer_keywords:
 - pipeline components [custom], interfaces
 - pipeline components [custom], component types
 ms.assetid: cce61e0d-f1e3-4ec2-b38c-7c6eaf83ac10
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -32,6 +32,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005463"
 ---
 # <a name="developing-custom-pipeline-components"></a>開發自訂管線元件
 本節描述如何開發管線元件。 您可建立三種管線元件類型：一般、組譯和反組譯。 這三種類型都可額外實作探查功能。 管線元件的每種類型有關聯的介面必須實作才能插入 「 BizTalk 傳訊引擎; 元件區分的元件類型的管線介面為**IComponent**， **IAssemblerComponent**，和**IDisassemblerComponent**。 對於探查元件，您必須實作**IProbeMessage**介面。  

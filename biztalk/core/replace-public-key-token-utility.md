@@ -1,18 +1,18 @@
 ---
-title: "取代公開金鑰 Token 公用程式 |Microsoft 文件"
-ms.custom: 
+title: 取代公開金鑰 Token 公用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Replace Public Key Token Utility
 - utilities, Replace Public Key Token Utility
 - public key token
 ms.assetid: ed8673b9-af06-4bd7-b8b7-7371e4dd0fed
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972044"
 ---
 # <a name="replace-public-key-token-utility"></a>取代公開金鑰 Token 公用程式
 這個公用程式可使用衍生自強式名稱組件金鑰 (.snk) 檔案的公開金鑰 Token 來取代檔案中的公開金鑰 Token 或變數。  

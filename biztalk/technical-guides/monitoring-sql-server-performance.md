@@ -1,15 +1,15 @@
 ---
-title: "監視 SQL Server 效能 |Microsoft 文件"
-description: "監控 BizTalk Server 資料庫時使用 效能工具，活動監視器和資料收集"
-ms.custom: 
+title: 監視 SQL Server 效能 |Microsoft 文件
+description: 監控 BizTalk Server 資料庫時使用 效能工具，活動監視器和資料收集
+ms.custom: ''
 ms.date: 11/29/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 020fa764-968e-467c-b146-d069f5606a0f
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007895"
 ---
 # <a name="monitor-sql-server-performance"></a>監視 SQL Server 效能
 SQL Server 提供數個工具，用於監視 SQL Server 中的事件，以及用來微調實體資料庫設計。 [效能監視和微調工具](https://docs.microsoft.com/en-us/sql/relational-databases/performance/performance-monitoring-and-tuning-tools)描述這些工具。 

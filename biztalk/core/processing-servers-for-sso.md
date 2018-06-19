@@ -1,17 +1,17 @@
 ---
-title: "SSO 的處理伺服器 |Microsoft 文件"
-ms.custom: 
+title: SSO 的處理伺服器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SSO, processing servers
 - processing servers [SSO]
 ms.assetid: 9e80a456-974a-49b3-bb64-2e4713036cfb
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263662"
 ---
 # <a name="processing-servers-for-sso"></a>SSO 的處理伺服器
 在多部電腦的環境中，當主要密碼伺服器與 SSO 資料庫已經建立後，您可以在後續電腦上安裝「企業單一登入」。 一般而言，這些電腦上也會安裝 BizTalk Server 或 Host Integration Server。  

@@ -1,14 +1,14 @@
 ---
-title: "如何： 轉換訊息，並將產生的訊息路由至使用路線的路由名單的檔案位置 |Microsoft 文件"
-ms.custom: 
+title: 如何： 轉換訊息，並將產生的訊息路由至使用路線的路由名單的檔案位置 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c27749ba-c228-4cd4-827e-e8009a0c999d
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010543"
 ---
 # <a name="how-to-transform-a-message-and-route-the-resulting-message-to-a-file-location-using-an-itinerary-routing-slip"></a>如何： 轉換訊息，並將產生的訊息路由至使用路線的路由名單的檔案位置
 ## <a name="goal"></a>目標  
@@ -155,7 +156,7 @@ ms.lasthandoff: 12/01/2017
   
 7.  按一下**送出要求** 按鈕。 測試完成時，按一下**確定**解除顯示的確認。  
   
-8.  在 Windows 檔案總管，瀏覽至 C:\HowTos\Out。確認**%MessageID%.xml**訊息寫入目錄。  
+8.  在 Windows 檔案總管，瀏覽至 C:\HowTos\Out。確認 **%MessageID%.xml**訊息寫入目錄。  
   
 ## <a name="additional-resources"></a>其他資源  
  如需詳細資訊，請參閱這些相關主題：  

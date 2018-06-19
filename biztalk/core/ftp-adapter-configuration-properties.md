@@ -1,11 +1,11 @@
 ---
-title: "FTP 配接器組態屬性 |Microsoft 文件"
-ms.custom: 
+title: FTP 配接器組態屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive locations, adapters
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - FTP adapters, receive locations
 - send ports, adapters
 ms.assetid: 88a2084e-cb26-4136-9077-8b9463062ccc
-caps.latest.revision: "26"
+caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975268"
 ---
 # <a name="ftp-adapter-configuration-properties"></a>FTP 配接器組態屬性
 下表列出可為 FTP 配接器接收位置設定的組態屬性：  
@@ -45,7 +46,7 @@ ms.lasthandoff: 11/28/2017
 |maximumNumberOfFiles|VT_BSTR|指定每個 BizTalk Server 批次的檔案數目上限。|無|無|  
 |passiveMode|VT_BSTR|指定配接器與 FTP 伺服器之間的連接模式。|有效值為：<br /><br /> -被動<br />-使用中|預設值為 Active。|  
 |useNLST|VT_BSTR|將這個屬性指定為 Yes，會只擷取檔案名稱，而不擷取預設的系統定義檔案清單。|有效值為：<br /><br /> -[是]<br />-無|預設值為 No。|  
-|beforeGet|VT_BSTR|指定檔案 GET 前要執行的 FTP 命令。|使用分號 （;） 來分隔命令**附註：**檔案 GET 前不支援 QUIT 命令。|無|  
+|beforeGet|VT_BSTR|指定檔案 GET 前要執行的 FTP 命令。|使用分號 （;） 來分隔命令**附註：** 檔案 GET 前不支援 QUIT 命令。|無|  
 |afterGet|VT_BSTR|指定檔案 GET 後要執行的 FTP 命令。|使用分號 (;) 來分隔命令。|無|  
 |firewallType|VT_BSTR|指定部署的防火牆類型。|有效值為：<br /><br /> -無<br />-Socks 4<br />Socks 5|預設值為 [無]。|  
 |firewallAddress|VT_BSTR|指定防火牆的位址 (DNS 名稱或 IP 位址)。|無|無|  
@@ -85,7 +86,7 @@ ms.lasthandoff: 11/28/2017
 |targetFileName|VT_BSTR|為檔案指定別名。 保留預設名稱可確保每一個傳送的訊息都擁有唯一的訊息名稱。|無|預設值為 %MessageID%.xml。|  
 |commandLogFilename|VT_BSTR|指定要用來儲存記錄檔複本的位置。 使用記錄檔來診斷透過 FTP 伺服器傳送或接收檔案時所發生的錯誤情況。|無|無|  
 |representationType|VT_BSTR|選取 FTP 傳送資料的方式 (二進位或 ASCII)。|有效值為：<br /><br /> -二進位<br />ASCII|預設值為 binary。|  
-|beforePut|VT_BSTR|指定檔案 PUT 前要執行的 FTP 命令，例如，要在 FTP 伺服器上變更預設值的命令。|使用分號 (;) 來分隔命令。 **注意：**檔案 PUT 前不支援 QUIT 命令。|不需要開啟命令。|  
+|beforePut|VT_BSTR|指定檔案 PUT 前要執行的 FTP 命令，例如，要在 FTP 伺服器上變更預設值的命令。|使用分號 (;) 來分隔命令。 **注意：** 檔案 PUT 前不支援 QUIT 命令。|不需要開啟命令。|  
 |afterPut|VT_BSTR|指定檔案 PUT 後要執行的 FTP 命令。|使用分號 (;) 來分隔命令。|無|  
 |allocateStorage|VT_BSTR|指定是否配置儲存空間給舊版主控件系統。|有效值為：<br /><br /> -[是]<br />-無|預設值為 No。|  
 |spoolingFolder|VT_BSTR|指定 FTP 伺服器上的暫存資料夾位置。 如果傳輸模式為二進位，則您會使用此資料夾以保證能夠從傳輸失敗回復。 如果傳輸模式為 ASCII，配接器就會重新開始上傳。|無|無|  

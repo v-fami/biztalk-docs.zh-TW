@@ -1,11 +1,11 @@
 ---
-title: "BizTalk Accelerator for SWIFT 的執行階段 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Accelerator for SWIFT 的執行階段 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - runtime, architecture
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - A4SWIFT, network
 - topology
 ms.assetid: c0f59760-7d7d-4b22-a7dc-54e563971d4a
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005279"
 ---
 # <a name="biztalk-accelerator-for-swift-runtime"></a>BizTalk Accelerator for SWIFT 的執行階段
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]提供兩種形式的功能： 開發資料和執行階段元件。 開發材料包括 XSD 結構描述，驗證規則和原則和範例程式碼。 執行階段元件包括自訂 SWIFT 解譯器、 自訂 SWIFT 組譯工具、 Message Repair 和 New Submission 協調流程 (MrsrRepair.odx) 和 FIN 回應對帳協調流程 (FrrMain.odx)。 如需有關 Message Repair 和 New Submission 的詳細資訊，請參閱[Message Repair 和 New Submission](../../adapters-and-accelerators/accelerator-swift/message-repair-and-new-submission.md)。 如需有關 FRR 的詳細資訊，請參閱[FIN 回應對帳](../../adapters-and-accelerators/accelerator-swift/fin-response-reconciliation.md)。  

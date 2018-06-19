@@ -1,17 +1,17 @@
 ---
-title: "擴充列舉 |Microsoft 文件"
-ms.custom: 
+title: 擴充列舉 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - enumeration values
 - 2.X schemas, enumeration values
 ms.assetid: 043def35-b644-4502-a2e2-cc1a5fc0328a
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006239"
 ---
 # <a name="extending-enumerations"></a>擴充列舉型別
 您可以將值加入至 HL7 訊息本文、 通知和訊息內文結構描述中建立可接受的許多欄位、 區段，以及資料類型值的列舉型別。 這項作業包括變更一組通用 HL7 版本，您使用資料表值結構描述檔中特定資料表中的值 ( **Tablevalues_\<***版本* **\>.xsd**結構描述檔案)。  

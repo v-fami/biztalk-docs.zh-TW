@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277094"
 ---
 # <a name="sso-tickets"></a>SSO 票證
 在使用者與各系統和應用程式互動的企業環境中，該環境很可能不會維護透過多個程序、產品和電腦的使用者內容。 此使用者內容對於提供單一登入功能而言是非常重要的，因為必須確認是由誰初始化原始要求。 為了解決這個問題，「企業單一登入」(SSO) 提供了 SSO 票證 (非 Kerberos 票證)，應用程式可以用來取得對應提出原始要求之使用者的認證。 預設不會啟用 SSO 票證。 如需啟用票證的詳細資訊，請參閱[如何設定 SSO 票證](../core/how-to-configure-the-sso-tickets.md)。  

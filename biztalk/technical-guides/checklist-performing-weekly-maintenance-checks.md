@@ -1,14 +1,14 @@
 ---
-title: "檢查清單： 執行每週維護檢查 |Microsoft 文件"
-ms.custom: 
+title: 檢查清單： 執行每週維護檢查 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b13e43ba-4bac-4d4b-aaf8-46d60c0561bf
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976524"
 ---
 # <a name="checklist-performing-weekly-maintenance-checks"></a>檢查清單： 執行每週維護檢查
 本主題描述每週執行的可靠性、 管理、 安全性與效能維護檢查所需的步驟[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統。  

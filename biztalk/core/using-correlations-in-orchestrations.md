@@ -1,11 +1,11 @@
 ---
-title: "協調流程中使用的相互關聯 |Microsoft 文件"
-ms.custom: 
+title: 協調流程中使用的相互關聯 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, orchestrations
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - orchestrations, messages
 - messages, validating
 ms.assetid: d919afa9-bada-406a-bf4b-7b46c831c6d5
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287366"
 ---
 # <a name="using-correlations-in-orchestrations"></a>使用協調流程中的相互關聯
 相互關聯是將內送訊息與適當協調流程執行個體相比對的程序。 例如，協調流程會傳送訊息，並將回應接收到相同的協調流程中。 相互關聯的訊息交換模式共有三種：  

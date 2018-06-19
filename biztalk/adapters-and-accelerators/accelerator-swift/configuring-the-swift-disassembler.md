@@ -1,17 +1,17 @@
 ---
-title: "設定 SWIFT 解譯器 |Microsoft 文件"
-ms.custom: 
+title: 設定 SWIFT 解譯器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring, disassembler
 - disassembler, configuring
 ms.assetid: f3773781-7412-421c-943c-18cc665da8d9
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005359"
 ---
 # <a name="configuring-the-swift-disassembler"></a>設定 SWIFT 反組譯工具
 SWIFT 的解譯器 (DASM) 執行下列工作，當您叫用在[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]接收管線：  

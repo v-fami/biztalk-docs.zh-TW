@@ -1,14 +1,14 @@
 ---
-title: "無法取得繫結型別的繫結延伸 |Microsoft 文件"
-ms.custom: 
+title: 無法取得繫結型別的繫結延伸 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5a7cfc81-7439-48f9-8cac-42b2419ecd9d
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973764"
 ---
 # <a name="unable-to-get-binding-type-for-binding-extension"></a>無法取得繫結延伸模組的繫結類型
 ## <a name="details"></a>詳細資料  
@@ -37,9 +38,9 @@ ms.lasthandoff: 11/28/2017
 ## <a name="user-action"></a>使用者動作  
  若要解決這個錯誤會執行下列一或多個項目：  
   
--   請確定**machine.config 檔案**中**%WinDir%\Microsoft.NET\Framework\v4.0.30319\Config**具有\< **bindingExtensions** \>正確設定項目。  
+-   請確定**machine.config 檔案**中 **%WinDir%\Microsoft.NET\Framework\v4.0.30319\Config**具有\< **bindingExtensions** \>正確設定項目。  
   
--   在 Windows 檔案總管 中，移至**%WinDir%\Assembly**，並確定實作自訂繫結延伸模組的組件是否已正確安裝。  
+-   在 Windows 檔案總管 中，移至 **%WinDir%\Assembly**，並確定實作自訂繫結延伸模組的組件是否已正確安裝。  
   
 -   Wcf-custom 配接器在 BizTalk 管理主控台中，重新啟動執行 WCF 傳輸主控件執行個體。  
   

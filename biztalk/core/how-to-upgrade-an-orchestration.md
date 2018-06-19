@@ -1,14 +1,14 @@
 ---
-title: "如何升級協調流程 |Microsoft 文件"
-ms.custom: 
+title: 如何升級協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ef3f032f-28a1-4d52-9d85-d5748c9e9682
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257886"
 ---
 # <a name="how-to-upgrade-an-orchestration"></a>如何升級協調流程
 如何更新協調流程處理長時間執行的交易或正在等候請求-回應連接埠的回應時，會將實際執行環境中執行的協調流程。

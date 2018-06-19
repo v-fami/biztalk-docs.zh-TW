@@ -1,14 +1,14 @@
 ---
-title: "叫用從另一個原則的原則 |Microsoft 文件"
-ms.custom: 
+title: 叫用從另一個原則的原則 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b5bf658a-02a1-426a-abe5-8c9de673cf0d
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973556"
 ---
 # <a name="invoking-a-policy-from-another-policy"></a>從另一個原則叫用原則
 您可以使用下列其中一種方法，從另一個原則 (父原則) 叫用原則 (子原則)：  
@@ -35,15 +36,15 @@ ms.lasthandoff: 11/28/2017
   
 ##### <a name="to-add-the-policyexecute-method-as-an-action-to-a-policy"></a>若要將 Policy.Execute 方法當做動作加入到原則  
   
-1.  在 事實總管 視窗中，按一下**.NET 類別** 索引標籤。  
+1.  在 事實總管 視窗中，按一下 **.NET 類別** 索引標籤。  
   
-2.  以滑鼠右鍵按一下**.NET 組件**，然後按一下 **瀏覽**。  
+2.  以滑鼠右鍵按一下 **.NET 組件**，然後按一下 **瀏覽**。  
   
-3.  選取**Microsoft.RuleEngine**從**.NET 組件**清單，然後再按**確定**。  
+3.  選取**Microsoft.RuleEngine**從 **.NET 組件**清單，然後再按**確定**。  
   
 4.  展開**原則**。  
   
-5.  拖曳**Execute (Object facts)**或**Execute （Object facts，IRuleSetTrackingInterceptor trackingInterceptor）**到 [THEN] 窗格。  
+5.  拖曳**Execute (Object facts)** 或**Execute （Object facts，IRuleSetTrackingInterceptor trackingInterceptor）** 到 [THEN] 窗格。  
   
 6.  按一下**XML 結構描述**節點。  
   
@@ -54,11 +55,11 @@ ms.lasthandoff: 11/28/2017
   
 8.  選取您想要傳遞為事實，然後按一下 XML 文件的結構描述**開啟**。  
   
-9. 拖曳*\<結構描述名稱\>*的第一個引數的.xsd **Policy.Execute**方法以傳遞給子原則的事實傳遞給父原則的 XML 文件。  
+9. 拖曳*\<結構描述名稱\>* 的第一個引數的.xsd **Policy.Execute**方法以傳遞給子原則的事實傳遞給父原則的 XML 文件。  
   
 10. 如果您使用**Execute**方法未採用**IRuleSetTrackingInterceptor**做為第二個引數，請略過下列步驟。  
   
-11. 按一下**.NET 類別** 索引標籤。  
+11. 按一下 **.NET 類別** 索引標籤。  
   
 12. 拖曳**DebugTrackingInterceptor**中**Microsoft.RuleEngine**的第二個引數**Policy.Execute**方法。  
   

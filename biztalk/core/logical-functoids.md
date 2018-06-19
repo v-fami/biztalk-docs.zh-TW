@@ -1,14 +1,14 @@
 ---
-title: "邏輯運算質 |Microsoft 文件"
-ms.custom: 
+title: 邏輯運算質 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e37cdfc3-66de-4333-84eb-a8765afa8407
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262462"
 ---
 # <a name="logical-functoids"></a>邏輯運算質
 
@@ -37,7 +38,7 @@ ms.lasthandoff: 09/20/2017
   
  輸出**邏輯**運算質也可以接受做為對應中的其他運算質的輸入。 如果兩個**邏輯**運算質與迴圈運算質會連結在一起，並接著連結到目的結構描述中的記錄，迴圈運算質時，才**邏輯**運算質的輸出，則為**True**。  
   
- 您也可以使用**邏輯**運算質**值對應**或**值對應 （簡維）**運算質來控制是否在目的執行個體訊息中的記錄會建立。  
+ 您也可以使用**邏輯**運算質**值對應**或**值對應 （簡維）** 運算質來控制是否在目的執行個體訊息中的記錄會建立。  
   
 > [!IMPORTANT]
 >  如果兩個記錄或欄位在來源結構描述中的連結到兩個不同**邏輯**運算質，然後將每個連結**邏輯**相同記錄與目的結構描述中，運算質的第一個**邏輯**運算質使用中產生可延伸樣式表語言轉換 (XSLT)。 第二個連結，第二個**邏輯**運算質，則會忽略。  

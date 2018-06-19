@@ -1,14 +1,14 @@
 ---
-title: "保留一般檔案組合器管線元件中的分隔符號 |Microsoft 文件"
-ms.custom: 
+title: 保留一般檔案組合器管線元件中的分隔符號 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: adc27561-9996-49a9-b715-e313b9148506
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268782"
 ---
 # <a name="retaining-delimiters-in-the-flat-file-assembler-pipeline-component"></a>在一般檔案組合器管線元件中保留分隔符號
 如果在通過使用一般檔案組合器之自訂管線的訊息中有遺失的記錄，則一般檔案輸出中不一定會出現這些記錄的分隔符號，這要取決於這些記錄在輸入檔案中的遺失位置而定。  

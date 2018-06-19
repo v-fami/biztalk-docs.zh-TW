@@ -12,7 +12,7 @@ helpviewer_keywords:
 - managing [SSO applications], selecting servers
 - SSOClient [SSO], selecting servers
 ms.assetid: a0f1038c-60c9-4e9d-a730-1ecfa036743b
-caps.latest.revision: ''
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25971148"
 ---
 # <a name="how-to-set-the-sso-server-using-the-client-utility"></a>如何設定 SSO 伺服器使用用戶端公用程式
 每次使用 ssoclient 時，您必須先將使用者指向包含其組態資訊的正確「單一登入」伺服器。  
@@ -31,7 +32,7 @@ ms.lasthandoff: 03/28/2018
   
 2.  在命令列，移至「企業單一登入」安裝目錄。 預設安裝目錄是*\<磁碟機\>*: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-3.  型別 **ssoclient – 伺服器*\<單一登入伺服器\>* * *，其中\<*單一登入伺服器\>*是單一登入伺服器的名稱使用者想要連接到。  
+3.  型別 **ssoclient – 伺服器*\<單一登入伺服器\>* * *，其中\<* 單一登入伺服器\>* 是單一登入伺服器的名稱使用者想要連接到。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  

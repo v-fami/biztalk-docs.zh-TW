@@ -1,17 +1,17 @@
 ---
-title: "Large Distributed Architecture 具有資訊工作者服務 |Microsoft 文件"
-ms.custom: 
+title: Large Distributed Architecture 具有資訊工作者服務 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - architecture, examples
 - architecture, large distributions
 ms.assetid: 92f2d55c-3f51-42ca-99ef-60b23464691e
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262190"
 ---
 # <a name="large-distributed-architecture-with-information-worker-services"></a>具有資訊工作者服務的大型分散式架構
 如需設計 BizTalk Server 部署的系統架構的完整資訊，請參閱[範例 BizTalk Server 架構](../core/sample-biztalk-server-architectures.md)。  

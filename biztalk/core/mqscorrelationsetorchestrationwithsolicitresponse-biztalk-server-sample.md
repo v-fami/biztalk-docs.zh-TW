@@ -1,11 +1,11 @@
 ---
-title: "MQSCorrelationSetOrchestrationWithSolicitResponse （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: MQSCorrelationSetOrchestrationWithSolicitResponse （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, MQSeries adapters
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - messages, examples
 - MQSeries adapters, examples
 ms.assetid: 5127d743-bb79-4e97-a2f3-446892e1bfa0
-caps.latest.revision: "29"
+caps.latest.revision: 29
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975804"
 ---
 # <a name="mqscorrelationsetorchestrationwithsolicitresponse-biztalk-server-sample"></a>MQSCorrelationSetOrchestrationWithSolicitResponse (BizTalk Server 範例)
 MQSCorrelationSetOrchestrationWithSolicitResponse 範例將示範如何使用 MQSeries Server (而非 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]) 產生的相互關聯識別項。  
@@ -35,7 +36,7 @@ MQSCorrelationSetOrchestrationWithSolicitResponse 範例將示範如何使用 MQ
 >  如果 MQSeries Server 傳送的訊息比相互關聯識別項先抵達，使用這種方式的協調流程可能會發生問題。 請確定您在設計協調流程時，給予 MQSeries Server 足夠的時間傳回相互關聯識別項。 本範例並未將這種可能的競爭情形列入考量。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- *\<範例路徑\>*\AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestrationWithSolicitResponse  
+ *\<範例路徑\>* \AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestrationWithSolicitResponse  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -71,7 +72,7 @@ MQSCorrelationSetOrchestrationWithSolicitResponse 範例將示範如何使用 MQ
   
 1.  按一下**啟動**，指向 **所有程式**，指向  **IBM WebSphere MQ**，然後按一下  **WebSphere MQ Explorer**。  
   
-2.  按兩下**佇列管理員**，然後按兩下預設佇列管理員。 預設佇列管理員通常會命名為**Qm_<***< machine_name >*其中*machine_name*是您的電腦名稱。  
+2.  按兩下**佇列管理員**，然後按兩下預設佇列管理員。 預設佇列管理員通常會命名為**Qm_<***< machine_name >* 其中*machine_name*是您的電腦名稱。  
   
 3.  以滑鼠右鍵按一下**佇列**，指向 **新增**，然後按一下 **本機佇列**。  
   
@@ -198,7 +199,7 @@ MQSCorrelationSetOrchestrationWithSolicitResponse 範例將示範如何使用 MQ
   
 1.  在 BizTalk Server 管理主控台中，展開 **協調流程**資料夾。  
   
-2.  在詳細資料窗格中，以滑鼠右鍵按一下**[mqscorrelationsolicitresponse]**協調流程，然後按一下**繫結**。  
+2.  在詳細資料窗格中，以滑鼠右鍵按一下 **[mqscorrelationsolicitresponse]** 協調流程，然後按一下**繫結**。  
   
 3.  將協調流程連接埠繫結至下列傳送埠和接收位置：  
   
@@ -214,11 +215,11 @@ MQSCorrelationSetOrchestrationWithSolicitResponse 範例將示範如何使用 MQ
   
 5.  在**主機**方塊中，選取**BizTalkServerApplication**按一下**確定**。  
   
-6.  在**傳送埠**，以滑鼠右鍵按一下**[mqscorrelationsolicitresponse.orchestration.tempport]**，然後選取**啟動**。  
+6.  在**傳送埠**，以滑鼠右鍵按一下 **[mqscorrelationsolicitresponse.orchestration.tempport]**，然後選取**啟動**。  
   
-7.  在**傳送埠**，以滑鼠右鍵按一下**[mqscorrelationsolicitresponse.orchestration.filesendport]**，然後選取**啟動**。  
+7.  在**傳送埠**，以滑鼠右鍵按一下 **[mqscorrelationsolicitresponse.orchestration.filesendport]**，然後選取**啟動**。  
   
-8.  在**接收位置**，以滑鼠右鍵按一下**[mqscorrelationsolicitresponse.orchestration.filereceiveport]**，然後選取**啟用**。  
+8.  在**接收位置**，以滑鼠右鍵按一下 **[mqscorrelationsolicitresponse.orchestration.filereceiveport]**，然後選取**啟用**。  
   
 9. 以滑鼠右鍵按一下協調流程，然後按一下**啟動**。  
   

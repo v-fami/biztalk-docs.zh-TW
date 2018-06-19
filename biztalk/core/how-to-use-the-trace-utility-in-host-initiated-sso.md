@@ -1,17 +1,17 @@
 ---
-title: "如何使用追蹤公用程式中主控件初始化的 SSO |Microsoft 文件"
-ms.custom: 
+title: 如何使用追蹤公用程式中主控件初始化的 SSO |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - host initiated SSO, trace utility
 - trace utility
 ms.assetid: a53444d1-3f63-42a6-8ee6-b60ff9af9e41
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973452"
 ---
 # <a name="how-to-use-the-trace-utility-in-host-initiated-sso"></a>如何使用追蹤公用程式中主控件初始化的 SSO
 疑難排解的主要方法是追蹤。  

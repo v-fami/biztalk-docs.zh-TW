@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254798"
 ---
 # <a name="how-to-reorder-grid-pages"></a>如何重新排序格線頁
 如果您的對應較為複雜，您可以納入多個格線頁，並加以重新命名和重新排序。 本主題包含執行這些作業的逐步指示。  

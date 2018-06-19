@@ -1,14 +1,14 @@
 ---
-title: "如何處理配接器失敗 |Microsoft 文件"
-ms.custom: 
+title: 如何處理配接器失敗 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bdceb364-38d6-4aab-a176-bf751da1be25
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255926"
 ---
 # <a name="how-to-handle-adapter-failures"></a>如何處理配接器失敗
 一般而言，配接器應該會擱置無法處理的訊息。 舉例來說，雖然是否擱置訊息是依配接器的用途而定，但是發生提交失敗時，接收配接器通常會擱置訊息。 此外，在處理這類失敗時，還必須注意一些安全性考量。 例如，如果配接器自動擱置所有失敗的訊息，表示配接器可能容易受到拒絕服務攻擊，導致 BizTalk Server 擱置佇列被填滿。  某些配接器 (例如 HTTP) 會傳回失敗碼給用戶端，指出要求已遭到拒絕。 就這些配接器類型而言，傳回失敗碼通常會比擱置訊息來得有意義。 一般來說，在用盡主要和次要傳輸的所有重試次數之後，傳送配接器只會擱置訊息。  
@@ -31,9 +32,9 @@ ms.lasthandoff: 09/20/2017
 ## <a name="use-seterrorinfo-to-report-failure-to-biztalk-server"></a>使用 SetErrorInfo 回報失敗給 BizTalk Server  
  如果您要擱置訊息，必須將先前訊息內容中的失敗資訊提供給 BizTalk Server。 BizTalk Server 提供的錯誤報告功能採用**SetErrorInfo**上兩個方法**IBaseMessage**和**Seterrorinfo**介面。 您可以使用下列方式報告錯誤：  
   
--   發生失敗時處理訊息時，設定例外狀況使用**SetErrorInfo （例外電子）**訊息 (**IBaseMessage**) 要暫止。 這可讓引擎保存錯誤和訊息，以便日後進行診斷，並且將錯誤記錄到事件記錄檔中，以警告系統管理員。  
+-   發生失敗時處理訊息時，設定例外狀況使用**SetErrorInfo （例外電子）** 訊息 (**IBaseMessage**) 要暫止。 這可讓引擎保存錯誤和訊息，以便日後進行診斷，並且將錯誤記錄到事件記錄檔中，以警告系統管理員。  
   
--   如果您在初始化或內部簿記期間遇到錯誤 （不會在訊息處理） 應該呼叫**SetErrorInfo （例外電子）**上**Seterrorinfo**指標傳遞給您在初始化期間。 如果您的配接器以 BaseAdapter 實作為基礎，那麼您應該永遠擁有這個指標的存取權限。 否則，您應該可以快取這個指標。  
+-   如果您在初始化或內部簿記期間遇到錯誤 （不會在訊息處理） 應該呼叫**SetErrorInfo （例外電子）** 上**Seterrorinfo**指標傳遞給您在初始化期間。 如果您的配接器以 BaseAdapter 實作為基礎，那麼您應該永遠擁有這個指標的存取權限。 否則，您應該可以快取這個指標。  
   
  使用上述方法報告錯誤會導致錯誤訊息被寫入事件記錄檔。 很重要，您將錯誤關聯相關的訊息。 如果您可以執行這項操作。  
   

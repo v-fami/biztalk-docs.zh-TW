@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 65e15d9e-40ae-4850-9c13-88033cb3b3bb
-caps.latest.revision: ''
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25972364"
 ---
 # <a name="how-to-save-rename-and-close-schemas"></a>如何儲存、重新命名及關閉結構描述
 在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中，結構描述為 XML 結構描述定義 (XSD) 語言檔案，以 .xsd 副檔名存在檔案系統上。 當您使用「BizTalk 編輯器」開發結構描述時，需要定期儲存和關閉結構描述檔案，偶爾可能需要重新命名這些檔案。 本主題描述執行這些基本作業所需的步驟。  
@@ -30,7 +31,7 @@ ms.lasthandoff: 03/28/2018
      若結構描述之前有未儲存的變更，則其顯示在主要編輯視窗頂端索引標籤中的名稱結尾將不再有星號 (*) 以指示未儲存的變更。  
   
 > [!NOTE]
->  您可以按一下以儲存新的名稱下的結構描述**儲存*\<名稱的結構描述\>*為**上**檔案**功能表。  
+>  您可以按一下以儲存新的名稱下的結構描述**儲存*\<名稱的結構描述\>* 為**上**檔案**功能表。  
   
 > [!NOTE]
 >  您可以儲存結構描述做為一部分的所有變更的項目儲存在專案中，依序按一下 **全部儲存** 上 **檔案** 功能表。  

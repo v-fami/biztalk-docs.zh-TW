@@ -1,14 +1,14 @@
 ---
-title: "如何： 建立以動態方式將訊息路由傳送電子郵件地址，使用 LDAP 查詢行程 |Microsoft 文件"
-ms.custom: 
+title: 如何： 建立以動態方式將訊息路由傳送電子郵件地址，使用 LDAP 查詢行程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6d9929dd-5e45-4b0d-90df-52a35e68b0ba
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010111"
 ---
 # <a name="how-to-create-an-itinerary-to-dynamically-route-a-message-to-an-email-address-using-an-ldap-query"></a>如何： 建立以動態方式將訊息路由傳送電子郵件地址，使用 LDAP 查詢的行程
 ## <a name="goal"></a>目標  
@@ -91,14 +92,14 @@ ms.lasthandoff: 12/01/2017
   
     3.  在**傳輸名稱**下拉式清單中，按一下  **SMTP**。  
   
-    4.  按一下**傳輸位置**屬性，，然後輸入**{mail}**  
+    4.  按一下**傳輸位置**屬性，，然後輸入 **{mail}**  
   
     5.  按一下**SearchRoot**屬性，，然後輸入**ou = 員工，dc = globalbank，dc = com**  
   
         > [!NOTE]
         >  如果您尚未在 < 先決條件 > 一節中設定您的環境，根據規格，取代先前的屬性中的值適用於您的環境。  
   
-    6.  按一下**篩選**屬性，然後將變更的值**(&(objectClass=User) (&#124;(givenName=john)))**  
+    6.  按一下**篩選**屬性，然後將變更的值 **(&(objectClass=User) (&#124;(givenName=john)))**  
   
         > [!NOTE]
         >  輸入上面的值來取代現有的文字。  
@@ -115,7 +116,7 @@ ms.lasthandoff: 12/01/2017
   
     4.  按一下**主旨**屬性，，然後輸入**順序 {givenName}**。  
   
-    5.  設定**SMTPAuthentication、 SMTPHost、 使用者名稱、**和**密碼**屬性的本機環境中使用的連接資訊。  
+    5.  設定**SMTPAuthentication、 SMTPHost、 使用者名稱、** 和**密碼**屬性的本機環境中使用的連接資訊。  
   
     6.  按一下**確定**關閉**端點組態** 對話方塊。  
   

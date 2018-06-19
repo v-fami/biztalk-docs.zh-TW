@@ -1,15 +1,15 @@
 ---
-title: "建立 MSMQ 接收位置和傳送埠從程式碼 |Microsoft 文件"
-description: "以程式設計方式建立 MSMQ 接收位置和 BizTalk Server 中的傳送埠"
-ms.custom: 
+title: 建立 MSMQ 接收位置和傳送埠從程式碼 |Microsoft 文件
+description: 以程式設計方式建立 MSMQ 接收位置和 BizTalk Server 中的傳送埠
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6ebb4119-deeb-4287-aa65-7597ff0cc435
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971668"
 ---
 # <a name="create-msmq-receive-locations-and-send-ports-programmatically"></a>以程式設計方式建立 MSMQ 接收位置和傳送埠
 本主題將說明如何使用 WMI 來建立 MSMQ 配接器的連接埠或位置。  

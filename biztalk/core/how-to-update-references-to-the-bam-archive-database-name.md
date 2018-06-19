@@ -1,11 +1,11 @@
 ---
-title: "如何更新 BAM 封存資料庫名稱的參考 |Microsoft 文件"
-ms.custom: 
+title: 如何更新 BAM 封存資料庫名稱的參考 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Archive database [BAM], restoring
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Archive database [BAM], updating references
 - BAM, restoring
 ms.assetid: a0b8543e-6fc1-412e-b74e-683352d9c49e
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256414"
 ---
 # <a name="how-to-update-references-to-the-bam-archive-database-name"></a>如何更新 BAM 封存資料庫名稱的參考
 如果您備份 BAMArchive 資料庫時，發生系統或資料失敗時可以將該備份還原，並將它重新命名。  

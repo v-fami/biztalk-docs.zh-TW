@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9f25a76c-1c41-41c0-b28d-d7473dbe1cd1
-caps.latest.revision: ''
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26009423"
 ---
 # <a name="system-resource-costs-on-hyper-v"></a>HYPER-V 上的系統資源成本
 ## <a name="system-resource-costs-associated-with-running-a-guest-operating-system-on-hyper-v"></a>HYPER-V 上執行客體作業系統與相關聯的系統資源成本  
@@ -142,7 +143,7 @@ ms.lasthandoff: 03/28/2018
 |每秒寫入 I/o|89.00|82.87|93.11%|  
 |每秒的總 Mb|0.53|0.49|92.45%|  
 |平均讀取回應時間 （毫秒）|5.4066|5.7797|93.54%|  
-|寫入的平均回應時間 （毫秒）|0.2544|0.3716|68.42%**附註：**雖然傳遞磁碟寫入的平均回應時間的相對效能 68.42%的實體磁碟的效能，以及內已傳遞磁碟的平均寫入回應時間建立可接受的限制為 10 毫秒。|  
+|寫入的平均回應時間 （毫秒）|0.2544|0.3716|68.42%**附註：** 雖然傳遞磁碟寫入的平均回應時間的相對效能 68.42%的實體磁碟的效能，以及內已傳遞磁碟的平均寫入回應時間建立可接受的限制為 10 毫秒。|  
 |平均 I/O 回應時間 （毫秒）|3.7066|3.9904|93.89%|  
   
 > [!NOTE]  

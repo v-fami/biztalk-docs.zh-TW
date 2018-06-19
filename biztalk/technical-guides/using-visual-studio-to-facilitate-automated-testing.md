@@ -1,14 +1,14 @@
 ---
-title: "使用 Visual Studio，以促進測試自動化 |Microsoft 文件"
-ms.custom: 
+title: 使用 Visual Studio，以促進測試自動化 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 78f622af-08d5-480c-bd5e-f1db52e8d490
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302286"
 ---
 # <a name="using-visual-studio-to-facilitate-automated-testing"></a>使用 Visual Studio，以促進自動化測試
 Visual Studio 2010 提供功能強大的負載測試功能，可以模擬多達數百個使用者同時存取伺服器應用程式的負載設定檔。 這個負載測試功能提供即時的度量資訊。 選取的關鍵效能指標，以及供未來分析資料庫中儲存這些度量的能力。 本章節描述使用 Visual Studio 負載測試中，評估 BizTalk Server 應用程式的效能。  

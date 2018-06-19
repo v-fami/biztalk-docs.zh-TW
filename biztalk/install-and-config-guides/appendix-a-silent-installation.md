@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 94ded6b3-13ca-47e6-a038-254514f500e7
-caps.latest.revision: ''
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25976716"
 ---
 # <a name="appendix-a-silent-installation"></a>附錄 A：無訊息安裝
 本主題列出建立 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 無訊息安裝的步驟。  
@@ -30,9 +31,9 @@ ms.lasthandoff: 03/28/2018
 |命令名稱|選項|Description|  
 |------------------|------------|-----------------|  
 |/HELP 或 /? 或 /H||提供說明和快速參考。|  
-|/QUIET||在安裝期間隱藏 UI - 所有對話方塊、錯誤，或需要使用者輸入的提示。 所有訊息都會輸入到安裝記錄檔。 **注意︰**您無法為升級指定 Quiet 旗標，因為升級會要求使用者確認選取的選項。|  
+|/QUIET||在安裝期間隱藏 UI - 所有對話方塊、錯誤，或需要使用者輸入的提示。 所有訊息都會輸入到安裝記錄檔。 **注意︰** 您無法為升級指定 Quiet 旗標，因為升級會要求使用者確認選取的選項。|  
 |/CABPATH|\<*封包檔位置*\>|指出可轉散發封包檔的位置。|  
-|/S|\<*組態 XML 檔*\>|為指定組態檔中找到的功能，執行無訊息安裝。 **注意：**若要安裝所有功能，請針對組態 XML 檔的 `InstalledFeature` 參數指定 ALL 。|  
+|/S|\<*組態 XML 檔*\>|為指定組態檔中找到的功能，執行無訊息安裝。 **注意：** 若要安裝所有功能，請針對組態 XML 檔的 `InstalledFeature` 參數指定 ALL 。|  
 |/PASSIVE||執行被動式安裝。 安裝程式只會顯示進度列。|  
 |/NORESTART||隱藏重新啟動提示，並在安裝結束後自動重新啟動。|  
 |/FORCERESTART||安裝完成後，一律強制重新啟動。|  

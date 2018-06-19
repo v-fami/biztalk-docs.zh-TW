@@ -1,14 +1,14 @@
 ---
-title: "HIPAA 文件結構描述版本 5010 |Microsoft 文件"
-ms.custom: 
+title: HIPAA 文件結構描述版本 5010 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 62e50964-66e1-4ed9-a1a1-68556b13b024
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006361"
 ---
 # <a name="hipaa-document-schema-version-5010"></a>HIPAA 文件結構描述版本 5010
 U.S.部門的健全狀況及公共服務部 (HHS) 宣布於 2009 年 1 月 16 日的最終規則目前的 HIPAA 4010A1 版取代為 5010 版。 版本 5010 HIPAA 標準包括增強結構最上層主題、 技術、 功能和資料內容。 這些改進將減少，並消除資料中的模稜兩可，也處理一些先前業的商務需求時。 BizTalk Server 會提供支援 HIPAA 5010 版。  

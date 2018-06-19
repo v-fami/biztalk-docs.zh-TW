@@ -1,11 +1,11 @@
 ---
-title: "移除接收埠 （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: 移除接收埠 （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive ports, examples
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - examples, receive ports
 - receive ports, deleting
 ms.assetid: de97d914-b8e8-4365-8041-3b455c351f86
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971772"
 ---
 # <a name="remove-receive-port-biztalk-server-sample"></a>移除接收埠 （BizTalk Server 範例）
 「移除接收埠」範例會示範如何移除一或多個接收埠。  

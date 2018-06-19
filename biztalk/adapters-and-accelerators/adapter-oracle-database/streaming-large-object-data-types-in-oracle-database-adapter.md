@@ -13,7 +13,7 @@ helpviewer_keywords:
 - streaming, support in BizTalk Server
 - streaming, support in the WCF channel model
 ms.assetid: c6cbe870-6794-4bf1-90c1-db65a242e8fe
-caps.latest.revision: ''
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22217910"
 ---
 # <a name="streaming-large-object-data-types-in-oracle-database-adapter"></a>Oracle 資料庫配接器中的資料流處理大型物件資料類型
 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]支援 Oracle 大型物件 (LOB) 資料類型的串流。 與[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]叫用作業，並藉由交換 SOAP 訊息會傳回回應。 將 SOAP 訊息本文所組成的 XML 節點。  

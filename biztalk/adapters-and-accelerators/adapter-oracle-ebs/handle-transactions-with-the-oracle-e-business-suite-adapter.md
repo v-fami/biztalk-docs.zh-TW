@@ -1,14 +1,14 @@
 ---
-title: "處理交易與 Oracle E-business Suite 介面卡 |Microsoft 文件"
-ms.custom: 
+title: 處理交易與 Oracle E-business Suite 介面卡 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b443be9d-a93d-4836-8717-5ee9dad4442f
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005183"
 ---
 # <a name="handle-transactions-with-the-oracle-e-business-suite-adapter"></a>處理 Oracle E-business Suite 配接器的交易
 [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]不會啟動交易，以執行 Oracle E-business Suite 中的作業時發生。 相反地，配接器會執行作業使用配接器用戶端所提供的交易內容。 為了執行作業中使用交易[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]，您必須：  

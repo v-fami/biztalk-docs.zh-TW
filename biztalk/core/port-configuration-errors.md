@@ -1,14 +1,14 @@
 ---
-title: "連接埠組態錯誤 |Microsoft 文件"
-ms.custom: 
+title: 連接埠組態錯誤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 92eae0d8-a0c4-4f8c-b91a-fd98b9f6931a
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264190"
 ---
 # <a name="port-configuration-errors"></a>連接埠組態錯誤
 診斷及解決 WCF 通訊埠組態錯誤的資訊。  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240526"
 ---
 # <a name="error---input-for-mass-copy-functoid-not-valid"></a>錯誤-無效的大量複製運算質的輸入
 **錯誤碼**  

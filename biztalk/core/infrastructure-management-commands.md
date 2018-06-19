@@ -1,14 +1,14 @@
 ---
-title: "基礎結構管理命令 |Microsoft 文件"
-ms.custom: 
+title: 基礎結構管理命令 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a2f1a88c-19fc-4384-b6bb-f95962a32921
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973356"
 ---
 # <a name="infrastructure-management-commands"></a>基礎結構管理命令
 BAM 管理 (BM) 公用程式組態命令可讓您取得及更新 BAM 組態。  
@@ -30,7 +31,7 @@ BAM 管理 (BM) 公用程式組態命令可讓您取得及更新 BAM 組態。
 -   get defxml： 取得包含 BAM 主要匯入資料庫中的所有成品的檔案。  
   
 > [!NOTE]
->  您可以藉由啟用任何 BM 公用程式命令的追蹤**-追蹤： 在 &#124; 關閉**切換參數。 使用追蹤參數會覆寫組態檔中的追蹤設定。 此參數可以搭配任何一般 BM 命令使用。  
+>  您可以藉由啟用任何 BM 公用程式命令的追蹤 **-追蹤： 在 &#124; 關閉**切換參數。 使用追蹤參數會覆寫組態檔中的追蹤設定。 此參數可以搭配任何一般 BM 命令使用。  
   
 > [!NOTE]
 >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  

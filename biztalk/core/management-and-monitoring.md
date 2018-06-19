@@ -1,14 +1,14 @@
 ---
-title: "管理和監視 |Microsoft 文件"
-ms.custom: 
+title: 管理和監視 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 92724f79-32bb-40d3-a0af-147aba00d87e
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264462"
 ---
 # <a name="management-and-monitoring"></a>管理與監控
 在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 引擎上建置的每個應用程式都必須加以管理。 如何安裝新應用程式？ 有什麼可能的組態？ 現在系統內部發生了什麼問題？ 此部分針對這些工具回答以上問題。  

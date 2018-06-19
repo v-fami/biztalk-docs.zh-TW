@@ -1,17 +1,17 @@
 ---
-title: "HTTP 配接器 （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: HTTP 配接器 （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - HTTP adapters, examples
 - examples, HTTP adapters
 ms.assetid: f3bd8172-15c4-42fa-aa17-e4bed9d4aba4
-caps.latest.revision: "32"
+caps.latest.revision: 32
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,12 +20,13 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974484"
 ---
 # <a name="http-adapter-biztalk-server-sample"></a>HTTP 配接器 （BizTalk Server 範例）
 HTTP 配接器範例會示範如何實作用於 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的「要求/回應」和「請求/回應」範例。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- *\<範例路徑\>*\AdaptersDevelopment\HttpAdapter\  
+ *\<範例路徑\>* \AdaptersDevelopment\HttpAdapter\  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -137,7 +138,7 @@ HTTP 配接器範例會示範如何實作用於 [!INCLUDE[btsBizTalkServerNoVers
  現在，您的應用程式可開始使用 HTTP.NET 配接器。 當設定配接器，格式為**虛擬目錄**傳輸屬性是表單： /httpreceive/httpreceive.aspx?optionalQueryString。  
   
 ## <a name="comments"></a>註解  
- 中提供的 BaseAdapter 類別使用 HTTP.NET 配接器可讓*\<範例路徑\>*\AdaptersDevelopment\BaseAdapter\v1.0...2\\。 這些提供於 BaseAdapter 專案中的類別是為了加速配接器的開發。 如需所提供類別的詳細資料，請參閱 BaseAdapter 程式碼註解。  
+ 中提供的 BaseAdapter 類別使用 HTTP.NET 配接器可讓*\<範例路徑\>* \AdaptersDevelopment\BaseAdapter\v1.0...2\\。 這些提供於 BaseAdapter 專案中的類別是為了加速配接器的開發。 如需所提供類別的詳細資料，請參閱 BaseAdapter 程式碼註解。  
   
 ## <a name="see-also"></a>請參閱  
  [註冊配接器](../core/registering-an-adapter.md)   

@@ -1,11 +1,11 @@
 ---
-title: "訊息佇列的佇列 |Microsoft 文件"
-ms.custom: 
+title: 訊息佇列的佇列 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring [MSMQ adapters], queue paths
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - naming conventions, queue paths [MSMQ adapters]
 - configuring [MSMQ adapters], message queues
 ms.assetid: b802348e-8543-4b06-a6e4-149b86139fb1
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971460"
 ---
 # <a name="message-queuing-queues"></a>訊息佇列的佇列
 本節描述使用 MSMQ 配接器時如何指定 Microsoft Message Queuing (也稱為 MSMQ) 佇列。 內容不但描述指定路徑的慣例，同時也說明格式名稱在轉譯路徑成為佇列目的地時所扮演的角色。  
@@ -40,9 +41,9 @@ ms.lasthandoff: 11/28/2017
 |公用佇列|*Computername*\QueueName|  
 |私用佇列|*Computername*\Private$\QueueName|  
 |記錄檔佇列|*Computername*\QueueName\Journal$|  
-|電腦日誌佇列**附註：**用於只接收佇列。|*Computername*\Journal$|  
-|電腦寄不出的信件佇列**附註：**用於只接收佇列。|*Computername*\Deadletter$|  
-|電腦交易無法寄不出信件佇列**附註：**用於只接收佇列。|*Computername*\XactDeadletter$|  
+|電腦日誌佇列**附註：** 用於只接收佇列。|*Computername*\Journal$|  
+|電腦寄不出的信件佇列**附註：** 用於只接收佇列。|*Computername*\Deadletter$|  
+|電腦交易無法寄不出信件佇列**附註：** 用於只接收佇列。|*Computername*\XactDeadletter$|  
   
 > [!NOTE]
 >  佇列的路徑必須是唯一的。  

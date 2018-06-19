@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256822"
 ---
 # <a name="initializing-orchestration-variables"></a>初始化協調流程變數
 您可以在 [屬性] 視窗中設定屬性，初始化變數的值。 例如，您可以設定**初始值**設為 32，初始化 System.Int32 類型的變數。 將初始值加入至字串類型的變數時，您必須在 [屬性] 視窗中將初始值括在引號內。 若要讓字串包含引號，請使用反斜線做為逸出字元，若要在字串中包含常值反斜線時，則請使用連續的反斜線做為逸出字元。 如果未指定變數的值，一旦建立協調流程的執行個體時，就會指定預設值給變數。  

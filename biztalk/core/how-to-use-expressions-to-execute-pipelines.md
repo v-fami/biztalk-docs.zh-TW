@@ -1,11 +1,11 @@
 ---
-title: "如何使用運算式執行管線 |Microsoft 文件"
-ms.custom: 
+title: 如何使用運算式執行管線 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - ExecuteReceivePipeline() method
@@ -27,7 +27,7 @@ helpviewer_keywords:
 - pipelines, orchestrations
 - Message Assignment shape [Orchestration Designer], pipelines
 ms.assetid: f947fa73-526c-4747-8de7-df557a93056c
-caps.latest.revision: "26"
+caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -36,6 +36,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974652"
 ---
 # <a name="how-to-use-expressions-to-execute-pipelines"></a>如何使用運算式執行管線
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]能夠以同步方式呼叫從協調流程內的管線。 這可以讓協調流程針對資料體而利用封裝在管線內容的訊息處理功能 (傳送或接收)，而不需透過傳訊基礎結構來傳送該資料。  
@@ -46,7 +47,7 @@ ms.lasthandoff: 11/28/2017
  協調流程中使用方法**XLANGPipelineManager**類別 (在**Microsoft.XLANGs.Pipeline**命名空間) 來呼叫傳送或接收管線。  接收管線會使用單一訊息或交換，並在管線於 BizTalk 傳訊內的接收訊息內容中執行時，產生零個或多個訊息。 傳送管線會使用一個或多個訊息，並同樣在管線於 BizTalk 傳訊內的傳送訊息內容中執行時，產生單一的訊息或交換。  
   
 ## <a name="calling-a-receive-pipeline"></a>呼叫接收管線  
- 若要呼叫從協調流程內部，應用程式會呼叫接收管線**executereceivepipeline （)**方法**XLANGPipelineManager**類別。  這個方法會使用單一的交換，並傳回零個或多個訊息的集合 (執行個體中包含**ReceivePipelineOutputMessages**類別)。 這個方法的語法會詳細說明.NET 類別庫參考**XLANGPipelineManager**類別。  
+ 若要呼叫從協調流程內部，應用程式會呼叫接收管線**executereceivepipeline （)** 方法**XLANGPipelineManager**類別。  這個方法會使用單一的交換，並傳回零個或多個訊息的集合 (執行個體中包含**ReceivePipelineOutputMessages**類別)。 這個方法的語法會詳細說明.NET 類別庫參考**XLANGPipelineManager**類別。  
   
  從協調流程內執行接收管線的 API 為：  
   
@@ -69,7 +70,7 @@ ms.lasthandoff: 11/28/2017
 >  當呼叫**PassThruReceive**管線或協調流程內的自訂管線元件，您必須宣告內送訊息的變數類型為 System.Xml.XmlDocument，不論內送訊息類型是否為 XML. 因此，如果內送訊息為一般檔案格式訊息的非 XML 訊息，而您嘗試要在其上作業，則可能會遇到例外狀況。 這是因為在上述的案例中，該協調流程引擎會對任何類型的內送訊息使用 System.Xml.XmlDocument。  
   
 ## <a name="calling-a-send-pipeline"></a>呼叫傳送管線  
- 若要呼叫傳送管線從協調流程，應用程式會呼叫內**executesendpipeline （)**方法**XLANGPipelineManager**類別。 這個方法會使用一或多個訊息的集合 (執行個體中包含**SendPipelineInputMessages**類別)，並傳回單一的交換。 這個方法的語法會詳細說明.NET 類別庫參考**XLANGPipelineManager**類別。  因為執行傳送管線會產生新的交易，在呼叫**executesendpipeline （)**方法必須由訊息指派圖形內，在這種情況：  
+ 若要呼叫傳送管線從協調流程，應用程式會呼叫內**executesendpipeline （)** 方法**XLANGPipelineManager**類別。 這個方法會使用一或多個訊息的集合 (執行個體中包含**SendPipelineInputMessages**類別)，並傳回單一的交換。 這個方法的語法會詳細說明.NET 類別庫參考**XLANGPipelineManager**類別。  因為執行傳送管線會產生新的交易，在呼叫**executesendpipeline （)** 方法必須由訊息指派圖形內，在這種情況：  
   
  從協調流程內部執行傳送管線的 API 為：  
   
@@ -110,7 +111,7 @@ ms.lasthandoff: 11/28/2017
  如果部署了重複的結構描述，則用於選取適當結構描述的演算法邏輯，與在傳訊基礎結構內容中執行時所使用的邏輯相同。  
   
 ### <a name="transactional-pipelines"></a>交易管線  
- 如果管線的階段會呼叫交易式元件，則該管線沒有可用的交易式內容。  呼叫**ipipelinecontext.gettransaction （)**將會擲回**NotSupportedException**。  這樣並不會造成無法從協調流程執行此類管線，但的確代表該管線不必偵測和處理這種情況。  
+ 如果管線的階段會呼叫交易式元件，則該管線沒有可用的交易式內容。  呼叫**ipipelinecontext.gettransaction （)** 將會擲回**NotSupportedException**。  這樣並不會造成無法從協調流程執行此類管線，但的確代表該管線不必偵測和處理這種情況。  
   
 ### <a name="message-destination"></a>訊息目的地  
  在此內容中並不支援依管線元件控制訊息目的地。  設定內容屬性**MessageDestination**或**SuspendOnRoutingFailure**會導致**XLANGPipelineManagerException**擲回。  

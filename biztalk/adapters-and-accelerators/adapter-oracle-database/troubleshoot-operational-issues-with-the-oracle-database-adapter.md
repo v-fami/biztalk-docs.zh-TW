@@ -1,15 +1,15 @@
 ---
-title: "疑難排解與 Oracle 資料庫配接器的操作問題 |Microsoft 文件"
-description: "常見的問題與 Oracle 資料庫配接器在 BizTalk 配接器組件 (BAP) 中的解決方案"
-ms.custom: 
+title: 疑難排解與 Oracle 資料庫配接器的操作問題 |Microsoft 文件
+description: 常見的問題與 Oracle 資料庫配接器在 BizTalk 配接器組件 (BAP) 中的解決方案
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2fb83245-2b6a-48cc-8601-b923bb009a58
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010103"
 ---
 # <a name="troubleshoot-operational-issues-with-the-oracle-database-adapter"></a>疑難排解與 Oracle 資料庫配接器的操作問題
 疑難排解技術來解決您可能會使用的作業錯誤[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]。  

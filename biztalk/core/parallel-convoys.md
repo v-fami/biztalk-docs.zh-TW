@@ -1,11 +1,11 @@
 ---
-title: "平行群組 |Microsoft 文件"
-ms.custom: 
+title: 平行群組 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Parallel Task shape [Orchestration Designer], concurrent receive tasks
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - orchestrations, messages
 - messages, correlating to orchestrations
 ms.assetid: 036aa8c0-f49c-47f0-ac1e-6c667bca3811
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264838"
 ---
 # <a name="parallel-convoys"></a>平行群組
 平行群組可讓多個單一訊息聯結在一起，以達成所需的結果。 一組相關的訊息會依任何順序抵達，但 BizTalk Server 必須收到所有的訊息，才能開始處理。  

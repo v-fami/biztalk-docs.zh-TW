@@ -13,7 +13,7 @@ helpviewer_keywords:
 - tools, WCF Service Consuming Wizard
 - consuming, WCF Service Consuming Wizard
 ms.assetid: d5fad2ac-4d98-4720-8026-88ebab78b120
-caps.latest.revision: ''
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25975540"
 ---
 # <a name="how-to-use-the-biztalk-wcf-service-consuming-wizard-to-consume-a-wcf-service"></a>如何使用 BizTalk WCF 服務使用精靈以使用 WCF 服務
 BizTalk 配接器架構會提供將配接器結構描述和 BizTalk 類型新增至 BizTalk 專案的方法。 BizTalk WCF 服務使用精靈可讓您將 WCF 傳送配接器新增到 BizTalk 專案。 對於 WCF 傳送配接器，您必須針對傳送埠選取現有的中繼資料交換 (MEX) 端點。 然後，您必須輸入用來產生結構描述和類型的資訊。 當精靈完成時，在使用 WCF 服務時所需要的結構描述和類型就會加入到 BizTalk 專案中。  

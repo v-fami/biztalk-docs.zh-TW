@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262006"
 ---
 # <a name="lesson-1-define-schemas-and-a-map"></a>課程 1：定義結構描述及對應
 在此課程中，您要在企業應用程式整合 (EAI) 方案中建立並建置第一個專案。 專案包含兩個訊息結構描述和一個對應。  

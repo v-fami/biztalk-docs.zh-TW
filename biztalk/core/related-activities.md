@@ -1,11 +1,11 @@
 ---
-title: "相關活動 |Microsoft 文件"
-ms.custom: 
+title: 相關活動 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - activities [BAM], related activities
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Query Builder [BAM portal], viewing details
 - queries [BAM], viewing details
 ms.assetid: 141b7943-d244-4810-aa88-12aa4a2b7658
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971852"
 ---
 # <a name="related-activities"></a>相關活動
 [相關活動] 區域包含與查詢基礎活動相關的活動清單。 多個「出貨」活動便是「訂單」活動之相關活動的典型範例，因為單一訂單上的項目可以分成多次出貨來交運。  

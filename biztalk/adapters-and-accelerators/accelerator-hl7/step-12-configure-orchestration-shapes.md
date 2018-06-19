@@ -1,18 +1,18 @@
 ---
-title: "步驟 12： 設定協調流程圖形 |Microsoft 文件"
-ms.custom: 
+title: 步驟 12： 設定協調流程圖形 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring, orchestration shapes
 - orchestrations, shapes
 - message enrichment tutorial, orchestrations
 ms.assetid: 9388254b-2841-4489-838e-de913ceff151
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006423"
 ---
 # <a name="step-12-configure-orchestration-shapes"></a>步驟 12： 設定協調流程圖形
 在此步驟中，您可以完成協調流程圖形的組態以移除組態不完整智慧標籤。 您指定**DoorbellOutputMessage**做為第一個轉換程序的輸出指定**DoorbellMap.btm**當做該程序中使用的對應。 然後指定**DoorbellFinalMessage**做為第二個輸出轉換程序，並加入充實其他欄位資料訊息的運算式。  

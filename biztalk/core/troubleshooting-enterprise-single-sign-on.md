@@ -1,14 +1,14 @@
 ---
-title: "企業單一登入疑難排解 |Microsoft 文件"
-ms.custom: 
+title: 企業單一登入疑難排解 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cb54af9f-a6ef-46c1-b987-2019cff3f837
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975308"
 ---
 # <a name="troubleshooting-enterprise-single-sign-on"></a>疑難排解企業單一登入
 本主題描述使用企業單一登入 (SSO) 時可能遇到之常見問題的相關資訊。  
@@ -25,7 +26,7 @@ ms.lasthandoff: 11/28/2017
   
 |問題|註解|  
 |--------------|--------------|  
-|SSO 系統中的應用程式事件記錄中是否有任何訊息？|事件記錄中的 SSO 訊息可以幫助您縮小 SSO 系統中的問題。 SSO 系統中訊息的來源是 ENTSSO。 **重要事項：**許多 SSO 錯誤和事件會顯示為警告事件記錄檔中不視為錯誤。 當問題僅影響到 SSO 服務中的單一用戶端時，SSO 會產生「警告」，而當問題影響範圍擴及整個 SSO 系統 (所有用戶端) 時，SSO 便會產生「錯誤」。|  
+|SSO 系統中的應用程式事件記錄中是否有任何訊息？|事件記錄中的 SSO 訊息可以幫助您縮小 SSO 系統中的問題。 SSO 系統中訊息的來源是 ENTSSO。 **重要事項：** 許多 SSO 錯誤和事件會顯示為警告事件記錄檔中不視為錯誤。 當問題僅影響到 SSO 服務中的單一用戶端時，SSO 會產生「警告」，而當問題影響範圍擴及整個 SSO 系統 (所有用戶端) 時，SSO 便會產生「錯誤」。|  
 |SSO 服務是否安裝正確？<br /><br /> 是否依預期方式啟動？<br /><br /> SSO 服務在哪一種服務帳戶下執行？|請確定 SSO 服務安裝正確，而且該服務帳戶是 SSO 系統管理員群組的成員。|  
 |SSO 資料庫在哪裡？|使用命令列 **ssoconfig -showdb**。 如需此命令的詳細資訊，請參閱[如何顯示 SSO 資料庫資訊](../core/how-to-display-the-sso-database-information.md)。|  
 |正在使用哪一部 SSO 伺服器？|使用命令列 **ssomanage -showserver**。 如需此命令的詳細資訊，請參閱[如何設定 SSO 伺服器](../core/how-to-set-the-sso-server.md)。|  
@@ -35,7 +36,7 @@ ms.lasthandoff: 11/28/2017
 |特定的分支機構應用程式外觀是否正確？<br /><br /> 哪些帳戶正在使用此分支機構應用程式？|使用命令列**ssomanage-displayapp***\<應用程式名稱\>*。 如需此命令的詳細資訊，請參閱[如何列出分支機構應用程式的屬性](../core/how-to-list-the-properties-of-an-affiliate-application.md)。|  
 |此分支機構應用程式是否有任何對應？|使用命令列**ssomanage – listmappings***\<應用程式名稱\>*。 如需此命令的詳細資訊，請參閱[如何列出使用者對應](../core/how-to-list-user-mappings.md)。|  
 |哪些帳戶是 SSO 群組的成員？|請驗證所有 SSO 群組和帳戶的群組成員資格。|  
-|SSO 伺服器的 COM+ 應用程式的執行是否符合預期？|驗證 COM+ 應用程式 SSO 伺服器。 **注意：**您也可以檢查事件記錄檔的詳細資訊，例如事件和警告訊息。|  
+|SSO 伺服器的 COM+ 應用程式的執行是否符合預期？|驗證 COM+ 應用程式 SSO 伺服器。 **注意：** 您也可以檢查事件記錄檔的詳細資訊，例如事件和警告訊息。|  
   
 ## <a name="known-issues"></a>已知問題  
   

@@ -1,11 +1,11 @@
 ---
-title: "逐步解說： 部署基本 BizTalk 應用程式 |Microsoft 文件"
-ms.custom: 
+title: 逐步解說： 部署基本 BizTalk 應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, tutorials
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - tutorials, applications
 - applications, tutorials
 ms.assetid: 21b67153-0f8c-406a-a224-fc792b16192f
-caps.latest.revision: "69"
+caps.latest.revision: 69
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010991"
 ---
 # <a name="walkthrough-deploying-a-basic-biztalk-application"></a>逐步解說： 部署基本 BizTalk 應用程式
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 包含可簡化 BizTalk 商務解決方案之管理和部署的功能。 它現在為商務解決方案中的項目 (例如，協調流程、結構描述、對應、管線和 .NET 組件) 提供了 BizTalk 應用程式容器。 您可以管理、 修改、 部署和安裝的所有項目當做單一單位的應用程式中。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]也包含精靈，可協助自動化應用程式部署工作。 如需背景資訊，請參閱[應用程式部署和管理功能](../core/application-deployment-and-management-features.md)和[應用程式部署和管理工具](../core/application-deployment-and-management-tools.md)。  
@@ -134,10 +135,10 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
     |--------------|-----------|-----------------|  
     |Application Name|\<名稱\>|要部署此專案內組件的 BizTalk 應用程式名稱。 如果應用程式已經存在，組件便會在您部署專案時加入至其中。 如果應用程式不存在，則會建立該應用程式。 如果此欄位為空白，組件將會部署至目前群組中的預設 BizTalk 應用程式，即 "BizTalk Application 1"。 名稱如果包含空格，則必須括在雙引號 (") 中。|  
     |設定資料庫|\<BizTalk 管理資料庫名稱\>|群組的 BizTalk 管理資料庫名稱，依預設為 BizTalkMgmtDb。|  
-    |Server|\<伺服器名稱\>|在本機電腦上，裝載 BizTalk 管理資料庫之 SQL Server 執行個體的名稱。 在單一電腦安裝中，這通常是本機電腦的名稱。 **注意：**如果您將這個 BizTalk 專案移至不同的電腦時，您必須修改伺服器屬性，以反映新的電腦名稱，然後您才能部署組件。|  
+    |Server|\<伺服器名稱\>|在本機電腦上，裝載 BizTalk 管理資料庫之 SQL Server 執行個體的名稱。 在單一電腦安裝中，這通常是本機電腦的名稱。 **注意：** 如果您將這個 BizTalk 專案移至不同的電腦時，您必須修改伺服器屬性，以反映新的電腦名稱，然後您才能部署組件。|  
     |重新部署|True 或 False|將此項設定為 True (預設)，可讓您不變更版本號碼而重新部署 BizTalk 組件。|  
     |安裝到全域組件快取|True 或 False|將此項設定為 True (預設)，可在部署組件時，將組件安裝到本機電腦上的全域組件快取 (GAC)。|  
-    |重新啟動主控件執行個體|True 或 False|將此項設定為 True，可在重新部署組件時，自動重新啟動執行於本機電腦上的所有主控件執行個體。 如果設定為 False (預設)，您必須在重新部署組件時，手動重新啟動主控件執行個體。 **注意：**如果您重新部署組件從方案層級時，主控件執行個體將會重新啟動一次每個專案，這個選項設為 True。 這樣可能會產生多次的重新啟動。 如果您打算從方案層級重新部署，您可能會想要只在方案中的一個專案上將此屬性設為 True，以免主控件執行個體重新啟動多次。 這應該在方案中最後一個將要重新部署的專案上設定。 此外，如果當您執行重新部署時，主控件執行個體停止了，它將不會啟動。|  
+    |重新啟動主控件執行個體|True 或 False|將此項設定為 True，可在重新部署組件時，自動重新啟動執行於本機電腦上的所有主控件執行個體。 如果設定為 False (預設)，您必須在重新部署組件時，手動重新啟動主控件執行個體。 **注意：** 如果您重新部署組件從方案層級時，主控件執行個體將會重新啟動一次每個專案，這個選項設為 True。 這樣可能會產生多次的重新啟動。 如果您打算從方案層級重新部署，您可能會想要只在方案中的一個專案上將此屬性設為 True，以免主控件執行個體重新啟動多次。 這應該在方案中最後一個將要重新部署的專案上設定。 此外，如果當您執行重新部署時，主控件執行個體停止了，它將不會啟動。|  
     |啟用單元測試|True 或 False|指定是否要對專案啟用單元測試。|  
   
 4.  針對方案中的每個專案，重複步驟 1、2 和 3。  
@@ -324,7 +325,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
   
      ![將參考加入至應用程式](../core/media/appreferences.gif "AppReferences")  
   
-6.  在**應用程式目標環境設定**頁面上，確認**\<預設\>**已選取並按**下一步**。  
+6.  在**應用程式目標環境設定**頁面上，確認**\<預設\>** 已選取並按**下一步**。  
   
 7.  在**匯入摘要**頁面上，確認摘要資訊是否正確，然後按**匯入**。  
   

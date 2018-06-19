@@ -1,14 +1,14 @@
 ---
-title: "如何復原 BAM 入口網站 |Microsoft 文件"
-ms.custom: 
+title: 如何復原 BAM 入口網站 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f2a5df99-6d03-4f1f-8540-1700d3a0b9db
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254598"
 ---
 # <a name="how-to-recover-the-bam-portal"></a>如何復原 BAM 入口網站
 如果您使用商務活動監控 (BAM)，您必須復原 BAM 入口網站的復原一部分您[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。 如果您未使用 BAM，則此程序是選擇性的。  
@@ -38,7 +39,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  型別`appcmd restore backup “` *backupname*`”`，然後按下**Enter**。  
   
-     *Backupname*是您先前使用建立的備份名稱**Appcmd.exe**。 此備份必須存在於**%windir%\system32\inetsrv\backup**目錄。 備份無法用於還原不同電腦上建立的密碼。 如果 BAMAppPool 設定為預設值以外的身分識別執行**NetworkService**帳戶，您必須分別進行設定的帳戶和密碼下, 一個步驟中所述。  
+     *Backupname*是您先前使用建立的備份名稱**Appcmd.exe**。 此備份必須存在於 **%windir%\system32\inetsrv\backup**目錄。 備份無法用於還原不同電腦上建立的密碼。 如果 BAMAppPool 設定為預設值以外的身分識別執行**NetworkService**帳戶，您必須分別進行設定的帳戶和密碼下, 一個步驟中所述。  
   
 5.  使用**網際網路資訊服務 (IIS) 管理員**，選取**應用程式集區**中**連線**窗格。  
   

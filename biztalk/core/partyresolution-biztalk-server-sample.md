@@ -1,11 +1,11 @@
 ---
-title: "PartyResolution （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: PartyResolution （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, parties
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - routing, messages
 - messages, routing
 ms.assetid: 220e6bc5-6f04-4f37-b0d0-f11c2cc14422
-caps.latest.revision: "33"
+caps.latest.revision: 33
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975420"
 ---
 # <a name="partyresolution-biztalk-server-sample"></a>PartyResolution （BizTalk Server 範例）
 PartyResolution 範例示範如何搭配運用 BizTalk 協調流程和合作對象解析，以將訊息路由至兩個可能收件者中的一個。  
@@ -125,7 +126,7 @@ PartyResolution 範例示範如何搭配運用 BizTalk 協調流程和合作對�
 -   Shipper1Process.odx 和 Shipper2Process.odx 的建置，是用於接收 SupplierProcess.odx 的送貨單和出貨建議，並用於傳送回應給 SupplierProcess.odx。 在這兩個託運商協調流程中都有使用相互關聯，而相互關聯類型則是依據升級屬性 PONo 而定。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- *\<範例路徑\>*\Orchestrations\PartyResolution\  
+ *\<範例路徑\>* \Orchestrations\PartyResolution\  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -242,7 +243,7 @@ btstask ImportBindings -ApplicationName:PartyResolutionSample -Source:%SupplierB
   
     12. 匯入私用金鑰，並提供在精靈中的密碼。  
   
-    13. 展開**憑證 （本機電腦）**節點，然後展開 **其他人**。 以滑鼠右鍵按一下**憑證**，按一下 **所有工作**，然後按一下 **匯入**。  
+    13. 展開**憑證 （本機電腦）** 節點，然後展開 **其他人**。 以滑鼠右鍵按一下**憑證**，按一下 **所有工作**，然後按一下 **匯入**。  
   
     14. 匯入公開金鑰。  
   
@@ -276,13 +277,13 @@ btstask ImportBindings -ApplicationName:PartyResolutionSample -Source:%SupplierB
   
 1.  執行下列資料夾中的 FilePolling.exe：  
   
-     *\<範例路徑 >*\Orchestrations\PartyResolution\FilePolling\bin\Debug  
+     *\<範例路徑 >* \Orchestrations\PartyResolution\FilePolling\bin\Debug  
   
 2.  按一下**啟動輪詢**。  
   
 3.  將提供的 PO 執行個體檔案 PurchaseOrder.xml 貼入下列資料夾中：  
   
-     *\<範例路徑 >*\Orchestrations\PartyResolution\FileDrop\PurchaseOrder  
+     *\<範例路徑 >* \Orchestrations\PartyResolution\FileDrop\PurchaseOrder  
   
 4.  觀察一系列可讓您了解此範例進度的相關訊息 (以訊息方塊的形式提供)：  
   

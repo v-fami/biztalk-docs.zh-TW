@@ -1,14 +1,14 @@
 ---
-title: "安裝 BizTalk Server 2013 和 2013 R2 |Microsoft 文件"
-ms.custom: 
+title: 安裝 BizTalk Server 2013 和 2013 R2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3b4665ea-6f2c-477f-98ec-1cebef05ad4a
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976364"
 ---
 # <a name="install-biztalk-server-2013-and-2013-r2"></a>安裝 BizTalk Server 2013 和 2013 R2
 列出安裝 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的步驟。  
@@ -78,13 +79,13 @@ ms.lasthandoff: 11/28/2017
     |-------------|-----------------|  
     |**文件集**|SDK 範例與公用程式的核心文件、教學課程、UI 參考 (F1 說明)、程式設計師參考以及使用方式指示。|  
     |**伺服器執行階段**|適用於 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的基本執行階段服務。|  
-    |**BizTalk EDI/AS2 執行階段**|執行階段服務可原生支援電子資料交換 (EDI) 的資料交換和 Applicability Statement 2 (AS2) 資料傳輸的傳訊功能。 **注意：**只有在已選取 [伺服器執行階段] 功能時，才能選取此項目。|  
-    |**Windows Communication Foundation (WCF) 配接器執行階段**|可讓 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 與 WCF 架構的應用程式通訊的配接器。 **注意：**只有在已選取 [伺服器執行階段] 功能時，才能選取此項目。|  
+    |**BizTalk EDI/AS2 執行階段**|執行階段服務可原生支援電子資料交換 (EDI) 的資料交換和 Applicability Statement 2 (AS2) 資料傳輸的傳訊功能。 **注意：** 只有在已選取 [伺服器執行階段] 功能時，才能選取此項目。|  
+    |**Windows Communication Foundation (WCF) 配接器執行階段**|可讓 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 與 WCF 架構的應用程式通訊的配接器。 **注意：** 只有在已選取 [伺服器執行階段] 功能時，才能選取此項目。|  
     |**入口網站元件**|入口網站元件是一組功能，可讓商務分析師利用商務資料進行溝通、合作及決策工作。|  
-    |**商務活動監控**|也稱為 BAM，其為一組功能，可讓商務使用者即時檢視不同的商務程序，以制定重要的商業決策。 **注意：**只有在已選取 [入口網站元件] 功能時，才能選取此項目。|  
+    |**商務活動監控**|也稱為 BAM，其為一組功能，可讓商務使用者即時檢視不同的商務程序，以制定重要的商業決策。 **注意：** 只有在已選取 [入口網站元件] 功能時，才能選取此項目。|  
     |**系統管理工具和監視**|為在本機電腦和遠端伺服器上管理與監視 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的必要元件。|  
-    |**Windows Communication Foundation (WCF) 系統管理工具**|選取此功能會安裝 WCF 元件適用的系統管理服務。 **注意：**只有在已選取 [Administrative Tools and Monitoring (系統管理工具和監視)] 功能時，才能選取此項目。|  
-    |**開發者工具與 SDK**|可快速建立 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 解決方案的範例與公用程式。 其中包括 SDK 範例與支援的文件、結構描述和對應設計工具、Visual Studio 專案範本。 **重要事項：**如果您打算執行任何開發工作，則必須安裝此元件。 如果未安裝**開發者工具與 SDK** 元件，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 所使用的 Visual Studio 擴充功能將無法運作。|  
+    |**Windows Communication Foundation (WCF) 系統管理工具**|選取此功能會安裝 WCF 元件適用的系統管理服務。 **注意：** 只有在已選取 [Administrative Tools and Monitoring (系統管理工具和監視)] 功能時，才能選取此項目。|  
+    |**開發者工具與 SDK**|可快速建立 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 解決方案的範例與公用程式。 其中包括 SDK 範例與支援的文件、結構描述和對應設計工具、Visual Studio 專案範本。 **重要事項：** 如果您打算執行任何開發工作，則必須安裝此元件。 如果未安裝**開發者工具與 SDK** 元件，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 所使用的 Visual Studio 擴充功能將無法運作。|  
     |***其他軟體***||  
     |**企業單一登入 (SSO) 管理模組**|SSO 分支機構應用程式和其對應適用的管理介面。|  
     |**企業單一登入主要密碼伺服器**|存放主要密碼的 SSO 伺服器。 系統中所有其他 SSO 伺服器皆會從這部伺服器取得主要密碼。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 環境必須具備主要密碼伺服器。|  

@@ -1,14 +1,14 @@
 ---
-title: "交換 XML 訊息的序列化期間遇到的錯誤結構 |Microsoft 文件"
-ms.custom: 
+title: 交換 XML 訊息的序列化期間遇到的錯誤結構 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 97939bfd-d1ee-455a-9952-4f25db020e7c
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278590"
 ---
 # <a name="structural-error-encountered-during-serialization-of-an-interchange-xml-message"></a>結構化交換 XML 訊息的序列化期間遇到的錯誤
 ## <a name="details"></a>詳細資料  

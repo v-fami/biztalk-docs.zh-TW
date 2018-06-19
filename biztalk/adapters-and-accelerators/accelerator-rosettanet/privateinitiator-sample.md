@@ -1,14 +1,14 @@
 ---
-title: "PrivateInitiator 範例 |Microsoft 文件"
-ms.custom: 
+title: PrivateInitiator 範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4f176566-2a71-487d-84c1-5e7767701e8b
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26004375"
 ---
 # <a name="privateinitiator-sample"></a>PrivateInitiator 範例
 PrivateInitiator.odx 範例包含啟動者私用程序所安裝的程式碼[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® BizTalk Server。 這是會從預設 SQL 配接器架構的傳送埠和接收埠，傳送和接收 RNIF 服務內容訊息的一般私用程序。  

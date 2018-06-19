@@ -1,17 +1,17 @@
 ---
-title: "BizTalk 訊息佇列大型訊息延伸模組 |Microsoft 文件"
-ms.custom: 
+title: BizTalk 訊息佇列大型訊息延伸模組 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BizTalk Message Queuing Large Message Extension
 - utilities, BizTalk Message Queuing Large Message Extension
 ms.assetid: 5d6892d3-fda8-41a3-8111-d28c11bd71fb
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006399"
 ---
 # <a name="biztalk-message-queuing-large-message-extension"></a>BizTalk 訊息佇列大型訊息延伸模組
 原生訊息佇列無法處理的訊息內文大於 4megabytes (MB)。 不過，Microsoft[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]包含原生訊息佇列的附加元件可以處理大於 4 MB 的訊息。 此附加元件當做 Mqrtlarge.dll 檔案，會傳遞，而且會公開**MQSendLargeMessage**和**MQReceiveLargeMessage**應用程式發展介面 (Api)，以及類似的 COM 模型。 這些函式會實作為標準訊息佇列應用程式開發介面， **MQSendMessage**和**MQReceiveMessage**分別。  
@@ -36,7 +37,7 @@ ms.lasthandoff: 12/01/2017
   
 |檔案|Description|  
 |---------------|-----------------|  
-|Mqrtlarge.dll|公開的 Win32 動態連結程式庫**MQSendLargeMessage**和**MQReceiveLargeMessage**。<br /><br /> 標頭檔位於*\<安裝路徑\>*\SDK\Include 目錄。 **注意：**必須安裝[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]到 64 位元版本的 Windows，才能存取 64 位元版本的 Mqrtlarge.dll。|  
+|Mqrtlarge.dll|公開的 Win32 動態連結程式庫**MQSendLargeMessage**和**MQReceiveLargeMessage**。<br /><br /> 標頭檔位於*\<安裝路徑\>* \SDK\Include 目錄。 **注意：** 必須安裝[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]到 64 位元版本的 Windows，才能存取 64 位元版本的 Mqrtlarge.dll。|  
   
  **使用此公用程式**  
   

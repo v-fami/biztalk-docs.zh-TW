@@ -1,14 +1,14 @@
 ---
-title: "攔截器組態檔的結構 |Microsoft 文件"
-ms.custom: 
+title: 攔截器組態檔的結構 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ea36c466-6caf-44b7-8ee6-dbd3d3675da9
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278350"
 ---
 # <a name="structure-of-an-interceptor-configuration-file"></a>攔截器組態檔的結構
 本節包含攔截器組態檔之結構的相關資訊。 這個基本結構由 WF 與 WCF 攔截器組態所共用。  

@@ -1,14 +1,14 @@
 ---
-title: "使用規則引擎時的效能考量 |Microsoft 文件"
-ms.custom: 
+title: 使用規則引擎時的效能考量 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9e9020c2-5152-40f6-940b-d4ce4081f069
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22266502"
 ---
 # <a name="performance-considerations-when-using-the-rule-engine"></a>使用規則引擎時的效能考量
 本主題討論規則引擎如何在各種情況下執行，以及使用各種不同的組態/調整參數值來執行。  

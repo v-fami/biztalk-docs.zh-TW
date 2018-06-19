@@ -1,15 +1,15 @@
 ---
-title: "BizTalk Server 中的組件的部署方式 |Microsoft 文件"
-description: "組件部署至 GAC 中，並啟用 BizTalk Server 中的組件的版本控制"
-ms.custom: 
+title: BizTalk Server 中的組件的部署方式 |Microsoft 文件
+description: 組件部署至 GAC 中，並啟用 BizTalk Server 中的組件的版本控制
+ms.custom: ''
 ms.date: 01/21/2016
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c7f99ed5-b64a-4a38-99d7-83070fb69030
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006111"
 ---
 # <a name="biztalk-assemblies"></a>BizTalk 組件
 Microsoft BizTalk Server 與 .NET Framework 最重要的部分是所有的 BizTalk Server 成品、對應、結構描述、協調流程以及管線都會編譯為 .NET 組件。 此設計的兩個最重要含意是這些組件必須具有強式名稱，因此它們也遵循 .NET 版本管理規則。 其主要含意為，一旦針對另一個 .NET 專案或組件 (包括 BizTalk 專案) 的特定版本建置 BizTalk 專案，該專案會繼續使用此版本，直到再針對較新的版本重新建置它為止。  

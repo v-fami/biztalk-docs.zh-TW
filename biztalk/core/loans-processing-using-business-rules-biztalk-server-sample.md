@@ -1,17 +1,17 @@
 ---
-title: "貸款處理使用商務規則 （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: 貸款處理使用商務規則 （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, business rules
 - business rules, examples
 ms.assetid: 3e1c80c6-adc1-4a0f-83fd-409ce1b8f21f
-caps.latest.revision: "28"
+caps.latest.revision: 28
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008343"
 ---
 # <a name="loans-processing-using-business-rules-biztalk-server-sample"></a>貸款處理使用商務規則 （BizTalk Server 範例）
 「使用商務規則處理貸款」範例將示範如何使用協調流程內管理的規則集，以及如何使用稱為「事實」的輸入組合，計算所處理文件內某些欄位的設定。 事實可以是呼叫 .NET 架構組件的結果，從訊息的 XML 擷取的值，或是從資料庫擷取的資料。 此範例還會示範，如何隨時變更規則來影響後續計算，而不需重新部署。  
@@ -141,7 +142,7 @@ ms.lasthandoff: 12/01/2017
     |4|Residency Status Rule|如果**PlaceOfResidence &#124;TimeInMonths** > 18<br /><br /> 然後**ResidencyStatus** = **有效**|  
     |!1, !2, !3, !4|Negation Rules|條件的邏輯**不**對應規則 1 – 4 中所述的條件。 結果動作為所設定字串的變更。|  
   
-6.  以滑鼠右鍵按一下**版本 1.1 （未儲存）**節點，然後再按一下**儲存**。  
+6.  以滑鼠右鍵按一下**版本 1.1 （未儲存）** 節點，然後再按一下**儲存**。  
   
 7.  以滑鼠右鍵按一下**1.1 版**節點，然後再按一下**發行**。  
   

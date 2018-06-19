@@ -1,11 +1,11 @@
 ---
-title: "訊息與執行個體資料追蹤的安全性考量 |Microsoft 文件"
-ms.custom: 
+title: 訊息與執行個體資料追蹤的安全性考量 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - permissions, HAT
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - HAT, security
 - Management database, HAT
 ms.assetid: 83e47dc2-c8e2-42a2-9c85-d511e7dae83f
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271766"
 ---
 # <a name="security-considerations-for-message-and-instance-data-tracking"></a>訊息與執行個體資料追蹤的安全性考量
 基於安全性理由，追蹤的訊息和服務執行個體未使用的瀏覽器或 Url 如同舊版[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。 此監視的選項會包含在 BizTalk Server 管理主控台的 [群組概觀] 頁面的一部分。  回溯相容性，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]仍然裝載了 Microsoft Internet Explorer 基於安全性理由在殼層內。  

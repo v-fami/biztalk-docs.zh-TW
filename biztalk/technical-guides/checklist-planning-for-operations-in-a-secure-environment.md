@@ -1,14 +1,14 @@
 ---
-title: "檢查清單: 作業的安全環境中規劃 |Microsoft 文件"
-ms.custom: 
+title: '檢查清單: 作業的安全環境中規劃 |Microsoft 文件'
+ms.custom: ''
 ms.date: 06/29/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0d6464df-6736-46e2-a0c7-cc2a256c5144
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976828"
 ---
 # <a name="checklist-planning-for-operations-in-a-secure-environment"></a>作業的安全環境中規劃檢查清單：
 執行[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]安全的環境中需要額外的步驟部署和組態。 預設作業系統安裝不需要採取這些帳戶，但案例嚴格的安全性原則已套用的位置，而應該納入本章節中的帳戶資訊。 層級的限制套用到伺服器上可能有所差異，但是下列資訊應涵蓋大部分的情況下，會是很好的起點。  

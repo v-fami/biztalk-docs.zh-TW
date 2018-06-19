@@ -1,11 +1,11 @@
 ---
-title: "如何管理密碼同步化 |Microsoft 文件"
-ms.custom: 
+title: 如何管理密碼同步化 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Password Synchronization [SSO], managing
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - SSO database, database settings
 - SSOMANAGE command line utility
 ms.assetid: 033e63f2-e5b0-4400-99c3-145679d9b84e
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972652"
 ---
 # <a name="how-to-manage-password-synchronization"></a>如何管理密碼同步處理
 使用 MMC 嵌入式管理單元或 SSOMANAGE 命令列公用程式來啟用或停用 SSO 功能，以及顯示目前的 SSO 資料庫設定。  

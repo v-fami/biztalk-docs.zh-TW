@@ -1,14 +1,14 @@
 ---
-title: "具現化外掛式配接器 |Microsoft 文件"
-ms.custom: 
+title: 具現化外掛式配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9b8359a3-b098-4bb6-87b4-d3432d2671b1
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257486"
 ---
 # <a name="instantiating-isolated-adapters"></a>讓外掛式配接器具現化
 之前討論過，外掛式配接器不會由 BizTalk Server 具現化， 而是在另一個處理序中具現化及裝載。 要建立它的傳輸 proxy 的配接器負責**QueryInterface**，如**IBTTransportProxy**，然後呼叫**IBTTransportProxy**。**RegisterIsolatedReceiver**向 「 傳訊引擎。  
@@ -56,7 +57,7 @@ private IBTTransportProxy transportProxy;
 }  
 ```  
   
- **實作秘訣：**建議配接器應進行中的計數。 此配接器應封鎖**Terminate**訊息計數達到零以前。 在接收端，這項工作包含尚未發佈至 BizTalk Server 的任何未完成的要求。 回應訊息不會傳遞至接收配接器之後**Terminate**已呼叫。  
+ **實作秘訣：** 建議配接器應進行中的計數。 此配接器應封鎖**Terminate**訊息計數達到零以前。 在接收端，這項工作包含尚未發佈至 BizTalk Server 的任何未完成的要求。 回應訊息不會傳遞至接收配接器之後**Terminate**已呼叫。  
   
  對於傳送配接器而言，應該會以適當方式處理進行中的訊息。 這表示，已成功傳遞的任何訊息都應該從配接器的私用應用程式訊息佇列中刪除，以免將訊息傳送一次以上。  
   

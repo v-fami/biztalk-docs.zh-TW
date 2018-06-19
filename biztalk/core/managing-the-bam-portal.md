@@ -1,15 +1,15 @@
 ---
-title: "管理 BizTalk Server 中的 BAM 入口網站 |Microsoft 文件"
-Description: "安裝和設定 BizTalk Server 中的 BAM 入口網站的概觀"
-ms.custom: 
+title: 管理 BizTalk Server 中的 BAM 入口網站 |Microsoft 文件
+Description: 安裝和設定 BizTalk Server 中的 BAM 入口網站的概觀
+ms.custom: ''
 ms.date: 08/15/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3a08aa85-3a45-4a8c-bdb5-5615ca097ce1
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262566"
 ---
 # <a name="manage-the-bam-portal"></a>管理 BAM 入口網站
 

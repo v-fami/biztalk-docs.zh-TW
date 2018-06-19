@@ -1,14 +1,14 @@
 ---
-title: "安裝設計工具擴充性範例 |Microsoft 文件"
-ms.custom: 
+title: 安裝設計工具擴充性範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: eba13a4a-1b87-4268-af91-29af3a5bc5ef
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007975"
 ---
 # <a name="installing-the-designer-extensibility-sample"></a>安裝設計工具擴充性範例
 本章節描述設計工具擴充性範例的安裝程序。 您必須安裝中的範例[安裝及執行路線上手範例](../esb-toolkit/installing-and-running-the-itinerary-on-ramp-sample.md)和[安裝及執行動態解析範例](../esb-toolkit/installing-and-running-the-dynamic-resolution-sample.md)您安裝及使用這個範例。  

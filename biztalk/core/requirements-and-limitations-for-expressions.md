@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Expression Editor
 - Expression Editor, Orchestration Designer
 ms.assetid: 1e0353d3-c2f3-4c10-86e3-8620e62dd0d5
-caps.latest.revision: ''
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22268382"
 ---
 # <a name="requirements-and-limitations-for-expressions"></a>運算式的需求和限制
 協調流程設計師中的 [BizTalk 運算式編輯器] 是標準的 Visual Studio 文字編輯器，這表示它會提供 IntelliSense。 您可以使用 [BizTalk 運算式編輯器] 輸入文字格式的運算式。  

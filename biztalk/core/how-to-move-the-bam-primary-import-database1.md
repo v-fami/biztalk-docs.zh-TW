@@ -1,17 +1,17 @@
 ---
-title: "如何移動 BAM 主要匯入 Database1 |Microsoft 文件"
-ms.custom: 
+title: 如何移動 BAM 主要匯入 Database1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - migrating, Primary Import database [BAM]
 - Primary Import database [BAM], migrating
 ms.assetid: fab13fea-5c35-4a9f-977d-cc45545c54b2
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972660"
 ---
 # <a name="how-to-move-the-bam-primary-import-database"></a>如何移動 BAM 主要匯入資料庫
 您可以使用這個程序，將 BAM 主要匯入資料庫移動到其他伺服器。  
@@ -55,7 +56,7 @@ ms.lasthandoff: 11/28/2017
   
 8.  以滑鼠右鍵按一下**SampleUpdateInfo.xml**，然後按一下 **編輯**。  
   
-9. 在主要匯入資料庫區段中的檔案，取代**"SourceServer"**然後取代與來源系統的名稱取代**"DestinationServer"**目的系統的名稱。  
+9. 在主要匯入資料庫區段中的檔案，取代 **"SourceServer"** 然後取代與來源系統的名稱取代 **"DestinationServer"** 目的系統的名稱。  
   
     > [!IMPORTANT]
     >  在來源及目的系統的名稱兩端加上引號。  

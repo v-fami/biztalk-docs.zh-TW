@@ -1,11 +1,11 @@
 ---
-title: "MIME （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: MIME （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - send pipelines, MIME/SMIME Encoder [pipeline component]
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - MIME/SMIME Encoder [pipeline component], examples
 - examples, MIME/SMIME Encoder [pipeline component]
 ms.assetid: f76c720d-3798-4f15-a5f9-885ddf421d57
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974068"
 ---
 # <a name="mime-biztalk-server-sample"></a>MIME （BizTalk Server 範例）
 MIME 範例會示範如何在傳送管線內執行 MIME 編碼。  

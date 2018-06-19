@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263542"
 ---
 # <a name="mqseries-adapter-message-flow"></a>MQSeries 配接器訊息流程
 來自 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 電腦的訊息會先傳到在 Windows 上執行的 MQSeries Server。 在 Windows 上執行的 MQSeries Server 可以位於執行 BizTalk Server 的相同電腦上。 訊息透過 MQSeries Server for Windows 電腦路由到裝載於 UNIX 這類作業系統上的 MQSeries Server 主控件。 然後應用程式從 MQSeries 佇列擷取訊息。  

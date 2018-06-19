@@ -1,18 +1,18 @@
 ---
-title: "如何列出使用者帳戶具有存取權新增至 檢視 |Microsoft 文件"
-ms.custom: 
+title: 如何列出使用者帳戶具有存取權新增至 檢視 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - user accounts, BAM
 - managing [BAM], user accounts
 - Get-Accounts utility [BAM]
 ms.assetid: 690fb45a-6de0-489e-9ddd-e88e29413c16
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972508"
 ---
 # <a name="how-to-list-user-accounts-with-access-to-a-view"></a>如何列出具有檢視之存取權限的使用者帳戶
 系統管理員使用**get 帳戶**BAM 管理公用程式命令，以取得清單檢視角色，這表示所有使用者帳戶存取特定檢視的所有使用者帳戶。  

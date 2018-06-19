@@ -1,14 +1,14 @@
 ---
-title: "測試 BizTalk Server 的虛擬化效能 |Microsoft 文件"
-ms.custom: 
+title: 測試 BizTalk Server 的虛擬化效能 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d09121b1-cdd6-4c01-9d69-0f1923464f0e
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008567"
 ---
 # <a name="testing-biztalk-server-virtualization-performance"></a>測試 BizTalk 伺服器虛擬化的效能
 本指南中所述的效能測試案例中每個已部署在 Microsoft 測試實驗室中，實體電腦上，然後在每個不同的系統架構上執行相同的負載測試。 主機上的作業系統每一部實體電腦已完整安裝[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]Enterprise，64 位元版本，安裝 HYPER-V 伺服器角色。 用於測試 BizTalk Server 的虛擬機器設定的[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]Enterprise，做為客體作業系統的 64 位元版本。 用於測試 SQL Server 虛擬機器已設定使用[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]Enterprise，做為客體作業系統的 64 位元版本。 用來編寫一系列的最佳做法和指南設計、 實作、 測試案例、 測試方法、 效能測試結果及後續的分析和最佳化虛擬化[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。  

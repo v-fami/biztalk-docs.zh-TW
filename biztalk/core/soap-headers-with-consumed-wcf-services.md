@@ -1,11 +1,11 @@
 ---
-title: "與使用的 WCF 服務的 SOAP 標頭 |Microsoft 文件"
-ms.custom: 
+title: 與使用的 WCF 服務的 SOAP 標頭 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - consuming, WCF services
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - WCF services, SOAP headers
 - SOAP headers, consuming [WCF services]
 ms.assetid: 0582ee26-b549-4b50-b365-36824010dab0
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277486"
 ---
 # <a name="soap-headers-with-consumed-wcf-services"></a>SOAP 標頭與使用 WCF 服務
 若要傳送訊息至 WCF 服務使用自訂 SOAP 標頭，這些標頭必須設定 （在 「 運算式 」 圖形，例如） 的協調流程和管線元件 （在程式碼） 中為內容屬性**OutboundCustomHeaders**。 這個內容屬性位於目標命名空間**http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties**，並包含自訂 SOAP 標頭的字串表示法。  

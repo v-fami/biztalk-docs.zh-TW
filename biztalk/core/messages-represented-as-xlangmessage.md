@@ -1,14 +1,14 @@
 ---
-title: "訊息表示為 XLANGMessage |Microsoft 文件"
-ms.custom: 
+title: 訊息表示為 XLANGMessage |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: aadca870-2f93-4be3-8733-a0cd3815add7
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972268"
 ---
 # <a name="messages-represented-as-xlangmessage"></a>表示為 XLANGMessage 的訊息
 **XLANGMessage**物件代表以 XLANG 服務宣告的訊息執行個體。 這個物件的取得方式，是在方法引動過程中將訊息的參考傳遞為參數。 **XLANGPart**物件都代表在 XLANG 服務中的訊息執行個體中所包含的訊息部分。 此物件取自藉由傳遞部分參考方法的引動過程中，其中的接收參數類型**XLANGPart**或傳遞的參考上列舉**XLANGMessage**。  

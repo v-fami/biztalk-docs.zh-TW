@@ -1,14 +1,14 @@
 ---
-title: "密碼同步配接器 |Microsoft 文件"
-ms.custom: 
+title: 密碼同步配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 56f97cfa-59d4-4f0a-bd08-b4857ab42122
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264126"
 ---
 # <a name="password-sync-adapters"></a>密碼同步配接器
 A*密碼同步配接器*是從非 Windows 系統的密碼變更會傳播的元件。 雖然密碼同步配接器與傳統單一登入應用程式相似，但有數個差異：  

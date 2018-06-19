@@ -1,18 +1,18 @@
 ---
-title: "如何使用選取成品類型對話方塊 |Microsoft 文件"
-ms.custom: 
+title: 如何使用選取成品類型對話方塊 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Select Artifact Type dialog box
 - artifacts, Select Artifact Type dialog box
 - Orchestration Designer, items
 ms.assetid: f0f767f1-4130-4ff0-a898-a089343ee71f
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971628"
 ---
 # <a name="how-to-use-the-select-artifact-type-dialog-box"></a>如何使用選取成品類型對話方塊
 *項目*用來設定協調流程設計師 」 的協調流程的項目。 項目 (Item) 的範例包括結構描述、對應、管線、連接埠類型以及多部分訊息類型等。 在開發協調流程及其組成部分 (例如，連接埠圖形、轉換圖形和訊息) 時，所需參考的項目可能不在目前的協調流程中，但在目前的專案或在其他已編譯入 BizTalk Server 組件的其他專案中。 您使用**選取成品類型**對話方塊，即可尋找並設定協調流程內的項目時，然後指定項目。  

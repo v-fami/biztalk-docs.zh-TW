@@ -1,17 +1,17 @@
 ---
-title: "如何修改彙總 |Microsoft 文件"
-ms.custom: 
+title: 如何修改彙總 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - aggregations [BAM], modifying
 - BAM portal, aggregations
 ms.assetid: dd5ce211-32d3-4e1d-8ee0-1225ec2c45fb
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254678"
 ---
 # <a name="how-to-modify-an-aggregation"></a>如何修改彙總
 請依照在 Excel 中使用樞紐分析表的相同方式使用 Office Web Components 中的樞紐分析表。 您可以新增和移除列、欄以及篩選，以便在能夠建立警示的彙總資料上產生檢視。  

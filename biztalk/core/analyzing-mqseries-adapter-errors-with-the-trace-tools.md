@@ -18,7 +18,7 @@ helpviewer_keywords:
 - MQSeries adapters, errors
 - Adapter Trace Utility
 ms.assetid: fdc73d99-3b73-491d-9b2f-7064364fefa7
-caps.latest.revision: ''
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26006624"
 ---
 # <a name="analyzing-mqseries-adapter-errors-with-the-trace-tools"></a>使用追蹤工具分析 MQSeries 配接器錯誤
 您可以使用追蹤工具來分析執行應用程式時的傳訊失敗。 透過 MQSeries 配接器，您必須使用兩個工具，一個是供配接器及您的 BizTalk 應用程式使用的工具 (trace.cmd)，另一個則是供 MQSAgent 使用的工具 (MQSTrace.cmd)。 這兩種工具都會使用 tracelog.exe。 如果尚未安裝 tracelog.exe，您就必須安裝該檔案。  

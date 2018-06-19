@@ -1,14 +1,14 @@
 ---
-title: "已知問題與 EDI 傳送處理 |Microsoft 文件"
-ms.custom: 
+title: 已知問題與 EDI 傳送處理 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1325dcd9-5dbb-48bb-b5a3-1502d1424d4e
-caps.latest.revision: "31"
+caps.latest.revision: 31
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263310"
 ---
 # <a name="known-issues-with-edi-send-processing"></a>EDI 傳送處理的已知問題
 本主題說明處理 EDI 傳送管線的已知問題。  

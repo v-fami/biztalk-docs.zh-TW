@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218566"
 ---
 # <a name="overview-of-the-wcf-service-model-with-the-sap-adapter"></a>SAP 配接器之 WCF 服務模型的概觀
 當您使用作業的[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]介面，您的程式碼做為用戶端或服務給配接器。  

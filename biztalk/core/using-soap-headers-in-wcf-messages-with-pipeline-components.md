@@ -1,11 +1,11 @@
 ---
-title: "WCF 訊息的管線元件中使用 SOAP 標頭 |Microsoft 文件"
-ms.custom: 
+title: WCF 訊息的管線元件中使用 SOAP 標頭 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components, SOAP headers
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - SOAP headers, WCF services
 - WCF services, SOAP headers
 ms.assetid: b02f2913-4948-4de9-bc59-73bab40aa1a0
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973836"
 ---
 # <a name="using-soap-headers-in-wcf-messages-with-pipeline-components"></a>搭配管線元件使用 WCF 訊息中的 SOAP 標頭
 您可以在管線元件中搭配 WCF 配接器設定自訂 SOAP 標頭。 您可以使用內容屬性名稱的組合**OutboundCustomHeaders**，和目標命名空間**http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties**。 當您使用**OutboundCustomHeaders**屬性，屬性必須有\<**標頭**\>元素是根項目。 所有自訂 SOAP 標頭必須置於\<**標頭**\>項目。 如果自訂 SOAP 標頭值為空字串，您必須指派\<**標頭**\>\</**標頭**\>或\<**標頭**/ \>至**OutboundCustomHeaders**屬性。 如需如何搭配 WCF 配接器使用 SOAP 標頭的詳細資訊，請參閱 SDK 範例，使用自訂 SOAP 標頭搭配 WCF 配接器，從[http://go.microsoft.com/fwlink/?LinkId=79960](http://go.microsoft.com/fwlink/?LinkId=79960)。  

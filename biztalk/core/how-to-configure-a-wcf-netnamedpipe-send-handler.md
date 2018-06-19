@@ -1,11 +1,11 @@
 ---
-title: "如何設定 Wcf-netnamedpipe 傳送處理常式 |Microsoft 文件"
-ms.custom: 
+title: 如何設定 Wcf-netnamedpipe 傳送處理常式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF-NetNamedPipe adapters, global adapters
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - send handlers, WCF-NetNamedPipe adapters
 - configuring [WCF-NetNamedPipe adapters], send handlers
 ms.assetid: 1f281649-d09f-44eb-8af5-1f83233fab60
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248014"
 ---
 # <a name="how-to-configure-a-wcf-netnamedpipe-send-handler"></a>如何設定 WCF-NetNamedPipe 傳送處理常式
 請使用下列程序設定 WCF-NetNamedPipe 傳送處理常式。  

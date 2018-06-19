@@ -1,11 +1,11 @@
 ---
-title: "結構描述解析程式元件 （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: 結構描述解析程式元件 （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Flat File Disassembler [pipeline component], examples
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - schemas, examples
 - examples, Flat File Disassembler [pipeline component]
 ms.assetid: 9ef68988-c4ee-42d5-83b5-a5c978b2007d
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974916"
 ---
 # <a name="schema-resolver-component-biztalk-server-sample"></a>結構描述解析程式元件 （BizTalk Server 範例）
 「結構描述解析程式元件」範例會示範如何擴充 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 一般檔案解譯器元件的功能。  
@@ -32,7 +33,7 @@ ms.lasthandoff: 11/28/2017
  「結構描述解析程式」元件會示範選取一般檔案解譯器的替代方法。 在此範例中會定義四個結構描述，而每個結構描述訊息的前兩個字元都是唯一的。 會定義唯一的前兩個字元與對應的結構描述之間的對應。 「結構描述解析程式」元件收到輸入訊息時，會讀取前兩個字元，判斷要為對應文件使用哪一個結構描述，再將結構描述資訊儲存於訊息內容，然後呼叫標準一般檔案解譯器元件。 標準一般檔案解譯器元件會從訊息內容讀取結構描述資訊，並用該結構描述剖析文件。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- *\<範例路徑\>*\Pipelines\SchemaResolverComponent\  
+ *\<範例路徑\>* \Pipelines\SchemaResolverComponent\  
   
  下表顯示此範例所用的檔案，並描述其用途。  
   
@@ -56,7 +57,7 @@ ms.lasthandoff: 11/28/2017
   
 1.  在命令視窗中，將目錄變更 (cd) 至下列資料夾：  
   
-     *\<範例路徑\>*\Pipelines\SchemaResolverComponent  
+     *\<範例路徑\>* \Pipelines\SchemaResolverComponent  
   
 2.  執行檔案 Setup.bat，這會執行下列動作：  
   

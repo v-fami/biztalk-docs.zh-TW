@@ -1,14 +1,14 @@
 ---
-title: "EDI 解決方案架構 |Microsoft 文件"
-ms.custom: 
+title: EDI 解決方案架構 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 55709a89-7706-4c64-ada3-16951951c943
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239878"
 ---
 # <a name="edi-solution-architecture"></a>EDI 解決方案架構
 「電子資料交換」(EDI) 是商務實體以電子方式交換資料的最普遍方法之一。 EDI 的使用限定訊息語法和標準 （包括 ANSI X12 和 UN/EDIFACT），傳訊通訊協定和傳輸。 以下是 EDI 傳訊的特性：  

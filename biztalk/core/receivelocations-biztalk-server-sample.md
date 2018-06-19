@@ -1,14 +1,14 @@
 ---
-title: "ReceiveLocations （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: ReceiveLocations （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 87d75941-3973-4166-91b0-f1192b25a804
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972620"
 ---
 # <a name="receivelocations-biztalk-server-sample"></a>ReceiveLocations （BizTalk Server 範例）
 ReceiveLocations 範例示範如何建立接收位置中的[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境使用**ExplorerOM**管理物件。 如需有關一般接收位置，請參閱[接收位置](../core/receive-locations.md)。  

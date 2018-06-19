@@ -1,11 +1,11 @@
 ---
-title: "WCF 接收配接器 |Microsoft 文件"
-ms.custom: 
+title: WCF 接收配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, headers
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - headers [messages]
 - SOAP messages, receive adapters
 ms.assetid: 6b3d5df1-5d9d-4240-a98f-ea29c3272e38
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972692"
 ---
 # <a name="wcf-receive-adapter"></a>WCF 接收配接器
 WCF 接收配接器可讓您接收 WCF 服務要求。  

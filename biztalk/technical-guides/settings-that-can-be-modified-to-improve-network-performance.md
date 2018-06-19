@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "25976324"
 ---
 # <a name="settings-that-can-be-modified-to-improve-network-performance"></a>您可以修改改善網路效能的設定
 本主題會提供影響網路效能的建議值的描述。  

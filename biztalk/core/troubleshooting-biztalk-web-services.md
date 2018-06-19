@@ -1,14 +1,14 @@
 ---
-title: "BizTalk Web 服務疑難排解 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Web 服務疑難排解 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cdc86de8-e41e-4878-a66e-e242bcf3b705
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975596"
 ---
 # <a name="troubleshooting-biztalk-web-services"></a>BizTalk Web 服務疑難排解
 本節會針對如何辨識及解決常見 Web 服務問題提供相關建議。  

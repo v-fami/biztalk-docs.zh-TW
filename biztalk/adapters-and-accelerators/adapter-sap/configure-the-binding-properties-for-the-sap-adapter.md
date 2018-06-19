@@ -1,17 +1,17 @@
 ---
-title: "設定 SAP 配接器的繫結屬性 |Microsoft 文件"
-ms.custom: 
+title: 設定 SAP 配接器的繫結屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - binding properties, specifying at design time
 - binding properties, specifying at run time
 ms.assetid: 259a5895-c19d-409c-b2fc-bfdf59d5d74b
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217438"
 ---
 # <a name="configure-the-binding-properties-for-the-sap-adapter"></a>設定 SAP 配接器的繫結屬性
 [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]呈現數個繫結屬性可讓您控制其行為特性，部份。 本節提供從 Visual Studio （設計階段），然後從設定的繫結屬性的相關資訊[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]管理主控台 （執行時間）。 在設計階段，您必須指定要產生結構描述的特定作業的繫結屬性。 在執行階段，必須指定的繫結屬性一部分傳送或接收埠的傳送或接收訊息從 SAP 系統。  

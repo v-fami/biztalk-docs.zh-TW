@@ -1,17 +1,17 @@
 ---
-title: "數字範圍維度 |Microsoft 文件"
-ms.custom: 
+title: 數字範圍維度 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - aggregations [BAM], Numeric Range dimension
 - Numeric Range dimension [BAM]
 ms.assetid: a874ce44-b034-498f-ba58-114028dbef2c
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263398"
 ---
 # <a name="numeric-range-dimension"></a>數字範圍維度
 您可以使用數字範圍維度，依據指定範圍的易記名稱將彙總分類。 例如，商務分析師可以定義名為「PO 大小」的數字範圍維度，以「小」代表訂單金額介於 0 至 $100 的範圍；以「中」代表訂單金額介於 $100 至 $1,000 的範圍；並以「大」代表訂單金額超過 $1,000 的範圍。  

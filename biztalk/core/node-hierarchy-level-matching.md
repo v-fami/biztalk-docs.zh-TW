@@ -1,11 +1,11 @@
 ---
-title: "節點階層層級比對 |Microsoft 文件"
-ms.custom: 
+title: 節點階層層級比對 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Field nodes
@@ -21,7 +21,7 @@ helpviewer_keywords:
 - compiler directives, flattening source hierarchies
 - maps, processing
 ms.assetid: 5ba1ac77-0e70-4c58-9b8c-1b379dbbb3bd
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -30,6 +30,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264758"
 ---
 # <a name="node-hierarchy-level-matching"></a>節點階層層級比對
 BizTalk 對應工具可讓您設定連結屬性以控制編譯器與來源與目的結構描述之間的節點階層比對的方式。 當您在來源結構描述的欄位與目的結構描述的欄位之間建立連結時，BizTalk 對應工具會自動新增編譯器連結。 這些編譯器連結視您所選取的比對而定。  

@@ -1,17 +1,17 @@
 ---
-title: "如何管理使用者對應的主控件初始化的 SSO |Microsoft 文件"
-ms.custom: 
+title: 如何管理使用者對應的主控件初始化的 SSO |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - maps, host initiated SSO
 - host initiated SSO, user maps
 ms.assetid: 6b05249e-da35-475b-9c23-5eb556013d57
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,13 +20,14 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972380"
 ---
 # <a name="how-to-manage-user-mappings-for-host-initiated-sso"></a>如何管理使用者對應的主控件初始化的 SSO
 使用下列程序，以建立對應、設定認證以及啟用或停用對應。  
   
 ### <a name="to-manage-user-mappings-for-host-initiated-sso-using-the-mmc-snap-in"></a>若要使用 MMC 嵌入式管理單元為主控件初始化的 SSO 管理使用者對應  
   
-1.  在 **[開始]** 功能表上，依序按一下 **[所有程式]**及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。  
+1.  在 **[開始]** 功能表上，依序按一下 **[所有程式]** 及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。  
   
 2.  在 ENTSSO MMC 嵌入式管理單元的範圍窗格中，展開 **[企業單一登入]** 節點。  
   
@@ -42,7 +43,7 @@ ms.lasthandoff: 11/28/2017
   
 3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-4.  型別**ssomanage – createmappings\<對應檔\>**，其中**對應檔 >**是 xml 檔案的名稱。  
+4.  型別**ssomanage – createmappings\<對應檔\>**，其中**對應檔 >** 是 xml 檔案的名稱。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  

@@ -1,11 +1,11 @@
 ---
-title: "管理 BizTalk Server 安全性 |Microsoft 文件"
-ms.custom: 
+title: 管理 BizTalk Server 安全性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BizTalk Server, security
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - passwords, security
 - user accounts, security
 ms.assetid: adc89b0a-9846-4c99-b0fc-a32fc56ed769
-caps.latest.revision: "31"
+caps.latest.revision: 31
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262854"
 ---
 # <a name="managing-biztalk-server-security"></a>管理 BizTalk Server 安全性
 若要維護安全的 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 環境，您必須管理帳戶、憑證及密碼。 為了確保 BizTalk Server 所處理之商務文件的安全性，BizTalk Server 系統管理員必須管理下列帳戶及憑證：  

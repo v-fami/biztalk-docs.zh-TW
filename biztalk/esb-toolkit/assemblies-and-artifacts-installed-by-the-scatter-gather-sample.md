@@ -1,14 +1,14 @@
 ---
-title: "組件和成品分散-集中範例安裝 |Microsoft 文件"
-ms.custom: 
+title: 組件和成品分散-集中範例安裝 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 61f5f10e-c38b-4887-b2db-f568a28d1d4d
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008055"
 ---
 # <a name="assemblies-and-artifacts-installed-by-the-scatter-gather-sample"></a>組件和成品分散-集中範例的安裝
 下表列出的組件和其他成品 ESB 分散-集中範例的安裝。  

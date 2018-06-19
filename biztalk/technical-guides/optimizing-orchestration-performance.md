@@ -1,14 +1,14 @@
 ---
-title: "協調流程效能最佳化 |Microsoft 文件"
-ms.custom: 
+title: 協調流程效能最佳化 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 437c7325-f037-451a-8dbd-f8d8c8889e20
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010391"
 ---
 # <a name="optimizing-orchestration-performance"></a>協調流程效能最佳化
 本主題說明在 BizTalk Server 方案中使用協調流程的最佳作法。 這包括的建議：  
@@ -309,7 +310,7 @@ public static Root SetValues(Microsoft.XLANGs.BaseTypes.XLANGMessage msg)
 }  
 ```  
   
- 這項技術可讓您處理訊息時使用的物件導向的方法。 應該使用這項技術，主要被使用相對較小的訊息。 這是因為即使這項技術會使用比時載入至訊息大幅減少記憶體**XmlDocument**物件時，整個訊息仍然會載入記憶體。 處理較大的訊息時，使用**XmlReader**讀取訊息的類別和**XmlWriter**類別來寫入訊息。 當使用**XmlReader**和**XmlWriter**，訊息會包含在**VirtualStream**物件。 如果訊息大小超過指定的值**大型訊息閾值 （位元組）**公開 BizTalk 群組屬性的 [設定] 頁面上，將訊息寫入至檔案系統。 這會降低整體效能，但可避免記憶體不足例外狀況。  
+ 這項技術可讓您處理訊息時使用的物件導向的方法。 應該使用這項技術，主要被使用相對較小的訊息。 這是因為即使這項技術會使用比時載入至訊息大幅減少記憶體**XmlDocument**物件時，整個訊息仍然會載入記憶體。 處理較大的訊息時，使用**XmlReader**讀取訊息的類別和**XmlWriter**類別來寫入訊息。 當使用**XmlReader**和**XmlWriter**，訊息會包含在**VirtualStream**物件。 如果訊息大小超過指定的值**大型訊息閾值 （位元組）** 公開 BizTalk 群組屬性的 [設定] 頁面上，將訊息寫入至檔案系統。 這會降低整體效能，但可避免記憶體不足例外狀況。  
   
 ## <a name="improve-performance-by-minimizing-the-use-of-logical-ports-bound-to-physical-ports"></a>最小化的邏輯連接埠繫結至實體連接埠使用來改善效能  
  您可以藉由減少使用的繫結至實體連接埠，使用下列介面卡的邏輯連接埠來提升效能：  
@@ -328,9 +329,9 @@ public static Root SetValues(Microsoft.XLANGs.BaseTypes.XLANGMessage msg)
 ## <a name="make-appropriate-use-of-net-classes-in-orchestrations-to-maximize-performance"></a>請將效能最大化的協調流程中使用適當的.NET 類別  
  一般情況下，協調流程內使用的.NET 類別可以分成兩個不同的類別：  
   
--   **協助程式和服務-**這些類別會提供一般服務至協調流程，例如追蹤、 錯誤處理、 快取，以及序列化/還原序列化。 大部分的這些類別可以實作做為靜態類別沒有任何內部狀態與多個公用靜態方法。 這個方法可避免在相同的時間，可協助降低主機處理程序的工作空間，並節省記憶體執行不同的協調流程中建立多個物件相同的類別。 是無狀態的類別，有助於減少必須序列化和凍結的協調流程時，保存到 BizTalk MessageBox 的內部狀態的整體大小。  
+-   **協助程式和服務-** 這些類別會提供一般服務至協調流程，例如追蹤、 錯誤處理、 快取，以及序列化/還原序列化。 大部分的這些類別可以實作做為靜態類別沒有任何內部狀態與多個公用靜態方法。 這個方法可避免在相同的時間，可協助降低主機處理程序的工作空間，並節省記憶體執行不同的協調流程中建立多個物件相同的類別。 是無狀態的類別，有助於減少必須序列化和凍結的協調流程時，保存到 BizTalk MessageBox 的內部狀態的整體大小。  
   
--   **實體和商務物件-**您可以使用這些類別來管理實體，例如訂單、 訂單項目，以及客戶。 單一協調流程可以在內部建立和管理多個相同的型別執行個體。 這些類別通常可以設定狀態，並且公開公用欄位和/或屬性，以及修改物件的內部狀態的方法。 這些類別的執行個體可以動態地還原 XLANGMessage 部分序列化至.NET 物件，藉由建立**XmlSerializer**或**DataContractSerializer**使用或類別**XLANGPart.RetrieveAs**方法。 您應該建構協調流程中使用非交易式範圍的方式，建立盡可能晚期和釋出不再需要為可設定狀態之類別的執行個體。 這個方法可減少主機處理程序的工作空間，並會序列化並保存到 MessageBox 資料庫中，已凍結的協調流程時的內部狀態的整體大小降到最低。 如需有關如何使用 BizTalk Server 中的協調流程的詳細資訊，請參閱文章[BizTalk Server 協調流程的常見問題集](http://go.microsoft.com/fwlink/?LinkID=116886)(http://go.microsoft.com/fwlink/?LinkID=116886)。  
+-   **實體和商務物件-** 您可以使用這些類別來管理實體，例如訂單、 訂單項目，以及客戶。 單一協調流程可以在內部建立和管理多個相同的型別執行個體。 這些類別通常可以設定狀態，並且公開公用欄位和/或屬性，以及修改物件的內部狀態的方法。 這些類別的執行個體可以動態地還原 XLANGMessage 部分序列化至.NET 物件，藉由建立**XmlSerializer**或**DataContractSerializer**使用或類別**XLANGPart.RetrieveAs**方法。 您應該建構協調流程中使用非交易式範圍的方式，建立盡可能晚期和釋出不再需要為可設定狀態之類別的執行個體。 這個方法可減少主機處理程序的工作空間，並會序列化並保存到 MessageBox 資料庫中，已凍結的協調流程時的內部狀態的整體大小降到最低。 如需有關如何使用 BizTalk Server 中的協調流程的詳細資訊，請參閱文章[BizTalk Server 協調流程的常見問題集](http://go.microsoft.com/fwlink/?LinkID=116886)(http://go.microsoft.com/fwlink/?LinkID=116886)。  
   
     > [!NOTE]  
     >  雖然這篇文章針對 BizTalk Server 2004 和 BizTalk Server 2006 所撰寫，所呈現的概念也適用於 BizTalk Server 2010 協調流程。  

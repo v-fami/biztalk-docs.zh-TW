@@ -1,14 +1,14 @@
 ---
-title: "執行 JD Edwards OneWorld 範例查詢 |Microsoft 文件"
-ms.custom: 
+title: 執行 JD Edwards OneWorld 範例查詢 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b060d383-a2df-472f-90cc-e79078b0bcfd
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975765"
 ---
 # <a name="execute-a-jd-edwards-oneworld-sample-query"></a>執行 JD Edwards OneWorld 範例查詢
 JD Edwards OneWorld (JDEOW) 系統是否可從[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]使用 JD Edwards OneWorld 配接器的系統。 此配接器隨附於[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。
@@ -105,7 +106,7 @@ JD Edwards OneWorld (JDEOW) 系統是否可從[!INCLUDE[btsBizTalkServerNoVersio
   
          `C:\JDEOWJars\BTSLIBInterop.jar; C:\JDEOWJars\Connector.jar; C:\JDEOWJars\Kernel.jar;C:\Program Files\Microsoft BizTalk Adapters for Enterprise Applications\J.D. Edwards OneWorld®\Classes\JDEJAccess.jar`  
   
-    5.  **密碼：**使用下拉式清單，然後輸入 JD Edwards OneWorld 密碼。  
+    5.  **密碼：** 使用下拉式清單，然後輸入 JD Edwards OneWorld 密碼。  
   
     6.  **連接埠：**  `6009`  
   
@@ -131,7 +132,7 @@ JD Edwards OneWorld (JDEOW) 系統是否可從[!INCLUDE[btsBizTalkServerNoVersio
   
      ![](../core/media/jdeow-callbsfn.gif "JDEOW_CALLBSFN")  
   
-5.  展開**[callbsfn]**向下捲動至**N0100041-Address Book MBF**。 選取 N0100041，然後按一下**完成**。  
+5.  展開 **[callbsfn]** 向下捲動至**N0100041-Address Book MBF**。 選取 N0100041，然後按一下**完成**。  
   
 6.  在 [方案總管] 中，沒有新的 BizTalk 協調流程含有兩個新的相關聯的結構描述檔案。 這些檔案是由 [新增配接器精靈] 所建立。 按兩下 [BizTalk Orchestration.odx]  檔案開啟協調流程。  
   
@@ -231,7 +232,7 @@ JD Edwards OneWorld (JDEOW) 系統是否可從[!INCLUDE[btsBizTalkServerNoVersio
   
      ![](../core/media/jdeow-orchestration-multipartmessages.gif "JDEOW_Orchestration_MultiPartMessages")  
   
-5.  連接**[jde_filein]**埠連接到**GetFileReceive**元件。  
+5.  連接 **[jde_filein]** 埠連接到**GetFileReceive**元件。  
   
 6.  連接**JDE_FileOut**埠連接到**FileToDiskReceive**元件。  
   
@@ -239,11 +240,11 @@ JD Edwards OneWorld (JDEOW) 系統是否可從[!INCLUDE[btsBizTalkServerNoVersio
   
 8.  反白顯示**SendToJDEOWSend**元件並設定其**訊息**屬性**MsgToJDEOW**。  
   
-9. 反白顯示**JDEOW_RespReceive**元件並設定其**訊息**屬性**[jdeow_resp]**。  
+9. 反白顯示**JDEOW_RespReceive**元件並設定其**訊息**屬性 **[jdeow_resp]**。  
   
-10. 連接**[sendtojdeow]**至**要求**部分**JDE_OW_Port**連接埠。  
+10. 連接 **[sendtojdeow]** 至**要求**部分**JDE_OW_Port**連接埠。  
   
-11. 連接**[jdeow_resp]**至**回應**部分**JDE_OW_Port**連接埠。  
+11. 連接 **[jdeow_resp]** 至**回應**部分**JDE_OW_Port**連接埠。  
   
      ![](../core/media/jdeow-portsurface-connectcomponentstoports.gif "JDEOW_PortSurface_ConnectComponentsToPorts")  
   
@@ -256,7 +257,7 @@ JD Edwards OneWorld (JDEOW) 系統是否可從[!INCLUDE[btsBizTalkServerNoVersio
   
      **sn-k [labs.snk]**  
   
-3.  在 [方案總管] 中，以滑鼠右鍵按一下**[jd_ow_test]**專案，然後再按一下**屬性**啟動專案的專案設計工具。  
+3.  在 [方案總管] 中，以滑鼠右鍵按一下 **[jd_ow_test]** 專案，然後再按一下**屬性**啟動專案的專案設計工具。  
   
 4.  按一下 [ **簽署** ] 索引標籤。  
   
@@ -272,7 +273,7 @@ JD Edwards OneWorld (JDEOW) 系統是否可從[!INCLUDE[btsBizTalkServerNoVersio
   
      ![](../core/media/jdeow-buildcompleteoutput.gif "JDEOW_BuildCompleteOutput")  
   
-10. 成功完成建置後，以滑鼠右鍵按一下**[XX_JD Edwards oneworldquery]**專案，然後再按一下**部署**。 在輸出視窗中會顯示下列輸出：  
+10. 成功完成建置後，以滑鼠右鍵按一下 **[XX_JD Edwards oneworldquery]** 專案，然後再按一下**部署**。 在輸出視窗中會顯示下列輸出：  
   
      ![](../core/media/jdeow-deployoutput.gif "JDEOW_DeployOutput")  
   
@@ -281,13 +282,13 @@ JD Edwards OneWorld (JDEOW) 系統是否可從[!INCLUDE[btsBizTalkServerNoVersio
   
 #### <a name="generate-the-xml-file-for-the-query"></a>產生查詢的 XML 檔案  
   
-1.  在 [方案總管] 中，按兩下**[n0100041service_n0100041.xsd]**開啟檔案。  
+1.  在 [方案總管] 中，按兩下 **[n0100041service_n0100041.xsd]** 開啟檔案。  
   
 2.  以滑鼠右鍵按一下**n0100041service_n0100041.xsd** ，然後按一下 **屬性**。 針對 **輸出執行個體檔案名稱** 輸入範例 XML 的下列路徑和檔案名稱：  
   
      `C:\LABS\JDE_OW_TEST\SAMPLE.XML`  
   
-3.  按一下 **[確定].** 在 [屬性] 視窗中，選取**\<結構描述\>**並設定**根參考：**至`AddressBookMasterMBF`。 這會導致產生的 XML 只包含**查詢**xml。  
+3.  按一下 **[確定].** 在 [屬性] 視窗中，選取**\<結構描述\>** 並設定**根參考：** 至`AddressBookMasterMBF`。 這會導致產生的 XML 只包含**查詢**xml。  
   
      ![](../core/media/jdeow-jde-ow-test-msvisualstudio-schemas.gif "JDEOW_JDE_OW_Test_MSVISUALSTUDIO_SCHEMAS")  
   
@@ -327,7 +328,7 @@ JD Edwards OneWorld (JDEOW) 系統是否可從[!INCLUDE[btsBizTalkServerNoVersio
   
      ![](../core/media/jdeow-file-transport-properties-filein.gif "JDEOW_File_Transport_Properties_FileIn")  
   
-9. 按一下**\<無\>**如**JDE_OW_Port**下拉式清單中。  
+9. 按一下**\<無\>** 如**JDE_OW_Port**下拉式清單中。  
   
 10. 選取**新傳送埠**然後選取或輸入下列值的屬性：  
   
@@ -351,7 +352,7 @@ JD Edwards OneWorld (JDEOW) 系統是否可從[!INCLUDE[btsBizTalkServerNoVersio
   
      `C:JDEOWJarsBTSLIBInterop.jar; C:JDEOWJarsConnector.jar; C:JDEOWJarsKernel.jar;C:Program FilesMicrosoft BizTalk Adapters for Enterprise ApplicationsJ.D. Edwards OneWorld®ClassesJDEJAccess.jar`  
   
-     **密碼：**使用下拉式清單，然後輸入 JD Edwards OneWorld 密碼。  
+     **密碼：** 使用下拉式清單，然後輸入 JD Edwards OneWorld 密碼。  
   
      **連接埠：**  `6009`  
   
@@ -361,7 +362,7 @@ JD Edwards OneWorld (JDEOW) 系統是否可從[!INCLUDE[btsBizTalkServerNoVersio
   
 12. 按兩下 [確定]  關閉對話方塊。  
   
-13. 在 設定 Applicationwindow 中，按一下  **\<無\>**如**JDE_FileOut**下拉式清單中。  
+13. 在 設定 Applicationwindow 中，按一下  **\<無\>** 如**JDE_FileOut**下拉式清單中。  
   
 14. 選取 [新增傳送埠]  ，然後選取或輸入下列屬性值：  
   
@@ -373,7 +374,7 @@ JD Edwards OneWorld (JDEOW) 系統是否可從[!INCLUDE[btsBizTalkServerNoVersio
   
      **傳送管線**： **XMLTransmit**  
   
-15. 按一下**設定**和型別`C:\Labs\JDE_OW_Test\FileOut`如**目的地資料夾。** 保留**%MessageID%.xml**如**檔案名稱**因為這會產生唯一的檔案，每個訊息。  
+15. 按一下**設定**和型別`C:\Labs\JDE_OW_Test\FileOut`如**目的地資料夾。** 保留 **%MessageID%.xml**如**檔案名稱**因為這會產生唯一的檔案，每個訊息。  
   
      ![](../core/media/jdeow-file-transport-properties-fileout.gif "JDEOW_File_Transport_Properties_FileOut")  
   

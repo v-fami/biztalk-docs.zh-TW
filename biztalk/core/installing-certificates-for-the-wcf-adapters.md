@@ -1,11 +1,11 @@
 ---
-title: "WCF 配接器安裝憑證 |Microsoft 文件"
-ms.custom: 
+title: WCF 配接器安裝憑證 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - tools, Certificates Management Console
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - WCF adapters, receive locations
 - WCF adapters, certificates
 ms.assetid: 04dc065f-a6e8-4359-8696-2a3de24d531d
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22258102"
 ---
 # <a name="installing-certificates-for-the-wcf-adapters"></a>安裝 WCF 配接器的憑證
 WCF 配接器可以基於下列用途使用公開金鑰基礎結構 (PKI) 數位憑證：訊息加密和解密、訊息簽章和驗證 (Verification) (不可否認性) 和用戶端驗證 (Authentication)。 本主題描述各種憑證使用方式案例和組態選項指導方針，以搭配 WCF 配接器使用數位憑證。  
@@ -36,7 +37,7 @@ WCF 配接器可以基於下列用途使用公開金鑰基礎結構 (PKI) 數位
   
 |憑證使用方式|使用者內容|憑證存放區位置|憑證類型|安裝憑證的時機|  
 |-----------------------|------------------|--------------------------------|----------------------|--------------------------------------|  
-|依據接收位置的安全性設定進行解密和簽章|與接收處理常式關聯之主控件執行個體所使用的帳戶|登入執行每一部電腦[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，以便為每個主控件執行個體服務帳戶 」，裝載接收位置，並且將服務憑證匯入**目前使用者 \ 個人 (My)**儲存。|自有私用憑證|指定的值**服務憑證-憑證指紋**下列組態屬性：<br /><br /> -**安全性模式**屬性 Wcf-basichttp 接收位置設定為**訊息**。<br />-**傳輸用戶端認證類型**屬性 Wcf-basichttp 接收位置設定為**憑證**如**TransportCredentialOnly**安全性模式。<br />-**訊息用戶端認證類型**屬性 Wcf-wshttp 接收位置設定為**無**，**憑證**，或**UserName**如**訊息**安全性模式。<br />-**傳輸用戶端認證類型**屬性 Wcf-nettcp 接收位置設定為**無**或**憑證**如**傳輸**安全性模式。<br />-**訊息用戶端認證類型**屬性 Wcf-nettcp 接收位置設定為**無**， **UserName**，或**憑證**如**訊息**安全性模式。<br />-**訊息用戶端認證類型**屬性 Wcf-nettcp 接收位置設定為**Windows**， **UserName**，或**憑證**如**TransportWithMessageCredential**安全性模式。<br />-**安全性模式**Wcf-netmsmq 屬性設定為**訊息**或**兩者**。|  
+|依據接收位置的安全性設定進行解密和簽章|與接收處理常式關聯之主控件執行個體所使用的帳戶|登入執行每一部電腦[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，以便為每個主控件執行個體服務帳戶 」，裝載接收位置，並且將服務憑證匯入**目前使用者 \ 個人 (My)** 儲存。|自有私用憑證|指定的值**服務憑證-憑證指紋**下列組態屬性：<br /><br /> -**安全性模式**屬性 Wcf-basichttp 接收位置設定為**訊息**。<br />-**傳輸用戶端認證類型**屬性 Wcf-basichttp 接收位置設定為**憑證**如**TransportCredentialOnly**安全性模式。<br />-**訊息用戶端認證類型**屬性 Wcf-wshttp 接收位置設定為**無**，**憑證**，或**UserName**如**訊息**安全性模式。<br />-**傳輸用戶端認證類型**屬性 Wcf-nettcp 接收位置設定為**無**或**憑證**如**傳輸**安全性模式。<br />-**訊息用戶端認證類型**屬性 Wcf-nettcp 接收位置設定為**無**， **UserName**，或**憑證**如**訊息**安全性模式。<br />-**訊息用戶端認證類型**屬性 Wcf-nettcp 接收位置設定為**Windows**， **UserName**，或**憑證**如**TransportWithMessageCredential**安全性模式。<br />-**安全性模式**Wcf-netmsmq 屬性設定為**訊息**或**兩者**。|  
 |用戶端驗證|不適用|以系統管理員的身分，登入執行 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 並將裝載接收位置的每個電腦，再將用戶端 X.509 憑證的 CA 憑證鏈結匯入電腦的「信任的根憑證授權」憑證存放區中，這樣就可以驗證這個接收位置的用戶端。|X.509 憑證的 CA 憑證鏈結|依據下列組態，將用戶端 X.509 憑證的 CA 憑證鏈結安裝在「信任的根憑證授權」憑證存放區：<br /><br /> -**訊息用戶端認證類型**或**傳輸用戶端認證類型**屬性 Wcf-basichttp 接收位置設定為**憑證**。<br />-**訊息用戶端認證類型**或**傳輸用戶端認證類型**屬性 Wcf-wshttp 接收位置設定為**憑證**。<br />-**訊息用戶端認證類型**或**傳輸用戶端認證類型**屬性 Wcf-nettcp 接收位置設定為**憑證**。<br />-**訊息用戶端認證類型**或**MSMQ 驗證模式**屬性 Wcf-netmsmq 接收位置設定為**憑證**。|  
   
 > [!NOTE]
@@ -59,8 +60,8 @@ WCF 配接器可以基於下列用途使用公開金鑰基礎結構 (PKI) 數位
   
 |憑證使用方式|使用者內容|憑證存放區位置|憑證類型|安裝憑證的時機|  
 |-----------------------|------------------|--------------------------------|----------------------|--------------------------------------|  
-|用戶端驗證|與傳送埠關聯之主控件執行個體所使用的帳戶|登入執行每一部電腦[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，以便為每個主控件執行個體服務帳戶 」，裝載傳送埠，並且將用戶端憑證匯入**目前使用者 \ 個人 (My)**儲存。|自有私用憑證|指定的值**用戶端憑證-憑證指紋**下列組態屬性：<br /><br /> -**訊息用戶端認證類型**或**傳輸用戶端認證類型**Wcf-basichttp 傳送埠的屬性設定為**憑證**。<br />-**訊息用戶端認證類型**或**傳輸用戶端認證類型**Wcf-wshttp 傳送埠的屬性設定為**憑證**。<br />-**訊息用戶端認證類型**或**傳輸用戶端認證類型**Wcf-nettcp 傳送埠的屬性設定為**憑證**。<br />-**訊息用戶端認證類型**或**MSMQ 驗證模式**Wcf-netmsmq 傳送埠的屬性設定為**憑證**。|  
-|依據傳送埠的安全性設定進行服務驗證 (Authentication)、簽章驗證 (Verification) 和加密|不適用|登入執行每一部電腦[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，以便裝載傳送埠做為系統管理員，並且將服務憑證匯入**本機電腦 \ 其他人 (AddressBook)**儲存。 您也必須將服務憑證的 CA 憑證鏈結安裝在電腦「信任的根憑證授權」憑證存放區中。|服務的公開憑證<br />的服務憑證 CA 憑證鏈結|指定的值**服務憑證-憑證指紋**下列組態屬性：<br /><br /> -**訊息用戶端認證類型**或**傳輸用戶端認證類型**Wcf-basichttp 傳送埠的屬性設定為**憑證**。<br />-**訊息用戶端認證類型**Wcf-wshttp 傳送埠的屬性設定為**無**， **UserName**，或**憑證**時**交涉服務認證**清除選項。<br />-**安全性模式**Wcf-netmsmq 傳送埠設定為**訊息**或**兩者**。|  
+|用戶端驗證|與傳送埠關聯之主控件執行個體所使用的帳戶|登入執行每一部電腦[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，以便為每個主控件執行個體服務帳戶 」，裝載傳送埠，並且將用戶端憑證匯入**目前使用者 \ 個人 (My)** 儲存。|自有私用憑證|指定的值**用戶端憑證-憑證指紋**下列組態屬性：<br /><br /> -**訊息用戶端認證類型**或**傳輸用戶端認證類型**Wcf-basichttp 傳送埠的屬性設定為**憑證**。<br />-**訊息用戶端認證類型**或**傳輸用戶端認證類型**Wcf-wshttp 傳送埠的屬性設定為**憑證**。<br />-**訊息用戶端認證類型**或**傳輸用戶端認證類型**Wcf-nettcp 傳送埠的屬性設定為**憑證**。<br />-**訊息用戶端認證類型**或**MSMQ 驗證模式**Wcf-netmsmq 傳送埠的屬性設定為**憑證**。|  
+|依據傳送埠的安全性設定進行服務驗證 (Authentication)、簽章驗證 (Verification) 和加密|不適用|登入執行每一部電腦[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，以便裝載傳送埠做為系統管理員，並且將服務憑證匯入**本機電腦 \ 其他人 (AddressBook)** 儲存。 您也必須將服務憑證的 CA 憑證鏈結安裝在電腦「信任的根憑證授權」憑證存放區中。|服務的公開憑證<br />的服務憑證 CA 憑證鏈結|指定的值**服務憑證-憑證指紋**下列組態屬性：<br /><br /> -**訊息用戶端認證類型**或**傳輸用戶端認證類型**Wcf-basichttp 傳送埠的屬性設定為**憑證**。<br />-**訊息用戶端認證類型**Wcf-wshttp 傳送埠的屬性設定為**無**， **UserName**，或**憑證**時**交涉服務認證**清除選項。<br />-**安全性模式**Wcf-netmsmq 傳送埠設定為**訊息**或**兩者**。|  
 |依據傳送埠的安全性設定進行服務驗證 (Authentication)、簽章驗證 (Verification) 和加密|不適用|以系統管理員的身分，登入執行 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 並將裝載傳送埠的每個電腦，再將用戶端 X.509 憑證的 CA 憑證鏈結匯入電腦的「信任的根憑證授權」憑證存放區中，這樣就可以驗證這個傳送埠的服務。|服務憑證的 CA 憑證鏈結|如果您未明確指定的服務憑證**服務憑證-憑證指紋**屬性，安裝 CA 憑證鏈結，服務 X.509 憑證至信任的根憑證授權單位憑證存放區中的下列設定：<br /><br /> -**安全性模式**Wcf-basichttp 傳送埠設定為**傳輸**或**TransportWithMessageCredential**。<br />-**安全性模式**Wcf-wshttp 傳送埠設定為**傳輸**或**TransportWithMessageCredential**。<br />-**安全性模式**Wcf-nettcp 傳送埠設定為**TransportWithMessageCredential**。<br />-**傳輸用戶端認證類型**Wcf-nettcp 傳送埠的屬性設定為**無**或**憑證**。<br />-**訊息用戶端認證類型**Wcf-nettcp 傳送埠的屬性設定為**無**， **UserName**，或**憑證**。|  
   
 > [!NOTE]

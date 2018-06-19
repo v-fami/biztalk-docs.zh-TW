@@ -1,17 +1,17 @@
 ---
-title: "如何停止協調流程 |Microsoft 文件"
-ms.custom: 
+title: 如何停止協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [orchestrations], stopping
 - orchestrations, stopping
 ms.assetid: a8009c23-ca83-4d2f-97dd-df660adbc279
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255918"
 ---
 # <a name="how-to-stop-an-orchestration"></a>如何停止協調流程
 本主題描述如何使用 BizTalk Server 管理主控台來停止協調流程。 停止協調流程會停用並擱置所有到來的啟動訊息。  

@@ -1,11 +1,11 @@
 ---
-title: "使用追蹤活動定義檔案 |Microsoft 文件"
-ms.custom: 
+title: 使用追蹤活動定義檔案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - tracking, activity definition file
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - tracking, managing views
 - activity definition file, activity fields
 ms.assetid: 0592a844-aad7-4054-b1e7-344f1086f0b1
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009375"
 ---
 # <a name="working-with-the-tracking-activity-definition-file"></a>使用追蹤活動定義檔案
 活動定義檔案包含追蹤資訊中的程序和訊息活動[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]。 [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]您可以使用此檔案以管理追蹤中 BizTalk 商務活動監控 (BAM) 的資料。 定義檔案是 XML 檔案 (Tracking.xml)，[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]安裝程式安裝在\<*磁碟機*\>: \Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet \BAMTracking 資料夾。 Tracking.xml 中定義的活動對於您的目的而言應該很足夠了。  

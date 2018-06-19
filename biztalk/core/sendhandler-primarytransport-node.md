@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270526"
 ---
 # <a name="sendhandler-primarytransport-node"></a>SendHandler (PrimaryTransport 節點)
 繫結檔案之 [PrimaryTransport] 節點的 [SendHandler] 節點中，包含與隨同繫結檔案一起匯出的傳輸關聯之傳送處理常式的特定資訊。  

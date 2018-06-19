@@ -1,14 +1,14 @@
 ---
-title: "部署和測試應用程式 |Microsoft 文件"
-ms.custom: 
+title: 部署和測試應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e2c86d5f-1849-4b7d-8061-23f156245f5b
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006999"
 ---
 # <a name="deploy-and-test-the-application"></a>部署和測試應用程式
 > [!NOTE]
@@ -47,7 +48,7 @@ ms.lasthandoff: 12/01/2017
   
     4.  提供的資料夾位置，從接收位置選取內送的 JSON 訂單的地方。 指定`*.json`作為檔案遮罩，然後按一下**確定**。  
   
-    5.  從**接收管線**下拉式清單中，選取**JSONToXml**。 建立此自訂接收管線[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]應用程式。 以滑鼠右鍵按一下省略符號**（...）**按鈕旁至管線，然後在之下**階段 1 – Deocde 元件**，提供下列值：  
+    5.  從**接收管線**下拉式清單中，選取**JSONToXml**。 建立此自訂接收管線[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]應用程式。 以滑鼠右鍵按一下省略符號 **（...）** 按鈕旁至管線，然後在之下**階段 1 – Deocde 元件**，提供下列值：  
   
         -   根節點-`ROOT`  
   

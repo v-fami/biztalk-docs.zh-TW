@@ -18,7 +18,7 @@ helpviewer_keywords:
 - managing [SSO], disabling
 - SSO, administrator accounts
 ms.assetid: 6c300e09-b781-45de-b2da-b1083164a1c0
-caps.latest.revision: ''
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25972716"
 ---
 # <a name="how-to-specify-sso-administrators-and-affiliate-administrators-accounts"></a>如何指定 SSO 系統管理員和分支機構系統管理員帳戶
 「企業單一登入」(SSO) 和「分支機構管理員」帳戶可以是主控件群組或個別帳戶。 設定 SSO 系統之前，必須先建立這些帳戶。  
@@ -54,7 +55,7 @@ ms.lasthandoff: 03/28/2018
   
 ### <a name="to-disable-the-enterprise-single-sign-on-system-using-the-mmc-snap-in"></a>使用 MMC 嵌入式管理單元停用企業單一登入系統  
   
-1.  在 **[開始]** 功能表上，依序按一下 **[所有程式]**及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。  
+1.  在 **[開始]** 功能表上，依序按一下 **[所有程式]** 及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。  
   
 2.  在 ENTSSO MMC 嵌入式管理單元的範圍窗格中，展開 **[企業單一登入]** 節點。  
   
@@ -85,7 +86,7 @@ ms.lasthandoff: 03/28/2018
   
 2.  在命令列，移至「企業單一登入」安裝目錄。 預設安裝目錄是*\<磁碟機\>*: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-3.  型別 * * ssomanage – updatedb *\<更新檔案\>* * *，其中*\<更新檔案\>*是 XML 檔案的名稱與路徑。  
+3.  型別 * * ssomanage – updatedb *\<更新檔案\>* * *，其中*\<更新檔案\>* 是 XML 檔案的名稱與路徑。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  

@@ -1,11 +1,11 @@
 ---
-title: "POP3 配接器組態屬性 |Microsoft 文件"
-ms.custom: 
+title: POP3 配接器組態屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive locations, adapters
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - POP3 adapters, code sample
 - POP3 adapters, properties
 ms.assetid: e30c848d-afff-42f3-8162-c7ea8c7e3b9a
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972436"
 ---
 # <a name="pop3-adapter-configuration-properties"></a>POP3 配接器組態屬性
 下表列出可為 POP3 配接器接收位置設定的組態屬性：  

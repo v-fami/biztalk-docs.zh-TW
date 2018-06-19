@@ -1,14 +1,14 @@
 ---
-title: "如何診斷 WCF 配接器問題 |Microsoft 文件"
-ms.custom: 
+title: 如何診斷 WCF 配接器問題 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 997a4ecd-6077-45d6-82d3-3f658ca62fd4
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250526"
 ---
 # <a name="how-to-diagnose-problems-with-the-wcf-adapters"></a>如何診斷 WCF 配接器問題
 本章節包含的步驟可協助您診斷 WCF 配接器的問題。  
@@ -28,7 +29,7 @@ ms.lasthandoff: 09/20/2017
      *%Windir%\\*system32\LogFiles\W3SVC1\  
   
     > [!NOTE]
-    >  *%Windir%*是預留位置的位置[!INCLUDE[btsWinNoVersion](../includes/btswinnoversion-md.md)]目錄的 IIS 伺服器上。  
+    >  *%Windir%* 是預留位置的位置[!INCLUDE[btsWinNoVersion](../includes/btswinnoversion-md.md)]目錄的 IIS 伺服器上。  
   
      根據預設，[!INCLUDE[btsWinSvr2k3](../includes/btswinsvr2k3-md.md)] 和 [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] 電腦上的 HTTPERR 記錄檔位於下列目錄：  
   

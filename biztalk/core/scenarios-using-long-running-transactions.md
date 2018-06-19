@@ -1,11 +1,11 @@
 ---
-title: "使用長時間執行交易的案例 |Microsoft 文件"
-ms.custom: 
+title: 使用長時間執行交易的案例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - transactions, long-running
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - examples, long-running transactions
 - examples, custom compensations
 ms.assetid: 76b3e0f8-44dc-419e-a73a-c2908b1d8795
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269918"
 ---
 # <a name="scenarios-using-long-running-transactions"></a>使用長時間執行交易的案例
 下列案例說明長時間執行交易的用途。  

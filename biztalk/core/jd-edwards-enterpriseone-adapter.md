@@ -1,15 +1,15 @@
 ---
-title: "JD Edwards EnterpriseOne 配接器 |Microsoft 文件"
-description: "安裝、 逐步教學課程、 學習架構、 使用 SSO 安全性、 建立您的應用程式、 匯入繫結檔案，以及加入例外狀況處理時使用 BizTalk Adapter for J.D. Edwards EnterpriseOne，BizTalk Server 中"
-ms.custom: 
+title: JD Edwards EnterpriseOne 配接器 |Microsoft 文件
+description: 安裝、 逐步教學課程、 學習架構、 使用 SSO 安全性、 建立您的應用程式、 匯入繫結檔案，以及加入例外狀況處理時使用 BizTalk Adapter for J.D. Edwards EnterpriseOne，BizTalk Server 中
+ms.custom: ''
 ms.date: 10/18/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 97f0f87a-59c3-4503-8da6-d6967dab820a
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015903"
 ---
 # <a name="jd-edwards-enterpriseone-adapter"></a>JD Edwards EnterpriseOne 配接器
 Microsoft BizTalk Adapter for J.D. Edwards EnterpriseOne 可讓您使用 BizTalk Server 中的 JD Edwards EnterpriseOne 商務功能。 下列各節將討論如何設定配接器以存取 JD Edwards EnterpriseOne 特有資訊。  

@@ -1,14 +1,14 @@
 ---
-title: "EDI 標準支援 |Microsoft 文件"
-ms.custom: 
+title: EDI 標準支援 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c2ef14c5-5f12-40e2-93d7-59b5c5a0d641
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007919"
 ---
 # <a name="edi-standards-support"></a>EDI 標準支援
 BizTalk Server 提供四種編碼標準的設計和執行階段支援。 下表列出這些編碼標準和詳細資訊的連結。  

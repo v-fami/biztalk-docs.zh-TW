@@ -1,11 +1,11 @@
 ---
-title: "如何解除安裝 BizTalk 應用程式 |Microsoft 文件"
-ms.custom: 
+title: 如何解除安裝 BizTalk 應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [applications], uninstalling
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - uninstalling, applications
 - undeploying, uninstalling
 ms.assetid: ab721c6e-194e-4b8a-bfd1-d0139d284373
-caps.latest.revision: "28"
+caps.latest.revision: 28
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256838"
 ---
 # <a name="how-to-uninstall-a-biztalk-application"></a>如何解除安裝 BizTalk 應用程式
 本主題描述如何使用 [新增或移除程式] 控制台或 BTSTask 命令列工具來解除安裝 BizTalk 應用程式。 只支援使用這兩個方法解除安裝應用程式。 如果您為這個應用程式安裝了多個 .msi 檔案 (例如，為了更新此應用程式)，則按兩下 .msi 檔案或使用 msiexec 可能不會完全解除安裝此應用程式，因此，這些是不支援的解除安裝方法。  

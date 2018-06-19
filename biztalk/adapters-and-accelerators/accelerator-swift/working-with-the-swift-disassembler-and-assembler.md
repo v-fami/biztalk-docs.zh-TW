@@ -1,11 +1,11 @@
 ---
-title: "SWIFT 解譯器和組合器 |Microsoft 文件"
-ms.custom: 
+title: SWIFT 解譯器和組合器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - developing, assembler
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - assembler, developing
 - disassembler, developing
 ms.assetid: cc88ed4c-baed-4efa-b54f-9fe079df9ba4
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26004871"
 ---
 # <a name="working-with-the-swift-disassembler-and-assembler"></a>SWIFT 解譯器和組合器
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]提供自訂管線元件、 SWIFT 的解譯器和 SWIFT 組譯工具所沒有的功能，專為處理 SWIFT 的一般檔案訊息設計。 [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]傳送和接收管線使用 A4SWIFT 管線元件來執行特定工作階段定義輸入 （接收） 和輸出 （傳送） 處理。 關於處理訊息、 管線和管線元件的詳細資訊，請參閱 BizTalk Server 說明。  

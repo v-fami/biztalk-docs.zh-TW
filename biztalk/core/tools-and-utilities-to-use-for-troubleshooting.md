@@ -1,14 +1,14 @@
 ---
-title: "工具和公用程式用於疑難排解 |Microsoft 文件"
-ms.custom: 
+title: 工具和公用程式用於疑難排解 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c817384f-e328-439d-9c41-a94ed75670ce
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008415"
 ---
 # <a name="tools-and-utilities-to-use-for-troubleshooting"></a>疑難排解使用的工具和公用程式
 本章節描述數個工具和公用程式，可用於診斷中的 Microsoft BizTalk Server 元件或相依性問題的根本原因。  

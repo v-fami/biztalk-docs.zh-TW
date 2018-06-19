@@ -1,17 +1,17 @@
 ---
-title: "如何檢視應用程式的參考 |Microsoft 文件"
-ms.custom: 
+title: 如何檢視應用程式的參考 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - applications, viewing
 - applications, referencing
 ms.assetid: 5f1026e1-c73e-495d-8160-9ba68f38b9d8
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256646"
 ---
 # <a name="how-to-view-the-references-of-an-application"></a>如何檢視應用程式的參考
 本主題說明如何使用「BizTalk Server 管理」主控台，檢視目前應用程式所參考的應用程式清單。 如需新增參考的詳細資訊，請參閱[如何加入另一個應用程式的參考](../core/how-to-add-a-reference-to-another-application.md)。 您也可以檢視參考此應用程式的應用程式清單。  

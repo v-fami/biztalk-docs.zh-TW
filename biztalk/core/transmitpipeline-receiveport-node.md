@@ -19,6 +19,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009023"
 ---
 # <a name="transmitpipeline-receiveport-node"></a>TransmitPipeline (ReceivePort 節點)
 繫結檔案的 [ReceivePort] 節點的 [TransmitPipeline] 節點，會針對繫結於隨同繫結檔案所匯出之雙向接收埠的傳送管線提供特定資訊。  

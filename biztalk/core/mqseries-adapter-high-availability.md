@@ -1,11 +1,11 @@
 ---
-title: "MQSeries 配接器的高可用性 |Microsoft 文件"
-ms.custom: 
+title: MQSeries 配接器的高可用性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - performance, MQSeries adapters
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - MQSeries adapters, performance
 - high availability, MQSeries adapters
 ms.assetid: 4339b10b-b35d-47c0-b78a-c60207e06c8e
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263230"
 ---
 # <a name="mqseries-adapter-high-availability"></a>MQSeries 配接器的高可用性
 當您使用配接器時，可以使用下列方式來改善可用性：  

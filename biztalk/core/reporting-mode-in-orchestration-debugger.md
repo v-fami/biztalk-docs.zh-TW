@@ -1,18 +1,18 @@
 ---
-title: "協調流程偵錯工具中的報告模式 |Microsoft 文件"
-ms.custom: 
+title: 協調流程偵錯工具中的報告模式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Orchestration Debugger, breakpoints
 - Orchestration Debugger, Reporting mode
 - Reporting mode [Orchestration Debugger]
 ms.assetid: 014a444c-2867-4156-b009-8518e8250d4d
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268566"
 ---
 # <a name="reporting-mode-in-orchestration-debugger"></a>協調流程偵錯工具中的報告模式
 報告模式使用追蹤的事件來顯示發生的狀況。 它會使用追蹤的資料**協調流程事件**選項旗標。 必須先設定此旗標才能執行協調流程執行個體。 若要啟用特定協調流程的事件追蹤，請參閱[如何設定協調流程的追蹤](../core/how-to-configure-tracking-for-an-orchestration.md)。  

@@ -1,14 +1,14 @@
 ---
-title: "資料庫可用性規劃 |Microsoft 文件"
-ms.custom: 
+title: 資料庫可用性規劃 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6aa74257-4159-46f6-b538-f7e9083d74ad
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008439"
 ---
 # <a name="planning-for-database-availability"></a>資料庫可用性規劃
 BizTalk Server 傳訊引擎可確保商務程序的可靠性，方法是保存的永久性狀態和商務資料處理至稱為 BizTalk Messagebox 資料庫的 SQL Server 資料庫。 可靠性和保存資料持續性只會顯示為基礎的資料存放區，因為 BizTalk Server 資料庫的高可用性規劃是非常重要。  

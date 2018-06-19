@@ -1,14 +1,14 @@
 ---
-title: "監控主控件執行個體 |Microsoft 文件"
-ms.custom: 
+title: 監控主控件執行個體 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4e7c6b80-7371-46ea-bf9c-82acb22012a3
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008591"
 ---
 # <a name="monitoring-host-instances"></a>監控主控件執行個體
 本主題描述使用 Microsoft System Center Operations Manager 監視 BizTalk 主控件執行個體。  

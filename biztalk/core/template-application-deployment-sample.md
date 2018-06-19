@@ -1,11 +1,11 @@
 ---
-title: "範本 （應用程式部署範例） |Microsoft 文件"
-ms.custom: 
+title: 範本 （應用程式部署範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, examples
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - deploying, scripts
 - examples, deploying
 ms.assetid: 7e77ff8e-b2bc-4d38-b5fd-329d6d54221f
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975012"
 ---
 # <a name="template-application-deployment-sample"></a>範本 (應用程式部署範例)
 本主題描述如何使用「範本」範例進行應用程式部署。  
@@ -64,7 +65,7 @@ ms.lasthandoff: 11/28/2017
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
  此範例位於 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 安裝資料夾內，如下所示：  
   
- *\<範例路徑\>*\Application Deployment\Template  
+ *\<範例路徑\>* \Application Deployment\Template  
   
  如前所述，此範例包含下列兩個檔案：  
   
@@ -81,7 +82,7 @@ ms.lasthandoff: 11/28/2017
   
      範例：  
   
-     設定記錄檔 ="*\<範例路徑\>*\ApplicationDeployment\Templates\SampleLogOut.txt"  
+     設定記錄檔 ="*\<範例路徑\>* \ApplicationDeployment\Templates\SampleLogOut.txt"  
   
 ### <a name="to-create-a-new-application"></a>若要建立新的應用程式  
   
@@ -143,7 +144,7 @@ ms.lasthandoff: 11/28/2017
   
 1.  在 BizTalk Server 管理主控台中，以滑鼠右鍵按一下**應用程式**，指向 **匯入**，然後按一下  **MSI 檔案**。  
   
-2.  在歡迎使用匯入精靈 頁面上，在**要匯入 MSI 檔案**，輸入您先前已匯出，然後再按一下的.msi 檔案的路徑**下一步**。 如果有必要，您可以瀏覽 MSI 檔案即可**（...）**  按鈕。  
+2.  在歡迎使用匯入精靈 頁面上，在**要匯入 MSI 檔案**，輸入您先前已匯出，然後再按一下的.msi 檔案的路徑**下一步**。 如果有必要，您可以瀏覽 MSI 檔案即可 **（...）**  按鈕。  
   
 3.  在應用程式設定 頁面中**應用程式名稱**下拉式清單中，選取應用程式名稱。  
   

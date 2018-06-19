@@ -1,14 +1,14 @@
 ---
-title: "檢查清單： 設定 SQL Server |Microsoft 文件"
-ms.custom: 
+title: 檢查清單： 設定 SQL Server |Microsoft 文件
+ms.custom: ''
 ms.date: 06/29/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: edd20f24-8a72-40b7-abee-81fbd3ceefda
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010287"
 ---
 # <a name="checklist-configuring-sql-server"></a>檢查清單： 設定 SQL Server
 若要準備的 SQL Server 時，請依照下列步驟使用 BizTalk Server 實際執行環境中。    
@@ -33,9 +34,9 @@ ms.lasthandoff: 12/01/2017
 |SQL Server 資料庫提供高可用性。|[規劃資料庫可用性](planning-for-database-availability.md)|  
 |檢閱主動/主動容錯移轉案例的 SQL Server 叢集組態。|[檢閱及測試容錯移轉案例的 SQL Server 叢集設定](reviewing-and-testing-sql-server-cluster-configuration-for-failover-scenarios.md)|  
 |使用預設組態設定：<br /><br /> Max Degree of Parallelism (MDOP)。<br />BizTalk Server MessageBox 資料庫上的 SQL Server 統計資料。<br />SQL Server 資料庫索引會重建和重組。|[不應該變更的 SQL Server 設定](sql-server-settings-that-should-not-be-changed.md)|  
-|所有 SQL Server 執行個體中都啟用追蹤旗標 1118 (TF1118) 作為啟動參數。|實作 TF1118 有助於減少 SQL Server 執行個體之間的競爭，藉由移除幾乎所有的單一頁面配置。 如需詳細資訊，請參閱 Microsoft 知識庫文章[tempdb 資料庫的並行存取增強功能](https://support.microsoft.com/en-us/help/328551/concurrency-enhancements-for-the-tempdb-database)。 <br/><br/>**注意：**的詳細資訊，請參閱 TF1118[周圍 TF1118 多疑](https://www.sqlskills.com/blogs/paul/misconceptions-around-tf-1118/)。 請注意，在以下連結的內容不 Microsoft 所擁有，Microsoft 不保證內容的正確性。|  
+|所有 SQL Server 執行個體中都啟用追蹤旗標 1118 (TF1118) 作為啟動參數。|實作 TF1118 有助於減少 SQL Server 執行個體之間的競爭，藉由移除幾乎所有的單一頁面配置。 如需詳細資訊，請參閱 Microsoft 知識庫文章[tempdb 資料庫的並行存取增強功能](https://support.microsoft.com/en-us/help/328551/concurrency-enhancements-for-the-tempdb-database)。 <br/><br/>**注意：** 的詳細資訊，請參閱 TF1118[周圍 TF1118 多疑](https://www.sqlskills.com/blogs/paul/misconceptions-around-tf-1118/)。 請注意，在以下連結的內容不 Microsoft 所擁有，Microsoft 不保證內容的正確性。|  
 |分割成多個資料檔相同大小的 BizTalk Server 使用的每個 SQL Server 執行個體上的 tempdb 資料庫。|確認用於 tempdb 資料檔案都屬於相同大小。 這是重要的因為 SQL Server 所使用的比例式填滿演算法為基礎的資料檔案的大小。 建立資料檔的大小不相等，如果比例填滿演算法會使用全域配置對應 (GAM) 配置，而不是分配之間的所有檔案，藉以定義的目的建立多個配置更多的最大檔案資料檔案。 一般來說，每個 CPU 的伺服器上建立一個資料檔，然後調整的數目視檔案向上或向下。 請注意，雙核心 CPU 被視為兩個 CPU。 在任何情況下，資料檔案的數目不能大於 8，無論電腦上可用的多少額外的核心。 如需 tempdb 檔案的詳細資訊，請參閱[最佳化 tempdb 效能](https://docs.microsoft.com/sql/relational-databases/databases/tempdb-database)。|  
-|將最小值和相同的值，SQL Server 上的最大伺服器記憶體 instance(s) 裝載 BizTalk Server 資料庫。|SQL Server 電腦裝載 BizTalk Server 資料庫應該專用於執行 SQL Server。 當 SQL Server 電腦裝載 BizTalk Server 資料庫**是**專門用來執行 SQL Server，我們建議的最小伺服器記憶體 」 和 「 最大伺服器記憶體 」 設定，以指定每個 SQL Server 執行個體上的選項固定配置給 SQL Server 的記憶體數量。 在此情況下，您應該設定的 「 最小伺服器記憶體 」 和 「 最大伺服器記憶體 」 為相同的值 （等於 SQL Server 將使用的實體記憶體的最大數量）。 這會降低額外負荷，否則會以動態方式管理這些值的 SQL Server 所使用。 每個執行 SQL Server，來指定要配置給 SQL Server 記憶體的固定的數量的電腦上執行下列 T-SQL 命令：<br /><br /> sp_configure 'Max Server memory (MB)'，（以 mb 為單位的最大大小） sp_configure' Min Server memory (MB)' （以 mb 為單位的最小大小）<br /><br /> 您為 SQL Server 的記憶體數量之前，判斷適當的記憶體設定減去總實體記憶體的 Windows Server 所需的記憶體。 這是您可以指派給 SQL Server 記憶體的最大數量。 **注意：**如果的裝載 BizTalk Server 資料庫也執行 SQL Server 的電腦裝載的企業單一登入主要密碼，本主題中所述[叢集主要密碼伺服器](clustering-the-master-secret-server.md)則可能需要若要調整此值，以確保有足夠的記憶體可用來執行 「 企業單一登入服務。|  
+|將最小值和相同的值，SQL Server 上的最大伺服器記憶體 instance(s) 裝載 BizTalk Server 資料庫。|SQL Server 電腦裝載 BizTalk Server 資料庫應該專用於執行 SQL Server。 當 SQL Server 電腦裝載 BizTalk Server 資料庫**是**專門用來執行 SQL Server，我們建議的最小伺服器記憶體 」 和 「 最大伺服器記憶體 」 設定，以指定每個 SQL Server 執行個體上的選項固定配置給 SQL Server 的記憶體數量。 在此情況下，您應該設定的 「 最小伺服器記憶體 」 和 「 最大伺服器記憶體 」 為相同的值 （等於 SQL Server 將使用的實體記憶體的最大數量）。 這會降低額外負荷，否則會以動態方式管理這些值的 SQL Server 所使用。 每個執行 SQL Server，來指定要配置給 SQL Server 記憶體的固定的數量的電腦上執行下列 T-SQL 命令：<br /><br /> sp_configure 'Max Server memory (MB)'，（以 mb 為單位的最大大小） sp_configure' Min Server memory (MB)' （以 mb 為單位的最小大小）<br /><br /> 您為 SQL Server 的記憶體數量之前，判斷適當的記憶體設定減去總實體記憶體的 Windows Server 所需的記憶體。 這是您可以指派給 SQL Server 記憶體的最大數量。 **注意：** 如果的裝載 BizTalk Server 資料庫也執行 SQL Server 的電腦裝載的企業單一登入主要密碼，本主題中所述[叢集主要密碼伺服器](clustering-the-master-secret-server.md)則可能需要若要調整此值，以確保有足夠的記憶體可用來執行 「 企業單一登入服務。|  
 |BizTalk 追蹤資料庫大小|-在決定 BizTalk 追蹤 (DTA) 資料庫中的訊息大小，如果加上訊息內容的平均大小的訊息大小重大訊息大小相較之下。<br />-若要限制 BizTalk 追蹤資料庫中的訊息大小，請限制您將升級的屬性數目。<br />-如果啟用協調流程偵錯工具選項時，考慮到協調流程中每個圖形的狀態儲存在 「 BizTalk 追蹤資料庫中。|  
   
 <a name="BKMK_Maintain"></a>   

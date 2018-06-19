@@ -1,14 +1,14 @@
 ---
-title: "停止處理在來源系統上的應用程式 |Microsoft 文件"
-ms.custom: 
+title: 停止處理在來源系統上的應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cde5fc62-4bc2-4ef0-81bc-c7d39ff36cb6
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302350"
 ---
 # <a name="stopping-application-processing-on-the-source-system"></a>停止處理在來源系統上的應用程式
 應用程式處理應該停止時的來源[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]執行階段伺服器都仍然能夠參與使用現有的資料庫伺服器的文件處理。 在此案例中，處理活動必須先停止如此便可以完成一致的還原作業。  

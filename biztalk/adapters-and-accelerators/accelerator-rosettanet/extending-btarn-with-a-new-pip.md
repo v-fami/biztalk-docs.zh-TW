@@ -1,18 +1,18 @@
 ---
-title: "使用新的 PIP 擴充 BTARN |Microsoft 文件"
-ms.custom: 
+title: 使用新的 PIP 擴充 BTARN |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BTARN, extending functionality
 - PIPs, extending BTARN
 - BTARN, PIPs
 ms.assetid: 3db5cd5c-031f-4451-9be5-4b5d6163c3b1
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007167"
 ---
 # <a name="extending-btarn-with-a-new-pip"></a>使用新的 PIP 擴充 BTARN
 本主題說明如何擴充[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]與新的交易夥伴介面程序 (PIP) 結構描述。 當該 PIP 未與任何由 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 安裝程式安裝的結構描述關聯時，這可以讓您根據 RosettaNet PIP 新增結構描述。  

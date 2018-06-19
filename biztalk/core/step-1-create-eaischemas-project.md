@@ -1,14 +1,14 @@
 ---
-title: "步驟 1： 建立 EAISchemas 專案 |Microsoft 文件"
-ms.custom: 
+title: 步驟 1： 建立 EAISchemas 專案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9a14ee61-fa27-4f03-997e-42c34a77afee
-caps.latest.revision: "55"
+caps.latest.revision: 55
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,15 +17,16 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277654"
 ---
 # <a name="step-1-create-eaischemas-project"></a>步驟 1：建立 EAISchemas 專案
 ![步驟 5 之 1](../core/media/step-1of5.gif "Step_1of5")  
   
  **若要完成的時間：** 5 分鐘  
   
- **目標：**在此步驟中，您建立新[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]方案和專案。  
+ **目標：** 在此步驟中，您建立新[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]方案和專案。  
   
- **用途：**您用於建立部分或所有的 BizTalk 專案系統[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]應用程式或商務方案。 任何這類方案的核心項目為 BizTalk 專案—為部署之前建置和產生至組件的結構描述、協調流程、Web 訊息類型、類別、管線、對應和參考等項目的集合。  
+ **用途：** 您用於建立部分或所有的 BizTalk 專案系統[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]應用程式或商務方案。 任何這類方案的核心項目為 BizTalk 專案—為部署之前建置和產生至組件的結構描述、協調流程、Web 訊息類型、類別、管線、對應和參考等項目的集合。  
   
 ## <a name="prerequisites"></a>必要條件  
  開始此步驟之前，請注意下列需求：  

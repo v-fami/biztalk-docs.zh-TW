@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269310"
 ---
 # <a name="schemas-node"></a>[結構描述] 節點
 使用**結構描述**節點以顯示部署在 BizTalk 中可用的目前應用程式與系統結構描述的結構描述。 以滑鼠右鍵按一下**結構描述**節點以顯示下列命令：  

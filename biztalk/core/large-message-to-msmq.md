@@ -1,14 +1,14 @@
 ---
-title: "大型訊息至 MSMQ |Microsoft 文件"
-ms.custom: 
+title: 大型訊息至 MSMQ |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1fb87b46-5656-42c0-be99-8ab66e51bb4d
-caps.latest.revision: "35"
+caps.latest.revision: 35
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976108"
 ---
 # <a name="large-message-to-msmq"></a>用於 MSMQ 的大型訊息
 大型的訊息至 MSMQ 範例示範如何傳送的.xml 文件大於 4 mb 從 Message Queuing (也稱為 MSMQ) BizTalk MSMQ 配接器使用**MQSendLargeMessage**藉由應用程式開發介面MQRTLarge.dll。  
@@ -72,7 +73,7 @@ ms.lasthandoff: 11/28/2017
   
 7.  按一下**設定** 按鈕以開啟**File 傳輸屬性**表單。 輸入**C:\Demo**中**目的地資料夾**。 請確認主控件執行個體識別具有存取權 C:\Demo 資料夾。  
   
-8.  請確認**檔案名稱**設**%MessageID%.xml**。 按一下 **[確定]**。  
+8.  請確認**檔案名稱**設 **%MessageID%.xml**。 按一下 **[確定]**。  
   
 9. 按一下 **[篩選]**。  
   
@@ -104,7 +105,7 @@ ms.lasthandoff: 11/28/2017
   
     5.  在**接收位置屬性** 對話方塊中，將**傳輸類型**至**MSMQ**。  
   
-    6.  在**位址 (URI)**區段中，按一下**設定**開啟**MSMQ 傳輸屬性**表單。 設定**佇列**至**localhost\private$ \test**。  
+    6.  在**位址 (URI)** 區段中，按一下**設定**開啟**MSMQ 傳輸屬性**表單。 設定**佇列**至**localhost\private$ \test**。  
   
     7.  設定**交易式**至`True`，然後按一下 **確定**。  
   

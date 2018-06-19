@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264254"
 ---
 # <a name="port-ports-node"></a>連接埠 (連接埠節點)
 繫結檔案的連接埠節點，包含與該繫結檔案一起匯出之服務所繫結連接埠或通訊群組清單的相關特定資訊。  

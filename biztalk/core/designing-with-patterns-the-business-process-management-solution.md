@@ -1,11 +1,11 @@
 ---
-title: "使用模式進行設計： 商務程序管理解決方案 |Microsoft 文件"
-ms.custom: 
+title: 使用模式進行設計： 商務程序管理解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - patterns [process management solutions], examples
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - examples, programming patterns
 - designing, programming patterns
 ms.assetid: 0583f4a4-01db-4d5b-a1f5-1694c1ddbd30
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239662"
 ---
 # <a name="designing-with-patterns-the-business-process-management-solution"></a>使用模式進行設計： 商務程序管理解決方案
 商務程序管理解決方案顯示在 BizTalk 應用程式中建構程序管理員的方式。 解決方案使用元件以選取和控制訂單處理階段的順序。 解決方案會在傳遞訂單以進行處理之前，接收訂單 (可能用於新的服務、變更或取消服務)、加以記錄和認可訂單。 處理包含一或多個處理訂單的階段。 最後，解決方案會將最終回應傳回至原始訂單要求。  

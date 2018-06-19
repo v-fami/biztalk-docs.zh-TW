@@ -13,7 +13,7 @@ helpviewer_keywords:
 - MQSeries adapters, examples
 - examples, pipelines
 ms.assetid: ac709e45-524b-45ab-9673-060790ecbed2
-caps.latest.revision: ''
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25976116"
 ---
 # <a name="mqssendpipelinecomponent-biztalk-server-sample"></a>MQSSendPipelineComponent (BizTalk Server 範例)
 本範例示範如何撰寫可從 XML 檔案讀取一組 MQSeries 屬性值，並將這些屬性值套用至訊息的管線元件。  
@@ -31,9 +32,9 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
   
--   *\<SamplesPath\>*\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyComponent  
+-   *\<SamplesPath\>* \AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyComponent  
   
--   *\<SamplesPath\>*\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyPipeline  
+-   *\<SamplesPath\>* \AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyPipeline  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -81,9 +82,9 @@ ms.lasthandoff: 03/28/2018
   
 #### <a name="to-modify-and-compile-the-project-for-the-pipeline-component"></a>若要修改及編譯管線元件的專案  
   
-1.  按兩下方案檔， **[setmqseriesheaderpropertycomponent\setmqseriesheaderpropertycomponent.sln]**若要開啟的方案中[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]。  
+1.  按兩下方案檔， **[setmqseriesheaderpropertycomponent\setmqseriesheaderpropertycomponent.sln]** 若要開啟的方案中[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]。  
   
-2.  按兩下類別檔**[csetmqseriesheaderpropertycomponent.cs]**開啟中的類別檔案[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]。  
+2.  按兩下類別檔 **[csetmqseriesheaderpropertycomponent.cs]** 開啟中的類別檔案[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]。  
   
 3.  找出變數 **samplesDir**, ，確認此變數將設定位置 **C:\temp**。  
   
@@ -103,7 +104,7 @@ ms.lasthandoff: 03/28/2018
   
 #### <a name="to-modify-the-project-for-the-biztalk-server-pipeline"></a>若要修改 BizTalk Server 管線的專案  
   
-1.  在[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]，按兩下方案檔，開啟方案**[setmqseriesheaderpropertypipeline\setmqseriesheaderpropertypipeline.sln]**。  
+1.  在[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]，按兩下方案檔，開啟方案 **[setmqseriesheaderpropertypipeline\setmqseriesheaderpropertypipeline.sln]**。  
   
 2.  為專案建立強式名稱金鑰檔案。 若要這樣做，請執行以下動作：  
   

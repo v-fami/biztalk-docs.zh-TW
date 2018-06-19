@@ -1,14 +1,14 @@
 ---
-title: "如何將單一登入認證對應 |Microsoft 文件"
-ms.custom: 
+title: 如何將單一登入認證對應 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e847bde9-7a4c-4b81-8ad6-6a7cf23d19a1
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254206"
 ---
 # <a name="how-to-map-single-sign-on-credentials"></a>如何對應單一登入認證
 當您知道您的企業單一登入資料庫中具有附屬應用程式後，即可將使用者的認證對應至該應用程式。 將目前使用者的認證對應至附屬應用程式時，您必須合併使用 `ISSOMapper` 和 `ISSOMapping` 介面。  

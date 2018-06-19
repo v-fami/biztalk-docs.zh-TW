@@ -1,14 +1,14 @@
 ---
-title: "轉換，並將訊息路由傳送至多個端點 |Microsoft 文件"
-ms.custom: 
+title: 轉換，並將訊息路由傳送至多個端點 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 544db12c-95fc-4321-b397-ec9e7410e37d
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010239"
 ---
 # <a name="transforming-and-routing-a-message-to-multiple-endpoints"></a>轉換，並將訊息路由傳送至多個端點
 在此使用案例中，ESB 執行轉換，透過路線 Web 服務上手提交的訊息。 動態解析查閱決定對應名稱，並將轉換輸入的訊息。 此外，路線指定 n 個行程服務會以動態方式解析並，它會將訊息路由傳送已轉換的目標端點。 所有作業都發生在傳訊層，如圖 1 所示。  

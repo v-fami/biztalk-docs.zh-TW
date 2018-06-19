@@ -1,18 +1,18 @@
 ---
-title: "擲回 SOAP 例外狀況，從協調流程發佈為 Web 服務 |Microsoft 文件"
-ms.custom: 
+title: 擲回 SOAP 例外狀況，從協調流程發佈為 Web 服務 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - errors, SOAP exceptions
 - orchestrations, SOAP errors
 - Web services, orchestrations
 ms.assetid: e1c7cd74-d1c8-4b9d-a418-4601b1f040d7
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255574"
 ---
 # <a name="how-to-throw-soap-exceptions-from-orchestrations-published-as-a-web-service"></a>如何從協調流程發佈為 Web 服務擲回 SOAP 例外狀況
 您可以從已發佈為 Web 服務的協調流程擲回 SOAP 例外狀況。 您會將錯誤訊息加入到 SOAP 連接埠中，並傳回該錯誤訊息不是傳回回應。  

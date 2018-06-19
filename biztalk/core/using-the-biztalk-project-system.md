@@ -1,11 +1,11 @@
 ---
-title: "使用 BizTalk 專案系統 |Microsoft 文件"
-ms.custom: 
+title: 使用 BizTalk 專案系統 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BizTalk Editor, opening
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Orchestration Designer, opening
 - Pipeline Designer, opening
 ms.assetid: a28c715e-128c-463a-b421-9b3efe76a530
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008191"
 ---
 # <a name="using-the-biztalk-project-system"></a>使用 BizTalk 專案系統
 您可以使用 BizTalk 專案系統，在 Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 環境下建立、組織和設定 BizTalk 方案。 本節中的主題與程序描述如何透過使用 BizTalk 專案系統執行許多工作。  

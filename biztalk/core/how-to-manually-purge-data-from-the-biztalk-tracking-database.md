@@ -1,18 +1,18 @@
 ---
-title: "如何從 BizTalk 追蹤資料庫手動清除資料 |Microsoft 文件"
-ms.custom: 
+title: 如何從 BizTalk 追蹤資料庫手動清除資料 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Tracking database, purging
 - purging, manually
 - purging, warnings
 ms.assetid: f350d850-5034-4166-940c-8d10b7b445fb
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971700"
 ---
 # <a name="how-to-manually-purge-data-from-the-biztalk-tracking-database"></a>如何手動清除 BizTalk 追蹤資料庫的資料
 「DTA 封存和清除 SQL Server Agent 作業」工作可減少由於持續清除資料庫和壓縮儲存的追蹤資料，而必須從 BizTalk 追蹤 (BizTalkDTADb) 資料庫手動清除資料的需要。 若 BizTalk 追蹤 (BizTalkDTADb) 資料庫已大量成長，導致效能持續降低，且「DTA 封存和清除」工作無法跟上資料庫的成長時，就可能需要手動清除資料。  
@@ -77,7 +78,7 @@ ms.lasthandoff: 11/28/2017
   
 12. 在**Microsoft SQL Server Management Studio**，連按兩下**資料庫**，連按兩下**BizTalkDTADb**資料庫中，按兩下**可程式性**，然後按一下 **預存程序**。  
   
-13. 在**物件總管詳細資料**] 窗格中，以滑鼠右鍵按一下**[dtasp_purgeallcompletedtrackingdata]**，然後按一下 [**執行預存程序**。  
+13. 在**物件總管詳細資料**] 窗格中，以滑鼠右鍵按一下 **[dtasp_purgeallcompletedtrackingdata]**，然後按一下 [**執行預存程序**。  
   
 14. 在**執行程序**對話方塊中，按一下 **確定**。  
   

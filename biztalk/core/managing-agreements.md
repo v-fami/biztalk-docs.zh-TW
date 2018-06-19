@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22265558"
 ---
 # <a name="managing-agreements"></a>管理協議
 交易夥伴協議 (TPA) 的定義是，兩個交易夥伴之間透過特定 B2B 通訊協定交易訊息時所採用的決定性與繫結性協議。 請參閱[交易夥伴協議](../core/trading-partner-agreement.md)。 

@@ -1,18 +1,18 @@
 ---
-title: "如何匯出 BizTalk 群組的繫結 |Microsoft 文件"
-ms.custom: 
+title: 如何匯出 BizTalk 群組的繫結 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - bindings, exporting
 - groups, bindings
 - groups, exporting
 ms.assetid: 51955266-f87f-41c9-992c-93036b40f663
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22253982"
 ---
 # <a name="how-to-export-bindings-for-a-biztalk-group"></a>如何匯出 BizTalk 群組的繫結
 本主題描述如何使用 [BizTalk Server 管理主控台] 或命令列，將 BizTalk 群組的繫結匯出到 .xml 檔案。 您可以再這些繫結匯入到 BizTalk 群組或應用程式中所述[如何匯入到 BizTalk 群組的繫結](../core/how-to-import-bindings-into-a-biztalk-group.md)和[如何匯入到 BizTalk 應用程式的繫結](../core/how-to-import-bindings-into-a-biztalk-application.md)。 如需有關如何使用繫結檔案的詳細資訊，請參閱[繫結檔案和應用程式部署](../core/binding-files-and-application-deployment.md)。  

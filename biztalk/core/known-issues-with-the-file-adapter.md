@@ -1,14 +1,14 @@
 ---
-title: "File 配接器的已知問題 |Microsoft 文件"
-ms.custom: 
+title: File 配接器的已知問題 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6aaf448c-0035-4648-910b-ae2f15106342
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262886"
 ---
 # <a name="known-issues-with-the-file-adapter"></a>FILE 配接器的已知問題
 本節包含可幫助您避免錯誤的資訊。  
@@ -41,7 +42,7 @@ ms.lasthandoff: 09/20/2017
   
 -   確定指定的路徑或共用存在。  
   
--   請確認帳戶做為**登入：**帳戶為 File 接收處理常式主控件執行個體具有讀取和寫入權限指定接收位置。  
+-   請確認帳戶做為**登入：** 帳戶為 File 接收處理常式主控件執行個體具有讀取和寫入權限指定接收位置。  
   
 -   確定寫入至 FILE 接收配接器監控之資料夾的檔案未超過 256 個字元的檔案名稱限制。  
   
@@ -67,7 +68,7 @@ ms.lasthandoff: 09/20/2017
   
 -   確定指定接收位置上的檔案未標示有系統屬性。  
   
--   請確認帳戶做為**登入：**帳戶為 File 接收處理常式主控件執行個體具有讀取和寫入權限指定接收位置。  
+-   請確認帳戶做為**登入：** 帳戶為 File 接收處理常式主控件執行個體具有讀取和寫入權限指定接收位置。  
   
 -   確定寫入至 FILE 接收配接器監控之資料夾的檔案未超過 256 個字元的檔案名稱限制。  
   
@@ -96,7 +97,7 @@ ms.lasthandoff: 09/20/2017
   
 -   確定指定的路徑或共用存在。  
   
--   請確認帳戶做為**登入：**檔案傳送處理常式的主控件執行個體的帳戶具有讀取和寫入指定的目錄或檔案共用權限。  
+-   請確認帳戶做為**登入：** 檔案傳送處理常式的主控件執行個體的帳戶具有讀取和寫入指定的目錄或檔案共用權限。  
   
 -   確定指定目錄或檔案共用上的現有檔案未標示有系統屬性。  
   

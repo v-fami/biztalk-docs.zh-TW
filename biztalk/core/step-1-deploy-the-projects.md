@@ -1,14 +1,14 @@
 ---
-title: "步驟 1： 部署專案 |Microsoft 文件"
-ms.custom: 
+title: 步驟 1： 部署專案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0467c140-1f4c-4cfa-b46f-dc1d0f8755d4
-caps.latest.revision: "44"
+caps.latest.revision: 44
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,15 +17,16 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974120"
 ---
 # <a name="step-1-deploy-the-projects"></a>步驟 1：部署專案
 ![步驟 3 之 1](../adapters-and-accelerators/adapter-oracle-database/media/step-1of3.gif "Step_1of3")  
   
  **若要完成的時間：** 5 分鐘  
   
- **目標：**在此步驟中，您部署了 EAISchemas 與 EAIOrchestration 專案。  
+ **目標：** 在此步驟中，您部署了 EAISchemas 與 EAIOrchestration 專案。  
   
- **用途：**當您部署專案或方案在 Visual Studio 中的時，自動建置並部署到指定的應用程式組件。 做為此程序的一部分，組件連同協調流程、結構描述，以及其所包含的對應 (稱為「成品」) 都會匯入到本機 BizTalk 管理資料庫，並會在資料庫中與指定的應用程式建立關聯。  
+ **用途：** 當您部署專案或方案在 Visual Studio 中的時，自動建置並部署到指定的應用程式組件。 做為此程序的一部分，組件連同協調流程、結構描述，以及其所包含的對應 (稱為「成品」) 都會匯入到本機 BizTalk 管理資料庫，並會在資料庫中與指定的應用程式建立關聯。  
   
 ## <a name="prerequisites"></a>必要條件  
   

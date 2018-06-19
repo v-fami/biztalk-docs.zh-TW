@@ -1,11 +1,11 @@
 ---
-title: "採用運算式的圖形 |Microsoft 文件"
-ms.custom: 
+title: 採用運算式的圖形 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Expression Editor, shapes
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - Loop shape [Orchestration Designer], expressions
 - Rule shape [Orchestration Designer]
 ms.assetid: 0d27f711-ff7c-422b-b231-aa3c9a42ed0c
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270782"
 ---
 # <a name="shapes-that-take-expressions"></a>採用運算式的圖形
 數個圖形在協調流程設計師中，包括**決定**和**迴圈**，使用布林運算式來控制分支的格式規則。 其他的圖形則使用其他目的運算式。 您可以使用 BizTalk 運算式編輯器，為這些圖形建立或編輯運算式。  

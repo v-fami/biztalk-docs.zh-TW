@@ -14,7 +14,7 @@ helpviewer_keywords:
 - WCF services, publishing
 - best practices, WCF adapters
 ms.assetid: 797b7ffd-534c-4f09-9738-fb17b208bc96
-caps.latest.revision: ''
+caps.latest.revision: 34
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25972588"
 ---
 # <a name="considerations-when-publishing-wcf-services-with-the-wcf-receive-adapters"></a>利用 WCF 接收配接器發佈 WCF 服務的考量
 本主題將提供您利用 WCF 接收配接器來發佈 WCF 服務時應該納入考量的相關資訊。  使用 WCF 配接器發佈服務後，WCF 用戶端將能夠把該服務當成一般 WCF 服務來呼叫。  

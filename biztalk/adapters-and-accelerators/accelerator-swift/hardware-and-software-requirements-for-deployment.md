@@ -1,17 +1,17 @@
 ---
-title: "硬體和軟體需求的部署 |Microsoft 文件"
-ms.custom: 
+title: 硬體和軟體需求的部署 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, hardware requirements
 - deploying, software requirements
 ms.assetid: 1dd9c4bb-b724-4195-8496-eff95cd1548a
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26004599"
 ---
 # <a name="hardware-and-software-requirements-for-deployment"></a>硬體和軟體需求的部署
 下表列出的硬體與軟體建議和需求的規定的部署架構中的每一部伺服器。 如需有關設定必要的軟體的詳細資訊，請參閱[部署您的伺服器](../../adapters-and-accelerators/accelerator-swift/deploying-your-servers.md)。  

@@ -1,11 +1,11 @@
 ---
-title: "如何使用 BizTalk WCF 服務發佈精靈協調流程發佈為 WCF 服務 |Microsoft 文件"
-ms.custom: 
+title: 如何使用 BizTalk WCF 服務發佈精靈協調流程發佈為 WCF 服務 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - tools, WCF Service Publishing Wizard
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - orchestrations, WCF services
 - WCF Service Publishing Wizard
 ms.assetid: db352132-2fe8-4d53-b239-45e5c3525b6c
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973420"
 ---
 # <a name="how-to-use-the-biztalk-wcf-service-publishing-wizard-to-publish-orchestrations-as-wcf-services"></a>如何使用 BizTalk WCF 服務發佈精靈將協調流程發佈為 WCF 服務
 您可以使用 [BizTalk WCF 服務發佈精靈] 將協調流程發佈為 WCF 服務。  
@@ -44,12 +45,12 @@ ms.lasthandoff: 11/28/2017
   
      ![WCF 服務類型 頁面上](../core/media/959900fd-44c9-4f3a-8836-9786a2f5e707.gif "959900fd-44c9-4f3a-8836-9786a2f5e707")  
   
-4.  在**WCF 服務類型**頁面上，選取**啟用中繼資料端點**核取方塊以指出外掛式的 WCF 接收位置網際網路資訊服務 (IIS) 裝載是否發行服務中繼資料使用 HTTP/GET 要求擷取。 啟用此核取方塊，精靈便會產生 Web.config 其中**httpGetEnabled**屬性 **\<serviceMetadata\>** 元素設定為**，則為 true**. 您可以在開發環境中使用中繼資料匯入工具 (例如 SvcUtil.exe) 產生呼叫此服務所需的用戶端程式碼。 中繼資料發行的位址是端點位址加上一個**？ wsdl**查詢字串。  
+4.  在**WCF 服務類型**頁面上，選取**啟用中繼資料端點**核取方塊以指出外掛式的 WCF 接收位置網際網路資訊服務 (IIS) 裝載是否發行服務中繼資料使用 HTTP/GET 要求擷取。 啟用此核取方塊，精靈便會產生 Web.config 其中**httpGetEnabled**屬性 **\<serviceMetadata\>** 元素設定為 **，則為 true**. 您可以在開發環境中使用中繼資料匯入工具 (例如 SvcUtil.exe) 產生呼叫此服務所需的用戶端程式碼。 中繼資料發行的位址是端點位址加上一個 **？ wsdl**查詢字串。  
   
     > [!NOTE]
     >  為避免不慎洩露較為機密的服務中繼資料，建議您在實際執行環境中停用此行為。 這可透過將 httpgetenabled 設為 False 或刪除 MEX 虛擬目錄來完成。  
   
-5.  在**WCF 服務類型**頁面上，於**配接器名稱 （傳輸類型）**下拉式清單中，選取要用來發佈 WCF 服務的外掛式的 WCF 配接器。 您可以選取下列任何一個配接器：  
+5.  在**WCF 服務類型**頁面上，於**配接器名稱 （傳輸類型）** 下拉式清單中，選取要用來發佈 WCF 服務的外掛式的 WCF 配接器。 您可以選取下列任何一個配接器：  
   
     -   **Wcf-basichttp。** WCF-BasicHttp 配接器可以與 WS-I 基本設定檔 1.1 相符的 Web 服務 (例如以 ASMX 為基礎的服務) 通訊。  
   
@@ -63,7 +64,7 @@ ms.lasthandoff: 11/28/2017
   
      ![建立 WCF 服務頁面](../core/media/86cb66b5-6842-4330-8942-20afa68ec5fa.gif "86cb66b5-6842-4330-8942-20afa68ec5fa")  
   
-8.  在**BizTalk 組件**頁面上，於**BizTalk 組件檔案 (\*.dll)**文字方塊中，輸入 BizTalk 組件檔案的名稱，或按一下**瀏覽**瀏覽至包含的組件協調流程來發行，然後按一下**下一步**。  
+8.  在**BizTalk 組件**頁面上，於**BizTalk 組件檔案 (\*.dll)** 文字方塊中，輸入 BizTalk 組件檔案的名稱，或按一下**瀏覽**瀏覽至包含的組件協調流程來發行，然後按一下**下一步**。  
   
     > [!NOTE]
     >  選擇 BizTalk 組件檔案之前，請將所有相依的組件複製到與 BizTalk 組件相同的資料夾中，或將這些相依組件安裝至全域組件快取 (GAC)。  

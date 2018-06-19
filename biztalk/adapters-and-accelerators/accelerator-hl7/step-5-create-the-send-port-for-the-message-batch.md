@@ -1,14 +1,14 @@
 ---
-title: "步驟 5： 建立傳送埠的訊息批次 |Microsoft 文件"
-ms.custom: 
+title: 步驟 5： 建立傳送埠的訊息批次 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5db815df-5b76-4ba4-99ab-c7766b0c301a
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "26006007"
 ---
 # <a name="step-5-create-the-send-port-for-the-message-batch"></a>步驟 5： 建立傳送埠的訊息批次
 在此步驟中，您可以建立傳送埠以將您建立的訊息批次傳遞至目的合作對象。 這是靜態單向連接埠與 FILE 配接器類型。 您指定的目的地 (\Tutorial_BatchMsgDrop) 的檔案資料夾位置[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]將卸除的訊息批次檔。 您定義指出哪種類型的訊息批次傳送連接埠的連接埠的篩選。 篩選器會指定 Tutorial_BatchDest 和 OutboundBatch 的訊息類型的目的地。  
@@ -41,7 +42,7 @@ ms.lasthandoff: 01/17/2018
     |使用|動作|  
     |--------------|----------------|  
     |**目的地資料夾**|瀏覽至 **\<*磁碟機*:\>\Program Files\Microsoft BizTalk\<版本\>Accelerator for HL7\SDK\End 端對端 Tutorial\Tutorial_BatchMsgDrop**. 這是在檔案系統或公用共用的位置路徑[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]會寫入含有訊息批次的檔案。|  
-    |**檔案名稱**|型別**%MessageID%.txt** （副檔名為.txt 取代.xml 副檔名）。|  
+    |**檔案名稱**|型別 **%MessageID%.txt** （副檔名為.txt 取代.xml 副檔名）。|  
     |**複製模式**|選取**建立新**。|  
   
 4.  按一下 **[確定]**。  

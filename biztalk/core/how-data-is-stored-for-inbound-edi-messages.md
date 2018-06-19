@@ -1,14 +1,14 @@
 ---
-title: "資料儲存輸入的 EDI 訊息的方式 |Microsoft 文件"
-ms.custom: 
+title: 資料儲存輸入的 EDI 訊息的方式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f8cbcb96-c0af-4f41-b844-f0e684a4af7c
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971556"
 ---
 # <a name="how-data-is-stored-for-inbound-edi-messages"></a>如何儲存輸入 EDI 訊息的資料
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]會執行下列命令來產生輸入的交換而傳送給它的回應的通知狀態報告項目：  

@@ -1,11 +1,11 @@
 ---
-title: "結構描述發佈為 Web 服務 |Microsoft 文件"
-ms.custom: 
+title: 結構描述發佈為 Web 服務 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Web services, publishing
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Web services, schemas
 - schemas, Web services
 ms.assetid: 65b5f826-6abf-437f-b2dc-b36e488ba6da
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269038"
 ---
 # <a name="publishing-schemas-as-a-web-service"></a>將結構描述發佈為 Web 服務
 您可以使用「BizTalk Web 服務發佈精靈」來建立使用現有結構描述的 Web 服務。 您可以宣告 Web 服務、Web 方法以及要發佈的要求和回應結構描述。 使用精靈，您可以定義目標命名空間、SOAP 標頭需求，以及所產生 Web 服務專案的位置。  

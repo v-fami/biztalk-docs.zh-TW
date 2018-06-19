@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289246"
 ---
 # <a name="what-is-the-wcf-netnamedpipe-adapter"></a>何謂 WCF-NetNamedPipe 配接器？
 WCF-NetNamedPipe 配接器可在服務與用戶端皆為 WCF 架構的環境中，提供相同電腦上的跨處理序通訊。 它可以完整存取 SOAP 可靠性和交易功能。 這個配接器會使用具名管道傳輸，而且訊息具有二進位編碼。 不過，此配接器無法用於跨電腦的通訊。  

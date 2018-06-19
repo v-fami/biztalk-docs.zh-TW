@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "26010263"
 ---
 # <a name="automating-the-build-process"></a>自動化建置程序
 自動化的建置程序會編譯、 部署和則會針對最新的原始碼專案的組建驗證測試 (Bvt) 執行一般的預先決定的間隔。 然後 「 組建報告，」 成功或失敗的建置程序會詳細說明，為該專案的專案關係人。 分析組建報告來判斷哪些區域的專案需要注意，如果專案應該會回復的較早的版本/組建。  

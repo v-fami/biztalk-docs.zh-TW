@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268390"
 ---
 # <a name="receiveportcollection-node"></a>ReceivePortCollection 節點
 繫結檔案的 [ReceivePortCollection] 節點是所有 [ReceivePort] 節點的父節點，這些節點包含隨同繫結檔案一起匯出之接收埠的特定相關資訊。  

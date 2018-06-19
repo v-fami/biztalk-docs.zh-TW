@@ -1,11 +1,11 @@
 ---
-title: "如何使用 BizTalk WCF 服務發佈精靈發佈為 WCF 服務的結構描述 |Microsoft 文件"
-ms.custom: 
+title: 如何使用 BizTalk WCF 服務發佈精靈發佈為 WCF 服務的結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - schemas, WCF services
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - WCF services, schemas
 - WCF Service Publishing Wizard
 ms.assetid: 3b770fd5-5b7b-493f-9016-d7d58854c5ff
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975380"
 ---
 # <a name="how-to-use-the-biztalk-wcf-service-publishing-wizard-to-publish-schemas-as-wcf-services"></a>如何使用 BizTalk WCF 服務發佈精靈將結構描述發佈為 WCF 服務
 您會使用 [BizTalk WCF 服務發佈精靈] 將結構描述發佈為 WCF 服務。  
@@ -45,12 +46,12 @@ ms.lasthandoff: 11/28/2017
   
 4.  在**WCF 服務類型**頁面上，選取或清除**啟用中繼資料端點**核取方塊，以指出外掛式的 WCF 接收位置主控網際網路資訊服務 (IIS) 是否將發行使用 HTTP/GET 要求進行擷取服務中繼資料。  
   
-     選取此核取方塊時，精靈會產生 Web.config 檔案，而**httpGetEnabled**屬性 **\<serviceMetadata\>** 元素設定為**true**。 您可以在開發環境中使用中繼資料匯入工具 (例如 SvcUtil.exe) 產生呼叫此服務所需的用戶端程式碼。 中繼資料發行的位址是端點位址加上一個**？ wsdl**查詢字串。  
+     選取此核取方塊時，精靈會產生 Web.config 檔案，而**httpGetEnabled**屬性 **\<serviceMetadata\>** 元素設定為**true**。 您可以在開發環境中使用中繼資料匯入工具 (例如 SvcUtil.exe) 產生呼叫此服務所需的用戶端程式碼。 中繼資料發行的位址是端點位址加上一個 **？ wsdl**查詢字串。  
   
     > [!NOTE]
     >  為避免不慎洩露機密的服務中繼資料，建議您在實際執行環境中停用此行為。 這可透過將 httpgetenabled 設為 False 或刪除 MEX 虛擬目錄來完成。  
   
-5.  在**WCF 服務類型**頁面上，於**配接器名稱 （傳輸類型）**下拉式清單中，選取要用來發佈 WCF 服務的外掛式的 WCF 配接器。 您可以選取下列任何一個配接器：  
+5.  在**WCF 服務類型**頁面上，於**配接器名稱 （傳輸類型）** 下拉式清單中，選取要用來發佈 WCF 服務的外掛式的 WCF 配接器。 您可以選取下列任何一個配接器：  
   
     -   **Wcf-basichttp。** WCF-BasicHttp 配接器可以與 WS-I 基本設定檔 1.1 相符的 Web 服務 (例如以 ASMX 為基礎的服務) 通訊。  
   

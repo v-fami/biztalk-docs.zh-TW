@@ -1,14 +1,14 @@
 ---
-title: "（適用於 Azure) 的步驟 3： 建立服務匯流排佇列 |Microsoft 文件"
-ms.custom: 
+title: （適用於 Azure) 的步驟 3： 建立服務匯流排佇列 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b7192c3c-4ebf-49c4-b8ce-46a6e9fb5f4a
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277334"
 ---
 # <a name="step-3-for-azure-create-a-service-bus-queue"></a>（適用於 Azure) 的步驟 3： 建立服務匯流排佇列
 在本主題中，您可以建立服務匯流排佇列的 X12 銷售訂單傳送它的後面處理和轉換使用 EDI 協議。  

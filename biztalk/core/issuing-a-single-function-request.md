@@ -1,18 +1,18 @@
 ---
-title: "發出單一函式要求 |Microsoft 文件"
-ms.custom: 
+title: 發出單一函式要求 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - single-function requests
 - business functions, executing with single-function call
 - examples, single-function requests
 ms.assetid: 7448c1a7-be88-4ea7-a357-03cd7024729a
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262030"
 ---
 # <a name="issuing-a-single-function-request"></a>發出單一函式要求
 下面 GetEffectiveAddress 範例是對 JD Edwards EnterpriseOne 的單一函式呼叫，而這個要求結果會產生標準回應文件。 在單一函式要求中，只會在 XML 物件中指定一個 callMethod。  

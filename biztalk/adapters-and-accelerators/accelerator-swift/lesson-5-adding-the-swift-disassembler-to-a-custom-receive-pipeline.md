@@ -1,11 +1,11 @@
 ---
-title: "第 5 課： 加入自訂接收管線 SWIFT 解譯器 |Microsoft 文件"
-ms.custom: 
+title: 第 5 課： 加入自訂接收管線 SWIFT 解譯器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive pipelines, adding disassembler
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - disassembler, custom pipelines
 - disassembler, adding to pipelines
 ms.assetid: 96e26d97-bfab-448f-b7b6-3bc2ec3ccebf
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005551"
 ---
 # <a name="lesson-5-adding-the-swift-disassembler-to-a-custom-receive-pipeline"></a>第 5 課： 加入自訂接收管線 SWIFT 反組譯工具
 在這一課，您可以加入自訂 SWIFT 的解譯器 (DASM) 到您的管線。 DASM 管線元件是將一批訊息分割成個別文件的管線元件。  

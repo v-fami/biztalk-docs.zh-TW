@@ -1,18 +1,18 @@
 ---
-title: "如何從檢視移除帳戶 |Microsoft 文件"
-ms.custom: 
+title: 如何從檢視移除帳戶 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Excel add-in [BAM], security
 - managing [BAM], deleting accounts from views
 - Remove-Account command [BAM]
 ms.assetid: b74a64a0-ddb3-45d2-add7-6261c31be0f0
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971340"
 ---
 # <a name="how-to-remove-accounts-from-a-view"></a>如何從檢視移除帳戶
 系統管理員使用**移除帳戶**命令移除 BAM 檢視中的使用者，並保護 BAM Excel 試算表檢視不會未經授權的存取。  

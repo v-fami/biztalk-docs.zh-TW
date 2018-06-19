@@ -1,14 +1,14 @@
 ---
-title: "排程 SQL Server Integration Services 封裝 |Microsoft 文件"
-ms.custom: 
+title: 排程 SQL Server Integration Services 封裝 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 037ae2cf-c352-4823-95df-9a723f2b5a81
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975948"
 ---
 # <a name="scheduling-sql-server-integration-services-packages"></a>排程 SQL Server Integration Services 封裝
 使用者可以根據儲存於線上分析處理 (OLAP) Cube 中的資料建立 BAM 檢視。 Cube 更新 Integration Services 封裝會重新整理 Cube 中的資料，如此一來，OLAP 檢視就會反映正確的資料。  
@@ -60,7 +61,7 @@ ms.lasthandoff: 11/28/2017
   
 7.  在主控台樹狀目錄中，依序展開**Integration Services**，依序展開**存放的封裝**，然後按一下  **MSDB**。  
   
-8.  以滑鼠右鍵按一下**BAM_AN_\<檢視名稱\>**封裝，然後按一下 **執行封裝**。  
+8.  以滑鼠右鍵按一下**BAM_AN_\<檢視名稱\>** 封裝，然後按一下 **執行封裝**。  
   
 ### <a name="to-run-the-maintaining-bam-data-integration-services-package"></a>若要執行維護 BAM 資料 Integration Services 封裝  
   
@@ -78,7 +79,7 @@ ms.lasthandoff: 11/28/2017
   
 7.  在主控台樹狀目錄中，依序展開**Integration Services**，依序展開**存放的封裝**，然後按一下  **MSDB**。  
   
-8.  以滑鼠右鍵按一下**BAM_DM_\<活動名稱\>**封裝，然後按一下 **執行封裝**。  
+8.  以滑鼠右鍵按一下**BAM_DM_\<活動名稱\>** 封裝，然後按一下 **執行封裝**。  
   
 ### <a name="to-schedule-the-packages-to-run-regularly"></a>若要將這些封裝排程為定期執行  
   
@@ -110,7 +111,7 @@ ms.lasthandoff: 11/28/2017
   
 14. 在**伺服器**下拉式清單中，選取執行作業的伺服器。  
   
-15. 按一下 檔案選取器按鈕**封裝**文字方塊中，選取要排程的封裝 (任一**BAM_DM_\<活動名稱\>**或**BAM_AN_\<檢視名稱\>**封裝)，然後按一下 **確定**。  
+15. 按一下 檔案選取器按鈕**封裝**文字方塊中，選取要排程的封裝 (任一**BAM_DM_\<活動名稱\>** 或**BAM_AN_\<檢視名稱\>** 封裝)，然後按一下 **確定**。  
   
 16. 在**選取頁面**視窗中，按一下 **排程**，然後按一下 **新增**。 這會開啟**新增作業排程** 對話方塊。  
   

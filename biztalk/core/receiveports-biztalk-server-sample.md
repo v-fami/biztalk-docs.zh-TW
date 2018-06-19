@@ -1,14 +1,14 @@
 ---
-title: "接收埠 （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: 接收埠 （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c403005d-5e0e-4015-b138-6318e03192af
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971724"
 ---
 # <a name="receiveports-biztalk-server-sample"></a>接收埠 （BizTalk Server 範例）
 接收埠 」 範例示範如何建立新接收埠使用**ExplorerOM**系統管理類別。  

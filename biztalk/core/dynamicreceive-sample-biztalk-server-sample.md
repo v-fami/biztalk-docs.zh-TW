@@ -1,14 +1,14 @@
 ---
-title: "DynamicReceive 範例 （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: DynamicReceive 範例 （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0fa7c934-7ec3-45ad-b226-c8c53934ecb1
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972740"
 ---
 # <a name="dynamicreceive-sample-biztalk-server-sample"></a>DynamicReceive 範例 (BizTalk Server 範例)
 DynamicReceive 範例示範在動態指定 MQSeries 佇列的 URI 時，如何從 MQSeries 佇列接收 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 訊息。  

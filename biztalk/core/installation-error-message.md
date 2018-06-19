@@ -1,17 +1,17 @@
 ---
-title: "安裝錯誤訊息 |Microsoft 文件"
-ms.custom: 
+title: 安裝錯誤訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - installation, error message
 - error messages, installation
 ms.assetid: 593b033f-03da-43ae-a948-f87aa5e4bccd
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971916"
 ---
 # <a name="installation-error-message"></a>安裝錯誤訊息
 安裝 Microsoft BizTalk Adapter for TIBCO Enterprise Message Service 之後，定義其傳送或接收位置時，可能會產生下列錯誤：  

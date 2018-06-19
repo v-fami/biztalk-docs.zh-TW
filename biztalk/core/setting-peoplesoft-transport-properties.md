@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/creating-peoplesoft-send-handlers/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: 1772a30ce5496a3a14866da168a56958bc3bc78c
 ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974092"
 ---
 # <a name="setting-peoplesoft-transport-properties"></a>設定 PeopleSoft 傳輸屬性
 PeopleSoft 傳輸屬性用於設計和執行階段。 在**傳輸屬性**對話方塊中，您設定的連接和認證參數特定伺服器系統和您嘗試存取的物件。  

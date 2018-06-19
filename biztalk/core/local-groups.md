@@ -1,17 +1,17 @@
 ---
-title: "本機群組 |Microsoft 文件"
-ms.custom: 
+title: 本機群組 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Configuration Manager, local groups
 - local groups
 ms.assetid: cd91b280-a118-459c-b1eb-5bc92dba4059
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22261886"
 ---
 # <a name="local-groups"></a>本機群組
 如果您在單一電腦安裝 BizTalk Server 以及所有必備的軟體，「組態管理員」預設會為您建立所需的 Windows 群組和使用者帳戶。 BizTalk Server 僅在單一電腦組態中支援本機群組和使用者帳戶。  

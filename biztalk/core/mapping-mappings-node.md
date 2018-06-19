@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262518"
 ---
 # <a name="mapping-mappings-node"></a>對應 (對應節點)
 繫結檔案的 [對應] 節點描述已登錄合作對象之合作對象連接埠和角色連接埠類型作業之間的對應。  

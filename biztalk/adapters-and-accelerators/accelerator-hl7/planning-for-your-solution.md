@@ -1,11 +1,11 @@
 ---
-title: "規劃您的解決方案 |Microsoft 文件"
-ms.custom: 
+title: 規劃您的解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Greenfield project
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - Migration project
 - Coexistence installation
 ms.assetid: a108c6d0-dd51-4bf9-85a0-103f60fae971
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005743"
 ---
 # <a name="planning-for-your-solution"></a>規劃您的方案
 本節提供有關計劃時應該考慮的事項的資訊您[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]方案。  

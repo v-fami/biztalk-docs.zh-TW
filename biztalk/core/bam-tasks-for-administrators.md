@@ -1,14 +1,14 @@
 ---
-title: "系統管理員的 BAM 工作 |Microsoft 文件"
-ms.custom: 
+title: 系統管理員的 BAM 工作 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2d9ae9a6-50fa-4f82-8e48-8dffa55c127f
-caps.latest.revision: "33"
+caps.latest.revision: 33
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008423"
 ---
 # <a name="bam-tasks-for-administrators"></a>系統管理員的 BAM 工作
 這個主題說明 BAM 系統管理員在管理 BAM 基礎結構時從事的一般工作。  
@@ -73,7 +74,7 @@ ms.lasthandoff: 12/01/2017
   
 2.  建立 BAM notification 執行 C:\Program Files\Microsoft SQL Server\90\NotificationServices\9.0.242\bin\nscontrol 在分散式環境中的每一部電腦上服務 register-name bamalerts-server\<伺服器名稱\>-服務-serviceusername \<a\> -servicepassword \<passwd\>從命令提示字元。  
   
-3.  編輯每一台要設定為提供分散式 Notifications Service 之電腦上的 BAM 基礎結構組態檔。 若要取得組態檔，請使用**bm.exe get-config-FileName:\<輸出檔\>**命令。  
+3.  編輯每一台要設定為提供分散式 Notifications Service 之電腦上的 BAM 基礎結構組態檔。 若要取得組態檔，請使用**bm.exe get-config-FileName:\<輸出檔\>** 命令。  
   
 4.  編輯組態檔以參考分散式 Notification Services 環境中的伺服器：  
   

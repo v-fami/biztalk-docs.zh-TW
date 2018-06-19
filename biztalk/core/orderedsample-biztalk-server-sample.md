@@ -1,11 +1,11 @@
 ---
-title: "OrderedSample （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: OrderedSample （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, MQSeries adapters
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - examples, orchestrations
 - MQSeries adapters, examples
 ms.assetid: 7e59ff43-d425-40cd-9725-af13084f83d9
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974748"
 ---
 # <a name="orderedsample-biztalk-server-sample"></a>OrderedSample (BizTalk Server 範例)
 OrderedSample 範例會示範如何使用協調流程，以往返方式接收和傳送已排序的訊息序列。  
@@ -36,7 +37,7 @@ OrderedSample 範例會示範如何使用協調流程，以往返方式接收和
  協調流程可以接收批次訊息和單一訊息。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- *\<範例路徑\>*\AdaptersUsage\MQSeriesAdapter\OrderedSample  
+ *\<範例路徑\>* \AdaptersUsage\MQSeriesAdapter\OrderedSample  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -73,11 +74,11 @@ OrderedSample 範例會示範如何使用協調流程，以往返方式接收和
   
 3.  以滑鼠右鍵按一下**佇列**，指向 **新增**，然後按一下 **本機佇列**。  
   
-4.  在**建立本機佇列**對話方塊中，於**佇列名稱**，型別**"queue1"**，然後按一下  **確定**。  
+4.  在**建立本機佇列**對話方塊中，於**佇列名稱**，型別 **"queue1"**，然後按一下  **確定**。  
   
 5.  以滑鼠右鍵按一下**佇列**，按一下 **新增**，然後按一下 **本機佇列**。  
   
-6.  中**建立本機佇列**對話方塊中，於**佇列名稱**，型別**"queue2"**，然後按一下 **確定**。  
+6.  中**建立本機佇列**對話方塊中，於**佇列名稱**，型別 **"queue2"**，然後按一下 **確定**。  
   
 ## <a name="creating-the-receive-location-and-the-mqseries-queue"></a>建立接收位置與 MQSeries 佇列  
  此程序會建立傳送埠和接收位置，以傳送訊息至 MQSeries 以及接收來自 MQSeries 的相互關聯訊息。 如果您還沒有建立 MQSeries 佇列，則在建立接收位置時，也會建立 MQSeries 佇列。  
@@ -104,7 +105,7 @@ OrderedSample 範例會示範如何使用協調流程，以往返方式接收和
   
 10. 按一下**設定**。  
   
-11. 在**MQSeries 傳輸屬性**對話方塊中，於**輪詢間隔**方塊中，輸入**"10"**。  
+11. 在**MQSeries 傳輸屬性**對話方塊中，於**輪詢間隔**方塊中，輸入 **"10"**。  
   
 12. 在**佇列定義**方塊中，按一下**省略符號 （...）**  按鈕。  
   
@@ -152,7 +153,7 @@ OrderedSample 範例會示範如何使用協調流程，以往返方式接收和
   
 1.  在 BizTalk Server 管理主控台中，展開 **協調流程**資料夾。  
   
-2.  按兩下**[orderedsampleorchestration]**協調流程，然後再按一下**繫結**。  
+2.  按兩下 **[orderedsampleorchestration]** 協調流程，然後再按一下**繫結**。  
   
 3.  將協調流程連接埠繫結至下列傳送埠和接收位置：  
   

@@ -1,17 +1,17 @@
 ---
-title: "如何檢視 BAM 彙總 |Microsoft 文件"
-ms.custom: 
+title: 如何檢視 BAM 彙總 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - aggregations [BAM], viewing aggregations
 - viewing, aggregations [BAM]
 ms.assetid: aa697f16-ac47-46f9-98a5-a951961d0413
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,13 +20,14 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256662"
 ---
 # <a name="how-to-view-bam-aggregations"></a>如何檢視 BAM 彙總
 BAM 彙總是由商務分析師在 Excel 中使用 Excel 增益集所定義。  
   
 ### <a name="to-view-your-bam-aggregations"></a>檢視 BAM 彙總  
   
-1.  在執行電腦上[!INCLUDE[btsPlatformsComApis](../includes/btsplatformscomapis-md.md)]; 按一下**啟動**，指向**所有程式**，以滑鼠右鍵按一下**Internet Explorer**，然後按一下 **身分執行系統管理員**。 在**使用者帳戶控制**對話方塊中，按一下 **繼續**。 在 Internet Explorer 網址列中，輸入`http://<server>/BAM/`，其中*\<伺服器 >*執行 BAM 入口網站之電腦的名稱。  
+1.  在執行電腦上[!INCLUDE[btsPlatformsComApis](../includes/btsplatformscomapis-md.md)]; 按一下**啟動**，指向**所有程式**，以滑鼠右鍵按一下**Internet Explorer**，然後按一下 **身分執行系統管理員**。 在**使用者帳戶控制**對話方塊中，按一下 **繼續**。 在 Internet Explorer 網址列中，輸入`http://<server>/BAM/`，其中*\<伺服器 >* 執行 BAM 入口網站之電腦的名稱。  
   
      -或-  
   

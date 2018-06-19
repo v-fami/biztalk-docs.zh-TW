@@ -1,11 +1,11 @@
 ---
-title: "MQSeries 內容屬性 |Microsoft 文件"
-ms.custom: 
+title: MQSeries 內容屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - MQXQH_RemoteQName property [MQSeries adapters]
@@ -80,7 +80,7 @@ helpviewer_keywords:
 - MQCIH_ADSDescriptor property [MQSeries adapters]
 - MQMD_MsgId property [MQSeries adapters]
 ms.assetid: 1b22b7d7-432b-4ec5-938c-c43077ce3e0f
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -89,6 +89,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22266622"
 ---
 # <a name="mqseries-context-properties"></a>MQSeries 內容屬性
 MQSeries 配接器提供一組 MQSeries 專用的內容屬性，可在應用程式中使用。 您可以在篩選運算式與協調流程中使用這些屬性。  
@@ -113,7 +114,7 @@ Message_2(MQSeries.MQMD_UserIdentifier) = "MeMyselfAndI";
 |----------|----------|------------|-----------|  
 |**MQMD_AccountingToken**|string|64|十六進位字串|  
 |**MQMD_ApplIdentityData**|string|32|十六進位字串|  
-|**MQMD_ApplOriginData**|string|4|字串<br /><br /> **預設值：**空間|  
+|**MQMD_ApplOriginData**|string|4|字串<br /><br /> **預設值：** 空間|  
 |**MQMD_BackoutCount**|不帶正負號的整數|4|Number<br /><br /> 唯讀<br /><br /> **預設值：** 0|  
 |**MQMD_CodedCharSetId**|不帶正負號的整數|4|Number<br /><br /> **預設值：** 0|  
 |**MQMD_CorrelId**|string|48|十六進位字串|  
@@ -130,12 +131,12 @@ Message_2(MQSeries.MQMD_UserIdentifier) = "MeMyselfAndI";
 |**MQMD_OriginalLength**|不帶正負號的整數|4||  
 |**MQMD_Persistence**|不帶正負號的整數|4|Number<br /><br /> 使用標頭檔值。|  
 |**MQMD_Priority**|不帶正負號的整數|4|Number|  
-|**MQMD_PutApplName**|string|28|字串<br /><br /> **預設值：**空間|  
+|**MQMD_PutApplName**|string|28|字串<br /><br /> **預設值：** 空間|  
 |**MQMD_PutApplType**|不帶正負號的整數|4|Number<br /><br /> 使用標頭檔值。 **預設值：** 0|  
 |**MQMD_PutDate**|string|8|日期|  
 |**MQMD_PutTime**|string|8|Time|  
-|**MQMD_ReplyToQ**|string|48|字串<br /><br /> **預設值：**空間|  
-|**MQMD_ReplyToQMgr**|string|48|字串<br /><br /> **預設值：**空間|  
+|**MQMD_ReplyToQ**|string|48|字串<br /><br /> **預設值：** 空間|  
+|**MQMD_ReplyToQMgr**|string|48|字串<br /><br /> **預設值：** 空間|  
 |**MQMD_Report**|不帶正負號的整數|4|Number<br /><br /> 使用標頭檔值。|  
 |**MQMD_UserIdentifier**|string|12|字串<br /><br /> 當您使用包含使用者識別碼**SSOAffiliateApplication**屬性。|  
   
@@ -199,7 +200,7 @@ Message_2(MQSeries.MQMD_UserIdentifier) = "MeMyselfAndI";
 |**MQCIH_AbendCode**|string|4||  
 |**MQCIH_ADSDescriptor**|不帶正負號的整數|4||  
 |**MQCIH_AttentionId**|string|4||  
-|**MQCIH_Authenticator**|string|8|當您使用設定為 SSO 密碼**SSOAffiliateApplication**屬性。 **注意：**這個值會設為空白，MQSeries 配接器，如果 SSO 密碼的長度超過 8 個字元。|  
+|**MQCIH_Authenticator**|string|8|當您使用設定為 SSO 密碼**SSOAffiliateApplication**屬性。 **注意：** 這個值會設為空白，MQSeries 配接器，如果 SSO 密碼的長度超過 8 個字元。|  
 |**MQCIH_CancelCode**|string|4||  
 |**MQCIH_CompCode**|不帶正負號的整數|4||  
 |**MQCIH_ConversationalTask**|不帶正負號的整數|4||  
@@ -222,7 +223,7 @@ Message_2(MQSeries.MQMD_UserIdentifier) = "MeMyselfAndI";
 |**MQCIH_TaskEndStatus**|不帶正負號的整數|4||  
 |**MQCIH_TransactionId**|string|4||  
 |**MQCIH_UOWControl**|不帶正負號的整數|4||  
-|**MQIIH_Authenticator**|string|8|當您使用設定為 SSO 密碼**SSOAffiliateApplication**屬性。 **注意：**這個值會設為空白，MQSeries 配接器，如果 SSO 密碼的長度超過 8 個字元。|  
+|**MQIIH_Authenticator**|string|8|當您使用設定為 SSO 密碼**SSOAffiliateApplication**屬性。 **注意：** 這個值會設為空白，MQSeries 配接器，如果 SSO 密碼的長度超過 8 個字元。|  
 |**MQIIH_CommitMode**|string|||  
 |**MQIIH_Flags**|不帶正負號的整數|4||  
 |**MQIIH_Format**|string|||  

@@ -1,18 +1,18 @@
 ---
-title: "如何刪除配接器處理常式 |Microsoft 文件"
-ms.custom: 
+title: 如何刪除配接器處理常式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapters, handlers
 - deleting, handlers [adapters]
 - handlers [adapters], deleting
 ms.assetid: 95db5652-e175-45d1-b713-1ad73655a592
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249622"
 ---
 # <a name="how-to-delete-an-adapter-handler"></a>如何刪除配接器處理常式
 您可以使用 [BizTalk Server 管理] 主控台以刪除傳送或接收配接器處理常式。  

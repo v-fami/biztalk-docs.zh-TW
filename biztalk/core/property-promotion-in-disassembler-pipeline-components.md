@@ -1,11 +1,11 @@
 ---
-title: "解譯器管線元件中的屬性升級 |Microsoft 文件"
-ms.custom: 
+title: 解譯器管線元件中的屬性升級 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components, promoting properties
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - BizTalk Framework Assembler [pipeline component], properties
 - Flat File Disassembler [pipeline component], properties
 ms.assetid: aa37b308-8aa2-45f4-9383-aca4f2c925ce
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971836"
 ---
 # <a name="property-promotion-in-disassembler-pipeline-components"></a>解譯器管線元件中的屬性升級
 屬性升級是指一種程序，該程序使用 XPath 運算式從 XML 文件擷取屬性值，然後將該值放在訊息內容上，以便用於訊息路由。  

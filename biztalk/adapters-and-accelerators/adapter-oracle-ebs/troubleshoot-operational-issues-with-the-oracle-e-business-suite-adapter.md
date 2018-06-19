@@ -1,15 +1,15 @@
 ---
-title: "Oracle E-business Suite 配接器疑難排解操作問題 |Microsoft 文件"
-description: "常見問題和解決方式 Oracle EBS 配接器在 BizTalk 配接器組件 (BAP)"
-ms.custom: 
+title: Oracle E-business Suite 配接器疑難排解操作問題 |Microsoft 文件
+description: 常見問題和解決方式 Oracle EBS 配接器在 BizTalk 配接器組件 (BAP)
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 667633e0-055a-418a-ab64-d4f6e6c7a898
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010199"
 ---
 # <a name="troubleshoot-operational-issues-with-the-oracle-e-business-suite-adapter"></a>Oracle E-business Suite 配接器疑難排解操作問題
 本章節將討論使用來解析作業使用時可能遭遇的錯誤的疑難排解技術[!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]。  

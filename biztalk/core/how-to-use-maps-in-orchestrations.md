@@ -1,14 +1,14 @@
 ---
-title: "如何在協調流程中使用對應 |Microsoft 文件"
-ms.custom: 
+title: 如何在協調流程中使用對應 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dfd628d8-c163-431d-8ad7-d7d77007c549
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255326"
 ---
 # <a name="how-to-use-maps-in-orchestrations"></a>如何在協調流程中使用對應
 「BizTalk 對應工具」是在 Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 環境中執行的工具。 您可以使用 BizTalk 對應工具建立及編輯對應，並在其中使用連結和運算質定義輸入和輸出結構描述之間的關係。 連結定義記錄或欄位的直接資料複本。 連結可以直接連接項目到另一個結構描述，也可以建立與運算質的連接。 運算質執行更加複雜的資料操作。  

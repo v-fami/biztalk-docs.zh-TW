@@ -13,7 +13,7 @@ helpviewer_keywords:
 - strings, configuring
 - strings, right-justified
 ms.assetid: a180b818-1009-45f5-a503-d10ed7dd27fc
-caps.latest.revision: ''
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22246678"
 ---
 # <a name="handling-string-values"></a>處理字串值
 此主題說明如何將一些字串引數設定為靠右對齊 (填補左方)。  

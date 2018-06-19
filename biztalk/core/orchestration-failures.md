@@ -1,11 +1,11 @@
 ---
-title: "協調流程失敗 |Microsoft 文件"
-ms.custom: 
+title: 協調流程失敗 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Catch Exception block [Orchestration Designer], suspended orchestrations
@@ -20,7 +20,7 @@ helpviewer_keywords:
 - orchestrations, HAT
 - HAT, orchestrations
 ms.assetid: d0a799fb-7859-4774-b444-979f22f04215
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -29,6 +29,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263806"
 ---
 # <a name="orchestration-failures"></a>協調流程失敗
 協調流程的複雜性不同；例如，協調流程可能呼叫 .NET 物件，或經由轉換和指派圖形來建構訊息。 所以，因為其內容的多樣性以及自訂化程度的不同，不可能將每個可能的失敗都列出。 不過，協調流程中發生的所有失敗都會顯示為例外狀況。  

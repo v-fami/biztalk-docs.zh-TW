@@ -1,11 +1,11 @@
 ---
-title: "逐步解說： 使用 XML 信封 （基本） |Microsoft 文件"
-ms.custom: 
+title: 逐步解說： 使用 XML 信封 （基本） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - content-based routing, promoting properties
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - routing, messages
 - routing, promoting properties
 ms.assetid: 02d0c596-0cfe-4bae-9f1b-d7dbc17e18a9
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975749"
 ---
 # <a name="walkthrough-using-xml-envelopes-basic"></a>逐步解說： 使用 XML 信封 （基本）
 此範例藉由實作虛構錯誤追蹤系統的一部分，示範基本的 XML 信封解譯。 這個範例符合下列需求：  
@@ -105,7 +106,7 @@ ms.lasthandoff: 11/28/2017
   
 3.  將根節點的名稱，由 "Root" 變更為 "Envelope"。  
   
-4.  現在將結構描述標示為信封結構描述。 按一下**\<結構描述\>**節點。 在 屬性 窗格中，設定 結構描述參考屬性**信封**至`OK`。  
+4.  現在將結構描述標示為信封結構描述。 按一下**\<結構描述\>** 節點。 在 屬性 窗格中，設定 結構描述參考屬性**信封**至`OK`。  
   
 5.  設定**Body XPath**屬性。 若要這樣做，請按一下**信封**節點。 在 屬性 視窗中，按一下省略符號 (**...**) 按鈕**Body XPath**屬性選取**信封**，然後按一下 **確定**。  
   
@@ -202,7 +203,7 @@ ms.lasthandoff: 11/28/2017
   
 3.  中**設定管線-XMLReceive** ] 對話方塊中，將**可復原交換處理**屬性`True`，然後按一下 [**確定**。  
   
-4.  按一下**確定**關閉**接收位置屬性**對話方塊，然後按一下**[確定]**關閉**接收埠屬性**對話方塊方塊。  
+4.  按一下**確定**關閉**接收位置屬性**對話方塊，然後按一下 **[確定]** 關閉**接收埠屬性**對話方塊方塊。  
   
 ##### <a name="to-create-a-sample-file-and-run-the-example"></a>若要建立範例檔案，然後執行範例  
   

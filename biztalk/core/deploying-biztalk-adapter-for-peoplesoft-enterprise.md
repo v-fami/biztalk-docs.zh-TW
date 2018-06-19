@@ -9,7 +9,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2f53d1b4-e1df-41ff-b554-1bb1d20b9111
-caps.latest.revision: ''
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25970820"
 ---
 # <a name="deploy-biztalk-adapter-for-peoplesoft-enterprise"></a>部署 BizTalk Adapter for PeopleSoft Enterprise
 本節提供有關部署 BizTalk Adapter for PeopleSoft Enterprise 的詳細資訊。  

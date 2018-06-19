@@ -1,18 +1,18 @@
 ---
-title: "管線範例 |Microsoft 文件"
-ms.custom: 
+title: 管線範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipelines, examples
 - SDK samples, pipelines
 - examples, pipelines
 ms.assetid: 1e53658b-1a7a-4dc0-963b-ebd14155c267
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26004391"
 ---
 # <a name="pipeline-samples"></a>管線範例
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 軟體開發套件 (SDK) 包含傳送管線範例和接收管線範例。 本節提供每個範例所展示功能的相關資訊、用來建置和執行範例的指示，以及您可以預期的結果。  

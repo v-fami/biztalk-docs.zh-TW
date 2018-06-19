@@ -1,14 +1,14 @@
 ---
-title: "如何使用 Debug Diagnostics 分析記憶體傾印 |Microsoft 文件"
-ms.custom: 
+title: 如何使用 Debug Diagnostics 分析記憶體傾印 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 986a91a7-feab-4014-bbd5-e8b966b8b841
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256598"
 ---
 # <a name="how-to-use-debug-diagnostics-to-analyze-a-memory-dump"></a>如何使用 Debug Diagnostics 分析記憶體傾印
 IIS Diagnostics**偵錯診斷工具**包含功能，可以提供擷取的記憶體傾印檔案的基本分析。 若要執行記憶體傾印檔案的分析，請遵循以下的步驟：  

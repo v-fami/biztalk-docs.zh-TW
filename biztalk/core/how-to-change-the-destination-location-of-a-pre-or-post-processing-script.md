@@ -1,11 +1,11 @@
 ---
-title: "如何變更前置或後置處理指令碼的目的地位置 |Microsoft 文件"
-ms.custom: 
+title: 如何變更前置或後置處理指令碼的目的地位置 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - scripts, file locations
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - managing [scripts], modifying
 - managing [scripts], file locations
 ms.assetid: 4a4fdaef-099f-4c29-9815-12404c7a2212
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249286"
 ---
 # <a name="how-to-change-the-destination-location-of-a-pre--or-post-processing-script"></a>如何變更前置或後置處理指令碼的目的地位置
 本主題描述如何使用 [BizTalk Server 管理主控台] 來變更前置或後置處理指令碼的目的地位置。 這是在安裝應用程式時便會將指令碼複製到其中的位置。 在將應用程式部署到不同的環境時，您就可能需要變更目的地位置。  

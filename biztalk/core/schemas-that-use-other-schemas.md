@@ -1,14 +1,14 @@
 ---
-title: "使用其他結構描述的結構描述 |Microsoft 文件"
-ms.custom: 
+title: 使用其他結構描述的結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 02954d46-48ce-4cdf-a012-74c212ce8b6d
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271598"
 ---
 # <a name="schemas-that-use-other-schemas"></a>使用其他結構描述的結構描述
 
@@ -30,7 +31,7 @@ ms.lasthandoff: 09/20/2017
 |---------------------------|--------------------|  
 |匯入|-存取和使用匯入結構描述中定義的類型。<br />-必須使用中，匯入結構描述型別，或從中; 衍生新的類型不能修改類型。<br />-提供一種機制，使用其他命名空間中定義的型別。 事實上，已匯入之結構描述的目標命名空間必須與正在匯入的結構描述不同。<br />-使用**匯入**項目和其**命名空間**和**schemaLocation**屬性，來參照其他的結構描述。|  
 |包含|-存取和使用包含結構描述中定義的類型。<br />-必須使用中，包含結構描述型別，或從中; 衍生新的類型不能修改類型。<br />-包含結構描述必須位於相同的目標命名空間包含的結構描述，或包含的結構描述的目標命名空間必須為空白。<br />-使用**包含**項目和其**schemaLocation**屬性，來參照其他的結構描述。|  
-|重新定義|-存取和使用已重新定義結構描述中定義的類型。<br />-可以使用已重新定義結構描述中的型別，衍生的新類型，或指定對其的修改。<br />-已重新定義結構描述必須位於相同的目標命名空間重新定義結構描述，或重新定義結構描述的目標命名空間必須為空白。<br />-使用**重新定義**項目和其**schemaLocation**屬性，來參照其他的結構描述。 任何類型的重新定義所指定的**重新定義**項目。 **注意：**使用重新定義機制是進階的 XSD 概念，應該只用於之後您有充分瞭解如何及何時應該使用。|  
+|重新定義|-存取和使用已重新定義結構描述中定義的類型。<br />-可以使用已重新定義結構描述中的型別，衍生的新類型，或指定對其的修改。<br />-已重新定義結構描述必須位於相同的目標命名空間重新定義結構描述，或重新定義結構描述的目標命名空間必須為空白。<br />-使用**重新定義**項目和其**schemaLocation**屬性，來參照其他的結構描述。 任何類型的重新定義所指定的**重新定義**項目。 **注意：** 使用重新定義機制是進階的 XSD 概念，應該只用於之後您有充分瞭解如何及何時應該使用。|  
   
 > [!NOTE]
 >  完整的差異和相似性之間匯入的詳細資訊，包括和重新定義機制，請參閱中所列的參照[在網站上的 XSD 資源](../core/xsd-resources-on-the-web.md)。  

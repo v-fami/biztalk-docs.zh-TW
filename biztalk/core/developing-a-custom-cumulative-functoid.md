@@ -1,14 +1,14 @@
 ---
-title: "開發自訂累計運算質 |Microsoft 文件"
-ms.custom: 
+title: 開發自訂累計運算質 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8ea2c5fa-ed50-4b76-aee9-0d4adf9e6d8c
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22242326"
 ---
 # <a name="developing-a-custom-cumulative-functoid"></a>開發自訂累計運算質
 使用自訂累計運算質以執行在執行個體訊息中發生多次之值的累積運算。  

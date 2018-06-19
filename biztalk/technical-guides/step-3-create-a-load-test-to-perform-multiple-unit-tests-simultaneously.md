@@ -1,14 +1,14 @@
 ---
-title: "步驟 3： 建立負載測試，以便同時執行多個單元測試 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3： 建立負載測試，以便同時執行多個單元測試 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b5dd7e31-7188-4edf-9513-ea2725950b47
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976548"
 ---
 # <a name="step-3-create-a-load-test-to-perform-multiple-unit-tests-simultaneously"></a>步驟 3： 建立負載測試，以便同時執行多個單元測試
 負載測試執行多個執行個體的其中一個或多個單元測試，以便您可以測量您的應用程式效能和處理負載的能力。 Visual Studio 2010 負載測試的主要元件包括：  
@@ -45,7 +46,7 @@ ms.lasthandoff: 11/28/2017
   
 4.  按一下 **[下一步]**。  
   
-5.  在**編輯負載測試情節的設定**頁面**輸入負載測試情節的名稱：**類型**BTS_Messaging_Step**。 在下**考慮時間特性**選取**不使用考慮時間**，然後按一下 **下一步**。  
+5.  在**編輯負載測試情節的設定**頁面**輸入負載測試情節的名稱：** 類型**BTS_Messaging_Step**。 在下**考慮時間特性**選取**不使用考慮時間**，然後按一下 **下一步**。  
   
 6.  在**編輯負載模式設定的負載測試情節**頁面上，選取**逐步執行負載**，輸入下列值，然後按一下**下一步**。  
   
@@ -129,7 +130,7 @@ ms.lasthandoff: 11/28/2017
     |效能分類|效能計數器|  
     |--------------------------|-------------------------|  
     |處理器|%Processor Time _Total 計數器執行個體。|  
-    |Biztalk: Messagebox： 一般計數器|多工緩衝處理大小 *\<BizTalk MessageBox 資料庫名稱\>*:*\<SQL Server 執行個體名稱\>*計數器執行個體。 **注意：***\<BizTalk MessageBox 資料庫名稱\>*和 *\<SQL Server 執行個體名稱\>*只是預留位置BizTalk MessageBox 資料庫和裝載 BizTalk MessageBox 資料庫的 SQL Server 執行個體的實際名稱。   應該使用的 BizTalk MessageBox 資料庫和相關聯的 SQL Server 執行個體的實際名稱取代這些預留位置。|  
+    |Biztalk: Messagebox： 一般計數器|多工緩衝處理大小 *\<BizTalk MessageBox 資料庫名稱\>*:*\<SQL Server 執行個體名稱\>* 計數器執行個體。 **注意：***\<BizTalk MessageBox 資料庫名稱\>* 和 *\<SQL Server 執行個體名稱\>* 只是預留位置BizTalk MessageBox 資料庫和裝載 BizTalk MessageBox 資料庫的 SQL Server 執行個體的實際名稱。   應該使用的 BizTalk MessageBox 資料庫和相關聯的 SQL Server 執行個體的實際名稱取代這些預留位置。|  
     |BizTalk:傳訊|文件數/秒的接收主控件計數器執行個體。<br /><br /> 文件處理每秒傳輸主控件計數器執行個體。|  
     |BizTalk：訊息代理程式|文件的訊息傳遞內送速率接收主控件。|  
     |BizTalk：訊息代理程式|文件傳輸主控件的訊息發佈外寄速率。|  

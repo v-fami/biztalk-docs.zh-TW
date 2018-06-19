@@ -1,14 +1,14 @@
 ---
-title: "步驟 4： 設定負載測試的 BizTalk Server 環境 |Microsoft 文件"
-ms.custom: 
+title: 步驟 4： 設定負載測試的 BizTalk Server 環境 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/29/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5f336c5f-5a18-493d-8fc0-a8a475ab47b3
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976804"
 ---
 # <a name="step-4-configure-biztalk-server-environment-for-load-testing"></a>步驟 4： 設定負載測試 BizTalk Server 的環境
 本主題提供資訊，以建立 BizTalk Server 接收位置，接收埠和傳送埠執行主題所述的範例程式碼所需[步驟 1： 建立單元測試加入至 BizTalk Server 提交的文件](~/technical-guides/step-1-create-a-unit-test-to-submit-documents-to-biztalk-server.md)和[步驟 3： 建立負載測試，以便同時執行多個單元測試](~/technical-guides/step-3-create-a-load-test-to-perform-multiple-unit-tests-simultaneously.md)。  
@@ -42,7 +43,7 @@ ms.lasthandoff: 11/28/2017
 |信任的驗證|請確認不勾選此方塊。|  
 |僅限 32 位元|請確認不勾選此方塊。|  
 |將此預設主機群組中|請確認不勾選此方塊。|  
-|Windows 群組|Windows 群組，用來控制對此主機與關聯的主控件執行個體的存取。 建立的預設內含式主控件為視窗群組*\<電腦名稱\>*\BizTalk 應用程式使用者 （適用於單一伺服器安裝 BizTalk Server） 或 *\<網域名稱\>*\BizTalk 應用程式使用者 （適用於 BizTalk Server 安裝，需要使用網域群組的多個伺服器）。 **注意：***\<電腦名稱\>*和*\<網域名稱\>*預留位置的實際電腦名稱或網域名稱建立群組時使用。   <br /><br /> 如果此主機會建立一個新的群組，則它必須 > 主題所述的權限[主機群組](http://go.microsoft.com/fwlink/?LinkId=208803)(http://go.microsoft.com/fwlink/?LinkId=208803) 中的 BizTalk Server 文件。|  
+|Windows 群組|Windows 群組，用來控制對此主機與關聯的主控件執行個體的存取。 建立的預設內含式主控件為視窗群組*\<電腦名稱\>* \BizTalk 應用程式使用者 （適用於單一伺服器安裝 BizTalk Server） 或 *\<網域名稱\>* \BizTalk 應用程式使用者 （適用於 BizTalk Server 安裝，需要使用網域群組的多個伺服器）。 **注意：***\<電腦名稱\>* 和*\<網域名稱\>* 預留位置的實際電腦名稱或網域名稱建立群組時使用。   <br /><br /> 如果此主機會建立一個新的群組，則它必須 > 主題所述的權限[主機群組](http://go.microsoft.com/fwlink/?LinkId=208803)(http://go.microsoft.com/fwlink/?LinkId=208803) 中的 BizTalk Server 文件。|  
   
  重複執行建立 「 傳送 」 主控件建立 「 接收 」 主控件時，您會遵循的步驟。 設定 「 接收 」 主控件具有下列屬性值：  
   
@@ -54,7 +55,7 @@ ms.lasthandoff: 11/28/2017
 |信任的驗證|請確認不勾選此方塊。|  
 |僅限 32 位元|請確認不勾選此方塊。|  
 |將此預設主機群組中|請確認不勾選此方塊。|  
-|Windows 群組|Windows 群組，用來控制對此主機與關聯的主控件執行個體的存取。 建立的預設內含式主控件為視窗群組*\<電腦名稱\>*\BizTalk 應用程式使用者 （適用於單一伺服器安裝 BizTalk Server） 或 *\<網域名稱\>*\BizTalk 應用程式使用者 （適用於 BizTalk Server 安裝，需要使用網域群組的多個伺服器）。 **注意：***\<電腦名稱\>*和*\<網域名稱\>*預留位置的實際電腦名稱或網域名稱建立群組時使用。   <br /><br /> 如果此主機會建立一個新的群組，則它必須 > 主題所述的權限[主機群組](http://go.microsoft.com/fwlink/?LinkId=208803)(http://go.microsoft.com/fwlink/?LinkId=208803) 中的 BizTalk Server 文件。|  
+|Windows 群組|Windows 群組，用來控制對此主機與關聯的主控件執行個體的存取。 建立的預設內含式主控件為視窗群組*\<電腦名稱\>* \BizTalk 應用程式使用者 （適用於單一伺服器安裝 BizTalk Server） 或 *\<網域名稱\>* \BizTalk 應用程式使用者 （適用於 BizTalk Server 安裝，需要使用網域群組的多個伺服器）。 **注意：***\<電腦名稱\>* 和*\<網域名稱\>* 預留位置的實際電腦名稱或網域名稱建立群組時使用。   <br /><br /> 如果此主機會建立一個新的群組，則它必須 > 主題所述的權限[主機群組](http://go.microsoft.com/fwlink/?LinkId=208803)(http://go.microsoft.com/fwlink/?LinkId=208803) 中的 BizTalk Server 文件。|  
   
 ### <a name="create-instances-of-the-biztalk-server-send-and-receive-hosts"></a>建立執行個體的 BizTalk Server 傳送和接收主控件  
  依照主題中的 BizTalk Server 文件[如何新增主控件執行個體](http://go.microsoft.com/fwlink/?LinkId=208596)(http://go.microsoft.com/fwlink/?LinkId=208596) 建立和啟動 BizTalk Server 「 傳送 」 主控件執行個體。 設定 BizTalk Server 群組中每個 BizTalk Server 上執行，並且具有下列屬性值設定每個主控件執行個體的 「 傳送 」 主控件執行個體：  
@@ -114,8 +115,8 @@ ms.lasthandoff: 11/28/2017
 |Binding\NetTcpBindingElement\listenBacklog|400|  
 |Binding\NetTcpBindingElement\maxConnections|400|  
 |Binding\Security\NetTcpSecurityElement\mode|無|  
-|Behavior\ServiceBehavior\serviceThrottling\ServiceThrottlingElement**附註：**將 serviceThrottling 行為新增至清單的行為，以滑鼠右鍵按一下 ServiceBehavior 按一下**加入擴充**，選取**serviceThrottling**從清單中的行為延伸模組，然後按一下**確定**。|設定**ServiceThrottlingElement**屬性為下列值：<br /><br /> -   **maxConcurrentCalls** 400<br />-   **maxConcurrentInstances** 400<br />-   **maxConcurrentSessions** 400|  
-|Behavior\ServiceBehavior\serviceDebug\ServiceDebugElement**附註：**加入 serviceDebug 行為的行為，以滑鼠右鍵按一下 ServiceBehavior 清單按一下**加入擴充**，選取**serviceDebug**行為延伸模組，然後再按一下清單中**確定**。|保留的清單**ServiceDebugElement**屬性保留為預設值 （空白） 除了下列的屬性，來變更為 True 的值：<br /><br /> -   **httpHelpPageEnabled** ，則為 True<br />-   **httpsHelpPageEnabled** ，則為 True<br />-   **includeExceptionDetailInFaults** ，則為 True|  
+|Behavior\ServiceBehavior\serviceThrottling\ServiceThrottlingElement**附註：** 將 serviceThrottling 行為新增至清單的行為，以滑鼠右鍵按一下 ServiceBehavior 按一下**加入擴充**，選取**serviceThrottling**從清單中的行為延伸模組，然後按一下**確定**。|設定**ServiceThrottlingElement**屬性為下列值：<br /><br /> -   **maxConcurrentCalls** 400<br />-   **maxConcurrentInstances** 400<br />-   **maxConcurrentSessions** 400|  
+|Behavior\ServiceBehavior\serviceDebug\ServiceDebugElement**附註：** 加入 serviceDebug 行為的行為，以滑鼠右鍵按一下 ServiceBehavior 清單按一下**加入擴充**，選取**serviceDebug**行為延伸模組，然後再按一下清單中**確定**。|保留的清單**ServiceDebugElement**屬性保留為預設值 （空白） 除了下列的屬性，來變更為 True 的值：<br /><br /> -   **httpHelpPageEnabled** ，則為 True<br />-   **httpsHelpPageEnabled** ，則為 True<br />-   **includeExceptionDetailInFaults** ，則為 True|  
   
  按一下**確定**來關閉 Wcf-custom 傳輸屬性 對話方塊，然後按一下**確定** 以關閉 接收位置屬性 對話方塊。  
   
@@ -130,7 +131,7 @@ ms.lasthandoff: 11/28/2017
 |Filters\Name|BTS.ReceivePortName|  
 |Filters\Operator|==|  
 |Filters\Value|BTSLoadTest.Messaging.OneWay.ReceivePort|  
-|由 Filters\Group|和**附註：**篩選這些屬性會設定以正確的值，如果應該顯示為`BTS.ReceivePortName == BTSLoadTest.Messaging.OneWay.ReceivePort`b 中的 [傳送埠屬性] 對話方塊的 [篩選] 頁面底部所見ox。 因為套用此篩選之後，此傳送埠訂閱透過名為 BTSLoadTest.Messaging.OneWay.ReceivePort 接收埠的 BizTalk Server 收到任何訊息。|  
+|由 Filters\Group|和**附註：** 篩選這些屬性會設定以正確的值，如果應該顯示為`BTS.ReceivePortName == BTSLoadTest.Messaging.OneWay.ReceivePort`b 中的 [傳送埠屬性] 對話方塊的 [篩選] 頁面底部所見ox。 因為套用此篩選之後，此傳送埠訂閱透過名為 BTSLoadTest.Messaging.OneWay.ReceivePort 接收埠的 BizTalk Server 收到任何訊息。|  
 |追蹤|確定未核取所有的方塊。|  
 |General\Type|選取**Wcf-custom**從下拉式清單，然後按一下**設定** 按鈕，這會顯示**Wcf-custom 傳輸屬性**應該 對話方塊下一節所述設定**設定 Wcf-custom 傳送傳輸**。|  
   
@@ -139,7 +140,7 @@ ms.lasthandoff: 11/28/2017
   
 |屬性|值|  
 |--------------|-----------|  
-|General\Address (URI)|net.tcp://*\<電腦名稱\>*: 2001年/TCP1**重要事項：***\<電腦名稱\>*這是一個預留位置用來裝載 IndigoService.exe 實際電腦名稱，它被設計來取用 WCF 透過傳送的訊息。   因為 IndigoService.exe 需要極少的資源，所以通常完全可接受用於 BizTalk Server 群組資料庫的 SQL Server 電腦上執行 IndigoService.exe。 IndigoService.exe 屬於 BizTalk 基準精靈，將會位於[BizTalk 基準精靈](http://go.microsoft.com/fwlink/?LinkID=186347)(http://go.microsoft.com/fwlink/?LinkID=186347)。|  
+|General\Address (URI)|net.tcp://*\<電腦名稱\>*: 2001年/TCP1**重要事項：***\<電腦名稱\>* 這是一個預留位置用來裝載 IndigoService.exe 實際電腦名稱，它被設計來取用 WCF 透過傳送的訊息。   因為 IndigoService.exe 需要極少的資源，所以通常完全可接受用於 BizTalk Server 群組資料庫的 SQL Server 電腦上執行 IndigoService.exe。 IndigoService.exe 屬於 BizTalk 基準精靈，將會位於[BizTalk 基準精靈](http://go.microsoft.com/fwlink/?LinkID=186347)(http://go.microsoft.com/fwlink/?LinkID=186347)。|  
 |Binding\Binding 類型|**customBinding**|  
   
  如同大部分的 WCF 自訂繫結類型**customBinding**繫結型別會公開一些屬性，它應該設定為下列值：  
@@ -219,9 +220,9 @@ ms.lasthandoff: 11/28/2017
   
 8.  按一下以選取**主控件執行個體**BizTalk 設定儀表板的左窗格中。  
   
-9. 按一下下拉式清單旁**主控件執行個體：**選取其中一個用於效能測試的主控件執行個體。  
+9. 按一下下拉式清單旁**主控件執行個體：** 選取其中一個用於效能測試的主控件執行個體。  
   
-10. 屬性值保留為預設設定，除了變更**.NET CLR 最大工作者執行緒**為**100**並變更**上最小.NET CLR 工作者執行緒**至值**25**。  
+10. 屬性值保留為預設設定，除了變更 **.NET CLR 最大工作者執行緒**為**100**並變更**上最小.NET CLR 工作者執行緒**至值**25**。  
   
 11. 重複步驟 10 期間的效能測試將會使用每個主控件執行個體中所述的程序。  
   

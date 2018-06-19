@@ -1,11 +1,11 @@
 ---
-title: "Windows SharePoint Services 配接器運算式 |Microsoft 文件"
-ms.custom: 
+title: Windows SharePoint Services 配接器運算式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - macros, Windows SharePoint Services adapters
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - configuring [Windows SharePoint Services adapters], expressions
 - Windows SharePoint Services adapters, expressions
 ms.assetid: 15e3afb2-0ef8-41b4-b3ec-de84af738c12
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973884"
 ---
 # <a name="windows-sharepoint-services-adapter-expressions"></a>Windows Sharepoint Services 配接器運算式
 本主題說明格式與意義可以指定為值的字串**檔案 NameProperty 來源**Windows SharePoint Services 配接器的屬性。 它也會描述相關的內容屬性， **WSS。檔名**和**WSS。ConfigPropertiesXml**。 這些運算式可讓您根據常值與從訊息或 BizTalk 系統擷取的值，輕鬆地定義檔案名稱值或是自訂的 Windows SharePoint Service 資料行值。  
@@ -50,9 +51,9 @@ ms.lasthandoff: 11/28/2017
 |%MessageID%|BizTalk 訊息識別碼是唯一的 GUID。|  
 |%SendingOrchestrationID%|產生訊息的協調流程執行個體之 BizTalk 識別碼。|  
 |%SendingOrchestrationType%|產生訊息的協調流程類型名稱。|  
-|%Xpath =\<xpath\>%|允許指定要用來擷取訊息值的 XPATH。 「\<xpath\>"必須取代有效的 XPATH 運算式。 **注意：**命名空間別名必須定義在 ' Namespace Aliases' 或 WSS 運算式外。ConfigNamespaceAliases 欄位。|  
-|%Filename%|取代成從訊息內容屬性 WSS.Filename 擷取的檔案名稱值。 從 SharePoint 接收的訊息會將 WSS.Filename 內容屬性設定為 SharePoint 檔案的名稱。 傳回的值是使用 Path.GetFilenameWithoutExtension 來預先處理。 **注意：**這個巨集不能用於在 WSS。Config * 內容屬性 （從協調流程）。|  
-|%Extension%|取代成從訊息內容屬性 WSS.Filename 擷取的副檔名值。 從 SharePoint 接收的訊息會將 WSS.Filename 內容屬性設定為 SharePoint 檔案的名稱。 傳回值會使用 Path.GetExtension 進行前置處理。 傳回的值不會包含 "."。 **注意：**這個巨集不能用於在 WSS。Config * 內容屬性 （從協調流程）。|  
+|%Xpath =\<xpath\>%|允許指定要用來擷取訊息值的 XPATH。 「\<xpath\>"必須取代有效的 XPATH 運算式。 **注意：** 命名空間別名必須定義在 ' Namespace Aliases' 或 WSS 運算式外。ConfigNamespaceAliases 欄位。|  
+|%Filename%|取代成從訊息內容屬性 WSS.Filename 擷取的檔案名稱值。 從 SharePoint 接收的訊息會將 WSS.Filename 內容屬性設定為 SharePoint 檔案的名稱。 傳回的值是使用 Path.GetFilenameWithoutExtension 來預先處理。 **注意：** 這個巨集不能用於在 WSS。Config * 內容屬性 （從協調流程）。|  
+|%Extension%|取代成從訊息內容屬性 WSS.Filename 擷取的副檔名值。 從 SharePoint 接收的訊息會將 WSS.Filename 內容屬性設定為 SharePoint 檔案的名稱。 傳回值會使用 Path.GetExtension 進行前置處理。 傳回的值不會包含 "."。 **注意：** 這個巨集不能用於在 WSS。Config * 內容屬性 （從協調流程）。|  
   
  屬性升級支援的任何有效運算式都是有效的設計階段檔案名稱。 此設計階段檔案名稱將在執行階段擴充成 Windows SharePoint Services 檔案名稱。 此 Windows SharePoint Services 檔案名稱有一些其他的限制，如下所述：  
   

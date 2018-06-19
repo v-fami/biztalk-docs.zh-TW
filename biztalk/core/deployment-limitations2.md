@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/deploying-biztalk-adapter-for-jd-edwards-oneworld/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: 64f202316e59040a77cb04da99857e8539a184ac
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015013"
 ---
 # <a name="deployment-limitations"></a>部署限制
 傳輸配接器 」 密碼會儲存為星號 (\*\*\*\*\*\*) 中繫結檔案匯出 BizTalk 部署精靈 」，並傳遞給管理以相同格式的元件。 匯入星號取代成隨機英數字元值 （也就是不正確的密碼） 之前編輯繫結檔案。 然後輸入正確的密碼使用**傳輸屬性**匯入繫結檔案後的頁面。  

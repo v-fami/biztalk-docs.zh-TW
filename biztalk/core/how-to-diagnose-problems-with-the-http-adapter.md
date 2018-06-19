@@ -1,14 +1,14 @@
 ---
-title: "如何診斷 HTTP 配接器問題 |Microsoft 文件"
-ms.custom: 
+title: 如何診斷 HTTP 配接器問題 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 91f818dd-11fa-4ea4-b904-e8e00b3e49b4
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249838"
 ---
 # <a name="how-to-diagnose-problems-with-the-http-adapter"></a>如何診斷 HTTP 配接器問題
 本節包含的步驟可幫助您診斷 HTTP 配接器問題。  
@@ -28,7 +29,7 @@ ms.lasthandoff: 09/20/2017
      *%Windir%\\*system32\LogFiles\W3SVC1\  
   
     > [!NOTE]
-    >  *%Windir%*是 IIS 伺服器上的 Windows 目錄位置的預留位置。  
+    >  *%Windir%* 是 IIS 伺服器上的 Windows 目錄位置的預留位置。  
   
      根據預設，[!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] 電腦上的 HTTPERR 記錄檔位於下列目錄：  
   

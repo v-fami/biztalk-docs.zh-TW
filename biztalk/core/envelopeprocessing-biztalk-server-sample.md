@@ -1,11 +1,11 @@
 ---
-title: "EnvelopeProcessing （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: EnvelopeProcessing （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, envelopes
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - flat files, examples
 - envelopes, examples
 ms.assetid: b4cd979b-c7b4-446c-be29-c9f3169afa1f
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972340"
 ---
 # <a name="envelopeprocessing-biztalk-server-sample"></a>EnvelopeProcessing （BizTalk Server 範例）
 EnvelopeProcessing 範例示範如何在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管線中處理訊息和訊息信封。 它也會進一步示範如何將一般檔案訊息處理為 XML 訊息。  
@@ -97,13 +98,13 @@ EnvelopeProcessing 範例示範如何在 [!INCLUDE[btsBizTalkServerNoVersion](..
   
 1.  在命令視窗中，瀏覽至下列資料夾：  
   
-     *\<範例路徑\>*\Pipelines\AssemblerDisassembler\EnvelopeProcessing  
+     *\<範例路徑\>* \Pipelines\AssemblerDisassembler\EnvelopeProcessing  
   
 2.  執行檔案 Setup.bat，這會執行下列動作：  
   
     -   為檔案夾內的這個範例建立輸入 (EnvInput) 和輸出 (EnvOutput) 檔案夾：  
   
-         *\<範例路徑\>*\Pipelines\AssemblerDisassembler\EnvelopeProcessing\  
+         *\<範例路徑\>* \Pipelines\AssemblerDisassembler\EnvelopeProcessing\  
   
     -   為這個範例編譯和部署 Visual Studio 專案。  
   

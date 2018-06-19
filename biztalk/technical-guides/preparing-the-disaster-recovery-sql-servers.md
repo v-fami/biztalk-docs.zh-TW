@@ -1,14 +1,14 @@
 ---
-title: "正在準備嚴重損壞修復的 SQL Server |Microsoft 文件"
-ms.custom: 
+title: 正在準備嚴重損壞修復的 SQL Server |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 44b77fe8-393d-4781-b0b0-5b7f6e50a67b
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008071"
 ---
 # <a name="preparing-the-disaster-recovery-sql-servers"></a>正在準備嚴重損壞修復的 SQL Server
 建立一組[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]資料庫在災害復原站台的執行個體。 若要確認嚴重損壞修復[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]資料庫執行個體可以提供相同等級的生產環境的效能[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]資料庫執行個體、 嚴重損壞修復[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]資料庫執行個體應該使用 「 類似設定硬體和執行的實體電腦數目[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]。 在此案例中，記錄傳送將會針對每個實際執行的 BizTalk Server[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]要套用至相對應的資料庫執行個體[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]在災害復原站台資料庫執行個體。  

@@ -1,14 +1,14 @@
 ---
-title: "資料庫測試規劃 |Microsoft 文件"
-ms.custom: 
+title: 資料庫測試規劃 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a4cf5e1f-a960-4702-a050-a2cdacddcbca
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010135"
 ---
 # <a name="planning-for-database-testing"></a>規劃資料庫測試
 徹底的壓力負載測試 BizTalk 解決方案中的最後成功或失敗方案圖以突顯的方式。 因為[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]效能非常依賴的效能[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]資料庫、 測試和最佳化的 BizTalk 解決方案經常將著重在測試和最佳化執行之電腦[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]，存放[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]資料庫。  

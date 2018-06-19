@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970676"
 ---
 # <a name="error---second-input-for-table-extractor-functoid-not-valid"></a>錯誤-第二個輸入表格抽選程式運算質不正確
 **錯誤碼**  

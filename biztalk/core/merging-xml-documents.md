@@ -1,17 +1,17 @@
 ---
-title: "合併 XML 文件 |Microsoft 文件"
-ms.custom: 
+title: 合併 XML 文件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - XML, documents
 - process management solution tutorial, merging XML documents
 ms.assetid: 444c983a-397a-4342-85e1-80bb152986d9
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262638"
 ---
 # <a name="merging-xml-documents"></a>合併 XML 文件
 其中一個訊息， **OrderBroker**協調流程會建立一個 SQL Server 歷程記錄資料庫更新。 此訊息包含來自訂單訊息的欄位，以及原始訂單訊息。 原始訂單會在此訊息中以字串顯示。 這符合資料庫中訂單歷程記錄的資料型別。  

@@ -1,11 +1,11 @@
 ---
-title: "擴充對應工具 （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: 擴充對應工具 （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BizTalk Mapper, examples
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - examples, BizTalk Mapper
 - examples, XML tools
 ms.assetid: 6010a13f-b715-4766-ad91-5aa9b98589e3
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970652"
 ---
 # <a name="extending-mapper-biztalk-server-sample"></a>擴充對應工具 （BizTalk Server 範例）
 「擴充對應工具」範例會示範如何使用和擴充「BizTalk 對應工具」。 此範例包含數個 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 對應檔案 (.btm)，每個檔案都代表「BizTalk 對應工具」的不同功能。  
@@ -31,7 +32,7 @@ ms.lasthandoff: 11/28/2017
  「擴充對應工具」範例會使用根據訊息內容決定路由 (CBR)，而且不會使用協調流程。 藉由對範例傳送埠指定篩選條件，它會直接連接至範例接收埠。 此外，還會對傳送埠指定對應，以套用到處理過的文件。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- *\<範例路徑\>*\XmlTools\ExtendingMapper  
+ *\<範例路徑\>* \XmlTools\ExtendingMapper  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -63,7 +64,7 @@ ms.lasthandoff: 11/28/2017
   
 1.  在命令視窗中，將目錄變更 (**cd**) 至下列資料夾：  
   
-     *\<範例路徑\>*\XmlTools\ExtendingMapper  
+     *\<範例路徑\>* \XmlTools\ExtendingMapper  
   
 2.  執行檔案 Setup.bat，這會執行下列動作：  
   
@@ -99,13 +100,13 @@ ms.lasthandoff: 11/28/2017
   
 4.  在 Windows 檔案總管，瀏覽至\<Windows 資料夾\>\assembly\\。  
   
-    1.  以滑鼠右鍵按一下**[microsoft.samples.biztalk.extendingmapper.mapperclasslibrary]**選取**屬性**。  
+    1.  以滑鼠右鍵按一下 **[microsoft.samples.biztalk.extendingmapper.mapperclasslibrary]** 選取**屬性**。  
   
     2.  複製公開金鑰 Token 值。  
   
-    3.  在文字編輯器中，開啟*\<範例路徑\>*\XML Tools\ExtendingMapper\ExternalAssembly.xml。  
+    3.  在文字編輯器中，開啟*\<範例路徑\>* \XML Tools\ExtendingMapper\ExternalAssembly.xml。  
   
-    4.  選取**Microsoft.samples.biztalk.extendingmapper.mapperclasslibrary，Version = 1.0.0.0，Culture = neutral，PublicKeyToken = 68496d20c737d84b"**屬性，並取代**PublicKeyToken**值與公開金鑰語彙基元值複製在步驟 c。  
+    4.  選取**Microsoft.samples.biztalk.extendingmapper.mapperclasslibrary，Version = 1.0.0.0，Culture = neutral，PublicKeyToken = 68496d20c737d84b"** 屬性，並取代**PublicKeyToken**值與公開金鑰語彙基元值複製在步驟 c。  
   
     5.  儲存並關閉 ExternalAssembly.xml。  
   
@@ -141,9 +142,9 @@ ms.lasthandoff: 11/28/2017
   
 #### <a name="to-run-this-sample"></a>執行此範例  
   
-1.  輸入檔 extendingmapper.xml 複製到輸入資料夾的複本*\<範例路徑\>*\XmlTools\ExtendingMapper\In。  
+1.  輸入檔 extendingmapper.xml 複製到輸入資料夾的複本*\<範例路徑\>* \XmlTools\ExtendingMapper\In。  
   
-2.  請注意檔案轉換和路由傳送至如何*\<範例路徑\>*\XmlTools\ExtendingMapper\Out 資料夾。 這裡執行的轉換是根據您所套用的對應而來。  
+2.  請注意檔案轉換和路由傳送至如何*\<範例路徑\>* \XmlTools\ExtendingMapper\Out 資料夾。 這裡執行的轉換是根據您所套用的對應而來。  
   
 ## <a name="see-also"></a>請參閱  
  [XML 工具 (BizTalk Server Samples 資料夾)](../core/xml-tools-biztalk-server-samples-folder.md)

@@ -11,7 +11,7 @@ helpviewer_keywords:
 - maps [SSO], creating
 - managing [SSO maps], creating user maps
 ms.assetid: c2e9f0db-920b-4d89-8e1e-5dc92805fd23
-caps.latest.revision: ''
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25970940"
 ---
 # <a name="how-to-create-user-mappings"></a>如何建立使用者對應
 使用此命令可建立一或多個使用者對應，如 XML 檔案所指定。 以下是 XML 檔案的範例。  
@@ -55,7 +56,7 @@ ms.lasthandoff: 03/28/2018
   
 2.  在命令列，移至「企業單一登入」安裝目錄。 預設安裝目錄是\<*磁碟機*\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-3.  型別 * * ssomanage – createmappings *\<對應檔案名稱\>* * *，其中*\<對應檔案名稱\>*是包含您想要建立使用者對應的檔案名稱。  
+3.  型別 * * ssomanage – createmappings *\<對應檔案名稱\>* * *，其中*\<對應檔案名稱\>* 是包含您想要建立使用者對應的檔案名稱。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
@@ -66,7 +67,7 @@ ms.lasthandoff: 03/28/2018
   
 2.  在命令列，移至「企業單一登入」安裝目錄。 預設安裝目錄是\<*磁碟機*\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-3.  型別 * * ssoclient – setcredentials *\<應用程式名稱\>* * *，其中*\<應用程式名稱\>*是使用者想要建立對應的分支機構應用程式的名稱。  
+3.  型別 * * ssoclient – setcredentials *\<應用程式名稱\>* * *，其中*\<應用程式名稱\>* 是使用者想要建立對應的分支機構應用程式的名稱。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  

@@ -16,7 +16,7 @@ helpviewer_keywords:
 - WCF services, publishing
 - tutorials, WCF adapters
 ms.assetid: 43b76215-9cb0-47ab-a085-c4cf265410f9
-caps.latest.revision: ''
+caps.latest.revision: 72
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26010463"
 ---
 # <a name="walkthrough-publishing-wcf-services-with-the-wcf-basichttp-adapter"></a>逐步解說： 使用發佈 WCF 服務 Wcf-basichttp 配接器
 ## <a name="introduction"></a>簡介  
@@ -112,7 +113,7 @@ ms.lasthandoff: 03/28/2018
   
 6.  在 **協調流程和連接埠** 頁面上，請確定 **連接埠︰ DeliveryRequestPort** 在頁面上，選取節點，然後再按一下 **下一步**。 選取此節點表示其對應的更高層級節點也會選取。 而連接埠就會以裝載 WCF-BasicHttp 配接器的要求-回應接收位置來發佈。  
   
-7.  在**WCF 服務屬性**頁面上，於**目標**命名空間的**WCF 服務**文字方塊中，輸入您想要這個已發佈的 URI[!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]服務使用，並然後按一下 **下一步**。 此逐步解說中，保留預設 URI"**http://tempuri.org/"**的目標命名空間中[!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]服務文字方塊。  
+7.  在**WCF 服務屬性**頁面上，於**目標**命名空間的**WCF 服務**文字方塊中，輸入您想要這個已發佈的 URI[!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]服務使用，並然後按一下 **下一步**。 此逐步解說中，保留預設 URI"**http://tempuri.org/"** 的目標命名空間中[!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]服務文字方塊。  
   
 8.  在**WCF 服務位置**頁面上，執行下列動作，以指定的位置[!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]服務來建立，然後按一下**下一步**:  
   

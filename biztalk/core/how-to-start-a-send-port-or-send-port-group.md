@@ -1,11 +1,11 @@
 ---
-title: "如何啟動傳送埠或傳送埠群組 |Microsoft 文件"
-ms.custom: 
+title: 如何啟動傳送埠或傳送埠群組 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - starting, send port groups
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - send port groups, starting
 - send ports, starting
 ms.assetid: f17c0b7c-cad7-4c5e-a08c-3ebf838faa54
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255598"
 ---
 # <a name="how-to-start-a-send-port-or-send-port-group"></a>如何啟動傳送埠或傳送埠群組
 本主題描述如何使用 BizTalk Server 管理主控台來啟動傳送埠或傳送埠群組。 傳送埠或傳送埠群組必須被啟動，才能處理訊息。 如果您啟動已取消登錄的傳送埠或傳送埠群組，BizTalk 便會在啟動傳送埠或傳送埠群組之前將其登錄。 傳送埠群組必須包含至少一個處於已登錄狀態的傳送埠，才能加以啟動。 啟動和停止傳送埠群組不會影響它所包含的任何傳送埠的狀態。  

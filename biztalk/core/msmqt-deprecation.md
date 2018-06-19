@@ -1,14 +1,14 @@
 ---
-title: "MSMQT 過時 |Microsoft 文件"
-ms.custom: 
+title: MSMQT 過時 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 007d65ce-d2a2-4602-80c8-55b26617f397
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007631"
 ---
 # <a name="msmqt-deprecation"></a>MSMQT 過時
 MSMQT 功能已經自 BizTalk Server 移除。 在協調流程設計師中，MSMQT 傳輸選項仍然可在設計階段連接埠組態精靈中下當您選擇的映像中所示**現在指定**選項**連接埠繫結**.  

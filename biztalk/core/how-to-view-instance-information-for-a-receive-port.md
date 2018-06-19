@@ -1,18 +1,18 @@
 ---
-title: "如何檢視執行個體資訊接收埠 |Microsoft 文件"
-ms.custom: 
+title: 如何檢視執行個體資訊接收埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [receive ports], viewing
 - receive ports, viewing
 - viewing, receive ports
 ms.assetid: dad038bc-1202-489b-b144-a93bf1f53c0c
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256798"
 ---
 # <a name="how-to-view-instance-information-for-a-receive-port"></a>如何檢視接收埠的執行個體資訊
 本主題描述如何使用 BizTalk Server 管理主控台來檢視接收埠的服務執行個體。 每當接收埠接收訊息時，都會建立服務執行個體以處理訊息。 依照這個主題中的程序執行時，執行個體資訊會顯示在接收埠的 [群組概觀] 頁面中。  

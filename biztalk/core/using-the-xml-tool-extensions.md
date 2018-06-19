@@ -1,14 +1,14 @@
 ---
-title: "使用 XML 工具延伸模組 |Microsoft 文件"
-ms.custom: 
+title: 使用 XML 工具延伸模組 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5613bf15-6c0a-4a82-b200-24d0801d7ece
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006311"
 ---
 # <a name="using-the-xml-tool-extensions"></a>使用 XML 工具延伸模組
 XML 工具延伸[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]可讓您在結構描述、 對應、 執行工作和訊息執行個體。 您可以在 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 環境中的設計階段使用這些延伸模組。 您可以執行的工作如下：  

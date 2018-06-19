@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263846"
 ---
 # <a name="plan-and-architect-your-biztalk-server-solution"></a>規劃和設計 BizTalk Server 解決方案架構
 本節提供有關 BizTalk Server 協助您規劃環境的資訊。  

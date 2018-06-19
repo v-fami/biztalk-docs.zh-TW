@@ -1,14 +1,14 @@
 ---
-title: "如何： 將文字文件轉換成 XML 和路由至檔案位置，使用路線的路由名單 |Microsoft 文件"
-ms.custom: 
+title: 如何： 將文字文件轉換成 XML 和路由至檔案位置，使用路線的路由名單 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 01597a5f-5ca3-440e-ad97-70332233f319
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010191"
 ---
 # <a name="how-to-convert-a-text-document-to-xml-and-route-to-a-file-location-using-an-itinerary-routing-slip"></a>如何： 將文字文件轉換成 XML 和路由至使用路線的路由名單檔案位置
 ## <a name="goal"></a>目標  
@@ -68,7 +69,7 @@ ms.lasthandoff: 12/01/2017
   
 1.  在 Visual Studio 中，以滑鼠右鍵按一下**DataFormatTransformation.Schemas**，然後按一下 **屬性**。 按一下**應用程式**，然後輸入**GlobalBank.ESB.DataFormatTransformation.Schemas**中**組件名稱**方塊。  
   
-2.  以滑鼠右鍵按一下**DataFormatTransformation.Schemas**，然後按一下 **屬性**。 按一下**簽署**，然後確認**簽署組件**核取方塊已選取和組件位置指向**。\\...\\..\\..\\..\\..\keys\Microsoft.Practices.ESB.snk**。  
+2.  以滑鼠右鍵按一下**DataFormatTransformation.Schemas**，然後按一下 **屬性**。 按一下**簽署**，然後確認**簽署組件**核取方塊已選取和組件位置指向 **。\\...\\..\\..\\..\\..\keys\Microsoft.Practices.ESB.snk**。  
   
 3.  以滑鼠右鍵按一下**DataFormatTransformation.Pipelines**，然後按一下 **移除**。  
   

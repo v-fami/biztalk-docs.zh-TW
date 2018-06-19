@@ -1,14 +1,14 @@
 ---
-title: "FTP 配接器的已知問題 |Microsoft 文件"
-ms.custom: 
+title: FTP 配接器的已知問題 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9e58f2db-9ec5-41fe-af02-9a7d60a217db
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010087"
 ---
 # <a name="known-issues-with-the-ftp-adapter"></a>FTP 配接器的已知問題
 本節包含可幫助您避免錯誤的資訊。  

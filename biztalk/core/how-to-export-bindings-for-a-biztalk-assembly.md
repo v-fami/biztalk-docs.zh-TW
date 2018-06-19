@@ -1,18 +1,18 @@
 ---
-title: "如何匯出 BizTalk 組件的繫結 |Microsoft 文件"
-ms.custom: 
+title: 如何匯出 BizTalk 組件的繫結 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - assemblies, bindings
 - assemblies, exporting
 - exporting, assemblies
 ms.assetid: 7e37348d-5fa5-43cc-b3c0-2d8cb6a8f394
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254854"
 ---
 # <a name="how-to-export-bindings-for-a-biztalk-assembly"></a>如何匯出 BizTalk 組件的繫結
 本主題說明如何使用 BizTalk Server 管理主控台或命令列，將 BizTalk 組件的繫結匯出至 .xml 檔案。 接著您可以將這些繫結匯入至 BizTalk 應用程式，這時匯入的同名繫結會覆寫現有繫結。 在更新組件之前，您可能想要匯出其繫結，以便在更新後匯入繫結，重新套用它們。 如需更新應用程式和組件的詳細資訊，請參閱[更新 BizTalk 應用程式](../core/updating-biztalk-applications.md)。 如需有關如何使用繫結檔案的詳細資訊，請參閱[繫結檔案和應用程式部署](../core/binding-files-and-application-deployment.md)。  

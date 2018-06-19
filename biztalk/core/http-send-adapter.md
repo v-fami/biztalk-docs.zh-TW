@@ -1,14 +1,14 @@
 ---
-title: "HTTP 傳送配接器 |Microsoft 文件"
-ms.custom: 
+title: HTTP 傳送配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e69308b4-421f-4d7c-b9bb-ee086df03272
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257974"
 ---
 # <a name="http-send-adapter"></a>HTTP 傳送配接器
 HTTP 傳送配接器會從 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 取得訊息，並在 HTTP POST 要求時，將它們傳送到目的地 URL。 HTTP 傳送配接器會從 BizTalk 訊息物件的內文部分取得訊息內容。 HTTP 傳送配接器會忽略 BizTalk 訊息物件中的所有其他部分。  

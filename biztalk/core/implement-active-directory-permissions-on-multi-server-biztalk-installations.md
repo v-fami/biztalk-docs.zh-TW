@@ -1,14 +1,14 @@
 ---
-title: "在 BizTalk 多伺服器安裝上實作 Active Directory 權限的指導方針 |Microsoft 文件"
-ms.custom: 
+title: 在 BizTalk 多伺服器安裝上實作 Active Directory 權限的指導方針 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 315e25c4-b21d-4b5f-a1d2-1e2777b57f9e
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975972"
 ---
 # <a name="guidelines-for-implementing-active-directory-permissions-on-multi-server-biztalk-installations"></a>在 BizTalk 多伺服器安裝上實作 Active Directory 權限的指導方針
 本主題描述建立 Active Directory 組織單位的指導方針，這些組織單位是由您在 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 安裝中使用的使用者帳戶和群組所構成的。  
@@ -231,7 +232,7 @@ ms.lasthandoff: 11/28/2017
 |**群組名稱**|**群組類型**|**成員**|  
 |--------------------|--------------------|-----------------|  
 |BizTalk 應用程式使用者|全域或萬用|-BTServiceHost<br />-BTUserHostInstance|  
-|BizTalk 開發使用者|全域或萬用|（開發使用者的本機網域帳戶）**附註：**最佳做法，請勿啟用 BizTalk 開發使用者群組在上線路環境中的。|  
+|BizTalk 開發使用者|全域或萬用|（開發使用者的本機網域帳戶）**附註：** 最佳做法，請勿啟用 BizTalk 開發使用者群組在上線路環境中的。|  
 |BizTalk 部署使用者|全域或萬用|(部署使用者的本機網域帳戶)|  
 |BizTalk 主控件使用者|全域或萬用|BTUserHostInstance|  
 |BizTalk 外掛式主控件使用者|全域或萬用|-BTServiceHostIso<br />-BTUserHostInstance|  
@@ -247,7 +248,7 @@ ms.lasthandoff: 11/28/2017
   
 -   網域群組可以是「全域」或「萬用」群組。  
   
--   使用 *\<DomainName\>\\< 使用者名稱\>*當組態精靈中指定網域帳戶資訊。  
+-   使用 *\<DomainName\>\\< 使用者名稱\>* 當組態精靈中指定網域帳戶資訊。  
   
 -   群組與使用者/服務帳戶必須屬於 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 電腦的所屬網域 ([組態精靈] 會檢查此項，而且不會顯示包含其他網域之帳戶的帳戶或群組)。  
   

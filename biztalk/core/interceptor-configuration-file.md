@@ -1,14 +1,14 @@
 ---
-title: "攔截器組態檔 |Microsoft 文件"
-ms.custom: 
+title: 攔截器組態檔 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 490f5607-e7f6-4f7f-9121-1070db32a7cf
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256918"
 ---
 # <a name="interceptor-configuration-file"></a>攔截器組態檔
 Windows Workflow Foundation 和 Windows Communication Foundation 的 BAM 攔截器需要依賴攔截器組態檔來判斷要攔截哪些事件和日期項目。 組態檔就是 XML，根據您所針對的技術，由攔截器組態結構描述和 Windows Workflow Foundation 結構描述或 Windows Communication Framework 結構描述定義。  

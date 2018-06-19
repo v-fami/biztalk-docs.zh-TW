@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268718"
 ---
 # <a name="receivelocationtransporttype-receivelocation-node"></a>ReceiveLocationTransportType (ReceiveLocation 節點)
 繫結檔案的 [ReceiveLocation] 節點的 [ReceiveLocationTransportType] 節點中，包含與隨同繫結檔案所匯出的傳輸關聯之配接器的特定資訊。  

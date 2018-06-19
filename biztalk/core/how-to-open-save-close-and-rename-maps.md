@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9aa88ca7-a731-4295-8692-6dd36fdf0872
-caps.latest.revision: ''
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25973164"
 ---
 # <a name="how-to-open-save-close-and-rename-maps"></a>如何開啟、儲存、關閉和重新命名對應
 在 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，對應為檔案系統中存在的檔案以.btm 為副檔名。 不過，更常見的狀況是將對應作為 BizTalk 專案中的項目使用，您可以從 BizTalk 專案中執行如開啟、儲存和關閉對應等作業。  
@@ -42,7 +43,7 @@ ms.lasthandoff: 03/28/2018
   
 1.  在 [方案總管] 中，選取要儲存至新位置的對應。  
   
-2.  在**檔案**功能表上，按一下 **儲存*\<名稱的對應\>*為**。  
+2.  在**檔案**功能表上，按一下 **儲存*\<名稱的對應\>* 為**。  
   
 3.  在 **將檔案另存新檔** 對話方塊中，瀏覽至您想要用來儲存對應的資料夾位置。  
   

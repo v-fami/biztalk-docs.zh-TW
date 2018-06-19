@@ -1,14 +1,14 @@
 ---
-title: "BizTalk Server 2010 操作指南 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Server 2010 操作指南 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/29/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4dc0d8e9-9ad6-4ce1-8ca7-399b67cb360e
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010383"
 ---
 # <a name="biztalk-server-2010-operations-guide"></a>BizTalk Server 2010 操作指南
 歡迎使用 Microsoft® BizTalk® Server 2010 操作指南。 我們建立了本指南是很寶貴的資源所涉及的實作和管理 BizTalk 方案，特別是 IT 專業人員的任何人。  

@@ -1,17 +1,17 @@
 ---
-title: "步驟 6： 設定協調流程圖形 (Contoso) |Microsoft 文件"
-ms.custom: 
+title: 步驟 6： 設定協調流程圖形 (Contoso) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, configuring shapes
 - private process tutorial, configuring orchestration shapes
 ms.assetid: ce680693-cf72-4ca6-a062-019de5a9257b
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009383"
 ---
 # <a name="step-6-configuring-orchestration-shapes-contoso"></a>步驟 6： 設定協調流程圖形 (Contoso)
 在此步驟中，您會設定您加入至您在中建立的 PrivateResponder 協調流程的協調流程圖形[步驟 5： 修改 Contoso 私用程序協調流程](../../adapters-and-accelerators/accelerator-rosettanet/step-5-modifying-the-contoso-private-process-orchestration.md)。 這包括設定之間的通訊[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® BizTalk Server 和 Contoso 的企業資源規劃 (ERP) 系統。  
@@ -46,11 +47,11 @@ ms.lasthandoff: 12/01/2017
   
 2.  在 [屬性] 視窗中，選取**建構訊息**屬性，然後再選取**Contoso3A2RequestMessage**從下拉式清單。  
   
-3.  選取**[transform_1]**圖形內**ConstructContoso3A2RequestMessage**圖形。  
+3.  選取 **[transform_1]** 圖形內**ConstructContoso3A2RequestMessage**圖形。  
   
 4.  在 [屬性] 視窗中，選取**對應名稱**屬性，然後按一下省略符號按鈕 (**...**) 若要開啟 [轉換組態] 對話方塊。  
   
-5.  在 [轉換組態] 對話方塊中，按一下**現有對應**，然後在**完整格式對應名稱] 方塊**，選取**\<選取 [從參考組件\>**從下拉式清單，以開啟 [選取成品類型] 對話方塊。  
+5.  在 [轉換組態] 對話方塊中，按一下**現有對應**，然後在**完整格式對應名稱] 方塊**，選取**\<選取 [從參考組件\>** 從下拉式清單，以開啟 [選取成品類型] 對話方塊。  
   
 6.  在 選取成品類型 對話方塊中，選取  **ContosoPriceAndAvailability**組件，在左窗格中，選取**PIP3A2RequestToContosoPriceRequest**右窗格中的對應，然後按一下  **確定**。  
   
@@ -76,7 +77,7 @@ ms.lasthandoff: 12/01/2017
   
 2.  在 [屬性] 視窗中，選取**建構的訊息**屬性，然後再選取**PIP3A2ResponseMessage**從下拉式清單，然後按下**Enter**。  
   
-3.  選取**[transform_2]**圖形內**Construct3A2ResponseMessage**圖形。  
+3.  選取 **[transform_2]** 圖形內**Construct3A2ResponseMessage**圖形。  
   
 4.  在 [屬性] 視窗中，按一下**對應名稱**，然後按一下省略符號按鈕 (**...**).  
   

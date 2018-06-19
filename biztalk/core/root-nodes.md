@@ -1,14 +1,14 @@
 ---
-title: "根節點 |Microsoft 文件"
-ms.custom: 
+title: 根節點 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2161f877-835e-434d-a8d1-2426f977d60e
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268966"
 ---
 # <a name="root-nodes"></a>根節點
 在 BizTalk 編輯器中的子節點**結構描述**節點稱為**根**節點。 **根**節點是一種特殊型別的**記錄** 節點，而且有較多的屬性，比一般**記錄**節點。 **根**節點表示結構描述所描述的文件的類型，可以重新命名依適當情況。 例如，您可以重新命名**根**節點，使它描述的結構描述表示，如 purchaseOrder、 orderAcknowledgment 或 shipNotice 的訊息類型。  

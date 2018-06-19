@@ -1,11 +1,11 @@
 ---
-title: "使用協調流程設計師 |Microsoft 文件"
-ms.custom: 
+title: 使用協調流程設計師 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, saving
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - orchestrations, naming conventions
 - orchestrations, deleting
 ms.assetid: 13e72b41-d9b6-4508-9a44-b3c7c1804f36
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975476"
 ---
 # <a name="working-in-orchestration-designer"></a>使用協調流程設計師
 啟動 BizTalk 專案之後，您可以建立新的協調流程，並將現有的協調流程加入專案。 請參閱下列程序，建立和儲存協調流程、在專案中加入或移除現有協調流程、變更協調流程名稱，以及設定協調流程屬性。  
@@ -109,7 +110,7 @@ ms.lasthandoff: 11/28/2017
     |交易識別項|交易式協調流程的唯一識別項。|  
     |[交易類型]|決定協調流程是不可部分完成的交易、長時間執行的交易，或者不是交易。|  
     |型別修飾詞|決定協調流程層級變數的範圍：<br /><br /> 私用：只限包含的模組存取此協調流程。<br /><br /> 公用：存取此協調流程不受任何限制。<br /><br /> 內部：只限相同專案中的模組存取此協調流程。|  
-    |類型名稱|決定此協調流程在包含的模組中的名稱。 **注意：**如果您使用的根層級命名空間，與相同類型名稱時可能會收到錯誤來自協調流程設計師定義訊息，並根據類型名稱，嘗試執行變數指派的運算。 例如，如果您指定類型名稱的系統，然後定義訊息和變數，如下 System.String，您可能會收到錯誤。|  
+    |類型名稱|決定此協調流程在包含的模組中的名稱。 **注意：** 如果您使用的根層級命名空間，與相同類型名稱時可能會收到錯誤來自協調流程設計師定義訊息，並根據類型名稱，嘗試執行變數指派的運算。 例如，如果您指定類型名稱的系統，然後定義訊息和變數，如下 System.String，您可能會收到錯誤。|  
   
 ## <a name="see-also"></a>請參閱  
  [協調流程圖形](../core/orchestration-shapes.md)   

@@ -1,14 +1,14 @@
 ---
-title: "使用商務規則的 3A4 私用回應者協調流程 |Microsoft 文件"
-ms.custom: 
+title: 使用商務規則的 3A4 私用回應者協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 33d87952-def6-4202-b535-3d80171332eb
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006279"
 ---
 # <a name="3a4-private-responder-orchestration-using-a-business-rule"></a>使用商務規則的 3A4 私用回應者協調流程
 PIP3A4PrivateResponder.odx 範例屬於私用程序協調流程，示範如何實作特定夥伴介面程序 (PIP) 的回應者私用程序，以整合商務規則。 如需此程序的詳細資訊，請參閱[私用程序協調流程中定義商務規則](../../adapters-and-accelerators/accelerator-rosettanet/defining-a-business-rule-for-a-private-process-orchestration.md)。  

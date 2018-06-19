@@ -1,11 +1,11 @@
 ---
-title: "對應中的連結 |Microsoft 文件"
-ms.custom: 
+title: 對應中的連結 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - functoid types, Looping
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - maps, links
 - BizTalk Mapper, links
 ms.assetid: 3db77b8d-7b86-4c00-99a0-0513aff9b56b
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262086"
 ---
 # <a name="links-in-maps"></a>對應中的連結
 連結指定將輸入執行個體訊息中項目或屬性的資料複製到輸出執行個體中項目或屬性的基本功能。 在設計階設建立來源與目的結構描述中的記錄與欄位之間的連結。 如此一來會在執行階段從符合來源結構描述的輸入執行個體訊息，建立符合目的結構描述的輸出執行個體訊息。  

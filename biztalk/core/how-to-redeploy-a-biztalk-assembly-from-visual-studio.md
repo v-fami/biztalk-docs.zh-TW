@@ -1,14 +1,14 @@
 ---
-title: "如何重新部署 BizTalk 組件從 Visual Studio |Microsoft 文件"
-ms.custom: 
+title: 如何重新部署 BizTalk 組件從 Visual Studio |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5c4bb627-48de-4874-bb25-af2c513dbc51
-caps.latest.revision: "41"
+caps.latest.revision: 41
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009495"
 ---
 # <a name="how-to-redeploy-a-biztalk-assembly-from-visual-studio"></a>如何從 Visual Studio 重新部署 BizTalk 組件
 在開發組件的程序中，您通常必須重複進行部署、測試、修改和重新部署。 在舊版的[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，如果您想要重新部署組件，而不變更版本號碼，您首先需要以手動方式停止、 取消登錄和解除繫結中的組件中所包含的成品[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]然後再移除的組件BizTalk 管理 （組態） 資料庫。 此外之後重新部署組件，, 您需要繫結、 登錄和啟動成品[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。  

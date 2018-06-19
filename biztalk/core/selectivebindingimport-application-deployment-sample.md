@@ -1,11 +1,11 @@
 ---
-title: "SelectiveBindingImport （應用程式部署範例） |Microsoft 文件"
-ms.custom: 
+title: SelectiveBindingImport （應用程式部署範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - binding files, importing
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - deploying, scripts
 - examples, binding files
 ms.assetid: 963bfc80-8cc4-4d90-96b4-e85ae04405cf
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974828"
 ---
 # <a name="selectivebindingimport-application-deployment-sample"></a>SelectiveBindingImport (應用程式部署範例)
 此主題說明如何使用 SelectiveBindingImport 範例。 將應用程式匯入不同的目的地環境時，您可以使用此範例指令碼，將不同的繫結套用至同一個應用程式。 希望從儲存在網路共用上的繫結檔案匯入繫結時，您可以使用這個方法。  
@@ -44,7 +45,7 @@ ms.lasthandoff: 11/28/2017
  此範例說明如何使用 BizTalk 應用程式 .msi 檔內的後置處理指令碼，從網路共用選擇性匯入繫結檔案。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- 下列範例資料夾和下的檔案，您可以找到*\<範例路徑\>*\Application Deployment\SelectiveBindingImport:  
+ 下列範例資料夾和下的檔案，您可以找到*\<範例路徑\>* \Application Deployment\SelectiveBindingImport:  
   
 -   Develop (資料夾)  
   
@@ -69,7 +70,7 @@ ms.lasthandoff: 11/28/2017
   
 ### <a name="to-run-the-sample"></a>執行範例  
   
-1.  執行**從 Build.Bat *\<範例路徑\>*\Application Deployment\CreateApp**目錄。 這會建立下列檔案中的*\<範例路徑\>*\Application Deployment\CreateApp\Dlls 資料夾： Schemas.dll、 Maps.dll 和 Orchestrations.dll。  
+1.  執行**從 Build.Bat *\<範例路徑\>* \Application Deployment\CreateApp**目錄。 這會建立下列檔案中的*\<範例路徑\>* \Application Deployment\CreateApp\Dlls 資料夾： Schemas.dll、 Maps.dll 和 Orchestrations.dll。  
   
 2.  **建立應用程式。** 在 BizTalk Server 管理主控台中，建立應用程式中所述[如何建立應用程式](../core/how-to-create-an-application.md)。  
   

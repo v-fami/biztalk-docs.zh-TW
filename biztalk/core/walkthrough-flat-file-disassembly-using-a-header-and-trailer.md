@@ -9,7 +9,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 715af9cc-d718-483d-b593-64462aa5a58b
-caps.latest.revision: ''
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25976052"
 ---
 # <a name="walkthrough-flat-file-disassembly-using-a-header-and-trailer"></a>逐步解說：使用標頭和結尾進行一般檔案解譯
 
@@ -128,7 +129,7 @@ ms.lasthandoff: 03/28/2018
   
      當您滿意，請按一下  **完成** 來完成精靈。  
   
-10. 按一下**\<結構描述\>**標頭結構描述 窗格中的節點。 在 [屬性] 窗格中，變更 **Element FormDefault** 至 **Qualified**。 這表示區域宣告項目必須由執行個體文件中的目標命名空間限定。  
+10. 按一下**\<結構描述\>** 標頭結構描述 窗格中的節點。 在 [屬性] 窗格中，變更 **Element FormDefault** 至 **Qualified**。 這表示區域宣告項目必須由執行個體文件中的目標命名空間限定。  
   
 ##### <a name="use-the-flat-file-schema-wizard-to-create-the-trailer-schema"></a>使用一般檔案結構描述精靈建立結尾結構描述  
   
@@ -165,7 +166,7 @@ ms.lasthandoff: 03/28/2018
   
      當您滿意，請按一下  **完成** 來完成精靈。  
   
-10. 按一下**\<結構描述\>**結尾結構描述 窗格中的節點。 在 [屬性] 窗格中，變更 **elementFormDefault** 至 **Qualified**。 這表示區域宣告項目必須由執行個體文件中的目標命名空間限定。  
+10. 按一下**\<結構描述\>** 結尾結構描述 窗格中的節點。 在 [屬性] 窗格中，變更 **elementFormDefault** 至 **Qualified**。 這表示區域宣告項目必須由執行個體文件中的目標命名空間限定。  
   
 ##### <a name="use-the-flat-file-schema-wizard-to-create-the-body-schema"></a>使用一般檔案結構描述精靈建立內文結構描述  
   

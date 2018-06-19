@@ -1,14 +1,14 @@
 ---
-title: "測量引擎 MST 的測試案例 |Microsoft 文件"
-ms.custom: 
+title: 測量引擎 MST 的測試案例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e54667b9-7262-43c8-a013-9242eb062daf
-caps.latest.revision: "28"
+caps.latest.revision: 28
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008015"
 ---
 # <a name="test-scenarios-for-measuring-mst-of-the-engine"></a>測量引擎 MST 的測試實例
 本節描述一個測試實例，實作此實例以測量在三個不同負載層級驅動 BizTalk 系統的效果：  
@@ -80,15 +81,15 @@ ms.lasthandoff: 12/01/2017
   
  下列參數是測量 MST 時可以評估的次要指標。 這些參數可能會影響多工緩衝處理深度的主要指標，以及每秒鐘接收的文件數目。  
   
--   實體磁碟閒置時間的 MessageBox 資料和交易檔案磁碟所測量**%閒置時間**計數器適用於**LogicalDisk**效能物件。  
+-   實體磁碟閒置時間的 MessageBox 資料和交易檔案磁碟所測量 **%閒置時間**計數器適用於**LogicalDisk**效能物件。  
   
--   CPU 使用率 （%） 所測量的 MessageBox 伺服器**%Processor Time**計數器適用於**處理器**效能物件。  
+-   CPU 使用率 （%） 所測量的 MessageBox 伺服器 **%Processor Time**計數器適用於**處理器**效能物件。  
   
 -   MessageBox 上每秒鎖定逾時的資料庫所測量**Lock Timeouts/sec**計數器適用於**sqlserver: Locks**效能物件。  
   
--   負責清除與已移除訊息相關聯之訊息方塊表的 SQL 代理程式，最近執行的時間 (秒)。 這所測量**MsgBox 訊息 Cleanup(Purge Jobs)**計數器適用於**biztalk: messagebox： 計數器**效能物件。  
+-   負責清除與已移除訊息相關聯之訊息方塊表的 SQL 代理程式，最近執行的時間 (秒)。 這所測量**MsgBox 訊息 Cleanup(Purge Jobs)** 計數器適用於**biztalk: messagebox： 計數器**效能物件。  
   
--   負責清除與已移除訊息部分相關聯之訊息方塊表的 SQL 代理程式，最近執行的時間 (秒)。 這所測量**MsgBox 部分 Cleanup(Purge Jobs)**計數器適用於**biztalk: messagebox： 計數器**效能物件。  
+-   負責清除與已移除訊息部分相關聯之訊息方塊表的 SQL 代理程式，最近執行的時間 (秒)。 這所測量**MsgBox 部分 Cleanup(Purge Jobs)** 計數器適用於**biztalk: messagebox： 計數器**效能物件。  
   
  在測試以判斷最大持續輸送量時，輸入負載會增加到多工緩衝處理表格開始無限成長的點。  
   

@@ -1,17 +1,17 @@
 ---
-title: "交易夥伴整合需要 |Microsoft 文件"
-ms.custom: 
+title: 交易夥伴整合需要 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - trading partners
 - BizTalk Accelerator for RosettaNet, trading partners
 ms.assetid: c906e195-e9ea-488d-988a-a31dd175196a
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26004151"
 ---
 # <a name="the-need-for-trading-partner-integration"></a>交易夥伴整合需求
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 會針對高科技產業實例中的交易夥伴，提供其應用程式整合與商務程序自動化需求的解決方案。 本節描述一些挑戰公司參與高科技製造字體及如何整合 BizTalk Server 的系統和[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]協助這些公司解決他們的難題。 最後一個主題提供常見實例，示範 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 的範例商業應用程式。  

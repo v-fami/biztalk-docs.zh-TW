@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262222"
 ---
 # <a name="mappings-enlisted-party-node"></a>對應 (已登錄合作對象節點)
 繫結檔案的「對應」節點是所有「對應」節點的父節點 (「對應」節點會描述合作對象連接埠和角色連接埠類型作業之間的對應)。  

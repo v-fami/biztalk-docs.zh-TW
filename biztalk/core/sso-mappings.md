@@ -1,18 +1,18 @@
 ---
-title: "SSO 對應 |Microsoft 文件"
-ms.custom: 
+title: SSO 對應 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - maps [SSO]
 - maps [SSO], creating
 - SSO, maps
 ms.assetid: b44f7a0c-595c-49dc-9d75-2e76f29dca88
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277238"
 ---
 # <a name="sso-mappings"></a>SSO 對應
 當「企業單一登入」(SSO) 系統管理員或 SSO 分支機構系統管理員定義分支機構應用程式時，系統管理員可以將它定義為具有個別對應的應用程式，或具有群組對應的應用程式。  

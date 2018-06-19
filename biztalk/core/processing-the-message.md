@@ -1,11 +1,11 @@
 ---
-title: "處理訊息 |Microsoft 文件"
-ms.custom: 
+title: 處理訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - processing
@@ -22,7 +22,7 @@ helpviewer_keywords:
 - messages, message types
 - messages, adapters
 ms.assetid: e6d1f969-20c9-41f6-85cb-46cf92656348
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -31,6 +31,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22266486"
 ---
 # <a name="processing-the-message"></a>處理訊息
 到目前為止所描述的所有元件，都會負責在訊息流過 BizTalk Server 時處理訊息。 本節提供這些元件從接收訊息開始，在功能上如何互動的詳細資料。 下圖說明接收埠的組成方式，以及透過接收程序的訊息流程。  

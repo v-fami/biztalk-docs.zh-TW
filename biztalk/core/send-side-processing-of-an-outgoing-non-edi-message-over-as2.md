@@ -1,14 +1,14 @@
 ---
-title: "外寄非 EDI 訊息處理透過 AS2 傳送端 |Microsoft 文件"
-ms.custom: 
+title: 外寄非 EDI 訊息處理透過 AS2 傳送端 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3f19b7df-fe6d-4105-8a44-3d6db0bba451
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271846"
 ---
 # <a name="send-side-processing-of-an-outgoing-non-edi-message-over-as2"></a>透過 AS2 從傳送端處理外寄非 EDI 訊息
 隨附於 AS2 管線[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]可以用來處理透過 AS2 傳輸的 EDI 訊息或非 EDI 訊息。 這兩種不同的內容類型會使用不同的管線。 您會使用 AS2EdiSend 管線來處理透過 AS2 外寄的 EDI 訊息，而使用 AS2Receive 管線接收關聯的 MDN (如果有啟用)。 您會使用 AS2Send 管線來處理透過 AS2 外寄的非 EDI 訊息，而使用 AS2Receive 管線接收關聯的 MDN (如果有啟用)。 非 EDI 訊息可以是任何二進位內容。  

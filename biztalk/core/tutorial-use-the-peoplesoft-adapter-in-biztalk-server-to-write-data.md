@@ -1,14 +1,14 @@
 ---
-title: "教學課程： 將資料寫入至 PeopleSoft Enterprise 使用 BizTalk Adapter for PeopleSoft Enterprise |Microsoft 文件"
-ms.custom: 
+title: 教學課程： 將資料寫入至 PeopleSoft Enterprise 使用 BizTalk Adapter for PeopleSoft Enterprise |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 837dd4db-576d-41c1-9fe8-e1e46861270b
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976076"
 ---
 # <a name="tutorial-using-the-biztalk-adapter-for-peoplesoft-enterprise-to-write-data-to-peoplesoft-enterprise"></a>教學課程： 將資料寫入至 PeopleSoft Enterprise 使用 BizTalk Adapter for PeopleSoft Enterprise
 BizTalk Adapter for PeopleSoft Enterprise 可用來將資料寫入至 PeopleSoft 系統，以接收來自交易夥伴或內部應用程式的資訊。 這個逐步解說將說明此功能的 SDK 範例。  
@@ -45,7 +46,7 @@ BizTalk Adapter for PeopleSoft Enterprise 可用來將資料寫入至 PeopleSoft
 |**執行階段專案檔案名稱**|**執行階段專案檔案描述**|  
 |----------------------------------|------------------------------------------|  
 |OneWaySend.btproj，<br /><br /> OneWaySend.sln|應用程式的專案和方案檔。|  
-|LOCATIONService.xsd、<br /><br /> LOCATIONService_1.xsd、<br /><br /> LOCATIONService_2.xsd|這個應用程式的結構描述檔案。 **注意：**使用原先建立在專案中的配接器結構描述檔案**新增配接器中繼資料精靈**。 如需 [新增配接器中繼資料精靈] 的詳細資訊，請參閱 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 文件中的「如何將配接器中繼資料新增至 BizTalk 專案」主題。|  
+|LOCATIONService.xsd、<br /><br /> LOCATIONService_1.xsd、<br /><br /> LOCATIONService_2.xsd|這個應用程式的結構描述檔案。 **注意：** 使用原先建立在專案中的配接器結構描述檔案**新增配接器中繼資料精靈**。 如需 [新增配接器中繼資料精靈] 的詳細資訊，請參閱 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 文件中的「如何將配接器中繼資料新增至 BizTalk 專案」主題。|  
 |PeopleSoftOneWaySend.odx|這個應用程式使用的協調流程。|  
 |PeopleSoftOneWaySend.snk|強式命名金鑰檔。|  
   
@@ -61,7 +62,7 @@ BizTalk Adapter for PeopleSoft Enterprise 可用來將資料寫入至 PeopleSoft
   
 4.  輸入一個值**名稱**欄位，例如**PeopleSoft**。  
   
-5.  選取**PeopleSoft enterprise （)**從清單中可用的介面卡**配接器**下拉式清單中，按一下 **確定**。  
+5.  選取**PeopleSoft enterprise （)** 從清單中可用的介面卡**配接器**下拉式清單中，按一下 **確定**。  
   
 #### <a name="create-a-biztalk-send-port"></a>建立 BizTalk 傳送埠  
   
@@ -80,7 +81,7 @@ BizTalk Adapter for PeopleSoft Enterprise 可用來將資料寫入至 PeopleSoft
   
     |**屬性**|**值**|  
     |------------------|---------------|  
-    |應用程式伺服器路徑|PeopleSoft 伺服器的機器與連接埠位置，例如 //PSServer:8888。 **注意：**如果未指定連接埠號碼，會使用預設連接埠 9000，因此在您上面的範例可以輸入 //PSServer 值如果 PeopleSoft 伺服器使用預設的連接埠值 9000。|  
+    |應用程式伺服器路徑|PeopleSoft 伺服器的機器與連接埠位置，例如 //PSServer:8888。 **注意：** 如果未指定連接埠號碼，會使用預設連接埠 9000，因此在您上面的範例可以輸入 //PSServer 值如果 PeopleSoft 伺服器使用預設的連接埠值 9000。|  
     |JAVA_HOME|與 Java 2 平台 SDK 檔案相關聯之主目錄的路徑，例如 C:\j2sdk1.4.2_08|  
     |密碼|連接至 PeopleSoft 系統時使用的密碼。|  
     |PeopleSoft 8.x JAR 檔案|PeopleSoft Java Object Adapter JAR 檔案位置， **psjoa.jar**，例如 C:\JARS\psjoa.jar。|  
@@ -143,7 +144,7 @@ BizTalk Adapter for PeopleSoft Enterprise 可用來將資料寫入至 PeopleSoft
   
 1.  按兩下**LOCATIONService_1.xsd**結構描述編輯器中開啟該檔案 [方案總管] 中。  
   
-2.  以滑鼠右鍵按一下**\<結構描述\>**節點在結構描述編輯器 中，按一下**屬性**顯示節點的屬性。  
+2.  以滑鼠右鍵按一下**\<結構描述\>** 節點在結構描述編輯器 中，按一下**屬性**顯示節點的屬性。  
   
 3.  選取**CreateEx**從清單中的可用節點**根參考**下拉式方塊。 這應完成，以便在產生範例文件執行個體時將會產生從**CreateEx**結構描述節點。  
   
@@ -160,9 +161,9 @@ BizTalk Adapter for PeopleSoft Enterprise 可用來將資料寫入至 PeopleSoft
   
 8.  以滑鼠右鍵按一下 [方案總管] 中的 LOCATIONService_1.xsd，然後按一下**產生執行個體**產生文件執行個體中指定的位置。  
   
-9. 以滑鼠右鍵按一下**\<結構描述\>**節點在結構描述編輯器 中，按一下**屬性**顯示節點的屬性。  
+9. 以滑鼠右鍵按一下**\<結構描述\>** 節點在結構描述編輯器 中，按一下**屬性**顯示節點的屬性。  
   
-10. 選取 (**預設)**從清單中的可用節點**根參考**下拉式方塊。  
+10. 選取 (**預設)** 從清單中的可用節點**根參考**下拉式方塊。  
   
 #### <a name="modify-the-generated-document-instance"></a>修改產生的文件執行個體  
   

@@ -1,14 +1,14 @@
 ---
-title: "逐步解說： 部署的原則 |Microsoft 文件"
-ms.custom: 
+title: 逐步解說： 部署的原則 |Microsoft 文件
+ms.custom: ''
 ms.date: 2016-04-05
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 205760e2-9cd4-496f-93cd-0f93bc5d3231
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975908"
 ---
 # <a name="walkthrough-deploying-the-policy"></a>逐步解說： 部署原則
 本逐步解說提供逐步指示部署**ProcessPurchaseOrder**原則中的下列三種方式：  
@@ -268,7 +269,7 @@ ms.lasthandoff: 11/28/2017
   
 3.  瀏覽，然後按兩下 XML 檔案 (**C:\BRE-Walkthroughs\ProcessPOFromAdmin.xml**) 在第一個程序中所建立。  
   
-4.  展開**\<所有成品\>**下**應用程式**。  
+4.  展開**\<所有成品\>** 下**應用程式**。  
   
 5.  按一下**原則**，而且您應該會看見 1.3 版**ProcessPurchaseOrder**原則清單中的。  
   
@@ -287,7 +288,7 @@ ms.lasthandoff: 11/28/2017
   
 4.  以滑鼠右鍵按一下右邊清單中，指向**新增**，然後按一下 **原則**。  
   
-5.  展開**ProcessPurchaseOrder**節點中，選取的核取方塊**（已發佈） 1.3 版**，然後按一下 **確定**。 執行個體時提供 SQL Server 登入。  
+5.  展開**ProcessPurchaseOrder**節點中，選取的核取方塊 **（已發佈） 1.3 版**，然後按一下 **確定**。 執行個體時提供 SQL Server 登入。  
   
 6.  以滑鼠右鍵按一下**ProcessPurchaseOrder**，然後按一下 **部署**。 如果您沒有看到**ProcessPurchaseOrder**在清單中，按下 F5 以重新整理檢視。  
   

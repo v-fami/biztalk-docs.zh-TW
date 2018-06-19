@@ -1,11 +1,11 @@
 ---
-title: "如何建構 Web 訊息部分的結構描述型別從 |Microsoft 文件"
-ms.custom: 
+title: 如何建構 Web 訊息部分的結構描述型別從 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, Web messages
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Transform shape [Orchestration Designer]
 - Web messages, Transform shape [Orchestration Designer]
 ms.assetid: 4452ade6-b10f-4564-bffc-18114896aeeb
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970772"
 ---
 # <a name="how-to-construct-a-web-message-part-from-a-schema-type"></a>如何從結構描述類型建構 Web 訊息部分
 從結構描述類型建立 Web 訊息部分使用**轉換**圖形。 或者，您也可以使用 .NET Helper 類別來設定部分，以從結構描述類型建立 Web 訊息部分。 如需有關使用.NET 類別建立訊息類型的詳細資訊，請參閱[使用者程式碼中的 建構訊息](../core/constructing-messages-in-user-code.md)。  

@@ -1,14 +1,14 @@
 ---
-title: "逐步解說： 建立和使用的原則中的詞彙 |Microsoft 文件"
-ms.custom: 
+title: 逐步解說： 建立和使用的原則中的詞彙 |Microsoft 文件
+ms.custom: ''
 ms.date: 2016-04-05
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2c306a6e-3384-4f43-9c75-c5407cd9aed2
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975916"
 ---
 # <a name="walkthrough-creating-and-using-a-vocabulary-in-the-policy"></a>逐步解說： 建立和使用的原則中的詞彙
 本逐步解說提供逐步程序建立詞彙和使用詞彙**ProcessPurchaseOrder**原則。  
@@ -46,7 +47,7 @@ ms.lasthandoff: 11/28/2017
   
 4.  如果您未變更詞彙的名稱為 POVocabulary 步驟 3 中，變更將詞彙的名稱**POVocabulary**屬性 視窗中。  
   
-5.  以滑鼠右鍵按一下**版本 1.0 （未儲存）**中**POVocabulary**，然後按一下 **新增定義**。  
+5.  以滑鼠右鍵按一下**版本 1.0 （未儲存）** 中**POVocabulary**，然後按一下 **新增定義**。  
   
 6.  在 詞彙定義精靈 中，選取**XML 文件項目或屬性**，然後按一下 **下一步**。  
   
@@ -56,7 +57,7 @@ ms.lasthandoff: 11/28/2017
   
 9. 在**選取繫結**對話方塊方塊中，展開  **PurchaseOrder**，依序展開**項目**，然後按兩下**數量**。  
   
-10. 請確定**文件類型**設**[ruletest.po]**。 如果不是，將文件類型變更為 [ruletest.po]。 這個步驟非常重要。  
+10. 請確定**文件類型**設 **[ruletest.po]**。 如果不是，將文件類型變更為 [ruletest.po]。 這個步驟非常重要。  
   
      ![BRE &#45;逐步解說 &#45;ChangeDocType2](../core/media/090f0bce-0594-4a67-87d0-3cd22fbb1796.gif "090f0bce-0594-4a67-87d0-3cd22fbb1796")  
   
@@ -76,7 +77,7 @@ ms.lasthandoff: 11/28/2017
   
 17. 在**選取繫結**對話方塊方塊中，展開  **PurchaseOrder**，然後按兩下**狀態**。  
   
-18. 變更**文件類型**至**[ruletest.po]**。 這個步驟非常重要。  
+18. 變更**文件類型**至 **[ruletest.po]**。 這個步驟非常重要。  
   
 19. 請確定**執行設定作業**選項已選取，然後按一下 [**下一步]。**  
   
@@ -121,9 +122,9 @@ ms.lasthandoff: 11/28/2017
   
 8.  按一下**\<空字串\>** ，然後輸入**Approved**。  
   
-9. 以滑鼠右鍵按一下**版本 1.1 （未儲存）**在原則總管 視窗中，然後按一下**儲存**。  
+9. 以滑鼠右鍵按一下**版本 1.1 （未儲存）** 在原則總管 視窗中，然後按一下**儲存**。  
   
-10. 以滑鼠右鍵按一下**版本 1.1 （未儲存）**在原則總管 視窗中，然後按一下**發行**。  
+10. 以滑鼠右鍵按一下**版本 1.1 （未儲存）** 在原則總管 視窗中，然後按一下**發行**。  
   
 ### <a name="to-test-the-solution"></a>測試方案  
   
@@ -155,11 +156,11 @@ ms.lasthandoff: 11/28/2017
   
 -   只有已發佈的詞彙才能在原則中使用。  
   
--   在 「 建立 POVocabulary 詞彙 」 程序中，您可以變更的文件類型**[ruletest.po]**。 若要查看這項變更，結果在[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]，在 [方案總管] 中，按一下  **PO.xsd**。 在 [屬性] 視窗中，請注意， **RuleTest**是命名空間、 名稱和**PO**名稱**類型**。  
+-   在 「 建立 POVocabulary 詞彙 」 程序中，您可以變更的文件類型 **[ruletest.po]**。 若要查看這項變更，結果在[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]，在 [方案總管] 中，按一下  **PO.xsd**。 在 [屬性] 視窗中，請注意， **RuleTest**是命名空間、 名稱和**PO**名稱**類型**。  
   
 -   在此逐步解說中，您只有使用 XML 文件做為原則的事實。 您也可以在建立原則時使用 .NET 事實和資料庫事實。  
   
--   當您選取**執行 「 設定 」 作業**在 詞彙定義精靈的第二個頁面上，您可以指定**顯示格式字串**接下來的頁面上。 例如，您可以變更顯示格式字串從**Request Status {0}**至**要求的狀態是： {0}**後，再按一下**完成**在步驟 20 的 「 建立詞彙 」 程序。  
+-   當您選取**執行 「 設定 」 作業**在 詞彙定義精靈的第二個頁面上，您可以指定**顯示格式字串**接下來的頁面上。 例如，您可以變更顯示格式字串從**Request Status {0}** 至**要求的狀態是： {0}** 後，再按一下**完成**在步驟 20 的 「 建立詞彙 」 程序。  
   
 ## <a name="next-steps"></a>後續步驟  
  現在您已完成此逐步解說中，執行[逐步解說： 將規則新增至原則](../core/walkthrough-adding-a-rule-to-the-policy.md)逐步解說中，它將提供逐步指示，加入新的規則， **ProcessPurchaseOrder**原則。  

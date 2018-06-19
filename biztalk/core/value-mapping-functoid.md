@@ -1,18 +1,18 @@
 ---
-title: "值對應運算質 |Microsoft 文件"
-ms.custom: 
+title: 值對應運算質 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Value Mapping functoids
 - functoids, empty tags
 - Concatenate functoids
 ms.assetid: 3dd626fb-3bf6-4ede-9fd2-ddae5a54d178
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973780"
 ---
 # <a name="value-mapping-functoid"></a>值對應運算質
 **值對應**運算質會傳回其第二個參數的值，如果第一個參數為 true。 運算質的一般用途是將欄位的屬性變更為記錄的屬性。 若要藉由將多個記錄轉換成單一記錄扁平化的輸入訊息的一部分，請使用[值對應 （簡維） 運算質](../core/value-mapping-flattening-functoid.md)。  
