@@ -1,11 +1,11 @@
 ---
-title: "RosettaNet Pip |Microsoft 文件"
-ms.custom: 
+title: RosettaNet Pip |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - PIPs, clusters
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - PIPs, RosettaNet
 - DTDs, DTD files
 ms.assetid: 2f7e8db3-9ccb-403a-9fe7-58fbba3c4cb1
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210790"
 ---
 # <a name="rosettanet-pips"></a><span data-ttu-id="ae050-102">RosettaNet Pip</span><span class="sxs-lookup"><span data-stu-id="ae050-102">RosettaNet PIPs</span></span>
 <span data-ttu-id="ae050-103">RosettaNet 組織建立並維護交易夥伴介面處理程序 (PIP) 以為所有 RosettaNet 訊息交換提供一般商務處理程序定義。</span><span class="sxs-lookup"><span data-stu-id="ae050-103">The RosettaNet organization creates and maintains Partner Interface Processes (PIPs) to provide common business-process definitions for all RosettaNet message exchanges.</span></span>  

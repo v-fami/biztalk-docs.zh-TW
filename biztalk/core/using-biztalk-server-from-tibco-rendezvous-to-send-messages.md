@@ -1,17 +1,18 @@
 ---
 redirect_url: /biztalk/core/using-tibco-rendezvous-send-ports-from-biztalk-server/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: d4a4f4fce200089db0e29d09b3ea49af00f3792f
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014493"
 ---
 # <a name="using-biztalk-server-from-tibco-rendezvous-to-send-messages"></a><span data-ttu-id="2a76a-101">從 TIBCO Rendezvous 使用 BizTalk Server 傳送訊息</span><span class="sxs-lookup"><span data-stu-id="2a76a-101">Using BizTalk Server from TIBCO Rendezvous to Send Messages</span></span>
 <span data-ttu-id="2a76a-102">Microsoft BizTalk Adapter for TIBCO Rendezvous 使用非同步 API (Transport.Send)。</span><span class="sxs-lookup"><span data-stu-id="2a76a-102">Microsoft BizTalk Adapter for TIBCO Rendezvous uses the asynchronous API (Transport.Send).</span></span> <span data-ttu-id="2a76a-103">您可以使用訊息內容屬性指定配接器傳送的訊息種類：</span><span class="sxs-lookup"><span data-stu-id="2a76a-103">You can specify what kind of message the adapter sends using a message context property:</span></span>  
   
--   <span data-ttu-id="2a76a-104">**結構化**: 配接器會產生 TIBRVMSG_MSG 結構化的訊息時，根據從 BizTalk Server 接收的 XML 資料。</span><span class="sxs-lookup"><span data-stu-id="2a76a-104">**Structured**: The adapter generates a TIBRVMSG_MSG structured message, based on the XML data received from BizTalk Server.</span></span> <span data-ttu-id="2a76a-105">(*)</span><span class="sxs-lookup"><span data-stu-id="2a76a-105">(*)</span></span>  
+-   <span data-ttu-id="2a76a-104">**結構化**: 配接器會產生 TIBRVMSG_MSG 結構化的訊息時，根據從 BizTalk Server 接收的 XML 資料。</span><span class="sxs-lookup"><span data-stu-id="2a76a-104">**Structured**: The adapter generates a TIBRVMSG_MSG structured message, based on the XML data received from BizTalk Server.</span></span> <span data-ttu-id="2a76a-105">(\*)</span><span class="sxs-lookup"><span data-stu-id="2a76a-105">(\*)</span></span>  
   
  <span data-ttu-id="2a76a-106">如果 BizTalk Server 傳送的訊息中有欄位名稱超過 127 個字元，BizTalk Adapter for TIBCO Rendezvous 會將名稱截斷至 TIBCO Rendezvous 的欄位名稱大小上限 (即 127)。</span><span class="sxs-lookup"><span data-stu-id="2a76a-106">If BizTalk Server sends a message with fields that have names longer than 127 characters, BizTalk Adapter for TIBCO Rendezvous truncates the names to the maximum field name size for TIBCO Rendezvous, which is 127.</span></span>  
   

@@ -1,14 +1,14 @@
 ---
-title: "監視 |Microsoft 文件"
-ms.custom: 
+title: 監視 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7effa38f-f9f2-40b7-8d8b-fa13cf94aa4f
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298902"
 ---
 # <a name="monitoring"></a><span data-ttu-id="a9ca5-102">監視</span><span class="sxs-lookup"><span data-stu-id="a9ca5-102">Monitoring</span></span>
 <span data-ttu-id="a9ca5-103">根據預設，所有的 BizTalk Server 監控和工作使用的預設動作帳戶沒有任何特定執行身分帳戶定義的執行身分設定檔的 BizTalk Server 監視帳戶中的目標時。</span><span class="sxs-lookup"><span data-stu-id="a9ca5-103">By default, all BizTalk Server monitoring and tasks use the default action account when there is no specific Run As Account defined for the target in the Run As Profile of the BizTalk Server Monitoring Account.</span></span> <span data-ttu-id="a9ca5-104">若要設定執行身分帳戶與權限所需的監控 BizTalk Server 的最小集合，則需要下列的權限：</span><span class="sxs-lookup"><span data-stu-id="a9ca5-104">To configure a Run As Account with the minimum set of permissions that are required for BizTalk Server monitoring purposes, the following permissions are required:</span></span>  

@@ -1,18 +1,18 @@
 ---
-title: "以程式設計方式取得中繼資料，從 SAP |Microsoft 文件"
-ms.custom: 
+title: 以程式設計方式取得中繼資料，從 SAP |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - IMetadataRetrievalContract endpoint
 - metadata, retrieving programmatically
 - WS-Metadata Exchange (MEX) endpoint
 ms.assetid: 8d75332e-c103-4bd5-a9a2-56d21747a04e
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216830"
 ---
 # <a name="get-metadata-programmatically-from-sap"></a><span data-ttu-id="2b795-102">從 SAP 以程式設計方式取得中繼資料</span><span class="sxs-lookup"><span data-stu-id="2b795-102">Get Metadata Programmatically from SAP</span></span>
 <span data-ttu-id="2b795-103">[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]是自訂的 WCF 繫結會公開為 WCF 服務的 SAP 系統。</span><span class="sxs-lookup"><span data-stu-id="2b795-103">The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] is a custom WCF binding that exposes an SAP system as a WCF service.</span></span> <span data-ttu-id="2b795-104">配接器公開 SAP 系統做自我描述的服務。也就是能夠發行中繼資料支援的作業有關的服務。</span><span class="sxs-lookup"><span data-stu-id="2b795-104">The adapter exposes the SAP system as a self-describing service; that is, a service that is capable of publishing metadata about the operations that it supports.</span></span> <span data-ttu-id="2b795-105">中繼資料描述至 WCF 服務; 的邏輯介面也就是服務合約、 訊息和訊息結構描述必須用來與服務互動。</span><span class="sxs-lookup"><span data-stu-id="2b795-105">Metadata describes the logical interface to a WCF service; that is, the service contract, messages, and message schemas that must be used to interact with the service.</span></span>  

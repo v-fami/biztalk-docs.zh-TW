@@ -1,14 +1,14 @@
 ---
-title: "此管理組件中的檔案 |Microsoft 文件"
-ms.custom: 
+title: 此管理組件中的檔案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 690bfac3-ef0a-49c9-942c-96bda2e24d09
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22297558"
 ---
 # <a name="files-in-this-management-pack"></a><span data-ttu-id="a0f92-102">此管理組件中的檔案</span><span class="sxs-lookup"><span data-stu-id="a0f92-102">Files in This Management Pack</span></span>
 <span data-ttu-id="a0f92-103">若要監視[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，您必須先下載[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]從管理組件[System Center 管理組件類別目錄](http://www.microsoft.com/download/details.aspx?id=39617)(http://www.microsoft.com/download/details.aspx?id=39617)。</span><span class="sxs-lookup"><span data-stu-id="a0f92-103">To monitor [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], you must first download the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management Pack from [System Center Management Pack Catalog](http://www.microsoft.com/download/details.aspx?id=39617) (http://www.microsoft.com/download/details.aspx?id=39617).</span></span> <span data-ttu-id="a0f92-104">[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理組件包含下列檔案：</span><span class="sxs-lookup"><span data-stu-id="a0f92-104">The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management Pack includes the following files:</span></span>  

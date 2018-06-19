@@ -1,11 +1,11 @@
 ---
-title: "建立及提交新訊息 |Microsoft 文件"
-ms.custom: 
+title: 建立及提交新訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, messages
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - messages, submitting
 - messages, creating
 ms.assetid: 88b7a2d3-44a4-44e4-ba8c-527c10290925
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209862"
 ---
 # <a name="creating-and-submitting-a-new-message"></a><span data-ttu-id="bab1b-102">建立及提交新的訊息</span><span class="sxs-lookup"><span data-stu-id="bab1b-102">Creating and Submitting a New Message</span></span>
 <span data-ttu-id="bab1b-103">本節說明如何提交新的訊息。</span><span class="sxs-lookup"><span data-stu-id="bab1b-103">This section describes how to submit a new message.</span></span> <span data-ttu-id="bab1b-104">做為已修復的訊息，新的訊息必須驗證並核准訊息建立者以外的人。</span><span class="sxs-lookup"><span data-stu-id="bab1b-104">As with a repaired message, a new message must be verified and approved by people other than the message creator.</span></span>  

@@ -1,18 +1,18 @@
 ---
-title: "如何建立傳送埠群組 |Microsoft 文件"
-ms.custom: 
+title: 如何建立傳送埠群組 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, send port groups
 - send port groups, creating
 - managing [send port groups], creating
 ms.assetid: de3e72aa-83f4-4760-9f39-a488f904f1d3
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970364"
 ---
 # <a name="how-to-create-a-send-port-group"></a><span data-ttu-id="3f6bd-102">如何建立傳送埠群組</span><span class="sxs-lookup"><span data-stu-id="3f6bd-102">How to Create a Send Port Group</span></span>
 <span data-ttu-id="3f6bd-103">本主題描述如何使用 BizTalk Server 管理主控台，在 BizTalk 應用程式中建立傳送埠群組，然後在其中新增傳送埠。</span><span class="sxs-lookup"><span data-stu-id="3f6bd-103">This topic describes how to use the BizTalk Server Administration console to create a send port group in a BizTalk application and then add send ports to it.</span></span> <span data-ttu-id="3f6bd-104">您只能將靜態單向傳送埠新增到傳送埠群組。</span><span class="sxs-lookup"><span data-stu-id="3f6bd-104">You can add static one-way send ports only to a send port group.</span></span> <span data-ttu-id="3f6bd-105">傳送埠群組必須包含至少一個傳送埠，才能路由訊息。</span><span class="sxs-lookup"><span data-stu-id="3f6bd-105">A send port group must contain at least one send port to route messages.</span></span>  

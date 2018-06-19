@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206230"
 ---
 # <a name="step-8-configure-party-informationhl7main"></a><span data-ttu-id="8158a-102">步驟 8： 設定合作對象 Information_hl7_main</span><span class="sxs-lookup"><span data-stu-id="8158a-102">Step 8: Configure Party Information_hl7_main</span></span>
 <span data-ttu-id="8158a-103">在此步驟中，設定每個訊息接收者 （ADT 及他） 的合作對象資訊，以及指定傳送埠，以啟用外寄訊息使用的訊息標頭轉換[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]Configuration 總管。</span><span class="sxs-lookup"><span data-stu-id="8158a-103">In this step, you configure the party information for each of the message receivers (ADT and HIS) and assign send ports to enable message header transformations for the outgoing message using [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] Configuration Explorer.</span></span>  

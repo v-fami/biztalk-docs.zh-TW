@@ -1,14 +1,14 @@
 ---
-title: "輪詢 Oracle E-business Suite 使用 WCF 服務模型 |Microsoft 文件"
-ms.custom: 
+title: 輪詢 Oracle E-business Suite 使用 WCF 服務模型 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 96670a39-4fec-49bf-85d1-947b1a1bc750
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215110"
 ---
 # <a name="poll-oracle-e-business-suite-using-the-wcf-service-model"></a><span data-ttu-id="dc4bc-102">使用 WCF 服務模型輪詢 Oracle E-business Suite</span><span class="sxs-lookup"><span data-stu-id="dc4bc-102">Poll Oracle E-Business Suite using the WCF service model</span></span>
 <span data-ttu-id="dc4bc-103">您可以設定[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]從 Oracle 資料庫接收輪詢訊息。</span><span class="sxs-lookup"><span data-stu-id="dc4bc-103">You can configure the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] to receive polling-based messages from the Oracle database.</span></span> <span data-ttu-id="dc4bc-104">配接器會提供兩種輪詢 Oracle 資料庫：</span><span class="sxs-lookup"><span data-stu-id="dc4bc-104">The adapter provides two ways of polling the Oracle database:</span></span>  

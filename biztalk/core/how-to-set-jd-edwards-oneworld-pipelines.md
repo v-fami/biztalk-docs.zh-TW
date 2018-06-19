@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/adding-biztalk-adapter-for-jd-edwards-oneworld/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: d3460b45507c7cb73bb4025a8412a1fcc6cb0e59
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013853"
 ---
 # <a name="how-to-set-jd-edwards-oneworld-pipelines"></a><span data-ttu-id="9d95b-101">如何設定 JD Edwards OneWorld 管線</span><span class="sxs-lookup"><span data-stu-id="9d95b-101">How to Set JD Edwards OneWorld Pipelines</span></span>
 <span data-ttu-id="9d95b-102">Microsoft BizTalk Adapter for JD Edwards OneWorld 要求您分別針對傳送與接收管線選取 XMLTransmit 和 XMLReceive。</span><span class="sxs-lookup"><span data-stu-id="9d95b-102">Microsoft BizTalk Adapter for JD Edwards OneWorld requires that you select XMLTransmit and XMLReceive for the send and receive pipelines respectively.</span></span>  

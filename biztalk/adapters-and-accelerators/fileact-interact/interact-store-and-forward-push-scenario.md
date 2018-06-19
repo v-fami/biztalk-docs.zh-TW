@@ -1,14 +1,14 @@
 ---
-title: "存放區、 順向 (Push) 案例互動 |Microsoft 文件"
-ms.custom: 
+title: 存放區、 順向 (Push) 案例互動 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 32eaf374-c366-4e74-bcf7-278cab7a31f4
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222718"
 ---
 # <a name="interact-store-and-forward-push-scenario"></a><span data-ttu-id="f84b6-102">儲存和轉送 (Push) 的案例進行互動</span><span class="sxs-lookup"><span data-stu-id="f84b6-102">InterAct Store and Forward (Push) Scenario</span></span>
 <span data-ttu-id="f84b6-103">開始本節中的步驟之前，您必須完成的步驟[準備使用本教學課程](../../adapters-and-accelerators/fileact-interact/preparing-to-use-the-tutorial1.md)> 一節。</span><span class="sxs-lookup"><span data-stu-id="f84b6-103">Before you begin the steps in this section, you must complete the steps in the [Preparing to Use the Tutorial](../../adapters-and-accelerators/fileact-interact/preparing-to-use-the-tutorial1.md) section.</span></span>  

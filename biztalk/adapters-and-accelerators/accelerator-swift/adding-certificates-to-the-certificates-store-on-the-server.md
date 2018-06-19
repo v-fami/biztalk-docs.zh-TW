@@ -1,17 +1,17 @@
 ---
-title: "將憑證加入至伺服器的憑證存放區 |Microsoft 文件"
-ms.custom: 
+title: 將憑證加入至伺服器的憑證存放區 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - certificates, adding to certificates store
 - certificates store
 ms.assetid: 075cfae8-dce7-46f7-9539-796f03229ea2
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209566"
 ---
 # <a name="adding-certificates-to-the-certificates-store-on-the-server"></a><span data-ttu-id="3e450-102">將憑證新增到伺服器的憑證存放區</span><span class="sxs-lookup"><span data-stu-id="3e450-102">Adding Certificates to the Certificates Store on the Server</span></span>
 <span data-ttu-id="3e450-103">使用下列步驟，將憑證加入至伺服器電腦上的憑證 （本機電腦） 存放區的 [其他人] 資料夾。</span><span class="sxs-lookup"><span data-stu-id="3e450-103">Use the following steps to add certificates to the Other People folder in the Certificates (Local Computer) store on the server computer.</span></span>  
@@ -31,7 +32,7 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  <span data-ttu-id="3e450-106">如果您仍然可以從上一個程序 （新增憑證至用戶端的憑證存放區），您可以將它用於此程序開啟 MMC 視窗。</span><span class="sxs-lookup"><span data-stu-id="3e450-106">If you still have the MMC window open from the previous procedure (Adding Certificates to the Certificates Store on the Client), you can use it for this procedure.</span></span>  
   
-2.  <span data-ttu-id="3e450-107">在 [系統管理主控台] 視窗中，依序展開**憑證 （本機電腦）**資料夾，然後展開**其他人**。</span><span class="sxs-lookup"><span data-stu-id="3e450-107">In the Administration Console window, expand the **Certificates (Local Computer)** folder, and then expand **Other People**.</span></span>  
+2.  <span data-ttu-id="3e450-107">在 [系統管理主控台] 視窗中，依序展開**憑證 （本機電腦）** 資料夾，然後展開**其他人**。</span><span class="sxs-lookup"><span data-stu-id="3e450-107">In the Administration Console window, expand the **Certificates (Local Computer)** folder, and then expand **Other People**.</span></span>  
   
 3.  <span data-ttu-id="3e450-108">以滑鼠右鍵按一下**憑證**，指向 **所有工作**，然後按一下 **匯入**。</span><span class="sxs-lookup"><span data-stu-id="3e450-108">Right-click **Certificates**, point to **All Tasks**, and then click **Import**.</span></span>  
   

@@ -1,14 +1,14 @@
 ---
-title: "SFT HL7 訊息 |Microsoft 文件"
-ms.custom: 
+title: SFT HL7 訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d5bf3ac5-8197-4ea3-ace8-ff59ac32313c
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206166"
 ---
 # <a name="sft-in-hl7-messages"></a><span data-ttu-id="dbc4b-102">SFT HL7 訊息中</span><span class="sxs-lookup"><span data-stu-id="dbc4b-102">SFT in HL7 Messages</span></span>
 [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]<span data-ttu-id="dbc4b-103">加入訊息中的軟體區段 (SFT) 的支援。</span><span class="sxs-lookup"><span data-stu-id="dbc4b-103"> supports adding software segments (SFT) to messages.</span></span> <span data-ttu-id="dbc4b-104">SFT 區段提供做為傳送應用程式的軟體產品相關的其他資訊。</span><span class="sxs-lookup"><span data-stu-id="dbc4b-104">SFT segments provide additional information about the software products used as sending applications.</span></span> <span data-ttu-id="dbc4b-105">SFT 區段主要用於診斷。</span><span class="sxs-lookup"><span data-stu-id="dbc4b-105">SFT segments are primarily used for diagnostics.</span></span> <span data-ttu-id="dbc4b-106">標準 HL7 2.5 版的一部分 SFT 區段會顯示在應用程式通知。</span><span class="sxs-lookup"><span data-stu-id="dbc4b-106">As a part of the HL7 v2.5 standard, SFT segments are displayed in the application acknowledgement.</span></span>  

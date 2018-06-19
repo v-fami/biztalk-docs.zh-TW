@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209422"
 ---
 # <a name="creating-the-fabrikam-solution"></a><span data-ttu-id="0c7ef-102">建立 Fabrikam 解決方案</span><span class="sxs-lookup"><span data-stu-id="0c7ef-102">Creating the Fabrikam Solution</span></span>
 <span data-ttu-id="0c7ef-103">本節包含建立 Fabrikam 解決方案必須遵循的步驟。</span><span class="sxs-lookup"><span data-stu-id="0c7ef-103">This section contains the steps that you have to follow to create the Fabrikam solution.</span></span> <span data-ttu-id="0c7ef-104">建立組織及交易夥伴協議，您使用中提供的 SDK 範例之後[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] Contoso 的特定業務 (LOB) 應用程式進行通訊。</span><span class="sxs-lookup"><span data-stu-id="0c7ef-104">After you create the organizations and trading partner agreement, you use a SDK sample provided in [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] to communicate with the Contoso line-of-business (LOB) application.</span></span>  

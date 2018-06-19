@@ -1,15 +1,15 @@
 ---
-title: "建立 TIBCO Rendezvous 配接器傳送成品 |Microsoft 文件"
-description: "建立傳送埠，請設定將訊息從 BizTalk 傳送至 TIBCO Rendezvous 傳輸屬性"
-ms.custom: 
+title: 建立 TIBCO Rendezvous 配接器傳送成品 |Microsoft 文件
+description: 建立傳送埠，請設定將訊息從 BizTalk 傳送至 TIBCO Rendezvous 傳輸屬性
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ad996c4f-e6ed-4582-a768-0cb1ad25b1d8
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014349"
 ---
 # <a name="create-tibco-rendezvous-send-handlers"></a><span data-ttu-id="2fdaa-103">建立 TIBCO Rendezvous 傳送處理常式</span><span class="sxs-lookup"><span data-stu-id="2fdaa-103">Create TIBCO Rendezvous Send Handlers</span></span>
 <span data-ttu-id="2fdaa-104">本節說明如何建立結構描述，以在 BizTalk Server 協調流程中使用 TIBCO Rendezvous。</span><span class="sxs-lookup"><span data-stu-id="2fdaa-104">This section explains how to create a schema to use TIBCO Rendezvous in a BizTalk Server orchestration.</span></span>  
@@ -36,7 +37,7 @@ ms.lasthandoff: 11/07/2017
   
     3.  <span data-ttu-id="2fdaa-111">從**傳送處理常式**下拉式清單中，選取 URI。</span><span class="sxs-lookup"><span data-stu-id="2fdaa-111">From the **Send handler** drop-down list, select the URI.</span></span>  
   
-    4.  <span data-ttu-id="2fdaa-112">從 [傳送管線] 下拉式清單中，選取 [ **Microsoft.BizTalk.DefaultPipelines.XMLTransmit**。</span><span class="sxs-lookup"><span data-stu-id="2fdaa-112">From the Send Pipeline drop-down list, select **Microsoft.BizTalk.DefaultPipelines.XMLTransmit**.</span></span>  <span data-ttu-id="2fdaa-113">從**接收管線**下拉式清單中，選取**[microsoft.biztalk.defaultpiplelines.xmlreceive]**。</span><span class="sxs-lookup"><span data-stu-id="2fdaa-113">From the **Receive Pipeline** drop-down list, select **Microsoft.BizTalk.DefaultPiplelines.XMLReceive**.</span></span>  
+    4.  <span data-ttu-id="2fdaa-112">從 [傳送管線] 下拉式清單中，選取 [ **Microsoft.BizTalk.DefaultPipelines.XMLTransmit**。</span><span class="sxs-lookup"><span data-stu-id="2fdaa-112">From the Send Pipeline drop-down list, select **Microsoft.BizTalk.DefaultPipelines.XMLTransmit**.</span></span>  <span data-ttu-id="2fdaa-113">從**接收管線**下拉式清單中，選取 **[microsoft.biztalk.defaultpiplelines.xmlreceive]**。</span><span class="sxs-lookup"><span data-stu-id="2fdaa-113">From the **Receive Pipeline** drop-down list, select **Microsoft.BizTalk.DefaultPiplelines.XMLReceive**.</span></span>  
 
         > [!NOTE]
         > <span data-ttu-id="2fdaa-114">Microsoft BizTalk Adapter for TIBCO Rendezvous 需要您選取 XMLTransmit 管線傳送，並針對 receive XMLReceive 管線。</span><span class="sxs-lookup"><span data-stu-id="2fdaa-114">Microsoft BizTalk Adapter for TIBCO Rendezvous requires that you select XMLTransmit pipeline for send, and XMLReceive pipeline for receive.</span></span>

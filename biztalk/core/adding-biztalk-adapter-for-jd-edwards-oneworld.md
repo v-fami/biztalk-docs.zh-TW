@@ -1,15 +1,15 @@
 ---
-title: "新增 BizTalk Adapter for JD Edwards OneWorld |Microsoft 文件"
-description: "將 JD Edwards OneWorld 新增至 BizTalk 管理、 建立傳送埠、 設定傳輸屬性中，和 BizTalk Server 中使用 JD Edwards OneWorld 配接器時，使用 xmlreceive 和 XMLTransmit 管線"
-ms.custom: 
+title: 新增 BizTalk Adapter for JD Edwards OneWorld |Microsoft 文件
+description: 將 JD Edwards OneWorld 新增至 BizTalk 管理、 建立傳送埠、 設定傳輸屬性中，和 BizTalk Server 中使用 JD Edwards OneWorld 配接器時，使用 xmlreceive 和 XMLTransmit 管線
+ms.custom: ''
 ms.date: 10/18/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 03126f4e-9156-4c0c-ab5c-0627f0c05263
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014253"
 ---
 # <a name="configure-jd-edwards-enterpriseone-artifacts-in-biztalk-administration"></a><span data-ttu-id="4bf3e-103">在 BizTalk 管理中設定 JD Edwards EnterpriseOne 成品</span><span class="sxs-lookup"><span data-stu-id="4bf3e-103">Configure JD Edwards EnterpriseOne artifacts in BizTalk Administration</span></span>
 <span data-ttu-id="4bf3e-104">Microsoft BizTalk Adapter for JD Edwards OneWorld 包含 [接收處理常式] 和 [傳送處理常式] 資料夾。</span><span class="sxs-lookup"><span data-stu-id="4bf3e-104">Microsoft BizTalk Adapter for JD Edwards OneWorld contains both the Receive Handler and Send Handler folders.</span></span> <span data-ttu-id="4bf3e-105">[傳送處理常式] 資料夾包含 BizTalkServerApplication。</span><span class="sxs-lookup"><span data-stu-id="4bf3e-105">The Send Handler folder contains BizTalkServerApplication.</span></span> <span data-ttu-id="4bf3e-106">BizTalk Adapter for JD Edwards OneWorld 是可建立的；它會在與 BizTalk Server 相同的程序中執行，而且不會在外掛式主控件程序中執行。</span><span class="sxs-lookup"><span data-stu-id="4bf3e-106">BizTalk Adapter for JD Edwards OneWorld is creatable; it runs in-process with BizTalk Server and does not run in an isolated host process.</span></span>  
@@ -30,14 +31,14 @@ ms.lasthandoff: 11/07/2017
   
 3.  <span data-ttu-id="4bf3e-110">輸入配接器的名稱。</span><span class="sxs-lookup"><span data-stu-id="4bf3e-110">Enter a name for the adapter.</span></span> <span data-ttu-id="4bf3e-111">例如，輸入`JDEOneWorld`。</span><span class="sxs-lookup"><span data-stu-id="4bf3e-111">For example, enter`JDEOneWorld`.</span></span>  
   
-4.  <span data-ttu-id="4bf3e-112">選取**[jdeoneworld]**從**配接器**清單，並選取**確定**。</span><span class="sxs-lookup"><span data-stu-id="4bf3e-112">Select **JDEOneWorld** from the **Adapter** list, and select **OK**.</span></span>  
+4.  <span data-ttu-id="4bf3e-112">選取 **[jdeoneworld]** 從**配接器**清單，並選取**確定**。</span><span class="sxs-lookup"><span data-stu-id="4bf3e-112">Select **JDEOneWorld** from the **Adapter** list, and select **OK**.</span></span>  
 
   
 ### <a name="check-if-the-adapter-is-working"></a><span data-ttu-id="4bf3e-113">檢查配接器是否正常運作</span><span class="sxs-lookup"><span data-stu-id="4bf3e-113">Check if the adapter is working</span></span> 
  <span data-ttu-id="4bf3e-114">在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，您可以確認配接器會正確運作，藉由查看**邏輯系統**視窗。</span><span class="sxs-lookup"><span data-stu-id="4bf3e-114">In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, you can verify that the adapter is functioning correctly by looking at the **Logical System** window.</span></span> <span data-ttu-id="4bf3e-115">在初次安裝時，因為您尚未建立與伺服器系統的連線，也尚未建立任何邏輯系統，所以這個視窗會是空的。</span><span class="sxs-lookup"><span data-stu-id="4bf3e-115">On initial installation, this window is empty because you have not yet established a connection to the server system, nor have you created any logical systems.</span></span>  
   
  
-1.  <span data-ttu-id="4bf3e-116">在**BizTalk Server 管理**，依序展開**平台設定**，依序展開**配接器**，然後選取**[jdeoneworld]**。</span><span class="sxs-lookup"><span data-stu-id="4bf3e-116">In **BizTalk Server Administration**, expand **Platform Settings**, expand **Adapters**, and then select **JDEOneWorld**.</span></span>  
+1.  <span data-ttu-id="4bf3e-116">在**BizTalk Server 管理**，依序展開**平台設定**，依序展開**配接器**，然後選取 **[jdeoneworld]**。</span><span class="sxs-lookup"><span data-stu-id="4bf3e-116">In **BizTalk Server Administration**, expand **Platform Settings**, expand **Adapters**, and then select **JDEOneWorld**.</span></span>  
   
 2.  <span data-ttu-id="4bf3e-117">在詳細資料窗格中，以滑鼠右鍵按一下**BizTalkServerApplication**，然後選取**屬性**。</span><span class="sxs-lookup"><span data-stu-id="4bf3e-117">In the details pane, right-click **BizTalkServerApplication**, and select **Properties**.</span></span>  
   
@@ -62,7 +63,7 @@ ms.lasthandoff: 11/07/2017
   
 3.  <span data-ttu-id="4bf3e-128">在**傳送埠屬性**，選取**名稱**欄位，並輸入傳送埠名稱。</span><span class="sxs-lookup"><span data-stu-id="4bf3e-128">In the **Send Port Properties**, select the **Name** field, and enter a send port name.</span></span> <span data-ttu-id="4bf3e-129">例如，輸入**SendToJDE**。</span><span class="sxs-lookup"><span data-stu-id="4bf3e-129">For example, enter **SendToJDE**.</span></span>  
   
-4.  <span data-ttu-id="4bf3e-130">在**類型**下拉式清單中，選取**[jdeoneworld]**。</span><span class="sxs-lookup"><span data-stu-id="4bf3e-130">In the **Type** drop-down list, select **JDEOneWorld**.</span></span>  
+4.  <span data-ttu-id="4bf3e-130">在**類型**下拉式清單中，選取 **[jdeoneworld]**。</span><span class="sxs-lookup"><span data-stu-id="4bf3e-130">In the **Type** drop-down list, select **JDEOneWorld**.</span></span>  
   
 5.  <span data-ttu-id="4bf3e-131">在**URI**下拉式清單中，選取傳送處理常式。</span><span class="sxs-lookup"><span data-stu-id="4bf3e-131">In the **URI** drop-down list, select the send handler.</span></span>  
   

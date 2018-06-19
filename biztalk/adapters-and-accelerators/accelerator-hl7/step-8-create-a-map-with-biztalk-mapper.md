@@ -1,11 +1,11 @@
 ---
-title: "步驟 8： 使用 BizTalk 對應工具建立對應 |Microsoft 文件"
-ms.custom: 
+title: 步驟 8： 使用 BizTalk 對應工具建立對應 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - message enrichment tutorial, maps
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - maps, creating
 - BizTalk Mapper
 ms.assetid: 785426c7-5651-48be-b3f4-7f9d8051ba23
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207070"
 ---
 # <a name="step-8-create-a-map-with-biztalk-mapper"></a><span data-ttu-id="ce5d9-102">步驟 8： 使用 BizTalk 對應工具建立對應</span><span class="sxs-lookup"><span data-stu-id="ce5d9-102">Step 8: Create a Map with BizTalk Mapper</span></span>
 <span data-ttu-id="ce5d9-103">在此步驟中，您可以使用 BizTalk 對應工具來建立對應。</span><span class="sxs-lookup"><span data-stu-id="ce5d9-103">In this step, you use the BizTalk Mapper to create a map.</span></span> <span data-ttu-id="ce5d9-104">您可以建立關聯的資料 （欄位） 的連結，使用此對應來補充要求文件中拒絕文件要求的資料中。</span><span class="sxs-lookup"><span data-stu-id="ce5d9-104">You use this map to create links that associate the data (fields) in a replenishment request document to the data in a request denied document.</span></span>  

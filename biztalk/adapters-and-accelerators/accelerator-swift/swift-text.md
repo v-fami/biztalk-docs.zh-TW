@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214518"
 ---
 # <a name="swift-text"></a><span data-ttu-id="8c301-102">SWIFT 的文字</span><span class="sxs-lookup"><span data-stu-id="8c301-102">SWIFT Text</span></span>
 <span data-ttu-id="8c301-103">訊息文字的財務 (FIN) 訊息中，裝載所組成，且包含的所有資料欄位包含寄件者、 接收者和訊息類型的欄位除外。</span><span class="sxs-lookup"><span data-stu-id="8c301-103">The message text makes up the payload of the financial (FIN) message, and contains all of the data fields except the fields containing the sender, receiver, and message type.</span></span> <span data-ttu-id="8c301-104">這三個欄位都包含在標頭部分。</span><span class="sxs-lookup"><span data-stu-id="8c301-104">These three fields are contained in the header portion.</span></span> <span data-ttu-id="8c301-105">有些訊息也包含選擇性使用者標頭，也會提供處理資訊。</span><span class="sxs-lookup"><span data-stu-id="8c301-105">Some messages also contain an optional User Header, which may also provide processing information.</span></span>  

@@ -1,18 +1,18 @@
 ---
-title: "步驟 4： 建立接收埠，以便接受 ADT ^ ADT 系統使用 MLLP 配接器從 A03 訊息 |Microsoft 文件"
-ms.custom: 
+title: 步驟 4： 建立接收埠，以便接受 ADT ^ ADT 系統使用 MLLP 配接器從 A03 訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 2015-12-09
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive ports
 - end-to-end tutorial, receive ports
 - creating, receive ports
 ms.assetid: 3c4192d5-d011-48b0-a3f9-47c5225780ee
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207734"
 ---
 # <a name="step-4-create-the-receive-port-for-accepting-adta03-messages-from-adt-systems-using-the-mllp-adapter"></a><span data-ttu-id="d1105-102">步驟 4： 建立接收埠，以便接受 ADT ^ A03 訊息從 ADT 系統使用 MLLP 配接器</span><span class="sxs-lookup"><span data-stu-id="d1105-102">Step 4: Create the Receive Port for Accepting ADT^A03 Messages from ADT Systems Using the MLLP Adapter</span></span>
 <span data-ttu-id="d1105-103">您可以使用的接收埠來指定內送訊息的接收位置。</span><span class="sxs-lookup"><span data-stu-id="d1105-103">You use the receive port to specify the receive location for incoming messages.</span></span> <span data-ttu-id="d1105-104">使用下列程序來建立接收埠，以便接受 ADT ^ A03 ADT 使用從系統 MLLP 配接器的訊息。</span><span class="sxs-lookup"><span data-stu-id="d1105-104">Use the following procedure to create the receive port for accepting ADT^A03 messages from the ADT System using the MLLP adapter.</span></span>  

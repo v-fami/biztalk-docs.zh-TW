@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216606"
 ---
 # <a name="special-operations"></a><span data-ttu-id="cb248-102">特殊作業</span><span class="sxs-lookup"><span data-stu-id="cb248-102">Special Operations</span></span>
 <span data-ttu-id="cb248-103">[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]呈現數個特殊的作業。</span><span class="sxs-lookup"><span data-stu-id="cb248-103">The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] surfaces several special operations.</span></span> <span data-ttu-id="cb248-104">這些作業不根據 SAP 系統成品。</span><span class="sxs-lookup"><span data-stu-id="cb248-104">These operations are not based on SAP system artifacts.</span></span> <span data-ttu-id="cb248-105">它們會顯示為配接器用戶端應用程式提供功能。</span><span class="sxs-lookup"><span data-stu-id="cb248-105">They are surfaced to provide functionality for adapter client applications.</span></span> <span data-ttu-id="cb248-106">是特殊作業：</span><span class="sxs-lookup"><span data-stu-id="cb248-106">The special operations are:</span></span>  

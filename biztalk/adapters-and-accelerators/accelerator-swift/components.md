@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210510"
 ---
 # <a name="components"></a><span data-ttu-id="f0fd8-102">Components</span><span class="sxs-lookup"><span data-stu-id="f0fd8-102">Components</span></span>
 <span data-ttu-id="f0fd8-103">您使用[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]元件才能實作 SWIFT 為主的中介軟體解決方案，以便交易夥伴的關聯性、 企業應用程式整合 (EAI)，和應用程式和商務工作流程自動化。</span><span class="sxs-lookup"><span data-stu-id="f0fd8-103">You use [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] components to implement SWIFT-centric middleware solutions that facilitate trading partner relationships, enterprise application integration (EAI), and application and business workflow automation.</span></span> <span data-ttu-id="f0fd8-104">這些元件包括：</span><span class="sxs-lookup"><span data-stu-id="f0fd8-104">These components include:</span></span>  

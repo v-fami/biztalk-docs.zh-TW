@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206022"
 ---
 # <a name="refi12-in-v2xml-24"></a><span data-ttu-id="9be56-102">V2 中 REF_I12。XML 2.4</span><span class="sxs-lookup"><span data-stu-id="9be56-102">REF_I12 in V2.XML 2.4</span></span>
 <span data-ttu-id="9be56-103">您必須手動變更 v2 REF_I12 結構描述中的下列程式碼。XML 2.4 之後執行 Update2XMLSchema 工具：</span><span class="sxs-lookup"><span data-stu-id="9be56-103">You must manually change the following code in the REF_I12 schema in V2.XML 2.4 after running the Update2XMLSchema tool:</span></span>  

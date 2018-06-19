@@ -1,17 +1,17 @@
 ---
-title: "設定實體連接埠繫結使用連接埠繫結檔案至 Siebel |Microsoft 文件"
-ms.custom: 
+title: 設定實體連接埠繫結使用連接埠繫結檔案至 Siebel |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - port binding file
 - physical port binding, configuring by using a port binding file
 ms.assetid: 1758e89c-d56c-4e67-919b-c0bbb22878bf
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222606"
 ---
 # <a name="configure-a-physical-port-binding-using-a-port-binding-file-to-siebel"></a><span data-ttu-id="9732a-102">設定使用連接埠繫結檔案至 Siebel 實體連接埠繫結</span><span class="sxs-lookup"><span data-stu-id="9732a-102">Configure a physical port binding using a port binding file to Siebel</span></span>
 <span data-ttu-id="9732a-103">當您使用[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]產生 Siebel 成品，以外的結構描述檔案，中繼資料[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]也會產生連接埠繫結檔案。</span><span class="sxs-lookup"><span data-stu-id="9732a-103">When you use the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] to generate metadata for a Siebel artifact, other than the schema files, the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] also generates a port binding file.</span></span> <span data-ttu-id="9732a-104">您可以將此繫結檔案匯 BizTalk 應用程式建立實體傳送埠。</span><span class="sxs-lookup"><span data-stu-id="9732a-104">You can import this binding file into your BizTalk application to create a physical send port.</span></span> <span data-ttu-id="9732a-105">請參閱[重複使用 Siebel 配接器中的配接器繫結](../../adapters-and-accelerators/adapter-siebel/reuse-adapter-bindings-in-the-siebel-adapter.md)。</span><span class="sxs-lookup"><span data-stu-id="9732a-105">See [Reuse adapter bindings in the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/reuse-adapter-bindings-in-the-siebel-adapter.md).</span></span> <span data-ttu-id="9732a-106">如果您匯入此繫結檔案，您不必手動建立實體傳送埠。</span><span class="sxs-lookup"><span data-stu-id="9732a-106">If you import this binding file, you do not have to manually create a physical send port.</span></span>  

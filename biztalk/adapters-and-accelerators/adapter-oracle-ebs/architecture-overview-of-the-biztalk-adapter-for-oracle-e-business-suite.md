@@ -1,14 +1,14 @@
 ---
-title: "BizTalk Adapter for Oracle E-business Suite 的架構概觀 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Adapter for Oracle E-business Suite 的架構概觀 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f840ff23-4d68-4bd3-b115-aa87bc4c99f2
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216766"
 ---
 # <a name="architecture-overview-of-the-biztalk-adapter-for-oracle-e-business-suite"></a><span data-ttu-id="b08bf-102">BizTalk Adapter for Oracle E-business Suite 的架構概觀</span><span class="sxs-lookup"><span data-stu-id="b08bf-102">Architecture overview of the BizTalk Adapter for Oracle E-Business Suite</span></span>
 <span data-ttu-id="b08bf-103">[!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]是[!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)]自訂繫結。</span><span class="sxs-lookup"><span data-stu-id="b08bf-103">The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] is a [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] custom binding.</span></span> <span data-ttu-id="b08bf-104">此繫結包含單一的自訂傳輸繫結項目，可讓 Oracle E-business Suite 與通訊。</span><span class="sxs-lookup"><span data-stu-id="b08bf-104">This binding contains a single custom transport binding element that enables communication with an Oracle E-Business Suite.</span></span> <span data-ttu-id="b08bf-105">[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]包裝[!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)]執行階段，並公開至應用程式可以透過[!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)]通道架構。</span><span class="sxs-lookup"><span data-stu-id="b08bf-105">The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] is wrapped by the [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)] runtime and is exposed to applications through the [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] channel architecture.</span></span> <span data-ttu-id="b08bf-106">[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] .NET (ODP.NET) 和 Oracle 用戶端，也就是組件的 Oracle 資料存取元件 (ODAC) 適用於 Windows 與 Oracle E-business Suite，透過 Oracle 資料提供者進行通訊。</span><span class="sxs-lookup"><span data-stu-id="b08bf-106">The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] communicates with the Oracle E-Business Suite through the Oracle Data Provider for .NET (ODP.NET) and the Oracle client, which are part of the Oracle Data Access Components (ODAC) for Windows.</span></span>  

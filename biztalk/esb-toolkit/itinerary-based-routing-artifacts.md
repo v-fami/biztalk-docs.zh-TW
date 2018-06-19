@@ -1,14 +1,14 @@
 ---
-title: "行程為基礎的路由成品 |Microsoft 文件"
-ms.custom: 
+title: 行程為基礎的路由成品 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cff38ab7-5a16-42cc-9065-075e9db7acd3
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22296822"
 ---
 # <a name="itinerary-based-routing-artifacts"></a><span data-ttu-id="83c55-102">行程為基礎的路由成品</span><span class="sxs-lookup"><span data-stu-id="83c55-102">Itinerary-Based Routing Artifacts</span></span>
 <span data-ttu-id="83c55-103">行程型路由的功能[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]包含一組的索引鍵在多個組件中定義的成品。</span><span class="sxs-lookup"><span data-stu-id="83c55-103">The itinerary-based routing capabilities of the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] include a set of key artifacts defined in multiple assemblies.</span></span> <span data-ttu-id="83c55-104">下表列出這些成品可以協助開發人員使用時與擴充行程為基礎的路由實作與其他 ESB 路線服務實作的類別目錄。</span><span class="sxs-lookup"><span data-stu-id="83c55-104">The following tables list these artifacts by category to assist developers when working with and extending the itinerary-based routing implementation with additional ESB itinerary service implementations.</span></span>  

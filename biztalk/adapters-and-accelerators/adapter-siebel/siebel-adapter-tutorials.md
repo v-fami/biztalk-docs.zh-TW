@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222078"
 ---
 # <a name="siebel-adapter-tutorials"></a><span data-ttu-id="88c3f-102">Siebel 配接器教學課程</span><span class="sxs-lookup"><span data-stu-id="88c3f-102">Siebel Adapter Tutorials</span></span>
 <span data-ttu-id="88c3f-103">中的第一個[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]教學課程包含如何將資料從 Siebel 系統呈現在 Microsoft SharePoint 入口網站上的逐步示範。</span><span class="sxs-lookup"><span data-stu-id="88c3f-103">The first of the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] tutorials contains a step-by-step demonstration of how to present data from a Siebel system on a Microsoft SharePoint portal.</span></span> <span data-ttu-id="88c3f-104">第二個[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]教學課程包含有關如何移轉使用舊版的 Siebel 配接器使用 WCF 為基礎所建立的 BizTalk 專案的詳細的指示[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="88c3f-104">The second [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] tutorial contains detailed instructions on how to migrate BizTalk projects created using the previous version of the Siebel adapter to use the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].</span></span>  

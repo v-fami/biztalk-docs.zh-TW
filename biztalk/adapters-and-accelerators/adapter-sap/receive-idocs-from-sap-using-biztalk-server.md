@@ -1,18 +1,18 @@
 ---
-title: "從 SAP 使用 BizTalk Server 接收 Idoc |Microsoft 文件"
-ms.custom: 
+title: 從 SAP 使用 BizTalk Server 接收 Idoc |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - IDOCs, sample (receiving)
 - IDOCs, business scenarios for receiving
 - IDOCs, receiving from SAP using BizTalk Server
 ms.assetid: b904bf07-1108-4ed3-8564-d83eaafff247
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968060"
 ---
 # <a name="receive-idocs-from-sap-using-biztalk-server"></a><span data-ttu-id="33090-102">從 SAP 使用 BizTalk Server 接收 Idoc</span><span class="sxs-lookup"><span data-stu-id="33090-102">Receive IDOCs from SAP using BizTalk Server</span></span>
 <span data-ttu-id="33090-103">接收 IDOC 包括[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]做為要從 SAP 接收特殊的 RFC 呼叫的 RFC 伺服器。</span><span class="sxs-lookup"><span data-stu-id="33090-103">Receiving an IDOC involves the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] to act as an RFC server to receive a special RFC call from SAP.</span></span> <span data-ttu-id="33090-104">SAP 配接器可以接收 Idoc 做為 RFC 伺服器或 tRFC 伺服器。</span><span class="sxs-lookup"><span data-stu-id="33090-104">The SAP adapter can receive IDOCs acting as an RFC server or a tRFC server.</span></span> <span data-ttu-id="33090-105">如需使用行為就像是 tRFC 伺服器配接器接收 IDOC 的詳細資訊，請參閱[從交易內容所使用的 BizTalk Server 中的 SAP 接收的 Idoc](../../adapters-and-accelerators/adapter-sap/receive-idocs-from-sap-in-a-transactional-context-using-biztalk-server.md)。</span><span class="sxs-lookup"><span data-stu-id="33090-105">For more information about receiving an IDOC with the adapter behaving as a tRFC server, see [Receive IDOCs from SAP in a Transactional Context by Using BizTalk Server](../../adapters-and-accelerators/adapter-sap/receive-idocs-from-sap-in-a-transactional-context-using-biztalk-server.md).</span></span>  
@@ -81,7 +82,7 @@ ms.lasthandoff: 11/28/2017
 -   <span data-ttu-id="33090-182">*FlatFileSegmentIndicator* – 指出如果 IDOC 結構描述\<appinfo\>區段定義名稱或區段型別名稱，應包含標記。</span><span class="sxs-lookup"><span data-stu-id="33090-182">*FlatFileSegmentIndicator* – Indicates if the IDOC schema \<appinfo\> tags should contain segment definition names or segment type names.</span></span> <span data-ttu-id="33090-183">這是適用於使用希望傳送/接收一般檔案 IDOC 至/從 SAP。</span><span class="sxs-lookup"><span data-stu-id="33090-183">This is applicable when a used wishes to send/receive a flat-file IDOC to/from SAP.</span></span> <span data-ttu-id="33090-184">如果*GenerateFlatFileCompatibleIDoc*設定為 false，則*FlatFileSegmentIndicator*繫結屬性會被忽略。</span><span class="sxs-lookup"><span data-stu-id="33090-184">If the *GenerateFlatFileCompatibleIDoc* is set to false, then *FlatFileSegmentIndicator* binding property is ignored.</span></span>  
   
 > [!IMPORTANT]
->  <span data-ttu-id="33090-185">因為您正在產生發話 IDOC 的結構描述，請確定您選取**服務 （輸入作業）**從**選取合約型別**下拉式清單中的[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="33090-185">Because you are generating the schema for an inbound IDOC call, make sure you select **Service (Inbound operation)** from the **Select contract type** drop-down list in the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)].</span></span>  
+>  <span data-ttu-id="33090-185">因為您正在產生發話 IDOC 的結構描述，請確定您選取**服務 （輸入作業）** 從**選取合約型別**下拉式清單中的[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="33090-185">Because you are generating the schema for an inbound IDOC call, make sure you select **Service (Inbound operation)** from the **Select contract type** drop-down list in the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)].</span></span>  
   
 ## <a name="defining-messages-and-message-types"></a><span data-ttu-id="33090-186">定義訊息和訊息類型</span><span class="sxs-lookup"><span data-stu-id="33090-186">Defining Messages and Message Types</span></span>  
  <span data-ttu-id="33090-187">您先前產生的結構描述會描述 「 類型 」 所需的協調流程中的訊息。</span><span class="sxs-lookup"><span data-stu-id="33090-187">The schema that you generated earlier describes the "types" required for the messages in the orchestration.</span></span> <span data-ttu-id="33090-188">訊息通常是為其型別由對應的結構描述所定義的變數。</span><span class="sxs-lookup"><span data-stu-id="33090-188">A message is typically a variable, the type for which is defined by the corresponding schema.</span></span> <span data-ttu-id="33090-189">您必須連結產生的結構描述您在第一個步驟中的訊息從 BizTalk 專案的協調流程檢視。</span><span class="sxs-lookup"><span data-stu-id="33090-189">You must link the schema you generated in the first step to the messages from the Orchestration view of the BizTalk project.</span></span>  
@@ -137,7 +138,7 @@ ms.lasthandoff: 11/28/2017
   
 |<span data-ttu-id="33090-230">形狀圖</span><span class="sxs-lookup"><span data-stu-id="33090-230">Shape</span></span>|<span data-ttu-id="33090-231">圖形類型</span><span class="sxs-lookup"><span data-stu-id="33090-231">Shape Type</span></span>|<span data-ttu-id="33090-232">屬性</span><span class="sxs-lookup"><span data-stu-id="33090-232">Properties</span></span>|  
 |-----------|----------------|----------------|  
-|<span data-ttu-id="33090-233">ListenToSAP</span><span class="sxs-lookup"><span data-stu-id="33090-233">ListenToSAP</span></span>|<span data-ttu-id="33090-234">Receive</span><span class="sxs-lookup"><span data-stu-id="33090-234">Receive</span></span>|<span data-ttu-id="33090-235">-設定**名稱**至*ListenToSAP*</span><span class="sxs-lookup"><span data-stu-id="33090-235">- Set **Name** to *ListenToSAP*</span></span><br /><br /> <span data-ttu-id="33090-236">-設定**啟動**至*，則為 True*</span><span class="sxs-lookup"><span data-stu-id="33090-236">- Set **Activate** to *True*</span></span>|  
+|<span data-ttu-id="33090-233">ListenToSAP</span><span class="sxs-lookup"><span data-stu-id="33090-233">ListenToSAP</span></span>|<span data-ttu-id="33090-234">Receive</span><span class="sxs-lookup"><span data-stu-id="33090-234">Receive</span></span>|<span data-ttu-id="33090-235">-設定**名稱**至*ListenToSAP*</span><span class="sxs-lookup"><span data-stu-id="33090-235">- Set **Name** to *ListenToSAP*</span></span><br /><br /> <span data-ttu-id="33090-236">-設定**啟動**至 *，則為 True*</span><span class="sxs-lookup"><span data-stu-id="33090-236">- Set **Activate** to *True*</span></span>|  
 |<span data-ttu-id="33090-237">SaveIDOC</span><span class="sxs-lookup"><span data-stu-id="33090-237">SaveIDOC</span></span>|<span data-ttu-id="33090-238">Send</span><span class="sxs-lookup"><span data-stu-id="33090-238">Send</span></span>|<span data-ttu-id="33090-239">-設定**名稱**至*SaveIDOC*</span><span class="sxs-lookup"><span data-stu-id="33090-239">- Set **Name** to *SaveIDOC*</span></span>|  
 |<span data-ttu-id="33090-240">SendResponse</span><span class="sxs-lookup"><span data-stu-id="33090-240">SendResponse</span></span>|<span data-ttu-id="33090-241">Send</span><span class="sxs-lookup"><span data-stu-id="33090-241">Send</span></span>|<span data-ttu-id="33090-242">-設定**名稱**至*SendResponse*</span><span class="sxs-lookup"><span data-stu-id="33090-242">- Set **Name** to *SendResponse*</span></span>|  
   

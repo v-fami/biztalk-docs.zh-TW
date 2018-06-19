@@ -1,17 +1,17 @@
 ---
-title: "SWIFT 的管線元件新增至工具箱 |Microsoft 文件"
-ms.custom: 
+title: SWIFT 的管線元件新增至工具箱 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - toolbox, adding pipelines
 - pipelines, adding to toolbox
 ms.assetid: 3821c10e-ef9b-4657-b934-cff6d096f654
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22208926"
 ---
 # <a name="adding-swift-pipeline-components-to-the-toolbox"></a><span data-ttu-id="3f9c2-102">SWIFT 的管線元件新增至工具箱</span><span class="sxs-lookup"><span data-stu-id="3f9c2-102">Adding SWIFT Pipeline Components to the Toolbox</span></span>
 <span data-ttu-id="3f9c2-103">您必須加入 SWIFT 的管線元件[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]工具箱中，好讓您可以建立使用這些元件的自訂管線。</span><span class="sxs-lookup"><span data-stu-id="3f9c2-103">You must add the SWIFT pipeline components to the [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] Toolbox, so that you can create custom pipelines using these components.</span></span> <span data-ttu-id="3f9c2-104">如此才能建立 Message Repair 和 New Submission 或 FIN 回應對帳的管線。</span><span class="sxs-lookup"><span data-stu-id="3f9c2-104">This is required to create pipelines for either Message Repair and New Submission or FIN Response Reconciliation.</span></span>  

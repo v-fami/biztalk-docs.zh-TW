@@ -1,11 +1,11 @@
 ---
-title: "設定記錄 |Microsoft 文件"
-ms.custom: 
+title: 設定記錄 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring, auditing
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - logging, configuring
 - auditing, configuring
 ms.assetid: cd83acbb-337b-4448-ad43-c0b89c5c3356
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204702"
 ---
 # <a name="configuring-logging"></a><span data-ttu-id="3bbdd-102">設定記錄</span><span class="sxs-lookup"><span data-stu-id="3bbdd-102">Configuring Logging</span></span>
 <span data-ttu-id="3bbdd-103">醫療保健應用程式需要訊息的完整記錄。</span><span class="sxs-lookup"><span data-stu-id="3bbdd-103">Health care applications require complete logging of messages.</span></span> <span data-ttu-id="3bbdd-104">這些應用程式處理重要，因為時間敏感資料和貨幣資料，記錄就會變成應用程式很重要的一部分。</span><span class="sxs-lookup"><span data-stu-id="3bbdd-104">Since these applications handle critical, time sensitive and monetary data, logging becomes a critical part of the application.</span></span> <span data-ttu-id="3bbdd-105">系統管理員需要能夠執行下列作業：</span><span class="sxs-lookup"><span data-stu-id="3bbdd-105">System administrators need to be able to do the following:</span></span>  

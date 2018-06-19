@@ -14,7 +14,7 @@ helpviewer_keywords:
 - affiliate applications, creating
 - SSO tickets
 ms.assetid: 800644fd-2286-4e59-894b-260f584dd29f
-caps.latest.revision: ''
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "24015149"
 ---
 # <a name="creating-affiliate-applications"></a><span data-ttu-id="2cb79-102">建立分支機構應用程式</span><span class="sxs-lookup"><span data-stu-id="2cb79-102">Creating Affiliate Applications</span></span>
 <span data-ttu-id="2cb79-103">下列步驟說明如何開始使用採用單一登入 (SSO) 的分支機構應用程式。</span><span class="sxs-lookup"><span data-stu-id="2cb79-103">The following steps describe how to get started with affiliate applications using Single Sign-On (SSO).</span></span>  

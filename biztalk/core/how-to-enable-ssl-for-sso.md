@@ -1,18 +1,18 @@
 ---
-title: "如何為 SSO 啟用 SSL |Microsoft 文件"
-ms.custom: 
+title: 如何為 SSO 啟用 SSL |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SSO, SSL
 - managing [SSO], enabling SSL
 - SSL
 ms.assetid: 0d75962a-a0b0-4e69-8001-54e7df617006
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,13 +21,14 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969908"
 ---
 # <a name="how-to-enable-ssl-for-sso"></a><span data-ttu-id="e6318-102">如何為 SSO 啟用 SSL</span><span class="sxs-lookup"><span data-stu-id="e6318-102">How to Enable SSL for SSO</span></span>
 <span data-ttu-id="e6318-103">使用此命令以啟用所有「企業單一登入」(SSO) 伺服器與 SSO 資料庫之間的「安全通訊端層」(SSL)。</span><span class="sxs-lookup"><span data-stu-id="e6318-103">Use this command to enable Secure Sockets Layer (SSL) between all the Enterprise Single Sign-On (SSO) servers and the SSO database.</span></span>  
   
 ### <a name="to-enable-ssl-for-enterprise-single-sign-on"></a><span data-ttu-id="e6318-104">若要啟用企業單一登入的 SSL</span><span class="sxs-lookup"><span data-stu-id="e6318-104">To enable SSL for Enterprise Single Sign-On</span></span>  
   
-1.  <span data-ttu-id="e6318-105">依序按一下 **[開始]**及 **[執行]**，然後輸入 **cmd**。</span><span class="sxs-lookup"><span data-stu-id="e6318-105">Click **Start**, click **Run**, and then type **cmd**.</span></span>  
+1.  <span data-ttu-id="e6318-105">依序按一下 **[開始]** 及 **[執行]**，然後輸入 **cmd**。</span><span class="sxs-lookup"><span data-stu-id="e6318-105">Click **Start**, click **Run**, and then type **cmd**.</span></span>  
   
 2.  <span data-ttu-id="e6318-106">在命令列，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="e6318-106">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="e6318-107">預設安裝目錄是**\<磁碟機\>**: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="e6318-107">The default installation directory is **\<drive\>**:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   

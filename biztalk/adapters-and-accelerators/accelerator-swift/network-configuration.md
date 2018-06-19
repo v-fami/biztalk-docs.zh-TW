@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214422"
 ---
 # <a name="network-configuration"></a><span data-ttu-id="52ee6-102">網路組態</span><span class="sxs-lookup"><span data-stu-id="52ee6-102">Network Configuration</span></span>
 <span data-ttu-id="52ee6-103">本章節提供您的部署中設定網路的指引。</span><span class="sxs-lookup"><span data-stu-id="52ee6-103">This section provides prescriptive guidance for configuring the network in your deployment.</span></span> <span data-ttu-id="52ee6-104">如需詳細資訊，請參閱[準備部署](../../adapters-and-accelerators/accelerator-swift/preparing-for-deployment.md)。</span><span class="sxs-lookup"><span data-stu-id="52ee6-104">For more information, see [Preparing for Deployment](../../adapters-and-accelerators/accelerator-swift/preparing-for-deployment.md).</span></span>  

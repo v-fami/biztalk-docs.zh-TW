@@ -1,14 +1,14 @@
 ---
-title: "步驟 2： 將要求訊息傳送至 SQL Server，並接收回應 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 將要求訊息傳送至 SQL Server，並接收回應 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 864d2174-d54b-4383-92bf-f6808a2a904b
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,13 +17,14 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224798"
 ---
 # <a name="step-2-send-the-request-message-to-sql-server-and-receive-response"></a><span data-ttu-id="31f8e-102">步驟 2： 將要求訊息傳送至 SQL Server，並接收回應</span><span class="sxs-lookup"><span data-stu-id="31f8e-102">Step 2: Send the Request Message to SQL Server and Receive Response</span></span>
 <span data-ttu-id="31f8e-103">![步驟 2 之 2](../../adapters-and-accelerators/adapter-sql/media/step-2of2.gif "Step_2of2")</span><span class="sxs-lookup"><span data-stu-id="31f8e-103">![Step 2 of 2](../../adapters-and-accelerators/adapter-sql/media/step-2of2.gif "Step_2of2")</span></span>  
   
  <span data-ttu-id="31f8e-104">**若要完成的時間：** 10 分鐘</span><span class="sxs-lookup"><span data-stu-id="31f8e-104">**Time to complete:** 10 minutes</span></span>  
   
- <span data-ttu-id="31f8e-105">**目標：**在此步驟中，您可以傳送要執行的要求訊息**UPDATE_EMPLOYEE**預存程序，並接收回應。</span><span class="sxs-lookup"><span data-stu-id="31f8e-105">**Objective:** In this step, you send the request message to execute the **UPDATE_EMPLOYEE** stored procedure and receive the response.</span></span>  
+ <span data-ttu-id="31f8e-105">**目標：** 在此步驟中，您可以傳送要執行的要求訊息**UPDATE_EMPLOYEE**預存程序，並接收回應。</span><span class="sxs-lookup"><span data-stu-id="31f8e-105">**Objective:** In this step, you send the request message to execute the **UPDATE_EMPLOYEE** stored procedure and receive the response.</span></span>  
   
 ## <a name="prerequisites"></a><span data-ttu-id="31f8e-106">必要條件</span><span class="sxs-lookup"><span data-stu-id="31f8e-106">Prerequisites</span></span>  
  <span data-ttu-id="31f8e-107">您必須先完成[步驟 1： 建立要求訊息的 UPDATE_EMPLOYEE 預存程序](../../adapters-and-accelerators/adapter-sql/step-1-create-the-request-message-for-update-employee-stored-procedure.md)。</span><span class="sxs-lookup"><span data-stu-id="31f8e-107">You must have completed [Step 1: Create the Request Message for UPDATE_EMPLOYEE Stored Procedure](../../adapters-and-accelerators/adapter-sql/step-1-create-the-request-message-for-update-employee-stored-procedure.md).</span></span>  
@@ -37,7 +38,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  <span data-ttu-id="31f8e-112">設計介面上，以滑鼠右鍵按一下**constructmessage_1**圖形，，然後按一下**屬性 視窗**。</span><span class="sxs-lookup"><span data-stu-id="31f8e-112">On the design surface, right-click the **ConstructMessage_1** shape, and then click **Properties Window**.</span></span>  
   
-3.  <span data-ttu-id="31f8e-113">在**屬性**窗格**[constructmessage_1]**圖形中，指定下列值。</span><span class="sxs-lookup"><span data-stu-id="31f8e-113">In the **Properties** pane for the **ConstructMessage_1** shape, specify the following values.</span></span>  
+3.  <span data-ttu-id="31f8e-113">在**屬性**窗格 **[constructmessage_1]** 圖形中，指定下列值。</span><span class="sxs-lookup"><span data-stu-id="31f8e-113">In the **Properties** pane for the **ConstructMessage_1** shape, specify the following values.</span></span>  
   
     |<span data-ttu-id="31f8e-114">將此屬性設定</span><span class="sxs-lookup"><span data-stu-id="31f8e-114">Set this property</span></span>|<span data-ttu-id="31f8e-115">此值</span><span class="sxs-lookup"><span data-stu-id="31f8e-115">To this value</span></span>|  
     |-----------------------|-------------------|  

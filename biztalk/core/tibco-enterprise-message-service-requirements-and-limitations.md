@@ -1,14 +1,14 @@
 ---
-title: "TIBCO Enterprise Message Service 的需求和限制 |Microsoft 文件"
-ms.custom: 
+title: TIBCO Enterprise Message Service 的需求和限制 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6e4c022c-e6a8-4ac5-b998-b0465002a31e
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013669"
 ---
 # <a name="tibco-enterprise-message-service-requirements-and-limitations"></a><span data-ttu-id="1cd28-102">TIBCO Enterprise Message Service 的需求和限制</span><span class="sxs-lookup"><span data-stu-id="1cd28-102">TIBCO Enterprise Message Service Requirements and Limitations</span></span>
 

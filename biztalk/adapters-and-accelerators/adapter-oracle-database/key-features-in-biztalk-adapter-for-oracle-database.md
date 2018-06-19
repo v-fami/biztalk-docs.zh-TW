@@ -1,11 +1,11 @@
 ---
-title: "Oracle 資料庫的主要 BizTalk 配接器中的功能 |Microsoft 文件"
-ms.custom: 
+title: Oracle 資料庫的主要 BizTalk 配接器中的功能 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - features, operations-related
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - features, performance-related
 - features, metadata-related
 ms.assetid: 7e79714c-1472-4721-a693-5be2a9a0cd1f
-caps.latest.revision: "26"
+caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215982"
 ---
 # <a name="key-features-in-biztalk-adapter-for-oracle-database"></a><span data-ttu-id="f49c1-102">BizTalk Adapter for Oracle 資料庫中的重要功能</span><span class="sxs-lookup"><span data-stu-id="f49c1-102">Key Features in BizTalk Adapter for Oracle Database</span></span>
 <span data-ttu-id="f49c1-103">此區段會列出中的新和已被取代功能[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="f49c1-103">This section lists the new and deprecated features in [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)].</span></span>  

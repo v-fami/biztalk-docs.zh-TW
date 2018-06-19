@@ -9,7 +9,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2d617a97-c165-46bb-b5a7-b66f0c1ff9f2
-caps.latest.revision: ''
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "24014485"
 ---
 # <a name="create-tibco-rendezvous-receive-artifacts"></a><span data-ttu-id="8cdf2-103">建立 TIBCO Rendezvous 接收成品</span><span class="sxs-lookup"><span data-stu-id="8cdf2-103">Create TIBCO Rendezvous Receive artifacts</span></span>
 <span data-ttu-id="8cdf2-104">建立通知或事件和在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中建立其他呼叫相似。</span><span class="sxs-lookup"><span data-stu-id="8cdf2-104">Creating notifications or events is similar to creating other calls in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="8cdf2-105">本節說明如何鍵列接收位置，以接聽 TIBCO Rendezvous 訊息。</span><span class="sxs-lookup"><span data-stu-id="8cdf2-105">This section explains how to create a receive location to listen for TIBCO Rendezvous messages.</span></span>  

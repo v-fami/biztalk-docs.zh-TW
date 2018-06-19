@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22297182"
 ---
 # <a name="the-sample-itinerary-scenarios"></a><span data-ttu-id="f4444-102">路線案例的範例</span><span class="sxs-lookup"><span data-stu-id="f4444-102">The Sample Itinerary Scenarios</span></span>
 <span data-ttu-id="f4444-103">下表列出路線上手範例包含所有預先定義的行程檔案。</span><span class="sxs-lookup"><span data-stu-id="f4444-103">The following table lists all the predefined Itinerary files included with the Itinerary On-Ramp sample.</span></span> <span data-ttu-id="f4444-104">這些位於 \Source\Samples\Itinerary\Itineraries 資料夾中。</span><span class="sxs-lookup"><span data-stu-id="f4444-104">These are located in the \Source\Samples\Itinerary\Itineraries folder.</span></span>  

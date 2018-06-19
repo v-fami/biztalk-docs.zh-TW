@@ -1,18 +1,18 @@
 ---
-title: "如何設定 Windows SharePoint Services 傳送處理常式 |Microsoft 文件"
-ms.custom: 
+title: 如何設定 Windows SharePoint Services 傳送處理常式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring [Windows SharePoint Services adapters], send handlers
 - send handlers, Windows SharePoint Services adapters
 - Windows SharePoint Services adapters, send handlers
 ms.assetid: 457767d9-6e39-4553-9bbe-212fcb7c04bc
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969132"
 ---
 # <a name="how-to-configure-a-windows-sharepoint-services-send-handler"></a><span data-ttu-id="962cf-102">如何設定 Windows SharePoint Services 傳送處理常式</span><span class="sxs-lookup"><span data-stu-id="962cf-102">How to Configure a Windows SharePoint Services Send Handler</span></span>
 <span data-ttu-id="962cf-103">使用下列程序，變更與 Windows SharePoint Services 傳送處理常式關聯的主控件。</span><span class="sxs-lookup"><span data-stu-id="962cf-103">Use the following procedure to change the host with which the Windows SharePoint Services send handler is associated.</span></span>  
@@ -42,7 +43,7 @@ ms.lasthandoff: 11/28/2017
   
     |<span data-ttu-id="962cf-112">使用</span><span class="sxs-lookup"><span data-stu-id="962cf-112">Use this</span></span>|<span data-ttu-id="962cf-113">動作</span><span class="sxs-lookup"><span data-stu-id="962cf-113">To do this</span></span>|  
     |--------------|----------------|  
-    |<span data-ttu-id="962cf-114">傳送批次大小</span><span class="sxs-lookup"><span data-stu-id="962cf-114">Send Batch Size</span></span>|<span data-ttu-id="962cf-115">Windows SharePoint Services Web 服務視為一個批次進行處理的文件數目上限。</span><span class="sxs-lookup"><span data-stu-id="962cf-115">The maximum number of documents that the Windows SharePoint Services Web service will process as a batch.</span></span> <span data-ttu-id="962cf-116">預設值是 20。</span><span class="sxs-lookup"><span data-stu-id="962cf-116">The default is 20.</span></span> <span data-ttu-id="962cf-117">**注意：**的最小值為 1。</span><span class="sxs-lookup"><span data-stu-id="962cf-117">**Note:**  The minimum value is 1.</span></span>|  
+    |<span data-ttu-id="962cf-114">傳送批次大小</span><span class="sxs-lookup"><span data-stu-id="962cf-114">Send Batch Size</span></span>|<span data-ttu-id="962cf-115">Windows SharePoint Services Web 服務視為一個批次進行處理的文件數目上限。</span><span class="sxs-lookup"><span data-stu-id="962cf-115">The maximum number of documents that the Windows SharePoint Services Web service will process as a batch.</span></span> <span data-ttu-id="962cf-116">預設值是 20。</span><span class="sxs-lookup"><span data-stu-id="962cf-116">The default is 20.</span></span> <span data-ttu-id="962cf-117">**注意：** 的最小值為 1。</span><span class="sxs-lookup"><span data-stu-id="962cf-117">**Note:**  The minimum value is 1.</span></span>|  
   
 ## <a name="see-also"></a><span data-ttu-id="962cf-118">請參閱</span><span class="sxs-lookup"><span data-stu-id="962cf-118">See Also</span></span>  
  <span data-ttu-id="962cf-119">[如何設定 Windows SharePoint Services 接收位置](../core/how-to-configure-a-windows-sharepoint-services-receive-location.md) </span><span class="sxs-lookup"><span data-stu-id="962cf-119">[How to Configure a Windows SharePoint Services Receive Location](../core/how-to-configure-a-windows-sharepoint-services-receive-location.md) </span></span>  

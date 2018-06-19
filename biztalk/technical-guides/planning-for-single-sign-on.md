@@ -1,14 +1,14 @@
 ---
-title: "單一登入規劃 |Microsoft 文件"
-ms.custom: 
+title: 單一登入規劃 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7d1bc220-4087-4603-ac15-6bb0c62c59d4
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302406"
 ---
 # <a name="planning-for-single-sign-on"></a><span data-ttu-id="4d48f-102">規劃 單一登入</span><span class="sxs-lookup"><span data-stu-id="4d48f-102">Planning for Single Sign-On</span></span>
 <span data-ttu-id="4d48f-103">企業單一登入 (SSO) 時的重要元件[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境。</span><span class="sxs-lookup"><span data-stu-id="4d48f-103">Enterprise Single Sign-On (SSO) is a critical component of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment.</span></span> <span data-ttu-id="4d48f-104">[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]執行的階段無法運作，而 SSO 服務，因為所有[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]配接器組態資訊會加密並儲存在 SSO 資料庫和[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]存取這項資訊透過 SSO 服務。</span><span class="sxs-lookup"><span data-stu-id="4d48f-104">The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] run time cannot function without the SSO service because all [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adapter configuration information is encrypted and stored in the SSO database and [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] accesses this information via the SSO service.</span></span> <span data-ttu-id="4d48f-105">如果 SSO 服務不會執行 BizTalk server 上，或如果 SSO 服務並沒有 SSO 主要密碼伺服器的存取，不能存取此配接器組態資訊。</span><span class="sxs-lookup"><span data-stu-id="4d48f-105">This adapter configuration information is not accessible if the SSO service is not running on the BizTalk server or if the SSO service does not have access to the SSO master secret server.</span></span>  

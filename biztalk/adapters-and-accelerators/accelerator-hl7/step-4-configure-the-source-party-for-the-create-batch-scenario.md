@@ -1,14 +1,14 @@
 ---
-title: "步驟 4： 設定建立批次案例的來源合作對象 |Microsoft 文件"
-ms.custom: 
+title: 步驟 4： 設定建立批次案例的來源合作對象 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b06b6545-4c2e-4a56-9feb-bd3f9574d4d1
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206398"
 ---
 # <a name="step-4-configure-the-source-party-for-the-create-batch-scenario"></a><span data-ttu-id="ebfbf-102">步驟 4： 設定建立批次案例的來源合作對象</span><span class="sxs-lookup"><span data-stu-id="ebfbf-102">Step 4: Configure the Source Party for the Create-Batch Scenario</span></span>
 <span data-ttu-id="ebfbf-103">在此步驟中，您可以設定建立批次案例的來源合作對象。</span><span class="sxs-lookup"><span data-stu-id="ebfbf-103">In this step, you configure the source party for the Create-Batch scenario.</span></span> <span data-ttu-id="ebfbf-104">您也選取通知，BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 將批次，針對此合作對象所定義。</span><span class="sxs-lookup"><span data-stu-id="ebfbf-104">You also select the acknowledgments that BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) will batch, as defined for this party.</span></span> <span data-ttu-id="ebfbf-105">您可以設定通知批次的排程，[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]會建立批次之後的訊息計數達到 2。</span><span class="sxs-lookup"><span data-stu-id="ebfbf-105">You set the scheduling for the acknowledgment batch such that [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] will create the batch after the message count reaches 2.</span></span>  

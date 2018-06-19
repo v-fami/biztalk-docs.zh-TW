@@ -1,17 +1,17 @@
 ---
-title: "批次相關升級屬性 |Microsoft 文件"
-ms.custom: 
+title: 批次相關升級屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - promoted properties, batch related properties
 - batching, promoted properties
 ms.assetid: 00df1d8f-2f3f-4e3f-9983-37dcf3514fd8
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210542"
 ---
 # <a name="batch-related-promoted-properties"></a><span data-ttu-id="cb6ed-102">批次相關升級的屬性</span><span class="sxs-lookup"><span data-stu-id="cb6ed-102">Batch-Related Promoted Properties</span></span>
 <span data-ttu-id="cb6ed-103">當 SWIFT 解譯器會來自傳入的批次至 MessageBox 資料庫的訊息發佈時，解譯器會將訊息標示與特殊[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]升級特定批次訊息的屬性。</span><span class="sxs-lookup"><span data-stu-id="cb6ed-103">When the SWIFT disassembler publishes a message that originated from an inbound batch to the MessageBox database, the disassembler marks the message with special [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] promoted properties that are specific to batch messages.</span></span> <span data-ttu-id="cb6ed-104">這些屬性會提供內容資訊，例如訊息起源哪些序數位置從哪一個批次是中的批次部分 A4SWIFT 已保留，依此類推。</span><span class="sxs-lookup"><span data-stu-id="cb6ed-104">These properties provide context information, such as which batch a message originated from, what ordinal position it was in within the batch, which parts A4SWIFT has preserved, and so forth.</span></span>  
@@ -36,7 +37,7 @@ ms.lasthandoff: 09/20/2017
   
 -   <span data-ttu-id="cb6ed-110">**A4SWIFT_PosInBatch**</span><span class="sxs-lookup"><span data-stu-id="cb6ed-110">**A4SWIFT_PosInBatch**</span></span>  
   
- <span data-ttu-id="cb6ed-111">如需這些和其他升級的屬性的資訊，請參閱[A4SWIFT_ * 升級屬性](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md)。</span><span class="sxs-lookup"><span data-stu-id="cb6ed-111">For information about these and other promoted properties, see [A4SWIFT_* Promoted Properties](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md).</span></span>  
+ <span data-ttu-id="cb6ed-111">如需這些和其他升級的屬性的資訊，請參閱[A4SWIFT_ \* 升級屬性](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md)。</span><span class="sxs-lookup"><span data-stu-id="cb6ed-111">For information about these and other promoted properties, see [A4SWIFT_\* Promoted Properties](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md).</span></span>  
   
 ## <a name="failures-during-batch-processing"></a><span data-ttu-id="cb6ed-112">批次處理作業期間發生的失敗</span><span class="sxs-lookup"><span data-stu-id="cb6ed-112">Failures During Batch Processing</span></span>  
  <span data-ttu-id="cb6ed-113">當 SWIFT 解譯器在批次處理期間所遇到 （剖析或驗證） 的訊息失敗 (**輸入解除批次處理即將**設**True**)，其行為取決於批次組態，為如下所示：</span><span class="sxs-lookup"><span data-stu-id="cb6ed-113">When the SWIFT disassembler encounters message failures (parsing or validation) during batch processing (**Inbound Debatching** set to **True**), its behavior depends upon the batching configuration, as follows:</span></span>  

@@ -1,17 +1,17 @@
 ---
-title: "管理主控台鍵盤快速鍵 |Microsoft 文件"
-ms.custom: 
+title: 管理主控台鍵盤快速鍵 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Administration Console [BizTalk Server], keyboard shortcuts
 - keyboard shortcuts, Administration Console [BizTalk Server]
 ms.assetid: b443b9be-975c-47c7-a7b6-08aee45c29a2
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230286"
 ---
 # <a name="administration-console-keyboard-shortcuts"></a><span data-ttu-id="599c8-102">管理主控台鍵盤快速鍵</span><span class="sxs-lookup"><span data-stu-id="599c8-102">Administration Console Keyboard Shortcuts</span></span>
 <span data-ttu-id="599c8-103">您可以透過使用下列鍵盤快速鍵，在 [BizTalk 管理] 主控台中快速完成多項一般工作。</span><span class="sxs-lookup"><span data-stu-id="599c8-103">By using the following keyboard shortcuts you can quickly accomplish many common tasks in the BizTalk Administration console.</span></span>  

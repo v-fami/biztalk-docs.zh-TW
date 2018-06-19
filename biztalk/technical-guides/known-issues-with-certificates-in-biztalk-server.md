@@ -1,14 +1,14 @@
 ---
-title: "在 BizTalk Server 中憑證的已知問題 |Microsoft 文件"
-ms.custom: 
+title: 在 BizTalk Server 中憑證的已知問題 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ab58264b-2475-4831-9f08-bfbaa293022f
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22297574"
 ---
 # <a name="known-issues-with-certificates-in-biztalk-server"></a><span data-ttu-id="5836f-102">在 BizTalk Server 中憑證的已知的問題</span><span class="sxs-lookup"><span data-stu-id="5836f-102">Known Issues with Certificates in BizTalk Server</span></span>
 <span data-ttu-id="5836f-103">本章節描述管理搭配使用的數位簽章的已知的問題[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="5836f-103">This section describes known issues with managing digital certificates used with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  

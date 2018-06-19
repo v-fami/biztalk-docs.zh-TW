@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217758"
 ---
 # <a name="about-the-data-provider-for-siebel"></a><span data-ttu-id="fbb51-102">有關 Siebel 的資料提供者</span><span class="sxs-lookup"><span data-stu-id="fbb51-102">About the Data Provider for Siebel</span></span>
 ## <a name="overview"></a><span data-ttu-id="fbb51-103">概觀</span><span class="sxs-lookup"><span data-stu-id="fbb51-103">Overview</span></span>

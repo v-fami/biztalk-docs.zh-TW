@@ -1,14 +1,14 @@
 ---
-title: "最佳化網路效能 |Microsoft 文件"
-ms.custom: 
+title: 最佳化網路效能 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b6c3985a-48b3-489b-8fe3-3b7bfd0515f9
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299046"
 ---
 # <a name="optimizing-network-performance"></a><span data-ttu-id="594a4-102">網路效能最佳化</span><span class="sxs-lookup"><span data-stu-id="594a4-102">Optimizing Network Performance</span></span>
 <span data-ttu-id="594a4-103">在 BizTalk Server 環境中 BizTalk Server 電腦所在的 SQL Server 電腦不同，BizTalk Server 處理的每個訊息不需要透過網路通訊。</span><span class="sxs-lookup"><span data-stu-id="594a4-103">In a BizTalk Server environment where the BizTalk Server computer is separate from the SQL Server computer, each and every message processed by BizTalk Server requires communication over the network.</span></span> <span data-ttu-id="594a4-104">此通訊包括相當大的 BizTalk Server 電腦和 BizTalk MessageBox 資料庫、 BizTalk 管理資料庫、 BAM 資料庫中，與其他資料庫之間的流量。</span><span class="sxs-lookup"><span data-stu-id="594a4-104">This communication includes considerable traffic between the BizTalk Server computer and the BizTalk MessageBox database, the BizTalk Management database, the BAM databases, and other databases.</span></span> <span data-ttu-id="594a4-105">在高負載情況下，這類通訊會造成相當大的網路流量而成為瓶頸，特別是當未最佳化的網路設定、 安裝沒有足夠的網路介面卡，或沒有足夠的網路頻寬可以使用。</span><span class="sxs-lookup"><span data-stu-id="594a4-105">In high-load scenarios, this communication can result in considerable network traffic and can become a bottleneck, especially when network settings have not been optimized, not enough network interface cards are installed, or insufficient network bandwidth is available.</span></span>  

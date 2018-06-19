@@ -1,11 +1,11 @@
 ---
-title: "驗證訊息 |Microsoft 文件"
-ms.custom: 
+title: 驗證訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - validating, acknowledgements
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - acknowledgements, messages
 - messages, validating
 ms.assetid: 7dba0f40-5e19-4598-82cb-22c71e9536c6
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206886"
 ---
 # <a name="validating-messages"></a><span data-ttu-id="372ce-102">驗證訊息</span><span class="sxs-lookup"><span data-stu-id="372ce-102">Validating Messages</span></span>
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="372ce-103">BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 支援的內送訊息傳送通知 (ACK)，從應用程式或交易夥伴的 HL7 XML 接收，這可能需要轉換成 HL7 形式編碼通知訊息。</span><span class="sxs-lookup"><span data-stu-id="372ce-103"> BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) supports sending acknowledgments (ACK) for inbound messages from an application or trading partner in the form of an HL7 XML receipt that might need conversion to an HL7 encoded ACK message.</span></span> [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]<span data-ttu-id="372ce-104">它會檢查傳入的訊息和相關輸入 （交易夥伴格式） 文件規格之後，通常會產生在回條。</span><span class="sxs-lookup"><span data-stu-id="372ce-104"> typically generates a receipt after it checks the inbound message against the relevant inbound (trading-partner format) document specification.</span></span> <span data-ttu-id="372ce-105">當所有區段都通過驗證，[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]傳回回條，表示接受應用程式。</span><span class="sxs-lookup"><span data-stu-id="372ce-105">When all the segments pass validation, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] returns a receipt that indicates acceptance to the application.</span></span> <span data-ttu-id="372ce-106">否則，[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]產生指出錯誤或失敗/拒絕的回條。</span><span class="sxs-lookup"><span data-stu-id="372ce-106">Otherwise, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] generates a receipt indicating error or failure/reject.</span></span>  

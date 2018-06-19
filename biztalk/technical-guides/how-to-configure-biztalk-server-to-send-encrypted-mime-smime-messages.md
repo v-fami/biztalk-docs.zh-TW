@@ -1,14 +1,14 @@
 ---
-title: "如何設定 BizTalk Server 來傳送加密的 MIME/SMIME 訊息 |Microsoft 文件"
-ms.custom: 
+title: 如何設定 BizTalk Server 來傳送加密的 MIME/SMIME 訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 14f67152-5f80-4040-a9d6-0819fab7fcb5
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22297606"
 ---
 # <a name="how-to-configure-biztalk-server-to-send-encrypted-mimesmime-messages"></a><span data-ttu-id="681fe-102">如何設定 BizTalk Server 傳送加密的 MIME/SMIME 訊息</span><span class="sxs-lookup"><span data-stu-id="681fe-102">How to Configure BizTalk Server to Send Encrypted MIME/SMIME Messages</span></span>
 <span data-ttu-id="681fe-103">本主題描述如何設定 BizTalk Server 以使用憑證來傳送加密的 MIME/SMIME 訊息。</span><span class="sxs-lookup"><span data-stu-id="681fe-103">This topic describes how to configure BizTalk Server to use certificates to send encrypted MIME/SMIME messages.</span></span> <span data-ttu-id="681fe-104">下列程序也適用於設定透過 AS2 傳輸已加密的訊息傳送。</span><span class="sxs-lookup"><span data-stu-id="681fe-104">The procedure below also applies to configuring the sending of encrypted messages over AS2 transport.</span></span>  

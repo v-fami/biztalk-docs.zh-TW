@@ -1,14 +1,14 @@
 ---
-title: "監控 BizTalk Server 資料庫 |Microsoft 文件"
-ms.custom: 
+title: 監控 BizTalk Server 資料庫 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7fee5015-e818-459b-aeeb-a084ef355600
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298166"
 ---
 # <a name="monitoring-biztalk-server-databases"></a><span data-ttu-id="742bd-102">監控 BizTalk Server 資料庫</span><span class="sxs-lookup"><span data-stu-id="742bd-102">Monitoring BizTalk Server Databases</span></span>
 <span data-ttu-id="742bd-103">您可以執行監視 BizTalk Server SQL 代理程式作業，以識別任何已知的問題，管理、 訊息方塊或 DTA 資料庫中。</span><span class="sxs-lookup"><span data-stu-id="742bd-103">You can run the Monitor BizTalk Server SQL Agent job to identify any known issues in Management, Message Box, or DTA databases.</span></span> <span data-ttu-id="742bd-104">當您在 BizTalk Server 管理主控台中設定 BizTalk 群組或從舊版本升級 BizTalk 時，就會建立此工作。</span><span class="sxs-lookup"><span data-stu-id="742bd-104">The job is created when you configure a BizTalk group in BizTalk Server Administration console or upgrade BizTalk from the previous version.</span></span>  

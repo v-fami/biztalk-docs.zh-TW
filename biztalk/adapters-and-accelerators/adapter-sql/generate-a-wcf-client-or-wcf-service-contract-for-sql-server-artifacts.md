@@ -1,14 +1,14 @@
 ---
-title: "SQL Server 成品產生 WCF 用戶端或 WCF 服務合約 |Microsoft 文件"
-ms.custom: 
+title: SQL Server 成品產生 WCF 用戶端或 WCF 服務合約 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5fa7d8c0-8ee4-41e7-9394-d22e87e09391
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225254"
 ---
 # <a name="generate-a-wcf-client-or-wcf-service-contract-for-sql-server-artifacts"></a><span data-ttu-id="13ef9-102">SQL Server 成品產生 WCF 用戶端或 WCF 服務合約</span><span class="sxs-lookup"><span data-stu-id="13ef9-102">Generate a WCF Client or WCF Service Contract for SQL Server Artifacts</span></span>
 <span data-ttu-id="13ef9-103">您可以使用[!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]產生 WCF 用戶端類別針對選取的作業，於 SQL Server 成品上指明。</span><span class="sxs-lookup"><span data-stu-id="13ef9-103">You can use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] to generate a WCF client class targeted at selected operations on SQL Server artifacts.</span></span> <span data-ttu-id="13ef9-104">您也可以使用 ServiceModel Metadata Utility Tool (svcutil.exe) 來產生 WCF 用戶端類別。不過，[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]公開 ServiceModel Metadata Utility Tool，透過標準的 Microsoft Windows 介面的功能。</span><span class="sxs-lookup"><span data-stu-id="13ef9-104">You can also use the ServiceModel Metadata Utility Tool (svcutil.exe) to generate the WCF client class; however, the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] exposes the functionality of the ServiceModel Metadata Utility Tool through a standard Microsoft Windows interface.</span></span> <span data-ttu-id="13ef9-105">它也提供不是使用 svcutil.exe 工具，可用的瀏覽和搜尋功能，並產生根據您連接到 SQL Server 資料庫時，您選取的繫結屬性的組態檔。</span><span class="sxs-lookup"><span data-stu-id="13ef9-105">It also provides browse and search capabilities that are not available with the svcutil.exe tool, and generates a configuration file based on the binding properties that you select when you connect to the SQL Server database.</span></span>  
@@ -26,7 +27,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  <span data-ttu-id="13ef9-108">在[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]方案總管 中，以滑鼠右鍵按一下您的專案，然後**新增配接器服務參考**。</span><span class="sxs-lookup"><span data-stu-id="13ef9-108">In [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] Solution Explorer, right-click your project, and then click **Add Adapter Service Reference**.</span></span>  
   
-2.  <span data-ttu-id="13ef9-109">之後**新增配接器服務參考**對話方塊隨即開啟，請依照下列中的步驟[取得中繼資料使用 SQL 配接器的 Visual Studio 中的 SQL Server 作業](../../adapters-and-accelerators/adapter-sql/get-metadata-for-sql-server-operations-in-visual-studio-using-the-sql-adapter.md)連線到 SQL Server，並瀏覽和搜尋作業。</span><span class="sxs-lookup"><span data-stu-id="13ef9-109">After the **Add Adapter Service Reference** dialog box opens, follow the steps in [Get metadata for SQL Server operations in Visual Studio using the SQL adapter](../../adapters-and-accelerators/adapter-sql/get-metadata-for-sql-server-operations-in-visual-studio-using-the-sql-adapter.md) to connect to SQL Server and to browse and search for operations.</span></span> <span data-ttu-id="13ef9-110">若要建立的作業，您選取的 WCF 用戶端類別，務必**用戶端 （輸出作業）**選取從**選取合約型別**下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="13ef9-110">To create a WCF client class for the operations that you select, be sure that **Client (Outbound operations)** is selected from the **Select contract type** drop-down list.</span></span> <span data-ttu-id="13ef9-111">（這是預設值）。</span><span class="sxs-lookup"><span data-stu-id="13ef9-111">(This is the default).</span></span>  
+2.  <span data-ttu-id="13ef9-109">之後**新增配接器服務參考**對話方塊隨即開啟，請依照下列中的步驟[取得中繼資料使用 SQL 配接器的 Visual Studio 中的 SQL Server 作業](../../adapters-and-accelerators/adapter-sql/get-metadata-for-sql-server-operations-in-visual-studio-using-the-sql-adapter.md)連線到 SQL Server，並瀏覽和搜尋作業。</span><span class="sxs-lookup"><span data-stu-id="13ef9-109">After the **Add Adapter Service Reference** dialog box opens, follow the steps in [Get metadata for SQL Server operations in Visual Studio using the SQL adapter](../../adapters-and-accelerators/adapter-sql/get-metadata-for-sql-server-operations-in-visual-studio-using-the-sql-adapter.md) to connect to SQL Server and to browse and search for operations.</span></span> <span data-ttu-id="13ef9-110">若要建立的作業，您選取的 WCF 用戶端類別，務必**用戶端 （輸出作業）** 選取從**選取合約型別**下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="13ef9-110">To create a WCF client class for the operations that you select, be sure that **Client (Outbound operations)** is selected from the **Select contract type** drop-down list.</span></span> <span data-ttu-id="13ef9-111">（這是預設值）。</span><span class="sxs-lookup"><span data-stu-id="13ef9-111">(This is the default).</span></span>  
   
 3.  <span data-ttu-id="13ef9-112">在您選取的所有作業，您要為目標，請按一下之後**確定**產生 WCF 用戶端類別。</span><span class="sxs-lookup"><span data-stu-id="13ef9-112">After you select all of the operations that you want to target, click **OK** to generate the WCF client class.</span></span>  
   
@@ -53,7 +54,7 @@ ms.lasthandoff: 09/20/2017
     > [!IMPORTANT]
     >  <span data-ttu-id="13ef9-135">如果您要產生 WCF 服務合約**TypedPolling**輸入的作業，您必須指定**InboundID**連線 URI 的一部分和**PollingStatement**繫結屬性。</span><span class="sxs-lookup"><span data-stu-id="13ef9-135">If you are generating WCF service contract for **TypedPolling** inbound operation, you must specify the **InboundID** as part of the connection URI and **PollingStatement** binding property.</span></span>  
   
-3.  <span data-ttu-id="13ef9-136">您已經連接到 SQL Server 資料庫之後，請選取**服務 （輸入操作）**從**選取合約型別**下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="13ef9-136">After you have connected to the SQL Server database, select **Service (Inbound operations)** from the **Select contract type** drop-down list.</span></span>  
+3.  <span data-ttu-id="13ef9-136">您已經連接到 SQL Server 資料庫之後，請選取**服務 （輸入操作）** 從**選取合約型別**下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="13ef9-136">After you have connected to the SQL Server database, select **Service (Inbound operations)** from the **Select contract type** drop-down list.</span></span>  
   
 4.  <span data-ttu-id="13ef9-137">在**選取類別目錄**方塊中，按一下根節點 (**/**)，選取的輸入的作業**可用的類別和作業** 方塊中，然後按一下**新增**。</span><span class="sxs-lookup"><span data-stu-id="13ef9-137">In the **Select a category** box, click the root node (**/**), select the inbound operation from the **Available categories and operations** box, and then click **Add**.</span></span>  
   

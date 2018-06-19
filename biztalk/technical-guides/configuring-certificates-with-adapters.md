@@ -1,14 +1,14 @@
 ---
-title: "設定憑證與配接器 |Microsoft 文件"
-ms.custom: 
+title: 設定憑證與配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9d1e09ab-4d96-4d02-a895-bae600dcfa1d
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22300086"
 ---
 # <a name="configuring-certificates-with-adapters"></a><span data-ttu-id="a924f-102">設定與介面卡的憑證</span><span class="sxs-lookup"><span data-stu-id="a924f-102">Configuring Certificates with Adapters</span></span>
 <span data-ttu-id="a924f-103">下列各節說明如何設定憑證以[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]配接器。</span><span class="sxs-lookup"><span data-stu-id="a924f-103">The following sections describe how to configure certificates for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adapters.</span></span>  

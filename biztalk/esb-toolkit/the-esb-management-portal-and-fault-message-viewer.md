@@ -1,14 +1,14 @@
 ---
-title: "ESB 管理入口網站及錯誤訊息檢視器 |Microsoft 文件"
-ms.custom: 
+title: ESB 管理入口網站及錯誤訊息檢視器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c4a1636c-2e45-4ee5-92c2-81c976582da3
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295206"
 ---
 # <a name="the-esb-management-portal-and-fault-message-viewer"></a><span data-ttu-id="ba2c0-102">ESB 管理入口網站及錯誤訊息檢視器</span><span class="sxs-lookup"><span data-stu-id="ba2c0-102">The ESB Management Portal and Fault Message Viewer</span></span>
 <span data-ttu-id="ba2c0-103">主要元件[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]是網頁型入口網站提供的各種不同的例外狀況管理和警示通知功能; 此外，它會充當有用的組態管理 」 和 「 通用描述、 探索與整合 （UDDI) 登錄介面。</span><span class="sxs-lookup"><span data-stu-id="ba2c0-103">A major component of the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] is a Web-based portal that provides a wide range of exception management and alert notification features; in addition, it acts as a useful configuration management and Universal Description, Discovery, and Integration (UDDI) registration interface.</span></span> <span data-ttu-id="ba2c0-104">圖 1 顯示首頁的入口網站提供目前正在執行的應用程式的健全狀況的概觀。</span><span class="sxs-lookup"><span data-stu-id="ba2c0-104">Figure 1 shows the home page of the portal, which provides an overview of the health of the currently running applications.</span></span>  

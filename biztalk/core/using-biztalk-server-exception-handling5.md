@@ -1,15 +1,15 @@
 ---
-title: "加入例外狀況處理 TIBCO EMS |Microsoft 文件"
-description: "您在 BizTalk Server 使用 TIBCO EMS 配接器的協調流程的例外狀況處理的概觀"
-ms.custom: 
+title: 加入例外狀況處理 TIBCO EMS |Microsoft 文件
+description: 您在 BizTalk Server 使用 TIBCO EMS 配接器的協調流程的例外狀況處理的概觀
+ms.custom: ''
 ms.date: 10/23/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4471f7b7-4a50-4d99-ad01-94712ce162fe
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013093"
 ---
 # <a name="use-biztalk-server-exception-handling"></a><span data-ttu-id="df1ea-103">使用 BizTalk Server 例外狀況處理</span><span class="sxs-lookup"><span data-stu-id="df1ea-103">Use BizTalk Server Exception Handling</span></span>
 

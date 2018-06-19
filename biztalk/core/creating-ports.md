@@ -1,11 +1,11 @@
 ---
-title: "建立連接埠 |Microsoft 文件"
-ms.custom: 
+title: 建立連接埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - ports, creating
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - send ports
 - send ports, creating
 ms.assetid: 4f99f884-5b84-4f9f-8cec-dd5da259ba7f
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015125"
 ---
 # <a name="creating-ports"></a><span data-ttu-id="e193c-102">建立連接埠</span><span class="sxs-lookup"><span data-stu-id="e193c-102">Creating Ports</span></span>
 <span data-ttu-id="e193c-103">請使用下列程序，為「單一登入」建立 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 傳送和接收埠。</span><span class="sxs-lookup"><span data-stu-id="e193c-103">Use the following procedures to create [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] send and receive ports for Single Sign-on.</span></span>  
@@ -48,7 +49,7 @@ ms.lasthandoff: 11/07/2017
   
     4.  <span data-ttu-id="e193c-112">從 傳送管線 下拉式清單中，選取  **Microsoft.BizTalk.DefaultPipelines.XMLTransmit**。</span><span class="sxs-lookup"><span data-stu-id="e193c-112">From the Send Pipeline drop-down list, select **Microsoft.BizTalk.DefaultPipelines.XMLTransmit**.</span></span>  
   
-    5.  <span data-ttu-id="e193c-113">從**接收管線**下拉式清單中，選取**[microsoft.biztalk.defaultpiplelines.xmlreceive]**。</span><span class="sxs-lookup"><span data-stu-id="e193c-113">From the **Receive Pipeline** drop-down list, select **Microsoft.BizTalk.DefaultPiplelines.XMLReceive**.</span></span>  
+    5.  <span data-ttu-id="e193c-113">從**接收管線**下拉式清單中，選取 **[microsoft.biztalk.defaultpiplelines.xmlreceive]**。</span><span class="sxs-lookup"><span data-stu-id="e193c-113">From the **Receive Pipeline** drop-down list, select **Microsoft.BizTalk.DefaultPiplelines.XMLReceive**.</span></span>  
   
     6.  <span data-ttu-id="e193c-114">按一下**設定**以設定傳送埠。</span><span class="sxs-lookup"><span data-stu-id="e193c-114">Click **Configure** to configure the send port.</span></span>  
   

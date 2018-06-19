@@ -1,14 +1,14 @@
 ---
-title: "使用快取路線請求-回應管線元件 |Microsoft 文件"
-ms.custom: 
+title: 使用快取路線請求-回應管線元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: add07ebf-785c-4c53-be69-efd40677a758
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294990"
 ---
 # <a name="using-a-pipeline-component-to-cache-an-itinerary-for-solicit-response"></a><span data-ttu-id="53a2b-102">使用快取路線請求-回應管線元件</span><span class="sxs-lookup"><span data-stu-id="53a2b-102">Using a Pipeline Component to Cache an Itinerary for Solicit-Response</span></span>
 <span data-ttu-id="53a2b-103">透過提交的郵件[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]路線上手可以瀏覽單向路線或雙向 （要求-回應） 路線。</span><span class="sxs-lookup"><span data-stu-id="53a2b-103">Messages submitted through a [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] itinerary on-ramp can go through either a one-way itinerary or a two-way (request-response) itinerary.</span></span> <span data-ttu-id="53a2b-104">若要支援要求-回應旅，路線機制必須提供 BizTalk 動態請求-回應傳送埠的快取。</span><span class="sxs-lookup"><span data-stu-id="53a2b-104">To support request-response itineraries, the itinerary mechanism must provide caching for BizTalk dynamic Solicit-Response send ports.</span></span>  

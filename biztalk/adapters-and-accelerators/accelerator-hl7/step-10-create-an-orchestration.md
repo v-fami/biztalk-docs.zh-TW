@@ -1,18 +1,18 @@
 ---
-title: "步驟 10： 建立協調流程 |Microsoft 文件"
-ms.custom: 
+title: 步驟 10： 建立協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, creating
 - creating, orchestrations
 - message enrichment tutorial, orchestrations
 ms.assetid: 10f5cf3d-4a34-4c80-89d1-c390552cfc09
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206566"
 ---
 # <a name="step-10-create-an-orchestration"></a><span data-ttu-id="16208-102">步驟 10： 建立協調流程</span><span class="sxs-lookup"><span data-stu-id="16208-102">Step 10: Create an Orchestration</span></span>
 <span data-ttu-id="16208-103">在此步驟中，您可以使用 協調流程設計師建立協調流程代表商務程序來擷取完整填入 ADT_A04 訊息的其他病患詳細資料。</span><span class="sxs-lookup"><span data-stu-id="16208-103">In this step, you use Orchestration Designer to create an orchestration to represent the business process for retrieving additional patient details to fully populate an ADT_A04 message.</span></span> <span data-ttu-id="16208-104">使用協調流程設計師 」，您會選取協調流程圖形來表示此商務程序的動作。</span><span class="sxs-lookup"><span data-stu-id="16208-104">Using Orchestration Designer, you select the orchestration shapes required to represent actions for this business process.</span></span> <span data-ttu-id="16208-105">在更新版本的練習中，您可以提供其他資訊以設定圖形，讓它們可以正常運作。</span><span class="sxs-lookup"><span data-stu-id="16208-105">In later exercises, you provide additional information to configure the shapes so that they can function properly.</span></span>  
@@ -50,7 +51,7 @@ ms.lasthandoff: 09/20/2017
   
 10. <span data-ttu-id="16208-118">（在右下方的螢幕） 的 [屬性] 視窗中按一下**名稱**屬性來變更名稱**轉換**圖形至**DoorbellTransform**，然後按下**輸入**。</span><span class="sxs-lookup"><span data-stu-id="16208-118">In the Properties window (on the bottom right of your screen), click the **Name** property to change the name of the **Transform** shape to **DoorbellTransform**, and then press **Enter**.</span></span>  
   
-11. <span data-ttu-id="16208-119">在**工具箱**窗格拖曳**訊息指派**圖形至 [設計] 檢視介面並將它放在正下方的區域上**[constructmessage_1]**圖形。</span><span class="sxs-lookup"><span data-stu-id="16208-119">In the **Toolbox** pane, drag the **Message Assignment** shape to the Design view surface and drop it on the area directly below the **ConstructMessage_1** shape.</span></span>  
+11. <span data-ttu-id="16208-119">在**工具箱**窗格拖曳**訊息指派**圖形至 [設計] 檢視介面並將它放在正下方的區域上 **[constructmessage_1]** 圖形。</span><span class="sxs-lookup"><span data-stu-id="16208-119">In the **Toolbox** pane, drag the **Message Assignment** shape to the Design view surface and drop it on the area directly below the **ConstructMessage_1** shape.</span></span>  
   
 12. <span data-ttu-id="16208-120">在 協調流程設計檢視介面中，按一下  **MessageAssignment_1**圖形，然後在**屬性** 窗格中，按一下 **名稱**，輸入新名稱**DoorbellFinalTransform**，然後按下**Enter**。</span><span class="sxs-lookup"><span data-stu-id="16208-120">In the orchestration Design view surface, click the **MessageAssignment_1** shape, and in the **Properties** pane, click **Name** and type the new name **DoorbellFinalTransform**, and then press **Enter**.</span></span>  
   

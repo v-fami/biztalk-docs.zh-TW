@@ -1,14 +1,14 @@
 ---
-title: "調整節流閾值： 時間和原因 |Microsoft 文件"
-ms.custom: 
+title: 調整節流閾值： 時間和原因 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9afb26c8-e5f4-4b78-9a45-a1263e3cb6ab
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22229926"
 ---
 # <a name="adjusting-throttling-thresholds-when-and-why"></a><span data-ttu-id="c0c96-102">調整節流閾值： 時間和原因</span><span class="sxs-lookup"><span data-stu-id="c0c96-102">Adjusting Throttling Thresholds: When and Why</span></span>
 <span data-ttu-id="c0c96-103">當處理節流時，一個大小無法滿足所有的需要。</span><span class="sxs-lookup"><span data-stu-id="c0c96-103">When it comes to throttling, one size does not fit all.</span></span> <span data-ttu-id="c0c96-104">有各種因素，可決定最佳的設定應該是什麼。</span><span class="sxs-lookup"><span data-stu-id="c0c96-104">There are a range of factors that will determine what the optimal settings should be.</span></span> <span data-ttu-id="c0c96-105">有一個現成的方式，就是 BizTalk Server 提供了已經過測試證明的預設值，可有效保護系統不受待處理項目的傷害。</span><span class="sxs-lookup"><span data-stu-id="c0c96-105">Out of the box, BizTalk Server provides default values that have been proven through testing to effectively protect a system from things like backlog overages.</span></span> <span data-ttu-id="c0c96-106">但在某些情況下，這個作法可能太過激烈，</span><span class="sxs-lookup"><span data-stu-id="c0c96-106">However, for some scenarios, this may be too aggressive.</span></span> <span data-ttu-id="c0c96-107">下列範例將說明這一點。</span><span class="sxs-lookup"><span data-stu-id="c0c96-107">The following examples illustrate this point.</span></span>  

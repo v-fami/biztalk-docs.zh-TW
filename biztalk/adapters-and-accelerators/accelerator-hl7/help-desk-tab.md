@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204854"
 ---
 # <a name="help-desk-tab"></a><span data-ttu-id="85194-102">說明服務人員索引標籤</span><span class="sxs-lookup"><span data-stu-id="85194-102">Help Desk Tab</span></span>
 <span data-ttu-id="85194-103">您可以使用 [技術支援] 索引標籤來輸入資料的目的地或來源合作對象。</span><span class="sxs-lookup"><span data-stu-id="85194-103">You use the Help Desk tab to enter data about the destination or source party.</span></span> <span data-ttu-id="85194-104">需要技術支援 索引標籤中的合作對象資訊有幫助，如果沒有產生任何錯誤，您需要連絡合作對象。</span><span class="sxs-lookup"><span data-stu-id="85194-104">Having the party information in the Help Desk tab is helpful if there are any errors generated and you need to contact the party.</span></span> <span data-ttu-id="85194-105">如果訊息沒有錯誤，會通知訊息中的合作對象資訊。</span><span class="sxs-lookup"><span data-stu-id="85194-105">If there is an error in a message, the party information will be in the ACK message.</span></span>  

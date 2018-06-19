@@ -1,14 +1,14 @@
 ---
-title: "檢查清單： 匯出繫結到另一個應用程式從 |Microsoft 文件"
-ms.custom: 
+title: 檢查清單： 匯出繫結到另一個應用程式從 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 152924e6-da64-4db9-a852-bdb4e79687fb
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299806"
 ---
 # <a name="checklist-exporting-bindings-from-one-application-to-another"></a><span data-ttu-id="ce6ac-102">檢查清單： 從另一個應用程式匯出繫結</span><span class="sxs-lookup"><span data-stu-id="ce6ac-102">Checklist: Exporting Bindings from One Application to Another</span></span>
 <span data-ttu-id="ce6ac-103">本主題描述傳送至另一個應用程式開發或實際執行環境中的一個應用程式的繫結所需的步驟。</span><span class="sxs-lookup"><span data-stu-id="ce6ac-103">This topic describes the steps involved in transferring the bindings of one application to another application in either a development or production environment.</span></span> <span data-ttu-id="ce6ac-104">此程序會使用.msi 檔案將應用程式部署程序類似。</span><span class="sxs-lookup"><span data-stu-id="ce6ac-104">This process is similar to the process of deploying an application using an .msi file.</span></span> <span data-ttu-id="ce6ac-105">不過，當您部署使用的.msi 檔案的應用程式時，處理程序會自動建立應用程式。</span><span class="sxs-lookup"><span data-stu-id="ce6ac-105">However, when you deploy an application using an .msi file, the process will automatically create the application.</span></span> <span data-ttu-id="ce6ac-106">當您從應用程式之間傳輸的繫結時，相反地，必須已存在目的端應用程式。</span><span class="sxs-lookup"><span data-stu-id="ce6ac-106">When you transfer the bindings from one application to another, on the other hand, the destination application must already exist.</span></span>  

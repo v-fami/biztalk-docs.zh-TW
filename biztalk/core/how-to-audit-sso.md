@@ -22,6 +22,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "25969500"
 ---
 # <a name="how-to-audit-sso"></a><span data-ttu-id="e57a4-102">如何稽核 SSO</span><span class="sxs-lookup"><span data-stu-id="e57a4-102">How to Audit SSO</span></span>
 <span data-ttu-id="e57a4-103">您可以使用 MMC 嵌入式管理單元或命令列，以設定正負兩種稽核層次。</span><span class="sxs-lookup"><span data-stu-id="e57a4-103">You can use the MMC Snap-In or the command line to set both the positive and negative auditing levels.</span></span> <span data-ttu-id="e57a4-104">稽核的結果會儲存在資料庫的事件日誌和稽核日誌。</span><span class="sxs-lookup"><span data-stu-id="e57a4-104">Results of the auditing are stored in both the event logs and the audit logs of the database.</span></span>  
@@ -53,7 +54,7 @@ ms.lasthandoff: 04/20/2018
   
 ### <a name="to-audit-single-sign-on-using-the-mmc-snap-in"></a><span data-ttu-id="e57a4-115">使用 MMC 嵌入式管理單元稽核單一登入</span><span class="sxs-lookup"><span data-stu-id="e57a4-115">To audit Single Sign-On using the MMC Snap-In</span></span>  
   
-1.  <span data-ttu-id="e57a4-116">在 **[開始]** 功能表上，依序按一下 **[所有程式]**及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。</span><span class="sxs-lookup"><span data-stu-id="e57a4-116">On the **Start** menu, click **All Programs**, click **Microsoft Enterprise Single Sign-On**, and then click **SSO Administration**.</span></span>  
+1.  <span data-ttu-id="e57a4-116">在 **[開始]** 功能表上，依序按一下 **[所有程式]** 及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。</span><span class="sxs-lookup"><span data-stu-id="e57a4-116">On the **Start** menu, click **All Programs**, click **Microsoft Enterprise Single Sign-On**, and then click **SSO Administration**.</span></span>  
   
 2.  <span data-ttu-id="e57a4-117">在 ENTSSO MMC 嵌入式管理單元的範圍窗格中，展開 **[企業單一登入]** 節點。</span><span class="sxs-lookup"><span data-stu-id="e57a4-117">In the scope pane of the ENTSSO MMC Snap-In, expand the **Enterprise Single Sign-On** node.</span></span>  
   
@@ -69,18 +70,18 @@ ms.lasthandoff: 04/20/2018
   
 2.  <span data-ttu-id="e57a4-123">在命令列提示字元中，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="e57a4-123">At the command line prompt, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="e57a4-124">預設安裝目錄是**\<磁碟機\>**: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="e57a4-124">The default installation directory is **\<drive\>**:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-3.  <span data-ttu-id="e57a4-125">型別**ssoconfig – auditlevel\<正數\>\<負數\>**，其中**\<正數\>**的層級當動作成功，稽核和**\<負數\>**是動作失敗時的稽核層級。</span><span class="sxs-lookup"><span data-stu-id="e57a4-125">Type **ssoconfig –auditlevel \<positive\>\<negative\>**, where **\<positive\>** is the level of auditing when actions succeed, and **\<negative\>** is the level of auditing when actions fail.</span></span>  
+3.  <span data-ttu-id="e57a4-125">型別**ssoconfig – auditlevel\<正數\>\<負數\>**，其中**\<正數\>** 的層級當動作成功，稽核和**\<負數\>** 是動作失敗時的稽核層級。</span><span class="sxs-lookup"><span data-stu-id="e57a4-125">Type **ssoconfig –auditlevel \<positive\>\<negative\>**, where **\<positive\>** is the level of auditing when actions succeed, and **\<negative\>** is the level of auditing when actions fail.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="e57a4-126">在支援 [使用者帳戶控制] \(UAC) 的系統上，您必須以系統管理權限執行此工具。</span><span class="sxs-lookup"><span data-stu-id="e57a4-126">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  
   
 ### <a name="to-audit-the-sso-database"></a><span data-ttu-id="e57a4-127">稽核 SSO 資料庫</span><span class="sxs-lookup"><span data-stu-id="e57a4-127">To audit the SSO database</span></span>  
   
-1.  <span data-ttu-id="e57a4-128">依序按一下 **[開始]**及 **[執行]**，然後輸入 **cmd**。</span><span class="sxs-lookup"><span data-stu-id="e57a4-128">Click **Start**, click **Run**, and then type **cmd**.</span></span>  
+1.  <span data-ttu-id="e57a4-128">依序按一下 **[開始]** 及 **[執行]**，然後輸入 **cmd**。</span><span class="sxs-lookup"><span data-stu-id="e57a4-128">Click **Start**, click **Run**, and then type **cmd**.</span></span>  
   
 2.  <span data-ttu-id="e57a4-129">在命令列提示字元中，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="e57a4-129">At the command line prompt, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="e57a4-130">預設安裝目錄是**\<磁碟機\>**: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="e57a4-130">The default installation directory is **\<drive\>**:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-3.  <span data-ttu-id="e57a4-131">型別**ssomanage – updatedb\<更新檔案\>**，其中**\<更新檔案\>**路徑和檔案名稱。</span><span class="sxs-lookup"><span data-stu-id="e57a4-131">Type **ssomanage –updatedb \<update file\>**, where **\<update file\>**is the path and name of the file.</span></span>  
+3.  <span data-ttu-id="e57a4-131">型別**ssomanage – updatedb\<更新檔案\>**，其中**\<更新檔案\>** 路徑和檔案名稱。</span><span class="sxs-lookup"><span data-stu-id="e57a4-131">Type **ssomanage –updatedb \<update file\>**, where **\<update file\>** is the path and name of the file.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="e57a4-132">在支援 [使用者帳戶控制] \(UAC) 的系統上，您必須以系統管理權限執行此工具。</span><span class="sxs-lookup"><span data-stu-id="e57a4-132">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  

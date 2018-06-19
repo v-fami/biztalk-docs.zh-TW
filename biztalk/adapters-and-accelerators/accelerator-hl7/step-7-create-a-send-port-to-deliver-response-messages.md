@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207078"
 ---
 # <a name="step-7-create-a-send-port-to-deliver-response-messages"></a><span data-ttu-id="d1587-102">步驟 7： 建立傳送埠以傳送回應訊息</span><span class="sxs-lookup"><span data-stu-id="d1587-102">Step 7: Create a Send Port to Deliver Response Messages</span></span>
 <span data-ttu-id="d1587-103">在此步驟中，您建立傳送埠傳送查詢回應，回到許可、 放電和傳輸 (ADT) 系統。</span><span class="sxs-lookup"><span data-stu-id="d1587-103">In this step, you create the send port to deliver the query responses back to the Admissions, Discharge, and Transfer (ADT) system.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "SQL 配接器常見問題集 |Microsoft 文件"
-ms.custom: 
+title: SQL 配接器常見問題集 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 25369e6b-d1f2-4abc-9ffc-4cb9aef1d3fb
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224862"
 ---
 # <a name="sql-adapter-faqs"></a><span data-ttu-id="9fd95-102">SQL 配接器常見問題集</span><span class="sxs-lookup"><span data-stu-id="9fd95-102">SQL adapter FAQs</span></span>
 <span data-ttu-id="9fd95-103">下列是一些常見問題集 (Faq) 與相關[!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]和[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]一般。</span><span class="sxs-lookup"><span data-stu-id="9fd95-103">The following are some frequently asked questions (FAQs) related to [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] and the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] in general.</span></span>  

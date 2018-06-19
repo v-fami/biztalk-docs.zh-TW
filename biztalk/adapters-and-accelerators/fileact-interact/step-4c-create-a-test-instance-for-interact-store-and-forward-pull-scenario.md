@@ -1,14 +1,14 @@
 ---
-title: "步驟 4c： 建立測試執行個體互動的存放區和轉送 （提取） 案例的 |Microsoft 文件"
-ms.custom: 
+title: 步驟 4c： 建立測試執行個體互動的存放區和轉送 （提取） 案例的 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3c937edd-9524-4f8f-9bd1-68e24f2eebdc
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223934"
 ---
 # <a name="step-4c-create-a-test-instance-for-the-interact-store-and-forward-pull-scenario"></a><span data-ttu-id="cf186-102">步驟 4c： 建立測試執行個體互動的存放區和轉送 （提取） 案例的</span><span class="sxs-lookup"><span data-stu-id="cf186-102">Step 4C: Create a Test Instance for the InterAct Store and Forward (Pull) Scenario</span></span>
 <span data-ttu-id="cf186-103">在開始此步驟之前，必須先完成[步驟 3B： 互動存放區和轉送 （提取） 案例的動態傳送埠與協調流程繫結](../../adapters-and-accelerators/fileact-interact/step-3b-bind-orchestration-with-dynamic-send-port-for-interact-scenario.md)。</span><span class="sxs-lookup"><span data-stu-id="cf186-103">Before you begin this step, you must complete [Step 3B: Bind the orchestration with dynamic send port for InterAct Store and Forward (Pull) Scenario](../../adapters-and-accelerators/fileact-interact/step-3b-bind-orchestration-with-dynamic-send-port-for-interact-scenario.md).</span></span>  

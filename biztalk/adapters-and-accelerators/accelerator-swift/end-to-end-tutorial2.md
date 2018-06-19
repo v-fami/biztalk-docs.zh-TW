@@ -1,18 +1,18 @@
 ---
-title: "端對端課程 2 |Microsoft 文件"
-ms.custom: 
+title: 端對端課程 2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - tutorial, about the tutorial
 - tutorial
 - tutorial, workflow
 ms.assetid: 1aba93b9-6991-46ef-a3bc-3815a5ff473f
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209254"
 ---
 # <a name="end-to-end-tutorial"></a><span data-ttu-id="a5032-102">端對端教學課程</span><span class="sxs-lookup"><span data-stu-id="a5032-102">End-to-End Tutorial</span></span>
 <span data-ttu-id="a5032-103">本教學課程包含詳細的步驟描述如何建立並設定[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]方案。</span><span class="sxs-lookup"><span data-stu-id="a5032-103">This tutorial contains detailed steps that describe how to create and set up a [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] solution.</span></span> <span data-ttu-id="a5032-104">模組和課程使用[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] [!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)]建立結構描述，將協調流程和管線元件使用 A4SWIFT 的對應。</span><span class="sxs-lookup"><span data-stu-id="a5032-104">The modules and lessons use [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)][!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)] to create the schema, maps orchestrations, and pipeline components using A4SWIFT.</span></span>  

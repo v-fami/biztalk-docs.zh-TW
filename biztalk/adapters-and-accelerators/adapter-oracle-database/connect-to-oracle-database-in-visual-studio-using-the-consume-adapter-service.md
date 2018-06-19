@@ -1,17 +1,17 @@
 ---
-title: "連接到 Oracle 資料庫，在 Visual Studio 中使用 取用配接器服務 |Microsoft 文件"
-ms.custom: 
+title: 連接到 Oracle 資料庫，在 Visual Studio 中使用 取用配接器服務 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - connecting, to the Oracle database
 - connection, to the Oracle database
 ms.assetid: db2789d0-2d61-472b-ad0c-4ef0707e9c64
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215102"
 ---
 # <a name="connect-to-oracle-database-in-visual-studio-using-the-consume-adapter-service"></a><span data-ttu-id="84b16-102">連接到 Oracle 資料庫，在 Visual Studio 中使用 取用配接器服務</span><span class="sxs-lookup"><span data-stu-id="84b16-102">Connect to Oracle Database in Visual Studio using the Consume Adapter Service</span></span>
 <span data-ttu-id="84b16-103">使用配接器服務增益集安裝時安裝 WCF LOB 配接器 SDK。</span><span class="sxs-lookup"><span data-stu-id="84b16-103">The Consume Adapter Service Add-in is installed when you install WCF LOB Adapter SDK.</span></span> <span data-ttu-id="84b16-104">使用配接器服務在載入增益集安裝在電腦上的所有 WCF 自訂繫結。</span><span class="sxs-lookup"><span data-stu-id="84b16-104">The Consume Adapter Service Add-in loads all the WCF-Custom bindings installed on the computer.</span></span> <span data-ttu-id="84b16-105">若要連接到使用 WCF 型 Oracle 資料庫[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]在 BizTalk 專案中，您必須使用**oracleDBBinding**。</span><span class="sxs-lookup"><span data-stu-id="84b16-105">To connect to the Oracle database using the WCF-based [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] in a BizTalk project, you must use the **oracleDBBinding**.</span></span>  

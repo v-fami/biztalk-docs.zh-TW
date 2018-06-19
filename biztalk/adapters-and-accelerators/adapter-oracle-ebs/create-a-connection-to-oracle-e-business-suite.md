@@ -1,14 +1,14 @@
 ---
-title: "建立連接到 Oracle E-business Suite |Microsoft 文件"
-ms.custom: 
+title: 建立連接到 Oracle E-business Suite |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: eeeab604-155e-4806-b77a-45319a3f8cc0
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216574"
 ---
 # <a name="create-a-connection-to-oracle-e-business-suite"></a><span data-ttu-id="8da79-102">建立 Oracle E-business Suite 連線</span><span class="sxs-lookup"><span data-stu-id="8da79-102">Create a connection to Oracle E-Business Suite</span></span>
 <span data-ttu-id="8da79-103">[!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]是[!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)]自訂繫結。</span><span class="sxs-lookup"><span data-stu-id="8da79-103">The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] is a [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] custom binding.</span></span> <span data-ttu-id="8da79-104">因此，它可讓 Oracle E-business Suite 透過 WCF 端點位址的通訊。</span><span class="sxs-lookup"><span data-stu-id="8da79-104">As such, it enables communication to Oracle E-Business Suite through a WCF endpoint address.</span></span> <span data-ttu-id="8da79-105">在 WCF 中的端點位址識別服務的網路位置，以及通常表示做為統一資源識別元 (URI)。</span><span class="sxs-lookup"><span data-stu-id="8da79-105">In WCF the endpoint address identifies the network location of a service and is typically expressed as a Uniform Resource Identifier (URI).</span></span> <span data-ttu-id="8da79-106">[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]表示這個位置做為連接 URI，其中包含屬性的[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]用以連接到 Oracle E-business Suite。</span><span class="sxs-lookup"><span data-stu-id="8da79-106">The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] expresses this location as a connection URI, which contains properties that the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] uses to establish a connection to Oracle E-Business Suite.</span></span> <span data-ttu-id="8da79-107">您必須指定連線 URI 時您：</span><span class="sxs-lookup"><span data-stu-id="8da79-107">You must specify a connection URI when you:</span></span>  

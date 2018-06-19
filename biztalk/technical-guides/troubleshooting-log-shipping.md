@@ -1,14 +1,14 @@
 ---
-title: "疑難排解記錄傳送 |Microsoft 文件"
-ms.custom: 
+title: 疑難排解記錄傳送 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e46ecb42-6bf1-4cb1-8771-a3d39cb23ce0
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22301814"
 ---
 # <a name="troubleshooting-log-shipping"></a><span data-ttu-id="606c9-102">疑難排解記錄傳送</span><span class="sxs-lookup"><span data-stu-id="606c9-102">Troubleshooting Log Shipping</span></span>
 <span data-ttu-id="606c9-103">本章節描述與相關的疑難排解案例[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]記錄傳送。</span><span class="sxs-lookup"><span data-stu-id="606c9-103">This section describes troubleshooting scenarios related to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] log shipping.</span></span>  
