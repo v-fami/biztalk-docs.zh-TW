@@ -1,14 +1,14 @@
 ---
-title: "接收使用 WCF 服務 Model1 Oracle 資料庫的變更通知 |Microsoft 文件"
-ms.custom: 
+title: 接收使用 WCF 服務 Model1 Oracle 資料庫的變更通知 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e0f0e2bf-3e76-43cc-85dc-7483dbce1cb5
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217046"
 ---
 # <a name="receive-oracle-database-change-notifications-using-the-wcf-service-model1"></a>接收使用 WCF 服務 Model1 Oracle 資料庫的變更通知
 本主題示範如何設定[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]來從 Oracle 資料庫接收查詢通知訊息。 為了示範通知，請考慮的資料表，ACCOUNTACTIVITY，與 「 處理 」 資料行。 當新的記錄插入此資料表時，[狀態] 欄的值設定為 ' n '。 您可以設定要接收通知，請使用 SQL 陳述式可擷取所有記錄的 「 處理 」 資料行做為通知註冊配接器 ' n '。 您可以藉由指定的 SQL 陳述式**NotificationStatement**繫結屬性。 一旦配接器用戶端會收到通知，它可以包含執行的 Oracle 資料庫上的任何後續工作的邏輯。 在此範例中，為了簡單起見，配接器用戶端列出的 「 處理 」 資料行做為資料表中的所有記錄 ' n '。  

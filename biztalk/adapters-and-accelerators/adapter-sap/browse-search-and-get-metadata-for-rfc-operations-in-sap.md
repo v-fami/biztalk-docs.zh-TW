@@ -16,7 +16,7 @@ helpviewer_keywords:
 - searching, RFCs
 - WCF client, generating a
 ms.assetid: 68d9e7b2-b8ab-47f5-afda-2811f68e834b
-caps.latest.revision: ''
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22219254"
 ---
 # <a name="browse-search-and-get-metadata-for-rfc-operations-in-sap"></a>瀏覽、 搜尋和 sap RFC 作業取得中繼資料
 本節提供有關如何瀏覽、 搜尋和中繼資料擷取 RFC 作業使用的 SAP 指示[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]， [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]，或[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]。 大部分的指示會針對所有三種使用者介面相同。 只要適用的話，個別的程序提供相關的使用者介面。  

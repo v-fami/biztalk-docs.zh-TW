@@ -1,14 +1,14 @@
 ---
-title: "步驟 4： 實作中繼資料瀏覽的處理常式回應配接器 |Microsoft 文件"
-ms.custom: 
+title: 步驟 4： 實作中繼資料瀏覽的處理常式回應配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d31fc6c1-e4b5-4529-ba3e-2a8cfb8ece1c
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226982"
 ---
 # <a name="step-4-implement-the-metadata-browse-handler-for-the-echo-adapter"></a>步驟 4： 回應配接器實作中繼資料瀏覽的處理常式
 ![步驟 4 的 9](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-4of9.gif "Step_4of9")  
@@ -55,7 +56,7 @@ public interface IMetadataBrowseHandler : IConnectionHandler, IDisposable
   
 |**參數**|**定義**|  
 |-------------------|--------------------|  
-|節點識別碼|在 [中繼資料總管] 階層中的每個項目 ([!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]和<br /><br /> [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]) 有節點識別碼。 每個節點識別碼必須是唯一的而且可以是類別或作業。 類別可以有子類別。 **注意：**如果 null 或空字串 ("")，從根節點 （"/"） 根據預設，會擷取作業。|  
+|節點識別碼|在 [中繼資料總管] 階層中的每個項目 ([!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]和<br /><br /> [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]) 有節點識別碼。 每個節點識別碼必須是唯一的而且可以是類別或作業。 類別可以有子類別。 **注意：** 如果 null 或空字串 ("")，從根節點 （"/"） 根據預設，會擷取作業。|  
 |childStartIndex|要傳回的第一個子系的索引。<br /><br /> 不支援回應配接器。|  
 |maxChildNodes|要傳回的結果節點數目上限。 您可以使用 Int32.Max 來擷取結果的所有節點。<br /><br /> 不支援回應配接器。|  
 |timeout|允許的作業完成的時間上限。<br /><br /> 不支援回應配接器。|  
@@ -113,13 +114,13 @@ if( "EchoMainCategory".CompareTo(nodeId) == 0 ) //category is EchoMainCategory
   
  ![](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/e4b9d0b8-f07f-4342-815f-9ef1507b0980.gif "e4b9d0b8-f07f-4342-815f-9ef1507b0980")  
   
- 若要瀏覽中的三個輸出的作業，[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]工具，在**選取合約型別**下拉式清單中選取**用戶端 （輸出作業）**選項。 您會看到這些作業在**可用的類別和作業**清單方塊中，如下所示：  
+ 若要瀏覽中的三個輸出的作業，[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]工具，在**選取合約型別**下拉式清單中選取**用戶端 （輸出作業）** 選項。 您會看到這些作業在**可用的類別和作業**清單方塊中，如下所示：  
   
  ![](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/c8755805-cbb0-40f1-887a-a3123f71ae7e.gif "c8755805-cbb0-40f1-887a-a3123f71ae7e")  
   
  在上圖中，注意`Microsoft.ServiceModel.Channels.MetadataRetrievalNode.DisplayName%2A`值會出現在**名稱**資料行**可用的類別和作業**清單方塊。 參數傳遞至`Microsoft.ServiceModel.Channels.MetadataRetrievalNode`建構函式會出現在**節點識別碼**資料行**可用的類別和作業**清單方塊中，而`Microsoft.ServiceModel.Channels.MetadataRetrievalNode.Description%2A`值會顯示為工具提示當您以滑鼠右鍵按一下包含描述， `Microsoft.ServiceModel.Channels.MetadataRetrievalNode.DisplayName%2A`。  
   
- 若要查看在輸入的作業，[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]工具**選取合約型別**下拉式清單中選取**服務 （輸入操作）**選項。 您會看到中的輸入的 OnReceiveEcho 作業**可用的類別和作業**清單方塊中，如下圖所示：  
+ 若要查看在輸入的作業，[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]工具**選取合約型別**下拉式清單中選取**服務 （輸入操作）** 選項。 您會看到中的輸入的 OnReceiveEcho 作業**可用的類別和作業**清單方塊中，如下圖所示：  
   
  ![](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/26b7b3c7-bc39-46f8-bc73-7d76fd3c02eb.gif "26b7b3c7-bc39-46f8-bc73-7d76fd3c02eb")  
   

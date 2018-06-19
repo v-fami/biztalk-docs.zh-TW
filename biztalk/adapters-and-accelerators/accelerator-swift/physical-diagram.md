@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22213958"
 ---
 # <a name="physical-diagram"></a>實體的圖表
 一般的部署已叢集化 BizTalk Server 電腦的訊息 （傳送和接收），來執行商務程序 （協調流程），以存取 InfoPath 範本 （MRSR 站台），BizTalk Server 電腦的 BizTalk Server 電腦和叢集的 SQL Server 電腦。 下列部署可確保內部網路和網際網路使用者安全的環境。  

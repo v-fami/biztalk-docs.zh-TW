@@ -1,15 +1,15 @@
 ---
-title: "BizTalk Adapter for Oracle 資料庫在 BizTalk 中的詞彙 |Microsoft 文件"
-description: "常見的詞彙和定義 Oracle 資料庫配接器在 BizTalk Adapter pack (BAP) 中使用"
-ms.custom: 
+title: BizTalk Adapter for Oracle 資料庫在 BizTalk 中的詞彙 |Microsoft 文件
+description: 常見的詞彙和定義 Oracle 資料庫配接器在 BizTalk Adapter pack (BAP) 中使用
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d386cd36-d8e4-4e5e-806e-0d02e042344f
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216310"
 ---
 # <a name="glossary"></a>詞彙
 下列詞彙和定義會用於[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]。    

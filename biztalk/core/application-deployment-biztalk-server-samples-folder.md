@@ -1,11 +1,11 @@
 ---
-title: "應用程式部署 （BizTalk Server 範例資料夾） |Microsoft 文件"
-ms.custom: 
+title: 應用程式部署 （BizTalk Server 範例資料夾） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, examples
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - applications, examples
 - examples, deploying
 ms.assetid: a583476e-7736-4804-8c85-8f951f757bfe
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230246"
 ---
 # <a name="application-deployment-biztalk-server-samples-folder"></a>應用程式部署 (BizTalk Server 範例資料夾)
 Microsoft[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]其軟體開發套件 (SDK) 中包含數個應用程式部署範例。 本章節提供每個範例所示範之功能的詳細資訊、建置和執行範例的指示，以及您可以預期的結果。  

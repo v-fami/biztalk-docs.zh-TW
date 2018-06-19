@@ -1,14 +1,14 @@
 ---
-title: "節點名稱屬性 |Microsoft 文件"
-ms.custom: 
+title: 節點名稱屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 95d9e5bf-7439-4ef4-ad14-e8d3e8eff911
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972796"
 ---
 # <a name="node-name-property"></a>節點名稱屬性
 使用「BizTalk 編輯器」將節點插入結構描述樹狀結構時，有些節點必須重新命名，有些則不用。 基本上，您可以也應該重新命名**記錄**節點**欄位項目**節點，和**欄位屬性**節點。 您提供給這些節點的名稱會成為結構描述定義的訊息中，XML 項目及屬性的名稱。  

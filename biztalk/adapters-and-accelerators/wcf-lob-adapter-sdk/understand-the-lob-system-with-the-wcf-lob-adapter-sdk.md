@@ -1,14 +1,14 @@
 ---
-title: "了解 WCF LOB 配接器 SDK 與 LOB 系統 |Microsoft 文件"
-ms.custom: 
+title: 了解 WCF LOB 配接器 SDK 與 LOB 系統 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a0f97846-5ef2-4530-853a-fba5469156f7
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225798"
 ---
 # <a name="understand-the-lob-system-with-the-wcf-lob-adapter-sdk"></a>了解 LOB 系統與 WCF LOB 配接器 SDK
 在開發配接器使用之前[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]，您必須徹底了解目標的特定業務系統。 如果您不了解特定業務系統，它會公開方法，並針對安全性、 交易和其他功能提供支援的不同層級所提供的功能，您的配接器可能不會提供配接器所需的功能取用者。 本章節描述您必須了解若要有效地設計您的配接器的區域。  

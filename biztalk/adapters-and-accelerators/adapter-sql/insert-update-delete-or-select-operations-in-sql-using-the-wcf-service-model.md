@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 340048ad-ce28-4acf-ae4e-f18bdb3b6f47
-caps.latest.revision: ''
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22226086"
 ---
 # <a name="insert-update-delete-or-select-operations-in-sql-using-the-wcf-service-model"></a>插入、 更新、 刪除或 SQL 使用 WCF 服務模型中選取作業
 [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]會探索 SQL Server 資料庫資料表和檢視表的基本 Insert、 Select、 Update 和 Delete 作業的一組。 藉由使用這些作業，您可以執行簡單的 SQL Insert、 Select、 Update 和 Delete 陳述式 Where 所限定的目標資料表或檢視上的子句。 本主題提供有關如何執行這些作業使用 WCF 服務模型的指示。  

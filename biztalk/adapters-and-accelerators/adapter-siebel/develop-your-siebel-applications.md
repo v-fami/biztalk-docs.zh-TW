@@ -1,15 +1,15 @@
 ---
-title: "開發 BizTalk Server 在 Siebel 應用程式 |Microsoft 文件"
-description: "建立使用 WCF，Siebel 應用程式或 BizTalk Server 與 BizTalk 配接器組件 (BAP) 中"
-ms.custom: 
+title: 開發 BizTalk Server 在 Siebel 應用程式 |Microsoft 文件
+description: 建立使用 WCF，Siebel 應用程式或 BizTalk Server 與 BizTalk 配接器組件 (BAP) 中
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2bc04906-6d64-433c-b357-797ec5883279
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222598"
 ---
 # <a name="develop-your-siebel-applications"></a>開發 Siebel 應用程式
 
@@ -45,7 +46,7 @@ ms.lasthandoff: 09/20/2017
   
 |工作|BizTalk Server|WCF 服務模型|WCF 通道模型|ADO.NET 介面|  
 |----------|--------------------|-----------------------|-----------------------|-----------------------|  
-|商務元件的基本 Insert、 Update、 Delete 和查詢作業|[在商務元件使用 BizTalk Server 和 Siebel 配接器上執行作業](run-operations-on-business-components-using-the-siebel-adapter-in-biztalk.md)|[使用 Siebel 配接器使用 WCF 服務模型執行商務元件上的作業](run-operations-on-business-components-with-the-siebel-adapter-using-wcf-service.md)|[使用 Siebel 配接器使用 WCF 通道模型執行商務元件上的作業](run-tasks-on-business-components-with-the-siebel-adapter-using-a-wcf-channel.md)|[Siebel 商務元件上執行選取查詢](run-a-select-query-on-business-components-with-siebel.md)**附註：**您只能執行 SELECT 作業使用[!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]。|  
+|商務元件的基本 Insert、 Update、 Delete 和查詢作業|[在商務元件使用 BizTalk Server 和 Siebel 配接器上執行作業](run-operations-on-business-components-using-the-siebel-adapter-in-biztalk.md)|[使用 Siebel 配接器使用 WCF 服務模型執行商務元件上的作業](run-operations-on-business-components-with-the-siebel-adapter-using-wcf-service.md)|[使用 Siebel 配接器使用 WCF 通道模型執行商務元件上的作業](run-tasks-on-business-components-with-the-siebel-adapter-using-a-wcf-channel.md)|[Siebel 商務元件上執行選取查詢](run-a-select-query-on-business-components-with-siebel.md)**附註：** 您只能執行 SELECT 作業使用[!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]。|  
 |MVG 欄位的商務元件上的作業|[使用 MVG 欄位使用 BizTalk Server 和 Siebel 配接器執行商務元件上的作業](run-operations-on-business-components-with-mvg-fields-using-the-siebel-adapter.md)|[使用 Siebel 配接器使用 WCF 服務模型執行 MVG 欄位的商務元件上的作業](work-with-mvp-fields-using-the-siebel-adapter-and-the-wcf-service-model.md)|||  
 |在挑選清單欄位的商務元件上的作業|[使用挑選清單欄位使用 BizTalk Server 和 Siebel 配接器執行商務元件上的作業](run-tasks-on-business-components-with-picklist-fields-using-the-siebel-adapter.md)||||  
 |叫用商務服務|[叫用商務服務方法使用 BizTalk Server 和 Siebel 配接器](invoke-business-service-methods-using-biztalk-server-and-the-siebel-adapter.md)|||[執行與 Siebel 商務服務上的執行作業](run-an-execute-operation-on-business-services-with-siebel.md)|  

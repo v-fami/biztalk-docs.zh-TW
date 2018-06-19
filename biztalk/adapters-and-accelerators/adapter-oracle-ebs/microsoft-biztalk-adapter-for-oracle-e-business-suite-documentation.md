@@ -1,15 +1,15 @@
 ---
-title: "Microsoft BizTalk Adapter for Oracle E-business Suite 文件 |Microsoft 文件"
-description: "取得啟動，架構、 安全性、 開發應用程式、 訊息結構描述，以及疑難排解 Oracle EBS 配接器在 BizTalk Adapter Pack"
-ms.custom: 
+title: Microsoft BizTalk Adapter for Oracle E-business Suite 文件 |Microsoft 文件
+description: 取得啟動，架構、 安全性、 開發應用程式、 訊息結構描述，以及疑難排解 Oracle EBS 配接器在 BizTalk Adapter Pack
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b1e96fd2-e632-4a07-b18d-c93c5b57e36e
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216374"
 ---
 # <a name="microsoft-biztalk-adapter-for-oracle-e-business-suite-documentation"></a>Microsoft BizTalk Adapter for Oracle E-business Suite 文件
 [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]包含許多可協助您了解如何配接器運作方式、 如何建立應用程式，使用配接器，說明不同的連接選項，了解如何建立應用程式和多個資源。  

@@ -1,14 +1,14 @@
 ---
-title: "訊息結構描述的 Insert、 Update、 Delete 和選取作業 |Microsoft 文件"
-ms.custom: 
+title: 訊息結構描述的 Insert、 Update、 Delete 和選取作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5b8de271-67db-4279-8f95-0b4dd92fa3c4
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218230"
 ---
 # <a name="message-schemas-for-insert-update-delete-and-select-operations"></a>訊息結構描述，插入、 更新、 刪除和選取作業
 [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]呈現基本 Insert、 Update、 Delete 和 Oracle E-business Suite 中的每個介面資料表和基礎資料庫中的每個資料表的 Select 作業。 配接器也會提供諸如 Oracle E-business Suite 中的每個介面檢視和基礎資料庫中的每個檢視的選取作業。 這些作業執行適當的 SQL 陳述式 WHERE 子句所限定。 [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]使用這些作業中的強型別記錄和資料錄集。  
@@ -31,7 +32,7 @@ ms.lasthandoff: 09/20/2017
 |---------------|-----------------|-----------------|---------------------------------|  
 |Insert|`<Insert xmlns="[VERSION]/InterfaceTables/[SCHEMA]/[APP_NAME]/[INTERFACETABLE_NAME]">   <RECORDSET>     <InsertRecord>       <[FIELD1_NAME] InlineValue="value">[value1]</[FIELD1_NAME]>       <[FIELD2_NAME] InlineValue="value">[value2]</[FIELD2_NAME]>       …     </InsertRecord>   </RECORDSET> </Insert>`|值**InlineValue**屬性，如果指定，會覆寫項目的值。|`INSERT INTO TABLE_NAME (FIELD1_NAME, FIELD2_NAME, …) VALUES (value1, value2, …);`|  
 |插入回應|`<InsertResponse xmlns="[VERSION]/InterfaceTables/[SCHEMA]/[APP_NAME]/[INTERFACETABLE_NAME]">   <InsertResult>[rows inserted]</InsertResult> </InsertResponse>`|插入的資料列數會傳入**InsertResult**項目。|--|  
-|Select|`<Select xmlns="[VERSION]/InterfaceTables/[SCHEMA]/[APP_NAME]/[INTERFACETABLE_NAME]">   <COLUMN_NAMES>[COLUMN_list]</COLUMN_NAMES>   <FILTER>WHERE_clause</FILTER> </Select>`|選取的查詢會使用 WHERE 子句篩選條件的項目中指定的目標資料表上執行。 結果集包含以逗號分隔的清單中指定的資料行名稱中的資料行**COLUMN_NAMES**項目。<br /><br /> **重要事項：**這是唯一適用於介面檢視和資料庫檢視的作業。|`SELECT COLUMN_list FROM TABLE_NAME WHERE WHERE_clause;`|  
+|Select|`<Select xmlns="[VERSION]/InterfaceTables/[SCHEMA]/[APP_NAME]/[INTERFACETABLE_NAME]">   <COLUMN_NAMES>[COLUMN_list]</COLUMN_NAMES>   <FILTER>WHERE_clause</FILTER> </Select>`|選取的查詢會使用 WHERE 子句篩選條件的項目中指定的目標資料表上執行。 結果集包含以逗號分隔的清單中指定的資料行名稱中的資料行**COLUMN_NAMES**項目。<br /><br /> **重要事項：** 這是唯一適用於介面檢視和資料庫檢視的作業。|`SELECT COLUMN_list FROM TABLE_NAME WHERE WHERE_clause;`|  
 |選取回應|`<SelectResponse  xmlns="[VERSION]/InterfaceTables/[SCHEMA]/[APP_NAME]/[INTERFACETABLE_NAME]">   <SelectResult>     <SelectRecord>       <[FIELD1_NAME]>value1</[FIELD1_NAME]>       <[FIELD2_NAME]>value2</[FIELD2_NAME]>       …     </SelectRecord>   </SelectResult> </SelectResponse>`|SELECT 查詢所產生的結果集。|--|  
 |Update|`<Update xmlns="[VERSION]/InterfaceTables/[SCHEMA]/[APP_NAME]/[INTERFACETABLE_NAME]">   <RECORDSET>     <[FIELD1_NAME]>value1</[FIELD1_NAME]>     <[FIELD2_NAME]>value2</[FIELD2_NAME]>       …   </RECORDSET>   <FILTER>WHERE_clause</FILTER> </Update>`|資料列符合 where 子句中指定**篩選**更新項目中指定的值為**資料錄集**。 中所指定的資料行**資料錄集**項目會在每個相符的資料列中更新。|`UPDATE [TABLE_NAME] SET [FIELD1_NAME] = value1, [FIELD2_NAME] = value2, … WHERE WHERE_clause;`|  
 |更新回應|`<UpdateResponse xmlns="[VERSION]/InterfaceTables/[SCHEMA]/[APP_NAME]/[INTERFACETABLE_NAME]">   <UpdateResult>[rows inserted]</UpdateResult> </UpdateResponse>`|更新資料列數目會傳入**UpdateResult**項目。|--|  

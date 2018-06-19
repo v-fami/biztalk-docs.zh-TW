@@ -1,14 +1,14 @@
 ---
-title: "SQL 配接器的 WCF 服務模型的概觀 |Microsoft 文件"
-ms.custom: 
+title: SQL 配接器的 WCF 服務模型的概觀 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7641bcc7-3845-4914-9b1b-cb86b998ea6d
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222886"
 ---
 # <a name="overview-of-the-wcf-service-model-with-the-sql-adapter"></a>SQL 配接器的 WCF 服務模型概觀
 [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]公開為 WCF 服務的 SQL Server 作業。 若要執行作業，SQL Server 成品，例如若要叫用預存程序，在您叫用的配接器，接著執行 SQL Server 上的作業上的作業。 您的程式碼因此可做為配接器所呈現之 WCF 服務的用戶端。  

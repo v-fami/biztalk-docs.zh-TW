@@ -1,14 +1,14 @@
 ---
-title: "關於結構描述 |Microsoft 文件"
-ms.custom: 
+title: 關於結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2ec2b79c-7cfe-4b00-bcff-dfad3944c83b
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224222"
 ---
 # <a name="about-schemas"></a>關於結構描述
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 使用 XML 結構描述定義 (XSD) 語言定義它所處理的所有訊息之結構，這些訊息結構的定義就稱為結構描述。 在絕大部分的情況下，結構化訊息是所有應用程式的核心。 這些結構化訊息可以是任何形式、大小，並以一系列大範圍的後端系統和資料存放區為目標。 經常建立和消耗結構化訊息的系統使用不同的格式。 結構化訊息最常使用的兩種格式為 XML 和一般檔案。  

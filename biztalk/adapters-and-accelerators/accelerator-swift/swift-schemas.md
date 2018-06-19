@@ -1,11 +1,11 @@
 ---
-title: "SWIFT 的結構描述 |Microsoft 文件"
-ms.custom: 
+title: SWIFT 的結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SWIFT, SWIFT messages
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - SWIFT messages, SWIFT schemas
 - SWIFT, schemas
 ms.assetid: 53017a56-a718-4577-a08c-9c92d9a54e7a
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214918"
 ---
 # <a name="swift-schemas"></a>SWIFT 的結構描述
 [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]傳送和接收 SWIFT 財務 (FIN) 訊息當做個別的一般檔案 SWIFT 網路上。 每個個別的訊息是由一組標頭區塊的一組預先定義的加上標籤的欄位和位置，或已排序的子欄位和一組的結尾區塊的結尾組成的文字區塊所組成。 文字區塊的內容會因訊息類型。  

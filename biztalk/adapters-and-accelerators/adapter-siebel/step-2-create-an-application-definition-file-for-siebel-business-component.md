@@ -1,14 +1,14 @@
 ---
-title: "步驟 2： 建立應用程式定義檔的 Siebel 商務元件操作 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 建立應用程式定義檔的 Siebel 商務元件操作 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 75d34c48-0f2a-42e4-a60b-e04bcf2404e1
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,13 +17,14 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22227030"
 ---
 # <a name="step-2-create-an-application-definition-file-for-siebel-business-component-operations"></a>步驟 2： 建立應用程式定義檔的 Siebel 商務元件操作
 ![步驟 4 之 2](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")  
   
  **若要完成的時間：** 15 分鐘  
   
- **目標：**商務資料目錄公開，並從的特定業務 (LOB) 應用程式的資料合併至入口網站。 將此資料合併到您的入口網站，您必須建立 Microsoft Office SharePoint Server 可以使用應用程式定義檔。  
+ **目標：** 商務資料目錄公開，並從的特定業務 (LOB) 應用程式的資料合併至入口網站。 將此資料合併到您的入口網站，您必須建立 Microsoft Office SharePoint Server 可以使用應用程式定義檔。  
   
  商務資料目錄定義編輯器工具可讓您建立的商務資料目錄的應用程式定義檔。 此工具會自動產生的 XML 定義檔。 因此，您不必手動檔案在編輯器中建立 XML。  
   
@@ -152,7 +153,7 @@ ms.lasthandoff: 09/20/2017
          ![將參數對應至篩選](../../adapters-and-accelerators/adapter-siebel/media/199c8ba7-d0e8-4fb4-9d73-9cf548512498.gif "199c8ba7-d0e8-4fb4-9d73-9cf548512498")  
   
         > [!IMPORTANT]
-        >  **AccountQueryInputRecord**也包含**# 10**節點，其中包含**項目**節點。 您必須刪除**項目** 節點，否則帳戶商務元件上的查詢作業，可能無法提供想要的結果。 若要刪除**項目** 節點，以滑鼠右鍵按一下節點，然後選取**刪除**。  
+        >  **AccountQueryInputRecord**也包含 **# 10**節點，其中包含**項目**節點。 您必須刪除**項目** 節點，否則帳戶商務元件上的查詢作業，可能無法提供想要的結果。 若要刪除**項目** 節點，以滑鼠右鍵按一下節點，然後選取**刪除**。  
   
 ##### <a name="to-create-a-finder-method-instance-for-query-method"></a>若要建立 Finder 方法執行個體的查詢方法  
   

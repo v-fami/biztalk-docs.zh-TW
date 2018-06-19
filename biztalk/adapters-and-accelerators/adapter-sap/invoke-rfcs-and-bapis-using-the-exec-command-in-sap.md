@@ -1,18 +1,18 @@
 ---
-title: "叫用 Rfc 和 Bapi SAP 中使用 EXEC 命令 |Microsoft 文件"
-ms.custom: 
+title: 叫用 Rfc 和 Bapi SAP 中使用 EXEC 命令 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - EXEC command, invoking RFCs and BAPIs
 - BAPIs and RFCs, invoking by using the EXEC command
 - RFCs and BAPIs, invoking by using the EXEC command
 ms.assetid: 55443679-2fa8-4c13-ac3b-1c85b5166cd2
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217214"
 ---
 # <a name="invoke-rfcs-and-bapis-using-the-exec-command-in-sap"></a>叫用 Rfc 和 Bapi SAP 中使用 EXEC 命令
 [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)]公開為 ADO.NET 資料來源的 SAP 系統。 使用[!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)]，您可以叫用 Rfc 和 Bapi EXEC 命令透過 SAP 系統上。  

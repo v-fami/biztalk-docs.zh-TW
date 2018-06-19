@@ -1,11 +1,11 @@
 ---
-title: "案例： 分配給多部電腦間的成品 |Microsoft 文件"
-ms.custom: 
+title: 案例： 分配給多部電腦間的成品 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying [artifacts], multiple computers
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - deploying [artifacts], examples
 - examples, deploying
 ms.assetid: 7000cded-1fda-4276-b7f3-3f427f686f64
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269158"
 ---
 # <a name="scenario-distributing-artifacts-among-multiple-computers"></a>案例： 分配給多部電腦間的成品
 本主題說明如何將應用程式中的成品選擇性安裝在不同電腦的應用程式部署案例。 如果您要應用程式中的特定組件或其他類型的成品只安裝在 BizTalk 群組中的特定電腦上，可以這樣做。 若要執行這項作業，您可以根據要一起安裝在實體電腦上的成品，將應用程式中包含的成品匯出至多個 .msi 檔案。  

@@ -1,14 +1,14 @@
 ---
-title: "連接到 Visual Studio 中使用配接器服務增益集使用中的 SQL Server |Microsoft 文件"
-ms.custom: 
+title: 連接到 Visual Studio 中使用配接器服務增益集使用中的 SQL Server |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5d4fa2bd-ac9e-41b1-8fea-e6a41cbfd1a2
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224206"
 ---
 # <a name="connect-to-sql-server-in-visual-studio-using-the-consume-adapter-service-add-in"></a>連接到 SQL Server 使用配接器服務增益集所使用的 Visual Studio 中
 [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]安裝時，安裝[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。 [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]載入電腦上安裝的所有 WCF 自訂繫結。 若要連接到 SQL Server 使用 WCF 型[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]在 BizTalk 專案中，您必須使用**sqlbinding**。  
@@ -54,7 +55,7 @@ ms.lasthandoff: 09/20/2017
     |----------------|----------------|  
     |**無**|使用 Windows 驗證連接到 SQL Server。|  
     |**視窗**|使用 Windows 驗證連接到 SQL Server。|  
-    |**使用者名稱**|指定的使用者名稱和密碼來連接到 SQL Server 藉由指定使用者在 SQL Server 資料庫中定義的認證。 請注意使用者名稱和密碼會區分大小寫。 **注意：**如果您離開**使用者名**和**密碼**空白欄位，配接器連接至 SQL Server 使用 Windows 驗證。|  
+    |**使用者名稱**|指定的使用者名稱和密碼來連接到 SQL Server 藉由指定使用者在 SQL Server 資料庫中定義的認證。 請注意使用者名稱和密碼會區分大小寫。 **注意：** 如果您離開**使用者名**和**密碼**空白欄位，配接器連接至 SQL Server 使用 Windows 驗證。|  
   
 4.  按一下**URI 屬性**索引標籤，然後再指定連線參數的值。 如需有關連線 URI 的[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]，請參閱[建立 SQL Server 連接 URI](../../adapters-and-accelerators/adapter-sql/create-the-sql-server-connection-uri.md)。  
   

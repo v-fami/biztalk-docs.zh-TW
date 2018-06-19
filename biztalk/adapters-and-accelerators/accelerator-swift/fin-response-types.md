@@ -1,11 +1,11 @@
 ---
-title: "FIN 回應類型 |Microsoft 文件"
-ms.custom: 
+title: FIN 回應類型 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, response types
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - messages, message types
 - response types [FIN Response Reconciliation]
 ms.assetid: a6ef2f20-08ab-40d3-a0a5-cc4048ce0987
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22208062"
 ---
 # <a name="fin-response-types"></a>FIN 回應類型
 FIN 回應對帳 (FRR) 會調解任何類別 0 到 9 的 SWIFT FIN 訊息的回應。 在其中一個 FIN 訊息回應，SWIFT FIN 應用程式一定會傳送至少一個，可能是多個一個通知 (ACK) 或負值通知 (NAK)。 下表顯示訊息類型的傳出和傳入 （回應） FRR 處理訊息。  

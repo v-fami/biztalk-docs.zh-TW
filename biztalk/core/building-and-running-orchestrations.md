@@ -1,18 +1,18 @@
 ---
-title: "建置和執行協調流程 |Microsoft 文件"
-ms.custom: 
+title: 建置和執行協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - building, orchestrations
 - orchestrations, running
 - orchestrations, building
 ms.assetid: a58c62eb-40db-4272-9b94-4a1926f108c0
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230718"
 ---
 # <a name="building-and-running-orchestrations"></a>建置和執行協調流程
 在設計協調流程後，您可以編譯並執行它來測試完整性和正確性。  

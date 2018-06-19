@@ -1,18 +1,18 @@
 ---
-title: "服務執行個體狀態 |Microsoft 文件"
-ms.custom: 
+title: 服務執行個體狀態 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - service instances, states
 - messages, processing
 - states, service instances
 ms.assetid: 38189538-72b3-49df-810b-e134362e35ef
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22272566"
 ---
 # <a name="service-instance-states"></a>服務執行個體狀態
 在處理訊息時，會發生下列動作：  
@@ -56,7 +57,7 @@ ms.lasthandoff: 09/20/2017
 |**作用中**|執行服務執行個體。|  
 |**凍結**|保存在 MessageBox 資料庫中的執行個體狀態，沒有任何 Windows 服務正在執行該執行個體。|  
 |**已完成但捨棄的訊息**|服務執行個體已完成，不過該執行個體沒有消耗一些訊息。|  
-|**已擱置 （可繼續）**|執行個體已擱置，您可繼續此執行個體。 **重要事項：**繼續訊息執行個體將會執行下列動作： <ul><li>繼續訊息執行個體。</li><li>傳送訊息至傳送埠。</li><li>傳送埠會將訊息傳遞到目的地;即使傳送埠不是已啟動 」 狀態。</li></ul> <br /><br /> 請注意，當您擱置排程的執行個體然後繼續時，執行個體便會進入已凍結狀態。|  
+|**已擱置 （可繼續）**|執行個體已擱置，您可繼續此執行個體。 **重要事項：** 繼續訊息執行個體將會執行下列動作： <ul><li>繼續訊息執行個體。</li><li>傳送訊息至傳送埠。</li><li>傳送埠會將訊息傳遞到目的地;即使傳送埠不是已啟動 」 狀態。</li></ul> <br /><br /> 請注意，當您擱置排程的執行個體然後繼續時，執行個體便會進入已凍結狀態。|  
 |**已擱置 （不可繼續）**|執行個體已擱置，但您不能繼續此執行個體。 您可以儲存執行個體參考的訊息，然後終止執行個體。<br /><br /> 請注意，當您擱置排程的執行個體然後繼續時，執行個體便會進入已凍結狀態。|  
 |**擱置的擱置 / 擱置的終止**|一種狀態，並非獨立的狀態。 您可以將它與其他狀態結合。<br /><br /> 擱置或終止的控制訊息已傳送至服務執行個體，但執行個體尚未拾取。 每次只允許一個擱置作業。 當含有擱置作業的執行個體凍結時，您可以終止此執行個體。|  
   

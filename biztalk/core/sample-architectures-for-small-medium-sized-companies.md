@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269550"
 ---
 # <a name="sample-architectures-for-small-amp-medium-sized-companies"></a>範例架構的小型&amp;中型公司
 本節提供您要協助保護小型或中型公司資產安全時部署 Microsoft BizTalk Server 的範例架構。 雖然這些架構鼓勵使用深層防禦與服務分隔使攻擊的影響降至最低，但它們假設的硬體、軟體與人力資源的數量是大型公司一般才有的數量。  

@@ -1,14 +1,14 @@
 ---
-title: "使用 POP3 配接器的處理多部分訊息 |Microsoft 文件"
-ms.custom: 
+title: 使用 POP3 配接器的處理多部分訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 56ad041f-f155-4c1c-ab87-1405c80d9b68
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22266438"
 ---
 # <a name="processing-multi-part-messages-with-the-pop3-adapter"></a>使用 POP3 配接器處理多部分訊息
 POP3 配接器可以處理符合在 IETF 標準的 MIME 編碼訊息[RFC 2045](http://go.microsoft.com/fwlink/?LinkId=58810)， [RFC 2046](http://go.microsoft.com/fwlink/?LinkId=58811)，和[RFC 2047](http://go.microsoft.com/fwlink/?LinkId=58812)。 MIME 編碼訊息可以有一或多個內容類型不同的部分。 本主題將討論 POP3 配接器如何處理多部分 MIME 編碼訊息。  

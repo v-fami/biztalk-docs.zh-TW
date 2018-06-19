@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268694"
 ---
 # <a name="role-roles-node"></a>角色 (角色節點)
 繫結檔案之 [角色] 節點的 [角色] 節點，指定有關該繫結檔案所匯出服務繫結到之角色的資訊。  

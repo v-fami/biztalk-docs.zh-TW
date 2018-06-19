@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218198"
 ---
 # <a name="get-metadata-in-oracle-database-using-imetadataretrievalcontract"></a>使用 IMetadataRetrievalContract Oracle 資料庫中取得中繼資料
 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]公開**IMetadataRetrievalContract**可讓您瀏覽和搜尋 Oracle 資料庫成品並擷取作業的 Web 服務描述語言 (WSDL 格式的中繼資料端點) 文件。  

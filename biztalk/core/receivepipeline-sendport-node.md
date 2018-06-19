@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268870"
 ---
 # <a name="receivepipeline-sendport-node"></a>ReceivePipeline (SendPort 節點)
 繫結檔案之 [SendPort] 節點的 [ReceivePipeline] 節點中，包含繫結至隨同繫結檔案匯出之雙向傳送埠的接收管線特定資訊。  

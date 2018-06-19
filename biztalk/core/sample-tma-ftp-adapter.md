@@ -1,11 +1,11 @@
 ---
-title: "範例 TMA: FTP 配接器 |Microsoft 文件"
-ms.custom: 
+title: '範例 TMA: FTP 配接器 |Microsoft 文件'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - architecture, examples
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - FTP adapters, TMA
 - DFD, FTP adapters
 ms.assetid: c648f84a-c83a-44f0-adc9-a3f98b597506
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271958"
 ---
 # <a name="sample-tma-ftp-adapter"></a>範例 TMA: FTP 配接器
 本主題呈現範例架構的 FTP 配接器實例之威脅模型分析 (TMA)。  
@@ -62,9 +63,9 @@ ms.lasthandoff: 09/20/2017
 ## <a name="step-2-create-and-analyze-the-threat-model-ftp-adapter-scenario"></a>步驟 2： 建立和分析威脅模型 （FTP 配接器實例）  
  本節提供我們為範例架構的 FTP 配接器實例所做的 TMA 結果。  
   
--   **識別進入點、 信任界限以及的資料流-**請參閱稍早在步驟 1 中及中所述的背景資訊[範例實例的背景資訊](../core/background-information-for-sample-scenarios.md)。  
+-   **識別進入點、 信任界限以及的資料流-** 請參閱稍早在步驟 1 中及中所述的背景資訊[範例實例的背景資訊](../core/background-information-for-sample-scenarios.md)。  
   
--   **建立一份識別的威脅-**我們針對 dfd 的所有項目使用下列分類來識別潛在的威脅： **S**假冒識別， **T**ampering 取代資料， **R**epudiation，**我**若資訊洩漏、 **D**拒絕服務，以及**E**身分權限。 下表列出當您使用 FTP 配接器從 BizTalk Server 傳送和接收訊息時，我們所識別的威脅。  
+-   **建立一份識別的威脅-** 我們針對 dfd 的所有項目使用下列分類來識別潛在的威脅： **S**假冒識別， **T**ampering 取代資料， **R**epudiation，**我**若資訊洩漏、 **D**拒絕服務，以及**E**身分權限。 下表列出當您使用 FTP 配接器從 BizTalk Server 傳送和接收訊息時，我們所識別的威脅。  
   
  **表 1 已識別的威脅的清單**  
   

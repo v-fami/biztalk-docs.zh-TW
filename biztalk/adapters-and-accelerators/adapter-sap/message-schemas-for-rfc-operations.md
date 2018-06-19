@@ -1,17 +1,17 @@
 ---
-title: "RFC 作業的訊息結構描述 |Microsoft 文件"
-ms.custom: 
+title: RFC 作業的訊息結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - RFC operations, message structure for
 - RFC operations, message actions for
 ms.assetid: 50cd9b28-2e66-4c76-9d19-f0da6e7b8e10
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217302"
 ---
 # <a name="message-schemas-for-rfc-operations"></a>RFC 作業的訊息結構描述
 [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]呈現 SAP 遠端函式呼叫 (RFC) 做為作業。 本主題包含的訊息結構描述 」 和 「 用於 RFC 作業的訊息動作的相關資訊。 訊息結構是相同的輸入和輸出 RFC 作業。 如需配接器支援的 RFC 作業的概觀，請參閱[作業中 SAP Rfc](../../adapters-and-accelerators/adapter-sap/operations-on-rfcs-in-sap.md)。  
@@ -32,7 +33,7 @@ ms.lasthandoff: 09/20/2017
 |訊息|XML 訊息結構|Description|  
 |-------------|---------------------------|-----------------|  
 |RFC<br /><br /> ([RFC_NAME])|`<[RFC_NAME] xmlns="[VERSION]/Rfc/">   <IN1_PARAM_NAME>v1</IN1_PARAM_NAME>   <IN2_PARAM_NAME>v2</IN2_PARAM_NAME>   …   <INOUT1_PARAM_NAME>v3</INOUT1_PARAM_NAME>   <INOUT2_PARAM_NAME>v4</INOUT2_PARAM_NAME>   …   <TABLE1_PARAM_NAME xmlns="[VERSION]/Types/Rfc/">     <STRUCT1_PARAM_NAME>       <[FIELD1_NAME]>value1</[FIELD1_NAME]>       <[FIELD2_NAME]>value2</[FIELD2_NAME]>       …     </STRUCT1_PARAM_NAME>     …   </TABLE1_PARAM_NAME>   … </[RFC_NAME]>`|叫用的 RFC，SAP 系統上。<br /><br /> -匯入，變更，以及支援資料表參數。<br /><br /> -匯入，變更參數可以是 SAP 結構類型、 SAP 資料表類型或 SAP 簡單資料類型。|  
-|RFC 回應 （[RFC_NAME] 回應）|`<[RFC_NAME]Response xmlns="[VERSION]/Rfc/">   <OUT1_PARAM_NAME>v1</OUT1_PARAM_NAME>   <OUT2_PARAM_NAME>v2</OUT2_PARAM_NAME>   …   <INOUT1_PARAM_NAME>v3</INOUT1_PARAM_NAME>   <INOUT2_PARAM_NAME>v4</INOUT2_PARAM_NAME>   …   <TABLE1_PARAM_NAME>     <STRUCT1_PARAM_NAME>       <[FIELD1_NAME]>value1</[FIELD1_NAME]>       <[FIELD2_NAME]>value2</[FIELD2_NAME]>       …     </STRUCT1_PARAM_NAME>     …   </TABLE1_PARAM_NAME>   … </[RFC_NAME]Response>`|傳回的 RFC。<br /><br /> -Export，變更，並支援資料表參數。<br /><br /> **注意：**根據預設，資料表參數不會顯示在回應訊息中。 如果您需要在回應訊息中的資料表參數時，您必須在要求訊息中傳遞空資料表參數。<br /><br /> -匯入，變更參數可以是 SAP 結構類型、 SAP 資料表類型或 SAP 簡單資料類型。|  
+|RFC 回應 （[RFC_NAME] 回應）|`<[RFC_NAME]Response xmlns="[VERSION]/Rfc/">   <OUT1_PARAM_NAME>v1</OUT1_PARAM_NAME>   <OUT2_PARAM_NAME>v2</OUT2_PARAM_NAME>   …   <INOUT1_PARAM_NAME>v3</INOUT1_PARAM_NAME>   <INOUT2_PARAM_NAME>v4</INOUT2_PARAM_NAME>   …   <TABLE1_PARAM_NAME>     <STRUCT1_PARAM_NAME>       <[FIELD1_NAME]>value1</[FIELD1_NAME]>       <[FIELD2_NAME]>value2</[FIELD2_NAME]>       …     </STRUCT1_PARAM_NAME>     …   </TABLE1_PARAM_NAME>   … </[RFC_NAME]Response>`|傳回的 RFC。<br /><br /> -Export，變更，並支援資料表參數。<br /><br /> **注意：** 根據預設，資料表參數不會顯示在回應訊息中。 如果您需要在回應訊息中的資料表參數時，您必須在要求訊息中傳遞空資料表參數。<br /><br /> -匯入，變更參數可以是 SAP 結構類型、 SAP 資料表類型或 SAP 簡單資料類型。|  
 |RfcGetAttributes<br /><br /> (RfcGetAttributes)|`<RfcGetAttributes> </RfcGetAttributes>`|RfcGetAttributes 是呈現由 RFC SDK API 作業[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]。 RfcGetAttributes 作業可讓用戶端程式擷取語言、 系統識別碼，以及與 RFC 連線相關聯的夥伴字碼頁。|  
 |RfcGetAttributes 回應<br /><br /> (RfcGetAttributesResponse)|`<RfcGetAttributesResponse>   <Language>lang</Language>   <SysId>id</SysId>   <PartnerCodePage>pnrcp</PartnerCodePage> </RfcGetAttributesResponse>`|RfcGetAttributes 作業的回應傳回語言、 系統識別碼，以及與 RFC 連線相關聯的夥伴字碼頁。|  
   

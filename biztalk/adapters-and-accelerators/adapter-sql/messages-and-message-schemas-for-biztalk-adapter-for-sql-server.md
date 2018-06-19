@@ -1,15 +1,15 @@
 ---
-title: "訊息與 BizTalk adapter for SQL Server 的訊息結構描述 |Microsoft 文件"
-description: "BizTalk Server 的 SQL Server 配接器使用的訊息和資料類型的 XML 結構"
-ms.custom: 
+title: 訊息與 BizTalk adapter for SQL Server 的訊息結構描述 |Microsoft 文件
+description: BizTalk Server 的 SQL Server 配接器使用的訊息和資料類型的 XML 結構
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e95c6342-5420-4fb8-9b41-7c87d27b5b68
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222374"
 ---
 # <a name="messages-and-message-schemas-for-biztalk-adapter-for-sql-server"></a>訊息與 BizTalk adapter for SQL Server 的訊息結構描述
 

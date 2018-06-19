@@ -1,17 +1,17 @@
 ---
-title: "使用 WCF 服務模型的 Oracle 資料庫中執行的作業使用的記錄類型 |Microsoft 文件"
-ms.custom: 
+title: 使用 WCF 服務模型的 Oracle 資料庫中執行的作業使用的記錄類型 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - RECORD types, performing operations
 - WCF service model, performing operations using RECORD types
 ms.assetid: e7118a86-7470-48bb-aca0-6200dc0bb67c
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216254"
 ---
 # <a name="run-operations-using-record-types-in-oracle-database-using-the-wcf-service-model"></a>使用 WCF 服務模型的 Oracle 資料庫中執行的作業使用的記錄類型
 Oracle 記錄類型可用來代表階層式參數傳遞至 PL/SQL 函數和程序中的資訊。 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]呈現記錄類型為複雜的 XML 型別。 在 WCF 服務模型中，會還原序列化強型別.NET 類別的記錄類型。 記錄欄位會表示為類別的屬性。  

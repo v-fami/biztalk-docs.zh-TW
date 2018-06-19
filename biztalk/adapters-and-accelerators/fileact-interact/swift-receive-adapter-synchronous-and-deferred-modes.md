@@ -1,14 +1,14 @@
 ---
-title: "SWIFT 接收配接器同步與延遲模式 |Microsoft 文件"
-ms.custom: 
+title: SWIFT 接收配接器同步與延遲模式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 704def2c-ac82-4cdb-9354-609cc8dc1a0d
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224814"
 ---
 # <a name="swift-receive-adapter-synchronous-and-deferred-modes"></a>SWIFT 接收配接器同步與延遲模式
 SWIFTNet 連結 (SNL) 伺服器應用程式可以在兩種不同模式中運作： 同步與延遲模式。 在同步模式中，伺服器應用程式會傳送商務回應傳回給用戶端應用程式。 在延遲模式中，伺服器應用程式會傳送技術通知傳回給用戶端應用程式。  

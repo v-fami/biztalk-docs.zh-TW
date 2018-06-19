@@ -1,15 +1,15 @@
 ---
-title: "設定連接埠使用 wcf-custom 配接器和 Siebel 配接器在 BizTalk |Microsoft 文件"
-description: "建立 WCF 自訂傳送和接收連接埠，以使用 BizTalk Server 中的 Siebel eBusiness 應用程式配接器"
-ms.custom: 
+title: 設定連接埠使用 wcf-custom 配接器和 Siebel 配接器在 BizTalk |Microsoft 文件
+description: 建立 WCF 自訂傳送和接收連接埠，以使用 BizTalk Server 中的 Siebel eBusiness 應用程式配接器
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 53c5ee07-36ae-474b-9241-8b53c9066ca1
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222326"
 ---
 # <a name="configure-a-port-using-the-wcf-custom-adapter-and-siebel-adapter"></a>設定使用 wcf-custom 配接器和 Siebel 配接器的連接埠
 本主題提供有關如何設定 Wcf-custom 傳送執行輸出作業上使用 Siebel 系統的連接埠[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]。  
@@ -43,7 +44,7 @@ ms.lasthandoff: 09/20/2017
   
 7.  在**Wcf-custom 傳輸屬性**對話方塊方塊中，執行下列動作：  
   
-    1.  按一下**一般** 索引標籤和**位址 (URI)**欄位指定的連接來連接至 Siebel 系統的 URI。 如需連線 URI 的詳細資訊，請參閱[建立 Siebel 系統連接 URI](../../adapters-and-accelerators/adapter-siebel/create-the-siebel-system-connection-uri.md)。  
+    1.  按一下**一般** 索引標籤和**位址 (URI)** 欄位指定的連接來連接至 Siebel 系統的 URI。 如需連線 URI 的詳細資訊，請參閱[建立 Siebel 系統連接 URI](../../adapters-and-accelerators/adapter-siebel/create-the-siebel-system-connection-uri.md)。  
   
     2.  在**一般**索引標籤的**動作**文字方塊中，輸入作業的動作。 請參閱[訊息與訊息結構描述](messages-and-message-schemas-for-siebel-adapter-in-biztalk.md)的每個作業的動作清單。 例如，叫用的帳戶業務元件的 Insert 作業的動作是：  
   

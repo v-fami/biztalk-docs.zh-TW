@@ -1,14 +1,14 @@
 ---
-title: "Oracle 資料庫內的同義字上的作業 |Microsoft 文件"
-ms.custom: 
+title: Oracle 資料庫內的同義字上的作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 608e8c36-ac78-4d7d-aca4-be552505fc2b
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214958"
 ---
 # <a name="operations-on-synonyms-in-oracle-database"></a>Oracle 資料庫內的同義字上的作業
 [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]可讓您在同義字上執行作業。 同義字是別名或資料庫物件 （例如資料表、 檢視、 預存程序、 函數和封裝） 的好記名稱。 如需在 Oracle 中的同義字的詳細資訊，請參閱[http://go.microsoft.com/fwlink/?LinkId=138058](http://go.microsoft.com/fwlink/?LinkId=138058)。  

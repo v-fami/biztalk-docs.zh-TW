@@ -1,14 +1,14 @@
 ---
-title: "檢視報表，適用於 SAP |Microsoft 文件"
-ms.custom: 
+title: 檢視報表，適用於 SAP |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0932ffc5-cde0-4d14-822f-713b760c3f12
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218214"
 ---
 # <a name="view-the-reports-for-sap"></a>適用於 SAP 檢視報表
 建立報表之後，您可以檢視使用 Visual Studio，或透過網路將它裝載網際網路資訊服務 (IIS) 和存取報表伺服器上。 本主題提供有關如何檢視報表，在 Visual Studio 和使用 IIS 的指示。  
@@ -30,7 +31,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  在 報表屬性頁 對話方塊中，按一下  **Configuration Manager**，清除核取方塊，在**部署**資料行。 按一下 [ **關閉**]。  
   
-3.  在 [報表屬性頁] 對話方塊中，針對**StartItem**屬性中，選取報表的名稱，然後按一下**[確定]**。  
+3.  在 [報表屬性頁] 對話方塊中，針對**StartItem**屬性中，選取報表的名稱，然後按一下 **[確定]**。  
   
      ![指定報表伺服器專案的屬性](../../adapters-and-accelerators/adapter-sap/media/b3c500f7-840d-461f-945c-66db239d81b9.gif "b3c500f7-840d-461f-945c-66db239d81b9")  
   

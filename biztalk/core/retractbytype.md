@@ -1,11 +1,11 @@
 ---
-title: "RetractByType |Microsoft 文件"
-ms.custom: 
+title: RetractByType |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - RetractByType function [Business Rules Engine], TypedXMLDocument
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - RetractByType function [Business Rules Engine], DataConnection
 - .NET objects
 ms.assetid: e8867553-ee3c-46be-84cd-d5373eaf3337
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268734"
 ---
 # <a name="retractbytype"></a>RetractByType
 **RetractByType**函式會撤回工作記憶體中的指定類型的所有執行個體，而**Retract**函式會撤回只有特定類型的特定項目。 以下段落描述如何**RetractByType**函式如何使用不同類型的實體。  

@@ -1,17 +1,17 @@
 ---
-title: "Siebel 配接器使用 WCF 服務模型以叫用商務服務方法 |Microsoft 文件"
-ms.custom: 
+title: Siebel 配接器使用 WCF 服務模型以叫用商務服務方法 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF service model, invoking business service methods
 - business service methods, invoking by using the WCF service model
 ms.assetid: b41cf944-efdc-453f-824b-70581e7143e7
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222174"
 ---
 # <a name="invoke-business-service-methods-with-the-siebel-adapter-using-the-wcf-service-model"></a>Siebel 配接器使用 WCF 服務模型以叫用商務服務方法
 您可以建立 WCF 用戶端目標方法的 Siebel 商務服務。 您接著可以使用 WCF 用戶端叫用 Siebel 系統上的這些方法。 Siebel 商務服務便會顯示在 [商務服務] 節點下[!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]。 對應至該服務的節點下便會顯示每個商務服務所公開的方法。 您可以遵循的步驟中[Siebel 配接器之 WCF 服務模型的概觀](../../adapters-and-accelerators/adapter-siebel/overview-of-the-wcf-service-model-with-the-siebel-adapter.md)來產生 WCF 用戶端為商務服務，並使用它來叫用服務的方法。  

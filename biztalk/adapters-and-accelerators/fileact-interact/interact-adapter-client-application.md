@@ -1,14 +1,14 @@
 ---
-title: "InterAct 配接器用戶端應用程式 |Microsoft 文件"
-ms.custom: 
+title: InterAct 配接器用戶端應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cdab4624-0fc2-42a3-9867-8f77e144b40c
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223094"
 ---
 # <a name="interact-adapter-client-application"></a>InterAct 配接器用戶端應用程式
 互動配接器用戶端應用程式要求訊息是從用戶端應用程式用戶端 SWIFTNet 連結 (SNL) 傳遞的 XML 文件。 為用戶端上執行基本的 SWIFTNet 要求/回應的第一個部分，會發生此類型的訊息。  

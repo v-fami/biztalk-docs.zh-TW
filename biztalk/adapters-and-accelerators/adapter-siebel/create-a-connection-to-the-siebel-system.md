@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22221846"
 ---
 # <a name="create-a-connection-to-the-siebel-system"></a>建立連接至 Siebel 系統
 [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)]是[!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)]自訂繫結。 因此，它可讓透過 WCF 端點位址的 Siebel 系統的通訊。 在 WCF 中的端點位址識別服務的網路位置，以及通常表示做為統一資源識別元 (URI)。 [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]表示這個位置做為連接 URI，其中包含屬性的[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]用以連接至 Siebel 系統。 您必須指定連線 URI 時您：  

@@ -1,14 +1,14 @@
 ---
-title: "設定登入認證 SQL 配接器 |Microsoft 文件"
-ms.custom: 
+title: 設定登入認證 SQL 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9c20e177-0e64-4df3-a3dd-dca3fcf314db
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226238"
 ---
 # <a name="configure-the-sign-in-credentials-for-the-sql-adapter"></a>設定登入認證 SQL 配接器
 [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]需要配接器用戶端提供用戶端認證。 配接器使用這些認證來驗證與 SQL Server 使用者並建立連接。  
@@ -52,7 +53,7 @@ ms.lasthandoff: 09/20/2017
     |----------------|----------------|  
     |**無**|使用 Windows 驗證連接到 SQL Server。|  
     |**視窗**|使用 Windows 驗證連接到 SQL Server。|  
-    |**使用者名稱**|指定的使用者名稱和密碼來連接到 SQL Server 藉由指定使用者在 SQL Server 資料庫中定義的認證。 請注意使用者名稱和密碼會區分大小寫。 **注意：**如果您離開**使用者名**和**密碼**空白欄位，配接器連接至 SQL Server 使用 Windows 驗證。|  
+    |**使用者名稱**|指定的使用者名稱和密碼來連接到 SQL Server 藉由指定使用者在 SQL Server 資料庫中定義的認證。 請注意使用者名稱和密碼會區分大小寫。 **注意：** 如果您離開**使用者名**和**密碼**空白欄位，配接器連接至 SQL Server 使用 Windows 驗證。|  
   
 6.  按一下 **[確定]**。  
   
@@ -87,7 +88,7 @@ ms.lasthandoff: 09/20/2017
     |----------------|----------------|  
     |**無**|使用 Windows 驗證連接到 SQL Server。|  
     |**視窗**|使用 Windows 驗證連接到 SQL Server。|  
-    |**使用者名稱**|指定的使用者名稱和密碼來連接到 SQL Server 藉由指定使用者在 SQL Server 資料庫中定義的認證。 請注意使用者名稱和密碼會區分大小寫。 **注意：**如果您離開**使用者名**和**密碼**空白欄位，配接器連接至 SQL Server 使用 Windows 驗證。|  
+    |**使用者名稱**|指定的使用者名稱和密碼來連接到 SQL Server 藉由指定使用者在 SQL Server 資料庫中定義的認證。 請注意使用者名稱和密碼會區分大小寫。 **注意：** 如果您離開**使用者名**和**密碼**空白欄位，配接器連接至 SQL Server 使用 Windows 驗證。|  
   
 8.  按一下 **[確定]**。  
   

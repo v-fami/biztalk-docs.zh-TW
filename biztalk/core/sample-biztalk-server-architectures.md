@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269014"
 ---
 # <a name="sample-biztalk-server-architectures"></a>BizTalk Server 架構範例
 若要儘可能提供 Microsoft® BizTalk® Server 環境最大的安全性，建議您使用根據其中所含資料與服務的重要性以及攻擊者危害伺服器時的暗示，來使用可分散 BizTalk Server 的架構。  

@@ -1,14 +1,14 @@
 ---
-title: "使用 Oracle Business Suite 介面卡和 SharePoint 的考量 |Microsoft 文件"
-ms.custom: 
+title: 使用 Oracle Business Suite 介面卡和 SharePoint 的考量 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 56de6267-ec34-4bd2-abd1-3f2b69876b36
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217510"
 ---
 # <a name="considerations-using-the-oracle-business-suite-adapter-with-sharepoint"></a>使用 Oracle Business Suite 介面卡和 SharePoint 的考量
 本主題包含使用時可能會遇到問題的相關資訊[!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]與 Microsoft Office SharePoint Server，以及解決方式。 問題分為兩類：  

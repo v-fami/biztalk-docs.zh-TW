@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217630"
 ---
 # <a name="sapclientfactory-class-in-the-sap-adapter"></a>SAP 配接器在 SAPClientFactory 類別
 下節列出方法和屬性的**SAPClientFactory**類別。 這衍生自**System.Data.Common.DbProviderFactory**。  

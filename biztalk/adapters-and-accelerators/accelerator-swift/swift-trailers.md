@@ -1,11 +1,11 @@
 ---
-title: "SWIFT 結尾 |Microsoft 文件"
-ms.custom: 
+title: SWIFT 結尾 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SWIFT Trailer schema
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - trailers [SWIFT]
 - SWIFT, trailers
 ms.assetid: b6d64584-0514-4c87-98c0-33755efc4695
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214494"
 ---
 # <a name="swift-trailers"></a>SWIFT 結尾
 每個 SWIFT 的訊息都有一或多個結尾所需的訊息交換和安全性需求。 系統結尾，如果適用的話，請遵循使用者結尾。 結尾區塊內的每一個結尾會顯示進一步的成對的大括號以分隔的子區塊內。 每一個子區塊的結尾類型，後面接著冒號的三個字母開頭。  

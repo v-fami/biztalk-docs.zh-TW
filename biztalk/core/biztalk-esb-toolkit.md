@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 08035518-17ad-44d2-ab06-90d725c95ced
-caps.latest.revision: ''
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22231886"
 ---
 # <a name="biztalk-esb-toolkit"></a>BizTalk ESB 工具組
 Microsoft BizTalk ESB 工具組會使用 Microsoft BizTalk Server 支援鬆散結合的訊息結構。 BizTalk Server 包含功能強大的發佈/訂閱機制訊息的方式就是建立應用程式和填滿訂閱，可提供高度有效率且可擴充的平台的服務導向架構 (SOA) 應用程式。 BizTalk ESB Toolkit 擴充功能的 BizTalk Server 提供一系列的新功能，著重於建置穩固、 連線、 服務導向應用程式，納入行程為基礎的服務引動過程的輕量服務組合、 動態的解決方式的端點和地圖、 Web 服務和 WS-* 整合、 錯誤管理和報告，以及與協力廠商 SOA 控管解決方案整合。  

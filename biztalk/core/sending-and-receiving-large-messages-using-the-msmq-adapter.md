@@ -1,18 +1,18 @@
 ---
-title: "傳送和接收大型訊息使用 MSMQ 配接器 |Microsoft 文件"
-ms.custom: 
+title: 傳送和接收大型訊息使用 MSMQ 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, large messages
 - configuring [MSMQ adapters], large messages
 - MSMQ adapters, large messages
 ms.assetid: 208efbed-7b58-4da5-ba27-65a315c2713b
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269526"
 ---
 # <a name="sending-and-receiving-large-messages-using-the-msmq-adapter"></a>使用 MSMQ 配接器傳送和接收大型訊息
 MSMQ 配接器預設訊息處理部分與訊息大小相關。 當訊息小於 4 MB 時，MSMQ 配接器使用 .NET Framework 類別庫。 否則，它會使用 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中的大型訊息延伸模組。  

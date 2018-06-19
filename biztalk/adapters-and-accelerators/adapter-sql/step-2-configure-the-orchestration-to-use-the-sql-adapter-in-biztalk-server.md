@@ -1,14 +1,14 @@
 ---
-title: "步驟 2： 使用 SQL 配接器的 BizTalk Server 管理主控台中設定協調流程 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 使用 SQL 配接器的 BizTalk Server 管理主控台中設定協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d6152560-5ff0-4bdc-818c-e906b9642f52
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,13 +17,14 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223790"
 ---
 # <a name="step-2-configure-the-orchestration-in-biztalk-server-administration-console-using-the-sql-adapter"></a>步驟 2： 使用 SQL 配接器的 BizTalk Server 管理主控台中設定協調流程
 ![步驟 3 之 2](../../adapters-and-accelerators/adapter-oracle-database/media/step-2of3.gif "Step_2of3")  
   
  **若要完成的時間：** 10 分鐘  
   
- **目標：**在此步驟中，您可以執行下列工作：  
+ **目標：** 在此步驟中，您可以執行下列工作：  
   
 -   建立 WCF 自訂傳送-接收埠以傳送和接收訊息，從 SQL Server 資料庫使用[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。 設定此連接埠使用您在上一個步驟中建立的對應。  
   

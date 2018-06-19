@@ -1,11 +1,11 @@
 ---
-title: "SAP 中的提供者所使用的自訂 Rfc |Microsoft 文件"
-ms.custom: 
+title: SAP 中的提供者所使用的自訂 Rfc |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Z_EXTRACT_DATA_OO, limitations related to
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Z_EXTRACT_DATA_OO, best practice
 - Z_EXTRACT_DATA_OO, security issue
 ms.assetid: 95661f4c-0431-40ca-8a53-3fbe359b8afd
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216838"
 ---
 # <a name="custom-rfcs-used-by-the-provider-in-sap"></a>SAP 中的提供者所使用的自訂 Rfc
 [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]提供下列在內部會使用在 SAP 系統上執行作業的自訂 Rfc。  

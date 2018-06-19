@@ -1,14 +1,14 @@
 ---
-title: "開發 SQL 應用程式使用 WCF 服務模型 |Microsoft 文件"
-ms.custom: 
+title: 開發 SQL 應用程式使用 WCF 服務模型 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d3ecfd6f-9144-4e41-a4b8-0c768a6ac254
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223206"
 ---
 # <a name="develop-sql-applications-using-the-wcf-service-model"></a>開發 SQL 應用程式使用 WCF 服務模型
 [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)]提供程式設計模型的 WCF 通道的替代方式為呼叫 WCF 服務模型程式設計模型。  

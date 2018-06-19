@@ -1,14 +1,14 @@
 ---
-title: "瀏覽、 搜尋及取得 Oracle E-business Suite 中繼資料 |Microsoft 文件"
-ms.custom: 
+title: 瀏覽、 搜尋及取得 Oracle E-business Suite 中繼資料 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b516c6e9-dbb3-4977-bb27-aa039e021912
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218294"
 ---
 # <a name="browse-search-and-get-oracle-e-business-suite-metadata"></a>瀏覽、 搜尋及取得 Oracle E-business Suite 中繼資料
 中繼資料，[!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]從 Oracle E-business Suite 和基礎的 Oracle 資料庫的介面描述的訊息結構來與 Oracle E-business Suite 使用配接器進行通訊。 [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]支援兩個介面來擷取中繼資料。  
@@ -81,8 +82,8 @@ SELECT TABLE_NAME FROM ALL_TABLES WHERE TABLE_NAME LIKE 'EMP%' AND OWNER = 'SCOT
 > [!IMPORTANT]
 >  -   搜尋字串會區分大小寫。  
 > -   搜尋 （應用程式為基礎的檢視、 成品為基礎的檢視和結構描述為基礎的檢視） 之不同檢視底下的運作方式不同。 若要知道如何您可以搜尋成品和每個檢視底下的作業，請參閱 < 在不同的檢視搜尋 >[搜尋 Oracle E-business Suite 作業](../../adapters-and-accelerators/adapter-oracle-ebs/search-for-oracle-e-business-suite-operations.md)。  
-> -   若要搜尋應用程式中，您可以指定好記的名稱或應用程式的簡短名稱。 例如，若要搜尋**應收帳款**應用程式，您可以指定搜尋字串為**接收 %**或**AR**。 AR 是應用程式的簡短名稱。  
-> -   要搜尋並行程式，您可以指定好記的名稱或並行處理程式的實際名稱。 例如，若要搜尋**客戶介面**並行程式，您可以指定搜尋字串為**%客戶介面 %**或**%racust**。 RACUST 是並行程式的實際名稱。 此外，搜尋結果永遠包含標準的並行程式，不論其名稱是否符合指定的搜尋字串。  
+> -   若要搜尋應用程式中，您可以指定好記的名稱或應用程式的簡短名稱。 例如，若要搜尋**應收帳款**應用程式，您可以指定搜尋字串為**接收 %** 或**AR**。 AR 是應用程式的簡短名稱。  
+> -   要搜尋並行程式，您可以指定好記的名稱或並行處理程式的實際名稱。 例如，若要搜尋**客戶介面**並行程式，您可以指定搜尋字串為 **%客戶介面 %** 或 **%racust**。 RACUST 是並行程式的實際名稱。 此外，搜尋結果永遠包含標準的並行程式，不論其名稱是否符合指定的搜尋字串。  
   
 ## <a name="retrieving-metadata"></a>擷取中繼資料  
  擷取中繼資料時[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]可以擷取下的結構描述，包括所有的中繼資料，或使用個別的物件和作業的參數物件的資料庫子集。 配接器會顯示實體從 Oracle E-business Suite 和基礎的 Oracle 資料庫當做 XML 中的項目名稱。 因為底線是只允許可以包含特殊字元，是使用底線來編碼所有其他特殊字元的元素名稱。 例如，`emp$name`編碼為`emp_x0024_name`。 如需詳細資訊，請參閱[取得中繼資料使用 SQL 配接器的 Visual Studio 中的 SQL Server 作業](../../adapters-and-accelerators/adapter-sql/get-metadata-for-sql-server-operations-in-visual-studio-using-the-sql-adapter.md)。  

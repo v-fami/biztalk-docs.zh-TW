@@ -1,18 +1,18 @@
 ---
-title: "在 Siebel 商務元件上的作業 |Microsoft 文件"
-ms.custom: 
+title: 在 Siebel 商務元件上的作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - business components, operations on
 - operations, on business components
 - operations, on business components with picklist fields
 ms.assetid: 5430a8bd-88eb-4851-92e3-676ca83780c9
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223614"
 ---
 # <a name="operations-on-business-components-in-siebel"></a>在 Siebel 商務元件上的作業
 Siebel 商務元件是將一或多個資料庫資料表中的資料行成單一結構相關聯的邏輯實體。 配接器用戶端可以執行下列作業在 Siebel 商務元件上的使用配接器：  

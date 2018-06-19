@@ -1,18 +1,18 @@
 ---
-title: "建立新的郵件範本 |Microsoft 文件"
-ms.custom: 
+title: 建立新的郵件範本 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, templates
 - templates, creating
 - creating, templates
 ms.assetid: 8c601d2b-b7a5-4ac4-9d98-fd9960038340
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209238"
 ---
 # <a name="creating-a-new-message-template"></a>建立新的郵件範本
 您可以從現有的範本建立新的郵件範本。 這可讓自訂的表單，例如標準的 SWIFT 表單已輸入一些資料的複本上建立新的訊息執行個體的建立者。 使用新範本，建立者並沒有輸入的所有使用空的表單時所需的資料。  

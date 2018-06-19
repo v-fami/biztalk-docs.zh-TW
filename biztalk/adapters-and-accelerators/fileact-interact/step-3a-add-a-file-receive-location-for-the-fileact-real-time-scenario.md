@@ -1,14 +1,14 @@
 ---
-title: "步驟 3A： 新增 FILE 接收位置 FileAct 即時案例 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3A： 新增 FILE 接收位置 FileAct 即時案例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 73b044b4-6611-493f-969c-02b52cb56ba7
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223926"
 ---
 # <a name="step-3a-add-a-file-receive-location-for-the-fileact-real-time-scenario"></a>步驟 3A： 新增 FILE 接收位置 FileAct 即時案例
 在開始此步驟之前，必須先完成[步驟 2： 新增 SWIFTNet 設定 FileAct 即時案例 Paramfile](../../adapters-and-accelerators/fileact-interact/step-2-add-swiftnet-configuration-to-paramfile-for-fileact-real-time-scenario.md)。  

@@ -1,11 +1,11 @@
 ---
-title: "REF CURSOR 的訊息結構描述 |Microsoft 文件"
-ms.custom: 
+title: REF CURSOR 的訊息結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - REF CURSORS, message schemas for
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - OUT REF CURSOR
 - IN OUT REF CURSOR
 ms.assetid: b62e7a9f-278c-41b3-90f0-2f621a34327b
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214758"
 ---
 # <a name="message-schemas-for-ref-cursors"></a>REF CURSOR 的訊息結構描述
 REF CURSOR 是 Oracle 的 PL/SQL 資料類型，表示結果集的 Oracle 資料庫中的指標。 REF CURSOR 類型啟用輸入和輸出資料的資料流，適合用來傳輸大量資料的 PL/SQL 程式碼區塊。 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]提供傳遞強型別和弱型別 REF CURSOR 參數的 PL/SQL 程序和函式中，逾時及在 OUT 參數的支援。  

@@ -1,18 +1,18 @@
 ---
-title: "Siebel 配接器中的 SiebelClientFactory 類別 |Microsoft 文件"
-ms.custom: 
+title: Siebel 配接器中的 SiebelClientFactory 類別 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SiebelClientFactory
 - Data Provider for Siebel, SiebelClientFactory
 - SiebelClientFactory, supported properties and methods
 ms.assetid: f3a807d3-a030-47d8-b145-e18075ec353c
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222062"
 ---
 # <a name="siebelclientfactory-class-in-the-siebel-adapter"></a>Siebel 配接器中 SiebelClientFactory 類別
 ADO.NET 用戶端會存取[!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]使用泛型的 ADO.NET 類別和介面。 若要啟用這項功能，[!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]繼承**System.Data.Common.DbProviderFactory**類別。 用戶端，也會耗用用戶端，如下所示：  

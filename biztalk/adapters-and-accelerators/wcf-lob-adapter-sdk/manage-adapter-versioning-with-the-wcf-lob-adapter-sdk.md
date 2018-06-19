@@ -1,14 +1,14 @@
 ---
-title: "管理配接器使用 WCF LOB 配接器 SDK 進行版本控制 |Microsoft 文件"
-ms.custom: 
+title: 管理配接器使用 WCF LOB 配接器 SDK 進行版本控制 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fb596fdd-251c-4978-9f33-cf2883d281d8
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225830"
 ---
 # <a name="manage-adapter-versioning-with-the-wcf-lob-adapter-sdk"></a>管理配接器使用 WCF LOB 配接器 SDK 進行版本控制
 初始部署之後的配接器和潛在進行數次存留期間，配接器 （和它們所公開的端點） 可能需要針對各種原因而變更。 這些原因，包括變更商務需要、 資訊技術需求或問題商務系統或配接器本身的列。 本主題討論不同的策略來處理使用撰寫的配接器的版本控制[!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)]。  

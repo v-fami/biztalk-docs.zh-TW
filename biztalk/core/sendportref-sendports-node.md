@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269958"
 ---
 # <a name="sendportref-sendports-node"></a>SendPortRef (SendPorts 節點)
 繫結檔案之 SendPorts 節點的 SendPortRef 節點會指定通訊群組清單所參考之傳送埠的名稱。  

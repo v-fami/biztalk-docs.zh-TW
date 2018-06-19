@@ -1,14 +1,14 @@
 ---
-title: "複雜全域型別定義和命名 |Microsoft 文件"
-ms.custom: 
+title: 複雜全域型別定義和命名 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b5a12956-7b77-4be8-b323-38363d04fcbc
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231622"
 ---
 # <a name="complex-global-type-definition-and-naming"></a>複雜全域型別定義和命名
 在 [BizTalk 編輯器] 中，您可以在會用到全域型別 (在複雜型別轉換為全域型別後) 的其中一個位置，定義第一個出現的複雜型別，來開始定義複雜全域型別。 接著討論地址範例，您可以在定義結構描述中的出貨地址之過程中，定義複雜地址類型。  

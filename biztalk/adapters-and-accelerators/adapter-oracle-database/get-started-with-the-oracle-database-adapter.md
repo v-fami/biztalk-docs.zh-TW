@@ -1,18 +1,18 @@
 ---
-title: "開始使用 Oracle 資料庫配接器 |Microsoft 文件"
-ms.custom: 
+title: 開始使用 Oracle 資料庫配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapters, about
 - data adapter
 - LOB adapter
 ms.assetid: ed5b3510-11c4-4b10-bf85-c4066f3f80df
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214438"
 ---
 # <a name="get-started-with-the-oracle-database-adapter"></a>開始使用 Oracle 資料庫配接器
 本節提供使用者熟悉 Microsoft 配接器、 必要條件和主題的總覽[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]。 其中也會討論的功能[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]以及可以使用配接器的 Oracle 資料庫執行的不同作業。  

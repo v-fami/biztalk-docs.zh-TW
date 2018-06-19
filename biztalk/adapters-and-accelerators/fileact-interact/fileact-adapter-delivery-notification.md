@@ -1,14 +1,14 @@
 ---
-title: "FileAct 配接器傳遞通知 |Microsoft 文件"
-ms.custom: 
+title: FileAct 配接器傳遞通知 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fbd8207b-c50f-4a5d-ac2f-7dc8f5af54c7
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223966"
 ---
 # <a name="fileact-adapter-delivery-notification"></a>FileAct 配接器傳遞通知
 確認後完成 （包括簽章和摘要式驗證） 接收的訊息要求中所示，FileAct 配接器會傳輸給傳送者適當的傳遞通知。  

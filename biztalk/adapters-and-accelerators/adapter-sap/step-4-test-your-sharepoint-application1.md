@@ -1,14 +1,14 @@
 ---
-title: "步驟 4： 測試您的 SharePoint Application1 |Microsoft 文件"
-ms.custom: 
+title: 步驟 4： 測試您的 SharePoint Application1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f7ded5a5-88d5-40aa-814b-70bc0a7dcfa3
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,13 +17,14 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216630"
 ---
 # <a name="step-4-test-your-sharepoint-application"></a>步驟 4： 測試 SharePoint 應用程式
 ![步驟 4 之 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-4of4.gif "Step_4of4")  
   
  **若要完成的時間：** 10 分鐘  
   
- **目標：**您 SharePoint 網站中加入 Web 組件，並建立應用程式，您必須測試應用程式擷取從 SAP 系統的一些資料之後。 本主題說明如何使用應用程式從 SAP 系統中擷取資料。  
+ **目標：** 您 SharePoint 網站中加入 Web 組件，並建立應用程式，您必須測試應用程式擷取從 SAP 系統的一些資料之後。 本主題說明如何使用應用程式從 SAP 系統中擷取資料。  
   
 ## <a name="prerequisites"></a>必要條件  
   

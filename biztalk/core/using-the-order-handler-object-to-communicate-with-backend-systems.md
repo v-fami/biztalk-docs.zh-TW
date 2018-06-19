@@ -1,17 +1,17 @@
 ---
-title: "使用訂單處理常式物件與後端系統通訊 |Microsoft 文件"
-ms.custom: 
+title: 使用訂單處理常式物件與後端系統通訊 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - IOrderHandler interface
 - process management solution tutorial, IOrderHandler interface
 ms.assetid: b9fe4120-bf2a-4d15-a34b-6b98f026b984
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288062"
 ---
 # <a name="using-the-order-handler-object-to-communicate-with-backend-systems"></a>使用訂單處理常式物件與後端系統通訊
 商務程序管理解決方案和傳統的後端訂單系統有多種通訊方式，而後端訂單系統就是接收最後訂單的網路供給系統。 解決方案會使用 Microsoft [!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)] 中的 .NET 遠端處理功能來和供給系統通訊。  

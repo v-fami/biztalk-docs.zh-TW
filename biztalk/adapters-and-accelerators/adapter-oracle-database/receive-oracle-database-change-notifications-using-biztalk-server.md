@@ -1,14 +1,14 @@
 ---
-title: "接收使用 BizTalk Server 的 Oracle 資料庫變更通知 |Microsoft 文件"
-ms.custom: 
+title: 接收使用 BizTalk Server 的 Oracle 資料庫變更通知 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 495a29bc-72f6-4140-8160-0b917d935503
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215222"
 ---
 # <a name="receive-oracle-database-change-notifications-using-biztalk-server"></a>接收使用 BizTalk Server 的 Oracle 資料庫變更通知
 您可以設定[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]來接收從 Oracle 資料庫的資料庫變更通知訊息。 您可以指定配接器用來註冊通知與 Oracle 資料庫的 SELECT 陳述式。 結果集針對 SELECT 陳述式，註冊通知，請變更時，配接器會接收通知訊息。 如需配接器如何支援通知的詳細資訊，請參閱[接收資料庫變更通知使用 Oracle 資料庫配接器的考量](../../adapters-and-accelerators/adapter-oracle-database/before-you-receive-database-change-notifications-using-the-oracle-db-adapter.md)。  

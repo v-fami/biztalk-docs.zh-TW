@@ -1,14 +1,14 @@
 ---
-title: "規劃建立結構描述 |Microsoft 文件"
-ms.custom: 
+title: 規劃建立結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4ecb9154-b457-4209-b9b9-572c186bf5e7
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264638"
 ---
 # <a name="planning-for-schema-creation"></a>規劃建立結構描述
 您可以使用結構描述以驗證要符合結構描述的訊息執行個體、定義如何雙向轉譯不同格式 (XML 和非 XML) 的執行個體訊息，以及定義如何將某個結構的 XML 執行個體訊息轉換為不同結構的 XML 執行個體訊息。 如需有關執行個體訊息轉譯與執行個體訊息轉換之間差別的詳細資訊，請參閱[轉換 vs。轉譯](../core/data-transformation.md)。  

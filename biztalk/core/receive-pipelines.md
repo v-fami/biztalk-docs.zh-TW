@@ -1,11 +1,11 @@
 ---
-title: "接收管線 |Microsoft 文件"
-ms.custom: 
+title: 接收管線 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive pipelines, about receive pipelines
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - pipelines, receive pipelines
 - receive pipelines, stages
 ms.assetid: ee75c1d4-00b7-4177-bca3-1447a39d2238
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268862"
 ---
 # <a name="receive-pipelines"></a>接收管線
 下圖顯示訊息處理工作流程，並以反白顯示接收管線。  

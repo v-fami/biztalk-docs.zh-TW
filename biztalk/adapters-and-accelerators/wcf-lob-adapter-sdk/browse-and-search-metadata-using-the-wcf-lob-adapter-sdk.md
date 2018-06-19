@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fbb4add7-6cc8-4b93-b559-471b6e31c01a
-caps.latest.revision: ''
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22225670"
 ---
 # <a name="browse-and-search-metadata-using-the-wcf-lob-adapter-sdk"></a>瀏覽和搜尋中繼資料使用 WCF LOB 配接器 SDK
 本節提供如何藉由分別實作 IMetadataBrowseHandler IMetadataSearchHandler，公開與配接器的瀏覽和搜尋功能的相關資訊。  

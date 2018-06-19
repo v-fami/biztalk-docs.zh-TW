@@ -1,14 +1,14 @@
 ---
-title: "教學課程 1： 將 BizTalk 專案移轉至 SQL 配接器 |Microsoft 文件"
-ms.custom: 
+title: 教學課程 1： 將 BizTalk 專案移轉至 SQL 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0b4d2dbb-e37c-4d70-831f-3bdac3c28c97
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225366"
 ---
 # <a name="tutorial-1-migrate-biztalk-projects-to-the-sql-adapter"></a>教學課程 1： 移轉至 SQL 配接器的 BizTalk 專案
 舊版的 SQL 配接器隨附於 Microsoft[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]與 WCF 架構[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]在許多方面，包括：  

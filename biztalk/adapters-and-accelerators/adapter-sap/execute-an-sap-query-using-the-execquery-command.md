@@ -1,14 +1,14 @@
 ---
-title: "執行使用 EXECQUERY 命令 SAP 查詢 |Microsoft 文件"
-ms.custom: 
+title: 執行使用 EXECQUERY 命令 SAP 查詢 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 520153bf-9477-4b35-8953-3f5cb444ab9f
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217206"
 ---
 # <a name="execute-an-sap-query-using-the-execquery-command"></a>執行 SAP 查詢使用 EXECQUERY 命令
 [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)]公開為 ADO.NET 資料來源的 SAP 系統。 與[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]，您也可以執行 EXECQUERY 陳述式在 SAP 系統中執行預先定義的查詢。  

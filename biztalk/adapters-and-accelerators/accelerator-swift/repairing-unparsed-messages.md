@@ -1,18 +1,18 @@
 ---
-title: "修復未剖析的訊息 |Microsoft 文件"
-ms.custom: 
+title: 修復未剖析的訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - unparsed messages
 - repairing messages, unparsed messages
 - messages, unparsed messages
 ms.assetid: cc061243-3539-4407-a096-71a3feded1c5
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214542"
 ---
 # <a name="repairing-unparsed-messages"></a>修復未剖析的訊息
 如果[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]解譯器無法剖析訊息，您可以修復該訊息。 請在[!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]表單內[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]MRSR 站台。 不過，[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]處理該訊息以不同的方式從修復的訊息 XML 或 BRE 驗證失敗。  

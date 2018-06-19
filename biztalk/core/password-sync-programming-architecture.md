@@ -1,14 +1,14 @@
 ---
-title: "密碼同步程式設計架構 |Microsoft 文件"
-ms.custom: 
+title: 密碼同步程式設計架構 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 679edbf1-fb08-4472-b366-3e1d361b20e7
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264670"
 ---
 # <a name="password-sync-programming-architecture"></a>密碼同步程式設計架構
 密碼同步配接器會使用提取模型的企業單一登入系統的其餘部分互動： 也就是配接器主動接收密碼變更從 「 企業單一登入 (ENTSSO) 服務和也非 Windows 系統。 同理，配接器會將接收到的密碼變更從一個系統推到另一個。 與此模型中，您的配接器互動具有三個架構的元件： ENTSSO 架構、 密碼同步 (PS) 協助程式元件，以及指定的非 Windows 系統。  

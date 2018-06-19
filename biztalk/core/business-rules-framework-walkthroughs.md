@@ -1,14 +1,14 @@
 ---
-title: "商務規則架構逐步解說 |Microsoft 文件"
-ms.custom: 
+title: 商務規則架構逐步解說 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 55dfb642-c2fc-40f7-a343-41712e812041
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231350"
 ---
 # <a name="business-rules-framework-walkthroughs"></a>商務規則架構逐步解說
 本節包含下列使用商務規則架構的逐步解說。  

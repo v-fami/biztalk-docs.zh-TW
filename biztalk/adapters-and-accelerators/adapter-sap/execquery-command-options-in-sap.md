@@ -1,14 +1,14 @@
 ---
-title: "EXECQUERY SAP 中的命令選項 |Microsoft 文件"
-ms.custom: 
+title: EXECQUERY SAP 中的命令選項 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 785c615c-b766-4d05-8802-4eb694cb3500
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216222"
 ---
 # <a name="execquery-command-options-in-sap"></a>EXECQUERY SAP 中的命令選項
 [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]可讓用戶端使用 EXECQUERY 命令叫用 SAP 查詢從 ADO.NET 應用程式。 本節提供有關 EXECQUERY 命令語法和使用方式。 本節也提供如何藉由查看查詢的定義，在 SAP 系統中框架 EXECQUERY 語法的資訊。  

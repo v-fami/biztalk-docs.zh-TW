@@ -1,14 +1,14 @@
 ---
-title: "搭配 WCF 服務模型中使用 SQL 配接器的輪詢 SQL Server |Microsoft 文件"
-ms.custom: 
+title: 搭配 WCF 服務模型中使用 SQL 配接器的輪詢 SQL Server |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: eef2e868-bd51-4393-b091-f67299b4759d
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222910"
 ---
 # <a name="poll-sql-server-using-the-sql-adapter-with-wcf-service-model"></a>搭配 WCF 服務模型中使用 SQL 配接器的輪詢 SQL Server
 您可以設定[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]以接收來自 SQL Server 輪詢基礎資料變更的訊息。 您可以指定執行以輪詢資料庫配接器的輪詢陳述式。 輪詢陳述式可以是 SELECT 陳述式或預存程序會傳回結果集。 根據接收的輪詢訊息類型，則配接器會公開不同的輪詢作業：  

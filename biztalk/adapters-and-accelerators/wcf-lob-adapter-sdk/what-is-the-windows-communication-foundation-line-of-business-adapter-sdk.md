@@ -1,14 +1,14 @@
 ---
-title: "何謂 Windows Communication Foundation 列商務配接器 SDK 的 |Microsoft 文件"
-ms.custom: 
+title: 何謂 Windows Communication Foundation 列商務配接器 SDK 的 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dc690e8f-fd37-44b5-a277-89952e631ae6
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226486"
 ---
 # <a name="what-is-the-windows-communication-foundation-line-of-business-adapter-sdk"></a>什麼是 Windows Communication Foundation 列商務配接器 SDK 的
 功能和元件中的概觀[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。 本主題也說明重要概念，包括中繼資料、 連線管理，以及若要知道，例如繫結和通道的詞彙。

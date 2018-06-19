@@ -1,15 +1,15 @@
 ---
-title: "SAP 查詢參數轉譯 mySAP 配接器在 BizTalk 中 EXECQUERY 命令 |Microsoft 文件"
-description: "要轉譯之範例 EXECQUERY，SAP 查詢的指導方針"
-ms.custom: 
+title: SAP 查詢參數轉譯 mySAP 配接器在 BizTalk 中 EXECQUERY 命令 |Microsoft 文件
+description: 要轉譯之範例 EXECQUERY，SAP 查詢的指導方針
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8a545e20-2607-4946-a60d-0a227b86d093
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217726"
 ---
 # <a name="translate-sap-query-parameters-into-execquery-command"></a>SAP 查詢參數轉譯 EXECQUERY 命令
 說明如何查詢的參數將轉譯成 EXECQUERY 命令文字。 本主題會使用自訂的 SAP 查詢，ZQUERY_TST_NEW 的範例。  

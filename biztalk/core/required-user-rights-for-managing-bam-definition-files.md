@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22268750"
 ---
 # <a name="required-user-rights-for-managing-bam-definition-files"></a>管理 BAM 定義檔案所需的使用者權限
 任何角色中的使用者都可以建立、管理和檢視 BAM 定義檔案。 管理 BAM 定義檔案包括了部署和移除定義檔案，以及管理與定義檔案關聯的活動、檢視、警示和成品。  

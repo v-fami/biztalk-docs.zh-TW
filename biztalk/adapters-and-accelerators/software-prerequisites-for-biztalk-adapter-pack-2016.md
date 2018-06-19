@@ -1,14 +1,14 @@
 ---
-title: "BizTalk 配接器組件 2016 軟體必要元件 |Microsoft 文件"
-ms.custom: 
+title: BizTalk 配接器組件 2016 軟體必要元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 65a063ca-37ae-420b-9d48-e6730caf17e3
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22227118"
 ---
 # <a name="software-prerequisites-for-biztalk-adapter-pack-2016"></a>BizTalk 配接器組件 2016 軟體必要元件
 列出 Microsoft 的軟體需求[!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)](BAP) 隨附[!INCLUDE[bts2016_md](../includes/bts2016-md.md)]。

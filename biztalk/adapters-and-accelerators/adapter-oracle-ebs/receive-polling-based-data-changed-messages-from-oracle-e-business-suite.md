@@ -1,14 +1,14 @@
 ---
-title: "從 Oracle E-business Suite 接收輪詢基礎資料變更訊息 |Microsoft 文件"
-ms.custom: 
+title: 從 Oracle E-business Suite 接收輪詢基礎資料變更訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cbcb23d0-508d-4601-91b4-c674d76cd063
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218614"
 ---
 # <a name="receive-polling-based-data-changed-messages-from-oracle-e-business-suite"></a>從 Oracle E-business Suite 接收輪詢基礎資料變更的訊息
 [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]支援藉由輪詢介面資料表、 介面檢視、 資料表和檢視接收輪詢基礎資料變更的訊息。 配接器會將訊息傳遞至應用程式：  
@@ -37,7 +38,7 @@ ms.lasthandoff: 09/20/2017
 |繫結屬性|值|預設值|必要項目/選用項目|  
 |----------------------|-----------|-------------|------------------------|  
 |**InboundOperationType**|請確定值設定為**輪詢**。|輪詢|必要。 如果沒有明確設定，預設值會套用。|  
-|**PolledDataAvailableStatement**|指定 SELECT 陳述式執行，以判斷是否可用於針對特定資料表輪詢的任何資料。 指定的陳述式必須傳回的結果集資料列和資料行所組成。 結果集的第一個資料格中的值，指出配接器是否會執行指定的值**PollingInput**繫結屬性。 如果結果的第一個資料格包含正數值時，配接器會執行輪詢陳述式。 例如，會是有效的陳述式，這個繫結屬性：<br /><br /> `Select * from <table_name>`<br /><br /> **注意：**您必須指定這個繫結屬性的預存程序。 此外，此陳述式必須不會修改 Oracle E-business Suite 或基礎的 Oracle 資料庫中的資料。|null|必要。|  
+|**PolledDataAvailableStatement**|指定 SELECT 陳述式執行，以判斷是否可用於針對特定資料表輪詢的任何資料。 指定的陳述式必須傳回的結果集資料列和資料行所組成。 結果集的第一個資料格中的值，指出配接器是否會執行指定的值**PollingInput**繫結屬性。 如果結果的第一個資料格包含正數值時，配接器會執行輪詢陳述式。 例如，會是有效的陳述式，這個繫結屬性：<br /><br /> `Select * from <table_name>`<br /><br /> **注意：** 您必須指定這個繫結屬性的預存程序。 此外，此陳述式必須不會修改 Oracle E-business Suite 或基礎的 Oracle 資料庫中的資料。|null|必要。|  
 |**PollingAction**|指定輪詢作業的動作。 您可以判斷您的作業使用產生的中繼資料從特定作業的輪詢動作[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]。|null|選擇性的資料表和檢視表使用 SELECT 陳述式的輪詢作業。|  
 |**PollingInput**|指定下列其中一項：<br /><br /> Oracle E-business Suite 應對其執行的 SQL SELECT 陳述式。 這個陳述式應該包含 FOR UPDATE 子句。 FOR UPDATE 子句的相關資訊，請參閱[輪詢陳述式中指定 FOR UPDATE 子句](#ForUpdate)本主題稍後。<br /><br /> -要求的預存程序、 函數或程序或函式內的封裝，您想要輪詢的訊息。|null|必要。 設定**PollingInput**為非 null 值可讓輪詢。|  
 |**PollingInterval**|設定的間隔，以秒為單位，想要查詢 Oracle E-business Suite 的介面卡。 此屬性指定的輪詢間隔，輪詢交易逾時時間。值必須大於 （如果已指定） 上 Oracle E-business Suite 執行查詢和後輪詢陳述式所花費的時間量再加上的用戶端處理的查詢資料，並傳回輪詢回應訊息所花費的時間量。|30|必要。 如果沒有明確設定，預設值會套用。|  

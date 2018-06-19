@@ -1,14 +1,14 @@
 ---
-title: "開發 BizTalk 應用程式與 SQL 配接器的建置組塊 |Microsoft 文件"
-ms.custom: 
+title: 開發 BizTalk 應用程式與 SQL 配接器的建置組塊 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fac7cbf4-b111-43ad-8726-36d037918c9c
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223606"
 ---
 # <a name="building-blocks-to-develop-biztalk-applications-with-the-sql-adapter"></a>開發 BizTalk 應用程式與 SQL 配接器的建置組塊
 若要使用執行 SQL Server 上的作業[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]與[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]，您必須執行一組使用的設計階段和執行階段工作[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]和[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]管理主控台分別。 本節提供這些工作的概觀。 中的所有主題本節中，可示範如何執行 SQL Server 使用的特定作業[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]，這些高階的工作建立模型。  

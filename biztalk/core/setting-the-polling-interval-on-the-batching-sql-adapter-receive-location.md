@@ -1,11 +1,11 @@
 ---
-title: "設定輪詢間隔，在批次處理 SQL 配接器接收位置 |Microsoft 文件"
-ms.custom: 
+title: 設定輪詢間隔，在批次處理 SQL 配接器接收位置 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - polling interval [receive adapters]
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - SQL adapters, receive locations
 - receive locations, SQL adapters
 ms.assetid: 9053b20d-145a-4445-b414-c0482cf975a0
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269686"
 ---
 # <a name="setting-the-polling-interval-on-the-batching-sql-adapter-receive-location"></a>在批次處理 SQL 配接器接收位置上設定輪詢間隔
 您可以設定的輪詢間隔上，為批次處理 SQL 配接器接收位置 (**BatchControlMessageRecvLoc**) 以不同的方式開發和生產環境的電腦上。 在程式開發伺服器上，Microsoft 建議您保持預設的 30 秒輪詢間隔，以快速啟動協議的批次處理協調流程。 然而，在實際執行伺服器上，設定為 30 秒可能會影響效能。 一旦批次已啟動，可能需要將輪詢間隔值設高一點，例如 5 分鐘。  

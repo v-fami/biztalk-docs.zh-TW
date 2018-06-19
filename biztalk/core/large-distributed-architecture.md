@@ -32,6 +32,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264790"
 ---
 # <a name="large-distributed-architecture"></a>大型分散式架構
 如需系統架構的完整資訊[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]部署，請參閱[範例 BizTalk Server 架構](../core/sample-biztalk-server-architectures.md)。  

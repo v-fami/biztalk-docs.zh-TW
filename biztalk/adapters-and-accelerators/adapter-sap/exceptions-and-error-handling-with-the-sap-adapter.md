@@ -1,18 +1,18 @@
 ---
-title: "例外狀況和錯誤處理與 SAP 配接器 |Microsoft 文件"
-ms.custom: 
+title: 例外狀況和錯誤處理與 SAP 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - exceptions and error handling
 - error handling, troubleshooting
 - troubleshooting, exceptions and error handling
 ms.assetid: 598a25c5-6905-4c0c-835b-159d827b2269
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216846"
 ---
 # <a name="exceptions-and-error-handling-with-the-sap-adapter"></a>例外狀況和錯誤處理與 SAP 配接器
 會列出例外狀況，[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]會擲回。 這些可以包含：  

@@ -1,11 +1,11 @@
 ---
-title: "角色連結和服務連結角色 |Microsoft 文件"
-ms.custom: 
+title: 角色連結和服務連結角色 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deleting, orchestrations
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - role links, about role links
 - orchestrations, deleting
 ms.assetid: 23b4ca34-a1a5-44d4-a50d-661277681c72
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268678"
 ---
 # <a name="role-links-and-service-link-roles"></a>角色連結和服務連結角色
 A*角色*是使用服務或實作服務的連接埠類型的集合。 角色代表合作對象可擁有一或多個協調流程的互動類型。 當合作對象的數目增加時，角色提供彈性與簡易管理。 例如，協調流程可能使用託運商的角色。 託運商可能有一或多個合作對象與它關聯。 協調流程決定要僱用哪家託運公司運送項目時，它會比較託運商角色中合作對象的價格。  

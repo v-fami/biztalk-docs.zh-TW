@@ -1,14 +1,14 @@
 ---
-title: "重複使用 SQL 配接器繫結 |Microsoft 文件"
-ms.custom: 
+title: 重複使用 SQL 配接器繫結 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8bc8140f-1d40-492c-bce1-b85e992b3567
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226374"
 ---
 # <a name="reuse-sql-adapter-bindings"></a>重複使用 SQL 配接器繫結
 繫結之間建立對應的邏輯端點 （例如協調流程連接埠或角色連結） 與實體端點 (例如傳送和接收埠)。 這讓通訊能在不同的 BizTalk 商務方案元件之間進行。 您可以使用，以建立繫結[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]管理主控台。  

@@ -1,11 +1,11 @@
 ---
-title: "產生 WCF 用戶端或 WCF 服務合約的 Siebel 方案成品 |Microsoft 文件"
-ms.custom: 
+title: 產生 WCF 用戶端或 WCF 服務合約的 Siebel 方案成品 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - how to, generate a client class by using svcutil.exe
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - how to, generate a client class by using the Add Adapter Service Reference Plug-in
 - how to, generate a client class
 ms.assetid: 52c32c86-6403-4bb4-9d43-1319d19a6b49
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222406"
 ---
 # <a name="generate-a-wcf-client-or-a-wcf-service-contract-for-siebel-solution-artifacts"></a>產生 WCF 用戶端或 WCF 服務合約的 Siebel 方案成品
 您可以使用[!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]產生 WCF 用戶端類別針對 Siebel 成品中選取的作業。 您也可以使用 ServiceModel Metadata Utility Tool (svcutil.exe) 來產生 WCF 用戶端類別。不過，[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]公開 ServiceModel Metadata Utility Tool，透過標準的 Microsoft Windows 介面的功能。 它也提供不是使用 svcutil.exe 工具，可用的瀏覽和搜尋功能，並產生根據您選取當您連接至 Siebel 系統的繫結屬性的組態檔。  
@@ -35,7 +36,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  在[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]方案總管 中，以滑鼠右鍵按一下您的專案，然後**新增配接器服務參考**。  
   
-2.  之後**新增配接器服務參考**對話方塊隨即開啟，請依照下列中的步驟[擷取 Siebel 作業在 Visual Studio 中的中繼資料](../../adapters-and-accelerators/adapter-siebel/get-metadata-for-siebel-operations-in-visual-studio.md)，連接至 Siebel 系統瀏覽和搜尋作業。 若要建立的作業，您選取的 WCF 用戶端類別，務必**用戶端 （輸出作業）**選取從**選取合約型別**下拉式清單 （這是預設值）。  
+2.  之後**新增配接器服務參考**對話方塊隨即開啟，請依照下列中的步驟[擷取 Siebel 作業在 Visual Studio 中的中繼資料](../../adapters-and-accelerators/adapter-siebel/get-metadata-for-siebel-operations-in-visual-studio.md)，連接至 Siebel 系統瀏覽和搜尋作業。 若要建立的作業，您選取的 WCF 用戶端類別，務必**用戶端 （輸出作業）** 選取從**選取合約型別**下拉式清單 （這是預設值）。  
   
 3.  在您選取的所有作業，您要為目標，請按一下之後**確定**產生 WCF 用戶端類別。  
   

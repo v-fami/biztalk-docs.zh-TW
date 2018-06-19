@@ -1,14 +1,14 @@
 ---
-title: "收到的 AS2 訊息不包含 AS2-從標頭 |Microsoft 文件"
-ms.custom: 
+title: 收到的 AS2 訊息不包含 AS2-從標頭 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 899f9b21-b321-49a3-84bd-a5410c883968
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230078"
 ---
 # <a name="an-as2-message-was-received-that-did-not-contain-the-as2-from-header"></a>收到的 AS2 訊息不包含 AS2-From 標頭
 ## <a name="details"></a>詳細資料  

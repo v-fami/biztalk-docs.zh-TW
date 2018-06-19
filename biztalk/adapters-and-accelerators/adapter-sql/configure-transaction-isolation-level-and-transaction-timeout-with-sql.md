@@ -1,14 +1,14 @@
 ---
-title: "使用 SQL 設定交易隔離等級和交易逾時 |Microsoft 文件"
-ms.custom: 
+title: 使用 SQL 設定交易隔離等級和交易逾時 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 55355272-60c0-49e4-b37e-9198458ab305
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222366"
 ---
 # <a name="configure-transaction-isolation-level-and-transaction-timeout-with-sql"></a>使用 SQL 設定交易隔離等級和交易逾時
 在執行輸入的作業 （輪詢和通知） 時使用[!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]與[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]，您應該適當地設定交易隔離等級和交易逾時值。 若要這樣做：  

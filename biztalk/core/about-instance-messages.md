@@ -1,14 +1,14 @@
 ---
-title: "關於執行個體訊息 |Microsoft 文件"
-ms.custom: 
+title: 關於執行個體訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: de7fc3d3-57a7-4df9-b981-127e21941e22
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224774"
 ---
 # <a name="about-instance-messages"></a>關於執行個體訊息
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 傳送和接收執行個體訊息，每個執行個體訊息通常都代表一或多個商業文件 (例如訂單)。 執行個體訊息是由一或多個結構描述定義的訊息結構執行個體。 一個結構描述或是一組一起使用的結構描述會定義哪些內容可組成有效的執行個體訊息。 例如，訂單可能被定義為在其中有數個記錄，例如 ShipTo 記錄、BillTo 記錄、Items 記錄等等。 這些記錄的每一個都可以定義為包含自己的子記錄和欄位。 對應的結構描述定義這些記錄與欄位的可能內容，對應的執行個體訊息則包含實際的訂單，而這些訂單包含根據結構描述結構化的訂單資料。  

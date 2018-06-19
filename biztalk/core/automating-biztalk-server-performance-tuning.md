@@ -1,15 +1,15 @@
 ---
-title: "自動化 BizTalk Server 效能調整 |Microsoft 文件"
-description: "使用 BTSTask 匯入或匯出 BizTalk Server 中的環境之間的效能設定"
-ms.custom: 
+title: 自動化 BizTalk Server 效能調整 |Microsoft 文件
+description: 使用 BTSTask 匯入或匯出 BizTalk Server 中的環境之間的效能設定
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 07ff73b5-25d9-4f3f-9a4b-127c0b843741
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230350"
 ---
 # <a name="automate-biztalk-server-performance-tuning"></a>自動化 BizTalk Server 效能調整
 

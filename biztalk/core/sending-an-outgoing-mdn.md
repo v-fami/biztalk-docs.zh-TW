@@ -1,14 +1,14 @@
 ---
-title: "傳送外寄 MDN |Microsoft 文件"
-ms.custom: 
+title: 傳送外寄 MDN |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2dce7620-d354-4b76-bcbc-f97dc93c3fc3
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271422"
 ---
 # <a name="sending-an-outgoing-mdn"></a>傳送外寄 MDN
 外寄 MDN 是由 AS2EDIReceive 或 AS2Receive receive 管線產生，並且由 AS2Send 管線傳送。 本主題將描述如何傳送 MDN。 如需有關如何產生 MDN 的詳細資訊，請參閱[產生外寄 MDN](../core/generating-an-outgoing-mdn.md)。  
@@ -36,7 +37,7 @@ ms.lasthandoff: 09/20/2017
   
  如果 MDN 將以非同步的方式傳送，則 MDN 必須透過不同的傳送埠傳送，該傳送埠會從 MessageBox 挑選 MDN。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]您可以將 MDN 當成個別 HTTP Post 傳送唯一的 TCP/IP 連線，不同於用來傳遞原始 AS2 訊息。 即使 MDN 設為不同的 HTTP Post，Post 仍需要 [HTTP 回應] 命令。  
   
- 非同步的 MDN 通常會傳送至原始 AS2 訊息的 Receipt-Delivery-Option 標頭中的 URL。 不過，如果**對驗證與 MDN 使用協議設定，而非訊息標頭**上設定屬性上**驗證**頁面的單向 AS2 協議索引標籤中**協議屬性**對話方塊中，將會傳送 MDN 的 url，**回條傳遞選項 (URL)**協議屬性設定為。  
+ 非同步的 MDN 通常會傳送至原始 AS2 訊息的 Receipt-Delivery-Option 標頭中的 URL。 不過，如果**對驗證與 MDN 使用協議設定，而非訊息標頭**上設定屬性上**驗證**頁面的單向 AS2 協議索引標籤中**協議屬性**對話方塊中，將會傳送 MDN 的 url，**回條傳遞選項 (URL)** 協議屬性設定為。  
   
 ## <a name="how-the-send-pipeline-processes-an-outgoing-mdn"></a>傳送管線如何處理外寄 MDN  
  AS2Send 管線處理外寄 MDN 的方式如下所示：  

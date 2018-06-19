@@ -1,11 +1,11 @@
 ---
-title: "協調流程中使用角色連結 |Microsoft 文件"
-ms.custom: 
+title: 協調流程中使用角色連結 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - role links
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - role links, properties
 - role links, initializing
 ms.assetid: 0cf85544-12c9-4541-8925-61a6e946cce0
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288462"
 ---
 # <a name="using-role-links-in-orchestrations"></a>在協調流程中使用角色連結
 角色連結是協調流程與交易夥伴之間互動的抽象形式。 角色連結可讓您根據交易夥伴解析、訊息內容或資料庫尋查結果，動態選擇要與之互動的交易夥伴，而您的整體商務程序仍然能保持完整。  

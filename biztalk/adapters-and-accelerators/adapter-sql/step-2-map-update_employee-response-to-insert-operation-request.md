@@ -1,14 +1,14 @@
 ---
-title: "步驟 2： 將 UPDATE_EMPLOYEE 回應訊息對應至插入作業要求訊息 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 將 UPDATE_EMPLOYEE 回應訊息對應至插入作業要求訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8d12014a-0147-4227-88fa-0b290eff4cce
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,13 +17,14 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224822"
 ---
 # <a name="step-2-map-the-updateemployee-response-message-to-insert-operation-request-message"></a>步驟 2： 將 UPDATE_EMPLOYEE 回應訊息對應至插入作業要求訊息
 ![步驟 4 之 2](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")  
   
  **若要完成的時間：** 10 分鐘  
   
- **目標：**在此步驟中，您可以建立要在上執行插入作業的要求訊息**Purchase_Order**資料表，然後將對應的回應訊息**UPDATE_EMPLOYEE**儲存插入作業的要求訊息的程序。 如此一來，您傳遞要插入至回應訊息中的值**Purchase_Order**資料表。  
+ **目標：** 在此步驟中，您可以建立要在上執行插入作業的要求訊息**Purchase_Order**資料表，然後將對應的回應訊息**UPDATE_EMPLOYEE**儲存插入作業的要求訊息的程序。 如此一來，您傳遞要插入至回應訊息中的值**Purchase_Order**資料表。  
   
 ## <a name="prerequisites"></a>必要條件  
  您必須先完成[步驟 1： 建立 Purchase_Order 資料表上的插入作業的要求訊息](../../adapters-and-accelerators/adapter-sql/step-1-create-the-request-message-for-insert-operation-on-purchase-order-table.md)。  
@@ -37,7 +38,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  設計介面上，以滑鼠右鍵按一下**constructmessage_1**圖形，，然後按一下**屬性 視窗**。  
   
-3.  在**屬性**窗格**[constructmessage_1]**圖形中，指定下列值。  
+3.  在**屬性**窗格 **[constructmessage_1]** 圖形中，指定下列值。  
   
     |將此屬性設定|此值|  
     |-----------------------|-------------------|  

@@ -11,7 +11,7 @@ helpviewer_keywords:
 - trading partners, agreements
 - agreements, trading partners
 ms.assetid: 846466d2-db39-42ba-8be1-ecca83a55a02
-caps.latest.revision: ''
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22208678"
 ---
 # <a name="trading-partner-agreements"></a>交易夥伴協議
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 交易夥伴協議 (TPA) 來處理與夥伴的訊息交換。 TPA 定義兩個交易夥伴之間訊息處理及驗證的規格。 它定義了這些交易夥伴實作相關交易夥伴介面程序 (PIP) 的方式，指定所有特定訊息類型實作的訊息內容。 TPA 也定義交易夥伴在網際網路上交換訊息的規格。  

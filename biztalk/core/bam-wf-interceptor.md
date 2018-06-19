@@ -1,14 +1,14 @@
 ---
-title: "BAM WF 攔截器 |Microsoft 文件"
-ms.custom: 
+title: BAM WF 攔截器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0e459084-cb72-4a75-9f5f-f1fd5fd80d17
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231366"
 ---
 # <a name="bam-wf-interceptor"></a>BAM WF 攔截器
 BAM WF 攔截器提供了在 WF 應用程式內追蹤資料的完整支援。  

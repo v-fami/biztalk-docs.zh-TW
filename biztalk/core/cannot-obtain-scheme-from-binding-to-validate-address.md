@@ -1,14 +1,14 @@
 ---
-title: "無法取得配置，從繫結驗證地址 |Microsoft 文件"
-ms.custom: 
+title: 無法取得配置，從繫結驗證地址 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b002084a-63ae-4685-8ce3-88cc6489e19e
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230958"
 ---
 # <a name="cannot-obtain-scheme-from-binding-to-validate-address"></a>無法取得配置，從繫結驗證地址
 ## <a name="details"></a>詳細資料  

@@ -1,17 +1,17 @@
 ---
-title: "關於管線、 階段和元件 |Microsoft 文件"
-ms.custom: 
+title: 關於管線、 階段和元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Microsoft.BizTalk.Component.Interop namespace
 - pipelines, about pipelines
 ms.assetid: a98e1c93-f264-4577-bd12-4430a5859e3c
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225462"
 ---
 # <a name="about-pipelines-stages-and-components"></a>關於管線、階段和元件
 管線是軟體基礎結構的一部分，其中包含的 .NET 或 COM 元件組可根據預先定義的順序來處理訊息。 管線會將處理程序分割成數個工作類別，稱之為階段，然後決定這些階段的執行順序。 各個階段都會定義邏輯工作群組、決定將於階段中使用的元件，然後指定管線元件在階段中的執行方式。  

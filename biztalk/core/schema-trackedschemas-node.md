@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269558"
 ---
 # <a name="schema-trackedschemas-node"></a>結構描述 (TrackedSchemas 節點)
 繫結檔案之 TrackedSchemas 節點的 [結構描述] 節點會描述繫結到與繫結檔案一起匯出之服務的結構描述。  

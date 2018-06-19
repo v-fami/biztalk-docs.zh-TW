@@ -1,14 +1,14 @@
 ---
-title: "建立 Oracle E-business Suite 連線 URI |Microsoft 文件"
-ms.custom: 
+title: 建立 Oracle E-business Suite 連線 URI |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 91eb49fa-2a69-470b-b96d-dc3a6ffafef6
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22219006"
 ---
 # <a name="create-the-oracle-e-business-suite-connection-uri"></a>建立 Oracle E-business Suite 連線 URI
 [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]連線 URI 包含配接器用來連接到 Oracle E-business Suite 和基本上基礎 Oracle 資料庫的屬性。 [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]支援基礎的 Oracle 資料庫連接的兩種方式： 使用 tnsnames.ora 且未使用 tnsnames.ora。 根據連線方法的類型，連線 URI 的格式是也不同。 本主題提供 Oracle 連接 URI 的相關資訊，並也提供其他主題連結，說明如何在不同的程式設計案例中指定的 URI。  
@@ -55,7 +56,7 @@ oracleebs://User=[USER_NAME];Password=[PASSWORD]@[NET_SERVICE_NAME]
   
 |連線 URI 屬性|類別目錄|Description|  
 |-----------------------------|--------------|-----------------|  
-|[使用者名稱]|userauthparams|要用於驗證的使用者名稱。 [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]公開**ClientCredentialType**繫結指定的用戶端指定要連接的 Oracle 用戶端認證類型的屬性。 可能值**ClientCredentialType**繫結屬性是**資料庫**和**EBusiness**。 這個繫結屬性的值，而定，您必須指定相關的認證。 如需詳細資訊，請參閱[Oracle 認證和連線 URI](#BKMK_OraCreds)。 **注意：**必須設定**AcceptCredentialsInUri**內容繫結至**true**連線 URI 中指定的使用者名稱和密碼。 **注意：** [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]不會保留您輸入使用者名稱連接到 Oracle E-business Suite 時的值的大小寫。 使用者名稱傳遞至 Oracle E-business Suite 使用標準的規則的 SQL * Plus。 不過，如果您想要保留的使用者名稱的大小寫，或您想要輸入含有特殊字元的使用者名稱，您必須指定雙引號括住的值。|  
+|[使用者名稱]|userauthparams|要用於驗證的使用者名稱。 [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]公開**ClientCredentialType**繫結指定的用戶端指定要連接的 Oracle 用戶端認證類型的屬性。 可能值**ClientCredentialType**繫結屬性是**資料庫**和**EBusiness**。 這個繫結屬性的值，而定，您必須指定相關的認證。 如需詳細資訊，請參閱[Oracle 認證和連線 URI](#BKMK_OraCreds)。 **注意：** 必須設定**AcceptCredentialsInUri**內容繫結至**true**連線 URI 中指定的使用者名稱和密碼。 **注意：** [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]不會保留您輸入使用者名稱連接到 Oracle E-business Suite 時的值的大小寫。 使用者名稱傳遞至 Oracle E-business Suite 使用標準的規則的 SQL * Plus。 不過，如果您想要保留的使用者名稱的大小寫，或您想要輸入含有特殊字元的使用者名稱，您必須指定雙引號括住的值。|  
 |[密碼]|userauthparams|要用於驗證的密碼。 [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]公開**ClientCredentialType**繫結指定的用戶端指定要連接的 Oracle 用戶端認證類型的屬性。 如果**ClientCredentialType**屬性設定為**資料庫**，用戶端必須指定 Oracle 資料庫使用者的密碼。 如果**ClientCredentialType**屬性設定為**EBusiness**，用戶端必須指定 Oracle E-business Suite 使用者的密碼。 **注意：** [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]不會保留連接到 Oracle E-business Suite 時輸入密碼的值的大小寫。 使用者名稱傳遞至 Oracle E-business Suite 使用標準的規則的 SQL * Plus。 不過，如果您想要保留的密碼的大小寫，或您想要輸入包含特殊字元的密碼，您必須指定雙引號括住的值。|  
 |[NET_SERVICE_NAME]|hostinfoparams|指定在 tnsnames.ora 檔案在電腦上的網路服務名稱其中[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]安裝。 網路服務名稱和 tnsnames.ora 的相關資訊，請參閱[設定 Oracle E-business Suite 配接器用戶端](../../adapters-and-accelerators/adapter-oracle-ebs/configure-the-oracle-client-for-the-e-business-suite-adapter.md)。|  
   
@@ -83,7 +84,7 @@ oracleebs://User=[USER_NAME];Password=[PASSWORD]@[SERVER_NAME]:[PORT_NUMBER]/[SE
   
 |連線 URI 屬性|類別目錄|Description|  
 |-----------------------------|--------------|-----------------|  
-|[使用者名稱]|userauthparams|要用於驗證的使用者名稱。 [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]公開**ClientCredentialType**繫結指定的用戶端指定要連接的 Oracle 用戶端認證類型的屬性。 可能值**ClientCredentialType**繫結屬性是**資料庫**和**EBusiness**。 這個繫結屬性的值，而定，您必須指定相關的認證。 如需詳細資訊，請參閱[Oracle 認證和連線 URI](#BKMK_OraCreds)。 **注意：**必須設定**AcceptCredentialsInUri**內容繫結至**true**連線 URI 中指定的使用者名稱和密碼。 **注意：** [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]不會保留您輸入使用者名稱連接到 Oracle E-business Suite 時的值的大小寫。 使用者名稱傳遞至 Oracle E-business Suite 使用標準的規則的 SQL * Plus。 不過，如果您想要保留的使用者名稱的大小寫，或您想要輸入含有特殊字元的使用者名稱，您必須指定雙引號括住的值。|  
+|[使用者名稱]|userauthparams|要用於驗證的使用者名稱。 [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]公開**ClientCredentialType**繫結指定的用戶端指定要連接的 Oracle 用戶端認證類型的屬性。 可能值**ClientCredentialType**繫結屬性是**資料庫**和**EBusiness**。 這個繫結屬性的值，而定，您必須指定相關的認證。 如需詳細資訊，請參閱[Oracle 認證和連線 URI](#BKMK_OraCreds)。 **注意：** 必須設定**AcceptCredentialsInUri**內容繫結至**true**連線 URI 中指定的使用者名稱和密碼。 **注意：** [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]不會保留您輸入使用者名稱連接到 Oracle E-business Suite 時的值的大小寫。 使用者名稱傳遞至 Oracle E-business Suite 使用標準的規則的 SQL * Plus。 不過，如果您想要保留的使用者名稱的大小寫，或您想要輸入含有特殊字元的使用者名稱，您必須指定雙引號括住的值。|  
 |[密碼]|userauthparams|要用於驗證的密碼。 [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]公開**ClientCredentialType**繫結指定的用戶端指定要連接的 Oracle 用戶端認證類型的屬性。 如果**ClientCredentialType**屬性設定為**資料庫**，用戶端必須指定 Oracle 資料庫使用者的密碼。 如果**ClientCredentialType**屬性設定為**EBusiness**，用戶端必須指定 Oracle E-business Suite 使用者的密碼。 **注意：** [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]不會保留連接到 Oracle E-business Suite 時輸入密碼的值的大小寫。 使用者名稱傳遞至 Oracle E-business Suite 使用標準的規則的 SQL * Plus。 不過，如果您想要保留的密碼的大小寫，或您想要輸入包含特殊字元的密碼，您必須指定雙引號括住的值。|  
 |[SERVER_NAME]|hostinfoparams|Oracle E-business Suite 執行所在的伺服器名稱。 這是必要項目。|  
 |[PORT_NUMBER]|hostinfoparams|Oracle 網路接聽程式連接埠。 預設值 1521年。|  

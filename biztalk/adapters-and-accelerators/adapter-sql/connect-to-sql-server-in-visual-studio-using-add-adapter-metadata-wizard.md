@@ -1,14 +1,14 @@
 ---
-title: "連接到 SQL Server 中使用 Visual Studio 新增配接器中繼資料精靈 |Microsoft 文件"
-ms.custom: 
+title: 連接到 SQL Server 中使用 Visual Studio 新增配接器中繼資料精靈 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2169722d-beba-4d96-a54b-54986ece9bf8
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226726"
 ---
 # <a name="connect-to-sql-server-in-visual-studio-using-add-adapter-metadata-wizard"></a>連接到 SQL Server 中使用 Visual Studio 新增配接器中繼資料精靈
 [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]也會公開成 BizTalk 配接器，因此，您可以使用[!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]產生結構描述您想要使用配接器的 SQL Server 上執行的作業。  
@@ -59,7 +60,7 @@ ms.lasthandoff: 09/20/2017
     |----------------|----------------|  
     |**無**|使用 Windows 驗證連接到 SQL Server。|  
     |**視窗**|使用 Windows 驗證連接到 SQL Server。|  
-    |**使用者名稱**|指定的使用者名稱和密碼來連接到 SQL Server 藉由指定使用者在 SQL Server 資料庫中定義的認證。 請注意使用者名稱和密碼會區分大小寫。 **注意：**如果您離開**使用者名**和**密碼**空白欄位，配接器連接至 SQL Server 使用 Windows 驗證。|  
+    |**使用者名稱**|指定的使用者名稱和密碼來連接到 SQL Server 藉由指定使用者在 SQL Server 資料庫中定義的認證。 請注意使用者名稱和密碼會區分大小寫。 **注意：** 如果您離開**使用者名**和**密碼**空白欄位，配接器連接至 SQL Server 使用 Windows 驗證。|  
   
 4.  按一下**URI 屬性**索引標籤，然後再指定連線參數的值。 如需有關連線 URI 的[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]，請參閱[建立 SQL Server 連接 URI](../../adapters-and-accelerators/adapter-sql/create-the-sql-server-connection-uri.md)。  
   

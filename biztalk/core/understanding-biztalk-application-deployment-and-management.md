@@ -1,11 +1,11 @@
 ---
-title: "了解 BizTalk 應用程式部署和管理 |Microsoft 文件"
-ms.custom: 
+title: 了解 BizTalk 應用程式部署和管理 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying [applications]
@@ -20,7 +20,7 @@ helpviewer_keywords:
 - what's new, applications
 - managing, applications
 ms.assetid: 4bc1677d-24a2-4f55-83b2-6dfc39767072
-caps.latest.revision: "33"
+caps.latest.revision: 33
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -29,6 +29,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286622"
 ---
 # <a name="understanding-biztalk-application-deployment-and-management"></a>瞭解 BizTalk 應用程式部署和管理
 本節簡介 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的新應用程式部署和管理功能，並提供背景資訊以協助您瞭解如何使用這些功能來部署和管理 BizTalk 應用程式。  

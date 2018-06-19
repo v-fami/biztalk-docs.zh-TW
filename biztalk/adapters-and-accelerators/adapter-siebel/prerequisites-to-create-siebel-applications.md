@@ -1,14 +1,14 @@
 ---
-title: "若要建立 Siebel 應用程式的必要條件 |Microsoft 文件"
-ms.custom: 
+title: 若要建立 Siebel 應用程式的必要條件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2c08f853-7f72-4e08-aa63-debdab68c972
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222582"
 ---
 # <a name="prerequisites-to-create-siebel-applications"></a>若要建立 Siebel 應用程式的必要條件
 您必須在開發 BizTalk 應用程式使用之前執行[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]。 本主題也會列出一些可用來開發 BizTalk 應用程式的 BizTalk Server 工具。  

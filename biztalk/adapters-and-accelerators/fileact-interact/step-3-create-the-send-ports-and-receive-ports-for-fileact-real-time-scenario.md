@@ -1,14 +1,14 @@
 ---
-title: "步驟 3： 建立傳送埠和接收埠以進行 FileAct 即時案例 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3： 建立傳送埠和接收埠以進行 FileAct 即時案例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8d7d39c7-a08b-4fbb-85fe-b30a8d62524b
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223774"
 ---
 # <a name="step-3-create-the-send-ports-and-receive-ports-for-the-fileact-real-time-scenario"></a>步驟 3： 建立傳送埠和接收埠以進行 FileAct 即時案例
 開始本節中的步驟之前，您必須完成[步驟 2： 新增 SWIFTNet 設定 FileAct 即時案例 Paramfile](../../adapters-and-accelerators/fileact-interact/step-2-add-swiftnet-configuration-to-paramfile-for-fileact-real-time-scenario.md)。  

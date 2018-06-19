@@ -1,14 +1,14 @@
 ---
-title: "連接到 Oracle 資料庫，在 Visual Studio 中使用配接器加入服務參考 |Microsoft 文件"
-ms.custom: 
+title: 連接到 Oracle 資料庫，在 Visual Studio 中使用配接器加入服務參考 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 93e56c1f-adee-4976-bc39-bb9b8102145e
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215062"
 ---
 # <a name="connect-to-the-oracle-database-in-visual-studio-using-the-add-adapter-service-reference"></a>連接到 Oracle 資料庫，在 Visual Studio 中使用配接器加入服務參考
 若要連接到 Oracle 資料庫使用[!INCLUDE[adapteroracle_short_md](../../includes/adapteroracle-short-md.md)]在.NET 程式設計方案，您必須使用[!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]。 本主題說明如何使用[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]。  

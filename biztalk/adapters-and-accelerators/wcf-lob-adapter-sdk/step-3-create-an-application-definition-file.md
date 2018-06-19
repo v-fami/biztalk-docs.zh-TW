@@ -1,14 +1,14 @@
 ---
-title: "步驟 3： 建立應用程式定義檔 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3： 建立應用程式定義檔 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 843fafdb-571e-4da4-ad04-7dc7f23e03ac
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22227006"
 ---
 # <a name="step-3-create-an-application-definition-file"></a>步驟 3： 建立應用程式定義檔
 ![步驟 4 之 3](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-3of4.gif "Step_3of4")  
@@ -64,7 +65,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  在 中繼資料物件 窗格中，依序展開**EchoGreetings**  節點，然後展開**方法**節點。  
   
-2.  按一下**EchoGreetings**節點並在 [屬性] 窗格中，按一下省略符號**（...）**按鈕**屬性**欄位。  
+2.  按一下**EchoGreetings**節點並在 [屬性] 窗格中，按一下省略符號 **（...）** 按鈕**屬性**欄位。  
   
 3.  在 PropertyView 集合編輯器 視窗中，按一下**新增**，然後在**名稱**欄位屬性 窗格的 型別**HttpHeaderUserName**。  
   
@@ -83,7 +84,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  在 中繼資料物件 窗格中，依序展開**EchoWSLOB**  節點，然後展開**執行個體**節點。  
   
-2.  按一下**EchoWSLOB_Instance**，在 [屬性] 窗格中，按一下省略符號**（...）**按鈕**屬性**欄位。  
+2.  按一下**EchoWSLOB_Instance**，在 [屬性] 窗格中，按一下省略符號 **（...）** 按鈕**屬性**欄位。  
   
 3.  在 [PropertyView 集合編輯器] 視窗中，按一下**新增**，然後在 [屬性] 窗格中，輸入**SecondarySsoApplicationId**中**名稱**欄位。  
   

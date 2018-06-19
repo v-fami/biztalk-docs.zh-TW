@@ -1,14 +1,14 @@
 ---
-title: "步驟 3： 建立 SharePoint 應用程式來擷取 Siebel 資料 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3： 建立 SharePoint 應用程式來擷取 Siebel 資料 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 86bde531-2daf-452b-b3e6-5481d66f72e7
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,13 +17,14 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225966"
 ---
 # <a name="step-3-create-a-sharepoint-application-to-retrieve-data-from-siebel"></a>步驟 3： 建立 SharePoint 應用程式來擷取 Siebel 資料
 ![步驟 4 之 3](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-3of4.gif "Step_3of4")  
   
  **若要完成的時間：** 15 分鐘。  
   
- **目標：**您現在必須採用您建立使用商務資料目錄定義編輯器的應用程式定義檔案，並匯入 Office SharePoint Server。  
+ **目標：** 您現在必須採用您建立使用商務資料目錄定義編輯器的應用程式定義檔案，並匯入 Office SharePoint Server。  
   
 ## <a name="prerequisites"></a>必要條件  
   

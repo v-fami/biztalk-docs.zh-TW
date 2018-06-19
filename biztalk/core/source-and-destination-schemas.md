@@ -1,11 +1,11 @@
 ---
-title: "來源與目的結構描述 |Microsoft 文件"
-ms.custom: 
+title: 來源與目的結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - destination schemas
@@ -28,7 +28,7 @@ helpviewer_keywords:
 - maps, destination schemas
 - Root Reference property
 ms.assetid: 8c805854-9fa1-4ce3-938d-a2e61ba17fa1
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -37,6 +37,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22276926"
 ---
 # <a name="source-and-destination-schemas"></a>來源與目的結構描述
 每一個 BizTalk 對應均使用兩個結構描述：一個來源結構描述和一個目的結構描述。 來源結構描述會定義您從中取得資料的執行個體訊息之結構。 目的結構描述則會定義對應產生的執行個體訊息之結構。 例如，若要將訂單的出貨和帳單資訊對應到發票，您需要一個結構描述以定義訂單為來源結構描述，以及另一個結構描述以定義發票為目的結構描述。  

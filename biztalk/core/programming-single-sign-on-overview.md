@@ -1,14 +1,14 @@
 ---
-title: "程式設計單一登入概觀 |Microsoft 文件"
-ms.custom: 
+title: 程式設計單一登入概觀 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2a0a3978-cdbf-4703-9d1d-23e0f4923c9c
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264822"
 ---
 # <a name="programming-single-sign-on-overview"></a>程式設計單一登入概觀
 依靠多個不同應用程式的商務程序，可能需要面對處理多個不同安全性網域的課題。 存取 Microsoft Windows 作業系統的應用程式，可能需要一組安全性認證；存取 IBM 大型主機上的應用程式，則可能需要不同的認證。 使用者要處理這麼大量的認證十分不易，而且對於自動化程序會造成更大的難題。 為了解決這個問題，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 包含「企業單一登入」(SSO)。 SSO 讓您能將 Windows 使用者識別碼對應至非 Windows 使用者認證。 這項服務可以簡化使用不同系統之應用程式的商務程序。  

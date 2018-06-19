@@ -1,14 +1,14 @@
 ---
-title: "關於 BizTalk 訊息內容屬性 |Microsoft 文件"
-ms.custom: 
+title: 關於 BizTalk 訊息內容屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bc700e43-a44c-482b-b91c-9f1d997a486a
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225494"
 ---
 # <a name="about-biztalk-message-context-properties"></a>關於 BizTalk 訊息內容屬性
 BizTalk Server 配接器在收到文件時，會為該文件建立 BizTalk 訊息。 BizTalk 訊息包含收到的文件及訊息內容。 訊息內容是 BizTalk Server 處理文件時使用的各種屬性之容器。 「訊息內容」中的每個屬性都由三種項目構成：名稱、命名空間和值。 例如，下列訊息內容屬性描述文件的「交換 ID」：  

@@ -1,14 +1,14 @@
 ---
-title: "配接器程式設計組態 |Microsoft 文件"
-ms.custom: 
+title: 配接器程式設計組態 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3e5fef6c-6928-42e7-9a1f-42b5bd769937
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22229982"
 ---
 # <a name="adapter-programming-configuration"></a>配接器程式設計組態
 每個密碼同步配接器類型都有不同的組態需求，取決於您將配接器設計用於何種非 Windows 系統而定。 像分支機構應用程式，您可以使用企業單一登入的組態存放區來集中及更安全地儲存組態屬性。  

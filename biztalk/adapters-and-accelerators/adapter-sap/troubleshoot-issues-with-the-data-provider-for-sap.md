@@ -1,17 +1,17 @@
 ---
-title: "適用於 SAP 的資料提供者的問題進行疑難排解 |Microsoft 文件"
-ms.custom: 
+title: 適用於 SAP 的資料提供者的問題進行疑難排解 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Data Provider for SAP, troubleshooting
 - troubleshooting, Data Provider for SAP
 ms.assetid: 6fe9baed-0404-4f15-b76e-88cc11c5ff46
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217982"
 ---
 # <a name="troubleshoot-issues-with-the-data-provider-for-sap"></a>疑難排解資料提供者適用於 SAP 的問題
 本章節將討論使用來解析作業使用時可能遭遇的錯誤的疑難排解技術[!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)]。  

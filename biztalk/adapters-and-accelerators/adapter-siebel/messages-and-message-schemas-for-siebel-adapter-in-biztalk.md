@@ -1,15 +1,15 @@
 ---
-title: "訊息和訊息結構描述，BizTalk adapter for Siebel eBusiness Application |Microsoft 文件"
-description: "Siebel 配接器在 BizTalk 配接器組件 (BAP) 中使用的訊息和資料類型的 XML 結構"
-ms.custom: 
+title: 訊息和訊息結構描述，BizTalk adapter for Siebel eBusiness Application |Microsoft 文件
+description: Siebel 配接器在 BizTalk 配接器組件 (BAP) 中使用的訊息和資料類型的 XML 結構
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6b4da884-89b0-4ab1-a728-c5569088a993
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22221950"
 ---
 # <a name="messages-and-message-schemas-for-biztalk-adapter-for-siebel-ebusiness-applications"></a>訊息和訊息結構描述，BizTalk adapter for Siebel eBusiness 應用程式
 

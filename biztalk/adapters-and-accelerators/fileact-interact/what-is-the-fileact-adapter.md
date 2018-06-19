@@ -1,14 +1,14 @@
 ---
-title: "FileAct 配接器為何？ | Microsoft Docs"
-ms.custom: 
+title: FileAct 配接器為何？ | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 05ec8f1e-57f9-4e2d-ab8b-22b5c4b28055
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225318"
 ---
 # <a name="what-is-the-fileact-adapter"></a>FileAct 配接器為何？
 SWIFTNet 的 FileAct 配接器提供 BizTalk Server 與協會之間連線的全球 Interbank 財務 Telecommunication (SWIFT) 保護 IP 網路 (SIPN) 傳輸檔案。 SIPN 傳輸透過安全的私人網路連接金融機構、 財務產業的基礎結構和客戶的訊息和檔案。 FileAct 配接器會使用 SWIFTNet 連結 (SNL) 應用程式開發介面 (API) s 連接到 SIPN。  
@@ -60,7 +61,7 @@ SWIFTNet 的 FileAct 配接器提供 BizTalk Server 與協會之間連線的全�
   
 -   **不可否認性的發出和接收。** 發生爭議，可讓 SWIFT 確認檔案傳送未宣告為會發生。  
   
- 標準的 SWIFTNet FileAct 功能包括 SWIFTNet PKI 安全性**。** SWIFTNet FileAct 受到 SWIFTNet PKI，並提供訊息驗證和完整性控制。  
+ 標準的 SWIFTNet FileAct 功能包括 SWIFTNet PKI 安全性 **。** SWIFTNet FileAct 受到 SWIFTNet PKI，並提供訊息驗證和完整性控制。  
   
  所有的訊息和檔案上 SWIFTNet 交換接受一組常用的檢查，以確保沒有任何使用者可以略過安全性、 驗證和平台的路由規則。 SWIFTAlliance 閘道 (SAG) 應用程式會執行這些檢查。  
   

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215126"
 ---
 # <a name="troubleshoot-the-oracle-database-adapter"></a>Oracle 資料庫配接器進行疑難排解
 [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]使用或依賴數種 Microsoft 技術，包括但不是限於[!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)]，Microsoft [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]，與 Microsoft [!INCLUDE[btsDotNetFramework_md](../../includes/btsdotnetframework-md.md)]。 [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]建置最上層的[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]，這又需要[!INCLUDE[btsDotNetFramework_md](../../includes/btsdotnetframework-md.md)]。 可以使用配接器，或是藉由撰寫應用程式使用[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]或藉由建立 BizTalk 應用程式。 如需有關這些技術和產品的問題，請參閱個別的文件。  

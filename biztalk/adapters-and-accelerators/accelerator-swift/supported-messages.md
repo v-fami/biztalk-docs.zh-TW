@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215374"
 ---
 # <a name="supported-messages"></a>支援的訊息
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]提供一份[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]和 SWIFT 的訊息。 訊息都會歸類為下列幾種財務類型。  

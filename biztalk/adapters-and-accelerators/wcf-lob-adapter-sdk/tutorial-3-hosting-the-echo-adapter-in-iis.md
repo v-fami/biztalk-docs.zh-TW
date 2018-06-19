@@ -1,14 +1,14 @@
 ---
-title: "教學課程 3： 裝載在 IIS 中的回應配接器 |Microsoft 文件"
-ms.custom: 
+title: 教學課程 3： 裝載在 IIS 中的回應配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3044cdea-e9b2-4cc2-b66e-799da1dfc07e
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225182"
 ---
 # <a name="tutorial-3-hosting-the-echo-adapter-in-iis"></a>教學課程 3： 裝載在 IIS 中的回應配接器
 本教學課程提供逐步指示以裝載回應配接器開發[教學課程 1： 開發回應配接器](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-1-develop-the-echo-adapter.md)。 更具體來說，步驟將示範如何使用可以裝載在網際網路資訊服務 (IIS) 的介面卡[!INCLUDE[afsvcdevwizshort](../../includes/afsvcdevwizshort-md.md)]。 您會也在 SharePoint 中使用商務資料目錄功能來呼叫 EchoGreetings 作業 (IIS） 裝載配接器，並且顯示結果 Web 組件中。  

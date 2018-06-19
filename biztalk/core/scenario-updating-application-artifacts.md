@@ -1,11 +1,11 @@
 ---
-title: "案例： 更新應用程式成品 |Microsoft 文件"
-ms.custom: 
+title: 案例： 更新應用程式成品 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, artifacts
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - examples, updating
 - artifacts, updating
 ms.assetid: 76833df3-2330-48af-84d8-731028b192ff
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269534"
 ---
 # <a name="scenario-updating-application-artifacts"></a>案例： 更新應用程式成品
 在應用程式部署至實際執行環境後，更新應用程式中的成品有兩種基本案例：  

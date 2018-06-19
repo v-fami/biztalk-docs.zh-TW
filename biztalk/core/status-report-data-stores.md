@@ -1,14 +1,14 @@
 ---
-title: "狀態報告資料存放區 |Microsoft 文件"
-ms.custom: 
+title: 狀態報告資料存放區 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6cd40ce8-1ac6-43b4-9cef-7cd045e8893c
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278094"
 ---
 # <a name="status-report-data-stores"></a>狀態報告資料存放區
 狀態報告追蹤資料會儲存在 BAM 主要匯入資料庫中。 這個資料庫中的許多資料表會用於 EDI 和 AS2 訊息資料，包括開頭為 dbo.bam_AS2、dbo.bam.batching、dbo.bam.InterchangeStatusActivity 和其他開頭的資料表。 即使 EDI 報告功能已停用，狀態資料仍會儲存在主要匯入資料庫中。 若已啟動狀態報告，您就只能使用狀態報告 UI 來檢視和查詢這項資料。  

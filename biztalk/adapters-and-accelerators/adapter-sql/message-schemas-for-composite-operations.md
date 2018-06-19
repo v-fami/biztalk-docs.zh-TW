@@ -1,14 +1,14 @@
 ---
-title: "複合作業的訊息結構描述 |Microsoft 文件"
-ms.custom: 
+title: 複合作業的訊息結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d80c023b-1912-43d4-be29-eb9e1b323593
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222510"
 ---
 # <a name="message-schemas-for-composite-operations"></a>複合操作的訊息結構描述
 [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]可讓您執行 SQL Server 資料庫上的複合作業。 複合作業可以包含多項作業包括 Insert、 Update 及刪除資料表和檢視表上的作業和預存程序上的作業。 複合作業可以依任何順序包含這些作業。  

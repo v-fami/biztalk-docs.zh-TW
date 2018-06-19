@@ -1,14 +1,14 @@
 ---
-title: "BizTalk Adapter for SQL Server 的概觀 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Adapter for SQL Server 的概觀 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8e46690e-d5c4-4d6b-b7a0-9a5adf4431cd
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222742"
 ---
 # <a name="overview-of-biztalk-adapter-for-sql-server"></a>BizTalk Adapter for SQL Server 的概觀
 [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]公開為 WCF 服務的 SQL Server 資料庫。 配接器用戶端可以交換 SOAP 訊息的配接器，以執行 SQL Server 資料庫上的作業。 配接器會使用 SOAP 訊息，並會適當 ADO.NET 呼叫，以執行此作業。 配接器會傳回回應從 SQL Server 資料庫中的 SOAP 訊息形式的用戶端。  

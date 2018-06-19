@@ -1,14 +1,14 @@
 ---
-title: "步驟 5 （內部部署）： 產生插入訊息插入至 SalesOrder 資料表的結構描述 |Microsoft 文件"
-ms.custom: 
+title: 步驟 5 （內部部署）： 產生插入訊息插入至 SalesOrder 資料表的結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ab0bc1a7-8bcd-4110-88e6-4eddf0b57068
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279318"
 ---
 # <a name="step-5-on-premises-generate-the-schema-for-inserting-a-message-inito-salesorder-table"></a>步驟 5 （內部部署）： 產生插入訊息插入至 SalesOrder 資料表的結構描述
 根據商務案例，從 Contoso 傳送銷售訂單訊息的 X12 必須插入至 Northwind 的**SalesOrder**資料表如果訂購數量大於 100。 若要將訊息插入**SalesOrder**資料表中，您必須產生的結構描述**插入**資料表上的作業。 在本主題中，您將建立[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]方案，然後使用[!INCLUDE[consumeadapterservshort](../includes/consumeadapterservshort-md.md)]產生結構描述執行**插入**作業**SalesOrder**資料表。  
@@ -37,7 +38,7 @@ ms.lasthandoff: 09/20/2017
     |----------------|----------------|  
     |**無**|連接到 SQL Server 使用 Windows 驗證。|  
     |**視窗**|連接到 SQL Server 使用 Windows 驗證。|  
-    |**使用者名稱**|指定的使用者名稱和密碼來連接到 SQL Server 藉由指定使用者在 SQL Server 資料庫中定義的認證。 請注意使用者名稱和密碼會區分大小寫。 **注意：**如果您離開**使用者名**和**密碼**空白欄位，配接器連接至 SQL Server 使用 Windows 驗證。|  
+    |**使用者名稱**|指定的使用者名稱和密碼來連接到 SQL Server 藉由指定使用者在 SQL Server 資料庫中定義的認證。 請注意使用者名稱和密碼會區分大小寫。 **注意：** 如果您離開**使用者名**和**密碼**空白欄位，配接器連接至 SQL Server 使用 Windows 驗證。|  
   
 6.  按一下**URI 屬性**索引標籤，然後再指定連線參數的值。 如需有關連線 URI 的[!INCLUDE[adaptersqlshort](../includes/adaptersqlshort-md.md)]，請參閱[SQL Server 連接 URI](http://msdn.microsoft.com/library/dd788089.aspx)。  
   

@@ -1,14 +1,14 @@
 ---
-title: "其他一般檔案屬性 |Microsoft 文件"
-ms.custom: 
+title: 其他一般檔案屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7c88ad2f-b5a8-46e6-b1b8-61ce6ba910d1
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230038"
 ---
 # <a name="additional-flat-file-properties"></a>其他一般檔案屬性
 
@@ -32,7 +33,7 @@ ms.lasthandoff: 09/20/2017
 |allow_early_termination|**[True]** 或 **[False]**|**false**|指出是否已標記位置記錄可提早終止 (**true**) 或必須包含所有記錄欄位的資料 (**false**)。|  
 |early_terminate_optional_fields|**[True]** 或 **[False]**|**false**|讓選擇性尾端欄位提早終止 (**true**)。 如果在 [BizTalk 編輯器] 中開啟現有的結構描述沒有此註解，此註解會加入到它設定為預設值 (**false**)。 **注意：** early_terminate_optional_fields 註解才會生效，如果在 allow_early_termination 設定為"true"。|  
   
- 所有這些屬性是屬性**/annotation/appinfo/schemaInfo**項目。  
+ 所有這些屬性是屬性 **/annotation/appinfo/schemaInfo**項目。  
   
  當**parser_optimization**設**複雜性**，有許多相同的群組或記錄中的選擇性節點時，您可能必須針對結構描述驗證失敗。 您可能需要設定**lookahead_depth**為零 (0) 以避免驗證錯誤。  
   

@@ -1,14 +1,14 @@
 ---
-title: "SWIFT 傳送配接器架構 |Microsoft 文件"
-ms.custom: 
+title: SWIFT 傳送配接器架構 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e52a5a21-0aa1-4cd9-a2a4-f9df425913a0
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223870"
 ---
 # <a name="swift-send-adapter-architecture"></a>SWIFT 傳送配接器架構
 一般情況下，BizTalk Server 傳送配接器裝載於 BizTalk 服務處理序，Btsntsvc.exe 中。 這表示 BizTalk Server 管理配接器的存留期間。  

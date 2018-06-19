@@ -1,11 +1,11 @@
 ---
-title: "Update1 |Microsoft 文件"
-ms.custom: 
+title: Update1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Update function [Business Rules Engine]
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - .NET objects
 - Update function [Business Rules Engine], DataConnection
 ms.assetid: 939e45dc-6433-42f3-a336-8f3c247417ac
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288398"
 ---
 # <a name="update"></a>Update
 當**更新**函式會叫用物件，該物件會判斷提示引擎重新進行評估，根據新資料和狀態。 物件可以是類型**TypedXmlDocument**或.NET 類別或**DataConnection**或**TypedDataTable**。  
@@ -50,7 +51,7 @@ IF ItemB.Id == 2
 THEN ItemB.Value = 100  
 ```  
   
- 這種在工作記憶體中重新判斷提示的能力，可讓使用者明確控制正向鏈結實例中的行為。 不過，此範例中重新判斷提示的副作用是「規則 1」也會重新評估。 因為**ItemA.Id**未變更，規則 1 再次評估為**true**和**assert （itemb)**的動作引發一次。 其結果是，規則建立了無止盡迴圈的狀況。  
+ 這種在工作記憶體中重新判斷提示的能力，可讓使用者明確控制正向鏈結實例中的行為。 不過，此範例中重新判斷提示的副作用是「規則 1」也會重新評估。 因為**ItemA.Id**未變更，規則 1 再次評估為**true**和**assert （itemb)** 的動作引發一次。 其結果是，規則建立了無止盡迴圈的狀況。  
   
 > [!NOTE]
 >  重新評估規則的預設最大迴圈計數為 2 ^32。 對於特定規則，原則執行可以持續很長的時間。 您可以藉由調整減少計數**最大執行迴圈深度**原則版本的屬性。  

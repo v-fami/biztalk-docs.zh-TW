@@ -1,11 +1,11 @@
 ---
-title: "執行 Orchestrations3 |Microsoft 文件"
-ms.custom: 
+title: 執行 Orchestrations3 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, running
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Call Orchestration shape [Orchestration Designer], starting orchestrations
 - Receive shape [Orchestration Designer], activating orchestrations
 ms.assetid: 5bfe61c9-80e0-4a0a-b6b1-ab48037e665e
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269046"
 ---
 # <a name="running-orchestrations"></a>執行協調流程
 協調流程執行個體都是設計成觸發藉由從另一個協調流程的明確呼叫 — 使用**呼叫協調流程**圖形或**啟動協調流程**圖形 — 或透過接收啟動訊息。 啟動訊息結構描述中指定**訊息**屬性。 您應該同理，設計您的協調流程，而且其中一個設定**Activate**屬性**接收**true，或請確定呼叫的協調流程存在且已正確設定成執行圖形新的協調流程。  

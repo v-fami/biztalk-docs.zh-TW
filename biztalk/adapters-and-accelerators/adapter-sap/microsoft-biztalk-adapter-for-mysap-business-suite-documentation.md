@@ -1,15 +1,15 @@
 ---
-title: "Microsoft BizTalk Adapter for mySAP Business Suite 文件 |Microsoft 文件"
-description: "取得啟動，架構、 安全性、 開發應用程式、 訊息結構描述，以及疑難排解 mySAP 配接器在 BizTalk Adapter Pack"
-ms.custom: 
+title: Microsoft BizTalk Adapter for mySAP Business Suite 文件 |Microsoft 文件
+description: 取得啟動，架構、 安全性、 開發應用程式、 訊息結構描述，以及疑難排解 mySAP 配接器在 BizTalk Adapter Pack
+ms.custom: ''
 ms.date: 08/16/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 26b728d7-f1e9-470a-aba5-10c9f53e2d2b
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217366"
 ---
 # <a name="microsoft-biztalk-adapter-for-mysap-business-suite-documentation"></a>Microsoft BizTalk Adapter for mySAP Business Suite 文件
 [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]包含許多可協助您了解如何配接器運作方式、 如何建立應用程式，使用配接器，說明不同的連接選項，了解如何建立應用程式和多個資源。

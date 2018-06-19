@@ -1,11 +1,11 @@
 ---
-title: "資料表和檢視表包含 Oracle 資料庫中的 LOB 資料的作業 |Microsoft 文件"
-ms.custom: 
+title: 資料表和檢視表包含 Oracle 資料庫中的 LOB 資料的作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - data type
@@ -22,7 +22,7 @@ helpviewer_keywords:
 - BLOB
 - character large object
 ms.assetid: 25afd8c7-8ca3-4855-a231-2bec28c9a5cb
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -31,6 +31,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214390"
 ---
 # <a name="operations-on-tables-and-views-that-contain-lob-data-in-oracle-database"></a>資料表和檢視表包含 Oracle 資料庫中的 LOB 資料的作業
 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]提供 Oracle 大型物件 (LOB) 資料類型的支援：  

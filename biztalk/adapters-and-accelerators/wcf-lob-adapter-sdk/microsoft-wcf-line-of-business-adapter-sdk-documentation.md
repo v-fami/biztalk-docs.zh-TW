@@ -1,15 +1,15 @@
 ---
-title: "Microsoft Windows Communication Foundation 線條的商務配接器 SDK 文件 |Microsoft 文件"
-description: "快速安裝、 開始、 規劃和設計、 開發、 連結和疑難排解 WCF LOB 配接器 SDK 在 BizTalk Server"
-ms.custom: 
+title: Microsoft Windows Communication Foundation 線條的商務配接器 SDK 文件 |Microsoft 文件
+description: 快速安裝、 開始、 規劃和設計、 開發、 連結和疑難排解 WCF LOB 配接器 SDK 在 BizTalk Server
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0a2b098c-ef41-4cc0-8063-1fd043f1176f
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225822"
 ---
 # <a name="microsoft-windows-communication-foundation-line-of-business-adapter-sdk-documentation"></a>Microsoft Windows Communication Foundation 線條的商務配接器 SDK 文件
 [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]文件集包括資源可協助您開發、 部署和使用配接器以建立[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。  

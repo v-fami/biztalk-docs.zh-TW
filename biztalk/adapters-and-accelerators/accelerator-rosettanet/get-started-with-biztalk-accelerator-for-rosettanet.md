@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210270"
 ---
 # <a name="get-started-with-biztalk-accelerator-for-rosettanet"></a>開始使用 BizTalk Accelerator for RosettaNet
 Microsoft BizTalk Accelerator for RosettaNet (BTARN) 來簡化開發和部署的 RosettaNet 標準架構整合解決方案。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]支援 RosettaNet 實作架構 (RNIF) 1.1 和 2.0.01 版。 RNIF 是開放型的網路應用程式架構，可讓商務夥伴協同執行 RosettaNet 夥伴介面程序 (PIP)。 請參閱[GS1 美國](http://go.microsoft.com/fwlink/?LinkID=33859)如需有關 RosettaNet 標準。

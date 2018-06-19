@@ -1,17 +1,17 @@
 ---
-title: "正在將憑證加入至用戶端的憑證存放區 |Microsoft 文件"
-ms.custom: 
+title: 正在將憑證加入至用戶端的憑證存放區 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - certificates, adding to certificates store
 - certificates store
 ms.assetid: 9e2722ee-dd6f-4b14-9796-2f2157e8cad2
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209494"
 ---
 # <a name="adding-certificates-to-the-certificates-store-on-the-client"></a>將憑證新增至用戶端的憑證存放區
 使用下列步驟，將憑證加入至每個用戶端電腦上的憑證存放區的個人資料夾。 必須將憑證加入至 憑證-目前使用者存放區中的個人資料夾。  

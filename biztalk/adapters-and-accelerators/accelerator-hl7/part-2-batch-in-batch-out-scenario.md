@@ -1,17 +1,17 @@
 ---
-title: "第 2 部分： 批次的批次中分析藍本 |Microsoft 文件"
-ms.custom: 
+title: 第 2 部分： 批次的批次中分析藍本 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - batching, outbound batches
 - batching, inbound batches
 ms.assetid: 36b9d927-f5b7-4c1a-9163-9e79d17c3e9e
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206182"
 ---
 # <a name="part-2-batch-inbatch-out-scenario"></a>第 2 部分： 中批次 / 批次出案例
 在本教學課程的這個部分，接收 HL7 編碼的批次檔、 將其傳遞[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]分散的片段，而傳送保持不變的批次檔的目的地。 下圖顯示此程序，流量和下列小節描述工作流程。  

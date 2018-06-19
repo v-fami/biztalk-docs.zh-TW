@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269862"
 ---
 # <a name="sendpipeline-receivelocation-node"></a>SendPipeline (ReceiveLocation 節點)
 繫結檔案之 [ReceiveLocation] 節點的 [SendPipeline] 節點提供繫結至接收位置 (隨同繫結檔案匯出) 之傳送管線的特定資訊。  

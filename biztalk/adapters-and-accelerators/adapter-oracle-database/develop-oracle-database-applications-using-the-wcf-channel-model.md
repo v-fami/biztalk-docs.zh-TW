@@ -1,11 +1,11 @@
 ---
-title: "開發 Oracle 資料庫應用程式使用 WCF 通道模型 |Microsoft 文件"
-ms.custom: 
+title: 開發 Oracle 資料庫應用程式使用 WCF 通道模型 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF channel model, streaming
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - WCF channel model, developingn applications
 - channel programming, performing operations
 ms.assetid: cb6bf5fd-ff90-44bd-a9dd-03b00f12a78d
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214982"
 ---
 # <a name="develop-oracle-database-applications-using-the-wcf-channel-model"></a>開發 Oracle 資料庫應用程式使用 WCF 通道模型
 您可以使用[!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)]使用通道模型[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]直接透過使用 Oracle 資料庫繫結建立通道執行個體傳送 XML 訊息。  

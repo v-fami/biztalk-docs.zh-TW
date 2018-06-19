@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225230"
 ---
 # <a name="activity-relationships"></a>活動關係
 當活動與一或多個其他活動相關聯時，便存在活動關係， 例如，多個「出貨」活動與單一「訂單」活動相關聯，或者一個「出貨」活動包含兩個「訂單」活動的項目。  

@@ -1,11 +1,11 @@
 ---
-title: "Oracle 資料庫與配接器之間的安全性 |Microsoft 文件"
-ms.custom: 
+title: Oracle 資料庫與配接器之間的安全性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapter, security
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - authentication
 - IPsec
 ms.assetid: 09d40a05-3678-4002-9e08-2f97c2d5c686
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215702"
 ---
 # <a name="security-between-the-oracle-database-and-the-adapter"></a>Oracle 資料庫與配接器之間的安全性
 [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]不提供支援以便它與 Oracle 資料庫之間的安全通訊。 您必須提供安全性機制，以協助確保適當的授權、 驗證、 資料隱私權和資料配接器與 Oracle 資料庫之間的交換的資料完整性層級。  

@@ -1,14 +1,14 @@
 ---
-title: "進階組態元件的介面卡 |Microsoft 文件"
-ms.custom: 
+title: 進階組態元件的介面卡 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cb31b996-6959-4b5a-9a9f-f48fd91a6180
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230006"
 ---
 # <a name="advanced-configuration-components-for-adapters"></a>配接器的進階的組態元件
 BizTalk 配接器架構支援自訂下拉式編輯器、自訂強制回應對話方塊編輯器，以及自訂類型轉換器。 這些自訂設計元件特別在接受輸入使用者名稱和密碼資訊時特別有幫助。  

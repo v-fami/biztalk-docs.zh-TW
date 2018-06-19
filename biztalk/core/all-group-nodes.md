@@ -1,14 +1,14 @@
 ---
-title: "所有群組節點 |Microsoft 文件"
-ms.custom: 
+title: 所有群組節點 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0e28d98c-746a-44d8-bed2-ba539b8432aa
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230646"
 ---
 # <a name="all-group-nodes"></a>[All 群組] 節點
 在 [BizTalk 編輯器] 中，您可以插入**All 群組**節點，以包含其他節點將會出現零次或一次，以任何順序。 在 XML 結構描述定義 (XSD) 語言中， **All 群組**具有多個使用方式的限制比**順序**和**選擇**群組內的少數情況，轉譯BizTalk 編輯器 中，您可以在此處建立**All 群組**節點。  

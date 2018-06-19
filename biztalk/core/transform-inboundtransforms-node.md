@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279110"
 ---
 # <a name="transform-inboundtransforms-node"></a>轉換 (InboundTransforms 節點)
 繫結檔案之 [InboundTransforms] 節點的 [轉換] 節點中，包含隨同該繫結檔案一起匯出之 BizTalk Server 對應的特定相關資訊。  

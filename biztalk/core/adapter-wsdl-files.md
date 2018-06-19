@@ -1,14 +1,14 @@
 ---
-title: "配接器 WSDL 檔案 |Microsoft 文件"
-ms.custom: 
+title: 配接器 WSDL 檔案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4d4b35c0-1e4b-4106-8921-29d14f976d65
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22229822"
 ---
 # <a name="adapter-wsdl-files"></a>配接器 WSDL 檔案
 在 新增配接器中繼資料精靈 Web 服務描述語言 (WSDL) 檔案會選取並將其輸入**選取要匯入服務**頁面。 該精靈會讀取由服務公開並由使用者選取的 WSDL 檔案。 然後便會在 BizTalk 專案中建立並新增一個 XSD 檔案，以及一個協調流程。  

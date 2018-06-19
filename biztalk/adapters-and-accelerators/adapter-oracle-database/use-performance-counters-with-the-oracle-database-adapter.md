@@ -1,11 +1,11 @@
 ---
-title: "使用效能計數器與 Oracle 資料庫配接器 |Microsoft 文件"
-ms.custom: 
+title: 使用效能計數器與 Oracle 資料庫配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - performance counters, using
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - performance counters, enabling
 - performance counters, and the WCF LOB Adapter SDK
 ms.assetid: beb80896-7594-411e-a83c-169d5278e2ce
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215182"
 ---
 # <a name="use-performance-counters-with-the-oracle-database-adapter"></a>使用效能計數器，與 Oracle 資料庫配接器
 Microsoft[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]用戶端可以使用效能計數器來測量配接器的效能。 [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]安裝程式會建立效能計數器分類**BizTalk.NET Adapter for Oracle DB**以及安裝[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]。  

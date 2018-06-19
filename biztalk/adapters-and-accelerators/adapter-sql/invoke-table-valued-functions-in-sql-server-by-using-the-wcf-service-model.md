@@ -1,14 +1,14 @@
 ---
-title: "使用 WCF 服務模型來叫用 SQL Server 中的資料表值函式 |Microsoft 文件"
-ms.custom: 
+title: 使用 WCF 服務模型來叫用 SQL Server 中的資料表值函式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 48688bcc-36b4-4cc1-b078-17e7a5e1cf8c
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224694"
 ---
 # <a name="invoke-table-valued-functions-in-sql-server-by-using-the-wcf-service-model"></a>使用 WCF 服務模型來叫用 SQL Server 中的資料表值函式
 您可以使用[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].NET 應用程式使用 WCF 服務模型來叫用 SQL Server 中的資料表值函式中。 配接器會將資料表值函式公開為可直接在 SQL Server 叫用的方法。 如需配接器如何支援純量函數的詳細資訊，請參閱[Execute Table-Valued 函式中使用 SQL 配接器的 SQL Server](../../adapters-and-accelerators/adapter-sql/execute-table-valued-functions-in-sql-server-using-the-sql-adapter.md)。  

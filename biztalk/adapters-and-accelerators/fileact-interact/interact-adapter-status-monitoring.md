@@ -1,14 +1,14 @@
 ---
-title: "互動的介面卡狀態監視 |Microsoft 文件"
-ms.custom: 
+title: 互動的介面卡狀態監視 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2bbc6a45-8d3a-444e-b760-aef0dfa7218a
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224294"
 ---
 # <a name="interact-adapter-status-monitoring"></a>互動的介面卡狀態監視
 SWIFTNet 連結 (SNL C) 保留 SWIFTNet 存放區和該 SNL 上取得的正向 (SnF) 工作階段相關的本機狀態。 若要取得工作階段的相關資訊，請使用 SwCall() 與下列基本項目：  

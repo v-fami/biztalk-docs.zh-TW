@@ -1,14 +1,14 @@
 ---
-title: "此 AS2 交換的合作對象 AS2 必須包含值-從 |Microsoft 文件"
-ms.custom: 
+title: 此 AS2 交換的合作對象 AS2 必須包含值-從 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5d338759-5646-4dc2-8319-a42aaa8c3d9c
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278774"
 ---
 # <a name="the-party-for-this-as2-interchange-must-contain-a-value-for-as2-from"></a>此 AS2 交換的合作對象必須包含 AS2-From 的值
 ## <a name="details"></a>詳細資料  

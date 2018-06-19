@@ -1,18 +1,18 @@
 ---
-title: "建立 FRR 接收管線 |Microsoft 文件"
-ms.custom: 
+title: 建立 FRR 接收管線 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive pipelines, creating
 - FRR, creating receive pipelines
 - creating, receive pipelines
 ms.assetid: 5884176b-8522-4dd3-8f93-8695858b59ac
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210374"
 ---
 # <a name="creating-the-frr-receive-pipeline"></a>建立 FRR 接收管線
 若要執行 FIN 回應重新調整，您必須建立包含 SWIFT FRR 解碼器和 SWIFT FRR CorrelationSet 解決器管線元件，除了 SWIFT 解譯器的接收管線。  
@@ -53,7 +54,7 @@ ms.lasthandoff: 09/20/2017
   
 5.  從 BizTalk 管線元件 工具箱 窗格中，拖曳**SWIFT 解譯器**至**放置到此處**下列方塊**解譯**暫置在管線設計師中的圖形。  
   
-6.  與**SWIFT 解譯器元件**在管線設計師中，選取**屬性**，確認**BRE 驗證**和**XML 驗證**屬性會設為**True**，而**SWIFT 標頭結構描述**屬性設定為**（無）**。  
+6.  與**SWIFT 解譯器元件**在管線設計師中，選取**屬性**，確認**BRE 驗證**和**XML 驗證**屬性會設為**True**，而**SWIFT 標頭結構描述**屬性設定為 **（無）**。  
   
 7.  在 BizTalk 管線元件工具箱拖曳**SWIFT FRR MQSeries 解碼器**至**放置到此處**下列方塊**解碼器**暫置在管線設計師中的圖形。  
   

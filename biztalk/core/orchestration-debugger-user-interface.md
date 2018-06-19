@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22265654"
 ---
 # <a name="orchestration-debugger-user-interface"></a>協調流程偵錯工具使用者介面
 在互動 (偵錯) 模式下，[協調流程偵錯工具] 檢視包含三個區域：[服務] 窗格、[追蹤的事件] 窗格以及 [協調流程] 窗格。 此外，在互動模式下，「變數」清單和「變數」屬性會顯示在檢視的下方。  

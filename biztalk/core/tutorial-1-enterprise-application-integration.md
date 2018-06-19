@@ -1,18 +1,18 @@
 ---
-title: "教學課程 1： 企業應用程式整合 |Microsoft 文件"
-ms.custom: 
+title: 教學課程 1： 企業應用程式整合 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - enterprise application integration tutorial
 - getting started tutorials, integrating enterprise applications
 - enterprise application integration tutorial, about the tutorial
 ms.assetid: aca5fc97-0fd6-4964-9cf1-482aa4f444b8
-caps.latest.revision: "37"
+caps.latest.revision: 37
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287510"
 ---
 # <a name="tutorial-1-enterprise-application-integration"></a>教學課程 1：企業應用程式整合
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 提供應用程式整合及商務程序管理 (BPM) 的開發與執行階段環境。 此教學課程提供您使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 設定和部署企業應用程式整合 (EAI) 解決方案的端對端練習。  

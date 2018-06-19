@@ -1,18 +1,18 @@
 ---
-title: "在 Oracle 資料庫中使用 WCF 服務模型執行 SQLEXECUTE 操作 |Microsoft 文件"
-ms.custom: 
+title: 在 Oracle 資料庫中使用 WCF 服務模型執行 SQLEXECUTE 操作 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF service model, performing a SQLEXECUTE operation
 - SQLEXECUTE operation, performing a
 - how to, invoke the SQLEXECUTE operation
 ms.assetid: d3f61e5f-4453-4a76-9bc6-40d91cb58224
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215974"
 ---
 # <a name="run-sqlexecute-operation-in-oracle-database-using-the-wcf-service-model"></a>在 Oracle 資料庫中使用 WCF 服務模型執行 SQLEXECUTE 操作
 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]呈現一組標準的 Oracle 資料庫成品上的作業。 藉由使用這些作業，您可以呼叫之類的 Oracle 函式或程序，或執行基本 SQL 資料操作語言 (DML) 作業在資料表上。 不過，有可能會由您的商務邏輯驅動的案例需要您執行作業，[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]並不會出現。 例如，您可能想要：  

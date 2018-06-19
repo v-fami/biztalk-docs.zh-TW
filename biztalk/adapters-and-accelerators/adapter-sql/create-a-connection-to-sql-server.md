@@ -1,14 +1,14 @@
 ---
-title: "建立連接到 SQL Server |Microsoft 文件"
-ms.custom: 
+title: 建立連接到 SQL Server |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 44a03b2c-55b5-49a0-92cc-6f017720d34a
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225398"
 ---
 # <a name="create-a-connection-to-sql-server"></a>建立 SQL Server 的連接
 [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]是[!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)]自訂繫結。 因此，它可讓 SQL Server 資料庫，透過 WCF 端點位址的通訊。 在 WCF 中，識別服務的網路位置的端點位址，以及通常表示做為統一資源識別元 (URI)。 [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]表示這個位置做為連接 URI，其中包含屬性的[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]用以連接到 SQL Server 資料庫。 您必須指定連線 URI 時您：  

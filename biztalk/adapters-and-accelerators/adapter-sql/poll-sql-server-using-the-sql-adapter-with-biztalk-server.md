@@ -1,14 +1,14 @@
 ---
-title: "與 BizTalk Server 使用 SQL 配接器的輪詢 SQL Server |Microsoft 文件"
-ms.custom: 
+title: 與 BizTalk Server 使用 SQL 配接器的輪詢 SQL Server |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: eef9a4b4-552d-4552-b318-1deab506bad9
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223086"
 ---
 # <a name="poll-sql-server-using-the-sql-adapter-with-biztalk-server"></a>與 BizTalk Server 使用 SQL 配接器的輪詢 SQL Server
 您可以設定[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]以接收來自 SQL Server 輪詢基礎資料變更的訊息。 您可以指定執行以輪詢資料庫配接器的輪詢陳述式。 輪詢陳述式可以是 SELECT 陳述式或預存程序會傳回結果集。 根據接收的輪詢訊息類型，則配接器會公開輪詢的三種不同的方式：  

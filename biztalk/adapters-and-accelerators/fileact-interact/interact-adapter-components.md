@@ -1,14 +1,14 @@
 ---
-title: "InterAct 配接器元件 |Microsoft 文件"
-ms.custom: 
+title: InterAct 配接器元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: aad60b57-4cc8-44b9-98f5-e5a2ba3a41e2
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224686"
 ---
 # <a name="interact-adapter-components"></a>InterAct 配接器元件
 InterAct 配接器具有用戶端和伺服器元件。 請注意，有可能 A4SWIFT 安裝 （最小） SWIFT 聯盟閘道 (SAG) 在相同電腦上的執行 Windows Server。 也請注意，SWIFTNet 連結 (SNL) 可能 SAG 從一部電腦上。 遠端應用程式發展介面 (API) SWIFT 所提供的主機介面卡用來從 A4SWIFT SAG，不論元件的位置與通訊。  

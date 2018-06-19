@@ -1,14 +1,14 @@
 ---
-title: "教學課程 2： 員工-訂單程序使用 SQL 配接器 |Microsoft 文件"
-ms.custom: 
+title: 教學課程 2： 員工-訂單程序使用 SQL 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: eeb4dd1e-209a-47eb-9c0e-a138e02f0ff2
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223230"
 ---
 # <a name="tutorial-2-employee---purchase-order-process-using-the-sql-adapter"></a>教學課程 2： 員工-訂單程序使用 SQL 配接器
 在本教學課程中，您要將自動化位置放置設備的採購部門順序每次新的員工聯結組織的程序。 員工詳細資料及訂單詳細資料會保留在**員工**和**Purchase_Order**資料表分別將 SQL Server 資料庫中。 採購部門會在透過更新 Purchase_Order 資料表中的 SQL Server 資料庫及傳送電子郵件通知。 在此程序，會發生下列動作：  

@@ -1,14 +1,14 @@
 ---
-title: "工作 4： 設定建構訊息 Shape2 |Microsoft 文件"
-ms.custom: 
+title: 工作 4： 設定建構訊息 Shape2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 43a7b912-0293-41be-b992-309eca550801
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279038"
 ---
 # <a name="task-4-configure-the-construct-message-shape"></a>工作 4： 設定建構訊息圖形
 「建構訊息」會保存訊息指派，包含 Begin、Edit 和 End Doc 程式碼的指示。  

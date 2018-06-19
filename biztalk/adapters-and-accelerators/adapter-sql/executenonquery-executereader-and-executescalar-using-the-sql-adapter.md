@@ -1,14 +1,14 @@
 ---
-title: "執行 ExecuteNonQuery、 ExecuteReader 和使用 SQL 配接器的 ExecuteScalar 作業 |Microsoft 文件"
-ms.custom: 
+title: 執行 ExecuteNonQuery、 ExecuteReader 和使用 SQL 配接器的 ExecuteScalar 作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3fda0544-a028-4a95-aae6-1f6a90764c5d
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222270"
 ---
 # <a name="run-executenonquery-executereader-and-executescalar-operations-using-the-sql-adapter"></a>執行 ExecuteNonQuery、 ExecuteReader 和使用 SQL 配接器的 ExecuteScalar 作業
 [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]公開根層級的下列作業：  
@@ -25,7 +26,7 @@ ms.lasthandoff: 09/20/2017
   
     -   對於 INSERT、 UPDATE 和 DELETE 陳述式，傳回值會是 SQL 陳述式所影響的資料列數目。  
   
-    -   對於所有其他陳述式類型，則傳回值是**-1**。  
+    -   對於所有其他陳述式類型，則傳回值是 **-1**。  
   
 -   **ExecuteReader**： 使用 SQL Server 中執行任何任意的 SQL 陳述式，如果您想將結果集傳回，如果有的話，做為陣列的資料集的這項作業。 資料集的相關資訊，請參閱 < 資料集類別 >，網址[http://go.microsoft.com/fwlink/?LinkID=196853](http://go.microsoft.com/fwlink/?LinkID=196853)。  
   

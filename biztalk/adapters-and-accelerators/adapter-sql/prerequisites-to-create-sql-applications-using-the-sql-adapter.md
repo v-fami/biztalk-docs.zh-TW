@@ -1,14 +1,14 @@
 ---
-title: "若要建立使用 SQL 配接器的 SQL 應用程式的必要條件 |Microsoft 文件"
-ms.custom: 
+title: 若要建立使用 SQL 配接器的 SQL 應用程式的必要條件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fb3a8963-88a8-4db0-a740-eb54b041931c
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224510"
 ---
 # <a name="prerequisites-to-create-sql-applications-using-the-sql-adapter"></a>若要建立使用 SQL 配接器的 SQL 應用程式的必要條件
 您必須在開發 BizTalk 應用程式使用之前執行[!INCLUDE[adaptersql_md](../../includes/adaptersql-md.md)]。 本主題也會列出一些可用來開發 BizTalk 應用程式的 BizTalk Server 工具。  

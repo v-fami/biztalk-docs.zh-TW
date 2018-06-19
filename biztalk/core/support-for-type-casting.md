@@ -1,14 +1,14 @@
 ---
-title: "型別轉換支援 |Microsoft 文件"
-ms.custom: 
+title: 型別轉換支援 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6af46e34-5e33-4f61-8c19-4348f1bb4d4a
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279502"
 ---
 # <a name="support-for-type-casting"></a>型別轉換支援
 您可以使用**轉換**方法**ClassMemberBinding**類別來將某個型別的物件轉換成另一個相容型別的物件。 目前，商務規則編輯器 」 工具不支援建立規則使用**轉換**方法。 您必須使用規則引擎物件模型，以程式設計方式建立規則，才可以利用這個功能。  

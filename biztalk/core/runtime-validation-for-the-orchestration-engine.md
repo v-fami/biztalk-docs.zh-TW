@@ -1,11 +1,11 @@
 ---
-title: "協調流程引擎的執行階段驗證 |Microsoft 文件"
-ms.custom: 
+title: 協調流程引擎的執行階段驗證 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - validating, assemblies
@@ -20,7 +20,7 @@ helpviewer_keywords:
 - validating, orchestrations
 - validating
 ms.assetid: f6085889-05d6-4eba-a528-9d034c4e4225
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -29,6 +29,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269262"
 ---
 # <a name="runtime-validation-for-the-orchestration-engine"></a>協調流程引擎的執行階段驗證
 您可以設定協調流程引擎以執行各種執行階段驗證，以協助您測試協調流程和診斷可能發生的組態或資料錯誤。  

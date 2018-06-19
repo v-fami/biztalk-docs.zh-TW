@@ -1,18 +1,18 @@
 ---
-title: "在協調流程中的持續性 |Microsoft 文件"
-ms.custom: 
+title: 在協調流程中的持續性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, persistence
 - persistence
 - BizTalk Server Orchestration Engine
 ms.assetid: 2f79d294-f7df-4d84-ba76-50618506b6c6
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264590"
 ---
 # <a name="persistence-in-orchestrations"></a>協調流程持續性
 協調流程引擎會在不同的持續點儲存協調流程執行個體的整個狀態，讓協調流程執行個體能夠解除凍結。 除了訊息和變數以外，狀態還包括可能在協調流程中使用的任何 .NET 架構元件。 引擎將狀態存放在下列持續點：  

@@ -1,14 +1,14 @@
 ---
-title: "設定 SQL 配接器的繫結屬性 |Microsoft 文件"
-ms.custom: 
+title: 設定 SQL 配接器的繫結屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c2edbd90-039a-48b4-a6fc-d825b4957207
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224702"
 ---
 # <a name="configure-the-binding-properties-for-the-sql-adapter"></a>設定 SQL 配接器的繫結屬性
 [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]呈現數個繫結屬性可讓您控制其行為特性，部份。 本節提供設定的繫結內容的相關資訊[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]來回[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]管理主控台。 從[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]，您必須指定要產生結構描述的特定作業的繫結屬性。 從[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]，您必須指定的繫結屬性一部分的傳送或接收埠的傳送或接收訊息，從 SQL Server。  

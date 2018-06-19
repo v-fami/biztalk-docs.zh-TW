@@ -1,14 +1,14 @@
 ---
-title: "步驟 2： 新增 v2.3.1 通用結構描述 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 新增 v2.3.1 通用結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: da98fe6c-4776-4cb8-8454-af3128dea4ab
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206510"
 ---
 # <a name="step-2-add-common-schemas-for-v231"></a>步驟 2： 新增 v2.3.1 通用結構描述
 在此步驟中，您可以建立新 BTAHL7231Common 專案範本為基礎的專案。 此範本包含三個的通用結構描述 （適用於資料類型、 區段和資料表值）， [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 用來驗證 v2.3.1 訊息執行個體。 [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]HL7 v2.3.1 結構描述，包括將用於內送的批次中的個別訊息的結構描述搭配使用這些常見的結構描述 (ADT ^ A03)。  
@@ -48,7 +49,7 @@ ms.lasthandoff: 09/20/2017
   
 10. 在 選擇強式名稱金鑰檔下拉式清單中，選取。  
   
-11. 瀏覽至**: \Batching 教學課程**，選取**key.snk**，然後按一下 **開啟**。  
+11. 瀏覽至 **: \Batching 教學課程**，選取**key.snk**，然後按一下 **開啟**。  
   
 12. 以滑鼠右鍵按一下**BTAHL7V231Common**，然後按一下 **部署**。 確定成功的訊息出現在 [輸出] 視窗。  
   

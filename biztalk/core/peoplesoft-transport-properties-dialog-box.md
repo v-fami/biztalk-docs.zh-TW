@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22265142"
 ---
 # <a name="peoplesoft-transport-properties-dialog-box"></a>PeopleSoft 傳輸屬性對話方塊
 使用 [PeopleSoft Transport 傳輸屬性] 對話方塊設定配接器必要屬性。  
@@ -43,7 +44,7 @@ ms.lasthandoff: 09/20/2017
 |重新整理代理程式|選取**是**如**重新整理代理程式**強制 runtimeagent.exe 和 browsingagent.exe 程序在必要時自動重新啟動。<br /><br /> 例如，您希望程序在與伺服器中斷連線時自動重新啟動，或是您在伺服器加上其他項目，但是該項目並未出現在配接器精靈的選項中。|  
 |**單一登入**||  
 |分支機構應用程式|只有在您使用單一登入 (SSO) 時，才需從清單中選取分支機構應用程式。|  
-|使用 SSO|選取**是**如果您使用 SSO; 密碼就不需要在此情況下。 **注意：**如果您已輸入密碼，而且您想要使用單一登入，以滑鼠右鍵按一下欄位和選取的密碼**將密碼**。|  
+|使用 SSO|選取**是**如果您使用 SSO; 密碼就不需要在此情況下。 **注意：** 如果您已輸入密碼，而且您想要使用單一登入，以滑鼠右鍵按一下欄位和選取的密碼**將密碼**。|  
   
 ## <a name="see-also"></a>另請參閱  
  [BizTalk Adapter for PeopleSoft Enterprise 的 UI 參考](../core/ui-reference-for-biztalk-adapter-for-peoplesoft-enterprise.md)

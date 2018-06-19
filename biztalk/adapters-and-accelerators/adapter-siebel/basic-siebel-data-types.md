@@ -10,7 +10,7 @@ ms.topic: article
 helpviewer_keywords:
 - Siebel data types, supported
 ms.assetid: bf86f639-6c45-49db-9e58-79c3ad2c9978
-caps.latest.revision: ''
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -19,6 +19,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22218750"
 ---
 # <a name="basic-siebel-data-types"></a>基本的 Siebel 資料型別
 本章節描述如何在支援 Siebel 資料型別[!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)]。  
@@ -38,7 +39,7 @@ ms.lasthandoff: 03/28/2018
 |DTYPE_NUMBER|xsd:decimal|Decimal|-|  
 |DTYPE_PHONE|xsd:string|字串|-|  
 |DTYPE_TEXT|xsd:string|字串|-|  
-|DTYPE_TIME|xsd:dateTime*|DateTime|值不能為 UTC。<br /><br /> -若為 xsd:dateTime，值應為遵循這個模式: (1753-01-01)T(\d\d:\d\d:\d\d) (。\*) 」。<br />-若為**DateTime**物件**，DateTime.Kind**必須**DateTimeKind.Unspecified**。<br /><br /> 對於輸出訊息，配接器會執行執行階段驗證以確定指定的值不是 UTC （z 或 UTC 時差）。 如果驗證失敗，配接器會擲回例外狀況。<br /><br /> 當此類型會公開為 xsd: string （根據的規則如下所述）：<br /><br /> -格式取決於基礎資料庫。<br />-不執行階段會執行驗證的值。|  
+|DTYPE_TIME|xsd:dateTime*|DateTime|值不能為 UTC。<br /><br /> -若為 xsd:dateTime，值應為遵循這個模式: (1753-01-01)T(\d\d:\d\d:\d\d) (。\*) 」。<br />-若為**DateTime**物件 **，DateTime.Kind**必須**DateTimeKind.Unspecified**。<br /><br /> 對於輸出訊息，配接器會執行執行階段驗證以確定指定的值不是 UTC （z 或 UTC 時差）。 如果驗證失敗，配接器會擲回例外狀況。<br /><br /> 當此類型會公開為 xsd: string （根據的規則如下所述）：<br /><br /> -格式取決於基礎資料庫。<br />-不執行階段會執行驗證的值。|  
 |DTYPE_UTCDATETIME|xsd:dateTime*|DateTime|值可以包含日期和時間元件，而且必須是 UTC。<br /><br /> -若為 xsd:dateTime，此值必須以表示 utc 時區 （'Z' 標記法或 UTC 時差）。<br />-若為**DateTime**物件**DateTime.Kind**必須**DateTimeKind.Utc**。<br /><br /> 對於輸出訊息，配接器會執行執行階段驗證，以確保符合這些條件。如果驗證失敗，配接器會擲回例外狀況。<br /><br /> 當此類型會公開為 xsd: string （根據規則，如下所述）：<br /><br /> -格式取決於基礎資料庫。<br />-不執行階段會執行驗證的值。|  
   
  商務服務方法的引數類型如下：  

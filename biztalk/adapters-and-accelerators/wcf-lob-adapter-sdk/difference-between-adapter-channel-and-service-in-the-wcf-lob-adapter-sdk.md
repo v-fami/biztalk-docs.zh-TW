@@ -1,14 +1,14 @@
 ---
-title: "配接器通道與服務之間的差異在 WCF LOB 配接器 SDK |Microsoft 文件"
-ms.custom: 
+title: 配接器通道與服務之間的差異在 WCF LOB 配接器 SDK |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 24d41d96-0ea1-4a97-bd45-b65afdbbd923
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225006"
 ---
 # <a name="difference-between-adapter-channel-and-service-in-the-wcf-lob-adapter-sdk"></a>WCF LOB 配接器 SDK 中配接器通道與服務之間的差異
 [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]和[!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)]各提供一組 Api，可用來公開 （expose） 來取用應用程式在相同電腦上或網路上的應用程式功能。 若要選擇最適當的架構，您必須考慮的目標系統應用程式公開功能的商務需求以及要公開的屬性。 本主題提供可讓您選擇適當的架構指導方針。  

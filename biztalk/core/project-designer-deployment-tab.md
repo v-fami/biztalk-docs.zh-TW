@@ -1,11 +1,11 @@
 ---
-title: "專案設計工具: [部署] 索引標籤 |Microsoft 文件"
-ms.custom: 
+title: '專案設計工具: [部署] 索引標籤 |Microsoft 文件'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - properties, Configuration database [BizTalk Server]
@@ -22,7 +22,7 @@ helpviewer_keywords:
 - configuration properties [deployment], Management database property
 - configuration properties [deployment], Administration Group property
 ms.assetid: 5b64f99c-4ec6-4ed3-8590-46420e2f75b8
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -31,6 +31,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264942"
 ---
 # <a name="project-designer-deployment-tab"></a>專案設計工具：[部署] 索引標籤
 **部署**屬性索引標籤的 專案設計工具可讓您設定 BizTalk 專案的部署屬性。 您必須同時設定**伺服器**和**組態資料庫**（也稱為 「 BizTalk 管理資料庫） 屬性為集合，部署才能成功。  

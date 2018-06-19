@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ef6ec298-35fe-4845-9549-685993d2c659
-caps.latest.revision: ''
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22231654"
 ---
 # <a name="addresource-command-net-assembly"></a>AddResource 命令：.NET 組件
 若要新增至 BizTalk 應用程式的.NET 組件 （其中包含 managed 的 COM 或 COM + 元件），您使用 **AddResource** 命令並指定 **system.biztalk: assembly** 做為 Type 參數。 執行此命令會將組件新增至 BizTalk 管理資料庫。 組件也會顯示於 BizTalk 管理主控台，列在加入該組件的應用程式的 [資源] 資料夾中。 此外，組件時也將列出您使用[ListApp 命令](../core/listapp-command.md)。  
@@ -24,7 +25,7 @@ ms.lasthandoff: 03/23/2018
  如果組件與應用程式中現有的組件具有相同的完整名稱，您可以指定 Overwrite 參數。 完整名稱是由名稱、公開金鑰 Token、文化特性和版本所組成。 在此情況下會覆寫現有的組件。 如需相依性的詳細資訊，請參閱[相依性和應用程式部署](../core/dependencies-and-application-deployment.md)。  
   
 ## <a name="usage"></a>使用方式  
- **BTSTask AddResource** [**/ApplicationName:***value*] **/Type:System.BizTalk:Assembly**[**/Overwrite**] **/Source:***value* [**/Destination:***value*] [**/Options:GacOnAdd***&#124;***GacOnInstall***&#124;***GacOnImport**&#124;**RegasmOnInstall**&#124;**RegsvcsOnInstall**] [**/Server:***value*] [**/Database:***value*]  
+ **BTSTask AddResource** [**/ApplicationName:***value*] **/Type:System.BizTalk:Assembly**[**/Overwrite **] **/Source:***value* [**/Destination:***value*] [**/Options:GacOnAdd ***&#124;*** GacOnInstall ***&#124;*** GacOnImport **&#124;** RegasmOnInstall **&#124;** RegsvcsOnInstall **] [**/Server:***value*] [**/Database:*** value*]  
   
 ## <a name="parameters"></a>參數  
   

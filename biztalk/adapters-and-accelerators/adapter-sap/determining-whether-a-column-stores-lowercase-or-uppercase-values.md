@@ -1,14 +1,14 @@
 ---
-title: "判斷資料行是否儲存大寫或小寫值 |Microsoft 文件"
-ms.custom: 
+title: 判斷資料行是否儲存大寫或小寫值 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1edc8332-d8c7-4040-895b-f121fb03df44
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216982"
 ---
 # <a name="determining-whether-a-column-stores-lowercase-or-uppercase-values"></a>決定是否以值的資料行存放區大寫或小寫
 此區段會列出要對 SAP 系統以判定是否 SAP 資料表的資料行儲存大寫或小寫字元的高階工作。 如需詳細指示如何執行這項工作中，您必須連絡您的 SAP 系統管理員，或請參閱 SAP 文件。  

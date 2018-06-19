@@ -1,18 +1,18 @@
 ---
-title: "系統管理員 （BizTalk Server 範例資料夾） |Microsoft 文件"
-ms.custom: 
+title: 系統管理員 （BizTalk Server 範例資料夾） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SDK examples
 - examples, administering
 - administering, examples
 ms.assetid: 178d0ee2-d437-4945-a35d-1a8be524aff1
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230990"
 ---
 # <a name="admin-biztalk-server-samples-folder"></a>系統管理員 （BizTalk Server 範例資料夾）
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的軟體開發套件 (SDK) 中包含數個管理範例。 本節提供每個管理範例所示範之功能的詳細資訊、用來建置和執行範例的指示，以及您可以預期的結果。  

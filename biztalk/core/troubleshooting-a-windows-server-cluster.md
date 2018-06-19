@@ -1,14 +1,14 @@
 ---
-title: "疑難排解 Windows Server 叢集 |Microsoft 文件"
-ms.custom: 
+title: 疑難排解 Windows Server 叢集 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 283cf4cd-ce40-48b7-8549-9ab17d7d2c34
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279958"
 ---
 # <a name="troubleshooting-a-windows-server-cluster"></a>疑難排解 Windows Server 叢集
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 支援 Windows Server 叢集的使用，以提供主控件叢集的支援、提供企業單一登入 (SSO) 主要密碼的高可用性，並提供 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 資料庫的高可用性。 本主題提供一些在 Windows Server 叢集環境中使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的一般指導方針，並討論在 Windows Server 叢集環境中使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 時可能會發生的一些已知問題。  

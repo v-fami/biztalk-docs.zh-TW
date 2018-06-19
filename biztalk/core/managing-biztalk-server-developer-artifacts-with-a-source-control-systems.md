@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ce25b112-38c9-40c8-9a5f-a2855572aabb
-caps.latest.revision: ''
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22265798"
 ---
 # <a name="managing-biztalk-server-developer-artifacts-with-a-source-control-systems"></a>管理原始檔控制系統與 BizTalk Server 開發人員成品
 保護您的 BizTalk 專案免於發生未預期的系統失敗，應做為第一優先的事項。 保護專案檔案的一個方式是使用原始程式碼控制系統，例如 Team Foundation Server Source Control 與 Microsoft Visual SourceSafe。 本主題說明一些基本策略，可將專案組織成與任何原始檔控制系統搭配使用時都能發揮最佳效果，並提供有關使用 Visual SourceSafe 的特定建議。  

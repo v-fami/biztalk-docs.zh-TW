@@ -1,11 +1,11 @@
 ---
-title: "BTAHL72XML 處理 |Microsoft 文件"
-ms.custom: 
+title: BTAHL72XML 處理 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - 2.XML messages, processing
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - 2.XML messages, acknowledgements
 - 2.XML messages, validating
 ms.assetid: 2f12cb44-816c-4773-9db0-9cbc3d1b1aee
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204678"
 ---
 # <a name="btahl72xml-processing"></a>BTAHL72XML 處理
 中的下列元件[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 處理 HL7 2.XML （XML 編碼） 訊息：  

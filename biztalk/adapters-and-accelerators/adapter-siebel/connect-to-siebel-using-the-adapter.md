@@ -1,17 +1,17 @@
 ---
-title: "連接至 Siebel 使用配接器 |Microsoft 文件"
-ms.custom: 
+title: 連接至 Siebel 使用配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - connecting, to a Siebel system
 - connection URI
 ms.assetid: 6ba04179-5626-42b1-a01b-0c0638d31da3
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22221838"
 ---
 # <a name="connect-to-siebel-using-the-adapter"></a>連接至 Siebel 使用配接器
 [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]需要配接器用戶端提供的連接字串，呼叫統一資源識別元 (URI)，連接至 Siebel 系統的連線。 使用 連線 URI，配接器用戶端可以指定連線參數，以連接到外部系統。 如需連線 URI 的詳細資訊，請參閱[建立連接至 Siebel 系統](../../adapters-and-accelerators/adapter-siebel/create-a-connection-to-the-siebel-system.md)。  

@@ -1,11 +1,11 @@
 ---
-title: "支援 Oracle 資料庫中接收輪詢基礎資料變更的訊息 |Microsoft 文件"
-ms.custom: 
+title: 支援 Oracle 資料庫中接收輪詢基礎資料變更的訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - notifications, polling-based
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - polling interval
 - polling
 ms.assetid: 9ff29d3f-ebb1-4d82-9106-150f939cbd9e
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218798"
 ---
 # <a name="support-for-receiving-polling-based-data-changed-messages-in-oracle-database"></a>支援 Oracle 資料庫中接收輪詢基礎資料變更的訊息
 [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]可讓用戶端程式來告知他們對 Oracle 資料庫中儲存資料的 Oracle 資料庫接收訊息。 [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]接收 「 輪詢基礎 」 的訊息，其中指定選取的查詢、 預存程序、 函數或程序或函式，在封裝中，而執行配接器支援擷取資料，並提供在一般用戶端的結果時間間隔。 若要啟用此功能，[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]公開 POLLINGSTMT 作業。 此外，所有預存程序、 函數和程序和封裝內的函式會公開做為輸入的作業來輪詢。  
@@ -72,7 +73,7 @@ ms.lasthandoff: 09/20/2017
 |輪詢|通知|  
 |-------------|------------------|  
 |支援的所有 Oracle 資料庫版本都支援輪詢[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]。|通知是支援僅針對 Oracle 資料庫版本 10.2 和更新版本。|  
-|您可以設定輪詢間隔，以檢查適用於定期輪詢資料，或立即一樣，當有可用的資料。 **提示：**輪詢可讓您更佳的輸送量持續發生資料變更並不想為每項變更，並發生時加以通知。 相反地，您可以指定您要在其後發生是因為最後一個變更通知的所有變更的通知輪詢間隔。|資料變更通知是一律在瞬間完成。|  
+|您可以設定輪詢間隔，以檢查適用於定期輪詢資料，或立即一樣，當有可用的資料。 **提示：** 輪詢可讓您更佳的輸送量持續發生資料變更並不想為每項變更，並發生時加以通知。 相反地，您可以指定您要在其後發生是因為最後一個變更通知的所有變更的通知輪詢間隔。|資料變更通知是一律在瞬間完成。|  
 |輪詢配接器所起始。 若要驗證是否資料適用於輪詢，並以起始輪詢執行輪詢陳述式，如果某些資料可用於輪詢 SQL 陳述式執行配接器。|通知是由 Oracle 資料庫啟動。 只在配接器發出的通知陳述式會指示資料庫在陳述式的結果集變更的情況下起始通知。 通知是 Oracle 資料庫的功能。|  
 |您可以使用輪詢陳述式來讀取或更新的 Oracle 資料庫中的資料。|您可以使用通知陳述式只讀取 Oracle 資料庫中的資料。|  
 |輪詢會通知您有關已變更的實際資料。|通知會告知中插入，例如資料的變更類型的相關更新和刪除。|  

@@ -1,11 +1,11 @@
 ---
-title: "依序傳遞訊息 |Microsoft 文件"
-ms.custom: 
+title: 依序傳遞訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - backing up, message order
@@ -24,7 +24,7 @@ helpviewer_keywords:
 - adapters, messages
 - customizing, receive adapters
 ms.assetid: 39e0bba6-81f5-4ae0-af92-837b225bc801
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -33,6 +33,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22266606"
 ---
 # <a name="ordered-delivery-of-messages"></a>訊息的排序傳遞
 訊息的排序傳遞可確保以指定順序發佈至 MessageBox 資料庫的訊息是以與發佈至 MessageBox 的相同順序傳遞給每一個相符的訂閱者。  

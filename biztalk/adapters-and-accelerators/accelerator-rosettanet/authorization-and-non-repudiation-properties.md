@@ -11,7 +11,7 @@ helpviewer_keywords:
 - authorization properties
 - non-repudiation, properties
 ms.assetid: e752b95b-9dae-4403-8f3e-3a0a50acd519
-caps.latest.revision: ''
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22208174"
 ---
 # <a name="authorization-and-non-repudiation-properties"></a>授權與不可否認性屬性
 本主題說明交易夥伴介面程序 (PIP) 的 `Is Authorization Required`、`Non-Repudiation of Origin and Content` 和 `Non-Repudiation Required (Acknowledgement of Receipt)` 屬性的行為。 它也會描述這些屬性的組合， [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]支援。  

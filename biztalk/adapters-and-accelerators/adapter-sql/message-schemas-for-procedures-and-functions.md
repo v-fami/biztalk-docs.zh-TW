@@ -1,14 +1,14 @@
 ---
-title: "訊息的程序和函數的結構描述 |Microsoft 文件"
-ms.custom: 
+title: 訊息的程序和函數的結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4acfb29e-8774-4eb7-ba10-2dcb93d2b41a
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223350"
 ---
 # <a name="message-schemas-for-procedures-and-functions"></a>訊息結構描述的程序和函式
 [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]介面 SQL Server 資料庫預存程序和純量和資料表值函式做為作業。 本章節描述的訊息結構及用來叫用程序和函數的動作。  

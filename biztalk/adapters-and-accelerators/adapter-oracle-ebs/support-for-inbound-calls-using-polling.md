@@ -1,14 +1,14 @@
 ---
-title: "支援使用輪詢進行傳入呼叫 |Microsoft 文件"
-ms.custom: 
+title: 支援使用輪詢進行傳入呼叫 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ae02a93a-808f-4774-a2c4-efdf39a4d49a
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217398"
 ---
 # <a name="support-for-inbound-calls-using-polling"></a>使用輪詢進行傳入呼叫時的支援
 [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]可讓用戶端程式來接收通知他們 Oracle E-business Suite 中的資料變更的 Oracle E-business Suite 中的訊息。 [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]接收 「 輪詢基礎 」 的訊息，其中指定的 SQL 陳述式、 預存程序、 函數或程序在封裝中，而執行配接器支援擷取資料，並提供用戶端定期的結果時間。  
@@ -64,7 +65,7 @@ ms.lasthandoff: 09/20/2017
 |輪詢|通知|  
 |-------------|------------------|  
 |支援的所有 Oracle 資料庫版本都支援輪詢[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]。|10.2 和更新版本的 Oracle 資料庫版本才支援通知。|  
-|您可以設定輪詢間隔，以檢查適用於定期輪詢資料，或立即一樣，當有可用的資料。 **提示：**輪詢可讓您更佳的輸送量持續發生資料變更並不想為每項變更，並發生時加以通知。 相反地，您可以指定您要在其後發生是因為最後一個變更通知的所有變更的通知輪詢間隔。|資料變更通知是一律在瞬間完成。|  
+|您可以設定輪詢間隔，以檢查適用於定期輪詢資料，或立即一樣，當有可用的資料。 **提示：** 輪詢可讓您更佳的輸送量持續發生資料變更並不想為每項變更，並發生時加以通知。 相反地，您可以指定您要在其後發生是因為最後一個變更通知的所有變更的通知輪詢間隔。|資料變更通知是一律在瞬間完成。|  
 |輪詢配接器所起始。 若要驗證是否資料適用於輪詢，並以起始輪詢執行輪詢陳述式，如果某些資料可用於輪詢 SQL 陳述式執行配接器。|通知是由 Oracle 資料庫啟動。 只在配接器發出的通知陳述式會指示資料庫在陳述式的結果集變更的情況下起始通知。 通知是 Oracle 資料庫的功能。|  
 |您可以使用輪詢陳述式來讀取或更新的 Oracle 資料庫中的資料。|您可以使用通知陳述式只讀取 Oracle 資料庫中的資料。|  
 |輪詢會通知您有關已變更的實際資料。|通知會告知中插入，例如資料的變更類型的相關更新和刪除。|  

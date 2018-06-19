@@ -1,17 +1,17 @@
 ---
-title: "訊息結構描述的特殊 LOB Operations2 |Microsoft 文件"
-ms.custom: 
+title: 訊息結構描述的特殊 LOB Operations2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - LOB data types, message structure of
 - LOB data types, message actions for
 ms.assetid: 031989d5-3209-41ab-8836-a40539781e74
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214590"
 ---
 # <a name="message-schemas-for-special-lob-operations"></a>特殊 LOB 作業的訊息結構描述
 ReadLOB 和 UpdateLOB 作業便會顯示資料表和檢視表包含 LOB 資料行。這是用來儲存 Oracle 大型物件 (LOB) 資料的資料行。 這些作業可讓您讀取或寫入 base64Binary 編碼資料的資料流的形式的 LOB 資料。 它們是在單一資料列的 LOB 資料的單一資料行上運作。  

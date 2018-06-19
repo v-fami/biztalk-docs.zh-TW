@@ -1,14 +1,14 @@
 ---
-title: "步驟 1： 建立服務匯流排命名空間 |Microsoft 文件"
-ms.custom: 
+title: 步驟 1： 建立服務匯流排命名空間 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ede1ac50-bbfb-4aeb-8217-1877ae218f89
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22276758"
 ---
 # <a name="step-1-create-a-service-bus-namespace"></a>步驟 1： 建立服務匯流排命名空間
 在此步驟中，您會建立[!INCLUDE[winazure](../includes/winazure-md.md)][!INCLUDE[sb](../includes/sb-md.md)]命名空間。 您將使用此命名空間來裝載接收來自 Salesforce 的商機通知的轉送端點。 稍後在建立此方案，您會使用這個轉送端點來接收通知訊息至[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統。  

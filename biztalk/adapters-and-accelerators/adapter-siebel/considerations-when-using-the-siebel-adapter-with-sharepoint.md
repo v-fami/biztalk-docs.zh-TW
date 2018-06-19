@@ -1,14 +1,14 @@
 ---
-title: "搭配 SharePoint 使用 Siebel 配接器時的考量 |Microsoft 文件"
-ms.custom: 
+title: 搭配 SharePoint 使用 Siebel 配接器時的考量 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ea7da079-3250-4ecc-bf01-6b5495c7f380
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223918"
 ---
 # <a name="considerations-when-using-the-siebel-adapter-with-sharepoint"></a>使用與 SharePoint Siebel 配接器時的考量
 本主題包含使用時可能會遇到問題的相關資訊[!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)]與 Microsoft Office SharePoint Server，以及解決方式。 問題分為兩類：  

@@ -1,17 +1,17 @@
 ---
-title: "使用外部組件指令碼 |Microsoft 文件"
-ms.custom: 
+title: 使用外部組件指令碼 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Scripting functoids, warnings
 - Scripting functoids, external assemblies
 ms.assetid: 0bdf6adc-91b9-462e-8fd0-9cb48bfa7817
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269198"
 ---
 # <a name="scripting-using-external-assemblies"></a>使用外部組件的指令碼處理
 使用外部組件的指令碼處理是 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 使用指令碼處理的慣用方式。 外部組件提供數個優點：  

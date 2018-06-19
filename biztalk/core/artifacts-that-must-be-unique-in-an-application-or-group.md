@@ -1,18 +1,18 @@
 ---
-title: "中的應用程式或群組必須是唯一的成品 |Microsoft 文件"
-ms.custom: 
+title: 中的應用程式或群組必須是唯一的成品 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - groups, artifacts
 - artifacts, requirements
 - applications, artifacts
 ms.assetid: a758cd74-a962-4e75-aea2-47752ab72a64
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230382"
 ---
 # <a name="artifacts-that-must-be-unique-in-an-application-or-group"></a>在應用程式或群組中必須是唯一的成品
 BizTalk 群組或應用程式中某些類型的成品必須是唯一的，如下所示：  

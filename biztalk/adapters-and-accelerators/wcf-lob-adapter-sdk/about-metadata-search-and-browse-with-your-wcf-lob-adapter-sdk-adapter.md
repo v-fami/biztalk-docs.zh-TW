@@ -1,14 +1,14 @@
 ---
-title: "關於中繼資料搜尋和瀏覽您的 WCF LOB 配接器 SDK 配接器 |Microsoft 文件"
-ms.custom: 
+title: 關於中繼資料搜尋和瀏覽您的 WCF LOB 配接器 SDK 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1dc529ba-86ce-4f83-a4f8-73f5765308e2
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "22224742"
 ---
 # <a name="about-metadata-search-and-browse-with-your-wcf-lob-adapter-sdk-adapter"></a>關於中繼資料搜尋和瀏覽您的 WCF LOB 配接器 SDK 配接器
 不同於建置使用的靜態服務[!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)]，配接器使用建置[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]可以提供的型別和特定業務系統中的可用作業的動態資訊。 開發人員可支援下列作業：  

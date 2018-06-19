@@ -1,14 +1,14 @@
 ---
-title: "步驟 3A： 新增 FILE 接收位置為互動存放區與正向實例 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3A： 新增 FILE 接收位置為互動存放區與正向實例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5f4bae51-6869-4334-a3a1-ef7e662197ca
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224174"
 ---
 # <a name="step-3a-add-a-file-receive-location-for-the-interact-store-and-forward-scenario"></a>步驟 3A： 新增 FILE 接收位置為互動存放區與正向的實例
 完成[步驟 2： 新增 SWIFTNet 組態為互動存放與轉寄實例 Paramfile](../../adapters-and-accelerators/fileact-interact/step-2-add-swiftnet-configuration-to-paramfile-for-interact-store-and-forward.md)開始此步驟之前。

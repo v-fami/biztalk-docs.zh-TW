@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264806"
 ---
 # <a name="programming-with-business-rules-framework"></a>使用商務規則架構設計程式
 本節包含 BRE 程式設計人員的相關工作，例如以程式設計的方式執行原則以及建立事實擷取器元件等。  

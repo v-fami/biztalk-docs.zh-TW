@@ -1,17 +1,17 @@
 ---
-title: "重複使用 Siebel 配接器中的配接器繫結 |Microsoft 文件"
-ms.custom: 
+title: 重複使用 Siebel 配接器中的配接器繫結 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - binding file, definition
 - adapter bindings, reusing
 ms.assetid: 1dc17b7a-5397-43f4-b19e-9c50fb0e97ff
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222750"
 ---
 # <a name="reuse-adapter-bindings-in-the-siebel-adapter"></a>Siebel 配接器中重複使用配接器繫結
 繫結會在邏輯端點 (例如協調流程連接埠或角色連結) 與實體端點 (例如傳送和接收埠或合作對象) 之間建立對應。 這讓通訊能在不同的 BizTalk 商務方案元件之間進行。 您可以使用 [BizTalk Server 管理主控台] 建立繫結。  

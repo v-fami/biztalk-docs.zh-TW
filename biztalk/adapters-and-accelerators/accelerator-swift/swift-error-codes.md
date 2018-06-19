@@ -1,15 +1,15 @@
 ---
-title: "在 BizTalk Server 中的 SWIFT 錯誤碼 |Microsoft 文件"
-description: "SWIFT 加速器，BizTalk Server 中的檢視類別和驗證類型"
-ms.custom: 
+title: 在 BizTalk Server 中的 SWIFT 錯誤碼 |Microsoft 文件
+description: SWIFT 加速器，BizTalk Server 中的檢視類別和驗證類型
+ms.custom: ''
 ms.date: 08/16/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 03699986-965b-4a28-ab2e-09f110fb4db6
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215022"
 ---
 # <a name="swift-error-codes"></a>SWIFT 錯誤碼
 SWIFT 定義許多網路造成的驗證，針對財務 (FIN) 訊息組。 每個驗證與檢查訊息的內容類型，然後傳回三個字元的錯誤碼與相關聯。 錯誤的程式碼的第一個字元隱含偵測到問題的類別，而值為字母。 其餘的兩個字元代表的 （結合類別） 時的錯誤詳細資料，並且一律會顯示為兩位數的程式碼。  

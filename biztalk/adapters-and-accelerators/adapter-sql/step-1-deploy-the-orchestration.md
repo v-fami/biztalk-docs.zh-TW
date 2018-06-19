@@ -1,14 +1,14 @@
 ---
-title: "步驟 1： 部署的協調流程 |Microsoft 文件"
-ms.custom: 
+title: 步驟 1： 部署的協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8988fced-b2d5-4ee7-a851-20fc7c3dd087
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,13 +17,14 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224310"
 ---
 # <a name="step-1-deploy-the-orchestration"></a>步驟 1： 部署的協調流程
 ![步驟 4 之 1](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-1of4.gif "Step_1of4")  
   
  **若要完成的時間：** 5 分鐘  
   
- **目標：**此步驟中，在部署協調流程方案。  
+ **目標：** 此步驟中，在部署協調流程方案。  
   
 ## <a name="prerequisites"></a>必要條件  
  您必須先完成中的步驟[第 4 課： 執行插入作業的採購訂單資料表](../../adapters-and-accelerators/adapter-sql/lesson-4-perform-an-insert-operation-on-the-purchase-order-table.md)。  

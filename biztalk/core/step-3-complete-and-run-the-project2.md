@@ -1,14 +1,14 @@
 ---
-title: "步驟 3： 完成及執行 Project2 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3： 完成及執行 Project2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 04e5b82f-e88c-4a2c-bdda-f986725458e3
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277158"
 ---
 # <a name="step-3-complete-and-run-the-project"></a>步驟 3： 完成及執行專案
 在新增組件金鑰及繫結連接埠之後，接著為測試協調流程。  

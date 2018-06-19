@@ -1,11 +1,11 @@
 ---
-title: "擷取和訊息修復擴充解決方案 |Microsoft 文件"
-ms.custom: 
+title: 擷取和訊息修復擴充解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - repairing messages, errors
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - repairing messages, code sample
 - ErrorCollection objects
 ms.assetid: 93f463a0-ecff-4f3e-a145-7c506f42c767
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209086"
 ---
 # <a name="extending-the-solution-for-capture-and-message-repair"></a>擷取和訊息修復擴充解決方案
 在此說明中的 MT103 端對端教學課程會示範如何建構 BizTalk 協調流程訂閱失敗 SWIFT 的訊息。  

@@ -1,17 +1,17 @@
 ---
-title: "完成使用 WCF 服務模型的 Oracle 資料庫中的大型資料類型的資料表作業 |Microsoft 文件"
-ms.custom: 
+title: 完成使用 WCF 服務模型的 Oracle 資料庫中的大型資料類型的資料表作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF service model, performing operations on tables and views
 - how to, invoke the ReadLOB and UpdateLOB operations
 ms.assetid: 5d0e84d3-7ffa-47c7-aaf2-a1007f7a71a2
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215606"
 ---
 # <a name="complete-operations-on-tables-with-large-data-types-in-oracle-database-using-the-wcf-service-model"></a>完成資料表的作業與使用 WCF 服務模型的 Oracle 資料庫中的大型資料類型
 本節包含如何叫用的 ReadLOB 和 UpdateLOB 作業從 WCF 服務模型的相關資訊。 ReadLOB 和 UpdateLOB 作業便會顯示資料表和檢視表包含 LOB 資料行。這是用來儲存 Oracle 大型物件 (LOB) 資料的資料行。 如需所支援的 Oracle LOB 資料類型的概觀[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]和 ReadLOB 和 UpdateLOB 作業，請參閱[資料表和檢視表，包含 LOB 資料 Oracle 資料庫中的作業](../../adapters-and-accelerators/adapter-oracle-database/operations-on-tables-and-views-that-contain-lob-data-in-oracle-database.md)。  

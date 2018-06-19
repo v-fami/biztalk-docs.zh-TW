@@ -1,14 +1,14 @@
 ---
-title: "比較只能 Equals、 NotEquals 和 Exists |Microsoft 文件"
-ms.custom: 
+title: 比較只能 Equals、 NotEquals 和 Exists |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: aad902a2-d0dc-4d91-87a7-a6305e2f40e0
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279366"
 ---
 # <a name="the-comparison-can-only-be-equals-notequals-and-exists"></a>比較只能 Equals、 NotEquals 和 Exists
 ## <a name="details"></a>詳細資料  

@@ -1,14 +1,14 @@
 ---
-title: "在協調流程中使用運算式 |Microsoft 文件"
-ms.custom: 
+title: 在協調流程中使用運算式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1947cd39-6ef2-4b2d-afeb-a0132b19db97
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287134"
 ---
 # <a name="using-expressions-in-orchestrations"></a>在協調流程中使用運算式
 您可以使用「BizTalk 運算式編輯器」輸入 XLANG/s 運算式，以新增邏輯來處理和測試協調流程變數和訊息的值。 但是，這種方式比較不適合用來執行高階協調流程邏輯，比較好的方式是透過協調流程繪圖本身來呈現高階協調流程邏輯。 為了使商務程序透明化且便於重新設定，建議您使用簡單且模組化的運算式。  

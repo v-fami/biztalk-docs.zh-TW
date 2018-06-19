@@ -1,17 +1,17 @@
 ---
-title: "進階備份和 Restore1 資訊 |Microsoft 文件"
-ms.custom: 
+title: 進階備份和 Restore1 資訊 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - backing up
 - restoring
 ms.assetid: d1ec7820-80cb-489d-a091-74c5d881da6a
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22229942"
 ---
 # <a name="advanced-information-about-backup-and-restore"></a>關於備份和還原的進階資訊
 本節的主題將更加詳細地說明備份及還原程序，其內容主要是提供給對 BizTalk Server 具有全盤瞭解的進階使用者使用。  

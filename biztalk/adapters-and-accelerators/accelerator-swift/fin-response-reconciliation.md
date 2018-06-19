@@ -1,11 +1,11 @@
 ---
-title: "FIN 回應對帳 |Microsoft 文件"
-ms.custom: 
+title: FIN 回應對帳 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - ACKs
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - FIN Response Reconciliation, about FIN Response Reconciliation
 - FIN Response Reconciliation, acknowledgements
 ms.assetid: 987b932b-e487-4ca8-acd0-410d71df8e6d
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22208254"
 ---
 # <a name="fin-response-reconciliation"></a>FIN 回應對帳
 FIN 回應對帳 (FRR) 功能[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]調解 FIN 回應與對應的原始訊息傳送的[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]。 這會建立原始訊息的狀態，並讓[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]才能根據該狀態的步驟。 不重新調整，這就不可能。 [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]就會知道它成功 （或不成功） 傳送原始訊息至 SAA，，和就會從 SAA，指出狀態的傳輸，收到的回應，但是它會不能使兩者之間的連線。 FRR 建立該連接。  

@@ -1,17 +1,17 @@
 ---
-title: "基本協調流程 Design5 |Microsoft 文件"
-ms.custom: 
+title: 基本協調流程 Design5 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, design
 - exception handling, orchestration design
 ms.assetid: 0941d617-e30c-4ca7-852f-193e16781ca7
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230846"
 ---
 # <a name="basic-orchestration-design"></a>基本協調流程設計
 當您在 BizTalk 配接器中為 PeopleSoft Enterprise 建立基本協調流程時，會在協調流程的接收埠收到 XML。 接著該 XML 會傳送到後端系統進行處理。 在後端系統中可能會發生例外狀況，進而停止協調流程並產生錯誤。 產生的錯誤會提供有關協調流程無法完成的資訊。 這項資訊在偵錯錯誤成因時不是很有幫助。  

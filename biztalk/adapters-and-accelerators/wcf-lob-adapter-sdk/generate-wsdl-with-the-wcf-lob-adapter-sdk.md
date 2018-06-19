@@ -1,14 +1,14 @@
 ---
-title: "產生 WSDL 與 WCF LOB 配接器 SDK |Microsoft 文件"
-ms.custom: 
+title: 產生 WSDL 與 WCF LOB 配接器 SDK |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f701d78d-b3ad-4f75-b814-e5b1f1319fb9
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224606"
 ---
 # <a name="generate-wsdl-with-the-wcf-lob-adapter-sdk"></a>產生 WSDL 與 WCF LOB 配接器 SDK
 在開發配接器，或從 LOB 系統變更傳回的中繼資料，通常會很有用，檢視 Web 服務描述語言 (WSDL) 所傳回的介面卡以確認您的作業的中繼資料，會產生期間正確。 有數種方法來產生的 WSDL。 本主題提供使用 svcutil.exe，並瀏覽中繼資料搜尋控制項的相關資訊。  
@@ -46,7 +47,7 @@ SvcUtil.exe “echov2://lobhostname/lobapplication?enableAuthentication=False&op
   
 4.  開啟**工具箱**，依序展開**通用控制項**，以滑鼠右鍵按一下**工具箱**，然後按一下 **選擇項目**。  
   
-5.  在**選擇工具箱項目**對話方塊中，尋找**MetadataUserControl**上**.NET Framework 元件**索引標籤上，選取此項目，旁邊的核取方塊，然後按一下  **確定**。  
+5.  在**選擇工具箱項目**對話方塊中，尋找**MetadataUserControl**上 **.NET Framework 元件**索引標籤上，選取此項目，旁邊的核取方塊，然後按一下  **確定**。  
   
 6.  從 [工具箱] 將 MetadataUserControl 拖曳至 Form1。 您可能需要調整表單，以查看整個控制項的大小。 您應該能夠立即執行專案，並確認控制項的功能，可讓您選取配接器和作業。  
   

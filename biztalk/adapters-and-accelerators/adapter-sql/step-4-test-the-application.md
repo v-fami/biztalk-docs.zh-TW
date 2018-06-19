@@ -1,14 +1,14 @@
 ---
-title: "步驟 4： 測試應用程式 |Microsoft 文件"
-ms.custom: 
+title: 步驟 4： 測試應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 488b13fa-7a71-4430-bbf5-dbf47ba55562
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,13 +17,14 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223030"
 ---
 # <a name="step-4-test-the-application"></a>步驟 4： 測試應用程式
 ![步驟 4 之 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-4of4.gif "Step_4of4")  
   
  **若要完成的時間：** 10 分鐘  
   
- **目標：**在此步驟中，您必須測試應用程式所插入在記錄**員工**資料表**ADAPTER_SAMPLES**資料庫。 如果應用程式是否正常運作，協調流程收到變更通知**員工**資料表。 協調流程接著會擷取收到的通知類型。 如果插入作業的通知，協調流程執行**UPDATE_EMPLOYEE**預存程序，並接收回應。 協調流程中擷取的值**Employee_ID**和**名稱**從回應，並將其插入**Purchase_Order**資料表。  
+ **目標：** 在此步驟中，您必須測試應用程式所插入在記錄**員工**資料表**ADAPTER_SAMPLES**資料庫。 如果應用程式是否正常運作，協調流程收到變更通知**員工**資料表。 協調流程接著會擷取收到的通知類型。 如果插入作業的通知，協調流程執行**UPDATE_EMPLOYEE**預存程序，並接收回應。 協調流程中擷取的值**Employee_ID**和**名稱**從回應，並將其插入**Purchase_Order**資料表。  
   
 ## <a name="prerequisites"></a>必要條件  
  開始之前有了這個步驟，您必須確定下列各項：  

@@ -1,14 +1,14 @@
 ---
-title: "訂單處理階段中的處理 |Microsoft 文件"
-ms.custom: 
+title: 訂單處理階段中的處理 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 698005da-1ba8-4972-83db-f5ae45fd6a83
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22265094"
 ---
 # <a name="processing-in-the-order-processing-stages"></a>訂單處理階段中的處理
 商務程序管理解決方案包含兩個階段， **CableOrder1**和**CableOrder2**協調流程會執行訂單處理動作。 如需如何訂單程序分成兩階段的詳細資訊，請參閱[的處理階段的數目](../core/number-of-processing-stages.md)。  

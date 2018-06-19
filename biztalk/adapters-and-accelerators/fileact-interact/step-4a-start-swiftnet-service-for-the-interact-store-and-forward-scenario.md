@@ -1,14 +1,14 @@
 ---
-title: "步驟 4A： 啟動 SWIFTNet 服務互動的存放區和轉送 （提取） 案例 |Microsoft 文件"
-ms.custom: 
+title: 步驟 4A： 啟動 SWIFTNet 服務互動的存放區和轉送 （提取） 案例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b19ba6ea-dcb6-4b12-8693-97545acb88d9
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223678"
 ---
 # <a name="step-4a-start-the-swiftnet-service-for-the-interact-store-and-forward-pull-scenario"></a>步驟 4A： 啟動 SWIFTNet 服務互動的存放區和轉送 （提取） 案例
 在開始此步驟之前，必須先完成[步驟 3B： 互動存放區和轉送 （提取） 案例的動態傳送埠與協調流程繫結](../../adapters-and-accelerators/fileact-interact/step-3b-bind-orchestration-with-dynamic-send-port-for-interact-scenario.md)。  

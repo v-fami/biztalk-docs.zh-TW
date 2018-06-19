@@ -1,14 +1,14 @@
 ---
-title: "配接器群組和群組配接器 |Microsoft 文件"
-ms.custom: 
+title: 配接器群組和群組配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0e0a9423-99dd-4474-afa1-fd8e1d074cd1
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225374"
 ---
 # <a name="adapter-groups-and-group-adapters"></a>配接器群組和群組配接器
 *配接器群組*是一種管理機制，您可以使用它來收集和組織的介面卡集合。 相反地，*群組配接器*是服務配接器群組中的所有配接器的元件。 例如，您可以撰寫一組配接器，讓它們都使用相同的 COM 元件，透過 TCP/IP 來傳輸密碼同步。 這一組配接器即稱為配接器群組，而用來服務這些配接器的元件，就稱為群組配接器。 配接器群組在組態存放區中加以描述。 您可以使用 `ISSOPSAdapter.ReceiveNotification` 擷取有關配接器群組的資訊和更新。  

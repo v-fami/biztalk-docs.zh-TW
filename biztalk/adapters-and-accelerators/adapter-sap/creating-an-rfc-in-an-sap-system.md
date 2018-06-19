@@ -1,15 +1,15 @@
 ---
-title: "建立 RFC，SAP 使用 SAP 配接器在 BizTalk 中的概觀 |Microsoft 文件"
-description: "建立 RFC，RFC 目的地，並將傳送到從 SAP 系統-BizTalk 配接器組件 (BAP) 的 RFC"
-ms.custom: 
+title: 建立 RFC，SAP 使用 SAP 配接器在 BizTalk 中的概觀 |Microsoft 文件
+description: 建立 RFC，RFC 目的地，並將傳送到從 SAP 系統-BizTalk 配接器組件 (BAP) 的 RFC
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 35937183-fc1e-49cd-8a75-8f62effe0013
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216518"
 ---
 # <a name="create-and-send-an-rfc-in-sap"></a>建立並傳送 sap RFC
 列出為了建立 RFC SAP 系統上完成的高階工作。 每個工作可能會非常詳細的程序。 如此一來，我們建議連絡您的 SAP 系統管理員，以完成這些工作，或請參閱 SAP 指引。  

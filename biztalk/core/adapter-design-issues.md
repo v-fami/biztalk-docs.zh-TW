@@ -1,14 +1,14 @@
 ---
-title: "配接器設計問題 |Microsoft 文件"
-ms.custom: 
+title: 配接器設計問題 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2e5568be-a046-40ff-a94a-eda086457564
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226558"
 ---
 # <a name="adapter-design-issues"></a>配接器設計問題
 當使用者在設計階段進行組態變更時，配接器組態便會存放到單一登入 (SSO) 資料庫中。 在執行階段時，傳訊引擎便會擷取配接器的組態，並且將其傳遞到配接器。 有四種類型的組態資訊會傳遞到配接器：  
@@ -172,7 +173,7 @@ return int.Parse(s);
 }   
 ```  
   
- **實作秘訣：**配接器一般都會使用**OutboundTransportLocation**訊息內容屬性來判斷要將訊息傳送至的位址。 藉著這樣做，配接器即可一致地處理對於靜態和動態傳送的傳輸。 這樣也可以簡化在實際執行繫結檔案中的位址修改。  
+ **實作秘訣：** 配接器一般都會使用**OutboundTransportLocation**訊息內容屬性來判斷要將訊息傳送至的位址。 藉著這樣做，配接器即可一致地處理對於靜態和動態傳送的傳輸。 這樣也可以簡化在實際執行繫結檔案中的位址修改。  
   
 ## <a name="xsd"></a>XSD  
  SDK 檔案配接器範例中所包含的四個 XSD 檔主要處理配接器組態： ReceiveHandler.xsd、 ReceiveLocation.xsd、 TransmitLocation.xsd 和 TransmitHandler.xsd。  

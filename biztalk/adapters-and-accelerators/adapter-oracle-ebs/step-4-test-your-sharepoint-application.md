@@ -1,14 +1,14 @@
 ---
-title: "步驟 4： 測試 SharePoint 應用程式 |Microsoft 文件"
-ms.custom: 
+title: 步驟 4： 測試 SharePoint 應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a859044e-a28e-477e-a20b-f9bb3c9f7405
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,13 +17,14 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218238"
 ---
 # <a name="step-4-test-your-sharepoint-application"></a>步驟 4： 測試 SharePoint 應用程式
 ![步驟 4 之 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-4of4.gif "Step_4of4")  
   
  **若要完成的時間：** 10 分鐘  
   
- **目標：**您 SharePoint 網站中加入 Web 組件並建立應用程式，您必須測試應用程式擷取 Oracle E-business Suite 中的一些資料之後。 本主題說明如何使用應用程式來擷取 Oracle E-business Suite 中的資料。  
+ **目標：** 您 SharePoint 網站中加入 Web 組件並建立應用程式，您必須測試應用程式擷取 Oracle E-business Suite 中的一些資料之後。 本主題說明如何使用應用程式來擷取 Oracle E-business Suite 中的資料。  
   
 ## <a name="prerequisites"></a>必要條件  
  您應該建立包含適當的 Web 組件，來擷取商務資料 Web 組件頁面。 請參閱[步驟 3： 建立 SharePoint 應用程式來擷取 Oracle E-business Suite 中的資料](../../adapters-and-accelerators/adapter-oracle-ebs/step-3-create-a-sharepoint-application-to-retrieve-data-from-oracle-ebs.md)。  

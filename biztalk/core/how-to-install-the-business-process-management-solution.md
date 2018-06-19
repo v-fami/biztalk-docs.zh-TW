@@ -1,18 +1,18 @@
 ---
-title: "如何安裝商務程序管理解決方案 |Microsoft 文件"
-ms.custom: 
+title: 如何安裝商務程序管理解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - installing, examples
 - process management solution tutorial, installing
 - process management solution tutorial, deployment prerequisites
 ms.assetid: 930f3bb1-05e6-4b02-852d-6139aaf341f0
-caps.latest.revision: "61"
+caps.latest.revision: 61
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974932"
 ---
 # <a name="how-to-install-the-business-process-management-solution"></a>如何安裝商務程序管理解決方案
 下列步驟說明如何準備安裝商務程序管理 (BPM) 解決方案的電腦，以及如何在此電腦上安裝解決方案。  
@@ -109,7 +110,7 @@ ms.lasthandoff: 11/28/2017
   
     3.  以滑鼠右鍵按一下應用程式集區，您建立，然後選取**進階設定**。  
   
-    4.  展開**處理序模型**，如右邊資料行中按一下**識別**設定，然後再按一下**...**  
+    4.  展開**處理序模型**，如右邊資料行中按一下**識別**設定，然後再按一下 **...**  
   
     5.  選取的使用者帳戶 (任一**內建帳戶**或**自訂帳戶**) 具有權限來建立和執行在 Windows\Temp 目錄中的檔案。 當您設定 BizTalk 時，組態程序已經為它所新增至「BizTalk 外掛式主控件使用者」群組的使用者設定這些權限。 建議您指定相同的使用者。  
   
@@ -178,7 +179,7 @@ ms.lasthandoff: 11/28/2017
 1.  在命令提示字元中，將目前資料夾變更為 %btssolutionspath%\bpm，型別`SetupBPM.bat`，然後按 ENTER 鍵。  
   
     > [!NOTE]
-    >  在檔案中執行 SetupBPM.bat 之前， **%BTSInstallPath%/SDK/Scenarios/BPM/CSDWebApp/App_WebReferences/SouthridgeVideo_OrderBroker/OrderBrokerOrch_OrderPort.wsdl**和**%BTSInstallPath%/SDK/Scenarios/BPM/OrderBroker_Proxy/App_Code/OrderBrokerOrch_OrderPort.asmx.cs**，所有 8f8bbebbb3fb375a 執行個體都取代為 XXXXXXXXXXXXXXXX。  
+    >  在檔案中執行 SetupBPM.bat 之前， **%BTSInstallPath%/SDK/Scenarios/BPM/CSDWebApp/App_WebReferences/SouthridgeVideo_OrderBroker/OrderBrokerOrch_OrderPort.wsdl**和 **%BTSInstallPath%/SDK/Scenarios/BPM/OrderBroker_Proxy/App_Code/OrderBrokerOrch_OrderPort.asmx.cs**，所有 8f8bbebbb3fb375a 執行個體都取代為 XXXXXXXXXXXXXXXX。  
   
      SetupBPM.bat 會執行下列工作：  
   

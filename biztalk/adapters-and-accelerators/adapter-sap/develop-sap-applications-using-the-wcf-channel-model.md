@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216022"
 ---
 # <a name="develop-sap-applications-using-the-wcf-channel-model"></a>開發 SAP 應用程式使用 WCF 通道模型
 您可以使用[!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)]使用通道模型[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]直接透過 SAP 繫結的通道執行個體傳送 XML 訊息。  

@@ -1,18 +1,18 @@
 ---
-title: "協調流程範例 |Microsoft 文件"
-ms.custom: 
+title: 協調流程範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, examples
 - examples, orchestrations
 - SDK samples, orchestrations
 ms.assetid: 183dd0dd-9012-46a4-af4e-2b6181d4c148
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209686"
 ---
 # <a name="orchestration-samples"></a>協調流程範例
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 軟體開發套件 (SDK) 包含數個協調流程範例。 本節提供這些協調流程範例所展示功能的詳細資訊、用來建置和執行範例的指示，以及您可以預期的結果。  

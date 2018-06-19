@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287382"
 ---
 # <a name="valid-characters-in-orchestration-identifiers"></a>協調流程識別碼中的有效字元
 協調流程識別碼 (例如項目、變數和類型名稱) 具有幾項限制：  

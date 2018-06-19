@@ -1,14 +1,14 @@
 ---
-title: "設定 Oracle E-business Suite 連線 URI |Microsoft 文件"
-ms.custom: 
+title: 設定 Oracle E-business Suite 連線 URI |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d2bb02b4-4ad6-4b07-b48a-8f9a47967ffc
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22219238"
 ---
 # <a name="configure-the-connection-uri-for-oracle-e-business-suite"></a>設定 Oracle E-business Suite 連線 URI
 連接字串，其中包含參數，才能連接至 Oracle E-business Suite 連線 URI。 同時使用[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]或[!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]中[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]，您必須指定要連接到 Oracle E-business Suite 產生的中繼資料的 URI。 設定協調流程使用時[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]管理主控台中，您必須指定要連接到 Oracle E-business Suite 來執行作業的 URI。  
@@ -110,7 +111,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  在**Wcf-custom 傳輸屬性**對話方塊中，按一下 [**一般**] 索引標籤。  
   
-5.  在**位址 (URI)**文字方塊中，指定連接到 Oracle E-business Suite 連線 URI。 如需有關連線 URI 的[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]，請參閱[設定 for Oracle E-business Suite 連線 URI](../../adapters-and-accelerators/adapter-oracle-ebs/configure-the-connection-uri-for-oracle-e-business-suite.md)。  
+5.  在**位址 (URI)** 文字方塊中，指定連接到 Oracle E-business Suite 連線 URI。 如需有關連線 URI 的[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]，請參閱[設定 for Oracle E-business Suite 連線 URI](../../adapters-and-accelerators/adapter-oracle-ebs/configure-the-connection-uri-for-oracle-e-business-suite.md)。  
   
 6.  在**Wcf-custom 傳輸屬性**對話方塊中，按一下 [**繫結**] 索引標籤。從**繫結的型別**下拉式清單中，選取**oracleEBSBinding**。  
   

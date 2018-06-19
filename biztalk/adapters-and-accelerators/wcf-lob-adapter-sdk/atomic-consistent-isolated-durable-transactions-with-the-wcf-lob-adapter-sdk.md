@@ -1,14 +1,14 @@
 ---
-title: "設定不可部分完成、 一致、 隔離且持久的交易使用 WCF LOB 配接器 SDK |Microsoft 文件"
-ms.custom: 
+title: 設定不可部分完成、 一致、 隔離且持久的交易使用 WCF LOB 配接器 SDK |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c20d2613-c77d-4b0d-b2e2-3ed28a8fb36c
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224238"
 ---
 # <a name="configure-atomic-consistent-isolated-and-durable-transactions-using-the-wcf-lob-adapter-sdk"></a>設定不可部分完成、 一致、 隔離且持久的交易使用 WCF LOB 配接器 SDK
 [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]上所公開的功能來支援交易[!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)]。 使用 API 所公開[!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)]，您的配接器可以支援交易與作業：  

@@ -1,17 +1,17 @@
 ---
-title: "設定 FIN 回應對帳 |Microsoft 文件"
-ms.custom: 
+title: 設定 FIN 回應對帳 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - FIN Response Reconciliation, configuring
 - configuring, FIN Response Reconciliation
 ms.assetid: dc934530-76ff-4cdb-b182-46f9ea0343b7
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209406"
 ---
 # <a name="configuring-fin-response-reconciliation"></a>設定 FIN 回應對帳
 您必須執行的步驟來設定下列各節[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] FIN 回應對帳 (FRR) 功能，如下圖所示。  

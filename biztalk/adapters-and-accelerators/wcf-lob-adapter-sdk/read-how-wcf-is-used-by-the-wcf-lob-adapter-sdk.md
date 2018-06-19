@@ -1,14 +1,14 @@
 ---
-title: "讀取 WCF 如何使用 WCF LOB 配接器 SDK |Microsoft 文件"
-ms.custom: 
+title: 讀取 WCF 如何使用 WCF LOB 配接器 SDK |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 183dd134-7273-4767-bad0-c42ae125985e
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226094"
 ---
 # <a name="read-how-wcf-is-used-by-the-wcf-lob-adapter-sdk"></a>讀取 WCF 如何使用 WCF LOB 配接器 SDK
 [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]擴充[!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)]通道架構，並相依於[!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)]runtime 能夠提供基本的訊息服務才能公開配接器功能，並且交換資訊。 

@@ -1,15 +1,15 @@
 ---
-title: "在 BizTalk 中設定 Oracle 資料庫的 SOAP 動作 |Microsoft 文件"
-description: "在 Visual Studio 中，輸入 SOAP 動作，或使用 Wcf-custom 或 Wcf-oracledb 配接器在 BizTalk 配接器組件 (BAP)"
-ms.custom: 
+title: 在 BizTalk 中設定 Oracle 資料庫的 SOAP 動作 |Microsoft 文件
+description: 在 Visual Studio 中，輸入 SOAP 動作，或使用 Wcf-custom 或 Wcf-oracledb 配接器在 BizTalk 配接器組件 (BAP)
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d0d21cca-3907-4f99-af76-c1e7286e1bcf
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215398"
 ---
 # <a name="configure-the-soap-action-for-oracle-database"></a>設定 Oracle 資料庫的 SOAP 動作
 若要完成使用 WCF 型 Oracle 資料庫中的任何作業[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]，配接器使用者必須輸入 SOAP 動作。 SOAP 動作與外界溝通的配接器應該完成哪些動作。 您可以輸入在設計階段或執行階段的 SOAP 動作。 不過，如果您輸入的 SOAP 動作這兩個設計階段和執行階段時，就會覆寫您在設計階段輸入的動作。  

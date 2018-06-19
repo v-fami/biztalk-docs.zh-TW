@@ -1,14 +1,14 @@
 ---
-title: "步驟 3： 將篩選加入 Insert 通知 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3： 將篩選加入 Insert 通知 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 53a1e9ef-a179-42a7-b4ae-b1170181053b
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,13 +17,14 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223262"
 ---
 # <a name="step-3-add-a-filter-for-insert-notifications"></a>步驟 3： 將篩選加入 Insert 通知
 ![步驟 3 之 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-3of3.gif "Step_3of3")  
   
  **若要完成的時間：** 5 分鐘  
   
- **目標：**此步驟中，在您加入至篩選的插入作業的通知訊息的協調流程 「 決定 」 圖形。 協調流程中的後續作業會執行才收到通知的插入類型。  
+ **目標：** 此步驟中，在您加入至篩選的插入作業的通知訊息的協調流程 「 決定 」 圖形。 協調流程中的後續作業會執行才收到通知的插入類型。  
   
 ## <a name="prerequisites"></a>必要條件  
  您必須先完成[步驟 2： 擷取通知訊息的通知類型](../../adapters-and-accelerators/adapter-sql/step-2-extract-notification-type-from-notification-message.md)。  
@@ -32,7 +33,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  新增**決定**圖形至協調流程之後,**運算式**圖形。 從 [工具箱] 拖曳**決定**圖形正下方的連接線到**運算式**圖形。  
   
-     **決定**圖形展開會顯示分支**如果**陳述式**([rule_1])**和分支**Else**陳述式。  
+     **決定**圖形展開會顯示分支**如果**陳述式 **([rule_1])** 和分支**Else**陳述式。  
   
 2.  設計介面上，以滑鼠右鍵按一下**決定**圖形，，然後按一下**屬性 視窗**。  
   

@@ -1,17 +1,17 @@
 ---
-title: "系統管理員 ExplorerOM （BizTalk Server 範例資料夾） |Microsoft 文件"
-ms.custom: 
+title: 系統管理員 ExplorerOM （BizTalk Server 範例資料夾） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, administering
 - administering, examples
 ms.assetid: f6553138-9ab3-4368-84bf-9813e909e372
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230030"
 ---
 # <a name="admin-explorerom-biztalk-server-samples-folder"></a>系統管理員 ExplorerOM （BizTalk Server 範例資料夾）
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 在其軟體開發套件 (SDK) 的 Admin\ExplorerOM 資料夾中包含了範例。 本節會詳細介紹每個 BizTalk 總管物件模型管理範例所示範的功能、用來建置和執行範例的指示，以及可預期結果。  

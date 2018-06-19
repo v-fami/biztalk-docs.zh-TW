@@ -1,17 +1,17 @@
 ---
-title: "BizTalk Framework 組合器管線元件 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Framework 組合器管線元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components, BizTalk Framework Assembler
 - BizTalk Framework Assembler [pipeline component]
 ms.assetid: 116dff8d-b7f8-4564-a7fb-6440682683dc
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231102"
 ---
 # <a name="biztalk-framework-assembler-pipeline-component"></a>BizTalk Framework 組合器管線元件
 BizTalk Framework 是一種使用 HTTP 或 SMTP 這類透過網路的傳輸通訊協定，以執行只需一次保證傳遞的方法。 此架構從 1998 年開始出現，並被視為以 Web 服務 (尤其是 WSReliable) 為根據之擱置標準開發的先驅。 基本上，資料的保證只需一次傳遞的問題，一直是「訊息佇列」(也稱為 MSMQ) 這類技術的範疇。 不過，這類技術在資料流的兩端通常需要通用軟體，而且不會針對以公用網路為基礎的開放式傳輸通訊協定的使用做任何處理，例如，利用網際網路在企業界限之間流動的資料。  

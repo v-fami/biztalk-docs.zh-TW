@@ -1,14 +1,14 @@
 ---
-title: "互動的配接器架構 |Microsoft 文件"
-ms.custom: 
+title: 互動的配接器架構 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ce7e4b7e-abe4-4db6-b4e0-6f71bd7e5e6f
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222830"
 ---
 # <a name="interact-adapter-architecture"></a>互動的配接器架構
 本章節描述基本類型互動，從功能觀點來看。 詳細的結構、 語法和使用方式的基本項目會完善記載在 SWIFT 的參考，並不在這裡重複。  

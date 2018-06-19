@@ -1,17 +1,17 @@
 ---
-title: "使用 WCF 服務模型的 Oracle 資料庫中執行的作業使用 REF CURSOR |Microsoft 文件"
-ms.custom: 
+title: 使用 WCF 服務模型的 Oracle 資料庫中執行的作業使用 REF CURSOR |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF service model, performing operations using REF CURSORS
 - REF CURSORS, performing operations
 ms.assetid: b4cb9ede-eae1-44d7-8ba5-7e1261ccfa3b
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "22216430"
 ---
 # <a name="run-operations-using-ref-cursors-in-oracle-database-using-the-wcf-service-model"></a>使用 WCF 服務模型的 Oracle 資料庫中執行的作業使用 REF CURSOR
 REF CURSOR 是 Oracle 的 PL/SQL 資料類型，表示結果集的 Oracle 資料庫中的指標。 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]支援程序、 函數和封裝中的 REF CURSOR 參數。 REF CURSOR 參數可以是強型別或弱型別取決於在程序或函式的宣告方式。 如需詳細說明的 REF CURSOR 參數都由[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]，請參閱[REF CURSOR 的訊息結構描述](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-ref-cursors.md)。下表摘要說明如何將 REF CURSOR 參數表示 WCF 服務模型中。  

@@ -1,11 +1,11 @@
 ---
-title: "Activity 和 ActivityID 節點 |Microsoft 文件"
-ms.custom: 
+title: Activity 和 ActivityID 節點 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - ActivityID nodes [Tracking Profile Editor]
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Tracking Profile Editor, node descriptions
 - activities [BAM], definitions
 ms.assetid: 94d4130a-53c5-4cd5-916a-4a6bd9acbf23
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224670"
 ---
 # <a name="activity-and-activityid-nodes"></a>Activity 和 ActivityID 節點
 Activity 和 ActivityID 節點是用以包含和識別活動定義。 Activity 節點是活動定義中之項目的父資料夾。 所有的資料項目和商務事件節點都附屬和包含在關聯的活動節點中。 Activity 節點的命稱應該反映活動本身的名稱。  

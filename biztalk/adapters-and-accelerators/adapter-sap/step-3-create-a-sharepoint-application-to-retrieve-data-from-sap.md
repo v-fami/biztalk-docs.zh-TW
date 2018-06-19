@@ -1,11 +1,11 @@
 ---
-title: "步驟 3： 建立 SharePoint 應用程式來擷取 SAP 資料 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3： 建立 SharePoint 應用程式來擷取 SAP 資料 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SSO application, creating an
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - Web Part page, creating a
 - Shared Services Provider, creating a
 ms.assetid: 7158caec-9dc0-477c-9db3-179e634e5196
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,13 +25,14 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22219534"
 ---
 # <a name="step-3-create-a-sharepoint-application-to-retrieve-data-from-sap"></a>步驟 3： 建立 SharePoint 應用程式來擷取 SAP 資料
 ![步驟 4 之 3](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-3of4.gif "Step_3of4")  
   
  **若要完成的時間：** 15 分鐘  
   
- **目標：**您現在必須接受使用 「 商務資料目錄定義編輯器 」 工具，您建立的應用程式定義檔，並匯入 Microsoft Office SharePoint Server。  
+ **目標：** 您現在必須接受使用 「 商務資料目錄定義編輯器 」 工具，您建立的應用程式定義檔，並匯入 Microsoft Office SharePoint Server。  
   
 ## <a name="prerequisites"></a>必要條件  
   

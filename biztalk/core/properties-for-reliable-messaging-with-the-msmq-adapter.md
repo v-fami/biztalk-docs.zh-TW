@@ -1,11 +1,11 @@
 ---
-title: "使用 MSMQ 配接器的可信賴傳訊屬性 |Microsoft 文件"
-ms.custom: 
+title: 使用 MSMQ 配接器的可信賴傳訊屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - MSMQ adapters, properties
@@ -23,7 +23,7 @@ helpviewer_keywords:
 - MSMQ adapters, reliability
 - MSMQ adapters, clustering
 ms.assetid: 34bfe028-b2aa-4816-a437-3679d19dffb2
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -32,6 +32,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268846"
 ---
 # <a name="properties-for-reliable-messaging-with-the-msmq-adapter"></a>使用 MSMQ 配接器的可信賴傳訊屬性
 您可以藉由設定 MSMQ 配接器的方式來改善以 MSMQ 配接器傳送和接收訊息的可靠性。 本主題討論使用幾個組態屬性以進行可靠傳訊。  

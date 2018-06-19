@@ -1,17 +1,17 @@
 ---
-title: "Siebel 配接器之 WCF 服務模型的概觀 |Microsoft 文件"
-ms.custom: 
+title: Siebel 配接器之 WCF 服務模型的概觀 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - how to, invoke operations on the Siebel system with a WCF client
 - WCF service model, overview of
 ms.assetid: 0e812473-0f50-4972-8b07-ec8edc2ef000
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222110"
 ---
 # <a name="overview-of-the-wcf-service-model-with-the-siebel-adapter"></a>Siebel 配接器之 WCF 服務模型的概觀
 [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)]公開為 WCF 服務的 Siebel 系統。 在 Siebel 系統成品，例如若要叫用方法的 Siebel 商務服務上執行作業您叫用的配接器，接著執行 Siebel 系統上的作業上的作業。 您的程式碼因此可做為配接器所呈現之 WCF 服務的用戶端。  

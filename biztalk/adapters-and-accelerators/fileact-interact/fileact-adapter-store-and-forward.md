@@ -1,14 +1,14 @@
 ---
-title: "FileAct 配接器儲存與轉送 |Microsoft 文件"
-ms.custom: 
+title: FileAct 配接器儲存與轉送 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 50110bf0-75c2-426c-9833-65c3117224b2
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223566"
 ---
 # <a name="fileact-adapter-store-and-forward"></a>FileAct 配接器儲存與轉送
 存放區中，順向 (SnF) 模式的檔案傳遞給佇列在傳送時，並從目的地佇列中擷取。 中繼會傳回回應的 SWIFTNet 寄件者之前檔案安全地傳遞到目的地。  

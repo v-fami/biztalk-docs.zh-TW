@@ -1,11 +1,11 @@
 ---
-title: "協調流程引擎組態 |Microsoft 文件"
-ms.custom: 
+title: 協調流程引擎組態 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestration engine, examples
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - orchestration engine, dehydration
 - orchestration engine, configuring
 ms.assetid: d4f253c3-317d-4b52-bf54-81d50f03eeb3
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972676"
 ---
 # <a name="orchestration-engine-configuration"></a>協調流程引擎組態
 協調流程引擎使用名為 BTSNTSvc.exe.config 的 XML 檔來判斷特定行為。 舉例來說，BTSNTSvc.exe.config 檔中的凍結屬性及其預設值是設定為 XML，並且在所有包含協調流程的主控件執行個體啟動時被讀取。 如需詳細資訊，請參閱[協調流程凍結和解除凍結](../core/orchestration-dehydration-and-rehydration.md)。  
@@ -228,7 +229,7 @@ A pattern assignment rule specifies a regular expression and an app domain name.
   
  BTSNTSvc.exe 組態檔包含 .NET Framework General Reference 中記載的數個其他區段。 如需修改這些區段的詳細資訊，請參閱**組態檔結構描述**在.NET Framework 一般參考的[http://go.microsoft.com/FWLink/?LinkID=52964](http://go.microsoft.com/FWLink/?LinkID=52964)。  
   
- 除了 BizTalk 特定的組態資訊，btsntsvc.exe.config 也是在協調流程、 配接器或管線的內容中執行.NET 應用程式元件在哪裡取得其組態資訊，在執行的階段使用標準.NET  **\<appSettings\>** 標記下**\<組態\>**標記。 由於 BizTalk 已經提供自訂配接器和管線元件，以取得組態資訊的機制 **\<appSettings\>** 通常會在 BTSNTSvc.exe.config 檔案中的標記用於從協調流程內呼叫的自訂.NET 元件。 例如：  
+ 除了 BizTalk 特定的組態資訊，btsntsvc.exe.config 也是在協調流程、 配接器或管線的內容中執行.NET 應用程式元件在哪裡取得其組態資訊，在執行的階段使用標準.NET  **\<appSettings\>** 標記下**\<組態\>** 標記。 由於 BizTalk 已經提供自訂配接器和管線元件，以取得組態資訊的機制 **\<appSettings\>** 通常會在 BTSNTSvc.exe.config 檔案中的標記用於從協調流程內呼叫的自訂.NET 元件。 例如：  
   
 ```  
 <appSettings>  

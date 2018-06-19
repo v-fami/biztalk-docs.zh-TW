@@ -1,11 +1,11 @@
 ---
-title: "關於 BizTalk 專案系統 |Microsoft 文件"
-ms.custom: 
+title: 關於 BizTalk 專案系統 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - projects, about projects
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - creating, business solutions
 - business solutions, creating
 ms.assetid: 69807e57-356e-451d-b803-4253b891b617
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226262"
 ---
 # <a name="about-the-biztalk-project-system"></a>關於 BizTalk 專案系統
 您可以使用 BizTalk 專案系統以建立部分或所有的 Microsoft[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]應用程式或商務方案。 任何這類方案的核心項目為 BizTalk 專案—為部署之前建置和產生至組件的結構描述、協調流程、Web 訊息類型、類別、管線、對應和參考等項目的集合。  

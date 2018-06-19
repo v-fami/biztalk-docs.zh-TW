@@ -1,11 +1,11 @@
 ---
-title: "訊息 |Microsoft 文件"
-ms.custom: 
+title: 訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, headers
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - message headers
 - EMS messages
 ms.assetid: 65bb3431-7186-4d4c-b004-932cdf070e73
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22266686"
 ---
 # <a name="messages"></a>訊息
 類似 JMS 訊息的 Enterprise Message Service (EMS) 訊息，其中包含了三個不同部分：標頭、屬性和內文。 標頭是 EMS 訊息唯一要求指定的部分。 本主題會描述訊息中的處理方式 Microsoft BizTalk Adapter for TIBCO Enterprise Message Service。  

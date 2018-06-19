@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268838"
 ---
 # <a name="rule-action-side-effects"></a>規則動作的副作用
 若執行動作會影響到物件的狀態或條件中使用的詞彙，那麼該動作即視為對物件有副作用。  

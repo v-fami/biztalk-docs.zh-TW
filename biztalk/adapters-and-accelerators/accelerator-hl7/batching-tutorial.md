@@ -1,11 +1,11 @@
 ---
-title: "批次的教學課程 |Microsoft 文件"
-ms.custom: 
+title: 批次的教學課程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - batching tutorial
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - batching tutorial, about the tutorial
 - batching, tutorial
 ms.assetid: e9010638-74cf-47cd-8cc9-9d6fd08a1b8d
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204382"
 ---
 # <a name="batching-tutorial"></a>批次的教學課程
 本教學課程提供逐步程序使用[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]來接收和傳送批次的訊息。 批次當做單一複合訊息包含接收和/或傳送的一組個別訊息 （或通知）。  

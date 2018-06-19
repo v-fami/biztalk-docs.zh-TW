@@ -1,14 +1,14 @@
 ---
-title: "RemoveResource 命令 |Microsoft 文件"
-ms.custom: 
+title: RemoveResource 命令 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8e2c6046-43d4-4ac1-a1b1-3795b4e44038
-caps.latest.revision: "29"
+caps.latest.revision: 29
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269374"
 ---
 # <a name="removeresource-command"></a>RemoveResource 命令
 從 BizTalk 管理資料庫移除 (刪除) 成品。 執行此命令並不會將全域組件快取 (GAC)、檔案系統、憑證存放區、Internet Information Services 或 Windows 登錄等位置上已有的成品移除。 此命令既不會從 BAM 主要匯入資料庫移除 BAM 定義，也不會從規則引擎資料庫移除原則。 若您執行此命令以移除繫結檔案，繫結仍將原封不動；此舉只會移除繫結檔案而已。  
@@ -62,10 +63,10 @@ ms.lasthandoff: 09/20/2017
   
 |參數|Required|Description|  
 |---------------|--------------|-----------------|  
-|**/ ApplicationName** (或**/A**，請參閱 < 備註 >)|是|含有所要刪除之資源成品的 BizTalk 應用程式名稱。 如果名稱包含空格，您必須將它括在雙引號 (") 中。|  
-|**/ Luid** (或**/L**，請參閱 < 備註 >)|是|成品的本機唯一識別碼 (LUID)。 您可以使用來取得 LUID [ListApp 命令](../core/listapp-command.md)。|  
-|**/ 伺服器**(或**/S**，請參閱 < 備註 >)|否|裝載 BizTalk 管理資料庫之 SQL Server 執行個體的名稱，其格式為：伺服器名稱\執行個體名稱,連接埠。<br /><br /> 只有在執行個體名稱和伺服器名稱不同時，才需要執行個體名稱。 只有在 SQL Server 使用預設值 (1433) 以外的連接埠編號時，才需要連接埠。<br /><br /> 範例:<br /><br /> Server=MyServer<br /><br /> Server=MyServer\MySQLServer,1533<br /><br /> 如果不提供，將會使用在本機電腦上執行的 SQL Server 執行個體的名稱。|  
-|**/ 資料庫**(或**/D**，請參閱 < 備註 >)|否|BizTalk 管理資料庫的名稱。 如果沒有指定，將會使用在 SQL Server 本機執行個體中執行的 BizTalk 管理資料庫。|  
+|**/ ApplicationName** (或 **/A**，請參閱 < 備註 >)|是|含有所要刪除之資源成品的 BizTalk 應用程式名稱。 如果名稱包含空格，您必須將它括在雙引號 (") 中。|  
+|**/ Luid** (或 **/L**，請參閱 < 備註 >)|是|成品的本機唯一識別碼 (LUID)。 您可以使用來取得 LUID [ListApp 命令](../core/listapp-command.md)。|  
+|**/ 伺服器**(或 **/S**，請參閱 < 備註 >)|否|裝載 BizTalk 管理資料庫之 SQL Server 執行個體的名稱，其格式為：伺服器名稱\執行個體名稱,連接埠。<br /><br /> 只有在執行個體名稱和伺服器名稱不同時，才需要執行個體名稱。 只有在 SQL Server 使用預設值 (1433) 以外的連接埠編號時，才需要連接埠。<br /><br /> 範例:<br /><br /> Server=MyServer<br /><br /> Server=MyServer\MySQLServer,1533<br /><br /> 如果不提供，將會使用在本機電腦上執行的 SQL Server 執行個體的名稱。|  
+|**/ 資料庫**(或 **/D**，請參閱 < 備註 >)|否|BizTalk 管理資料庫的名稱。 如果沒有指定，將會使用在 SQL Server 本機執行個體中執行的 BizTalk 管理資料庫。|  
   
 ## <a name="sample"></a>範例  
  **BTSTask RemoveResource /applicationname: myapplication /Luid:"MyApp.Orchestrations，版本 = 1.0.0.0，Culture = neutral，PublicKeyToken = 0123456789ABCDEF"**  

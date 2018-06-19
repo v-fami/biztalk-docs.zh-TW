@@ -1,14 +1,14 @@
 ---
-title: "教學課程和逐步解說的 EDI、 AS2 和 EDIFACT |Microsoft 文件"
-ms.custom: 
+title: 教學課程和逐步解說的 EDI、 AS2 和 EDIFACT |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 37cc976f-7c71-4084-8ed7-5900f94bdc23
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286726"
 ---
 # <a name="tutorials-and-walkthroughs-for-edi-as2-and-edifact"></a>教學課程和逐步解說的 EDI、 AS2 和 EDIFACT
 逐步執行 X12、 EDIFACT 和 AS2 教學課程，了解如何啟用企業對企業傳訊內[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]。 

@@ -1,14 +1,14 @@
 ---
-title: "配接器訊息互動的商務交換 |Microsoft 文件"
-ms.custom: 
+title: 配接器訊息互動的商務交換 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3b443b8a-4e56-47f1-8d91-5c807fd54ccc
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224598"
 ---
 # <a name="interact-adapter-messages-for-business-exchange"></a>配接器訊息互動的商務交換
 InterAct 配接器的端對端循環中有四種訊息。 這些訊息是 SWIFTNet 基本型別。 第一個和最後一個訊息是由用戶端基本型別、 SwInt:ExchangeRequest 與 SwInt:ExchangeResponse 組成。 伺服器端基本型別、 SwInt:HandleRequest 與 SwInt:HandleResponse 的各構成中間兩個訊息。  

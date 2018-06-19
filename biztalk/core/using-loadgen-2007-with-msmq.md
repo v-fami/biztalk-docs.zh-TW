@@ -1,14 +1,14 @@
 ---
-title: "搭配 MSMQ 使用 LoadGen 2007 |Microsoft 文件"
-ms.custom: 
+title: 搭配 MSMQ 使用 LoadGen 2007 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e8f23a86-0e6d-478a-87a3-5b02338c9afb
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287126"
 ---
 # <a name="using-loadgen-2007-with-msmq"></a>搭配 MSMQ 使用 LoadGen 2007
 「負載產生」工具 Loadgen 可讓您在 BizTalk Server 系統上模擬負載過重的情形。  

@@ -1,14 +1,14 @@
 ---
-title: "多個檢視 MX InfoPath 表單 |Microsoft 文件"
-ms.custom: 
+title: 多個檢視 MX InfoPath 表單 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 08b4cf10-ebad-4dde-a1d8-1a8d15ded51c
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22213982"
 ---
 # <a name="multiple-views-of-mx-infopath-forms"></a>多個檢視 MX InfoPath 表單
 MX InfoPath 表單範本可能會分成不同的檢視。 如果結構描述中的欄位總數很大，則會有相同的範本的不同檢視否則會有範本的單一檢視。雖然進行訊息修復和新送出工作流程中，在不同的檢視訊息的訊息修復可瀏覽 [檢視] 功能表。  

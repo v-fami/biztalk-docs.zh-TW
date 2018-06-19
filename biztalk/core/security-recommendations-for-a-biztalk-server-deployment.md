@@ -1,11 +1,11 @@
 ---
-title: "BizTalk Server 部署的安全性建議 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Server 部署的安全性建議 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, security
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - channel level encryption
 - security, permissions
 ms.assetid: 033fff11-d989-46ba-83ed-5063f7cd7818
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22272446"
 ---
 # <a name="security-recommendations-for-a-biztalk-server-deployment"></a>BizTalk Server 部署的安全性建議
 本節包含高階、非特定功能的建議，以保護您的 Microsoft BizTalk Server 環境的安全。  

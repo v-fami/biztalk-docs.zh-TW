@@ -1,18 +1,18 @@
 ---
-title: "存取協調流程中的 SOAP 標頭 |Microsoft 文件"
-ms.custom: 
+title: 存取協調流程中的 SOAP 標頭 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SOAP headers, orchestrations
 - SOAP headers, properties
 - orchestrations, SOAP headers
 ms.assetid: 91fe053a-3f16-497c-b4bb-5fb54bec62e5
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225918"
 ---
 # <a name="accessing-soap-headers-in-orchestrations"></a>在協調流程中存取 SOAP 標頭
 您可以在協調流程中，存取定義和未知之 SOAP 標頭的 SOAP 標頭內容屬性。 如需屬性結構描述和內容屬性的詳細資訊，請參閱[屬性結構描述](../core/property-schemas.md)。  

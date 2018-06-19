@@ -1,11 +1,11 @@
 ---
-title: "範例 TMA： 企業單一登入 |Microsoft 文件"
-ms.custom: 
+title: 範例 TMA： 企業單一登入 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security examples [TMA], SSO
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - examples, SSO
 - examples, TMA
 ms.assetid: c2c15b1b-54f3-4d1a-b3d8-6679abd41ccb
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22273190"
 ---
 # <a name="sample-tma-enterprise-single-sign-on"></a>範例 TMA： 企業單一登入
 本主題呈現範例架構的企業單一登入實例之威脅模型分析 (TMA)。  

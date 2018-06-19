@@ -1,11 +1,11 @@
 ---
-title: "訊息修復和新送出服務處理 |Microsoft 文件"
-ms.custom: 
+title: 訊息修復和新送出服務處理 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - repairing messages, MrsrRepair orchestration
@@ -21,7 +21,7 @@ helpviewer_keywords:
 - InfoPath forms, messages
 - BAS, messages
 ms.assetid: fe2ee009-bf63-4bc0-b231-ad8a2633719f
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -30,6 +30,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22211198"
 ---
 # <a name="message-repair-and-new-submission-service-processing"></a>訊息修復和新送出服務處理
 MrsrRepair 協調流程會處理所有訊息修復和新送出作業，包括下列處理：  

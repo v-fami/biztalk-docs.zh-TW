@@ -1,18 +1,18 @@
 ---
-title: "配接器範例-用法 |Microsoft 文件"
-ms.custom: 
+title: 配接器範例-用法 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SDK examples
 - adapters, examples
 - examples, adapters
 ms.assetid: 8f3d8e5e-d306-4260-ac1a-4c1eacb03d92
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22229766"
 ---
 # <a name="adapter-samples---usage"></a>配接器範例 - 用法
 本節針對各配接器範例示範的功能、建置和執行範例的指示以及預期的結果，提供相關資訊。  

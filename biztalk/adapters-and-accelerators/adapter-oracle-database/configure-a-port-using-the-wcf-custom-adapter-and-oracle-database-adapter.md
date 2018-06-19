@@ -1,15 +1,15 @@
 ---
-title: "設定連接埠使用 wcf-custom 配接器和 Oracle 資料庫配接器 |Microsoft 文件"
-description: "建立 WCF 自訂傳送和接收 BizTalk Server 中使用 Oracle 資料庫配接器的連接埠"
-ms.custom: 
+title: 設定連接埠使用 wcf-custom 配接器和 Oracle 資料庫配接器 |Microsoft 文件
+description: 建立 WCF 自訂傳送和接收 BizTalk Server 中使用 Oracle 資料庫配接器的連接埠
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c99ff526-ad97-4095-812f-0ce88b071e7f
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215854"
 ---
 # <a name="configure-a-port-using-the-wcf-custom-adapter-and-oracle-database-adapter"></a>設定使用 wcf-custom 配接器和 Oracle 資料庫配接器的連接埠
 如何設定 Wcf-custom 傳送埠和接收埠來執行 Oracle 資料庫使用的傳出和傳入作業[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]。  
@@ -41,7 +42,7 @@ ms.lasthandoff: 09/20/2017
   
 7.  在**Wcf-custom 傳輸屬性**對話方塊方塊中，執行下列動作：  
   
-    1.  按一下**一般** 索引標籤，然後在**位址 (URI)**欄位中，指定 Oracle 資料庫的連線 URI。 如需連線 URI 的詳細資訊，請參閱[建立 Oracle 資料庫連線 URI](../../adapters-and-accelerators/adapter-oracle-database/create-the-oracle-database-connection-uri.md)。  
+    1.  按一下**一般** 索引標籤，然後在**位址 (URI)** 欄位中，指定 Oracle 資料庫的連線 URI。 如需連線 URI 的詳細資訊，請參閱[建立 Oracle 資料庫連線 URI](../../adapters-and-accelerators/adapter-oracle-database/create-the-oracle-database-connection-uri.md)。  
   
     2.  在**一般**索引標籤的**動作**文字方塊中，輸入作業的動作。 請參閱[訊息與訊息結構描述](messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md)的每個作業的動作清單。 例如，叫用 Oracle 資料庫中的處理常式結構描述下的員工資料表插入作業的動作是：  
   
@@ -99,7 +100,7 @@ ms.lasthandoff: 09/20/2017
   
 8.  在**Wcf-custom 傳輸屬性**對話方塊方塊中，執行下列動作：  
   
-    1.  按一下**一般** 索引標籤，然後在**位址 (URI)**欄位中，指定 Oracle 資料庫的連線 URI。 如需連線 URI 的詳細資訊，請參閱[建立 Oracle 資料庫連線 URI](../../adapters-and-accelerators/adapter-oracle-database/create-the-oracle-database-connection-uri.md)。  
+    1.  按一下**一般** 索引標籤，然後在**位址 (URI)** 欄位中，指定 Oracle 資料庫的連線 URI。 如需連線 URI 的詳細資訊，請參閱[建立 Oracle 資料庫連線 URI](../../adapters-and-accelerators/adapter-oracle-database/create-the-oracle-database-connection-uri.md)。  
   
     2.  按一下**繫結** 索引標籤，並從**繫結的型別**下拉式清單中，選取**oracleDBBinding**。 您可以指定不同的繫結屬性所公開[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]。 如需繫結屬性的詳細資訊，請參閱[閱讀有關 Oracle 資料庫配接器繫結屬性](../../adapters-and-accelerators/adapter-oracle-database/read-about-the-oracle-database-adapter-binding-properties.md)。  
   

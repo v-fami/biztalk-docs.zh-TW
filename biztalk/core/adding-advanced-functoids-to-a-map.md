@@ -1,14 +1,14 @@
 ---
-title: "新增進階運算質至對應 |Microsoft 文件"
-ms.custom: 
+title: 新增進階運算質至對應 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bbec5e9c-65b3-4734-a7fc-4ee66cf26eee
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22229902"
 ---
 # <a name="adding-advanced-functoids-to-a-map"></a>新增進階運算質至對應
 中的運算質**進階**類別則了解和使用比其他分類，一起中運算質分類為基本運算質較為複雜。 當您需要複雜的對應時，可以使用進階運算質。 這些對應可能需要計數記錄、對具有子記錄變數編號的紀錄進行迴圈，或者執行任意複雜指令碼。  

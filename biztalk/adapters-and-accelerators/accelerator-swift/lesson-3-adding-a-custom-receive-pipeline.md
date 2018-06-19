@@ -1,17 +1,17 @@
 ---
-title: "第 3 課： 加入自訂接收管線 |Microsoft 文件"
-ms.custom: 
+title: 第 3 課： 加入自訂接收管線 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive locations, creating custom pipelines
 - custom pipelines
 ms.assetid: 1917b8e2-4f1c-4c20-abe4-ea18a406eeeb
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210006"
 ---
 # <a name="lesson-3-adding-a-custom-receive-pipeline"></a>第 3 課： 加入自訂接收管線
 在這一課，您會建立自訂接收管線中使用 BizTalk 管線設計師 」。 自訂接收管線是配接器之前接收到訊息之後，會將訊息執行的管線[!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)]將其發行到 MessageBox 資料庫。  

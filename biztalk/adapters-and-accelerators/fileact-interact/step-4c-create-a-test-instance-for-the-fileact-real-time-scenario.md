@@ -1,14 +1,14 @@
 ---
-title: "步驟 4c: FileAct 即時案例建立的測試執行個體 |Microsoft 文件"
-ms.custom: 
+title: '步驟 4c: FileAct 即時案例建立的測試執行個體 |Microsoft 文件'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 80e0cb59-8b4f-4273-a7a4-db3446008061
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225038"
 ---
 # <a name="step-4c-create-a-test-instance-for-the-fileact-real-time-scenario"></a>步驟 4c: FileAct 即時案例建立的測試執行個體
 在開始此步驟之前，必須先完成[步驟 4B： 啟動傳送埠和接收埠 FileAct 即時案例](../../adapters-and-accelerators/fileact-interact/step-4b-start-the-send-and-receive-ports-for-the-fileact-real-time-scenario.md)。  

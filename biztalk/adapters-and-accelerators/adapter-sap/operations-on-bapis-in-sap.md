@@ -1,11 +1,11 @@
 ---
-title: "SAP 中的 Bapi 的作業 |Microsoft 文件"
-ms.custom: 
+title: SAP 中的 Bapi 的作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BAPI, operations
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - BAPI, transactions
 - BAPI transactions, limitations on
 ms.assetid: 6be26641-e8d3-4e11-8d82-4fdb13076580
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217902"
 ---
 # <a name="operations-on-bapis-in-sap"></a>SAP 中的 Bapi 的作業
 商務應用程式發展介面 (BAPI) 是一種方法可以由外部處理序呼叫的 SAP 商務物件。 Bapi 是交易式 SAP 系統上。  

@@ -1,14 +1,14 @@
 ---
-title: "屬性管理員 |Microsoft 文件"
-ms.custom: 
+title: 屬性管理員 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 823352a0-e397-464a-a163-1dbf8feea8d7
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,11 +17,12 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269102"
 ---
 # <a name="property-managers"></a>屬性管理員
 「屬性管理員」允許延伸模組將自訂屬性 (一般是 XSD 註解) 新增至結構描述的 XSD 表示法中的項目與屬性，也允許延伸 [屬性] 視窗，以包含與延伸模組相關聯的自訂屬性。  
   
- 屬性管理員是一個物件，實作**[ipropertymanager]**介面，其參考透過呼叫**IExtension.GetPropertyManager**，並傳遞**[Itreenode]**物件做為輸入參數。 通常延伸模組會提供一個**[ipropertymanager]**物件給每個**[itreenode]**物件。 屬性管理員會負責的自訂屬性集合，該**[itreenode]**物件。  
+ 屬性管理員是一個物件，實作 **[ipropertymanager]** 介面，其參考透過呼叫**IExtension.GetPropertyManager**，並傳遞 **[Itreenode]** 物件做為輸入參數。 通常延伸模組會提供一個 **[ipropertymanager]** 物件給每個 **[itreenode]** 物件。 屬性管理員會負責的自訂屬性集合，該 **[itreenode]** 物件。  
   
  自訂屬性由**System.ComponentModel.PropertyDescriptor**物件，可以從所傳回的集合中取得**IPropertyManager.GetProperties**方法。  
   

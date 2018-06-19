@@ -1,14 +1,14 @@
 ---
-title: "使用 MVG 欄位使用 BizTalk Server 和 Siebel 配接器執行商務元件上的作業 |Microsoft 文件"
-ms.custom: 
+title: 使用 MVG 欄位使用 BizTalk Server 和 Siebel 配接器執行商務元件上的作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7c5db211-76a2-4c27-97f4-382302c722da
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226958"
 ---
 # <a name="run-operations-on-business-components-with-mvg-fields-using-biztalk-server-and-the-siebel-adapter"></a>使用 MVG 欄位使用 BizTalk Server 和 Siebel 配接器執行商務元件上的作業
 本節將提供包含多重值欄位的商務元件上執行操作的指示。 若要示範這類商務元件上的端對端作業，您必須執行：  
@@ -117,7 +118,7 @@ ms.lasthandoff: 09/20/2017
   
 |形狀圖|圖形類型|屬性|  
 |-----------|----------------|----------------|  
-|AccountAssociateXML|Receive|-設定**名稱**至*AccountAssociateXML*<br />-設定**啟動**至*，則為 True*|  
+|AccountAssociateXML|Receive|-設定**名稱**至*AccountAssociateXML*<br />-設定**啟動**至 *，則為 True*|  
 |SendToLOB|Send|-設定**名稱**至*SendToLOB*|  
 |ReceiveResponse|Receive|-設定**名稱**至*ReceiveResponse*<br />-設定**啟動**至*False*|  
 |SendResponse|Send|-設定**名稱**至*SendResponse*|  

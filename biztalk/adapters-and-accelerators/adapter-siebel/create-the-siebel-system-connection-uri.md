@@ -1,11 +1,11 @@
 ---
-title: "建立 Siebel 系統連接 URI |Microsoft 文件"
-ms.custom: 
+title: 建立 Siebel 系統連接 URI |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - connection URI
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - how to, connect using connection URI
 - connecting using connection URI
 ms.assetid: 8cc78149-1c20-40db-aece-aab520ee04e7
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224550"
 ---
 # <a name="create-the-siebel-system-connection-uri"></a>建立 Siebel 系統連接 URI
 [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)]連線 URI 包含用來連接至 Siebel 系統的配接器屬性。  
@@ -99,7 +100,7 @@ siebel://Username=[USER_NAME];Password=[PASSWORD]@[SERVER]:[PORT]?SiebelObjectMa
 |加密|使用之間的加密類型[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]與 Siebel 系統。 支援的值為 none、 mscrypto，或 rsa。 這個參數是選擇性的。 如果未指定，Siebel 系統會提供預設值 （無）。|  
 |壓縮更|之間使用的壓縮演算法[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]與 Siebel 系統。 支援的值為 none 或 zlib。 這個參數是選擇性的。 如果未指定，Siebel 系統會提供預設值 (zlib)。|  
 |SiebelServer|Siebel 伺服器。 所需的所有 Siebel 7.5 伺服器連接 (7.5.2、 7.5.3，等。)。否則，請勿設定此參數。|  
-|SiebelRepository|Siebel 儲存機制。 需要伺服器上是否有一個以上的儲存機制否則為選擇性。 **注意：**如果伺服器上有一個以上的儲存機制，您必須指定一個目標存放庫 SiebelRepository 參數中。|  
+|SiebelRepository|Siebel 儲存機制。 需要伺服器上是否有一個以上的儲存機制否則為選擇性。 **注意：** 如果伺服器上有一個以上的儲存機制，您必須指定一個目標存放庫 SiebelRepository 參數中。|  
   
  如需查詢資訊中所設定的 Siebel 參數的詳細資訊，請參閱您的 Siebel 文件。  
   

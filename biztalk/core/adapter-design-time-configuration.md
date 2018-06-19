@@ -1,14 +1,14 @@
 ---
-title: "配接器設計階段組態 |Microsoft 文件"
-ms.custom: 
+title: 配接器設計階段組態 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f5e7b63c-6e17-4c54-9bbf-6964668a2420
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226166"
 ---
 # <a name="adapter-design-time-configuration"></a>配接器設計階段組態
 配接器會同時包含執行階段元件和設計階段元件。 使用者看不到執行階段元件。 該元件是以通透性的方式負責 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 訊息的傳輸、接收和處理。  

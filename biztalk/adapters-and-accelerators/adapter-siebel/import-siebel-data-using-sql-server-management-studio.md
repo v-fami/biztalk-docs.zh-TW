@@ -1,17 +1,17 @@
 ---
-title: "使用 SQL Server Management Studio 的 Siebel 資料匯入 |Microsoft 文件"
-ms.custom: 
+title: 使用 SQL Server Management Studio 的 Siebel 資料匯入 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SQL Server Management Studio, importing data by using
 - how to, import data by using SQL Server Management Studio
 ms.assetid: 67da7f7b-37ea-4a31-89ef-a9f6974ff976
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223718"
 ---
 # <a name="import-siebel-data-using-sql-server-management-studio"></a>使用 SQL Server Management Studio 的 Siebel 資料匯入
 本節提供有關如何使用 SQL Server Management Studio 從 Siebel 系統的資料匯入到 SQL Server 資料庫的資訊。 它也會提供有關如何建立和執行 SSIS 封裝，此資料匯入的指示。  

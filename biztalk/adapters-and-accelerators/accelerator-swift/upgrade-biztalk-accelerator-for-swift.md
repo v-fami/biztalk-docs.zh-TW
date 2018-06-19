@@ -1,14 +1,14 @@
 ---
-title: "升級 BizTalk Accelerator for SWIFT |Microsoft 文件"
-ms.custom: 
+title: 升級 BizTalk Accelerator for SWIFT |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ede2af21-4c7d-4f9e-b255-1ada86eda68d
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215390"
 ---
 # <a name="upgrade-biztalk-accelerator-for-swift"></a>升級 BizTalk Accelerator for SWIFT
 升級[!INCLUDE[A4SWIFT_CurrentVersion_FirstRef_md](../../includes/a4swift-currentversion-firstref-md.md)]BizTalk 伺服器上。 

@@ -1,14 +1,14 @@
 ---
-title: "BAM 開發人員概念 |Microsoft 文件"
-ms.custom: 
+title: BAM 開發人員概念 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c26d0aed-821c-4e1f-9cc9-9375a2ba28de
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230806"
 ---
 # <a name="bam-concepts-for-the-developer"></a>開發人員適用的 BAM 概念
 身為 BAM 開發人員，您必須熟悉重要的 BAM 概念，例如活動、接續和參考等。 您也應該瞭解追蹤和交易式處理兩者之間的差異。  

@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e9697155-70c0-4173-80d2-d02d103c397b
-caps.latest.revision: ''
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22218598"
 ---
 # <a name="set-application-context"></a>設定應用程式內容
 在[!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]，您可以對它們執行作業之前，會強制某些 Oracle E-business Suite 成品 （介面資料表、 介面檢視、 並行程式和要求） 設定應用程式內容。 [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]不允許您執行這些成品的作業，除非您已設定應用程式內容。 不過，基礎的 Oracle 資料庫中的成品，對於使用者他們是否想要設定應用程式內容。  

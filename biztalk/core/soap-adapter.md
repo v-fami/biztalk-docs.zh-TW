@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277862"
 ---
 # <a name="soap-adapter"></a>SOAP 配接器
 Microsoft BizTalk Server Web 服務在接收和傳送 Web 服務要求時會使用 SOAP 配接器。 SOAP 配接器可以讓您發佈協調流程做為 Web 服務與取用外部 Web 服務。  

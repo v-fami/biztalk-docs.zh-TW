@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22221918"
 ---
 # <a name="get-metadata-for-siebel-operations-in-visual-studio"></a>取得 Visual Studio 中的 Siebel 作業的中繼資料
 [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)]提供兩個[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]可用來協助您開發解決方案使用配接器的元件。  

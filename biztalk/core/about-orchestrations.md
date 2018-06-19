@@ -1,11 +1,11 @@
 ---
-title: "關於協調流程 |Microsoft 文件"
-ms.custom: 
+title: 關於協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - orchestrations, about orchestrations
 - Orchestration Designer, about Orchestration Designer
 ms.assetid: c0d9a3fb-da87-42cc-9e9e-e2c37232e606
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225134"
 ---
 # <a name="about-orchestrations"></a>關於協調流程
 協調流程是一種靈活、功能強大的工具，用於代表以 XLANG/s 語言為基礎的可執行商務程序。 XLANG/s 可視為具有某些 C# 運算式功能的訊息語言。 您可以在直覺式的視覺繪圖中，設計流程、解譯及產生資料、呼叫自訂程式碼，以及組織完整的流程，而在執行階段中，BizTalk 協調流程引擎則會執行 XLANG/s 檔案，也就是 BizTalk 協調流程設計師所產生的可執行商務流程。  

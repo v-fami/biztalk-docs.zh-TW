@@ -1,17 +1,17 @@
 ---
-title: "使用管線從服務導向解決方案 |Microsoft 文件"
-ms.custom: 
+title: 使用管線從服務導向解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - service solution tutorial, pipelines
 - pipelines, service solutions
 ms.assetid: 0870fce1-52ec-4ff8-884f-a3199bd7ccbb
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287206"
 ---
 # <a name="using-pipelines-from-the-service-oriented-solution"></a>使用管線從服務導向解決方案
 客戶服務協調流程的內嵌版本 (**CustomerService**) 呼叫付款追蹤系統直接。 為了準備已傳送訊息和處理已接收訊息，協調流程會從程式碼呼叫管線。 這可從其他實例版本重複使用管線。 它也維持從管線階段減少協調流程。  

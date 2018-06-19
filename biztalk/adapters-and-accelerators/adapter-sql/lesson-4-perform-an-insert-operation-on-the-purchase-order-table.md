@@ -1,14 +1,14 @@
 ---
-title: "第 4 課： 執行插入作業的採購訂單資料表 |Microsoft 文件"
-ms.custom: 
+title: 第 4 課： 執行插入作業的採購訂單資料表 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 66fc64c5-a3da-4014-8545-f34e6577bd73
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222686"
 ---
 # <a name="lesson-4-perform-an-insert-operation-on-the-purchase-order-table"></a>第 4 課： 執行插入作業的採購訂單資料表
 在[第 3 課： 執行預存程序來選取新加入的員工](../../adapters-and-accelerators/adapter-sql/lesson-3-execute-a-stored-procedure-to-select-new-employees-added.md)，您可以執行**UPDATE_EMPLOYEE**預存程序，並接收回應訊息包含詳細資料的新插入位員工的記錄。 在這一課，您將會根據上一課並更新協調流程以執行下列步驟：  

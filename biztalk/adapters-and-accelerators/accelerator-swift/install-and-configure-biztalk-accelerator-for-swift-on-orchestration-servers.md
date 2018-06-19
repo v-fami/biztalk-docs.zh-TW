@@ -1,17 +1,17 @@
 ---
-title: "安裝和設定 BizTalk Accelerator for SWIFT 協調流程伺服器上 |Microsoft 文件"
-ms.custom: 
+title: 安裝和設定 BizTalk Accelerator for SWIFT 協調流程伺服器上 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestration server, installing BizTalk Accelerator for SWIFT
 - BizTalk Accelerator for SWIFT, installing on orchestration server
 ms.assetid: 127113ae-46b4-4290-a2c1-6a3db04cd178
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209742"
 ---
 # <a name="installing-and-configuring-biztalk-accelerator-for-swift-on-orchestration-servers"></a>安裝和設定 BizTalk Accelerator for SWIFT 協調流程伺服器上
 本章節描述如何安裝及設定[!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]協調流程伺服器上。 這些伺服器是主要用來執行 FIN 修復和重新調整協調流程和訊息修復/新增提交協調流程。  

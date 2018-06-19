@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230694"
 ---
 # <a name="basic-orchestration-design"></a>基本協調流程設計
 當您建立基本協調流程時，您的協調流程的接收埠收到 XML。 XML 傳送到後端系統上，進行處理。 在後端系統中，可能會發生例外狀況，無法停止協調流程並產生錯誤。 所產生，可提供資訊的協調流程未完成的例外狀況。  

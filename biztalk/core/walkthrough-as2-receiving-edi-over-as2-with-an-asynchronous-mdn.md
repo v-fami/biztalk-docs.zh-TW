@@ -1,14 +1,14 @@
 ---
-title: "逐步解說 (AS2): 使用非同步 MDN 透過 AS2 接收 EDI |Microsoft 文件"
-ms.custom: 
+title: '逐步解說 (AS2): 使用非同步 MDN 透過 AS2 接收 EDI |Microsoft 文件'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ac3962e4-0525-4194-8cf1-b90664f1a139
-caps.latest.revision: "40"
+caps.latest.revision: 40
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22292398"
 ---
 # <a name="walkthrough-as2-receiving-edi-over-as2-with-an-asynchronous-mdn"></a>逐步解說 (AS2)：使用非同步 MDN 透過 AS2 接收 EDI
 本逐步解說提供一組逐步執行的程序，可建立透過 AS2 傳輸接收 EDI 訊息並傳回同步 MDN 的解決方案。  
@@ -133,7 +134,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  在**新增指令碼對應**對話方塊方塊中，輸入`BtsHttpReceive.dll`中**要求路徑**欄位。  
   
-4.  在**可執行檔**欄位中，按一下**省略符號 （...）**按鈕並瀏覽至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]HttpReceive。 選取 BtsHttpReceive.dll，然後按一下**確定**。  
+4.  在**可執行檔**欄位中，按一下**省略符號 （...）** 按鈕並瀏覽至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]HttpReceive。 選取 BtsHttpReceive.dll，然後按一下**確定**。  
   
 5.  輸入`BizTalk HTTP Receive`中`Name`欄位，，然後按一下**要求限制**。  
   
@@ -147,7 +148,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  在 [IIS 管理員] 中，以滑鼠右鍵按一下**應用程式集區**選取**新增應用程式集區**。  
   
-2.  在**新增應用程式集區**對話方塊方塊中，輸入**BizTalkAppPool**中**名稱**，然後選取**.NET Framework v4.0.30210**中**.NET framework 版本**下拉式清單。 按一下 **[確定]**。  
+2.  在**新增應用程式集區**對話方塊方塊中，輸入**BizTalkAppPool**中**名稱**，然後選取 **.NET Framework v4.0.30210**中 **.NET framework 版本**下拉式清單。 按一下 **[確定]**。  
   
     > [!NOTE]
     >  版本號碼可能會依據電腦上安裝的 [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)] 版本而有所不同。  
@@ -166,7 +167,7 @@ ms.lasthandoff: 09/20/2017
   
 9. 中**選取應用程式集區**對話方塊中，選取**BizTalkAppPool**按一下**確定**。  
   
-10. 如**實體路徑**，按一下 **省略符號 （...）**按鈕並瀏覽至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]HttpReceive。  
+10. 如**實體路徑**，按一下 **省略符號 （...）** 按鈕並瀏覽至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]HttpReceive。  
   
 11. 按一下**測試設定**並確認沒有顯示在錯誤**測試連接** 對話方塊。 按一下 [關閉]，然後按一下 [確定]。  
   
@@ -182,7 +183,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  中**選取應用程式集區**對話方塊中，選取**BizTalkAppPool**按一下**確定**。  
   
-4.  如**實體路徑**，按一下 [**省略符號 （...）**按鈕並瀏覽至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\AS2 tutorial\fabrikam]。  
+4.  如**實體路徑**，按一下 [**省略符號 （...）** 按鈕並瀏覽至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\AS2 tutorial\fabrikam]。  
   
 5.  按一下**測試設定**並確認沒有顯示在錯誤**測試連接** 對話方塊。 按一下 [關閉]，然後按一下 [確定]。  
   
@@ -245,7 +246,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  在**傳送埠屬性**對話方塊中，將傳送埠，例如**Send_Payload**。 選取**檔案**如**類型**，然後按一下 **設定**。  
   
-4.  在**FILE 傳輸屬性**對話方塊中，針對**目的地資料夾**、 瀏覽並選取**EDI_to_Contoso**您在步驟 1 中建立的資料夾。 保留**檔案名稱**為**%MessageID%.xml**。 按一下 **[確定]**。  
+4.  在**FILE 傳輸屬性**對話方塊中，針對**目的地資料夾**、 瀏覽並選取**EDI_to_Contoso**您在步驟 1 中建立的資料夾。 保留**檔案名稱**為 **%MessageID%.xml**。 按一下 **[確定]**。  
   
 5.  接受預設值是**PassThruTransmit**如**傳送管線**。  
   
@@ -266,7 +267,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  以滑鼠右鍵按一下合作對象名稱，指向**新增**，然後按一下 **商務設定檔**。  
   
-4.  在**設定檔屬性**對話方塊**一般**頁面上，輸入**[fabrikam_profile]**中**名稱**文字方塊。  
+4.  在**設定檔屬性**對話方塊**一般**頁面上，輸入 **[fabrikam_profile]** 中**名稱**文字方塊。  
   
     > [!NOTE]
     >  當您建立合作對象時，會同時建立設定檔。 您可以重新命名再使用該設定檔，而不需建立新設定檔。 若要重新命名設定檔，以滑鼠右鍵按一下 設定檔，然後選取**屬性**。 在**一般**頁面上，指定設定檔的名稱。  
@@ -282,7 +283,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  以滑鼠右鍵按一下合作對象名稱，指向**新增**，然後按一下 **商務設定檔**。  
   
-4.  在**設定檔屬性**對話方塊**一般**頁面上，輸入**[contoso_profile]**中**名稱**文字方塊。  
+4.  在**設定檔屬性**對話方塊**一般**頁面上，輸入 **[contoso_profile]** 中**名稱**文字方塊。  
   
     > [!NOTE]
     >  當您建立合作對象時，會同時建立設定檔。 您可以重新命名再使用該設定檔，而不需建立新設定檔。 若要重新命名設定檔，以滑鼠右鍵按一下 設定檔，然後選取**屬性**。 在**一般**頁面上，指定設定檔的名稱。  
@@ -309,7 +310,7 @@ ms.lasthandoff: 09/20/2017
   
     2.  在**驗證**頁面上，選取**對驗證與 MDN 使用協議設定，而非訊息標頭**核取方塊  
   
-    3.  在**通知 (Mdn)**頁面上，執行下列動作：  
+    3.  在**通知 (Mdn)** 頁面上，執行下列動作：  
   
         1.  選取**要求 MDN**核取方塊。  
   
@@ -317,7 +318,7 @@ ms.lasthandoff: 09/20/2017
   
         3.  選取**要求非同步 MDN**核取方塊。  
   
-        4.  在**回條傳遞選項 (URL)**文字方塊中，輸入`http://localhost/Fabrikam/Default.aspx?Destination=_MDNToFabrikam`。  
+        4.  在**回條傳遞選項 (URL)** 文字方塊中，輸入`http://localhost/Fabrikam/Default.aspx?Destination=_MDNToFabrikam`。  
   
 8.  在上執行下列工作**Contoso-> Fabrikam**  索引標籤。  
   
@@ -375,15 +376,15 @@ ms.lasthandoff: 09/20/2017
   
         |使用|動作|  
         |--------------|----------------|  
-        |**預設值**|選取**預設**。 **注意：**當您選取這個資料列的預設值為**GS1**， **GS2**， **GS3**， **GS7**，和**GS8**可用即使值**交易類型**，**版本/版次**，和**目標命名空間**都不符合訊息。|  
+        |**預設值**|選取**預設**。 **注意：** 當您選取這個資料列的預設值為**GS1**， **GS2**， **GS3**， **GS7**，和**GS8**可用即使值**交易類型**，**版本/版次**，和**目標命名空間**都不符合訊息。|  
         |**交易類型**|例如，選取您的測試訊息的訊息類型**864-文字訊息**。|  
         |**版本/版次**|輸入**00401**。|  
         |**目標命名空間**|選取**http://schemas.microsoft.com/BizTalk/EDI/X12/2006**。|  
         |**GS1**|確認已選取測試訊息的訊息類型，例如**TX-簡訊 (864)**。|  
         |**GS2**|輸入**01**。|  
         |**GS3**|輸入**7654321**。|  
-        |**GS4**|選取您想要的日期格式。 選取**CCYYMMDD**。 **注意：**您必須在下拉式清單中選取值，不只是按一下欄位以顯示預設值。 如果您按一下欄位而未從下拉式清單中選取值，實際上不會選取值。|  
-        |**GS5**|選擇您要的時間格式。 選取**[hhmmssdd]**。|  
+        |**GS4**|選取您想要的日期格式。 選取**CCYYMMDD**。 **注意：** 您必須在下拉式清單中選取值，不只是按一下欄位以顯示預設值。 如果您按一下欄位而未從下拉式清單中選取值，實際上不會選取值。|  
+        |**GS5**|選擇您要的時間格式。 選取 **[hhmmssdd]**。|  
         |**GS7**|選取**T-Transportation Data Coordinating Committee (TDCC)**。|  
         |**GS8**|請確認已輸入 EDI 版本做**00401**。|  
   
