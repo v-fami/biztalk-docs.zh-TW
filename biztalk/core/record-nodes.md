@@ -1,14 +1,14 @@
 ---
-title: "記錄節點 |Microsoft 文件"
-ms.custom: 
+title: 記錄節點 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 43af077d-5db8-43ca-8bd0-e3a9e3ebe2b0
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268494"
 ---
 # <a name="record-nodes"></a>記錄節點
 在 「 BizTalk 編輯器 」 中，使用**記錄**節點表示資訊的集合，其中個別的項目可以是：  
@@ -42,7 +43,7 @@ ms.lasthandoff: 09/20/2017
   
  當其中三個屬性節點以外的任何子節點 (**欄位屬性**，**屬性群組**，和**Any 屬性**) 加入至**記錄**節點，根據預設，它會放在**順序**內的項目**complexType**項目。 **順序**時加入，並移除所有非屬性子節點已刪除，如果第一個非屬性子節點，就會加入項目。 新增的所有三種類型的屬性節點**complexType**項目，但之外和之後任何**順序**項目。  
   
- **順序**內的非屬性子節點會加入項目也可以**選擇**或**所有**項目，如果您變更**群組順序類型 （節點所有結構描述的屬性）**對應結構描述樹狀結構中節點的屬性**選擇**或**所有**分別。  
+ **順序**內的非屬性子節點會加入項目也可以**選擇**或**所有**項目，如果您變更**群組順序類型 （節點所有結構描述的屬性）** 對應結構描述樹狀結構中節點的屬性**選擇**或**所有**分別。  
   
  在下列範例中，**記錄**節點已重新命名的 shipTo。 內的位置**記錄**其中加入屬性和非屬性節點的節點會顯示在括號中。  
   

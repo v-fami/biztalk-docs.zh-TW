@@ -1,17 +1,17 @@
 ---
-title: "HTTPSolicitResponse |Microsoft 文件"
-ms.custom: 
+title: HTTPSolicitResponse |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - HTTP adapters, examples
 - examples, HTTP adapters
 ms.assetid: b149544e-3279-4ac9-b31f-fff3e41ec8e7
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973124"
 ---
 # <a name="httpsolicitresponse"></a>HTTPSolicitResponse
 HTTPSolicitResponse 範例會示範如何建立 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 協調流程，以運用 ASP.NET 應用程式協助處理協調流程資料。 在此範例中，協調流程會利用要求/回應埠，將訊息傳送至 ASP.NET 應用程式並擷取回應。 藉由使用 HTTP 配接器，便能整合 BizTalk Server 協調流程與 ASP.NET 應用程式。 如需詳細資訊，請參閱[HTTP 配接器](../core/http-adapter.md)。  
@@ -74,7 +75,7 @@ HTTPSolicitResponse 範例會示範如何建立 Microsoft [!INCLUDE[btsBizTalkSe
     -   編譯及設定此範例所使用的乘法運算器 ASP.NET 應用程式。  
   
         > [!NOTE]
-        >  在 IIS 管理員中建立應用程式集區，設定**DefaultAppPool**以.NET Framework 版本**.Net Framework v4.0**。  
+        >  在 IIS 管理員中建立應用程式集區，設定**DefaultAppPool**以.NET Framework 版本 **.Net Framework v4.0**。  
   
     -   編譯及部署此範例中所使用的 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 協調流程。  
   

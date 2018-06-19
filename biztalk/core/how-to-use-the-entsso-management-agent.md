@@ -1,14 +1,14 @@
 ---
-title: "如何使用 ENTSSO 管理代理程式 |Microsoft 文件"
-ms.custom: 
+title: 如何使用 ENTSSO 管理代理程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9c89b494-db12-4d2a-a030-6acd34489cab
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256134"
 ---
 # <a name="how-to-use-the-entsso-management-agent"></a>如何使用 ENTSSO 管理代理程式
 此版本的企業單一登入 (SSO) 包含 Microsoft Identity Integration Server (MIIS) 的管理代理程式 (MA)，整合了企業單一登入與 MIIS 的帳戶同步處理功能。 這樣一來 MIIS 系統管理員即可管理 SSO 資料庫內的 SSO 對應。  

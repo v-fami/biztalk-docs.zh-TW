@@ -1,15 +1,15 @@
 ---
-title: "在 BizTalk Server RosettaNet 加速器的已知問題 |Microsoft 文件"
-description: "請參閱 < 已知的問題與失敗、 BAM、 安裝及設定，並在 BizTalk Server 中的 BTARN 更 0A1 通知的解決方式"
-caps.latest.revision: "11"
+title: 在 BizTalk Server RosettaNet 加速器的已知問題 |Microsoft 文件
+description: 請參閱 < 已知的問題與失敗、 BAM、 安裝及設定，並在 BizTalk Server 中的 BTARN 更 0A1 通知的解決方式
+caps.latest.revision: 11
 author: MandiOhlinger
 manager: anneta
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 335eb3c9-b565-470f-b69c-2a771ef8b476
 ms.author: mandia
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010775"
 ---
 # <a name="known-issues"></a>已知問題
 本節包含的有用資訊，可幫助您避免 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 的錯誤。 已知的問題可分為以下各類：  

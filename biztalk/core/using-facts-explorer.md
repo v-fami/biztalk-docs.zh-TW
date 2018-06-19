@@ -1,11 +1,11 @@
 ---
-title: "使用 [事實總管] |Microsoft 文件"
-ms.custom: 
+title: 使用 [事實總管] |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Business Rule Composer, Facts Explorer
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - business rules, .NET classes
 - Facts Explorer [Business Rule Composer]
 ms.assetid: ee125eb1-d5b9-4121-8a25-fcb7a640570e
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,9 +24,10 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287702"
 ---
 # <a name="using-facts-explorer"></a>使用 [事實總管]
-[事實總管] 包含四個索引標籤：**詞彙**， **XML 結構描述**，**資料庫**，和**.NET 類別**。  
+[事實總管] 包含四個索引標籤：**詞彙**， **XML 結構描述**，**資料庫**，和 **.NET 類別**。  
   
 ## <a name="vocabularies-tab"></a>詞彙索引標籤  
  使用**詞彙** 索引標籤管理詞彙版本及定義 事實總管 中的。  

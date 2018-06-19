@@ -1,14 +1,14 @@
 ---
-title: "監視應用程式 |Microsoft 文件"
-ms.custom: 
+title: 監視應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4be98ba2-6acd-4dee-b6ea-db71bbd368f0
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008979"
 ---
 # <a name="monitoring-applications"></a>監視應用程式
 設定 Microsoft System Center Operations Manager 來監視 BizTalk 應用程式通常可以分成漸進式的四個步驟程序，如下所示：  

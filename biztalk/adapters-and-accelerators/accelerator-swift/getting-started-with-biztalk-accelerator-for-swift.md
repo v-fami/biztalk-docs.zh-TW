@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005207"
 ---
 # <a name="getting-started-with-biztalk-accelerator-for-swift"></a>開始使用 BizTalk Accelerator for SWIFT
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]提供一組結構描述、 規則和相關聯的工具，以協助您的應用程式內部 SWIFT 訊息整合。 A4SWIFT 需要[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server 中，並使用[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]元件和功能來實作結構描述，剖析、 驗證、 規則處理，與協調流程。 A4SWIFT 也會實作解除批次處理即將內含多個財務 (FIN) 訊息、 訊息修復和新送出和 FIN 回應對帳的檔案。  

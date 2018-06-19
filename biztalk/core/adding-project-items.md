@@ -1,15 +1,15 @@
 ---
-title: "加入專案項目 |Microsoft 文件"
-description: "在 Visual Studio 中對 BizTalk Server 專案中加入協調流程、 結構描述、 對應和管線"
-ms.custom: 
+title: 加入專案項目 |Microsoft 文件
+description: 在 Visual Studio 中對 BizTalk Server 專案中加入協調流程、 結構描述、 對應和管線
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d1b922d5-8ece-4e1a-a390-e6ae1222665a
-caps.latest.revision: 
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710221"
 ---
 # <a name="add-project-items"></a>加入專案項目
 在 BizTalk 專案系統的內容中，專案項目是設定的項目 (例如對應或結構描述)。 BizTalk 應用程式包含一或多個協調流程、結構描述、對應及管線。  

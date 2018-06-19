@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279462"
 ---
 # <a name="tpe-activity-view-nodes"></a>TPE 活動檢視節點
 本節主題說明樹狀結構節點的類型，追蹤設定檔編輯器會利用這些樹狀結構節點，將內部商務程序的特定檢視及相關的資料對應至協調流程。  

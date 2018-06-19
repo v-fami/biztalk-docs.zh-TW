@@ -1,14 +1,14 @@
 ---
-title: "組件和動態解析範例所安裝的成品 |Microsoft 文件"
-ms.custom: 
+title: 組件和動態解析範例所安裝的成品 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3d9ffdc4-1721-4202-839c-04e5bffe8668
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006991"
 ---
 # <a name="assemblies-and-artifacts-installed-by-the-dynamic-resolution-sample"></a>組件和成品安裝動態解析範例
 下表列出的組件和成品安裝[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]動態解析 」 範例。  

@@ -1,14 +1,14 @@
 ---
-title: "高可用性和 Microsoft Operations Framework |Microsoft 文件"
-ms.custom: 
+title: 高可用性和 Microsoft Operations Framework |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 54d8bae3-b241-4371-b8fc-a9cbdca6b495
-caps.latest.revision: 
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710441"
 ---
 # <a name="high-availability-and-the-microsoft-operations-framework"></a>高可用性與 Microsoft Operations Framework
 Microsoft Operations Framework (MOF) 處理序模型套用之規劃與實作高可用性的 Microsoft BizTalk Server 解決方案可以幫助您確定在發行生命週期的不同階段具有適當的程序。 藉由觀察所有出現高可用性的生命週期階段，您可以讓環境中的安裝、維護和疑難排解可用性問題更為容易。  

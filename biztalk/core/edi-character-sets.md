@@ -1,14 +1,14 @@
 ---
-title: "EDI 字元集 |Microsoft 文件"
-ms.custom: 
+title: EDI 字元集 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 57fae748-d66e-4ecf-be00-70147078ef93
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971388"
 ---
 # <a name="edi-character-sets"></a>EDI 字元集
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]會使用字元集來驗證整個 EDI 交換。 用於 X12 編碼訊息以及 EDIFACT 或 KEDIFACT 編碼訊息的字元集會以不同方式決定。  
@@ -38,7 +39,7 @@ ms.lasthandoff: 11/28/2017
  [UNA 區段] 和 [區段名稱 UNB] 限制只能使用 ASCII 字元集中的值。  
   
 ## <a name="kedifact-character-set"></a>KEDIFACT 字元集  
- 如同 EDIFACT，KEDIFACT 編碼交換的字元集也是在 UNB1 資料項目中建立。 對於 EDIFACT 字元集要套用的[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]資料元素中的處理 KEDIFACT 交換建立時**UNB1**的**字元集和分隔符號**中雙向頁面協議索引標籤 （如果已定義了協議） 或**字元集和分隔符號**的協議索引標籤中的頁面**EDIFACT 後援設定**對話方塊 （若未定義協議是）。 值**識別項 (UNB1.1)**元素必須設定為 KECA。  
+ 如同 EDIFACT，KEDIFACT 編碼交換的字元集也是在 UNB1 資料項目中建立。 對於 EDIFACT 字元集要套用的[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]資料元素中的處理 KEDIFACT 交換建立時**UNB1**的**字元集和分隔符號**中雙向頁面協議索引標籤 （如果已定義了協議） 或**字元集和分隔符號**的協議索引標籤中的頁面**EDIFACT 後援設定**對話方塊 （若未定義協議是）。 值**識別項 (UNB1.1)** 元素必須設定為 KECA。  
   
 ## <a name="x12-character-set"></a>X12 字元集  
  當 BizTalk 接收管線或傳送管線會執行 EDI 驗證的 X12 編碼訊息時，它會使用 X12 字元集管線的 CharacterSet 屬性中選取。 若要設定這個屬性，請開啟接收位置或傳送埠的 [屬性] 對話方塊，然後按一下接收或傳送管線旁邊的省略符號，再設定「解譯器」或「組合器」的 [CharacterSet] 屬性。  

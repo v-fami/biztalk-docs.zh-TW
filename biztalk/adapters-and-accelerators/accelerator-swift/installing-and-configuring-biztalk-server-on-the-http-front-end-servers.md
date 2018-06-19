@@ -1,17 +1,17 @@
 ---
-title: "安裝和設定 BizTalk Server HTTP 前端伺服器上 |Microsoft 文件"
-ms.custom: 
+title: 安裝和設定 BizTalk Server HTTP 前端伺服器上 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - HTTP server, installing BizTalk Server
 - BizTalk Server, installing on HTTP servers
 ms.assetid: dc1b3675-483a-478f-b30d-62efb73ad13c
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26004407"
 ---
 # <a name="installing-and-configuring-biztalk-server-on-the-http-front-end-servers"></a>安裝和設定 BizTalk Server HTTP 前端伺服器上
 本章節描述如何安裝和設定 BizTalk Server 来做為 HTTP 前端伺服器裝載 MRSR 站台和[!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]範本表單。  

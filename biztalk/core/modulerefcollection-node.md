@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262678"
 ---
 # <a name="modulerefcollection-node"></a>ModuleRefCollection 節點
 繫結檔案的 ModuleRefCollection 區段是所有 ModuleRef 節點的父節點，這些節點包含隨同繫結檔案一起匯出之 .NET 組件的特定相關資訊。  

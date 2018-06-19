@@ -1,14 +1,14 @@
 ---
-title: "連接到使用 SQL 配接器的 Visual Studio 中的 SQL Server |Microsoft 文件"
-ms.custom: 
+title: 連接到使用 SQL 配接器的 Visual Studio 中的 SQL Server |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 62fc2c01-6e4d-4b3b-8581-1d57436ef4e9
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222806"
 ---
 # <a name="connect-to-sql-server-in-visual-studio-using-the-sql-adapter"></a>連接到使用 SQL 配接器的 Visual Studio 中的 SQL Server
 本節提供有關如何使用指示[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]、 [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]，而[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]。  

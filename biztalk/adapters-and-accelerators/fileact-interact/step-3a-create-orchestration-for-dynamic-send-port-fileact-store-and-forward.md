@@ -1,14 +1,14 @@
 ---
-title: "步驟 3A： 建立 FileAct 存放與轉寄 （提取） 案例的動態傳送埠的協調流程 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3A： 建立 FileAct 存放與轉寄 （提取） 案例的動態傳送埠的協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5675d476-ad36-4bbc-8e87-786edc9c805d
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223542"
 ---
 # <a name="step-3a-create-an-orchestration-for-dynamic-send-port-for-fileact-store-and-forward-pull-scenario"></a>步驟 3A： 建立 FileAct 存放與轉寄 （提取） 案例的動態傳送埠的協調流程
 開始本節中的步驟之前，您必須完成的步驟[步驟 2c： 新增 FILEACT 傳送埠 FileAct 儲存和轉送 （提取） 案例](../../adapters-and-accelerators/fileact-interact/step-2c-add-a-fileact-send-port-for-fileact-store-and-forward-pull-scenario.md)> 一節。  

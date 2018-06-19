@@ -1,15 +1,15 @@
 ---
-title: "使用商務活動監控 |Microsoft 文件"
-description: "開始使用商務活動監控 (BAM) 在 BizTalk Server"
-ms.custom: 
+title: 使用商務活動監控 |Microsoft 文件
+description: 開始使用商務活動監控 (BAM) 在 BizTalk Server
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8e01f54f-1d7f-4aed-ad14-2aeae716fd58
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286998"
 ---
 # <a name="using-business-activity-monitoring"></a>使用商務活動監控
 商務活動監控 (BAM) 為獨立於 IT 環境之外，以及跨異質 IT 實作的商務程序提供可見性。 這使得 BAM 明顯有別從 operational 監視這類的訊息和監視執行個體。 BAM 的主要意義在於能夠檢視幾近即時的商務資料，也就是所謂的沒有延遲。  

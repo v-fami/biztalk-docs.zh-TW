@@ -1,14 +1,14 @@
 ---
-title: "規劃高 Availability2 |Microsoft 文件"
-ms.custom: 
+title: 規劃高 Availability2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 65271fd5-5294-406f-87f8-3aa394c235a2
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008327"
 ---
 # <a name="planning-for-high-availability"></a>高可用性的規劃
 BizTalk Server 的高可用性著重於復原可能中斷 BizTalk Server 部署中的可用性的功能性元件。  
@@ -46,8 +47,8 @@ BizTalk Server 的高可用性著重於復原可能中斷 BizTalk Server 部署�
 |元件或相依性|失敗的範圍|  
 |-----------------------------|----------------------|  
 |SQL Server|全系統。 如果 SQL Server 無法再 BizTalk Server 將無法處理文件。|  
-|主要密碼伺服器|全系統。 如果主要密碼伺服器失敗然後 BizTalk Server 將無法處理文件。 <br/>**注意：**如果主要密碼伺服器失敗，BizTalk 群組中的每個 BizTalk server 將會繼續使用快取的記憶體中複本的主要密碼，直到重新啟動 BizTalk server 上的企業 SSO 服務。 企業 SSO 服務重新啟動 BizTalk 伺服器上，然後從記憶體釋放主要密碼的快取的副本和 BizTalk server 必須能夠連絡主要密碼伺服器取得主要密碼的另一個複本。 並不需要重新啟動 BizTalk 伺服器上的企業單一登入服務群組中如果主要密碼伺服器失敗，而且您想要繼續處理文件的 BizTalk 伺服器。|  
-|MSDTC|伺服器。 如果 MSDTC 失敗需要交易支援，伺服器上的任何元件將會失敗。 <br/>**注意：**如果 SQL server 或主要密碼伺服器上的 MSDTC 失敗 SQL Server 和主要密碼伺服器有相依於 MSDTC 交易支援，因為失敗的範圍將會變成全系統。 在執行階段作業期間與 SQL Server 和主要密碼伺服器進行通訊時，BizTalk Server 需要交易支援。|  
+|主要密碼伺服器|全系統。 如果主要密碼伺服器失敗然後 BizTalk Server 將無法處理文件。 <br/>**注意：** 如果主要密碼伺服器失敗，BizTalk 群組中的每個 BizTalk server 將會繼續使用快取的記憶體中複本的主要密碼，直到重新啟動 BizTalk server 上的企業 SSO 服務。 企業 SSO 服務重新啟動 BizTalk 伺服器上，然後從記憶體釋放主要密碼的快取的副本和 BizTalk server 必須能夠連絡主要密碼伺服器取得主要密碼的另一個複本。 並不需要重新啟動 BizTalk 伺服器上的企業單一登入服務群組中如果主要密碼伺服器失敗，而且您想要繼續處理文件的 BizTalk 伺服器。|  
+|MSDTC|伺服器。 如果 MSDTC 失敗需要交易支援，伺服器上的任何元件將會失敗。 <br/>**注意：** 如果 SQL server 或主要密碼伺服器上的 MSDTC 失敗 SQL Server 和主要密碼伺服器有相依於 MSDTC 交易支援，因為失敗的範圍將會變成全系統。 在執行階段作業期間與 SQL Server 和主要密碼伺服器進行通訊時，BizTalk Server 需要交易支援。|  
 |BizTalk 主控件執行個體|伺服器。 在 BizTalk 主控件執行個體中的任何元件將無法參與文件處理，如果主控件執行個體失敗。|  
 |Microsoft Message Queuing (MSMQ)|伺服器。 如果 MSMQ 失敗然後相依於 MSMQ 服務，例如 MSMQ 配接器，任何文件處理就會停止在伺服器上。|  
 |檔案系統|伺服器。 如果檔案系統接著任何文件處理失敗，取決於檔案系統中，例如 File 配接器，就會停止在伺服器上。|  

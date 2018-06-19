@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26010591"
 ---
 # <a name="planning-for-sending-and-receiving"></a>規劃傳送和接收
 幾乎所有由處理的文件[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]收到[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]接收配接器，與寄件者[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]使用[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]傳送配接器。 因為[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]配接器，以突顯的方式圖中任何[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境中，請務必預先規劃，以判斷哪些配接器或加速器您將使用及如何正確地設定這些介面卡和/或加速器。  
@@ -32,7 +33,7 @@ ms.lasthandoff: 03/28/2018
     > [!NOTE]  
     >  如果您遇到與 msdtc 進行通訊的問題，請檢閱主題[疑難排解 MSDTC 問題的](http://go.microsoft.com/fwlink/?LinkID=154693)(http://go.microsoft.com/fwlink/?LinkID=154693)。  
   
--   **雙向通訊支援 （要求/回應或請求/回應）**能夠傳送文件，並處理來自目的地的回應訊息或接收文件和傳送回應訊息的來源。  
+-   **雙向通訊支援 （要求/回應或請求/回應）** 能夠傳送文件，並處理來自目的地的回應訊息或接收文件和傳送回應訊息的來源。  
   
 -   **依序接收支援。** 能夠接收文件發佈至 MessageBox 資料庫已接收的文件的正確順序。  
   
@@ -145,7 +146,7 @@ ms.lasthandoff: 03/28/2018
   
  **MQSeries 配接器效能的考量**  
   
- **停用交易支援和排序的傳遞，如果沒有所需的 MQSeries 配接器接收位置**當 MQSeries 配接器接收位置會設定與**交易支援**選項設為**[是]**，或**Ordered**選項設定為**含有停止的順序**，則將會由接收位置挑選每個訊息處理的 Microsoft Distributed 內容中交易協調器 (MSDTC) 交易。 因為沒有其他配接器負擔時所產生處理 MSDTC 交易的內容中的訊息，這些選項不應啟用如果排序的傳遞，或交易支援就不需要為 MQSeries 接收位置。  
+ **停用交易支援和排序的傳遞，如果沒有所需的 MQSeries 配接器接收位置**當 MQSeries 配接器接收位置會設定與**交易支援**選項設為 **[是]**，或**Ordered**選項設定為**含有停止的順序**，則將會由接收位置挑選每個訊息處理的 Microsoft Distributed 內容中交易協調器 (MSDTC) 交易。 因為沒有其他配接器負擔時所產生處理 MSDTC 交易的內容中的訊息，這些選項不應啟用如果排序的傳遞，或交易支援就不需要為 MQSeries 接收位置。  
   
 ## <a name="planning-for-ordered-message-delivery"></a>規劃訊息的排序的傳遞  
  訊息的排序的傳遞可確保會發佈到 MessageBox 資料庫，依指定順序的訊息會傳遞至每個相符的訂閱者以相同的順序。 實作依序的傳遞訊息時，就會適用下列考量：  

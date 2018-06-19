@@ -1,14 +1,14 @@
 ---
-title: "收集例外狀況並將訊息路由修復和重新提交 |Microsoft 文件"
-ms.custom: 
+title: 收集例外狀況並將訊息路由修復和重新提交 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5a61658a-0bac-4802-b506-02e61a3d2a9b
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006759"
 ---
 # <a name="collecting-exceptions-and-routing-messages-for-repair-and-resubmit"></a>收集例外狀況並將訊息路由修復和重新提交
 在此使用情況下，自訂例外狀況處理常式收到透過 Web 服務所收到的錯誤訊息，且將其路由傳送到磁碟檔案中隨附的 InfoPath 範本相容的格式[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]。 使用者可以使用 Microsoft InfoPath 開啟檔案、 編輯訊息內容，並重新提交訊息以進行處理，如圖 1 所示。  

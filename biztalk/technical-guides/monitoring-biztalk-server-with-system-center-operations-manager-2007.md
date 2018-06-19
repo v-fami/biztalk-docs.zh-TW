@@ -1,14 +1,14 @@
 ---
-title: "監控 BizTalk Server 與 System Center Operations Manager 2007 |Microsoft 文件"
-ms.custom: 
+title: 監控 BizTalk Server 與 System Center Operations Manager 2007 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4cee8275-bbd0-435f-ac54-07f582190538
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009639"
 ---
 # <a name="monitoring-biztalk-server-with-system-center-operations-manager-2007"></a>監控 BizTalk Server 與 System Center Operations Manager 2007
 監視您的 BizTalk 應用程式和基礎結構與 Microsoft System Center Operations Manager (Operations Manager) 是慣用的監視方法。 Operations Manager 的 Microsoft BizTalk Server 管理組件提供主動式與反應式監視執行的電腦[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。 這些管理組件提供數十個內建的自訂規則以允許完整且自動化的監視[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。  

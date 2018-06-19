@@ -1,11 +1,11 @@
 ---
-title: "訊息指派中使用 Xpath |Microsoft 文件"
-ms.custom: 
+title: 訊息指派中使用 Xpath |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - XPaths, XPath function
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - XPaths, code samples
 - XPaths, nodes
 ms.assetid: f2e12409-bb77-4315-b03b-5c7736ae51d5
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288110"
 ---
 # <a name="using-xpaths-in-message-assignments"></a>訊息指派中使用 Xpath
 您可以使用**xpath**函式將 XPath 值指派至訊息部分，或將值指派給參考訊息部分的 XPath。 如需有關將指派給訊息和訊息部分的詳細資訊，請參閱[建構訊息](../core/constructing-messages.md)。  

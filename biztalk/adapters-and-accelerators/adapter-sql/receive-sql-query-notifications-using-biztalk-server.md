@@ -1,14 +1,14 @@
 ---
-title: "接收 SQL 查詢通知使用 BizTalk Server |Microsoft 文件"
-ms.custom: 
+title: 接收 SQL 查詢通知使用 BizTalk Server |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 69444df7-f2ae-4d1a-9b49-817b437517d8
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223814"
 ---
 # <a name="receive-sql-query-notifications-using-biztalk-server"></a>接收使用 BizTalk Server 的 SQL 查詢通知
 您可以設定[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]來接收通知訊息的 SQL Server 資料表或檢視表。 您可以指定配接器用來註冊通知的 SQL Server 的 SQL 陳述式。 在 notification 陳述式可以是 SELECT 陳述式或預存程序會傳回結果集。 查詢通知的詳細資訊，請參閱 「 使用查詢通知 」，網址[http://go.microsoft.com/fwlink/?LinkId=122159](http://go.microsoft.com/fwlink/?LinkId=122159)。 可用於查詢通知的查詢的相關資訊，請參閱 「 建立查詢的通知 」，在[http://go.microsoft.com/fwlink/?LinkId=122160](http://go.microsoft.com/fwlink/?LinkId=122160)。  

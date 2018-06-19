@@ -1,14 +1,14 @@
 ---
-title: "如何選取多個運算質 |Microsoft 文件"
-ms.custom: 
+title: 如何選取多個運算質 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 51f4528c-4846-4e02-9591-07e2fde131ae
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255070"
 ---
 # <a name="how-to-select-multiple-functoids"></a>如何選取多個運算質
 在處理大量對應時，您可能想要同時在多個運算質上執行作業。 在這種情況下，您可以選取所有的運算質，然後再執行作業。 例如，當您將一組連接的運算質及其連接的連結從一個格線頁移到另一頁時，這種方法就很實用。  

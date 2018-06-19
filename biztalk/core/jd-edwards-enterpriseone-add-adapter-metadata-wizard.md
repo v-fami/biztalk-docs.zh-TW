@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22261870"
 ---
 # <a name="jd-edwards-enterpriseone-add-adapter-metadata-wizard"></a>JD Edwards EnterpriseOne 新增配接器中繼資料精靈
 使用 [新增配接器精靈] 從 JD Edwards EnterpriseOne 系統存取中繼資料資訊。  

@@ -1,14 +1,14 @@
 ---
-title: "IIS 模擬的安全性考量 |Microsoft 文件"
-ms.custom: 
+title: IIS 模擬的安全性考量 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1d10f460-29cf-49dc-9eef-b72bde4580cd
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269182"
 ---
 # <a name="security-considerations-for-iis-impersonation"></a>IIS 模擬的安全性考量
 若要使用 BAM[!INCLUDE[firstref_btsWinWorkflowFoundation](../includes/firstref-btswinworkflowfoundation-md.md)]攔截器，透過 IIS 模擬，請依照下列中的指導方針[如何判斷和設定事件寫入者角色活動](../core/how-to-determine-and-set-event-writer-roles-for-activities.md)。  

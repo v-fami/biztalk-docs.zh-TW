@@ -1,15 +1,15 @@
 ---
-title: "BizTalk Adapter for PeopleSoft Enterprise 中的安全性 |Microsoft 文件"
-description: "使用企業單一登入 (SSO) 來保護使用 PeopleSoft Enterprise 配接器在 BizTalk 應用程式"
-ms.custom: 
+title: BizTalk Adapter for PeopleSoft Enterprise 中的安全性 |Microsoft 文件
+description: 使用企業單一登入 (SSO) 來保護使用 PeopleSoft Enterprise 配接器在 BizTalk 應用程式
+ms.custom: ''
 ms.date: 10/19/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2cfdf0db-6f83-4322-a57a-e373c7245700
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013053"
 ---
 # <a name="security-in-biztalk-adapter-for-peoplesoft-enterprise"></a>BizTalk Adapter for PeopleSoft Enterprise 中的安全性
 

@@ -1,18 +1,18 @@
 ---
-title: "什麼是配接器處理常式？ | Microsoft Docs"
-ms.custom: 
+title: 什麼是配接器處理常式？ | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - handlers [adapters]
 - adapters, handlers
 - handlers [adapters], about handlers
 ms.assetid: 4d1afa39-6320-467f-a7e8-f5f18236648e
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289302"
 ---
 # <a name="what-is-an-adapter-handler"></a>什麼是配接器處理常式？
 配接器處理常式是 BizTalk 主控件的執行個體，配接器程式碼會在其中執行。 當您指定配接器的傳送或接收處理常式時，就是指定配接器程式碼將在哪個主控件執行個體的內容中執行。 配接器處理常式負責執行配接器，並且含有配接器的特定執行個體之屬性。 預設的 BizTalk Server 組態將為所有已安裝的配接器建立配接器處理常式，但您可能想為負載平衡考量而建立其他配接器處理常式，或為特定配接器處理常式提供程序隔離。  

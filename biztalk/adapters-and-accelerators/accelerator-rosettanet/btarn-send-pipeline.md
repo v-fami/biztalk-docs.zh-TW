@@ -1,11 +1,11 @@
 ---
-title: "BTARN 傳送管線 |Microsoft 文件"
-ms.custom: 
+title: BTARN 傳送管線 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - XML Assembler
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - XML Preprocessor
 - messages, message flow
 ms.assetid: 88562132-0ea4-4b5a-9445-b69f6c84e5ea
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007519"
 ---
 # <a name="btarn-send-pipeline"></a>BTARN 傳送管線
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] RNIFSend 管線 (RNIFSend.btp) 中的傳輸會準備 RosettaNet 實作架構 (RNIF) 訊息。 傳送管線包含下列元件：  

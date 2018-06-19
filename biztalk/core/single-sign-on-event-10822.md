@@ -1,14 +1,14 @@
 ---
-title: "單一登入： 事件 10822 |Microsoft 文件"
-ms.custom: 
+title: 單一登入： 事件 10822 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8a46a9c1-2b1d-4ba4-910f-5492f3a93f6d
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22276894"
 ---
 # <a name="single-sign-on-event-10822"></a>單一登入： 事件 10822
 ## <a name="details"></a>詳細資料  

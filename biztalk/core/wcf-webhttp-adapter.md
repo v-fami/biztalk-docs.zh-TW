@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 67a353e7-1ba3-427a-8e99-c9b8d83061cb
-caps.latest.revision: ''
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25976068"
 ---
 # <a name="wcf-webhttp-adapter"></a>WCF-WebHttp 配接器
 [!INCLUDE[btsCoName](../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 使用**Wcf-webhttp**配接器將訊息傳送至 RESTful 服務。 **Wcf-webhttp** 傳送配接器傳送至服務的 HTTP 訊息的 BizTalk 訊息。 接收位置接收訊息從一種 RESTful 服務。 GET 和 DELETE 要求，配接器所使用的任何內容。 POST 和 PUT 要求，配接器會使用 HTTP 內容/裝載 BizTalk 訊息內文部分。  

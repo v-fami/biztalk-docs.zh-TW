@@ -1,14 +1,14 @@
 ---
-title: "規劃災害復原 |Microsoft 文件"
-ms.custom: 
+title: 規劃災害復原 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a33e8875-cfde-4a60-9dab-fc6bb3ac4f1c
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008977"
 ---
 # <a name="planning-for-disaster-recovery"></a>規劃損毀復原
 本主題提供災害復原需求的應用程式小組和 BizTalk Server 程序指引。 Microsoft BizTalk Server 會儲存在組態和處理資訊[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]。 BizTalk Server 高可用性和災害復原透過的高可用性和災害復原功能來達成[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]。  

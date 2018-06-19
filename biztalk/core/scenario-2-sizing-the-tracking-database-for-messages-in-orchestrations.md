@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269830"
 ---
 # <a name="scenario-2-sizing-the-tracking-database--for-messages-in-orchestrations"></a>實例 2：為協調流程中的訊息調整追蹤資料庫的大小
 讓我們看一個包括協調流程的範例。 下圖顯示整個商務程序。 在此實例中，一個訊息進入 BizTalk Server，透過協調流程傳送，在協調流程中變更，然後透過傳送埠傳送出去。  

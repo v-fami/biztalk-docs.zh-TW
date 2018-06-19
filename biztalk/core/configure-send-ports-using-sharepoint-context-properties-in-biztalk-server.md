@@ -27,6 +27,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "25970668"
 ---
 # <a name="how-to-configure-send-ports-using-windows-sharepoint-services-context-properties"></a>如何使用 Windows Sharepoint Services 內容屬性設定傳送埠
 本主題說明如何在執行階段從 BizTalk 協調流程使用 Windows Sharepoint Services 內容屬性設定 Windows SharePoint Services 傳送埠。 相同的機制可以用來設定 Windows SharePoint Services 動態和晚期繫結傳送埠。 動態傳送埠的組態屬性需於執行階段時在協調流程中設定。 配接器屬性中公開的 **Windows SharePoint Services 傳輸屬性** 對話方塊也可以套用至動態或晚期繫結的傳送埠。 若要使用 Windows Sharepoint Services 配接器內容屬性設定動態或晚期繫結傳送埠的組態屬性，請依照下列步驟執行：  

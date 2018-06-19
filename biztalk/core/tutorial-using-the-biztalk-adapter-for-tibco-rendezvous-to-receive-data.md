@@ -1,15 +1,15 @@
 ---
-title: "教學課程： 使用 TIBCO Rendezvous 配接器接收 |Microsoft 文件"
-description: "使用 BizTalk Adapter for TIBCO Rendezvous 在 BizTalk Server 中，以接收來自 TIBCO 系統資料的逐步指南"
-ms.custom: 
+title: 教學課程： 使用 TIBCO Rendezvous 配接器接收 |Microsoft 文件
+description: 使用 BizTalk Adapter for TIBCO Rendezvous 在 BizTalk Server 中，以接收來自 TIBCO 系統資料的逐步指南
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 58e7a739-701d-4085-a840-54f81c55e943
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015437"
 ---
 # <a name="tutorial-using-the-biztalk-adapter-for-tibco-rendezvous-to-receive-data"></a>教學課程： 使用 BizTalk Adapter for TIBCO Rendezvous 接收資料
 您可以使用 BizTalk Adapter for TIBCO Rendezvous 接收來自 TIBCO 系統的資料。 這個逐步解說將說明示範這一點的 SDK 範例。  
@@ -58,7 +59,7 @@ ms.lasthandoff: 11/07/2017
   
 1.  在**BizTalk Server 管理**，展開**BizTalk 群組**，展開**應用程式**，依序展開**BizTalk Application 1**，然後按一下**接收埠**。  
   
-2.  以滑鼠右鍵按一下接收埠] 資料夾，然後按一下 [**新增**，**單向接收埠...**顯示**接收埠屬性**對話方塊。  
+2.  以滑鼠右鍵按一下接收埠] 資料夾，然後按一下 [**新增**，**單向接收埠...** 顯示**接收埠屬性**對話方塊。  
   
 3.  輸入一個值**名稱**欄位，例如**TIBCORvOneWayRP**，然後按一下**確定**。  
   

@@ -1,11 +1,11 @@
 ---
-title: "逐步解說： 建立 BizTalk 應用程式使用 POP3 配接器 |Microsoft 文件"
-ms.custom: 
+title: 逐步解說： 建立 BizTalk 應用程式使用 POP3 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - tutorials, POP3 adapters
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - POP3 adapters, tutorials
 - configuring [POP3 adapters], Outlook Express
 ms.assetid: b44c3b1d-7b4f-425c-831a-1ce5f6379595
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975940"
 ---
 # <a name="walkthrough-creating-a-biztalk-application-that-uses-the-pop3-adapter"></a>逐步解說： 建立使用 POP3 配接器的 BizTalk 應用程式
 本節將帶領您使用 POP3 配接器來建立簡單的 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 應用程式。  
@@ -103,7 +104,7 @@ ms.lasthandoff: 11/28/2017
   
 6.  旁邊**目的地資料夾**方塊中，按一下**瀏覽**，選取您在建立的資料夾[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，然後按一下  **[確定]**。  
   
-7.  在**檔案名稱**方塊中，輸入**%MessageID%.txt**，然後按一下 **確定**。  
+7.  在**檔案名稱**方塊中，輸入 **%MessageID%.txt**，然後按一下 **確定**。  
   
 8.  在**傳送管線**方塊中，選取**Microsoft.BizTalk.DefaultPipelines.PassThruTransmit**。  
   
@@ -135,7 +136,7 @@ ms.lasthandoff: 11/28/2017
   
 5.  在**網際網路電子郵件地址**對話方塊中，於**電子郵件地址**方塊中，輸入**EmailTest @< 網域名稱 >**，然後按一下 **下一步**.  
   
-     請務必輸入適當的值給*< 網域名稱 >*。 這個值應該符合在 Windows 伺服器上的 POP3 服務管理介面中建立此信箱時所依據的網域名稱。  
+     請務必輸入適當的值給 *< 網域名稱 >*。 這個值應該符合在 Windows 伺服器上的 POP3 服務管理介面中建立此信箱時所依據的網域名稱。  
   
 6.  在**電子郵件伺服器名稱**對話方塊中，於**內送郵件**和**外寄郵件**] 方塊中，輸入伺服器名稱或 Windows server 的 IP 位址，然後按一下 [ **下一步**。  
   
@@ -149,7 +150,7 @@ ms.lasthandoff: 11/28/2017
   
 11. 在**網際網路帳戶**對話方塊中，按一下 **關閉**。  
   
-12. 使用 Outlook Express 來編輯測試訊息，型別**測試**到**主旨** 欄位中，然後輸入**EmailTest @< 網域名稱 >**到**至**欄位。  
+12. 使用 Outlook Express 來編輯測試訊息，型別**測試**到**主旨** 欄位中，然後輸入**EmailTest @< 網域名稱 >** 到**至**欄位。  
   
 13. 按一下**傳送**傳送測試訊息。 若要確定可 Outlook Express 會測試訊息傳送立即，**傳送/接收**Outlook Express 工具列中的按鈕。  
   

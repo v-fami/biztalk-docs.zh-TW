@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269966"
 ---
 # <a name="sendportref-mapping-node"></a>SendPortRef (對應節點)
 繫結檔案的 [對應] 節點的 SendPortRef 節點會列出父對應節點所參考的傳送埠的名稱。  

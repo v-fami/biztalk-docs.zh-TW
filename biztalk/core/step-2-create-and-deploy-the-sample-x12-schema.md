@@ -1,14 +1,14 @@
 ---
-title: "步驟 2： 建立和部署範例 X12 結構描述 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 建立和部署範例 X12 結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d5862168-6621-40ab-8c97-3f317530d34e
-caps.latest.revision: "31"
+caps.latest.revision: 31
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974468"
 ---
 # <a name="step-2-create-and-deploy-the-sample-x12-schema"></a>步驟 2： 建立和部署範例 X12 結構描述
 ![步驟 2 的 11](../core/media/tut-step2-of-11.gif "Tut_Step2_of_11")  

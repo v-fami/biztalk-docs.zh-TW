@@ -1,11 +1,11 @@
 ---
-title: "如何使用多部分訊息類型 |Microsoft 文件"
-ms.custom: 
+title: 如何使用多部分訊息類型 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - multi-part message types, parts
@@ -21,7 +21,7 @@ helpviewer_keywords:
 - creating, multi-part messages
 - messages, about messages
 ms.assetid: 009a39bd-cfc4-42d9-918c-88ac24bfc370
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -30,6 +30,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972076"
 ---
 # <a name="how-to-use-multi-part-message-types"></a>如何使用多部分訊息類型
 每個訊息都有多部分訊息類型，即是由零或多個訊息部分所組成的訊息的結構描述。 這些部分是由 XML 結構描述定義 (XSD) 語言結構描述或 .NET 類別所定義。 您可以定義自己的多部分訊息類型，也可以使用現有的 .NET 類別和結構描述。  
@@ -79,7 +80,7 @@ ms.lasthandoff: 11/28/2017
   
     |屬性|Description|  
     |--------------|-----------------|  
-    |**型別修飾詞**|決定多部分訊息類型的範圍：<br /><br /> -   **私用 —**存取此多部分訊息類型僅限於包含的模組。<br />-   **公用 —**存取此多部分訊息類型不受任何限制。<br />-   **內部 —**存取此多部分訊息類型限於相同專案中的模組。|  
+    |**型別修飾詞**|決定多部分訊息類型的範圍：<br /><br /> -   **私用 —** 存取此多部分訊息類型僅限於包含的模組。<br />-   **公用 —** 存取此多部分訊息類型不受任何限制。<br />-   **內部 —** 存取此多部分訊息類型限於相同專案中的模組。|  
   
 ## <a name="add-parts-to-an-existing-multi-part-message"></a>將組件加入至現有的多部分訊息  
   
@@ -89,10 +90,10 @@ ms.lasthandoff: 11/28/2017
   
 -   建立的變數 (例如*xlangPart*) 型別的**Microsoft.XLANGs.BaseTypes.XLANGMessage**。  
   
--   呼叫*xlangPart***。AddPart(...)**使用適當的引數，從 「 運算式 」 圖形。  
+-   呼叫*xlangPart***。AddPart(...)** 使用適當的引數，從 「 運算式 」 圖形。  
   
     > [!NOTE]
-    >  新增的部分為型別的**XmlDocument**因此您無法加入自訂格式化的訊息部分使用**addpart （)**方法。  
+    >  新增的部分為型別的**XmlDocument**因此您無法加入自訂格式化的訊息部分使用**addpart （)** 方法。  
   
 > [!NOTE]
 >  如果收到包含大於宣告的部分數目的多部分訊息時，有多少部分是在訊息中的協調流程引擎讀取然後建構適當的部分類型符合的組件中宣告的訊息數目的組件類型，然後建構**XmlDocument**組件的其餘部分。  

@@ -1,14 +1,14 @@
 ---
-title: "設計工具擴充性範例的運作方式 |Microsoft 文件"
-ms.custom: 
+title: 設計工具擴充性範例的運作方式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8f4dc622-28b8-498d-961f-df969cff9dcb
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975869"
 ---
 # <a name="how-the-designer-extensibility-sample-works"></a>設計工具擴充性範例的運作方式
 每個專案，在設計工具擴充性範例包含兩個類別： **Extender**類別和**擴充提供者**類別。 這些類別設計用來擴充功能，以及定義屬性的**ItineraryDsl**模型項目。  

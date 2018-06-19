@@ -1,11 +1,11 @@
 ---
-title: "逐步解說： 模組 2-整合 Office 與 Windows SharePoint Services 配接器 |Microsoft 文件"
-ms.custom: 
+title: 逐步解說： 模組 2-整合 Office 與 Windows SharePoint Services 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Windows SharePoint Services adapters, InfoPath forms
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Windows SharePoint Services adapter tutorials, integrating Microsoft Office
 - Windows SharePoint Services, document libraries
 ms.assetid: 2f81a712-bb20-4c32-bbac-fb438deded38
-caps.latest.revision: "48"
+caps.latest.revision: 48
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22291454"
 ---
 # <a name="walkthrough-module-2---integrating-office-with-the-windows-sharepoint-services-adapter"></a>逐步解說： 模組 2-整合 Office 與 Windows SharePoint Services 配接器
 這個逐步解說是工作的接續[逐步解說： 模組 1-傳送和接收訊息，Windows SharePoint Services 配接器](../core/walkthrough-module-1--send-and-receive-messages-with-the-sharepoint-adapter.md)，並示範如何整合 Microsoft Office 與[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]以內容為基礎您所建立的路由 (CBR) 應用程式。 如需 Windows SharePoint Services 配接器的簡介，請參閱[什麼是 Windows SharePoint Services 配接器？](../core/what-is-the-windows-sharepoint-services-adapter.md)。  

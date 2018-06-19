@@ -1,11 +1,11 @@
 ---
-title: "How to Install 虛設常式版本的服務導向解決方案 |Microsoft 文件"
-ms.custom: 
+title: How to Install 虛設常式版本的服務導向解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - IIS, installing virtual directories [service solutions]
@@ -24,7 +24,7 @@ helpviewer_keywords:
 - service solution tutorial, building solutions
 - service solution tutorial, installing
 ms.assetid: 45de7681-4df0-47a4-a02c-509140423a1e
-caps.latest.revision: "53"
+caps.latest.revision: 53
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -33,6 +33,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010407"
 ---
 # <a name="how-to-install-the-stub-version-of-the-service-oriented-solution"></a>如何安裝服務導向解決方案的虛設常式版本
 下列步驟描述在安裝服務導向解決方案的虛設常式版本之前，應如何準備電腦，以及如何在電腦上安裝解決方案。  
@@ -205,7 +206,7 @@ ms.lasthandoff: 12/01/2017
 1.  啟動**Visual Studio 命令提示字元**。  
   
     > [!NOTE]
-    >  在檔案**%BTSInstallPath%\Scenarios\SO\BTSSoln\OrchProxy\Inline\app_code\customerserviceport.asmx.cs**和**%BTSInstallPath%\Scenarios\SO\BTSSoln\OrchProxy\Stub\app_code\customerserviceport.asmx.cs**，17f20caea2afcc8c 的所有執行個體取代為 a1054514fc67bded。  
+    >  在檔案 **%BTSInstallPath%\Scenarios\SO\BTSSoln\OrchProxy\Inline\app_code\customerserviceport.asmx.cs**和 **%BTSInstallPath%\Scenarios\SO\BTSSoln\OrchProxy\Stub\app_code\customerserviceport.asmx.cs**，17f20caea2afcc8c 的所有執行個體取代為 a1054514fc67bded。  
   
 2.  在 Visual Studio 命令提示字元中，將目錄變更為 %BTSSolutionsPath%\SO\BTSSoln 資料夾，然後執行下列命令，以建置服務導向方案的虛設常式版本。  
   

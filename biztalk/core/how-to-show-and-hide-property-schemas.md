@@ -1,11 +1,11 @@
 ---
-title: "如何顯示和隱藏屬性結構描述 |Microsoft 文件"
-ms.custom: 
+title: 如何顯示和隱藏屬性結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [schemas], showing
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - managing [schemas], hiding
 - managing [schemas], properties
 ms.assetid: e7cc1838-cc3f-4dd3-a7d1-e66e7ee82d0c
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255470"
 ---
 # <a name="how-to-show-and-hide-property-schemas"></a>如何顯示和隱藏屬性結構描述
 本主題描述如何使用 BizTalk Server 管理主控台來顯示及隱藏應用程式結構描述中的屬性結構描述。 屬性結構描述是 BizTalk 結構描述的簡單版本，在執行個體訊息與訊息內容之間來回複製升級屬性的過程中會使用到。 您可能會想要隱藏屬性結構描述以簡化結構描述檢視，使您只能看到文件結構描述。  

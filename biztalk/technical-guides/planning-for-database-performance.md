@@ -1,14 +1,14 @@
 ---
-title: "規劃資料庫效能 |Microsoft 文件"
-ms.custom: 
+title: 規劃資料庫效能 |Microsoft 文件
+ms.custom: ''
 ms.date: 11/29/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7212fa37-88e0-4b5f-af97-c72063357645
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009503"
 ---
 # <a name="planning-for-database-performance"></a>規劃資料庫效能
 

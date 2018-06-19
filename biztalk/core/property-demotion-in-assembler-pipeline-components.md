@@ -1,11 +1,11 @@
 ---
-title: "組合器管線元件中的屬性降級 |Microsoft 文件"
-ms.custom: 
+title: 組合器管線元件中的屬性降級 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - XML Assembler [pipeline component], properties
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - XML Assembler [pipeline component], about XML Assembler
 - Flat File Assembler [pipeline component], properties
 ms.assetid: c5275638-d594-4b0d-a818-b7a9460b41a6
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268830"
 ---
 # <a name="property-demotion-in-assembler-pipeline-components"></a>組合器管線元件中的屬性降級
 您可以使用屬性降級將訊息內容中的屬性值複製到訊息內容或其標頭或結尾。 您可以使用在文件或標頭和結尾結構描述中指定的 XPath 運算式來完成屬性降級。  

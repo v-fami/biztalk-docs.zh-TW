@@ -1,14 +1,14 @@
 ---
-title: "管理遠端活動的分散式的導覽 |Microsoft 文件"
-ms.custom: 
+title: 管理遠端活動的分散式的導覽 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7cf6e0c2-ea72-4621-9ca7-fa43e404ec46
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263070"
 ---
 # <a name="managing-distributed-navigation-of-remote-activities"></a>管理遠端活動的分散式導覽
 遠端活動的分散式導覽是商務使用者導覽及檢視存在於不同 BAM 資料庫中之活動的程序。 當您設定 BAM 基礎結構提供分散式導覽時，BAM 入口網站中的商務使用者就可存取遠端活動。 當使用者按一下活動時，該活動就會在遠端 BAM 入口網站上開啟。 此時使用者已被順利轉換到遠端 BAM 入口網站，可以瀏覽活動搜尋、彙總以及活動的警示管理，就好像活動是在使用者的本機資料存放區一樣。  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255886"
 ---
 # <a name="how-to-modify-rate-based-throttling-settings"></a>如何修改根據速率的節流設定
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中根據速率的節流，適用於包含協調流程或傳送配接器 (負責接收、傳遞或處理發佈至 MessageBox 的訊息) 的主控件執行個體。 您可以使用 [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)] 來修改整個 BizTalk 群組中某個主控件的根據速率的節流組態設定。 這些設定會套用至指派給指定主控件的所有主控件執行個體。 本主題提供修改這些設定的逐步程序。  

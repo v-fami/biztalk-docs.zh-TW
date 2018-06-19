@@ -1,14 +1,14 @@
 ---
-title: "從 XML 檔案匯入協議屬性 |Microsoft 文件"
-ms.custom: 
+title: 從 XML 檔案匯入協議屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c8bf5268-1742-47da-b42f-6472706a9bff
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006847"
 ---
 # <a name="importing-agreement-properties-from-an-xml-file"></a>從 XML 檔案匯入協議屬性
 本節提供如何從 XML 範本檔案匯入協議屬性的指示。  

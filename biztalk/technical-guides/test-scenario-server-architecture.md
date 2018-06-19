@@ -1,14 +1,14 @@
 ---
-title: "測試案例伺服器架構 |Microsoft 文件"
-ms.custom: 
+title: 測試案例伺服器架構 |Microsoft 文件
+ms.custom: ''
 ms.date: 2015-12-09
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1e3afb57-c3ff-4314-9605-cf9fe936e63f
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010847"
 ---
 # <a name="test-scenario-server-architecture"></a>測試案例伺服器架構
 本主題提供在負載測試期間的伺服器和執行負載測試的不同伺服器架構之間的訊息流程的概觀。  

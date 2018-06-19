@@ -1,14 +1,14 @@
 ---
-title: "定義資料庫的自動成長設定 |Microsoft 文件"
-ms.custom: 
+title: 定義資料庫的自動成長設定 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dd86dd49-6505-4673-b413-d3af729dfca9
-caps.latest.revision: 
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710785"
 ---
 # <a name="define-auto-growth-settings-for-databases"></a>定義資料庫的自動成長設定
 您應該將資料庫自動成長設 mb，而不是百分比，特別是針對 MessageBox 和 「 BizTalk 追蹤資料庫的固定數。 根據您的 BizTalk 應用程式和輸送量，MessageBox 與追蹤資料庫可以變得很大。 如果您將設定自動成長百分比，然後自動成長也很嚴重。  

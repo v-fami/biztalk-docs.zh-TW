@@ -1,14 +1,14 @@
 ---
-title: "如何復原或重做使用者作業 |Microsoft 文件"
-ms.custom: 
+title: 如何復原或重做使用者作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1cb3708e-a9c2-4795-aba0-9c6d9635e08c
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973396"
 ---
 # <a name="how-to-undo-or-redo-user-operations"></a>如何復原或重做使用者作業
 BizTalk 對應工具提供的另一項使用性輔助工具是支援復原/取消復原功能。 如果您不滿意所做的修改，或不慎做了錯誤的變更，您可以使用復原功能逐步回復至先前的原始狀態，然後再繼續修改。 取消復原功能可讓您重新套用已復原的編輯動作。 此主題說明可復原/取消復原之作業的相關資訊。  

@@ -12,7 +12,7 @@ helpviewer_keywords:
 - Master Secret server, restoring
 - restoring, Master Secret server
 ms.assetid: 68e133c5-4591-4d76-9a3b-c9564ff1aa60
-caps.latest.revision: ''
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,13 +21,14 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25970908"
 ---
 # <a name="how-to-restore-the-master-secret"></a>如何還原主要密碼
 您必須還原主要密碼，才能重新使用現有的資料，這是資料回復程序的一部分。 要執行此作業，您必須使用同時是 Windows 管理員和 SSO 系統管理員的帳戶，登入主要密碼伺服器。  
   
 ### <a name="to-restore-the-master-secret-using-the-mmc-snap-in"></a>若要使用 MMC 嵌入式管理單元還原主要密碼  
   
-1.  在 **[開始]** 功能表上，依序按一下 **[所有程式]**及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。  
+1.  在 **[開始]** 功能表上，依序按一下 **[所有程式]** 及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。  
   
 2.  在 ENTSSO MMC 嵌入式管理單元的範圍窗格中，展開 **[企業單一登入]** 節點。  
   
@@ -41,7 +42,7 @@ ms.lasthandoff: 03/28/2018
   
 3.  在命令列，移至「企業單一登入」安裝目錄。 預設安裝目錄是*\<磁碟機\>*: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-4.  型別**ssoconfig – restoreSecret\<還原檔案\>**，其中**\<還原檔案\>**是主要密碼所在的檔案名稱與路徑儲存。  
+4.  型別**ssoconfig – restoreSecret\<還原檔案\>**，其中**\<還原檔案\>** 是主要密碼所在的檔案名稱與路徑儲存。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  

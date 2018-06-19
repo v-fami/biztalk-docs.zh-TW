@@ -1,14 +1,14 @@
 ---
-title: "使用聯集機制的簡單型別衍生 |Microsoft 文件"
-ms.custom: 
+title: 使用聯集機制的簡單型別衍生 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e51ae390-78f5-4fb9-9163-2a8023aea1ec
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270374"
 ---
 # <a name="simple-type-derivation-using-the-union-mechanism"></a>使用聯集機制的簡單型別衍生
 當您使用聯集機制從現有簡單型別衍生新的簡單型別時，是根據您指定的型別清單指定此屬性或項目的值可為一個以上的型別。 例如，您可以指定屬性或項目值為 [日期]、[時間] 或 [日期/時間] 值。  

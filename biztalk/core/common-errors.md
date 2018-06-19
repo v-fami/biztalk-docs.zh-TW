@@ -1,14 +1,14 @@
 ---
-title: "常見的錯誤 |Microsoft 文件"
-ms.custom: 
+title: 常見的錯誤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4fe48a8e-def0-4a00-aa7f-9a49ae555351
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971532"
 ---
 # <a name="common-errors"></a>一般錯誤
 本主題列出使用 BizTalk 對應工具建立對應時可能會遇到的常見錯誤訊息。  
@@ -24,7 +25,7 @@ ms.lasthandoff: 11/28/2017
 ## <a name="you-receive-error-event-id-324-when-parsing-dates"></a>您在剖析日期時接收到錯誤事件識別碼 324。  
   
 ### <a name="problem"></a>問題  
- 當您使用資料庫**值擷取程式 」**運算質擷取日期欄位，您的文件引導模式中可能會針對輸出文件定義的驗證失敗。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]可能會記錄事件記錄檔中的驗證錯誤，如下所示：  
+ 當您使用資料庫**值擷取程式 」** 運算質擷取日期欄位，您的文件引導模式中可能會針對輸出文件定義的驗證失敗。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]可能會記錄事件記錄檔中的驗證錯誤，如下所示：  
   
  事件來源： BizTalk Server  
   
@@ -52,7 +53,7 @@ ms.lasthandoff: 11/28/2017
   
 -   編輯您的輸出文件定義以使用字串資料型別而非日期資料型別。  
   
--   建立自訂[!INCLUDE[btsCoName](../includes/btsconame-md.md)] [!INCLUDE[btsVBNoVersion](../includes/btsvbnoversion-md.md)]**指令碼**將資料庫的輸出轉換的運算質**值擷取程式 」**成 ISO 8601 格式的運算質。  
+-   建立自訂[!INCLUDE[btsCoName](../includes/btsconame-md.md)] [!INCLUDE[btsVBNoVersion](../includes/btsvbnoversion-md.md)]**指令碼**將資料庫的輸出轉換的運算質**值擷取程式 」** 成 ISO 8601 格式的運算質。  
   
  如需詳細資訊，請參閱知識庫文章[278737](http://support.microsoft.com/kb/278737/en-us)。  
   
@@ -108,7 +109,7 @@ ms.lasthandoff: 11/28/2017
   
 -   是否有多個成品具有相同的檔案名稱。 如例如**Map1.xsd**和**Map1.btm**。  
   
--   檔案名稱包含特殊字元只 (**~**， **！**，  **@**等。)。  
+-   檔案名稱包含特殊字元只 (**~**， **！**，  **@** 等。)。  
   
 ### <a name="resolution"></a>解決方案  
  若要解決此問題，您可以使用下列任一個因應措施：  

@@ -1,14 +1,14 @@
 ---
-title: "重新提交資訊和限制 |Microsoft 文件"
-ms.custom: 
+title: 重新提交資訊和限制 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 391064a9-1d61-4b10-97ab-d93b37d1ae23
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976604"
 ---
 # <a name="resubmission-notes-and-restrictions"></a>重新提交資訊和限制
 下列的注意事項和限制適用於重新提交程序：  
@@ -25,7 +26,7 @@ ms.lasthandoff: 11/28/2017
   
 -   WCF 上手的預設 URL 為 http://localhost/ESB.ItineraryServices.WCF/ProcessItinerary.svc。  
   
--   入口網站的 Web.config 檔案中定義端點詳細資料的 WCF 上手中**\<用戶端\>**節點 **\<System.ServiceModel\>** 一節。 以下是預設值。  
+-   入口網站的 Web.config 檔案中定義端點詳細資料的 WCF 上手中**\<用戶端\>** 節點 **\<System.ServiceModel\>** 一節。 以下是預設值。  
   
     ```  
     <endpoint  

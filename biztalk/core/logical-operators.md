@@ -1,14 +1,14 @@
 ---
-title: "邏輯運算子 |Microsoft 文件"
-ms.custom: 
+title: 邏輯運算子 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8aaceb64-a5a0-462a-a0eb-8352bed999e5
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262070"
 ---
 # <a name="logical-operators"></a>邏輯運算子
 「商務規則架構」可支援使用邏輯 AND、邏輯 OR 和邏輯 NOT 運算子來建立商務規則。 下表描述可用的邏輯運算子。  

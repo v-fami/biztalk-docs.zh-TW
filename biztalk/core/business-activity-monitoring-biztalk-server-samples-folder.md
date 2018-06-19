@@ -1,18 +1,18 @@
 ---
-title: "商務活動監控 （BizTalk Server 範例資料夾） |Microsoft 文件"
-ms.custom: 
+title: 商務活動監控 （BizTalk Server 範例資料夾） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, BAM
 - SDK examples
 - BAM, examples
 ms.assetid: 670931dd-ed00-477d-ade9-36c866f9234c
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006895"
 ---
 # <a name="business-activity-monitoring-biztalk-server-samples-folder"></a>商務活動監控 （BizTalk Server 範例資料夾）
 Microsoft BizTalk Server 的軟體開發套件 (SDK) 中包含數個商務活動監控 (BAM) 範例。 本節將提供每個 BAM 範例所展示功能的詳細資訊、用於建置和執行範例的指示，以及您可以預期的結果。  

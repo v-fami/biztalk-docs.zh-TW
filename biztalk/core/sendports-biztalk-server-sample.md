@@ -1,14 +1,14 @@
 ---
-title: "SendPorts （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: SendPorts （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b84f96a2-b749-4fe0-be15-e4dd13eff66f
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975364"
 ---
 # <a name="sendports-biztalk-server-sample"></a>SendPorts （BizTalk Server 範例）
 傳送埠 」 範例示範如何列舉和管理傳送埠使用**Microsoft.BizTalk.ExplorerOM**系統管理類別。  

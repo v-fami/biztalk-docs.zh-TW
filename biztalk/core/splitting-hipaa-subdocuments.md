@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 66d9badd-00c6-43a3-807e-0ad313983adc
-caps.latest.revision: ''
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22278326"
 ---
 # <a name="splitting-hipaa-subdocuments"></a>分割 HIPAA 子文件
 HIPAA 的 EDI 交換通常會在單一交易集中，使用由 ST/SE 標頭繫結的多重子 (child/sub) 文件。 EDI 接收管線，可支援從該等交易集建立不同的 HIPAA 子文件。 這種方式不同於「非 HIPAA EDI 交換」將單一交易集當作單一訊息來處理的方式。  

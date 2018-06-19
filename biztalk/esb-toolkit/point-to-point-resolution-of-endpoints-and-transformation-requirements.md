@@ -1,14 +1,14 @@
 ---
-title: "端點的轉換需求點對點解析 |Microsoft 文件"
-ms.custom: 
+title: 端點的轉換需求點對點解析 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c4c570bf-8274-4779-ae83-2aef2bf57ded
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294462"
 ---
 # <a name="point-to-point-resolution-of-endpoints-and-transformation-requirements"></a>點對點的端點和轉換需求的解決方式
 在此使用情況下，Web 服務用戶端會呼叫 Web 服務，而不需要透過 ESB。 直接通訊的兩個點，但用戶端會發出的呼叫之前，它必須解決的 Web 服務端點。 呼叫 Web 服務可以是單向或要求-回應。 達到這個目的的一個方法是使用 ESB 的動態解析功能，如圖 1 所示。  

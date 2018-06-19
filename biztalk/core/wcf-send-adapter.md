@@ -1,11 +1,11 @@
 ---
-title: "WCF 傳送配接器 |Microsoft 文件"
-ms.custom: 
+title: WCF 傳送配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, headers
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - Web services, headers
 - WCF adapters, send adapters
 ms.assetid: 226a020a-2e12-41fe-a4a2-6683d9e98219
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288758"
 ---
 # <a name="wcf-send-adapter"></a>WCF 傳送配接器
 WCF 傳送埠可以讓您透過無類型合約來呼叫 WCF 服務。  
@@ -56,7 +57,7 @@ WCF 傳送埠可以讓您透過無類型合約來呼叫 WCF 服務。
 -   如果 BizTalk 訊息包含任意 XML 資料，則會將 BizTalk 訊息置放於 SOAP Body 項目中。  
   
 ## <a name="handling-web-services-headers"></a>處理 Web 服務標頭  
- 傳送作業期間，BizTalk Server 無法控制 Web 服務的標準標頭。 這些標頭是由 WCF 所設定和處理的。 可以修改 BizTalk Server 應用程式的唯一標準標頭**： 動作**標頭。 如果內容屬性**動作**指定的配接器命名空間，則 WCF 傳送配接器會使用屬性的值來設定**動作**對 SOAP 訊息。  
+ 傳送作業期間，BizTalk Server 無法控制 Web 服務的標準標頭。 這些標頭是由 WCF 所設定和處理的。 可以修改 BizTalk Server 應用程式的唯一標準標頭 **： 動作**標頭。 如果內容屬性**動作**指定的配接器命名空間，則 WCF 傳送配接器會使用屬性的值來設定**動作**對 SOAP 訊息。  
   
 > [!NOTE]
 >  動態傳送埠，如果**動作**中指定**OutboundHeaders**，為您設定的內容屬性**WCF。動作**會被忽略。  

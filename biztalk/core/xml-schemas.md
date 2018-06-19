@@ -1,14 +1,14 @@
 ---
-title: "XML 結構描述 |Microsoft 文件"
-ms.custom: 
+title: XML 結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1ec364e7-866d-4164-be91-be75a40ce878
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008095"
 ---
 # <a name="xml-schemas"></a>XML 結構描述
 XML 結構描述會說明以 XML 呈現的商務文件。 因為 Microsoft BizTalk Server 會使用 XML 做為其標準表示商務文件，所以輸入和輸出文件不需要進行任何轉譯。 可以在 BizTalk 編輯器中只使用所有結構描述內均提供的基本屬性組來建立 XML 結構描述，而不需啟用任何的結構描述編輯器延伸模組。  

@@ -1,14 +1,14 @@
 ---
-title: "IBaseMessage 介面 |Microsoft 文件"
-ms.custom: 
+title: IBaseMessage 介面 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 10bfb95c-aef5-46ba-ba0e-9961833f27a3
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257086"
 ---
 # <a name="ibasemessage-interface"></a>IBaseMessage 介面
 當接收配接器接受連入的資料封包，透過其通訊協定時，它會使用**IBaseMessage**介面來建立要傳遞給傳訊引擎的訊息。 所有訊息都是使用此介面來代表。  
@@ -33,7 +34,7 @@ ms.lasthandoff: 09/20/2017
   
  在升級屬性符合現有訂閱，並用於路由傳送訊息之後，便會降級該屬性以避免發生循環的訂閱相符情況。 降級屬性將做為中繼資料保留在訊息內容裡，但會失去其升級狀態。  
   
- **實作秘訣：**訊息內容屬性會在執行階段時載入記憶體。 您不應將非常大量的資料寫入訊息內容，因為這樣可能會中斷 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 大型訊息支援。 物件可能會序列化至訊息內容提供這些物件實作**IPersistStream**介面。 此外，升級屬性還有 255 個字元的限制。  
+ **實作秘訣：** 訊息內容屬性會在執行階段時載入記憶體。 您不應將非常大量的資料寫入訊息內容，因為這樣可能會中斷 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 大型訊息支援。 物件可能會序列化至訊息內容提供這些物件實作**IPersistStream**介面。 此外，升級屬性還有 255 個字元的限制。  
   
  您應該永遠使用訊息 Factory 來建立新訊息。  下列程式碼片斷說明如何從接收自配接器的資料流中建立新的 BizTalk 訊息。  
   

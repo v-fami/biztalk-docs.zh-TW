@@ -1,11 +1,11 @@
 ---
-title: "元件介面中的標準方法 |Microsoft 文件"
-ms.custom: 
+title: 元件介面中的標準方法 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - component interfaces, standard methods
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - methods, component interfaces
 - methods, changing
 ms.assetid: 2273d946-3fc8-4b2d-a6a1-9e4f0da74d5b
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278046"
 ---
 # <a name="standard-methods-in-component-interfaces"></a>元件介面中的標準方法
 元件介面的標準方法如下所示：  

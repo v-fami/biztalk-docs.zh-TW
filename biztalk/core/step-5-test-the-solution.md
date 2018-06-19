@@ -1,14 +1,14 @@
 ---
-title: "步驟 5： 測試方案 |Microsoft 文件"
-ms.custom: 
+title: 步驟 5： 測試方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a5ca5301-2ee4-4024-a90a-396ed681d12a
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22276886"
 ---
 # <a name="step-5-test-the-solution"></a>步驟 5： 測試方案
 此解決方案旨在自動化程序傳送通知給[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，每當在 Salesforce 中關閉新商機的設定當做商機的階段**Closed Won**。 在收到通知之後[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]傳送查詢到 Salesforce 擷取與商機相關的產品詳細資料，然後將回應從 Salesforce 插入呼叫的 SQL Server 資料庫資料表**OrderDetails**. 因此，若要測試此解決方案，我們將更新的機會階段**Closed Won** ，如此一來，您必須取得相關的記錄插入 OrderDetails 資料表中 「 訂單 」 資料庫中。  

@@ -1,14 +1,14 @@
 ---
-title: "資料表和檢視表上使用 SQL 配接器的使用者定義類型的作業 |Microsoft 文件"
-ms.custom: 
+title: 資料表和檢視表上使用 SQL 配接器的使用者定義類型的作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c4006bbe-91ca-4cd9-844d-5ed63142001f
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006831"
 ---
 # <a name="operations-on-tables-and-views-with-user-defined-types-using-the-sql-adapter"></a>資料表和檢視表上使用 SQL 配接器的使用者定義類型的作業
 您可以使用[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]資料表或檢視具有使用者定義型別 (Udt) 的資料行上執行作業。 您可以使用標準的資料表作業 （插入、 更新、 刪除、，選取） 讀取或寫入資料到資料行，在 UDT 型別上。 您也可以在這類資料表上執行預存程序和函式。 不過，您需要執行特定工作，才能使用配接器具有 UDT 資料行的資料表上運作。 一旦您已經執行這些工作，您可以使用配接器：  

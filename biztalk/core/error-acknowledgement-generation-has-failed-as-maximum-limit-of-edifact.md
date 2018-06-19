@@ -1,14 +1,14 @@
 ---
-title: "通知產生失敗，因為已達到上限的 Edifact 交易集控制編號之全域設定 |Microsoft 文件"
-ms.custom: 
+title: 通知產生失敗，因為已達到上限的 Edifact 交易集控制編號之全域設定 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6adc02d7-ebc4-4da0-a19a-3a423d63499d
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006495"
 ---
 # <a name="acknowledgement-generation-has-failed-as-maximum-limit-of-edifact-transaction-set-control-number-has-been-reached-for-global-settings"></a>通知產生失敗，因為全域設定已達到可接受 Edifact 交易集控制編號的上限
 ## <a name="details"></a>詳細資料  

@@ -1,11 +1,11 @@
 ---
-title: "將要求對應至私用程序中回應 |Microsoft 文件"
-ms.custom: 
+title: 將要求對應至私用程序中回應 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, maps
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - requests, mapping
 - requests, private processes
 ms.assetid: 5452c0a2-3a9b-43e7-bfa7-713eef0eab3b
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008367"
 ---
 # <a name="mapping-a-request-to-a-response-in-a-private-process"></a>將要求對應至私用程序中回應時間
 本主題描述如何將私用回應者程序所接收的要求訊息對應 — 從[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]公用回應者程序，來回應訊息傳送給[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]公用回應者程序。  

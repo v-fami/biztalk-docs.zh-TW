@@ -1,11 +1,11 @@
 ---
-title: "使用 [原則總管] |Microsoft 文件"
-ms.custom: 
+title: 使用 [原則總管] |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Business Rule Composer, Policy Explorer
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - business rules, Policy Explorer
 - Policy Explorer [Business Rule Composer]
 ms.assetid: 249b1b72-ba84-4695-ba2b-16f081710b20
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288342"
 ---
 # <a name="using-policy-explorer"></a>使用 [原則總管]
 您可以使用 [原則總管] 管理規則存放區中的原則和規則。 您可以建立、修改和刪除原則及規則，也可以測試、發佈、部署和解除部署原則。  

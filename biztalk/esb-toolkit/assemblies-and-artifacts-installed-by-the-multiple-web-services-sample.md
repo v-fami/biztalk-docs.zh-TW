@@ -1,14 +1,14 @@
 ---
-title: "組件和成品安裝多個 Web 服務範例 |Microsoft 文件"
-ms.custom: 
+title: 組件和成品安裝多個 Web 服務範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d2976e7d-272a-4106-90b8-5161d71a22ce
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007671"
 ---
 # <a name="assemblies-and-artifacts-installed-by-the-multiple-web-services-sample"></a>組件和成品安裝多個 Web 服務範例
 下表列出安裝多個 Web 服務範例的其他成品和組件。  

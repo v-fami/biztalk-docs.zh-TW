@@ -1,14 +1,14 @@
 ---
-title: "端對端交易追蹤 |Microsoft 文件"
-ms.custom: 
+title: 端對端交易追蹤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ebacd2e4-6b5c-4dc4-8361-b5b77042debc
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294110"
 ---
 # <a name="end-to-end-transaction-tracking"></a>端對端交易追蹤
 商務可見性與相關的運算子和使用者的能力，來監視流量傳送到執行階段環境。 企業必須能夠追蹤程序和流經系統在每個步驟，以確保它們播放中造成營收產生其組件的交易。 AmberPoint SMS 簡化度量單位和 Microsoft BizTalk Server 中的這些訊息的追蹤。 系統會允許使用者定義的端對端商務程序流程，而不需要以符合開發人員選擇用來封裝和部署個別的服務元件的方式對齊新管理單位。 圖 1 顯示定義管理單位的螢幕。  

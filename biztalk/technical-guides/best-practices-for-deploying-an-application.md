@@ -1,14 +1,14 @@
 ---
-title: "部署應用程式的最佳作法 |Microsoft 文件"
-ms.custom: 
+title: 部署應用程式的最佳作法 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 53852303-d368-4f9e-b4e2-f5918f65000b
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010703"
 ---
 # <a name="best-practices-for-deploying-an-application"></a>部署應用程式的最佳作法
 本主題列出您在部署 BizTalk 應用程式應該遵循的最佳作法。  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286918"
 ---
 # <a name="using-host-initiated-sso-functionality"></a>使用主控件初始化的 SSO 功能
 主控件初始化的「單一登入」使用 Windows Server 2008 的通訊協定轉換功能，來執行非 Windows 使用者的「單一登入」。 這項功能需要 Windows Server 2008，而且必須在定義域中具有其**網域功能等級**設**Windows Server 2008**。  

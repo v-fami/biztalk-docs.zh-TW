@@ -1,14 +1,14 @@
 ---
-title: "逐步解說 (X12)： 傳送批次 EDI 交換 |Microsoft 文件"
-ms.custom: 
+title: 逐步解說 (X12)： 傳送批次 EDI 交換 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b80ea79b-6112-49bd-90e8-9a0a0e604df8
-caps.latest.revision: "54"
+caps.latest.revision: 54
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22292030"
 ---
 # <a name="walkthrough-x12-sending-batched-edi-interchanges"></a>逐步解說 (X12)：傳送批次 EDI 交換
 本逐步解說提供一組逐步程序，說明如何使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 建立可在合作對象之間傳送批次 EDI 交換的解決方案。  
@@ -239,14 +240,14 @@ ms.lasthandoff: 09/20/2017
   
         |使用|動作|  
         |--------------|----------------|  
-        |**預設值**|選取**預設**。 **注意：**當您選取這個資料列的預設值為**GS1**， **GS2**， **GS3**， **GS7**，和**GS8**可用即使值**交易類型**，**版本/版次**，和**目標命名空間**都不符合訊息。|  
+        |**預設值**|選取**預設**。 **注意：** 當您選取這個資料列的預設值為**GS1**， **GS2**， **GS3**， **GS7**，和**GS8**可用即使值**交易類型**，**版本/版次**，和**目標命名空間**都不符合訊息。|  
         |**交易類型**|選取的測試訊息，訊息類型**850-Purchase Order**。|  
         |**版本/版次**|輸入 EDI 版本， **00401**。|  
         |**目標命名空間**|選取**http://schemas.microsoft.com/BizTalk/Edi/X12/2006**。|  
         |**GS1**|確認已選取測試訊息的訊息類型， **PO-Purchase Order (850)**。|  
         |**GS2**|例如，輸入應用程式傳送者的值**Purchasing**。|  
-        |**GS3**|例如，應用程式接收者中，輸入的值**[ordercontrol]**。|  
-        |**GS4**|選取您想要的日期格式。 **注意：**您必須在下拉式清單中選取值，不只是按一下欄位以顯示預設值。 如果您按一下欄位而未從下拉式清單中選取值，實際上不會選取值。|  
+        |**GS3**|例如，應用程式接收者中，輸入的值 **[ordercontrol]**。|  
+        |**GS4**|選取您想要的日期格式。 **注意：** 您必須在下拉式清單中選取值，不只是按一下欄位以顯示預設值。 如果您按一下欄位而未從下拉式清單中選取值，實際上不會選取值。|  
         |**GS5**|選擇您要的時間格式。|  
         |**GS7**|選取**X-Accredited 的 Standards Committee X12**。|  
         |**GS8**|確認已輸入 EDI 版本， **00401**。|  
@@ -278,7 +279,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  在**傳輸**區段中，選取**檔案**如**類型**，然後按一下 **設定**。  
   
-5.  輸入的資料夾**目的地資料夾**，和**檔案名稱**，例如**%MessageID%.txt**。  
+5.  輸入的資料夾**目的地資料夾**，和**檔案名稱**，例如 **%MessageID%.txt**。  
   
 6.  按一下 **[確定]**。  
   

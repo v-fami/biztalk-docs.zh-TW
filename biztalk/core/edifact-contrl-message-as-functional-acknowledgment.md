@@ -1,14 +1,14 @@
 ---
-title: "EDIFACT CONTRL 訊息做為功能通知 |Microsoft 文件"
-ms.custom: 
+title: EDIFACT CONTRL 訊息做為功能通知 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7d3c2be0-0993-4b2d-b6c3-286020117078
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007943"
 ---
 # <a name="edifact-contrl-message-as-functional-acknowledgment"></a>EDIFACT CONTRL 訊息做為功能通知
 如果您選取要產生功能通知，在商務設定檔的設定或交易夥伴協議 （或後援協議，如果未定義協議是兩個商務設定檔之間），或如果設定為"1"，CONTRL 訊息中的 UNB9 欄位訊息將會產生做為功能通知 (ACK)。 這個通知會報告對交換進行語法檢查的結果。  
@@ -91,7 +92,7 @@ ms.lasthandoff: 12/01/2017
 |UCM7|資料元素識別碼|識別具有 UCM5 資料元素中指出之錯誤狀況的資料元素。 UCM7 的子元件包括：<br /><br /> -錯誤資料元素區段中的位置 （必要項）<br /><br /> -錯誤元件資料元素區段中的位置 （條件式選用性）<br /><br /> -錯誤資料元素區段 （必要項） 中的項目|  
 |UCS1|訊息內文中的區段位置|錯誤區段中，位置計數為 1 的 UNH 開始。 若要報告區段遺漏，這是為遺失區段應為其中的位置之前所處理的最後一個區段的數值計數位置。 遺失區段群組則表示為遺失群組中的第一個區段。<br /><br /> 這是必要的資料元素。|  
 |UCS2|語法錯誤代碼|識別群組中的錯誤狀況 (如果有的話)。 如需詳細資訊，請參閱[EDIFACT CONTRL 通知錯誤碼](../core/edifact-contrl-acknowledgment-error-codes.md)。<br /><br /> 這個資料元素具有條件式選用性。|  
-|UCD1|語法錯誤代碼|識別群組中的錯誤狀況 (如果有的話)。 如需詳細資訊，請參閱[EDIFACT CONTRL 通知錯誤碼](../core/edifact-contrl-acknowledgment-error-codes.md)。<br /><br /> 這個資料元素具有條件式選用性。<br /><br /> **注意：**如果 XSD 驗證失敗，就會發生，則 UCD1 資料元素就會報告 code 值為 12，無效的值。|  
+|UCD1|語法錯誤代碼|識別群組中的錯誤狀況 (如果有的話)。 如需詳細資訊，請參閱[EDIFACT CONTRL 通知錯誤碼](../core/edifact-contrl-acknowledgment-error-codes.md)。<br /><br /> 這個資料元素具有條件式選用性。<br /><br /> **注意：** 如果 XSD 驗證失敗，就會發生，則 UCD1 資料元素就會報告 code 值為 12，無效的值。|  
 |UCD2|資料元素識別碼|識別具有 UCD1 資料元素中指出之錯誤狀況的資料元素。 UCD2 的子元件包括：<br /><br /> -錯誤資料元素區段中的位置 （必要項）<br /><br /> -錯誤元件資料元素區段中的位置 （條件式選用性）<br /><br /> -錯誤資料元素區段 （必要項） 中的項目|  
 |UNT1|區段計數|-|  
 |UNT2|訊息參考編號|-|

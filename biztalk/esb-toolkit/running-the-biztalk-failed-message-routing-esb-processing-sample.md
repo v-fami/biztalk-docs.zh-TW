@@ -1,14 +1,14 @@
 ---
-title: "執行 BizTalk 失敗訊息路由 ESB 處理範例 |Microsoft 文件"
-ms.custom: 
+title: 執行 BizTalk 失敗訊息路由 ESB 處理範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d2a536a0-cfc8-4ba3-adcd-2b8b580bff85
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008799"
 ---
 # <a name="running-the-biztalk-failed-message-routing-esb-processing-sample"></a>執行 BizTalk 失敗訊息路由 ESB 處理範例
 Microsoft BizTalk 失敗訊息路由 ESB 處理的範例，示範如何使用[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]做為通用的機制來管理、 序列化，以及呈現在 BizTalk 中的所有情況下所發生的例外狀況的例外狀況管理架構伺服器。 這包括產生 BizTalk 失敗訊息路由機制和錯誤訊息從例外狀況管理架構，協調流程內所產生的例外狀況。  

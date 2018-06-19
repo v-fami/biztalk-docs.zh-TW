@@ -1,15 +1,15 @@
 ---
-title: "在 BizTalk Server 中的 BAM 端對端範例 |Microsoft 文件"
-description: "如何從使用 「 商務活動監控 BizTalk Server 中的多個元件的事件相互關聯案例"
-ms.custom: 
+title: 在 BizTalk Server 中的 BAM 端對端範例 |Microsoft 文件
+description: 如何從使用 「 商務活動監控 BizTalk Server 中的多個元件的事件相互關聯案例
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 81406038-7f3f-499f-a003-12423d92c44b
-caps.latest.revision: "35"
+caps.latest.revision: 35
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009879"
 ---
 # <a name="bam-end-to-end-biztalk-server-sample"></a>BAM 端對端 (BizTalk Server 範例)
 端對端範例會示範如何使用 BAM 來使多個元件 (在此例中是三個協調流程和一個管線) 中的事件相互產生關聯。  
@@ -44,7 +45,7 @@ ms.lasthandoff: 12/01/2017
 
 範例的運作方式如下：  
   
-1.  輸入的訊息會從*\<範例路徑\>*\BamEndToEnd\Input 資料夾。  
+1.  輸入的訊息會從*\<範例路徑\>* \BamEndToEnd\Input 資料夾。  
   
 2.  管線元件指派唯一的 DocumentID 給訊息，並使用 BAM API 來開始新的 BAM 活動。 DocumentID 會附加當做輸入訊息的個別部分，供協調流程使用。  
   
@@ -54,12 +55,12 @@ ms.lasthandoff: 12/01/2017
   
 5.  Orchestration2 修改輸入的訊息，並將它傳送至 MessageBox 資料庫中，會啟動 Orchestration3。  
   
-6.  Orchestration3 修改訊息，並將它寫入至資料夾*\<範例路徑\>*\BamEndToEnd\Output。  
+6.  Orchestration3 修改訊息，並將它寫入至資料夾*\<範例路徑\>* \BamEndToEnd\Output。  
   
 7.  每個協調流程更新中的 BAM 活動的活動項目。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- 您可以找到此範例位於*\<範例路徑\>*\BAM\BamEndToEnd。  
+ 您可以找到此範例位於*\<範例路徑\>* \BAM\BamEndToEnd。  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -101,11 +102,11 @@ Services\Schema3.xsd|訊息結構描述。|
   
 ##  <a name="To_Build_Sample"></a>建置和初始化此範例  
   
-1.  開啟命令提示字元，以系統管理員身分，並執行*\<範例路徑\>*\BAM\BAMEndToEnd\Setup.bat。 Setup.bat 隨即建置及初始化這個範例的 BAM 基礎結構。 保持開啟命令提示字元。  
+1.  開啟命令提示字元，以系統管理員身分，並執行*\<範例路徑\>* \BAM\BAMEndToEnd\Setup.bat。 Setup.bat 隨即建置及初始化這個範例的 BAM 基礎結構。 保持開啟命令提示字元。  
   
 2.  建立將 Orchestration1、 Orchestration2 和 Orchestration3 對應到 BAM 活動的追蹤設定檔。 (詳細的指示建立追蹤設定檔是複雜的程序，因為位於個別的程序呼叫**建立追蹤設定檔**。 此程序會顯示在本文件稍後）。  
   
-3.  部署您在上一個步驟中建立的 BamEndToEnd.btt 追蹤設定檔。  在命令提示字元將變更為*\<範例路徑\>*\BAM\BamEndToEnd 目錄。 若要部署追蹤設定檔，輸入下列命令，並按一下**Enter**:  
+3.  部署您在上一個步驟中建立的 BamEndToEnd.btt 追蹤設定檔。  在命令提示字元將變更為*\<範例路徑\>* \BAM\BamEndToEnd 目錄。 若要部署追蹤設定檔，輸入下列命令，並按一下**Enter**:  
   
     `“<BizTalkInstallationPath>\Tracking\bttdeploy” BamEndToEnd.btt`
   
@@ -116,7 +117,7 @@ Services\Schema3.xsd|訊息結構描述。|
   
 ##  <a name="To_Run_Sample"></a>執行這個範例  
   
-將檔案複製*\<範例路徑\>*到資料夾 \BamEndToEnd\InputMessage.xml *\<範例路徑\>*\BamEndToEnd\Input。 幾秒之後，訊息將會消失輸入資料夾中，並輸出訊息出現在*\<範例路徑\>*\BamEndToEnd\Output 資料夾。  
+將檔案複製*\<範例路徑\>* 到資料夾 \BamEndToEnd\InputMessage.xml *\<範例路徑\>* \BamEndToEnd\Input。 幾秒之後，訊息將會消失輸入資料夾中，並輸出訊息出現在*\<範例路徑\>* \BamEndToEnd\Output 資料夾。  
   
 ##  <a name="To_View_Data"></a>檢視 BAM 資料  
   
@@ -130,14 +131,14 @@ Services\Schema3.xsd|訊息結構描述。|
   
 #### <a name="rerun-this-sample"></a>重新執行此範例  
   
-1.  開啟命令提示字元，以系統管理員身分，並將變更*\<範例路徑\>*\BAM\BamEndToEnd 目錄。 輸入下列命令：  
+1.  開啟命令提示字元，以系統管理員身分，並將變更*\<範例路徑\>* \BAM\BamEndToEnd 目錄。 輸入下列命令：  
   
     `“C:\Program Files\Microsoft BizTalk Server <version>\Tracking\bttdeploy” BamEndToEnd.btt /remove`  
   
     > [!NOTE]
     >  如果您未安裝[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]到 C 磁碟機中，您的安裝所在的磁碟機代號取代"C" [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。  
   
-2.  執行*\<範例路徑\>*\BAM\BAMEndToEnd\Cleanup.bat。 Cleanup.bat 會移除此範例的 BAM 基礎結構。  
+2.  執行*\<範例路徑\>* \BAM\BAMEndToEnd\Cleanup.bat。 Cleanup.bat 會移除此範例的 BAM 基礎結構。  
   
 3.  執行中的步驟**建置和初始化此範例**本主題中的區段。  
   
@@ -155,19 +156,19 @@ Services\Schema3.xsd|訊息結構描述。|
   
 6.  在**協調流程的名稱**區段**選取協調流程**對話方塊中，選取**BamEndToEnd.Services.Orchestration1**，然後按一下  **確定**.  
   
-7.  在左窗格中**追蹤設定檔編輯器**視窗中，以滑鼠右鍵按一下**endtoendactivity**，然後按一下 **新 ContinuationID**。 命名新接續識別碼**Orch1_**。 重複此步驟，建立兩個的多個接續識別碼名為**Orch2_**和**Orch3_**。  
+7.  在左窗格中**追蹤設定檔編輯器**視窗中，以滑鼠右鍵按一下**endtoendactivity**，然後按一下 **新 ContinuationID**。 命名新接續識別碼**Orch1_**。 重複此步驟，建立兩個的多個接續識別碼名為**Orch2_** 和**Orch3_**。  
   
 8.  以滑鼠右鍵按一下**endtoendactivity**，然後按一下 **新的接續**。 命名新的接續**Orch2_**。 重複此步驟，建立名為另一個接續**Orch3_**。  
   
-9. 以滑鼠右鍵按一下**[receive1]**圖形，，然後按一下**內容屬性結構描述**。  
+9. 以滑鼠右鍵按一下 **[receive1]** 圖形，，然後按一下**內容屬性結構描述**。  
   
 10. 捲動到結尾**內容屬性名稱**清單，，然後按兩下  **BAMEndToEnd.Services.PropertySchema.DocumentID**。  
   
-11. 展開**\<結構描述\>**，然後將拖曳**DocumentID**右窗格中**Orch1_**的左窗格中。  
+11. 展開**\<結構描述\>**，然後將拖曳**DocumentID**右窗格中**Orch1_** 的左窗格中。  
   
 12. 按一下資料夾圖示的箭號 (![資料夾和向上箭號按鈕](../core/media/abccd08b-2b01-49c6-80ed-a032bbbd10d4.gif "abccd08b-2b01-49c6-80ed-a032bbbd10d4")) 兩次，以顯示協調流程。  
   
-13. 拖曳**[receive1]**右窗格中的圖形**SBegin1**的左窗格中。  
+13. 拖曳 **[receive1]** 右窗格中的圖形**SBegin1**的左窗格中。  
   
 14. 拖曳**StartOrchestration_1**右窗格中的圖形**SEnd1**的左窗格中。  
   
@@ -183,7 +184,7 @@ Services\Schema3.xsd|訊息結構描述。|
   
 19. 捲動到結尾**內容屬性名稱**清單，，然後按兩下  **BAMEndToEnd.Services.PropertySchema.DocumentID**。  
   
-20. 展開**\<結構描述\>**，然後將拖曳**DocumentID**至**Orch2_**的左窗格中的接續。  
+20. 展開**\<結構描述\>**，然後將拖曳**DocumentID**至**Orch2_** 的左窗格中的接續。  
   
     > [!NOTE]
     >  請勿將 Orch2_ 接續與 Orch2_ 接續識別碼混淆 代表接續識別碼的圖示會包含索引鍵 (![接續識別碼的圖示](../core/media/2d04a714-ade9-4e96-b89e-00002da75bea.gif "2d04a714-ade9-4e96-b89e-00002da75bea"))，則代表接續的圖示不含索引鍵 （![接續的圖示](../core/media/test.gif "測試"))。  
@@ -194,22 +195,22 @@ Services\Schema3.xsd|訊息結構描述。|
   
 23. 在**協調流程的名稱**區段**選取協調流程**對話方塊中，選取**BamEndToEnd.Services.Orchestration2**，然後按一下  **確定**.  
   
-24. 以滑鼠右鍵按一下**[constructmessage_1]**圖形，，然後按一下**訊息內容結構描述**。  
+24. 以滑鼠右鍵按一下 **[constructmessage_1]** 圖形，，然後按一下**訊息內容結構描述**。  
   
 25. 按兩下包含值"Message_3"的資料列中**訊息**資料行和值"BAMPart 」 中**一部分**資料行。  
   
-26. 展開**BAMPart**，然後將拖曳**DocumentID**右窗格中**Orch2_**接續識別碼的左窗格中。  
+26. 展開**BAMPart**，然後將拖曳**DocumentID**右窗格中**Orch2_** 接續識別碼的左窗格中。  
   
     > [!NOTE]
     >  請勿將 Orch2_ 接續與 Orch2_ 接續識別碼混淆 代表接續識別碼的圖示會包含索引鍵 (![接續識別碼的圖示](../core/media/2d04a714-ade9-4e96-b89e-00002da75bea.gif "2d04a714-ade9-4e96-b89e-00002da75bea"))，則代表接續的圖示不含索引鍵 （![接續的圖示](../core/media/test.gif "測試"))。  
   
 27. 按一下資料夾圖示的箭號 (![資料夾和向上按鈕 &#45; 箭號](../core/media/abccd08b-2b01-49c6-80ed-a032bbbd10d4.gif "abccd08b-2b01-49c6-80ed-a032bbbd10d4")) 兩次，以顯示協調流程。  
   
-28. 拖曳**[constructmessage_1]**右窗格中的圖形**SBegin2**的左窗格中。  
+28. 拖曳 **[constructmessage_1]** 右窗格中的圖形**SBegin2**的左窗格中。  
   
-29. 拖曳**[send_1]**右窗格中的圖形**SEnd2**的左窗格中。  
+29. 拖曳 **[send_1]** 右窗格中的圖形**SEnd2**的左窗格中。  
   
-30. 以滑鼠右鍵按一下**[send_1]**圖形，，然後按一下**訊息內容結構描述**。  
+30. 以滑鼠右鍵按一下 **[send_1]** 圖形，，然後按一下**訊息內容結構描述**。  
   
 31. 按兩下包含值"Message_3"的資料列中**訊息**資料行和值"MessageBody 」 中**一部分**資料行。  
   
@@ -219,7 +220,7 @@ Services\Schema3.xsd|訊息結構描述。|
   
 34. 按兩下包含值"Message_3"的資料列中**訊息**資料行和值"BAMPart 」 中**一部分**資料行。  
   
-35. 展開**BAMPart**，然後將拖曳**DocumentID**右窗格中**Orch3_**的左窗格中的接續。  
+35. 展開**BAMPart**，然後將拖曳**DocumentID**右窗格中**Orch3_** 的左窗格中的接續。  
   
     > [!NOTE]
     >  請勿將 Orch3_ 接續與 Orch3_ 接續識別碼混淆 代表接續識別碼的圖示會包含索引鍵 (![接續識別碼的圖示](../core/media/2d04a714-ade9-4e96-b89e-00002da75bea.gif "2d04a714-ade9-4e96-b89e-00002da75bea"))，則代表接續的圖示不含索引鍵 （![接續的圖示](../core/media/test.gif "測試"))。  
@@ -230,33 +231,33 @@ Services\Schema3.xsd|訊息結構描述。|
   
 38. 在**協調流程的名稱**區段**選取協調流程**對話方塊中，選取**BamEndToEnd.Services.Orchestration3**，然後按一下  **確定**.  
   
-39. 以滑鼠右鍵按一下**[receive1]**圖形，，然後按一下**訊息內容結構描述**。  
+39. 以滑鼠右鍵按一下 **[receive1]** 圖形，，然後按一下**訊息內容結構描述**。  
   
 40. 按兩下包含值"Message_3"的資料列中**訊息**資料行和值"BAMPart 」 中**一部分**資料行。  
   
-41. 展開**BAMPart**，然後將拖曳**DocumentID**右窗格中**Orch3_**接續識別碼的左窗格中。  
+41. 展開**BAMPart**，然後將拖曳**DocumentID**右窗格中**Orch3_** 接續識別碼的左窗格中。  
   
     > [!NOTE]
     >  請勿將 Orch3_ 接續與 Orch3_ 接續識別碼混淆 代表接續識別碼的圖示會包含索引鍵 (![接續識別碼的圖示](../core/media/2d04a714-ade9-4e96-b89e-00002da75bea.gif "2d04a714-ade9-4e96-b89e-00002da75bea"))，則代表接續的圖示不含索引鍵 （![接續的圖示](../core/media/test.gif "測試"))。  
   
 42. 按一下資料夾圖示的箭號 (![資料夾和向上箭號按鈕](../core/media/abccd08b-2b01-49c6-80ed-a032bbbd10d4.gif "abccd08b-2b01-49c6-80ed-a032bbbd10d4")) 兩次，以顯示協調流程。  
   
-43. 拖曳**[receive1]**右窗格中的圖形**SBegin3**的左窗格中。  
+43. 拖曳 **[receive1]** 右窗格中的圖形**SBegin3**的左窗格中。  
   
-44. 拖曳**[send_1]**右窗格中的圖形**SEnd3**的左窗格中。  
+44. 拖曳 **[send_1]** 右窗格中的圖形**SEnd3**的左窗格中。  
   
-45. 以滑鼠右鍵按一下**[send_1]**圖形，，然後按一下**訊息內容結構描述**。  
+45. 以滑鼠右鍵按一下 **[send_1]** 圖形，，然後按一下**訊息內容結構描述**。  
   
 46. 展開**Schema3**，然後將拖曳**Data3**右窗格中**Data3**的左窗格中。  
   
-47. 以滑鼠右鍵按一下**DocumentID**下方**Orch2_**接續，然後再按一下**設定連接埠對應**。  
+47. 以滑鼠右鍵按一下**DocumentID**下方**Orch2_** 接續，然後再按一下**設定連接埠對應**。  
   
     > [!NOTE]
     >  請勿將 Orch2_ 接續與 Orch2_ 接續識別碼混淆 代表接續識別碼的圖示會包含索引鍵 (![接續識別碼的圖示](../core/media/2d04a714-ade9-4e96-b89e-00002da75bea.gif "2d04a714-ade9-4e96-b89e-00002da75bea"))，則代表接續的圖示不含索引鍵 （![接續的圖示](../core/media/test.gif "測試"))。  
   
 48. 在**選取連接埠**區段**選取連接埠**對話方塊中，按一下**BamEndToEnd_ReceivePort**，按一下 較大-符號 ( **>**)，然後按一下 **確定**。  
   
-49. 儲存追蹤設定檔來*\<範例路徑\>*\BAM\BamEndToEnd\BamEndToEnd.btt。  
+49. 儲存追蹤設定檔來*\<範例路徑\>* \BAM\BamEndToEnd\BamEndToEnd.btt。  
   
 ## <a name="important-details"></a>重要的詳細資料  
  追蹤設定檔不支援管線。 不過，呼叫**BeginActivity**在管線元件是在協調流程中使用 ActivityID 相同。 若要呼叫**EnableContinuation**與協調流程中使用接續相同。  

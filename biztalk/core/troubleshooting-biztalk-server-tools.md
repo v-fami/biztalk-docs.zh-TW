@@ -1,14 +1,14 @@
 ---
-title: "疑難排解 BizTalk Server 工具 |Microsoft 文件"
-ms.custom: 
+title: 疑難排解 BizTalk Server 工具 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 038a5f5c-d6eb-42db-88d6-70f3deba7a8a
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279766"
 ---
 # <a name="troubleshooting-biztalk-server-tools"></a>BizTalk Server 工具疑難排解
 本主題提供集中的位置來存放使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 隨附的工具時經常會遇到之問題的相關資訊。  

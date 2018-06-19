@@ -22,6 +22,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "26010535"
 ---
 # <a name="how-to-install-a-biztalk-application"></a>如何安裝 BizTalk 應用程式
 本主題說明如何在本機電腦上安裝應用程式，方法是在 Windows 介面中按兩下應用程式的 Windows Installer (.msi) 檔案，或從命令列執行 msiexec。 您也可以啟動安裝精靈的匯入精靈 的最後一個步驟中所述[如何匯入 BizTalk 應用程式](../core/how-to-import-a-biztalk-application.md)。  

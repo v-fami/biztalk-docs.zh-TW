@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288686"
 ---
 # <a name="wcf-nettcp-adapter"></a>WCF-NetTcp 配接器
 [!INCLUDE[btsCoName](../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]接收及傳送 WCF 服務透過要求時使用 Wcf-nettcp 配接器[NetTcpBinding](http://go.microsoft.com/fwlink/?LinkID=81087)。 Wcf-nettcp 配接器可讓您協調流程和結構描述為 WCF 服務發佈，並使用外部 WCF 服務與**NetTcpBinding**。  

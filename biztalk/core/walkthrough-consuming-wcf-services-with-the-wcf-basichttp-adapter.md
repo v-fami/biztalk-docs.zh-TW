@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2d280198-ba55-4937-91c9-19d6d0ed3194
-caps.latest.revision: ''
+caps.latest.revision: 49
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "26010975"
 ---
 # <a name="walkthrough-consuming-wcf-services-with-the-wcf-basichttp-adapter"></a>逐步解說： 使用 Wcf-basichttp 配接器的 WCF 服務
   
@@ -108,7 +109,7 @@ ms.lasthandoff: 03/23/2018
   
 ## <a name="add-the-schemas-and-types-for-the-wcf-basichttp-adapter-to-the-sample-biztalk-application"></a>將結構描述和 Wcf-basichttp 配接器的類型加入至範例 BizTalk 應用程式  
   
-1.  因為配接器會呼叫[!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]服務的方法需要從結構描述和類型如何呼叫該服務使用中繼資料的資訊。 **[Biztalkapp]**提供要使用的成品[!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]服務。 在 Visual Studio，在 方案總管中以滑鼠右鍵按一下**biztalkapp**，按一下 **新增**，然後按一下 **新增產生的項目**。  
+1.  因為配接器會呼叫[!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]服務的方法需要從結構描述和類型如何呼叫該服務使用中繼資料的資訊。 **[Biztalkapp]** 提供要使用的成品[!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]服務。 在 Visual Studio，在 方案總管中以滑鼠右鍵按一下**biztalkapp**，按一下 **新增**，然後按一下 **新增產生的項目**。  
   
 2.  在 **加入產生的項目** 對話方塊中，於 **範本** 區段中，選取 **取用 WCF 服務**, ，然後按一下  **新增**。  
   
@@ -229,7 +230,7 @@ ms.lasthandoff: 03/23/2018
   
 6.  指定範例應用程式的主控件名稱和繫結，如下所示：  
   
-     在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統管理主控台中，展開**WCFBasicHttpSendAdapter**，依序展開**協調流程**，以滑鼠右鍵按一下**Microsoft.Samples.BizTalk.WCF.BasicHttpSendAdapter.BizTalkApp.OrderProcessServiceTypeClient**協調流程中，按一下 **屬性**，按一下 **繫結**，設定**主機**至**[biztalkserverapplication]**，然後按一下 **確定**儲存設定。  
+     在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統管理主控台中，展開**WCFBasicHttpSendAdapter**，依序展開**協調流程**，以滑鼠右鍵按一下**Microsoft.Samples.BizTalk.WCF.BasicHttpSendAdapter.BizTalkApp.OrderProcessServiceTypeClient**協調流程中，按一下 **屬性**，按一下 **繫結**，設定**主機**至 **[biztalkserverapplication]**，然後按一下 **確定**儲存設定。  
   
 ## <a name="test-the-sample-solution-with-the-wcf-basichttp-send-adapter"></a>測試範例解決方案使用 Wcf-basichttp 傳送配接器  
   

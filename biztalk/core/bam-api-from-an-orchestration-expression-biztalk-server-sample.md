@@ -1,14 +1,14 @@
 ---
-title: "BAM API 範例協調流程運算式 |Microsoft 文件"
-ms.custom: 
+title: BAM API 範例協調流程運算式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 341bc333-9bfc-484c-b431-9a71f9188792
-caps.latest.revision: 
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710981"
 ---
 # <a name="bam-api-from-an-orchestration-expression-biztalk-server-sample"></a>BAM API，從協調流程運算式 （BizTalk Server 範例）
 這個範例會示範如何︰  
@@ -28,7 +29,7 @@ ms.lasthandoff: 02/28/2018
 -   建立追蹤使用追蹤設定檔的 BAM 資料之間的關聯性，並使用 BAM API 追蹤 BAM 資料。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- 您可以找到此範例位於*\<範例路徑\>*\BAM\BamFromExpression。  
+ 您可以找到此範例位於*\<範例路徑\>* \BAM\BamFromExpression。  
   
  下表列出此範例中的檔案，並描述其用途。  
   
@@ -48,7 +49,7 @@ ms.lasthandoff: 02/28/2018
   
 ## <a name="create-the-tracking-profile"></a>建立追蹤設定檔  
   
-1.  開啟命令提示字元，以系統管理員身分，並執行*\<範例路徑\>*\BAM\BAMFromExpression\Setup.bat。 Setup.bat 會初始化 BAM 基礎結構，此範例中，並部署 BAM 活動。  
+1.  開啟命令提示字元，以系統管理員身分，並執行*\<範例路徑\>* \BAM\BAMFromExpression\Setup.bat。 Setup.bat 會初始化 BAM 基礎結構，此範例中，並部署 BAM 活動。  
   
 2.  從您**程式** > **Microsoft BizTalk Server**，以滑鼠右鍵按一下**追蹤設定檔編輯器**，和**系統管理員身分執行**.
   
@@ -82,7 +83,7 @@ ms.lasthandoff: 02/28/2018
   
 13. 拖放到 **Send_1** 在右窗格中的圖形 **傳送** 的左窗格中。  
   
-14. 儲存追蹤設定檔來*\<範例路徑\>*\BAM\BamFromExpression\ BamFromExpression.btt。  
+14. 儲存追蹤設定檔來*\<範例路徑\>* \BAM\BamFromExpression\ BamFromExpression.btt。  
   
 15. 在 **工具** ] 功能表上，按一下 [ **套用追蹤設定檔**。  
   
@@ -92,9 +93,9 @@ ms.lasthandoff: 02/28/2018
   
 ## <a name="run-this-sample"></a>執行這個範例  
   
-將檔案複製*\<範例路徑\>*至 \BamFromExpression\InputMessage.xml *\<範例路徑\>*\BamFromExpression\Input。  
+將檔案複製*\<範例路徑\>* 至 \BamFromExpression\InputMessage.xml *\<範例路徑\>* \BamFromExpression\Input。  
   
-在 10 秒內的輸出訊息會出現在*\<範例路徑\>*\BamFromExpression\Output。  
+在 10 秒內的輸出訊息會出現在*\<範例路徑\>* \BamFromExpression\Output。  
   
 ## <a name="view-the-bam-data"></a>檢視 BAM 資料  
   
@@ -116,9 +117,9 @@ ms.lasthandoff: 02/28/2018
   
 ## <a name="re-run-the-sample"></a>重新執行範例  
   
-1.  開啟命令提示字元，以系統管理員身分，並執行*\<範例路徑\>*\BAM\BamFromExpression\Cleanup.bat 移除追蹤設定檔和其他 BAM 基礎結構。 
+1.  開啟命令提示字元，以系統管理員身分，並執行*\<範例路徑\>* \BAM\BamFromExpression\Cleanup.bat 移除追蹤設定檔和其他 BAM 基礎結構。 
   
-2.  執行*\<範例路徑\>*\BAM\BamFromExpression\Setup.bat 編譯範例，並將它部署。  
+2.  執行*\<範例路徑\>* \BAM\BamFromExpression\Setup.bat 編譯範例，並將它部署。  
   
 ## <a name="see-also"></a>另請參閱  
  [商務活動監控 （BizTalk Server 範例資料夾）](../core/business-activity-monitoring-biztalk-server-samples-folder.md)   

@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/creating-tibco-rendezvous-receive-handlers/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: 48eb0c1694168fb1acf840a52dc793d0ed943a19
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014229"
 ---
 # <a name="setting-tibco-rendezvous-receive-transport-properties"></a>設定 TIBCO Rendezvous 接收傳輸屬性
 當您設定 Microsoft BizTalk Adapter for TIBCO Rendezvous 接聽訊息時，需指定要接聽的主體名稱。 這是唯一需要的屬性。  
@@ -68,7 +69,7 @@ ms.lasthandoff: 11/07/2017
   
 5.  展開**Rendezvous 傳輸**，然後輸入 TIBCO Rendezvous 精靈與程式之間通訊的所有必要的資訊。  
   
-     **傳輸 （網路服務精靈，服務）**指定 TIBCO Rendezvous 精靈交換訊息的方式。 這些設定會依原狀傳送至 TIBCO Rendezvous API。 使用預設值 (空白) 則會使用預設的通訊策略。  
+     **傳輸 （網路服務精靈，服務）** 指定 TIBCO Rendezvous 精靈交換訊息的方式。 這些設定會依原狀傳送至 TIBCO Rendezvous API。 使用預設值 (空白) 則會使用預設的通訊策略。  
   
      TIBCO Rendezvous 傳輸定義了傳遞領域，也就是它所傳送之訊息可能的目的地集合。 此屬性集定義一個傳輸。  
   

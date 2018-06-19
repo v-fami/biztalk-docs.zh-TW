@@ -1,11 +1,11 @@
 ---
-title: "如何執行服務導向解決方案 |Microsoft 文件"
-ms.custom: 
+title: 如何執行服務導向解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - service solution tutorial, client applications
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - service solution tutorial, sending requests
 - service solution tutorial, SOAP transports
 ms.assetid: 764a5ddc-e571-41d8-9e2f-6d0fb3361b2f
-caps.latest.revision: "31"
+caps.latest.revision: 31
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973812"
 ---
 # <a name="how-to-run-the-service-oriented-solution"></a>如何執行服務導向解決方案
 下列步驟描述如何在單一電腦上執行和驗證服務導向解決方案。 啟動付款追蹤器模擬器之後，使用 SOAP 或 MQSeries 傳輸來傳送要求 (服務導向解決方案的配接器與內嵌版本分別使用個別程序)。  
@@ -42,7 +43,7 @@ ms.lasthandoff: 11/28/2017
   
 3.  輸入任何 16 位數的數字中**帳戶號碼**文字方塊。  
   
-4.  選取**SOAP (WS Call)**和**虛設常式**中**選取傳輸與參數**群組方塊。  
+4.  選取**SOAP (WS Call)** 和**虛設常式**中**選取傳輸與參數**群組方塊。  
   
 5.  輸入下列 URL 中的**URL**文字方塊中，例如：  
   
@@ -79,7 +80,7 @@ ms.lasthandoff: 11/28/2017
   
     2.  輸入任何 16 位數的數字中**帳戶號碼**文字方塊。  
   
-    3.  選取**SOAP (WS Call)**和**配接器**中**選取傳輸與參數**群組方塊。  
+    3.  選取**SOAP (WS Call)** 和**配接器**中**選取傳輸與參數**群組方塊。  
   
     4.  輸入下列 URL 中的**URL**文字方塊中，例如：  
   
@@ -150,7 +151,7 @@ ms.lasthandoff: 11/28/2017
   
     2.  輸入任何 16 位數的數字中**帳戶號碼**文字方塊。  
   
-    3.  選取**SOAP (WS Call)**和**內嵌**中**選取傳輸與參數**群組方塊。  
+    3.  選取**SOAP (WS Call)** 和**內嵌**中**選取傳輸與參數**群組方塊。  
   
     4.  輸入下列 URL 中的**URL**文字方塊中，例如：  
   

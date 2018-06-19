@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278222"
 ---
 # <a name="transforms-sendport-node"></a>Transforms (SendPort 節點)
 繫結檔案之 [SendPort] 節點的 [Transforms] 節點包含與該繫結檔案一起匯出之單向傳送埠的輸出轉換集合。  

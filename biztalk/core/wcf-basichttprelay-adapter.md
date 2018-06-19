@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 22eefde6-80f5-4d45-80cf-55f743ff9d45
-caps.latest.revision: ''
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25975854"
 ---
 # <a name="wcf-basichttprelay-adapter"></a>WCF-BasicHttpRelay 配接器
 [!INCLUDE[btsCoName](../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 使用**Wcf-basichttprelay**配接器來接收和傳送 WCF 服務要求，透過[BasicHttpRelayBinding 類別](https://msdn.microsoft.com/library/azure/microsoft.servicebus.basichttprelaybinding.aspx)。 **Wcf-basichttprelay**配接器會使用服務匯流排轉接端點使用**BasicHttpRelayBinding**。  
@@ -66,7 +67,7 @@ ms.lasthandoff: 03/23/2018
     |**安全性模式**|指定使用的安全性類型。 有效值包括下列各項：<br /><br /> -   **無**： 訊息傳輸期間並未受到保護。<br />-   **傳輸**︰ 使用 HTTPS 傳輸來提供安全性。 使用 HTTPS 來維護 SOAP 訊息的安全。 若要使用這個模式，您必須在 Microsoft Internet Information Services (IIS) 中設定「安全通訊端層」(SSL)。<br />-   **訊息**︰ 使用透過 HTTP 傳輸的 SOAP 訊息安全性來提供安全性。 根據預設，SOAP **Body** 會進行加密及簽署。 唯一有效 **訊息用戶端認證類型** 配接器是 WCF 基本 **憑證**。 這種模式需要使用 HTTP 傳輸。 使用此安全性模式時，服務憑證，這個接收位置必須可透過提供 **服務憑證-憑證指紋** 屬性。<br />-   **TransportWithMessageCredential**: HTTPS 傳輸提供完整性、 機密性和驗證服務。 若要使用這個模式，您必須在 Microsoft Internet Information Services (IIS) 中設定「安全通訊端層」(SSL)。<br /><br /> 預設值為 **[傳輸]**。|  
     |**訊息用戶端認證類型**|指定的訊息層級安全性選項，只有當您設定**安全性模式**上方以**訊息**或**TransportWithMessageCredential**。 有效值包括下列各項：<br /><br /> -   **使用者名稱**： 可讓這個接收位置要求來驗證用戶端使用**UserName**認證。 您必須建立對應到用戶端認證的網域或本機使用者帳戶。<br />-   **憑證**︰ 用戶端驗證此接收位置使用用戶端憑證。 用戶端 X.509 憑證的 CA 憑證鏈結必須安裝在這部電腦的「信任的根憑證授權單位」憑證存放區中，才可以向這個接收位置驗證用戶端。<br /><br /> 預設值是 **UserName**。|  
     |**演算法套件**|指定訊息加密和金鑰包裝演算法，只有當您設定**安全性模式**模式上方**訊息**或**TransportWithMessageCredential**。 這不是適用於您設定**安全性模式**至**無**或**傳輸**。<br /><br /> 這些演算法會對應到安全性原則語言 (WS-SecurityPolicy) 規格中所指定的演算法。 可能的值為：<br /><br /> -   **Basic128**： 使用 Aes128 加密，Sha1 用於訊息摘要，Rsa-oaep-mgf1p 用於金鑰包裝。<br />-   **Basic128Rsa15**︰ 使用 aes128 代表訊息加密，Sha1 用於訊息摘要，Rsa15 用於金鑰包裝。<br />-   **Basic128Sha256**︰ 使用 aes256 代表訊息加密，Sha256 用於訊息摘要，Rsa-oaep-mgf1p 用於金鑰包裝。<br />-   **Basic128Sha256Rsa15**︰ 使用 aes128 代表訊息加密，Sha256 用於訊息摘要，Rsa15 用於金鑰包裝。<br />-   **Basic192**︰ 使用 Aes192 加密，Sha1 用於訊息摘要，Rsa-oaep-mgf1p 用於金鑰包裝。<br />-   **Basic192Rsa15**︰ 使用 aes192 代表訊息加密，Sha1 用於訊息摘要，Rsa15 用於金鑰包裝。<br />-   **Basic192Sha256**︰ 使用 aes192 代表訊息加密，Sha256 用於訊息摘要，Rsa-oaep-mgf1p 用於金鑰包裝。<br />-   **Basic192Sha256Rsa15**︰ 使用 aes192 代表訊息加密，Sha256 用於訊息摘要，Rsa15 用於金鑰包裝。<br />-   **Basic256**︰ 使用 Aes256 加密，Sha1 用於訊息摘要，Rsa-oaep-mgf1p 用於金鑰包裝。<br />-   **Basic256Rsa15**︰ 使用 aes256 代表訊息加密，Sha1 用於訊息摘要，Rsa15 用於金鑰包裝。<br />-   **Basic256Sha256**︰ 使用 aes256 代表訊息加密，Sha256 用於訊息摘要，Rsa-oaep-mgf1p 用於金鑰包裝。<br />-   **Basic256Sha256Rsa15**︰ 使用 aes256 代表訊息加密，Sha256 用於訊息摘要，Rsa15 用於金鑰包裝。<br />-   **TripleDes**︰ 使用 TripleDes 加密，Sha1 用於訊息摘要，Rsa-oaep-mgf1p 用於金鑰包裝。<br />-   **TripleDesRsa15**︰ 使用 TripleDes 加密，Sha1 用於訊息摘要，Rsa15 用於金鑰包裝。<br />-   **TripleDesSha256**︰ 使用 tripledes 代表訊息加密，Sha256 用於訊息摘要，Rsa-oaep-mgf1p 用於金鑰包裝。<br />-   **TripleDesSha256Rsa15**︰ 使用 tripledes 代表訊息加密，Sha256 用於訊息摘要，Rsa15 用於金鑰包裝。<br /><br /> 預設值為 **[Basic256]**。|  
-    |**服務憑證-指紋**|針對此接收位置指定用戶端用來驗證服務之 X.509 憑證的憑證指紋。 您可以使用 **[瀏覽]** 按鈕瀏覽至 **「目前使用者」** 位置的 **My** 存放區，以選取憑證指紋。 **注意：**您必須設定此屬性，只有當您設定**安全性模式**模式上方**訊息**或**TransportWithMessageCredential**。 這不是適用於您設定**安全性模式**至**無**或**傳輸**。 **注意︰**  您必須將服務憑證安裝到 **目前使用者** 裝載此接收位置的接收處理常式的使用者帳戶的位置。 <br /><br /> 最小長度：00<br /><br /> 最大長度：40<br /><br /> 預設為空字串。|  
+    |**服務憑證-指紋**|針對此接收位置指定用戶端用來驗證服務之 X.509 憑證的憑證指紋。 您可以使用 **[瀏覽]** 按鈕瀏覽至 **「目前使用者」** 位置的 **My** 存放區，以選取憑證指紋。 **注意：** 您必須設定此屬性，只有當您設定**安全性模式**模式上方**訊息**或**TransportWithMessageCredential**。 這不是適用於您設定**安全性模式**至**無**或**傳輸**。 **注意︰**  您必須將服務憑證安裝到 **目前使用者** 裝載此接收位置的接收處理常式的使用者帳戶的位置。 <br /><br /> 最小長度：00<br /><br /> 最大長度：40<br /><br /> 預設為空字串。|  
     |**轉送用戶端驗證類型**|指定用於驗證接收訊息之服務匯流排轉接端點的選項。 有效值包括下列各項：<br /><br /> -   **無**： 都不需要驗證。<br />-   **RelayAccessToken**： 指定此選項可使用授權與服務匯流排轉接端點的安全性權杖。<br /><br /> 預設值為 **RelayAccessToken**。|  
     |**啟用服務探索**|選取此核取方塊，指定是否在服務登錄中發佈此服務的行為。<br /><br /> -   **顯示名稱**– 指定與服務發行至服務登錄的名稱。<br />-   **探索模式**– 設定服務登錄中發佈服務的探索模式。 如需探索模式的詳細資訊，請參閱[ http://msdn.microsoft.com/library/microsoft.servicebus.discoverytype.aspx ](http://msdn.microsoft.com/library/microsoft.servicebus.discoverytype.aspx)。|  
     |**存取控制服務**|適用於[!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)]和[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]2013年。<br/><br/>如果將 **[轉接用戶端驗證類型]** 設定為 **[RelayAccessToke]**，請按一下 **[編輯]** 按鈕並指定下列詳細資料：<br /><br /> -   **存取控制服務 STS Uri** – 將此設`https://<Namespace>-sb.accesscontrol.windows.net/`，其中\<命名空間\>是您的服務匯流排命名空間。<br />-   **簽發者名稱** – 指定簽發者名稱。 此值通常設定為擁有者。<br />-   **簽發者金鑰** – 指定簽發者金鑰。|  

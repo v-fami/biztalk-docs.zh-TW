@@ -1,11 +1,11 @@
 ---
-title: "叫用協調流程中的商務規則 |Microsoft 文件"
-ms.custom: 
+title: 叫用協調流程中的商務規則 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Call Rules shape [Orchestration Designer], business rules
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - policies, Call Rules shape [Orchestration Designer]
 - orchestrations, business rules
 ms.assetid: ac3a3277-e9ea-4f40-9326-c63076c6b90e
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22261822"
 ---
 # <a name="invoking-business-rules-in-orchestrations"></a>叫用協調流程中的商務規則
 您可以叫用原則 （或規則集） 從協調流程使用**呼叫規則**圖形。 此原則會叫用規則引擎；規則會根據原則中的規則來操作。  

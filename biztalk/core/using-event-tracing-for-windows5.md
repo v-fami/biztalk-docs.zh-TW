@@ -18,7 +18,7 @@ helpviewer_keywords:
 - Event Tracing for Windows, components
 - BTAPeopleSoftTrace command
 ms.assetid: 330ef84b-5e2a-4b79-85a9-72271eb489d2
-caps.latest.revision: ''
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25973548"
 ---
 # <a name="using-event-tracing-for-windows"></a>使用 Windows 事件追蹤
 Microsoft BizTalk Adapter for PeopleSoft Enterprise 會將錯誤、警告與資訊訊息記錄到 Windows 事件檢視器中。 您可以使用「Windows 事件追蹤」工具來查看其他追蹤訊息。 當 ETW 啟用時，它會建立 *.etl 檔案以接收訊息。 檔案是二進位格式，必須經過轉換才能讀取。 您必須擁有可解譯的消費者應用程式才能執行這項操作 \*.etl 檔案; 例如，tracerpt.exe 或 tracedmp.exe。  
@@ -53,15 +54,15 @@ Microsoft BizTalk Adapter for PeopleSoft Enterprise 會將錯誤、警告與資�
   
  BizTalk Adapter for PeopleSoft Enterprise 有五個提供者，可讓您記錄不同種類的訊息：  
   
--   **接收器記錄提供者**:\<追蹤項目\>交換器**-接收者**。  
+-   **接收器記錄提供者**:\<追蹤項目\>交換器 **-接收者**。  
   
--   **接收器 Castdetail 提供者**:\<追蹤項目\>交換器**-castDetailsReceive**。  
+-   **接收器 Castdetail 提供者**:\<追蹤項目\>交換器 **-castDetailsReceive**。  
   
--   **傳輸器記錄提供者**:\<追蹤項目\>交換器**-傳輸器**。  
+-   **傳輸器記錄提供者**:\<追蹤項目\>交換器 **-傳輸器**。  
   
--   **傳輸器 CastDetails 提供者**:\<追蹤項目\>交換器**-castDetailsTransmit**。  
+-   **傳輸器 CastDetails 提供者**:\<追蹤項目\>交換器 **-castDetailsTransmit**。  
   
--   **管理記錄提供者**:\<追蹤項目\>交換器**-管理**。  
+-   **管理記錄提供者**:\<追蹤項目\>交換器 **-管理**。  
   
 ## <a name="btapeoplesofttrace-command"></a>BTAPeopleSoftTrace 命令  
  若要使用 ETW，請執行配接器命令 **BTAPeopleSoftTrace.cmd**。 您可以下列方式使用此命令：  

@@ -1,8 +1,8 @@
 ---
 layout: HubPage
-hide_bc: 
-title: "Host Integration Server 文件"
-description: "HIS 文件"
+hide_bc: true
+title: Host Integration Server 文件
+description: HIS 文件
 author: MandiOhlinger
 manager: anneta
 ms.workload: integration
@@ -15,6 +15,7 @@ ms.sourcegitcommit: 08c2ad9cebe4c313b464c5aae7d3eaf210c4b731
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 02/20/2018
+ms.locfileid: "29373785"
 ---
 <div id="main" class="v2">
     <div class="container">

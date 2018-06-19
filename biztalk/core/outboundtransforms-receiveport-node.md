@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263862"
 ---
 # <a name="outboundtransforms-receiveport-node"></a>OutboundTransforms (ReceivePort 節點)
 繫結檔案之 ReceivePort 節點的 OutboundTransforms 節點，包含與該繫結檔案一起匯出之雙向接收埠輸出轉換的集合。  

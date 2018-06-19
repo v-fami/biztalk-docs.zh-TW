@@ -1,11 +1,11 @@
 ---
-title: "如何修改 BizTalk 組件的部署選項 |Microsoft 文件"
-ms.custom: 
+title: 如何修改 BizTalk 組件的部署選項 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - modifying, deploying
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - managing [assemblies], deploying
 - assemblies, deploying
 ms.assetid: d25e2f71-08bd-4786-ab6c-35ae4e88b8cc
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007751"
 ---
 # <a name="how-to-modify-the-deployment-options-of-a-biztalk-assembly"></a>如何修改 BizTalk 組件的部署選項
 本主題描述如何使用 BizTalk Server 管理主控台來修改 BizTalk 組件的部署選項。  
@@ -35,7 +36,7 @@ ms.lasthandoff: 12/01/2017
   
 -   **新增至 MSI 檔案安裝 (gacutil) 的全域組件快取。** 從 .msi 匯入應用程式時，將組件安裝到本機電腦的 GAC 中。  
   
--   **目的地位置：**複製到其中的組件檔會在安裝應用程式的路徑。 如果沒有提供路徑，安裝時就不會將組件檔案複製到本機檔案系統。  
+-   **目的地位置：** 複製到其中的組件檔會在安裝應用程式的路徑。 如果沒有提供路徑，安裝時就不會將組件檔案複製到本機檔案系統。  
   
 ## <a name="prerequisites"></a>必要條件  
  若要執行這個主題中的程序，您必須使用「BizTalk Server 系統管理員」群組成員的帳戶登入。 此外，如果您選取立即將組件新增至 GAC 的選項，您的帳戶也必須是本機「系統管理員」群組的成員。 如需詳細的權限的詳細資訊，請參閱[部署及管理 BizTalk 應用程式所需的權限](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md)。  

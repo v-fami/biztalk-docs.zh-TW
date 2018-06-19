@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287686"
 ---
 # <a name="viewing-historical-and-tracked-data"></a>檢視歷程記錄和追蹤資料
 本節提供使用如何在 BizTalk Server 管理主控台中檢視歷程記錄和追蹤資料，從 [群組中樞] 頁面的特定工作的資訊。  

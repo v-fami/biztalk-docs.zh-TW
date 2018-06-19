@@ -1,14 +1,14 @@
 ---
-title: "監視的最佳作法 |Microsoft 文件"
-ms.custom: 
+title: 監視的最佳作法 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d5b180e2-bdd3-4081-9531-d96be7dabe1a
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008527"
 ---
 # <a name="best-practices-for-monitoring"></a>監視的最佳作法
 本主題提供監視您的 Microsoft BizTalk Server 環境和應用程式的最佳作法。  

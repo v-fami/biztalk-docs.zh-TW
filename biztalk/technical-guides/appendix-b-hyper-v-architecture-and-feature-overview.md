@@ -1,14 +1,14 @@
 ---
-title: "附錄 b： 使用 HYPER-V 的架構和功能概觀 |Microsoft 文件"
-ms.custom: 
+title: 附錄 b： 使用 HYPER-V 的架構和功能概觀 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 87b6b9a0-a470-43f7-b076-36075477cc34
-caps.latest.revision: 
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710301"
 ---
 # <a name="appendix-b-hyper-v-architecture-and-feature-overview"></a>附錄 b： 使用 HYPER-V 的架構和功能概觀
 本主題提供 HYPER-V 架構的概觀，說明優點和缺點的 HYPER-V。  
@@ -129,6 +130,6 @@ ms.lasthandoff: 02/28/2018
 ## <a name="disadvantages"></a>缺點
  執行 HYPER-V 的虛擬化環境中的企業級解決方案的缺點可能包括：  
   
--   **硬體需求 –**伺服器彙總的要求，因為 HYPER-V 虛擬機器會消耗更多的 CPU 和記憶體，而且需要更大的磁碟 I/O 頻寬比可比較運算的載入與實體伺服器。 64 位元和 Windows Server 的所有版本的 64 位元只才可用 HYPER-V 伺服器角色，因為實體硬體必須支援硬體輔助虛擬化。 這表示處理器必須相容於 Intel VT 或 AMD 虛擬化 (AMD-V) 技術、 在系統 BIOS 必須支援的資料執行防止 (DEP)，而且必須啟用 DEP。  
+-   **硬體需求 –** 伺服器彙總的要求，因為 HYPER-V 虛擬機器會消耗更多的 CPU 和記憶體，而且需要更大的磁碟 I/O 頻寬比可比較運算的載入與實體伺服器。 64 位元和 Windows Server 的所有版本的 64 位元只才可用 HYPER-V 伺服器角色，因為實體硬體必須支援硬體輔助虛擬化。 這表示處理器必須相容於 Intel VT 或 AMD 虛擬化 (AMD-V) 技術、 在系統 BIOS 必須支援的資料執行防止 (DEP)，而且必須啟用 DEP。  
   
--   **軟體需求 –**雖然大部分的 Microsoft 軟體支援 HYPER-V 虛擬機器上執行，某些 Microsoft 軟體正在仍然正在測試以確保與 HYPER-V 虛擬化環境的相容性。 例如，大部分 Microsoft 企業層級的應用程式支援在 HYPER-V 上執行，或是正在支援在 HYPER-V 上的測試良好與否。 BizTalk Server 和 HYPER-V 上的 SQL Server 上可支援性資訊，請參閱[附錄 c: BizTalk Server 和 SQL Server 為 HYPER-V 可支援性](../technical-guides/appendix-c-biztalk-server-and-sql-server-hyper-v-supportability.md)。
+-   **軟體需求 –** 雖然大部分的 Microsoft 軟體支援 HYPER-V 虛擬機器上執行，某些 Microsoft 軟體正在仍然正在測試以確保與 HYPER-V 虛擬化環境的相容性。 例如，大部分 Microsoft 企業層級的應用程式支援在 HYPER-V 上執行，或是正在支援在 HYPER-V 上的測試良好與否。 BizTalk Server 和 HYPER-V 上的 SQL Server 上可支援性資訊，請參閱[附錄 c: BizTalk Server 和 SQL Server 為 HYPER-V 可支援性](../technical-guides/appendix-c-biztalk-server-and-sql-server-hyper-v-supportability.md)。

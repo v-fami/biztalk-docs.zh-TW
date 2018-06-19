@@ -1,14 +1,14 @@
 ---
-title: "WCF 配接器 FAQ: WCF 錯誤處理 |Microsoft 文件"
-ms.custom: 
+title: 'WCF 配接器 FAQ: WCF 錯誤處理 |Microsoft 文件'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fdbd1ea6-4898-415c-ac5e-f804565759a8
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288630"
 ---
 # <a name="wcf-adapter-faq-wcf-error-handling"></a>WCF 配接器 FAQ: WCF 錯誤處理
 ## <a name="how-do-the-wcf-adapters-handle-errors-and-soap-faults-during-message-processing"></a>WCF 配接器如何處理錯誤和 SOAP 錯誤訊息處理期間？  

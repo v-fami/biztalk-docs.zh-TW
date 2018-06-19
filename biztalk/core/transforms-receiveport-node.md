@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279238"
 ---
 # <a name="transforms-receiveport-node"></a>轉換 (ReceivePort 節點)
 繫結檔案之 [ReceivePort] 節點的 [轉換] 節點包含隨同該繫結檔案一起匯出之單向接收埠的輸入轉換集合。  

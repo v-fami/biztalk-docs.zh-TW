@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006863"
 ---
 # <a name="operational-and-administrative-tasks-in-your-biztalk-environment"></a>在 BizTalk 環境中的操作與系統管理工作
 BizTalk Server 包含新功能，使管理更快速且輕鬆比在舊版的 BizTalk Server 中的 BizTalk Server。 本節提供關於管理 BizTalk Server 的資訊。  

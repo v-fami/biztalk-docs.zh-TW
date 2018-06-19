@@ -1,14 +1,14 @@
 ---
-title: "例行性效能的檢查清單 |Microsoft 文件"
-ms.custom: 
+title: 例行性效能的檢查清單 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a9b83c0d-28e1-4585-b7cd-7b6dae0568cc
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007711"
 ---
 # <a name="routine-performance-checklists"></a>例行性效能的檢查清單
 此區段會列出應執行效能檢查[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統定期為預防性維護方案的一部分。 執行這些檢查，可協助您判斷是否有任何應用程式安裝中的瓶頸或任何與系統的效能問題。  

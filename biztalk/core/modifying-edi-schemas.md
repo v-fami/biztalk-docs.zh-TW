@@ -1,14 +1,14 @@
 ---
-title: "修改 EDI 結構描述 |Microsoft 文件"
-ms.custom: 
+title: 修改 EDI 結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6fa33c5e-17ca-4aaf-a1ca-1972a9bb45ac
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009591"
 ---
 # <a name="modifying-edi-schemas"></a>修改 EDI 結構描述
 您可以修改 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中現有的 EDI 結構描述。 當您和交易夥伴都同意修改標準結構描述，而且可能還變更了相關的「訊息實作指南」(Message Implementation Guideline，MIG) 檔案，您可以使用 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 的 [BizTalk 編輯器] 來修改該結構描述。  
@@ -49,8 +50,8 @@ ms.lasthandoff: 12/01/2017
 |啟用 HIPAA 子文件分割|在其中一個 HIPAA 結構描述，您可以設定子文件分割中，設定**subdocument_break**和**Split_Without_Sibling_Data**屬性之結構描述**是**和**subdocument_creation_break**屬性結構描述中特定項目的**是**。<br /><br /> 您也需要設定**輸入批次處理選項**協議屬性設**將交換分割為交易集**。<br /><br /> 如需詳細資訊，請參閱[分割 HIPAA 子文件](../core/splitting-hipaa-subdocuments.md)。|  
 |新增觸發欄位至 HIPAA 文件|您可以允許 EDI 解譯器使用稱為觸發欄位的合格項目，為 HIPAA 文件建立唯一的 XML 記錄。 您必須指定描述區段的屬性與觸發值，才能為區段建立唯一的 XML 記錄。 如需詳細資訊，請參閱[HIPAA 結構描述的觸發程序欄位註解](../core/hipaa-schema-trigger-field-annotations.md)。|  
 |新增區段至 X12 交易集|當您新增區段至 X12 交易集時，會使用區段名稱的前 3 個字元做為區段識別碼。 因此，建議您命名區段時，必須讓前 3 個字元是唯一的。|  
-|新增迴圈至 HIPAA 交易集|當您新增迴圈至 HIPAA 交易集時，建議您在迴圈名稱中包含 “Loop”。 迴圈的範例格式為 “TS837_2010AB_Loop”。 **注意：**在迴圈中的第一個區段是必要的 （區段的 minOccurs 必須等於 1） 若要避免模稜兩可。|  
-|新增 ‘any order loop’ 至 HIPAA 交易集|當交易集有多個相同區段具有不同語意時，您必須在子迴圈中定義它們。 使用 XML 註解的岐\<xs: all\>允許以任何順序出現相同的區段。<br /><br /> 建議您在 ‘any order loop’ 的迴圈名稱中包含 “SubLoop”。 範例格式為"TS837Q1_2010A_SubLoop"**附註：**的 any order loop 項目必須只能出現一次迴圈內。 為避免岐義，子迴圈的同層級項目必須將 maxOccurs 設為 1。|  
+|新增迴圈至 HIPAA 交易集|當您新增迴圈至 HIPAA 交易集時，建議您在迴圈名稱中包含 “Loop”。 迴圈的範例格式為 “TS837_2010AB_Loop”。 **注意：** 在迴圈中的第一個區段是必要的 （區段的 minOccurs 必須等於 1） 若要避免模稜兩可。|  
+|新增 ‘any order loop’ 至 HIPAA 交易集|當交易集有多個相同區段具有不同語意時，您必須在子迴圈中定義它們。 使用 XML 註解的岐\<xs: all\>允許以任何順序出現相同的區段。<br /><br /> 建議您在 ‘any order loop’ 的迴圈名稱中包含 “SubLoop”。 範例格式為"TS837Q1_2010A_SubLoop"**附註：** 的 any order loop 項目必須只能出現一次迴圈內。 為避免岐義，子迴圈的同層級項目必須將 maxOccurs 設為 1。|  
   
 ### <a name="to-modify-an-existing-edi-schema-in-biztalk-editor"></a>若要用 BizTalk 編輯器來修改現有的 EDI 結構描述  
   

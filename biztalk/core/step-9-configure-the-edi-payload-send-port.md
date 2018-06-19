@@ -1,14 +1,14 @@
 ---
-title: "步驟 9： 設定 EDI 內容傳送埠 |Microsoft 文件"
-ms.custom: 
+title: 步驟 9： 設定 EDI 內容傳送埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 71a8a4a7-7c3e-4e33-a9c0-a6445a3cc236
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277046"
 ---
 # <a name="step-9-configure-the-edi-payload-send-port"></a>步驟 9： 設定 EDI 內容傳送埠
 ![步驟 11-9](../core/media/tut-step9-of-11.gif "Tut_Step9_of_11")  
@@ -35,7 +36,7 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  因為傳送管線並不會針對該內容檔案執行 AS2 處理，所以要設定 FILE 類型。 該管線只是將內容檔案路由到本機資料夾，以便您可以檢視 EDI 交易集。  
   
-3.  在**FILE 傳輸屬性**對話方塊中，針對**目的地資料夾**、 瀏覽並選取[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\AS2 Tutorial\\_EDIXMLToContoso。 保留**檔案名稱**為**%MessageID%.xml**。 按一下 **[確定]**。  
+3.  在**FILE 傳輸屬性**對話方塊中，針對**目的地資料夾**、 瀏覽並選取[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\AS2 Tutorial\\_EDIXMLToContoso。 保留**檔案名稱**為 **%MessageID%.xml**。 按一下 **[確定]**。  
   
 4.  接受預設值是**PassThruTransmit**如**傳送管線**。  
   

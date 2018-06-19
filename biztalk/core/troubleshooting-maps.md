@@ -1,14 +1,14 @@
 ---
-title: "地圖疑難排解 |Microsoft 文件"
-ms.custom: 
+title: 地圖疑難排解 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 32e2eb52-6740-4cf5-82ec-3b6d0b784276
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974612"
 ---
 # <a name="troubleshooting-maps"></a>地圖疑難排解
 本主題提供對應的疑難排解策略、問題細節和解決方法資訊。  

@@ -1,17 +1,17 @@
 ---
-title: "查詢排程彙總資料 |Microsoft 文件"
-ms.custom: 
+title: 查詢排程彙總資料 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BAM, scheduled data
 - queries [BAM], scheduled data
 ms.assetid: fb785ec0-7862-4d83-bb6f-0ebd69a28ce6
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970860"
 ---
 # <a name="querying-scheduled-aggregated-data"></a>查詢排程的彙總資料
 透過 BAM 分析資料庫中動態建立的 OLAP Cube 可以查詢排程的彙總資料。  

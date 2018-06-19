@@ -1,14 +1,14 @@
 ---
-title: "設定傳送埠關聯 (X12) |Microsoft 文件"
-ms.custom: 
+title: 設定傳送埠關聯 (X12) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 496beb0a-fabf-416e-bc3c-d8537097b50e
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005559"
 ---
 # <a name="configuring-send-port-association-x12"></a>設定傳送埠關聯 (X12)
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 使用傳送埠關聯以解析外寄 EDI 交換的協議。 解析 EDI 交換所用協議的方法是，將訂閱該訊息的傳送埠和與協議相關聯的傳送埠進行比對。 本主題提供如何將傳送埠關聯至協議的指示。  

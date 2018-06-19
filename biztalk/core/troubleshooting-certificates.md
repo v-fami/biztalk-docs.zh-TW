@@ -1,14 +1,14 @@
 ---
-title: "疑難排解憑證 |Microsoft 文件"
-ms.custom: 
+title: 疑難排解憑證 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b7013db6-ebf7-4294-a072-e9b5b0ad0de2
-caps.latest.revision: "26"
+caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975964"
 ---
 # <a name="troubleshooting-certificates"></a>憑證疑難排解
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 可以將公開金鑰基礎結構 (PKI) 數位憑證用於文件加密和解密作業、文件簽署和驗證 (不可否認性) 作業，以及用於合作對象解析作業。 本主題將描述各種憑證使用方式案例和組態選項，並提供搭配 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 使用數位憑證的一些一般性指導方針。  
@@ -30,9 +31,9 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
 |---------------------------|----------------------|------------------------------------|--------------------------|---------------------------------|-------------------------------------------------------------------------------|  
 |加密 (傳送)|與傳送處理常式關聯之主控件執行個體所使用的帳戶|登入執行每一部電腦[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，將要裝載 S/MIME 編碼器管線，並加密憑證匯入**本機電腦 \ 其他人**儲存。|交易夥伴公用憑證|MIME/SMIME 編碼器|-指定的加密憑證值**一般名稱**和**指紋**上**憑證**頁面**傳送埠屬性** 對話方塊。<br />指定管線**編碼**中選項**設定管線** 對話方塊。 **設定管線**旁按一下按鈕會顯示對話方塊**傳送管線**下拉式清單上的**一般**頁面**傳送連接埠內容** 對話方塊。|  
 |解密 (接收)|與接收處理常式關聯之主控件執行個體所使用的帳戶|登入執行每一部電腦[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，server 將要裝載 S/MIME 解碼器管線做為每個主控件執行個體服務帳戶 」，並將解密憑證匯入**目前使用者 \ 個人**儲存。 **注意：** IIS 7.0 電腦上成功解密管線，請確認 IIS 應用程式集區帳戶和相關聯的接收處理常式的主控件執行個體所使用的帳戶都相同，而且此帳戶是的成員\<machineName\>\IIS_WPG 群組。 如需適用於 IIS 7.0 設定 IIS 處理序識別的詳細資訊，請參閱[解決 IIS 權限問題的指導方針](../core/guidelines-for-resolving-iis-permissions-problems.md)。 這些處理序必須在相同的帳戶下執行，以確保可載入帳戶設定檔，而這樣會載入在管線中執行解密所需的登錄機碼。 基於效能的理由，IIS 6.0 在啟動關聯的 w3wp.exe 處理序時，並不會載入帳戶設定檔，如此一來，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 主控件執行個體就必須設定相同的帳戶，好讓 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會載入帳戶設定檔和登錄機碼。|自有私用憑證|MIME/SMIME 解碼器|-指定的解密憑證值**一般名稱**和**指紋**上**憑證**每個頁面**主控件屬性** 對話方塊。<br />指定管線**解碼**中選項**設定管線** 對話方塊。 **設定管線**旁按一下按鈕會顯示對話方塊**接收管線**下拉式清單上的**一般**頁面**接收位置屬性** 對話方塊。|  
-|簽章 (傳送)|與傳送處理常式關聯之主控件執行個體所使用的帳戶|登入執行每一部電腦[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，server 將要裝載 S/MIME 編碼器管線做為每個主控件執行個體服務帳戶 」，並將簽章憑證匯入**目前使用者 \ 個人**儲存。|自有私用憑證|MIME/SMIME 編碼器|-指定的簽章憑證值**一般名稱**和**指紋**上**憑證**頁面**BizTalk 群組屬性** 對話方塊。 **注意：**只有一個簽章憑證可以指定每個[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]群組。<br />指定管線**編碼**中選項**設定管線** 對話方塊。 **設定管線**旁按一下按鈕會顯示對話方塊**傳送管線**下拉式清單上的**一般**頁面**傳送連接埠內容** 對話方塊。|  
-|簽章驗證 (接收)|與接收處理常式關聯之主控件執行個體所使用的帳戶|登入執行每一部電腦[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，將要裝載 S/MIME 解碼器管線，並將簽章憑證匯入**本機電腦 \ 其他人**儲存。|交易夥伴公用憑證|MIME/SMIME 解碼器|-指定的驗證憑證值**一般名稱**和**指紋**上**憑證**每個頁面**合作對象屬性** 對話方塊。<br />指定管線**解碼**中選項**設定管線** 對話方塊。 **設定管線**旁按一下按鈕會顯示對話方塊**接收管線**下拉式清單上的**一般**頁面**接收位置屬性** 對話方塊。 **注意：**組態**解碼**選項必須部署具有 MIME/SMIME 解碼器元件的管線。|  
-|合作對象解析 (接收)|與接收處理常式關聯之主控件執行個體所使用的帳戶|登入[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]電腦從合作對象解析正在設定時，與匯入憑證**本機電腦 \ 其他人**儲存。|交易夥伴公用憑證|合作對象解析|-指定的憑證值**一般名稱**和**指紋**上**憑證**每個頁面**主控件屬性**對話方塊.<br />-指定**解析合作對象**中選項**設定管線** 對話方塊。 **設定管線**旁按一下按鈕會顯示對話方塊**接收管線**下拉式清單上的**一般**頁面**接收位置屬性** 對話方塊。 **注意：**此選項的組態需要使用包含管線**合作對象解析**元件。 **XMLReceive**管線包含**合作對象解析**元件。|  
+|簽章 (傳送)|與傳送處理常式關聯之主控件執行個體所使用的帳戶|登入執行每一部電腦[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，server 將要裝載 S/MIME 編碼器管線做為每個主控件執行個體服務帳戶 」，並將簽章憑證匯入**目前使用者 \ 個人**儲存。|自有私用憑證|MIME/SMIME 編碼器|-指定的簽章憑證值**一般名稱**和**指紋**上**憑證**頁面**BizTalk 群組屬性** 對話方塊。 **注意：** 只有一個簽章憑證可以指定每個[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]群組。<br />指定管線**編碼**中選項**設定管線** 對話方塊。 **設定管線**旁按一下按鈕會顯示對話方塊**傳送管線**下拉式清單上的**一般**頁面**傳送連接埠內容** 對話方塊。|  
+|簽章驗證 (接收)|與接收處理常式關聯之主控件執行個體所使用的帳戶|登入執行每一部電腦[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，將要裝載 S/MIME 解碼器管線，並將簽章憑證匯入**本機電腦 \ 其他人**儲存。|交易夥伴公用憑證|MIME/SMIME 解碼器|-指定的驗證憑證值**一般名稱**和**指紋**上**憑證**每個頁面**合作對象屬性** 對話方塊。<br />指定管線**解碼**中選項**設定管線** 對話方塊。 **設定管線**旁按一下按鈕會顯示對話方塊**接收管線**下拉式清單上的**一般**頁面**接收位置屬性** 對話方塊。 **注意：** 組態**解碼**選項必須部署具有 MIME/SMIME 解碼器元件的管線。|  
+|合作對象解析 (接收)|與接收處理常式關聯之主控件執行個體所使用的帳戶|登入[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]電腦從合作對象解析正在設定時，與匯入憑證**本機電腦 \ 其他人**儲存。|交易夥伴公用憑證|合作對象解析|-指定的憑證值**一般名稱**和**指紋**上**憑證**每個頁面**主控件屬性**對話方塊.<br />-指定**解析合作對象**中選項**設定管線** 對話方塊。 **設定管線**旁按一下按鈕會顯示對話方塊**接收管線**下拉式清單上的**一般**頁面**接收位置屬性** 對話方塊。 **注意：** 此選項的組態需要使用包含管線**合作對象解析**元件。 **XMLReceive**管線包含**合作對象解析**元件。|  
 |HTTPS (傳送)|與傳送處理常式關聯之主控件執行個體所使用的帳戶|SSL 通訊不需要用戶端憑證。 是否需要用戶端憑證是由目的地 Web 伺服器管理員自由決定。 如果目的地 Web 伺服器需要用戶端憑證，請遵循下列步驟：<br /><br /> -從交易夥伴取得公用憑證。<br />-登入執行每一部電腦[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]為相關聯的傳送處理常式的主控件執行個體所使用的帳戶。<br />匯入憑證**目前使用者 \ 個人**儲存。<br /><br /> 如需如何使用 Windows Server 2008 憑證服務網頁取得憑證資訊，請參閱[要求憑證透過網頁](http://go.microsoft.com/fwlink/?LinkId=129628)。|交易夥伴公用憑證|NA|-   **HTTP 傳輸**-設定**SSL 用戶端憑證指紋**選項**驗證** 索引標籤**HTTP 傳輸屬性**對話方塊. **HTTP 傳輸屬性**會顯示對話方塊，即可**設定**按鈕**一般**頁面**傳送埠屬性**  對話方塊。<br />-   **SOAP 傳輸**-設定**用戶端憑證指紋**選項**一般** 索引標籤**SOAP 傳輸屬性** 對話方塊。 **SOAP 傳輸屬性**會顯示對話方塊，即可**設定**按鈕**一般**頁面**傳送埠屬性**  對話方塊。|  
   
 #### <a name="to-display-the-certificates-management-console-interface-for-local-computer-and-current-user"></a>顯示 [本機電腦] 和 [目前使用者] 的 [憑證管理主控台] 介面  

@@ -1,11 +1,11 @@
 ---
-title: "規則引擎組態和調整參數 |Microsoft 文件"
-ms.custom: 
+title: 規則引擎組態和調整參數 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - troubleshooting, registry keys
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - validating, business rules
 - business rules, validating
 ms.assetid: cb0bcffe-bbc6-4495-84d2-2a822c3413b3
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270334"
 ---
 # <a name="rule-engine-configuration-and-tuning-parameters"></a>規則引擎組態和調整參數
 下表包含登錄機碼的清單，這對於組態驗證和疑難排解相當有用。 這些登錄機碼會儲存在**HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\BusinessRules\3.0**。  
@@ -51,9 +52,9 @@ ms.lasthandoff: 09/20/2017
 |DeploymentDriverClass|部署驅動程式的類別名稱。|Microsoft.RuleEngine.RuleSetDeploymentDriver|Microsoft.BizTalk.RuleEngineExtensions.RuleSetDeploymentDriver|  
 |TrackingInterceptorAssembly|追蹤攔截器的組件名稱。|(空字串)|Microsoft.BizTalk.RuleEngineExtensions|  
 |TrackingInterceptorClass|追蹤攔截器的類別名稱。|(空字串)|Microsoft.BizTalk.RuleEngineExtensions.RuleSetTrackingInterceptor|  
-|TranslationTimeout|可以用來轉譯規則集的最大時間 (以毫秒為單位)。 **注意：**這可以使用 rulesetconfiguration 以覆寫每個規則集為基礎)。|60000 (1 分鐘)|60000|  
+|TranslationTimeout|可以用來轉譯規則集的最大時間 (以毫秒為單位)。 **注意：** 這可以使用 rulesetconfiguration 以覆寫每個規則集為基礎)。|60000 (1 分鐘)|60000|  
 |UpdateServiceName|.NET 遠端用來尋找服務的「更新」服務名稱。|RemoteUpdateService|RemoteUpdateService|  
-|UpdateServiceHost|.NET 遠端用來尋找服務的「更新」服務主機電腦。 **注意：**服務目前限制傳入訊息到同一部電腦。|localhost|localhost|  
+|UpdateServiceHost|.NET 遠端用來尋找服務的「更新」服務主機電腦。 **注意：** 服務目前限制傳入訊息到同一部電腦。|localhost|localhost|  
 |UpdateServicePort|.NET 遠端用來尋找服務之「更新」服務所使用的 TCP 連接埠編號。|3132|3132|  
 |CacheEntries|「更新」服務快取的規則集最大值。|32|32|  
 |CacheTimeout|項目超過「更新」服務快取的時間 (以秒計)。|3600 (1 小時)|3600|  

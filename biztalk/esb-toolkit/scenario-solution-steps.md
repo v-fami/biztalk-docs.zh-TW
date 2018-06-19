@@ -1,14 +1,14 @@
 ---
-title: "實例解決方案步驟 |Microsoft 文件"
-ms.custom: 
+title: 實例解決方案步驟 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 77751c15-9b67-4587-8bc8-2be65f13d339
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294838"
 ---
 # <a name="scenario-solution-steps"></a>實例解決方案的步驟
 在 ESB 例外狀況管理架構提供簡單的解決方案來處理例外狀況，當發票訊息包含無效的資料在處理期間，會造成錯誤，如本主題稍早所述。 以下是您可能需要的其中一個方法：  

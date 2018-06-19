@@ -1,18 +1,18 @@
 ---
-title: "SMTP 配接器安全性建議 |Microsoft 文件"
-ms.custom: 
+title: SMTP 配接器安全性建議 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring [SMTP adapters], security
 - SMTP adapters, security
 - security, SMTP adapters
 ms.assetid: 45f13744-a0eb-4b4e-85cd-6b862b384ad5
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22276494"
 ---
 # <a name="smtp-adapter-security-recommendations"></a>SMTP 配接器安全性建議
 您使用 SMTP 配接器透過 Simple Mail Transfer Protocol (SMTP) 通訊協定，交換執行 BizTalk Server 的伺服器與其他應用程式之間的資訊。 BizTalk Server 可建立電子郵件訊息並將它傳送到指定的電子郵件地址，將訊息傳送到其他應用程式。 您只可將 SMTP 配接器用於傳送訊息。 如需有關 SMTP 配接器的詳細資訊，請參閱[SMTP 配接器](../core/smtp-adapter.md)。  

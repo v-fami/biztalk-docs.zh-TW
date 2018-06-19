@@ -8,15 +8,16 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ec290d38-0220-4bf2-b596-2d6453e51c8d
-caps.latest.revision: ''
+caps.latest.revision: 3
 author: gplarsen
 ms.author: hisdocs; plarsen
 manager: anneta
 ms.openlocfilehash: d0632f7e4217cb9bbccd2ee604688f22eb6de348
 ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "30250978"
 ---
 # <a name="how-to-delete-an-affiliate-application"></a>如何刪除分支機構應用程式
 使用 MMC 嵌入式管理單元或**deleteapps**認證資料庫中刪除指定的分支機構應用程式的命令。  
@@ -43,7 +44,7 @@ ms.lasthandoff: 03/28/2018
   
      預設安裝目錄是*\<磁碟機 >*: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-3.  型別`ssomanage –deleteapp <application name>`，其中*\<應用程式名稱 >*是您想要移除認證資料庫中的分支機構應用程式的名稱。  
+3.  型別`ssomanage –deleteapp <application name>`，其中*\<應用程式名稱 >* 是您想要移除認證資料庫中的分支機構應用程式的名稱。  
   
 ## <a name="see-also"></a>另請參閱  
  [SSO 分支機構應用程式](../esso/sso-affiliate-applications.md)   

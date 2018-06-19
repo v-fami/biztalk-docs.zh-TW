@@ -1,14 +1,14 @@
 ---
-title: "使用 IntelliSense 建立攔截器組態檔 |Microsoft 文件"
-ms.custom: 
+title: 使用 IntelliSense 建立攔截器組態檔 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 349ea1bf-a5d1-4464-bf4b-d8746c622377
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287966"
 ---
 # <a name="using-intellisense-to-create-an-interceptor-configuration-file"></a>使用 IntelliSense 建立攔截器組態檔
 您可以使用 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 中的 IntelliSense 和結構描述驗證，協助您建構結構描述上有效的攔截器組態檔。 BAM 管理公用程式會對照基本攔截器組態結構描述驗證您的攔截器組態檔，而且如果檔案無效，則不會部署結構描述。 如果檔案通過基本攔截器組態結構描述的驗證，則會在執行階段對照技術專屬結構描述 (如 [!INCLUDE[firstref_btsWinWorkflowFoundation](../includes/firstref-btswinworkflowfoundation-md.md)] 結構描述或 [!INCLUDE[firstref_btsWinCommFoundation](../includes/firstref-btswincommfoundation-md.md)] 結構描述) 進行驗證，而如果發生錯誤，則不會進行攔截。 您可以在建構攔截器組態檔時，使用 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 中的結構描述驗證來避開這些錯誤。  

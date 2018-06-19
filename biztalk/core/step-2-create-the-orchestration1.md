@@ -1,14 +1,14 @@
 ---
-title: "步驟 2： 建立 Orchestration1 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 建立 Orchestration1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a88cafbb-3b6f-4d27-8516-79a2391b4e31
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22276486"
 ---
 # <a name="step-2-create-the-orchestration"></a>步驟 2： 建立協調流程
 協調流程設定使用名為 BeginDocTest 的專案，包括下列項目：  

@@ -1,14 +1,14 @@
 ---
-title: "ImportApp 命令 |Microsoft 文件"
-ms.custom: 
+title: ImportApp 命令 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e8ee5a78-1e8f-4290-b70a-36f2f888a1d6
-caps.latest.revision: "28"
+caps.latest.revision: 28
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257870"
 ---
 # <a name="importapp-command"></a>ImportApp 命令
 將 .msi 檔案中所包含的成品匯入 BizTalk 應用程式中。 如果應用程式不存在，會予以建立。  
@@ -43,12 +44,12 @@ ms.lasthandoff: 09/20/2017
   
 |參數|Required|值|  
 |---------------|--------------|-----------|  
-|**/ 封裝**(或**/P**，請參閱 < 備註 >)|是|.msi 檔案的完整路徑。 如果路徑包含空格，您必須將它括在雙引號 (") 中。 範例："C:\My MSI Files\MyApplication.msi"|  
-|**/ 環境**(或**/E**，請參閱 < 備註 >)|否|所套用之繫結檔案的目標部署環境，例如 Test。 此值係針對已加入應用程式中的繫結檔案指定其目標部署環境。 如果沒有指定，將會套用所有未指定部署環境的繫結。|  
-|**/ ApplicationName** (或**/A**，請參閱 < 備註 >)|否|要從 .msi 檔案匯入成品的 BizTalk 應用程式的名稱。 如果名稱包含空格，您必須將它括在雙引號 (") 中。 如果沒有指定，將會使用預設的應用程式。 如果指定的應用程式不存在，會自動建立應用程式。|  
-|**/ 覆寫**(或**/O**，請參閱 < 備註 >)|否|此選項指定以 .msi 檔案中，本機唯一識別碼 (LUID) 相同的成品覆寫應用程式中的成品。 您也可以使用應用程式中檢視之成品的 Luid [ListApp 命令](../core/listapp-command.md)。 若未指定此選項，且應用程式中有一或多個成品與 .msi 檔案中的成品具有相同的 LUID，匯入就會失敗。|  
-|**/ 伺服器**(或**/S**，請參閱 < 備註 >)|否|裝載 BizTalk 管理資料庫之 SQL Server 執行個體的名稱，其格式為：伺服器名稱\執行個體名稱,連接埠。<br /><br /> 只有在執行個體名稱和伺服器名稱不同時，才需要執行個體名稱。 只有在 SQL Server 使用預設值 (1433) 以外的連接埠編號時，才需要連接埠。<br /><br /> 範例:<br /><br /> Server=MyServer<br /><br /> Server=MyServer\MySQLServer,1533<br /><br /> 如果不提供，將會使用在本機電腦上執行的 SQL Server 執行個體的名稱。|  
-|**/ 資料庫**(或**/D**，請參閱 < 備註 >)|否|BizTalk 管理資料庫的名稱。 如果沒有指定，將會使用在 SQL Server 本機執行個體中執行的 BizTalk 管理資料庫。|  
+|**/ 封裝**(或 **/P**，請參閱 < 備註 >)|是|.msi 檔案的完整路徑。 如果路徑包含空格，您必須將它括在雙引號 (") 中。 範例："C:\My MSI Files\MyApplication.msi"|  
+|**/ 環境**(或 **/E**，請參閱 < 備註 >)|否|所套用之繫結檔案的目標部署環境，例如 Test。 此值係針對已加入應用程式中的繫結檔案指定其目標部署環境。 如果沒有指定，將會套用所有未指定部署環境的繫結。|  
+|**/ ApplicationName** (或 **/A**，請參閱 < 備註 >)|否|要從 .msi 檔案匯入成品的 BizTalk 應用程式的名稱。 如果名稱包含空格，您必須將它括在雙引號 (") 中。 如果沒有指定，將會使用預設的應用程式。 如果指定的應用程式不存在，會自動建立應用程式。|  
+|**/ 覆寫**(或 **/O**，請參閱 < 備註 >)|否|此選項指定以 .msi 檔案中，本機唯一識別碼 (LUID) 相同的成品覆寫應用程式中的成品。 您也可以使用應用程式中檢視之成品的 Luid [ListApp 命令](../core/listapp-command.md)。 若未指定此選項，且應用程式中有一或多個成品與 .msi 檔案中的成品具有相同的 LUID，匯入就會失敗。|  
+|**/ 伺服器**(或 **/S**，請參閱 < 備註 >)|否|裝載 BizTalk 管理資料庫之 SQL Server 執行個體的名稱，其格式為：伺服器名稱\執行個體名稱,連接埠。<br /><br /> 只有在執行個體名稱和伺服器名稱不同時，才需要執行個體名稱。 只有在 SQL Server 使用預設值 (1433) 以外的連接埠編號時，才需要連接埠。<br /><br /> 範例:<br /><br /> Server=MyServer<br /><br /> Server=MyServer\MySQLServer,1533<br /><br /> 如果不提供，將會使用在本機電腦上執行的 SQL Server 執行個體的名稱。|  
+|**/ 資料庫**(或 **/D**，請參閱 < 備註 >)|否|BizTalk 管理資料庫的名稱。 如果沒有指定，將會使用在 SQL Server 本機執行個體中執行的 BizTalk 管理資料庫。|  
   
 ## <a name="sample"></a>範例  
  **BTSTask 的 ImportApp /Package:C:\MSI\MyApplication.msi /Environment:Test /applicationname: myapplication / 覆寫**  

@@ -1,14 +1,14 @@
 ---
-title: "使用現有的節點 |Microsoft 文件"
-ms.custom: 
+title: 使用現有的節點 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 19e9cdb6-011f-4317-8e0a-3dbb852a0e4b
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289374"
 ---
 # <a name="working-with-existing-nodes"></a>處理現有節點
 將節點放置到結構描述樹狀結構之後，可能需要將節點移動到不同的位置、將之重新命名等等。 本節提供這類常見工作的逐步指示。  

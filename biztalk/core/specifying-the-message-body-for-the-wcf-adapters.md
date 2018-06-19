@@ -13,7 +13,7 @@ helpviewer_keywords:
 - WCF adapters, message bodies
 - SOAP messages, WCF adapters
 ms.assetid: b20364b7-0365-4636-b4d6-bde9c69b8dcb
-caps.latest.revision: ''
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25975532"
 ---
 # <a name="specifying-the-message-body-for-the-wcf-adapters"></a>指定 WCF 配接器的訊息內文
 您可以使用 **訊息** WCF 配接器，來指定如何從內送的 SOAP 訊息中擷取 BizTalk 訊息內文中的索引標籤上，而 BizTalk 訊息內文的方式放在傳出 SOAP 訊息。  
@@ -49,7 +50,7 @@ ms.lasthandoff: 03/23/2018
 > [!NOTE]
 >  如 **內文路徑運算式** 屬性，僅支援適用於順向處理 XML 的運算式的 XPath。 如需有關這個屬性可以使用 XPath 運算式的詳細資訊，請查看 「 最佳的同時世界:: 結合 XPath 與 XmlReader" [ http://go.microsoft.com/fwlink/?LinkID=75701 ](http://go.microsoft.com/fwlink/?LinkID=75701)。  
   
- 如果 **路徑--內容由內文路徑定位** 選項和 **節點編碼** 屬性設定為 **字串**, ，WCF 配接器預期相符的節點有 utf-8 編碼字元資料。 如果內送訊息包含逸出 XML 特殊字元的字元資料這類\<和\>，WCF 配接器建立 BizTalk 訊息內文部分時，還原逸出的字元資料。 例如，如果相符的節點有逸出字元資料這類**&lt;FirstName&gt;CONTOSO&lt;/FirstName&gt;** WCF 配接器建立**\<FirstName\>CONTOSO\</FirstName\>**輸入 biztalk 訊息內文。  
+ 如果 **路徑--內容由內文路徑定位** 選項和 **節點編碼** 屬性設定為 **字串**, ，WCF 配接器預期相符的節點有 utf-8 編碼字元資料。 如果內送訊息包含逸出 XML 特殊字元的字元資料這類\<和\>，WCF 配接器建立 BizTalk 訊息內文部分時，還原逸出的字元資料。 例如，如果相符的節點有逸出字元資料這類**&lt;FirstName&gt;CONTOSO&lt;/FirstName&gt;** WCF 配接器建立**\<FirstName\>CONTOSO\</FirstName\>** 輸入 biztalk 訊息內文。  
   
  如果 **路徑--內容由內文路徑定位** 選項和 **節點編碼** 屬性設定為 **Hex** 或 **Base64**, ，相符的節點可以有一個有效 **BinHex** 或 **Base64** 順序。 如果相符的節點有無效的序列，WCF 用戶端會收到 **FaultException**, 、 錯誤訊息會記錄在事件記錄檔，在 BizTalk Server 電腦，並不會擱置訊息。  
   

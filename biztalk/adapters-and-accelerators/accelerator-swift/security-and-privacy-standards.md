@@ -1,11 +1,11 @@
 ---
-title: "安全性與隱私權的標準 |Microsoft 文件"
-ms.custom: 
+title: 安全性與隱私權的標準 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, privacy standards
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - BizTalk Accelerator for SWIFT, security
 - security, BizTalk Accelerator for SWIFT
 ms.assetid: 5794b25f-8a73-4f5b-97ef-1b0f61775c4b
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005311"
 ---
 # <a name="security-and-privacy-standards"></a>安全性與隱私權的標準
 財務服務應用程式和整合解決方案開發使用[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]通常受到原生[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]安全性功能。 [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]會使用積極的安全性機制，例如既定網際網路加密訊息標準及傳輸通訊協定簽署憑證，[!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)]驗證，以及企業單一登入安全[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]應用程式、 資料和執行階段。  

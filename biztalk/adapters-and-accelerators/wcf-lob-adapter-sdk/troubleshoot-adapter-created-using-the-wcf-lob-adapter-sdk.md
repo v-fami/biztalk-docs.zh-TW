@@ -1,14 +1,14 @@
 ---
-title: "使用 WCF LOB 配接器 SDK 所建立的配接器進行疑難排解 |Microsoft 文件"
-ms.custom: 
+title: 使用 WCF LOB 配接器 SDK 所建立的配接器進行疑難排解 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 985db7dd-975f-44f2-82fe-f7be1fc3e0ee
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223454"
 ---
 # <a name="troubleshoot-adapter-created-using-the-wcf-lob-adapter-sdk"></a>使用 WCF LOB 配接器 SDK 所建立的配接器進行疑難排解
 本章節描述的疑難排解資訊[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。 它包含問題和解決方案的效能計數器和追蹤。  

@@ -1,14 +1,14 @@
 ---
-title: "在處理傳送埠上的 Edifact 訊息發生失敗： 沒有合作對象名稱 |Microsoft 文件"
-ms.custom: 
+title: 在處理傳送埠上的 Edifact 訊息發生失敗： 沒有合作對象名稱 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 678baacb-1f21-4081-b788-ef346c3598ca
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005151"
 ---
 # <a name="a-failure-occurred-in-processing-edifact-message-on-send-port-no-party-with-name"></a>在處理傳送埠上的 Edifact 訊息發生失敗： 沒有合作對象名稱
 ## <a name="details"></a>詳細資料  

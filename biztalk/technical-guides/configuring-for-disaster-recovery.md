@@ -1,14 +1,14 @@
 ---
-title: "設定災害復原 |Microsoft 文件"
-ms.custom: 
+title: 設定災害復原 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: acdafe68-c8bf-4064-afca-6dfd22d15052
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010951"
 ---
 # <a name="configuring-for-disaster-recovery"></a>設定災害復原
 BizTalk Server 記錄傳送功能延伸現有的備份[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]作業。 BizTalk Server 記錄傳送就不需要手動還原一系列的備份作業所產生的備份組，並在系統失敗時減少停機時間。 BizTalk Server 記錄傳送是 BizTalk 嚴重損壞修復程序的重要元件。  

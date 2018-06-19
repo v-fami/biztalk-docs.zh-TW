@@ -1,11 +1,11 @@
 ---
-title: "BTARN 接收管線 |Microsoft 文件"
-ms.custom: 
+title: BTARN 接收管線 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BTARN, receive pipelines
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - MessageUpdater component
 - messages, message flow
 ms.assetid: 811f2a6a-ddd2-49cc-a00b-4c9d0110a0d1
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005623"
 ---
 # <a name="btarn-receive-pipeline"></a>BTARN 接收管線
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]執行 RosettaNet 實作架構 (RNIF) 訊息接收，會使用 RNIFReceive 管線 (RNIFReceive.btp)。 接收管線包含下列元件：  

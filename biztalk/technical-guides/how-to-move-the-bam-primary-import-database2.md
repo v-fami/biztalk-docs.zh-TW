@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bc4f2656-2faa-4503-9551-05e1b6eceb1a
-caps.latest.revision: ''
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26010871"
 ---
 # <a name="how-to-move-the-bam-primary-import-database"></a>如何移動 BAM 主要匯入資料庫
 您可以使用這個程序，將 BAM 主要匯入資料庫移動到其他伺服器。 端對端案例的觀點而言，移動 BAM 主要匯入資料庫包含兩個主要步驟：  
@@ -210,7 +211,7 @@ ms.lasthandoff: 03/28/2018
   
 3.  在 [物件總管] 中，依序展開**資料庫**，依序展開**BAMAnalysis**，依序展開**資料來源**，然後按兩下資料來源。  
   
-4.  在**資料來源屬性**對話方塊方塊中，按一下省略符號按鈕**（...）**針對**連接字串**屬性。  
+4.  在**資料來源屬性**對話方塊方塊中，按一下省略符號按鈕 **（...）** 針對**連接字串**屬性。  
   
 5.  中**連接管理員**對話方塊中，於**伺服器名稱**方塊中，輸入裝載 BAMPrimaryImport 資料庫的伺服器名稱，按一下**確定**，然後按一下  **確定**。  
   

@@ -1,14 +1,14 @@
 ---
-title: "如何使用自我相互關聯直接繫結連接埠 |Microsoft 文件"
-ms.custom: 
+title: 如何使用自我相互關聯直接繫結連接埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: feb651fa-3e35-4598-b229-335448f6919c
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257134"
 ---
 # <a name="how-to-use-self-correlating-direct-bound-ports"></a>如何使用自我相互關聯的直接繫結連接埠
 自我相互關聯的直接繫結連接埠是自我參考的。 這代表自我相互關聯的直接繫結連接埠會提供資訊，供協調流程將訊息傳回包含它的協調流程。 使用自我相互關聯的直接繫結時，協調流程引擎會在協調流程執行個體特定的訊息上產生相互關聯 Token。 這樣就可以將訊息傳回特定的協調流程執行個體，而不需使用相互關聯集合。  

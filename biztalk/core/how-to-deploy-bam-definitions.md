@@ -1,11 +1,11 @@
 ---
-title: "如何部署 BAM 定義 |Microsoft 文件"
-ms.custom: 
+title: 如何部署 BAM 定義 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, definitions [BAM]
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - definitions [BAM], deploying
 - Deploy-All command [BAM]
 ms.assetid: 02b8888c-6f6c-45dd-8445-6e507a02f5f0
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970734"
 ---
 # <a name="how-to-deploy-bam-definitions"></a>如何部署 BAM 定義
 系統管理員使用**deploy-all-definitionfile**從活頁簿匯出 BAM 管理公用程式命令，以部署 BAM 定義從 Excel 活頁簿或 XML 定義檔。 當您執行 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 完整安裝時，組態精靈會自動設定 BAM 組態 XML。  

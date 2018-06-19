@@ -1,11 +1,11 @@
 ---
-title: "如何檢視應用程式的對應 |Microsoft 文件"
-ms.custom: 
+title: 如何檢視應用程式的對應 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - maps, applications
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - maps, viewing
 - managing [maps], applications
 ms.assetid: 9a8eed52-b8e1-414d-9a47-2c2be9d49cbe
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256726"
 ---
 # <a name="how-to-view-the-maps-for-an-application"></a>如何檢視應用程式的對應
 本主題描述如何使用 [BizTalk Server 管理] 主控台，檢視 BizTalk 應用程式中所包含的對應。  

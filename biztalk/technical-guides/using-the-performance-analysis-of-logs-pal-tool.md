@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d563aa7d-102d-4fe6-a892-66794feaf83b
-caps.latest.revision: ''
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26010711"
 ---
 # <a name="using-the-performance-analysis-of-logs-pal-tool"></a>使用記錄檔 (PAL) 工具的效能的分析
 PAL （效能分析的記錄檔） 工具讀入效能監視器計數器記錄檔 （任何已知的格式），並且會使用複雜，但已知臨界值 （提供） 加以分析。 此工具會產生 HTML 基礎報表，以圖形方式圖表重要的效能計數器，並擲回警示時已超過閾值。 臨界值最初根據 Microsoft 產品團隊，包括所定義的臨界值[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，而且屬於 Microsoft 支援。 此工具不是傳統的效能分析的取代，但它會自動分析的效能計數器記錄足以協助節省時間。 PAL 工具：  
@@ -80,7 +81,7 @@ PAL （效能分析的記錄檔） 工具讀入效能監視器計數器記錄檔
 |Microsoft BizTalk Server: BizTalk 高程序記憶體|節流臨界值 設定的 BizTalk 處理序記憶體使用量會是記憶體的與工作集大小和處理序的總可用虛擬記憶體的總和，如果輸入從 1 到 100 的值使用百分比。 當指定某個百分比值時，則會以定期間隔重新計算程序記憶體閾值。 這項分析會檢查 1 高的處理序記憶體計數器的值。 如需詳細資訊，請參閱 BizTalk 高的處理序記憶體分析本主題中。|  
 |Microsoft BizTalk Server: BizTalk 高系統記憶體|BizTalk 的實體記憶體使用量節流臨界值設定為輸入則是從 1 到 100 相較於可用的實體記憶體的值如果總數量的記憶體耗用量的百分比。 如果輸入大於 100 的值，此設定也可以是以 mb 為單位的可用實體記憶體總數。 輸入值為 0 時可停用以實體記憶體使用量為基礎的節流。 預設值是 0。 如需詳細資訊，請參閱 BizTalk 高系統記憶體分析本主題中。|  
 |Microsoft BizTalk Server: BizTalk 高執行緒計數|[每一 CPU 的執行緒] 是在主機處理程序包括使用配接器之執行緒的執行緒總數。 如果超過此閾值，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]會嘗試減少 EPM 執行緒集區和訊息代理程式 」 執行緒集區的大小。 在高負載可能導致建立大量執行緒的情況時，應啟用以執行緒為基礎的節流。 此參數會同時影響輸入和輸出節流。 執行緒為基礎的節流預設為停用。 如需詳細資訊，請參閱 BizTalk 高執行緒計數分析本主題中。|  
-|Microsoft BizTalk Server: BizTalk 主控件佇列長度|BizTalk 主控件佇列長度會追蹤特定主控件佇列中的訊息總數。 您可以使用長度的大小 （也就是 ' BizTalk:MessageBox:HostCounters:Host 佇列 – 長度 '） 來提供深度的正在排在內部，以顯示為個別主機的佇列深度的訊息數目的更詳細的檢視。 此計數器可以用來判斷特定主機的瓶頸。 假設唯一主機使用的是每個傳輸，這可以是很有幫助判斷潛在傳輸瓶頸。 這項分析會檢查平均佇列長度大於 1。 主控件佇列長度是在目標主機的彙總所有佇列的 (工作 Q，狀態 Q 暫停 Q) 的記錄計數加權的佇列長度。<br /><br /> 參考： BizTalk Server 2006： 管理在成功的效能實驗室[ http://go.microsoft.com/fwlink/?linkid=104152 ](http://go.microsoft.com/fwlink/?linkid=104152) **附註：**這份技術白皮書也會套用到 BizTalk 伺服器。|  
+|Microsoft BizTalk Server: BizTalk 主控件佇列長度|BizTalk 主控件佇列長度會追蹤特定主控件佇列中的訊息總數。 您可以使用長度的大小 （也就是 ' BizTalk:MessageBox:HostCounters:Host 佇列 – 長度 '） 來提供深度的正在排在內部，以顯示為個別主機的佇列深度的訊息數目的更詳細的檢視。 此計數器可以用來判斷特定主機的瓶頸。 假設唯一主機使用的是每個傳輸，這可以是很有幫助判斷潛在傳輸瓶頸。 這項分析會檢查平均佇列長度大於 1。 主控件佇列長度是在目標主機的彙總所有佇列的 (工作 Q，狀態 Q 暫停 Q) 的記錄計數加權的佇列長度。<br /><br /> 參考： BizTalk Server 2006： 管理在成功的效能實驗室[ http://go.microsoft.com/fwlink/?linkid=104152 ](http://go.microsoft.com/fwlink/?linkid=104152) **附註：** 這份技術白皮書也會套用到 BizTalk 伺服器。|  
 |Microsoft BizTalk Server: BizTalk 主控件擱置郵件佇列長度|此計數器會追蹤特定主控件的擱置的訊息總數。 擱置的訊息是訊息或協調流程的執行個體，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]已停止處理因錯誤而在系統或訊息。 一般來說，因系統錯誤而擱置的執行個體會在系統問題獲得解決後繼續。 通常，因訊息有問題而擱置的執行個體不會繼續執行，而且必須修正訊息本身，並重新提交至[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統。<br /><br /> 擱置的訊息佇列是包含的錯誤或失敗期間發生未處理的工作項目。 訊息擱置佇列會儲存訊息直到修正和重新處理或是刪除後為止。 這項分析會檢查擱置的任何的訊息項目。 增加的趨勢可能表示嚴重處理錯誤。<br /><br /> 參考： BizTalk Server 2004： 監視和疑難排解於 [http://go.microsoft.com/fwlink/?linkid=108771](http://go.microsoft.com/fwlink/?linkid=108771)|  
 |BizTalk Server: BizTalk 閒置協調流程|目前由主控件執行個體裝載而閒置的協調流程執行個體數。 此計數器是指不進行進度，但不是可凍結的協調流程。 可能會發生這種情況下，協調流程遭到封鎖時，等待接收，接聽或不可部分完成的交易的延遲時間。 如果大量的非可凍結的協調流程會累積，BizTalk 可能用盡記憶體。<br /><br /> 凍結是將協調流程狀態序列化到 SQL Server 資料庫中的程序。 解除凍結是此程序的反向︰ 還原序列化的協調流程從資料庫上次執行狀態。 凍結是藉由減少必須一次在記憶體中產生的協調流程數目，來將系統資源的使用降至最低。 引擎會儲存狀態以凍結執行個體，並釋出執行個體所需的記憶體。 透過凍結休眠的協調流程執行個體，引擎就可以讓大量的長時間執行之商務程序在相同電腦上同時執行。 這項分析會檢查遞增趨勢的一個每小時的閒置協調流程。<br /><br /> 參考： 協調流程凍結和解除凍結在  [http://go.microsoft.com/fwlink/?LinkId=155284](http://go.microsoft.com/fwlink/?LinkId=155284)|  
 |BizTalk Server: BizTalk 輸入延遲|平均延遲 （毫秒），傳訊引擎收到文件從配接器之前發佈到 MessageBox 的時間。 降低延遲很重要的 BizTalk 中，某些使用者因此追蹤時間文件花費輸入配接器中很重要。 如需詳細資訊，請參閱 BizTalk 輸入延遲分析本主題中。|  

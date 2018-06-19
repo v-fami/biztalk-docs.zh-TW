@@ -1,11 +1,11 @@
 ---
-title: "管理 （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: 管理 （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SSO, examples
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - examples, SSO
 - SSOMANAGE command line utility
 ms.assetid: f738e344-4d81-4557-b399-68b59c413245
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970964"
 ---
 # <a name="manage-biztalk-server-sample"></a>管理 （BizTalk Server 範例）
 「管理單一登入 (SSO)」範例會示範如何建構 .xml 檔案，這類檔案可以與 ssomanage.exe 命令列公用程式搭配使用，執行下列類型的系統管理作業：  
@@ -40,7 +41,7 @@ ms.lasthandoff: 11/28/2017
  這個範例會針對其中各種作業類型，分別提供一對 XSD 和範例 .xml 檔案。 範例 .xml 檔案中的值是無效的。 您必須變更這些值，才能符合您的特定需求。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- *\<範例路徑\>*\SSO\Manage\  
+ *\<範例路徑\>* \SSO\Manage\  
   
  下表顯示此範例中的檔案，並描述其用途。  
   

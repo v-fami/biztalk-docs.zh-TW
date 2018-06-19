@@ -1,18 +1,18 @@
 ---
-title: "如何設定活動視窗的持續時間 |Microsoft 文件"
-ms.custom: 
+title: 如何設定活動視窗的持續時間 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Set-ActivityWindow command [BAM]
 - activities [BAM], time intervals
 - managing [BAM], time intervals
 ms.assetid: e39c315e-f215-4f81-9774-cf7aedf6ba33
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972036"
 ---
 # <a name="how-to-set-the-duration-on-an-activity-window"></a>如何設定活動視窗的持續時間
 系統管理員使用**組 activitywindow**命令設定指定之活動的持續時間。  

@@ -1,14 +1,14 @@
 ---
-title: "使用 BizTalk ESB Toolkit 公用程式 |Microsoft 文件"
-ms.custom: 
+title: 使用 BizTalk ESB Toolkit 公用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c2dc05ac-831a-44e1-bd44-e41398552ab1
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976684"
 ---
 # <a name="using-the-biztalk-esb-toolkit-utilities"></a>使用 BizTalk ESB Toolkit 公用程式
 本章節描述各種公用程式的一部分加入[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]。  

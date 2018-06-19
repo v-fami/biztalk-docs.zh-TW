@@ -1,18 +1,18 @@
 ---
-title: "啟動傳送埠 （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: 啟動傳送埠 （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - send ports, examples
 - examples, send ports
 - send ports, starting
 ms.assetid: 84e54c9e-e9e8-4bb2-a191-20c29e127dae
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973876"
 ---
 # <a name="start-send-port-biztalk-server-sample"></a>啟動傳送埠 （BizTalk Server 範例）
 「啟動傳送埠」範例示範如何在使用 FILE 配接器時啟動傳送埠並選擇性地設定主要傳輸位址。  

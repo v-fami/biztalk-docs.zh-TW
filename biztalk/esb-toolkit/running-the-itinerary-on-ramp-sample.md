@@ -1,14 +1,14 @@
 ---
-title: "執行路線上手範例 |Microsoft 文件"
-ms.custom: 
+title: 執行路線上手範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 700e4625-ca5b-4d5f-963e-4c63c7dd6ec8
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294574"
 ---
 # <a name="running-the-itinerary-on-ramp-sample"></a>執行路線上手範例
 行程上手範例會使用 Windows Form 測試用戶端應用程式 （路線測試用戶端） 示範路線服務的功能，並包含 20 的預先定義的計劃使用案例，您可以執行。  

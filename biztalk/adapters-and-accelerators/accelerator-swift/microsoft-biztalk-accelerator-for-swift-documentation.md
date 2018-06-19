@@ -1,15 +1,15 @@
 ---
-title: "Microsoft BizTalk Accelerator for SWIFT 的文件 |Microsoft 文件"
-description: "若要安裝、 設定、 部署、 開始、 安全、 開發、 快速連結和疑難排解 BizTalk Server 中的此 SWIFT 加速器"
-ms.custom: 
+title: Microsoft BizTalk Accelerator for SWIFT 的文件 |Microsoft 文件
+description: 若要安裝、 設定、 部署、 開始、 安全、 開發、 快速連結和疑難排解 BizTalk Server 中的此 SWIFT 加速器
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a742cd84-a159-461b-a410-6e75a45e7d8b
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006479"
 ---
 # <a name="microsoft-biztalk-accelerator-for-swift-documentation"></a>Microsoft BizTalk Accelerator for SWIFT 的文件
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]是增益集來[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server 中，並利用開放式標準為基礎的工具和 BizTalk Server 實作全球 Interbank 財務 Telecommunication (SWIFT) 訊息格式協會支援執行階段功能.  
