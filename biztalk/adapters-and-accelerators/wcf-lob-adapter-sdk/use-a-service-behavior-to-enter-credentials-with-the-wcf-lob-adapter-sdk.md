@@ -1,14 +1,14 @@
 ---
-title: "使用服務行為來輸入認證，與 WCF LOB 配接器 SDK |Microsoft 文件"
-ms.custom: 
+title: 使用服務行為來輸入認證，與 WCF LOB 配接器 SDK |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9b203cfa-6331-4498-b656-8cd8339f8613
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223878"
 ---
 # <a name="use-a-service-behavior-to-enter-credentials-with-the-wcf-lob-adapter-sdk"></a>使用服務行為來輸入認證，與 WCF LOB 配接器 SDK
 許多次，配接器取用者必須將認證傳遞給商務系統的目標一行。 若要提供這項功能，您必須提供 WCF 服務行為。  

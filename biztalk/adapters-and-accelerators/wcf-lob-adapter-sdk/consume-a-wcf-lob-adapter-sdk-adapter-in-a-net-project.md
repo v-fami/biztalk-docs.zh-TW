@@ -1,14 +1,14 @@
 ---
-title: "取用 WCF LOB 配接器 SDK 中的配接器的.NET 專案 |Microsoft 文件"
-ms.custom: 
+title: 取用 WCF LOB 配接器 SDK 中的配接器的.NET 專案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6934b96d-5704-4f3c-b53f-4e36e352a338
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966828"
 ---
 # <a name="consume-a-wcf-lob-adapter-sdk-adapter-in-a-net-project"></a>取用 WCF LOB 配接器 SDK 中的配接器的.NET 專案
 若要使用配接器使用建置[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]從[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]，您必須加入服務參考加入專案。 您可以：  
@@ -88,7 +89,7 @@ ms.lasthandoff: 11/28/2017
   
     1.  在**方案總管] 中**，以滑鼠右鍵按一下專案，指向**新增**，然後按一下 [**新項目**。 在**加入現有項目**對話方塊中，選取先前建立的.cs 和 app.config 檔案。  按一下 **[加入]**。  
   
-    2.  在**方案總管] 中**，以滑鼠右鍵按一下**參考**，然後按一下 [**加入參考**。 在**.NET**索引標籤上，選取**System.ServiceModel**，然後按一下 **確定**。 您現在可以在應用程式中使用 proxy。  
+    2.  在**方案總管] 中**，以滑鼠右鍵按一下**參考**，然後按一下 [**加入參考**。 在 **.NET**索引標籤上，選取**System.ServiceModel**，然後按一下 **確定**。 您現在可以在應用程式中使用 proxy。  
   
 ## <a name="see-also"></a>請參閱  
  [教學課程 1： 在開發回應配接器](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-1-develop-the-echo-adapter.md)   

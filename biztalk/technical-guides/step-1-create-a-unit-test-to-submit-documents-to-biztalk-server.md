@@ -1,14 +1,14 @@
 ---
-title: "步驟 1： 建立單元測試，提交至 BizTalk Server 文件 |Microsoft 文件"
-ms.custom: 
+title: 步驟 1： 建立單元測試，提交至 BizTalk Server 文件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 688b14e4-bb16-4d12-86b8-37b8b6808472
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302694"
 ---
 # <a name="step-1-create-a-unit-test-to-submit-documents-to-biztalk-server"></a>步驟 1： 建立單元測試，提交至 BizTalk Server 文件
 電腦的應用程式伺服器，例如 BizTalk Server 專為執行特定工作，代表使用者。 這些工作都會起始為以符合應用程式伺服器了解，了解應用程式伺服器的通訊協定透過標準的訊息傳送至應用程式伺服器的用戶端要求。 比方說，用戶端可能會起始處理的電子郵件透過 SMTP 通訊協定的電子郵件伺服器傳送網際網路電子郵件訊息。 同樣地，web 伺服器處理用戶端 HTML 或 ASP 要求，資料庫伺服器處理的 SQL 用戶端要求，而且 BizTalk Server 可以處理用戶端符合使用許多業界標準通訊協定的多個產業訊息標準格式化的訊息。 應用程式伺服器的工作負載容量通常會測量在指定的時段內可以處理應用程式伺服器的訊息數目。 BizTalk Server 的工作負載容量同樣的時間，例如忙碌 workday 或甚至是長測量為 「 每秒接收的文件 」、 「 每秒處理的文件 」 和/或 「 每秒完成的協調流程 」 的平均數目工作週。 Visual Studio 2010 負載測試功能，可以模擬多達數百個使用者同時存取伺服器應用程式的負載設定檔。 這個負載測試功能提供即時的度量資訊。 選取的關鍵效能指標，以及供未來分析資料庫中儲存這些度量的能力。 此文件描述使用 Visual Studio 測試專案，以進行負載測試 BizTalk Server 應用程式，包括如何建立單元測試時，如何建立負載測試，以及如何設定負載測試來擷取效能計數器資料所需判斷最大持續輸送量 (MST) 的 BizTalk Server 應用程式。  
@@ -38,9 +39,9 @@ ms.lasthandoff: 09/20/2017
   
 3.  按一下以展開**測試工具**，然後按一下 **測試專案**以顯示選項來建立新的測試專案。  
   
-4.  設定**預設測試專案語言：**至**Visual C# 測試專案**。  
+4.  設定**預設測試專案語言：** 至**Visual C# 測試專案**。  
   
-5.  下方的選項**選取的檔案，將會依預設加入至每個新的測試專案：**選取**Visual C# 測試專案**，並取消核取 所有測試類型的 Visual C# 中的測試專案除外**單元測試**。  
+5.  下方的選項**選取的檔案，將會依預設加入至每個新的測試專案：** 選取**Visual C# 測試專案**，並取消核取 所有測試類型的 Visual C# 中的測試專案除外**單元測試**。  
   
 6.  按一下 **[確定]** 關閉 **[選項]** 對話方塊。  
   
@@ -389,7 +390,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  在 [方案總管] 中，以滑鼠右鍵按一下**參考**BTSLoad 專案，然後按一下資料夾**加入參考**。  
   
-2.  在 加入參考 對話方塊中，按一下**.NET**索引標籤，然後使用 CTRL + 按一下鍵盤/滑鼠組合來同時選取 下列.NET 命名空間：  
+2.  在 加入參考 對話方塊中，按一下 **.NET**索引標籤，然後使用 CTRL + 按一下鍵盤/滑鼠組合來同時選取 下列.NET 命名空間：  
   
     -   System.Configuration  
   

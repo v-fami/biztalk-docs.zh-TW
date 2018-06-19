@@ -1,18 +1,18 @@
 ---
-title: "啟用接收位置 （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: 啟用接收位置 （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive locations, examples
 - receive locations, enabling
 - examples, receive locations
 ms.assetid: dd04b38a-634d-4c9a-b31a-2f226fa91d19
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968724"
 ---
 # <a name="enable-receive-location-biztalk-server-sample"></a>啟用接收位置 （BizTalk Server 範例）
 「啟用接收位置」範例示範如何啟用接收位置，並選擇性地設定該接收位置的「輸入傳輸 URL」。  

@@ -1,14 +1,14 @@
 ---
-title: "例外狀況處理的 Web 服務 |Microsoft 文件"
-ms.custom: 
+title: 例外狀況處理的 Web 服務 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dfe6ebdf-9b92-40c7-93fb-afd6c5f68aaa
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294950"
 ---
 # <a name="the-exception-handling-web-service"></a>例外狀況處理的 Web 服務
 例外狀況處理的 Web 服務接受的錯誤訊息，並將其發佈至 ESB 例外狀況入口網站。 用戶端應用程式建立例外狀況訊息，並將其發行到 ESB，針對該例外狀況型別或泛型處理常式中，設定任何處理常式可以處理的例外狀況的地方。 此服務的主要優點是它可讓實體之外 ESB 應用程式參與 ESB 例外狀況處理機制。  

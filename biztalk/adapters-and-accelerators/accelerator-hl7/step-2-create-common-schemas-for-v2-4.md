@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25960708"
 ---
 # <a name="step-2-create-common-schemas-for-v24"></a>步驟 2： 建立 V2.4 通用結構描述
 V2.4 結構描述是經常參考的結構描述，以用來驗證查詢和回應訊息執行個體。  

@@ -1,17 +1,17 @@
 ---
-title: "InfoPath 安全性 |Microsoft 文件"
-ms.custom: 
+title: InfoPath 安全性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, InfoPath forms
 - InfoPath forms, security
 ms.assetid: 6ed7b5cc-9801-45a5-8fdb-e5d56dd36435
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209654"
 ---
 # <a name="infopath-security"></a>InfoPath 安全性
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsOfficeNoVersion](../../includes/btsofficenoversion-md.md)] [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] 2007年會使用 XML 簽章可讓您數位簽章使用數位憑證表單。 XML 簽章定義了一種標準 xml 數位簽章您用來協助保護在 XML 文件中所包含的資料。 XML 簽章是由全球資訊網協會 (W3C) 標準。  

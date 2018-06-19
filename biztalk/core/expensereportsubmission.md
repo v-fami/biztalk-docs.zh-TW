@@ -1,17 +1,17 @@
 ---
-title: "ExpenseReportSubmission |Microsoft 文件"
-ms.custom: 
+title: ExpenseReportSubmission |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, examples
 - examples, orchestrations
 ms.assetid: d0bacab3-7092-44b8-a1c6-6f574a2db8bd
-caps.latest.revision: "29"
+caps.latest.revision: 29
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969764"
 ---
 # <a name="expensereportsubmission"></a>ExpenseReportSubmission
 ExpenseReportSubmission 範例說明如何透過如 Microsoft Excel 的多功能用戶端，將文件提交到 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 協調流程。  
@@ -114,7 +115,7 @@ ExpenseReportSubmission 範例說明如何透過如 Microsoft Excel 的多功能
   
     6.  按一下**識別** 索引標籤的 屬性 對話方塊並變更這個應用程式集區執行使用者為成員的身分識別**BizTalk Isolated Host Users**使用者群組。  此使用者也應該屬於本機**IIS_WPG**使用者群組。  
   
-    7.  設定這個 SDK 範例的虛擬目錄為在新的應用程式集區下執行。 **應用程式集區：**設定位在**虛擬目錄**] 索引標籤的 [虛擬目錄的 [內容] 對話方塊。 此範例為建立的虛擬目錄**ExpenseReportSubmission**。  
+    7.  設定這個 SDK 範例的虛擬目錄為在新的應用程式集區下執行。 **應用程式集區：** 設定位在**虛擬目錄**] 索引標籤的 [虛擬目錄的 [內容] 對話方塊。 此範例為建立的虛擬目錄**ExpenseReportSubmission**。  
   
 4.  為 HTTPReceive.dll 將 Web 服務延伸模組新增至 IIS  
   
@@ -126,7 +127,7 @@ ExpenseReportSubmission 範例說明如何透過如 Microsoft Excel 的多功能
   
     4.  按一下**新增**顯示**Add file**  對話方塊。  
   
-    5.  按一下**瀏覽**顯示**開啟**對話方塊方塊中，並瀏覽至 *\<BizTalk Server 安裝資料夾\>*\HttpReceive\BTSHTTPReceive.dll，然後按一下**開啟**，然後按一下 **確定**。  
+    5.  按一下**瀏覽**顯示**開啟**對話方塊方塊中，並瀏覽至 *\<BizTalk Server 安裝資料夾\>* \HttpReceive\BTSHTTPReceive.dll，然後按一下**開啟**，然後按一下 **確定**。  
   
     6.  啟用選項，**設定延伸狀態成允許**按一下**確定**。  
   

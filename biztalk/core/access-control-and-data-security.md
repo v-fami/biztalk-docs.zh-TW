@@ -1,11 +1,11 @@
 ---
-title: "存取控制和資料安全性 |Microsoft 文件"
-ms.custom: 
+title: 存取控制和資料安全性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - access control, BizTalk Server Operator role
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - user accounts, access control
 - BizTalk Server Operator role
 ms.assetid: f04fd4a3-0f8c-4170-934a-9cc77edd7f34
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225638"
 ---
 # <a name="access-control-and-data-security"></a>存取控制與資料安全性
 BizTalk Server 會使用最低使用者權限來限制對其程序和資料庫的存取；您可以使用 Microsoft Windows Server 中的功能，協助保護系統中重要資料的安全。 基於安全考量，BizTalk Server 系統管理員和 BizTalk 主控件只應具備足以執行其工作的權限，而不宜有過多的授權。  

@@ -1,14 +1,14 @@
 ---
-title: "叫用 Oracle E-business Suite 中的並行程式 |Microsoft 文件"
-ms.custom: 
+title: 叫用 Oracle E-business Suite 中的並行程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 85c55a35-bee4-4b50-8b00-e4198ad4c2af
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964612"
 ---
 # <a name="invoke-concurrent-programs-in-oracle-e-business-suite"></a>叫用 Oracle E-business Suite 中的並行程式
 Oracle E-business Suite 會公開您可以執行特定操作 Oracle 應用程式上的執行的並行程式。 每個 Oracle 應用程式有一組標準的並行程式 （也就是相同的所有作業） 和特定 Oracle 應用程式專屬的並行程式。 [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]公開所有的並行程式做為配接器用戶端可以叫用的作業。 如需有關配接器如何支援同時執行之程式的詳細資訊，請參閱[上同時執行之程式的作業](../../adapters-and-accelerators/adapter-oracle-ebs/operations-on-concurrent-programs.md)。 叫用同時執行的程式，訊息的 SOAP 結構的相關資訊，請參閱[並行程式的訊息結構描述](../../adapters-and-accelerators/adapter-oracle-ebs/message-schemas-for-concurrent-programs.md)。  
@@ -93,7 +94,7 @@ Oracle E-business Suite 會公開您可以執行特定操作 Oracle 應用程式
   
 |形狀圖|圖形類型|屬性|  
 |-----------|----------------|----------------|  
-|ReceiveMessage|Receive|-設定**名稱**至*ReceiveMessage*<br />-設定**啟動**至*，則為 True*|  
+|ReceiveMessage|Receive|-設定**名稱**至*ReceiveMessage*<br />-設定**啟動**至 *，則為 True*|  
 |SendMessage|Send|-設定**名稱**至*SendMessage*|  
 |ReceiveResponse|Receive|-設定**名稱**至*ReceiveResponse*<br />-設定**啟動**至*False*|  
 |SendResponse|Send|-設定**名稱**至*SendResponse*|  

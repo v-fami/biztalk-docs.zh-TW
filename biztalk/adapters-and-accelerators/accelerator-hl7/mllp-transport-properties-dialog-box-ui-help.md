@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962092"
 ---
 # <a name="mllp-transport-properties-dialog-box-ui-help"></a>MLLP 傳輸屬性對話方塊 UI 說明
 您使用**MLLP 傳輸屬性**對話方塊來設定參數傳送和接收最少的較低層通訊協定 (MLLP) 配接器。 您可以設定網路連線參數 MLLP 傳輸屬性中的 傳送埠或接收位置使用 MLLP 傳輸類型。  

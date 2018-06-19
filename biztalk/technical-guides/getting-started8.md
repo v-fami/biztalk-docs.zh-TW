@@ -1,14 +1,14 @@
 ---
-title: "取得 Started8 |Microsoft 文件"
-ms.custom: 
+title: 取得 Started8 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 667fc3c4-df8f-4d81-90b2-25a4435d8f70
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22297926"
 ---
 # <a name="getting-started"></a>快速入門
 本節說明匯入管理組件之前，您應該採取的動作、 匯入管理組件，以及有關自訂的資訊之後，您應該採取的任何步驟。  

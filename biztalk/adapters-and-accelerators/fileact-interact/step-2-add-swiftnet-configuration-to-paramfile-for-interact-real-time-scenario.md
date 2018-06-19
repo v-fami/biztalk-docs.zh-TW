@@ -1,14 +1,14 @@
 ---
-title: "步驟 2： 將 SWIFTNet 組態新增至為 Paramfile 互動即時案例 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 將 SWIFTNet 組態新增至為 Paramfile 互動即時案例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6a900a6e-3e08-430a-8766-4a7192adba5e
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964604"
 ---
 # <a name="step-2-add-swiftnet-configuration-to-the-paramfile-for-the-interact-real-time-scenario"></a>步驟 2： 將 SWIFTNet 組態新增至為 Paramfile 互動即時案例
 若要啟用以這些值來初始化接收者 SWIFTNet paramfile 中必須指定 SAG 中建立的伺服器訊息協力廠商。 在開始此程序之前，您必須完成的指示[步驟 1： 設定 SWIFT 配接器的互動即時實例](../../adapters-and-accelerators/fileact-interact/step-1-configure-the-swift-adapter-for-the-interact-real-time-scenario.md)。  

@@ -1,14 +1,14 @@
 ---
-title: "最佳化使用資料流的記憶體使用量 |Microsoft 文件"
-ms.custom: 
+title: 最佳化使用資料流的記憶體使用量 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f8ba8820-65b4-4161-9f7a-3ae3d39e3d11
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299342"
 ---
 # <a name="optimizing-memory-usage-with-streaming"></a>最佳化使用資料流的記憶體使用量
 本主題提供使用資料流處理模式時傳送或接收大型訊息使用 WCF 傳輸，或載入協調流程中的訊息時，訊息的記憶體使用量降到最低的建議。   

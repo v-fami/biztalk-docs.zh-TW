@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/creating-tibco-enterprise-message-service-send-handlers/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: 6b15d9d03ef967bcf7189ef756da8fc63a0eb3f6
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013677"
 ---
 # <a name="how-to-create-send-ports-for-tibco-enterprise-message-service"></a>如何建立 TIBCO Enterprise Message Service 的傳送埠
 依照下列步驟建立傳送埠。  
@@ -29,7 +30,7 @@ ms.lasthandoff: 11/07/2017
   
     4.  從 傳送管線 下拉式清單中，選取  **Microsoft.BizTalk.DefaultPipelines.XMLTransmit**。  
   
-    5.  從**接收管線**下拉式清單中，選取**[microsoft.biztalk.defaultpiplelines.xmlreceive]**。  
+    5.  從**接收管線**下拉式清單中，選取 **[microsoft.biztalk.defaultpiplelines.xmlreceive]**。  
   
     6.  按一下**設定**以設定傳送埠。  
   

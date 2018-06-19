@@ -1,14 +1,14 @@
 ---
-title: "接收來自 PeopleSoft |Microsoft 文件"
-ms.custom: 
+title: 接收來自 PeopleSoft |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9acc71ec-05b8-4490-b3ba-0ce7f27a5a6a
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014381"
 ---
 # <a name="receiving-from-peoplesoft"></a>從 PeopleSoft 接收
 Microsoft Adapter for PeopleSoft Enterprise 為傳送配接器。 配接器支援請求-回應，以便您可以先傳送查詢，並取得回應。 不過，如果您只想接收來自 PeopleSoft 的資料，則必須採取額外兩個步驟：  

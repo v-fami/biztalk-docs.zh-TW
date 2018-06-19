@@ -1,14 +1,14 @@
 ---
-title: "BizTalk 結構描述表示法 |Microsoft 文件"
-ms.custom: 
+title: BizTalk 結構描述表示法 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f0460a37-1f4f-4c0b-91db-bb457f434fe9
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966532"
 ---
 # <a name="biztalk-representation-of-schemas"></a>BizTalk 結構描述表示法
 
@@ -38,8 +39,8 @@ ms.lasthandoff: 11/28/2017
 |**Choice 群組**|插入**Choice 群組**節點 (\<選擇\>樹狀檢視中) 選取的節點中順序的結尾。 如需有關**Choice 群組**節點，請參閱[Choice 群組節點](../core/choice-group-nodes.md)。|  
 |**所有群組**|插入**All 群組**節點 (\<所有\>樹狀檢視中) 的非屬性子節點的**記錄**節點，取代預設使用的**順序**內的項目**記錄**節點與使用**所有**項目。 您可以插入之前**All 群組** 節點，您必須變更**內容類型**屬性包含**記錄**節點**ComplexContent**. 如需有關**All 群組**節點，請參閱[All 群組 節點](../core/all-group-nodes.md)。|  
 |**屬性群組**|插入**屬性群組**節點 (\<AttrGroup:attrGroup*N* \>在樹狀結構檢視中，其中*N*是單純遞增的數字) 在所選的結尾**記錄**或**屬性群組**節點。 如需有關**屬性群組**節點，請參閱[屬性群組節點](../core/attribute-group-nodes.md)。|  
-|**任何項目**|插入**Any 項目**節點 (**\<**任何**\>** 樹狀檢視中) 中所選取順序的結尾**記錄**， **sequence 群組**， **Choice 群組**，或**All 群組**節點。 如需有關**Any 項目**節點，請參閱[Any 項目節點](../core/any-element-nodes.md)。|  
-|**任何屬性**|插入**Any 屬性**節點 (**\<**AnyAttribute **\>** 樹狀檢視中) 中選取順序的結尾**記錄**或**屬性群組**節點。 如需有關**Any 屬性**節點，請參閱[Any 屬性節點](../core/any-attribute-nodes.md)。|  
+|**任何項目**|插入**Any 項目**節點 (**\<** 任何**\>** 樹狀檢視中) 中所選取順序的結尾**記錄**， **sequence 群組**， **Choice 群組**，或**All 群組**節點。 如需有關**Any 項目**節點，請參閱[Any 項目節點](../core/any-element-nodes.md)。|  
+|**任何屬性**|插入**Any 屬性**節點 (**\<** AnyAttribute **\>** 樹狀檢視中) 中選取順序的結尾**記錄**或**屬性群組**節點。 如需有關**Any 屬性**節點，請參閱[Any 屬性節點](../core/any-attribute-nodes.md)。|  
   
  在許多情況下，在「BizTalk 編輯器」中新增單一節點會造成在結構描述的對應 XSD 表示法中新增多個巢狀項目。 由於這些巢狀項目有可能包含複雜的語法，因此，使用「BizTalk 編輯器」以圖形方式排列節點是一種比手動編輯 XSD 以建構 XSD 結構描述的方式較少發生錯誤的方法。 另一個要考慮的因素是，若總是使用「BizTalk 編輯器」來建構 XSD 結構描述，則可以讓更多受控制的 XSD 子集使用在結構描述的描述中。  
   

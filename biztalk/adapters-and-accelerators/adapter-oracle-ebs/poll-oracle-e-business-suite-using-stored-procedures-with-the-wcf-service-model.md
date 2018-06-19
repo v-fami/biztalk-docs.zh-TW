@@ -1,14 +1,14 @@
 ---
-title: "使用 WCF 服務模型中的預存程序的輪詢 Oracle E-business Suite |Microsoft 文件"
-ms.custom: 
+title: 使用 WCF 服務模型中的預存程序的輪詢 Oracle E-business Suite |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 47dcb866-9161-4b28-9481-2761794ce805
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967716"
 ---
 # <a name="poll-oracle-e-business-suite-using-stored-procedures-with-the-wcf-service-model"></a>輪詢 Oracle E-business Suite 使用 WCF 服務模型中的預存程序
 您可以設定[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]來使用預存程序，以定期輪詢 Oracle 資料庫接收定期的資料變更訊息。 您可以指定預存程序，為配接器執行定期輪詢 Oracle 資料庫的輪詢陳述式。  

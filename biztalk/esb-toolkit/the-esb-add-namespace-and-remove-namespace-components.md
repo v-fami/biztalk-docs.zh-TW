@@ -1,14 +1,14 @@
 ---
-title: "ESB 加入命名空間移除命名空間的元件和 |Microsoft 文件"
-ms.custom: 
+title: ESB 加入命名空間移除命名空間的元件和 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 21df1b21-b73c-4e31-a234-49a1a6b53cc7
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22296246"
 ---
 # <a name="the-esb-add-namespace-and-remove-namespace-components"></a>ESB 加入命名空間移除命名空間元件
 許多公司時的 XML 技術的早期採用者時仍然新標準和共用文件很常見。 因此，它們並未嚴格強制執行包括唯一的根命名空間，這通常如此今天的需求。  
@@ -47,7 +48,7 @@ ms.lasthandoff: 09/20/2017
   
  移除命名空間 」 元件從 XML 文件中移除所有的根命名空間。 元件可以移除單一文件的命名空間數目受限於可用來保存在處理期間的目前節點的實體記憶體。 不過，元件會使用標準的 BizTalk Server 2009 管線訊息串流處理程序，將只在文件中的目前節點載入至記憶體，而不必載入整個文件。  
   
- 移除命名空間元件也重新編碼指定的編碼方式的文件 (**ascii、 unicode/utf16，**或**utf8**)，並可以從資料流，開始移除位元組順序標記 (BOM)，若必要項。  
+ 移除命名空間元件也重新編碼指定的編碼方式的文件 (**ascii、 unicode/utf16，** 或**utf8**)，並可以從資料流，開始移除位元組順序標記 (BOM)，若必要項。  
   
 ## <a name="using-the-add-namespace-and-remove-namespace-components"></a>使用新增命名空間移除命名空間元件  
  開發人員可能會在下列情況下使用新增的命名空間元件：  
@@ -65,7 +66,7 @@ ms.lasthandoff: 09/20/2017
 ## <a name="component-properties"></a>元件屬性  
  新增命名空間元件會公開五個公用屬性：  
   
--   **NamespacePrefix**。 這是之間插入命名空間前置詞**xmlns:**部分，並在下列的等號 （=）。 若要避免與標準的 BizTalk 結構描述命名空間前置詞衝突，請避免使用值**ns0**透過**ns9**。  
+-   **NamespacePrefix**。 這是之間插入命名空間前置詞**xmlns:** 部分，並在下列的等號 （=）。 若要避免與標準的 BizTalk 結構描述命名空間前置詞衝突，請避免使用值**ns0**透過**ns9**。  
   
 -   **NamespaceBase**。 這是將前置詞中的值所產生的結果的命名空間的靜態區段**分隔符號**和**Xpath**屬性。  
   
@@ -80,8 +81,8 @@ ms.lasthandoff: 09/20/2017
   
  移除命名空間元件會公開兩個公用屬性：  
   
--   **編碼**。 這是編碼輸出訊息時，下列值之一： **ascii、 unicode/utf16，**或**utf8**。  
+-   **編碼**。 這是編碼輸出訊息時，下列值之一： **ascii、 unicode/utf16，** 或**utf8**。  
   
--   **RemoveByteOrderMark**。 這是布林值屬性，指出元件是否應該移除位元組順序標記 (通常**0xEFBB、 0xBFFFFE，**或**0xFEFF**) 從 XML 文件資料流的開頭。  
+-   **RemoveByteOrderMark**。 這是布林值屬性，指出元件是否應該移除位元組順序標記 (通常**0xEFBB、 0xBFFFFE，** 或**0xFEFF**) 從 XML 文件資料流的開頭。  
   
  如需如何使用這些元件的範例，請參閱[安裝及執行 「 命名空間元件 」 範例](../esb-toolkit/installing-and-running-the-namespace-component-sample.md)。

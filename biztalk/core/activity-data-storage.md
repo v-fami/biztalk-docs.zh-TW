@@ -1,11 +1,11 @@
 ---
-title: "活動資料儲存區 |Microsoft 文件"
-ms.custom: 
+title: 活動資料儲存區 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - performance, BAM
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - databases [BAM], partitioning
 - BAM, performance
 ms.assetid: 1f736599-3d16-496e-a459-8b0507d57fcb
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967020"
 ---
 # <a name="activity-data-storage"></a>活動資料儲存區
 本主題說明活動資料儲存區、活動資料表隨時間成長所造成的效能問題，以及 BAM 如何將進行中與已完成的活動存放在不同的資料表以解決這些效能問題。 本主題也將說明用於查詢資料的線上視窗，及如何在 BAM 中使用分割以獲得更高的效能。  

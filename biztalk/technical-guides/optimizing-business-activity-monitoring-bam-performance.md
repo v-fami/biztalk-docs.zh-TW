@@ -1,14 +1,14 @@
 ---
-title: "最佳化商務活動監控 (BAM) 效能 |Microsoft 文件"
-ms.custom: 
+title: 最佳化商務活動監控 (BAM) 效能 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c9ed29b2-0be6-4a37-be68-9476832fd49f
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298950"
 ---
 # <a name="optimizing-business-activity-monitoring-bam-performance"></a>最佳化商務活動監控 (BAM) 效能
 本主題說明商務活動監控 (BAM) 效能的因素。  

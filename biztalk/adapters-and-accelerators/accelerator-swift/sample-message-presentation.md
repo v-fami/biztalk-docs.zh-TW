@@ -1,17 +1,17 @@
 ---
-title: "範例訊息簡報 |Microsoft 文件"
-ms.custom: 
+title: 範例訊息簡報 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, SWIFT message block
 - SWIFT messages, message block example
 ms.assetid: 3136a7da-658d-4100-bbe5-2186ee8bafd1
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25960812"
 ---
 # <a name="sample-message-presentation"></a>範例訊息簡報
 下表顯示的 SWIFT 訊息區塊配置的範例。  

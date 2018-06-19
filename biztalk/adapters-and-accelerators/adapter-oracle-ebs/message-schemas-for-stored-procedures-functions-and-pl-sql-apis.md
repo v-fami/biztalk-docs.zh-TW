@@ -1,14 +1,14 @@
 ---
-title: "預存程序、 函數和 PL-SQL Api 訊息結構描述 |Microsoft 文件"
-ms.custom: 
+title: 預存程序、 函數和 PL-SQL Api 訊息結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6d707f10-470d-4390-bb5b-0301c326f375
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963148"
 ---
 # <a name="message-schemas-for-stored-procedures-functions-and-plsql-apis"></a>訊息結構描述的預存程序、 函數和 PL/SQL 應用程式開發介面
 [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]介面為基礎的 Oracle 資料庫做為作業的預存程序、 函數和 PL/SQL Api （預存程序和函式，在封裝內）。 本章節描述的訊息結構及用來叫用預存程序、 函數和 PL/SQL Api 的動作。  

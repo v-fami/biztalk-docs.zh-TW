@@ -1,11 +1,11 @@
 ---
-title: "建立傳送埠和接收埠 |Microsoft 文件"
-ms.custom: 
+title: 建立傳送埠和接收埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - JD Edwards OneWorld adapters, receive ports
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - receive ports, creating [JD Edwards OneWorld adapters]
 - creating, send ports [JD Edwards OneWorld adapters]
 ms.assetid: fb4ca8b1-40d9-4beb-a791-554086f8ca98
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014029"
 ---
 # <a name="creating-send-and-receive-ports"></a>建立傳送埠和接收埠
 使用下列程序為 BizTalk Adapter for JD Edwards OneWorld 建立 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 傳送埠和接收埠。  
@@ -52,7 +53,7 @@ ms.lasthandoff: 11/07/2017
   
     -   如**傳送管線**，選取**Microsoft.BizTalk.DefaultPipelines.XMLTransmit**。  
   
-    -   如**接收管線**，選取**[microsoft.biztalk.defaultpiplelines.xmlreceive]**。  
+    -   如**接收管線**，選取 **[microsoft.biztalk.defaultpiplelines.xmlreceive]**。  
   
 5.  按一下 **[確定]**。  
   

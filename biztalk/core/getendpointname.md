@@ -1,14 +1,14 @@
 ---
-title: "GetEndpointName |Microsoft 文件"
-ms.custom: 
+title: GetEndpointName |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c5a06850-ff6d-4fe4-9834-61d14b117391
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968756"
 ---
 # <a name="getendpointname"></a>GetEndpointName
 將目前攔截端點的名稱推至堆疊上。  

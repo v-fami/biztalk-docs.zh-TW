@@ -10,7 +10,7 @@ ms.topic: article
 helpviewer_keywords:
 - end-to-end tutorial, verifying solution
 ms.assetid: 24b74ba6-e303-4ab1-8a93-25a430e4894d
-caps.latest.revision: ''
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -19,6 +19,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25961588"
 ---
 # <a name="step-10-verify-the-end-to-end-scenario"></a>步驟 10： 確認端對端案例
 在此步驟中，您可以確認端對端案例本教學課程。  

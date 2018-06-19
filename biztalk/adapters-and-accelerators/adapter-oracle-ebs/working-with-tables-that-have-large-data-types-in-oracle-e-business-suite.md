@@ -1,14 +1,14 @@
 ---
-title: "使用 Oracle E-business Suite 中具有大型資料類型的資料表，|Microsoft 文件"
-ms.custom: 
+title: 使用 Oracle E-business Suite 中具有大型資料類型的資料表，|Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 501aa302-0f82-4221-b99f-423bc8621a6a
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968108"
 ---
 # <a name="working-with-tables-that-have-large-data-types-in-oracle-e-business-suite"></a>使用 Oracle E-business Suite 中具有大型資料類型的資料表
 [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]可讓配接器用戶端執行具有大型資料類型，例如 BLOB、 CLOB、 NCLOB、 和 BFILE 介面資料表和檢視表上的作業。  
@@ -117,7 +118,7 @@ ms.lasthandoff: 11/28/2017
   
 |形狀圖|圖形類型|屬性|  
 |-----------|----------------|----------------|  
-|ReceiveUpdateMessage|Receive|-設定**名稱**至*ReceiveUpdateMessage*<br />-設定**啟動**至*，則為 True*|  
+|ReceiveUpdateMessage|Receive|-設定**名稱**至*ReceiveUpdateMessage*<br />-設定**啟動**至 *，則為 True*|  
 |SendUpdateMessage|Send|-設定**名稱**至*SendUpdateMessage*|  
 |ReceiveUpdateResponse|Receive|-設定**名稱**至*ReceiveUpdateResponse*|  
 |SendUpdateResponse|Receive|-設定**名稱**至*SendUpdateResponse*|  

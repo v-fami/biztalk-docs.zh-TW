@@ -1,11 +1,11 @@
 ---
-title: "瀏覽、 搜尋及取得 Oracle 資料庫中繼資料 |Microsoft 文件"
-ms.custom: 
+title: 瀏覽、 搜尋及取得 Oracle 資料庫中繼資料 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - MetadataExchange
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - IMetadataRetrievalContract
 - SQLEXECUTE
 ms.assetid: 828d5a8e-f0a3-47b4-8298-5571cff64b52
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215350"
 ---
 # <a name="browse-search-and-get-oracle-database-metadata"></a>瀏覽、 搜尋及取得 Oracle 資料庫中繼資料
 [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]介面中繼資料從 Oracle 資料庫與 Oracle 資料庫使用配接器通訊的訊息結構的描述。 [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]支援兩個介面來擷取中繼資料。  

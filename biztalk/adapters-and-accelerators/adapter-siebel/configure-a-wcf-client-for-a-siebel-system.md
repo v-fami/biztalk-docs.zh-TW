@@ -1,18 +1,18 @@
 ---
-title: "設定 Siebel 系統的 WCF 用戶端 |Microsoft 文件"
-ms.custom: 
+title: 設定 Siebel 系統的 WCF 用戶端 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - how to, create a WCF client by specifying binding and endpoint address in a configuration file
 - how to, create a WCF client by specifying binding and endpoint address in code
 - WCF service model, configuring a WCF client for a Siebel system
 ms.assetid: 6b4c5b06-d5ff-4dbf-8dc2-89c547a59864
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963604"
 ---
 # <a name="configure-a-wcf-client-for-a-siebel-system"></a>設定 Siebel 系統的 WCF 用戶端
 產生 WCF 用戶端類別後，您可以建立 WCF 用戶端 （執行個體），並叫用其方法來取用[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]。 如需有關如何產生 WCF 用戶端類別和協助程式程式碼的作業資訊的[!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)]公開，請參閱[產生 WCF 用戶端或 WCF 服務合約為 Siebel 方案成品](../../adapters-and-accelerators/adapter-siebel/generate-a-wcf-client-or-a-wcf-service-contract-for-siebel-solution-artifacts.md)。  

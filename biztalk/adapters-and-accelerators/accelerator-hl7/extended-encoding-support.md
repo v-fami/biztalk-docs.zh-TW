@@ -1,14 +1,14 @@
 ---
-title: "擴充編碼支援 |Microsoft 文件"
-ms.custom: 
+title: 擴充編碼支援 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 93a40fa6-d0da-416e-97fb-675ddde3f005
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204830"
 ---
 # <a name="extended-encoding-support"></a>擴充編碼支援
 根據預設，接收 HL7 管線，BTAHL72X，僅支援 ASCII 編碼方式。 這表示，為相等的值大於 127 會被取代的輸入訊息中的任何字元"？"。 這是因為不會顯示具有相等值大於 127 個字元的 ASCII 字元集。  
@@ -40,7 +41,7 @@ ms.lasthandoff: 09/20/2017
 4.  從管線工具箱，拖曳**BTAHL7 2.X 解譯器**到 「 管線 」 編輯器並將其放置**解譯**階段**放在此處**目標。  
   
     > [!NOTE]
-    >  如果 BTAHL7 2.7 解譯器不在 [工具箱] 中，以滑鼠右鍵按一下工具箱] 中，按一下 [**選擇項目**。 在**選擇工具箱項目**對話方塊**BizTalk 管線元件**索引標籤上，選取**BTAHL7 2.X 解譯器**核取方塊，然後**[確定]**.  
+    >  如果 BTAHL7 2.7 解譯器不在 [工具箱] 中，以滑鼠右鍵按一下工具箱] 中，按一下 [**選擇項目**。 在**選擇工具箱項目**對話方塊**BizTalk 管線元件**索引標籤上，選取**BTAHL7 2.X 解譯器**核取方塊，然後 **[確定]**.  
   
 5.  在 [屬性] 窗格中**BTAHL7 2.X 解譯器**，從**編碼字元集**下拉式清單中，選取**西歐**或**UTF8**編碼方式。  
   

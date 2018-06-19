@@ -1,11 +1,11 @@
 ---
-title: "BPEL 匯入 （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: BPEL 匯入 （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BPEL, orchestrations
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - BPEL Import Wizard, examples
 - BPEL Import Wizard, orchestrations
 ms.assetid: 3fc70608-ccd9-4249-b238-c09fc6551db1
-caps.latest.revision: "31"
+caps.latest.revision: 31
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967740"
 ---
 # <a name="bpel-import-biztalk-server-sample"></a>BPEL 匯入 （BizTalk Server 範例）
 BPEL 匯入範例示範如何從商務程序執行語言 (Business Process Execution Language, BPEL) 程序描述及其相關成品建立協調流程。  
@@ -118,7 +119,7 @@ BPEL 匯入範例示範如何從商務程序執行語言 (Business Process Execu
     > [!NOTE]
     >  ＜建置和初始化 ShipperProcess 應用程式＞一節中包含如何建置此檔案的指示。  
   
-17. 在 [方案總管] 中，按兩下**[ordershippingprocess.bpel.odx]**。  
+17. 在 [方案總管] 中，按兩下 **[ordershippingprocess.bpel.odx]**。  
   
 18. 在**檢視**功能表上，選取**其他視窗/協調流程檢視**。  
   
@@ -126,7 +127,7 @@ BPEL 匯入範例示範如何從商務程序執行語言 (Business Process Execu
   
 20. 在 [屬性] 視窗中，設定**協調流程可匯出**屬性**False**。  
   
-21. 在 [方案總管] 中，按兩下**[ordershipping.wsdl.odx]**。  
+21. 在 [方案總管] 中，按兩下 **[ordershipping.wsdl.odx]**。  
   
 22. 在 [協調流程檢視] 視窗中，依序展開**類型/多部分訊息類型**。  
   
@@ -215,11 +216,11 @@ BPEL 匯入範例示範如何從商務程序執行語言 (Business Process Execu
   
      ship_status(ShippingSchemas.ShipStatus) == "DONE"  
   
-44. 在 [協調流程] 檢視中，依序展開**類型/相互關聯類型**按一下**_OrderCorrelationSet_Type\_**。  
+44. 在 [協調流程] 檢視中，依序展開**類型/相互關聯類型**按一下 **_OrderCorrelationSet_Type\_**。  
   
 45. 在 屬性 視窗中，按一下 省略符號按鈕 (**...**) 上**相互關聯屬性**。  
   
-46. 在相互關聯屬性] 窗格中，按一下**[bpelshipping.orderid]**，然後按一下 [**移除**。  
+46. 在相互關聯屬性] 窗格中，按一下 **[bpelshipping.orderid]**，然後按一下 [**移除**。  
   
 47. 在 可用屬性 窗格中，依序展開**出貨結構描述**，選取**訂單 ID**，然後按一下 **新增**。  
   
@@ -232,7 +233,7 @@ BPEL 匯入範例示範如何從商務程序執行語言 (Business Process Execu
 51. 瀏覽至位置\<*範例路徑*\>\Orchestrations\BPELImport\Solution\BPELShipping 並按兩下**BindAndStartOnly.bat**繫結並啟動協調流程。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- *\<範例路徑\>*\Orchestrations\BPELImport  
+ *\<範例路徑\>* \Orchestrations\BPELImport  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -277,7 +278,7 @@ olution\BPELShipping\BPELShipping\Invoice2Ack.btm|發票到發票通知的對應
   
 2.  從[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]命令提示字元，變更目錄 (**cd**) 至下列資料夾：  
   
-     *\<範例路徑\>*\Orchestrations\BPELImport\Solution\ShipperProcess  
+     *\<範例路徑\>* \Orchestrations\BPELImport\Solution\ShipperProcess  
   
 3.  執行檔案 Setup.bat，這會執行下列動作：  
   
@@ -312,7 +313,7 @@ The 'http://contoso.org/samples/Fragments:XXXX' element is not declared. An erro
   
      從[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]命令提示字元，變更目錄 (**cd**) 至下列資料夾：  
   
-     *\<範例路徑\>*\Orchestrations\BPELImport\Solution\BPELShipping  
+     *\<範例路徑\>* \Orchestrations\BPELImport\Solution\BPELShipping  
   
 2.  執行檔案 Setup.bat，這會執行下列動作：  
   
@@ -330,7 +331,7 @@ The 'http://contoso.org/samples/Fragments:XXXX' element is not declared. An erro
   
 #### <a name="to-run-the-bpel-import-sample"></a>執行 BPEL 匯入範例  
   
-1.  複製**Order.xml**檔案從*\<範例路徑\>*\Orchestrations\BPELImport\Solution 資料夾\<*範例路徑\>*\Orchestrations\BPELImport\Solution\Ports\ReceiveOrder 資料夾。  
+1.  複製**Order.xml**檔案從*\<範例路徑\>* \Orchestrations\BPELImport\Solution 資料夾\<*範例路徑\>* \Orchestrations\BPELImport\Solution\Ports\ReceiveOrder 資料夾。  
   
 2.  BPELShipping 協調流程此檔案收取為訂單從客戶訂單處理系統中，執行透過出貨程序，並產生一個檔案中的每個\<*範例路徑*\>\Orchestrations\BPELImport\Solution\Ports\SendOrder 資料夾和\<*範例路徑*\>\Orchestrations\BPELImport\Solution\Ports\FinalConfirmation 資料夾。 這些檔案的名稱的格式是\< *MessageID*\>.xml，其中 *\<MessageID\>* 產生來唯一識別的 GUID訊息。  
   

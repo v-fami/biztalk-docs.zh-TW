@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964724"
 ---
 # <a name="btadinstalldir"></a>BTAD_InstallDir
 BTAD_InstallDir 包含 BizTalk 應用程式的安裝路徑。 此項只有在動作為 Create 或 Update，而且 BTAD_HostClass 為 BizTalkHostInstance 時才能使用。  

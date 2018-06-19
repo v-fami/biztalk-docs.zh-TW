@@ -1,14 +1,14 @@
 ---
-title: "表單產生器公用程式來產生 MT MX InfoPath 表單 |Microsoft 文件"
-ms.custom: 
+title: 表單產生器公用程式來產生 MT MX InfoPath 表單 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 41f2fd51-c492-499b-89aa-1b44ed5c9669
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209206"
 ---
 # <a name="form-generator-utility-to-generate-mtmx-infopath-forms"></a>表單產生器公用程式產生 MT/MX InfoPath 表單
 本文件的目的是要說明如何產生和發佈 MT 與 MX InfoPath 2010 的表單，表單產生器公用程式使用。 這些表單由 Message Repair 和 New Submission 功能[!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)]。  

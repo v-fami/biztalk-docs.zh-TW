@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/creating-tibco-rendezvous-send-handlers/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: 44da7839f0bee96db332dada214bdbc503067f56
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013157"
 ---
 # <a name="how-to-create-send-ports-for-tibco-rendezvous"></a>如何為 TIBCO Rendezvous 建立傳送埠
 遵循下列步驟，使用 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 來建立傳送埠。  
@@ -25,7 +26,7 @@ ms.lasthandoff: 11/07/2017
   
     3.  從**傳送處理常式**下拉式清單中，選取 URI。  
   
-    4.  從**傳送管線**下拉式清單中，選取**Microsoft.BizTalk.DefaultPipelines.XMLTransmit**。 從**接收管線**下拉式清單中，選取**[microsoft.biztalk.defaultpiplelines.xmlreceive]**。  
+    4.  從**傳送管線**下拉式清單中，選取**Microsoft.BizTalk.DefaultPipelines.XMLTransmit**。 從**接收管線**下拉式清單中，選取 **[microsoft.biztalk.defaultpiplelines.xmlreceive]**。  
   
     6.  按一下**設定**以設定傳送埠。  
   

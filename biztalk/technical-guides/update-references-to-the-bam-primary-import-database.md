@@ -1,14 +1,14 @@
 ---
-title: "更新 BAM 主要匯入資料庫的參考 |Microsoft 文件"
-ms.custom: 
+title: 更新 BAM 主要匯入資料庫的參考 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3da3b545-0d81-491b-bc37-0a980a7814b6
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22301822"
 ---
 # <a name="update-references-to-the-bam-primary-import-database"></a>更新 BAM 主要匯入資料庫的參考
 如果在發生系統或資料失敗時，您已備份 BAM 主要匯入資料庫，則可以將該備份還原至不同的電腦，並重新命名此備份。  

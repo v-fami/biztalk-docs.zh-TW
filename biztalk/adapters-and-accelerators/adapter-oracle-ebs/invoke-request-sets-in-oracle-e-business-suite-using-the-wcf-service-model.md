@@ -1,14 +1,14 @@
 ---
-title: "叫用 Oracle E-business Suite 使用 WCF 服務模型中的要求集 |Microsoft 文件"
-ms.custom: 
+title: 叫用 Oracle E-business Suite 使用 WCF 服務模型中的要求集 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bb6ec551-c069-4133-add5-2ba83d20405d
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965180"
 ---
 # <a name="invoke-request-sets-in-oracle-e-business-suite-using-the-wcf-service-model"></a>叫用要求集 Oracle E-business Suite 使用 WCF 服務模型中
 [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]可讓您執行 Oracle E-business Suite 中要求集合。 要求集劃分為一個或多個階段，而且每個階段包含一組報表和並行程式。 如需如何配接器支援要求的詳細資訊，請參閱[上設定要求的作業](../../adapters-and-accelerators/adapter-oracle-ebs/operations-on-request-sets.md)。  

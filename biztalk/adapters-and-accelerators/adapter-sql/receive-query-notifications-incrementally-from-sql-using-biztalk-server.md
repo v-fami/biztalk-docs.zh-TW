@@ -1,14 +1,14 @@
 ---
-title: "使用 BizTalk Server 的 sql 查詢通知以累加的方式接收 |Microsoft 文件"
-ms.custom: 
+title: 使用 BizTalk Server 的 sql 查詢通知以累加的方式接收 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a6972e01-80be-47be-986a-c2e4e0fb0cd1
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967924"
 ---
 # <a name="receive-query-notifications-incrementally-from-sql-using-biztalk-server"></a>使用 BizTalk Server 的 sql 查詢通知以累加的方式接收
 > [!IMPORTANT]
@@ -172,7 +173,7 @@ ms.lasthandoff: 11/28/2017
   
 |形狀圖|圖形類型|屬性|  
 |-----------|----------------|----------------|  
-|ReceiveNotification|Receive|-設定**名稱**至*ReceiveNotification*<br /><br /> -設定**啟動**至*，則為 True*|  
+|ReceiveNotification|Receive|-設定**名稱**至*ReceiveNotification*<br /><br /> -設定**啟動**至 *，則為 True*|  
 |SaveNotification|Send|-設定**名稱**至*SaveNotification*|  
 |SendSelectMessage|Send|-設定**名稱**至*SendSelectMessage*|  
 |ReceiveSelectResponse|Receive|-設定**名稱**至*ReceiveSelectResponse*|  
@@ -269,7 +270,7 @@ Select(WCF.Action) = "TableOp/Select/dbo/Employee";
         |繫結屬性|值|  
         |----------------------|-----------|  
         |**InboundOperationType**|將此設**通知**。|  
-        |**NotificationStatement**|將此值設定為：<br /><br /> `SELECT Employee_ID, Name FROM dbo.Employee WHERE Status=0`<br /><br /> **注意：**您必須明確指定資料行名稱的陳述式中這個 SELECT 陳述式中所示。 此外，您永遠必須指定資料表名稱，以及結構描述名稱。 例如， `dbo.Employee`。|  
+        |**NotificationStatement**|將此值設定為：<br /><br /> `SELECT Employee_ID, Name FROM dbo.Employee WHERE Status=0`<br /><br /> **注意：** 您必須明確指定資料行名稱的陳述式中這個 SELECT 陳述式中所示。 此外，您永遠必須指定資料表名稱，以及結構描述名稱。 例如， `dbo.Employee`。|  
         |**NotifyOnListenerStart**|將此設**True**。|  
   
          如需不同的繫結屬性的詳細資訊，請參閱[閱讀 BizTalk Adapter for SQL Server 配接器繫結屬性](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md)。  

@@ -1,15 +1,15 @@
 ---
-title: "部署的安全性概觀 |Microsoft 文件"
-description: "關於安全性、 加密、 BizTalk Server 部署中的使用者群組的快速連結"
-ms.custom: 
+title: 部署的安全性概觀 |Microsoft 文件
+description: 關於安全性、 加密、 BizTalk Server 部署中的使用者群組的快速連結
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a1c5a000-9f6b-49db-bd87-8c694240a192
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299542"
 ---
 # <a name="securing-your-biztalk-server-deployment"></a>保護 BizTalk Server 部署的安全
 在您完成 BizTalk 的安裝與設定後，本節中的主題將提供關於設定防火牆連接埠、網際網路通訊協定安全性 (IPSec)，以及安全通訊端層 (SSL) 安全性的連結。  

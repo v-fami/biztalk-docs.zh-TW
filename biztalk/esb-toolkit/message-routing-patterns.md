@@ -1,14 +1,14 @@
 ---
-title: "訊息路由模式 |Microsoft 文件"
-ms.custom: 
+title: 訊息路由模式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d95c5ba0-122f-4793-bfce-a95830dfe094
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22296886"
 ---
 # <a name="message-routing-patterns"></a>訊息的路由模式
 訊息的路由模式定義訊息路由傳送至其目標端點經過證實的指導方針。 路由可以是靜態設定，因為它可以動態設定根據一些準則和使用多種方法。  

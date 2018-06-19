@@ -1,14 +1,14 @@
 ---
-title: "步驟 5： 設定交易夥伴網頁 |Microsoft 文件"
-ms.custom: 
+title: 步驟 5： 設定交易夥伴網頁 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 38c3054d-932a-42b6-a821-8b30604d8426
-caps.latest.revision: "38"
+caps.latest.revision: 38
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 9aaed443492b74729171fef79c634bff561af929
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/03/2017
+ms.locfileid: "23980766"
 ---
 # <a name="step-5-configure-the-trading-partner-web-pages"></a>步驟 5： 設定交易夥伴網頁
 ![步驟 5 之 11](../core/media/tut-step5-of-11.gif "Tut_Step5_of_11")  
@@ -46,7 +47,7 @@ ms.lasthandoff: 11/03/2017
   
 3.  在**新增指令碼對應**對話方塊方塊中，輸入`BtsHttpReceive.dll`中**要求路徑**欄位。  
   
-4.  在**可執行檔**欄位中，按一下**省略符號 （...）**按鈕並瀏覽至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\HttpReceive。 選取**BtsHttpReceive.dll**，然後按一下 **確定**。  
+4.  在**可執行檔**欄位中，按一下**省略符號 （...）** 按鈕並瀏覽至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\HttpReceive。 選取**BtsHttpReceive.dll**，然後按一下 **確定**。  
   
 5.  輸入`BizTalk HTTP Receive`中`Name`欄位，，然後按一下**要求限制**。  
   
@@ -71,7 +72,7 @@ ms.lasthandoff: 11/03/2017
   
 1.  在 [IIS 管理員] 中，以滑鼠右鍵按一下**應用程式集區**選取**新增應用程式集區**。  
   
-2.  在**新增應用程式集區**對話方塊方塊中，輸入**BizTalkAppPool**中**名稱**，然後選取**.NET Framework v4.0.30210**中**.NET framework 版本**下拉式清單。 按一下 **[確定]**。  
+2.  在**新增應用程式集區**對話方塊方塊中，輸入**BizTalkAppPool**中**名稱**，然後選取 **.NET Framework v4.0.30210**中 **.NET framework 版本**下拉式清單。 按一下 **[確定]**。  
   
     > [!NOTE]
     >  版本號碼可能會依據電腦上安裝的 [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)] 版本而有所不同。  
@@ -95,7 +96,7 @@ ms.lasthandoff: 11/03/2017
   
 10. 中**選取應用程式集區**對話方塊中，選取**BizTalkAppPool**按一下**確定**。  
   
-11. 按一下**省略符號 （...）**按鈕並瀏覽至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\AS2 tutorial\fabrikam 做為**實體路徑**。  
+11. 按一下**省略符號 （...）** 按鈕並瀏覽至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\AS2 tutorial\fabrikam 做為**實體路徑**。  
   
 12. 按一下**測試設定**並確認沒有顯示在錯誤**測試連接** 對話方塊。 按一下 [關閉]，然後按一下 [確定]。  
   
@@ -114,7 +115,7 @@ ms.lasthandoff: 11/03/2017
     > [!NOTE]
     >  BizTalkAppPool 在之前設定 Fabrikam 網頁時就已建立，且應設為屬於系統管理員群組成員之使用者的識別。  
   
-4.  按一下**省略符號 （...）**按鈕並瀏覽至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]HttpReceive 的**實體路徑**。  
+4.  按一下**省略符號 （...）** 按鈕並瀏覽至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]HttpReceive 的**實體路徑**。  
   
 5.  按一下**測試設定**並確認沒有顯示在錯誤**測試連接** 對話方塊。 按一下 [關閉]，然後按一下 [確定]。  
   

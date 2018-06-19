@@ -1,14 +1,14 @@
 ---
-title: "安全使用 Oracle EBS 配接器程式設計 |Microsoft 文件"
-ms.custom: 
+title: 安全使用 Oracle EBS 配接器程式設計 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 35b494f8-cb21-45c2-9bb4-097ba59ec52c
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218134"
 ---
 # <a name="secure-programming-with-the-oracle-ebs-adapter"></a>安全使用 Oracle EBS 配接器進行程式設計
 ## <a name="how-do-i-protect-credentials-when-i-use-the-add-adapter-service-reference-visual-studio-plug-in"></a>如何執行保護認證時使用新增配接器服務參考 Visual Studio 外掛程式？  

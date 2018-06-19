@@ -1,14 +1,14 @@
 ---
-title: "步驟 1： 設定為 FileAct 存放與轉寄實例 SWIFT 的配接器 |Microsoft 文件"
-ms.custom: 
+title: 步驟 1： 設定為 FileAct 存放與轉寄實例 SWIFT 的配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 18653322-b748-4954-93f7-9a7a39e406f8
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964276"
 ---
 # <a name="step-1-configure-the-swift-adapter-for-the-fileact-store-and-forward-scenario"></a>步驟 1： 設定為 FileAct 存放與轉寄實例 SWIFT 的配接器
 完成[準備使用本教學課程](../../adapters-and-accelerators/fileact-interact/preparing-to-use-the-tutorial1.md)開始此步驟之前。
@@ -33,7 +34,7 @@ ms.lasthandoff: 11/28/2017
   
     |**使用此選項**|**若要這樣做**|  
     |------------------|--------------------|  
-    |**引數**|輸入下列引數:-SagMessagePartner \<Fileact 用戶端訊息的夥伴建立 SAG\> **附註：**引數中的用戶端是 MessagePartner SAG 中進行設定。|  
+    |**引數**|輸入下列引數:-SagMessagePartner \<Fileact 用戶端訊息的夥伴建立 SAG\> **附註：** 引數中的用戶端是 MessagePartner SAG 中進行設定。|  
     |**密碼編譯模式**|從下拉式清單選取**進階**。|  
     |**FACryptoMode**|從下拉式清單選取**進階**。|  
     |**記錄訊息**|從下拉式清單選取**TRUE**。 這可讓要擷取，並在 BAM 入口網站中追蹤的訊息事件。|  

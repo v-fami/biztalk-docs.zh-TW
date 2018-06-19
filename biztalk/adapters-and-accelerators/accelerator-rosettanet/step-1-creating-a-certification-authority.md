@@ -1,18 +1,18 @@
 ---
-title: "步驟 1： 建立憑證授權單位 |Microsoft 文件"
-ms.custom: 
+title: 步驟 1： 建立憑證授權單位 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - certificates, creating
 - double action tutorial, creating certificates
 - creating, certificates
 ms.assetid: b6ecd534-6b03-4336-8337-33ec18a0802a
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966228"
 ---
 # <a name="step-1-creating-a-certification-authority"></a>步驟 1： 建立憑證授權單位
 在本主題中，您將安裝憑證服務 [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] 元件。 您可以使用此元件產生必要的憑證，以促成 Contoso 和 Fabrikam 組織之間的安全通訊。 每個交易夥伴都會有可用來通訊的私人加密憑證，以及用於識別身份的私人簽章憑證。 此外，交易夥伴將彼此共用公開金鑰憑證，以便在實作 3A2 交易夥伴介面程序 (PIP) 時保護彼此之間的通訊。  
@@ -91,7 +92,7 @@ ms.lasthandoff: 11/28/2017
   
 2.  在 Default.asp 頁面上，按一下 **下載 CA 憑證、 憑證鏈結或 CRL**。  
   
-3.  請確定**目前 [Contoso-fabrikamca]**中選取**CA 憑證**清單，然後再按**下載 CA 憑證**。  
+3.  請確定**目前 [Contoso-fabrikamca]** 中選取**CA 憑證**清單，然後再按**下載 CA 憑證**。  
   
 4.  在 Contoso 和 Fabrikam 電腦上都將憑證儲存為 C:\Certs\Contoso-FabrikamCA.cer。  
   

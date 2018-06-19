@@ -1,14 +1,14 @@
 ---
-title: "中繼資料和 WCF 服務模型與 Oracle E-business Suite |Microsoft 文件"
-ms.custom: 
+title: 中繼資料和 WCF 服務模型與 Oracle E-business Suite |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 95d3fcba-c72f-4ae9-82bd-abbfc2a0c2c4
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215206"
 ---
 # <a name="metadata-and-the-wcf-service-model-with-oracle-e-business-suite"></a>中繼資料和 Oracle E-business Suite 之 WCF 服務模型
 在 WCF 服務模型中，您可以使用[!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]或 ServiceModel Metadata Utility Tool (svcutile.exe) 執行下列動作：  

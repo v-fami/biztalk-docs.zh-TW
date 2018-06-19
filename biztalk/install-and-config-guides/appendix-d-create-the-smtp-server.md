@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22300134"
 ---
 # <a name="appendix-d-create-the-smtp-server"></a>附錄 D︰建立 SMTP 伺服器
 建立 SQL Server Database Mail 所使用的 SMTP 伺服器。  

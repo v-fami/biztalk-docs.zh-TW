@@ -1,17 +1,17 @@
 ---
-title: "步驟 5： 修改 Contoso 私用程序協調流程 |Microsoft 文件"
-ms.custom: 
+title: 步驟 5： 修改 Contoso 私用程序協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - private processes, orchestrations
 - private process tutorial, modifying private process orchestration
 ms.assetid: a5430db8-e5f0-48a6-abb9-e268d8ec2ec4
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967756"
 ---
 # <a name="step-5-modifying-the-contoso-private-process-orchestration"></a>步驟 5： 修改 Contoso 私用程序協調流程
 在此步驟中，您將修改私用程序協調流程，以便與 Contoso 的「企業資源規劃」(Enterprise Resource Planning，ERP) 系統進行整合。 Contoso 的 ERP 系統使用內部定義的產品價格與可用性結構描述。 自訂「3A2 - 價格與可用性交易夥伴介面程序 (PIP)」的私用程序之後，您就能夠使用結構描述對應資訊與 ERP 系統進行整合。  
@@ -28,7 +29,7 @@ ms.lasthandoff: 11/28/2017
   
 1.  Contoso 方案顯示在 [方案總管] 中，以滑鼠右鍵按一下**PrivateResponder**專案，然後再按一下**加入參考**。  
   
-2.  在 [加入參考] 對話方塊中，按一下**瀏覽**。 移至*\<磁碟機\>*: \Program Files\Microsoft BizTalk\<版本\>Accelerator for RosettaNet\Bin 資料夾，然後再選取下列組件**:**  
+2.  在 [加入參考] 對話方塊中，按一下**瀏覽**。 移至*\<磁碟機\>*: \Program Files\Microsoft BizTalk\<版本\>Accelerator for RosettaNet\Bin 資料夾，然後再選取下列組件 **:**  
   
     -   Microsoft.Solutions.BTARN.CommonTypes.dll  
   
@@ -64,7 +65,7 @@ ms.lasthandoff: 11/28/2017
   
 5.  在**訊息類型**方塊中，按一下下拉箭號，展開 **結構描述**，然後選取**\<從參考組件選取\>**。  
   
-6.  在 選取成品 Typedialog 方塊中，選取  **Microsoft.Solutions.BTARN.Schemas.RNPIPs**在左窗格中，選取**_3a2priceandavailabilityquerymessageguideline_v1_3**在右窗格中，並然後按一下 **確定**。  
+6.  在 選取成品 Typedialog 方塊中，選取  **Microsoft.Solutions.BTARN.Schemas.RNPIPs**在左窗格中，選取 **_3a2priceandavailabilityquerymessageguideline_v1_3**在右窗格中，並然後按一下 **確定**。  
   
 7.  重複執行步驟 3 至 6，使用下列資訊建立方案的所有訊息類型：  
   
@@ -82,7 +83,7 @@ ms.lasthandoff: 11/28/2017
   
 2.  在 [屬性] 視窗中**識別碼**方塊中，輸入**contosoResponseXML**。  
   
-3.  在**類型**方塊中，選取 **\<.NET 類別\>**從下拉式清單。  
+3.  在**類型**方塊中，選取 **\<.NET 類別\>** 從下拉式清單。  
   
 4.  在 [選取成品類型] 對話方塊，在左窗格中，在**目前專案**和**參考**節點下，選取**System.Xml**，選取**XmlDocument**從清單中的右窗格中，然後按一下**確定**。  
   
@@ -90,7 +91,7 @@ ms.lasthandoff: 11/28/2017
   
 6.  在 [屬性] 視窗中**識別碼**方塊中，輸入**submitMessage**。  
   
-7.  在**類型**方塊中，選取 **\<.NET 類別\>**從下拉式清單。  
+7.  在**類型**方塊中，選取 **\<.NET 類別\>** 從下拉式清單。  
   
 8.  在 [選取成品類型] 對話方塊的左窗格中，展開**目前專案**和**參考**節點下，選取**Microsoft.Solutions.BTARN.Shared**，選取**SubmitRNIF**從清單中的右窗格中，然後按一下**確定**。  
   
@@ -104,7 +105,7 @@ ms.lasthandoff: 11/28/2017
   
 4.  在 [篩選運算式] 對話方塊中，按一下**按一下此處以加入新的資料列**，然後選取**Microsoft.Solutions.BTARN.GlobalSchemas.SCPIPCode**從下拉式清單。  
   
-5.  在相同的資料列中，按一下**值**，然後鍵入**"3A2"**。  
+5.  在相同的資料列中，按一下**值**，然後鍵入 **"3A2"**。  
   
 6.  在相同的資料列中，按一下**AND**中**Group By**方塊，並選取**或**從下拉式清單。  
   
@@ -112,19 +113,19 @@ ms.lasthandoff: 11/28/2017
   
 8.  按一下**按一下此處以加入新的資料列**，然後選取**Microsoft.Solutions.BTARN.GlobalSchemas.SCPIPCode**從下拉式清單。  
   
-9. 在相同的資料列中，按一下**值**，然後鍵入**"3A2"**。  
+9. 在相同的資料列中，按一下**值**，然後鍵入 **"3A2"**。  
   
 10. 按一下 [確定]。  
   
 ### <a name="to-modify-the-business-process-workflow"></a>修改商務程序工作流程  
   
-1.  拖曳**訊息指派**圖形從工具箱拖曳至設計介面，然後放在**ReceiveFromPublicProcessResponder**圖形。 選取**[constructmessage_1]**所建立的圖形和**屬性**視窗，請在**名稱**方塊中，輸入**ConstructPIP3A2RequestMessage**.  
+1.  拖曳**訊息指派**圖形從工具箱拖曳至設計介面，然後放在**ReceiveFromPublicProcessResponder**圖形。 選取 **[constructmessage_1]** 所建立的圖形和**屬性**視窗，請在**名稱**方塊中，輸入**ConstructPIP3A2RequestMessage**.  
   
-2.  拖曳**轉換**圖形至設計介面，然後放在**ConstructPIP3A2RequestMessage**圖形。 選取**[constructmessage_1]**所建立的圖形和**屬性**視窗，請在**名稱**方塊中，輸入**ConstructContoso3A2RequestMessage**.  
+2.  拖曳**轉換**圖形至設計介面，然後放在**ConstructPIP3A2RequestMessage**圖形。 選取 **[constructmessage_1]** 所建立的圖形和**屬性**視窗，請在**名稱**方塊中，輸入**ConstructContoso3A2RequestMessage**.  
   
 3.  拖曳**傳送**圖形至設計介面，然後放在**ConstructContoso3A2RequestMessage**圖形。  
   
-4.  拖曳**接收**圖形至設計介面，然後放在**[send_1]**圖形。  
+4.  拖曳**接收**圖形至設計介面，然後放在 **[send_1]** 圖形。  
   
 5.  按一下協調流程設計介面的空白區域。  
   
@@ -136,7 +137,7 @@ ms.lasthandoff: 11/28/2017
   
 9. 拖曳**呼叫規則**圖形至設計介面並將它放的標籤上，該處會指示**從 [工具箱] 拖曳圖形**內**範圍**圖形。 在 [屬性] 視窗中**呼叫規則**圖形，在**名稱**方塊中，輸入**Execute3A2Vocabulary**。  
   
-10. 拖曳**轉換**圖形至設計介面，然後放在**Scope_1**圖形。 按一下**[constructmessage_1]**圖形。 在 [屬性] 視窗中**名稱**方塊中，輸入**Construct3A2ResponseMessage**。  
+10. 拖曳**轉換**圖形至設計介面，然後放在**Scope_1**圖形。 按一下 **[constructmessage_1]** 圖形。 在 [屬性] 視窗中**名稱**方塊中，輸入**Construct3A2ResponseMessage**。  
   
 11. 拖曳**運算式**圖形至設計介面，然後放在**Construct3A2ResponseMessageTransform**圖形。  
   

@@ -1,12 +1,12 @@
 ---
-title: "步驟 2-建立 VSTS 權杖並安裝代理程式 |Microsoft 文件"
-description: "Visual studio，建立 VSTS 安全性存取語彙基元，複製 VSTS 專案，並安裝來自動化部署的 BizTalk Server 專案的組建代理程式"
-ms.custom: 
+title: 步驟 2-建立 VSTS 權杖並安裝代理程式 |Microsoft 文件
+description: Visual studio，建立 VSTS 安全性存取語彙基元，複製 VSTS 專案，並安裝來自動化部署的 BizTalk Server 專案的組建代理程式
+ms.custom: ''
 ms.date: 11/20/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 author: MandiOhlinger
 ms.author: mandia
@@ -16,6 +16,7 @@ ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/21/2017
+ms.locfileid: "25497687"
 ---
 # <a name="step-2-create-the-token--install-the-agent"></a>步驟 2： 建立權杖，並安裝代理程式
 
@@ -41,7 +42,7 @@ Visual Studio Team Services 中建立個人存取權杖 (PAT)。 這個語彙基
 
     ![開啟您的帳戶安全性](../core/media/vsts-account-security.png)
 
-3. **個人存取權杖**會自動開啟。 如果您有現有的代理程式時，加以選取，並確認**代理程式集區 （讀取、 管理）**選取：
+3. **個人存取權杖**會自動開啟。 如果您有現有的代理程式時，加以選取，並確認**代理程式集區 （讀取、 管理）** 選取：
 
     ![代理程式集區的讀取及管理](../core/media/agent-pools-read-manage.png)
 

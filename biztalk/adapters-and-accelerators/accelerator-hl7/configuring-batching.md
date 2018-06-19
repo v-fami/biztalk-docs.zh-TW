@@ -1,17 +1,17 @@
 ---
-title: "設定批次處理 |Microsoft 文件"
-ms.custom: 
+title: 設定批次處理 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - batching, configuring
 - configuring, batching
 ms.assetid: 33c72d5e-31dd-44a8-8418-1faab3239e8e
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204566"
 ---
 # <a name="configuring-batching"></a>設定批次處理
 您使用[!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]Configuration 總管來建立批次，在批次 / 出批次處理，並選取可用的結構描述的輸出批次的批次。  
@@ -59,7 +60,7 @@ ms.lasthandoff: 09/20/2017
   
     |使用|動作|  
     |--------------|----------------|  
-    |**所需的片段**|選取下列其中一個選項：<br /><br /> -   **[是]**。 若要啟用片段。<br />-   **否**。 若要停用片段。 **注意：**新合作對象，**片段所需**預設為**否**。|  
+    |**所需的片段**|選取下列其中一個選項：<br /><br /> -   **[是]**。 若要啟用片段。<br />-   **否**。 若要停用片段。 **注意：** 新合作對象，**片段所需**預設為**否**。|  
     |**選取訊息**|選取您想要以從批次傳送的訊息類型**可用訊息**視窗中，然後按一下 向右箭號來移動 (**>>**)。|  
     |**選取訊息通知**|選取您想要以從批次傳送通知的訊息類型**可用訊息 Ack**視窗中，然後按一下 向右移動 (**>>**)。|  
   

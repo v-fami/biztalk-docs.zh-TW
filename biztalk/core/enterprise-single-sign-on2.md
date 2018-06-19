@@ -1,15 +1,15 @@
 ---
-title: "企業單一登入概觀 |Microsoft 文件"
-description: "閱讀有關 affilicate 應用程式，在 BizTalk Server 中使用以處理訊息，以及 adminster SSO 的 SSO 票證"
-ms.custom: 
+title: 企業單一登入概觀 |Microsoft 文件
+description: 閱讀有關 affilicate 應用程式，在 BizTalk Server 中使用以處理訊息，以及 adminster SSO 的 SSO 票證
+ms.custom: ''
 ms.date: 10/11/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d2aaab59-8cf7-4848-b71a-e7c8682dd3bd
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 5e6ef63416e8885a5ee91bd65618a842b3a0cc54
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 10/12/2017
+ms.locfileid: "23129695"
 ---
 # <a name="enterprise-single-sign-on-overview"></a>企業單一登入概觀
 依賴多個不同應用程式的商務程序可能必須跨多個不同的安全性網域。 存取 Microsoft Windows 系統上的應用程式可能需要一組安全性認證，而存取 IBM 大型主機的應用程式可能需要不同的認證，如 RACF 使用者名稱及密碼。 使用者要處理這麼大量的認證十分不易，而且對於自動化程序會造成更大的難題。 若要解決這個問題，請[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]包含企業單一登入。  

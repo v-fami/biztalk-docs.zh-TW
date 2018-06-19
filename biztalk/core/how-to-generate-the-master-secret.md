@@ -1,17 +1,17 @@
 ---
-title: "如何產生主要密碼 |Microsoft 文件"
-ms.custom: 
+title: 如何產生主要密碼 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Master Secret server, generating
 - managing [Master Secret server], generating
 ms.assetid: 5512a8ee-bc5b-4fe4-90c7-41e3baaa723b
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25969516"
 ---
 # <a name="how-to-generate-the-master-secret"></a>如何產生主要密碼
 您必須具有主要密碼伺服器的管理權限，才可以執行此工作。 此外，您必須從主要密碼伺服器執行此工作。  
@@ -34,7 +35,7 @@ ms.lasthandoff: 01/17/2018
   
 ### <a name="to-generate-the-master-secret-using-the-mmc-snap-in"></a>使用 MMC 嵌入式管理單元產生主要密碼  
   
-1.  在 **[開始]** 功能表上，依序按一下 **[所有程式]**及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。  
+1.  在 **[開始]** 功能表上，依序按一下 **[所有程式]** 及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。  
   
 2.  在 ENTSSO MMC 嵌入式管理單元的範圍窗格中，展開 **[企業單一登入]** 節點。  
   

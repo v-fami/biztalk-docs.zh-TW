@@ -1,14 +1,14 @@
 ---
-title: "BizTalk Server MessageBox 資料庫檔案群組的 SQL 指令碼 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Server MessageBox 資料庫檔案群組的 SQL 指令碼 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: af4fe437-41ca-46c1-90eb-a28ed73312b6
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22300542"
 ---
 # <a name="biztalk-server-messagebox-database-filegroups-sql-script"></a>BizTalk Server MessageBox 資料庫檔案群組的 SQL 指令碼
 本主題提供可以在 BizTalk Server 環境來建立多個檔案和檔案群組的 BizTalk MessageBox 資料庫中的 SQL Server 執行個體執行的 SQL 指令碼。  
@@ -31,7 +32,7 @@ ms.lasthandoff: 09/20/2017
 >   
 >      -   如果您安裝執行 BizTalk Server hotfix 或 service pack **msgboxlogic.sql**，您必須再次執行 MessageBox 資料庫檔案群組的 SQL 指令碼。 這是必要的因為 msgboxlogic.sql 還原 MessageBox 檔案群組和檔案，以預設設定，也就是使用主要檔案群組。 若要判斷是否 hotfix 或 service pack 會執行 msgboxlogic.sql，檢查**檔案資訊**hotfix KB 文章一節。 或檢查 setup.xml 檔案隨附的服務組件檔案。  
 >     -   如果您新增至 BizTalk Server 群組的新主機，您必須再次執行 MessageBox 資料庫檔案群組的 SQL 指令碼。 這是必要的因為建立新主機的預存程序會設定主應用程式預設會使用主要檔案群組的資料表。  
-> 2.  **套用 MessageBox 資料庫檔案群組的 SQL 指令碼中的多個 MessageBox 環境：**雖然不一定可以針對每個 MessageBox 多 Messagebox 環境中執行 MessageBox 資料庫檔案群組的 SQL 指令碼。  
+> 2.  **套用 MessageBox 資料庫檔案群組的 SQL 指令碼中的多個 MessageBox 環境：** 雖然不一定可以針對每個 MessageBox 多 Messagebox 環境中執行 MessageBox 資料庫檔案群組的 SQL 指令碼。  
   
 ## <a name="biztalk-messagebox-database-filegroups-sql-script"></a>BizTalk MessageBox 資料庫檔案群組的 SQL 指令碼  
  下列 SQL 指令碼可用來建立多個檔案和檔案群組中的主題所述[Databases2 最佳化檔案群組](../technical-guides/optimizing-filegroups-for-the-databases2.md)。  

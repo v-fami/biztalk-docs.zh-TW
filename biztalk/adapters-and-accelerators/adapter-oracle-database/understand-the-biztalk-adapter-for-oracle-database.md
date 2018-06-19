@@ -1,11 +1,11 @@
 ---
-title: "瞭解 BizTalk Adapter for Oracle 資料庫 |Microsoft 文件"
-ms.custom: 
+title: 瞭解 BizTalk Adapter for Oracle 資料庫 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF LOB Adapter SDK
@@ -21,7 +21,7 @@ helpviewer_keywords:
 - adapter features
 - channel model
 ms.assetid: a8691957-0430-4cba-83f8-b60c21a86849
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -30,6 +30,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961172"
 ---
 # <a name="understand-the-biztalk-adapter-for-oracle-database"></a>瞭解 BizTalk Adapter for Oracle 資料庫
 [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]啟用服務導向程式設計的存取，以便與外部系統互動。 配接器用戶端提供下列優點：  

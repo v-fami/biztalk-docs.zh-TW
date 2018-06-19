@@ -12,7 +12,7 @@ helpviewer_keywords:
 - applications [SSO], creating
 - creating, applications [SSO]
 ms.assetid: d0967c4b-6201-416a-9d3a-23b5de5b83d6
-caps.latest.revision: ''
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25969020"
 ---
 # <a name="how-to-create-an-affiliate-application"></a>如何建立分支機構應用程式
 您可以使用 MMC 嵌入式管理單元或此命令來建立一或多個應用程式，如 XML 檔案所指定。 Windows 初始化的 SSO 範例 XML 檔案如下：  
@@ -74,7 +75,7 @@ ms.lasthandoff: 03/28/2018
   
 2.  在命令列，移至「企業單一登入」安裝目錄。 預設安裝目錄是*\<磁碟機\>*: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-3.  型別 * * ssomanage – createapps *\<應用程式檔案名稱\>* * *，其中*\<應用程式檔案名稱\>*是 XML 檔案。  
+3.  型別 * * ssomanage – createapps *\<應用程式檔案名稱\>* * *，其中*\<應用程式檔案名稱\>* 是 XML 檔案。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  

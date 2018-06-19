@@ -1,18 +1,18 @@
 ---
-title: "變更欄位 Rekeyed |Microsoft 文件"
-ms.custom: 
+title: 變更欄位 Rekeyed |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - rekeyed fields
 - Message Repair and New Submission, modifying fields
 - Message Repair and New Submission, rekeyed fields
 ms.assetid: aaf353f7-0e43-403e-b72a-88e5dd07f4ac
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964492"
 ---
 # <a name="changing-fields-to-be-rekeyed"></a>變更 Rekeyed 的欄位
 在 訊息修復工作流程執行驗證步驟[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]移除資料的欄位數目，讓驗證器必須重新輸入，或重設金鑰，該資料。 您可以自訂 RekeyVerify 中的哪些欄位[!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]需要 rekeyed 表單。 這麼做在 MrsrXpathConfig.xml 檔案中，位於\<*磁碟機*\>: \Program Files\Microsoft BizTalk Accelerator for SWIFT\MRSR 資料夾。  

@@ -11,7 +11,7 @@ helpviewer_keywords:
 - functions and procedures, message structure of
 - functions and procedures, message actions of
 ms.assetid: 90b77b15-a4c6-487d-a09e-a078ceddfd1e
-caps.latest.revision: ''
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25964564"
 ---
 # <a name="message-schemas-for-functions-and-procedures"></a>函數和程序的訊息結構描述
 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]介面 Oracle 資料庫函式和預存程序做為作業。 本章節描述的訊息結構及用來叫用函數和程序的動作。  

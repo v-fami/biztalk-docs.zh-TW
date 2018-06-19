@@ -1,17 +1,17 @@
 ---
-title: "步驟 3： 建立專案並部署觸發程序事件 （訊息） |Microsoft 文件"
-ms.custom: 
+title: 步驟 3： 建立專案並部署觸發程序事件 （訊息） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - end-to-end tutorial, trigger events
 - trigger events
 ms.assetid: 5d21a923-fc2c-4d50-b146-daca0aa26e2a
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961276"
 ---
 # <a name="step-3-create-and-deploy-a-trigger-event-message-project"></a>步驟 3： 建立專案並部署觸發程序事件 （訊息）
 在此步驟中，您可以建立結構描述觸發程序事件訊息。 例如，您可能許可放電和傳輸系統 (ADT) 醫院資訊系統 (HIS) 傳送訊息的人員。 您需要這個結構描述來定義訊息的格式。  

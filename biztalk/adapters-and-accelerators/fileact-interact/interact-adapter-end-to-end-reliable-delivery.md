@@ -1,14 +1,14 @@
 ---
-title: "互動配接器端對端可靠傳遞 |Microsoft 文件"
-ms.custom: 
+title: 互動配接器端對端可靠傳遞 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ac7c22f2-ee4a-4e9b-af40-da7eb58daf51
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222990"
 ---
 # <a name="interact-adapter-end-to-end-reliable-delivery"></a>互動配接器端對端可靠傳遞
 將訊息或檔案傳送給收件者中，我們建議您確認已傳遞的訊息或檔案，以及的商務交易包含在這些執行沒有更多的時間比預期。  

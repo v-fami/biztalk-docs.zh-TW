@@ -1,14 +1,14 @@
 ---
-title: "設定接收埠內送 mdn |Microsoft 文件"
-ms.custom: 
+title: 設定接收埠內送 mdn |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d156beae-e145-48de-9f02-37457073ef97
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968308"
 ---
 # <a name="configuring-a-receive-port-for-incoming-mdns"></a>設定內送 MDN 的接收埠
 若要接收 AS2 MDN，請針對接收此訊息並將回應傳回給合作對象的作業，建立單向 HTTP 接收埠。  

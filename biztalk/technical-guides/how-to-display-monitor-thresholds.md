@@ -1,14 +1,14 @@
 ---
-title: "如何顯示監視閾值 |Microsoft 文件"
-ms.custom: 
+title: 如何顯示監視閾值 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 88d88b15-0691-49d9-b116-1a2ae95bead9
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22297702"
 ---
 # <a name="how-to-display-monitor-thresholds"></a>如何顯示監視閾值
 若要顯示監視閾值，請使用本節中所述的指令碼。 此指令碼適用於大部分監視。 它會建立.csv 檔案，其中包含下表中描述的資料行，並且可以使用 Office Excel 加以檢視。  

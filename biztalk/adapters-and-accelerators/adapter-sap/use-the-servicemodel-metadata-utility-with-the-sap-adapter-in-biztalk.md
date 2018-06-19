@@ -12,7 +12,7 @@ helpviewer_keywords:
 - ServiceModel Metadata Utility Tool, creating a WCF Client Class or a WCF service contract with the tool
 - ServiceModel Metadata Utility Tool, configuring the tool for the adapter
 ms.assetid: 7ac08012-bb12-4983-9402-be84fe3997d8
-caps.latest.revision: ''
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25962764"
 ---
 # <a name="using-the-servicemodel-metadata-utility-tool-with-the-biztalk-adapter-for-mysap-business-suite"></a>使用 BizTalk adapter 的 ServiceModel Metadata Utility Tool for mySAP Business Suite
 您可以使用 ServiceModel Metadata Utility Tool (svcutil.exe) 來產生 WCF 用戶端類別或作業的 WCF 服務合約 （介面），[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]公開。 執行 svcutil.exe 產生 WCF 用戶端類別或 WCF 服務合約之後，您可以在您的程式碼中包含所產生的檔案和建立所產生類別的執行個體或從實作 WCF 服務產生的介面上的 SAP 執行作業系統。  

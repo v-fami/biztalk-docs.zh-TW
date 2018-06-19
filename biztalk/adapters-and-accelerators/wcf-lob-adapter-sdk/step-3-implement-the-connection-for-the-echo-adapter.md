@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dc223901-3ad3-4e71-8672-fea6bb4efe65
-caps.latest.revision: ''
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22227262"
 ---
 # <a name="step-3-implement-the-connection-for-the-echo-adapter"></a>步驟 3： 實作 Echo 介面卡的連線
 ![步驟 3 的 9](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-3of9.gif "Step_3of9")  
@@ -264,13 +265,13 @@ ms.lasthandoff: 03/23/2018
   
 2.  在 Visual Studio 編輯器中，以滑鼠右鍵按一下任何位置內編輯器] 的內容功能表，指向**大綱**，然後按一下 [**取消大綱**。  
   
-3.  在 Visual Studio 編輯器中，尋找**建構函式**區域。 內部**EchoAdapterConnectionUri()**預設建構函式中，加入下列陳述式：  
+3.  在 Visual Studio 編輯器中，尋找**建構函式**區域。 內部**EchoAdapterConnectionUri()** 預設建構函式中，加入下列陳述式：  
   
     ```csharp  
     Uri = new Uri("echov2://lobhostname/lobapplication?enableauthentication=False");  
     ```  
   
-4.  在 Visual Studio 編輯器中，內部**EchoAdapterConnectionUri (Uri uri)**多載建構函式，並加入下列陳述式：  
+4.  在 Visual Studio 編輯器中，內部**EchoAdapterConnectionUri (Uri uri)** 多載建構函式，並加入下列陳述式：  
   
     ```csharp  
     Uri = uri;  

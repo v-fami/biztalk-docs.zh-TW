@@ -1,14 +1,14 @@
 ---
-title: "步驟 2： 建立 Oracle E-business Suite 成品的應用程式定義檔 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 建立 Oracle E-business Suite 成品的應用程式定義檔 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2665afde-0337-4795-ab4c-6223d39fdf9c
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22219302"
 ---
 # <a name="step-2-create-an-application-definition-file-for-the-oracle-e-business-suite-artifacts"></a>步驟 2： 建立 Oracle E-business Suite 成品的應用程式定義檔
 ![步驟 4 之 2](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")  
@@ -187,7 +188,7 @@ ms.lasthandoff: 09/20/2017
   
     3.  展開**篩選**參數，然後按一下第二個**篩選**節點。  
   
-    4.  在 [屬性] 窗格中，選取**員工姓名 [員工]**從**識別碼**清單。  
+    4.  在 [屬性] 窗格中，選取**員工姓名 [員工]** 從**識別碼**清單。  
   
          ![設定 FILTER 參數的識別項](../../adapters-and-accelerators/adapter-oracle-ebs/media/16-set-identifier.gif "16_Set_Identifier")  
   
@@ -199,7 +200,7 @@ ms.lasthandoff: 09/20/2017
   
     3.  展開**傳回**節點，然後第二個**傳回** 節點，然後在**項目**節點，然後再按一下**名稱**節點。  
   
-    4.  在 [屬性] 窗格中，選取**員工姓名 [員工]**從**識別碼**清單。  
+    4.  在 [屬性] 窗格中，選取**員工姓名 [員工]** 從**識別碼**清單。  
   
 #### <a name="to-create-a-specific-finder-method-instance-for-the-select-method"></a>若要建立特定的 Finder 方法執行個體，如 Select 方法  
   

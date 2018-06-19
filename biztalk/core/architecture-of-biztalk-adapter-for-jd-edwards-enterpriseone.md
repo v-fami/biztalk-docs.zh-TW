@@ -1,15 +1,15 @@
 ---
-title: "BizTalk Adapter for JD Edwards EnterpriseOne 的架構 |Microsoft 文件"
-description: "在設計階段和執行的階段在 JD Edwards EnterpriseOne 配接器在 BizTalk 中，在設計階段和執行的階段，以及輸出的事件描述輸入的服務"
-ms.custom: 
+title: BizTalk Adapter for JD Edwards EnterpriseOne 的架構 |Microsoft 文件
+description: 在設計階段和執行的階段在 JD Edwards EnterpriseOne 配接器在 BizTalk 中，在設計階段和執行的階段，以及輸出的事件描述輸入的服務
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0441c5d2-6a46-45b6-8ab5-0bdac3590f56
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013757"
 ---
 # <a name="architecture-of-biztalk-adapter-for-jd-edwards-enterpriseone"></a>BizTalk Adapter for JD Edwards EnterpriseOne 的架構
 Microsoft BizTalk Adapter for JD Edwards EnterpriseOne 可讓您存取 JD Edwards EnterpriseOne 商務功能。 JD Edwards EnterpriseOne 會使用名為 JDENet 的專屬傳訊架構，在用戶端與伺服器電腦之間通訊。 JDENet 是由 JAR 檔案 Connector.jar 和 Kernel.jar 中的 JD Edwards EnterpriseOne 連接器類別實作。 以 TCP/IP 做為傳輸通訊協定，與預設連接埠 6009 或 6010 來實作通訊。 此值設定為位置的描述，請參閱[將成品新增至 BizTalk 管理](../core/adding-biztalk-adapter-for-jd-edwards-oneworld.md)。  

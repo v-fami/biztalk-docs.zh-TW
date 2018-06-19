@@ -1,14 +1,14 @@
 ---
-title: "若要建立報表伺服器專案中使用的 Data Provider for SAP |Microsoft 文件"
-ms.custom: 
+title: 若要建立報表伺服器專案中使用的 Data Provider for SAP |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5fe985b5-ba67-4179-a31c-4f41106c32be
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962756"
 ---
 # <a name="use-the-data-provider-for-sap-to-create-a-report-server-project"></a>若要建立報表伺服器專案中使用 SAP 的資料提供者
 您必須建立報表伺服器專案、 使用[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]，以產生報告的 SAP 系統中可用的資料。 本主題說明如何建立報表伺服器專案。  
@@ -54,7 +55,7 @@ ms.lasthandoff: 11/28/2017
         |使用|動作|  
         |--------------|----------------|  
         |**使用特定的使用者名稱和密碼**|指定使用者名稱和密碼以連接到 SAP 系統。|  
-        |**提示認證**|產生報表時，輸入 SAP 系統的認證。 **注意：**認證您指定這個選項會覆寫認證，如果指定，做為連接字串的一部分。|  
+        |**提示認證**|產生報表時，輸入 SAP 系統的認證。 **注意：** 認證您指定這個選項會覆寫認證，如果指定，做為連接字串的一部分。|  
         |**無認證**|如果您要提供使用者名稱和密碼做為連接字串的一部分，請選擇此選項。|  
   
         > [!NOTE]

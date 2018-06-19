@@ -1,14 +1,14 @@
 ---
-title: "ESB 路線的選取器元件 |Microsoft 文件"
-ms.custom: 
+title: ESB 路線的選取器元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c2cd8a85-e036-4817-9541-3fd720ca04ef
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295150"
 ---
 # <a name="the-esb-itinerary-selector-component"></a>ESB 路線的選取器元件
 ESB 行程選取器元件可讓沒有 SOAP 標頭來選取適當的伺服器端路線的解析程式的說明訊息通過 ESB 行程的內送訊息。 元件也用於使用 SOAP 標頭定義的名稱和版本的路線，用戶端要求的訊息。  

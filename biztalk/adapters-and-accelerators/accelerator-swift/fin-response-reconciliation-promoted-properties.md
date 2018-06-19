@@ -1,17 +1,17 @@
 ---
-title: "FIN 回應對帳升級屬性 |Microsoft 文件"
-ms.custom: 
+title: FIN 回應對帳升級屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - promoted properties, FIN Response Reconciliation
 - FIN Response Reconciliation, promoted properties
 ms.assetid: 1a638e9e-61eb-482c-8856-b1aea36c449c
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964908"
 ---
 # <a name="fin-response-reconciliation-promoted-properties"></a>FIN 回應對帳升級屬性
 [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] FIN 回應對帳功能包括下列的升級的屬性。  

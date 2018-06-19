@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9bdbc2df-9d19-4ae8-b540-ec1b9a7cdbe9
-caps.latest.revision: ''
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22302582"
 ---
 # <a name="test-results-networking-key-performance-indicators"></a>測試結果： 網路功能關鍵效能指標
 本主題摘要說明網路關鍵效能指標 (KPI) 內所觀測到的測試案例。 這些測試評估所測量的網路效能**\Network 介面 (\*) \Bytes Total/sec**效能監視器計數器和藉由測量**SQL Network Interface\Bytes Total/sec （平均）** VSTS 2008 負載測試控制器所傳回。  

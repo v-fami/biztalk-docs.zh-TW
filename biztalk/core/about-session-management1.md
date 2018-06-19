@@ -1,14 +1,14 @@
 ---
-title: "關於工作階段 Management1 |Microsoft 文件"
-ms.custom: 
+title: 關於工作階段 Management1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d1848619-d97a-4f1e-ba94-59861bd7aedf
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225646"
 ---
 # <a name="about-session-management"></a>關於工作階段管理
 Microsoft BizTalk Adapter for JD Edwards OneWorld 建立連線工作階段，以傳送呼叫給 JD Edwards OneWorld 伺服器。 當呼叫終止時，工作階段會放在集區中，供後續呼叫重複使用。 配接器會建立多個連線工作階段，以處理對 JD Edwards OneWorld 伺服器的並行呼叫。 集區會定期清除，以移除不再需要的工作階段。  

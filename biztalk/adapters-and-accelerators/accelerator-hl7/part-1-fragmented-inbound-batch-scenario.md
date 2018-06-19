@@ -1,18 +1,18 @@
 ---
-title: "第 1 部分： 分散的傳入批次案例 |Microsoft 文件"
-ms.custom: 
+title: 第 1 部分： 分散的傳入批次案例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - batching, fragmenting messages
 - batching tutorial, fragmenting messages
 - fragmenting messages
 ms.assetid: 8adf2c17-5f66-408d-b30b-51b22d8e71fa
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206214"
 ---
 # <a name="part-1-fragmented-inbound-batch-scenario"></a>第 1 部分： 分散的傳入批次的案例
 在本教學課程的這個部分，您可以接收 HL7 編碼的批次、 分割成個別的訊息，以及個別的訊息傳送至目的地。 下圖顯示此程序的流程。  

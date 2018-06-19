@@ -1,18 +1,18 @@
 ---
-title: "如何從警示移除訂閱者 |Microsoft 文件"
-ms.custom: 
+title: 如何從警示移除訂閱者 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - subscriptions, subscribers
 - managing [BAM], deleting alert subscibers
 - alerts, subscribers
 ms.assetid: d5571863-26e3-4c1b-991f-538cd1fef347
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969988"
 ---
 # <a name="how-to-remove-subscribers-from-an-alert"></a>如何從警示移除訂閱者
 系統管理員使用**移除訂用帳戶**命令，以從警示移除指定的使用者做為訂閱者。  

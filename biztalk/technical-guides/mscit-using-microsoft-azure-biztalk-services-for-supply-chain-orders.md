@@ -1,14 +1,14 @@
 ---
-title: "MSCIT： 使用 Microsoft Azure BizTalk 服務的供應鏈訂單 |Microsoft 文件"
-ms.custom: 
+title: MSCIT： 使用 Microsoft Azure BizTalk 服務的供應鏈訂單 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 22091261-cd17-45b2-8746-dc174b52dcff
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299214"
 ---
 # <a name="mscit-using-microsoft-azure-biztalk-services-for-supply-chain-orders"></a>供應鏈訂單 MSCIT： 使用 Microsoft Azure BizTalk 服務
 **Microsoft 裝置 （& s) Studios： 使用 Microsoft Azure BizTalk 服務的供應鏈訂單**  
@@ -31,7 +32,7 @@ ms.lasthandoff: 09/20/2017
   
  **適用於：** Microsoft Azure BizTalk 服務 (MABS) 和 BizTalk Server 2013  
   
- **摘要：**製造、 供應鏈和資訊服務 (MSCIS) 群組是在 Microsoft 全域供應鏈管理群組。 每年，Microsoft 會啟動新的產品。 MSCIS 會負責將這些新產品上市。 若要支援這些產品，新的夥伴會新增至供應鏈，包括供應商，製造商、 散發者、 零售商、 服務中心、 承運業者，等等。  
+ **摘要：** 製造、 供應鏈和資訊服務 (MSCIS) 群組是在 Microsoft 全域供應鏈管理群組。 每年，Microsoft 會啟動新的產品。 MSCIS 會負責將這些新產品上市。 若要支援這些產品，新的夥伴會新增至供應鏈，包括供應商，製造商、 散發者、 零售商、 服務中心、 承運業者，等等。  
   
  每年增加的交易夥伴數目。 在高負載期間有輸送量與相關的問題。 提供鏈結 BizTalk 中樞處理更多的交易 （增加的磁碟區），同時終端系統或協力廠商系統不能保持同步。  
   

@@ -1,14 +1,14 @@
 ---
-title: "步驟 5： 回應配接器實作的中繼資料搜尋處理常式 |Microsoft 文件"
-ms.custom: 
+title: 步驟 5： 回應配接器實作的中繼資料搜尋處理常式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1a133a99-1d6c-4634-b928-0f4f23c6f6e4
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226398"
 ---
 # <a name="step-5-implement-the-metadata-search-handler-for-the-echo-adapter"></a>步驟 5： 回應配接器實作的中繼資料搜尋處理常式
 ![步驟 5 之 9](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-5of9.gif "Step_5of9")  

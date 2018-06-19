@@ -1,11 +1,11 @@
 ---
-title: "步驟 3： 定義、 發佈與部署 Contoso 的商務原則 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3： 定義、 發佈與部署 Contoso 的商務原則 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - policies, deploying
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - private process tutorial, creating policies
 - policies, creating
 ms.assetid: 529b16d8-226b-4046-a95d-64162ebd59a3
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210662"
 ---
 # <a name="step-3-defining-publishing-and-deploying-the-business-policy-for-contoso"></a>步驟 3： 定義、 發佈與部署 Contoso 的商務原則
 在此步驟中，您將建立可保留每個產品一定單位數量的商務原則，讓 Contoso 製造商可以在緊急時使用這些存貨。  
@@ -34,7 +35,7 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-add-a-policy-rule-to-enforce-the-emergency-quantity-needs"></a>新增原則規則以強制執行緊急數量需求  
   
-1.  以滑鼠右鍵按一下**版本 1.0 （未儲存）**下**3A2PriceAvailabilityPolicy**，然後按一下 **新增規則**。  
+1.  以滑鼠右鍵按一下**版本 1.0 （未儲存）** 下**3A2PriceAvailabilityPolicy**，然後按一下 **新增規則**。  
   
 2.  命名規則**Emergency Supply Rule-Quantity Exhausted**，然後按下**Enter**。  
   
@@ -48,7 +49,7 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-add-a-policy-to-revise-the-number-available-field-in-the-response"></a>新增原則以修訂回應中的可用數目欄位  
   
-1.  以滑鼠右鍵按一下**版本 1.0 （未儲存）**下**3A2PriceAvailabilityPolicy**，然後按一下 **新增規則**。  
+1.  以滑鼠右鍵按一下**版本 1.0 （未儲存）** 下**3A2PriceAvailabilityPolicy**，然後按一下 **新增規則**。  
   
 2.  將新的規則**Emergency Supply Rule-Quantity Available**，然後按下**Enter**。  
   
@@ -68,7 +69,7 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-save-publish-and-deploy-the-business-policy"></a>若要儲存、發佈和部署商務原則  
   
-1.  在 原則總管 窗格中，以滑鼠右鍵按一下**版本 1.0 （未儲存）**下**3A2PriceAvailabilityPolicy**，然後按一下 **儲存**。  
+1.  在 原則總管 窗格中，以滑鼠右鍵按一下**版本 1.0 （未儲存）** 下**3A2PriceAvailabilityPolicy**，然後按一下 **儲存**。  
   
 2.  以滑鼠右鍵按一下相同節點，然後**發行**。  
   

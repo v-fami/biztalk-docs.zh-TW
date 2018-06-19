@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963028"
 ---
 # <a name="overview-of-the-sap-adapter"></a>SAP 配接器的概觀
 [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]公開為 WCF 服務的 SAP 系統。 配接器用戶端可以交換 SOAP 訊息的配接器，以執行 SAP 系統上的作業。 配接器會取用 WCF 訊息，並使適當地呼叫 SAP 系統執行的作業。 配接器傳回從 SAP 系統的回應傳回給用戶端的 SOAP 訊息格式。  

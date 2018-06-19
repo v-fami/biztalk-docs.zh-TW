@@ -1,14 +1,14 @@
 ---
-title: "如何更新對應，使用並行的版本設定 |Microsoft 文件"
-ms.custom: 
+title: 如何更新對應，使用並行的版本設定 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7b0e377f-92ab-483e-9f3c-222c7b5ac0b1
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "22298270"
 ---
 # <a name="how-to-update-a-map-using-side-by-side-versioning"></a>如何更新對應，使用-並存版本控制
 某些 BizTalk 成品，例如對應，選擇完整強式名稱 (FQSN)，在這種情況下的繫結包括使用的版本。 這可讓以並存方式，並排在兩個或多個對應[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台。 如此一來，您可以選取其中一個輸入中的接收位置屬性的對應或輸出對應的對應中的傳送埠屬性。  

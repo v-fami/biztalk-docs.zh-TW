@@ -1,14 +1,14 @@
 ---
-title: "最佳化效能 |Microsoft 文件"
-ms.custom: 
+title: 最佳化效能 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bafa119b-187e-4595-a673-358dc0a109b7
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299094"
 ---
 # <a name="optimizing-performance"></a>最佳化效能
 預設安裝的 Windows 作業系統，SQL Server [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，並提供用於生產環境的最佳效能可大幅最佳化 IIS[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境。 WCF 組態參數也可以從預設設定，以大幅提升效能微調。 本節提供部署生產時應該遵循特定的效能最佳化[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]方案。  

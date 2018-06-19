@@ -1,14 +1,14 @@
 ---
-title: "建立部署套件與 WCF LOB 配接器 SDK |Microsoft 文件"
-ms.custom: 
+title: 建立部署套件與 WCF LOB 配接器 SDK |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 10022981-7944-45d6-a78a-4d680a79b010
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966556"
 ---
 # <a name="create-a-deployment-package-with-the-wcf-lob-adapter-sdk"></a>使用 WCF LOB 配接器 SDK 建立部署套件
 在開發週期中，您可以建置、 偵錯，並執行您在 Visual Studio 中的配接器。 配接器解決方案的輸出是 DLL 的組件。 您可以建置使用 Visual Studio IDE 介面卡方案，或使用 devenv.exe 指令碼建立配接器組件。 一旦開發配接器時，並且可供使用配接器取用者的環境中，您必須建立讓配接器安裝在測試環境和生產環境的部署封裝。  

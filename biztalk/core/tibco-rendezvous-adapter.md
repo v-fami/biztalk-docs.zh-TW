@@ -1,15 +1,15 @@
 ---
-title: "TIBCO Rendezvous 配接器 |Microsoft 文件"
-description: "安裝、 逐步教學課程、 學習架構、 使用 SSO 安全性、 建立您的應用程式、 匯入繫結檔案，以及使用 BizTalk Adapter for TIBCO Rendezvous 在 BizTalk Server 時加入例外狀況處理"
-ms.custom: 
+title: TIBCO Rendezvous 配接器 |Microsoft 文件
+description: 安裝、 逐步教學課程、 學習架構、 使用 SSO 安全性、 建立您的應用程式、 匯入繫結檔案，以及使用 BizTalk Adapter for TIBCO Rendezvous 在 BizTalk Server 時加入例外狀況處理
+ms.custom: ''
 ms.date: 10/24/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0528954d-11b4-449b-8057-30d463104fef
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015453"
 ---
 # <a name="tibco-rendezvous-adapter"></a>TIBCO Rendezvous 配接器
 Microsoft BizTalk Adapter for TIBCO Rendezvous 可讓您在 BizTalk Server 中使用 TIBCO Rendezvous 商務功能。 下列各節討論如何設定此配接器以存取 TIBCO Rendezvous 特定資訊。  

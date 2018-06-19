@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206454"
 ---
 # <a name="step-15-configure-the-send-and-receive-ports"></a>步驟 15： 設定傳送埠和接收埠
 在上一個步驟中，您可以建立邏輯傳送和接收埠使用協調流程設計師並設定連接埠繫結到 「 稍後指定 」。 在此步驟中，您可以使用 BizTalk 總管 中定義實體的來源和目的地位置，並以您在協調流程中建立的邏輯連接埠繫結的實體連接埠完成連接埠設定。  

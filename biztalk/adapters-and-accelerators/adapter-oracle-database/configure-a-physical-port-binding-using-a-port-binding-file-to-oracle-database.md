@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214886"
 ---
 # <a name="configure-a-physical-port-binding-using-a-port-binding-file-to-oracle-database"></a>設定使用 Oracle 資料庫的連接埠繫結檔案的實體連接埠繫結
 當您使用[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]產生中繼資料的 Oracle 資料庫成品以外的結構描述檔案，[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]也會產生連接埠繫結檔案。 您可以將此繫結檔案匯 BizTalk 應用程式來建立實體傳送或接收埠。 如需匯入繫結檔案的指示，請參閱[重複使用的 Oracle 資料庫配接器繫結](../../adapters-and-accelerators/adapter-oracle-database/reuse-oracle-database-adapter-bindings.md)。 如果您匯入此繫結檔案，您不必手動建立實體傳送或接收埠。  

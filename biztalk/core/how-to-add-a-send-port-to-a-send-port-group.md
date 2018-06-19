@@ -1,11 +1,11 @@
 ---
-title: "如何將傳送埠新增至傳送埠群組 |Microsoft 文件"
-ms.custom: 
+title: 如何將傳送埠新增至傳送埠群組 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [send port groups], adding send ports
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - send ports, send port groups
 - adding, send ports
 ms.assetid: a61b3b32-c05e-40b9-abf1-09b7065fb6a2
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969572"
 ---
 # <a name="how-to-add-a-send-port-to-a-send-port-group"></a>如何新增傳送埠至傳送埠群組
 本主題描述如何使用 BizTalk Server 管理主控台，將一個或多個傳送埠新增至傳送埠群組。 您只能在傳送埠群組中新增單向靜態傳送埠。  

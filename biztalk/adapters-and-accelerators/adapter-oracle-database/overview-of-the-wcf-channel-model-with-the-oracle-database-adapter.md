@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964262"
 ---
 # <a name="overview-of-the-wcf-channel-model-with-the-oracle-database-adapter"></a>使用 Oracle 資料庫配接器的 WCF 通道模型概觀
 在叫用作業[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]，您的程式碼做為 WCF 用戶端，並將傳出作業傳送至配接器。 在 WCF 通道模型中，您的程式碼會透過通道傳送的要求訊息叫用的介面卡上的作業。  

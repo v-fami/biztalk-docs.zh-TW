@@ -1,11 +1,11 @@
 ---
-title: "第 2 課： 加入一般檔案傳送埠 |Microsoft 文件"
-ms.custom: 
+title: 第 2 課： 加入一般檔案傳送埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - send ports, flat files
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - creating, send ports
 - send ports, creating
 ms.assetid: 33dceb0d-85f5-4e19-820f-cd33b60cd32a
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961332"
 ---
 # <a name="lesson-2-adding-a-flat-file-send-port"></a>第 2 課： 加入一般檔案傳送埠
 在這一課，您可以設定傳送埠和傳送位置。 您可以使用傳送埠定義您想要傳送訊息的方式。 您也可以建立傳送訊息的檔案資料夾位置。  
@@ -42,7 +43,7 @@ ms.lasthandoff: 11/28/2017
   
 7.  建立**輸出**資料夾中的**\<磁碟機\>: \Labs**，然後按一下 **確定**。  
   
-8.  在**檔案名稱**方塊中，輸入**%MessageID%.txt**，然後按一下 **確定**。  
+8.  在**檔案名稱**方塊中，輸入 **%MessageID%.txt**，然後按一下 **確定**。  
   
 9. 在 傳送埠屬性 對話方塊中，按一下 下拉式清單，如**傳送管線**方塊，並選取**MT103SendPipeline**。  
   

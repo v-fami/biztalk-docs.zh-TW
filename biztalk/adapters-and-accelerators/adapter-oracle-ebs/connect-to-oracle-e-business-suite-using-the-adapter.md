@@ -1,14 +1,14 @@
 ---
-title: "連接到 Oracle E-business Suite 使用配接器 |Microsoft 文件"
-ms.custom: 
+title: 連接到 Oracle E-business Suite 使用配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 80ff31d4-be4c-42d7-a321-8f01b40dd71e
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217862"
 ---
 # <a name="connect-to-oracle-e-business-suite-using-the-adapter"></a>連接到 Oracle E-business Suite 使用配接器
 [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]使用 ODP.NET 11.1.0.7 連接到 Oracle E-business Suite。 [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]需要配接器用戶端提供的連接字串，呼叫統一資源識別元 (URI)，連接到 Oracle E-business Suite 的連線。 就內部而言，[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]會連接到基礎的 Oracle 資料庫，透過的 URI。 使用 連線 URI，配接器用戶端可以指定連線參數，以連接到外部系統。  

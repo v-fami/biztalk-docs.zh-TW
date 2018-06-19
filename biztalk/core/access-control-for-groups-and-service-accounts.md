@@ -1,11 +1,11 @@
 ---
-title: "群組和服務帳戶的存取控制 |Microsoft 文件"
-ms.custom: 
+title: 群組和服務帳戶的存取控制 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - access control, service accounts
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - groups, access control
 - groups, security
 ms.assetid: 411a7bfa-6675-4d09-9e37-83e2941df3c6
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967028"
 ---
 # <a name="access-control-for-groups-and-service-accounts"></a>群組和服務帳戶的存取控制
 每個 BizTalk 主控件執行個體會在使用者建立的服務帳戶下執行。 在電腦上建立主控件執行個體時，您必須提供服務帳戶及密碼。 BizTalk Server 會接著確定帳戶擁有執行工作所需的最低使用者權限，其方法是新增這每一個服務帳戶到本機或網域的 Windows 群組，然後再將此群組加入至該主控件特定的「SQL Server 資料庫」角色。  

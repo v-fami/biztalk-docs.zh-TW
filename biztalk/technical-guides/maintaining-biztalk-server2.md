@@ -1,14 +1,14 @@
 ---
-title: "維護 BizTalk Server2 |Microsoft 文件"
-ms.custom: 
+title: 維護 BizTalk Server2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5b9c10d1-101b-4b9d-8eab-767b853f17d8
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298366"
 ---
 # <a name="maintaining-biztalk-server2"></a>維護 BizTalk Server2
 維護活動是服務監視和控制 (讓 SMC) 系統管理函式定義 Microsoft Operations Framework (MOF) 的一部分。 讓 SMC 主要目標是要觀察的健全狀況程式[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統。 讓 SMC 檢查可能採取補救措施以避免潛在的服務事件，並發生時，將服務事件的影響降到最低。  

@@ -1,15 +1,15 @@
 ---
-title: "建立 TIBCO EMS 傳送成品 |Microsoft 文件"
-description: "建立傳送埠，並設定在 BizTalk Server 使用 TIBCO Enterprise Message Service 配接器的傳輸屬性"
-ms.custom: 
+title: 建立 TIBCO EMS 傳送成品 |Microsoft 文件
+description: 建立傳送埠，並設定在 BizTalk Server 使用 TIBCO Enterprise Message Service 配接器的傳輸屬性
+ms.custom: ''
 ms.date: 10/23/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8f82609c-1847-4796-a24c-28cb350ec739
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014181"
 ---
 # <a name="creating--tibco-enterprise-message-service-send-handlers"></a>建立 TIBCO 企業訊息服務傳送處理常式
 本節說明如何設定傳送埠以連線至 TIBCO Enterprise Message Service (EMS)，以及如何在協調流程中納入 XML 以在執行階段與 TIBCO EMS 互動。  
@@ -37,7 +38,7 @@ ms.lasthandoff: 11/07/2017
   
     3.  從**傳送處理常式**下拉式清單中，選取 URI。  
   
-    4.  從**傳送管線**下拉式清單中，選取**Microsoft.BizTalk.DefaultPipelines.XMLTransmit**。 從**接收管線**下拉式清單中，選取**[microsoft.biztalk.defaultpiplelines.xmlreceive]**。  
+    4.  從**傳送管線**下拉式清單中，選取**Microsoft.BizTalk.DefaultPipelines.XMLTransmit**。 從**接收管線**下拉式清單中，選取 **[microsoft.biztalk.defaultpiplelines.xmlreceive]**。  
 
         > [!NOTE]
         > BizTalk Adapter for TIBCO Enterprise Message Service 需要傳送 和 xmlreceive 選取 xmltransmit，用於接收。  
@@ -80,7 +81,7 @@ TIBCO Enterprise Message Service 傳輸屬性是在設計階段設定、在執�
   
     |參數|Description|  
     |---------------|-----------------|  
-    |`Destination`|必要設定。 定義目的地的名稱與類型。 例如： staticqueue [Q1]。<br /><br /> 使用下列格式定義佇列或主題: {static} {dynamic] Queue [queuename] 或 {static} {dynamic] Topic [topicname]。 **注意：**您可以傳送訊息至不存在的目的地。 在此情況下，TIBCO Enterprise Message Service 會建立目的地;這指*動態目的地*。 這是由產生者所建立的目的地，當訊息使用完畢和當產生者中斷連線時即會刪除。 A*靜態目的地*目的地只可以建立由 TIBCO Enterprise Message Service 系統管理員。 由於 BizTalk Adapter for TIBCO Enterprise Message Service 在伺服器上使用名稱對應機制，因此您無法在開啟目的地連線期間連線至動態連接埠。 當您使用名稱對應功能時，只會顯示靜態連接埠。 連線至動態連接埠時，可以使用靜態目的地；但是，如果該名稱的目的地不存在，則系統會建立一個目的地。 目的地可讓您明確指定，定義連接埠時要使用的目的地類型。 目的地語法不區分大小寫： staticqueue [queue_name]，statictopic [topic_name]，dynamicqueue [queue_name];dynamictopic [topic_name]。|  
+    |`Destination`|必要設定。 定義目的地的名稱與類型。 例如： staticqueue [Q1]。<br /><br /> 使用下列格式定義佇列或主題: {static} {dynamic] Queue [queuename] 或 {static} {dynamic] Topic [topicname]。 **注意：** 您可以傳送訊息至不存在的目的地。 在此情況下，TIBCO Enterprise Message Service 會建立目的地;這指*動態目的地*。 這是由產生者所建立的目的地，當訊息使用完畢和當產生者中斷連線時即會刪除。 A*靜態目的地*目的地只可以建立由 TIBCO Enterprise Message Service 系統管理員。 由於 BizTalk Adapter for TIBCO Enterprise Message Service 在伺服器上使用名稱對應機制，因此您無法在開啟目的地連線期間連線至動態連接埠。 當您使用名稱對應功能時，只會顯示靜態連接埠。 連線至動態連接埠時，可以使用靜態目的地；但是，如果該名稱的目的地不存在，則系統會建立一個目的地。 目的地可讓您明確指定，定義連接埠時要使用的目的地類型。 目的地語法不區分大小寫： staticqueue [queue_name]，statictopic [topic_name]，dynamicqueue [queue_name];dynamictopic [topic_name]。|  
     |`Port Number`|TIBCO EMS 伺服器所收聽的連接埠。|  
     |`Server Name`|必要設定。 裝載 TIBCO EMS 伺服器的系統名稱。|  
   

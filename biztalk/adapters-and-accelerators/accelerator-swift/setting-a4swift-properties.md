@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961026"
 ---
 # <a name="setting-a4swift-properties"></a>設定 A4SWIFT 屬性
 若要設定 A4SWIFT 屬性，請參閱設定檔 Web 用戶端文件位於\<磁碟機\>: \Program Files\Microsoft BizTalk Accelerator for SWIFT\SDK\Samples\CustomMRSRModel。

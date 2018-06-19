@@ -1,15 +1,15 @@
 ---
-title: "使用 SQL 配接器在 BizTalk 中查詢通知訊息結構描述 |Microsoft 文件"
-description: "使用 SQL 配接器從 SQL Server 資料庫中 BizTalk 接收查詢通知"
-ms.custom: 
+title: 使用 SQL 配接器在 BizTalk 中查詢通知訊息結構描述 |Microsoft 文件
+description: 使用 SQL 配接器從 SQL Server 資料庫中 BizTalk 接收查詢通知
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b5183655-64d4-4767-a923-0a575e3708cd
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963398"
 ---
 # <a name="message-schemas-for-query-notification"></a>查詢通知的訊息結構描述
 [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]呈現從 SQL Server 資料庫接收查詢通知的通知作業。  

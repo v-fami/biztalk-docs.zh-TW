@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302022"
 ---
 # <a name="planning-for-high-availability-and-disaster-recovery"></a>規劃高可用性和災害復原
 方案開發的[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]通常在很重要的企業級應用程式需要最大的可用性。 當這些解決方案會放入生產環境中時，停機時間與相關聯的成本可能被以每秒千美元。 基於這個理由，您應該採用特定的策略來最大化的高可用性和災害復原功能，適用於[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]相依性的軟體和硬體才能支援[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]方案。  

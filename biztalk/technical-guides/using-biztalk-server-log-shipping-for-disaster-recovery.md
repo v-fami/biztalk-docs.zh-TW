@@ -1,14 +1,14 @@
 ---
-title: "使用 BizTalk Server 記錄傳送災害復原 |Microsoft 文件"
-ms.custom: 
+title: 使用 BizTalk Server 記錄傳送災害復原 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5d65015c-de53-4590-b644-5c2f66f763db
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302294"
 ---
 # <a name="using-biztalk-server-log-shipping-for-disaster-recovery"></a>使用 BizTalk Server 記錄傳送災害復原
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]實作資料庫待命的功能，透過使用資料庫記錄傳送。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]記錄傳送會自動備份和還原的資料庫和交易記錄檔，允許繼續處理的實際執行資料庫伺服器失敗，資料庫的待命伺服器。  

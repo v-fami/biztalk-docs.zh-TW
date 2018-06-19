@@ -1,14 +1,14 @@
 ---
-title: "BizTalk 訊息內文元素未指定 |Microsoft 文件"
-ms.custom: 
+title: BizTalk 訊息內文元素未指定 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: af5d63c0-af96-4e34-828f-d29638cdf46d
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964116"
 ---
 # <a name="biztalk-message-body-element-not-specified"></a>未指定 BizTalk 訊息內文元素
 ## <a name="details"></a>詳細資料  

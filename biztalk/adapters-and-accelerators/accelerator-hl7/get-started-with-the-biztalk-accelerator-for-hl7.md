@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22205182"
 ---
 # <a name="get-started-with-the-biztalk-accelerator-for-hl7"></a>開始使用 BizTalk Accelerator for HL7
 使用[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[HL7_CurrentVersion_FirstRef_md](../../includes/hl7-currentversion-firstref-md.md)]，您可以開發醫療保健電腦系統之間的商務程序。 使用[!INCLUDE[HL7_CurrentVersion_abbrev_md](../../includes/hl7-currentversion-abbrev-md.md)]，開發人員、 IT 專業人員和介面分析師可在環境中工作一般跨醫療保健應用程式開發端對端整合 BTAHL7 為基礎的解決方案。  

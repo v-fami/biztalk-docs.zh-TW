@@ -1,17 +1,17 @@
 ---
-title: "搭配 Oracle 資料庫配接器的效能問題疑難排解 |Microsoft 文件"
-ms.custom: 
+title: 搭配 Oracle 資料庫配接器的效能問題疑難排解 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - performance issues, troubleshooting
 - troubleshooting, performance issues
 ms.assetid: 2035cd2e-ce87-419b-aada-61d257671623
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962348"
 ---
 # <a name="troubleshoot-performance-issues-with-the-oracle-database-adapter"></a>搭配 Oracle 資料庫配接器的效能問題疑難排解
 本章節將討論使用來解決使用時，可能會遇到效能問題的疑難排解技巧[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]。  

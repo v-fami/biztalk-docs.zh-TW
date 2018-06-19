@@ -1,17 +1,17 @@
 ---
-title: "步驟 11： 建立協調流程變數 |Microsoft 文件"
-ms.custom: 
+title: 步驟 11： 建立協調流程變數 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, variables
 - message enrichment tutorial, orchestrations
 ms.assetid: 3d1f792d-fe74-4373-86fa-3debda55e732
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962244"
 ---
 # <a name="step-11-create-orchestration-variables"></a>步驟 11： 建立協調流程變數
 在此步驟中，您會建立訊息執行個體傳送和接收的協調流程的協調流程變數。  
@@ -67,7 +68,7 @@ ms.lasthandoff: 11/28/2017
     > [!NOTE]
     >  一旦您建立並命名為訊息部分，請勿重新命名它們。 如有必要，刪除舊的內文部分，並以新名稱建立新的內文部分。  
   
-9. 在**類型**視窗底下**多部分訊息類型**，依序展開**DoorbellFinalMessageType**，然後按一下  **MessagePart_1**。 在**屬性** 窗格中，輸入**MSHSegment**如**識別碼**，然後按下**Enter**。 在下拉式清單中**類型**，依序展開**.NET 類別**，然後按一下  \<**從參考的組件中選取\>**。  
+9. 在**類型**視窗底下**多部分訊息類型**，依序展開**DoorbellFinalMessageType**，然後按一下  **MessagePart_1**。 在**屬性** 窗格中，輸入**MSHSegment**如**識別碼**，然後按下**Enter**。 在下拉式清單中**類型**，依序展開 **.NET 類別**，然後按一下  \<**從參考的組件中選取\>**。  
   
 10. 在**選取成品類型**] 對話方塊的左窗格中，按一下 [ **System.Xml**。 在右窗格中，按一下  **XmlDocument**，然後按一下 **確定**。  
   
@@ -79,7 +80,7 @@ ms.lasthandoff: 11/28/2017
   
 14. 在**協調流程檢視**視窗中，以滑鼠右鍵按一下**DoorbellFinalMessageType**，然後按一下 **新訊息部分**。  
   
-15. 在**屬性** 窗格中，輸入**ZSegments**如**識別碼**，然後按下**Enter**。 按一下**類型**，依序展開**.NET 類別**，然後按一下  **System.String**從下拉式清單。  
+15. 在**屬性** 窗格中，輸入**ZSegments**如**識別碼**，然後按下**Enter**。 按一下**類型**，依序展開 **.NET 類別**，然後按一下  **System.String**從下拉式清單。  
   
     > [!NOTE]
     >  您使用**System.String** Z 區段訊息部分，因為 Z 區段包含不需要符合結構描述的字串資料。  

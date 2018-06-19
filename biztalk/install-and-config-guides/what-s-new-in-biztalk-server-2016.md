@@ -1,15 +1,15 @@
 ---
-title: "什麼是 BizTalk Server 2016 的新功能 |Microsoft 文件"
-description: "變更和改進，包括 feature pack、 配接器、 安全性、 追蹤、 效能及多個 BizTalk Server 2016"
-ms.custom: 
+title: 什麼是 BizTalk Server 2016 的新功能 |Microsoft 文件
+description: 變更和改進，包括 feature pack、 配接器、 安全性、 追蹤、 效能及多個 BizTalk Server 2016
+ms.custom: ''
 ms.prod: biztalk-server
 ms.date: 11/15/2017
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3fce1fe8-f515-462d-bf6d-19408d515479
-caps.latest.revision: "28"
+caps.latest.revision: 28
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/21/2017
+ms.locfileid: "25497759"
 ---
 # <a name="whats-new-in-biztalk-server-2016"></a>BizTalk Server 2016 的新功能
 閱讀以了解 [!INCLUDE[bts2016](../includes/bts2016-md.md)] 的新功能。 

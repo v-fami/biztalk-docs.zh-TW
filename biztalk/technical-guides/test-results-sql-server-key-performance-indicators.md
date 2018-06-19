@@ -1,14 +1,14 @@
 ---
-title: "測試結果： SQL Server 的關鍵效能指標 |Microsoft 文件"
-ms.custom: 
+title: 測試結果： SQL Server 的關鍵效能指標 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2459ee6d-7a75-4338-ba5c-f42ab673ab87
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302462"
 ---
 # <a name="test-results-sql-server-key-performance-indicators"></a>測試結果： SQL Server 的關鍵效能指標
 本主題摘要說明 SQL Server 關鍵效能指標 (KPI) 內所觀測到的測試案例。 這些測試會評估下列的 SQL Server KPI:  
@@ -34,9 +35,9 @@ ms.lasthandoff: 09/20/2017
   
  請遵循下列步驟來提高效能所測量的 HYPER-V 虛擬機器上執行的 SQL Server **\SQL Server:SQL Statistics\Batch Requests/sec**效能監視器計數器：  
   
-1.  **配置額外的固定的 VHD 磁碟與固定虛擬的控制站和通道 –**配置使用的額外固定 VHD 磁碟的專用虛擬控制站和通道將會增加磁碟輸送量，而非使用單一的 VHD 磁碟。  
+1.  **配置額外的固定的 VHD 磁碟與固定虛擬的控制站和通道 –** 配置使用的額外固定 VHD 磁碟的專用虛擬控制站和通道將會增加磁碟輸送量，而非使用單一的 VHD 磁碟。  
   
-2.  **最佳化網路效能 –**中的 < 最佳化網路效能 > 一節所述的步驟[檢查清單： 在 HYPER-V 上的 最佳化效能](~/technical-guides/checklist-optimizing-performance-on-hyper-v.md)。 在相同的 HYPER-V 主機上執行多部 HYPER-V 虛擬機器時，特別重要，遵循 「 設定相同的 HYPER-V 上執行的 HYPER-V 虛擬機器主機使用的私人虛擬網路的電腦 」 一節中的建議[網路最佳化](../technical-guides/network-optimizations.md)。  
+2.  **最佳化網路效能 –** 中的 < 最佳化網路效能 > 一節所述的步驟[檢查清單： 在 HYPER-V 上的 最佳化效能](~/technical-guides/checklist-optimizing-performance-on-hyper-v.md)。 在相同的 HYPER-V 主機上執行多部 HYPER-V 虛擬機器時，特別重要，遵循 「 設定相同的 HYPER-V 上執行的 HYPER-V 虛擬機器主機使用的私人虛擬網路的電腦 」 一節中的建議[網路最佳化](../technical-guides/network-optimizations.md)。  
   
  由於無狀態的本質之故[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]額外[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]虛擬機器可以輕鬆地新增到環境為必要項目來提供向外的延展，並增加系統的整體效能。  
   

@@ -1,14 +1,14 @@
 ---
-title: "疑難排解效能 Issues3 |Microsoft 文件"
-ms.custom: 
+title: 疑難排解效能 Issues3 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7a348c4b-7df2-43e9-810c-1f538a97d7e1
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302390"
 ---
 # <a name="troubleshooting-performance-issues"></a>疑難排解效能問題
 本章節包含一般指導方針進行診斷及解決效能問題與[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]及其相依項目。 這些指導方針也可用事先，嚴重的問題之前就識別潛在問題。  

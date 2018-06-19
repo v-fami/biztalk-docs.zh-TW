@@ -1,17 +1,17 @@
 ---
-title: "範例供應鏈實例 |Microsoft 文件"
-ms.custom: 
+title: 範例供應鏈實例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - supply chains, examples
 - examples, supply chains
 ms.assetid: 1837a2c8-b1d4-4e1f-a196-a48b13b22662
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22211518"
 ---
 # <a name="sample-supply-chain-scenario"></a>範例供應鏈實例
 在高科技供應鏈當中，最基本的程序之一是訂單要求及回應訊息的交換。 在雙向基礎上，購買者發出訂單，而供應者不管是接受或拒絕訂單，或是訂單尚待處理都應通知對方。  

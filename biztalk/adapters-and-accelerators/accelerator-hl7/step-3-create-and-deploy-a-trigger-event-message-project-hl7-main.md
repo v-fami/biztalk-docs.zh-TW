@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961460"
 ---
 # <a name="step-3-create-and-deploy-a-trigger-event-message-projecthl7main"></a>步驟 3： 建立及部署觸發程序事件 （訊息） Project_hl7_main
 在此步驟中，您可以建立使用觸發程序事件訊息的結構描述。 例如，許可放電和傳輸系統 (ADT)，傳送訊息醫院資訊系統 (HIS)。 您可以使用此結構描述來定義訊息的格式。  

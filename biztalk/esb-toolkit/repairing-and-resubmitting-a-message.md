@@ -1,14 +1,14 @@
 ---
-title: "修復和重新提交訊息 |Microsoft 文件"
-ms.custom: 
+title: 修復和重新提交訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ccd720b4-44a2-4c44-bf6e-8cf5e9ded1aa
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295054"
 ---
 # <a name="repairing-and-resubmitting-a-message"></a>修復和重新提交訊息
 若要修復並重新提交失敗的訊息，使用 ESB 管理入口網站的 [錯誤] 頁面。  

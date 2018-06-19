@@ -1,11 +1,11 @@
 ---
-title: "建立連接至 SAP 系統 |Microsoft 文件"
-ms.custom: 
+title: 建立連接至 SAP 系統 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SAP system, connecting to
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - URI
 - Uniform Resource Identifier
 ms.assetid: 25d1eaa7-d02a-4fd0-8adf-83505cdb1ab8
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216422"
 ---
 # <a name="create-a-connection-to-the-sap-system"></a>建立 SAP 系統的連線
 [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]是[!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)]自訂繫結。 因此，它可讓透過 WCF 端點位址的 SAP 系統的通訊。 在 WCF 中的端點位址識別服務的網路位置，以及通常表示做為統一資源識別元 (URI)。 [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]表示這個位置做為連接 URI，其中包含屬性的[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]用以連接到 SAP 系統。 您必須指定連線 URI 時您：  

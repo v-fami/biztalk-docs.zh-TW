@@ -1,14 +1,14 @@
 ---
-title: "MQSeries 配接器效能最佳化 |Microsoft 文件"
-ms.custom: 
+title: MQSeries 配接器效能最佳化 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1a46455c-a8d2-4427-99bb-4e3c6dbd9566
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299126"
 ---
 # <a name="optimizing-mqseries-adapter-performance"></a>MQSeries 配接器效能最佳化
 使用下列設定來提高效能，可能的話，以設定 MQSeries 配接器。  

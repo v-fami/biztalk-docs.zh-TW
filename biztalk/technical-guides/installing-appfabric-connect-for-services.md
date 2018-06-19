@@ -1,14 +1,14 @@
 ---
-title: "針對服務安裝 AppFabric 連接 |Microsoft 文件"
-ms.custom: 
+title: 針對服務安裝 AppFabric 連接 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1de3bf49-e3cc-4d3f-9883-9a2c472f3647
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298686"
 ---
 # <a name="installing-appfabric-connect-for-services"></a>安裝 AppFabric 服務連線
 本指南提供如何安裝 BizTalk Server 2010 Feature Pack (年 10 月 2010) 的指示。 功能套件提供的增強功能的服務功能的安裝 BizTalk Server 2010 AppFabric Connect **BizTalk WCF 服務發佈精靈**和**WCF 配接器服務開發精靈**. 您已安裝此功能套件之後，您可以在內部的範圍延伸為 BizTalk Server 成品或 LOB 應用程式至雲端的 Windows Azure AppFabric 服務匯流排端點加入。  

@@ -1,17 +1,17 @@
 ---
-title: "Siebel 的 EXEC 陳述式的語法 |Microsoft 文件"
-ms.custom: 
+title: Siebel 的 EXEC 陳述式的語法 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - EXEC statement, syntax for
 - Data Provider for Siebel, EXEC statement
 ms.assetid: c5534102-bf37-4b39-83ab-e09483744c4d
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963076"
 ---
 # <a name="syntax-for-an-exec-statement-in-siebel"></a>Siebel 中 EXEC 陳述式語法
 使用[!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]，ADO.NET 用戶端也可以執行 EXEC 作業[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]。 EXEC 陳述式的語法為：  

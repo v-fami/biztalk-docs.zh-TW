@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/adding-biztalk-adapter-for-jd-edwards-oneworld/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: d65b87fbcbdaf89289406ae6850b70c605123451
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015566"
 ---
 # <a name="how-to-create-send-ports-for-jd-edwards-oneworld"></a>如何建立 JD Edwards OneWorld 的傳送埠
 使用下列程序來建立傳送埠。  
@@ -22,7 +23,7 @@ ms.lasthandoff: 11/07/2017
   
 3.  在**傳送埠屬性**對話方塊中，於**名稱**欄位中，輸入傳送埠名稱 (例如，輸入**SendToJDE**。)  
   
-4.  在**類型**下拉式清單中，選取**[jdeoneworld]**。  
+4.  在**類型**下拉式清單中，選取 **[jdeoneworld]**。  
   
 5.  在**URI**下拉式清單中，選取傳送處理常式。  
   

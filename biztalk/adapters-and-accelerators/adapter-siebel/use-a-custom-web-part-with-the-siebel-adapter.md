@@ -1,14 +1,14 @@
 ---
-title: "Siebel 配接器搭配使用自訂 Web 組件 |Microsoft 文件"
-ms.custom: 
+title: Siebel 配接器搭配使用自訂 Web 組件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ee3a6c04-6523-483c-bdf4-ce0ac47cda87
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963956"
 ---
 # <a name="use-a-custom-web-part-with-the-siebel-adapter"></a>Siebel 配接器搭配使用自訂 Web 組件
 本節提供與 Microsoft Office SharePoint Server 中使用自訂的 Web 組件的相關資訊。 若要使用自訂的 Web 組件，您必須執行下列作業：  
@@ -43,7 +44,7 @@ ms.lasthandoff: 11/28/2017
   
 3.  指定的名稱和位置的方案。 本主題中，指定`CustomWebPart`中**名稱**和**方案名稱**方塊。 指定的位置，然後按一下**確定**。  
   
-4.  將 System.Web 元件的參考加入至專案。 以滑鼠右鍵按一下專案名稱中的**方案總管] 中**，然後按一下 [**加入參考**。 在**加入參考**對話方塊中，選取**System.Web**中**.NET**索引標籤，然後再按一下**確定**。 System.Web 元件包含 System.Web.UI.WebControls.WebParts 必要的命名的空間。  
+4.  將 System.Web 元件的參考加入至專案。 以滑鼠右鍵按一下專案名稱中的**方案總管] 中**，然後按一下 [**加入參考**。 在**加入參考**對話方塊中，選取**System.Web**中 **.NET**索引標籤，然後再按一下**確定**。 System.Web 元件包含 System.Web.UI.WebControls.WebParts 必要的命名的空間。  
   
 5.  加入必要的程式碼，根據您在專案中的問題。 有關特定問題的程式碼範例，請參閱 「 問題涉及自訂 Web 組件 」，在[搭配 SharePoint 使用 Siebel 配接器時的考量](../../adapters-and-accelerators/adapter-siebel/considerations-when-using-the-siebel-adapter-with-sharepoint.md)。  
   

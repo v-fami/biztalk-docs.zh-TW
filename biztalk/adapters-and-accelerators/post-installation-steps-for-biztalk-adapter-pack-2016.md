@@ -1,15 +1,15 @@
 ---
-title: "BizTalk 配接器組件 2016 後安裝步驟 |Microsoft 文件"
-description: "步驟完成之後安裝 BAP 2016，包括新增配接器至 BizTalk 管理、 Oracle、 更新和註冊配接器繫結。"
-ms.custom: 
+title: BizTalk 配接器組件 2016 後安裝步驟 |Microsoft 文件
+description: 步驟完成之後安裝 BAP 2016，包括新增配接器至 BizTalk 管理、 Oracle、 更新和註冊配接器繫結。
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b8946bfe-92bb-470d-bec4-9bc3a07ce0d2
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967396"
 ---
 # <a name="post-installation-steps-for-biztalk-adapter-pack-2016"></a>BizTalk 配接器組件 2016 後安裝步驟
 安裝之後[!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]，一些安裝後步驟。 本主題列出這些步驟。   

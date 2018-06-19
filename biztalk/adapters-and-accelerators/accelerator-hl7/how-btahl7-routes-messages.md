@@ -1,11 +1,11 @@
 ---
-title: "BTAHL7 將訊息路由 |Microsoft 文件"
-ms.custom: 
+title: BTAHL7 將訊息路由 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - routing, about routing
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - messages, routing
 - BTAHL7, message routing
 ms.assetid: 555696c7-6023-44eb-b13d-cf7527bbc92f
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22205094"
 ---
 # <a name="how-btahl7-routes-messages"></a>BTAHL7 將訊息路由
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 的訊息處理功能會利用[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]，但還擴充它 HL7 訊息需求所特定的數個方式。  

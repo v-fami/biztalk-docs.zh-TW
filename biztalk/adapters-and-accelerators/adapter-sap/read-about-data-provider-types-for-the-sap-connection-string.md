@@ -1,17 +1,17 @@
 ---
-title: "閱讀有關資料提供者型別在 SAP 連接字串 |Microsoft 文件"
-ms.custom: 
+title: 閱讀有關資料提供者型別在 SAP 連接字串 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Data Provider for SAP, connection string
 - ADO, connection string
 ms.assetid: 7a46eaae-604f-4bae-924b-9f6d43a6e8a0
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963340"
 ---
 # <a name="read-about-data-provider-types-for-the-sap-connection-string"></a>閱讀有關資料提供者型別在 SAP 連接字串
 若要建立 SAP 系統的連接能力，ADO.NET 用戶端必須在連接字串的形式指定 SAP 連接屬性。 在 SAP ADO 連接字串的格式看起來像：  
@@ -30,11 +31,11 @@ ms.lasthandoff: 11/28/2017
   
  連接字串來連接 SAP 系統使用[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]可以有下列類型：  
   
--   **類型 a:**應用程式主機型的連線所在連接 URI 會指定透過此應用程式伺服器[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]連接到 SAP 系統。  
+-   **類型 a:** 應用程式主機型的連線所在連接 URI 會指定透過此應用程式伺服器[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]連接到 SAP 系統。  
   
--   **類型 b:**連線 URI 中指定的郵件伺服器的負載平衡的連接[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]連接到 SAP 系統。  
+-   **類型 b:** 連線 URI 中指定的郵件伺服器的負載平衡的連接[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]連接到 SAP 系統。  
   
--   **類型 d:**目的地型的連線，連線 URI 中指定包含 SAP 系統的連接參數 saprfc.ini 檔案中的目的地。  
+-   **類型 d:** 目的地型的連線，連線 URI 中指定包含 SAP 系統的連接參數 saprfc.ini 檔案中的目的地。  
   
  下表描述這些連線指定連線 URI 中的方式。  
   
@@ -42,7 +43,7 @@ ms.lasthandoff: 11/28/2017
 |----------|----------------|----------------|-----------------|  
 |只有在次要複本設定成手動容錯移轉模式，而且至少一個次要複本目前與主要複本 SYNCHRONIZED 時，|ASHOST （應用程式伺服器主控件）|SYSNR （SAP 系統編號）|指定應用程式的主機型連接。|  
 |B|MSHOST （郵件伺服器主機）|R3NAME （SAP R3 名稱）|指定負載平衡到郵件伺服器的連線。 對負載平衡連接，您可以指定選用的伺服器群組。|  
-|D|目的地 （包含 saprfc.ini 檔案中的連接參數的目的地）|-|指定目的地型連線。 SAP 連接參數會包含在 saprfc.ini 檔案中指定的目的地。 目的地中，可以指定只有類型 A 和 B 類型的連線。 **注意：**如果 saprfc.ini 檔案中指定連接值，請確定此檔案位於相同的資料夾以存取檔案的.exe 或所需的 SAP 系統的標準位置。 如需詳細資訊，請參閱 SAP 文件集。|  
+|D|目的地 （包含 saprfc.ini 檔案中的連接參數的目的地）|-|指定目的地型連線。 SAP 連接參數會包含在 saprfc.ini 檔案中指定的目的地。 目的地中，可以指定只有類型 A 和 B 類型的連線。 **注意：** 如果 saprfc.ini 檔案中指定連接值，請確定此檔案位於相同的資料夾以存取檔案的.exe 或所需的 SAP 系統的標準位置。 如需詳細資訊，請參閱 SAP 文件集。|  
   
  根據連接字串來連接 SAP 系統使用的連接類型[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]可以包含下列屬性。  
   

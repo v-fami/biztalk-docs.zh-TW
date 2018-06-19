@@ -1,11 +1,11 @@
 ---
-title: "雙向動作教學課程 |Microsoft 文件"
-ms.custom: 
+title: 雙向動作教學課程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - tutorials, PIPs
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - PIPs, tutorials
 - tutorials, double action tutorial
 ms.assetid: b692c043-82ef-46f4-8683-7ae1fd6e4421
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210118"
 ---
 # <a name="double-action-tutorial"></a>雙向動作教學課程
 本教學課程涵蓋了使用 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 的端點對端點解決方案。 其中詳細描述必須遵循的步驟，透過在兩家虛構公司之間建立交易夥伴實例，藉此實作 RosettaNet 相容解決方案：賣方組織 Contoso 與買方組織 Fabrikam。  

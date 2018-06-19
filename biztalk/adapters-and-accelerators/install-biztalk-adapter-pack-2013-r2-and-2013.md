@@ -9,7 +9,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9980953a-8d38-476f-af38-4f4214ba61f2
-caps.latest.revision: ''
+caps.latest.revision: 107
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25968028"
 ---
 # <a name="install-biztalk-adapter-pack-2013-r2-and-2013"></a>安裝 BizTalk Adapter Pack 2013 R2 和 2013
 本文件列出的軟體需求，以及的步驟，安裝 Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] (BAP) 隨附於 BizTalk Server 2013 或[!INCLUDE[bts2013r2](../includes/bts2013r2-md.md)]。  
@@ -66,7 +67,7 @@ ms.lasthandoff: 03/28/2018
 |企業應用程式用戶端和相關聯的軟體。 請參閱[支援企業應用程式版本](#BKMK_SuppLOB)。|企業應用程式用戶端和相關聯的軟體。 請參閱[支援企業應用程式版本](#BKMK_SuppLOB)。|  
 
 ### <a name="prerequisites-when-using-ado"></a>使用 ADO 時的必要條件  
- **[!INCLUDE[adaptersap](../includes/adaptersap-md.md)]**和**[!INCLUDE[adaptersiebel](../includes/adaptersiebel-md.md)]**包括 ADO 層 (*[!INCLUDE[adoprovidersapshort](../includes/adoprovidersapshort-md.md)]*和*[!INCLUDE[adoprovidersiebelshort](../includes/adoprovidersiebelshort-md.md)]*)。 這個 ADO 層可用來撰寫 ADO.NET 用戶端連接至 SAP 系統或 Siebel 系統。 您也可以使用 ADO 圖層與 SQL Server Integration Services (SSIS) 匯入和匯出資料從 LOB 應用程式和 SQL Server Reporting Services (SSRS) 來產生報表呈現資料從 LOB 系統。  
+ **[!INCLUDE[adaptersap](../includes/adaptersap-md.md)]** 和**[!INCLUDE[adaptersiebel](../includes/adaptersiebel-md.md)]** 包括 ADO 層 (*[!INCLUDE[adoprovidersapshort](../includes/adoprovidersapshort-md.md)]* 和*[!INCLUDE[adoprovidersiebelshort](../includes/adoprovidersiebelshort-md.md)]*)。 這個 ADO 層可用來撰寫 ADO.NET 用戶端連接至 SAP 系統或 Siebel 系統。 您也可以使用 ADO 圖層與 SQL Server Integration Services (SSIS) 匯入和匯出資料從 LOB 應用程式和 SQL Server Reporting Services (SSRS) 來產生報表呈現資料從 LOB 系統。  
   
 > [!NOTE]
 >  僅適用於支援搭配使用 ADO 提供者與 SSRS *[!INCLUDE[adoprovidersapshort](../includes/adoprovidersapshort-md.md)]*。  

@@ -11,7 +11,7 @@ helpviewer_keywords:
 - receive locations, creating
 - creating, receive locations
 ms.assetid: 712cf42f-8d71-47e9-b2bf-3da158b74fe4
-caps.latest.revision: ''
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25966012"
 ---
 # <a name="creating-an-a4swift-receive-location"></a>建立 A4SWIFT 接收位置
 您必須建立[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]接收位置，才能啟用訊息接收 SWIFT 網路[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]，如下圖所示。 接收位置接收一般檔案訊息從輸入的檔案資料夾。  
@@ -69,7 +70,7 @@ ms.lasthandoff: 03/28/2018
     > [!NOTE]
     >  如果此資料夾不存在，您可以建立使用**建立新資料夾**命令。  
   
-12. 在 [FILE 傳輸屬性] 對話方塊中**檔案遮罩**方塊中，輸入 **\*。\<*延伸*\>**，其中\<*延伸*\>是個內送的延伸模組一般檔案訊息，例如**.txt**。 按一下 **[確定]**。  
+12. 在 [FILE 傳輸屬性] 對話方塊中**檔案遮罩**方塊中，輸入 **\*。\<*延伸*\>**，其中\<*延伸*\>是個內送的延伸模組一般檔案訊息，例如 **.txt**。 按一下 **[確定]**。  
   
 13. 在 [接收位置屬性] 對話方塊中，確定**BizTalkServerApplication**輸入**接收處理常式**方塊。  
   

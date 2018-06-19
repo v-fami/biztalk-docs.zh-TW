@@ -1,11 +1,11 @@
 ---
-title: "步驟 3： 匯入公開憑證與私用憑證 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3： 匯入公開憑證與私用憑證 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - public certificates
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - double action tutorial, importing certificates
 - certificates, importing
 ms.assetid: 955bdd69-9fbc-4100-ab8a-8f5dd4a17cbb
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966948"
 ---
 # <a name="step-3-importing-public-and-private-certificates"></a>步驟 3： 匯入公開憑證與私用憑證
 在此步驟中，您匯入的憑證，您在建立[步驟 2： 建立公用和私用憑證 &#91;RN3 &#93;](../../adapters-and-accelerators/accelerator-rosettanet/step-2-creating-public-and-private-certificates.md) Contoso 和 Fabrikam 電腦。 每台電腦都會匯入自己的私用憑證，並匯入其他組織的公開憑證。  
@@ -53,7 +54,7 @@ ms.lasthandoff: 11/28/2017
   
 ### <a name="to-import-the-fabrikam-public-certificates-on-the-contoso-computer"></a>在 Contoso 電腦上匯入 Fabrikam 公開憑證  
   
-1.  在 Contoso 電腦上，按一下 **啟動**，按一下 **執行，**類型**cmd**，然後按一下  **確定**。  
+1.  在 Contoso 電腦上，按一下 **啟動**，按一下 **執行，** 類型**cmd**，然後按一下  **確定**。  
   
 2.  在命令提示字元中，移至*\<磁碟機\>***: \Program Files\Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK**然後按下**Enter**。  
   

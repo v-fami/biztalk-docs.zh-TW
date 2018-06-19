@@ -1,14 +1,14 @@
 ---
-title: "監視節流使用效能閾值規則 |Microsoft 文件"
-ms.custom: 
+title: 監視節流使用效能閾值規則 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cc2c3024-a54b-4485-8110-c2ec9ec52721
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299078"
 ---
 # <a name="monitoring-throttling-using-performance-threshold-rules"></a>監視節流使用效能臨界值規則
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]將會初始化節流，以防止系統在達到不可復原的狀態。 節流可以表示發生問題，並協助您識別其來源。 您已識別為基礎的節流狀態瓶頸的原因之後，分析其他效能計數器，以縮小問題的來源。  

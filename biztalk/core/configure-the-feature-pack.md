@@ -1,15 +1,15 @@
 ---
-title: "設定此功能套件 |Microsoft 文件"
-description: "安裝和設定功能組件 1、 和功能套件 2。 請參閱新的功能清單，包括 API 管理中，team services 部署，Azure 的新配接器、 備份及多個 BizTalk Server 2016 中"
-ms.custom: 
+title: 設定此功能套件 |Microsoft 文件
+description: 安裝和設定功能組件 1、 和功能套件 2。 請參閱新的功能清單，包括 API 管理中，team services 部署，Azure 的新配接器、 備份及多個 BizTalk Server 2016 中
+ms.custom: ''
 ms.date: 11/22/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1027bfa6-49b9-4f58-a2e2-3e0ae2fc3bf3
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: f4c0d7bc4b617688c643101a34062db90014851a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/23/2017
+ms.locfileid: "25550757"
 ---
 # <a name="configure-the-feature-pack"></a>設定此功能套件
 

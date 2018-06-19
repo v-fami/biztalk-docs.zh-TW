@@ -1,17 +1,17 @@
 ---
-title: "商務程序管理解決方案中的處理 |Microsoft 文件"
-ms.custom: 
+title: 商務程序管理解決方案中的處理 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - process management solution tutorial, processing
 - processing, process management solutions
 ms.assetid: 0b26447e-d8f1-4084-aa34-6e7f8ffccea5
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264598"
 ---
 # <a name="processing-in-the-business-process-management-solution"></a>商務程序管理解決方案中的處理
 本節描述商務程序管理解決方案的運作方式： 如何處理訂單，它會使用插斷，以及如何處理例外狀況，該動作的方式可重試。  

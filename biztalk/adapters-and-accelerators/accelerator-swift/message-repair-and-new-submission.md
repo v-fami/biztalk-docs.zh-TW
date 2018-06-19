@@ -1,11 +1,11 @@
 ---
-title: "訊息修復和新送出 |Microsoft 文件"
-ms.custom: 
+title: 訊息修復和新送出 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - repairing messages
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - messages, errors
 - messages, resubmitting
 ms.assetid: 5bc6bfa2-8210-4dd3-89bb-5455e294ca92
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209982"
 ---
 # <a name="message-repair-and-new-submission"></a>Message Repair 和 New Submission
 訊息修復和 New Submission 功能[!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]可讓您修復 MT 與 MX 驗證失敗的訊息。 使用 MRSR SharePoint 網站 （由使用者部署），您可以看到訊息驗證的失敗。 您可以從 MRSR 網站，來開啟 InfoPath 表單，可讓您識別錯誤，修復該郵件，並提交以進行重新處理訊息。  

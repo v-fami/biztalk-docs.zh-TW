@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964988"
 ---
 # <a name="step-3-creating-the-contoso-lob-application-maps-for-the-price-and-availability-project-using-biztalk-mapper"></a>步驟 3： 建立 Contoso LOB 應用程式對應的價格與可用性專案使用 BizTalk 對應工具
 在此步驟中，您將建立兩種對應，用以定義兩個交易夥伴之間成功交換訊息所需的轉換。 就本實例而言，Contoso ERP 系統已經標準化「價格與可用性」要求的訊息格式。 這兩種對應會在交易夥伴 Fabrikam 傳來的要求及回應訊息與內部定義的 Contoso 訊息之間建立對應關係。  
@@ -59,9 +60,9 @@ ms.lasthandoff: 11/28/2017
   
 ### <a name="to-link-schema-fields-in-the-pip3a2requesttocontosopricerequest-map"></a>連結 PIP3A2RequestToContosoPriceRequest 對應中的結構描述欄位  
   
-1.  在目的結構描述窗格中，以滑鼠右鍵按一下**\<結構描述\>**節點，然後再按一下**展開樹狀結構節點**。  
+1.  在目的結構描述窗格中，以滑鼠右鍵按一下**\<結構描述\>** 節點，然後再按一下**展開樹狀結構節點**。  
   
-2.  在來源結構描述窗格中，以滑鼠右鍵按一下**\<結構描述\>**節點，然後再按一下**展開樹狀結構節點**。  
+2.  在來源結構描述窗格中，以滑鼠右鍵按一下**\<結構描述\>** 節點，然後再按一下**展開樹狀結構節點**。  
   
 3.  拖曳**GlobalProductIdentifier**欄位設為**ProductID**在目的結構描述 窗格中的欄位。  
   

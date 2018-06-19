@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22205990"
 ---
 # <a name="preparing-to-use-the-tutorialhl7main"></a>準備使用 Tutorial_hl7_main
 您必須執行本節中的工作，才能使用本教學課程。  

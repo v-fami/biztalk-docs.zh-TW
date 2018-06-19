@@ -1,17 +1,17 @@
 ---
-title: "建立 A4SWIFT 傳送埠 |Microsoft 文件"
-ms.custom: 
+title: 建立 A4SWIFT 傳送埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, send ports
 - send ports, creating
 ms.assetid: d1ee18f8-a6aa-4cd5-9e65-fb2e0fa2d0c2
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210246"
 ---
 # <a name="creating-an-a4swift-send-port"></a>建立 A4SWIFT 傳送埠
 您必須建立傳送埠以啟用[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]SWIFT 網路時，傳送訊息，如下圖所示。 此傳送埠會傳送至輸出檔案資料夾的一般檔案訊息。 此傳送埠被為了與 Message Repair 和 New Submission 功能運作。  
@@ -55,7 +56,7 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  如果此資料夾不存在，您可以建立使用**建立新資料夾**命令。  
   
-7.  在**檔案名稱**方塊中，輸入**%MessageID%.txt**，然後按一下 **確定**。  
+7.  在**檔案名稱**方塊中，輸入 **%MessageID%.txt**，然後按一下 **確定**。  
   
 8.  在**傳送埠屬性**對話方塊方塊中，按一下下拉式清單，如**傳送管線**] 方塊中，然後選取 [自訂傳送管線。  
   

@@ -1,11 +1,11 @@
 ---
-title: "步驟 4： 啟用安全通訊端在 IIS 中的圖層 |Microsoft 文件"
-ms.custom: 
+title: 步驟 4： 啟用安全通訊端在 IIS 中的圖層 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Secure Socket Layers
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - double action tutorial, enabling SSL in IIS
 - SSL
 ms.assetid: 96109294-595a-46ac-974e-33123df79ed5
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966996"
 ---
 # <a name="step-4-enabling-secure-sockets-layer-in-iis"></a>步驟 4： 啟用安全通訊端在 IIS 中的圖層
 安全通訊端層 (Secure Sockets Layer，SSL) 是為了保護用戶端及伺服器之間通訊管道而設計的通訊協定。 透過啟用 Microsoft® Internet Information Services (IIS) 7.5/7.0 中的 SSL，Contoso 和 Fabrikam 組織即可使用驗證及加密，針對所有資料傳輸進行通訊。 在此步驟中，您將學習如何啟用 IIS 7.5/7.0 中的 SSL。  

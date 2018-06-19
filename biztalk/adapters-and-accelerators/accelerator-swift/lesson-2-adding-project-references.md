@@ -1,17 +1,17 @@
 ---
-title: "第 2 課： 加入專案參考 |Microsoft 文件"
-ms.custom: 
+title: 第 2 課： 加入專案參考 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - references [projects]
 - projects, adding references
 ms.assetid: ddc2bf49-cddd-4edb-8043-870897879655
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25962212"
 ---
 # <a name="lesson-2-adding-project-references"></a>第 2 課： 加入專案參考
 讓您的管線能夠存取位於 Microsoft.Solutions.FinancialServices.SWIFT.RuntimeSchemas.dll 檔案中的預設執行階段結構描述，您會加入專案參考。 此組件檔會包含標頭結構描述具有訊息類型解析所需的升級屬性。  

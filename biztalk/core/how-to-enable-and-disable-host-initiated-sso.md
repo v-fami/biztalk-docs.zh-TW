@@ -1,11 +1,11 @@
 ---
-title: "如何啟用和停用主控件初始化的 SSO |Microsoft 文件"
-ms.custom: 
+title: 如何啟用和停用主控件初始化的 SSO |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - host initiated SSO, disabling
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - enabling, host initiated SSO
 - host initiated SSO, enabling
 ms.assetid: a11d314a-6ff9-4d0a-89c3-c412541c2cec
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968980"
 ---
 # <a name="how-to-enable-and-disable-host-initiated-sso"></a>如何啟用和停用主控件初始化的 SSO
 依照預設，主控件初始化的單一登入不會在單一登入系統中啟用，且必須由 SSO 系統管理員啟用。  

@@ -1,14 +1,14 @@
 ---
-title: "更新結構描述使用並存的版本設定 |Microsoft 文件"
-ms.custom: 
+title: 更新結構描述使用並存的版本設定 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a7360ec5-b5e9-40c7-9a7c-965fcc95ddb0
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302238"
 ---
 # <a name="updating-a-schema-using-side-by-side-versioning"></a>更新結構描述中使用的並存版本控制
 您可以執行的並存版本控制結構描述。 您可以藉由加入新的結構描述版本的組件，但保留現有的結構描述 （和其版本） 升級結構描述的版本保持不變。  

@@ -1,15 +1,15 @@
 ---
-title: "疑難排解 BizTalk ESB 工具組 |Microsoft 文件"
-description: "疑難排解安裝問題，以及在 BizTalk Server ESB Toolkit 的常見錯誤"
-caps.latest.revision: "2"
+title: 疑難排解 BizTalk ESB 工具組 |Microsoft 文件
+description: 疑難排解安裝問題，以及在 BizTalk Server ESB Toolkit 的常見錯誤
+caps.latest.revision: 2
 author: MandiOhlinger
 manager: anneta
-ms.custom: 
+ms.custom: ''
 ms.date: 08/10/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e1ea2d56-2ace-40f2-80df-8a7489bbfc2e
 ms.author: mandia
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295342"
 ---
 # <a name="troubleshoot-the-biztalk-esb-toolkit"></a>疑難排解 BizTalk ESB 工具組
 
@@ -35,5 +36,5 @@ ms.lasthandoff: 09/20/2017
 |問題|解決方案|  
 |-----------|----------------|  
 |將訊息傳送至泛型 ESB 行程上手 Web 服務時，您會收到 「 內部 SOAP 處理 」 的例外狀況。|使用 BizTalk Server 管理主控台確認 Microsoft.Practices.ESB 應用程式正在執行。如果未執行，，啟動它。|  
-|ESB 管理入口網站中沒有出現例外狀況訊息。|請檢查 [BizTalk 系統管理員群組概觀] 頁面和 Windows 應用程式事件記錄檔，表示傳送訊息失敗的項目。 您可能需要重新傳送配接器 （Microsoft.Practices.ESB 應用程式的一部分） 的例外狀況設定以符合您的環境。 此外，請注意 BizTalk 失敗訊息路由的功能和 BizTalk ESB Toolkit 例外狀況管理架構產生的例外狀況訊息。 因此，請確定您啟用**失敗訊息路由，**選項傳送和接收埠。|  
+|ESB 管理入口網站中沒有出現例外狀況訊息。|請檢查 [BizTalk 系統管理員群組概觀] 頁面和 Windows 應用程式事件記錄檔，表示傳送訊息失敗的項目。 您可能需要重新傳送配接器 （Microsoft.Practices.ESB 應用程式的一部分） 的例外狀況設定以符合您的環境。 此外，請注意 BizTalk 失敗訊息路由的功能和 BizTalk ESB Toolkit 例外狀況管理架構產生的例外狀況訊息。 因此，請確定您啟用**失敗訊息路由，** 選項傳送和接收埠。|  
 |當具有靜態解析程式使用 WCF 服務，您會收到 「 無效的 SOAP 動作例外狀況。|如果 WCF 服務的 SOAP 動作不包括目標命名空間，設定的 SOAP 動作值解析程式設定中使用下列格式: {action} 指示的目標命名空間不串連 ESB Toolkit 核心引擎在執行階段。|

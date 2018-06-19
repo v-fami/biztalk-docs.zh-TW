@@ -1,14 +1,14 @@
 ---
-title: "準備進行災害復原的應用程式 |Microsoft 文件"
-ms.custom: 
+title: 準備進行災害復原的應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0ef93099-aa6b-424a-a4ce-87d855c6afe3
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302334"
 ---
 # <a name="preparing-applications-for-disaster-recovery"></a>準備進行災害復原的應用程式
 BizTalk 應用程式 （二進位檔和設定成品例如接收位置和傳送埠） 會部署到生產環境 BizTalk 群組中，當群組在災害復原站台上還原。 此設定可能要改變取決於是否有設定位置例如接收位置和傳送實際執行環境專屬的連接埠。  

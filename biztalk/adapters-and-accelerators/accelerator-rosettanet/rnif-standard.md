@@ -1,11 +1,11 @@
 ---
-title: "RNIF 標準 |Microsoft 文件"
-ms.custom: 
+title: RNIF 標準 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - RNIF, message definitions
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - RNIF, standards
 - messages, messaging framework patterns
 ms.assetid: d39a9683-1ef5-462b-9472-4e30fe873f7d
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22211126"
 ---
 # <a name="rnif-standard"></a>RNIF 標準
 RosettaNet 實作架構 (RNIF) 標準定義系統傳送 RosettaNet 訊息的方式。 RNIF 標準是穩固的傳輸、傳送、封裝及安全性標準。 所有 RosettaNet 訊息系統必須遵循 RNIF 標準才能通過 RosettaNet 憑證。  

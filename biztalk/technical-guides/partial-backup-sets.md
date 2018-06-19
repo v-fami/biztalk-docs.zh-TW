@@ -1,14 +1,14 @@
 ---
-title: "部分備份集 |Microsoft 文件"
-ms.custom: 
+title: 部分備份集 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7b9f15c0-4d31-4322-ac0a-8efdeed6f71e
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298158"
 ---
 # <a name="partial-backup-sets"></a>部分備份集
 當資料庫分別備份在來源系統上，該部分備份組中的結果，可能發生問題。 當發生這種情況時，Master.dbo.bts_LogShippingHistory 資料表會包含 0 **SetComplete**集中的所有記錄的資料行。  

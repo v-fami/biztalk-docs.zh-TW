@@ -1,14 +1,14 @@
 ---
-title: "使用 WCF LOB 配接器 SDK 時，選取 使用 URI 配置和定址的格式 |Microsoft 文件"
-ms.custom: 
+title: 使用 WCF LOB 配接器 SDK 時，選取 使用 URI 配置和定址的格式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3bb4feee-3d39-43ca-82ac-aba38c13bc69
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965308"
 ---
 # <a name="select-a-uri-scheme-and-addressing-format-when-using-the-wcf-lob-adapter-sdk"></a>使用 WCF LOB 配接器 SDK 時，選取 使用 URI 配置和定址的格式
 統一資源識別元 (URI) 可唯一識別資源，像是 Web 服務，或在使用開發配接器的情況下[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]，連接到系統，以及要執行的動作。 本節提供的建議如何建構 URI 來唯一描述的端點位址以及您的配接器的動作。  

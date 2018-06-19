@@ -1,14 +1,14 @@
 ---
-title: "訊息結構描述的 Insert、 Update、 Delete，然後選取資料表和檢視表上的作業 |Microsoft 文件"
-ms.custom: 
+title: 訊息結構描述的 Insert、 Update、 Delete，然後選取資料表和檢視表上的作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4fff9cd3-26c0-4d5c-8162-3fd7966a5020
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25967212"
 ---
 # <a name="message-schemas-for-insert-update-delete-and-select-operations-on-tables-and-views"></a>訊息結構描述，插入、 更新、 刪除和選取資料表和檢視表上的作業
 [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]呈現 Insert、 Update、 Delete 和 Select 作業的每個資料表和檢視 SQL Server 資料庫中的。 這些作業執行適當的 SQL 陳述式 WHERE 子句所限定。 [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]使用這些作業中的強型別記錄和資料錄集。  

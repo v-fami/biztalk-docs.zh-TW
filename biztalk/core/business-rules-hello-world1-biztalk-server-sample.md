@@ -1,17 +1,17 @@
 ---
-title: "商務規則 Hello World1 （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: 商務規則 Hello World1 （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, business rules
 - business rules, examples
 ms.assetid: 0623ad20-96cc-430e-bb36-35431a5d17ee
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967668"
 ---
 # <a name="business-rules-hello-world1-biztalk-server-sample"></a>商務規則 Hello World1 （BizTalk Server 範例）
 「商務規則 Hello World1」範例示範如何建立 BizTalk 規則集、將規則集儲存到檔案 (SampleRuleSet.xml)、載入規則集，以及依據一組事實範例執行該規則集。 範例規則集包含有關 XML 項目的簡單規則，以及做為規則定義內容的 .NET 物件 (屬性和成員)。  
@@ -125,7 +126,7 @@ Press any key to finish ...
  您不會收到任何物件的輸出行**MySampleBusinessObject**類別具有其**MyValue**屬性設定為符合相關聯的值（建構期間）的值**識別碼**範例輸入檔 SampleDocumentInstance.xml 中的項目。  
   
 ## <a name="comments"></a>註解  
- 內以程式設計方式建立的規則**createruleset （)**方法顯示：  
+ 內以程式設計方式建立的規則**createruleset （)** 方法顯示：  
   
  **如果**  
   

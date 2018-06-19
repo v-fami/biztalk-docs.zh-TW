@@ -1,18 +1,18 @@
 ---
-title: "TRFC 作業的訊息結構描述 |Microsoft 文件"
-ms.custom: 
+title: TRFC 作業的訊息結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - tRFC operations, message structure for
 - tRFC operations, message schemas for
 - tRFC operations, message actions for
 ms.assetid: 0e269555-f0a1-40ae-a1b5-d8c4981e730f
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964916"
 ---
 # <a name="message-schemas-for-trfc-operations"></a>TRFC 作業的訊息結構描述
 遠端函式呼叫 Transactiostructnal (tRFCs) 用來執行 RFC 呼叫的工作 (LUW) 邏輯單元。 [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]支援多個 tRFCs 每 LUW 輸入的 tRFC 呼叫。 輸出 （用戶端） tRFC 呼叫，配接器可以支援單一一個 tRFC LUW;它因此會建立 LUW SAP 上每個用戶端 tRFC 呼叫。 如需有關如何[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]支援 tRFC 作業，請參閱[tRFCs SAP 中的作業](../../adapters-and-accelerators/adapter-sap/operations-on-trfcs-in-sap.md)。 本章節描述的訊息結構描述和 tRFC 作業動作。  

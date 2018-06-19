@@ -1,18 +1,18 @@
 ---
-title: "步驟 4： 建立結構描述 |Microsoft 文件"
-ms.custom: 
+title: 步驟 4： 建立結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - message enrichment tutorial, schemas
 - creating, schemas
 - schemas, creating
 ms.assetid: 81b1f538-9743-433a-87f9-a423dcb868c8
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25961732"
 ---
 # <a name="step-4-create-the-schemas"></a>步驟 4： 建立結構描述
 在此步驟中，您會建立新的專案 (**BTAHL7 專案**)，其中包含這個專案的成品： 結構描述、 對應和協調流程。 然後，您建立結構描述 (**Doorbell.xsd**) 內送的 XML 編碼訊息，然後選取現有的結構描述 (**ADT_A04_22_GLO_DEF.xsd**) 傳出 HL7 編碼訊息。 您可以使用這些結構描述來定義您在協調流程內交換訊息的結構。  
@@ -52,7 +53,7 @@ ms.lasthandoff: 01/17/2018
   
 11. 按一下**新增**在 「 BizTalk 編輯器 」 中開啟空白的結構描述。  
   
-12. 在**\<結構描述\>**樹狀目錄中，以滑鼠右鍵按一下**根**節點，然後再按一下**重新命名**。  
+12. 在**\<結構描述\>** 樹狀目錄中，以滑鼠右鍵按一下**根**節點，然後再按一下**重新命名**。  
   
 13. 型別**DoorbellRoot**作為新的名稱，然後按**Enter**。  
   

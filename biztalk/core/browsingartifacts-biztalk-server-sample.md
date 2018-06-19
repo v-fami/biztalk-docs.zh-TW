@@ -1,14 +1,14 @@
 ---
-title: "BrowsingArtifacts （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: BrowsingArtifacts （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b63c0833-3445-4361-a8eb-63837017edf8
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965780"
 ---
 # <a name="browsingartifacts-biztalk-server-sample"></a>BrowsingArtifacts （BizTalk Server 範例）
 BrowsingArtifacts 範例示範如何列舉 BizTalk 成品和屬性。  

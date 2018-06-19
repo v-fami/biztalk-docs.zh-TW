@@ -1,18 +1,18 @@
 ---
-title: "步驟 7： 建立傳送埠以傳送 ADT ^ A03 他使用 MLLP 配接器的訊息 |Microsoft 文件"
-ms.custom: 
+title: 步驟 7： 建立傳送埠以傳送 ADT ^ A03 他使用 MLLP 配接器的訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - end-to-end tutorial, send ports
 - creating, send ports
 - send ports, creating
 ms.assetid: d9e7f281-3d25-4675-a13e-0e2057f5e69a
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206750"
 ---
 # <a name="step-7-create-a-send-port-to-deliver-the-adta03-message-to-his-using-the-mllp-adapter"></a>步驟 7： 建立傳送埠以傳送 ADT ^ A03 他使用 MLLP 配接器的訊息
 在此步驟中，您可以建立要傳送訊息至醫院資訊系統 (HIS) 使用 MLLP 配接器的傳送埠。  

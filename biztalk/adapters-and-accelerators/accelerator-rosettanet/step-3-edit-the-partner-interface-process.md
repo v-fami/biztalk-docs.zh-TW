@@ -1,18 +1,18 @@
 ---
-title: "步驟 3： 編輯交易夥伴介面程序 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3： 編輯交易夥伴介面程序 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - modifying, PIPs
 - PIPs, modifying
 - loopback tutorial, modifying PIPs
 ms.assetid: 4d03c598-8ed4-4135-9748-ede101997fd0
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965068"
 ---
 # <a name="step-3-edit-the-partner-interface-process"></a>步驟 3： 編輯交易夥伴介面程序
 在此步驟中，如果您未在 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® Internet Information Services (IIS) 中設定安全通訊端層 (SSL) 憑證，您必須編輯夥伴介面程序 (PIP) 組態設定以停用安全傳輸。 由於回送實例不支援簽章內送訊息和外寄訊息，您必須變更預設設定才能繼續進行教學課程。 您將修改 STD_0C1_R01.02 PIP。  

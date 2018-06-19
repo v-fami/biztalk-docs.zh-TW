@@ -1,14 +1,14 @@
 ---
-title: "調整實際執行 BizTalk Server 環境 |Microsoft 文件"
-ms.custom: 
+title: 調整實際執行 BizTalk Server 環境 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a972b983-5ec5-4a2a-934f-b2788ccd424e
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302950"
 ---
 # <a name="scaling-a-production-biztalk-server-environment"></a>調整實際執行 BizTalk Server 環境
 本節提供將用於執行 BizTalk Server 解決方案，負載測試結果，以及一般的觀察值和根據在實驗室中發現的建議的摘要的負載測試的實驗室環境的概觀。  

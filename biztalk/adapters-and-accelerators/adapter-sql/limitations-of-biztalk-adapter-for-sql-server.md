@@ -1,14 +1,14 @@
 ---
-title: "限制 BizTalk adapter for SQL Server |Microsoft 文件"
-ms.custom: 
+title: 限制 BizTalk adapter for SQL Server |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5a19b109-a6b7-452f-a544-48627fa52f36
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222678"
 ---
 # <a name="limitations-of-biztalk-adapter-for-sql-server"></a>BizTalk adapter for SQL Server 的限制
 下列已知限制[!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]:  

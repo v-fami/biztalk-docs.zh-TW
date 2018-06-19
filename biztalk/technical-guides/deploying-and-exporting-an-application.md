@@ -1,14 +1,14 @@
 ---
-title: "部署和應用程式匯出 |Microsoft 文件"
-ms.custom: 
+title: 部署和應用程式匯出 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4106a0a7-878d-4052-8eca-02d546233048
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22297614"
 ---
 # <a name="deploying-and-exporting-an-application"></a>部署及匯出應用程式
 本節包含有關如何執行所需的步驟，將 BizTalk 應用程式部署的詳細的資訊。 本節中的主題也支援下列檢查清單：  

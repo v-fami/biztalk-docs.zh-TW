@@ -1,14 +1,14 @@
 ---
-title: "使用例外狀況管理架構 |Microsoft 文件"
-ms.custom: 
+title: 使用例外狀況管理架構 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b69c9c01-e7e4-4788-8fe2-43d32075155d
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295182"
 ---
 # <a name="using-the-exception-management-framework"></a>使用例外狀況管理架構
 [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]動態轉換和路由，用來通訊失敗 （例如，未部署的對應或不會傳回對應名稱的規則） 的例外狀況。 當轉換或路由程序失敗時，ESB 建立例外狀況訊息，並將它提交至 Messagebox 資料庫的直接繫結連接埠。 ESB 也會實作名為所有的傳送埠。訂閱和擷取例外狀況訊息，並將其發行到 ESB 管理入口網站的例外狀況。  

@@ -1,14 +1,14 @@
 ---
-title: "啟用配接器架構組態延伸模組 |Microsoft 文件"
-ms.custom: 
+title: 啟用配接器架構組態延伸模組 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 851f4a20-502d-45f8-9647-13bec33fa460
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970145"
 ---
 # <a name="enabling-adapter-framework-configuration-extensions"></a>啟用配接器架構組態延伸模組
 「BizTalk 配接器架構」提供數個可改善使用者體驗的延伸模組。 若要使用這些擴充功能，匯入架構的結構描述 BiztalkAdapterFramework.xsd。 匯入結構描述可讓您可以存取裝飾和特定的類型，並將它們用於配接器的組態結構描述，如下所述。 下列程式碼顯示如何匯入此結構描述：  

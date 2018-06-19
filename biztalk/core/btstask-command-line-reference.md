@@ -1,14 +1,14 @@
 ---
-title: "BTSTask 命令列參考 |Microsoft 文件"
-ms.custom: 
+title: BTSTask 命令列參考 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3c350695-13e9-441a-9f1e-03cdc3e41328
-caps.latest.revision: "30"
+caps.latest.revision: 30
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231918"
 ---
 # <a name="btstask-command-line-reference"></a>BTSTask 命令列參考
 本節主題提供 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 所附 BTSTask 命令列工具的參考資訊。 您可以使用 BTSTask 從命令列執行許多應用程式部署工作，如下所示：  

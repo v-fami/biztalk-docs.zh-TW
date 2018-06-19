@@ -1,15 +1,15 @@
 ---
-title: "加入例外狀況處理 TIBCO Rendezvous |Microsoft 文件"
-description: "您在 BizTalk Server 使用 TIBCO Rendezvous 配接器的協調流程的例外狀況處理的概觀"
-ms.custom: 
+title: 加入例外狀況處理 TIBCO Rendezvous |Microsoft 文件
+description: 您在 BizTalk Server 使用 TIBCO Rendezvous 配接器的協調流程的例外狀況處理的概觀
+ms.custom: ''
 ms.date: 10/24/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 887b1653-33a5-4a22-a6ae-c5df67a868b4
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014741"
 ---
 # <a name="use-biztalk-server-exception-handling"></a>使用 BizTalk Server 例外狀況處理
 

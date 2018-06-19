@@ -1,18 +1,18 @@
 ---
-title: "步驟 2： 設定協調流程中 BizTalk Server 管理 Console1 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 設定協調流程中 BizTalk Server 管理 Console1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestration, configruing in BizTalk Server Administration console
 - WCF-Custom port, creating
 - migration
 ms.assetid: fb057bce-5702-4ea0-8ed5-e299d3a78a11
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,13 +21,14 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217710"
 ---
 # <a name="step-2-configure-the-orchestration-in-biztalk-server-administration-console"></a>步驟 2： 在 BizTalk Server 管理主控台中設定協調流程
 ![步驟 3 之 2](../../adapters-and-accelerators/adapter-oracle-database/media/step-2of3.gif "Step_2of3")  
   
  **若要完成的時間：** 10 分鐘  
   
- **目標：**在此步驟中，您可以執行下列工作：  
+ **目標：** 在此步驟中，您可以執行下列工作：  
   
 -   建立 WCF 自訂傳送-接收埠以傳送和接收訊息從 SAP 系統使用[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]。 設定此連接埠使用您在上一個步驟中建立的對應。  
   

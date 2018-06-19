@@ -9,7 +9,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 008bf621-8b4e-450d-b354-ee26b91592f2
-caps.latest.revision: ''
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25967100"
 ---
 # <a name="basic-oracle-data-types"></a>基本的 Oracle 資料類型
 本主題描述如何[!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]呈現基本的 Oracle 資料型別。  
@@ -57,7 +58,7 @@ ms.lasthandoff: 03/28/2018
 |二進位雙 * *|xsd:double 如果 prec < = 15<br /><br /> xsd: string 如果 prec > 15|Double<br /><br /> 字串|-|  
 |二進位整數 * *|xsd:integer|Int32||  
 |布林|xsd:boolean|可為 null 的布林值||  
-|XMLTYPE|xsd:string|字串|支援最上層的層級程序參數。<br /><br /> 保留的 XML 字元，例如 '**\<**'、'**\>**' 必須使用其實體表示法取代**(&lt;， &gt;)**開發 biztalk 應用程式時，並使用 WCF 通道模型。 這不需要在 WCF 服務模型的情況下。|  
+|XMLTYPE|xsd:string|字串|支援最上層的層級程序參數。<br /><br /> 保留的 XML 字元，例如 '**\<**'、'**\>**' 必須使用其實體表示法取代 **(&lt;， &gt;)** 開發 biztalk 應用程式時，並使用 WCF 通道模型。 這不需要在 WCF 服務模型的情況下。|  
   
  \*形式出現這些 Oracle 資料類型的方式會受到**EnableSafeTyping**繫結屬性。  
   

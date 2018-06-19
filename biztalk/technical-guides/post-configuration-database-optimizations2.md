@@ -1,14 +1,14 @@
 ---
-title: "組態後資料庫 Optimizations2 |Microsoft 文件"
-ms.custom: 
+title: 組態後資料庫 Optimizations2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 609eda22-8399-4b7c-b860-21b495d2f68d
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302662"
 ---
 # <a name="post-configuration-database-optimizations"></a>組態後資料庫最佳化
 除了下列中的建議[預先設定資料庫 Optimizations2](../technical-guides/pre-configuration-database-optimizations2.md)，應該遵循幾個步驟來最佳化 SQL Server 上的 BizTalk Server 資料庫效能*之後*已安裝 BizTalk Server，且已設定 BizTalk Server 資料庫。 本主題提供這些最佳化的清單。  
@@ -53,11 +54,11 @@ ms.lasthandoff: 09/20/2017
   
  下列清單說明我們的測試實驗室中使用的 BizTalk Server 資料庫設定：  
   
--   **BizTalk DTADB （BizTalk 追蹤資料庫檔案）：**有 2048 MB，成長 100 MB 的檔案大小和 1024 MB 的記錄檔，具有 100 MB 成長的資料檔案。  
+-   **BizTalk DTADB （BizTalk 追蹤資料庫檔案）：** 有 2048 MB，成長 100 MB 的檔案大小和 1024 MB 的記錄檔，具有 100 MB 成長的資料檔案。  
   
--   **BizTalkMgmtdb （BizTalk 管理資料庫檔案）：**有 100 MB 成長 512 MB 的檔案大小和為 100 MB 成長 512 MB 的記錄檔的資料檔案。  
+-   **BizTalkMgmtdb （BizTalk 管理資料庫檔案）：** 有 100 MB 成長 512 MB 的檔案大小和為 100 MB 成長 512 MB 的記錄檔的資料檔案。  
   
--   **SSODB:**有 100 MB 成長 512 MB 的檔案大小和為 100 MB 成長 512 MB 的記錄檔的資料檔案。  
+-   **SSODB:** 有 100 MB 成長 512 MB 的檔案大小和為 100 MB 成長 512 MB 的記錄檔的資料檔案。  
   
 -   **BizTalkMsgBoxDb （BizTalk MessageBox 資料庫）：** 8 個資料檔案，每個皆為 100 MB 成長的 2 gb 檔案大小和 20 GB 的記錄檔，具有 100 MB 的成長。 因為 BizTalk MessageBox 資料庫是最常使用，我們建議您將資料檔案和交易記錄檔，在專用的磁碟機，以降低磁碟 I/O 競爭問題的可能性。 在實驗室環境中，我們會使用一部磁碟機的下列各項：  
   

@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fc4a67d9-9582-4f2b-9bc9-18fbff823d29
-caps.latest.revision: ''
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25960828"
 ---
 # <a name="step-3-add-a-trigger-event-message-schema"></a>步驟 3： 新增觸發程序事件 （訊息） 結構描述
 在此步驟中，您會建立空的新專案[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]專案範本。 加入此專案中，您將結構描述，[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]用來驗證內送的批次中的訊息 (ADT ^ A03)。 您將參考加入包含 v2.3.1 通用結構描述的專案，專案中，指派強式名稱，然後再部署專案。  

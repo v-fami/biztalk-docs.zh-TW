@@ -1,14 +1,14 @@
 ---
-title: "如何設定憑證與 MSMQ 配接器 |Microsoft 文件"
-ms.custom: 
+title: 如何設定憑證與 MSMQ 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 922a171d-705f-4465-acda-212aa3797c57
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22297910"
 ---
 # <a name="how-to-configure-certificates-with-an-msmq-adapter"></a>如何設定憑證與 MSMQ 配接器
 MSMQ 傳送配接器可以協助保護與接受或要求用戶端憑證的伺服器的連線。 如果指定的用戶端憑證，則 MSMQ 傳送配接器與要求或接受用戶端憑證的伺服器連接時，就會使用的憑證。 如果未指定用戶端憑證和目的地伺服器需要用戶端憑證，寄件者未經過驗證，而且 MSMQ 傳送配接器無法傳送訊息，並依照標準重試邏輯。  

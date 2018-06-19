@@ -1,14 +1,14 @@
 ---
-title: "瀏覽 Oracle E-business Suite 作業的結構描述為基礎的檢視之下 |Microsoft 文件"
-ms.custom: 
+title: 瀏覽 Oracle E-business Suite 作業的結構描述為基礎的檢視之下 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d004a99f-0db1-4cdb-80cd-ea71de4e1098
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963500"
 ---
 # <a name="browse-for-oracle-e-business-suite-operations-under-the-schema-based-view"></a>瀏覽 Oracle E-business Suite 作業在結構描述為基礎的檢視
 您可以使用[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]或[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]瀏覽一概無法對 Oracle E-business Suite 的傳出和傳入作業使用[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]。 本主題提供有關如何瀏覽結構描述為基礎的檢視之下的傳出和傳入作業的資訊。  

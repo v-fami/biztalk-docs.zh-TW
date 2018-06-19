@@ -17,7 +17,7 @@ helpviewer_keywords:
 - creating, applications [SSO]
 - managing [SSO], creating affiliate applications
 ms.assetid: dda89d15-6b70-4c40-b658-2f6cbdd545c8
-caps.latest.revision: ''
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25970404"
 ---
 # <a name="how-to-enable-sso"></a>如何啟用 SSO
 使用 MMC 嵌入式管理單元或命令列，可以啟用整個企業單一登入 (SSO) 系統。  
@@ -44,7 +45,7 @@ ms.lasthandoff: 03/28/2018
   
 ### <a name="to-enable-the-sso-system-using-the-command-line"></a>使用命令列啟用 SSO 系統  
   
-1.  依序按一下 **[開始]**及 **[執行]**，然後輸入 **cmd**。  
+1.  依序按一下 **[開始]** 及 **[執行]**，然後輸入 **cmd**。  
   
 2.  在命令列提示字元中，移至「企業單一登入」安裝目錄。 預設安裝目錄是**\<磁碟機\>**: \Program Files\Common Files\Enterprise Single Sign-on。  
   

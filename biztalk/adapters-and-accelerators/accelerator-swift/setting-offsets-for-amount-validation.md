@@ -1,11 +1,11 @@
 ---
-title: "設定位移量驗證 |Microsoft 文件"
-ms.custom: 
+title: 設定位移量驗證 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - amounts, validating
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - amounts, offsets
 - offsets
 ms.assetid: 39d5510c-52e6-4fd9-9632-582b508f04d7
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961252"
 ---
 # <a name="setting-offsets-for-amount-validation"></a>設定位移量驗證
 在訊息類型 MT102，MT103，以及 MT103PLUS 量欄位的使用方式規則會驗證其各自的驗證原則中的規則。 數量欄位可以完全相符，或是可驗證的金額的範圍內。  

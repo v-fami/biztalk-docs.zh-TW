@@ -1,11 +1,11 @@
 ---
-title: "訊息編碼 |Microsoft 文件"
-ms.custom: 
+title: 訊息編碼 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, encodings
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - encoding [messages]
 - code samples
 ms.assetid: 360638c0-4094-428f-a7c7-306a5f95a6bf
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204790"
 ---
 # <a name="message-encodings"></a>訊息編碼
 您不足夠定義訊息語意，為了讓 HL7 才能發揮作用。 一旦尚未決定訊息的內容，以說明如何代表實際的介面中該內容具有標準。 也就是說，必須有指定 「 訊息編碼方式 」。 HL7 第 2 版支援兩種形式的訊息編碼、 自訂分隔符號為基礎的編碼方式，以及 XML 編碼方式。  

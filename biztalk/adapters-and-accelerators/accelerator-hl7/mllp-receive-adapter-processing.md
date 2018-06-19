@@ -1,18 +1,18 @@
 ---
-title: "MLLP 的接收配接器處理 |Microsoft 文件"
-ms.custom: 
+title: MLLP 的接收配接器處理 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - MLLP-encoded messages, receive adapters
 - MLLP adapters, send adapters
 - receive adapters
 ms.assetid: 03c9a5f6-6f23-454f-8bab-e7c7b6057efa
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207446"
 ---
 # <a name="mllp-receive-adapter-processing"></a>MLLP 的接收配接器處理
 最小的較低層通訊協定 (MLLP) 接收配接器支援這兩個單向和雙向要求回應模式。 配接器會接聽並接受連線。  

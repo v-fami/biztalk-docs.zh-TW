@@ -1,14 +1,14 @@
 ---
-title: "BAM 管理公用程式 |Microsoft 文件"
-ms.custom: 
+title: BAM 管理公用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c55aabe2-f38b-4917-863c-b408a4eef98e
-caps.latest.revision: "50"
+caps.latest.revision: 50
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965460"
 ---
 # <a name="bam-management-utility"></a>BAM 管理公用程式
 商務活動監控 (BAM) 定義的管理員可使用 BAM 管理公用程式，來管理和維護 BAM 基礎結構的所有層面。  
@@ -82,7 +83,7 @@ ms.lasthandoff: 11/28/2017
 -   [攔截器管理命令](../core/interceptor-management-commands.md)  
   
 ## <a name="displaying-the-bam-management-utility-help"></a>顯示 BAM 管理公用程式說明  
- 您使用**/？** 或**協助 BAM 管理公用程式**命令，以顯示 BAM 管理公用程式的說明檔。  
+ 您使用 **/？** 或**協助 BAM 管理公用程式**命令，以顯示 BAM 管理公用程式的說明檔。  
   
 #### <a name="to-display-the-help-file-for-the-bam-management-utility"></a>若要顯示 BAM 管理公用程式的說明檔  
   

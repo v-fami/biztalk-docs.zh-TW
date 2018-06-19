@@ -1,11 +1,11 @@
 ---
-title: "HL7 訊息結構 |Microsoft 文件"
-ms.custom: 
+title: HL7 訊息結構 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, segments
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - segments, messages
 - messages, message structure
 ms.assetid: 4dbef56d-97ae-466d-bc8a-dc96c40896f6
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22205086"
 ---
 # <a name="hl7-message-structure"></a>HL7 訊息結構
 HL7 訊息是觸發程序事件相關聯的階層式結構。 標準 HL7 「 健康照護 （，），建立資料流系統之間需要真實世界中的事件 」 定義觸發程序事件。 每個觸發程序事件是與定義的訊息需要支援觸發程序事件的資料類型的抽象訊息相關聯。 抽象的訊息片段的集合，而且包含重複和這些區段包含的規則。 下表顯示與觸發程序事件 A04 – 註冊病患相關聯的抽象訊息的範例。  

@@ -1,11 +1,11 @@
 ---
-title: "建立或編輯夥伴 |Microsoft 文件"
-ms.custom: 
+title: 建立或編輯夥伴 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, trading partners
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - trading partners, modifying
 - trading partners, about trading partners
 ms.assetid: 63809035-65a5-472d-b2e5-359c8e9d9d8c
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966660"
 ---
 # <a name="creating-or-editing-a-partner"></a>建立或編輯夥伴
 本主題描述如何建立或編輯交易夥伴。 交易夥伴組態描述與分類交易夥伴、設定來源不可否認性的時段、設定交易夥伴的憑證，以及提供連絡人資訊。  

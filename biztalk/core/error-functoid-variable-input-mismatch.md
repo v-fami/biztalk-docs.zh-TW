@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968676"
 ---
 # <a name="error---functoid-variable-input-mismatch"></a>錯誤-運算質變數輸入不符
 **錯誤碼**  

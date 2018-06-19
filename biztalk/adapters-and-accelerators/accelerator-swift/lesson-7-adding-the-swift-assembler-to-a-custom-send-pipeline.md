@@ -1,18 +1,18 @@
 ---
-title: "第 7 課： 加入自訂 SWIFT 組合器的傳送管線 |Microsoft 文件"
-ms.custom: 
+title: 第 7 課： 加入自訂 SWIFT 組合器的傳送管線 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - assembler, custom pipelines
 - send pipelines, adding assembler
 - send pipelines, custom pipelines
 ms.assetid: 793cd132-7e24-4cf4-a6fc-d522a30b228a
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209190"
 ---
 # <a name="lesson-7-adding-the-swift-assembler-to-a-custom-send-pipeline"></a>第 7 課： 加入自訂傳送管線 SWIFT 組譯工具
 在這一課，您可以加入 SWIFT 自訂組譯工具 (ASM) 到您的管線。  

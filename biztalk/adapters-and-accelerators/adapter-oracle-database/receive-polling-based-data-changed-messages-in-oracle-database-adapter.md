@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216566"
 ---
 # <a name="receive-polling-based-data-changed-messages-in-oracle-database-adapter"></a>在 Oracle 資料庫配接器收到輪詢基礎資料變更的訊息
 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]支援藉由輪詢 Oracle 資料庫接收輪詢基礎資料變更的訊息。 配接器會將訊息傳遞至應用程式：  
@@ -50,7 +51,7 @@ ms.lasthandoff: 09/20/2017
 |繫結屬性|值|預設值|必要項目/選用項目|  
 |----------------------|-----------|-------------|------------------------|  
 |**InboundOperationType**|請確定值設定為**輪詢**。|輪詢|必要。 如果沒有明確設定，預設值會套用。|  
-|**PolledDataAvailableStatement**|指定 SELECT 陳述式執行，以判斷是否可用於針對特定資料表輪詢的任何資料。 指定的陳述式必須傳回的結果集資料列和資料行所組成。 結果集的第一個資料格中的值，指出配接器是否會執行指定的值**PollingStatement**繫結屬性。 如果結果的第一個資料格包含正數值時，配接器會執行輪詢陳述式。 例如，會是有效的陳述式，這個繫結屬性：<br /><br /> `Select * from <table_name>`<br /><br /> **注意：**您必須指定這個繫結屬性的預存程序。 此外，此陳述式不得修改基礎的 Oracle 資料庫。|從雙選取 1|必要。 如果沒有明確設定，預設值會套用，這表示配接器必須繼續輪詢無論資料表輪詢是否有資料。|  
+|**PolledDataAvailableStatement**|指定 SELECT 陳述式執行，以判斷是否可用於針對特定資料表輪詢的任何資料。 指定的陳述式必須傳回的結果集資料列和資料行所組成。 結果集的第一個資料格中的值，指出配接器是否會執行指定的值**PollingStatement**繫結屬性。 如果結果的第一個資料格包含正數值時，配接器會執行輪詢陳述式。 例如，會是有效的陳述式，這個繫結屬性：<br /><br /> `Select * from <table_name>`<br /><br /> **注意：** 您必須指定這個繫結屬性的預存程序。 此外，此陳述式不得修改基礎的 Oracle 資料庫。|從雙選取 1|必要。 如果沒有明確設定，預設值會套用，這表示配接器必須繼續輪詢無論資料表輪詢是否有資料。|  
 |**PollingAction**|指定輪詢作業的動作。 您可以判斷您的作業使用產生的中繼資料從特定作業的輪詢動作[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]。|null|選擇性的資料表和檢視表使用 SELECT 陳述式的輪詢作業。|  
 |**PollingInterval**|設定的間隔，以秒為單位，用來查詢 Oracle 資料庫配接器。 此屬性指定的輪詢間隔，輪詢交易逾時時間。值必須大於查詢和後輪詢陳述式 （如果已指定） 的 Oracle 資料庫上執行所花費的時間量再加上的用戶端處理的查詢資料，並傳回輪詢回應訊息所花費的時間量。|500|必要。 如果沒有明確設定，預設值會套用。|  
 |**PollingStatement**|指定下列其中一項：<br /><br /> 應該針對 Oracle 資料庫執行的 SQL SELECT 陳述式。 這個陳述式應該包含 FOR UPDATE 子句。 FOR UPDATE 子句的相關資訊，請參閱[輪詢陳述式中指定 FOR UPDATE 子句](#ForUpdate)本主題稍後。<br /><br /> -要求的預存程序、 函數或程序或函式內的封裝，您想要輪詢的訊息。|null|必要。 設定**PollingStatement**為非 null 值可讓輪詢。|  

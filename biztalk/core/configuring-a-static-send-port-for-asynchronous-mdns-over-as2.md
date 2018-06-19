@@ -1,14 +1,14 @@
 ---
-title: "設定透過 AS2 之非同步 Mdn 的靜態傳送埠 |Microsoft 文件"
-ms.custom: 
+title: 設定透過 AS2 之非同步 Mdn 的靜態傳送埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cc43e767-d9d7-4b02-b3fc-0cfdfd6e61c4
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968372"
 ---
 # <a name="configuring-a-static-send-port-for-asynchronous-mdns-over-as2"></a>設定透過 AS2 之非同步 MDN 的靜態傳送埠
 本主題說明如何設定 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，使其透過靜態傳送埠傳送非同步 EDIINT/AS2 編碼 MDN 訊息。 進行這項設定時必須建立靜態傳送埠，若有必要，也須設定供傳送埠使用的加密憑證。  
@@ -29,12 +30,12 @@ ms.lasthandoff: 11/28/2017
 |位置|屬性|設定|  
 |--------------|--------------|-------------|  
 |**傳送埠屬性： 一般**|連接埠類型|靜態單向傳送埠|  
-|**傳送埠屬性： 一般**|傳輸類型|HTTP**附註：**只有 HTTP 配接器可以用於傳輸 EDIINT/AS2 編碼訊息。 這種傳輸無法搭配 HTTP 配接器以外的配接器運作。|  
+|**傳送埠屬性： 一般**|傳輸類型|HTTP**附註：** 只有 HTTP 配接器可以用於傳輸 EDIINT/AS2 編碼訊息。 這種傳輸無法搭配 HTTP 配接器以外的配接器運作。|  
 |**傳送埠屬性： 一般**|傳送處理常式|BizTalkServerApplication|  
 |**傳送埠屬性： 一般**|傳送管線|AS2Send|  
 |**HTTP 傳輸屬性**|目的地 URL|\<目的地 URL 字串\>|  
 |**HTTP 傳輸屬性**|啟用區塊編碼|已清除|  
-|**傳送埠屬性： 篩選**|屬性|EdiIntAS.IsAS2AsynchronousMdn**附註：**您也應該指定額外的篩選運算式，以確保只有中指定之位址為目標的 MDN 訊息傳送埠所拾取此訂用帳戶篩選。|  
+|**傳送埠屬性： 篩選**|屬性|EdiIntAS.IsAS2AsynchronousMdn**附註：** 您也應該指定額外的篩選運算式，以確保只有中指定之位址為目標的 MDN 訊息傳送埠所拾取此訂用帳戶篩選。|  
 |**傳送埠屬性： 篩選**|運算子|==|  
 |**傳送埠屬性： 篩選**|值|True|  
 |**傳送埠屬性： 憑證**|一般名稱和指紋|如果對外寄 MDN 訊息使用加密憑證，請輸入憑證名稱和指紋。|  

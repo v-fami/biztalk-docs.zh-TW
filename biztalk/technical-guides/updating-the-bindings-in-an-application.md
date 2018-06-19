@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22302830"
 ---
 # <a name="updating-the-bindings-in-an-application"></a>更新應用程式中的繫結
 응용 프로그램에서 어셈블리를 업데이트할 때 해당 바인딩을 덮어쓰는 경우가 많으며, 아니면 어셈블리가 바인딩되지 않아 수동으로 바인딩을 다시 구성해야 할 수도 있습니다. 若要避免這個問題，您可以使用繫結檔案更新的組件相同版本或更新組件的較新版本。  

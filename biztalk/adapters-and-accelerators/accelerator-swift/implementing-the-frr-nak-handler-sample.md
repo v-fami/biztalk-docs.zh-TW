@@ -1,14 +1,14 @@
 ---
-title: "實作 FRR NAK 處理常式範例 |Microsoft 文件"
-ms.custom: 
+title: 實作 FRR NAK 處理常式範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 80fa5fb7-6864-4923-b641-e76d2b95d923
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25961548"
 ---
 # <a name="implementing-the-frr-nak-handler-sample"></a>實作 FRR NAK 處理常式範例
 若要實作範例 FRR NAK 自訂處理常式，將範例專案加入至方案、 建置和部署專案、 繫結和啟動協調流程，然後停止並重新啟動[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]。  

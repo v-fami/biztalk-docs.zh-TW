@@ -1,14 +1,14 @@
 ---
-title: "實作版本控制策略 |Microsoft 文件"
-ms.custom: 
+title: 實作版本控制策略 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0a3c7af6-6277-4667-8f14-e6d1cb9e99d4
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298806"
 ---
 # <a name="implementing-a-versioning-strategy"></a>實作版本控制策略
 版本設定是更新成品的實作並遞增其版本號碼的行為。  

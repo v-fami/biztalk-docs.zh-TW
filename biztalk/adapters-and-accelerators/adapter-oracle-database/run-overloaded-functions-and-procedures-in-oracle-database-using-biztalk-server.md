@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967156"
 ---
 # <a name="invoke-overloaded-functions-and-procedures-in-oracle-database-using-biztalk-server"></a>叫用多載函式，並使用 BizTalk Server 的 Oracle 資料庫中的程序
 預存程序和函式可以多載 Oracle 資料庫中。 [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]支援由多載函式和程序變更作業的目標命名空間。 例如，兩個多載程序的訊息結構看起來像：  
@@ -126,7 +127,7 @@ Stored Procedure Overload 2:
   
 |形狀圖|圖形類型|屬性|  
 |-----------|----------------|----------------|  
-|ReceiveMessage|Receive|-設定**名稱**至*ReceiveMessage*<br />-設定**啟動**至*，則為 True*|  
+|ReceiveMessage|Receive|-設定**名稱**至*ReceiveMessage*<br />-設定**啟動**至 *，則為 True*|  
 |SendMessage|Send|-設定**名稱**至*SendMessage*|  
 |ReceiveResponse|Receive|-設定**名稱**至*ReceiveResponse*<br />-設定**啟動**至*False*|  
 |SendResponse|Send|-設定**名稱**至*SendResponse*|  
@@ -135,7 +136,7 @@ Stored Procedure Overload 2:
   
 |形狀圖|圖形類型|屬性|  
 |-----------|----------------|----------------|  
-|ReceiveMessage2|Receive|-設定**名稱**至*ReceiveMessage2*<br />-設定**啟動**至*，則為 True*|  
+|ReceiveMessage2|Receive|-設定**名稱**至*ReceiveMessage2*<br />-設定**啟動**至 *，則為 True*|  
 |SendMessage2|Send|-設定**名稱**至*SendMessage2*|  
 |ReceiveResponse2|Receive|-設定**名稱**至*ReceiveResponse2*<br />-設定**啟動**至*False*|  
 |SendResponse2|Send|-設定**名稱**至*SendResponse2*|  

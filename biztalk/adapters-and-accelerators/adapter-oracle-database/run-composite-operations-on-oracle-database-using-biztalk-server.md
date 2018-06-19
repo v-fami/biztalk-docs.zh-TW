@@ -1,14 +1,14 @@
 ---
-title: "執行複合操作 Oracle 資料庫使用 BizTalk Server 上 |Microsoft 文件"
-ms.custom: 
+title: 執行複合操作 Oracle 資料庫使用 BizTalk Server 上 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bf47d95e-cdf1-4c9b-a15a-7cf123d0ea6d
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962660"
 ---
 # <a name="run-composite-operations-on-oracle-database-using-biztalk-server"></a>執行複合操作 Oracle 資料庫使用 BizTalk Server 上
 [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]可讓配接器執行複合操作 Oracle 資料庫上的用戶端。 複合作業可包括：  
@@ -76,9 +77,9 @@ ms.lasthandoff: 11/28/2017
   
      若要加入的參考：  
   
-    1.  以滑鼠右鍵按一下根**\<結構描述\>**中 CompositeSchema.xsd，按一下節點**屬性**。  
+    1.  以滑鼠右鍵按一下根**\<結構描述\>** 中 CompositeSchema.xsd，按一下節點**屬性**。  
   
-    2.  在**屬性**方塊中，按一下省略符號按鈕**（...）**針對**匯入**屬性。  
+    2.  在**屬性**方塊中，按一下省略符號按鈕 **（...）** 針對**匯入**屬性。  
   
          ![匯入結構描述定義](../../adapters-and-accelerators/adapter-oracle-database/media/d084d0f0-60b5-4ae8-9e80-7ed2c9e3ecca.gif "d084d0f0-60b5-4ae8-9e80-7ed2c9e3ecca")  
   
@@ -95,9 +96,9 @@ ms.lasthandoff: 11/28/2017
     > [!NOTE]
     >  根據預設，**根**節點也會加入至新的結構描述檔案。 您可以重新命名**根**節點**要求**。 若要重新命名的節點，以滑鼠右鍵按一下節點名稱，然後按一下**重新命名**。  
   
-     若要加入的節點下**\<結構描述\>**節點：  
+     若要加入的節點下**\<結構描述\>** 節點：  
   
-    1.  以滑鼠右鍵按一下**\<結構描述\>**節點，指向**插入結構描述節點**，然後按一下**子記錄**。  
+    1.  以滑鼠右鍵按一下**\<結構描述\>** 節點，指向**插入結構描述節點**，然後按一下**子記錄**。  
   
     2.  重新命名新的節點**RequestResponse**。  
   
@@ -192,7 +193,7 @@ ms.lasthandoff: 11/28/2017
   
 |形狀圖|圖形類型|屬性|  
 |-----------|----------------|----------------|  
-|ReceiveMessage|Receive|-設定**名稱**至*ReceiveMessage*<br />-設定**啟動**至*，則為 True*|  
+|ReceiveMessage|Receive|-設定**名稱**至*ReceiveMessage*<br />-設定**啟動**至 *，則為 True*|  
 |SendMessage|Send|-設定**名稱**至*SendMessage*|  
 |ReceiveResponse|Receive|-設定**名稱**至*ReceiveResponse*<br />-設定**啟動**至*False*|  
 |SendResponse|Send|-設定**名稱**至*SendResponse*|  

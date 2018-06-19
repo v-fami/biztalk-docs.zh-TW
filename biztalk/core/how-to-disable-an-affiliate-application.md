@@ -12,7 +12,7 @@ helpviewer_keywords:
 - managing [SSO applications], disabling
 - applications [SSO], disabling
 ms.assetid: febf1687-f0d0-4f87-b462-23535bbddf6d
-caps.latest.revision: ''
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25969484"
 ---
 # <a name="how-to-disable-an-affiliate-application"></a>如何停用分支機構應用程式
 您可以使用 MMC 嵌入式管理單元或命令列，來停用指定的分支機構應用程式。  
@@ -39,7 +40,7 @@ ms.lasthandoff: 03/28/2018
   
 2.  在命令列，移至「企業單一登入」安裝目錄。 預設安裝目錄是\<*磁碟機*\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-3.  型別 **ssomanage-disableapp *\<應用程式名稱\>* * *，其中\<*應用程式名稱*\>的分支機構應用程式名稱您要停用。  
+3.  型別 **ssomanage-disableapp *\<應用程式名稱\>* * *，其中\<* 應用程式名稱*\>的分支機構應用程式名稱您要停用。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  

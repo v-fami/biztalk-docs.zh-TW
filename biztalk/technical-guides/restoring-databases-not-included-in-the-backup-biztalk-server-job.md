@@ -1,14 +1,14 @@
 ---
-title: "還原資料庫不包含在備份 BizTalk Server 作業 |Microsoft 文件"
-ms.custom: 
+title: 還原資料庫不包含在備份 BizTalk Server 作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c7141980-d4a6-4409-be9b-c94a7f733376
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302118"
 ---
 # <a name="restoring-databases-not-included-in-the-backup-biztalk-server-job"></a>還原資料庫不包含在備份 BizTalk Server 作業
 本節說明如何還原資料庫的整體的 BizTalk 解決方案的一部分，但不由 「 備份 BizTalk Server 」 工作備份。 BizTalk 解決方案的一部分的所有資料庫會被都備份可以使用備份 BizTalk Server 作業，但下列除外：  

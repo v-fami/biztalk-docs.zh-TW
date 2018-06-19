@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25960332"
 ---
 # <a name="preparing-to-use-the-tutorial"></a>準備使用本教學課程
 使用本教學課程之前，您需要建立 ADT^A03.txt 檔案。  

@@ -1,17 +1,17 @@
 ---
-title: "叫用商務服務方法使用 BizTalk Server 和 Siebel 配接器 |Microsoft 文件"
-ms.custom: 
+title: 叫用商務服務方法使用 BizTalk Server 和 Siebel 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - how to, invoke business service methods
 - business service methods, invoking
 ms.assetid: cf437c4f-fa65-4f89-a197-c83869930b2c
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966156"
 ---
 # <a name="invoke-business-service-methods-using-biztalk-server-and-the-siebel-adapter"></a>叫用商務服務方法使用 BizTalk Server 和 Siebel 配接器
 Siebel 商務服務是可以在 Siebel 中直接叫用的商務方法的集合。 如需有關如何[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]支援叫用商務服務在 Siebel 系統中，請參閱[在 Siebel 商務服務的相關作業](../../adapters-and-accelerators/adapter-siebel/operations-on-business-services-in-siebel.md)。 執行商務服務作業，訊息的 SOAP 結構的詳細資訊，請參閱[商務服務作業的訊息結構描述](../../adapters-and-accelerators/adapter-siebel/message-schemas-for-business-service-operations.md)。  
@@ -96,7 +97,7 @@ Siebel 商務服務是可以在 Siebel 中直接叫用的商務方法的集合�
   
 |形狀圖|圖形類型|屬性|  
 |-----------|----------------|----------------|  
-|ReceiveXML|Receive|-設定**名稱**至*ReceiveXML*<br />-設定**啟動**至*，則為 True*|  
+|ReceiveXML|Receive|-設定**名稱**至*ReceiveXML*<br />-設定**啟動**至 *，則為 True*|  
 |SendToLOB|Send|-設定**名稱**至*SendToLOB*|  
 |ReceiveResponse|Receive|-設定**名稱**至*ReceiveResponse*<br />-設定**啟動**至*False*|  
 |SendResponse|Send|-設定**名稱**至*SendResponse*|  

@@ -1,14 +1,14 @@
 ---
-title: "連接到使用 Windows 驗證的 Oracle E-business Suite |Microsoft 文件"
-ms.custom: 
+title: 連接到使用 Windows 驗證的 Oracle E-business Suite |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0937dfd9-4a94-4d65-a42c-3c5019eefde2
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961580"
 ---
 # <a name="connect-to-oracle-e-business-suite-using-windows-authentication"></a>連接到 Oracle E-business Suite 使用 Windows 驗證
 [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]可讓配接器用戶端使用 Windows 驗證來建立與 Oracle E-business Suite 的連線。 若要使用 Windows 驗證配接器用戶端必須指定"/"的使用者名稱和密碼保持空白。 如需有關如何連接到 Oracle E-business Suite 的使用 Windows 驗證的詳細資訊，請參閱[連接到 Visual Studio 中的 Oracle E-business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/connect-to-the-oracle-e-business-suite-in-visual-studio.md)。  

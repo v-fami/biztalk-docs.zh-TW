@@ -1,7 +1,7 @@
 ---
 title: 安裝和設定 Microsoft BizTalk ESB Toolkit |Microsoft 文件
 description: 安裝和設定 BizTalk Server 上的 ESB Toolkit 的步驟-步驟指示
-caps.latest.revision: ''
+caps.latest.revision: 8
 author: MandiOhlinger
 manager: anneta
 ms.custom: ''
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22296998"
 ---
 # <a name="install-and-configure-the-microsoft-biztalk-esb-toolkit"></a>安裝和設定 Microsoft BizTalk ESB Toolkit
 從 BizTalk Server 2013 和較新版本，[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]與整合[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]安裝程式。 本主題說明如何安裝及設定[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]，而且也包含社群寫入升級 ESB Toolkit 連結。  
@@ -79,15 +80,15 @@ An install log file is created, similar to `C:\Users\yourUserName\AppData\Local\
   
     -   **SSO 伺服器**： 輸入 SSO 伺服器名稱
   
-    -   **組態檔**： 選取省略符號**（...）**，然後瀏覽至 esb.config 檔案 (\Program Files (x86) \Microsoft BizTalk ESB Toolkit)
+    -   **組態檔**： 選取省略符號 **（...）**，然後瀏覽至 esb.config 檔案 (\Program Files (x86) \Microsoft BizTalk ESB Toolkit)
   
     -   **應用程式名稱**： 輸入 SSO 應用程式的名稱。 例如，輸入`ESB Toolkit`。  
   
     -   **連絡資訊**： 以下列格式輸入有效的電子郵件地址的適當的連絡資訊： `someone@example.com`。  
   
-    -   **系統管理員群組名稱**： 選取省略符號**（...）**，然後瀏覽至適當的系統管理員群組  
+    -   **系統管理員群組名稱**： 選取省略符號 **（...）**，然後瀏覽至適當的系統管理員群組  
   
-    -   **使用者群組名稱**： 選取省略符號**（...）**，然後瀏覽至適當的群組  
+    -   **使用者群組名稱**： 選取省略符號 **（...）**，然後瀏覽至適當的群組  
 
 8.  選取**套用組態**。 開啟 IIS，您會發現在設定 [!INCLUDE[esbToolkit_short](../includes/esbtoolkit-short-md.md)] 時指定的網站下方，現已建立 [!INCLUDE[esbToolkit_short](../includes/esbtoolkit-short-md.md)] 所需的應用程式。  
   

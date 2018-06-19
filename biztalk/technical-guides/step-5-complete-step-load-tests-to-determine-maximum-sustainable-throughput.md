@@ -1,14 +1,14 @@
 ---
-title: "步驟 5： 執行步驟負載模式測試，來判斷最大持續輸送量 |Microsoft 文件"
-ms.custom: 
+title: 步驟 5： 執行步驟負載模式測試，來判斷最大持續輸送量 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8056ced6-1f04-4be2-878a-48a427a93dad
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302638"
 ---
 # <a name="step-5-perform-step-load-pattern-tests-to-determine-maximum-sustainable-throughput"></a>步驟 5： 執行步驟負載模式測試，來判斷最大持續輸送量
 判斷最大持續輸送量 (MST) 在 BizTalk Server 方案中使用 Visual Studio 負載測試的最簡單方法是執行的步驟負載模式和比較總每秒處理的文件每秒接收的文件總數. 只要每秒處理的平均總文件是大於或等於測試期間每秒接收的平均總文件，則負載會被視為持續性。 如果平均每秒接收的文件總數第二個大於測試期間每秒處理的平均總文件，則負載不會被視為持續性，而且這會由對應的成長中的值總合Biztalk: Message Box: General Counters\Spool Size 計數器。 經過一段時間，當 BizTalk Server 應用程式會收到比它可以處理的文件，未處理的文件將會累積在 MessageBox 資料庫中，將最終誘使節流狀況，並大幅降低的效能BizTalk Server 應用程式。  

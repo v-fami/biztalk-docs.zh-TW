@@ -1,14 +1,14 @@
 ---
-title: "SWIFT 接收配接器儲存與轉送 |Microsoft 文件"
-ms.custom: 
+title: SWIFT 接收配接器儲存與轉送 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 11eeb335-366b-4b29-9078-de9396b258ca
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224470"
 ---
 # <a name="swift-receive-adapter-store-and-forward"></a>SWIFT 接收配接器儲存與轉送
 接收配接器會接收來自 SWIFT 商店 和 正向 (SnF) 佇列的訊息。 若要從佇列接收訊息，配接器必須開啟工作階段與 SnF 佇列。 若要開啟佇列，它必須有專用的用戶端處理序所建立的佇列的工作階段。 在設計中，此程序會實作為 COM plus 跨處理序元件。  

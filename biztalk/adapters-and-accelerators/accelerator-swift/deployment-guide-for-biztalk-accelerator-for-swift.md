@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22208918"
 ---
 # <a name="deployment-guide-for-biztalk-accelerator-for-swift"></a>BizTalk Accelerator for SWIFT 的部署指南
 本指南提供部署的相關資訊[!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]。  

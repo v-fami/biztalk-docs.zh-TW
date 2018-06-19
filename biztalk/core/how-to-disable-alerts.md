@@ -1,18 +1,18 @@
 ---
-title: "如何停用警示 |Microsoft 文件"
-ms.custom: 
+title: 如何停用警示 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - alerts, disabling
 - managing [BAM definitions], disabling alerts
 - Disable-Alerts command [BAM]
 ms.assetid: c5938bc2-1043-4633-8cad-02caf442f2e8
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969260"
 ---
 # <a name="how-to-disable-alerts"></a>如何停用警示
 系統管理員使用**停用警示**命令以停用所有指定之檢視上的警示。  

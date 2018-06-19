@@ -1,17 +1,17 @@
 ---
-title: "擴充 HL7 2.X Z 物件結構描述 |Microsoft 文件"
-ms.custom: 
+title: 擴充 HL7 2.X Z 物件結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - 2.X schemas, Z objects
 - Z objects, extending 2.X schemas
 ms.assetid: 0980d919-eb81-4c65-b0f7-f17f7cfef6b3
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204654"
 ---
 # <a name="extending-hl7-2x-schemas-with-z-objects"></a>擴充 HL7 2.X Z 物件結構描述
 HL7 組織定義 HL7 2.X 結構描述，並預期所有寄件者和接收者辨識並使用這些結構描述，因為組織定義它們。 互通性可確保符合結構描述。 不過，HL7 標準可讓您自訂現有 HL7 2.X 特定的本機目的結構描述。 您也可以定義完全新的結構描述和物件。 您可以使用哪些 HL7 標準呼叫 Z 物件。  

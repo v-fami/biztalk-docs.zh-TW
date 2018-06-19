@@ -1,14 +1,14 @@
 ---
-title: "設定主控件和主控件執行個體 |Microsoft 文件"
-ms.custom: 
+title: 設定主控件和主控件執行個體 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a36a73a4-cc5f-47d6-b56f-7871684c4489
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22300110"
 ---
 # <a name="configuring-hosts-and-host-instances"></a>設定主控件和主控件執行個體
 BizTalk 主控件代表零個或多個執行階段處理序中，您可以部署一組邏輯[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]服務和成品 （例如配接器處理常式，接收位置，以及協調流程）。 主控件執行個體是執行的電腦上的主機的實體執行個體[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。 如需 BizTalk 主控件和主控件執行個體的詳細資訊，請參閱[主機](http://go.microsoft.com/fwlink/?LinkId=154189)(http://go.microsoft.com/fwlink/?LinkId=154189) 和[主控件執行個體](http://go.microsoft.com/fwlink/?LinkId=154190)(http://go.microsoft.com/fwlink/?LinkId=154190)。  

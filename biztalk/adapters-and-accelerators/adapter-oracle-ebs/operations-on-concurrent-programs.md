@@ -1,14 +1,14 @@
 ---
-title: "並行程式上的作業 |Microsoft 文件"
-ms.custom: 
+title: 並行程式上的作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bbc40e4c-d5a1-4763-9683-09a744e5b656
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218310"
 ---
 # <a name="operations-on-concurrent-programs"></a>並行程式的作業
 Oracle E-business Suite 中的並行程式當成作業[!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]。  Oracle 應用程式特有的並行程式以及[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]也會提供諸如下列三種的標準作業： Get_Status、 Wait_For_Request 和 Submit_Request。 這表示如果 Oracle 應用程式有兩個並行程式，將會公開五個作業： 一個適用於每個並行程式，而三個用於標準的作業。  

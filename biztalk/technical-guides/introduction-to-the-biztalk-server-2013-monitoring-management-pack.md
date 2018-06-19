@@ -1,14 +1,14 @@
 ---
-title: "監視管理組件的 BizTalk Server 2013 簡介 |Microsoft 文件"
-ms.custom: 
+title: 監視管理組件的 BizTalk Server 2013 簡介 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e70cc4bf-8033-48cc-8d0f-65254377b7c4
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298310"
 ---
 # <a name="introduction-to-the-biztalk-server-2013-monitoring-management-pack"></a>監視管理組件的 BizTalk Server 2013 的簡介
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理組件提供主動式與反應式監視 BizTalk Server 部署、 應用程式和其構成成品。 此管理組件提供的監視包括監視健全狀況、 可用性和組態監視、 效能資料集合及預設臨界值。 您可以整合至您服務導向的監視案例 BizTalk Server 元件的監視。 此管理組件提供從 Web 下載。  

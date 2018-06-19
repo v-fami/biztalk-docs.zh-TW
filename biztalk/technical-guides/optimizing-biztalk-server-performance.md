@@ -1,14 +1,14 @@
 ---
-title: "BizTalk Server 效能最佳化 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Server 效能最佳化 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 809913f6-63b1-47cd-9961-0e10397108ca
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298526"
 ---
 # <a name="optimizing-biztalk-server-performance"></a>BizTalk Server 效能最佳化
 本節提供指導方針來改善 BizTalk Server 效能。 安裝和設定 BizTalk Server 後，會套用所列的最佳化。  

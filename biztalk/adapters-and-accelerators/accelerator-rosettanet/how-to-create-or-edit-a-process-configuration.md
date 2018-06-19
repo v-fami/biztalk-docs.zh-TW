@@ -1,11 +1,11 @@
 ---
-title: "如何建立或編輯程序組態 |Microsoft 文件"
-ms.custom: 
+title: 如何建立或編輯程序組態 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - process configuration, modifying
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - creating, process configuration
 - modifying, process configuration
 ms.assetid: ef6160f1-f2f0-42ff-a516-7818c9d79d26
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962604"
 ---
 # <a name="how-to-create-or-edit-a-process-configuration"></a>如何建立或編輯程序組態
 本主題描述如何建立或編輯程序組態。  
@@ -93,7 +94,7 @@ ms.lasthandoff: 11/28/2017
   
 4.  以滑鼠右鍵按一下您想要編輯，然後按一下 程序組態**屬性**。  
   
-5.  在*\<程序組態\>*屬性對話方塊中，於**一般**和**連絡人屬性**索引標籤中，變更的設定必要項。 如需有關這些設定的詳細資訊，請參閱上表。  
+5.  在*\<程序組態\>* 屬性對話方塊中，於**一般**和**連絡人屬性**索引標籤中，變更的設定必要項。 如需有關這些設定的詳細資訊，請參閱上表。  
   
 6.  按一下 **[確定]**。  
   

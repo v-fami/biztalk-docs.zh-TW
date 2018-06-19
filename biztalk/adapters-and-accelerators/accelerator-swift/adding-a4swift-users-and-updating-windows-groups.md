@@ -1,11 +1,11 @@
 ---
-title: "新增 A4SWIFT 使用者及更新 Windows 群組 |Microsoft 文件"
-ms.custom: 
+title: 新增 A4SWIFT 使用者及更新 Windows 群組 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - user accounts, Windows groups
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - updating Windows groups
 - A4SWIFT, creating user accounts
 ms.assetid: ddc54457-6499-402c-9cc2-f7b17bbc255f
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209926"
 ---
 # <a name="adding-a4swift-users-and-updating-windows-groups"></a>新增 A4SWIFT 使用者及更新 Windows 群組
 您建立並安裝 Message Repair 和 New Submission 角色的憑證之後，您必須建立[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]使用者並新增[!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)]使用者群組。  

@@ -1,14 +1,14 @@
 ---
-title: "疑難排解 JD Edwards EnterpriseOne 配接器 |Microsoft 文件"
-ms.custom: 
+title: 疑難排解 JD Edwards EnterpriseOne 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7b3e68fa-b81d-4767-ab62-3200ce89d81c
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015935"
 ---
 # <a name="troubleshooting-jd-edwards-enterpriseone"></a>對 JD Edwards EnterpriseOne 進行疑難排解
 

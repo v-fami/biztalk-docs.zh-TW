@@ -1,14 +1,14 @@
 ---
-title: "步驟 5： 建立傳送埠將訊息傳遞 |Microsoft 文件"
-ms.custom: 
+title: 步驟 5： 建立傳送埠將訊息傳遞 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f56ad7a7-5c77-4191-a001-691e5e0652a1
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207598"
 ---
 # <a name="step-5-create-a-send-port-to-deliver-messages"></a>步驟 5： 建立傳送埠將訊息傳遞
 在此步驟中，您可以建立和設定傳送接收之批次中包含的個別訊息的連接埠。 稍後在教學課程中，將原始的合作對象 (Tutorial_BatchSource) 片段中啟用[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]Configuration 總管。 如此一來，BizTalk 整合引擎時，會為個別的訊息片段批次和[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]會透過您在此步驟中建立的傳送埠傳送這些訊息。  
@@ -56,15 +57,15 @@ ms.lasthandoff: 09/20/2017
     |使用|動作|  
     |--------------|----------------|  
     |**屬性**（第一次換行）|按一下下方的欄位**屬性**，然後選取**BTS。MessageType**從下拉式清單。|  
-    |**運算子**|選取**！ =**從下拉式清單。|  
+    |**運算子**|選取 **！ =** 從下拉式清單。|  
     |**值**|型別**http://microsoft.com/HealthCare/HL7/2X#ACK_24_GLO_DEF**。|  
     |**Group By**|選取**AND**從下拉式清單。|  
     |**屬性**（第二行）|按一下下方的欄位**屬性**，然後選取**BTS。MessageType**從下拉式清單。|  
-    |**運算子**|選取**！ =**從下拉式清單。|  
+    |**運算子**|選取 **！ =** 從下拉式清單。|  
     |**值**|型別**http://microsoft.com/HealthCare/HL7/2X#ACK_25_GLO_DEF。**|  
     |**Group By**|選取**和**從下拉式清單。|  
     |**屬性**（第三個行）|按一下底下的第二列的欄位**屬性**，然後選取**BTS。MessageType**從下拉式清單。|  
-    |**運算子**|選取**！ =**從下拉式清單。|  
+    |**運算子**|選取 **！ =** 從下拉式清單。|  
     |**值**|型別**StaticAck**。|  
   
 7.  按一下 **[輸入]**。 在對話方塊底部窗格中，確認正確地輸入篩選運算式，然後按一下**確定**。  

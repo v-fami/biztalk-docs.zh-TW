@@ -1,17 +1,17 @@
 ---
-title: "在商務元件使用 BizTalk Server 和 Siebel 配接器上執行作業 |Microsoft 文件"
-ms.custom: 
+title: 在商務元件使用 BizTalk Server 和 Siebel 配接器上執行作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - business components, performing operations by using BizTalk Server
 - how to, perform operations on a business component by using BizTalk Server
 ms.assetid: 5bd0f4d7-60ec-42ea-84c0-618aeef9688f
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966044"
 ---
 # <a name="run-operations-on-business-components-using-biztalk-server-and-the-siebel-adapter"></a>在商務元件使用 BizTalk Server 和 Siebel 配接器上執行作業
 [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]商務元件會呈現可叫用的作業。 商務元件上的作業可分類為：  
@@ -106,7 +107,7 @@ ms.lasthandoff: 11/28/2017
   
 |形狀圖|圖形類型|屬性|  
 |-----------|----------------|----------------|  
-|ReceiveXML|Receive|-設定**名稱**至*ReceiveXML*<br />-設定**啟動**至*，則為 True*|  
+|ReceiveXML|Receive|-設定**名稱**至*ReceiveXML*<br />-設定**啟動**至 *，則為 True*|  
 |SendToLOB|Send|-設定**名稱**至*SendToLOB*|  
 |ReceiveResponse|Receive|-設定**名稱**至*ReceiveResponse*<br />-設定**啟動**至*False*|  
 |SendResponse|Send|-設定**名稱**至*SendResponse*|  

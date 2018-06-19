@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/architecture-of-biztalk-adapter-for-peoplesoft-enterprise/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: a277c5f5588a9455119b96f7c600dbadccffb8ac
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014533"
 ---
 # <a name="peoplesoft-enterprise-requirements"></a>PeopleSoft Enterprise 需求
 

@@ -1,17 +1,17 @@
 ---
-title: "步驟 2： 設定 Wcf-custom 單向傳送埠 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 設定 Wcf-custom 單向傳送埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF-Custom one-way send port, configuring
 - migration
 ms.assetid: ae13222e-42e7-45a7-9b2a-0a6779b21736
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,13 +20,14 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962788"
 ---
 # <a name="step-2-configure-a-wcf-custom-one-way-send-port"></a>步驟 2： 設定 Wcf-custom 單向傳送埠
 ![步驟 3 之 2](../../adapters-and-accelerators/adapter-oracle-database/media/step-2of3.gif "Step_2of3")  
   
  **若要完成的時間：** 10 分鐘  
   
- **目標：**在此步驟中，您可以設定 WCF 自訂連接埠來傳送一般檔案 IDOC 到 SAP 系統。 設定連接埠之後, 您可以設定使用 Wcf-custom 傳送埠的 BizTalk 應用程式。  
+ **目標：** 在此步驟中，您可以設定 WCF 自訂連接埠來傳送一般檔案 IDOC 到 SAP 系統。 設定連接埠之後, 您可以設定使用 Wcf-custom 傳送埠的 BizTalk 應用程式。  
   
 ## <a name="prerequisites"></a>必要條件  
  您必須建立和部署 vPrev BizTalk 專案，以傳送 Idoc 至 SAP 系統。  
@@ -47,7 +48,7 @@ ms.lasthandoff: 11/28/2017
   
 7.  在**Wcf-custom 傳輸屬性**對話方塊方塊中，執行下列動作：  
   
-    1.  按一下**一般** 索引標籤，然後在**位址 (URI)**欄位中，指定連線將訊息傳送至 SAP 系統的 URI。 如需連線 URI 的詳細資訊，請參閱[建立 SAP 系統連接 URI](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md)。  
+    1.  按一下**一般** 索引標籤，然後在**位址 (URI)** 欄位中，指定連線將訊息傳送至 SAP 系統的 URI。 如需連線 URI 的詳細資訊，請參閱[建立 SAP 系統連接 URI](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md)。  
   
          ![指定傳送埠中的連線 URI](../../adapters-and-accelerators/adapter-sap/media/53ae71e1-89ec-49c5-8096-ff04a2c94c0a.gif "53ae71e1-89ec-49c5-8096-ff04a2c94c0a")  
   

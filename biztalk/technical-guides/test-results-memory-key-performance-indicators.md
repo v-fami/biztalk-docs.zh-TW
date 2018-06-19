@@ -1,14 +1,14 @@
 ---
-title: "測試結果： 記憶體關鍵效能指標 |Microsoft 文件"
-ms.custom: 
+title: 測試結果： 記憶體關鍵效能指標 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 224c40e5-08a7-4d30-b03a-4b6add5cde1f
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22301870"
 ---
 # <a name="test-results-memory-key-performance-indicators"></a>測試結果： 記憶體關鍵效能指標
 本主題摘要說明記憶體關鍵效能指標 (KPI) 內所觀測到的測試案例。 這些測試會評估可用的記憶體，測量由**\Memory\Available Mbytes**效能監視器計數器。  

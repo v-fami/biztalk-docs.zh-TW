@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0bdff435-76eb-495f-9fb6-1f1acef3921e
-caps.latest.revision: ''
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22302982"
 ---
 # <a name="system-level-bottlenecks"></a>系統層級的瓶頸
 本主題描述如何解決常見的系統層級瓶頸，可能會影響 BizTalk Server 解決方案的效能。  
@@ -110,15 +111,15 @@ ms.lasthandoff: 03/23/2018
 ## <a name="initial-troubleshooting"></a>初始疑難排解  
  沒有 BizTalk Server 方案，如果未啟用，將會造成效能問題，不論整體大小的某些元件或 BizTalk 解決方案的設計。 排除某些"常見的類別 」 參與 BizTalk 解決方案的獨占瓶頸分析之前應該完成下列初步疑難排解工作。  
   
--   **確認追蹤主控件執行個體正在執行-**追蹤主控件執行個體負責將 BAM 和 HAT 資料從 MessageBox 資料庫的 TrackingData 資料表移到 BizTalkDTADb 和 （或） BAMPrimaryImport 資料庫資料表。 如果追蹤主控件執行個體未執行，則追蹤資料會累積在 MessageBox 資料庫和 BizTalk Server 解決方案的效能產生負面影響。  
+-   **確認追蹤主控件執行個體正在執行-** 追蹤主控件執行個體負責將 BAM 和 HAT 資料從 MessageBox 資料庫的 TrackingData 資料表移到 BizTalkDTADb 和 （或） BAMPrimaryImport 資料庫資料表。 如果追蹤主控件執行個體未執行，則追蹤資料會累積在 MessageBox 資料庫和 BizTalk Server 解決方案的效能產生負面影響。  
   
 -   **確認企業單一登入 (ENTSSO) 服務正在執行的所有 BizTalk Server 電腦-上**BizTalk 主控件執行個體維護相依性中的 ENTSSO 服務在本機執行個體。 如果 ENTSSO 服務未執行 BizTalk Server 上，然後在伺服器上的主控件執行個體將無法執行。  
   
 -   **確認 SQL Server Agent 服務正在執行的所有 SQL Server 電腦-上**必須執行 SQL Server Agent 服務，為了讓 BizTalk SQL Server Agent 作業來執行。 這些工作會執行重要功能以維持伺服器運作且狀況良好。  
   
--   **確認 BizTalk SQL Server Agent 作業已啟用且正在執行不含例外-**即使 SQL Server Agent 服務正在執行，它是命令式會啟用所有預設 BizTalk SQL Server Agent 作業和執行成功。  
+-   **確認 BizTalk SQL Server Agent 作業已啟用且正在執行不含例外-** 即使 SQL Server Agent 服務正在執行，它是命令式會啟用所有預設 BizTalk SQL Server Agent 作業和執行成功。  
   
--   **請檢查 BizTalk Server 和 SQL Server 事件記錄檔-**概略檢查 BizTalk Server 或 SQL Server 事件記錄檔可能會顯示可能需要耗費大量時間來診斷和解決的問題。  
+-   **請檢查 BizTalk Server 和 SQL Server 事件記錄檔-** 概略檢查 BizTalk Server 或 SQL Server 事件記錄檔可能會顯示可能需要耗費大量時間來診斷和解決的問題。  
   
 -   **執行 BizTalk Server Best Practices Analyzer-** BizTalk Server Best Practices Analyzer 會檢查 BizTalk Server 部署，並產生的最佳做法標準相關的問題清單。 工具會執行組態層級驗證，以從不同的資訊來源，例如 Windows Management Instrumentation (WMI) 類別、 SQL Server 資料庫和登錄項目收集資料。 將資料再用於評估的部署組態。 工具讀取然後只會報告不會修改任何系統設定，並不是自我調整工具。 下載 BizTalk Server 最佳做法分析程式 v1.2 從[BizTalk Server 最佳做法分析程式 v1.2](http://go.microsoft.com/fwlink/?LinkID=83317) (http://go.microsoft.com/fwlink/?LinkID=83317)。  
   
@@ -209,41 +210,41 @@ ms.lasthandoff: 03/23/2018
   
     -   重要： 此計數器表示磁碟上的寫入操作速率。  
   
--   **處理器\\%DPC Time、 %Interrupt Time 及 %Privileged Time-**如果插斷的時間和延遲程序呼叫 (DPC) 的時間大部分的特殊權限的時間，核心會花費大量時間處理 I/O 要求。 在某些情況下，藉由在多處理器系統上設定插斷和 DPC 少量的 Cpu 相似性可改善效能，進而改善快取位置。 在其他情況下，它最適合散發插斷和 Dpc，在多個 Cpu，以防止變成瓶頸的插斷和 DPC 活動之間。 使用繫結至多處理器電腦上的特定處理器的網路介面卡插斷的插斷篩選組態工具的資訊，請參閱 > 一節 「 使用插斷篩選組態工具來繫結至特定的網路介面卡插斷中的處理器多處理器電腦上 「[最佳化作業系統效能](~/technical-guides/optimizing-operating-system-performance.md)。  
+-   **處理器\\%DPC Time、 %Interrupt Time 及 %Privileged Time-** 如果插斷的時間和延遲程序呼叫 (DPC) 的時間大部分的特殊權限的時間，核心會花費大量時間處理 I/O 要求。 在某些情況下，藉由在多處理器系統上設定插斷和 DPC 少量的 Cpu 相似性可改善效能，進而改善快取位置。 在其他情況下，它最適合散發插斷和 Dpc，在多個 Cpu，以防止變成瓶頸的插斷和 DPC 活動之間。 使用繫結至多處理器電腦上的特定處理器的網路介面卡插斷的插斷篩選組態工具的資訊，請參閱 > 一節 「 使用插斷篩選組態工具來繫結至特定的網路介面卡插斷中的處理器多處理器電腦上 「[最佳化作業系統效能](~/technical-guides/optimizing-operating-system-performance.md)。  
   
--   **Processor\DPCs 排入佇列 / sec-**測量 Dpc 正在耗用 CPU 時間與核心資源的方式。  
+-   **Processor\DPCs 排入佇列 / sec-** 測量 Dpc 正在耗用 CPU 時間與核心資源的方式。  
   
--   **Processor\Interrupts / sec-**的插斷如何耗用 CPU 時間與核心資源的另一個測量。 現代磁碟控制卡通常會結合，或聯合插斷，以便單一插斷會產生多個 I/O 完成的處理。 當然，沒有延遲插斷 （和完成） 和 economizing CPU 處理時間之間的取捨。  
+-   **Processor\Interrupts / sec-** 的插斷如何耗用 CPU 時間與核心資源的另一個測量。 現代磁碟控制卡通常會結合，或聯合插斷，以便單一插斷會產生多個 I/O 完成的處理。 當然，沒有延遲插斷 （和完成） 和 economizing CPU 處理時間之間的取捨。  
   
 #### <a name="disk-io-tuning-options"></a>磁碟 I/O 的微調選項  
  如果您判斷磁碟 I/O 是您的環境中的瓶頸，可以使用下列技巧來減少瓶頸：  
   
--   **重組磁碟-**使用可在[PageDefrag 公用程式](http://go.microsoft.com/fwlink/?LinkId=108976)(http://go.microsoft.com/fwlink/?LinkId=108976)重組 Windows 分頁檔，並預先配置主檔案表格。  
+-   **重組磁碟-** 使用可在[PageDefrag 公用程式](http://go.microsoft.com/fwlink/?LinkId=108976)(http://go.microsoft.com/fwlink/?LinkId=108976)重組 Windows 分頁檔，並預先配置主檔案表格。  
   
--   **使用等量集來同時處理 I/O 要求，透過多個磁碟-**使用鏡像磁碟區來提供容錯能力並提升 I/O 效能。 如果您不需要容錯功能，實作等量磁碟區設定為快速讀取和寫入，進而改善儲存體容量。 當使用等量磁碟區時，每個磁碟使用量會減少，因為工作會分散到磁碟區，並提高整體輸送量。 如果您在等量磁碟區中加入額外的磁碟設定不會增加輸送量，則您的系統可能會遇到瓶頸，因為磁碟的磁碟控制卡之間的競爭。 在此情況下，加入額外的磁碟控制器會協助分散負載，以及提高效能。  
+-   **使用等量集來同時處理 I/O 要求，透過多個磁碟-** 使用鏡像磁碟區來提供容錯能力並提升 I/O 效能。 如果您不需要容錯功能，實作等量磁碟區設定為快速讀取和寫入，進而改善儲存體容量。 當使用等量磁碟區時，每個磁碟使用量會減少，因為工作會分散到磁碟區，並提高整體輸送量。 如果您在等量磁碟區中加入額外的磁碟設定不會增加輸送量，則您的系統可能會遇到瓶頸，因為磁碟的磁碟控制卡之間的競爭。 在此情況下，加入額外的磁碟控制器會協助分散負載，以及提高效能。  
   
 -   **分散在多個磁碟機-之間的工作負載**Windows 叢集和分散式檔案系統提供多個磁碟機上的負載平衡解決方案。  
   
--   **限制使用檔案壓縮或加密-**檔案壓縮和加密是 I/O 密集作業。 您應該只使用它們其中有絕對的必要性。  
+-   **限制使用檔案壓縮或加密-** 檔案壓縮和加密是 I/O 密集作業。 您應該只使用它們其中有絕對的必要性。  
   
--   **停用建立短檔名-**如果您不支援 MS-DOS 適用於 Windows 3.x 用戶端，停用短檔名，以改善效能。 多個停用建立簡短名稱的詳細資訊，請參閱 「 停用簡短檔案名稱 (8.3) 第代 」 一節中,[最佳化作業系統效能](~/technical-guides/optimizing-operating-system-performance.md)。  
+-   **停用建立短檔名-** 如果您不支援 MS-DOS 適用於 Windows 3.x 用戶端，停用短檔名，以改善效能。 多個停用建立簡短名稱的詳細資訊，請參閱 「 停用簡短檔案名稱 (8.3) 第代 」 一節中,[最佳化作業系統效能](~/technical-guides/optimizing-operating-system-performance.md)。  
   
--   **停用存取的最新更新-**根據預設，NTFS 更新目錄的上次存取日期和時間戳記每當周遊目錄。 對於大型的 NTFS 磁碟區，這個更新程序可能會降低效能。 如需停用上次存取更新的詳細資訊，請參閱下節中的 [停用 NTFS 上次存取的更新][最佳化作業系統效能](~/technical-guides/optimizing-operating-system-performance.md)。  
+-   **停用存取的最新更新-** 根據預設，NTFS 更新目錄的上次存取日期和時間戳記每當周遊目錄。 對於大型的 NTFS 磁碟區，這個更新程序可能會降低效能。 如需停用上次存取更新的詳細資訊，請參閱下節中的 [停用 NTFS 上次存取的更新][最佳化作業系統效能](~/technical-guides/optimizing-operating-system-performance.md)。  
   
     > [!CAUTION]
     >  某些應用程式，例如增量備份公用程式，依賴 NTFS 更新資訊，而且不將則沒有正確運作。  
   
 -   **保留的主檔案表格-適當空間**新增**NtfsMftZoneReservation**登錄根據通常儲存在 NTFS 磁碟區的檔案數目的項目。 當您將此項目加入登錄時，系統會保留之磁碟區的 主檔案表格空間。 保留空間以這種方式可讓主檔案表格，以最佳方式成長。 如果您的 NTFS 磁碟區通常儲存相當幾個檔案，設定此登錄項目的值為預設值為 1。 通常您可以使用的值為 2 或 3，如果您的 NTFS 磁碟區儲存適量的檔案，且使用的值為 4 （上限），如果您的 NTFS 磁碟區通常會包含相對較大的數字的檔案。 不過，請務必測試任何設定大於 2，因為這些更大的值會造成系統上，以保留較大一部分的主檔案表格的磁碟。 如需有關加入**NtfsMftZoneReservation**至登錄，請參閱 > 一節 「 增加中的可用空間的主檔案表格"[最佳化作業系統效能](~/technical-guides/optimizing-operating-system-performance.md)。  
   
--   **使用最有效率的磁碟系統使用-**除了使用實體磁碟，請考慮將使用的磁碟控制卡和纜線的類型。 有效的磁碟子系統也應該提供支援插斷仲裁或中斷避免降低磁碟 I/O 所造成的處理器插斷活動的驅動程式。  
+-   **使用最有效率的磁碟系統使用-** 除了使用實體磁碟，請考慮將使用的磁碟控制卡和纜線的類型。 有效的磁碟子系統也應該提供支援插斷仲裁或中斷避免降低磁碟 I/O 所造成的處理器插斷活動的驅動程式。  
   
--   **請確定您使用適當的 RAID 設定-**使用 RAID 10 可以發揮 （條狀配置與鏡像） 的最佳效能和容錯功能。 代價是，使用 RAID 10 可以發揮是高度耗費資源。 請避免使用 RAID 5，當您有大量的寫入作業。 如需 BizTalk Server 環境中實作 RAID 的詳細資訊，請參閱 「 磁碟基礎結構 」 一節中[BizTalk Server 資料庫最佳化白皮書](http://go.microsoft.com/fwlink/?LinkID=101578)(http://go.microsoft.com/fwlink/?LinkID=101578)。  
+-   **請確定您使用適當的 RAID 設定-** 使用 RAID 10 可以發揮 （條狀配置與鏡像） 的最佳效能和容錯功能。 代價是，使用 RAID 10 可以發揮是高度耗費資源。 請避免使用 RAID 5，當您有大量的寫入作業。 如需 BizTalk Server 環境中實作 RAID 的詳細資訊，請參閱 「 磁碟基礎結構 」 一節中[BizTalk Server 資料庫最佳化白皮書](http://go.microsoft.com/fwlink/?LinkID=101578)(http://go.microsoft.com/fwlink/?LinkID=101578)。  
   
--   **請考慮使用資料庫資料分割-**如果資料庫瓶頸，請考慮使用資料庫資料分割，並將磁碟對應至特定資料表及交易記錄檔。 資料分割的主要目的是為了克服磁碟瓶頸對於大型資料表。 如果您有大量的資料列的資料表，且您判斷它是瓶頸的來源，請考慮使用資料分割。 針對 SQL Server，您可以使用檔案群組來改善 I/O 效能。 您可以將資料表與檔案群組產生關聯，並將與特定的硬碟產生關聯的檔案群組。 如需有關如何使用 BizTalk Server 資料庫最佳化的檔案群組的詳細資訊，請參閱[最佳化的檔案群組的資料庫](~/technical-guides/optimizing-filegroups-for-the-databases2.md)。  
+-   **請考慮使用資料庫資料分割-** 如果資料庫瓶頸，請考慮使用資料庫資料分割，並將磁碟對應至特定資料表及交易記錄檔。 資料分割的主要目的是為了克服磁碟瓶頸對於大型資料表。 如果您有大量的資料列的資料表，且您判斷它是瓶頸的來源，請考慮使用資料分割。 針對 SQL Server，您可以使用檔案群組來改善 I/O 效能。 您可以將資料表與檔案群組產生關聯，並將與特定的硬碟產生關聯的檔案群組。 如需有關如何使用 BizTalk Server 資料庫最佳化的檔案群組的詳細資訊，請參閱[最佳化的檔案群組的資料庫](~/technical-guides/optimizing-filegroups-for-the-databases2.md)。  
   
--   **請考慮增加實體記憶體中，如果您有過多的分頁錯誤-**值很高**記憶體： Pages/sec**效能計數器可能代表過度分頁將會增加磁碟 I / 0。 如果發生這種情況，請考慮新增實體記憶體，以降低磁碟 I/O，並提高效能。  
+-   **請考慮增加實體記憶體中，如果您有過多的分頁錯誤-** 值很高**記憶體： Pages/sec**效能計數器可能代表過度分頁將會增加磁碟 I / 0。 如果發生這種情況，請考慮新增實體記憶體，以降低磁碟 I/O，並提高效能。  
   
--   **請考慮磁碟具有較高的 RPM 評等，或使用存放區域網路 (SAN) 裝置-**磁碟具有更高 RPM 評等提供改進的效能相較於磁碟具有較低 RPM 評等。 SAN 裝置通常會提供最上層效能而在錢。  
+-   **請考慮磁碟具有較高的 RPM 評等，或使用存放區域網路 (SAN) 裝置-** 磁碟具有更高 RPM 評等提供改進的效能相較於磁碟具有較低 RPM 評等。 SAN 裝置通常會提供最上層效能而在錢。  
   
 -   請遵循建議[最佳化資料庫效能](~/technical-guides/optimizing-database-performance.md)。 本主題提供數個最佳化之前和之後設定 BizTalk Server 資料庫效能的建議。  
   

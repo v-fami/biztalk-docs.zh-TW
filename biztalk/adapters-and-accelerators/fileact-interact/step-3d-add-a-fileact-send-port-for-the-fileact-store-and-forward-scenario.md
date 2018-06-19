@@ -1,14 +1,14 @@
 ---
-title: "步驟 3D： 新增 FILEACT 傳送埠為 FileAct 存放與轉寄實例 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3D： 新增 FILEACT 傳送埠為 FileAct 存放與轉寄實例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7366140b-ab89-4bea-9cdb-aa27e8dea8a0
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965484"
 ---
 # <a name="step-3d-add-a-fileact-send-port-for-the-fileact-store-and-forward-scenario"></a>步驟 3D： 新增為 FileAct 存放與轉寄實例 FILEACT 傳送埠
 在開始此步驟之前，必須先完成[步驟 3c： 加入擷取 Sw:HandleFileRequest FILE 傳送埠和 Sw:HandleSnFRequest 訊息 FileAct 存放與轉寄案例](../../adapters-and-accelerators/fileact-interact/step-3c-add-file-send-port-to-get-sw-handlefilerequest-and-sw-handlesnfrequest.md)。  

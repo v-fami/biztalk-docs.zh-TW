@@ -1,14 +1,14 @@
 ---
-title: "偵錯協調流程執行階段錯誤 |Microsoft 文件"
-ms.custom: 
+title: 偵錯協調流程執行階段錯誤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7be9ee5a-b9fa-428b-8b92-0fa0f801c724
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969900"
 ---
 # <a name="debugging-orchestration-runtime-errors"></a>偵錯協調流程執行階段錯誤
 本節包含設計用來協助您解決協調流程執行階段問題的問答集。  
@@ -96,7 +97,7 @@ MySendPort(Microsoft.XLANGs.BaseTypes.Address)=Message2(BTS.OutboundTransportLoc
 ```  
   
 ### <a name="cause"></a>原因  
- 因為協調流程引擎會在執行階段移除文字，就會發生這個問題 「**file://"**從指定的 URL。 因此，使用上述範例時，"file:///c:/test/out" 為評估為 \c:\test\out，而 "file://mymachine/test/out" 會評估為 mymachine\test\out。  
+ 因為協調流程引擎會在執行階段移除文字，就會發生這個問題 「**file://"** 從指定的 URL。 因此，使用上述範例時，"file:///c:/test/out" 為評估為 \c:\test\out，而 "file://mymachine/test/out" 會評估為 mymachine\test\out。  
   
 ### <a name="resolution"></a>解決方案  
  當指定之 URL 的**BTS。OutBoundTransportLocation**屬性的運算式中，新增或移除"/"字元視。 使用上述範例**BTS。OutBoundTransportLocation**屬性應定義為"file://c:/test/out"，這會評估為 c:\test\out 或 「 file:///mymachine/test/out"，這會評估為\\\mymachine\test\out。

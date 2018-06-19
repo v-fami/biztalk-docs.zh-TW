@@ -1,14 +1,14 @@
 ---
-title: "使用 SQL 配接器的大型資料類型執行資料表和檢視表上的作業 |Microsoft 文件"
-ms.custom: 
+title: 使用 SQL 配接器的大型資料類型執行資料表和檢視表上的作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cec15b01-7a57-4917-8c21-44a1cfaadc59
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967188"
 ---
 # <a name="run-operations-on-tables-and-views-with-large-data-types-using-the-sql-adapter"></a>使用 SQL 配接器的大型資料類型執行資料表和檢視表上的作業
 [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]可讓讀取及更新大型資料類型的資料行中的資料，也就是配接器用戶端、 varchar （max）、 nvarchar （max） 或 varbinary （max）。 若要從這類資料行讀取資料，配接器用戶端可以使用選取的作業。 若要插入或更新到這類資料行的資料，配接器會公開 < column_name > 設定作業中，其中 < column_name > 是類型 varchar （max）、 nvarchar （max），或 varbinary （max） 資料行的名稱。  
@@ -116,7 +117,7 @@ ms.lasthandoff: 11/28/2017
   
 |形狀圖|圖形類型|屬性|  
 |-----------|----------------|----------------|  
-|ReceiveMessage|Receive|-設定**名稱**至*ReceiveMessage*<br />-設定**啟動**至*，則為 True*|  
+|ReceiveMessage|Receive|-設定**名稱**至*ReceiveMessage*<br />-設定**啟動**至 *，則為 True*|  
 |SendMessage|Send|-設定**名稱**至*SendMessage*|  
 |ReceiveResponse|Receive|-設定**名稱**至*ReceiveResponse*<br />-設定**啟動**至*False*|  
 |SendResponse|Send|-設定**名稱**至*SendResponse*|  
@@ -201,7 +202,7 @@ ms.lasthandoff: 11/28/2017
 <SetDocumentResponse xmlns="http://schemas.microsoft.com/Sql/2008/05/TableOp/dbo/Records" />  
 ```  
   
- 配接器傳送空的回應**設定 < column_name >**作業。  
+ 配接器傳送空的回應**設定 < column_name >** 作業。  
   
 ## <a name="best-practices"></a>最佳作法  
  您部署和設定 BizTalk 專案之後，您可以為 XML 檔案，稱為繫結檔案匯出組態設定。 一旦產生繫結檔案時，可以組態設定匯入檔案，使您不需要建立項目，例如傳送埠和接收相同的協調流程連接埠。 如需繫結檔案的詳細資訊，請參閱[重複使用配接器繫結](../../adapters-and-accelerators/adapter-sql/reuse-sql-adapter-bindings.md)。

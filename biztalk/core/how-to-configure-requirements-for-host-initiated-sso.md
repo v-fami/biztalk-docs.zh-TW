@@ -1,11 +1,11 @@
 ---
-title: "如何設定主機的需求初始化的 SSO |Microsoft 文件"
-ms.custom: 
+title: 如何設定主機的需求初始化的 SSO |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - service accounts, granting privileges [SSO]
@@ -27,7 +27,7 @@ helpviewer_keywords:
 - managing [SSO], creating SPNs
 - SSO, service accounts
 ms.assetid: 91d77c9f-bab2-4f6e-8bce-e31c59cebb20
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -36,6 +36,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968614"
 ---
 # <a name="how-to-configure-requirements-for-host-initiated-sso"></a>如何設定主控件初始化的 SSO 的需求
 雖然 Enterprise SSO 與主控件初始化的 SSO 在某些方面有共同的特點，但是某些平台和 Active Directory 需求對於主控件初始化的 SSO 而言則是唯一的。 本主題將討論這些需求，並列出在系統上檢查或建立它們的步驟。  

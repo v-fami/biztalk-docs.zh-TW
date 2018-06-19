@@ -1,17 +1,17 @@
 ---
-title: "訊息修復和新送出疑難排解 |Microsoft 文件"
-ms.custom: 
+title: 訊息修復和新送出疑難排解 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - troubleshooting, Message Repair and New Submission
 - Message Repair and New Submission, troubleshooting
 ms.assetid: bb07a286-6f02-4639-b5fa-a3647e356ac8
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25965412"
 ---
 # <a name="message-repair-and-new-submission-troubleshooting"></a>訊息修復和新送出疑難排解
 ## <a name="a-repaired-message-cannot-be-submitted-if-the-envelope-schema-is-not-deployed"></a>無法送出修復的訊息，如果未部署信封結構描述  

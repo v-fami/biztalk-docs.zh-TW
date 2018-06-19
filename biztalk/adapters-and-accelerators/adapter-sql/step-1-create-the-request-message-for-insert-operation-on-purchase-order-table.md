@@ -1,14 +1,14 @@
 ---
-title: "步驟 1： 建立要求訊息 Purchase_Order 資料表的 Insert 作業 |Microsoft 文件"
-ms.custom: 
+title: 步驟 1： 建立要求訊息 Purchase_Order 資料表的 Insert 作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fde018d8-9d9a-42ea-8ee9-e3632450b9d7
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,13 +17,14 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966004"
 ---
 # <a name="step-1-create-the-request-message-for-insert-operation-on-purchaseorder-table"></a>步驟 1： 建立要求訊息 Purchase_Order 資料表的 Insert 作業
 ![步驟 4 之 1](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-1of4.gif "Step_1of4")  
   
  **若要完成的時間：** 10 分鐘  
   
- **目標：**在此步驟中，您必須將 C# 類別庫專案加入至方案。 此文件庫上建立記憶體中要求訊息的 Insert 作業**Purchase_Order**資料表。 在稍後步驟中，協調流程會將此訊息傳送到 SQL Server 資料表中插入記錄。  
+ **目標：** 在此步驟中，您必須將 C# 類別庫專案加入至方案。 此文件庫上建立記憶體中要求訊息的 Insert 作業**Purchase_Order**資料表。 在稍後步驟中，協調流程會將此訊息傳送到 SQL Server 資料表中插入記錄。  
   
 ## <a name="prerequisites"></a>必要條件  
  您必須先完成中的步驟[第 3 課： 執行預存程序來選取新加入的員工](../../adapters-and-accelerators/adapter-sql/lesson-3-execute-a-stored-procedure-to-select-new-employees-added.md)。  

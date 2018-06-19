@@ -1,11 +1,11 @@
 ---
-title: "如何將 BizTalk 主控件設定為叢集 Resource1 |Microsoft 文件"
-ms.custom: 
+title: 如何將 BizTalk 主控件設定為叢集 Resource1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - installation, high availability
@@ -23,7 +23,7 @@ helpviewer_keywords:
 - clustering, configuring
 - installation, clustering
 ms.assetid: bcd656d2-8dd6-49fc-9c42-ef5c884e52c4
-caps.latest.revision: "36"
+caps.latest.revision: 36
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -32,6 +32,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970556"
 ---
 # <a name="how-to-configure-a-biztalk-host-as-a-cluster-resource"></a>如何將 BizTalk 主控件設定為叢集資源
 本主題討論要將 BizTalk 主控件設定為叢集資源所必須依循的步驟。 若要完成本主題中的步驟，您必須已經設定至少兩部 BizTalk Server 在 BizTalk 群組中為 Windows Server 叢集的成員。 如需有關如何設定 Windows Server 叢集的詳細資訊，請參閱 Windows 伺服器線上說明。  
@@ -70,7 +71,7 @@ ms.lasthandoff: 11/28/2017
     |------------|-----------|  
     |如果資源失敗，嘗試重新啟動目前的節點上。|**True** <br />若資源失敗，叢集服務會嘗試重新啟動該資源。|  
     |重新啟動 (mm: ss) 的期間：|**15:00** <br />指定計入重新啟動嘗試的期間。|  
-    |將重新啟動次數上限，在指定期間內：|**1** <br />指定的期間允許的重新啟動嘗試次數上限**(mm: ss) 重新啟動的期間**。|  
+    |將重新啟動次數上限，在指定期間內：|**1** <br />指定的期間允許的重新啟動嘗試次數上限 **(mm: ss) 重新啟動的期間**。|  
     |如果重新啟動不成功，容錯移轉這個服務或應用程式中的所有資源。|**True** <br />叢集服務會藉由將整個資源群組容錯移轉到另一個叢集節點，嘗試重新啟動資源。|  
     |如果重新啟動都失敗，開始在指定的時間 (hh: mm) 後再重新啟動：|**1:00** <br />指定延伸的等待期間之後，叢集服務會開始另一系列的重新啟動嘗試。|  
     |暫止的逾時 (mm: ss):|**3:00** <br />指定資源可能需要變更之間線上及離線狀態，才能在叢集服務將資源處於失敗狀態的時間的長度。|  

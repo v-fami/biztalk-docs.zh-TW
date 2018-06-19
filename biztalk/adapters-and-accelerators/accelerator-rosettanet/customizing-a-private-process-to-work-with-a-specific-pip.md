@@ -1,11 +1,11 @@
 ---
-title: "自訂私用程序以處理特定 PIP |Microsoft 文件"
-ms.custom: 
+title: 自訂私用程序以處理特定 PIP |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - private processes, PIPs
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - PIPs, private processes
 - customizing private processes
 ms.assetid: 88494e87-25a0-4c94-9396-61a0e07964aa
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966748"
 ---
 # <a name="customizing-a-private-process-to-work-with-a-specific-pip"></a>自訂私用程序以處理特定 PIP
 您可以建立一個篩選條件運算式，決定回應者私用程序協調流程是否處理特定夥伴介面程序 (PIP) 的執行個體。 這可提供您建立自訂私用程序來接收和處理某些 PIP 執行個體，以及使用預設私用程序來處理所有其他 PIP 執行個體的彈性。  
@@ -57,7 +58,7 @@ ms.lasthandoff: 11/28/2017
   
 9. 以滑鼠右鍵按一下**ReceiveFromPublicProcessResponder**接收圖形，然後按一下**編輯篩選條件運算式**。  
   
-10. 在**篩選條件運算式**對話方塊中，屬性資料行中第一個開啟的資料列中，選取**Microsoft.Solutions.BTARN.GlobalSchemas.SCPIPCode**從下拉式清單。 在 [運算子] 欄位中，選取**！ =**從下拉式清單。 在 [值] 欄位中輸入三位數的 PIP 代碼，例如，輸入 「**3A4"**。  
+10. 在**篩選條件運算式**對話方塊中，屬性資料行中第一個開啟的資料列中，選取**Microsoft.Solutions.BTARN.GlobalSchemas.SCPIPCode**從下拉式清單。 在 [運算子] 欄位中，選取 **！ =** 從下拉式清單。 在 [值] 欄位中輸入三位數的 PIP 代碼，例如，輸入 「**3A4"**。  
   
 11. 按一下 **[確定]**。  
   

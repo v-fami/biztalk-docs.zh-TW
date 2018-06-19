@@ -1,11 +1,11 @@
 ---
-title: "自訂運算質 （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: 自訂運算質 （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - functoids, customizing
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - XML tools
 - examples, XML tools
 ms.assetid: 9f1eb260-ff62-46f5-a517-57f4e9172b35
-caps.latest.revision: "30"
+caps.latest.revision: 30
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970516"
 ---
 # <a name="custom-functoid-biztalk-server-sample"></a>自訂運算質 （BizTalk Server 範例）
 「自訂運算質」範例示範如何為 BizTalk 對應工具撰寫自訂運算質。 您可以新增至運算質[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]工具箱。 BizTalk 對應工具在焦點時，[工具箱] 中會顯示運算質。  
@@ -42,7 +43,7 @@ ms.lasthandoff: 11/28/2017
 >  若您重複使用「自訂運算質」範例程式碼實作自己的運算質，務必將 GUID 屬性變更為唯一的屬性。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- *\<範例路徑\>*\XmlTools\CustomFunctoid  
+ *\<範例路徑\>* \XmlTools\CustomFunctoid  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -88,7 +89,7 @@ ms.lasthandoff: 11/28/2017
   
 1.  從[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]BizTalk 專案中，按一下 **工具**功能表，然後選取**選擇工具箱項目**。  
   
-2.  在**[選擇工具箱項目**對話方塊中，選取**BizTalk 對應工具運算質**] 索引標籤。  
+2.  在 **[選擇工具箱項目**對話方塊中，選取**BizTalk 對應工具運算質**] 索引標籤。  
   
 3.  按一下**重設**，然後按一下 **確定**。  
   
@@ -117,7 +118,7 @@ ms.lasthandoff: 11/28/2017
   
     1.  從[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]BizTalk 專案中，按一下 **工具**功能表，然後選取**選擇工具箱項目**。  
   
-    2.  在**[選擇工具箱項目**對話方塊中，選取**BizTalk 對應工具運算質**] 索引標籤。  
+    2.  在 **[選擇工具箱項目**對話方塊中，選取**BizTalk 對應工具運算質**] 索引標籤。  
   
     3.  在清單中尋找自訂運算質 （自訂串連運算質、 最長字串、 組建陣列運算質、 擷取陣列 」 運算質和累計乘法）。 按一下對應**核取方塊**以移除運算質，然後按一下**確定**。  
   

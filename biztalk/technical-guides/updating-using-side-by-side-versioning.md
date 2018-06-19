@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22301966"
 ---
 # <a name="updating-using-side-by-side-versioning"></a>更新使用-並存版本控制
 如果您不能以排定停機時間，或有非常長時間執行協調流程執行個體，無法終止，可能需要的並存版本控制。 在這種升級，相同應用程式或應用程式成品的兩個版本會執行的並行。 .NET 執行階段原本可相同名稱但不同版本的組件部署且正在執行，而且 BizTalk Server 也可讓它。  

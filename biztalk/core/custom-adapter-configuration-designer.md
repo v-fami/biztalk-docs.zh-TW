@@ -1,14 +1,14 @@
 ---
-title: "自訂配接器組態設計工具 |Microsoft 文件"
-ms.custom: 
+title: 自訂配接器組態設計工具 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d9b231c3-3948-4db8-b4f0-d9c21c31b168
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970372"
 ---
 # <a name="custom-adapter-configuration-designer"></a>自訂配接器組態設計工具
 您需要在 .NET 類別庫中建置自訂的設計工具。 您可以將這些設計工具整合到配接器的 DLL 中，或是另外建置 DLL。 在建置設計工具組件之後，必須透過裝飾而加以參考，就如同描述或類別一樣。 參考需包括組件的規格以及使用的完整格式類別名稱。  

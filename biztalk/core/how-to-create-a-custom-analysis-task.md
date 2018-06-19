@@ -1,11 +1,11 @@
 ---
-title: "如何建立自訂的分析工作 |Microsoft 文件"
-ms.custom: 
+title: 如何建立自訂的分析工作 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BAM, DTS tasks
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - DTS packages, tasks
 - BAM, processing
 ms.assetid: 6046c113-fb58-4e72-8f48-5470e52be9a8
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969228"
 ---
 # <a name="how-to-create-a-custom-analysis-task"></a>如何建立自訂分析工作
 建立自訂 DTS 工作處理 BAM 資料最簡單的方式，就是從 BAM 自動產生的封裝開始，取代所有實際的資料處理。  

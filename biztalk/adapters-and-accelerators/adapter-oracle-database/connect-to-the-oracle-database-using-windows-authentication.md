@@ -1,14 +1,14 @@
 ---
-title: "連接到 Oracle 資料庫使用 Windows 驗證 |Microsoft 文件"
-ms.custom: 
+title: 連接到 Oracle 資料庫使用 Windows 驗證 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 73b42a1b-1105-4278-bf8a-62cf0cffb08f
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961940"
 ---
 # <a name="connect-to-the-oracle-database-using-windows-authentication"></a>連接到 Oracle 資料庫使用 Windows 驗證
 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]可讓配接器用戶端使用 Windows 驗證來與 Oracle 資料庫建立連線。 若要使用 Windows 驗證，配接器用戶端必須指定"/"的使用者名稱與保留密碼空白。 如需有關如何連接到 Oracle 資料庫使用 Windows 驗證的詳細資訊，請參閱[連接到 Oracle 資料庫，在 Visual Studio 中使用 取用配接器服務](../../adapters-and-accelerators/adapter-oracle-database/connect-to-oracle-database-in-visual-studio-using-the-consume-adapter-service.md)。  

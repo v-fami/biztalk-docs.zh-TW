@@ -1,14 +1,14 @@
 ---
-title: "步驟 1： 設定批次的批次中超出的合作對象資訊 |Microsoft 文件"
-ms.custom: 
+title: 步驟 1： 設定批次的批次中超出的合作對象資訊 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a93d774b-1282-40d9-836f-44abeb65f78e
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25960508"
 ---
 # <a name="step-1-configure-party-information-for-batch-inbatch-out"></a>步驟 1： 設定批次中的合作對象資訊/出批次
 在此步驟中，您關閉片段的合作對象啟用批次的批次中 / 出案例批次。 然後重新啟動[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]來啟用組態變更才會生效。  

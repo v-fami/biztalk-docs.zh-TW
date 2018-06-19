@@ -1,14 +1,14 @@
 ---
-title: "描述與 WCF LOB 配接器 SDK 的 WSDL PortType 文件結構描述 |Microsoft 文件"
-ms.custom: 
+title: 描述與 WCF LOB 配接器 SDK 的 WSDL PortType 文件結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9dd96eaf-b3b3-49b4-aea9-0ae1e8999d62
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965148"
 ---
 # <a name="describe-the-wsdl-porttype-documentation-schema-with-the-wcf-lob-adapter-sdk"></a>描述與 WCF LOB 配接器 SDK 的 WSDL PortType 文件結構描述
 WSDL 的[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]會產生包含每個連接埠類型的其他描述性資訊。 此主題將說明這項額外資訊的結構描述。  

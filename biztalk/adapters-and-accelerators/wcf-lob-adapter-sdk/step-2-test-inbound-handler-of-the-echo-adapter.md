@@ -1,14 +1,14 @@
 ---
-title: "步驟 2： 測試輸入處理常式回應配接器 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 測試輸入處理常式回應配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 86dede9b-6b7e-4901-9c79-b75bfee9155f
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967036"
 ---
 # <a name="step-2-test-inbound-handler-of-the-echo-adapter"></a>步驟 2： 測試輸入的回應配接器處理常式
 ![步驟 2 之 2](../../adapters-and-accelerators/adapter-sql/media/step-2of2.gif "Step_2of2")  

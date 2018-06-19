@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204430"
 ---
 # <a name="btahl7-pipelines"></a>BTAHL7 管線
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 提供一組的接收管線和傳送管線和 HL7 編碼 XML 編碼的處理。 這些管線增強 BizTalk 管線處理醫療保健解決方案：  

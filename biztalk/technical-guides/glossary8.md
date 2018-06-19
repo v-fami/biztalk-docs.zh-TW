@@ -1,14 +1,14 @@
 ---
-title: "Glossary8 |Microsoft 文件"
-ms.custom: 
+title: Glossary8 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7d271fe0-1b54-4a83-87e6-20aa1c37df97
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299462"
 ---
 # <a name="glossary"></a>詞彙
 本主題會定義索引鍵用於本指南中使用的詞彙。  
@@ -27,7 +28,7 @@ ms.lasthandoff: 09/20/2017
 |----------|----------------|  
 |**進階可程式化插斷控制器 (APIC)**|控制器會從各種來源接收插斷，並將它們傳送到處理器核心，以進行處理。 在多處理器系統中，這可以 VM 或實體電腦，APIC 會傳送和接收來自其他系統匯流排上的邏輯處理器的 interprocessor 中斷訊息。 如需有關進階可程式化插斷控制器，請參閱本文第章 8 [Intel® 64 和 ia-32 架構軟體開發人員的手動大量 3A: System 程式設計指南 》，第 1 部分](http://go.microsoft.com/fwlink/?LinkId=148923)(http://go.microsoft.com/fwlink /？LinkId = 148923)。|  
 |**子資料分割**|父代 （或根） 的資料分割所建立的任何磁碟分割。|  
-|**核心**|請參閱**邏輯處理器**。 **注意：**在本指南中，核心有時候會交換使用與虛擬處理器，尤其是在圖形中。 本指南的未來版本中，將會更正這種使用方式。|  
+|**核心**|請參閱**邏輯處理器**。 **注意：** 在本指南中，核心有時候會交換使用與虛擬處理器，尤其是在圖形中。 本指南的未來版本中，將會更正這種使用方式。|  
 |**裝置虛擬化**|軟體技術可讓硬體抽取並且在多個取用者之間共用資源。|  
 |**模擬的裝置**|虛擬的裝置，以模擬實際的實體硬體裝置，以便遊客可以使用該硬體裝置的一般的驅動程式。 比較沒有效率並沒有安裝整合元件 」 unenlightened"作業系統提供支援的綜合的裝置，但模擬的裝置的模擬的裝置。|  
 |**啟蒙**|客體作業系統，請留意 VM 的環境，並調整其行為的 Vm 來最佳化。 強化套件協助降低特定的作業系統函式，例如記憶體管理的成本。 強化套件是透過 hypercall 介面存取。 啟發的 I/O，可以利用 VMBus 直接，略過任何裝置的模擬層。 採用所有可能的強化套件作業系統即稱為 「 完全啟用。"|  

@@ -1,11 +1,11 @@
 ---
-title: "BAM 入口網站上的彙總頁面 |Microsoft 文件"
-ms.custom: 
+title: BAM 入口網站上的彙總頁面 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - aggregations [BAM], alerts
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Aggregations page [BAM portal]
 - BAM portal, aggregations
 ms.assetid: 6bc1a6f2-9e9a-4db6-aaa1-188ed2f2641f
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230062"
 ---
 # <a name="aggregations-on-the-bam-portal-page"></a>BAM 入口網站頁面上的彙總
 商務使用者、開發人員和商務分析師使用 BAM 入口網站頁面呈現所需的彙總資料，這是預先計算的資料集摘要，可顯示該資料集具代表性的特性。 BAM 入口網站的 [彙總] 頁面能讓您以圖形化圖表和樞紐分析表的形式顯示彙總資料。  

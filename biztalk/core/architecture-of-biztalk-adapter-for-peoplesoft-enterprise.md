@@ -1,15 +1,15 @@
 ---
-title: "BizTalk Adapter for PeopleSoft Enterprise 的架構 |Microsoft 文件"
-description: "描述如何接收訊息，訊息時，如何驗證，並提供元件介面方法的資訊，與 BizTalk Server 使用 PeopleSoft 配接器時"
-ms.custom: 
+title: BizTalk Adapter for PeopleSoft Enterprise 的架構 |Microsoft 文件
+description: 描述如何接收訊息，訊息時，如何驗證，並提供元件介面方法的資訊，與 BizTalk Server 使用 PeopleSoft 配接器時
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f246e974-a082-430c-ad15-23a5e597738b
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013693"
 ---
 # <a name="peoplesoft-enterprise-adapter-architecture"></a>PeopleSoft Enterprise 配接器架構
 在 Microsoft BizTalk Adapter for PeopleSoft Enterprise 基本作業期間，配接器會從 BizTalk Server 收到 XML 訊息， 然後將 XML 訊息包在 SOPA 信封中。 BizTalk Adapter for PeopleSoft Enterprise 將這些 SOAP 要求轉送至伺服器。 此配接器會使用 PeopleSoft psjoa 類別與 PeopleSoft 系統進行通訊，這些類別會透過 Jolt 傳輸通訊協定連接至 PeopleSoft 系統。 PeopleSoft 系統收到要求，並執行商務邏輯。 回覆會透過類似的程序送回。  

@@ -1,18 +1,18 @@
 ---
-title: "結構描述範例 |Microsoft 文件"
-ms.custom: 
+title: 結構描述範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SDK samples, schemas
 - examples, schemas
 - schemas, examples
 ms.assetid: 7d7e696d-935f-4582-b873-c5637673b651
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966148"
 ---
 # <a name="schema-samples"></a>結構描述範例
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK 包含一系列 RNIF 和夥伴介面程序 (PIP) 處理的 XSD 結構描述。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]您可以使用這些結構描述處理訊息。 您可以依照自己的目的修改這些結構描述，或是用來疑難排解失敗。  

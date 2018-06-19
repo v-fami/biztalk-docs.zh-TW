@@ -1,14 +1,14 @@
 ---
-title: "在 SQL 中使用 BizTalk Server 接收查詢通知之後接收位置分解 |Microsoft 文件"
-ms.custom: 
+title: 在 SQL 中使用 BizTalk Server 接收查詢通知之後接收位置分解 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e70fa4c2-d81b-4eb0-a23d-871b64c881e6
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223014"
 ---
 # <a name="receive-query-notifications-after-a-receive-location-breakdown-in-sql-using-biztalk-server"></a>在 SQL 中使用 BizTalk Server 接收查詢通知之後接收位置分解
 假設您尚未員工資料表進行變更時收到資料庫變更的通知訊息的 BizTalk 應用程式。 如果接收位置設定的一部分的 BizTalk 應用程式細分，同時新增到員工資料表的記錄，您將不會收到最近新增的記錄的通知。 您也不會知道接收位置再次可用時。 [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]會公開繫結屬性， **NotifyOnListenerStart**，您可以設定要取得的接收位置已復原的通知。 您可以指定下列值**NotifyOnListenerStart**繫結屬性：  

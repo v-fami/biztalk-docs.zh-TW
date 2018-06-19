@@ -1,11 +1,11 @@
 ---
-title: "如何變更主要密碼伺服器 |Microsoft 文件"
-ms.custom: 
+title: 如何變更主要密碼伺服器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Master Secret server, promoting
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - modifying, Master Secret server
 - Master Secret server, changing
 ms.assetid: 44a786ca-4645-44a8-b33e-d0019f0aeca9
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,13 +24,14 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969356"
 ---
 # <a name="how-to-change-the-master-secret-server"></a>如何變更主要密碼伺服器
 在您安裝主要密碼伺服器並設定 SSO 資料庫之後，若原始主要密碼伺服器故障且無法復原，則可以變更主要密碼伺服器。 若要變更主要密碼伺服器，您必須將 SSO 伺服器升級為主要密碼伺服器。  
   
 ### <a name="to-change-the-master-secret-server-using-the-mmc-snap-in"></a>使用 MMC 嵌入式管理單元變更主要密碼伺服器  
   
-1.  在 **[開始]** 功能表上，依序按一下 **[所有程式]**及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。  
+1.  在 **[開始]** 功能表上，依序按一下 **[所有程式]** 及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。  
   
 2.  在 領域 窗格中，以滑鼠右鍵按一下**系統**，然後按一下 **屬性**。 主要密碼伺服器會顯示在**一般** 索引標籤**系統屬性** 對話方塊。  
   
@@ -47,7 +48,7 @@ ms.lasthandoff: 11/28/2017
   
 7.  重新啟動新的主要密碼伺服器。  
   
-8.  型別**ssoconfig – restoreSecret\<還原檔案\>**，其中**\<還原檔案\>**是主要密碼所在的檔案名稱與路徑儲存。  
+8.  型別**ssoconfig – restoreSecret\<還原檔案\>**，其中**\<還原檔案\>** 是主要密碼所在的檔案名稱與路徑儲存。  
   
      主要密碼儲存在下列位置的登錄中：  
   
@@ -82,7 +83,7 @@ ms.lasthandoff: 11/28/2017
   
 5.  重新啟動主要密碼伺服器。  
   
-6.  型別**ssoconfig – restoresecret\<還原檔案\>**，其中**\<還原檔案\>**是主要密碼所在的檔案名稱與路徑儲存。  
+6.  型別**ssoconfig – restoresecret\<還原檔案\>**，其中**\<還原檔案\>** 是主要密碼所在的檔案名稱與路徑儲存。  
   
      主要密碼儲存在下列位置的登錄中：  
   

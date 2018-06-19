@@ -1,11 +1,11 @@
 ---
-title: "訊息分隔符號 |Microsoft 文件"
-ms.custom: 
+title: 訊息分隔符號 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, events
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - XML messages
 - messages, flat files
 ms.assetid: d25bf6db-5512-4c82-be0e-00da024c55d1
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25960660"
 ---
 # <a name="message-delimiters"></a>訊息的分隔符號
 HL7 標準所定義的訊息事件的形式如下：  

@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/creating-tibco-enterprise-message-service-send-handlers/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: dc9746babaa80520b2a99948c5796c9b064899e0
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015581"
 ---
 # <a name="how-to-set-send-pipelines-for-tibco-enterprise-message-service"></a>如何設定 TIBCO Enterprise Message Service 的傳送管線
 Microsoft BizTalk Adapter for TIBCO Enterprise Message Service 需要您分別為傳送管線和接收管線選取 XMLTransmit 與 XMLReceive。  
@@ -27,7 +28,7 @@ Microsoft BizTalk Adapter for TIBCO Enterprise Message Service 需要您分別�
   
     4.  從 傳送管線 下拉式清單中，選取  **Microsoft.BizTalk.DefaultPipelines.XMLTransmit**。  
   
-    5.  從**接收管線**下拉式清單中，選取**[microsoft.biztalk.defaultpiplelines.xmlreceive]**。  
+    5.  從**接收管線**下拉式清單中，選取 **[microsoft.biztalk.defaultpiplelines.xmlreceive]**。  
   
 4.  按一下 **[確定]**。  
   

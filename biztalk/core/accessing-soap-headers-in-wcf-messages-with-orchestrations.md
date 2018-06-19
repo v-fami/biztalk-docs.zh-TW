@@ -1,11 +1,11 @@
 ---
-title: "存取 WCF 訊息與協調流程中的 SOAP 標頭 |Microsoft 文件"
-ms.custom: 
+title: 存取 WCF 訊息與協調流程中的 SOAP 標頭 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, SOAP headers [WCF services]
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - WCF services, SOAP headers
 - SOAP headers, WCF messages
 ms.assetid: fe02fb02-18d6-4fc6-89e0-b06bdbfa5cb4
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966836"
 ---
 # <a name="accessing-soap-headers-in-wcf-messages-with-orchestrations"></a>使用協調流程存取 WCF 訊息中的 SOAP 標頭
 若要存取的協調流程中的內送 WCF 訊息的 SOAP 標頭值，您可以使用內容屬性**WCF。InboundHeaders**。 WCF 配接器複製到輸入訊息中的自訂 SOAP 標頭和標準 SOAP 標頭**WCF。InboundHeaders**屬性。 您也可以使用 WCF 配接器，選取要以程式設計方式升級至或寫入至內容屬性的屬性。 請參閱[SOAP 標頭與已發佈 WCF 服務](../core/soap-headers-with-published-wcf-services.md)如需詳細資訊。  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210134"
 ---
 # <a name="step-1-creating-a-new-biztalk-solution-for-the-contoso-price-and-availability-request"></a>步驟 1： 為 Contoso 價格與可用性要求建立新的 BizTalk 解決方案
 在此步驟中，您會建立[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] Contoso 價格與可用性要求專案的方案。 此專案將包含「3A2 價格與可用性」訊息之要求和回應的結構描述與對應。  

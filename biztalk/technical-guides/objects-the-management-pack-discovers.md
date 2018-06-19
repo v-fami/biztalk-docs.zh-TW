@@ -1,14 +1,14 @@
 ---
-title: "物件的管理組件會探索 |Microsoft 文件"
-ms.custom: 
+title: 物件的管理組件會探索 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 291e8936-b299-4719-9f7e-edc86f76fcbd
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298862"
 ---
 # <a name="objects-the-management-pack-discovers"></a>管理組件所探索的物件
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理組件會探索下表中說明的物件類型。 如需探索物件的詳細資訊，請參閱[Operations Manager 2007 中的物件探索](http://go.microsoft.com/fwlink/?LinkId=108505)Operations Manager 2007 R2/2012年線上程式庫 (http://go.microsoft.com/fwlink/?LinkId=108505) 中的主題。  

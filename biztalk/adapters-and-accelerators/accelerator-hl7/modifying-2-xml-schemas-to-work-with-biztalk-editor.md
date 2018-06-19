@@ -1,17 +1,17 @@
 ---
-title: "修改 2.使用 [BizTalk 編輯器] 中的 XML 結構描述 |Microsoft 文件"
-ms.custom: 
+title: 修改 2.使用 [BizTalk 編輯器] 中的 XML 結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - 2.XML schemas, modifying
 - modifying, 2.XML schemas
 ms.assetid: 07316826-84b6-494e-81b9-f64a3d46ffb0
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206102"
 ---
 # <a name="modifying-2xml-schemas-to-work-with-biztalk-editor"></a>修改 2.若要使用 [BizTalk 編輯器] 中的 XML 結構描述
 HL7 2.XML 結構描述需要使用適當的修改[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)])。 以下描述如何修改 HL7 V2。XML 結構描述，您可以使用 BizTalk 編輯器中使用它們。  
@@ -28,7 +29,7 @@ HL7 2.XML 結構描述需要使用適當的修改[!INCLUDE[btsCoName](../../incl
 >  Update2XMLSchema 工具會自動執行這些步驟。 請參閱[Update2XMLSchema 工具](../../adapters-and-accelerators/accelerator-hl7/update2xmlschema-tool.md)如需詳細資訊。  
   
 > [!NOTE]
->  **Nillable**屬性可能會發生在結構描述中的項目上。 如果設定為**true**，它會指出父項目的執行個體可以有**xsi: nil ="true"**屬性。 [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]在編譯和剖析/序列化期間，會忽略這個屬性。  
+>  **Nillable**屬性可能會發生在結構描述中的項目上。 如果設定為**true**，它會指出父項目的執行個體可以有**xsi: nil ="true"** 屬性。 [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]在編譯和剖析/序列化期間，會忽略這個屬性。  
   
 ### <a name="to-modify-2xml-schemas"></a>若要修改 2.XML 結構描述  
   

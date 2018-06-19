@@ -1,17 +1,17 @@
 ---
-title: "使用 Siebel 配接器疑難排解安裝問題 |Microsoft 文件"
-ms.custom: 
+title: 使用 Siebel 配接器疑難排解安裝問題 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - troubleshooting, installation
 - installation, troubleshooting
 ms.assetid: f9f066d9-37b6-4a18-9f60-d0931ea91a18
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964868"
 ---
 # <a name="troubleshoot-installation-issues-with-the-siebel-adapter"></a>使用 Siebel 配接器疑難排解安裝問題
 Microsoft[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]複製產品二進位編碼檔案的電腦上安裝，並註冊每個配接器的繫結。 本章節將討論解決安裝錯誤的疑難排解技術。  

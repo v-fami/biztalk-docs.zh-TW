@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/biztalk-server-message-context-properties-send-handlers/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: dad952a8a35dd4c42bf5ef330064e0c07a0d4cd4
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014845"
 ---
 # <a name="management"></a>管理
 

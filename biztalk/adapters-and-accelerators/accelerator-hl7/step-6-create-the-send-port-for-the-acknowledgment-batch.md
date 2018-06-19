@@ -1,14 +1,14 @@
 ---
-title: "步驟 6： 建立傳送埠認可批次 |Microsoft 文件"
-ms.custom: 
+title: 步驟 6： 建立傳送埠認可批次 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f2a0f1ee-e060-4fb9-923e-ebe8168777d9
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25960948"
 ---
 # <a name="step-6-create-the-send-port-for-the-acknowledgment-batch"></a>步驟 6： 建立通知批次的傳送埠
 在此步驟中，您可以建立傳送埠以將您建立的認可批次傳送到來源合作對象。 這是靜態單向連接埠與 FILE 配接器類型。 您指定檔案資料夾的來源 (\Tutorial_BatchACKDrop)，其中[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]將卸除認可批次檔。 您定義指出哪種類型的通知批次傳送連接埠的連接埠的篩選。 篩選器會指定來源 Tutorial_BatchSource 和 OutboundBatch 的訊息類型。  
@@ -38,7 +39,7 @@ ms.lasthandoff: 01/17/2018
     |使用|動作|  
     |--------------|----------------|  
     |**目的地資料夾**|瀏覽至 **\<*磁碟機*:\>\Program Files\Microsoft BizTalk\<版本\>Accelerator for HL7\SDK\End 端對端 Tutorial\Tutorial_BatchACKDrop**. 這是在檔案系統或公用共用的位置路徑[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]將撰寫包含認可批次的檔案。|  
-    |**檔案名稱**|型別**%MessageID%.txt** （副檔名為.txt 取代.xml 副檔名）。|  
+    |**檔案名稱**|型別 **%MessageID%.txt** （副檔名為.txt 取代.xml 副檔名）。|  
     |**複製模式**|選取**建立新**。|  
   
 4.  按一下 **[確定]**。  

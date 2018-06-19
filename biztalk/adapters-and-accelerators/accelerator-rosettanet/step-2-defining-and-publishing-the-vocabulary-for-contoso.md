@@ -1,18 +1,18 @@
 ---
-title: "步驟 2： 定義與發佈 Contoso 的詞彙 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 定義與發佈 Contoso 的詞彙 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - vocabularies, creating
 - vocabularies, publishing
 - private process tutorial, creating vocabularies
 ms.assetid: e23880c0-772c-48c6-a6b5-32eb951527c8
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22211086"
 ---
 # <a name="step-2-defining-and-publishing-the-vocabulary-for-contoso"></a>步驟 2： 定義與發佈 Contoso 的詞彙
 在此實例中，Contoso 會實作商務原則，以確保即使發生緊急狀況，也一定有足夠的存貨。 您將使用 [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] 中的「商務規則編輯器」建立商務原則。 在此步驟中，您將建立在定義商務原則時要使用的詞彙。  
@@ -47,7 +48,7 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-define-an-xml-document-get-element"></a>定義 XML 文件的 Get 項目  
   
-1.  商務規則編輯器 中的事實總管 窗格中，以滑鼠右鍵按一下**版本 1.0 （未儲存）**下**3A2PriceAvailabilityVocabulary**，然後按一下 **新增定義**.  
+1.  商務規則編輯器 中的事實總管 窗格中，以滑鼠右鍵按一下**版本 1.0 （未儲存）** 下**3A2PriceAvailabilityVocabulary**，然後按一下 **新增定義**.  
   
 2.  在**VocabularyDefinition 精靈**頁面上，選取**XML 文件項目或屬性**，然後按一下 **下一步**。  
   
@@ -63,7 +64,7 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-define-an-xml-document-set-element"></a>定義 XML 文件的 Set 項目  
   
-1.  商務規則編輯器 中的事實總管 窗格中，以滑鼠右鍵按一下**版本 1.0 （未儲存）**下**3A2PriceAvailabilityVocabulary**，然後按一下 **新增定義**.  
+1.  商務規則編輯器 中的事實總管 窗格中，以滑鼠右鍵按一下**版本 1.0 （未儲存）** 下**3A2PriceAvailabilityVocabulary**，然後按一下 **新增定義**.  
   
 2.  在**VocabularyDefinition 精靈**頁面上，選取**XML 文件項目或屬性**，然後按一下 **下一步**。  
   
@@ -81,7 +82,7 @@ ms.lasthandoff: 09/20/2017
   
 ### <a name="to-save-and-publish-the-vocabulary"></a>儲存和發佈詞彙  
   
-1.  商務規則編輯器 中的事實總管 窗格中，以滑鼠右鍵按一下**版本 1.0 （未儲存）**下**3A2PriceAvailabilityVocabulary**，然後按一下 **儲存**。  
+1.  商務規則編輯器 中的事實總管 窗格中，以滑鼠右鍵按一下**版本 1.0 （未儲存）** 下**3A2PriceAvailabilityVocabulary**，然後按一下 **儲存**。  
   
 2.  以滑鼠右鍵按一下該相同**1.0 版**節點，然後按一下**發行**。  
   

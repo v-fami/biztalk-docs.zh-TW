@@ -1,14 +1,14 @@
 ---
-title: "擴充 BizTalk ESB Toolkit 功能與 SOA 控管 |Microsoft 文件"
-ms.custom: 
+title: 擴充 BizTalk ESB Toolkit 功能與 SOA 控管 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b66a121b-d86f-4f97-a05f-5141ffe719e8
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299790"
 ---
 # <a name="extending-biztalk-esb-toolkit-capabilities-with-soa-governance"></a>擴充 BizTalk ESB Toolkit 功能與 SOA 控管
 [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]隨附於[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]是工具和擴充的程式庫集合和[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]支援鬆散偶合和動態的傳訊架構的功能。 它當做中介軟體，可提供快速中繼服務和其取用者之間的工具。 啟用執行階段的最大的彈性[!INCLUDE[esbToolkit_short](../includes/esbtoolkit-short-md.md)]簡化鬆散偶合的組合的服務端點與服務互動的管理。  

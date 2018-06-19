@@ -1,14 +1,14 @@
 ---
-title: "設定傳送和接收 EDI 通知 |Microsoft 文件"
-ms.custom: 
+title: 設定傳送和接收 EDI 通知 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3db1c9f7-bafa-4659-a3c4-0faa56606081
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969756"
 ---
 # <a name="configuring-the-sending-and-receiving-of-edi-acknowledgments"></a>設定傳送及接收 EDI 通知
 如果要設定傳送 EDI 通知來回應收到的交換，您必須執行下列工作：  
@@ -54,9 +55,9 @@ ms.lasthandoff: 11/28/2017
   
     2.  在**通知**頁面上，選取 屬性定義的傳送者合作對象預期之通知種類：  
   
-         對於 X12 通知，選取**預期 TA1**及/或**預期 997**應根據哪一個通知。 每個通知類型 選取**不要批次處理\<通知類型\>**如果您想要當做個別的交換傳送通知的每個執行個體。  
+         對於 X12 通知，選取**預期 TA1**及/或**預期 997**應根據哪一個通知。 每個通知類型 選取**不要批次處理\<通知類型\>** 如果您想要當做個別的交換傳送通知的每個執行個體。  
   
-         對於 EDIFACT 通知選取**訊息回條 (CONTRL 必須是)**及/或**通知 (CONTRL) 必須是**應根據哪一個通知。 每個通知類型 選取**不要批次處理\<通知類型\>**如果您想要當做個別的交換傳送通知的每個執行個體。  
+         對於 EDIFACT 通知選取**訊息回條 (CONTRL 必須是)** 及/或**通知 (CONTRL) 必須是**應根據哪一個通知。 每個通知類型 選取**不要批次處理\<通知類型\>** 如果您想要當做個別的交換傳送通知的每個執行個體。  
   
     3.  在**本機主機設定**頁面**交換設定**區段中，清除**通知的路由設定為傳送管線在要求-回應接收埠**傳回以非同步方式透過單向傳送埠的通知。 讓此屬性維持選取狀態，則會透過雙向接收埠同步傳回通知。  
   

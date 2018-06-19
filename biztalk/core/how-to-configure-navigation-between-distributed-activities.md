@@ -1,14 +1,14 @@
 ---
-title: "How to Configure 之間瀏覽分散式活動 |Microsoft 文件"
-ms.custom: 
+title: How to Configure 之間瀏覽分散式活動 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6f8faf0a-eb06-4383-932d-4106306d6cf3
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968866"
 ---
 # <a name="how-to-configure-navigation-between-distributed-activities"></a>如何設定分散式活動之間的導覽
 分散式導覽讓使用者得以檢視現存於遠端 BAM 部署中的活動。 啟用分散式導覽後，任一部電腦上 BAM 入口網站的使用者都可以檢視其他 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 部署中 BAM 入口網站上的活動。  

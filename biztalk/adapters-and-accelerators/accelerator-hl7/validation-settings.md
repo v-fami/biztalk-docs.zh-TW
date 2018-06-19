@@ -1,17 +1,17 @@
 ---
-title: "驗證設定 |Microsoft 文件"
-ms.custom: 
+title: 驗證設定 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - validating, configuring
 - configuring, validating
 ms.assetid: ee08acac-99f9-4403-b2ae-01b80378aa58
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961956"
 ---
 # <a name="validation-settings"></a>驗證設定
 使用[!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)]，您可以驗證您針對 HL7 標準的訊息。 [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]可確保您傳送或接收的訊息具有符合標準 HL7 訊息結構和內文區段。 您也可以驗證 HL7 支援自訂資料型別，並允許尾端分隔符號。 您使用[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]Configuration 總管**驗證**索引標籤，設定驗證。  

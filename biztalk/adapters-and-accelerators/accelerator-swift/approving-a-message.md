@@ -1,17 +1,17 @@
 ---
-title: "核准訊息 |Microsoft 文件"
-ms.custom: 
+title: 核准訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, approving
 - approving messages
 ms.assetid: e6abfef3-aab2-470e-a7a7-a6d091ffba53
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25962516"
 ---
 # <a name="approving-a-message"></a>核准訊息
 本章節描述如何核准訊息修復和驗證。  

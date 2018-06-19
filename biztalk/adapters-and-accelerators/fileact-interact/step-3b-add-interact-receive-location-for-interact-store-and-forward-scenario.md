@@ -1,14 +1,14 @@
 ---
-title: "步驟 3B： 加入互動接收位置的互動存放區和情況 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3B： 加入互動接收位置的互動存放區和情況 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: da077518-b2ee-4b5f-88d0-fe73af2baa7a
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966668"
 ---
 # <a name="step-3b-add-an-interact-receive-location-for-the-interact-store-and-forward-scenario"></a>步驟 3B： 加入互動接收位置的互動存放區和轉寄的案例
 完成[步驟 3A： 新增檔案接收位置為互動存放與轉寄實例](../../adapters-and-accelerators/fileact-interact/step-3a-add-a-file-receive-location-for-interact-store-and-forward-scenario.md)開始此步驟之前。
@@ -43,7 +44,7 @@ ms.lasthandoff: 11/28/2017
     |**使用者名稱**|輸入您用來連接到 SAG 的使用者名稱。|  
     |**應用程式名稱**|輸入伺服器\<應用程式的介面名稱\>SAG 的方塊路由的集合。|  
     |**密碼編譯模式**|從下拉式清單選取**進階**。|  
-    |**LogMessageBody**|從下拉式清單選取**FALSE**。 **注意：**如果設為 TRUE 時，它會保留的訊息本文的 「 BizTalk 追蹤資料庫。 不過，基於安全性理由，訊息本文可以永遠不會在檢視 BAM 入口網站。|  
+    |**LogMessageBody**|從下拉式清單選取**FALSE**。 **注意：** 如果設為 TRUE 時，它會保留的訊息本文的 「 BizTalk 追蹤資料庫。 不過，基於安全性理由，訊息本文可以永遠不會在檢視 BAM 入口網站。|  
     |**記錄訊息**|從下拉式清單選取**TRUE**。 這可讓要擷取，並在 BAM 入口網站中追蹤的訊息事件。|  
     |**訊息格式**|從下拉式清單選取**InterActMessage**。|  
     |**MemberRef**|從下拉式清單選取**ResponseHeader**。|  

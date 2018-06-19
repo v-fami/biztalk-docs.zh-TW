@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967748"
 ---
 # <a name="receive-inbound-rfc-calls-from-sap-using-biztalk-server"></a>從 SAP 使用 BizTalk Server 接收輸入 RFC 呼叫
 在 RFC 伺服器案例中，有三個實體：  
@@ -90,7 +91,7 @@ ms.lasthandoff: 11/28/2017
  請參閱[瀏覽、 搜尋和 get 中繼資料中 SAP RFC 作業的](../../adapters-and-accelerators/adapter-sap/browse-search-and-get-metadata-for-rfc-operations-in-sap.md)如需有關如何產生結構描述特定的 RFC 的指示。  
   
 > [!IMPORTANT]
->  因為您正在產生輸入 RFC 呼叫的結構描述，請確定您選取**服務 （輸入作業）**從**選取合約型別**下拉式清單中的[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]。  
+>  因為您正在產生輸入 RFC 呼叫的結構描述，請確定您選取**服務 （輸入作業）** 從**選取合約型別**下拉式清單中的[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]。  
   
 ## <a name="defining-messages-and-message-types"></a>定義訊息和訊息類型  
  您先前產生的結構描述會描述 「 類型 」 所需的協調流程中的訊息。 訊息通常是為其型別由對應的結構描述所定義的變數。 您必須連結產生的結構描述您在第一個步驟中的訊息從 BizTalk 專案的協調流程檢視。  
@@ -143,7 +144,7 @@ ms.lasthandoff: 11/28/2017
   
 |形狀圖|圖形類型|屬性|  
 |-----------|----------------|----------------|  
-|ListenToSAP|Receive|-設定**名稱**至*ListenToSAP*<br />-設定**啟動**至*，則為 True*|  
+|ListenToSAP|Receive|-設定**名稱**至*ListenToSAP*<br />-設定**啟動**至 *，則為 True*|  
 |SendResponse|Send|-設定**名稱**至*SendResponse*|  
   
 ### <a name="adding-construct-message-shape"></a>新增 建構訊息圖形  

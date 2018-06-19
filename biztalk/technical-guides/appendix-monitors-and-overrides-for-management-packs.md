@@ -1,14 +1,14 @@
 ---
-title: "附錄︰ 監視和覆寫管理組件 |Microsoft 文件"
-ms.custom: 
+title: 附錄︰ 監視和覆寫管理組件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f9a754d1-5734-4449-9cce-b0bf9dad46d1
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295502"
 ---
 # <a name="appendix-monitors-and-overrides-for-management-packs"></a>附錄︰ 監視和覆寫管理組件
 本章節提供詳細程序和指令碼可讓您顯示規則以及您匯入的管理組件的其他資訊。  

@@ -1,17 +1,17 @@
 ---
-title: "驗證的已知問題 |Microsoft 文件"
-ms.custom: 
+title: 驗證的已知問題 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - known issues, validating
 - validating, known issues
 ms.assetid: 136596f2-ee0f-4ea9-918c-3608f2ee1be3
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207038"
 ---
 # <a name="validation-known-issues"></a>驗證的已知問題
 本節包含可協助您避免驗證錯誤的有用資訊。  

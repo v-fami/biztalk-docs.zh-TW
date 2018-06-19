@@ -1,14 +1,14 @@
 ---
-title: "執行 SAP 使用 BizTalk Server 中的 BAPI 交易 |Microsoft 文件"
-ms.custom: 
+title: 執行 SAP 使用 BizTalk Server 中的 BAPI 交易 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 75ff5cf7-5e98-4d74-a13f-4de65c215d41
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967948"
 ---
 # <a name="run-bapi-transactions-in-sap-using-biztalk-server"></a>執行 SAP 使用 BizTalk Server 中的 BAPI 交易
 [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]可讓配接器用戶端使用 SAP 系統上執行的交易[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]。 建立之前的交易協調流程，您必須先了解基本的案例將在其中執行的交易。 在一般交易案例中，多個作業 （例如，叫用 BAPI） 的要求訊息傳送至 SAP 系統。 這將被稱為 「 作業訊息 」。 協調流程必須從要求訊息中擷取每個作業訊息，並傳送至 SAP 系統的個別作業訊息。 協調流程傳送一個接著一個使用相同的連接。 協調流程會使用透過 BizTalk 對應的 XML 轉換中擷取個別的訊息中的 「 作業訊息 」。  
@@ -167,7 +168,7 @@ ms.lasthandoff: 11/28/2017
   
 |形狀圖|圖形類型|屬性|  
 |-----------|----------------|----------------|  
-|ReceiveInputXML|Receive|-設定**名稱**至*ReceiveInputXML*<br /><br /> -設定**啟動**至*，則為 True*|  
+|ReceiveInputXML|Receive|-設定**名稱**至*ReceiveInputXML*<br /><br /> -設定**啟動**至 *，則為 True*|  
 |SendToLOB|Send|-設定**名稱**至*SendToLOB*|  
 |ReceiveResponse|Receive|-設定**名稱**至*ReceiveResponse*<br /><br /> -設定**啟動**至*False*|  
 |SendResponse|Send|-設定**名稱**至*SendResponse*|  

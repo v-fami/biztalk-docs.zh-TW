@@ -1,14 +1,14 @@
 ---
-title: "建立 TIBCO EMS 的分支機構應用程式 |Microsoft 文件"
-ms.custom: 
+title: 建立 TIBCO EMS 的分支機構應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 191e5b56-dab9-4bf3-9f89-a900907d64e0
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015285"
 ---
 # <a name="create-affiliate-applications"></a>建立分支機構應用程式
 下列步驟說明如何開始使用分支機構應用程式和單一登入 (SSO)。  
@@ -34,7 +35,7 @@ ms.lasthandoff: 11/07/2017
   
      **C:\Program Files\Common Files\Enterprise Single Sign-on >**  
   
-3.  使用 [企業單一登入] 命令。 如需命令清單，請使用**-協助**切換。  
+3.  使用 [企業單一登入] 命令。 如需命令清單，請使用 **-協助**切換。  
   
 4.  若要使用 *.XML 為啟動程序來建立分支機構應用程式，請輸入下列命令：  
   

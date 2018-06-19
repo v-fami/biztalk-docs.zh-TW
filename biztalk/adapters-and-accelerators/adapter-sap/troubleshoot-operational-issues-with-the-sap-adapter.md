@@ -1,15 +1,15 @@
 ---
-title: "SAP BizTalk 配接器疑難排解操作問題 |Microsoft 文件"
-description: "常見的錯誤、 問題和 mySAP 配接器在 BizTalk 配接器組件 (BAP) 中的解決方式"
-ms.custom: 
+title: SAP BizTalk 配接器疑難排解操作問題 |Microsoft 文件
+description: 常見的錯誤、 問題和 mySAP 配接器在 BizTalk 配接器組件 (BAP) 中的解決方式
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bb0f005b-7548-478b-8243-69e07c29d02c
-caps.latest.revision: "32"
+caps.latest.revision: 32
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967508"
 ---
 # <a name="troubleshoot-operational-issues-with-the-sap-adapter"></a>SAP 配接器疑難排解操作問題
 本章節將討論使用來解析作業使用時可能遭遇的錯誤的疑難排解技術[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]。  

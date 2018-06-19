@@ -1,14 +1,14 @@
 ---
-title: "讀取的安裝和設定的已知問題 |Microsoft 文件"
-ms.custom: 
+title: 讀取的安裝和設定的已知問題 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c58d9dcb-7835-4181-a6cb-203c5d138e6a
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,11 +17,12 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962004"
 ---
 # <a name="read-the-installation-and-configuration-known-issues"></a>讀取的安裝和設定的已知問題
   
 ## <a name="installing-over-terminal-server-creates-log-files-in-a-different-folder"></a>透過終端機伺服器安裝在不同的資料夾會建立記錄檔  
- 當您安裝 A4SWIFT 透過終端機伺服器連線時，A4SWIFT 安裝程式會建立的安裝和組態記錄檔中*\<磁碟機\>*: \Documents and 設定\\*\<使用者名\>*\Local Settings 資料夾。 一般來說，安裝程式會建立這些檔案中的*\<磁碟機\>*: \Documents and 設定\\*\<使用者名\>*\Local設定資料夾。 您可以檢閱這些記錄檔，以確保您的電腦可以設定並正確設定。  
+ 當您安裝 A4SWIFT 透過終端機伺服器連線時，A4SWIFT 安裝程式會建立的安裝和組態記錄檔中*\<磁碟機\>*: \Documents and 設定\\*\<使用者名\>* \Local Settings 資料夾。 一般來說，安裝程式會建立這些檔案中的*\<磁碟機\>*: \Documents and 設定\\*\<使用者名\>* \Local設定資料夾。 您可以檢閱這些記錄檔，以確保您的電腦可以設定並正確設定。  
   
 ## <a name="silent-installation-is-not-recommended"></a>不建議使用無訊息安裝  
  無訊息安裝 A4SWIFT 安裝程式，支援，但不是建議使用複雜的所需的其他組態步驟。  

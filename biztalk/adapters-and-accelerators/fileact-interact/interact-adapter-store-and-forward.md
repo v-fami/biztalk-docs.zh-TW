@@ -1,14 +1,14 @@
 ---
-title: "互動配接器儲存與轉送 |Microsoft 文件"
-ms.custom: 
+title: 互動配接器儲存與轉送 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d596780a-085d-48db-be44-a3ae58f591d0
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963204"
 ---
 # <a name="interact-adapter-store-and-forward"></a>配接器儲存與轉送互動
 在存放區和順向 (SnF) 模式中，訊息傳送至佇列在傳送時，會從目的地佇列擷取。 使用時 SnF，回應來自 SWIFTNet SnF 本身，並不包含任何來自回應者的意見反應。  

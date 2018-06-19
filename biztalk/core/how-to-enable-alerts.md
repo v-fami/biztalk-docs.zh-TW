@@ -1,18 +1,18 @@
 ---
-title: "如何啟用警示 |Microsoft 文件"
-ms.custom: 
+title: 如何啟用警示 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Enable-Alerts command [BAM]
 - managing [BAM definitions], enabling alerts
 - alerts, enabling
 ms.assetid: 18f494b7-54fb-4aaf-89d1-7e3fe91f35c6
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968820"
 ---
 # <a name="how-to-enable-alerts"></a>如何啟用警示
 系統管理員使用**啟用警示**命令以啟用所有指定之檢視上的警示。  

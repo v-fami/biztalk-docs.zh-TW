@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/creating-tibco-rendezvous-send-handlers/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: b4fabb9146b4f559dd1a41b6e3b7da5ce9489d1f
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015269"
 ---
 # <a name="how-to-set-tibco-rendezvous-transport-properties"></a>如何設定 TIBCO Rendezvous 傳輸內容
 TIBCO Rendezvous 傳輸屬性用於執行階段。 在**傳輸屬性** 畫面上，設定連線參數來識別您要將產生的訊息發佈的 TIBCO Rendezvous 網域。  

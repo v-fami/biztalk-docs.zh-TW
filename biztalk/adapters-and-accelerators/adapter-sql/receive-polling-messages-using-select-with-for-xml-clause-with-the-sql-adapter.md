@@ -1,14 +1,14 @@
 ---
-title: "接收使用 FOR XML 子句中使用 BizTalk Server 的 SQL SELECT 陳述式的輪詢訊息 |Microsoft 文件"
-ms.custom: 
+title: 接收使用 FOR XML 子句中使用 BizTalk Server 的 SQL SELECT 陳述式的輪詢訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 65c629c1-9ef7-4aa1-8ec1-f94a3cb41cb0
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967700"
 ---
 # <a name="receive-polling-messages-using-select-statements-with-for-xml-clause-from-sql-using-biztalk-server"></a>接收輪詢訊息使用 FOR XML 子句中使用 BizTalk Server 的 SQL SELECT 陳述式
 您可以設定[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]接收使用 SELECT 陳述式或包含 FOR XML 子句的預存程序的 SQL Server 資料表或檢視表的週期性的資料變更訊息。 您可以指定這些陳述式與執行以輪詢資料庫配接器的輪詢陳述式。 輪詢陳述式可以是 SELECT 陳述式或預存程序會傳回結果集。  
@@ -133,7 +134,7 @@ SELECT Employee_ID ,Name ,Designation FROM Employee for xml auto, xmlschema
   
 |形狀圖|圖形類型|屬性|  
 |-----------|----------------|----------------|  
-|ReceiveMessage|Receive|-設定**名稱**至*ReceiveMessage*<br /><br /> -設定**啟動**至*，則為 True*|  
+|ReceiveMessage|Receive|-設定**名稱**至*ReceiveMessage*<br /><br /> -設定**啟動**至 *，則為 True*|  
 |SaveMessage|Send|-設定**名稱**至*SaveMessage*|  
   
 ### <a name="adding-ports"></a>新增連接埠  
@@ -176,7 +177,7 @@ SELECT Employee_ID ,Name ,Designation FROM Employee for xml auto, xmlschema
         |----------------------|-----------|  
         |**InboundOperationType**|請確定您設定為**XmlPolling**。|  
         |**PolledDataAvailableStatement**|請確定您指定 SQL 陳述式。 本主題中，指定：<br /><br /> `SELECT COUNT(*) FROM Employee`|  
-        |**PollingStatement**|請確定您提供相同的陳述式，而不`xmlschema`子句，您指定在產生結構描述中所述[接收輪詢訊息使用 FOR XML 子句中使用 BizTalk ServerSQLSELECT陳述式](../../adapters-and-accelerators/adapter-sql/receive-polling-messages-using-select-with-for-xml-clause-with-the-sql-adapter.md).<br /><br /> `SELECT Employee_ID ,Name ,Designation FROM Employee for xml auto`<br /><br /> **注意：**請注意，SELECT 陳述式不包含`xmlschema`子句。|  
+        |**PollingStatement**|請確定您提供相同的陳述式，而不`xmlschema`子句，您指定在產生結構描述中所述[接收輪詢訊息使用 FOR XML 子句中使用 BizTalk ServerSQLSELECT陳述式](../../adapters-and-accelerators/adapter-sql/receive-polling-messages-using-select-with-for-xml-clause-with-the-sql-adapter.md).<br /><br /> `SELECT Employee_ID ,Name ,Designation FROM Employee for xml auto`<br /><br /> **注意：** 請注意，SELECT 陳述式不包含`xmlschema`子句。|  
         |**XmlStoredProcedureRootNodeName**|指定的根節點底下所述，您加入至您的 SELECT 陳述式中，所產生的回應結構描述名稱[產生回應訊息的 SELECT 陳述式的結構描述](#BKMK_RespSchema)。 如本主題中，將此設**根**。|  
         |**XmlStoredProcedureRootNodeNamespace**|指定您的 SELECT 陳述式中，所產生的回應結構描述的目標命名空間，如底下所述[產生回應訊息的 SELECT 陳述式的結構描述](#BKMK_RespSchema)。 如本主題中，將此設`http://ForXmlPolling/namespace`。|  
   

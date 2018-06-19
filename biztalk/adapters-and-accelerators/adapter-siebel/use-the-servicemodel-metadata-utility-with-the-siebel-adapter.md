@@ -9,7 +9,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 03d16481-cc8b-4e28-a33c-92e48a9a7e8f
-caps.latest.revision: ''
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25963508"
 ---
 # <a name="using-the-servicemodel-metadata-utility-tool-with-the-biztalk-adapter-for-siebel-ebusiness-applications"></a>使用 BizTalk adapter 的 ServiceModel Metadata Utility Tool for Siebel eBusiness 應用程式
 您可以使用 ServiceModel Metadata Utility Tool (svcutil.exe) 來產生作業的 WCF 用戶端類別，[!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)]公開。 執行 svcutil.exe 產生 WCF 用戶端類別之後，您可以在您的程式碼中包含所產生的檔案，並建立 WCF 用戶端類別，在 Siebel 系統上執行作業的執行個體。  

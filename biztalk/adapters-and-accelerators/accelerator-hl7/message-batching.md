@@ -1,11 +1,11 @@
 ---
-title: "訊息批次 |Microsoft 文件"
-ms.custom: 
+title: 訊息批次 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - batching
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - messages, batching
 - batching, messages
 ms.assetid: d852cf00-3882-4f0f-a4c3-2a39483710ee
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204646"
 ---
 # <a name="message-batching"></a>訊息批次
 通訊協定標準，排程的問題或訊息大小限制可能會促使批次訊息的需要。 健全狀況層級七 (HL7) 的批次所組成的 HL7 批次標頭和批次結尾所含括的訊息。 訊息的分隔符號分隔批次內的個別訊息。  

@@ -1,14 +1,14 @@
 ---
-title: "監視節流 |Microsoft 文件"
-ms.custom: 
+title: 監視節流 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3d1d4c72-6942-4572-b27f-c58d37c94062
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299758"
 ---
 # <a name="monitoring-for-throttling"></a>節流的監視
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理組件會監視效能計數器，以指出的節流狀態[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。 若要了解關於節流某些關鍵因素如下所示。  
@@ -25,7 +26,7 @@ ms.lasthandoff: 09/20/2017
   
 -   傳遞節流 」 的 (**MsgBox]-> [傳送埠或協調流程**)，輸入所從 messagebox 接收訊息的速率。 輸出速率是在訊息成功傳送配接器透過的速率。  
   
--   發佈節流的 (**接收配接器**或**協調流程]-> [MsgBox)，**輸入的速率是從配接器接收訊息的速率，以及輸出速率速率訊息插入 MsgBox。  
+-   發佈節流的 (**接收配接器**或**協調流程]-> [MsgBox)，** 輸入的速率是從配接器接收訊息的速率，以及輸出速率速率訊息插入 MsgBox。  
   
 -   任何節流機制存不在於資料庫中的郵件總數以外的主機之間。  
   

@@ -1,14 +1,14 @@
 ---
-title: "如何建立 XML 訊息的結構描述 |Microsoft 文件"
-ms.custom: 
+title: 如何建立 XML 訊息的結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a0270293-fe23-42bd-b090-e877d5e9ce0b
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25969724"
 ---
 # <a name="how-to-create-schemas-for-xml-messages"></a>如何建立 XML 訊息的結構描述
 有數種方法可以建立 BizTalk 訊息結構描述。 本主題提供部分這些方法的逐步指示。  

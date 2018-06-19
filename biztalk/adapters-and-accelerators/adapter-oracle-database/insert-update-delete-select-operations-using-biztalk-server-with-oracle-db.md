@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962308"
 ---
 # <a name="insert-update-delete-or-select-operations-using-biztalk-server-with-oracle-database"></a>插入、 更新、 刪除或選取 使用 BizTalk Server 與 Oracle 資料庫作業
 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]呈現一組標準 Oracle 資料庫資料表和檢視表上作業。 這些稱為資料操作語言 (DML) 作業作業使用您可以執行簡單的 INSERT、 UPDATE、 SELECT 和 DELETE 陳述式資料表和檢視表的 WHERE 子句所限定。 如需配接器如何支援這些作業的詳細資訊，請參閱[Insert、 Update、 Delete 和 Oracle 資料表和檢視表的選取作業](../../adapters-and-accelerators/adapter-oracle-database/insert-update-delete-and-select-operations-on-oracle-tables-and-views.md)。 DML 作業的 SOAP 訊息結構的相關資訊，請參閱[基本 Insert、 Update、 Delete 和資料表和檢視表的選取作業的訊息結構描述](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-insert-update-delete-and-select-on-tables-and-views.md)。  
@@ -100,7 +101,7 @@ ms.lasthandoff: 11/28/2017
   
 |形狀圖|圖形類型|屬性|  
 |-----------|----------------|----------------|  
-|ReceiveMessage|Receive|-設定**名稱**至*ReceiveMessage*<br />-設定**啟動**至*，則為 True*|  
+|ReceiveMessage|Receive|-設定**名稱**至*ReceiveMessage*<br />-設定**啟動**至 *，則為 True*|  
 |SendMessage|Send|-設定**名稱**至*SendMessage*|  
 |ReceiveResponse|Receive|-設定**名稱**至*ReceiveResponse*<br />-設定**啟動**至*False*|  
 |SendResponse|Send|-設定**名稱**至*SendResponse*|  

@@ -1,17 +1,17 @@
 ---
-title: "SAP 中使用 SELECT 命令執行查詢 |Microsoft 文件"
-ms.custom: 
+title: SAP 中使用 SELECT 命令執行查詢 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SELECT command, performing a query
 - query, performing by using the SELECT command
 ms.assetid: 6f03243c-ef50-4a4a-8fe6-4e525bd7efe3
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217798"
 ---
 # <a name="run-a-query-using-the-select-command-in-sap"></a>SAP 中使用 SELECT 命令執行查詢
 [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)]公開為 ADO.NET 資料來源的 SAP 系統。 與[!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)]，您可以執行 SELECT 陳述式來查詢 SAP 成品。  

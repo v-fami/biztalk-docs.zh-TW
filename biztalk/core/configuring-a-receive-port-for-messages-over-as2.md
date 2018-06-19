@@ -1,14 +1,14 @@
 ---
-title: "設定透過 AS2 接收訊息的連接埠 |Microsoft 文件"
-ms.custom: 
+title: 設定透過 AS2 接收訊息的連接埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 01d4d897-d12b-4de4-a86b-e6d2718470c2
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968988"
 ---
 # <a name="configuring-a-receive-port-for-messages-over-as2"></a>設定透過 AS2 接收訊息的接收埠
 若要接收含有 EDI 或非 EDI 內容的 AS2 訊息，請建立 HTTP 接收埠，以便接收此訊息並將回應傳回給合作對象。  
@@ -33,9 +34,9 @@ ms.lasthandoff: 11/28/2017
 |位置|屬性|設定|  
 |--------------|--------------|-------------|  
 |**接收埠屬性： 一般**|連接埠類型|要求-回應|  
-|**接收位置屬性： 一般**|傳輸類型|HTTP**附註：**只有 HTTP 配接器可以用於傳輸 EDIINT/AS2 編碼訊息。 這種傳輸無法搭配 HTTP 配接器以外的配接器運作。|  
+|**接收位置屬性： 一般**|傳輸類型|HTTP**附註：** 只有 HTTP 配接器可以用於傳輸 EDIINT/AS2 編碼訊息。 這種傳輸無法搭配 HTTP 配接器以外的配接器運作。|  
 |**接收位置屬性： 一般**|接收處理常式|BizTalkServerIsolatedHost|  
-|**接收位置屬性： 一般**|接收管線|-AS2EdiReceive (如果內容是 EDI 編碼)<br />-AS2Receive （如果內容不是 EDI 編碼）**附註：**當使用 AS2EdiReceive 管線，您必須新增至 BizTalk 應用程式使用者群組執行 BizTalk 外掛式主控件執行個體處理序的使用者帳戶。 AS2EdiReceive 管線會在 BizTalk 外掛式主控件執行個體處理序中執行。 AS2EdiReceive 管線會存取 SSO 存放區，而此存放區會要求使用者必須是「[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 應用程式使用者」群組中的成員。|  
+|**接收位置屬性： 一般**|接收管線|-AS2EdiReceive (如果內容是 EDI 編碼)<br />-AS2Receive （如果內容不是 EDI 編碼）**附註：** 當使用 AS2EdiReceive 管線，您必須新增至 BizTalk 應用程式使用者群組執行 BizTalk 外掛式主控件執行個體處理序的使用者帳戶。 AS2EdiReceive 管線會在 BizTalk 外掛式主控件執行個體處理序中執行。 AS2EdiReceive 管線會存取 SSO 存放區，而此存放區會要求使用者必須是「[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 應用程式使用者」群組中的成員。|  
 |**接收位置屬性： 一般**|傳送管線|AS2Send|  
 |**HTTP 傳輸屬性**|虛擬目錄加 ISAPI 延伸模組|/\<虛擬目錄名稱\>/BTSHTTPReceive.dll|  
 |**HTTP 傳輸屬性**|要求-回應傳回內容類型|text/xml|  

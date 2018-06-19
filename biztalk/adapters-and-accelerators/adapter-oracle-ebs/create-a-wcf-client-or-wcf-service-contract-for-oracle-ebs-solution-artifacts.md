@@ -1,14 +1,14 @@
 ---
-title: "產生 WCF 用戶端或 Oracle E-business Suite 方案成品的 WCF 服務合約 |Microsoft 文件"
-ms.custom: 
+title: 產生 WCF 用戶端或 Oracle E-business Suite 方案成品的 WCF 服務合約 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c7ffd857-a177-423a-ae83-685d11b7aec6
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217462"
 ---
 # <a name="generate-a-wcf-client-or-a-wcf-service-contract-for-oracle-e-business-suite-solution-artifacts"></a>產生 WCF 用戶端或 Oracle E-business Suite 方案成品的 WCF 服務合約
 您可以使用[!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]產生 WCF 用戶端類別或 WCF 服務合約 （介面） 為目標的 Oracle E-business Suite 成品中選取的作業。 您也可以使用 ServiceModel Metadata Utility Tool (svcutil.exe) 來產生 WCF 用戶端類別或 WCF 服務合約。不過，[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]公開 ServiceModel Metadata Utility Tool，透過標準的 Microsoft Windows 介面的功能。 它也提供不是使用 svcutil.exe 工具，可用的瀏覽和搜尋功能，並在產生組態檔，根據您選取當您連接到 Oracle E-business Suite 繫結屬性。  
@@ -28,7 +29,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  在[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]方案總管 中，以滑鼠右鍵按一下您的專案，然後**新增配接器服務參考**。  
   
-2.  之後**新增配接器服務參考**對話方塊隨即開啟，請依照下列中的步驟[擷取 Oracle E-business Suite 作業在 Visual Studio 中的中繼資料](../../adapters-and-accelerators/adapter-oracle-ebs/get-metadata-for-oracle-e-business-suite-operations-in-visual-studio.md)連接到 Oracle E-business Suite 和瀏覽和搜尋作業。 若要建立的作業，您選取的 WCF 用戶端類別，務必**用戶端 （輸出作業）**選取從**選取合約型別**下拉式清單 （這是預設值）。  
+2.  之後**新增配接器服務參考**對話方塊隨即開啟，請依照下列中的步驟[擷取 Oracle E-business Suite 作業在 Visual Studio 中的中繼資料](../../adapters-and-accelerators/adapter-oracle-ebs/get-metadata-for-oracle-e-business-suite-operations-in-visual-studio.md)連接到 Oracle E-business Suite 和瀏覽和搜尋作業。 若要建立的作業，您選取的 WCF 用戶端類別，務必**用戶端 （輸出作業）** 選取從**選取合約型別**下拉式清單 （這是預設值）。  
   
 3.  在您選取的所有作業，您要為目標，請按一下之後**確定**產生 WCF 用戶端類別。  
   
@@ -52,7 +53,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  之後**新增配接器服務參考**對話方塊隨即開啟，請依照下列中的步驟[擷取 Oracle E-business Suite 作業在 Visual Studio 中的中繼資料](../../adapters-and-accelerators/adapter-oracle-ebs/get-metadata-for-oracle-e-business-suite-operations-in-visual-studio.md)來連接到 Oracle E-business Suite 的資訊。 有數個繫結屬性和您可能想要您連接到 Oracle E-business Suite 的資訊時，將 URI 屬性。  
   
-3.  您已經連接到 Oracle E-business Suite 的資訊之後，請選取**服務 （輸入操作）**從**選取合約型別**下拉式清單。  
+3.  您已經連接到 Oracle E-business Suite 的資訊之後，請選取**服務 （輸入操作）** 從**選取合約型別**下拉式清單。  
   
 4.  在**選取類別目錄**方塊中，瀏覽至 輸入您要產生服務合約的作業。 例如，對於**通知**作業中，按一下根節點 (**/**)，請選取**通知**從**可用的類別和作業**方塊，然後再按一下**新增**。 如需有關如何瀏覽的輸入操作的指示，請參閱[瀏覽、 搜尋及擷取 Oracle E-business Suite 作業的中繼資料](../../adapters-and-accelerators/adapter-oracle-ebs/browse-search-and-get-metadata-for-oracle-e-business-suite-operations.md)。  
   

@@ -1,15 +1,15 @@
 ---
-title: "使用 BizTalk Server 的 SQL Server 中執行具有單一 XML 參數的預存程序 |Microsoft 文件"
-description: "預存程序使用中 BizTalk WCF 自訂連接埠和 SQL 配接器中傳遞單一參數"
-ms.custom: 
+title: 使用 BizTalk Server 的 SQL Server 中執行具有單一 XML 參數的預存程序 |Microsoft 文件
+description: 預存程序使用中 BizTalk WCF 自訂連接埠和 SQL 配接器中傳遞單一參數
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: deb9333a-5e28-4e8d-8e0b-07b5a97a111b
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964596"
 ---
 # <a name="execute-stored-procedures-with-a-single-xml-parameter-in-sql-server-using-biztalk-server"></a>使用 BizTalk Server 的 SQL Server 中執行具有單一 XML 參數的預存程序
 執行採用單一參數的預存程序是類似於執行任何其他預存程序中所述[使用 BizTalk Server 的 SQL Server 中執行預存程序](execute-stored-procedures-in-sql-server-using-biztalk-server.md)。 不過，如上述的連結中所述的方法，您要在設計階段產生預存程序的中繼資料和建立協調流程執行階段叫用程序。  
@@ -72,7 +73,7 @@ ms.lasthandoff: 11/28/2017
   
 8.  在**Wcf-custom 傳輸屬性**對話方塊方塊中，執行下列動作：  
   
-    1.  按一下**一般** 索引標籤，然後在**位址 (URI)**欄位中，指定 SQL Server 的連線 URI。 如需連線 URI 的詳細資訊，請參閱[建立 SQL Server 連接 URI](../../adapters-and-accelerators/adapter-sql/create-the-sql-server-connection-uri.md)。  
+    1.  按一下**一般** 索引標籤，然後在**位址 (URI)** 欄位中，指定 SQL Server 的連線 URI。 如需連線 URI 的詳細資訊，請參閱[建立 SQL Server 連接 URI](../../adapters-and-accelerators/adapter-sql/create-the-sql-server-connection-uri.md)。  
   
     2.  在**一般**索引標籤的**動作**文字方塊中，輸入作業的動作。 請參閱[訊息與訊息結構描述](messages-and-message-schemas-for-biztalk-adapter-for-sql-server.md)的每個作業的動作清單。 例如，叫用 ADD_LAST_EMP_XML_INFO 的動作是：  
   

@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970572"
 ---
 # <a name="guidelines-for-resolving-iis-permissions-problems"></a>解決 IIS 權限問題的指導方針
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 在使用 HTTP、SOAP 和 Windows SharePoint Services 配接器時，會大量使用 Microsoft Internet Information Services (IIS) 以提供 Web 服務支援。  
@@ -41,7 +42,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
   
 1.  按一下**啟動**，然後**所有程式**，然後按一下**Internet Information Services (IIS) 7 Manager**。  
   
-2.  在 [網際網路資訊服務 (IIS) 管理員] 中，展開*\<電腦名稱\>***（使用者帳戶）**按一下**應用程式集區**。  
+2.  在 [網際網路資訊服務 (IIS) 管理員] 中，展開*\<電腦名稱\>***（使用者帳戶）** 按一下**應用程式集區**。  
   
 3.  以滑鼠右鍵按一下應用程式集區，然後按一下**檢視應用程式**以查看應用程式集區相關聯的應用程式。  
   
@@ -54,17 +55,17 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
   
  IIS 7.0 支援下列使用者驗證方法：  
   
--   **匿名存取：**可讓使用者建立匿名連線。 IIS 伺服器會以指定的訪客帳戶來登入使用者。  
+-   **匿名存取：** 可讓使用者建立匿名連線。 IIS 伺服器會以指定的訪客帳戶來登入使用者。  
   
 -   **ASP.NET 模擬**允許應用程式在其中兩個不同內容中執行： 由 IIS 驗證的使用者或您設定的任意帳戶。  
   
--   **基本驗證：**純文字、 未加密的形式在網路上傳輸密碼。  
+-   **基本驗證：** 純文字、 未加密的形式在網路上傳輸密碼。  
   
--   **摘要式驗證：**只適用於 Active Directory 帳戶，傳送透過網路，而不是純文字密碼的雜湊值。 摘要式驗證可跨 Proxy 伺服器和其他防火牆運作，而且可在「網路分散式撰寫及版本處理」(WebDAV) 目錄上使用。 使用摘要式驗證需要先停用匿名驗證。  
+-   **摘要式驗證：** 只適用於 Active Directory 帳戶，傳送透過網路，而不是純文字密碼的雜湊值。 摘要式驗證可跨 Proxy 伺服器和其他防火牆運作，而且可在「網路分散式撰寫及版本處理」(WebDAV) 目錄上使用。 使用摘要式驗證需要先停用匿名驗證。  
   
 -   **表單驗證**Accommodates 高流量網站或公用伺服器上的應用程式的驗證。 表單驗證可讓您管理應用程式層級的用戶端登錄與驗證，而非依賴作業系統提供的驗證機制。  
   
--   **Windows 驗證：**使用驗證來驗證用戶端連線在 Windows 網域上的。  
+-   **Windows 驗證：** 使用驗證來驗證用戶端連線在 Windows 網域上的。  
   
 #### <a name="to-set-user-access-rights-for-a-virtual-directory-in-iis-70"></a>若要在 IIS 7.0 中設定虛擬目錄的使用者存取權限  
   

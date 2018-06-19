@@ -1,14 +1,14 @@
 ---
-title: "交叉驗證欄位區段 |Microsoft 文件"
-ms.custom: 
+title: 交叉驗證欄位區段 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6e757b4f-71fe-44d5-9580-c8b1c8eb2366
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969397"
 ---
 # <a name="cross-field-segment-validation"></a>交叉驗證欄位區段
 EDI 接收管線和 EDI 傳送管線，可以對 X12 編碼訊息中的交易集資料元素執行欄位/區段交互驗證。 這種驗證就稱為 X12 中的關係條件。 欄位交互驗證是以註解表示，因此與 EDI 驗證相關。  

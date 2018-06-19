@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/using-tibco-rendezvous-receive-ports-from-biztalk-server/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: b1738a0933b5f570edfd882778e50ebf7e2ca730
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013525"
 ---
 # <a name="using-biztalk-server-from-tibco-rendezvous-to-receive-messages"></a>從 TIBCO Rendezvous 使用 BizTalk Server 接收訊息
 Microsoft BizTalk Adapter for TIBCO Rendezvous 會分派事件，從多個執行緒上的佇列。 BizTalk Server 接收位置會與一個 TIBCO Rendezvous 事件佇列和它的發送器執行緒集區關聯。  

@@ -1,14 +1,14 @@
 ---
-title: "警示管理命令 |Microsoft 文件"
-ms.custom: 
+title: 警示管理命令 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a96d8de7-a918-4737-aa35-4e1abf6bb08f
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967684"
 ---
 # <a name="alert-management-commands"></a>警示管理命令
 BAM 管理公用程式的警示管理命令可讓您使用已部署的警示。  
@@ -30,7 +31,7 @@ BAM 管理公用程式的警示管理命令可讓您使用已部署的警示。
 -   停用警示： 停用檢視上的警示。  
   
 > [!NOTE]
->  您可以藉由啟用任何 BM 公用程式命令的追蹤**-追蹤： 在 &#124; 關閉**切換參數。 使用追蹤參數會覆寫組態檔中的追蹤設定。 此參數可以搭配任何一般 BM 命令使用。  
+>  您可以藉由啟用任何 BM 公用程式命令的追蹤 **-追蹤： 在 &#124; 關閉**切換參數。 使用追蹤參數會覆寫組態檔中的追蹤設定。 此參數可以搭配任何一般 BM 命令使用。  
   
 > [!NOTE]
 >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  

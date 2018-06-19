@@ -1,11 +1,11 @@
 ---
-title: "在使用 WCF 通道模型的 Oracle 資料庫執行插入作業 |Microsoft 文件"
-ms.custom: 
+title: 在使用 WCF 通道模型的 Oracle 資料庫執行插入作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - inserting data, using a channel
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - channel programming, performing an insert operation
 - performing an insert operation, using a channel
 ms.assetid: 85c44507-0166-42ef-a908-6098f7a683fc
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963316"
 ---
 # <a name="run-an-insert-operation-in-oracle-database-using-the-wcf-channel-model"></a>在使用 WCF 通道模型的 Oracle 資料庫執行插入作業
 本節說明如何使用通道，Oracle 資料庫中插入一筆記錄。 當您傳送訊息時，您必須指定訊息本文和訊息動作。  

@@ -1,14 +1,14 @@
 ---
-title: "狀態監控定義 |Microsoft 文件"
-ms.custom: 
+title: 狀態監控定義 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: aa2c8247-5e25-4624-9f0d-c7fe621ffba2
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302510"
 ---
 # <a name="state-monitoring-definitions"></a>狀態監控定義
 狀態監視，可協助回答的受監視的電腦是否狀況良好從特定的應用程式的觀點來看一個給定時間問題。 System Center Operations Manager (SCOM) 更新對使用者公開的不同 managed 實體的狀態，並將狀態顯示的狀態監視檢視的一部分。  

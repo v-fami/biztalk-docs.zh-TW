@@ -1,14 +1,14 @@
 ---
-title: "SOA BizTalk 管理點的概觀 |Microsoft 文件"
-ms.custom: 
+title: SOA BizTalk 管理點的概觀 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0d4c3a30-c50e-4c1c-9f59-d9a364078388
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294926"
 ---
 # <a name="overview-of-the-soa-biztalk-management-point"></a>SOA BizTalk 管理點的概觀
 SOA 服務管理員和工作臺產品與原生整合，BizTalk 管理點。 不同於一般的 Web 服務管理點，這項實作都與 Microsoft BizTalk Server 環境，以表示 BizTalk Server 所提供的服務接收位置和傳送埠。 因為任意本質的接收位置和傳送埠 （針對各種不同的 BizTalk Server 配接器設定），這些服務不一定與 Web 服務相關聯，但它們可以被視為方面 SOA Service Manager 中的 Web 服務和 SOA Workbench。  

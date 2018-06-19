@@ -1,11 +1,11 @@
 ---
-title: "訊息修復程序 |Microsoft 文件"
-ms.custom: 
+title: 訊息修復程序 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - repairing messages
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - validating, messages
 - messages, validating
 ms.assetid: 87b97cec-5796-4684-bcf0-53285aca7ee2
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22211190"
 ---
 # <a name="message-repair-process"></a>訊息修復程序
 根據預設，[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]會擱置失敗的訊息擱置佇列中的 MessageBox 資料庫。 此程序會處理失敗的訊息分開成功訊息。 使用此預設的機制，不過，您必須擷取失敗的訊息，並加以修復的能力有限。 訊息修復和 New Submission 功能[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]啟用[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]修復訊息，然後再重新送出的使用者。 另一個[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]接著使用者可確認修復，以及第三個可以核准修復。  

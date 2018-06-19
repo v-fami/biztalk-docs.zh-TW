@@ -1,15 +1,15 @@
 ---
-title: "使用 WCF 服務模型的 SQL Server 從接收強型別輪詢基礎資料變更訊息 |Microsoft 文件"
-description: "使用.NET 應用程式來設定具型別的輪詢或搭配使用 WCF 服務和 WCF SQL 配接器在 BizTalk Server 中的強型別輪詢"
-ms.custom: 
+title: 使用 WCF 服務模型的 SQL Server 從接收強型別輪詢基礎資料變更訊息 |Microsoft 文件
+description: 使用.NET 應用程式來設定具型別的輪詢或搭配使用 WCF 服務和 WCF SQL 配接器在 BizTalk Server 中的強型別輪詢
+ms.custom: ''
 ms.date: 10/09/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b55eda71-1226-43f2-bc2f-e6b35563210b
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: f9c6ea3c9cfb8a43f765c0d3b8b07dacaa21fc51
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 10/09/2017
+ms.locfileid: "22622769"
 ---
 # <a name="receive-strongly-typed-polling-based-data-changed-messages-from-sql-server-using-wcf-service-model"></a>使用 WCF 服務模型的 SQL Server 從接收強型別輪詢基礎資料變更訊息
 您可以設定[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]來接收 SQL Server 中的強型別輪詢訊息。 您可以指定執行以輪詢資料庫配接器的輪詢陳述式。 輪詢陳述式可以是 SELECT 陳述式或預存程序會傳回結果集。 您必須使用強型別輪詢，在案例中您想要用來接收強型別之結果集。 如需有關如何配接器支援強型別輪詢的詳細資訊，請參閱[支援輸入呼叫使用輪詢](../../adapters-and-accelerators/adapter-oracle-ebs/support-for-inbound-calls-using-polling.md)。  
@@ -64,7 +65,7 @@ SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100
 |**InboundOperationType**|指定您是否要執行**輪詢**， **TypedPolling**，或**通知**輸入作業。 預設值是**輪詢**。 若要接收強型別輪詢訊息，將此設**TypedPolling**。|  
 |**PolledDataAvailableStatement**|指定的 SQL 陳述式來判斷是否可用於輪詢的任何資料執行配接器。 SQL 陳述式必須傳回的結果集資料列和資料行所組成。 只有一個資料列是否可用，SQL 陳述式指定**PollingStatement**繫結屬性將會執行。|  
 |**PollingIntervalInSeconds**|指定間隔，以秒為單位，此時[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]執行陳述式指定**PolledDataAvailableStatement**繫結屬性。 預設值是 30 秒。 輪詢間隔會決定後續輪詢間隔時間。 如果指定的間隔內執行的陳述式，則配接器就會等候剩餘的時間間隔中。|  
-|**PollingStatement**|指定輪詢 SQL Server 資料庫資料表的 SQL 陳述式。 您可以指定簡單的 SELECT 陳述式或預存程序輪詢陳述式。 預設值是 null。 您必須指定的值**PollingStatement**來啟用輪詢。 輪詢陳述式在沒有進行輪詢，取決於可用的資料時，才會執行**PolledDataAvailableStatement**繫結屬性。 您可以指定任意數目的 SQL 陳述式以分號分隔。 **重要事項：**如**TypedPolling**，您必須指定這個繫結屬性才能產生中繼資料。|  
+|**PollingStatement**|指定輪詢 SQL Server 資料庫資料表的 SQL 陳述式。 您可以指定簡單的 SELECT 陳述式或預存程序輪詢陳述式。 預設值是 null。 您必須指定的值**PollingStatement**來啟用輪詢。 輪詢陳述式在沒有進行輪詢，取決於可用的資料時，才會執行**PolledDataAvailableStatement**繫結屬性。 您可以指定任意數目的 SQL 陳述式以分號分隔。 **重要事項：** 如**TypedPolling**，您必須指定這個繫結屬性才能產生中繼資料。|  
 |**PollWhileDataFound**|指定是否[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]忽略的輪詢間隔，並為指定的 SQL 陳述式會持續執行**PolledDataAvailableStatement**如果輪詢資料表中的資料可繫結屬性。 如果沒有資料可在資料表中，配接器會還原為執行 SQL 陳述式，在指定的輪詢間隔。 預設值是**false**。|  
   
  如需這些屬性的更完整說明，請參閱[閱讀 BizTalk Adapter for SQL Server 配接器繫結屬性](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md)。 如需完整的說明，如何使用[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]進一步來輪詢 SQL Server，請閱讀。  

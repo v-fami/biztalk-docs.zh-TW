@@ -1,11 +1,11 @@
 ---
-title: "安全性個案研究： 公司 A |Microsoft 文件"
-ms.custom: 
+title: 安全性個案研究： 公司 A |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, examples
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - architecture, security
 - security, case studies
 ms.assetid: 9417ecf9-e340-479f-b120-552c62f3b189
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269942"
 ---
 # <a name="security-case-studies-company-a"></a>安全性個案研究： 公司 A
 公司 A 是工業方面材料與服務的主要供應商。 其商務模型需仰賴與重要客戶與供應商的電子交易。 公司 A 使用 Microsoft BizTalk Application 來管理內部與外部環境之間的交易與通訊。  

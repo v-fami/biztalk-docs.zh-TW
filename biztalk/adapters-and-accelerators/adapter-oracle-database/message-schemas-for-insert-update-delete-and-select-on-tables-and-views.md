@@ -1,11 +1,11 @@
 ---
-title: "訊息結構描述的基本 Insert、 Update、 Delete，然後選取資料表和檢視表上的作業 |Microsoft 文件"
-ms.custom: 
+title: 訊息結構描述的基本 Insert、 Update、 Delete，然後選取資料表和檢視表上的作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - operations on tables, message actions for
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - table operations, message schemas for
 - operations on tables, message structure for
 ms.assetid: 8228d5e6-14af-49e0-b34b-be03aea59189
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215998"
 ---
 # <a name="message-schemas-for-the-basic-insert-update-delete-and-select-operations-on-tables-and-views"></a>訊息結構描述基本的插入、 更新、 刪除和選取資料表和檢視表上的作業
 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]介面基本 Insert、 Update、 Delete 和 Select 的作業，每個資料表，並檢視 Oracle 資料庫中。 這些作業執行適當的 SQL 陳述式 WHERE 子句所限定。 [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]使用這些作業中的強型別記錄和資料錄集。  

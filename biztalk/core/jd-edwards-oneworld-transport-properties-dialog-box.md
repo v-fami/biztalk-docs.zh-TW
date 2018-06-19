@@ -21,6 +21,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015895"
 ---
 # <a name="jd-edwards-oneworld-transport-properties-dialog-box"></a>JD Edwards OneWorld 傳輸屬性對話方塊
 使用 [JD Edwards OneWorld 傳輸屬性] 對話方塊設定配接器必要屬性。  

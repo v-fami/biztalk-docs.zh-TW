@@ -11,7 +11,7 @@ helpviewer_keywords:
 - pipeline components [custom], examples
 - examples, pipeline components [custom]
 ms.assetid: 4eb26c38-5ece-42b0-a28e-73214df1dc41
-caps.latest.revision: ''
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25966756"
 ---
 # <a name="arbitrary-xpath-property-handler-biztalk-server-sample"></a>任意 XPath 屬性處理常式 （BizTalk Server 範例）
 「任意 XPath 屬性處理常式」([!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 範例) 示範如何撰寫自訂管線元件，以針對提交給 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的 XML 文件升級特定屬性。 您可以使用範例中包含的功能來建立自訂規則、組合器和解譯器元件，以評估 XPath 運算式。  
@@ -42,7 +43,7 @@ ms.lasthandoff: 03/28/2018
 7.  將新的 PO 文件寫入至 \Output 目錄中的檔案。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- *\<範例路徑\>*\Pipelines\ArbitraryXPathPropertyHandler  
+ *\<範例路徑\>* \Pipelines\ArbitraryXPathPropertyHandler  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
@@ -84,13 +85,13 @@ ms.lasthandoff: 03/28/2018
   
 1.  在命令視窗中，將目錄變更 (**cd**) 至下列資料夾︰  
   
-     *\<範例路徑\>*\Pipelines\ArbitraryXPathPropertyHandler  
+     *\<範例路徑\>* \Pipelines\ArbitraryXPathPropertyHandler  
   
 2.  執行檔案 Setup.bat，這會執行下列動作：  
   
     -   建置「任意 XPath 屬性處理常式」管線元件。  
   
-    -   複本建立管線元件來*\<安裝路徑\>*\Pipeline Components 目錄。  
+    -   複本建立管線元件來*\<安裝路徑\>* \Pipeline Components 目錄。  
   
     -   建立傳送埠和接收埠。  
   

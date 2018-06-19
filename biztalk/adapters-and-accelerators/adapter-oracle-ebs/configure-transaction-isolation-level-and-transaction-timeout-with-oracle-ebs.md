@@ -1,14 +1,14 @@
 ---
-title: "設定交易隔離等級和交易逾時與 Oracle E-business Suite |Microsoft 文件"
-ms.custom: 
+title: 設定交易隔離等級和交易逾時與 Oracle E-business Suite |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: db3d64ad-037d-486a-bdde-45c8199613f1
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215838"
 ---
 # <a name="configure-transaction-isolation-level-and-transaction-timeout-with-oracle-e-business-suite"></a>使用 Oracle E-business Suite 設定交易隔離等級和交易逾時
 在執行輸入的作業 （輪詢和通知） 時使用[!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]與[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]，您應該適當地設定交易隔離等級和交易逾時值。 若要這樣做：  

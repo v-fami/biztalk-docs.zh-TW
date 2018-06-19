@@ -1,18 +1,18 @@
 ---
-title: "伺服器執行階段安全性 |Microsoft 文件"
-ms.custom: 
+title: 伺服器執行階段安全性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, server runtime
 - servers, security
 - servers, runtime
 ms.assetid: 40f5ca3e-d9d3-4543-bd38-82283c343b76
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214126"
 ---
 # <a name="server-runtime-security"></a>伺服器執行階段安全性
 [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]Message Repair 和 New Submission 控管 SWIFT 訊息商務使用者、 後端系統和 SWIFT 網路端點之間的流量以安全且具有決定性的方式。 它會驗證商務使用者所提交的訊息，會驗證訊息的資料和商務規則正確，並將訊息路由傳送至後端系統或最終傳遞到 SWIFT 網路。 多個數位簽章的詳細資訊，請參閱 < 加密和簽署憑證 >，MSDN Library 網站上[http://go.microsoft.com/fwlink/?linkid=50285](http://go.microsoft.com/fwlink/?linkid=50285)。  

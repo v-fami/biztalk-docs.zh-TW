@@ -1,14 +1,14 @@
 ---
-title: "步驟 2c: 互動存放區和轉送 （提取） 案例中加入互動的傳送埠 |Microsoft 文件"
-ms.custom: 
+title: '步驟 2c: 互動存放區和轉送 （提取） 案例中加入互動的傳送埠 |Microsoft 文件'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 57038f77-85c3-4811-ab3d-df6e2da8fbcf
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964172"
 ---
 # <a name="step-2c-add-an-interact-send-port-for-the-interact-store-and-forward-pull-scenario"></a>步驟 2c: 互動存放區和轉送 （提取） 案例中加入互動的傳送埠
 在開始此步驟之前，必須先完成[步驟 2B： 將檔案傳送連接埠，以擷取 Sw:HandleRequest 訊息互動存放區和轉送 （提取） 案例](../../adapters-and-accelerators/fileact-interact/step-2b-add-file-send-ports-to-get-sw-handlerequest-message-for-interact.md)。  

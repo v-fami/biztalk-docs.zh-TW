@@ -1,14 +1,14 @@
 ---
-title: "取得 Oracle E-business Suite 作業的中繼資料 |Microsoft 文件"
-ms.custom: 
+title: 取得 Oracle E-business Suite 作業的中繼資料 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 566ae086-183a-47db-8f93-12b5903c85c3
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963788"
 ---
 # <a name="get-the-oracle-e-business-suite-operations-metadata"></a>取得 Oracle E-business Suite 作業的中繼資料
 您可以使用[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]產生選取的 Oracle E-business Suite 成品的結構描述。 您已經瀏覽及搜尋您想要叫用的成品之後，您可以產生結構描述的那些成品，並傳送訊息，符合結構描述到 Oracle E-business Suite 的資訊。  

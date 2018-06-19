@@ -9,7 +9,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: baecebcd-c324-40aa-bacf-876f45b6c37f
-caps.latest.revision: ''
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "24014453"
 ---
 # <a name="configure-jd-edwards-enterpriseone-artifacts-in-biztalk-administration"></a>在 BizTalk 管理中設定 JD Edwards EnterpriseOne 成品
 Microsoft BizTalk Adapter for J.D.Edwards EnterpriseOne 包含 [接收處理常式] 和 [傳送處理常式] 資料夾。 這些資料夾包含 BizTalkServerApplication。 BizTalk Adapter for J.D.Edwards EnterpriseOne 是可建立的；它會在與 BizTalk Server 相同的程序中執行，而且不會在外掛式主控件程序中執行。  
@@ -69,7 +70,7 @@ JD Edwards EnterpriseOne 傳輸屬性是用於設計與執行階段。 在**傳�
   
 4.  在 **一般**, 中 **傳輸類型** 方塊中，選取 **JDE EnterpriseOne** 下拉式清單中。  
   
-5.  在**位址 (URI)**屬性選取省略符號 (**...**). **JDE EnterpriseOne 傳輸屬性**開啟： 
+5.  在**位址 (URI)** 屬性選取省略符號 (**...**). **JDE EnterpriseOne 傳輸屬性**開啟： 
   
      ![](../core/media/jdeenterprise-trans.gif "JDEEnterprise_Trans")  
   

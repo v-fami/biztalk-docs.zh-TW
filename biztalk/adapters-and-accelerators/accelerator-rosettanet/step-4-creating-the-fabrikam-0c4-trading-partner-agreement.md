@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966972"
 ---
 # <a name="step-4-creating-the-fabrikam-0c4-trading-partner-agreement"></a>步驟 4： 建立 Fabrikam 0 C 4 交易夥伴協議
 在此步驟中，您將使用 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 管理主控台，在 Contoso 與 Fabrikam 之間建立交易夥伴協議。 您將為 0C4 交易夥伴介面程序 (PIP) 建立新的交易夥伴協議。  
@@ -40,7 +41,7 @@ ms.lasthandoff: 11/28/2017
     |**我的組織**|選取**Fabrikam**從下拉式清單。|  
     |**夥伴組織**|選取**Contoso**從下拉式清單。|  
     |**RNIF 版本**|選取**V02.00.01**從下拉式清單。|  
-    |**主要角色**|選取**啟動器 （啟動者）**從下拉式清單。|  
+    |**主要角色**|選取**啟動器 （啟動者）** 從下拉式清單。|  
     |**使用方式**|選取**測試**從下拉式清單。|  
   
 3.  按一下**連接埠**索引標籤，然後再執行下列動作：  

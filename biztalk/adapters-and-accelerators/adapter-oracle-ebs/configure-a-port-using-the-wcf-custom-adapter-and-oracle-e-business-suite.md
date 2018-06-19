@@ -1,15 +1,15 @@
 ---
-title: "設定連接埠使用 wcf-custom 配接器和 Oracle E-business Suite 在 BizTalk |Microsoft 文件"
-description: "使用 Wcf-custom 配接器接收或傳送訊息從 BizTalk Server 中的 Oracle EBS"
-ms.custom: 
+title: 設定連接埠使用 wcf-custom 配接器和 Oracle E-business Suite 在 BizTalk |Microsoft 文件
+description: 使用 Wcf-custom 配接器接收或傳送訊息從 BizTalk Server 中的 Oracle EBS
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 83d0bb00-934c-40cf-8833-354e7ce7e927
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218366"
 ---
 # <a name="configure-a-port-using-the-wcf-custom-adapter-and-oracle-e-business-suite"></a>設定連接埠使用 wcf-custom 配接器和 Oracle E-business Suite
 如何設定 Wcf-custom 傳送埠和接收埠輸出和輸入上執行作業使用 Oracle E-business Suite [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]。  
@@ -42,7 +43,7 @@ ms.lasthandoff: 09/20/2017
   
 7.  在**Wcf-custom 傳輸屬性**對話方塊方塊中，執行下列動作：  
   
-    1.  按一下**一般** 索引標籤，然後在**位址 (URI)**欄位中，指定 for Oracle E-business Suite 連線 URI。 如需連線 URI 的詳細資訊，請參閱[建立 Oracle E-business Suite 連線 URI](../../adapters-and-accelerators/adapter-oracle-ebs/create-the-oracle-e-business-suite-connection-uri.md)。  
+    1.  按一下**一般** 索引標籤，然後在**位址 (URI)** 欄位中，指定 for Oracle E-business Suite 連線 URI。 如需連線 URI 的詳細資訊，請參閱[建立 Oracle E-business Suite 連線 URI](../../adapters-and-accelerators/adapter-oracle-ebs/create-the-oracle-e-business-suite-connection-uri.md)。  
   
     2.  在**一般**索引標籤的**動作**文字方塊中，輸入作業的動作。 請參閱[訊息和 Oracle EBS 配接器的訊息結構描述](messages-and-message-schemas-for-biztalk-adapter-for-oracle-e-business-suite.md)) 的每個作業的動作清單。 例如，叫用 (FA_BOOKS) 資產的應用程式 下的介面資料表的 Insert 作業的動作是：  
   
@@ -102,7 +103,7 @@ ms.lasthandoff: 09/20/2017
   
 8.  在**Wcf-custom 傳輸屬性**對話方塊方塊中，執行下列動作：  
   
-    1.  按一下**一般** 索引標籤，然後在**位址 (URI)**欄位中，指定 for Oracle E-business Suite 連線 URI。 如需連線 URI 的詳細資訊，請參閱[建立 Oracle E-business Suite 連線 URI](../../adapters-and-accelerators/adapter-oracle-ebs/create-the-oracle-e-business-suite-connection-uri.md)。  
+    1.  按一下**一般** 索引標籤，然後在**位址 (URI)** 欄位中，指定 for Oracle E-business Suite 連線 URI。 如需連線 URI 的詳細資訊，請參閱[建立 Oracle E-business Suite 連線 URI](../../adapters-and-accelerators/adapter-oracle-ebs/create-the-oracle-e-business-suite-connection-uri.md)。  
   
     2.  按一下**繫結** 索引標籤，並從**繫結的型別**下拉式清單中，選取**oracleEBSBinding**。 您可以指定不同的繫結屬性所公開[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]。 如需繫結屬性的詳細資訊，請參閱[閱讀 BizTalk Adapter for Oracle E-business Suite 繫結屬性](../../adapters-and-accelerators/adapter-oracle-ebs/read-about-the-biztalk-adapter-for-oracle-e-business-suite-binding-properties.md)。  
   

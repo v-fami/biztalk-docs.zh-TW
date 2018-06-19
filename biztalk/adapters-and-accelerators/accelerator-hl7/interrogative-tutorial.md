@@ -1,18 +1,18 @@
 ---
-title: "Interrogative 教學課程 |Microsoft 文件"
-ms.custom: 
+title: Interrogative 教學課程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - interrogative tutorial
 - interrogative tutorial, about the tutorial
 - tutorials, interrogative tutorial
 ms.assetid: 93988429-5544-4920-821f-54f0a67bda72
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25960548"
 ---
 # <a name="interrogative-tutorial"></a>Interrogative 教學課程
 本教學課程包含詳細的步驟，說明如何使用[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]輔助商務程序中查詢/回應實例。  

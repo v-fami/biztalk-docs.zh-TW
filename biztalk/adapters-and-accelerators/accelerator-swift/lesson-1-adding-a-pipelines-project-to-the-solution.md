@@ -1,17 +1,17 @@
 ---
-title: "第 1 課： 加入方案中的管線專案 |Microsoft 文件"
-ms.custom: 
+title: 第 1 課： 加入方案中的管線專案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - projects, adding pipelines
 - pipelines, adding to projects
 ms.assetid: ae058b52-e2ea-406c-9f9f-6cb1b72413d2
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25965700"
 ---
 # <a name="lesson-1-adding-a-pipelines-project-to-the-solution"></a>第 1 課： 加入方案中的管線專案
 在這一課，您將新的 BizTalk 專案 for SWIFT 管線至方案，讓您可以自訂傳送及接收管線。  

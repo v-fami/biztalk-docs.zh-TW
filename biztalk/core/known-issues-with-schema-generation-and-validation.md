@@ -1,14 +1,14 @@
 ---
-title: "結構描述產生和驗證的已知問題 |Microsoft 文件"
-ms.custom: 
+title: 結構描述產生和驗證的已知問題 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: df1eaa6c-0d3e-4aec-9de0-8b9817b7bb97
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24016009"
 ---
 # <a name="known-issues-with-schema-generation-and-validation"></a>結構描述的產生和驗證的已知的問題
 本主題提供產生和驗證結構描述的已知問題相關資訊。  

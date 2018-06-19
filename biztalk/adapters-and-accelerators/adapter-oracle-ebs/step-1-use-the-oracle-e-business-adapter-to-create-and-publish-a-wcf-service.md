@@ -1,14 +1,14 @@
 ---
-title: "步驟 1： 使用 Oracle E-business 配接器來建立和發佈的 WCF 服務 |Microsoft 文件"
-ms.custom: 
+title: 步驟 1： 使用 Oracle E-business 配接器來建立和發佈的 WCF 服務 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7cd76f6f-600f-4eb5-8eee-8f3604d0fef4
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,13 +17,14 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967796"
 ---
 # <a name="step-1-use-the-oracle-e-business-adapter-to-create-and-publish-a-wcf-service"></a>步驟 1： 使用 Oracle E-business 配接器來建立和發佈的 WCF 服務
 ![步驟 4 之 1](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-1of4.gif "Step_1of4")  
   
  **若要完成的時間：** 15 分鐘  
   
- **目標：**您可以使用[!INCLUDE[afsvcdevwizlong](../../includes/afsvcdevwizlong-md.md)]產生從 Oracle E-business Suite 成品，例如網際網路資訊服務 (IIS) 或 Windows Process Activation Service (WAS) 裝載環境中可以裝載 WCF 服務。 本主題示範如何使用精靈來產生 WCF 服務檔案。  
+ **目標：** 您可以使用[!INCLUDE[afsvcdevwizlong](../../includes/afsvcdevwizlong-md.md)]產生從 Oracle E-business Suite 成品，例如網際網路資訊服務 (IIS) 或 Windows Process Activation Service (WAS) 裝載環境中可以裝載 WCF 服務。 本主題示範如何使用精靈來產生 WCF 服務檔案。  
   
 ## <a name="prerequisites"></a>必要條件  
  執行精靈之前，安裝下列項目：  
@@ -112,8 +113,8 @@ ms.lasthandoff: 11/28/2017
         |----------------------|-----------------------|  
         |驗證類型|Microsoft Office SharePoint Server 來取用 WCF 服務，您應該設定為**HTTPUserNamePassword**。 這可讓用戶端的 HTTP 標頭中指定使用者名稱和密碼。|  
         |名稱|指定端點行為組態名稱。 此教學課程中，輸入**customEndpointBehavior**。|  
-        |UsernameHeader|使用者名稱標頭的名稱。 此範例中，指定**MyUserHeader**。 HTTP 標頭的詳細資訊，請參閱 < 支援的自訂 HTTP 和 SOAP 標頭 >，網址[http://go.microsoft.com/fwlink/?LinkId=106692](http://go.microsoft.com/fwlink/?LinkId=106692)。 **注意：**您必須指定此屬性的值，如果**驗證類型**設**HTTPUserNamePassword**。 如果**驗證類型**設**自動**，這是選擇性屬性。|  
-        |PasswordHeader|密碼標頭的名稱。 此範例中，指定**MyPassHeader**。 HTTP 標頭的詳細資訊，請參閱 < 支援的自訂 HTTP 和 SOAP 標頭 >，網址[http://go.microsoft.com/fwlink/?LinkId=106692](http://go.microsoft.com/fwlink/?LinkId=106692)。 **注意：**您必須指定此屬性的值，如果**驗證類型**設**HTTPUserNamePassword**。 如果**驗證類型**設**自動**，這是選擇性屬性。|  
+        |UsernameHeader|使用者名稱標頭的名稱。 此範例中，指定**MyUserHeader**。 HTTP 標頭的詳細資訊，請參閱 < 支援的自訂 HTTP 和 SOAP 標頭 >，網址[http://go.microsoft.com/fwlink/?LinkId=106692](http://go.microsoft.com/fwlink/?LinkId=106692)。 **注意：** 您必須指定此屬性的值，如果**驗證類型**設**HTTPUserNamePassword**。 如果**驗證類型**設**自動**，這是選擇性屬性。|  
+        |PasswordHeader|密碼標頭的名稱。 此範例中，指定**MyPassHeader**。 HTTP 標頭的詳細資訊，請參閱 < 支援的自訂 HTTP 和 SOAP 標頭 >，網址[http://go.microsoft.com/fwlink/?LinkId=106692](http://go.microsoft.com/fwlink/?LinkId=106692)。 **注意：** 您必須指定此屬性的值，如果**驗證類型**設**HTTPUserNamePassword**。 如果**驗證類型**設**自動**，這是選擇性屬性。|  
   
      下圖顯示 [設定服務與端點行為] 頁面，以指定的值。  
   
@@ -127,7 +128,7 @@ ms.lasthandoff: 11/28/2017
   
     |屬性|指定的值|  
     |----------------------|-----------------------|  
-    |繫結組態|此精靈只支援基本 HTTP 繫結。 因此，繫結設定欄位所自動填入*System.ServiceModel.Configuration.BasicHttpBindingElement*。<br /><br /> 按一下省略符號按鈕**（...）**變更 HTTP 繫結的屬性。 若要使用安全通訊通道，您都必須設定**模式**屬性**傳輸**。 精靈會設定的預設值為**模式**屬性做為**傳輸**。<br /><br /> 公開的其他繫結的詳細資訊，請參閱 < BasicHttpBindingElement 成員 >，網址[http://go.microsoft.com/fwlink/?LinkId=103773](http://go.microsoft.com/fwlink/?LinkId=103773)。|  
+    |繫結組態|此精靈只支援基本 HTTP 繫結。 因此，繫結設定欄位所自動填入*System.ServiceModel.Configuration.BasicHttpBindingElement*。<br /><br /> 按一下省略符號按鈕 **（...）** 變更 HTTP 繫結的屬性。 若要使用安全通訊通道，您都必須設定**模式**屬性**傳輸**。 精靈會設定的預設值為**模式**屬性做為**傳輸**。<br /><br /> 公開的其他繫結的詳細資訊，請參閱 < BasicHttpBindingElement 成員 >，網址[http://go.microsoft.com/fwlink/?LinkId=103773](http://go.microsoft.com/fwlink/?LinkId=103773)。|  
     |端點名稱|指定合約的端點名稱。|  
   
      此頁面上的其他欄位會自動填入您在先前頁面中指定的值。  
@@ -186,7 +187,7 @@ SelectResponse InterfaceTables_FND_APPS_MS_SAMPLE_EMPLOYEE.Select(SelectRequest 
     ```  
   
     > [!NOTE]
-    >  您必須發佈 WCF 服務 SSL 已啟用的位置。 換句話說中的值**目標位置**方塊必須以"https://"開頭。 因為使用者認證會在 HTTP 標頭中傳遞，精靈會自動設定配接器的繫結行為，若要使用 「 傳輸 」 做為安全性模式，表示 SSL 加密。 您當然可以返回，並編輯 web.config 檔案，以變更的值**\<安全性模式\>**參數，但使用 SSL 時，一定會更好的選項有純傳輸機密資訊HTTP 標頭中的文字。  
+    >  您必須發佈 WCF 服務 SSL 已啟用的位置。 換句話說中的值**目標位置**方塊必須以"https://"開頭。 因為使用者認證會在 HTTP 標頭中傳遞，精靈會自動設定配接器的繫結行為，若要使用 「 傳輸 」 做為安全性模式，表示 SSL 加密。 您當然可以返回，並編輯 web.config 檔案，以變更的值**\<安全性模式\>** 參數，但使用 SSL 時，一定會更好的選項有純傳輸機密資訊HTTP 標頭中的文字。  
   
 3.  從**複製**方塊中，按一下**所有專案檔**。  
   

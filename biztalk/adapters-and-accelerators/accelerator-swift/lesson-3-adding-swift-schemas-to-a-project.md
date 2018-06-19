@@ -1,17 +1,17 @@
 ---
-title: "第 3 課： 加入 SWIFT 的結構描述至專案 |Microsoft 文件"
-ms.custom: 
+title: 第 3 課： 加入 SWIFT 的結構描述至專案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - schemas, adding to projects
 - projects
 ms.assetid: e17ef4b8-f060-44cc-b988-0f9f54deab90
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25961988"
 ---
 # <a name="lesson-3-adding-swift-schemas-to-a-project"></a>第 3 課： 加入 SWIFT 的結構描述至專案
 現在您的方案和新的專案，您可以新增項目至專案。 您加入的第一個項目是 MT103 SWIFT 付款訊息結構描述。 當您選取的結構描述範本時，BizTalk 編輯器會啟動。  

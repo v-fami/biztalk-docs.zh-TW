@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214046"
 ---
 # <a name="updating-swift-messaging-standards"></a>更新 SWIFT 訊息標準
 協會的全球 Interbank 財務 Telecommunication (SWIFT) 時更新其訊息標準每年的金融服務所提出的產業和採用標準的變更。 當 SWIFT 更新其標準版指南，[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]結構描述和 BRE 原則必須更新為符合最新的 SWIFT 規格。  

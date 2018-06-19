@@ -1,14 +1,14 @@
 ---
-title: "單一登入的需求 |Microsoft 文件"
-ms.custom: 
+title: 單一登入的需求 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d1111377-2fe1-4d65-ac0d-c89d2f1740b8
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015621"
 ---
 # <a name="requirements-for-single-sign-on"></a>單一登入的需求
 若要使用單一登入 (SSO)，您必須已安裝下列軟體：  

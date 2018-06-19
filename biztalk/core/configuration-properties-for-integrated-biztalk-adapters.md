@@ -1,11 +1,11 @@
 ---
-title: "整合式的 BizTalk 配接器的組態屬性 |Microsoft 文件"
-ms.custom: 
+title: 整合式的 BizTalk 配接器的組態屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapters, security
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - adapters, properties
 - binding files, security
 ms.assetid: 4780a558-4322-428a-aa4a-0c32913faded
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969956"
 ---
 # <a name="configuration-properties-for-integrated-biztalk-adapters"></a>整合式 BizTalk 配接器的組態屬性
 「 BizTalk 總管物件模型公開**IReceiveLocation.CustomData**和**ISendPort.CustomData**包含配接器組態屬性包形式的名稱/值的屬性組 XML 字串。 此名稱/值組 XML 字串會儲存在\<CustomProps\>內的項目\<TransportTypeData\>繫結檔案中的項目。 中的資訊，大部分\<CustomProps\>項目對應到配接器可以設定 BizTalk Server 使用者介面 （例如 BizTalk 管理主控台或 BizTalk 總管 中） 中的資訊。 如果這些值存在於繫結檔案中，當匯入繫結檔案時，它們便會套用至指定之接收位置和傳送埠的配接器組態。 所有配接器的組態資訊都會儲存在「單一登入」資料庫中。  

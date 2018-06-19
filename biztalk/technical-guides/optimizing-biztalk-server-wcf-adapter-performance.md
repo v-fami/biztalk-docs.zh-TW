@@ -1,14 +1,14 @@
 ---
-title: "BizTalk Server WCF 配接器效能最佳化 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Server WCF 配接器效能最佳化 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2900c845-15be-4466-8fa0-b51b2486842f
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299670"
 ---
 # <a name="optimizing-biztalk-server-wcf-adapter-performance"></a>BizTalk Server WCF 配接器效能最佳化
 本主題提供選取適當的 WCF 配接器或繫結型別和指導方針套用不同的 WCF 配接器組態選項的建議。  
@@ -92,7 +93,7 @@ ms.lasthandoff: 09/20/2017
 |設定|.NET Framework 4 的預設值|適用於.NET Framework 4 的建議的值|預設值，適用於.NET Framework 3.5|建議值適用於.Net Framework 3.5|  
 |-------------|----------------------------------------|--------------------------------------------|------------------------------------------|----------------------------------------------|  
 |**ServiceThrottlingBehavior.MaxConcurrentCalls** -取得或設定值，這個值會指定上主動處理的訊息數目上限**ServiceHost**。 **MaxConcurrentCalls**屬性會指定上主動處理的訊息數目上限**ServiceHost**物件。 每個通道可以有一個暫止的訊息不會計算的值， **MaxConcurrentCalls**直到 WCF 開始處理它。 如需有關這個屬性的詳細資訊，請參閱[ServiceThrottlingBehavior.MaxConcurrentCalls](http://go.microsoft.com/fwlink/?LinkId=157838) (http://go.microsoft.com/fwlink/?LinkId=157838) MSDN 上。 預設值為 BizTalk Wcf-custom 和 Wcf-customisolated 接收配接器**MaxConcurrentCalls**屬性是**16**每個 CPU。 **注意：** BizTalk Server WCF 接收配接器以外的 Wcf-custom 和 Wcf-customisolated 配接器公開**同時呼叫上限**屬性**繫結** 索引標籤**WCF-\*傳輸屬性**對話方塊，即可設定此行為。 預設值**同時呼叫上限**行為是**200**。|16 * ProcessorCount|16 * ProcessorCount|-16 個 BizTalk Wcf-custom 和 Wcf-customisolated 接收配接器。<br />-200 其他 wcf 接收配接器。|-請嘗試 > = 200，Wcf-custom 和 Wcf-customisolated 接收配接器。<br />-再次嘗試 > 為 200**同時呼叫上限**屬性**繫結** 索引標籤**WCF-\*傳輸屬性**BizTalk Server WCF 對話方塊接收 Wcf-custom 和 Wcf-customisolated 配接器以外的配接器。|  
-|**ServiceThrottlingBehavior.maxConcurrentInstances** -取得或設定值，指定最大數目**InstanceContext**可以同時執行的服務中的物件。 **MaxConcurrentInstances**屬性指定的最大數目**InstanceContext**服務中的物件。 請務必記住之間的關聯性**MaxConcurrentInstances**屬性和**InstanceContextMode**屬性。 如果**InstanceContextMode**是 PerSession，產生的值是工作階段總數。 如果**InstanceContextMode**為 PerCall，產生的值是同時呼叫數目。 如果訊息抵達時的最大數目**InstanceContext**物件已經存在，會保留該訊息，直到**InstanceContext**物件關閉。 如需有關這個屬性的詳細資訊，請參閱[ServiceThrottlingBehavior.MaxConcurrentInstances 屬性](http://go.microsoft.com/fwlink/?LinkId=157897)(http://go.microsoft.com/fwlink/?LinkId=157897) MSDN 上。 個 Wcf-custom 和 Wcf-customisolated 接收配接器 MaxConcurrentInstances 屬性的預設值是**116**每個 CPU。 **注意：**因為 WCF 接收位置會實作為包含 Microsoft.BizTalk.Adapter.Wcf.Runtime.dll 組件中，但是由於此類別標示為 ServiceBehavior (InstanceContextMode BizTalkServiceInstance 類別的執行個體= InstanceContextMode.Single，ConcurrencyMode=ConcurrencyMode.Multiple）。 所有連入要求都受相同的單一物件，這個參數已忽略。 因此 maxConcurrentInstances 屬性設定特定 Wcf-custom 接收位置會有任何作用，因為作用中的執行個體的數目會一律等於 1。|116 * ProcessorCount|116 * ProcessorCount|26|再試一次 > = 200|  
+|**ServiceThrottlingBehavior.maxConcurrentInstances** -取得或設定值，指定最大數目**InstanceContext**可以同時執行的服務中的物件。 **MaxConcurrentInstances**屬性指定的最大數目**InstanceContext**服務中的物件。 請務必記住之間的關聯性**MaxConcurrentInstances**屬性和**InstanceContextMode**屬性。 如果**InstanceContextMode**是 PerSession，產生的值是工作階段總數。 如果**InstanceContextMode**為 PerCall，產生的值是同時呼叫數目。 如果訊息抵達時的最大數目**InstanceContext**物件已經存在，會保留該訊息，直到**InstanceContext**物件關閉。 如需有關這個屬性的詳細資訊，請參閱[ServiceThrottlingBehavior.MaxConcurrentInstances 屬性](http://go.microsoft.com/fwlink/?LinkId=157897)(http://go.microsoft.com/fwlink/?LinkId=157897) MSDN 上。 個 Wcf-custom 和 Wcf-customisolated 接收配接器 MaxConcurrentInstances 屬性的預設值是**116**每個 CPU。 **注意：** 因為 WCF 接收位置會實作為包含 Microsoft.BizTalk.Adapter.Wcf.Runtime.dll 組件中，但是由於此類別標示為 ServiceBehavior (InstanceContextMode BizTalkServiceInstance 類別的執行個體= InstanceContextMode.Single，ConcurrencyMode=ConcurrencyMode.Multiple）。 所有連入要求都受相同的單一物件，這個參數已忽略。 因此 maxConcurrentInstances 屬性設定特定 Wcf-custom 接收位置會有任何作用，因為作用中的執行個體的數目會一律等於 1。|116 * ProcessorCount|116 * ProcessorCount|26|再試一次 > = 200|  
 |**ServiceThrottlingBehavior.MaxConcurrentSessions** - **MaxConcurrentSessions**屬性取得或設定工作階段數目上限**ServiceHost**物件可以接受一次. 請務必了解工作階段在此情況下並不限於支援可靠工作階段的通道。 每個接聽程式物件只能有一個暫止通道工作階段，不會計算的值**MaxConcurrentSessions**直到 WCF 接受通道工作階段並開始處理通道工作階段訊息。 這個屬性是在最有用的工作階段所運用的案例。 當這個屬性設定為小於用戶端執行緒數目的值時，來自多個用戶端的要求可能會在相同的通訊端連線中形成佇列。 將會封鎖來自尚未以服務建立工作階段的用戶端的要求。 它們會保持封鎖，直到服務關閉其工作階段與其他用戶端，如果服務上的開啟工作階段數目已達到指定的值**MaxConcurrentSessions**。 不提供服務的用戶端要求會再逾時，並在服務關閉工作階段。 若要避免這種情況，請考慮執行用戶端執行緒從不同的應用程式定義域，以便接受要求訊息的不同通訊端連線。 如需有關這個屬性的詳細資訊，請參閱[ServiceThrottlingBehavior.MaxConcurrentSessions 屬性](http://go.microsoft.com/fwlink/?LinkID=157864)(http://go.microsoft.com/fwlink/?LinkId=157864) MSDN 上。|100 * ProcessorCount|100 * ProcessorCount|10|再試一次 > = 200|  
   
  當修改連接埠組態設定套用變更有條理地;個別修改每個參數，並測試效能和整體穩定性的變更影響。 要套用適當的值一定，取決於特定案例： 如果設定值太低，可以降低延展性。而如果值設得太高，應用程式的需求可能會超過電腦上的實體資源的容量。 此外，由於這些屬性在相關，他們應該設定一致且保持一致的方式。 如需使用 ServiceThrottlingBehavior 來控制 WCF 服務效能的詳細資訊，請參閱[使用 ServiceThrottlingBehavior 來控制 WCF 服務效能](http://go.microsoft.com/fwlink/?LinkId=157908)(http://go.microsoft.com/fwlink/?LinkId=157908) MSDN 上。  

@@ -1,17 +1,17 @@
 ---
-title: "配接器登錄精靈 |Microsoft 文件"
-ms.custom: 
+title: 配接器登錄精靈 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - utilities, Adapter Registration Wizard
 - Adapter Registration Wizard
 ms.assetid: bd15d0c7-01bb-41f9-9157-cdcf4bb4e39a
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,12 +20,13 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965316"
 ---
 # <a name="adapter-registry-wizard"></a>配接器登錄精靈
 您可以使用配接器登錄精靈來建立設定和註冊自訂的配接器所需的登錄檔。  
   
 ## <a name="location-in-sdk"></a>SDK 中的位置  
- *\<安裝路徑\>*\SDK\Utilities\AdapterRegistryWizard\  
+ *\<安裝路徑\>* \SDK\Utilities\AdapterRegistryWizard\  
   
 ## <a name="to-run-this-utility"></a>執行此公用程式  
  執行 AdapterRegistryWizard.exe 可執行檔，以啟動精靈。 接下來將會出現幾個頁面，提示您輸入有關配接器的資訊，以及配接器支援的屬性。 下列各節將描述「配接器登錄精靈」的各個頁面。  

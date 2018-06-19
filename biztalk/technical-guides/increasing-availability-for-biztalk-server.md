@@ -1,14 +1,14 @@
 ---
-title: "增加可用性，以便讓 BizTalk Server |Microsoft 文件"
-ms.custom: 
+title: 增加可用性，以便讓 BizTalk Server |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 72d9ce5e-d775-4f8e-b1a4-bf3c7c05f571
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22297998"
 ---
 # <a name="increasing-availability-for-biztalk-server"></a>增加可用性，以便讓 BizTalk Server
 本節說明您可以提高可用性的方法您[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統。  

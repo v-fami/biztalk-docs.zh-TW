@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22298134"
 ---
 # <a name="how-to-avoid-disk-contention"></a>如何避免磁碟爭用
 BizTalk Server 設計為持續性的系統。 針對高輸送量、 MessageBox 和 「 BizTalk 追蹤資料庫可能會遇到嚴重的爭用情況。 這個爭用情況可能會因緩慢的磁碟而加重。 如果磁碟緩慢 （大於 15ms 平均 avg.Disk sec/Read 或 avgDisk sec/Write)，它可能會造成 SQL Server 來保存鎖定更久 （高鎖定等候時間及高鎖定逾時）。 亦可以使得 MessageBox 表格 （多工緩衝處理和應用程式佇列） 的成長，讓資料庫膨脹和節流。 這種情況下，最終結果都較低的整體持續性輸送量。  

@@ -1,14 +1,14 @@
 ---
-title: "健全狀況彙總的方式 |Microsoft 文件"
-ms.custom: 
+title: 健全狀況彙總的方式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c37644cd-7d3c-4e93-ad56-101043cfa685
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22297662"
 ---
 # <a name="how-health-rolls-up"></a>健全狀況的積存方式
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理組件會將 BizTalk Server 部署、 應用程式和其構成成品分類成其中一層的健全狀況可以相依於較低層級的健全狀況的圖層結構。  

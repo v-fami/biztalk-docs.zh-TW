@@ -1,17 +1,17 @@
 ---
-title: "使用 SELECT 陳述式的輪詢 Oracle 資料庫 |Microsoft 文件"
-ms.custom: 
+title: 使用 SELECT 陳述式的輪詢 Oracle 資料庫 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - polling-based notifications, receiving from Oracle
 - polling query, configuring a
 ms.assetid: d2689eb9-6f17-498f-8a32-07f43a368833
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965092"
 ---
 # <a name="poll-oracle-database-using-the-select-statement"></a>使用 SELECT 陳述式的輪詢 Oracle 資料庫
 您可以設定[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]接收定期的資料變更訊息，若要連續輪詢的資料表和檢視 Oracle 與 Oracle 資料庫中的使用 SELECT 陳述式。 您可以指定 SELECT 陳述式，為配接器執行定期輪詢 Oracle 資料庫的輪詢陳述式。 （選擇性） 您也可以指定的資料變更時，執行配接器的後輪詢 PL/SQL 程式碼區塊。 此區塊會經常更新目標中的查詢記錄中的欄位，或將查詢的記錄移到另一個資料表或檢視表。  
@@ -149,7 +150,7 @@ SELECT * FROM ACCOUNTACTIVITY FOR UPDATE
   
 |形狀圖|圖形類型|屬性|  
 |-----------|----------------|----------------|  
-|ReceiveMessage|Receive|-設定**名稱**至*ReceiveMessage*<br /><br /> -設定**啟動**至*，則為 True*|  
+|ReceiveMessage|Receive|-設定**名稱**至*ReceiveMessage*<br /><br /> -設定**啟動**至 *，則為 True*|  
 |SaveMessage|Send|-設定**名稱**至*SaveMessage*|  
   
 ### <a name="adding-ports"></a>新增連接埠  

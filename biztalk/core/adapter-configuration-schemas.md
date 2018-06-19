@@ -1,14 +1,14 @@
 ---
-title: "配接器組態結構描述 |Microsoft 文件"
-ms.custom: 
+title: 配接器組態結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cc08fa71-c5f7-4365-9506-e02351b17567
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966500"
 ---
 # <a name="adapter-configuration-schemas"></a>配接器組態結構描述
 配接器的設計階段組態中會使用不同類型的結構描述。 依據屬性值的可見性和範圍，將會修改及使用不同的結構描述。  

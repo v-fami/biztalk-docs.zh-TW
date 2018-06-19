@@ -1,14 +1,14 @@
 ---
-title: "運算質輸入參數 |Microsoft 文件"
-ms.custom: 
+title: 運算質輸入參數 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cca24f93-74a8-460c-b9ab-9aa2c767fe2f
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968508"
 ---
 # <a name="functoid-input-parameters"></a>運算質輸入參數
 在您的對應中使用運算質的重要層面可能會正確設定運算質的輸入參數。 輸入參數的順序並不重要的所有運算質時 (例如**加法**運算質，會顯示相同關聯預期從加法的屬性)，許多運算質必須有其輸入的參數指定正確的順序。  

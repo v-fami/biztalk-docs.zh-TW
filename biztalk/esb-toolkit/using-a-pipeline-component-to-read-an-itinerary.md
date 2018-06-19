@@ -1,14 +1,14 @@
 ---
-title: "使用管線元件讀取行程 |Microsoft 文件"
-ms.custom: 
+title: 使用管線元件讀取行程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7e3b40c7-0f17-4d33-a26f-f51346a98be5
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22296190"
 ---
 # <a name="using-a-pipeline-component-to-read-an-itinerary"></a>使用管線元件讀取行程
 接收管線中的訊息可以包含其定義了其處理需求 （用戶端路線） 的 SOAP 標頭中的中繼資料。 圖 1 說明如何使用 「 ESB 行程和 ESB 發送器管線元件。  
@@ -101,4 +102,4 @@ ms.lasthandoff: 09/20/2017
   
     -   **Microsoft.Practices.ESB.Services.Transform。** 此服務會執行對傳入訊息的裝載 BizTalk 對應。 服務驗證的轉換需求，並更新 BizTalk 內容屬性包含文件規格名稱和訊息類型。 ESB 發送器會執行這項服務，才出現在 ESB 發送器管線元件的對應屬性，這會是轉換服務的名稱。  
   
-    -   **Microsoft.Practices.ESB.Services.Routing。**此服務使用的解析程式和配接器提供者架構設定適當的端點的路由資訊。 ESB 發送器會執行這項服務，才出現在 ESB 發送器管線元件的對應屬性，這會是路由服務的名稱。
+    -   **Microsoft.Practices.ESB.Services.Routing。** 此服務使用的解析程式和配接器提供者架構設定適當的端點的路由資訊。 ESB 發送器會執行這項服務，才出現在 ESB 發送器管線元件的對應屬性，這會是路由服務的名稱。

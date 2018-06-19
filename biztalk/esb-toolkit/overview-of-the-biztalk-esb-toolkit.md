@@ -1,15 +1,15 @@
 ---
-title: "在 BizTalk Server ESB toolkit 的概觀 |Microsoft 文件"
-description: "ESB 工具組，以及它沒有 BizTalk Server 中的說明"
-caps.latest.revision: "6"
+title: 在 BizTalk Server ESB toolkit 的概觀 |Microsoft 文件
+description: ESB 工具組，以及它沒有 BizTalk Server 中的說明
+caps.latest.revision: 6
 author: MandiOhlinger
 manager: anneta
-ms.custom: 
+ms.custom: ''
 ms.date: 08/10/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3e190b34-40bc-4f27-9b4f-56e98591e1d4
 ms.author: mandia
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22296726"
 ---
 # <a name="what-is-the-biztalk-esb-toolkit"></a>什麼是 BizTalk ESB Toolkit
 

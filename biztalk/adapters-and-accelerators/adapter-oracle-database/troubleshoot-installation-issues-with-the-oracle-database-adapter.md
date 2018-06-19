@@ -1,17 +1,17 @@
 ---
-title: "疑難排解安裝問題的 Oracle 資料庫配接器 |Microsoft 文件"
-ms.custom: 
+title: 疑難排解安裝問題的 Oracle 資料庫配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - installation issues, troubleshooting
 - troubleshooting, installation issues
 ms.assetid: 2054b725-d657-4039-b83b-119571935f62
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962316"
 ---
 # <a name="troubleshoot-installation-issues-with-the-oracle-database-adapter"></a>疑難排解安裝問題的 Oracle 資料庫配接器
 安裝 Microsoft[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]複製產品二進位編碼檔案的電腦上，並註冊每個配接器的繫結。 本節討論如何使用來解決安裝錯誤的疑難排解技術，也會列出一些已知的問題。  

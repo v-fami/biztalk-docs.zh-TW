@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/security-in-biztalk-adapter-for-jd-edwards-oneworld/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: 217a6c344a45d2cd6ae1303913659ae5b81b0814
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013965"
 ---
 # <a name="using-single-sign-on"></a>使用單一登入
 Microsoft BizTalk Adapter for JD Edwards OneWorld 提供單一登入 (SSO) 支援 。 由企業單一登入工具所建立的分支機構應用程式，代表像是 JD Edwards OneWorld 的伺服器系統。  

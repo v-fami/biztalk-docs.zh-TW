@@ -1,18 +1,18 @@
 ---
-title: "FRR 處理 |Microsoft 文件"
-ms.custom: 
+title: FRR 處理 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - FRR, processing
 - FRR, components
 - FRR, process flow
 ms.assetid: 8b064d18-5ee7-44fd-95d1-9a0d66f1ad1a
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22208966"
 ---
 # <a name="frr-processing"></a>FRR 處理
 [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] FIN 回應對帳 (FRR) 功能與原始訊息相互關聯 FIN 訊息從 SWIFT 聯盟存取 (SAA) [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] SAA 訊息回應。 每當[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]傳送原始訊息時，FRR 快取繫結為 SWIFT 和任何訊息的複本有未處理失敗。 然後它會監視之回應訊息傳回至 SAA MessageBox [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]，並挑選任何 ACK/NAK 訊息對應至快取的訊息複本。  

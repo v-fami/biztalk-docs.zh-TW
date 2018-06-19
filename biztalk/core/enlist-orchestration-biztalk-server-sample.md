@@ -1,18 +1,18 @@
 ---
-title: "登錄協調流程 （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: 登錄協調流程 （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, examples
 - orchestrations, enlisting
 - examples, orchestrations
 ms.assetid: d8d53e59-2313-40dd-a278-0a29d8eb4ce8
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968860"
 ---
 # <a name="enlist-orchestration-biztalk-server-sample"></a>登錄協調流程 （BizTalk Server 範例）
 「登錄協調流程」範例會示範如何向主控件登錄 BizTalk Server 協調流程。  

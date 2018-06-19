@@ -11,7 +11,7 @@ helpviewer_keywords:
 - naming conventions [schemas]
 - schemas, naming conventions
 ms.assetid: 3c1f2519-2575-4178-89c1-e97333c1e6bd
-caps.latest.revision: ''
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25960820"
 ---
 # <a name="swift-schema-naming-conventions"></a>SWIFT 的結構描述的命名慣例
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] 使用 BizTalk 編輯器所建立的全球 Interbank 財務 Telecommunication (SWIFT) FIN 訊息協會包含結構描述。 這些結構描述符合整個下列慣例：  
@@ -35,7 +36,7 @@ ms.lasthandoff: 03/28/2018
   
 -   在每個訊息結構描述中，根目錄的名稱是**SWIFT_CATEGORY*z*_MT*zxx*_Interchange**，其中*z*是訊息類別 （訊息類型的第一個數字） 和*zxx*是訊息類型。  
   
--   每個訊息結構描述的目標命名空間是 **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/Category*z*/MT*zxx * * *，其中*z*是訊息類別 （訊息類型的第一個數字） 和*zxx*是訊息類型。  
+-   每個訊息結構描述的目標命名空間是 **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/Category*z */MT*zxx * * *，其中*z*是訊息類別 （訊息類型的第一個數字） 和*zxx*是訊息類型。  
   
 -   文件類型為 **MT*zxx * * *，其中*zxx*是訊息類型。  
   

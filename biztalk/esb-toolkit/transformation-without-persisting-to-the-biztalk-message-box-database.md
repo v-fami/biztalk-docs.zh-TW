@@ -1,14 +1,14 @@
 ---
-title: "轉換而沒有保存到 BizTalk Messagebox 資料庫 |Microsoft 文件"
-ms.custom: 
+title: 轉換而沒有保存到 BizTalk Messagebox 資料庫 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7f5b4caf-88e9-41dd-a644-e229e411a4a7
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294982"
 ---
 # <a name="transformation-without-persisting-to-the-biztalk-message-box-database"></a>轉換而沒有保存到 BizTalk Messagebox 資料庫
 在此使用案例中，呼叫 Web 服務會執行即時訊息時，若要套用，適當的對應執行階段解析為基礎的轉換，並傳回已轉換的結果。 圖 1 所示處理程序的圖解的檢視。  

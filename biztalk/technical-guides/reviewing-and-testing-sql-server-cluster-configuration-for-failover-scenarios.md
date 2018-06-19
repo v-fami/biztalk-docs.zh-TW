@@ -1,14 +1,14 @@
 ---
-title: "檢閱及測試 SQL Server 叢集的容錯移轉案例的設定 |Microsoft 文件"
-ms.custom: 
+title: 檢閱及測試 SQL Server 叢集的容錯移轉案例的設定 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5dbeb383-5b38-4467-acf8-2a5b244e5fa9
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302214"
 ---
 # <a name="reviewing-and-testing-sql-server-cluster-configuration-for-failover-scenarios"></a>檢閱及測試 SQL Server 叢集組態的容錯移轉案例
 Windows 叢集和 SQL Server 可讓您執行 SQL Server 以主動/主動模式叢集的每個節點其中是 「 作用中 」 且正在執行一個以上的 SQL Server 執行個體。 這樣可讓您，比方說，有一個節點和所有其他 MessageBox 資料庫[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]另一個節點上的資料庫。 這可讓您以最大化叢集硬體的使用方式。  

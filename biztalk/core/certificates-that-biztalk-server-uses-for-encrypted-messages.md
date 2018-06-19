@@ -1,18 +1,18 @@
 ---
-title: "BizTalk Server 使用的憑證加密的訊息 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Server 使用的憑證加密的訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, message flow [encrypted messages]
 - encrypted messages
 - messages, encryption
 ms.assetid: 44b06488-4ecd-436d-af3d-b95e285ecb3e
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966364"
 ---
 # <a name="certificates-that-biztalk-server-uses-for-encrypted-messages"></a>BizTalk Server 會使用加密訊息的憑證
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 以「安全多用途網際網路郵件延伸」(Secure Multipurpose Internet Mail Extension，S/MIME) 為基礎，支援輸出訊息的公開金鑰加密以及輸入訊息的解密。 BizTalk Server 在輸出訊息加密中使用 S/MIME 第 3 版，而在輸入訊息解密方面使用 S/MIME 第 2 和 3 版。  

@@ -1,18 +1,18 @@
 ---
-title: "HelloWorld （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: HelloWorld （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, examples
 - examples, orchestrations
 - orchestrations, messages
 ms.assetid: 4416029a-ca76-45a4-b66c-b44cb71ded58
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969308"
 ---
 # <a name="helloworld-biztalk-server-sample"></a>HelloWorld （BizTalk Server 範例）
 HelloWorld 範例示範如何使用 BizTalk 協調流程，將 XML 訊息 (訂單) 轉換為相關但不同的訊息類型 (發票)。  

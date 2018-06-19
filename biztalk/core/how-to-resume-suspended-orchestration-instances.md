@@ -16,7 +16,7 @@ helpviewer_keywords:
 - resuming, orchestrations
 - HAT, debug mode
 ms.assetid: da133183-68d9-48d1-9601-8f6d4d5b8898
-caps.latest.revision: ''
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22316890"
 ---
 # <a name="how-to-resume-suspended-orchestration-instances"></a>如何繼續擱置的協調流程執行個體
 如果您有列示為「已擱置，可繼續」的擱置協調流程執行個體，則可以嘗試從 [查詢結果] 或 [預覽] 窗格中繼續該協調流程執行個體。 只有同時解決導致協調流程執行個體擱置的基本問題之後，您才能夠順利繼續協調流程執行個體。  

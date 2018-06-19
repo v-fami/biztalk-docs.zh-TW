@@ -1,17 +1,17 @@
 ---
-title: "啟用 BAM 追蹤 |Microsoft 文件"
-ms.custom: 
+title: 啟用 BAM 追蹤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BAM tracking, enabling
 - BAM tracking, disabling
 ms.assetid: 3fee3315-fba7-4eea-89f3-6a061b450bb8
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210054"
 ---
 # <a name="enabling-bam-tracking"></a>啟用 BAM 追蹤
 [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 支援使用商務活動監控 (BAM) 的進階追蹤。 您可以在 BTARN 組態的全域屬性中啟用追蹤。 啟用追蹤後，[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 將追蹤全部協議的所有訊息。 根據預設，會啟用追蹤功能。  

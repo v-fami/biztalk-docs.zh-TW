@@ -1,11 +1,11 @@
 ---
-title: "若要修復的訊息或提交新訊息使用 InfoPath 表單 |Microsoft 文件"
-ms.custom: 
+title: 若要修復的訊息或提交新訊息使用 InfoPath 表單 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, messages
@@ -28,7 +28,7 @@ helpviewer_keywords:
 - messages, verifying
 - verifying, messages
 ms.assetid: fb1a885f-fb01-42be-88bc-f68715f689f7
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -37,6 +37,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961972"
 ---
 # <a name="using-an-infopath-form-to-repair-a-message-or-submit-a-new-message"></a>若要修復的訊息或提交新訊息使用 InfoPath 表單
 若要修復、 驗證、 核准，或建立一則訊息，您在工作[!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]從開啟的表單[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]MRSR 網站。 MRSR 站台包含[!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]表單對於各種訊息類型和[!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]表單未剖析的訊息。 Message Repair 和 New Submission 會需要修復、 驗證或核准訊息傳送至適當的 MRSR 文件庫，而您可以開啟它。  

@@ -1,17 +1,17 @@
 ---
-title: "Siebel 配接器中的 DbDataReader 類別 |Microsoft 文件"
-ms.custom: 
+title: Siebel 配接器中的 DbDataReader 類別 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Data Provider for Siebel, DbDataReader
 - DbDataReader
 ms.assetid: 7673cd10-ec1e-4cb0-93c2-f11928d00ca2
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222014"
 ---
 # <a name="dbdatareader-class-in-the-siebel-adapter"></a>Siebel 配接器中 DbDataReader 類別
 [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]提供`DbDataReader`利用 XML 資料讀取器。 這提供取用者的 Siebel 資料來源讀取順向資料流的資料列的能力。  
@@ -46,7 +47,7 @@ ms.lasthandoff: 09/20/2017
 |**isDbNull**|取得值，指出資料行是否包含不存在或遺漏的值。|  
 |**NextResult**|Siebel 資料提供者一律會傳回單一結果集;因此這個呼叫完全耗盡目前結果集傳回前**false**。|  
 |**讀取**|讓讀取器前進到結果集中的下一個記錄。  它會傳回**true**若成功，和**false**如果讀取器有沒有更多記錄左。|  
-|**關閉**|關閉 `DbDataReader` 物件。 **注意：**當您完成使用`DbDataReader`物件，您必須先關閉它，才能釋出 Siebel COM 程式庫物件。 否則，用戶端應用程式的記憶體和控制代碼使用方式會移。|  
+|**關閉**|關閉 `DbDataReader` 物件。 **注意：** 當您完成使用`DbDataReader`物件，您必須先關閉它，才能釋出 Siebel COM 程式庫物件。 否則，用戶端應用程式的記憶體和控制代碼使用方式會移。|  
   
 ## <a name="see-also"></a>另請參閱  
  [Siebel 配接器以延伸的 ADO.NET 介面](../../adapters-and-accelerators/adapter-siebel/extend-ado-net-interfaces-with-the-siebel-adapter.md)

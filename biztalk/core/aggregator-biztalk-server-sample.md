@@ -24,6 +24,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25965252"
 ---
 # <a name="aggregator-biztalk-server-sample"></a>彙總工具 (BizTalk Server 範例)
 此範例的目的是要建置使用協調流程和管線的訊息彙總功能。 具體而言，我們將會建立可執行下列作業的協調流程：  
@@ -35,7 +36,7 @@ ms.lasthandoff: 03/23/2018
 3.  每分鐘產生一次 XML 交換訊息，或是在有足夠彙總數量的訊息時立即產生。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- *\<範例路徑\>*\Pipelines\Aggregator  
+ *\<範例路徑\>* \Pipelines\Aggregator  
   
  下表列出此範例使用的檔案。  
   

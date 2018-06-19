@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210494"
 ---
 # <a name="setting-up-cidx-estandards-message-exchange"></a>設定 CIDX eStandards 訊息交換
 本主題描述如何設定 CIDX (化學資料交換) eStandards 訊息交換。 CIDX 要求設定下列三項屬性：  

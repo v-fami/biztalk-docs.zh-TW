@@ -1,11 +1,11 @@
 ---
-title: "步驟 14： 發佈為 Web 服務的協調流程 |Microsoft 文件"
-ms.custom: 
+title: 步驟 14： 發佈為 Web 服務的協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Web services, publishing
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - publishing, Web services
 - message enrichment tutorial, Web services
 ms.assetid: 8f29a7be-a679-4ca6-a648-35338d9e9e98
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25962188"
 ---
 # <a name="step-14-publish-the-orchestration-as-a-web-service"></a>步驟 14： 發佈為 Web 服務的協調流程
 在此步驟中，您可以使用 BizTalk Web 服務發佈精靈發佈為 Web 服務協調流程。  
@@ -44,7 +45,7 @@ ms.lasthandoff: 01/17/2018
   
 3.  在 **建立 Web 服務** 頁面上，選取 **BizTalk 協調流程發佈為 web 服務**, ，然後按一下  **下一步**。  
   
-4.  在**BizTalk 組件**頁面上，於**BizTalk 組件檔案 (\*.dll)**欄位中，瀏覽或輸入 **\<*磁碟機*\>: \Tutorial\BTAHL7V22Common\BTAHL7 Project\bin\development**，按一下  **BTAHL7 Project.dll**，按一下 **開啟**，然後按一下 **下一步**.  
+4.  在**BizTalk 組件**頁面上，於**BizTalk 組件檔案 (\*.dll)** 欄位中，瀏覽或輸入 **\<*磁碟機*\>: \Tutorial\BTAHL7V22Common\BTAHL7 Project\bin\development**，按一下  **BTAHL7 Project.dll**，按一下 **開啟**，然後按一下 **下一步**.  
   
 5.  在**協調流程和連接埠**頁面上，確定所有節點都已選取，然後按一下 **下一步**。  
   

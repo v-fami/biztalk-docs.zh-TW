@@ -1,14 +1,14 @@
 ---
-title: "使用 SQL 配接器接收查詢通知的考量 |Microsoft 文件"
-ms.custom: 
+title: 使用 SQL 配接器接收查詢通知的考量 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0142f385-3d55-41a7-a50e-dda94b96d0a4
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963004"
 ---
 # <a name="considerations-for-receiving-query-notifications-using-the-sql-adapter"></a>使用 SQL 配接器接收查詢通知的考量
 本主題提供一些考量和最佳作法，以使用時請記住[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]要從 SQL Server 資料庫接收查詢通知。  
@@ -28,7 +29,7 @@ ms.lasthandoff: 11/28/2017
   
 -   作業的通知訊息不會受到該作業所影響的記錄數目。 例如，插入、 更新或刪除 SQL Server 資料庫資料表中的記錄數目，不論配接器用戶端收到只有一個通知訊息。  
   
--   我們建議配接器用戶端應用程式包含的邏輯來解譯收到來自 SQL Server 通知的類型。 通知類型可以決定所擷取的資訊，從**\<資訊\>**接收的通知訊息的項目。 插入作業接收通知訊息的範例如下：  
+-   我們建議配接器用戶端應用程式包含的邏輯來解譯收到來自 SQL Server 通知的類型。 通知類型可以決定所擷取的資訊，從**\<資訊\>** 接收的通知訊息的項目。 插入作業接收通知訊息的範例如下：  
   
     ```  
     <Notification xmlns="http://schemas.microsoft.com/Sql/2008/05/Notification/">  
@@ -38,7 +39,7 @@ ms.lasthandoff: 11/28/2017
     </Notification>  
     ```  
   
-     請注意內的值**\<資訊\>**項目。 此值會提供資訊在收到通知訊息的作業。 您的應用程式應該有的功能來擷取內的值**\<資訊\>**項目，然後根據的值，執行後續的工作。 本主題[處理通知訊息，以便完成特定工作中使用 BizTalk Server 的 SQL](../../adapters-and-accelerators/adapter-sql/process-notification-messages-to-complete-specific-tasks-in-sql-using-biztalk.md)如何擷取內的值中的指示**\<資訊\>**項目. 詳細的教學課程，執行類似的工作也會提供在[教學課程 2： 員工-訂單程序使用 SQL 配接器](../../adapters-and-accelerators/adapter-sql/tutorial-2-employee-purchase-order-process-using-the-sql-adapter.md)。  
+     請注意內的值**\<資訊\>** 項目。 此值會提供資訊在收到通知訊息的作業。 您的應用程式應該有的功能來擷取內的值**\<資訊\>** 項目，然後根據的值，執行後續的工作。 本主題[處理通知訊息，以便完成特定工作中使用 BizTalk Server 的 SQL](../../adapters-and-accelerators/adapter-sql/process-notification-messages-to-complete-specific-tasks-in-sql-using-biztalk.md)如何擷取內的值中的指示**\<資訊\>** 項目. 詳細的教學課程，執行類似的工作也會提供在[教學課程 2： 員工-訂單程序使用 SQL 配接器](../../adapters-and-accelerators/adapter-sql/tutorial-2-employee-purchase-order-process-using-the-sql-adapter.md)。  
   
 -   在理想情況下，用戶端應用程式會收到通知的特定記錄後，該記錄應該會更新，讓沒有收到其他通知。 例如，請考慮**員工**資料表具有**狀態**資料行。 針對所有新記錄插入至**員工**資料表中的值**狀態**資料行一律是"0"，資料表看起來像下面：  
   

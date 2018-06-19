@@ -1,14 +1,14 @@
 ---
-title: "Any 項目節點 |Microsoft 文件"
-ms.custom: 
+title: Any 項目節點 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c7e30fcf-31bc-4d48-9bc7-0be90e927127
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963692"
 ---
 # <a name="any-element-nodes"></a>Any 項目節點
 在 [BizTalk 編輯器] 中，您可以使用**Any 項目**節點來指示的位置執行個體訊息中未知的項目可能出現的位置。 這適用於您知道某個項目可能出現在執行個體訊息中的特定位置，但是您不知道項目的名稱，或是它的複雜程度。 如果您將放入**Any 項目**BizTalk 結構描述內的適當位置的節點可以處理訊息的這類未知的部分。 唯一的要求是對應的 XML 必須格式正確。  
@@ -43,7 +44,7 @@ ms.lasthandoff: 11/28/2017
 </xs:element>  
 ```  
   
- 假設**Process Contents**屬性**Any 項目**節點設定為**略過**內的執行個體訊息是由這個結構描述片段中， **ExistingRecord**元素必須包含**[existingfieldelement]**項目，包含字串資料，後面接著任意複雜度的任何單一項目。  
+ 假設**Process Contents**屬性**Any 項目**節點設定為**略過**內的執行個體訊息是由這個結構描述片段中， **ExistingRecord**元素必須包含 **[existingfieldelement]** 項目，包含字串資料，後面接著任意複雜度的任何單一項目。  
   
 ## <a name="see-also"></a>請參閱  
  [BizTalk 結構描述表示法](../core/biztalk-representation-of-schemas.md)   

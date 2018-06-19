@@ -1,11 +1,11 @@
 ---
-title: "封存主要匯入資料庫資料 |Microsoft 文件"
-ms.custom: 
+title: 封存主要匯入資料庫資料 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Primary Import database [BAM], archiving data
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - managing [BAM], archiving data
 - data, archiving [BAM]
 ms.assetid: 4a014a59-0578-41fa-9441-8b582f54bbe8
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230414"
 ---
 # <a name="archiving-primary-import-database-data"></a>封存主要匯入資料庫資料
 系統管理員可以指定主要匯入資料庫中，活動執行個體資料的封存時間間隔。 請使用 BAMPrimaryImport 資料庫 BAM_Metadata_Activities 資料表中的 OnlineWindowTimeUnit 和 OnlineWindowTimeLength 屬性。  

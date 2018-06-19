@@ -17,7 +17,7 @@ helpviewer_keywords:
 - BAPI
 - IDOC
 ms.assetid: 5f0d7c1f-d6e1-4c56-8d8e-1f5d537aa3ce
-caps.latest.revision: ''
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22218438"
 ---
 # <a name="browse-search-and-get-sap-metadata"></a>瀏覽、 搜尋及取得 SAP 中繼資料
 [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]從 SAP 系統的表面中繼資料。 此中繼資料描述的訊息結構來與 SAP 系統使用配接器進行通訊。 [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]支援兩個介面來擷取中繼資料。  

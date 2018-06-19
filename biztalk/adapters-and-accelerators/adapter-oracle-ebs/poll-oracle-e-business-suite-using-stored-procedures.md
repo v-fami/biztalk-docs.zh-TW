@@ -1,14 +1,14 @@
 ---
-title: "使用預存程序的輪詢 Oracle E-business Suite |Microsoft 文件"
-ms.custom: 
+title: 使用預存程序的輪詢 Oracle E-business Suite |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e9e89dfe-f33a-436b-94c6-be78e84d5efd
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967964"
 ---
 # <a name="poll-oracle-e-business-suite-using-stored-procedures"></a>輪詢 Oracle E-business Suite 使用預存程序
 您可以設定[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]來使用預存程序，若要連續輪詢 Oracle 資料庫接收定期的資料變更訊息。 您可以指定預存程序，為配接器執行定期輪詢 Oracle 資料庫的輪詢陳述式。  
@@ -114,7 +115,7 @@ ms.lasthandoff: 11/28/2017
     |使用|動作|  
     |--------------|----------------|  
     |識別碼|型別**接收**。|  
-    |訊息類型|從下拉式清單中，展開 **結構描述**，然後選取*Polling.OracleEBSBindingSchema*，其中*輪詢*是您的 BizTalk 專案的名稱。 *OracleEBSBindingSchema*是針對產生的回應結構描述**GET_ACTIVITYS**預存程序。<br /><br /> **重要事項：**因為輪詢是單向作業，配接器所產生的結構描述不包含回應 節點，因此只有一個根節點結構描述中。 如果您使用這類結構描述的訊息類型時，您必須識別結構描述所產生的結構描述的檔案名稱。<br /><br /> 例如，如果您建立雙向作業的結構描述，結構描述中的節點檔案名稱`OracleEBSBindingSchema`可能看起來像是 「 要求 」 和 「 回應 」。 如果您想要建立訊息對應至要求結構描述在協調流程中，您可以識別結構描述清單中的尋找`OracleEBSBindingSchema.Request`。 不過，在輪詢作業的唯一節點是 「 投票 」，因為它不容易識別您想要對應到單一節點的結構描述不會列為因為結構的描述\<schemafilename\>。\<rootnodename\>。 相反地，這類結構描述會列出依檔名。 在這種情況下，識別結構描述的唯一方法是由結構描述檔名，比方說，OracleEBSBindingSchema。|  
+    |訊息類型|從下拉式清單中，展開 **結構描述**，然後選取*Polling.OracleEBSBindingSchema*，其中*輪詢*是您的 BizTalk 專案的名稱。 *OracleEBSBindingSchema*是針對產生的回應結構描述**GET_ACTIVITYS**預存程序。<br /><br /> **重要事項：** 因為輪詢是單向作業，配接器所產生的結構描述不包含回應 節點，因此只有一個根節點結構描述中。 如果您使用這類結構描述的訊息類型時，您必須識別結構描述所產生的結構描述的檔案名稱。<br /><br /> 例如，如果您建立雙向作業的結構描述，結構描述中的節點檔案名稱`OracleEBSBindingSchema`可能看起來像是 「 要求 」 和 「 回應 」。 如果您想要建立訊息對應至要求結構描述在協調流程中，您可以識別結構描述清單中的尋找`OracleEBSBindingSchema.Request`。 不過，在輪詢作業的唯一節點是 「 投票 」，因為它不容易識別您想要對應到單一節點的結構描述不會列為因為結構的描述\<schemafilename\>。\<rootnodename\>。 相反地，這類結構描述會列出依檔名。 在這種情況下，識別結構描述的唯一方法是由結構描述檔名，比方說，OracleEBSBindingSchema。|  
   
      [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]為 GET_ACTIVITYS 的傳入和傳出作業預存程序產生結構描述。 您必須使用結構描述的輸入作業：  
   
@@ -145,7 +146,7 @@ ms.lasthandoff: 11/28/2017
   
 |形狀圖|圖形類型|屬性|  
 |-----------|----------------|----------------|  
-|ReceiveMessage|Receive|-設定**名稱**至*ReceiveMessage*<br /><br /> -設定**啟動**至*，則為 True*|  
+|ReceiveMessage|Receive|-設定**名稱**至*ReceiveMessage*<br /><br /> -設定**啟動**至 *，則為 True*|  
 |SaveMessage|Send|-設定**名稱**至*SaveMessage*|  
   
 ### <a name="adding-ports"></a>新增連接埠  

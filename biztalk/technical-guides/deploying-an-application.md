@@ -1,14 +1,14 @@
 ---
-title: "將應用程式部署 |Microsoft 文件"
-ms.custom: 
+title: 將應用程式部署 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 04bb4496-b1e9-400b-a849-a355381849ff
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22300414"
 ---
 # <a name="deploying-an-application"></a>部署應用程式
 部署是應用程式成品，以確保所有必要元件都需要這些系統可以填入對數成長分佈。 這些成品包括 BizTalk Server 組件、.NET 組件、 結構描述、 對應、 繫結、 商務規則和憑證。 BizTalk 應用程式可以用來協助推出成品至其他電腦加入到群組或臨時區域 （當傳輸至另一個環境的應用程式）。  

@@ -1,14 +1,14 @@
 ---
-title: "執行保存自訂例外狀況處理常式範例訊息 |Microsoft 文件"
-ms.custom: 
+title: 執行保存自訂例外狀況處理常式範例訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a0a4c819-f6bd-4dea-8be9-e3006337665f
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295326"
 ---
 # <a name="running-the-message-persisting-custom-exception-handler-sample"></a>執行保存自訂例外狀況處理常式範例訊息
 訊息保存自訂例外狀況處理常式範例示範鬆散偶合的一般處理常式會收到錯誤訊息時，會擷取包含此項目，並將其以磁碟檔案寫入至檔案系統的 Microsoft BizTalk 訊息。  

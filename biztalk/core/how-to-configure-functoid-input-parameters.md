@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969540"
 ---
 # <a name="how-to-configure-functoid-input-parameters"></a>如何設定運算質輸入參數
 正確的設定對應中的運算質輸入參數，是在使用運算質時最重要也是最可能防止發生錯誤的其中一個方式。 您可以設定運算質輸入參數，如下所示：  

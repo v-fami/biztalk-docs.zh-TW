@@ -1,17 +1,17 @@
 ---
-title: "步驟 7： 建置與部署 LOBWebApplication SDK 範例 |Microsoft 文件"
-ms.custom: 
+title: 步驟 7： 建置與部署 LOBWebApplication SDK 範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - double action tutorial, building solutions
 - double action tutorial, deploying solutions
 ms.assetid: f61de666-ebda-4831-9669-598e9284e4c1
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966316"
 ---
 # <a name="step-7-building-and-deploying-the-lobwebapplication-sdk-sample"></a>步驟 7： 建置與部署 LOBWebApplication SDK 範例
 在此步驟中，您將建立 Fabrikam 用來提交夥伴介面程序 (PIP) 要求到 Contoso 的商務營運系統 (LOB) 應用程式。 您可以在 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK 資料夾中找到 LOBWebApplication 專案。 若要執行 Web 應用程式，您必須建立 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Internet Information Services (IIS) 虛擬目錄，然後建置 LOBWebApplication 專案。  
@@ -28,7 +29,7 @@ ms.lasthandoff: 11/28/2017
   
 1.  按一下**啟動**，指向 **所有程式**，指向 **系統管理工具**，然後按一下**網際網路資訊服務 (IIS) 管理員**.  
   
-2.  在 [Internet Information Services 管理員] 視窗中，依序展開**< 電腦名稱 > （本機電腦）**，然後展開**網站**。  
+2.  在 [Internet Information Services 管理員] 視窗中，依序展開 **< 電腦名稱 > （本機電腦）**，然後展開**網站**。  
   
 3.  以滑鼠右鍵按一下**Default Web Site**，指向 **新增**，然後按一下 **虛擬目錄**。  
   
@@ -54,7 +55,7 @@ ms.lasthandoff: 11/28/2017
   
 5.  在**虛擬伺服器管理**區段中，按一下**定義管理的路徑**。  
   
-6.  在**新增路徑**區段的**路徑**方塊中，輸入**/LOBWebApplication**。  
+6.  在**新增路徑**區段的**路徑**方塊中，輸入 **/LOBWebApplication**。  
   
 7.  如**類型**，選取**排除的路徑**，然後按一下 **確定**。  
   

@@ -1,15 +1,15 @@
 ---
-title: "從 SAP 系統在 BizTalk 中使用 mySAP 配接器傳送 Idoc |Microsoft 文件"
-description: 
-ms.custom: 
+title: 從 SAP 系統在 BizTalk 中使用 mySAP 配接器傳送 Idoc |Microsoft 文件
+description: ''
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: aea8a5e9-d775-4d52-a434-c2908b53cd2d
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215590"
 ---
 # <a name="sending-idocs-from-an-sap-system"></a>從 SAP 系統傳送 Idoc
 SAP 系統從 SAP 系統傳送 IDOC 至外部應用程式上完成的高階工作。 連絡您的 SAP 系統管理員執行這些工作，或請參閱 SAP 指引。  

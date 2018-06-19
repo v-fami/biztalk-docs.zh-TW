@@ -1,14 +1,14 @@
 ---
-title: "監視 SQL Server Agent 作業，以及資料庫 |Microsoft 文件"
-ms.custom: 
+title: 監視 SQL Server Agent 作業，以及資料庫 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2eb5f318-10d3-4f43-991d-9bff2ebc20e2
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299198"
 ---
 # <a name="monitoring-sql-server-agent-jobs-and-databases"></a>監視 SQL Server Agent 作業和資料庫
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]包含多個[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]執行重要功能以維持伺服器運作且狀況良好的代理程式作業。 您應該監視這些作業的狀況，確保它們在沒有錯誤的情況下執行。 Microsoft[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]管理組件包含監視 SQL 資料庫等項目規則和[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]代理程式作業。 您應該設定[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]全面監視所有的管理組件[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]資料庫和[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]代理程式作業。  

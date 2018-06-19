@@ -1,12 +1,12 @@
 ---
-title: "Host Integration Server 所隨附的 BizTalk 配接器 |Microsoft 文件"
-description: "他附的裝載應用程式、 主控件的檔案、 DB2 和 WebSphere MQ 的 BizTalk 配接器的概觀"
+title: Host Integration Server 所隨附的 BizTalk 配接器 |Microsoft 文件
+description: 他附的裝載應用程式、 主控件的檔案、 DB2 和 WebSphere MQ 的 BizTalk 配接器的概觀
 author: MandiOhlinger
 manager: anneta
 ms.date: 10/10/2017
 ms.prod: biztalk-server
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.author: mandia
 ms.openlocfilehash: 26f2bf48c9a1268aace041776ff3895c8f3b3aa5
@@ -14,6 +14,7 @@ ms.sourcegitcommit: 75d35f6f230f0846c29a4b146c6d5b074e60b13c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 10/11/2017
+ms.locfileid: "22645178"
 ---
 # <a name="biztalk-adapters-for-host-systems"></a>主機系統的 BizTalk 配接器
 

@@ -1,11 +1,11 @@
 ---
-title: "步驟 5： 建立傳送埠，以便將通知傳送到使用 File 配接器 ADT 系統 |Microsoft 文件"
-ms.custom: 
+title: 步驟 5： 建立傳送埠，以便將通知傳送到使用 File 配接器 ADT 系統 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - end-to-end tutorial, send ports
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - acknowledgements, send ports
 - send ports, creating
 ms.assetid: 565a2adf-fd86-46e3-8035-7e4748aefffc
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961836"
 ---
 # <a name="step-5-create-a-send-port-to-deliver-acknowledgments-to-the-adt-system-using-the-file-adapter"></a>步驟 5： 建立傳送埠，以便將通知傳送到使用 File 配接器 ADT 系統
 在此步驟中，您可以建立傳送埠，以產生使用 File 配接器的通知。  
@@ -46,7 +47,7 @@ ms.lasthandoff: 11/28/2017
     |使用|動作|  
     |--------------|----------------|  
     |**目的地資料夾**|瀏覽至 **\<** *磁碟機***:\>\Program Files\Microsoft BizTalk\<版本\>Accelerator for HL7\SDK\End 端對端Tutorial\Tutorial_sendAck_ADT**。|  
-    |**檔案名稱**|型別**%MessageID%.txt** （副檔名為.txt 取代.xml 副檔名）。|  
+    |**檔案名稱**|型別 **%MessageID%.txt** （副檔名為.txt 取代.xml 副檔名）。|  
   
 5.  在 [傳送埠屬性] 對話方塊的**傳送管線**，選取**BTAHL72XPipelines.BTAHL72XSendPipeline**。  
   

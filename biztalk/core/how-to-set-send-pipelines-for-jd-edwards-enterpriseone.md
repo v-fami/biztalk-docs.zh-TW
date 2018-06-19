@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/adding-biztalk-adapter-for-jd-edwards-enterpriseone/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: 263f1f5d9441a30687df3e1a7a1170b7bf35e2fc
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015069"
 ---
 # <a name="how-to-set-send-pipelines-for-jd-edwards-enterpriseone"></a>如何設定 JD Edwards EnterpriseOne 的傳送管線
 Microsoft BizTalk Adapter for JD Edwards EnterpriseOne 需要您選取**XMLTransmit**和**XMLReceive**傳送和接收管線分別。  
@@ -27,7 +28,7 @@ Microsoft BizTalk Adapter for JD Edwards EnterpriseOne 需要您選取**XMLTrans
   
     4.  從 傳送管線 下拉式清單中，選取  **Microsoft.BizTalk.DefaultPipelines.XMLTransmit**。  
   
-    5.  從**接收管線**下拉式清單中，選取**[microsoft.biztalk.defaultpiplelines.xmlreceive]**。  
+    5.  從**接收管線**下拉式清單中，選取 **[microsoft.biztalk.defaultpiplelines.xmlreceive]**。  
   
 4.  按一下 **[確定]**。  
   

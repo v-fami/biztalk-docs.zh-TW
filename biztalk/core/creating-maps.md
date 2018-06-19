@@ -1,14 +1,14 @@
 ---
-title: "建立對應 |Microsoft 文件"
-ms.custom: 
+title: 建立對應 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cc9f8ad1-4aad-4866-8aa4-4877fdc5e5f9
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969108"
 ---
 # <a name="creating-maps"></a>建立對應
 BizTalk 對應工具的主要使用者介面會顯示在索引標籤內[!INCLUDE[btsCoName](../includes/btsconame-md.md)][!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]編輯視窗。 此顯示分成三個窗格。 左窗格以樹狀結構顯示來源結構描述， 而右窗格會將目的結構描述顯示為樹狀結構。 中間窗格則會將格線顯示為多頁。 若要指出您想要如何將資料從來源結構描述對應至目的結構描述，則您可以在想要對應的記錄與欄位之間繪製線條。 這些線條稱為*連結*，以及其指定之資料的對應最基本的方式。 如需連結記錄和欄位的詳細資訊，請參閱[對應中的連結](../core/links-in-maps.md)。  

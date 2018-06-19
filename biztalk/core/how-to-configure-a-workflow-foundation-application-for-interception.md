@@ -1,14 +1,14 @@
 ---
-title: "如何設定用於攔截的 Workflow Foundation 應用程式 |Microsoft 文件"
-ms.custom: 
+title: 如何設定用於攔截的 Workflow Foundation 應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9c82e83f-9dbd-4325-9f30-778eba892296
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970044"
 ---
 # <a name="how-to-configure-a-workflow-foundation-application-for-interception"></a>如何設定用於攔截的 Workflow Foundation 應用程式
 您必須安裝 BAM 攔截器軟體，並設定應用程式使用 [!INCLUDE[firstref_btsWinWorkflowFoundation](../includes/firstref-btswinworkflowfoundation-md.md)] 攔截器服務，才能開始收集 BAM 活動資料。 假設您已成功安裝 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 及其相依性，而且至少已建立一個 BizTalk 群組。  
@@ -77,7 +78,7 @@ ms.lasthandoff: 11/28/2017
      請確定您取代\< *icfile.xml* \>您想要部署攔截器組態檔的名稱。  
   
     > [!NOTE]
-    >  您可以使用**-Force: True**覆寫現有的事件來源的攔截器組態檔中的相同名稱的旗標。 如果您這樣做，請務必先備份使用現有的組態**get 攔截器**命令。 使用 -Force:True 旗標可能會刪除任何參考要覆寫之事件來源的攔截器組態。  
+    >  您可以使用 **-Force: True**覆寫現有的事件來源的攔截器組態檔中的相同名稱的旗標。 如果您這樣做，請務必先備份使用現有的組態**get 攔截器**命令。 使用 -Force:True 旗標可能會刪除任何參考要覆寫之事件來源的攔截器組態。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  

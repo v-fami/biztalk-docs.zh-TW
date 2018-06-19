@@ -1,17 +1,17 @@
 ---
-title: "Message Repair 和 New Submission 升級屬性 |Microsoft 文件"
-ms.custom: 
+title: Message Repair 和 New Submission 升級屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - promoted properties, Message Repair and New Submission
 - Message Repair and New Submission, promoted properties
 ms.assetid: e980c905-d07f-4fc2-89ca-05e597410733
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22208654"
 ---
 # <a name="message-repair-and-new-submission-promoted-properties"></a>Message Repair 和 New Submission 升級屬性
 [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] Message Repair 和 New Submission 對帳包含下列的升級的屬性。  

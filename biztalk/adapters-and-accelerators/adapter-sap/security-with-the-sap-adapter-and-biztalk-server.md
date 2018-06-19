@@ -1,11 +1,11 @@
 ---
-title: "安全性與 SAP 配接器和 BizTalk Server |Microsoft 文件"
-ms.custom: 
+title: 安全性與 SAP 配接器和 BizTalk Server |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - credentials, protecting
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - security, protecting credentials
 - SSO
 ms.assetid: 702cd0f9-d8e1-4dad-8774-b552481d5390
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217774"
 ---
 # <a name="security-with-the-sap-adapter-and-biztalk-server"></a>使用 SAP 配接器和 BizTalk Server 安全性
 當您設定傳送埠或接收埠 （位置） 使用 BizTalk Server 管理主控台或使用[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]擷取 BizTalk 解決方案的訊息結構描述，您必須提供認證，SAP 系統。 請務必在安全的方式，可協助防止它們被洩漏給潛在惡意的動作項目中提供這些認證。 本主題討論如何最安全的方式提供的認證[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]BizTalk Server 解決方案。  

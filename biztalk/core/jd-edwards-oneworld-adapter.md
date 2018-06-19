@@ -1,15 +1,15 @@
 ---
-title: "JD Edwards OneWorld 配接器 |Microsoft 文件"
-description: "安裝、 逐步教學課程、 學習架構、 使用 SSO 安全性、 建立您的應用程式、 匯入繫結檔案，以及加入例外狀況處理時使用 BizTalk Adapter for J.D. 在 BizTalk Server Edwards OneWorld"
-ms.custom: 
+title: JD Edwards OneWorld 配接器 |Microsoft 文件
+description: 安裝、 逐步教學課程、 學習架構、 使用 SSO 安全性、 建立您的應用程式、 匯入繫結檔案，以及加入例外狀況處理時使用 BizTalk Adapter for J.D. 在 BizTalk Server Edwards OneWorld
+ms.custom: ''
 ms.date: 10/18/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5df8cd89-d9df-41ca-9a2c-b9d7fbcd06f2
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015927"
 ---
 # <a name="jd-edwards-oneworld-adapter"></a>JD Edwards OneWorld 配接器
 Microsoft BizTalk Adapter for JD Edwards OneWorld 可讓您在 BizTalk Server 中使用 JD Edwards OneWorld 商務功能。 下列幾節討論設定 BizTalk Adapter for JD Edwards OneWorld 以存取 JD Edwards OneWorld 特定資訊。  

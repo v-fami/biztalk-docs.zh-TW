@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214246"
 ---
 # <a name="swift-assembler-configuration-properties"></a>SWIFT 組合器組態屬性
 下表提供 SWIFT 組譯工具 (ASM) 屬性、 描述、 資料類型和值的範圍。  

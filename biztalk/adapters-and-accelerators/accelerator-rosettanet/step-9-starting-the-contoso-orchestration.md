@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209446"
 ---
 # <a name="step-9-starting-the-contoso-orchestration"></a>步驟 9： 啟動 Contoso 協調流程
 在此步驟中，您將定義實體來源和目的地位置，藉以完成連接埠設定程序。 您將實體連接埠繫結至您在建立邏輯連接埠[步驟 7： 建立和設定的連接埠](../../adapters-and-accelerators/accelerator-rosettanet/step-7-creating-and-configuring-ports.md)。 然後，登錄服務，使您在協調流程與協調流程將執行中的實體環境中設計的商務程序。 最後，啟動協調流程，讓它可以參與商務交易與 Fabrikam。  

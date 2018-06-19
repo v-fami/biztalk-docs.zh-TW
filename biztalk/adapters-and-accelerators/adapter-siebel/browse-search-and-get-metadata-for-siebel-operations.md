@@ -18,7 +18,7 @@ helpviewer_keywords:
 - how to, seach metadata
 - searching, metadata
 ms.assetid: 7e474d8e-b030-47ea-b1b6-8048cddbba8a
-caps.latest.revision: ''
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25967492"
 ---
 # <a name="browse-search-and-get-metadata-for-siebel-operations"></a>瀏覽、 搜尋及取得 Siebel 作業的中繼資料
 本節提供有關如何使用資訊[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]、 [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]，而[!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]。 使用這些[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]元件，您可以：  
@@ -106,19 +107,19 @@ ms.lasthandoff: 03/28/2018
   
 1.  連接至 Siebel 系統使用[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]， [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]，或[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]。 請參閱[連接到 Visual Studio 中的 Siebel 系統](../../adapters-and-accelerators/adapter-siebel/connect-to-the-siebel-system-in-visual-studio.md)如需相關指示。  
   
-2.  從**選取合約型別**下拉式清單中選取**用戶端 （輸出作業）**合約。  
+2.  從**選取合約型別**下拉式清單中選取**用戶端 （輸出作業）** 合約。  
   
 3.  在**選取類別目錄**方塊中，按一下**商務物件**節點。  
   
-4.  若要搜尋特定的商務物件，請按一下**商務物件**節點**類別目錄中的搜尋**文字方塊並輸入搜尋運算式。 例如，若要搜尋的名稱開頭為 「 帳戶 」 的商務物件，輸入**帳戶\***在文字方塊中。  
+4.  若要搜尋特定的商務物件，請按一下**商務物件**節點**類別目錄中的搜尋**文字方塊並輸入搜尋運算式。 例如，若要搜尋的名稱開頭為 「 帳戶 」 的商務物件，輸入**帳戶\*** 在文字方塊中。  
   
 5.  按一下向右箭號圖示，開始搜尋 按鈕。 搜尋完成之後，**可用的類別和作業**方塊會列出符合搜尋準則的商務物件。  
   
-6.  若要搜尋特定的商務元件在商務物件中，按一下 商務物件和中**類別目錄中的搜尋**文字方塊中輸入搜尋運算式。 例如，若要搜尋的商務元件，以 「 帳戶 」 開頭的名稱，輸入**帳戶\***在文字方塊中。  
+6.  若要搜尋特定的商務元件在商務物件中，按一下 商務物件和中**類別目錄中的搜尋**文字方塊中輸入搜尋運算式。 例如，若要搜尋的商務元件，以 「 帳戶 」 開頭的名稱，輸入**帳戶\*** 在文字方塊中。  
   
 7.  按一下向右箭號圖示，開始搜尋 按鈕。 搜尋完成之後，**可用的類別和作業**方塊會列出符合搜尋準則的商務元件。  
   
-8.  若要搜尋商務元件的特定作業，請按一下 商務元件和**類別目錄中的搜尋**文字方塊中輸入搜尋運算式。 例如，若要搜尋名稱開頭為 「 查詢 」 的作業，請輸入**查詢\***在文字方塊中。  
+8.  若要搜尋商務元件的特定作業，請按一下 商務元件和**類別目錄中的搜尋**文字方塊中輸入搜尋運算式。 例如，若要搜尋名稱開頭為 「 查詢 」 的作業，請輸入**查詢\*** 在文字方塊中。  
   
 9. 按一下向右箭號圖示，開始搜尋 按鈕。 搜尋完成之後，**可用的類別和作業**方塊會列出符合搜尋準則的商務元件。  
   
@@ -138,7 +139,7 @@ ms.lasthandoff: 03/28/2018
   
 1.  連接至 Siebel 系統使用[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]或[!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]。 請參閱[連接到 Visual Studio 中的 Siebel 系統](../../adapters-and-accelerators/adapter-siebel/connect-to-the-siebel-system-in-visual-studio.md)如需相關指示。  
   
-2.  從**選取合約型別**下拉式清單中選取**用戶端 （輸出作業）**合約。  
+2.  從**選取合約型別**下拉式清單中選取**用戶端 （輸出作業）** 合約。  
   
 3.  在**選取類別目錄**方塊中，展開 [商務物件或商務服務] 節點。  
   

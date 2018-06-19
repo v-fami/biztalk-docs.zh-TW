@@ -1,14 +1,14 @@
 ---
-title: "設定時區和 BizTalk Server 中的循環排程 |Microsoft 文件"
-ms.custom: 
+title: 設定時區和 BizTalk Server 中的循環排程 |Microsoft 文件
+ms.custom: ''
 ms.date: 11/20/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d60ae7be-747e-4034-8b99-46bd7e25fe67
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/21/2017
+ms.locfileid: "25497767"
 ---
 # <a name="configure-the-time-zone-and-recurrence-scheduling-in-biztalk-server"></a>設定時區和 BizTalk Server 中的循環排程
 設定時區，並設定週期性排程上您在中接收位置[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]。 

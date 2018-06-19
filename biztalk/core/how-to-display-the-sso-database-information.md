@@ -1,18 +1,18 @@
 ---
-title: "如何顯示 SSO 資料庫資訊 |Microsoft 文件"
-ms.custom: 
+title: 如何顯示 SSO 資料庫資訊 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [SSO], viewing SSO database
 - SSO database, viewing
 - viewing, SSO database
 ms.assetid: 0ebadd2e-6ea5-460c-b0a8-f48589e6bf1c
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,13 +21,14 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969324"
 ---
 # <a name="how-to-display-the-sso-database-information"></a>如何顯示 SSO 資料庫資訊
 您可以使用 MMC 嵌入式管理單元或是命令列 (ssomanage) 公用程式，以檢視 SSO 資料庫資訊。  
   
 ### <a name="to-display-the-sso-database-information-using-the-mmc-snap-in"></a>若要使用 MMC 嵌入式管理單元顯示 SSO 資料庫資訊  
   
-1.  在 **[開始]** 功能表上，依序按一下 **[所有程式]**及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。  
+1.  在 **[開始]** 功能表上，依序按一下 **[所有程式]** 及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。  
   
 2.  在 ENTSSO MMC 嵌入式管理單元的範圍窗格中，展開 **[企業單一登入]** 節點。  
   

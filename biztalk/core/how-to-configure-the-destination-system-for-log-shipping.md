@@ -1,11 +1,11 @@
 ---
-title: "如何設定記錄傳送目的地系統 |Microsoft 文件"
-ms.custom: 
+title: 如何設定記錄傳送目的地系統 |Microsoft 文件
+ms.custom: ''
 ms.date: 2015-12-03
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - backing up, log shipping
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - system failures, backing up
 - backing up, system failures
 ms.assetid: 7b4425f5-b105-4fb2-a503-94ca1e75ad55
-caps.latest.revision: "54"
+caps.latest.revision: 54
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969492"
 ---
 # <a name="how-to-configure-the-destination-system-for-log-shipping"></a>如何設定記錄傳送的目的系統
 記錄傳送提供待命伺服器功能，發生系統錯誤時可減少停機時間。 記錄傳送可讓您自動從來源系統的交易記錄檔傳送至目的地系統。 在目的系統，交易記錄會還原到 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 資料庫中，使這些資料庫與來源資料庫緊密同步。  
@@ -125,9 +126,9 @@ ms.lasthandoff: 11/28/2017
   
 11. 以滑鼠右鍵按一下**SampleUpdateInfo.xml**，然後選取**編輯**。 執行下列動作：  
   
-    -   所有執行個體**"SourceServer"**來源系統的名稱。  
+    -   所有執行個體 **"SourceServer"** 來源系統的名稱。  
   
-    -   所有執行個體**"DestinationServer"**目的系統的名稱。  
+    -   所有執行個體 **"DestinationServer"** 目的系統的名稱。  
   
     > [!IMPORTANT]
     >  在來源及目的系統的名稱兩端加上引號。  
@@ -142,7 +143,7 @@ ms.lasthandoff: 11/28/2017
     >   
     >  如果您變更這兩個資料庫的預設名稱，請使用實際的資料庫名稱。  
   
-12. 如果您有一個以上的 MessageBox 資料庫您[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統中，加入清單中，加入另一行 MessageBoxDB，然後設定**IsMaster ="0"**非主要資料庫。  
+12. 如果您有一個以上的 MessageBox 資料庫您[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統中，加入清單中，加入另一行 MessageBoxDB，然後設定**IsMaster ="0"** 非主要資料庫。  
   
 13. 如果您使用 BAM 或 「 規則引擎，請視需要這些行取消註解。  
   

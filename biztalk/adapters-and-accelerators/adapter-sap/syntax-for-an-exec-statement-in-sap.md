@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966028"
 ---
 # <a name="syntax-for-an-exec-statement-in-sap"></a>SAP 的 EXEC 陳述式的語法
 下節說明實作 EXEC 陳述式的文法規格[!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)]。 請注意，在數個情況下，語法與 TRANSACT-SQL 語法稍有不同。  

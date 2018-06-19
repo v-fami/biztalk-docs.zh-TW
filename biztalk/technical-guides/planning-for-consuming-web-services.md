@@ -1,14 +1,14 @@
 ---
-title: "規劃使用 Web 服務 |Microsoft 文件"
-ms.custom: 
+title: 規劃使用 Web 服務 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 24863069-929b-4b0b-9643-073965fb5532
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302270"
 ---
 # <a name="planning-for-consuming-web-services"></a>規劃使用 Web 服務
 Web 服務的規劃可以分成兩個類別，規劃發佈 Web 服務，以及規劃使用 Web 服務。 本主題說明使用 Web 服務的考量。 如需發佈 Web 服務資訊，請參閱[Planning for Publishing Web Services1](../technical-guides/planning-for-publishing-web-services1.md)。  
@@ -81,7 +82,7 @@ Web 服務的規劃可以分成兩個類別，規劃發佈 Web 服務，以及�
      您可以在訊息內容中，使用程式來設定組態屬性。 您可以在協調流程或自訂管線元件中設定這些屬性，是否傳送埠是靜態或動態。  
   
     > [!NOTE]  
-    >  若要設定**MethodName**屬性靜態 soap 傳送埠以程式設計的方式，您需要設定**方法名稱**至**[稍後指定]**中**Web服務** 索引標籤**SOAP 傳輸屬性**] 對話方塊 [BizTalk Server 管理主控台中的。  
+    >  若要設定**MethodName**屬性靜態 soap 傳送埠以程式設計的方式，您需要設定**方法名稱**至 **[稍後指定]** 中**Web服務** 索引標籤**SOAP 傳輸屬性**] 對話方塊 [BizTalk Server 管理主控台中的。  
   
      如需有關**MethodName**屬性，請參閱[如何動態設定取用 Web 服務的 URI](http://go.microsoft.com/fwlink/?LinkID=155768) (http://go.microsoft.com/fwlink/?LinkID=155768)。  
   
@@ -127,7 +128,7 @@ Web 服務的規劃可以分成兩個類別，規劃發佈 Web 服務，以及�
   
     -   Web 方法應該包含**SoapDocumentMethodAttribute**而不是**SoapRpcMethodAttribute**。  
   
-    -   Web 服務和方法必須使用**常值**繫結，而不**Encoded**例如**[SoapDocumentMethod(Use=SoapBindingUse.Literal)]**。  
+    -   Web 服務和方法必須使用**常值**繫結，而不**Encoded**例如 **[SoapDocumentMethod(Use=SoapBindingUse.Literal)]**。  
   
     -   Web 方法參數和傳回型別都必須有**XmlRootAttribute**的有效**命名空間**屬性除非它們是原生 XSD 類型與 XmlNode 類型。  
   

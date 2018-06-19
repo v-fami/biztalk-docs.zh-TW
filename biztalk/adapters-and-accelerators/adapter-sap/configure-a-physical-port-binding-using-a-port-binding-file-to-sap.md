@@ -1,17 +1,17 @@
 ---
-title: "設定實體連接埠繫結使用連接埠繫結檔案至 SAP |Microsoft 文件"
-ms.custom: 
+title: 設定實體連接埠繫結使用連接埠繫結檔案至 SAP |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - port binding file
 - physical port binding, configuring using a port binding file
 ms.assetid: c637971c-3ecd-4026-8f74-bd5173774438
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217590"
 ---
 # <a name="configure-a-physical-port-binding-using-a-port-binding-file-to-sap"></a>設定使用連接埠繫結檔案至 SAP 的實體連接埠繫結
 當您使用[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]產生中繼資料的 SAP 成品，以外的結構描述檔案，[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]也會產生連接埠繫結檔案。 您可以將此繫結檔案匯 BizTalk 應用程式來建立實體傳送或接收埠。 [重複使用 SAP 配接器繫結](../../adapters-and-accelerators/adapter-sap/reuse-sap-adapter-bindings.md)包括步驟來匯入繫結檔案。 如果您匯入此繫結檔案，您不必手動建立實體傳送或接收埠。  

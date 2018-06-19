@@ -1,17 +1,17 @@
 ---
-title: "步驟 1： 指派強式名稱給 Contoso 組件 |Microsoft 文件"
-ms.custom: 
+title: 步驟 1： 指派強式名稱給 Contoso 組件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - private process tutorial, assigning strong-names
 - strong-named assemblies
 ms.assetid: c8ec4593-5a4d-47ab-8799-7b2cd3d15ffc
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963860"
 ---
 # <a name="step-1-assigning-a-strong-name-to-the-contoso-assembly"></a>步驟 1： 指派強式名稱給 Contoso 組件
 在此步驟中，您將建立強式名稱並指派給 BizTalk 組件。 強式名稱藉由指派數位簽章和唯一的金鑰組，保證組件的唯一性。 此外，強式名稱提供完整性檢查，可保證組件的內容自上次建置以來未曾變更過。  
@@ -31,7 +32,7 @@ ms.lasthandoff: 11/28/2017
 2.  在命令提示字元下，移至 Contoso 解決方案所在的位置。  
   
     > [!NOTE]
-    >  根據預設，Contoso 解決方案的位置是*\<磁碟機\>*: \Documents and 設定\\*\<使用者名\>*\MyDocuments\Visual Studio\<版本\>\Projects。  
+    >  根據預設，Contoso 解決方案的位置是*\<磁碟機\>*: \Documents and 設定\\*\<使用者名\>* \MyDocuments\Visual Studio\<版本\>\Projects。  
   
 3.  在命令提示字元中，輸入**sn-k FabConPriceAvail.snk**，然後按下**Enter**。  
   

@@ -1,14 +1,14 @@
 ---
-title: "搭配 SharePoint 使用 Oracle 資料庫配接器 |Microsoft 文件"
-ms.custom: 
+title: 搭配 SharePoint 使用 Oracle 資料庫配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 254204e5-3b5d-4e70-97ab-817660d1206a
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 10/17/2017
+ms.locfileid: "23450305"
 ---
 # <a name="use-the-oracle-database-adapter-with-sharepoint"></a>搭配 SharePoint 使用 Oracle 資料庫配接器
 針對 WCF 配接器服務開發精靈[!INCLUDE[btsVStudioNoVersion_md](../../includes/btsvstudionoversion-md.md)]可以讓 Microsoft BizTalk Adapter for Oracle 資料庫和 Microsoft BizTalk Adapter for Oracle E-business Suite 直接與 Microsoft SharePoint 中的外部資料來源使用。 新增服務開發精靈支援此功能會使用啟動**WCF 配接器服務**用來建立新 Visual C# 中的網站範本[!INCLUDE[btsVStudioNoVersion_md](../../includes/btsvstudionoversion-md.md)]。 範本隨附於[!INCLUDE[adapterpacknoversion_md](../../includes/adapterpacknoversion-md.md)]。 您也必須安裝 Microsoft Windows Communication Foundation (WCF) 的企業營運 (LOB) 配接器 SDK。  

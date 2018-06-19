@@ -1,14 +1,14 @@
 ---
-title: "復原執行階段電腦 |Microsoft 文件"
-ms.custom: 
+title: 復原執行階段電腦 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7a836aac-6f37-488f-bb2e-c9265b65ab8c
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22301846"
 ---
 # <a name="recovering-the-runtime-computers"></a>復原執行階段電腦
 本主題中的步驟之後[還原 BizTalk 群組](../technical-guides/restoring-the-biztalk-group.md)完成時，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]執行階段電腦可以還原。  

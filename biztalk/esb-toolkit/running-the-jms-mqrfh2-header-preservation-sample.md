@@ -1,14 +1,14 @@
 ---
-title: "執行 JMS MQRFH2 標頭保留範例 |Microsoft 文件"
-ms.custom: 
+title: 執行 JMS MQRFH2 標頭保留範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 65982dca-77e1-4267-9528-26c59237e9b1
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295126"
 ---
 # <a name="running-the-jms-mqrfh2-header-preservation-sample"></a>執行 JMS MQRFH2 標頭保留範例
 此範例的這個部分會將訊息插入 WebSphere 佇列。 ESB 拾取此訊息，並將輸出的 WebSphere 佇列。 這示範了 ESB 和 Microsoft BizTalk 保留失真 RFH2 標頭如下的訊息是透過 BizTalk Server。  
@@ -53,4 +54,4 @@ ms.lasthandoff: 09/20/2017
   
 9. 在延遲之後應用程式執行，而 ESB 輸出訊息會出現在 ESB。JMS。範例。DYNAMICQ1 和 ESB。JMS。範例。DYNAMICQ1 佇列。 開啟 WebSphere 佇列總管並瀏覽佇列，確認這個項目。  
   
-10. 返回 RfhUtil 公用程式，並連接到看到的訊息佇列。 按一下**MQMD、 RFH，**和**jms**驗證輸入和輸出值會變更該目的地佇列中的訊息，而且回覆佇列中的訊息是相同的索引標籤除外，而不是標準的 JMS 訊息，訊息會標示為 「 其他 」。
+10. 返回 RfhUtil 公用程式，並連接到看到的訊息佇列。 按一下**MQMD、 RFH，** 和**jms**驗證輸入和輸出值會變更該目的地佇列中的訊息，而且回覆佇列中的訊息是相同的索引標籤除外，而不是標準的 JMS 訊息，訊息會標示為 「 其他 」。

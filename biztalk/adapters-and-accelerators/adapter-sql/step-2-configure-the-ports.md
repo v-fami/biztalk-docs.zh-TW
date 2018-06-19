@@ -1,14 +1,14 @@
 ---
-title: "步驟 2： 設定的連接埠 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 設定的連接埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e804da96-26ae-482d-b6e1-67af24d639d9
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,13 +17,14 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967284"
 ---
 # <a name="step-2-configure-the-ports"></a>步驟 2： 設定的連接埠
 ![步驟 4 之 2](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")  
   
  **若要完成的時間：** 15 分鐘  
   
- **目標：**在此步驟中，您建立的實體連接埠[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]管理主控台。 您建立每個邏輯連接埠在協調流程中所建立的實體連接埠。 您將建立下列連接埠：  
+ **目標：** 在此步驟中，您建立的實體連接埠[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]管理主控台。 您建立每個邏輯連接埠在協調流程中所建立的實體連接埠。 您將建立下列連接埠：  
   
 -   單向 WCF 自訂接收埠以接收通知訊息變更**員工**SQL Server 資料庫中的資料表。  
   
@@ -49,7 +50,7 @@ ms.lasthandoff: 11/28/2017
     |繫結屬性|值|  
     |----------------------|-----------|  
     |**InboundOperationType**|將此設**通知**。|  
-    |**NotificationStatement**|將此值設定為：<br /><br /> `SELECT Employee_ID, Name FROM dbo.Employee WHERE Status=0`<br /><br /> **注意：**您必須明確指定資料行名稱的陳述式中這個 Select 陳述式中所示。 此外，您必須一律指定資料表名稱，以及結構描述名稱，例如`dbo.Employee`。|  
+    |**NotificationStatement**|將此值設定為：<br /><br /> `SELECT Employee_ID, Name FROM dbo.Employee WHERE Status=0`<br /><br /> **注意：** 您必須明確指定資料行名稱的陳述式中這個 Select 陳述式中所示。 此外，您必須一律指定資料表名稱，以及結構描述名稱，例如`dbo.Employee`。|  
     |**NotifyOnListenerStart**|將此設**True**。|  
   
      如需不同的繫結屬性的詳細資訊，請參閱[閱讀 BizTalk Adapter for SQL Server 配接器繫結屬性](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md)。  
@@ -75,7 +76,7 @@ ms.lasthandoff: 11/28/2017
   
     2.  從**SQLOutboundPort-傳送埠屬性**對話方塊中的，從左窗格中，按一下**輸出對應**。  
   
-    3.  從右窗格中，在**輸出對應**方塊中，按一下下方的儲存格**對應**資料行，然後從下拉式清單中，選取**[transform_1]**。 這是您建立 BizTalk 協調流程中之對應的名稱[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]。  
+    3.  從右窗格中，在**輸出對應**方塊中，按一下下方的儲存格**對應**資料行，然後從下拉式清單中，選取 **[transform_1]**。 這是您建立 BizTalk 協調流程中之對應的名稱[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]。  
   
          按一下 **[確定]**。  
   

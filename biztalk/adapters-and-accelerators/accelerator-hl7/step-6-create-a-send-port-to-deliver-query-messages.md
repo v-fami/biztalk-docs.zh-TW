@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206798"
 ---
 # <a name="step-6-create-a-send-port-to-deliver-query-messages"></a>步驟 6： 建立傳送埠以傳送查詢訊息
 在此步驟中，您建立傳送埠傳送傳入的查詢 (QRY ^ Q01 訊息) 醫院資訊系統 (HIS)。  

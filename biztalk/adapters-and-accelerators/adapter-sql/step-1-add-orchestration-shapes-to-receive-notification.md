@@ -1,14 +1,14 @@
 ---
-title: "步驟 1： 加入以接收通知的協調流程圖形 |Microsoft 文件"
-ms.custom: 
+title: 步驟 1： 加入以接收通知的協調流程圖形 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4e4c6fa5-81b7-4928-84d5-39533535f862
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,13 +17,14 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223126"
 ---
 # <a name="step-1-add-orchestration-shapes-to-receive-notification"></a>步驟 1： 加入以接收通知的協調流程圖形
 ![步驟 3 之 1](../../adapters-and-accelerators/adapter-oracle-database/media/step-1of3.gif "Step_1of3")  
   
  **若要完成的時間：** 5 分鐘  
   
- **目標：**在此步驟中，您將收到變更通知的協調流程圖形**員工**資料表。  
+ **目標：** 在此步驟中，您將收到變更通知的協調流程圖形**員工**資料表。  
   
 ## <a name="prerequisites"></a>必要條件  
  您必須先完成中的步驟[第 1 課： 產生的結構描述和建立訊息](../../adapters-and-accelerators/adapter-sql/lesson-1-generate-schemas-and-create-messages.md)。  

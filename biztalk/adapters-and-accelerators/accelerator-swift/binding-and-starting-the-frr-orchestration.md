@@ -1,11 +1,11 @@
 ---
-title: "繫結和啟動協調流程 FRR |Microsoft 文件"
-ms.custom: 
+title: 繫結和啟動協調流程 FRR |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - FRR, binding orchestrations
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - bindings, orchestrations
 - orchestrations, bindings
 ms.assetid: b74a0116-e98b-4fec-b386-710ce421a1e2
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209054"
 ---
 # <a name="binding-and-starting-the-frr-orchestration"></a>繫結和啟動 FRR 協調流程
 [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]包含 FRR 協調流程做為已部署的組件 ([!INCLUDE[btsCoName](../../includes/btsconame-md.md)]。Solutions.FinancialServices.SWIFT.FrrOrchestration)。 您要啟動此協調流程。  

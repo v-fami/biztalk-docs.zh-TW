@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968828"
 ---
 # <a name="how-to-add-orchestration-variables"></a>如何新增協調流程變數
 [協調流程檢視] 視窗可讓您管理協調流程的屬性 (也稱為**服務**屬性)、 參數、 連接埠、 訊息，以及其他變數。 除了連接埠和訊息之外，您還可以建立整數變數、布林值變數、字串變數或 .NET 類別的變數。  

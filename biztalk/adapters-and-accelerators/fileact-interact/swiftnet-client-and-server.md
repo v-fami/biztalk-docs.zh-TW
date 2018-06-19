@@ -1,14 +1,14 @@
 ---
-title: "SWIFTNet 用戶端和伺服器 |Microsoft 文件"
-ms.custom: 
+title: SWIFTNet 用戶端和伺服器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 89d9f54f-af16-4f14-bbe4-8306758320d8
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224654"
 ---
 # <a name="swiftnet-client-and-server"></a>SWIFTNet 用戶端和伺服器
 SWIFT 使用規定用戶端和伺服器來描述傳送和接收。 SWIFT 的用戶端會呼叫 SWIFTNet 連結 (SNL) 透過 SWIFTNet 啟始通訊的程序。 在 BizTalk Server 中，這稱為傳送配接器。 SWIFT 的伺服器是由 SNL 流量流入透過 SWIFTNet 時呼叫的程式。 在 BizTalk Server 中，這稱為接收配接器。  
@@ -58,7 +59,7 @@ Callback(Request):
   
  伺服器應用程式可以呼叫的回呼函式中 SwCall API。 在某些情況下，它必須呼叫 SwCall 能夠產生想要的結果或回應。 不過，伺服器應用程式可以永遠不會透過網路初始通訊。 伺服器應用程式不可以用戶端應用程式。  
   
- 在下圖中，呼叫標示**初始化**是 SNL API 初始化程序，需要多次呼叫的抽象概念。 標示為呼叫**SwCallback()**重複數次，而且呼叫標示**SwCall()**是選擇性的。  
+ 在下圖中，呼叫標示**初始化**是 SNL API 初始化程序，需要多次呼叫的抽象概念。 標示為呼叫**SwCallback()** 重複數次，而且呼叫標示**SwCall()** 是選擇性的。  
   
  ![SNL 伺服器功能](../../adapters-and-accelerators/fileact-interact/media/42395775-cdbc-4e36-8b36-566caefa2aaf.gif "42395775-cdbc-4e36-8b36-566caefa2aaf")  
   

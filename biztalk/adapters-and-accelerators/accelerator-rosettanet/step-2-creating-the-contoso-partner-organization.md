@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963532"
 ---
 # <a name="step-2-creating-the-contoso-partner-organization"></a>步驟 2： 建立 Contoso 交易夥伴組織
 在這個步驟中，您會使用 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 管理主控台來建立新的交易夥伴。 這個教學課程中的交易夥伴是 Contoso 組織。  
@@ -31,15 +32,15 @@ ms.lasthandoff: 11/28/2017
   
 1.  在 **[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]** 管理主控台中，展開[!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)]，以滑鼠右鍵按一下**夥伴**，指向 **新增**，然後按一下**夥伴**.  
   
-2.  在 [新交易夥伴屬性] 對話方塊上**一般**索引標籤上，執行下列動作**:**  
+2.  在 [新交易夥伴屬性] 對話方塊上**一般**索引標籤上，執行下列動作 **:**  
   
     |使用|動作|  
     |--------------|----------------|  
     |**名稱**|型別**CONTOSO**。|  
     |**GBI**|型別**123456789**。|  
     |**夥伴分類**|選取**製造商**從下拉式清單。|  
-    |**簽章憑證**|選取**Contoso Signature [憑證指紋]**從下拉式清單。|  
-    |**加密憑證**|選取**Contoso Encryption [憑證指紋]**從下拉式清單。|  
+    |**簽章憑證**|選取**Contoso Signature [憑證指紋]** 從下拉式清單。|  
+    |**加密憑證**|選取**Contoso Encryption [憑證指紋]** 從下拉式清單。|  
   
 3.  按一下**連絡人屬性**索引標籤，然後再執行下列動作：  
   

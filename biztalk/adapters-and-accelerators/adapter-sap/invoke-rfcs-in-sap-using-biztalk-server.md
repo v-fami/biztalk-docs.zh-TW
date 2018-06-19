@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965436"
 ---
 # <a name="invoke-rfcs-in-sap-using-biztalk-server"></a>叫用中使用 BizTalk Server 的 SAP Rfc
 [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]介面上做為配接器用戶端可以叫用的作業由 SAP 系統的 Rfc。 此章節提供的指示以 SAP 系統的 RFC 叫用使用[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]與 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]。 如需有關如何[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]支援叫用 RFC SAP 系統，請參閱[作業中 SAP Rfc](../../adapters-and-accelerators/adapter-sap/operations-on-rfcs-in-sap.md)。 更多的叫用 RFC 的 SOAP 訊息結構的詳細資訊，請參閱[RFC 作業的訊息結構描述](../../adapters-and-accelerators/adapter-sap/message-schemas-for-rfc-operations.md)。  
@@ -92,7 +93,7 @@ ms.lasthandoff: 11/28/2017
   
 |形狀圖|圖形類型|屬性|  
 |-----------|----------------|----------------|  
-|Receive_Request|Receive|-設定**名稱**至*Receive_Request*<br />-設定**啟動**至*，則為 True*|  
+|Receive_Request|Receive|-設定**名稱**至*Receive_Request*<br />-設定**啟動**至 *，則為 True*|  
 |Send_LOB|Send|-設定**名稱**至*Send_LOB*|  
 |Receive_LOB|Receive|-設定**名稱**至*Receive_LOB*<br />-設定**啟動**至*False*|  
 |Send_Response|Send|-設定**名稱**至*Send_Response*|  

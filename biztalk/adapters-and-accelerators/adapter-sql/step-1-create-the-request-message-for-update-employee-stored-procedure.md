@@ -1,14 +1,14 @@
 ---
-title: "步驟 1： 建立要求訊息的 UPDATE_EMPLOYEE 預存程序 |Microsoft 文件"
-ms.custom: 
+title: 步驟 1： 建立要求訊息的 UPDATE_EMPLOYEE 預存程序 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4dd975d9-4b38-46e0-a926-4b325b0d7b5e
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,13 +17,14 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965988"
 ---
 # <a name="step-1-create-the-request-message-for-updateemployee-stored-procedure"></a>步驟 1： 建立要求訊息的 UPDATE_EMPLOYEE 預存程序
 ![步驟 2 之 1](../../adapters-and-accelerators/adapter-sql/media/step-1of2.gif "Step_1of2")  
   
  **若要完成的時間：** 10 分鐘  
   
- **目標：**在此步驟中，您必須將 C# 類別庫專案加入至方案。 此程式庫會建立非記憶體中的要求訊息**UPDATE_EMPLOYEE**預存程序。 在稍後步驟中，協調流程會將此訊息傳送到 SQL Server 來執行預存程序。  
+ **目標：** 在此步驟中，您必須將 C# 類別庫專案加入至方案。 此程式庫會建立非記憶體中的要求訊息**UPDATE_EMPLOYEE**預存程序。 在稍後步驟中，協調流程會將此訊息傳送到 SQL Server 來執行預存程序。  
   
 ## <a name="prerequisites"></a>必要條件  
  您必須先完成中的步驟[第 2 課： 接收和篩選器通知](../../adapters-and-accelerators/adapter-sql/lesson-2-receive-and-filter-notifications.md)。  
