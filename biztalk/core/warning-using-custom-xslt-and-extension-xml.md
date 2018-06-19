@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288582"
 ---
 # <a name="warning---using-custom-xslt-and-extension-xml"></a>警告-使用自訂 XSLT 與延伸模組 XML
 **錯誤碼**  

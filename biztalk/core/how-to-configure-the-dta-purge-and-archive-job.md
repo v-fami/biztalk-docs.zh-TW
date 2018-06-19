@@ -1,15 +1,15 @@
 ---
-title: "設定 DTA 的清除與封存工作 |Microsoft 文件"
-description: "在 SQL Server 代理程式，以維護 BizTalk Server 中的追蹤資料庫中設定 DTA 清除與封存工作參數"
-ms.custom: 
+title: 設定 DTA 的清除與封存工作 |Microsoft 文件
+description: 在 SQL Server 代理程式，以維護 BizTalk Server 中的追蹤資料庫中設定 DTA 清除與封存工作參數
+ms.custom: ''
 ms.date: 10/11/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 156ccf9b-284f-4b96-a395-92936e8cebcf
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 1fb633fcf919ce3124405420a5d9faa79d9d508e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 10/11/2017
+ms.locfileid: "22646930"
 ---
 # <a name="configure-the-dta-purge-and-archive-job"></a>設定 DTA 的清除與封存工作
 您必須先設定 DTA 的清除與封存 (BizTalkDTADb) 工作，才能封存或清除「BizTalk 追蹤」(BizTalkDTADb) 資料庫的資料。 這項作業會設定為呼叫 dtasp_BackupAndPurgeTrackingDatabase 預存程序，它會使用六個參數，您必須設定。  
@@ -35,7 +36,7 @@ ms.lasthandoff: 10/11/2017
   
 4.  在**物件總管詳細資料**，以滑鼠右鍵按一下**DTA 清除與封存 (BizTalkDTADb)**，然後選取**屬性**。  
   
-5.  在**作業屬性-DTA 清除與封存 (BizTalkDTADb)**下**選取頁面**，選取**步驟**。  
+5.  在**作業屬性-DTA 清除與封存 (BizTalkDTADb)** 下**選取頁面**，選取**步驟**。  
   
 6.  在**作業步驟清單**，選取**封存及清除**，然後選取**編輯**。  
   
@@ -67,7 +68,7 @@ ms.lasthandoff: 10/11/2017
     exec dtasp_BackupAndPurgeTrackingDatabase 1, 0, 1, '\\MyBizTalkServer\backup', null, 0, 1  
     ```  
   
-8.  在**作業屬性-DTA 清除與封存 (BizTalkDTADb)**對話方塊的 **選取頁面**，選取**一般**，選取**啟用**核取方塊，然後再選取**確定**。  
+8.  在**作業屬性-DTA 清除與封存 (BizTalkDTADb)** 對話方塊的 **選取頁面**，選取**一般**，選取**啟用**核取方塊，然後再選取**確定**。  
   
 ## <a name="see-also"></a>另請參閱  
  [封存和清除 BizTalk 追蹤資料庫](../core/archiving-and-purging-the-biztalk-tracking-database.md)

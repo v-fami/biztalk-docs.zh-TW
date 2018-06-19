@@ -1,14 +1,14 @@
 ---
-title: "如何： 實作內容架構路由使用商務規則原則已知的訊息類型 |Microsoft 文件"
-ms.custom: 
+title: 如何： 實作內容架構路由使用商務規則原則已知的訊息類型 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 44451c85-929a-4d13-b0dd-53ea600d0859
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010039"
 ---
 # <a name="how-to-implement-content-based-routing-using-a-business-rules-policy-for-a-known-message-type"></a>如何： 實作內容架構路由使用商務規則原則已知的訊息類型
 ## <a name="goal"></a>目標  

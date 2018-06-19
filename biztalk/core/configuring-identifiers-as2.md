@@ -1,14 +1,14 @@
 ---
-title: "設定識別項 (AS2) |Microsoft 文件"
-ms.custom: 
+title: 設定識別項 (AS2) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 29f12696-8257-4664-8e61-292678e98b6b
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007439"
 ---
 # <a name="configuring-identifiers-as2"></a>設定識別項 (AS2)
 在夥伴協議中，您必須指定傳送者與接收者合作對象。 這些值也會用來解析輸入或輸出訊息的協議。  

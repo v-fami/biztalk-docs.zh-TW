@@ -1,14 +1,14 @@
 ---
-title: "選擇傳訊和協調流程路線服務 |Microsoft 文件"
-ms.custom: 
+title: 選擇傳訊和協調流程路線服務 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 694f929a-c830-4906-8e97-4fbd50e70133
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009807"
 ---
 # <a name="choosing-between-messaging-and-orchestration-itinerary-services"></a>選擇傳訊和協調流程路線服務
 路線服務可以設定為在傳訊子系統或 BizTalk Server 協調流程子系統中發生。 這些 ESB 路線傳訊服務設定來處理訊息，而且可能會在 BizTalk Server 管線 （上手或匝道） 中執行。 此選項可讓開發人員定義完全在管線中將執行服務。 當然，設定為協調流程子系統中的程序服務將會執行 BizTalk 協調流程中。  

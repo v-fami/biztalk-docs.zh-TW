@@ -1,11 +1,11 @@
 ---
-title: "建立動態的訊息類型探索自訂標頭結構描述 |Microsoft 文件"
-ms.custom: 
+title: 建立動態的訊息類型探索自訂標頭結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - schemas, dynamic resolution
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - schemas, custom headers
 - header schemas
 ms.assetid: 0c936c57-b533-47ca-9258-576b021fd016
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26004327"
 ---
 # <a name="creating-custom-header-schemas-for-dynamic-message-type-discovery"></a>建立自訂標頭結構描述的訊息動態類型探索
 在大部分情況下，您應該指定預設 SWIFT 的標頭結構描述 (Microsoft.Solutions.FinancialServices.SWIFT.RuntimeSchemas.HeaderSchema) SWIFT 解譯器的 SWIFT 標頭結構描述組態屬性。 SWIFT 解譯器會使用預設 SWIFT 的標頭結構描述剖析訊息標頭符合 SWIFT 標準規格，並具有所需之升級屬性，以便動態結構描述解析 （和 「 雙重類型 」 的子型別解析SWIFT 的訊息，例如 MT574_IRSLST 與 MT574_W8BENO）。 如需有關預設 SWIFT 的標頭結構描述，以及了解 SWIFT 解譯器的結構描述解析的執行方式的詳細資訊，請參閱[動態的訊息類型探索和結構描述解析](../../adapters-and-accelerators/accelerator-swift/dynamic-message-type-discovery-and-schema-resolution.md)。  

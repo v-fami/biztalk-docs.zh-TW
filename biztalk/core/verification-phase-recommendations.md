@@ -1,14 +1,14 @@
 ---
-title: "驗證階段建議 |Microsoft 文件"
-ms.custom: 
+title: 驗證階段建議 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 00663354-ce5d-4391-b835-89940c92c1ce
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288134"
 ---
 # <a name="verification-phase-recommendations"></a>驗證階段建議
 在系統程式碼完成之後，即可開始全面加強其穩定性，並驗證其是否符合釋放準則。 這個階段通常稱為穩定化階段。 此階段的最終目標是要找出並修復錯誤，以及證實系統已準備好可以實際執行。 因此，在這個階段中，會對系統的發行候選版本進行終段測試。  

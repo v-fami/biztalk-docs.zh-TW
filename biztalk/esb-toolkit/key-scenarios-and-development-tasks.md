@@ -1,14 +1,14 @@
 ---
-title: "索引鍵的案例及開發工作 |Microsoft 文件"
-ms.custom: 
+title: 索引鍵的案例及開發工作 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a872feec-ee81-41e9-9cc6-0a583c22b13e
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294590"
 ---
 # <a name="key-scenarios-and-development-tasks"></a>重要案例及開發工作
 本主題描述使用的重要案例[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]並示範如何開發人員可以完成的索引鍵的開發活動。 本主題包含下列案例：  

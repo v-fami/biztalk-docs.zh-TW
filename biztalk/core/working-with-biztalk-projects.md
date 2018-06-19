@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288998"
 ---
 # <a name="working-with-biztalk-projects"></a>使用 BizTalk 專案
 雖然有許多使用 BizTalk 專案系統建立應用程式的原則與使用 Microsoft Visual Studio 中可用的其他專案系統建立應用程式的原則相同，不過仍然有一些差異，例如專案建置組態的類型。 本節描述在建立可於 Microsoft BizTalk Server 上執行的應用程式時，您可能執行的一些工作。  

@@ -1,14 +1,14 @@
 ---
-title: "升級和版本的應用程式的策略 |Microsoft 文件"
-ms.custom: 
+title: 升級和版本的應用程式的策略 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e881def2-c407-4205-a6b3-5c1fa5144bb4
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015349"
 ---
 # <a name="upgrading-and-versioning-strategies-for-applications"></a>升級和應用程式的版本控制方法
 當您需要執行兩個版本的 BizTalk 方案的並存，或如果您無法使用 BizTalk 應用程式停機時間，來部署新的版本，BizTalk 應用程式版本可能會造成問題。 如果您不需要執行兩個版本的方案同時 （例如，您有任何長時間執行的協調流程），而服務維護視窗可用，然後是完全可接受的解除部署舊的版本，並部署新的版本做為版本控制策略 （沒有組件版本控制）。 這是可能的版本控制策略，不過我們還是建議遞增檔案版本號碼 (讓您知道哪一個版本執行的電腦上部署[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)])。  

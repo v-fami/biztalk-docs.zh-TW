@@ -1,14 +1,14 @@
 ---
-title: "保留和隱藏分隔符號 |Microsoft 文件"
-ms.custom: 
+title: 保留和隱藏分隔符號 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 30985b94-625e-411a-8137-1c129bc197bf
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: d572ae5c887898adedcb3dfc5f83841beedd3434
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/06/2017
+ms.locfileid: "26335498"
 ---
 # <a name="delimiter-preservation-and-suppression"></a>保留和隱藏分隔符號
 
@@ -75,7 +76,7 @@ ms.lasthandoff: 12/06/2017
 |---|---|---|---|  
 |是|否|Rec,,,Val,,|無。|  
 |否|是|Rec,Val|所有**欄位項目**必須設定為選擇性節點。|  
-|是|是|Rec,,,Val|節點名稱為**FieldElem4**和**[fieldelem5]**必須設定為選擇性。|  
+|是|是|Rec,,,Val|節點名稱為**FieldElem4**和 **[fieldelem5]** 必須設定為選擇性。|  
 |否|否|Rec,Val,,|所有**欄位項目**必須設定為選擇性節點。|  
   
  當這些屬性設定指定分隔符號不能保留或應該隱藏時，會在下列兩種情況下發出訊息，警告可能無法使用相同的結構描述剖析序列化的一般檔案資料：  

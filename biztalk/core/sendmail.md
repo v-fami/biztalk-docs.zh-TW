@@ -1,18 +1,18 @@
 ---
-title: "SendMail |Microsoft 文件"
-ms.custom: 
+title: SendMail |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SMTP adapters, examples
 - examples, SMTP adapters
 - SMTP adapters
 ms.assetid: a0258619-b195-4c8a-8326-77add6e6f04d
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974836"
 ---
 # <a name="sendmail"></a>SendMail
 SendMail 範例示範如何使用 Simple Mail Transfer Protocol (SMTP) 配接器，從 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 協調流程內傳送電子郵件訊息。 用來傳送電子郵件訊息的動態資訊，會使用以屬性升級功能從 XML 訊息擷取。  
@@ -48,7 +49,7 @@ SendMail 範例示範如何使用 Simple Mail Transfer Protocol (SMTP) 配接器
 |PropertySchema.xsd, PurchaseOrder.xsd|分別針對您要升級的屬性和 XML PO 訊息提供結構描述。|  
 |ReceiveSend.odx|提供 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 協調流程，以處理內送 XML PO 訊息，並根據訊息內的資訊傳送電子郵件訊息。|  
 |SendMailInput.xml|包含範本輸入檔，其中包含使用 XML 指定的訂單。|  
-|Setup.bat|建置並初始化此範例。 **注意：**和此安裝程式檔案建立並繫結連接埠，依此類推，使用不同的機制，比大多數的安裝程式檔案的 SDK 範例。 並不需要附贈 .xml 檔案。|  
+|Setup.bat|建置並初始化此範例。 **注意：** 和此安裝程式檔案建立並繫結連接埠，依此類推，使用不同的機制，比大多數的安裝程式檔案的 SDK 範例。 並不需要附贈 .xml 檔案。|  
   
 ### <a name="to-build-and-initialize-this-sample"></a>若要建置並初始化這個範例  
   
@@ -89,7 +90,7 @@ SendMail 範例示範如何使用 Simple Mail Transfer Protocol (SMTP) 配接器
   
 9. 在**SMTP-配接器處理常式屬性**對話方塊中，按一下 **屬性**。  
   
-10. 在**SMTP 傳輸屬性**對話方塊**屬性**索引標籤上，提供適當的值，如**SMTP 伺服器名稱**和**（電子郵件地址）**屬性，然後再按一下**確定**。  
+10. 在**SMTP 傳輸屬性**對話方塊**屬性**索引標籤上，提供適當的值，如**SMTP 伺服器名稱**和 **（電子郵件地址）** 屬性，然後再按一下**確定**。  
   
      透過此 SMTP 配接器傳送的任何電子郵件訊息，都是使用這些值來建構寄件者電子郵件地址。  
   

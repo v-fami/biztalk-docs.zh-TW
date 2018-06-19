@@ -1,18 +1,18 @@
 ---
-title: "停止協調流程 （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: 停止協調流程 （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, examples
 - examples, orchestrations
 - orchestrations, stopping
 ms.assetid: 83be44e9-819d-4ac5-8b75-84c23e6b5ba2
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973892"
 ---
 # <a name="stop-orchestration-biztalk-server-sample"></a>停止協調流程 （BizTalk Server 範例）
 「停止協調流程」範例會示範如何停止 BizTalk Server 協調流程，以及選擇性地將它取消登錄。  

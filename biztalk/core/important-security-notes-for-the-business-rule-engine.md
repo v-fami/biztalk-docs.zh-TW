@@ -1,11 +1,11 @@
 ---
-title: "重要安全性注意事項商務規則引擎 |Microsoft 文件"
-ms.custom: 
+title: 重要安全性注意事項商務規則引擎 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - business rules, store administrator
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - business rules, security
 - Denial of Service attacks
 ms.assetid: 8972127a-5569-4b32-bc09-e9265efe9514
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007063"
 ---
 # <a name="important-security-notes-for-the-business-rule-engine"></a>商務規則引擎的重要安全性注意事項
 本主題摘要說明 Microsoft BizTalk Server，以及降低安全性風險時，必須採取的步驟中的已知的安全性問題。  
@@ -35,7 +36,7 @@ ms.lasthandoff: 12/01/2017
  任何結構描述執行個體當做事實**RuleSet**不會針對結構描述驗證判斷提示規則使用選取器之前。 您應該要驗證執行原則時傳遞的所有輸入。  
   
 ## <a name="expected-behaviors-of-the-business-rule-composer-when-rulestore-security-is-on"></a>當 RuleStore 安全性開啟時商務規則編輯器的預期行為  
- 您可以啟用規則存放區的角色為基礎的安全性功能，藉由呼叫**[rulestore]**方法**RuleStore**類別。 當啟用此安全性功能時，「商務規則編輯器」的預期行為如下：  
+ 您可以啟用規則存放區的角色為基礎的安全性功能，藉由呼叫 **[rulestore]** 方法**RuleStore**類別。 當啟用此安全性功能時，「商務規則編輯器」的預期行為如下：  
   
 -   物件模型會篩除使用者沒有讀取權限的規則集和詞彙。 因此，它們不會出現在「商務規則編輯器」中。  
   

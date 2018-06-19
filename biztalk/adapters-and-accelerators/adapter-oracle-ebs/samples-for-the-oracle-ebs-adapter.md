@@ -1,15 +1,15 @@
 ---
-title: "Oracle EBS 配接器範例 |Microsoft 文件"
-description: "可以使用 BizTalk Server、 WCF 服務模型時，與 WCF 通道模型的 oracle Enterprise Business Suite WCF 配接器範例"
-ms.custom: 
+title: Oracle EBS 配接器範例 |Microsoft 文件
+description: 可以使用 BizTalk Server、 WCF 服務模型時，與 WCF 通道模型的 oracle Enterprise Business Suite WCF 配接器範例
+ms.custom: ''
 ms.date: 10/18/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 12f19f13-3b01-40d6-b12c-811f99841040
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015341"
 ---
 # <a name="samples-for-the-oracle-ebs-adapter"></a>適用於 Oracle EBS 配接器範例
 範例如[!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]分類成：  

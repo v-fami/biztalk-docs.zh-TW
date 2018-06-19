@@ -1,14 +1,14 @@
 ---
-title: "逐步解說 (X12)： 接收批次的 EDI 交換 |Microsoft 文件"
-ms.custom: 
+title: 逐步解說 (X12)： 接收批次的 EDI 交換 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1f6e6e96-39ec-469d-a845-1bfdce6cc0bf
-caps.latest.revision: "34"
+caps.latest.revision: 34
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975718"
 ---
 # <a name="walkthrough-x12-receiving-batched-edi-interchanges"></a>逐步解說 (X12)：接收批次 EDI 交換
 本逐步解說提供一組逐步執行的程序，來使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 建立可接收 EDI 批次的解決方案。 這個解決方案示範了兩種接收批次 EDI 交換的方法。  
@@ -255,14 +256,14 @@ ms.lasthandoff: 11/28/2017
   
         |使用|動作|  
         |--------------|----------------|  
-        |**預設值**|選取**預設**。 **注意：**當您選取這個資料列的預設值為**GS1**， **GS2**， **GS3**， **GS7**，和**GS8**可用即使值**交易類型**，**版本/版次**，和**目標命名空間**都不符合訊息。|  
+        |**預設值**|選取**預設**。 **注意：** 當您選取這個資料列的預設值為**GS1**， **GS2**， **GS3**， **GS7**，和**GS8**可用即使值**交易類型**，**版本/版次**，和**目標命名空間**都不符合訊息。|  
         |**交易類型**|選取的測試訊息，訊息類型**850-Purchase Order**。|  
         |**版本/版次**|輸入 EDI 版本， **00401**。|  
         |**目標命名空間**|選取**http://schemas.microsoft.com/Edi/X12**。|  
         |**GS1**|確認已選取測試訊息的訊息類型， **PO-Purchase Order (850)**。|  
         |**GS2**|例如，輸入應用程式傳送者的值**Purchasing**。|  
-        |**GS3**|例如，應用程式接收者中，輸入的值**[ordercontrol]**。|  
-        |**GS4**|選取您想要的日期格式。 **注意：**您必須在下拉式清單中選取值，不只是按一下欄位以顯示預設值。 如果您按一下欄位而未從下拉式清單中選取值，實際上不會選取值。|  
+        |**GS3**|例如，應用程式接收者中，輸入的值 **[ordercontrol]**。|  
+        |**GS4**|選取您想要的日期格式。 **注意：** 您必須在下拉式清單中選取值，不只是按一下欄位以顯示預設值。 如果您按一下欄位而未從下拉式清單中選取值，實際上不會選取值。|  
         |**GS5**|選擇您要的時間格式。|  
         |**GS7**|選取**X-Accredited 的 Standards Committee X12**。|  
         |**GS8**|確認已輸入 EDI 版本， **00401**。|  

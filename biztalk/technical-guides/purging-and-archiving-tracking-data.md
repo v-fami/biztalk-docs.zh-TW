@@ -1,14 +1,14 @@
 ---
-title: "清除和封存追蹤資料 |Microsoft 文件"
-ms.custom: 
+title: 清除和封存追蹤資料 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 14094fda-3fd9-4d45-9bbb-cd9377c2cbad
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302934"
 ---
 # <a name="purging-and-archiving-tracking-data"></a>清除和封存追蹤資料
 請務必設定並啟用 DTA 清除與封存 SQL 代理程式作業。 此作業會封存，並且從 BizTalk 追蹤 (DTA) 資料庫清除舊資料。 這是不可或缺的狀況良好[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統。 大型的追蹤資料庫將會開始追蹤主控件以及任何其他處理序的效能影響該查詢追蹤資料庫。 如果追蹤資料不會清除從追蹤資料庫，資料庫會繼續成長。  

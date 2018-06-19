@@ -9,7 +9,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5b7bc3ab-16fa-4e91-8730-9431473b2fb4
-caps.latest.revision: ''
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25973268"
 ---
 # <a name="troubleshoot-tibco-rendezvous"></a>對 TIBCO Rendezvous 進行疑難排解
   
@@ -46,15 +47,15 @@ Microsoft BizTalk Adapter for TIBCO Rendezvous 會將錯誤、警告和資訊訊
   
  BizTalk Adapter for TIBCO Rendezvous 有三個提供者。 這可讓您記錄不同種類的訊息：  
   
--   **接收器記錄提供者**:\<追蹤項目\>交換器**-接收者**。  
+-   **接收器記錄提供者**:\<追蹤項目\>交換器 **-接收者**。  
   
 -   使用 **-接收者** 從已在執行階段的配接器收到的記錄檔中取得任何訊息。  
   
--   **傳輸器記錄提供者**:\<追蹤項目\>交換器**-傳輸器**。  
+-   **傳輸器記錄提供者**:\<追蹤項目\>交換器 **-傳輸器**。  
   
      使用 **-transmitter** 從傳輸配接器在執行階段的記錄檔中取得任何訊息。  
   
--   **管理記錄提供者 —**\<追蹤項目\>交換器**-管理**。  
+-   **管理記錄提供者 —**\<追蹤項目\>交換器 **-管理**。  
   
      使用 **-管理**可瀏覽伺服器系統期間所產生的記錄檔中取得任何訊息。  
   

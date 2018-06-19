@@ -1,14 +1,14 @@
 ---
-title: "攔截器組態運算式 |Microsoft 文件"
-ms.custom: 
+title: 攔截器組態運算式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2695f509-fece-40b8-aa00-fa3c0c0f19c5
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973628"
 ---
 # <a name="interceptor-configuration-expressions"></a>攔截器組態運算式
 BAM 攔截器組態檔使用篩選條件運算式識別活動，並且使用資料運算式建構資料項目，用於儲存、做為相互關聯識別碼或接續 Token 使用，或是用於類似的目的。 無論目的為何，個別運算式是透過 `expression` 項目在攔截器組態檔中識別，並且包含一或多項使用 Reverse Polish Notation (亦稱為 Postfix 標記法) 的作業。  

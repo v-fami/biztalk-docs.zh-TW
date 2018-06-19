@@ -1,14 +1,14 @@
 ---
-title: "自訂 BAM 入口網站組態 |Microsoft 文件"
-ms.custom: 
+title: 自訂 BAM 入口網站組態 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 507bd5f0-b2a0-4d52-85f8-9d984138ca79
-caps.latest.revision: "47"
+caps.latest.revision: 47
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009743"
 ---
 # <a name="customizing-the-bam-portal-configuration"></a>自訂 BAM 入口網站組態
 BAM 入口網站上有許多組態選項。 下列程序顯示如何修改 BAM 入口網站，以獲得最佳使用者體驗。  
@@ -160,7 +161,7 @@ BAM 入口網站上有許多組態選項。 下列程序顯示如何修改 BAM �
   
 1.  開啟命令提示字元。  
   
-2.  執行**C:\Program Files\Microsoft SQL Server\90\Notification Services\9.0.242\Bin\nscontrol register-name bamalerts-server***\<伺服器名稱\>*取代*\<伺服器名稱\>*與伺服器的名稱。  
+2.  執行**C:\Program Files\Microsoft SQL Server\90\Notification Services\9.0.242\Bin\nscontrol register-name bamalerts-server***\<伺服器名稱\>* 取代*\<伺服器名稱\>* 與伺服器的名稱。  
   
 3.  按下 F5 以重新整理瀏覽器。  
   

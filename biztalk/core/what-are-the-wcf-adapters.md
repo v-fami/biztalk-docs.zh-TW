@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 18ca8535-3386-4018-8b5b-d32bdb9ebf70
-caps.latest.revision: ''
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22291214"
 ---
 # <a name="what-are-the-wcf-adapters"></a>何謂 WCF 配接器？
 Windows Communication Foundation (WCF) 配接器有兩種，一種是接收配接器，另一種是傳送配接器。 您可以使用 WCF 接收配接器接收 WCF 服務要求。 WCF 接收配接器會接收要求、建立 BizTalk 訊息物件，並將關聯的屬性升級為訊息內容。 您可以使用 WCF 傳送配接器來呼叫 WCF 服務。 WCF 傳送配接器會經由無類型合約來呼叫 WCF 服務。  

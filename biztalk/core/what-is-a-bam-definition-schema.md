@@ -1,11 +1,11 @@
 ---
-title: "何謂 BAM 定義結構描述？ | Microsoft Docs"
-ms.custom: 
+title: 何謂 BAM 定義結構描述？ | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - definitions [BAM], schemas
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - code samples, definition schemas [BAM]
 - definitions [BAM], code samples
 ms.assetid: 2eefe513-6593-409f-936f-7760e924f605
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975796"
 ---
 # <a name="what-is-a-bam-definition-schema"></a>何謂 BAM 定義結構描述？
 BAM 定義結構描述定義了商務分析師所建立之觀察模型的結構。  

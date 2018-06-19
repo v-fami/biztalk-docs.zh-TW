@@ -1,15 +1,15 @@
 ---
-title: "移除未完成的活動執行個體 |Microsoft 文件"
-description: "執行自訂的 RemoveDanglingInstances SQL 指令碼，以從 BizTalk Server 中的 BAM 主要匯入資料庫移除未完成的執行個體"
-ms.custom: 
+title: 移除未完成的活動執行個體 |Microsoft 文件
+description: 執行自訂的 RemoveDanglingInstances SQL 指令碼，以從 BizTalk Server 中的 BAM 主要匯入資料庫移除未完成的執行個體
+ms.custom: ''
 ms.date: 01/18/2018
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7060578c-6267-487b-8530-efa18f9431ce
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 9e7a7dc5544d30d4523c0b3cdaa59f4890e7a4e9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/19/2018
+ms.locfileid: "27914939"
 ---
 # <a name="remove-incomplete-activity-instances"></a>移除未完成的活動執行個體
 部署 BAM 定義檔案時，會為定義檔案中所定義的每個活動，在 BAM 主要匯入資料庫中建立五個資料表， 分別是：  

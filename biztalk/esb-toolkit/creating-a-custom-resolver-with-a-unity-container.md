@@ -1,14 +1,14 @@
 ---
-title: "建立自訂解析程式與 Unity 容器 |Microsoft 文件"
-ms.custom: 
+title: 建立自訂解析程式與 Unity 容器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d6f95f5e-64dd-4cc6-802f-0c5fd6a01c91
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975612"
 ---
 # <a name="creating-a-custom-resolver-with-a-unity-container"></a>使用 Unity 容器中建立自訂的解析程式
 您可以建立自訂的解析程式使用[Unity 應用程式區塊](http://go.microsoft.com/fwlink/?LinkId=188286)(Unity) ([http://go.microsoft.com/fwlink/?LinkId=188286](http://go.microsoft.com/fwlink/?LinkId=188286)) 執行階段相依性插入的解析邏輯和中繼資料來源。
@@ -305,7 +306,7 @@ private Dictionary\<string, string\> ResolveStatic(string config, string resolve
   
 3.  建立組件實作的類別與**IResolveContainer**和**IResolveProvider**介面，且包含**解決**驗證的方法解析程式組態收集事實提供者的所有事實、 執行任何特殊的處理，並使用事實轉譯器轉譯和傳回翻譯的事實執行個體**字典**類別。  
   
-4.  註冊解決器將它加入 Esb.config 組態檔使用**\<解析程式\>**元素包含做為根 moniker**名稱**屬性和完整限定組件名稱為**類型**屬性。  
+4.  註冊解決器將它加入 Esb.config 組態檔使用**\<解析程式\>** 元素包含做為根 moniker**名稱**屬性和完整限定組件名稱為**類型**屬性。  
   
 5.  這個解析程式加入 Esb.config 檔案 Unity 特有的組態。  
   

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288854"
 ---
 # <a name="what-is-scalability"></a>什麼是擴充性？
 擴充性是系統能擴展到符合您的商務需求之能力。 您可藉由新增硬體或升級現有硬體來擴充系統，而不需要變更太多應用程式。 在 BizTalk Server 系統的環境中，擴充性指的是當您的輸送需求增加，或您需要減少延遲時間時，可擴充 BizTalk 的能力。  

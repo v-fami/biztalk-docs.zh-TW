@@ -1,14 +1,14 @@
 ---
-title: "如何復原企業單一登入 |Microsoft 文件"
-ms.custom: 
+title: 如何復原企業單一登入 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 845e6ff7-88a8-4ab4-b307-f9275d44600e
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974220"
 ---
 # <a name="how-to-recover-enterprise-single-sign-on"></a>如何復原企業單一登入
 在復原 BizTalk Server 之前，您必須先復原「企業單一登入」(SSO)。  

@@ -1,14 +1,14 @@
 ---
-title: "執行分散-集中範例 |Microsoft 文件"
-ms.custom: 
+title: 執行分散-集中範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 53676974-ea1f-4c95-9dbb-98fff92286fa
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294654"
 ---
 # <a name="running-the-scatter-gather-sample"></a>執行分散-集中範例
 分散-集中範例會使用 Windows Form 測試用戶端應用程式隨附路線上手範例，示範此模式如何套用路線服務的功能。  

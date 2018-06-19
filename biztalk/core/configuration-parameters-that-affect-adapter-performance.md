@@ -1,14 +1,14 @@
 ---
-title: "影響配接器效能的組態參數 |Microsoft 文件"
-ms.custom: 
+title: 影響配接器效能的組態參數 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 90bbb9fb-0b31-45f0-a54c-7b2025e653b9
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972084"
 ---
 # <a name="configuration-parameters-that-affect-adapter-performance"></a>影響配接器效能的組態參數
 本節說明可能影響 BizTalk Server 配接器效能的組態設定。  
@@ -35,8 +36,8 @@ ms.lasthandoff: 11/28/2017
 |**minFreeLocalRequestFreeThreads**<br /><br /> ASP.NET 為允許執行新的本機要求，所保留的最低可用執行緒數目。 這個執行緒數目是為來自本機主機的要求所保留，以防有些要求在處理期間發出子要求至本機主機。 這麼一來便能避免遞迴重新進入 Web 伺服器的可能死結。|\<httpRuntime\>|4|76 * 裝載 Web 應用程式的伺服器上的處理器數目。|  
 |**executionTimeout**<br /><br /> 指示由 ASP.NET 自動關閉之前允許執行要求的秒數上限。|\<httpRuntime\>|90|90|  
 |**maxconnection**<br /><br /> 決定特定 IP 位址可執行的連線數目。|\<connectionManagement\>|2<br /><br /> 此設定的值為 2，符合 HTTP 1.1 規格的 IETF RFC 且適合使用者實例，但並未針對高輸送量最佳化。|12 * 裝載 Web 應用程式的伺服器上的處理器數目。|  
-|**maxWorkerThreads**<br /><br /> 設定每一 CPU 用於處理序的最大工作者執行緒數量。|\<processModel\>|20|100**附註：**這個值會以隱含方式乘以伺服器上的處理器數目。|  
-|**minWorkerThreads**|\<processModel\>|1|**maxWorkerThreads** / 2**附註：** minWorkerThreads 參數不是預設組態檔中。 您必須自行新增。 **注意：**這個值會以隱含方式乘以伺服器上的處理器數目。|  
+|**maxWorkerThreads**<br /><br /> 設定每一 CPU 用於處理序的最大工作者執行緒數量。|\<processModel\>|20|100**附註：** 這個值會以隱含方式乘以伺服器上的處理器數目。|  
+|**minWorkerThreads**|\<processModel\>|1|**maxWorkerThreads** / 2**附註：** minWorkerThreads 參數不是預設組態檔中。 您必須自行新增。 **注意：** 這個值會以隱含方式乘以伺服器上的處理器數目。|  
 |**maxIoThreads**<br /><br /> 由 ASP.NET 使用，以限制完成執行緒使用的數目。|\<processModel\>|20|100<br /><br /> 此值會以隱含的方式乘以伺服器上的處理器數目。|  
   
  如果裝載 Web 服務的電腦執行 ASP.NET 2.0 或更新版本，則您可以將**autoConfig = true**自動設定以下設定，以達到最佳的 Machine.config 檔案的 processModel 區段中根據機器組態的效能：  
