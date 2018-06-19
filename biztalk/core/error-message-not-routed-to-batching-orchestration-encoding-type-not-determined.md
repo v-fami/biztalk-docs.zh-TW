@@ -1,14 +1,14 @@
 ---
-title: "訊息無法傳送至批次處理協調流程，因為無法判斷的編碼方式類型 |Microsoft 文件"
-ms.custom: 
+title: 訊息無法傳送至批次處理協調流程，因為無法判斷的編碼方式類型 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0d2ee38d-22c0-4fcf-bb68-b2ef00088c4c
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241942"
 ---
 # <a name="the-message-cannot-be-routed-to-the-batching-orchestration-as-the-encoding-type-could-not-be-determined"></a><span data-ttu-id="f2ee7-102">訊息無法傳送至批次處理協調流程，因為無法判斷編碼類型</span><span class="sxs-lookup"><span data-stu-id="f2ee7-102">The message cannot be routed to the batching orchestration as the Encoding type could not be determined</span></span>
 ## <a name="details"></a><span data-ttu-id="f2ee7-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="f2ee7-103">Details</span></span>  

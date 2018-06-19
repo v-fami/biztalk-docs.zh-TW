@@ -1,14 +1,14 @@
 ---
-title: "巢狀 XML 訊息信封 |Microsoft 文件"
-ms.custom: 
+title: 巢狀 XML 訊息信封 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e880cef1-4e73-4bce-a06e-8c4d23bc5a8c
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263838"
 ---
 # <a name="nested-xml-message-envelopes"></a><span data-ttu-id="b3476-102">巢狀 XML 訊息信封</span><span class="sxs-lookup"><span data-stu-id="b3476-102">Nested XML Message Envelopes</span></span>
 <span data-ttu-id="b3476-103">您可以巢狀處理 XML 信封以建立複雜文件結構。</span><span class="sxs-lookup"><span data-stu-id="b3476-103">XML envelopes can be nested to create complex document structures.</span></span> <span data-ttu-id="b3476-104">巢狀 XML 信封有兩種格式，稱為彈性格式與標準格式。</span><span class="sxs-lookup"><span data-stu-id="b3476-104">Nested XML envelopes can occur in two forms, known as flexible and canonical.</span></span> <span data-ttu-id="b3476-105">下列範例顯示信封文件的彈性格式，其中文件和信封 (以粗體顯示) 可出現在封入信封中的相同層級。</span><span class="sxs-lookup"><span data-stu-id="b3476-105">The following example shows the flexible form of enveloped documents, in which documents and envelopes (shown in bold type) can appear at the same level within an enclosing envelope.</span></span>  

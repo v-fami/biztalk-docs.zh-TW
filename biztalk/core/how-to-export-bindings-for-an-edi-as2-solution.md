@@ -1,14 +1,14 @@
 ---
-title: "如何匯出 EDI AS2 方案的繫結 |Microsoft 文件"
-ms.custom: 
+title: 如何匯出 EDI AS2 方案的繫結 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 856ab630-66c4-4496-884a-fdbe641143c5
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255646"
 ---
 # <a name="how-to-export-bindings-for-an-edi-as2-solution"></a><span data-ttu-id="ceac4-102">如何匯出 EDI AS2 方案的繫結</span><span class="sxs-lookup"><span data-stu-id="ceac4-102">How to Export Bindings for an EDI-AS2 Solution</span></span>
 <span data-ttu-id="ceac4-103">本主題說明如何從設定為 EDI 和 (或) AS2 方案的電腦匯出組態。</span><span class="sxs-lookup"><span data-stu-id="ceac4-103">This topic describes how to export the configuration from a computer set up as an EDI and/or AS2 solution.</span></span> <span data-ttu-id="ceac4-104">這可讓您以自動化的方式在另一部電腦上設定相同的組態。</span><span class="sxs-lookup"><span data-stu-id="ceac4-104">This enables you to set up the same configuration on another computer in an automated fashion.</span></span> <span data-ttu-id="ceac4-105">您可以從應用程式、群組或組件匯出繫結。</span><span class="sxs-lookup"><span data-stu-id="ceac4-105">You can export the bindings from an application, group, or assembly.</span></span>  

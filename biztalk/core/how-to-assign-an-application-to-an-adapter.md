@@ -1,14 +1,14 @@
 ---
-title: "如何指派給配接器應用程式 |Microsoft 文件"
-ms.custom: 
+title: 如何指派給配接器應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f1ea2773-c53c-40a0-a312-015191746451
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246670"
 ---
 # <a name="how-to-assign-an-application-to-an-adapter"></a><span data-ttu-id="74d37-102">如何指派給配接器應用程式</span><span class="sxs-lookup"><span data-stu-id="74d37-102">How to Assign an Application to an Adapter</span></span>
 <span data-ttu-id="74d37-103">為了在本機應用程式和遠端伺服器之間處理資訊，必須將一個或更多的應用程式指派給配接器。</span><span class="sxs-lookup"><span data-stu-id="74d37-103">To process information between a local application and a remote server, an adapter must have one or more applications assigned to it.</span></span>  

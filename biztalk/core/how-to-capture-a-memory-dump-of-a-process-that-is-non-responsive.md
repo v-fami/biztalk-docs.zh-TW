@@ -1,14 +1,14 @@
 ---
-title: "如何擷取非回應的處理序的記憶體傾印 |Microsoft 文件"
-ms.custom: 
+title: 如何擷取非回應的處理序的記憶體傾印 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8ad53376-2fab-4dee-8a6a-a44d157390f2
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248582"
 ---
 # <a name="how-to-capture-a-memory-dump-of-a-process-that-is-non-responsive"></a><span data-ttu-id="cb8ff-102">如何擷取沒有回應之處理序的記憶體傾印</span><span class="sxs-lookup"><span data-stu-id="cb8ff-102">How to Capture a Memory Dump of a Process that is Non Responsive</span></span>
 <span data-ttu-id="cb8ff-103">BizTalk 處理序 BTSNTSvc.exe 定義為**溢出**程序似乎停止回應。</span><span class="sxs-lookup"><span data-stu-id="cb8ff-103">The BizTalk process BTSNTSvc.exe is defined as **hanging** when the process seems to stop responding.</span></span> <span data-ttu-id="cb8ff-104">處理序停止回應的常見徵兆包括：</span><span class="sxs-lookup"><span data-stu-id="cb8ff-104">Common symptoms of a process hang include:</span></span>  

@@ -1,18 +1,18 @@
 ---
-title: "如何發佈 Web 安裝套件 |Microsoft 文件"
-ms.custom: 
+title: 如何發佈 Web 安裝套件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, Web services
 - Web services, distributing
 - Web services, deploying
 ms.assetid: 0db71fdf-80d9-4ad5-b0d4-730d0bb549d4
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254118"
 ---
 # <a name="how-to-distribute-the-web-setup-package"></a><span data-ttu-id="7dcc3-102">如何發佈 Web 安裝套件</span><span class="sxs-lookup"><span data-stu-id="7dcc3-102">How to Distribute the Web Setup Package</span></span>
 <span data-ttu-id="7dcc3-103">在建立安裝套件之後，您必須建立發佈資料夾，以便在其中複製 MSI 檔案和 BindingInfo.xml 檔案來安裝 Web 服務。</span><span class="sxs-lookup"><span data-stu-id="7dcc3-103">After you create the installation package, you need to create a distribution folder where a MSI file and a BindingInfo.xml file are copied to set up the Web service.</span></span>  

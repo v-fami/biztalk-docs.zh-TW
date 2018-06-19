@@ -1,14 +1,14 @@
 ---
-title: "一般元件開發人員工作 |Microsoft 文件"
-ms.custom: 
+title: 一般元件開發人員工作 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b74e258f-2b4f-4e2f-b068-680f7d9546e8
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232414"
 ---
 # <a name="common-component-developer-tasks"></a><span data-ttu-id="8c428-102">元件開發人員的一般工作</span><span class="sxs-lookup"><span data-stu-id="8c428-102">Common Component Developer Tasks</span></span>
 <span data-ttu-id="8c428-103">元件開發人員會設計和開發進階的 BizTalk Server 元件，以供日後在 BizTalk Server 方案中使用。</span><span class="sxs-lookup"><span data-stu-id="8c428-103">Component developers design and develop advanced BizTalk Server components that are later used in BizTalk Server solutions.</span></span>  

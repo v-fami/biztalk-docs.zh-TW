@@ -1,14 +1,14 @@
 ---
-title: "如何刪除運算質 |Microsoft 文件"
-ms.custom: 
+title: 如何刪除運算質 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5e52f43f-33ca-452b-a69f-94bd4bb5debd
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248974"
 ---
 # <a name="how-to-delete-functoids"></a><span data-ttu-id="bbe28-102">如何刪除運算質</span><span class="sxs-lookup"><span data-stu-id="bbe28-102">How to Delete Functoids</span></span>
 <span data-ttu-id="bbe28-103">當開發對應時，您有時會需要刪除現有的運算質。</span><span class="sxs-lookup"><span data-stu-id="bbe28-103">When developing maps, you will sometimes need to delete an existing functoid.</span></span> <span data-ttu-id="bbe28-104">刪除運算質也會刪除關聯的輸入和輸出連結，以及任何其他輸入參數、指令碼規格和資料表格線組態。</span><span class="sxs-lookup"><span data-stu-id="bbe28-104">Deleting a functoid also deletes the associated input and output links, as well as any additional input parameters, script specification, and table grid configuration.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "如何控制結果清單的大小 |Microsoft 文件"
-ms.custom: 
+title: 如何控制結果清單的大小 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - results list [Orchestration Debugger], deleting columns
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - results list [Orchestration Designer]
 - results list [Orchestration Debugger], adding columns
 ms.assetid: 4d41003f-5ea9-4599-8ec0-737c342ffdbd
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249734"
 ---
 # <a name="how-to-control-the-size-of-the-results-list"></a><span data-ttu-id="5097d-102">如何控制結果清單的大小</span><span class="sxs-lookup"><span data-stu-id="5097d-102">How to Control the Size of the Results List</span></span>
 <span data-ttu-id="5097d-103">在**群組中樞**頁面[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，查詢結果 窗格包含這麼多的資料行的資訊，您需要捲動來檢視它們。</span><span class="sxs-lookup"><span data-stu-id="5097d-103">On the **Group Hub** page of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, the Query results pane contains so many columns of information that you need to scroll to view them.</span></span> <span data-ttu-id="5097d-104">您可以新增或移除窗格中的欄位，只顯示您需要的資訊。</span><span class="sxs-lookup"><span data-stu-id="5097d-104">You can add or remove columns in the pane to display only the information that you need.</span></span> <span data-ttu-id="5097d-105">若要新增或移除資料行，以滑鼠右鍵按一下 [查詢結果] 窗格，然後按一下的任何部分**新增/移除欄位**操作功能表上。</span><span class="sxs-lookup"><span data-stu-id="5097d-105">To add or remove columns, right-click any part of the Query results pane and click **Add/Remove Columns** on the context menu.</span></span>  

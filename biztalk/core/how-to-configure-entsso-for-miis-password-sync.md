@@ -1,14 +1,14 @@
 ---
-title: "如何設定 ENTSSO 以進行 MIIS 密碼同步 |Microsoft 文件"
-ms.custom: 
+title: 如何設定 ENTSSO 以進行 MIIS 密碼同步 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 89438935-37c1-4ac9-9ca2-7af8d9bfd3ae
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248942"
 ---
 # <a name="how-to-configure-entsso-for-miis-password-sync"></a><span data-ttu-id="1b6f1-102">如何設定 ENTSSO 以進行 MIIS 密碼同步</span><span class="sxs-lookup"><span data-stu-id="1b6f1-102">How to Configure ENTSSO for MIIS Password Sync</span></span>
 <span data-ttu-id="1b6f1-103">在設定 XML 檔案和 Microsoft Identity Integration Server (MIIS) 之後，剩下的組態步驟是在企業單一登入 (ENTSSO) 系統中執行。</span><span class="sxs-lookup"><span data-stu-id="1b6f1-103">After configuring the XML file and Microsoft Identity Integration Server (MIIS), the remaining configuration steps take place in the Enterprise Single Sign-On (ENTSSO) system.</span></span>  
@@ -87,7 +88,7 @@ ms.lasthandoff: 09/20/2017
   
 7.  <span data-ttu-id="1b6f1-136">按一下**目標**，然後選取 [entssoma2] 來啟用它從 MIIS 接收密碼變更。</span><span class="sxs-lookup"><span data-stu-id="1b6f1-136">Click **Targets**, and then select ENTSSOMA2 to enable it to receive password changes from MIIS.</span></span> <span data-ttu-id="1b6f1-137">取消選取 ENTSSOMA。</span><span class="sxs-lookup"><span data-stu-id="1b6f1-137">Deselect ENTSSOMA.</span></span> <span data-ttu-id="1b6f1-138">按一下**確定**，然後按一下 **確定**一次。</span><span class="sxs-lookup"><span data-stu-id="1b6f1-138">Click **OK**, and then click **OK** again.</span></span>  
   
-8.  <span data-ttu-id="1b6f1-139">在**管理代理程式**檢視中，選取**[entssoma2]**。</span><span class="sxs-lookup"><span data-stu-id="1b6f1-139">In the **Management Agent** view, select **ENTSSOMA2**.</span></span> <span data-ttu-id="1b6f1-140">在右窗格中，選取**屬性**。</span><span class="sxs-lookup"><span data-stu-id="1b6f1-140">In the right-hand pane, select **Properties**.</span></span> <span data-ttu-id="1b6f1-141">在**屬性**頁面上，按一下**設定延伸模組**。</span><span class="sxs-lookup"><span data-stu-id="1b6f1-141">On the **Properties** page, click **Configure Extensions**.</span></span>  
+8.  <span data-ttu-id="1b6f1-139">在**管理代理程式**檢視中，選取 **[entssoma2]**。</span><span class="sxs-lookup"><span data-stu-id="1b6f1-139">In the **Management Agent** view, select **ENTSSOMA2**.</span></span> <span data-ttu-id="1b6f1-140">在右窗格中，選取**屬性**。</span><span class="sxs-lookup"><span data-stu-id="1b6f1-140">In the right-hand pane, select **Properties**.</span></span> <span data-ttu-id="1b6f1-141">在**屬性**頁面上，按一下**設定延伸模組**。</span><span class="sxs-lookup"><span data-stu-id="1b6f1-141">On the **Properties** page, click **Configure Extensions**.</span></span>  
   
 9. <span data-ttu-id="1b6f1-142">確認**啟用密碼管理**已選取，然後按一下**設定**。</span><span class="sxs-lookup"><span data-stu-id="1b6f1-142">Confirm that **Enable password management** is selected, and then click **Settings**.</span></span>  
   

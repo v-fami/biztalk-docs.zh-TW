@@ -1,14 +1,14 @@
 ---
-title: "3A4 要求至 3A4 回應的對應範例 |Microsoft 文件"
-ms.custom: 
+title: 3A4 要求至 3A4 回應的對應範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7fd9c901-0ead-43e8-ac58-2825f5c39ca9
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005287"
 ---
 # <a name="3a4-request-to-3a4-response-map-sample"></a><span data-ttu-id="ea9c8-102">3A4 要求至 3A4 回應的對應範例</span><span class="sxs-lookup"><span data-stu-id="ea9c8-102">3A4 Request to 3A4 Response Map Sample</span></span>
 <span data-ttu-id="ea9c8-103">_3A4RequestMessageTo3A4ResponseMessage.btm 範例會示範您可以將 3A4 要求訊息對應至 3A4 回應訊息的方式。</span><span class="sxs-lookup"><span data-stu-id="ea9c8-103">The _3A4RequestMessageTo3A4ResponseMessage.btm sample demonstrates how you can map a 3A4 request message to a 3A4 response message.</span></span>  

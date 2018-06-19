@@ -1,14 +1,14 @@
 ---
-title: "功能群組控制編號已達到合作對象的 X12 可接受的最高上限 |Microsoft 文件"
-ms.custom: 
+title: 功能群組控制編號已達到合作對象的 X12 可接受的最高上限 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a920a66c-1e38-4f4a-8113-cbad01940839
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241510"
 ---
 # <a name="max-limit-of-acceptable-x12-functional-group-control-number-has-reached-for-party"></a><span data-ttu-id="1fcd0-102">功能群組控制編號已達到合作對象的 X12 可接受的最高上限</span><span class="sxs-lookup"><span data-stu-id="1fcd0-102">Max limit of acceptable X12 functional group control number has reached for party</span></span>
 ## <a name="details"></a><span data-ttu-id="1fcd0-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="1fcd0-103">Details</span></span>  

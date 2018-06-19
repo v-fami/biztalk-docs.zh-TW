@@ -1,14 +1,14 @@
 ---
-title: "如何調查瓶頸 |Microsoft 文件"
-ms.custom: 
+title: 如何調查瓶頸 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7ca22d07-d5fe-4dfb-8b52-3be3a95b0d6f
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254894"
 ---
 # <a name="how-to-investigate-bottlenecks"></a><span data-ttu-id="d65be-102">如何調查瓶頸</span><span class="sxs-lookup"><span data-stu-id="d65be-102">How to Investigate Bottlenecks</span></span>
 <span data-ttu-id="d65be-103">本主題說明如何調查瓶頸的建議程序。</span><span class="sxs-lookup"><span data-stu-id="d65be-103">This topic describes a recommended process for how to investigate bottlenecks.</span></span>  

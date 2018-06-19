@@ -1,14 +1,14 @@
 ---
-title: "疑難排解 Internet Information Services |Microsoft 文件"
-ms.custom: 
+title: 疑難排解 Internet Information Services |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f77084f1-5797-42ab-bbf6-fe815144232e
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22280102"
 ---
 # <a name="troubleshooting-internet-information-services"></a><span data-ttu-id="ac355-102">Internet Information Services 疑難排解</span><span class="sxs-lookup"><span data-stu-id="ac355-102">Troubleshooting Internet Information Services</span></span>
 <span data-ttu-id="ac355-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 經常使用 Microsoft Internet Information Services (IIS) 提供各種功能，包括 HTTP、SOAP 和 Windows SharePoint Services 配接器。</span><span class="sxs-lookup"><span data-stu-id="ac355-103">Microsoft Internet Information Services (IIS) is used extensively by Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] for various functionality including the HTTP, SOAP, and Windows SharePoint Services adapters.</span></span> <span data-ttu-id="ac355-104">本主題描述在使用 IIS 時可能遇到的一些已知問題，以及這些問題的可能解決方案。</span><span class="sxs-lookup"><span data-stu-id="ac355-104">This topic describes some known issues that you may encounter with IIS and possible resolutions to these issues.</span></span>  
@@ -133,7 +134,7 @@ ms.lasthandoff: 09/20/2017
      <span data-ttu-id="ac355-169">*%Windir%\\*system32\LogFiles\W3SVC1\\</span><span class="sxs-lookup"><span data-stu-id="ac355-169">*%WinDir%\\*system32\LogFiles\W3SVC1\\</span></span>  
   
     > [!NOTE]
-    >  <span data-ttu-id="ac355-170">*%Windir%*是 IIS 伺服器上的 Windows 目錄位置的預留位置。</span><span class="sxs-lookup"><span data-stu-id="ac355-170">*%WinDir%* is a placeholder for the location of the Windows directory on the IIS server.</span></span>  
+    >  <span data-ttu-id="ac355-170">*%Windir%* 是 IIS 伺服器上的 Windows 目錄位置的預留位置。</span><span class="sxs-lookup"><span data-stu-id="ac355-170">*%WinDir%* is a placeholder for the location of the Windows directory on the IIS server.</span></span>  
   
      <span data-ttu-id="ac355-171">根據預設，在執行 Windows Server 2008 或 Windows Vista 的電腦上，IIS 記錄檔位於下列目錄：</span><span class="sxs-lookup"><span data-stu-id="ac355-171">By default the IIS log files on a computer running Windows Server 2008 or Windows Vista are located in the following directory:</span></span>  
   
@@ -141,7 +142,7 @@ ms.lasthandoff: 09/20/2017
   
      <span data-ttu-id="ac355-173">根據預設，[!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] 上的 HTTPERR 記錄檔位於下列目錄：</span><span class="sxs-lookup"><span data-stu-id="ac355-173">By default the HTTPERR log files on [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] are located in the following directory:</span></span>  
   
-     <span data-ttu-id="ac355-174">*%Windir%*system32LogFilesHTTPERR</span><span class="sxs-lookup"><span data-stu-id="ac355-174">*%WinDir%*system32LogFilesHTTPERR</span></span>  
+     <span data-ttu-id="ac355-174">*%Windir%* system32LogFilesHTTPERR</span><span class="sxs-lookup"><span data-stu-id="ac355-174">*%WinDir%* system32LogFilesHTTPERR</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="ac355-175">才能使用 HTTPERR 記錄檔上才有[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]，或 Windows Vista 的電腦。</span><span class="sxs-lookup"><span data-stu-id="ac355-175">The HTTPERR log file is only available on a [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], or Windows Vista computer.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "如何修改規則 |Microsoft 文件"
-ms.custom: 
+title: 如何修改規則 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - business rules, activating
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - modifying, business rules
 - business rules, modifying
 ms.assetid: 661b2637-b5d6-4bde-9c42-24cd9e9d241c
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254230"
 ---
 # <a name="how-to-modify-rules"></a><span data-ttu-id="5c625-102">如何修改規則</span><span class="sxs-lookup"><span data-stu-id="5c625-102">How to Modify Rules</span></span>
 <span data-ttu-id="5c625-103">變更規則的能力是商務規則範例的重要部分。</span><span class="sxs-lookup"><span data-stu-id="5c625-103">The ability to change rules is an important part of the business rules paradigm.</span></span> <span data-ttu-id="5c625-104">您可以使用兩種方式來修改原則中的規則：建立原則的新版本或是直接修改未發佈的原則版本。</span><span class="sxs-lookup"><span data-stu-id="5c625-104">You can modify rules within a policy in two ways: either by creating a new version of the policy, or by directly modifying an unpublished version of the policy.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "如何檢視活動搜尋結果 |Microsoft 文件"
-ms.custom: 
+title: 如何檢視活動搜尋結果 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - queries [BAM], activity searches
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - queries [BAM], viewing details
 - Query Builder [BAM portal], viewing results
 ms.assetid: d45cd777-d798-4f3b-ad9a-5121168d7b99
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257726"
 ---
 # <a name="how-to-view-the-results-of-an-activity-search"></a><span data-ttu-id="d6f55-102">如何檢視活動搜尋的結果</span><span class="sxs-lookup"><span data-stu-id="d6f55-102">How to View the Results of an Activity Search</span></span>
 <span data-ttu-id="d6f55-103">使用者可以檢視查詢的結果，依序按一下**執行查詢**BAM 入口網站的內容框架上方區段中的按鈕。</span><span class="sxs-lookup"><span data-stu-id="d6f55-103">Users can view the results of a query by clicking the **Execute Query** button in the upper section of the content frame of the BAM portal.</span></span> <span data-ttu-id="d6f55-104">查詢的結果會顯示在**結果**畫面格底部區段。</span><span class="sxs-lookup"><span data-stu-id="d6f55-104">The results of the query are displayed in the **Results** section at the bottom of the frame.</span></span>  
@@ -43,7 +44,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  <span data-ttu-id="d6f55-113">按一下**啟動**，指向 **所有程式**，按一下  [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]，然後按一下  **BAM 入口網站**。</span><span class="sxs-lookup"><span data-stu-id="d6f55-113">Click **Start**, point to **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BAM Portal Web Site**.</span></span>  
   
-2.  <span data-ttu-id="d6f55-114">在**[我的檢視**] 窗格中，按一下您要為其建立活動搜尋的檢視。</span><span class="sxs-lookup"><span data-stu-id="d6f55-114">In the **My Views** pane, click a view for which you are creating the activity search.</span></span>  
+2.  <span data-ttu-id="d6f55-114">在 **[我的檢視**] 窗格中，按一下您要為其建立活動搜尋的檢視。</span><span class="sxs-lookup"><span data-stu-id="d6f55-114">In the **My Views** pane, click a view for which you are creating the activity search.</span></span>  
   
 3.  <span data-ttu-id="d6f55-115">按一下與檢視關聯的活動，將該活動載入內容框架中。</span><span class="sxs-lookup"><span data-stu-id="d6f55-115">Click an activity associated with the view to load that activity in the content frame.</span></span>  
   

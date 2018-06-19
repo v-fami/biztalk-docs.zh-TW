@@ -1,14 +1,14 @@
 ---
-title: "如何測試和偵錯配接器 |Microsoft 文件"
-ms.custom: 
+title: 如何測試和偵錯配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cf6563ea-b4ea-4617-b3da-d31250d002ab
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256862"
 ---
 # <a name="how-to-test-and-debug-an-adapter"></a><span data-ttu-id="82980-102">如何測試和偵錯配接器</span><span class="sxs-lookup"><span data-stu-id="82980-102">How to Test and Debug an Adapter</span></span>
 <span data-ttu-id="82980-103">偵錯執行階段的問題時通常需要使用多重 Facet 的方法。</span><span class="sxs-lookup"><span data-stu-id="82980-103">Debugging run-time problems often requires a multifaceted approach.</span></span> <span data-ttu-id="82980-104">您必須從多個來源 (例如軟體追蹤、效能計數器、事件日誌項目、Windows Management Instrumentation (WMI) 事件和偵錯原始程式碼) 收集資料，才能確定問題或軟體 Bug 的原因。</span><span class="sxs-lookup"><span data-stu-id="82980-104">Data must be gathered from multiple sources such as software tracing, performance counters, event log entries, Windows Management Instrumentation (WMI) events, and debugging source code to determine the cause of problems or software bugs.</span></span>  

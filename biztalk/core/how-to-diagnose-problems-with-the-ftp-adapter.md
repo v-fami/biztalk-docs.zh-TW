@@ -1,14 +1,14 @@
 ---
-title: "如何診斷 FTP 配接器問題 |Microsoft 文件"
-ms.custom: 
+title: 如何診斷 FTP 配接器問題 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 499d23d3-b705-4527-9929-147be157e6b3
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248766"
 ---
 # <a name="how-to-diagnose-problems-with-the-ftp-adapter"></a><span data-ttu-id="0ccf4-102">如何診斷 FTP 配接器問題</span><span class="sxs-lookup"><span data-stu-id="0ccf4-102">How to Diagnose Problems with the FTP Adapter</span></span>
 <span data-ttu-id="0ccf4-103">本節包含可供遵循以協助診斷 FTP 配接器問題的步驟。</span><span class="sxs-lookup"><span data-stu-id="0ccf4-103">This section contains steps that can be followed to help diagnose problems with the FTP adapter.</span></span>  
@@ -28,7 +29,7 @@ ms.lasthandoff: 09/20/2017
      <span data-ttu-id="0ccf4-107">*%Windir%\\*system32\LogFiles\MSFTPSVC1\\</span><span class="sxs-lookup"><span data-stu-id="0ccf4-107">*%WinDir%\\*system32\LogFiles\MSFTPSVC1\\</span></span>  
   
     > [!NOTE]
-    >  <span data-ttu-id="0ccf4-108">*%Windir%*是 FTP 伺服器上的 Windows 目錄位置的預留位置。</span><span class="sxs-lookup"><span data-stu-id="0ccf4-108">*%WinDir%* is a placeholder for the location of the Windows directory on the FTP server.</span></span>  
+    >  <span data-ttu-id="0ccf4-108">*%Windir%* 是 FTP 伺服器上的 Windows 目錄位置的預留位置。</span><span class="sxs-lookup"><span data-stu-id="0ccf4-108">*%WinDir%* is a placeholder for the location of the Windows directory on the FTP server.</span></span>  
   
 ### <a name="enable-logging-for-the-ftp-receive-location-or-send-port"></a><span data-ttu-id="0ccf4-109">啟用 FTP 接收位置或傳送埠的記錄功能</span><span class="sxs-lookup"><span data-stu-id="0ccf4-109">Enable logging for the FTP Receive location or Send Port</span></span>  
   

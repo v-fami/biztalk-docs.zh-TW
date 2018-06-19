@@ -1,14 +1,14 @@
 ---
-title: "GetActivityEvent |Microsoft 文件"
-ms.custom: 
+title: GetActivityEvent |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6fe824c9-4cea-44da-b830-5520d67988e0
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246246"
 ---
 # <a name="getactivityevent"></a><span data-ttu-id="a162a-102">GetActivityEvent</span><span class="sxs-lookup"><span data-stu-id="a162a-102">GetActivityEvent</span></span>
 <span data-ttu-id="a162a-103">將目前活動事件的名稱推至堆疊上。</span><span class="sxs-lookup"><span data-stu-id="a162a-103">Pushes the name of the current activity event onto the stack.</span></span>  

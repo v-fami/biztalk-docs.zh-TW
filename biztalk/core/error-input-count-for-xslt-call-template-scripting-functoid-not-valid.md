@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241030"
 ---
 # <a name="error---input-count-for-xslt-call-template-scripting-functoid-not-valid"></a><span data-ttu-id="d2544-102">錯誤-XSLT 呼叫範本指令碼處理運算質不是有效的輸入計數</span><span class="sxs-lookup"><span data-stu-id="d2544-102">Error - Input Count for XSLT Call Template Scripting Functoid Not Valid</span></span>
 <span data-ttu-id="d2544-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="d2544-103">**Error Code**</span></span>  

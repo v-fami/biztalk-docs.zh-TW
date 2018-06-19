@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240294"
 ---
 # <a name="error---failed-write-xslt-file"></a><span data-ttu-id="de4f8-102">錯誤-無法的寫入 XSLT 檔案</span><span class="sxs-lookup"><span data-stu-id="de4f8-102">Error - Failed Write XSLT File</span></span>
 <span data-ttu-id="de4f8-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="de4f8-103">**Error Code**</span></span>  

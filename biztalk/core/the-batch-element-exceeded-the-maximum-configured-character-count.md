@@ -1,14 +1,14 @@
 ---
-title: "批次項目已超過設定的最大字元數 |Microsoft 文件"
-ms.custom: 
+title: 批次項目已超過設定的最大字元數 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7ad12733-295a-43ba-8147-34c8716c2d37
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278342"
 ---
 # <a name="the-batch-element-exceeded-the-maximum-configured-character-count"></a><span data-ttu-id="76473-102">批次項目已超過設定的最大字元數</span><span class="sxs-lookup"><span data-stu-id="76473-102">The batch element exceeded the maximum configured character count</span></span>
 ## <a name="details"></a><span data-ttu-id="76473-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="76473-103">Details</span></span>  

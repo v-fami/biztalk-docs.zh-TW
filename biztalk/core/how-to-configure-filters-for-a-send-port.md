@@ -1,11 +1,11 @@
 ---
-title: "如何設定傳送埠的篩選器 |Microsoft 文件"
-ms.custom: 
+title: 如何設定傳送埠的篩選器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - filters, configuring
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - send ports, filters
 - managing [send ports], filters
 ms.assetid: ad13ca8e-bb1d-4449-8163-49dd9d5d92f8
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249462"
 ---
 # <a name="how-to-configure-filters-for-a-send-port"></a><span data-ttu-id="5e409-102">如何設定傳送埠的篩選</span><span class="sxs-lookup"><span data-stu-id="5e409-102">How to Configure Filters for a Send Port</span></span>
 <span data-ttu-id="5e409-103">本主題說明如何使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台來設定傳送埠的篩選條件。</span><span class="sxs-lookup"><span data-stu-id="5e409-103">This topic describes how to use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console to configure filters for a send port.</span></span> <span data-ttu-id="5e409-104">您可以使用篩選來建立簡單的傳訊或以內容為基礎的路由 (Content-Based Routing，CBR) 應用程式。</span><span class="sxs-lookup"><span data-stu-id="5e409-104">You can use filters to create simple messaging or content-based routing (CBR) applications.</span></span> <span data-ttu-id="5e409-105">篩選會設定訊息屬性或欄位的條件，以決定哪些訊息要路由至傳送埠。</span><span class="sxs-lookup"><span data-stu-id="5e409-105">A filter sets conditions for message properties or fields that determine which messages are routed to the send port.</span></span> <span data-ttu-id="5e409-106">篩選不會篩選協調流程路由至傳送埠的訊息。</span><span class="sxs-lookup"><span data-stu-id="5e409-106">A filter does not filter the messages that an orchestration routes to the send port.</span></span>  

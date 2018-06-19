@@ -1,11 +1,11 @@
 ---
-title: "XML 組合器管線元件中的字元編碼 |Microsoft 文件"
-ms.custom: 
+title: XML 組合器管線元件中的字元編碼 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - IBaseMessagePart.Charset property
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Target Charset property
 - XML Assembler [pipeline component], character encoding
 ms.assetid: c031fbbf-f00f-41ba-8ac9-cec7d625cef6
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232102"
 ---
 # <a name="character-encoding-in-the-xml-assembler-pipeline-component"></a><span data-ttu-id="29e8a-102">XML 組合器管線元件中的字元編碼</span><span class="sxs-lookup"><span data-stu-id="29e8a-102">Character Encoding in the XML Assembler Pipeline Component</span></span>
 <span data-ttu-id="29e8a-103">XML 組合器管線元件可以根據使用者指定的字元編碼來產生訊息，下表顯示這兩種方式：</span><span class="sxs-lookup"><span data-stu-id="29e8a-103">The XML Assembler pipeline component can produce messages in user-specified character encoding in two ways, as shown in the following table.</span></span>  
@@ -31,7 +32,7 @@ ms.lasthandoff: 09/20/2017
 |<span data-ttu-id="29e8a-104">編碼層級</span><span class="sxs-lookup"><span data-stu-id="29e8a-104">Encoding level</span></span>|<span data-ttu-id="29e8a-105">編碼方法</span><span class="sxs-lookup"><span data-stu-id="29e8a-105">Encoding method</span></span>|  
 |--------------------|---------------------|  
 |<span data-ttu-id="29e8a-106">元件</span><span class="sxs-lookup"><span data-stu-id="29e8a-106">Component</span></span>|<span data-ttu-id="29e8a-107">設定**目標字元集**管線設計師 」 中的元件屬性。</span><span class="sxs-lookup"><span data-stu-id="29e8a-107">Set the **Target charset** component property in Pipeline Designer.</span></span>|  
-|<span data-ttu-id="29e8a-108">訊息</span><span class="sxs-lookup"><span data-stu-id="29e8a-108">Message</span></span>|<span data-ttu-id="29e8a-109">設定**XMLNorm.TargetCharset**在訊息內容屬性。</span><span class="sxs-lookup"><span data-stu-id="29e8a-109">Set the **XMLNorm.TargetCharset** property on the message context.</span></span> <span data-ttu-id="29e8a-110">**注意：**的訊息內容屬性永遠會覆寫在管線設計師 」 中設定任何內容屬性。</span><span class="sxs-lookup"><span data-stu-id="29e8a-110">**Note:**  A message context property always overrides any context property set in Pipeline Designer.</span></span>|  
+|<span data-ttu-id="29e8a-108">訊息</span><span class="sxs-lookup"><span data-stu-id="29e8a-108">Message</span></span>|<span data-ttu-id="29e8a-109">設定**XMLNorm.TargetCharset**在訊息內容屬性。</span><span class="sxs-lookup"><span data-stu-id="29e8a-109">Set the **XMLNorm.TargetCharset** property on the message context.</span></span> <span data-ttu-id="29e8a-110">**注意：** 的訊息內容屬性永遠會覆寫在管線設計師 」 中設定任何內容屬性。</span><span class="sxs-lookup"><span data-stu-id="29e8a-110">**Note:**  A message context property always overrides any context property set in Pipeline Designer.</span></span>|  
   
  <span data-ttu-id="29e8a-111">XML 組合器會使用下列演算法來判斷輸出訊息的編碼：</span><span class="sxs-lookup"><span data-stu-id="29e8a-111">The XML Assembler uses the following algorithm to determine output message encoding:</span></span>  
   

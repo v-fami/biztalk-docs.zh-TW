@@ -1,14 +1,14 @@
 ---
-title: "如何列出所有被參考的資料庫 |Microsoft 文件"
-ms.custom: 
+title: 如何列出所有被參考的資料庫 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7f6166dd-6228-45c2-98ef-4de2a4345189
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22253766"
 ---
 # <a name="how-to-list-all-referenced-databases"></a><span data-ttu-id="8d1ef-102">如何列出所有被參考資料庫</span><span class="sxs-lookup"><span data-stu-id="8d1ef-102">How to List All Referenced Databases</span></span>
 <span data-ttu-id="8d1ef-103">系統管理員使用**get 參考**命令，列出所有已獲得本機 BAM 主要匯入資料庫的參考其他 BizTalk 伺服器上的 BAM 主要匯入資料庫。</span><span class="sxs-lookup"><span data-stu-id="8d1ef-103">Administrators use the **get-references** command to list all of the BAM Primary Import databases on other BizTalk servers that have been given references to the local BAM Primary Import database.</span></span>  

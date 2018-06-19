@@ -1,14 +1,14 @@
 ---
-title: "逐步解說： 建立簡單商務原則 |Microsoft 文件"
-ms.custom: 
+title: 逐步解說： 建立簡單商務原則 |Microsoft 文件
+ms.custom: ''
 ms.date: 2016-04-05
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 02d35735-dce2-4ee2-965e-dae307a125b0
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975810"
 ---
 # <a name="walkthrough-creating-a-simple-business-policy"></a><span data-ttu-id="5f4ac-102">逐步解說： 建立簡單商務原則</span><span class="sxs-lookup"><span data-stu-id="5f4ac-102">Walkthrough: Creating a Simple Business Policy</span></span>
 <span data-ttu-id="5f4ac-103">本逐步解說提供逐步程序，使用 「 商務規則編輯器 」 建立名為的簡單商務原則**ProcessPurchaseOrder**包含名為的規則**ApprovedRule**。</span><span class="sxs-lookup"><span data-stu-id="5f4ac-103">This walkthrough provides step-by-step procedures for using the Business Rule Composer to create a simple business policy named **ProcessPurchaseOrder** containing a rule named **ApprovedRule**.</span></span> <span data-ttu-id="5f4ac-104">**ApprovedRule**規則需要使用者提交 XML 文件當做事實，並將值設定**狀態**欄位中的文件**Approved**如果值**數量**欄位是否小於或等於**500**。</span><span class="sxs-lookup"><span data-stu-id="5f4ac-104">The **ApprovedRule** rule expects the user to submit an XML document as a fact, and sets the value of the **Status** field in the document to **Approved** if the value of the **Quantity** field is less than or equal to **500**.</span></span>  
@@ -72,7 +73,7 @@ ms.lasthandoff: 11/28/2017
   
 4.  <span data-ttu-id="5f4ac-120">在**檔案**功能表上，按一下 **另存 TextFile1.txt 為**。</span><span class="sxs-lookup"><span data-stu-id="5f4ac-120">On the **File** menu, click **Save TextFile1.txt As**.</span></span>  
   
-5.  <span data-ttu-id="5f4ac-121">值變更**另存新檔類型**從**文字文件 (\*.txt)**至**所有檔案**。</span><span class="sxs-lookup"><span data-stu-id="5f4ac-121">Change the value for **Save As type** from **Text Documents(\*.txt)** to **All Files**.</span></span>  
+5.  <span data-ttu-id="5f4ac-121">值變更**另存新檔類型**從**文字文件 (\*.txt)** 至**所有檔案**。</span><span class="sxs-lookup"><span data-stu-id="5f4ac-121">Change the value for **Save As type** from **Text Documents(\*.txt)** to **All Files**.</span></span>  
   
 6.  <span data-ttu-id="5f4ac-122">型別**PO.xsd**中**檔案名稱**文字方塊中，將目錄變更**C:\BRE-Walkthroughs**，變更的值**編碼**至**Unicode** ，然後按一下 **儲存**。</span><span class="sxs-lookup"><span data-stu-id="5f4ac-122">Type **PO.xsd** in the **File name** text box, change the directory to **C:\BRE-Walkthroughs**, change the value of **Encoding** to **Unicode** and then click **Save**.</span></span>  
   
@@ -93,20 +94,20 @@ ms.lasthandoff: 11/28/2017
   
 2.  <span data-ttu-id="5f4ac-131">在原則總管] 視窗中，以滑鼠右鍵按一下**原則**，然後按一下 [**新增原則**。</span><span class="sxs-lookup"><span data-stu-id="5f4ac-131">In the Policy Explorer window, right-click **Policies**, and then click **Add New Policy**.</span></span>  
   
-3.  <span data-ttu-id="5f4ac-132">編輯原則的名稱， **[policy1]**至**ProcessPurchaseOrder**按下 ENTER。</span><span class="sxs-lookup"><span data-stu-id="5f4ac-132">Edit the name of the policy, **Policy1**, to **ProcessPurchaseOrder** and press ENTER.</span></span> <span data-ttu-id="5f4ac-133">您也可以變更原則的名稱**屬性**視窗。</span><span class="sxs-lookup"><span data-stu-id="5f4ac-133">You can also change the name of the policy in the **Properties** window.</span></span>  
+3.  <span data-ttu-id="5f4ac-132">編輯原則的名稱， **[policy1]** 至**ProcessPurchaseOrder**按下 ENTER。</span><span class="sxs-lookup"><span data-stu-id="5f4ac-132">Edit the name of the policy, **Policy1**, to **ProcessPurchaseOrder** and press ENTER.</span></span> <span data-ttu-id="5f4ac-133">您也可以變更原則的名稱**屬性**視窗。</span><span class="sxs-lookup"><span data-stu-id="5f4ac-133">You can also change the name of the policy in the **Properties** window.</span></span>  
   
 4.  <span data-ttu-id="5f4ac-134">以滑鼠右鍵按一下**1.0 版**，然後按一下  **AddNewRule**。</span><span class="sxs-lookup"><span data-stu-id="5f4ac-134">Right-click **Version 1.0**, and then click **AddNewRule**.</span></span>  
   
-5.  <span data-ttu-id="5f4ac-135">編輯名稱，將規則和**Rule1**至**ApprovalRule**按下 ENTER**。**</span><span class="sxs-lookup"><span data-stu-id="5f4ac-135">Edit the name of the rule from **Rule1** to **ApprovalRule** and press ENTER**.**</span></span> <span data-ttu-id="5f4ac-136">您也可以變更中規則的名稱**屬性**視窗。</span><span class="sxs-lookup"><span data-stu-id="5f4ac-136">You can also change the name of the rule in the **Properties** window.</span></span>  
+5.  <span data-ttu-id="5f4ac-135">編輯名稱，將規則和**Rule1**至**ApprovalRule**按下 ENTER **。**</span><span class="sxs-lookup"><span data-stu-id="5f4ac-135">Edit the name of the rule from **Rule1** to **ApprovalRule** and press ENTER **.**</span></span> <span data-ttu-id="5f4ac-136">您也可以變更中規則的名稱**屬性**視窗。</span><span class="sxs-lookup"><span data-stu-id="5f4ac-136">You can also change the name of the rule in the **Properties** window.</span></span>  
   
 6.  <span data-ttu-id="5f4ac-137">在 事實總管 視窗中，按一下**XML 結構描述** 索引標籤。</span><span class="sxs-lookup"><span data-stu-id="5f4ac-137">In the Facts Explorer window, click the **XML Schemas** tab.</span></span>  
   
 7.  <span data-ttu-id="5f4ac-138">以滑鼠右鍵按一下**結構描述**，按一下 **瀏覽**，然後選取**PO.xsd**您稍早建立的檔案。</span><span class="sxs-lookup"><span data-stu-id="5f4ac-138">Right-click **Schemas**, click **Browse**, and then select the **PO.xsd** file that you created earlier.</span></span>  
   
-8.  <span data-ttu-id="5f4ac-139">在 [屬性] 視窗中變更的值**文件類型**屬性從**PO**至**[ruletest.po]**。</span><span class="sxs-lookup"><span data-stu-id="5f4ac-139">In the properties window, change the value of the **Document Type** property from **PO** to **RuleTest.PO**.</span></span>  
+8.  <span data-ttu-id="5f4ac-139">在 [屬性] 視窗中變更的值**文件類型**屬性從**PO**至 **[ruletest.po]**。</span><span class="sxs-lookup"><span data-stu-id="5f4ac-139">In the properties window, change the value of the **Document Type** property from **PO** to **RuleTest.PO**.</span></span>  
   
     > [!NOTE]
-    >  <span data-ttu-id="5f4ac-140">您將建立 BizTalk 專案，名為**RuleTest**稍後[逐步解說： 叫用的原則，從協調流程](../core/walkthrough-invoking-the-policy-from-an-orchestration.md)逐步解說。</span><span class="sxs-lookup"><span data-stu-id="5f4ac-140">You will be creating a BizTalk project named **RuleTest** later in the [Walkthrough: Invoking the Policy from an Orchestration](../core/walkthrough-invoking-the-policy-from-an-orchestration.md) walkthrough.</span></span> <span data-ttu-id="5f4ac-141">逐步解說中，您將加入， **PO.xsd**檔案加入專案中，建立會叫用的協調流程**ProcessPurchaseOrder**原則，然後再測試該原則。</span><span class="sxs-lookup"><span data-stu-id="5f4ac-141">In that walkthrough, you will add the **PO.xsd** file to the project, create an orchestration that invokes the **ProcessPurchaseOrder** policy, and then test the policy.</span></span> <span data-ttu-id="5f4ac-142">若要測試的原則，從協調流程，您需要確定您變更**文件類型**屬性**\<專案名稱\>。\<SchemaName\>**，也就是**[ruletest.po]**在此情況下。</span><span class="sxs-lookup"><span data-stu-id="5f4ac-142">To test the policy from the orchestration, you need to make sure that you change the **Document Type** property to **\<Project Name\>.\<SchemaName\>**, which is **RuleTest.PO** in this case.</span></span>  
+    >  <span data-ttu-id="5f4ac-140">您將建立 BizTalk 專案，名為**RuleTest**稍後[逐步解說： 叫用的原則，從協調流程](../core/walkthrough-invoking-the-policy-from-an-orchestration.md)逐步解說。</span><span class="sxs-lookup"><span data-stu-id="5f4ac-140">You will be creating a BizTalk project named **RuleTest** later in the [Walkthrough: Invoking the Policy from an Orchestration](../core/walkthrough-invoking-the-policy-from-an-orchestration.md) walkthrough.</span></span> <span data-ttu-id="5f4ac-141">逐步解說中，您將加入， **PO.xsd**檔案加入專案中，建立會叫用的協調流程**ProcessPurchaseOrder**原則，然後再測試該原則。</span><span class="sxs-lookup"><span data-stu-id="5f4ac-141">In that walkthrough, you will add the **PO.xsd** file to the project, create an orchestration that invokes the **ProcessPurchaseOrder** policy, and then test the policy.</span></span> <span data-ttu-id="5f4ac-142">若要測試的原則，從協調流程，您需要確定您變更**文件類型**屬性**\<專案名稱\>。\<SchemaName\>**，也就是 **[ruletest.po]** 在此情況下。</span><span class="sxs-lookup"><span data-stu-id="5f4ac-142">To test the policy from the orchestration, you need to make sure that you change the **Document Type** property to **\<Project Name\>.\<SchemaName\>**, which is **RuleTest.PO** in this case.</span></span>  
   
      <span data-ttu-id="5f4ac-143">![BRE &#45;逐步解說 &#45;ChangeDocType](../core/media/e9a370fd-d9b2-48f0-ad0e-85a5428a9c21.gif "e9a370fd-d9b2-48f0-ad0e-85a5428a9c21")</span><span class="sxs-lookup"><span data-stu-id="5f4ac-143">![BRE&#45;Walkthrough&#45;ChangeDocType](../core/media/e9a370fd-d9b2-48f0-ad0e-85a5428a9c21.gif "e9a370fd-d9b2-48f0-ad0e-85a5428a9c21")</span></span>  
   

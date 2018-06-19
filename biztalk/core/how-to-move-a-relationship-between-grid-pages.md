@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255086"
 ---
 # <a name="how-to-move-a-relationship-between-grid-pages"></a><span data-ttu-id="a9c41-102">如何在格線頁之間移動關聯性</span><span class="sxs-lookup"><span data-stu-id="a9c41-102">How to Move a Relationship Between Grid Pages</span></span>
 <span data-ttu-id="a9c41-103">大型的對應會包含許多運算質與連結的集合，以致於您無法輕易地識別連結多個運算質的連結。</span><span class="sxs-lookup"><span data-stu-id="a9c41-103">Large maps include many sets of functoids and links, which can make it difficult for you to identify the links joining multiple functoids.</span></span> <span data-ttu-id="a9c41-104">碰到這類情況時您可能需要將類似的運算質與連結的集合移至不同的格線頁，讓對應更容易為人所解讀。</span><span class="sxs-lookup"><span data-stu-id="a9c41-104">In such a scenario, you might want to move a similar set of functoids and links to a different grid page to make the map more readable.</span></span> <span data-ttu-id="a9c41-105">本主題提供執行此作業的逐步指示。</span><span class="sxs-lookup"><span data-stu-id="a9c41-105">This topic provides step-by-step instructions to perform the operation.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "如何建立新管線 |Microsoft 文件"
-ms.custom: 
+title: 如何建立新管線 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, pipelines
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Pipeline Designer, warnings
 - pipelines, creating
 ms.assetid: bd95325e-1a72-4705-80f6-37ac092d11a3
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248758"
 ---
 # <a name="how-to-create-a-new-pipeline"></a><span data-ttu-id="cad99-102">如何建立新的管線</span><span class="sxs-lookup"><span data-stu-id="cad99-102">How to Create a New Pipeline</span></span>
 <span data-ttu-id="cad99-103">您可以新增管線範本到您的專案，以建立新管線。</span><span class="sxs-lookup"><span data-stu-id="cad99-103">You can add a pipeline template to your project to create a new pipeline.</span></span>  

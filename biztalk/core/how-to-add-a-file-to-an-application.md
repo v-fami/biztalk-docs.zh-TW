@@ -1,18 +1,18 @@
 ---
-title: "如何將檔案新增至應用程式 |Microsoft 文件"
-ms.custom: 
+title: 如何將檔案新增至應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [applications], adding files
 - files, adding to applications
 - managing [resources], adding files
 ms.assetid: 6665b946-113a-4026-a0a3-6b67ede4b689
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247734"
 ---
 # <a name="how-to-add-a-file-to-an-application"></a><span data-ttu-id="048e8-102">如何新增檔案至應用程式</span><span class="sxs-lookup"><span data-stu-id="048e8-102">How to Add a File to an Application</span></span>
 <span data-ttu-id="048e8-103">本主題說明如何使用「BizTalk Server 管理」主控台或命令列，將檔案新增至 BizTalk 應用程式。</span><span class="sxs-lookup"><span data-stu-id="048e8-103">This topic describes how to use the BizTalk Server Administration console or the command line to add a file to a BizTalk application.</span></span> <span data-ttu-id="048e8-104">在安裝應用程式時，新增至應用程式的檔案會複製到安裝資料夾。</span><span class="sxs-lookup"><span data-stu-id="048e8-104">Files that you add to your application are copied to the installation folder when the application is installed.</span></span> <span data-ttu-id="048e8-105">檔案也可以匯出至應用程式的 .msi 檔案中，並且隨著應用程式移至不同的部署環境。</span><span class="sxs-lookup"><span data-stu-id="048e8-105">Files can also can be exported into the application's .msi file and moved to different deployment environments with the application.</span></span>  

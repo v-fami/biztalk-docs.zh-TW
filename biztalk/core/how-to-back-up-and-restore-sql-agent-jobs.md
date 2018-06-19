@@ -1,14 +1,14 @@
 ---
-title: "如何備份和還原 SQL 代理程式作業 |Microsoft 文件"
-ms.custom: 
+title: 如何備份和還原 SQL 代理程式作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f82fc5a5-5ea5-476c-bed1-c5d41a50e673
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247198"
 ---
 # <a name="how-to-back-up-and-restore-sql-agent-jobs"></a><span data-ttu-id="41f24-102">如何備份和還原 SQL 代理程式作業</span><span class="sxs-lookup"><span data-stu-id="41f24-102">How to Back Up and Restore SQL Agent Jobs</span></span>
 <span data-ttu-id="41f24-103">本主題描述如何備份和還原 SQL Server Agent 作業。</span><span class="sxs-lookup"><span data-stu-id="41f24-103">This topic describes how to back up and restore SQL Server Agent Jobs.</span></span> <span data-ttu-id="41f24-104">您在設定之後，您應該先備份您的 SQL 作業。</span><span class="sxs-lookup"><span data-stu-id="41f24-104">You should back up your SQL jobs after you configure them.</span></span>  
@@ -62,11 +63,11 @@ ms.lasthandoff: 09/20/2017
   
 3.  <span data-ttu-id="41f24-128">以滑鼠右鍵按一下您想要建立的備份指令碼，然後再選取的作業**與指令碼工作**。</span><span class="sxs-lookup"><span data-stu-id="41f24-128">Right-click the job you want to create a backup script for, and then select **Script Job as**.</span></span>  
   
-4.  <span data-ttu-id="41f24-129">選取**CREATE 至**或**DROP To**，然後選取**新增查詢編輯器視窗**，**檔案**，或**剪貼簿**若要選取指令碼的目的地。</span><span class="sxs-lookup"><span data-stu-id="41f24-129">Select **CREATE To** or **DROP To**, then select **New Query Editor Window**, **File**, or **Clipboard** to select a destination for the script.</span></span> <span data-ttu-id="41f24-130">通常，目的地是檔案之**.sql**延伸模組。</span><span class="sxs-lookup"><span data-stu-id="41f24-130">Typically, the destination is a file with a **.sql** extension.</span></span>  
+4.  <span data-ttu-id="41f24-129">選取**CREATE 至**或**DROP To**，然後選取**新增查詢編輯器視窗**，**檔案**，或**剪貼簿**若要選取指令碼的目的地。</span><span class="sxs-lookup"><span data-stu-id="41f24-129">Select **CREATE To** or **DROP To**, then select **New Query Editor Window**, **File**, or **Clipboard** to select a destination for the script.</span></span> <span data-ttu-id="41f24-130">通常，目的地是檔案之 **.sql**延伸模組。</span><span class="sxs-lookup"><span data-stu-id="41f24-130">Typically, the destination is a file with a **.sql** extension.</span></span>  
   
 5.  <span data-ttu-id="41f24-131">重複此程序，從步驟 3 的每個您要編寫指令碼的工作。</span><span class="sxs-lookup"><span data-stu-id="41f24-131">Repeat this procedure from Step 3 for each job you want to script.</span></span> <span data-ttu-id="41f24-132">清單，請參閱 BizTalk Server 的相關工作，以判斷其作業您需要指令碼。</span><span class="sxs-lookup"><span data-stu-id="41f24-132">Refer to the list of BizTalk Server related jobs to determine which jobs you need to script.</span></span>  
   
-     <span data-ttu-id="41f24-133">最少，您應該先備份**備份 BizTalk Server (BizTalkMgmtDb)**作業之後設定。</span><span class="sxs-lookup"><span data-stu-id="41f24-133">At a minimum, you should back up the **Backup BizTalk Server (BizTalkMgmtDb)** job after it is configured.</span></span>  
+     <span data-ttu-id="41f24-133">最少，您應該先備份**備份 BizTalk Server (BizTalkMgmtDb)** 作業之後設定。</span><span class="sxs-lookup"><span data-stu-id="41f24-133">At a minimum, you should back up the **Backup BizTalk Server (BizTalkMgmtDb)** job after it is configured.</span></span>  
   
 ## <a name="restore-a-job-from-a-script"></a><span data-ttu-id="41f24-134">還原作業，從指令碼</span><span class="sxs-lookup"><span data-stu-id="41f24-134">Restore a job from a script</span></span>  
   

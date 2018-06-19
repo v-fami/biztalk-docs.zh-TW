@@ -1,14 +1,14 @@
 ---
-title: "如何設定來源連結編譯器值 |Microsoft 文件"
-ms.custom: 
+title: 如何設定來源連結編譯器值 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4edd1d73-78d1-468d-806a-3f6f258ee375
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255830"
 ---
 # <a name="how-to-set-the-source-links-compiler-value"></a><span data-ttu-id="df404-102">如何設定來源連結編譯器值</span><span class="sxs-lookup"><span data-stu-id="df404-102">How to Set the Source Links Compiler Value</span></span>
 <span data-ttu-id="df404-103">您可以使用**來源連結**屬性指定值，如何從來源節點擷取並套用至目的地節點的連結。</span><span class="sxs-lookup"><span data-stu-id="df404-103">You can use the **Source Links** property of a link to specify how a value is retrieved from the source node and applied to the destination node.</span></span> <span data-ttu-id="df404-104">本主題說明可用的選項以及如何在其中選擇。</span><span class="sxs-lookup"><span data-stu-id="df404-104">This topic explains the available choices and how to choose among them.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "如何設定 Wcf-netnamedpipe 接收位置 |Microsoft 文件"
-ms.custom: 
+title: 如何設定 Wcf-netnamedpipe 接收位置 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e2e8242a-64c7-43de-af5e-25c22e182c72
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250566"
 ---
 # <a name="how-to-configure-a-wcf-netnamedpipe-receive-location"></a><span data-ttu-id="03583-102">如何設定 WCF-NetNamedPipe 接收位置</span><span class="sxs-lookup"><span data-stu-id="03583-102">How to Configure a WCF-NetNamedPipe Receive Location</span></span>
 <span data-ttu-id="03583-103">您可以用程式設計方式或使用 [BizTalk 管理主控台] 來設定 WCF-NetNamedPipe 接收位置。</span><span class="sxs-lookup"><span data-stu-id="03583-103">You can configure a WCF-NetNamedPipe receive location either programmatically or by using the BizTalk Administration console.</span></span>  

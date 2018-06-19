@@ -1,14 +1,14 @@
 ---
-title: "如何新增判斷提示運算質至對應 |Microsoft 文件"
-ms.custom: 
+title: 如何新增判斷提示運算質至對應 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ccdd79a2-b70f-489b-8711-e00a50d8e2d8
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247758"
 ---
 # <a name="how-to-add-assert-functoids-to-a-map"></a><span data-ttu-id="a9a65-102">如何新增判斷提示運算質至對應</span><span class="sxs-lookup"><span data-stu-id="a9a65-102">How to Add Assert Functoids to a Map</span></span>
 <span data-ttu-id="a9a65-103">**Assert**運算質可讓您測試對應中條件的相關假設。</span><span class="sxs-lookup"><span data-stu-id="a9a65-103">The **Assert** functoid enables you to test your assumptions about conditions in your map.</span></span> <span data-ttu-id="a9a65-104">例如，如果您執行幾項計算來確定產品採購時，您可能會判斷提示額外折扣，是使用邏輯運算質不能超過 $100 (**Greater Than**或**Less Than**)。</span><span class="sxs-lookup"><span data-stu-id="a9a65-104">For example, if you perform some calculations to determine an additional discount on product purchases, you might assert that the additional discount be no more than $100 by using a logical functoid (**Greater Than** or **Less Than**).</span></span>  

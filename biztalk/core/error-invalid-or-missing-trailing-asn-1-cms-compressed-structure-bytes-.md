@@ -1,14 +1,14 @@
 ---
-title: "無效或遺失的尾端 ASN.1 CMS 壓縮結構解壓縮處理過程 |Microsoft 文件"
-ms.custom: 
+title: 無效或遺失的尾端 ASN.1 CMS 壓縮結構解壓縮處理過程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7b73ce58-d827-4ffc-b2d7-78836298efc8
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241014"
 ---
 # <a name="invalid-or-missing-trailing-asn1-cms-compressed-structure-bytes-during-decompression-processing"></a><span data-ttu-id="8d215-102">無效或遺失的尾端 ASN.1 CMS 壓縮結構解壓縮處理過程</span><span class="sxs-lookup"><span data-stu-id="8d215-102">Invalid or missing trailing ASN.1 CMS compressed structure bytes during decompression processing</span></span>
 ## <a name="details"></a><span data-ttu-id="8d215-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="8d215-103">Details</span></span>  

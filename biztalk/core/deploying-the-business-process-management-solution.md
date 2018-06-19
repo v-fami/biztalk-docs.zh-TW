@@ -1,17 +1,17 @@
 ---
-title: "部署商務程序管理解決方案 |Microsoft 文件"
-ms.custom: 
+title: 部署商務程序管理解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, process management solution tutorial
 - process management solution tutorial, deploying
 ms.assetid: e033e0cd-0333-4f16-a4a0-eaae9ce98fcc
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239438"
 ---
 # <a name="deploying-the-business-process-management-solution"></a><span data-ttu-id="9300a-102">部署商務程序管理解決方案</span><span class="sxs-lookup"><span data-stu-id="9300a-102">Deploying the Business Process Management Solution</span></span>
 <span data-ttu-id="9300a-103">商務程序管理 (BPM) 解決方案顯示在 BizTalk 應用程式中建構程序管理員的方式。</span><span class="sxs-lookup"><span data-stu-id="9300a-103">The Business Process Management (BPM) solution shows one way to construct a process manager in a BizTalk application.</span></span> <span data-ttu-id="9300a-104">解決方案使用元件以選取和控制訂單處理階段的順序。</span><span class="sxs-lookup"><span data-stu-id="9300a-104">The solution uses a component to select and control the sequence of stages in order processing.</span></span> <span data-ttu-id="9300a-105">解決方案會在傳遞訂單以進行處理之前，接收訂單 (可能用於新的服務、升級或服務終止)、加以記錄和確認訂單。</span><span class="sxs-lookup"><span data-stu-id="9300a-105">The solution takes an order—which may be for a new service, an upgrade, or termination of service—logs it, and acknowledges the order before passing it on for processing.</span></span> <span data-ttu-id="9300a-106">處理包含一或多個處理訂單的階段。</span><span class="sxs-lookup"><span data-stu-id="9300a-106">The processing consists of one or more stages that handle the order.</span></span> <span data-ttu-id="9300a-107">最後，解決方案會將回應傳回至原始訂單要求。</span><span class="sxs-lookup"><span data-stu-id="9300a-107">Finally, the solution returns a response to the original order request.</span></span>  

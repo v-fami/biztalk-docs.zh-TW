@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287926"
 ---
 # <a name="warning---empty-target-namespace"></a><span data-ttu-id="9e0ba-102">警告-空白的目標命名空間</span><span class="sxs-lookup"><span data-stu-id="9e0ba-102">Warning - Empty Target Namespace</span></span>
 <span data-ttu-id="9e0ba-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="9e0ba-103">**Error Code**</span></span>  

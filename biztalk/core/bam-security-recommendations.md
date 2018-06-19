@@ -1,18 +1,18 @@
 ---
-title: "BAM 安全性建議 |Microsoft 文件"
-ms.custom: 
+title: BAM 安全性建議 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, BAM
 - managing [BAM], security
 - BAM, security
 ms.assetid: 73613123-c1ed-477a-9f5c-342b2573c975
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232182"
 ---
 # <a name="bam-security-recommendations"></a><span data-ttu-id="6c312-102">BAM 安全性建議</span><span class="sxs-lookup"><span data-stu-id="6c312-102">BAM Security Recommendations</span></span>
 <span data-ttu-id="6c312-103">建議您依照下列則保護與部署您環境中的 BAM：</span><span class="sxs-lookup"><span data-stu-id="6c312-103">We recommend that you follow these guidelines for securing and deploying BAM in your environment:</span></span>  

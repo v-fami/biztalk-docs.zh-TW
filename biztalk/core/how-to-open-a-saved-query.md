@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254590"
 ---
 # <a name="how-to-open-a-saved-query"></a><span data-ttu-id="c8f4a-102">如何開啟儲存的查詢</span><span class="sxs-lookup"><span data-stu-id="c8f4a-102">How to Open a Saved Query</span></span>
 <span data-ttu-id="c8f4a-103">您可以直接從儲存查詢的資料夾或從 BizTalk Server 管理主控台中開啟儲存的查詢。</span><span class="sxs-lookup"><span data-stu-id="c8f4a-103">You can open a saved query directly from the folder where the query is saved or from within the BizTalk Server Administration Console.</span></span> <span data-ttu-id="c8f4a-104">直接從資料夾開啟查詢時，會在「管理主控台」中開啟適當的 BizTalk Server 群組。</span><span class="sxs-lookup"><span data-stu-id="c8f4a-104">When you open a query directly from a folder, it opens the appropriate BizTalk Server group in the Administration Console.</span></span> <span data-ttu-id="c8f4a-105">從「管理主控台」中開啟查詢時，您可以選擇在任何列示的群組執行查詢。</span><span class="sxs-lookup"><span data-stu-id="c8f4a-105">When you open a query from within the Administration Console, you have the option of running the query on any of the groups listed.</span></span>  

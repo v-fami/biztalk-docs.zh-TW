@@ -1,17 +1,17 @@
 ---
-title: "如何搜尋活動 |Microsoft 文件"
-ms.custom: 
+title: 如何搜尋活動 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - databases [BAM], searching
 - BAM portal, searching databases
 ms.assetid: c29c86e1-ef22-4d71-b646-bc2a6f496553
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255206"
 ---
 # <a name="how-to-search-for-activities"></a><span data-ttu-id="8972e-102">如何搜尋活動</span><span class="sxs-lookup"><span data-stu-id="8972e-102">How to Search for Activities</span></span>
 <span data-ttu-id="8972e-103">使用 BAM Web 入口網站上的 [商務活動搜尋] 以搜尋儲存在 BAM 資料庫中的追蹤資料 (也稱為執行個體)。</span><span class="sxs-lookup"><span data-stu-id="8972e-103">Use the Business Activity Search on the BAM Web portal to search the tracking data, also known as instances, stored in the BAM database.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "欄位項目節點 |Microsoft 文件"
-ms.custom: 
+title: 欄位項目節點 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 65b5e1f6-283f-4172-9bc2-f04a0ea6753d
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22245982"
 ---
 # <a name="field-element-nodes"></a><span data-ttu-id="e2bce-102">欄位項目節點</span><span class="sxs-lookup"><span data-stu-id="e2bce-102">Field Element Nodes</span></span>
 

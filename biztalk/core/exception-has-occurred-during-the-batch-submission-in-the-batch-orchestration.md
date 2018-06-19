@@ -1,14 +1,14 @@
 ---
-title: "在批次處理協調流程中的批次提交期間發生例外狀況 |Microsoft 文件"
-ms.custom: 
+title: 在批次處理協調流程中的批次提交期間發生例外狀況 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c58b2fa9-d036-4e09-a0f8-77a2f983881a
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22245830"
 ---
 # <a name="an-exception-has-occurred-during-the-batch-submission-in-the-batching-orchestration"></a><span data-ttu-id="455d1-102">在批次處理協調流程中的批次提交期間發生例外狀況</span><span class="sxs-lookup"><span data-stu-id="455d1-102">An exception has occurred during the batch submission in the batching orchestration</span></span>
 ## <a name="details"></a><span data-ttu-id="455d1-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="455d1-103">Details</span></span>  

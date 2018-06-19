@@ -1,11 +1,11 @@
 ---
-title: "商務規則架構的架構 |Microsoft 文件"
-ms.custom: 
+title: 商務規則架構的架構 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Business Rules Framework, caching
@@ -22,7 +22,7 @@ helpviewer_keywords:
 - architecture, Business Rules Framework
 - Business Rules Framework, rule store
 ms.assetid: f5570cca-7664-4180-af9c-64ef90a0022b
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -31,6 +31,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233870"
 ---
 # <a name="business-rules-framework-architecture"></a><span data-ttu-id="59d42-102">商務規則架構的架構</span><span class="sxs-lookup"><span data-stu-id="59d42-102">Business Rules Framework Architecture</span></span>
 <span data-ttu-id="59d42-103">下圖顯示「商務規則架構」的元件架構。</span><span class="sxs-lookup"><span data-stu-id="59d42-103">The following figure shows the component architecture of the Business Rules Framework.</span></span>  

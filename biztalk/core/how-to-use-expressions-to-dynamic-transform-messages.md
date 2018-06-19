@@ -1,14 +1,14 @@
 ---
-title: "如何使用運算式動態地轉換訊息 |Microsoft 文件"
-ms.custom: 
+title: 如何使用運算式動態地轉換訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 48387d97-9312-4df5-b614-727ea9035bf8
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256934"
 ---
 # <a name="how-to-use-expressions-to-dynamic-transform-messages"></a><span data-ttu-id="1cffc-102">如何使用運算式動態地轉換訊息</span><span class="sxs-lookup"><span data-stu-id="1cffc-102">How to Use Expressions to Dynamic Transform Messages</span></span>
 <span data-ttu-id="1cffc-103">您可使用運算式在協調流程中動態地轉換訊息。</span><span class="sxs-lookup"><span data-stu-id="1cffc-103">You can use expressions to dynamic transform messages in your orchestration.</span></span> <span data-ttu-id="1cffc-104">XLANG 公開可以呼叫內的轉換方法**訊息指派**圖形內**建構訊息**圖形。</span><span class="sxs-lookup"><span data-stu-id="1cffc-104">XLANG exposes a transform method that can be called from within a **Message Assignment** shape inside of a **Construct Message** shape.</span></span> <span data-ttu-id="1cffc-105">這是相同的方法時，會呼叫**轉換**圖形會使用，但可讓您以程式設計方式轉換訊息使用您指定在協調流程中的對應。</span><span class="sxs-lookup"><span data-stu-id="1cffc-105">This is the same method that is called when a **Transform** shape is used, but allows you to programmatically transform the messages using the map you designated within the orchestration.</span></span> <span data-ttu-id="1cffc-106">當您進行類型不可知的訊息處理時，這點便會相當有用。</span><span class="sxs-lookup"><span data-stu-id="1cffc-106">This is useful when you are doing type-agnostic message processing.</span></span> <span data-ttu-id="1cffc-107">例如，如果您有商務程序需要從一系列對應中選擇，以便根據接收之輸入訊息所提供的參數轉換輸入訊息，可使用「運算式」圖形中的轉換方法來進行，而且同時可維持整體商務程序的完整。</span><span class="sxs-lookup"><span data-stu-id="1cffc-107">For example, if you have a business process that needs to choose from a series of maps to transform inbound messages based on the parameters provided by the received inbound messages, you can achieve this by using the transform method in the Expression shape while maintaining your overall business process intact.</span></span>  

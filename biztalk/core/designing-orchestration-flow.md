@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238742"
 ---
 # <a name="designing-orchestration-flow"></a><span data-ttu-id="f6680-102">設計協調流程的流程</span><span class="sxs-lookup"><span data-stu-id="f6680-102">Designing Orchestration Flow</span></span>
 <span data-ttu-id="f6680-103">本節將說明如何設計協調流程中的商務程序流程。</span><span class="sxs-lookup"><span data-stu-id="f6680-103">This section shows how to design your business process flow in orchestrations.</span></span>  

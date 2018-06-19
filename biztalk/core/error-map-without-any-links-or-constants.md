@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240638"
 ---
 # <a name="error---map-without-any-links-or-constants"></a><span data-ttu-id="af4d9-102">錯誤-沒有任何連結或常數的對應</span><span class="sxs-lookup"><span data-stu-id="af4d9-102">Error - Map Without Any Links or Constants</span></span>
 <span data-ttu-id="af4d9-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="af4d9-103">**Error Code**</span></span>  

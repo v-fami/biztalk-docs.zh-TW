@@ -1,14 +1,14 @@
 ---
-title: "反組譯階段 （可復原交換處理） |Microsoft 文件"
-ms.custom: 
+title: 反組譯階段 （可復原交換處理） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 552b1e90-f75d-4713-8c7b-155a52819308
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22242150"
 ---
 # <a name="disassembly-stage-recoverable-interchange-processing"></a><span data-ttu-id="3b9e0-102">反組譯階段 (可復原交換處理)</span><span class="sxs-lookup"><span data-stu-id="3b9e0-102">Disassembly Stage (Recoverable Interchange Processing)</span></span>
 <span data-ttu-id="3b9e0-103">在解譯階段可以使用兩種模式處理交換：</span><span class="sxs-lookup"><span data-stu-id="3b9e0-103">Interchanges are processed at the disassembly stage in two modes:</span></span>  

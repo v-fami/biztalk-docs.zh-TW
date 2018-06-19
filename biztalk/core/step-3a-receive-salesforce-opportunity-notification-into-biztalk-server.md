@@ -1,14 +1,14 @@
 ---
-title: "步驟 3a: Salesforce 接收機會通知到 BizTalk Server |Microsoft 文件"
-ms.custom: 
+title: '步驟 3a: Salesforce 接收機會通知到 BizTalk Server |Microsoft 文件'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: be9de6e3-6bd9-4275-b2fb-0a756c51aabf
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279406"
 ---
 # <a name="step-3a-receive-salesforce-opportunity-notification-into-biztalk-server"></a><span data-ttu-id="d97b1-102">步驟 3a: Salesforce 接收機會通知到 BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="d97b1-102">Step 3a: Receive Salesforce Opportunity Notification into BizTalk Server</span></span>
 <span data-ttu-id="d97b1-103">在此步驟中，我們開始建立[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d97b1-103">In this step, we start creating a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="d97b1-104">首先，我們應該包含商機通知訊息，我們會用來取得從 Salesforce，然後再啟動 建立協調流程處理訊息的訊息結構描述。</span><span class="sxs-lookup"><span data-stu-id="d97b1-104">We should first include the message schema for the opportunities notification message that we’ll get from Salesforce and then start creating an orchestration to process the message.</span></span>  
@@ -42,7 +43,7 @@ ms.lasthandoff: 09/20/2017
   
 8.  <span data-ttu-id="d97b1-116">在**新增產生的項目**對話方塊中，按一下 **取用 WCF 服務**，然後按一下 **新增**啟動**BizTalk WCF 服務取用**精靈。</span><span class="sxs-lookup"><span data-stu-id="d97b1-116">In the **Add Generated Items** dialog box, click **Consume WCF Service**, and then click **Add** to launch the **BizTalk WCF Service Consuming** wizard.</span></span> <span data-ttu-id="d97b1-117">在 歡迎使用 頁面上，按一下 **下一步**。</span><span class="sxs-lookup"><span data-stu-id="d97b1-117">On the welcome page, click **Next**.</span></span>  
   
-9. <span data-ttu-id="d97b1-118">在**中繼資料來源**頁面上，選取**中繼資料檔案 （WSDL 和 XSD）**選項，然後再按一下**下一步**。</span><span class="sxs-lookup"><span data-stu-id="d97b1-118">On the **Metadata Source** page, select the **Metadata Files (WSDL and XSD)** option, and then click **Next**.</span></span>  
+9. <span data-ttu-id="d97b1-118">在**中繼資料來源**頁面上，選取**中繼資料檔案 （WSDL 和 XSD）** 選項，然後再按一下**下一步**。</span><span class="sxs-lookup"><span data-stu-id="d97b1-118">On the **Metadata Source** page, select the **Metadata Files (WSDL and XSD)** option, and then click **Next**.</span></span>  
   
 10. <span data-ttu-id="d97b1-119">在**中繼資料檔案**頁面上，按一下**新增**，然後瀏覽至您用來儲存從 Salesforce 入口網站下載的 WSDL 檔案的位置。</span><span class="sxs-lookup"><span data-stu-id="d97b1-119">On the **Metadata Files** page, click **Add**, and then navigate to the location where you saved the WSDL file downloaded from the Salesforce portal.</span></span> <span data-ttu-id="d97b1-120">選取的 WSDL 檔案，然後按一下**下一步**。</span><span class="sxs-lookup"><span data-stu-id="d97b1-120">Select the WSDL file and then click **Next**.</span></span>  
   

@@ -1,14 +1,14 @@
 ---
-title: "批次的第一個項目超過字元計數發行準則集 |Microsoft 文件"
-ms.custom: 
+title: 批次的第一個項目超過字元計數發行準則集 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c4b06f8f-247d-4e93-8c4e-5e86e4ad70c9
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241550"
 ---
 # <a name="the-first-element-of-the-batch-exceeded-the-character-count-release-criteria-set"></a><span data-ttu-id="a2eff-102">批次的第一個項目超過字元計數發行準則集</span><span class="sxs-lookup"><span data-stu-id="a2eff-102">The first element of the batch exceeded the character count release criteria set</span></span>
 ## <a name="details"></a><span data-ttu-id="a2eff-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="a2eff-103">Details</span></span>  

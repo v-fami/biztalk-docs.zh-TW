@@ -1,14 +1,14 @@
 ---
-title: "BizTalk Server 如何處理大型訊息 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Server 如何處理大型訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 62c070be-dff5-4349-9e36-dd3a7caf1752
-caps.latest.revision: "33"
+caps.latest.revision: 33
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249630"
 ---
 # <a name="how-biztalk-server-processes-large-messages"></a><span data-ttu-id="46e46-102">BizTalk Server 如何處理大型訊息</span><span class="sxs-lookup"><span data-stu-id="46e46-102">How BizTalk Server Processes Large Messages</span></span>
 ## <a name="what-is-a-large-message"></a><span data-ttu-id="46e46-103">何謂大型訊息？</span><span class="sxs-lookup"><span data-stu-id="46e46-103">What is a large message?</span></span>  
@@ -61,7 +62,7 @@ ms.lasthandoff: 09/20/2017
      <span data-ttu-id="46e46-144">建立此值之後，輸入十進位值的位元組數目，以設定新的閾值。</span><span class="sxs-lookup"><span data-stu-id="46e46-144">After you have created this value, enter a decimal value with the number of bytes to set the new threshold to.</span></span> <span data-ttu-id="46e46-145">例如，輸入十進位值 2097152，以增加訊息大小閾值至 2 MB (從預設的 1 MB)。</span><span class="sxs-lookup"><span data-stu-id="46e46-145">For example, enter a decimal value of 2097152 to increase the message size threshold to 2 MB (from the default of 1 MB).</span></span> <span data-ttu-id="46e46-146">以大量可用的記憶體增加系統上的此值來改善輸送量。</span><span class="sxs-lookup"><span data-stu-id="46e46-146">Increase this value on systems with a large amount of available memory to improve throughput.</span></span> <span data-ttu-id="46e46-147">將文件緩衝至磁碟機，以耗用整體輸送量成本的方式來節省記憶體。</span><span class="sxs-lookup"><span data-stu-id="46e46-147">Buffering documents to disk conserves memory at a cost to overall throughput.</span></span>  
   
     > [!NOTE]
-    >  <span data-ttu-id="46e46-148">根據預設，對應期間緩衝至檔案系統的文件會寫入至*%temp%* BizTalk Server 電腦的目錄。</span><span class="sxs-lookup"><span data-stu-id="46e46-148">By default, documents that are buffered to the file system during mapping are written to the *%temp%* directory of the BizTalk Server computer.</span></span> <span data-ttu-id="46e46-149">變更的設定*%temp%*環境變數的非系統磁碟機，可改善對應期間緩衝至檔案系統的大型訊息時的效能。</span><span class="sxs-lookup"><span data-stu-id="46e46-149">Change the setting for the *%temp%* environment variable to a non-system disk to improve performance when buffering large messages to the file system during mapping.</span></span>  
+    >  <span data-ttu-id="46e46-148">根據預設，對應期間緩衝至檔案系統的文件會寫入至 *%temp%* BizTalk Server 電腦的目錄。</span><span class="sxs-lookup"><span data-stu-id="46e46-148">By default, documents that are buffered to the file system during mapping are written to the *%temp%* directory of the BizTalk Server computer.</span></span> <span data-ttu-id="46e46-149">變更的設定 *%temp%* 環境變數的非系統磁碟機，可改善對應期間緩衝至檔案系統的大型訊息時的效能。</span><span class="sxs-lookup"><span data-stu-id="46e46-149">Change the setting for the *%temp%* environment variable to a non-system disk to improve performance when buffering large messages to the file system during mapping.</span></span>  
   
 2.  <span data-ttu-id="46e46-150">讓協調流程中使用的對應最小化：</span><span class="sxs-lookup"><span data-stu-id="46e46-150">Minimize the use of maps in orchestrations:</span></span>  
   

@@ -1,11 +1,11 @@
 ---
-title: "監控商務活動與 BAM |Microsoft 文件"
-ms.custom: 
+title: 監控商務活動與 BAM |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [BAM], business activities
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - monitoring business activities [BAM], about monitoring business activities
 - monitoring business activities [BAM]
 ms.assetid: 282a07b9-1fb2-4a83-a9b8-7d1df6c15a5b
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262790"
 ---
 # <a name="monitoring-business-activities-with-bam"></a><span data-ttu-id="3d6a5-102">使用 BAM 來監控商務活動</span><span class="sxs-lookup"><span data-stu-id="3d6a5-102">Monitoring Business Activities with BAM</span></span>
 <span data-ttu-id="3d6a5-103">商務分析師會使用「商務活動監控」(BAM) 來監控有關商務程序的資料。</span><span class="sxs-lookup"><span data-stu-id="3d6a5-103">Business Analysts use Business Activity Monitoring (BAM) to monitor data about business processes.</span></span> <span data-ttu-id="3d6a5-104">商務分析師會在 Microsoft Office Excel 中使用 BAM 活頁簿，以定義要從商務程序收集什麼資料，並定義商務使用者如何對收集的資料進行檢視。</span><span class="sxs-lookup"><span data-stu-id="3d6a5-104">Business analysts use the BAM workbook in Microsoft Office Excel to define what data to collect from business processes and to define the way in which business users will view the collected data.</span></span>  

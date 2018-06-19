@@ -1,14 +1,14 @@
 ---
-title: "實作階段建議 |Microsoft 文件"
-ms.custom: 
+title: 實作階段建議 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 04877156-cc32-480b-8410-d26eb073c327
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257398"
 ---
 # <a name="implementation-phase-recommendations"></a><span data-ttu-id="17bd4-102">實作階段建議</span><span class="sxs-lookup"><span data-stu-id="17bd4-102">Implementation Phase Recommendations</span></span>
 <span data-ttu-id="17bd4-103">實作階段承接需求和設計階段產品，並且使用適當的技術來加以實作。</span><span class="sxs-lookup"><span data-stu-id="17bd4-103">The implementation phase takes the requirements and design phase products and implements them using appropriate technologies.</span></span> <span data-ttu-id="17bd4-104">在驗證測試實例中，完成和自動化測試實例以做好驗證測試的準備工作，即是在此階段進行。</span><span class="sxs-lookup"><span data-stu-id="17bd4-104">In the case of validation testing, it is during this phase that test cases are completed and automated in preparation for validation testing.</span></span> <span data-ttu-id="17bd4-105">一般而言，對於先期系統版本的許多測試也是在此階段中執行，不僅要驗證系統，而且也要驗證測試實例本身沒有問題。</span><span class="sxs-lookup"><span data-stu-id="17bd4-105">Typically, a lot of testing on the early system versions is also performed during this phase, not only to validate the system, but to validate that there are no problems with the test cases themselves.</span></span>  

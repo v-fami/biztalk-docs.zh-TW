@@ -1,11 +1,11 @@
 ---
-title: "開發組合管線元件 |Microsoft 文件"
-ms.custom: 
+title: 開發組合管線元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - IComponentUI interface, assembling
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - pipeline interfaces, IAssemblerComponent
 - pipeline components [custom], assembling
 ms.assetid: 2f85421d-2010-4a36-82b5-ea8016f8aa99
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239614"
 ---
 # <a name="developing-an-assembling-pipeline-component"></a><span data-ttu-id="dbb3e-102">開發組合管線元件</span><span class="sxs-lookup"><span data-stu-id="dbb3e-102">Developing an Assembling Pipeline Component</span></span>
 <span data-ttu-id="dbb3e-103">組合管線元件是一種 .NET 或 COM 元件，會接收數個輸入訊息，並產生一個輸出訊息。</span><span class="sxs-lookup"><span data-stu-id="dbb3e-103">An assembling pipeline component is a .NET or COM component that receives several messages on input and produces one message on output.</span></span> <span data-ttu-id="dbb3e-104">組合元件的用途是將個別文件收集到訊息交換批次中。</span><span class="sxs-lookup"><span data-stu-id="dbb3e-104">Assembling components are used to collect individual documents into the message interchange batch.</span></span>  

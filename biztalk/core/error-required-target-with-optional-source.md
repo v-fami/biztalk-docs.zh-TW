@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241398"
 ---
 # <a name="error---required-target-with-optional-source"></a><span data-ttu-id="4bcde-102">錯誤-必要的目標具有選擇性來源</span><span class="sxs-lookup"><span data-stu-id="4bcde-102">Error - Required Target with Optional Source</span></span>
 <span data-ttu-id="4bcde-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="4bcde-103">**Error Code**</span></span>  

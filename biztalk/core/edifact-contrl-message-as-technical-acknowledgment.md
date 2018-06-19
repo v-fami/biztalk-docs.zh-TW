@@ -1,14 +1,14 @@
 ---
-title: "EDIFACT CONTRL 訊息為技術通知 |Microsoft 文件"
-ms.custom: 
+title: EDIFACT CONTRL 訊息為技術通知 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6f2a7564-dbd3-48d0-b0a6-a77a0560459f
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22242510"
 ---
 # <a name="edifact-contrl-message-as-technical-acknowledgment"></a><span data-ttu-id="2a7a6-102">EDIFACT CONTRL 訊息為技術通知</span><span class="sxs-lookup"><span data-stu-id="2a7a6-102">EDIFACT CONTRL Message as Technical Acknowledgment</span></span>
 <span data-ttu-id="2a7a6-103">如果您選取要產生技術通知，在商務設定檔的設定或交易夥伴協議 （或後援協議，如果未定義協議是兩個商務設定檔之間），或如果設定為"2"，CONTRL 訊息中的 UNB9 欄位訊息將會產生為技術通知。</span><span class="sxs-lookup"><span data-stu-id="2a7a6-103">If you have selected to generate a technical acknowledgment in business profile settings or trading partner agreement (or fallback agreement if no agreement is defined between the two business profiles), or if the UNB9 field in the message is set to "2", a CONTRL message will be generated as a technical acknowledgment.</span></span> <span data-ttu-id="2a7a6-104">這個通知 (ACK) 會報告接收交換時的結果。</span><span class="sxs-lookup"><span data-stu-id="2a7a6-104">This ACK reports the results of the receipt of the interchange.</span></span>  

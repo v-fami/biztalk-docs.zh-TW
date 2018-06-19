@@ -1,17 +1,17 @@
 ---
-title: "擴充服務導向解決方案 |Microsoft 文件"
-ms.custom: 
+title: 擴充服務導向解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - scaling, service solutions
 - service solution tutorial, scaling
 ms.assetid: 6c22a68d-03e7-4174-b612-0e2246aa9413
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269174"
 ---
 # <a name="scaling-the-service-oriented-solution"></a><span data-ttu-id="c7e6a-102">擴充服務導向解決方案</span><span class="sxs-lookup"><span data-stu-id="c7e6a-102">Scaling the Service Oriented Solution</span></span>
 <span data-ttu-id="c7e6a-103">若要在維持較低的訊息延遲時擴充解決方案以支援更高的輸送量，您必須使用解決方案的內嵌版本。</span><span class="sxs-lookup"><span data-stu-id="c7e6a-103">To scale the solution to support higher throughput while maintaining low message latency requires you to use the inline version of the solution.</span></span> <span data-ttu-id="c7e6a-104">內嵌解決方案在與後端系統互動時會略過 MessageBox 資料庫。</span><span class="sxs-lookup"><span data-stu-id="c7e6a-104">The inline solution bypasses the MessageBox database when interacting with the back-end systems.</span></span>  

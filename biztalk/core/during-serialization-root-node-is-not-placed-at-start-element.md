@@ -1,14 +1,14 @@
 ---
-title: "在序列化期間根節點不放在開始項目 |Microsoft 文件"
-ms.custom: 
+title: 在序列化期間根節點不放在開始項目 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9ea4aa6f-0f9c-4b7b-b7f6-24a5ce954048
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240046"
 ---
 # <a name="during-serialization-root-node-is-not-placed-at-start-element"></a><span data-ttu-id="659cb-102">在序列化期間根節點不被放在開始項目</span><span class="sxs-lookup"><span data-stu-id="659cb-102">During serialization root node is not placed at start element</span></span>
 ## <a name="details"></a><span data-ttu-id="659cb-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="659cb-103">Details</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "小型至中型公司的安全性案例研究 |Microsoft 文件"
-ms.custom: 
+title: 小型至中型公司的安全性案例研究 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - architecture, small distributions
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - security, architecture
 - architecture, medium distributions
 ms.assetid: b33e3f2a-ddc4-47a8-92d7-511ae0cc880e
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269286"
 ---
 # <a name="security-case-studies-for-small-to-medium-sized-companies"></a><span data-ttu-id="ce52c-102">小型至中型公司的安全性案例研究</span><span class="sxs-lookup"><span data-stu-id="ce52c-102">Security Case Studies for Small to Medium-Sized Companies</span></span>
 <span data-ttu-id="ce52c-103">對於希望只有選取的人員或應用程式群組可以存取資料與資源的任何公司來說，安全性是關注的項目之一。</span><span class="sxs-lookup"><span data-stu-id="ce52c-103">Security is a concern of any company that is serious about making sure that only a select group of people or applications can access its data and resources.</span></span> <span data-ttu-id="ce52c-104">各公司會以許多方法來達成和實作安全性。</span><span class="sxs-lookup"><span data-stu-id="ce52c-104">Companies approach and implement security in a variety of ways.</span></span>  

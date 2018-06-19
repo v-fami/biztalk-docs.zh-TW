@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246094"
 ---
 # <a name="halt"></a><span data-ttu-id="96592-102">終止</span><span class="sxs-lookup"><span data-stu-id="96592-102">Halt</span></span>
 <span data-ttu-id="96592-103">您可以使用**暫止**暫止目前的規則引擎執行的函式。</span><span class="sxs-lookup"><span data-stu-id="96592-103">You can use the **Halt** function to halt the current rule engine execution.</span></span> <span data-ttu-id="96592-104">**暫止**函數會採用一個參數的型別`Boolean`。</span><span class="sxs-lookup"><span data-stu-id="96592-104">The **Halt** function takes one parameter of type `Boolean`.</span></span> <span data-ttu-id="96592-105">如果您將此參數的值指定為 `true`，規則引擎也會清除包含擱置候選規則的議程。</span><span class="sxs-lookup"><span data-stu-id="96592-105">If you specify the value for the parameter as `true`, the rule engine also clears the agenda that contains the pending candidate rules.</span></span>  

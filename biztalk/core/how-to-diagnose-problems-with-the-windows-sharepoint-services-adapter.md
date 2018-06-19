@@ -1,14 +1,14 @@
 ---
-title: "如何診斷問題的 Windows SharePoint Services 配接器 |Microsoft 文件"
-ms.custom: 
+title: 如何診斷問題的 Windows SharePoint Services 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 55c29569-3814-43a7-93f8-a39c3464a831
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248998"
 ---
 # <a name="how-to-diagnose-problems-with-the-windows-sharepoint-services-adapter"></a><span data-ttu-id="a119f-102">如何診斷 Windows SharePoint Services 配接器問題</span><span class="sxs-lookup"><span data-stu-id="a119f-102">How to Diagnose Problems with the Windows SharePoint Services Adapter</span></span>
 <span data-ttu-id="a119f-103">本節所包含的步驟可協助您診斷 Windows Sharepoint Services 配接器的問題。</span><span class="sxs-lookup"><span data-stu-id="a119f-103">This section contains steps that can be followed to help diagnose problems with the Windows Sharepoint Services adapter.</span></span>  
@@ -28,7 +29,7 @@ ms.lasthandoff: 09/20/2017
      <span data-ttu-id="a119f-107">*%Windir%\\*system32\LogFiles\W3SVC1\\</span><span class="sxs-lookup"><span data-stu-id="a119f-107">*%WinDir%\\*system32\LogFiles\W3SVC1\\</span></span>  
   
     > [!NOTE]
-    >  <span data-ttu-id="a119f-108">*%Windir%*是 IIS 伺服器上的 Windows 目錄位置的預留位置。</span><span class="sxs-lookup"><span data-stu-id="a119f-108">*%WinDir%* is a placeholder for the location of the Windows directory on the IIS server.</span></span>  
+    >  <span data-ttu-id="a119f-108">*%Windir%* 是 IIS 伺服器上的 Windows 目錄位置的預留位置。</span><span class="sxs-lookup"><span data-stu-id="a119f-108">*%WinDir%* is a placeholder for the location of the Windows directory on the IIS server.</span></span>  
   
 -   <span data-ttu-id="a119f-109">根據預設，[!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] 電腦上的 HTTPERR 記錄檔位於下列目錄：</span><span class="sxs-lookup"><span data-stu-id="a119f-109">By default the HTTPERR log files on a [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] based computer are located in the following directory:</span></span>  
   

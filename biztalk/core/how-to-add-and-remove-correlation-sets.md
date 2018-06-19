@@ -1,11 +1,11 @@
 ---
-title: "如何新增及移除相互關聯集 |Microsoft 文件"
-ms.custom: 
+title: 如何新增及移除相互關聯集 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - correlation sets, deleting
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - deleting, correlation sets
 - creating, correlation sets
 ms.assetid: 922b56b2-6150-4edd-9f8e-8d11a447fc28
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246742"
 ---
 # <a name="how-to-add-and-remove-correlation-sets"></a><span data-ttu-id="3fee4-102">如何新增及移除相互關聯集</span><span class="sxs-lookup"><span data-stu-id="3fee4-102">How to Add and Remove Correlation Sets</span></span>
 <span data-ttu-id="3fee4-103">您可以使用 [協調流程檢視] 視窗，在協調流程中新增相互關聯集或是從中移除相互關聯集。</span><span class="sxs-lookup"><span data-stu-id="3fee4-103">You can use the Orchestration View window to add correlation sets to or remove them from your orchestration.</span></span> <span data-ttu-id="3fee4-104">相互關聯集是相互關聯類型的執行個體。</span><span class="sxs-lookup"><span data-stu-id="3fee4-104">A correlation set is an instance of a correlation type.</span></span>  

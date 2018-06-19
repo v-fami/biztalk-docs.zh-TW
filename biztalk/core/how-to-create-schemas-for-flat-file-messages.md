@@ -1,14 +1,14 @@
 ---
-title: "如何建立一般檔案訊息的結構描述 |Microsoft 文件"
-ms.custom: 
+title: 如何建立一般檔案訊息的結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 48f2747b-7f26-4fb2-a855-523e093f3813
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249406"
 ---
 # <a name="create-schemas-for-flat-file-messages"></a><span data-ttu-id="806e6-102">建立一般檔案訊息的結構描述</span><span class="sxs-lookup"><span data-stu-id="806e6-102">Create Schemas for Flat File Messages</span></span>
 

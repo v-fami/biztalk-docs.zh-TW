@@ -1,11 +1,11 @@
 ---
-title: "如何新增前置或後置處理指令碼至應用程式 |Microsoft 文件"
-ms.custom: 
+title: 如何新增前置或後置處理指令碼至應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [applications], adding scripts
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - scripts, adding to applications
 - scripts
 ms.assetid: 729cb236-b9cf-468a-8b98-a24d86e60d3c
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248446"
 ---
 # <a name="how-to-add-a-pre--or-post-processing-script-to-an-application"></a><span data-ttu-id="ba989-102">如何新增前置或後置處理指令碼至應用程式</span><span class="sxs-lookup"><span data-stu-id="ba989-102">How to Add a Pre- or Post-processing Script to an Application</span></span>
 <span data-ttu-id="ba989-103">本主題說明如何使用 BizTalk Server 管理主控台或命令列，將前置或後置處理指令碼新增至應用程式。</span><span class="sxs-lookup"><span data-stu-id="ba989-103">This topic describes how to use the BizTalk Server Administration console or the command line to add a pre- or post-processing script to an application.</span></span> <span data-ttu-id="ba989-104">當您將指令碼加入至應用程式時，指令碼會包含在應用程式 .msi 檔案中，並且會在匯入、安裝或解除安裝應用程式時執行。</span><span class="sxs-lookup"><span data-stu-id="ba989-104">When you add a script to an application, the script is included in the application .msi file, and runs when the application is imported, installed, or uninstalled.</span></span>  

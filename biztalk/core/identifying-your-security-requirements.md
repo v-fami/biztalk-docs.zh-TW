@@ -1,18 +1,18 @@
 ---
-title: "識別您的安全性需求 |Microsoft 文件"
-ms.custom: 
+title: 識別您的安全性需求 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, configuring
 - planning, security
 - security, planning
 ms.assetid: 5a12c959-59b5-4d44-b2f4-e1ed7053ffd5
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257630"
 ---
 # <a name="identifying-your-security-requirements"></a><span data-ttu-id="807d7-102">識別您的安全性需求</span><span class="sxs-lookup"><span data-stu-id="807d7-102">Identifying Your Security Requirements</span></span>
 <span data-ttu-id="807d7-103">下列問題的答案可以協助您在環境中部署 BizTalk Server 時，規劃出最佳的方法。</span><span class="sxs-lookup"><span data-stu-id="807d7-103">The answers to the following questions help you plan the best way to deploy BizTalk Server in your environment.</span></span>  

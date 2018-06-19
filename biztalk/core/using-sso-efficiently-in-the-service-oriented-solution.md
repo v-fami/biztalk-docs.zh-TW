@@ -1,18 +1,18 @@
 ---
-title: "有效使用 SSO，在服務導向解決方案 |Microsoft 文件"
-ms.custom: 
+title: 有效使用 SSO，在服務導向解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SSO, service solutions
 - service solution tutorial, SSO
 - SSO, using from code
 ms.assetid: 809e0ad3-cc7f-4095-87d1-63031675a47f
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289262"
 ---
 # <a name="using-sso-efficiently-in-the-service-oriented-solution"></a><span data-ttu-id="9ba41-102">有效使用 SSO，在服務導向解決方案</span><span class="sxs-lookup"><span data-stu-id="9ba41-102">Using SSO Efficiently in the Service Oriented Solution</span></span>
 <span data-ttu-id="9ba41-103">服務導向解決方案使用「企業單一登入」(SSO) 儲存組態值和處理後端系統的認證。</span><span class="sxs-lookup"><span data-stu-id="9ba41-103">The service oriented solution uses Enterprise Single Sign-On (SSO) both to store configuration values and to handle credentials for the back-end systems.</span></span> <span data-ttu-id="9ba41-104">為減少延遲，此解決方案將使用本機快取做為組態值。</span><span class="sxs-lookup"><span data-stu-id="9ba41-104">To reduce latency, the solution uses a local cache for the configuration values.</span></span> <span data-ttu-id="9ba41-105">此解決方案每五分鐘會重新整理一次快取。</span><span class="sxs-lookup"><span data-stu-id="9ba41-105">The solution refreshes the cache every five minutes.</span></span>  

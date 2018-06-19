@@ -1,11 +1,11 @@
 ---
-title: "錯誤訊息 |Microsoft 文件"
-ms.custom: 
+title: 錯誤訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - error messages
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - messages, errors
 - error messages, sending
 ms.assetid: 33d62260-b5e0-4d14-b2d2-996733d588e7
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22245894"
 ---
 # <a name="fault-messages"></a><span data-ttu-id="9892d-102">錯誤訊息</span><span class="sxs-lookup"><span data-stu-id="9892d-102">Fault Messages</span></span>
 <span data-ttu-id="9892d-103">要求回應連接埠可能具有與其關聯的錯誤訊息，因此如果在傳送要求後出現錯誤，回應的服務即可對要求者通訊錯誤，以便代替回應。</span><span class="sxs-lookup"><span data-stu-id="9892d-103">Request-response ports can have fault messages associated with them, so that if something goes wrong after a request is sent, the responding service can communicate the error to the requester, in lieu of the response.</span></span>  

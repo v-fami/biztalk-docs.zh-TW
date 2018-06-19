@@ -1,11 +1,11 @@
 ---
-title: "原則 |Microsoft 文件"
-ms.custom: 
+title: 原則 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Business Rules Engine, policies
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - policies, creating
 - policies, updating
 ms.assetid: 2e0ae081-938d-4e2a-947e-1c0ecfebb4b8
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264430"
 ---
 # <a name="policies"></a><span data-ttu-id="3db40-102">原則</span><span class="sxs-lookup"><span data-stu-id="3db40-102">Policies</span></span>
 <span data-ttu-id="3db40-103">「原則」 (Policy) 是規則的邏輯群組。</span><span class="sxs-lookup"><span data-stu-id="3db40-103">A policy is a logical grouping of rules.</span></span> <span data-ttu-id="3db40-104">您可以編輯原則的版本、儲存它、藉由將它套用到事實來測試，以及當您對結果感到滿意時，將它發佈和部署到生產環境。</span><span class="sxs-lookup"><span data-stu-id="3db40-104">You compose a version of a policy, save it, test it by applying it to facts, and, when you are satisfied with the results, publish it and deploy it to a production environment.</span></span>  

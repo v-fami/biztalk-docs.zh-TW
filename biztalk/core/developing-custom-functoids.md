@@ -1,14 +1,14 @@
 ---
-title: "開發自訂運算質 |Microsoft 文件"
-ms.custom: 
+title: 開發自訂運算質 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 77419e1f-9f01-44ac-bf5b-a393f1d17f61
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22242046"
 ---
 # <a name="developing-custom-functoids"></a><span data-ttu-id="1e981-102">開發自訂運算質</span><span class="sxs-lookup"><span data-stu-id="1e981-102">Developing Custom Functoids</span></span>
 <span data-ttu-id="1e981-103">雖然 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 提供許多運算質支援許多不同的作業，仍可能會遇到一些需要不同解決方法的情況。</span><span class="sxs-lookup"><span data-stu-id="1e981-103">Although [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides many functoids to support a range of diverse operations, you will likely encounter a situation that requires a different approach.</span></span> <span data-ttu-id="1e981-104">自訂運算質提供您一個擴充 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 對應環境中之可用作業範圍的方式。</span><span class="sxs-lookup"><span data-stu-id="1e981-104">Custom functoids provide a way for you to extend the range of operations available within the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] mapping environment.</span></span> <span data-ttu-id="1e981-105">每個自訂運算質會部署為.NET 組件使用類別衍生自**Microsoft.BizTalk.BaseFunctoids**。</span><span class="sxs-lookup"><span data-stu-id="1e981-105">Each custom functoid is deployed as a .NET assembly using classes derived from **Microsoft.BizTalk.BaseFunctoids**.</span></span> <span data-ttu-id="1e981-106">一個組件可包含一個以上的自訂運算質。</span><span class="sxs-lookup"><span data-stu-id="1e981-106">An assembly can contain more than one custom functoid.</span></span>  

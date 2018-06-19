@@ -1,14 +1,14 @@
 ---
-title: "如何包含和排除結構描述 |Microsoft 文件"
-ms.custom: 
+title: 如何包含和排除結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e9206458-e5d6-48d7-87a6-9471ba60dca7
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254342"
 ---
 # <a name="how-to-include-and-exclude-schemas"></a><span data-ttu-id="9898f-102">如何包含和排除結構描述</span><span class="sxs-lookup"><span data-stu-id="9898f-102">How to Include and Exclude Schemas</span></span>
 <span data-ttu-id="9898f-103">結構描述檔案可存在於 BizTalk 專案資料夾中，但不能包含在該專案中。</span><span class="sxs-lookup"><span data-stu-id="9898f-103">A schema file can exist in a BizTalk project folder and not be included in that project.</span></span> <span data-ttu-id="9898f-104">這類結構描述會排除在專案之外。</span><span class="sxs-lookup"><span data-stu-id="9898f-104">Such a schema is said to be excluded from the project.</span></span> <span data-ttu-id="9898f-105">當您建置 BizTalk 專案時，不會編譯排除的結構描述。</span><span class="sxs-lookup"><span data-stu-id="9898f-105">Excluded schemas are not compiled when you build the BizTalk project.</span></span> <span data-ttu-id="9898f-106">本主題描述在 BizTalk 專案中包含排除的結構描述，以及從 BizTalk 專案排除結構描述所需的步驟。</span><span class="sxs-lookup"><span data-stu-id="9898f-106">This topic describes the steps required to include an excluded schema in a BizTalk project, and to exclude a schema from a BizTalk project.</span></span>  

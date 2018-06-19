@@ -1,14 +1,14 @@
 ---
-title: "處理內送的批次 |Microsoft 文件"
-ms.custom: 
+title: 處理內送的批次 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 98f47903-933a-4bde-b320-f7689c3d8366
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264070"
 ---
 # <a name="processing-incoming-batches"></a><span data-ttu-id="c3671-102">處理內送批次</span><span class="sxs-lookup"><span data-stu-id="c3671-102">Processing Incoming Batches</span></span>
 <span data-ttu-id="c3671-103">[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 接收批次處理的 EDI 交換時，可以將交換分割為其交易集、以個別的方式處理每個交易集，或保留交換，以群組的方式處理所有的交易集。</span><span class="sxs-lookup"><span data-stu-id="c3671-103">When [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receives a batched EDI interchange, it can either split the interchange into its transaction sets, processing each one separately, or it can preserve the interchange, processing all transaction sets as a group.</span></span>  

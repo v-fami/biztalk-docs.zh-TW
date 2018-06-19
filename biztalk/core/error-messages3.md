@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241774"
 ---
 # <a name="error-messages"></a><span data-ttu-id="0d955-102">錯誤訊息</span><span class="sxs-lookup"><span data-stu-id="0d955-102">Error Messages</span></span>
 <span data-ttu-id="0d955-103">下表列出 PeopleSoft Enterprise 系統元件介面中的錯誤訊息及其說明，以及可能的解決方式。</span><span class="sxs-lookup"><span data-stu-id="0d955-103">The following table lists error messages in the PeopleSoft Enterprise system's component interfaces, their descriptions, and possible corrections.</span></span>  

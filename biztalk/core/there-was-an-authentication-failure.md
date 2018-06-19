@@ -1,14 +1,14 @@
 ---
-title: "發生驗證失敗。 |Microsoft 文件"
-ms.custom: 
+title: 發生驗證失敗。 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 36524da9-da91-41e7-bf73-7781cde20c80
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278686"
 ---
 # <a name="there-was-an-authentication-failure"></a><span data-ttu-id="d13f4-102">發生驗證失敗。</span><span class="sxs-lookup"><span data-stu-id="d13f4-102">There was an authentication failure</span></span>
 ## <a name="details"></a><span data-ttu-id="d13f4-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="d13f4-103">Details</span></span>  

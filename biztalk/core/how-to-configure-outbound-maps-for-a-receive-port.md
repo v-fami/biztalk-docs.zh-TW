@@ -1,11 +1,11 @@
 ---
-title: "如何設定輸出對應接收埠 |Microsoft 文件"
-ms.custom: 
+title: 如何設定輸出對應接收埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [receive ports], configuring
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - configuring, receive ports
 - receive ports, outbound maps
 ms.assetid: 01a864a1-9e8c-4b82-9d03-91be09d556da
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248510"
 ---
 # <a name="how-to-configure-outbound-maps-for-a-receive-port"></a><span data-ttu-id="c2118-102">如何設定接收埠的輸出對應</span><span class="sxs-lookup"><span data-stu-id="c2118-102">How to Configure Outbound Maps for a Receive Port</span></span>
 <span data-ttu-id="c2118-103">本主題描述如何使用 BizTalk Server 管理主控台來設定接收埠的輸出對應。</span><span class="sxs-lookup"><span data-stu-id="c2118-103">This topic describes how to use the BizTalk Server Administration console to configure outbound maps for a receive port.</span></span> <span data-ttu-id="c2118-104">您可以與要求-回應接收埠一起使用輸出對應，將輸出訊息從一個結構描述轉換為另一個結構描述；例如，將您公司使用的訊息轉換為夥伴公司使用的結構描述。</span><span class="sxs-lookup"><span data-stu-id="c2118-104">You can use outbound maps with request-response receive ports to transform outbound messages from one schema to another; for example to transform messages that your company uses into a schema that a partner uses.</span></span>  

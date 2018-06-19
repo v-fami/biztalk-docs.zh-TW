@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a2732b36-ca57-4566-ba26-da27a3082f32
-caps.latest.revision: ''
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22255438"
 ---
 # <a name="how-to-emphasize-map-items"></a><span data-ttu-id="d6f8f-102">如何強調對應項目</span><span class="sxs-lookup"><span data-stu-id="d6f8f-102">How to Emphasize Map Items</span></span>
 <span data-ttu-id="d6f8f-103">在 BizTalk 對應工具中，當您選取對應項目時，所有相關聯的連結和運算質都會強調顯示。</span><span class="sxs-lookup"><span data-stu-id="d6f8f-103">In the BizTalk Mapper, when you select a map item, all the associated links and functoids are emphasized.</span></span> <span data-ttu-id="d6f8f-104">當對應含有許多連結，而令人難以識別關係和相關的結構描述項目時，這項功能非常有用。</span><span class="sxs-lookup"><span data-stu-id="d6f8f-104">This is useful in maps with many links, where it is difficult to identify a relationship and the related schema items.</span></span>  

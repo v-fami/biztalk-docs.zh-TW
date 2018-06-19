@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249742"
 ---
 # <a name="how-to-create-a-receive-port"></a><span data-ttu-id="56bc3-102">如何建立接收埠</span><span class="sxs-lookup"><span data-stu-id="56bc3-102">How to Create a Receive Port</span></span>
 <span data-ttu-id="56bc3-103">本主題描述如何使用 BizTalk Server 管理主控台來建立接收埠。</span><span class="sxs-lookup"><span data-stu-id="56bc3-103">This topic describes how to use the BizTalk Server Administration console to create a receive port.</span></span> <span data-ttu-id="56bc3-104">接收埠是相似接收位置的邏輯群組，服務會透過這些位置接收資料，以與外部夥伴互動。</span><span class="sxs-lookup"><span data-stu-id="56bc3-104">A receive port is a logical grouping of similar receive locations through which services interact with external partners by receiving data.</span></span>  

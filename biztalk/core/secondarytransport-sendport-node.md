@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271302"
 ---
 # <a name="secondarytransport-sendport-node"></a><span data-ttu-id="18e93-102">SecondaryTransport (傳送埠節點)</span><span class="sxs-lookup"><span data-stu-id="18e93-102">SecondaryTransport (SendPort Node)</span></span>
 <span data-ttu-id="18e93-103">[傳送埠] 節點的 [SecondaryTransport] 節點，針對繫結至繫結檔案所匯出之傳送埠的次要傳輸而提供特定資訊。</span><span class="sxs-lookup"><span data-stu-id="18e93-103">The SecondaryTransport node of the SendPort node of a binding file provides specific information about the secondary transport that is bound to a send port exported with the binding file.</span></span> <span data-ttu-id="18e93-104">如果有指定次要傳輸，則在耗盡主要傳輸的所有重試嘗試時便會使用次要傳輸。</span><span class="sxs-lookup"><span data-stu-id="18e93-104">If a secondary transport is specified, it is used when all retry attempts with the primary transport have been exhausted.</span></span>  

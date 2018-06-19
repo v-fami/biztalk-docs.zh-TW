@@ -1,18 +1,18 @@
 ---
-title: "如何新增 Catch 例外狀況 Block6 |Microsoft 文件"
-ms.custom: 
+title: 如何新增 Catch 例外狀況 Block6 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - exception handling, Catch Exception block
 - Catch Exception blocks
 - exceptions, Catch Exception block
 ms.assetid: 404312dd-773b-44fe-8b65-7de3d0af2f79
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248718"
 ---
 # <a name="how-to-add-a-catch-exception-block"></a><span data-ttu-id="5c467-102">如何新增 Catch 例外狀況區塊</span><span class="sxs-lookup"><span data-stu-id="5c467-102">How to Add a Catch Exception Block</span></span>
 <span data-ttu-id="5c467-103">**Catch 例外狀況**區塊代表例外狀況處理常式。</span><span class="sxs-lookup"><span data-stu-id="5c467-103">The **Catch Exception** block represents an exception handler.</span></span> <span data-ttu-id="5c467-104">**攔截例外狀況**區塊會附加至結尾**範圍**協調流程設計師中的圖形。</span><span class="sxs-lookup"><span data-stu-id="5c467-104">**Catch Exception** blocks are attached to the end of a **Scope** shape in Orchestration Designer.</span></span> <span data-ttu-id="5c467-105">在 BizTalk Server 中，您可以附加多個**Catch 例外狀況**視需要會封鎖。</span><span class="sxs-lookup"><span data-stu-id="5c467-105">In BizTalk Server, you can attach as many **Catch Exception** blocks as you need.</span></span>  

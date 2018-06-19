@@ -1,17 +1,17 @@
 ---
-title: "設定 HTTP 配接器 |Microsoft 文件"
-ms.custom: 
+title: 設定 HTTP 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - HTTP adapters, configuring
 - configuring [HTTP adapters]
 ms.assetid: 504683a6-5f5d-4be5-929e-4742974e716a
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232478"
 ---
 # <a name="configuring-the-http-adapter"></a><span data-ttu-id="9885c-102">設定 HTTP 配接器</span><span class="sxs-lookup"><span data-stu-id="9885c-102">Configuring the HTTP Adapter</span></span>
 <span data-ttu-id="9885c-103">本節描述如何設定 HTTP 配接器。</span><span class="sxs-lookup"><span data-stu-id="9885c-103">This section describes how to configure an HTTP adapter.</span></span>  

@@ -1,18 +1,18 @@
 ---
-title: "如何檢視傳送埠的執行個體資訊 |Microsoft 文件"
-ms.custom: 
+title: 如何檢視傳送埠的執行個體資訊 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - send ports, viewing
 - managing [send ports], viewing
 - viewing, send ports
 ms.assetid: 37cf6561-5341-4a05-b531-33ab0334966e
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256710"
 ---
 # <a name="how-to-view-instance-information-for-a-send-port"></a><span data-ttu-id="d1fb3-102">如何檢視傳送埠的執行個體資訊</span><span class="sxs-lookup"><span data-stu-id="d1fb3-102">How to View Instance Information for a Send Port</span></span>
 <span data-ttu-id="d1fb3-103">本主題描述如何使用 BizTalk Server 管理主控台來檢視傳送埠之執行中服務執行個體的清單。</span><span class="sxs-lookup"><span data-stu-id="d1fb3-103">This topic describes how to use the BizTalk Server Administration console to view a list of the running service instances of a send port.</span></span> <span data-ttu-id="d1fb3-104">服務執行個體是將訊息傳送到傳送埠時建立之傳送埠服務的執行個體。</span><span class="sxs-lookup"><span data-stu-id="d1fb3-104">A service instance is an instance of the send port service that is created when a message is sent to the send port.</span></span> <span data-ttu-id="d1fb3-105">當您遵循這個主題中的程序時，執行個體資訊會顯示在傳送埠的 [群組概觀] 頁面中。</span><span class="sxs-lookup"><span data-stu-id="d1fb3-105">When you follow the procedure in this topic, instance information displays in the Group Overview page for the send port.</span></span>  

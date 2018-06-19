@@ -1,17 +1,17 @@
 ---
-title: "MIME SMIME 解碼器管線元件 |Microsoft 文件"
-ms.custom: 
+title: MIME SMIME 解碼器管線元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components, MIME/SMIME Decoder
 - MIME/SMIME Decoder [pipeline component]
 ms.assetid: ff6c963c-1b5c-4be4-9eef-3ec9a018e7fd
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263222"
 ---
 # <a name="mime-smime-decoder-pipeline-component"></a><span data-ttu-id="7f7b9-102">MIME SMIME 解碼器管線元件</span><span class="sxs-lookup"><span data-stu-id="7f7b9-102">MIME-SMIME Decoder Pipeline Component</span></span>
 <span data-ttu-id="7f7b9-103">MIME/SMIME 解碼器管線元件可為訊息提供 MIME 解碼功能。</span><span class="sxs-lookup"><span data-stu-id="7f7b9-103">The MIME/SMIME Decoder component provides MIME decoding functionality for messages.</span></span> <span data-ttu-id="7f7b9-104">此管線元件可放入接收管線的解碼階段，並支援 7 位元、8 位元、二進位、quoted-printable、UUEncode 以及 base64 解碼。</span><span class="sxs-lookup"><span data-stu-id="7f7b9-104">This pipeline component can be placed into the Decode stage of a receive pipeline, and it supports 7bit, 8bit, binary, quoted-printable, UUEncode, and base64 decoding.</span></span> <span data-ttu-id="7f7b9-105">當地語系化資料字元集變更不會影響解碼。</span><span class="sxs-lookup"><span data-stu-id="7f7b9-105">Localized data character set changes will not affect the decoding.</span></span>  

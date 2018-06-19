@@ -1,17 +1,17 @@
 ---
-title: "取得 BizTalk Server 協助 |Microsoft 文件"
-ms.custom: 
+title: 取得 BizTalk Server 協助 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - help for BizTalk Server
 - BizTalk Server, getting help
 ms.assetid: 99d23c71-18c6-4342-b5d7-3426dc44835e
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247134"
 ---
 # <a name="getting-biztalk-server-assistance"></a><span data-ttu-id="0a04e-102">取得 BizTalk Server 協助</span><span class="sxs-lookup"><span data-stu-id="0a04e-102">Getting BizTalk Server Assistance</span></span>
 <span data-ttu-id="0a04e-103">Microsoft 提供三個有關 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的主要資訊來源：</span><span class="sxs-lookup"><span data-stu-id="0a04e-103">There are three principal sources of information from Microsoft about [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]:</span></span>  

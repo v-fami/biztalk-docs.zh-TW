@@ -1,14 +1,14 @@
 ---
-title: "一般檔案訊息結尾 |Microsoft 文件"
-ms.custom: 
+title: 一般檔案訊息結尾 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cfe115a5-4fdc-4779-94f3-437b5a06fbd4
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246286"
 ---
 # <a name="flat-file-message-trailers"></a><span data-ttu-id="dfebd-102">一般檔案訊息結尾</span><span class="sxs-lookup"><span data-stu-id="dfebd-102">Flat File Message Trailers</span></span>
 <span data-ttu-id="dfebd-103">與一般檔案執行個體訊息標頭，在一般檔案結構描述中設定所控制的選擇性一般檔案執行個體訊息結尾，一般檔案解譯器剖析**結尾結構描述**設計階段一般檔案解譯器的屬性或**XMLNORM。TrailerSpecName**訊息內容屬性。</span><span class="sxs-lookup"><span data-stu-id="dfebd-103">As with flat file instance message headers, the parsing of the optional flat file instance message trailer by the flat file disassembler is controlled by the flat file schema that you have configured in the **Trailer schema** design-time property of the flat file disassembler or the **XMLNORM.TrailerSpecName** message context property.</span></span> <span data-ttu-id="dfebd-104">若您尚未使用兩個方法的其中一個來指定結構描述，則一般檔案解譯器會假設一般檔案執行個體訊息未包含結尾。</span><span class="sxs-lookup"><span data-stu-id="dfebd-104">If you have not specified a schema using one of these two methods, the flat file disassembler will assume that the flat file instance message does not contain a trailer.</span></span>  

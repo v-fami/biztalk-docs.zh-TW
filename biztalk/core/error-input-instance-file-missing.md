@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241310"
 ---
 # <a name="error---input-instance-file-missing"></a><span data-ttu-id="dad7c-102">錯誤-輸入執行個體檔案遺失</span><span class="sxs-lookup"><span data-stu-id="dad7c-102">Error - Input Instance File Missing</span></span>
 <span data-ttu-id="dad7c-103">**說明**</span><span class="sxs-lookup"><span data-stu-id="dad7c-103">**Explanation**</span></span>  

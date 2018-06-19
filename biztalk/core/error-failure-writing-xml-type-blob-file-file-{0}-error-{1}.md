@@ -1,14 +1,14 @@
 ---
-title: "錯誤-無法寫入 XML 類型 Blob 檔案 (&lt;file:---{0}&gt;)。 錯誤： {1} |Microsoft 文件"
-ms.custom: 
+title: 錯誤-無法寫入 XML 類型 Blob 檔案 (&lt;file:---{0}&gt;)。 錯誤： {1} |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bb787db4-0919-4e1b-bfe1-ba0e19a08881
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241094"
 ---
 # <a name="error---failure-writing-xml-type-blob-file-ltfile---0gt-error-1"></a><span data-ttu-id="c341c-103">錯誤-無法寫入 XML 類型 Blob 檔案 (&lt;file:---{0}&gt;)。</span><span class="sxs-lookup"><span data-stu-id="c341c-103">Error - Failure writing XML Type Blob file (&lt;file:---{0}&gt;).</span></span> <span data-ttu-id="c341c-104">錯誤： {1}</span><span class="sxs-lookup"><span data-stu-id="c341c-104">Error: {1}</span></span>
 <span data-ttu-id="c341c-105">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="c341c-105">**Error Code**</span></span>  

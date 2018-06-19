@@ -1,14 +1,14 @@
 ---
-title: "如何建立和描述應用程式單一登入 |Microsoft 文件"
-ms.custom: 
+title: 如何建立和描述應用程式單一登入 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7d717885-b132-4ba0-a93b-03377ac5eb97
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249086"
 ---
 # <a name="how-to-create-and-describe-an-application-to-single-sign-on"></a><span data-ttu-id="1e1b2-102">如何建立和描述應用程式單一登入</span><span class="sxs-lookup"><span data-stu-id="1e1b2-102">How to Create and Describe an Application to Single Sign-On</span></span>
 <span data-ttu-id="1e1b2-103">您需要執行的常見管理工作是將分支機構應用程式新增至「企業單一登入」(SSO) 資料庫。</span><span class="sxs-lookup"><span data-stu-id="1e1b2-103">A common administrative task that you might need to perform is adding an affiliate application into the Enterprise Single Sign-On (SSO) database.</span></span> <span data-ttu-id="1e1b2-104">新增分支機構應用程式到「企業 SSO」資料庫可讓您將使用者和認證與分支機構應用程式建立關聯。</span><span class="sxs-lookup"><span data-stu-id="1e1b2-104">Adding an affiliate application to the Enterprise SSO database enables you to associate users and credentials with the affiliated application.</span></span>  

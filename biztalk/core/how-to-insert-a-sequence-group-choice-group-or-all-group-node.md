@@ -1,14 +1,14 @@
 ---
-title: "如何插入 Sequence 群組、 Choice 群組或 [All 群組] 節點 |Microsoft 文件"
-ms.custom: 
+title: 如何插入 Sequence 群組、 Choice 群組或 [All 群組] 節點 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 19aee400-1369-4310-b1b4-1bfeb2643236
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254838"
 ---
 # <a name="how-to-insert-a-sequence-group-choice-group-or-all-group-node"></a><span data-ttu-id="688fa-102">如何插入 Sequence 群組、 Choice 群組或 [All 群組] 節點</span><span class="sxs-lookup"><span data-stu-id="688fa-102">How to Insert a Sequence Group, Choice Group, or All Group Node</span></span>
 <span data-ttu-id="688fa-103">BizTalk 編輯器支援三種類型的群組節點的項目： **Sequence 群組**， **Choice 群組**，和**All 群組**。</span><span class="sxs-lookup"><span data-stu-id="688fa-103">BizTalk Editor supports three types of group nodes for elements: **Sequence Group**, **Choice Group**, and **All Group**.</span></span> <span data-ttu-id="688fa-104">這些不同類型的群組節點會在對應執行個體訊息中群組的子節點上建立不同的條件約束。</span><span class="sxs-lookup"><span data-stu-id="688fa-104">These different types of group nodes establish different constraints on the child nodes of the group in corresponding instance messages.</span></span> <span data-ttu-id="688fa-105">如需不同群組類型之條件約束的詳細資訊，請直接參閱 Web 上有關 XML 結構描述定義 (XSD) 語言的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="688fa-105">For information about the constraints of these different types of groups, you should refer directly to information about the XML Schema definition (XSD) language on the Web.</span></span> <span data-ttu-id="688fa-106">如需這項資訊的連結，請參閱[在網站上的 XSD 資源](../core/xsd-resources-on-the-web.md)。</span><span class="sxs-lookup"><span data-stu-id="688fa-106">For links to this information, see [XSD Resources on the Web](../core/xsd-resources-on-the-web.md).</span></span>  

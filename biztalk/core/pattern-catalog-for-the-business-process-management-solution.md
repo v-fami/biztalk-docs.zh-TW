@@ -1,11 +1,11 @@
 ---
-title: "模式的商務程序管理解決方案的目錄 |Microsoft 文件"
-ms.custom: 
+title: 模式的商務程序管理解決方案的目錄 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Canonical Message pattern [process management solutions]
@@ -28,7 +28,7 @@ helpviewer_keywords:
 - Application Reference pattern [process management solutions]
 - Inverse Direct Partner Binding pattern [process management solutions]
 ms.assetid: 246b109e-6006-404d-88b9-e6324ce3473c
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -37,6 +37,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22266414"
 ---
 # <a name="pattern-catalog-for-the-business-process-management-solution"></a><span data-ttu-id="243b2-102">商務程序管理解決方案的模式目錄</span><span class="sxs-lookup"><span data-stu-id="243b2-102">Pattern Catalog for the Business Process Management Solution</span></span>
 <span data-ttu-id="243b2-103">商務程序管理解決方案中的模式包括以程式語言設計 BizTalk Server 的通用模式，以及之前章節中的企業整合模式。</span><span class="sxs-lookup"><span data-stu-id="243b2-103">The patterns in the business process management solution include common patterns of programming BizTalk Server, as well as the enterprise integration patterns in preceding sections.</span></span> <span data-ttu-id="243b2-104">本節中的清單包括這兩種模式。</span><span class="sxs-lookup"><span data-stu-id="243b2-104">The list in this section includes both kinds of patterns.</span></span>  

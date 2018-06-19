@@ -1,14 +1,14 @@
 ---
-title: "考量當建立一般檔案訊息結構描述 |Microsoft 文件"
-ms.custom: 
+title: 考量當建立一般檔案訊息結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 52271b17-4f0b-4286-a462-cd5951ae49aa
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22237894"
 ---
 # <a name="considerations-when-creating-flat-file-message-schemas"></a><span data-ttu-id="f1cfb-102">考量當建立一般檔案訊息結構描述</span><span class="sxs-lookup"><span data-stu-id="f1cfb-102">Considerations When Creating Flat File Message Schemas</span></span>
 <span data-ttu-id="f1cfb-103">使用一般檔案訊息結構描述時有一些考量。</span><span class="sxs-lookup"><span data-stu-id="f1cfb-103">There are a number of considerations when working with flat file message schemas.</span></span> <span data-ttu-id="f1cfb-104">這包括適用於所有一般檔案訊息結構描述的考量，以及只適用於序數記錄、分隔記錄、序數欄位或分隔欄位的考量。</span><span class="sxs-lookup"><span data-stu-id="f1cfb-104">This includes considerations that apply to all flat file schemas, as well as considerations that apply specifically to positional records, delimited records, positional fields, or delimited fields.</span></span> <span data-ttu-id="f1cfb-105">還有一些關於如何將其他特殊字元解譯為一般資料的考量。</span><span class="sxs-lookup"><span data-stu-id="f1cfb-105">There are also considerations about how to interpret otherwise special characters as regular data.</span></span> <span data-ttu-id="f1cfb-106">本節提供這些考量的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="f1cfb-106">This section provides information about these considerations.</span></span>  

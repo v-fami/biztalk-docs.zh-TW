@@ -1,11 +1,11 @@
 ---
-title: "如何管理 BizTalk Server 系統管理員群組 |Microsoft 文件"
-ms.custom: 
+title: 如何管理 BizTalk Server 系統管理員群組 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BizTalk Administrators group, user accounts
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - Administration Console [BizTalk Server], administering
 - BizTalk Administrators group, about BizTalk Administrators group
 ms.assetid: 60ea689b-0b93-4fcc-b49c-6436e7be473f
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254750"
 ---
 # <a name="how-to-manage-the-biztalk-server-administrators-group"></a><span data-ttu-id="74ee4-102">如何管理 BizTalk Server 系統管理員群組</span><span class="sxs-lookup"><span data-stu-id="74ee4-102">How to Manage the BizTalk Server Administrators Group</span></span>
 <span data-ttu-id="74ee4-103">「BizTalk Server 系統管理員」群組擁有執行管理工作所需的最低權限。</span><span class="sxs-lookup"><span data-stu-id="74ee4-103">The BizTalk Server Administrators group has the fewest privileges necessary to perform administrative tasks.</span></span> <span data-ttu-id="74ee4-104">您要將使用者新增到「BizTalk Server 系統管理員」群組，以便他們可以使用 BizTalk Server 管理主控台或 WMI 提供者來執行管理工作。</span><span class="sxs-lookup"><span data-stu-id="74ee4-104">You add users to the BizTalk Server Administrators group so that they can perform administrative tasks by using the BizTalk Server Administration Console or the WMI provider.</span></span> <span data-ttu-id="74ee4-105">當使用者不需再使用 BizTalk Server 管理主控台或 WMI 提供者執行管理工作時，您也要將他們從「BizTalk Server 系統管理員」中移除。</span><span class="sxs-lookup"><span data-stu-id="74ee4-105">You also remove users from the BizTalk Server Administrators group when they no longer need to perform administrative tasks by using the BizTalk Server Administration Console or the WMI provider.</span></span>  

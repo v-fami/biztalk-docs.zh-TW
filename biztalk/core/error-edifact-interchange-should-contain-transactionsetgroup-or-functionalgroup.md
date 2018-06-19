@@ -1,14 +1,14 @@
 ---
-title: "Edifact 交換應該包含 TransactionSetGroup 或 FunctionalGroup Xml 標記 |Microsoft 文件"
-ms.custom: 
+title: Edifact 交換應該包含 TransactionSetGroup 或 FunctionalGroup Xml 標記 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 34318133-211f-422d-acdf-b841ece5d2b0
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240102"
 ---
 # <a name="edifact-interchange-should-have-contained-transactionsetgroup-or-functionalgroup-xml-tags"></a><span data-ttu-id="d0321-102">Edifact 交換應該包含 TransactionSetGroup 或 FunctionalGroup Xml 標記</span><span class="sxs-lookup"><span data-stu-id="d0321-102">Edifact interchange should have contained TransactionSetGroup or FunctionalGroup Xml tags</span></span>
 ## <a name="details"></a><span data-ttu-id="d0321-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="d0321-103">Details</span></span>  

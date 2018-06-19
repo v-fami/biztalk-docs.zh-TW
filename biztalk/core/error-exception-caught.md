@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240486"
 ---
 # <a name="error---exception-caught"></a><span data-ttu-id="4324b-102">錯誤-攔截到例外狀況</span><span class="sxs-lookup"><span data-stu-id="4324b-102">Error - Exception Caught</span></span>
 <span data-ttu-id="4324b-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="4324b-103">**Error Code**</span></span>  

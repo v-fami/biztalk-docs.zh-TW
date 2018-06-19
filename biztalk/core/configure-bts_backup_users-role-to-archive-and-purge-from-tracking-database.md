@@ -1,11 +1,11 @@
 ---
-title: "如何設定 BTS_BACKUP_USERS 角色以封存和清除來自 BizTalk 追蹤資料庫資料 |Microsoft 文件"
-ms.custom: 
+title: 如何設定 BTS_BACKUP_USERS 角色以封存和清除來自 BizTalk 追蹤資料庫資料 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - purging, BTS_BACKUP_USERS role
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - Tracking database, archiving
 - purging, DTA Purge and Archive job
 ms.assetid: c27aad2a-5788-4236-b5eb-ca730bf79851
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232446"
 ---
 # <a name="how-to-configure-the-btsbackupusers-role-for-archiving-and-purging-data-from-the-biztalk-tracking-database"></a><span data-ttu-id="48bb8-102">如何設定 BTS_BACKUP_USERS 角色以封存和清除來自 BizTalk 追蹤資料庫的資料</span><span class="sxs-lookup"><span data-stu-id="48bb8-102">How to Configure the BTS_BACKUP_USERS Role for Archiving and Purging Data from the BizTalk Tracking Database</span></span>
 <span data-ttu-id="48bb8-103">DTA 清除與封存 (BizTAlkDTADb) 工作通常使用已登入 SQL Server 代理程式服務帳戶使用者的認證來執行。</span><span class="sxs-lookup"><span data-stu-id="48bb8-103">The DTA Purge and Archive (BizTAlkDTADb) job normally runs using the credentials of the logged-on SQL Server Agent service account user.</span></span> <span data-ttu-id="48bb8-104">不過，若要確保更高的安全性，您可以設定 DTA 清除與封存 (BizTalkDTADb) 工作使用 BTS_BACKUP_USERS 角色之成員帳戶的認證來執行。</span><span class="sxs-lookup"><span data-stu-id="48bb8-104">For added security, however, you can configure the DTA Purge and Archive (BizTalkDTADb) job to run using the credentials of an account which is a member of the BTS_BACKUP_USERS role.</span></span> <span data-ttu-id="48bb8-105">以具有基本權限之帳戶執行 SQL Server 代理程式工作有助於防止提升權限。</span><span class="sxs-lookup"><span data-stu-id="48bb8-105">This helps to prevent elevation of privileges by running SQL Server Agent jobs under accounts with essential permissions.</span></span>  

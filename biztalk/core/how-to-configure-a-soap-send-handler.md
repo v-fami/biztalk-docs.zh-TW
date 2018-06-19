@@ -1,11 +1,11 @@
 ---
-title: "如何設定 SOAP 傳送處理常式 |Microsoft 文件"
-ms.custom: 
+title: 如何設定 SOAP 傳送處理常式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - send handlers, SOAP adapters
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - SOAP adapters, send handlers
 - denial of service, SOAP adapters
 ms.assetid: fd610a3f-ca10-42e0-b81e-219e07e33830
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248238"
 ---
 # <a name="how-to-configure-a-soap-send-handler"></a><span data-ttu-id="44b35-102">如何設定 SOAP 傳送處理常式</span><span class="sxs-lookup"><span data-stu-id="44b35-102">How to Configure a SOAP Send Handler</span></span>
 <span data-ttu-id="44b35-103">使用下列程序，來設定 SOAP 傳送處理常式。</span><span class="sxs-lookup"><span data-stu-id="44b35-103">Use the following procedure to configure the SOAP send handler.</span></span>  

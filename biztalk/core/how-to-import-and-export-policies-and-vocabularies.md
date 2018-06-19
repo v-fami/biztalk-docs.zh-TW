@@ -1,11 +1,11 @@
 ---
-title: "如何匯入和匯出原則和詞彙 |Microsoft 文件"
-ms.custom: 
+title: 如何匯入和匯出原則和詞彙 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - policies, exporting
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - vocabularies, exporting
 - vocabularies, importing
 ms.assetid: c427f686-5908-4f72-9e72-46a5497274ac
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22253846"
 ---
 # <a name="how-to-import-and-export-policies-and-vocabularies"></a><span data-ttu-id="06c41-102">如何匯入和匯出原則和詞彙</span><span class="sxs-lookup"><span data-stu-id="06c41-102">How to Import and Export Policies and Vocabularies</span></span>
 <span data-ttu-id="06c41-103">您可以使用 [規則引擎部署精靈] 來匯入或匯出原則或詞彙。</span><span class="sxs-lookup"><span data-stu-id="06c41-103">You can use the Rules Engine Deployment Wizard to import or export a policy or vocabulary.</span></span>  

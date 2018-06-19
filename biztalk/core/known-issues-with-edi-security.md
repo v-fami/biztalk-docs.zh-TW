@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22262430"
 ---
 # <a name="known-issues-with-edi-security"></a><span data-ttu-id="6b803-102">EDI 安全性的已知問題</span><span class="sxs-lookup"><span data-stu-id="6b803-102">Known Issues with EDI Security</span></span>
 <span data-ttu-id="6b803-103">本主題描述的安全性的已知的問題[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]EDI 和 AS2 解決方案。</span><span class="sxs-lookup"><span data-stu-id="6b803-103">This topic describes known issues with the security of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI and AS2 solutions.</span></span>  

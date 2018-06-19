@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248470"
 ---
 # <a name="how-to-add-scripting-functoids-to-a-map"></a><span data-ttu-id="ee9dc-102">如何新增指令碼處理運算質至對應</span><span class="sxs-lookup"><span data-stu-id="ee9dc-102">How to Add Scripting Functoids to a Map</span></span>
 <span data-ttu-id="ee9dc-103">**指令碼處理**運算質可讓您在執行階段使用自訂指令碼或程式碼來執行無法使用的功能。</span><span class="sxs-lookup"><span data-stu-id="ee9dc-103">The **Scripting** functoid enables you to use custom script or code at run time to perform functions otherwise not available.</span></span> <span data-ttu-id="ee9dc-104">例如，您可以在執行階段呼叫 COM 物件使用**指令碼處理**運算質和寫入您自己的自訂指令碼。</span><span class="sxs-lookup"><span data-stu-id="ee9dc-104">For example, you can call a COM object at run time by using the **Scripting** functoid and writing your own custom script.</span></span>  

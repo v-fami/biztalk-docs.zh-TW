@@ -1,17 +1,17 @@
 ---
-title: "記錄傳送 |Microsoft 文件"
-ms.custom: 
+title: 記錄傳送 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - backing up, log shipping
 - log shipping
 ms.assetid: 25bc9724-1c99-43d0-8cd1-3ed8eaa60268
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262110"
 ---
 # <a name="log-shipping"></a><span data-ttu-id="a6fdc-102">記錄傳送</span><span class="sxs-lookup"><span data-stu-id="a6fdc-102">Log Shipping</span></span>
 <span data-ttu-id="a6fdc-103">記錄傳送提供待命伺服器功能，有時稱為暖備份，發生系統錯誤時可減少停機時間。</span><span class="sxs-lookup"><span data-stu-id="a6fdc-103">Log shipping provides standby server capabilities, sometimes called a warm backup, which reduces downtime in the event of a system failure.</span></span>  

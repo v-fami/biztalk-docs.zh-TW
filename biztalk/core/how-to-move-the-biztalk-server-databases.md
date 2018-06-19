@@ -1,15 +1,15 @@
 ---
-title: "移動 BizTalk Server 資料庫 |Microsoft 文件"
-description: "將 BizTalk Server 資料庫移至新的伺服器，包括停止服務，以及使用 SQL Server Agent 作業步驟"
-ms.custom: 
+title: 移動 BizTalk Server 資料庫 |Microsoft 文件
+description: 將 BizTalk Server 資料庫移至新的伺服器，包括停止服務，以及使用 SQL Server Agent 作業步驟
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ec302e6d-c89d-4fe7-849f-97b5566e8ba4
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254174"
 ---
 # <a name="how-to-move-the-biztalk-server-databases"></a><span data-ttu-id="76b52-103">如何移動 BizTalk Server 資料庫</span><span class="sxs-lookup"><span data-stu-id="76b52-103">How to Move the BizTalk Server Databases</span></span>
 
@@ -44,7 +45,7 @@ ms.lasthandoff: 09/20/2017
   
 6.  <span data-ttu-id="76b52-117">SQL Server Agent 作業下列要傳輸到新的伺服器，如下所述的指令碼[如何備份和還原 SQL 代理程式作業](../core/how-to-back-up-and-restore-sql-agent-jobs.md)。</span><span class="sxs-lookup"><span data-stu-id="76b52-117">Script the SQL Server Agent jobs listed below for transfer to the new server, as described at [How to Back Up and Restore SQL Agent Jobs](../core/how-to-back-up-and-restore-sql-agent-jobs.md).</span></span>  <span data-ttu-id="76b52-118">執行每個指令碼來重新建立作業新的伺服器上。</span><span class="sxs-lookup"><span data-stu-id="76b52-118">Run each of the scripts on the new server to recreate the jobs.</span></span>  
   
-     <span data-ttu-id="76b52-119">執行每個指令碼來重新建立作業新的伺服器上。</span><span class="sxs-lookup"><span data-stu-id="76b52-119">Run each of the scripts on the new server to recreate the jobs.</span></span> <span data-ttu-id="76b52-120">某些作業，例如**備份 BizTalk Server (BizTalkMsgBoxDb)**作業，必須重新設定，除非新的伺服器檔案路徑和伺服器名稱會與舊伺服器相同。</span><span class="sxs-lookup"><span data-stu-id="76b52-120">Certain jobs, such as the **Backup BizTalk Server (BizTalkMsgBoxDb)** job, will have to be reconfigured unless the new server file paths and server name are identical to the old server.</span></span>  
+     <span data-ttu-id="76b52-119">執行每個指令碼來重新建立作業新的伺服器上。</span><span class="sxs-lookup"><span data-stu-id="76b52-119">Run each of the scripts on the new server to recreate the jobs.</span></span> <span data-ttu-id="76b52-120">某些作業，例如**備份 BizTalk Server (BizTalkMsgBoxDb)** 作業，必須重新設定，除非新的伺服器檔案路徑和伺服器名稱會與舊伺服器相同。</span><span class="sxs-lookup"><span data-stu-id="76b52-120">Certain jobs, such as the **Backup BizTalk Server (BizTalkMsgBoxDb)** job, will have to be reconfigured unless the new server file paths and server name are identical to the old server.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="76b52-121">您也可以使用 SSIS/DTS**傳送作業**工作作業移至新的伺服器，但大部分的使用者可能會發現它更輕鬆地編寫指令碼工作使用 SQL Management Studio。</span><span class="sxs-lookup"><span data-stu-id="76b52-121">You can also use the SSIS/DTS **Transfer Jobs** task to move the jobs to the new server, but most users will probably find it easier to script the jobs using SQL Management Studio.</span></span>  

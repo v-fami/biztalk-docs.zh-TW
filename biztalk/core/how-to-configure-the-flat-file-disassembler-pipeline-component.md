@@ -1,18 +1,18 @@
 ---
-title: "如何設定一般檔案解譯器管線元件 |Microsoft 文件"
-ms.custom: 
+title: 如何設定一般檔案解譯器管線元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Flat File Disassembler [pipeline component], configuring
 - pipeline components, Flat File Disassembler
 - messages, flat files
 ms.assetid: c09996f6-6035-42a3-a75f-4def4ac39a95
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249046"
 ---
 # <a name="how-to-configure-the-flat-file-disassembler-pipeline-component"></a><span data-ttu-id="30e2f-102">如何設定一般檔案解譯器管線元件</span><span class="sxs-lookup"><span data-stu-id="30e2f-102">How to Configure the Flat File Disassembler Pipeline Component</span></span>
 <span data-ttu-id="30e2f-103">一般檔案解譯器管線元件是用來解譯一般檔案格式的文件，並將這些文件轉換為 XML 格式。</span><span class="sxs-lookup"><span data-stu-id="30e2f-103">The Flat File Disassembler pipeline component is used for disassembling documents in flat file format and converting them into XML format.</span></span>  
@@ -33,7 +34,7 @@ ms.lasthandoff: 09/20/2017
   
     |<span data-ttu-id="30e2f-107">使用</span><span class="sxs-lookup"><span data-stu-id="30e2f-107">Use this</span></span>|<span data-ttu-id="30e2f-108">動作</span><span class="sxs-lookup"><span data-stu-id="30e2f-108">To do this</span></span>|  
     |--------------|----------------|  
-    |<span data-ttu-id="30e2f-109">**文件結構描述**</span><span class="sxs-lookup"><span data-stu-id="30e2f-109">**Document schema**</span></span>|<span data-ttu-id="30e2f-110">選取將訊息從一般檔案剖析為 XML 格式的一般檔案文件結構描述。</span><span class="sxs-lookup"><span data-stu-id="30e2f-110">Select a flat file document schema to use for parsing the message from flat file to XML format.</span></span> <span data-ttu-id="30e2f-111">一般檔案文件的剖析結構描述可以在 BizTalk 編輯器中建立。</span><span class="sxs-lookup"><span data-stu-id="30e2f-111">The flat file document schema for parsing can be created in BizTalk Editor.</span></span><br /><br /> <span data-ttu-id="30e2f-112">預設值： None**附註：**您必須指定為此屬性，結構描述，或將會發生編譯時期錯誤。</span><span class="sxs-lookup"><span data-stu-id="30e2f-112">Default value: None **Note:**  You must specify a schema for this property, or a compile-time error will occur.</span></span>|  
+    |<span data-ttu-id="30e2f-109">**文件結構描述**</span><span class="sxs-lookup"><span data-stu-id="30e2f-109">**Document schema**</span></span>|<span data-ttu-id="30e2f-110">選取將訊息從一般檔案剖析為 XML 格式的一般檔案文件結構描述。</span><span class="sxs-lookup"><span data-stu-id="30e2f-110">Select a flat file document schema to use for parsing the message from flat file to XML format.</span></span> <span data-ttu-id="30e2f-111">一般檔案文件的剖析結構描述可以在 BizTalk 編輯器中建立。</span><span class="sxs-lookup"><span data-stu-id="30e2f-111">The flat file document schema for parsing can be created in BizTalk Editor.</span></span><br /><br /> <span data-ttu-id="30e2f-112">預設值： None**附註：** 您必須指定為此屬性，結構描述，或將會發生編譯時期錯誤。</span><span class="sxs-lookup"><span data-stu-id="30e2f-112">Default value: None **Note:**  You must specify a schema for this property, or a compile-time error will occur.</span></span>|  
     |<span data-ttu-id="30e2f-113">**標頭結構描述**</span><span class="sxs-lookup"><span data-stu-id="30e2f-113">**Header schema**</span></span>|<span data-ttu-id="30e2f-114">選取做為一般檔案訊息標頭部分的結構描述。</span><span class="sxs-lookup"><span data-stu-id="30e2f-114">Select a schema for the header part of the flat file message.</span></span> <span data-ttu-id="30e2f-115">一般檔案訊息標頭部分的結構描述可以在 BizTalk 編輯器中建立。</span><span class="sxs-lookup"><span data-stu-id="30e2f-115">The schema for the header part of the flat file message can be created in BizTalk Editor.</span></span><br /><br /> <span data-ttu-id="30e2f-116">預設值：無</span><span class="sxs-lookup"><span data-stu-id="30e2f-116">Default value: None</span></span>|  
     |<span data-ttu-id="30e2f-117">**保留標頭**</span><span class="sxs-lookup"><span data-stu-id="30e2f-117">**Preserve header**</span></span>|<span data-ttu-id="30e2f-118">將此屬性設定為**True**如果您需要儲存在訊息內容的一般檔案訊息標頭。</span><span class="sxs-lookup"><span data-stu-id="30e2f-118">Set this property to **True** if you need to store the flat file message header on the message context.</span></span> <span data-ttu-id="30e2f-119">保留一般檔案訊息的標頭可以讓標題結構與內容和訊息一起透過 BizTalk Server 傳送。</span><span class="sxs-lookup"><span data-stu-id="30e2f-119">Preserving the header of the flat file message enables the header structure and content to flow with the message through BizTalk Server.</span></span> <span data-ttu-id="30e2f-120">在一般檔案組合器管線元件中將訊息序列化回一般檔案格式時，可以使用這個標頭。</span><span class="sxs-lookup"><span data-stu-id="30e2f-120">The header can then be used when serializing the message back to flat file format in the Flat File Assembler pipeline component.</span></span><br /><br /> <span data-ttu-id="30e2f-121">在一般檔案組合器序列化保留的標頭時，由於可在執行階段動態取得標頭結構描述名稱，因此標頭文件設計階段屬性可能會缺少該項資訊。</span><span class="sxs-lookup"><span data-stu-id="30e2f-121">When the preserved header is being serialized by the Flat File Assembler, the header document design-time property can lack the name of the header schema, because this information can be obtained dynamically at run time.</span></span> <span data-ttu-id="30e2f-122">這可以使用保留標頭的訊息類型來完成。</span><span class="sxs-lookup"><span data-stu-id="30e2f-122">This is accomplished by using the message type of the preserved header.</span></span><br /><br /> <span data-ttu-id="30e2f-123">預設值： **False**</span><span class="sxs-lookup"><span data-stu-id="30e2f-123">Default value: **False**</span></span>|  
     |<span data-ttu-id="30e2f-124">**結尾結構描述**</span><span class="sxs-lookup"><span data-stu-id="30e2f-124">**Trailer schema**</span></span>|<span data-ttu-id="30e2f-125">選取作為一般檔案訊息結尾部分的結構描述。</span><span class="sxs-lookup"><span data-stu-id="30e2f-125">Select a schema for the trailer part of the flat file message.</span></span> <span data-ttu-id="30e2f-126">一般檔案訊息結尾部分的結構描述可以在 BizTalk 編輯器中建立。</span><span class="sxs-lookup"><span data-stu-id="30e2f-126">The schema for the trailer part of the flat file message can be created in BizTalk Editor.</span></span><br /><br /> <span data-ttu-id="30e2f-127">預設值：無</span><span class="sxs-lookup"><span data-stu-id="30e2f-127">Default value: None</span></span>|  

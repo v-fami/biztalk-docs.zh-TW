@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255982"
 ---
 # <a name="how-to-modify-general-settings"></a><span data-ttu-id="8b9ef-102">如何修改一般設定</span><span class="sxs-lookup"><span data-stu-id="8b9ef-102">How to Modify General Settings</span></span>
 <span data-ttu-id="8b9ef-103">您可以使用「設定儀表板」來修改整個 BizTalk 群組中某個主控件的一般組態設定。</span><span class="sxs-lookup"><span data-stu-id="8b9ef-103">Using the Settings Dashboard, you can modify the general configuration settings of a given host, across a BizTalk group.</span></span> <span data-ttu-id="8b9ef-104">本主題提供執行此作業的逐步程序。</span><span class="sxs-lookup"><span data-stu-id="8b9ef-104">This topic provides the step-by-step procedure to perform this operation.</span></span>  

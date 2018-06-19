@@ -1,11 +1,11 @@
 ---
-title: "如何設定原則的追蹤 |Microsoft 文件"
-ms.custom: 
+title: 如何設定原則的追蹤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - policies, tracking
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - configuring [HAT tracking], policies
 - tracking, configuring
 ms.assetid: f126e541-c183-4544-8b9d-ca07d2af303e
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249638"
 ---
 # <a name="how-to-configure-tracking-for-a-policy"></a><span data-ttu-id="c24a1-102">如何設定原則的追蹤</span><span class="sxs-lookup"><span data-stu-id="c24a1-102">How to Configure Tracking for a Policy</span></span>
 <span data-ttu-id="c24a1-103">本主題描述如何使用[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台來設定原則的追蹤。</span><span class="sxs-lookup"><span data-stu-id="c24a1-103">This topic describes how to use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administration console to configure tracking for a policy.</span></span> <span data-ttu-id="c24a1-104">您可以在管理主控台 [群組中樞] 頁面的查詢檢視中選取選項，以檢視執行個體資料、條件結果、動作以及議程更新。</span><span class="sxs-lookup"><span data-stu-id="c24a1-104">You can select options to view instance data, results of conditions, actions, and agenda updates in the query views of the administration console Group Hub page.</span></span>  

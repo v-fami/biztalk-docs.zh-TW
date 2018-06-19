@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239558"
 ---
 # <a name="developer-tools"></a><span data-ttu-id="57cc7-102">開發人員工具</span><span class="sxs-lookup"><span data-stu-id="57cc7-102">Developer Tools</span></span>
 <span data-ttu-id="57cc7-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 包含 BizTalk 專案系統設計環境，可用於設計、組織和建置各種 BizTalk 應用程式的項目。</span><span class="sxs-lookup"><span data-stu-id="57cc7-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes the BizTalk project system design environment for designing, organizing, and building the various elements of BizTalk applications.</span></span>  

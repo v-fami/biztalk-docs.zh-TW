@@ -1,15 +1,15 @@
 ---
-title: "匯入或使用 BTSTask 匯出 BizTalk 設定 |Microsoft 文件"
-description: "將設定從環境移到另一個 BizTalk Server 中使用 ImportSettings 或 ExportSettings BTSTask 命令"
-ms.custom: 
+title: 匯入或使用 BTSTask 匯出 BizTalk 設定 |Microsoft 文件
+description: 將設定從環境移到另一個 BizTalk Server 中使用 ImportSettings 或 ExportSettings BTSTask 命令
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e3fdd8c9-3534-4c11-8acc-6cb6f5bf0989
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255142"
 ---
 # <a name="use-btstask-to-import-or-export-biztalk-settings"></a><span data-ttu-id="db187-103">使用 BTSTask 匯入或匯出 BizTalk 設定</span><span class="sxs-lookup"><span data-stu-id="db187-103">Use BTSTask to import or export BizTalk settings</span></span>
 

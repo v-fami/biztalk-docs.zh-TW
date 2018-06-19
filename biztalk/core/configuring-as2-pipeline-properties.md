@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233318"
 ---
 # <a name="configuring-as2-pipeline-properties"></a><span data-ttu-id="63325-102">設定 AS2 管線屬性</span><span class="sxs-lookup"><span data-stu-id="63325-102">Configuring AS2 Pipeline Properties</span></span>
 <span data-ttu-id="63325-103">管線屬性可在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 無法判斷會解析為所傳送或所接收交換的協議時，用來處理內送或外寄 AS2 訊息。</span><span class="sxs-lookup"><span data-stu-id="63325-103">Pipeline properties are used in processing an incoming or outgoing AS2 message when [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] has not been able to determine the agreement that resolves to the sent or received interchange.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "EDI 組合器如何運作 |Microsoft 文件"
-ms.custom: 
+title: EDI 組合器如何運作 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c3785870-08ab-4fc2-8f7e-7c5a37639a7a
-caps.latest.revision: "33"
+caps.latest.revision: 33
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "22250486"
 ---
 # <a name="how-the-edi-assembler-works"></a><span data-ttu-id="b509d-102">EDI 組合器如何運作</span><span class="sxs-lookup"><span data-stu-id="b509d-102">How the EDI Assembler Works</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="b509d-103"> 會在 EDI 傳送管線 (`Microsoft.BizTalk.DefaultPipelines.EDISendPipeline`) 中執行對待傳送 EDI 編碼交換的大部分處理。</span><span class="sxs-lookup"><span data-stu-id="b509d-103"> performs most processing of EDI-encoded interchanges to be sent in the EDI Send Pipeline (`Microsoft.BizTalk.DefaultPipelines.EDISendPipeline`).</span></span> <span data-ttu-id="b509d-104">這個管線包含可執行下列處理的 EDI 組合器管線元件：</span><span class="sxs-lookup"><span data-stu-id="b509d-104">This pipeline includes the EDI assembler pipeline component, which performs the following processing:</span></span>  
@@ -98,7 +99,7 @@ ms.lasthandoff: 01/17/2018
 |<span data-ttu-id="b509d-218">群組控制編號</span><span class="sxs-lookup"><span data-stu-id="b509d-218">Group control number</span></span>|<span data-ttu-id="b509d-219">GS6</span><span class="sxs-lookup"><span data-stu-id="b509d-219">GS6</span></span>|<span data-ttu-id="b509d-220">UNG5</span><span class="sxs-lookup"><span data-stu-id="b509d-220">UNG5</span></span>|  
 |<span data-ttu-id="b509d-221">交易集控制編號 (X12)</span><span class="sxs-lookup"><span data-stu-id="b509d-221">Transaction set control number (X12)</span></span><br /><br /> <span data-ttu-id="b509d-222">交易集參考編號 (EDIFACT)</span><span class="sxs-lookup"><span data-stu-id="b509d-222">Transaction set reference number (EDIFACT)</span></span>|<span data-ttu-id="b509d-223">ST2</span><span class="sxs-lookup"><span data-stu-id="b509d-223">ST2</span></span>|<span data-ttu-id="b509d-224">UNH1</span><span class="sxs-lookup"><span data-stu-id="b509d-224">UNH1</span></span>|  
   
- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="b509d-225">將根據您在輸入的值的範圍上傳送的下一個交換的交換控制編號**交換控制編號 (ISA13)**屬性**本機主機設定**頁面 （在下**交換設定**) 的單向協議索引標籤中**協議屬性** 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="b509d-225"> will set the interchange control number for the next interchange sent based on the range of values that you entered in the **Interchange control number (ISA13)** property on the **Local Host Settings** page (under **Interchange Settings**) of the one-way agreement tab in the **Agreement Properties** dialog box.</span></span> <span data-ttu-id="b509d-226">它會將每個後續交換的此編號遞增，直到達到最大值為止。</span><span class="sxs-lookup"><span data-stu-id="b509d-226">It will increment this number for each subsequent interchange, until the maximum value is reached.</span></span>  
+ [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="b509d-225">將根據您在輸入的值的範圍上傳送的下一個交換的交換控制編號**交換控制編號 (ISA13)** 屬性**本機主機設定**頁面 （在下**交換設定**) 的單向協議索引標籤中**協議屬性** 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="b509d-225"> will set the interchange control number for the next interchange sent based on the range of values that you entered in the **Interchange control number (ISA13)** property on the **Local Host Settings** page (under **Interchange Settings**) of the one-way agreement tab in the **Agreement Properties** dialog box.</span></span> <span data-ttu-id="b509d-226">它會將每個後續交換的此編號遞增，直到達到最大值為止。</span><span class="sxs-lookup"><span data-stu-id="b509d-226">It will increment this number for each subsequent interchange, until the maximum value is reached.</span></span>  
   
  <span data-ttu-id="b509d-227">如果使用 EdiOverride 內容屬性指定交換控制編號，指定的值將會用於此交換，且不會影響到協議中所指定的交換控制編號。</span><span class="sxs-lookup"><span data-stu-id="b509d-227">If the interchange control number is specified using the EdiOverride context properties, the value specified will be used for this interchange and will not affect the interchange control number specified in agreement.</span></span>  
   

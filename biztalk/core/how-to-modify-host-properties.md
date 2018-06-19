@@ -1,14 +1,14 @@
 ---
-title: "如何修改主控件屬性 |Microsoft 文件"
-ms.custom: 
+title: 如何修改主控件屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e5df9d7f-b6c2-4bb7-a845-284e6323e3d6
-caps.latest.revision: "28"
+caps.latest.revision: 28
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255654"
 ---
 # <a name="update-host-properties"></a><span data-ttu-id="d0712-102">更新主機內容</span><span class="sxs-lookup"><span data-stu-id="d0712-102">Update Host Properties</span></span>
 
@@ -28,7 +29,7 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  <span data-ttu-id="d0712-109">如果變更目前所登入使用者的群組成員資格，而該群組也是網域的成員，則應該在完成變更之後登出，然後再重新登入。</span><span class="sxs-lookup"><span data-stu-id="d0712-109">If you change the group membership of the current logged-in user, and the group is also a member of the domain, you should logout and login after changes are completed.</span></span> <span data-ttu-id="d0712-110">不這麼做會導致存取遭到拒絕，因為目前的登入不會反映新的群組成員資格。</span><span class="sxs-lookup"><span data-stu-id="d0712-110">Failure to do this will result in denied access because new group membership will not be reflected by the current login.</span></span>  
   
--   <span data-ttu-id="d0712-111">**主控件追蹤：**至少一個主機群組中的必須追蹤狀況與商務資料。</span><span class="sxs-lookup"><span data-stu-id="d0712-111">**Host tracking:** At least one host in the group must track health and business data.</span></span> <span data-ttu-id="d0712-112">此選項指出主控件是否載入 BizTalk 追蹤元件，以處理狀況監控與商務資料。</span><span class="sxs-lookup"><span data-stu-id="d0712-112">This option indicates whether the host loads the BizTalk Tracking component to process health monitoring and business data.</span></span>  
+-   <span data-ttu-id="d0712-111">**主控件追蹤：** 至少一個主機群組中的必須追蹤狀況與商務資料。</span><span class="sxs-lookup"><span data-stu-id="d0712-111">**Host tracking:** At least one host in the group must track health and business data.</span></span> <span data-ttu-id="d0712-112">此選項指出主控件是否載入 BizTalk 追蹤元件，以處理狀況監控與商務資料。</span><span class="sxs-lookup"><span data-stu-id="d0712-112">This option indicates whether the host loads the BizTalk Tracking component to process health monitoring and business data.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="d0712-113">我們建議您建立至少一個追蹤主控件的主控件執行個體。</span><span class="sxs-lookup"><span data-stu-id="d0712-113">We recommend that you create at least one host instance of the tracking host.</span></span> <span data-ttu-id="d0712-114">若沒有執行中的追蹤主控件之主控件執行個體，則 MessageBox 資料庫會繼續累計資料，之後將導致效能降低。</span><span class="sxs-lookup"><span data-stu-id="d0712-114">If there is no running host instance of the tracking host, the MessageBox database will continue to accumulate data with a subsequent degradation in performance.</span></span>  
@@ -38,7 +39,7 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  <span data-ttu-id="d0712-118">指定特定的主控件執行主控件追蹤，會對在同一主控件上執行的應用程式效能造成影響。</span><span class="sxs-lookup"><span data-stu-id="d0712-118">Specifying a particular host to perform host tracking will have an impact on the performance of applications running on the same host.</span></span> <span data-ttu-id="d0712-119">因此，您可以考慮建立僅「允許主控件追蹤」的專用主控件。</span><span class="sxs-lookup"><span data-stu-id="d0712-119">Therefore, you might want to consider creating a dedicated host just to "allow host tracking" for this reason.</span></span>  
   
--   <span data-ttu-id="d0712-120">**信任的驗證：**您可以指定 BizTalk Server 信任某個主控件。</span><span class="sxs-lookup"><span data-stu-id="d0712-120">**Authentication trusted:** You can specify that BizTalk Server trusts a host.</span></span> <span data-ttu-id="d0712-121">BizTalk Server 會信任**驗證信任的主控件**將傳送者安全性識別碼 (SSID) 放置在信任的主控件佇列對主應用程式以外的使用者對應的訊息。</span><span class="sxs-lookup"><span data-stu-id="d0712-121">BizTalk Server trusts **authentication trusted hosts** to place the sender security ID (SSID) on messages that the trusted host is queuing that map to users other than to the host.</span></span> <span data-ttu-id="d0712-122">如需驗證信任主控件的詳細資訊，請參閱[驗證訊息的傳送者](../core/authenticating-the-sender-of-a-message.md)。</span><span class="sxs-lookup"><span data-stu-id="d0712-122">For more information about authentication trusted hosts, see [Authenticating the Sender of a Message](../core/authenticating-the-sender-of-a-message.md).</span></span>  
+-   <span data-ttu-id="d0712-120">**信任的驗證：** 您可以指定 BizTalk Server 信任某個主控件。</span><span class="sxs-lookup"><span data-stu-id="d0712-120">**Authentication trusted:** You can specify that BizTalk Server trusts a host.</span></span> <span data-ttu-id="d0712-121">BizTalk Server 會信任**驗證信任的主控件**將傳送者安全性識別碼 (SSID) 放置在信任的主控件佇列對主應用程式以外的使用者對應的訊息。</span><span class="sxs-lookup"><span data-stu-id="d0712-121">BizTalk Server trusts **authentication trusted hosts** to place the sender security ID (SSID) on messages that the trusted host is queuing that map to users other than to the host.</span></span> <span data-ttu-id="d0712-122">如需驗證信任主控件的詳細資訊，請參閱[驗證訊息的傳送者](../core/authenticating-the-sender-of-a-message.md)。</span><span class="sxs-lookup"><span data-stu-id="d0712-122">For more information about authentication trusted hosts, see [Authenticating the Sender of a Message](../core/authenticating-the-sender-of-a-message.md).</span></span>  
   
      <span data-ttu-id="d0712-123">信任與不信任的主控件之主控件執行個體無法使用相同的服務帳戶。</span><span class="sxs-lookup"><span data-stu-id="d0712-123">Host instances of trusted hosts and host instances of non-trusted hosts cannot use the same service accounts.</span></span> <span data-ttu-id="d0712-124">若您想要變更主控件執行個體的信任設定，而主控件執行個體使用其他主控件執行個體使用的服務帳戶，您可以執行下列任何一項動作：</span><span class="sxs-lookup"><span data-stu-id="d0712-124">If you want to change the trust setting of a host instance and the host instance uses a service account that other host instances use, you can do one of the following:</span></span>  
   
@@ -48,7 +49,7 @@ ms.lasthandoff: 09/20/2017
   
     -   <span data-ttu-id="d0712-127">您可以刪除主控件執行個體，然後以不同的信任設定與服務帳戶重新建立它。</span><span class="sxs-lookup"><span data-stu-id="d0712-127">You can delete the host instance, and re-create it with a different trust setting and service account.</span></span>  
   
--   <span data-ttu-id="d0712-128">**預設主機群組中：**必須有預設主控件群組中所有的時間。</span><span class="sxs-lookup"><span data-stu-id="d0712-128">**Default host in the group:** There must be a default host in the group at all times.</span></span> <span data-ttu-id="d0712-129">在協調流程登錄程序期間，會自動使用預設主控件來裝載協調流程，除非使用者明確選取不同的主控件。</span><span class="sxs-lookup"><span data-stu-id="d0712-129">The orchestration enlistment process automatically uses the default host to host the orchestration, unless the user explicitly selects a different host.</span></span> <span data-ttu-id="d0712-130">第一個建立的主控件會標示為預設主控件。</span><span class="sxs-lookup"><span data-stu-id="d0712-130">The first host created is marked as the default host.</span></span> <span data-ttu-id="d0712-131">如需預設主控件的資訊，請參閱[主機](../core/hosts.md)。</span><span class="sxs-lookup"><span data-stu-id="d0712-131">For information about the default host, see [Hosts](../core/hosts.md).</span></span>  
+-   <span data-ttu-id="d0712-128">**預設主機群組中：** 必須有預設主控件群組中所有的時間。</span><span class="sxs-lookup"><span data-stu-id="d0712-128">**Default host in the group:** There must be a default host in the group at all times.</span></span> <span data-ttu-id="d0712-129">在協調流程登錄程序期間，會自動使用預設主控件來裝載協調流程，除非使用者明確選取不同的主控件。</span><span class="sxs-lookup"><span data-stu-id="d0712-129">The orchestration enlistment process automatically uses the default host to host the orchestration, unless the user explicitly selects a different host.</span></span> <span data-ttu-id="d0712-130">第一個建立的主控件會標示為預設主控件。</span><span class="sxs-lookup"><span data-stu-id="d0712-130">The first host created is marked as the default host.</span></span> <span data-ttu-id="d0712-131">如需預設主控件的資訊，請參閱[主機](../core/hosts.md)。</span><span class="sxs-lookup"><span data-stu-id="d0712-131">For information about the default host, see [Hosts](../core/hosts.md).</span></span>  
   
 ## <a name="prerequisites"></a><span data-ttu-id="d0712-132">必要條件</span><span class="sxs-lookup"><span data-stu-id="d0712-132">Prerequisites</span></span>  
  <span data-ttu-id="d0712-133">您必須具有以下的使用者權限才能建立主控件、修改主控件屬性和刪除主控件：</span><span class="sxs-lookup"><span data-stu-id="d0712-133">You must have the following user rights to create hosts, modify host properties, and delete hosts:</span></span>  

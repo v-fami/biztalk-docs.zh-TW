@@ -1,18 +1,18 @@
 ---
-title: "錯誤 Messages2 |Microsoft 文件"
-ms.custom: 
+title: 錯誤 Messages2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - error messages, JD Edwards OneWorld adapters
 - adapters [JD Edwards OneWorld adapters], error messages
 - JD Edwards OneWorld adapters, error messages
 ms.assetid: 9fb65d50-83c6-426e-a0d6-674800ecf70f
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241894"
 ---
 # <a name="error-messages"></a><span data-ttu-id="f6f6b-102">錯誤訊息</span><span class="sxs-lookup"><span data-stu-id="f6f6b-102">Error Messages</span></span>
 <span data-ttu-id="f6f6b-103">下表說明 JD Edwards OneWorld 系統中的錯誤訊息，並提供可能的更正方式。</span><span class="sxs-lookup"><span data-stu-id="f6f6b-103">The following table describes error messages in the JD Edwards OneWorld system, and provides possible corrections for them.</span></span>  

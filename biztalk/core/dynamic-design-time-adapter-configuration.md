@@ -1,14 +1,14 @@
 ---
-title: "動態設計階段配接器組態 |Microsoft 文件"
-ms.custom: 
+title: 動態設計階段配接器組態 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 36127d62-0348-42bb-981f-19fcad26efce
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241286"
 ---
 # <a name="dynamic-design-time-adapter-configuration"></a><span data-ttu-id="82313-102">動態設計階段配接器組態</span><span class="sxs-lookup"><span data-stu-id="82313-102">Dynamic Design-Time Adapter Configuration</span></span>
 <span data-ttu-id="82313-103">在某些狀況下，靜態設計階段配接器組態和 [新增配接器中繼資料精靈] 中的標準預設 UI，並沒有顯示配接器要匯入之 BizTalk 專案服務的足夠彈性。</span><span class="sxs-lookup"><span data-stu-id="82313-103">There are situations where static design-time adapter configuration and the standard default UI in the Add Adapter Metadata Wizard is not flexible enough to display an adapter's services for a BizTalk project to import.</span></span> <span data-ttu-id="82313-104">或者，您可以使用動態設計階段組態，在其中提供精靈的自訂 UI 以顯示和選取配接器的服務。</span><span class="sxs-lookup"><span data-stu-id="82313-104">Alternatively, you can use dynamic design-time configuration, where you provide a customized UI to the wizard to display and select your adapter's services.</span></span> <span data-ttu-id="82313-105">BizTalk 配接器架構提供一組 API，可以讓您用來匯入配接器所需要的結構描述，並能顯示自訂的 UI。</span><span class="sxs-lookup"><span data-stu-id="82313-105">The BizTalk Adapter Framework provides a set of APIs that you can use to import the required schemas for the adapter and to display the custom UI.</span></span>  

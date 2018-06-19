@@ -1,18 +1,18 @@
 ---
-title: "如何設定 POP3 接收處理常式 |Microsoft 文件"
-ms.custom: 
+title: 如何設定 POP3 接收處理常式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive handlers, POP3 adapters
 - POP3 adapters, receive handlers
 - configuring [POP3 adapters], receive handlers
 ms.assetid: 2191c201-545e-4d5a-a1ca-3c38c7b8258d
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247782"
 ---
 # <a name="how-to-configure-a-pop3-receive-handler"></a><span data-ttu-id="e27af-102">如何設定 POP3 接收處理常式</span><span class="sxs-lookup"><span data-stu-id="e27af-102">How to Configure a POP3 Receive Handler</span></span>
 <span data-ttu-id="e27af-103">使用下列程序來變更與 POP3 接收處理常式關聯的主控件。</span><span class="sxs-lookup"><span data-stu-id="e27af-103">Use the following procedure to change the host associated with the POP3 receive handler.</span></span>  

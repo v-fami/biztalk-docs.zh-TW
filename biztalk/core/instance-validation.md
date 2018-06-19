@@ -1,14 +1,14 @@
 ---
-title: "執行個體驗證 |Microsoft 文件"
-ms.custom: 
+title: 執行個體驗證 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f906f2e9-2bf9-448b-927f-dd2d7d9b2272
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257374"
 ---
 # <a name="instance-validation"></a><span data-ttu-id="79b94-102">執行個體驗證</span><span class="sxs-lookup"><span data-stu-id="79b94-102">Instance Validation</span></span>
 <span data-ttu-id="79b94-103">BizTalk 編輯器會叫用**IInstanceValidator.ValidateInstance**符合下列條件時的擴充方法：</span><span class="sxs-lookup"><span data-stu-id="79b94-103">BizTalk Editor invokes the **IInstanceValidator.ValidateInstance** method of an extension when the following conditions are met:</span></span>  

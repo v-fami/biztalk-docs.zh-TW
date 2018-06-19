@@ -1,14 +1,14 @@
 ---
-title: "如何編碼節點名稱字元 |Microsoft 文件"
-ms.custom: 
+title: 如何編碼節點名稱字元 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6462856b-7a52-40c9-9aff-c0579130eec9
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246998"
 ---
 # <a name="how-node-name-characters-get-encoded"></a><span data-ttu-id="84162-102">如何編碼節點名稱字元</span><span class="sxs-lookup"><span data-stu-id="84162-102">How Node Name Characters Get Encoded</span></span>
 <span data-ttu-id="84162-103">如果您使用節點名稱中不允許的字元，BizTalk 編輯器會提示您，詢問您是否要繼續進行，不允許的字元編碼 (**確定**或**取消**)。</span><span class="sxs-lookup"><span data-stu-id="84162-103">If you use a character that is not allowed in a node name, BizTalk Editor prompts you, asking if you want to proceed with the disallowed character or characters encoded (**OK** or **Cancel**).</span></span> <span data-ttu-id="84162-104">若您繼續進行，每個不被允許的字元將編碼如下：</span><span class="sxs-lookup"><span data-stu-id="84162-104">If you proceed, each disallowed character is encoded as follows:</span></span>  

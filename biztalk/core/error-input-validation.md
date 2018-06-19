@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240422"
 ---
 # <a name="error---input-validation"></a><span data-ttu-id="6ac6e-102">錯誤-輸入驗證</span><span class="sxs-lookup"><span data-stu-id="6ac6e-102">Error - Input Validation</span></span>
 <span data-ttu-id="6ac6e-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="6ac6e-103">**Error Code**</span></span>  

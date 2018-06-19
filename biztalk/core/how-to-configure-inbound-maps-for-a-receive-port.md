@@ -1,11 +1,11 @@
 ---
-title: "如何設定的輸入的對應接收埠 |Microsoft 文件"
-ms.custom: 
+title: 如何設定的輸入的對應接收埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [receive ports], configuring
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - maps, inbound
 - managing [receive ports], inbound maps
 ms.assetid: b7448b39-f024-4353-818b-f753c2d60751
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248302"
 ---
 # <a name="how-to-configure-inbound-maps-for-a-receive-port"></a><span data-ttu-id="59c93-102">如何設定接收埠的輸入對應</span><span class="sxs-lookup"><span data-stu-id="59c93-102">How to Configure Inbound Maps for a Receive Port</span></span>
 <span data-ttu-id="59c93-103">本主題描述如何使用 BizTalk Server 管理主控台來設定接收埠的輸入對應。</span><span class="sxs-lookup"><span data-stu-id="59c93-103">This topic describes how to use the BizTalk Server Administration console to configure inbound maps for a receive port.</span></span> <span data-ttu-id="59c93-104">您會使用輸入對應，將輸入訊息從一個結構描述轉換至其他結構描述；例如，將接收自夥伴的訊息轉換成可供公司使用的結構描述。</span><span class="sxs-lookup"><span data-stu-id="59c93-104">You use inbound maps to transform inbound messages from one schema to another; for example to transform messages received from a partner into a schema that your company uses.</span></span>  

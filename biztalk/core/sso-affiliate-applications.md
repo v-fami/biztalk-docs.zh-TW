@@ -1,11 +1,11 @@
 ---
-title: "SSO 分支機構應用程式 |Microsoft 文件"
-ms.custom: 
+title: SSO 分支機構應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SSO, designing applications
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - SSO, applications
 - applications [SSO], designing
 ms.assetid: 002ecf7e-4d52-425a-9498-0e7bd6545047
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975728"
 ---
 # <a name="sso-affiliate-applications"></a><span data-ttu-id="ecbe8-102">SSO 分支機構應用程式</span><span class="sxs-lookup"><span data-stu-id="ecbe8-102">SSO Affiliate Applications</span></span>
 <span data-ttu-id="ecbe8-103">「企業單一登入」(SSO) 分支機構應用程式是代表系統或子系統 (如主控件、後端系統或您使用 SSO 連接的商務應用程式產品線) 的邏輯實體。</span><span class="sxs-lookup"><span data-stu-id="ecbe8-103">The Enterprise Single Sign-On (SSO) Affiliate applications are logical entities that represent a system or sub-system such as a host, back-end system, or line of business application to which you are connecting using SSO.</span></span> <span data-ttu-id="ecbe8-104">分支機構應用程式代表後端系統，如大型主機或 UNIX 電腦。</span><span class="sxs-lookup"><span data-stu-id="ecbe8-104">An affiliate application can represent a back-end system such as a mainframe or UNIX computer.</span></span> <span data-ttu-id="ecbe8-105">它也可以代表應用程式 (如 SAP)，或系統的子部分 (如 Benefits 或 Pay stub 子系統)。</span><span class="sxs-lookup"><span data-stu-id="ecbe8-105">It can also represent an application such as SAP, or a subdivision of the system, such as the "Benefits" or "Pay stub" sub-systems.</span></span>  
@@ -81,7 +82,7 @@ ms.lasthandoff: 11/28/2017
 |<span data-ttu-id="ecbe8-161">Description</span><span class="sxs-lookup"><span data-stu-id="ecbe8-161">Description</span></span>|<span data-ttu-id="ecbe8-162">分支機構應用程式的簡短說明</span><span class="sxs-lookup"><span data-stu-id="ecbe8-162">Brief description of the affiliate application</span></span>|  
 |<span data-ttu-id="ecbe8-163">連絡人</span><span class="sxs-lookup"><span data-stu-id="ecbe8-163">Contact</span></span>|<span data-ttu-id="ecbe8-164">使用者可使用的此分支機構應用程式之主要連絡資訊。</span><span class="sxs-lookup"><span data-stu-id="ecbe8-164">The main contact for this affiliate application that users can use.</span></span> <span data-ttu-id="ecbe8-165">(可能為電子郵件地址。)</span><span class="sxs-lookup"><span data-stu-id="ecbe8-165">(Can be an e-mail address.)</span></span>|  
 |<span data-ttu-id="ecbe8-166">appUserAccount</span><span class="sxs-lookup"><span data-stu-id="ecbe8-166">appUserAccount</span></span>|<span data-ttu-id="ecbe8-167">包含一般使用者的使用者帳戶之 Windows 群組，這些使用者將使用此分支機構應用程式。</span><span class="sxs-lookup"><span data-stu-id="ecbe8-167">The Windows group that contains the user accounts of end-users that will be using this affiliate application</span></span>|  
-|<span data-ttu-id="ecbe8-168">appAdminAccount</span><span class="sxs-lookup"><span data-stu-id="ecbe8-168">appAdminAccount</span></span>|<span data-ttu-id="ecbe8-169">包含系統管理員帳戶的 Windows 群組，這些系統管理員將管理此分支機構應用程式。</span><span class="sxs-lookup"><span data-stu-id="ecbe8-169">The Windows group that contains the administrator accounts that will manage this affiliate application.</span></span> <span data-ttu-id="ecbe8-170">**注意：**您不需要定義此屬性，如果您將 adminAccountSame 設定為 [是]。</span><span class="sxs-lookup"><span data-stu-id="ecbe8-170">**Note:**  You do not need to define this property if you set the adminAccountSame to Yes.</span></span>|  
+|<span data-ttu-id="ecbe8-168">appAdminAccount</span><span class="sxs-lookup"><span data-stu-id="ecbe8-168">appAdminAccount</span></span>|<span data-ttu-id="ecbe8-169">包含系統管理員帳戶的 Windows 群組，這些系統管理員將管理此分支機構應用程式。</span><span class="sxs-lookup"><span data-stu-id="ecbe8-169">The Windows group that contains the administrator accounts that will manage this affiliate application.</span></span> <span data-ttu-id="ecbe8-170">**注意：** 您不需要定義此屬性，如果您將 adminAccountSame 設定為 [是]。</span><span class="sxs-lookup"><span data-stu-id="ecbe8-170">**Note:**  You do not need to define this property if you set the adminAccountSame to Yes.</span></span>|  
   
 |<span data-ttu-id="ecbe8-171">應用程式旗標</span><span class="sxs-lookup"><span data-stu-id="ecbe8-171">Application Flag</span></span>|<span data-ttu-id="ecbe8-172">Description</span><span class="sxs-lookup"><span data-stu-id="ecbe8-172">Description</span></span>|  
 |----------------------|-----------------|  

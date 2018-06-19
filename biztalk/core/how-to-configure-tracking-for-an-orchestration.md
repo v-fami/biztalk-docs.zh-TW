@@ -1,11 +1,11 @@
 ---
-title: "如何設定協調流程的追蹤 |Microsoft 文件"
-ms.custom: 
+title: 如何設定協調流程的追蹤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, tracking
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - tracking, orchestrations
 - HAT, orchestrations
 ms.assetid: 8f5ed525-11f8-4bef-95c4-cfe9c971b663
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249134"
 ---
 # <a name="how-to-configure-tracking-for-an-orchestration"></a><span data-ttu-id="dafe2-102">如何設定協調流程的追蹤</span><span class="sxs-lookup"><span data-stu-id="dafe2-102">How to Configure Tracking for an Orchestration</span></span>
 <span data-ttu-id="dafe2-103">本主題描述如何使用 BizTalk Server 管理主控台，以設定協調流程的追蹤。</span><span class="sxs-lookup"><span data-stu-id="dafe2-103">This topic describes how to use the BizTalk Server Administration console to configure tracking for an orchestration.</span></span>  

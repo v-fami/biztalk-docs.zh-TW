@@ -1,18 +1,18 @@
 ---
-title: "如何定義量值 |Microsoft 文件"
-ms.custom: 
+title: 如何定義量值 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Excel add-in [BAM], creating measures
 - aggregations [BAM], measures
 - BAM views, measures
 ms.assetid: fd3dfe6b-cc63-4306-8aad-a9d2a9af01e8
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249142"
 ---
 # <a name="how-to-define-measures"></a><span data-ttu-id="ae9c5-102">如何定義量值</span><span class="sxs-lookup"><span data-stu-id="ae9c5-102">How to Define Measures</span></span>
 <span data-ttu-id="ae9c5-103">量值可以定義計算活動的方式。</span><span class="sxs-lookup"><span data-stu-id="ae9c5-103">A measure defines how an activity is calculated.</span></span> <span data-ttu-id="ae9c5-104">建立 BAM 檢視時，您可以定義檢視中的活動量值。</span><span class="sxs-lookup"><span data-stu-id="ae9c5-104">When you create a BAM view you can define a measure for the activity in the view.</span></span> <span data-ttu-id="ae9c5-105">例如，對於「訂單」活動，您可以計算訂單總金額、訂單件數、訂單平均金額等。</span><span class="sxs-lookup"><span data-stu-id="ae9c5-105">For example, for a purchase order activity, you can calculate the total PO amount, the number of POs, the average PO amount, and so on.</span></span>  

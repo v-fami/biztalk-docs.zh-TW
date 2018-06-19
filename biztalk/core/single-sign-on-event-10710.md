@@ -1,14 +1,14 @@
 ---
-title: "單一登入： 事件 10710 |Microsoft 文件"
-ms.custom: 
+title: 單一登入： 事件 10710 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 469dc407-be7a-45a1-bcf5-2ba7060a19e2
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271566"
 ---
 # <a name="single-sign-on-event-10710"></a><span data-ttu-id="4dd75-102">單一登入： 事件 10710</span><span class="sxs-lookup"><span data-stu-id="4dd75-102">Single Sign-On: Event 10710</span></span>
 ## <a name="details"></a><span data-ttu-id="4dd75-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="4dd75-103">Details</span></span>  

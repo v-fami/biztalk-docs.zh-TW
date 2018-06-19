@@ -1,11 +1,11 @@
 ---
-title: "ExceptionHandler 協調流程 |Microsoft 文件"
-ms.custom: 
+title: ExceptionHandler 協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - errors, systems
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - orchestrations, errors [process management solutions]
 - process management solution tutorial, errors
 ms.assetid: ac154e76-9dfe-433a-948b-e098df705fe5
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22280022"
 ---
 # <a name="the-exceptionhandler-orchestration"></a><span data-ttu-id="e93f0-102">ExceptionHandler 協調流程</span><span class="sxs-lookup"><span data-stu-id="e93f0-102">The ExceptionHandler Orchestration</span></span>
 <span data-ttu-id="e93f0-103">商務程序管理解決方案會使用兩種類型的例外狀況： 系統例外狀況和應用程式例外狀況。</span><span class="sxs-lookup"><span data-stu-id="e93f0-103">The Business Process Management solution uses two kinds of exceptions: system exceptions and application exceptions.</span></span> <span data-ttu-id="e93f0-104">系統例外狀況像是資源錯誤—例如網路連線失敗。</span><span class="sxs-lookup"><span data-stu-id="e93f0-104">System exceptions include things like resource errors—a network connection failing, for example.</span></span> <span data-ttu-id="e93f0-105">在一段時間後，這些問題有可能會自己解決，所以解決方案會重試造成系統例外狀況的所有作業。</span><span class="sxs-lookup"><span data-stu-id="e93f0-105">There is a chance that such a problem may resolve itself after an interval so that the solution retries all operations that produce system exceptions.</span></span> <span data-ttu-id="e93f0-106">應用程式例外狀況產生的問題較不易自行解決，如邏輯錯誤或某種形式的不一致。</span><span class="sxs-lookup"><span data-stu-id="e93f0-106">Application exceptions are produced by things less likely to resolve themselves, such as logical errors or some form of inconsistency.</span></span> <span data-ttu-id="e93f0-107">解決方案會使用**ExceptionHandlerOrch**協調流程來處理系統和應用程式錯誤。</span><span class="sxs-lookup"><span data-stu-id="e93f0-107">The solution uses the **ExceptionHandlerOrch** orchestration to process both system and application errors.</span></span>  

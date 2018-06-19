@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241086"
 ---
 # <a name="error---multiple-loop-paths"></a><span data-ttu-id="c702f-102">錯誤-多個迴圈路徑</span><span class="sxs-lookup"><span data-stu-id="c702f-102">Error - Multiple Loop Paths</span></span>
 <span data-ttu-id="c702f-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="c702f-103">**Error Code**</span></span>  

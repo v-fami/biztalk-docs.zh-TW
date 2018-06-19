@@ -1,14 +1,14 @@
 ---
-title: "如何設定 ENTSSO MA 的 MIIS |Microsoft 文件"
-ms.custom: 
+title: 如何設定 ENTSSO MA 的 MIIS |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c7820384-ff64-4628-9e35-02b13803928f
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248134"
 ---
 # <a name="how-to-configure-miis-for-entsso-ma"></a><span data-ttu-id="c7411-102">如何設定 ENTSSO MA 的 MIIS</span><span class="sxs-lookup"><span data-stu-id="c7411-102">How to Configure MIIS for ENTSSO MA</span></span>
 <span data-ttu-id="c7411-103">當您在執行 Microsoft Identity Integration Server (MIIS) 的電腦上安裝企業單一登入 (SSO) 管理功能 (完整版本或僅限管理版本) 時，ENTSSO 管理代理程式也會自動安裝 。</span><span class="sxs-lookup"><span data-stu-id="c7411-103">When you install the Enterprise Single Sign-On (SSO) Administration feature (either the full version or the Admin-only version) on a computer running Microsoft Identity Integration Server (MIIS), the ENTSSO Management Agent is automatically installed.</span></span> <span data-ttu-id="c7411-104">這表示當您開啟 MIIS 時，幾乎所有組態都已經設定完成。</span><span class="sxs-lookup"><span data-stu-id="c7411-104">This means that when you open MIIS, nearly all of the configuration has already been done.</span></span> <span data-ttu-id="c7411-105">唯一缺少的部分是連線資訊。</span><span class="sxs-lookup"><span data-stu-id="c7411-105">The only part missing is the connection information.</span></span>  
@@ -37,7 +38,7 @@ ms.lasthandoff: 09/20/2017
   
      <span data-ttu-id="c7411-113">這會啟動**建立管理代理程式精靈**。</span><span class="sxs-lookup"><span data-stu-id="c7411-113">This starts the **Create Management Agent Wizard**.</span></span>  
   
-4.  <span data-ttu-id="c7411-114">在**設定連線資訊**頁面上，於**連接到：**欄位中，輸入 SSO 伺服器的名稱。</span><span class="sxs-lookup"><span data-stu-id="c7411-114">On the **Configure Connection Information** page, in the **Connect To:** field, enter the name of the SSO Server.</span></span>  
+4.  <span data-ttu-id="c7411-114">在**設定連線資訊**頁面上，於**連接到：** 欄位中，輸入 SSO 伺服器的名稱。</span><span class="sxs-lookup"><span data-stu-id="c7411-114">On the **Configure Connection Information** page, in the **Connect To:** field, enter the name of the SSO Server.</span></span>  
   
 5.  <span data-ttu-id="c7411-115">輸入 ENTSSO 管理代理程式的名稱。</span><span class="sxs-lookup"><span data-stu-id="c7411-115">Enter the name of the ENTSSO Management Agent.</span></span> <span data-ttu-id="c7411-116">這個名稱必須與 ENTSSO.xml 檔案中指定的名稱相符。</span><span class="sxs-lookup"><span data-stu-id="c7411-116">This name must match the name specified in your ENTSSO.xml file.</span></span>  
   

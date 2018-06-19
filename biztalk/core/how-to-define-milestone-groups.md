@@ -1,11 +1,11 @@
 ---
-title: "如何定義里程碑群組 |Microsoft 文件"
-ms.custom: 
+title: 如何定義里程碑群組 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - groups, milestone groups
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - BAM View Wizard, milestone groups
 - creating, milestone groups
 ms.assetid: 8b04d0ef-d676-476e-a292-16c4f1bf89c8
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249350"
 ---
 # <a name="how-to-define-milestone-groups"></a><span data-ttu-id="63bbb-102">如何定義里程碑群組</span><span class="sxs-lookup"><span data-stu-id="63bbb-102">How to Define Milestone Groups</span></span>
 <span data-ttu-id="63bbb-103">使用里程碑群組將相關的里程碑 (例如，定義訂單有效期長度的開始和結束里程碑) 放在一起，</span><span class="sxs-lookup"><span data-stu-id="63bbb-103">Use a milestone group to put related milestones together, for example the beginning and end milestones that define how long a Purchase Order is valid.</span></span> <span data-ttu-id="63bbb-104">然後您就可以將里程碑群組當做單一里程碑使用。</span><span class="sxs-lookup"><span data-stu-id="63bbb-104">You can then use the milestone group as a single milestone.</span></span>  

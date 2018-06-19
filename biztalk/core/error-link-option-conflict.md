@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240366"
 ---
 # <a name="error---link-option-conflict"></a><span data-ttu-id="4cf30-102">錯誤-連結選項衝突</span><span class="sxs-lookup"><span data-stu-id="4cf30-102">Error - Link Option Conflict</span></span>
 <span data-ttu-id="4cf30-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="4cf30-103">**Error Code**</span></span>  

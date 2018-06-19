@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254334"
 ---
 # <a name="how-to-open-a-pipeline"></a><span data-ttu-id="6b84c-102">如何開啟管線</span><span class="sxs-lookup"><span data-stu-id="6b84c-102">How to Open a Pipeline</span></span>
 <span data-ttu-id="6b84c-103">開啟管線檔會顯示「管線設計師」，並在設計區域中顯示已定義的管線及其階段。</span><span class="sxs-lookup"><span data-stu-id="6b84c-103">Opening a pipeline file causes Pipeline Designer to appear with the defined pipeline and its stages in the design area.</span></span> <span data-ttu-id="6b84c-104">此外，若尚未開啟 [管線設計師工具箱與屬性] 視窗，則會顯示該視窗。</span><span class="sxs-lookup"><span data-stu-id="6b84c-104">In addition, the Pipeline Designer Toolbox and the Properties window will appear if they are not already open.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "如何使用運算式圖形 |Microsoft 文件"
-ms.custom: 
+title: 如何使用運算式圖形 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring [Orchestration Designer], Expression shapes
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Expression shape [Orchestration Designer], configuring
 - Expression shape [Orchestration Designer], about Expression shape
 ms.assetid: 2d702aa9-b824-4f47-a416-70707ce8ef29
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256054"
 ---
 # <a name="how-to-use-expression-shape"></a><span data-ttu-id="e6083-102">如何使用運算式圖形</span><span class="sxs-lookup"><span data-stu-id="e6083-102">How to Use Expression Shape</span></span>
 <span data-ttu-id="e6083-103">**運算式**圖形可讓您輸入您的協調流程中所選擇的 XLANG/s 運算式。</span><span class="sxs-lookup"><span data-stu-id="e6083-103">The **Expression** shape enables you to enter any XLANG/s expression you choose in your orchestration.</span></span> <span data-ttu-id="e6083-104">例如，您可以進行 .NET 呼叫以執行外部程式，或是只管理協調流程變數的值。</span><span class="sxs-lookup"><span data-stu-id="e6083-104">For example, you can make a .NET call to run an external program, or simply manipulate the values of your orchestration variables.</span></span>  

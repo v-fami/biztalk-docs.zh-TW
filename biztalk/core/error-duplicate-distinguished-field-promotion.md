@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240430"
 ---
 # <a name="error---duplicate-distinguished-field-promotion"></a><span data-ttu-id="c1df4-102">錯誤-重複的辨別的欄位升級</span><span class="sxs-lookup"><span data-stu-id="c1df4-102">Error - Duplicate Distinguished Field Promotion</span></span>
 <span data-ttu-id="c1df4-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="c1df4-103">**Error Code**</span></span>  

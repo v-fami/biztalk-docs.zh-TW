@@ -1,18 +1,18 @@
 ---
-title: "如何將憑證指派給接收位置 |Microsoft 文件"
-ms.custom: 
+title: 如何將憑證指派給接收位置 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - certificates, receive locations
 - receive locations, certificates
 - managing [receive locations], certificates
 ms.assetid: 54ae300e-62c5-480f-a9b7-e5c3457a0f80
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248030"
 ---
 # <a name="how-to-assign-a-certificate-to-a-receive-location"></a><span data-ttu-id="9e5b1-102">如何將憑證指派給接收位置</span><span class="sxs-lookup"><span data-stu-id="9e5b1-102">How to Assign a Certificate to a Receive Location</span></span>
 <span data-ttu-id="9e5b1-103">本主題說明如何使用「BizTalk Server管理」主控台，將安全性憑證指派給接收位置。</span><span class="sxs-lookup"><span data-stu-id="9e5b1-103">This topic describes how to use the BizTalk Server Administration console to assign a security certificate to a receive location.</span></span> <span data-ttu-id="9e5b1-104">您只能在雙向接收位置上執行此程序。</span><span class="sxs-lookup"><span data-stu-id="9e5b1-104">You can perform this procedure on a two-way receive location only.</span></span> <span data-ttu-id="9e5b1-105">憑證必須存在於執行 BizTalk Server 之電腦的「其他人」憑證存放區，否則無法處理與此接收位置相關的訊息，並且會有錯誤列入記錄。</span><span class="sxs-lookup"><span data-stu-id="9e5b1-105">The certificate must exist in the Other People certificate store on the computer running BizTalk Server, or messages associated with this receive location will not be processed, and errors will be logged.</span></span>  

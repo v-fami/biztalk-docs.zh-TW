@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22261910"
 ---
 # <a name="lesson-3-deploy-the-solution"></a><span data-ttu-id="24d58-102">課程 3：部署方案</span><span class="sxs-lookup"><span data-stu-id="24d58-102">Lesson 3: Deploy the Solution</span></span>
 <span data-ttu-id="24d58-103">部署 EAISolution 的第一步是將組件加入至 BizTalk 管理資料庫和全域組件快取中。</span><span class="sxs-lookup"><span data-stu-id="24d58-103">The first step in deploying EAISolution is to add assemblies to the BizTalk Management database and the global assembly cache.</span></span>  

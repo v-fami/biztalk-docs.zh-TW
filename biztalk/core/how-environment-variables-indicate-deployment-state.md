@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246494"
 ---
 # <a name="how-environment-variables-indicate-deployment-state"></a><span data-ttu-id="a93ad-102">環境變數如何指示部署狀態</span><span class="sxs-lookup"><span data-stu-id="a93ad-102">How Environment Variables Indicate Deployment State</span></span>
 <span data-ttu-id="a93ad-103">前置或後置處理指令碼一旦被叫用，便會檢查環境變數 BTAD_ChangeRequestAction、BTAD_InstallMode 與 BTAD_HostClass 以判斷目前所處的部署狀態 (安裝、匯入、刪除、解除安裝、匯入回復，或者安裝回復)。</span><span class="sxs-lookup"><span data-stu-id="a93ad-103">Once invoked, a pre- or post-processing script can determine in which deployment state (install, import, delete, uninstall, import rollback, or install rollback) it is running by checking the environment variables BTAD_ChangeRequestAction, BTAD_InstallMode and BTAD_HostClass.</span></span>  

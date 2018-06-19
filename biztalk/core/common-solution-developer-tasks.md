@@ -1,14 +1,14 @@
 ---
-title: "常見的方案開發人員工作 |Microsoft 文件"
-ms.custom: 
+title: 常見的方案開發人員工作 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3439e185-bce1-4df9-848f-c96f08b66604
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232358"
 ---
 # <a name="common-solution-developer-tasks"></a><span data-ttu-id="3733f-102">解決方案開發人員的一般工作</span><span class="sxs-lookup"><span data-stu-id="3733f-102">Common Solution Developer Tasks</span></span>
 <span data-ttu-id="3733f-103">方案開發人員會使用 BizTalk Server 開發工具和技術 (包括 Microsoft .NET Framework)，來設計和開發 BizTalk Server 方案。</span><span class="sxs-lookup"><span data-stu-id="3733f-103">Solution developers design and develop BizTalk Server solutions using BizTalk Server development tools and technologies as well as the Microsoft .NET Framework.</span></span>  

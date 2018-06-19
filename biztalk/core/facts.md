@@ -1,11 +1,11 @@
 ---
-title: "事實 |Microsoft 文件"
-ms.custom: 
+title: 事實 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Business Rules Engine, facts
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - business rules, facts
 - facts
 ms.assetid: 8f8086e4-fa16-49e8-8191-3d397330937f
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22245790"
 ---
 # <a name="facts"></a><span data-ttu-id="79297-102">事實</span><span class="sxs-lookup"><span data-stu-id="79297-102">Facts</span></span>
 <span data-ttu-id="79297-103">「事實」 (Fact) 是與世界相關的不連續資訊。</span><span class="sxs-lookup"><span data-stu-id="79297-103">Facts are discrete pieces of information about the world.</span></span> <span data-ttu-id="79297-104">事實可以來自於許多來源 （事件系統，在商務應用程式、 資料庫資料表等物件），而且必須送入中的商務規則引擎[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]使用其中一種下列項目：</span><span class="sxs-lookup"><span data-stu-id="79297-104">Facts can originate from many sources (event systems, objects in business applications, database tables, and so on), and must be fed into the Business Rule engine in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] by using one of the following elements:</span></span>  

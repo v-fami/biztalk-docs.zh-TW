@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239758"
 ---
 # <a name="error---functoid-has-no-output"></a><span data-ttu-id="9b50a-102">錯誤-運算質有沒有輸出</span><span class="sxs-lookup"><span data-stu-id="9b50a-102">Error - Functoid Has No Output</span></span>
 <span data-ttu-id="9b50a-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="9b50a-103">**Error Code**</span></span>  

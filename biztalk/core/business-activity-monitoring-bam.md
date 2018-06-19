@@ -1,11 +1,11 @@
 ---
-title: "商務活動監控 (BAM) |Microsoft 文件"
-ms.custom: 
+title: 商務活動監控 (BAM) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BAM, tools
@@ -25,7 +25,7 @@ helpviewer_keywords:
 - BAM, BAM Management utility
 - BAM, processing
 ms.assetid: a8ad48b1-6891-4bbb-b125-27d224e49293
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -34,6 +34,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234782"
 ---
 # <a name="business-activity-monitoring-bam"></a><span data-ttu-id="5708e-102">商務活動監控 (BAM)</span><span class="sxs-lookup"><span data-stu-id="5708e-102">Business Activity Monitoring (BAM)</span></span>
 <span data-ttu-id="5708e-103">下圖說明商務活動監控 (BAM) 功能的架構。</span><span class="sxs-lookup"><span data-stu-id="5708e-103">The following diagram illustrates the architecture for the Business Activity Monitoring (BAM) feature.</span></span>  

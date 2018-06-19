@@ -1,11 +1,11 @@
 ---
-title: "如何建置協調流程 |Microsoft 文件"
-ms.custom: 
+title: 如何建置協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - building, orchestrations
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - projects, building
 - orchestrations, building
 ms.assetid: f12d5da0-fbae-4f0e-85bf-1ca2e9bf7d62
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248142"
 ---
 # <a name="how-to-build-orchestrations"></a><span data-ttu-id="6fb97-102">如何建置協調流程</span><span class="sxs-lookup"><span data-stu-id="6fb97-102">How to Build Orchestrations</span></span>
 <span data-ttu-id="6fb97-103">在您完成協調流程繪製後，就可以將 BizTalk 專案建置到封裝可執行協調流程的組件中。</span><span class="sxs-lookup"><span data-stu-id="6fb97-103">After you have completed an orchestration drawing, you build your BizTalk project into an assembly that encapsulates an executable orchestration.</span></span>  

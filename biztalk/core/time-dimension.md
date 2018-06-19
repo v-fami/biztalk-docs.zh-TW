@@ -1,17 +1,17 @@
 ---
-title: "時間維度 |Microsoft 文件"
-ms.custom: 
+title: 時間維度 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Time dimension [BAM]
 - aggregations [BAM], Time dimension
 ms.assetid: 8f83b758-09a1-4efb-ae0e-32753f56c4e4
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279446"
 ---
 # <a name="time-dimension"></a><span data-ttu-id="a9bd9-102">時間維度</span><span class="sxs-lookup"><span data-stu-id="a9bd9-102">Time Dimension</span></span>
 <span data-ttu-id="a9bd9-103">時間維度可用來建立與時間相關的彙總。</span><span class="sxs-lookup"><span data-stu-id="a9bd9-103">The time dimension allows aggregations to be created with respect to time.</span></span> <span data-ttu-id="a9bd9-104">例如，時間維度可以用來建立下列資料表：</span><span class="sxs-lookup"><span data-stu-id="a9bd9-104">For example a time dimension can be used to create the following table:</span></span>  

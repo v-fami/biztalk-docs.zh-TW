@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269630"
 ---
 # <a name="sendports-distributionlist-node"></a><span data-ttu-id="e610f-102">SendPorts (DistributionList 節點)</span><span class="sxs-lookup"><span data-stu-id="e610f-102">SendPorts (DistributionList Node)</span></span>
 <span data-ttu-id="e610f-103">繫結檔案之 DistributionList 節點的 SendPorts 節點是通訊群組清單中傳送埠參考的容器節點。</span><span class="sxs-lookup"><span data-stu-id="e610f-103">The SendPorts node of the DistributionList node of a binding file is the container node for the send port references in the distribution list.</span></span>  

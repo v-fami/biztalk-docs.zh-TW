@@ -1,11 +1,11 @@
 ---
-title: "如何在協調流程中使用連接埠 |Microsoft 文件"
-ms.custom: 
+title: 如何在協調流程中使用連接埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, adding ports
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - ports, adding to orchestrations
 - ports, configuring
 ms.assetid: da8665cd-ccde-4949-b5f5-01f9f8be5ce8
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257910"
 ---
 # <a name="how-to-use-ports-in-orchestrations"></a><span data-ttu-id="1e705-102">如何在協調流程中使用連接埠</span><span class="sxs-lookup"><span data-stu-id="1e705-102">How to Use Ports in Orchestrations</span></span>
 <span data-ttu-id="1e705-103">新增連接埠到協調流程的方式，和新增控制項到 Web Form 或 Windows Form 的方式類似。</span><span class="sxs-lookup"><span data-stu-id="1e705-103">You add ports to an orchestration in much the same way that you add controls to a Web Form or Windows Form.</span></span> <span data-ttu-id="1e705-104">您也可以使用 [協調流程檢視] 視窗來新增連接埠。</span><span class="sxs-lookup"><span data-stu-id="1e705-104">You can also add ports by using the Orchestration View window.</span></span>  

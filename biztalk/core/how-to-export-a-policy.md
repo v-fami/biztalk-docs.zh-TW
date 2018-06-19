@@ -1,18 +1,18 @@
 ---
-title: "如何匯出原則 |Microsoft 文件"
-ms.custom: 
+title: 如何匯出原則 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [policies], exporting
 - policies, exporting
 - exporting, policies
 ms.assetid: 2e46d96a-7762-479b-be20-bd590b2a4f0a
-caps.latest.revision: "30"
+caps.latest.revision: 30
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254910"
 ---
 # <a name="how-to-export-a-policy"></a><span data-ttu-id="e3031-102">如何匯出原則</span><span class="sxs-lookup"><span data-stu-id="e3031-102">How to Export a Policy</span></span>
 <span data-ttu-id="e3031-103">本主題描述如何使用 BizTalk Server 管理主控台或命令列匯出一個或多個原則及關聯的詞彙。</span><span class="sxs-lookup"><span data-stu-id="e3031-103">This topic describes how to use the BizTalk Server Administration console or the command line to export one or more policies and associated vocabularies.</span></span>  

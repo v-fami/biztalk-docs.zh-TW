@@ -1,11 +1,11 @@
 ---
-title: "如何驗證訊息的活動狀態 |Microsoft 文件"
-ms.custom: 
+title: 如何驗證訊息的活動狀態 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - activities, verifying status
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - verifying message status in PeopleSoft
 - messages, verifying status
 ms.assetid: b8cee6f9-0f65-4228-a87a-3f3aca6182bf
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256542"
 ---
 # <a name="how-to-verify-activity-status-of-a-message"></a><span data-ttu-id="bffc6-102">如何確認訊息的活動狀態</span><span class="sxs-lookup"><span data-stu-id="bffc6-102">How to Verify Activity Status of a Message</span></span>
 <span data-ttu-id="bffc6-103">您可以使用 PeopleSoft Integration Broker 建立 PeopleSoft HTTP 主控件和連接埠，讓 PeopleSoft 傳送事件。</span><span class="sxs-lookup"><span data-stu-id="bffc6-103">You use the PeopleSoft Integration Broker to create a PeopleSoft HTTP Host and Port where PeopleSoft sends events.</span></span> <span data-ttu-id="bffc6-104">請依照下列步驟，確定訊息正在作用中，並且已路由傳送。</span><span class="sxs-lookup"><span data-stu-id="bffc6-104">You make sure that the message is active and routed by following these steps.</span></span>  
@@ -78,7 +79,7 @@ ms.lasthandoff: 09/20/2017
   
     -   <span data-ttu-id="bffc6-123">**ig.isc.password:** PS 的密碼</span><span class="sxs-lookup"><span data-stu-id="bffc6-123">**ig.isc.password:** Password for PS</span></span>  
   
-    -   <span data-ttu-id="bffc6-124">**ig.isc.toolsrel:**特定版本</span><span class="sxs-lookup"><span data-stu-id="bffc6-124">**ig.isc.toolsrel:** Specific Release</span></span>  
+    -   <span data-ttu-id="bffc6-124">**ig.isc.toolsrel:** 特定版本</span><span class="sxs-lookup"><span data-stu-id="bffc6-124">**ig.isc.toolsrel:** Specific Release</span></span>  
   
 ## <a name="see-also"></a><span data-ttu-id="bffc6-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="bffc6-125">See Also</span></span>  
  [<span data-ttu-id="bffc6-126">建立 PeopleSoft HTTP 主控件和連接埠</span><span class="sxs-lookup"><span data-stu-id="bffc6-126">Creating a PeopleSoft HTTP Host and Port</span></span>](../core/creating-a-peoplesoft-http-host-and-port.md)

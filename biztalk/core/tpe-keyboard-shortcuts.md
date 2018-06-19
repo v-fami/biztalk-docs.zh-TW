@@ -1,17 +1,17 @@
 ---
-title: "TPE 鍵盤快速鍵 |Microsoft 文件"
-ms.custom: 
+title: TPE 鍵盤快速鍵 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - keyboard shortcuts, Tracking Profile Editor
 - Tracking Profile Editor, keyboard shortcuts
 ms.assetid: b10288b8-c63d-4564-905c-5817fd92a592
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279214"
 ---
 # <a name="tpe-keyboard-shortcuts"></a><span data-ttu-id="427b6-102">TPE 鍵盤快速鍵</span><span class="sxs-lookup"><span data-stu-id="427b6-102">TPE Keyboard Shortcuts</span></span>
 <span data-ttu-id="427b6-103">在「追蹤設定檔編輯器」(TPE) 中，您可以使用鍵盤快速鍵來執行與使用滑鼠相同的巡覽和編輯功能。</span><span class="sxs-lookup"><span data-stu-id="427b6-103">In the Tracking Profile Editor (TPE), you can use keyboard shortcuts to perform the same navigation and edit functions that you do by using a mouse.</span></span> <span data-ttu-id="427b6-104">您可以使用這些快速鍵來執行用於 TPE 中的所有功能。</span><span class="sxs-lookup"><span data-stu-id="427b6-104">You can use these shortcuts to perform all the functions used in TPE.</span></span> <span data-ttu-id="427b6-105">本節描述鍵盤快速鍵並提供在 TPE 中使用鍵盤巡覽的秘訣。</span><span class="sxs-lookup"><span data-stu-id="427b6-105">This section describes the keyboard shortcuts and provides some tips about using your keyboard to navigate in TPE.</span></span>  

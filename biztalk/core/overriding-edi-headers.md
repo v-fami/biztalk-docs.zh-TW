@@ -1,14 +1,14 @@
 ---
-title: "覆寫 EDI 標頭 |Microsoft 文件"
-ms.custom: 
+title: 覆寫 EDI 標頭 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 16c19d3d-eab2-4d44-8752-25aeadb537a4
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22265438"
 ---
 # <a name="overriding-edi-headers"></a><span data-ttu-id="4b536-102">覆寫 EDI 標頭</span><span class="sxs-lookup"><span data-stu-id="4b536-102">Overriding EDI Headers</span></span>
 <span data-ttu-id="4b536-103">傳送 EDI 編碼交換時，套用至訊息的 EDI 信封通常是根據接收端協議的 EDI 屬性，或是後援協議屬性。</span><span class="sxs-lookup"><span data-stu-id="4b536-103">When sending an EDI-encoded interchange, the EDI envelope applied to the message is normally based upon the EDI properties of the receiving agreement, or the fallback agreement properties.</span></span> <span data-ttu-id="4b536-104">不過，根據執行階段產生的值來設定 EDI 信封屬性通常會很有用。</span><span class="sxs-lookup"><span data-stu-id="4b536-104">However it is often useful to set the EDI envelope properties based on runtime generated values.</span></span>  

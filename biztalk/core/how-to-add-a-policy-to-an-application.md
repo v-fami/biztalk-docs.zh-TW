@@ -1,11 +1,11 @@
 ---
-title: "如何新增原則至應用程式 |Microsoft 文件"
-ms.custom: 
+title: 如何新增原則至應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [policies], adding to applications
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - applications, policies
 - policies, adding to applications
 ms.assetid: 93b3ce5e-8c63-4c64-9bdc-1747541ba9a8
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248102"
 ---
 # <a name="how-to-add-a-policy-to-an-application"></a><span data-ttu-id="6d445-102">如何新增原則至應用程式</span><span class="sxs-lookup"><span data-stu-id="6d445-102">How to Add a Policy to an Application</span></span>
 <span data-ttu-id="6d445-103">本主題描述如何使用 [BizTalk Server 管理] 主控台或命令列，將原則新增至 BizTalk 應用程式。</span><span class="sxs-lookup"><span data-stu-id="6d445-103">This topic describes how to use the BizTalk Server Administration console or the command line to add a policy to a BizTalk application.</span></span> <span data-ttu-id="6d445-104">使用管理主控台時，您可以加入多個原則一次。</span><span class="sxs-lookup"><span data-stu-id="6d445-104">When using the administration console, you can add more than one policy at a time.</span></span> <span data-ttu-id="6d445-105">新增原則至應用程式可以讓該原則提供給該應用程式以及參考它的其他任何應用程式使用。</span><span class="sxs-lookup"><span data-stu-id="6d445-105">Adding a policy to an application makes it available for use by that application as well as any other applications that reference it.</span></span>  

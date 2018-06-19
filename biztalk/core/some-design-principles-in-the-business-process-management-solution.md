@@ -1,11 +1,11 @@
 ---
-title: "有些設計商務程序管理解決方案中的原則 |Microsoft 文件"
-ms.custom: 
+title: 有些設計商務程序管理解決方案中的原則 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - business processes, design principals
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - process management solution tutorial, dividing business processes
 - patterns [process management solutions], design principals
 ms.assetid: 688b970f-8e64-4a47-bcc5-bdb9c5195902
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279358"
 ---
 # <a name="some-design-principles-in-the-business-process-management-solution"></a><span data-ttu-id="9438b-102">商務程序管理解決方案中的部分設計原則</span><span class="sxs-lookup"><span data-stu-id="9438b-102">Some Design Principles in the Business Process Management Solution</span></span>
 <span data-ttu-id="9438b-103">本主題開頭分割商務程序為階段有關的一般指導方針。</span><span class="sxs-lookup"><span data-stu-id="9438b-103">This topic begins with general guidelines about dividing business processes into stages.</span></span> <span data-ttu-id="9438b-104">接著考量與這些指導方針和商務需求相關的部分解決方案之協調流程、組件以及應用程式的結構。</span><span class="sxs-lookup"><span data-stu-id="9438b-104">It then goes on to consider the structure of some of the solution's orchestrations, assemblies, and applications in connection with these guidelines and the business requirements.</span></span> <span data-ttu-id="9438b-105">如需商務需求的詳細資訊，請參閱 < 商務需求 > 中[了解商務程序管理解決方案](../core/understanding-the-business-process-management-solution.md)。</span><span class="sxs-lookup"><span data-stu-id="9438b-105">For more information about the business requirements, see "Business Requirements" in [Understanding the Business Process Management Solution](../core/understanding-the-business-process-management-solution.md).</span></span>  

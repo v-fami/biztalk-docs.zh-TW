@@ -1,14 +1,14 @@
 ---
-title: "錯誤-目標節點 &#39;{0} &#39;有一個以上的無條件的 Nil 值運算質連接到它。 數目降低為其中一個。 | Microsoft Docs"
-ms.custom: 
+title: 錯誤-目標節點 &#39;{0} &#39;有一個以上的無條件的 Nil 值運算質連接到它。 數目降低為其中一個。 | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 46865ddf-dd41-4efd-85cc-62c48c97d621
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240574"
 ---
 # <a name="error--the-target-node-39039-has-more-than-one-unconditional-nil-value-functoid-connected-to-it-reduce-the-number-to-one"></a><span data-ttu-id="934f8-104">錯誤-目標節點 &#39;{0} &#39;有一個以上的無條件的 Nil 值運算質連接到它。</span><span class="sxs-lookup"><span data-stu-id="934f8-104">Error- The target node &#39;{0}&#39; has more than one unconditional Nil-Value functoid connected to it.</span></span> <span data-ttu-id="934f8-105">數目降低為其中一個。</span><span class="sxs-lookup"><span data-stu-id="934f8-105">Reduce the number to one.</span></span>
 <span data-ttu-id="934f8-106">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="934f8-106">**Error Code**</span></span>  

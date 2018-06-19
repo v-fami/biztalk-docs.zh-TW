@@ -1,11 +1,11 @@
 ---
-title: "向外擴充接收主控件 |Microsoft 文件"
-ms.custom: 
+title: 向外擴充接收主控件 |Microsoft 文件
+ms.custom: ''
 ms.date: 2016-03-17
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapters, receive adapters
@@ -34,7 +34,7 @@ helpviewer_keywords:
 - File adapters, scaling
 - clustering
 ms.assetid: 94f35426-37fa-4ad2-8e35-d82fdca02262
-caps.latest.revision: "54"
+caps.latest.revision: 54
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -43,6 +43,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22272550"
 ---
 # <a name="scaled-out-receiving-hosts"></a><span data-ttu-id="f5907-102">向外擴充的接收主控件</span><span class="sxs-lookup"><span data-stu-id="f5907-102">Scaled-Out Receiving Hosts</span></span>
 <span data-ttu-id="f5907-103">當主控件包含接收項目時 (例如接收位置或管線)，它將做為安全範圍，而訊息解碼和解密都發生在主控件的管線中。</span><span class="sxs-lookup"><span data-stu-id="f5907-103">When a host contains a receiving item, such as a receive location or pipeline, it acts as a security boundary, and the message decoding and decrypting occurs in a pipeline within the host.</span></span> <span data-ttu-id="f5907-104">若要讓接收主控件變成高度可用，您必須有兩部或以上的 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 電腦執行每個接收主控件的執行個體。</span><span class="sxs-lookup"><span data-stu-id="f5907-104">To make the receiving hosts highly available, you must have two or more [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computers that are running instances of each receiving host.</span></span> <span data-ttu-id="f5907-105">透過向外擴充接收主控件，您可以確保需要大量傳訊的 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 部署的可用性。</span><span class="sxs-lookup"><span data-stu-id="f5907-105">By scaling out the receiving hosts you can guarantee availability for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] deployments that are messaging intensive.</span></span> <span data-ttu-id="f5907-106">雖然這些部署有可能執行最少的協調流程處理，不過它們仍可以最快的速度並提供最大的可靠性來路由許多不同類型的訊息。</span><span class="sxs-lookup"><span data-stu-id="f5907-106">While these deployments might perform minimal processing for orchestrations, they can route many messages of varying types with great speed and reliability.</span></span>  

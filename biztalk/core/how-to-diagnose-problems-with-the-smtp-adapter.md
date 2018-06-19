@@ -1,14 +1,14 @@
 ---
-title: "如何診斷 SMTP 配接器問題 |Microsoft 文件"
-ms.custom: 
+title: 如何診斷 SMTP 配接器問題 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: eaf39fd8-b662-4b0c-b5e8-1af02cb4f79b
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249670"
 ---
 # <a name="how-to-diagnose-problems-with-the-smtp-adapter"></a><span data-ttu-id="73828-102">如何診斷 SMTP 配接器問題</span><span class="sxs-lookup"><span data-stu-id="73828-102">How to Diagnose Problems with the SMTP Adapter</span></span>
 <span data-ttu-id="73828-103">本節包含的步驟可協助您診斷 SMTP 配接器的問題。</span><span class="sxs-lookup"><span data-stu-id="73828-103">This section contains steps that can be followed to help diagnose problems with the SMTP adapter.</span></span>  
@@ -28,7 +29,7 @@ ms.lasthandoff: 09/20/2017
      <span data-ttu-id="73828-107">*%Windir%\\*system32\LogFiles\SMTPSVC1\\</span><span class="sxs-lookup"><span data-stu-id="73828-107">*%WinDir%\\*system32\LogFiles\SMTPSVC1\\</span></span>  
   
     > [!NOTE]
-    >  <span data-ttu-id="73828-108">*%Windir%*是 SMTP 伺服器上的 Windows 目錄位置的預留位置。</span><span class="sxs-lookup"><span data-stu-id="73828-108">*%WinDir%* is a placeholder for the location of the Windows directory on the SMTP server.</span></span>  
+    >  <span data-ttu-id="73828-108">*%Windir%* 是 SMTP 伺服器上的 Windows 目錄位置的預留位置。</span><span class="sxs-lookup"><span data-stu-id="73828-108">*%WinDir%* is a placeholder for the location of the Windows directory on the SMTP server.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="73828-109">SMTP 記錄功能預設為停用上[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="73828-109">SMTP logging is disabled by default on [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)].</span></span> <span data-ttu-id="73828-110">如需啟用 SMTP 記錄功能的詳細資訊，請參閱 Windows Server 文件。</span><span class="sxs-lookup"><span data-stu-id="73828-110">For information about enabling logging for SMTP, see the Windows Server documentation.</span></span>  

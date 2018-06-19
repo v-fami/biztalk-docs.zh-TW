@@ -1,14 +1,14 @@
 ---
-title: "無效的位址 (也就是絕對 uri) |Microsoft 文件"
-ms.custom: 
+title: 無效的位址 (也就是絕對 uri) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5db292ad-9105-492d-a6c5-a7108159901a
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256958"
 ---
 # <a name="invalid-address-absolute-uri"></a><span data-ttu-id="a5960-102">無效的位址 (也就是絕對 uri)</span><span class="sxs-lookup"><span data-stu-id="a5960-102">Invalid address (absolute uri)</span></span>
 ## <a name="details"></a><span data-ttu-id="a5960-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="a5960-103">Details</span></span>  
@@ -53,4 +54,4 @@ ms.lasthandoff: 09/20/2017
   
 8.  <span data-ttu-id="a5960-128">在**WCF [***傳輸類型***] 傳輸屬性**對話方塊中，按一下 [**一般**] 索引標籤。</span><span class="sxs-lookup"><span data-stu-id="a5960-128">In the **WCF [***transport type***] Transport Properties** dialog box, click the **General** tab.</span></span>  
   
-9. <span data-ttu-id="a5960-129">在**位址 (URI)**文字方塊。</span><span class="sxs-lookup"><span data-stu-id="a5960-129">In the **Address (URI)** text box.</span></span> <span data-ttu-id="a5960-130">變更的位址。</span><span class="sxs-lookup"><span data-stu-id="a5960-130">change the address.</span></span> <span data-ttu-id="a5960-131">格式正確的絕對位址的範例是 http://localhost/path/service.svc</span><span class="sxs-lookup"><span data-stu-id="a5960-131">An example of a well-formed absolute address is http://localhost/path/service.svc</span></span>
+9. <span data-ttu-id="a5960-129">在**位址 (URI)** 文字方塊。</span><span class="sxs-lookup"><span data-stu-id="a5960-129">In the **Address (URI)** text box.</span></span> <span data-ttu-id="a5960-130">變更的位址。</span><span class="sxs-lookup"><span data-stu-id="a5960-130">change the address.</span></span> <span data-ttu-id="a5960-131">格式正確的絕對位址的範例是 http://localhost/path/service.svc</span><span class="sxs-lookup"><span data-stu-id="a5960-131">An example of a well-formed absolute address is http://localhost/path/service.svc</span></span>

@@ -1,14 +1,14 @@
 ---
-title: "交換包含格式不正確的 ISA 或無法使用服務結構描述 |Microsoft 文件"
-ms.custom: 
+title: 交換包含格式不正確的 ISA 或無法使用服務結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 78d285f6-26fb-4a3b-a959-a17623321b20
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241654"
 ---
 # <a name="the-interchange-contained-a-malformed-isa-or-the-service-schema-was-not-available"></a><span data-ttu-id="63df2-102">交換包含格式不正確的 ISA 或服務結構描述無法使用</span><span class="sxs-lookup"><span data-stu-id="63df2-102">The interchange contained a malformed ISA or the Service schema was not available</span></span>
 ## <a name="details"></a><span data-ttu-id="63df2-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="63df2-103">Details</span></span>  

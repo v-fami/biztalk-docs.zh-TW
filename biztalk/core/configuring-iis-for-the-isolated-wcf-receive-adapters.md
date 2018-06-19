@@ -1,18 +1,18 @@
 ---
-title: "設定 IIS 的外掛式 WCF 接收配接器 |Microsoft 文件"
-ms.custom: 
+title: 設定 IIS 的外掛式 WCF 接收配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive adapters, WCF services
 - WCF services, receive adapters
 - IIS, configuring [WCF receive adapters]
 ms.assetid: 1c6f1561-a7ba-4eb0-8878-bf213ebcd6a6
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233366"
 ---
 # <a name="configuring-iis-for-the-isolated-wcf-receive-adapters"></a><span data-ttu-id="fc5d8-102">針對外掛式 WCF 接收配接器設定 IIS</span><span class="sxs-lookup"><span data-stu-id="fc5d8-102">Configuring IIS for the Isolated WCF Receive Adapters</span></span>
 <span data-ttu-id="fc5d8-103">若要使用 BizTalk WCF 服務發佈精靈來發佈 WCF 服務，您必須設定 Internet Information Services (IIS)、BizTalk 外掛式主控件和 Windows 使用者群組帳戶。</span><span class="sxs-lookup"><span data-stu-id="fc5d8-103">To publish WCF services by using the BizTalk WCF Service Publishing Wizard, you must configure Internet Information Services (IIS), BizTalk isolated hosts, and Windows user group accounts.</span></span> <span data-ttu-id="fc5d8-104">本節討論的問題與設定 IIS 以外掛式 WCF 接收配接器 (例如 WCF-BasicHttp 接收配接器、WCF-WSHttp 接收配接器和 WCF-CustomIsolated 配接器) 發佈 WCF 服務有關。</span><span class="sxs-lookup"><span data-stu-id="fc5d8-104">This section discusses issues related to configuring IIS for publishing WCF services with isolated WCF receive adapters such as the WCF-BasicHttp receive adapter, WCF-WSHttp receive adapter, and WCF-CustomIsolated adapter.</span></span> <span data-ttu-id="fc5d8-105">一般 WCF 服務裝載在 IIS 的詳細資訊，請參閱 < 裝載於 IIS >，網址[http://go.microsoft.com/fwlink/?LinkId=75700](http://go.microsoft.com/fwlink/?LinkId=75700)。</span><span class="sxs-lookup"><span data-stu-id="fc5d8-105">For general information about hosting WCF services in IIS, see "Hosting in IIS" at [http://go.microsoft.com/fwlink/?LinkId=75700](http://go.microsoft.com/fwlink/?LinkId=75700).</span></span>  

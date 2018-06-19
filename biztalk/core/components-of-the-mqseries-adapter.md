@@ -1,11 +1,11 @@
 ---
-title: "MQSeries 配接器的元件 |Microsoft 文件"
-ms.custom: 
+title: MQSeries 配接器的元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - MQSeries adapters, BizTalk component
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - BizTalk components
 - MQSeries adapters, MQSeries component
 ms.assetid: 923974cb-371d-47dc-99a7-2f7b93f60ada
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232510"
 ---
 # <a name="components-of-the-mqseries-adapter"></a><span data-ttu-id="a6c21-102">MQSeries 配接器的元件</span><span class="sxs-lookup"><span data-stu-id="a6c21-102">Components of the MQSeries Adapter</span></span>
 <span data-ttu-id="a6c21-103">MQSeries 配接器會使用兩個元件，協助 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 與 MQSeries Server for Windows 之間的文件轉換。</span><span class="sxs-lookup"><span data-stu-id="a6c21-103">The MQSeries adapter uses two components to facilitate document transfer between [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and MQSeries Server for Windows.</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246334"
 ---
 # <a name="ftp-adapter"></a><span data-ttu-id="e2459-102">FTP 配接器</span><span class="sxs-lookup"><span data-stu-id="e2459-102">FTP Adapter</span></span>
 <span data-ttu-id="e2459-103">FTP 配接器可在 FTP 伺服器與 Microsoft BizTalk Server 之間交換資料，並能整合各種平台上商業實務應用程式中儲存的重要資料。</span><span class="sxs-lookup"><span data-stu-id="e2459-103">The FTP adapter exchanges data between an FTP server and Microsoft BizTalk Server, and allows for the integration of vital data stored on a variety of platforms with line-of-business applications.</span></span> <span data-ttu-id="e2459-104">配接器可以連接到 FTP 伺服器透過 SOCKS4 或 SOCKS5 proxy 伺服器。</span><span class="sxs-lookup"><span data-stu-id="e2459-104">The adapter can connect to the FTP server via SOCKS4 or SOCKS5 proxy server.</span></span>  

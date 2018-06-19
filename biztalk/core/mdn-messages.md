@@ -1,14 +1,14 @@
 ---
-title: "MDN 訊息 |Microsoft 文件"
-ms.custom: 
+title: MDN 訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 16ac6253-0be5-4636-b102-bf5af8956261
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263726"
 ---
 # <a name="mdn-messages"></a><span data-ttu-id="e6c56-102">MDN 訊息</span><span class="sxs-lookup"><span data-stu-id="e6c56-102">MDN Messages</span></span>
 <span data-ttu-id="e6c56-103">「訊息處理通知」(MDN) 是為了回應 AS2 訊息而傳送的通知。</span><span class="sxs-lookup"><span data-stu-id="e6c56-103">The Message Disposition Notification (MDN) is the acknowledgment sent in response to an AS2 message.</span></span> <span data-ttu-id="e6c56-104">如果已啟用 MDN，則必須等到接收及驗證 MDN 之後，AS2 傳輸才算完成。</span><span class="sxs-lookup"><span data-stu-id="e6c56-104">If an MDN is enabled, the AS2 transmission is not complete until the MDN has been received and verified.</span></span> [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="e6c56-105">將一律嘗試傳回 MDN 以指出訊息處理的狀態，即使處理 AS2 訊息時發生錯誤。</span><span class="sxs-lookup"><span data-stu-id="e6c56-105"> will always attempt to return an MDN to indicate the status of message processing, even if an error occurred in processing the AS2 message.</span></span>  

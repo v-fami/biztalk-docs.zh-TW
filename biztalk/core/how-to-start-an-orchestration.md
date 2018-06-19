@@ -1,18 +1,18 @@
 ---
-title: "如何啟動協調流程 |Microsoft 文件"
-ms.custom: 
+title: 如何啟動協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [orchestrations], starting
 - starting, orchestrations
 - orchestrations, starting
 ms.assetid: 83411279-ee6f-4d68-aa3b-b5cd5e106088
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255422"
 ---
 # <a name="how-to-start-an-orchestration"></a><span data-ttu-id="b02d3-102">如何啟動協調流程</span><span class="sxs-lookup"><span data-stu-id="b02d3-102">How to Start an Orchestration</span></span>
 <span data-ttu-id="b02d3-103">本主題描述如何使用 BizTalk Server 管理主控台來啟動協調流程。</span><span class="sxs-lookup"><span data-stu-id="b02d3-103">This topic describes how to use the BizTalk Server Administration console to start an orchestration.</span></span> <span data-ttu-id="b02d3-104">當您啟動協調流程時，會開始處理內送訊息。</span><span class="sxs-lookup"><span data-stu-id="b02d3-104">When you start an orchestration, it begins processing incoming messages.</span></span>  

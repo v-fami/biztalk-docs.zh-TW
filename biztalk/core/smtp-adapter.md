@@ -1,11 +1,11 @@
 ---
-title: "SMTP 配接器 |Microsoft 文件"
-ms.custom: 
+title: SMTP 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SMTP adapters, about SMTP adapters
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - SMTP adapters
 - SMTP adapters, send adapters
 ms.assetid: b712f76d-3ce4-4780-9627-951e5951bd8a
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277598"
 ---
 # <a name="smtp-adapter"></a><span data-ttu-id="14b67-102">SMTP 配接器</span><span class="sxs-lookup"><span data-stu-id="14b67-102">SMTP Adapter</span></span>
 <span data-ttu-id="14b67-103">您可以使用「簡易郵件傳送通訊協定」(SMTP) 配接器在執行 Microsoft BizTalk Server 的伺服器和其他應用程式之間，利用 SMTP 通訊協定的方式來交換資訊。</span><span class="sxs-lookup"><span data-stu-id="14b67-103">You use the Simple Mail Transfer Protocol (SMTP) adapter to exchange information between a server running Microsoft BizTalk Server and other applications by means of the SMTP protocol.</span></span> <span data-ttu-id="14b67-104">BizTalk Server 可建立電子郵件訊息並將它傳送到指定的電子郵件地址，將訊息傳送到其他應用程式。</span><span class="sxs-lookup"><span data-stu-id="14b67-104">BizTalk Server can send messages to other applications by creating an e-mail message and delivering it to a specified e-mail address.</span></span> <span data-ttu-id="14b67-105">SMTP 傳送配接器會在內部建立一個以 SMTP 為基礎的電子郵件訊息，並將訊息傳送到目標電子郵件地址。</span><span class="sxs-lookup"><span data-stu-id="14b67-105">Internally, the SMTP send adapter creates an SMTP-based e-mail message and sends it to a target e-mail address.</span></span> <span data-ttu-id="14b67-106">目標電子郵件地址是 SMTP 配接器的一個屬性。</span><span class="sxs-lookup"><span data-stu-id="14b67-106">The target e-mail address is a property of the SMTP adapter.</span></span> <span data-ttu-id="14b67-107">當您設定 SMTP 傳送埠時，「BizTalk 總管」會公開這個屬性。</span><span class="sxs-lookup"><span data-stu-id="14b67-107">BizTalk Explorer exposes this property when you configure the SMTP send port.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "支援的 Oracle 使用者定義 Types2 |Microsoft 文件"
-ms.custom: 
+title: 支援的 Oracle 使用者定義 Types2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3d4b9980-fa5b-4340-a62f-e4a4f98603dc
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006679"
 ---
 # <a name="support-for-oracle-user-defined-types"></a><span data-ttu-id="410ee-102">支援的 Oracle 使用者定義型別</span><span class="sxs-lookup"><span data-stu-id="410ee-102">Support for Oracle User-Defined Types</span></span>
 <span data-ttu-id="410ee-103">[!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]支援 Oracle E-business Suite 和基礎資料庫中執行作業的成品包含 Oracle User-Defined 型別 (Udt)。</span><span class="sxs-lookup"><span data-stu-id="410ee-103">The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] supports performing operations on artifacts in Oracle E-Business Suite and the underlying database that contain Oracle User-Defined Types (UDTs).</span></span> <span data-ttu-id="410ee-104">Udt 中可以存在的下列成品：</span><span class="sxs-lookup"><span data-stu-id="410ee-104">The UDTs can be present in the following artifacts:</span></span>  

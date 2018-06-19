@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240646"
 ---
 # <a name="error---schema-file-name-not-valid"></a><span data-ttu-id="7855a-102">錯誤-無效的結構描述檔案名稱</span><span class="sxs-lookup"><span data-stu-id="7855a-102">Error - Schema File Name Not Valid</span></span>
 <span data-ttu-id="7855a-103">**說明**</span><span class="sxs-lookup"><span data-stu-id="7855a-103">**Explanation**</span></span>  

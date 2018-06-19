@@ -1,11 +1,11 @@
 ---
-title: "建構使用者程式碼中的訊息 |Microsoft 文件"
-ms.custom: 
+title: 建構使用者程式碼中的訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, XSD schemas
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Message Assignment shape [Orchestration Designer], code sample
 - messages, .NET classes
 ms.assetid: b40f6488-3277-455a-945b-afdf1cf6fa2f
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22237798"
 ---
 # <a name="constructing-messages-in-user-code"></a><span data-ttu-id="eab2a-102">使用者程式碼中建構的訊息</span><span class="sxs-lookup"><span data-stu-id="eab2a-102">Constructing Messages in User Code</span></span>
 <span data-ttu-id="eab2a-103">您可以在設計階段將 BizTalk 訊息表示為 XSD 結構描述、.NET 類別或 XLANGMessage。</span><span class="sxs-lookup"><span data-stu-id="eab2a-103">You can represent BizTalk messages at design time as XSD schemas, .NET classes or XLANGMessage.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "傳送配接器的交換模式 |Microsoft 文件"
-ms.custom: 
+title: 傳送配接器的交換模式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5ad65fb5-640d-4bd2-aabe-946210f58a22
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248350"
 ---
 # <a name="exchange-patterns-for-send-adapters"></a><span data-ttu-id="86374-102">傳送配接器的交換模式</span><span class="sxs-lookup"><span data-stu-id="86374-102">Exchange Patterns for Send Adapters</span></span>
 <span data-ttu-id="86374-103">BizTalk 傳訊引擎是透過網路傳輸，將訊息傳遞給傳送配接器。</span><span class="sxs-lookup"><span data-stu-id="86374-103">Send adapters are delivered messages from the BizTalk Messaging Engine to be transmitted over the wire.</span></span> <span data-ttu-id="86374-104">這些訊息可能採用單向或雙向的訊息交換模式來傳送。</span><span class="sxs-lookup"><span data-stu-id="86374-104">These messages may be sent by using a one-way or two-way message exchange pattern.</span></span> <span data-ttu-id="86374-105">處理這類雙向訊息交換模式的配接器稱為「請求-回應」配接器。</span><span class="sxs-lookup"><span data-stu-id="86374-105">An adapter that handles this two-way message exchange pattern is called a Solicit-Response adapter.</span></span>  
@@ -32,9 +33,9 @@ ms.lasthandoff: 09/20/2017
   
  ![](../core/media/io-cpu-bound-threadpools.gif "Io_cpu_bound_threadpools")  
   
- <span data-ttu-id="86374-122">**效能提示：**為了達到最佳效能，傳送配接器應封鎖可識別批次。</span><span class="sxs-lookup"><span data-stu-id="86374-122">**Performance Tip:** For the best performance, send adapters should be nonblocking and batch aware.</span></span> <span data-ttu-id="86374-123">BizTalk 傳送配接器若從不能識別批次的封鎖式變更為可識別批次的非封鎖式，效能將顯著提升三倍。</span><span class="sxs-lookup"><span data-stu-id="86374-123">When the BizTalk File adapter was changed from blocking and non-batch aware to nonblocking and batch aware, a threefold performance gain was realized.</span></span>  
+ <span data-ttu-id="86374-122">**效能提示：** 為了達到最佳效能，傳送配接器應封鎖可識別批次。</span><span class="sxs-lookup"><span data-stu-id="86374-122">**Performance Tip:** For the best performance, send adapters should be nonblocking and batch aware.</span></span> <span data-ttu-id="86374-123">BizTalk 傳送配接器若從不能識別批次的封鎖式變更為可識別批次的非封鎖式，效能將顯著提升三倍。</span><span class="sxs-lookup"><span data-stu-id="86374-123">When the BizTalk File adapter was changed from blocking and non-batch aware to nonblocking and batch aware, a threefold performance gain was realized.</span></span>  
   
- <span data-ttu-id="86374-124">**疑難排解秘訣：**封鎖傳輸可能會導致整個主控件執行個體的效能降低。</span><span class="sxs-lookup"><span data-stu-id="86374-124">**Troubleshooting Tip:** Blocking transmits can cause a performance degradation of an entire host instance.</span></span> <span data-ttu-id="86374-125">如果配接器過度封鎖了**TransmitMessage**它將使得引擎執行緒無法傳遞訊息給其他配接器。</span><span class="sxs-lookup"><span data-stu-id="86374-125">If the adapter does excessive blocking in **TransmitMessage** it will prevent engine threads from delivering messages to other adapters.</span></span>  
+ <span data-ttu-id="86374-124">**疑難排解秘訣：** 封鎖傳輸可能會導致整個主控件執行個體的效能降低。</span><span class="sxs-lookup"><span data-stu-id="86374-124">**Troubleshooting Tip:** Blocking transmits can cause a performance degradation of an entire host instance.</span></span> <span data-ttu-id="86374-125">如果配接器過度封鎖了**TransmitMessage**它將使得引擎執行緒無法傳遞訊息給其他配接器。</span><span class="sxs-lookup"><span data-stu-id="86374-125">If the adapter does excessive blocking in **TransmitMessage** it will prevent engine threads from delivering messages to other adapters.</span></span>  
   
 ## <a name="non-batched-sends"></a><span data-ttu-id="86374-126">非批次傳送</span><span class="sxs-lookup"><span data-stu-id="86374-126">Non-Batched Sends</span></span>  
  <span data-ttu-id="86374-127">不是批次的配接器應該實作**IBTTransmitter**中所詳述[非同步傳送配接器的介面](../core/interfaces-for-an-asynchronous-send-adapter.md)。</span><span class="sxs-lookup"><span data-stu-id="86374-127">Adapters that are not batch aware should implement **IBTTransmitter** as detailed in [Interfaces for an Asynchronous Send Adapter](../core/interfaces-for-an-asynchronous-send-adapter.md).</span></span> <span data-ttu-id="86374-128">針對每個訊息，配接器需要傳輸，傳訊引擎會呼叫**IBTTransmitter.TransmitMessage**。</span><span class="sxs-lookup"><span data-stu-id="86374-128">For each message that the adapter needs to transmit the Messaging Engine calls **IBTTransmitter.TransmitMessage**.</span></span> <span data-ttu-id="86374-129">底下的物件互動示意圖詳盡說明慣常的訊息傳輸方式，其中包含下列步驟：</span><span class="sxs-lookup"><span data-stu-id="86374-129">The object interaction diagram below details the typical approach for transmitting messages, which consists of the following steps:</span></span>  

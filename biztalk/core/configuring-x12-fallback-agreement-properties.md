@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233214"
 ---
 # <a name="configuring-x12-fallback-agreement-properties"></a><span data-ttu-id="cc433-102">設定 X12 後援協議屬性</span><span class="sxs-lookup"><span data-stu-id="cc433-102">Configuring X12 Fallback Agreement Properties</span></span>
 <span data-ttu-id="cc433-103">只要交換的是 X12 編碼交換 (包括 HIPAA)，同時 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 無法判斷負責 (輸入或輸出) 交換之協議的情況下，就可適用本節所說明的屬性。</span><span class="sxs-lookup"><span data-stu-id="cc433-103">The properties described in this section apply whenever X12-encoded interchanges (including HIPAA) are exchanged and [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] cannot determine the agreement that the interchanges (inbound or outbound) resolve to.</span></span> <span data-ttu-id="cc433-104">本節也說明了 X12 和 EDIFACT 編碼訊息都通用的一般後援設定。</span><span class="sxs-lookup"><span data-stu-id="cc433-104">This section also describes general fallback settings common to both X12 and EDIFACT encoded messages.</span></span>  

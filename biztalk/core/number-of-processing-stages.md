@@ -1,17 +1,17 @@
 ---
-title: "處理階段數目 |Microsoft 文件"
-ms.custom: 
+title: 處理階段數目 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - processing, stages
 - process management solution tutorial, processing stages
 ms.assetid: 74bd9f8c-99b4-4931-a096-6c54221ab2e5
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263110"
 ---
 # <a name="number-of-processing-stages"></a><span data-ttu-id="c66dc-102">處理階段數目</span><span class="sxs-lookup"><span data-stu-id="c66dc-102">Number of Processing Stages</span></span>
 <span data-ttu-id="c66dc-103">解決方案將訂單程序分隔成階段，如此即可不中斷長時間執行的訂單而修改程序 (透過取代階段)。</span><span class="sxs-lookup"><span data-stu-id="c66dc-103">The solution separates the order process into stages, so that it is possible to modify the process (by replacing stages) without disrupting long-running orders.</span></span> <span data-ttu-id="c66dc-104">如需如何處理程序分成兩階段的詳細資訊，請參閱 < 分割商務程序 」 中的[商務程序管理解決方案中的部分設計原則](../core/some-design-principles-in-the-business-process-management-solution.md)。</span><span class="sxs-lookup"><span data-stu-id="c66dc-104">For more information about how the process was divided into stages, see "Dividing Business Processes" in [Some Design Principles in the Business Process Management Solution](../core/some-design-principles-in-the-business-process-management-solution.md).</span></span>  

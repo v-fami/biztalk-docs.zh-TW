@@ -1,17 +1,17 @@
 ---
-title: "建立連結 |Microsoft 文件"
-ms.custom: 
+title: 建立連結 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - maps, links
 - BizTalk Mapper, links
 ms.assetid: e8596c50-62e9-40a7-ad61-29cbdb4f4fc9
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238566"
 ---
 # <a name="creating-links"></a><span data-ttu-id="53540-102">建立連結</span><span class="sxs-lookup"><span data-stu-id="53540-102">Creating Links</span></span>
 <span data-ttu-id="53540-103">BizTalk 對應工具可協助您自動化連結建立作業的部分項目。</span><span class="sxs-lookup"><span data-stu-id="53540-103">BizTalk Mapper helps you automate some elements involved in link creation.</span></span> <span data-ttu-id="53540-104">簡單連結建立作業與簡單資料型別相似。</span><span class="sxs-lookup"><span data-stu-id="53540-104">Simple link creation is similar to simple data types.</span></span> <span data-ttu-id="53540-105">更加複雜的連結建立作業形式則比較類似程式設計語言中的結構指派。</span><span class="sxs-lookup"><span data-stu-id="53540-105">There are more sophisticated forms of link creation that are more like structure assignment in a programming language.</span></span> <span data-ttu-id="53540-106">例如，指定如何從輸入執行個體訊息將資料的多個項目移至對應的輸出執行個體訊息的單一連結建立作業。</span><span class="sxs-lookup"><span data-stu-id="53540-106">An example is a single link creation that specifies how multiple items of data are to be moved from input instance messages to corresponding output instance messages.</span></span>  

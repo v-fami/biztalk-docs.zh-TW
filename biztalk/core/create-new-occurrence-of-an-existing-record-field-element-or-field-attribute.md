@@ -1,14 +1,14 @@
 ---
-title: "如何建立現有的記錄]、 [欄位項目] 或 [欄位屬性節點的新項目 |Microsoft 文件"
-ms.custom: 
+title: 如何建立現有的記錄]、 [欄位項目] 或 [欄位屬性節點的新項目 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 02380f68-056c-47c4-a0d6-61d599a4685d
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238174"
 ---
 # <a name="how-to-create-a-new-occurrence-of-an-existing-record-field-element-or-field-attribute-node"></a><span data-ttu-id="845c3-102">如何建立現有的記錄]、 [欄位項目] 或 [欄位屬性節點的新項目</span><span class="sxs-lookup"><span data-stu-id="845c3-102">How to Create a New Occurrence of an Existing Record, Field Element, or Field Attribute Node</span></span>
 <span data-ttu-id="845c3-103">您可以建立新的執行個體的現有**記錄**，**欄位項目**，或**欄位屬性**節點這類的任何執行個體的後續修改會反映在所有執行個體。</span><span class="sxs-lookup"><span data-stu-id="845c3-103">You can create new instances of an existing **Record**, **Field Element**, or **Field Attribute** node such that subsequent modifications to any instance are reflected in all instances.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "交易夥伴管理使用 BizTalk Server |Microsoft 文件"
-ms.custom: 
+title: 交易夥伴管理使用 BizTalk Server |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f31a5e49-ef19-41a3-9cf3-cf85d0685a59
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279118"
 ---
 # <a name="trading-partner-management-using-biztalk-server"></a><span data-ttu-id="df752-102">使用 BizTalk Server 管理交易夥伴</span><span class="sxs-lookup"><span data-stu-id="df752-102">Trading Partner Management Using BizTalk Server</span></span>
 ## <a name="introduction-to-tpm"></a><span data-ttu-id="df752-103">TPM 簡介</span><span class="sxs-lookup"><span data-stu-id="df752-103">Introduction to TPM</span></span>

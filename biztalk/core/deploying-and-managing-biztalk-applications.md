@@ -1,11 +1,11 @@
 ---
-title: "部署和管理 BizTalk 應用程式 |Microsoft 文件"
-ms.custom: 
+title: 部署和管理 BizTalk 應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - applications, managing
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - bts06.deployment.application
 - managing, applications
 ms.assetid: d933ad2b-702b-48df-8ef6-a5702d0521e2
-caps.latest.revision: "49"
+caps.latest.revision: 49
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239198"
 ---
 # <a name="deploying-and-managing-biztalk-applications"></a><span data-ttu-id="02327-102">部署和管理 BizTalk 應用程式</span><span class="sxs-lookup"><span data-stu-id="02327-102">Deploying and Managing BizTalk Applications</span></span>
 <span data-ttu-id="02327-103">本節提供有關管理 BizTalk 應用程式的資訊，包括如何部署、修改、更新及解除部署組件。</span><span class="sxs-lookup"><span data-stu-id="02327-103">This section provides information about managing BizTalk applications, including how to deploy, modify, update, and undeploy them.</span></span> <span data-ttu-id="02327-104">BizTalk 應用程式提供檢視和管理項目 (稱為「成品」) 的方式，這些成品組成 BizTalk 商務方案。</span><span class="sxs-lookup"><span data-stu-id="02327-104">BizTalk applications provide a way to view and manage the items, called "artifacts," that make up a BizTalk business solution.</span></span> <span data-ttu-id="02327-105">成品的範例包括 BizTalk 組件、.NET 組件、結構描述、對應、繫結和憑證等。</span><span class="sxs-lookup"><span data-stu-id="02327-105">Examples of artifacts are BizTalk assemblies, .NET assemblies, schemas, maps, bindings, and certificates.</span></span>  

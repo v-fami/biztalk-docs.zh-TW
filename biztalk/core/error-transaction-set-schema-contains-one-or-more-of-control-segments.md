@@ -1,14 +1,14 @@
 ---
-title: "交易集結構描述包含一或多個控制區段 ISA，IEA、 GS、 GE |Microsoft 文件"
-ms.custom: 
+title: 交易集結構描述包含一或多個控制區段 ISA，IEA、 GS、 GE |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7589d8f0-c727-47df-afbc-77b0f190f3e2
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241822"
 ---
 # <a name="transaction-set-schema-contains-one-or-more-of-control-segments-isa-iea-gs-ge"></a><span data-ttu-id="9b246-102">交易集結構描述包含一或多個控制區段 ISA IEA、 GS、 GE</span><span class="sxs-lookup"><span data-stu-id="9b246-102">Transaction set schema contains one or more of control segments ISA, IEA, GS, GE</span></span>
 ## <a name="details"></a><span data-ttu-id="9b246-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="9b246-103">Details</span></span>  

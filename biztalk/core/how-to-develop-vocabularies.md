@@ -1,11 +1,11 @@
 ---
-title: "如何開發詞彙 |Microsoft 文件"
-ms.custom: 
+title: 如何開發詞彙 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, vocabularies
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - business rules, vocabularies
 - vocabularies, creating
 ms.assetid: 5c16eb98-2257-44f2-8a29-899e02f7e556
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249054"
 ---
 # <a name="how-to-develop-vocabularies"></a><span data-ttu-id="34a68-102">如何開發詞彙</span><span class="sxs-lookup"><span data-stu-id="34a68-102">How to Develop Vocabularies</span></span>
 <span data-ttu-id="34a68-103">規則條件和動作是以可能有冗長且難於閱讀的繫結資訊之來源為基礎，這些資訊幾乎或根本無法告訴使用者它們指的是什麼。</span><span class="sxs-lookup"><span data-stu-id="34a68-103">Rule conditions and actions are based on sources that may have detailed, difficult-to-read binding information that tells the user little or nothing about what they refer to.</span></span> <span data-ttu-id="34a68-104">「商業規則架構」可讓您建立詞彙以簡化規則的開發，即透過提供使用者直覺和網域特定的詞彙，讓使用者可以聯想到規則條件和動作。</span><span class="sxs-lookup"><span data-stu-id="34a68-104">The Business Rules Framework enables you to create vocabularies to simplify the development of rules by offering users intuitive, domain-specific terminology that users can associate with rule conditions and actions.</span></span>  

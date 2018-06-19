@@ -1,11 +1,11 @@
 ---
-title: "自訂合作對象解析 （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: 自訂合作對象解析 （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, parties
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - parties, pipeline components [custom]
 - parties, custom
 ms.assetid: 1f88450f-5fe9-486d-bfb8-fd11181c78b4
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238694"
 ---
 # <a name="custom-party-resolution-biztalk-server-sample"></a><span data-ttu-id="5cf4b-102">自訂合作對象解析 （BizTalk Server 範例）</span><span class="sxs-lookup"><span data-stu-id="5cf4b-102">Custom Party Resolution (BizTalk Server Sample)</span></span>
 <span data-ttu-id="5cf4b-103">此「自訂合作對象解析」範例示範如何解析自訂合作對象。</span><span class="sxs-lookup"><span data-stu-id="5cf4b-103">The Custom Party Resolution sample demonstrates how to write a custom pipeline component to resolve a custom party.</span></span>  
@@ -38,7 +39,7 @@ ms.lasthandoff: 09/20/2017
 3.  <span data-ttu-id="5cf4b-108">將 XML 訊息寫入資料夾中。</span><span class="sxs-lookup"><span data-stu-id="5cf4b-108">The XML message is written to a folder.</span></span>  
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="5cf4b-109">可在何處找到此範例</span><span class="sxs-lookup"><span data-stu-id="5cf4b-109">Where to Find This Sample</span></span>  
- <span data-ttu-id="5cf4b-110">*\<範例路徑 >*\Pipelines\CustomPartyResolution\\</span><span class="sxs-lookup"><span data-stu-id="5cf4b-110">*\<Samples Path>*\Pipelines\CustomPartyResolution\\</span></span>  
+ <span data-ttu-id="5cf4b-110">*\<範例路徑 >* \Pipelines\CustomPartyResolution\\</span><span class="sxs-lookup"><span data-stu-id="5cf4b-110">*\<Samples Path>* \Pipelines\CustomPartyResolution\\</span></span>  
   
  <span data-ttu-id="5cf4b-111">下表顯示此範例中的檔案，並描述其用途。</span><span class="sxs-lookup"><span data-stu-id="5cf4b-111">The following table shows the files in this sample and describes their purpose.</span></span>  
   
@@ -66,7 +67,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  <span data-ttu-id="5cf4b-146">在命令視窗中，將目錄變更 (**cd**) 至下列資料夾：</span><span class="sxs-lookup"><span data-stu-id="5cf4b-146">In a command window, change directory (**cd**) to the following folder:</span></span>  
   
-     <span data-ttu-id="5cf4b-147">*\<範例路徑 >*\Pipelines\CustomPartyResolution\\</span><span class="sxs-lookup"><span data-stu-id="5cf4b-147">*\<Samples Path>*\Pipelines\CustomPartyResolution\\</span></span>  
+     <span data-ttu-id="5cf4b-147">*\<範例路徑 >* \Pipelines\CustomPartyResolution\\</span><span class="sxs-lookup"><span data-stu-id="5cf4b-147">*\<Samples Path>* \Pipelines\CustomPartyResolution\\</span></span>  
   
 2.  <span data-ttu-id="5cf4b-148">執行 Setup.bat 檔案，這會執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="5cf4b-148">Run the file Setup.bat, which will perform the following actions:</span></span>  
   
@@ -76,7 +77,7 @@ ms.lasthandoff: 09/20/2017
   
     -   <span data-ttu-id="5cf4b-151">建置及部署「自訂合作對象解析」管線元件。</span><span class="sxs-lookup"><span data-stu-id="5cf4b-151">Builds and deploys the Custom Party Resolution pipeline component.</span></span>  
   
-    -   <span data-ttu-id="5cf4b-152">若要建置的管線元件會將複製*\<安裝路徑 >*\Pipeline Components 目錄。</span><span class="sxs-lookup"><span data-stu-id="5cf4b-152">Copies the built pipeline component to the *\<Installation Path>*\Pipeline Components directory.</span></span>  
+    -   <span data-ttu-id="5cf4b-152">若要建置的管線元件會將複製*\<安裝路徑 >* \Pipeline Components 目錄。</span><span class="sxs-lookup"><span data-stu-id="5cf4b-152">Copies the built pipeline component to the *\<Installation Path>* \Pipeline Components directory.</span></span>  
   
     -   <span data-ttu-id="5cf4b-153">建立傳送埠和接收埠。</span><span class="sxs-lookup"><span data-stu-id="5cf4b-153">Creates the send and receive ports.</span></span>  
   

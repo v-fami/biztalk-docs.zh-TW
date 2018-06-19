@@ -1,18 +1,18 @@
 ---
-title: "開發探查管線元件 |Microsoft 文件"
-ms.custom: 
+title: 開發探查管線元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components [custom], probing
 - IProbeMessage interface
 - pipeline interfaces, IProbeMessage
 ms.assetid: c3da467d-5270-4c7f-9c38-ce9989bf1b63
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240678"
 ---
 # <a name="developing-a-probing-pipeline-component"></a><span data-ttu-id="d48fd-102">開發探查管線元件</span><span class="sxs-lookup"><span data-stu-id="d48fd-102">Developing a Probing Pipeline Component</span></span>
 <span data-ttu-id="d48fd-103">可實作任何管線元件 （一般、 組合或解譯）`IProbeMessage`介面必須支援訊息探查功能。</span><span class="sxs-lookup"><span data-stu-id="d48fd-103">Any pipeline component (general, assembling, or disassembling) can implement the `IProbeMessage` interface if it must support message probing functionality.</span></span> <span data-ttu-id="d48fd-104">探查元件會用於具有管線階段**FirstMatch**執行模式。</span><span class="sxs-lookup"><span data-stu-id="d48fd-104">A probing component is used in the pipeline stages that have **FirstMatch** execution mode.</span></span> <span data-ttu-id="d48fd-105">在這種階段中，BizTalk 傳訊引擎會提供訊息的開頭部分給元件，以確定該元件是否可識別訊息的格式。</span><span class="sxs-lookup"><span data-stu-id="d48fd-105">In such stages, the BizTalk Messaging Engine gives the beginning part of the message to the component to determine if the component recognizes the format of the message.</span></span> <span data-ttu-id="d48fd-106">若元件可識別格式，則會傳送完整的訊息給此元件進行處理。</span><span class="sxs-lookup"><span data-stu-id="d48fd-106">If the component recognizes the format, the entire message is given to the component for processing.</span></span>  

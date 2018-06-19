@@ -1,18 +1,18 @@
 ---
-title: "如何設定 MSMQ 傳送處理常式 |Microsoft 文件"
-ms.custom: 
+title: 如何設定 MSMQ 傳送處理常式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - MSMQ adapters, send handlers
 - configuring [MSMQ adapters], send handlers
 - send handlers, MSMQ adapters
 ms.assetid: 21917596-f27a-473b-859e-186ab5f4cd94
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248262"
 ---
 # <a name="how-to-configure-an-msmq-send-handler"></a><span data-ttu-id="6e2e6-102">如何設定 MSMQ 傳送處理常式</span><span class="sxs-lookup"><span data-stu-id="6e2e6-102">How to Configure an MSMQ Send Handler</span></span>
 <span data-ttu-id="6e2e6-103">您可以使用下列程序來變更 MSMQ 傳送處理常式的全域變數。</span><span class="sxs-lookup"><span data-stu-id="6e2e6-103">Use the following procedure to change the global variables for an MSMQ send handler.</span></span>  

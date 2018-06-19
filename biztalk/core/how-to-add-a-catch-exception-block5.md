@@ -1,17 +1,17 @@
 ---
-title: "如何新增 Catch 例外狀況 Block5 |Microsoft 文件"
-ms.custom: 
+title: 如何新增 Catch 例外狀況 Block5 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - exceptions, adding Catch Exception block
 - Catch Exception blocks, adding
 ms.assetid: 4875060c-976c-40e7-830a-ffd1a47ba68a
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246502"
 ---
 # <a name="how-to-add-a-catch-exception-block"></a><span data-ttu-id="eed9e-102">如何新增 Catch 例外狀況區塊</span><span class="sxs-lookup"><span data-stu-id="eed9e-102">How to Add a Catch Exception Block</span></span>
 <span data-ttu-id="eed9e-103">若要加入**Catch 例外狀況**封鎖**範圍**圖形，**交易類型**屬性**範圍**圖形必須設定為**無**或**長時間執行的**。</span><span class="sxs-lookup"><span data-stu-id="eed9e-103">To add a **Catch Exception** block to a **Scope** shape, the **Transaction Type** property of the **Scope** shape must be set to **None** or **Long Running**.</span></span>  

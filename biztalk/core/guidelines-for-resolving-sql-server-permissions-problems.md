@@ -1,14 +1,14 @@
 ---
-title: "解決 SQL Server 權限問題的指導方針 |Microsoft 文件"
-ms.custom: 
+title: 解決 SQL Server 權限問題的指導方針 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 60c24512-5f65-4363-b806-8dd52b22f179
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246902"
 ---
 # <a name="guidelines-for-resolving-sql-server-permissions-problems"></a><span data-ttu-id="25653-102">解決 SQL Server 權限問題的指導方針</span><span class="sxs-lookup"><span data-stu-id="25653-102">Guidelines for Resolving SQL Server Permissions Problems</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="25653-103"> 會密集使用 Microsoft [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] 資料庫進行執行階段作業，因此正確設定 [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] 權限非常重要。</span><span class="sxs-lookup"><span data-stu-id="25653-103"> makes extensive use of Microsoft [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] databases for run-time operations and as such, it is important that the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] permissions are set correctly.</span></span> <span data-ttu-id="25653-104">本主題包含一些一般指導方針，可用來排除大多數的 [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] 的權限問題，另外也包含疑難排解步驟，您可以遵循這些步驟，解決對 [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] 造成影響的 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 權限問題。</span><span class="sxs-lookup"><span data-stu-id="25653-104">This topic provides some general guidelines for minimizing [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] permissions problems and steps that you can follow to troubleshoot [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] permissions problems that affect [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  

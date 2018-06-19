@@ -1,11 +1,11 @@
 ---
-title: "如何建立接續 |Microsoft 文件"
-ms.custom: 
+title: 如何建立接續 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - activities, relating events
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - tracking profiles, continuations
 - tracking profiles, connecting activities
 ms.assetid: 31d6fc24-676e-418c-8e78-1a46b045905d
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248846"
 ---
 # <a name="how-to-create-a-continuation"></a><span data-ttu-id="5fb7c-102">如何建立接續</span><span class="sxs-lookup"><span data-stu-id="5fb7c-102">How to Create a Continuation</span></span>
 <span data-ttu-id="5fb7c-103">您可以建立接續，以指出在一或多個協調流程中，哪些商務事件是經由建構連接的活動而相互關聯。</span><span class="sxs-lookup"><span data-stu-id="5fb7c-103">You create continuations to indicate which business events in one or more orchestrations are related by constructing connected activities.</span></span>  
@@ -45,7 +46,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  <span data-ttu-id="5fb7c-113">開啟現有的追蹤設定檔或建立追蹤設定檔。</span><span class="sxs-lookup"><span data-stu-id="5fb7c-113">Open an existing tracking profile or create a tracking profile.</span></span> <span data-ttu-id="5fb7c-114">如需建立追蹤設定檔的資訊，請參閱[如何建立追蹤設定檔](../core/how-to-create-a-tracking-profile.md)。</span><span class="sxs-lookup"><span data-stu-id="5fb7c-114">For information about creating a tracking profile, see [How to Create a Tracking Profile](../core/how-to-create-a-tracking-profile.md).</span></span>  
   
-2.  <span data-ttu-id="5fb7c-115">識別*接續 token、*這是一段唯一資訊提供給這兩個活動。</span><span class="sxs-lookup"><span data-stu-id="5fb7c-115">Identify a *continuation token,* which is a piece of unique information that is available to both activities.</span></span> <span data-ttu-id="5fb7c-116">例如，如果**CreditHistory**活動所發出的訊息啟動**LoanProcess**活動內**EquityLoan**協調流程、 的 SSN 欄位訊息可用來當作接續 token，所以這兩個活動通用的。</span><span class="sxs-lookup"><span data-stu-id="5fb7c-116">For example, if a **CreditHistory** activity is activated by a message sent from a **LoanProcess** activity within an **EquityLoan**orchestration, the SSN field of the message can be used as a continuation token because it is common to both activities.</span></span>  
+2.  <span data-ttu-id="5fb7c-115">識別*接續 token、* 這是一段唯一資訊提供給這兩個活動。</span><span class="sxs-lookup"><span data-stu-id="5fb7c-115">Identify a *continuation token,* which is a piece of unique information that is available to both activities.</span></span> <span data-ttu-id="5fb7c-116">例如，如果**CreditHistory**活動所發出的訊息啟動**LoanProcess**活動內**EquityLoan**協調流程、 的 SSN 欄位訊息可用來當作接續 token，所以這兩個活動通用的。</span><span class="sxs-lookup"><span data-stu-id="5fb7c-116">For example, if a **CreditHistory** activity is activated by a message sent from a **LoanProcess** activity within an **EquityLoan**orchestration, the SSN field of the message can be used as a continuation token because it is common to both activities.</span></span>  
   
 3.  <span data-ttu-id="5fb7c-117">以滑鼠右鍵按一下活動，然後選取**新的接續**來建立接續 (CreditHistory)。</span><span class="sxs-lookup"><span data-stu-id="5fb7c-117">Right-click the activity and then select **New Continuation** to create a continuation (CreditHistory).</span></span> <span data-ttu-id="5fb7c-118">請為新建立的接續節點命名。</span><span class="sxs-lookup"><span data-stu-id="5fb7c-118">Name the continuation node you just created.</span></span>  
   

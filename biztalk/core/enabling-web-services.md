@@ -1,11 +1,11 @@
 ---
-title: "啟用 Web 服務 |Microsoft 文件"
-ms.custom: 
+title: 啟用 Web 服務 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Web services, publishing
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Web services, planning
 - Web services, enabling
 ms.assetid: 2a4681f6-9ded-423d-baa5-5831e6a85c61
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22242454"
 ---
 # <a name="enabling-web-services"></a><span data-ttu-id="88ac6-102">啟用 Web 服務</span><span class="sxs-lookup"><span data-stu-id="88ac6-102">Enabling Web Services</span></span>
 <span data-ttu-id="88ac6-103">若要發佈 Web 服務，您必須設定 Internet Information Services (IIS)、BizTalk 外掛式主控件，以及 Windows 使用者和群組帳戶。</span><span class="sxs-lookup"><span data-stu-id="88ac6-103">To publish Web services, you must configure Internet Information Services (IIS), BizTalk Isolated Hosts, and Windows user and group accounts.</span></span> <span data-ttu-id="88ac6-104">本節討論如何啟用 IIS 中的 Web 服務。</span><span class="sxs-lookup"><span data-stu-id="88ac6-104">This section discusses how to enable Web services in IIS.</span></span> <span data-ttu-id="88ac6-105">如需有關啟用 Web 服務的詳細資訊，請參閱 IIS 文件。</span><span class="sxs-lookup"><span data-stu-id="88ac6-105">For more information about enabling Web services, see the IIS documentation.</span></span>  

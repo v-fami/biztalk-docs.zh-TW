@@ -1,14 +1,14 @@
 ---
-title: "如何診斷 File 配接器問題 |Microsoft 文件"
-ms.custom: 
+title: 如何診斷 File 配接器問題 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f06089a5-4747-4879-a796-157088868dba
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249038"
 ---
 # <a name="how-to-diagnose-problems-with-the-file-adapter"></a><span data-ttu-id="fd82f-102">如何診斷 FILE 配接器問題</span><span class="sxs-lookup"><span data-stu-id="fd82f-102">How to Diagnose Problems with the File Adapter</span></span>
 <span data-ttu-id="fd82f-103">本節所包含的步驟可協助您診斷  FILE 配接器的問題。</span><span class="sxs-lookup"><span data-stu-id="fd82f-103">This section contains steps that can be followed to help diagnose problems with the File adapter.</span></span>  

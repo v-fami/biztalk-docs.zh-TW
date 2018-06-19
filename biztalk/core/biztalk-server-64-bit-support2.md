@@ -1,15 +1,15 @@
 ---
-title: "BizTalk Server 的 64 位元支援概觀 |Microsoft 文件"
-description: "在配接器、 處理、 BizTalk 管理、 BAM 工具、 組件、 協調流程和多個 BizTalk Server 中的 64 位元支援"
-ms.custom: 
+title: BizTalk Server 的 64 位元支援概觀 |Microsoft 文件
+description: 在配接器、 處理、 BizTalk 管理、 BAM 工具、 組件、 協調流程和多個 BizTalk Server 中的 64 位元支援
+ms.custom: ''
 ms.date: 09/27/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 52ae9037-a7af-48e4-b6a3-bff7600802de
-caps.latest.revision: "42"
+caps.latest.revision: 42
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010887"
 ---
 # <a name="biztalk-server-64-bit-support"></a><span data-ttu-id="bff54-103">BizTalk Server 64 位元的支援</span><span class="sxs-lookup"><span data-stu-id="bff54-103">BizTalk Server 64-Bit Support</span></span>
 <span data-ttu-id="bff54-104">本主題會回答關於 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 64 位元支援的常見問題。</span><span class="sxs-lookup"><span data-stu-id="bff54-104">This topic answers some frequently asked questions about 64-bit support for Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  

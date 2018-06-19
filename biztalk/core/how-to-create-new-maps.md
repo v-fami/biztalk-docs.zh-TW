@@ -1,14 +1,14 @@
 ---
-title: "如何建立新對應 |Microsoft 文件"
-ms.custom: 
+title: 如何建立新對應 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 43b36cd8-f28e-4349-87d5-c94b7d8761bf
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249870"
 ---
 # <a name="how-to-create-new-maps"></a><span data-ttu-id="47d7e-102">如何建立新的對應</span><span class="sxs-lookup"><span data-stu-id="47d7e-102">How to Create New Maps</span></span>
 

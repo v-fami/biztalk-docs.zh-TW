@@ -1,17 +1,17 @@
 ---
-title: "特定和一般對應 |Microsoft 文件"
-ms.custom: 
+title: 特定和一般對應 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - maps, specific
 - maps, generic
 ms.assetid: ee26dd13-affb-47c5-961a-f2377129de22
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22276302"
 ---
 # <a name="specific-and-generic-maps"></a><span data-ttu-id="a5a46-102">特定與一般對應</span><span class="sxs-lookup"><span data-stu-id="a5a46-102">Specific and Generic Maps</span></span>
 <span data-ttu-id="a5a46-103">當您建立將資料轉換的對應時，您可以建立*特定*或*泛型*對應。</span><span class="sxs-lookup"><span data-stu-id="a5a46-103">When you create a map that transforms data, you can create either a *specific* or a *generic* map.</span></span>  

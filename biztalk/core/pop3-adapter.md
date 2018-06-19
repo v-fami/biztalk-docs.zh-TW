@@ -1,11 +1,11 @@
 ---
-title: "POP3 配接器 |Microsoft 文件"
-ms.custom: 
+title: POP3 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - POP3 adapters, about POP3 adapters
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - POP3 adapters, authenticating
 - receive adapters, POP3 adapters
 ms.assetid: 008f7fa7-60c3-4ea3-b90d-821e4029a04c
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264550"
 ---
 # <a name="pop3-adapter"></a><span data-ttu-id="333de-102">POP3 配接器</span><span class="sxs-lookup"><span data-stu-id="333de-102">POP3 Adapter</span></span>
 <span data-ttu-id="333de-103">您使用「郵局通訊協定第三版」(POP3) 配接器，經由 POP3 通訊協定，將資料從裝載 POP3 信箱的伺服器擷取到執行 Microsoft BizTalk Server 的伺服器上。</span><span class="sxs-lookup"><span data-stu-id="333de-103">You use the Post Office Protocol 3 (POP3) adapter to retrieve data from a server that houses POP3 mailboxes into a server running Microsoft BizTalk Server by means of the POP3 protocol.</span></span>  

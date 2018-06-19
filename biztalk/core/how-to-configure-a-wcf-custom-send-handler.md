@@ -1,14 +1,14 @@
 ---
-title: "如何設定 Wcf-custom 傳送處理常式 |Microsoft 文件"
-ms.custom: 
+title: 如何設定 Wcf-custom 傳送處理常式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 00758b87-dffb-488b-9cf3-564d0ccd5938
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249334"
 ---
 # <a name="how-to-configure-a-wcf-custom-send-handler"></a><span data-ttu-id="cbe07-102">如何設定 WCF-Custom 傳送處理常式</span><span class="sxs-lookup"><span data-stu-id="cbe07-102">How to Configure a WCF-Custom Send Handler</span></span>
 <span data-ttu-id="cbe07-103">如果您希望 [!INCLUDE[wcfadapter_short](../includes/wcfadapter-short-md.md)] 向 machine.config 以外的位置查詢自訂行為延伸模組，您必須設定傳送處理常式屬性。</span><span class="sxs-lookup"><span data-stu-id="cbe07-103">You must configure the send handler properties if you want the [!INCLUDE[wcfadapter_short](../includes/wcfadapter-short-md.md)] to look up the custom behavior extensions from locations other than machine.config.</span></span>  

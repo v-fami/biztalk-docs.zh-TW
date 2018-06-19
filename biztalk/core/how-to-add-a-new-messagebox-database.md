@@ -1,18 +1,18 @@
 ---
-title: "如何新增新的 MessageBox 資料庫 |Microsoft 文件"
-ms.custom: 
+title: 如何新增新的 MessageBox 資料庫 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adding, MessageBox database
 - MessageBox database, adding
 - managing [MessageBox database], adding
 ms.assetid: 98d850dc-fe3e-43dd-8b5d-9b8c23c006ae
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247238"
 ---
 # <a name="how-to-add-a-new-messagebox-database"></a><span data-ttu-id="7ba24-102">如何加入新的 MessageBox 資料庫</span><span class="sxs-lookup"><span data-stu-id="7ba24-102">How to Add a New MessageBox Database</span></span>
 <span data-ttu-id="7ba24-103">您可以使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台，將新的 MessageBox 資料庫新增到 BizTalk Server 部署。</span><span class="sxs-lookup"><span data-stu-id="7ba24-103">You can use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console to add a new MessageBox database to your BizTalk Server deployment.</span></span> <span data-ttu-id="7ba24-104">MessageBox 資料庫是在執行協同處裡的伺服器之間進行負載平衡工作項目的基礎。</span><span class="sxs-lookup"><span data-stu-id="7ba24-104">MessageBox databases are the basis for load-balancing work items across servers that do cooperative processing.</span></span> <span data-ttu-id="7ba24-105">若要增加您的系統可以處理的訊息數目，您可能需要新增其他的 MessageBox 資料庫。</span><span class="sxs-lookup"><span data-stu-id="7ba24-105">To increase the number of messages that your system can process, you may need to add additional MessageBox databases.</span></span>  

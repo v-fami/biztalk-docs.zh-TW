@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255054"
 ---
 # <a name="how-to-save-a-pipeline"></a><span data-ttu-id="23d05-102">如何儲存管線</span><span class="sxs-lookup"><span data-stu-id="23d05-102">How to Save a Pipeline</span></span>
 <span data-ttu-id="23d05-103">將管線組態的管線存放區資訊儲存至 .btp 檔案中，其中指定：</span><span class="sxs-lookup"><span data-stu-id="23d05-103">Saving a pipeline stores information about the pipeline configuration to a .btp file, which specifies:</span></span>  

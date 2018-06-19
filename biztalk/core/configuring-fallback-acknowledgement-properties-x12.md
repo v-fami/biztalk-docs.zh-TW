@@ -1,14 +1,14 @@
 ---
-title: "設定後援通知屬性 (X12) |Microsoft 文件"
-ms.custom: 
+title: 設定後援通知屬性 (X12) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ce33f5dd-fbd5-448c-8ea3-05dd1467131a
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232830"
 ---
 # <a name="configuring-fallback-acknowledgement-properties-x12"></a><span data-ttu-id="39847-102">設定後援通知屬性 (X12)</span><span class="sxs-lookup"><span data-stu-id="39847-102">Configuring Fallback Acknowledgement Properties (X12)</span></span>
 <span data-ttu-id="39847-103">在後援協議中，您可以指定 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 在收到來自合作對象的 X12 編碼交換後，應如何產生通知，以及應對合作對象傳回哪種類型的通知。</span><span class="sxs-lookup"><span data-stu-id="39847-103">In the fallback agreement, you can specify how [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] generates acknowledgments in response to X12-encoded interchanges received from the party and what type of acknowledgment to return to a party.</span></span> <span data-ttu-id="39847-104">本節提供如何進行相同設定的指示。</span><span class="sxs-lookup"><span data-stu-id="39847-104">This section provides instructions on how to do the same.</span></span>  

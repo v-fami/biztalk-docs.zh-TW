@@ -1,14 +1,14 @@
 ---
-title: "無法讀取的分隔符號集從交換 (R2) |Microsoft 文件"
-ms.custom: 
+title: 無法讀取的分隔符號集從交換 (R2) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 17bdd32e-d43f-4f59-af27-5d3054fd5432
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239078"
 ---
 # <a name="delimiter-set-could-not-be-read-from-the-interchange-r2"></a><span data-ttu-id="aa36f-102">無法讀取的分隔符號集從交換 (R2)</span><span class="sxs-lookup"><span data-stu-id="aa36f-102">Delimiter set could not be read from the interchange (R2)</span></span>
 ## <a name="details"></a><span data-ttu-id="aa36f-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="aa36f-103">Details</span></span>  

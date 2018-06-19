@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240406"
 ---
 # <a name="error---failed-write-extension-xml-file"></a><span data-ttu-id="89e77-102">錯誤-無法寫入延伸模組 XML 檔案</span><span class="sxs-lookup"><span data-stu-id="89e77-102">Error - Failed Write Extension XML File</span></span>
 <span data-ttu-id="89e77-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="89e77-103">**Error Code**</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "主控件初始化的 SSO |Microsoft 文件"
-ms.custom: 
+title: 主控件初始化的 SSO |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - host initiated SSO
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - SSO, host initiated
 - managing [SSO], host intitiated
 ms.assetid: 492f730d-08ec-47d6-a88b-0d373bd8912b
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246358"
 ---
 # <a name="host-initiated-sso"></a><span data-ttu-id="625b1-102">主控件初始化的 SSO</span><span class="sxs-lookup"><span data-stu-id="625b1-102">Host Initiated SSO</span></span>
 <span data-ttu-id="625b1-103">主控件初始化的單一登入，可讓來自主控件系統的要求存取 Windows 系統上的資源。</span><span class="sxs-lookup"><span data-stu-id="625b1-103">Host initiated Single Sign-On enables a request from the host system to access a resource on a Windows system.</span></span> <span data-ttu-id="625b1-104">主控件系統 (例如 RACF 帳戶) 存在於非 Windows 環境，且位於非 Windows 使用者的內容底下。</span><span class="sxs-lookup"><span data-stu-id="625b1-104">The host system (for example, a RACF account) exists in a non-Windows environment and under the context of a non-Windows user.</span></span> <span data-ttu-id="625b1-105">「單一登入認證存放區」會對應主控件帳戶到 Windows 帳戶，以啟用此存取。</span><span class="sxs-lookup"><span data-stu-id="625b1-105">The Single Sign-On Credential Store maps host accounts to Windows accounts, enabling this access.</span></span>  

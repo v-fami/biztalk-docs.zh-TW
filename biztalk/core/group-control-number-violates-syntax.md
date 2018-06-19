@@ -1,14 +1,14 @@
 ---
-title: "群組控制編號違反語法 |Microsoft 文件"
-ms.custom: 
+title: 群組控制編號違反語法 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e173c914-cb5c-4369-ac2f-8f9abee420cb
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246086"
 ---
 # <a name="group-control-number-violates-syntax"></a><span data-ttu-id="f96bf-102">群組控制編號違反語法</span><span class="sxs-lookup"><span data-stu-id="f96bf-102">Group control number violates syntax</span></span>
 ## <a name="details"></a><span data-ttu-id="f96bf-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="f96bf-103">Details</span></span>  

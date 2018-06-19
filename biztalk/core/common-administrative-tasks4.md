@@ -1,18 +1,18 @@
 ---
-title: "常見的系統管理 Tasks4 |Microsoft 文件"
-ms.custom: 
+title: 常見的系統管理 Tasks4 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - administering, common tasks
 - BizTalk Server, administering
 - tasks, common admistration tasks
 ms.assetid: 7861f2c2-c178-4539-a976-d7a532c19d85
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232294"
 ---
 # <a name="common-administrative-tasks"></a><span data-ttu-id="76807-102">一般管理工作</span><span class="sxs-lookup"><span data-stu-id="76807-102">Common Administrative Tasks</span></span>
 <span data-ttu-id="76807-103">下表提供有助於部署和維護 BizTalk Server 系統的主題連結。</span><span class="sxs-lookup"><span data-stu-id="76807-103">The following table provides links to topics useful for deploying and maintaining BizTalk Server system.</span></span>  

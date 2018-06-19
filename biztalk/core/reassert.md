@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269646"
 ---
 # <a name="reassert"></a><span data-ttu-id="e89f8-102">重新判斷提示</span><span class="sxs-lookup"><span data-stu-id="e89f8-102">Reassert</span></span>
 <span data-ttu-id="e89f8-103">若要*重新判斷提示*表示呼叫**Assert**函式在引擎中的物件上的工作記憶體。</span><span class="sxs-lookup"><span data-stu-id="e89f8-103">To *reassert* means to call the **Assert** function on an object that is already in the engine's working memory.</span></span> <span data-ttu-id="e89f8-104">重新判斷提示命令相當於對物件發出撤回命令，之後跟隨判斷指示命令。</span><span class="sxs-lookup"><span data-stu-id="e89f8-104">A reassert command is equivalent to issuing a retract command for the object, followed by an assert command.</span></span>  

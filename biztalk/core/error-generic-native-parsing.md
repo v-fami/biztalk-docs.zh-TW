@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240446"
 ---
 # <a name="error---generic-native-parsing"></a><span data-ttu-id="653a4-102">錯誤-一般原生剖析</span><span class="sxs-lookup"><span data-stu-id="653a4-102">Error - Generic Native Parsing</span></span>
 <span data-ttu-id="653a4-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="653a4-103">**Error Code**</span></span>  

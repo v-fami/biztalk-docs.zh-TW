@@ -1,14 +1,14 @@
 ---
-title: "建立的 BAM 事件匯流排服務執行個體 |Microsoft 文件"
-ms.custom: 
+title: 建立的 BAM 事件匯流排服務執行個體 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 454bdde7-45a6-41ab-9196-f662273f0f2b
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238414"
 ---
 # <a name="creating-instances-of-the-bam-event-bus-service"></a><span data-ttu-id="11bae-102">建立 BAM 事件匯流排服務執行的個體</span><span class="sxs-lookup"><span data-stu-id="11bae-102">Creating Instances of the BAM Event Bus Service</span></span>
 <span data-ttu-id="11bae-103">BAM 事件匯流排服務是在 BizTalk 應用程式主控件內執行。</span><span class="sxs-lookup"><span data-stu-id="11bae-103">The BAM Event Bus Service runs inside a BizTalk application host.</span></span> <span data-ttu-id="11bae-104">您可以使用預設主控件來裝載 BAM 事件匯流排服務，或自行建立新主控件。</span><span class="sxs-lookup"><span data-stu-id="11bae-104">You can use the default host to host the BAM Event Bus Service, or you can create a new host.</span></span> <span data-ttu-id="11bae-105">如果主控件裝載 BAM 事件匯流排服務，您爲該主控件所建立的任何新執行個體也都將裝載服務。</span><span class="sxs-lookup"><span data-stu-id="11bae-105">If a host hosts the BAM Event Bus service, any new instances you create for that host also hosts the service.</span></span>  

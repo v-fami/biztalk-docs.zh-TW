@@ -1,14 +1,14 @@
 ---
-title: "以位元組為單位計算位置 |Microsoft 文件"
-ms.custom: 
+title: 以位元組為單位計算位置 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5cf666ec-d15e-4d2d-9df9-49189f352c65
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264030"
 ---
 # <a name="position-counting-in-bytes"></a><span data-ttu-id="d9441-102">以位元組為單位計算位置</span><span class="sxs-lookup"><span data-stu-id="d9441-102">Position Counting in Bytes</span></span>
 

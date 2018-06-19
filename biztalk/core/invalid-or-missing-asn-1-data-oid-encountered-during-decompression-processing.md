@@ -1,14 +1,14 @@
 ---
-title: "解壓縮處理過程中發現的無效或遺失的 ASN.1 資料 OID |Microsoft 文件"
-ms.custom: 
+title: 解壓縮處理過程中發現的無效或遺失的 ASN.1 資料 OID |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 243062ae-19df-4989-b8d9-109e789f8335
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257102"
 ---
 # <a name="invalid-or-missing-asn1-data-oid-encountered-during-decompression-processing"></a><span data-ttu-id="fe0c3-102">解壓縮處理過程中發現的無效或遺失的 ASN.1 資料 OID</span><span class="sxs-lookup"><span data-stu-id="fe0c3-102">Invalid or missing ASN.1 Data OID encountered during decompression processing</span></span>
 ## <a name="details"></a><span data-ttu-id="fe0c3-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="fe0c3-103">Details</span></span>  

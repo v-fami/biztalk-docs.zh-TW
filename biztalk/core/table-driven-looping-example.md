@@ -17,7 +17,7 @@ helpviewer_keywords:
 - Table Looping functoids, code sample
 - code samples, Table Extractor functoids
 ms.assetid: d890bdb1-12a6-4001-9748-737b1f2bab79
-caps.latest.revision: ''
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25974532"
 ---
 # <a name="table-driven-looping-example"></a><span data-ttu-id="131e7-102">表格驅動迴圈範例</span><span class="sxs-lookup"><span data-stu-id="131e7-102">Table-Driven Looping Example</span></span>
 <span data-ttu-id="131e7-103">這個部分扼要說明對應使用 **表格迴圈** 和 **表格抽選程式** 運算質。</span><span class="sxs-lookup"><span data-stu-id="131e7-103">This section briefly describes a map using the **Table Looping** and **Table Extractor** functoids.</span></span> <span data-ttu-id="131e7-104">如需選取的詳細資訊，放置、 連結及設定運算質，請參閱[如何新增表格迴圈和表格擷取程式運算質至對應](../core/how-to-add-table-looping-and-table-extractor-functoids-to-a-map.md)。</span><span class="sxs-lookup"><span data-stu-id="131e7-104">For detailed information about selecting, placing, linking, and configuring the functoids, see [How to Add Table Looping and Table Extractor Functoids to a Map](../core/how-to-add-table-looping-and-table-extractor-functoids-to-a-map.md).</span></span>  

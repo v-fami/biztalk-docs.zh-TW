@@ -1,11 +1,11 @@
 ---
-title: "範例 BizTalk Server 高可用性實例 |Microsoft 文件"
-ms.custom: 
+title: 範例 BizTalk Server 高可用性實例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - architecture, small distributions
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - scaling
 - architecture, large distributions
 ms.assetid: ad9e3f57-1a23-41c2-82c9-dc8e1b29ed4d
-caps.latest.revision: "30"
+caps.latest.revision: 30
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271662"
 ---
 # <a name="sample-biztalk-server-high-availability-scenarios"></a><span data-ttu-id="93f5e-102">BizTalk Server 高可用性實例範例</span><span class="sxs-lookup"><span data-stu-id="93f5e-102">Sample BizTalk Server High Availability Scenarios</span></span>
 <span data-ttu-id="93f5e-103">本主題說明在 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中透過向外擴充的主控件層提供高可用性的實例。</span><span class="sxs-lookup"><span data-stu-id="93f5e-103">This topic describes the scenarios in Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] that provide high availability through scaled-out tiers of hosts.</span></span> <span data-ttu-id="93f5e-104">藉由在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中分隔功能部分為不同的主控件和階層，系統管理員可以為每個主控件提供備援並可獨立於其他主控件之外擴充它們。</span><span class="sxs-lookup"><span data-stu-id="93f5e-104">By separating areas of functionality into different hosts and tiers in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], administrators can provide redundancy for each host and scale them independently of other hosts.</span></span> <span data-ttu-id="93f5e-105">若要為每個功能部分提供高可用性，您可以為每個主要功能 (接收、處理、傳送和追蹤) 建立不同的主控件，並叢集 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 資料庫及「企業單一登入」主要密碼伺服器。</span><span class="sxs-lookup"><span data-stu-id="93f5e-105">To provide high availability for each functional area, you create separate hosts for each primary function—receiving, processing, sending, and tracking—and cluster the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases and the Enterprise Single Sign-On master secret server.</span></span>  

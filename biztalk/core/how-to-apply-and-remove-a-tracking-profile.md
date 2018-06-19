@@ -1,11 +1,11 @@
 ---
-title: "如何套用和移除追蹤設定檔 |Microsoft 文件"
-ms.custom: 
+title: 如何套用和移除追蹤設定檔 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deleting, tracking profiles
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - tracking profiles, deleting
 - testing, tracking profiles
 ms.assetid: 77cef14b-c390-4da7-a383-b3abe414a168
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248294"
 ---
 # <a name="how-to-apply-and-remove-a-tracking-profile"></a><span data-ttu-id="4fc88-102">如何套用和移除追蹤設定檔</span><span class="sxs-lookup"><span data-stu-id="4fc88-102">How to Apply and Remove a Tracking Profile</span></span>
 <span data-ttu-id="4fc88-103">在建立或修改追蹤設定檔之後，下一個步驟就是將它套用到測試資料庫，並透過整合測試驗證結果。</span><span class="sxs-lookup"><span data-stu-id="4fc88-103">Once you have created or modified the tracking profile, the next step is to apply it to a test database and verify the result through integration testing.</span></span> <span data-ttu-id="4fc88-104">您可從追蹤設定檔編輯器 (TPE) 本身或使用命令列套用追蹤設定檔。</span><span class="sxs-lookup"><span data-stu-id="4fc88-104">You can apply the tracking profile from within Tracking Profile Editor (TPE) itself or by using the command line.</span></span>  

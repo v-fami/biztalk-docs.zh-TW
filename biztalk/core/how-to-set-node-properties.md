@@ -1,14 +1,14 @@
 ---
-title: "如何設定節點屬性 |Microsoft 文件"
-ms.custom: 
+title: 如何設定節點屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c0c79eac-d9ba-45e2-a6e9-770b2bcb2067
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255446"
 ---
 # <a name="how-to-set-node-properties"></a><span data-ttu-id="e49e4-102">如何設定節點屬性</span><span class="sxs-lookup"><span data-stu-id="e49e4-102">How to Set Node Properties</span></span>
 <span data-ttu-id="e49e4-103">將節點插入 BizTalk 結構描述後，您通常需要變更該節點屬性的預設值。</span><span class="sxs-lookup"><span data-stu-id="e49e4-103">After inserting a node into a BizTalk schema, you will often need to change the properties of that node from their default values.</span></span> <span data-ttu-id="e49e4-104">每種類型的節點都有不同的屬性集，在這些其中一個屬性集中，一個屬性的設定可影響其他屬性的可用性。</span><span class="sxs-lookup"><span data-stu-id="e49e4-104">Each type of node has a distinct set of properties, and within one of those sets, the settings of one property can affect the availability of other properties.</span></span> <span data-ttu-id="e49e4-105">例如，才能設定**預設換行字元**屬性**結構描述** 節點，您必須設定**Default Wrap Character Type**任一屬性**字元**或**十六進位**，藉此建立要代表先前屬性的格式。</span><span class="sxs-lookup"><span data-stu-id="e49e4-105">For example, before setting the **Default Wrap Character** property of the **Schema** node, you must set the **Default Wrap Character Type** property to either **Character** or **Hexadecimal**, thereby establishing the format in which you intend to represent the former property.</span></span> <span data-ttu-id="e49e4-106">此外，這些屬性可供使用，都是整個**剖析**屬性類別目錄所屬，除非**一般檔案延伸模組**啟用利用**結構描述編輯器擴充功能**屬性。</span><span class="sxs-lookup"><span data-stu-id="e49e4-106">Further, neither of these properties is available, nor is the entire **Parse** property category to which they belong, unless **Flat File Extension** is enabled by using the **Schema Editor Extensions** property.</span></span>  

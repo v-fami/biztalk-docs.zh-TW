@@ -1,14 +1,14 @@
 ---
-title: "如何建立連結 |Microsoft 文件"
-ms.custom: 
+title: 如何建立連結 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 670b831f-be03-4612-93d5-a894f7bb3c11
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250190"
 ---
 # <a name="how-to-create-links"></a><span data-ttu-id="db2fe-102">如何建立連結</span><span class="sxs-lookup"><span data-stu-id="db2fe-102">How to Create Links</span></span>
 <span data-ttu-id="db2fe-103">建立連結，以從**記錄**或**欄位**來源結構描述中的節點**記錄**或**欄位**目的結構描述中的節點是最基本建立對應的活動。</span><span class="sxs-lookup"><span data-stu-id="db2fe-103">Creating a link from a **Record** or **Field** node in a source schema to a **Record** or **Field** node in a destination schema is the most basic activity in creating maps.</span></span> <span data-ttu-id="db2fe-104">本主題提供此活動數個變化的逐步指示，包括建立運算質的連結。</span><span class="sxs-lookup"><span data-stu-id="db2fe-104">This topic provides step-by-step instructions for several variations of this activity, including creating links to and from functoids.</span></span> <span data-ttu-id="db2fe-105">如需使用運算質的詳細資訊，請參閱[更加建立複雜的對應使用運算質](../core/using-functoids-to-create-more-complex-mappings.md)。</span><span class="sxs-lookup"><span data-stu-id="db2fe-105">For additional information about working with functoids, see [Using Functoids to Create More Complex Mappings](../core/using-functoids-to-create-more-complex-mappings.md).</span></span>  

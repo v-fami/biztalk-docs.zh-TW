@@ -1,14 +1,14 @@
 ---
-title: "如何插入 記錄、 欄位項目 或 欄位屬性節點 |Microsoft 文件"
-ms.custom: 
+title: 如何插入 記錄、 欄位項目 或 欄位屬性節點 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c26f2281-f1b8-4788-8593-8d6ad29a53f0
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255094"
 ---
 # <a name="how-to-insert-a-record-field-element-or-field-attribute-node"></a><span data-ttu-id="33aed-102">如何插入 記錄、 欄位項目 或 欄位屬性節點</span><span class="sxs-lookup"><span data-stu-id="33aed-102">How to Insert a Record, Field Element, or Field Attribute Node</span></span>
 <span data-ttu-id="33aed-103">**記錄**節點 (包括**根**節點)，**欄位屬性**節點，和**欄位項目**節點之所以是唯一的它們可以重新命名，使其名稱代表對應的執行個體訊息中實際、 自訂名稱項目的名稱。</span><span class="sxs-lookup"><span data-stu-id="33aed-103">**Record** nodes (including the **Root** node), **Field Attribute** nodes, and **Field Element** nodes are unique in that they can be renamed so that their names represent the names of the actual, custom-named elements in a corresponding instance message.</span></span> <span data-ttu-id="33aed-104">例如，如果您將檔案命名**記錄**節點為 FullName，在名為 FullName 的 XML 項目預期的執行個體訊息中對應的位置。</span><span class="sxs-lookup"><span data-stu-id="33aed-104">For example, if you name a **Record** node FullName, at the corresponding location in an instance message an XML element named FullName is expected.</span></span> <span data-ttu-id="33aed-105">如果該**記錄**名為 FullName 的節點有子系**欄位屬性**名為 RequireFullMiddleName 的節點 (使用其**Min Occurs**和**Max Occurs**屬性設定為**1**)、 **FullName**需要有名稱為的屬性對應的執行個體訊息中的項目**RequireFullMiddleName**與其相關聯。</span><span class="sxs-lookup"><span data-stu-id="33aed-105">If that **Record** node named FullName has a child **Field Attribute** node named RequireFullMiddleName (with its **Min Occurs** and **Max Occurs** properties set to **1**), the **FullName** element in a corresponding instance message will need to have an attribute named **RequireFullMiddleName** associated with it.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "短期事實與長期事實 |Microsoft 文件"
-ms.custom: 
+title: 短期事實與長期事實 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - facts, short-term
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - business rules, facts
 - long-term facts
 ms.assetid: de020b20-1012-498a-969e-4adc4549918c
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271038"
 ---
 # <a name="short-term-facts-vs-long-term-facts"></a><span data-ttu-id="bc1b8-102">短期事實與長期事實</span><span class="sxs-lookup"><span data-stu-id="bc1b8-102">Short-Term Facts vs. Long-Term Facts</span></span>
 <span data-ttu-id="bc1b8-103">有兩種事實會判斷提示到規則引擎的工作記憶體 – 一為短期事實，另一為長期事實。</span><span class="sxs-lookup"><span data-stu-id="bc1b8-103">Two types of facts are asserted into the working memory of the rule engine—short-term facts and long-term facts.</span></span>  

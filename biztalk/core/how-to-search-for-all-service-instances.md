@@ -14,7 +14,7 @@ helpviewer_keywords:
 - service instances, searching
 - instances, services
 ms.assetid: 48cb885c-aaf1-44e8-9810-2e70cf63db81
-caps.latest.revision: ''
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22255118"
 ---
 # <a name="how-to-search-for-all-service-instances"></a><span data-ttu-id="0a28b-102">如何搜尋所有服務執行個體</span><span class="sxs-lookup"><span data-stu-id="0a28b-102">How to Search for All Service Instances</span></span>
 <span data-ttu-id="0a28b-103">您可以使用 **查詢** 在 BizTalk Server 管理主控台，來搜尋所有服務執行個體 索引標籤。</span><span class="sxs-lookup"><span data-stu-id="0a28b-103">You can use the **Query** tab in the BizTalk Server Administration Console to search for all service instances.</span></span> <span data-ttu-id="0a28b-104">若有任何執行中或擱置的執行個體，就無法取消登錄特定服務類型。</span><span class="sxs-lookup"><span data-stu-id="0a28b-104">You cannot unenlist a specific service type if there are any running or suspended instances.</span></span> <span data-ttu-id="0a28b-105">例如，取消登錄特定服務類型之前，可以搜尋所有的服務執行個體，以確保沒有執行中或擱置的執行個體。</span><span class="sxs-lookup"><span data-stu-id="0a28b-105">For example, before you can unenlist a specific service type, you can search for all service instances to ensure that there are no running or suspended instances.</span></span>  

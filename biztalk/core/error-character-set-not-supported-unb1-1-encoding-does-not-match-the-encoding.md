@@ -1,14 +1,14 @@
 ---
-title: "不支援，因為 UNB1.1 中的編碼資訊不符合實際的編碼字元集 |Microsoft 文件"
-ms.custom: 
+title: 不支援，因為 UNB1.1 中的編碼資訊不符合實際的編碼字元集 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 085ea8e3-e0d8-45bd-9985-6787b00e4d5a
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239902"
 ---
 # <a name="character-set-not-supported-because-the-encoding-information-in-unb11-does-not-match-the-actual-encoding"></a><span data-ttu-id="fe033-102">因為 UNB1.1 中的編碼資訊不符合交換的實際編碼，不支援字元集</span><span class="sxs-lookup"><span data-stu-id="fe033-102">Character set not supported because the encoding information in UNB1.1 does not match the actual encoding</span></span>
 ## <a name="details"></a><span data-ttu-id="fe033-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="fe033-103">Details</span></span>  

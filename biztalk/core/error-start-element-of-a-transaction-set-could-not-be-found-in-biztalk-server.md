@@ -1,14 +1,14 @@
 ---
-title: "在處理交易 Set(s) 因為找不到交易集的開始項目之後發生錯誤 |Microsoft 文件"
-ms.custom: 
+title: 在處理交易 Set(s) 因為找不到交易集的開始項目之後發生錯誤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d5380aee-1632-4cdf-98a1-aff87574ce4f
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241806"
 ---
 # <a name="error-encountered-after-processing-transaction-sets-because-the-start-element-of-a-transaction-set-could-not-be-found"></a><span data-ttu-id="5f37d-102">在處理交易 Set(s) 因為找不到交易集的開始項目之後所發生的錯誤</span><span class="sxs-lookup"><span data-stu-id="5f37d-102">Error encountered after processing Transaction Set(s) because the Start element of a Transaction set could not be found</span></span>
 ## <a name="details"></a><span data-ttu-id="5f37d-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="5f37d-103">Details</span></span>  

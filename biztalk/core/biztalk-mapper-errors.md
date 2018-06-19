@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234078"
 ---
 # <a name="biztalk-mapper-errors"></a><span data-ttu-id="34784-102">BizTalk 對應工具 」 錯誤</span><span class="sxs-lookup"><span data-stu-id="34784-102">BizTalk Mapper Errors</span></span>
 <span data-ttu-id="34784-103">此章節提供與 BizTalk 對應工具關聯之編譯訊息的增補資訊。</span><span class="sxs-lookup"><span data-stu-id="34784-103">This section provides supplemental information about compilation messages associated with BizTalk Mapper.</span></span> <span data-ttu-id="34784-104">在 Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 的 [工作清單] 視窗選取相關訊息時，可使用 F1 鍵來存取此資訊。</span><span class="sxs-lookup"><span data-stu-id="34784-104">You can access this information using the F1 key when one of the relevant messages is selected in the Task List window in Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].</span></span> <span data-ttu-id="34784-105">BizTalk 對應工具 」 的概念和程序資訊，請參閱[建立對應使用 BizTalk 對應工具](../core/creating-maps-using-biztalk-mapper.md)。</span><span class="sxs-lookup"><span data-stu-id="34784-105">For conceptual and procedural information for BizTalk Mapper, see [Creating Maps Using BizTalk Mapper](../core/creating-maps-using-biztalk-mapper.md).</span></span>  

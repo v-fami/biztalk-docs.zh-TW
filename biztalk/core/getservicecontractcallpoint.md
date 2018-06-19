@@ -1,14 +1,14 @@
 ---
-title: "GetServiceContractCallPoint |Microsoft 文件"
-ms.custom: 
+title: GetServiceContractCallPoint |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: be03d100-0cba-4b80-8056-b582a2cd74ce
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246406"
 ---
 # <a name="getservicecontractcallpoint"></a><span data-ttu-id="693c3-102">GetServiceContractCallPoint</span><span class="sxs-lookup"><span data-stu-id="693c3-102">GetServiceContractCallPoint</span></span>
 <span data-ttu-id="693c3-103">將目前服務合約呼叫點推至堆疊上。</span><span class="sxs-lookup"><span data-stu-id="693c3-103">Pushes the name of the current service contract call point onto the stack.</span></span>  

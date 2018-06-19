@@ -1,18 +1,18 @@
 ---
-title: "TPE 功能表選項 |Microsoft 文件"
-ms.custom: 
+title: TPE 功能表選項 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Tracking Profile Editor, menu options
 - activities [BAM], importing
 - activities [BAM], definitions
 ms.assetid: 5179fcb5-6dab-481d-ad89-3868c8b07383
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010623"
 ---
 # <a name="tpe-menu-options"></a><span data-ttu-id="961bd-102">TPE 功能表選項</span><span class="sxs-lookup"><span data-stu-id="961bd-102">TPE Menu Options</span></span>
 <span data-ttu-id="961bd-103">本主題說明追蹤設定檔編輯器 (TPE) 的功能表選項。</span><span class="sxs-lookup"><span data-stu-id="961bd-103">This topic describes the menu options of the Tracking Profile Editor (TPE).</span></span> <span data-ttu-id="961bd-104">主功能表包括了 [檔案]、[工具] 與 [說明]。</span><span class="sxs-lookup"><span data-stu-id="961bd-104">The main menus include File, Tools, and Help.</span></span>  

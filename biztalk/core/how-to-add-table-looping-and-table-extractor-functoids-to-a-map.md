@@ -1,14 +1,14 @@
 ---
-title: "如何新增表格迴圈和表格擷取程式運算質至對應 |Microsoft 文件"
-ms.custom: 
+title: 如何新增表格迴圈和表格擷取程式運算質至對應 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3c837ab8-55db-471a-af26-9fbd0497d7d4
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249790"
 ---
 # <a name="how-to-add-table-looping-and-table-extractor-functoids-to-a-map"></a><span data-ttu-id="f8a4f-102">如何新增表格迴圈和表格擷取程式運算質至對應</span><span class="sxs-lookup"><span data-stu-id="f8a4f-102">How to Add Table Looping and Table Extractor Functoids to a Map</span></span>
 <span data-ttu-id="f8a4f-103">**表格迴圈**和**表格抽選程式**運算質一起使用。</span><span class="sxs-lookup"><span data-stu-id="f8a4f-103">The **Table Looping** and **Table Extractor** functoids are used together.</span></span> <span data-ttu-id="f8a4f-104">**表格迴圈**運算質有您所設定的內部資料表。</span><span class="sxs-lookup"><span data-stu-id="f8a4f-104">The **Table Looping** functoid has an internal table you configure.</span></span> <span data-ttu-id="f8a4f-105">每個輸入記錄或欄位，**表格迴圈**運算質會輸出一次一個資料表的資料列。</span><span class="sxs-lookup"><span data-stu-id="f8a4f-105">For each input record or field, the **Table Looping** functoid outputs the rows of the table, one at a time.</span></span> <span data-ttu-id="f8a4f-106">**表格抽選程式**運算質從一個資料列擷取所需的項目，並將它傳遞到輸出執行個體訊息。</span><span class="sxs-lookup"><span data-stu-id="f8a4f-106">The **Table Extractor** functoid extracts the desired item from a row and passes it on to the output instance message.</span></span>  

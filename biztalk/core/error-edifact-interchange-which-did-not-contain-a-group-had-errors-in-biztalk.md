@@ -1,14 +1,14 @@
 ---
-title: "在序列化期間發生錯誤。 Edifact 交換其中不包含群組發生下列錯誤 |Microsoft 文件"
-ms.custom: 
+title: 在序列化期間發生錯誤。 Edifact 交換其中不包含群組發生下列錯誤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: af693139-e4cd-4bcb-922c-79caa148d3b7
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241758"
 ---
 # <a name="error-encountered-during-serialization-the-edifact-interchange-which-did-not-contain-a-group-had-the-following-errors"></a><span data-ttu-id="2e9bf-103">在序列化期間發生錯誤。</span><span class="sxs-lookup"><span data-stu-id="2e9bf-103">Error encountered during serialization.</span></span> <span data-ttu-id="2e9bf-104">Edifact 交換其中不包含群組發生下列錯誤</span><span class="sxs-lookup"><span data-stu-id="2e9bf-104">The Edifact interchange which did not contain a group had the following errors</span></span>
 ## <a name="details"></a><span data-ttu-id="2e9bf-105">詳細資料</span><span class="sxs-lookup"><span data-stu-id="2e9bf-105">Details</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "如何設定呼叫協調流程圖形 |Microsoft 文件"
-ms.custom: 
+title: 如何設定呼叫協調流程圖形 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Call Orchestration shape [Orchestration Designer], parameters
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - Call Orchestration shape [Orchestration Designer], referencing orchestrations
 - orchestrations, parameters
 ms.assetid: 718ce2a0-ac08-4662-8b4e-1be279dbc749
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249702"
 ---
 # <a name="how-to-configure-the-call-orchestration-shape"></a><span data-ttu-id="2961c-102">如何設定呼叫協調流程圖形</span><span class="sxs-lookup"><span data-stu-id="2961c-102">How to Configure the Call Orchestration Shape</span></span>
 <span data-ttu-id="2961c-103">**呼叫協調流程**圖形可以用來同步呼叫另一個專案中參考的協調流程。</span><span class="sxs-lookup"><span data-stu-id="2961c-103">The **Call Orchestration** shape can be used to synchronously call an orchestration that is referenced in another project.</span></span> <span data-ttu-id="2961c-104">如此可在 BizTalk 專案之間重複使用共同的協調流程工作流程模式。</span><span class="sxs-lookup"><span data-stu-id="2961c-104">This allows for reuse of common orchestration workflow patterns across BizTalk projects.</span></span> <span data-ttu-id="2961c-105">當您叫用另一個巢狀的協調流程的狀況下同步**呼叫協調流程**圖形封閉式協調流程會等待巢狀協調流程完成後再繼續進行。</span><span class="sxs-lookup"><span data-stu-id="2961c-105">When you invoke another nested orchestration synchronously with the **Call Orchestration** shape the enclosing orchestration waits for the nested orchestration to finish before continuing.</span></span>  

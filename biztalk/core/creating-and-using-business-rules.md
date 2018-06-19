@@ -1,17 +1,17 @@
 ---
-title: "建立和使用商務規則 |Microsoft 文件"
-ms.custom: 
+title: 建立和使用商務規則 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - business rules, Business Rules Editor
 - Business Rules Editor
 ms.assetid: a15fd09b-ff4e-4c26-8cb6-5ffd258a2182
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238238"
 ---
 # <a name="creating-and-using-business-rules"></a><span data-ttu-id="839d4-102">建立和使用商務規則</span><span class="sxs-lookup"><span data-stu-id="839d4-102">Creating and Using Business Rules</span></span>
 <span data-ttu-id="839d4-103">商務規則 (或商務原則) 會定義及控制組織的結構、作業和策略。</span><span class="sxs-lookup"><span data-stu-id="839d4-103">Business rules (or business policies) define and control the structure, operation, and strategy of an organization.</span></span> <span data-ttu-id="839d4-104">商務規則可能會正式定義在程序手冊、合約或協定中，也可能以知識或專業技術的形式來由員工呈現。</span><span class="sxs-lookup"><span data-stu-id="839d4-104">Business rules may be formally defined in procedure manuals, contracts, or agreements, or may exist as knowledge or expertise embodied in employees.</span></span> <span data-ttu-id="839d4-105">商務規則是動態的，會隨著時間而改變，而且可以在所有類型的應用程式中找到。</span><span class="sxs-lookup"><span data-stu-id="839d4-105">Business rules are dynamic and subject to change over time, and can be found in all types of applications.</span></span> <span data-ttu-id="839d4-106">在商務規則所控管的許多商務領域中，金融保險、電子商務、運輸、電信、Web 服務和個人化只是其中的幾項。</span><span class="sxs-lookup"><span data-stu-id="839d4-106">Finance and insurance, e-business, transportation, telecommunications, Web-based services, and personalization are just a few of the many business domains that are governed by business rules.</span></span> <span data-ttu-id="839d4-107">每一個商務領域都需要傳達商業策略、原則和規章給資訊技術 (IT) 人員，將這些資訊加入到軟體應用程式中。</span><span class="sxs-lookup"><span data-stu-id="839d4-107">Each of these business domains shares the need to convey business strategies, policies, and regulations to information technology (IT) personnel for inclusion into software applications.</span></span>  

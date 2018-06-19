@@ -1,11 +1,11 @@
 ---
-title: "如何修改詞彙定義 |Microsoft 文件"
-ms.custom: 
+title: 如何修改詞彙定義 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - vocabularies, facts
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - vocabularies, definitions
 - vocabularies, modifying
 ms.assetid: 866bb9b9-34e1-4a05-a84e-540c7f7fae3b
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254166"
 ---
 # <a name="how-to-modify-vocabulary-definitions"></a><span data-ttu-id="2ed9a-102">如何修改詞彙定義</span><span class="sxs-lookup"><span data-stu-id="2ed9a-102">How to Modify Vocabulary Definitions</span></span>
 <span data-ttu-id="2ed9a-103">您可以使用「詞彙定義精靈」變更顯示名稱或變更與顯示名稱關聯的繫結，以修改未發佈的詞彙版本中的詞彙定義。</span><span class="sxs-lookup"><span data-stu-id="2ed9a-103">You can modify a vocabulary definition in an unpublished version of a vocabulary by using the Vocabulary Definition Wizard to change the display name or to change the binding associated with the display name.</span></span>  
@@ -45,7 +46,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  <span data-ttu-id="2ed9a-112">在 [事實總管] 視窗中，按一下**詞彙**索引標籤，然後選取您想要更新的未發佈的詞彙版本。</span><span class="sxs-lookup"><span data-stu-id="2ed9a-112">In the Facts Explorer window, click the **Vocabularies** tab, and select the unpublished vocabulary version that you want to update.</span></span>  
   
-2.  <span data-ttu-id="2ed9a-113">按一下**資料庫**， **XML 結構描述**，或**.NET 類別**。</span><span class="sxs-lookup"><span data-stu-id="2ed9a-113">Click **Databases**, **XML Schemas**, or **.NET Classes**.</span></span>  
+2.  <span data-ttu-id="2ed9a-113">按一下**資料庫**， **XML 結構描述**，或 **.NET 類別**。</span><span class="sxs-lookup"><span data-stu-id="2ed9a-113">Click **Databases**, **XML Schemas**, or **.NET Classes**.</span></span>  
   
 3.  <span data-ttu-id="2ed9a-114">巡覽資料來源階層到您需要的事實。</span><span class="sxs-lookup"><span data-stu-id="2ed9a-114">Navigate through the data source hierarchy to the fact you want.</span></span>  
   

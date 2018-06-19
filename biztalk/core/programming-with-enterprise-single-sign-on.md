@@ -1,14 +1,14 @@
 ---
-title: "使用企業單一登入程式設計 |Microsoft 文件"
-ms.custom: 
+title: 使用企業單一登入程式設計 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1b10b7be-a741-471e-ac3f-cd04549166d3
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264614"
 ---
 # <a name="programming-with-enterprise-single-sign-on"></a><span data-ttu-id="b8b18-102">使用企業單一登入進行程式設計</span><span class="sxs-lookup"><span data-stu-id="b8b18-102">Programming with Enterprise Single Sign-On</span></span>
 <span data-ttu-id="b8b18-103">「企業單一登入」(SSO) 是在「企業單一登入」(ENTSSO) 服務中實作的技術，它可讓使用者存取多個遠端服務，而不需重複進入登入畫面。</span><span class="sxs-lookup"><span data-stu-id="b8b18-103">Enterprise Single Sign-On (SSO) is a technology implemented in the Enterprise Single Sign-On service (ENTSSO) that enables users to access multiple remote services without having to work their way through additional sign-on screens.</span></span>  

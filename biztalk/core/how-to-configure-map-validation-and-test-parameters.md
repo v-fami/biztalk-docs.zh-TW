@@ -1,14 +1,14 @@
 ---
-title: "如何設定對應驗證和測試參數 |Microsoft 文件"
-ms.custom: 
+title: 如何設定對應驗證和測試參數 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1768918c-e94f-476f-b288-9e030c691177
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248774"
 ---
 # <a name="how-to-configure-map-validation-and-test-parameters"></a><span data-ttu-id="46869-102">如何設定對應驗證和測試參數</span><span class="sxs-lookup"><span data-stu-id="46869-102">How to Configure Map Validation and Test Parameters</span></span>
 <span data-ttu-id="46869-103">之前驗證和測試對應，您必須在中設定對應驗證和測試參數**屬性**對應的視窗。</span><span class="sxs-lookup"><span data-stu-id="46869-103">Before validating and testing a map, you need to set the map validation and test parameters in the **Properties** window of the map.</span></span>  

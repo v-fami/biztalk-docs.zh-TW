@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270246"
 ---
 # <a name="service-services-node"></a><span data-ttu-id="0509b-102">服務 (服務節點)</span><span class="sxs-lookup"><span data-stu-id="0509b-102">Service (Services Node)</span></span>
 <span data-ttu-id="0509b-103">繫結檔案的 [服務] 節點，包含與該繫結檔案一起匯出之服務的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="0509b-103">The Service node of a binding file contains information about a service exported with the binding file.</span></span> <span data-ttu-id="0509b-104">服務節點也包含一些描述與服務關聯之連接埠和角色的節點，以及一個描述與服務關聯之主控件的節點。</span><span class="sxs-lookup"><span data-stu-id="0509b-104">The service node also contains nodes that describe the ports and roles associated with the service and a node that describes the host associated with the service.</span></span>  

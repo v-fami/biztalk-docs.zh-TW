@@ -1,14 +1,14 @@
 ---
-title: "Web 服務的使用時的考量 |Microsoft 文件"
-ms.custom: 
+title: Web 服務的使用時的考量 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ea7038dc-4740-4c0a-b6a1-08bc22f42bc2
-caps.latest.revision: "31"
+caps.latest.revision: 31
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241998"
 ---
 # <a name="considerations-when-consuming-web-services"></a><span data-ttu-id="b4ce8-102">使用 Web 服務的考量</span><span class="sxs-lookup"><span data-stu-id="b4ce8-102">Considerations When Consuming Web Services</span></span>
 <span data-ttu-id="b4ce8-103">本節提供您使用 Web 服務時應該納入考量的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="b4ce8-103">This section provides information that you should take into consideration when consuming Web services.</span></span>  
@@ -69,7 +70,7 @@ ms.lasthandoff: 09/20/2017
  <span data-ttu-id="b4ce8-146">您可以在訊息內容中，使用程式來設定組態屬性。</span><span class="sxs-lookup"><span data-stu-id="b4ce8-146">It is possible to set configuration properties programmatically on the message context.</span></span> <span data-ttu-id="b4ce8-147">不管傳送埠是靜態還是動態，您都可以在協調流程或自訂的管線元件中設定這些屬性。</span><span class="sxs-lookup"><span data-stu-id="b4ce8-147">You can set these properties in an orchestration or a custom pipeline component whether or not the send port is static or dynamic.</span></span>  
   
 > [!NOTE]
->  <span data-ttu-id="b4ce8-148">若要設定**MethodName**屬性靜態 soap 傳送埠以程式設計的方式，您需要設定**方法名稱**至**[稍後指定]**中**Web服務** 索引標籤**SOAP 傳輸屬性**在 BizTalk Server 管理主控台 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="b4ce8-148">To configure the **MethodName** property for the static SOAP send port programmatically, you need to set **Method name** to **[Specify Later]** in the **Web Service** tab of the **SOAP Transport Properties** dialog box in the BizTalk Server Administration Console.</span></span>  
+>  <span data-ttu-id="b4ce8-148">若要設定**MethodName**屬性靜態 soap 傳送埠以程式設計的方式，您需要設定**方法名稱**至 **[稍後指定]** 中**Web服務** 索引標籤**SOAP 傳輸屬性**在 BizTalk Server 管理主控台 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="b4ce8-148">To configure the **MethodName** property for the static SOAP send port programmatically, you need to set **Method name** to **[Specify Later]** in the **Web Service** tab of the **SOAP Transport Properties** dialog box in the BizTalk Server Administration Console.</span></span>  
 >   
 >  <span data-ttu-id="b4ce8-149">如需有關**MethodName**屬性，請參閱[如何動態設定取用 Web 服務的 URI](../core/how-to-dynamically-set-the-uri-of-a-consumed-web-service.md)。</span><span class="sxs-lookup"><span data-stu-id="b4ce8-149">For more information about the **MethodName** property, see [How to Dynamically Set the URI of a Consumed Web Service](../core/how-to-dynamically-set-the-uri-of-a-consumed-web-service.md).</span></span>  
 >   
@@ -112,7 +113,7 @@ ms.lasthandoff: 09/20/2017
   
 -   <span data-ttu-id="b4ce8-181">Web 方法應該包含**SoapDocumentMethodAttribute**而不是**SoapRpcMethodAttribute**。</span><span class="sxs-lookup"><span data-stu-id="b4ce8-181">Web methods should have **SoapDocumentMethodAttribute** instead of **SoapRpcMethodAttribute**.</span></span>  
   
--   <span data-ttu-id="b4ce8-182">Web 服務和方法必須使用**常值**繫結，而不**Encoded**例如**[SoapDocumentMethod(Use=SoapBindingUse.Literal)]**。</span><span class="sxs-lookup"><span data-stu-id="b4ce8-182">Web services and methods must use the **Literal** binding instead of **Encoded** such as **[SoapDocumentMethod(Use=SoapBindingUse.Literal)]**.</span></span>  
+-   <span data-ttu-id="b4ce8-182">Web 服務和方法必須使用**常值**繫結，而不**Encoded**例如 **[SoapDocumentMethod(Use=SoapBindingUse.Literal)]**。</span><span class="sxs-lookup"><span data-stu-id="b4ce8-182">Web services and methods must use the **Literal** binding instead of **Encoded** such as **[SoapDocumentMethod(Use=SoapBindingUse.Literal)]**.</span></span>  
   
 -   <span data-ttu-id="b4ce8-183">Web 方法參數和傳回型別都必須有**XmlRootAttribute**的有效**命名空間**屬性除非它們是原生 XSD 類型與 XmlNode 類型。</span><span class="sxs-lookup"><span data-stu-id="b4ce8-183">Web method parameters and return types must have **XmlRootAttribute** with a valid **Namespace** property unless they are native XSD types and the XmlNode type.</span></span>  
   

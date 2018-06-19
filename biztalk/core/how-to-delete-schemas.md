@@ -1,14 +1,14 @@
 ---
-title: "如何刪除結構描述 |Microsoft 文件"
-ms.custom: 
+title: 如何刪除結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b438d030-c4da-403b-ae10-abb005423651
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248646"
 ---
 # <a name="how-to-delete-schemas"></a><span data-ttu-id="60714-102">如何刪除結構描述</span><span class="sxs-lookup"><span data-stu-id="60714-102">How to Delete Schemas</span></span>
 <span data-ttu-id="60714-103">有時候，您可能不只想將結構描述自其 BizTalk 專案中排除，而是想將它自硬碟中完全移除。</span><span class="sxs-lookup"><span data-stu-id="60714-103">Sometimes you might want to not only exclude a schema from its BizTalk project, but also completely remove the schema from your hard disk.</span></span> <span data-ttu-id="60714-104">相對於排除結構描述，這稱為刪除結構描述。</span><span class="sxs-lookup"><span data-stu-id="60714-104">This is known as deleting, as opposed to excluding, a schema.</span></span> <span data-ttu-id="60714-105">本主題描述刪除結構描述所需的步驟。</span><span class="sxs-lookup"><span data-stu-id="60714-105">This topic describes the steps required to delete a schema.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "步驟 3b： 擷取商機的詳細資料來自使用 Wcf-webhttp 配接器的 Salesforce |Microsoft 文件"
-ms.custom: 
+title: 步驟 3b： 擷取商機的詳細資料來自使用 Wcf-webhttp 配接器的 Salesforce |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 115c908f-777b-4c51-85ea-71d639b01775
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279550"
 ---
 # <a name="step-3b-retrieve-opportunity-details-from-salesforce-using-the-wcf-webhttp-adapter"></a><span data-ttu-id="71910-102">步驟 3b： 擷取來自 Salesforce 使用 Wcf-webhttp 配接器的機會詳細資料</span><span class="sxs-lookup"><span data-stu-id="71910-102">Step 3b: Retrieve Opportunity Details from Salesforce using the WCF-WebHttp Adapter</span></span>
 <span data-ttu-id="71910-103">在本節中，我們會著重於處理內送商機通知的協調流程、從通知擷取商機名稱，並用來建立要求查詢以傳送至 Salesforce。</span><span class="sxs-lookup"><span data-stu-id="71910-103">In this section, we’ll enhance the orchestration to process the incoming opportunity notification, extract the opportunity name from the notification, and use that to create a request query to send to Salesforce.</span></span> <span data-ttu-id="71910-104">這樣會擷取與商機關聯的產品相關特定詳細資料。</span><span class="sxs-lookup"><span data-stu-id="71910-104">This retrieves specific details about the products associated with the opportunity.</span></span> <span data-ttu-id="71910-105">來自 Salesforce 的查詢回應會由 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 接收。</span><span class="sxs-lookup"><span data-stu-id="71910-105">The query response from Salesforce is received back into [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="71910-106">若要達到此目標，我們會執行下列步驟：</span><span class="sxs-lookup"><span data-stu-id="71910-106">To achieve this, we’ll perform the following steps:</span></span>  
@@ -65,7 +66,7 @@ SELECT Amount, Id, Name,(SELECT Quantity, ListPrice, PricebookEntry.UnitPrice, P
     |-|-|  
     |<span data-ttu-id="71910-140">Input [0]</span><span class="sxs-lookup"><span data-stu-id="71910-140">Input[0]</span></span>|<span data-ttu-id="71910-141">選取量、 識別碼、 名稱 (選取 Quantity、 ListPrice PricebookEntry.UnitPrice，PricebookEntry.Name 從 OpportunityLineItems) 從有機會 Where Name = '</span><span class="sxs-lookup"><span data-stu-id="71910-141">SELECT Amount, Id, Name,(SELECT Quantity, ListPrice, PricebookEntry.UnitPrice, PricebookEntry.Name FROM OpportunityLineItems) FROM Opportunity Where Name = '</span></span>|  
     |<span data-ttu-id="71910-142">Input [1]</span><span class="sxs-lookup"><span data-stu-id="71910-142">Input[1]</span></span>|<span data-ttu-id="71910-143">若要使用名稱元素的值做為第二個輸入的運算質連接來源結構描述中的名稱項目。</span><span class="sxs-lookup"><span data-stu-id="71910-143">Connect the Name element in the source schema to the functoid to use the value of the Name element as the second input.</span></span>|  
-    |<span data-ttu-id="71910-144">輸入 [2]</span><span class="sxs-lookup"><span data-stu-id="71910-144">Input[2]</span></span>|<span data-ttu-id="71910-145">'**附註：**最後一個的輸入值，指定只右單引號 （'）。</span><span class="sxs-lookup"><span data-stu-id="71910-145">' **Note:**  For the last input value, specify only a closing single quote (').</span></span>|  
+    |<span data-ttu-id="71910-144">輸入 [2]</span><span class="sxs-lookup"><span data-stu-id="71910-144">Input[2]</span></span>|<span data-ttu-id="71910-145">'**附註：** 最後一個的輸入值，指定只右單引號 （'）。</span><span class="sxs-lookup"><span data-stu-id="71910-145">' **Note:**  For the last input value, specify only a closing single quote (').</span></span>|  
   
      <span data-ttu-id="71910-146">下列螢幕擷取畫面說明的組態**字串串連**運算質。</span><span class="sxs-lookup"><span data-stu-id="71910-146">The following screenshot depicts the configuration for the **String Concatenate** functoid.</span></span>  
   

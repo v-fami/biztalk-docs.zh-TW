@@ -1,14 +1,14 @@
 ---
-title: "產生外寄 AS2 訊息 |Microsoft 文件"
-ms.custom: 
+title: 產生外寄 AS2 訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 288c8101-9a96-4f98-ae18-df43c7cdb3a0
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246542"
 ---
 # <a name="generating-an-outgoing-as2-message"></a><span data-ttu-id="133cb-102">產生外寄 AS2 訊息</span><span class="sxs-lookup"><span data-stu-id="133cb-102">Generating an Outgoing AS2 Message</span></span>
 <span data-ttu-id="133cb-103">AS2EDISend 和 AS2Send 傳送管線會產生外寄訊息，如下所述。</span><span class="sxs-lookup"><span data-stu-id="133cb-103">The AS2EDISend and AS2Send send pipelines generate an outbound message as follows.</span></span> <span data-ttu-id="133cb-104">每個管線會使用的單向協議索引標籤中的屬性**協議屬性**來產生外寄 AS2 訊息的對話方塊。</span><span class="sxs-lookup"><span data-stu-id="133cb-104">Each pipeline uses the properties in the one-way agreement tab of the **Agreement Properties** dialog box to generate the outgoing AS2 message.</span></span>  

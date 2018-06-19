@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240174"
 ---
 # <a name="error---required-field-has-no-input"></a><span data-ttu-id="e9ec0-102">錯誤-必要的欄位有沒有輸入</span><span class="sxs-lookup"><span data-stu-id="e9ec0-102">Error - Required Field Has No Input</span></span>
 <span data-ttu-id="e9ec0-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="e9ec0-103">**Error Code**</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "適用於 Excel 的 BAM 增益集使用的需求 |Microsoft 文件"
-ms.custom: 
+title: 適用於 Excel 的 BAM 增益集使用的需求 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - data analysis [BAM], Excel add-in
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - managing [BAM], data analysis
 - data analysis [BAM], real-time data
 ms.assetid: 628a7ec5-4cfb-4abd-bdff-4e1f75cb5375
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268438"
 ---
 # <a name="requirements-for-using-the-bam-add-in-for-excel"></a><span data-ttu-id="b0099-102">使用 Excel 的 BAM 增益集的需求</span><span class="sxs-lookup"><span data-stu-id="b0099-102">Requirements for Using the BAM Add-In for Excel</span></span>
 <span data-ttu-id="b0099-103">商務分析師會使用 Excel 的 BAM 增益集來定義要追蹤的事件和資料，以及使用者所能存取之追蹤資料檢視的邏輯群組和彙總。</span><span class="sxs-lookup"><span data-stu-id="b0099-103">Business analysts use the BAM Add-In for Excel to define the events and data to be tracked, along with the logical groupings and aggregations of the tracked data views that users are able to access.</span></span>  

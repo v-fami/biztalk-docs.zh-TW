@@ -1,17 +1,17 @@
 ---
-title: "設計分散式的架構 |Microsoft 文件"
-ms.custom: 
+title: 設計分散式的架構 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - clustering, SQL Servers
 - SQL Server, clustering
 ms.assetid: 8a8f1710-4d53-42bf-b5e5-2be3b43813b4
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239422"
 ---
 # <a name="designing-a-distributed-architecture"></a><span data-ttu-id="85cd3-102">設計分散式架構</span><span class="sxs-lookup"><span data-stu-id="85cd3-102">Designing a Distributed Architecture</span></span>
 <span data-ttu-id="85cd3-103">完成 BizTalk Server 部署的系統架構的詳細資訊，請參閱[範例 BizTalk Server 架構](../core/sample-biztalk-server-architectures.md)。</span><span class="sxs-lookup"><span data-stu-id="85cd3-103">For complete information about the system architecture for BizTalk Server deployment, see [Sample BizTalk Server Architectures](../core/sample-biztalk-server-architectures.md).</span></span>  

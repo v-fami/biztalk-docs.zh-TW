@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22245966"
 ---
 # <a name="find-method"></a><span data-ttu-id="26da1-102">Find 方法</span><span class="sxs-lookup"><span data-stu-id="26da1-102">Find Method</span></span>
 <span data-ttu-id="26da1-103">用來傳回滿足提供的部分搜尋索引鍵的索引鍵清單。</span><span class="sxs-lookup"><span data-stu-id="26da1-103">Used to return a list of keys that satisfy the supplied partial search keys.</span></span> <span data-ttu-id="26da1-104">請注意，對於只有一個執行個體的元件介面 (即沒有索引鍵)，則不會產生 `Find()` 函數。</span><span class="sxs-lookup"><span data-stu-id="26da1-104">Note that for a component interface that has only one instance, that is, there is no key, the `Find()` function is not generated.</span></span> <span data-ttu-id="26da1-105">另請參閱[Get 方法](../core/get-method.md)。</span><span class="sxs-lookup"><span data-stu-id="26da1-105">See also [Get Method](../core/get-method.md).</span></span>  

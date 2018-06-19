@@ -1,11 +1,11 @@
 ---
-title: "建立高可用性的 BizTalk Server 環境 |Microsoft 文件"
-ms.custom: 
+title: 建立高可用性的 BizTalk Server 環境 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - architecture, high availability
@@ -22,7 +22,7 @@ helpviewer_keywords:
 - clustering, databases
 - installation, availability
 ms.assetid: 758eb3bd-a25b-4863-a4ca-d7a1635f7542
-caps.latest.revision: "54"
+caps.latest.revision: 54
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -31,6 +31,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239398"
 ---
 # <a name="creating-a-highly-available-biztalk-server-environment"></a><span data-ttu-id="e2792-102">建立高度可用的 BizTalk 伺服器環境</span><span class="sxs-lookup"><span data-stu-id="e2792-102">Creating a Highly Available BizTalk Server Environment</span></span>
 <span data-ttu-id="e2792-103">本章節描述如何在 Microsoft 通訊與資料提供高可用性[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]整合不同的系統和應用程式時。</span><span class="sxs-lookup"><span data-stu-id="e2792-103">This section describes how to provide high availability for the data and communications in Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] when integrating disparate systems and applications.</span></span> [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="e2792-104">將資料從處理資料，讓您以解決可用性問題擴充資料庫和裝載獨立的主機。</span><span class="sxs-lookup"><span data-stu-id="e2792-104"> separates the data from the hosts that process the data, enabling you to resolve availability issues by scaling the databases and hosts independently.</span></span>  

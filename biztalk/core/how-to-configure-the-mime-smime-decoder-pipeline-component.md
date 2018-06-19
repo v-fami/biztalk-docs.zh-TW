@@ -1,11 +1,11 @@
 ---
-title: "如何設定 MIME SMIME 解碼器管線元件 |Microsoft 文件"
-ms.custom: 
+title: 如何設定 MIME SMIME 解碼器管線元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, attachments
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - messages, digital signatures
 - messages, security
 ms.assetid: bfd44893-f1c3-4524-abc6-f820b8c0ef07
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249718"
 ---
 # <a name="how-to-configure-the-mime-smime-decoder-pipeline-component"></a><span data-ttu-id="e583c-102">如何設定 MIME SMIME 解碼器管線元件</span><span class="sxs-lookup"><span data-stu-id="e583c-102">How to Configure the MIME-SMIME Decoder Pipeline Component</span></span>
 <span data-ttu-id="e583c-103">MIME/SMIME 解碼器管線元件可用來解碼和解密經過 MIME/SMIME 編碼的訊息，也可以用來驗證簽章訊息的數位簽章。</span><span class="sxs-lookup"><span data-stu-id="e583c-103">The MIME/SMIME Decoder pipeline component is used for decoding and decrypting MIME/SMIME encoded messages and for verifying digital signatures of signed messages.</span></span> <span data-ttu-id="e583c-104">當外部夥伴和 BizTalk Server 之間需要安全的文件交換時，這個元件會非常有用。</span><span class="sxs-lookup"><span data-stu-id="e583c-104">This component is useful when secured document interchange is needed between external partners and BizTalk Server.</span></span> <span data-ttu-id="e583c-105">在接收有附件的訊息時也可以使用這個元件。</span><span class="sxs-lookup"><span data-stu-id="e583c-105">This component can also be used for receiving messages with attachments.</span></span>  

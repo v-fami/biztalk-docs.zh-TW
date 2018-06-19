@@ -1,11 +1,11 @@
 ---
-title: "主機 |Microsoft 文件"
-ms.custom: 
+title: 主機 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - host instances, servers
@@ -25,7 +25,7 @@ helpviewer_keywords:
 - Isolated Host Users group
 - hosts, trusted
 ms.assetid: d96537e0-e679-407a-8870-34a663acfed9
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -34,6 +34,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247222"
 ---
 # <a name="hosts"></a><span data-ttu-id="ee82c-102">主控件</span><span class="sxs-lookup"><span data-stu-id="ee82c-102">Hosts</span></span>
 <span data-ttu-id="ee82c-103">BizTalk 主控件物件代表零個或多個執行階段程序的一組邏輯，在此執行階段程序中您可以部署服務、管線與其他成品。</span><span class="sxs-lookup"><span data-stu-id="ee82c-103">The BizTalk Host object represents a logical set of zero or more runtime processes in which you can deploy services, pipelines, and other artifacts.</span></span> <span data-ttu-id="ee82c-104">主控件物件也代表執行階段執行個體的集合 (零個或多個)，是已部署的項目實際執行的位置。</span><span class="sxs-lookup"><span data-stu-id="ee82c-104">The Host object also represents a collection of runtime instances (zero or more) where the deployed items physically run.</span></span>  

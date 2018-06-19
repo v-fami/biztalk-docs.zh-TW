@@ -1,14 +1,14 @@
 ---
-title: "交換有結構的錯誤。 可能的原因是因為遺漏歸位無效的區段結束字元和-或換行字元 seperators |Microsoft 文件"
-ms.custom: 
+title: 交換有結構的錯誤。 可能的原因是因為遺漏歸位無效的區段結束字元和-或換行字元 seperators |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 035e37d5-d4a8-49d0-8d75-3bcf2426cac7
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241742"
 ---
 # <a name="the-interchange-had-structural-error-a-likely-cause-is-invalid-segment-terminator-due-to-missing-carriage-line-and-or-line-feed-seperators"></a><span data-ttu-id="5aaf6-103">交換有結構的錯誤。</span><span class="sxs-lookup"><span data-stu-id="5aaf6-103">The interchange had structural error.</span></span> <span data-ttu-id="5aaf6-104">可能的原因是因為遺漏歸位無效的區段結束字元和-或換行字元 seperators</span><span class="sxs-lookup"><span data-stu-id="5aaf6-104">A likely cause is invalid segment terminator due to missing Carriage Line and-or Line Feed seperators</span></span>
 ## <a name="details"></a><span data-ttu-id="5aaf6-105">詳細資料</span><span class="sxs-lookup"><span data-stu-id="5aaf6-105">Details</span></span>  

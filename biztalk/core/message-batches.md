@@ -1,14 +1,14 @@
 ---
-title: "訊息批次 |Microsoft 文件"
-ms.custom: 
+title: 訊息批次 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5f893d16-2670-4463-9a89-6f5be912a045
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262718"
 ---
 # <a name="message-batches"></a><span data-ttu-id="9e287-102">訊息批次</span><span class="sxs-lookup"><span data-stu-id="9e287-102">Message Batches</span></span>
 <span data-ttu-id="9e287-103">需要同時處理配接器的訊息群組時，您應該批次處理這些訊息，以最佳化效能。</span><span class="sxs-lookup"><span data-stu-id="9e287-103">When your adapter has a group of messages that need to be processed at one time, you should batch these messages to optimize performance.</span></span> <span data-ttu-id="9e287-104">就程式設計來說，訊息批次是具有關聯作業的訊息集合。</span><span class="sxs-lookup"><span data-stu-id="9e287-104">Programmatically, message batches are collections of messages with an associated operation.</span></span> <span data-ttu-id="9e287-105">將批次中的訊息分組，而不個別提交每個訊息，您可以最佳化使用資源和處理工作。</span><span class="sxs-lookup"><span data-stu-id="9e287-105">By grouping messages in a batch rather than submitting each message individually, you optimize the use of resources and processing tasks.</span></span> [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="9e287-106">使用批次處理，以：</span><span class="sxs-lookup"><span data-stu-id="9e287-106"> uses batching to:</span></span>  

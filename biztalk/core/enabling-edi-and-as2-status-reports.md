@@ -1,14 +1,14 @@
 ---
-title: "啟用 EDI 和 AS2 狀態報告 |Microsoft 文件"
-ms.custom: 
+title: 啟用 EDI 和 AS2 狀態報告 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: aa40fbad-51ad-40e0-9fe3-68e54beb11a5
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22242910"
 ---
 # <a name="enabling-edi-and-as2-status-reports"></a><span data-ttu-id="33d90-102">啟用 EDI 和 AS2 狀態報告</span><span class="sxs-lookup"><span data-stu-id="33d90-102">Enabling EDI and AS2 Status Reports</span></span>
 <span data-ttu-id="33d90-103">本主題描述如何設定 EDI 和 AS2 狀態報告中的**群組概觀**頁面[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台。</span><span class="sxs-lookup"><span data-stu-id="33d90-103">This topic describes how to configure the EDI and AS2 status reports in the **Group Overview** page of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console.</span></span>  
@@ -91,9 +92,9 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  <span data-ttu-id="33d90-143">這個步驟會讓訊息項目輸入到 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台中的狀態報告 UI。</span><span class="sxs-lookup"><span data-stu-id="33d90-143">This step causes message entries to be entered in the status report UI in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console.</span></span>  
   
-5.  <span data-ttu-id="33d90-144">在單向協議索引標籤的**協議屬性**對話方塊中，按一下 **接收者訊息追蹤 (NRR)**頁面。</span><span class="sxs-lookup"><span data-stu-id="33d90-144">In the one-way agreement tab of the **Agreement Properties** dialog box, click the **Receiver Message Tracking (NRR)** page.</span></span>  
+5.  <span data-ttu-id="33d90-144">在單向協議索引標籤的**協議屬性**對話方塊中，按一下 **接收者訊息追蹤 (NRR)** 頁面。</span><span class="sxs-lookup"><span data-stu-id="33d90-144">In the one-way agreement tab of the **Agreement Properties** dialog box, click the **Receiver Message Tracking (NRR)** page.</span></span>  
   
-6.  <span data-ttu-id="33d90-145">在**接收者訊息追蹤 (NRR)**頁面上，按一下**為輸入的編碼 AS2 訊息啟用 NRR**以啟用內送訊息的電傳格式顯示。</span><span class="sxs-lookup"><span data-stu-id="33d90-145">In the **Receiver Message Tracking (NRR)** page, click **NRR enabled for inbound encoded AS2 messages** to enable display of the wire format of incoming messages.</span></span>  
+6.  <span data-ttu-id="33d90-145">在**接收者訊息追蹤 (NRR)** 頁面上，按一下**為輸入的編碼 AS2 訊息啟用 NRR**以啟用內送訊息的電傳格式顯示。</span><span class="sxs-lookup"><span data-stu-id="33d90-145">In the **Receiver Message Tracking (NRR)** page, click **NRR enabled for inbound encoded AS2 messages** to enable display of the wire format of incoming messages.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="33d90-146">當您以滑鼠右鍵按一下 [AS2 訊息和相互關聯的 MDN 狀態] 頁面中的訊息，然後按一下時，將會顯示訊息的電傳格式**訊息電傳格式**。</span><span class="sxs-lookup"><span data-stu-id="33d90-146">The wire format of the message will be displayed when you right-click the message in the AS2 Message and Correlated MDN Status Page, and then click **Message Wire Format**.</span></span>  
@@ -101,17 +102,17 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  <span data-ttu-id="33d90-147">**開啟報告**必須選取屬性，您才能啟用不可否認性資料庫中的任何資料的儲存體。</span><span class="sxs-lookup"><span data-stu-id="33d90-147">The **Turn ON Reporting** property must be selected for you to enable storage of any data in the non-repudiation database.</span></span> <span data-ttu-id="33d90-148">如果您選取這個屬性或其他啟用不可否認性資料庫中之儲存區的屬性，就會顯示快顯提示您啟動 AS2 報告。</span><span class="sxs-lookup"><span data-stu-id="33d90-148">If you select this or any of the other properties enabling storage in the non-repudiation database, a popup will be displayed prompting you to activate AS2 reporting.</span></span> <span data-ttu-id="33d90-149">如果您按一下**是**，將會為您啟動 AS2 報告。</span><span class="sxs-lookup"><span data-stu-id="33d90-149">If you click **Yes**, AS2 reporting will be activated for you.</span></span>  
   
-7.  <span data-ttu-id="33d90-150">在**接收者訊息追蹤 (NRR)**頁面上，按一下**為輸入的解碼 AS2 訊息啟用 NRR**以啟用內送訊息的解碼格式顯示。</span><span class="sxs-lookup"><span data-stu-id="33d90-150">In the **Receiver Message Tracking (NRR)** page, click **NRR enabled for inbound decoded AS2 messages** to enable display of the decoded format of incoming messages.</span></span>  
+7.  <span data-ttu-id="33d90-150">在**接收者訊息追蹤 (NRR)** 頁面上，按一下**為輸入的解碼 AS2 訊息啟用 NRR**以啟用內送訊息的解碼格式顯示。</span><span class="sxs-lookup"><span data-stu-id="33d90-150">In the **Receiver Message Tracking (NRR)** page, click **NRR enabled for inbound decoded AS2 messages** to enable display of the decoded format of incoming messages.</span></span>  
   
-8.  <span data-ttu-id="33d90-151">在**接收者訊息追蹤 (NRR)**頁面上，按一下**為輸出的 MDN 啟用 NRR**以啟用內送訊息 MDN 回應的顯示。</span><span class="sxs-lookup"><span data-stu-id="33d90-151">In the **Receiver Message Tracking (NRR)** page, click **NRR enabled for outbound MDN** to enable display of MDN responses to incoming messages.</span></span>  
+8.  <span data-ttu-id="33d90-151">在**接收者訊息追蹤 (NRR)** 頁面上，按一下**為輸出的 MDN 啟用 NRR**以啟用內送訊息 MDN 回應的顯示。</span><span class="sxs-lookup"><span data-stu-id="33d90-151">In the **Receiver Message Tracking (NRR)** page, click **NRR enabled for outbound MDN** to enable display of MDN responses to incoming messages.</span></span>  
   
-9. <span data-ttu-id="33d90-152">在單向協議索引標籤的**協議屬性**對話方塊中，按一下 **寄件者訊息追蹤 (NRR)**頁面。</span><span class="sxs-lookup"><span data-stu-id="33d90-152">In the one-way agreement tab of the **Agreement Properties** dialog box, click the **Sender Message Tracking (NRR)** page.</span></span>  
+9. <span data-ttu-id="33d90-152">在單向協議索引標籤的**協議屬性**對話方塊中，按一下 **寄件者訊息追蹤 (NRR)** 頁面。</span><span class="sxs-lookup"><span data-stu-id="33d90-152">In the one-way agreement tab of the **Agreement Properties** dialog box, click the **Sender Message Tracking (NRR)** page.</span></span>  
   
-10. <span data-ttu-id="33d90-153">在**寄件者訊息追蹤 (NRR)**頁面上，按一下**為輸出的編碼 AS2 訊息啟用 NRR**以啟用外寄訊息的電傳格式顯示。</span><span class="sxs-lookup"><span data-stu-id="33d90-153">In the **Sender Message Tracking (NRR)** page, click **NRR enabled for outbound encoded AS2 messages** to enable display of the wire format of outgoing messages.</span></span>  
+10. <span data-ttu-id="33d90-153">在**寄件者訊息追蹤 (NRR)** 頁面上，按一下**為輸出的編碼 AS2 訊息啟用 NRR**以啟用外寄訊息的電傳格式顯示。</span><span class="sxs-lookup"><span data-stu-id="33d90-153">In the **Sender Message Tracking (NRR)** page, click **NRR enabled for outbound encoded AS2 messages** to enable display of the wire format of outgoing messages.</span></span>  
   
-11. <span data-ttu-id="33d90-154">在**寄件者訊息追蹤 (NRR)**頁面上，按一下**為輸出的解碼 AS2 訊息啟用 NRR**以啟用外寄訊息的解碼格式顯示。</span><span class="sxs-lookup"><span data-stu-id="33d90-154">In the **Sender Message Tracking (NRR)** page, click **NRR enabled for outbound decoded AS2 messages** to enable display of the decoded format of outgoing messages.</span></span>  
+11. <span data-ttu-id="33d90-154">在**寄件者訊息追蹤 (NRR)** 頁面上，按一下**為輸出的解碼 AS2 訊息啟用 NRR**以啟用外寄訊息的解碼格式顯示。</span><span class="sxs-lookup"><span data-stu-id="33d90-154">In the **Sender Message Tracking (NRR)** page, click **NRR enabled for outbound decoded AS2 messages** to enable display of the decoded format of outgoing messages.</span></span>  
   
-12. <span data-ttu-id="33d90-155">在**寄件者訊息追蹤 (NRR)**頁面上，按一下**為輸入的 MDN 啟用 NRR**以啟用外寄訊息 MDN 回應的顯示。</span><span class="sxs-lookup"><span data-stu-id="33d90-155">In the **Sender Message Tracking (NRR)** page, click **NRR enabled for inbound MDN** to enable display of MDN responses to outgoing messages.</span></span>  
+12. <span data-ttu-id="33d90-155">在**寄件者訊息追蹤 (NRR)** 頁面上，按一下**為輸入的 MDN 啟用 NRR**以啟用外寄訊息 MDN 回應的顯示。</span><span class="sxs-lookup"><span data-stu-id="33d90-155">In the **Sender Message Tracking (NRR)** page, click **NRR enabled for inbound MDN** to enable display of MDN responses to outgoing messages.</span></span>  
   
 13. <span data-ttu-id="33d90-156">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="33d90-156">Click **OK**.</span></span>  
   

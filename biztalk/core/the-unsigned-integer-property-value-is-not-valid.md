@@ -1,14 +1,14 @@
 ---
-title: "不帶正負號的整數屬性值無效。 |Microsoft 文件"
-ms.custom: 
+title: 不帶正負號的整數屬性值無效。 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 63b0398f-7848-4971-8c08-95923d80cbe3
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278174"
 ---
 # <a name="the-unsigned-integer-property-value-is-not-valid"></a><span data-ttu-id="eed4b-102">不帶正負號的整數屬性值無效</span><span class="sxs-lookup"><span data-stu-id="eed4b-102">The unsigned integer property value is not valid</span></span>
 ## <a name="details"></a><span data-ttu-id="eed4b-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="eed4b-103">Details</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "設計安全架構 |Microsoft 文件"
-ms.custom: 
+title: 設計安全架構 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - firewalls
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - installation, firewalls
 - installation, security
 ms.assetid: 93df6a3f-396c-4767-99c8-2145bddf8fdf
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239446"
 ---
 # <a name="designing-a-secure-architecture"></a><span data-ttu-id="64820-102">設計安全架構</span><span class="sxs-lookup"><span data-stu-id="64820-102">Designing a Secure Architecture</span></span>
 <span data-ttu-id="64820-103">完成 BizTalk Server 部署的系統架構的詳細資訊，請參閱[範例 BizTalk Server 架構](../core/sample-biztalk-server-architectures.md)。</span><span class="sxs-lookup"><span data-stu-id="64820-103">For complete information about the system architecture for BizTalk Server deployment, see [Sample BizTalk Server Architectures](../core/sample-biztalk-server-architectures.md).</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "如何設定接收和傳送位置以及連接埠的 BAM WCF 攔截 |Microsoft 文件"
-ms.custom: 
+title: 如何設定接收和傳送位置以及連接埠的 BAM WCF 攔截 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 501194dc-427a-4910-88c9-19cf47daeaad
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248438"
 ---
 # <a name="how-to-configure-receive-and-send-locations-and-ports-for-bam-wcf-interception"></a><span data-ttu-id="a023a-102">如何設定 BAM WCF 攔截的接收和傳送位置及連接埠</span><span class="sxs-lookup"><span data-stu-id="a023a-102">How to Configure Receive and Send Locations and Ports for BAM WCF Interception</span></span>
 <span data-ttu-id="a023a-103">在這個程序中，您將在根據訊息內容決定路由 (CBR) 的情況下設定接收和傳送位置，以最直接的方式說明重要概念。</span><span class="sxs-lookup"><span data-stu-id="a023a-103">In this procedure you configure the receive and send locations in a content-based routing (CBR) scenario in order to demonstrate the key concepts in a straightforward manner.</span></span> <span data-ttu-id="a023a-104">此處說明的概念適用於做為 [!INCLUDE[firstref_btsWinCommFoundation](../includes/firstref-btswincommfoundation-md.md)] 服務公開的協調流程。</span><span class="sxs-lookup"><span data-stu-id="a023a-104">The concepts demonstrated here can be applied to an orchestration that is exposed as a [!INCLUDE[firstref_btsWinCommFoundation](../includes/firstref-btswincommfoundation-md.md)] service.</span></span>  
@@ -40,7 +41,7 @@ ms.lasthandoff: 09/20/2017
   
 5.  <span data-ttu-id="a023a-118">按一下**繫結**索引標籤上，選取您想要使用的繫結。</span><span class="sxs-lookup"><span data-stu-id="a023a-118">Click the **Binding** tab and select the binding you want to use.</span></span>  
   
-6.  <span data-ttu-id="a023a-119">按一下**行為**索引標籤上，以滑鼠右鍵按一下**[endpointbehavior]**節點，然後再選取**加入擴充**。</span><span class="sxs-lookup"><span data-stu-id="a023a-119">Click the **Behavior** tab, right-click the **EndpointBehavior** node, and then select **Add Extension**.</span></span>  
+6.  <span data-ttu-id="a023a-119">按一下**行為**索引標籤上，以滑鼠右鍵按一下 **[endpointbehavior]** 節點，然後再選取**加入擴充**。</span><span class="sxs-lookup"><span data-stu-id="a023a-119">Click the **Behavior** tab, right-click the **EndpointBehavior** node, and then select **Add Extension**.</span></span>  
   
 7.  <span data-ttu-id="a023a-120">選取 （這是您加入至 machine.config 檔案的副檔名） [bamendpointextension]，然後再按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="a023a-120">Select the BAMEndPointExtension (this is the extension you added to the machine.config file), and then click **Ok**.</span></span>  
   

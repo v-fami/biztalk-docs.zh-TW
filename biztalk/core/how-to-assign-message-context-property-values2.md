@@ -1,14 +1,14 @@
 ---
-title: "如何指派訊息內容屬性 Values2 |Microsoft 文件"
-ms.custom: 
+title: 如何指派訊息內容屬性 Values2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 137f82ab-f301-465d-be78-a6e67971dd3b
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247206"
 ---
 # <a name="how-to-assign-message-context-property-values"></a><span data-ttu-id="8d20e-102">如何指派訊息內容屬性值</span><span class="sxs-lookup"><span data-stu-id="8d20e-102">How to Assign Message Context Property Values</span></span>
 <span data-ttu-id="8d20e-103">若要從 BizTalk 協調流程管理 JD Edwards OneWorld 連接工作階段，您必須在專案中加入對 Microsoft.BizTalk.Adapters.JDEProperties.dll 的參照。</span><span class="sxs-lookup"><span data-stu-id="8d20e-103">To manage the JD Edwards OneWorld connection session from a BizTalk orchestration, you must add the reference to Microsoft.BizTalk.Adapters.JDEProperties.dll in your project.</span></span> <span data-ttu-id="8d20e-104">這個組件位於 %SystemDrive%\Program Files\Common Files\Microsoft BizTalk Adapters for Enterprise Applications\bin。</span><span class="sxs-lookup"><span data-stu-id="8d20e-104">This assembly is located in %SystemDrive%\Program Files\Common Files\Microsoft BizTalk Adapters for Enterprise Applications\bin.</span></span>  

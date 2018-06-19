@@ -1,14 +1,14 @@
 ---
-title: "Visual Studio 中的結構描述驗證 |Microsoft 文件"
-ms.custom: 
+title: Visual Studio 中的結構描述驗證 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 630be4a1-ca86-49c5-8015-0419babb447d
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269302"
 ---
 # <a name="schema-validation-in-visual-studio"></a><span data-ttu-id="813a5-102">Visual Studio 中的結構描述驗證</span><span class="sxs-lookup"><span data-stu-id="813a5-102">Schema Validation in Visual Studio</span></span>
 <span data-ttu-id="813a5-103">您已完成建立結構描述，或在不同的時間，在其建立期間，您可以驗證它來判斷是否包含任何內部不一致，或有其他問題，可能會防止它使用有效的處理序執行個體訊息。</span><span class="sxs-lookup"><span data-stu-id="813a5-103">After you have finished creating a schema, or at different times during its creation, you can validate it to determine whether it contains any internal inconsistencies, or has other issues that might prevent it from being used effectively for process instance messages.</span></span>  

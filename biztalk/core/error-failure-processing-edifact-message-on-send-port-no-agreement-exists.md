@@ -1,14 +1,14 @@
 ---
-title: "在處理傳送埠上的 Edifact 訊息發生失敗： 沒有接收者和傳送者識別碼辨識符號組和名稱的任何合作對象的協議 |Microsoft 文件"
-ms.custom: 
+title: 在處理傳送埠上的 Edifact 訊息發生失敗： 沒有接收者和傳送者識別碼辨識符號組和名稱的任何合作對象的協議 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 11880c7c-6032-449b-b251-27fc2b2f0d72
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240094"
 ---
 # <a name="a-failure-occurred-in-processing-edifact-message-on-send-port-no-agreement-for-receiver-and-sender-identifier-qualifier-pairs-and-no-party-with-name"></a><span data-ttu-id="4dd7d-102">在處理傳送埠上的 Edifact 訊息發生失敗： 沒有接收者和傳送者識別碼辨識符號組和名稱的任何合作對象的協議</span><span class="sxs-lookup"><span data-stu-id="4dd7d-102">A failure occurred in processing Edifact message on send port: No agreement for receiver and sender identifier-qualifier pairs and no party with name</span></span>
 ## <a name="details"></a><span data-ttu-id="4dd7d-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="4dd7d-103">Details</span></span>  

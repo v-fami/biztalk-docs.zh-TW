@@ -1,14 +1,14 @@
 ---
-title: "如何複製、 剪下和貼上運算質 |Microsoft 文件"
-ms.custom: 
+title: 如何複製、 剪下和貼上運算質 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 825847e4-87db-4b40-8e5d-5b5b1c79c6de
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249526"
 ---
 # <a name="how-to-copy-cut-and-paste-a-functoid"></a><span data-ttu-id="141b9-102">如何複製、剪下與貼上運算質</span><span class="sxs-lookup"><span data-stu-id="141b9-102">How to Copy, Cut, and Paste a Functoid</span></span>
 <span data-ttu-id="141b9-103">「BizTalk 對應工具」中的複製/剪下/貼上功能可讓人重複使用運算質。</span><span class="sxs-lookup"><span data-stu-id="141b9-103">The copy/cut/paste feature in the BizTalk Mapper enables the reusability of functoids.</span></span> <span data-ttu-id="141b9-104">在對應中，您可以將某個格線頁中的一或多個運算質複製、剪下及貼至另一個格線頁。</span><span class="sxs-lookup"><span data-stu-id="141b9-104">In a map, you can copy, cut, and paste one or more functoids from one grid page to another.</span></span> <span data-ttu-id="141b9-105">本主題提供執行這些作業的逐步指示。</span><span class="sxs-lookup"><span data-stu-id="141b9-105">This topic provides step-by-step instructions to perform these operations.</span></span>  

@@ -1,18 +1,18 @@
 ---
-title: "如何執行原則 |Microsoft 文件"
-ms.custom: 
+title: 如何執行原則 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Business Rules Framework, policies
 - Business Rules Framework, code samples
 - Business Rules Framework, programming
 ms.assetid: 90d28d9d-0204-47de-a927-26e284c886e4
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22253798"
 ---
 # <a name="how-to-execute-policies"></a><span data-ttu-id="8f5f4-102">如何執行原則</span><span class="sxs-lookup"><span data-stu-id="8f5f4-102">How to Execute Policies</span></span>
 <span data-ttu-id="8f5f4-103">下列範例程式碼示範如何叫用規則引擎來執行原則以程式設計方式使用**原則**類別**Microsoft.RuleEngine**組件。</span><span class="sxs-lookup"><span data-stu-id="8f5f4-103">The following sample code shows how to invoke the rule engine to execute a policy programmatically by using the **Policy** class in the **Microsoft.RuleEngine** assembly.</span></span>  

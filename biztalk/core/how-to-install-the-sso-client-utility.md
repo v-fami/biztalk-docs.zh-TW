@@ -1,11 +1,11 @@
 ---
-title: "如何安裝 SSO 用戶端公用程式 |Microsoft 文件"
-ms.custom: 
+title: 如何安裝 SSO 用戶端公用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - installing, SSO
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - client utility [SSO]
 - SSO, installing
 ms.assetid: e14d257e-2fde-46af-b90c-5dbc0884536b
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254246"
 ---
 # <a name="how-to-install-the-sso-client-utility"></a><span data-ttu-id="4c2f1-102">如何安裝 SSO 用戶端公用程式</span><span class="sxs-lookup"><span data-stu-id="4c2f1-102">How to Install the SSO Client Utility</span></span>
 <span data-ttu-id="4c2f1-103">獨立的 SSO 用戶端公用程式 (命令列公用程式，以使用者介面為基礎) 讓一般使用者可以在 SSO 資料庫中設定其用戶端對應。</span><span class="sxs-lookup"><span data-stu-id="4c2f1-103">The stand-alone SSO client utility (command-line utility and user interface-based) allows end users to configure their client mappings in the SSO database.</span></span> <span data-ttu-id="4c2f1-104">SSO 用戶端公用程式是以自我解壓縮檔 (SSOClientInstall.exe) 的方式安裝，並且會隨 SSO 管理功能一併安裝。</span><span class="sxs-lookup"><span data-stu-id="4c2f1-104">You can install the client utility from a self-extracting file (SSOClientInstall.exe) which is installed with the SSO administration feature.</span></span> <span data-ttu-id="4c2f1-105">系統管理員也可將安裝程式封裝放在網路共用上，讓用戶端使用者使用安裝程式封裝。</span><span class="sxs-lookup"><span data-stu-id="4c2f1-105">Administrators can also make the installer package available to client users by placing a copy of the installer package on a network share.</span></span>  

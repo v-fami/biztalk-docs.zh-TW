@@ -1,14 +1,14 @@
 ---
-title: "一般檔案訊息內文 |Microsoft 文件"
-ms.custom: 
+title: 一般檔案訊息內文 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 097e49a1-75d2-44a4-9372-d78de7b7597c
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246782"
 ---
 # <a name="flat-file-message-bodies"></a><span data-ttu-id="42322-102">一般檔案訊息內文</span><span class="sxs-lookup"><span data-stu-id="42322-102">Flat File Message Bodies</span></span>
 <span data-ttu-id="42322-103">一般檔案執行個體訊息內文為必要項目，一般檔案解譯器會將其處理為一或多個 XML 執行個體訊息。</span><span class="sxs-lookup"><span data-stu-id="42322-103">A flat file instance message body, which is required, is what the flat file disassembler processes into one or more XML instance messages.</span></span> <span data-ttu-id="42322-104">若要知道在內送一般檔案執行個體訊息內文中有哪些資料，您必須使用與內文對應的一般檔案結構描述來設定一般檔案解譯器。</span><span class="sxs-lookup"><span data-stu-id="42322-104">To know what data to expect in an inbound flat file instance message body, you must configure the flat file disassembler with the flat file schema that corresponds to the body.</span></span> <span data-ttu-id="42322-105">您可以使用指定的結構描述**文件結構描述**的一般檔案解譯器的設計階段屬性或**XMLNORM。DocumentSpecName**訊息內容屬性。</span><span class="sxs-lookup"><span data-stu-id="42322-105">You can specify the schema by using the **Document schema** design-time property of the flat file disassembler or the **XMLNORM.DocumentSpecName** message context property.</span></span> <span data-ttu-id="42322-106">因為一般檔案執行個體訊息必須要有內文部分，所以，您必須使用這兩個方法其中一個來設定適當的結構描述。</span><span class="sxs-lookup"><span data-stu-id="42322-106">Because flat file instance messages must have a body part, you must configure the appropriate schema using one of these two methods.</span></span>  

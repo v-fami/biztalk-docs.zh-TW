@@ -1,17 +1,17 @@
 ---
-title: "資料維度 |Microsoft 文件"
-ms.custom: 
+title: 資料維度 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Data dimension [BAM]
 - aggregations [BAM], data dimensions
 ms.assetid: 07b5e56a-4fd5-4c88-a98a-758e514d0621
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238350"
 ---
 # <a name="data-dimension"></a><span data-ttu-id="cd893-102">資料維度</span><span class="sxs-lookup"><span data-stu-id="cd893-102">Data Dimension</span></span>
 <span data-ttu-id="cd893-103">定義資料維度以允許將 BAM 活動中部分文字項目的值使用在資料列或資料行上。</span><span class="sxs-lookup"><span data-stu-id="cd893-103">Defining a data dimension allows the value of some text items in the BAM activity to be used on rows or columns.</span></span> <span data-ttu-id="cd893-104">例如，名為「產品」的資料維度可以用來建立下列資料表：</span><span class="sxs-lookup"><span data-stu-id="cd893-104">For example a data dimension named Product can be used to create the following table:</span></span>  
@@ -29,7 +30,7 @@ ms.lasthandoff: 09/20/2017
 |<span data-ttu-id="cd893-107">網球拍</span><span class="sxs-lookup"><span data-stu-id="cd893-107">Tennis racquets</span></span>|<span data-ttu-id="cd893-108">100</span><span class="sxs-lookup"><span data-stu-id="cd893-108">100</span></span>|  
 |<span data-ttu-id="cd893-109">足球</span><span class="sxs-lookup"><span data-stu-id="cd893-109">Soccer balls</span></span>|<span data-ttu-id="cd893-110">200</span><span class="sxs-lookup"><span data-stu-id="cd893-110">200</span></span>|  
   
- <span data-ttu-id="cd893-111">此外，您也可以在 BAM 檢視精靈中定義一個以上的資料維度。</span><span class="sxs-lookup"><span data-stu-id="cd893-111">Also, more than one data dimension can be defined in the BAM view wizard.</span></span> <span data-ttu-id="cd893-112">例如，定義名為的資料維度**位置**的層級**狀態**和**縣 （市)**可用來建立下列資料表：</span><span class="sxs-lookup"><span data-stu-id="cd893-112">For example, defining a data dimension named **Location** with levels for **State** and **City** can be used to create the following table:</span></span>  
+ <span data-ttu-id="cd893-111">此外，您也可以在 BAM 檢視精靈中定義一個以上的資料維度。</span><span class="sxs-lookup"><span data-stu-id="cd893-111">Also, more than one data dimension can be defined in the BAM view wizard.</span></span> <span data-ttu-id="cd893-112">例如，定義名為的資料維度**位置**的層級**狀態**和**縣 （市)** 可用來建立下列資料表：</span><span class="sxs-lookup"><span data-stu-id="cd893-112">For example, defining a data dimension named **Location** with levels for **State** and **City** can be used to create the following table:</span></span>  
   
 |||||  
 |-|-|-|-|  

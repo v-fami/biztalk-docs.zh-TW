@@ -18,6 +18,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22265358"
 ---
 # <a name="monitoring-biztalk-server"></a><span data-ttu-id="5cd31-103">監控 BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="5cd31-103">Monitoring BizTalk Server</span></span>
 <span data-ttu-id="5cd31-104">定期監控 BizTalk Server 應用程式和基礎結構並解決所發現的任何問題，有助於維持您的 BizTalk Server 應用程式讓使用者存取。</span><span class="sxs-lookup"><span data-stu-id="5cd31-104">Monitoring your BizTalk Server applications and infrastructure on a regular basis and resolving any issues that you find helps to keep your BizTalk Server applications accessible to your users.</span></span> <span data-ttu-id="5cd31-105">監控的目標是要讓例外情形未獲得偵測 (亦即未解決) 的時間減至最少。</span><span class="sxs-lookup"><span data-stu-id="5cd31-105">The goal of monitoring is to minimize the amount of time that an exception goes undetected and, therefore, unresolved.</span></span> <span data-ttu-id="5cd31-106">此外，您也可以使用監控來偵測可能造成例外情形的狀況。</span><span class="sxs-lookup"><span data-stu-id="5cd31-106">Additionally, you can use monitoring to help detect situations that might cause an exception.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "設定接收者 MDN 設定 |Microsoft 文件"
-ms.custom: 
+title: 設定接收者 MDN 設定 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: eae6431d-a2b9-4889-a29c-720e801a644e
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233374"
 ---
 # <a name="configuring-receiver-mdn-settings"></a><span data-ttu-id="cba15-102">設定接收者 MDN 設定</span><span class="sxs-lookup"><span data-stu-id="cba15-102">Configuring Receiver MDN Settings</span></span>
 <span data-ttu-id="cba15-103">在接收者 MDN 設定中，您可以根據 AS2 訊息標頭，指定控制 MDN 產生方式的屬性。</span><span class="sxs-lookup"><span data-stu-id="cba15-103">As part of receiver MDN settings, you can specify the properties that govern MDN generation based on the AS2 message header.</span></span>  

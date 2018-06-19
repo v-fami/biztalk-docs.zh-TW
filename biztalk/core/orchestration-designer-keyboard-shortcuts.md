@@ -1,17 +1,17 @@
 ---
-title: "協調流程設計工具鍵盤快速鍵 |Microsoft 文件"
-ms.custom: 
+title: 協調流程設計工具鍵盤快速鍵 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - keyboard shortcuts, Orchestration Designer
 - Orchestration Designer, keyboard shortcuts
 ms.assetid: 8faccbb0-8796-4caf-b6b7-45be42c1e829
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263294"
 ---
 # <a name="orchestration-designer-keyboard-shortcuts"></a><span data-ttu-id="a6fcd-102">協調流程設計師鍵盤快速鍵</span><span class="sxs-lookup"><span data-stu-id="a6fcd-102">Orchestration Designer Keyboard Shortcuts</span></span>
 <span data-ttu-id="a6fcd-103">「協調流程設計師」設計介面提供可透過鍵盤使用的完整協助工具。</span><span class="sxs-lookup"><span data-stu-id="a6fcd-103">The Orchestration Designer design surface provides full accessibility using the keyboard.</span></span> <span data-ttu-id="a6fcd-104">當您開啟的設計介面中，您可以執行 Visual Studio 中，選取從開始功能表選項時，會啟動此協助工具**新增**選項**檔案**功能表。</span><span class="sxs-lookup"><span data-stu-id="a6fcd-104">This accessibility begins when you open the design surface, which you can do in Visual Studio by selecting menu options beginning with the **New** option on the **File**menu.</span></span>  

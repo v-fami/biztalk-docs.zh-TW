@@ -1,11 +1,11 @@
 ---
-title: "如何移除其他檔案和設定 BizTalk 應用程式 |Microsoft 文件"
-ms.custom: 
+title: 如何移除其他檔案和設定 BizTalk 應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [applications], deleting settings
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - applications, undeploying
 - undeploying, files
 ms.assetid: b947831a-c988-435c-92ec-45f3fd6967de
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255062"
 ---
 # <a name="how-to-remove-other-files-and-settings-for-a-biztalk-application"></a><span data-ttu-id="7458b-102">如何移除 BizTalk 應用程式的其他檔案和設定</span><span class="sxs-lookup"><span data-stu-id="7458b-102">How to Remove Other Files and Settings for a BizTalk Application</span></span>
 <span data-ttu-id="7458b-103">本主題描述如何移除檔案和設定可能不會移除當您解除安裝應用程式的 BizTalk 應用程式 (如所述[如何解除安裝 BizTalk 應用程式](../core/how-to-uninstall-a-biztalk-application.md))。</span><span class="sxs-lookup"><span data-stu-id="7458b-103">This topic describes how to remove files and settings for a BizTalk application that may not be removed when you uninstall the application (which is described in [How to Uninstall a BizTalk Application](../core/how-to-uninstall-a-biztalk-application.md)).</span></span> <span data-ttu-id="7458b-104">例如，除非應用程式包含可以在解除安裝時移除憑證、COM 和 COM+ 登錄項目以及 COM 檔案的後置處理指令碼，否則這些項目都不會移除。</span><span class="sxs-lookup"><span data-stu-id="7458b-104">For example, certificates, COM and COM+ registry entries, and COM files are not removed unless the application included a post-processing script that removed them on uninstallation.</span></span>  

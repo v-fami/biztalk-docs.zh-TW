@@ -1,14 +1,14 @@
 ---
-title: "已知問題的 EDI 接收處理 |Microsoft 文件"
-ms.custom: 
+title: 已知問題的 EDI 接收處理 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bbb3fd6a-381b-479e-a9f2-7b6371fac39e
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262958"
 ---
 # <a name="known-issues-with-edi-receive-processing"></a><span data-ttu-id="7b4b1-102">EDI 接收處理的已知問題</span><span class="sxs-lookup"><span data-stu-id="7b4b1-102">Known Issues with EDI Receive Processing</span></span>
 <span data-ttu-id="7b4b1-103">本主題說明 EDI 接收管線中已知的處理問題。</span><span class="sxs-lookup"><span data-stu-id="7b4b1-103">This topic describes known issues with processing in the EDI receive pipeline.</span></span>  

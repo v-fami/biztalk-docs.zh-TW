@@ -1,11 +1,11 @@
 ---
-title: "如何設定待命圖形 |Microsoft 文件"
-ms.custom: 
+title: 如何設定待命圖形 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Listen shape [Orchestration Designer], about Listen shape
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Listen shape [Orchestration Designer], branching
 - configuring [Orchestration Designer], Listen shapes
 ms.assetid: 4765dc0a-a30e-4515-83bc-72b4f37268cf
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247894"
 ---
 # <a name="how-to-configure-the-listen-shape"></a><span data-ttu-id="cd68e-102">如何設定待命圖形</span><span class="sxs-lookup"><span data-stu-id="cd68e-102">How to Configure the Listen Shape</span></span>
 <span data-ttu-id="cd68e-103">待命動作讓應用程式能在一個或多個連接埠等候數個訊息之一，或是在指定的逾時間隔後停止等候，然後根據結果分支。</span><span class="sxs-lookup"><span data-stu-id="cd68e-103">Listen actions enable applications to wait for one of several messages on one or more ports, or to stop waiting after a specified time-out interval, and branch based upon the results.</span></span>  

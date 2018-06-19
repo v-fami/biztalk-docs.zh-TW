@@ -1,14 +1,14 @@
 ---
-title: "無效的位址配置 |Microsoft 文件"
-ms.custom: 
+title: 無效的位址配置 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0b059289-654e-40d6-a092-2a685e6e10f7
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257790"
 ---
 # <a name="invalid-address-scheme"></a><span data-ttu-id="0cdc5-102">無效的位址配置</span><span class="sxs-lookup"><span data-stu-id="0cdc5-102">Invalid address scheme</span></span>
 ## <a name="details"></a><span data-ttu-id="0cdc5-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="0cdc5-103">Details</span></span>  
@@ -53,6 +54,6 @@ ms.lasthandoff: 09/20/2017
   
 8.  <span data-ttu-id="0cdc5-127">在**WCF [***傳輸類型***] 傳輸屬性**對話方塊中，按一下 [**一般**] 索引標籤。</span><span class="sxs-lookup"><span data-stu-id="0cdc5-127">In the **WCF [***transport type***] Transport Properties** dialog box, click the **General** tab.</span></span>  
   
-9. <span data-ttu-id="0cdc5-128">在**位址 (URI)**文字方塊中，確認位址值，與 WCF 配接器所使用的類型相符。</span><span class="sxs-lookup"><span data-stu-id="0cdc5-128">In the **Address (URI)** text box, ensure that address value matches the type of the WCF adapter that is being used.</span></span>  
+9. <span data-ttu-id="0cdc5-128">在**位址 (URI)** 文字方塊中，確認位址值，與 WCF 配接器所使用的類型相符。</span><span class="sxs-lookup"><span data-stu-id="0cdc5-128">In the **Address (URI)** text box, ensure that address value matches the type of the WCF adapter that is being used.</span></span>  
   
  <span data-ttu-id="0cdc5-129">此外，如果您使用 Wcf-custom 配接器搭配系統提供繫結型別時，檢查的值**繫結型別**清單**繫結** 索引標籤。如果**繫結型別**設定為**customBinding**，地址應符合傳輸繫結項目中所列**繫結型別**清單**繫結** 索引標籤。</span><span class="sxs-lookup"><span data-stu-id="0cdc5-129">Also, if you use the WCF-Custom adapter with a system-provided binding type, check the value of the **Binding Type** list on the **Binding** tab. If the **Binding Type** is configured to **customBinding**, the address should match the transport binding element listed in the **Binding Type** list on the **Binding** tab.</span></span>

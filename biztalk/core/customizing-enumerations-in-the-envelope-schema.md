@@ -1,14 +1,14 @@
 ---
-title: "自訂列舉信封結構描述 |Microsoft 文件"
-ms.custom: 
+title: 自訂列舉信封結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2b053d82-753f-4a05-9922-fa5dbd073ba9
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241854"
 ---
 # <a name="customizing-enumerations-in-the-envelope-schema"></a><span data-ttu-id="51d9a-102">在信封結構描述中自訂列舉</span><span class="sxs-lookup"><span data-stu-id="51d9a-102">Customizing Enumerations in the Envelope Schema</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="51d9a-103">可讓您自訂識別碼欄位列舉服務 （信封） 結構描述中。</span><span class="sxs-lookup"><span data-stu-id="51d9a-103"> enables you to customize ID field enumerations in the service (envelope) schema.</span></span> <span data-ttu-id="51d9a-104">如此可讓您接收或傳送信封的寄件者或接收者識別碼欄位中擁有非標準值 (在 X12 標準組織所定義的值集合以外) 的交換。</span><span class="sxs-lookup"><span data-stu-id="51d9a-104">This enables you to receive or send interchanges that have non-standard values (outside the set of values defined by the X12 standards body) in the sender or receiver ID fields in the envelope.</span></span> <span data-ttu-id="51d9a-105">它也可讓您變更協議屬性定義中的標頭值的下拉式清單中可用的限定詞。</span><span class="sxs-lookup"><span data-stu-id="51d9a-105">It also enables you to change the qualifiers that are available in drop-down lists for header values in agreement property definitions.</span></span>  

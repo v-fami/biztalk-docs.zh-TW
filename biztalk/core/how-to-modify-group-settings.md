@@ -1,15 +1,15 @@
 ---
-title: "更新群組設定 |Microsoft 文件"
-description: "變更使用 BizTalk Server 管理 群組的效能設定"
-ms.custom: 
+title: 更新群組設定 |Microsoft 文件
+description: 變更使用 BizTalk Server 管理 群組的效能設定
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fe0cbeb8-23d6-45cf-8535-c989914f5124
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254806"
 ---
 # <a name="how-to-update-the-biztalk-group-settings"></a><span data-ttu-id="4caad-103">如何更新 BizTalk 群組設定</span><span class="sxs-lookup"><span data-stu-id="4caad-103">How to update the BizTalk group settings</span></span>
 <span data-ttu-id="4caad-104">使用「設定儀表板」，您可以修改在所指定 BizTalk 群組中的所有電腦上使用的組態資訊。</span><span class="sxs-lookup"><span data-stu-id="4caad-104">Using the Settings Dashboard, you can modify the configuration information used across all machines in a given BizTalk group.</span></span> <span data-ttu-id="4caad-105">本主題提供在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中修改群組層級效能設定的逐步程序。</span><span class="sxs-lookup"><span data-stu-id="4caad-105">This topic provides the step-by-step procedure to modify the group-level performance settings in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="4caad-106">這些設定適用指定群組中的所有電腦。</span><span class="sxs-lookup"><span data-stu-id="4caad-106">These settings are applicable for all the machines in a given group.</span></span>  
@@ -43,7 +44,7 @@ ms.lasthandoff: 09/20/2017
     |<span data-ttu-id="4caad-130">**大型訊息大小**</span><span class="sxs-lookup"><span data-stu-id="4caad-130">**Large message size**</span></span>|<span data-ttu-id="4caad-131">設定閾值大小以觸發批次和 （或） 在轉換期間，資料流處理的個別訊息。</span><span class="sxs-lookup"><span data-stu-id="4caad-131">Set the threshold size of an individual message that triggers streaming in a batch and/or during transformations.</span></span>|<span data-ttu-id="4caad-132">1 - 10000000</span><span class="sxs-lookup"><span data-stu-id="4caad-132">1 - 10000000</span></span>|<span data-ttu-id="4caad-133">1000000</span><span class="sxs-lookup"><span data-stu-id="4caad-133">1000000</span></span>|<span data-ttu-id="4caad-134">最大的現有**大型訊息大小**和**LargeMessageFragmentSize**值。</span><span class="sxs-lookup"><span data-stu-id="4caad-134">Maximum of the existing **Large message size** and **LargeMessageFragmentSize** values.</span></span>|  
     |<span data-ttu-id="4caad-135">**追蹤和報告**</span><span class="sxs-lookup"><span data-stu-id="4caad-135">**Tracking and Reporting**</span></span>||-|-|-|  
     |<span data-ttu-id="4caad-136">**訊息方塊效能計數器取樣間隔**</span><span class="sxs-lookup"><span data-stu-id="4caad-136">**Message box performance counter sampling interval**</span></span>|<span data-ttu-id="4caad-137">設定效能計數器重新整理的間隔。</span><span class="sxs-lookup"><span data-stu-id="4caad-137">Set the interval at which performance counters are refreshed.</span></span><br /><br /> <span data-ttu-id="4caad-138">設定此間隔時，需在對資料庫的負擔會不會太重與計數器的資料夠不夠新之間做取捨。</span><span class="sxs-lookup"><span data-stu-id="4caad-138">The interval trades off load on database versus up-to-dateness of counters.</span></span> <span data-ttu-id="4caad-139">值越高表示越少更新資料，但是對資料庫的負擔也越輕。</span><span class="sxs-lookup"><span data-stu-id="4caad-139">The higher value means less frequently updated data, and thus lesser load on the database.</span></span>|<span data-ttu-id="4caad-140">1 – 整數型別的最大值</span><span class="sxs-lookup"><span data-stu-id="4caad-140">1 – Maximum value of type Integer</span></span>|-|<span data-ttu-id="4caad-141">BizTalk 群組中任何電腦上的最大值 (如果有的話)。</span><span class="sxs-lookup"><span data-stu-id="4caad-141">Largest value on any machine in the BizTalk group if present.</span></span> <span data-ttu-id="4caad-142">否則為預設值。</span><span class="sxs-lookup"><span data-stu-id="4caad-142">If not, default.</span></span>|  
-    |<span data-ttu-id="4caad-143">**啟用群組層級追蹤。**</span><span class="sxs-lookup"><span data-stu-id="4caad-143">**Enable group level tracking**</span></span>|<span data-ttu-id="4caad-144">選取此選項會開啟 BizTalk Server 的群組層級追蹤功能。</span><span class="sxs-lookup"><span data-stu-id="4caad-144">Select this option to turn the group level tracking for BizTalk Server on.</span></span><br /><br /> <span data-ttu-id="4caad-145">關閉全域追蹤功能會停用整個 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 群組的追蹤攔截器。</span><span class="sxs-lookup"><span data-stu-id="4caad-145">Turning off global tracking disables the tracking interceptors for the entire [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] group.</span></span> <span data-ttu-id="4caad-146">這表示 BizTalk Server 將不會在其追蹤表格中追蹤事件。</span><span class="sxs-lookup"><span data-stu-id="4caad-146">This means, BizTalk Server will not track events in its tracking tables.</span></span> <span data-ttu-id="4caad-147">**注意：**這項設定不會影響 BAM 追蹤。</span><span class="sxs-lookup"><span data-stu-id="4caad-147">**Note:**  This setting does not impact BAM Tracking.</span></span>|<span data-ttu-id="4caad-148">開啟、關閉</span><span class="sxs-lookup"><span data-stu-id="4caad-148">On, Off</span></span>|<span data-ttu-id="4caad-149">開啟</span><span class="sxs-lookup"><span data-stu-id="4caad-149">On</span></span>|-|  
+    |<span data-ttu-id="4caad-143">**啟用群組層級追蹤。**</span><span class="sxs-lookup"><span data-stu-id="4caad-143">**Enable group level tracking**</span></span>|<span data-ttu-id="4caad-144">選取此選項會開啟 BizTalk Server 的群組層級追蹤功能。</span><span class="sxs-lookup"><span data-stu-id="4caad-144">Select this option to turn the group level tracking for BizTalk Server on.</span></span><br /><br /> <span data-ttu-id="4caad-145">關閉全域追蹤功能會停用整個 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 群組的追蹤攔截器。</span><span class="sxs-lookup"><span data-stu-id="4caad-145">Turning off global tracking disables the tracking interceptors for the entire [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] group.</span></span> <span data-ttu-id="4caad-146">這表示 BizTalk Server 將不會在其追蹤表格中追蹤事件。</span><span class="sxs-lookup"><span data-stu-id="4caad-146">This means, BizTalk Server will not track events in its tracking tables.</span></span> <span data-ttu-id="4caad-147">**注意：** 這項設定不會影響 BAM 追蹤。</span><span class="sxs-lookup"><span data-stu-id="4caad-147">**Note:**  This setting does not impact BAM Tracking.</span></span>|<span data-ttu-id="4caad-148">開啟、關閉</span><span class="sxs-lookup"><span data-stu-id="4caad-148">On, Off</span></span>|<span data-ttu-id="4caad-149">開啟</span><span class="sxs-lookup"><span data-stu-id="4caad-149">On</span></span>|-|  
   
 3.  <span data-ttu-id="4caad-150">按一下**套用**以套用所做的修改，並前進到另一個索引標籤。或按一下**確定**以套用變更並結束 設定儀表板。</span><span class="sxs-lookup"><span data-stu-id="4caad-150">Click **Apply** to apply the modifications and proceed to another tab. Or click **OK** to apply the modifications and exit the Settings Dashboard.</span></span>  
   

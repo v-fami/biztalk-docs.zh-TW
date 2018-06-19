@@ -1,14 +1,14 @@
 ---
-title: "設定信封 （EDIFACT 交易集設定） |Microsoft 文件"
-ms.custom: 
+title: 設定信封 （EDIFACT 交易集設定） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ec140def-6155-4b8a-8489-6e0a530bd697
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234630"
 ---
 # <a name="configuring-envelopes-edifact-transaction-set-settings"></a><span data-ttu-id="2061b-102">設定信封 (EDIFACT 交易集設定)</span><span class="sxs-lookup"><span data-stu-id="2061b-102">Configuring Envelopes (EDIFACT-Transaction Set Settings)</span></span>
 <span data-ttu-id="2061b-103">在**信封**頁面**交易集設定** 區段中，您可以定義 BizTalk Server 如何產生傳送至合作對象之 EDIFACT 編碼交換的 UNG 和 UNH 區段。</span><span class="sxs-lookup"><span data-stu-id="2061b-103">In the **Envelopes** page of the **Transaction Set Settings** section, you define how BizTalk Server generates the UNG and UNH segments for an EDIFACT-encoded interchange that it sends to the party.</span></span>  
@@ -32,7 +33,7 @@ ms.lasthandoff: 09/20/2017
  <span data-ttu-id="2061b-114">當 BizTalk 引擎決定 BizTalk XML 訊息具有為 UNH 項目和目標命名空間設定的值時，引擎會以為它們設定在方格中，提供的值填入訊息中的 UNG 元素**建立群組區段**核取方塊。</span><span class="sxs-lookup"><span data-stu-id="2061b-114">When the BizTalk engine determines that a BizTalk XML message has the values set for the UNH elements and the Target namespace, the engine will populate the UNG elements in the message with the values set for them in the grid, provided the **Create Grouping Segments** checkbox is checked.</span></span>  
   
 > [!NOTE]
->  <span data-ttu-id="2061b-115">在**功能群組標頭 (UNG)**區段中，如果您在方格中，輸入欄位的任何設定，然後又刪除該設定，您必須刪除一整列，或該頁面將會通過驗證。</span><span class="sxs-lookup"><span data-stu-id="2061b-115">In the **Functional group header (UNG)**  section, if you enter a setting for any of the fields in the grid, and then delete that setting, you will have to delete the entire row or the page will fail validation.</span></span>  
+>  <span data-ttu-id="2061b-115">在**功能群組標頭 (UNG)** 區段中，如果您在方格中，輸入欄位的任何設定，然後又刪除該設定，您必須刪除一整列，或該頁面將會通過驗證。</span><span class="sxs-lookup"><span data-stu-id="2061b-115">In the **Functional group header (UNG)**  section, if you enter a setting for any of the fields in the grid, and then delete that setting, you will have to delete the entire row or the page will fail validation.</span></span>  
   
 > [!IMPORTANT]
 >  <span data-ttu-id="2061b-116">所有屬性已停都用**合作對象 a-> 合作對象 B**單向協議索引標籤，如果您清除了**本機 BizTalk 會處理合作對象或支援此合作對象傳送訊息所收到的訊息**檢查方塊的合作對象 a。不過，在相同頁面上啟用的所有屬性**合作對象 B-> 合作對象 A**索引標籤上，如果您建立合作對象 a 時選取此核取方塊</span><span class="sxs-lookup"><span data-stu-id="2061b-116">All properties are disabled on **Party A->Party B** one-way agreement tab if you cleared the **Local BizTalk processes messages received by the party or supports sending messages from this party** check box for Party A. However, all the properties are enabled on the same page in the **Party B->Party A** tab if you selected the check box while creating Party A.</span></span>  

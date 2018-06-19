@@ -1,14 +1,14 @@
 ---
-title: "EDI 通知結構 |Microsoft 文件"
-ms.custom: 
+title: EDI 通知結構 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4307dfe3-a275-4312-afda-7c16346b506f
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239086"
 ---
 # <a name="edi-acknowledgment-structure"></a><span data-ttu-id="0184d-102">EDI 通知結構</span><span class="sxs-lookup"><span data-stu-id="0184d-102">EDI Acknowledgment Structure</span></span>
 <span data-ttu-id="0184d-103">本節包含的主題說明 X12 和 EDIFACT 編碼通知訊息的結構。</span><span class="sxs-lookup"><span data-stu-id="0184d-103">This section contains topics describing the structure of X12- and EDIFACT-encoded acknowledgment messages.</span></span>  

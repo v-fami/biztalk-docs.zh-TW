@@ -1,11 +1,11 @@
 ---
-title: "如何對應項目資料 |Microsoft 文件"
-ms.custom: 
+title: 如何對應項目資料 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - data extraction
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - tracking profiles, orchestrations
 - tracking profiles, data extraction
 ms.assetid: ae8b395e-152a-4e08-af31-3c9276f52711
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22253950"
 ---
 # <a name="how-to-map-item-data"></a><span data-ttu-id="0987b-102">如何對應項目資料</span><span class="sxs-lookup"><span data-stu-id="0987b-102">How to Map Item Data</span></span>
 <span data-ttu-id="0987b-103">對應項目資料，可以定義協調流程中的資料擷取。</span><span class="sxs-lookup"><span data-stu-id="0987b-103">You map item data to define the data extraction from an orchestration.</span></span>  

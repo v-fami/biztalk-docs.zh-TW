@@ -1,14 +1,14 @@
 ---
-title: "如何設定 BizTalk Server 進行合作對象解析 |Microsoft 文件"
-ms.custom: 
+title: 如何設定 BizTalk Server 進行合作對象解析 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8ac330b9-3498-4c98-a6e8-d2c02cd641dd
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250086"
 ---
 # <a name="how-to-configure-biztalk-server-for-party-resolution"></a><span data-ttu-id="75c89-102">如何設定 BizTalk Server 進行合作對象解析</span><span class="sxs-lookup"><span data-stu-id="75c89-102">How to Configure BizTalk Server for Party Resolution</span></span>
 <span data-ttu-id="75c89-103">若要設定 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 進行合作對象解析，您必須遵循下列程序所列的步驟。</span><span class="sxs-lookup"><span data-stu-id="75c89-103">The following procedure lists the steps that you have to follow to configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] for party resolution.</span></span>  

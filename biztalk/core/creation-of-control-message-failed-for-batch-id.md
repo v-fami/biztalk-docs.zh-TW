@@ -1,14 +1,14 @@
 ---
-title: "建立控制訊息失敗批次識別碼 |Microsoft 文件"
-ms.custom: 
+title: 建立控制訊息失敗批次識別碼 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f03078e7-46b0-4082-9d66-6b892152a12d
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238190"
 ---
 # <a name="creation-of-control-message-failed-for-batch-id"></a><span data-ttu-id="2862a-102">建立控制訊息失敗批次識別碼</span><span class="sxs-lookup"><span data-stu-id="2862a-102">Creation of Control Message failed for Batch id</span></span>
 ## <a name="details"></a><span data-ttu-id="2862a-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="2862a-103">Details</span></span>  

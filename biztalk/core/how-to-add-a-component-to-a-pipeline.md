@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246478"
 ---
 # <a name="how-to-add-a-component-to-a-pipeline"></a><span data-ttu-id="10a4e-102">如何新增元件至管線</span><span class="sxs-lookup"><span data-stu-id="10a4e-102">How to Add a Component to a Pipeline</span></span>
 <span data-ttu-id="10a4e-103">從工具箱拖曳元件至設計介面以新增元件至管線。</span><span class="sxs-lookup"><span data-stu-id="10a4e-103">You add components to pipelines by dragging from the Toolbox to the design surface.</span></span>  

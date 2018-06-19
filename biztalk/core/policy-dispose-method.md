@@ -1,14 +1,14 @@
 ---
-title: "Policy.Dispose 方法 |Microsoft 文件"
-ms.custom: 
+title: Policy.Dispose 方法 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: db37c6b9-acf0-42ee-9356-4d1567934862
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263630"
 ---
 # <a name="policydispose-method"></a><span data-ttu-id="0cdc7-102">Policy.Dispose 方法</span><span class="sxs-lookup"><span data-stu-id="0cdc7-102">Policy.Dispose Method</span></span>
 <span data-ttu-id="0cdc7-103">**Policy.Dispose**方法所使用的資源釋出**原則**類別，以及傳回**原則**快取的物件。</span><span class="sxs-lookup"><span data-stu-id="0cdc7-103">The **Policy.Dispose** method releases resources used by the **Policy** class, and also returns the **Policy** object to the cache.</span></span> <span data-ttu-id="0cdc7-104">當相同的原則會再次叫用、 快取**原則**使用物件，以節省建立新的所需的時間**原則**物件。</span><span class="sxs-lookup"><span data-stu-id="0cdc7-104">When the same policy is invoked again, the cached **Policy** object is used, which saves the time needed for creating a new **Policy** object.</span></span>  

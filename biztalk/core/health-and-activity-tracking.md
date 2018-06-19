@@ -1,14 +1,14 @@
 ---
-title: "健全狀況與活動追蹤 |Microsoft 文件"
-ms.custom: 
+title: 健全狀況與活動追蹤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0c5d7415-38da-47b5-8dbc-0a2ea74548d9
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,9 +17,10 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246598"
 ---
 # <a name="health-and-activity-tracking"></a><span data-ttu-id="4c366-102">狀況與活動追蹤</span><span class="sxs-lookup"><span data-stu-id="4c366-102">Health and Activity Tracking</span></span>
-<span data-ttu-id="4c366-103">**健全狀況與活動追蹤 (HAT)**工具已移除[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]2009年。</span><span class="sxs-lookup"><span data-stu-id="4c366-103">The **Health and Activity Tracking (HAT)** tool was removed in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2009.</span></span>  <span data-ttu-id="4c366-104">HAT 工具的角色是追蹤和顯示即時的相關資訊和歷史訊息資料儲存在 「 BizTalk 追蹤資料庫中。</span><span class="sxs-lookup"><span data-stu-id="4c366-104">The role of the HAT tool was to track and display information relating to live and historical message data stored in the BizTalk Tracking database.</span></span>  <span data-ttu-id="4c366-105">此工具可讓您針對協調流程的流程進行偵錯，也可以讓您透過循序畫面來檢視訊息的流程。</span><span class="sxs-lookup"><span data-stu-id="4c366-105">The tool allowed debugging of the flow of an orchestration and the ability to view the flow of a message through a sequential display.</span></span>  <span data-ttu-id="4c366-106">[查詢建立器] 允許對追蹤資料執行標準和自訂的查詢。</span><span class="sxs-lookup"><span data-stu-id="4c366-106">A Query Builder allowed standard and custom queries of the tracking data.</span></span>  
+<span data-ttu-id="4c366-103">**健全狀況與活動追蹤 (HAT)** 工具已移除[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]2009年。</span><span class="sxs-lookup"><span data-stu-id="4c366-103">The **Health and Activity Tracking (HAT)** tool was removed in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2009.</span></span>  <span data-ttu-id="4c366-104">HAT 工具的角色是追蹤和顯示即時的相關資訊和歷史訊息資料儲存在 「 BizTalk 追蹤資料庫中。</span><span class="sxs-lookup"><span data-stu-id="4c366-104">The role of the HAT tool was to track and display information relating to live and historical message data stored in the BizTalk Tracking database.</span></span>  <span data-ttu-id="4c366-105">此工具可讓您針對協調流程的流程進行偵錯，也可以讓您透過循序畫面來檢視訊息的流程。</span><span class="sxs-lookup"><span data-stu-id="4c366-105">The tool allowed debugging of the flow of an orchestration and the ability to view the flow of a message through a sequential display.</span></span>  <span data-ttu-id="4c366-106">[查詢建立器] 允許對追蹤資料執行標準和自訂的查詢。</span><span class="sxs-lookup"><span data-stu-id="4c366-106">A Query Builder allowed standard and custom queries of the tracking data.</span></span>  
   
  <span data-ttu-id="4c366-107">雖然無法再從 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 功能表直接叫用 [狀況與活動追蹤] 工具，但其追蹤功能仍然間接存在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 環境內。</span><span class="sxs-lookup"><span data-stu-id="4c366-107">While the Health Activity Tracking tool is no longer invoked directly from the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] menu, its tracking functionality still indirectly exists from within the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment.</span></span>  <span data-ttu-id="4c366-108">健全狀況與活動資訊也可透過改良式整合其他追蹤 BizTalk Server 管理主控台中的 [群組中樞] 頁面中的查詢。</span><span class="sxs-lookup"><span data-stu-id="4c366-108">Health and activity information is available through improved integration and additional tracking queries within the Group Hub page in the BizTalk Server Administration console.</span></span>  
   

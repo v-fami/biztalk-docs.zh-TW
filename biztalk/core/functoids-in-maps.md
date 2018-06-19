@@ -1,11 +1,11 @@
 ---
-title: "在對應中的運算質 |Microsoft 文件"
-ms.custom: 
+title: 在對應中的運算質 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - functoids
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - functoid types, Addition
 - Record Count functoids
 ms.assetid: 10ee8b62-cb20-4d26-9d86-b6564f30c297
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246038"
 ---
 # <a name="functoids-in-maps"></a><span data-ttu-id="56f4e-102">對應中的運算質</span><span class="sxs-lookup"><span data-stu-id="56f4e-102">Functoids in Maps</span></span>
 <span data-ttu-id="56f4e-103">BizTalk 對應工具支援來源結構描述的記錄和欄位與目的結構描述中的複雜結構化轉換，從記錄和欄位。</span><span class="sxs-lookup"><span data-stu-id="56f4e-103">BizTalk Mapper supports complex structural transformations from records and fields in the source schema to records and fields in the destination schema.</span></span> <span data-ttu-id="56f4e-104">運算質透過使用預先定義的公式和特定值來執行計算，稱為引數。</span><span class="sxs-lookup"><span data-stu-id="56f4e-104">Functoids perform calculations by using predefined formulas and specific values, called arguments.</span></span> <span data-ttu-id="56f4e-105">會根據記錄和欄位的指定順序執行這些計算。</span><span class="sxs-lookup"><span data-stu-id="56f4e-105">These calculations are executed based on the designated order of the records and fields.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "一般疑難排解問答集 |Microsoft 文件"
-ms.custom: 
+title: 一般疑難排解問答集 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d2f89d92-0a97-4017-8b8e-6afd8b20eaf4
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247102"
 ---
 # <a name="general-troubleshooting-questions-and-answers"></a><span data-ttu-id="d1cd0-102">一般疑難排解問答集</span><span class="sxs-lookup"><span data-stu-id="d1cd0-102">General Troubleshooting Questions and Answers</span></span>
 <span data-ttu-id="d1cd0-103">本主題具有問題和答案可協助您解決問題的 BizTalk 對應工具。</span><span class="sxs-lookup"><span data-stu-id="d1cd0-103">This topic has questions and answers to help you resolve issues with the BizTalk Mapper.</span></span>  
@@ -40,9 +41,9 @@ ms.lasthandoff: 09/20/2017
  <span data-ttu-id="d1cd0-115">如果您有多個對應一起使用時，您必須使用在協調流程中合併它們**轉換**一起測試圖形。</span><span class="sxs-lookup"><span data-stu-id="d1cd0-115">If you have multiple maps that are used together, you will need to combine them in an orchestration by using the **Transform** shape to test them together.</span></span> <span data-ttu-id="d1cd0-116">BizTalk 對應工具一次只能測試一個對應。</span><span class="sxs-lookup"><span data-stu-id="d1cd0-116">The BizTalk Mapper can test only one map at a time.</span></span>  
   
 ## <a name="why-isnt-my-database-functoid-working"></a><span data-ttu-id="d1cd0-117">為何我的資料庫運算質沒有作用？</span><span class="sxs-lookup"><span data-stu-id="d1cd0-117">Why isn't my database functoid working?</span></span>  
- <span data-ttu-id="d1cd0-118">資料庫運算質**資料庫尋查**和**值擷取程式 」**不會直接傳回資訊時發生錯誤; 相反地，擷取的資訊和其提供給**錯誤傳回**運算質，以供您的對應。</span><span class="sxs-lookup"><span data-stu-id="d1cd0-118">The database functoids **Database Lookup** and **Value Extractor** do not directly return error information; rather, they capture the information and supply it to the **Error Return** functoid for use by your map.</span></span> <span data-ttu-id="d1cd0-119">您可以使用**錯誤傳回**運算質進行錯誤偵測，在下列案例：</span><span class="sxs-lookup"><span data-stu-id="d1cd0-119">You can use the **Error Return** functoid for error detection as in the following scenarios:</span></span>  
+ <span data-ttu-id="d1cd0-118">資料庫運算質**資料庫尋查**和**值擷取程式 」** 不會直接傳回資訊時發生錯誤; 相反地，擷取的資訊和其提供給**錯誤傳回**運算質，以供您的對應。</span><span class="sxs-lookup"><span data-stu-id="d1cd0-118">The database functoids **Database Lookup** and **Value Extractor** do not directly return error information; rather, they capture the information and supply it to the **Error Return** functoid for use by your map.</span></span> <span data-ttu-id="d1cd0-119">您可以使用**錯誤傳回**運算質進行錯誤偵測，在下列案例：</span><span class="sxs-lookup"><span data-stu-id="d1cd0-119">You can use the **Error Return** functoid for error detection as in the following scenarios:</span></span>  
   
--   <span data-ttu-id="d1cd0-120">當您的對應具有**資料庫尋查**或**值擷取程式 」**未如預期般運作的運算質。</span><span class="sxs-lookup"><span data-stu-id="d1cd0-120">When your map has a **Database Lookup** or **Value Extractor** functoid that is not behaving as expected.</span></span> <span data-ttu-id="d1cd0-121">若要查看錯誤訊息，請暫時將運算質對應至輸出結構描述中的欄位。</span><span class="sxs-lookup"><span data-stu-id="d1cd0-121">To see the error message, temporarily map the functoid to a field in the output schema.</span></span>  
+-   <span data-ttu-id="d1cd0-120">當您的對應具有**資料庫尋查**或**值擷取程式 」** 未如預期般運作的運算質。</span><span class="sxs-lookup"><span data-stu-id="d1cd0-120">When your map has a **Database Lookup** or **Value Extractor** functoid that is not behaving as expected.</span></span> <span data-ttu-id="d1cd0-121">若要查看錯誤訊息，請暫時將運算質對應至輸出結構描述中的欄位。</span><span class="sxs-lookup"><span data-stu-id="d1cd0-121">To see the error message, temporarily map the functoid to a field in the output schema.</span></span>  
   
 -   <span data-ttu-id="d1cd0-122">如果在資料庫作業失敗時，您的應用程式預期不同的訊息內容。</span><span class="sxs-lookup"><span data-stu-id="d1cd0-122">If your application expects different message content when database operations fail.</span></span> <span data-ttu-id="d1cd0-123">您可以使用**錯誤傳回**運算質偵測到錯誤，並將錯誤訊息對應到替代的結構，如此下游應用程式可以反應以節制的方式。</span><span class="sxs-lookup"><span data-stu-id="d1cd0-123">You can use the **Error Return** functoid to detect an error and map the error message to an alternate structure so that downstream applications can react in a controlled manner.</span></span>  
   

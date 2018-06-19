@@ -1,18 +1,18 @@
 ---
-title: "實作會反白顯示的服務導向解決方案 |Microsoft 文件"
-ms.custom: 
+title: 實作會反白顯示的服務導向解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - service solution tutorial, performance
 - performance, service solutions
 - service solution tutorial, implementing
 ms.assetid: 3dbd8dfd-45b7-4290-ba07-b0c5e6264629
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257750"
 ---
 # <a name="implementation-highlights-of-the-service-oriented-solution"></a><span data-ttu-id="c9e88-102">實作會反白顯示的服務導向解決方案</span><span class="sxs-lookup"><span data-stu-id="c9e88-102">Implementation Highlights of the Service Oriented Solution</span></span>
 <span data-ttu-id="c9e88-103">解決特定內容中的特定問題之解決方案。</span><span class="sxs-lookup"><span data-stu-id="c9e88-103">A solution solves a particular problem in a specific context.</span></span> <span data-ttu-id="c9e88-104">服務導向解決方案也不例外，且專用於 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 和此實例。</span><span class="sxs-lookup"><span data-stu-id="c9e88-104">The Service Oriented solution is no exception and is specific to Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and the scenario.</span></span> <span data-ttu-id="c9e88-105">如需 Woodgrove Bank 案例的詳細資訊，請參閱[瞭解服務導向解決方案](../core/understanding-the-service-oriented-solution.md)。</span><span class="sxs-lookup"><span data-stu-id="c9e88-105">For more information about the Woodgrove Bank scenario, see [Understanding the Service Oriented Solution](../core/understanding-the-service-oriented-solution.md).</span></span>  

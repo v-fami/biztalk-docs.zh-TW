@@ -1,11 +1,11 @@
 ---
-title: "保護配接器的最佳作法 |Microsoft 文件"
-ms.custom: 
+title: 保護配接器的最佳作法 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapters, security
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - best practices, security
 - adapters, best practices
 ms.assetid: 004e1a01-b316-4eee-967f-5a806431de2b
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233294"
 ---
 # <a name="best-practices-for-securing-adapters"></a><span data-ttu-id="c23fc-102">保護配接器安全的最佳作法</span><span class="sxs-lookup"><span data-stu-id="c23fc-102">Best Practices for Securing Adapters</span></span>
 <span data-ttu-id="c23fc-103">本主題提供配接器安全性的最佳作法清單。</span><span class="sxs-lookup"><span data-stu-id="c23fc-103">This topic provides a list of best practices for adapter security.</span></span>  
@@ -93,7 +94,7 @@ ms.lasthandoff: 09/20/2017
   
     4.  <span data-ttu-id="c23fc-141">按一下省略符號 （...） 按鈕旁的文字方塊**登入名稱**顯示**選取登入** 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="c23fc-141">Click the ellipses (…) button next to the text box for **Login name** to display the **Select Login** dialog box.</span></span>  
   
-    5.  <span data-ttu-id="c23fc-142">按一下瀏覽按鈕中，輸入**EDI 子系統使用者**群組，然後再按一下**[確定]。**</span><span class="sxs-lookup"><span data-stu-id="c23fc-142">Click the Browse button, enter the **EDI Subsystem Users** group, and then click **OK.**</span></span> <span data-ttu-id="c23fc-143">如果系統提示**找到多個物件**對話方塊中，選取**EDI 子系統使用者**登入並按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="c23fc-143">If prompted with the **Multiple Objects Found** dialog box, select the **EDI Subsystem Users** login and click **OK**.</span></span>  
+    5.  <span data-ttu-id="c23fc-142">按一下瀏覽按鈕中，輸入**EDI 子系統使用者**群組，然後再按一下 **[確定]。**</span><span class="sxs-lookup"><span data-stu-id="c23fc-142">Click the Browse button, enter the **EDI Subsystem Users** group, and then click **OK.**</span></span> <span data-ttu-id="c23fc-143">如果系統提示**找到多個物件**對話方塊中，選取**EDI 子系統使用者**登入並按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="c23fc-143">If prompted with the **Multiple Objects Found** dialog box, select the **EDI Subsystem Users** login and click **OK**.</span></span>  
   
     6.  <span data-ttu-id="c23fc-144">上**資料庫使用者-新增**對話方塊中輸入**EDI 子系統使用者**如**使用者名稱**文字方塊中，按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="c23fc-144">On the **Database User - New** dialog box enter **EDI Subsystem Users** for the **User name** textbox and click **OK**.</span></span>  
   

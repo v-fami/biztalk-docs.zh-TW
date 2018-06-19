@@ -1,14 +1,14 @@
 ---
-title: "SOAP 配接器的已知問題 |Microsoft 文件"
-ms.custom: 
+title: SOAP 配接器的已知問題 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a3229d73-170d-42b7-bab9-12ae5f2d0fa7
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262846"
 ---
 # <a name="known-issues-with-the-soap-adapter"></a><span data-ttu-id="acc5c-102">SOAP 配接器的已知問題</span><span class="sxs-lookup"><span data-stu-id="acc5c-102">Known Issues with the SOAP Adapter</span></span>
 <span data-ttu-id="acc5c-103">本節包含可幫助您避免錯誤的資訊。</span><span class="sxs-lookup"><span data-stu-id="acc5c-103">This section contains information that may help you avoid errors.</span></span>  

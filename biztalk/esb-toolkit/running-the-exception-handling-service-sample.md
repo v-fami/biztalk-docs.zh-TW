@@ -1,14 +1,14 @@
 ---
-title: "執行的例外狀況處理服務 」 範例 |Microsoft 文件"
-ms.custom: 
+title: 執行的例外狀況處理服務 」 範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d69e720c-89e4-42c2-b4d0-31f0b865ab7f
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007783"
 ---
 # <a name="running-the-exception-handling-service-sample"></a><span data-ttu-id="ed7ca-102">執行的例外狀況處理服務範例</span><span class="sxs-lookup"><span data-stu-id="ed7ca-102">Running the Exception Handling Service Sample</span></span>
 <span data-ttu-id="ed7ca-103">「 例外狀況處理服務 」 範例示範如何使用例外狀況處理 Web 服務才能提交到 ESB 例外狀況處理架構從外部應用程式的錯誤。</span><span class="sxs-lookup"><span data-stu-id="ed7ca-103">The Exception Handling Service sample demonstrates how to consume the Exception Handling Web Service in order to submit a fault into the ESB Exception Handling Framework from an external application.</span></span> <span data-ttu-id="ed7ca-104">下列程序執行此範例需要[安裝例外狀況管理範例](../esb-toolkit/installing-the-exception-management-samples.md)。</span><span class="sxs-lookup"><span data-stu-id="ed7ca-104">The following procedure for running this sample requires [Installing the Exception Management Samples](../esb-toolkit/installing-the-exception-management-samples.md).</span></span>  

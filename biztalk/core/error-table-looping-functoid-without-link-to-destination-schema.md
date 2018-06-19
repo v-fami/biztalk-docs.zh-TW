@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240782"
 ---
 # <a name="error---table-looping-functoid-without-link-to-destination-schema"></a><span data-ttu-id="d0029-102">錯誤-表格迴圈運算質沒有目的結構描述連結</span><span class="sxs-lookup"><span data-stu-id="d0029-102">Error - Table Looping Functoid Without Link to Destination Schema</span></span>
 <span data-ttu-id="d0029-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="d0029-103">**Error Code**</span></span>  

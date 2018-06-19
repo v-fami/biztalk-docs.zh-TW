@@ -1,14 +1,14 @@
 ---
-title: "EDI 驗證、 結構描述和訊息的已知問題 |Microsoft 文件"
-ms.custom: 
+title: EDI 驗證、 結構描述和訊息的已知問題 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 417c3e18-9a97-4d59-bc2b-e96a8c33d388
-caps.latest.revision: "42"
+caps.latest.revision: 42
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264558"
 ---
 # <a name="known-issues-with-edi-validation-schemas-and-messages"></a><span data-ttu-id="61201-102">EDI 驗證、結構描述和訊息的已知問題</span><span class="sxs-lookup"><span data-stu-id="61201-102">Known Issues with EDI Validation, Schemas, and Messages</span></span>
 <span data-ttu-id="61201-103">本主題描述已知的驗證問題。</span><span class="sxs-lookup"><span data-stu-id="61201-103">This topic describes known validation issues.</span></span>  

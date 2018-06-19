@@ -1,11 +1,11 @@
 ---
-title: "向上擴充 SQL Server 層 |Microsoft 文件"
-ms.custom: 
+title: 向上擴充 SQL Server 層 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, scaling
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - scaling, scaling up
 - scaling, strategies
 ms.assetid: 4352c4af-6861-43d9-b433-9ca25668b439
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269678"
 ---
 # <a name="scaling-up-the-sql-server-tier"></a><span data-ttu-id="32ecd-102">向上擴充 SQL Server 層</span><span class="sxs-lookup"><span data-stu-id="32ecd-102">Scaling Up the SQL Server Tier</span></span>
 <span data-ttu-id="32ecd-103">在此模式中，會將現有的 SQL MessageBox 資料庫升級，使其可依據輸送量或延遲來擴充。</span><span class="sxs-lookup"><span data-stu-id="32ecd-103">In this pattern, the existing SQL MessageBox database is upgraded to scale according to the requirements in throughput or latency.</span></span>  

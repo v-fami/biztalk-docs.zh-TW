@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240374"
 ---
 # <a name="error---validate-schema-failure"></a><span data-ttu-id="9d286-102">錯誤-驗證結構描述失敗</span><span class="sxs-lookup"><span data-stu-id="9d286-102">Error - Validate Schema Failure</span></span>
 <span data-ttu-id="9d286-103">**說明**</span><span class="sxs-lookup"><span data-stu-id="9d286-103">**Explanation**</span></span>  

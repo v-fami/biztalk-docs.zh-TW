@@ -1,14 +1,14 @@
 ---
-title: "如何將選取的對應項目在檢視 |Microsoft 文件"
-ms.custom: 
+title: 如何將選取的對應項目在檢視 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3e287b22-5738-428a-aa35-cced877e51ea
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005543"
 ---
 # <a name="how-to-bring-selected-map-items-in-view"></a><span data-ttu-id="b362e-102">如何在檢視中顯示選取的對應項目</span><span class="sxs-lookup"><span data-stu-id="b362e-102">How to Bring Selected Map Items in View</span></span>
 <span data-ttu-id="b362e-103">使用舊版的 BizTalk 對應工具時，如果對應包含大型的結構描述，您必須手動捲動來源結構描述窗格、格線頁和目標結構描述窗格，才能在單一檢視中包含所有相關的對應項目。</span><span class="sxs-lookup"><span data-stu-id="b362e-103">With earlier versions of BizTalk Mapper, if a map comprised big schemas, you had to manually scroll the source schema pane, the grid page, and the target schema pane to bring all the relevant map items into a single view.</span></span> <span data-ttu-id="b362e-104">BizTalk Server 與 BizTalk 對應工具可讓您選取的運算質/連結的所有相關對應項目帶入自動捲動格線頁的單一檢視。</span><span class="sxs-lookup"><span data-stu-id="b362e-104">The BizTalk Mapper with BizTalk Server allows you to bring all the relevant map items of the selected functoid/link into a single view by automatically scrolling the grid page.</span></span> <span data-ttu-id="b362e-105">本主題提供如何執行此作業的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="b362e-105">This topic provides information about how to perform the operation.</span></span>  

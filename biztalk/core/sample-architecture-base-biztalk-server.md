@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271190"
 ---
 # <a name="sample-architecture-base-biztalk-server"></a><span data-ttu-id="8587a-102">範例架構： 基本 BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="8587a-102">Sample Architecture: Base BizTalk Server</span></span>
 <span data-ttu-id="8587a-103">本主題討論基本範例架構。</span><span class="sxs-lookup"><span data-stu-id="8587a-103">This topic discusses the base sample architecture.</span></span> <span data-ttu-id="8587a-104">其中描述與配接器無關的 BizTalk Server 部署中的元件。</span><span class="sxs-lookup"><span data-stu-id="8587a-104">It describes the components in a BizTalk Server deployment that are adapter-independent.</span></span> <span data-ttu-id="8587a-105">建議任何 BizTalk Server 部署至少都要有這些元件。</span><span class="sxs-lookup"><span data-stu-id="8587a-105">We recommend that any BizTalk Server deployment have at least these components.</span></span>  

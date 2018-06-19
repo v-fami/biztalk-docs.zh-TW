@@ -1,14 +1,14 @@
 ---
-title: "逐步解說 (EDIFACT): 接收 EDI 交換並傳回通知 |Microsoft 文件"
-ms.custom: 
+title: '逐步解說 (EDIFACT): 接收 EDI 交換並傳回通知 |Microsoft 文件'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 02751f0c-8e7e-4879-93e4-8bc475640756
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22291934"
 ---
 # <a name="walkthrough-edifact-receiving-edi-interchanges-and-sending-back-an-acknowledgement"></a><span data-ttu-id="201ff-102">逐步解說 (EDIFACT)：接收 EDI 交換並傳回通知</span><span class="sxs-lookup"><span data-stu-id="201ff-102">Walkthrough (EDIFACT): Receiving EDI Interchanges and Sending Back an Acknowledgement</span></span>
 <span data-ttu-id="201ff-103">本逐步解說提供一組逐步執行的程序，來使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 建立可接收 EDIFACT 交換的解決方案。</span><span class="sxs-lookup"><span data-stu-id="201ff-103">This walkthrough provides a set of step-by-step procedures that creates a solution for receiving EDIFACT interchanges using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="201ff-104">在這個解決方案中，EDIFACT 交換會從一個交易夥伴 (Fabrikam) 傳送至另一個交易夥伴 (Contoso)。</span><span class="sxs-lookup"><span data-stu-id="201ff-104">In this solution, an EDIFACT interchange is sent from a trading partner, Fabrikam, to another trading partner, Contoso.</span></span>  
@@ -221,7 +222,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  <span data-ttu-id="201ff-213">以滑鼠右鍵按一下合作對象名稱，指向**新增**，然後按一下 **商務設定檔**。</span><span class="sxs-lookup"><span data-stu-id="201ff-213">Right-click the party name, point to **New**, and then click **Business Profile**.</span></span>  
   
-4.  <span data-ttu-id="201ff-214">在**設定檔屬性**對話方塊**一般**頁面上，輸入**[fabrikam_profile]**中**名稱**文字方塊。</span><span class="sxs-lookup"><span data-stu-id="201ff-214">In the **Profile Properties** dialog box, on the **General** page, enter **Fabrikam_Profile** in the **Name** text box.</span></span>  
+4.  <span data-ttu-id="201ff-214">在**設定檔屬性**對話方塊**一般**頁面上，輸入 **[fabrikam_profile]** 中**名稱**文字方塊。</span><span class="sxs-lookup"><span data-stu-id="201ff-214">In the **Profile Properties** dialog box, on the **General** page, enter **Fabrikam_Profile** in the **Name** text box.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="201ff-215">當您建立合作對象時，會同時建立設定檔。</span><span class="sxs-lookup"><span data-stu-id="201ff-215">When you create a party, a profile is also created.</span></span> <span data-ttu-id="201ff-216">您可以重新命名再使用該設定檔，而不需建立新設定檔。</span><span class="sxs-lookup"><span data-stu-id="201ff-216">You can rename and use that profile instead of creating a new one.</span></span> <span data-ttu-id="201ff-217">若要重新命名設定檔，以滑鼠右鍵按一下 設定檔，然後選取**屬性**。</span><span class="sxs-lookup"><span data-stu-id="201ff-217">To rename a profile, right-click the profile and select **Properties**.</span></span> <span data-ttu-id="201ff-218">在**一般**頁面上，指定設定檔的名稱。</span><span class="sxs-lookup"><span data-stu-id="201ff-218">In the **General** page, specify a name for the profile.</span></span>  
@@ -237,7 +238,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  <span data-ttu-id="201ff-225">以滑鼠右鍵按一下合作對象名稱，指向**新增**，然後按一下 **商務設定檔**。</span><span class="sxs-lookup"><span data-stu-id="201ff-225">Right-click the party name, point to **New**, and then click **Business Profile**.</span></span>  
   
-4.  <span data-ttu-id="201ff-226">在**設定檔屬性**對話方塊**一般**頁面上，輸入**[contoso_profile]**中**名稱**文字方塊。</span><span class="sxs-lookup"><span data-stu-id="201ff-226">In the **Profile Properties** dialog box, on the **General** page, enter **Contoso_Profile** in the **Name** text box.</span></span>  
+4.  <span data-ttu-id="201ff-226">在**設定檔屬性**對話方塊**一般**頁面上，輸入 **[contoso_profile]** 中**名稱**文字方塊。</span><span class="sxs-lookup"><span data-stu-id="201ff-226">In the **Profile Properties** dialog box, on the **General** page, enter **Contoso_Profile** in the **Name** text box.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="201ff-227">當您建立合作對象時，會同時建立設定檔。</span><span class="sxs-lookup"><span data-stu-id="201ff-227">When you create a party, a profile is also created.</span></span> <span data-ttu-id="201ff-228">您可以重新命名再使用該設定檔，而不需建立新設定檔。</span><span class="sxs-lookup"><span data-stu-id="201ff-228">You can rename and use that profile instead of creating a new one.</span></span> <span data-ttu-id="201ff-229">若要重新命名設定檔，以滑鼠右鍵按一下 設定檔，然後選取**屬性**。</span><span class="sxs-lookup"><span data-stu-id="201ff-229">To rename a profile, right-click the profile and select **Properties**.</span></span> <span data-ttu-id="201ff-230">在**一般**頁面上，指定設定檔的名稱。</span><span class="sxs-lookup"><span data-stu-id="201ff-230">In the **General** page, specify a name for the profile.</span></span>  
@@ -268,14 +269,14 @@ ms.lasthandoff: 09/20/2017
         > [!NOTE]
         >  <span data-ttu-id="201ff-245">如果您使用做為測試訊息本主題稍早提供的範例訊息，設定**UNB2.1**至**7654321**， **UNB2.2**至**ZZZ – 使用者相互定義**， **UNB3.1**至**1234567**，和**UNB3.2**至**ZZZ – 使用者相互定義**。</span><span class="sxs-lookup"><span data-stu-id="201ff-245">If you are using the sample message provided earlier in this topic as your test message, set **UNB2.1** to **7654321**, **UNB2.2** to **ZZZ – Mutually Defined**, **UNB3.1** to **1234567**, and **UNB3.2** to **ZZZ – Mutually Defined**.</span></span>  
   
-    2.  <span data-ttu-id="201ff-246">在**通知**頁面**交換設定**區段中，按一下**訊息回條 (CONTRL 必須是)**和**通知 (CONTRL) 必須是**。</span><span class="sxs-lookup"><span data-stu-id="201ff-246">On the **Acknowledgements** page under the **Interchange Settings** section, check **Receipt of message (CONTRL) expected** and **Acknowledgement (CONTRL) expected**.</span></span>  
+    2.  <span data-ttu-id="201ff-246">在**通知**頁面**交換設定**區段中，按一下**訊息回條 (CONTRL 必須是)** 和**通知 (CONTRL) 必須是**。</span><span class="sxs-lookup"><span data-stu-id="201ff-246">On the **Acknowledgements** page under the **Interchange Settings** section, check **Receipt of message (CONTRL) expected** and **Acknowledgement (CONTRL) expected**.</span></span>  
   
-    3.  <span data-ttu-id="201ff-247">在**信封**頁面**交換設定**區段中，按一下**套用 UNA 區段 （字串服務建議）**和**套用 UNG 區段 （功能群組標頭）**。</span><span class="sxs-lookup"><span data-stu-id="201ff-247">On the **Envelopes** page under the **Interchange Settings** section, check **Apply UNA segment (String service advice)** and **Apply UNG segments (Functional group header)**.</span></span>  
+    3.  <span data-ttu-id="201ff-247">在**信封**頁面**交換設定**區段中，按一下**套用 UNA 區段 （字串服務建議）** 和**套用 UNG 區段 （功能群組標頭）**。</span><span class="sxs-lookup"><span data-stu-id="201ff-247">On the **Envelopes** page under the **Interchange Settings** section, check **Apply UNA segment (String service advice)** and **Apply UNG segments (Functional group header)**.</span></span>  
   
-    4.  <span data-ttu-id="201ff-248">在**驗證**頁面**交換設定**區段中，請確定**交換控制編號 (UNB5)**未選項。</span><span class="sxs-lookup"><span data-stu-id="201ff-248">On the **Validation** page under the **Interchange Settings** section, make sure **Interchange Control Number (UNB5)** option is unchecked.</span></span>  
+    4.  <span data-ttu-id="201ff-248">在**驗證**頁面**交換設定**區段中，請確定**交換控制編號 (UNB5)** 未選項。</span><span class="sxs-lookup"><span data-stu-id="201ff-248">On the **Validation** page under the **Interchange Settings** section, make sure **Interchange Control Number (UNB5)** option is unchecked.</span></span>  
   
         > [!NOTE]
-        >  <span data-ttu-id="201ff-249">清除**交換控制編號 (UNB5)**屬性可讓您接收相同訊息的多個執行個體。</span><span class="sxs-lookup"><span data-stu-id="201ff-249">Clearing the **Interchange Control Number (UNB5)** property enables you to receive multiple instances of the same message.</span></span>  
+        >  <span data-ttu-id="201ff-249">清除**交換控制編號 (UNB5)** 屬性可讓您接收相同訊息的多個執行個體。</span><span class="sxs-lookup"><span data-stu-id="201ff-249">Clearing the **Interchange Control Number (UNB5)** property enables you to receive multiple instances of the same message.</span></span>  
   
     5.  <span data-ttu-id="201ff-250">在**字元集和分隔符號**頁面**交換設定**區段中，選取**CR LF**選項**UNA6 尾碼**。</span><span class="sxs-lookup"><span data-stu-id="201ff-250">On the **Charset and Separators** page under the **Interchange Settings** section, select the **CR LF** option for **UNA6 Suffix**.</span></span>  
   

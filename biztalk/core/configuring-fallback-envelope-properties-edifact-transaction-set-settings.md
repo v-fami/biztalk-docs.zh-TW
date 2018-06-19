@@ -1,14 +1,14 @@
 ---
-title: "設定後援信封屬性 （EDIFACT 交易集設定） |Microsoft 文件"
-ms.custom: 
+title: 設定後援信封屬性 （EDIFACT 交易集設定） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b56a5a93-35ac-4293-b00e-28dcd89dfa2a
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233718"
 ---
 # <a name="configuring-fallback-envelope-properties-edifact-transaction-set-settings"></a><span data-ttu-id="8f5db-102">設定後援信封屬性 (EDIFACT 交易集設定)</span><span class="sxs-lookup"><span data-stu-id="8f5db-102">Configuring Fallback Envelope Properties (EDIFACT-Transaction Set Settings)</span></span>
 <span data-ttu-id="8f5db-103">在**信封**頁面**交易集設定** 區段中，您可以定義 BizTalk Server 如何產生傳送至合作對象之 EDIFACT 編碼交換的 UNG 區段。</span><span class="sxs-lookup"><span data-stu-id="8f5db-103">In the **Envelopes** page of the **Transaction Set Settings** section, you define how BizTalk Server generates the UNG segments for an EDIFACT-encoded interchange that it sends to the party.</span></span>  

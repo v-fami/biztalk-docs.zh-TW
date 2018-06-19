@@ -1,14 +1,14 @@
 ---
-title: "設定後援信封屬性 （X12-交易集設定） |Microsoft 文件"
-ms.custom: 
+title: 設定後援信封屬性 （X12-交易集設定） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2a951f70-07d5-4a58-b1ea-e7117a45c545
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233166"
 ---
 # <a name="configuring-fallback-envelope-properties-x12-transaction-set-settings"></a><span data-ttu-id="a35ec-102">設定後援信封屬性 (X12-交易集設定)</span><span class="sxs-lookup"><span data-stu-id="a35ec-102">Configuring Fallback Envelope Properties (X12-Transaction Set Settings)</span></span>
 <span data-ttu-id="a35ec-103">在**信封**頁面**交易集設定** 區段中，您可以定義 BizTalk Server 如何產生傳送至合作對象的 X12 編碼交換的 GS 區段。</span><span class="sxs-lookup"><span data-stu-id="a35ec-103">In the **Envelopes** page of the **Transaction Set Settings** section, you define how BizTalk Server generates the GS segments for an X12-encoded interchange that it sends to the party.</span></span> <span data-ttu-id="a35ec-104">GS 區段可識別並指定 X12 編碼交換的功能群組。</span><span class="sxs-lookup"><span data-stu-id="a35ec-104">A GS segment identifies and specifies a functional group for an X12-encoded interchange.</span></span>  

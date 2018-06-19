@@ -1,14 +1,14 @@
 ---
-title: "設定識別項 (EDIFACT) |Microsoft 文件"
-ms.custom: 
+title: 設定識別項 (EDIFACT) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 097292f2-1aa5-42e4-aeee-c7d4cbdae17c
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233846"
 ---
 # <a name="configuring-identifiers-edifact"></a><span data-ttu-id="9abfe-102">設定識別項 (EDIFACT)</span><span class="sxs-lookup"><span data-stu-id="9abfe-102">Configuring Identifiers (EDIFACT)</span></span>
 <span data-ttu-id="9abfe-103">在此夥伴協議中，您必須設定收件者參考密碼，才可以確認該交換的接收者不會是未經授權的使用者。</span><span class="sxs-lookup"><span data-stu-id="9abfe-103">In the partner agreement, you must set the recipient reference password, in order to verify that the interchange is not being received by unauthorized recipients.</span></span>  
@@ -37,7 +38,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  <span data-ttu-id="9abfe-113">在單向協議索引標籤底下**交換設定**區段中，按一下**識別碼**。</span><span class="sxs-lookup"><span data-stu-id="9abfe-113">On a one-way agreement tab, under **Interchange Settings** section, click **Identifiers**.</span></span>  
   
-3.  <span data-ttu-id="9abfe-114">在**寄件者 (UNB2)**區段中，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="9abfe-114">In the **Sender (UNB2)** section, do the following:</span></span>  
+3.  <span data-ttu-id="9abfe-114">在**寄件者 (UNB2)** 區段中，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="9abfe-114">In the **Sender (UNB2)** section, do the following:</span></span>  
   
     1.  <span data-ttu-id="9abfe-115">如**識別 (UNB2.1)**，輸入最少 1 個，最多 35 個的英數字元值。</span><span class="sxs-lookup"><span data-stu-id="9abfe-115">For **Identification (UNB2.1)**, enter an alphanumeric value with a minimum of one and a maximum of 35.</span></span> <span data-ttu-id="9abfe-116">這是必要的欄位。</span><span class="sxs-lookup"><span data-stu-id="9abfe-116">This is a required field.</span></span>  
   
@@ -45,7 +46,7 @@ ms.lasthandoff: 09/20/2017
   
     3.  <span data-ttu-id="9abfe-119">如**反向路由位址 (UNB2.3)**，輸入最少一個字元，最多 14 個字元的英數字元值。</span><span class="sxs-lookup"><span data-stu-id="9abfe-119">For **Reverse routing address (UNB2.3)**, enter an alphanumeric value with a minimum of one character and a maximum of 14 characters.</span></span> <span data-ttu-id="9abfe-120">這是選擇性欄位。</span><span class="sxs-lookup"><span data-stu-id="9abfe-120">This is an optional field.</span></span>  
   
-4.  <span data-ttu-id="9abfe-121">在**接收者 (UNB3)**區段中，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="9abfe-121">In the **Recipient (UNB3)** section, do the following:</span></span>  
+4.  <span data-ttu-id="9abfe-121">在**接收者 (UNB3)** 區段中，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="9abfe-121">In the **Recipient (UNB3)** section, do the following:</span></span>  
   
     1.  <span data-ttu-id="9abfe-122">如**識別 (UNB3.1)**，輸入最少 1 個，最多 35 個的英數字元值。</span><span class="sxs-lookup"><span data-stu-id="9abfe-122">For **Identification (UNB3.1)**, enter an alphanumeric value with a minimum of one and a maximum of 35.</span></span> <span data-ttu-id="9abfe-123">這是必要的欄位。</span><span class="sxs-lookup"><span data-stu-id="9abfe-123">This is a required field.</span></span>  
   
@@ -53,7 +54,7 @@ ms.lasthandoff: 09/20/2017
   
     3.  <span data-ttu-id="9abfe-126">如**反向路由位址 (UNB3.3)**，輸入最少一個字元，最多 14 個字元的英數字元值。</span><span class="sxs-lookup"><span data-stu-id="9abfe-126">For **Reverse routing address (UNB3.3)**, enter an alphanumeric value with a minimum of one character and a maximum of 14 characters.</span></span> <span data-ttu-id="9abfe-127">這是選擇性欄位。</span><span class="sxs-lookup"><span data-stu-id="9abfe-127">This is an optional field.</span></span>  
   
-    4.  <span data-ttu-id="9abfe-128">視需要在**收件者參考密碼 (UNB6)**區段中，輸入收件者參考密碼的值。</span><span class="sxs-lookup"><span data-stu-id="9abfe-128">If required, in the **Recipient reference password (UNB6)** section, enter values for the recipient reference password.</span></span> <span data-ttu-id="9abfe-129">如**值 (UNB6.1)**，輸入最少 1 個，最多 14 個的英數字元值。</span><span class="sxs-lookup"><span data-stu-id="9abfe-129">For **Value (UNB6.1)**, enter an alphanumeric value with a minimum of one and a maximum of 14.</span></span> <span data-ttu-id="9abfe-130">如**辨識符號 (UNB6.2)**，輸入最少一個字元，最多兩個字元的英數字元值。</span><span class="sxs-lookup"><span data-stu-id="9abfe-130">For **Qualifier (UNB6.2)**, enter an alphanumeric value with a minimum of one character and a maximum of two characters.</span></span> <span data-ttu-id="9abfe-131">這些是選擇性欄位。</span><span class="sxs-lookup"><span data-stu-id="9abfe-131">These are optional fields.</span></span> <span data-ttu-id="9abfe-132">如果這些值與所接收交換中的 UNB6.1 和 UNB6.2 欄位值不相符，BizTalk Server 將會擱置該項交換。</span><span class="sxs-lookup"><span data-stu-id="9abfe-132">If these values do not match the UNB6.1 and UNB6.2 fields in a received interchange, BizTalk Server will suspend the interchange.</span></span>  
+    4.  <span data-ttu-id="9abfe-128">視需要在**收件者參考密碼 (UNB6)** 區段中，輸入收件者參考密碼的值。</span><span class="sxs-lookup"><span data-stu-id="9abfe-128">If required, in the **Recipient reference password (UNB6)** section, enter values for the recipient reference password.</span></span> <span data-ttu-id="9abfe-129">如**值 (UNB6.1)**，輸入最少 1 個，最多 14 個的英數字元值。</span><span class="sxs-lookup"><span data-stu-id="9abfe-129">For **Value (UNB6.1)**, enter an alphanumeric value with a minimum of one and a maximum of 14.</span></span> <span data-ttu-id="9abfe-130">如**辨識符號 (UNB6.2)**，輸入最少一個字元，最多兩個字元的英數字元值。</span><span class="sxs-lookup"><span data-stu-id="9abfe-130">For **Qualifier (UNB6.2)**, enter an alphanumeric value with a minimum of one character and a maximum of two characters.</span></span> <span data-ttu-id="9abfe-131">這些是選擇性欄位。</span><span class="sxs-lookup"><span data-stu-id="9abfe-131">These are optional fields.</span></span> <span data-ttu-id="9abfe-132">如果這些值與所接收交換中的 UNB6.1 和 UNB6.2 欄位值不相符，BizTalk Server 將會擱置該項交換。</span><span class="sxs-lookup"><span data-stu-id="9abfe-132">If these values do not match the UNB6.1 and UNB6.2 fields in a received interchange, BizTalk Server will suspend the interchange.</span></span>  
   
         > [!NOTE]
         >  <span data-ttu-id="9abfe-133">組合**UNB6.1**和**UNB6.2**必須是唯一的。</span><span class="sxs-lookup"><span data-stu-id="9abfe-133">The combination of **UNB6.1** and **UNB6.2** must be unique.</span></span>  

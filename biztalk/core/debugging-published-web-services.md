@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238374"
 ---
 # <a name="debugging-published-web-services"></a><span data-ttu-id="66108-102">偵錯已發佈的 Web 服務</span><span class="sxs-lookup"><span data-stu-id="66108-102">Debugging Published Web Services</span></span>
 <span data-ttu-id="66108-103">本節將提供關於偵錯已發佈 Web 服務的資訊。</span><span class="sxs-lookup"><span data-stu-id="66108-103">This section provides information about debugging your published Web services.</span></span>  

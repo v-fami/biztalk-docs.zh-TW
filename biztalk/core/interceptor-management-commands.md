@@ -1,14 +1,14 @@
 ---
-title: "攔截器管理命令 |Microsoft 文件"
-ms.custom: 
+title: 攔截器管理命令 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a2be6460-1f81-4bc3-a831-34ff24d65d34
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974388"
 ---
 # <a name="interceptor-management-commands"></a><span data-ttu-id="63a30-102">攔截器管理命令</span><span class="sxs-lookup"><span data-stu-id="63a30-102">Interceptor Management Commands</span></span>
 <span data-ttu-id="63a30-103">為了支援新的 BAM 攔截器功能，BAM 管理公用程式中已加入四個新的命令。</span><span class="sxs-lookup"><span data-stu-id="63a30-103">To support the new BAM interceptor functionality, four new commands have been added to the BAM Management utility.</span></span>  
@@ -32,7 +33,7 @@ ms.lasthandoff: 11/28/2017
 -   <span data-ttu-id="63a30-109">移除攔截器： 移除攔截器組態。</span><span class="sxs-lookup"><span data-stu-id="63a30-109">remove-interceptor: Removes an interceptor configuration.</span></span>  
   
 > [!NOTE]
->  <span data-ttu-id="63a30-110">您可以藉由啟用任何 BM 公用程式命令的追蹤**-追蹤： 在 &#124; 關閉**切換參數。</span><span class="sxs-lookup"><span data-stu-id="63a30-110">You can enable tracing on any BM utility command by including the **-Trace:on&#124;off** parameter switch.</span></span> <span data-ttu-id="63a30-111">使用追蹤參數會覆寫組態檔中的追蹤設定。</span><span class="sxs-lookup"><span data-stu-id="63a30-111">Using the Trace switch overrides the tracing settings in the configuration file.</span></span> <span data-ttu-id="63a30-112">此參數可以搭配任何一般 BM 命令使用。</span><span class="sxs-lookup"><span data-stu-id="63a30-112">The switch can be used in conjunction with any normal BM command.</span></span>  
+>  <span data-ttu-id="63a30-110">您可以藉由啟用任何 BM 公用程式命令的追蹤 **-追蹤： 在 &#124; 關閉**切換參數。</span><span class="sxs-lookup"><span data-stu-id="63a30-110">You can enable tracing on any BM utility command by including the **-Trace:on&#124;off** parameter switch.</span></span> <span data-ttu-id="63a30-111">使用追蹤參數會覆寫組態檔中的追蹤設定。</span><span class="sxs-lookup"><span data-stu-id="63a30-111">Using the Trace switch overrides the tracing settings in the configuration file.</span></span> <span data-ttu-id="63a30-112">此參數可以搭配任何一般 BM 命令使用。</span><span class="sxs-lookup"><span data-stu-id="63a30-112">The switch can be used in conjunction with any normal BM command.</span></span>  
   
 > [!NOTE]
 >  <span data-ttu-id="63a30-113">在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。</span><span class="sxs-lookup"><span data-stu-id="63a30-113">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  
@@ -57,10 +58,10 @@ ms.lasthandoff: 11/28/2017
   
 -   <span data-ttu-id="63a30-132">此活動存在 (在主要匯入資料庫中部署) 且檢查點有效 (存在而且有相符的資料類型) 的驗證。</span><span class="sxs-lookup"><span data-stu-id="63a30-132">Validation that the activity exists (is deployed in the Primary Import database) and that checkpoints are valid (exist and have a matching data type).</span></span>  
   
- <span data-ttu-id="63a30-133">如果在事件來源名稱中偵測到衝突，會擲回一則警告來描述此衝突。</span><span class="sxs-lookup"><span data-stu-id="63a30-133">If a collision is detected in the event source name, a warning is thrown describing the collision.</span></span> <span data-ttu-id="63a30-134">如果發生衝突，部署將會失敗除非**– Force: True**參數旗標。</span><span class="sxs-lookup"><span data-stu-id="63a30-134">In the case of a collision, the deployment will fail unless the **–Force:True** parameter flag is used.</span></span>  
+ <span data-ttu-id="63a30-133">如果在事件來源名稱中偵測到衝突，會擲回一則警告來描述此衝突。</span><span class="sxs-lookup"><span data-stu-id="63a30-133">If a collision is detected in the event source name, a warning is thrown describing the collision.</span></span> <span data-ttu-id="63a30-134">如果發生衝突，部署將會失敗除非 **– Force: True**參數旗標。</span><span class="sxs-lookup"><span data-stu-id="63a30-134">In the case of a collision, the deployment will fail unless the **–Force:True** parameter flag is used.</span></span>  
   
 > [!NOTE]
->  <span data-ttu-id="63a30-135">**– Force: True**參數可能會移除參考具有相同名稱的事件來源的攔截器組態。</span><span class="sxs-lookup"><span data-stu-id="63a30-135">The **–Force:True** parameter potentially removes interceptor configurations that reference event sources with the same name.</span></span> <span data-ttu-id="63a30-136">您應該使用**get 攔截器**命令建立現有攔截器組態的備份之前使用**– Force: True**參數。</span><span class="sxs-lookup"><span data-stu-id="63a30-136">You should use the **get-interceptor** command to create a backup of existing interceptor configurations before using the **–Force:True** parameter.</span></span>  
+>  <span data-ttu-id="63a30-135">**– Force: True**參數可能會移除參考具有相同名稱的事件來源的攔截器組態。</span><span class="sxs-lookup"><span data-stu-id="63a30-135">The **–Force:True** parameter potentially removes interceptor configurations that reference event sources with the same name.</span></span> <span data-ttu-id="63a30-136">您應該使用**get 攔截器**命令建立現有攔截器組態的備份之前使用 **– Force: True**參數。</span><span class="sxs-lookup"><span data-stu-id="63a30-136">You should use the **get-interceptor** command to create a backup of existing interceptor configurations before using the **–Force:True** parameter.</span></span>  
   
  <span data-ttu-id="63a30-137">**範例**</span><span class="sxs-lookup"><span data-stu-id="63a30-137">**Examples**</span></span>  
   

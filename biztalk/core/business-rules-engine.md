@@ -1,11 +1,11 @@
 ---
-title: "商務規則引擎 |Microsoft 文件"
-ms.custom: 
+title: 商務規則引擎 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - business rules, Business Rules Engine
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Business Rules Engine, rules
 - Business Rules Engine, about Business Rules Engine
 ms.assetid: 87b38507-9f6d-4863-88a6-9c20f15a4e55
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232614"
 ---
 # <a name="business-rules-engine"></a><span data-ttu-id="342b7-102">商務規則引擎</span><span class="sxs-lookup"><span data-stu-id="342b7-102">Business Rules Engine</span></span>
 <span data-ttu-id="342b7-103">「商務規則架構」是一個 Microsoft .NET 相容的類別庫。</span><span class="sxs-lookup"><span data-stu-id="342b7-103">The Business Rules Framework is a Microsoft .NET-compliant class library.</span></span> <span data-ttu-id="342b7-104">它提供一個有效的推斷引擎，可將易讀、宣告式且語意豐富的規則連結到任何商務物件 (.NET 元件)、XML文件或資料庫資料表。</span><span class="sxs-lookup"><span data-stu-id="342b7-104">It provides an efficient inference engine that can link highly readable, declarative, semantically rich rules to any business objects (.NET components), XML documents, or database tables.</span></span> <span data-ttu-id="342b7-105">應用程式開發人員可從小型的商務邏輯建置區塊 (小型的規則集) 開始建構規則，以執行 .NET 物件、資料庫資料表和 XML 文件中包含的資訊 (事實)，以建立商務規則。</span><span class="sxs-lookup"><span data-stu-id="342b7-105">Application developers can build business rules by constructing rules from small building blocks of business logic (small rule sets) that operate on information (facts) contained in .NET objects, database tables, and XML documents.</span></span> <span data-ttu-id="342b7-106">此設計模式可提升程式碼重複使用率、簡化設計和商務邏輯的模組化程序。</span><span class="sxs-lookup"><span data-stu-id="342b7-106">This design pattern promotes code reuse, design simplicity, and modularity of business logic.</span></span> <span data-ttu-id="342b7-107">此外，規則引擎並非利用商務應用程式的架構或設計。</span><span class="sxs-lookup"><span data-stu-id="342b7-107">In addition, the rule engine does not impose on the architecture or design of business applications.</span></span> <span data-ttu-id="342b7-108">事實上，您可以直接叫用規則引擎將規則技術加入商務應用程式，或是取得叫用您的商務物件的外部邏輯，無需修改。</span><span class="sxs-lookup"><span data-stu-id="342b7-108">In fact, you can add rule technology to a business application by directly invoking the rule engine, or you can have external logic that invokes your business objects without modifying them.</span></span> <span data-ttu-id="342b7-109">總之，開發人員若採用該技術，只需耗費最少的精力便能建立和維護應用程式。</span><span class="sxs-lookup"><span data-stu-id="342b7-109">In short, the technology enables developers to create and maintain applications with minimal effort.</span></span>  

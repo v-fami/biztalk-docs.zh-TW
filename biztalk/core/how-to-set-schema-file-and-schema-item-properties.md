@@ -1,14 +1,14 @@
 ---
-title: "設定結構描述檔案和結構描述項目屬性 |Microsoft 文件"
-ms.custom: 
+title: 設定結構描述檔案和結構描述項目屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1dc21bfe-e1a3-4d59-abca-d93df95749a1
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255254"
 ---
 # <a name="how-to-set-schema-file-and-schema-item-properties"></a><span data-ttu-id="5c4f4-102">如何設定結構描述檔案和結構描述項目屬性</span><span class="sxs-lookup"><span data-stu-id="5c4f4-102">How to Set Schema File and Schema Item Properties</span></span>
 <span data-ttu-id="5c4f4-103">在 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 屬性視窗中設定結構描述檔案屬性和項目屬性。</span><span class="sxs-lookup"><span data-stu-id="5c4f4-103">Both schema file properties and item properties are set in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Properties window.</span></span> <span data-ttu-id="5c4f4-104">本主題描述檢查和 (或) 設定結構描述檔案/項目屬性時所需的步驟。</span><span class="sxs-lookup"><span data-stu-id="5c4f4-104">This topic describes the steps required to examine and/or set schema file/item properties.</span></span>  

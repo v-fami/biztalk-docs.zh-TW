@@ -1,14 +1,14 @@
 ---
-title: "如何設定 Wcf-customisolated 接收處理常式 |Microsoft 文件"
-ms.custom: 
+title: 如何設定 Wcf-customisolated 接收處理常式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3e90add2-1a5e-4509-a98c-b3c297b4213f
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248534"
 ---
 # <a name="how-to-configure-a-wcf-customisolated-receive-handler"></a><span data-ttu-id="ed376-102">如何設定 Wcf-customisolated 接收處理常式</span><span class="sxs-lookup"><span data-stu-id="ed376-102">How to Configure a WCF-CustomIsolated Receive Handler</span></span>
 <span data-ttu-id="ed376-103">如果您想要查閱 machine.config 以外的位置的自訂行為延伸模組 Wcf-customisolated 配接器，您必須設定接收處理常式屬性。</span><span class="sxs-lookup"><span data-stu-id="ed376-103">You must configure the receive handler properties if you want the WCF-CustomIsolated adapter to lookup the custom behavior extension from locations other than machine.config.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "無效的位址 (相對 uri) |Microsoft 文件"
-ms.custom: 
+title: 無效的位址 (相對 uri) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9a953f3e-3768-4e61-8f25-ea958a5a701a
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257502"
 ---
 # <a name="invalid-address-relative-uri"></a><span data-ttu-id="8c124-102">無效的位址 (相對 uri)</span><span class="sxs-lookup"><span data-stu-id="8c124-102">Invalid address (relative uri)</span></span>
 ## <a name="details"></a><span data-ttu-id="8c124-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="8c124-103">Details</span></span>  
@@ -55,7 +56,7 @@ ms.lasthandoff: 09/20/2017
   
 8.  <span data-ttu-id="8c124-130">在**WCF [***傳輸類型***] 傳輸屬性**對話方塊中，按一下 [**一般**] 索引標籤。</span><span class="sxs-lookup"><span data-stu-id="8c124-130">In the **WCF [***transport type***] Transport Properties** dialog box, click the **General** tab.</span></span>  
   
-9. <span data-ttu-id="8c124-131">在**位址 (URI)**文字方塊中，變更將會啟動以正斜線 （"/"） 的位址。</span><span class="sxs-lookup"><span data-stu-id="8c124-131">In the **Address (URI)** text box, change the address so that it starts with a forward slash ("/").</span></span>  
+9. <span data-ttu-id="8c124-131">在**位址 (URI)** 文字方塊中，變更將會啟動以正斜線 （"/"） 的位址。</span><span class="sxs-lookup"><span data-stu-id="8c124-131">In the **Address (URI)** text box, change the address so that it starts with a forward slash ("/").</span></span>  
   
  <span data-ttu-id="8c124-132">如需有關接收位置，請參閱下列資源：</span><span class="sxs-lookup"><span data-stu-id="8c124-132">For additional information on receive locations, see the following resources:</span></span>  
   

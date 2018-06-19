@@ -1,11 +1,11 @@
 ---
-title: "傳訊內容檢視 |Microsoft 文件"
-ms.custom: 
+title: 傳訊內容檢視 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Messaging Payload view [Tracking Profile Editor]
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - message schemas, payloads
 - Tracking Profile Editor, Messaging Payload view
 ms.assetid: 2bc247c5-5b31-4cd7-8377-ff9614df1320
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263022"
 ---
 # <a name="messaging-payload-view"></a><span data-ttu-id="6da16-102">傳訊內容檢視</span><span class="sxs-lookup"><span data-stu-id="6da16-102">Messaging Payload View</span></span>
 <span data-ttu-id="6da16-103">[傳訊內容] 檢視顯示與選取的動作 (例如「訊息已傳送」或「訊息已接收」) 相關聯之 XML 訊息的結構描述。</span><span class="sxs-lookup"><span data-stu-id="6da16-103">The Messaging Payload view displays the schema of the XML message associated with the selected action (for example, Message Sent or Received).</span></span> <span data-ttu-id="6da16-104">您可以從 [協調流程排程] 檢視中某些圖形的捷徑功能表存取該檢視。</span><span class="sxs-lookup"><span data-stu-id="6da16-104">The view is available from the shortcut menu for some of the shapes in the Orchestration Schedule view.</span></span>  

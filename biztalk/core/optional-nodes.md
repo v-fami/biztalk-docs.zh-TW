@@ -1,11 +1,11 @@
 ---
-title: "選擇性節點 |Microsoft 文件"
-ms.custom: 
+title: 選擇性節點 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - testing, BizTalk Mapper
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - BizTalk Mapper, testing
 - maps, optional nodes
 ms.assetid: 7dcd203e-fb23-438a-87d1-42323acd87cc
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263342"
 ---
 # <a name="optional-nodes"></a><span data-ttu-id="f9acf-102">選擇性節點</span><span class="sxs-lookup"><span data-stu-id="f9acf-102">Optional Nodes</span></span>
 <span data-ttu-id="f9acf-103">使用選擇性節點將會在您測試對應時產生警告。</span><span class="sxs-lookup"><span data-stu-id="f9acf-103">Using optional nodes will produce a warning when you test your map.</span></span> <span data-ttu-id="f9acf-104">有兩種情況會將來源節點視為選擇性：</span><span class="sxs-lookup"><span data-stu-id="f9acf-104">There are two conditions in which a source node may be considered optional:</span></span>  

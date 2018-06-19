@@ -1,14 +1,14 @@
 ---
-title: "EDI 群組結構元素 |Microsoft 文件"
-ms.custom: 
+title: EDI 群組結構元素 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 100a7118-9c02-474e-8685-9e4bb6f52e81
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22242518"
 ---
 # <a name="edi-group-structural-element"></a><span data-ttu-id="0a623-102">EDI 群組結構元素</span><span class="sxs-lookup"><span data-stu-id="0a623-102">EDI Group Structural Element</span></span>
 <span data-ttu-id="0a623-103">群組包含一或多個交易集。</span><span class="sxs-lookup"><span data-stu-id="0a623-103">The group contains one or more transaction sets.</span></span> <span data-ttu-id="0a623-104">EDIFACT 群組必須包含相同類型的交易集。</span><span class="sxs-lookup"><span data-stu-id="0a623-104">An EDIFACT group must contain transaction sets of the same type.</span></span> <span data-ttu-id="0a623-105">X12 群組包含交易集類似類型的 （根據交易集 – 群組對應 (GS01 ST01)） 或型別相同的交易集。</span><span class="sxs-lookup"><span data-stu-id="0a623-105">An X12 group may contain transaction sets of similar type (based on the transaction set – group (GS01-ST01) mapping) or transaction sets of the same type.</span></span> <span data-ttu-id="0a623-106">下表列出類似 X12 交易集 (ST01)，可以在單一群組 (GS01) 一起出現。</span><span class="sxs-lookup"><span data-stu-id="0a623-106">The table below lists similar X12 transaction sets (ST01), which can occur together in a single group (GS01).</span></span>  

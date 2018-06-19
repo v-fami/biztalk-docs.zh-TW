@@ -1,11 +1,11 @@
 ---
-title: "OrderBroker 協調流程中處理 |Microsoft 文件"
-ms.custom: 
+title: OrderBroker 協調流程中處理 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, examples
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - examples, orchestration processing [process management solution]
 - scopes, nesting
 ms.assetid: c296e00c-b3ad-4161-baf7-258899185c34
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22266630"
 ---
 # <a name="processing-in-the-orderbroker-orchestration"></a><span data-ttu-id="a8614-102">OrderBroker 協調流程中處理</span><span class="sxs-lookup"><span data-stu-id="a8614-102">Processing in the OrderBroker Orchestration</span></span>
 <span data-ttu-id="a8614-103">本章節描述如何**OrderBroker**訂單的協調流程，並準備程序管理員。</span><span class="sxs-lookup"><span data-stu-id="a8614-103">This section describes how the **OrderBroker** orchestration takes orders and prepares them for a process manager.</span></span> <span data-ttu-id="a8614-104">這節的開始會討論協調流程的一般工作。</span><span class="sxs-lookup"><span data-stu-id="a8614-104">The section begins by discussing the general workings of the orchestration.</span></span> <span data-ttu-id="a8614-105">下一部分則會討論協調流程處理訊息的方法。</span><span class="sxs-lookup"><span data-stu-id="a8614-105">The next part discusses how the orchestration processes a message.</span></span> <span data-ttu-id="a8614-106">然後會著重在協調流程如何使用不可部分完成交易來改進效能。</span><span class="sxs-lookup"><span data-stu-id="a8614-106">It then highlights how the orchestration uses an atomic transaction to improve performance.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "驗證訊息的傳送者 |Microsoft 文件"
-ms.custom: 
+title: 驗證訊息的傳送者 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - parties, authenticating
@@ -22,7 +22,7 @@ helpviewer_keywords:
 - authenticating, digital signatures
 - authenticating, messages
 ms.assetid: 813a2fb9-0346-4129-9cc5-1713f72a491e
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -31,6 +31,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232006"
 ---
 # <a name="authenticating-the-sender-of-a-message"></a><span data-ttu-id="c8b4f-102">驗證訊息的寄件者</span><span class="sxs-lookup"><span data-stu-id="c8b4f-102">Authenticating the Sender of a Message</span></span>
 <span data-ttu-id="c8b4f-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 使用各種不同機制來確認合作對象確實是其所自稱的身分，或處理程序確實是其所自稱的處理程序。</span><span class="sxs-lookup"><span data-stu-id="c8b4f-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses different mechanisms to verify that a party is who they claim to be, or that a process is what it claims to be.</span></span> <span data-ttu-id="c8b4f-104">此外，您可以指定程序是否能轉送到本身是訊息原始傳送者的 BizTalk Server，以及 BizTalk Server 是否應將合作對象辨識為夥伴。</span><span class="sxs-lookup"><span data-stu-id="c8b4f-104">Furthermore, you can specify whether the process can relay to BizTalk Server who the original sender of the message is, and whether BizTalk Server recognizes the party as a partner.</span></span>  

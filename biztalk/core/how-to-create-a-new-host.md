@@ -1,15 +1,15 @@
 ---
-title: "建立新的主機 |Microsoft 文件"
+title: 建立新的主機 |Microsoft 文件
 descriptions: Use BizTalk Administration to create a new host in BizTalk Server
-ms.custom: 
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 811e6e57-5c37-471a-aff4-5b2b68c367b1
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250198"
 ---
 # <a name="create-a-new-host"></a><span data-ttu-id="70925-102">建立新的主機</span><span class="sxs-lookup"><span data-stu-id="70925-102">Create a New Host</span></span>
 <span data-ttu-id="70925-103">BizTalk 主控件是配接器處理常式、接收位置 (包括管線)，以及協調流程等項目的邏輯容器。</span><span class="sxs-lookup"><span data-stu-id="70925-103">A BizTalk Host is a logical container for items such as adapter handlers, receive locations (including pipelines), and orchestrations.</span></span> <span data-ttu-id="70925-104">我們建議您使用不同的主控件來處理、接收和傳送訊息，而且也請針對信任和非信任項目使用不同的主控件，以便實行安全性措施並改善主控件的管理性。</span><span class="sxs-lookup"><span data-stu-id="70925-104">We recommend that you use separate hosts for processing, receiving, and sending messages, and that you use separate hosts for trusted and non-trusted items to facilitate implementing security measures and to improve manageability of the hosts.</span></span> <span data-ttu-id="70925-105">您只可以在每一部 BizTalk Server 上安裝一個主控件執行個體。</span><span class="sxs-lookup"><span data-stu-id="70925-105">You can install only one instance of a host per BizTalk server.</span></span> <span data-ttu-id="70925-106">如需主控件的詳細資訊，請參閱[主機](../core/hosts.md)。</span><span class="sxs-lookup"><span data-stu-id="70925-106">For more information about hosts, see [Hosts](../core/hosts.md).</span></span>  

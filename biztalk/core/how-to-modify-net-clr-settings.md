@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254294"
 ---
 # <a name="how-to-modify-net-clr-settings"></a><span data-ttu-id="caf2c-102">如何修改.NET CLR 設定</span><span class="sxs-lookup"><span data-stu-id="caf2c-102">How to Modify .NET CLR Settings</span></span>
 <span data-ttu-id="caf2c-103">若要更新 Windows 與 BizTalk 主控件執行個體相關聯的.NET 執行緒集區中可用的執行緒數目，您可以修改適當的 Common Runtime Language (CLR) Hosting 值使用 BizTalk 設定儀表板。</span><span class="sxs-lookup"><span data-stu-id="caf2c-103">To update the number of Windows threads available in the .NET thread pool associated with an instance of a BizTalk host, you can modify the appropriate Common Runtime Language (CLR) Hosting values using the BizTalk Settings Dashboard.</span></span> <span data-ttu-id="caf2c-104">本主題提供修改這些設定的逐步程序。</span><span class="sxs-lookup"><span data-stu-id="caf2c-104">This topic provides the step-by-step procedure to modify these settings.</span></span>  

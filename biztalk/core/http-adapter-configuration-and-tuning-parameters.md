@@ -1,11 +1,11 @@
 ---
-title: "HTTP 配接器組態和調整參數 |Microsoft 文件"
-ms.custom: 
+title: HTTP 配接器組態和調整參數 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - HTTP adapters, parameters
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - DisableChunkEncoding key [HTTP adapters]
 - HttpOutCompleteSize key [HTTP adapters]
 ms.assetid: c8989a88-722a-40b5-94cf-4b6840add02e
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257782"
 ---
 # <a name="http-adapter-configuration-and-tuning-parameters"></a><span data-ttu-id="c41c1-102">HTTP 配接器組態和調整參數</span><span class="sxs-lookup"><span data-stu-id="c41c1-102">HTTP Adapter Configuration and Tuning Parameters</span></span>
 <span data-ttu-id="c41c1-103">HTTP 配接器可以透過登錄機碼項目和修改位於 BizTalk Server 安裝根目錄的 BTSNTSvc.exe.config 檔案，來存取組態和調整參數。</span><span class="sxs-lookup"><span data-stu-id="c41c1-103">Several configuration and tuning parameters are accessible for the HTTP adapter through registry key entries and through the modification of the BTSNTSvc.exe.config file that is located in the root BizTalk Server installation directory.</span></span>  
@@ -38,11 +39,11 @@ ms.lasthandoff: 09/20/2017
   
 -   <span data-ttu-id="c41c1-108">**DisableChunkEncoding**， **RequestQueueSize**，和**HttpReceiveThreadsPerCpu**必須定義在**碼BTSSvc.3.0\HttpReceive**。</span><span class="sxs-lookup"><span data-stu-id="c41c1-108">**DisableChunkEncoding**, **RequestQueueSize**, and **HttpReceiveThreadsPerCpu** must be defined in **HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BTSSvc.3.0\HttpReceive**.</span></span>  
   
--   <span data-ttu-id="c41c1-109">**HttpOutTimeoutInterval**， **HttpOutInflightSize**，和**HttpOutCompleteSize**必須定義在**碼BTSSvc {GUID}**其中**GUID**是 HTTP 傳送處理常式主控件的識別碼。</span><span class="sxs-lookup"><span data-stu-id="c41c1-109">**HttpOutTimeoutInterval**, **HttpOutInflightSize**, and **HttpOutCompleteSize** must be defined in **HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BTSSvc{GUID}** where **GUID** is the ID of the host for the HTTP send handler.</span></span>  
+-   <span data-ttu-id="c41c1-109">**HttpOutTimeoutInterval**， **HttpOutInflightSize**，和**HttpOutCompleteSize**必須定義在**碼BTSSvc {GUID}** 其中**GUID**是 HTTP 傳送處理常式主控件的識別碼。</span><span class="sxs-lookup"><span data-stu-id="c41c1-109">**HttpOutTimeoutInterval**, **HttpOutInflightSize**, and **HttpOutCompleteSize** must be defined in **HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BTSSvc{GUID}** where **GUID** is the ID of the host for the HTTP send handler.</span></span>  
   
 |<span data-ttu-id="c41c1-110">機碼名稱</span><span class="sxs-lookup"><span data-stu-id="c41c1-110">Key name</span></span>|<span data-ttu-id="c41c1-111">類型</span><span class="sxs-lookup"><span data-stu-id="c41c1-111">Type</span></span>|<span data-ttu-id="c41c1-112">預設值</span><span class="sxs-lookup"><span data-stu-id="c41c1-112">Default</span></span>|<span data-ttu-id="c41c1-113">說明</span><span class="sxs-lookup"><span data-stu-id="c41c1-113">Explanation</span></span>|  
 |--------------|----------|-------------|-----------------|  
-|<span data-ttu-id="c41c1-114">**DisableChunkEncoding**</span><span class="sxs-lookup"><span data-stu-id="c41c1-114">**DisableChunkEncoding**</span></span>|<span data-ttu-id="c41c1-115">DWORD</span><span class="sxs-lookup"><span data-stu-id="c41c1-115">DWORD</span></span>|<span data-ttu-id="c41c1-116">0</span><span class="sxs-lookup"><span data-stu-id="c41c1-116">0</span></span>|<span data-ttu-id="c41c1-117">控制 HTTP 接收配接器在傳送回應給用戶端時是否使用區塊編碼。</span><span class="sxs-lookup"><span data-stu-id="c41c1-117">Regulates whether or not the HTTP receive adapter uses chunked encoding when sending responses back to the client.</span></span><br /><br /> <span data-ttu-id="c41c1-118">設成非零值以關閉 HTTP 接收配接器回應的區塊編碼。</span><span class="sxs-lookup"><span data-stu-id="c41c1-118">Set to a nonzero value to turn off chunked encoding for HTTP receive adapter responses.</span></span><br /><br /> <span data-ttu-id="c41c1-119">**最小值：** 0</span><span class="sxs-lookup"><span data-stu-id="c41c1-119">**Minimum value:** 0</span></span><br /><br /> <span data-ttu-id="c41c1-120">**最大值：**任何非零值</span><span class="sxs-lookup"><span data-stu-id="c41c1-120">**Maximum value:** Any nonzero value</span></span>|  
+|<span data-ttu-id="c41c1-114">**DisableChunkEncoding**</span><span class="sxs-lookup"><span data-stu-id="c41c1-114">**DisableChunkEncoding**</span></span>|<span data-ttu-id="c41c1-115">DWORD</span><span class="sxs-lookup"><span data-stu-id="c41c1-115">DWORD</span></span>|<span data-ttu-id="c41c1-116">0</span><span class="sxs-lookup"><span data-stu-id="c41c1-116">0</span></span>|<span data-ttu-id="c41c1-117">控制 HTTP 接收配接器在傳送回應給用戶端時是否使用區塊編碼。</span><span class="sxs-lookup"><span data-stu-id="c41c1-117">Regulates whether or not the HTTP receive adapter uses chunked encoding when sending responses back to the client.</span></span><br /><br /> <span data-ttu-id="c41c1-118">設成非零值以關閉 HTTP 接收配接器回應的區塊編碼。</span><span class="sxs-lookup"><span data-stu-id="c41c1-118">Set to a nonzero value to turn off chunked encoding for HTTP receive adapter responses.</span></span><br /><br /> <span data-ttu-id="c41c1-119">**最小值：** 0</span><span class="sxs-lookup"><span data-stu-id="c41c1-119">**Minimum value:** 0</span></span><br /><br /> <span data-ttu-id="c41c1-120">**最大值：** 任何非零值</span><span class="sxs-lookup"><span data-stu-id="c41c1-120">**Maximum value:** Any nonzero value</span></span>|  
 |<span data-ttu-id="c41c1-121">**Requestqueuesize 機**</span><span class="sxs-lookup"><span data-stu-id="c41c1-121">**RequestQueueSize**</span></span>|<span data-ttu-id="c41c1-122">DWORD</span><span class="sxs-lookup"><span data-stu-id="c41c1-122">DWORD</span></span>|<span data-ttu-id="c41c1-123">256</span><span class="sxs-lookup"><span data-stu-id="c41c1-123">256</span></span>|<span data-ttu-id="c41c1-124">定義 HTTP 接收配接器一次處理的並行要求數目。</span><span class="sxs-lookup"><span data-stu-id="c41c1-124">Defines the number of concurrent requests that the HTTP receive adapter processes at one time.</span></span><br /><br /> <span data-ttu-id="c41c1-125">**最小值：** 10</span><span class="sxs-lookup"><span data-stu-id="c41c1-125">**Minimum value:**  10</span></span><br /><br /> <span data-ttu-id="c41c1-126">**最大值：** 2048年</span><span class="sxs-lookup"><span data-stu-id="c41c1-126">**Maximum value:** 2048</span></span>|  
 |<span data-ttu-id="c41c1-127">**Httpreceivethreadspercpu 機**</span><span class="sxs-lookup"><span data-stu-id="c41c1-127">**HttpReceiveThreadsPerCpu**</span></span>|<span data-ttu-id="c41c1-128">DWORD</span><span class="sxs-lookup"><span data-stu-id="c41c1-128">DWORD</span></span>|<span data-ttu-id="c41c1-129">2</span><span class="sxs-lookup"><span data-stu-id="c41c1-129">2</span></span>|<span data-ttu-id="c41c1-130">定義配置給 HTTP 接收配接器的每個 CPU 的執行緒數目。</span><span class="sxs-lookup"><span data-stu-id="c41c1-130">Defines the number of threads per CPU that are allocated to the HTTP receive adapter.</span></span><br /><br /> <span data-ttu-id="c41c1-131">**最小值：** 1</span><span class="sxs-lookup"><span data-stu-id="c41c1-131">**Minimum value:** 1</span></span><br /><br /> <span data-ttu-id="c41c1-132">**最大值：** 10</span><span class="sxs-lookup"><span data-stu-id="c41c1-132">**Maximum value:** 10</span></span>|  
 |<span data-ttu-id="c41c1-133">**HttpOutTimeoutInterval**</span><span class="sxs-lookup"><span data-stu-id="c41c1-133">**HttpOutTimeoutInterval**</span></span>|<span data-ttu-id="c41c1-134">DWORD</span><span class="sxs-lookup"><span data-stu-id="c41c1-134">DWORD</span></span>|<span data-ttu-id="c41c1-135">2000</span><span class="sxs-lookup"><span data-stu-id="c41c1-135">2000</span></span>|<span data-ttu-id="c41c1-136">定義 HTTP 傳送配接器在逾時前等候的間隔 (以秒為單位)。</span><span class="sxs-lookup"><span data-stu-id="c41c1-136">Defines the interval in seconds that the HTTP send adapter will wait before timing out.</span></span><br /><br /> <span data-ttu-id="c41c1-137">**最小值：** 500</span><span class="sxs-lookup"><span data-stu-id="c41c1-137">**Minimum value:** 500</span></span><br /><br /> <span data-ttu-id="c41c1-138">**最大值：** 10000000</span><span class="sxs-lookup"><span data-stu-id="c41c1-138">**Maximum value:** 10000000</span></span>|  

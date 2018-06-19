@@ -1,14 +1,14 @@
 ---
-title: "如何刪除節點 |Microsoft 文件"
-ms.custom: 
+title: 如何刪除節點 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8d907767-7794-4e8d-96a1-7e592b85ad53
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249318"
 ---
 # <a name="how-to-delete-nodes"></a><span data-ttu-id="872fe-102">如何刪除節點</span><span class="sxs-lookup"><span data-stu-id="872fe-102">How to Delete Nodes</span></span>
 <span data-ttu-id="872fe-103">您可能會需要刪除結構描述樹狀結構中的節點。</span><span class="sxs-lookup"><span data-stu-id="872fe-103">There will be times when you want to delete a node in the schema tree.</span></span> <span data-ttu-id="872fe-104">本主題提供此工作的逐步解說。</span><span class="sxs-lookup"><span data-stu-id="872fe-104">This topic provides step-by-step instructions for this task.</span></span>  

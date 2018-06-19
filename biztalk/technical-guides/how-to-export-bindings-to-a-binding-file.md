@@ -1,14 +1,14 @@
 ---
-title: "如何匯出繫結至繫結檔案 |Microsoft 文件"
-ms.custom: 
+title: 如何匯出繫結至繫結檔案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3734ae6d-b790-40f2-8403-d7c7fdbe381b
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010743"
 ---
 # <a name="how-to-export-bindings-to-a-binding-file"></a><span data-ttu-id="7ce33-102">如何匯出繫結至繫結檔案</span><span class="sxs-lookup"><span data-stu-id="7ce33-102">How to Export Bindings to a Binding File</span></span>
 <span data-ttu-id="7ce33-103">您可以匯出到另一個現有 BizTalk 應用程式使用的繫結檔案的 BizTalk 應用程式的繫結。</span><span class="sxs-lookup"><span data-stu-id="7ce33-103">You can export the bindings of a BizTalk application into another existing BizTalk application using a binding file.</span></span> <span data-ttu-id="7ce33-104">您也可以匯出群組中的所有繫結或組件的繫結。</span><span class="sxs-lookup"><span data-stu-id="7ce33-104">You can also export all the bindings in a group or the binding for an assembly.</span></span> <span data-ttu-id="7ce33-105">接著，您可以將這些繫結匯入到應用程式或群組。</span><span class="sxs-lookup"><span data-stu-id="7ce33-105">Subsequently, you can import those bindings into either an application or group.</span></span>  

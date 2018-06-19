@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241062"
 ---
 # <a name="error---native-serialization"></a><span data-ttu-id="663d4-102">錯誤-原生序列化</span><span class="sxs-lookup"><span data-stu-id="663d4-102">Error - Native Serialization</span></span>
 <span data-ttu-id="663d4-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="663d4-103">**Error Code**</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "設定訊息的 HTTP 設定 |Microsoft 文件"
-ms.custom: 
+title: 設定訊息的 HTTP 設定 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3ed400f1-561d-4812-adf1-20e4300fd048
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233086"
 ---
 # <a name="configuring-http-settings-for-messages"></a><span data-ttu-id="e2334-102">設定訊息的 HTTP 設定</span><span class="sxs-lookup"><span data-stu-id="e2334-102">Configuring HTTP Settings for Messages</span></span>
 <span data-ttu-id="e2334-103">在訊息相關的 HTTP 設定中，您可以指定接收 AS2 訊息之 Web 伺服器預期的屬性。</span><span class="sxs-lookup"><span data-stu-id="e2334-103">As part of message-related HTTP settings, you can specify the properties expected by the Web server that receives AS2 messages.</span></span>  

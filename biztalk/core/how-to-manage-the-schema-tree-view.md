@@ -1,14 +1,14 @@
 ---
-title: "如何管理結構描述樹狀結構檢視 |Microsoft 文件"
-ms.custom: 
+title: 如何管理結構描述樹狀結構檢視 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 97fb7a88-e38a-4abb-93bc-a5be1bd091e6
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254902"
 ---
 # <a name="how-to-manage-the-schema-tree-view"></a><span data-ttu-id="1031b-102">如何管理結構描述樹狀結構檢視</span><span class="sxs-lookup"><span data-stu-id="1031b-102">How to Manage the Schema Tree View</span></span>
 <span data-ttu-id="1031b-103">與結構描述樹狀結構檢視相關的管理工作可分為四類：變更大小、變更背景色彩與字型、變更警告對話方塊的使用，以及展開和摺疊其樹狀結構。</span><span class="sxs-lookup"><span data-stu-id="1031b-103">Management tasks with respect to the schema tree view can be divided into four categories: changing its size, changing its background color and font, changing its use of warning dialogs, and expanding and collapsing its tree structure.</span></span> <span data-ttu-id="1031b-104">本主題提供這些不同工作的逐步說明。</span><span class="sxs-lookup"><span data-stu-id="1031b-104">This topic provides step-by-step instructions for these various tasks.</span></span>  

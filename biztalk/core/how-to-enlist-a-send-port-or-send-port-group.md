@@ -1,11 +1,11 @@
 ---
-title: "如何登錄傳送埠或傳送埠群組 |Microsoft 文件"
-ms.custom: 
+title: 如何登錄傳送埠或傳送埠群組 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - enlisting, send port groups
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - managing [send ports], enlisting
 - managing [send port groups], enlisting
 ms.assetid: d4298b8e-7dc7-4382-af86-c4db0982b7e0
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254470"
 ---
 # <a name="how-to-enlist-a-send-port-or-send-port-group"></a><span data-ttu-id="5994d-102">如何登錄傳送埠或傳送埠群組</span><span class="sxs-lookup"><span data-stu-id="5994d-102">How to Enlist a Send Port or Send Port Group</span></span>
 <span data-ttu-id="5994d-103">本主題描述如何使用 BizTalk Server 管理主控台來登錄傳送埠或傳送埠群組。</span><span class="sxs-lookup"><span data-stu-id="5994d-103">This topic describes how to use the BizTalk Server Administration console to enlist a send port or send port group.</span></span> <span data-ttu-id="5994d-104">登錄傳送埠或傳送埠群組會使傳送埠或傳送埠群組與 BizTalk 主控件產生關聯，並且為傳送埠或傳送埠群組建立訂閱。</span><span class="sxs-lookup"><span data-stu-id="5994d-104">Enlisting a send port or send port group associates the send port or send port group with a BizTalk host and creates the subscriptions for the send port or send port group.</span></span> <span data-ttu-id="5994d-105">如果傳送埠群組沒有包含傳送埠，登錄傳送埠群組並不會建立任何訂閱。</span><span class="sxs-lookup"><span data-stu-id="5994d-105">If a send port group does not contain a send port, enlisting the send port group does not create any subscriptions.</span></span> <span data-ttu-id="5994d-106">此外，登錄傳送埠群組也不會變更其包含的任何傳送埠的狀態。</span><span class="sxs-lookup"><span data-stu-id="5994d-106">In addition, enlisting a send port group does not change the state of any send ports that it contains.</span></span>  

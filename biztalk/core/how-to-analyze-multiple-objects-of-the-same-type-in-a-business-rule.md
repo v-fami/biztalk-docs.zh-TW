@@ -1,17 +1,17 @@
 ---
-title: "如何分析商務規則中相同類型的多個物件 |Microsoft 文件"
-ms.custom: 
+title: 如何分析商務規則中相同類型的多個物件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - business rules, multiple types
 - Business Rules Framework, programming
 ms.assetid: ff9790c1-13b0-4eee-8cac-d4f25ef5f0b7
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248430"
 ---
 # <a name="how-to-analyze-multiple-objects-of-the-same-type-in-a-business-rule"></a><span data-ttu-id="47fdf-102">如何分析商務規則中相同類型的多個物件</span><span class="sxs-lookup"><span data-stu-id="47fdf-102">How to Analyze Multiple Objects of the Same Type in a Business Rule</span></span>
 <span data-ttu-id="47fdf-103">在許多實例中，您將針對某一類型撰寫商務規則，預期判斷提示至引擎的該類型的每個執行個體可依照規則分別分析與作用。</span><span class="sxs-lookup"><span data-stu-id="47fdf-103">In many scenarios, you will write a business rule against a type and expect each instance of the type that is asserted into the engine to be separately analyzed and acted upon by the rule.</span></span> <span data-ttu-id="47fdf-104">不過，在某些實例中，您想要在規則中同時分析指定類型的多重執行個體。</span><span class="sxs-lookup"><span data-stu-id="47fdf-104">In some scenarios, however, you will want to analyze multiple instances of a given type simultaneously in a rule.</span></span>  

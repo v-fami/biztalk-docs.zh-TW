@@ -1,11 +1,11 @@
 ---
-title: "如何匯入 BizTalk 應用程式 |Microsoft 文件"
-ms.custom: 
+title: 如何匯入 BizTalk 應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, planning
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - applications, importing
 - importing, planning
 ms.assetid: 51169f35-d572-4612-9104-a59908e24874
-caps.latest.revision: "70"
+caps.latest.revision: 70
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010367"
 ---
 # <a name="how-to-import-a-biztalk-application"></a><span data-ttu-id="b7441-102">如何匯入 BizTalk 應用程式</span><span class="sxs-lookup"><span data-stu-id="b7441-102">How to Import a BizTalk Application</span></span>
 <span data-ttu-id="b7441-103">本主題描述如何使用[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台或命令列匯入 BizTalk 應用程式的 BizTalk 群組。</span><span class="sxs-lookup"><span data-stu-id="b7441-103">This topic describes how to use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console or the command line import a BizTalk application into a BizTalk group.</span></span> <span data-ttu-id="b7441-104">匯入 BizTalk 應用程式會在 BizTalk 管理資料庫中註冊成品，並將成品的資料寫入適當的 BizTalk 資料庫。</span><span class="sxs-lookup"><span data-stu-id="b7441-104">Importing a BizTalk application registers the artifacts in the BizTalk Management database and writes the data of the artifacts to the appropriate BizTalk databases.</span></span> <span data-ttu-id="b7441-105">如需詳細資訊，請參閱[什麼發生時匯入成品](../core/what-happens-when-artifacts-are-imported.md)。</span><span class="sxs-lookup"><span data-stu-id="b7441-105">For details, see [What Happens When Artifacts Are Imported](../core/what-happens-when-artifacts-are-imported.md).</span></span> <span data-ttu-id="b7441-106">匯入應用程式並不會安裝該應用程式，</span><span class="sxs-lookup"><span data-stu-id="b7441-106">Importing an application does not install the application.</span></span> <span data-ttu-id="b7441-107">您必須先安裝包含檔案架構成品的應用程式，才可以執行該應用程式。</span><span class="sxs-lookup"><span data-stu-id="b7441-107">You must install an application that includes file-based artifacts before it can run.</span></span>  
@@ -80,7 +81,7 @@ ms.lasthandoff: 12/01/2017
   
     -   <span data-ttu-id="b7441-168">若要匯入到現有的應用程式.msi 檔案中所包含的成品，請展開**應用程式**，應用程式上按一下滑鼠右鍵，指向**匯入**，然後按一下  **的MSI檔案**.</span><span class="sxs-lookup"><span data-stu-id="b7441-168">To import the artifacts contained in the .msi file into an existing application, expand **Applications**, right-click the application, point to **Import**, and then click **MSI file**.</span></span>  
   
-3.  <span data-ttu-id="b7441-169">在歡迎使用匯入 MSI 精靈 頁面上，在**要匯入 MSI 檔案**，輸入.msi 檔案的路徑，然後按一下**下一步**。</span><span class="sxs-lookup"><span data-stu-id="b7441-169">On the Welcome to the Import MSI Wizard page, in **MSI file to import**, type the path of the .msi file, and then click **Next**.</span></span> <span data-ttu-id="b7441-170">如果有必要，您可以瀏覽.msi 檔案，即可**...**</span><span class="sxs-lookup"><span data-stu-id="b7441-170">If necessary, you can browse for the .msi file by clicking the **…**</span></span> <span data-ttu-id="b7441-171">按鈕，可選取色彩。</span><span class="sxs-lookup"><span data-stu-id="b7441-171">button.</span></span>  
+3.  <span data-ttu-id="b7441-169">在歡迎使用匯入 MSI 精靈 頁面上，在**要匯入 MSI 檔案**，輸入.msi 檔案的路徑，然後按一下**下一步**。</span><span class="sxs-lookup"><span data-stu-id="b7441-169">On the Welcome to the Import MSI Wizard page, in **MSI file to import**, type the path of the .msi file, and then click **Next**.</span></span> <span data-ttu-id="b7441-170">如果有必要，您可以瀏覽.msi 檔案，即可 **...**</span><span class="sxs-lookup"><span data-stu-id="b7441-170">If necessary, you can browse for the .msi file by clicking the **…**</span></span> <span data-ttu-id="b7441-171">按鈕，可選取色彩。</span><span class="sxs-lookup"><span data-stu-id="b7441-171">button.</span></span>  
   
 4.  <span data-ttu-id="b7441-172">在應用程式設定 頁面中**應用程式名稱**下拉式清單中，選取應用程式名稱，如果有的話。</span><span class="sxs-lookup"><span data-stu-id="b7441-172">On the Application Settings page, in the **Application name** drop-down list, select the application name, if available.</span></span> <span data-ttu-id="b7441-173">當您將應用程式匯入 BizTalk 群組中，就會有此清單。</span><span class="sxs-lookup"><span data-stu-id="b7441-173">The list is available if you are importing the application into the BizTalk group.</span></span>  
   

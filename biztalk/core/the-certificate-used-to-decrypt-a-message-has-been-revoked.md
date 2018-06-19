@@ -1,14 +1,14 @@
 ---
-title: "用來解密訊息的憑證已被撤銷 |Microsoft 文件"
-ms.custom: 
+title: 用來解密訊息的憑證已被撤銷 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 01767cb2-b16e-4b4b-ac4d-cd79b6c8860a
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277910"
 ---
 # <a name="the-certificate-used-to-decrypt-a-message-has-been-revoked"></a><span data-ttu-id="ab5dc-102">用來解密訊息的憑證已被撤銷。</span><span class="sxs-lookup"><span data-stu-id="ab5dc-102">The certificate used to decrypt a message has been revoked</span></span>
 ## <a name="details"></a><span data-ttu-id="ab5dc-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="ab5dc-103">Details</span></span>  

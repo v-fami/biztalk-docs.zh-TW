@@ -1,14 +1,14 @@
 ---
-title: "如何設定單一登入 |Microsoft 文件"
-ms.custom: 
+title: 如何設定單一登入 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 511edc1d-de82-4d17-88ea-6cacfccde10d
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247766"
 ---
 # <a name="how-to-configure-single-sign-on"></a><span data-ttu-id="9af5a-102">如何設定單一登入</span><span class="sxs-lookup"><span data-stu-id="9af5a-102">How to Configure Single Sign-On</span></span>
 <span data-ttu-id="9af5a-103">在存取「企業單一登入」之前，您應該確認目前的使用者已正確設定「企業單一登入」。</span><span class="sxs-lookup"><span data-stu-id="9af5a-103">Before accessing Enterprise Single Sign-On, you should make sure that Enterprise Single Sign-On is set correctly for the current user.</span></span> <span data-ttu-id="9af5a-104">對於多數組態，您會使用兩個介面的其中一個。</span><span class="sxs-lookup"><span data-stu-id="9af5a-104">For most configurations, you use one of two interfaces.</span></span> <span data-ttu-id="9af5a-105">`ISSOAdmin`是可讓您建立新的分支機構應用程式的一般系統管理介面。</span><span class="sxs-lookup"><span data-stu-id="9af5a-105">`ISSOAdmin` is the general administration interface that enables you to create new affiliation applications.</span></span> <span data-ttu-id="9af5a-106">不過，藉由使用 ISSOAdmin.GetGlobalInfo 和 ISSOAdmin.UpdateGlobalInfo，您可以設定各種旗標和管理值。</span><span class="sxs-lookup"><span data-stu-id="9af5a-106">However, by using ISSOAdmin.GetGlobalInfo and ISSOAdmin.UpdateGlobalInfo, you can set a variety of flags and administration values.</span></span> <span data-ttu-id="9af5a-107">如下所述的一項可能工作就是確保已經啟用 SSO 票證。</span><span class="sxs-lookup"><span data-stu-id="9af5a-107">One possible task, as described in the following procedure, is to ensure that SSO ticketing has been enabled.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "如何使用連接埠類型 |Microsoft 文件"
-ms.custom: 
+title: 如何使用連接埠類型 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deleting, port types
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - ports, port types
 - port types, one-way
 ms.assetid: 78ac731e-c330-4888-a9ee-10523fef8ed0
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257126"
 ---
 # <a name="how-to-work-with-port-types"></a><span data-ttu-id="8edb2-102">如何使用連接埠類型</span><span class="sxs-lookup"><span data-stu-id="8edb2-102">How to Work with Port Types</span></span>
 <span data-ttu-id="8edb2-103">連接埠類型包含通訊模式、一組作業 (要求或回應)，以及可在其上運作這些作業的訊息類型。</span><span class="sxs-lookup"><span data-stu-id="8edb2-103">A port type consists of a communication pattern, a set of operations (requests or responses), and the message types that those operations can work on.</span></span> <span data-ttu-id="8edb2-104">模式可以是單向或要求-回應 (雙向)，且在該連接埠類型上定義的所有作業必須使用相同模式。</span><span class="sxs-lookup"><span data-stu-id="8edb2-104">The pattern can be either one-way or request-response (two-way), and all operations defined on that port type must use the same pattern.</span></span> <span data-ttu-id="8edb2-105">請注意，連接埠類型的方向不特定：方向是在個別連接埠上指定的。</span><span class="sxs-lookup"><span data-stu-id="8edb2-105">Note that port types are direction-agnostic: direction is specified on individual ports.</span></span>  

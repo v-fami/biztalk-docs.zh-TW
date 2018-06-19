@@ -30,6 +30,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22248126"
 ---
 # <a name="how-to-copy-tracked-messages-into-the-biztalk-tracking-database"></a><span data-ttu-id="198d9-102">如何將追蹤的訊息複製到 BizTalk 追蹤資料庫</span><span class="sxs-lookup"><span data-stu-id="198d9-102">How to Copy Tracked Messages into the BizTalk Tracking Database</span></span>
 <span data-ttu-id="198d9-103">因為封存與清除程序可能會存取並 (或) 更新不同 SQL Server 中的資料庫，所以您必須在相關 SQL Server 執行個體之間設定連結的伺服器。</span><span class="sxs-lookup"><span data-stu-id="198d9-103">The archiving and purging process potentially accesses and/or updates databases in different SQL servers, so you must set up linked servers between the involved SQL Server instances.</span></span> <span data-ttu-id="198d9-104">您可以使用連結的伺服器，將追蹤的訊息從 [BizTalk MessageBox]\ (BizTalkMsgBoxDb) 資料庫伺服器直接複製到 [BizTalk 追蹤] \(BizTalkDTADb) 資料庫。</span><span class="sxs-lookup"><span data-stu-id="198d9-104">You can directly copy tracked messages from the BizTalk MessageBox (BizTalkMsgBoxDb) database server to your BizTalk Tracking (BizTalkDTADb) database using a linked server.</span></span> <span data-ttu-id="198d9-105">您必須設定下列各項之間的連結伺服器：</span><span class="sxs-lookup"><span data-stu-id="198d9-105">You must set up linked servers between:</span></span>  

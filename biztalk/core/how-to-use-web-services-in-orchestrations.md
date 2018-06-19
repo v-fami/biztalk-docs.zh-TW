@@ -1,14 +1,14 @@
 ---
-title: "如何使用 Web 服務的協調流程 |Microsoft 文件"
-ms.custom: 
+title: 如何使用 Web 服務的協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a46f2c31-7cd0-427c-b21b-5a98b9e232d1
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256734"
 ---
 # <a name="how-to-use-web-services-in-orchestrations"></a><span data-ttu-id="62907-102">如何在協調流程中使用 Web 服務</span><span class="sxs-lookup"><span data-stu-id="62907-102">How to Use Web Services in Orchestrations</span></span>
 <span data-ttu-id="62907-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 提供了 Web 服務的內建支援。</span><span class="sxs-lookup"><span data-stu-id="62907-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides built-in support for Web services.</span></span> <span data-ttu-id="62907-104">BizTalk Server 可讓您重複使用及彙總協調流程中的所有現有 Web 服務。</span><span class="sxs-lookup"><span data-stu-id="62907-104">BizTalk Server enables the reuse and aggregation of all your existing Web services within your orchestrations.</span></span> <span data-ttu-id="62907-105">您也可以將協調流程發佈 (公開) 為 Web 服務，以區隔 Web 服務邏輯與商務程序邏輯。</span><span class="sxs-lookup"><span data-stu-id="62907-105">You can also publish (expose) your orchestrations as Web services to separate the Web service logic from the business process logic.</span></span>  

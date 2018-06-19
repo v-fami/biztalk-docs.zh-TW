@@ -1,18 +1,18 @@
 ---
-title: "如何刪除 MessageBox 資料庫 |Microsoft 文件"
-ms.custom: 
+title: 如何刪除 MessageBox 資料庫 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deleting, MessageBox database
 - managing [MessageBox database], deleting
 - MessageBox database, deleting
 ms.assetid: 51f91fcb-8b97-4b00-9056-6d216c8ccb58
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250062"
 ---
 # <a name="how-to-delete-a-messagebox-database"></a><span data-ttu-id="e75ee-102">如何刪除 MessageBox 資料庫</span><span class="sxs-lookup"><span data-stu-id="e75ee-102">How to Delete a MessageBox Database</span></span>
 <span data-ttu-id="e75ee-103">您可使用 BizTalk 管理主控台或 Windows Management Instrumentation (WMI) 從 BizTalk 群組移除 MessageBox 資料庫。</span><span class="sxs-lookup"><span data-stu-id="e75ee-103">You use the BizTalk Administration Console or Windows Management Instrumentation (WMI) to remove a MessageBox database from a BizTalk group.</span></span> <span data-ttu-id="e75ee-104">您可從 BizTalk 群組移除 MessageBox 資料庫，也可從 BizTalk Server 部署中整個移除此資料庫。</span><span class="sxs-lookup"><span data-stu-id="e75ee-104">You can remove a MessageBox database from a BizTalk group, or you can delete it from your BizTalk Server deployment entirely.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "步驟 7 （內部部署）： 建立協調流程 |Microsoft 文件"
-ms.custom: 
+title: 步驟 7 （內部部署）： 建立協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7c0b6d0e-cf00-4eee-9b89-28210bad46f4
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22280222"
 ---
 # <a name="step-7-on-premises-create-an-orchestration"></a><span data-ttu-id="14f66-102">步驟 7 （內部部署）： 建立協調流程</span><span class="sxs-lookup"><span data-stu-id="14f66-102">Step 7 (On Premises): Create an Orchestration</span></span>
 <span data-ttu-id="14f66-103">根據商務案例之後,[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]接收銷售訂單訊息的服務匯流排佇列，以便檢查是否有訊息中所訂購的數量大於 100。</span><span class="sxs-lookup"><span data-stu-id="14f66-103">According to the business scenario, after [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receives the sales order message from the Service Bus Queue, it needs to check whether the quantity ordered in the message is greater than 100.</span></span> <span data-ttu-id="14f66-104">如果數量大於 100 時，將訊息插入**SalesOrder**資料表。</span><span class="sxs-lookup"><span data-stu-id="14f66-104">If the quantity is greater than 100, the message is inserted into the **SalesOrder** table.</span></span> <span data-ttu-id="14f66-105">否則，訊息會傳送至共用的檔案位置。</span><span class="sxs-lookup"><span data-stu-id="14f66-105">Otherwise, the message is sent to a shared file location.</span></span> <span data-ttu-id="14f66-106">Northwind 會藉由建立協調流程來達成此商務邏輯。</span><span class="sxs-lookup"><span data-stu-id="14f66-106">Northwind achieves this business logic by creating an orchestration.</span></span> <span data-ttu-id="14f66-107">本主題提供有關如何建立協調流程的逐步指引。</span><span class="sxs-lookup"><span data-stu-id="14f66-107">This topic provides step-by-step guidance on how to create the orchestration.</span></span>  
@@ -34,7 +35,7 @@ ms.lasthandoff: 09/20/2017
 |------------------|---------------------------|  
 |<span data-ttu-id="14f66-118">Message1_SO_Inbound</span><span class="sxs-lookup"><span data-stu-id="14f66-118">Message1_SO_Inbound</span></span>|<span data-ttu-id="14f66-119">這個訊息是的執行個體**ECommerceSalesOrder.xsd**結構描述。</span><span class="sxs-lookup"><span data-stu-id="14f66-119">This message is an instance of the **ECommerceSalesOrder.xsd** schema.</span></span>|  
 |<span data-ttu-id="14f66-120">Message2_SO_Inbound</span><span class="sxs-lookup"><span data-stu-id="14f66-120">Message2_SO_Inbound</span></span>|<span data-ttu-id="14f66-121">這個訊息是一份**Message1_SO_Inbound**。</span><span class="sxs-lookup"><span data-stu-id="14f66-121">This message is a copy of the **Message1_SO_Inbound**.</span></span> <span data-ttu-id="14f66-122">最佳做法，您必須建立訊息的複本，並修改新訊息，並完整留下原始訊息。</span><span class="sxs-lookup"><span data-stu-id="14f66-122">As a best practice, you must create a copy of the message and then modify the new message, leaving the original message intact.</span></span> <span data-ttu-id="14f66-123">如需詳細資訊，請參閱[BizTalk Server 訊息](http://msdn.microsoft.com/library/aa560436)。</span><span class="sxs-lookup"><span data-stu-id="14f66-123">For more information, see [The BizTalk Server Message](http://msdn.microsoft.com/library/aa560436).</span></span>|  
-|<span data-ttu-id="14f66-124">Message1_SO_Outbound</span><span class="sxs-lookup"><span data-stu-id="14f66-124">Message1_SO_Outbound</span></span>|<span data-ttu-id="14f66-125">這個訊息是的執行個體**TableOperations.dbo.SalesOrder (Insert)**結構描述。</span><span class="sxs-lookup"><span data-stu-id="14f66-125">This message is an instance of the **TableOperations.dbo.SalesOrder (Insert)** schema.</span></span>|  
+|<span data-ttu-id="14f66-124">Message1_SO_Outbound</span><span class="sxs-lookup"><span data-stu-id="14f66-124">Message1_SO_Outbound</span></span>|<span data-ttu-id="14f66-125">這個訊息是的執行個體**TableOperations.dbo.SalesOrder (Insert)** 結構描述。</span><span class="sxs-lookup"><span data-stu-id="14f66-125">This message is an instance of the **TableOperations.dbo.SalesOrder (Insert)** schema.</span></span>|  
   
 #### <a name="to-create-the-messages"></a><span data-ttu-id="14f66-126">建立訊息</span><span class="sxs-lookup"><span data-stu-id="14f66-126">To create the messages</span></span>  
   
@@ -111,7 +112,7 @@ ms.lasthandoff: 09/20/2017
   
         |<span data-ttu-id="14f66-185">屬性名稱</span><span class="sxs-lookup"><span data-stu-id="14f66-185">Property name</span></span>|<span data-ttu-id="14f66-186">值</span><span class="sxs-lookup"><span data-stu-id="14f66-186">Value</span></span>|  
         |-------------------|-----------|  
-        |<span data-ttu-id="14f66-187">識別碼</span><span class="sxs-lookup"><span data-stu-id="14f66-187">Identifier</span></span>|<span data-ttu-id="14f66-188">輸入`Yes`。</span><span class="sxs-lookup"><span data-stu-id="14f66-188">Enter `Yes`.</span></span> <span data-ttu-id="14f66-189">**注意：**其他路由的預設名稱為**Else**。</span><span class="sxs-lookup"><span data-stu-id="14f66-189">**Note:**  The other route is by default named **Else**.</span></span>|  
+        |<span data-ttu-id="14f66-187">識別碼</span><span class="sxs-lookup"><span data-stu-id="14f66-187">Identifier</span></span>|<span data-ttu-id="14f66-188">輸入`Yes`。</span><span class="sxs-lookup"><span data-stu-id="14f66-188">Enter `Yes`.</span></span> <span data-ttu-id="14f66-189">**注意：** 其他路由的預設名稱為**Else**。</span><span class="sxs-lookup"><span data-stu-id="14f66-189">**Note:**  The other route is by default named **Else**.</span></span>|  
         |<span data-ttu-id="14f66-190">運算式</span><span class="sxs-lookup"><span data-stu-id="14f66-190">Expression</span></span>|<span data-ttu-id="14f66-191">輸入`quantityOrdered > 100`。</span><span class="sxs-lookup"><span data-stu-id="14f66-191">Enter `quantityOrdered > 100`.</span></span>|  
   
          <span data-ttu-id="14f66-192">您現在有兩個可用的路由。</span><span class="sxs-lookup"><span data-stu-id="14f66-192">You now have two routes available.</span></span> <span data-ttu-id="14f66-193">如果中的值**quantityOrdered**變數大於 100，訊息會**是**路由。</span><span class="sxs-lookup"><span data-stu-id="14f66-193">If the value in the **quantityOrdered** variable is greater than 100, the message takes the **Yes** route.</span></span> <span data-ttu-id="14f66-194">否則，它會將**Else**路由。</span><span class="sxs-lookup"><span data-stu-id="14f66-194">Otherwise, it takes the **Else** route.</span></span> <span data-ttu-id="14f66-195">您現在必須定義要執行內的每一個路由動作。</span><span class="sxs-lookup"><span data-stu-id="14f66-195">You must now define the actions to be performed within each route.</span></span>  
@@ -158,8 +159,8 @@ ms.lasthandoff: 09/20/2017
   
     |<span data-ttu-id="14f66-229">連接埠名稱</span><span class="sxs-lookup"><span data-stu-id="14f66-229">Port Name</span></span>|<span data-ttu-id="14f66-230">屬性</span><span class="sxs-lookup"><span data-stu-id="14f66-230">Properties</span></span>|  
     |---------------|----------------|  
-    |<span data-ttu-id="14f66-231">[Sendtosql]</span><span class="sxs-lookup"><span data-stu-id="14f66-231">SendToSQL</span></span>|<span data-ttu-id="14f66-232">-設定**名稱**至**[sendtosql]**</span><span class="sxs-lookup"><span data-stu-id="14f66-232">-   Set **Name** to **SendToSQL**</span></span><br /><span data-ttu-id="14f66-233">-選取**建立新的連接埠類型**</span><span class="sxs-lookup"><span data-stu-id="14f66-233">-   Select **Create a new port type**</span></span><br /><span data-ttu-id="14f66-234">設定通訊模式，以**單向**</span><span class="sxs-lookup"><span data-stu-id="14f66-234">-   Set communication pattern to **One-way**</span></span><br /><span data-ttu-id="14f66-235">-若要設定連接埠方向**我將總是傳送訊息在此連接埠**</span><span class="sxs-lookup"><span data-stu-id="14f66-235">-   Set port direction to **I’ll always be sending messages on this port**</span></span>|  
-    |<span data-ttu-id="14f66-236">[Sendtofile]</span><span class="sxs-lookup"><span data-stu-id="14f66-236">SendToFile</span></span>|<span data-ttu-id="14f66-237">-設定**名稱**至**[sendtofile]**</span><span class="sxs-lookup"><span data-stu-id="14f66-237">-   Set **Name** to **SendToFile**</span></span><br /><span data-ttu-id="14f66-238">-選取**建立新的連接埠類型**</span><span class="sxs-lookup"><span data-stu-id="14f66-238">-   Select **Create a new port type**</span></span><br /><span data-ttu-id="14f66-239">設定通訊模式，以**單向**</span><span class="sxs-lookup"><span data-stu-id="14f66-239">-   Set communication pattern to **One-way**</span></span><br /><span data-ttu-id="14f66-240">-若要設定連接埠方向**我將總是傳送訊息在此連接埠**</span><span class="sxs-lookup"><span data-stu-id="14f66-240">-   Set port direction to **I’ll always be sending messages on this port**</span></span>|  
+    |<span data-ttu-id="14f66-231">[Sendtosql]</span><span class="sxs-lookup"><span data-stu-id="14f66-231">SendToSQL</span></span>|<span data-ttu-id="14f66-232">-設定**名稱**至 **[sendtosql]**</span><span class="sxs-lookup"><span data-stu-id="14f66-232">-   Set **Name** to **SendToSQL**</span></span><br /><span data-ttu-id="14f66-233">-選取**建立新的連接埠類型**</span><span class="sxs-lookup"><span data-stu-id="14f66-233">-   Select **Create a new port type**</span></span><br /><span data-ttu-id="14f66-234">設定通訊模式，以**單向**</span><span class="sxs-lookup"><span data-stu-id="14f66-234">-   Set communication pattern to **One-way**</span></span><br /><span data-ttu-id="14f66-235">-若要設定連接埠方向**我將總是傳送訊息在此連接埠**</span><span class="sxs-lookup"><span data-stu-id="14f66-235">-   Set port direction to **I’ll always be sending messages on this port**</span></span>|  
+    |<span data-ttu-id="14f66-236">[Sendtofile]</span><span class="sxs-lookup"><span data-stu-id="14f66-236">SendToFile</span></span>|<span data-ttu-id="14f66-237">-設定**名稱**至 **[sendtofile]**</span><span class="sxs-lookup"><span data-stu-id="14f66-237">-   Set **Name** to **SendToFile**</span></span><br /><span data-ttu-id="14f66-238">-選取**建立新的連接埠類型**</span><span class="sxs-lookup"><span data-stu-id="14f66-238">-   Select **Create a new port type**</span></span><br /><span data-ttu-id="14f66-239">設定通訊模式，以**單向**</span><span class="sxs-lookup"><span data-stu-id="14f66-239">-   Set communication pattern to **One-way**</span></span><br /><span data-ttu-id="14f66-240">-若要設定連接埠方向**我將總是傳送訊息在此連接埠**</span><span class="sxs-lookup"><span data-stu-id="14f66-240">-   Set port direction to **I’ll always be sending messages on this port**</span></span>|  
   
 ## <a name="connect-ports-and-message-shapes"></a><span data-ttu-id="14f66-241">連接連接埠和訊息圖形</span><span class="sxs-lookup"><span data-stu-id="14f66-241">Connect Ports and Message Shapes</span></span>  
  <span data-ttu-id="14f66-242">您現在必須連接連接埠和訊息圖形，以完成協調流程。</span><span class="sxs-lookup"><span data-stu-id="14f66-242">You must now connect the ports and the message shapes to complete the orchestration.</span></span> <span data-ttu-id="14f66-243">收到訊息時，會啟動協調流程**ReceiveOrder**圖形與協調流程會結束時由兩個傳送圖形會將訊息傳出。</span><span class="sxs-lookup"><span data-stu-id="14f66-243">The orchestration starts when the message is received by the **ReceiveOrder** shape and the orchestration exits when the message is sent out by the two Send shapes.</span></span> <span data-ttu-id="14f66-244">您必須使用此準則，來連接的連接埠和訊息圖形</span><span class="sxs-lookup"><span data-stu-id="14f66-244">You must use this criterion to connect the ports and the message shapes</span></span>  

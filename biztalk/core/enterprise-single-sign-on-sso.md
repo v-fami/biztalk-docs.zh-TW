@@ -1,17 +1,17 @@
 ---
-title: "企業單一登入 (SSO) |Microsoft 文件"
-ms.custom: 
+title: 企業單一登入 (SSO) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SSO, about SSO
 - SSO
 ms.assetid: beab96f7-f026-4ae1-8462-a165ad76bbec
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240150"
 ---
 # <a name="enterprise-single-sign-on-sso"></a><span data-ttu-id="a6dee-102">企業單一登入 (SSO)</span><span class="sxs-lookup"><span data-stu-id="a6dee-102">Enterprise Single Sign-On (SSO)</span></span>
 <span data-ttu-id="a6dee-103">「企業單一登入」(SSO) 所提供的服務，可跨越本機與網路界限 (包含網域界限) 來儲存和傳輸加密的使用者認證。</span><span class="sxs-lookup"><span data-stu-id="a6dee-103">Enterprise Single Sign-On (SSO) provides services to store and transmit encrypted user credentials across local and network boundaries, including domain boundaries.</span></span> <span data-ttu-id="a6dee-104">SSO 將認證儲存在 SSO 資料庫中。</span><span class="sxs-lookup"><span data-stu-id="a6dee-104">SSO stores the credentials in the SSO database.</span></span> <span data-ttu-id="a6dee-105">因為 SSO 提供的是一般的單一登入解決方案，所以中介軟體應用程式和自訂配接器都能利用 SSO 安全地在整個環境內儲存及傳輸使用者認證。</span><span class="sxs-lookup"><span data-stu-id="a6dee-105">Because SSO provides a generic single sign-on solution, middleware applications and custom adapters can leverage SSO to securely store and transmit user credentials across the environment.</span></span> <span data-ttu-id="a6dee-106">一般使用者不用再記住各個應用程式的不同認證了。</span><span class="sxs-lookup"><span data-stu-id="a6dee-106">End users do not have to remember different credentials for different applications.</span></span>  

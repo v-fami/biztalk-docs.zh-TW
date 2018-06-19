@@ -1,11 +1,11 @@
 ---
-title: "BAM 入口網站中的警示 |Microsoft 文件"
-ms.custom: 
+title: BAM 入口網站中的警示 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BAM portal, alerts
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Alert Management page [BAM portal]
 - alerts, subscriptions
 ms.assetid: 715a4187-aafa-46be-8b00-8eaba2e569e5
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232710"
 ---
 # <a name="alerts-in-the-bam-portal"></a><span data-ttu-id="8a302-102">BAM 入口網站中的警示</span><span class="sxs-lookup"><span data-stu-id="8a302-102">Alerts in the BAM Portal</span></span>
 <span data-ttu-id="8a302-103">警示可讓您定義可即時傳遞給使用者有關您商務程序的重要事件，例如關鍵效能指標 (KPI)。</span><span class="sxs-lookup"><span data-stu-id="8a302-103">Alerts allow you to define important events about your business process, such as Key Performance Indicators (KPIs), that can be delivered to users on a real-time basis.</span></span> <span data-ttu-id="8a302-104">使用者可訂閱警示，接收警示所監視之商務事件的通知。</span><span class="sxs-lookup"><span data-stu-id="8a302-104">Users subscribe to alerts to receive notification of the business event that the alert monitors.</span></span>  
@@ -58,7 +59,7 @@ ms.lasthandoff: 09/20/2017
   
 |<span data-ttu-id="8a302-148">欄位名稱</span><span class="sxs-lookup"><span data-stu-id="8a302-148">Field Name</span></span>|<span data-ttu-id="8a302-149">目錄</span><span class="sxs-lookup"><span data-stu-id="8a302-149">Contents</span></span>|  
 |----------------|--------------|  
-|<span data-ttu-id="8a302-150">名稱</span><span class="sxs-lookup"><span data-stu-id="8a302-150">Name</span></span>|<span data-ttu-id="8a302-151">警示的名稱。</span><span class="sxs-lookup"><span data-stu-id="8a302-151">The name of the alert.</span></span> <span data-ttu-id="8a302-152">警示的名稱會當成以電子郵件方式傳遞之警示的主旨，以及以檔案方式傳遞之警示的檔案名稱。</span><span class="sxs-lookup"><span data-stu-id="8a302-152">The name of the alert is used as the subject of alerts delivered as e-mail and as the file name for alerts delivered as a file.</span></span> <span data-ttu-id="8a302-153">**注意：**名稱限制為 100 個字元，且不可包含下列字元: ~！@#$%^&amp;* ();</span><span class="sxs-lookup"><span data-stu-id="8a302-153">**Note:**  Names are limited to 100 characters and cannot contain the following characters, ~!@#$%^&amp;*();</span></span>|  
+|<span data-ttu-id="8a302-150">名稱</span><span class="sxs-lookup"><span data-stu-id="8a302-150">Name</span></span>|<span data-ttu-id="8a302-151">警示的名稱。</span><span class="sxs-lookup"><span data-stu-id="8a302-151">The name of the alert.</span></span> <span data-ttu-id="8a302-152">警示的名稱會當成以電子郵件方式傳遞之警示的主旨，以及以檔案方式傳遞之警示的檔案名稱。</span><span class="sxs-lookup"><span data-stu-id="8a302-152">The name of the alert is used as the subject of alerts delivered as e-mail and as the file name for alerts delivered as a file.</span></span> <span data-ttu-id="8a302-153">**注意：** 名稱限制為 100 個字元，且不可包含下列字元: ~！@#$%^&amp;\* ();</span><span class="sxs-lookup"><span data-stu-id="8a302-153">**Note:**  Names are limited to 100 characters and cannot contain the following characters, ~!@#$%^&amp;\*();</span></span>|  
 |<span data-ttu-id="8a302-154">訊息</span><span class="sxs-lookup"><span data-stu-id="8a302-154">Message</span></span>|<span data-ttu-id="8a302-155">將隨警示傳遞的訊息文字。</span><span class="sxs-lookup"><span data-stu-id="8a302-155">The text of the message that will be delivered with the alert.</span></span>|  
 |<span data-ttu-id="8a302-156">優先權</span><span class="sxs-lookup"><span data-stu-id="8a302-156">Priority</span></span>|<span data-ttu-id="8a302-157">表示警示所報告之問題的嚴重性。</span><span class="sxs-lookup"><span data-stu-id="8a302-157">Indicates the severity of the issue the alert is reporting.</span></span> <span data-ttu-id="8a302-158">優先順序層級分為高、中和低。</span><span class="sxs-lookup"><span data-stu-id="8a302-158">The priority levels are High, Medium, and Low.</span></span> <span data-ttu-id="8a302-159">對於以電子郵件傳遞的警示，這項設定會決定電子郵件訊息上之重要性旗標的類型。</span><span class="sxs-lookup"><span data-stu-id="8a302-159">For alerts delivered by e-mail, this setting determines the type of importance flag on the e-mail message.</span></span>|  
 |<span data-ttu-id="8a302-160">擁有者</span><span class="sxs-lookup"><span data-stu-id="8a302-160">Owners</span></span>|<span data-ttu-id="8a302-161">警示的擁有者。</span><span class="sxs-lookup"><span data-stu-id="8a302-161">The owner of the alert.</span></span> <span data-ttu-id="8a302-162">擁有者的預設值即為警示的建立者，</span><span class="sxs-lookup"><span data-stu-id="8a302-162">The default value for the owner is the same as the creator of the alert.</span></span> <span data-ttu-id="8a302-163">如果有多個擁有者，可利用分號分隔的清單方式輸入。</span><span class="sxs-lookup"><span data-stu-id="8a302-163">Multiple owners are entered as a semi-colon delimited list.</span></span>|  

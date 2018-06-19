@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241270"
 ---
 # <a name="error---output-link-for-xslt-scripting-functoid-not-valid"></a><span data-ttu-id="67f92-102">錯誤-XSLT 指令碼處理運算質不是有效的輸出連結</span><span class="sxs-lookup"><span data-stu-id="67f92-102">Error - Output Link For XSLT Scripting Functoid Not Valid</span></span>
 <span data-ttu-id="67f92-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="67f92-103">**Error Code**</span></span>  
