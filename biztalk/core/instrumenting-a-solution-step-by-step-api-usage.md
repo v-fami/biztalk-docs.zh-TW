@@ -1,14 +1,14 @@
 ---
-title: "檢測解決方案： 逐步 API 用量 |Microsoft 文件"
-ms.custom: 
+title: 檢測解決方案： 逐步 API 用量 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e9e027ab-1927-4905-8970-8061ac55d591
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22258230"
 ---
 # <a name="instrumenting-a-solution-step-by-step-api-usage"></a><span data-ttu-id="70ef8-102">檢測解決方案： 逐步 API 使用方式</span><span class="sxs-lookup"><span data-stu-id="70ef8-102">Instrumenting a Solution: Step-by-Step API Usage</span></span>
 <span data-ttu-id="70ef8-103">這個主題會說明如何使用重要的 BAM API 類別來檢測應用程式。</span><span class="sxs-lookup"><span data-stu-id="70ef8-103">This topic describes how to instrument an application using the key BAM API class.</span></span> <span data-ttu-id="70ef8-104">在下列的程式碼片段中，我們藉由使用常數以及檢測應用程式所需的最少程式碼，將範例程式碼簡化。</span><span class="sxs-lookup"><span data-stu-id="70ef8-104">In the following code snippets we have simplified the sample code by using constants and by using the minimum code necessary to instrument an application.</span></span>  

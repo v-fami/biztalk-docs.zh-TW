@@ -1,15 +1,15 @@
 ---
-title: "管理對應 |Microsoft 文件"
-description: "將在 BizTalk Server 中，包括檢視和移除對應的對應連結"
-ms.custom: 
+title: 管理對應 |Microsoft 文件
+description: 將在 BizTalk Server 中，包括檢視和移除對應的對應連結
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0e8e3057-5a9f-4b6b-b6ee-c71b7e6a51ac
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263126"
 ---
 # <a name="manage-maps"></a><span data-ttu-id="65fad-103">管理對應</span><span class="sxs-lookup"><span data-stu-id="65fad-103">Manage Maps</span></span>
 

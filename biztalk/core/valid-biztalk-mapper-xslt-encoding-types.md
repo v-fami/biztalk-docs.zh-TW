@@ -1,11 +1,11 @@
 ---
-title: "有效的 BizTalk 對應工具 XSLT 編碼類型 |Microsoft 文件"
-ms.custom: 
+title: 有效的 BizTalk 對應工具 XSLT 編碼類型 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - grid properties
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - XSLT, encoding types [BizTalk Mapper]
 - BizTalk Mapper, XSLT encoding
 ms.assetid: 922b46cb-7bc8-4267-bf52-e5f0262b8da1
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288014"
 ---
 # <a name="valid-biztalk-mapper-xslt-encoding-types"></a><span data-ttu-id="96357-102">有效的 BizTalk 對應工具 XSLT 編碼類型</span><span class="sxs-lookup"><span data-stu-id="96357-102">Valid BizTalk Mapper XSLT Encoding Types</span></span>
 <span data-ttu-id="96357-103">BizTalk 對應工具支援不同的可延伸樣式表語言轉換 (XSLT) 編碼類型。</span><span class="sxs-lookup"><span data-stu-id="96357-103">BizTalk Mapper supports different types of Extensible Stylesheet Language Transformations (XSLT) encoding.</span></span> <span data-ttu-id="96357-104">您使用**XSLT 編碼**格線屬性，以設定的 XSLT 編碼您偏好的類型。</span><span class="sxs-lookup"><span data-stu-id="96357-104">You use the **XSLT Encoding** grid property to set the XSLT encoding type that you prefer.</span></span> <span data-ttu-id="96357-105">下表列出與相關聯的下拉式清單中的編碼格式**XSLT 編碼**格線屬性：</span><span class="sxs-lookup"><span data-stu-id="96357-105">The following list shows the encoding formats that are available in the drop-down list associated with the **XSLT Encoding** grid property:</span></span>  

@@ -1,17 +1,17 @@
 ---
-title: "設定 SWIFT 組合器 |Microsoft 文件"
-ms.custom: 
+title: 設定 SWIFT 組合器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - assembler, configuring
 - configuring, assembler
 ms.assetid: 76944226-e29b-4a7f-a4ab-3c3d5f13ec51
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26004607"
 ---
 # <a name="configuring-the-swift-assembler"></a><span data-ttu-id="9df31-102">設定 SWIFT 組譯工具</span><span class="sxs-lookup"><span data-stu-id="9df31-102">Configuring the SWIFT Assembler</span></span>
 <span data-ttu-id="9df31-103">SWIFT 組譯工具執行下列工作，當您叫用在[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]傳送管線：</span><span class="sxs-lookup"><span data-stu-id="9df31-103">The SWIFT assembler performs the following tasks when you invoke it in a [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] send pipeline:</span></span>  

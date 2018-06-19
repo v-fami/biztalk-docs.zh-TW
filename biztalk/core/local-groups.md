@@ -1,17 +1,17 @@
 ---
-title: "本機群組 |Microsoft 文件"
-ms.custom: 
+title: 本機群組 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Configuration Manager, local groups
 - local groups
 ms.assetid: cd91b280-a118-459c-b1eb-5bc92dba4059
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22261886"
 ---
 # <a name="local-groups"></a><span data-ttu-id="e692f-102">本機群組</span><span class="sxs-lookup"><span data-stu-id="e692f-102">Local Groups</span></span>
 <span data-ttu-id="e692f-103">如果您在單一電腦安裝 BizTalk Server 以及所有必備的軟體，「組態管理員」預設會為您建立所需的 Windows 群組和使用者帳戶。</span><span class="sxs-lookup"><span data-stu-id="e692f-103">The Configuration Manager creates the necessary Windows group and user accounts for you by default if you install BizTalk Server and all prerequisite software on a single computer.</span></span> <span data-ttu-id="e692f-104">BizTalk Server 僅在單一電腦組態中支援本機群組和使用者帳戶。</span><span class="sxs-lookup"><span data-stu-id="e692f-104">BizTalk Server supports local group and user accounts only in single computer configurations.</span></span>  

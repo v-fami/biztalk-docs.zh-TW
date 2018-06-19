@@ -1,14 +1,14 @@
 ---
-title: "如何建立和修改配接器群組 |Microsoft 文件"
-ms.custom: 
+title: 如何建立和修改配接器群組 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a1eef051-2ed7-4e28-8cb9-0145d6c8ed76
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249222"
 ---
 # <a name="how-to-create-and-modify-an-adapter-group"></a><span data-ttu-id="1fae5-102">如何建立和修改配接器群組</span><span class="sxs-lookup"><span data-stu-id="1fae5-102">How to Create and Modify an Adapter Group</span></span>
 <span data-ttu-id="1fae5-103">單一登入 (SSO) 的其中一項新功能是能夠建立和修改配接器群組。</span><span class="sxs-lookup"><span data-stu-id="1fae5-103">One of the new features of Single Sign-On (SSO) is the ability to create and modify adapter groups.</span></span> <span data-ttu-id="1fae5-104">配接器群組正如其名，就是配接器的組合。</span><span class="sxs-lookup"><span data-stu-id="1fae5-104">As the name implies, an adapter group is a collection of adapters.</span></span> <span data-ttu-id="1fae5-105">您可以使用配接器群組來組織配接器的安全性設定及其他屬性。</span><span class="sxs-lookup"><span data-stu-id="1fae5-105">You can use adapter groups to organize security settings and other properties for your adapters.</span></span>  

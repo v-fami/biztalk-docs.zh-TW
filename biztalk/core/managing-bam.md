@@ -1,17 +1,17 @@
 ---
-title: "管理 BAM |Microsoft 文件"
-ms.custom: 
+title: 管理 BAM |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [BAM], about managing BAM
 - managing [BAM]
 ms.assetid: 2981a90d-aaa4-4991-beee-5ac1f12b5c9e
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262446"
 ---
 # <a name="managing-bam"></a><span data-ttu-id="e30f4-102">管理 BAM</span><span class="sxs-lookup"><span data-stu-id="e30f4-102">Managing BAM</span></span>
 <span data-ttu-id="e30f4-103">商務活動監控 (BAM) 透過提供即時存取權，使商務使用者可以存取重要商務效能指標。</span><span class="sxs-lookup"><span data-stu-id="e30f4-103">Business Activity Monitoring (BAM) empowers business users by providing real-time access to critical business performance indicators.</span></span> <span data-ttu-id="e30f4-104">商務使用者可以使用這項資訊改善商務作業的速度與效益。</span><span class="sxs-lookup"><span data-stu-id="e30f4-104">Business users can use this information to improve the speed and effectiveness of business operations.</span></span> <span data-ttu-id="e30f4-105">無論異質環境的複雜度為何，BAM 都能以即時、交易一致的方式收集商務活動資訊。</span><span class="sxs-lookup"><span data-stu-id="e30f4-105">BAM collects the business activity information in a real-time, transaction-consistent way regardless of the complexity of a heterogeneous environment.</span></span>  

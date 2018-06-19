@@ -1,17 +1,17 @@
 ---
-title: "如何開啟儲存的追蹤查詢 |Microsoft 文件"
-ms.custom: 
+title: 如何開啟儲存的追蹤查詢 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - queries [HAT], opening
 - queries [HAT]
 ms.assetid: 7e63c45c-b74e-40e1-9035-b7191d0803ff
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254390"
 ---
 # <a name="how-to-open-a-saved-tracking-query"></a><span data-ttu-id="45430-102">如何開啟儲存的追蹤查詢</span><span class="sxs-lookup"><span data-stu-id="45430-102">How to Open a Saved Tracking Query</span></span>
 <span data-ttu-id="45430-103">您可以開啟即時追蹤資料 （目前正在執行的服務執行個體和訊息） 的訊息或服務執行個體查詢。</span><span class="sxs-lookup"><span data-stu-id="45430-103">You can open a message or service instance query against live tracking data (currently running service instances and messages).</span></span> <span data-ttu-id="45430-104">這是在從 BizTalk Server 管理主控台中 群組中樞頁面上使用 查詢 索引標籤。</span><span class="sxs-lookup"><span data-stu-id="45430-104">This is done by using the Query tab on the Group Hub page from within the BizTalk Server Administration Console.</span></span>  

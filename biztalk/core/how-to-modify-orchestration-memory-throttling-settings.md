@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254670"
 ---
 # <a name="how-to-modify-orchestration-memory-throttling-settings"></a><span data-ttu-id="3e0df-102">如何修改協調流程記憶體節流設定</span><span class="sxs-lookup"><span data-stu-id="3e0df-102">How to Modify Orchestration Memory Throttling Settings</span></span>
 <span data-ttu-id="3e0df-103">[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 主控件執行個體記憶體節流機制可持續監控節流狀況、計算節流狀況的嚴重性，然後根據計算的嚴重性逐步套用主控件執行個體記憶體節流。</span><span class="sxs-lookup"><span data-stu-id="3e0df-103">The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] host instance memory throttling mechanism continuously monitors for a throttling condition, calculates the severity of the throttling condition, and applies host instance memory throttling progressively depending on the calculated severity.</span></span> <span data-ttu-id="3e0df-104">本主題提供使用 [設定儀表板] 修改這些設定的逐步程序。</span><span class="sxs-lookup"><span data-stu-id="3e0df-104">This topic provides the step-by-step procedure to modify these settings using the Settings Dashboard.</span></span>  

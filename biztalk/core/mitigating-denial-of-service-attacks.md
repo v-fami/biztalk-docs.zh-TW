@@ -1,11 +1,11 @@
 ---
-title: "減少阻絕服務攻擊 |Microsoft 文件"
-ms.custom: 
+title: 減少阻絕服務攻擊 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - IPSec, message protection
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - Internet Information Services (IIS) Lockdown Tool
 - Denial of Service attacks
 ms.assetid: f39c0d0a-b890-4c48-874d-5cafbc71473c
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971740"
 ---
 # <a name="mitigating-denial-of-service-attacks"></a><span data-ttu-id="b6e50-102">減少阻絕服務攻擊</span><span class="sxs-lookup"><span data-stu-id="b6e50-102">Mitigating Denial of Service Attacks</span></span>
 <span data-ttu-id="b6e50-103">建議您使用下列防護技術，協助保護 BizTalk Server 與服務免於遭受拒絕服務的攻擊。</span><span class="sxs-lookup"><span data-stu-id="b6e50-103">It is recommended to use the following mitigation techniques to help protect your BizTalk servers and services against Denial of Service attacks.</span></span> <span data-ttu-id="b6e50-104">您必須決定其中哪些防護技術適用於您的環境。</span><span class="sxs-lookup"><span data-stu-id="b6e50-104">You must decide which of these mitigation techniques are appropriate for your environment.</span></span>  

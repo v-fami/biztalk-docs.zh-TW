@@ -1,14 +1,14 @@
 ---
-title: "運算質類別 |Microsoft 文件"
-ms.custom: 
+title: 運算質類別 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 029905e2-f01a-436a-b2ed-a364379c9cc5
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246758"
 ---
 # <a name="functoid-categories"></a><span data-ttu-id="54afe-102">運算質類別</span><span class="sxs-lookup"><span data-stu-id="54afe-102">Functoid Categories</span></span>
 <span data-ttu-id="54afe-103">根據 BizTalk 運算質不同的使用目的，將它們分成不同的類別。</span><span class="sxs-lookup"><span data-stu-id="54afe-103">BizTalk functoids are divided into categories according to their intended use.</span></span> <span data-ttu-id="54afe-104">例如，資料庫運算質的設計為可在執行階段從資料庫擷取資料，而數學運算質則用於執行數學運算，等等。</span><span class="sxs-lookup"><span data-stu-id="54afe-104">For example, database functoids are designed for extracting data from a database at run time, mathematical functoids are used to perform mathematical operations, and so on.</span></span> <span data-ttu-id="54afe-105">在 BizTalk 對應工具中，運算質會依類別出現在 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 工具箱中。</span><span class="sxs-lookup"><span data-stu-id="54afe-105">In BizTalk Mapper, functoids appear by category in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Toolbox.</span></span> 

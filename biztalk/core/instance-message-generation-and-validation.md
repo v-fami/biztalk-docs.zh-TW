@@ -1,14 +1,14 @@
 ---
-title: "產生和驗證訊息執行個體 |Microsoft 文件"
-ms.custom: 
+title: 產生和驗證訊息執行個體 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7a306846-3942-4ba1-a74e-6ead8deb0322
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257982"
 ---
 # <a name="instance-message-generation-and-validation"></a><span data-ttu-id="720fe-102">產生和驗證執行個體訊息</span><span class="sxs-lookup"><span data-stu-id="720fe-102">Instance Message Generation and Validation</span></span>
 <span data-ttu-id="720fe-103">驗證結構描述之後，您可以用它來產生範例執行個體訊息。</span><span class="sxs-lookup"><span data-stu-id="720fe-103">After you have validated a schema, you can use it to generate a sample instance message.</span></span> <span data-ttu-id="720fe-104">產生的範例執行個體訊息包含由結構描述指定的項目和屬性結構，並且在必要時產生假資料。</span><span class="sxs-lookup"><span data-stu-id="720fe-104">The sample instance message that is generated contains the element and attribute structure specified by the schema, and generate fake data where required.</span></span>  

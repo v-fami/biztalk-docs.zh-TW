@@ -1,14 +1,14 @@
 ---
-title: "執行單元測試 |Microsoft 文件"
-ms.custom: 
+title: 執行單元測試 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 40275d0b-b2ee-400c-9ef5-b9386ab0ae53
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009855"
 ---
 # <a name="performing-unit-testing"></a><span data-ttu-id="353d4-102">執行單元測試</span><span class="sxs-lookup"><span data-stu-id="353d4-102">Performing Unit Testing</span></span>
 <span data-ttu-id="353d4-103">單元測試會著重在元件層級和基本上是通過/失敗測試，以確認如預期般，是否要執行的 BizTalk 方案的個別元件。</span><span class="sxs-lookup"><span data-stu-id="353d4-103">Unit testing is focused at the component level and is basically a pass/fail test that verifies if individual components of the BizTalk solution perform as expected.</span></span> <span data-ttu-id="353d4-104">您有針對單元測試您的 BizTalk 方案的數個選項。</span><span class="sxs-lookup"><span data-stu-id="353d4-104">You have several options for unit testing your BizTalk solution.</span></span>  

@@ -13,7 +13,7 @@ helpviewer_keywords:
 - policies, importing
 - managing [policies], importing
 ms.assetid: 92f6ef18-279f-416d-b13e-8b9642539d27
-caps.latest.revision: ''
+caps.latest.revision: 29
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25972332"
 ---
 # <a name="how-to-import-a-policy"></a><span data-ttu-id="2b8c6-102">如何匯入原則</span><span class="sxs-lookup"><span data-stu-id="2b8c6-102">How to Import a Policy</span></span>
 <span data-ttu-id="2b8c6-103">本主題描述如何使用 [BizTalk Server 管理] 主控台將原則匯入到 BizTalk 群組，或是使用 BTSTask 命令列工具將原則匯入到 BizTalk 應用程式。</span><span class="sxs-lookup"><span data-stu-id="2b8c6-103">This topic describes how to use the BizTalk Server Administration console to import a policy into a BizTalk group or the BTSTask command-line tool to import a policy into a BizTalk application.</span></span>  
@@ -74,7 +75,7 @@ ms.lasthandoff: 03/28/2018
   
 2.  <span data-ttu-id="2b8c6-140">輸入下列命令，並以適當的值替代，如下表所述：</span><span class="sxs-lookup"><span data-stu-id="2b8c6-140">Type the following command, substituting the appropriate values, as described in the following table:</span></span>  
   
-     <span data-ttu-id="2b8c6-141">**BTSTask 的 ImportApp /Package:** *值*[**/ApplicationName: * **值*] [**/覆寫**] [**/Server:***值 *] [* * / d a t:***值 *]</span><span class="sxs-lookup"><span data-stu-id="2b8c6-141">**BTSTask ImportApp /Package:** *value* [**/ApplicationName:***value*] [**/Overwrite**] [**/Server:***value*] [**/Database:***value*]</span></span>  
+     <span data-ttu-id="2b8c6-141">**BTSTask 的 ImportApp /Package:** *值*[**/ApplicationName: * **值*] [**/覆寫 **] [**/Server:***值 *] [* * / d a t:*** 值 *]</span><span class="sxs-lookup"><span data-stu-id="2b8c6-141">**BTSTask ImportApp /Package:** *value* [**/ApplicationName:***value*] [**/Overwrite **] [**/Server:***value*] [**/Database:*** value*]</span></span>  
   
      <span data-ttu-id="2b8c6-142">範例：</span><span class="sxs-lookup"><span data-stu-id="2b8c6-142">Example:</span></span>  
   

@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a6e576fc-37fd-417d-ae68-607a0a8bcc0a
-caps.latest.revision: ''
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25975823"
 ---
 # <a name="how-data-is-stored-for-outbound-edi-messages"></a><span data-ttu-id="29213-102">如何儲存輸出 EDI 訊息的資料</span><span class="sxs-lookup"><span data-stu-id="29213-102">How Data Is Stored for Outbound EDI Messages</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="29213-103"> 會針對輸出交換，進行下列作業以產生狀態報告項目：</span><span class="sxs-lookup"><span data-stu-id="29213-103"> does the following to generate a status report entry for an outbound interchange:</span></span>  

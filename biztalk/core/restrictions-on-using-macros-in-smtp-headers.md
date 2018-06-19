@@ -1,11 +1,11 @@
 ---
-title: "在 SMTP 標頭使用巨集的限制 |Microsoft 文件"
-ms.custom: 
+title: 在 SMTP 標頭使用巨集的限制 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring [SMTP adapters], restrictions
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - configuring [SMTP adapters], macros
 - SMTP headers
 ms.assetid: ceab0917-cb3c-423b-a15f-63747ab1d8da
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268638"
 ---
 # <a name="restrictions-on-using-macros-in-smtp-headers"></a><span data-ttu-id="c5d33-102">在 SMTP 標頭使用巨集的限制</span><span class="sxs-lookup"><span data-stu-id="c5d33-102">Restrictions on Using Macros in SMTP Headers</span></span>
 <span data-ttu-id="c5d33-103">您可以使用預先定義的一組巨集，在 SMTP 訊息標頭上動態形成 **主旨**、 **收件者**、 **寄件者**及 **副本** 屬性。</span><span class="sxs-lookup"><span data-stu-id="c5d33-103">You can form the **Subject**, **To**, **From**, and **CC** properties on an SMTP message header dynamically by using a predefined set of macros.</span></span> <span data-ttu-id="c5d33-104">傳送訊息前，SMTP 傳送處理常式會將標頭中的所有巨集以巨集的值取代。</span><span class="sxs-lookup"><span data-stu-id="c5d33-104">Before sending a message, the SMTP send handler substitutes all the macros in headers with their values.</span></span> <span data-ttu-id="c5d33-105">您可以使用數個不同的巨集來形成一個標頭。</span><span class="sxs-lookup"><span data-stu-id="c5d33-105">You can use several different macros when forming one header.</span></span>  
@@ -38,7 +39,7 @@ ms.lasthandoff: 09/20/2017
   
 -   <span data-ttu-id="c5d33-109">巨集的值包含 SMTP 標頭無效的符號。</span><span class="sxs-lookup"><span data-stu-id="c5d33-109">The value for the macro contains symbols that are not valid for the SMTP headers.</span></span>  
   
- <span data-ttu-id="c5d33-110">如果符合上述任何情況，SMTP 傳送處理常式會保留巨集時，例如**%sourceparty%@somedomain.com** 或**from %sourceparty%訊息**。</span><span class="sxs-lookup"><span data-stu-id="c5d33-110">If any of these conditions are met, the SMTP send handler leaves the macros as they are, for example, **%SourceParty%@somedomain.com** or **Message from %SourceParty%**.</span></span>  
+ <span data-ttu-id="c5d33-110">如果符合上述任何情況，SMTP 傳送處理常式會保留巨集時，例如 **%sourceparty%@somedomain.com** 或**from %sourceparty%訊息**。</span><span class="sxs-lookup"><span data-stu-id="c5d33-110">If any of these conditions are met, the SMTP send handler leaves the macros as they are, for example, **%SourceParty%@somedomain.com** or **Message from %SourceParty%**.</span></span>  
   
  <span data-ttu-id="c5d33-111">下表列出您可用來建置 **收件者**、 **副本**及 **主旨** 等標頭的巨集。</span><span class="sxs-lookup"><span data-stu-id="c5d33-111">The following table lists the macros you can use to build the **To**, **CC**, and **Subject** headers.</span></span>  
   

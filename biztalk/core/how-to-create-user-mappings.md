@@ -11,7 +11,7 @@ helpviewer_keywords:
 - maps [SSO], creating
 - managing [SSO maps], creating user maps
 ms.assetid: c2e9f0db-920b-4d89-8e1e-5dc92805fd23
-caps.latest.revision: ''
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25970940"
 ---
 # <a name="how-to-create-user-mappings"></a><span data-ttu-id="e628b-102">如何建立使用者對應</span><span class="sxs-lookup"><span data-stu-id="e628b-102">How to Create User Mappings</span></span>
 <span data-ttu-id="e628b-103">使用此命令可建立一或多個使用者對應，如 XML 檔案所指定。</span><span class="sxs-lookup"><span data-stu-id="e628b-103">Use this command to create one or more user mappings, as specified in the XML file.</span></span> <span data-ttu-id="e628b-104">以下是 XML 檔案的範例。</span><span class="sxs-lookup"><span data-stu-id="e628b-104">The following is an example XML file.</span></span>  
@@ -55,7 +56,7 @@ ms.lasthandoff: 03/28/2018
   
 2.  <span data-ttu-id="e628b-113">在命令列，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="e628b-113">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="e628b-114">預設安裝目錄是\<*磁碟機*\>: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="e628b-114">The default installation directory is \<*drive*\>:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-3.  <span data-ttu-id="e628b-115">型別 * * ssomanage – createmappings *\<對應檔案名稱\>* * *，其中*\<對應檔案名稱\>*是包含您想要建立使用者對應的檔案名稱。</span><span class="sxs-lookup"><span data-stu-id="e628b-115">Type **ssomanage –createmappings *\<mappings file name\>***, where *\<mappings file name\>* is the name of file that contains the user mapping(s) you want to create.</span></span>  
+3.  <span data-ttu-id="e628b-115">型別 * * ssomanage – createmappings *\<對應檔案名稱\>* * *，其中*\<對應檔案名稱\>* 是包含您想要建立使用者對應的檔案名稱。</span><span class="sxs-lookup"><span data-stu-id="e628b-115">Type **ssomanage –createmappings *\<mappings file name\>***, where *\<mappings file name\>* is the name of file that contains the user mapping(s) you want to create.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="e628b-116">在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。</span><span class="sxs-lookup"><span data-stu-id="e628b-116">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  
@@ -66,7 +67,7 @@ ms.lasthandoff: 03/28/2018
   
 2.  <span data-ttu-id="e628b-119">在命令列，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="e628b-119">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="e628b-120">預設安裝目錄是\<*磁碟機*\>: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="e628b-120">The default installation directory is \<*drive*\>:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-3.  <span data-ttu-id="e628b-121">型別 * * ssoclient – setcredentials *\<應用程式名稱\>* * *，其中*\<應用程式名稱\>*是使用者想要建立對應的分支機構應用程式的名稱。</span><span class="sxs-lookup"><span data-stu-id="e628b-121">Type **ssoclient –setcredentials *\<application name \>***, where *\<application name \>* is the name of affiliate application that the user wants to create a mapping for.</span></span>  
+3.  <span data-ttu-id="e628b-121">型別 * * ssoclient – setcredentials *\<應用程式名稱\>* * *，其中*\<應用程式名稱\>* 是使用者想要建立對應的分支機構應用程式的名稱。</span><span class="sxs-lookup"><span data-stu-id="e628b-121">Type **ssoclient –setcredentials *\<application name \>***, where *\<application name \>* is the name of affiliate application that the user wants to create a mapping for.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="e628b-122">在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。</span><span class="sxs-lookup"><span data-stu-id="e628b-122">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  

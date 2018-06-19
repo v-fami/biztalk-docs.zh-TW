@@ -1,11 +1,11 @@
 ---
-title: "了解商務程序管理解決方案 |Microsoft 文件"
-ms.custom: 
+title: 了解商務程序管理解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - process management solutions, resources
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - process management solutions, about process management solutions
 - applications, process management solutions
 ms.assetid: fa6ad8d2-08d7-4770-9394-835f99bfd146
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287902"
 ---
 # <a name="understanding-the-business-process-management-solution"></a><span data-ttu-id="bc51f-102">瞭解商務程序管理解決方案</span><span class="sxs-lookup"><span data-stu-id="bc51f-102">Understanding the Business Process Management Solution</span></span>
 <span data-ttu-id="bc51f-103">本節描述的解決方案會呈現一個實作商務程序管理應用程式的方法。</span><span class="sxs-lookup"><span data-stu-id="bc51f-103">The solution described in this section presents one way to implement a business process management application.</span></span> <span data-ttu-id="bc51f-104">在理想的商務程序管理員中，代表商務程序之解決方案的部分 (商務規則、與特定後端系統通訊、傳送回應訊息)，會與支援程序的基礎結構分開。</span><span class="sxs-lookup"><span data-stu-id="bc51f-104">In an ideal business process manager, the parts of the solution representing the business process—the business rules, communicating with specific backend systems, sending response messages—are separate from the infrastructure supporting the process.</span></span>  

@@ -1,18 +1,18 @@
 ---
-title: "如何使用選取成品類型對話方塊 |Microsoft 文件"
-ms.custom: 
+title: 如何使用選取成品類型對話方塊 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Select Artifact Type dialog box
 - artifacts, Select Artifact Type dialog box
 - Orchestration Designer, items
 ms.assetid: f0f767f1-4130-4ff0-a898-a089343ee71f
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971628"
 ---
 # <a name="how-to-use-the-select-artifact-type-dialog-box"></a><span data-ttu-id="7fb1a-102">如何使用選取成品類型對話方塊</span><span class="sxs-lookup"><span data-stu-id="7fb1a-102">How to Use the Select Artifact Type Dialog Box</span></span>
 <span data-ttu-id="7fb1a-103">*項目*用來設定協調流程設計師 」 的協調流程的項目。</span><span class="sxs-lookup"><span data-stu-id="7fb1a-103">An *item* is used to configure elements of an orchestration in Orchestration Designer.</span></span> <span data-ttu-id="7fb1a-104">項目 (Item) 的範例包括結構描述、對應、管線、連接埠類型以及多部分訊息類型等。</span><span class="sxs-lookup"><span data-stu-id="7fb1a-104">Examples of items are schemas, maps, pipelines, port types, and multi-part message types.</span></span> <span data-ttu-id="7fb1a-105">在開發協調流程及其組成部分 (例如，連接埠圖形、轉換圖形和訊息) 時，所需參考的項目可能不在目前的協調流程中，但在目前的專案或在其他已編譯入 BizTalk Server 組件的其他專案中。</span><span class="sxs-lookup"><span data-stu-id="7fb1a-105">When you develop an orchestration and its constituent parts such as port shapes, transform shapes, and messages, you may need to refer to items that do not reside in the current orchestration, but are in the current project or another project that has been compiled into a BizTalk Server assembly.</span></span> <span data-ttu-id="7fb1a-106">您使用**選取成品類型**對話方塊，即可尋找並設定協調流程內的項目時，然後指定項目。</span><span class="sxs-lookup"><span data-stu-id="7fb1a-106">You use the **Select Artifact Type** dialog box to locate and then specify items when configuring an element within an orchestration.</span></span>  

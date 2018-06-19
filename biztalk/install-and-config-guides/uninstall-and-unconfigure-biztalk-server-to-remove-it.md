@@ -1,14 +1,14 @@
 ---
-title: "解除安裝並取消設定 BizTalk Server 將它移除 |Microsoft 文件"
-ms.custom: 
+title: 解除安裝並取消設定 BizTalk Server 將它移除 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e9ea8757-ca49-421b-bf7b-89344201398a
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976260"
 ---
 # <a name="uninstall-and-unconfigure-biztalk-server-to-remove-it"></a><span data-ttu-id="0e755-102">將 BizTalk Server 解除安裝並取消設定以將其移除</span><span class="sxs-lookup"><span data-stu-id="0e755-102">Uninstall and unconfigure BizTalk Server to remove it</span></span>
 <span data-ttu-id="0e755-103">將 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 解除安裝並取消設定。</span><span class="sxs-lookup"><span data-stu-id="0e755-103">Uninstall and unconfigure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> 

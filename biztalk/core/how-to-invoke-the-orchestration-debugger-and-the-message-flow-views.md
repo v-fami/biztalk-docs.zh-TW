@@ -1,17 +1,17 @@
 ---
-title: "若要叫用的協調流程偵錯工具和訊息流程檢視的方式 |Microsoft 文件"
-ms.custom: 
+title: 若要叫用的協調流程偵錯工具和訊息流程檢視的方式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - results list [Orchestration Debugger], Debugger view
 - results list [Orchestration Debugger], Message Flow view
 ms.assetid: ffce3fb5-7eb5-4170-abdb-04b9d7f9ff3a
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22253926"
 ---
 # <a name="how-to-invoke-the-orchestration-debugger-and-the-message-flow-views"></a><span data-ttu-id="db7de-102">如何叫用協調流程偵錯工具和訊息流程檢視</span><span class="sxs-lookup"><span data-stu-id="db7de-102">How to Invoke the Orchestration Debugger and the Message Flow Views</span></span>
 <span data-ttu-id="db7de-103">在 BizTalk Server 管理主控台的 [群組中樞] 頁面中，[查詢結果] 窗格會顯示查詢的輸出。</span><span class="sxs-lookup"><span data-stu-id="db7de-103">In the Group Hub page of the BizTalk Server Administration Console, the Query results pane displays the output of a query.</span></span> <span data-ttu-id="db7de-104">從內容功能表中，您可以顯示 [協調流程偵錯工具] 或 [訊息流程] 檢視。</span><span class="sxs-lookup"><span data-stu-id="db7de-104">From the context menu you can display the Orchestration Debugger or the Message Flow view.</span></span>  

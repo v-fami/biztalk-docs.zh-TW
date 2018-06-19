@@ -1,18 +1,18 @@
 ---
-title: "管理 BizTalk 主控件和主控件執行個體 |Microsoft 文件"
-ms.custom: 
+title: 管理 BizTalk 主控件和主控件執行個體 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [hosts]
 - hosts, managing
 - managing [hosts], about managing hosts
 ms.assetid: 7f329804-ca44-4799-8a5d-38b3146d8e5e
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262582"
 ---
 # <a name="managing-biztalk-hosts-and-host-instances"></a><span data-ttu-id="6c111-102">管理 BizTalk 主控件和主控件執行個體</span><span class="sxs-lookup"><span data-stu-id="6c111-102">Managing BizTalk Hosts and Host Instances</span></span>
 <span data-ttu-id="6c111-103">[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 主控件是一組零個以上 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 執行階段程序的邏輯集，您可以在其中部署如配接器處理常式、接收位置 (包括管線)，以及協調流程等項目。</span><span class="sxs-lookup"><span data-stu-id="6c111-103">A [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Host is a logical set of zero or more [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] run-time processes in which you deploy items such as adapter handlers, receive locations (including pipelines), and orchestrations.</span></span> <span data-ttu-id="6c111-104">如需主控件的詳細資訊，請參閱[主機](../core/hosts.md)。</span><span class="sxs-lookup"><span data-stu-id="6c111-104">For more information about hosts, see [Hosts](../core/hosts.md).</span></span>  

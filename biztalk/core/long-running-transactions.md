@@ -1,11 +1,11 @@
 ---
-title: "長時間執行交易 |Microsoft 文件"
-ms.custom: 
+title: 長時間執行交易 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - long-running transactions, about long-running transactions
@@ -31,7 +31,7 @@ helpviewer_keywords:
 - transactions, nesting
 - examples, scopes
 ms.assetid: 4bf4d0c8-903a-411f-963b-bd4cfdfc2958
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -40,6 +40,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262774"
 ---
 # <a name="long-running-transactions"></a><span data-ttu-id="07ac2-102">長時間執行的交易</span><span class="sxs-lookup"><span data-stu-id="07ac2-102">Long-Running Transactions</span></span>
 <span data-ttu-id="07ac2-103">長時間執行的交易是在 BizTalk 協調流程中重要並經常使用的建構。</span><span class="sxs-lookup"><span data-stu-id="07ac2-103">Long-running transactions are important, commonly used constructs in BizTalk orchestrations.</span></span> <span data-ttu-id="07ac2-104">這類交易提供您進行自訂範圍補償、自訂範圍例外狀況處理，以及巢狀交易能力的設備，這些全都會提供您設計健全交易架構的大量彈性。</span><span class="sxs-lookup"><span data-stu-id="07ac2-104">They provide you with facilities for custom scope-based compensation, custom scope-based exception handling, and the ability to nest transactions, all of which give you great flexibility in designing robust transaction architecture.</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257310"
 ---
 # <a name="inboundtransforms-sendport-node"></a><span data-ttu-id="51ec8-102">InboundTransforms (SendPort 節點)</span><span class="sxs-lookup"><span data-stu-id="51ec8-102">InboundTransforms (SendPort Node)</span></span>
 <span data-ttu-id="51ec8-103">繫結檔案之 [SendPort] 節點的 [InboundTransforms ] 節點包含與該繫結檔案匯出之雙向傳送埠關聯的輸入轉換集合。</span><span class="sxs-lookup"><span data-stu-id="51ec8-103">The InboundTransforms node of the SendPort node of a binding file contains the collection of inbound transforms of a two-way send port that is exported with the binding file.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "建立自訂解決器 |Microsoft 文件"
-ms.custom: 
+title: 建立自訂解決器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d2775460-8e04-40be-9557-8278336b031c
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,17 +17,18 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975900"
 ---
 # <a name="creating-a-custom-resolver"></a><span data-ttu-id="012c2-102">建立自訂的解析程式</span><span class="sxs-lookup"><span data-stu-id="012c2-102">Creating a Custom Resolver</span></span>
 <span data-ttu-id="012c2-103">中的解析器和配接器提供者架構實作[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]會使用名為發送器管線元件和名為 ItineraryReceive 和 ItinerarySend 的管線。</span><span class="sxs-lookup"><span data-stu-id="012c2-103">The Resolver and Adapter Provider Framework implementation in [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] uses a pipeline component named Dispatcher and pipelines named ItineraryReceive and ItinerarySend.</span></span>  
   
- <span data-ttu-id="012c2-104">發送器管線元件會有四個屬性：**驗證、 啟用、 端點、**和**MapName**。</span><span class="sxs-lookup"><span data-stu-id="012c2-104">The Dispatcher pipeline component has four properties: **Validate, Enabled, EndPoint,** and **MapName**.</span></span> <span data-ttu-id="012c2-105">**端點**屬性可以包含解析程式的連接字串值，如下所示，其中**UDDI:\\ \\** 表示要使用 （根的解析度類型moniker)。</span><span class="sxs-lookup"><span data-stu-id="012c2-105">The **EndPoint** property can contain resolver connection strings with values such as the following, where **UDDI:\\\\** represents the resolution type to use (the root moniker).</span></span>  
+ <span data-ttu-id="012c2-104">發送器管線元件會有四個屬性：**驗證、 啟用、 端點、** 和**MapName**。</span><span class="sxs-lookup"><span data-stu-id="012c2-104">The Dispatcher pipeline component has four properties: **Validate, Enabled, EndPoint,** and **MapName**.</span></span> <span data-ttu-id="012c2-105">**端點**屬性可以包含解析程式的連接字串值，如下所示，其中**UDDI:\\ \\** 表示要使用 （根的解析度類型moniker)。</span><span class="sxs-lookup"><span data-stu-id="012c2-105">The **EndPoint** property can contain resolver connection strings with values such as the following, where **UDDI:\\\\** represents the resolution type to use (the root moniker).</span></span>  
   
 ```  
 UDDI:\\serverUrl=http://localhost/uddi;serviceName=OrderPurchaseToOrderPost;serviceProvider=Microsoft.Practices.ESB  
 ```  
   
- <span data-ttu-id="012c2-106">其他支援的 moniker 包含**XPATH:\\\\、 靜態：\\\\，**和**BRE:\\\\**。</span><span class="sxs-lookup"><span data-stu-id="012c2-106">Other supported monikers include **XPATH:\\\\, STATIC:\\\\,** and **BRE:\\\\**.</span></span> <span data-ttu-id="012c2-107">每個的 moniker 型別會使用特定類別可實作**IResolveProvider**介面。</span><span class="sxs-lookup"><span data-stu-id="012c2-107">Each moniker type uses a specific class that implements the **IResolveProvider** interface.</span></span> <span data-ttu-id="012c2-108">您可以建立您自己的自訂解析程式適用於其他 moniker 類型，並用於動態解析系統註冊它們。</span><span class="sxs-lookup"><span data-stu-id="012c2-108">You can create your own custom resolvers for other moniker types and register them for use by the dynamic resolution system.</span></span>  
+ <span data-ttu-id="012c2-106">其他支援的 moniker 包含**XPATH:\\\\、 靜態：\\\\，** 和**BRE:\\\\**。</span><span class="sxs-lookup"><span data-stu-id="012c2-106">Other supported monikers include **XPATH:\\\\, STATIC:\\\\,** and **BRE:\\\\**.</span></span> <span data-ttu-id="012c2-107">每個的 moniker 型別會使用特定類別可實作**IResolveProvider**介面。</span><span class="sxs-lookup"><span data-stu-id="012c2-107">Each moniker type uses a specific class that implements the **IResolveProvider** interface.</span></span> <span data-ttu-id="012c2-108">您可以建立您自己的自訂解析程式適用於其他 moniker 類型，並用於動態解析系統註冊它們。</span><span class="sxs-lookup"><span data-stu-id="012c2-108">You can create your own custom resolvers for other moniker types and register them for use by the dynamic resolution system.</span></span>  
   
  <span data-ttu-id="012c2-109">Moniker 等同的解析程式的連接字串。</span><span class="sxs-lookup"><span data-stu-id="012c2-109">The moniker equates to a resolver connection string.</span></span> <span data-ttu-id="012c2-110">個別的結構描述定義的參數和其根 moniker。</span><span class="sxs-lookup"><span data-stu-id="012c2-110">Individual schemas define the parameters and their root moniker.</span></span> <span data-ttu-id="012c2-111">解析程式會在解析程式的連接字串，驗證，並使用結果查詢，並填入**字典**物件，可用於路由、 轉換、 路線的選取項目或其他用途的特定程式服務。</span><span class="sxs-lookup"><span data-stu-id="012c2-111">A resolver takes the resolver connection string, validates it, and uses the result to query and populate a **Dictionary** object that can be used for routing, transformation, itinerary selection, or some other purpose specific to your service.</span></span>  
   
@@ -172,7 +173,7 @@ UDDI:\\serverUrl=http://localhost/uddi;serviceName=OrderPurchaseToOrderPost;serv
   
 1.  <span data-ttu-id="012c2-212">建立組件實作的類別與**IResolveProvider**介面，並包含**解決**方法會傳回解析程式事實的執行個體形式**字典**類別。</span><span class="sxs-lookup"><span data-stu-id="012c2-212">Create an assembly with a class that implements the **IResolveProvider** interface and contains a **Resolve** method that returns resolver facts as an instance of the **Dictionary** class.</span></span>  
   
-2.  <span data-ttu-id="012c2-213">註冊解決器將它加入 Esb.config 組態檔使用**\<解析程式\>**元素包含做為根 moniker**名稱**屬性和完整限定組件名稱為**類型**屬性。</span><span class="sxs-lookup"><span data-stu-id="012c2-213">Register the resolver by adding it to the Esb.config configuration file using a **\<resolver\>** element that contains the root moniker as the **name** attribute and the fully qualified assembly name as the **type** attribute.</span></span>  
+2.  <span data-ttu-id="012c2-213">註冊解決器將它加入 Esb.config 組態檔使用**\<解析程式\>** 元素包含做為根 moniker**名稱**屬性和完整限定組件名稱為**類型**屬性。</span><span class="sxs-lookup"><span data-stu-id="012c2-213">Register the resolver by adding it to the Esb.config configuration file using a **\<resolver\>** element that contains the root moniker as the **name** attribute and the fully qualified assembly name as the **type** attribute.</span></span>  
   
 3.  <span data-ttu-id="012c2-214">（選擇性）建立結構描述定義的根 moniker 和查詢參數，並再將它儲存在 ESB。Schemas.Resolvers 資料夾。</span><span class="sxs-lookup"><span data-stu-id="012c2-214">(Optional) Create a schema that defines the root moniker and the query parameters, and then save it in the ESB.Schemas.Resolvers folder.</span></span> <span data-ttu-id="012c2-215">名稱應該遵循現有的 ESB 命名慣例。這表示它應使用的名稱加上"_Resolution.xsd"的根 moniker。</span><span class="sxs-lookup"><span data-stu-id="012c2-215">The name should follow existing ESB naming conventions; this means it should use the name of the root moniker appended with "_Resolution.xsd".</span></span>  
   

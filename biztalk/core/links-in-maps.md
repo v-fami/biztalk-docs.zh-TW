@@ -1,11 +1,11 @@
 ---
-title: "對應中的連結 |Microsoft 文件"
-ms.custom: 
+title: 對應中的連結 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - functoid types, Looping
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - maps, links
 - BizTalk Mapper, links
 ms.assetid: 3db77b8d-7b86-4c00-99a0-0513aff9b56b
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262086"
 ---
 # <a name="links-in-maps"></a><span data-ttu-id="120cb-102">對應中的連結</span><span class="sxs-lookup"><span data-stu-id="120cb-102">Links in Maps</span></span>
 <span data-ttu-id="120cb-103">連結指定將輸入執行個體訊息中項目或屬性的資料複製到輸出執行個體中項目或屬性的基本功能。</span><span class="sxs-lookup"><span data-stu-id="120cb-103">Links specify the basic function of copying data from an element or attribute in an input instance message to an element or attribute in an output instance.</span></span> <span data-ttu-id="120cb-104">在設計階設建立來源與目的結構描述中的記錄與欄位之間的連結。</span><span class="sxs-lookup"><span data-stu-id="120cb-104">You create links between records and fields in the source and destination schemas at design time.</span></span> <span data-ttu-id="120cb-105">如此一來會在執行階段從符合來源結構描述的輸入執行個體訊息，建立符合目的結構描述的輸出執行個體訊息。</span><span class="sxs-lookup"><span data-stu-id="120cb-105">This drives the creation, at run time, of an output instance message conforming to the destination schema from an input instance message conforming to the source schema.</span></span>  

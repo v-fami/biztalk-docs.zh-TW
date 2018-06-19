@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d8094153-072b-427a-b3a0-7310a37cf584
-caps.latest.revision: ''
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26010479"
 ---
 # <a name="how-to-move-the-bam-analysis-database"></a><span data-ttu-id="c91c5-102">如何移動 BAM 分析資料庫</span><span class="sxs-lookup"><span data-stu-id="c91c5-102">How to Move the BAM Analysis Database</span></span>
 <span data-ttu-id="c91c5-103">您可以使用這個程序，將 BAM 分析資料庫移動到其他伺服器。</span><span class="sxs-lookup"><span data-stu-id="c91c5-103">You can use this procedure to move the BAM Analysis database to another server.</span></span>  <span data-ttu-id="c91c5-104">端對端案例的觀點而言，移動 BAM 分析資料庫包含兩個主要步驟：</span><span class="sxs-lookup"><span data-stu-id="c91c5-104">From an end-to-end scenario perspective, moving the BAM Analysis database involves two major steps:</span></span>  

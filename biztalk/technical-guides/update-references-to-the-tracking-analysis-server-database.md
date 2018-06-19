@@ -1,14 +1,14 @@
 ---
-title: "更新追蹤 Analysis Server 資料庫的參考 |Microsoft 文件"
-ms.custom: 
+title: 更新追蹤 Analysis Server 資料庫的參考 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6a403325-1394-4668-946f-01b610cb686e
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976316"
 ---
 # <a name="update-references-to-the-tracking-analysis-server-database"></a><span data-ttu-id="3d3f0-102">更新追蹤 Analysis Server 資料庫的參考</span><span class="sxs-lookup"><span data-stu-id="3d3f0-102">Update References to the Tracking Analysis Server Database</span></span>
 <span data-ttu-id="3d3f0-103">追蹤 Analysis Server 資料庫是選擇性，而且包含線上分析處理 (OLAP) cube。</span><span class="sxs-lookup"><span data-stu-id="3d3f0-103">The Tracking Analysis Server database is an optional and contains the online analytical processing (OLAP) cubes.</span></span> <span data-ttu-id="3d3f0-104">這些 OLAP Cube 是包含在 BizTalk 追蹤資料庫中的資料彙總。</span><span class="sxs-lookup"><span data-stu-id="3d3f0-104">These OLAP cubes are aggregations of data contained in the BizTalk Tracking database.</span></span>  
@@ -36,12 +37,12 @@ ms.lasthandoff: 11/28/2017
   
 3.  <span data-ttu-id="3d3f0-113">按一下以開啟適當的伺服器，按兩下**資料庫**，按兩下**BizTalkMgmtDb**，然後按一下**資料表**。</span><span class="sxs-lookup"><span data-stu-id="3d3f0-113">Open the appropriate server by clicking it, double-clicking **Databases**, double-clicking **BizTalkMgmtDb**, and then clicking **Tables**.</span></span>  
   
-4.  <span data-ttu-id="3d3f0-114">在詳細資料窗格中，以滑鼠右鍵按一下**[adm_group]**，然後指向**開啟資料表**。</span><span class="sxs-lookup"><span data-stu-id="3d3f0-114">In the details pane, right-click **adm_Group**, and then point to **Open Table**.</span></span>  
+4.  <span data-ttu-id="3d3f0-114">在詳細資料窗格中，以滑鼠右鍵按一下 **[adm_group]**，然後指向**開啟資料表**。</span><span class="sxs-lookup"><span data-stu-id="3d3f0-114">In the details pane, right-click **adm_Group**, and then point to **Open Table**.</span></span>  
   
 5.  <span data-ttu-id="3d3f0-115">將對應至原始資料庫的資料行修改為參考新資料庫的適當值。</span><span class="sxs-lookup"><span data-stu-id="3d3f0-115">Modify the columns corresponding to the original database to reference the appropriate values for the new database.</span></span>  
   
     > [!NOTE]  
-    >  <span data-ttu-id="3d3f0-116">*\<DBType\>*  DBServerName 和 *\<DBType\>*  DBName 代表資料庫位置，其中 *\<DBType\>*對應到資料庫，例如，TrackingAnalysis 的類型。</span><span class="sxs-lookup"><span data-stu-id="3d3f0-116">*\<DBType\>* DBServerName and *\<DBType\>* DBName indicate the location of the database, where *\<DBType\>* corresponds to the type of the database, for example, TrackingAnalysis.</span></span>  
+    >  <span data-ttu-id="3d3f0-116">*\<DBType\>*  DBServerName 和 *\<DBType\>*  DBName 代表資料庫位置，其中 *\<DBType\>* 對應到資料庫，例如，TrackingAnalysis 的類型。</span><span class="sxs-lookup"><span data-stu-id="3d3f0-116">*\<DBType\>* DBServerName and *\<DBType\>* DBName indicate the location of the database, where *\<DBType\>* corresponds to the type of the database, for example, TrackingAnalysis.</span></span>  
   
 6.  <span data-ttu-id="3d3f0-117">關閉資料表以儲存新值。</span><span class="sxs-lookup"><span data-stu-id="3d3f0-117">Close the table to save the new values.</span></span>  
   

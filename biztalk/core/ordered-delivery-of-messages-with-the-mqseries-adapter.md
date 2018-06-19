@@ -1,17 +1,17 @@
 ---
-title: "依序傳遞訊息與 MQSeries 配接器 |Microsoft 文件"
-ms.custom: 
+title: 依序傳遞訊息與 MQSeries 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, ordered delivery
 - MQSeries adapters, ordered delivery
 ms.assetid: 517ff2a4-7315-43b5-8d4b-7494adf141e4
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264526"
 ---
 # <a name="ordered-delivery-of-messages-with-the-mqseries-adapter"></a><span data-ttu-id="07096-102">使用 MQSeries 配接器依序傳遞訊息</span><span class="sxs-lookup"><span data-stu-id="07096-102">Ordered Delivery of Messages with the MQSeries Adapter</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="07096-103">提供**排序的傳遞**選項用於靜態傳送埠。</span><span class="sxs-lookup"><span data-stu-id="07096-103"> provides an **Ordered Delivery** option for static send ports.</span></span> <span data-ttu-id="07096-104">設定**排序的傳遞**至傳送埠上的選項**True**可確保 BizTalk Server 將訊息傳遞至傳送埠，它們會發佈到 BizTalk MessageBox 資料庫的順序相同。</span><span class="sxs-lookup"><span data-stu-id="07096-104">Setting the **Ordered Delivery** option on a send port to **True** ensures that BizTalk Server delivers messages to the send port in the same order that they are published to the BizTalk MessageBox database.</span></span> <span data-ttu-id="07096-105">若要提供端對端排序的傳遞，必須符合下列條件：</span><span class="sxs-lookup"><span data-stu-id="07096-105">To provide end-to-end ordered delivery the following conditions must be met:</span></span>  

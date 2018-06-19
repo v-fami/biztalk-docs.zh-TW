@@ -1,11 +1,11 @@
 ---
-title: "如何設定 HTTP 接收處理常式 |Microsoft 文件"
-ms.custom: 
+title: 如何設定 HTTP 接收處理常式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - permissions, receive handlers
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - receive handlers, HTTP adapters
 - HTTP adapters, permissions
 ms.assetid: c295489e-dbbb-44f7-bddb-d3cdfe302cf5
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007607"
 ---
 # <a name="how-to-configure-an-http-receive-handler"></a><span data-ttu-id="2093b-102">如何設定 HTTP 接收處理常式</span><span class="sxs-lookup"><span data-stu-id="2093b-102">How to Configure an HTTP Receive Handler</span></span>
 <span data-ttu-id="2093b-103">使用下列程序可設定 HTTP 接收處理常式的屬性。</span><span class="sxs-lookup"><span data-stu-id="2093b-103">Use the following procedure to configure the properties for an HTTP receive handler.</span></span>  
@@ -57,7 +58,7 @@ ms.lasthandoff: 12/01/2017
   
 -   <span data-ttu-id="2093b-116">設定**批次大小**屬性設為 1 的值。</span><span class="sxs-lookup"><span data-stu-id="2093b-116">Set the **Batch size** property to a value of 1.</span></span>  
   
--   <span data-ttu-id="2093b-117">減少**MaxReceiveInterval**值小於 100 的值從預設值 500 **Messaging Isolated]、 [XLANG/s，**和**Messaging In-process**服務類別。</span><span class="sxs-lookup"><span data-stu-id="2093b-117">Reduce the **MaxReceiveInterval** value from the default value of 500 to a value less than 100 for the **Messaging Isolated, XLANG/s,** and **Messaging In-Process** service classes.</span></span>  <span data-ttu-id="2093b-118">變更**adm_ServiceClass** BizTalk 管理資料庫資料表，其中包含一筆記錄的每個服務類型。</span><span class="sxs-lookup"><span data-stu-id="2093b-118">Changes are made the **adm_ServiceClass** table of the BizTalk Management database, which contains one record for each of these service types.</span></span>  <span data-ttu-id="2093b-119">變更此設定，因為這是服務類型範圍變更時，請務必小心。</span><span class="sxs-lookup"><span data-stu-id="2093b-119">Use caution when changing this setting because this is a service-type-wide change.</span></span> <span data-ttu-id="2093b-120">此設定會指定 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 傳訊代理程式向 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Messagebox 資料庫輪詢訊息的輪詢間隔上限 (以毫秒為單位)。</span><span class="sxs-lookup"><span data-stu-id="2093b-120">This setting specifies the maximum polling interval (in milliseconds) at which the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] messaging agent polls the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Messagebox database for messages.</span></span>  <span data-ttu-id="2093b-121">節流控制器也會使用此設定，決定在特定的負載狀況下是否需要進行訊息節流。</span><span class="sxs-lookup"><span data-stu-id="2093b-121">It also is used by the throttle controller to decide whether message throttling is needed under certain load conditions.</span></span> <span data-ttu-id="2093b-122">如果有需要，節流控制器將會根據系統上的壓力狀況，以遞增的方式延遲訊息分派間隔。</span><span class="sxs-lookup"><span data-stu-id="2093b-122">If needed, the throttling controller will incrementally delay the message dispatch interval based upon stress conditions on the system.</span></span> <span data-ttu-id="2093b-123">在高輸送量系統中，將不會使用此設定。</span><span class="sxs-lookup"><span data-stu-id="2093b-123">In a high throughput system, this setting will not be used.</span></span>  <span data-ttu-id="2093b-124">然而一旦使用此值，時間間隔就會在 MaxReceiveInteral/10 與 MaxReceiveInterval 之間動態切換。</span><span class="sxs-lookup"><span data-stu-id="2093b-124">Once this values is used, however, the time interval will dynamically change between MaxReceiveInteral/10 and MaxReceiveInterval.</span></span>  
+-   <span data-ttu-id="2093b-117">減少**MaxReceiveInterval**值小於 100 的值從預設值 500 **Messaging Isolated]、 [XLANG/s，** 和**Messaging In-process**服務類別。</span><span class="sxs-lookup"><span data-stu-id="2093b-117">Reduce the **MaxReceiveInterval** value from the default value of 500 to a value less than 100 for the **Messaging Isolated, XLANG/s,** and **Messaging In-Process** service classes.</span></span>  <span data-ttu-id="2093b-118">變更**adm_ServiceClass** BizTalk 管理資料庫資料表，其中包含一筆記錄的每個服務類型。</span><span class="sxs-lookup"><span data-stu-id="2093b-118">Changes are made the **adm_ServiceClass** table of the BizTalk Management database, which contains one record for each of these service types.</span></span>  <span data-ttu-id="2093b-119">變更此設定，因為這是服務類型範圍變更時，請務必小心。</span><span class="sxs-lookup"><span data-stu-id="2093b-119">Use caution when changing this setting because this is a service-type-wide change.</span></span> <span data-ttu-id="2093b-120">此設定會指定 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 傳訊代理程式向 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Messagebox 資料庫輪詢訊息的輪詢間隔上限 (以毫秒為單位)。</span><span class="sxs-lookup"><span data-stu-id="2093b-120">This setting specifies the maximum polling interval (in milliseconds) at which the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] messaging agent polls the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Messagebox database for messages.</span></span>  <span data-ttu-id="2093b-121">節流控制器也會使用此設定，決定在特定的負載狀況下是否需要進行訊息節流。</span><span class="sxs-lookup"><span data-stu-id="2093b-121">It also is used by the throttle controller to decide whether message throttling is needed under certain load conditions.</span></span> <span data-ttu-id="2093b-122">如果有需要，節流控制器將會根據系統上的壓力狀況，以遞增的方式延遲訊息分派間隔。</span><span class="sxs-lookup"><span data-stu-id="2093b-122">If needed, the throttling controller will incrementally delay the message dispatch interval based upon stress conditions on the system.</span></span> <span data-ttu-id="2093b-123">在高輸送量系統中，將不會使用此設定。</span><span class="sxs-lookup"><span data-stu-id="2093b-123">In a high throughput system, this setting will not be used.</span></span>  <span data-ttu-id="2093b-124">然而一旦使用此值，時間間隔就會在 MaxReceiveInteral/10 與 MaxReceiveInterval 之間動態切換。</span><span class="sxs-lookup"><span data-stu-id="2093b-124">Once this values is used, however, the time interval will dynamically change between MaxReceiveInteral/10 and MaxReceiveInterval.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="2093b-125">變更此設定會影響所有主機利用所建立的**主機類型**的**隔離**。</span><span class="sxs-lookup"><span data-stu-id="2093b-125">Changing this setting affects all hosts that are created with a **Host Type** of **Isolated**.</span></span>  

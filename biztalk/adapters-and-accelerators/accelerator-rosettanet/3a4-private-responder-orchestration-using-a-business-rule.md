@@ -1,14 +1,14 @@
 ---
-title: "使用商務規則的 3A4 私用回應者協調流程 |Microsoft 文件"
-ms.custom: 
+title: 使用商務規則的 3A4 私用回應者協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 33d87952-def6-4202-b535-3d80171332eb
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006279"
 ---
 # <a name="3a4-private-responder-orchestration-using-a-business-rule"></a><span data-ttu-id="aa3fe-102">使用商務規則的 3A4 私用回應者協調流程</span><span class="sxs-lookup"><span data-stu-id="aa3fe-102">3A4 Private Responder Orchestration Using a Business Rule</span></span>
 <span data-ttu-id="aa3fe-103">PIP3A4PrivateResponder.odx 範例屬於私用程序協調流程，示範如何實作特定夥伴介面程序 (PIP) 的回應者私用程序，以整合商務規則。</span><span class="sxs-lookup"><span data-stu-id="aa3fe-103">The PIP3A4PrivateResponder.odx sample is a private-process orchestration that demonstrates how to implement a Partner Interface Process (PIP)-specific responder private process incorporating a business rule.</span></span> <span data-ttu-id="aa3fe-104">如需此程序的詳細資訊，請參閱[私用程序協調流程中定義商務規則](../../adapters-and-accelerators/accelerator-rosettanet/defining-a-business-rule-for-a-private-process-orchestration.md)。</span><span class="sxs-lookup"><span data-stu-id="aa3fe-104">For more information about this process, see [Defining a Business Rule for a Private Process Orchestration](../../adapters-and-accelerators/accelerator-rosettanet/defining-a-business-rule-for-a-private-process-orchestration.md).</span></span>  

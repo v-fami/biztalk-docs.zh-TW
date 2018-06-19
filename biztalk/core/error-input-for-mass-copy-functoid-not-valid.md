@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240526"
 ---
 # <a name="error---input-for-mass-copy-functoid-not-valid"></a><span data-ttu-id="c3414-102">錯誤-無效的大量複製運算質的輸入</span><span class="sxs-lookup"><span data-stu-id="c3414-102">Error - Input for Mass Copy Functoid Not Valid</span></span>
 <span data-ttu-id="c3414-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="c3414-103">**Error Code**</span></span>  

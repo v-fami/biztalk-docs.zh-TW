@@ -1,14 +1,14 @@
 ---
-title: "ImportParties 命令 |Microsoft 文件"
-ms.custom: 
+title: ImportParties 命令 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 87d43e2c-401c-4450-ad9b-2528086b99e4
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257006"
 ---
 # <a name="importparties-command"></a><span data-ttu-id="4f8ba-102">ImportParties 命令</span><span class="sxs-lookup"><span data-stu-id="4f8ba-102">ImportParties Command</span></span>
 <span data-ttu-id="4f8ba-103">企業對企業合作對象和協議從檔案匯入來源 XML 繫結在組態資料庫中，而不匯入的任何應用程式成品。</span><span class="sxs-lookup"><span data-stu-id="4f8ba-103">Imports the business-to-business parties and agreements from a source XML binding file in the configuration database, without importing any of the application artifacts.</span></span> <span data-ttu-id="4f8ba-104">如需詳細資訊，請參閱**備註**本主題中。</span><span class="sxs-lookup"><span data-stu-id="4f8ba-104">For more information, see **Remarks** in this topic.</span></span>  

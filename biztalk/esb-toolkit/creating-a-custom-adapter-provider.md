@@ -1,14 +1,14 @@
 ---
-title: "建立自訂配接器提供者 |Microsoft 文件"
-ms.custom: 
+title: 建立自訂配接器提供者 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bb93acf8-fd9d-4315-8690-f0c152a954b5
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974276"
 ---
 # <a name="creating-a-custom-adapter-provider"></a><span data-ttu-id="fad04-102">建立自訂配接器提供者</span><span class="sxs-lookup"><span data-stu-id="fad04-102">Creating a Custom Adapter Provider</span></span>
 <span data-ttu-id="fad04-103">解析程式執行與上一節所述之後，動態解析服務會檢查結果是否端點 （不轉換）。</span><span class="sxs-lookup"><span data-stu-id="fad04-103">After a resolver executes, as described in the previous sections, the dynamic resolution service checks whether the result is an endpoint (not a transformation).</span></span> <span data-ttu-id="fad04-104">如果端點，服務會具現化配接器管理員，也就是執行個體的**AdapterMgr**類別。</span><span class="sxs-lookup"><span data-stu-id="fad04-104">If it is an endpoint, the service instantiates the adapter manager, which is an instance of the **AdapterMgr** class.</span></span>  

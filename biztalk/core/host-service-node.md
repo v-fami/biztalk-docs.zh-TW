@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246558"
 ---
 # <a name="host-service-node"></a><span data-ttu-id="17926-102">主控件 (服務節點)</span><span class="sxs-lookup"><span data-stu-id="17926-102">Host (Service Node)</span></span>
 <span data-ttu-id="17926-103">繫結檔案之 [服務] 節點的 [主控件] 節點，說明與該繫結檔案匯出之服務關聯的主控件。</span><span class="sxs-lookup"><span data-stu-id="17926-103">The Host node of the Service node of a binding file describes the host associated with the service that is exported with the binding file.</span></span>  

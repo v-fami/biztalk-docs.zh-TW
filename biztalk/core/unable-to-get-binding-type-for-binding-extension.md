@@ -1,14 +1,14 @@
 ---
-title: "無法取得繫結型別的繫結延伸 |Microsoft 文件"
-ms.custom: 
+title: 無法取得繫結型別的繫結延伸 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5a7cfc81-7439-48f9-8cac-42b2419ecd9d
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973764"
 ---
 # <a name="unable-to-get-binding-type-for-binding-extension"></a><span data-ttu-id="f4b79-102">無法取得繫結延伸模組的繫結類型</span><span class="sxs-lookup"><span data-stu-id="f4b79-102">Unable to get binding type for binding extension</span></span>
 ## <a name="details"></a><span data-ttu-id="f4b79-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="f4b79-103">Details</span></span>  
@@ -37,9 +38,9 @@ ms.lasthandoff: 11/28/2017
 ## <a name="user-action"></a><span data-ttu-id="f4b79-120">使用者動作</span><span class="sxs-lookup"><span data-stu-id="f4b79-120">User Action</span></span>  
  <span data-ttu-id="f4b79-121">若要解決這個錯誤會執行下列一或多個項目：</span><span class="sxs-lookup"><span data-stu-id="f4b79-121">To resolve this error do one or more of the following:</span></span>  
   
--   <span data-ttu-id="f4b79-122">請確定**machine.config 檔案**中**%WinDir%\Microsoft.NET\Framework\v4.0.30319\Config**具有\< **bindingExtensions** \>正確設定項目。</span><span class="sxs-lookup"><span data-stu-id="f4b79-122">Ensure the **machine.config file** in **%WinDir%\Microsoft.NET\Framework\v4.0.30319\Config** has the \<**bindingExtensions**\> element configured properly.</span></span>  
+-   <span data-ttu-id="f4b79-122">請確定**machine.config 檔案**中 **%WinDir%\Microsoft.NET\Framework\v4.0.30319\Config**具有\< **bindingExtensions** \>正確設定項目。</span><span class="sxs-lookup"><span data-stu-id="f4b79-122">Ensure the **machine.config file** in **%WinDir%\Microsoft.NET\Framework\v4.0.30319\Config** has the \<**bindingExtensions**\> element configured properly.</span></span>  
   
--   <span data-ttu-id="f4b79-123">在 Windows 檔案總管 中，移至**%WinDir%\Assembly**，並確定實作自訂繫結延伸模組的組件是否已正確安裝。</span><span class="sxs-lookup"><span data-stu-id="f4b79-123">In Windows Explorer, go to **%WinDir%\Assembly**, and make sure the assemblies implementing the custom binding extension are installed properly.</span></span>  
+-   <span data-ttu-id="f4b79-123">在 Windows 檔案總管 中，移至 **%WinDir%\Assembly**，並確定實作自訂繫結延伸模組的組件是否已正確安裝。</span><span class="sxs-lookup"><span data-stu-id="f4b79-123">In Windows Explorer, go to **%WinDir%\Assembly**, and make sure the assemblies implementing the custom binding extension are installed properly.</span></span>  
   
 -   <span data-ttu-id="f4b79-124">Wcf-custom 配接器在 BizTalk 管理主控台中，重新啟動執行 WCF 傳輸主控件執行個體。</span><span class="sxs-lookup"><span data-stu-id="f4b79-124">For the WCF-Custom adapter, in the BizTalk Administration console, restart the host instance running the WCF transport.</span></span>  
   

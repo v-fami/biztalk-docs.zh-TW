@@ -1,18 +1,18 @@
 ---
-title: "如何移除憑證，以從接收位置 |Microsoft 文件"
-ms.custom: 
+title: 如何移除憑證，以從接收位置 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - certificates, receive locations
 - receive locations, certificates
 - managing [receive locations], certificates
 ms.assetid: 717d41bf-4260-4df4-9d0a-07243bb9b12c
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254534"
 ---
 # <a name="how-to-remove-a-certificate-from-a-receive-location"></a><span data-ttu-id="08277-102">如何從接收位置移除憑證</span><span class="sxs-lookup"><span data-stu-id="08277-102">How to Remove a Certificate from a Receive Location</span></span>
 <span data-ttu-id="08277-103">本主題說明如何使用 BizTalk Server管理主控台，從接收位置移除安全性憑證。</span><span class="sxs-lookup"><span data-stu-id="08277-103">This topic describes how to use the BizTalk Server Administration console to remove a security certificate from a receive location.</span></span> <span data-ttu-id="08277-104">這樣做之後，接收位置就不再將訊息加密；訊息將會以純文字傳送。</span><span class="sxs-lookup"><span data-stu-id="08277-104">When you do this, the receive location will no longer encrypt messages; messages will be sent in clear text.</span></span> <span data-ttu-id="08277-105">從接收位置移除憑證並不會將它從憑證存放區中移除。</span><span class="sxs-lookup"><span data-stu-id="08277-105">Removing a certificate from a receive location does not remove it from the certificate store.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "撰寫訊息處理器 （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: 撰寫訊息處理器 （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipelines, examples
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - messages, aggregated
 - examples, pipelines
 ms.assetid: a0f87f98-6f5f-4edb-8f65-49d22df5de97
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975276"
 ---
 # <a name="composed-message-processor-biztalk-server-sample"></a><span data-ttu-id="ed527-102">撰寫訊息處理器 (BizTalk Server 範例)</span><span class="sxs-lookup"><span data-stu-id="ed527-102">Composed Message Processor (BizTalk Server Sample)</span></span>
 <span data-ttu-id="ed527-103">此範例的目的是建置撰寫訊息處理器應用程式，可處理來自彙總訊息的個別明細項目。</span><span class="sxs-lookup"><span data-stu-id="ed527-103">The purpose of this sample is to build a composed message processor application that processes individual line items from aggregated messages.</span></span>  

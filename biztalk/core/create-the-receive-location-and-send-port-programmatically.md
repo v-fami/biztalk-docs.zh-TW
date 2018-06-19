@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 47850e66-ce33-4c6a-8190-168071792c0b
-caps.latest.revision: ''
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25976004"
 ---
 # <a name="create-the-receive-location-and-send-port-programmatically"></a><span data-ttu-id="18f5b-102">建立接收位置，並以程式設計的方式傳送連接埠</span><span class="sxs-lookup"><span data-stu-id="18f5b-102">Create the receive location and send port programmatically</span></span>
 <span data-ttu-id="18f5b-103">設定 Wcf-basichttp 接收位置和傳送埠，以程式設計的方式。</span><span class="sxs-lookup"><span data-stu-id="18f5b-103">Configure a WCF-BasicHttp receive location and send port programmatically.</span></span> <span data-ttu-id="18f5b-104">若要使用 BizTalk 管理主控台，請參閱[Wcf-basichttp 配接器](../core/wcf-basichttp-adapter.md)。</span><span class="sxs-lookup"><span data-stu-id="18f5b-104">To use the BizTalk Administration console, see [WCF-BasicHttp adapter](../core/wcf-basichttp-adapter.md).</span></span> 

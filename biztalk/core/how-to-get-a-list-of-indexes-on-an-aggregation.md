@@ -1,18 +1,18 @@
 ---
-title: "如何取得彙總的索引清單 |Microsoft 文件"
-ms.custom: 
+title: 如何取得彙總的索引清單 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - indexes [BAM], listing indexes
 - aggregations [BAM], listing indexes
 - Get-Index command [BAM]
 ms.assetid: 46a4a2fc-10f8-499c-bf2a-d0a19bb84151
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970756"
 ---
 # <a name="how-to-get-a-list-of-indexes-on-an-aggregation"></a><span data-ttu-id="a0070-102">如何取得彙總的索引清單</span><span class="sxs-lookup"><span data-stu-id="a0070-102">How to Get a List of Indexes on an Aggregation</span></span>
 <span data-ttu-id="a0070-103">系統管理員使用**get 索引**命令，以取得在指定的活動上的所有索引的清單。</span><span class="sxs-lookup"><span data-stu-id="a0070-103">Administrators use the **get-index** command to get a list of all the indexes on the specified activity.</span></span>  

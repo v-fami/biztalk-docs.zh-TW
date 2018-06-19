@@ -1,17 +1,17 @@
 ---
-title: "MQSeries 配接器部署選項 |Microsoft 文件"
-ms.custom: 
+title: MQSeries 配接器部署選項 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - MQSeries adapters, deploying
 - deploying, MQSeries adapters
 ms.assetid: d9380aff-40ea-419b-88e2-1e2ec3f023cb
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263014"
 ---
 # <a name="mqseries-adapter-deployment-options"></a><span data-ttu-id="92054-102">MQSeries 配接器部署選項</span><span class="sxs-lookup"><span data-stu-id="92054-102">MQSeries Adapter Deployment Options</span></span>
 <span data-ttu-id="92054-103">MQSeries 配接器讓您在設定硬體方面有很大的彈性。</span><span class="sxs-lookup"><span data-stu-id="92054-103">The MQSeries adapter gives you great flexibility in configuring your hardware.</span></span> <span data-ttu-id="92054-104">至少有三種主要的使用模式：</span><span class="sxs-lookup"><span data-stu-id="92054-104">There are at least three main patterns of use:</span></span>  

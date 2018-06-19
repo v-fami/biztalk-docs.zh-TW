@@ -1,14 +1,14 @@
 ---
-title: "在坡道提升和關閉坡道提升 |Microsoft 文件"
-ms.custom: 
+title: 在坡道提升和關閉坡道提升 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c0cce5d2-f16f-4bda-94ac-20c4f457cfc7
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294558"
 ---
 # <a name="on-ramps-and-off-ramps"></a><span data-ttu-id="4049c-102">在坡道提升和關閉坡道提升</span><span class="sxs-lookup"><span data-stu-id="4049c-102">On-Ramps and Off-Ramps</span></span>
 <span data-ttu-id="4049c-103">在環境中其中[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]是部署，BizTalk 接收位置負責接收 ESB 目的地的訊息指 「 上手。 」</span><span class="sxs-lookup"><span data-stu-id="4049c-103">In an environment where [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] is deployed, a BizTalk receive location responsible for receiving ESB-destined messages is referred to as an "on-ramp."</span></span> <span data-ttu-id="4049c-104">若要設定 ESB 上手的標準 BizTalk 接收位置，接收位置關聯其中一個管線工具組的一部分，並正確設定來決定，或讀取的行程該管線元件輸入的訊息，根據您的案例。</span><span class="sxs-lookup"><span data-stu-id="4049c-104">To configure a standard BizTalk receive location to an ESB on-ramp, associate the receive location with one of the pipelines provided as part of the toolkit, and then correctly configure the components of that pipeline to determine or read the itinerary for the inbound message, depending on your scenario.</span></span>  

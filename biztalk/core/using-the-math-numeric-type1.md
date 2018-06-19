@@ -1,11 +1,11 @@
 ---
-title: "使用 MATH_NUMERIC 類型 1 |Microsoft 文件"
-ms.custom: 
+title: 使用 MATH_NUMERIC 類型 1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapters [JD Edwards EnterpriseOne adapters], currency
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - JD Edwards EnterpriseOne adapters, currency
 - exponents, values [JD Edwards EnterpriseOne adapters]
 ms.assetid: 2a302216-f0a6-4afb-8f7d-bb1475ea1c57
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288510"
 ---
 # <a name="using-the-mathnumeric-type"></a><span data-ttu-id="f62e9-102">使用 MATH_NUMERIC 類型</span><span class="sxs-lookup"><span data-stu-id="f62e9-102">Using the MATH_NUMERIC Type</span></span>
 <span data-ttu-id="f62e9-103">本主題說明 MATH_NUMERIC 型別及其指數處理方式、最大位數與最大小數位數等相關細節，</span><span class="sxs-lookup"><span data-stu-id="f62e9-103">This topic describes the MATH_NUMERIC type and details how exponents are handled, the maximum number of digits, and the maximum number of decimal digits.</span></span> <span data-ttu-id="f62e9-104">其中亦包含下列討論：</span><span class="sxs-lookup"><span data-stu-id="f62e9-104">It also includes a discussion on:</span></span>  
@@ -104,7 +105,7 @@ ms.lasthandoff: 09/20/2017
   
  <span data-ttu-id="f62e9-151">1.9e-31 / 100.0 = 0.00000000000000000000000000000000</span><span class="sxs-lookup"><span data-stu-id="f62e9-151">1.9e-31 / 100.0 = 0.00000000000000000000000000000000</span></span>  
   
- <span data-ttu-id="f62e9-152">在其他情況中，當非常大的正值乘以另一個正值時會出現無法預期的後果。</span><span class="sxs-lookup"><span data-stu-id="f62e9-152">In other cases, unpredictable results occur, as when a very large positive value is multiplied by another.</span></span> <span data-ttu-id="f62e9-153">1.01e32 * 2.053e32 不會產生可靠的結果，並不會引發錯誤。</span><span class="sxs-lookup"><span data-stu-id="f62e9-153">1.01e32 * 2.053e32 does not yield reliable results and does not raise an error.</span></span> <span data-ttu-id="f62e9-154">大多數的商務案例都不會超過這些範圍。</span><span class="sxs-lookup"><span data-stu-id="f62e9-154">For most business scenarios, these ranges are not exceeded.</span></span>  
+ <span data-ttu-id="f62e9-152">在其他情況中，當非常大的正值乘以另一個正值時會出現無法預期的後果。</span><span class="sxs-lookup"><span data-stu-id="f62e9-152">In other cases, unpredictable results occur, as when a very large positive value is multiplied by another.</span></span> <span data-ttu-id="f62e9-153">1.01e32 \* 2.053e32 不會產生可靠的結果，並不會引發錯誤。</span><span class="sxs-lookup"><span data-stu-id="f62e9-153">1.01e32 \* 2.053e32 does not yield reliable results and does not raise an error.</span></span> <span data-ttu-id="f62e9-154">大多數的商務案例都不會超過這些範圍。</span><span class="sxs-lookup"><span data-stu-id="f62e9-154">For most business scenarios, these ranges are not exceeded.</span></span>  
   
 ## <a name="currency"></a><span data-ttu-id="f62e9-155">貨幣</span><span class="sxs-lookup"><span data-stu-id="f62e9-155">Currency</span></span>  
  <span data-ttu-id="f62e9-156">當 JD Edwards EnterpriseOne 商務功能需要貨幣值時，商務功能永遠會有一個參數用於四字元貨幣代碼。</span><span class="sxs-lookup"><span data-stu-id="f62e9-156">When a JD Edwards EnterpriseOne business function expects a currency value, the business function always has a separate parameter for a four-character currency code.</span></span> <span data-ttu-id="f62e9-157">除非您要使用和 JD Edwards EnterpriseOne 系統設定的預設值不同的貨幣，否則並不需要傳遞此代碼。</span><span class="sxs-lookup"><span data-stu-id="f62e9-157">It is not necessary to pass in this code unless you are using a currency other than the default configured for the JD Edwards EnterpriseOne system.</span></span>  

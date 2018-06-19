@@ -1,14 +1,14 @@
 ---
-title: "監視原則和使用量資訊 |Microsoft 文件"
-ms.custom: 
+title: 監視原則和使用量資訊 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7c0d2fd0-e65f-4c96-a5f5-81c9afc9c04e
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008711"
 ---
 # <a name="monitoring-policies-and-usage-information"></a><span data-ttu-id="475a4-102">監視原則和使用方式資訊</span><span class="sxs-lookup"><span data-stu-id="475a4-102">Monitoring Policies and Usage Information</span></span>
 <span data-ttu-id="475a4-103">SOA Service Manager 提供一套機制，可讓您建立和編輯監視原則。</span><span class="sxs-lookup"><span data-stu-id="475a4-103">The SOA Service Manager provides a mechanism that allows you to create and edit monitoring policies.</span></span> <span data-ttu-id="475a4-104">例如，圖 1 顯示套用的原則範本，並啟動應用程式監視的畫面。</span><span class="sxs-lookup"><span data-stu-id="475a4-104">For example, Figure 1 shows the screen for applying a policy template and activating monitoring for an application.</span></span>  

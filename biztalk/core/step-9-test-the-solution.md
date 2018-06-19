@@ -1,14 +1,14 @@
 ---
-title: "步驟 9： 測試方案 |Microsoft 文件"
-ms.custom: 
+title: 步驟 9： 測試方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: df446ccc-add3-4dd3-b674-253dda385541
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973068"
 ---
 # <a name="step-9-test-the-solution"></a><span data-ttu-id="1b524-102">步驟 9： 測試方案</span><span class="sxs-lookup"><span data-stu-id="1b524-102">Step 9: Test the Solution</span></span>
 <span data-ttu-id="1b524-103">本主題中，您可以測試混合式應用程式所傳送的 X12 840 銷售訂單訊息至 HTTP 端點部署 EDI 協議的位置。</span><span class="sxs-lookup"><span data-stu-id="1b524-103">In this topic you test the hybrid application by sending a X12 840 sales order message to the HTTP endpoint where the EDI agreement is deployed.</span></span> <span data-ttu-id="1b524-104">範例銷售訂單訊息看起來如下：</span><span class="sxs-lookup"><span data-stu-id="1b524-104">The sample sales order message looks like the following:</span></span>  

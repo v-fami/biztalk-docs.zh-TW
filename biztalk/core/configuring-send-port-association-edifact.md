@@ -1,14 +1,14 @@
 ---
-title: "設定傳送埠關聯 (EDIFACT) |Microsoft 文件"
-ms.custom: 
+title: 設定傳送埠關聯 (EDIFACT) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d7faabc7-072c-408c-bbd5-f0a039be81f8
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005975"
 ---
 # <a name="configuring-send-port-association-edifact"></a><span data-ttu-id="d5720-102">設定傳送埠關聯 (EDIFACT)</span><span class="sxs-lookup"><span data-stu-id="d5720-102">Configuring Send Port Association (EDIFACT)</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="d5720-103"> 使用傳送埠關聯以解析外寄 EDI 交換的協議。</span><span class="sxs-lookup"><span data-stu-id="d5720-103"> uses send port association to resolve an agreement for an outgoing EDI interchange.</span></span> <span data-ttu-id="d5720-104">解析 EDI 交換所用協議的方法是，將訂閱該訊息的傳送埠和與協議相關聯的傳送埠進行比對。</span><span class="sxs-lookup"><span data-stu-id="d5720-104">An EDI interchange is resolved to an agreement by matching the send port that subscribed to the message with the send port associated with an agreement.</span></span> <span data-ttu-id="d5720-105">本主題提供如何將傳送埠關聯至協議的指示。</span><span class="sxs-lookup"><span data-stu-id="d5720-105">This topic provides instructions on how to associate send ports to an agreement.</span></span>  

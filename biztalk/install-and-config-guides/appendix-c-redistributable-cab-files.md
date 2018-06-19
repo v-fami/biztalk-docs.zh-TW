@@ -1,14 +1,14 @@
 ---
-title: "附錄 c： 可轉散發套件封包檔 |Microsoft 文件"
-ms.custom: 
+title: 附錄 c： 可轉散發套件封包檔 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c2049d61-e169-4b30-869a-33d5af097941
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976388"
 ---
 # <a name="appendix-c-redistributable-cab-files"></a><span data-ttu-id="8f8b9-102">附錄 C：可轉散發的封包檔</span><span class="sxs-lookup"><span data-stu-id="8f8b9-102">Appendix C: Redistributable CAB Files</span></span>
 <span data-ttu-id="8f8b9-103">BizTalk Server 安裝程式會使用這些封包檔案。</span><span class="sxs-lookup"><span data-stu-id="8f8b9-103">These CAB files are used by the BizTalk Server setup.</span></span>

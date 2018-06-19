@@ -1,14 +1,14 @@
 ---
-title: "HL7 系統整合 |Microsoft 文件"
-ms.custom: 
+title: HL7 系統整合 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8f66a4fc-186c-415f-a7ed-31f620f0495f
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005031"
 ---
 # <a name="systems-integration-with-biztalk-server"></a><span data-ttu-id="3fa12-102">與 BizTalk Server 進行系統整合</span><span class="sxs-lookup"><span data-stu-id="3fa12-102">Systems Integration with BizTalk Server</span></span>
 <span data-ttu-id="3fa12-103">Microsoft BizTalk Server 是專為電子商務應用程式設計所設計的整合伺服器。</span><span class="sxs-lookup"><span data-stu-id="3fa12-103">Microsoft BizTalk Server is an integration server designed for eBusiness applications.</span></span> <span data-ttu-id="3fa12-104">它建置在 Windows Server、 SQL Server 和 SharePoint，並利用 Visual Studio 的功能。</span><span class="sxs-lookup"><span data-stu-id="3fa12-104">It is built on the  Windows Server, SQL Server, and SharePoint, and leverages the functionality of  Visual Studio.</span></span> <span data-ttu-id="3fa12-105">此技術堆疊提供許多功能，可以用來開發、實作、操作和維護您的解決方案。</span><span class="sxs-lookup"><span data-stu-id="3fa12-105">This technology stack provides a range of functionality and features for developing, implementing, operating, and maintaining your solution.</span></span>  

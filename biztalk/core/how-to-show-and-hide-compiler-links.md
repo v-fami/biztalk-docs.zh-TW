@@ -1,14 +1,14 @@
 ---
-title: "如何顯示和隱藏編譯器連結 |Microsoft 文件"
-ms.custom: 
+title: 如何顯示和隱藏編譯器連結 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 66bfd9de-c4d2-46ee-854f-cf7c7cd07368
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255542"
 ---
 # <a name="how-to-show-and-hide-compiler-links"></a><span data-ttu-id="0e290-102">如何顯示和隱藏編譯器連結</span><span class="sxs-lookup"><span data-stu-id="0e290-102">How to Show and Hide Compiler Links</span></span>
 <span data-ttu-id="0e290-103">當您編譯對應時，BizTalk 對應工具會建立其他連結，稱為編譯器連結，以說明對應中所需的所有連結。</span><span class="sxs-lookup"><span data-stu-id="0e290-103">When you compile a map, BizTalk Mapper creates additional links, known as compiler links to account for all linking needed in the map.</span></span> <span data-ttu-id="0e290-104">部分連結僅由您所建立的連結暗示。</span><span class="sxs-lookup"><span data-stu-id="0e290-104">Some of these links are only implied by the links you created.</span></span> <span data-ttu-id="0e290-105">當您編譯或測試對應時，Visual Studio 輸出視窗中的最後一行可讓您在主視窗中顯示或隱藏這些額外的編譯器連結。</span><span class="sxs-lookup"><span data-stu-id="0e290-105">When you compile, or test, a map, the final line in the Visual Studio Output window allows you to show or hide these additional compiler links in the main window.</span></span> <span data-ttu-id="0e290-106">依照預設，編譯器連結會以紅色虛線出現。</span><span class="sxs-lookup"><span data-stu-id="0e290-106">By default, the compiler links appear as red dashed lines.</span></span>  

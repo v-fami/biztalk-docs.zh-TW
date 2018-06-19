@@ -20,6 +20,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25971796"
 ---
 # <a name="how-to-enable-automatic-archive-validation"></a><span data-ttu-id="b78fd-102">如何啟用自動封存驗證</span><span class="sxs-lookup"><span data-stu-id="b78fd-102">How to Enable Automatic Archive Validation</span></span>
 <span data-ttu-id="b78fd-103">封存驗證讓您可以在封存建立時驗證封存。</span><span class="sxs-lookup"><span data-stu-id="b78fd-103">Archive validation enables you to validate the archives as they are created.</span></span> <span data-ttu-id="b78fd-104">在您可以啟用自動封存驗證前，必須先設定次要資料庫伺服器，也稱為驗證伺服器。</span><span class="sxs-lookup"><span data-stu-id="b78fd-104">Before you can enable automatic archive validation, you must set up a secondary database server, also called a validation server.</span></span> <span data-ttu-id="b78fd-105">因為封存程序是簡單備份，所以儲存在磁碟上的實際影像可能由於硬體問題而毀損。</span><span class="sxs-lookup"><span data-stu-id="b78fd-105">Because the archiving process is a simple backup, it is possible that the actual image stored on the disk can be corrupted due to a hardware issue.</span></span>  

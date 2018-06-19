@@ -1,14 +1,14 @@
 ---
-title: "如何備份和還原 SQL Server 登入 |Microsoft 文件"
-ms.custom: 
+title: 如何備份和還原 SQL Server 登入 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 847c3a3d-0d97-415b-893e-4ba173085bae
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248550"
 ---
 # <a name="how-to-back-up-and-restore-sql-server-logins"></a><span data-ttu-id="aeba3-102">如何備份和還原 SQL Server 登入</span><span class="sxs-lookup"><span data-stu-id="aeba3-102">How to Back Up and Restore SQL Server Logins</span></span>
 <span data-ttu-id="aeba3-103">備份和還原 BizTalk Server 相關聯的 SQL Server 登入。</span><span class="sxs-lookup"><span data-stu-id="aeba3-103">Back up and restore SQL Server logins associated with BizTalk Server.</span></span>  
@@ -45,7 +46,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  <span data-ttu-id="aeba3-118">以滑鼠右鍵按一下您想要建立的備份指令碼，然後選取 登的入**以指令碼登入**。</span><span class="sxs-lookup"><span data-stu-id="aeba3-118">Right-click the login you want to create a backup script for, and then select **Script Login as**.</span></span>  
   
-4.  <span data-ttu-id="aeba3-119">選取**CREATE 至**，然後選取其中一個**新增查詢編輯器視窗**，**檔案**，或**剪貼簿**選取指令碼的目的地。</span><span class="sxs-lookup"><span data-stu-id="aeba3-119">Select **CREATE To**, and then select one of **New Query Editor Window**, **File**, or **Clipboard** to select a destination for the script.</span></span> <span data-ttu-id="aeba3-120">通常，目的地是檔案之**.sql**延伸模組。</span><span class="sxs-lookup"><span data-stu-id="aeba3-120">Typically, the destination is a file with a **.sql** extension.</span></span>  
+4.  <span data-ttu-id="aeba3-119">選取**CREATE 至**，然後選取其中一個**新增查詢編輯器視窗**，**檔案**，或**剪貼簿**選取指令碼的目的地。</span><span class="sxs-lookup"><span data-stu-id="aeba3-119">Select **CREATE To**, and then select one of **New Query Editor Window**, **File**, or **Clipboard** to select a destination for the script.</span></span> <span data-ttu-id="aeba3-120">通常，目的地是檔案之 **.sql**延伸模組。</span><span class="sxs-lookup"><span data-stu-id="aeba3-120">Typically, the destination is a file with a **.sql** extension.</span></span>  
   
 5.  <span data-ttu-id="aeba3-121">重複此程序步驟 3 從每個登入您想要編寫指令碼。</span><span class="sxs-lookup"><span data-stu-id="aeba3-121">Repeat this procedure from Step 3 for each login you want to script.</span></span> <span data-ttu-id="aeba3-122">清單，請參閱 BizTalk Server 的相關登入，以便判斷哪些登入，您需要指令碼。</span><span class="sxs-lookup"><span data-stu-id="aeba3-122">Refer to the list of BizTalk Server related logins to determine which logins you need to script.</span></span>  
   

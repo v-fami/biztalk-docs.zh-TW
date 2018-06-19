@@ -1,17 +1,17 @@
 ---
-title: "如何設定 「 轉換 」 圖形 |Microsoft 文件"
-ms.custom: 
+title: 如何設定 「 轉換 」 圖形 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring [Orchestration Designer], Transform shape
 - Transform shape [Orchestration Designer]
 ms.assetid: ca81d153-77a6-4bcc-b14f-8f48469fffe0
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972132"
 ---
 # <a name="how-to-configure-the-transform-shape"></a><span data-ttu-id="1cefb-102">如何設定轉換圖形</span><span class="sxs-lookup"><span data-stu-id="1cefb-102">How to Configure the Transform Shape</span></span>
 <span data-ttu-id="1cefb-103">![](../core/media/ebiz-orch-transform.gif "ebiz_orch_transform")</span><span class="sxs-lookup"><span data-stu-id="1cefb-103">![](../core/media/ebiz-orch-transform.gif "ebiz_orch_transform")</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "訊息表示為 XLANGMessage |Microsoft 文件"
-ms.custom: 
+title: 訊息表示為 XLANGMessage |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: aadca870-2f93-4be3-8733-a0cd3815add7
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972268"
 ---
 # <a name="messages-represented-as-xlangmessage"></a><span data-ttu-id="f1fdf-102">表示為 XLANGMessage 的訊息</span><span class="sxs-lookup"><span data-stu-id="f1fdf-102">Messages Represented as XLANGMessage</span></span>
 <span data-ttu-id="f1fdf-103">**XLANGMessage**物件代表以 XLANG 服務宣告的訊息執行個體。</span><span class="sxs-lookup"><span data-stu-id="f1fdf-103">An **XLANGMessage** object represents a message instance declared with an XLANG service.</span></span> <span data-ttu-id="f1fdf-104">這個物件的取得方式，是在方法引動過程中將訊息的參考傳遞為參數。</span><span class="sxs-lookup"><span data-stu-id="f1fdf-104">This object is obtained by passing a reference to a message as a parameter in a method invocation.</span></span> <span data-ttu-id="f1fdf-105">**XLANGPart**物件都代表在 XLANG 服務中的訊息執行個體中所包含的訊息部分。</span><span class="sxs-lookup"><span data-stu-id="f1fdf-105">An **XLANGPart** object represents a message part contained in a message instance within an XLANG service.</span></span> <span data-ttu-id="f1fdf-106">此物件取自藉由傳遞部分參考方法的引動過程中，其中的接收參數類型**XLANGPart**或傳遞的參考上列舉**XLANGMessage**。</span><span class="sxs-lookup"><span data-stu-id="f1fdf-106">This object is obtained either by passing a part reference in a method invocation where the receiving parameter type is **XLANGPart** or by enumerating on a passed reference of **XLANGMessage**.</span></span>  

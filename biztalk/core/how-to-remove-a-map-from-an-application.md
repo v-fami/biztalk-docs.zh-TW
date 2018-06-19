@@ -1,11 +1,11 @@
 ---
-title: "如何從應用程式中移除對應 |Microsoft 文件"
-ms.custom: 
+title: 如何從應用程式中移除對應 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - applications, maps
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - managing [maps], deleting
 - managing [maps], applications
 ms.assetid: 27d9bb08-36f0-46ff-ae9a-2247be6e3f96
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254630"
 ---
 # <a name="how-to-remove-a-map-from-an-application"></a><span data-ttu-id="a1d3d-102">如何從應用程式移除對應</span><span class="sxs-lookup"><span data-stu-id="a1d3d-102">How to Remove a Map from an Application</span></span>
 <span data-ttu-id="a1d3d-103">本主題描述如何使用 BizTalk Server 管理主控台，從 BizTalk 應用程式中移除對應。</span><span class="sxs-lookup"><span data-stu-id="a1d3d-103">This topic describes how to use the BizTalk Server Administration console to remove a map from a BizTalk application.</span></span> <span data-ttu-id="a1d3d-104">您可能會想要在部署新版本的對應之後移除對應。</span><span class="sxs-lookup"><span data-stu-id="a1d3d-104">You might want to remove a map after deploying a new version of the map.</span></span> <span data-ttu-id="a1d3d-105">如需詳細資訊和更新應用程式成品的重要考量，請參閱[更新 BizTalk 應用程式](../core/updating-biztalk-applications.md)。</span><span class="sxs-lookup"><span data-stu-id="a1d3d-105">For more information and important considerations for updating application artifacts, see [Updating BizTalk Applications](../core/updating-biztalk-applications.md).</span></span>  

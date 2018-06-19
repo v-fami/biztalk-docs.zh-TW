@@ -1,11 +1,11 @@
 ---
-title: "MQSCorrelationSetOrchestrationWithSolicitResponse （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: MQSCorrelationSetOrchestrationWithSolicitResponse （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, MQSeries adapters
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - messages, examples
 - MQSeries adapters, examples
 ms.assetid: 5127d743-bb79-4e97-a2f3-446892e1bfa0
-caps.latest.revision: "29"
+caps.latest.revision: 29
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975804"
 ---
 # <a name="mqscorrelationsetorchestrationwithsolicitresponse-biztalk-server-sample"></a><span data-ttu-id="0641f-102">MQSCorrelationSetOrchestrationWithSolicitResponse (BizTalk Server 範例)</span><span class="sxs-lookup"><span data-stu-id="0641f-102">MQSCorrelationSetOrchestrationWithSolicitResponse (BizTalk Server Sample)</span></span>
 <span data-ttu-id="0641f-103">MQSCorrelationSetOrchestrationWithSolicitResponse 範例將示範如何使用 MQSeries Server (而非 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]) 產生的相互關聯識別項。</span><span class="sxs-lookup"><span data-stu-id="0641f-103">The MQSCorrelationSetOrchestrationWithSolicitResponse sample demonstrates how to use a correlation identifier produced by the MQSeries Server instead of by [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  
@@ -35,7 +36,7 @@ ms.lasthandoff: 11/28/2017
 >  <span data-ttu-id="0641f-110">如果 MQSeries Server 傳送的訊息比相互關聯識別項先抵達，使用這種方式的協調流程可能會發生問題。</span><span class="sxs-lookup"><span data-stu-id="0641f-110">Orchestrations using this technique may experience problems if the message from the MQSeries Server arrives before the correlation identifier.</span></span> <span data-ttu-id="0641f-111">請確定您在設計協調流程時，給予 MQSeries Server 足夠的時間傳回相互關聯識別項。</span><span class="sxs-lookup"><span data-stu-id="0641f-111">Make sure that you design your orchestrations to allow enough time for the MQSeries Server to return the correlation identifier.</span></span> <span data-ttu-id="0641f-112">本範例並未將這種可能的競爭情形列入考量。</span><span class="sxs-lookup"><span data-stu-id="0641f-112">This example does not consider this possible race condition.</span></span>  
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="0641f-113">可在何處找到此範例</span><span class="sxs-lookup"><span data-stu-id="0641f-113">Where to Find This Sample</span></span>  
- <span data-ttu-id="0641f-114">*\<範例路徑\>*\AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestrationWithSolicitResponse</span><span class="sxs-lookup"><span data-stu-id="0641f-114">*\<Samples Path\>*\AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestrationWithSolicitResponse</span></span>  
+ <span data-ttu-id="0641f-114">*\<範例路徑\>* \AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestrationWithSolicitResponse</span><span class="sxs-lookup"><span data-stu-id="0641f-114">*\<Samples Path\>* \AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestrationWithSolicitResponse</span></span>  
   
  <span data-ttu-id="0641f-115">下表顯示此範例中的檔案，並描述其用途。</span><span class="sxs-lookup"><span data-stu-id="0641f-115">The following table shows the files in this sample and describes their purpose.</span></span>  
   
@@ -71,7 +72,7 @@ ms.lasthandoff: 11/28/2017
   
 1.  <span data-ttu-id="0641f-141">按一下**啟動**，指向 **所有程式**，指向  **IBM WebSphere MQ**，然後按一下  **WebSphere MQ Explorer**。</span><span class="sxs-lookup"><span data-stu-id="0641f-141">Click **Start**, point to **All Programs**, point to **IBM WebSphere MQ**, and then click **WebSphere MQ Explorer**.</span></span>  
   
-2.  <span data-ttu-id="0641f-142">按兩下**佇列管理員**，然後按兩下預設佇列管理員。</span><span class="sxs-lookup"><span data-stu-id="0641f-142">Double-click **Queue Managers**, and then double-click the default queue manager.</span></span> <span data-ttu-id="0641f-143">預設佇列管理員通常會命名為**Qm_<***< machine_name >*其中*machine_name*是您的電腦名稱。</span><span class="sxs-lookup"><span data-stu-id="0641f-143">The default queue manager is typically named **QM_***<machine_name>* where *machine_name* is the name of your computer.</span></span>  
+2.  <span data-ttu-id="0641f-142">按兩下**佇列管理員**，然後按兩下預設佇列管理員。</span><span class="sxs-lookup"><span data-stu-id="0641f-142">Double-click **Queue Managers**, and then double-click the default queue manager.</span></span> <span data-ttu-id="0641f-143">預設佇列管理員通常會命名為**Qm_<***< machine_name >* 其中*machine_name*是您的電腦名稱。</span><span class="sxs-lookup"><span data-stu-id="0641f-143">The default queue manager is typically named **QM_***<machine_name>* where *machine_name* is the name of your computer.</span></span>  
   
 3.  <span data-ttu-id="0641f-144">以滑鼠右鍵按一下**佇列**，指向 **新增**，然後按一下 **本機佇列**。</span><span class="sxs-lookup"><span data-stu-id="0641f-144">Right-click **Queues**, point to **New**, and then click **Local Queue**.</span></span>  
   
@@ -198,7 +199,7 @@ ms.lasthandoff: 11/28/2017
   
 1.  <span data-ttu-id="0641f-215">在 BizTalk Server 管理主控台中，展開 **協調流程**資料夾。</span><span class="sxs-lookup"><span data-stu-id="0641f-215">In the BizTalk Server Administration console, expand the **Orchestrations** folder.</span></span>  
   
-2.  <span data-ttu-id="0641f-216">在詳細資料窗格中，以滑鼠右鍵按一下**[mqscorrelationsolicitresponse]**協調流程，然後按一下**繫結**。</span><span class="sxs-lookup"><span data-stu-id="0641f-216">In the details pane, right-click the **MQSCorrelationSolicitResponse** orchestration and click **Bind**.</span></span>  
+2.  <span data-ttu-id="0641f-216">在詳細資料窗格中，以滑鼠右鍵按一下 **[mqscorrelationsolicitresponse]** 協調流程，然後按一下**繫結**。</span><span class="sxs-lookup"><span data-stu-id="0641f-216">In the details pane, right-click the **MQSCorrelationSolicitResponse** orchestration and click **Bind**.</span></span>  
   
 3.  <span data-ttu-id="0641f-217">將協調流程連接埠繫結至下列傳送埠和接收位置：</span><span class="sxs-lookup"><span data-stu-id="0641f-217">Bind the orchestration ports to the following send ports and receive locations:</span></span>  
   
@@ -214,11 +215,11 @@ ms.lasthandoff: 11/28/2017
   
 5.  <span data-ttu-id="0641f-231">在**主機**方塊中，選取**BizTalkServerApplication**按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="0641f-231">In the **Host** box, select **BizTalkServerApplication** and click **OK**.</span></span>  
   
-6.  <span data-ttu-id="0641f-232">在**傳送埠**，以滑鼠右鍵按一下**[mqscorrelationsolicitresponse.orchestration.tempport]**，然後選取**啟動**。</span><span class="sxs-lookup"><span data-stu-id="0641f-232">In **Send Ports**, right-click **MQSCorrelationSolicitResponse.Orchestration.TempPort**, and then select **Start**.</span></span>  
+6.  <span data-ttu-id="0641f-232">在**傳送埠**，以滑鼠右鍵按一下 **[mqscorrelationsolicitresponse.orchestration.tempport]**，然後選取**啟動**。</span><span class="sxs-lookup"><span data-stu-id="0641f-232">In **Send Ports**, right-click **MQSCorrelationSolicitResponse.Orchestration.TempPort**, and then select **Start**.</span></span>  
   
-7.  <span data-ttu-id="0641f-233">在**傳送埠**，以滑鼠右鍵按一下**[mqscorrelationsolicitresponse.orchestration.filesendport]**，然後選取**啟動**。</span><span class="sxs-lookup"><span data-stu-id="0641f-233">In **Send Ports**, right-click **MQSCorrelationSolicitResponse.Orchestration.FileSendPort**, and then select **Start**.</span></span>  
+7.  <span data-ttu-id="0641f-233">在**傳送埠**，以滑鼠右鍵按一下 **[mqscorrelationsolicitresponse.orchestration.filesendport]**，然後選取**啟動**。</span><span class="sxs-lookup"><span data-stu-id="0641f-233">In **Send Ports**, right-click **MQSCorrelationSolicitResponse.Orchestration.FileSendPort**, and then select **Start**.</span></span>  
   
-8.  <span data-ttu-id="0641f-234">在**接收位置**，以滑鼠右鍵按一下**[mqscorrelationsolicitresponse.orchestration.filereceiveport]**，然後選取**啟用**。</span><span class="sxs-lookup"><span data-stu-id="0641f-234">In **Receive Locations**, right-click **MQSCorrelationSolicitResponse.Orchestration.FileReceivePort**, and then select **Enable**.</span></span>  
+8.  <span data-ttu-id="0641f-234">在**接收位置**，以滑鼠右鍵按一下 **[mqscorrelationsolicitresponse.orchestration.filereceiveport]**，然後選取**啟用**。</span><span class="sxs-lookup"><span data-stu-id="0641f-234">In **Receive Locations**, right-click **MQSCorrelationSolicitResponse.Orchestration.FileReceivePort**, and then select **Enable**.</span></span>  
   
 9. <span data-ttu-id="0641f-235">以滑鼠右鍵按一下協調流程，然後按一下**啟動**。</span><span class="sxs-lookup"><span data-stu-id="0641f-235">Right-click the orchestration and click **Start**.</span></span>  
   

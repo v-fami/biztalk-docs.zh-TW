@@ -1,14 +1,14 @@
 ---
-title: "嘗試將 AS2 訊息解碼時發生 BTS MIME 錯誤 |Microsoft 文件"
-ms.custom: 
+title: 嘗試將 AS2 訊息解碼時發生 BTS MIME 錯誤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 65cb5ece-78e4-4b83-b126-4d8c588b2c61
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005071"
 ---
 # <a name="a-bts-mime-error-was-encountered-when-attempting-to-decode-an-as2-message"></a><span data-ttu-id="99586-102">嘗試將 AS2 訊息解碼時發生 BTS MIME 錯誤</span><span class="sxs-lookup"><span data-stu-id="99586-102">A BTS MIME error was encountered when attempting to decode an AS2 message</span></span>
 ## <a name="details"></a><span data-ttu-id="99586-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="99586-103">Details</span></span>  

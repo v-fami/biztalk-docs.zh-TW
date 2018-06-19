@@ -1,11 +1,11 @@
 ---
-title: "PartyResolution （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: PartyResolution （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, parties
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - routing, messages
 - messages, routing
 ms.assetid: 220e6bc5-6f04-4f37-b0d0-f11c2cc14422
-caps.latest.revision: "33"
+caps.latest.revision: 33
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975420"
 ---
 # <a name="partyresolution-biztalk-server-sample"></a><span data-ttu-id="f91b4-102">PartyResolution （BizTalk Server 範例）</span><span class="sxs-lookup"><span data-stu-id="f91b4-102">PartyResolution (BizTalk Server Sample)</span></span>
 <span data-ttu-id="f91b4-103">PartyResolution 範例示範如何搭配運用 BizTalk 協調流程和合作對象解析，以將訊息路由至兩個可能收件者中的一個。</span><span class="sxs-lookup"><span data-stu-id="f91b4-103">The PartyResolution sample demonstrates how to use BizTalk orchestrations with party resolution to route messages to one of two possible recipients.</span></span>  
@@ -125,7 +126,7 @@ ms.lasthandoff: 11/28/2017
 -   <span data-ttu-id="f91b4-168">Shipper1Process.odx 和 Shipper2Process.odx 的建置，是用於接收 SupplierProcess.odx 的送貨單和出貨建議，並用於傳送回應給 SupplierProcess.odx。</span><span class="sxs-lookup"><span data-stu-id="f91b4-168">Shipper1Process.odx and Shipper2Process.odx are built to receive the shipping order and the shipping advice from SupplierProcess.odx and to send the response back to SupplierProcess.odx.</span></span> <span data-ttu-id="f91b4-169">在這兩個託運商協調流程中都有使用相互關聯，而相互關聯類型則是依據升級屬性 PONo 而定。</span><span class="sxs-lookup"><span data-stu-id="f91b4-169">In both of the shipper orchestrations, correlation is used, and the correlation type is based on the promoted property PONo.</span></span>  
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="f91b4-170">可在何處找到此範例</span><span class="sxs-lookup"><span data-stu-id="f91b4-170">Where to Find This Sample</span></span>  
- <span data-ttu-id="f91b4-171">*\<範例路徑\>*\Orchestrations\PartyResolution\\</span><span class="sxs-lookup"><span data-stu-id="f91b4-171">*\<Samples Path\>*\Orchestrations\PartyResolution\\</span></span>  
+ <span data-ttu-id="f91b4-171">*\<範例路徑\>* \Orchestrations\PartyResolution\\</span><span class="sxs-lookup"><span data-stu-id="f91b4-171">*\<Samples Path\>* \Orchestrations\PartyResolution\\</span></span>  
   
  <span data-ttu-id="f91b4-172">下表顯示此範例中的檔案，並描述其用途。</span><span class="sxs-lookup"><span data-stu-id="f91b4-172">The following table shows the files in this sample and describes their purpose.</span></span>  
   
@@ -242,7 +243,7 @@ btstask ImportBindings -ApplicationName:PartyResolutionSample -Source:%SupplierB
   
     12. <span data-ttu-id="f91b4-265">匯入私用金鑰，並提供在精靈中的密碼。</span><span class="sxs-lookup"><span data-stu-id="f91b4-265">Import the private key and provide a password in the wizard.</span></span>  
   
-    13. <span data-ttu-id="f91b4-266">展開**憑證 （本機電腦）**節點，然後展開 **其他人**。</span><span class="sxs-lookup"><span data-stu-id="f91b4-266">Expand the **Certificates (Local Computer)** node and then expand **Other People**.</span></span> <span data-ttu-id="f91b4-267">以滑鼠右鍵按一下**憑證**，按一下 **所有工作**，然後按一下 **匯入**。</span><span class="sxs-lookup"><span data-stu-id="f91b4-267">Right-click **Certificates**, click **All Tasks**, and then click **Import**.</span></span>  
+    13. <span data-ttu-id="f91b4-266">展開**憑證 （本機電腦）** 節點，然後展開 **其他人**。</span><span class="sxs-lookup"><span data-stu-id="f91b4-266">Expand the **Certificates (Local Computer)** node and then expand **Other People**.</span></span> <span data-ttu-id="f91b4-267">以滑鼠右鍵按一下**憑證**，按一下 **所有工作**，然後按一下 **匯入**。</span><span class="sxs-lookup"><span data-stu-id="f91b4-267">Right-click **Certificates**, click **All Tasks**, and then click **Import**.</span></span>  
   
     14. <span data-ttu-id="f91b4-268">匯入公開金鑰。</span><span class="sxs-lookup"><span data-stu-id="f91b4-268">Import the public key.</span></span>  
   
@@ -276,13 +277,13 @@ btstask ImportBindings -ApplicationName:PartyResolutionSample -Source:%SupplierB
   
 1.  <span data-ttu-id="f91b4-293">執行下列資料夾中的 FilePolling.exe：</span><span class="sxs-lookup"><span data-stu-id="f91b4-293">Run FilePolling.exe from the following folder:</span></span>  
   
-     <span data-ttu-id="f91b4-294">*\<範例路徑 >*\Orchestrations\PartyResolution\FilePolling\bin\Debug</span><span class="sxs-lookup"><span data-stu-id="f91b4-294">*\<Samples Path>*\Orchestrations\PartyResolution\FilePolling\bin\Debug</span></span>  
+     <span data-ttu-id="f91b4-294">*\<範例路徑 >* \Orchestrations\PartyResolution\FilePolling\bin\Debug</span><span class="sxs-lookup"><span data-stu-id="f91b4-294">*\<Samples Path>* \Orchestrations\PartyResolution\FilePolling\bin\Debug</span></span>  
   
 2.  <span data-ttu-id="f91b4-295">按一下**啟動輪詢**。</span><span class="sxs-lookup"><span data-stu-id="f91b4-295">Click **Start polling**.</span></span>  
   
 3.  <span data-ttu-id="f91b4-296">將提供的 PO 執行個體檔案 PurchaseOrder.xml 貼入下列資料夾中：</span><span class="sxs-lookup"><span data-stu-id="f91b4-296">Paste a copy of the provided PO instance file, PurchaseOrder.xml, in the following folder:</span></span>  
   
-     <span data-ttu-id="f91b4-297">*\<範例路徑 >*\Orchestrations\PartyResolution\FileDrop\PurchaseOrder</span><span class="sxs-lookup"><span data-stu-id="f91b4-297">*\<Samples Path>*\Orchestrations\PartyResolution\FileDrop\PurchaseOrder</span></span>  
+     <span data-ttu-id="f91b4-297">*\<範例路徑 >* \Orchestrations\PartyResolution\FileDrop\PurchaseOrder</span><span class="sxs-lookup"><span data-stu-id="f91b4-297">*\<Samples Path>* \Orchestrations\PartyResolution\FileDrop\PurchaseOrder</span></span>  
   
 4.  <span data-ttu-id="f91b4-298">觀察一系列可讓您了解此範例進度的相關訊息 (以訊息方塊的形式提供)：</span><span class="sxs-lookup"><span data-stu-id="f91b4-298">Observe the sequence of messages that are provided in the form of message boxes that keep you informed about the progress of the sample:</span></span>  
   

@@ -1,11 +1,11 @@
 ---
-title: "使用 CertWizard 公用程式匯入憑證 |Microsoft 文件"
-ms.custom: 
+title: 使用 CertWizard 公用程式匯入憑證 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - certificates, root keys
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - certificates, importing
 - root keys
 ms.assetid: 0c54d7ab-69cf-4f4a-b976-6f740a41280b
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "26006839"
 ---
 # <a name="importing-certificates-using-the-certwizard-utility"></a><span data-ttu-id="a31a8-102">使用 CertWizard 公用程式匯入憑證</span><span class="sxs-lookup"><span data-stu-id="a31a8-102">Importing Certificates Using the CertWizard Utility</span></span>
 <span data-ttu-id="a31a8-103">本主題描述如何使用 CertWizard 公用程式，逐步命令列公用程式中使用匯入憑證[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK。</span><span class="sxs-lookup"><span data-stu-id="a31a8-103">This topic describes how to import a certificate by using CertWizard utility, a step-by-step command-line utility available in the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK.</span></span> <span data-ttu-id="a31a8-104">此主題討論如何匯入私密、公開或根金鑰，</span><span class="sxs-lookup"><span data-stu-id="a31a8-104">This topic discusses importing a private, public, or root key.</span></span> <span data-ttu-id="a31a8-105">以及用來設定憑證的切換參數。</span><span class="sxs-lookup"><span data-stu-id="a31a8-105">It describes the switches that you use to configure the certificate.</span></span>  
@@ -44,13 +45,13 @@ ms.lasthandoff: 01/17/2018
     > [!NOTE]
     >  <span data-ttu-id="a31a8-114">如需 CertWizard 公用程式說明，請輸入**CertWizard /？**</span><span class="sxs-lookup"><span data-stu-id="a31a8-114">For help with the CertWizard utility, type **CertWizard /?**</span></span> <span data-ttu-id="a31a8-115">在命令提示字元。</span><span class="sxs-lookup"><span data-stu-id="a31a8-115">at the command prompt.</span></span>  
   
-3.  <span data-ttu-id="a31a8-116">在命令提示字元中，輸入**CertWizard /Privatekey \<filename\>.pfx**，其中\< *filename*\>x 包含私用憑證。</span><span class="sxs-lookup"><span data-stu-id="a31a8-116">At the command prompt, type **CertWizard /Privatekey \<filename\>.pfx**, where \<*filename*\>.pfx contains the private certificate.</span></span> <span data-ttu-id="a31a8-117">若要提供檔案的密碼，附加**/Filepassword \<filepassword\>** 命令。</span><span class="sxs-lookup"><span data-stu-id="a31a8-117">To provide the password for the file, append **/Filepassword \<filepassword\>** to the command.</span></span>  
+3.  <span data-ttu-id="a31a8-116">在命令提示字元中，輸入**CertWizard /Privatekey \<filename\>.pfx**，其中\< *filename*\>x 包含私用憑證。</span><span class="sxs-lookup"><span data-stu-id="a31a8-116">At the command prompt, type **CertWizard /Privatekey \<filename\>.pfx**, where \<*filename*\>.pfx contains the private certificate.</span></span> <span data-ttu-id="a31a8-117">若要提供檔案的密碼，附加 **/Filepassword \<filepassword\>** 命令。</span><span class="sxs-lookup"><span data-stu-id="a31a8-117">To provide the password for the file, append **/Filepassword \<filepassword\>** to the command.</span></span>  
   
-4.  <span data-ttu-id="a31a8-118">如果您想要將憑證匯入特定 BizTalk 主控件所使用的帳戶、 新增**/Useridentity \<useridentity\> /Password\<密碼\>**命令。</span><span class="sxs-lookup"><span data-stu-id="a31a8-118">If you want to import the certificate into a specific account used by the BizTalk Host, append **/Useridentity \<useridentity\> /Password \<password\>** to the command.</span></span>  
+4.  <span data-ttu-id="a31a8-118">如果您想要將憑證匯入特定 BizTalk 主控件所使用的帳戶、 新增 **/Useridentity \<useridentity\> /Password\<密碼\>** 命令。</span><span class="sxs-lookup"><span data-stu-id="a31a8-118">If you want to import the certificate into a specific account used by the BizTalk Host, append **/Useridentity \<useridentity\> /Password \<password\>** to the command.</span></span>  
   
-5.  <span data-ttu-id="a31a8-119">如果您想要指定特定的憑證指紋，以防.pfx 檔案包含一個以上的憑證，附加**/Thumbprint\<指紋\>**命令。</span><span class="sxs-lookup"><span data-stu-id="a31a8-119">If you want to designate a specific thumbprint in case the .pfx file contains more than one certificate, append **/Thumbprint \<thumbprint\>** to the command.</span></span>  
+5.  <span data-ttu-id="a31a8-119">如果您想要指定特定的憑證指紋，以防.pfx 檔案包含一個以上的憑證，附加 **/Thumbprint\<指紋\>** 命令。</span><span class="sxs-lookup"><span data-stu-id="a31a8-119">If you want to designate a specific thumbprint in case the .pfx file contains more than one certificate, append **/Thumbprint \<thumbprint\>** to the command.</span></span>  
   
-6.  <span data-ttu-id="a31a8-120">如果您想要設定的憑證使用狀況，附加**/Usage**命令，然後附加下列值之一：</span><span class="sxs-lookup"><span data-stu-id="a31a8-120">If you want to configure the usage of the certificate, append **/Usage** to the command, and then append one of the following values:</span></span>  
+6.  <span data-ttu-id="a31a8-120">如果您想要設定的憑證使用狀況，附加 **/Usage**命令，然後附加下列值之一：</span><span class="sxs-lookup"><span data-stu-id="a31a8-120">If you want to configure the usage of the certificate, append **/Usage** to the command, and then append one of the following values:</span></span>  
   
     -   <span data-ttu-id="a31a8-121">附加**登**BizTalk 群組，做為簽署的憑證加入憑證的指紋。</span><span class="sxs-lookup"><span data-stu-id="a31a8-121">Append **sign** to add the certificate's thumbprint as the signing certificate for the BizTalk Group.</span></span> <span data-ttu-id="a31a8-122">為集合，在對話方塊中 BizTalk 管理主控台中的 Microsoft BizTalk Server （本機）。</span><span class="sxs-lookup"><span data-stu-id="a31a8-122">as set on the dialog box for Microsoft BizTalk Server (Local) in the BizTalk Administration Console.</span></span>  
   
@@ -60,7 +61,7 @@ ms.lasthandoff: 01/17/2018
   
     -   <span data-ttu-id="a31a8-125">附加**無**當您不要設定 BizTalk 群組或 BizTalk 主控件的設定。</span><span class="sxs-lookup"><span data-stu-id="a31a8-125">Append **none** when you do not want to set the configuration for the BizTalk Group or the BizTalk Hosts.</span></span>  
   
-7.  <span data-ttu-id="a31a8-126">如果您想要設定成可匯出的憑證，將附加**/exportable true**。</span><span class="sxs-lookup"><span data-stu-id="a31a8-126">If you want to configure the certificate as exportable, append **/Exportable true**.</span></span> <span data-ttu-id="a31a8-127">若要將憑證設為非可匯出，附加**/exportable false**，這是預設行為。</span><span class="sxs-lookup"><span data-stu-id="a31a8-127">To set the certificate as non-exportable, append **/Exportable false**, which is the default behavior.</span></span>  
+7.  <span data-ttu-id="a31a8-126">如果您想要設定成可匯出的憑證，將附加 **/exportable true**。</span><span class="sxs-lookup"><span data-stu-id="a31a8-126">If you want to configure the certificate as exportable, append **/Exportable true**.</span></span> <span data-ttu-id="a31a8-127">若要將憑證設為非可匯出，附加 **/exportable false**，這是預設行為。</span><span class="sxs-lookup"><span data-stu-id="a31a8-127">To set the certificate as non-exportable, append **/Exportable false**, which is the default behavior.</span></span>  
   
 8.  <span data-ttu-id="a31a8-128">按 **Enter**鍵。</span><span class="sxs-lookup"><span data-stu-id="a31a8-128">Press **Enter**.</span></span>  
   
@@ -68,7 +69,7 @@ ms.lasthandoff: 01/17/2018
   
 10. <span data-ttu-id="a31a8-131">若檔案包含多個憑證，但您未在命令中輸入憑證指紋，工具將顯示可用的憑證指紋，並提示您選取其中一個憑證指紋。</span><span class="sxs-lookup"><span data-stu-id="a31a8-131">If the file contains multiple certificates, but you did not type a thumbprint in the command, the tool displays the available thumbprints, and prompts you to select one.</span></span> <span data-ttu-id="a31a8-132">輸入您要的然後按下憑證指紋號碼**Enter**。</span><span class="sxs-lookup"><span data-stu-id="a31a8-132">Type the number of the thumbprint that you want, and then press **Enter**.</span></span>  
   
-     <span data-ttu-id="a31a8-133">此工具將憑證匯入 \Personal\Certificates 存放區中指定的使用者**/useridentity**切換。</span><span class="sxs-lookup"><span data-stu-id="a31a8-133">The tool imports the certificate into the \Personal\Certificates store for the user specified in the **/useridentity** switch.</span></span> <span data-ttu-id="a31a8-134">若您未指定使用者，則預設使用者為 BizTalkServerApplication 與 BizTalkServerIsolatedHost 主控件的使用者身份識別。</span><span class="sxs-lookup"><span data-stu-id="a31a8-134">If you do not specify a user, the default user is the user identity for the BizTalkServerApplication and BizTalkServerIsolatedHost hosts.</span></span>  
+     <span data-ttu-id="a31a8-133">此工具將憑證匯入 \Personal\Certificates 存放區中指定的使用者 **/useridentity**切換。</span><span class="sxs-lookup"><span data-stu-id="a31a8-133">The tool imports the certificate into the \Personal\Certificates store for the user specified in the **/useridentity** switch.</span></span> <span data-ttu-id="a31a8-134">若您未指定使用者，則預設使用者為 BizTalkServerApplication 與 BizTalkServerIsolatedHost 主控件的使用者身份識別。</span><span class="sxs-lookup"><span data-stu-id="a31a8-134">If you do not specify a user, the default user is the user identity for the BizTalkServerApplication and BizTalkServerIsolatedHost hosts.</span></span>  
   
 ### <a name="to-import-a-public-key"></a><span data-ttu-id="a31a8-135">匯入公開金鑰</span><span class="sxs-lookup"><span data-stu-id="a31a8-135">To import a public key</span></span>  
   
@@ -78,7 +79,7 @@ ms.lasthandoff: 01/17/2018
   
 3.  <span data-ttu-id="a31a8-138">在命令提示字元中，輸入**CertWizard /Publickey \<filename\>.cer**，其中\< *filename*\>包含公開憑證。</span><span class="sxs-lookup"><span data-stu-id="a31a8-138">At the command prompt, type **CertWizard /Publickey \<filename\>.cer**, where \<*filename*\>.cer contains the public certificate.</span></span>  
   
-4.  <span data-ttu-id="a31a8-139">如果您想要指定憑證的.cer 或.der 檔案中的憑證指紋，附加**/Thumbprint\<指紋\>**命令。</span><span class="sxs-lookup"><span data-stu-id="a31a8-139">If you want to designate a thumbprint for the certificate in the .cer or .der file, append **/Thumbprint \<thumbprint\>** to the command.</span></span>  
+4.  <span data-ttu-id="a31a8-139">如果您想要指定憑證的.cer 或.der 檔案中的憑證指紋，附加 **/Thumbprint\<指紋\>** 命令。</span><span class="sxs-lookup"><span data-stu-id="a31a8-139">If you want to designate a thumbprint for the certificate in the .cer or .der file, append **/Thumbprint \<thumbprint\>** to the command.</span></span>  
   
      <span data-ttu-id="a31a8-140">這個工具會將憑證匯入 [憑證 (本機電腦)]\Other People\Certificates 存放區，並設定其組態。</span><span class="sxs-lookup"><span data-stu-id="a31a8-140">The tool imports the certificate into the Certificates (Local Computer)\Other People\Certificates store, and sets its configuration.</span></span>  
   
@@ -90,7 +91,7 @@ ms.lasthandoff: 01/17/2018
   
 3.  <span data-ttu-id="a31a8-144">在命令提示字元中，輸入**CertWizard /Rootkey \<filename\>.cer**，其中\< *filename*\>包含根憑證。</span><span class="sxs-lookup"><span data-stu-id="a31a8-144">At the command prompt, type **CertWizard /Rootkey \<filename\>.cer**, where \<*filename*\>.cer contains the root certificate.</span></span>  
   
-4.  <span data-ttu-id="a31a8-145">如果您想要指定憑證的.cer 或.der 檔案中的憑證指紋，附加**/Thumbprint\<指紋\>**命令。</span><span class="sxs-lookup"><span data-stu-id="a31a8-145">If you want to designate a thumbprint for the certificate in the .cer or .der file, append **/Thumbprint \<thumbprint\>** to the command.</span></span>  
+4.  <span data-ttu-id="a31a8-145">如果您想要指定憑證的.cer 或.der 檔案中的憑證指紋，附加 **/Thumbprint\<指紋\>** 命令。</span><span class="sxs-lookup"><span data-stu-id="a31a8-145">If you want to designate a thumbprint for the certificate in the .cer or .der file, append **/Thumbprint \<thumbprint\>** to the command.</span></span>  
   
      <span data-ttu-id="a31a8-146">這個工具會將憑證匯入 [憑證 (本機電腦)]\Trusted Root Certification Authority\Certificates 存放區，並設定其組態。</span><span class="sxs-lookup"><span data-stu-id="a31a8-146">The tool imports the certificate into the Certificates (Local Computer)\Trusted Root Certification Authority\Certificates store, and sets its configuration.</span></span>  
   

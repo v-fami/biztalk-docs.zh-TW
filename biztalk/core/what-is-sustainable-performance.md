@@ -15,7 +15,7 @@ helpviewer_keywords:
 - performance, planning
 - sustainable performance
 ms.assetid: 4b18b976-7714-431f-8976-f40a1016d5f3
-caps.latest.revision: ''
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22290966"
 ---
 # <a name="what-is-sustainable-performance"></a><span data-ttu-id="c53a9-103">何謂持續性效能？</span><span class="sxs-lookup"><span data-stu-id="c53a9-103">What Is Sustainable Performance?</span></span>
 <span data-ttu-id="c53a9-104">在規劃和評估系統的持續性時，考慮長期持續性是很重要的。</span><span class="sxs-lookup"><span data-stu-id="c53a9-104">When planning for and estimating system sustainability, it is critical to think in terms of sustainability over the long term.</span></span> <span data-ttu-id="c53a9-105">主要考量為：</span><span class="sxs-lookup"><span data-stu-id="c53a9-105">The primary considerations are:</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "群組控制編號序號已耗盡協力電腦和 TPA |Microsoft 文件"
-ms.custom: 
+title: 群組控制編號序號已耗盡協力電腦和 TPA |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cf341f8d-02ec-4618-a980-c8ac90654b1a
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246398"
 ---
 # <a name="group-control-number-sequence-exhausted-for-partner-and-tpa"></a><span data-ttu-id="f05c8-102">群組控制編號序號已耗盡協力電腦和 TPA</span><span class="sxs-lookup"><span data-stu-id="f05c8-102">Group control number sequence exhausted for Partner and TPA</span></span>
 ## <a name="details"></a><span data-ttu-id="f05c8-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="f05c8-103">Details</span></span>  

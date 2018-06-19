@@ -1,14 +1,14 @@
 ---
-title: "如何復原 BAM 入口網站 |Microsoft 文件"
-ms.custom: 
+title: 如何復原 BAM 入口網站 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f2a5df99-6d03-4f1f-8540-1700d3a0b9db
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254598"
 ---
 # <a name="how-to-recover-the-bam-portal"></a><span data-ttu-id="9e06c-102">如何復原 BAM 入口網站</span><span class="sxs-lookup"><span data-stu-id="9e06c-102">How to Recover the BAM Portal</span></span>
 <span data-ttu-id="9e06c-103">如果您使用商務活動監控 (BAM)，您必須復原 BAM 入口網站的復原一部分您[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="9e06c-103">If you are using Business Activity Monitoring (BAM), you must recover the BAM portal as a part of recovering your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="9e06c-104">如果您未使用 BAM，則此程序是選擇性的。</span><span class="sxs-lookup"><span data-stu-id="9e06c-104">If you are not using BAM, this procedure is optional.</span></span>  
@@ -38,7 +39,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  <span data-ttu-id="9e06c-114">型別`appcmd restore backup “` *backupname*`”`，然後按下**Enter**。</span><span class="sxs-lookup"><span data-stu-id="9e06c-114">Type `appcmd restore backup “`*backupname*`”`, and then press **Enter**.</span></span>  
   
-     <span data-ttu-id="9e06c-115">*Backupname*是您先前使用建立的備份名稱**Appcmd.exe**。</span><span class="sxs-lookup"><span data-stu-id="9e06c-115">*Backupname* is the name of a backup you previously created using **Appcmd.exe**.</span></span> <span data-ttu-id="9e06c-116">此備份必須存在於**%windir%\system32\inetsrv\backup**目錄。</span><span class="sxs-lookup"><span data-stu-id="9e06c-116">This backup must exist in the **%windir%\system32\inetsrv\backup** directory.</span></span> <span data-ttu-id="9e06c-117">備份無法用於還原不同電腦上建立的密碼。</span><span class="sxs-lookup"><span data-stu-id="9e06c-117">The backup cannot be used to restore passwords created on a different computer.</span></span> <span data-ttu-id="9e06c-118">如果 BAMAppPool 設定為預設值以外的身分識別執行**NetworkService**帳戶，您必須分別進行設定的帳戶和密碼下, 一個步驟中所述。</span><span class="sxs-lookup"><span data-stu-id="9e06c-118">If the BAMAppPool is configured to run under an identity other than the default **NetworkService** account, you must configure the account and password separately, as described in the next step.</span></span>  
+     <span data-ttu-id="9e06c-115">*Backupname*是您先前使用建立的備份名稱**Appcmd.exe**。</span><span class="sxs-lookup"><span data-stu-id="9e06c-115">*Backupname* is the name of a backup you previously created using **Appcmd.exe**.</span></span> <span data-ttu-id="9e06c-116">此備份必須存在於 **%windir%\system32\inetsrv\backup**目錄。</span><span class="sxs-lookup"><span data-stu-id="9e06c-116">This backup must exist in the **%windir%\system32\inetsrv\backup** directory.</span></span> <span data-ttu-id="9e06c-117">備份無法用於還原不同電腦上建立的密碼。</span><span class="sxs-lookup"><span data-stu-id="9e06c-117">The backup cannot be used to restore passwords created on a different computer.</span></span> <span data-ttu-id="9e06c-118">如果 BAMAppPool 設定為預設值以外的身分識別執行**NetworkService**帳戶，您必須分別進行設定的帳戶和密碼下, 一個步驟中所述。</span><span class="sxs-lookup"><span data-stu-id="9e06c-118">If the BAMAppPool is configured to run under an identity other than the default **NetworkService** account, you must configure the account and password separately, as described in the next step.</span></span>  
   
 5.  <span data-ttu-id="9e06c-119">使用**網際網路資訊服務 (IIS) 管理員**，選取**應用程式集區**中**連線**窗格。</span><span class="sxs-lookup"><span data-stu-id="9e06c-119">Using the **Internet Information Services (IIS) Manager**, select **Application Pools** in the **Connections** pane.</span></span>  
   

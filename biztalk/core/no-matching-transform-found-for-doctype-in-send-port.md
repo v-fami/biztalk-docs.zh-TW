@@ -1,14 +1,14 @@
 ---
-title: "沒有相符的轉換傳送埠中找到的 DocType |Microsoft 文件"
-ms.custom: 
+title: 沒有相符的轉換傳送埠中找到的 DocType |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 23f62ac7-3849-49fe-a765-2be72880a4c9
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263054"
 ---
 # <a name="no-matching-transform-found-for-doctype-in-send-port"></a><span data-ttu-id="95726-102">傳送埠中找到的文件類型不符合轉換</span><span class="sxs-lookup"><span data-stu-id="95726-102">No matching transform found for DocType in Send Port</span></span>
 ## <a name="details"></a><span data-ttu-id="95726-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="95726-103">Details</span></span>  

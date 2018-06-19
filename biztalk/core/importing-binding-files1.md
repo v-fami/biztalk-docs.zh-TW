@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/deploying-biztalk-adapter-for-peoplesoft-enterprise/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: 907c21377a6affd5a99576137a5babaa1626c135
 ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971300"
 ---
 # <a name="import-binding-files"></a><span data-ttu-id="f1db4-101">匯入繫結檔案</span><span class="sxs-lookup"><span data-stu-id="f1db4-101">Import Binding Files</span></span>
 
@@ -17,7 +18,7 @@ ms.lasthandoff: 11/28/2017
   
 -   <span data-ttu-id="f1db4-106">在新電腦上回應的資料夾必須存在且相同，否則請編輯繫結檔案。</span><span class="sxs-lookup"><span data-stu-id="f1db4-106">The folders for the responses must exist and be identical on the new computer—or edit the binding file.</span></span>  
   
--   <span data-ttu-id="f1db4-107">PeopleSoft Enterprise 系統密碼 (如果出現在組態中) 以 ***** 格式儲存在繫結檔案中。</span><span class="sxs-lookup"><span data-stu-id="f1db4-107">PeopleSoft Enterprise system passwords, if present in the configuration, are saved as ***** in the binding file.</span></span> 
+-   <span data-ttu-id="f1db4-107">PeopleSoft Enterprise 系統密碼 (如果出現在組態中) 以 \*\*\*\*\* 格式儲存在繫結檔案中。</span><span class="sxs-lookup"><span data-stu-id="f1db4-107">PeopleSoft Enterprise system passwords, if present in the configuration, are saved as \*\*\*\*\* in the binding file.</span></span> 
   
 > [!NOTE]
 >  <span data-ttu-id="f1db4-108">部署會覆寫接收位置組態。</span><span class="sxs-lookup"><span data-stu-id="f1db4-108">Deployment overwrites receive location configuration.</span></span> <span data-ttu-id="f1db4-109">當您在目標電腦上部署繫結檔案和組件，在匯入 XML 繫結檔案時，傳送埠和接收位置會遭取代為 XML 繫結檔案中的傳送埠和接收位置。</span><span class="sxs-lookup"><span data-stu-id="f1db4-109">When you deploy a binding file and assembly on a target computer, the send ports and receive locations are replaced with those in the XML binding file when they are imported.</span></span>  

@@ -1,17 +1,17 @@
 ---
-title: "如何使用 BizTalk Web 服務發佈精靈將結構描述發佈為 Web 服務 |Microsoft 文件"
-ms.custom: 
+title: 如何使用 BizTalk Web 服務發佈精靈將結構描述發佈為 Web 服務 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BizTalk Web Services Publishing Wizard, publishing
 - BizTalk Web Services Publishing Wizard, schemas
 ms.assetid: b22de720-1416-486a-988f-e52527ad9ab1
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25974812"
 ---
 # <a name="how-to-use-the-biztalk-web-services-publishing-wizard-to-publish-schemas-as-a-web-service"></a><span data-ttu-id="58bb0-102">如何使用 BizTalk Web 服務發佈精靈將結構描述發佈為 Web 服務</span><span class="sxs-lookup"><span data-stu-id="58bb0-102">How to Use the BizTalk Web Services Publishing Wizard to Publish Schemas as a Web Service</span></span>
 <span data-ttu-id="58bb0-103">您可以使用「BizTalk Web 服務發佈精靈」將結構描述發佈為 Web 服務。</span><span class="sxs-lookup"><span data-stu-id="58bb0-103">You use the BizTalk Web Services Publishing Wizard to publish schemas as a Web service.</span></span>  
@@ -73,7 +74,7 @@ ms.lasthandoff: 01/17/2018
   
 8.  <span data-ttu-id="58bb0-162">如果您選取 **新增其他 SOAP 標頭**, 、 **要求 SOAP 標頭** 和 **回應 SOAP 標頭** 頁面會出現。</span><span class="sxs-lookup"><span data-stu-id="58bb0-162">If you selected **Add additional SOAP headers**, the **Request SOAP Headers** and **Response SOAP Headers** pages appear.</span></span> <span data-ttu-id="58bb0-163">您可以新增和移除要求和回應 SOAP 標頭，使用 **新增** 和 **移除** 下列對話方塊中的按鈕︰</span><span class="sxs-lookup"><span data-stu-id="58bb0-163">You can add and remove request and response SOAP headers using the **Add** and **Remove** buttons in the following dialog boxes:</span></span>  
   
-    -   <span data-ttu-id="58bb0-164">若要新增 SOAP 標頭，請按一下  **新增**。</span><span class="sxs-lookup"><span data-stu-id="58bb0-164">To add a SOAP header, click **Add**.</span></span> <span data-ttu-id="58bb0-165">在 **BizTalk 組件名稱 (\\*.dll)**  文字方塊中，輸入組件名稱，或瀏覽包含 SOAP 標頭結構描述中的組件 **BizTalk 組件檔案** 文字方塊。</span><span class="sxs-lookup"><span data-stu-id="58bb0-165">In the **BizTalk assembly name (\\*.dll)** text box, type the assembly name or browse for the assembly containing the SOAP Header schema in the **BizTalk assembly file** text box.</span></span> <span data-ttu-id="58bb0-166">**可用的結構描述型別** 清單檢視會顯示結構描述的每個根項目。</span><span class="sxs-lookup"><span data-stu-id="58bb0-166">The **Available schema types** list view displays each root element of the schema.</span></span> <span data-ttu-id="58bb0-167">選取要新增為要求或回應 SOAP 標頭的根節點。</span><span class="sxs-lookup"><span data-stu-id="58bb0-167">Select a root node to add as a request or response SOAP header.</span></span> <span data-ttu-id="58bb0-168">若要選取多個項目，按住 CTRL 鍵，然後按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="58bb0-168">To select multiple items, hold the CTRL key and click **OK**.</span></span>  
+    -   <span data-ttu-id="58bb0-164">若要新增 SOAP 標頭，請按一下  **新增**。</span><span class="sxs-lookup"><span data-stu-id="58bb0-164">To add a SOAP header, click **Add**.</span></span> <span data-ttu-id="58bb0-165">在 **BizTalk 組件名稱 (\*.dll)**  文字方塊中，輸入組件名稱，或瀏覽包含 SOAP 標頭結構描述中的組件 **BizTalk 組件檔案** 文字方塊。</span><span class="sxs-lookup"><span data-stu-id="58bb0-165">In the **BizTalk assembly name (\*.dll)** text box, type the assembly name or browse for the assembly containing the SOAP Header schema in the **BizTalk assembly file** text box.</span></span> <span data-ttu-id="58bb0-166">**可用的結構描述型別** 清單檢視會顯示結構描述的每個根項目。</span><span class="sxs-lookup"><span data-stu-id="58bb0-166">The **Available schema types** list view displays each root element of the schema.</span></span> <span data-ttu-id="58bb0-167">選取要新增為要求或回應 SOAP 標頭的根節點。</span><span class="sxs-lookup"><span data-stu-id="58bb0-167">Select a root node to add as a request or response SOAP header.</span></span> <span data-ttu-id="58bb0-168">若要選取多個項目，按住 CTRL 鍵，然後按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="58bb0-168">To select multiple items, hold the CTRL key and click **OK**.</span></span>  
   
     -   <span data-ttu-id="58bb0-169">若要從清單移除的 SOAP 標頭，從已加入的 SOAP 標頭的清單中選取，然後按一下  **移除**。</span><span class="sxs-lookup"><span data-stu-id="58bb0-169">To remove a SOAP header from the list, select it from the list of added SOAP headers, and then click **Remove**.</span></span>  
   

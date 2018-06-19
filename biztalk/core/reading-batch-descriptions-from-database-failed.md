@@ -1,14 +1,14 @@
 ---
-title: "無法從資料庫讀取 Batchdescriptions |Microsoft 文件"
-ms.custom: 
+title: 無法從資料庫讀取 Batchdescriptions |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f959aa35-d957-45b0-bfac-1134b5087d0c
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268654"
 ---
 # <a name="reading-batch-descriptions-from-database-failed"></a><span data-ttu-id="b8148-102">從資料庫讀取 BatchDescriptions 失敗</span><span class="sxs-lookup"><span data-stu-id="b8148-102">Reading Batch Descriptions from database failed</span></span>
 ## <a name="details"></a><span data-ttu-id="b8148-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="b8148-103">Details</span></span>  

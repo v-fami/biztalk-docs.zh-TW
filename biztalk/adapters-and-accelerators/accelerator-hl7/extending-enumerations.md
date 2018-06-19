@@ -1,17 +1,17 @@
 ---
-title: "擴充列舉 |Microsoft 文件"
-ms.custom: 
+title: 擴充列舉 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - enumeration values
 - 2.X schemas, enumeration values
 ms.assetid: 043def35-b644-4502-a2e2-cc1a5fc0328a
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006239"
 ---
 # <a name="extending-enumerations"></a><span data-ttu-id="ffc5d-102">擴充列舉型別</span><span class="sxs-lookup"><span data-stu-id="ffc5d-102">Extending Enumerations</span></span>
 <span data-ttu-id="ffc5d-103">您可以將值加入至 HL7 訊息本文、 通知和訊息內文結構描述中建立可接受的許多欄位、 區段，以及資料類型值的列舉型別。</span><span class="sxs-lookup"><span data-stu-id="ffc5d-103">You can add values to the enumerations that establish accepted values for many fields, segments, and data types in HL7 message body, acknowledgment, and message body schemas.</span></span> <span data-ttu-id="ffc5d-104">這項作業包括變更一組通用 HL7 版本，您使用資料表值結構描述檔中特定資料表中的值 ( **Tablevalues_\<***版本* **\>.xsd**結構描述檔案)。</span><span class="sxs-lookup"><span data-stu-id="ffc5d-104">This involves changing the set of values in a specific table in the common table values schema file for the HL7 version in which you are working (the **Tablevalues_\<***version***\>.xsd** schema file).</span></span>  

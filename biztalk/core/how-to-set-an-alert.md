@@ -1,11 +1,11 @@
 ---
-title: "如何設定警示 |Microsoft 文件"
-ms.custom: 
+title: 如何設定警示 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - alerts, creating
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - queries [BAM], alerts
 - aggregations, alerts
 ms.assetid: 8745d2c6-5bc0-4d7a-8c17-361535f5c6e6
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255702"
 ---
 # <a name="how-to-set-an-alert"></a><span data-ttu-id="6d95e-102">如何設定警示</span><span class="sxs-lookup"><span data-stu-id="6d95e-102">How to Set an Alert</span></span>
 <span data-ttu-id="6d95e-103">您可以將警示附加至活動搜尋，或向下切入彙總，以設定警示。</span><span class="sxs-lookup"><span data-stu-id="6d95e-103">You can set an alert by attaching it to an activity search or drilling down through an aggregation.</span></span>  
@@ -60,7 +61,7 @@ ms.lasthandoff: 09/20/2017
 5.  <span data-ttu-id="6d95e-123">在**名稱**文字方塊中，輸入警示的描述性名稱。</span><span class="sxs-lookup"><span data-stu-id="6d95e-123">In the **Name** text box, type a descriptive name for the alert.</span></span>  
   
     > [!NOTE]
-    >  <span data-ttu-id="6d95e-124">名稱限制為 100 個字元，且不可包含下列字元: ~ ！ @# $%^&amp;* （); 如果您在名稱中輸入下列任何字元，則會將紅色虛線外的框表示錯誤，才能完成這個動作，您必須更正錯誤的文字欄位周圍會出現。</span><span class="sxs-lookup"><span data-stu-id="6d95e-124">Names are limited to 100 characters and cannot contain the following characters: ~!@#$%^&amp;*();  If you enter any of these characters in a name, a dashed red border appears around the text field indicating an error that you must correct to complete the action.</span></span>  
+    >  <span data-ttu-id="6d95e-124">名稱限制為 100 個字元，且不可包含下列字元: ~ ！ @# $%^&amp;\* （); 如果您在名稱中輸入下列任何字元，則會將紅色虛線外的框表示錯誤，才能完成這個動作，您必須更正錯誤的文字欄位周圍會出現。</span><span class="sxs-lookup"><span data-stu-id="6d95e-124">Names are limited to 100 characters and cannot contain the following characters: ~!@#$%^&amp;\*();  If you enter any of these characters in a name, a dashed red border appears around the text field indicating an error that you must correct to complete the action.</span></span>  
   
 6.  <span data-ttu-id="6d95e-125">如果您不想在此時間內啟用的警示，清除**啟用警示**核取方塊。</span><span class="sxs-lookup"><span data-stu-id="6d95e-125">If you do not want the alert enabled at this time, clear the **Alert Enabled** check box.</span></span>  
   
@@ -93,7 +94,7 @@ ms.lasthandoff: 09/20/2017
 5.  <span data-ttu-id="6d95e-145">在**名稱**文字方塊中，輸入警示的描述性名稱。</span><span class="sxs-lookup"><span data-stu-id="6d95e-145">In the **Name** text box, type a descriptive name for the alert.</span></span>  
   
     > [!NOTE]
-    >  <span data-ttu-id="6d95e-146">名稱限制為 100 個字元，且不可包含下列字元: ~ ！ @# $%^&amp;* （); 如果您在名稱中輸入下列任何字元，則會將紅色虛線外的框表示錯誤，才能完成這個動作，您必須更正錯誤的文字欄位周圍會出現。</span><span class="sxs-lookup"><span data-stu-id="6d95e-146">Names are limited to 100 characters and cannot contain the following characters: ~!@#$%^&amp;*();  If you enter any of these characters in a name, a dashed red border appears around the text field indicating an error that you must correct to complete the action.</span></span>  
+    >  <span data-ttu-id="6d95e-146">名稱限制為 100 個字元，且不可包含下列字元: ~ ！ @# $%^&amp;\* （); 如果您在名稱中輸入下列任何字元，則會將紅色虛線外的框表示錯誤，才能完成這個動作，您必須更正錯誤的文字欄位周圍會出現。</span><span class="sxs-lookup"><span data-stu-id="6d95e-146">Names are limited to 100 characters and cannot contain the following characters: ~!@#$%^&amp;\*();  If you enter any of these characters in a name, a dashed red border appears around the text field indicating an error that you must correct to complete the action.</span></span>  
   
 6.  <span data-ttu-id="6d95e-147">如果您不想在此時間內啟用的警示，清除**啟用警示**核取方塊。</span><span class="sxs-lookup"><span data-stu-id="6d95e-147">If you do not want the alert enabled at this time, clear the **Alert Enabled** check box.</span></span>  
   

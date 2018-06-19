@@ -1,14 +1,14 @@
 ---
-title: "AS2 內容屬性 |Microsoft 文件"
-ms.custom: 
+title: AS2 內容屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b4d63104-f31e-4ed2-b294-ba3ea8a39ae6
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007551"
 ---
 # <a name="as2-context-properties"></a><span data-ttu-id="aeb97-102">AS2 內容屬性</span><span class="sxs-lookup"><span data-stu-id="aeb97-102">AS2 Context Properties</span></span>
 <span data-ttu-id="aeb97-103">五種類型的內容屬性適用於 AS2 訊息儲存在 BizTalk Server:</span><span class="sxs-lookup"><span data-stu-id="aeb97-103">Five types of context properties apply to AS2 messages in BizTalk Server:</span></span>  

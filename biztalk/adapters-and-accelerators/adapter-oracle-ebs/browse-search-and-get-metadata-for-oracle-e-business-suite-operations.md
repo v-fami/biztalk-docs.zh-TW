@@ -1,14 +1,14 @@
 ---
-title: "瀏覽、 搜尋，並取得中繼資料的 Oracle E-business Suite 作業 |Microsoft 文件"
-ms.custom: 
+title: 瀏覽、 搜尋，並取得中繼資料的 Oracle E-business Suite 作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 05a0656c-84d0-4f25-9571-90a9df587b8c
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217790"
 ---
 # <a name="browse-search-and-get-metadata-for-oracle-e-business-suite-operations"></a><span data-ttu-id="67792-102">瀏覽、 搜尋及取得 Oracle E-business Suite 作業的中繼資料</span><span class="sxs-lookup"><span data-stu-id="67792-102">Browse, search, and get metadata for Oracle E-Business Suite operations</span></span>
 <span data-ttu-id="67792-103">本節提供有關如何使用資訊[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]和[!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="67792-103">This section provides information about how to use the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] and the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)].</span></span> <span data-ttu-id="67792-104">使用這些[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]元件，您可以：</span><span class="sxs-lookup"><span data-stu-id="67792-104">By using these [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] components, you can:</span></span>  

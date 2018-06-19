@@ -1,14 +1,14 @@
 ---
-title: "步驟 2： 更新和部署教學課程解決方案 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 更新和部署教學課程解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d03adfdd-1160-4e8c-a564-3acb2ecd0476
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973412"
 ---
 # <a name="step-2-update-and-deploy-the-tutorial-solution"></a><span data-ttu-id="c06d8-102">步驟 2： 更新和部署教學課程解決方案</span><span class="sxs-lookup"><span data-stu-id="c06d8-102">Step 2: Update and Deploy the Tutorial Solution</span></span>
 <span data-ttu-id="c06d8-103">![步驟 2 的 9](../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-2of9.gif "Step_2of9")</span><span class="sxs-lookup"><span data-stu-id="c06d8-103">![Step 2 of 9](../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-2of9.gif "Step_2of9")</span></span>  
@@ -44,7 +45,7 @@ ms.lasthandoff: 11/28/2017
   
 5.  <span data-ttu-id="c06d8-118">在主控台樹狀目錄中，按一下**簽署**，然後選取 **簽署組件**。</span><span class="sxs-lookup"><span data-stu-id="c06d8-118">In the console tree, click **Signing** and then select **Sign the assembly**.</span></span> <span data-ttu-id="c06d8-119">如**選擇強式金鑰名稱檔**，選取\<**新增...** \>輸入**keyfile.snk**為**金鑰檔名稱**。</span><span class="sxs-lookup"><span data-stu-id="c06d8-119">For **Choose a strong key name file**, select \<**New…**\> and enter  **keyfile.snk** as the **Key file name**.</span></span> <span data-ttu-id="c06d8-120">清除**保護我的密碼金鑰檔**，然後按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="c06d8-120">Clear **Protect my key file with a password** and then click **OK**.</span></span>  
   
-6.  <span data-ttu-id="c06d8-121">關閉**[Inbound_EDI 屬性頁面**] 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="c06d8-121">Close the **Inbound_EDI Property Pages** dialog box.</span></span>  
+6.  <span data-ttu-id="c06d8-121">關閉 **[Inbound_EDI 屬性頁面**] 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="c06d8-121">Close the **Inbound_EDI Property Pages** dialog box.</span></span>  
   
 ### <a name="to-deploy-the-project"></a><span data-ttu-id="c06d8-122">若要部署此專案</span><span class="sxs-lookup"><span data-stu-id="c06d8-122">To deploy the project</span></span>  
   

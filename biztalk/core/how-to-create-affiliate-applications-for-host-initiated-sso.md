@@ -1,18 +1,18 @@
 ---
-title: "如何建立分支機構應用程式主控件初始化的 SSO |Microsoft 文件"
-ms.custom: 
+title: 如何建立分支機構應用程式主控件初始化的 SSO |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - applications [SSO], host initiated SSO
 - creating, applications [SSO]
 - host initiated SSO, creating affiliate applications
 ms.assetid: 06202d21-055a-46bc-acff-da461f5673f1
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971284"
 ---
 # <a name="how-to-create-affiliate-applications-for-host-initiated-sso"></a><span data-ttu-id="6712c-102">如何建立分支機構應用程式主控件初始化的 SSO</span><span class="sxs-lookup"><span data-stu-id="6712c-102">How to Create Affiliate Applications for Host Initiated SSO</span></span>
 <span data-ttu-id="6712c-103">您可以定義兩種類型的應用程式：</span><span class="sxs-lookup"><span data-stu-id="6712c-103">You can define two types of applications:</span></span>  
@@ -31,7 +32,7 @@ ms.lasthandoff: 11/28/2017
   
 ### <a name="to-create-an-affiliate-application-using-the-mmc-snap-in"></a><span data-ttu-id="6712c-106">若要使用 MMC 嵌入式管理單元建立分支機構應用程式</span><span class="sxs-lookup"><span data-stu-id="6712c-106">To create an affiliate application using the MMC Snap-In</span></span>  
   
-1.  <span data-ttu-id="6712c-107">在 **[開始]** 功能表上，依序按一下 **[所有程式]**及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。</span><span class="sxs-lookup"><span data-stu-id="6712c-107">On the **Start** menu, click **All Programs**, click **Microsoft Enterprise Single Sign-On**, and then click **SSO Administration**.</span></span>  
+1.  <span data-ttu-id="6712c-107">在 **[開始]** 功能表上，依序按一下 **[所有程式]** 及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。</span><span class="sxs-lookup"><span data-stu-id="6712c-107">On the **Start** menu, click **All Programs**, click **Microsoft Enterprise Single Sign-On**, and then click **SSO Administration**.</span></span>  
   
 2.  <span data-ttu-id="6712c-108">在 ENTSSO MMC 嵌入式管理單元的範圍窗格中，展開 **[企業單一登入]** 節點。</span><span class="sxs-lookup"><span data-stu-id="6712c-108">In the scope pane of the ENTSSO MMC Snap-In, expand the **Enterprise Single Sign-On** node.</span></span>  
   

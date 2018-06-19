@@ -1,11 +1,11 @@
 ---
-title: "如何將 COM 元件新增至應用程式 |Microsoft 文件"
-ms.custom: 
+title: 如何將 COM 元件新增至應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [applications], COM components
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - applications, COM components
 - COM components, applications
 ms.assetid: fdda1a9d-96af-41fe-9d94-ee1fbd80a7c9
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007279"
 ---
 # <a name="how-to-add-a-com-component-to-an-application"></a><span data-ttu-id="93012-102">如何將 COM 元件新增至應用程式</span><span class="sxs-lookup"><span data-stu-id="93012-102">How to Add a COM Component to an Application</span></span>
 <span data-ttu-id="93012-103">本主題描述如何使用 [BizTalk Server 管理] 主控台或命令列，將 COM 元件加入至 BizTalk 應用程式。</span><span class="sxs-lookup"><span data-stu-id="93012-103">This topic describes how to use the BizTalk Server Administration console or the command line to add a COM component to a BizTalk application:</span></span>  
@@ -51,9 +52,9 @@ ms.lasthandoff: 12/01/2017
   
 5.  <span data-ttu-id="93012-121">在**檔案類型**下拉式清單中，按一下  **system.biztalk: com**。</span><span class="sxs-lookup"><span data-stu-id="93012-121">In the **File type** drop-down list, click **System.BizTalk:Com**.</span></span>  
   
-6.  <span data-ttu-id="93012-122">在**選項**，選取或清除**註冊目的地檔案 (regsvr32)**核取方塊，根據您是否想要加入至 Windows 登錄中，當應用程式元件安裝。</span><span class="sxs-lookup"><span data-stu-id="93012-122">In **Options**, select or clear the **Register the file at destination (regsvr32)** check box according to whether or not you want the component to be added to the Windows Registry when the application is installed.</span></span>  
+6.  <span data-ttu-id="93012-122">在**選項**，選取或清除**註冊目的地檔案 (regsvr32)** 核取方塊，根據您是否想要加入至 Windows 登錄中，當應用程式元件安裝。</span><span class="sxs-lookup"><span data-stu-id="93012-122">In **Options**, select or clear the **Register the file at destination (regsvr32)** check box according to whether or not you want the component to be added to the Windows Registry when the application is installed.</span></span>  
   
-7.  <span data-ttu-id="93012-123">在**目的地**，輸入從.msi 檔案，包括檔案名稱安裝應用程式時複製 COM 元件的位置的完整路徑。</span><span class="sxs-lookup"><span data-stu-id="93012-123">In **Destination**, type the full path of the location where the COM component is to be copied when the application is installed from the .msi file, including the file name.</span></span> <span data-ttu-id="93012-124">如果未提供此路徑，安裝期間就不會將組件檔案複製到本機檔案系統。</span><span class="sxs-lookup"><span data-stu-id="93012-124">If this path is not provided, the file is not copied to the local file system during installation.</span></span> <span data-ttu-id="93012-125">此路徑為必要項，如果您選取**註冊目的地檔案 (regsvr32)**上一個步驟中的核取方塊。</span><span class="sxs-lookup"><span data-stu-id="93012-125">This path is required if you selected the **Register the file at destination (regsvr32)** check box in the previous step.</span></span>  
+7.  <span data-ttu-id="93012-123">在**目的地**，輸入從.msi 檔案，包括檔案名稱安裝應用程式時複製 COM 元件的位置的完整路徑。</span><span class="sxs-lookup"><span data-stu-id="93012-123">In **Destination**, type the full path of the location where the COM component is to be copied when the application is installed from the .msi file, including the file name.</span></span> <span data-ttu-id="93012-124">如果未提供此路徑，安裝期間就不會將組件檔案複製到本機檔案系統。</span><span class="sxs-lookup"><span data-stu-id="93012-124">If this path is not provided, the file is not copied to the local file system during installation.</span></span> <span data-ttu-id="93012-125">此路徑為必要項，如果您選取**註冊目的地檔案 (regsvr32)** 上一個步驟中的核取方塊。</span><span class="sxs-lookup"><span data-stu-id="93012-125">This path is required if you selected the **Register the file at destination (regsvr32)** check box in the previous step.</span></span>  
   
      <span data-ttu-id="93012-126">範例： **%BTAD_InstallDir%\MyComponent.dll**</span><span class="sxs-lookup"><span data-stu-id="93012-126">Example: **%BTAD_InstallDir%\MyComponent.dll**</span></span>  
   

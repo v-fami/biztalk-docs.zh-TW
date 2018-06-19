@@ -1,14 +1,14 @@
 ---
-title: "轉換，並將訊息路由傳送至多個端點 |Microsoft 文件"
-ms.custom: 
+title: 轉換，並將訊息路由傳送至多個端點 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 544db12c-95fc-4321-b397-ec9e7410e37d
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010239"
 ---
 # <a name="transforming-and-routing-a-message-to-multiple-endpoints"></a><span data-ttu-id="2ee24-102">轉換，並將訊息路由傳送至多個端點</span><span class="sxs-lookup"><span data-stu-id="2ee24-102">Transforming and Routing a Message to Multiple Endpoints</span></span>
 <span data-ttu-id="2ee24-103">在此使用案例中，ESB 執行轉換，透過路線 Web 服務上手提交的訊息。</span><span class="sxs-lookup"><span data-stu-id="2ee24-103">In this use case, the ESB performs a transformation on a message submitted through the Itinerary Web service on-ramp.</span></span> <span data-ttu-id="2ee24-104">動態解析查閱決定對應名稱，並將轉換輸入的訊息。</span><span class="sxs-lookup"><span data-stu-id="2ee24-104">A dynamic resolution lookup determines the map name and transforms the inbound message.</span></span> <span data-ttu-id="2ee24-105">此外，路線指定 n 個行程服務會以動態方式解析並，它會將訊息路由傳送已轉換的目標端點。</span><span class="sxs-lookup"><span data-stu-id="2ee24-105">Additionally, the itinerary specifies n number of target endpoints that the Itinerary service will dynamically resolve and to which it will route the transformed message.</span></span> <span data-ttu-id="2ee24-106">所有作業都發生在傳訊層，如圖 1 所示。</span><span class="sxs-lookup"><span data-stu-id="2ee24-106">All operations occur at the messaging layer, as illustrated in Figure 1.</span></span>  

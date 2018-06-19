@@ -1,14 +1,14 @@
 ---
-title: "測量引擎 MST 的測試案例 |Microsoft 文件"
-ms.custom: 
+title: 測量引擎 MST 的測試案例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e54667b9-7262-43c8-a013-9242eb062daf
-caps.latest.revision: "28"
+caps.latest.revision: 28
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008015"
 ---
 # <a name="test-scenarios-for-measuring-mst-of-the-engine"></a><span data-ttu-id="8ab4b-102">測量引擎 MST 的測試實例</span><span class="sxs-lookup"><span data-stu-id="8ab4b-102">Test Scenarios for Measuring MST of the Engine</span></span>
 <span data-ttu-id="8ab4b-103">本節描述一個測試實例，實作此實例以測量在三個不同負載層級驅動 BizTalk 系統的效果：</span><span class="sxs-lookup"><span data-stu-id="8ab4b-103">This section describes a test scenario that was implemented to measure the effect of driving a BizTalk system at three different levels of load:</span></span>  
@@ -80,15 +81,15 @@ ms.lasthandoff: 12/01/2017
   
  <span data-ttu-id="8ab4b-163">下列參數是測量 MST 時可以評估的次要指標。</span><span class="sxs-lookup"><span data-stu-id="8ab4b-163">The following parameters are secondary indicators that can be evaluated when measuring MST.</span></span> <span data-ttu-id="8ab4b-164">這些參數可能會影響多工緩衝處理深度的主要指標，以及每秒鐘接收的文件數目。</span><span class="sxs-lookup"><span data-stu-id="8ab4b-164">These parameters may impact the primary indicators of spool depth and the number of documents received per second.</span></span>  
   
--   <span data-ttu-id="8ab4b-165">實體磁碟閒置時間的 MessageBox 資料和交易檔案磁碟所測量**%閒置時間**計數器適用於**LogicalDisk**效能物件。</span><span class="sxs-lookup"><span data-stu-id="8ab4b-165">The physical disk idle time for the MessageBox data and transaction file disk as measured by the **%Idle Time** counter available with the **LogicalDisk** performance object.</span></span>  
+-   <span data-ttu-id="8ab4b-165">實體磁碟閒置時間的 MessageBox 資料和交易檔案磁碟所測量 **%閒置時間**計數器適用於**LogicalDisk**效能物件。</span><span class="sxs-lookup"><span data-stu-id="8ab4b-165">The physical disk idle time for the MessageBox data and transaction file disk as measured by the **%Idle Time** counter available with the **LogicalDisk** performance object.</span></span>  
   
--   <span data-ttu-id="8ab4b-166">CPU 使用率 （%） 所測量的 MessageBox 伺服器**%Processor Time**計數器適用於**處理器**效能物件。</span><span class="sxs-lookup"><span data-stu-id="8ab4b-166">The CPU utilization (%) for the MessageBox server as measured by the **%Processor Time** counter available with the **Processor** performance object.</span></span>  
+-   <span data-ttu-id="8ab4b-166">CPU 使用率 （%） 所測量的 MessageBox 伺服器 **%Processor Time**計數器適用於**處理器**效能物件。</span><span class="sxs-lookup"><span data-stu-id="8ab4b-166">The CPU utilization (%) for the MessageBox server as measured by the **%Processor Time** counter available with the **Processor** performance object.</span></span>  
   
 -   <span data-ttu-id="8ab4b-167">MessageBox 上每秒鎖定逾時的資料庫所測量**Lock Timeouts/sec**計數器適用於**sqlserver: Locks**效能物件。</span><span class="sxs-lookup"><span data-stu-id="8ab4b-167">The lock timeouts per second on the MessageBox database as measured by the **Lock Timeouts/sec** counter available with the **SQLServer:Locks** performance object.</span></span>  
   
--   <span data-ttu-id="8ab4b-168">負責清除與已移除訊息相關聯之訊息方塊表的 SQL 代理程式，最近執行的時間 (秒)。</span><span class="sxs-lookup"><span data-stu-id="8ab4b-168">The time in seconds for the most recent run of the SQL agent job that cleans up message box tables associated with removed messages.</span></span> <span data-ttu-id="8ab4b-169">這所測量**MsgBox 訊息 Cleanup(Purge Jobs)**計數器適用於**biztalk: messagebox： 計數器**效能物件。</span><span class="sxs-lookup"><span data-stu-id="8ab4b-169">This is measured by the **MsgBox Msg Cleanup(Purge Jobs)** counter available with the **BizTalk:MessageBox:General Counters** performance object.</span></span>  
+-   <span data-ttu-id="8ab4b-168">負責清除與已移除訊息相關聯之訊息方塊表的 SQL 代理程式，最近執行的時間 (秒)。</span><span class="sxs-lookup"><span data-stu-id="8ab4b-168">The time in seconds for the most recent run of the SQL agent job that cleans up message box tables associated with removed messages.</span></span> <span data-ttu-id="8ab4b-169">這所測量**MsgBox 訊息 Cleanup(Purge Jobs)** 計數器適用於**biztalk: messagebox： 計數器**效能物件。</span><span class="sxs-lookup"><span data-stu-id="8ab4b-169">This is measured by the **MsgBox Msg Cleanup(Purge Jobs)** counter available with the **BizTalk:MessageBox:General Counters** performance object.</span></span>  
   
--   <span data-ttu-id="8ab4b-170">負責清除與已移除訊息部分相關聯之訊息方塊表的 SQL 代理程式，最近執行的時間 (秒)。</span><span class="sxs-lookup"><span data-stu-id="8ab4b-170">The time in seconds for the most recent run of the SQL agent job which cleans up message box tables associated with removed message parts.</span></span> <span data-ttu-id="8ab4b-171">這所測量**MsgBox 部分 Cleanup(Purge Jobs)**計數器適用於**biztalk: messagebox： 計數器**效能物件。</span><span class="sxs-lookup"><span data-stu-id="8ab4b-171">This is measured by the **MsgBox Parts Cleanup(Purge Jobs)** counter available with the **BizTalk:MessageBox:General Counters** performance object.</span></span>  
+-   <span data-ttu-id="8ab4b-170">負責清除與已移除訊息部分相關聯之訊息方塊表的 SQL 代理程式，最近執行的時間 (秒)。</span><span class="sxs-lookup"><span data-stu-id="8ab4b-170">The time in seconds for the most recent run of the SQL agent job which cleans up message box tables associated with removed message parts.</span></span> <span data-ttu-id="8ab4b-171">這所測量**MsgBox 部分 Cleanup(Purge Jobs)** 計數器適用於**biztalk: messagebox： 計數器**效能物件。</span><span class="sxs-lookup"><span data-stu-id="8ab4b-171">This is measured by the **MsgBox Parts Cleanup(Purge Jobs)** counter available with the **BizTalk:MessageBox:General Counters** performance object.</span></span>  
   
  <span data-ttu-id="8ab4b-172">在測試以判斷最大持續輸送量時，輸入負載會增加到多工緩衝處理表格開始無限成長的點。</span><span class="sxs-lookup"><span data-stu-id="8ab4b-172">When testing to determine the maximum sustainable throughput, input load was increased up to the point that the spool table started to grow indefinitely.</span></span>  
   

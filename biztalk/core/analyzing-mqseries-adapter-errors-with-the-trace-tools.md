@@ -18,7 +18,7 @@ helpviewer_keywords:
 - MQSeries adapters, errors
 - Adapter Trace Utility
 ms.assetid: fdc73d99-3b73-491d-9b2f-7064364fefa7
-caps.latest.revision: ''
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26006624"
 ---
 # <a name="analyzing-mqseries-adapter-errors-with-the-trace-tools"></a><span data-ttu-id="f9edc-102">使用追蹤工具分析 MQSeries 配接器錯誤</span><span class="sxs-lookup"><span data-stu-id="f9edc-102">Analyzing MQSeries Adapter Errors with the Trace Tools</span></span>
 <span data-ttu-id="f9edc-103">您可以使用追蹤工具來分析執行應用程式時的傳訊失敗。</span><span class="sxs-lookup"><span data-stu-id="f9edc-103">You use the trace tools to analyze messaging failures when you run your application.</span></span> <span data-ttu-id="f9edc-104">透過 MQSeries 配接器，您必須使用兩個工具，一個是供配接器及您的 BizTalk 應用程式使用的工具 (trace.cmd)，另一個則是供 MQSAgent 使用的工具 (MQSTrace.cmd)。</span><span class="sxs-lookup"><span data-stu-id="f9edc-104">With the MQSeries adapter you must use two tools, one for the adapter and your BizTalk application (trace.cmd), and the other for the MQSAgent (MQSTrace.cmd).</span></span> <span data-ttu-id="f9edc-105">這兩種工具都會使用 tracelog.exe。</span><span class="sxs-lookup"><span data-stu-id="f9edc-105">Both tools use tracelog.exe.</span></span> <span data-ttu-id="f9edc-106">如果尚未安裝 tracelog.exe，您就必須安裝該檔案。</span><span class="sxs-lookup"><span data-stu-id="f9edc-106">You have to install tracelog.exe if you do not already have it.</span></span>  

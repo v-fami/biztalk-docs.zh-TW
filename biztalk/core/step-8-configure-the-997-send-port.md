@@ -1,14 +1,14 @@
 ---
-title: "步驟 8： 設定 997 傳送埠 |Microsoft 文件"
-ms.custom: 
+title: 步驟 8： 設定 997 傳送埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4780c491-9f1a-4f13-b346-6a2e1801ec09
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277214"
 ---
 # <a name="step-8-configure-the-997-send-port"></a><span data-ttu-id="a5fc0-102">步驟 8： 設定 997 傳送埠</span><span class="sxs-lookup"><span data-stu-id="a5fc0-102">Step 8: Configure the 997 Send Port</span></span>
 <span data-ttu-id="a5fc0-103">![步驟 11-8](../core/media/tut-step8-of-11.gif "Tut_Step8_of_11")</span><span class="sxs-lookup"><span data-stu-id="a5fc0-103">![Step 8 of 11](../core/media/tut-step8-of-11.gif "Tut_Step8_of_11")</span></span>  

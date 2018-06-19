@@ -1,17 +1,17 @@
 ---
-title: "如何使用 BizTalk WCF 服務發佈精靈來發佈服務中繼資料的 WCF 接收位置的內容為基礎的路由 |Microsoft 文件"
-ms.custom: 
+title: 如何使用 BizTalk WCF 服務發佈精靈來發佈服務中繼資料的 WCF 接收位置的內容為基礎的路由 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF Service Publishing Wizard, publishing metadata
 - WCF services, metadata
 ms.assetid: e900b0a0-db17-4db9-a639-54891e02d6d7
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975604"
 ---
 # <a name="how-to-use-the-biztalk-wcf-service-publishing-wizard-to-publish-service-metadata-for-a-wcf-receive-location-for-content-based-routing"></a><span data-ttu-id="9bdd6-102">如何使用 BizTalk WCF 服務發佈精靈來發佈根據訊息內容決定路由之 WCF 接收位置的服務中繼資料</span><span class="sxs-lookup"><span data-stu-id="9bdd6-102">How to Use the BizTalk WCF Service Publishing Wizard to Publish Service Metadata for a WCF Receive Location for Content-Based Routing</span></span>
 <span data-ttu-id="9bdd6-103">您可以使用 [BizTalk WCF 服務發佈精靈] 來建立 WCF 服務，以便發佈根據訊息內容決定路由之現有 WCF 接收位置的服務中繼資料。</span><span class="sxs-lookup"><span data-stu-id="9bdd6-103">You use the BizTalk WCF Service Publishing Wizard to create a WCF service to publish service metadata for existing WCF receive locations for content-based routing.</span></span>  
@@ -36,7 +37,7 @@ ms.lasthandoff: 11/28/2017
   
 2.  <span data-ttu-id="9bdd6-112">在**歡迎使用 BizTalk WCF 服務發佈精靈**頁面上，按一下**下一步**。</span><span class="sxs-lookup"><span data-stu-id="9bdd6-112">On the **Welcome to the BizTalk WCF Service Publishing Wizard** page, click **Next**.</span></span>  
   
-3.  <span data-ttu-id="9bdd6-113">在**WCF 服務類型**頁面上，選取**中繼資料唯一端點 (MEX)**選項來發佈 WCF 服務，以提供服務中繼資料之 wcf 接收位置，您將在下一個步驟中選取。</span><span class="sxs-lookup"><span data-stu-id="9bdd6-113">On the **WCF Service Type** page, select the **Metdata only endpoint (MEX)** option to publish the WCF services to provide service metadata for the WCF receive location that you will select in the next step.</span></span>  
+3.  <span data-ttu-id="9bdd6-113">在**WCF 服務類型**頁面上，選取**中繼資料唯一端點 (MEX)** 選項來發佈 WCF 服務，以提供服務中繼資料之 wcf 接收位置，您將在下一個步驟中選取。</span><span class="sxs-lookup"><span data-stu-id="9bdd6-113">On the **WCF Service Type** page, select the **Metdata only endpoint (MEX)** option to publish the WCF services to provide service metadata for the WCF receive location that you will select in the next step.</span></span>  
   
      <span data-ttu-id="9bdd6-114">![WCF 服務類型 頁面上](../core/media/794a85b5-6454-4cce-8c15-382b5583b0f2.gif "794a85b5-6454-4cce-8c15-382b5583b0f2")</span><span class="sxs-lookup"><span data-stu-id="9bdd6-114">![WCF Service Type page](../core/media/794a85b5-6454-4cce-8c15-382b5583b0f2.gif "794a85b5-6454-4cce-8c15-382b5583b0f2")</span></span>  
   

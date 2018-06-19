@@ -1,17 +1,17 @@
 ---
-title: "以.NET 類別表示訊息 |Microsoft 文件"
-ms.custom: 
+title: 以.NET 類別表示訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, expressions
 - orchestrations, filters
 ms.assetid: cdbea200-552e-4734-a370-2f93da07ea81
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263390"
 ---
 # <a name="messages-represented-as-net-classes"></a><span data-ttu-id="1d021-102">以 .NET 類別表示訊息</span><span class="sxs-lookup"><span data-stu-id="1d021-102">Messages Represented as .NET Classes</span></span>
 <span data-ttu-id="1d021-103">這個方法的第一步是建立定義訊息類型的 .NET 類別。</span><span class="sxs-lookup"><span data-stu-id="1d021-103">This approach first involves creating a .NET class that defines your message type.</span></span> <span data-ttu-id="1d021-104">這個類別必須擁有預設的建構函式，否則使用此類別的協調流程將無法進行編譯。</span><span class="sxs-lookup"><span data-stu-id="1d021-104">The class must have a default constructor or the orchestration using it will not compile.</span></span> <span data-ttu-id="1d021-105">以下顯示此種類別的簡單範例。</span><span class="sxs-lookup"><span data-stu-id="1d021-105">A simple example of such a class is shown here.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "如何建立使用其他結構描述的結構描述 |Microsoft 文件"
-ms.custom: 
+title: 如何建立使用其他結構描述的結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ff0bcd9a-6c66-4c3b-bd41-64047a7c8392
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249414"
 ---
 # <a name="how-to-create-schemas-that-use-other-schemas"></a><span data-ttu-id="03ea9-102">如何建立使用其他結構描述的結構描述</span><span class="sxs-lookup"><span data-stu-id="03ea9-102">How to Create Schemas That Use Other Schemas</span></span>
 <span data-ttu-id="03ea9-103">XML 結構描述定義 (XSD) 語言提供三個不同但相關的機制，以便在某個結構描述中使用另一個結構描述。</span><span class="sxs-lookup"><span data-stu-id="03ea9-103">XML Schema definition (XSD) language provides three different but related mechanisms for using one schema within another schema.</span></span> <span data-ttu-id="03ea9-104">這些機制為匯入結構描述、包含結構描述以及重新定義結構描述。</span><span class="sxs-lookup"><span data-stu-id="03ea9-104">These mechanisms are importing a schema, including a schema, and redefining a schema.</span></span> <span data-ttu-id="03ea9-105">這些機制及其有何差異的簡短摘要，請參閱[使用其他結構描述的](../core/schemas-that-use-other-schemas.md)。</span><span class="sxs-lookup"><span data-stu-id="03ea9-105">For a brief summary of these mechanisms and how they differ, see [Schemas That Use Other Schemas](../core/schemas-that-use-other-schemas.md).</span></span> <span data-ttu-id="03ea9-106">如需詳細資訊，請參閱[在網站上的 XSD 資源](../core/xsd-resources-on-the-web.md)取得 XSD 入門與規格的連結。</span><span class="sxs-lookup"><span data-stu-id="03ea9-106">For detailed information, see [XSD Resources on the Web](../core/xsd-resources-on-the-web.md) for links to the XSD primer and specifications.</span></span>  

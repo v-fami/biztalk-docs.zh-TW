@@ -1,14 +1,14 @@
 ---
-title: "找不到檔案反映 BizTalk 組件時發生例外狀況 |Microsoft 文件"
-ms.custom: 
+title: 找不到檔案反映 BizTalk 組件時發生例外狀況 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 223147eb-785f-4dfc-b2a6-7d50dfaf8092
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26004767"
 ---
 # <a name="a-file-not-found-exception-occurred-while-reflecting-a-biztalk-assembly"></a><span data-ttu-id="15c84-102">找不到檔案反映 BizTalk 組件時發生例外狀況</span><span class="sxs-lookup"><span data-stu-id="15c84-102">A file not found exception occurred while reflecting a BizTalk assembly</span></span>
 ## <a name="details"></a><span data-ttu-id="15c84-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="15c84-103">Details</span></span>  

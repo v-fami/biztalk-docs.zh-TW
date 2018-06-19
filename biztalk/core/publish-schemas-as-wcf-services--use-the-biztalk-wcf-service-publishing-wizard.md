@@ -1,11 +1,11 @@
 ---
-title: "如何使用 BizTalk WCF 服務發佈精靈發佈為 WCF 服務的結構描述 |Microsoft 文件"
-ms.custom: 
+title: 如何使用 BizTalk WCF 服務發佈精靈發佈為 WCF 服務的結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - schemas, WCF services
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - WCF services, schemas
 - WCF Service Publishing Wizard
 ms.assetid: 3b770fd5-5b7b-493f-9016-d7d58854c5ff
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975380"
 ---
 # <a name="how-to-use-the-biztalk-wcf-service-publishing-wizard-to-publish-schemas-as-wcf-services"></a><span data-ttu-id="bfcfe-102">如何使用 BizTalk WCF 服務發佈精靈將結構描述發佈為 WCF 服務</span><span class="sxs-lookup"><span data-stu-id="bfcfe-102">How to Use the BizTalk WCF Service Publishing Wizard to Publish Schemas as WCF Services</span></span>
 <span data-ttu-id="bfcfe-103">您會使用 [BizTalk WCF 服務發佈精靈] 將結構描述發佈為 WCF 服務。</span><span class="sxs-lookup"><span data-stu-id="bfcfe-103">You use the BizTalk WCF Service Publishing Wizard to publish schemas as WCF services.</span></span>  
@@ -45,16 +46,16 @@ ms.lasthandoff: 11/28/2017
   
 4.  <span data-ttu-id="bfcfe-113">在**WCF 服務類型**頁面上，選取或清除**啟用中繼資料端點**核取方塊，以指出外掛式的 WCF 接收位置主控網際網路資訊服務 (IIS) 是否將發行使用 HTTP/GET 要求進行擷取服務中繼資料。</span><span class="sxs-lookup"><span data-stu-id="bfcfe-113">On the **WCF Service Type** page, select or clear the **Enable metadata endpoint** check box to indicate whether the isolated WCF receive location hosted by Internet Information Services (IIS) will publish service metadata for retrieval using an HTTP/GET request.</span></span>  
   
-     <span data-ttu-id="bfcfe-114">選取此核取方塊時，精靈會產生 Web.config 檔案，而**httpGetEnabled**屬性 **\<serviceMetadata\>** 元素設定為**true**。</span><span class="sxs-lookup"><span data-stu-id="bfcfe-114">When this check box is selected, the wizard generates a Web.config file  in which the **httpGetEnabled** attribute of the **\<serviceMetadata\>** element is set to **true**.</span></span> <span data-ttu-id="bfcfe-115">您可以在開發環境中使用中繼資料匯入工具 (例如 SvcUtil.exe) 產生呼叫此服務所需的用戶端程式碼。</span><span class="sxs-lookup"><span data-stu-id="bfcfe-115">You can use a metadata import tool (such as SvcUtil.exe) to generate the client code required to call this service in the development environment.</span></span> <span data-ttu-id="bfcfe-116">中繼資料發行的位址是端點位址加上一個**？ wsdl**查詢字串。</span><span class="sxs-lookup"><span data-stu-id="bfcfe-116">The address at which the metadata is published is the endpoint address plus a **?wsdl** query string.</span></span>  
+     <span data-ttu-id="bfcfe-114">選取此核取方塊時，精靈會產生 Web.config 檔案，而**httpGetEnabled**屬性 **\<serviceMetadata\>** 元素設定為**true**。</span><span class="sxs-lookup"><span data-stu-id="bfcfe-114">When this check box is selected, the wizard generates a Web.config file  in which the **httpGetEnabled** attribute of the **\<serviceMetadata\>** element is set to **true**.</span></span> <span data-ttu-id="bfcfe-115">您可以在開發環境中使用中繼資料匯入工具 (例如 SvcUtil.exe) 產生呼叫此服務所需的用戶端程式碼。</span><span class="sxs-lookup"><span data-stu-id="bfcfe-115">You can use a metadata import tool (such as SvcUtil.exe) to generate the client code required to call this service in the development environment.</span></span> <span data-ttu-id="bfcfe-116">中繼資料發行的位址是端點位址加上一個 **？ wsdl**查詢字串。</span><span class="sxs-lookup"><span data-stu-id="bfcfe-116">The address at which the metadata is published is the endpoint address plus a **?wsdl** query string.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="bfcfe-117">為避免不慎洩露機密的服務中繼資料，建議您在實際執行環境中停用此行為。</span><span class="sxs-lookup"><span data-stu-id="bfcfe-117">To prevent unintentional disclosure of potentially sensitive service metadata, we recommend that you disable this behavior in the production environment.</span></span> <span data-ttu-id="bfcfe-118">這可透過將 httpgetenabled 設為 False 或刪除 MEX 虛擬目錄來完成。</span><span class="sxs-lookup"><span data-stu-id="bfcfe-118">This can be done by setting httpgetenabled to false, or deleting the MEX virtual directory.</span></span>  
   
-5.  <span data-ttu-id="bfcfe-119">在**WCF 服務類型**頁面上，於**配接器名稱 （傳輸類型）**下拉式清單中，選取要用來發佈 WCF 服務的外掛式的 WCF 配接器。</span><span class="sxs-lookup"><span data-stu-id="bfcfe-119">On the **WCF Service Type** page, in the **Adapter name (Transport type)** drop-down list, select the isolated WCF adapter with which the WCF services are published.</span></span> <span data-ttu-id="bfcfe-120">您可以選取下列任何一個配接器：</span><span class="sxs-lookup"><span data-stu-id="bfcfe-120">You can select any of the following adapters:</span></span>  
+5.  <span data-ttu-id="bfcfe-119">在**WCF 服務類型**頁面上，於**配接器名稱 （傳輸類型）** 下拉式清單中，選取要用來發佈 WCF 服務的外掛式的 WCF 配接器。</span><span class="sxs-lookup"><span data-stu-id="bfcfe-119">On the **WCF Service Type** page, in the **Adapter name (Transport type)** drop-down list, select the isolated WCF adapter with which the WCF services are published.</span></span> <span data-ttu-id="bfcfe-120">您可以選取下列任何一個配接器：</span><span class="sxs-lookup"><span data-stu-id="bfcfe-120">You can select any of the following adapters:</span></span>  
   
     -   <span data-ttu-id="bfcfe-121">**Wcf-basichttp。**</span><span class="sxs-lookup"><span data-stu-id="bfcfe-121">**WCF-BasicHttp.**</span></span> <span data-ttu-id="bfcfe-122">WCF-BasicHttp 配接器可以與 WS-I 基本設定檔 1.1 相符的 Web 服務 (例如以 ASMX 為基礎的服務) 通訊。</span><span class="sxs-lookup"><span data-stu-id="bfcfe-122">The WCF-BasicHttp adapter can communicate with WS-I Basic Profile 1.1-conformant Web services like ASMX-based services.</span></span>  
   
-    -   <span data-ttu-id="bfcfe-123">**Wcf-wshttp。**</span><span class="sxs-lookup"><span data-stu-id="bfcfe-123">**WCF-WSHttp.**</span></span> <span data-ttu-id="bfcfe-124">WCF-WSHttp 配接器可以透過 HTTP 和 HTTPS 上的 WS-* 標準，與服務進行通訊。</span><span class="sxs-lookup"><span data-stu-id="bfcfe-124">The WCF-WSHttp adapter can communicate with a service through the WS-* standards over HTTP and HTTPS.</span></span>  
+    -   <span data-ttu-id="bfcfe-123">**Wcf-wshttp。**</span><span class="sxs-lookup"><span data-stu-id="bfcfe-123">**WCF-WSHttp.**</span></span> <span data-ttu-id="bfcfe-124">WCF-WSHttp 配接器可以透過 HTTP 和 HTTPS 上的 WS-\* 標準，與服務進行通訊。</span><span class="sxs-lookup"><span data-stu-id="bfcfe-124">The WCF-WSHttp adapter can communicate with a service through the WS-\* standards over HTTP and HTTPS.</span></span>  
   
     -   <span data-ttu-id="bfcfe-125">**Wcf-customisolated。**</span><span class="sxs-lookup"><span data-stu-id="bfcfe-125">**WCF-CustomIsolated.**</span></span> <span data-ttu-id="bfcfe-126">WCF-CustomIsolated 配接器可以在 HTTP 傳輸上啟用 Windows Communication Foundation (WCF) 擴充性功能。</span><span class="sxs-lookup"><span data-stu-id="bfcfe-126">The WCF-CustomIsolated adapter enables the use of Windows Communication Foundation (WCF) extensibility features over the HTTP transport.</span></span>  
   

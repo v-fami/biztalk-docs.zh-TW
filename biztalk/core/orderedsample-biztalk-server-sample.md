@@ -1,11 +1,11 @@
 ---
-title: "OrderedSample （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: OrderedSample （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, MQSeries adapters
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - examples, orchestrations
 - MQSeries adapters, examples
 ms.assetid: 7e59ff43-d425-40cd-9725-af13084f83d9
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974748"
 ---
 # <a name="orderedsample-biztalk-server-sample"></a><span data-ttu-id="fdb34-102">OrderedSample (BizTalk Server 範例)</span><span class="sxs-lookup"><span data-stu-id="fdb34-102">OrderedSample (BizTalk Server Sample)</span></span>
 <span data-ttu-id="fdb34-103">OrderedSample 範例會示範如何使用協調流程，以往返方式接收和傳送已排序的訊息序列。</span><span class="sxs-lookup"><span data-stu-id="fdb34-103">The OrderedSample sample demonstrates how to use an orchestration to receive and send an ordered series of messages in a round-trip fashion.</span></span>  
@@ -36,7 +37,7 @@ ms.lasthandoff: 11/28/2017
  <span data-ttu-id="fdb34-111">協調流程可以接收批次訊息和單一訊息。</span><span class="sxs-lookup"><span data-stu-id="fdb34-111">The orchestration can receive batches of messages and single messages.</span></span>  
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="fdb34-112">可在何處找到此範例</span><span class="sxs-lookup"><span data-stu-id="fdb34-112">Where to Find This Sample</span></span>  
- <span data-ttu-id="fdb34-113">*\<範例路徑\>*\AdaptersUsage\MQSeriesAdapter\OrderedSample</span><span class="sxs-lookup"><span data-stu-id="fdb34-113">*\<Samples Path\>*\AdaptersUsage\MQSeriesAdapter\OrderedSample</span></span>  
+ <span data-ttu-id="fdb34-113">*\<範例路徑\>* \AdaptersUsage\MQSeriesAdapter\OrderedSample</span><span class="sxs-lookup"><span data-stu-id="fdb34-113">*\<Samples Path\>* \AdaptersUsage\MQSeriesAdapter\OrderedSample</span></span>  
   
  <span data-ttu-id="fdb34-114">下表顯示此範例中的檔案，並描述其用途。</span><span class="sxs-lookup"><span data-stu-id="fdb34-114">The following table shows the files in this sample and describes their purpose.</span></span>  
   
@@ -73,11 +74,11 @@ ms.lasthandoff: 11/28/2017
   
 3.  <span data-ttu-id="fdb34-140">以滑鼠右鍵按一下**佇列**，指向 **新增**，然後按一下 **本機佇列**。</span><span class="sxs-lookup"><span data-stu-id="fdb34-140">Right-click **Queues**, point to **New**, and then click **Local Queue**.</span></span>  
   
-4.  <span data-ttu-id="fdb34-141">在**建立本機佇列**對話方塊中，於**佇列名稱**，型別**"queue1"**，然後按一下  **確定**。</span><span class="sxs-lookup"><span data-stu-id="fdb34-141">In **Create Local Queue** dialog box, in **Queue Name**, type **"queue1"**, and then click **OK**.</span></span>  
+4.  <span data-ttu-id="fdb34-141">在**建立本機佇列**對話方塊中，於**佇列名稱**，型別 **"queue1"**，然後按一下  **確定**。</span><span class="sxs-lookup"><span data-stu-id="fdb34-141">In **Create Local Queue** dialog box, in **Queue Name**, type **"queue1"**, and then click **OK**.</span></span>  
   
 5.  <span data-ttu-id="fdb34-142">以滑鼠右鍵按一下**佇列**，按一下 **新增**，然後按一下 **本機佇列**。</span><span class="sxs-lookup"><span data-stu-id="fdb34-142">Right-click **Queues**, click **New**, and then click **Local Queue**.</span></span>  
   
-6.  <span data-ttu-id="fdb34-143">中**建立本機佇列**對話方塊中，於**佇列名稱**，型別**"queue2"**，然後按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="fdb34-143">In the **Create Local Queue** dialog box, in **Queue Name**, type **"queue2"**, and then click **OK**.</span></span>  
+6.  <span data-ttu-id="fdb34-143">中**建立本機佇列**對話方塊中，於**佇列名稱**，型別 **"queue2"**，然後按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="fdb34-143">In the **Create Local Queue** dialog box, in **Queue Name**, type **"queue2"**, and then click **OK**.</span></span>  
   
 ## <a name="creating-the-receive-location-and-the-mqseries-queue"></a><span data-ttu-id="fdb34-144">建立接收位置與 MQSeries 佇列</span><span class="sxs-lookup"><span data-stu-id="fdb34-144">Creating the Receive Location and the MQSeries Queue</span></span>  
  <span data-ttu-id="fdb34-145">此程序會建立傳送埠和接收位置，以傳送訊息至 MQSeries 以及接收來自 MQSeries 的相互關聯訊息。</span><span class="sxs-lookup"><span data-stu-id="fdb34-145">This procedure creates the send port and receive location to send the message to and receive the correlation message from MQSeries.</span></span> <span data-ttu-id="fdb34-146">如果您還沒有建立 MQSeries 佇列，則在建立接收位置時，也會建立 MQSeries 佇列。</span><span class="sxs-lookup"><span data-stu-id="fdb34-146">The MQSeries queue will also be created when you create the receive location if not already created.</span></span>  
@@ -104,7 +105,7 @@ ms.lasthandoff: 11/28/2017
   
 10. <span data-ttu-id="fdb34-157">按一下**設定**。</span><span class="sxs-lookup"><span data-stu-id="fdb34-157">Click **Configure**.</span></span>  
   
-11. <span data-ttu-id="fdb34-158">在**MQSeries 傳輸屬性**對話方塊中，於**輪詢間隔**方塊中，輸入**"10"**。</span><span class="sxs-lookup"><span data-stu-id="fdb34-158">In the **MQSeries Transport Properties** dialog box, in the **Polling Interval** box, type **"10"**.</span></span>  
+11. <span data-ttu-id="fdb34-158">在**MQSeries 傳輸屬性**對話方塊中，於**輪詢間隔**方塊中，輸入 **"10"**。</span><span class="sxs-lookup"><span data-stu-id="fdb34-158">In the **MQSeries Transport Properties** dialog box, in the **Polling Interval** box, type **"10"**.</span></span>  
   
 12. <span data-ttu-id="fdb34-159">在**佇列定義**方塊中，按一下**省略符號 （...）**  按鈕。</span><span class="sxs-lookup"><span data-stu-id="fdb34-159">In the **Queue Definition** box, click the **ellipsis (…)** button.</span></span>  
   
@@ -152,7 +153,7 @@ ms.lasthandoff: 11/28/2017
   
 1.  <span data-ttu-id="fdb34-181">在 BizTalk Server 管理主控台中，展開 **協調流程**資料夾。</span><span class="sxs-lookup"><span data-stu-id="fdb34-181">In the BizTalk Server Administration console, expand the **Orchestrations** folder.</span></span>  
   
-2.  <span data-ttu-id="fdb34-182">按兩下**[orderedsampleorchestration]**協調流程，然後再按一下**繫結**。</span><span class="sxs-lookup"><span data-stu-id="fdb34-182">Double-click the **OrderedSampleOrchestration** orchestration, and then click  **Bindings**.</span></span>  
+2.  <span data-ttu-id="fdb34-182">按兩下 **[orderedsampleorchestration]** 協調流程，然後再按一下**繫結**。</span><span class="sxs-lookup"><span data-stu-id="fdb34-182">Double-click the **OrderedSampleOrchestration** orchestration, and then click  **Bindings**.</span></span>  
   
 3.  <span data-ttu-id="fdb34-183">將協調流程連接埠繫結至下列傳送埠和接收位置：</span><span class="sxs-lookup"><span data-stu-id="fdb34-183">Bind the orchestration ports to the following send ports and receive locations:</span></span>  
   

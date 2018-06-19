@@ -1,14 +1,14 @@
 ---
-title: "逐步解說： 將規則新增至原則 |Microsoft 文件"
-ms.custom: 
+title: 逐步解說： 將規則新增至原則 |Microsoft 文件
+ms.custom: ''
 ms.date: 2016-04-05
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b2a682c0-a5d7-4550-924d-be9fa29b84d2
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975700"
 ---
 # <a name="walkthrough-adding-a-rule-to-the-policy"></a><span data-ttu-id="27e7a-102">逐步解說： 將規則新增原則</span><span class="sxs-lookup"><span data-stu-id="27e7a-102">Walkthrough: Adding a Rule to the Policy</span></span>
 <span data-ttu-id="27e7a-103">此逐步解說提供逐步程序加入名為的規則**DeniedRule**至**ProcessPurchaseOrder**原則。</span><span class="sxs-lookup"><span data-stu-id="27e7a-103">This walkthrough provides step-by-step procedures for adding a rule named **DeniedRule** to the **ProcessPurchaseOrder** policy.</span></span>  
@@ -44,7 +45,7 @@ ms.lasthandoff: 11/28/2017
   
 3.  <span data-ttu-id="27e7a-122">以滑鼠右鍵按一下**ProcessPurchaseOrder**，然後按一下 **貼上原則版本**。</span><span class="sxs-lookup"><span data-stu-id="27e7a-122">Right-click **ProcessPurchaseOrder**, and then click **Paste Policy Version**.</span></span>  
   
-4.  <span data-ttu-id="27e7a-123">以滑鼠右鍵按一下**（未儲存） 1.2 版**，按一下 **新增規則**，然後將變更之規則的名稱**DeniedRule**。</span><span class="sxs-lookup"><span data-stu-id="27e7a-123">Right-click **Version 1.2(not saved)**, click **Add New Rule**, and then change the name of the rule to **DeniedRule**.</span></span>  
+4.  <span data-ttu-id="27e7a-123">以滑鼠右鍵按一下 **（未儲存） 1.2 版**，按一下 **新增規則**，然後將變更之規則的名稱**DeniedRule**。</span><span class="sxs-lookup"><span data-stu-id="27e7a-123">Right-click **Version 1.2(not saved)**, click **Add New Rule**, and then change the name of the rule to **DeniedRule**.</span></span>  
   
 5.  <span data-ttu-id="27e7a-124">如果您忘了要變更之規則的名稱**DeniedRule**在步驟 4 中，按一下**Rule1**，並將名稱變更為**DeniedRule**屬性 視窗中。</span><span class="sxs-lookup"><span data-stu-id="27e7a-124">If you forgot to change the name of the rule to **DeniedRule** in step 4, click **Rule1**, and change the name to **DeniedRule** in the Properties window.</span></span>  
   
@@ -60,7 +61,7 @@ ms.lasthandoff: 11/28/2017
   
 11. <span data-ttu-id="27e7a-130">按一下**\<空字串\>** ，然後輸入**拒絕**。</span><span class="sxs-lookup"><span data-stu-id="27e7a-130">Click **\<empty string\>** and then type **Denied**.</span></span>  
   
-12. <span data-ttu-id="27e7a-131">以滑鼠右鍵按一下**（未儲存） 1.2 版**，然後按一下 **儲存**。</span><span class="sxs-lookup"><span data-stu-id="27e7a-131">Right-click **Version 1.2 (not saved)**, and then click **Save**.</span></span>  
+12. <span data-ttu-id="27e7a-131">以滑鼠右鍵按一下 **（未儲存） 1.2 版**，然後按一下 **儲存**。</span><span class="sxs-lookup"><span data-stu-id="27e7a-131">Right-click **Version 1.2 (not saved)**, and then click **Save**.</span></span>  
   
 13. <span data-ttu-id="27e7a-132">以滑鼠右鍵按一下**1.2 版**，然後按一下 **發行**。</span><span class="sxs-lookup"><span data-stu-id="27e7a-132">Right-click **Version 1.2**, and then click **Publish**.</span></span>  
   

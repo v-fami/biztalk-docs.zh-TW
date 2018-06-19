@@ -1,15 +1,15 @@
 ---
-title: "設定 BizTalk 記錄傳送的其他資料庫 |Microsoft 文件"
-description: "加入自訂的資料庫備份 BizTalk Server 」 工作，以及 BizTalk Server 中的記錄傳送"
-ms.custom: 
+title: 設定 BizTalk 記錄傳送的其他資料庫 |Microsoft 文件
+description: 加入自訂的資料庫備份 BizTalk Server 」 工作，以及 BizTalk Server 中的記錄傳送
+ms.custom: ''
 ms.date: 11/01/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2fc2ae67-5cb9-4d53-9bf7-c88f84914960
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976532"
 ---
 # <a name="configuring-biztalk-server-log-shipping-for-additional-databases"></a><span data-ttu-id="a1fe5-103">設定 BizTalk Server 記錄傳送的其他資料庫</span><span class="sxs-lookup"><span data-stu-id="a1fe5-103">Configuring BizTalk Server Log Shipping for Additional Databases</span></span>
 

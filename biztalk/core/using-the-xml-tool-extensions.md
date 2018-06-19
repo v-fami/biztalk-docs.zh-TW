@@ -1,14 +1,14 @@
 ---
-title: "使用 XML 工具延伸模組 |Microsoft 文件"
-ms.custom: 
+title: 使用 XML 工具延伸模組 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5613bf15-6c0a-4a82-b200-24d0801d7ece
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006311"
 ---
 # <a name="using-the-xml-tool-extensions"></a><span data-ttu-id="cd2ed-102">使用 XML 工具延伸模組</span><span class="sxs-lookup"><span data-stu-id="cd2ed-102">Using the XML Tool Extensions</span></span>
 <span data-ttu-id="cd2ed-103">XML 工具延伸[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]可讓您在結構描述、 對應、 執行工作和訊息執行個體。</span><span class="sxs-lookup"><span data-stu-id="cd2ed-103">The XML Tool extensions to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] enable you to perform tasks on schemas, maps, and message instances.</span></span> <span data-ttu-id="cd2ed-104">您可以在 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 環境中的設計階段使用這些延伸模組。</span><span class="sxs-lookup"><span data-stu-id="cd2ed-104">You use these extensions at design time in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] environment.</span></span> <span data-ttu-id="cd2ed-105">您可以執行的工作如下：</span><span class="sxs-lookup"><span data-stu-id="cd2ed-105">The tasks you can perform are:</span></span>  

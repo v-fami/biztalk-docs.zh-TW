@@ -1,11 +1,11 @@
 ---
-title: "如何從 BizTalk 群組刪除 BizTalk 應用程式 |Microsoft 文件"
-ms.custom: 
+title: 如何從 BizTalk 群組刪除 BizTalk 應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - undeploying, applications
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - managing [applications], groups
 - groups, applications
 ms.assetid: 968a6436-ae1a-4f85-bb44-e704826a0197
-caps.latest.revision: "28"
+caps.latest.revision: 28
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250102"
 ---
 # <a name="how-to-delete-a-biztalk-application-from-the-biztalk-group"></a><span data-ttu-id="a3d0b-102">如何從 BizTalk 群組刪除 BizTalk 應用程式</span><span class="sxs-lookup"><span data-stu-id="a3d0b-102">How to Delete a BizTalk Application from the BizTalk Group</span></span>
 <span data-ttu-id="a3d0b-103">您可以從 BizTalk 群組刪除應用程式，</span><span class="sxs-lookup"><span data-stu-id="a3d0b-103">You can delete an application from the BizTalk group.</span></span> <span data-ttu-id="a3d0b-104">這樣會從此群組的 BizTalk 資料庫中移除它的所有資料，而此應用程式將不再顯示於 BizTalk Server 管理主控台中；</span><span class="sxs-lookup"><span data-stu-id="a3d0b-104">This removes all of its data from the BizTalk databases for the group, and the application no longer displays in the BizTalk Server Administration console.</span></span> <span data-ttu-id="a3d0b-105">但是，這並不會解除安裝應用程式。</span><span class="sxs-lookup"><span data-stu-id="a3d0b-105">It does not uninstall the application.</span></span>  

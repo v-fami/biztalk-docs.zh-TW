@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269718"
 ---
 # <a name="scenario-1-sizing-the-tracking-database--for-simple-biztalk-messages"></a><span data-ttu-id="25671-102">實例 1：針對範例 BizTalk 訊息調整追蹤資料庫的大小</span><span class="sxs-lookup"><span data-stu-id="25671-102">Scenario 1: Sizing the Tracking Database  for Simple BizTalk Messages</span></span>
 <span data-ttu-id="25671-103">在下圖中，簡易 BizTalk Server 訊息不需經過任何訊息轉換即可在 BizTalk Server 傳入和傳出。</span><span class="sxs-lookup"><span data-stu-id="25671-103">In the following figure, a simple BizTalk Server message passes in and out of BizTalk Server without undergoing any message transformation.</span></span>  

@@ -1,18 +1,18 @@
 ---
-title: "如何建立或新增成品 |Microsoft 文件"
-ms.custom: 
+title: 如何建立或新增成品 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, artifacts
 - artifacts, creating
 - applications, artifacts
 ms.assetid: fea7487c-b5fa-457f-8c74-a20ea3a6df85
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249486"
 ---
 # <a name="how-to-create-or-add-an-artifact"></a><span data-ttu-id="57aa5-102">如何建立或新增成品</span><span class="sxs-lookup"><span data-stu-id="57aa5-102">How to Create or Add an Artifact</span></span>
 <span data-ttu-id="57aa5-103">在建立 BizTalk 應用程式之後，可以從檔案系統新增以檔案為基礎的成品 (例如，BizTalk 組件、.NET 組件、指令碼和憑證)，或從「規則引擎」資料庫新增原則。</span><span class="sxs-lookup"><span data-stu-id="57aa5-103">After you create a BizTalk application, you can add file-based artifacts (for example BizTalk assemblies, .NET assemblies, scripts, and certificates) from the file system or add policies from the Rule Engine database.</span></span> <span data-ttu-id="57aa5-104">也可以在應用程式內建立傳送埠、傳送埠群組、接收位置和接收埠。</span><span class="sxs-lookup"><span data-stu-id="57aa5-104">You can also create send ports, send port groups, receive locations, and receive ports within the application.</span></span> <span data-ttu-id="57aa5-105">建立或新增成品會將成品新增至 BizTalk 管理資料庫。</span><span class="sxs-lookup"><span data-stu-id="57aa5-105">Creating or adding artifacts adds them to the BizTalk Management database.</span></span> <span data-ttu-id="57aa5-106">然後您可以部署應用程式和其成品當做單一實體中所述[部署 BizTalk 應用程式](../core/deploying-biztalk-applications.md)。</span><span class="sxs-lookup"><span data-stu-id="57aa5-106">You can then deploy the application and its artifacts as a single entity, as described in [Deploying BizTalk Applications](../core/deploying-biztalk-applications.md).</span></span>  

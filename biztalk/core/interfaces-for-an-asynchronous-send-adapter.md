@@ -1,14 +1,14 @@
 ---
-title: "傳送配接器介面的非同步 |Microsoft 文件"
-ms.custom: 
+title: 傳送配接器介面的非同步 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6a214716-8f39-400d-a111-ba1b92a284b4
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257758"
 ---
 # <a name="interfaces-for-an-asynchronous-send-adapter"></a><span data-ttu-id="b74ed-102">非同步傳送配接器介面</span><span class="sxs-lookup"><span data-stu-id="b74ed-102">Interfaces for an Asynchronous Send Adapter</span></span>
 <span data-ttu-id="b74ed-103">每次傳送一個訊息的配接器可以同步或非同步地傳送訊息。</span><span class="sxs-lookup"><span data-stu-id="b74ed-103">Adapters sending messages one at a time may send messages either synchronously or asynchronously.</span></span> <span data-ttu-id="b74ed-104">配接器在執行傳送作業期間使用個別執行緒，而不封鎖傳輸 Proxy 執行緒時，它會非同步傳送訊息。</span><span class="sxs-lookup"><span data-stu-id="b74ed-104">An adapter sends messages asynchronously when it does not block the transport proxy thread but rather uses a separate thread while performing the send operations.</span></span> <span data-ttu-id="b74ed-105">為了能夠非同步傳送訊息，配接器必須實作下列介面：</span><span class="sxs-lookup"><span data-stu-id="b74ed-105">To be able to send messages asynchronously, an adapter needs to implement the following interfaces:</span></span>  

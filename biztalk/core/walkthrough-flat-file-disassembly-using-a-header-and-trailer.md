@@ -9,7 +9,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 715af9cc-d718-483d-b593-64462aa5a58b
-caps.latest.revision: ''
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25976052"
 ---
 # <a name="walkthrough-flat-file-disassembly-using-a-header-and-trailer"></a><span data-ttu-id="3620e-103">逐步解說：使用標頭和結尾進行一般檔案解譯</span><span class="sxs-lookup"><span data-stu-id="3620e-103">Walkthrough: Flat File Disassembly Using a Header and Trailer</span></span>
 
@@ -128,7 +129,7 @@ ms.lasthandoff: 03/28/2018
   
      <span data-ttu-id="3620e-187">當您滿意，請按一下  **完成** 來完成精靈。</span><span class="sxs-lookup"><span data-stu-id="3620e-187">When you are satisfied, click **Finish** to complete the wizard.</span></span>  
   
-10. <span data-ttu-id="3620e-188">按一下**\<結構描述\>**標頭結構描述 窗格中的節點。</span><span class="sxs-lookup"><span data-stu-id="3620e-188">Click the **\<Schema\>** node in the Header schema pane.</span></span> <span data-ttu-id="3620e-189">在 [屬性] 窗格中，變更 **Element FormDefault** 至 **Qualified**。</span><span class="sxs-lookup"><span data-stu-id="3620e-189">In the Properties pane, change **Element FormDefault** to **Qualified**.</span></span> <span data-ttu-id="3620e-190">這表示區域宣告項目必須由執行個體文件中的目標命名空間限定。</span><span class="sxs-lookup"><span data-stu-id="3620e-190">This indicates that locally declared elements must be qualified by the target namespace in an instance document.</span></span>  
+10. <span data-ttu-id="3620e-188">按一下**\<結構描述\>** 標頭結構描述 窗格中的節點。</span><span class="sxs-lookup"><span data-stu-id="3620e-188">Click the **\<Schema\>** node in the Header schema pane.</span></span> <span data-ttu-id="3620e-189">在 [屬性] 窗格中，變更 **Element FormDefault** 至 **Qualified**。</span><span class="sxs-lookup"><span data-stu-id="3620e-189">In the Properties pane, change **Element FormDefault** to **Qualified**.</span></span> <span data-ttu-id="3620e-190">這表示區域宣告項目必須由執行個體文件中的目標命名空間限定。</span><span class="sxs-lookup"><span data-stu-id="3620e-190">This indicates that locally declared elements must be qualified by the target namespace in an instance document.</span></span>  
   
 ##### <a name="use-the-flat-file-schema-wizard-to-create-the-trailer-schema"></a><span data-ttu-id="3620e-191">使用一般檔案結構描述精靈建立結尾結構描述</span><span class="sxs-lookup"><span data-stu-id="3620e-191">Use the Flat File Schema Wizard to create the trailer schema</span></span>  
   
@@ -165,7 +166,7 @@ ms.lasthandoff: 03/28/2018
   
      <span data-ttu-id="3620e-214">當您滿意，請按一下  **完成** 來完成精靈。</span><span class="sxs-lookup"><span data-stu-id="3620e-214">When you are satisfied, click **Finish** to complete the wizard.</span></span>  
   
-10. <span data-ttu-id="3620e-215">按一下**\<結構描述\>**結尾結構描述 窗格中的節點。</span><span class="sxs-lookup"><span data-stu-id="3620e-215">Click the **\<Schema\>** node in the Trailer schema pane.</span></span> <span data-ttu-id="3620e-216">在 [屬性] 窗格中，變更 **elementFormDefault** 至 **Qualified**。</span><span class="sxs-lookup"><span data-stu-id="3620e-216">In the Properties pane, change **elementFormDefault** to **Qualified**.</span></span> <span data-ttu-id="3620e-217">這表示區域宣告項目必須由執行個體文件中的目標命名空間限定。</span><span class="sxs-lookup"><span data-stu-id="3620e-217">This indicates that locally declared elements must be qualified by the target namespace in an instance document.</span></span>  
+10. <span data-ttu-id="3620e-215">按一下**\<結構描述\>** 結尾結構描述 窗格中的節點。</span><span class="sxs-lookup"><span data-stu-id="3620e-215">Click the **\<Schema\>** node in the Trailer schema pane.</span></span> <span data-ttu-id="3620e-216">在 [屬性] 窗格中，變更 **elementFormDefault** 至 **Qualified**。</span><span class="sxs-lookup"><span data-stu-id="3620e-216">In the Properties pane, change **elementFormDefault** to **Qualified**.</span></span> <span data-ttu-id="3620e-217">這表示區域宣告項目必須由執行個體文件中的目標命名空間限定。</span><span class="sxs-lookup"><span data-stu-id="3620e-217">This indicates that locally declared elements must be qualified by the target namespace in an instance document.</span></span>  
   
 ##### <a name="use-the-flat-file-schema-wizard-to-create-the-body-schema"></a><span data-ttu-id="3620e-218">使用一般檔案結構描述精靈建立內文結構描述</span><span class="sxs-lookup"><span data-stu-id="3620e-218">Use the Flat File Schema Wizard to create the body schema</span></span>  
   

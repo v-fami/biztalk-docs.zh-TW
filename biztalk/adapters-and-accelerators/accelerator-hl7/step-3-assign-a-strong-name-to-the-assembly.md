@@ -1,18 +1,18 @@
 ---
-title: "步驟 3： 指派強式名稱組件 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3： 指派強式名稱組件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - assemblies
 - message enrichment tutorial, strong name assemblies
 - strong name assemblies
 ms.assetid: 8709e4e1-b428-42af-ba3c-08225c17a9eb
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "26004951"
 ---
 # <a name="step-3-assign-a-strong-name-to-the-assembly"></a><span data-ttu-id="28c8b-102">步驟 3： 指派強式名稱組件</span><span class="sxs-lookup"><span data-stu-id="28c8b-102">Step 3: Assign a Strong Name to the Assembly</span></span>
 <span data-ttu-id="28c8b-103">在此步驟中，建立並指派強式名稱[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]組件。</span><span class="sxs-lookup"><span data-stu-id="28c8b-103">In this step, you create and assign a strong name for the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] assembly.</span></span> <span data-ttu-id="28c8b-104">強式名稱組件提供數個安全性優點，才能部署您的專案在全域組件快取 (GAC) 中。</span><span class="sxs-lookup"><span data-stu-id="28c8b-104">A strong-named assembly provides several security benefits and is required in order to deploy your project in the global assembly cache (GAC).</span></span> <span data-ttu-id="28c8b-105">強式名稱可保證組件的唯一性，藉由指派數位簽章和唯一的索引鍵組合。</span><span class="sxs-lookup"><span data-stu-id="28c8b-105">A strong name guarantees the uniqueness of the assembly by assigning a digital signature and a unique key pair.</span></span> <span data-ttu-id="28c8b-106">這也會保護方法是確保沒有人可以產生後續版本的組件的組件的歷程。</span><span class="sxs-lookup"><span data-stu-id="28c8b-106">This also protects the lineage of the assembly by ensuring that no one can generate a subsequent version of the assembly.</span></span> <span data-ttu-id="28c8b-107">最後，強式名稱提供強式的完整性檢查，以保證組件的內容有不會變更建置它之後。</span><span class="sxs-lookup"><span data-stu-id="28c8b-107">Lastly, a strong name provides a strong integrity check to guarantee that the contents of the assembly have not changed since you built it.</span></span>  

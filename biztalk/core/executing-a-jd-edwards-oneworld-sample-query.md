@@ -1,14 +1,14 @@
 ---
-title: "執行 JD Edwards OneWorld 範例查詢 |Microsoft 文件"
-ms.custom: 
+title: 執行 JD Edwards OneWorld 範例查詢 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b060d383-a2df-472f-90cc-e79078b0bcfd
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975765"
 ---
 # <a name="execute-a-jd-edwards-oneworld-sample-query"></a><span data-ttu-id="ef5c9-102">執行 JD Edwards OneWorld 範例查詢</span><span class="sxs-lookup"><span data-stu-id="ef5c9-102">Execute a JD Edwards OneWorld Sample Query</span></span>
 <span data-ttu-id="ef5c9-103">JD Edwards OneWorld (JDEOW) 系統是否可從[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]使用 JD Edwards OneWorld 配接器的系統。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-103">The JD Edwards OneWorld (JDEOW) system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] system by using the JD Edwards OneWorld adapter.</span></span> <span data-ttu-id="ef5c9-104">此配接器隨附於[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-104">This adapter is included with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>
@@ -105,7 +106,7 @@ ms.lasthandoff: 11/28/2017
   
          `C:\JDEOWJars\BTSLIBInterop.jar; C:\JDEOWJars\Connector.jar; C:\JDEOWJars\Kernel.jar;C:\Program Files\Microsoft BizTalk Adapters for Enterprise Applications\J.D. Edwards OneWorld®\Classes\JDEJAccess.jar`  
   
-    5.  <span data-ttu-id="ef5c9-164">**密碼：**使用下拉式清單，然後輸入 JD Edwards OneWorld 密碼。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-164">**Password:** Use the drop-down list and then enter your JD Edwards OneWorld password.</span></span>  
+    5.  <span data-ttu-id="ef5c9-164">**密碼：** 使用下拉式清單，然後輸入 JD Edwards OneWorld 密碼。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-164">**Password:** Use the drop-down list and then enter your JD Edwards OneWorld password.</span></span>  
   
     6.  <span data-ttu-id="ef5c9-165">**連接埠：**  `6009`</span><span class="sxs-lookup"><span data-stu-id="ef5c9-165">**Port:**  `6009`</span></span>  
   
@@ -131,7 +132,7 @@ ms.lasthandoff: 11/28/2017
   
      <span data-ttu-id="ef5c9-184">![](../core/media/jdeow-callbsfn.gif "JDEOW_CALLBSFN")</span><span class="sxs-lookup"><span data-stu-id="ef5c9-184">![](../core/media/jdeow-callbsfn.gif "JDEOW_CALLBSFN")</span></span>  
   
-5.  <span data-ttu-id="ef5c9-185">展開**[callbsfn]**向下捲動至**N0100041-Address Book MBF**。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-185">Expand **CALLBSFN** and scroll down to **N0100041 - Address Book MBF**.</span></span> <span data-ttu-id="ef5c9-186">選取 N0100041，然後按一下**完成**。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-186">Select N0100041 and then click **Finish**.</span></span>  
+5.  <span data-ttu-id="ef5c9-185">展開 **[callbsfn]** 向下捲動至**N0100041-Address Book MBF**。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-185">Expand **CALLBSFN** and scroll down to **N0100041 - Address Book MBF**.</span></span> <span data-ttu-id="ef5c9-186">選取 N0100041，然後按一下**完成**。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-186">Select N0100041 and then click **Finish**.</span></span>  
   
 6.  <span data-ttu-id="ef5c9-187">在 [方案總管] 中，沒有新的 BizTalk 協調流程含有兩個新的相關聯的結構描述檔案。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-187">In Solution Explorer, there is a new BizTalk orchestration with two new associated schema files.</span></span> <span data-ttu-id="ef5c9-188">這些檔案是由 [新增配接器精靈] 所建立。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-188">These files are created by the Add Adapter Wizard.</span></span> <span data-ttu-id="ef5c9-189">按兩下 [BizTalk Orchestration.odx]  檔案開啟協調流程。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-189">Double-click the **BizTalk Orchestration.odx** file to open the orchestration.</span></span>  
   
@@ -231,7 +232,7 @@ ms.lasthandoff: 11/28/2017
   
      <span data-ttu-id="ef5c9-258">![](../core/media/jdeow-orchestration-multipartmessages.gif "JDEOW_Orchestration_MultiPartMessages")</span><span class="sxs-lookup"><span data-stu-id="ef5c9-258">![](../core/media/jdeow-orchestration-multipartmessages.gif "JDEOW_Orchestration_MultiPartMessages")</span></span>  
   
-5.  <span data-ttu-id="ef5c9-259">連接**[jde_filein]**埠連接到**GetFileReceive**元件。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-259">Connect the **JDE_FileIn** port to the **GetFileReceive** component.</span></span>  
+5.  <span data-ttu-id="ef5c9-259">連接 **[jde_filein]** 埠連接到**GetFileReceive**元件。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-259">Connect the **JDE_FileIn** port to the **GetFileReceive** component.</span></span>  
   
 6.  <span data-ttu-id="ef5c9-260">連接**JDE_FileOut**埠連接到**FileToDiskReceive**元件。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-260">Connect the **JDE_FileOut** port to the **FileToDiskReceive** component.</span></span>  
   
@@ -239,11 +240,11 @@ ms.lasthandoff: 11/28/2017
   
 8.  <span data-ttu-id="ef5c9-263">反白顯示**SendToJDEOWSend**元件並設定其**訊息**屬性**MsgToJDEOW**。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-263">Highlight the **SendToJDEOWSend** component and set its **Message** property to **MsgToJDEOW**.</span></span>  
   
-9. <span data-ttu-id="ef5c9-264">反白顯示**JDEOW_RespReceive**元件並設定其**訊息**屬性**[jdeow_resp]**。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-264">Highlight the **JDEOW_RespReceive** component and set its **Message** property to **JDEOW_Resp**.</span></span>  
+9. <span data-ttu-id="ef5c9-264">反白顯示**JDEOW_RespReceive**元件並設定其**訊息**屬性 **[jdeow_resp]**。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-264">Highlight the **JDEOW_RespReceive** component and set its **Message** property to **JDEOW_Resp**.</span></span>  
   
-10. <span data-ttu-id="ef5c9-265">連接**[sendtojdeow]**至**要求**部分**JDE_OW_Port**連接埠。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-265">Connect **SendToJDEOW** to the **Request** portion of the **JDE_OW_Port** port.</span></span>  
+10. <span data-ttu-id="ef5c9-265">連接 **[sendtojdeow]** 至**要求**部分**JDE_OW_Port**連接埠。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-265">Connect **SendToJDEOW** to the **Request** portion of the **JDE_OW_Port** port.</span></span>  
   
-11. <span data-ttu-id="ef5c9-266">連接**[jdeow_resp]**至**回應**部分**JDE_OW_Port**連接埠。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-266">Connect **JDEOW_Resp** to the **Response** portion of the **JDE_OW_Port** port.</span></span>  
+11. <span data-ttu-id="ef5c9-266">連接 **[jdeow_resp]** 至**回應**部分**JDE_OW_Port**連接埠。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-266">Connect **JDEOW_Resp** to the **Response** portion of the **JDE_OW_Port** port.</span></span>  
   
      <span data-ttu-id="ef5c9-267">![](../core/media/jdeow-portsurface-connectcomponentstoports.gif "JDEOW_PortSurface_ConnectComponentsToPorts")</span><span class="sxs-lookup"><span data-stu-id="ef5c9-267">![](../core/media/jdeow-portsurface-connectcomponentstoports.gif "JDEOW_PortSurface_ConnectComponentsToPorts")</span></span>  
   
@@ -256,7 +257,7 @@ ms.lasthandoff: 11/28/2017
   
      <span data-ttu-id="ef5c9-273">**sn-k [labs.snk]**</span><span class="sxs-lookup"><span data-stu-id="ef5c9-273">**sn -k labs.snk**</span></span>  
   
-3.  <span data-ttu-id="ef5c9-274">在 [方案總管] 中，以滑鼠右鍵按一下**[jd_ow_test]**專案，然後再按一下**屬性**啟動專案的專案設計工具。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-274">In Solution Explorer, right-click the **JD_OW_Test** project, and then click **Properties** to launch the Project Designer for the project.</span></span>  
+3.  <span data-ttu-id="ef5c9-274">在 [方案總管] 中，以滑鼠右鍵按一下 **[jd_ow_test]** 專案，然後再按一下**屬性**啟動專案的專案設計工具。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-274">In Solution Explorer, right-click the **JD_OW_Test** project, and then click **Properties** to launch the Project Designer for the project.</span></span>  
   
 4.  <span data-ttu-id="ef5c9-275">按一下 [ **簽署** ] 索引標籤。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-275">Click the **Signing** tab.</span></span>  
   
@@ -272,7 +273,7 @@ ms.lasthandoff: 11/28/2017
   
      <span data-ttu-id="ef5c9-281">![](../core/media/jdeow-buildcompleteoutput.gif "JDEOW_BuildCompleteOutput")</span><span class="sxs-lookup"><span data-stu-id="ef5c9-281">![](../core/media/jdeow-buildcompleteoutput.gif "JDEOW_BuildCompleteOutput")</span></span>  
   
-10. <span data-ttu-id="ef5c9-282">成功完成建置後，以滑鼠右鍵按一下**[XX_JD Edwards oneworldquery]**專案，然後再按一下**部署**。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-282">After the build completes successfully, right-click the **XX_JD Edwards OneWorldQuery** project, and then click **Deploy**.</span></span> <span data-ttu-id="ef5c9-283">在輸出視窗中會顯示下列輸出：</span><span class="sxs-lookup"><span data-stu-id="ef5c9-283">In the output window the following output will be displayed:</span></span>  
+10. <span data-ttu-id="ef5c9-282">成功完成建置後，以滑鼠右鍵按一下 **[XX_JD Edwards oneworldquery]** 專案，然後再按一下**部署**。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-282">After the build completes successfully, right-click the **XX_JD Edwards OneWorldQuery** project, and then click **Deploy**.</span></span> <span data-ttu-id="ef5c9-283">在輸出視窗中會顯示下列輸出：</span><span class="sxs-lookup"><span data-stu-id="ef5c9-283">In the output window the following output will be displayed:</span></span>  
   
      <span data-ttu-id="ef5c9-284">![](../core/media/jdeow-deployoutput.gif "JDEOW_DeployOutput")</span><span class="sxs-lookup"><span data-stu-id="ef5c9-284">![](../core/media/jdeow-deployoutput.gif "JDEOW_DeployOutput")</span></span>  
   
@@ -281,13 +282,13 @@ ms.lasthandoff: 11/28/2017
   
 #### <a name="generate-the-xml-file-for-the-query"></a><span data-ttu-id="ef5c9-289">產生查詢的 XML 檔案</span><span class="sxs-lookup"><span data-stu-id="ef5c9-289">Generate the XML file for the query</span></span>  
   
-1.  <span data-ttu-id="ef5c9-290">在 [方案總管] 中，按兩下**[n0100041service_n0100041.xsd]**開啟檔案。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-290">In Solution Explorer, double-click **N0100041Service_N0100041.xsd** to open the file.</span></span>  
+1.  <span data-ttu-id="ef5c9-290">在 [方案總管] 中，按兩下 **[n0100041service_n0100041.xsd]** 開啟檔案。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-290">In Solution Explorer, double-click **N0100041Service_N0100041.xsd** to open the file.</span></span>  
   
 2.  <span data-ttu-id="ef5c9-291">以滑鼠右鍵按一下**n0100041service_n0100041.xsd** ，然後按一下 **屬性**。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-291">Right-click **N0100041Service_N0100041.xsd** and then click **Properties**.</span></span> <span data-ttu-id="ef5c9-292">針對 **輸出執行個體檔案名稱** 輸入範例 XML 的下列路徑和檔案名稱：</span><span class="sxs-lookup"><span data-stu-id="ef5c9-292">For the **Output Instance Filename** enter the following path and file name for the sample XML:</span></span>  
   
      `C:\LABS\JDE_OW_TEST\SAMPLE.XML`  
   
-3.  <span data-ttu-id="ef5c9-293">按一下 **[確定].**</span><span class="sxs-lookup"><span data-stu-id="ef5c9-293">Click **OK.**</span></span> <span data-ttu-id="ef5c9-294">在 [屬性] 視窗中，選取**\<結構描述\>**並設定**根參考：**至`AddressBookMasterMBF`。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-294">In the Properties window, select **\<Schema\>** and set **Root Reference:** to `AddressBookMasterMBF`.</span></span> <span data-ttu-id="ef5c9-295">這會導致產生的 XML 只包含**查詢**xml。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-295">This will cause the generated XML to include only the **Query** xml.</span></span>  
+3.  <span data-ttu-id="ef5c9-293">按一下 **[確定].**</span><span class="sxs-lookup"><span data-stu-id="ef5c9-293">Click **OK.**</span></span> <span data-ttu-id="ef5c9-294">在 [屬性] 視窗中，選取**\<結構描述\>** 並設定**根參考：** 至`AddressBookMasterMBF`。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-294">In the Properties window, select **\<Schema\>** and set **Root Reference:** to `AddressBookMasterMBF`.</span></span> <span data-ttu-id="ef5c9-295">這會導致產生的 XML 只包含**查詢**xml。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-295">This will cause the generated XML to include only the **Query** xml.</span></span>  
   
      <span data-ttu-id="ef5c9-296">![](../core/media/jdeow-jde-ow-test-msvisualstudio-schemas.gif "JDEOW_JDE_OW_Test_MSVISUALSTUDIO_SCHEMAS")</span><span class="sxs-lookup"><span data-stu-id="ef5c9-296">![](../core/media/jdeow-jde-ow-test-msvisualstudio-schemas.gif "JDEOW_JDE_OW_Test_MSVISUALSTUDIO_SCHEMAS")</span></span>  
   
@@ -327,7 +328,7 @@ ms.lasthandoff: 11/28/2017
   
      <span data-ttu-id="ef5c9-321">![](../core/media/jdeow-file-transport-properties-filein.gif "JDEOW_File_Transport_Properties_FileIn")</span><span class="sxs-lookup"><span data-stu-id="ef5c9-321">![](../core/media/jdeow-file-transport-properties-filein.gif "JDEOW_File_Transport_Properties_FileIn")</span></span>  
   
-9. <span data-ttu-id="ef5c9-322">按一下**\<無\>**如**JDE_OW_Port**下拉式清單中。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-322">Click **\<None\>** for **JDE_OW_Port** in the drop-down list.</span></span>  
+9. <span data-ttu-id="ef5c9-322">按一下**\<無\>** 如**JDE_OW_Port**下拉式清單中。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-322">Click **\<None\>** for **JDE_OW_Port** in the drop-down list.</span></span>  
   
 10. <span data-ttu-id="ef5c9-323">選取**新傳送埠**然後選取或輸入下列值的屬性：</span><span class="sxs-lookup"><span data-stu-id="ef5c9-323">Select **New Send Port** and then select or type the following values for the properties:</span></span>  
   
@@ -351,7 +352,7 @@ ms.lasthandoff: 11/28/2017
   
      `C:JDEOWJarsBTSLIBInterop.jar; C:JDEOWJarsConnector.jar; C:JDEOWJarsKernel.jar;C:Program FilesMicrosoft BizTalk Adapters for Enterprise ApplicationsJ.D. Edwards OneWorld®ClassesJDEJAccess.jar`  
   
-     <span data-ttu-id="ef5c9-333">**密碼：**使用下拉式清單，然後輸入 JD Edwards OneWorld 密碼。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-333">**Password:** Use the drop-down list and then enter your JD Edwards OneWorld password.</span></span>  
+     <span data-ttu-id="ef5c9-333">**密碼：** 使用下拉式清單，然後輸入 JD Edwards OneWorld 密碼。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-333">**Password:** Use the drop-down list and then enter your JD Edwards OneWorld password.</span></span>  
   
      <span data-ttu-id="ef5c9-334">**連接埠：**  `6009`</span><span class="sxs-lookup"><span data-stu-id="ef5c9-334">**Port:**  `6009`</span></span>  
   
@@ -361,7 +362,7 @@ ms.lasthandoff: 11/28/2017
   
 12. <span data-ttu-id="ef5c9-337">按兩下 [確定]  關閉對話方塊。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-337">Click **OK** twice to close the dialog boxes.</span></span>  
   
-13. <span data-ttu-id="ef5c9-338">在 設定 Applicationwindow 中，按一下  **\<無\>**如**JDE_FileOut**下拉式清單中。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-338">In the Configure Applicationwindow, click **\<None\>** for **JDE_FileOut** in the drop-down list.</span></span>  
+13. <span data-ttu-id="ef5c9-338">在 設定 Applicationwindow 中，按一下  **\<無\>** 如**JDE_FileOut**下拉式清單中。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-338">In the Configure Applicationwindow, click **\<None\>** for **JDE_FileOut** in the drop-down list.</span></span>  
   
 14. <span data-ttu-id="ef5c9-339">選取 [新增傳送埠]  ，然後選取或輸入下列屬性值：</span><span class="sxs-lookup"><span data-stu-id="ef5c9-339">Select **New Send Port** and type or select the following values for the properties:</span></span>  
   
@@ -373,7 +374,7 @@ ms.lasthandoff: 11/28/2017
   
      <span data-ttu-id="ef5c9-343">**傳送管線**： **XMLTransmit**</span><span class="sxs-lookup"><span data-stu-id="ef5c9-343">**Send Pipeline**: **XMLTransmit**</span></span>  
   
-15. <span data-ttu-id="ef5c9-344">按一下**設定**和型別`C:\Labs\JDE_OW_Test\FileOut`如**目的地資料夾。**</span><span class="sxs-lookup"><span data-stu-id="ef5c9-344">Click **Configure** and type`C:\Labs\JDE_OW_Test\FileOut` for **Destination Folder.**</span></span> <span data-ttu-id="ef5c9-345">保留**%MessageID%.xml**如**檔案名稱**因為這會產生唯一的檔案，每個訊息。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-345">Keep **%MessageID%.xml** for **File Name** because this results in a unique file for each message.</span></span>  
+15. <span data-ttu-id="ef5c9-344">按一下**設定**和型別`C:\Labs\JDE_OW_Test\FileOut`如**目的地資料夾。**</span><span class="sxs-lookup"><span data-stu-id="ef5c9-344">Click **Configure** and type`C:\Labs\JDE_OW_Test\FileOut` for **Destination Folder.**</span></span> <span data-ttu-id="ef5c9-345">保留 **%MessageID%.xml**如**檔案名稱**因為這會產生唯一的檔案，每個訊息。</span><span class="sxs-lookup"><span data-stu-id="ef5c9-345">Keep **%MessageID%.xml** for **File Name** because this results in a unique file for each message.</span></span>  
   
      <span data-ttu-id="ef5c9-346">![](../core/media/jdeow-file-transport-properties-fileout.gif "JDEOW_File_Transport_Properties_FileOut")</span><span class="sxs-lookup"><span data-stu-id="ef5c9-346">![](../core/media/jdeow-file-transport-properties-fileout.gif "JDEOW_File_Transport_Properties_FileOut")</span></span>  
   

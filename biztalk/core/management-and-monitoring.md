@@ -1,14 +1,14 @@
 ---
-title: "管理和監視 |Microsoft 文件"
-ms.custom: 
+title: 管理和監視 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 92724f79-32bb-40d3-a0af-147aba00d87e
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264462"
 ---
 # <a name="management-and-monitoring"></a><span data-ttu-id="97093-102">管理與監控</span><span class="sxs-lookup"><span data-stu-id="97093-102">Management and Monitoring</span></span>
 <span data-ttu-id="97093-103">在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 引擎上建置的每個應用程式都必須加以管理。</span><span class="sxs-lookup"><span data-stu-id="97093-103">Every application built on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] engine requires management.</span></span> <span data-ttu-id="97093-104">如何安裝新應用程式？</span><span class="sxs-lookup"><span data-stu-id="97093-104">How are new applications installed?</span></span> <span data-ttu-id="97093-105">有什麼可能的組態？</span><span class="sxs-lookup"><span data-stu-id="97093-105">What configurations are possible?</span></span> <span data-ttu-id="97093-106">現在系統內部發生了什麼問題？</span><span class="sxs-lookup"><span data-stu-id="97093-106">What’s happening inside the system right now?</span></span> <span data-ttu-id="97093-107">此部分針對這些工具回答以上問題。</span><span class="sxs-lookup"><span data-stu-id="97093-107">This section looks at the tools provided to answer these questions.</span></span>  

@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 13f55e53-12af-473b-b73f-1c98edadfc28
-caps.latest.revision: ''
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25975244"
 ---
 # <a name="how-to-configure-a-wcf-netmsmq-send-port"></a><span data-ttu-id="4aa88-102">如何設定 WCF-NetMsmq 傳送埠</span><span class="sxs-lookup"><span data-stu-id="4aa88-102">How to Configure a WCF-NetMsmq Send Port</span></span>
 <span data-ttu-id="4aa88-103">您可以透過程式設計方式或使用 BizTalk 管理主控台來設定 WCF-NetMsmq 傳送埠。</span><span class="sxs-lookup"><span data-stu-id="4aa88-103">You can configure a WCF-NetMsmq send port either programmatically or by using the BizTalk Administration console.</span></span>  

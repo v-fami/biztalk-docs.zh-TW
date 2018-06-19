@@ -1,14 +1,14 @@
 ---
-title: "如何比對對應中的結構描述節點 |Microsoft 文件"
-ms.custom: 
+title: 如何比對對應中的結構描述節點 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 584f85d2-6198-4ef3-90d9-a322f1457d9a
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22253934"
 ---
 # <a name="how-to-match-schema-nodes-in-a-map"></a><span data-ttu-id="c173f-102">如何比對對應中的結構描述節點</span><span class="sxs-lookup"><span data-stu-id="c173f-102">How to Match Schema Nodes in a Map</span></span>
 <span data-ttu-id="c173f-103">當來源或目的地結構描述均很複雜時，對應項目會是很困難的工作。</span><span class="sxs-lookup"><span data-stu-id="c173f-103">When the source or destination schemas are complex, it can be difficult to map the elements.</span></span> <span data-ttu-id="c173f-104">BizTalk 對應工具引進**指示符合**功能，可讓您透過建議最佳對應對應複雜的結構描述項目。</span><span class="sxs-lookup"><span data-stu-id="c173f-104">The BizTalk Mapper introduces the **Indicative Match** feature, which enables you to map complex schema elements by suggesting the best possible matches.</span></span> <span data-ttu-id="c173f-105">本主題提供如何執行此作業的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="c173f-105">This topic provides information about how to perform this operation.</span></span>  

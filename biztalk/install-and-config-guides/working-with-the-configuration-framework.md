@@ -1,14 +1,14 @@
 ---
-title: "處理組態架構 |Microsoft 文件"
-ms.custom: 
+title: 處理組態架構 |Microsoft 文件
+ms.custom: ''
 ms.date: 2015-10-28
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 18ec869d-6e81-42f5-9961-29b06e03fa54
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976620"
 ---
 # <a name="working-with-the-configuration-framework"></a><span data-ttu-id="6f01f-102">處理組態架構</span><span class="sxs-lookup"><span data-stu-id="6f01f-102">Working with the Configuration Framework</span></span>
 <span data-ttu-id="6f01f-103">「組態架構」可以讓您在安裝過程中快速輕鬆地變更 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 組態。</span><span class="sxs-lookup"><span data-stu-id="6f01f-103">The Configuration Framework enables you to quickly and easily change Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] configuration at setup.</span></span> <span data-ttu-id="6f01f-104">若搭配使用 Microsoft Windows Installer (MSI)，「組態架構」還可讀取及報告電腦的狀態以及需要採取行動的組態工作。</span><span class="sxs-lookup"><span data-stu-id="6f01f-104">In conjunction with the Microsoft Windows Installer (MSI), the Configuration Framework reads and reports the state of your computer and the configuration tasks requiring action.</span></span>  
@@ -31,7 +32,7 @@ ms.lasthandoff: 11/28/2017
   
 |<span data-ttu-id="6f01f-113">命令列參數</span><span class="sxs-lookup"><span data-stu-id="6f01f-113">Command Line Parameter</span></span>|<span data-ttu-id="6f01f-114">描述</span><span class="sxs-lookup"><span data-stu-id="6f01f-114">Description</span></span>|  
 |----------------------------|-----------------|  
-|<span data-ttu-id="6f01f-115">**/U**</span><span class="sxs-lookup"><span data-stu-id="6f01f-115">**/U**</span></span>|<span data-ttu-id="6f01f-116">取消設定所有功能。</span><span class="sxs-lookup"><span data-stu-id="6f01f-116">Unconfigures all features.</span></span> <span data-ttu-id="6f01f-117">**注意：**取消設定 BizTalk Server 功能之後，才能刪除 BizTalk Server 資料庫。</span><span class="sxs-lookup"><span data-stu-id="6f01f-117">**Note:**  You can delete BizTalk Server databases after you unconfigure BizTalk Server features.</span></span> <span data-ttu-id="6f01f-118">執行此命令之前，請勿刪除 BizTalk Server 資料庫。</span><span class="sxs-lookup"><span data-stu-id="6f01f-118">Do not delete BizTalk Server databases before you run this command.</span></span> <span data-ttu-id="6f01f-119">**注意：**如果您想要在取消設定 BizTalk Server 功能之後刪除 BizTalk Server 資料庫，建議您使用 **net stop winmgmt** 命令，停止可能仍在執行的 Windows Management Instrumentation (WMI) 服務。</span><span class="sxs-lookup"><span data-stu-id="6f01f-119">**Note:**  If you want to delete BizTalk Server databases after you unconfigure BizTalk Server features, we recommend that you use the **net stop winmgmt** command to stop the Windows Management Instrumentation (WMI) service, which may still be running.</span></span>|  
+|<span data-ttu-id="6f01f-115">**/U**</span><span class="sxs-lookup"><span data-stu-id="6f01f-115">**/U**</span></span>|<span data-ttu-id="6f01f-116">取消設定所有功能。</span><span class="sxs-lookup"><span data-stu-id="6f01f-116">Unconfigures all features.</span></span> <span data-ttu-id="6f01f-117">**注意：** 取消設定 BizTalk Server 功能之後，才能刪除 BizTalk Server 資料庫。</span><span class="sxs-lookup"><span data-stu-id="6f01f-117">**Note:**  You can delete BizTalk Server databases after you unconfigure BizTalk Server features.</span></span> <span data-ttu-id="6f01f-118">執行此命令之前，請勿刪除 BizTalk Server 資料庫。</span><span class="sxs-lookup"><span data-stu-id="6f01f-118">Do not delete BizTalk Server databases before you run this command.</span></span> <span data-ttu-id="6f01f-119">**注意：** 如果您想要在取消設定 BizTalk Server 功能之後刪除 BizTalk Server 資料庫，建議您使用 **net stop winmgmt** 命令，停止可能仍在執行的 Windows Management Instrumentation (WMI) 服務。</span><span class="sxs-lookup"><span data-stu-id="6f01f-119">**Note:**  If you want to delete BizTalk Server databases after you unconfigure BizTalk Server features, we recommend that you use the **net stop winmgmt** command to stop the Windows Management Instrumentation (WMI) service, which may still be running.</span></span>|  
 |<span data-ttu-id="6f01f-120">**/S**</span><span class="sxs-lookup"><span data-stu-id="6f01f-120">**/S**</span></span>|<span data-ttu-id="6f01f-121">無訊息組態。</span><span class="sxs-lookup"><span data-stu-id="6f01f-121">Silent configuration.</span></span><br /><br /> <span data-ttu-id="6f01f-122">您也必須將包含要安裝和設定之功能的完整路徑傳送至組態 XML。</span><span class="sxs-lookup"><span data-stu-id="6f01f-122">You must also pass the full path to the configuration XML that contains the features to install and configure.</span></span> <span data-ttu-id="6f01f-123">若未傳遞 **/s**，則會在「使用者介面」(UI) 模式下執行工具。</span><span class="sxs-lookup"><span data-stu-id="6f01f-123">If **/s** is not passed, the tool runs in User Interface (UI) mode.</span></span>|  
 |<span data-ttu-id="6f01f-124">**/L**</span><span class="sxs-lookup"><span data-stu-id="6f01f-124">**/L**</span></span>|<span data-ttu-id="6f01f-125">-   設定記錄檔的完整路徑 (選擇性)。</span><span class="sxs-lookup"><span data-stu-id="6f01f-125">-   Sets the full path to the log file (optional).</span></span>|  
 |<span data-ttu-id="6f01f-126">**/H**</span><span class="sxs-lookup"><span data-stu-id="6f01f-126">**/H**</span></span>|<span data-ttu-id="6f01f-127">-   顯示有效的命令列參數。</span><span class="sxs-lookup"><span data-stu-id="6f01f-127">-   Shows the valid command line parameters.</span></span>|  

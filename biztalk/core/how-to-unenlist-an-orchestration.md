@@ -1,11 +1,11 @@
 ---
-title: "如何取消登錄協調流程 |Microsoft 文件"
-ms.custom: 
+title: 如何取消登錄協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, unenlisting
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - managing [orchestrations], unenlisting
 - unenlisting, orchestrations
 ms.assetid: 038ed7bb-615c-4e4e-a5bb-79de2626de77
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255878"
 ---
 # <a name="how-to-unenlist-an-orchestration"></a><span data-ttu-id="7364e-102">如何取消登錄協調流程</span><span class="sxs-lookup"><span data-stu-id="7364e-102">How to Unenlist an Orchestration</span></span>
 <span data-ttu-id="7364e-103">本主題描述如何使用 BizTalk Server 管理主控台來取消登錄協調流程。</span><span class="sxs-lookup"><span data-stu-id="7364e-103">This topic describes how to unenlist an orchestration by using the BizTalk Server Administration console.</span></span> <span data-ttu-id="7364e-104">取消登錄協調流程會將其從主控件中移除。</span><span class="sxs-lookup"><span data-stu-id="7364e-104">Unenlisting an orchestration removes it from the host.</span></span> <span data-ttu-id="7364e-105">這會移除訂閱，使協調流程不再處理訊息。</span><span class="sxs-lookup"><span data-stu-id="7364e-105">This removes the subscription so that the orchestration no longer processes messages.</span></span> <span data-ttu-id="7364e-106">您必須先取消登錄協調流程才能夠編輯其繫結。</span><span class="sxs-lookup"><span data-stu-id="7364e-106">You must unenlist an orchestration before you can edit its bindings.</span></span>  

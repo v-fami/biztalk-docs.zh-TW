@@ -1,17 +1,17 @@
 ---
-title: "如何設定應用程式 |Microsoft 文件"
-ms.custom: 
+title: 如何設定應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring, applications
 - applications, configuring
 ms.assetid: e1cd1efb-e1ea-4344-8e23-668628d6c5a9
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250278"
 ---
 # <a name="how-to-configure-an-application"></a><span data-ttu-id="e3c15-102">如何設定應用程式</span><span class="sxs-lookup"><span data-stu-id="e3c15-102">How to Configure an Application</span></span>
 <span data-ttu-id="e3c15-103">本主題描述如何使用 BizTalk Server 管理主控台來設定應用程式中的成品，如下所示：</span><span class="sxs-lookup"><span data-stu-id="e3c15-103">This topic describes how to use the BizTalk Server Administration console to configure the artifacts in an application, as follows:</span></span>  

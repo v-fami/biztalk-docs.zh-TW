@@ -1,14 +1,14 @@
 ---
-title: "具現化，並初始化傳送配接器 |Microsoft 文件"
-ms.custom: 
+title: 具現化，並初始化傳送配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f10e6507-3351-4173-95f5-48546ca5f5c4
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257662"
 ---
 # <a name="instantiating-and-initializing-a-send-adapter"></a><span data-ttu-id="8b9e9-102">產生並初始化傳送配接器</span><span class="sxs-lookup"><span data-stu-id="8b9e9-102">Instantiating and Initializing a Send Adapter</span></span>
 <span data-ttu-id="8b9e9-103">根據預設，傳送配接器是在第一個訊息傳遞給它們時才會產生，這項程序稱為「延遲建立」。</span><span class="sxs-lookup"><span data-stu-id="8b9e9-103">By default, send adapters are not instantiated until the first message is delivered to them, a process known as "lazy creation."</span></span> <span data-ttu-id="8b9e9-104">預設的延遲建立方法有助於保存系統資源。</span><span class="sxs-lookup"><span data-stu-id="8b9e9-104">The default lazy creation approach helps to conserve system resources.</span></span> <span data-ttu-id="8b9e9-105">傳送配接器在建立之後，就會存入快取，並維持到 BizTalk Server 服務停止為止。</span><span class="sxs-lookup"><span data-stu-id="8b9e9-105">After the send adapter is created, it is cached and lives until the BizTalk Server service is stopped.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "迴圈活動 |Microsoft 文件"
-ms.custom: 
+title: 迴圈活動 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - activities [BAM], looping activities
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - orchestrations, looping
 - orchestrations, activities
 ms.assetid: fb40fdd0-ac8f-486a-b3d0-9d2200a87cda
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262078"
 ---
 # <a name="looping-activities"></a><span data-ttu-id="3a433-102">迴圈活動</span><span class="sxs-lookup"><span data-stu-id="3a433-102">Looping Activities</span></span>
 <span data-ttu-id="3a433-103">迴圈活動是指，在協調流程中迴圈的動作。</span><span class="sxs-lookup"><span data-stu-id="3a433-103">Looping activities refers to actions that loop within an orchestration.</span></span> <span data-ttu-id="3a433-104">您也許可以從協調流程內迴圈的動作擷取事件。</span><span class="sxs-lookup"><span data-stu-id="3a433-104">It is possible to capture the events from actions that loop within an orchestration.</span></span> <span data-ttu-id="3a433-105">若要執行這項操作，請建立其他活動，並對應迴圈內所有的新活動里程碑和資料。</span><span class="sxs-lookup"><span data-stu-id="3a433-105">To do this, you create another activity and map all of the new activity milestones and data inside the loop.</span></span> <span data-ttu-id="3a433-106">請務必這麼做，因為迴圈中的資料處理將會在每個排程執行發生一次以上。</span><span class="sxs-lookup"><span data-stu-id="3a433-106">This is necessary because the data processing in the loop will occur more than once per scheduled execution.</span></span> <span data-ttu-id="3a433-107">下圖顯示此情況的範例。</span><span class="sxs-lookup"><span data-stu-id="3a433-107">The following figure shows an example of this situation.</span></span>  

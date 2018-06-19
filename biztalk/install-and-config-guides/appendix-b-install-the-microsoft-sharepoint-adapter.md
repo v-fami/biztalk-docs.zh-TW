@@ -1,14 +1,14 @@
 ---
-title: "附錄 b： 安裝 SharePoint 配接器 |Microsoft 文件"
-ms.custom: 
+title: 附錄 b： 安裝 SharePoint 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f44c6e0a-dcce-4444-8cac-bd403c81a233
-caps.latest.revision: 
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710833"
 ---
 # <a name="appendix-b-install-the-microsoft-sharepoint-adapter"></a><span data-ttu-id="fea95-102">附錄 B：安裝 Microsoft SharePoint 配接器</span><span class="sxs-lookup"><span data-stu-id="fea95-102">Appendix B: Install the Microsoft SharePoint Adapter</span></span>
 <span data-ttu-id="fea95-103">BizTalk Server 會包含 SharePoint 配接器可以接收訊息，或將訊息傳送至 SharePoint。</span><span class="sxs-lookup"><span data-stu-id="fea95-103">BizTalk Server includes a SharePoint adapter that can receive messages or send messages to SharePoint.</span></span> 

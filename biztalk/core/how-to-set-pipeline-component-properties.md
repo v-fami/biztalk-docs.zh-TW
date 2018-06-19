@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255718"
 ---
 # <a name="how-to-set-pipeline-component-properties"></a><span data-ttu-id="5bacf-102">如何設定管線元件屬性</span><span class="sxs-lookup"><span data-stu-id="5bacf-102">How to Set Pipeline Component Properties</span></span>
 <span data-ttu-id="5bacf-103">每個元件都有必須在使用前先設定的屬性。</span><span class="sxs-lookup"><span data-stu-id="5bacf-103">Each component has properties that should be configured prior to use.</span></span>  

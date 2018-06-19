@@ -1,14 +1,14 @@
 ---
-title: "測試結果： BizTalk Server 關鍵效能指標 |Microsoft 文件"
-ms.custom: 
+title: 測試結果： BizTalk Server 關鍵效能指標 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 902cdfc1-21ab-4f56-b97b-2f8979514b11
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009919"
 ---
 # <a name="test-results-biztalk-server-key-performance-indicators"></a><span data-ttu-id="d21dd-102">測試結果： BizTalk Server 關鍵效能指標</span><span class="sxs-lookup"><span data-stu-id="d21dd-102">Test Results: BizTalk Server Key Performance Indicators</span></span>
 <span data-ttu-id="d21dd-103">本主題摘要說明 BizTalk Server 關鍵效能指標 (KPI) 內所觀測到的測試案例。</span><span class="sxs-lookup"><span data-stu-id="d21dd-103">This topic summarizes BizTalk Server Key Performance Indicators (KPI) observed during the test scenarios.</span></span> <span data-ttu-id="d21dd-104">特別是這些測試評估所測量的輸送量"**BizTalk： 傳訊/文件 processed/Sec**「 效能監視器計數器和延遲，以 Visual studio 用戶端的回應時間來衡量。</span><span class="sxs-lookup"><span data-stu-id="d21dd-104">Specifically these tests evaluated throughput as measured by the "**BizTalk:Messaging/Documents processed/Sec**" performance monitor counter, and latency, as measured by the Visual studio client response time.</span></span>  

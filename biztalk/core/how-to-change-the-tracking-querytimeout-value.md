@@ -1,17 +1,17 @@
 ---
-title: "如何變更追蹤 QueryTimeout 值 |Microsoft 文件"
-ms.custom: 
+title: 如何變更追蹤 QueryTimeout 值 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - queries [HAT], time-out limits
 - HAT, time-out limits
 ms.assetid: abc26f37-6537-42fa-81ff-bc8b758b4e10
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247470"
 ---
 # <a name="how-to-change-the-tracking-querytimeout-value"></a><span data-ttu-id="74ba7-102">如何變更追蹤 QueryTimeout 值</span><span class="sxs-lookup"><span data-stu-id="74ba7-102">How to Change the Tracking QueryTimeout Value</span></span>
 <span data-ttu-id="74ba7-103">根據預設，訊息和服務執行個體追蹤會逾時查詢的執行時間超過 60 秒。</span><span class="sxs-lookup"><span data-stu-id="74ba7-103">By default, message and service instance tracking will time out if a query runs longer than 60 seconds.</span></span> <span data-ttu-id="74ba7-104">您可以在登錄中變更此逾時值，讓查詢的執行時間可以超過 60 秒。</span><span class="sxs-lookup"><span data-stu-id="74ba7-104">You can change the timeout value in the registry to enable queries to run longer than 60 seconds.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "安裝分散-集中範例 |Microsoft 文件"
-ms.custom: 
+title: 安裝分散-集中範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fcfe29c9-938b-4688-8673-5290423de6f5
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294358"
 ---
 # <a name="installing-the-scatter-gather-sample"></a><span data-ttu-id="ea577-102">安裝散佈-收集範例</span><span class="sxs-lookup"><span data-stu-id="ea577-102">Installing the Scatter-Gather Sample</span></span>
 <span data-ttu-id="ea577-103">本節描述安裝分散-集中範例的程序。</span><span class="sxs-lookup"><span data-stu-id="ea577-103">This section describes the process for installing the Scatter-Gather sample.</span></span> <span data-ttu-id="ea577-104">您必須安裝中的範例[安裝及執行路線上手範例](../esb-toolkit/installing-and-running-the-itinerary-on-ramp-sample.md)和[安裝及執行動態解析範例](../esb-toolkit/installing-and-running-the-dynamic-resolution-sample.md)您安裝及使用這個範例。</span><span class="sxs-lookup"><span data-stu-id="ea577-104">You must install the samples in [Installing and Running the Itinerary On-Ramp Sample](../esb-toolkit/installing-and-running-the-itinerary-on-ramp-sample.md) and [Installing and Running the Dynamic Resolution Sample](../esb-toolkit/installing-and-running-the-dynamic-resolution-sample.md) before you install and use this sample.</span></span>  

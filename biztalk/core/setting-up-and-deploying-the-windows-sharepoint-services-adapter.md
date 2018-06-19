@@ -1,17 +1,17 @@
 ---
-title: "設定和部署 Windows SharePoint Services 配接器 |Microsoft 文件"
-ms.custom: 
+title: 設定和部署 Windows SharePoint Services 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Windows SharePoint Services adapters, deploying
 - deploying, Windows SharePoint Services adapters
 ms.assetid: 94388780-c335-46e7-b84a-d94c2097f181
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271118"
 ---
 # <a name="setting-up-and-deploying-the-windows-sharepoint-services-adapter"></a><span data-ttu-id="2d9d2-102">設定和部署 Windows SharePoint Services 配接器</span><span class="sxs-lookup"><span data-stu-id="2d9d2-102">Setting Up and Deploying the Windows SharePoint Services Adapter</span></span>
 <span data-ttu-id="2d9d2-103">本章節主題討論的是，在單一伺服器部署和多伺服器部署中，設定和部署 Windows SharePoint Services (WSS) 配接器。</span><span class="sxs-lookup"><span data-stu-id="2d9d2-103">The topics in this section discuss setting up and deploying the Windows SharePoint Services (WSS) adapter in both a single-server deployment and a multi-server deployment.</span></span>  

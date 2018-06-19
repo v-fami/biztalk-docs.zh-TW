@@ -1,14 +1,14 @@
 ---
-title: "配接器登錄檔案 |Microsoft 文件"
-ms.custom: 
+title: 配接器登錄檔案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6750f0ed-4411-4a63-a7fe-f66132cd1e22
-caps.latest.revision: "35"
+caps.latest.revision: 35
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "26009103"
 ---
 # <a name="adapter-registration-file"></a><span data-ttu-id="3889b-102">配接器登錄檔案</span><span class="sxs-lookup"><span data-stu-id="3889b-102">Adapter Registration File</span></span>
 <span data-ttu-id="3889b-103">順利建立自訂配接器程式碼之後，必須向 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 註冊。</span><span class="sxs-lookup"><span data-stu-id="3889b-103">After the custom adapter code has been successfully built it must be registered with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="3889b-104">若要執行此作業，可將登錄更新為適當配接器設定。</span><span class="sxs-lookup"><span data-stu-id="3889b-104">You do this by updating the registry with the appropriate adapter settings.</span></span> <span data-ttu-id="3889b-105">您可以手動寫入登錄檔案，但由於輸入精確和複雜資訊容易發生錯誤，</span><span class="sxs-lookup"><span data-stu-id="3889b-105">You can manually write a registry file, but this is prone to errors due to the preciseness and complexity of the information that you need to enter.</span></span> <span data-ttu-id="3889b-106">更好的選擇是要執行配接器登錄精靈。</span><span class="sxs-lookup"><span data-stu-id="3889b-106">A better decision is to run the Adapter Registry Wizard.</span></span> <span data-ttu-id="3889b-107">配接器登錄精靈 」 可讓您所有相同選項與從頭建立登錄檔，並降低檔案發生錯誤的可能性。</span><span class="sxs-lookup"><span data-stu-id="3889b-107">The Adapter Registry Wizard gives you all the same options as creating a registry file from scratch, and reduces the likelihood of errors in the file.</span></span> <span data-ttu-id="3889b-108">如需配接器登錄精靈 」 的詳細資訊，請參閱[配接器登錄精靈](../core/adapter-registry-wizard.md)。</span><span class="sxs-lookup"><span data-stu-id="3889b-108">For more information about the Adapter Registry Wizard, see [Adapter Registry Wizard](../core/adapter-registry-wizard.md).</span></span>  

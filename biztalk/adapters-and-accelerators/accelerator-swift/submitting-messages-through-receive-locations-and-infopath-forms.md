@@ -1,11 +1,11 @@
 ---
-title: "提交訊息到接收位置和 InfoPath 表單 |Microsoft 文件"
-ms.custom: 
+title: 提交訊息到接收位置和 InfoPath 表單 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, receive locations
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - messages, InfoPath forms
 - InfoPath forms, messages
 ms.assetid: e8676830-3fbc-423f-82f6-03e6a532075f
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005119"
 ---
 # <a name="submitting-messages-through-receive-locations-and-infopath-forms"></a><span data-ttu-id="0bcd1-102">正在提交訊息到接收位置和 InfoPath 表單</span><span class="sxs-lookup"><span data-stu-id="0bcd1-102">Submitting Messages Through Receive Locations and InfoPath Forms</span></span>
 <span data-ttu-id="0bcd1-103">接收位置接收訊息提交到[!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]應用程式。</span><span class="sxs-lookup"><span data-stu-id="0bcd1-103">Receive locations receive messages for submission into [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] applications.</span></span> <span data-ttu-id="0bcd1-104">您可以定義為實體的端點來接收訊息，使用指定的傳輸通訊協定設定的接收位置。</span><span class="sxs-lookup"><span data-stu-id="0bcd1-104">You can define receive locations as physical endpoints configured to receive messages using a specified transport protocol.</span></span> <span data-ttu-id="0bcd1-105">例如，接收位置可能設定接收檔案放到 使用檔案傳輸特定的檔案系統資料夾。</span><span class="sxs-lookup"><span data-stu-id="0bcd1-105">For example, a receive location may be configured to receive files dropped to a particular file system folder using the FILE transport.</span></span>  

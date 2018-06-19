@@ -1,17 +1,17 @@
 ---
-title: "部署您的伺服器 |Microsoft 文件"
-ms.custom: 
+title: 部署您的伺服器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, servers
 - servers, deploying
 ms.assetid: 6036e42b-59b8-4092-addd-288e9c4b91d6
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005399"
 ---
 # <a name="deploying-your-servers"></a><span data-ttu-id="be5ce-102">部署您的伺服器</span><span class="sxs-lookup"><span data-stu-id="be5ce-102">Deploying Your Servers</span></span>
 <span data-ttu-id="be5ce-103">本節提供設定中的每部伺服器的指示您[!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]部署。</span><span class="sxs-lookup"><span data-stu-id="be5ce-103">This section provides instructions for configuring each of the servers in your [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] deployment.</span></span> <span data-ttu-id="be5ce-104">設定網路之後您會使用下列步驟來部署每一部伺服器上的軟體。</span><span class="sxs-lookup"><span data-stu-id="be5ce-104">After you configure the network you deploy the software on each server by using the following steps.</span></span>  

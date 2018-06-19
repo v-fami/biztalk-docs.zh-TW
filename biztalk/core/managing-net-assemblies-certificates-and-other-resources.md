@@ -1,15 +1,15 @@
 ---
-title: "管理.NET 組件、 憑證和其他資源 |Microsoft 文件"
-description: "若要加入繫結檔案、 憑證、 組件、 虛擬目錄、 檔案和多個 BizTalk Server 中的連結"
-ms.custom: 
+title: 管理.NET 組件、 憑證和其他資源 |Microsoft 文件
+description: 若要加入繫結檔案、 憑證、 組件、 虛擬目錄、 檔案和多個 BizTalk Server 中的連結
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: efe27a11-19d8-4eb3-9f8c-f4336e4c3d66
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262726"
 ---
 # <a name="manage-net-assemblies-certificates-and-other-resources"></a><span data-ttu-id="a1918-103">管理.NET 組件、 憑證和其他資源</span><span class="sxs-lookup"><span data-stu-id="a1918-103">Manage .NET Assemblies, Certificates, and Other Resources</span></span>
 

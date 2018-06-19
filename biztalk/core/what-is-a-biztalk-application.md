@@ -1,11 +1,11 @@
 ---
-title: "何謂 BizTalk 應用程式？ | Microsoft Docs"
-ms.custom: 
+title: 何謂 BizTalk 應用程式？ | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BizTalk.System application, about BizTalk.System application
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - what's new, applications
 - BizTalk.System application, warnings
 ms.assetid: 68b5527c-d5e1-453b-a51b-3fc1a1d5dce2
-caps.latest.revision: "28"
+caps.latest.revision: 28
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008775"
 ---
 # <a name="what-is-a-biztalk-application"></a><span data-ttu-id="75544-103">何謂 BizTalk 應用程式？</span><span class="sxs-lookup"><span data-stu-id="75544-103">What Is a BizTalk Application?</span></span>
 <span data-ttu-id="75544-104">BizTalk 應用程式是 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的功能，能讓 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 商務解決方案的部署、管理和疑難排解更加快速輕鬆。</span><span class="sxs-lookup"><span data-stu-id="75544-104">The BizTalk application is a feature of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] that makes it quicker and easier to deploy, manage, and troubleshoot [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] business solutions.</span></span> <span data-ttu-id="75544-105">BizTalk 應用程式是 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 商務解決方案中所使用項目 (稱為「成品」) 的邏輯群組。</span><span class="sxs-lookup"><span data-stu-id="75544-105">A BizTalk application is a logical grouping of the items, called "artifacts," used in a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] business solution.</span></span> <span data-ttu-id="75544-106">在本主題在稍後將會詳細說明成品。</span><span class="sxs-lookup"><span data-stu-id="75544-106">Artifacts are described in more detail later in this topic.</span></span>  

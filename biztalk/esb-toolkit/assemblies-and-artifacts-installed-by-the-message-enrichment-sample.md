@@ -1,14 +1,14 @@
 ---
-title: "組件和成品安裝 「 訊息豐富 」 範例 |Microsoft 文件"
-ms.custom: 
+title: 組件和成品安裝 「 訊息豐富 」 範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 96e67595-35b8-4bac-a429-0de76204a9a6
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005943"
 ---
 # <a name="assemblies-and-artifacts-installed-by-the-message-enrichment-sample"></a><span data-ttu-id="bb4e3-102">組件和成品安裝 「 訊息豐富 」 範例</span><span class="sxs-lookup"><span data-stu-id="bb4e3-102">Assemblies and Artifacts Installed by the Message Enrichment Sample</span></span>
 <span data-ttu-id="bb4e3-103">下表列出 「 訊息豐富 」 範例的安裝其他成品和組件。</span><span class="sxs-lookup"><span data-stu-id="bb4e3-103">The following table lists the assemblies and other artifacts installed for the Message Enrichment sample.</span></span>  

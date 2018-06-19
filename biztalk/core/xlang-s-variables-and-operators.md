@@ -1,14 +1,14 @@
 ---
-title: "XLANG 的變數和運算子 |Microsoft 文件"
-ms.custom: 
+title: XLANG 的變數和運算子 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 02512789-2cb9-4ba9-aa78-e59b248e6b24
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974724"
 ---
 # <a name="xlang-s-variables-and-operators"></a><span data-ttu-id="35240-102">XLANG 的變數和運算子</span><span class="sxs-lookup"><span data-stu-id="35240-102">XLANG-s Variables and Operators</span></span>
 <span data-ttu-id="35240-103">本節討論 XLANG/s 語言中使用的變數和運算子。</span><span class="sxs-lookup"><span data-stu-id="35240-103">This section discusses the variables and operators used in the XLANG/s language.</span></span>  
@@ -45,8 +46,8 @@ ms.lasthandoff: 11/28/2017
   
 |<span data-ttu-id="35240-122">運算子</span><span class="sxs-lookup"><span data-stu-id="35240-122">Operator</span></span>|<span data-ttu-id="35240-123">Description</span><span class="sxs-lookup"><span data-stu-id="35240-123">Description</span></span>|<span data-ttu-id="35240-124">範例</span><span class="sxs-lookup"><span data-stu-id="35240-124">Example</span></span>|  
 |--------------|-----------------|-------------|  
-|<span data-ttu-id="35240-125">已選取</span><span class="sxs-lookup"><span data-stu-id="35240-125">checked</span></span>|<span data-ttu-id="35240-126">在算術溢位時引發錯誤</span><span class="sxs-lookup"><span data-stu-id="35240-126">Raises error on arithmetic overflow</span></span>|<span data-ttu-id="35240-127">checked(x = y * 1000)</span><span class="sxs-lookup"><span data-stu-id="35240-127">checked(x = y * 1000)</span></span>|  
-|<span data-ttu-id="35240-128">取消選取</span><span class="sxs-lookup"><span data-stu-id="35240-128">unchecked</span></span>|<span data-ttu-id="35240-129">忽略算術溢位</span><span class="sxs-lookup"><span data-stu-id="35240-129">Ignores arithmetic overflow</span></span>|<span data-ttu-id="35240-130">unchecked(x = y * 1000)</span><span class="sxs-lookup"><span data-stu-id="35240-130">unchecked(x = y * 1000)</span></span>|  
+|<span data-ttu-id="35240-125">已選取</span><span class="sxs-lookup"><span data-stu-id="35240-125">checked</span></span>|<span data-ttu-id="35240-126">在算術溢位時引發錯誤</span><span class="sxs-lookup"><span data-stu-id="35240-126">Raises error on arithmetic overflow</span></span>|<span data-ttu-id="35240-127">checked(x = y \* 1000)</span><span class="sxs-lookup"><span data-stu-id="35240-127">checked(x = y \* 1000)</span></span>|  
+|<span data-ttu-id="35240-128">取消選取</span><span class="sxs-lookup"><span data-stu-id="35240-128">unchecked</span></span>|<span data-ttu-id="35240-129">忽略算術溢位</span><span class="sxs-lookup"><span data-stu-id="35240-129">Ignores arithmetic overflow</span></span>|<span data-ttu-id="35240-130">unchecked(x = y \* 1000)</span><span class="sxs-lookup"><span data-stu-id="35240-130">unchecked(x = y \* 1000)</span></span>|  
 |<span data-ttu-id="35240-131">new</span><span class="sxs-lookup"><span data-stu-id="35240-131">new</span></span>|<span data-ttu-id="35240-132">建立類別的執行個體</span><span class="sxs-lookup"><span data-stu-id="35240-132">Creates an instance of a class</span></span>|<span data-ttu-id="35240-133">myObject = new MyClass;</span><span class="sxs-lookup"><span data-stu-id="35240-133">myObject = new MyClass;</span></span>|  
 |<span data-ttu-id="35240-134">typeof</span><span class="sxs-lookup"><span data-stu-id="35240-134">typeof</span></span>|<span data-ttu-id="35240-135">擷取型別</span><span class="sxs-lookup"><span data-stu-id="35240-135">Retrieves a type</span></span>|<span data-ttu-id="35240-136">myMapType = typeof(myMap)</span><span class="sxs-lookup"><span data-stu-id="35240-136">myMapType = typeof(myMap)</span></span>|  
 |<span data-ttu-id="35240-137">succeeded</span><span class="sxs-lookup"><span data-stu-id="35240-137">succeeded</span></span>|<span data-ttu-id="35240-138">測試交易式範圍或協調流程是否順利完成</span><span class="sxs-lookup"><span data-stu-id="35240-138">Tests for successful completion of transactional scope or orchestration</span></span>|<span data-ttu-id="35240-139">成功 (\<目前範圍或服務的子交易的交易識別碼\>)</span><span class="sxs-lookup"><span data-stu-id="35240-139">succeeded(\<transaction ID for child transaction of current scope or service\>)</span></span>|  
@@ -56,7 +57,7 @@ ms.lasthandoff: 11/28/2017
 |<span data-ttu-id="35240-147">!</span><span class="sxs-lookup"><span data-stu-id="35240-147">!</span></span>|<span data-ttu-id="35240-148">邏輯否定</span><span class="sxs-lookup"><span data-stu-id="35240-148">Logical negation</span></span>|<span data-ttu-id="35240-149">!myBool</span><span class="sxs-lookup"><span data-stu-id="35240-149">!myBool</span></span>|  
 |~|<span data-ttu-id="35240-150">位元補數</span><span class="sxs-lookup"><span data-stu-id="35240-150">Bitwise complement</span></span>|<span data-ttu-id="35240-151">x = ~y</span><span class="sxs-lookup"><span data-stu-id="35240-151">x = ~y</span></span>|  
 |<span data-ttu-id="35240-152">()</span><span class="sxs-lookup"><span data-stu-id="35240-152">()</span></span>|<span data-ttu-id="35240-153">轉換</span><span class="sxs-lookup"><span data-stu-id="35240-153">Cast</span></span>|<span data-ttu-id="35240-154">(bool) myInt</span><span class="sxs-lookup"><span data-stu-id="35240-154">(bool) myInt</span></span>|  
-|*|<span data-ttu-id="35240-155">乘</span><span class="sxs-lookup"><span data-stu-id="35240-155">Times</span></span>|<span data-ttu-id="35240-156">Weight = MyMsg.numOrders * 20</span><span class="sxs-lookup"><span data-stu-id="35240-156">Weight = MyMsg.numOrders * 20</span></span>|  
+|*|<span data-ttu-id="35240-155">乘</span><span class="sxs-lookup"><span data-stu-id="35240-155">Times</span></span>|<span data-ttu-id="35240-156">Weight = MyMsg.numOrders \* 20</span><span class="sxs-lookup"><span data-stu-id="35240-156">Weight = MyMsg.numOrders \* 20</span></span>|  
 |/|<span data-ttu-id="35240-157">除</span><span class="sxs-lookup"><span data-stu-id="35240-157">Divided by</span></span>|<span data-ttu-id="35240-158">x / y</span><span class="sxs-lookup"><span data-stu-id="35240-158">x / y</span></span>|  
 |+|<span data-ttu-id="35240-159">加</span><span class="sxs-lookup"><span data-stu-id="35240-159">Plus</span></span>|<span data-ttu-id="35240-160">x + y</span><span class="sxs-lookup"><span data-stu-id="35240-160">x + y</span></span>|  
 |-|<span data-ttu-id="35240-161">減</span><span class="sxs-lookup"><span data-stu-id="35240-161">Minus</span></span>|<span data-ttu-id="35240-162">x - y</span><span class="sxs-lookup"><span data-stu-id="35240-162">x - y</span></span>|  

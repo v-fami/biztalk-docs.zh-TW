@@ -1,14 +1,14 @@
 ---
-title: "如何終止配接器 |Microsoft 文件"
-ms.custom: 
+title: 如何終止配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dfba2b61-b89f-41cd-a014-4e96daec6516
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255990"
 ---
 # <a name="how-to-terminate-an-adapter"></a><span data-ttu-id="b6c5b-102">如何終止配接器</span><span class="sxs-lookup"><span data-stu-id="b6c5b-102">How to Terminate an Adapter</span></span>
 <span data-ttu-id="b6c5b-103">下列主題提供正確關閉配接器的指導。</span><span class="sxs-lookup"><span data-stu-id="b6c5b-103">The following topics provide guidance on the proper shutdown of an adapter.</span></span>  

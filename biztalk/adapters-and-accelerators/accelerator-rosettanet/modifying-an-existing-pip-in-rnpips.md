@@ -1,11 +1,11 @@
 ---
-title: "修改 Rnpip 中的現有 PIP |Microsoft 文件"
-ms.custom: 
+title: 修改 Rnpip 中的現有 PIP |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - RNPIPs
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - PIPs, modifying
 - assemblies, RNPIPs
 ms.assetid: f2ed25c4-1979-4691-9315-e7568e7cca8b
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006287"
 ---
 # <a name="modifying-an-existing-pip-in-rnpips"></a><span data-ttu-id="d231b-102">修改 Rnpip 中的現有 PIP</span><span class="sxs-lookup"><span data-stu-id="d231b-102">Modifying an Existing PIP in RNPIPs</span></span>
 <span data-ttu-id="d231b-103">本主題描述如何變更和重新部署所安裝的交易夥伴介面程序 (PIP) 結構描述的其中一個[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]安裝程式。</span><span class="sxs-lookup"><span data-stu-id="d231b-103">This topic describes how to change and re-deploy one of the Partner Interface Process (PIP) schemas installed by [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] setup.</span></span> <span data-ttu-id="d231b-104">您可將該結構描述部署為 RNPIP 組件的一部分。</span><span class="sxs-lookup"><span data-stu-id="d231b-104">You deploy the schema as part of the RNPIPs assembly.</span></span>  

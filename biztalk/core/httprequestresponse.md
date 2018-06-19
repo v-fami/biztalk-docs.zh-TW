@@ -1,17 +1,17 @@
 ---
-title: "HTTPRequestResponse |Microsoft 文件"
-ms.custom: 
+title: HTTPRequestResponse |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - HTTP adapters, examples
 - examples, HTTP adapters
 ms.assetid: 81c66f61-d86c-49cf-8d24-21c67c68bc5a
-caps.latest.revision: "35"
+caps.latest.revision: 35
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973748"
 ---
 # <a name="httprequestresponse"></a><span data-ttu-id="335b7-102">HTTPRequestResponse</span><span class="sxs-lookup"><span data-stu-id="335b7-102">HTTPRequestResponse</span></span>
 <span data-ttu-id="335b7-103">HTTPRequestResponse 範例會示範如何使用 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 網際網路伺服器應用程式發展介面 (Internet Server Application Programming Interface，ISAPI) 篩選器，讓 ASP.NET 應用程式與 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 協調流程進行通訊。</span><span class="sxs-lookup"><span data-stu-id="335b7-103">The HTTPRequestResponse sample demonstrates how to use the Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Internet Server Application Programming Interface (ISAPI) filter to allow an ASP.NET application to communicate with a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] orchestration.</span></span>  
@@ -36,7 +37,7 @@ ms.lasthandoff: 11/28/2017
  <span data-ttu-id="335b7-111">ASP.NET 應用程式收到 XML PO 通知回應後，會使用從回應中擷取的狀態資訊來重新整理 Web 表單。</span><span class="sxs-lookup"><span data-stu-id="335b7-111">The ASP.NET application receives the XML PO acknowledgement response and refreshes the Web form with status information extracted from the response.</span></span>  
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="335b7-112">可在何處找到此範例</span><span class="sxs-lookup"><span data-stu-id="335b7-112">Where to Find This Sample</span></span>  
- <span data-ttu-id="335b7-113">*\<範例路徑\>*\AdaptersUsage\HTTPRequestResponse\\</span><span class="sxs-lookup"><span data-stu-id="335b7-113">*\<Samples Path\>*\AdaptersUsage\HTTPRequestResponse\\</span></span>  
+ <span data-ttu-id="335b7-113">*\<範例路徑\>* \AdaptersUsage\HTTPRequestResponse\\</span><span class="sxs-lookup"><span data-stu-id="335b7-113">*\<Samples Path\>* \AdaptersUsage\HTTPRequestResponse\\</span></span>  
   
  <span data-ttu-id="335b7-114">下表顯示此範例中的檔案，並描述其用途。</span><span class="sxs-lookup"><span data-stu-id="335b7-114">The following table shows the files in this sample and describes their purpose.</span></span>  
   
@@ -64,7 +65,7 @@ ms.lasthandoff: 11/28/2017
     -   <span data-ttu-id="335b7-138">編譯及設定用來驅動此範例的 ASP.NET 應用程式。</span><span class="sxs-lookup"><span data-stu-id="335b7-138">Compiles and configures the ASP.NET application used to drive this sample.</span></span>  
   
         > [!NOTE]
-        >  <span data-ttu-id="335b7-139">在 IIS 管理員中建立應用程式集區，設定**DefaultAppPool**以.NET Framework 版本**.Net Framework v4.0**。</span><span class="sxs-lookup"><span data-stu-id="335b7-139">While creating application pool in IIS Manager, set the **DefaultAppPool** .NET Framework version to **.Net Framework v4.0**.</span></span>  
+        >  <span data-ttu-id="335b7-139">在 IIS 管理員中建立應用程式集區，設定**DefaultAppPool**以.NET Framework 版本 **.Net Framework v4.0**。</span><span class="sxs-lookup"><span data-stu-id="335b7-139">While creating application pool in IIS Manager, set the **DefaultAppPool** .NET Framework version to **.Net Framework v4.0**.</span></span>  
   
     -   <span data-ttu-id="335b7-140">編譯及部署此範例中所使用的 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 協調流程。</span><span class="sxs-lookup"><span data-stu-id="335b7-140">Compiles and deploys the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] orchestration used in this sample.</span></span>  
   
@@ -91,7 +92,7 @@ ms.lasthandoff: 11/28/2017
         > [!NOTE]
         >  <span data-ttu-id="335b7-152">您必須設定和啟用 IIS 才能使用 HTTP 接收配接器。</span><span class="sxs-lookup"><span data-stu-id="335b7-152">You must configure and enable IIS to use the HTTP receive adapter.</span></span> <span data-ttu-id="335b7-153">如需詳細資訊，請參閱[如何設定 HTTP 接收位置的 IIS](../core/how-to-configure-iis-for-an-http-receive-location.md)。</span><span class="sxs-lookup"><span data-stu-id="335b7-153">For more information, see [How to Configure IIS for an HTTP Receive Location](../core/how-to-configure-iis-for-an-http-receive-location.md).</span></span>  
   
-3.  <span data-ttu-id="335b7-154">setup.bat 檔會設定此範例的虛擬目錄，以在與預設網站關聯的 IIS 應用程式集區中執行。</span><span class="sxs-lookup"><span data-stu-id="335b7-154">The setup.bat file configures the virtual directory for this sample to run in the IIS application pool associated with the default web site.</span></span>  <span data-ttu-id="335b7-155">若要設定讓此範例中的使用者內容下執行的虛擬目錄**BizTalk Isolated Host Users**和**「 iis_iurs 」**使用者群組，您應該設定執行新的虛擬目錄IIS 應用程式集區。</span><span class="sxs-lookup"><span data-stu-id="335b7-155">To configure the virtual directory for this sample to run under the context of a user in the **BizTalk Isolated Host Users** and **IIS_IURS** user groups, you should configure the virtual directory to run in a new IIS application pool.</span></span> <span data-ttu-id="335b7-156">請依照下列步驟執行，將虛擬目錄設定為在新的 IIS 應用程式集區中執行：</span><span class="sxs-lookup"><span data-stu-id="335b7-156">Configure the virtual directory to run in a new IIS application pool by completing the following steps:</span></span>  
+3.  <span data-ttu-id="335b7-154">setup.bat 檔會設定此範例的虛擬目錄，以在與預設網站關聯的 IIS 應用程式集區中執行。</span><span class="sxs-lookup"><span data-stu-id="335b7-154">The setup.bat file configures the virtual directory for this sample to run in the IIS application pool associated with the default web site.</span></span>  <span data-ttu-id="335b7-155">若要設定讓此範例中的使用者內容下執行的虛擬目錄**BizTalk Isolated Host Users**和 **「 iis_iurs 」** 使用者群組，您應該設定執行新的虛擬目錄IIS 應用程式集區。</span><span class="sxs-lookup"><span data-stu-id="335b7-155">To configure the virtual directory for this sample to run under the context of a user in the **BizTalk Isolated Host Users** and **IIS_IURS** user groups, you should configure the virtual directory to run in a new IIS application pool.</span></span> <span data-ttu-id="335b7-156">請依照下列步驟執行，將虛擬目錄設定為在新的 IIS 應用程式集區中執行：</span><span class="sxs-lookup"><span data-stu-id="335b7-156">Configure the virtual directory to run in a new IIS application pool by completing the following steps:</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="335b7-157">如果您已經為其他 SDK 範例建立新的應用程式集區，則可以繼續執行下面最後一項步驟。</span><span class="sxs-lookup"><span data-stu-id="335b7-157">If you have already created a new application pool for another SDK sample then you can proceed to the last step below.</span></span>  
@@ -106,7 +107,7 @@ ms.lasthandoff: 11/28/2017
   
     5.  <span data-ttu-id="335b7-162">以滑鼠右鍵按一下新的應用程式集區，然後按一下 **屬性**。</span><span class="sxs-lookup"><span data-stu-id="335b7-162">Right-click the new application pool and then click **Properties**.</span></span>  
   
-    6.  <span data-ttu-id="335b7-163">按一下**識別** 索引標籤的 屬性 對話方塊並變更這個應用程式集區執行使用者為成員的身分識別**BizTalk Isolated Host Users**使用者群組。</span><span class="sxs-lookup"><span data-stu-id="335b7-163">Click the **Identity** tab of the properties dialog box and change the identity under which this application pool runs to a user that is a member of the **BizTalk Isolated Host Users** user group.</span></span>  <span data-ttu-id="335b7-164">此使用者也應該屬於本機**「 iis_iurs 」**使用者群組。</span><span class="sxs-lookup"><span data-stu-id="335b7-164">This user should also be a member of the local **IIS_IURS** user group.</span></span>  
+    6.  <span data-ttu-id="335b7-163">按一下**識別** 索引標籤的 屬性 對話方塊並變更這個應用程式集區執行使用者為成員的身分識別**BizTalk Isolated Host Users**使用者群組。</span><span class="sxs-lookup"><span data-stu-id="335b7-163">Click the **Identity** tab of the properties dialog box and change the identity under which this application pool runs to a user that is a member of the **BizTalk Isolated Host Users** user group.</span></span>  <span data-ttu-id="335b7-164">此使用者也應該屬於本機 **「 iis_iurs 」** 使用者群組。</span><span class="sxs-lookup"><span data-stu-id="335b7-164">This user should also be a member of the local **IIS_IURS** user group.</span></span>  
   
     7.  <span data-ttu-id="335b7-165">設定這個 SDK 範例的虛擬目錄為在新的應用程式集區下執行。</span><span class="sxs-lookup"><span data-stu-id="335b7-165">Configure the virtual directory for this SDK sample to run under the new application pool.</span></span> <span data-ttu-id="335b7-166">**應用程式集區**設定位在**虛擬目錄**] 索引標籤的 [虛擬目錄的 [內容] 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="335b7-166">The **Application pool** setting is available on the **Virtual Directory** tab of the Virtual Directory properties dialog box.</span></span> <span data-ttu-id="335b7-167">為此範例所建立的虛擬目錄為 HttpRequestResponseSample。</span><span class="sxs-lookup"><span data-stu-id="335b7-167">The virtual directory created for this sample is HttpRequestResponseSample.</span></span>  
   

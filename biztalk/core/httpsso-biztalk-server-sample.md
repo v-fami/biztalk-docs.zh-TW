@@ -24,6 +24,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "25974268"
 ---
 # <a name="httpsso-biztalk-server-sample"></a><span data-ttu-id="14199-102">HTTPSSO （BizTalk Server 範例）</span><span class="sxs-lookup"><span data-stu-id="14199-102">HTTPSSO (BizTalk Server Sample)</span></span>
 <span data-ttu-id="14199-103">HTTPSSO 範例將示範如何搭配 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] HTTP 配接器使用「企業單一登入」(SSO) 功能。</span><span class="sxs-lookup"><span data-stu-id="14199-103">The HTTPSSO sample demonstrates how to use the Enterprise Single Sign-On (SSO) feature with the Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] HTTP adapter.</span></span>  

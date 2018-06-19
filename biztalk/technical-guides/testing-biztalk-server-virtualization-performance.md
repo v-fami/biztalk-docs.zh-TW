@@ -1,14 +1,14 @@
 ---
-title: "測試 BizTalk Server 的虛擬化效能 |Microsoft 文件"
-ms.custom: 
+title: 測試 BizTalk Server 的虛擬化效能 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d09121b1-cdd6-4c01-9d69-0f1923464f0e
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008567"
 ---
 # <a name="testing-biztalk-server-virtualization-performance"></a><span data-ttu-id="50171-102">測試 BizTalk 伺服器虛擬化的效能</span><span class="sxs-lookup"><span data-stu-id="50171-102">Testing BizTalk Server Virtualization Performance</span></span>
 <span data-ttu-id="50171-103">本指南中所述的效能測試案例中每個已部署在 Microsoft 測試實驗室中，實體電腦上，然後在每個不同的系統架構上執行相同的負載測試。</span><span class="sxs-lookup"><span data-stu-id="50171-103">Each of the performance test scenarios described in this guide were deployed on physical computers in a Microsoft test lab, and then the same load test was performed on each distinct system architecture.</span></span> <span data-ttu-id="50171-104">主機上的作業系統每一部實體電腦已完整安裝[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]Enterprise，64 位元版本，安裝 HYPER-V 伺服器角色。</span><span class="sxs-lookup"><span data-stu-id="50171-104">The host operating system on each physical computer was a full installation of [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] Enterprise, 64-Bit Edition, with the Hyper-V server role installed.</span></span> <span data-ttu-id="50171-105">用於測試 BizTalk Server 的虛擬機器設定的[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]Enterprise，做為客體作業系統的 64 位元版本。</span><span class="sxs-lookup"><span data-stu-id="50171-105">The virtual machines used for testing BizTalk Server were set up with [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] Enterprise, 64-Bit Edition as the guest operating system.</span></span> <span data-ttu-id="50171-106">用於測試 SQL Server 虛擬機器已設定使用[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]Enterprise，做為客體作業系統的 64 位元版本。</span><span class="sxs-lookup"><span data-stu-id="50171-106">The virtual machine used for testing SQL Server was set up with [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] Enterprise, 64-Bit Edition as the guest operating system.</span></span> <span data-ttu-id="50171-107">用來編寫一系列的最佳做法和指南設計、 實作、 測試案例、 測試方法、 效能測試結果及後續的分析和最佳化虛擬化[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="50171-107">The test scenarios, test methods, performance test results, and subsequent analysis were used to formulate a series of best practices and guidance for designing, implementing, and optimizing virtualized [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  

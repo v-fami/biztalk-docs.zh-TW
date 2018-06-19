@@ -1,11 +1,11 @@
 ---
-title: "單一伺服器部署 |Microsoft 文件"
-ms.custom: 
+title: 單一伺服器部署 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Windows SharePoint Services adapters, deploying
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - configuring [Windows SharePoint Services adapters], single-server deployment
 - Windows SharePoint Services adapters, single-server deployment
 ms.assetid: 94ba8241-9a30-46ca-b962-721e2d00f420
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975750"
 ---
 # <a name="single-server-deployment"></a><span data-ttu-id="8bbc6-102">單一伺服器部署</span><span class="sxs-lookup"><span data-stu-id="8bbc6-102">Single-Server Deployment</span></span>
 <span data-ttu-id="8bbc6-103">這個主題針對 Windows SharePoint Services 討論其 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 配接器的單一伺服器安裝及部署考量。</span><span class="sxs-lookup"><span data-stu-id="8bbc6-103">This topic discusses single-server setup and deployment considerations for the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adapter for Windows SharePoint Services.</span></span>  

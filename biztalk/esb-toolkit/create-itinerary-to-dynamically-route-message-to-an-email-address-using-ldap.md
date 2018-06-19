@@ -1,14 +1,14 @@
 ---
-title: "如何： 建立以動態方式將訊息路由傳送電子郵件地址，使用 LDAP 查詢行程 |Microsoft 文件"
-ms.custom: 
+title: 如何： 建立以動態方式將訊息路由傳送電子郵件地址，使用 LDAP 查詢行程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6d9929dd-5e45-4b0d-90df-52a35e68b0ba
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010111"
 ---
 # <a name="how-to-create-an-itinerary-to-dynamically-route-a-message-to-an-email-address-using-an-ldap-query"></a><span data-ttu-id="e8c21-102">如何： 建立以動態方式將訊息路由傳送電子郵件地址，使用 LDAP 查詢的行程</span><span class="sxs-lookup"><span data-stu-id="e8c21-102">How to: Create an Itinerary to Dynamically Route a Message to an Email Address Using an LDAP Query</span></span>
 ## <a name="goal"></a><span data-ttu-id="e8c21-103">目標</span><span class="sxs-lookup"><span data-stu-id="e8c21-103">Goal</span></span>  
@@ -91,14 +92,14 @@ ms.lasthandoff: 12/01/2017
   
     3.  <span data-ttu-id="e8c21-147">在**傳輸名稱**下拉式清單中，按一下  **SMTP**。</span><span class="sxs-lookup"><span data-stu-id="e8c21-147">In the **Transport Name** drop-down list, click **SMTP**.</span></span>  
   
-    4.  <span data-ttu-id="e8c21-148">按一下**傳輸位置**屬性，，然後輸入**{mail}**</span><span class="sxs-lookup"><span data-stu-id="e8c21-148">Click the **Transport Location** property, and then type **{mail}**</span></span>  
+    4.  <span data-ttu-id="e8c21-148">按一下**傳輸位置**屬性，，然後輸入 **{mail}**</span><span class="sxs-lookup"><span data-stu-id="e8c21-148">Click the **Transport Location** property, and then type **{mail}**</span></span>  
   
     5.  <span data-ttu-id="e8c21-149">按一下**SearchRoot**屬性，，然後輸入**ou = 員工，dc = globalbank，dc = com**</span><span class="sxs-lookup"><span data-stu-id="e8c21-149">Click the **SearchRoot** property, and then type **ou=Employees,dc=globalbank,dc=com**</span></span>  
   
         > [!NOTE]
         >  <span data-ttu-id="e8c21-150">如果您尚未在 < 先決條件 > 一節中設定您的環境，根據規格，取代先前的屬性中的值適用於您的環境。</span><span class="sxs-lookup"><span data-stu-id="e8c21-150">If you have not set up your environment according to the specifications in the "Prerequisites" section, replace the values in the preceding property with ones that are appropriate for your environment.</span></span>  
   
-    6.  <span data-ttu-id="e8c21-151">按一下**篩選**屬性，然後將變更的值**(&(objectClass=User) (&#124;(givenName=john)))**</span><span class="sxs-lookup"><span data-stu-id="e8c21-151">Click the **Filter** property, and then change the value to **(&(objectClass=User)(&#124;(givenName=john)))**</span></span>  
+    6.  <span data-ttu-id="e8c21-151">按一下**篩選**屬性，然後將變更的值 **(&(objectClass=User) (&#124;(givenName=john)))**</span><span class="sxs-lookup"><span data-stu-id="e8c21-151">Click the **Filter** property, and then change the value to **(&(objectClass=User)(&#124;(givenName=john)))**</span></span>  
   
         > [!NOTE]
         >  <span data-ttu-id="e8c21-152">輸入上面的值來取代現有的文字。</span><span class="sxs-lookup"><span data-stu-id="e8c21-152">Type the preceding value to replace the existing text.</span></span>  
@@ -115,7 +116,7 @@ ms.lasthandoff: 12/01/2017
   
     4.  <span data-ttu-id="e8c21-158">按一下**主旨**屬性，，然後輸入**順序 {givenName}**。</span><span class="sxs-lookup"><span data-stu-id="e8c21-158">Click the **Subject** property, and then type **Order for {givenName}**.</span></span>  
   
-    5.  <span data-ttu-id="e8c21-159">設定**SMTPAuthentication、 SMTPHost、 使用者名稱、**和**密碼**屬性的本機環境中使用的連接資訊。</span><span class="sxs-lookup"><span data-stu-id="e8c21-159">Configure the **SMTPAuthentication, SMTPHost, UserName,** and **Password** properties using the connection information for your local environment.</span></span>  
+    5.  <span data-ttu-id="e8c21-159">設定**SMTPAuthentication、 SMTPHost、 使用者名稱、** 和**密碼**屬性的本機環境中使用的連接資訊。</span><span class="sxs-lookup"><span data-stu-id="e8c21-159">Configure the **SMTPAuthentication, SMTPHost, UserName,** and **Password** properties using the connection information for your local environment.</span></span>  
   
     6.  <span data-ttu-id="e8c21-160">按一下**確定**關閉**端點組態** 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="e8c21-160">Click **OK** to close the **Endpoint Configuration** dialog box.</span></span>  
   

@@ -1,14 +1,14 @@
 ---
-title: "排程 SQL Server Integration Services 封裝 |Microsoft 文件"
-ms.custom: 
+title: 排程 SQL Server Integration Services 封裝 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 037ae2cf-c352-4823-95df-9a723f2b5a81
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975948"
 ---
 # <a name="scheduling-sql-server-integration-services-packages"></a><span data-ttu-id="77f00-102">排程 SQL Server Integration Services 封裝</span><span class="sxs-lookup"><span data-stu-id="77f00-102">Scheduling SQL Server Integration Services Packages</span></span>
 <span data-ttu-id="77f00-103">使用者可以根據儲存於線上分析處理 (OLAP) Cube 中的資料建立 BAM 檢視。</span><span class="sxs-lookup"><span data-stu-id="77f00-103">Users create BAM views based on data stored in an online analytical processing (OLAP) cube.</span></span> <span data-ttu-id="77f00-104">Cube 更新 Integration Services 封裝會重新整理 Cube 中的資料，如此一來，OLAP 檢視就會反映正確的資料。</span><span class="sxs-lookup"><span data-stu-id="77f00-104">The Cube Update Integration Services package refreshes the data in the cube so that OLAP views reflect the correct data.</span></span>  
@@ -60,7 +61,7 @@ ms.lasthandoff: 11/28/2017
   
 7.  <span data-ttu-id="77f00-127">在主控台樹狀目錄中，依序展開**Integration Services**，依序展開**存放的封裝**，然後按一下  **MSDB**。</span><span class="sxs-lookup"><span data-stu-id="77f00-127">In the console tree, expand **Integration Services**, expand **Stored Packages**, and then click **MSDB**.</span></span>  
   
-8.  <span data-ttu-id="77f00-128">以滑鼠右鍵按一下**BAM_AN_\<檢視名稱\>**封裝，然後按一下 **執行封裝**。</span><span class="sxs-lookup"><span data-stu-id="77f00-128">Right-click the **BAM_AN_\<View name\>** package, and then click **Run Package**.</span></span>  
+8.  <span data-ttu-id="77f00-128">以滑鼠右鍵按一下**BAM_AN_\<檢視名稱\>** 封裝，然後按一下 **執行封裝**。</span><span class="sxs-lookup"><span data-stu-id="77f00-128">Right-click the **BAM_AN_\<View name\>** package, and then click **Run Package**.</span></span>  
   
 ### <a name="to-run-the-maintaining-bam-data-integration-services-package"></a><span data-ttu-id="77f00-129">若要執行維護 BAM 資料 Integration Services 封裝</span><span class="sxs-lookup"><span data-stu-id="77f00-129">To run the Maintaining BAM Data Integration Services package</span></span>  
   
@@ -78,7 +79,7 @@ ms.lasthandoff: 11/28/2017
   
 7.  <span data-ttu-id="77f00-136">在主控台樹狀目錄中，依序展開**Integration Services**，依序展開**存放的封裝**，然後按一下  **MSDB**。</span><span class="sxs-lookup"><span data-stu-id="77f00-136">In the console tree, expand **Integration Services**, expand **Stored Packages**, and then click **MSDB**.</span></span>  
   
-8.  <span data-ttu-id="77f00-137">以滑鼠右鍵按一下**BAM_DM_\<活動名稱\>**封裝，然後按一下 **執行封裝**。</span><span class="sxs-lookup"><span data-stu-id="77f00-137">Right-click the **BAM_DM_\<Activity name\>** package, and then click **Run Package**.</span></span>  
+8.  <span data-ttu-id="77f00-137">以滑鼠右鍵按一下**BAM_DM_\<活動名稱\>** 封裝，然後按一下 **執行封裝**。</span><span class="sxs-lookup"><span data-stu-id="77f00-137">Right-click the **BAM_DM_\<Activity name\>** package, and then click **Run Package**.</span></span>  
   
 ### <a name="to-schedule-the-packages-to-run-regularly"></a><span data-ttu-id="77f00-138">若要將這些封裝排程為定期執行</span><span class="sxs-lookup"><span data-stu-id="77f00-138">To schedule the packages to run regularly</span></span>  
   
@@ -110,7 +111,7 @@ ms.lasthandoff: 11/28/2017
   
 14. <span data-ttu-id="77f00-153">在**伺服器**下拉式清單中，選取執行作業的伺服器。</span><span class="sxs-lookup"><span data-stu-id="77f00-153">In the **Server** drop-down list, select the server on which you are running the job.</span></span>  
   
-15. <span data-ttu-id="77f00-154">按一下 檔案選取器按鈕**封裝**文字方塊中，選取要排程的封裝 (任一**BAM_DM_\<活動名稱\>**或**BAM_AN_\<檢視名稱\>**封裝)，然後按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="77f00-154">Click the file selector button for the **Package** text box, select the package you are scheduling (either the **BAM_DM_\<Activity name\>** or **BAM_AN_\<View name\>** package), and then click **OK**.</span></span>  
+15. <span data-ttu-id="77f00-154">按一下 檔案選取器按鈕**封裝**文字方塊中，選取要排程的封裝 (任一**BAM_DM_\<活動名稱\>** 或**BAM_AN_\<檢視名稱\>** 封裝)，然後按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="77f00-154">Click the file selector button for the **Package** text box, select the package you are scheduling (either the **BAM_DM_\<Activity name\>** or **BAM_AN_\<View name\>** package), and then click **OK**.</span></span>  
   
 16. <span data-ttu-id="77f00-155">在**選取頁面**視窗中，按一下 **排程**，然後按一下 **新增**。</span><span class="sxs-lookup"><span data-stu-id="77f00-155">In the **Select a page** window, click **Schedules**, and then click **New**.</span></span> <span data-ttu-id="77f00-156">這會開啟**新增作業排程** 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="77f00-156">This opens the **New Job Schedule** dialog box.</span></span>  
   

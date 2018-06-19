@@ -1,11 +1,11 @@
 ---
-title: "何謂彙總？ | Microsoft Docs"
-ms.custom: 
+title: 何謂彙總？ | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - OLAP cubes, BAM
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - aggregations [BAM], about aggregations
 - aggregations [BAM]
 ms.assetid: 77d40602-ef56-4a5b-a18f-56ccbff573a4
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289158"
 ---
 # <a name="what-is-an-aggregation"></a><span data-ttu-id="8b8a2-103">何謂彙總？</span><span class="sxs-lookup"><span data-stu-id="8b8a2-103">What Is an Aggregation?</span></span>
 <span data-ttu-id="8b8a2-104">Excel 將彙總定義為資料的預先計算摘要，可在問題提出之前先備妥答案，以改善查詢回應時間。</span><span class="sxs-lookup"><span data-stu-id="8b8a2-104">Excel defines aggregations as pre-calculated summaries of data that improve query response time by having the answers ready before the questions are asked.</span></span> <span data-ttu-id="8b8a2-105">例如，當資料倉儲事實資料表包含數以萬計的資料列時，如果要查詢兩個特定產品的出貨排程，其必須掃描事實資料表進行計算，這可能需要花很長時間才能得到結果。</span><span class="sxs-lookup"><span data-stu-id="8b8a2-105">For example, when a data warehouse fact table contains hundreds of thousands of rows, a query requesting the shipping schedules for two particular products can take a long time to answer if the fact table has to be scanned to compute the answer.</span></span> <span data-ttu-id="8b8a2-106">但是，如果已經預先計算好要回應的摘要資料，就幾乎可以立即做出回應。</span><span class="sxs-lookup"><span data-stu-id="8b8a2-106">However, the response can be almost immediate if the summarization data to answer this query has been pre-calculated.</span></span>  

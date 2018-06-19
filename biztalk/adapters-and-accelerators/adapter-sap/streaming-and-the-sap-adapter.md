@@ -1,11 +1,11 @@
 ---
-title: "資料流和 SAP 配接器 |Microsoft 文件"
-ms.custom: 
+title: 資料流和 SAP 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - streaming, support in WCF service model
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - streaming, and the SAP adapter
 - streaming, support in WCF channel model
 ms.assetid: 9fa1788b-f21b-4dec-be14-27dd8080a9d4
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218246"
 ---
 # <a name="streaming-and-the-sap-adapter"></a><span data-ttu-id="2035d-102">資料流和 SAP 配接器</span><span class="sxs-lookup"><span data-stu-id="2035d-102">Streaming and the SAP Adapter</span></span>
 <span data-ttu-id="2035d-103">[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]支援資料流本身與用戶端應用程式之間的訊息。</span><span class="sxs-lookup"><span data-stu-id="2035d-103">The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] supports message streaming between itself and a client application.</span></span> <span data-ttu-id="2035d-104">與[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]叫用作業，並藉由交換 SOAP 訊息會傳回回應。</span><span class="sxs-lookup"><span data-stu-id="2035d-104">With the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] operations are invoked and responses are returned by exchanging SOAP messages.</span></span> <span data-ttu-id="2035d-105">將 SOAP 訊息本文所組成的 XML 節點。</span><span class="sxs-lookup"><span data-stu-id="2035d-105">A SOAP message body is composed of XML nodes.</span></span>  

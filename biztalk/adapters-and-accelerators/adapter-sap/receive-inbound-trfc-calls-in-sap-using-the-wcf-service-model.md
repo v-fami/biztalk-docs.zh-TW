@@ -1,17 +1,17 @@
 ---
-title: "使用 WCF 服務模型的 SAP 中接收輸入的 tRFC 呼叫 |Microsoft 文件"
-ms.custom: 
+title: 使用 WCF 服務模型的 SAP 中接收輸入的 tRFC 呼叫 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - tRFC calls, receiving inbound using the WCF service model
 - WCF service model, receiving inbound tRFC calls
 ms.assetid: 02dc282b-b659-466a-8bd1-f400a05f71ec
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217854"
 ---
 # <a name="receive-inbound-trfc-calls-in-sap-using-the-wcf-service-model"></a><span data-ttu-id="f6b79-102">使用 WCF 服務模型的 SAP 中接收輸入的 tRFC 呼叫</span><span class="sxs-lookup"><span data-stu-id="f6b79-102">Receive Inbound tRFC Calls in SAP using the WCF Service Model</span></span>
 <span data-ttu-id="f6b79-103">您可以使用[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]為交易式 RFC (tRFC) 伺服器從 SAP 接收輸入的 tRFC 呼叫。</span><span class="sxs-lookup"><span data-stu-id="f6b79-103">You can use the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] as a transactional RFC (tRFC) server to receive inbound tRFC calls from SAP.</span></span> <span data-ttu-id="f6b79-104">針對傳入的 tRFCs[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]支援多個 tRFCs 中的工作 (LUW) 相同的 SAP 邏輯單元。</span><span class="sxs-lookup"><span data-stu-id="f6b79-104">For inbound tRFCs, the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] supports multiple tRFCs in the same SAP logical unit of work (LUW).</span></span>  

@@ -11,7 +11,7 @@ helpviewer_keywords:
 - applications [SSO], listing properties
 - managing [SSO applications], listing properties
 ms.assetid: a120acd7-2f0b-4c72-8a8a-f8e500a773c8
-caps.latest.revision: ''
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25971924"
 ---
 # <a name="how-to-list-the-properties-of-an-affiliate-application"></a><span data-ttu-id="67dcb-102">如何列出分支機構應用程式的屬性</span><span class="sxs-lookup"><span data-stu-id="67dcb-102">How to List the Properties of an Affiliate Application</span></span>
 <span data-ttu-id="67dcb-103">此命令顯示分支機構應用程式的下列相關資訊。</span><span class="sxs-lookup"><span data-stu-id="67dcb-103">This command shows the following information about the affiliate application.</span></span> <span data-ttu-id="67dcb-104">如需分支機構應用程式屬性的詳細資訊，請參閱[SSO 分支機構應用程式](../core/sso-affiliate-applications.md)。</span><span class="sxs-lookup"><span data-stu-id="67dcb-104">For more information about the properties for an affiliate application, see [SSO Affiliate Applications](../core/sso-affiliate-applications.md).</span></span>  
@@ -32,7 +33,7 @@ ms.lasthandoff: 03/28/2018
   
 2.  <span data-ttu-id="67dcb-109">在命令列，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="67dcb-109">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="67dcb-110">預設安裝目錄是\<*磁碟機*\>: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="67dcb-110">The default installation directory is \<*drive*\>:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-3.  <span data-ttu-id="67dcb-111">型別 * * ssomanage-displayapp *\<應用程式名稱\>* * *，其中*\<應用程式名稱\>*的分支機構應用程式想要顯示的屬性名稱。</span><span class="sxs-lookup"><span data-stu-id="67dcb-111">Type **ssomanage –displayapp *\<application name\>***, where *\<application name\>* is the name of the Affiliate Application you want to display the properties for.</span></span>  
+3.  <span data-ttu-id="67dcb-111">型別 * * ssomanage-displayapp *\<應用程式名稱\>* * *，其中*\<應用程式名稱\>* 的分支機構應用程式想要顯示的屬性名稱。</span><span class="sxs-lookup"><span data-stu-id="67dcb-111">Type **ssomanage –displayapp *\<application name\>***, where *\<application name\>* is the name of the Affiliate Application you want to display the properties for.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="67dcb-112">在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。</span><span class="sxs-lookup"><span data-stu-id="67dcb-112">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  
@@ -43,7 +44,7 @@ ms.lasthandoff: 03/28/2018
   
 2.  <span data-ttu-id="67dcb-115">在命令列，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="67dcb-115">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="67dcb-116">預設安裝目錄是\<*安裝磁碟機*\>: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="67dcb-116">The default installation directory is \<*install drive*\>:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-3.  <span data-ttu-id="67dcb-117">型別 * * ssoclient – displayapp *\<應用程式名稱\>* * *，其中*\<應用程式名稱\>*的分支機構應用程式想要顯示的屬性名稱。</span><span class="sxs-lookup"><span data-stu-id="67dcb-117">Type **ssoclient –displayapp *\<application name\>***, where *\<application name\>* is the name of the Affiliate Application you want to display the properties for.</span></span>  
+3.  <span data-ttu-id="67dcb-117">型別 * * ssoclient – displayapp *\<應用程式名稱\>* * *，其中*\<應用程式名稱\>* 的分支機構應用程式想要顯示的屬性名稱。</span><span class="sxs-lookup"><span data-stu-id="67dcb-117">Type **ssoclient –displayapp *\<application name\>***, where *\<application name\>* is the name of the Affiliate Application you want to display the properties for.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="67dcb-118">在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。</span><span class="sxs-lookup"><span data-stu-id="67dcb-118">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  

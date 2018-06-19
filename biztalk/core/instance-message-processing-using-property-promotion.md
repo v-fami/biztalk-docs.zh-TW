@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22257894"
 ---
 # <a name="instance-message-processing-using-property-promotion"></a><span data-ttu-id="44068-102">使用屬性升級處理執行個體訊息</span><span class="sxs-lookup"><span data-stu-id="44068-102">Instance Message Processing Using Property Promotion</span></span>
 <span data-ttu-id="44068-103">使用 升級屬性 **屬性欄位** 方法需要建立屬性結構描述。</span><span class="sxs-lookup"><span data-stu-id="44068-103">Promoting properties by using the **Property Field** method requires the creation of a property schema.</span></span> <span data-ttu-id="44068-104">如需有關如何建立屬性結構描述的詳細資訊，請參閱[如何建立屬性結構描述](../core/how-to-create-property-schemas.md)。</span><span class="sxs-lookup"><span data-stu-id="44068-104">For more information about creating a property schema, see [How to Create Property Schemas](../core/how-to-create-property-schemas.md).</span></span> <span data-ttu-id="44068-105">當您使用所有的屬性升級 **升級屬性** 對話方塊中，以存取使用 **升級屬性** 屬性 **結構描述** 訊息結構描述中的節點。</span><span class="sxs-lookup"><span data-stu-id="44068-105">As with all property promotion, you use the **Promote Properties** dialog box, which is accessible by using the **Promote Properties** property of the **Schema** node in message schemas.</span></span>  

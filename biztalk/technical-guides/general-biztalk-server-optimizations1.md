@@ -1,14 +1,14 @@
 ---
-title: "一般 BizTalk Server Optimizations1 |Microsoft 文件"
-ms.custom: 
+title: 一般 BizTalk Server Optimizations1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e8032553-bae3-440d-9197-b926160b0bdf
-caps.latest.revision: "28"
+caps.latest.revision: 28
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25976788"
 ---
 # <a name="general-biztalk-server-optimizations"></a><span data-ttu-id="2f90a-102">一般 BizTalk Server 最佳化</span><span class="sxs-lookup"><span data-stu-id="2f90a-102">General BizTalk Server Optimizations</span></span>
 <span data-ttu-id="2f90a-103">下列建議可以用於增加 BizTalk Server 效能。</span><span class="sxs-lookup"><span data-stu-id="2f90a-103">The following recommendations can be used to increase BizTalk Server performance.</span></span> <span data-ttu-id="2f90a-104">安裝和設定 BizTalk Server 後，會套用本主題中列出的最佳化。</span><span class="sxs-lookup"><span data-stu-id="2f90a-104">The optimizations listed in this topic are applied after BizTalk Server has been installed and configured.</span></span>  
@@ -244,7 +245,7 @@ ms.lasthandoff: 01/17/2018
 |<span data-ttu-id="2f90a-257">執行緒設定</span><span class="sxs-lookup"><span data-stu-id="2f90a-257">Threading settings</span></span>|<span data-ttu-id="2f90a-258">預設值</span><span class="sxs-lookup"><span data-stu-id="2f90a-258">Default value</span></span>|<span data-ttu-id="2f90a-259">建議值</span><span class="sxs-lookup"><span data-stu-id="2f90a-259">Recommended value</span></span>|  
 |------------------------|-------------------|-----------------------|  
 |<span data-ttu-id="2f90a-260">最大 IO 執行緒</span><span class="sxs-lookup"><span data-stu-id="2f90a-260">Maximum IO Threads</span></span>|<span data-ttu-id="2f90a-261">250</span><span class="sxs-lookup"><span data-stu-id="2f90a-261">250</span></span>|<span data-ttu-id="2f90a-262">250</span><span class="sxs-lookup"><span data-stu-id="2f90a-262">250</span></span>|  
-|<span data-ttu-id="2f90a-263">最大工作者執行緒</span><span class="sxs-lookup"><span data-stu-id="2f90a-263">Maximum Worker Threads</span></span>|<span data-ttu-id="2f90a-264">25</span><span class="sxs-lookup"><span data-stu-id="2f90a-264">25</span></span>|<span data-ttu-id="2f90a-265">100**重要事項：**增加此值超過 100，則可以有裝載 BizTalk Server MessageBox 資料庫之 SQL Server 電腦的效能造成負面影響。</span><span class="sxs-lookup"><span data-stu-id="2f90a-265">100 **Important:**  Increasing this value beyond 100 can have an adverse effect on the performance of the SQL Server computer hosting the BizTalk Server MessageBox database.</span></span> <span data-ttu-id="2f90a-266">發生此問題時，SQL Server 可能會遇到死結狀況。</span><span class="sxs-lookup"><span data-stu-id="2f90a-266">When this problem occurs, SQL Server may encounter a deadlock condition.</span></span> <span data-ttu-id="2f90a-267">我們建議您在不增加超過 100 的值，這個參數。</span><span class="sxs-lookup"><span data-stu-id="2f90a-267">We recommend not increasing this parameter beyond a value of 100.</span></span>|  
+|<span data-ttu-id="2f90a-263">最大工作者執行緒</span><span class="sxs-lookup"><span data-stu-id="2f90a-263">Maximum Worker Threads</span></span>|<span data-ttu-id="2f90a-264">25</span><span class="sxs-lookup"><span data-stu-id="2f90a-264">25</span></span>|<span data-ttu-id="2f90a-265">100**重要事項：** 增加此值超過 100，則可以有裝載 BizTalk Server MessageBox 資料庫之 SQL Server 電腦的效能造成負面影響。</span><span class="sxs-lookup"><span data-stu-id="2f90a-265">100 **Important:**  Increasing this value beyond 100 can have an adverse effect on the performance of the SQL Server computer hosting the BizTalk Server MessageBox database.</span></span> <span data-ttu-id="2f90a-266">發生此問題時，SQL Server 可能會遇到死結狀況。</span><span class="sxs-lookup"><span data-stu-id="2f90a-266">When this problem occurs, SQL Server may encounter a deadlock condition.</span></span> <span data-ttu-id="2f90a-267">我們建議您在不增加超過 100 的值，這個參數。</span><span class="sxs-lookup"><span data-stu-id="2f90a-267">We recommend not increasing this parameter beyond a value of 100.</span></span>|  
 |<span data-ttu-id="2f90a-268">最小 IO 執行緒</span><span class="sxs-lookup"><span data-stu-id="2f90a-268">Minimum IO Threads</span></span>|<span data-ttu-id="2f90a-269">25</span><span class="sxs-lookup"><span data-stu-id="2f90a-269">25</span></span>|<span data-ttu-id="2f90a-270">25</span><span class="sxs-lookup"><span data-stu-id="2f90a-270">25</span></span>|  
 |<span data-ttu-id="2f90a-271">最小的背景工作執行緒</span><span class="sxs-lookup"><span data-stu-id="2f90a-271">Minimum Worker Threads</span></span>|<span data-ttu-id="2f90a-272">5</span><span class="sxs-lookup"><span data-stu-id="2f90a-272">5</span></span>|<span data-ttu-id="2f90a-273">25</span><span class="sxs-lookup"><span data-stu-id="2f90a-273">25</span></span>|  
   

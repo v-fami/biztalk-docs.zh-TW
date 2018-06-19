@@ -1,11 +1,11 @@
 ---
-title: "使用 BizTalk 專案系統 |Microsoft 文件"
-ms.custom: 
+title: 使用 BizTalk 專案系統 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BizTalk Editor, opening
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Orchestration Designer, opening
 - Pipeline Designer, opening
 ms.assetid: a28c715e-128c-463a-b421-9b3efe76a530
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008191"
 ---
 # <a name="using-the-biztalk-project-system"></a><span data-ttu-id="eb179-102">使用 BizTalk 專案系統</span><span class="sxs-lookup"><span data-stu-id="eb179-102">Using the BizTalk Project System</span></span>
 <span data-ttu-id="eb179-103">您可以使用 BizTalk 專案系統，在 Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 環境下建立、組織和設定 BizTalk 方案。</span><span class="sxs-lookup"><span data-stu-id="eb179-103">You can use the BizTalk project system to create, organize, and configure BizTalk solutions in the Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] environment.</span></span> <span data-ttu-id="eb179-104">本節中的主題與程序描述如何透過使用 BizTalk 專案系統執行許多工作。</span><span class="sxs-lookup"><span data-stu-id="eb179-104">The topics and procedures in this section describe how to perform various tasks by using the BizTalk project system.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "Ops 配接器實作詳細資料 |Microsoft 文件"
-ms.custom: 
+title: Ops 配接器實作詳細資料 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - batching, Ops adapters
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Ops adapters, transaction handling
 - process management solution tutorial, Ops adapters
 ms.assetid: dbca31ca-c3d8-4a25-9356-ef4bbab671e1
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970780"
 ---
 # <a name="ops-adapter-implementation-details"></a><span data-ttu-id="8ee9a-102">Ops 配接器實作詳細資料</span><span class="sxs-lookup"><span data-stu-id="8ee9a-102">Ops Adapter Implementation Details</span></span>
 <span data-ttu-id="8ee9a-103">您會發現以程式設計方式修改或設定配接器時，瞭解 Ops 配接器的下列層面是非常有用的。</span><span class="sxs-lookup"><span data-stu-id="8ee9a-103">You may find it useful to understand the following aspects of the Ops adapter when modifying the adapter or configuring it programmatically.</span></span>  

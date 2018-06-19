@@ -1,11 +1,11 @@
 ---
-title: "訊息佇列的佇列 |Microsoft 文件"
-ms.custom: 
+title: 訊息佇列的佇列 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring [MSMQ adapters], queue paths
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - naming conventions, queue paths [MSMQ adapters]
 - configuring [MSMQ adapters], message queues
 ms.assetid: b802348e-8543-4b06-a6e4-149b86139fb1
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971460"
 ---
 # <a name="message-queuing-queues"></a><span data-ttu-id="d0795-102">訊息佇列的佇列</span><span class="sxs-lookup"><span data-stu-id="d0795-102">Message Queuing Queues</span></span>
 <span data-ttu-id="d0795-103">本節描述使用 MSMQ 配接器時如何指定 Microsoft Message Queuing (也稱為 MSMQ) 佇列。</span><span class="sxs-lookup"><span data-stu-id="d0795-103">This section describes how to specify Microsoft Message Queuing (also known as MSMQ) queues when you use the MSMQ adapter.</span></span> <span data-ttu-id="d0795-104">內容不但描述指定路徑的慣例，同時也說明格式名稱在轉譯路徑成為佇列目的地時所扮演的角色。</span><span class="sxs-lookup"><span data-stu-id="d0795-104">It describes the conventions for specifying paths and also describes the role that format names play in translating paths into queue designations.</span></span>  
@@ -40,9 +41,9 @@ ms.lasthandoff: 11/28/2017
 |<span data-ttu-id="d0795-109">公用佇列</span><span class="sxs-lookup"><span data-stu-id="d0795-109">Public queue</span></span>|<span data-ttu-id="d0795-110">*Computername*\QueueName</span><span class="sxs-lookup"><span data-stu-id="d0795-110">*Computername*\QueueName</span></span>|  
 |<span data-ttu-id="d0795-111">私用佇列</span><span class="sxs-lookup"><span data-stu-id="d0795-111">Private queue</span></span>|<span data-ttu-id="d0795-112">*Computername*\Private$\QueueName</span><span class="sxs-lookup"><span data-stu-id="d0795-112">*Computername*\Private$\QueueName</span></span>|  
 |<span data-ttu-id="d0795-113">記錄檔佇列</span><span class="sxs-lookup"><span data-stu-id="d0795-113">Journal queue</span></span>|<span data-ttu-id="d0795-114">*Computername*\QueueName\Journal$</span><span class="sxs-lookup"><span data-stu-id="d0795-114">*Computername*\QueueName\Journal$</span></span>|  
-|<span data-ttu-id="d0795-115">電腦日誌佇列**附註：**用於只接收佇列。</span><span class="sxs-lookup"><span data-stu-id="d0795-115">Computer journal queue **Note:**  Use for receive queue only.</span></span>|<span data-ttu-id="d0795-116">*Computername*\Journal$</span><span class="sxs-lookup"><span data-stu-id="d0795-116">*Computername*\Journal$</span></span>|  
-|<span data-ttu-id="d0795-117">電腦寄不出的信件佇列**附註：**用於只接收佇列。</span><span class="sxs-lookup"><span data-stu-id="d0795-117">Computer dead-letter queue **Note:**  Use for receive queue only.</span></span>|<span data-ttu-id="d0795-118">*Computername*\Deadletter$</span><span class="sxs-lookup"><span data-stu-id="d0795-118">*Computername*\Deadletter$</span></span>|  
-|<span data-ttu-id="d0795-119">電腦交易無法寄不出信件佇列**附註：**用於只接收佇列。</span><span class="sxs-lookup"><span data-stu-id="d0795-119">Computer transaction dead-letter queue **Note:**  Use for receive queue only.</span></span>|<span data-ttu-id="d0795-120">*Computername*\XactDeadletter$</span><span class="sxs-lookup"><span data-stu-id="d0795-120">*Computername*\XactDeadletter$</span></span>|  
+|<span data-ttu-id="d0795-115">電腦日誌佇列**附註：** 用於只接收佇列。</span><span class="sxs-lookup"><span data-stu-id="d0795-115">Computer journal queue **Note:**  Use for receive queue only.</span></span>|<span data-ttu-id="d0795-116">*Computername*\Journal$</span><span class="sxs-lookup"><span data-stu-id="d0795-116">*Computername*\Journal$</span></span>|  
+|<span data-ttu-id="d0795-117">電腦寄不出的信件佇列**附註：** 用於只接收佇列。</span><span class="sxs-lookup"><span data-stu-id="d0795-117">Computer dead-letter queue **Note:**  Use for receive queue only.</span></span>|<span data-ttu-id="d0795-118">*Computername*\Deadletter$</span><span class="sxs-lookup"><span data-stu-id="d0795-118">*Computername*\Deadletter$</span></span>|  
+|<span data-ttu-id="d0795-119">電腦交易無法寄不出信件佇列**附註：** 用於只接收佇列。</span><span class="sxs-lookup"><span data-stu-id="d0795-119">Computer transaction dead-letter queue **Note:**  Use for receive queue only.</span></span>|<span data-ttu-id="d0795-120">*Computername*\XactDeadletter$</span><span class="sxs-lookup"><span data-stu-id="d0795-120">*Computername*\XactDeadletter$</span></span>|  
   
 > [!NOTE]
 >  <span data-ttu-id="d0795-121">佇列的路徑必須是唯一的。</span><span class="sxs-lookup"><span data-stu-id="d0795-121">The path of the queue must be unique.</span></span>  

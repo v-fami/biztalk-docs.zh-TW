@@ -1,17 +1,17 @@
 ---
-title: "貸款處理使用商務規則 （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: 貸款處理使用商務規則 （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, business rules
 - business rules, examples
 ms.assetid: 3e1c80c6-adc1-4a0f-83fd-409ce1b8f21f
-caps.latest.revision: "28"
+caps.latest.revision: 28
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008343"
 ---
 # <a name="loans-processing-using-business-rules-biztalk-server-sample"></a><span data-ttu-id="2d97d-102">貸款處理使用商務規則 （BizTalk Server 範例）</span><span class="sxs-lookup"><span data-stu-id="2d97d-102">Loans Processing Using Business Rules (BizTalk Server Sample)</span></span>
 <span data-ttu-id="2d97d-103">「使用商務規則處理貸款」範例將示範如何使用協調流程內管理的規則集，以及如何使用稱為「事實」的輸入組合，計算所處理文件內某些欄位的設定。</span><span class="sxs-lookup"><span data-stu-id="2d97d-103">The Loans Processing Using Business Rules sample demonstrates how to use a set of rules managed within an orchestration, and how to use a combination of inputs known as facts, to calculate settings for some fields within a document being processed.</span></span> <span data-ttu-id="2d97d-104">事實可以是呼叫 .NET 架構組件的結果，從訊息的 XML 擷取的值，或是從資料庫擷取的資料。</span><span class="sxs-lookup"><span data-stu-id="2d97d-104">Facts can be the result of calling a .NET-based assembly, the values retrieved from the XML of the message, or the data retrieved from a database.</span></span> <span data-ttu-id="2d97d-105">此範例還會示範，如何隨時變更規則來影響後續計算，而不需重新部署。</span><span class="sxs-lookup"><span data-stu-id="2d97d-105">The sample also demonstrates how you can change the rules at any time, affecting subsequent calculations without the need to redeploy.</span></span>  
@@ -141,7 +142,7 @@ ms.lasthandoff: 12/01/2017
     |<span data-ttu-id="2d97d-207">4</span><span class="sxs-lookup"><span data-stu-id="2d97d-207">4</span></span>|<span data-ttu-id="2d97d-208">Residency Status Rule</span><span class="sxs-lookup"><span data-stu-id="2d97d-208">Residency Status Rule</span></span>|<span data-ttu-id="2d97d-209">如果**PlaceOfResidence &#124;TimeInMonths** > 18</span><span class="sxs-lookup"><span data-stu-id="2d97d-209">IF **PlaceOfResidence &#124; TimeInMonths** > 18</span></span><br /><br /> <span data-ttu-id="2d97d-210">然後**ResidencyStatus** = **有效**</span><span class="sxs-lookup"><span data-stu-id="2d97d-210">THEN **ResidencyStatus** = **Valid**</span></span>|  
     |<span data-ttu-id="2d97d-211">!1, !2, !3, !4</span><span class="sxs-lookup"><span data-stu-id="2d97d-211">!1, !2, !3, !4</span></span>|<span data-ttu-id="2d97d-212">Negation Rules</span><span class="sxs-lookup"><span data-stu-id="2d97d-212">Negation Rules</span></span>|<span data-ttu-id="2d97d-213">條件的邏輯**不**對應規則 1 – 4 中所述的條件。</span><span class="sxs-lookup"><span data-stu-id="2d97d-213">Conditions that are a logical **NOT** of the corresponding condition described in rules 1–4.</span></span> <span data-ttu-id="2d97d-214">結果動作為所設定字串的變更。</span><span class="sxs-lookup"><span data-stu-id="2d97d-214">Resulting actions are a change in the string that is being set.</span></span>|  
   
-6.  <span data-ttu-id="2d97d-215">以滑鼠右鍵按一下**版本 1.1 （未儲存）**節點，然後再按一下**儲存**。</span><span class="sxs-lookup"><span data-stu-id="2d97d-215">Right-click the **Version 1.1(not saved)** node, and then click **Save**.</span></span>  
+6.  <span data-ttu-id="2d97d-215">以滑鼠右鍵按一下**版本 1.1 （未儲存）** 節點，然後再按一下**儲存**。</span><span class="sxs-lookup"><span data-stu-id="2d97d-215">Right-click the **Version 1.1(not saved)** node, and then click **Save**.</span></span>  
   
 7.  <span data-ttu-id="2d97d-216">以滑鼠右鍵按一下**1.1 版**節點，然後再按一下**發行**。</span><span class="sxs-lookup"><span data-stu-id="2d97d-216">Right-click the **Version 1.1** node, and then click **Publish**.</span></span>  
   

@@ -1,14 +1,14 @@
 ---
-title: "具現化外掛式配接器 |Microsoft 文件"
-ms.custom: 
+title: 具現化外掛式配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9b8359a3-b098-4bb6-87b4-d3432d2671b1
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257486"
 ---
 # <a name="instantiating-isolated-adapters"></a><span data-ttu-id="94e55-102">讓外掛式配接器具現化</span><span class="sxs-lookup"><span data-stu-id="94e55-102">Instantiating Isolated Adapters</span></span>
 <span data-ttu-id="94e55-103">之前討論過，外掛式配接器不會由 BizTalk Server 具現化，</span><span class="sxs-lookup"><span data-stu-id="94e55-103">As discussed earlier, isolated adapters are not instantiated by BizTalk Server.</span></span> <span data-ttu-id="94e55-104">而是在另一個處理序中具現化及裝載。</span><span class="sxs-lookup"><span data-stu-id="94e55-104">Rather, they are instantiated and hosted in another process.</span></span> <span data-ttu-id="94e55-105">要建立它的傳輸 proxy 的配接器負責**QueryInterface**，如**IBTTransportProxy**，然後呼叫**IBTTransportProxy**。**RegisterIsolatedReceiver**向 「 傳訊引擎。</span><span class="sxs-lookup"><span data-stu-id="94e55-105">It is the responsibility of the adapter to create its transport proxy, **QueryInterface**, for **IBTTransportProxy**, and then call **IBTTransportProxy**.**RegisterIsolatedReceiver** to register with the Messaging Engine.</span></span>  
@@ -56,7 +57,7 @@ private IBTTransportProxy transportProxy;
 }  
 ```  
   
- <span data-ttu-id="94e55-114">**實作秘訣：**建議配接器應進行中的計數。</span><span class="sxs-lookup"><span data-stu-id="94e55-114">**Implementation Tip:** We recommend that the adapter keep a count of the work in progress.</span></span> <span data-ttu-id="94e55-115">此配接器應封鎖**Terminate**訊息計數達到零以前。</span><span class="sxs-lookup"><span data-stu-id="94e55-115">The adapter should block **Terminate** until the message count has reached zero.</span></span> <span data-ttu-id="94e55-116">在接收端，這項工作包含尚未發佈至 BizTalk Server 的任何未完成的要求。</span><span class="sxs-lookup"><span data-stu-id="94e55-116">On the receive side this work includes any outstanding requests that have not been published to BizTalk Server.</span></span> <span data-ttu-id="94e55-117">回應訊息不會傳遞至接收配接器之後**Terminate**已呼叫。</span><span class="sxs-lookup"><span data-stu-id="94e55-117">Response messages are not delivered to a receive adapter after **Terminate** has been called.</span></span>  
+ <span data-ttu-id="94e55-114">**實作秘訣：** 建議配接器應進行中的計數。</span><span class="sxs-lookup"><span data-stu-id="94e55-114">**Implementation Tip:** We recommend that the adapter keep a count of the work in progress.</span></span> <span data-ttu-id="94e55-115">此配接器應封鎖**Terminate**訊息計數達到零以前。</span><span class="sxs-lookup"><span data-stu-id="94e55-115">The adapter should block **Terminate** until the message count has reached zero.</span></span> <span data-ttu-id="94e55-116">在接收端，這項工作包含尚未發佈至 BizTalk Server 的任何未完成的要求。</span><span class="sxs-lookup"><span data-stu-id="94e55-116">On the receive side this work includes any outstanding requests that have not been published to BizTalk Server.</span></span> <span data-ttu-id="94e55-117">回應訊息不會傳遞至接收配接器之後**Terminate**已呼叫。</span><span class="sxs-lookup"><span data-stu-id="94e55-117">Response messages are not delivered to a receive adapter after **Terminate** has been called.</span></span>  
   
  <span data-ttu-id="94e55-118">對於傳送配接器而言，應該會以適當方式處理進行中的訊息。</span><span class="sxs-lookup"><span data-stu-id="94e55-118">For send adapters, messages that are in progress should be handled appropriately.</span></span> <span data-ttu-id="94e55-119">這表示，已成功傳遞的任何訊息都應該從配接器的私用應用程式訊息佇列中刪除，以免將訊息傳送一次以上。</span><span class="sxs-lookup"><span data-stu-id="94e55-119">This means any message that was successfully delivered should be deleted from the adapter's private application message queue to prevent messages from being sent more than once.</span></span>  
   

@@ -1,14 +1,14 @@
 ---
-title: "逐步解說： 以程式設計方式執行原則 |Microsoft 文件"
-ms.custom: 
+title: 逐步解說： 以程式設計方式執行原則 |Microsoft 文件
+ms.custom: ''
 ms.date: 2016-04-05
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6398e7af-2ed1-4596-879c-3b7d000b8de2
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290374"
 ---
 # <a name="walkthrough-executing-the-policy-programmatically"></a><span data-ttu-id="f1dc4-102">逐步解說： 以程式設計方式執行原則</span><span class="sxs-lookup"><span data-stu-id="f1dc4-102">Walkthrough: Executing the Policy Programmatically</span></span>
 <span data-ttu-id="f1dc4-103">本逐步解說提供逐步程序來叫用您在中建立的原則[逐步解說： 建立簡單商務原則](../core/walkthrough-creating-a-simple-business-policy.md)從主控台應用程式的逐步解說以程式設計的方式。</span><span class="sxs-lookup"><span data-stu-id="f1dc4-103">This walkthrough provides step-by-step procedures for invoking the policy you created in the [Walkthrough: Creating a Simple Business Policy](../core/walkthrough-creating-a-simple-business-policy.md) walkthrough from a console application programmatically.</span></span>  

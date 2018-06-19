@@ -1,17 +1,17 @@
 ---
-title: "步驟 6： 設定協調流程圖形 (Contoso) |Microsoft 文件"
-ms.custom: 
+title: 步驟 6： 設定協調流程圖形 (Contoso) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, configuring shapes
 - private process tutorial, configuring orchestration shapes
 ms.assetid: ce680693-cf72-4ca6-a062-019de5a9257b
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009383"
 ---
 # <a name="step-6-configuring-orchestration-shapes-contoso"></a><span data-ttu-id="700b8-102">步驟 6： 設定協調流程圖形 (Contoso)</span><span class="sxs-lookup"><span data-stu-id="700b8-102">Step 6: Configuring Orchestration Shapes (Contoso)</span></span>
 <span data-ttu-id="700b8-103">在此步驟中，您會設定您加入至您在中建立的 PrivateResponder 協調流程的協調流程圖形[步驟 5： 修改 Contoso 私用程序協調流程](../../adapters-and-accelerators/accelerator-rosettanet/step-5-modifying-the-contoso-private-process-orchestration.md)。</span><span class="sxs-lookup"><span data-stu-id="700b8-103">In this step, you configure the orchestration shapes you added to the PrivateResponder orchestration that you created in [Step 5: Modifying the Contoso Private Process Orchestration](../../adapters-and-accelerators/accelerator-rosettanet/step-5-modifying-the-contoso-private-process-orchestration.md).</span></span> <span data-ttu-id="700b8-104">這包括設定之間的通訊[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® BizTalk Server 和 Contoso 的企業資源規劃 (ERP) 系統。</span><span class="sxs-lookup"><span data-stu-id="700b8-104">This includes setting up the communication between [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® BizTalk Server and the Enterprise Resource Planning (ERP) system for Contoso.</span></span>  
@@ -46,11 +47,11 @@ ms.lasthandoff: 12/01/2017
   
 2.  <span data-ttu-id="700b8-113">在 [屬性] 視窗中，選取**建構訊息**屬性，然後再選取**Contoso3A2RequestMessage**從下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="700b8-113">In the Properties window, select the **Message Constructed** property, and then select **Contoso3A2RequestMessage** from the drop-down list.</span></span>  
   
-3.  <span data-ttu-id="700b8-114">選取**[transform_1]**圖形內**ConstructContoso3A2RequestMessage**圖形。</span><span class="sxs-lookup"><span data-stu-id="700b8-114">Select the **Transform_1** shape within the **ConstructContoso3A2RequestMessage** shape.</span></span>  
+3.  <span data-ttu-id="700b8-114">選取 **[transform_1]** 圖形內**ConstructContoso3A2RequestMessage**圖形。</span><span class="sxs-lookup"><span data-stu-id="700b8-114">Select the **Transform_1** shape within the **ConstructContoso3A2RequestMessage** shape.</span></span>  
   
 4.  <span data-ttu-id="700b8-115">在 [屬性] 視窗中，選取**對應名稱**屬性，然後按一下省略符號按鈕 (**...**) 若要開啟 [轉換組態] 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="700b8-115">In the Properties window, select the **Map Name** property, and then click the ellipsis button (**…**) to open the Transform Configuration dialog box.</span></span>  
   
-5.  <span data-ttu-id="700b8-116">在 [轉換組態] 對話方塊中，按一下**現有對應**，然後在**完整格式對應名稱] 方塊**，選取**\<選取 [從參考組件\>**從下拉式清單，以開啟 [選取成品類型] 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="700b8-116">In the Transform Configuration dialog box, click **Existing Map**, and then in the **Fully Qualified Map Name box**, select **\<Select from Referenced Assembly\>** from the drop-down list to open the Select Artifact Type dialog box.</span></span>  
+5.  <span data-ttu-id="700b8-116">在 [轉換組態] 對話方塊中，按一下**現有對應**，然後在**完整格式對應名稱] 方塊**，選取**\<選取 [從參考組件\>** 從下拉式清單，以開啟 [選取成品類型] 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="700b8-116">In the Transform Configuration dialog box, click **Existing Map**, and then in the **Fully Qualified Map Name box**, select **\<Select from Referenced Assembly\>** from the drop-down list to open the Select Artifact Type dialog box.</span></span>  
   
 6.  <span data-ttu-id="700b8-117">在 選取成品類型 對話方塊中，選取  **ContosoPriceAndAvailability**組件，在左窗格中，選取**PIP3A2RequestToContosoPriceRequest**右窗格中的對應，然後按一下  **確定**。</span><span class="sxs-lookup"><span data-stu-id="700b8-117">In the Select Artifact Type dialog box, select the **ContosoPriceAndAvailability** assembly in the left pane, select **PIP3A2RequestToContosoPriceRequest** map in the right pane, and then click **OK**.</span></span>  
   
@@ -76,7 +77,7 @@ ms.lasthandoff: 12/01/2017
   
 2.  <span data-ttu-id="700b8-128">在 [屬性] 視窗中，選取**建構的訊息**屬性，然後再選取**PIP3A2ResponseMessage**從下拉式清單，然後按下**Enter**。</span><span class="sxs-lookup"><span data-stu-id="700b8-128">In the Properties window, select the **Messages Constructed** property, and then select **PIP3A2ResponseMessage** from the drop-down list, and then press **Enter**.</span></span>  
   
-3.  <span data-ttu-id="700b8-129">選取**[transform_2]**圖形內**Construct3A2ResponseMessage**圖形。</span><span class="sxs-lookup"><span data-stu-id="700b8-129">Select the **Transform_2** shape within the **Construct3A2ResponseMessage** shape.</span></span>  
+3.  <span data-ttu-id="700b8-129">選取 **[transform_2]** 圖形內**Construct3A2ResponseMessage**圖形。</span><span class="sxs-lookup"><span data-stu-id="700b8-129">Select the **Transform_2** shape within the **Construct3A2ResponseMessage** shape.</span></span>  
   
 4.  <span data-ttu-id="700b8-130">在 [屬性] 視窗中，按一下**對應名稱**，然後按一下省略符號按鈕 (**...**).</span><span class="sxs-lookup"><span data-stu-id="700b8-130">In the Properties window, click **Map Name**, and then click the ellipsis button (**…**).</span></span>  
   

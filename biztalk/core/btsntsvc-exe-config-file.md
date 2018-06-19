@@ -1,14 +1,14 @@
 ---
-title: "BTSNTSvc.exe.config 檔案 |Microsoft 文件"
-ms.custom: 
+title: BTSNTSvc.exe.config 檔案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f2bb89a7-4fff-4ccf-a0a7-20ca610f2ddf
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26004815"
 ---
 # <a name="btsntsvcexeconfig-file"></a><span data-ttu-id="0d2df-102">BTSNTSvc.exe.config 檔</span><span class="sxs-lookup"><span data-stu-id="0d2df-102">BTSNTSvc.exe.config File</span></span>
 <span data-ttu-id="0d2df-103">凍結屬性及其預設值都是可設定在[!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)]或 BizTalk 組態檔 （BTSNTSvc.exe.config 或 BTSNTSvc64.exe.config） 中的 XML。</span><span class="sxs-lookup"><span data-stu-id="0d2df-103">Dehydration properties and their default values are configurable in [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)] or as XML in the BizTalk configuration file (BTSNTSvc.exe.config or BTSNTSvc64.exe.config).</span></span> <span data-ttu-id="0d2df-104">BizTalk 組態檔中的值將先套用。</span><span class="sxs-lookup"><span data-stu-id="0d2df-104">The values in the BizTalk configuration file are applied first.</span></span> <span data-ttu-id="0d2df-105">然後 [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)] 設定才會套用。</span><span class="sxs-lookup"><span data-stu-id="0d2df-105">Then, the [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)] settings are applied.</span></span> <span data-ttu-id="0d2df-106">所有包含協調流程的主控件執行個體啟動時，將讀取凍結屬性。</span><span class="sxs-lookup"><span data-stu-id="0d2df-106">The dehydration properties are read when all host instances containing an orchestration start.</span></span>  

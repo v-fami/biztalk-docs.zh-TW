@@ -1,11 +1,11 @@
 ---
-title: "什麼是訊息追蹤？ | Microsoft Docs"
-ms.custom: 
+title: 什麼是訊息追蹤？ | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - HAT, metadata
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - configuring [HAT tracking], messages
 - data, security
 ms.assetid: 51cec59d-b411-4d8f-b771-7b2cf0f38945
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974636"
 ---
 # <a name="what-is-message-tracking"></a><span data-ttu-id="b74cf-103">什麼是訊息追蹤？</span><span class="sxs-lookup"><span data-stu-id="b74cf-103">What is Message Tracking?</span></span>
 <span data-ttu-id="b74cf-104">訊息是資料的電子執行個體，通常在兩個執行的商務程序或應用程式之間進行交換。</span><span class="sxs-lookup"><span data-stu-id="b74cf-104">A message is an electronic instance of data, as typically exchanged between two running business processes or applications.</span></span> <span data-ttu-id="b74cf-105">訊息執行個體是由訊息內文、訊息屬性和中繼資料組成的。</span><span class="sxs-lookup"><span data-stu-id="b74cf-105">A message instance is made up of a message body, message properties, and metadata.</span></span>  

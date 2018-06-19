@@ -1,14 +1,14 @@
 ---
-title: "EDI 通知的已知問題 |Microsoft 文件"
-ms.custom: 
+title: EDI 通知的已知問題 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a769a78e-8a49-4aa4-899e-e9f54fdd5f37
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262238"
 ---
 # <a name="known-issues-with-edi-acknowledgments"></a><span data-ttu-id="e912e-102">EDI 通知的已知問題</span><span class="sxs-lookup"><span data-stu-id="e912e-102">Known Issues with EDI Acknowledgments</span></span>
 <span data-ttu-id="e912e-103">本主題說明 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中有關 EDI 通知的已知問題。</span><span class="sxs-lookup"><span data-stu-id="e912e-103">This topic describes known issues with EDI acknowledgments in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  

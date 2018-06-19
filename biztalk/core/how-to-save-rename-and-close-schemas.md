@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 65e15d9e-40ae-4850-9c13-88033cb3b3bb
-caps.latest.revision: ''
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25972364"
 ---
 # <a name="how-to-save-rename-and-close-schemas"></a><span data-ttu-id="74ff2-102">如何儲存、重新命名及關閉結構描述</span><span class="sxs-lookup"><span data-stu-id="74ff2-102">How to Save, Rename, and Close Schemas</span></span>
 <span data-ttu-id="74ff2-103">在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中，結構描述為 XML 結構描述定義 (XSD) 語言檔案，以 .xsd 副檔名存在檔案系統上。</span><span class="sxs-lookup"><span data-stu-id="74ff2-103">In [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], schemas are XML Schema definition (XSD) language files and reside on the file system with .xsd extensions.</span></span> <span data-ttu-id="74ff2-104">當您使用「BizTalk 編輯器」開發結構描述時，需要定期儲存和關閉結構描述檔案，偶爾可能需要重新命名這些檔案。</span><span class="sxs-lookup"><span data-stu-id="74ff2-104">When you use BizTalk Editor to develop schemas, you will routinely need to save and close schema files, and occasionally you may need to rename them.</span></span> <span data-ttu-id="74ff2-105">本主題描述執行這些基本作業所需的步驟。</span><span class="sxs-lookup"><span data-stu-id="74ff2-105">This topic describes the steps required to perform these basic operations.</span></span>  
@@ -30,7 +31,7 @@ ms.lasthandoff: 03/28/2018
      <span data-ttu-id="74ff2-109">若結構描述之前有未儲存的變更，則其顯示在主要編輯視窗頂端索引標籤中的名稱結尾將不再有星號 (\*) 以指示未儲存的變更。</span><span class="sxs-lookup"><span data-stu-id="74ff2-109">If the schema had unsaved changes, its name as displayed on the tab at the top of the main editing window will no longer end with an asterisk (\*), which is used to indicate unsaved changes.</span></span>  
   
 > [!NOTE]
->  <span data-ttu-id="74ff2-110">您可以按一下以儲存新的名稱下的結構描述**儲存*\<名稱的結構描述\>*為**上**檔案**功能表。</span><span class="sxs-lookup"><span data-stu-id="74ff2-110">You can save the schema under a new name by clicking **Save *\<Name of Schema\>* As** on the **File** menu.</span></span>  
+>  <span data-ttu-id="74ff2-110">您可以按一下以儲存新的名稱下的結構描述**儲存*\<名稱的結構描述\>* 為**上**檔案**功能表。</span><span class="sxs-lookup"><span data-stu-id="74ff2-110">You can save the schema under a new name by clicking **Save *\<Name of Schema\>* As** on the **File** menu.</span></span>  
   
 > [!NOTE]
 >  <span data-ttu-id="74ff2-111">您可以儲存結構描述做為一部分的所有變更的項目儲存在專案中，依序按一下 **全部儲存** 上 **檔案** 功能表。</span><span class="sxs-lookup"><span data-stu-id="74ff2-111">You can save the schema as part of saving all changed items in the project by clicking **Save All** on the **File** menu.</span></span>  

@@ -16,7 +16,7 @@ helpviewer_keywords:
 - WCF services, publishing
 - tutorials, WCF adapters
 ms.assetid: 43b76215-9cb0-47ab-a085-c4cf265410f9
-caps.latest.revision: ''
+caps.latest.revision: 72
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26010463"
 ---
 # <a name="walkthrough-publishing-wcf-services-with-the-wcf-basichttp-adapter"></a><span data-ttu-id="a3aae-102">逐步解說： 使用發佈 WCF 服務 Wcf-basichttp 配接器</span><span class="sxs-lookup"><span data-stu-id="a3aae-102">Walkthrough: Publishing WCF Services with the WCF-BasicHttp Adapter</span></span>
 ## <a name="introduction"></a><span data-ttu-id="a3aae-103">簡介</span><span class="sxs-lookup"><span data-stu-id="a3aae-103">Introduction</span></span>  
@@ -112,7 +113,7 @@ ms.lasthandoff: 03/28/2018
   
 6.  <span data-ttu-id="a3aae-182">在 **協調流程和連接埠** 頁面上，請確定 **連接埠︰ DeliveryRequestPort** 在頁面上，選取節點，然後再按一下 **下一步**。</span><span class="sxs-lookup"><span data-stu-id="a3aae-182">On the **Orchestrations and Ports** page, make sure that the **Port: DeliveryRequestPort** node is selected on the page, and then click **Next**.</span></span> <span data-ttu-id="a3aae-183">選取此節點表示其對應的更高層級節點也會選取。</span><span class="sxs-lookup"><span data-stu-id="a3aae-183">Selecting this node means that its corresponding higher-level nodes are selected as well.</span></span> <span data-ttu-id="a3aae-184">而連接埠就會以裝載 WCF-BasicHttp 配接器的要求-回應接收位置來發佈。</span><span class="sxs-lookup"><span data-stu-id="a3aae-184">The port will be published with a request-response receive location hosting the WCF-BasicHttp adapter.</span></span>  
   
-7.  <span data-ttu-id="a3aae-185">在**WCF 服務屬性**頁面上，於**目標**命名空間的**WCF 服務**文字方塊中，輸入您想要這個已發佈的 URI[!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]服務使用，並然後按一下 **下一步**。</span><span class="sxs-lookup"><span data-stu-id="a3aae-185">On the **WCF Service Properties** page, in the **Target** namespace of the **WCF service** text box, type a URI that you want this published [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service to use, and then click **Next**.</span></span> <span data-ttu-id="a3aae-186">此逐步解說中，保留預設 URI"**http://tempuri.org/"**的目標命名空間中[!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]服務文字方塊。</span><span class="sxs-lookup"><span data-stu-id="a3aae-186">For this walkthrough, leave the default URI, "**http://tempuri.org/"** in the Target namespace of the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service text box.</span></span>  
+7.  <span data-ttu-id="a3aae-185">在**WCF 服務屬性**頁面上，於**目標**命名空間的**WCF 服務**文字方塊中，輸入您想要這個已發佈的 URI[!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]服務使用，並然後按一下 **下一步**。</span><span class="sxs-lookup"><span data-stu-id="a3aae-185">On the **WCF Service Properties** page, in the **Target** namespace of the **WCF service** text box, type a URI that you want this published [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service to use, and then click **Next**.</span></span> <span data-ttu-id="a3aae-186">此逐步解說中，保留預設 URI"**http://tempuri.org/"** 的目標命名空間中[!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]服務文字方塊。</span><span class="sxs-lookup"><span data-stu-id="a3aae-186">For this walkthrough, leave the default URI, "**http://tempuri.org/"** in the Target namespace of the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service text box.</span></span>  
   
 8.  <span data-ttu-id="a3aae-187">在**WCF 服務位置**頁面上，執行下列動作，以指定的位置[!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]服務來建立，然後按一下**下一步**:</span><span class="sxs-lookup"><span data-stu-id="a3aae-187">On the **WCF Service Location** page, perform the following actions to specify the location of the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] services to create, and then click **Next**:</span></span>  
   

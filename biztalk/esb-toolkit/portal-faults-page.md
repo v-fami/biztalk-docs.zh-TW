@@ -1,14 +1,14 @@
 ---
-title: "入口網站錯誤網頁 |Microsoft 文件"
-ms.custom: 
+title: 入口網站錯誤網頁 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b11e3492-da1a-43f3-acf8-3775b5cbc2c5
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294606"
 ---
 # <a name="portal-faults-page"></a><span data-ttu-id="009de-102">入口網站的錯誤頁面</span><span class="sxs-lookup"><span data-stu-id="009de-102">Portal Faults Page</span></span>
 <span data-ttu-id="009de-103">圖 1 顯示錯誤頁面。</span><span class="sxs-lookup"><span data-stu-id="009de-103">Figure 1 shows the Faults page.</span></span> <span data-ttu-id="009de-104">此頁面會顯示每個錯誤的主要屬性，並提供排序和篩選的準則，例如錯誤類型和時間範圍內支援的錯誤詳細的分析的功能。</span><span class="sxs-lookup"><span data-stu-id="009de-104">This page displays the main properties of each fault, and it provides sorting and filtering capabilities that support detailed analysis of faults over a range of criteria, such as error type and time.</span></span> <span data-ttu-id="009de-105">每個錯誤的連結可讓您在錯誤訊息檢視器中檢視更多詳細資料。</span><span class="sxs-lookup"><span data-stu-id="009de-105">A link for each fault allows you to view more details in the Fault Message Viewer.</span></span>  
@@ -33,7 +34,7 @@ ms.lasthandoff: 09/20/2017
   
     -   <span data-ttu-id="009de-112">選取已安裝的 BizTalk 應用程式中的任一**應用程式**下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="009de-112">Select any one of the installed BizTalk applications in the **Application** drop-down list.</span></span>  
   
-    -   <span data-ttu-id="009de-113">指定在錯誤發生選取的週期**小時、 天、 週、 月、 季、 年、**或**所有**中**擷取內最後一個記錄**下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="009de-113">Specify the period within which the fault occurred by selecting **hour, day, week, month, quarter, year,** or **all** in the **Retrieve records within last** drop-down list.</span></span>  
+    -   <span data-ttu-id="009de-113">指定在錯誤發生選取的週期**小時、 天、 週、 月、 季、 年、** 或**所有**中**擷取內最後一個記錄**下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="009de-113">Specify the period within which the fault occurred by selecting **hour, day, week, month, quarter, year,** or **all** in the **Retrieve records within last** drop-down list.</span></span>  
   
     -   <span data-ttu-id="009de-114">指定您想要顯示在頁面上的資料列數目**記錄每頁**下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="009de-114">Specify how many rows you want to display on the page in the **Records Per Page** drop-down list.</span></span>  
   
@@ -43,7 +44,7 @@ ms.lasthandoff: 09/20/2017
   
     -   <span data-ttu-id="009de-117">輸入全部或部分中的錯誤類型文字**錯誤類型**文字方塊。</span><span class="sxs-lookup"><span data-stu-id="009de-117">Type all or part of the error type text in the **Error Type** text box.</span></span>  
   
-    -   <span data-ttu-id="009de-118">輸入最小和/或最大錯誤嚴重性的值 (例如**警告、 錯誤、 嚴重，**或**重大**) 中**Min 錯誤嚴重性**和**最大錯誤嚴重性**文字方塊。</span><span class="sxs-lookup"><span data-stu-id="009de-118">Type a value for the minimum and/or maximum fault severity (such as **Warning, Error, Severe,** or **Critical**) in the **Min Fault Severity** and **Max Fault Severity** text boxes.</span></span>  
+    -   <span data-ttu-id="009de-118">輸入最小和/或最大錯誤嚴重性的值 (例如**警告、 錯誤、 嚴重，** 或**重大**) 中**Min 錯誤嚴重性**和**最大錯誤嚴重性**文字方塊。</span><span class="sxs-lookup"><span data-stu-id="009de-118">Type a value for the minimum and/or maximum fault severity (such as **Warning, Error, Severe,** or **Critical**) in the **Min Fault Severity** and **Max Fault Severity** text boxes.</span></span>  
   
 -   <span data-ttu-id="009de-119">您可以指定值的一個或多個控制項之後，請按一下**套用篩選器**按鈕以套用指定的準則。</span><span class="sxs-lookup"><span data-stu-id="009de-119">After you specify the values for one or more of these controls, click the **Apply Filters** button to apply all the specified criteria.</span></span>  
   

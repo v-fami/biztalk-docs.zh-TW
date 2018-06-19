@@ -1,11 +1,11 @@
 ---
-title: "逐步解說： 使用 XML 信封 （基本） |Microsoft 文件"
-ms.custom: 
+title: 逐步解說： 使用 XML 信封 （基本） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - content-based routing, promoting properties
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - routing, messages
 - routing, promoting properties
 ms.assetid: 02d0c596-0cfe-4bae-9f1b-d7dbc17e18a9
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975749"
 ---
 # <a name="walkthrough-using-xml-envelopes-basic"></a><span data-ttu-id="b2d98-102">逐步解說： 使用 XML 信封 （基本）</span><span class="sxs-lookup"><span data-stu-id="b2d98-102">Walkthrough: Using XML Envelopes (Basic)</span></span>
 <span data-ttu-id="b2d98-103">此範例藉由實作虛構錯誤追蹤系統的一部分，示範基本的 XML 信封解譯。</span><span class="sxs-lookup"><span data-stu-id="b2d98-103">This example demonstrates basic XML envelope disassembly by implementing part of a fictitious error-tracking system.</span></span> <span data-ttu-id="b2d98-104">這個範例符合下列需求：</span><span class="sxs-lookup"><span data-stu-id="b2d98-104">The example meets the following requirements:</span></span>  
@@ -105,7 +106,7 @@ ms.lasthandoff: 11/28/2017
   
 3.  <span data-ttu-id="b2d98-151">將根節點的名稱，由 "Root" 變更為 "Envelope"。</span><span class="sxs-lookup"><span data-stu-id="b2d98-151">Change the name of the root node from "Root" to "Envelope".</span></span>  
   
-4.  <span data-ttu-id="b2d98-152">現在將結構描述標示為信封結構描述。</span><span class="sxs-lookup"><span data-stu-id="b2d98-152">Now mark the schema as an envelope schema.</span></span> <span data-ttu-id="b2d98-153">按一下**\<結構描述\>**節點。</span><span class="sxs-lookup"><span data-stu-id="b2d98-153">Click the **\<Schema\>** node.</span></span> <span data-ttu-id="b2d98-154">在 屬性 窗格中，設定 結構描述參考屬性**信封**至`OK`。</span><span class="sxs-lookup"><span data-stu-id="b2d98-154">In the Properties pane, set the schema reference property **Envelope** to `OK`.</span></span>  
+4.  <span data-ttu-id="b2d98-152">現在將結構描述標示為信封結構描述。</span><span class="sxs-lookup"><span data-stu-id="b2d98-152">Now mark the schema as an envelope schema.</span></span> <span data-ttu-id="b2d98-153">按一下**\<結構描述\>** 節點。</span><span class="sxs-lookup"><span data-stu-id="b2d98-153">Click the **\<Schema\>** node.</span></span> <span data-ttu-id="b2d98-154">在 屬性 窗格中，設定 結構描述參考屬性**信封**至`OK`。</span><span class="sxs-lookup"><span data-stu-id="b2d98-154">In the Properties pane, set the schema reference property **Envelope** to `OK`.</span></span>  
   
 5.  <span data-ttu-id="b2d98-155">設定**Body XPath**屬性。</span><span class="sxs-lookup"><span data-stu-id="b2d98-155">Set the **Body XPath** property.</span></span> <span data-ttu-id="b2d98-156">若要這樣做，請按一下**信封**節點。</span><span class="sxs-lookup"><span data-stu-id="b2d98-156">To do this, click the **Envelope** node.</span></span> <span data-ttu-id="b2d98-157">在 屬性 視窗中，按一下省略符號 (**...**) 按鈕**Body XPath**屬性選取**信封**，然後按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="b2d98-157">In the Properties window, click the ellipsis (**...**) button in the **Body XPath** property, select **Envelope**, and then click **OK**.</span></span>  
   
@@ -202,7 +203,7 @@ ms.lasthandoff: 11/28/2017
   
 3.  <span data-ttu-id="b2d98-217">中**設定管線-XMLReceive** ] 對話方塊中，將**可復原交換處理**屬性`True`，然後按一下 [**確定**。</span><span class="sxs-lookup"><span data-stu-id="b2d98-217">In the **Configure Pipeline - XMLReceive** dialog box, set the **Recoverable Interchange Processing** property to `True`, and then click **OK**.</span></span>  
   
-4.  <span data-ttu-id="b2d98-218">按一下**確定**關閉**接收位置屬性**對話方塊，然後按一下**[確定]**關閉**接收埠屬性**對話方塊方塊。</span><span class="sxs-lookup"><span data-stu-id="b2d98-218">Click **OK** to close the **Receive Location Properties** dialog box, and then click **OK** to close the **Receive Port Properties** dialog box.</span></span>  
+4.  <span data-ttu-id="b2d98-218">按一下**確定**關閉**接收位置屬性**對話方塊，然後按一下 **[確定]** 關閉**接收埠屬性**對話方塊方塊。</span><span class="sxs-lookup"><span data-stu-id="b2d98-218">Click **OK** to close the **Receive Location Properties** dialog box, and then click **OK** to close the **Receive Port Properties** dialog box.</span></span>  
   
 ##### <a name="to-create-a-sample-file-and-run-the-example"></a><span data-ttu-id="b2d98-219">若要建立範例檔案，然後執行範例</span><span class="sxs-lookup"><span data-stu-id="b2d98-219">To create a sample file and run the example</span></span>  
   

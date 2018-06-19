@@ -1,11 +1,11 @@
 ---
-title: "如何啟動傳送埠或傳送埠群組 |Microsoft 文件"
-ms.custom: 
+title: 如何啟動傳送埠或傳送埠群組 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - starting, send port groups
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - send port groups, starting
 - send ports, starting
 ms.assetid: f17c0b7c-cad7-4c5e-a08c-3ebf838faa54
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255598"
 ---
 # <a name="how-to-start-a-send-port-or-send-port-group"></a><span data-ttu-id="62c4c-102">如何啟動傳送埠或傳送埠群組</span><span class="sxs-lookup"><span data-stu-id="62c4c-102">How to Start a Send Port or Send Port Group</span></span>
 <span data-ttu-id="62c4c-103">本主題描述如何使用 BizTalk Server 管理主控台來啟動傳送埠或傳送埠群組。</span><span class="sxs-lookup"><span data-stu-id="62c4c-103">This topic describes how to use the BizTalk Server Administration console to start a send port or send port group.</span></span> <span data-ttu-id="62c4c-104">傳送埠或傳送埠群組必須被啟動，才能處理訊息。</span><span class="sxs-lookup"><span data-stu-id="62c4c-104">You must start a send port or send port group before it can process messages.</span></span> <span data-ttu-id="62c4c-105">如果您啟動已取消登錄的傳送埠或傳送埠群組，BizTalk 便會在啟動傳送埠或傳送埠群組之前將其登錄。</span><span class="sxs-lookup"><span data-stu-id="62c4c-105">If you start an unenlisted send port or send port group, BizTalk enlists the send port or send port group before starting it.</span></span> <span data-ttu-id="62c4c-106">傳送埠群組必須包含至少一個處於已登錄狀態的傳送埠，才能加以啟動。</span><span class="sxs-lookup"><span data-stu-id="62c4c-106">A send port group must contain at least one send port in an enlisted state before you can start the send port group.</span></span> <span data-ttu-id="62c4c-107">啟動和停止傳送埠群組不會影響它所包含的任何傳送埠的狀態。</span><span class="sxs-lookup"><span data-stu-id="62c4c-107">Starting and stopping a send port group does not affect the state of any send ports that it contains.</span></span>  

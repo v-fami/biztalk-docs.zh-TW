@@ -1,14 +1,14 @@
 ---
-title: "如何處理配接器失敗 |Microsoft 文件"
-ms.custom: 
+title: 如何處理配接器失敗 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bdceb364-38d6-4aab-a176-bf751da1be25
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255926"
 ---
 # <a name="how-to-handle-adapter-failures"></a><span data-ttu-id="e4451-102">如何處理配接器失敗</span><span class="sxs-lookup"><span data-stu-id="e4451-102">How to Handle Adapter Failures</span></span>
 <span data-ttu-id="e4451-103">一般而言，配接器應該會擱置無法處理的訊息。</span><span class="sxs-lookup"><span data-stu-id="e4451-103">In general, adapters should suspend messages that they cannot process.</span></span> <span data-ttu-id="e4451-104">舉例來說，雖然是否擱置訊息是依配接器的用途而定，但是發生提交失敗時，接收配接器通常會擱置訊息。</span><span class="sxs-lookup"><span data-stu-id="e4451-104">For example, a receive adapter that experiences a submit failure should typically suspend the messages, although this decision depends upon the purpose of the adapter.</span></span> <span data-ttu-id="e4451-105">此外，在處理這類失敗時，還必須注意一些安全性考量。</span><span class="sxs-lookup"><span data-stu-id="e4451-105">There are also security considerations around handling failures.</span></span> <span data-ttu-id="e4451-106">例如，如果配接器自動擱置所有失敗的訊息，表示配接器可能容易受到拒絕服務攻擊，導致 BizTalk Server 擱置佇列被填滿。</span><span class="sxs-lookup"><span data-stu-id="e4451-106">For example, if an adapter automatically suspends all failed messages, the adapter might be open to a denial-of-service attack that causes the BizTalk Server Suspended queue to fill up.</span></span>  <span data-ttu-id="e4451-107">某些配接器 (例如 HTTP) 會傳回失敗碼給用戶端，指出要求已遭到拒絕。</span><span class="sxs-lookup"><span data-stu-id="e4451-107">Some adapters, such as HTTP, can return a failure code to the client indicating that the request has been rejected.</span></span> <span data-ttu-id="e4451-108">就這些配接器類型而言，傳回失敗碼通常會比擱置訊息來得有意義。</span><span class="sxs-lookup"><span data-stu-id="e4451-108">For these types of adapters it often makes sense to return a failure code rather than suspend the message.</span></span> <span data-ttu-id="e4451-109">一般來說，在用盡主要和次要傳輸的所有重試次數之後，傳送配接器只會擱置訊息。</span><span class="sxs-lookup"><span data-stu-id="e4451-109">Typically send adapters only suspend messages after all of the retries have been exhausted for both primary and secondary transports.</span></span>  
@@ -31,9 +32,9 @@ ms.lasthandoff: 09/20/2017
 ## <a name="use-seterrorinfo-to-report-failure-to-biztalk-server"></a><span data-ttu-id="e4451-118">使用 SetErrorInfo 回報失敗給 BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="e4451-118">Use SetErrorInfo to Report Failure to BizTalk Server</span></span>  
  <span data-ttu-id="e4451-119">如果您要擱置訊息，必須將先前訊息內容中的失敗資訊提供給 BizTalk Server。</span><span class="sxs-lookup"><span data-stu-id="e4451-119">If you are suspending a message, you must provide failure information to BizTalk Server from the previous message context.</span></span> <span data-ttu-id="e4451-120">BizTalk Server 提供的錯誤報告功能採用**SetErrorInfo**上兩個方法**IBaseMessage**和**Seterrorinfo**介面。</span><span class="sxs-lookup"><span data-stu-id="e4451-120">BizTalk Server provides error reporting capabilities using the **SetErrorInfo** method on both the **IBaseMessage** and **ITransportProxy** interfaces.</span></span> <span data-ttu-id="e4451-121">您可以使用下列方式報告錯誤：</span><span class="sxs-lookup"><span data-stu-id="e4451-121">You can report errors as follows:</span></span>  
   
--   <span data-ttu-id="e4451-122">發生失敗時處理訊息時，設定例外狀況使用**SetErrorInfo （例外電子）**訊息 (**IBaseMessage**) 要暫止。</span><span class="sxs-lookup"><span data-stu-id="e4451-122">When a failure occurs while processing a message, set the exception using **SetErrorInfo(Exception e)** on the message (**IBaseMessage**) to be suspended.</span></span> <span data-ttu-id="e4451-123">這可讓引擎保存錯誤和訊息，以便日後進行診斷，並且將錯誤記錄到事件記錄檔中，以警告系統管理員。</span><span class="sxs-lookup"><span data-stu-id="e4451-123">This allows the engine to preserve the error with the message for later diagnosis and logs it to the event log to alert the administrator.</span></span>  
+-   <span data-ttu-id="e4451-122">發生失敗時處理訊息時，設定例外狀況使用**SetErrorInfo （例外電子）** 訊息 (**IBaseMessage**) 要暫止。</span><span class="sxs-lookup"><span data-stu-id="e4451-122">When a failure occurs while processing a message, set the exception using **SetErrorInfo(Exception e)** on the message (**IBaseMessage**) to be suspended.</span></span> <span data-ttu-id="e4451-123">這可讓引擎保存錯誤和訊息，以便日後進行診斷，並且將錯誤記錄到事件記錄檔中，以警告系統管理員。</span><span class="sxs-lookup"><span data-stu-id="e4451-123">This allows the engine to preserve the error with the message for later diagnosis and logs it to the event log to alert the administrator.</span></span>  
   
--   <span data-ttu-id="e4451-124">如果您在初始化或內部簿記期間遇到錯誤 （不會在訊息處理） 應該呼叫**SetErrorInfo （例外電子）**上**Seterrorinfo**指標傳遞給您在初始化期間。</span><span class="sxs-lookup"><span data-stu-id="e4451-124">If you encounter an error during initialization or internal bookkeeping (not during message processing) you should call **SetErrorInfo(Exception e)** on the **ITransportProxy** pointer that was passed to you during initialization.</span></span> <span data-ttu-id="e4451-125">如果您的配接器以 BaseAdapter 實作為基礎，那麼您應該永遠擁有這個指標的存取權限。</span><span class="sxs-lookup"><span data-stu-id="e4451-125">If your adapter is based on the BaseAdapter implementation, you should always have access to this pointer.</span></span> <span data-ttu-id="e4451-126">否則，您應該可以快取這個指標。</span><span class="sxs-lookup"><span data-stu-id="e4451-126">Otherwise, you should be certain that you cache it.</span></span>  
+-   <span data-ttu-id="e4451-124">如果您在初始化或內部簿記期間遇到錯誤 （不會在訊息處理） 應該呼叫**SetErrorInfo （例外電子）** 上**Seterrorinfo**指標傳遞給您在初始化期間。</span><span class="sxs-lookup"><span data-stu-id="e4451-124">If you encounter an error during initialization or internal bookkeeping (not during message processing) you should call **SetErrorInfo(Exception e)** on the **ITransportProxy** pointer that was passed to you during initialization.</span></span> <span data-ttu-id="e4451-125">如果您的配接器以 BaseAdapter 實作為基礎，那麼您應該永遠擁有這個指標的存取權限。</span><span class="sxs-lookup"><span data-stu-id="e4451-125">If your adapter is based on the BaseAdapter implementation, you should always have access to this pointer.</span></span> <span data-ttu-id="e4451-126">否則，您應該可以快取這個指標。</span><span class="sxs-lookup"><span data-stu-id="e4451-126">Otherwise, you should be certain that you cache it.</span></span>  
   
  <span data-ttu-id="e4451-127">使用上述方法報告錯誤會導致錯誤訊息被寫入事件記錄檔。</span><span class="sxs-lookup"><span data-stu-id="e4451-127">Reporting an error with either of these methods results in the error message being written to the event log.</span></span> <span data-ttu-id="e4451-128">很重要，您將錯誤關聯相關的訊息。 如果您可以執行這項操作。</span><span class="sxs-lookup"><span data-stu-id="e4451-128">It is important that you associate the error with the related message if you are able to do so.</span></span>  
   

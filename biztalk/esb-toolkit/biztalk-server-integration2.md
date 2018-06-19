@@ -1,14 +1,14 @@
 ---
-title: "BizTalk Server Integration2 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Server Integration2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 562a628d-52cb-4aae-8729-b5ba855bea5f
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007079"
 ---
 # <a name="biztalk-server-integration"></a><span data-ttu-id="1bee0-102">BizTalk Server 整合</span><span class="sxs-lookup"><span data-stu-id="1bee0-102">BizTalk Server Integration</span></span>
 <span data-ttu-id="1bee0-103">AmberPoint 封裝做為自訂 BizTalk 管線元件的 Microsoft BizTalk Server 整合產品。</span><span class="sxs-lookup"><span data-stu-id="1bee0-103">AmberPoint packages its Microsoft BizTalk Server integration product as a custom BizTalk pipeline component.</span></span> <span data-ttu-id="1bee0-104">圖 1 所示，您可以加入至您現有的自訂管線，使用 Visual Studio 中，此元件。</span><span class="sxs-lookup"><span data-stu-id="1bee0-104">You can add this component to your existing custom pipelines using Visual Studio, as shown in Figure 1.</span></span>  

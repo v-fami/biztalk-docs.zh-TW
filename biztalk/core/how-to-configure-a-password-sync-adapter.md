@@ -1,14 +1,14 @@
 ---
-title: "如何設定密碼同步配接器 |Microsoft 文件"
-ms.custom: 
+title: 如何設定密碼同步配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0effdc9b-4aee-4674-90c5-03dfd7cc4cd6
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247350"
 ---
 # <a name="how-to-configure-a-password-sync-adapter"></a><span data-ttu-id="816c6-102">如何設定密碼同步配接器</span><span class="sxs-lookup"><span data-stu-id="816c6-102">How to Configure a Password Sync Adapter</span></span>
 <span data-ttu-id="816c6-103">完成建立密碼同步配接器之後，必須將配接器載入系統。</span><span class="sxs-lookup"><span data-stu-id="816c6-103">After you have finished creating your password sync adapter, you must load your adapter on to a system.</span></span> <span data-ttu-id="816c6-104">此外，必須通知「企業單一登入」(ENTSSO) 和組態存放區，您的應用程式為密碼同步配接器。</span><span class="sxs-lookup"><span data-stu-id="816c6-104">Additionally, you must inform Enterprise Single Sign-On (ENTSSO) and the configuration store that your application is a password sync adapter.</span></span> <span data-ttu-id="816c6-105">您必須向組態存放區，基於安全性考量： 您的配接器將會要求更新密碼與其他認證。</span><span class="sxs-lookup"><span data-stu-id="816c6-105">You must register with the configuration store for security purposes: your adapter will request updates to passwords and other credentials.</span></span> <span data-ttu-id="816c6-106">因此，ENTSSO 必須知道是否已允許指定的配接器要求這類權限。</span><span class="sxs-lookup"><span data-stu-id="816c6-106">Therefore, ENTSSO must know that a given adapter is allowed to ask for such permissions.</span></span>  

@@ -1,18 +1,18 @@
 ---
-title: "WCF 訊息與協調流程中使用 SOAP 標頭 |Microsoft 文件"
-ms.custom: 
+title: WCF 訊息與協調流程中使用 SOAP 標頭 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, SOAP headers [WCF services]
 - WCF services, orchestrations
 - WCF services, SOAP headers
 ms.assetid: 31c01e35-a2a6-4ea9-bdf4-6d4311268dbe
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972908"
 ---
 # <a name="using-soap-headers-in-wcf-messages-with-orchestrations"></a><span data-ttu-id="a96df-102">在協調流程使用 WCF 訊息中的 SOAP 標頭</span><span class="sxs-lookup"><span data-stu-id="a96df-102">Using SOAP Headers in WCF Messages with Orchestrations</span></span>
 <span data-ttu-id="a96df-103">若要傳送外寄 WCF 訊息自訂 SOAP 標頭在協調流程中，您可以使用內容屬性， **WCF。OutboundCustomHeaders**。</span><span class="sxs-lookup"><span data-stu-id="a96df-103">To send the custom SOAP headers with outgoing WCF messages in orchestrations, you use the context property, **WCF.OutboundCustomHeaders**.</span></span> <span data-ttu-id="a96df-104">WCF 配接器傳送自訂 SOAP 標頭結合的標準 SOAP 標頭，WCF 基礎結構會使用適用於 Web 服務標準，例如 Ws-addressing、 Ws-security 和 Ws-atomictransaction。</span><span class="sxs-lookup"><span data-stu-id="a96df-104">The WCF adapters send the custom SOAP headers combined with the standard SOAP headers that the WCF infrastructure uses for Web services standards such as WS-Addressing, WS-Security, and WS-AtomicTransaction.</span></span> <span data-ttu-id="a96df-105">當您使用**OutboundCustomHeaders**屬性，屬性必須有\<**標頭**\>元素是根項目。</span><span class="sxs-lookup"><span data-stu-id="a96df-105">When you use the **OutboundCustomHeaders** property, the property must have the \<**headers**\> element as the root element.</span></span> <span data-ttu-id="a96df-106">所有自訂 SOAP 標頭必須置於\<**標頭**\>項目。</span><span class="sxs-lookup"><span data-stu-id="a96df-106">All of the custom SOAP headers must be placed inside the \<**headers**\> element.</span></span> <span data-ttu-id="a96df-107">如果自訂 SOAP 標頭值為空字串，您必須指派\<**標頭**\>\</**標頭**\>或\<**標頭**/ \>至**OutboundCustomHeaders**屬性。</span><span class="sxs-lookup"><span data-stu-id="a96df-107">If the custom SOAP header value is an empty string, you must assign \<**headers**\>\</**headers**\> or \<**headers**/\> to the **OutboundCustomHeaders** property.</span></span>  

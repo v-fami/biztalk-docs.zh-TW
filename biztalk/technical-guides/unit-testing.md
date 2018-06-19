@@ -1,14 +1,14 @@
 ---
-title: "單元測試 |Microsoft 文件"
-ms.custom: 
+title: 單元測試 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c40e5b82-dbb2-4767-8286-88e2de4129f3
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009831"
 ---
 # <a name="unit-testing"></a><span data-ttu-id="78ed1-102">單元測試</span><span class="sxs-lookup"><span data-stu-id="78ed1-102">Unit Testing</span></span>
 <span data-ttu-id="78ed1-103">BizTalk Server 導入的單元測試功能，可在啟用**部署**BizTalk 專案的屬性頁。</span><span class="sxs-lookup"><span data-stu-id="78ed1-103">BizTalk Server introduces a unit testing feature that can be enabled on the **Deployment** property page of a BizTalk project.</span></span> <span data-ttu-id="78ed1-104">下列螢幕擷取畫面顯示存取專案設計工具中，當您以滑鼠右鍵按一下專案，然後按一下此專案設定**屬性**。</span><span class="sxs-lookup"><span data-stu-id="78ed1-104">The following screenshot shows this project setting accessed from Project Designer when you right-click a project and click **Properties**.</span></span>  

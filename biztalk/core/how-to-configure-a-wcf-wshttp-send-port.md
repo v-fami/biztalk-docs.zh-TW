@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 035d9a62-b8a3-4705-a7bc-b62676437206
-caps.latest.revision: ''
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25974660"
 ---
 # <a name="how-to-configure-a-wcf-wshttp-send-port"></a><span data-ttu-id="f4c6c-102">如何設定 WCF-WSHttp 傳送埠</span><span class="sxs-lookup"><span data-stu-id="f4c6c-102">How to Configure a WCF-WSHttp Send Port</span></span>
 <span data-ttu-id="f4c6c-103">您可以用程式設計方式或使用 BizTalk 管理主控台來設定 WCF-WSHttp 傳送埠。</span><span class="sxs-lookup"><span data-stu-id="f4c6c-103">You can configure a WCF-WSHttp send port either programmatically or by using the BizTalk Administration console.</span></span>  

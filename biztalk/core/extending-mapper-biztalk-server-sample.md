@@ -1,11 +1,11 @@
 ---
-title: "擴充對應工具 （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: 擴充對應工具 （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BizTalk Mapper, examples
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - examples, BizTalk Mapper
 - examples, XML tools
 ms.assetid: 6010a13f-b715-4766-ad91-5aa9b98589e3
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970652"
 ---
 # <a name="extending-mapper-biztalk-server-sample"></a><span data-ttu-id="1ddf3-102">擴充對應工具 （BizTalk Server 範例）</span><span class="sxs-lookup"><span data-stu-id="1ddf3-102">Extending Mapper (BizTalk Server Sample)</span></span>
 <span data-ttu-id="1ddf3-103">「擴充對應工具」範例會示範如何使用和擴充「BizTalk 對應工具」。</span><span class="sxs-lookup"><span data-stu-id="1ddf3-103">The Extending Mapper sample demonstrates how to use and extend BizTalk Mapper.</span></span> <span data-ttu-id="1ddf3-104">此範例包含數個 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 對應檔案 (.btm)，每個檔案都代表「BizTalk 對應工具」的不同功能。</span><span class="sxs-lookup"><span data-stu-id="1ddf3-104">The sample includes several [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] map files (.btm), each of which illustrates different features of BizTalk Mapper.</span></span>  
@@ -31,7 +32,7 @@ ms.lasthandoff: 11/28/2017
  <span data-ttu-id="1ddf3-106">「擴充對應工具」範例會使用根據訊息內容決定路由 (CBR)，而且不會使用協調流程。</span><span class="sxs-lookup"><span data-stu-id="1ddf3-106">The Extending Mapper sample uses content-based routing (CBR) and does not use an orchestration.</span></span> <span data-ttu-id="1ddf3-107">藉由對範例傳送埠指定篩選條件，它會直接連接至範例接收埠。</span><span class="sxs-lookup"><span data-stu-id="1ddf3-107">By specifying a filter on the sample send port, it is connected directly to the sample receive port.</span></span> <span data-ttu-id="1ddf3-108">此外，還會對傳送埠指定對應，以套用到處理過的文件。</span><span class="sxs-lookup"><span data-stu-id="1ddf3-108">A map is specified on the send port to be applied to the processed document.</span></span>  
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="1ddf3-109">可在何處找到此範例</span><span class="sxs-lookup"><span data-stu-id="1ddf3-109">Where to Find This Sample</span></span>  
- <span data-ttu-id="1ddf3-110">*\<範例路徑\>*\XmlTools\ExtendingMapper</span><span class="sxs-lookup"><span data-stu-id="1ddf3-110">*\<Samples Path\>*\XmlTools\ExtendingMapper</span></span>  
+ <span data-ttu-id="1ddf3-110">*\<範例路徑\>* \XmlTools\ExtendingMapper</span><span class="sxs-lookup"><span data-stu-id="1ddf3-110">*\<Samples Path\>* \XmlTools\ExtendingMapper</span></span>  
   
  <span data-ttu-id="1ddf3-111">下表顯示此範例中的檔案，並描述其用途。</span><span class="sxs-lookup"><span data-stu-id="1ddf3-111">The following table shows the files in this sample and describes their purpose.</span></span>  
   
@@ -63,7 +64,7 @@ ms.lasthandoff: 11/28/2017
   
 1.  <span data-ttu-id="1ddf3-153">在命令視窗中，將目錄變更 (**cd**) 至下列資料夾：</span><span class="sxs-lookup"><span data-stu-id="1ddf3-153">In a command window, change directory (**cd**) to the following folder:</span></span>  
   
-     <span data-ttu-id="1ddf3-154">*\<範例路徑\>*\XmlTools\ExtendingMapper</span><span class="sxs-lookup"><span data-stu-id="1ddf3-154">*\<Samples Path\>*\XmlTools\ExtendingMapper</span></span>  
+     <span data-ttu-id="1ddf3-154">*\<範例路徑\>* \XmlTools\ExtendingMapper</span><span class="sxs-lookup"><span data-stu-id="1ddf3-154">*\<Samples Path\>* \XmlTools\ExtendingMapper</span></span>  
   
 2.  <span data-ttu-id="1ddf3-155">執行檔案 Setup.bat，這會執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="1ddf3-155">Run the file Setup.bat, which performs the following actions:</span></span>  
   
@@ -99,13 +100,13 @@ ms.lasthandoff: 11/28/2017
   
 4.  <span data-ttu-id="1ddf3-180">在 Windows 檔案總管，瀏覽至\<Windows 資料夾\>\assembly\\。</span><span class="sxs-lookup"><span data-stu-id="1ddf3-180">In Windows Explorer, navigate to \<Windows folder\>\assembly\\.</span></span>  
   
-    1.  <span data-ttu-id="1ddf3-181">以滑鼠右鍵按一下**[microsoft.samples.biztalk.extendingmapper.mapperclasslibrary]**選取**屬性**。</span><span class="sxs-lookup"><span data-stu-id="1ddf3-181">Right-click **Microsoft.Samples.BizTalk.ExtendingMapper.MapperClassLibrary** and select **Properties**.</span></span>  
+    1.  <span data-ttu-id="1ddf3-181">以滑鼠右鍵按一下 **[microsoft.samples.biztalk.extendingmapper.mapperclasslibrary]** 選取**屬性**。</span><span class="sxs-lookup"><span data-stu-id="1ddf3-181">Right-click **Microsoft.Samples.BizTalk.ExtendingMapper.MapperClassLibrary** and select **Properties**.</span></span>  
   
     2.  <span data-ttu-id="1ddf3-182">複製公開金鑰 Token 值。</span><span class="sxs-lookup"><span data-stu-id="1ddf3-182">Copy the public key token value.</span></span>  
   
-    3.  <span data-ttu-id="1ddf3-183">在文字編輯器中，開啟*\<範例路徑\>*\XML Tools\ExtendingMapper\ExternalAssembly.xml。</span><span class="sxs-lookup"><span data-stu-id="1ddf3-183">In a text editor, open *\<Samples Path\>*\XML Tools\ExtendingMapper\ExternalAssembly.xml.</span></span>  
+    3.  <span data-ttu-id="1ddf3-183">在文字編輯器中，開啟*\<範例路徑\>* \XML Tools\ExtendingMapper\ExternalAssembly.xml。</span><span class="sxs-lookup"><span data-stu-id="1ddf3-183">In a text editor, open *\<Samples Path\>* \XML Tools\ExtendingMapper\ExternalAssembly.xml.</span></span>  
   
-    4.  <span data-ttu-id="1ddf3-184">選取**Microsoft.samples.biztalk.extendingmapper.mapperclasslibrary，Version = 1.0.0.0，Culture = neutral，PublicKeyToken = 68496d20c737d84b"**屬性，並取代**PublicKeyToken**值與公開金鑰語彙基元值複製在步驟 c。</span><span class="sxs-lookup"><span data-stu-id="1ddf3-184">Select the **AssemblyName="Microsoft.Samples.BizTalk.ExtendingMapper.MapperClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=68496d20c737d84b"**attribute, and replace the **PublicKeyToken** value with the public key token value you copied in step c.</span></span>  
+    4.  <span data-ttu-id="1ddf3-184">選取**Microsoft.samples.biztalk.extendingmapper.mapperclasslibrary，Version = 1.0.0.0，Culture = neutral，PublicKeyToken = 68496d20c737d84b"** 屬性，並取代**PublicKeyToken**值與公開金鑰語彙基元值複製在步驟 c。</span><span class="sxs-lookup"><span data-stu-id="1ddf3-184">Select the **AssemblyName="Microsoft.Samples.BizTalk.ExtendingMapper.MapperClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=68496d20c737d84b"** attribute, and replace the **PublicKeyToken** value with the public key token value you copied in step c.</span></span>  
   
     5.  <span data-ttu-id="1ddf3-185">儲存並關閉 ExternalAssembly.xml。</span><span class="sxs-lookup"><span data-stu-id="1ddf3-185">Save and close ExternalAssembly.xml.</span></span>  
   
@@ -141,9 +142,9 @@ ms.lasthandoff: 11/28/2017
   
 #### <a name="to-run-this-sample"></a><span data-ttu-id="1ddf3-235">執行此範例</span><span class="sxs-lookup"><span data-stu-id="1ddf3-235">To run this sample</span></span>  
   
-1.  <span data-ttu-id="1ddf3-236">輸入檔 extendingmapper.xml 複製到輸入資料夾的複本*\<範例路徑\>*\XmlTools\ExtendingMapper\In。</span><span class="sxs-lookup"><span data-stu-id="1ddf3-236">Copy the input file ExtendingMapper.xml into the input folder at *\<Samples Path\>*\XmlTools\ExtendingMapper\In.</span></span>  
+1.  <span data-ttu-id="1ddf3-236">輸入檔 extendingmapper.xml 複製到輸入資料夾的複本*\<範例路徑\>* \XmlTools\ExtendingMapper\In。</span><span class="sxs-lookup"><span data-stu-id="1ddf3-236">Copy the input file ExtendingMapper.xml into the input folder at *\<Samples Path\>* \XmlTools\ExtendingMapper\In.</span></span>  
   
-2.  <span data-ttu-id="1ddf3-237">請注意檔案轉換和路由傳送至如何*\<範例路徑\>*\XmlTools\ExtendingMapper\Out 資料夾。</span><span class="sxs-lookup"><span data-stu-id="1ddf3-237">Notice how the file is transformed and routed to the *\<Samples Path\>*\XmlTools\ExtendingMapper\Out folder.</span></span> <span data-ttu-id="1ddf3-238">這裡執行的轉換是根據您所套用的對應而來。</span><span class="sxs-lookup"><span data-stu-id="1ddf3-238">The transformation that occurs is based on the map you applied.</span></span>  
+2.  <span data-ttu-id="1ddf3-237">請注意檔案轉換和路由傳送至如何*\<範例路徑\>* \XmlTools\ExtendingMapper\Out 資料夾。</span><span class="sxs-lookup"><span data-stu-id="1ddf3-237">Notice how the file is transformed and routed to the *\<Samples Path\>* \XmlTools\ExtendingMapper\Out folder.</span></span> <span data-ttu-id="1ddf3-238">這裡執行的轉換是根據您所套用的對應而來。</span><span class="sxs-lookup"><span data-stu-id="1ddf3-238">The transformation that occurs is based on the map you applied.</span></span>  
   
 ## <a name="see-also"></a><span data-ttu-id="1ddf3-239">請參閱</span><span class="sxs-lookup"><span data-stu-id="1ddf3-239">See Also</span></span>  
  [<span data-ttu-id="1ddf3-240">XML 工具 (BizTalk Server Samples 資料夾)</span><span class="sxs-lookup"><span data-stu-id="1ddf3-240">XML Tools (BizTalk Server Samples Folder)</span></span>](../core/xml-tools-biztalk-server-samples-folder.md)

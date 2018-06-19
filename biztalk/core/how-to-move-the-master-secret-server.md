@@ -1,18 +1,18 @@
 ---
-title: "如何移動主要密碼伺服器 |Microsoft 文件"
-ms.custom: 
+title: 如何移動主要密碼伺服器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [Master Secret server], migrating
 - migrating, Master Secret server
 - Master Secret server, migrating
 ms.assetid: 2bc5137e-f81d-486d-bb91-7c5981896f79
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007807"
 ---
 # <a name="how-to-move-the-master-secret-server"></a><span data-ttu-id="2582f-102">如何移動主要密碼伺服器</span><span class="sxs-lookup"><span data-stu-id="2582f-102">How to Move the Master Secret Server</span></span>
 <span data-ttu-id="2582f-103">您可以遵循本主題所說明的步驟，將某一部伺服器上的主要密碼移動到另一部伺服器，以及將伺服器上的主要密碼移動到「Windows 伺服器叢集」。</span><span class="sxs-lookup"><span data-stu-id="2582f-103">This topic documents the steps you can follow to move the master secret from one server to another and the steps you can follow to move the master secret from one server to a Windows Server Cluster.</span></span>  

@@ -13,7 +13,7 @@ helpviewer_keywords:
 - MQSeries adapters, examples
 - examples, pipelines
 ms.assetid: ac709e45-524b-45ab-9673-060790ecbed2
-caps.latest.revision: ''
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25976116"
 ---
 # <a name="mqssendpipelinecomponent-biztalk-server-sample"></a><span data-ttu-id="779c1-102">MQSSendPipelineComponent (BizTalk Server 範例)</span><span class="sxs-lookup"><span data-stu-id="779c1-102">MQSSendPipelineComponent (BizTalk Server Sample)</span></span>
 <span data-ttu-id="779c1-103">本範例示範如何撰寫可從 XML 檔案讀取一組 MQSeries 屬性值，並將這些屬性值套用至訊息的管線元件。</span><span class="sxs-lookup"><span data-stu-id="779c1-103">This sample demonstrates how to write a pipeline component that reads a set of MQSeries property values from an XML file and applies them to a message.</span></span>  
@@ -31,9 +32,9 @@ ms.lasthandoff: 03/28/2018
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="779c1-106">可在何處找到此範例</span><span class="sxs-lookup"><span data-stu-id="779c1-106">Where to Find This Sample</span></span>  
   
--   <span data-ttu-id="779c1-107">*\<SamplesPath\>*\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyComponent</span><span class="sxs-lookup"><span data-stu-id="779c1-107">*\<SamplesPath\>*\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyComponent</span></span>  
+-   <span data-ttu-id="779c1-107">*\<SamplesPath\>* \AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyComponent</span><span class="sxs-lookup"><span data-stu-id="779c1-107">*\<SamplesPath\>* \AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyComponent</span></span>  
   
--   <span data-ttu-id="779c1-108">*\<SamplesPath\>*\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyPipeline</span><span class="sxs-lookup"><span data-stu-id="779c1-108">*\<SamplesPath\>*\AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyPipeline</span></span>  
+-   <span data-ttu-id="779c1-108">*\<SamplesPath\>* \AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyPipeline</span><span class="sxs-lookup"><span data-stu-id="779c1-108">*\<SamplesPath\>* \AdaptersUsage\MQSeriesAdapter\MQSSendPipelineComponent\SetMQSeriesHeaderPropertyPipeline</span></span>  
   
  <span data-ttu-id="779c1-109">下表顯示此範例中的檔案，並描述其用途。</span><span class="sxs-lookup"><span data-stu-id="779c1-109">The following table shows the files in this sample and describes their purpose.</span></span>  
   
@@ -81,9 +82,9 @@ ms.lasthandoff: 03/28/2018
   
 #### <a name="to-modify-and-compile-the-project-for-the-pipeline-component"></a><span data-ttu-id="779c1-144">若要修改及編譯管線元件的專案</span><span class="sxs-lookup"><span data-stu-id="779c1-144">To modify and compile the project for the pipeline component</span></span>  
   
-1.  <span data-ttu-id="779c1-145">按兩下方案檔， **[setmqseriesheaderpropertycomponent\setmqseriesheaderpropertycomponent.sln]**若要開啟的方案中[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="779c1-145">Double-click the solution file, **SetMQSeriesHeaderPropertyComponent\SetMQSeriesHeaderPropertyComponent.sln** to open the solution in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].</span></span>  
+1.  <span data-ttu-id="779c1-145">按兩下方案檔， **[setmqseriesheaderpropertycomponent\setmqseriesheaderpropertycomponent.sln]** 若要開啟的方案中[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="779c1-145">Double-click the solution file, **SetMQSeriesHeaderPropertyComponent\SetMQSeriesHeaderPropertyComponent.sln** to open the solution in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].</span></span>  
   
-2.  <span data-ttu-id="779c1-146">按兩下類別檔**[csetmqseriesheaderpropertycomponent.cs]**開啟中的類別檔案[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="779c1-146">Double-click the class file **CSetMQSeriesHeaderPropertyComponent.cs** to open the class file in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].</span></span>  
+2.  <span data-ttu-id="779c1-146">按兩下類別檔 **[csetmqseriesheaderpropertycomponent.cs]** 開啟中的類別檔案[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="779c1-146">Double-click the class file **CSetMQSeriesHeaderPropertyComponent.cs** to open the class file in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].</span></span>  
   
 3.  <span data-ttu-id="779c1-147">找出變數 **samplesDir**, ，確認此變數將設定位置 **C:\temp**。</span><span class="sxs-lookup"><span data-stu-id="779c1-147">Locate the variable **samplesDir**, verify that this variable is set to the location **C:\temp**.</span></span>  
   
@@ -103,7 +104,7 @@ ms.lasthandoff: 03/28/2018
   
 #### <a name="to-modify-the-project-for-the-biztalk-server-pipeline"></a><span data-ttu-id="779c1-158">若要修改 BizTalk Server 管線的專案</span><span class="sxs-lookup"><span data-stu-id="779c1-158">To modify the project for the BizTalk Server pipeline</span></span>  
   
-1.  <span data-ttu-id="779c1-159">在[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]，按兩下方案檔，開啟方案**[setmqseriesheaderpropertypipeline\setmqseriesheaderpropertypipeline.sln]**。</span><span class="sxs-lookup"><span data-stu-id="779c1-159">In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open the solution by double-clicking the solution file, **SetMQSeriesHeaderPropertyPipeline\SetMQSeriesHeaderPropertyPipeline.sln**.</span></span>  
+1.  <span data-ttu-id="779c1-159">在[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]，按兩下方案檔，開啟方案 **[setmqseriesheaderpropertypipeline\setmqseriesheaderpropertypipeline.sln]**。</span><span class="sxs-lookup"><span data-stu-id="779c1-159">In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open the solution by double-clicking the solution file, **SetMQSeriesHeaderPropertyPipeline\SetMQSeriesHeaderPropertyPipeline.sln**.</span></span>  
   
 2.  <span data-ttu-id="779c1-160">為專案建立強式名稱金鑰檔案。</span><span class="sxs-lookup"><span data-stu-id="779c1-160">Create a strong name key file for the project.</span></span> <span data-ttu-id="779c1-161">若要這樣做，請執行以下動作：</span><span class="sxs-lookup"><span data-stu-id="779c1-161">To do that, do the following:</span></span>  
   

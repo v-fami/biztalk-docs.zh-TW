@@ -1,11 +1,11 @@
 ---
-title: "更新應用程式的重要考量 |Microsoft 文件"
-ms.custom: 
+title: 更新應用程式的重要考量 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - updating, applications
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - planning, updating
 - updating, planning
 ms.assetid: e7690bdf-943d-4bb6-b8cd-a6841b722d40
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257742"
 ---
 # <a name="important-considerations-for-updating-applications"></a><span data-ttu-id="ecf48-102">更新應用程式的重要考量</span><span class="sxs-lookup"><span data-stu-id="ecf48-102">Important Considerations for Updating Applications</span></span>
 <span data-ttu-id="ecf48-103">以下是在更新應用程式 (特別是在實際執行環境中執行的應用程式) 之前要考量的重要事項。</span><span class="sxs-lookup"><span data-stu-id="ecf48-103">The following are important issues to consider before updating an application, especially one that is running in a production environment.</span></span>  

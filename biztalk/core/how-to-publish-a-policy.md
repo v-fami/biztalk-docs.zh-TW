@@ -1,18 +1,18 @@
 ---
-title: "如何發佈原則 |Microsoft 文件"
-ms.custom: 
+title: 如何發佈原則 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - policies, publishing
 - managing [policies], publishing
 - publishing, policies
 ms.assetid: 730c57a7-526f-40ca-8610-88216558e375
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971156"
 ---
 # <a name="how-to-publish-a-policy"></a><span data-ttu-id="8d3b3-102">如何發佈原則</span><span class="sxs-lookup"><span data-stu-id="8d3b3-102">How to Publish a Policy</span></span>
 <span data-ttu-id="8d3b3-103">本主題說明如何使用 BizTalk Server 管理主控台，在 BizTalk 群組中發佈原則。</span><span class="sxs-lookup"><span data-stu-id="8d3b3-103">This topic describes how to use the BizTalk Server Administration console to publish a policy in a BizTalk group.</span></span> <span data-ttu-id="8d3b3-104">發佈原則使其可新增至 BizTalk 應用程式中所述[如何新增原則至應用程式](../core/how-to-add-a-policy-to-an-application.md)。</span><span class="sxs-lookup"><span data-stu-id="8d3b3-104">Publishing a policy makes it available to add to a BizTalk application, as described in [How to Add a Policy to an Application](../core/how-to-add-a-policy-to-an-application.md).</span></span>  

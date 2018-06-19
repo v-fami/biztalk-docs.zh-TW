@@ -1,14 +1,14 @@
 ---
-title: "如何檢視資訊提示和工具提示 |Microsoft 文件"
-ms.custom: 
+title: 如何檢視資訊提示和工具提示 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5621bd0a-7028-43fc-b6e8-74a528129285
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257278"
 ---
 # <a name="how-to-view-infotip-and-tooltip"></a><span data-ttu-id="fd395-102">如何檢視資訊提示與工具提示</span><span class="sxs-lookup"><span data-stu-id="fd395-102">How to View Infotip and Tooltip</span></span>
 <span data-ttu-id="fd395-103">當您將游標移至對應項目上方而不選取它時，會顯示含有該項目之實用資訊的工具提示。</span><span class="sxs-lookup"><span data-stu-id="fd395-103">When you move the cursor over a map item without clicking it, a screen tip appears with useful information about that item.</span></span>  

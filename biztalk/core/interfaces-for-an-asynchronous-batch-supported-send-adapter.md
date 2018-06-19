@@ -1,14 +1,14 @@
 ---
-title: "非同步批次支援傳送配接器介面 |Microsoft 文件"
-ms.custom: 
+title: 非同步批次支援傳送配接器介面 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d38b8b87-508a-499b-86b2-846938050b44
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257326"
 ---
 # <a name="interfaces-for-an-asynchronous-batch-supported-send-adapter"></a><span data-ttu-id="7c9de-102">非同步批次支援傳送配接器介面</span><span class="sxs-lookup"><span data-stu-id="7c9de-102">Interfaces for an Asynchronous Batch-Supported Send Adapter</span></span>
 <span data-ttu-id="7c9de-103">批次感知的配接器可以同步或非同步地傳送訊息，而且可以執行交易式的傳送作業。</span><span class="sxs-lookup"><span data-stu-id="7c9de-103">Batch-aware adapters may send messages synchronously or asynchronously, and may perform transacted sends.</span></span> <span data-ttu-id="7c9de-104">若要傳送訊息的批次，傳送配接器必須實作下列介面：</span><span class="sxs-lookup"><span data-stu-id="7c9de-104">To send batches of messages, a send adapter must implement the following interfaces:</span></span>  

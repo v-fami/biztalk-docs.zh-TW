@@ -1,14 +1,14 @@
 ---
-title: "將資料庫事實傳遞給 「 商務規則引擎 |Microsoft 文件"
-ms.custom: 
+title: 將資料庫事實傳遞給 「 商務規則引擎 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 62285bbe-ee64-4c26-b48e-55f666dc1304
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264134"
 ---
 # <a name="passing-database-facts-to-the-business-rule-engine"></a><span data-ttu-id="ad511-102">將資料庫事實傳入商務規則引擎資料庫</span><span class="sxs-lookup"><span data-stu-id="ad511-102">Passing Database Facts to the Business Rule Engine</span></span>
 <span data-ttu-id="ad511-103">當您使用 「 商務規則編輯器 」 工具來測試原則，要求 DataConnection/TypedDataTable 物件當做事實時，DataConnection/TypedDataTable 物件是自動為您建立，並判斷提示至 「 商務規則引擎工作記憶體。</span><span class="sxs-lookup"><span data-stu-id="ad511-103">When you use the Business Rule Composer tool to test a policy that requires a DataConnection/TypedDataTable object as a fact, a DataConnection/TypedDataTable object is automatically created for you and asserted into the Business Rule Engine's working memory.</span></span> <span data-ttu-id="ad511-104">此外，也會自動認可由該原則更新的任何資料庫。</span><span class="sxs-lookup"><span data-stu-id="ad511-104">Additionally, any database updates by the policy are committed automatically.</span></span>  

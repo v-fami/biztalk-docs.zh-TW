@@ -1,14 +1,14 @@
 ---
-title: "無效的分隔符號設定，因為至少其中一個分隔符號是允許的範圍以外 |Microsoft 文件"
-ms.custom: 
+title: 無效的分隔符號設定，因為至少其中一個分隔符號是允許的範圍以外 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c1286559-765b-4728-945d-cf3386e1ba06
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241454"
 ---
 # <a name="invalid-delimiter-set-because-at-least-one-of-the-delimiters-is-outside-the-allowed-range"></a><span data-ttu-id="5a863-102">無效的分隔符號集，因為至少其中一個分隔符號是在允許的範圍之外</span><span class="sxs-lookup"><span data-stu-id="5a863-102">Invalid delimiter set because at least one of the delimiters is outside the allowed range</span></span>
 ## <a name="details"></a><span data-ttu-id="5a863-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="5a863-103">Details</span></span>  

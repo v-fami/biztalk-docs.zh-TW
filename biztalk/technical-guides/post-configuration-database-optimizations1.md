@@ -1,14 +1,14 @@
 ---
-title: "組態後資料庫 Optimizations1 |Microsoft 文件"
-ms.custom: 
+title: 組態後資料庫 Optimizations1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 763b5358-97ed-4ada-8318-0ad07388ba89
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302326"
 ---
 # <a name="post-configuration-database-optimizations"></a><span data-ttu-id="7a54c-102">組態後資料庫最佳化</span><span class="sxs-lookup"><span data-stu-id="7a54c-102">Post-Configuration Database Optimizations</span></span>
 <span data-ttu-id="7a54c-103">除了下列中的建議[預先設定資料庫最佳化](../technical-guides/post-configuration-database-optimizations1.md)，應該遵循幾個步驟來最佳化 SQL Server 上的 BizTalk Server 資料庫效能*之後*已安裝 BizTalk Server，且已設定 BizTalk Server 資料庫。</span><span class="sxs-lookup"><span data-stu-id="7a54c-103">In addition to following the recommendations in [Pre-Configuration Database Optimizations](../technical-guides/post-configuration-database-optimizations1.md), several steps should be followed to optimize BizTalk Server database performance on SQL Server *after* BizTalk Server has been installed and the BizTalk Server databases have been configured.</span></span> <span data-ttu-id="7a54c-104">本主題提供這些最佳化的清單。</span><span class="sxs-lookup"><span data-stu-id="7a54c-104">This topic provides a list of these optimizations.</span></span>  

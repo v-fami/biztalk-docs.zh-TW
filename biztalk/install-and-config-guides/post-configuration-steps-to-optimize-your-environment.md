@@ -1,15 +1,15 @@
 ---
-title: "組態後步驟來最佳化您的環境 |Microsoft 文件"
-description: "工作完成之後安裝和設定 BizTalk Server 中，包括設定的 SQL Agent 工作、 安裝 EDI 結構描述、 建立主控件和主控件執行個體，以及 BizTalk Server 中的多個"
-ms.custom: 
+title: 組態後步驟來最佳化您的環境 |Microsoft 文件
+description: 工作完成之後安裝和設定 BizTalk Server 中，包括設定的 SQL Agent 工作、 安裝 EDI 結構描述、 建立主控件和主控件執行個體，以及 BizTalk Server 中的多個
+ms.custom: ''
 ms.prod: biztalk-server
 ms.date: 09/27/2017
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d0fef6ea-e7cc-4ea9-936d-5d638bc43feb
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976836"
 ---
 # <a name="post-configuration-steps-to-optimize-your-environment"></a><span data-ttu-id="f1e43-103">環境最佳化的後續設定步驟</span><span class="sxs-lookup"><span data-stu-id="f1e43-103">Post-configuration steps to optimize your environment</span></span>
 <span data-ttu-id="f1e43-104">協助改善效能、維護 BizTalk 環境，以及安裝 EDI 結構描述的設定後續作業步驟。</span><span class="sxs-lookup"><span data-stu-id="f1e43-104">Post-configuration steps to help improve performance, maintain your BizTalk environment, and install the EDI schemas.</span></span>

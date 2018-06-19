@@ -1,14 +1,14 @@
 ---
-title: "執行 BizTalk Server 之電腦的災害復原 |Microsoft 文件"
-ms.custom: 
+title: 執行 BizTalk Server 之電腦的災害復原 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 10a2c26d-55d5-45d1-9fb1-e0664f005c21
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005223"
 ---
 # <a name="disaster-recovery-for-computers-running-biztalk-server"></a><span data-ttu-id="e7427-102">執行 BizTalk Server 的電腦的嚴重損毀修復</span><span class="sxs-lookup"><span data-stu-id="e7427-102">Disaster Recovery for Computers Running BizTalk Server</span></span>
 <span data-ttu-id="e7427-103">如果在您的組織中，執行 BizTalk Server 的電腦遇到無法復原的硬體失敗問題，您應該更換一台相同的電腦。</span><span class="sxs-lookup"><span data-stu-id="e7427-103">If the computer running BizTalk Server in your organization suffers an unrecoverable hardware failure, you should replace it with an identical computer.</span></span> <span data-ttu-id="e7427-104">這麼做是假設 BizTalk Server 資料庫仍然完整，而此次失敗是發生在其中一台執行 BizTalk Server 的電腦上。</span><span class="sxs-lookup"><span data-stu-id="e7427-104">This assumes that the BizTalk Server databases are intact, and that the failure is in any one of the computers running BizTalk Server.</span></span>  

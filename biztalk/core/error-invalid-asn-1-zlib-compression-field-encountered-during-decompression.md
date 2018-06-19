@@ -1,14 +1,14 @@
 ---
-title: "解壓縮處理過程中發現無效的 ASN.1 ZLib 壓縮欄位 |Microsoft 文件"
-ms.custom: 
+title: 解壓縮處理過程中發現無效的 ASN.1 ZLib 壓縮欄位 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b7caf047-badd-49e8-b955-554e5ec7511f
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241862"
 ---
 # <a name="invalid-asn1-zlib-compression-field-encountered-during-decompression-processing"></a><span data-ttu-id="f28ab-102">解壓縮處理過程中發現無效的 ASN.1 ZLib 壓縮欄位</span><span class="sxs-lookup"><span data-stu-id="f28ab-102">Invalid ASN.1 ZLib compression field encountered during decompression processing</span></span>
 ## <a name="details"></a><span data-ttu-id="f28ab-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="f28ab-103">Details</span></span>  

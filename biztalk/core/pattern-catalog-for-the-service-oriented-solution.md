@@ -1,11 +1,11 @@
 ---
-title: "模式目錄服務導向解決方案 |Microsoft 文件"
-ms.custom: 
+title: 模式目錄服務導向解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Calling Pipelines from Code pattern [service solutions]
@@ -26,7 +26,7 @@ helpviewer_keywords:
 - back-end processes
 - services, interface pattern [service solutions]
 ms.assetid: 5d8135c5-d5de-4e61-b3e8-2aa7f6de98c8
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -35,6 +35,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22265494"
 ---
 # <a name="pattern-catalog-for-the-service-oriented-solution"></a><span data-ttu-id="b123f-102">模式目錄服務導向解決方案</span><span class="sxs-lookup"><span data-stu-id="b123f-102">Pattern Catalog for the Service Oriented Solution</span></span>
 <span data-ttu-id="b123f-103">服務導向解決方案中的模式包括 BizTalk Server 特定的程式設計慣例，以及前幾節中的企業整合模式。</span><span class="sxs-lookup"><span data-stu-id="b123f-103">The patterns in the service oriented solution include patterns of BizTalk Server-specific programming practices, as well as the enterprise integration patterns in preceding sections.</span></span> <span data-ttu-id="b123f-104">本節中的清單包括這兩種模式。</span><span class="sxs-lookup"><span data-stu-id="b123f-104">The list in this section includes both kinds of patterns.</span></span>  

@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: eb54f14c-3fce-44d6-91bb-cb1ca38a20da
-caps.latest.revision: ''
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25975292"
 ---
 # <a name="execute-a-peoplesoft-enterprise-sample-get"></a><span data-ttu-id="35031-102">執行 PeopleSoft Enterprise 的 Get 範例</span><span class="sxs-lookup"><span data-stu-id="35031-102">Execute a PeopleSoft Enterprise Sample Get</span></span>
 <span data-ttu-id="35031-103">您可以從 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 系統使用 PeopleSoft 配接器存取 PeopleSoft 系統。</span><span class="sxs-lookup"><span data-stu-id="35031-103">The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] system by using the PeopleSoft adapter.</span></span> <span data-ttu-id="35031-104">此配接器隨附於[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="35031-104">This adapter is included with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>
@@ -288,7 +289,7 @@ ms.lasthandoff: 03/28/2018
   
      `C:\LABS\PS_TEST\SAMPLEQUERY.XML`  
   
-3.  <span data-ttu-id="35031-304">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="35031-304">Click **OK.**</span></span> <span data-ttu-id="35031-305">在 [屬性] 視窗中，選取**\<結構描述\>**並設定**根參考： 取得**。</span><span class="sxs-lookup"><span data-stu-id="35031-305">In the Properties window, select **\<Schema\>** and set **Root Reference: Get**.</span></span>  
+3.  <span data-ttu-id="35031-304">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="35031-304">Click **OK.**</span></span> <span data-ttu-id="35031-305">在 [屬性] 視窗中，選取**\<結構描述\>** 並設定**根參考： 取得**。</span><span class="sxs-lookup"><span data-stu-id="35031-305">In the Properties window, select **\<Schema\>** and set **Root Reference: Get**.</span></span>  
   
 4.  <span data-ttu-id="35031-306">以滑鼠右鍵按一下 [LOCATIONService_LOCATION_x5d.xsd]  ，再按一下 [產生執行個體] 。</span><span class="sxs-lookup"><span data-stu-id="35031-306">Right-click **LOCATIONService_LOCATION_x5d.xsd** and then click **Generate Instance**.</span></span> <span data-ttu-id="35031-307">這會產生 **SampleQuery.xml** 檔案。</span><span class="sxs-lookup"><span data-stu-id="35031-307">This generates the **SampleQuery.xml** file.</span></span> <span data-ttu-id="35031-308">這個檔案將做為配接器的輸入，放置在接收位置以啟動協調流程處理序。</span><span class="sxs-lookup"><span data-stu-id="35031-308">This file will be dropped in the receive location as input to the adapter to start the orchestration process.</span></span>  
   
@@ -306,7 +307,7 @@ ms.lasthandoff: 03/28/2018
   
 4.  <span data-ttu-id="35031-317">在下**接收埠**，按一下  **\<無\>**。</span><span class="sxs-lookup"><span data-stu-id="35031-317">Under **Receive Ports**, click **\<None\>**.</span></span> <span data-ttu-id="35031-318">在下拉式清單中選取 [新增接收埠] 。</span><span class="sxs-lookup"><span data-stu-id="35031-318">In the drop-down list, select **New Receive Port**.</span></span>  
   
-5.  <span data-ttu-id="35031-319">For **[FileIn]**輸入 `FileInPort`，然後按一下 [BizTalk Server 管理] 使用的八個企業營運系統 (LOB) 配接器之一。</span><span class="sxs-lookup"><span data-stu-id="35031-319">For **Name**, type `FileInPort`, and then click **OK**.</span></span> <span data-ttu-id="35031-320">訊息方塊會出現，指出您需要指定接收位置。</span><span class="sxs-lookup"><span data-stu-id="35031-320">A message box appears stating that you need to designate a receive location.</span></span> <span data-ttu-id="35031-321">按一下 [確定] 及 [新增] 。</span><span class="sxs-lookup"><span data-stu-id="35031-321">Click **OK**, and then click **New**.</span></span>  
+5.  <span data-ttu-id="35031-319">For **[FileIn]** 輸入 `FileInPort`，然後按一下 [BizTalk Server 管理] 使用的八個企業營運系統 (LOB) 配接器之一。</span><span class="sxs-lookup"><span data-stu-id="35031-319">For **Name**, type `FileInPort`, and then click **OK**.</span></span> <span data-ttu-id="35031-320">訊息方塊會出現，指出您需要指定接收位置。</span><span class="sxs-lookup"><span data-stu-id="35031-320">A message box appears stating that you need to designate a receive location.</span></span> <span data-ttu-id="35031-321">按一下 [確定] 及 [新增] 。</span><span class="sxs-lookup"><span data-stu-id="35031-321">Click **OK**, and then click **New**.</span></span>  
   
      <span data-ttu-id="35031-322">![](../core/media/298638b6-0eb8-49c4-8a2e-485571d070cf.gif "298638b6-0eb8-49c4-8a2e-485571d070cf")</span><span class="sxs-lookup"><span data-stu-id="35031-322">![](../core/media/298638b6-0eb8-49c4-8a2e-485571d070cf.gif "298638b6-0eb8-49c4-8a2e-485571d070cf")</span></span>  
   
@@ -326,7 +327,7 @@ ms.lasthandoff: 03/28/2018
   
      <span data-ttu-id="35031-330">![](../core/media/513eebb0-58ca-4aaa-a33b-31700f9cf7a8.gif "513eebb0-58ca-4aaa-a33b-31700f9cf7a8")</span><span class="sxs-lookup"><span data-stu-id="35031-330">![](../core/media/513eebb0-58ca-4aaa-a33b-31700f9cf7a8.gif "513eebb0-58ca-4aaa-a33b-31700f9cf7a8")</span></span>  
   
-8.  <span data-ttu-id="35031-331">按一下**\<無\>**如**PeopleSoft_Port**下拉式清單中。</span><span class="sxs-lookup"><span data-stu-id="35031-331">Click **\<None\>** for **PeopleSoft_Port** in the drop-down list.</span></span>  
+8.  <span data-ttu-id="35031-331">按一下**\<無\>** 如**PeopleSoft_Port**下拉式清單中。</span><span class="sxs-lookup"><span data-stu-id="35031-331">Click **\<None\>** for **PeopleSoft_Port** in the drop-down list.</span></span>  
   
 9. <span data-ttu-id="35031-332">選取 [新增傳送埠]  ，然後選取或輸入下列屬性值。</span><span class="sxs-lookup"><span data-stu-id="35031-332">Select **New Send Port** and then select or type the following values for the properties.</span></span>  
   
@@ -356,7 +357,7 @@ ms.lasthandoff: 03/28/2018
   
 11. <span data-ttu-id="35031-346">按兩下 [確定]  關閉對話方塊。</span><span class="sxs-lookup"><span data-stu-id="35031-346">Click **OK** twice to close the dialog boxes.</span></span>  
   
-12. <span data-ttu-id="35031-347">在 設定 Applicationwindow 中，按一下  **\<無\>**如**FileOut**下拉式清單中。</span><span class="sxs-lookup"><span data-stu-id="35031-347">In the Configure Applicationwindow, click **\<None\>** for **FileOut** in the drop-down list.</span></span>  
+12. <span data-ttu-id="35031-347">在 設定 Applicationwindow 中，按一下  **\<無\>** 如**FileOut**下拉式清單中。</span><span class="sxs-lookup"><span data-stu-id="35031-347">In the Configure Applicationwindow, click **\<None\>** for **FileOut** in the drop-down list.</span></span>  
   
 13. <span data-ttu-id="35031-348">選取 [新增傳送埠]  ，然後選取或輸入下列屬性值：</span><span class="sxs-lookup"><span data-stu-id="35031-348">Select **New Send Port** and type or select the following values for the properties:</span></span>  
   
@@ -397,7 +398,7 @@ ms.lasthandoff: 03/28/2018
   
      <span data-ttu-id="35031-367">![](../core/media/1320ea3c-b2bc-4717-b200-c3c550079ccb.gif "1320ea3c-b2bc-4717-b200-c3c550079ccb")</span><span class="sxs-lookup"><span data-stu-id="35031-367">![](../core/media/1320ea3c-b2bc-4717-b200-c3c550079ccb.gif "1320ea3c-b2bc-4717-b200-c3c550079ccb")</span></span>  
   
-     <span data-ttu-id="35031-368">這份傳回的記錄資料應符合針對 PeopleSoft 實驗室 1 中 PeopleSoft 系統的查詢所傳回的內容。</span><span class="sxs-lookup"><span data-stu-id="35031-368">This returned record data should match what was returned by the query against the PeopleSoft system in PeopleSoft Lab 1.</span></span> <span data-ttu-id="35031-369">藉由比較值取得在實驗室 1 中，特別是**Address1**和**address2 一起顯示**到這裡所顯示的線條**\<位置： ADDRESS1\>**和**\<位置： address2 一起顯示\>**欄位，您可以確認**取得**方法運作正常。</span><span class="sxs-lookup"><span data-stu-id="35031-369">By comparing the values you obtained in Lab 1, specifically the **Address1** and **Address2** lines, to what is shown here in the **\<LOCATION:ADDRESS1\>** and **\<LOCATION:ADDRESS2\>** fields, you can verify that the **Get** method worked properly.</span></span>  
+     <span data-ttu-id="35031-368">這份傳回的記錄資料應符合針對 PeopleSoft 實驗室 1 中 PeopleSoft 系統的查詢所傳回的內容。</span><span class="sxs-lookup"><span data-stu-id="35031-368">This returned record data should match what was returned by the query against the PeopleSoft system in PeopleSoft Lab 1.</span></span> <span data-ttu-id="35031-369">藉由比較值取得在實驗室 1 中，特別是**Address1**和**address2 一起顯示**到這裡所顯示的線條**\<位置： ADDRESS1\>** 和**\<位置： address2 一起顯示\>** 欄位，您可以確認**取得**方法運作正常。</span><span class="sxs-lookup"><span data-stu-id="35031-369">By comparing the values you obtained in Lab 1, specifically the **Address1** and **Address2** lines, to what is shown here in the **\<LOCATION:ADDRESS1\>** and **\<LOCATION:ADDRESS2\>** fields, you can verify that the **Get** method worked properly.</span></span>  
   
 ## <a name="summary"></a><span data-ttu-id="35031-370">摘要</span><span class="sxs-lookup"><span data-stu-id="35031-370">Summary</span></span>  
  <span data-ttu-id="35031-371">在此實驗室中，您先確認了已正確設定必要條件，以便存取 PeopleSoft 系統。</span><span class="sxs-lookup"><span data-stu-id="35031-371">In this lab, you first verified that the prerequisites were set up correctly to access the PeopleSoft system.</span></span> <span data-ttu-id="35031-372">之後，使用[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]來建立新的 BizTalk 專案包含協調流程。</span><span class="sxs-lookup"><span data-stu-id="35031-372">Then you used [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] to create a new BizTalk project containing an orchestration.</span></span> <span data-ttu-id="35031-373">您設定了此協調流程，以使用 PeopleSoft 配接器自 PeopleSoft 系統取得資料。</span><span class="sxs-lookup"><span data-stu-id="35031-373">You configured the BizTalk orchestration to use the PeopleSoft adapter to get data from the PeopleSoft system.</span></span> <span data-ttu-id="35031-374">為了設定協調流程，您建立了傳送、接收與傳送/接收埠。</span><span class="sxs-lookup"><span data-stu-id="35031-374">To configure the orchestration, you created send, receive, and send/receive ports.</span></span> <span data-ttu-id="35031-375">您將這些連接埠繫結至 PeopleSoft 配接器，並指派訊息到適當的連接埠。</span><span class="sxs-lookup"><span data-stu-id="35031-375">You bound these ports to the PeopleSoft adapter, and assigned messages to the appropriate ports.</span></span>  

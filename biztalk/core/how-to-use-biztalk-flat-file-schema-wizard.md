@@ -1,14 +1,14 @@
 ---
-title: "如何使用 BizTalk 一般檔案結構描述精靈 |Microsoft 文件"
-ms.custom: 
+title: 如何使用 BizTalk 一般檔案結構描述精靈 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a7cb8b18-266d-422e-bdb8-1efefb6b4c8e
-caps.latest.revision: "28"
+caps.latest.revision: 28
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22258294"
 ---
 # <a name="how-to-use-biztalk-flat-file-schema-wizard"></a><span data-ttu-id="99de5-102">如何使用 BizTalk 一般檔案結構描述精靈</span><span class="sxs-lookup"><span data-stu-id="99de5-102">How to Use BizTalk Flat File Schema Wizard</span></span>
 <span data-ttu-id="99de5-103">在舊版 BizTalk Server 中，您必須在 BizTalk 結構描述編輯器中手動將註解新增至 XML 結構描述定義語言 (XSD) 結構描述，讓這些結構描述可被「一般檔案管線」元件所瞭解，例如一般檔案解譯器和一般檔案組合器。</span><span class="sxs-lookup"><span data-stu-id="99de5-103">In previous releases of BizTalk Server, you had to manually add the annotations to XML Schema Definition language (XSD) schemas in the BizTalk Schema Editor to make these schemas understandable to Flat File Pipeline components, such as Flat File Disassembler and Flat File Assembler.</span></span> <span data-ttu-id="99de5-104">您仍可使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 結構描述編輯器達成這個目的。</span><span class="sxs-lookup"><span data-stu-id="99de5-104">You can still do this using the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Schema Editor.</span></span> <span data-ttu-id="99de5-105">若要減少手動步驟的次數以及建立方案所需的時間，您可使用 BizTalk 一般檔案結構描述精靈，此精靈提供下列功能：</span><span class="sxs-lookup"><span data-stu-id="99de5-105">To reduce the number of manual steps and time needed to create solutions, you use the BizTalk Flat File Schema Wizard, which provides the following functionalities:</span></span>  
@@ -210,7 +211,7 @@ ms.lasthandoff: 09/20/2017
 > [!NOTE]
 >  <span data-ttu-id="99de5-226">您會看到驚嘆號前面**子節點**在下列情況：</span><span class="sxs-lookup"><span data-stu-id="99de5-226">You will see an exclamation mark in front of the **child nodes** in the following instances:</span></span>  
   
--   <span data-ttu-id="99de5-227">**欄位屬性**之後**欄位項目**，**記錄，**或**重複記錄**。</span><span class="sxs-lookup"><span data-stu-id="99de5-227">The **Field attribute** is defined after **Field element**, **Record,** or **Repeating record**.</span></span>  
+-   <span data-ttu-id="99de5-227">**欄位屬性**之後**欄位項目**，**記錄，** 或**重複記錄**。</span><span class="sxs-lookup"><span data-stu-id="99de5-227">The **Field attribute** is defined after **Field element**, **Record,** or **Repeating record**.</span></span>  
   
 -   <span data-ttu-id="99de5-228">此子項目沒有名稱。</span><span class="sxs-lookup"><span data-stu-id="99de5-228">The child element does not have a name.</span></span>  
   

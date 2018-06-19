@@ -1,11 +1,11 @@
 ---
-title: "如何維護原則版本 |Microsoft 文件"
-ms.custom: 
+title: 如何維護原則版本 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - policies, publishing
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - policies, versioning
 - policies, updating
 ms.assetid: 6e35b2bd-1ecd-45ea-aff3-4ad2437568a4
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254494"
 ---
 # <a name="how-to-maintain-policy-versions"></a><span data-ttu-id="1230f-102">如何維護原則版本</span><span class="sxs-lookup"><span data-stu-id="1230f-102">How to Maintain Policy Versions</span></span>
 <span data-ttu-id="1230f-103">將規則新增至原則版本後，可以將版本儲存至規則存放區以供進一步開發之用，或是您可以將它發佈以建立定義正確且不變，可加以部署以用於以規則為基礎的應用程式中的規則集。</span><span class="sxs-lookup"><span data-stu-id="1230f-103">After you add rules to a version of your policy, you can save the version to the rule store for further development, or you can publish it to create a well-defined, immutable set of rules that can be deployed for use in a rule-based application.</span></span>  

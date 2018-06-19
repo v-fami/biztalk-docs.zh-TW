@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263086"
 ---
 # <a name="mqseries-adapter-custom-headers"></a><span data-ttu-id="db540-102">MQSeries 配接器自訂標頭</span><span class="sxs-lookup"><span data-stu-id="db540-102">MQSeries Adapter Custom Headers</span></span>
 <span data-ttu-id="db540-103">因為在 MQSeries 訊息中使用的標頭結構，您必須管理任何您想要使用的自訂標頭。</span><span class="sxs-lookup"><span data-stu-id="db540-103">Because of the header structures used in MQSeries messages, you must manage any custom headers you want to use.</span></span> <span data-ttu-id="db540-104">自訂標頭必須是訊息內文的一部分，以避免干擾 MQSeries 標頭的處理。</span><span class="sxs-lookup"><span data-stu-id="db540-104">Custom headers must be part of the message body to avoid interfering with the processing of the MQSeries headers.</span></span> <span data-ttu-id="db540-105">請確定您會避免降級任何自動升級的屬性。</span><span class="sxs-lookup"><span data-stu-id="db540-105">Make sure that you avoid demoting any one of the automatically promoted properties.</span></span> <span data-ttu-id="db540-106">如需自動升級屬性的詳細資訊，請參閱[MQSeries 配接器屬性](../core/mqseries-adapter-properties.md)。</span><span class="sxs-lookup"><span data-stu-id="db540-106">For more information about automatically promoted properties, see [MQSeries Adapter Properties](../core/mqseries-adapter-properties.md).</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "HTTP 配接器組態屬性 |Microsoft 文件"
-ms.custom: 
+title: HTTP 配接器組態屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - HTTP adapters, properties
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - HTTP adapters, receive locations
 - send ports, adapters
 ms.assetid: 3d4e9d88-ea40-4478-a0cf-77057fadd3b2
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22258654"
 ---
 # <a name="http-adapter-configuration-properties"></a><span data-ttu-id="77ebb-102">HTTP 配接器組態屬性</span><span class="sxs-lookup"><span data-stu-id="77ebb-102">HTTP Adapter Configuration Properties</span></span>
 <span data-ttu-id="77ebb-103">下表列出可為 HTTP 配接器接收位置設定的組態屬性：</span><span class="sxs-lookup"><span data-stu-id="77ebb-103">The following table lists the configuration properties that you can set for an HTTP adapter receive location:</span></span>  

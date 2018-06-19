@@ -1,17 +1,17 @@
 ---
-title: "如何設定認證使用者對應的 |Microsoft 文件"
-ms.custom: 
+title: 如何設定認證使用者對應的 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - maps [SSO], credentials
 - managing [SSO maps], configuring credentials
 ms.assetid: 75b29114-56b6-4db0-8666-61cf6c675401
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972140"
 ---
 # <a name="how-to-set-credentials-for-a-user-mapping"></a><span data-ttu-id="387d6-102">如何設定使用者對應的認證</span><span class="sxs-lookup"><span data-stu-id="387d6-102">How to Set Credentials for a User Mapping</span></span>
 <span data-ttu-id="387d6-103">請使用此命令，為使用者設定認證以存取特定應用程式。</span><span class="sxs-lookup"><span data-stu-id="387d6-103">Use this command to set the credentials for a user to access a specific application.</span></span>  
@@ -34,7 +35,7 @@ ms.lasthandoff: 11/28/2017
   
 2.  <span data-ttu-id="387d6-109">在命令列，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="387d6-109">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="387d6-110">預設安裝目錄是**\<磁碟機\>**: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="387d6-110">The default installation directory is **\<drive\>**:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-3.  <span data-ttu-id="387d6-111">型別**ssomanage – setcredentials\<網域\>\\< 使用者名稱\> \<applicationname\>**，其中 **\<網域\>**是 Windows 網域使用者帳戶，  **\<username\>** 是 Windows 使用者名稱和**\<應用程式名稱\>** 是特定的應用程式，您想要設定的認證。</span><span class="sxs-lookup"><span data-stu-id="387d6-111">Type **ssomanage –setcredentials \<domain\>\\<username\> \<applicationname\>**, where **\<domain\>** is the Windows domain for the user account, **\<username\>** is the Windows user name, and **\<applicationname\>** is the specific application for which you want to set the credentials for.</span></span>  
+3.  <span data-ttu-id="387d6-111">型別**ssomanage – setcredentials\<網域\>\\< 使用者名稱\> \<applicationname\>**，其中 **\<網域\>** 是 Windows 網域使用者帳戶，  **\<username\>** 是 Windows 使用者名稱和**\<應用程式名稱\>** 是特定的應用程式，您想要設定的認證。</span><span class="sxs-lookup"><span data-stu-id="387d6-111">Type **ssomanage –setcredentials \<domain\>\\<username\> \<applicationname\>**, where **\<domain\>** is the Windows domain for the user account, **\<username\>** is the Windows user name, and **\<applicationname\>** is the specific application for which you want to set the credentials for.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="387d6-112">在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。</span><span class="sxs-lookup"><span data-stu-id="387d6-112">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  
@@ -49,7 +50,7 @@ ms.lasthandoff: 11/28/2017
   
 2.  <span data-ttu-id="387d6-117">在命令列，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="387d6-117">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="387d6-118">預設安裝目錄是**\<磁碟機\>**: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="387d6-118">The default installation directory is **\<drive\>**:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-3.  <span data-ttu-id="387d6-119">型別**ssoclient-setcredentials\<應用程式名稱\>**，其中**\<應用程式名稱\>**的分支機構應用程式名稱您要移除的使用者對應。</span><span class="sxs-lookup"><span data-stu-id="387d6-119">Type **ssoclient -setcredentials \<application name\>**, where **\<application name\>** is the name of the affiliate application you want to remove the user mapping for.</span></span>  
+3.  <span data-ttu-id="387d6-119">型別**ssoclient-setcredentials\<應用程式名稱\>**，其中**\<應用程式名稱\>** 的分支機構應用程式名稱您要移除的使用者對應。</span><span class="sxs-lookup"><span data-stu-id="387d6-119">Type **ssoclient -setcredentials \<application name\>**, where **\<application name\>** is the name of the affiliate application you want to remove the user mapping for.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="387d6-120">在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。</span><span class="sxs-lookup"><span data-stu-id="387d6-120">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "使用其他結構描述的結構描述 |Microsoft 文件"
-ms.custom: 
+title: 使用其他結構描述的結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 02954d46-48ce-4cdf-a012-74c212ce8b6d
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271598"
 ---
 # <a name="schemas-that-use-other-schemas"></a><span data-ttu-id="87c38-102">使用其他結構描述的結構描述</span><span class="sxs-lookup"><span data-stu-id="87c38-102">Schemas That Use Other Schemas</span></span>
 
@@ -30,7 +31,7 @@ ms.lasthandoff: 09/20/2017
 |---------------------------|--------------------|  
 |<span data-ttu-id="87c38-112">匯入</span><span class="sxs-lookup"><span data-stu-id="87c38-112">Import</span></span>|<span data-ttu-id="87c38-113">-存取和使用匯入結構描述中定義的類型。</span><span class="sxs-lookup"><span data-stu-id="87c38-113">-   Accesses and uses types defined in the imported schema.</span></span><br /><span data-ttu-id="87c38-114">-必須使用中，匯入結構描述型別，或從中; 衍生新的類型不能修改類型。</span><span class="sxs-lookup"><span data-stu-id="87c38-114">-   Must use types in the imported schema as is, or derive new types from them; no type modification allowed.</span></span><br /><span data-ttu-id="87c38-115">-提供一種機制，使用其他命名空間中定義的型別。</span><span class="sxs-lookup"><span data-stu-id="87c38-115">-   Provides a mechanism for using types defined in other namespaces.</span></span> <span data-ttu-id="87c38-116">事實上，已匯入之結構描述的目標命名空間必須與正在匯入的結構描述不同。</span><span class="sxs-lookup"><span data-stu-id="87c38-116">Indeed, an imported schema must have a target namespace that is different from the importing schema.</span></span><br /><span data-ttu-id="87c38-117">-使用**匯入**項目和其**命名空間**和**schemaLocation**屬性，來參照其他的結構描述。</span><span class="sxs-lookup"><span data-stu-id="87c38-117">-   Uses the **import** element and its **namespace** and **schemaLocation** attributes to reference the other schema.</span></span>|  
 |<span data-ttu-id="87c38-118">包含</span><span class="sxs-lookup"><span data-stu-id="87c38-118">Include</span></span>|<span data-ttu-id="87c38-119">-存取和使用包含結構描述中定義的類型。</span><span class="sxs-lookup"><span data-stu-id="87c38-119">-   Accesses and uses types defined in the included schema.</span></span><br /><span data-ttu-id="87c38-120">-必須使用中，包含結構描述型別，或從中; 衍生新的類型不能修改類型。</span><span class="sxs-lookup"><span data-stu-id="87c38-120">-   Must use types in the included schema as is, or derive new types from them; no type modification allowed.</span></span><br /><span data-ttu-id="87c38-121">-包含結構描述必須位於相同的目標命名空間包含的結構描述，或包含的結構描述的目標命名空間必須為空白。</span><span class="sxs-lookup"><span data-stu-id="87c38-121">-   The included schema must be in the same target namespace as the including schema, or the target namespace of the included schema must be empty.</span></span><br /><span data-ttu-id="87c38-122">-使用**包含**項目和其**schemaLocation**屬性，來參照其他的結構描述。</span><span class="sxs-lookup"><span data-stu-id="87c38-122">-   Uses the **include** element and its **schemaLocation** attribute to reference the other schema.</span></span>|  
-|<span data-ttu-id="87c38-123">重新定義</span><span class="sxs-lookup"><span data-stu-id="87c38-123">Redefine</span></span>|<span data-ttu-id="87c38-124">-存取和使用已重新定義結構描述中定義的類型。</span><span class="sxs-lookup"><span data-stu-id="87c38-124">-   Accesses and uses types defined in the redefined schema.</span></span><br /><span data-ttu-id="87c38-125">-可以使用已重新定義結構描述中的型別，衍生的新類型，或指定對其的修改。</span><span class="sxs-lookup"><span data-stu-id="87c38-125">-   Can use types in the redefined schema as is, derive new types from them, or specify modifications to them.</span></span><br /><span data-ttu-id="87c38-126">-已重新定義結構描述必須位於相同的目標命名空間重新定義結構描述，或重新定義結構描述的目標命名空間必須為空白。</span><span class="sxs-lookup"><span data-stu-id="87c38-126">-   The redefined schema must be in the same target namespace as the redefining schema, or the target namespace of the redefined schema must be empty.</span></span><br /><span data-ttu-id="87c38-127">-使用**重新定義**項目和其**schemaLocation**屬性，來參照其他的結構描述。</span><span class="sxs-lookup"><span data-stu-id="87c38-127">-   Uses the **redefine** element and its **schemaLocation** attribute to reference the other schema.</span></span> <span data-ttu-id="87c38-128">任何類型的重新定義所指定的**重新定義**項目。</span><span class="sxs-lookup"><span data-stu-id="87c38-128">Any type redefinitions are specified with the **redefine** element.</span></span> <span data-ttu-id="87c38-129">**注意：**使用重新定義機制是進階的 XSD 概念，應該只用於之後您有充分瞭解如何及何時應該使用。</span><span class="sxs-lookup"><span data-stu-id="87c38-129">**Note:**      Using the redefine mechanism is an advanced XSD concept and should only be used after you have sufficient understanding of how and when it should be used.</span></span>|  
+|<span data-ttu-id="87c38-123">重新定義</span><span class="sxs-lookup"><span data-stu-id="87c38-123">Redefine</span></span>|<span data-ttu-id="87c38-124">-存取和使用已重新定義結構描述中定義的類型。</span><span class="sxs-lookup"><span data-stu-id="87c38-124">-   Accesses and uses types defined in the redefined schema.</span></span><br /><span data-ttu-id="87c38-125">-可以使用已重新定義結構描述中的型別，衍生的新類型，或指定對其的修改。</span><span class="sxs-lookup"><span data-stu-id="87c38-125">-   Can use types in the redefined schema as is, derive new types from them, or specify modifications to them.</span></span><br /><span data-ttu-id="87c38-126">-已重新定義結構描述必須位於相同的目標命名空間重新定義結構描述，或重新定義結構描述的目標命名空間必須為空白。</span><span class="sxs-lookup"><span data-stu-id="87c38-126">-   The redefined schema must be in the same target namespace as the redefining schema, or the target namespace of the redefined schema must be empty.</span></span><br /><span data-ttu-id="87c38-127">-使用**重新定義**項目和其**schemaLocation**屬性，來參照其他的結構描述。</span><span class="sxs-lookup"><span data-stu-id="87c38-127">-   Uses the **redefine** element and its **schemaLocation** attribute to reference the other schema.</span></span> <span data-ttu-id="87c38-128">任何類型的重新定義所指定的**重新定義**項目。</span><span class="sxs-lookup"><span data-stu-id="87c38-128">Any type redefinitions are specified with the **redefine** element.</span></span> <span data-ttu-id="87c38-129">**注意：** 使用重新定義機制是進階的 XSD 概念，應該只用於之後您有充分瞭解如何及何時應該使用。</span><span class="sxs-lookup"><span data-stu-id="87c38-129">**Note:**      Using the redefine mechanism is an advanced XSD concept and should only be used after you have sufficient understanding of how and when it should be used.</span></span>|  
   
 > [!NOTE]
 >  <span data-ttu-id="87c38-130">完整的差異和相似性之間匯入的詳細資訊，包括和重新定義機制，請參閱中所列的參照[在網站上的 XSD 資源](../core/xsd-resources-on-the-web.md)。</span><span class="sxs-lookup"><span data-stu-id="87c38-130">For complete information about the differences and similarities between the import, include, and redefine mechanisms, see the references listed in [XSD Resources on the Web](../core/xsd-resources-on-the-web.md).</span></span>  

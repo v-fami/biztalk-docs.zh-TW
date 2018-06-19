@@ -1,11 +1,11 @@
 ---
-title: "如何使用 呼叫規則圖形 |Microsoft 文件"
-ms.custom: 
+title: 如何使用 呼叫規則圖形 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Call Rules shape [Orchestration Designer], how to
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Call Rules shape [Orchestration Designer], policies
 - policies, Call Rules shape [Orchestration Designer]
 ms.assetid: e4bc8a2c-de7e-4e3a-81b8-12bcebb17d27
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006439"
 ---
 # <a name="how-to-use-the-call-rules-shape"></a><span data-ttu-id="ad5e2-102">如何使用呼叫規則圖形</span><span class="sxs-lookup"><span data-stu-id="ad5e2-102">How to Use the Call Rules Shape</span></span>
 <span data-ttu-id="ad5e2-103">在協調流程設計師中，您可以使用**呼叫規則**圖形以呼叫商務原則。</span><span class="sxs-lookup"><span data-stu-id="ad5e2-103">In Orchestration Designer, you can use the **Call Rules** shape to call a business policy.</span></span>  
@@ -39,7 +40,7 @@ ms.lasthandoff: 12/01/2017
   
 2.  <span data-ttu-id="ad5e2-112">在協調流程設計師中，選取**呼叫規則**圖形。</span><span class="sxs-lookup"><span data-stu-id="ad5e2-112">In Orchestration Designer, select the **Call Rules** shape.</span></span>  
   
-3.  <span data-ttu-id="ad5e2-113">按兩下圖形以顯示**[CallRules 原則組態**] 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="ad5e2-113">Double-click the shape to display the **CallRules policy configuration** dialog box.</span></span>  
+3.  <span data-ttu-id="ad5e2-113">按兩下圖形以顯示 **[CallRules 原則組態**] 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="ad5e2-113">Double-click the shape to display the **CallRules policy configuration** dialog box.</span></span>  
   
 4.  <span data-ttu-id="ad5e2-114">在**選取您想要呼叫的商務原則**下拉式清單中，選取您需要的原則。</span><span class="sxs-lookup"><span data-stu-id="ad5e2-114">In the **Select the business policy you wish to call** drop-down list, select the policy you need.</span></span>  
   

@@ -1,14 +1,14 @@
 ---
-title: "步驟 2： 設定 Salesforce 系統 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 設定 Salesforce 系統 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0a4b09fb-70a7-4eec-b1e3-f05de0e84df1
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279926"
 ---
 # <a name="step-2-set-up-the-salesforce-system"></a><span data-ttu-id="52289-102">步驟 2： 設定 Salesforce 系統</span><span class="sxs-lookup"><span data-stu-id="52289-102">Step 2: Set up the Salesforce System</span></span>
 <span data-ttu-id="52289-103">在此步驟中，您可在成功關閉商機時將 Salesforce 設定為傳送通知。</span><span class="sxs-lookup"><span data-stu-id="52289-103">In this step, you configure Salesforce to send notifications when an opportunity is successfully closed.</span></span> <span data-ttu-id="52289-104">傳送通知之前，您必須執行下列步驟：</span><span class="sxs-lookup"><span data-stu-id="52289-104">Before you can send notifications, you need to perform the following steps:</span></span>  
@@ -113,7 +114,7 @@ ms.lasthandoff: 09/20/2017
   
     4.  <span data-ttu-id="52289-165">指定**端點 URL**為`https://btssalesforce.servicebus.windows.net/notifications/opportunity`。</span><span class="sxs-lookup"><span data-stu-id="52289-165">Specify the **Endpoint URL** as `https://btssalesforce.servicebus.windows.net/notifications/opportunity`.</span></span>  
   
-         <span data-ttu-id="52289-166">在這裡， **btssalesforce**是您[!INCLUDE[sb](../includes/sb-md.md)]您在先前步驟中建立的命名空間。</span><span class="sxs-lookup"><span data-stu-id="52289-166">Here, **btssalesforce** is your [!INCLUDE[sb](../includes/sb-md.md)] namespace that you created in earlier steps.</span></span> <span data-ttu-id="52289-167">**/notifications/opportunity/**表示我們將在本教學課程的後續步驟中建立的轉送。</span><span class="sxs-lookup"><span data-stu-id="52289-167">**/notifications/opportunity/** represents the relay that we will create in later steps of this tutorial.</span></span>  
+         <span data-ttu-id="52289-166">在這裡， **btssalesforce**是您[!INCLUDE[sb](../includes/sb-md.md)]您在先前步驟中建立的命名空間。</span><span class="sxs-lookup"><span data-stu-id="52289-166">Here, **btssalesforce** is your [!INCLUDE[sb](../includes/sb-md.md)] namespace that you created in earlier steps.</span></span> <span data-ttu-id="52289-167">**/notifications/opportunity/** 表示我們將在本教學課程的後續步驟中建立的轉送。</span><span class="sxs-lookup"><span data-stu-id="52289-167">**/notifications/opportunity/** represents the relay that we will create in later steps of this tutorial.</span></span>  
   
         > [!NOTE]
         >  <span data-ttu-id="52289-168">您必須指定[!INCLUDE[sb](../includes/sb-md.md)]您稍早建立的命名空間。</span><span class="sxs-lookup"><span data-stu-id="52289-168">You must specify the [!INCLUDE[sb](../includes/sb-md.md)] namespace that you created earlier.</span></span>  

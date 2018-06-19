@@ -1,14 +1,14 @@
 ---
-title: "如何重新部署 BizTalk 組件從 Visual Studio |Microsoft 文件"
-ms.custom: 
+title: 如何重新部署 BizTalk 組件從 Visual Studio |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5c4bb627-48de-4874-bb25-af2c513dbc51
-caps.latest.revision: "41"
+caps.latest.revision: 41
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009495"
 ---
 # <a name="how-to-redeploy-a-biztalk-assembly-from-visual-studio"></a><span data-ttu-id="c290c-102">如何從 Visual Studio 重新部署 BizTalk 組件</span><span class="sxs-lookup"><span data-stu-id="c290c-102">How to Redeploy a BizTalk Assembly from Visual Studio</span></span>
 <span data-ttu-id="c290c-103">在開發組件的程序中，您通常必須重複進行部署、測試、修改和重新部署。</span><span class="sxs-lookup"><span data-stu-id="c290c-103">In the process of developing an assembly, you often need to deploy, test, modify, and redeploy it repeatedly.</span></span> <span data-ttu-id="c290c-104">在舊版的[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，如果您想要重新部署組件，而不變更版本號碼，您首先需要以手動方式停止、 取消登錄和解除繫結中的組件中所包含的成品[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]然後再移除的組件BizTalk 管理 （組態） 資料庫。</span><span class="sxs-lookup"><span data-stu-id="c290c-104">In previous versions of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], if you wanted to redeploy an assembly without changing the version number, you first needed to manually stop, unenlist, and unbind artifacts contained in the assembly in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and then remove the assembly from the BizTalk Management (configuration) database.</span></span> <span data-ttu-id="c290c-105">此外之後重新部署組件，, 您需要繫結、 登錄和啟動成品[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="c290c-105">In addition, after redeploying the assembly, you needed to bind, enlist, and start its artifacts in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  

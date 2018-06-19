@@ -1,17 +1,17 @@
 ---
-title: "供應鏈方案 |Microsoft 文件"
-ms.custom: 
+title: 供應鏈方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - trading partners, supply chains
 - supply chains, solutions
 ms.assetid: c53e37ec-6055-46ba-a13f-1370dbfe44fb
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006447"
 ---
 # <a name="the-supply-chain-solution"></a><span data-ttu-id="6c9f2-102">供應鏈方案</span><span class="sxs-lookup"><span data-stu-id="6c9f2-102">The Supply Chain Solution</span></span>
 <span data-ttu-id="6c9f2-103">技術有助於解決與商務程序及資料通訊相關的商業難題。</span><span class="sxs-lookup"><span data-stu-id="6c9f2-103">Technology can help solve the business challenges related to business process and data communications.</span></span> <span data-ttu-id="6c9f2-104">資訊科技 (IT) 系統可以幫助高科技公司將他們與交易夥伴之間的通訊，從離線、不相容的程序轉換成整合、標準化的程序。</span><span class="sxs-lookup"><span data-stu-id="6c9f2-104">Information Technology (IT) systems can help high-technology companies transform the communications with their partners from disconnected, incompatible processes to integrated, standardized ones.</span></span>  

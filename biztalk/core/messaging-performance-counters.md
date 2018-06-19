@@ -1,14 +1,14 @@
 ---
-title: "傳訊效能計數器 |Microsoft 文件"
-ms.custom: 
+title: 傳訊效能計數器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 162d761a-fe69-45b0-a6af-c5d9f714e0ca
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972548"
 ---
 # <a name="messaging-performance-counters"></a><span data-ttu-id="ffe51-102">傳訊效能計數器</span><span class="sxs-lookup"><span data-stu-id="ffe51-102">Messaging Performance Counters</span></span>
 <span data-ttu-id="ffe51-103">效能計數器可讓您監視網站或系統上，服務所執行之工作的特定層面。</span><span class="sxs-lookup"><span data-stu-id="ffe51-103">Performance counters allow you to monitor specific aspects of work performed on the site or system by service.</span></span> <span data-ttu-id="ffe51-104">效能計數器也可以幫助您識別和疑難排解伺服器的效能問題。</span><span class="sxs-lookup"><span data-stu-id="ffe51-104">Performance counters can help you identify and troubleshoot server performance issues.</span></span>  

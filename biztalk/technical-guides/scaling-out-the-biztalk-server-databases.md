@@ -1,14 +1,14 @@
 ---
-title: "調整 BizTalk Server 資料庫的跨 |Microsoft 文件"
-ms.custom: 
+title: 調整 BizTalk Server 資料庫的跨 |Microsoft 文件
+ms.custom: ''
 ms.date: 11/29/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 18853ceb-7975-4c30-878f-6b162005f795
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009615"
 ---
 # <a name="scaling-out-the-biztalk-server-databases"></a><span data-ttu-id="2a924-102">向外延展 BizTalk Server 資料庫</span><span class="sxs-lookup"><span data-stu-id="2a924-102">Scaling Out the BizTalk Server Databases</span></span>
 <span data-ttu-id="2a924-103">若要為 BizTalk Server 資料庫提供高可用性，設定執行 SQL Server 在 Windows 叢集中的兩部電腦。</span><span class="sxs-lookup"><span data-stu-id="2a924-103">To provide high availability for the BizTalk Server databases, configure two computers that are running SQL Server in a Windows cluster.</span></span> <span data-ttu-id="2a924-104">這些電腦可以主動/主動、 主動/被動或主動/主動/被動 （需要三部電腦） 中執行的備援性組態可以共用的磁碟機上儲存資料 (例如 RAID 1 + 0 SCSI 磁碟陣列) 或存放區域網路 (SAN)。</span><span class="sxs-lookup"><span data-stu-id="2a924-104">These computers can run in an active/active, active/passive, or active/active/passive (requires three computers) configuration for redundancy and can store data on a shared drive (such as a RAID 1+0 SCSI disk array) or storage area network (SAN).</span></span>  

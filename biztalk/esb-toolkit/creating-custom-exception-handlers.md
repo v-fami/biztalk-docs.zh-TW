@@ -1,14 +1,14 @@
 ---
-title: "建立自訂例外狀況處理常式 |Microsoft 文件"
-ms.custom: 
+title: 建立自訂例外狀況處理常式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 401aec8d-d9ca-4a88-9e5b-d3ab605dc0a1
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290630"
 ---
 # <a name="creating-custom-exception-handlers"></a><span data-ttu-id="83eed-102">建立自訂例外狀況處理常式</span><span class="sxs-lookup"><span data-stu-id="83eed-102">Creating Custom Exception Handlers</span></span>
 <span data-ttu-id="83eed-103">若要偵測和回應例外狀況的應用程式，開發人員必須提供例外狀況處理常式。</span><span class="sxs-lookup"><span data-stu-id="83eed-103">For an application to detect and react to exceptions, developers must provide an exception handler.</span></span> <span data-ttu-id="83eed-104">這個例外狀況處理常式可以訂閱至單一類型的例外狀況訊息，或從部分或所有組件的系統或應用程式產生的例外狀況訊息。</span><span class="sxs-lookup"><span data-stu-id="83eed-104">This exception handler can subscribe to a single type of exception message or to exception messages generated from some or all parts of a system or an application.</span></span> <span data-ttu-id="83eed-105">例如，從特定的系統 （例如的薪資系統中發生任何例外），所有訊息，您可能需要單一處理常式，或可能會改為所需目標的處理常式專屬的失敗 （例如偵測是否檢查列印程序失敗）。</span><span class="sxs-lookup"><span data-stu-id="83eed-105">For example, you may require only a single handler for all messages from a particular system (such as any exceptions occurring in the payroll system), or you may instead require targeted handlers for specific failures (such as detecting if the check print process fails).</span></span>  

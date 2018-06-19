@@ -1,17 +1,17 @@
 ---
-title: "關鍵訊息和欄位 |Microsoft 文件"
-ms.custom: 
+title: 關鍵訊息和欄位 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - process management solution tutorial, processing
 - processing, processing logic
 ms.assetid: 77db0706-dfdc-48b0-8ca4-bae7ab2d7641
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263926"
 ---
 # <a name="key-messages-and-fields"></a><span data-ttu-id="04ada-102">關鍵訊息和欄位</span><span class="sxs-lookup"><span data-stu-id="04ada-102">Key Messages and Fields</span></span>
 <span data-ttu-id="04ada-103">本節將簡短描述關鍵訊息和欄位由**OrderBroker**和**OrderManager**協調流程。</span><span class="sxs-lookup"><span data-stu-id="04ada-103">This section briefly describes key messages and fields handled by the **OrderBroker** and **OrderManager** orchestrations.</span></span> <span data-ttu-id="04ada-104">如需應用程式中的訊息的完整清單，請參閱[商務程序管理解決方案的訊息參考](../core/message-reference-for-the-business-process-management-solution.md)。</span><span class="sxs-lookup"><span data-stu-id="04ada-104">For a complete list of messages in the application, see [Message Reference for the Business Process Management Solution](../core/message-reference-for-the-business-process-management-solution.md).</span></span>  

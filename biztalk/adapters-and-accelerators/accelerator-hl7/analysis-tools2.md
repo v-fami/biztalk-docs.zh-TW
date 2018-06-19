@@ -1,11 +1,11 @@
 ---
-title: "分析 Tools2 |Microsoft 文件"
-ms.custom: 
+title: 分析 Tools2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BAS
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Human Workflow Services (HWS)
 - HWS
 ms.assetid: 31a6548b-0df8-4c9a-a215-fb74c7e8ab8a
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26004359"
 ---
 # <a name="analysis-tools"></a><span data-ttu-id="dcd64-102">分析工具</span><span class="sxs-lookup"><span data-stu-id="dcd64-102">Analysis Tools</span></span>
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="dcd64-103">BizTalk Server 商務分析師和資訊工作者提供一組分析工具。</span><span class="sxs-lookup"><span data-stu-id="dcd64-103"> BizTalk Server provides a set of analysis tools for business analysts and information workers.</span></span> <span data-ttu-id="dcd64-104">如需有關這些工具的詳細資訊，請參閱[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server 說明。</span><span class="sxs-lookup"><span data-stu-id="dcd64-104">For more information about these tools, see [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server Help.</span></span>  

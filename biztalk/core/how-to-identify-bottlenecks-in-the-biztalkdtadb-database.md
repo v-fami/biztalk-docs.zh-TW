@@ -1,14 +1,14 @@
 ---
-title: "如何識別 BizTalkDTADb 資料庫中的瓶頸 |Microsoft 文件"
-ms.custom: 
+title: 如何識別 BizTalkDTADb 資料庫中的瓶頸 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d4499bc3-d50b-4b97-b19c-93c7bcc40483
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22253758"
 ---
 # <a name="how-to-identify-bottlenecks-in-the-biztalkdtadb-database"></a><span data-ttu-id="05ec5-102">如何識別 BizTalkDTADb 資料庫中的瓶頸</span><span class="sxs-lookup"><span data-stu-id="05ec5-102">How to Identify Bottlenecks in the BizTalkDTADb Database</span></span>
 <span data-ttu-id="05ec5-103">若要找出 BizTalkDTADb 資料庫中的瓶頸，請執行下列步驟：</span><span class="sxs-lookup"><span data-stu-id="05ec5-103">To identify bottlenecks in the BizTalkDTADb database, perform the following steps:</span></span>  

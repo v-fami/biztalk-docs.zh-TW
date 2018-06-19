@@ -1,14 +1,14 @@
 ---
-title: "正在驗證配接器組態 |Microsoft 文件"
-ms.custom: 
+title: 正在驗證配接器組態 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8eeb8742-7083-462b-8d3a-e58103112542
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973300"
 ---
 # <a name="validating-the-adapter-configuration"></a><span data-ttu-id="3a437-102">驗證配接器組態</span><span class="sxs-lookup"><span data-stu-id="3a437-102">Validating the Adapter Configuration</span></span>
 <span data-ttu-id="3a437-103">同時新增接收位置和傳送埠，您必須設定您的自訂屬性中 **\<** *配接器名稱* **\>傳輸屬性**  對話方塊。</span><span class="sxs-lookup"><span data-stu-id="3a437-103">While adding the receive location and send port, you will be asked to configure your custom properties in the **\<***Adapter Name***\> Transport Properties** dialog box.</span></span> <span data-ttu-id="3a437-104">AdapterHarness 專案中的 XSD 結構描述檔案會定義這些屬性。</span><span class="sxs-lookup"><span data-stu-id="3a437-104">The XSD schema files in the AdapterHarness project define these properties.</span></span>  

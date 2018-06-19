@@ -1,14 +1,14 @@
 ---
-title: "更新成品 |Microsoft 文件"
-ms.custom: 
+title: 更新成品 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 40feab57-4286-4bdf-8f52-25d02b3fa60c
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302574"
 ---
 # <a name="updating-an-artifact"></a><span data-ttu-id="3e84f-102">更新成品</span><span class="sxs-lookup"><span data-stu-id="3e84f-102">Updating an Artifact</span></span>
 <span data-ttu-id="3e84f-103">兩個或多個 BizTalk 應用程式中成品之間的相依性可以有大幅影響應用程式部署和維護。</span><span class="sxs-lookup"><span data-stu-id="3e84f-103">Dependencies between artifacts in two or more BizTalk applications can have a significant effect on application deployment and maintenance.</span></span> <span data-ttu-id="3e84f-104">成品相依於另一個需要使用該成品才能正常運作時，例如協調流程，需要使用特定的管線才能正確傳輸訊息。</span><span class="sxs-lookup"><span data-stu-id="3e84f-104">An artifact is dependent on another when it needs to use that artifact in order to function properly, for example an orchestration that needs to use a specific pipeline in order to transmit messages correctly.</span></span>  

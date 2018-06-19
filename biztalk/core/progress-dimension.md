@@ -1,17 +1,17 @@
 ---
-title: "進度維度 |Microsoft 文件"
-ms.custom: 
+title: 進度維度 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - aggregations [BAM], progress dimensions
 - Progress dimension [BAM]
 ms.assetid: 472fcbf6-502f-4c81-bf48-f7eec98e391b
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973492"
 ---
 # <a name="progress-dimension"></a><span data-ttu-id="ce1fc-102">進度維度</span><span class="sxs-lookup"><span data-stu-id="ce1fc-102">Progress Dimension</span></span>
 <span data-ttu-id="ce1fc-103">使用進度維度可依 BAM 活動所達到的里程碑將 BAM 活動分組。</span><span class="sxs-lookup"><span data-stu-id="ce1fc-103">Use a progress dimension to group BAM activities by milestones they have reached.</span></span> <span data-ttu-id="ce1fc-104">使用範例說明會比較清楚。</span><span class="sxs-lookup"><span data-stu-id="ce1fc-104">This is best illustrated by an example.</span></span>  

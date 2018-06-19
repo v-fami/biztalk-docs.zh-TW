@@ -1,18 +1,18 @@
 ---
-title: "如何移除 BAM 檢視 |Microsoft 文件"
-ms.custom: 
+title: 如何移除 BAM 檢視 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BAM, views
 - managing [BAM definitions], deleting views
 - Remove-View command [BAM]
 ms.assetid: 1a43ec81-20b1-41f7-941f-753132ac9ed2
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972180"
 ---
 # <a name="how-to-remove-bam-views"></a><span data-ttu-id="2b0b5-102">如何移除 BAM 檢視</span><span class="sxs-lookup"><span data-stu-id="2b0b5-102">How to Remove BAM Views</span></span>
 <span data-ttu-id="2b0b5-103">系統管理員使用**移除檢視**命令，從 BAM 主要匯入資料庫移除檢視。</span><span class="sxs-lookup"><span data-stu-id="2b0b5-103">Administrators use the **remove-view** command to remove a view from the BAM Primary Import database.</span></span>  

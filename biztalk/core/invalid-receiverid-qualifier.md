@@ -1,14 +1,14 @@
 ---
-title: "無效的 ReceiverId 限定詞 |Microsoft 文件"
-ms.custom: 
+title: 無效的 ReceiverId 限定詞 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 52d60f7e-6f16-424d-91b8-dc8181206249
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257190"
 ---
 # <a name="invalid-receiverid-qualifier"></a><span data-ttu-id="95c2a-102">無效的 ReceiverId 限定詞</span><span class="sxs-lookup"><span data-stu-id="95c2a-102">Invalid ReceiverId Qualifier</span></span>
 ## <a name="details"></a><span data-ttu-id="95c2a-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="95c2a-103">Details</span></span>  

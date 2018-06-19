@@ -1,14 +1,14 @@
 ---
-title: "建立、 檢視和刪除錯誤訊息通知 |Microsoft 文件"
-ms.custom: 
+title: 建立、 檢視和刪除錯誤訊息通知 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 59df2b40-b42c-4167-873c-0819839919da
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974444"
 ---
 # <a name="creating-viewing-and-deleting-fault-message-alerts"></a><span data-ttu-id="b8e41-102">建立、 檢視和刪除錯誤訊息的警示</span><span class="sxs-lookup"><span data-stu-id="b8e41-102">Creating, Viewing, and Deleting Fault Message Alerts</span></span>
 <span data-ttu-id="b8e41-103">ESB 管理入口網站可以產生警示，當錯誤訊息抵達入口網站中，指定警示的準則為基礎的訊息中的值的比較。</span><span class="sxs-lookup"><span data-stu-id="b8e41-103">The ESB Management Portal can generate alerts when fault messages arrive at the portal, based on a comparison of values in the message with criteria specified for the alert.</span></span> <span data-ttu-id="b8e41-104">在入口網站也可以維護一份通知連結到個別警示的使用者，並主動便會產生警示時，它會通知這些使用者。</span><span class="sxs-lookup"><span data-stu-id="b8e41-104">The portal can also maintain a list of notifications linked to individual alerts and users, and it will notify these users when it proactively raises alerts.</span></span>  

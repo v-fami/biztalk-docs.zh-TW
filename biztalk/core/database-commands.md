@@ -1,14 +1,14 @@
 ---
-title: "資料庫命令 |Microsoft 文件"
-ms.custom: 
+title: 資料庫命令 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 60c54131-0793-45a9-822a-554cd4fc05a2
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971364"
 ---
 # <a name="database-commands"></a><span data-ttu-id="8c986-102">資料庫命令</span><span class="sxs-lookup"><span data-stu-id="8c986-102">Database Commands</span></span>
 <span data-ttu-id="8c986-103">BAM 管理公用程式資料庫命令可讓您使用 BAM 資料庫：</span><span class="sxs-lookup"><span data-stu-id="8c986-103">The BAM Management utility database commands allow you to work with the BAM databases:</span></span>  
@@ -36,7 +37,7 @@ ms.lasthandoff: 11/28/2017
 -   <span data-ttu-id="8c986-110">停用參考： 停用 BAM 主要匯入資料庫的參考。</span><span class="sxs-lookup"><span data-stu-id="8c986-110">disable-reference: Disables a reference to a BAM Primary Import database.</span></span>  
   
 > [!NOTE]
->  <span data-ttu-id="8c986-111">您可以藉由啟用任何 BM 公用程式命令的追蹤**-追蹤： 在 &#124; 關閉**切換參數。</span><span class="sxs-lookup"><span data-stu-id="8c986-111">You can enable tracing on any BM utility command by including the **-Trace:on&#124;off** parameter switch.</span></span> <span data-ttu-id="8c986-112">使用追蹤參數會覆寫組態檔中的追蹤設定。</span><span class="sxs-lookup"><span data-stu-id="8c986-112">Using the Trace switch overrides the tracing settings in the configuration file.</span></span> <span data-ttu-id="8c986-113">此參數可以搭配任何一般 BM 命令使用。</span><span class="sxs-lookup"><span data-stu-id="8c986-113">The switch can be used in conjunction with any normal BM command.</span></span>  
+>  <span data-ttu-id="8c986-111">您可以藉由啟用任何 BM 公用程式命令的追蹤 **-追蹤： 在 &#124; 關閉**切換參數。</span><span class="sxs-lookup"><span data-stu-id="8c986-111">You can enable tracing on any BM utility command by including the **-Trace:on&#124;off** parameter switch.</span></span> <span data-ttu-id="8c986-112">使用追蹤參數會覆寫組態檔中的追蹤設定。</span><span class="sxs-lookup"><span data-stu-id="8c986-112">Using the Trace switch overrides the tracing settings in the configuration file.</span></span> <span data-ttu-id="8c986-113">此參數可以搭配任何一般 BM 命令使用。</span><span class="sxs-lookup"><span data-stu-id="8c986-113">The switch can be used in conjunction with any normal BM command.</span></span>  
   
 > [!NOTE]
 >  <span data-ttu-id="8c986-114">在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。</span><span class="sxs-lookup"><span data-stu-id="8c986-114">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  

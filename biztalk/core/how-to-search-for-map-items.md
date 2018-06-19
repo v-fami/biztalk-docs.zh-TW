@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255534"
 ---
 # <a name="how-to-search-for-map-items"></a><span data-ttu-id="8342e-102">如何搜尋對應項目</span><span class="sxs-lookup"><span data-stu-id="8342e-102">How to Search for Map Items</span></span>
 <span data-ttu-id="8342e-103">BizTalk 對應工具可讓您搜尋來源結構描述、目的結構描述與格線介面中的項目。</span><span class="sxs-lookup"><span data-stu-id="8342e-103">The BizTalk Mapper enables you to search for items in the source schema, the destination schema, and the grid surface.</span></span> <span data-ttu-id="8342e-104">本主題提供如何執行此作業的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="8342e-104">This topic provides information about how to perform this operation.</span></span>  

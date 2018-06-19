@@ -1,18 +1,18 @@
 ---
-title: "商務規則引擎安全性建議 |Microsoft 文件"
-ms.custom: 
+title: 商務規則引擎安全性建議 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, business rules
 - Business Rules Framework, security
 - business rules, security
 ms.assetid: d5df1cd0-112a-4c72-b95d-cbcd1bc6a2c3
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231942"
 ---
 # <a name="business-rule-engine-security-recommendations"></a><span data-ttu-id="cd617-102">商務規則引擎安全性建議</span><span class="sxs-lookup"><span data-stu-id="cd617-102">Business Rule Engine Security Recommendations</span></span>
 <span data-ttu-id="cd617-103">商務規則引擎是商務規則架構的執行階段元件。</span><span class="sxs-lookup"><span data-stu-id="cd617-103">The Business Rule Engine is the runtime component of the Business Rule Framework.</span></span> <span data-ttu-id="cd617-104">您可以使用商務規則架構，將易讀、宣告式且語意豐富的規則連接到任何商務物件 (.NET 元件)、XML文件或資料庫資料表。</span><span class="sxs-lookup"><span data-stu-id="cd617-104">With the Business Rule Framework, you can connect highly readable, declarative, semantically rich rules to any business objects (.NET components), XML documents, or database tables.</span></span> <span data-ttu-id="cd617-105">如需商務規則架構的詳細資訊，請參閱[建立和使用商務規則](../core/creating-and-using-business-rules.md)。</span><span class="sxs-lookup"><span data-stu-id="cd617-105">For more information about the Business Rule Framework, see [Creating and Using Business Rules](../core/creating-and-using-business-rules.md).</span></span> <span data-ttu-id="cd617-106">如需 「 商務規則引擎的詳細資訊，請參閱[規則引擎](../core/rule-engine.md)。</span><span class="sxs-lookup"><span data-stu-id="cd617-106">For more information about the Business Rule Engine, see [Rule Engine](../core/rule-engine.md).</span></span>  

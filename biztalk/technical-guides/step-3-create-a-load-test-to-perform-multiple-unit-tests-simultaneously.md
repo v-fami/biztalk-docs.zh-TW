@@ -1,14 +1,14 @@
 ---
-title: "步驟 3： 建立負載測試，以便同時執行多個單元測試 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3： 建立負載測試，以便同時執行多個單元測試 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b5dd7e31-7188-4edf-9513-ea2725950b47
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976548"
 ---
 # <a name="step-3-create-a-load-test-to-perform-multiple-unit-tests-simultaneously"></a><span data-ttu-id="c4fb4-102">步驟 3： 建立負載測試，以便同時執行多個單元測試</span><span class="sxs-lookup"><span data-stu-id="c4fb4-102">Step 3: Create a Load Test to Perform Multiple Unit Tests Simultaneously</span></span>
 <span data-ttu-id="c4fb4-103">負載測試執行多個執行個體的其中一個或多個單元測試，以便您可以測量您的應用程式效能和處理負載的能力。</span><span class="sxs-lookup"><span data-stu-id="c4fb4-103">Load tests run multiple instances of one or more unit tests so that you can measure your application's performance and ability to handle load.</span></span> <span data-ttu-id="c4fb4-104">Visual Studio 2010 負載測試的主要元件包括：</span><span class="sxs-lookup"><span data-stu-id="c4fb4-104">The primary components of a Visual Studio 2010 load test include:</span></span>  
@@ -45,7 +46,7 @@ ms.lasthandoff: 11/28/2017
   
 4.  <span data-ttu-id="c4fb4-130">按一下 **[下一步]**。</span><span class="sxs-lookup"><span data-stu-id="c4fb4-130">Click **Next**.</span></span>  
   
-5.  <span data-ttu-id="c4fb4-131">在**編輯負載測試情節的設定**頁面**輸入負載測試情節的名稱：**類型**BTS_Messaging_Step**。</span><span class="sxs-lookup"><span data-stu-id="c4fb4-131">On the **Edit Settings for a Load Test Scenario** page under **Enter a name for the load test scenario:** type **BTS_Messaging_Step**.</span></span> <span data-ttu-id="c4fb4-132">在下**考慮時間特性**選取**不使用考慮時間**，然後按一下 **下一步**。</span><span class="sxs-lookup"><span data-stu-id="c4fb4-132">Under **Think time profile** select **Do not use think times** and then click **Next**.</span></span>  
+5.  <span data-ttu-id="c4fb4-131">在**編輯負載測試情節的設定**頁面**輸入負載測試情節的名稱：** 類型**BTS_Messaging_Step**。</span><span class="sxs-lookup"><span data-stu-id="c4fb4-131">On the **Edit Settings for a Load Test Scenario** page under **Enter a name for the load test scenario:** type **BTS_Messaging_Step**.</span></span> <span data-ttu-id="c4fb4-132">在下**考慮時間特性**選取**不使用考慮時間**，然後按一下 **下一步**。</span><span class="sxs-lookup"><span data-stu-id="c4fb4-132">Under **Think time profile** select **Do not use think times** and then click **Next**.</span></span>  
   
 6.  <span data-ttu-id="c4fb4-133">在**編輯負載模式設定的負載測試情節**頁面上，選取**逐步執行負載**，輸入下列值，然後按一下**下一步**。</span><span class="sxs-lookup"><span data-stu-id="c4fb4-133">On the **Edit load pattern settings for a load test scenario** page select **Step load**, enter the values below and then click **Next**.</span></span>  
   
@@ -129,7 +130,7 @@ ms.lasthandoff: 11/28/2017
     |<span data-ttu-id="c4fb4-181">效能分類</span><span class="sxs-lookup"><span data-stu-id="c4fb4-181">Performance Category</span></span>|<span data-ttu-id="c4fb4-182">效能計數器</span><span class="sxs-lookup"><span data-stu-id="c4fb4-182">Performance Counter</span></span>|  
     |--------------------------|-------------------------|  
     |<span data-ttu-id="c4fb4-183">處理器</span><span class="sxs-lookup"><span data-stu-id="c4fb4-183">Processor</span></span>|<span data-ttu-id="c4fb4-184">%Processor Time _Total 計數器執行個體。</span><span class="sxs-lookup"><span data-stu-id="c4fb4-184">% Processor Time for the _Total counter instance.</span></span>|  
-    |<span data-ttu-id="c4fb4-185">Biztalk: Messagebox： 一般計數器</span><span class="sxs-lookup"><span data-stu-id="c4fb4-185">BizTalk:Message Box: General Counters</span></span>|<span data-ttu-id="c4fb4-186">多工緩衝處理大小 *\<BizTalk MessageBox 資料庫名稱\>*:*\<SQL Server 執行個體名稱\>*計數器執行個體。</span><span class="sxs-lookup"><span data-stu-id="c4fb4-186">Spool Size for the *\<BizTalk MessageBox database name\>*:*\<SQL Server instance name\>* counter instance.</span></span> <span data-ttu-id="c4fb4-187">**注意：***\<BizTalk MessageBox 資料庫名稱\>*和 *\<SQL Server 執行個體名稱\>*只是預留位置BizTalk MessageBox 資料庫和裝載 BizTalk MessageBox 資料庫的 SQL Server 執行個體的實際名稱。  </span><span class="sxs-lookup"><span data-stu-id="c4fb4-187">**Note:**  *\<BizTalk MessageBox database name\>* and *\<SQL Server instance name\>* are just placeholders for the actual names of the BizTalk MessageBox database and the SQL Server instance that houses the BizTalk MessageBox database.</span></span> <span data-ttu-id="c4fb4-188">應該使用的 BizTalk MessageBox 資料庫和相關聯的 SQL Server 執行個體的實際名稱取代這些預留位置。</span><span class="sxs-lookup"><span data-stu-id="c4fb4-188">These placeholders should be replaced with the actual names of the BizTalk MessageBox database and associated SQL Server instance.</span></span>|  
+    |<span data-ttu-id="c4fb4-185">Biztalk: Messagebox： 一般計數器</span><span class="sxs-lookup"><span data-stu-id="c4fb4-185">BizTalk:Message Box: General Counters</span></span>|<span data-ttu-id="c4fb4-186">多工緩衝處理大小 *\<BizTalk MessageBox 資料庫名稱\>*:*\<SQL Server 執行個體名稱\>* 計數器執行個體。</span><span class="sxs-lookup"><span data-stu-id="c4fb4-186">Spool Size for the *\<BizTalk MessageBox database name\>*:*\<SQL Server instance name\>* counter instance.</span></span> <span data-ttu-id="c4fb4-187">**注意：***\<BizTalk MessageBox 資料庫名稱\>* 和 *\<SQL Server 執行個體名稱\>* 只是預留位置BizTalk MessageBox 資料庫和裝載 BizTalk MessageBox 資料庫的 SQL Server 執行個體的實際名稱。  </span><span class="sxs-lookup"><span data-stu-id="c4fb4-187">**Note:**  *\<BizTalk MessageBox database name\>* and *\<SQL Server instance name\>* are just placeholders for the actual names of the BizTalk MessageBox database and the SQL Server instance that houses the BizTalk MessageBox database.</span></span> <span data-ttu-id="c4fb4-188">應該使用的 BizTalk MessageBox 資料庫和相關聯的 SQL Server 執行個體的實際名稱取代這些預留位置。</span><span class="sxs-lookup"><span data-stu-id="c4fb4-188">These placeholders should be replaced with the actual names of the BizTalk MessageBox database and associated SQL Server instance.</span></span>|  
     |<span data-ttu-id="c4fb4-189">BizTalk:傳訊</span><span class="sxs-lookup"><span data-stu-id="c4fb4-189">BizTalk:Messaging</span></span>|<span data-ttu-id="c4fb4-190">文件數/秒的接收主控件計數器執行個體。</span><span class="sxs-lookup"><span data-stu-id="c4fb4-190">Documents received/Sec for the receive host counter instance.</span></span><br /><br /> <span data-ttu-id="c4fb4-191">文件處理每秒傳輸主控件計數器執行個體。</span><span class="sxs-lookup"><span data-stu-id="c4fb4-191">Documents processed/Sec for the transmit host counter instance.</span></span>|  
     |<span data-ttu-id="c4fb4-192">BizTalk：訊息代理程式</span><span class="sxs-lookup"><span data-stu-id="c4fb4-192">BizTalk:Message Agent</span></span>|<span data-ttu-id="c4fb4-193">文件的訊息傳遞內送速率接收主控件。</span><span class="sxs-lookup"><span data-stu-id="c4fb4-193">Message delivery incoming rate for the document receive host.</span></span>|  
     |<span data-ttu-id="c4fb4-194">BizTalk：訊息代理程式</span><span class="sxs-lookup"><span data-stu-id="c4fb4-194">BizTalk:Message Agent</span></span>|<span data-ttu-id="c4fb4-195">文件傳輸主控件的訊息發佈外寄速率。</span><span class="sxs-lookup"><span data-stu-id="c4fb4-195">Message publishing outgoing rate for the document transmit host.</span></span>|  

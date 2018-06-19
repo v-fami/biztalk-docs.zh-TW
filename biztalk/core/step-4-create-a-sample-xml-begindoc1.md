@@ -1,14 +1,14 @@
 ---
-title: "步驟 4： 建立範例 XML BeginDoc1 |Microsoft 文件"
-ms.custom: 
+title: 步驟 4： 建立範例 XML BeginDoc1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e494b4b2-4c83-4293-8ae8-acae29018e7f
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22276726"
 ---
 # <a name="step-4-create-a-sample-xml-begindoc"></a><span data-ttu-id="9fdf2-102">步驟 4： 建立範例 XML BeginDoc</span><span class="sxs-lookup"><span data-stu-id="9fdf2-102">Step 4: Create a Sample XML BeginDoc</span></span>
 <span data-ttu-id="9fdf2-103">將下列程式碼儲存到 XML 檔案中。</span><span class="sxs-lookup"><span data-stu-id="9fdf2-103">Save the following into an XML file.</span></span> <span data-ttu-id="9fdf2-104">如果您的測試會使用此範例中的步驟，並使用範例的 J.D.</span><span class="sxs-lookup"><span data-stu-id="9fdf2-104">If your test uses the steps in this example, and uses the example's J.D.</span></span> <span data-ttu-id="9fdf2-105">Edwards OneWorld 物件選項，[//csales/b4200310]，您可以將這放入 Input 資料夾並將其指定的 Out 資料夾 （繫結至 EndDocOut 連接埠的資料夾）。</span><span class="sxs-lookup"><span data-stu-id="9fdf2-105">Edwards OneWorld object selection, [JDE://CSALES/B4200310], you can drop this into the Input folder and what it come out the designated Out folder (the folder bound to the EndDocOut port).</span></span>  

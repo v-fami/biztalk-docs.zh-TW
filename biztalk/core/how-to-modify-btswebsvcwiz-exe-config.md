@@ -1,17 +1,17 @@
 ---
-title: "如何修改 BTSWebSvcWiz.exe.config |Microsoft 文件"
-ms.custom: 
+title: 如何修改 BTSWebSvcWiz.exe.config |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Web services, code samples
 - Web services, debugging
 ms.assetid: 8466e460-faa9-45ea-9586-19174858d194
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971124"
 ---
 # <a name="how-to-modify-btswebsvcwizexeconfig"></a><span data-ttu-id="5e52a-102">如何修改 BTSWebSvcWiz.exe.config</span><span class="sxs-lookup"><span data-stu-id="5e52a-102">How to Modify BTSWebSvcWiz.exe.config</span></span>
 <span data-ttu-id="5e52a-103">您可以啟用追蹤以偵錯 BizTalk Web 服務發佈精靈，取消註解\<新增\>BTSWebSvcWiz.exe.config 檔案中的節點。</span><span class="sxs-lookup"><span data-stu-id="5e52a-103">You can enable tracing to debug the BizTalk Web Services Publishing Wizard by uncommenting the \<add\> node in the BTSWebSvcWiz.exe.config file.</span></span> <span data-ttu-id="5e52a-104">如果追蹤接聽項節點已取消註解和*initializeData*參數是不變，BizTalk Server 追蹤檔案輸出寫入目前的目錄。</span><span class="sxs-lookup"><span data-stu-id="5e52a-104">If the trace listener node is uncommented and the *initializeData* parameter is unchanged, BizTalk Server writes the trace file output to the current directory.</span></span> <span data-ttu-id="5e52a-105">或者，您可以設定追蹤層級**ApplicationTraceSwitch**和設定追蹤檔案的路徑名稱。</span><span class="sxs-lookup"><span data-stu-id="5e52a-105">Alternatively, you can set the trace level of **ApplicationTraceSwitch** and set the path name of the trace file.</span></span>  

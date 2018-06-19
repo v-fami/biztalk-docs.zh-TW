@@ -1,14 +1,14 @@
 ---
-title: "使用安裝指令碼路線上手範例安裝 |Microsoft 文件"
-ms.custom: 
+title: 使用安裝指令碼路線上手範例安裝 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5f493148-5600-42db-981d-38b93a9b25e1
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972460"
 ---
 # <a name="install-the-itinerary-on-ramp-sample-using-the-install-scripts"></a><span data-ttu-id="c1b80-102">安裝路線上手範例使用安裝指令碼</span><span class="sxs-lookup"><span data-stu-id="c1b80-102">Install the Itinerary On-Ramp Sample Using the Install Scripts</span></span>
 <span data-ttu-id="c1b80-103">本章節描述如何安裝路線上手範例，以及在隨附的安裝指令碼從[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="c1b80-103">This section describes how you can install the Itinerary On-Ramp sample from the install scripts provided with the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)].</span></span>  

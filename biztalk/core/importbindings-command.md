@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22257998"
 ---
 # <a name="importbindings-command"></a><span data-ttu-id="9435c-102">ImportBindings 命令</span><span class="sxs-lookup"><span data-stu-id="9435c-102">ImportBindings Command</span></span>
 <span data-ttu-id="9435c-103">從 XML 格式的繫結檔案匯入繫結至 BizTalk 應用程式或群組。</span><span class="sxs-lookup"><span data-stu-id="9435c-103">Imports bindings from an XML-based binding file into a BizTalk application or group.</span></span> <span data-ttu-id="9435c-104">繫結可能已從匯出的組件、 應用程式或群組中所述[匯出繫結](../core/exporting-bindings6.md)。</span><span class="sxs-lookup"><span data-stu-id="9435c-104">The bindings may have been exported from an assembly, application, or group, as described in [Exporting Bindings](../core/exporting-bindings6.md).</span></span> <span data-ttu-id="9435c-105">根據繫結是從何處匯出而定，ApplicationName 和 GroupLevel 參數的影響將有所不同。</span><span class="sxs-lookup"><span data-stu-id="9435c-105">Depending on the location from which the bindings were exported, the ApplicationName and GroupLevel parameters have different effects.</span></span> <span data-ttu-id="9435c-106">如需詳細資訊，請參閱此主題稍後的「備註」。</span><span class="sxs-lookup"><span data-stu-id="9435c-106">For more information, see "Remarks," later in this topic.</span></span>  

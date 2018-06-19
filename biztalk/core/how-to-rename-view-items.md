@@ -1,17 +1,17 @@
 ---
-title: "如何重新命名檢視項目 |Microsoft 文件"
-ms.custom: 
+title: 如何重新命名檢視項目 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BAM views, renaming items
 - Excel add-in [BAM], renaming items
 ms.assetid: 0fc68e0d-1d6b-4ad1-b059-7b5318050530
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255558"
 ---
 # <a name="how-to-rename-view-items"></a><span data-ttu-id="36b63-102">如何重新命名檢視項目</span><span class="sxs-lookup"><span data-stu-id="36b63-102">How to Rename View Items</span></span>
 <span data-ttu-id="36b63-103">您所收集的商務活動資料通常會包含機密資訊，例如信用卡號碼或身分證號碼。</span><span class="sxs-lookup"><span data-stu-id="36b63-103">Often the data you collect for a business activity contains sensitive information, for example credit card numbers or social security numbers.</span></span> <span data-ttu-id="36b63-104">這表示某些類型的商務使用者只應看到經過篩選的資料子集。</span><span class="sxs-lookup"><span data-stu-id="36b63-104">This means that some types of business users should see only a filtered subset of the data.</span></span>  

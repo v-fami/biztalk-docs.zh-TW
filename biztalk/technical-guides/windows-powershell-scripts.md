@@ -1,14 +1,14 @@
 ---
-title: "Windows PowerShell 指令碼 |Microsoft 文件"
-ms.custom: 
+title: Windows PowerShell 指令碼 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9848e3ed-8686-4bb8-b8f5-7e3111a83177
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976340"
 ---
 # <a name="windows-powershell-scripts"></a><span data-ttu-id="e0583-102">Windows PowerShell 指令碼</span><span class="sxs-lookup"><span data-stu-id="e0583-102">Windows PowerShell Scripts</span></span>
 <span data-ttu-id="e0583-103">本主題包含可以套用本指南中所述的登錄設定 BizTalk Server 環境中的電腦執行的 Windows PowerShell 指令碼。</span><span class="sxs-lookup"><span data-stu-id="e0583-103">This topic contains Windows PowerShell scripts that can be run on the computers in a BizTalk Server environment to apply registry settings described in this guide.</span></span>  

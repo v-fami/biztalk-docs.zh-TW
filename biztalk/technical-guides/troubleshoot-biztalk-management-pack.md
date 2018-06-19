@@ -1,14 +1,14 @@
 ---
-title: "疑難排解 BizTalk Server 管理組件 |Microsoft 文件"
-ms.custom: 
+title: 疑難排解 BizTalk Server 管理組件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 676fd891-ee7f-49fc-a6d7-204dc6f2f382
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22302478"
 ---
 # <a name="troubleshooting"></a><span data-ttu-id="d9909-102">疑難排解</span><span class="sxs-lookup"><span data-stu-id="d9909-102">Troubleshooting</span></span>
 <span data-ttu-id="d9909-103">有一些您可採取來疑難排解 BizTalk Server 管理組件問題的動作：</span><span class="sxs-lookup"><span data-stu-id="d9909-103">There are a number of actions that you can take to troubleshoot BizTalk Server management pack issues:</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "保護 BizTalk Server 安全 |Microsoft 文件"
-ms.custom: 
+title: 保護 BizTalk Server 安全 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BizTalk Server, security
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - security, BizTalk Server
 - SSO, security
 ms.assetid: e4052e6a-dd91-40e9-a42a-7d1b1b2567d5
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269230"
 ---
 # <a name="securing-biztalk-server"></a><span data-ttu-id="a56b8-102">保護 BizTalk Server 安全</span><span class="sxs-lookup"><span data-stu-id="a56b8-102">Securing BizTalk Server</span></span>
 <span data-ttu-id="a56b8-103">本節提供有關在 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中管理安全性、設定使用者權限和實作「企業單一登入」的資訊。</span><span class="sxs-lookup"><span data-stu-id="a56b8-103">This section provides information about managing security, configuring user rights, and implementing Enterprise Single Sign-On in Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  

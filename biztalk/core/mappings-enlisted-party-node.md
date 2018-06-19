@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262222"
 ---
 # <a name="mappings-enlisted-party-node"></a><span data-ttu-id="6a3fb-102">對應 (已登錄合作對象節點)</span><span class="sxs-lookup"><span data-stu-id="6a3fb-102">Mappings (Enlisted Party Node)</span></span>
 <span data-ttu-id="6a3fb-103">繫結檔案的「對應」節點是所有「對應」節點的父節點 (「對應」節點會描述合作對象連接埠和角色連接埠類型作業之間的對應)。</span><span class="sxs-lookup"><span data-stu-id="6a3fb-103">The Mappings node of a binding file is the parent node for all of the Mapping nodes which describe the mapping between a party port and role port type operation.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "實作訊息安全性 |Microsoft 文件"
-ms.custom: 
+title: 實作訊息安全性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 971977a0-b74e-4408-8a07-ad327658f2bc
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256494"
 ---
 # <a name="implementing-message-security"></a><span data-ttu-id="37405-102">實作訊息安全性</span><span class="sxs-lookup"><span data-stu-id="37405-102">Implementing Message Security</span></span>
 <span data-ttu-id="37405-103">您可以設定 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 環境來使用憑證，以傳送及接收簽署和加密的訊息。</span><span class="sxs-lookup"><span data-stu-id="37405-103">You can configure your Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment to use certificates for sending and receiving signed and encrypted messages.</span></span> <span data-ttu-id="37405-104">藉由在加密和數位簽章中使用憑證，BizTalk Server 便可以：</span><span class="sxs-lookup"><span data-stu-id="37405-104">By using certificates for encryption and digital signatures, BizTalk Server can:</span></span>  

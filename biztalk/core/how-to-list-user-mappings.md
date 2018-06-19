@@ -1,17 +1,17 @@
 ---
-title: "如何列出使用者對應 |Microsoft 文件"
-ms.custom: 
+title: 如何列出使用者對應 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [SSO maps], listing maps
 - maps [SSO], listing maps
 ms.assetid: f9b73785-3a59-45c8-9e88-d2d16b5a46aa
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972148"
 ---
 # <a name="how-to-list-user-mappings"></a><span data-ttu-id="3435b-102">如何列出使用者對應</span><span class="sxs-lookup"><span data-stu-id="3435b-102">How to List User Mappings</span></span>
 <span data-ttu-id="3435b-103">使用此命令，以列出指定使用者的全部現有對應。</span><span class="sxs-lookup"><span data-stu-id="3435b-103">Use this command to list all the existing mappings for the specified user.</span></span>  
@@ -36,7 +37,7 @@ ms.lasthandoff: 11/28/2017
   
 3.  <span data-ttu-id="3435b-110">執行下列其中之一：</span><span class="sxs-lookup"><span data-stu-id="3435b-110">Do one of the following:</span></span>  
   
-    -   <span data-ttu-id="3435b-111">型別**ssomanage – listmappings *\<網域\>\\< 使用者名稱\>*** 列出特定的使用者擁有的分支機構應用程式中的所有對應到何處所屬*\<網域\>*是 Microsoft Windows 網域使用者帳戶和 *\<username\>* 是您要列出使用者對應的 Windows 使用者名稱。</span><span class="sxs-lookup"><span data-stu-id="3435b-111">Type **ssomanage –listmappings *\<domain\>\\<username\>*** to list all the mappings a given user has in the affiliate applications he/she belongs to, where *\<domain\>* is the Microsoft Windows domain for the user account, and *\<username\>* is the Windows user name for which you want to list the user mappings.</span></span> <span data-ttu-id="3435b-112">如果使用者是「分支機構系統管理員」或「SSO 系統管理員」，這個命令便會列出該使用者於所有分支機構應用程式中的所有對應。</span><span class="sxs-lookup"><span data-stu-id="3435b-112">If the user is an Affiliate Administrator or an SSO Administrator, this command will list all the mappings for that user in all the affiliate applications.</span></span>  
+    -   <span data-ttu-id="3435b-111">型別**ssomanage – listmappings *\<網域\>\\< 使用者名稱\>*** 列出特定的使用者擁有的分支機構應用程式中的所有對應到何處所屬*\<網域\>* 是 Microsoft Windows 網域使用者帳戶和 *\<username\>* 是您要列出使用者對應的 Windows 使用者名稱。</span><span class="sxs-lookup"><span data-stu-id="3435b-111">Type **ssomanage –listmappings *\<domain\>\\<username\>*** to list all the mappings a given user has in the affiliate applications he/she belongs to, where *\<domain\>* is the Microsoft Windows domain for the user account, and *\<username\>* is the Windows user name for which you want to list the user mappings.</span></span> <span data-ttu-id="3435b-112">如果使用者是「分支機構系統管理員」或「SSO 系統管理員」，這個命令便會列出該使用者於所有分支機構應用程式中的所有對應。</span><span class="sxs-lookup"><span data-stu-id="3435b-112">If the user is an Affiliate Administrator or an SSO Administrator, this command will list all the mappings for that user in all the affiliate applications.</span></span>  
   
          <span data-ttu-id="3435b-113">或</span><span class="sxs-lookup"><span data-stu-id="3435b-113">Or</span></span>  
   

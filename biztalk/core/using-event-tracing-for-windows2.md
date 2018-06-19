@@ -11,7 +11,7 @@ helpviewer_keywords:
 - ETW
 - Event Tracing for Windows
 ms.assetid: 88b91b74-2b2e-40e0-a3e9-1ebd6367abe8
-caps.latest.revision: ''
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25974412"
 ---
 # <a name="using-event-tracing-for-windows"></a><span data-ttu-id="8e9d9-102">使用 Windows 事件追蹤</span><span class="sxs-lookup"><span data-stu-id="8e9d9-102">Using Event Tracing for Windows</span></span>
 <span data-ttu-id="8e9d9-103">Microsoft BizTalk Adapter for JD Edwards OneWorld 會將錯誤、警告和資訊訊息記錄至 Windows 事件檢視器。</span><span class="sxs-lookup"><span data-stu-id="8e9d9-103">Microsoft BizTalk Adapter for JD Edwards OneWorld logs error, warning, and information messages to the Windows Event Viewer.</span></span> <span data-ttu-id="8e9d9-104">您可以使用 Windows 事件追蹤 (ETW) 工具來檢視其他追蹤訊息。</span><span class="sxs-lookup"><span data-stu-id="8e9d9-104">You can view additional tracing messages by using the Event Tracing for Windows (ETW) tool.</span></span> <span data-ttu-id="8e9d9-105">啟動 ETW 時，它會建立一個 \*.etl 檔案來接收訊息。</span><span class="sxs-lookup"><span data-stu-id="8e9d9-105">When ETW is activated, it creates an \*.etl file to receive the messages.</span></span> <span data-ttu-id="8e9d9-106">這個檔案是二進位格式，必須經過轉換才能讀取。</span><span class="sxs-lookup"><span data-stu-id="8e9d9-106">This file is in binary format and must be converted to be read.</span></span> <span data-ttu-id="8e9d9-107">若要這樣做，您必須取用者應用程式可供解譯 \*.etl 檔案︰ 例如，tracerpt.exe 或 tracedmp.exe。</span><span class="sxs-lookup"><span data-stu-id="8e9d9-107">To do this, you must have a consumer application available to interpret the \*.etl file: for example, tracerpt.exe or tracedmp.exe.</span></span>  
@@ -46,15 +47,15 @@ ms.lasthandoff: 03/28/2018
   
  <span data-ttu-id="8e9d9-127">BizTalk Adapter for JD Edwards OneWorld 有五個提供者，可讓您記錄不同種類的訊息：</span><span class="sxs-lookup"><span data-stu-id="8e9d9-127">BizTalk Adapter for JD Edwards OneWorld has five providers, allowing you to log different kinds of messages:</span></span>  
   
--   <span data-ttu-id="8e9d9-128">**接收器記錄提供者。**</span><span class="sxs-lookup"><span data-stu-id="8e9d9-128">**Receiver Logging Provider.**</span></span> <span data-ttu-id="8e9d9-129">\<追蹤項目\>交換器**-接收者**。</span><span class="sxs-lookup"><span data-stu-id="8e9d9-129">The \<Trace element\> switch is **-receiver**.</span></span>  
+-   <span data-ttu-id="8e9d9-128">**接收器記錄提供者。**</span><span class="sxs-lookup"><span data-stu-id="8e9d9-128">**Receiver Logging Provider.**</span></span> <span data-ttu-id="8e9d9-129">\<追蹤項目\>交換器 **-接收者**。</span><span class="sxs-lookup"><span data-stu-id="8e9d9-129">The \<Trace element\> switch is **-receiver**.</span></span>  
   
--   <span data-ttu-id="8e9d9-130">**接收器 Castdetail 提供者。**</span><span class="sxs-lookup"><span data-stu-id="8e9d9-130">**Receiver CastDetails Provider.**</span></span> <span data-ttu-id="8e9d9-131">\<追蹤項目\>交換器**-castDetailsReceive**。</span><span class="sxs-lookup"><span data-stu-id="8e9d9-131">The \<Trace element\> switch is **-castDetailsReceive**.</span></span>  
+-   <span data-ttu-id="8e9d9-130">**接收器 Castdetail 提供者。**</span><span class="sxs-lookup"><span data-stu-id="8e9d9-130">**Receiver CastDetails Provider.**</span></span> <span data-ttu-id="8e9d9-131">\<追蹤項目\>交換器 **-castDetailsReceive**。</span><span class="sxs-lookup"><span data-stu-id="8e9d9-131">The \<Trace element\> switch is **-castDetailsReceive**.</span></span>  
   
--   <span data-ttu-id="8e9d9-132">**傳輸器記錄提供者。**</span><span class="sxs-lookup"><span data-stu-id="8e9d9-132">**Transmitter Logging Provider.**</span></span> <span data-ttu-id="8e9d9-133">\<追蹤項目\>交換器**-傳輸器**。</span><span class="sxs-lookup"><span data-stu-id="8e9d9-133">The \<Trace element\> switch is **-transmitter**.</span></span>  
+-   <span data-ttu-id="8e9d9-132">**傳輸器記錄提供者。**</span><span class="sxs-lookup"><span data-stu-id="8e9d9-132">**Transmitter Logging Provider.**</span></span> <span data-ttu-id="8e9d9-133">\<追蹤項目\>交換器 **-傳輸器**。</span><span class="sxs-lookup"><span data-stu-id="8e9d9-133">The \<Trace element\> switch is **-transmitter**.</span></span>  
   
--   <span data-ttu-id="8e9d9-134">**傳輸器 CastDetails 提供者。**</span><span class="sxs-lookup"><span data-stu-id="8e9d9-134">**Transmitter CastDetails Provider.**</span></span> <span data-ttu-id="8e9d9-135">\<追蹤項目\>交換器**-castDetailsTransmit**。</span><span class="sxs-lookup"><span data-stu-id="8e9d9-135">The \<Trace element\> switch is **-castDetailsTransmit**.</span></span>  
+-   <span data-ttu-id="8e9d9-134">**傳輸器 CastDetails 提供者。**</span><span class="sxs-lookup"><span data-stu-id="8e9d9-134">**Transmitter CastDetails Provider.**</span></span> <span data-ttu-id="8e9d9-135">\<追蹤項目\>交換器 **-castDetailsTransmit**。</span><span class="sxs-lookup"><span data-stu-id="8e9d9-135">The \<Trace element\> switch is **-castDetailsTransmit**.</span></span>  
   
--   <span data-ttu-id="8e9d9-136">**管理記錄提供者。**</span><span class="sxs-lookup"><span data-stu-id="8e9d9-136">**Management Logging Provider.**</span></span> <span data-ttu-id="8e9d9-137">\<追蹤項目\>交換器**-管理**。</span><span class="sxs-lookup"><span data-stu-id="8e9d9-137">The \<Trace element\> switch is **-management**.</span></span>  
+-   <span data-ttu-id="8e9d9-136">**管理記錄提供者。**</span><span class="sxs-lookup"><span data-stu-id="8e9d9-136">**Management Logging Provider.**</span></span> <span data-ttu-id="8e9d9-137">\<追蹤項目\>交換器 **-管理**。</span><span class="sxs-lookup"><span data-stu-id="8e9d9-137">The \<Trace element\> switch is **-management**.</span></span>  
   
  <span data-ttu-id="8e9d9-138">BTAJDEOneWorldTrace 命令</span><span class="sxs-lookup"><span data-stu-id="8e9d9-138">BTAJDEOneWorldTrace Command</span></span>  
   

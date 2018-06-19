@@ -1,14 +1,14 @@
 ---
-title: "逐步解說： 建立事實建立者 |Microsoft 文件"
-ms.custom: 
+title: 逐步解說： 建立事實建立者 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 041c8f73-c72e-43fd-8446-144cecdc95ef
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290302"
 ---
 # <a name="walkthrough-creating-a-fact-creator"></a><span data-ttu-id="ac137-102">逐步解說： 建立事實建立者</span><span class="sxs-lookup"><span data-stu-id="ac137-102">Walkthrough: Creating a Fact Creator</span></span>
 <span data-ttu-id="ac137-103">此逐步解說提供逐步程序建立事實建立者元件， **POFactCreator**，可用來測試**ProcessPurchaseOrder**您稍早在建立的原則逐步解說。</span><span class="sxs-lookup"><span data-stu-id="ac137-103">This walkthrough provides step-by-step procedures for creating a fact creator component, **POFactCreator**, which you can use to test the **ProcessPurchaseOrder** policy you created in earlier walkthroughs.</span></span>  
@@ -169,7 +170,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  <span data-ttu-id="ac137-166">在對話方塊底部，按一下 **新增**。</span><span class="sxs-lookup"><span data-stu-id="ac137-166">At the bottom of the dialog box, click **Add**.</span></span>  
   
-4.  <span data-ttu-id="ac137-167">在**.NET 組件**對話方塊中，選取**pofactcreatorlib**，然後按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="ac137-167">In the **.NET Assemblies** dialog box, select **POFactCreatorLib**, and then click **OK**.</span></span>  
+4.  <span data-ttu-id="ac137-167">在 **.NET 組件**對話方塊中，選取**pofactcreatorlib**，然後按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="ac137-167">In the **.NET Assemblies** dialog box, select **POFactCreatorLib**, and then click **OK**.</span></span>  
   
 5.  <span data-ttu-id="ac137-168">在**選取繫結**對話方塊中，按一下**POFactCreator**中**POFactCreatorLib，10.0.0**，然後按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="ac137-168">In the **Select Binding** dialog box, click **POFactCreator** in **POFactCreatorLib, 10.0.0**, and then click **OK**.</span></span>  
   

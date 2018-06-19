@@ -1,14 +1,14 @@
 ---
-title: "定義使用 XML 組態檔進行測試 |Microsoft 文件"
-ms.custom: 
+title: 定義使用 XML 組態檔進行測試 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d8339bcf-26d7-4a43-b68e-c4220a7a851d
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976332"
 ---
 # <a name="defining-testing-using-an-xml-configuration-file"></a><span data-ttu-id="a598f-102">定義使用 XML 組態檔進行測試</span><span class="sxs-lookup"><span data-stu-id="a598f-102">Defining Testing Using an XML Configuration File</span></span>
 <span data-ttu-id="a598f-103">BizUnit 提供以定義測試的兩種方法： 透過 XML 組態檔與透過 Excel 工作表。</span><span class="sxs-lookup"><span data-stu-id="a598f-103">BizUnit offers two ways to define tests: via an XML configuration file and via an Excel worksheet.</span></span> <span data-ttu-id="a598f-104">本主題著重在使用 XML 組態檔來定義測試。不過，您應該也查看 BizUnit SDK，因為它提供有趣如何定義使用 Excel 的 BizUnit 測試案例的範例。</span><span class="sxs-lookup"><span data-stu-id="a598f-104">This topic focuses on using an XML configuration file to define tests; however, you should also look at the BizUnit SDK, since it provides an interesting example of how to define BizUnit test cases using Excel.</span></span> <span data-ttu-id="a598f-105">此外，您可能想要調查 [BizUnit 設計工具] 工具，提供可以快速建立 BizUnit 測試案例的 GUI。</span><span class="sxs-lookup"><span data-stu-id="a598f-105">In addition, you may wish to investigate the BizUnit Designer tool, which provides a GUI that allows for rapid creation of BizUnit test cases.</span></span> <span data-ttu-id="a598f-106">本主題提供如何定義使用 XML 組態使用非常簡化的案例的測試案例的概觀。</span><span class="sxs-lookup"><span data-stu-id="a598f-106">This topic provides an overview of how to define test cases using XML configuration using a very simplified scenario.</span></span>  

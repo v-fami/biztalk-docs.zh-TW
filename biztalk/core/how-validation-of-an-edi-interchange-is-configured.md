@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6e698b21-e234-4d7d-b101-742eff68155c
-caps.latest.revision: ''
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22258014"
 ---
 # <a name="how-validation-of-an-edi-interchange-is-configured"></a><span data-ttu-id="4493e-102">如何設定驗證 EDI 交換</span><span class="sxs-lookup"><span data-stu-id="4493e-102">How Validation of an EDI Interchange Is Configured</span></span>
 <span data-ttu-id="4493e-103">如果查閱協議的程序判斷協議，內送或外寄交換會解析[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]使用協議屬性 （不是管線屬性） 來判斷如何執行驗證。</span><span class="sxs-lookup"><span data-stu-id="4493e-103">If the process to look up an agreement determines the agreement to which an incoming or outgoing interchange resolves to, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses the agreement properties (not pipeline properties) to determine how validation is performed.</span></span> <span data-ttu-id="4493e-104">如果沒有協議解析為某個交換，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]使用某些後援協議屬性和某些管線屬性來執行驗證。</span><span class="sxs-lookup"><span data-stu-id="4493e-104">If no agreement resolves to an interchange, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses some fallback agreement properties and some pipeline properties in performing validation.</span></span>  

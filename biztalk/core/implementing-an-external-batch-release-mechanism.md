@@ -1,14 +1,14 @@
 ---
-title: "實作外部批次的釋放機制 |Microsoft 文件"
-ms.custom: 
+title: 實作外部批次的釋放機制 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5633a448-cc29-4931-a3ad-206ae25c989b
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22258134"
 ---
 # <a name="implementing-an-external-batch-release-mechanism"></a><span data-ttu-id="bbf9f-102">實作外部批次釋放機制</span><span class="sxs-lookup"><span data-stu-id="bbf9f-102">Implementing an External Batch Release Mechanism</span></span>
 <span data-ttu-id="bbf9f-103">您可以使用外部釋放觸發程序來觸發釋放批次。</span><span class="sxs-lookup"><span data-stu-id="bbf9f-103">You can trigger the release of a batch using an external release trigger.</span></span> <span data-ttu-id="bbf9f-104">您可讓後端的企業營運系統應用程式在達到特定的臨界值時，自動觸發釋放。</span><span class="sxs-lookup"><span data-stu-id="bbf9f-104">The release could be automatically triggered by a back-end, line-of-business application upon reaching a certain threshold.</span></span> <span data-ttu-id="bbf9f-105">這項機制是除了自動觸發批次釋放，由排程或交易集或字元計數，或手動觸發批次，即可**覆寫**按鈕**批次組態**頁面的單向協議索引標籤。</span><span class="sxs-lookup"><span data-stu-id="bbf9f-105">This mechanism is in addition to automatically triggering the batch release by a schedule or a count of transaction sets or characters, or manually triggering the batch by clicking the **Override** button in the **Batch Configuration** page of the one-way agreement tab.</span></span>  

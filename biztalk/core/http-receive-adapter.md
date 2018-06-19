@@ -1,14 +1,14 @@
 ---
-title: "HTTP 接收配接器 |Microsoft 文件"
-ms.custom: 
+title: HTTP 接收配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9008833c-5a02-4fb4-a43e-09ca28a21eff
-caps.latest.revision: 
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710597"
 ---
 # <a name="http-receive-adapter"></a><span data-ttu-id="86c9b-102">HTTP 接收配接器</span><span class="sxs-lookup"><span data-stu-id="86c9b-102">HTTP Receive Adapter</span></span>
 <span data-ttu-id="86c9b-103">HTTP 接收配接器的接收位置是透過 BizTalk Server 管理主控台設定的不同 URL。</span><span class="sxs-lookup"><span data-stu-id="86c9b-103">The receive location for the HTTP receive adapter is a distinct URL configured through the BizTalk Server Administration console.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "變更主控件執行個體屬性 |Microsoft 文件"
-ms.custom: 
+title: 變更主控件執行個體屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a35ca0c8-89b3-483a-b2fc-c8f43a8864d1
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255150"
 ---
 # <a name="update-host-instance-properties"></a><span data-ttu-id="7552c-102">更新主控件執行個體屬性</span><span class="sxs-lookup"><span data-stu-id="7552c-102">Update Host Instance Properties</span></span>
 

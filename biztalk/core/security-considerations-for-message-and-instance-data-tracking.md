@@ -1,11 +1,11 @@
 ---
-title: "訊息與執行個體資料追蹤的安全性考量 |Microsoft 文件"
-ms.custom: 
+title: 訊息與執行個體資料追蹤的安全性考量 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - permissions, HAT
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - HAT, security
 - Management database, HAT
 ms.assetid: 83e47dc2-c8e2-42a2-9c85-d511e7dae83f
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271766"
 ---
 # <a name="security-considerations-for-message-and-instance-data-tracking"></a><span data-ttu-id="1cbf8-102">訊息與執行個體資料追蹤的安全性考量</span><span class="sxs-lookup"><span data-stu-id="1cbf8-102">Security Considerations for Message and Instance Data Tracking</span></span>
 <span data-ttu-id="1cbf8-103">基於安全性理由，追蹤的訊息和服務執行個體未使用的瀏覽器或 Url 如同舊版[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="1cbf8-103">For security reasons, message and service instance tracking does not use browsers or URLs as in previous releases of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="1cbf8-104">此監視的選項會包含在 BizTalk Server 管理主控台的 [群組概觀] 頁面的一部分。</span><span class="sxs-lookup"><span data-stu-id="1cbf8-104">This monitoring option is included as a part of the Group Overview page in the BizTalk Server Administration Console.</span></span>  <span data-ttu-id="1cbf8-105">回溯相容性，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]仍然裝載了 Microsoft Internet Explorer 基於安全性理由在殼層內。</span><span class="sxs-lookup"><span data-stu-id="1cbf8-105">For backward compatibility, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] still hosts Microsoft Internet Explorer inside a shell for security reasons.</span></span>  

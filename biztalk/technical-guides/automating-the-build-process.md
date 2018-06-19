@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "26010263"
 ---
 # <a name="automating-the-build-process"></a><span data-ttu-id="6632f-102">自動化建置程序</span><span class="sxs-lookup"><span data-stu-id="6632f-102">Automating the Build Process</span></span>
 <span data-ttu-id="6632f-103">自動化的建置程序會編譯、 部署和則會針對最新的原始碼專案的組建驗證測試 (Bvt) 執行一般的預先決定的間隔。</span><span class="sxs-lookup"><span data-stu-id="6632f-103">An automated build process compiles, deploys and then runs build verification tests (BVTs) against the latest source code for a project at regular, predetermined intervals.</span></span> <span data-ttu-id="6632f-104">然後 「 組建報告，」 成功或失敗的建置程序會詳細說明，為該專案的專案關係人。</span><span class="sxs-lookup"><span data-stu-id="6632f-104">Then a “build report,” which details the success or failure of the build process, is disseminated to the project stakeholders.</span></span> <span data-ttu-id="6632f-105">分析組建報告來判斷哪些區域的專案需要注意，如果專案應該會回復的較早的版本/組建。</span><span class="sxs-lookup"><span data-stu-id="6632f-105">The build report is analyzed to determine what areas of the project need attention and if the project should be rolled back to an earlier version/build.</span></span>  

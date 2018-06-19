@@ -19,6 +19,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009023"
 ---
 # <a name="transmitpipeline-receiveport-node"></a><span data-ttu-id="72906-102">TransmitPipeline (ReceivePort 節點)</span><span class="sxs-lookup"><span data-stu-id="72906-102">TransmitPipeline (ReceivePort Node)</span></span>
 <span data-ttu-id="72906-103">繫結檔案的 [ReceivePort] 節點的 [TransmitPipeline] 節點，會針對繫結於隨同繫結檔案所匯出之雙向接收埠的傳送管線提供特定資訊。</span><span class="sxs-lookup"><span data-stu-id="72906-103">The TransmitPipeline node of the ReceivePort node of a binding file provides specific information about the send pipeline bound to a two way receive port exported with the binding file.</span></span>  

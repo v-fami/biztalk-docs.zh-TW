@@ -1,14 +1,14 @@
 ---
-title: "HIPAA 交易集 |Microsoft 文件"
-ms.custom: 
+title: HIPAA 交易集 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8d659d3d-ada4-4bbc-9005-6c5caad394c1
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005751"
 ---
 # <a name="hipaa-transaction-sets"></a><span data-ttu-id="83cd2-102">HIPAA 交易集</span><span class="sxs-lookup"><span data-stu-id="83cd2-102">HIPAA Transaction Sets</span></span>
 <span data-ttu-id="83cd2-103">本主題說明 HIPAA 交易集和 BizTalk Server 所支援的版本。</span><span class="sxs-lookup"><span data-stu-id="83cd2-103">This topic describes the HIPAA transaction sets and versions that are supported by BizTalk Server.</span></span>  

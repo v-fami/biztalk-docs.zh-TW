@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288102"
 ---
 # <a name="warning---record-body-xpath-not-found"></a><span data-ttu-id="afd4d-102">警告-找不到記錄 Body XPath</span><span class="sxs-lookup"><span data-stu-id="afd4d-102">Warning - Record Body XPath Not Found</span></span>
 <span data-ttu-id="afd4d-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="afd4d-103">**Error Code**</span></span>  

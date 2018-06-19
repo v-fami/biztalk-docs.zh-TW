@@ -1,14 +1,14 @@
 ---
-title: "如何建立叢集群組的磁碟，IP 位址，並命名 Resource1 |Microsoft 文件"
-ms.custom: 
+title: 如何建立叢集群組的磁碟，IP 位址，並命名 Resource1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b361f721-60db-485e-9ce3-48a6871ebd79
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249302"
 ---
 # <a name="how-to-create-a-cluster-group-with-a-disk-ip-address-and-name-resource"></a><span data-ttu-id="8b008-102">如何使用磁碟、IP 位址及名稱資源建立叢集群組</span><span class="sxs-lookup"><span data-stu-id="8b008-102">How to Create a Cluster Group with a Disk, IP Address, and Name Resource</span></span>
 <span data-ttu-id="8b008-103">為叢集[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]元件以及相依性能透過 NetBIOS，叢集網路上可供存取，**網路名稱**相同叢集群組中，必須建立資源。</span><span class="sxs-lookup"><span data-stu-id="8b008-103">For clustered [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] components and dependencies to be accessible over the network via NetBIOS, a clustered **Network Name** resource must be created in same cluster group.</span></span> <span data-ttu-id="8b008-104">叢集網路名稱資源可供存取，透過 TCP/IP 通訊協定， **IP 位址**相同叢集群組中，必須建立資源。</span><span class="sxs-lookup"><span data-stu-id="8b008-104">For a clustered Network Name resource to be accessible via the TCP/IP protocol, an **IP Address** resource must be created in the same cluster group as well.</span></span> <span data-ttu-id="8b008-105">某些[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]相依性還必須使用叢集**實體磁碟**資源才能正確運作。</span><span class="sxs-lookup"><span data-stu-id="8b008-105">Some [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] dependencies also require the use of a clustered **Physical Disk** resource to function correctly.</span></span> <span data-ttu-id="8b008-106">若要建立的叢集群組**實體磁碟**， **IP 位址**和**網路名稱**資源，請遵循下列步驟：</span><span class="sxs-lookup"><span data-stu-id="8b008-106">To create a cluster group with a **Physical Disk**, **IP Address** and **Network Name** resource follow these steps:</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "協調流程凍結效能計數器 |Microsoft 文件"
-ms.custom: 
+title: 協調流程凍結效能計數器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3ab92e0e-6a33-4aaa-ab14-0c82322b04d5
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263782"
 ---
 # <a name="orchestration-dehydration-performance-counters"></a><span data-ttu-id="adf82-102">協調流程凍結效能計數器</span><span class="sxs-lookup"><span data-stu-id="adf82-102">Orchestration Dehydration Performance Counters</span></span>
 <span data-ttu-id="adf82-103">下表列出監視凍結行為專用之「協調流程引擎」效能計數器的名稱。</span><span class="sxs-lookup"><span data-stu-id="adf82-103">The following table lists the names of Orchestration Engine performance counters that are specific to monitoring the behavior of dehydration.</span></span> <span data-ttu-id="adf82-104">使用 [效能監視器] 即可在調整凍結參數時觀看這些計數器。</span><span class="sxs-lookup"><span data-stu-id="adf82-104">Use Performance Monitor to watch these counters while tuning your dehydration parameters.</span></span>  

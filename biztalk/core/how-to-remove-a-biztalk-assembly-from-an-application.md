@@ -1,11 +1,11 @@
 ---
-title: "如何從應用程式移除 BizTalk 組件 |Microsoft 文件"
-ms.custom: 
+title: 如何從應用程式移除 BizTalk 組件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [applications], assemblies
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - applications, assemblies
 - managing [assemblies], deleting
 ms.assetid: 0691c3b6-476d-4e01-b50b-47d7c0b299bf
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008455"
 ---
 # <a name="how-to-remove-a-biztalk-assembly-from-an-application"></a><span data-ttu-id="dbd29-102">如何從應用程式移除 BizTalk 組件</span><span class="sxs-lookup"><span data-stu-id="dbd29-102">How to Remove a BizTalk Assembly from an Application</span></span>
 <span data-ttu-id="dbd29-103">本主題描述如何使用 BizTalk Server 管理主控台或命令列，從 BizTalk 應用程式移除 BizTalk 組件。</span><span class="sxs-lookup"><span data-stu-id="dbd29-103">This topic describes how use the BizTalk Server Administration console or the command line to remove a BizTalk assembly from a BizTalk application.</span></span> <span data-ttu-id="dbd29-104">當您這麼做時，將會從應用程式及 BizTalk 管理資料庫移除組件及其包含的成品 (例如，協調流程、結構描述和管線)。</span><span class="sxs-lookup"><span data-stu-id="dbd29-104">When you do this, the assembly and the artifacts that it includes, such as orchestrations, schemas, and pipelines, are removed from the application and the BizTalk Management database.</span></span>  

@@ -1,17 +1,17 @@
 ---
-title: "匯出 Bindings6 |Microsoft 文件"
-ms.custom: 
+title: 匯出 Bindings6 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - bindings, exporting
 - exporting, bindings
 ms.assetid: 052a429e-3237-44d4-8933-00aa5edfb212
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246278"
 ---
 # <a name="exporting-bindings"></a><span data-ttu-id="b7142-102">匯出繫結</span><span class="sxs-lookup"><span data-stu-id="b7142-102">Exporting Bindings</span></span>
 <span data-ttu-id="b7142-103">本節中的主題描述如何將 BizTalk 群組、組件或應用程式的繫結匯出至 .xml 檔案中</span><span class="sxs-lookup"><span data-stu-id="b7142-103">The topics in this section describe how to export bindings for a BizTalk group, assembly, or application into an .xml file.</span></span> <span data-ttu-id="b7142-104">(繫結會定義主控件、傳送埠、傳送埠群組、接收埠、接收位置和合作對象如何與協調流程、管線、對應和結構描述產生關聯)。之後您可以將這些繫結從 .xml 檔案匯入到其他群組或應用程式。</span><span class="sxs-lookup"><span data-stu-id="b7142-104">(Bindings define how hosts, send ports, send port groups, receive ports, receive locations, parties are associated with orchestrations, pipelines, maps, and schemas.) You can then import the bindings from the .xml file into another group or application.</span></span> <span data-ttu-id="b7142-105">匯入繫結會覆寫群組或應用程式中任何同名的現有繫結。</span><span class="sxs-lookup"><span data-stu-id="b7142-105">Importing bindings overwrites any existing bindings of the same name in the group or application.</span></span> <span data-ttu-id="b7142-106">您也可以將繫結加入應用程式中，這樣並不會覆寫現有的繫結。</span><span class="sxs-lookup"><span data-stu-id="b7142-106">You can also add bindings to an application, which does not overwrite existing bindings.</span></span> <span data-ttu-id="b7142-107">加入的繫結會在您匯入該應用程式之後才生效。</span><span class="sxs-lookup"><span data-stu-id="b7142-107">The bindings that you add do not take effect until you import the application.</span></span>  

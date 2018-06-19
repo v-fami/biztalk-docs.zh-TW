@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255374"
 ---
 # <a name="how-to-save-a-query"></a><span data-ttu-id="1812e-102">如何儲存查詢</span><span class="sxs-lookup"><span data-stu-id="1812e-102">How to Save a Query</span></span>
 <span data-ttu-id="1812e-103">您可以儲存查詢以備將來重複使用。</span><span class="sxs-lookup"><span data-stu-id="1812e-103">You can save a query for later reuse.</span></span> <span data-ttu-id="1812e-104">根據預設，儲存的查詢會儲存在**我的文件**資料夾建立及儲存的使用者。</span><span class="sxs-lookup"><span data-stu-id="1812e-104">By default, saved queries are stored in the **My Documents** folder of the user who created and saved them.</span></span>  

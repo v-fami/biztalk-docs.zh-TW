@@ -1,18 +1,18 @@
 ---
-title: "修改 BAM 組態結構描述 |Microsoft 文件"
-ms.custom: 
+title: 修改 BAM 組態結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuration schema [BAM]
 - managing [BAM], configuration schema
 - BAMConfiguration.xml file
 ms.assetid: 8901fb05-1519-4033-8489-67a9b745ed43
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263278"
 ---
 # <a name="modifying-the-bam-configuration-schema"></a><span data-ttu-id="9c2fa-102">修改 BAM 組態結構描述</span><span class="sxs-lookup"><span data-stu-id="9c2fa-102">Modifying the BAM Configuration Schema</span></span>
 <span data-ttu-id="9c2fa-103">組態精靈會自動建立這個組態檔案。</span><span class="sxs-lookup"><span data-stu-id="9c2fa-103">The Configuration Wizard creates this configuration file automatically.</span></span> <span data-ttu-id="9c2fa-104">完成部署之後，如果您變更伺服器名稱或其他組態資訊，就必須手動修改這個檔案。</span><span class="sxs-lookup"><span data-stu-id="9c2fa-104">You must modify this file manually if you change your server names or other configuration information after you complete the deployment.</span></span>  

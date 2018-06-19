@@ -23,6 +23,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005495"
 ---
 # <a name="how-to-connect-to-an-existing-group"></a><span data-ttu-id="daffb-102">如何連接至現有的群組</span><span class="sxs-lookup"><span data-stu-id="daffb-102">How to Connect to an Existing Group</span></span>
 <span data-ttu-id="daffb-103">您可以使用企業中任何電腦上的 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台，從遠端管理企業內一或多個 BizTalk Server 群組，只要這些群組位於相同網域或信任網域中的電腦上。</span><span class="sxs-lookup"><span data-stu-id="daffb-103">You can use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console on any computer in your enterprise to remotely manage one or more BizTalk Server groups within your enterprise, as long as these groups are located on computers within the same domain or within trusted domains.</span></span>  

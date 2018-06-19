@@ -1,14 +1,14 @@
 ---
-title: "教學課程： 使用 BizTalk Adapter for TIBCO Enterprise Message Service 來傳送資料 |Microsoft 文件"
-ms.custom: 
+title: 教學課程： 使用 BizTalk Adapter for TIBCO Enterprise Message Service 來傳送資料 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1912d594-3839-4e04-bc40-93bd7cc0b309
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010679"
 ---
 # <a name="tutorial-using-the-biztalk-adapter-for-tibco-enterprise-message-service-to-send-data"></a><span data-ttu-id="84335-102">教學課程： 使用 BizTalk Adapter for TIBCO Enterprise Message Service 來傳送資料</span><span class="sxs-lookup"><span data-stu-id="84335-102">Tutorial: Using the BizTalk Adapter for TIBCO Enterprise Message Service to Send Data</span></span>
 <span data-ttu-id="84335-103">您可以使用 BizTalk Adapter for TIBCO Enterprise Message Service (EMS)，將資料傳送至 TIBCO 系統。</span><span class="sxs-lookup"><span data-stu-id="84335-103">You can use the BizTalk Adapter for TIBCO Enterprise Message Service (EMS) to send data to a TIBCO system.</span></span> <span data-ttu-id="84335-104">這個逐步解說將說明示範這一點的 SDK 範例。</span><span class="sxs-lookup"><span data-stu-id="84335-104">This walkthrough describes an SDK sample that illustrates this.</span></span>  

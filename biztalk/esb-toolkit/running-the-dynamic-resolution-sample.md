@@ -1,14 +1,14 @@
 ---
-title: "執行動態解析範例 |Microsoft 文件"
-ms.custom: 
+title: 執行動態解析範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c933839f-13e6-4b49-9838-2773e3f99b64
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22300046"
 ---
 # <a name="running-the-dynamic-resolution-sample"></a><span data-ttu-id="5e7fc-102">執行動態解析範例</span><span class="sxs-lookup"><span data-stu-id="5e7fc-102">Running the Dynamic Resolution Sample</span></span>
 <span data-ttu-id="5e7fc-103">若要執行其中一個使用案例範例，您將適當的 Microsoft BizTalk 繫結檔案匯入 GlobalBank.ESB BizTalk 應用程式然後放置範例輸入資料夾的適當的訊息或呼叫範例 Web 服務。</span><span class="sxs-lookup"><span data-stu-id="5e7fc-103">To execute one of the use case examples, you import the appropriate Microsoft BizTalk binding file into the GlobalBank.ESB BizTalk application and then either drop a suitable message into the sample input folder or call the sample Web service.</span></span> <span data-ttu-id="5e7fc-104">動態解析範例支援兩種主要案例：</span><span class="sxs-lookup"><span data-stu-id="5e7fc-104">The Dynamic Resolution sample supports two main scenarios:</span></span>  

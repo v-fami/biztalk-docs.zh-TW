@@ -1,14 +1,14 @@
 ---
-title: "訊息指派中使用非標準 Xpath |Microsoft 文件"
-ms.custom: 
+title: 訊息指派中使用非標準 Xpath |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 052d1d72-43ce-4654-bf29-86f82ad65e91
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287622"
 ---
 # <a name="using-non-canonical-xpaths-in-message-assignments"></a><span data-ttu-id="c688a-102">在訊息指派中使用非標準 XPath</span><span class="sxs-lookup"><span data-stu-id="c688a-102">Using Non-Canonical XPaths in Message Assignments</span></span>
 <span data-ttu-id="c688a-103">如果您使用 .Net 訊息部分，您的程式碼可以使用 XML 序列化屬性加以附註，當伴隨著辨別欄位和/或屬性附註時，將產生相當複雜 XPath 運算式。</span><span class="sxs-lookup"><span data-stu-id="c688a-103">If you use .Net message parts, it is possible to annotate your code with the XML serialization attribute that, when also accompanied by distinguished fields and/or property annotations, can result in fairly complex XPath expressions.</span></span> <span data-ttu-id="c688a-104">這些複雜的 XPath 運算式可能是非標準的運算式。</span><span class="sxs-lookup"><span data-stu-id="c688a-104">It is possible that these complex XPath expressions will be non-canonical.</span></span> <span data-ttu-id="c688a-105">非標準 XPath 只能在直接繫結協調流程中使用，並且可能在邏輯或實際繫結協調流程中失敗。</span><span class="sxs-lookup"><span data-stu-id="c688a-105">Non-canonical XPath should only be used in direct bound orchestrations and may fail with logically or physically bound orchestrations.</span></span> <span data-ttu-id="c688a-106">直接繫結協調流程並不依賴管線來處理 XML 文件，因此整個 XML 文件會在處理之前載入記憶體。</span><span class="sxs-lookup"><span data-stu-id="c688a-106">Direct bound orchestrations do not rely on a pipeline for processing the XML document; as a result, the entire XML document is loaded in memory prior to processing.</span></span>  

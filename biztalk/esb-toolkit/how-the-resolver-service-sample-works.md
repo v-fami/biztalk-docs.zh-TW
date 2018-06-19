@@ -1,14 +1,14 @@
 ---
-title: "解析程式服務範例的運作方式 |Microsoft 文件"
-ms.custom: 
+title: 解析程式服務範例的運作方式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 33b5f886-ec54-4b2b-b09d-fb4c47ad43a5
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973076"
 ---
 # <a name="how-the-resolver-service-sample-works"></a><span data-ttu-id="60cc9-102">解析程式服務範例的運作方式</span><span class="sxs-lookup"><span data-stu-id="60cc9-102">How the Resolver Service Sample Works</span></span>
 <span data-ttu-id="60cc9-103">解析程式服務範例會具現化解析程式服務，並傳遞您指定的訊息，進行處理。</span><span class="sxs-lookup"><span data-stu-id="60cc9-103">The Resolver Service sample instantiates the Resolver service and passes the message you specify to it for processing.</span></span> <span data-ttu-id="60cc9-104">解析程式服務範例用戶端應用程式會使用第一個參數，做為 ResolverList.xml 檔案，其中包含多個的解析程式要求，並將這些要求傳送給解析程式服務的路徑。</span><span class="sxs-lookup"><span data-stu-id="60cc9-104">The Resolver Service sample client application uses the first parameter as the path to the ResolverList.xml file, which contains multiple resolver requests, and sends these requests to the Resolver service.</span></span> <span data-ttu-id="60cc9-105">例如，以下是範例中使用 XPATH 要求。</span><span class="sxs-lookup"><span data-stu-id="60cc9-105">For example, the following is the XPATH request used in the sample.</span></span>  
@@ -49,9 +50,9 @@ ms.lasthandoff: 11/28/2017
 ```  
   
 > [!NOTE]
->  <span data-ttu-id="60cc9-106">實際內容**\<內容\>**項目不包含用來包裝在上述清單中的行泛空白字元。</span><span class="sxs-lookup"><span data-stu-id="60cc9-106">The actual content of the **\<Content\>** element does not contain the white space characters used to wrap the lines in the preceding listing.</span></span>  
+>  <span data-ttu-id="60cc9-106">實際內容**\<內容\>** 項目不包含用來包裝在上述清單中的行泛空白字元。</span><span class="sxs-lookup"><span data-stu-id="60cc9-106">The actual content of the **\<Content\>** element does not contain the white space characters used to wrap the lines in the preceding listing.</span></span>  
   
- <span data-ttu-id="60cc9-107">上述清單會顯示要求包含解析程式設定連接字串內**\<內容\>**項目。</span><span class="sxs-lookup"><span data-stu-id="60cc9-107">The preceding listing shows that the request contains the resolver configuration connection string within a **\<Content\>** element.</span></span> <span data-ttu-id="60cc9-108">**\<主體\>**項目包含訊息主體。</span><span class="sxs-lookup"><span data-stu-id="60cc9-108">The **\<body\>** element contains the message body.</span></span>  
+ <span data-ttu-id="60cc9-107">上述清單會顯示要求包含解析程式設定連接字串內**\<內容\>** 項目。</span><span class="sxs-lookup"><span data-stu-id="60cc9-107">The preceding listing shows that the request contains the resolver configuration connection string within a **\<Content\>** element.</span></span> <span data-ttu-id="60cc9-108">**\<主體\>** 項目包含訊息主體。</span><span class="sxs-lookup"><span data-stu-id="60cc9-108">The **\<body\>** element contains the message body.</span></span>  
   
  <span data-ttu-id="60cc9-109">解析程式服務會使用**ResolverMgr**類別具現化解析程式類型的連接字串中所定義的適當解析程式的具象執行個體。</span><span class="sxs-lookup"><span data-stu-id="60cc9-109">The Resolver service uses the **ResolverMgr** class to instantiate a concrete instance of the appropriate resolver, defined by the resolver type in the connection string.</span></span> <span data-ttu-id="60cc9-110">在 XPATH 要求時，這是 XPATH 解析程式。</span><span class="sxs-lookup"><span data-stu-id="60cc9-110">In the case of the XPATH request, this is the XPATH resolver.</span></span>  
   

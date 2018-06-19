@@ -18,7 +18,7 @@ helpviewer_keywords:
 - managing [SSO], disabling
 - SSO, administrator accounts
 ms.assetid: 6c300e09-b781-45de-b2da-b1083164a1c0
-caps.latest.revision: ''
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25972716"
 ---
 # <a name="how-to-specify-sso-administrators-and-affiliate-administrators-accounts"></a><span data-ttu-id="fefeb-102">如何指定 SSO 系統管理員和分支機構系統管理員帳戶</span><span class="sxs-lookup"><span data-stu-id="fefeb-102">How to Specify SSO Administrators and Affiliate Administrators Accounts</span></span>
 <span data-ttu-id="fefeb-103">「企業單一登入」(SSO) 和「分支機構管理員」帳戶可以是主控件群組或個別帳戶。</span><span class="sxs-lookup"><span data-stu-id="fefeb-103">The Enterprise Single Sign-On (SSO) Administrators and Affiliate Administrators accounts can be host group or individual accounts.</span></span> <span data-ttu-id="fefeb-104">設定 SSO 系統之前，必須先建立這些帳戶。</span><span class="sxs-lookup"><span data-stu-id="fefeb-104">You must create these accounts before you configure the SSO system.</span></span>  
@@ -54,7 +55,7 @@ ms.lasthandoff: 03/28/2018
   
 ### <a name="to-disable-the-enterprise-single-sign-on-system-using-the-mmc-snap-in"></a><span data-ttu-id="fefeb-112">使用 MMC 嵌入式管理單元停用企業單一登入系統</span><span class="sxs-lookup"><span data-stu-id="fefeb-112">To disable the Enterprise Single Sign-On system using the MMC Snap-In</span></span>  
   
-1.  <span data-ttu-id="fefeb-113">在 **[開始]** 功能表上，依序按一下 **[所有程式]**及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。</span><span class="sxs-lookup"><span data-stu-id="fefeb-113">On the **Start** menu, click **All Programs**, click **Microsoft Enterprise Single Sign-On**, and then click **SSO Administration**.</span></span>  
+1.  <span data-ttu-id="fefeb-113">在 **[開始]** 功能表上，依序按一下 **[所有程式]** 及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。</span><span class="sxs-lookup"><span data-stu-id="fefeb-113">On the **Start** menu, click **All Programs**, click **Microsoft Enterprise Single Sign-On**, and then click **SSO Administration**.</span></span>  
   
 2.  <span data-ttu-id="fefeb-114">在 ENTSSO MMC 嵌入式管理單元的範圍窗格中，展開 **[企業單一登入]** 節點。</span><span class="sxs-lookup"><span data-stu-id="fefeb-114">In the scope pane of the ENTSSO MMC Snap-In, expand the **Enterprise Single Sign-On** node.</span></span>  
   
@@ -85,7 +86,7 @@ ms.lasthandoff: 03/28/2018
   
 2.  <span data-ttu-id="fefeb-128">在命令列，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="fefeb-128">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="fefeb-129">預設安裝目錄是*\<磁碟機\>*: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="fefeb-129">The default installation directory is *\<drive\>*:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-3.  <span data-ttu-id="fefeb-130">型別 * * ssomanage – updatedb *\<更新檔案\>* * *，其中*\<更新檔案\>*是 XML 檔案的名稱與路徑。</span><span class="sxs-lookup"><span data-stu-id="fefeb-130">Type **ssomanage –updatedb *\<update file\>***, where *\<update file\>* is the path and name of the XML file.</span></span>  
+3.  <span data-ttu-id="fefeb-130">型別 * * ssomanage – updatedb *\<更新檔案\>* * *，其中*\<更新檔案\>* 是 XML 檔案的名稱與路徑。</span><span class="sxs-lookup"><span data-stu-id="fefeb-130">Type **ssomanage –updatedb *\<update file\>***, where *\<update file\>* is the path and name of the XML file.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="fefeb-131">在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。</span><span class="sxs-lookup"><span data-stu-id="fefeb-131">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  

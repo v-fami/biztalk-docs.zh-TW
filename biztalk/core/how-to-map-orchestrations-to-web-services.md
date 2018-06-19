@@ -1,11 +1,11 @@
 ---
-title: "如何將協調流程對應至 Web 服務 |Microsoft 文件"
-ms.custom: 
+title: 如何將協調流程對應至 Web 服務 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, Web services
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - orchestrations, naming conventions
 - Web services, naming conventions
 ms.assetid: e6a58978-c81c-49f3-9428-9bff60f1ded7
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,11 +23,12 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255726"
 ---
 # <a name="how-to-map-orchestrations-to-web-services"></a><span data-ttu-id="84ddc-102">如何將協調流程對應至 Web 服務</span><span class="sxs-lookup"><span data-stu-id="84ddc-102">How to Map Orchestrations to Web Services</span></span>
 <span data-ttu-id="84ddc-103">一個協調流程可以具有多個接收埠。</span><span class="sxs-lookup"><span data-stu-id="84ddc-103">An orchestration can have multiple receive ports.</span></span> <span data-ttu-id="84ddc-104">使用 [BizTalk Web 服務發佈精靈]，即可選取要發佈為 Web 服務的接收埠。</span><span class="sxs-lookup"><span data-stu-id="84ddc-104">Using the BizTalk Web Services Publishing Wizard, you select receive ports to publish as Web services.</span></span> <span data-ttu-id="84ddc-105">此精靈可為每個接收埠建立一個 Web 服務 (.asmx 檔案)。</span><span class="sxs-lookup"><span data-stu-id="84ddc-105">The wizard creates one Web service (.asmx file) for each receive port.</span></span> <span data-ttu-id="84ddc-106">如果所有的接收埠都屬於相同的接收埠類型 (「單向」或「要求/回應」)，此精靈也可為所有的接收埠建立單一的 Web 服務。</span><span class="sxs-lookup"><span data-stu-id="84ddc-106">The wizard can also create one Web service for all of the receive ports if they are the same receive port type (one-way or request/response).</span></span> <span data-ttu-id="84ddc-107">作業變成函式呼叫。</span><span class="sxs-lookup"><span data-stu-id="84ddc-107">Operations become function calls.</span></span> <span data-ttu-id="84ddc-108">接收埠中的每個作業都會變成 Web 方法。</span><span class="sxs-lookup"><span data-stu-id="84ddc-108">Each operation in the receive port becomes a Web method.</span></span> <span data-ttu-id="84ddc-109">要求作業變成輸入參數。</span><span class="sxs-lookup"><span data-stu-id="84ddc-109">Request operations become input parameters.</span></span> <span data-ttu-id="84ddc-110">回應作業變成傳回型別。</span><span class="sxs-lookup"><span data-stu-id="84ddc-110">Response operations become return types.</span></span>  
   
- <span data-ttu-id="84ddc-111">如果要求和回應的作業相同的 Web 訊息類型，輸入的參數就會變成**ref**和傳回型別是**void**。</span><span class="sxs-lookup"><span data-stu-id="84ddc-111">If the request and response operations are the same Web message type, the input parameter becomes a **ref** and the return type is **void**.</span></span> <span data-ttu-id="84ddc-112">ASP.NET Web 用戶端可能會合併相同型別的 in 和 out 參數，以變更 Web 方法簽章。</span><span class="sxs-lookup"><span data-stu-id="84ddc-112">ASP.NET Web clients may change the Web method signature by combining the in and out parameters of the same type.</span></span> <span data-ttu-id="84ddc-113">例如，ASP.NET Web 用戶端可能會變更 BizTalk Web 方法，從**string myService （字串一部分）**至**void myService （ref 字串的一部分）**。</span><span class="sxs-lookup"><span data-stu-id="84ddc-113">For example, an ASP.NET Web client may change a BizTalk Web method from **string myService(string part)** to **void myService(ref string part)**.</span></span>  
+ <span data-ttu-id="84ddc-111">如果要求和回應的作業相同的 Web 訊息類型，輸入的參數就會變成**ref**和傳回型別是**void**。</span><span class="sxs-lookup"><span data-stu-id="84ddc-111">If the request and response operations are the same Web message type, the input parameter becomes a **ref** and the return type is **void**.</span></span> <span data-ttu-id="84ddc-112">ASP.NET Web 用戶端可能會合併相同型別的 in 和 out 參數，以變更 Web 方法簽章。</span><span class="sxs-lookup"><span data-stu-id="84ddc-112">ASP.NET Web clients may change the Web method signature by combining the in and out parameters of the same type.</span></span> <span data-ttu-id="84ddc-113">例如，ASP.NET Web 用戶端可能會變更 BizTalk Web 方法，從**string myService （字串一部分）** 至**void myService （ref 字串的一部分）**。</span><span class="sxs-lookup"><span data-stu-id="84ddc-113">For example, an ASP.NET Web client may change a BizTalk Web method from **string myService(string part)** to **void myService(ref string part)**.</span></span>  
   
  <span data-ttu-id="84ddc-114">作業訊息類型可定義 Web 方法簽章。</span><span class="sxs-lookup"><span data-stu-id="84ddc-114">The operation message types define the Web method signatures.</span></span> <span data-ttu-id="84ddc-115">每個訊息類型部分都是 Web 方法中的參數。</span><span class="sxs-lookup"><span data-stu-id="84ddc-115">Each message type part is a parameter in the Web method.</span></span>  
   

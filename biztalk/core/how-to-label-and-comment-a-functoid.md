@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970812"
 ---
 # <a name="how-to-label-and-comment-a-functoid"></a><span data-ttu-id="743d8-102">如何為運算質加上標籤與註解</span><span class="sxs-lookup"><span data-stu-id="743d8-102">How to Label and Comment a Functoid</span></span>
 <span data-ttu-id="743d8-103">標籤與註解有助於記錄對應中的運算質或連結用途。</span><span class="sxs-lookup"><span data-stu-id="743d8-103">Labels and comments are helpful to document the purpose of a functoid or a link in a map.</span></span> <span data-ttu-id="743d8-104">您可以使用**標籤**屬性提供運算質的名稱。</span><span class="sxs-lookup"><span data-stu-id="743d8-104">You can use the **Label** property to provide a name for a functoid.</span></span> <span data-ttu-id="743d8-105">**註解**屬性可讓您提供的運算質，它正在執行之作業的相關的一般相關資訊的其他資訊。</span><span class="sxs-lookup"><span data-stu-id="743d8-105">The **Comments** property enables you to provide additional information about the functoid, typically relevant information about the operation being performed by it.</span></span>  
@@ -46,12 +47,12 @@ ms.lasthandoff: 11/28/2017
   
 3.  <span data-ttu-id="743d8-121">輸入下列資訊，然後再按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="743d8-121">Enter the following information, and then click **OK**.</span></span>  
   
-    -   <span data-ttu-id="743d8-122">**標籤 –**輸入新名稱。</span><span class="sxs-lookup"><span data-stu-id="743d8-122">**Label –** Enter the new name.</span></span>  
+    -   <span data-ttu-id="743d8-122">**標籤 –** 輸入新名稱。</span><span class="sxs-lookup"><span data-stu-id="743d8-122">**Label –** Enter the new name.</span></span>  
   
         > [!IMPORTANT]
         >  <span data-ttu-id="743d8-123">允許的字元數目上限是 256。</span><span class="sxs-lookup"><span data-stu-id="743d8-123">The maximum number of characters allowed is 256.</span></span> <span data-ttu-id="743d8-124">如果指定超過 256 個字元的字串，則接受前 256 個字元，其餘部分會被捨棄。</span><span class="sxs-lookup"><span data-stu-id="743d8-124">If a string with more than 256 characters is specified, the first 256 characters are accepted and the rest are discarded.</span></span>  
   
-    -   <span data-ttu-id="743d8-125">**註解 –**運算質輸入的註解。</span><span class="sxs-lookup"><span data-stu-id="743d8-125">**Comments –** Enter the comments for the functoid.</span></span>  
+    -   <span data-ttu-id="743d8-125">**註解 –** 運算質輸入的註解。</span><span class="sxs-lookup"><span data-stu-id="743d8-125">**Comments –** Enter the comments for the functoid.</span></span>  
   
         > [!IMPORTANT]
         >  <span data-ttu-id="743d8-126">允許的字元數目上限為 1024年。</span><span class="sxs-lookup"><span data-stu-id="743d8-126">The maximum number of characters allowed is 1024.</span></span> <span data-ttu-id="743d8-127">如果指定超過 1024 個字元的字串，則先 1024年個字元會接受，而且會捨棄其餘部分。</span><span class="sxs-lookup"><span data-stu-id="743d8-127">If a string with more than 1024 characters is specified, the first 1024 characters are accepted and the rest are discarded.</span></span>  
@@ -62,12 +63,12 @@ ms.lasthandoff: 11/28/2017
   
 2.  <span data-ttu-id="743d8-130">在**屬性**視窗中，輸入下列資訊，然後再按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="743d8-130">In the **Properties** window, enter the following information, and then click **OK**.</span></span>  
   
-    -   <span data-ttu-id="743d8-131">**標籤 –**輸入新名稱。</span><span class="sxs-lookup"><span data-stu-id="743d8-131">**Label –** Enter the new name.</span></span>  
+    -   <span data-ttu-id="743d8-131">**標籤 –** 輸入新名稱。</span><span class="sxs-lookup"><span data-stu-id="743d8-131">**Label –** Enter the new name.</span></span>  
   
         > [!IMPORTANT]
         >  <span data-ttu-id="743d8-132">允許的字元數目上限是 256。</span><span class="sxs-lookup"><span data-stu-id="743d8-132">The maximum number of characters allowed is 256.</span></span> <span data-ttu-id="743d8-133">如果指定超過 256 個字元的字串，則接受前 256 個字元，其餘部分會被捨棄。</span><span class="sxs-lookup"><span data-stu-id="743d8-133">If a string with more than 256 characters is specified, the first 256 characters are accepted and the rest are discarded.</span></span>  
   
-    -   <span data-ttu-id="743d8-134">**註解 –**運算質輸入的註解。</span><span class="sxs-lookup"><span data-stu-id="743d8-134">**Comments –** Enter the comments for the functoid.</span></span>  
+    -   <span data-ttu-id="743d8-134">**註解 –** 運算質輸入的註解。</span><span class="sxs-lookup"><span data-stu-id="743d8-134">**Comments –** Enter the comments for the functoid.</span></span>  
   
         > [!IMPORTANT]
         >  <span data-ttu-id="743d8-135">允許的字元數目上限為 1024年。</span><span class="sxs-lookup"><span data-stu-id="743d8-135">The maximum number of characters allowed is 1024.</span></span> <span data-ttu-id="743d8-136">如果指定超過 1024 個字元的字串，則先 1024年個字元會接受，而且會捨棄其餘部分。</span><span class="sxs-lookup"><span data-stu-id="743d8-136">If a string with more than 1024 characters is specified, the first 1024 characters are accepted and the rest are discarded.</span></span>  

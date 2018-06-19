@@ -1,14 +1,14 @@
 ---
-title: "在 BizTalk 多伺服器安裝上實作 Active Directory 權限的指導方針 |Microsoft 文件"
-ms.custom: 
+title: 在 BizTalk 多伺服器安裝上實作 Active Directory 權限的指導方針 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 315e25c4-b21d-4b5f-a1d2-1e2777b57f9e
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975972"
 ---
 # <a name="guidelines-for-implementing-active-directory-permissions-on-multi-server-biztalk-installations"></a><span data-ttu-id="c9159-102">在 BizTalk 多伺服器安裝上實作 Active Directory 權限的指導方針</span><span class="sxs-lookup"><span data-stu-id="c9159-102">Guidelines for Implementing Active Directory Permissions on Multi Server BizTalk Installations</span></span>
 <span data-ttu-id="c9159-103">本主題描述建立 Active Directory 組織單位的指導方針，這些組織單位是由您在 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 安裝中使用的使用者帳戶和群組所構成的。</span><span class="sxs-lookup"><span data-stu-id="c9159-103">This topic describes guidelines for creating Active Directory Organizational Units, which consist of the user accounts and groups that you use in a Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] installation.</span></span>  
@@ -231,7 +232,7 @@ ms.lasthandoff: 11/28/2017
 |<span data-ttu-id="c9159-290">**群組名稱**</span><span class="sxs-lookup"><span data-stu-id="c9159-290">**Group Name**</span></span>|<span data-ttu-id="c9159-291">**群組類型**</span><span class="sxs-lookup"><span data-stu-id="c9159-291">**Group Type**</span></span>|<span data-ttu-id="c9159-292">**成員**</span><span class="sxs-lookup"><span data-stu-id="c9159-292">**Members**</span></span>|  
 |--------------------|--------------------|-----------------|  
 |<span data-ttu-id="c9159-293">BizTalk 應用程式使用者</span><span class="sxs-lookup"><span data-stu-id="c9159-293">BizTalk Application Users</span></span>|<span data-ttu-id="c9159-294">全域或萬用</span><span class="sxs-lookup"><span data-stu-id="c9159-294">Global or Universal</span></span>|<span data-ttu-id="c9159-295">-BTServiceHost</span><span class="sxs-lookup"><span data-stu-id="c9159-295">-   BTServiceHost</span></span><br /><span data-ttu-id="c9159-296">-BTUserHostInstance</span><span class="sxs-lookup"><span data-stu-id="c9159-296">-   BTUserHostInstance</span></span>|  
-|<span data-ttu-id="c9159-297">BizTalk 開發使用者</span><span class="sxs-lookup"><span data-stu-id="c9159-297">BizTalk Development Users</span></span>|<span data-ttu-id="c9159-298">全域或萬用</span><span class="sxs-lookup"><span data-stu-id="c9159-298">Global or Universal</span></span>|<span data-ttu-id="c9159-299">（開發使用者的本機網域帳戶）**附註：**最佳做法，請勿啟用 BizTalk 開發使用者群組在上線路環境中的。</span><span class="sxs-lookup"><span data-stu-id="c9159-299">(local domain accounts of development users) **Note:**  As a best practice, do not enable the BizTalk Development Users group in up-line environments.</span></span>|  
+|<span data-ttu-id="c9159-297">BizTalk 開發使用者</span><span class="sxs-lookup"><span data-stu-id="c9159-297">BizTalk Development Users</span></span>|<span data-ttu-id="c9159-298">全域或萬用</span><span class="sxs-lookup"><span data-stu-id="c9159-298">Global or Universal</span></span>|<span data-ttu-id="c9159-299">（開發使用者的本機網域帳戶）**附註：** 最佳做法，請勿啟用 BizTalk 開發使用者群組在上線路環境中的。</span><span class="sxs-lookup"><span data-stu-id="c9159-299">(local domain accounts of development users) **Note:**  As a best practice, do not enable the BizTalk Development Users group in up-line environments.</span></span>|  
 |<span data-ttu-id="c9159-300">BizTalk 部署使用者</span><span class="sxs-lookup"><span data-stu-id="c9159-300">BizTalk Deployment Users</span></span>|<span data-ttu-id="c9159-301">全域或萬用</span><span class="sxs-lookup"><span data-stu-id="c9159-301">Global or Universal</span></span>|<span data-ttu-id="c9159-302">(部署使用者的本機網域帳戶)</span><span class="sxs-lookup"><span data-stu-id="c9159-302">(local domain accounts of deployment users)</span></span>|  
 |<span data-ttu-id="c9159-303">BizTalk 主控件使用者</span><span class="sxs-lookup"><span data-stu-id="c9159-303">BizTalk Host Users</span></span>|<span data-ttu-id="c9159-304">全域或萬用</span><span class="sxs-lookup"><span data-stu-id="c9159-304">Global or Universal</span></span>|<span data-ttu-id="c9159-305">BTUserHostInstance</span><span class="sxs-lookup"><span data-stu-id="c9159-305">BTUserHostInstance</span></span>|  
 |<span data-ttu-id="c9159-306">BizTalk 外掛式主控件使用者</span><span class="sxs-lookup"><span data-stu-id="c9159-306">BizTalk Isolated Host Users</span></span>|<span data-ttu-id="c9159-307">全域或萬用</span><span class="sxs-lookup"><span data-stu-id="c9159-307">Global or Universal</span></span>|<span data-ttu-id="c9159-308">-BTServiceHostIso</span><span class="sxs-lookup"><span data-stu-id="c9159-308">-   BTServiceHostIso</span></span><br /><span data-ttu-id="c9159-309">-BTUserHostInstance</span><span class="sxs-lookup"><span data-stu-id="c9159-309">-   BTUserHostInstance</span></span>|  
@@ -247,7 +248,7 @@ ms.lasthandoff: 11/28/2017
   
 -   <span data-ttu-id="c9159-339">網域群組可以是「全域」或「萬用」群組。</span><span class="sxs-lookup"><span data-stu-id="c9159-339">Domain groups can be Global or Universal groups.</span></span>  
   
--   <span data-ttu-id="c9159-340">使用 *\<DomainName\>\\< 使用者名稱\>*當組態精靈中指定網域帳戶資訊。</span><span class="sxs-lookup"><span data-stu-id="c9159-340">Use *\<DomainName\>\\<UserName\>* when specifying domain account information in the Configuration Wizard.</span></span>  
+-   <span data-ttu-id="c9159-340">使用 *\<DomainName\>\\< 使用者名稱\>* 當組態精靈中指定網域帳戶資訊。</span><span class="sxs-lookup"><span data-stu-id="c9159-340">Use *\<DomainName\>\\<UserName\>* when specifying domain account information in the Configuration Wizard.</span></span>  
   
 -   <span data-ttu-id="c9159-341">群組與使用者/服務帳戶必須屬於 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 電腦的所屬網域 ([組態精靈] 會檢查此項，而且不會顯示包含其他網域之帳戶的帳戶或群組)。</span><span class="sxs-lookup"><span data-stu-id="c9159-341">Groups and user/service accounts must belong to the domain in which the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer belongs (the Configuration Wizard checks this and will not display accounts or groups containing accounts from other domains).</span></span>  
   

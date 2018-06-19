@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268502"
 ---
 # <a name="receivepipeline-receivelocation-node"></a><span data-ttu-id="5ac2f-102">ReceivePipeline (ReceiveLocation 節點)</span><span class="sxs-lookup"><span data-stu-id="5ac2f-102">ReceivePipeline (ReceiveLocation Node)</span></span>
 <span data-ttu-id="5ac2f-103">繫結檔案的 [ReceiveLocation] 節點的 [ReceivePipeline] 節點中，包含與隨同繫結檔案所匯出的接收位置一起使用之接收管線的特定資訊。</span><span class="sxs-lookup"><span data-stu-id="5ac2f-103">The ReceivePipeline node of the ReceiveLocation node of a binding file contains specific information about a receive pipeline used with a receive location that is exported with the binding file.</span></span>  

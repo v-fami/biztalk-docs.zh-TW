@@ -1,14 +1,14 @@
 ---
-title: "逐步解說： 建立和使用的原則中的詞彙 |Microsoft 文件"
-ms.custom: 
+title: 逐步解說： 建立和使用的原則中的詞彙 |Microsoft 文件
+ms.custom: ''
 ms.date: 2016-04-05
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2c306a6e-3384-4f43-9c75-c5407cd9aed2
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975916"
 ---
 # <a name="walkthrough-creating-and-using-a-vocabulary-in-the-policy"></a><span data-ttu-id="032ba-102">逐步解說： 建立和使用的原則中的詞彙</span><span class="sxs-lookup"><span data-stu-id="032ba-102">Walkthrough: Creating and Using a Vocabulary in the Policy</span></span>
 <span data-ttu-id="032ba-103">本逐步解說提供逐步程序建立詞彙和使用詞彙**ProcessPurchaseOrder**原則。</span><span class="sxs-lookup"><span data-stu-id="032ba-103">This walkthrough provides step-by-step procedures for creating a vocabulary and using the vocabulary in the **ProcessPurchaseOrder** policy.</span></span>  
@@ -46,7 +47,7 @@ ms.lasthandoff: 11/28/2017
   
 4.  <span data-ttu-id="032ba-124">如果您未變更詞彙的名稱為 POVocabulary 步驟 3 中，變更將詞彙的名稱**POVocabulary**屬性 視窗中。</span><span class="sxs-lookup"><span data-stu-id="032ba-124">If you did not change the name of the vocabulary to POVocabulary in step 3, change the name of the vocabulary to **POVocabulary**in the Properties window.</span></span>  
   
-5.  <span data-ttu-id="032ba-125">以滑鼠右鍵按一下**版本 1.0 （未儲存）**中**POVocabulary**，然後按一下 **新增定義**。</span><span class="sxs-lookup"><span data-stu-id="032ba-125">Right-click **Version 1.0(not saved)** in **POVocabulary**, and then click **Add New Definition**.</span></span>  
+5.  <span data-ttu-id="032ba-125">以滑鼠右鍵按一下**版本 1.0 （未儲存）** 中**POVocabulary**，然後按一下 **新增定義**。</span><span class="sxs-lookup"><span data-stu-id="032ba-125">Right-click **Version 1.0(not saved)** in **POVocabulary**, and then click **Add New Definition**.</span></span>  
   
 6.  <span data-ttu-id="032ba-126">在 詞彙定義精靈 中，選取**XML 文件項目或屬性**，然後按一下 **下一步**。</span><span class="sxs-lookup"><span data-stu-id="032ba-126">In the Vocabulary Definition Wizard, select **XML Document Element or Attribute**, and then click **Next**.</span></span>  
   
@@ -56,7 +57,7 @@ ms.lasthandoff: 11/28/2017
   
 9. <span data-ttu-id="032ba-129">在**選取繫結**對話方塊方塊中，展開  **PurchaseOrder**，依序展開**項目**，然後按兩下**數量**。</span><span class="sxs-lookup"><span data-stu-id="032ba-129">In the **Select Binding** dialog box, expand **PurchaseOrder**, expand **Item**, and then double-click **Quantity**.</span></span>  
   
-10. <span data-ttu-id="032ba-130">請確定**文件類型**設**[ruletest.po]**。</span><span class="sxs-lookup"><span data-stu-id="032ba-130">Make sure that the **document type** is set to **RuleTest.PO**.</span></span> <span data-ttu-id="032ba-131">如果不是，將文件類型變更為 [ruletest.po]。</span><span class="sxs-lookup"><span data-stu-id="032ba-131">If it is not, change the document type to RuleTest.PO.</span></span> <span data-ttu-id="032ba-132">這個步驟非常重要。</span><span class="sxs-lookup"><span data-stu-id="032ba-132">This step is very important.</span></span>  
+10. <span data-ttu-id="032ba-130">請確定**文件類型**設 **[ruletest.po]**。</span><span class="sxs-lookup"><span data-stu-id="032ba-130">Make sure that the **document type** is set to **RuleTest.PO**.</span></span> <span data-ttu-id="032ba-131">如果不是，將文件類型變更為 [ruletest.po]。</span><span class="sxs-lookup"><span data-stu-id="032ba-131">If it is not, change the document type to RuleTest.PO.</span></span> <span data-ttu-id="032ba-132">這個步驟非常重要。</span><span class="sxs-lookup"><span data-stu-id="032ba-132">This step is very important.</span></span>  
   
      <span data-ttu-id="032ba-133">![BRE &#45;逐步解說 &#45;ChangeDocType2](../core/media/090f0bce-0594-4a67-87d0-3cd22fbb1796.gif "090f0bce-0594-4a67-87d0-3cd22fbb1796")</span><span class="sxs-lookup"><span data-stu-id="032ba-133">![BRE&#45;Walkthrough&#45;ChangeDocType2](../core/media/090f0bce-0594-4a67-87d0-3cd22fbb1796.gif "090f0bce-0594-4a67-87d0-3cd22fbb1796")</span></span>  
   
@@ -76,7 +77,7 @@ ms.lasthandoff: 11/28/2017
   
 17. <span data-ttu-id="032ba-141">在**選取繫結**對話方塊方塊中，展開  **PurchaseOrder**，然後按兩下**狀態**。</span><span class="sxs-lookup"><span data-stu-id="032ba-141">In the **Select Binding** dialog box, expand **PurchaseOrder**, and then double-click **Status**.</span></span>  
   
-18. <span data-ttu-id="032ba-142">變更**文件類型**至**[ruletest.po]**。</span><span class="sxs-lookup"><span data-stu-id="032ba-142">Change the **document type** to **RuleTest.PO**.</span></span> <span data-ttu-id="032ba-143">這個步驟非常重要。</span><span class="sxs-lookup"><span data-stu-id="032ba-143">This step is very important.</span></span>  
+18. <span data-ttu-id="032ba-142">變更**文件類型**至 **[ruletest.po]**。</span><span class="sxs-lookup"><span data-stu-id="032ba-142">Change the **document type** to **RuleTest.PO**.</span></span> <span data-ttu-id="032ba-143">這個步驟非常重要。</span><span class="sxs-lookup"><span data-stu-id="032ba-143">This step is very important.</span></span>  
   
 19. <span data-ttu-id="032ba-144">請確定**執行設定作業**選項已選取，然後按一下 [**下一步]。**</span><span class="sxs-lookup"><span data-stu-id="032ba-144">Make sure that the  **Perform Set operation** option is selected, and then click **Next.**</span></span>  
   
@@ -121,9 +122,9 @@ ms.lasthandoff: 11/28/2017
   
 8.  <span data-ttu-id="032ba-164">按一下**\<空字串\>** ，然後輸入**Approved**。</span><span class="sxs-lookup"><span data-stu-id="032ba-164">Click **\<empty string\>** and then type **Approved**.</span></span>  
   
-9. <span data-ttu-id="032ba-165">以滑鼠右鍵按一下**版本 1.1 （未儲存）**在原則總管 視窗中，然後按一下**儲存**。</span><span class="sxs-lookup"><span data-stu-id="032ba-165">Right-click **Version 1.1(not saved)** in the Policy Explorer window, and then click **Save**.</span></span>  
+9. <span data-ttu-id="032ba-165">以滑鼠右鍵按一下**版本 1.1 （未儲存）** 在原則總管 視窗中，然後按一下**儲存**。</span><span class="sxs-lookup"><span data-stu-id="032ba-165">Right-click **Version 1.1(not saved)** in the Policy Explorer window, and then click **Save**.</span></span>  
   
-10. <span data-ttu-id="032ba-166">以滑鼠右鍵按一下**版本 1.1 （未儲存）**在原則總管 視窗中，然後按一下**發行**。</span><span class="sxs-lookup"><span data-stu-id="032ba-166">Right-click **Version 1.1(not saved)** in the Policy Explorer window, and then click **Publish**.</span></span>  
+10. <span data-ttu-id="032ba-166">以滑鼠右鍵按一下**版本 1.1 （未儲存）** 在原則總管 視窗中，然後按一下**發行**。</span><span class="sxs-lookup"><span data-stu-id="032ba-166">Right-click **Version 1.1(not saved)** in the Policy Explorer window, and then click **Publish**.</span></span>  
   
 ### <a name="to-test-the-solution"></a><span data-ttu-id="032ba-167">測試方案</span><span class="sxs-lookup"><span data-stu-id="032ba-167">To test the solution</span></span>  
   
@@ -155,11 +156,11 @@ ms.lasthandoff: 11/28/2017
   
 -   <span data-ttu-id="032ba-184">只有已發佈的詞彙才能在原則中使用。</span><span class="sxs-lookup"><span data-stu-id="032ba-184">Only published vocabularies can be used in policies.</span></span>  
   
--   <span data-ttu-id="032ba-185">在 「 建立 POVocabulary 詞彙 」 程序中，您可以變更的文件類型**[ruletest.po]**。</span><span class="sxs-lookup"><span data-stu-id="032ba-185">In the "To create the POVocabulary vocabulary" procedure, you changed the document type to **RuleTest.PO**.</span></span> <span data-ttu-id="032ba-186">若要查看這項變更，結果在[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]，在 [方案總管] 中，按一下  **PO.xsd**。</span><span class="sxs-lookup"><span data-stu-id="032ba-186">To see the results of this change, in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], in Solution Explorer, click **PO.xsd**.</span></span> <span data-ttu-id="032ba-187">在 [屬性] 視窗中，請注意， **RuleTest**是命名空間、 名稱和**PO**名稱**類型**。</span><span class="sxs-lookup"><span data-stu-id="032ba-187">In the Properties window, note that **RuleTest** is the name of the namespace, and **PO** is the name of the **Type**.</span></span>  
+-   <span data-ttu-id="032ba-185">在 「 建立 POVocabulary 詞彙 」 程序中，您可以變更的文件類型 **[ruletest.po]**。</span><span class="sxs-lookup"><span data-stu-id="032ba-185">In the "To create the POVocabulary vocabulary" procedure, you changed the document type to **RuleTest.PO**.</span></span> <span data-ttu-id="032ba-186">若要查看這項變更，結果在[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]，在 [方案總管] 中，按一下  **PO.xsd**。</span><span class="sxs-lookup"><span data-stu-id="032ba-186">To see the results of this change, in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], in Solution Explorer, click **PO.xsd**.</span></span> <span data-ttu-id="032ba-187">在 [屬性] 視窗中，請注意， **RuleTest**是命名空間、 名稱和**PO**名稱**類型**。</span><span class="sxs-lookup"><span data-stu-id="032ba-187">In the Properties window, note that **RuleTest** is the name of the namespace, and **PO** is the name of the **Type**.</span></span>  
   
 -   <span data-ttu-id="032ba-188">在此逐步解說中，您只有使用 XML 文件做為原則的事實。</span><span class="sxs-lookup"><span data-stu-id="032ba-188">In this walkthrough, you used only an XML document as a fact to the policy.</span></span> <span data-ttu-id="032ba-189">您也可以在建立原則時使用 .NET 事實和資料庫事實。</span><span class="sxs-lookup"><span data-stu-id="032ba-189">You can also use .NET facts and database facts when you create policies</span></span>  
   
--   <span data-ttu-id="032ba-190">當您選取**執行 「 設定 」 作業**在 詞彙定義精靈的第二個頁面上，您可以指定**顯示格式字串**接下來的頁面上。</span><span class="sxs-lookup"><span data-stu-id="032ba-190">When you select **Perform "Set" operation** on the second page of the Vocabulary Definition Wizard, you can specify a **Display format string** on the page that follows.</span></span> <span data-ttu-id="032ba-191">例如，您可以變更顯示格式字串從**Request Status {0}**至**要求的狀態是： {0}**後，再按一下**完成**在步驟 20 的 「 建立詞彙 」 程序。</span><span class="sxs-lookup"><span data-stu-id="032ba-191">For example, you could change the display format string from **Request Status {0}** to **Request status is: {0}** before clicking **Finish** in the step 20 of the "create vocabulary" procedure.</span></span>  
+-   <span data-ttu-id="032ba-190">當您選取**執行 「 設定 」 作業**在 詞彙定義精靈的第二個頁面上，您可以指定**顯示格式字串**接下來的頁面上。</span><span class="sxs-lookup"><span data-stu-id="032ba-190">When you select **Perform "Set" operation** on the second page of the Vocabulary Definition Wizard, you can specify a **Display format string** on the page that follows.</span></span> <span data-ttu-id="032ba-191">例如，您可以變更顯示格式字串從**Request Status {0}** 至**要求的狀態是： {0}** 後，再按一下**完成**在步驟 20 的 「 建立詞彙 」 程序。</span><span class="sxs-lookup"><span data-stu-id="032ba-191">For example, you could change the display format string from **Request Status {0}** to **Request status is: {0}** before clicking **Finish** in the step 20 of the "create vocabulary" procedure.</span></span>  
   
 ## <a name="next-steps"></a><span data-ttu-id="032ba-192">後續步驟</span><span class="sxs-lookup"><span data-stu-id="032ba-192">Next Steps</span></span>  
  <span data-ttu-id="032ba-193">現在您已完成此逐步解說中，執行[逐步解說： 將規則新增至原則](../core/walkthrough-adding-a-rule-to-the-policy.md)逐步解說中，它將提供逐步指示，加入新的規則， **ProcessPurchaseOrder**原則。</span><span class="sxs-lookup"><span data-stu-id="032ba-193">Now that you have completed this walkthrough, perform the [Walkthrough: Adding a Rule to the Policy](../core/walkthrough-adding-a-rule-to-the-policy.md) walkthrough, which gives you step-by-step instructions for adding a new rule to the **ProcessPurchaseOrder** policy.</span></span>  

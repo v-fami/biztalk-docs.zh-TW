@@ -1,18 +1,18 @@
 ---
-title: "值對應運算質 |Microsoft 文件"
-ms.custom: 
+title: 值對應運算質 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Value Mapping functoids
 - functoids, empty tags
 - Concatenate functoids
 ms.assetid: 3dd626fb-3bf6-4ede-9fd2-ddae5a54d178
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973780"
 ---
 # <a name="value-mapping-functoid"></a><span data-ttu-id="9214a-102">值對應運算質</span><span class="sxs-lookup"><span data-stu-id="9214a-102">Value Mapping Functoid</span></span>
 <span data-ttu-id="9214a-103">**值對應**運算質會傳回其第二個參數的值，如果第一個參數為 true。</span><span class="sxs-lookup"><span data-stu-id="9214a-103">The **Value Mapping** functoid returns the value of its second parameter if its first parameter is true.</span></span> <span data-ttu-id="9214a-104">運算質的一般用途是將欄位的屬性變更為記錄的屬性。</span><span class="sxs-lookup"><span data-stu-id="9214a-104">A common use of the functoid is to change the attributes of a field into the attributes of a record.</span></span> <span data-ttu-id="9214a-105">若要藉由將多個記錄轉換成單一記錄扁平化的輸入訊息的一部分，請使用[值對應 （簡維） 運算質](../core/value-mapping-flattening-functoid.md)。</span><span class="sxs-lookup"><span data-stu-id="9214a-105">To flatten a portion of an input message by converting multiple records into a single record, use the [Value Mapping (Flattening) Functoid](../core/value-mapping-flattening-functoid.md).</span></span>  

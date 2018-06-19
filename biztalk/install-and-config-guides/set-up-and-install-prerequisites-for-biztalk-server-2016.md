@@ -18,6 +18,7 @@ ms.sourcegitcommit: 770523695b34cc54db81f7ab7eba46f2bc19baec
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/26/2018
+ms.locfileid: "31816962"
 ---
 # <a name="set-up-and-install-prerequisites-for-biztalk-server-2016"></a><span data-ttu-id="3998b-103">設定及安裝 BizTalk Server 2016 的必要元件</span><span class="sxs-lookup"><span data-stu-id="3998b-103">Set up and install prerequisites for BizTalk Server 2016</span></span>
 <span data-ttu-id="3998b-104">設定伺服器，以及安裝與設定軟體必要條件。</span><span class="sxs-lookup"><span data-stu-id="3998b-104">Set up the server, and install and configure the software prerequisites.</span></span>

@@ -1,15 +1,15 @@
 ---
-title: "在 BizTalk SQL 配接器疑難排解操作問題 |Microsoft 文件"
-description: "常見問題和解決方法，SQL 配接器在 BizTalk 配接器組件 (BAP)"
-ms.custom: 
+title: 在 BizTalk SQL 配接器疑難排解操作問題 |Microsoft 文件
+description: 常見問題和解決方法，SQL 配接器在 BizTalk 配接器組件 (BAP)
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c75f85f4-cd03-4c6a-aac9-a6d02d3c3449
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010983"
 ---
 # <a name="troubleshoot-operational-issues-with-the-sql-adapter"></a><span data-ttu-id="abadf-103">SQL 配接器疑難排解操作問題</span><span class="sxs-lookup"><span data-stu-id="abadf-103">Troubleshoot Operational Issues with the SQL adapter</span></span>
 <span data-ttu-id="abadf-104">本章節將討論使用來解析作業使用時可能遭遇的錯誤的疑難排解技術[!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="abadf-104">This section discusses using troubleshooting techniques to resolve operational errors that you might encounter when using [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)].</span></span>  

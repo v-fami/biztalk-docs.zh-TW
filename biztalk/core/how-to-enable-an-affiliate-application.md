@@ -12,7 +12,7 @@ helpviewer_keywords:
 - managing [SSO applications], enabling
 - enabling, applications [SSO]
 ms.assetid: 81c94e1b-cd3d-482e-9a78-9b1476af9e5f
-caps.latest.revision: ''
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,13 +21,14 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25971196"
 ---
 # <a name="how-to-enable-an-affiliate-application"></a><span data-ttu-id="108c2-102">如何啟用分支機構應用程式</span><span class="sxs-lookup"><span data-stu-id="108c2-102">How to Enable an Affiliate Application</span></span>
 <span data-ttu-id="108c2-103">您可以使用 MMC 嵌入式管理單元或命令列，啟用指定的分支機構應用程式。</span><span class="sxs-lookup"><span data-stu-id="108c2-103">You can use the MMC Snap-In or the command line to enable the specified affiliate application.</span></span>  
   
 ### <a name="to-enable-an-affiliate-application-using-the-mmc-snap-in"></a><span data-ttu-id="108c2-104">若要使用 MMC 嵌入式管理單元啟用分支機構應用程式</span><span class="sxs-lookup"><span data-stu-id="108c2-104">To enable an affiliate application using the MMC Snap-In</span></span>  
   
-1.  <span data-ttu-id="108c2-105">在 **[開始]** 功能表上，依序按一下 **[所有程式]**及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。</span><span class="sxs-lookup"><span data-stu-id="108c2-105">On the **Start** menu, click **All Programs**, click **Microsoft Enterprise Single Sign-On**, and then click **SSO Administration**.</span></span>  
+1.  <span data-ttu-id="108c2-105">在 **[開始]** 功能表上，依序按一下 **[所有程式]** 及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。</span><span class="sxs-lookup"><span data-stu-id="108c2-105">On the **Start** menu, click **All Programs**, click **Microsoft Enterprise Single Sign-On**, and then click **SSO Administration**.</span></span>  
   
 2.  <span data-ttu-id="108c2-106">在 ENTSSO MMC 嵌入式管理單元的範圍窗格中，展開 **[企業單一登入]** 節點。</span><span class="sxs-lookup"><span data-stu-id="108c2-106">In the scope pane of the ENTSSO MMC Snap-In, expand the **Enterprise Single Sign-On** node.</span></span>  
   
@@ -39,7 +40,7 @@ ms.lasthandoff: 03/28/2018
   
 2.  <span data-ttu-id="108c2-110">在命令列，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="108c2-110">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="108c2-111">預設安裝目錄是\<*磁碟機*\>: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="108c2-111">The default installation directory is \<*drive*\>:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-3.  <span data-ttu-id="108c2-112">型別 **ssomanage-enableapp *\<應用程式名稱\>* * *，其中\<*應用程式名稱*\>是您想要的分支機構應用程式的名稱若要啟用。</span><span class="sxs-lookup"><span data-stu-id="108c2-112">Type **ssomanage –enableapp *\<application name\>***, where \<*application name*\> is the name of the affiliate application you want to enable.</span></span>  
+3.  <span data-ttu-id="108c2-112">型別 **ssomanage-enableapp *\<應用程式名稱\>* * *，其中\<* 應用程式名稱*\>是您想要的分支機構應用程式的名稱若要啟用。</span><span class="sxs-lookup"><span data-stu-id="108c2-112">Type **ssomanage –enableapp *\<application name\>***, where \<* application name*\> is the name of the affiliate application you want to enable.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="108c2-113">在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。</span><span class="sxs-lookup"><span data-stu-id="108c2-113">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  

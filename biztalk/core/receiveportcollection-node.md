@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268390"
 ---
 # <a name="receiveportcollection-node"></a><span data-ttu-id="a41ab-102">ReceivePortCollection 節點</span><span class="sxs-lookup"><span data-stu-id="a41ab-102">ReceivePortCollection Node</span></span>
 <span data-ttu-id="a41ab-103">繫結檔案的 [ReceivePortCollection] 節點是所有 [ReceivePort] 節點的父節點，這些節點包含隨同繫結檔案一起匯出之接收埠的特定相關資訊。</span><span class="sxs-lookup"><span data-stu-id="a41ab-103">The ReceivePortCollection node of a binding file is the parent node for all of the ReceivePort nodes which contain specific information about a receive port that is exported with the binding file.</span></span>  

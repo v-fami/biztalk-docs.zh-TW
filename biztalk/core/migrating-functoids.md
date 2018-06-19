@@ -1,11 +1,11 @@
 ---
-title: "移轉運算質 |Microsoft 文件"
-ms.custom: 
+title: 移轉運算質 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - functoids, migrating
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - migrating, functoids
 - migrating, Scripting functoids
 ms.assetid: fc5b3ac9-28c6-41df-b779-15a8c3188528
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009319"
 ---
 # <a name="migrating-functoids"></a><span data-ttu-id="12518-102">移轉運算質</span><span class="sxs-lookup"><span data-stu-id="12518-102">Migrating Functoids</span></span>
 <span data-ttu-id="12518-103">當您從舊版的 BizTalk Server 移轉對應至 BizTalk Server 時，也會移轉任何包含在對應的運算質。</span><span class="sxs-lookup"><span data-stu-id="12518-103">When you migrate a map from previous versions of BizTalk Server to BizTalk Server, any functoids included in the map are also migrated.</span></span> <span data-ttu-id="12518-104">如果您移轉的運算質未包含**指令碼處理**運算質，沒有其他移轉工作所需。</span><span class="sxs-lookup"><span data-stu-id="12518-104">If the functoids you migrate do not include **Scripting** functoids, no additional migration tasks are required.</span></span> <span data-ttu-id="12518-105">不過如果您的對應包含**指令碼處理**運算質或自訂運算質，您可能必須執行其他步驟。</span><span class="sxs-lookup"><span data-stu-id="12518-105">However if your map includes **Scripting** functoids or custom functoids, you may have additional steps to perform.</span></span>  

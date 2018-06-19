@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239718"
 ---
 # <a name="deleteonly-method"></a><span data-ttu-id="13f5d-102">DeleteOnly 方法</span><span class="sxs-lookup"><span data-stu-id="13f5d-102">DeleteOnly Method</span></span>
 <span data-ttu-id="13f5d-103">可讓您刪除集合中的項目。</span><span class="sxs-lookup"><span data-stu-id="13f5d-103">Allows you to delete items in a collection.</span></span>  

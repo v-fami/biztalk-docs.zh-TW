@@ -1,11 +1,11 @@
 ---
-title: "如何從應用程式移除結構描述 |Microsoft 文件"
-ms.custom: 
+title: 如何從應用程式移除結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deleting, schemas
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - managing [schemas], applications
 - schemas, applications
 ms.assetid: 17dd5869-b56c-4166-9f02-03e04e691eda
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254646"
 ---
 # <a name="how-to-remove-a-schema-from-an-application"></a><span data-ttu-id="ffb6f-102">如何從應用程式移除結構描述</span><span class="sxs-lookup"><span data-stu-id="ffb6f-102">How to Remove a Schema from an Application</span></span>
 <span data-ttu-id="ffb6f-103">本主題說明如何使用 BizTalk Server 管理主控台，從應用程式移除結構描述。</span><span class="sxs-lookup"><span data-stu-id="ffb6f-103">This topic describes how to use the BizTalk Server Administration console to remove a schema from an application.</span></span> <span data-ttu-id="ffb6f-104">這個程序也會從群組的 BizTalk 管理資料庫中移除結構描述。</span><span class="sxs-lookup"><span data-stu-id="ffb6f-104">This procedure removes the schema from the BizTalk Management database for the group as well.</span></span> <span data-ttu-id="ffb6f-105">您可能會想要在部署新版的結構描述之後，移除結構描述。</span><span class="sxs-lookup"><span data-stu-id="ffb6f-105">You might want to remove a schema after deploying a new version of the schema.</span></span> <span data-ttu-id="ffb6f-106">如需詳細資訊和更新應用程式成品的重要考量，請參閱[更新 BizTalk 應用程式](../core/updating-biztalk-applications.md)。</span><span class="sxs-lookup"><span data-stu-id="ffb6f-106">For more information and important considerations for updating application artifacts, see [Updating BizTalk Applications](../core/updating-biztalk-applications.md).</span></span>  

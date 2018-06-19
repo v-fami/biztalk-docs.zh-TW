@@ -1,14 +1,14 @@
 ---
-title: "步驟 2： 定義商務程序 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 定義商務程序 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b37bd9f1-5ee2-434d-950a-cf12967b6fc2
-caps.latest.revision: "49"
+caps.latest.revision: 49
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,15 +17,16 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974700"
 ---
 # <a name="step-2-define-the-business-process"></a><span data-ttu-id="aee54-102">步驟 2：定義商務程序</span><span class="sxs-lookup"><span data-stu-id="aee54-102">Step 2: Define the Business Process</span></span>
 <span data-ttu-id="aee54-103">![步驟 4 之 2](../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")</span><span class="sxs-lookup"><span data-stu-id="aee54-103">![Step 2 of 4](../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")</span></span>  
   
  <span data-ttu-id="aee54-104">**若要完成的時間：** 8 分鐘</span><span class="sxs-lookup"><span data-stu-id="aee54-104">**Time to complete:** 8 minutes</span></span>  
   
- <span data-ttu-id="aee54-105">**目標：**在此步驟中，您可以使用協調流程設計師 」 定義商務程序。</span><span class="sxs-lookup"><span data-stu-id="aee54-105">**Objective:** In this step, you use Orchestration Designer to define your business process.</span></span>  
+ <span data-ttu-id="aee54-105">**目標：** 在此步驟中，您可以使用協調流程設計師 」 定義商務程序。</span><span class="sxs-lookup"><span data-stu-id="aee54-105">**Objective:** In this step, you use Orchestration Designer to define your business process.</span></span>  
   
- <span data-ttu-id="aee54-106">**用途：**協調流程的工作流程代表及自動化您的公司核准庫存補充要求的商務程序。</span><span class="sxs-lookup"><span data-stu-id="aee54-106">**Purpose:** The workflow of the orchestration represents and automates your company's business process for approving inventory replenishment requests.</span></span>  
+ <span data-ttu-id="aee54-106">**用途：** 協調流程的工作流程代表及自動化您的公司核准庫存補充要求的商務程序。</span><span class="sxs-lookup"><span data-stu-id="aee54-106">**Purpose:** The workflow of the orchestration represents and automates your company's business process for approving inventory replenishment requests.</span></span>  
   
 ## <a name="prerequisites"></a><span data-ttu-id="aee54-107">必要條件</span><span class="sxs-lookup"><span data-stu-id="aee54-107">Prerequisites</span></span>  
  <span data-ttu-id="aee54-108">開始此步驟之前，請注意下列需求：</span><span class="sxs-lookup"><span data-stu-id="aee54-108">Note the following requirements before you begin this step:</span></span>  
@@ -75,7 +76,7 @@ ms.lasthandoff: 11/28/2017
   
     |<span data-ttu-id="aee54-140">使用</span><span class="sxs-lookup"><span data-stu-id="aee54-140">Use this</span></span>|<span data-ttu-id="aee54-141">動作</span><span class="sxs-lookup"><span data-stu-id="aee54-141">To do this</span></span>|  
     |--------------|----------------|  
-    |<span data-ttu-id="aee54-142">**識別碼**</span><span class="sxs-lookup"><span data-stu-id="aee54-142">**Identifier**</span></span>|<span data-ttu-id="aee54-143">型別**[requestdeclinemessage]**。</span><span class="sxs-lookup"><span data-stu-id="aee54-143">Type **RequestDeclineMessage**.</span></span>|  
+    |<span data-ttu-id="aee54-142">**識別碼**</span><span class="sxs-lookup"><span data-stu-id="aee54-142">**Identifier**</span></span>|<span data-ttu-id="aee54-143">型別 **[requestdeclinemessage]**。</span><span class="sxs-lookup"><span data-stu-id="aee54-143">Type **RequestDeclineMessage**.</span></span>|  
     |<span data-ttu-id="aee54-144">**訊息類型**</span><span class="sxs-lookup"><span data-stu-id="aee54-144">**Message Type**</span></span>|<span data-ttu-id="aee54-145">按一下**結構描述**，然後按一下  **\<選取 從參考組件...\>**.</span><span class="sxs-lookup"><span data-stu-id="aee54-145">Click **Schemas**, and then click **\<Select from referenced assembly …\>**.</span></span> <span data-ttu-id="aee54-146">從 選取成品類型 視窗中，按一下  **EAISchemas**，然後按一下 **拒絕**。</span><span class="sxs-lookup"><span data-stu-id="aee54-146">From the Select Artifact Type window, click **EAISchemas**, and then click **RequestDecline**.</span></span> <span data-ttu-id="aee54-147">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="aee54-147">Click **OK**</span></span>|  
   
 #### <a name="to-configure-the-properties-of-the-shapes"></a><span data-ttu-id="aee54-148">若要設定的圖形屬性</span><span class="sxs-lookup"><span data-stu-id="aee54-148">To configure the properties of the shapes</span></span>  
@@ -120,7 +121,7 @@ ms.lasthandoff: 11/28/2017
     |<span data-ttu-id="aee54-178">使用</span><span class="sxs-lookup"><span data-stu-id="aee54-178">Use this</span></span>|<span data-ttu-id="aee54-179">動作</span><span class="sxs-lookup"><span data-stu-id="aee54-179">To do this</span></span>|  
     |--------------|----------------|  
     |<span data-ttu-id="aee54-180">**名稱**</span><span class="sxs-lookup"><span data-stu-id="aee54-180">**Name**</span></span>|<span data-ttu-id="aee54-181">型別**ConstructRequestDeclineMessage**。</span><span class="sxs-lookup"><span data-stu-id="aee54-181">Type **ConstructRequestDeclineMessage**.</span></span>|  
-    |<span data-ttu-id="aee54-182">**建構的訊息**</span><span class="sxs-lookup"><span data-stu-id="aee54-182">**Messages Constructed**</span></span>|<span data-ttu-id="aee54-183">選取**[requestdeclinemessage]**。</span><span class="sxs-lookup"><span data-stu-id="aee54-183">Select **RequestDeclineMessage**.</span></span>|  
+    |<span data-ttu-id="aee54-182">**建構的訊息**</span><span class="sxs-lookup"><span data-stu-id="aee54-182">**Messages Constructed**</span></span>|<span data-ttu-id="aee54-183">選取 **[requestdeclinemessage]**。</span><span class="sxs-lookup"><span data-stu-id="aee54-183">Select **RequestDeclineMessage**.</span></span>|  
   
 9. <span data-ttu-id="aee54-184">設計介面上，按一下  **transform_1**圖形。</span><span class="sxs-lookup"><span data-stu-id="aee54-184">On the design surface, click the **Transform_1** shape.</span></span>  
   
@@ -129,7 +130,7 @@ ms.lasthandoff: 11/28/2017
     |<span data-ttu-id="aee54-186">使用</span><span class="sxs-lookup"><span data-stu-id="aee54-186">Use this</span></span>|<span data-ttu-id="aee54-187">動作</span><span class="sxs-lookup"><span data-stu-id="aee54-187">To do this</span></span>|  
     |--------------|----------------|  
     |<span data-ttu-id="aee54-188">**名稱**</span><span class="sxs-lookup"><span data-stu-id="aee54-188">**Name**</span></span>|<span data-ttu-id="aee54-189">型別**TransformRequestToRequestDeclineMessage**。</span><span class="sxs-lookup"><span data-stu-id="aee54-189">Type **TransformRequestToRequestDeclineMessage**.</span></span>|  
-    |<span data-ttu-id="aee54-190">**對應名稱**</span><span class="sxs-lookup"><span data-stu-id="aee54-190">**Map Name**</span></span>|<span data-ttu-id="aee54-191">按一下**...**.</span><span class="sxs-lookup"><span data-stu-id="aee54-191">Click **…**.</span></span> <span data-ttu-id="aee54-192">從 [轉換組態] 中，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="aee54-192">From Transform Configuration, do the following:</span></span><br /><br /> <span data-ttu-id="aee54-193">輸入組態資訊：</span><span class="sxs-lookup"><span data-stu-id="aee54-193">Enter the configuration information:</span></span><br /><br /> <span data-ttu-id="aee54-194">-按一下**現有對應**。</span><span class="sxs-lookup"><span data-stu-id="aee54-194">- Click **Existing Map**.</span></span><br /><br /> <span data-ttu-id="aee54-195">完整格式的對應名稱：</span><span class="sxs-lookup"><span data-stu-id="aee54-195">Fully Qualified Map Name:</span></span><br /><br /> <span data-ttu-id="aee54-196">-選取**\<從參考組件選取\>**。</span><span class="sxs-lookup"><span data-stu-id="aee54-196">- Select **\<Select from referenced assembly\>**.</span></span>  <span data-ttu-id="aee54-197">從左窗格中，選取**EAISchemas**。</span><span class="sxs-lookup"><span data-stu-id="aee54-197">From the left pane, select **EAISchemas**.</span></span>  <span data-ttu-id="aee54-198">從右窗格選取 [EAISchemas.MapToReqDecline]。</span><span class="sxs-lookup"><span data-stu-id="aee54-198">From the right pane, select EAISchemas.MapToReqDecline.</span></span>  <span data-ttu-id="aee54-199">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="aee54-199">Click **OK**.</span></span><br /><br /> <span data-ttu-id="aee54-200">Source</span><span class="sxs-lookup"><span data-stu-id="aee54-200">Source</span></span><br /><br /> <span data-ttu-id="aee54-201">-RequestMessage</span><span class="sxs-lookup"><span data-stu-id="aee54-201">- RequestMessage</span></span><br /><br /> <span data-ttu-id="aee54-202">目的地</span><span class="sxs-lookup"><span data-stu-id="aee54-202">Destination</span></span><br /><br /> <span data-ttu-id="aee54-203">-[Requestdeclinemessage]</span><span class="sxs-lookup"><span data-stu-id="aee54-203">- RequestDeclineMessage</span></span>|  
+    |<span data-ttu-id="aee54-190">**對應名稱**</span><span class="sxs-lookup"><span data-stu-id="aee54-190">**Map Name**</span></span>|<span data-ttu-id="aee54-191">按一下 **...**.</span><span class="sxs-lookup"><span data-stu-id="aee54-191">Click **…**.</span></span> <span data-ttu-id="aee54-192">從 [轉換組態] 中，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="aee54-192">From Transform Configuration, do the following:</span></span><br /><br /> <span data-ttu-id="aee54-193">輸入組態資訊：</span><span class="sxs-lookup"><span data-stu-id="aee54-193">Enter the configuration information:</span></span><br /><br /> <span data-ttu-id="aee54-194">-按一下**現有對應**。</span><span class="sxs-lookup"><span data-stu-id="aee54-194">- Click **Existing Map**.</span></span><br /><br /> <span data-ttu-id="aee54-195">完整格式的對應名稱：</span><span class="sxs-lookup"><span data-stu-id="aee54-195">Fully Qualified Map Name:</span></span><br /><br /> <span data-ttu-id="aee54-196">-選取**\<從參考組件選取\>**。</span><span class="sxs-lookup"><span data-stu-id="aee54-196">- Select **\<Select from referenced assembly\>**.</span></span>  <span data-ttu-id="aee54-197">從左窗格中，選取**EAISchemas**。</span><span class="sxs-lookup"><span data-stu-id="aee54-197">From the left pane, select **EAISchemas**.</span></span>  <span data-ttu-id="aee54-198">從右窗格選取 [EAISchemas.MapToReqDecline]。</span><span class="sxs-lookup"><span data-stu-id="aee54-198">From the right pane, select EAISchemas.MapToReqDecline.</span></span>  <span data-ttu-id="aee54-199">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="aee54-199">Click **OK**.</span></span><br /><br /> <span data-ttu-id="aee54-200">Source</span><span class="sxs-lookup"><span data-stu-id="aee54-200">Source</span></span><br /><br /> <span data-ttu-id="aee54-201">-RequestMessage</span><span class="sxs-lookup"><span data-stu-id="aee54-201">- RequestMessage</span></span><br /><br /> <span data-ttu-id="aee54-202">目的地</span><span class="sxs-lookup"><span data-stu-id="aee54-202">Destination</span></span><br /><br /> <span data-ttu-id="aee54-203">-[Requestdeclinemessage]</span><span class="sxs-lookup"><span data-stu-id="aee54-203">- RequestDeclineMessage</span></span>|  
   
 11. <span data-ttu-id="aee54-204">設計介面上，按一下  **send_1**圖形。</span><span class="sxs-lookup"><span data-stu-id="aee54-204">On the design surface, click the **Send_1** shape.</span></span>  
   
@@ -138,7 +139,7 @@ ms.lasthandoff: 11/28/2017
     |<span data-ttu-id="aee54-206">使用</span><span class="sxs-lookup"><span data-stu-id="aee54-206">Use this</span></span>|<span data-ttu-id="aee54-207">動作</span><span class="sxs-lookup"><span data-stu-id="aee54-207">To do this</span></span>|  
     |--------------|----------------|  
     |<span data-ttu-id="aee54-208">**名稱**</span><span class="sxs-lookup"><span data-stu-id="aee54-208">**Name**</span></span>|<span data-ttu-id="aee54-209">型別**SendRequestDecline**。</span><span class="sxs-lookup"><span data-stu-id="aee54-209">Type **SendRequestDecline**.</span></span>|  
-    |<span data-ttu-id="aee54-210">**訊息**</span><span class="sxs-lookup"><span data-stu-id="aee54-210">**Message**</span></span>|<span data-ttu-id="aee54-211">選取**[requestdeclinemessage]**。</span><span class="sxs-lookup"><span data-stu-id="aee54-211">Select **RequestDeclineMessage**.</span></span>|  
+    |<span data-ttu-id="aee54-210">**訊息**</span><span class="sxs-lookup"><span data-stu-id="aee54-210">**Message**</span></span>|<span data-ttu-id="aee54-211">選取 **[requestdeclinemessage]**。</span><span class="sxs-lookup"><span data-stu-id="aee54-211">Select **RequestDeclineMessage**.</span></span>|  
   
 13. <span data-ttu-id="aee54-212">設計介面上，按一下  **send_2**圖形。</span><span class="sxs-lookup"><span data-stu-id="aee54-212">On the design surface, click the **Send_2** shape.</span></span>  
   

@@ -1,14 +1,14 @@
 ---
-title: "步驟 4： 建立對應 |Microsoft 文件"
-ms.custom: 
+title: 步驟 4： 建立對應 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2f7f1f6d-0e57-4a65-b91d-c81fcc832961
-caps.latest.revision: "36"
+caps.latest.revision: 36
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,15 +17,16 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973980"
 ---
 # <a name="step-4-create-the-map"></a><span data-ttu-id="b8968-102">步驟 4：建立對應</span><span class="sxs-lookup"><span data-stu-id="b8968-102">Step 4: Create the Map</span></span>
 <span data-ttu-id="b8968-103">![步驟 4，5 個](../core/media/step-4of5.gif "Step_4of5")</span><span class="sxs-lookup"><span data-stu-id="b8968-103">![Step 4 of 5](../core/media/step-4of5.gif "Step_4of5")</span></span>  
   
  <span data-ttu-id="b8968-104">**若要完成的時間：** 6 分鐘</span><span class="sxs-lookup"><span data-stu-id="b8968-104">**Time to complete:** 6 minutes</span></span>  
   
- <span data-ttu-id="b8968-105">**目標：**在此步驟中，您會建立要求拒絕訊息的要求訊息轉換的對應。</span><span class="sxs-lookup"><span data-stu-id="b8968-105">**Objective:** In this step, you create a map that transforms Request message to RequestDecline message.</span></span>  
+ <span data-ttu-id="b8968-105">**目標：** 在此步驟中，您會建立要求拒絕訊息的要求訊息轉換的對應。</span><span class="sxs-lookup"><span data-stu-id="b8968-105">**Objective:** In this step, you create a map that transforms Request message to RequestDecline message.</span></span>  
   
- <span data-ttu-id="b8968-106">**用途：**此對應會確定要求識別碼編號與總計包含在傳回給倉儲庫存系統的要求拒絕訊息。</span><span class="sxs-lookup"><span data-stu-id="b8968-106">**Purpose:** The map ensures that the request ID number and the grand total are included in the request decline message returned to the warehouse inventory system.</span></span> <span data-ttu-id="b8968-107">您將使用 [BizTalk 對應工具] 將內送訊息中的欄位連結至為外寄訊息定義的欄位。</span><span class="sxs-lookup"><span data-stu-id="b8968-107">You use BizTalk Mapper to link fields in an incoming message to fields defined for the outgoing message.</span></span> <span data-ttu-id="b8968-108">由於這兩個訊息沒有相同的結構，因此這是必要的。</span><span class="sxs-lookup"><span data-stu-id="b8968-108">This is necessary because these two messages do not have the same schema structure.</span></span>  
+ <span data-ttu-id="b8968-106">**用途：** 此對應會確定要求識別碼編號與總計包含在傳回給倉儲庫存系統的要求拒絕訊息。</span><span class="sxs-lookup"><span data-stu-id="b8968-106">**Purpose:** The map ensures that the request ID number and the grand total are included in the request decline message returned to the warehouse inventory system.</span></span> <span data-ttu-id="b8968-107">您將使用 [BizTalk 對應工具] 將內送訊息中的欄位連結至為外寄訊息定義的欄位。</span><span class="sxs-lookup"><span data-stu-id="b8968-107">You use BizTalk Mapper to link fields in an incoming message to fields defined for the outgoing message.</span></span> <span data-ttu-id="b8968-108">由於這兩個訊息沒有相同的結構，因此這是必要的。</span><span class="sxs-lookup"><span data-stu-id="b8968-108">This is necessary because these two messages do not have the same schema structure.</span></span>  
   
 ## <a name="prerequisites"></a><span data-ttu-id="b8968-109">必要條件</span><span class="sxs-lookup"><span data-stu-id="b8968-109">Prerequisites</span></span>  
  <span data-ttu-id="b8968-110">開始此步驟之前，請注意下列需求：</span><span class="sxs-lookup"><span data-stu-id="b8968-110">Note the following requirements before you begin this step:</span></span>  

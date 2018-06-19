@@ -1,14 +1,14 @@
 ---
-title: "EDIFACT CONTRL 通知錯誤碼 |Microsoft 文件"
-ms.custom: 
+title: EDIFACT CONTRL 通知錯誤碼 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d0c5ab75-d83d-4c3e-a054-8fe079219b61
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009215"
 ---
 # <a name="edifact-contrl-acknowledgment-error-codes"></a><span data-ttu-id="707aa-102">EDIFACT CONTRL 通知錯誤碼</span><span class="sxs-lookup"><span data-stu-id="707aa-102">EDIFACT CONTRL Acknowledgment Error Codes</span></span>
 <span data-ttu-id="707aa-103">本主題列出 EDIFACT CONTRL 通知區段中所使用的錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="707aa-103">This topic lists the error codes used within the segments of an EDIFACT CONTRL acknowledgment.</span></span> <span data-ttu-id="707aa-104">如需有關這些區段的詳細資訊，請參閱[EDIFACT CONTRL 通知](../core/edifact-contrl-acknowledgment.md)。</span><span class="sxs-lookup"><span data-stu-id="707aa-104">For more information about these segments, see [EDIFACT CONTRL Acknowledgment](../core/edifact-contrl-acknowledgment.md).</span></span>  

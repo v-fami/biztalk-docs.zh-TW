@@ -1,14 +1,14 @@
 ---
-title: "Oracle E-business Suite 配接器常見問題集 |Microsoft 文件"
-ms.custom: 
+title: Oracle E-business Suite 配接器常見問題集 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4f7fe4e0-ddd5-402f-bbbc-b320850eaf3b
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218054"
 ---
 # <a name="oracle-e-business-suite-adapter-faqs"></a><span data-ttu-id="b80df-102">Oracle E-business Suite 配接器常見問題集</span><span class="sxs-lookup"><span data-stu-id="b80df-102">Oracle E-Business Suite adapter FAQs</span></span>
 <span data-ttu-id="b80df-103">下列是一些常見問題集 (Faq) 與相關[!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="b80df-103">The following are some frequently asked questions (FAQs) related to [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)].</span></span> <span data-ttu-id="b80df-104">另請參閱[BizTalk Adapter Pack 的常見問題集](../../adapters-and-accelerators/frequently-asked-questions-for-the-biztalk-adapter-pack.md)。</span><span class="sxs-lookup"><span data-stu-id="b80df-104">Also see [Frequently asked questions for the BizTalk Adapter Pack](../../adapters-and-accelerators/frequently-asked-questions-for-the-biztalk-adapter-pack.md).</span></span>

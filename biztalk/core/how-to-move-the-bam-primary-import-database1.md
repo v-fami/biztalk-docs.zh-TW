@@ -1,17 +1,17 @@
 ---
-title: "如何移動 BAM 主要匯入 Database1 |Microsoft 文件"
-ms.custom: 
+title: 如何移動 BAM 主要匯入 Database1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - migrating, Primary Import database [BAM]
 - Primary Import database [BAM], migrating
 ms.assetid: fab13fea-5c35-4a9f-977d-cc45545c54b2
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972660"
 ---
 # <a name="how-to-move-the-bam-primary-import-database"></a><span data-ttu-id="81b4e-102">如何移動 BAM 主要匯入資料庫</span><span class="sxs-lookup"><span data-stu-id="81b4e-102">How to Move the BAM Primary Import Database</span></span>
 <span data-ttu-id="81b4e-103">您可以使用這個程序，將 BAM 主要匯入資料庫移動到其他伺服器。</span><span class="sxs-lookup"><span data-stu-id="81b4e-103">You can use this procedure to move the BAM Primary Import database to another server.</span></span>  
@@ -55,7 +56,7 @@ ms.lasthandoff: 11/28/2017
   
 8.  <span data-ttu-id="81b4e-118">以滑鼠右鍵按一下**SampleUpdateInfo.xml**，然後按一下 **編輯**。</span><span class="sxs-lookup"><span data-stu-id="81b4e-118">Right-click **SampleUpdateInfo.xml**, and then click **Edit**.</span></span>  
   
-9. <span data-ttu-id="81b4e-119">在主要匯入資料庫區段中的檔案，取代**"SourceServer"**然後取代與來源系統的名稱取代**"DestinationServer"**目的系統的名稱。</span><span class="sxs-lookup"><span data-stu-id="81b4e-119">In the Primary Import Database section of the file, replace **"SourceServer"** with the name of the source system, and then replace **"DestinationServer"** with the name of the destination system.</span></span>  
+9. <span data-ttu-id="81b4e-119">在主要匯入資料庫區段中的檔案，取代 **"SourceServer"** 然後取代與來源系統的名稱取代 **"DestinationServer"** 目的系統的名稱。</span><span class="sxs-lookup"><span data-stu-id="81b4e-119">In the Primary Import Database section of the file, replace **"SourceServer"** with the name of the source system, and then replace **"DestinationServer"** with the name of the destination system.</span></span>  
   
     > [!IMPORTANT]
     >  <span data-ttu-id="81b4e-120">在來源及目的系統的名稱兩端加上引號。</span><span class="sxs-lookup"><span data-stu-id="81b4e-120">Include the quotation marks around the name of the source and destination systems.</span></span>  

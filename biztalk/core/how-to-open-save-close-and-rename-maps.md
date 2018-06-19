@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9aa88ca7-a731-4295-8692-6dd36fdf0872
-caps.latest.revision: ''
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25973164"
 ---
 # <a name="how-to-open-save-close-and-rename-maps"></a><span data-ttu-id="4a277-102">如何開啟、儲存、關閉和重新命名對應</span><span class="sxs-lookup"><span data-stu-id="4a277-102">How to Open, Save, Close, and Rename Maps</span></span>
 <span data-ttu-id="4a277-103">在 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，對應為檔案系統中存在的檔案以.btm 為副檔名。</span><span class="sxs-lookup"><span data-stu-id="4a277-103">In Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], maps exist as files in the file system with .btm extensions.</span></span> <span data-ttu-id="4a277-104">不過，更常見的狀況是將對應作為 BizTalk 專案中的項目使用，您可以從 BizTalk 專案中執行如開啟、儲存和關閉對應等作業。</span><span class="sxs-lookup"><span data-stu-id="4a277-104">Nevertheless, it is much more common to work with maps as items in a BizTalk project, from which you perform operations such as opening, saving, and closing maps.</span></span>  
@@ -42,7 +43,7 @@ ms.lasthandoff: 03/28/2018
   
 1.  <span data-ttu-id="4a277-114">在 [方案總管] 中，選取要儲存至新位置的對應。</span><span class="sxs-lookup"><span data-stu-id="4a277-114">In Solution Explorer, select the map you want to save to a new location.</span></span>  
   
-2.  <span data-ttu-id="4a277-115">在**檔案**功能表上，按一下 **儲存*\<名稱的對應\>*為**。</span><span class="sxs-lookup"><span data-stu-id="4a277-115">On the **File** menu, click **Save *\<Name of Map\>* As**.</span></span>  
+2.  <span data-ttu-id="4a277-115">在**檔案**功能表上，按一下 **儲存*\<名稱的對應\>* 為**。</span><span class="sxs-lookup"><span data-stu-id="4a277-115">On the **File** menu, click **Save *\<Name of Map\>* As**.</span></span>  
   
 3.  <span data-ttu-id="4a277-116">在 **將檔案另存新檔** 對話方塊中，瀏覽至您想要用來儲存對應的資料夾位置。</span><span class="sxs-lookup"><span data-stu-id="4a277-116">In the **Save File As** dialog box, browse to the folder location where you want to save the map.</span></span>  
   

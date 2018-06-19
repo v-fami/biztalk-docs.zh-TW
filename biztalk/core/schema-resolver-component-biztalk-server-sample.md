@@ -1,11 +1,11 @@
 ---
-title: "結構描述解析程式元件 （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: 結構描述解析程式元件 （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Flat File Disassembler [pipeline component], examples
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - schemas, examples
 - examples, Flat File Disassembler [pipeline component]
 ms.assetid: 9ef68988-c4ee-42d5-83b5-a5c978b2007d
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974916"
 ---
 # <a name="schema-resolver-component-biztalk-server-sample"></a><span data-ttu-id="f0909-102">結構描述解析程式元件 （BizTalk Server 範例）</span><span class="sxs-lookup"><span data-stu-id="f0909-102">Schema Resolver Component (BizTalk Server Sample)</span></span>
 <span data-ttu-id="f0909-103">「結構描述解析程式元件」範例會示範如何擴充 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 一般檔案解譯器元件的功能。</span><span class="sxs-lookup"><span data-stu-id="f0909-103">The Schema Resolver Component sample demonstrates how to extend the functionality of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] flat file disassembler component.</span></span>  
@@ -32,7 +33,7 @@ ms.lasthandoff: 11/28/2017
  <span data-ttu-id="f0909-109">「結構描述解析程式」元件會示範選取一般檔案解譯器的替代方法。</span><span class="sxs-lookup"><span data-stu-id="f0909-109">The Schema Resolver component demonstrates an alternative method of selecting the schema for a flat file disassembler.</span></span> <span data-ttu-id="f0909-110">在此範例中會定義四個結構描述，而每個結構描述訊息的前兩個字元都是唯一的。</span><span class="sxs-lookup"><span data-stu-id="f0909-110">In this sample, four schemas are defined and the first two characters of a message for each schema are unique.</span></span> <span data-ttu-id="f0909-111">會定義唯一的前兩個字元與對應的結構描述之間的對應。</span><span class="sxs-lookup"><span data-stu-id="f0909-111">A mapping is defined between the unique first two characters and the corresponding schema.</span></span> <span data-ttu-id="f0909-112">「結構描述解析程式」元件收到輸入訊息時，會讀取前兩個字元，判斷要為對應文件使用哪一個結構描述，再將結構描述資訊儲存於訊息內容，然後呼叫標準一般檔案解譯器元件。</span><span class="sxs-lookup"><span data-stu-id="f0909-112">When the input message is given to the Schema Resolver component, it reads the first two characters, determines which schema to use for the corresponding document, saves the schema information on the message context, and then calls into the standard flat file disassembler component.</span></span> <span data-ttu-id="f0909-113">標準一般檔案解譯器元件會從訊息內容讀取結構描述資訊，並用該結構描述剖析文件。</span><span class="sxs-lookup"><span data-stu-id="f0909-113">The standard flat file disassembler component reads the schema information from the message context and uses that schema to parse the document.</span></span>  
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="f0909-114">可在何處找到此範例</span><span class="sxs-lookup"><span data-stu-id="f0909-114">Where to Find This Sample</span></span>  
- <span data-ttu-id="f0909-115">*\<範例路徑\>*\Pipelines\SchemaResolverComponent\\</span><span class="sxs-lookup"><span data-stu-id="f0909-115">*\<Samples Path\>*\Pipelines\SchemaResolverComponent\\</span></span>  
+ <span data-ttu-id="f0909-115">*\<範例路徑\>* \Pipelines\SchemaResolverComponent\\</span><span class="sxs-lookup"><span data-stu-id="f0909-115">*\<Samples Path\>* \Pipelines\SchemaResolverComponent\\</span></span>  
   
  <span data-ttu-id="f0909-116">下表顯示此範例所用的檔案，並描述其用途。</span><span class="sxs-lookup"><span data-stu-id="f0909-116">The following table shows the files used in this sample and describes their purpose.</span></span>  
   
@@ -56,7 +57,7 @@ ms.lasthandoff: 11/28/2017
   
 1.  <span data-ttu-id="f0909-142">在命令視窗中，將目錄變更 (cd) 至下列資料夾：</span><span class="sxs-lookup"><span data-stu-id="f0909-142">In a command window, change directory (cd) to the following folder:</span></span>  
   
-     <span data-ttu-id="f0909-143">*\<範例路徑\>*\Pipelines\SchemaResolverComponent</span><span class="sxs-lookup"><span data-stu-id="f0909-143">*\<Samples Path\>*\Pipelines\SchemaResolverComponent</span></span>  
+     <span data-ttu-id="f0909-143">*\<範例路徑\>* \Pipelines\SchemaResolverComponent</span><span class="sxs-lookup"><span data-stu-id="f0909-143">*\<Samples Path\>* \Pipelines\SchemaResolverComponent</span></span>  
   
 2.  <span data-ttu-id="f0909-144">執行檔案 Setup.bat，這會執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="f0909-144">Run the file Setup.bat, which performs the following actions:</span></span>  
   

@@ -1,15 +1,15 @@
 ---
-title: "建議的技術和知識-BizTalk Server |Microsoft 文件"
-description: "使用 BizTalk Server 中，包括知識與 Visual Studio、 XML、 JSON、 Windows Server、 SQL Server、 效能、 高可用性，等等時，建議開發人員、 IT 專業人員和商務 analysists 體驗。"
-ms.custom: 
+title: 建議的技術和知識-BizTalk Server |Microsoft 文件
+description: 使用 BizTalk Server 中，包括知識與 Visual Studio、 XML、 JSON、 Windows Server、 SQL Server、 效能、 高可用性，等等時，建議開發人員、 IT 專業人員和商務 analysists 體驗。
+ms.custom: ''
 ms.date: 09/27/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a0a9a336-1554-4e45-8b4a-57b8136ff3f0
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 5355a25d120d094778fb8f68ea14cab55c68d292
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/28/2017
+ms.locfileid: "22317856"
 ---
 # <a name="prerequisite-skills-and-knowledge"></a><span data-ttu-id="f5e75-103">必要的技術和知識</span><span class="sxs-lookup"><span data-stu-id="f5e75-103">Prerequisite Skills and Knowledge</span></span>
 <span data-ttu-id="f5e75-104">讀者[瞭解 BizTalk Server](../core/understanding-biztalk-server.md)應該已經有知識的 EAI 技術以及異質應用程式整合的一般難題。</span><span class="sxs-lookup"><span data-stu-id="f5e75-104">Readers of [Understanding BizTalk Server](../core/understanding-biztalk-server.md) are expected to already have knowledge of EAI technologies and the general challenges of heterogeneous application integration.</span></span>  

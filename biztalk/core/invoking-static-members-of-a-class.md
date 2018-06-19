@@ -1,14 +1,14 @@
 ---
-title: "叫用類別的靜態成員 |Microsoft 文件"
-ms.custom: 
+title: 叫用類別的靜態成員 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3a51171c-8de0-45dd-8659-f674cf27acbe
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262270"
 ---
 # <a name="invoking-static-members-of-a-class"></a><span data-ttu-id="c3d94-102">叫用類別的靜態成員</span><span class="sxs-lookup"><span data-stu-id="c3d94-102">Invoking Static Members of a Class</span></span>
 <span data-ttu-id="c3d94-103">根據預設，規則引擎需要您評估 .NET 類別的執行個體以執行叫用 .NET 類別之靜態成員的原則。</span><span class="sxs-lookup"><span data-stu-id="c3d94-103">By default, the rule engine requires you to assert an instance of a .NET class to execute a policy that invokes a static member of the .NET class.</span></span> <span data-ttu-id="c3d94-104">您可以修改此行為的值變更**StaticSupport**登錄機碼下的**HKEY_LOCAL_MACHINE\Software\Microsoft\BusinessRules\3.0**下表中的值的其中一個。</span><span class="sxs-lookup"><span data-stu-id="c3d94-104">You can modify this behavior by changing the value of the **StaticSupport** registry key under **HKEY_LOCAL_MACHINE\Software\Microsoft\BusinessRules\3.0** to one of the values in the following table.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "如何擷取 BAM 組態檔使用 BAM 管理公用程式 |Microsoft 文件"
-ms.custom: 
+title: 如何擷取 BAM 組態檔使用 BAM 管理公用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 67ce5e0c-467a-486c-8eec-217a2a26d7b4
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972276"
 ---
 # <a name="how-to-retrieve-the-bam-configuration-file-using-the-bam-management-utility"></a><span data-ttu-id="e2b2f-102">如何使用 BAM 管理公用程式擷取 BAM 組態檔</span><span class="sxs-lookup"><span data-stu-id="e2b2f-102">How to Retrieve the BAM Configuration File Using the BAM Management Utility</span></span>
 <span data-ttu-id="e2b2f-103">系統管理員和開發人員可以使用 BAM 管理公用程式，擷取目前的 BAM 基礎結構組態。</span><span class="sxs-lookup"><span data-stu-id="e2b2f-103">Administrators and developers can use the BAM Management utility to retrieve the current configuration of the BAM infrastructure.</span></span> <span data-ttu-id="e2b2f-104">擷取的組態可以用來將 BAM 安裝移轉到新的伺服器，或可以修改並使用此組態更新現有的 BAM 安裝。</span><span class="sxs-lookup"><span data-stu-id="e2b2f-104">The retrieved configuration can be used to migrate a BAM installation to a new server or it can be modified and used to update an existing BAM installation.</span></span>  

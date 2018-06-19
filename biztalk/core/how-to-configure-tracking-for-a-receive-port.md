@@ -1,11 +1,11 @@
 ---
-title: "如何設定追蹤接收埠 |Microsoft 文件"
-ms.custom: 
+title: 如何設定追蹤接收埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [receive ports], configuring
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - configuring, receive ports
 - managing [receive ports], tracking
 ms.assetid: dd569e84-cb1c-4191-912a-0c2eb2781a85
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249102"
 ---
 # <a name="how-to-configure-tracking-for-a-receive-port"></a><span data-ttu-id="f5a69-102">如何設定追蹤接收埠</span><span class="sxs-lookup"><span data-stu-id="f5a69-102">How to Configure Tracking for a Receive Port</span></span>
 <span data-ttu-id="f5a69-103">本主題描述如何使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台來設定接收埠的追蹤，例如用來檢視訊息內文和升級屬性的選項。</span><span class="sxs-lookup"><span data-stu-id="f5a69-103">This topic describes how to use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console to configure tracking for a receive port, such as options to view message bodies and promoted properties..</span></span> <span data-ttu-id="f5a69-104">這可以協助您監控 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 實作的狀況並找出任何瓶頸。</span><span class="sxs-lookup"><span data-stu-id="f5a69-104">This helps you monitor the health of your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] implementation and identify any bottlenecks.</span></span> <span data-ttu-id="f5a69-105">您設定的追蹤設定會套用到接收埠的所有執行個體。</span><span class="sxs-lookup"><span data-stu-id="f5a69-105">The tracking settings that you configure apply to all of the instances of the receive port.</span></span>  

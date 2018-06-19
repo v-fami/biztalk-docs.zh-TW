@@ -1,14 +1,14 @@
 ---
-title: "PartnerManagement （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: PartnerManagement （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 83e2a84f-ab25-4a7c-b8d7-0ba2dfa93095
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973652"
 ---
 # <a name="partnermanagement-biztalk-server-sample"></a><span data-ttu-id="2d2da-102">PartnerManagement （BizTalk Server 範例）</span><span class="sxs-lookup"><span data-stu-id="2d2da-102">PartnerManagement (BizTalk Server Sample)</span></span>
 <span data-ttu-id="2d2da-103">PartnerManagement 範例示範如何管理合作對象中的[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境使用**ExplorerOM**管理物件。</span><span class="sxs-lookup"><span data-stu-id="2d2da-103">The PartnerManagement sample demonstrates how to manage parties in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment by using the **ExplorerOM** administration objects.</span></span>  

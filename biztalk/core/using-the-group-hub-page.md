@@ -1,14 +1,14 @@
 ---
-title: "使用 [群組中樞] 頁面 |Microsoft 文件"
-ms.custom: 
+title: 使用 [群組中樞] 頁面 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 50693ccc-a3b2-4ad0-9a05-d60dab404a07
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288086"
 ---
 # <a name="using-the-group-hub-page"></a><span data-ttu-id="27d75-102">使用群組中樞頁面</span><span class="sxs-lookup"><span data-stu-id="27d75-102">Using the Group Hub Page</span></span>
 <span data-ttu-id="27d75-103">選取**BizTalk 群組**在 BizTalk Server 管理主控台中，節點會顯示 [BizTalk Server 群組中樞] 頁面詳細資料窗格中。</span><span class="sxs-lookup"><span data-stu-id="27d75-103">Selecting the **BizTalk Group** node in the BizTalk Server Administration Console, displays the BizTalk Server Group Hub page in the details pane.</span></span> <span data-ttu-id="27d75-104">[BizTalk Server 群組中樞] 頁面分為三個區段，會提供 BizTalk Server 系統狀況的整體檢視。</span><span class="sxs-lookup"><span data-stu-id="27d75-104">The BizTalk Server Group Hub page is divided into three sections that provide an overall view of the health of your BizTalk Server system:</span></span>  

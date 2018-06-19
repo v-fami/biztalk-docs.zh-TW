@@ -1,15 +1,15 @@
 ---
-title: "逐步解說： 追蹤 BizTalk Server 中的原則執行 |Microsoft 文件"
-description: "若要啟用追蹤，並檢視追蹤詳細資料原則的 BizTalk Server 中的教學課程"
-ms.custom: 
+title: 逐步解說： 追蹤 BizTalk Server 中的原則執行 |Microsoft 文件
+description: 若要啟用追蹤，並檢視追蹤詳細資料原則的 BizTalk Server 中的教學課程
+ms.custom: ''
 ms.date: 04/05/2016
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ef88eae7-f0f8-4f3f-85d0-3961a47395b6
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975092"
 ---
 # <a name="walkthrough-tracking-policy-execution"></a><span data-ttu-id="76ae8-103">逐步解說： 追蹤原則執行</span><span class="sxs-lookup"><span data-stu-id="76ae8-103">Walkthrough: Tracking Policy Execution</span></span>
 <span data-ttu-id="76ae8-104">啟用追蹤的逐步程序**ProcessPurchaseOrder**原則，以及在執行原則之後檢視追蹤資訊。</span><span class="sxs-lookup"><span data-stu-id="76ae8-104">Step-by-step procedures for enabling tracking for the **ProcessPurchaseOrder** policy, and for viewing the tracking information after the policy is executed.</span></span>  
@@ -64,7 +65,7 @@ ms.lasthandoff: 11/28/2017
   
      <span data-ttu-id="76ae8-128">![BRE &#45;逐步解說 &#45;FirstScreen](../core/media/1e59fe9e-cf2d-407a-81cd-102b57a515d2.gif "1e59fe9e-cf2d-407a-81cd-102b57a515d2")</span><span class="sxs-lookup"><span data-stu-id="76ae8-128">![BRE&#45;Walkthrough&#45;FirstScreen](../core/media/1e59fe9e-cf2d-407a-81cd-102b57a515d2.gif "1e59fe9e-cf2d-407a-81cd-102b57a515d2")</span></span>  
   
-7. <span data-ttu-id="76ae8-129">按一下時間或**[processpurchaseorder1.3]**看到下列畫面。</span><span class="sxs-lookup"><span data-stu-id="76ae8-129">Click the time or **ProcessPurchaseOrder1.3** to see the following screen.</span></span> <span data-ttu-id="76ae8-130">在這個畫面中，您可以看到要求原則執行的服務 (協調流程)、協調流程的識別碼、原則執行的時間，以及原則的識別碼。</span><span class="sxs-lookup"><span data-stu-id="76ae8-130">In this screen, you can see the service (orchestration) that requested the policy execution, the ID of the orchestration, the time at which the policy was executed, and the ID of the policy.</span></span>  
+7. <span data-ttu-id="76ae8-129">按一下時間或 **[processpurchaseorder1.3]** 看到下列畫面。</span><span class="sxs-lookup"><span data-stu-id="76ae8-129">Click the time or **ProcessPurchaseOrder1.3** to see the following screen.</span></span> <span data-ttu-id="76ae8-130">在這個畫面中，您可以看到要求原則執行的服務 (協調流程)、協調流程的識別碼、原則執行的時間，以及原則的識別碼。</span><span class="sxs-lookup"><span data-stu-id="76ae8-130">In this screen, you can see the service (orchestration) that requested the policy execution, the ID of the orchestration, the time at which the policy was executed, and the ID of the policy.</span></span>  
   
      <span data-ttu-id="76ae8-131">![BRE &#45;逐步解說 &#45;PolicyExecDetails](../core/media/a65fd48f-2a54-4cc5-9b45-4cd3c211da33.gif "a65fd48f-2a54-4cc5-9b45-4cd3c211da33")</span><span class="sxs-lookup"><span data-stu-id="76ae8-131">![BRE&#45;Walkthrough&#45;PolicyExecDetails](../core/media/a65fd48f-2a54-4cc5-9b45-4cd3c211da33.gif "a65fd48f-2a54-4cc5-9b45-4cd3c211da33")</span></span>  
   

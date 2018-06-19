@@ -1,17 +1,17 @@
 ---
-title: "步驟 6： 設定 BizTalk 協調流程伺服器 |Microsoft 文件"
-ms.custom: 
+title: 步驟 6： 設定 BizTalk 協調流程伺服器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestration server, configuring
 - configuring, orchestration servers
 ms.assetid: 1eb38fac-264d-4730-b16b-572dbb6fabd9
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005911"
 ---
 # <a name="step-6-configuring-the-biztalk-orchestration-servers"></a><span data-ttu-id="7e1a1-102">步驟 6： 設定 BizTalk 協調流程伺服器</span><span class="sxs-lookup"><span data-stu-id="7e1a1-102">Step 6: Configuring the BizTalk Orchestration Servers</span></span>
 <span data-ttu-id="7e1a1-103">本節提供設定的 BizTalk 協調流程伺服器上的指導方針。</span><span class="sxs-lookup"><span data-stu-id="7e1a1-103">This section provides guidelines on configuring the BizTalk Orchestration servers.</span></span>  

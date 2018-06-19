@@ -1,11 +1,11 @@
 ---
-title: "如何將 64 位元成品新增至應用程式 |Microsoft 文件"
-ms.custom: 
+title: 如何將 64 位元成品新增至應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - artifacts, 64-bit support
@@ -21,7 +21,7 @@ helpviewer_keywords:
 - BizTalk Server, 64-bit support
 - applications, 64-bit support
 ms.assetid: 46aca7d4-c5be-421e-b16d-7f3095c8cc67
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -30,6 +30,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246622"
 ---
 # <a name="how-to-add-a-64-bit-artifact-to-an-application"></a><span data-ttu-id="9c1b7-102">如何將 64 位元成品新增至應用程式</span><span class="sxs-lookup"><span data-stu-id="9c1b7-102">How to Add a 64-Bit Artifact to an Application</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="9c1b7-103"> 包含 64 位元應用程式的支援。</span><span class="sxs-lookup"><span data-stu-id="9c1b7-103"> includes support for 64-bit applications.</span></span> <span data-ttu-id="9c1b7-104">這表示您可以用與 32 位元成品相同的方式，將 64 位元成品新增到 BizTalk 應用程式，然而，在 32 位元電腦上安裝下列 64 位元成品時，您可能會遇到下列問題：</span><span class="sxs-lookup"><span data-stu-id="9c1b7-104">This means that you can add 64-bit artifacts to a BizTalk application in the same manner as 32-bit artifacts; however, you may encounter the following issues when installing the following 64-bit artifacts on a 32-bit computer:</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "傳送 EDI 通知 |Microsoft 文件"
-ms.custom: 
+title: 傳送 EDI 通知 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4a036d08-8a65-43ad-b72c-2a246d302792
-caps.latest.revision: "31"
+caps.latest.revision: 31
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22272518"
 ---
 # <a name="sending-an-edi-acknowledgment"></a><span data-ttu-id="86446-102">傳送 EDI 通知</span><span class="sxs-lookup"><span data-stu-id="86446-102">Sending an EDI Acknowledgment</span></span>
 <span data-ttu-id="86446-103">通知可指示 EDI 訊息傳輸的狀態。</span><span class="sxs-lookup"><span data-stu-id="86446-103">Acknowledgments indicate the status of EDI message transmission.</span></span> <span data-ttu-id="86446-104">在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 收到 EDI 交換後，依據啟用的通知而定，會傳回一或多個通知給 EDI 交換的寄件者。</span><span class="sxs-lookup"><span data-stu-id="86446-104">After [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receives an EDI interchange, it will return one or more acknowledgments to the sender of an EDI interchange, depending upon which acknowledgments have been enabled.</span></span>  
@@ -59,20 +60,20 @@ ms.lasthandoff: 09/20/2017
   
 -   <span data-ttu-id="86446-136">所接收交換中的資料項目提示通知。</span><span class="sxs-lookup"><span data-stu-id="86446-136">A data element in the received interchange prompts the acknowledgment.</span></span> <span data-ttu-id="86446-137">對於 X12 編碼訊息，接收管線會產生技術 TA1 通知，如果 ISA14 資料項目設定為 1。</span><span class="sxs-lookup"><span data-stu-id="86446-137">For X12-encoded messages, the receive pipeline will generate a technical TA1 ACK if the ISA14 data element is set to 1.</span></span> <span data-ttu-id="86446-138">對於 EDIFACT 編碼訊息，接收管線會產生技術 CONTRL 通知，如果 UNB9 資料項目設定為 2，而且它會產生功能 CONTRL 通知，如果 UNB9 資料項目設定為 1。</span><span class="sxs-lookup"><span data-stu-id="86446-138">For EDIFACT-encoded messages, the receive pipeline will generate a technical CONTRL ACK if the UNB9 data element is set to 2, and it will generate a functional CONTRL ACK if the UNB9 data element is set to 1.</span></span>  
   
--   <span data-ttu-id="86446-139">協議屬性提示通知。</span><span class="sxs-lookup"><span data-stu-id="86446-139">An agreement property prompts the acknowledgment.</span></span> <span data-ttu-id="86446-140">對於 X12 交換，這些屬性是**預期 TA1**和**預期 997**中的屬性**通知**雙向協議索引標籤頁面**協議屬性** 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="86446-140">For X12 interchanges, these properties are the **TA1 Expected** and **997 Expected** properties in the **Acknowledgements** page of the bi-directional agreement tabs of the **Agreement Properties** dialog box.</span></span> <span data-ttu-id="86446-141">對於 EDIFACT 交換，這些屬性是**訊息回條 (CONTRL 必須是)**和**通知 (CONTRL) 必須是**中**通知**頁面雙向協議索引標籤的**協議屬性** 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="86446-141">For EDIFACT interchanges, these properties are the **Receipt of message (CONTRL) expected** and **Acknowledgement (CONTRL) expected** in the **Acknowledgements** page of the bi-directional agreement tabs of the **Agreement Properties** dialog box.</span></span> <span data-ttu-id="86446-142">若啟用一種通知，您也可以指定是否要批次處理該類型的通知。</span><span class="sxs-lookup"><span data-stu-id="86446-142">When you enable a type of acknowledgment, you can also indicate whether to batch that type of acknowledgment.</span></span>  
+-   <span data-ttu-id="86446-139">協議屬性提示通知。</span><span class="sxs-lookup"><span data-stu-id="86446-139">An agreement property prompts the acknowledgment.</span></span> <span data-ttu-id="86446-140">對於 X12 交換，這些屬性是**預期 TA1**和**預期 997**中的屬性**通知**雙向協議索引標籤頁面**協議屬性** 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="86446-140">For X12 interchanges, these properties are the **TA1 Expected** and **997 Expected** properties in the **Acknowledgements** page of the bi-directional agreement tabs of the **Agreement Properties** dialog box.</span></span> <span data-ttu-id="86446-141">對於 EDIFACT 交換，這些屬性是**訊息回條 (CONTRL 必須是)** 和**通知 (CONTRL) 必須是**中**通知**頁面雙向協議索引標籤的**協議屬性** 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="86446-141">For EDIFACT interchanges, these properties are the **Receipt of message (CONTRL) expected** and **Acknowledgement (CONTRL) expected** in the **Acknowledgements** page of the bi-directional agreement tabs of the **Agreement Properties** dialog box.</span></span> <span data-ttu-id="86446-142">若啟用一種通知，您也可以指定是否要批次處理該類型的通知。</span><span class="sxs-lookup"><span data-stu-id="86446-142">When you enable a type of acknowledgment, you can also indicate whether to batch that type of acknowledgment.</span></span>  
   
 -   <span data-ttu-id="86446-143">如果無法判斷交換的協議，全域屬性會提示通知。</span><span class="sxs-lookup"><span data-stu-id="86446-143">A global property prompts the acknowledgment when no agreement is determined for the interchange.</span></span> <span data-ttu-id="86446-144">這些屬性是：</span><span class="sxs-lookup"><span data-stu-id="86446-144">These properties are the</span></span>  
   
     -   <span data-ttu-id="86446-145">**預期 TA1**和**預期 997**中的屬性**通知**協議索引標籤的頁面**X12 後援設定** 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="86446-145">**TA1 Expected** and **997 Expected** properties in the **Acknowledgements** page of the agreement tab of the **X12 Fallback Settings** dialog box.</span></span>  
   
-    -   <span data-ttu-id="86446-146">**訊息回條 (CONTRL 必須是)**和**通知 (CONTRL) 必須是**中**通知**協議索引標籤的頁面**EDIFACT 後援設定** 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="86446-146">**Receipt of message (CONTRL) expected** and **Acknowledgement (CONTRL) expected** in the **Acknowledgements** page of the agreement tab of the **EDIFACT Fallback Settings** dialog box.</span></span>  
+    -   <span data-ttu-id="86446-146">**訊息回條 (CONTRL 必須是)** 和**通知 (CONTRL) 必須是**中**通知**協議索引標籤的頁面**EDIFACT 後援設定** 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="86446-146">**Receipt of message (CONTRL) expected** and **Acknowledgement (CONTRL) expected** in the **Acknowledgements** page of the agreement tab of the **EDIFACT Fallback Settings** dialog box.</span></span>  
   
  <span data-ttu-id="86446-147">針對 EDIFACT，如果同時提示技術通知和功能通知，EDI 接收管線會傳回兩個個別 CONTRL 通知。</span><span class="sxs-lookup"><span data-stu-id="86446-147">For EDIFACT, the EDI receive pipeline will return two separate CONTRL acknowledgments if both a technical acknowledgment and a functional acknowledgment are prompted.</span></span> <span data-ttu-id="86446-148">技術 CONTRL 通知只包含接收通知資訊，</span><span class="sxs-lookup"><span data-stu-id="86446-148">The technical CONTRL ACK will include receipt acknowledgment information only.</span></span> <span data-ttu-id="86446-149">功能 CONTRL 通知則同時包含接收資訊和功能通知資訊。</span><span class="sxs-lookup"><span data-stu-id="86446-149">The functional CONTRL ACK will include both receipt information and functional acknowledgment information.</span></span> <span data-ttu-id="86446-150">如需詳細資訊，請參閱[EDIFACT CONTRL 通知](../core/edifact-contrl-acknowledgment.md)。</span><span class="sxs-lookup"><span data-stu-id="86446-150">For more information, see [EDIFACT CONTRL Acknowledgment](../core/edifact-contrl-acknowledgment.md).</span></span>  
   
 ## <a name="identifying-an-acknowledgment-with-a-control-number"></a><span data-ttu-id="86446-151">識別含有控制編號的通知</span><span class="sxs-lookup"><span data-stu-id="86446-151">Identifying an Acknowledgment with a Control Number</span></span>  
  <span data-ttu-id="86446-152">每個通知都必須以 X12 的交易集控制編號 (ST2 資料項目) 或 EDIFACT 的交易集參考編號 (UNH1 資料項目) 來識別。</span><span class="sxs-lookup"><span data-stu-id="86446-152">Each acknowledgment needs to be identified by a transaction set control number for X12 (the ST2 data element) or a transaction set reference number for EDIFACT (the UNH1 data element).</span></span> <span data-ttu-id="86446-153">如果為外寄通知設定協議，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 將依下列原則，將交易集控制或參考編號設為針對協議所設定的值：</span><span class="sxs-lookup"><span data-stu-id="86446-153">If an agreement is configured for the outgoing acknowledgment, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will set the transaction set control or reference number to the value set for the agreement based on the following:</span></span>  
   
--   <span data-ttu-id="86446-154">**對於 X12 通知**– (**ACK 控制編號 (ST02)**屬性**本機主機設定**頁面 (**接收者的設定**> 一節) 協議索引標籤中**協議屬性**對話方塊</span><span class="sxs-lookup"><span data-stu-id="86446-154">**For X12 acknowledgements** – (**ACK Control number (ST02)** property in **Local Host Settings** Page (**Receiver’s Settings** section) of the agreement tab in **Agreement Properties** dialog box</span></span>  
+-   <span data-ttu-id="86446-154">**對於 X12 通知**– (**ACK 控制編號 (ST02)** 屬性**本機主機設定**頁面 (**接收者的設定**> 一節) 協議索引標籤中**協議屬性**對話方塊</span><span class="sxs-lookup"><span data-stu-id="86446-154">**For X12 acknowledgements** – (**ACK Control number (ST02)** property in **Local Host Settings** Page (**Receiver’s Settings** section) of the agreement tab in **Agreement Properties** dialog box</span></span>  
   
 -   <span data-ttu-id="86446-155">**對於 EDIFACT 通知**– (**Edifact Ack 控制編號**屬性**本機主機設定**頁面 (**接收者的設定**區段) 的協議索引標籤中的**協議屬性**對話方塊</span><span class="sxs-lookup"><span data-stu-id="86446-155">**For EDIFACT acknowledgements** – (**Edifact Ack Control number** property in **Local Host Settings** Page (**Receiver’s Settings** section) of the agreement tab in **Agreement Properties** dialog box</span></span>  
   

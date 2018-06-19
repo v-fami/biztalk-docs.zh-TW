@@ -1,14 +1,14 @@
 ---
-title: "JMS MQRFH2 範例相依性和強式金鑰名稱的定義 |Microsoft 文件"
-ms.custom: 
+title: JMS MQRFH2 範例相依性和強式金鑰名稱的定義 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a3a5cdce-dcdf-48df-91a5-8cf2afce9255
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976492"
 ---
 # <a name="jms-mqrfh2-sample-dependencies-and-strong-key-name-definition"></a><span data-ttu-id="ac3f7-102">JMS MQRFH2 範例相依性和強式金鑰名稱定義</span><span class="sxs-lookup"><span data-stu-id="ac3f7-102">JMS MQRFH2 Sample Dependencies and Strong Key Name Definition</span></span>
 <span data-ttu-id="ac3f7-103">ESB Visual Studio 專案。JMS。PipelineComponents 取決於下列資料夾：</span><span class="sxs-lookup"><span data-stu-id="ac3f7-103">The Visual Studio project ESB.JMS.PipelineComponents depends on the following folder:</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "叫用從另一個原則的原則 |Microsoft 文件"
-ms.custom: 
+title: 叫用從另一個原則的原則 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b5bf658a-02a1-426a-abe5-8c9de673cf0d
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973556"
 ---
 # <a name="invoking-a-policy-from-another-policy"></a><span data-ttu-id="92724-102">從另一個原則叫用原則</span><span class="sxs-lookup"><span data-stu-id="92724-102">Invoking a Policy from Another Policy</span></span>
 <span data-ttu-id="92724-103">您可以使用下列其中一種方法，從另一個原則 (父原則) 叫用原則 (子原則)：</span><span class="sxs-lookup"><span data-stu-id="92724-103">You can invoke a policy (child) from another policy (parent) by using one of the following methods:</span></span>  
@@ -35,15 +36,15 @@ ms.lasthandoff: 11/28/2017
   
 ##### <a name="to-add-the-policyexecute-method-as-an-action-to-a-policy"></a><span data-ttu-id="92724-113">若要將 Policy.Execute 方法當做動作加入到原則</span><span class="sxs-lookup"><span data-stu-id="92724-113">To add the Policy.Execute method as an action to a policy</span></span>  
   
-1.  <span data-ttu-id="92724-114">在 事實總管 視窗中，按一下**.NET 類別** 索引標籤。</span><span class="sxs-lookup"><span data-stu-id="92724-114">In the Facts Explorer window, click the **.NET Classes** tab.</span></span>  
+1.  <span data-ttu-id="92724-114">在 事實總管 視窗中，按一下 **.NET 類別** 索引標籤。</span><span class="sxs-lookup"><span data-stu-id="92724-114">In the Facts Explorer window, click the **.NET Classes** tab.</span></span>  
   
-2.  <span data-ttu-id="92724-115">以滑鼠右鍵按一下**.NET 組件**，然後按一下 **瀏覽**。</span><span class="sxs-lookup"><span data-stu-id="92724-115">Right-click **.NET Assemblies**, and then click **Browse**.</span></span>  
+2.  <span data-ttu-id="92724-115">以滑鼠右鍵按一下 **.NET 組件**，然後按一下 **瀏覽**。</span><span class="sxs-lookup"><span data-stu-id="92724-115">Right-click **.NET Assemblies**, and then click **Browse**.</span></span>  
   
-3.  <span data-ttu-id="92724-116">選取**Microsoft.RuleEngine**從**.NET 組件**清單，然後再按**確定**。</span><span class="sxs-lookup"><span data-stu-id="92724-116">Select **Microsoft.RuleEngine** from the **.NET Assemblies** list, and then click **OK**.</span></span>  
+3.  <span data-ttu-id="92724-116">選取**Microsoft.RuleEngine**從 **.NET 組件**清單，然後再按**確定**。</span><span class="sxs-lookup"><span data-stu-id="92724-116">Select **Microsoft.RuleEngine** from the **.NET Assemblies** list, and then click **OK**.</span></span>  
   
 4.  <span data-ttu-id="92724-117">展開**原則**。</span><span class="sxs-lookup"><span data-stu-id="92724-117">Expand **Policy**.</span></span>  
   
-5.  <span data-ttu-id="92724-118">拖曳**Execute (Object facts)**或**Execute （Object facts，IRuleSetTrackingInterceptor trackingInterceptor）**到 [THEN] 窗格。</span><span class="sxs-lookup"><span data-stu-id="92724-118">Drag **Execute(Object facts)** or **Execute(Object facts, IRuleSetTrackingInterceptor trackingInterceptor)** to the THEN pane.</span></span>  
+5.  <span data-ttu-id="92724-118">拖曳**Execute (Object facts)** 或**Execute （Object facts，IRuleSetTrackingInterceptor trackingInterceptor）** 到 [THEN] 窗格。</span><span class="sxs-lookup"><span data-stu-id="92724-118">Drag **Execute(Object facts)** or **Execute(Object facts, IRuleSetTrackingInterceptor trackingInterceptor)** to the THEN pane.</span></span>  
   
 6.  <span data-ttu-id="92724-119">按一下**XML 結構描述**節點。</span><span class="sxs-lookup"><span data-stu-id="92724-119">Click the **XML Schemas** node.</span></span>  
   
@@ -54,11 +55,11 @@ ms.lasthandoff: 11/28/2017
   
 8.  <span data-ttu-id="92724-123">選取您想要傳遞為事實，然後按一下 XML 文件的結構描述**開啟**。</span><span class="sxs-lookup"><span data-stu-id="92724-123">Select the schema for the XML document you want to pass as a fact, and then click **Open**.</span></span>  
   
-9. <span data-ttu-id="92724-124">拖曳*\<結構描述名稱\>*的第一個引數的.xsd **Policy.Execute**方法以傳遞給子原則的事實傳遞給父原則的 XML 文件。</span><span class="sxs-lookup"><span data-stu-id="92724-124">Drag *\<Schema name\>*.xsd to the first argument of the **Policy.Execute** method to pass the XML document that is passed to the parent policy as a fact to the child policy.</span></span>  
+9. <span data-ttu-id="92724-124">拖曳*\<結構描述名稱\>* 的第一個引數的.xsd **Policy.Execute**方法以傳遞給子原則的事實傳遞給父原則的 XML 文件。</span><span class="sxs-lookup"><span data-stu-id="92724-124">Drag *\<Schema name\>*.xsd to the first argument of the **Policy.Execute** method to pass the XML document that is passed to the parent policy as a fact to the child policy.</span></span>  
   
 10. <span data-ttu-id="92724-125">如果您使用**Execute**方法未採用**IRuleSetTrackingInterceptor**做為第二個引數，請略過下列步驟。</span><span class="sxs-lookup"><span data-stu-id="92724-125">If you use the **Execute** method that does not take the **IRuleSetTrackingInterceptor** as the second argument, skip the following steps.</span></span>  
   
-11. <span data-ttu-id="92724-126">按一下**.NET 類別** 索引標籤。</span><span class="sxs-lookup"><span data-stu-id="92724-126">Click the **.NET Classes** tab.</span></span>  
+11. <span data-ttu-id="92724-126">按一下 **.NET 類別** 索引標籤。</span><span class="sxs-lookup"><span data-stu-id="92724-126">Click the **.NET Classes** tab.</span></span>  
   
 12. <span data-ttu-id="92724-127">拖曳**DebugTrackingInterceptor**中**Microsoft.RuleEngine**的第二個引數**Policy.Execute**方法。</span><span class="sxs-lookup"><span data-stu-id="92724-127">Drag **DebugTrackingInterceptor** in **Microsoft.RuleEngine** to the second argument of the **Policy.Execute** method.</span></span>  
   

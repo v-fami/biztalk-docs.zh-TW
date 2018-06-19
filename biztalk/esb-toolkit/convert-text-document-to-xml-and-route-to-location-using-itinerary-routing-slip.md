@@ -1,14 +1,14 @@
 ---
-title: "如何： 將文字文件轉換成 XML 和路由至檔案位置，使用路線的路由名單 |Microsoft 文件"
-ms.custom: 
+title: 如何： 將文字文件轉換成 XML 和路由至檔案位置，使用路線的路由名單 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 01597a5f-5ca3-440e-ad97-70332233f319
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010191"
 ---
 # <a name="how-to-convert-a-text-document-to-xml-and-route-to-a-file-location-using-an-itinerary-routing-slip"></a><span data-ttu-id="3ec5b-102">如何： 將文字文件轉換成 XML 和路由至使用路線的路由名單檔案位置</span><span class="sxs-lookup"><span data-stu-id="3ec5b-102">How to: Convert a Text Document to XML and Route to a File Location Using an Itinerary Routing Slip</span></span>
 ## <a name="goal"></a><span data-ttu-id="3ec5b-103">目標</span><span class="sxs-lookup"><span data-stu-id="3ec5b-103">Goal</span></span>  
@@ -68,7 +69,7 @@ ms.lasthandoff: 12/01/2017
   
 1.  <span data-ttu-id="3ec5b-129">在 Visual Studio 中，以滑鼠右鍵按一下**DataFormatTransformation.Schemas**，然後按一下 **屬性**。</span><span class="sxs-lookup"><span data-stu-id="3ec5b-129">In Visual Studio, right-click **DataFormatTransformation.Schemas**, and then click **Properties**.</span></span> <span data-ttu-id="3ec5b-130">按一下**應用程式**，然後輸入**GlobalBank.ESB.DataFormatTransformation.Schemas**中**組件名稱**方塊。</span><span class="sxs-lookup"><span data-stu-id="3ec5b-130">Click **Application**, and then type **GlobalBank.ESB.DataFormatTransformation.Schemas** in the **Assembly name** box.</span></span>  
   
-2.  <span data-ttu-id="3ec5b-131">以滑鼠右鍵按一下**DataFormatTransformation.Schemas**，然後按一下 **屬性**。</span><span class="sxs-lookup"><span data-stu-id="3ec5b-131">Right-click **DataFormatTransformation.Schemas**, and then click **Properties**.</span></span> <span data-ttu-id="3ec5b-132">按一下**簽署**，然後確認**簽署組件**核取方塊已選取和組件位置指向**。\\...\\..\\..\\..\\..\keys\Microsoft.Practices.ESB.snk**。</span><span class="sxs-lookup"><span data-stu-id="3ec5b-132">Click **Signing**, and then verify that the **Sign the assembly** check box is selected and that the assembly location points to **.\\..\\..\\..\\..\\..\keys\Microsoft.Practices.ESB.snk**.</span></span>  
+2.  <span data-ttu-id="3ec5b-131">以滑鼠右鍵按一下**DataFormatTransformation.Schemas**，然後按一下 **屬性**。</span><span class="sxs-lookup"><span data-stu-id="3ec5b-131">Right-click **DataFormatTransformation.Schemas**, and then click **Properties**.</span></span> <span data-ttu-id="3ec5b-132">按一下**簽署**，然後確認**簽署組件**核取方塊已選取和組件位置指向 **。\\...\\..\\..\\..\\..\keys\Microsoft.Practices.ESB.snk**。</span><span class="sxs-lookup"><span data-stu-id="3ec5b-132">Click **Signing**, and then verify that the **Sign the assembly** check box is selected and that the assembly location points to **.\\..\\..\\..\\..\\..\keys\Microsoft.Practices.ESB.snk**.</span></span>  
   
 3.  <span data-ttu-id="3ec5b-133">以滑鼠右鍵按一下**DataFormatTransformation.Pipelines**，然後按一下 **移除**。</span><span class="sxs-lookup"><span data-stu-id="3ec5b-133">Right-click **DataFormatTransformation.Pipelines**, and then click **Remove**.</span></span>  
   

@@ -1,11 +1,11 @@
 ---
-title: "MQSCorrelationSetOrchestration （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: MQSCorrelationSetOrchestration （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, MQSeries adapters
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - messages, examples
 - MQSeries adapters, examples
 ms.assetid: fcda65d0-e3ec-4ead-978d-3904903b8762
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974980"
 ---
 # <a name="mqscorrelationsetorchestration-biztalk-server-sample"></a><span data-ttu-id="18d5f-102">MQSCorrelationSetOrchestration (BizTalk Server 範例)</span><span class="sxs-lookup"><span data-stu-id="18d5f-102">MQSCorrelationSetOrchestration (BizTalk Server Sample)</span></span>
 <span data-ttu-id="18d5f-103">MQSCorrelationSetOrchestration 範例會示範如何使用 MQSeries 相互關聯識別項，將傳送至 MQSeries 佇列的相互關聯訊息送回到執行中的協調流程。</span><span class="sxs-lookup"><span data-stu-id="18d5f-103">The MQSCorrelationSetOrchestration sample demonstrates how to use the MQSeries correlation identifier for correlating messages sent to an MQSeries queue back to a running orchestration.</span></span> <span data-ttu-id="18d5f-104">協調流程設定 MQSeries 相互關聯識別項和訊息使用的識別碼值**MQMD_CorrelId**和**MQMD_MsgID**屬性。</span><span class="sxs-lookup"><span data-stu-id="18d5f-104">The orchestration sets the MQSeries correlation identifier and message identifier values using the **MQMD_CorrelId** and **MQMD_MsgID** properties.</span></span> <span data-ttu-id="18d5f-105">MQSeries 佇列管理員會將 MessageID 值複製到訊息的 CorrelationID 屬性。</span><span class="sxs-lookup"><span data-stu-id="18d5f-105">The MQSeries Queue Manager copies the MessageID value to the CorrelationID property of the message.</span></span>  
@@ -38,7 +39,7 @@ ms.lasthandoff: 11/28/2017
  <span data-ttu-id="18d5f-114">這個範例所示範的實例中，將由協調流程處理的文件可以傳送至 MQSeries 佇列 (假設會進行其他處理)，並會傳回到執行中的協調流程。</span><span class="sxs-lookup"><span data-stu-id="18d5f-114">This sample illustrates a scenario in which a document that is being processed by an orchestration can be sent to an MQSeries queue (presumably for additional processing) and returned back to the running orchestration.</span></span>  
   
 ## <a name="where-to-find-this-sample"></a><span data-ttu-id="18d5f-115">可在何處找到此範例</span><span class="sxs-lookup"><span data-stu-id="18d5f-115">Where to Find This Sample</span></span>  
- <span data-ttu-id="18d5f-116">*\<範例路徑\>*\AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestration</span><span class="sxs-lookup"><span data-stu-id="18d5f-116">*\<Samples Path\>*\AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestration</span></span>  
+ <span data-ttu-id="18d5f-116">*\<範例路徑\>* \AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestration</span><span class="sxs-lookup"><span data-stu-id="18d5f-116">*\<Samples Path\>* \AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestration</span></span>  
   
  <span data-ttu-id="18d5f-117">下表顯示此範例中的檔案，並描述其用途。</span><span class="sxs-lookup"><span data-stu-id="18d5f-117">The following table shows the files in this sample and describes their purpose.</span></span>  
   
@@ -56,7 +57,7 @@ ms.lasthandoff: 11/28/2017
   
 1.  <span data-ttu-id="18d5f-132">按一下**啟動**，指向 **程式**，指向  **IBM WebSphere MQ**，然後按一下  **WebSphere MQ Explorer**。</span><span class="sxs-lookup"><span data-stu-id="18d5f-132">Click **Start**, point to **Programs**, point to **IBM WebSphere MQ**, and then click **WebSphere MQ Explorer**.</span></span>  
   
-2.  <span data-ttu-id="18d5f-133">按兩下**佇列管理員**，然後按兩下預設佇列管理員。</span><span class="sxs-lookup"><span data-stu-id="18d5f-133">Double-click **Queue Managers**, and then double-click the default queue manager.</span></span> <span data-ttu-id="18d5f-134">預設佇列管理員通常會命名為**Qm_< < machine_name >**其中*machine_name*是您的電腦名稱。</span><span class="sxs-lookup"><span data-stu-id="18d5f-134">The default queue manager is typically named **QM_<machine_name>** where *machine_name* is the name of your computer.</span></span>  
+2.  <span data-ttu-id="18d5f-133">按兩下**佇列管理員**，然後按兩下預設佇列管理員。</span><span class="sxs-lookup"><span data-stu-id="18d5f-133">Double-click **Queue Managers**, and then double-click the default queue manager.</span></span> <span data-ttu-id="18d5f-134">預設佇列管理員通常會命名為**Qm_< < machine_name >** 其中*machine_name*是您的電腦名稱。</span><span class="sxs-lookup"><span data-stu-id="18d5f-134">The default queue manager is typically named **QM_<machine_name>** where *machine_name* is the name of your computer.</span></span>  
   
 3.  <span data-ttu-id="18d5f-135">以滑鼠右鍵按一下**佇列**，指向 **新增**，然後按一下 **本機佇列**。</span><span class="sxs-lookup"><span data-stu-id="18d5f-135">Right-click **Queues**, point to **New**, and then click **Local Queue**.</span></span>  
   
@@ -165,7 +166,7 @@ ms.lasthandoff: 11/28/2017
   
 5.  <span data-ttu-id="18d5f-193">在**主機**方塊中，選取**BizTalkServerApplication**，按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="18d5f-193">In the **Host** box, select **BizTalkServerApplication**, and click **OK**.</span></span>  
   
-6.  <span data-ttu-id="18d5f-194">在**傳送埠**，以滑鼠右鍵按一下**[mqscorrelationsetorchestration.filesendport]**，然後選取**啟動**。</span><span class="sxs-lookup"><span data-stu-id="18d5f-194">In **Send Ports**, right-click **MQSCorrelationSetOrchestration.FileSendPort**, and then select **Start**.</span></span>  
+6.  <span data-ttu-id="18d5f-194">在**傳送埠**，以滑鼠右鍵按一下 **[mqscorrelationsetorchestration.filesendport]**，然後選取**啟動**。</span><span class="sxs-lookup"><span data-stu-id="18d5f-194">In **Send Ports**, right-click **MQSCorrelationSetOrchestration.FileSendPort**, and then select **Start**.</span></span>  
   
 7.  <span data-ttu-id="18d5f-195">在**接收位置**，以滑鼠右鍵按一下**mqscorrelationsetorchestration.filereceiveport** ，然後選取 **啟用**。</span><span class="sxs-lookup"><span data-stu-id="18d5f-195">In **Receive Locations**, right-click **MQSCorrelationSetOrchestration.FileReceivePort** and then select **Enable**.</span></span>  
   

@@ -1,14 +1,14 @@
 ---
-title: "訊息中的使用者程式碼的參考 |Microsoft 文件"
-ms.custom: 
+title: 訊息中的使用者程式碼的參考 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5a1584be-35fd-4dc2-a5a9-559300e67e0e
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263246"
 ---
 # <a name="message-references-in-user-code"></a><span data-ttu-id="21a60-102">使用者程式碼中的訊息參考</span><span class="sxs-lookup"><span data-stu-id="21a60-102">Message References in User Code</span></span>
 <span data-ttu-id="21a60-103">在建構訊息時，訊息的某一表示法會儲存在 MessageBox 資料庫，另一個表示法則會儲存在電腦的記憶體。</span><span class="sxs-lookup"><span data-stu-id="21a60-103">When a message is constructed, a representation of the message is in the MessageBox database and another representation is in memory on the computer.</span></span> <span data-ttu-id="21a60-104">如果您將訊息參考傳送至 .NET 物件或外部組件進行訊息指派，接著此 .NET 物件或外部組件修改電腦記憶體中的表示法，則 BizTalk 協調流程引擎不會知道此修改。</span><span class="sxs-lookup"><span data-stu-id="21a60-104">If you make the message assignment by passing a message reference to a .NET object or to an external assembly, and then the .NET object or the external assembly modifies the representation in memory on the computer, the BizTalk Orchestration Engine is not aware of the modification.</span></span>  

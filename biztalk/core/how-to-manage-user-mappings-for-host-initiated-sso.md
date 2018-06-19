@@ -1,17 +1,17 @@
 ---
-title: "如何管理使用者對應的主控件初始化的 SSO |Microsoft 文件"
-ms.custom: 
+title: 如何管理使用者對應的主控件初始化的 SSO |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - maps, host initiated SSO
 - host initiated SSO, user maps
 ms.assetid: 6b05249e-da35-475b-9c23-5eb556013d57
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,13 +20,14 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972380"
 ---
 # <a name="how-to-manage-user-mappings-for-host-initiated-sso"></a><span data-ttu-id="2ee5b-102">如何管理使用者對應的主控件初始化的 SSO</span><span class="sxs-lookup"><span data-stu-id="2ee5b-102">How to Manage User Mappings for Host Initiated SSO</span></span>
 <span data-ttu-id="2ee5b-103">使用下列程序，以建立對應、設定認證以及啟用或停用對應。</span><span class="sxs-lookup"><span data-stu-id="2ee5b-103">Use the following procedures to create mappings, set credentials, and enable or disable mapping.</span></span>  
   
 ### <a name="to-manage-user-mappings-for-host-initiated-sso-using-the-mmc-snap-in"></a><span data-ttu-id="2ee5b-104">若要使用 MMC 嵌入式管理單元為主控件初始化的 SSO 管理使用者對應</span><span class="sxs-lookup"><span data-stu-id="2ee5b-104">To manage user mappings for host initiated SSO using the MMC Snap-In</span></span>  
   
-1.  <span data-ttu-id="2ee5b-105">在 **[開始]** 功能表上，依序按一下 **[所有程式]**及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。</span><span class="sxs-lookup"><span data-stu-id="2ee5b-105">On the **Start** menu, click **All Programs**, click **Microsoft Enterprise Single Sign-On**, and then click **SSO Administration**.</span></span>  
+1.  <span data-ttu-id="2ee5b-105">在 **[開始]** 功能表上，依序按一下 **[所有程式]** 及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。</span><span class="sxs-lookup"><span data-stu-id="2ee5b-105">On the **Start** menu, click **All Programs**, click **Microsoft Enterprise Single Sign-On**, and then click **SSO Administration**.</span></span>  
   
 2.  <span data-ttu-id="2ee5b-106">在 ENTSSO MMC 嵌入式管理單元的範圍窗格中，展開 **[企業單一登入]** 節點。</span><span class="sxs-lookup"><span data-stu-id="2ee5b-106">In the scope pane of the ENTSSO MMC Snap-In, expand the **Enterprise Single Sign-On** node.</span></span>  
   
@@ -42,7 +43,7 @@ ms.lasthandoff: 11/28/2017
   
 3.  <span data-ttu-id="2ee5b-112">在命令列，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="2ee5b-112">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="2ee5b-113">預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="2ee5b-113">The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-4.  <span data-ttu-id="2ee5b-114">型別**ssomanage – createmappings\<對應檔\>**，其中**對應檔 >**是 xml 檔案的名稱。</span><span class="sxs-lookup"><span data-stu-id="2ee5b-114">Type **ssomanage –createmappings \<mapping file\>**, where **mapping file>** is the name of the xml file.</span></span>  
+4.  <span data-ttu-id="2ee5b-114">型別**ssomanage – createmappings\<對應檔\>**，其中**對應檔 >** 是 xml 檔案的名稱。</span><span class="sxs-lookup"><span data-stu-id="2ee5b-114">Type **ssomanage –createmappings \<mapping file\>**, where **mapping file>** is the name of the xml file.</span></span>  
   
     > [!NOTE]
     >  <span data-ttu-id="2ee5b-115">在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。</span><span class="sxs-lookup"><span data-stu-id="2ee5b-115">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  
