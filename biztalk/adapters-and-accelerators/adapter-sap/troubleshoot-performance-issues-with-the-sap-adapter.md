@@ -1,17 +1,17 @@
 ---
-title: "疑難排解 SAP 配接器的效能問題 |Microsoft 文件"
-ms.custom: 
+title: 疑難排解 SAP 配接器的效能問題 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - troubleshooting, performance
 - performance, troubleshooting
 ms.assetid: 7e8e9fec-0edf-4c67-837c-0e271b2ffe68
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217118"
 ---
 # <a name="troubleshoot-performance-issues-with-the-sap-adapter"></a><span data-ttu-id="35f1d-102">疑難排解 SAP 配接器的效能問題</span><span class="sxs-lookup"><span data-stu-id="35f1d-102">Troubleshoot Performance Issues with the SAP adapter</span></span>
 <span data-ttu-id="35f1d-103">本章節將討論使用來解決使用時，可能會遇到效能問題的疑難排解技巧[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="35f1d-103">This section discusses using troubleshooting techniques to resolve performance issues that you might encounter when using [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)].</span></span>  

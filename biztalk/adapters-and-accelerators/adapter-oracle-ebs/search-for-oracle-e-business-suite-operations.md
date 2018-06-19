@@ -1,14 +1,14 @@
 ---
-title: "搜尋 Oracle E-business Suite 作業 |Microsoft 文件"
-ms.custom: 
+title: 搜尋 Oracle E-business Suite 作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2970ddd4-a534-4da4-9bd5-28bb9da4deca
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217814"
 ---
 # <a name="search-for-oracle-e-business-suite-operations"></a><span data-ttu-id="0bf3c-102">搜尋 Oracle E-business Suite 作業</span><span class="sxs-lookup"><span data-stu-id="0bf3c-102">Search for Oracle E-Business Suite operations</span></span>
 <span data-ttu-id="0bf3c-103">您可以使用[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]或[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]搜尋 Oracle E-business Suite 中的特定成品。</span><span class="sxs-lookup"><span data-stu-id="0bf3c-103">You can use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] or the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] to search for specific artifacts in the Oracle E-Business Suite.</span></span> <span data-ttu-id="0bf3c-104">本主題提供有關如何針對不同的檢視，以及支援搜尋的資訊可以使用萬用字元搜尋 Oracle 成品。</span><span class="sxs-lookup"><span data-stu-id="0bf3c-104">This topic provides information on how the search is supported for different views and what wildcard characters can be used for searching Oracle artifacts.</span></span> <span data-ttu-id="0bf3c-105">本主題也提供如何使用搜尋資訊[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]或[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="0bf3c-105">This topic also provides information on how to search using the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] or [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)].</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "建立 QRY^Q01.txt 檔案 |Microsoft 文件"
-ms.custom: 
+title: 建立 QRY^Q01.txt 檔案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5ac96587-264f-4743-a90b-4763d330e320
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25960164"
 ---
 # <a name="create-the-qryq01txt-file"></a><span data-ttu-id="3248d-102">建立 QRY^Q01.txt 檔案</span><span class="sxs-lookup"><span data-stu-id="3248d-102">Create the QRY^Q01.txt File</span></span>
 <span data-ttu-id="3248d-103">您可以使用下列程序來建立病患查詢 QRY^Q01.txt 訊息檔案。</span><span class="sxs-lookup"><span data-stu-id="3248d-103">Use the following procedure to create the patient query QRY^Q01.txt message file.</span></span> <span data-ttu-id="3248d-104">將這個檔案稍後可確認教學課程案例。</span><span class="sxs-lookup"><span data-stu-id="3248d-104">You will use this file later to verify the tutorial scenario.</span></span>  

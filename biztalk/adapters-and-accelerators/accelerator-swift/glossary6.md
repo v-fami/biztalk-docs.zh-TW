@@ -1,15 +1,15 @@
 ---
-title: "SWIFT 加速器，BizTalk Server 中的詞彙 |Microsoft 文件"
-description: "一般詞彙和定義必須知道並了解如何使用 BizTalk Accelerator for SWIFT"
-ms.custom: 
+title: SWIFT 加速器，BizTalk Server 中的詞彙 |Microsoft 文件
+description: 一般詞彙和定義必須知道並了解如何使用 BizTalk Accelerator for SWIFT
+ms.custom: ''
 ms.date: 08/16/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a7331beb-f6a7-4eea-8b31-28f5d15666d0
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210334"
 ---
 # <a name="glossary"></a><span data-ttu-id="08ec8-103">詞彙</span><span class="sxs-lookup"><span data-stu-id="08ec8-103">Glossary</span></span>
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="08ec8-104">BizTalk Accelerator for SWIFT 使用下列字彙術語和定義。</span><span class="sxs-lookup"><span data-stu-id="08ec8-104"> BizTalk Accelerator for SWIFT uses the following glossary terms and definitions.</span></span>  

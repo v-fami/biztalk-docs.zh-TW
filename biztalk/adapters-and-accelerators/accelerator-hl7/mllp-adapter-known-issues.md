@@ -1,17 +1,17 @@
 ---
-title: "MLLP 配接器的已知問題 |Microsoft 文件"
-ms.custom: 
+title: MLLP 配接器的已知問題 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - MLLP adapters, known issues
 - known issues, MLLP adapters
 ms.assetid: 66af8fcc-981a-4a77-80b7-84824bfae608
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206054"
 ---
 # <a name="mllp-adapter-known-issues"></a><span data-ttu-id="2a2df-102">MLLP 配接器的已知問題</span><span class="sxs-lookup"><span data-stu-id="2a2df-102">MLLP Adapter Known Issues</span></span>
 <span data-ttu-id="2a2df-103">本節包含可協助您避免最少的較低層通訊協定 (MLLP) 配接器錯誤的有用資訊。</span><span class="sxs-lookup"><span data-stu-id="2a2df-103">This section contains useful information that may help you avoid Minimal Lower Layer Protocol (MLLP) adapter errors.</span></span>  

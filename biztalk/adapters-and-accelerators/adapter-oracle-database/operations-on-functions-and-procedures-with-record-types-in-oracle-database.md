@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214406"
 ---
 # <a name="operations-on-functions-and-procedures-with-record-types-in-oracle-database"></a><span data-ttu-id="f8911-102">函數和程序與 Oracle 資料庫中的記錄類型的作業</span><span class="sxs-lookup"><span data-stu-id="f8911-102">Operations on Functions and Procedures with RECORD Types in Oracle Database</span></span>
 <span data-ttu-id="f8911-103">Oracle 記錄類型可用來代表階層式參數傳遞至 PL/SQL 函數和程序中的資訊。</span><span class="sxs-lookup"><span data-stu-id="f8911-103">Oracle RECORD types are used to represent hierarchical information in parameters passed to PL/SQL functions and procedures.</span></span> <span data-ttu-id="f8911-104">[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]呈現記錄類型為複雜的 XML 型別。</span><span class="sxs-lookup"><span data-stu-id="f8911-104">The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] surfaces RECORD types as complex XML types.</span></span> <span data-ttu-id="f8911-105">[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]支援下列幾種記錄類型：</span><span class="sxs-lookup"><span data-stu-id="f8911-105">The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] supports the following kinds of RECORD types:</span></span>  

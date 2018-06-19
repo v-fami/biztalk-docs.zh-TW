@@ -1,14 +1,14 @@
 ---
-title: "設定 X12 特有協議屬性 |Microsoft 文件"
-ms.custom: 
+title: 設定 X12 特有協議屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: be712d12-43e0-4191-8bce-a2ac87789701
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232838"
 ---
 # <a name="configuring-x12-specific-agreement-properties"></a><span data-ttu-id="47b58-102">設定 X12 特有協議屬性</span><span class="sxs-lookup"><span data-stu-id="47b58-102">Configuring X12-Specific Agreement Properties</span></span>
 <span data-ttu-id="47b58-103">本章節描述專屬於 X12 協議屬性頁的編碼方式。</span><span class="sxs-lookup"><span data-stu-id="47b58-103">This section describes agreement property pages that are specific to X12 encoding.</span></span> <span data-ttu-id="47b58-104">將會有兩個商務設定檔之間的協議的 X12 交換相關的設定和交易集相關的設定。</span><span class="sxs-lookup"><span data-stu-id="47b58-104">An X12 agreement between two business profiles will have the interchange related settings and transaction set related settings.</span></span> <span data-ttu-id="47b58-105">本節提供在這兩個設定提供值的資訊。</span><span class="sxs-lookup"><span data-stu-id="47b58-105">This section provides information on providing values for both the settings.</span></span>  

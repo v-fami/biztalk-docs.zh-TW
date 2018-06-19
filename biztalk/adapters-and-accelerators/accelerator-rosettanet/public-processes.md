@@ -1,11 +1,11 @@
 ---
-title: "公開程序 |Microsoft 文件"
-ms.custom: 
+title: 公開程序 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - public processes, orchestrations
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - trading partners, public processes
 - public processes, about public processes
 ms.assetid: 5ccc7449-5741-4d49-beb6-567bcd93f679
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210022"
 ---
 # <a name="public-processes"></a><span data-ttu-id="8dcfe-102">公開程序</span><span class="sxs-lookup"><span data-stu-id="8dcfe-102">Public Processes</span></span>
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="8dcfe-103">[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]實作與交易夥伴的公開程序整合有關的商務程序。</span><span class="sxs-lookup"><span data-stu-id="8dcfe-103"> [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] implements business processes that involve integration with trading partners as public processes.</span></span> <span data-ttu-id="8dcfe-104">並將組織內部的商務程序實作為私用程序。</span><span class="sxs-lookup"><span data-stu-id="8dcfe-104">It implements business processes that are internal to an organization as private processes.</span></span> <span data-ttu-id="8dcfe-105">使用公開程序和私用程序，會將 RosettaNet 實作架構 (RNIF) 處理 (在公開程序中) 從服務內容處理及後端整合 (在私用程序中) 隔離出來。</span><span class="sxs-lookup"><span data-stu-id="8dcfe-105">Using public and private processes isolates RosettaNet Implementation Framework (RNIF) handling (in the public process) from the service content processing and back-end integration (in the private process).</span></span>  

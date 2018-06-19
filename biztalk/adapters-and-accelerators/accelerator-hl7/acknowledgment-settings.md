@@ -1,18 +1,18 @@
 ---
-title: "通知設定 |Microsoft 文件"
-ms.custom: 
+title: 通知設定 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - acknowledgements, configuring
 - acknowledgements, acknowledgement types
 - configuring, acknowledgements
 ms.assetid: 99ab8caa-8788-4438-96db-8001a6523cc8
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204358"
 ---
 # <a name="acknowledgment-settings"></a><span data-ttu-id="d245c-102">通知設定</span><span class="sxs-lookup"><span data-stu-id="d245c-102">Acknowledgment Settings</span></span>
 <span data-ttu-id="d245c-103">您使用**通知** 索引標籤[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]Configuration 總管 (在高階**合作對象** 索引標籤) 來設定通知 (ACK) 設定。</span><span class="sxs-lookup"><span data-stu-id="d245c-103">You use the **Acknowledgment** tab of [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] Configuration Explorer (under the high-level **Parties** tab) to configure acknowledgment (ACK) settings.</span></span>  

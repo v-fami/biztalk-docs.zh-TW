@@ -1,11 +1,11 @@
 ---
-title: "如何修改群組屬性 |Microsoft 文件"
-ms.custom: 
+title: 如何修改群組屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - modifying, groups
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - managing [groups], modifying
 - groups, properties
 ms.assetid: 59e0853d-81b0-43f9-85bf-099868e25fad
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254862"
 ---
 # <a name="how-to-modify-group-properties"></a><span data-ttu-id="fd035-102">如何修改群組屬性</span><span class="sxs-lookup"><span data-stu-id="fd035-102">How to Modify Group Properties</span></span>
 <span data-ttu-id="fd035-103">您可以使用這個程序來設定 BizTalk Server 群組的全域屬性，以便選取簽章憑證、修改快取重新整理間隔，並决定 BizTalk Server 將如何處理大型訊息。</span><span class="sxs-lookup"><span data-stu-id="fd035-103">You can use this procedure to configure global properties for your BizTalk Server group so that you can select a signing certificate, modify the cache refresh interval, and determine how BizTalk Server will handle large messages.</span></span> <span data-ttu-id="fd035-104">如需 BizTalk Server 群組屬性的詳細資訊，請參閱[BizTalk 群組](../core/biztalk-groups.md)。</span><span class="sxs-lookup"><span data-stu-id="fd035-104">For more information about BizTalk Server group properties, see [BizTalk Groups](../core/biztalk-groups.md).</span></span>  

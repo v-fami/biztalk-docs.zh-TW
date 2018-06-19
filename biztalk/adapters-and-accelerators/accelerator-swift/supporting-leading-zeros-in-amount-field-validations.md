@@ -1,18 +1,18 @@
 ---
-title: "支援前置 0 量欄位驗證 |Microsoft 文件"
-ms.custom: 
+title: 支援前置 0 量欄位驗證 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - amounts, amount fields
 - amounts, leading zeros
 - validating, amount fields
 ms.assetid: 7c202422-019f-43da-9c2a-4b9fdf0b2859
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961364"
 ---
 # <a name="supporting-leading-zeros-in-amount-field-validations"></a><span data-ttu-id="d0218-102">支援前置 0 量欄位驗證</span><span class="sxs-lookup"><span data-stu-id="d0218-102">Supporting Leading Zeros in Amount Field Validations</span></span>
 <span data-ttu-id="d0218-103">某些訊息類型的驗證原則數量欄位上執行驗證。</span><span class="sxs-lookup"><span data-stu-id="d0218-103">The validation policies of some message types perform validations on Amount fields.</span></span> <span data-ttu-id="d0218-104">若要啟用數量 欄位中的前置零，您必須編輯訊息類型的驗證原則。</span><span class="sxs-lookup"><span data-stu-id="d0218-104">To enable leading zeros in Amount fields, you must edit the validation policy for the message type.</span></span> <span data-ttu-id="d0218-105">您可以建立新版本的預設的驗證原則，並編輯 [商務規則編輯器] 中的引數，或在部署原則之前，您可以編輯預設原則，以手動方式在文字編輯器。</span><span class="sxs-lookup"><span data-stu-id="d0218-105">You can create a new version of the default validation policy, and edit the argument in the Business Rule Composer, or you can edit the default policy manually in a text editor before the policy is deployed.</span></span>  

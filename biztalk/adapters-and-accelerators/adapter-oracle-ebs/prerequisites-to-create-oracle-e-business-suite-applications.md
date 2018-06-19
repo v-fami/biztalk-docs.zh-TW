@@ -1,14 +1,14 @@
 ---
-title: "若要建立 Oracle E-business Suite 應用程式的必要條件 |Microsoft 文件"
-ms.custom: 
+title: 若要建立 Oracle E-business Suite 應用程式的必要條件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b02ea286-f301-46b3-b748-d954dead23a1
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216758"
 ---
 # <a name="prerequisites-to-create-oracle-e-business-suite-applications"></a><span data-ttu-id="bbe51-102">若要建立 Oracle E-business Suite 應用程式的必要條件</span><span class="sxs-lookup"><span data-stu-id="bbe51-102">Prerequisites to create Oracle E-Business Suite applications</span></span>
 <span data-ttu-id="bbe51-103">本節提供有關開發 BizTalk 應用程式使用之前必須執行的作業資訊[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="bbe51-103">This section provides information about what you must do before developing BizTalk applications using the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].</span></span> <span data-ttu-id="bbe51-104">本節也將您導向至[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]工具，可用來開發 BizTalk 應用程式。</span><span class="sxs-lookup"><span data-stu-id="bbe51-104">This section also points you to the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] tools that are used to develop BizTalk applications.</span></span>  

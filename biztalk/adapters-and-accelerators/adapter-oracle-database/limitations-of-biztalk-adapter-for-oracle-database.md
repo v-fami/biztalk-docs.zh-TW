@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214398"
 ---
 # <a name="limitations-of-biztalk-adapter-for-oracle-database"></a><span data-ttu-id="6509e-102">Oracle Database 的 BizTalk 配接器的限制</span><span class="sxs-lookup"><span data-stu-id="6509e-102">Limitations of BizTalk Adapter for Oracle Database</span></span>
 ## <a name="general"></a><span data-ttu-id="6509e-103">一般</span><span class="sxs-lookup"><span data-stu-id="6509e-103">General</span></span>  

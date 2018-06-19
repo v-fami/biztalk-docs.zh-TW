@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217374"
 ---
 # <a name="message-versioning-support"></a><span data-ttu-id="49954-102">訊息版本控制支援</span><span class="sxs-lookup"><span data-stu-id="49954-102">Message Versioning Support</span></span>
 <span data-ttu-id="49954-103">[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]訊息動作、 命名空間和節點識別碼中包含的版本字串元件的支援版本控制作業中顯示。</span><span class="sxs-lookup"><span data-stu-id="49954-103">The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] supports versioning by including a version string component in the message actions, namespaces, and node IDs surfaced for operations.</span></span> <span data-ttu-id="49954-104">目前的版本是 http://Microsoft.LobServices.Sap/2007/03。</span><span class="sxs-lookup"><span data-stu-id="49954-104">The current version is http://Microsoft.LobServices.Sap/2007/03.</span></span> <span data-ttu-id="49954-105">這表示名為"RFC_SAMPLE"rfc，配接器所顯示的 RFC 作業具有下列：</span><span class="sxs-lookup"><span data-stu-id="49954-105">This means that for an RFC named "RFC_SAMPLE", the RFC operation surfaced by the adapter has the following:</span></span>  

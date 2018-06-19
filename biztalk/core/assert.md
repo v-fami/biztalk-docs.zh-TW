@@ -1,11 +1,11 @@
 ---
-title: "判斷提示 |Microsoft 文件"
-ms.custom: 
+title: 判斷提示 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Assert function [Business Rules Engine], .NET objects
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - Assert function [Business Rules Engine], DataConnection
 - .NET objects
 ms.assetid: e9989214-3c10-4691-9c38-f6fe64e511ed
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234046"
 ---
 # <a name="assert"></a><span data-ttu-id="475ec-102">判斷提示</span><span class="sxs-lookup"><span data-stu-id="475ec-102">Assert</span></span>
 <span data-ttu-id="475ec-103">*判斷提示*會新增至商務規則引擎工作記憶體的物件執行個體的程序。</span><span class="sxs-lookup"><span data-stu-id="475ec-103">*Assertion* is the process of adding object instances into the Business Rule engine's working memory.</span></span> <span data-ttu-id="475ec-104">引擎會根據針對執行個體類型所寫入的條件與動作，使用相符-衝突解析-動作階段來處理每個執行個體。</span><span class="sxs-lookup"><span data-stu-id="475ec-104">The engine processes each instance according to the conditions and actions that are written against the type of the instance, using the match-conflict resolution-action phases.</span></span>  

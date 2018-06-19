@@ -1,17 +1,17 @@
 ---
-title: "如何檢視協調流程的執行個體資訊 |Microsoft 文件"
-ms.custom: 
+title: 如何檢視協調流程的執行個體資訊 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, viewing
 - managing [orchestrations], viewing
 ms.assetid: 860ac2b2-c556-4e1f-8b7f-18ab8be52db4
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256526"
 ---
 # <a name="how-to-view-instance-information-for-an-orchestration"></a><span data-ttu-id="d420b-102">如何檢視協調流程的執行個體資訊</span><span class="sxs-lookup"><span data-stu-id="d420b-102">How to View Instance Information for an Orchestration</span></span>
 <span data-ttu-id="d420b-103">本主題描述如何使用 BizTalk Server 管理主控台來檢視協調流程的執行個體資訊。</span><span class="sxs-lookup"><span data-stu-id="d420b-103">This topic describes how to view instance information for an orchestration by using the BizTalk Server Administration console.</span></span> <span data-ttu-id="d420b-104">服務執行個體是 BizTalk Server 正在處理或已經序列化至 MessageBox 做進一步處理或追蹤的協調流程執行個體。</span><span class="sxs-lookup"><span data-stu-id="d420b-104">A service instance is an instance of an orchestration that BizTalk Server is either processing or has serialized into the MessageBox for further processing or tracking.</span></span>  

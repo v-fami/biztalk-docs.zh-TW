@@ -1,18 +1,18 @@
 ---
-title: "ACK 訊息結構描述類型 |Microsoft 文件"
-ms.custom: 
+title: ACK 訊息結構描述類型 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - schemas, ACK schemas
 - acknowledgements, ACK schema types
 - ACK messages
 ms.assetid: da6981a0-a70a-481e-8db4-4a6851f205f1
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25960956"
 ---
 # <a name="ack-message-schema-types"></a><span data-ttu-id="bf185-102">ACK 訊息結構描述類型</span><span class="sxs-lookup"><span data-stu-id="bf185-102">ACK Message Schema Types</span></span>
 <span data-ttu-id="bf185-103">通知訊息結構描述有兩種形式：</span><span class="sxs-lookup"><span data-stu-id="bf185-103">Acknowledgment message schemas come in two forms:</span></span>  

@@ -15,6 +15,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22210838"
 ---
 # <a name="troubleshoot-the-installation-and-see-the-known-install-issues"></a><span data-ttu-id="94ad0-103">安裝的疑難排解，並查看已知的安裝問題</span><span class="sxs-lookup"><span data-stu-id="94ad0-103">Troubleshoot the installation and see the known install issues</span></span>
 

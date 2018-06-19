@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241158"
 ---
 # <a name="error---property-schema-field-data-type-not-valid"></a><span data-ttu-id="7c505-102">錯誤-無效的屬性結構描述欄位資料型別</span><span class="sxs-lookup"><span data-stu-id="7c505-102">Error - Property Schema Field Data Type Not Valid</span></span>
 <span data-ttu-id="7c505-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="7c505-103">**Error Code**</span></span>  

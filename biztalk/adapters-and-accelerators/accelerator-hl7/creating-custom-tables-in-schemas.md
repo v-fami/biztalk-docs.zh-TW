@@ -1,18 +1,18 @@
 ---
-title: "建立自訂的資料表結構描述中 |Microsoft 文件"
-ms.custom: 
+title: 建立自訂的資料表結構描述中 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, Z tables [Z objects]
 - Z objects, creating Z tables
 - 2.X schemas, creating Z tables
 ms.assetid: d6ab8ac9-a835-4ec0-9ddd-76ff267a3cbd
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25960340"
 ---
 # <a name="creating-custom-tables-in-schemas"></a><span data-ttu-id="13979-102">在結構描述中建立自訂的資料表</span><span class="sxs-lookup"><span data-stu-id="13979-102">Creating Custom Tables in Schemas</span></span>
 <span data-ttu-id="13979-103">您可以建立自訂的資料表中 tablevalues_\<*版本*\>.xsd 通用的結構描述。</span><span class="sxs-lookup"><span data-stu-id="13979-103">You can create a custom table in the tablevalues_\<*version*\>.xsd common schema.</span></span> <span data-ttu-id="13979-104">您可以根據自訂資料表或資料表中定義的列舉型別上現有的資料類型，基底資料型別。</span><span class="sxs-lookup"><span data-stu-id="13979-104">You can base a custom table on an existing data type, a base data type, or on an enumeration defined in a table.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "使用 MMC 匯入憑證 |Microsoft 文件"
-ms.custom: 
+title: 使用 MMC 匯入憑證 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - certificates, public keys
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - private keys
 - certificates, importing
 ms.assetid: 58fb1711-e295-4aa6-902e-e28e4a2cd921
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961620"
 ---
 # <a name="importing-certificates-using-mmc"></a><span data-ttu-id="3595b-102">使用 MMC 匯入憑證</span><span class="sxs-lookup"><span data-stu-id="3595b-102">Importing Certificates Using MMC</span></span>
 <span data-ttu-id="3595b-103">本主題描述如何匯入的數位憑證[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]用以驗證交易夥伴、 解密內送訊息，或是加密或簽署外寄訊息。</span><span class="sxs-lookup"><span data-stu-id="3595b-103">This topic describes how to import a digital certificate that [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] uses to authenticate a trading partner, decrypt an incoming message, or encrypt or sign an outgoing message.</span></span>  

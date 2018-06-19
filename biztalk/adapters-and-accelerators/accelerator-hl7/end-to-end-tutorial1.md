@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204814"
 ---
 # <a name="end-to-end-tutorial"></a><span data-ttu-id="70469-102">端對端教學課程</span><span class="sxs-lookup"><span data-stu-id="70469-102">End-to-End Tutorial</span></span>
 <span data-ttu-id="70469-103">本教學課程包含詳細的步驟，說明如何使用[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]輔助商務程序在 「 訂閱者 」 和 「 發行者 」 的案例。</span><span class="sxs-lookup"><span data-stu-id="70469-103">This tutorial contains detailed steps that describe how you use [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] to facilitate business processes in a subscriber and publisher scenario.</span></span>  

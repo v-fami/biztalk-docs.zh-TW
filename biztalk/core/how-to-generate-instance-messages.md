@@ -1,14 +1,14 @@
 ---
-title: "如何產生執行個體訊息 |Microsoft 文件"
-ms.custom: 
+title: 如何產生執行個體訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ff74c67a-7e73-4153-9ec4-e6e50464ee92
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254398"
 ---
 # <a name="how-to-generate-instance-messages"></a><span data-ttu-id="08c2b-102">如何產生執行個體訊息</span><span class="sxs-lookup"><span data-stu-id="08c2b-102">How to Generate Instance Messages</span></span>
 <span data-ttu-id="08c2b-103">在您已經建構結構描述之後，可以利用從結構描述產生範例執行個體訊息的方法來檢查您的工作。</span><span class="sxs-lookup"><span data-stu-id="08c2b-103">After you have constructed a schema, one way to check your work is to generate a sample instance message from the schema.</span></span> <span data-ttu-id="08c2b-104">在許多方面，查看執行個體訊息會比查看結構描述樹狀結構，或是結構描述的 XML 結構描述定義 (XSD) 語言表示法更為直接。</span><span class="sxs-lookup"><span data-stu-id="08c2b-104">In many ways, looking at an instance message is much more straightforward than looking at either the schema tree or the XML Schema definition (XSD) language representation of the schema.</span></span> <span data-ttu-id="08c2b-105">這是因為結構描述需要描述對應的執行個體訊息的所有可能變化，而且特定的執行個體訊息只需要使用結構描述指定的格式即可傳遞某些資料。</span><span class="sxs-lookup"><span data-stu-id="08c2b-105">This is because the schema needs to describe all of the possible variations of the corresponding instance messages, and a specific instance message just needs to convey some data by using the format specified by the schema.</span></span> <span data-ttu-id="08c2b-106">產生的執行個體訊息只是範例，可能無法顯示由對應的結構描述定義的所有結構。</span><span class="sxs-lookup"><span data-stu-id="08c2b-106">The generated instance message is a sample and may not show all of the structures defined by the corresponding schema.</span></span>  

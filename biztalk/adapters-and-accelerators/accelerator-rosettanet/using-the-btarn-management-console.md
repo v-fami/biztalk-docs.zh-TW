@@ -1,11 +1,11 @@
 ---
-title: "使用 BTARN 管理主控台 |Microsoft 文件"
-ms.custom: 
+title: 使用 BTARN 管理主控台 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - agreements, activating
@@ -36,7 +36,7 @@ helpviewer_keywords:
 - BTARN Management Console, about BTARN Management Console
 - home organizations
 ms.assetid: 000ee93d-eb1d-4ff8-a9cf-0547beff027d
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -45,6 +45,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209718"
 ---
 # <a name="using-the-btarn-management-console"></a><span data-ttu-id="61a4f-102">使用 BTARN 管理主控台</span><span class="sxs-lookup"><span data-stu-id="61a4f-102">Using the BTARN Management Console</span></span>
 <span data-ttu-id="61a4f-103">本主題描述如何從 [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 管理主控台管理 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="61a4f-103">This topic describes how to administer [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] from the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] Management Console.</span></span>  

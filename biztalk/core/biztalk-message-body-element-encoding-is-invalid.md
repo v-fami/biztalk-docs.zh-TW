@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b407e5c3-4655-4b2f-8ecc-30eb080ec47c
-caps.latest.revision: ''
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "25964812"
 ---
 # <a name="biztalk-message-body-element-encoding-is-invalid"></a><span data-ttu-id="ae06d-102">BizTalk 訊息內文項目編碼不正確</span><span class="sxs-lookup"><span data-stu-id="ae06d-102">BizTalk message body element encoding is invalid</span></span>
 ## <a name="details"></a><span data-ttu-id="ae06d-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="ae06d-103">Details</span></span>  

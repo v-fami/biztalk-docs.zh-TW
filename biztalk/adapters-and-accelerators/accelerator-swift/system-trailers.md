@@ -1,17 +1,17 @@
 ---
-title: "系統結尾 |Microsoft 文件"
-ms.custom: 
+title: 系統結尾 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - trailers [SWIFT]
 - SWIFT, trailers
 ms.assetid: 2fd49be9-afe8-47c6-a613-fa469faa2126
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214078"
 ---
 # <a name="system-trailers"></a><span data-ttu-id="f1125-102">系統結尾</span><span class="sxs-lookup"><span data-stu-id="f1125-102">System Trailers</span></span>
 <span data-ttu-id="f1125-103">系統結尾會傳達額外或特殊 SWIFT 訊息有關的詳細資料。</span><span class="sxs-lookup"><span data-stu-id="f1125-103">System trailers convey additional or special details about the SWIFT message.</span></span> <span data-ttu-id="f1125-104">若有任何第三個系統結尾沒有，請依下列順序發生。</span><span class="sxs-lookup"><span data-stu-id="f1125-104">If any of the first three system trailers are present, they occur in the following order.</span></span> <span data-ttu-id="f1125-105">剩餘的系統結尾可以任何順序出現。</span><span class="sxs-lookup"><span data-stu-id="f1125-105">The remaining system trailers can occur in any order.</span></span>  

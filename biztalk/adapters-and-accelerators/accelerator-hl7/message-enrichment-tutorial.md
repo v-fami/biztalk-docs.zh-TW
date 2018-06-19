@@ -1,11 +1,11 @@
 ---
-title: "訊息擴充教學課程 |Microsoft 文件"
-ms.custom: 
+title: 訊息擴充教學課程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - message enrichment tutorial
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - messages, tutorial
 - tutorials, message enrichment tutorial
 ms.assetid: 4ffb047f-457a-4a80-b7ec-4b61ae16f35f
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22205230"
 ---
 # <a name="message-enrichment-tutorial"></a><span data-ttu-id="4acd7-102">訊息擴充教學課程</span><span class="sxs-lookup"><span data-stu-id="4acd7-102">Message Enrichment Tutorial</span></span>
 <span data-ttu-id="4acd7-103">本教學課程提供逐步程序使用[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]來解決特定商務問題： 訊息豐富 」 問題。</span><span class="sxs-lookup"><span data-stu-id="4acd7-103">This tutorial provides step-by-step procedures for using [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] to solve a particular business problem: the message enrichment problem.</span></span> <span data-ttu-id="4acd7-104">「 訊息豐富 」 教學課程描述的情況下，您不必加入或擴充、 不是 HL7 相容及/或不完整的訊息。</span><span class="sxs-lookup"><span data-stu-id="4acd7-104">The message enrichment tutorial describes a situation in which you have to add to, or enrich, a message that is not HL7-compliant and/or is incomplete.</span></span> <span data-ttu-id="4acd7-105">這可能是與應用程式，例如病患註冊應用程式，或會填入來自 XML 資料的訊息時，它會發生[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="4acd7-105">This can occur with an application, such as a patient registration application, or it can occur when you are populating a message with XML data from [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)].</span></span>  

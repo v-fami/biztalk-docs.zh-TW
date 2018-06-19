@@ -1,18 +1,18 @@
 ---
-title: "延伸一般檔案解譯器管線元件 |Microsoft 文件"
-ms.custom: 
+title: 延伸一般檔案解譯器管線元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components, code sample
 - pipeline components [custom], flat file documents
 - pipeline components [custom], disassembling
 ms.assetid: 4bcc746a-696a-4e5c-be01-f8409fce21fa
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246230"
 ---
 # <a name="extending-the-flat-file-disassembler-pipeline-component"></a><span data-ttu-id="37c8c-102">延伸一般檔案解譯器管線元件</span><span class="sxs-lookup"><span data-stu-id="37c8c-102">Extending the Flat File Disassembler Pipeline Component</span></span>
 <span data-ttu-id="37c8c-103">下列範例說明如何建立自訂解譯器，以剖析使用 UTF-7 編碼的一般檔案文件。</span><span class="sxs-lookup"><span data-stu-id="37c8c-103">The following sample illustrates how to create a custom disassembler to parse flat file documents that are UTF-7 encoded.</span></span> <span data-ttu-id="37c8c-104">為了處理 utf-7 文件，該元件繼承自**FFDasmComp**類別，然後再覆寫其**GetDataReader**方法。</span><span class="sxs-lookup"><span data-stu-id="37c8c-104">To process UTF-7 documents, the component inherits from the **FFDasmComp** class and then overrides its **GetDataReader** method.</span></span>  

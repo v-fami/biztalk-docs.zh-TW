@@ -1,11 +1,11 @@
 ---
-title: "部署已發佈 Web 服務，在非 Visual Studio 電腦上的 |Microsoft 文件"
-ms.custom: 
+title: 部署已發佈 Web 服務，在非 Visual Studio 電腦上的 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Web services, publishing
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Web services, planning
 - Web services, deploying
 ms.assetid: e9f8e801-21f3-4458-b05c-206b72868916
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239030"
 ---
 # <a name="deploying-published-web-services-on-a-non-visual-studio-computer"></a><span data-ttu-id="43640-102">在非 Visual Studio 電腦上部署已發佈 Web 服務</span><span class="sxs-lookup"><span data-stu-id="43640-102">Deploying Published Web Services on a Non-Visual Studio Computer</span></span>
 <span data-ttu-id="43640-103">若要將已發佈的 Web 服務部署到沒有安裝 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 的電腦，您需要建立 Web 安裝專案、散發 Web 安裝套件 (.msi 檔案)、將套件安裝在非 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 電腦上，並設定所安裝的 Web 服務。</span><span class="sxs-lookup"><span data-stu-id="43640-103">To deploy your published Web service on a computer that does not have [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] installed, you need to create a Web setup project, distribute the Web setup package (.msi file), install the package on the non-[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] computer, and configure the installed Web service.</span></span>  

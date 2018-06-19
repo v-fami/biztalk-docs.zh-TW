@@ -1,14 +1,14 @@
 ---
-title: "如何判斷和設定活動事件寫入者角色 |Microsoft 文件"
-ms.custom: 
+title: 如何判斷和設定活動事件寫入者角色 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 73bfe8ff-167a-4bf0-ab87-3926290d52d8
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249862"
 ---
 # <a name="how-to-determine-and-set-event-writer-roles-for-activities"></a><span data-ttu-id="c4088-102">如何判斷和設定活動的事件寫入者角色</span><span class="sxs-lookup"><span data-stu-id="c4088-102">How to Determine and Set Event Writer Roles for Activities</span></span>
 <span data-ttu-id="c4088-103">在寫入活動的事件時，BAM 提供兩種安全性模式。</span><span class="sxs-lookup"><span data-stu-id="c4088-103">BAM provides two modes of security when writing events on activities.</span></span> <span data-ttu-id="c4088-104">您可以授與個別活動的寫入事件權限，或授與所有已部署活動的寫入事件權限。</span><span class="sxs-lookup"><span data-stu-id="c4088-104">You can grant permissions to write events on individual activities or you can grant permissions to write events on all deployed activities.</span></span>  

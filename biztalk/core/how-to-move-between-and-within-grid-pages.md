@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254318"
 ---
 # <a name="how-to-move-between-and-within-grid-pages"></a><span data-ttu-id="5fed2-102">如何在格線頁之間以及在格線頁中移動</span><span class="sxs-lookup"><span data-stu-id="5fed2-102">How to Move Between and Within Grid Pages</span></span>
 <span data-ttu-id="5fed2-103">若您的對應很複雜，您很可能無法同時在單一格線頁內看見所有的連結與運算質。</span><span class="sxs-lookup"><span data-stu-id="5fed2-103">If your map is complex, it is very likely that not all links and functoids are visible within a single grid page at the same time.</span></span> <span data-ttu-id="5fed2-104">這表示您必須能夠在格線頁內捲動。</span><span class="sxs-lookup"><span data-stu-id="5fed2-104">This means that you need to be able to scroll within a grid page.</span></span> <span data-ttu-id="5fed2-105">而且，若您的對應具有多個格線頁，則您必須能夠在格線頁之間移動。</span><span class="sxs-lookup"><span data-stu-id="5fed2-105">And, if your map warrants multiple grid pages, you will need to be able to move between grid pages.</span></span> <span data-ttu-id="5fed2-106">本主題提供這些作業的逐步指示。</span><span class="sxs-lookup"><span data-stu-id="5fed2-106">This topic provides step-by-step instructions for these operations.</span></span>  

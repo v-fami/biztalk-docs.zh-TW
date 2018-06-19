@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257414"
 ---
 # <a name="implementation-highlights-of-the-business-process-management-solution"></a><span data-ttu-id="a06b0-102">商務程序管理解決方案的實作重點</span><span class="sxs-lookup"><span data-stu-id="a06b0-102">Implementation Highlights of the Business Process Management Solution</span></span>
 <span data-ttu-id="a06b0-103">本節將更詳細地描述與實作相關的解決方案項目。</span><span class="sxs-lookup"><span data-stu-id="a06b0-103">This section describes the implementation-related elements of the solution in greater detail.</span></span> <span data-ttu-id="a06b0-104">這些元素包括商務規則架構的處理階段數目如何**OrderManager**與處理階段使用的通訊**OrderHandler**物件，以及如何應用程式使用 Ops 配接器。</span><span class="sxs-lookup"><span data-stu-id="a06b0-104">These elements include the Business Rules Framework, the number of processing stages, how the **OrderManager** communicates with the processing stages, the use of the **OrderHandler** object, and how the application uses the Ops Adapter.</span></span>  

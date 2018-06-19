@@ -1,14 +1,14 @@
 ---
-title: "接收配接器批次支援的介面 |Microsoft 文件"
-ms.custom: 
+title: 接收配接器批次支援的介面 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fa6ee780-189c-41e3-9ab0-6b869e791c0a
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22258006"
 ---
 # <a name="interfaces-for-a-batch-supported-receive-adapter"></a><span data-ttu-id="a2f33-102">批次支援接收配接器介面</span><span class="sxs-lookup"><span data-stu-id="a2f33-102">Interfaces for a Batch-Supported Receive Adapter</span></span>
 <span data-ttu-id="a2f33-103">接收介面永遠會批次提交訊息。</span><span class="sxs-lookup"><span data-stu-id="a2f33-103">A receive adapter always submits messages in a batch.</span></span> <span data-ttu-id="a2f33-104">批次指的是內含許多資料庫作業的一個單位，您可以用來執行許多動作，而不只是提交。</span><span class="sxs-lookup"><span data-stu-id="a2f33-104">A batch is a unit of database operations that you can use for actions other than submission.</span></span> <span data-ttu-id="a2f33-105">例如，接收配接器可以在相同的批次作業中提交一組訊息、暫停一組不同的訊息，並刪除另一組訊息。</span><span class="sxs-lookup"><span data-stu-id="a2f33-105">For example, a receive adapter can submit one set of messages, suspend a different set of messages, and delete another set of messages in the same batch.</span></span> <span data-ttu-id="a2f33-106">我們非常鼓勵您使用批次作業，因為將這些分開的作業群組至相同的批次中可以降低所需的資料庫往返並最佳化效能。</span><span class="sxs-lookup"><span data-stu-id="a2f33-106">Grouping these separate operations in the same batch optimizes performance by minimizing the number of database round trips required and is strongly encouraged.</span></span>  

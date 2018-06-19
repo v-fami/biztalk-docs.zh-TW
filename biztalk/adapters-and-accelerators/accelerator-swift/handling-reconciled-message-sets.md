@@ -1,17 +1,17 @@
 ---
-title: "處理和一致的訊息集 |Microsoft 文件"
-ms.custom: 
+title: 處理和一致的訊息集 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SAA
 - messages, reconciled sets
 ms.assetid: 05cd0cf6-f0fd-4cbe-83c6-1ed5f2da8822
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209038"
 ---
 # <a name="handling-reconciled-message-sets"></a><span data-ttu-id="80751-102">處理調節訊息設定</span><span class="sxs-lookup"><span data-stu-id="80751-102">Handling Reconciled Message Sets</span></span>
 <span data-ttu-id="80751-103">當 SAA 傳回的回應[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]，[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]位於 MessageBox 中記錄的回應，而且符合回應或原始訊息的回應。</span><span class="sxs-lookup"><span data-stu-id="80751-103">When SAA returns a response to [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)], [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] records the response in the MessageBox, and matches the response or responses to the original message.</span></span> <span data-ttu-id="80751-104">您可以實作自訂的應用程式的行為，使用這項資訊。</span><span class="sxs-lookup"><span data-stu-id="80751-104">You can implement custom application behavior using this information.</span></span> <span data-ttu-id="80751-105">若要這樣做，請開發實作特定客戶的反應，來調解的訊息/回應設定的自訂處理常式。</span><span class="sxs-lookup"><span data-stu-id="80751-105">To do so, develop custom handlers that implement customer-specific reactions to reconciled message/response sets.</span></span> <span data-ttu-id="80751-106">您可以建立自訂的處理常式，執行下列作業：</span><span class="sxs-lookup"><span data-stu-id="80751-106">You can create custom handlers that do the following:</span></span>  

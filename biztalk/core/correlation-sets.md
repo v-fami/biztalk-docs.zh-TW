@@ -1,11 +1,11 @@
 ---
-title: "相互關聯集 |Microsoft 文件"
-ms.custom: 
+title: 相互關聯集 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - correlation sets, inspecting
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - correlation sets, following correlation sets
 - correlation sets, initializing
 ms.assetid: 528dcd6c-d364-4bb8-8deb-cd4a0791867f
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968388"
 ---
 # <a name="correlation-sets"></a><span data-ttu-id="3d8a5-102">相互關聯集合</span><span class="sxs-lookup"><span data-stu-id="3d8a5-102">Correlation Sets</span></span>
 <span data-ttu-id="3d8a5-103">您可以定義相互關聯集合以達成訊息與協調流程執行個體的相互關聯。</span><span class="sxs-lookup"><span data-stu-id="3d8a5-103">You can achieve this sort of correlation of messages with orchestration instances by defining correlation sets.</span></span> <span data-ttu-id="3d8a5-104">相互關聯集是一組屬性*具有特定值*。</span><span class="sxs-lookup"><span data-stu-id="3d8a5-104">A correlation set is a set of properties *with specific values*.</span></span> <span data-ttu-id="3d8a5-105">這是相互關聯類型，也就是只是一份屬性不同。</span><span class="sxs-lookup"><span data-stu-id="3d8a5-105">This is different from a correlation type, which is simply a list of properties.</span></span> <span data-ttu-id="3d8a5-106">如果傳入的訊息沒有所有這些屬性，並在每個屬性都有相符的值，相互關聯便會失敗，而且訊息也不會由協調流程執行個體所接收。</span><span class="sxs-lookup"><span data-stu-id="3d8a5-106">If an incoming message does not have all of these properties, with matching values for each, correlation will fail and the message will not be received by the orchestration instance.</span></span>  

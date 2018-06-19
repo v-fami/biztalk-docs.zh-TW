@@ -1,14 +1,14 @@
 ---
-title: "如何啟用 ASP.NET 4.0 的已發佈 Web 服務 |Microsoft 文件"
-ms.custom: 
+title: 如何啟用 ASP.NET 4.0 的已發佈 Web 服務 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 58646ff2-77a3-49dc-8593-f6e41d85d4f3
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254078"
 ---
 # <a name="how-to-enable-aspnet-40-for-published-web-services"></a><span data-ttu-id="48b97-102">如何啟用 ASP.NET 4.0 的已發佈的 Web 服務</span><span class="sxs-lookup"><span data-stu-id="48b97-102">How to Enable ASP.NET 4.0 for Published Web Services</span></span>
 <span data-ttu-id="48b97-103">在 IIS 中設定的 ASP.Net 版本。</span><span class="sxs-lookup"><span data-stu-id="48b97-103">Set the ASP.Net version in IIS.</span></span>
@@ -27,7 +28,7 @@ ms.lasthandoff: 09/20/2017
 
 ## <a name="prerequisites"></a><span data-ttu-id="48b97-107">必要條件</span><span class="sxs-lookup"><span data-stu-id="48b97-107">Prerequisites</span></span>
 
-<span data-ttu-id="48b97-108">IIS 隨附於**網頁伺服器 (IIS)**作業系統中的角色。</span><span class="sxs-lookup"><span data-stu-id="48b97-108">IIS is included with the **Web Server (IIS)** role in the operating system.</span></span> <span data-ttu-id="48b97-109">當您安裝此角色時，也選取 ASP.NET 的較新版本。</span><span class="sxs-lookup"><span data-stu-id="48b97-109">When you install this role, also select the newer version of ASP.NET.</span></span> 
+<span data-ttu-id="48b97-108">IIS 隨附於**網頁伺服器 (IIS)** 作業系統中的角色。</span><span class="sxs-lookup"><span data-stu-id="48b97-108">IIS is included with the **Web Server (IIS)** role in the operating system.</span></span> <span data-ttu-id="48b97-109">當您安裝此角色時，也選取 ASP.NET 的較新版本。</span><span class="sxs-lookup"><span data-stu-id="48b97-109">When you install this role, also select the newer version of ASP.NET.</span></span> 
   
 ## <a name="update-an-application-pool"></a><span data-ttu-id="48b97-110">更新應用程式集區</span><span class="sxs-lookup"><span data-stu-id="48b97-110">Update an application pool</span></span>
   
@@ -40,7 +41,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  <span data-ttu-id="48b97-115">選取的應用程式集區，並開啟**基本設定**。</span><span class="sxs-lookup"><span data-stu-id="48b97-115">Select the app pool, and open the **Basic Settings**.</span></span>  
   
-4. <span data-ttu-id="48b97-116">設定**.NET CLR 版本**至較新版本，並選取**確定**以儲存變更。</span><span class="sxs-lookup"><span data-stu-id="48b97-116">Set the **.NET CLR version** to the newer version, and select **OK** to save your changes.</span></span>  
+4. <span data-ttu-id="48b97-116">設定 **.NET CLR 版本**至較新版本，並選取**確定**以儲存變更。</span><span class="sxs-lookup"><span data-stu-id="48b97-116">Set the **.NET CLR version** to the newer version, and select **OK** to save your changes.</span></span>  
 
 > [!NOTE]
 > <span data-ttu-id="48b97-117">您也可以變更 web.config 檔案中的版本。</span><span class="sxs-lookup"><span data-stu-id="48b97-117">You can also change the version in the web.config file.</span></span>

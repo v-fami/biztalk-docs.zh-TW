@@ -1,14 +1,14 @@
 ---
-title: "如何使用直接密碼同步 |Microsoft 文件"
-ms.custom: 
+title: 如何使用直接密碼同步 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d1334c2f-2020-46ea-a98c-f7688813e38c
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255942"
 ---
 # <a name="how-to-use-direct-password-sync"></a><span data-ttu-id="f8121-102">如何使用直接密碼同步</span><span class="sxs-lookup"><span data-stu-id="f8121-102">How to Use Direct Password Sync</span></span>
 <span data-ttu-id="f8121-103">本版本的「企業單一登入」包含「直接從 Windows 進行密碼同步」的功能。</span><span class="sxs-lookup"><span data-stu-id="f8121-103">This version of Enterprise Single Sign-On includes the Direct Password Sync from Windows feature.</span></span> <span data-ttu-id="f8121-104">這項功能可讓您略過「密碼同步配接器」，而直接從 Windows 更新「SSO 資料庫」中的密碼。</span><span class="sxs-lookup"><span data-stu-id="f8121-104">This enables you to bypass a Password Sync Adapter and update the password in the SSO Database directly from Windows.</span></span>  

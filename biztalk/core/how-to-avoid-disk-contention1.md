@@ -1,14 +1,14 @@
 ---
-title: "如何避免磁碟 Contention1 |Microsoft 文件"
-ms.custom: 
+title: 如何避免磁碟 Contention1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8b4f8e10-16b0-45f9-8787-da16266da980
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248254"
 ---
 # <a name="how-to-avoid-disk-contention"></a><span data-ttu-id="5308f-102">如何避免磁碟爭用</span><span class="sxs-lookup"><span data-stu-id="5308f-102">How to Avoid Disk Contention</span></span>
 <span data-ttu-id="5308f-103">BizTalk Server 設計為一個持續性的系統，因此在高輸送量的情況下，MessageBox 可能會遇到嚴重的爭用情況。</span><span class="sxs-lookup"><span data-stu-id="5308f-103">BizTalk Server is designed as a persistent system whereby, for high throughput scenarios, the MessageBox can experience severe contention.</span></span> <span data-ttu-id="5308f-104">這個爭用情況可能會因緩慢的磁碟而加重。</span><span class="sxs-lookup"><span data-stu-id="5308f-104">This contention can be aggravated by slow disks.</span></span> <span data-ttu-id="5308f-105">如果磁碟緩慢 (磁碟閒置時間的百分比很低)，這可能會造成 SQL 鎖定更久 (高鎖定等候時間及高鎖定逾時)，使得 MessageBox 表格 (多工緩衝處理和應用程式佇列) 變大、讓資料庫膨脹，而節流最後會讓整體可持續的輸送量變低。</span><span class="sxs-lookup"><span data-stu-id="5308f-105">If the disks are slow (low % Disk Idle Time), this can cause SQL to hold onto locks longer (high Lock Wait Time and high Lock Timeouts) which can cause the MessageBox tables (Spool and Application Queues) to grow, causing database bloat and throttling ultimately resulting in lower overall sustainable throughput.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "如何移除已部署的成品 |Microsoft 文件"
-ms.custom: 
+title: 如何移除已部署的成品 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [BAM definitions], undeploying artifacts
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - undeploying, artifacts [BAM]
 - artifacts, undeploying [BAM]
 ms.assetid: 90135965-d18e-4a71-9877-d2b0c3caf59f
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970188"
 ---
 # <a name="how-to-remove-deployed-artifacts"></a><span data-ttu-id="15ac1-102">如何移除已部署的成品</span><span class="sxs-lookup"><span data-stu-id="15ac1-102">How to Remove Deployed Artifacts</span></span>
 <span data-ttu-id="15ac1-103">系統管理員使用**移除 all**命令移除 BAM 主要匯入資料庫中所部署的成品。</span><span class="sxs-lookup"><span data-stu-id="15ac1-103">Administrators use the **remove-all** command to remove artifacts deployed in the BAM Primary Import database.</span></span> <span data-ttu-id="15ac1-104">提供的 BAM 定義檔案必須是包含所要移除之成品相關資訊的 XML 檔案或 Excel 活頁簿。</span><span class="sxs-lookup"><span data-stu-id="15ac1-104">The supplied BAM definition is either an XML file or an Excel Workbook containing information about the artifacts to be removed.</span></span>  

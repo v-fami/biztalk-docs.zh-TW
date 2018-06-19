@@ -1,14 +1,14 @@
 ---
-title: "步驟 2： 啟用批次協調流程 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 啟用批次協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4badf807-f461-4d0a-a3b6-9f671e580d91
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206254"
 ---
 # <a name="step-2-enable-the-batch-orchestration"></a><span data-ttu-id="34c1a-102">步驟 2： 啟用批次協調流程</span><span class="sxs-lookup"><span data-stu-id="34c1a-102">Step 2: Enable the Batch Orchestration</span></span>
 <span data-ttu-id="34c1a-103">批次協調流程會控制建立批次程序。</span><span class="sxs-lookup"><span data-stu-id="34c1a-103">The batch orchestration controls the create batch process.</span></span> <span data-ttu-id="34c1a-104">它維護要包含在批次中的所有訊息的參考、 控制輸出批次交易，會產生批次訊息、 路由傳送外寄批次，以及處理內送通知批次。</span><span class="sxs-lookup"><span data-stu-id="34c1a-104">It maintains references for all messages to be included in the batch, controls the outbound batch transaction, generates the batch message, routes the outgoing batch, and processes incoming acknowledgment batches.</span></span> <span data-ttu-id="34c1a-105">您需要建立批次程序工作批次協調流程登錄。</span><span class="sxs-lookup"><span data-stu-id="34c1a-105">You need to enlist the batch orchestration for the create batch process to work.</span></span>  

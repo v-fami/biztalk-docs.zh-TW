@@ -1,11 +1,11 @@
 ---
-title: "修復訊息並提交新訊息 |Microsoft 文件"
-ms.custom: 
+title: 修復訊息並提交新訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - repairing messages
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - messages, submitting
 - Message Repair and New Submission. about Message Repair and New Submission
 ms.assetid: 6abcce90-f611-422a-b3c8-e25f1e75b039
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214022"
 ---
 # <a name="repairing-messages-and-submitting-new-messages"></a><span data-ttu-id="c69b5-102">修復訊息並提交新的訊息</span><span class="sxs-lookup"><span data-stu-id="c69b5-102">Repairing Messages and Submitting New Messages</span></span>
 [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]<span data-ttu-id="c69b5-103">Message Repair 和 New Submission 可讓您修復 XML 或商務規則引擎的驗證失敗的訊息。</span><span class="sxs-lookup"><span data-stu-id="c69b5-103"> Message Repair and New Submission enables you to repair a message that has failed XML or Business Rules Engine validation.</span></span> <span data-ttu-id="c69b5-104">修復程序包括驗證和核准步驟可確保精確度和訊息修復恰當。</span><span class="sxs-lookup"><span data-stu-id="c69b5-104">The repair process includes verification and approval steps that ensure the accuracy and appropriateness of the message repair.</span></span> <span data-ttu-id="c69b5-105">使用執行此程序[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsOfficeNoVersion](../../includes/btsofficenoversion-md.md)] [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] MRSR 站台內的表單。</span><span class="sxs-lookup"><span data-stu-id="c69b5-105">This process is performed using [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsOfficeNoVersion](../../includes/btsofficenoversion-md.md)][!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] forms within MRSR site.</span></span>  

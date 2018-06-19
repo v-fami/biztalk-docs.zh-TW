@@ -1,11 +1,11 @@
 ---
-title: "連接到 Oracle 資料庫使用配接器 |Microsoft 文件"
-ms.custom: 
+title: 連接到 Oracle 資料庫使用配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - connection string
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - URI
 - connection URI
 ms.assetid: 5d5598e5-aba0-4c73-8e97-9156475b93c4
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214750"
 ---
 # <a name="connect-to-oracle-database-using-the-adapter"></a><span data-ttu-id="c2e68-102">連接到 Oracle 資料庫使用配接器</span><span class="sxs-lookup"><span data-stu-id="c2e68-102">Connect to Oracle Database using the adapter</span></span>
 <span data-ttu-id="c2e68-103">[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]使用 ODP.NET 11.1.0.7 連接到 Oracle 資料庫。</span><span class="sxs-lookup"><span data-stu-id="c2e68-103">The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] uses ODP.NET 11.1.0.7 to connect to the Oracle database.</span></span> <span data-ttu-id="c2e68-104">[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]需要配接器用戶端提供的連接字串，呼叫統一資源識別元 (URI)，連接到 Oracle 資料庫的連接。</span><span class="sxs-lookup"><span data-stu-id="c2e68-104">The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] requires adapter clients to provide a connection string, called the connection Uniform Resource Identifier (URI), to connect to the Oracle database.</span></span> <span data-ttu-id="c2e68-105">就內部而言， [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] URI 會對應至連接到 Oracle 資料庫的資料庫連接字串。</span><span class="sxs-lookup"><span data-stu-id="c2e68-105">Internally, the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] maps the URI to a database connection string to connect to the Oracle database.</span></span> <span data-ttu-id="c2e68-106">使用 連線 URI，配接器用戶端可以指定連線參數，以連接到外部系統。</span><span class="sxs-lookup"><span data-stu-id="c2e68-106">With a connection URI, adapter clients can specify connection parameters to connect to an external system.</span></span>  

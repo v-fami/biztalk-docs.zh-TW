@@ -1,15 +1,15 @@
 ---
-title: "設定連接埠使用 WCF SAP 配接器在 BizTalk |Microsoft 文件"
-description: "建立 WCF SAP 連接埠來傳送或接收訊息從 SAP BizTalk 配接器組件 (BAP) 中使用 mySAP 配接器"
-ms.custom: 
+title: 設定連接埠使用 WCF SAP 配接器在 BizTalk |Microsoft 文件
+description: 建立 WCF SAP 連接埠來傳送或接收訊息從 SAP BizTalk 配接器組件 (BAP) 中使用 mySAP 配接器
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 420683f8-2516-4c65-895d-fe535824d450
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218734"
 ---
 # <a name="configure-a-port-using-the-wcf-sap-adapter"></a><span data-ttu-id="8cc15-103">設定使用 WCF SAP 配接器的連接埠</span><span class="sxs-lookup"><span data-stu-id="8cc15-103">Configure a port using the WCF-SAP adapter</span></span>
 <span data-ttu-id="8cc15-104">本主題提供有關如何設定 WCF SAP 指示傳送和接收連接埠，以執行 SAP 系統使用的傳出和傳入作業[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="8cc15-104">This topic provides instructions on how to configure WCF-SAP send and receive ports to perform outbound and inbound operations on SAP system using the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].</span></span>  

@@ -1,17 +1,17 @@
 ---
-title: "CIDX 訊息標準 |Microsoft 文件"
-ms.custom: 
+title: CIDX 訊息標準 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - CIDX, RosettaNet
 - RosettaNet, CIDX
 ms.assetid: 6f70fa56-1fc3-4016-ac9e-6af18026292a
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207254"
 ---
 # <a name="cidx-messaging-standards"></a><span data-ttu-id="81eaf-102">CIDX 訊息標準</span><span class="sxs-lookup"><span data-stu-id="81eaf-102">CIDX Messaging Standards</span></span>
 <span data-ttu-id="81eaf-103">CIDX (Chemical Industry Data Exchange，化學產業資料交換) 為一標準組織，支援及維護 Chem eStandards 標準化訊息交換。</span><span class="sxs-lookup"><span data-stu-id="81eaf-103">CIDX (Chemical Industry Data Exchange) operates as a standards organization that supports and maintains the Chem eStandards for standardized message exchange.</span></span> <span data-ttu-id="81eaf-104">化學工業公司使用這些標準，因應其業界特有的訊息傳送需求。</span><span class="sxs-lookup"><span data-stu-id="81eaf-104">Companies in the chemical industry use these standards for their industry-specific messaging needs.</span></span>  

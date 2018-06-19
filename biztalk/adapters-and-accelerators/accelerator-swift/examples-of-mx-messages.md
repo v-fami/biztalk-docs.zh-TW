@@ -1,14 +1,14 @@
 ---
-title: "MX 訊息範例 |Microsoft 文件"
-ms.custom: 
+title: MX 訊息範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b592034f-2dd3-40e4-8f0b-eb6d65c38fff
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209142"
 ---
 # <a name="examples-of-mx-messages"></a><span data-ttu-id="a3bb5-102">MX 訊息的範例</span><span class="sxs-lookup"><span data-stu-id="a3bb5-102">Examples of MX Messages</span></span>
 <span data-ttu-id="a3bb5-103">命令列來產生不同的 MX 訊息的解決方案 （InfoPath 表單範本）</span><span class="sxs-lookup"><span data-stu-id="a3bb5-103">Command Lines to generate the solution (InfoPath form template) for the Different MX messages</span></span>  

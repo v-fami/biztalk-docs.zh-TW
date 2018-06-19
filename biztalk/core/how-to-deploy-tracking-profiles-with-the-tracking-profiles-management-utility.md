@@ -1,11 +1,11 @@
 ---
-title: "如何部署追蹤設定檔與追蹤設定檔管理公用程式 |Microsoft 文件"
-ms.custom: 
+title: 如何部署追蹤設定檔與追蹤設定檔管理公用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - tracking profiles, deploying
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - bttdeploy.exe [BAM]
 - managing [BAM], deploying tracking profiles
 ms.assetid: b3023379-cae1-45fc-a773-2660d3e4abf1
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970116"
 ---
 # <a name="how-to-deploy-tracking-profiles-with-the-tracking-profiles-management-utility"></a><span data-ttu-id="ab7bb-102">如何使用追蹤設定檔管理公用程式部署追蹤設定檔</span><span class="sxs-lookup"><span data-stu-id="ab7bb-102">How to Deploy Tracking Profiles with the Tracking Profiles Management Utility</span></span>
 <span data-ttu-id="ab7bb-103">商務經理人會要求方案開發人員建立新的追蹤設定檔或修改現有的設定檔，加強對組織特定商務程序的管理與監控。</span><span class="sxs-lookup"><span data-stu-id="ab7bb-103">A business manager asks a solutions developer to create a new tracking profile or modify an existing one to better manage and monitor a specific business process for your organization.</span></span>  

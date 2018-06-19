@@ -1,18 +1,18 @@
 ---
-title: "RosettaNet 與 CIDX 訊息標準 |Microsoft 文件"
-ms.custom: 
+title: RosettaNet 與 CIDX 訊息標準 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messaging standards
 - CIDX, messaging standards
 - RosettaNet, messaging standards
 ms.assetid: 3e9c090b-9425-41ae-ae86-d39ca2abfb63
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210038"
 ---
 # <a name="rosettanet-and-cidx-messaging-standards"></a><span data-ttu-id="4ab99-102">RosettaNet 與 CIDX 訊息標準</span><span class="sxs-lookup"><span data-stu-id="4ab99-102">RosettaNet and CIDX Messaging Standards</span></span>
 <span data-ttu-id="4ab99-103">[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 的主要目的，是處理遵循 RosettaNet 或化學產業資料交換 (CIDX) 訊息標準的訊息。</span><span class="sxs-lookup"><span data-stu-id="4ab99-103">The primary purpose of [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] is to process messages that conform to the RosettaNet or Chemical Industry Data Exchange (CIDX) messaging standards.</span></span> <span data-ttu-id="4ab99-104">本節提供兩個主要 RosettaNet 標準的相關資訊： RosettaNet 實作架構 (RNIF) 和交易夥伴介面程序 (Pip)。</span><span class="sxs-lookup"><span data-stu-id="4ab99-104">This section provides information about the two major RosettaNet standards: the RosettaNet Implementation Framework (RNIF) and Partner Interface Processes (PIPs).</span></span> <span data-ttu-id="4ab99-105">同時提供有關 CIDX Chem eStandards 的資訊。</span><span class="sxs-lookup"><span data-stu-id="4ab99-105">It also provides information about the CIDX Chem eStandards.</span></span>  

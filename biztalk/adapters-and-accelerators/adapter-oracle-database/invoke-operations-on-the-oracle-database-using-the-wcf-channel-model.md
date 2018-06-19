@@ -1,11 +1,11 @@
 ---
-title: "使用 WCF 通道模型之 Oracle 資料庫上叫用作業 |Microsoft 文件"
-ms.custom: 
+title: 使用 WCF 通道模型之 Oracle 資料庫上叫用作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - invoking operations, using the WCF channel model
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - invoking operations
 - operations, invoking
 ms.assetid: 6dd95c18-8f78-46d0-8845-b74890614c33
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962780"
 ---
 # <a name="invoke-operations-on-the-oracle-database-using-the-wcf-channel-model"></a><span data-ttu-id="9b232-102">使用 WCF 通道模型之 Oracle 資料庫上叫用作業</span><span class="sxs-lookup"><span data-stu-id="9b232-102">Invoke Operations on the Oracle Database Using the WCF Channel Model</span></span>
 <span data-ttu-id="9b232-103">您可以在叫用作業[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]使用**IRequestChannel**或**IOutputChannel**圖形以將訊息傳送至配接器。</span><span class="sxs-lookup"><span data-stu-id="9b232-103">You can invoke operations on the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] by using an **IRequestChannel** or **IOutputChannel** shape to send messages to the adapter.</span></span> <span data-ttu-id="9b232-104">基本模式是使用繫結建立通道處理站為必要的通道圖案 (**OracleDBBinding**) 和建立的連線 URI 的端點。</span><span class="sxs-lookup"><span data-stu-id="9b232-104">The basic pattern is to create a channel factory for the required channel shape by using a binding (**OracleDBBinding**) and an endpoint created from a connection URI.</span></span> <span data-ttu-id="9b232-105">然後，您建立**訊息**表示 SOAP 訊息，並符合您目標的作業的訊息結構描述執行個體。</span><span class="sxs-lookup"><span data-stu-id="9b232-105">You then create a **Message** instance that represents a SOAP message that conforms to the message schema for your target operation.</span></span> <span data-ttu-id="9b232-106">然後您可以傳送這**訊息**至[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]使用從通道處理站建立通道。</span><span class="sxs-lookup"><span data-stu-id="9b232-106">You can then send this **Message** to the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] by using a channel created from the channel factory.</span></span> <span data-ttu-id="9b232-107">如果您使用**IRequestChannel**，您收到的回應。</span><span class="sxs-lookup"><span data-stu-id="9b232-107">If you are using an **IRequestChannel**, you receive a response.</span></span> <span data-ttu-id="9b232-108">如果沒有執行 Oracle 資料庫時，作業問題[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]會擲回**Microsoft.ServiceModel.Channels.Common.TargetSystemException**。</span><span class="sxs-lookup"><span data-stu-id="9b232-108">If there is a problem executing the operation on the Oracle database, the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] throws a **Microsoft.ServiceModel.Channels.Common.TargetSystemException**.</span></span>  

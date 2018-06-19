@@ -1,14 +1,14 @@
 ---
-title: "FileAct 配接器的即時本機原型 |Microsoft 文件"
-ms.custom: 
+title: FileAct 配接器的即時本機原型 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ef4da4f8-3de2-4d35-8f8a-1e12937e52a1
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223070"
 ---
 # <a name="fileact-adapter-real-time-local-primitives"></a><span data-ttu-id="45701-102">FileAct 配接器即時區域基本型別</span><span class="sxs-lookup"><span data-stu-id="45701-102">FileAct Adapter Real-Time Local Primitives</span></span>
 <span data-ttu-id="45701-103">區域基本型別牽涉到兩個訊息，這會在用戶端 SWIFTNet 連結 (SNL) 和本機 FileAct 子系統之間交換。</span><span class="sxs-lookup"><span data-stu-id="45701-103">Local primitives involve two messages each, which are exchanged between the client SWIFTNet Link (SNL) and the local FileAct subsystem.</span></span>  

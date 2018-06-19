@@ -1,14 +1,14 @@
 ---
-title: "如何將遠端使用者登入本機應用程式 |Microsoft 文件"
-ms.custom: 
+title: 如何將遠端使用者登入本機應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 886ee7cb-e6ba-476a-bea9-4bb4c22bf94e
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254214"
 ---
 # <a name="how-to-log-a-remote-user-on-to-a-local-application"></a><span data-ttu-id="cf2c2-102">如何將遠端使用者登入本機應用程式</span><span class="sxs-lookup"><span data-stu-id="cf2c2-102">How to Log a Remote User on to a Local Application</span></span>
 <span data-ttu-id="cf2c2-103">「企業單一登入」(ENTSSO) 服務的另一個主要功能是支援主控件初始化的程序 (HIP)。</span><span class="sxs-lookup"><span data-stu-id="cf2c2-103">The other main feature of Enterprise Single Sign-On service (ENTSSO) is supporting a host-initiated process (HIP).</span></span> <span data-ttu-id="cf2c2-104">當遠端使用者嘗試存取本機 Windows 資源時，ENTSSO 會與 HIP 互動。</span><span class="sxs-lookup"><span data-stu-id="cf2c2-104">ENTSSO interacts with HIP when a remote user tries to access a local Windows resource.</span></span> <span data-ttu-id="cf2c2-105">使用 ENTSSO 時，您可以接收來自主控件使用者的要求，以及對本機 Windows 應用程式的存取要求。</span><span class="sxs-lookup"><span data-stu-id="cf2c2-105">Using ENTSSO, you can receive the request from the host user and request access to the local Windows application.</span></span>  

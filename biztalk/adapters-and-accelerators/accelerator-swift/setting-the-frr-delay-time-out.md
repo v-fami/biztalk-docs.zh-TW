@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22213998"
 ---
 # <a name="setting-the-frr-delay-time-out"></a><span data-ttu-id="05e7f-102">設定 FRR 延遲逾時</span><span class="sxs-lookup"><span data-stu-id="05e7f-102">Setting the FRR Delay Time-Out</span></span>
 <span data-ttu-id="05e7f-103">您必須設定 FRR 協調流程的逾時時間後一些持續時間，因此它不會等待 FNN 回應無限期。</span><span class="sxs-lookup"><span data-stu-id="05e7f-103">You must configure the FRR orchestration to time out after some duration, so it will not wait for the FNN response indefinitely.</span></span> <span data-ttu-id="05e7f-104">如果逾時期間到期，[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]發行至自訂的逾時的處理常式逾時訊息。</span><span class="sxs-lookup"><span data-stu-id="05e7f-104">If the time-out duration expires, [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] publishes the timed-out messages to a custom time-out handler.</span></span>  

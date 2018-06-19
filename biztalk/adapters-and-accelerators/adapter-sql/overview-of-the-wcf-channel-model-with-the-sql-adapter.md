@@ -1,14 +1,14 @@
 ---
-title: "SQL 配接器的 WCF 通道模型概觀 |Microsoft 文件"
-ms.custom: 
+title: SQL 配接器的 WCF 通道模型概觀 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a5e5f77c-c922-4039-92c7-38d2b7638459
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966020"
 ---
 # <a name="overview-of-the-wcf-channel-model-with-the-sql-adapter"></a><span data-ttu-id="96494-102">SQL 配接器的 WCF 通道模型概觀</span><span class="sxs-lookup"><span data-stu-id="96494-102">Overview of the WCF channel model with the SQL adapter</span></span>
 <span data-ttu-id="96494-103">在叫用作業[!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]，您的程式碼做為 WCF 用戶端，並將傳出作業傳送至配接器。</span><span class="sxs-lookup"><span data-stu-id="96494-103">To invoke operations on the [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)], your code acts as a WCF client and sends outbound operations to the adapter.</span></span> <span data-ttu-id="96494-104">在 WCF 通道模型中，您的程式碼會透過通道傳送的要求訊息叫用的介面卡上的作業。</span><span class="sxs-lookup"><span data-stu-id="96494-104">In the WCF channel model, your code invokes operations on the adapter by sending a request message over a channel.</span></span>  
@@ -57,7 +58,7 @@ ms.lasthandoff: 11/28/2017
   
 -   <span data-ttu-id="96494-143">訊息動作是 SOAP 訊息標頭的字串。</span><span class="sxs-lookup"><span data-stu-id="96494-143">The message action is a string that is part of the SOAP message header.</span></span> <span data-ttu-id="96494-144">訊息動作會識別應該要在資料庫叫用的作業。</span><span class="sxs-lookup"><span data-stu-id="96494-144">The message action identifies the operation that should be invoked on the database.</span></span> <span data-ttu-id="96494-145">下列範例示範叫用 Employee 資料表的 Select 作業指定的訊息動作： `TableOp/Select/dbo/Employee`。</span><span class="sxs-lookup"><span data-stu-id="96494-145">The following shows the message action specified to invoke the Select operation on the Employee table: `TableOp/Select/dbo/Employee`.</span></span>  
   
--   <span data-ttu-id="96494-146">訊息內文包含作業的參數資料。</span><span class="sxs-lookup"><span data-stu-id="96494-146">The message body contains the parameter data for the operation.</span></span> <span data-ttu-id="96494-147">訊息本文由格式正確對應至所預期的訊息結構描述的 XML 組成[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]要求的作業。</span><span class="sxs-lookup"><span data-stu-id="96494-147">The message body is composed of well-formed XML that corresponds to the message schema expected by the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] for the requested operation.</span></span> <span data-ttu-id="96494-148">下列的訊息本文指定 Employee 資料表上的選取作業 (選取 * 從員工 WHERE Employee_ID = 10001)。</span><span class="sxs-lookup"><span data-stu-id="96494-148">The following message body specifies a Select operation on the Employee table (SELECT * FROM Employee WHERE Employee_ID=10001).</span></span>  
+-   <span data-ttu-id="96494-146">訊息內文包含作業的參數資料。</span><span class="sxs-lookup"><span data-stu-id="96494-146">The message body contains the parameter data for the operation.</span></span> <span data-ttu-id="96494-147">訊息本文由格式正確對應至所預期的訊息結構描述的 XML 組成[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]要求的作業。</span><span class="sxs-lookup"><span data-stu-id="96494-147">The message body is composed of well-formed XML that corresponds to the message schema expected by the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] for the requested operation.</span></span> <span data-ttu-id="96494-148">下列的訊息本文指定 Employee 資料表上的選取作業 (選取 \* 從員工 WHERE Employee_ID = 10001)。</span><span class="sxs-lookup"><span data-stu-id="96494-148">The following message body specifies a Select operation on the Employee table (SELECT \* FROM Employee WHERE Employee_ID=10001).</span></span>  
   
     ```  
     <Select xmlns="http://schemas.microsoft.com/Sql/2008/05/TableOp/dbo/Employee">  

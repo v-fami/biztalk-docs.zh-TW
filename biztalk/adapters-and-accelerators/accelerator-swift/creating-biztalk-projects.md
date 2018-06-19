@@ -1,14 +1,14 @@
 ---
-title: "建立 BizTalk 專案 |Microsoft 文件"
-ms.custom: 
+title: 建立 BizTalk 專案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 52980c93-04f7-429b-834c-b77395812863
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22208958"
 ---
 # <a name="creating-biztalk-projects"></a><span data-ttu-id="debe9-102">建立 BizTalk 專案</span><span class="sxs-lookup"><span data-stu-id="debe9-102">Creating BizTalk Projects</span></span>
 <span data-ttu-id="debe9-103">下列步驟中，反白顯示建立 BizTalk 專案所需的步驟。</span><span class="sxs-lookup"><span data-stu-id="debe9-103">The steps below highlight the steps required to create BizTalk projects.</span></span>  

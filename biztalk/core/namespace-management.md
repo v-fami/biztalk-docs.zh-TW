@@ -1,14 +1,14 @@
 ---
-title: "命名空間管理 |Microsoft 文件"
-ms.custom: 
+title: 命名空間管理 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4638c47c-3cdd-43af-aa00-da98e7293503
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263734"
 ---
 # <a name="namespace-management"></a><span data-ttu-id="f0240-102">命名空間管理</span><span class="sxs-lookup"><span data-stu-id="f0240-102">Namespace Management</span></span>
 <span data-ttu-id="f0240-103">「BizTalk 編輯器」可支援命名空間。</span><span class="sxs-lookup"><span data-stu-id="f0240-103">BizTalk Editor provides support for namespaces.</span></span> <span data-ttu-id="f0240-104">XML 命名空間是名稱的集合，可以用來做為 XML 訊息中的項目或屬性名稱。</span><span class="sxs-lookup"><span data-stu-id="f0240-104">An XML namespace is a collection of names that can be used as element or attribute names in an XML message.</span></span> <span data-ttu-id="f0240-105">命名空間限定項目和屬性名稱，以避免相同結構描述中其他地方所定義的相同項目和屬性名稱之間發生衝突。</span><span class="sxs-lookup"><span data-stu-id="f0240-105">The namespace qualifies element and attribute names to avoid conflicts between the same element and attribute names that might be defined elsewhere within the same schema.</span></span>  

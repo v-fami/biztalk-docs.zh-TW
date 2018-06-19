@@ -1,11 +1,11 @@
 ---
-title: "MSH 欄位覆寫 |Microsoft 文件"
-ms.custom: 
+title: MSH 欄位覆寫 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - headers, overriding
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - headers, MSH Map tab
 - messages, message headers
 ms.assetid: f5b2c820-57e7-4a56-9d9f-713563bd7335
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961020"
 ---
 # <a name="msh-field-overrides"></a><span data-ttu-id="80903-102">MSH 欄位覆寫</span><span class="sxs-lookup"><span data-stu-id="80903-102">MSH Field Overrides</span></span>
 <span data-ttu-id="80903-103">每個 HL7 訊息具有訊息標頭。</span><span class="sxs-lookup"><span data-stu-id="80903-103">Every HL7 message has a message header.</span></span> <span data-ttu-id="80903-104">使用[!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)]，您可以覆寫您的商務需求為基礎的任何訊息標頭值。</span><span class="sxs-lookup"><span data-stu-id="80903-104">Using [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)], you can override any message header value based on your business need.</span></span> <span data-ttu-id="80903-105">您使用[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]Configuration 總管**MSH 對應** 索引標籤，以手動方式覆寫訊息標頭值而不使用任何對應或協調流程。</span><span class="sxs-lookup"><span data-stu-id="80903-105">You use the [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] Configuration Explorer **MSH Map** tab to manually over ride message header values without using any mapping or orchestration.</span></span>  

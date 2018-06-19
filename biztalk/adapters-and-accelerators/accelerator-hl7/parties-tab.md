@@ -1,15 +1,15 @@
 ---
-title: "HL7 加速器，在 BizTalk Server 中的合作對象 索引標籤 |Microsoft 文件"
-description: "若要檢視現有的合作對象，請使用 BTAHL7 組態總管和 BizTalk Server 中設定通知"
-ms.custom: 
+title: HL7 加速器，在 BizTalk Server 中的合作對象 索引標籤 |Microsoft 文件
+description: 若要檢視現有的合作對象，請使用 BTAHL7 組態總管和 BizTalk Server 中設定通知
+ms.custom: ''
 ms.date: 08/14/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e01052c8-25c5-4736-8403-33f16fbd3fb7
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206134"
 ---
 # <a name="parties-in-btahl7-configuration-explorer"></a><span data-ttu-id="8ba07-103">BTAHL7 組態總管 中的合作對象</span><span class="sxs-lookup"><span data-stu-id="8ba07-103">Parties in BTAHL7 Configuration Explorer</span></span>
 <span data-ttu-id="8ba07-104">您使用**合作對象**索引標籤來檢視可用的合作對象，並指定[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]組態特定合作對象，以及設定通知的內容。</span><span class="sxs-lookup"><span data-stu-id="8ba07-104">You use the **Parties** tab to view the available parties and specify [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] configuration for a particular party that you choose, and to configure properties for acknowledgments.</span></span> 

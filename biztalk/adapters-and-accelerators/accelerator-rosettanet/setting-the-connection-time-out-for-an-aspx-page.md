@@ -1,17 +1,17 @@
 ---
-title: "設定 ASPX 頁面的連線逾時 |Microsoft 文件"
-ms.custom: 
+title: 設定 ASPX 頁面的連線逾時 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - ASPX pages, connection time-out
 - connections, time-out
 ms.assetid: 61d9c996-caf4-48bd-bda7-52f2797a941b
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207190"
 ---
 # <a name="setting-the-connection-time-out-for-an-aspx-page"></a><span data-ttu-id="61c27-102">設定 ASPX 頁面的連線逾時</span><span class="sxs-lookup"><span data-stu-id="61c27-102">Setting the Connection Time-Out for an ASPX Page</span></span>
 <span data-ttu-id="61c27-103">當您使用 ASPX 頁面來處理同步訊息時，必須要增加 ASPX 頁面的連線逾時，如此它才有足夠時間等待預期的訊息。</span><span class="sxs-lookup"><span data-stu-id="61c27-103">When you use an ASPX page for synchronous messages, you must increase the connection time-out for the ASPX page so that it can wait for the expected message.</span></span>  
@@ -36,7 +37,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  <span data-ttu-id="61c27-113">以滑鼠右鍵按一下 **[預設網站]**，然後按一下 **[屬性]**。</span><span class="sxs-lookup"><span data-stu-id="61c27-113">Right-click **Default Web Site**, and then click **Properties**.</span></span>  
   
-4.  <span data-ttu-id="61c27-114">在 [預設的網站內容] 對話方塊上**網站**索引標籤的**連接逾時**方塊中輸入適當的值，然後再按一下**[確定]**。</span><span class="sxs-lookup"><span data-stu-id="61c27-114">In the Default Web Site Properties dialog box, on the **Web Site** tab, in the **Connection Timeout** box, type an appropriate value, and then click **OK**.</span></span>  
+4.  <span data-ttu-id="61c27-114">在 [預設的網站內容] 對話方塊上**網站**索引標籤的**連接逾時**方塊中輸入適當的值，然後再按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="61c27-114">In the Default Web Site Properties dialog box, on the **Web Site** tab, in the **Connection Timeout** box, type an appropriate value, and then click **OK**.</span></span>  
   
 ## <a name="see-also"></a><span data-ttu-id="61c27-115">另請參閱</span><span class="sxs-lookup"><span data-stu-id="61c27-115">See Also</span></span>  
  [<span data-ttu-id="61c27-116">程式設計指南</span><span class="sxs-lookup"><span data-stu-id="61c27-116">Programming Guide</span></span>](../../adapters-and-accelerators/accelerator-rosettanet/programming-guide2.md)

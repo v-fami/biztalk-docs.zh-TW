@@ -9,7 +9,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 436ea181-2bc8-47a7-844a-b95e98b737b9
-caps.latest.revision: ''
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22209062"
 ---
 # <a name="a4swift-promoted-properties"></a><span data-ttu-id="8f1d0-103">A4SWIFT_ \* 升級屬性</span><span class="sxs-lookup"><span data-stu-id="8f1d0-103">A4SWIFT_\* promoted properties</span></span>
 

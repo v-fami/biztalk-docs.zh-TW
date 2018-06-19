@@ -1,11 +1,11 @@
 ---
-title: "相關的文件 |Microsoft 文件"
-ms.custom: 
+title: 相關的文件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - queries [BAM], document references
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Query Builder [BAM portal], document references
 - queries [BAM], viewing details
 ms.assetid: 9c5f2175-fe7c-40ec-910d-1ac5c8142045
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970068"
 ---
 # <a name="related-documents"></a><span data-ttu-id="10cd0-102">相關文件</span><span class="sxs-lookup"><span data-stu-id="10cd0-102">Related Documents</span></span>
 <span data-ttu-id="10cd0-103">查詢結果詳細資料的 [相關文件] 區域會顯示活動相關參考文件的清單。</span><span class="sxs-lookup"><span data-stu-id="10cd0-103">The Related Documents area of the query results detail displays a list of documents that are reference documents that relate to the activity.</span></span> <span data-ttu-id="10cd0-104">文件可以是任何類型，包括 CAD 影像、.WAV 檔案或訂單。</span><span class="sxs-lookup"><span data-stu-id="10cd0-104">The documents can be of any type, including a CAD image, a .WAV file, or a purchase order.</span></span> <span data-ttu-id="10cd0-105">例如，「訂單」活動通常以「訂單」做為基本的文件類型。</span><span class="sxs-lookup"><span data-stu-id="10cd0-105">For example, a Purchase Order activity will typically have a Purchase Order as a base document type.</span></span> <span data-ttu-id="10cd0-106">其清單中包含訂單的連結。</span><span class="sxs-lookup"><span data-stu-id="10cd0-106">The list will contain a link to the purchase order.</span></span>  

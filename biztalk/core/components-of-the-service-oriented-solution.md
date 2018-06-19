@@ -1,11 +1,11 @@
 ---
-title: "元件的服務導向解決方案 |Microsoft 文件"
-ms.custom: 
+title: 元件的服務導向解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - service solution tutorial, pipelines
@@ -20,7 +20,7 @@ helpviewer_keywords:
 - service solution tutorial, orchestrations
 - service solution tutorial, back-end applications
 ms.assetid: 97b7b754-abfb-48f9-87bf-7fe171121166
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -29,6 +29,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234254"
 ---
 # <a name="components-of-the-service-oriented-solution"></a><span data-ttu-id="feecb-102">元件的服務導向解決方案</span><span class="sxs-lookup"><span data-stu-id="feecb-102">Components of the Service Oriented Solution</span></span>
 <span data-ttu-id="feecb-103">本節描述服務導向解決方案的主要 BizTalk Server 元件。</span><span class="sxs-lookup"><span data-stu-id="feecb-103">This section describes the major BizTalk Server components of the Service Oriented Solution.</span></span> <span data-ttu-id="feecb-104">下列圖表顯示解決方案的主要元件：</span><span class="sxs-lookup"><span data-stu-id="feecb-104">The following diagram shows the major components of the solution:</span></span>  

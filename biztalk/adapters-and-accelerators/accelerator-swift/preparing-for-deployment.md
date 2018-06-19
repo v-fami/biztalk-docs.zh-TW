@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22213942"
 ---
 # <a name="preparing-for-deployment"></a><span data-ttu-id="9e3b8-102">準備部署</span><span class="sxs-lookup"><span data-stu-id="9e3b8-102">Preparing for Deployment</span></span>
 <span data-ttu-id="9e3b8-103">本節提供在部署計畫和準備工作階段的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="9e3b8-103">This section provides information about the planning and preparation phase of the deployment.</span></span> <span data-ttu-id="9e3b8-104">在實作之前部署，進行下列準備：</span><span class="sxs-lookup"><span data-stu-id="9e3b8-104">Before implementing a deployment, make the following preparations:</span></span>  

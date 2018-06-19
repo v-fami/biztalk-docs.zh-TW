@@ -1,11 +1,11 @@
 ---
-title: "中樞架構實例的範例 |Microsoft 文件"
-ms.custom: 
+title: 中樞架構實例的範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - supply chains, examples
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - examples, supply chains
 - trading partners, supply chains
 ms.assetid: ee92c24d-a281-4950-a61e-9cb3bd08d291
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210414"
 ---
 # <a name="sample-hub-based-scenario"></a><span data-ttu-id="db635-102">範例中樞架構實例</span><span class="sxs-lookup"><span data-stu-id="db635-102">Sample Hub-Based Scenario</span></span>
 <span data-ttu-id="db635-103">在許多供應鏈實例中，公司將與每個交易夥伴合作設立 RosettaNet 實作架構 (RNIF) 連線。</span><span class="sxs-lookup"><span data-stu-id="db635-103">In many supply-chain scenarios, a company will work with each of their trading partners to institute a RosettaNet Implementation Framework (RNIF) connection.</span></span> <span data-ttu-id="db635-104">這是標準化整個供應鏈通訊的有效方式。</span><span class="sxs-lookup"><span data-stu-id="db635-104">This is an effective way to standardize communications throughout the supply chain.</span></span> <span data-ttu-id="db635-105">此案例中所述[範例提供鏈結案例](../../adapters-and-accelerators/accelerator-rosettanet/sample-supply-chain-scenario.md)。</span><span class="sxs-lookup"><span data-stu-id="db635-105">This scenario is described in [Sample Supply Chain Scenario](../../adapters-and-accelerators/accelerator-rosettanet/sample-supply-chain-scenario.md).</span></span>  

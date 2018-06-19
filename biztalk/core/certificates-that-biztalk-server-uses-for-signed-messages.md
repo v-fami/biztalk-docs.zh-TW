@@ -1,11 +1,11 @@
 ---
-title: "BizTalk Server 使用的憑證簽署的訊息 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Server 使用的憑證簽署的訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, signed messages
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - digital signatures, message flow
 - messages, certificates
 ms.assetid: 0b521e11-73ef-424f-9e6a-4fb42dc263ff
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233118"
 ---
 # <a name="certificates-that-biztalk-server-uses-for-signed-messages"></a><span data-ttu-id="8bd1c-102">BizTalk Server 用於簽章訊息的憑證</span><span class="sxs-lookup"><span data-stu-id="8bd1c-102">Certificates that BizTalk Server Uses for Signed Messages</span></span>
 <span data-ttu-id="8bd1c-103">BizTalk Server 支援「安全多用途網際網路郵件延伸」(Secure Multipurpose Internet Mail Extensions，S/MIME) 輸入訊息的簽章輸出訊息及簽章驗證。</span><span class="sxs-lookup"><span data-stu-id="8bd1c-103">BizTalk Server supports signing outbound messages and signature verification for inbound Secure Multipurpose Internet Mail Extensions (S/MIME) messages.</span></span> <span data-ttu-id="8bd1c-104">BizTalk Server 使用 S/MIME 版本 2 和 3 來簽署輸出訊息及驗證輸入訊息的簽章。</span><span class="sxs-lookup"><span data-stu-id="8bd1c-104">BizTalk Server uses S/MIME versions 2 and 3 to sign outbound messages and to validate the signature of inbound messages.</span></span> <span data-ttu-id="8bd1c-105">同樣的，您可以設定 BizTalk Server 來簽署傳送給夥伴的訊息，然後將其加密。</span><span class="sxs-lookup"><span data-stu-id="8bd1c-105">Similarly, you can configure BizTalk Server to sign and then encrypt the messages it sends to its partners.</span></span>  

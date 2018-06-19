@@ -1,17 +1,17 @@
 ---
-title: "重複使用 Oracle 資料庫配接器繫結 |Microsoft 文件"
-ms.custom: 
+title: 重複使用 Oracle 資料庫配接器繫結 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - bindings, reusing
 - binding file
 ms.assetid: f3c7af97-6da2-47bd-bdaf-6b45386c2940
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215134"
 ---
 # <a name="reuse-oracle-database-adapter-bindings"></a><span data-ttu-id="d3440-102">重複使用 Oracle 資料庫配接器繫結</span><span class="sxs-lookup"><span data-stu-id="d3440-102">Reuse Oracle Database Adapter bindings</span></span>
 <span data-ttu-id="d3440-103">繫結之間建立對應的邏輯端點 （例如協調流程連接埠或角色連結） 與實體端點 (例如傳送和接收埠)。</span><span class="sxs-lookup"><span data-stu-id="d3440-103">A binding creates a mapping between a logical endpoint (such as an orchestration port or a role link) and a physical endpoint (such as a send and receive port).</span></span> <span data-ttu-id="d3440-104">這讓通訊能在不同的 BizTalk 商務方案元件之間進行。</span><span class="sxs-lookup"><span data-stu-id="d3440-104">This enables communication between different components of a BizTalk business solution.</span></span> <span data-ttu-id="d3440-105">您可以使用 [BizTalk Server 管理主控台] 建立繫結。</span><span class="sxs-lookup"><span data-stu-id="d3440-105">You can create bindings by using the BizTalk Server Administration console.</span></span>  

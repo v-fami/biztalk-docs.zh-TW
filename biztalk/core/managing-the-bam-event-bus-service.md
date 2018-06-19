@@ -1,11 +1,11 @@
 ---
-title: "管理 BAM 事件匯流排服務 |Microsoft 文件"
-ms.custom: 
+title: 管理 BAM 事件匯流排服務 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - MessageBox database, migrating data
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Event Bus Service [BAM], managing
 - Tracking Data Decode Service (TDDS)
 ms.assetid: 556e7fe2-4a7d-46f6-8e55-f41be4e666dc
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262814"
 ---
 # <a name="managing-the-bam-event-bus-service"></a><span data-ttu-id="278f5-102">管理 BAM 事件匯流排服務</span><span class="sxs-lookup"><span data-stu-id="278f5-102">Managing the BAM Event Bus Service</span></span>
 <span data-ttu-id="278f5-103">BAM 事件匯流排服務也稱為「追蹤資料解碼服務」(TDDS)，會處理儲存在來源資料庫中的追蹤資料 (資料流)，並以方便日後查詢的格式保存該資料。</span><span class="sxs-lookup"><span data-stu-id="278f5-103">The BAM Event Bus Service, also known as the Tracking Data Decode Service (TDDS), processes tracking data (streams) stored in a source database and persists that data in such a way that it is easy to query it at a later date.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "如何使用夥伴協調流程直接繫結連接埠 |Microsoft 文件"
-ms.custom: 
+title: 如何使用夥伴協調流程直接繫結連接埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 19f9987f-79fb-4cb6-bf6e-542f6eea9ce0
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22258158"
 ---
 # <a name="how-to-use-partner-orchestration-direct-bound-ports"></a><span data-ttu-id="9eb8d-102">如何使用夥伴協調流程直接繫結的連接埠</span><span class="sxs-lookup"><span data-stu-id="9eb8d-102">How to Use Partner Orchestration Direct Bound Ports</span></span>
 <span data-ttu-id="9eb8d-103">夥伴協調流程直接繫結連接埠提供協調流程之間的通訊出現透過連接埠的功能。</span><span class="sxs-lookup"><span data-stu-id="9eb8d-103">Partner orchestration direct bound ports provide the capability of having inter-orchestration communication through ports.</span></span> <span data-ttu-id="9eb8d-104">您可以建立兩種通訊模式： 轉寄夥伴協調流程直接繫結以及反向夥伴協調流程直接繫結。</span><span class="sxs-lookup"><span data-stu-id="9eb8d-104">You can create two communication patterns: forward partner orchestration direct binding and inverse partner orchestration direct binding.</span></span> <span data-ttu-id="9eb8d-105">這兩種模式提供明確的協調流程之間通訊，這表示使用轉寄夥伴協調流程直接繫結時，會有預定的收件者協調流程，而使用反向夥伴協調流程直接繫結時，則有預定的傳送者協調流程。</span><span class="sxs-lookup"><span data-stu-id="9eb8d-105">These two patterns provide explicit inter-orchestration communication, which means that there is an intended recipient orchestration when using forward partner orchestration direct binding and an intended sender orchestration when using inverse partner orchestration direct binding.</span></span>  

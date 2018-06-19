@@ -1,14 +1,14 @@
 ---
-title: "建立通道，使用 Oracle E-business Suite |Microsoft 文件"
-ms.custom: 
+title: 建立通道，使用 Oracle E-business Suite |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d18b7c2f-a43e-4499-ba94-4955dd5fe641
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961996"
 ---
 # <a name="create-a-channel-using-oracle-e-business-suite"></a><span data-ttu-id="a8f06-102">建立使用 Oracle E-business Suite 的通道</span><span class="sxs-lookup"><span data-stu-id="a8f06-102">Create a channel using Oracle E-Business Suite</span></span>
 <span data-ttu-id="a8f06-103">在 WCF 通道模型中，叫用 Oracle E-business suite 作業，並藉由交換的 SOAP 訊息接收結果[!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]透過 WCF 通道。</span><span class="sxs-lookup"><span data-stu-id="a8f06-103">In the WCF channel model, you invoke operations on the Oracle E-Business Suite and receive the results by exchanging SOAP messages with the [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] over a WCF channel.</span></span>  

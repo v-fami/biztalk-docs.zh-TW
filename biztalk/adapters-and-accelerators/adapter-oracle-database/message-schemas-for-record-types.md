@@ -1,17 +1,17 @@
 ---
-title: "訊息記錄類型的結構描述 |Microsoft 文件"
-ms.custom: 
+title: 訊息記錄類型的結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - RECORD types, message schemas for
 - RECORD types, support for
 ms.assetid: 637c42f2-eed0-4941-a6cd-7e03d01088b8
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214134"
 ---
 # <a name="message-schemas-for-record-types"></a><span data-ttu-id="6ee6a-102">記錄類型的訊息結構描述</span><span class="sxs-lookup"><span data-stu-id="6ee6a-102">Message Schemas for RECORD Types</span></span>
 <span data-ttu-id="6ee6a-103">Oracle 記錄類型為結構化的 PL/SQL 資料類型所組成的一個或更簡單或結構化的資料庫類型。</span><span class="sxs-lookup"><span data-stu-id="6ee6a-103">Oracle RECORD types are structured PL/SQL data types that consist of one or more simple or structured database types.</span></span> <span data-ttu-id="6ee6a-104">記錄類型主要用於 PL/SQL 預存程序和函式中傳送和接收階層式資料。</span><span class="sxs-lookup"><span data-stu-id="6ee6a-104">RECORD types are primarily used in PL/SQL stored procedures and functions to send and receive hierarchical data.</span></span>  

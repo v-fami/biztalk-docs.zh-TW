@@ -1,17 +1,17 @@
 ---
-title: "保護您的 Siebel 應用程式 |Microsoft 文件"
-ms.custom: 
+title: 保護您的 Siebel 應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security and protection
 - data protection
 ms.assetid: 8977cbd3-0025-48d4-8203-8e9e72ea7d26
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22221966"
 ---
 # <a name="secure-your-siebel-applications"></a><span data-ttu-id="22a0c-102">保護您的 Siebel 應用程式</span><span class="sxs-lookup"><span data-stu-id="22a0c-102">Secure your Siebel applications</span></span>
 <span data-ttu-id="22a0c-103">Siebel 系統通常會包含敏感性商務資訊，例如客戶帳戶詳細資料。</span><span class="sxs-lookup"><span data-stu-id="22a0c-103">The Siebel system often contains sensitive business information such as customer account details.</span></span> <span data-ttu-id="22a0c-104">使用應用程式[!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)]來存取和修改這項資訊是在本機或分散式網路上可能會不小心公開以存取由未經授權的動作項目，除非工作所建立的保護，並保護期間的資料傳輸。</span><span class="sxs-lookup"><span data-stu-id="22a0c-104">Applications that use the [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] to access and modify this information either locally or across a distributed network might inadvertently expose it to access by unauthorized actors, unless efforts are made to protect and secure the data during transmission.</span></span> <span data-ttu-id="22a0c-105">資料保護和安全性是通常視為以下列形式：</span><span class="sxs-lookup"><span data-stu-id="22a0c-105">Data protection and security are usually thought of in the following terms:</span></span>  

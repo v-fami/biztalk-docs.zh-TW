@@ -1,14 +1,14 @@
 ---
-title: "設定協調流程的繫結 |Microsoft 文件"
-ms.custom: 
+title: 設定協調流程的繫結 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9724a3a0-c217-4f98-b6d9-21f788ce50ba
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248918"
 ---
 # <a name="how-to-configure-bindings-for-an-orchestration"></a><span data-ttu-id="adcaf-102">如何設定協調流程的繫結</span><span class="sxs-lookup"><span data-stu-id="adcaf-102">How to Configure Bindings for an Orchestration</span></span>
 

@@ -1,14 +1,14 @@
 ---
-title: "例外狀況處理 |Microsoft 文件"
-ms.custom: 
+title: 例外狀況處理 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 00a9125c-7c7c-4d2a-ae04-c923cd89683c
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22245926"
 ---
 # <a name="exception-handling"></a><span data-ttu-id="5f552-102">例外狀況處理</span><span class="sxs-lookup"><span data-stu-id="5f552-102">Exception Handling</span></span>
 <span data-ttu-id="5f552-103">**RuleEngine**類別具有屬性**CompensationHandlerInfo**，其中又包含兩個屬性： **CompensationHandler**和**UserData**.</span><span class="sxs-lookup"><span data-stu-id="5f552-103">The **RuleEngine** class has the property **CompensationHandlerInfo**, which in turn has two properties: **CompensationHandler** and **UserData**.</span></span> <span data-ttu-id="5f552-104">**CompensationHandler**屬性屬於型別**RuleEngineCompensationHandler**，而**UserData**屬性屬於型別**物件**.</span><span class="sxs-lookup"><span data-stu-id="5f552-104">The **CompensationHandler** property is of type **RuleEngineCompensationHandler**, and the **UserData** property is of type **Object**.</span></span> <span data-ttu-id="5f552-105">定義**RuleEngineCompensationHandler**如下所示：</span><span class="sxs-lookup"><span data-stu-id="5f552-105">The definition for the **RuleEngineCompensationHandler** is as follows:</span></span>  

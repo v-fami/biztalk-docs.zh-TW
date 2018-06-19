@@ -1,17 +1,17 @@
 ---
-title: "步驟 8： 建置與部署 Contoso 協調流程 |Microsoft 文件"
-ms.custom: 
+title: 步驟 8： 建置與部署 Contoso 協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - private process tutorial, building solutions
 - private process tutorial, deploying solutions
 ms.assetid: d350b87a-0e4e-4837-ad39-fb5b1fdc1532
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209302"
 ---
 # <a name="step-8-building-and-deploying-the-contoso-orchestration"></a><span data-ttu-id="73f91-102">步驟 8： 建置與部署 Contoso 協調流程</span><span class="sxs-lookup"><span data-stu-id="73f91-102">Step 8: Building and Deploying the Contoso Orchestration</span></span>
 <span data-ttu-id="73f91-103">在此步驟中，您將建置協調流程專案，並使用「BizTalk 部署精靈」部署專案。</span><span class="sxs-lookup"><span data-stu-id="73f91-103">In this step, you build the Orchestration project and deploy it using the BizTalk Deployment Wizard.</span></span> <span data-ttu-id="73f91-104">這會將組件加入至組態資料庫，並將組件安裝到全域組件快取中。</span><span class="sxs-lookup"><span data-stu-id="73f91-104">This adds the assembly to the Configuration database and installs the assembly in the Global Assembly Cache (GAC).</span></span>  

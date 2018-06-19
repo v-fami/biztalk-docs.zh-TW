@@ -1,20 +1,21 @@
 ---
-title: "解除安裝 BizTalk Server 上的 BizTalk RosettaNet 加速器 (BTARN) |Microsoft 文件 」"
-description: "解除部署成品，並取消設定 BTARN 以移除 BizTalk Server 加速器"
+title: 解除安裝 BizTalk Server 上的 BizTalk RosettaNet 加速器 (BTARN) |Microsoft 文件 」
+description: 解除部署成品，並取消設定 BTARN 以移除 BizTalk Server 加速器
 author: MandiOhlinger
 manager: anneta
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-ms.assetid: 
+ms.assetid: ''
 ms.author: mandia
 ms.openlocfilehash: 8d289a3705eb0c127dc4d2637c2d6ffd3c122b36
 ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209838"
 ---
 # <a name="uninstall-the-rosettanet-accelerator"></a><span data-ttu-id="94fae-103">解除安裝 RosettaNet 加速器</span><span class="sxs-lookup"><span data-stu-id="94fae-103">Uninstall the RosettaNet accelerator</span></span>
 
@@ -22,7 +23,7 @@ ms.lasthandoff: 09/20/2017
   
 * <span data-ttu-id="94fae-105">如果您只執行**Setup.exe**，解除安裝程序不會移除商務活動監控 (BAM) 成品、 BizTalk 成品、 網際網路資訊服務 (IIS) 虛擬目錄和應用程式集區。</span><span class="sxs-lookup"><span data-stu-id="94fae-105">If you only run **Setup.exe**, the uninstall process does not remove the Business Activity Monitoring (BAM) artifacts, the BizTalk artifacts, Internet Information Services (IIS) virtual directories, and application pools.</span></span>  
   
-* <span data-ttu-id="94fae-106">如果您使用**回送**公用程式來建立鏡像協議，針對單一電腦部署，然後執行該工具搭配**/停用 <** **home 組織** **>** 選項後再中刪除夥伴**BTARN 管理主控台**。</span><span class="sxs-lookup"><span data-stu-id="94fae-106">If you used the **Loopback** utility to create mirror agreements for a single-computer deployment, then run the tool with the **/disable <** **home organization** **>** option before deleting the partners in the **BTARN Administration Console**.</span></span>  
+* <span data-ttu-id="94fae-106">如果您使用**回送**公用程式來建立鏡像協議，針對單一電腦部署，然後執行該工具搭配 **/停用 <** **home 組織** **>** 選項後再中刪除夥伴**BTARN 管理主控台**。</span><span class="sxs-lookup"><span data-stu-id="94fae-106">If you used the **Loopback** utility to create mirror agreements for a single-computer deployment, then run the tool with the **/disable <** **home organization** **>** option before deleting the partners in the **BTARN Administration Console**.</span></span>  
   
 * <span data-ttu-id="94fae-107">如果此伺服器是多電腦部署的一部分，不會執行**BtarnClean**公用程式或手動解除部署 BTARN 組件。</span><span class="sxs-lookup"><span data-stu-id="94fae-107">If this server is part of a multi-computer deployment, do not run the **BtarnClean** utility or manually undeploy the BTARN assemblies.</span></span> <span data-ttu-id="94fae-108">一部電腦上移除成品會中斷其他電腦的功能。</span><span class="sxs-lookup"><span data-stu-id="94fae-108">Removing the artifacts on one computer breaks the functionality of the other computers.</span></span>  <span data-ttu-id="94fae-109">如果您想要從所有伺服器解除安裝 BTARN，然後執行**BtarnClean**公用程式。</span><span class="sxs-lookup"><span data-stu-id="94fae-109">If you want to uninstall BTARN from all the servers, then run the **BtarnClean** utility.</span></span> 
 

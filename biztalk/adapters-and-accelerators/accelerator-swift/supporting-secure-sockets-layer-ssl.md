@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214158"
 ---
 # <a name="supporting-secure-sockets-layer-ssl"></a><span data-ttu-id="5af44-102">支援安全通訊端層 (SSL)</span><span class="sxs-lookup"><span data-stu-id="5af44-102">Supporting Secure Sockets Layer (SSL)</span></span>
 <span data-ttu-id="5af44-103">若要實作安全通訊端層 (SSL) 通訊協定的用戶端電腦與 MRSR 伺服器之間部署中，您需要要求您的網際網路資訊服務 (IIS) 伺服器上設定 「 伺服器驗證 」 憑證。</span><span class="sxs-lookup"><span data-stu-id="5af44-103">To implement the Secure Sockets Layer (SSL) protocol in your deployment between the client computers and the MRSR servers, you need to request and configure a "Server Authentication" certificate on your Internet Information Services (IIS) servers.</span></span>  

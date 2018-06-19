@@ -1,14 +1,14 @@
 ---
-title: "處理內送資料流管線元件中的 |Microsoft 文件"
-ms.custom: 
+title: 處理內送資料流管線元件中的 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a1b7c4f7-99ba-4bfa-89ab-1fabfe0845d1
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246566"
 ---
 # <a name="handling-incoming-data-streams-in-pipeline-components"></a><span data-ttu-id="c6267-102">處理管線元件中的內送資料流</span><span class="sxs-lookup"><span data-stu-id="c6267-102">Handling Incoming Data Streams in Pipeline Components</span></span>
 <span data-ttu-id="c6267-103">在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中撰寫管線元件的自訂解譯器程式碼時，應考量下列事項：</span><span class="sxs-lookup"><span data-stu-id="c6267-103">The following considerations should be made when writing custom disassembler code for pipeline components in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  

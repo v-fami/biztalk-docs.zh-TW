@@ -1,18 +1,18 @@
 ---
-title: "設定 A4SWIFT 使用者 |Microsoft 文件"
-ms.custom: 
+title: 設定 A4SWIFT 使用者 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, user accounts
 - creating, user accounts
 - user accounts, creating
 ms.assetid: 45dcbece-ec8d-410a-8320-79bfbc4c779d
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209374"
 ---
 # <a name="configuring-a4swift-users"></a><span data-ttu-id="ce944-102">設定 A4SWIFT 使用者</span><span class="sxs-lookup"><span data-stu-id="ce944-102">Configuring A4SWIFT Users</span></span>
 <span data-ttu-id="ce944-103">在安裝期間[!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]，A4SWIFT 組態程式會建立預設交易夥伴設定檔和協議，並註冊 BizTalk Server。</span><span class="sxs-lookup"><span data-stu-id="ce944-103">During installation of [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)], the A4SWIFT configuration program creates default trading partner profiles and agreements, and registers the BizTalk Server.</span></span> <span data-ttu-id="ce944-104">A4SWIFT 也會建立 Message Repair 和 New Submission 元件所使用的文件庫。</span><span class="sxs-lookup"><span data-stu-id="ce944-104">A4SWIFT also creates document libraries used by the Message Repair and New Submission component.</span></span>  

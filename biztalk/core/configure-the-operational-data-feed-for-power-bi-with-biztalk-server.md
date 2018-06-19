@@ -1,15 +1,15 @@
 ---
-title: "啟用 Power BI |Microsoft 文件"
-description: "Power BI 範本 Feature Pack 中安裝 BizTalk Server"
+title: 啟用 Power BI |Microsoft 文件
+description: Power BI 範本 Feature Pack 中安裝 BizTalk Server
 ms.custom: fp1
 ms.date: 11/07/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fe6d3a97-c7c0-4147-baa9-ee12f93248eb
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969468"
 ---
 # <a name="configure-the-power-bi-operational-data-feed-in-biztalk-server"></a><span data-ttu-id="1b129-103">設定 Power BI 作業中的資料摘要 BizTalk Server</span><span class="sxs-lookup"><span data-stu-id="1b129-103">Configure the Power BI operational data feed in BizTalk Server</span></span>
 

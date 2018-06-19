@@ -1,11 +1,11 @@
 ---
-title: "產生 WCF 用戶端或 Oracle 資料庫方案成品的 WCF 服務合約 |Microsoft 文件"
-ms.custom: 
+title: 產生 WCF 用戶端或 Oracle 資料庫方案成品的 WCF 服務合約 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF service model programming, creating a proxy
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - creating a proxy
 - proxy programming, creating a proxy
 ms.assetid: 3e832ae9-e253-4476-9f25-8cf0de12f469
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215886"
 ---
 # <a name="generate-a-wcf-client-or-a-wcf-service-contract-for-oracle-database-solution-artifacts"></a><span data-ttu-id="d4221-102">產生 WCF 用戶端或 Oracle 資料庫方案成品的 WCF 服務合約</span><span class="sxs-lookup"><span data-stu-id="d4221-102">Generate a WCF client or a WCF service contract for Oracle Database solution artifacts</span></span>
 <span data-ttu-id="d4221-103">您可以使用[!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]產生 WCF 用戶端類別或 WCF 服務合約 （介面） 為目標的 Oracle 資料庫成品中選取的作業。</span><span class="sxs-lookup"><span data-stu-id="d4221-103">You can use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] to generate a WCF client class or a WCF service contract (interface) targeted at selected operations on Oracle database artifacts.</span></span> <span data-ttu-id="d4221-104">您也可以使用 ServiceModel Metadata Utility Tool (svcutil.exe) 來產生 WCF 用戶端類別或 WCF 服務合約。不過，[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]公開 ServiceModel Metadata Utility Tool，透過標準的 Microsoft Windows 介面的功能。</span><span class="sxs-lookup"><span data-stu-id="d4221-104">You can also use the ServiceModel Metadata Utility Tool (svcutil.exe) to generate the WCF client class or WCF service contract; however, the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] exposes the functionality of the ServiceModel Metadata Utility Tool through a standard Microsoft Windows interface.</span></span> <span data-ttu-id="d4221-105">它也提供不是使用 svcutil.exe 工具，可用的瀏覽和搜尋功能，並在產生組態檔，根據您連接到 Oracle 資料庫時，您選取的繫結屬性。</span><span class="sxs-lookup"><span data-stu-id="d4221-105">It also provides browse and search capabilities that are not available with the svcutil.exe tool, and it generates a configuration file based on the binding properties that you select when you connect to the Oracle database.</span></span>  
@@ -33,7 +34,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  <span data-ttu-id="d4221-109">在[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]方案總管 中，以滑鼠右鍵按一下您的專案，然後**新增配接器服務參考**。</span><span class="sxs-lookup"><span data-stu-id="d4221-109">In [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] Solution Explorer, right-click your project, and then click **Add Adapter Service Reference**.</span></span>  
   
-2.  <span data-ttu-id="d4221-110">之後**新增配接器服務參考**對話方塊隨即開啟，請依照下列中的步驟[擷取 Oracle 作業在 Visual Studio 中的中繼資料](../../adapters-and-accelerators/adapter-oracle-database/get-metadata-for-oracle-database-operations-in-visual-studio.md)連接到 Oracle 資料庫並瀏覽及搜尋作業。</span><span class="sxs-lookup"><span data-stu-id="d4221-110">After the **Add Adapter Service Reference** dialog box opens, follow the steps in [Retrieve metadata for Oracle operations in Visual Studio](../../adapters-and-accelerators/adapter-oracle-database/get-metadata-for-oracle-database-operations-in-visual-studio.md) to connect to the Oracle database and browse and search for operations.</span></span> <span data-ttu-id="d4221-111">若要建立的作業，您選取的 WCF 用戶端類別，務必**用戶端 （輸出作業）**選取從**選取合約型別**下拉式清單 （這是預設值）。</span><span class="sxs-lookup"><span data-stu-id="d4221-111">To create a WCF client class for the operations that you select, be sure that **Client (Outbound operations)** is selected from the **Select contract type** drop-down list (this is the default).</span></span>  
+2.  <span data-ttu-id="d4221-110">之後**新增配接器服務參考**對話方塊隨即開啟，請依照下列中的步驟[擷取 Oracle 作業在 Visual Studio 中的中繼資料](../../adapters-and-accelerators/adapter-oracle-database/get-metadata-for-oracle-database-operations-in-visual-studio.md)連接到 Oracle 資料庫並瀏覽及搜尋作業。</span><span class="sxs-lookup"><span data-stu-id="d4221-110">After the **Add Adapter Service Reference** dialog box opens, follow the steps in [Retrieve metadata for Oracle operations in Visual Studio](../../adapters-and-accelerators/adapter-oracle-database/get-metadata-for-oracle-database-operations-in-visual-studio.md) to connect to the Oracle database and browse and search for operations.</span></span> <span data-ttu-id="d4221-111">若要建立的作業，您選取的 WCF 用戶端類別，務必**用戶端 （輸出作業）** 選取從**選取合約型別**下拉式清單 （這是預設值）。</span><span class="sxs-lookup"><span data-stu-id="d4221-111">To create a WCF client class for the operations that you select, be sure that **Client (Outbound operations)** is selected from the **Select contract type** drop-down list (this is the default).</span></span>  
   
 3.  <span data-ttu-id="d4221-112">在您選取的所有作業，您要為目標，請按一下之後**確定**產生 WCF 用戶端類別。</span><span class="sxs-lookup"><span data-stu-id="d4221-112">After you select all of the operations that you want to target, click **OK** to generate the WCF client class.</span></span>  
   
@@ -57,7 +58,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  <span data-ttu-id="d4221-133">之後**新增配接器服務參考**對話方塊隨即開啟，請依照下列中的步驟[擷取 Oracle 作業在 Visual Studio 中的中繼資料](../../adapters-and-accelerators/adapter-oracle-database/get-metadata-for-oracle-database-operations-in-visual-studio.md)連接到 Oracle 資料庫。</span><span class="sxs-lookup"><span data-stu-id="d4221-133">After the **Add Adapter Service Reference** dialog box opens, follow the steps in [Retrieve metadata for Oracle operations in Visual Studio](../../adapters-and-accelerators/adapter-oracle-database/get-metadata-for-oracle-database-operations-in-visual-studio.md) to connect to the Oracle database.</span></span> <span data-ttu-id="d4221-134">有數個繫結屬性和您可能想要您連接到 Oracle 資料庫的輸入操作時，將 URI 屬性。</span><span class="sxs-lookup"><span data-stu-id="d4221-134">There are several binding properties and a URI property that you may want to set when you connect to the Oracle database for inbound operations.</span></span> <span data-ttu-id="d4221-135">例如，針對輸入的輪詢作業 (**POLLINGSTMT**)，您必須指定**PollingStatement**當設定 Oracle 資料庫的連接時，繫結屬性。</span><span class="sxs-lookup"><span data-stu-id="d4221-135">For example, for the inbound polling operation (**POLLINGSTMT**), you must specify the **PollingStatement** binding property when you configure the connection to the Oracle database.</span></span> <span data-ttu-id="d4221-136">[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]來產生表示 POLLINGSTMT 作業所傳回的結果集的類別會使用這個屬性中指定的 SQL SELECT 陳述式。</span><span class="sxs-lookup"><span data-stu-id="d4221-136">The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] uses the SQL SELECT statement specified in this property to generate the class that represents the result set returned by the POLLINGSTMT operation.</span></span>  
   
-3.  <span data-ttu-id="d4221-137">您已經連接到 Oracle 資料庫之後，請選取**服務 （輸入操作）**從**選取合約型別**下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="d4221-137">After you have connected to the Oracle database, select **Service (Inbound operations)** from the **Select contract type** drop-down list.</span></span>  
+3.  <span data-ttu-id="d4221-137">您已經連接到 Oracle 資料庫之後，請選取**服務 （輸入操作）** 從**選取合約型別**下拉式清單。</span><span class="sxs-lookup"><span data-stu-id="d4221-137">After you have connected to the Oracle database, select **Service (Inbound operations)** from the **Select contract type** drop-down list.</span></span>  
   
 4.  <span data-ttu-id="d4221-138">在**選取類別目錄**方塊中，按一下根節點 (**/**)，並瀏覽至您要用來產生服務合約的作業。</span><span class="sxs-lookup"><span data-stu-id="d4221-138">In the **Select a category** box, click the root node (**/**), and browse to the operation for which you want to generate the service contract.</span></span> <span data-ttu-id="d4221-139">例如，輪詢作業中，選取**POLLINGSTMT**從**可用的類別和作業**方塊，然後再按一下**新增**。</span><span class="sxs-lookup"><span data-stu-id="d4221-139">For example, for the polling operation, select **POLLINGSTMT** from the **Available categories and operations** box, and then click **Add**.</span></span>  
   

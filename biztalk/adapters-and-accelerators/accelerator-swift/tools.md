@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22213910"
 ---
 # <a name="tools"></a><span data-ttu-id="d539d-102">工具</span><span class="sxs-lookup"><span data-stu-id="d539d-102">Tools</span></span>
 <span data-ttu-id="d539d-103">本節提供使用公用程式中包含的指示[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]軟體開發套件 (SDK)。</span><span class="sxs-lookup"><span data-stu-id="d539d-103">This section provides instructions for using utilities included in the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] Software Development Kit (SDK).</span></span>  

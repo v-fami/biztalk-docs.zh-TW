@@ -1,14 +1,14 @@
 ---
-title: "資料和結構的節點直接對應到訊息執行個體 |Microsoft 文件"
-ms.custom: 
+title: 資料和結構的節點直接對應到訊息執行個體 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 18cf721c-2972-43c6-8ae4-f2f8f83ba2c5
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263254"
 ---
 # <a name="nodes-that-correspond-directly-to-message-instance-data-and-structure"></a><span data-ttu-id="5ee32-102">直接對應到訊息執行個體資料與結構的節點</span><span class="sxs-lookup"><span data-stu-id="5ee32-102">Nodes That Correspond Directly to Message Instance Data and Structure</span></span>
 <span data-ttu-id="5ee32-103">某些用來在 BizTalk 編輯器中建立結構描述的節點類型，會直接對應到由結構描述所決定之執行個體訊息的 XML 表示法中的項目與屬性 (對於像是一般檔案格式之類的其它執行個體訊息格式，只有從其它格式轉換後並轉譯為其它格式前，才會有這種對應存在)。</span><span class="sxs-lookup"><span data-stu-id="5ee32-103">Some of the node types that you use to create schemas in BizTalk Editor correspond directly to elements and attributes in XML representation of instance messages governed by the schema (for other instance message formats, such as flat file formats, this correspondence only exists after translation from the other format and before translation to the other format).</span></span> <span data-ttu-id="5ee32-104">這些節點型別是**記錄**節點 (包括根**記錄**節點)，**欄位項目**節點，和**欄位屬性**節點。</span><span class="sxs-lookup"><span data-stu-id="5ee32-104">These node types are **Record** nodes (including root **Record** nodes), **Field Element** nodes, and **Field Attribute** nodes.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "GetWorkflowProperty |Microsoft 文件"
-ms.custom: 
+title: GetWorkflowProperty |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c9d3029e-3267-46bc-ba2e-1c6fa1f2e931
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246430"
 ---
 # <a name="getworkflowproperty"></a><span data-ttu-id="53b13-102">GetWorkflowProperty</span><span class="sxs-lookup"><span data-stu-id="53b13-102">GetWorkflowProperty</span></span>
 <span data-ttu-id="53b13-103">將擷取自工作流程之根活動的屬性推至堆疊上。</span><span class="sxs-lookup"><span data-stu-id="53b13-103">Pushes the extracted property from the root activity of the workflow onto the stack.</span></span>  

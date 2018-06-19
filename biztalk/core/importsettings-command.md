@@ -1,14 +1,14 @@
 ---
-title: "ImportSettings 命令 |Microsoft 文件"
-ms.custom: 
+title: ImportSettings 命令 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 587f7e1f-9cf7-4e7b-90cd-11a266f474dc
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257550"
 ---
 # <a name="importsettings-command"></a><span data-ttu-id="3dc80-102">ImportSettings 命令</span><span class="sxs-lookup"><span data-stu-id="3dc80-102">ImportSettings Command</span></span>
 <span data-ttu-id="3dc80-103">從來源 XML 檔案將 BizTalk 群組、主控件或主控件執行個體設定匯入組態資料庫。</span><span class="sxs-lookup"><span data-stu-id="3dc80-103">Imports the BizTalk group, host, or host instance settings from a source XML file to the configuration database.</span></span> <span data-ttu-id="3dc80-104">設定在匯入對應的 XML 檔案中後會進行對應。</span><span class="sxs-lookup"><span data-stu-id="3dc80-104">The settings are mapped as they are in the mapping XML file.</span></span> <span data-ttu-id="3dc80-105">這些設定可能是已匯出中所述[匯入或匯出 BizTalk 設定使用設定儀表板](how-to-import-biztalk-settings-using-settings-dashboard.md)或[匯入或匯出 BizTalk 設定使用 BTSTask](how-to-import-biztalk-settings-using-btstask.md)。</span><span class="sxs-lookup"><span data-stu-id="3dc80-105">These settings may have been exported as described in [Import or export BizTalk Settings Using Settings Dashboard](how-to-import-biztalk-settings-using-settings-dashboard.md) or [Import or export BizTalk Settings Using BTSTask](how-to-import-biztalk-settings-using-btstask.md).</span></span>  

@@ -1,17 +1,17 @@
 ---
-title: "步驟 3： 測試移轉的 Application6 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3： 測試移轉的 Application6 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - migration, testing the migrated application (RFC)
 - migration
 ms.assetid: 1b1ee59c-a5a3-442d-af2c-0fc4817f3063
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,13 +20,14 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216798"
 ---
 # <a name="step-3-test-the-migrated-application"></a><span data-ttu-id="3eeb8-102">步驟 3： 測試已移轉的應用程式</span><span class="sxs-lookup"><span data-stu-id="3eeb8-102">Step 3: Test the Migrated Application</span></span>
 <span data-ttu-id="3eeb8-103">![步驟 3 之 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-3of3.gif "Step_3of3")</span><span class="sxs-lookup"><span data-stu-id="3eeb8-103">![Step 3 of 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-3of3.gif "Step_3of3")</span></span>  
   
  <span data-ttu-id="3eeb8-104">**若要完成的時間：** 5 分鐘</span><span class="sxs-lookup"><span data-stu-id="3eeb8-104">**Time to complete:** 5 minutes</span></span>  
   
- <span data-ttu-id="3eeb8-105">**目標：**在此步驟中，您會測試已移轉的應用程式叫用 SD_RFC_CUSTOMER_GET RFC。</span><span class="sxs-lookup"><span data-stu-id="3eeb8-105">**Objective:** In this step, you will test the migrated application by invoking the SD_RFC_CUSTOMER_GET RFC.</span></span> <span data-ttu-id="3eeb8-106">若要這樣做，您卸除使用 vPrev SAP 配接器所產生的結構描述的要求訊息。</span><span class="sxs-lookup"><span data-stu-id="3eeb8-106">To do this, you drop a request message that conforms to the schema generated using the vPrev SAP adapter.</span></span>  
+ <span data-ttu-id="3eeb8-105">**目標：** 在此步驟中，您會測試已移轉的應用程式叫用 SD_RFC_CUSTOMER_GET RFC。</span><span class="sxs-lookup"><span data-stu-id="3eeb8-105">**Objective:** In this step, you will test the migrated application by invoking the SD_RFC_CUSTOMER_GET RFC.</span></span> <span data-ttu-id="3eeb8-106">若要這樣做，您卸除使用 vPrev SAP 配接器所產生的結構描述的要求訊息。</span><span class="sxs-lookup"><span data-stu-id="3eeb8-106">To do this, you drop a request message that conforms to the schema generated using the vPrev SAP adapter.</span></span>  
   
 ## <a name="prerequisites"></a><span data-ttu-id="3eeb8-107">必要條件</span><span class="sxs-lookup"><span data-stu-id="3eeb8-107">Prerequisites</span></span>  
   

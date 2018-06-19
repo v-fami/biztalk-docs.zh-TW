@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Delay shape [Orchestration Designer], about Delay shape
 - configuring [Orchestration Designer], Delay shapes
 ms.assetid: 727be28d-932a-41d5-af3f-3ee6f7129a17
-caps.latest.revision: ''
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22248334"
 ---
 # <a name="how-to-configure-the-delay-shape"></a><span data-ttu-id="18a90-102">如何設定延遲圖形</span><span class="sxs-lookup"><span data-stu-id="18a90-102">How to Configure the Delay Shape</span></span>
 <span data-ttu-id="18a90-103">![](../core/media/ebiz-orch-delay.gif "ebiz_orch_delay")</span><span class="sxs-lookup"><span data-stu-id="18a90-103">![](../core/media/ebiz-orch-delay.gif "ebiz_orch_delay")</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214270"
 ---
 # <a name="get-metadata-programmatically-from-the-oracle-database"></a><span data-ttu-id="0923a-102">以程式設計方式從 Oracle 資料庫中取得中繼資料</span><span class="sxs-lookup"><span data-stu-id="0923a-102">Get Metadata Programmatically from the Oracle Database</span></span>
 <span data-ttu-id="0923a-103">[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]是自訂的 WCF 繫結會公開為 WCF 服務的 Oracle 資料庫。</span><span class="sxs-lookup"><span data-stu-id="0923a-103">The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] is a custom WCF binding that exposes an Oracle database as a WCF service.</span></span> <span data-ttu-id="0923a-104">配接器公開 Oracle 資料庫為自我描述的服務。也就是能夠發行中繼資料支援的作業有關的服務。</span><span class="sxs-lookup"><span data-stu-id="0923a-104">The adapter exposes the Oracle database as a self-describing service; that is, a service that is capable of publishing metadata about the operations that it supports.</span></span> <span data-ttu-id="0923a-105">中繼資料描述至 WCF 服務; 的邏輯介面也就是服務合約、 訊息和訊息結構描述必須用來與服務互動。</span><span class="sxs-lookup"><span data-stu-id="0923a-105">Metadata describes the logical interface to a WCF service; that is, the service contract, messages, and message schemas that must be used to interact with the service.</span></span>  
