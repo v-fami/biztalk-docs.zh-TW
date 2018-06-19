@@ -1,11 +1,11 @@
 ---
-title: "檢查清單： 封存和清除 BizTalk 追蹤資料庫 |Microsoft 文件"
-ms.custom: 
+title: 檢查清單： 封存和清除 BizTalk 追蹤資料庫 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - archiving [Tracking database], checklist
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - purging, checklist
 - checklists, archiving [Tracking database]
 ms.assetid: dccbf471-2add-498e-b292-287d9a94161b
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232238"
 ---
 # <a name="checklist-archiving-and-purging-the-biztalk-tracking-database"></a>檢查清單：封存和清除 BizTalk 追蹤資料庫
 |步驟|參考|  

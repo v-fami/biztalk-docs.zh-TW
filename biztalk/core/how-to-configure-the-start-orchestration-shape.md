@@ -1,11 +1,11 @@
 ---
-title: "如何設定啟動協調流程圖形 |Microsoft 文件"
-ms.custom: 
+title: 如何設定啟動協調流程圖形 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring [Orchestration Designer], Start Orchestration shapes
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - Start Orchestration shape [Orchestration Designer], starting orchestrations
 - Start Orchestration shape [Orchestration Designer], about Star Orchestration shape
 ms.assetid: 9d01c41e-9bc5-4c1c-a869-b2f0df13036a
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249662"
 ---
 # <a name="how-to-configure-the-start-orchestration-shape"></a>如何設定啟動協調流程圖形
 **啟動協調流程**圖形是類似於**呼叫協調流程**圖形，但您叫用另一個協調流程，以非同步方式與**啟動協調流程**圖形 — 也就是叫用的協調流程中的控制流程會繼續超出引動過程，而不需等待叫用的協調流程完成其工作。  

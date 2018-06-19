@@ -1,18 +1,18 @@
 ---
-title: "區段通用結構描述 |Microsoft 文件"
-ms.custom: 
+title: 區段通用結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - 2.X schemas, common schemas
 - 2.X schemas, segments
 - common schemas
 ms.assetid: 6f66bce9-ead8-46c1-a66c-830750adc73b
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25960692"
 ---
 # <a name="segments-common-schemas"></a>區段的一般結構描述
 **Segments_\<*版本*\>.xsd**檔案包含 datatypes_\<*版本*\>.xsd 和包含HL7 版本相關的所有區段定義。 每個訊息結構描述會使用 segments_\<*版本*\>.xsd。 HL7 訊息定義在每個子資料夾之下，而且包括 segments_\<*版本*\>.xsd。 SegmentDataElements 和 DataElements 存取資料庫資料表產生 segments_\<*版本*\>.xsd 檔案，其中包含所有資料類型的 Fields.xsd 結構描述檔的指標。 結構描述檔案名稱格式如下：  

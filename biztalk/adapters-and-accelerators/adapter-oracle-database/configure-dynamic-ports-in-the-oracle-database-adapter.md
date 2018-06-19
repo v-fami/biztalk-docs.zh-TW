@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214142"
 ---
 # <a name="configure-dynamic-ports-in-the-oracle-database-adapter"></a>在 Oracle 資料庫配接器中設定動態連接埠
 在[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]，您可以設定動態連接埠[!INCLUDE[wcfadapter_short](../../includes/wcfadapter-short-md.md)]。 因為[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]是 WCF 架構的配接器，您可以動態設定的連接埠[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]使用訊息內容屬性。  

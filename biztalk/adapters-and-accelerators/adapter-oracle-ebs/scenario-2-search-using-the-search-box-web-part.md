@@ -1,14 +1,14 @@
 ---
-title: "案例 2: 使用搜尋方塊 」 web 組件搜尋 |Microsoft 文件"
-ms.custom: 
+title: '案例 2: 使用搜尋方塊 」 web 組件搜尋 |Microsoft 文件'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a233772f-7577-4ac5-b55a-cb1ba2f464c7
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218542"
 ---
 # <a name="scenario-2--search-using-the-search-box-web-part"></a>使用搜尋方塊 」 web 組件搜尋案例 2:
 若要設定使用您可以在同時執行全文檢索搜尋的搜尋應用程式的 Microsoft Office SharePoint Server 中設定搜尋設定 Oracle E-business Suite 中的 MS_SAMPLE_EMPLOYEE 介面資料表。 稍後，我們會加入搜尋方塊網頁組件從您可以在其中執行搜尋。  

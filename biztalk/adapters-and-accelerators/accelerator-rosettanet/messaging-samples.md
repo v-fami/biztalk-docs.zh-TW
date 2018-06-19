@@ -1,18 +1,18 @@
 ---
-title: "傳訊範例 |Microsoft 文件"
-ms.custom: 
+title: 傳訊範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SDK samples, messaging
 - examples, messaging
 - messages, examples
 ms.assetid: c31a33c6-f03e-4887-95da-6014b3053deb
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209222"
 ---
 # <a name="messaging-samples"></a>傳訊範例
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]®[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]軟體開發套件 (SDK) 包含示範傳訊功能的範例。 本節提供有關這些範例示範的功能、建置和執行這些範例的指示以及您可預期之結果的詳細資訊。  

@@ -13,7 +13,7 @@ helpviewer_keywords:
 - SegmentDataElements table
 - segments, X optionality
 ms.assetid: 8a59b407-95a2-45ba-a8d6-db4154c91d7b
-caps.latest.revision: ''
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22207214"
 ---
 # <a name="39x39-and-39y39-optionality"></a>&#39;X&#39;和&#39;Y&#39;選用性
 HL7 Access 資料庫中的 SegmentDataElements 資料表包含數個資料的項目 （欄位） 將設為**Req/Opt = X**，這表示 HL7 標準不將這個欄位關聯與此觸發程序事件，如中所示下表。  

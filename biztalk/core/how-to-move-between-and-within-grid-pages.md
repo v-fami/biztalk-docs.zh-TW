@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254318"
 ---
 # <a name="how-to-move-between-and-within-grid-pages"></a>如何在格線頁之間以及在格線頁中移動
 若您的對應很複雜，您很可能無法同時在單一格線頁內看見所有的連結與運算質。 這表示您必須能夠在格線頁內捲動。 而且，若您的對應具有多個格線頁，則您必須能夠在格線頁之間移動。 本主題提供這些作業的逐步指示。  

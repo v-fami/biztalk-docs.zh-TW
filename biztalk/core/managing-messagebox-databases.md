@@ -1,18 +1,18 @@
 ---
-title: "管理 MessageBox 資料庫 |Microsoft 文件"
-ms.custom: 
+title: 管理 MessageBox 資料庫 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [MessageBox database], about managing MessageBox database
 - managing [MessageBox database]
 - MessageBox database, managing
 ms.assetid: 9675b5d5-7a69-468d-be42-34a72cd6e5c2
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262142"
 ---
 # <a name="managing-messagebox-databases"></a>管理 MessageBox 資料庫
 MessageBox 資料庫有三個基本功能。 它儲存訂閱與追蹤資訊，並將訊息傳遞到符合訂閱的服務。 MessageBox 資料庫是一個主控件平台，儲存每個 BizTalk 主控件的佇列和狀態資料表。 MessageBox 資料庫也儲存訊息及訊息屬性。  

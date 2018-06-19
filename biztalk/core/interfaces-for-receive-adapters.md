@@ -1,14 +1,14 @@
 ---
-title: "接收配接器介面。 |Microsoft 文件"
-ms.custom: 
+title: 接收配接器介面。 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 00bbe185-6a21-41e8-be1d-c3f0c1a96bde
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257558"
 ---
 # <a name="interfaces-for-receive-adapters"></a>接收配接器介面
 本節描述您在開發接收配接器時需要實作的介面。  

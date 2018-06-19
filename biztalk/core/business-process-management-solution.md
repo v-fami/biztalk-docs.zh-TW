@@ -1,11 +1,11 @@
 ---
-title: "商務程序管理解決方案 |Microsoft 文件"
-ms.custom: 
+title: 商務程序管理解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - business solutions, tutorials
@@ -25,7 +25,7 @@ helpviewer_keywords:
 - orchestrations, tutorials
 - applications, process management solutions
 ms.assetid: 30ebd248-7e31-4608-ae50-4fc6703ae613
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -34,6 +34,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232094"
 ---
 # <a name="business-process-management-solution"></a>商務程序管理解決方案
 商務程序管理解決方案會顯示如何設計 BizTalk 應用程式，以管理像是服務訂單處理等的商務程序。 解決方案會示範如何建構程式管理員，以及提供將程序分成不同階段的相關指導。 解決方案也會描述如何建構可中斷的協調流程，以及大量且複雜的例外狀況處理。  

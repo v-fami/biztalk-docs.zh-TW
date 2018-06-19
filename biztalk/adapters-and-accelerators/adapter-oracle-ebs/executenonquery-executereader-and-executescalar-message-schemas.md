@@ -1,14 +1,14 @@
 ---
-title: "ExecuteNonQuery、 ExecuteReader，和 ExecuteScalar Operations1 訊息結構描述 |Microsoft 文件"
-ms.custom: 
+title: ExecuteNonQuery、 ExecuteReader，和 ExecuteScalar Operations1 訊息結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8aa5fdb2-1e7f-4a34-a1e5-c16d8fb477d5
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216150"
 ---
 # <a name="message-schemas-for-the-executenonquery-executereader-and-executescalar-operations"></a>ExecuteNonQuery、 ExecuteReader 和 ExecuteScalar 作業的訊息結構描述
 [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]公開執行 Oracle E-business Suite 中的任何任意的 SQL 陳述式或 PL/SQL 封鎖根層級的 ExecuteNonQuery、 ExecuteReader 和 ExecuteScalar 輸出作業。  

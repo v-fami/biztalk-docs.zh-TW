@@ -1,17 +1,17 @@
 ---
-title: "步驟 1： 建置並部署 BizTalk 專案 vPrev 傳送 IDOC |Microsoft 文件"
-ms.custom: 
+title: 步驟 1： 建置並部署 BizTalk 專案 vPrev 傳送 IDOC |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - migration, building and deploying previous version of BizTalk project for sending an IDOC
 - migration
 ms.assetid: 1982b318-45d1-464e-b7e4-65d459c439e3
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,13 +20,14 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216886"
 ---
 # <a name="step-1-build-and-deploy-the-vprev-biztalk-project-for-sending-an-idoc"></a>步驟 1： 建立和部署傳送 IDOC vPrev BizTalk 專案
 ![步驟 3 之 1](../../adapters-and-accelerators/adapter-oracle-database/media/step-1of3.gif "Step_1of3")  
   
  **若要完成的時間：** 5 分鐘  
   
- **目標：**在此步驟中，您要建置和部署現有的 vPrev BizTalk 專案，以傳送 IDOC 至 SAP 系統。  
+ **目標：** 在此步驟中，您要建置和部署現有的 vPrev BizTalk 專案，以傳送 IDOC 至 SAP 系統。  
   
 > [!NOTE]
 >  您不需要進行任何變更 vPrev BizTalk 專案。  

@@ -1,15 +1,15 @@
 ---
-title: "開始使用 BizTalk Adapter for mySAP Business Suite |Microsoft 文件"
-description: "安裝自訂 Rfc、 了解配接器、 完成上逐步教學課程，可使用 mySAP 配接器的 BizTalk 配接器組件 (BAP) 中執行 SAP RFC 和 IDOC 工作"
-ms.custom: 
+title: 開始使用 BizTalk Adapter for mySAP Business Suite |Microsoft 文件
+description: 安裝自訂 Rfc、 了解配接器、 完成上逐步教學課程，可使用 mySAP 配接器的 BizTalk 配接器組件 (BAP) 中執行 SAP RFC 和 IDOC 工作
+ms.custom: ''
 ms.date: 08/16/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e2013253-f911-4e35-a33a-b4a9bcb136aa
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216318"
 ---
 # <a name="get-started-with-the-biztalk-adapter-for-mysap-business-suite"></a>開始使用 BizTalk Adapter for mySAP Business Suite
 本節提供使用者熟悉 Microsoft 配接器、 必要條件和主題的總覽[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]。 其中也會討論的功能[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]以及可對使用配接器的 SAP 系統的不同作業。  

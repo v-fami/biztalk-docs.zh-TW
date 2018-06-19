@@ -1,14 +1,14 @@
 ---
-title: "EDI 覆寫內容屬性 |Microsoft 文件"
-ms.custom: 
+title: EDI 覆寫內容屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d78cd56f-1e34-4503-8ee1-93b52137097f
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22243238"
 ---
 # <a name="edi-override-context-properties"></a>EDI 覆寫內容屬性
 EdiOverride 全域屬性結構描述中的訊息內容屬性可用來覆寫在執行階段的 EDI 信封值。 在 edi-properties.xsd Microsoft.BizTalk.Edi.BaseArtifacts 組件中定義這些訊息內容屬性。 屬性的命名空間是 `http://schemas.microsoft.com/BizTalk/2006/edi-properties`。  
@@ -51,7 +52,7 @@ EdiOverride 全域屬性結構描述中的訊息內容屬性可用來覆寫在�
 |GS07|string|負責單位代碼 (X12)|  
 |GS08|string|版本/版次/產業識別項代碼 (X12)|  
 |ST02|string|交易集控制編號 (X12)<br /><br /> 如果交易集控制編號覆寫時，交易集結尾區段 (SE) 中對應的欄位會設符合這個值。|  
-|GenerateUNA|boolean|決定是否 EDI 傳送管線將會建立輸出的 EDIFACT 文件的 UNA 區段。<br /><br /> 如果 OverrideEdiHeader 為 true，所以 GenerateUNA 為 true，將會產生 UNA 區段。 如果 OverrideEdiHeader 為 true，且產生 UNA 為 false，將會產生 UNA 區段。<br /><br /> UNA 區段的值會依下列順序決定：<br /><br /> -EdiOverride 內容屬性，如果所有的 UNA 屬性都存在。<br />-如果不是所有的內容屬性存在，且產生 UNA 區段會檢查在合作對象屬性中，內容屬性和合作對象屬性的組合。<br />-如果不是所有的內容屬性存在，且產生 UNA 區段未在合作對象屬性中，內容屬性和值的組合標準 UNA**附註：**如果 OverrideEdiHeader 為 false，這個欄位可以有任何作用。|  
+|GenerateUNA|boolean|決定是否 EDI 傳送管線將會建立輸出的 EDIFACT 文件的 UNA 區段。<br /><br /> 如果 OverrideEdiHeader 為 true，所以 GenerateUNA 為 true，將會產生 UNA 區段。 如果 OverrideEdiHeader 為 true，且產生 UNA 為 false，將會產生 UNA 區段。<br /><br /> UNA 區段的值會依下列順序決定：<br /><br /> -EdiOverride 內容屬性，如果所有的 UNA 屬性都存在。<br />-如果不是所有的內容屬性存在，且產生 UNA 區段會檢查在合作對象屬性中，內容屬性和合作對象屬性的組合。<br />-如果不是所有的內容屬性存在，且產生 UNA 區段未在合作對象屬性中，內容屬性和值的組合標準 UNA**附註：** 如果 OverrideEdiHeader 為 false，這個欄位可以有任何作用。|  
 |UNA1|string|元件資料元素分隔符號 (EDIFACT)|  
 |UNA2|string|資料元素分隔符號 (EDIFACT)|  
 |UNA3|string|小數符號 (EDIFACT)|  
@@ -76,7 +77,7 @@ EdiOverride 全域屬性結構描述中的訊息內容屬性可用來覆寫在�
 |UNB7|string|應用程式參考 (EDIFACT)|  
 |UNB8|string|處理優先順序代碼 (EDIFACT)|  
 |UNB9|string|通知要求 (EDIFACT)|  
-|GenerateUNG|boolean|決定是否 EDI 傳送管線將會建立輸出的 EDIFACT 文件的 UNG 區段。<br /><br /> 如果 OverrideEdiHeader 為 true，而且 GenerateUNG 為 true，將會產生 UNG 區段。 如果 OverrideEdiHeader 為 true，產生 UNG 為 false，將會產生 UNG 區段。<br /><br /> UNG 區段的值會依下列順序決定：<br /><br /> -EdiOverride 內容屬性，如果存在 UNG 的所有屬性。<br />-如果不是所有的內容屬性存在，且產生 UNG 區段會檢查在合作對象屬性中，內容屬性和合作對象屬性的組合。<br />-如果不是所有的內容屬性存在，且產生 UNG 區段未在合作對象屬性中，內容屬性和值的組合標準 UNA**附註：**如果 OverrideEdiHeader 為 false，這個欄位可以有任何作用。|  
+|GenerateUNG|boolean|決定是否 EDI 傳送管線將會建立輸出的 EDIFACT 文件的 UNG 區段。<br /><br /> 如果 OverrideEdiHeader 為 true，而且 GenerateUNG 為 true，將會產生 UNG 區段。 如果 OverrideEdiHeader 為 true，產生 UNG 為 false，將會產生 UNG 區段。<br /><br /> UNG 區段的值會依下列順序決定：<br /><br /> -EdiOverride 內容屬性，如果存在 UNG 的所有屬性。<br />-如果不是所有的內容屬性存在，且產生 UNG 區段會檢查在合作對象屬性中，內容屬性和合作對象屬性的組合。<br />-如果不是所有的內容屬性存在，且產生 UNG 區段未在合作對象屬性中，內容屬性和值的組合標準 UNA**附註：** 如果 OverrideEdiHeader 為 false，這個欄位可以有任何作用。|  
 |UNG1|string|訊息群組識別碼 (EDIFACT)|  
 |UNG2_1|string|應用程式傳送者識別碼 (EDIFACT)|  
 |UNG2_2|string|識別代碼辨識符號 (EDIFACT)|  

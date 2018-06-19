@@ -1,11 +1,11 @@
 ---
-title: "SWIFT 的標頭和結尾結構描述 |Microsoft 文件"
-ms.custom: 
+title: SWIFT 的標頭和結尾結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - trailer schemas
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - schemas, trailers
 - header schemas
 ms.assetid: 82cd33d4-6bbb-4124-9506-fd35b5dca8a4
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214574"
 ---
 # <a name="swift-header-and-trailer-schemas"></a>SWIFT 的標頭和結尾結構描述
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]提供 SWIFT 標頭和結尾結構描述。 A4SWIFT 已經已納入這些各種 FIN 訊息交換的結構描述。 如果您想要建立自訂 SWIFT FIN 格式樣式訊息類型 （例如，N98 訊息），您可以在標頭和結尾結構描述併入您自己的格式。  

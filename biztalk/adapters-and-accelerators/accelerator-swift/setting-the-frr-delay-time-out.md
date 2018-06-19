@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22213998"
 ---
 # <a name="setting-the-frr-delay-time-out"></a>設定 FRR 延遲逾時
 您必須設定 FRR 協調流程的逾時時間後一些持續時間，因此它不會等待 FNN 回應無限期。 如果逾時期間到期，[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]發行至自訂的逾時的處理常式逾時訊息。  

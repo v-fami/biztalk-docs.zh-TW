@@ -1,11 +1,11 @@
 ---
-title: "叫用函數和程序與使用 BizTalk Server 的 Oracle 資料庫中的 REF CURSOR |Microsoft 文件"
-ms.custom: 
+title: 叫用函數和程序與使用 BizTalk Server 的 Oracle 資料庫中的 REF CURSOR |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - functions and procedures with REF CURSORS, invoking by using BizTalk Server
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - REF CURSORS
 - RECORD types
 ms.assetid: 5e84b8d3-6352-4911-93f9-5d455ff579d9
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967476"
 ---
 # <a name="invoke-functions-and-procedures-with-ref-cursors-in-oracle-database-using-biztalk-server"></a>叫用函式，並使用 BizTalk Server 的 Oracle 資料庫中的 REF CURSOR 的程序
 REF CURSOR 是 PL/SQL 資料類型，代表要執行的查詢產生伺服器端結果集的指標。 REF CURSOR 類型可讓輸入和輸出資料的資料流和適合用來傳輸大量資料給予或來自 PL/SQL 程式碼。 [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]提供強型別和弱型別 (SYS_REFCURSOR) REF 資料指標可以登出，傳遞給 PL/SQL 程序和函式做為中的或在 OUT 參數的支援。 如需有關如何[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]支援 REF Cursor，請參閱[函式和有 REF CURSOR 參數的程序上的作業](../../adapters-and-accelerators/adapter-oracle-database/ref-cursor-parameters-in-oracle-database-adapter.md)。 REF CURSOR 的 XML 結構的相關資訊，請參閱[REF CURSOR 的訊息結構描述](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-ref-cursors.md)。  
@@ -100,7 +101,7 @@ REF CURSOR 是 PL/SQL 資料類型，代表要執行的查詢產生伺服器端�
   
 |形狀圖|圖形類型|屬性|  
 |-----------|----------------|----------------|  
-|ReceiveMessage|Receive|-設定**名稱**至*ReceiveMessage*<br />-設定**啟動**至*，則為 True*|  
+|ReceiveMessage|Receive|-設定**名稱**至*ReceiveMessage*<br />-設定**啟動**至 *，則為 True*|  
 |SendMessage|Send|-設定**名稱**至*SendMessage*|  
 |ReceiveResponse|Receive|-設定**名稱**至*ReceiveResponse*<br />-設定**啟動**至*False*|  
 |SendResponse|Send|-設定**名稱**至*SendResponse*|  

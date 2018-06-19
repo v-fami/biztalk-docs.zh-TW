@@ -1,18 +1,18 @@
 ---
-title: "如何新增訂閱者至警示 |Microsoft 文件"
-ms.custom: 
+title: 如何新增訂閱者至警示 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - subscriptions, subscribers
 - subscriptions
 - managing [BAM], adding alert subscribers
 ms.assetid: c76a117d-4516-4f48-995c-7e018dbba755
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247246"
 ---
 # <a name="how-to-add-subscribers-to-an-alert"></a>如何新增訂閱者至警示
 系統管理員使用**新增訂閱**命令，將訂閱者新增至指定的警示。  

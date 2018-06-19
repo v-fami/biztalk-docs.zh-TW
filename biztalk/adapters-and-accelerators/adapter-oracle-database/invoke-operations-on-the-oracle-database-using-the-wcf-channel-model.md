@@ -1,11 +1,11 @@
 ---
-title: "使用 WCF 通道模型之 Oracle 資料庫上叫用作業 |Microsoft 文件"
-ms.custom: 
+title: 使用 WCF 通道模型之 Oracle 資料庫上叫用作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - invoking operations, using the WCF channel model
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - invoking operations
 - operations, invoking
 ms.assetid: 6dd95c18-8f78-46d0-8845-b74890614c33
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962780"
 ---
 # <a name="invoke-operations-on-the-oracle-database-using-the-wcf-channel-model"></a>使用 WCF 通道模型之 Oracle 資料庫上叫用作業
 您可以在叫用作業[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]使用**IRequestChannel**或**IOutputChannel**圖形以將訊息傳送至配接器。 基本模式是使用繫結建立通道處理站為必要的通道圖案 (**OracleDBBinding**) 和建立的連線 URI 的端點。 然後，您建立**訊息**表示 SOAP 訊息，並符合您目標的作業的訊息結構描述執行個體。 然後您可以傳送這**訊息**至[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]使用從通道處理站建立通道。 如果您使用**IRequestChannel**，您收到的回應。 如果沒有執行 Oracle 資料庫時，作業問題[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]會擲回**Microsoft.ServiceModel.Channels.Common.TargetSystemException**。  

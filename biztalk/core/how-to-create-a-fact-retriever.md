@@ -1,11 +1,11 @@
 ---
-title: "如何建立事實擷取器 |Microsoft 文件"
-ms.custom: 
+title: 如何建立事實擷取器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - IFactRetriever interface
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - UpdateFacts method
 - Business Rules Framework, programming
 ms.assetid: 503dc769-3ada-4099-a5fe-4dd03d995600
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250206"
 ---
 # <a name="how-to-create-a-fact-retriever"></a>如何建立事實擷取器
 「事實擷取器」 (Fact Retriever) 是一種元件，在其執行期間，可用於將長期事實的執行個體判斷提示到原則。 您可以實作**IFactRetriever**介面，並設定要在執行階段使用此實作以帶入長期事實執行個體的原則版本。 原則版本會叫用**UpdateFacts**上每個執行循環，如果事實擷取器針對該特定版本設定事實擷取器實作的方法。  

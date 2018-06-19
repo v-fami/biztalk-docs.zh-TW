@@ -1,14 +1,14 @@
 ---
-title: "如何備份 BAM 入口網站 |Microsoft 文件"
-ms.custom: 
+title: 如何備份 BAM 入口網站 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8cea02e6-e387-4048-a1f3-d7c3c562f470
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247118"
 ---
 # <a name="how-to-back-up-the-bam-portal"></a>如何備份 BAM 入口網站
 如果您使用商務活動監控 (BAM)，必須備份 BAM 入口網站做為備份 BizTalk Server 的一部分。 如果您未使用 BAM，則此程序是選擇性的。  
@@ -46,7 +47,7 @@ ms.lasthandoff: 09/20/2017
   
      您沒有輸入備份的名稱。 如果未設定，就會自動產生。 自動產生的備份名稱的範例是"20090224T123302。 」  
   
-     若要查看現有的設定備份清單，請輸入`appcmd list backup`，然後按下**Enter**。 使用者所建立的備份會儲存在**%windir%\system32\inetsrv\backup**目錄。 若要查看所提供的備份選項的清單**appcmd.exe**，型別`appcmd backup /?`，然後按下**Enter**。  
+     若要查看現有的設定備份清單，請輸入`appcmd list backup`，然後按下**Enter**。 使用者所建立的備份會儲存在 **%windir%\system32\inetsrv\backup**目錄。 若要查看所提供的備份選項的清單**appcmd.exe**，型別`appcmd backup /?`，然後按下**Enter**。  
   
 ## <a name="see-also"></a>另請參閱  
  [備份執行 BizTalk Server 的電腦](../core/backing-up-a-computer-running-biztalk-server.md)   

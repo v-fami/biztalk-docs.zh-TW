@@ -1,14 +1,14 @@
 ---
-title: "如何標示連結 |Microsoft 文件"
-ms.custom: 
+title: 如何標示連結 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5fb81763-8b50-4334-88a8-efad1c5d82d9
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22253790"
 ---
 # <a name="how-to-label-a-link"></a>如何標示連結
 標籤有助於記錄對應中的運算質或連結用途。 您可以使用**標籤**屬性命名連結。 當您的對應包含大型的結構描述結構，識別運算質的輸入和輸出連結變得困難時，標籤就很有用。  

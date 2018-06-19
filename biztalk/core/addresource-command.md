@@ -1,14 +1,14 @@
 ---
-title: "AddResource 命令 |Microsoft 文件"
-ms.custom: 
+title: AddResource 命令 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7b09bd8d-5e07-4443-b626-60401a158540
-caps.latest.revision: "33"
+caps.latest.revision: 33
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964444"
 ---
 # <a name="addresource-command"></a>AddResource 命令
 本節主題提供 AddResource 命令相關參數的參考資訊。 這個命令使用的參數會根據您想要加入的成品類型而有所不同。 若要取得成品類型的完整清單，請使用**ListTypes**命令中所述[ListTypes 命令](../core/listtypes-command.md)。  

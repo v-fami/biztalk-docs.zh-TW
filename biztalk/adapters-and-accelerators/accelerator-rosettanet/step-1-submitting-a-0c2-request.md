@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966132"
 ---
 # <a name="step-1-submitting-a-0c2-request"></a>步驟 1： 提交 0 C 2 要求
 在此步驟中，您將使用「0C2 - 非同步測試要求夥伴介面程序 (PIP)」來準備並提交要求。 此 PIP 可以確保兩個不同組織之間的非同步通訊管道正常運作。 此 PIP 遵循與其他非同步雙向動作 PIP (例如「3A4 - 訂單要求 PIP」) 相同的模式。  
@@ -35,7 +36,7 @@ ms.lasthandoff: 11/28/2017
     |**夥伴組織**|型別**CONTOSO**。|  
     |**Pip 代碼**|型別**0c2**。|  
     |**Pip 版本**|型別**R01.02**。|  
-    |**Pip 執行個體識別碼**|型別**0C2_Test**。 **重要事項：**您必須確定**PIP**都是唯一的每個您送出以避免發生重複訊息識別碼錯誤的訊息。 如果將來要執行 0C2 測試，您必須變更此欄位。|  
+    |**Pip 執行個體識別碼**|型別**0C2_Test**。 **重要事項：** 您必須確定**PIP**都是唯一的每個您送出以避免發生重複訊息識別碼錯誤的訊息。 如果將來要執行 0C2 測試，您必須變更此欄位。|  
     |**訊息類別**|型別**動作**。|  
   
 3.  使用 [記事本] 或其他文字編輯器，開啟中的 0C2_Request.xml 檔案\<*磁碟機*\>: \Program Files\Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK\LOBApplication\SampleInstances 資料夾，然後複製並貼上內容**服務內容**lobwebapplication 的欄位。  
@@ -54,7 +55,7 @@ ms.lasthandoff: 11/28/2017
   
 ### <a name="to-verify-successful-communication-on-the-contoso-computer"></a>確認 Contoso 電腦成功進行通訊  
   
-1.  按一下 **[開始]**，依序指向 **[所有程式]**和 **[Microsoft SQL Server]**，然後按一下 **[SQL Server Management Studio]**。  
+1.  按一下 **[開始]**，依序指向 **[所有程式]** 和 **[Microsoft SQL Server]**，然後按一下 **[SQL Server Management Studio]**。  
   
 2.  在**連接到伺服器**對話方塊中，於**SQL Server**方塊中，輸入**localhost**，選取**Windows 驗證**，然後按一下**連接**。  
   

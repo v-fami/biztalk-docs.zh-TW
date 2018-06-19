@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22263190"
 ---
 # <a name="mime-smime-property-schema-and-properties"></a>MIME SMIME 屬性結構描述和屬性
 

@@ -1,18 +1,18 @@
 ---
-title: "排除 CertSrv 從受管理的路徑上的單一電腦部署 |Microsoft 文件"
-ms.custom: 
+title: 排除 CertSrv 從受管理的路徑上的單一電腦部署 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managed paths
 - certificate server (CertSrv)
 - certificates, certificate server (CertSrv)
 ms.assetid: 39916663-b80e-49d8-ba9b-49276eb564fc
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207430"
 ---
 # <a name="excluding-certsrv-from-managed-paths-on-a-single-computer-deployment"></a>從單一電腦部署受管理的路徑排除 CertSrv
 如果您已部署[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]在單一電腦上，而且也安裝憑證伺服器的相同電腦上，您需要從受管理的路徑中排除憑證伺服器 (CertSrv) [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] SharePoint Server 管理中心。  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216558"
 ---
 # <a name="sapcommand-class-in-the-sap-adapter"></a>SAP 配接器在 SAPCommand 類別
 此命令會表示 SQL 查詢，以在 SAP 後端上執行。 [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)]目前支援 SELECT 和 EXEC 陳述式只。 SELECT 陳述式啟用從單一的 SAP 資料表擷取資料和 EXEC 陳述式可讓使用者在 SAP 伺服器上執行 Rfc。  

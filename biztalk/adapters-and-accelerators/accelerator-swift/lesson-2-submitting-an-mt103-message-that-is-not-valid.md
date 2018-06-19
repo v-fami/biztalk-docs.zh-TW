@@ -1,11 +1,11 @@
 ---
-title: "第 2 課： 送出不是有效的 MT103 訊息 |Microsoft 文件"
-ms.custom: 
+title: 第 2 課： 送出不是有效的 MT103 訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, invalid messages
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - MT103 messages
 - messages, MT103 messages
 ms.assetid: 4b070ae1-c400-421a-b2f6-b7b1f22c0e41
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961292"
 ---
 # <a name="lesson-2-submitting-an-mt103-message-that-is-not-valid"></a>第 2 課： 送出不是有效的 MT103 訊息
 在這一課，您提交 MT103 訊息不是有效，然後在您解決使用系統工具產生的錯誤。  

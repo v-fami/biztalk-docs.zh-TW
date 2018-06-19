@@ -1,14 +1,14 @@
 ---
-title: "如何避免磁碟 Contention1 |Microsoft 文件"
-ms.custom: 
+title: 如何避免磁碟 Contention1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8b4f8e10-16b0-45f9-8787-da16266da980
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22248254"
 ---
 # <a name="how-to-avoid-disk-contention"></a>如何避免磁碟爭用
 BizTalk Server 設計為一個持續性的系統，因此在高輸送量的情況下，MessageBox 可能會遇到嚴重的爭用情況。 這個爭用情況可能會因緩慢的磁碟而加重。 如果磁碟緩慢 (磁碟閒置時間的百分比很低)，這可能會造成 SQL 鎖定更久 (高鎖定等候時間及高鎖定逾時)，使得 MessageBox 表格 (多工緩衝處理和應用程式佇列) 變大、讓資料庫膨脹，而節流最後會讓整體可持續的輸送量變低。  

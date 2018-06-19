@@ -1,11 +1,11 @@
 ---
-title: "SQLEXECUTE 操作 Oracle 資料庫中的 |Microsoft 文件"
-ms.custom: 
+title: SQLEXECUTE 操作 Oracle 資料庫中的 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - DML
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - operations, DML
 - SQLEXECUTE
 ms.assetid: d7f881e4-c668-4f8e-b08a-ea6614b65910
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215614"
 ---
 # <a name="sqlexecute-operation-in-oracle-database"></a>SQLEXECUTE 操作 Oracle 資料庫中
 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]呈現一組標準的 Oracle 資料庫成品上的作業。 藉由使用這些作業，您可以呼叫之類的 Oracle 函式或程序，或執行基本 SQL 資料操作語言 (DML) 作業在資料表上。 不過，有可能會由您的商務邏輯驅動的案例需要您執行作業，[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]並不會出現。 例如，您可能想要：  

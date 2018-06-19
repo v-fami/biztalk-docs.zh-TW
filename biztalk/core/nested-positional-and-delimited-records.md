@@ -1,14 +1,14 @@
 ---
-title: "巢狀位置和分隔記錄 |Microsoft 文件"
-ms.custom: 
+title: 巢狀位置和分隔記錄 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d1688f04-d3c7-492c-82f7-a734bec0e409
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263078"
 ---
 # <a name="nested-positional-and-delimited-records"></a>巢狀位置和分隔記錄
 在 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 支援的一般檔案格式中，允許某些位置和分隔記錄的組合，但其他組合則不允許。 下列組合是允許的：  

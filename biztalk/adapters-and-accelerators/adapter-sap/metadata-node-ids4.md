@@ -9,7 +9,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 46385060-f56a-4e06-9122-b75808776716
-caps.latest.revision: ''
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22218502"
 ---
 # <a name="node-types-and-ids-for-the-sap-adapter"></a>節點型別與 SAP 配接器的識別碼
 
@@ -112,7 +113,7 @@ ms.lasthandoff: 03/28/2018
 |RFC|-   RFC name.<br />-RFC 匯入、 匯出、 變更及資料表參數。<br />-RFC 參數資料類型。<br />的對應至 facet maxLength RFC 參數欄位長度<br />-RFC 強制參數對應至 facet minOccurs = 1<br />-RFC 選擇性參數對應至 facet minOccurs = 0<br />-RFC 參數 NULL 條件約束對應至 facet isNillable = true。 這表示配接器應該將此參數傳遞至 SAP 系統。<br />-RFC 本身是的作業。|  
 |TRFC|除了 RFC 相同<br /><br /> -RFC 匯入參數便不會顯示。 因為 tRFC 是非同步的便會不顯示任何輸出參數。|  
 |BAPI|的商務物件名稱<br />名稱的商務物件方法<br />-與 RFC 特性相同，|  
-|IDOC|IDOC 類型<br /><br /> CIMType<br /><br /> IDOC 版次號碼<br /><br /> IDOC 版本<br /><br /> IDOC 控制記錄欄位對應至 EDI_DC 複雜類型<br /><br /> IDOC 資料記錄區段和區段欄位對應至 EDI_DD 複雜型別<br /><br /> 區段父子式關聯性<br /><br /> IDOC 區段強制參數對應至 minOccurs = 1<br /><br /> IDOC 區段的選擇性參數對應至 minOccurs = 0<br /><br /> IDOC 區段標頭欄位名稱<br /><br /> IDOC 區段標頭欄位資料型別<br /><br /> IDOC 區段欄位名稱<br /><br /> IDOC 區段欄位資料類型<br /><br /> IDOC 區段欄位值列舉<br /><br /> IDOC 區段欄位最小值、 最大值 （範圍）**附註：**時 IDOC 區段欄位包含最小值的清單，它會呈現為列舉型別。 如果 IDOC 區段欄位包含最小和最大值，它會顯示為不含任何列舉型別或範圍建構字串。|  
+|IDOC|IDOC 類型<br /><br /> CIMType<br /><br /> IDOC 版次號碼<br /><br /> IDOC 版本<br /><br /> IDOC 控制記錄欄位對應至 EDI_DC 複雜類型<br /><br /> IDOC 資料記錄區段和區段欄位對應至 EDI_DD 複雜型別<br /><br /> 區段父子式關聯性<br /><br /> IDOC 區段強制參數對應至 minOccurs = 1<br /><br /> IDOC 區段的選擇性參數對應至 minOccurs = 0<br /><br /> IDOC 區段標頭欄位名稱<br /><br /> IDOC 區段標頭欄位資料型別<br /><br /> IDOC 區段欄位名稱<br /><br /> IDOC 區段欄位資料類型<br /><br /> IDOC 區段欄位值列舉<br /><br /> IDOC 區段欄位最小值、 最大值 （範圍）**附註：** 時 IDOC 區段欄位包含最小值的清單，它會呈現為列舉型別。 如果 IDOC 區段欄位包含最小和最大值，它會顯示為不含任何列舉型別或範圍建構字串。|  
   
  中繼資料的格式的詳細資訊，[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]公開特定成品和作業在 SAP 系統上，請參閱[訊息和訊息結構描述，BizTalk adapter for mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/messages-and-message-schemas-for-biztalk-adapter-for-mysap-business-suite.md)。  
   

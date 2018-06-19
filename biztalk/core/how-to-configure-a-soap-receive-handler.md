@@ -1,18 +1,18 @@
 ---
-title: "如何設定 SOAP 接收處理常式 |Microsoft 文件"
-ms.custom: 
+title: 如何設定 SOAP 接收處理常式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring [SOAP adapters], receive handlers
 - SOAP adapters, receive handlers
 - receive handlers, SOAP adapters
 ms.assetid: e1174381-f36c-4131-83b7-26bfa879802e
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247310"
 ---
 # <a name="how-to-configure-a-soap-receive-handler"></a>如何設定 SOAP 接收處理常式
 使用 BizTalk Server 管理主控台，可以設定 SOAP 接收處理常式設定。 若使用 BizTalk Server 管理主控台 設定配接器，則不需在 BizTalk 總管 中設定處理常式覆寫屬性。  

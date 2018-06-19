@@ -1,17 +1,17 @@
 ---
-title: "取得中繼資料的 Oracle 資料庫中使用 Ws-metadata Exchange |Microsoft 文件"
-ms.custom: 
+title: 取得中繼資料的 Oracle 資料庫中使用 Ws-metadata Exchange |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WS-Metadata Exchange, retrieving metadata
 - metadata, retrieving using WS-Metadata Exchange
 ms.assetid: 6ff34438-7260-489d-a5f0-6e53f8fe43be
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214854"
 ---
 # <a name="get-metadata-using-ws-metadata-exchange-in-oracle-database"></a>取得使用 Ws-metadata Exchange Oracle 資料庫中的中繼資料
 做為[!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)]自訂繫結，[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]公開 WS 中繼資料交換 (MEX) 端點可讓您擷取從特定作業的中繼資料[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]。  

@@ -1,20 +1,21 @@
 ---
-title: "升級 BizTalk Server 中的 RosettaNet 加速器 (BTARN) |Microsoft 文件 」"
-description: "請依照下列升級步驟來更新到 BizTalk Server 中的目前版本的 BTARN"
+title: 升級 BizTalk Server 中的 RosettaNet 加速器 (BTARN) |Microsoft 文件 」
+description: 請依照下列升級步驟來更新到 BizTalk Server 中的目前版本的 BTARN
 author: MandiOhlinger
 manager: anneta
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-ms.assetid: 
+ms.assetid: ''
 ms.author: mandia
 ms.openlocfilehash: 16e6083f3e5fb1778d77536cd602ee2208c0005f
 ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210094"
 ---
 # <a name="upgrade-the-rosettanet-accelerator"></a>升級 RosettaNet 加速器
 
@@ -46,7 +47,7 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  您應該備份基於安全理由 BTARN 資料庫。 安裝程式會將 BTRAN 資料庫移轉到較新版本。  
   
-3.  備份之下任何檔案*< 磁碟機\>*: \Program Files\\Microsoft BizTalk Accelerator for RosettaNet 資料夾，您所做的變更，例如 SDK 中的檔案。  
+3.  備份之下任何檔案 *< 磁碟機\>*: \Program Files\\Microsoft BizTalk Accelerator for RosettaNet 資料夾，您所做的變更，例如 SDK 中的檔案。  
   
 4.  解除部署會參考所列之一或多個舊版 BTARN 組件的任何專案或組件。  
   

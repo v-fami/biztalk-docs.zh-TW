@@ -1,11 +1,11 @@
 ---
-title: "回應者私用程序 |Microsoft 文件"
-ms.custom: 
+title: 回應者私用程序 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - line-of-business applications (LOBs)
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - private processes, responder
 - private processes, message flow
 ms.assetid: 69b58320-977c-44d2-a7d6-f986213aecf2
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210894"
 ---
 # <a name="responder-private-process"></a>回應者私用程序
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]會使用回應者私用程序 (PrivateResponder.odx) 來處理回應者電腦上的服務內容。 這包括下列項目：  

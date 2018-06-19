@@ -1,18 +1,18 @@
 ---
-title: "連接至 SAP 系統使用配接器 |Microsoft 文件"
-ms.custom: 
+title: 連接至 SAP 系統使用配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - connection URI
 - adapters, connecting to an SAP system
 - connection string
 ms.assetid: d506a948-5f4a-420b-a404-508824683099
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216894"
 ---
 # <a name="connect-to-an-sap-system-using-the-adapter"></a>連接至 SAP 系統使用配接器
 [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]需要配接器用戶端提供的連接字串，稱為連接來連接到 SAP 系統的統一資源識別元 (URI)。 使用 連線 URI，配接器用戶端可以指定連線參數，以連接到外部系統。如需連線 URI 的詳細資訊，請參閱[建立連接至 SAP 系統](../../adapters-and-accelerators/adapter-sap/create-a-connection-to-the-sap-system.md)。  

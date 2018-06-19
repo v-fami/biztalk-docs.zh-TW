@@ -1,11 +1,11 @@
 ---
-title: "供應鏈面臨的挑戰 |Microsoft 文件"
-ms.custom: 
+title: 供應鏈面臨的挑戰 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - supply chains
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - supply chains, challenges
 - supply chains, about
 ms.assetid: 4a38f15f-cffa-4622-95e2-e606418e5c03
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209950"
 ---
 # <a name="the-supply-chain-challenge"></a>供應鏈面臨的挑戰
 與交易夥伴的整合在高科技產業中存在許多的挑戰。 資訊科技、電子元件、半導體製造和行動通訊公司在他們的供應鏈中一直面臨這個問題。  

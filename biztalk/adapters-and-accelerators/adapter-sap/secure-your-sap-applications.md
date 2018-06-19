@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216294"
 ---
 # <a name="secure-your-sap-applications"></a>保護您的 SAP 應用程式
 SAP 系統可以包含敏感性商務資訊，例如客戶帳戶詳細資料。 使用應用程式[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]來存取和修改這項資訊是在本機或分散式網路上可能會不小心公開以存取由未經授權的動作項目，除非工作所建立的保護，並保護期間的資料傳輸。 資料保護和安全性是通常視為以下列形式：  

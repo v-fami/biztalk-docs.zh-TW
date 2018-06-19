@@ -1,18 +1,18 @@
 ---
-title: "產生並啟用憑證 |Microsoft 文件"
-ms.custom: 
+title: 產生並啟用憑證 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - certificates, enabling
 - private process tutorial, creating certificates
 - private process tutorial, enabling certificates
 ms.assetid: a36d9725-d57c-499d-948d-558096709d67
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209782"
 ---
 # <a name="generating-and-enabling-certificates"></a>產生並啟用憑證
 這個教學課程使用憑證來簽署及加密 Contoso 和 Fabrikam 組織傳送的訊息。 如果您已經完成 「 雙向動作教學課程，您可能會略過此步驟，並移至[建立 Contoso 解決方案](../../adapters-and-accelerators/accelerator-rosettanet/creating-the-contoso-solution.md)。 若要產生並使用本教學課程所述的憑證，請依照下列主題中的程序進行：  

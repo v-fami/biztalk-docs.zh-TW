@@ -1,11 +1,11 @@
 ---
-title: "教學課程 1： 從 SharePoint 網站上的 SAP 系統中呈現資料 |Microsoft 文件"
-ms.custom: 
+title: 教學課程 1： 從 SharePoint 網站上的 SAP 系統中呈現資料 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - MOSS, creating an application in
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - MOSS
 - Microsoft Office SharePoint Server, creating an application in
 ms.assetid: 6e31c365-446c-4fe1-8538-fa6c869eed63
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217422"
 ---
 # <a name="tutorial-1-presenting-data-from-an-sap-system-on-a-sharepoint-site"></a>教學課程 1： 從 SharePoint 網站上的 SAP 系統中呈現資料
 本教學課程提供詳細的指示使用[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]與 Microsoft Office SharePoint Server，在 SharePoint 網站上呈現從 SAP 系統的商務資料。 若要示範如何使用[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]Office SharePoint Server，請考慮在任何企業中最常見的兩個實體： 客戶和銷售訂單。 在此範例中，建立應用程式中使用 Office SharePoint Server[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]執行下列動作：  

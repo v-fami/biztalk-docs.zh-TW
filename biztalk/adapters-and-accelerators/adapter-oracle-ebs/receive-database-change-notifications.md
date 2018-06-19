@@ -1,14 +1,14 @@
 ---
-title: "收到資料庫變更通知 |Microsoft 文件"
-ms.custom: 
+title: 收到資料庫變更通知 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: be1eacf1-7fba-4eca-b35b-9770904d9ebd
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217326"
 ---
 # <a name="receive-database-change-notifications"></a>收到資料庫變更通知
 [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]支援 ODP.NET 資料庫變更通知功能。 使用這項功能，配接器用戶端可以註冊的 SELECT 陳述式與通知查詢資料庫，而資料庫將通知傳送給配接器用戶端，並在結果集的 SELECT 陳述式變更時。 配接器使用 OracleDependency 類別中實作的資料庫變更通知。 如需特定 Oracle ODP.NET 和 OracleDependency 類別中的資料庫變更的支援功能，請移至[http://go.microsoft.com/fwlink/p/?LinkId=124801](http://go.microsoft.com/fwlink/p/?LinkId=124801)。  
@@ -53,7 +54,7 @@ ms.lasthandoff: 09/20/2017
 |通知|輪詢|  
 |------------------|-------------|  
 |通知是支援僅針對 Oracle 資料庫版本 10.2 和更新版本。|支援的所有 Oracle 資料庫版本都支援輪詢[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]。|  
-|資料變更通知是一律在瞬間完成。|您可以設定輪詢間隔，以檢查適用於定期輪詢資料，或立即一樣，當有可用的資料。 **提示：**輪詢可讓您更佳的輸送量持續發生資料變更並不想為每項變更，並發生時加以通知。 相反地，您可以指定您要在其後發生是因為最後一個變更通知的所有變更的通知輪詢間隔。|  
+|資料變更通知是一律在瞬間完成。|您可以設定輪詢間隔，以檢查適用於定期輪詢資料，或立即一樣，當有可用的資料。 **提示：** 輪詢可讓您更佳的輸送量持續發生資料變更並不想為每項變更，並發生時加以通知。 相反地，您可以指定您要在其後發生是因為最後一個變更通知的所有變更的通知輪詢間隔。|  
 |通知是由 Oracle 資料庫啟動。 只在配接器發出的通知陳述式會指示資料庫在陳述式的結果集變更的情況下起始通知。 通知是 Oracle 資料庫的功能。|輪詢配接器所起始。 若要驗證是否資料適用於輪詢，並以起始輪詢執行輪詢陳述式，如果某些資料可用於輪詢 SQL 陳述式執行配接器。|  
 |您可以使用通知陳述式只讀取 Oracle 資料庫中的資料。|您可以使用輪詢陳述式來讀取或更新的 Oracle 資料庫中的資料。|  
 |通知會告知中插入，例如資料的變更類型的相關更新和刪除。|輪詢會通知您有關已變更的實際資料。|  

@@ -1,11 +1,11 @@
 ---
-title: "搭配 SharePoint 使用 SAP 配接器 |Microsoft 文件"
-ms.custom: 
+title: 搭配 SharePoint 使用 SAP 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Microsoft Office SharePoint Server
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - tutorial, MOSS
 - Business Data Catalog
 ms.assetid: 2a07eafb-1344-4169-afab-e6d51a38a2e9
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217550"
 ---
 # <a name="use-the-sap-adapter-with-sharepoint"></a>搭配 SharePoint 使用 SAP 配接器
 大部分的特定業務 (LOB) 應用程式擁有相對較少的必要的主旨專業人士存取的專屬介面。 不過，資訊工作者需要的相關資訊所有層級的組織中，因為相關主題專家有必要的資料匯出至更熟悉的應用程式，類似 Microsoft Excel，資訊工作者使用該資訊。  

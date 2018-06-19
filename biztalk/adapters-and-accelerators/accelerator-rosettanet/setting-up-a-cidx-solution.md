@@ -1,11 +1,11 @@
 ---
-title: "設定 CIDX 解決方案 |Microsoft 文件"
-ms.custom: 
+title: 設定 CIDX 解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - CIDX, process configuration
@@ -20,7 +20,7 @@ helpviewer_keywords:
 - CIDX, importing PIPs
 - PIPs, CIDX
 ms.assetid: 7f1f159f-3b09-4efd-907b-9a75f7f3ecd1
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -29,6 +29,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210910"
 ---
 # <a name="setting-up-a-cidx-solution"></a>設定 CIDX 解決方案
 Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 支援 CIDX (化學產業資料交換) XML 訊息交換 (CIDX Chem eStandards 2.0 版和 3.0 版)。 本主題說明如何執行下列動作來設定 CIDX 解決方案：  
@@ -48,7 +49,7 @@ Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentv
   
 -   **標準**屬性設定為處理序組態設定中的**CIDX**  
   
--   **單向動作**屬性設定為處理序組態設定中的**，則為 True**  
+-   **單向動作**屬性設定為處理序組態設定中的 **，則為 True**  
   
 -   **0A1 協議**屬性設定為交易夥伴協議中的**No 0A1**  
   

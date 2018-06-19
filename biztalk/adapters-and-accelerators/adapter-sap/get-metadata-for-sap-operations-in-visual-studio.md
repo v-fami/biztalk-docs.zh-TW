@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216118"
 ---
 # <a name="get-metadata-for-sap-operations-in-visual-studio"></a>取得 Visual Studio 中的 SAP 作業的中繼資料
 [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]提供兩個[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]可用來協助您開發解決方案使用配接器的元件 — [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]、 [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]，而[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]。 配接器用戶端必須使用這些元件，來連接至 SAP 系統，並產生 SAP 成品他們想要叫用的中繼資料。  

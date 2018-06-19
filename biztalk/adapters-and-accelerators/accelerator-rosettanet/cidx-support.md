@@ -1,11 +1,11 @@
 ---
-title: "CIDX 支援 |Microsoft 文件"
-ms.custom: 
+title: CIDX 支援 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - CIDX, procedures
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - procedures [CIDX]
 - PIPs, CIDX
 ms.assetid: 58b75ad3-f6b9-47c0-8dbf-506a3eaf010b
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210694"
 ---
 # <a name="cidx-support"></a>CIDX 支援
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]支援 CIDX （化學產業資料交換） XML 訊息交換。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]支援 CIDX Chem eStandards 2.0 和 3.0，兩者都使用 RosettaNet 實作架構 (RNIF) 1.1 版。  

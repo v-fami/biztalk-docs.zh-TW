@@ -1,11 +1,11 @@
 ---
-title: "偵錯協調流程 |Microsoft 文件"
-ms.custom: 
+title: 偵錯協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, debugging
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - orchestrations, monitoring
 - HAT, orchestrations
 ms.assetid: 56524c32-11cc-4dc1-8a0a-0ff21db0eae9
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238422"
 ---
 # <a name="debugging-orchestrations"></a>偵錯協調流程
 在 BizTalk Server 管理主控台中使用 群組中樞 頁面，BizTalk 可讓您追蹤、 檢視和報告高階程序或商務程序和實作元件的低階細節。 此外，您也可以將資訊寫入事件記錄來追蹤輸出，或使用自訂程式碼來追蹤商務程序，對協調流程進行偵錯。  

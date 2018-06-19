@@ -1,14 +1,14 @@
 ---
-title: "設定 MX 端對端教學課程 |Microsoft 文件"
-ms.custom: 
+title: 設定 MX 端對端教學課程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f0e4637a-8ffe-457a-a8ee-42f57bc13e3a
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214230"
 ---
 # <a name="setting-up-mx-end-to-end-tutorial"></a>設定 MX 端對端教學課程
 下列步驟中，反白顯示執行 MX 端對端教學課程所需的步驟。  

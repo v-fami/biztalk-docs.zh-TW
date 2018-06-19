@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217070"
 ---
 # <a name="invoke-functions-and-procedures-in-oracle-database-using-biztalk-server"></a>叫用函式，並使用 BizTalk Server 的 Oracle 資料庫中的程序
 配接器用戶端可以使用叫用函式和 Oracle 資料庫中的程序[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]與[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]。 [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]呈現程序、 函數和封裝做為作業。 [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]也可讓配接器用戶端叫用：  
@@ -105,7 +106,7 @@ ms.lasthandoff: 09/20/2017
   
 |形狀圖|圖形類型|屬性|  
 |-----------|----------------|----------------|  
-|ReceiveMessage|Receive|-設定**名稱**至*ReceiveMessage*<br />-設定**啟動**至*，則為 True*|  
+|ReceiveMessage|Receive|-設定**名稱**至*ReceiveMessage*<br />-設定**啟動**至 *，則為 True*|  
 |SendMessage|Send|-設定**名稱**至*SendMessage*|  
 |ReceiveResponse|Receive|-設定**名稱**至*ReceiveResponse*<br />-設定**啟動**至*False*|  
 |SendResponse|Send|-設定**名稱**至*SendResponse*|  

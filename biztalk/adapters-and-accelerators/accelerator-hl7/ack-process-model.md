@@ -1,17 +1,17 @@
 ---
-title: "ACK 處理序模型 |Microsoft 文件"
-ms.custom: 
+title: ACK 處理序模型 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - acknowledgements, process flow
 - ACK process model
 ms.assetid: 3c6a5eef-57ef-41f7-9782-e1cbc4dd78e1
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22205918"
 ---
 # <a name="ack-process-model"></a>ACK 處理序模型
 下列步驟順序說明通知 (ACK) 的處理序模型：  

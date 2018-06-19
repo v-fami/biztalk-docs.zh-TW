@@ -1,11 +1,11 @@
 ---
-title: "如何設定 「 終止 」 圖形 |Microsoft 文件"
-ms.custom: 
+title: 如何設定 「 終止 」 圖形 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Terminate shape [Orchestration Designer], about Terminate shape
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Terminate shape [Orchestration Designer], configuring
 - Terminate shape [Orchestration Designer]
 ms.assetid: 2c4f2c94-2bab-4af3-8954-7275696ca147
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247926"
 ---
 # <a name="how-to-configure-the-terminate-shape"></a>如何設定終止圖形
 ![](../core/media/ebiz-orch-terminate.gif "ebiz_orch_terminate")  

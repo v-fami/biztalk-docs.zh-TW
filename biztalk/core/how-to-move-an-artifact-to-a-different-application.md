@@ -1,17 +1,17 @@
 ---
-title: "如何將成品移至不同的應用程式 |Microsoft 文件"
-ms.custom: 
+title: 如何將成品移至不同的應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - artifacts, moving
 - applications, artifacts
 ms.assetid: 861e7782-0566-4478-a0bd-f8ced1ea6d56
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254454"
 ---
 # <a name="how-to-move-an-artifact-to-a-different-application"></a>如何將成品移到另一個應用程式
 本主題描述如何使用 BizTalk Server 管理主控台的 [移至應用程式] 命令，在 BizTalk 群組內將成品從某個應用程式移到另一個。 如果您需要將已經存在於某個應用程式中的成品用於相同 BizTalk 群組內的另一個應用程式，可能會想要這樣做。  

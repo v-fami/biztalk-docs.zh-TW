@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25961540"
 ---
 # <a name="message-schemas-for-the-sqlexecute-operation"></a>SQLEXECUTE 操作的訊息結構描述
 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]呈現強型別中繼資料的成品存在於 LOB 系統，並公開在這些成品的標準作業。 不過，有一些的案例，其中的應用程式可能需要執行任意的 SQL 陳述式由應用程式中的商務邏輯所驅動。 例如，您可能想要：  

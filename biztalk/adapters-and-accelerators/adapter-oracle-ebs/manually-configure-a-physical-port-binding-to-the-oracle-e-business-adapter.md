@@ -1,14 +1,14 @@
 ---
-title: "手動設定的實體連接埠繫結至 Oracle E-business 配接器 |Microsoft 文件"
-ms.custom: 
+title: 手動設定的實體連接埠繫結至 Oracle E-business 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 07369428-7b54-4d90-8c63-ba14e67fdbdd
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216414"
 ---
 # <a name="manually-configure-a-physical-port-binding-to-the-oracle-e-business-adapter"></a>手動設定 Oracle E-business 配接器的實體連接埠繫結
 本節提供有關設定資訊[!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]當作 WCF 自訂繫結或利用 Wcf-oracleebs 連接埠[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]管理主控台。 部署之後，配接器，您將能夠傳送和接收 Oracle E-business Suite 中的訊息，使用[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]管理主控台。 部署配接器的步驟而異：  

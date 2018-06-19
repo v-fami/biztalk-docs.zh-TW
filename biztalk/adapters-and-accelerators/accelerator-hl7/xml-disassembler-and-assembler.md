@@ -1,17 +1,17 @@
 ---
-title: "XML 解譯器和組合器 |Microsoft 文件"
-ms.custom: 
+title: XML 解譯器和組合器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - disassembler, XML
 - assembler, XML
 ms.assetid: 242a7a96-2342-4ab5-9d3f-1acbcc7ffd14
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206646"
 ---
 # <a name="xml-disassembler-and-assembler"></a>XML 解譯器和組合器
 XML 解譯器和組合器確定[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 不只支援 HL7 編碼訊息，但是也支援傳入和/或傳出 XML 訊息。  

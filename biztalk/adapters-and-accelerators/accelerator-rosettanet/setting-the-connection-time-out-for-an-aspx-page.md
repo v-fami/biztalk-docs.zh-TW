@@ -1,17 +1,17 @@
 ---
-title: "設定 ASPX 頁面的連線逾時 |Microsoft 文件"
-ms.custom: 
+title: 設定 ASPX 頁面的連線逾時 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - ASPX pages, connection time-out
 - connections, time-out
 ms.assetid: 61d9c996-caf4-48bd-bda7-52f2797a941b
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207190"
 ---
 # <a name="setting-the-connection-time-out-for-an-aspx-page"></a>設定 ASPX 頁面的連線逾時
 當您使用 ASPX 頁面來處理同步訊息時，必須要增加 ASPX 頁面的連線逾時，如此它才有足夠時間等待預期的訊息。  
@@ -36,7 +37,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  以滑鼠右鍵按一下 **[預設網站]**，然後按一下 **[屬性]**。  
   
-4.  在 [預設的網站內容] 對話方塊上**網站**索引標籤的**連接逾時**方塊中輸入適當的值，然後再按一下**[確定]**。  
+4.  在 [預設的網站內容] 對話方塊上**網站**索引標籤的**連接逾時**方塊中輸入適當的值，然後再按一下 **[確定]**。  
   
 ## <a name="see-also"></a>另請參閱  
  [程式設計指南](../../adapters-and-accelerators/accelerator-rosettanet/programming-guide2.md)

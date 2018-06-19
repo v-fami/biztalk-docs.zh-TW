@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22211174"
 ---
 # <a name="miscellaneous-troubleshooting"></a>其他疑難排解
 ## <a name="leading-zeroes-validation-is-not-performed-for-fields-that-use-the-checkleadingzeroesinelement-method-to-validate-a-field-in-the-message-validation-policy"></a>前置字元為零可使用 CheckLeadingZeroesInElement 方法來驗證訊息驗證原則中的欄位的欄位，不執行驗證。  

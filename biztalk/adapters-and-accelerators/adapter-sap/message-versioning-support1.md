@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217374"
 ---
 # <a name="message-versioning-support"></a>訊息版本控制支援
 [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]訊息動作、 命名空間和節點識別碼中包含的版本字串元件的支援版本控制作業中顯示。 目前的版本是 http://Microsoft.LobServices.Sap/2007/03。 這表示名為"RFC_SAMPLE"rfc，配接器所顯示的 RFC 作業具有下列：  

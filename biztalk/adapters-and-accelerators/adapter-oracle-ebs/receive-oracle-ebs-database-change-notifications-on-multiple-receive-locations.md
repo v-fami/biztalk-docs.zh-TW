@@ -1,14 +1,14 @@
 ---
-title: "Oracle E-business Suite 資料庫變更會收到通知，在多個接收位置 |Microsoft 文件"
-ms.custom: 
+title: Oracle E-business Suite 資料庫變更會收到通知，在多個接收位置 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d25faa52-e0a4-4593-8449-3ec93d5887e9
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217022"
 ---
 # <a name="receive-oracle-e-business-suite-database-change-notifications-on-multiple-receive-locations"></a>Oracle E-business Suite 資料庫變更會收到通知，在多個接收位置
 假設您有多個接收位置設定為接收查詢通知，相同的資料表 (例如 ACCOUNTACTIVITY) 不同的 BizTalk 應用程式的過程中建立相同的資料庫中。 如果一百記錄插入相同的資料表時，所有接收位置會都收到通知訊息。 有效地接收通知，跨多個接收位置，您可以從 BizTalk 應用程式中的其中一個接收到通知時，如果接收位置的方式呼叫作業、 其他接收位置不會取得相同的通知。 因此，您可以有效地收到多個位置上的負載平衡通知。  
@@ -53,8 +54,8 @@ END NOTIFY_LOAD_BALANCE;
     |繫結屬性|值|  
     |----------------------|-----------|  
     |**InboundOperationType**|將此設**通知**。|  
-    |**NotificationPort**|指定 ODP.NET 必須開啟從 Oracle 資料庫的資料庫變更通知所接聽的通訊埠編號。 設定為相同的連接埠號碼，您必須已加入 Windows 防火牆例外清單。 如需如何將連接埠新增至 Windows 防火牆例外清單的指示，請參閱[http://go.microsoft.com/fwlink/?LinkID=196959](http://go.microsoft.com/fwlink/?LinkID=196959)。 **重要事項：**如果您設定為預設值-1，您必須完全停用 Windows 防火牆來接收通知訊息。|  
-    |**NotificationStatement**|將此值設定為：<br /><br /> `SELECT TID,ACCOUNT,PROCESSED FROM SCOTT.ACCOUNTACTIVITY WHERE PROCESSED = ‘n’`**附註：**您必須指定資料表名稱，以及結構描述名稱。 例如， `SCOTT.ACCOUNTACTIVITY`。|  
+    |**NotificationPort**|指定 ODP.NET 必須開啟從 Oracle 資料庫的資料庫變更通知所接聽的通訊埠編號。 設定為相同的連接埠號碼，您必須已加入 Windows 防火牆例外清單。 如需如何將連接埠新增至 Windows 防火牆例外清單的指示，請參閱[http://go.microsoft.com/fwlink/?LinkID=196959](http://go.microsoft.com/fwlink/?LinkID=196959)。 **重要事項：** 如果您設定為預設值-1，您必須完全停用 Windows 防火牆來接收通知訊息。|  
+    |**NotificationStatement**|將此值設定為：<br /><br /> `SELECT TID,ACCOUNT,PROCESSED FROM SCOTT.ACCOUNTACTIVITY WHERE PROCESSED = ‘n’`**附註：** 您必須指定資料表名稱，以及結構描述名稱。 例如， `SCOTT.ACCOUNTACTIVITY`。|  
     |**NotifyOnListenerStart**|將此設**True**。|  
   
 6.  啟動 BizTalk 應用程式。  

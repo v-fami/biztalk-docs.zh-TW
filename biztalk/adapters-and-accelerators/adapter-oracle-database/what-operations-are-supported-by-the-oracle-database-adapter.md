@@ -1,17 +1,17 @@
 ---
-title: "Oracle 資料庫配接器支援哪些作業 |Microsoft 文件"
-ms.custom: 
+title: Oracle 資料庫配接器支援哪些作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SOAP
 - operations, performing
 ms.assetid: d78dbeb8-9dab-4a71-982e-f7ada51472e8
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215582"
 ---
 # <a name="what-operations-are-supported-by-the-oracle-database-adapter"></a>Oracle 資料庫配接器支援哪些作業
 建立 BizTalk 專案、 使用 WCF 通道模型，或使用 WCF 服務模型，配接器用戶端可以執行的 Oracle 資料庫上的作業。 [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]會公開應用程式可以在其上叫用，接著，可以呼叫應用程式上的作業。 這些作業會叫用透過通道傳送 SOAP 訊息。 如果需要回應，它會傳回 SOAP 訊息中透過相同的通道。 訊息結構和與每個作業相關聯的 SOAP 動作的相關資訊，請參閱[訊息和訊息結構描述，BizTalk adapter for Oracle 資料庫](../../adapters-and-accelerators/adapter-oracle-database/messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md)。  

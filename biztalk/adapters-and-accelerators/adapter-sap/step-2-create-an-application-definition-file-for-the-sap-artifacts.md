@@ -1,18 +1,18 @@
 ---
-title: "步驟 2： 建立應用程式定義檔 SAP 成品 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 建立應用程式定義檔 SAP 成品 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - application definition file, creating a
 - Business Data Catalog Definition Editor
 - Business Data Catalog
 ms.assetid: d254b00e-dbeb-4167-ad57-6f0aa2e7a563
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22219822"
 ---
 # <a name="step-2-create-an-application-definition-file-for-the-sap-artifacts"></a>步驟 2： 建立應用程式定義檔 SAP 成品
 ![步驟 4 之 2](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")  
@@ -235,7 +236,7 @@ ms.lasthandoff: 09/20/2017
   
     3.  展開**KUNNR**參數，然後按一下第二個**KUNNR**節點。  
   
-    4.  在 [屬性] 窗格中，選取**CustomerID [Customer]**從**識別碼**清單。  
+    4.  在 [屬性] 窗格中，選取**CustomerID [Customer]** 從**識別碼**清單。  
   
          ![將識別碼對應至參數](../../adapters-and-accelerators/adapter-sap/media/04ff6496-34a7-421b-ae9e-f9263895c153.gif "04ff6496-34a7-421b-ae9e-f9263895c153")  
   
@@ -247,7 +248,7 @@ ms.lasthandoff: 09/20/2017
   
     3.  展開**CUSTOMER_T**節點，然後第二個**CUSTOMER_T**  節點，然後在**項目**節點，然後再按一下**KUNNR**節點。  
   
-    4.  在 [屬性] 窗格中，選取**CustomerID [Customer]**從**識別碼**清單。  
+    4.  在 [屬性] 窗格中，選取**CustomerID [Customer]** 從**識別碼**清單。  
   
 ##### <a name="to-create-a-specific-finder-method-instance-for-the-sdrfccustomerget-method"></a>若要建立特定的 Finder 方法執行個體 SD_RFC_CUSTOMER_GET 方法  
   
@@ -282,7 +283,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  展開**CUSTOMER_NUMBER**  節點，然後按一下第二個**CUSTOMER_NUMBER**節點。  
   
-4.  在 [屬性] 窗格中，選取**CustomerID [Customer]**從**識別碼**清單。  
+4.  在 [屬性] 窗格中，選取**CustomerID [Customer]** 從**識別碼**清單。  
   
      ![建立兩個實體之間的關聯](../../adapters-and-accelerators/adapter-sap/media/ae7e1e7a-a12b-4905-b002-2a04c7050848.gif "ae7e1e7a-a12b-4905-b002-2a04c7050848")  
   

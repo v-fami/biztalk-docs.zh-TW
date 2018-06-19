@@ -1,14 +1,14 @@
 ---
-title: "接收 Oracle E-business Suite 使用 WCF 服務模型的資料庫變更通知 |Microsoft 文件"
-ms.custom: 
+title: 接收 Oracle E-business Suite 使用 WCF 服務模型的資料庫變更通知 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 362193f5-2586-480f-a62e-1ed5e4ef342c
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218342"
 ---
 # <a name="receive-oracle-e-business-suite-database-change-notifications-using-the-wcf-service-model"></a>接收 Oracle E-business Suite 使用 WCF 服務模型的資料庫變更通知
 本主題示範如何設定[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]來從 Oracle 資料庫接收查詢通知訊息。 為了示範通知，請考慮的資料表，ACCOUNTACTIVITY，與 「 處理 」 資料行。 當新的記錄插入此資料表時，[狀態] 欄的值設定為"n"。 您可以設定配接器接收通知，請註冊通知使用 SQL 陳述式可擷取所有記錄的 「 處理 」 資料行做為"n"。 您可以藉由指定的 SQL 陳述式**NotificationStatement**繫結屬性。 配接器用戶端會收到通知之後，它可以包含執行的 Oracle 資料庫上的任何後續工作的邏輯。 在此範例中，為了簡單起見，配接器用戶端會列出所有的記錄資料表中的 「 處理 」 資料行做為"n"。  

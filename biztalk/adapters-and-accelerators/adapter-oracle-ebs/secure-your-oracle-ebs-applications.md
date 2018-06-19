@@ -1,14 +1,14 @@
 ---
-title: "保護應用程式 Oracle EBS |Microsoft 文件"
-ms.custom: 
+title: 保護應用程式 Oracle EBS |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 76147120-57a8-4959-a0ff-77d04dee06a6
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214998"
 ---
 # <a name="secure-your-oracle-ebs-applications"></a>保護您的 Oracle EBS 應用程式
 Oracle E-business 應用程式可以處理敏感性商務資訊，例如客戶帳戶詳細資料。 使用應用程式[!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]來存取和修改這項資訊是在本機或分散式網路上可能會不小心公開以存取由未經授權的動作項目，除非工作所建立的保護，並保護期間的資料傳輸。 資料保護和安全性是通常視為以下列形式：  

@@ -1,11 +1,11 @@
 ---
-title: "判斷提示 |Microsoft 文件"
-ms.custom: 
+title: 判斷提示 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Assert function [Business Rules Engine], .NET objects
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - Assert function [Business Rules Engine], DataConnection
 - .NET objects
 ms.assetid: e9989214-3c10-4691-9c38-f6fe64e511ed
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234046"
 ---
 # <a name="assert"></a>判斷提示
 *判斷提示*會新增至商務規則引擎工作記憶體的物件執行個體的程序。 引擎會根據針對執行個體類型所寫入的條件與動作，使用相符-衝突解析-動作階段來處理每個執行個體。  

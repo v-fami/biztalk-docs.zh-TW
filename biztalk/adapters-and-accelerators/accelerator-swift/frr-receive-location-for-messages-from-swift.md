@@ -1,17 +1,17 @@
 ---
-title: "FRR 接收訊息的位置來自 SWIFT |Microsoft 文件"
-ms.custom: 
+title: FRR 接收訊息的位置來自 SWIFT |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - FRR, receive locations
 - receive locations, FRR
 ms.assetid: d15989de-56f9-4d62-8394-f4fd6e971495
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207558"
 ---
 # <a name="frr-receive-location-for-messages-from-swift"></a>FRR 來自 SWIFT 接收訊息的位置
 若要啟用 FIN 回應對帳 (FRR)，您必須設定 FRR 接收管線元件從 SAA 接收訊息，並準備處理[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]。 接收管線包含下列元件：  

@@ -1,11 +1,11 @@
 ---
-title: "基底和常見的結構描述 |Microsoft 文件"
-ms.custom: 
+title: 基底和常見的結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - base schemas
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - schemas, base schemas
 - common schemas
 ms.assetid: 60eb24f6-cc4f-4c6d-ab15-9e3a6b4ed376
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209174"
 ---
 # <a name="base-and-common-schemas"></a>基底和常見的結構描述
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]已實作的記錄和組成個別的訊息結構描述不同的結構描述中的項目。 這個方法會提供單一位置，以提供更新的欄位和隔離這類變更的訊息結構描述的格式。  

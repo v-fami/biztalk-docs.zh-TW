@@ -1,17 +1,17 @@
 ---
-title: "如何協助保護元件介面 |Microsoft 文件"
-ms.custom: 
+title: 如何協助保護元件介面 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - component interfaces, helping to secure
 - security, component interfaces
 ms.assetid: 03b2af44-78e7-4fdc-bfa3-7697b2a60986
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255214"
 ---
 # <a name="how-to-help-secure-component-interfaces"></a>如何協助保護元件介面的安全
 在您開始測試元件介面之前，必須先設定其安全性。 下列程序描述如何設定 PeopleSoft 8.4 版，元件介面安全性，但您可以針對 8.1 版使用此程序。  

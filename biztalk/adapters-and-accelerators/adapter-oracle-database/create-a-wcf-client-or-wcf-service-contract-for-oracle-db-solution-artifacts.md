@@ -1,11 +1,11 @@
 ---
-title: "產生 WCF 用戶端或 Oracle 資料庫方案成品的 WCF 服務合約 |Microsoft 文件"
-ms.custom: 
+title: 產生 WCF 用戶端或 Oracle 資料庫方案成品的 WCF 服務合約 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF service model programming, creating a proxy
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - creating a proxy
 - proxy programming, creating a proxy
 ms.assetid: 3e832ae9-e253-4476-9f25-8cf0de12f469
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215886"
 ---
 # <a name="generate-a-wcf-client-or-a-wcf-service-contract-for-oracle-database-solution-artifacts"></a>產生 WCF 用戶端或 Oracle 資料庫方案成品的 WCF 服務合約
 您可以使用[!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]產生 WCF 用戶端類別或 WCF 服務合約 （介面） 為目標的 Oracle 資料庫成品中選取的作業。 您也可以使用 ServiceModel Metadata Utility Tool (svcutil.exe) 來產生 WCF 用戶端類別或 WCF 服務合約。不過，[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]公開 ServiceModel Metadata Utility Tool，透過標準的 Microsoft Windows 介面的功能。 它也提供不是使用 svcutil.exe 工具，可用的瀏覽和搜尋功能，並在產生組態檔，根據您連接到 Oracle 資料庫時，您選取的繫結屬性。  
@@ -33,7 +34,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  在[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]方案總管 中，以滑鼠右鍵按一下您的專案，然後**新增配接器服務參考**。  
   
-2.  之後**新增配接器服務參考**對話方塊隨即開啟，請依照下列中的步驟[擷取 Oracle 作業在 Visual Studio 中的中繼資料](../../adapters-and-accelerators/adapter-oracle-database/get-metadata-for-oracle-database-operations-in-visual-studio.md)連接到 Oracle 資料庫並瀏覽及搜尋作業。 若要建立的作業，您選取的 WCF 用戶端類別，務必**用戶端 （輸出作業）**選取從**選取合約型別**下拉式清單 （這是預設值）。  
+2.  之後**新增配接器服務參考**對話方塊隨即開啟，請依照下列中的步驟[擷取 Oracle 作業在 Visual Studio 中的中繼資料](../../adapters-and-accelerators/adapter-oracle-database/get-metadata-for-oracle-database-operations-in-visual-studio.md)連接到 Oracle 資料庫並瀏覽及搜尋作業。 若要建立的作業，您選取的 WCF 用戶端類別，務必**用戶端 （輸出作業）** 選取從**選取合約型別**下拉式清單 （這是預設值）。  
   
 3.  在您選取的所有作業，您要為目標，請按一下之後**確定**產生 WCF 用戶端類別。  
   
@@ -57,7 +58,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  之後**新增配接器服務參考**對話方塊隨即開啟，請依照下列中的步驟[擷取 Oracle 作業在 Visual Studio 中的中繼資料](../../adapters-and-accelerators/adapter-oracle-database/get-metadata-for-oracle-database-operations-in-visual-studio.md)連接到 Oracle 資料庫。 有數個繫結屬性和您可能想要您連接到 Oracle 資料庫的輸入操作時，將 URI 屬性。 例如，針對輸入的輪詢作業 (**POLLINGSTMT**)，您必須指定**PollingStatement**當設定 Oracle 資料庫的連接時，繫結屬性。 [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]來產生表示 POLLINGSTMT 作業所傳回的結果集的類別會使用這個屬性中指定的 SQL SELECT 陳述式。  
   
-3.  您已經連接到 Oracle 資料庫之後，請選取**服務 （輸入操作）**從**選取合約型別**下拉式清單。  
+3.  您已經連接到 Oracle 資料庫之後，請選取**服務 （輸入操作）** 從**選取合約型別**下拉式清單。  
   
 4.  在**選取類別目錄**方塊中，按一下根節點 (**/**)，並瀏覽至您要用來產生服務合約的作業。 例如，輪詢作業中，選取**POLLINGSTMT**從**可用的類別和作業**方塊，然後再按一下**新增**。  
   

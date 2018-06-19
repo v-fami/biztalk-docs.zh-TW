@@ -1,14 +1,14 @@
 ---
-title: "連接到 SQL Server 使用 Windows 驗證搭配 SQL 配接器 |Microsoft 文件"
-ms.custom: 
+title: 連接到 SQL Server 使用 Windows 驗證搭配 SQL 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 45c54b2a-e056-496f-9f10-f19b6a3ca1a6
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222310"
 ---
 # <a name="connect-to-sql-server-using-windows-authentication-with-the-sql-adapter"></a>連接到 SQL Server 使用 Windows 驗證搭配 SQL 配接器
 [!INCLUDE[adaptersql_md](../../includes/adaptersql-md.md)]可讓配接器用戶端使用 Windows 驗證來建立與 SQL Server 的連線。 若要使用 Windows 驗證，配接器用戶端必須輸入空的使用者名稱和密碼。 

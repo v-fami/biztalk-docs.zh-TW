@@ -1,14 +1,14 @@
 ---
-title: "接收 Oracle E-business Suite 使用 BizTalk Server 資料庫的變更通知 |Microsoft 文件"
-ms.custom: 
+title: 接收 Oracle E-business Suite 使用 BizTalk Server 資料庫的變更通知 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e92520cf-c552-4225-abba-8e03f73ecf70
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215678"
 ---
 # <a name="receive-oracle-e-business-suite-database-change-notifications-using-biztalk-server"></a>接收 Oracle E-business Suite 使用 BizTalk Server 資料庫的變更通知
 您可以設定[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]從 Oracle E-business Suite 接收資料庫變更的通知訊息。 您可以指定配接器用來註冊通知與 Oracle E-business Suite 的 SELECT 陳述式。 結果集針對 SELECT 陳述式，註冊通知，請變更時，配接器會接收通知訊息。 如需配接器如何支援通知的詳細資訊，請參閱[接收資料庫變更通知使用 Oracle E-business Suite 介面卡的考量](../../adapters-and-accelerators/adapter-oracle-ebs/before-you-receive-database-change-notifications-using-the-oracle-ebs-adapter.md)。  

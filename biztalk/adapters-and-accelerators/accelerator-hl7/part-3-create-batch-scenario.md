@@ -1,17 +1,17 @@
 ---
-title: "第 3 部分： 建立批次案例 |Microsoft 文件"
-ms.custom: 
+title: 第 3 部分： 建立批次案例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - batching, creating
 - creating, batching
 ms.assetid: 02247186-5b21-4738-9110-f0ca0304f0fd
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206198"
 ---
 # <a name="part-3-create-batch-scenario"></a>第 3 部分： 建立批次的案例
 在案例的這個部分，您可以收到兩個內送訊息、 將它們結合於批次的訊息，和批次傳送至目的地。 BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 會傳回包含兩個目的地的訊息來源為產生的通知認可批次。 下圖顯示本教學課程的這個部分的處理流程。  

@@ -1,11 +1,11 @@
 ---
-title: "插入、 更新、 刪除或 Oracle 資料庫使用 WCF 服務模型中選取作業 |Microsoft 文件"
-ms.custom: 
+title: 插入、 更新、 刪除或 Oracle 資料庫使用 WCF 服務模型中選取作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF service model, Delete operation
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - WCF service model, Insert operation
 - WCF service model, Update operation
 ms.assetid: d1a9f44f-ea0b-4dd6-9489-fa0d963848c4
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217486"
 ---
 # <a name="insert-update-delete-or-select-operations-in-oracle-database-using-the-wcf-service-model"></a>插入、 更新、 刪除或 Oracle 資料庫使用 WCF 服務模型中選取作業
 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]呈現一組基本的 Insert、 Update、 Delete 和 Oracle 資料庫資料表和檢視表上的 Select 作業。 藉由使用這些作業，您可以執行簡單的 SQL INSERT、 UPDATE、 SELECT、 及 DELETE 陳述式 WHERE 子句的目標資料表或檢視上所限定。 若要執行更複雜的作業，例如 SQL SELECT 查詢，會使用聯結運算子，您可以使用 SQLEXECUTE 操作。 如需 SQLEXECUTE 操作的詳細資訊，請參閱[在 Oracle 資料庫使用 WCF 服務模型執行 SQLEXECUTE 運算](../../adapters-and-accelerators/adapter-oracle-database/run-sqlexecute-operation-in-oracle-database-using-the-wcf-service-model.md)。  

@@ -1,17 +1,17 @@
 ---
-title: "設定 Oracle 資料庫繫結屬性 |Microsoft 文件"
-ms.custom: 
+title: 設定 Oracle 資料庫繫結屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - binding properties, specifying at run time
 - binding properties, specifying at design time
 ms.assetid: c59a1b5c-b52b-4161-82de-c4d89bfce5c7
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215798"
 ---
 # <a name="configure-the-binding-properties-for-oracle-database"></a>設定 Oracle 資料庫繫結屬性
 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]呈現數個繫結屬性可讓您控制其行為特性，部份。 本節提供從 Visual Studio 和 BizTalk Server 管理主控台設定的繫結屬性的相關資訊。 從 Visual Studio 中，您必須指定繫結內容產生結構描述，針對特定作業時。 從 BizTalk Server 必須指定的繫結屬性一部分傳送或接收埠的傳送或接收訊息，從 Oracle 資料庫。  

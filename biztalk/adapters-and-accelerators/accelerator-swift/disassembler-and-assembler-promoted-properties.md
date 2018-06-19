@@ -13,7 +13,7 @@ helpviewer_keywords:
 - promoted properties, disassembler
 - assembler, promoted properties
 ms.assetid: 342b0250-bdf7-45ce-8964-3aeda89989b1
-caps.latest.revision: ''
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22211294"
 ---
 # <a name="disassembler-and-assembler-promoted-properties"></a>解譯器和組合器會升級屬性
 解譯器和組合器屬性分為兩類： 路由屬性、 路由和篩選。與執行階段屬性，針對內部處理。  
@@ -34,11 +35,11 @@ SWIFT 的解譯器會升級路由屬性。 您可以使用這些屬性的內容�
   
 |升級的名稱|Description|資料類型|數值範圍|使用範例|  
 |-------------------|-----------------|---------------|-----------------|-------------------|  
-|**A4SWIFT_BatchId**|處理傳入的批次時，動態產生 SWIFT 解譯器的全域唯一識別碼。 解譯器會將此批次識別碼指派給發佈到 MessageBox 資料庫，來自相同的批次的所有訊息。<br /><br /> 設定為**-1**單一訊息 （不來自傳入的批次）。|字串|"-1"或*全域唯一識別碼 (GUID)*|將訊息相互關聯相同**A4SWIFT_BatchId**可以將它們分組到相同的批次中原本到達值。|  
+|**A4SWIFT_BatchId**|處理傳入的批次時，動態產生 SWIFT 解譯器的全域唯一識別碼。 解譯器會將此批次識別碼指派給發佈到 MessageBox 資料庫，來自相同的批次的所有訊息。<br /><br /> 設定為 **-1**單一訊息 （不來自傳入的批次）。|字串|"-1"或*全域唯一識別碼 (GUID)*|將訊息相互關聯相同**A4SWIFT_BatchId**可以將它們分組到相同的批次中原本到達值。|  
 |**A4SWIFT_BreValidationErrors**|表示商務規則引擎 (BRE) 驗證期間發生的驗證錯誤的數目。|數值|>= 0|未通過 BRE 驗證的訊息篩選條件 (**A4SWIFT_BREValidationErrors**等於零)。|  
 |**A4SWIFT_Failed**|指出訊息處理 （剖析及驗證） 期間是否發生任何失敗。 設定為**True**如果**A4SWIFT_ParseErrors** + **A4SWIFT_XmlValidationErrors** + **A4SWIFT_BreValidationErrors** > 0。|布林|True、False|唯一有效的 SWIFT 訊息篩選條件 (**A4SWIFT_Failed**等於**False**)。|  
 |**A4SWIFT_ParseErrors**|指出在剖析期間發生的剖析錯誤數目。|數值|>= 0|未通過剖析的訊息篩選條件 (**A4SWIFT_ParseErrors**等於零)。|  
-|**A4SWIFT_PosInBatch**|表示來自傳入的批次訊息的序數位置。 批次包含*n*訊息， **A4SWIFT_PosInBatch**接受從 1 到值*n*、 對應至訊息的批次中的序數位置。<br /><br /> 設定為**0**訊息是否為批次標頭。<br /><br /> 設定為**n + 1**訊息是否為批次結尾。<br /><br /> 設定為**1**如果訊息本身就是整個批次 （停用批次片段）。<br /><br /> 設定為**-1**單一訊息 （不來自傳入的批次）。|數值|>= -1|從相同的傳入批次成為原始它們到達的順序排序訊息。|  
+|**A4SWIFT_PosInBatch**|表示來自傳入的批次訊息的序數位置。 批次包含*n*訊息， **A4SWIFT_PosInBatch**接受從 1 到值*n*、 對應至訊息的批次中的序數位置。<br /><br /> 設定為**0**訊息是否為批次標頭。<br /><br /> 設定為**n + 1**訊息是否為批次結尾。<br /><br /> 設定為**1**如果訊息本身就是整個批次 （停用批次片段）。<br /><br /> 設定為 **-1**單一訊息 （不來自傳入的批次）。|數值|>= -1|從相同的傳入批次成為原始它們到達的順序排序訊息。|  
 |**A4SWIFT_XmlValidationErrors**|表示 XML 驗證期間發生的驗證錯誤的數目。|數值|>= 0|未通過 XML 驗證的訊息篩選條件 (**A4SWIFT_XmlValidationErrors**等於零)。|  
   
 > [!NOTE]

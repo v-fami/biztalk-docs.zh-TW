@@ -1,11 +1,11 @@
 ---
-title: "回送教學課程 |Microsoft 文件"
-ms.custom: 
+title: 回送教學課程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - loopbacks, tutorial
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - loopback tutorial
 - tutorials, loopback tutorial
 ms.assetid: 0f69c1f1-4039-4949-8eed-127ceabbc3cc
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210030"
 ---
 # <a name="loopback-tutorial"></a>回送教學課程
 此教學課程包含詳細的步驟，描述如何使用 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]，在單一電腦上模擬主要組織和夥伴組織之間的程序實作。  

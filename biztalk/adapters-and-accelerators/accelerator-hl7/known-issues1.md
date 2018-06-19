@@ -1,18 +1,18 @@
 ---
-title: "已知 Issues1 |Microsoft 文件"
-ms.custom: 
+title: 已知 Issues1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - troubleshooting, known issues
 - known issues
 - BTAHL7, known issues
 ms.assetid: a5b118d0-69c0-42c5-b0ef-47bbdf56ede7
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204798"
 ---
 # <a name="known-issues"></a>已知問題
 本節包含有用的資訊可協助您避免錯誤。  

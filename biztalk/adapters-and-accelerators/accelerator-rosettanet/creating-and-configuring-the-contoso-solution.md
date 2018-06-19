@@ -1,17 +1,17 @@
 ---
-title: "建立與設定 Contoso 解決方案 |Microsoft 文件"
-ms.custom: 
+title: 建立與設定 Contoso 解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - double action tutorial, creating solutions
 - double action tutorial, configuring solutions
 ms.assetid: 25370624-b27f-4f6c-a813-801ac4f81b8f
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209734"
 ---
 # <a name="creating-and-configuring-the-contoso-solution"></a>建立與設定 Contoso 解決方案
 本節的教學課程詳細描述您應該在 Contoso 組織中遵循的步驟。 Contoso 組織是一個製造商，也因此作為回應者，回應所有來自交易夥伴介面程序 (PIP) 的要求。 在此教學課程中，您將要建立四個 PIP 的交易夥伴協議，建立並部署協調流程以根據 PIP 類型傳送適當的回應。  

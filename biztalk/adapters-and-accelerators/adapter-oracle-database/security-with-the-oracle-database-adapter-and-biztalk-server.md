@@ -1,11 +1,11 @@
 ---
-title: "安全性與 Oracle 資料庫配接器和 BizTalk Server |Microsoft 文件"
-ms.custom: 
+title: 安全性與 Oracle 資料庫配接器和 BizTalk Server |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - user name password credentials
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - credentials, security considerations
 - affiliate application
 ms.assetid: c7e0be64-4ab9-4ee3-b88a-4f8f5f07b280
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216278"
 ---
 # <a name="security-with-the-oracle-database-adapter-and-biztalk-server"></a>使用 Oracle 資料庫配接器和 BizTalk Server 安全性
 當您設定傳送埠或接收埠 （位置） 使用 BizTalk Server 管理主控台或使用[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]擷取 BizTalk 解決方案的訊息結構描述，您必須提供認證的 Oracle 資料庫。 請務必在安全的方式，可協助防止它們被洩漏給潛在惡意的動作項目中提供這些認證。 本主題討論如何最安全的方式提供的認證[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]BizTalk Server 解決方案。  
@@ -41,7 +42,7 @@ ms.lasthandoff: 09/20/2017
 ### <a name="user-name-password-credentials"></a>使用者名稱密碼認證  
  您應該只提供使用者名稱和密碼從**認證**（適用於傳送埠） 索引標籤或**其他** 索引標籤 （如接收位置） 中**Wcf-custom 傳輸屬性** 對話方塊。 這可確保：  
   
--   您的認證不會顯示在**位址 (URI)**欄位 對話方塊。 這會防止誰可以存取您的螢幕 （或擁有權限，讓他們檢視傳送埠或接收位置屬性） 的那些看到您的認證。  
+-   您的認證不會顯示在**位址 (URI)** 欄位 對話方塊。 這會防止誰可以存取您的螢幕 （或擁有權限，讓他們檢視傳送埠或接收位置屬性） 的那些看到您的認證。  
   
 -   如果您匯出的傳送埠或接收連接埠繫結密碼將不寫入至繫結檔案。 這可防止存取的任何人從檔案檢視您的密碼。  
   

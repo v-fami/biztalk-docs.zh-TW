@@ -1,14 +1,14 @@
 ---
-title: "訊息結構描述的通知 Operation1 |Microsoft 文件"
-ms.custom: 
+title: 訊息結構描述的通知 Operation1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f98d76d0-6084-4de7-b6ff-124202ca92ab
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214094"
 ---
 # <a name="message-schemas-for-the-notification-operation"></a>通知作業的訊息結構描述
 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]介面上接收從 Oracle 資料庫的資料庫變更通知的通知作業。  

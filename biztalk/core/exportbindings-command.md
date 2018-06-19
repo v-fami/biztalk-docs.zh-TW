@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6573142e-7ca7-4990-98e3-b7a54840da13
-caps.latest.revision: ''
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,12 +17,13 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22246654"
 ---
 # <a name="exportbindings-command"></a>ExportBindings 命令
 匯出 BizTalk 組件、應用程式或群組的繫結。 您也可以連同組件、應用程式或群組一併匯出全域合作對象繫結 (合作對象是與協調流程互動的所有實體，例如貴組織的夥伴)。  
   
 ## <a name="usage"></a>使用方式  
- **BTSTask ExportBindings /Destination:** *值*[**/GroupLevel**] [**/ApplicationName: * **值*] [**/AssemblyName:***值*] &#124; [**/GlobalParties**] [**/Server:***值 *] [* * / d a t:***值 *]  
+ **BTSTask ExportBindings /Destination:** *值*[**/GroupLevel**] [**/ApplicationName: * **值*] [**/AssemblyName:***值*] &#124; [**/GlobalParties **] [**/Server:***值 *] [* * / d a t:*** 值 *]  
   
 ## <a name="parameters"></a>參數  
   

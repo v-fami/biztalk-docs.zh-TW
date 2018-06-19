@@ -1,11 +1,11 @@
 ---
-title: "建立 Oracle 資料庫連線 URI |Microsoft 文件"
-ms.custom: 
+title: 建立 Oracle 資料庫連線 URI |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - connection URI, basic format of
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - connection URI, connecting to the Oracle database
 - connection URI
 ms.assetid: 17d0a6d3-1b0c-43d6-a705-402c09a78ee0
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217470"
 ---
 # <a name="create-the-oracle-database-connection-uri"></a>建立 Oracle 資料庫連線 URI
 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]連線 URI 包含配接器用來連接到 Oracle 資料庫的屬性。 本主題提供有關如何指定要連接到 Oracle 資料庫使用 tnsnames.ora 且未使用 tnsnames.ora URI 的連接資訊。 它也提供使用連接到 Oracle 資料庫的連線 URI 的相關資訊。  
@@ -98,7 +99,7 @@ oracledb://User=[USER_NAME];Password=[PASSWORD]@[SERVER_NAME]:[PORT_NUMBER]/[SER
 >  查詢也會使用參數連接 URI 中指定端點位址時[!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)]中繼資料交換的用戶端。  
   
 ## <a name="oracle-database-credentials-and-the-connection-uri"></a>Oracle 資料庫的認證和連線 URI  
- 根據預設，[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]連線 URI 中指定 Oracle 資料庫認證時，會擲回例外狀況。 這是因為這些認證表示為純文字格式的連線 URI，而這會造成安全性風險。 您可以設定**AcceptCredentialsInUri**屬性繫結至控制項是否連線 URI 可以包含 Oracle 資料庫的認證。 如果**AcceptCredentialsInUri**屬性是**false**、[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]時擲回例外狀況的連線 URI 包含 Oracle 資料庫的認證; 如果屬性是**，則為 true**，擲回任何例外狀況。 有幾個少數的情況下，它是必要的連線 URI，指定認證例如，接收輸入的 POLLINGSTMT 作業，當您使用 WCF 服務模型或 WCF 通道模型。 大部分的情況下，不過，您應該避免提供連線 URI 中的認證。 如需如何以更安全的方式提供的認證將 Oracle 資料庫的詳細資訊，請參閱[保護 Oracle 資料庫應用程式安全](../../adapters-and-accelerators/adapter-oracle-database/secure-your-oracle-database-applications.md)。  
+ 根據預設，[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]連線 URI 中指定 Oracle 資料庫認證時，會擲回例外狀況。 這是因為這些認證表示為純文字格式的連線 URI，而這會造成安全性風險。 您可以設定**AcceptCredentialsInUri**屬性繫結至控制項是否連線 URI 可以包含 Oracle 資料庫的認證。 如果**AcceptCredentialsInUri**屬性是**false**、[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]時擲回例外狀況的連線 URI 包含 Oracle 資料庫的認證; 如果屬性是 **，則為 true**，擲回任何例外狀況。 有幾個少數的情況下，它是必要的連線 URI，指定認證例如，接收輸入的 POLLINGSTMT 作業，當您使用 WCF 服務模型或 WCF 通道模型。 大部分的情況下，不過，您應該避免提供連線 URI 中的認證。 如需如何以更安全的方式提供的認證將 Oracle 資料庫的詳細資訊，請參閱[保護 Oracle 資料庫應用程式安全](../../adapters-and-accelerators/adapter-oracle-database/secure-your-oracle-database-applications.md)。  
   
 > [!IMPORTANT]
 >  在字串中傳遞認證以純文字所造成的安全性風險，因為您應該避免在連線 URI 中指定 Oracle 資料庫連接認證。  

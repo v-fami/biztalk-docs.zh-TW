@@ -1,11 +1,11 @@
 ---
-title: "連接到 Oracle 資料庫使用配接器 |Microsoft 文件"
-ms.custom: 
+title: 連接到 Oracle 資料庫使用配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - connection string
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - URI
 - connection URI
 ms.assetid: 5d5598e5-aba0-4c73-8e97-9156475b93c4
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214750"
 ---
 # <a name="connect-to-oracle-database-using-the-adapter"></a>連接到 Oracle 資料庫使用配接器
 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]使用 ODP.NET 11.1.0.7 連接到 Oracle 資料庫。 [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]需要配接器用戶端提供的連接字串，呼叫統一資源識別元 (URI)，連接到 Oracle 資料庫的連接。 就內部而言， [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] URI 會對應至連接到 Oracle 資料庫的資料庫連接字串。 使用 連線 URI，配接器用戶端可以指定連線參數，以連接到外部系統。  

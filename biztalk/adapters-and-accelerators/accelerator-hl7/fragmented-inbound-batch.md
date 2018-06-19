@@ -1,18 +1,18 @@
 ---
-title: "分割輸入批次 |Microsoft 文件"
-ms.custom: 
+title: 分割輸入批次 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - batching, fragmenting messages
 - messages, fragmenting
 - fragmenting messages
 ms.assetid: 5844710e-f662-48a3-bf1a-bc1ba91e678a
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204886"
 ---
 # <a name="fragmented-inbound-batch"></a>分散的傳入批次
 您可以設定[!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]接收訊息批次，從擷取訊息批次，並再將個別的訊息路由至目的地系統。 如果您啟用分散的片段，為個別的訊息; 輸入批次片段否則，批次是處理，做為單一 'batch' 或交換路由傳送。 您可以使用 BTAHL7 Configuration 總管來啟用批次處理。 如需啟用批次處理的詳細資訊，請參閱[設定批次處理](../../adapters-and-accelerators/accelerator-hl7/configuring-batching.md)。  

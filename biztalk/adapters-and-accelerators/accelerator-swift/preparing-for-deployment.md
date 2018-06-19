@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22213942"
 ---
 # <a name="preparing-for-deployment"></a>準備部署
 本節提供在部署計畫和準備工作階段的相關資訊。 在實作之前部署，進行下列準備：  

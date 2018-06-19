@@ -1,20 +1,21 @@
 ---
-title: "解除安裝 BizTalk Server 上的 BizTalk RosettaNet 加速器 (BTARN) |Microsoft 文件 」"
-description: "解除部署成品，並取消設定 BTARN 以移除 BizTalk Server 加速器"
+title: 解除安裝 BizTalk Server 上的 BizTalk RosettaNet 加速器 (BTARN) |Microsoft 文件 」
+description: 解除部署成品，並取消設定 BTARN 以移除 BizTalk Server 加速器
 author: MandiOhlinger
 manager: anneta
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-ms.assetid: 
+ms.assetid: ''
 ms.author: mandia
 ms.openlocfilehash: 8d289a3705eb0c127dc4d2637c2d6ffd3c122b36
 ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209838"
 ---
 # <a name="uninstall-the-rosettanet-accelerator"></a>解除安裝 RosettaNet 加速器
 
@@ -22,7 +23,7 @@ ms.lasthandoff: 09/20/2017
   
 * 如果您只執行**Setup.exe**，解除安裝程序不會移除商務活動監控 (BAM) 成品、 BizTalk 成品、 網際網路資訊服務 (IIS) 虛擬目錄和應用程式集區。  
   
-* 如果您使用**回送**公用程式來建立鏡像協議，針對單一電腦部署，然後執行該工具搭配**/停用 <** **home 組織** **>** 選項後再中刪除夥伴**BTARN 管理主控台**。  
+* 如果您使用**回送**公用程式來建立鏡像協議，針對單一電腦部署，然後執行該工具搭配 **/停用 <** **home 組織** **>** 選項後再中刪除夥伴**BTARN 管理主控台**。  
   
 * 如果此伺服器是多電腦部署的一部分，不會執行**BtarnClean**公用程式或手動解除部署 BTARN 組件。 一部電腦上移除成品會中斷其他電腦的功能。  如果您想要從所有伺服器解除安裝 BTARN，然後執行**BtarnClean**公用程式。 
 

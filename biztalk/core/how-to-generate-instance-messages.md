@@ -1,14 +1,14 @@
 ---
-title: "如何產生執行個體訊息 |Microsoft 文件"
-ms.custom: 
+title: 如何產生執行個體訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ff74c67a-7e73-4153-9ec4-e6e50464ee92
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254398"
 ---
 # <a name="how-to-generate-instance-messages"></a>如何產生執行個體訊息
 在您已經建構結構描述之後，可以利用從結構描述產生範例執行個體訊息的方法來檢查您的工作。 在許多方面，查看執行個體訊息會比查看結構描述樹狀結構，或是結構描述的 XML 結構描述定義 (XSD) 語言表示法更為直接。 這是因為結構描述需要描述對應的執行個體訊息的所有可能變化，而且特定的執行個體訊息只需要使用結構描述指定的格式即可傳遞某些資料。 產生的執行個體訊息只是範例，可能無法顯示由對應的結構描述定義的所有結構。  

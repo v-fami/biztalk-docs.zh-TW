@@ -1,17 +1,17 @@
 ---
-title: "步驟 5： 設定 BizTalk 傳訊的伺服器 |Microsoft 文件"
-ms.custom: 
+title: 步驟 5： 設定 BizTalk 傳訊的伺服器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring, BizTalk Messaging servers
 - BizTalk Messaging servers, configuring
 ms.assetid: 598d336d-b006-4d02-9249-e9d6d9b6b7b5
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214006"
 ---
 # <a name="step-5-configuring-the-biztalk-messaging-servers"></a>步驟 5： 設定 BizTalk 傳訊的伺服器
 此章節提供的指導方針設定 BizTalk 傳訊的伺服器。  
